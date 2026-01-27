@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout
@@ -124,7 +125,7 @@ import Layout from '../layouts/Layout.astro';
       <p class="text-dark/70 mb-6 max-w-xl mx-auto">
         2 Stunden Videocall für 400€ – alle deine Fragen, mein gesamtes Wissen aus 20+ Jahren.
       </p>
-      <a href="/leistungen" class="btn-secondary">
+      <a href={`${baseUrl}/leistungen`} class="btn-secondary">
         Mehr erfahren →
       </a>
     </div>

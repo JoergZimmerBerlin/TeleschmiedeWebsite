@@ -7,6 +7,7 @@ const posts = await getCollection('blog');
 const sortedPosts = posts.sort((a, b) =>
   new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout
@@ -40,7 +41,7 @@ const sortedPosts = posts.sort((a, b) =>
         <div class="space-y-6">
           {sortedPosts.map((post) => (
             <article class="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 hover:shadow-lg hover:border-lime-accent/50 transition-all">
-              <a href={`/blog/${post.slug}`} class="block">
+              <a href={`${baseUrl}/blog/${post.slug}`} class="block">
                 <p class="subheadline mb-2">{new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
                 <h2 class="text-xl md:text-2xl font-bold mb-3 hover:text-lime-600 transition-colors">
                   {post.data.title}

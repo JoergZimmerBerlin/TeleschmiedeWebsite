@@ -29,3 +29,6 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Local only (Credentials, etc. - NEVER commit!)
+local-only/

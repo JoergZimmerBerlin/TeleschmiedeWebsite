@@ -4,17 +4,22 @@ interface Props {
 }
 
 const { currentPath } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const navItems = [
-  { href: '/', label: 'Start' },
-  { href: '/ueber-mich', label: 'Über mich' },
-  { href: '/leistungen', label: 'Leistungen' },
-  { href: '/blog', label: 'Blog' },
+  { href: `${baseUrl}/`, label: 'Start' },
+  { href: `${baseUrl}/ueber-mich`, label: 'Über mich' },
+  { href: `${baseUrl}/leistungen`, label: 'Leistungen' },
+  { href: `${baseUrl}/blog`, label: 'Blog' },
 ];
 
 const isActive = (href: string) => {
-  if (href === '/') return currentPath === '/';
-  return currentPath.startsWith(href);
+  const normalizedPath = currentPath.replace(/\/$/, '') || '/';
+  const normalizedHref = href.replace(/\/$/, '') || '/';
+  if (normalizedHref === baseUrl || normalizedHref === `${baseUrl}/`) {
+    return normalizedPath === baseUrl || normalizedPath === `${baseUrl}/`;
+  }
+  return normalizedPath.startsWith(normalizedHref);
 };
 ---
 
@@ -22,7 +27,7 @@ const isActive = (href: string) => {
   <div class="max-w-6xl mx-auto px-6 py-4">
     <nav class="flex items-center justify-between">
       <!-- Logo -->
-      <a href="/" class="flex items-center gap-2">
+      <a href={`${baseUrl}/`} class="flex items-center gap-2">
         <span class="text-xl font-bold text-dark">TELE</span>
         <span class="text-xl font-bold text-dark">SCHMIE<span class="text-lime-accent">.</span>DE</span>
       </a>
@@ -46,7 +51,7 @@ const isActive = (href: string) => {
 
       <!-- CTA Button -->
       <a
-        href="/kontakt"
+        href={`${baseUrl}/kontakt`}
         class="hidden md:inline-flex btn-primary"
       >
         Kontakt
@@ -80,7 +85,7 @@ const isActive = (href: string) => {
             {item.label}
           </a>
         ))}
-        <a href="/kontakt" class="btn-primary text-center mt-2">
+        <a href={`${baseUrl}/kontakt`} class="btn-primary text-center mt-2">
           Kontakt
         </a>
       </div>

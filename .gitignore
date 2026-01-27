@@ -32,3 +32,6 @@ npm-debug.log*
 
 # Local only (Übergabe, Credentials, etc.)
 local-only/
+
+# Claude Code Rules (lokal)
+CLAUDE.md

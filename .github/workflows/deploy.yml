@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Ermöglicht manuelles Auslösen
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -26,13 +26,12 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Deploy to IONOS via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: Deploy via SFTP
+        uses: pressidium/lftp-mirror-action@v1
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          port: 22
-          local_path: './dist/*'
-          remote_path: '/htdocs/'
-          sftp_only: true
+          host: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USER }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          localDir: './dist'
+          remoteDir: '.'
+          options: '--verbose'

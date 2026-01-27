@@ -34,5 +34,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22
           local_path: './dist/*'
-          remote_path: '/teleschmie/'
+          remote_path: '/'
           sftp_only: true

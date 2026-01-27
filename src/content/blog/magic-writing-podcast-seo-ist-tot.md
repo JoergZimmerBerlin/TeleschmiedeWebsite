@@ -3,6 +3,8 @@ title: "SEO ist tot? Magic Writing Podcast mit Michael Kaufhold"
 description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SEO, Google und warum Zielgruppenverständnis so unterschätzt wird."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"
+image: "https://i.scdn.co/image/ab67656300005f1f2e26cf64fc4c03b69c6c3672"
+image_alt: "Magic Writing Podcast Cover - Die Zukunft von SEO"
 ---
 
 "SEO ist tot" – sagen sie und schreiben dann für den Algorithmus.

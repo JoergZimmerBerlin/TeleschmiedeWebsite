@@ -40,21 +40,31 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       ) : (
         <div class="space-y-6">
           {sortedPosts.map((post) => (
-            <article class="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 hover:shadow-lg hover:border-lime-accent/50 transition-all">
+            <article class="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-lg hover:border-lime-accent/50 transition-all">
               <a href={`${baseUrl}/blog/${post.slug}`} class="block">
-                <p class="subheadline mb-2">{new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-                <h2 class="text-xl md:text-2xl font-bold mb-3 hover:text-lime-600 transition-colors">
-                  {post.data.title}
-                </h2>
-                <p class="text-gray-muted mb-4">
-                  {post.data.description}
-                </p>
-                <span class="inline-flex items-center gap-2 text-sm font-medium text-dark">
-                  Weiterlesen
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </span>
+                {post.data.image && (
+                  <img
+                    src={post.data.image}
+                    alt={post.data.image_alt || post.data.title}
+                    class="w-full h-48 object-cover"
+                    loading="lazy"
+                  />
+                )}
+                <div class="p-6 md:p-8">
+                  <p class="subheadline mb-2">{new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+                  <h2 class="text-xl md:text-2xl font-bold mb-3 hover:text-lime-600 transition-colors">
+                    {post.data.title}
+                  </h2>
+                  <p class="text-gray-muted mb-4">
+                    {post.data.description}
+                  </p>
+                  <span class="inline-flex items-center gap-2 text-sm font-medium text-dark">
+                    Weiterlesen
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </span>
+                </div>
               </a>
             </article>
           ))}

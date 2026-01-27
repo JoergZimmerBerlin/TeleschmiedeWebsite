@@ -1,0 +1,73 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-gray-50 border-t border-gray-100">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Brand -->
+      <div>
+        <a href="/" class="text-xl font-bold text-dark">
+          TELESCHMIE<span class="text-lime-accent">.</span>DE
+        </a>
+        <p class="mt-3 text-gray-muted text-sm">
+          SEO & SEA Freelancer in Berlin<br />
+          Über 20 Jahre Erfahrung
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <h4 class="font-semibold text-dark mb-3">Navigation</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/" class="text-gray-muted hover:text-dark transition-colors">Start</a></li>
+          <li><a href="/ueber-mich" class="text-gray-muted hover:text-dark transition-colors">Über mich</a></li>
+          <li><a href="/leistungen" class="text-gray-muted hover:text-dark transition-colors">Leistungen</a></li>
+          <li><a href="/blog" class="text-gray-muted hover:text-dark transition-colors">Blog</a></li>
+          <li><a href="/kontakt" class="text-gray-muted hover:text-dark transition-colors">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="font-semibold text-dark mb-3">Kontakt</h4>
+        <ul class="space-y-2 text-sm">
+          <li class="text-gray-muted">Berlin-Spandau</li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/joergzimmer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-muted hover:text-dark transition-colors inline-flex items-center gap-1"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.xing.com/profile/Joerg_Zimmer"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-muted hover:text-dark transition-colors inline-flex items-center gap-1"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.026c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.041z"/></svg>
+              XING
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="text-sm text-gray-muted">
+        &copy; {currentYear} Jörg Zimmer. Alle Rechte vorbehalten.
+      </p>
+      <div class="flex gap-6 text-sm">
+        <a href="/impressum" class="text-gray-muted hover:text-dark transition-colors">Impressum</a>
+        <a href="/datenschutz" class="text-gray-muted hover:text-dark transition-colors">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+</footer>

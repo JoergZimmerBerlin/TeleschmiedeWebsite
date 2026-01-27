@@ -1,0 +1,85 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Get all blog posts, sorted by date
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) =>
+  new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<Layout
+  title="Blog | Jörg Zimmer - SEO Insights"
+  description="SEO-Insights, Google-Tipps und Gedanken aus der Praxis. Basierend auf meinen LinkedIn-Beiträgen und über 20 Jahren Erfahrung."
+>
+  <!-- Hero -->
+  <section class="section">
+    <div class="container-narrow">
+      <p class="subheadline mb-6">Blog</p>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
+        <span class="highlight">Insights</span> aus der Praxis.
+      </h1>
+
+      <p class="text-lg md:text-xl text-gray-muted max-w-2xl">
+        Hier teile ich meine Gedanken zu SEO, Google und allem was mich in der
+        digitalen Welt bewegt. Oft basierend auf Diskussionen, die auf LinkedIn stattfinden.
+      </p>
+    </div>
+  </section>
+
+  <!-- Posts Grid -->
+  <section class="pb-20">
+    <div class="container-narrow">
+      {sortedPosts.length === 0 ? (
+        <div class="text-center py-12">
+          <p class="text-gray-muted">Noch keine Beiträge vorhanden.</p>
+        </div>
+      ) : (
+        <div class="space-y-6">
+          {sortedPosts.map((post) => (
+            <article class="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 hover:shadow-lg hover:border-lime-accent/50 transition-all">
+              <a href={`/blog/${post.slug}`} class="block">
+                <p class="subheadline mb-2">{new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+                <h2 class="text-xl md:text-2xl font-bold mb-3 hover:text-lime-600 transition-colors">
+                  {post.data.title}
+                </h2>
+                <p class="text-gray-muted mb-4">
+                  {post.data.description}
+                </p>
+                <span class="inline-flex items-center gap-2 text-sm font-medium text-dark">
+                  Weiterlesen
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </span>
+              </a>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section bg-gray-50">
+    <div class="container-narrow text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">
+        Folge mir auf LinkedIn
+      </h2>
+      <p class="text-gray-muted mb-6 max-w-xl mx-auto">
+        Dort poste ich regelmäßig und diskutiere mit der Community.
+        Die Beiträge hier sind Zusammenfassungen dieser Diskussionen.
+      </p>
+      <a
+        href="https://www.linkedin.com/in/joergzimmer/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-primary"
+      >
+        Zu LinkedIn →
+      </a>
+    </div>
+  </section>
+</Layout>

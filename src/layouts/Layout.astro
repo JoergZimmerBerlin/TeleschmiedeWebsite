@@ -1,0 +1,66 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'SEO & SEA Freelancer in Berlin - Über 20 Jahre Erfahrung in Suchmaschinenoptimierung und Google Ads.' } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+
+    <!-- Security -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- SEO -->
+    <meta name="author" content="Jörg Zimmer" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="Jörg Zimmer - SEO Freelancer" />
+    <meta property="og:url" content={`https://teleschmie.de${currentPath}`} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://www.linkedin.com" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href={`https://teleschmie.de${currentPath}`} />
+
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen flex flex-col bg-white">
+    <Navigation currentPath={currentPath} />
+
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

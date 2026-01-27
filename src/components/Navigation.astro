@@ -1,0 +1,98 @@
+---
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+
+const navItems = [
+  { href: '/', label: 'Start' },
+  { href: '/ueber-mich', label: 'Über mich' },
+  { href: '/leistungen', label: 'Leistungen' },
+  { href: '/blog', label: 'Blog' },
+];
+
+const isActive = (href: string) => {
+  if (href === '/') return currentPath === '/';
+  return currentPath.startsWith(href);
+};
+---
+
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+  <div class="max-w-6xl mx-auto px-6 py-4">
+    <nav class="flex items-center justify-between">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-2">
+        <span class="text-xl font-bold text-dark">TELE</span>
+        <span class="text-xl font-bold text-dark">SCHMIE<span class="text-lime-accent">.</span>DE</span>
+      </a>
+
+      <!-- Desktop Navigation (Pill-Style wie lau.do) -->
+      <div class="hidden md:flex items-center gap-1 bg-gray-50 rounded-full p-1.5">
+        {navItems.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              'px-4 py-2 rounded-full text-sm font-medium transition-all duration-200',
+              isActive(item.href)
+                ? 'bg-white text-dark shadow-sm'
+                : 'text-gray-muted hover:text-dark'
+            ]}
+          >
+            {item.label}
+          </a>
+        ))}
+      </div>
+
+      <!-- CTA Button -->
+      <a
+        href="/kontakt"
+        class="hidden md:inline-flex btn-primary"
+      >
+        Kontakt
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-btn"
+        class="md:hidden p-2 text-dark"
+        aria-label="Menü öffnen"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+      <div class="flex flex-col gap-2">
+        {navItems.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              'px-4 py-3 rounded-lg font-medium transition-colors',
+              isActive(item.href)
+                ? 'bg-gray-100 text-dark'
+                : 'text-gray-muted hover:bg-gray-50'
+            ]}
+          >
+            {item.label}
+          </a>
+        ))}
+        <a href="/kontakt" class="btn-primary text-center mt-2">
+          Kontakt
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

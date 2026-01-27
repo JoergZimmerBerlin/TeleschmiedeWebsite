@@ -24,11 +24,14 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
   <section class="pb-20">
     <div class="container-narrow">
       <div class="grid md:grid-cols-3 gap-12">
-        <!-- Image Placeholder -->
+        <!-- Profile Image -->
         <div class="md:col-span-1">
-          <div class="aspect-square bg-gray-100 rounded-2xl flex items-center justify-center">
-            <span class="text-gray-400 text-sm">Foto kommt hier</span>
-          </div>
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipMPFlBvajLFx4QdWLG0ehQ1rQvbh7db-HeEl4qE=s1360-w1360-h1020-rw"
+            alt="Jörg Zimmer - SEO Freelancer Berlin"
+            class="w-full aspect-square object-cover rounded-2xl"
+            loading="lazy"
+          />
 
           <!-- Quick Facts -->
           <div class="mt-8 space-y-4">
@@ -108,10 +111,20 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           </p>
 
           <div class="bg-gray-50 rounded-2xl p-6 mt-8">
-            <p class="text-lg font-medium text-dark">
-              "Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt."
-            </p>
-            <p class="text-gray-muted mt-2">ALOHA ✌️</p>
+            <div class="flex flex-col md:flex-row gap-6 items-center">
+              <img
+                src="https://lh3.googleusercontent.com/p/AF1QipMZm-1yF_6vXqV4y_5SS_eBCPHQnrqA6fUq4DTQ=s1360-w1360-h1020-rw"
+                alt="Jörg Zimmer mit Katze"
+                class="w-24 h-24 object-cover rounded-full flex-shrink-0"
+                loading="lazy"
+              />
+              <div>
+                <p class="text-lg font-medium text-dark">
+                  "Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt."
+                </p>
+                <p class="text-gray-muted mt-2">ALOHA ✌️</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

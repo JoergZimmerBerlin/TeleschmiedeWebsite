@@ -132,17 +132,29 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   <!-- CTA Section -->
   <section class="section bg-dark text-white">
-    <div class="container-narrow text-center">
-      <p class="subheadline mb-4 text-gray-400">Bereit für bessere Rankings?</p>
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">
-        Lass uns sprechen.
-      </h2>
-      <p class="text-gray-400 mb-8 max-w-xl mx-auto">
-        Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt.
-      </p>
-      <a href={`${baseUrl}/kontakt`} class="btn-primary">
-        Kontakt aufnehmen
-      </a>
+    <div class="container-narrow">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/3">
+          <img
+            src="https://lh3.googleusercontent.com/p/AF1QipNt7ObXEWdg0lsxeAiRqlJnnMOsSDMY5mi1AXr7=s1360-w1360-h1020-rw"
+            alt="Jörg Zimmer - SEO Experte"
+            class="w-48 h-48 md:w-full md:h-auto object-cover rounded-2xl mx-auto"
+            loading="lazy"
+          />
+        </div>
+        <div class="md:w-2/3 text-center md:text-left">
+          <p class="subheadline mb-4 text-gray-400">Bereit für bessere Rankings?</p>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Lass uns sprechen.
+          </h2>
+          <p class="text-gray-400 mb-8 max-w-xl">
+            Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt.
+          </p>
+          <a href={`${baseUrl}/kontakt`} class="btn-primary">
+            Kontakt aufnehmen
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </Layout>

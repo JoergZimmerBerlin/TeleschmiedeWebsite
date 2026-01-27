@@ -7,26 +7,38 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- Hero Section -->
   <section class="section">
     <div class="container-narrow">
-      <p class="subheadline mb-6">SEO & SEA Freelancer Berlin-Spandau</p>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-2/3">
+          <p class="subheadline mb-6">SEO & SEA Freelancer Berlin-Spandau</p>
 
-      <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
-        Ich bringe dein
-        <span class="highlight">Google-Ranking</span>
-        auf den Punkt.
-      </h1>
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
+            Ich bringe dein
+            <span class="highlight">Google-Ranking</span>
+            auf den Punkt.
+          </h1>
 
-      <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
-        20+ Jahre Erfahrung in SEO, Google Ads und datengetriebener Strategie.
-        Als Spezialist für tiefe Detailfragen ruft man mich, wenn andere keine Lösung finden.
-      </p>
+          <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
+            20+ Jahre Erfahrung in SEO, Google Ads und datengetriebener Strategie.
+            Als Spezialist für tiefe Detailfragen ruft man mich, wenn andere keine Lösung finden.
+          </p>
 
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href={`${baseUrl}/kontakt`} class="btn-primary">
-          Jetzt Kontakt aufnehmen
-        </a>
-        <a href={`${baseUrl}/leistungen`} class="btn-secondary">
-          Leistungen ansehen
-        </a>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={`${baseUrl}/kontakt`} class="btn-primary">
+              Jetzt Kontakt aufnehmen
+            </a>
+            <a href={`${baseUrl}/leistungen`} class="btn-secondary">
+              Leistungen ansehen
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/3 hidden md:block">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4E22AQETU5CgpP5x4Q/feedshare-shrink_1280/B4EZWUnzo7GYAk-/0/1741955219815?e=1770854400&v=beta&t=bfOEv19uO2pVegt9lD0LoCexiUO0E3Sd_UIl3X06xsY"
+            alt="Jörg Zimmer - SEO Experte"
+            class="w-full rounded-2xl shadow-lg"
+            loading="lazy"
+          />
+        </div>
       </div>
     </div>
   </section>

@@ -5,7 +5,22 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Impressum | Jörg Zimmer" description="Impressum und Angaben gemäß § 5 TMG">
   <section class="section">
     <div class="container-narrow">
-      <h1 class="text-3xl md:text-4xl font-bold mb-8">Impressum</h1>
+      <div class="flex flex-col md:flex-row items-start gap-12 mb-12">
+        <div class="md:w-2/3">
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">Impressum</h1>
+          <p class="text-lg text-gray-muted">
+            Angaben gemäß § 5 TMG und Kontaktmöglichkeiten.
+          </p>
+        </div>
+        <div class="md:w-1/3">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4E22AQH65cEznBUpdQ/feedshare-shrink_800/feedshare-shrink_800/0/1731440893124?e=1770854400&v=beta&t=p0xGaHdylTRE_0BTGl-p5bNeBbAjUztRIHRrl0LzMyg"
+            alt="Jörg Zimmer"
+            class="w-full rounded-2xl shadow-lg"
+            loading="lazy"
+          />
+        </div>
+      </div>
 
       <div class="prose prose-lg max-w-none">
         <h2>Angaben gemäß § 5 TMG</h2>

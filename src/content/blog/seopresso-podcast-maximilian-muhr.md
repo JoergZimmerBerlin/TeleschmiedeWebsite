@@ -3,8 +3,8 @@ title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
 description: "Björn Darko interviewt Maximilian Muhr im SEOpresso Podcast - ehrliche Einblicke in 15+ Jahre SEO-Karriere."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_seopresso-seo-karriere-activity-7385248850594353152-Ev6m"
-image: "https://media.licdn.com/dms/image/v2/D4D22AQGDfwfRG4gHww/feedshare-shrink_800/B4DZqS1zUeG8Ag-/0/1763400170987?e=1770854400&v=beta&t=Wlu24oOFaVlOrxV64g_X7Ghy3JwAaUGL4GhoEfV35Rg"
-image_alt: "SEOpresso Podcast - SEO Persönlich mit Jörg Zimmer"
+image: "https://media.licdn.com/dms/image/v2/D4E22AQFL8_Wy5roT8Q/feedshare-shrink_800/B4EZnccM3wKkAg-/0/1760340006518?e=1770854400&v=beta&t=bRSHt7_25z08O4RfRcnh85yuKEYMoogYO5VEKZGJOuE"
+image_alt: "SEOpresso Podcast mit Maximilian Muhr"
 ---
 
 Hab es mir angehört und musste bei **Chuck Norris Witze für die Bild Website** so lachen. Ja, so waren die Zeiten damals.

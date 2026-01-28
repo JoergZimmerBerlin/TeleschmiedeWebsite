@@ -4,7 +4,7 @@ description: "Ganz einfach: Videocall buchen, Domain und Fragen vorab schicken, 
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wie-l%C3%A4uft-so-eine-seo-sprechstunde-ab-ganz-activity-7242563916046766081-eVJc"
 image: "/images/blog/seo-sprechstunde.jpg"
-image_alt: "Kundenbewertung von Martin Meng über die SEO-Sprechstunde"
+image_alt: "SEO-Sprechstunde mit Jörg Zimmer - 5-Sterne-Bewertung von Martin Meng CEO konfidal"
 ---
 
 Wie läuft so eine SEO-Sprechstunde ab? Ganz einfach:

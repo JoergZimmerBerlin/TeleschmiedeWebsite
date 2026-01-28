@@ -4,7 +4,7 @@ description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SE
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"
 image: "/images/blog/magic-writing-podcast.jpg"
-image_alt: "Magic Writing Podcast Cover - Die Zukunft von SEO"
+image_alt: "Magic Writing Podcast mit Michael Kaufhold und Jörg Zimmer - Ist SEO wirklich tot?"
 ---
 
 "SEO ist tot" – sagen sie und schreiben dann für den Algorithmus.

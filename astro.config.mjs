@@ -1,8 +1,11 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
-// Automatische Erkennung: GitHub Pages vs Produktion
-const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
+// Deployment-Erkennung: IONOS (Produktion) vs GitHub Pages (Preview)
+// DEPLOY_TARGET=ionos → teleschmie.de (kein base prefix)
+// Sonst GitHub Actions → GitHub Pages mit /TeleschmiedeWebsite prefix
+const isIONOS = process.env.DEPLOY_TARGET === 'ionos';
+const isGitHubPages = process.env.GITHUB_ACTIONS === 'true' && !isIONOS;
 
 export default defineConfig({
   site: isGitHubPages

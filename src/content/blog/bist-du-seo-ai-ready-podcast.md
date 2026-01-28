@@ -3,7 +3,7 @@ title: "Bist du SEO AI Ready? Podcast mit Antonio Blago"
 description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 20 Jahren SEO & Google Ads - ehrlich, ohne Buzzword-Bingo."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/antonioblago_bist-du-seo-ai-ready-alle-reden-%C3%BCber-ai-activity-7363117745070112768-BRRj"
-image: "https://media.licdn.com/dms/image/v2/D4D22AQFIklAyEVZE_g/feedshare-shrink_800/B4DZsxeFnsKcAg-/0/1766061531099?e=1770854400&v=beta&t=b3IwgZsp6bcwIQiKIcJL10DZImJjEiOpnptjsY6jeEk"
+image: "/images/blog/ai-ready-podcast.jpg"
 image_alt: "Jörg Zimmer bei einer Präsentation"
 ---
 

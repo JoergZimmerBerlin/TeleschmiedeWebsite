@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout title="Impressum | Jörg Zimmer" description="Impressum und Angaben gemäß § 5 TMG">
@@ -14,7 +15,7 @@ import Layout from '../layouts/Layout.astro';
         </div>
         <div class="md:w-1/3">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E22AQH65cEznBUpdQ/feedshare-shrink_800/feedshare-shrink_800/0/1731440893124?e=1770854400&v=beta&t=p0xGaHdylTRE_0BTGl-p5bNeBbAjUztRIHRrl0LzMyg"
+            src={`${baseUrl}/images/pages/impressum.jpg`}
             alt="Jörg Zimmer"
             class="w-full rounded-2xl shadow-lg"
             loading="lazy"

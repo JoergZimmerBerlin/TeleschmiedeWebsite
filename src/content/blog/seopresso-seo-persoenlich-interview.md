@@ -3,7 +3,7 @@ title: "SEO Persönlich: Mein Interview im SEOpresso Podcast"
 description: "Ein sehr persönliches Interview über meine Anfänge und 24 Jahre Selbständigkeit - im SEOpresso Podcast mit Björn Darko."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bjoerndarko_seo-freelancing-seopodcast-activity-7348282072345587712-wSkZ"
-image: "https://media.licdn.com/dms/image/v2/D4D22AQGDfwfRG4gHww/feedshare-shrink_800/B4DZqS1zUeG8Ag-/0/1763400170987?e=1770854400&v=beta&t=Wlu24oOFaVlOrxV64g_X7Ghy3JwAaUGL4GhoEfV35Rg"
+image: "/images/blog/seopresso-interview.jpg"
 image_alt: "SEOpresso Podcast - SEO Persönlich mit Jörg Zimmer"
 ---
 

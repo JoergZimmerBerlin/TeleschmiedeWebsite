@@ -3,6 +3,8 @@ title: "GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen soll
 description: "Die neuen Buzzwords der SEO-Branche erklärt - und warum das Thema zu komplex für Anfänger ist."
 date: "2026-01-23"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+image: "/images/pages/leistungen-hero.jpg"
+image_alt: "Jörg Zimmer erklärt GEO, AIO und AI-SEO - Expertise statt Praktikanten"
 ---
 
 Die SEO-Welt hat mal wieder neue Abkürzungen: **GEO** (Generative Engine Optimization), **AIO** (AI Optimization), **AI-SEO**. Klingt alles fancy, aber was steckt wirklich dahinter?

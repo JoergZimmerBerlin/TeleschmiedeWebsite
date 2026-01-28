@@ -3,6 +3,8 @@ title: "24 Jahre SEO - und wir machen immer noch die gleichen Fehler"
 description: "Ein ehrlicher Blick auf die Fehler, die ich seit über zwei Jahrzehnten immer wieder sehe."
 date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+image: "/images/profile/joerg-zimmer-portrait.jpg"
+image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
 ---
 
 Ich mache jetzt seit über 24 Jahren SEO. Und wisst ihr was? Die Fehler, die ich 2002 gesehen habe, sehe ich 2026 immer noch. Nur die Tools sind schicker geworden.

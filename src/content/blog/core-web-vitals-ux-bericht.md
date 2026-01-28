@@ -3,6 +3,8 @@ title: "Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst"
 description: "Von 0 auf 216 gute URLs - ein echter Case aus meiner SEO-Arbeit."
 date: "2026-01-05"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+image: "/images/profile/website-boosting-magazin.jpg"
+image_alt: "Core Web Vitals optimieren - Jörg Zimmer zeigt wie es geht"
 ---
 
 Ich liebe Zahlen. Besonders wenn sie so aussehen:

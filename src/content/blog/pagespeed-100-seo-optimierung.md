@@ -3,11 +3,9 @@ title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "/images/blog/pagespeed-100-teleschmie.webp"
-image_alt: "PageSpeed Insights zeigt 100/100 Score für teleschmie.de"
+image: "/images/pages/hero-pose.jpg"
+image_alt: "PageSpeed 100/100 - So wurde teleschmie.de blitzschnell"
 ---
-
-![PageSpeed Insights zeigt 100/100 für teleschmie.de](/images/blog/pagespeed-100-teleschmie.webp)
 
 Diese Website hat einen **PageSpeed Score von 100/100** – sowohl auf Mobile als auch auf Desktop. Kein Zufall, sondern das Ergebnis gezielter Optimierungen. In diesem Artikel zeige ich dir alle Maßnahmen, die dafür nötig waren.
 

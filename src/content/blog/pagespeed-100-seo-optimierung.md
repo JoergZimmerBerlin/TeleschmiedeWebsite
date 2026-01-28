@@ -1,10 +1,10 @@
 ---
 title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
-pubDate: 2026-01-29
-author: "Jörg Zimmer"
+date: "2026-01-29"
+linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/blog/pagespeed-100-teleschmie.webp"
-tags: ["PageSpeed", "SEO", "Performance", "Web Development"]
+image_alt: "PageSpeed Insights zeigt 100/100 Score für teleschmie.de"
 ---
 
 ![PageSpeed Insights zeigt 100/100 für teleschmie.de](/images/blog/pagespeed-100-teleschmie.webp)

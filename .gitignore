@@ -33,5 +33,14 @@ npm-debug.log*
 # Local only (Übergabe, Credentials, etc.)
 local-only/
 
+# Deploy Script (enthält Credentials!)
+deploy.sh
+
+# Lokale Dokumente
+docs/
+
+# Lokale Screenshots
+images/
+
 # Claude Code Rules (lokal)
 CLAUDE.md

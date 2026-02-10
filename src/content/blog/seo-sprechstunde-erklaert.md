@@ -3,6 +3,8 @@ title: "Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Gr
 description: "Was passiert eigentlich in einer 2-stündigen SEO-Beratung? Hier sind die Grundinfos."
 date: "2026-01-03"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+image: "/images/profile/katze-seo-hoodie.jpg"
+image_alt: "SEO-Sprechstunde erklärt - Was erwartet dich bei Jörg Zimmer"
 ---
 
 "Was genau machst du eigentlich in der SEO-Sprechstunde?"

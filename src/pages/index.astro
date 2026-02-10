@@ -1,35 +1,48 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import YouTubeFacade from '../components/YouTubeFacade.astro';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<Layout
-  title="Jörg Zimmer | SEO & SEA Freelancer Berlin"
-  description="20+ Jahre Erfahrung in SEO, Google Ads und datengetriebener Strategie. Ihr Experte für Suchmaschinenoptimierung in Berlin-Spandau."
-  ogImage="/images/og-default.jpg"
->
+<Layout title="Jörg Zimmer | SEO & SEA Freelancer Berlin">
   <!-- Hero Section -->
   <section class="section">
     <div class="container-narrow">
-      <p class="subheadline mb-6">SEO & SEA Freelancer Berlin-Spandau</p>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-2/3">
+          <p class="subheadline mb-6">SEO & SEA Freelancer Berlin-Spandau</p>
 
-      <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
-        Ich bringe dein
-        <span class="highlight">Google-Ranking</span>
-        auf den Punkt.
-      </h1>
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
+            Ich bringe dein
+            <span class="highlight">Google-Ranking</span>
+            auf den Punkt.
+          </h1>
 
-      <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
-        20+ Jahre Erfahrung in SEO, Google Ads und datengetriebener Strategie.
-        Als Spezialist für tiefe Detailfragen ruft man mich, wenn andere keine Lösung finden.
-      </p>
+          <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
+            20+ Jahre Erfahrung in SEO, Google Ads und datengetriebener Strategie.
+            Als Spezialist für tiefe Detailfragen ruft man mich, wenn andere keine Lösung finden.
+          </p>
 
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href="/kontakt" class="btn-primary">
-          Jetzt Kontakt aufnehmen
-        </a>
-        <a href="/leistungen" class="btn-secondary">
-          Leistungen ansehen
-        </a>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={`${baseUrl}/kontakt`} class="btn-primary">
+              Jetzt Kontakt aufnehmen
+            </a>
+            <a href={`${baseUrl}/leistungen`} class="btn-secondary">
+              Leistungen ansehen
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/3 hidden md:block">
+          <img
+            src={`${baseUrl}/images/pages/hero-pose.jpg`}
+            alt="Jörg Zimmer - SEO & SEA Freelancer aus Berlin Spandau"
+            width="552"
+            height="896"
+            class="w-full rounded-2xl shadow-lg"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -41,18 +54,10 @@ import Layout from '../layouts/Layout.astro';
       <h2 class="text-2xl md:text-3xl font-bold mb-8">
         Was ist dran an <span class="highlight">AI SEO</span>?
       </h2>
-      <div class="aspect-video rounded-2xl overflow-hidden shadow-lg">
-        <iframe
-          width="100%"
-          height="100%"
-          src="https://www.youtube.com/embed/dVGOMAVUNQk"
-          title="Was ist dran an AI SEO oder GEO? Mit SEO Experten Jörg Zimmer"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          loading="lazy"
-        ></iframe>
-      </div>
+      <YouTubeFacade
+        videoId="dVGOMAVUNQk"
+        title="Was ist dran an AI SEO oder GEO? Mit SEO Experten Jörg Zimmer"
+      />
       <p class="text-sm text-gray-muted mt-4 text-center">
         GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet.
       </p>
@@ -126,7 +131,7 @@ import Layout from '../layouts/Layout.astro';
       </div>
 
       <div class="mt-12 text-center">
-        <a href="/leistungen" class="btn-secondary">
+        <a href={`${baseUrl}/leistungen`} class="btn-secondary">
           Alle Leistungen ansehen →
         </a>
       </div>
@@ -135,17 +140,31 @@ import Layout from '../layouts/Layout.astro';
 
   <!-- CTA Section -->
   <section class="section bg-dark text-white">
-    <div class="container-narrow text-center">
-      <p class="subheadline mb-4 text-gray-400">Bereit für bessere Rankings?</p>
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">
-        Lass uns sprechen.
-      </h2>
-      <p class="text-gray-400 mb-8 max-w-xl mx-auto">
-        Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt.
-      </p>
-      <a href="/kontakt" class="btn-primary">
-        Kontakt aufnehmen
-      </a>
+    <div class="container-narrow">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/3">
+          <img
+            src={`${baseUrl}/images/profile/joerg-zimmer-cta.jpg`}
+            alt="Jörg Zimmer - SEO & SEA Freelancer Berlin, bereit für dein Projekt"
+            width="575"
+            height="1020"
+            class="w-48 h-48 md:w-full md:h-auto object-cover rounded-2xl mx-auto"
+            loading="lazy"
+          />
+        </div>
+        <div class="md:w-2/3 text-center md:text-left">
+          <p class="subheadline mb-4 text-gray-400">Bereit für bessere Rankings?</p>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Lass uns sprechen.
+          </h2>
+          <p class="text-gray-400 mb-8 max-w-xl">
+            Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt.
+          </p>
+          <a href={`${baseUrl}/kontakt`} class="btn-primary">
+            Kontakt aufnehmen
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </Layout>

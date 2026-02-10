@@ -1,6 +1,6 @@
 ---
 const currentYear = new Date().getFullYear();
-const base = import.meta.env.BASE_URL || '';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <footer class="bg-gray-50 border-t border-gray-100">
@@ -8,7 +8,7 @@ const base = import.meta.env.BASE_URL || '';
     <div class="grid md:grid-cols-3 gap-8">
       <!-- Brand -->
       <div>
-        <a href={`${base}/`} class="text-xl font-bold text-dark">
+        <a href={`${baseUrl}/`} class="text-xl font-bold text-dark">
           TELESCHMIE<span class="text-lime-accent">.</span>DE
         </a>
         <p class="mt-3 text-gray-muted text-sm">
@@ -21,11 +21,11 @@ const base = import.meta.env.BASE_URL || '';
       <div>
         <h4 class="font-semibold text-dark mb-3">Navigation</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href={`${base}/`} class="text-gray-muted hover:text-dark transition-colors">Start</a></li>
-          <li><a href={`${base}/ueber-mich`} class="text-gray-muted hover:text-dark transition-colors">Über mich</a></li>
-          <li><a href={`${base}/leistungen`} class="text-gray-muted hover:text-dark transition-colors">Leistungen</a></li>
-          <li><a href={`${base}/blog`} class="text-gray-muted hover:text-dark transition-colors">Blog</a></li>
-          <li><a href={`${base}/kontakt`} class="text-gray-muted hover:text-dark transition-colors">Kontakt</a></li>
+          <li><a href={`${baseUrl}/`} class="text-gray-muted hover:text-dark transition-colors">Start</a></li>
+          <li><a href={`${baseUrl}/ueber-mich`} class="text-gray-muted hover:text-dark transition-colors">Über mich</a></li>
+          <li><a href={`${baseUrl}/leistungen`} class="text-gray-muted hover:text-dark transition-colors">Leistungen</a></li>
+          <li><a href={`${baseUrl}/blog`} class="text-gray-muted hover:text-dark transition-colors">Blog</a></li>
+          <li><a href={`${baseUrl}/kontakt`} class="text-gray-muted hover:text-dark transition-colors">Kontakt</a></li>
         </ul>
       </div>
 
@@ -36,7 +36,7 @@ const base = import.meta.env.BASE_URL || '';
           <li class="text-gray-muted">Berlin-Spandau</li>
           <li>
             <a
-              href="https://www.linkedin.com/in/joergzimmer/"
+              href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-muted hover:text-dark transition-colors inline-flex items-center gap-1"
@@ -47,7 +47,7 @@ const base = import.meta.env.BASE_URL || '';
           </li>
           <li>
             <a
-              href="https://www.xing.com/profile/Joerg_Zimmer"
+              href="https://www.xing.com/profile/Joerg_Zimmer6"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-muted hover:text-dark transition-colors inline-flex items-center gap-1"
@@ -66,8 +66,8 @@ const base = import.meta.env.BASE_URL || '';
         &copy; {currentYear} Jörg Zimmer. Alle Rechte vorbehalten.
       </p>
       <div class="flex gap-6 text-sm">
-        <a href={`${base}/impressum`} class="text-gray-muted hover:text-dark transition-colors">Impressum</a>
-        <a href={`${base}/datenschutz`} class="text-gray-muted hover:text-dark transition-colors">Datenschutz</a>
+        <a href={`${baseUrl}/impressum`} class="text-gray-muted hover:text-dark transition-colors">Impressum</a>
+        <a href={`${baseUrl}/datenschutz`} class="text-gray-muted hover:text-dark transition-colors">Datenschutz</a>
       </div>
     </div>
   </div>

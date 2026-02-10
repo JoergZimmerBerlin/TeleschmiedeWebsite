@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout
@@ -21,12 +22,22 @@ const { Content } = await post.render();
   <article class="section">
     <div class="container-narrow">
       <!-- Back Link -->
-      <a href="/blog" class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors mb-8">
+      <a href={`${baseUrl}/blog`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors mb-8">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
         Zurück zum Blog
       </a>
+
+      <!-- Featured Image -->
+      {post.data.image && (
+        <img
+          src={`${baseUrl}${post.data.image}`}
+          alt={post.data.image_alt || post.data.title}
+          class="w-full rounded-2xl mb-8"
+          loading="eager"
+        />
+      )}
 
       <!-- Header -->
       <header class="mb-12">
@@ -52,7 +63,7 @@ const { Content } = await post.render();
       </header>
 
       <!-- Content -->
-      <div class="prose prose-lg max-w-none prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg">
+      <div class="prose prose-lg max-w-none prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg">
         <Content />
       </div>
 
@@ -65,14 +76,14 @@ const { Content } = await post.render();
           </div>
           <div class="flex gap-4">
             <a
-              href="https://www.linkedin.com/in/joergzimmer/"
+              href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-secondary text-sm"
             >
               Auf LinkedIn folgen
             </a>
-            <a href="/kontakt" class="btn-primary text-sm">
+            <a href={`${baseUrl}/kontakt`} class="btn-primary text-sm">
               Kontakt
             </a>
           </div>

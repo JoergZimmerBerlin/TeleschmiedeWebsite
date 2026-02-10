@@ -3,6 +3,8 @@ title: "Wenn AI-Agenten deinen LinkedIn-Feed kapern"
 description: "Achim vom Gartenverein hat einen Bot gebaut - und damit ein Problem sichtbar gemacht."
 date: "2025-12-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+image: "/images/pages/blog-hero-notizblock.jpg"
+image_alt: "AI-Agenten auf LinkedIn - Jörg Zimmer analysiert den Trend"
 ---
 
 Es war kurz vor Weihnachten, als mein LinkedIn-Feed plötzlich explodierte. Überall Weihnachtsgrüße. Überall die gleichen Floskeln. Überall... irgendwie verdächtig ähnlich.

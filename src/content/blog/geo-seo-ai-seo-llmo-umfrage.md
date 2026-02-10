@@ -3,6 +3,8 @@ title: "GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt"
 description: "Eine LinkedIn-Umfrage zeigt: Die Branche ist sich beim Namen für KI-Optimierung nicht einig."
 date: "2026-01-07"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+image: "/images/profile/joerg-lifestyle.jpg"
+image_alt: "GEO vs AI-SEO - Jörg Zimmer fragt die Community"
 ---
 
 Sichtbarkeit in KI-Modellen optimieren - das ist das neue große Thema. Aber wie nennen wir das eigentlich?

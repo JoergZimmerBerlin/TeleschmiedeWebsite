@@ -37,3 +37,9 @@ jobs:
           localDir: './dist'
           remoteDir: '.'
           options: '--verbose'
+
+      - name: Wait for deployment propagation
+        run: sleep 30
+
+      - name: Post-Deploy Link-Check
+        run: node scripts/check-links.mjs

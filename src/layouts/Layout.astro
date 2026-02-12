@@ -6,12 +6,14 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  ogImage?: string;
 }
 
-const { title, description = 'SEO & SEA Freelancer in Berlin - Über 20 Jahre Erfahrung in Suchmaschinenoptimierung und Google Ads.' } = Astro.props;
+const { title, description = 'SEO & SEA Freelancer in Berlin - Über 20 Jahre Erfahrung in Suchmaschinenoptimierung und Google Ads.', ogImage } = Astro.props;
 const currentPath = Astro.url.pathname;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteUrl = import.meta.env.SITE || 'https://teleschmie.de';
+const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${baseUrl}/images/pages/hero-pose.jpg`;
 ---
 
 <!doctype html>
@@ -35,11 +37,13 @@ const siteUrl = import.meta.env.SITE || 'https://teleschmie.de';
     <meta property="og:locale" content="de_DE" />
     <meta property="og:site_name" content="Jörg Zimmer - SEO Freelancer" />
     <meta property="og:url" content={`${siteUrl}${currentPath}`} />
+    <meta property="og:image" content={ogImageUrl} />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href={`${baseUrl}/favicon.svg`} />

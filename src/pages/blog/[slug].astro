@@ -18,6 +18,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 <Layout
   title={`${post.data.title} | Jörg Zimmer Blog`}
   description={post.data.description}
+  ogImage={post.data.image}
 >
   <article class="section">
     <div class="container-narrow">

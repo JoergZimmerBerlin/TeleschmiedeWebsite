@@ -43,3 +43,5 @@ jobs:
 
       - name: Post-Deploy Link-Check
         run: node scripts/check-links.mjs
+        env:
+          SITE_URL: https://teleschmie.de

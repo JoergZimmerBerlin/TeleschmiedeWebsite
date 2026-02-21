@@ -12,6 +12,7 @@ export default defineConfig({
     ? 'https://joergzimmerberlin.github.io'
     : 'https://teleschmie.de',
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
+  trailingSlash: 'always',
   integrations: [tailwind(), sitemap()],
   output: 'static',
   build: {

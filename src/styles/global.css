@@ -24,7 +24,7 @@
 @layer components {
   /* Lime Highlight (wie bei lau.do) */
   .highlight {
-    @apply bg-lime-accent px-2 py-0.5 rounded-sm;
+    @apply bg-lime-accent px-3 py-1 rounded-md;
   }
 
   /* Pill Button */

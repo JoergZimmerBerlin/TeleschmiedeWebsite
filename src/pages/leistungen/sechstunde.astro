@@ -1,0 +1,268 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout
+  title="SEO-Sprechstunde | 2h Videocall für 400€ - Jörg Zimmer"
+  description="2-stündige SEO-Sprechstunde per Videocall: Live-Analyse, sofort umsetzbare Tipps und ein konkreter Maßnahmenplan. 400€ pauschal, keine versteckten Kosten."
+  ogImage="/images/blog/seo-sprechstunde.jpg"
+>
+  <!-- Hero -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-2/3">
+          <p class="subheadline mb-6">SEO-Sprechstunde</p>
+
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
+            2 Stunden geballtes
+            <span class="highlight">SEO-Wissen.</span>
+          </h1>
+
+          <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
+            Du schickst mir deine Website, ich bereite mich vor. Im Videocall gehen wir
+            gemeinsam alles durch. Danach hast du einen konkreten Plan.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 items-start">
+            <a href={`${baseUrl}/kontakt`} class="btn-primary">
+              Sprechstunde buchen
+            </a>
+            <div class="flex items-baseline gap-2">
+              <span class="text-3xl font-bold text-dark">400€</span>
+              <span class="text-gray-muted">pauschal</span>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-1/3">
+          <img
+            src={`${baseUrl}/images/blog/seo-sprechstunde.jpg`}
+            alt="SEO-Sprechstunde mit Jörg Zimmer - 2 Stunden Videocall"
+            width="800"
+            height="800"
+            class="w-full rounded-2xl shadow-lg"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- So läuft es ab -->
+  <section class="section bg-gray-50">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Der Ablauf</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        In 4 Schritten zu deinem <span class="highlight">Maßnahmenplan</span>
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl p-8">
+          <div class="w-10 h-10 bg-lime-accent rounded-full flex items-center justify-center font-bold text-dark mb-4">1</div>
+          <h3 class="text-xl font-bold mb-3">Termin buchen</h3>
+          <p class="text-gray-muted">
+            Schreib mir eine Nachricht. Wir finden einen Termin, der für dich passt.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="w-10 h-10 bg-lime-accent rounded-full flex items-center justify-center font-bold text-dark mb-4">2</div>
+          <h3 class="text-xl font-bold mb-3">Website & Fragen schicken</h3>
+          <p class="text-gray-muted">
+            Du schickst mir vorab deine URL und deine Fragen. Ich bereite mich gründlich vor — das ist im Preis inklusive.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="w-10 h-10 bg-lime-accent rounded-full flex items-center justify-center font-bold text-dark mb-4">3</div>
+          <h3 class="text-xl font-bold mb-3">2h Videocall</h3>
+          <p class="text-gray-muted">
+            Live-Analyse mit Screensharing. Ich zeige dir meine SEO-Tools,
+            identifiziere Lücken und Potenziale. Alle Fragen erlaubt.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="w-10 h-10 bg-lime-accent rounded-full flex items-center justify-center font-bold text-dark mb-4">4</div>
+          <h3 class="text-xl font-bold mb-3">Nachbereitung</h3>
+          <p class="text-gray-muted">
+            Du bekommst die Aufzeichnung, eine KI-Zusammenfassung und einen
+            händischen Maßnahmenplan mit priorisierten Empfehlungen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Was du bekommst -->
+  <section class="section">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Alles inklusive</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Das bekommst du für <span class="highlight">400€</span>
+      </h2>
+
+      <div class="bg-lime-accent rounded-2xl p-8 md:p-12">
+        <div class="grid md:grid-cols-2 gap-8">
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="text-dark font-bold mt-0.5">✓</span>
+              <div>
+                <p class="font-bold text-dark">2 Stunden 1:1 Videocall</p>
+                <p class="text-dark/70 text-sm">Persönlich, fokussiert, auf den Punkt</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-dark font-bold mt-0.5">✓</span>
+              <div>
+                <p class="font-bold text-dark">Gründliche Vorbereitung</p>
+                <p class="text-dark/70 text-sm">Ich analysiere deine Website vorab</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-dark font-bold mt-0.5">✓</span>
+              <div>
+                <p class="font-bold text-dark">Live-Analyse mit SEO-Tools</p>
+                <p class="text-dark/70 text-sm">Screensharing — du siehst alles</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="text-dark font-bold mt-0.5">✓</span>
+              <div>
+                <p class="font-bold text-dark">Aufzeichnung des Calls</p>
+                <p class="text-dark/70 text-sm">Zum Nachschauen und Teilen im Team</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-dark font-bold mt-0.5">✓</span>
+              <div>
+                <p class="font-bold text-dark">KI-Zusammenfassung</p>
+                <p class="text-dark/70 text-sm">Die wichtigsten Punkte auf einen Blick</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-dark font-bold mt-0.5">✓</span>
+              <div>
+                <p class="font-bold text-dark">Händischer Maßnahmenplan</p>
+                <p class="text-dark/70 text-sm">Priorisiert — du weißt, was zuerst kommt</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section bg-gray-50">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Kundenstimmen</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Was Kunden sagen
+      </h2>
+
+      <div class="space-y-8">
+        <div class="bg-white rounded-2xl p-8">
+          <blockquote class="text-lg text-gray-text mb-4">
+            "Jörg ist herausragend: In wenigen Minuten hat er meine drängendsten Probleme
+            in Sachen SEA und SEO identifiziert, Lösungsvorschläge gemacht und mich nicht,
+            wie so oft bei anderen Dienstleistern erlebt, mit unklaren oder viel zu großen
+            und detailversessenen Aufgaben zurückgelassen."
+          </blockquote>
+          <p class="font-bold text-dark">Martin Meng</p>
+          <p class="text-sm text-gray-muted">CEO @konfidal</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <blockquote class="text-lg text-gray-text mb-4">
+            "Nach langem Überlegen eine 2-stündige SEO Sprechstunde mit Jörg gebucht.
+            Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website
+            vorbereitet. Der Preis ist völlig gerechtfertigt und spiegelt seine
+            25-jährige Erfahrung wieder."
+          </blockquote>
+          <p class="font-bold text-dark">Ronny A.</p>
+          <p class="text-sm text-gray-muted">Local Guide, 182 Rezensionen</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Für wen -->
+  <section class="section">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Zielgruppe</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Für wen ist die Sprechstunde?
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="flex items-start gap-4">
+          <span class="text-lime-accent text-2xl mt-1">→</span>
+          <div>
+            <h3 class="font-bold text-dark mb-1">Unternehmer</h3>
+            <p class="text-gray-muted">Die verstehen wollen, wo sie SEO-technisch stehen</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <span class="text-lime-accent text-2xl mt-1">→</span>
+          <div>
+            <h3 class="font-bold text-dark mb-1">Marketing-Manager</h3>
+            <p class="text-gray-muted">Die eine unabhängige zweite Meinung brauchen</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <span class="text-lime-accent text-2xl mt-1">→</span>
+          <div>
+            <h3 class="font-bold text-dark mb-1">Startups</h3>
+            <p class="text-gray-muted">Die wissen wollen, wo sie anfangen sollen</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <span class="text-lime-accent text-2xl mt-1">→</span>
+          <div>
+            <h3 class="font-bold text-dark mb-1">Alle mit Fragen</h3>
+            <p class="text-gray-muted">Die konkrete Antworten statt allgemeines Blabla wollen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section bg-dark text-white">
+    <div class="container-narrow">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-1/3">
+          <img
+            src={`${baseUrl}/images/profile/joerg-zimmer-cta.jpg`}
+            alt="Jörg Zimmer - SEO-Sprechstunde buchen"
+            width="575"
+            height="1020"
+            class="w-48 h-48 md:w-full md:h-auto object-cover object-top rounded-2xl mx-auto"
+            loading="lazy"
+          />
+        </div>
+        <div class="md:w-2/3 text-center md:text-left">
+          <p class="subheadline mb-4 text-gray-400">Bereit?</p>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Lass uns deine Website auf den Grill legen.
+          </h2>
+          <p class="text-gray-400 mb-4">
+            2 Stunden, 400€, keine versteckten Kosten. Keine langfristige Bindung.
+            Einfach 20+ Jahre SEO-Wissen, auf den Punkt gebracht.
+          </p>
+          <p class="text-gray-400 mb-8">
+            Schreib mir eine Nachricht und wir finden einen Termin.
+          </p>
+          <a href={`${baseUrl}/kontakt`} class="btn-primary">
+            Jetzt Sprechstunde buchen
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

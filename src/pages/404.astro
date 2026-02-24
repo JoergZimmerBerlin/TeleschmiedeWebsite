@@ -1,31 +1,53 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Stats from '../components/Stats.astro';
+import Expertise from '../components/Expertise.astro';
+import CTASection from '../components/CTASection.astro';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Layout title="404 - Seite nicht gefunden | Jörg Zimmer" description="Diese Seite konnte leider nicht gefunden werden.">
-  <section class="section flex flex-col items-center justify-center min-h-[60vh] text-center">
+  <!-- Hero Section -->
+  <section class="section">
     <div class="container-narrow">
-      <h1 class="text-8xl md:text-9xl font-bold text-dark mb-4">404</h1>
-      <p class="subheadline mb-8 text-highlight">Status: Not Found</p>
-      
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">
-        Diese Seite hat <span class="highlight">kein Ranking</span>.
-      </h2>
-      
-      <p class="text-lg text-gray-muted max-w-2xl mx-auto mb-12">
-        Es scheint, als wäre der Link veraltet oder die Seite wurde verschoben. 
-        Selbst die beste SEO-Strategie findet hier leider nichts.
-      </p>
-
-      <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <a href={`${baseUrl}/`} class="btn-primary">
-          Zur Startseite
-        </a>
-        <a href={`${baseUrl}/kontakt`} class="btn-secondary">
-          Kontakt aufnehmen
-        </a>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-2/3">
+          <p class="subheadline mb-6">SEO & SEA Freelancer Berlin-Spandau</p>
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
+            404 
+            <span class="highlight">Diese Seite</span>
+            ist leider nicht erreichbar
+          </h1>
+          <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
+            Ups! Die Seite, die du gesucht hast, gibt es nicht (mehr)
+            oder der verwendete Link war fehlerhaft.<br>
+            Aber keine Sorge – vielleicht helfen dir diese Wege weiter
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={`${baseUrl}/kontakt`} class="btn-primary">
+              Jetzt Kontakt aufnehmen
+            </a>
+            <a href={`${baseUrl}/leistungen`} class="btn-secondary">
+              Leistungen ansehen
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/3 hidden md:block">
+          <img
+            src={`${baseUrl}/images/pages/hero-pose.jpg`}
+            alt="Jörg Zimmer - SEO & SEA Freelancer aus Berlin Spandau"
+            width="552"
+            height="896"
+            class="w-full rounded-2xl shadow-lg"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
       </div>
     </div>
   </section>
+
+  <Stats />
+  <Expertise />
+  <CTASection />
 </Layout>

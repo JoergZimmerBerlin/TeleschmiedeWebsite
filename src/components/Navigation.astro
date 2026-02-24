@@ -27,9 +27,15 @@ const isActive = (href: string) => {
   <div class="max-w-6xl mx-auto px-6 py-4">
     <nav class="flex items-center justify-between">
       <!-- Logo -->
-      <a href={`${baseUrl}/`} class="flex items-center gap-2">
-        <span class="text-xl font-bold text-dark">TELE</span>
-        <span class="text-xl font-bold text-dark">SCHMIE<span class="text-lime-accent">.</span>DE</span>
+      <a href={`${baseUrl}/`} class="flex items-center gap-2.5">
+        <img
+          src={`${baseUrl}/images/logo-teleschmiede.png`}
+          alt="Teleschmiede Logo"
+          width="36"
+          height="36"
+          class="w-9 h-9"
+        />
+        <span class="text-xl font-bold text-dark">TELESCHMIE<span class="text-lime-accent">.</span>DE</span>
       </a>
 
       <!-- Desktop Navigation (Pill-Style wie lau.do) -->

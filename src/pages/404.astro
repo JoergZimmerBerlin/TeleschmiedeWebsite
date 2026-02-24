@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout title="404 - Seite nicht gefunden | Jörg Zimmer" description="Diese Seite konnte leider nicht gefunden werden.">
+  <section class="section flex flex-col items-center justify-center min-h-[60vh] text-center">
+    <div class="container-narrow">
+      <h1 class="text-8xl md:text-9xl font-bold text-dark mb-4">404</h1>
+      <p class="subheadline mb-8 text-highlight">Status: Not Found</p>
+      
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">
+        Diese Seite hat <span class="highlight">kein Ranking</span>.
+      </h2>
+      
+      <p class="text-lg text-gray-muted max-w-2xl mx-auto mb-12">
+        Es scheint, als wäre der Link veraltet oder die Seite wurde verschoben. 
+        Selbst die beste SEO-Strategie findet hier leider nichts.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href={`${baseUrl}/`} class="btn-primary">
+          Zur Startseite
+        </a>
+        <a href={`${baseUrl}/kontakt`} class="btn-secondary">
+          Kontakt aufnehmen
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

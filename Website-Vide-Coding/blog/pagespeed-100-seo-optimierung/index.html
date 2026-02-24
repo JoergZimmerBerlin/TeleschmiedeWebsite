@@ -1,0 +1,375 @@
+<!DOCTYPE html><html lang="de"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"><!-- Security --><meta name="referrer" content="strict-origin-when-cross-origin"><!-- SEO --><meta name="author" content="Jörg Zimmer"><meta name="robots" content="index, follow"><!-- Open Graph --><meta property="og:title" content="PageSpeed 100/100: So wurde diese Website blitzschnell | Jörg Zimmer Blog"><meta property="og:description" content="Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"><meta property="og:type" content="website"><meta property="og:locale" content="de_DE"><meta property="og:site_name" content="Jörg Zimmer - SEO Freelancer"><meta property="og:url" content="https://teleschmie.de/blog/pagespeed-100-seo-optimierung/"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="PageSpeed 100/100: So wurde diese Website blitzschnell | Jörg Zimmer Blog"><meta name="twitter:description" content="Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"><!-- Favicon --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><!-- Preload critical font --><link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin><!-- Self-hosted Inter Font --><style>
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400 700;
+        font-display: swap;
+        src: url('/fonts/inter-latin.woff2') format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400 700;
+        font-display: swap;
+        src: url('/fonts/inter-latin-ext.woff2') format('woff2');
+        unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+    </style><!-- DNS Prefetch --><link rel="dns-prefetch" href="https://www.linkedin.com"><link rel="dns-prefetch" href="https://www.youtube.com"><!-- Theme color for mobile browsers --><meta name="theme-color" content="#D4FF00"><!-- Canonical --><link rel="canonical" href="https://teleschmie.de/blog/pagespeed-100-seo-optimierung/"><title>PageSpeed 100/100: So wurde diese Website blitzschnell | Jörg Zimmer Blog</title><link rel="stylesheet" href="/assets/_slug_.CMh01BdN.css">
+<style>.prose[data-astro-cid-4sn4zg3r] blockquote[data-astro-cid-4sn4zg3r]{font-style:normal}
+</style><script type="module" src="/assets/hoisted.BkoFJ0Lt.js"></script></head> <body class="min-h-screen flex flex-col bg-white"> <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100"> <div class="max-w-6xl mx-auto px-6 py-4"> <nav class="flex items-center justify-between"> <!-- Logo --> <a href="/" class="flex items-center gap-2"> <span class="text-xl font-bold text-dark">TELE</span> <span class="text-xl font-bold text-dark">SCHMIE<span class="text-lime-accent">.</span>DE</span> </a> <!-- Desktop Navigation (Pill-Style wie lau.do) --> <div class="hidden md:flex items-center gap-1 bg-gray-50 rounded-full p-1.5"> <a href="/" class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 text-gray-muted hover:text-dark"> Start </a><a href="/ueber-mich" class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 text-gray-muted hover:text-dark"> Über mich </a><a href="/leistungen" class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 text-gray-muted hover:text-dark"> Leistungen </a><a href="/blog" class="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 bg-white text-dark shadow-sm"> Blog </a> </div> <!-- CTA Button --> <a href="/kontakt" class="hidden md:inline-flex btn-primary">
+Kontakt
+</a> <!-- Mobile Menu Button --> <button id="mobile-menu-btn" class="md:hidden p-2 text-dark" aria-label="Menü öffnen"> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> </button> </nav> <!-- Mobile Menu --> <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4"> <div class="flex flex-col gap-2"> <a href="/" class="px-4 py-3 rounded-lg font-medium transition-colors text-gray-muted hover:bg-gray-50"> Start </a><a href="/ueber-mich" class="px-4 py-3 rounded-lg font-medium transition-colors text-gray-muted hover:bg-gray-50"> Über mich </a><a href="/leistungen" class="px-4 py-3 rounded-lg font-medium transition-colors text-gray-muted hover:bg-gray-50"> Leistungen </a><a href="/blog" class="px-4 py-3 rounded-lg font-medium transition-colors bg-gray-100 text-dark"> Blog </a> <a href="/kontakt" class="btn-primary text-center mt-2">
+Kontakt
+</a> </div> </div> </div> </header>  <main class="flex-1">  <article class="section" data-astro-cid-4sn4zg3r> <div class="container-narrow" data-astro-cid-4sn4zg3r> <!-- Back Link --> <a href="/blog" class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors mb-8" data-astro-cid-4sn4zg3r> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-4sn4zg3r> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" data-astro-cid-4sn4zg3r></path> </svg>
+Zurück zum Blog
+</a> <!-- Featured Image --> <img src="/images/blog/pagespeed-screenshot.png" alt="PageSpeed Insights Screenshot - teleschmie.de mit 100/100 Score" class="w-full rounded-2xl mb-8" loading="eager" data-astro-cid-4sn4zg3r> <!-- Header --> <header class="mb-12" data-astro-cid-4sn4zg3r> <p class="subheadline mb-4" data-astro-cid-4sn4zg3r> 29. Januar 2026 </p> <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6" data-astro-cid-4sn4zg3r> PageSpeed 100/100: So wurde diese Website blitzschnell </h1> <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm text-gray-muted hover:text-dark transition-colors" data-astro-cid-4sn4zg3r> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" data-astro-cid-4sn4zg3r> <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" data-astro-cid-4sn4zg3r></path> </svg>
+Original auf LinkedIn ansehen
+</a> </header> <!-- Content --> <div class="prose prose-lg max-w-none prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg" data-astro-cid-4sn4zg3r> <p>Diese Website hat einen <strong>PageSpeed Score von 100/100</strong> – sowohl auf Mobile als auch auf Desktop. Kein Zufall, sondern das Ergebnis gezielter Optimierungen. In diesem Artikel zeige ich dir alle Maßnahmen, die dafür nötig waren.</p>
+<hr>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ol>
+<li><a href="#die-ausgangslage-content-aus-linkedin">Die Ausgangslage: Content aus LinkedIn</a></li>
+<li><a href="#seo-best-practice-bilder-optimieren">SEO Best Practice: Bilder optimieren</a></li>
+<li><a href="#seo-best-practice-system-fonts-statt-google-fonts">SEO Best Practice: System-Fonts statt Google Fonts</a></li>
+<li><a href="#seo-best-practice-youtube-lazy-loading">SEO Best Practice: YouTube Lazy Loading</a></li>
+<li><a href="#seo-best-practice-core-web-vitals-optimieren">SEO Best Practice: Core Web Vitals optimieren</a></li>
+<li><a href="#seo-best-practice-statische-generierung">SEO Best Practice: Statische Generierung</a></li>
+<li><a href="#das-ergebnis-perfekte-scores">Das Ergebnis: Perfekte Scores</a></li>
+<li><a href="#was-kostet-so-eine-website">Was kostet so eine Website?</a></li>
+</ol>
+<hr>
+<h2 id="die-ausgangslage-content-aus-linkedin">Die Ausgangslage: Content aus LinkedIn</h2>
+<p>Alle Inhalte dieser Website – Texte, Bilder, sogar die Blog-Artikel – stammen ursprünglich aus meinen LinkedIn-Posts. Das spart enorm Zeit bei der Content-Erstellung, bringt aber technische Herausforderungen mit sich.</p>
+<h3 id="das-problem-mit-linkedin-bildern">Das Problem mit LinkedIn-Bildern</h3>
+<p>LinkedIn-Bilder haben mehrere Nachteile für schnelle Websites:</p>
+<ul>
+<li><strong>Ablaufdatum in der URL:</strong> Nach einigen Wochen laden die Bilder nicht mehr</li>
+<li><strong>Keine Größenoptimierung:</strong> Oft größer als nötig</li>
+<li><strong>Fehlende Alt-Texte:</strong> Schlecht für SEO und Barrierefreiheit</li>
+<li><strong>Kein modernes Bildformat:</strong> Nur JPG/PNG, kein WebP</li>
+</ul>
+<hr>
+<h2 id="seo-best-practice-bilder-optimieren">SEO Best Practice: Bilder optimieren</h2>
+<h3 id="lokale-speicherung-statt-hotlinking">Lokale Speicherung statt Hotlinking</h3>
+<p>Alle LinkedIn-Bilder wurden heruntergeladen und lokal gespeichert. Das verhindert Ausfälle durch ablaufende URLs und gibt volle Kontrolle über die Optimierung.</p>
+<h3 id="webp-format-für-kleinere-dateigrößen">WebP-Format für kleinere Dateigrößen</h3>
+<p>Jedes Bild wurde in das moderne <strong>WebP-Format</strong> konvertiert:</p>
+<ul>
+<li><strong>25-35% kleinere Dateigröße</strong> als JPG</li>
+<li><strong>Gleiche visuelle Qualität</strong></li>
+<li><strong>Von allen modernen Browsern unterstützt</strong></li>
+</ul>
+<h3 id="alt-texte-für-seo-und-accessibility">Alt-Texte für SEO und Accessibility</h3>
+<p>Jedes Bild erhielt einen beschreibenden Alt-Text:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span></span>
+<span class="line"><span style="color:#B392F0">  src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"/images/profile/joerg-zimmer.webp"</span></span>
+<span class="line"><span style="color:#B392F0">  alt</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"Jörg Zimmer - SEO Freelancer aus Berlin-Spandau"</span></span>
+<span class="line"><span style="color:#E1E4E8">/></span></span>
+<span class="line"></span></code></pre>
+<p><strong>Warum wichtig für SEO:</strong></p>
+<ul>
+<li>Google kann Bilder besser indexieren</li>
+<li>Erscheint in der Google Bildersuche</li>
+<li>Verbessert die Barrierefreiheit (Screenreader)</li>
+</ul>
+<h3 id="explizite-bildabmessungen">Explizite Bildabmessungen</h3>
+<p>Jedes Bild hat <code>width</code> und <code>height</code> Attribute:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span></span>
+<span class="line"><span style="color:#B392F0">  src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"/images/hero.webp"</span></span>
+<span class="line"><span style="color:#B392F0">  alt</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"..."</span></span>
+<span class="line"><span style="color:#B392F0">  width</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"1200"</span></span>
+<span class="line"><span style="color:#B392F0">  height</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"630"</span></span>
+<span class="line"><span style="color:#E1E4E8">/></span></span>
+<span class="line"></span></code></pre>
+<p><strong>SEO-Vorteil:</strong> Verhindert Layout-Verschiebungen (Cumulative Layout Shift / CLS) – ein wichtiger Core Web Vital.</p>
+<hr>
+<h2 id="seo-best-practice-system-fonts-statt-google-fonts">SEO Best Practice: System-Fonts statt Google Fonts</h2>
+<h3 id="das-problem-mit-google-fonts">Das Problem mit Google Fonts</h3>
+<p>Viele Websites laden Schriftarten von Google Fonts. Das kostet Performance:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Problem</th><th>Auswirkung</th></tr></thead><tbody><tr><td>Zusätzliche DNS-Anfrage</td><td>+100-200ms Ladezeit</td></tr><tr><td>Render-Blocking CSS</td><td>Verzögerte Darstellung</td></tr><tr><td>DSGVO-Bedenken</td><td>Cookie-Banner nötig</td></tr></tbody></table>
+<h3 id="die-lösung-native-system-fonts">Die Lösung: Native System-Fonts</h3>
+<p>Diese Website nutzt ausschließlich Schriftarten, die bereits auf dem Gerät installiert sind:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="css"><code><span class="line"><span style="color:#85E89D">font-family</span><span style="color:#E1E4E8">: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, </span><span style="color:#85E89D">sans-serif</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"></span></code></pre>
+<p><strong>Das Ergebnis:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Gerät</th><th>Geladene Schriftart</th></tr></thead><tbody><tr><td>Mac/iPhone</td><td>San Francisco</td></tr><tr><td>Windows</td><td>Segoe UI</td></tr><tr><td>Android</td><td>Roboto</td></tr></tbody></table>
+<p><strong>SEO-Vorteile:</strong></p>
+<ul>
+<li>✅ Keine externen Requests für Fonts</li>
+<li>✅ Sofortige Textdarstellung (kein FOUT/FOIT)</li>
+<li>✅ DSGVO-konform ohne Cookie-Banner</li>
+<li>✅ Schnellere First Contentful Paint (FCP)</li>
+</ul>
+<hr>
+<h2 id="seo-best-practice-youtube-lazy-loading">SEO Best Practice: YouTube Lazy Loading</h2>
+<h3 id="das-problem-youtube-als-performance-killer">Das Problem: YouTube als Performance-Killer</h3>
+<p>Ein einziges YouTube-Embed lädt standardmäßig:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Ressource</th><th>Größe</th><th>Blockierzeit</th></tr></thead><tbody><tr><td>JavaScript</td><td>500+ KB</td><td>~500ms</td></tr><tr><td>CSS-Dateien</td><td>90+ KB</td><td>-</td></tr><tr><td>Iframe</td><td>-</td><td>Main-Thread blockiert</td></tr></tbody></table>
+<p><strong>Ergebnis:</strong> Der YouTube-Player allein kostete <strong>45 PageSpeed-Punkte!</strong></p>
+<h3 id="die-lösung-facade-pattern">Die Lösung: Facade Pattern</h3>
+<p>Statt YouTube direkt einzubetten, zeigen wir zunächst nur ein Vorschaubild mit Play-Button:</p>
+<p><strong>Schritt 1:</strong> Nur das Thumbnail laden (~20 KB)</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span><span style="color:#B392F0"> src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg"</span><span style="color:#E1E4E8"> /></span></span>
+<span class="line"></span></code></pre>
+<p><strong>Schritt 2:</strong> SVG-Play-Button darüber legen</p>
+<p><strong>Schritt 3:</strong> Bei Klick → echten YouTube-Player laden</p>
+<p><strong>SEO-Vorteile:</strong></p>
+<ul>
+<li>✅ Keine YouTube-Last beim initialen Seitenaufruf</li>
+<li>✅ Dramatisch verbesserte Ladezeit</li>
+<li>✅ Bessere Core Web Vitals (LCP, TBT)</li>
+<li>✅ Nutzer, die das Video nicht anschauen, profitieren von schneller Seite</li>
+</ul>
+<hr>
+<h2 id="seo-best-practice-core-web-vitals-optimieren">SEO Best Practice: Core Web Vitals optimieren</h2>
+<p>Die <strong>Core Web Vitals</strong> sind offizielle Google-Ranking-Faktoren. So wurden sie optimiert:</p>
+<h3 id="lcp-largest-contentful-paint-optimieren">LCP (Largest Contentful Paint) optimieren</h3>
+<p>Das größte sichtbare Element soll in unter 2,5 Sekunden laden.</p>
+<p><strong>Maßnahmen:</strong></p>
+<ul>
+<li>Hero-Bild mit <code>fetchpriority="high"</code> priorisieren</li>
+<li>Kritische Ressourcen preloaden</li>
+<li>Keine Render-Blocking Resources</li>
+</ul>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span></span>
+<span class="line"><span style="color:#B392F0">  src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"/images/hero.webp"</span></span>
+<span class="line"><span style="color:#B392F0">  loading</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"eager"</span></span>
+<span class="line"><span style="color:#B392F0">  fetchpriority</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"high"</span></span>
+<span class="line"><span style="color:#E1E4E8">/></span></span>
+<span class="line"></span></code></pre>
+<h3 id="cls-cumulative-layout-shift-vermeiden">CLS (Cumulative Layout Shift) vermeiden</h3>
+<p>Keine Layout-Verschiebungen während des Ladens.</p>
+<p><strong>Maßnahmen:</strong></p>
+<ul>
+<li>Alle Bilder mit expliziten Dimensionen (<code>width</code>, <code>height</code>)</li>
+<li>Fonts sofort verfügbar (System-Fonts)</li>
+<li>Kein nachladen von Inhalten über dem Fold</li>
+</ul>
+<h3 id="fidinp-first-input-delay--interaction-to-next-paint">FID/INP (First Input Delay / Interaction to Next Paint)</h3>
+<p>Schnelle Reaktion auf Nutzer-Interaktionen.</p>
+<p><strong>Maßnahmen:</strong></p>
+<ul>
+<li>Minimales JavaScript</li>
+<li>Kein Main-Thread-Blocking</li>
+<li>YouTube erst bei Interaktion laden</li>
+</ul>
+<hr>
+<h2 id="seo-best-practice-statische-generierung">SEO Best Practice: Statische Generierung</h2>
+<h3 id="warum-astro">Warum Astro?</h3>
+<p>Diese Website wurde mit <strong>Astro</strong> gebaut – einem Static Site Generator, der standardmäßig kein JavaScript ausliefert.</p>
+<p><strong>Vorteile für SEO:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Feature</th><th>SEO-Vorteil</th></tr></thead><tbody><tr><td>Statische HTML-Dateien</td><td>Schnellste mögliche Auslieferung</td></tr><tr><td>Kein Server-Rendering</td><td>Keine Wartezeit auf Datenbank</td></tr><tr><td>Automatisches CSS-Purging</td><td>Nur genutztes CSS wird geladen</td></tr><tr><td>HTML-Minifizierung</td><td>Kleinere Dateigröße</td></tr></tbody></table>
+<h3 id="lazy-loading-für-below-the-fold-content">Lazy Loading für Below-the-Fold Content</h3>
+<p>Bilder unterhalb des sichtbaren Bereichs werden erst geladen, wenn der Nutzer scrollt:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="html"><code><span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">img</span><span style="color:#B392F0"> src</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"/images/blog/artikel.webp"</span><span style="color:#B392F0"> loading</span><span style="color:#E1E4E8">=</span><span style="color:#9ECBFF">"lazy"</span><span style="color:#E1E4E8"> /></span></span>
+<span class="line"></span></code></pre>
+<p><strong>SEO-Vorteil:</strong> Schnellere initiale Ladezeit, bessere Core Web Vitals.</p>
+<h3 id="minimales-css-durch-tailwind-purging">Minimales CSS durch Tailwind Purging</h3>
+<p>Tailwind CSS entfernt automatisch alle ungenutzten Styles. Die finale CSS-Datei ist nur <strong>~15 KB</strong> groß – statt mehrerer hundert KB bei ungepurgtem CSS.</p>
+<hr>
+<h2 id="das-ergebnis-perfekte-scores">Das Ergebnis: Perfekte Scores</h2>
+<p>Nach allen Optimierungen zeigt <strong>Google PageSpeed Insights</strong>:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Kategorie</th><th>Score</th></tr></thead><tbody><tr><td>🟢 Performance</td><td><strong>100/100</strong></td></tr><tr><td>🟢 Accessibility</td><td><strong>94/100</strong></td></tr><tr><td>🟢 Best Practices</td><td><strong>100/100</strong></td></tr><tr><td>🟢 SEO</td><td><strong>100/100</strong></td></tr></tbody></table>
+<h3 id="core-web-vitals-im-detail">Core Web Vitals im Detail</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Metrik</th><th>Wert</th><th>Status</th></tr></thead><tbody><tr><td>LCP (Largest Contentful Paint)</td><td>&#x3C; 1.5s</td><td>🟢 Gut</td></tr><tr><td>FID (First Input Delay)</td><td>&#x3C; 50ms</td><td>🟢 Gut</td></tr><tr><td>CLS (Cumulative Layout Shift)</td><td>&#x3C; 0.05</td><td>🟢 Gut</td></tr></tbody></table>
+<hr>
+<h2 id="zusammenfassung-seo-best-practices-checkliste">Zusammenfassung: SEO Best Practices Checkliste</h2>
+<p>✅ <strong>Bilder:</strong> WebP-Format, Alt-Texte, explizite Dimensionen, Lazy Loading
+✅ <strong>Fonts:</strong> System-Fonts statt Google Fonts
+✅ <strong>Videos:</strong> Facade Pattern statt direktes Embed
+✅ <strong>Core Web Vitals:</strong> LCP, CLS, FID optimiert
+✅ <strong>Hosting:</strong> Statische Generierung, CDN-freundlich
+✅ <strong>CSS:</strong> Minimiert, nur genutztes CSS
+✅ <strong>JavaScript:</strong> Minimal, kein Render-Blocking</p>
+<hr>
+<h2 id="was-kostet-so-eine-website">Was kostet so eine Website?</h2>
+<p>Du fragst dich, was eine solche Website kosten würde? Hier eine realistische Einschätzung:</p>
+<h3 id="leistungsumfang">Leistungsumfang</h3>
+<ul>
+<li>~20 Unterseiten</li>
+<li>Content aus LinkedIn extrahiert</li>
+<li>PageSpeed 100/100</li>
+<li>SEO-optimiert</li>
+<li>Responsive Design</li>
+</ul>
+<h3 id="zeitrahmen--kosten">Zeitrahmen &#x26; Kosten</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Aspekt</th><th>Wert</th></tr></thead><tbody><tr><td><strong>Umsetzungszeit</strong></td><td>Unter 3 Tagen</td></tr><tr><td><strong>Kosten</strong></td><td>Ab 1.000 €</td></tr></tbody></table>
+<p>Bei Sonderwünschen – etwa individuellem Design, speziellen Funktionen oder umfangreichen Anpassungen – kann es natürlich auch deutlich aufwendiger und teurer werden.</p>
+<h3 id="interesse">Interesse?</h3>
+<p>Für konkrete Angebote gerne anfragen. Ich vermittle Aufträge zu mit mir befreundeten Developern in allen Preisklassen – vom Freelancer bis zur Agentur.</p>
+<p><strong><a href="/kontakt">Jetzt Kontakt aufnehmen</a></strong></p> </div> <!-- Footer --> <footer class="mt-16 pt-8 border-t border-gray-100" data-astro-cid-4sn4zg3r> <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6" data-astro-cid-4sn4zg3r> <div data-astro-cid-4sn4zg3r> <p class="font-bold text-dark" data-astro-cid-4sn4zg3r>Jörg Zimmer</p> <p class="text-sm text-gray-muted" data-astro-cid-4sn4zg3r>SEO & SEA Freelancer, Berlin</p> </div> <div class="flex gap-4" data-astro-cid-4sn4zg3r> <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-secondary text-sm" data-astro-cid-4sn4zg3r>
+Auf LinkedIn folgen
+</a> <a href="/kontakt" class="btn-primary text-sm" data-astro-cid-4sn4zg3r>
+Kontakt
+</a> </div> </div> </footer> </div> </article>  </main> <footer class="bg-gray-50 border-t border-gray-100"> <div class="max-w-6xl mx-auto px-6 py-12"> <div class="grid md:grid-cols-3 gap-8"> <!-- Brand --> <div> <a href="/" class="text-xl font-bold text-dark">
+TELESCHMIE<span class="text-lime-accent">.</span>DE
+</a> <p class="mt-3 text-gray-muted text-sm">
+SEO & SEA Freelancer in Berlin<br>
+Über 20 Jahre Erfahrung
+</p> </div> <!-- Links --> <div> <h4 class="font-semibold text-dark mb-3">Navigation</h4> <ul class="space-y-2 text-sm"> <li><a href="/" class="text-gray-muted hover:text-dark transition-colors">Start</a></li> <li><a href="/ueber-mich" class="text-gray-muted hover:text-dark transition-colors">Über mich</a></li> <li><a href="/leistungen" class="text-gray-muted hover:text-dark transition-colors">Leistungen</a></li> <li><a href="/blog" class="text-gray-muted hover:text-dark transition-colors">Blog</a></li> <li><a href="/kontakt" class="text-gray-muted hover:text-dark transition-colors">Kontakt</a></li> </ul> </div> <!-- Contact --> <div> <h4 class="font-semibold text-dark mb-3">Kontakt</h4> <ul class="space-y-2 text-sm"> <li class="text-gray-muted">Berlin-Spandau</li> <li> <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-gray-muted hover:text-dark transition-colors inline-flex items-center gap-1"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+LinkedIn
+</a> </li> <li> <a href="https://www.xing.com/profile/Joerg_Zimmer6" target="_blank" rel="noopener noreferrer" class="text-gray-muted hover:text-dark transition-colors inline-flex items-center gap-1"> <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.026c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.041z"></path></svg>
+XING
+</a> </li> </ul> </div> </div> <!-- Bottom --> <div class="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4"> <p class="text-sm text-gray-muted">
+&copy; 2026 Jörg Zimmer. Alle Rechte vorbehalten.
+</p> <div class="flex gap-6 text-sm"> <a href="/impressum" class="text-gray-muted hover:text-dark transition-colors">Impressum</a> <a href="/datenschutz" class="text-gray-muted hover:text-dark transition-colors">Datenschutz</a> </div> </div> </div> </footer> </body></html> 

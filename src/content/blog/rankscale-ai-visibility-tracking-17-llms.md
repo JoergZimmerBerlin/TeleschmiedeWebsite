@@ -119,7 +119,7 @@ Für große Konzerne mit eigenen Data Science Teams ist es vielleicht Overkill. 
 
 ## Integration in die SEO-Strategie
 
-Rankscale ersetzt nicht das klassische SEO — es ergänzt es. In meiner [SEO-Sprechstunde](/leistungen/sechstunde/) bespreche ich mit Kunden inzwischen beide Aspekte:
+Rankscale ersetzt nicht das klassische SEO — es ergänzt es. In meiner [SEO-Sprechstunde](/seo-sprechstunde/) bespreche ich mit Kunden inzwischen beide Aspekte:
 
 1. **Traditionelle Sichtbarkeit** — Google Rankings, Traffic, Backlinks
 2. **AI Visibility** — Erwähnungen in LLMs, Sentiment, Kontext
@@ -134,8 +134,18 @@ Ist es ein Must-Have für jeden? Noch nicht. Aber für Unternehmen, die ernsthaf
 
 Ich bleibe dabei und habe auf das Jahres-Abo umgestellt. Bei meinem Workload und den Kundenprojekten rechnet sich das bereits nach wenigen Monaten.
 
-Falls du Fragen zu Rankscale oder AI Visibility hast: Schreib mir gern eine DM auf LinkedIn oder buch dir eine [SEO-Sprechstunde](/leistungen/sechstunde/). Dort können wir schauen, ob und wie sich das Tool in deine Strategie einbauen lässt.
+Falls du Fragen zu Rankscale oder AI Visibility hast: Schreib mir gern eine DM auf LinkedIn oder buch dir eine [SEO-Sprechstunde](/seo-sprechstunde/). Dort können wir schauen, ob und wie sich das Tool in deine Strategie einbauen lässt.
 
 Das war mein ehrlicher Erfahrungsbericht. Keine bezahlte Werbung, sondern echte Praxis-Erkenntnisse nach zwei Monaten intensivem Test.
+
+---
+
+## Lust auf mehr AI Visibility?
+
+Wenn du Rankscale selbst testen willst, kannst du hier direkt loslegen:
+
+**[Rankscale ausprobieren →](https://rankscale.ai/?via=offer)**
+
+---
 
 Was denkst du? Trackst du bereits deine AI Visibility oder ist das für dich noch Neuland?

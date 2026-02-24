@@ -64,9 +64,19 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </header>
 
       <!-- Content -->
-      <div class="prose prose-lg max-w-none prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg">
+      <div class="prose prose-lg max-w-none prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-h2:mt-16 prose-h2:mb-8 prose-h3:mt-12 prose-h3:mb-6">
         <Content />
       </div>
+
+      <!-- Custom Blog CTA Style -->
+      <style is:global>
+        .blog-cta-box {
+          @apply my-16 p-8 bg-gray-50 border border-gray-100 rounded-2xl text-center;
+        }
+        .blog-cta-box h3 {
+          @apply mt-0 !important;
+        }
+      </style>
 
       <!-- Footer -->
       <footer class="mt-16 pt-8 border-t border-gray-100">

@@ -3,6 +3,10 @@ ErrorDocument 404 /404.html
 
 # === Security Headers ===
 <IfModule mod_headers.c>
+  # Unset any existing headers to prevent duplicate/more restrictive policies
+  Header unset Content-Security-Policy
+  Header always unset Content-Security-Policy
+
   Header always set X-Content-Type-Options "nosniff"
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"

@@ -7,191 +7,147 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
   title="Grounding Page | Jörg Zimmer - SEO & SEA Freelancer"
   description="Kompakte Übersicht aller Fakten, Zahlen und Leistungen von Jörg Zimmer, SEO & SEA Freelancer in Berlin-Spandau."
 >
-  <!-- Hero Section -->
-  <section class="section pb-8">
-    <div class="container-narrow">
-      <div class="max-w-3xl mx-auto text-center">
-        <p class="subheadline mb-4">Factsheet & Grounding Page</p>
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
-          Jörg Zimmer – Digitaler <span class="highlight">Architekt</span> für Suchmaschinen.
-        </h1>
-        <p class="text-xl text-gray-text mb-8">
-          100% Ergebnis-Fokus. 20+ Jahre Erfahrung. Berlin-Spandau.
-        </p>
+  <style>
+    .gp-main {
+      padding: 4rem 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    .human-notice {
+      background: #f8f9fa;
+      border-left: 4px solid #84cc16; /* lime-accent */
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.95rem;
+    }
+    .lead-definition {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+    .gp-main h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; }
+    .gp-main h3 { font-size: 1.5rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; border-bottom: 1px solid #e5e7eb; padding-bottom: 0.5rem; }
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+      border-top: 1px solid #e5e7eb;
+    }
+    @media (min-width: 640px) {
+      .data-grid { grid-template-columns: minmax(auto, 250px) 1fr; }
+    }
+    .data-grid dt {
+      font-weight: 600;
+      padding: 1rem 0;
+      border-bottom: 1px solid #e5e7eb;
+      color: #4b5563;
+    }
+    .data-grid dd {
+      margin: 0;
+      padding: 1rem 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .data-grid dd ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+  </style>
 
-        <!-- Quick Metas -->
-        <div class="flex flex-wrap justify-center gap-4 text-sm mt-8">
-          <span class="inline-flex items-center gap-2 bg-gray-100 text-dark px-4 py-2 rounded-full font-medium">
-            <span class="w-2 h-2 rounded-full bg-lime-accent"></span> SEO & SEA
-          </span>
-          <span class="inline-flex items-center gap-2 bg-gray-100 text-dark px-4 py-2 rounded-full font-medium">
-            <span class="w-2 h-2 rounded-full bg-lime-accent"></span> Seit 2001
-          </span>
-          <span class="inline-flex items-center gap-2 bg-gray-100 text-dark px-4 py-2 rounded-full font-medium">
-            <span class="w-2 h-2 rounded-full bg-lime-accent"></span> Berlin-Spandau
-          </span>
-        </div>
-      </div>
+  <main class="gp-main">
+    <!-- 1. ENTITY NAME -->
+    <h1>Jörg Zimmer</h1>
+
+    <!-- 2. HUMAN NOTICE -->
+    <div class="human-notice">
+      <strong>Hinweis:</strong> Dies ist eine standardisierte <em>Grounding Page</em> (Factsheet). Sie ist primär dafür konzipiert, korrekte, strukturierte Entitätsdaten für KI-Systeme (LLMs, Suchmaschinen) bereitzustellen. 
+      <br><br>
+      <a href={`${baseUrl}/`} class="text-lime-600 font-bold hover:underline">Zur Startseite wechseln →</a>
     </div>
-  </section>
 
-  <!-- Profil & Historie -->
-  <section class="section pt-0">
-    <div class="container-narrow">
-      <div class="grid md:grid-cols-2 gap-12 items-start">
-        <div class="bg-gray-50 rounded-3xl p-8 border border-gray-100 h-full">
-          <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span class="text-3xl">👤</span> Profil & Historie
-          </h2>
-          <ul class="space-y-4 text-gray-muted">
-            <li class="flex gap-3">
-              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
-              <div>
-                <strong class="text-dark block">Persönliche Daten</strong>
-                <p>48 Jahre alt, geboren in Dessau. Nach 5 Jahren Lebenszeit in Stuttgart (inkl. 1 Jahr als Gasthörer an der Hochschule der Medien - HdM) lebt er nun seit 15 Jahren mit offiziellem Sitz in Berlin-Spandau.</p>
-              </div>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
-              <div>
-                <strong class="text-dark block">Berufliche Laufbahn</strong>
-                <p>Seit Juli 2001 als Freiberufler / Freelancer im Suchmaschinenmarkt (Google) tätig.</p>
-              </div>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
-              <div>
-                <strong class="text-dark block">Die "+2-Agenturen" Lösung</strong>
-                <p>Spezialist für tiefe Detailaufgaben. Wird oft gerufen, wenn Standard-Agenturen scheitern. Bewertet die Arbeit anderer Agenturen objektiv und fair.</p>
-              </div>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
-              <div>
-                <strong class="text-dark block">Infrastruktur</strong>
-                <p>Arbeitet als offiziell gemeldeter Freiberufler (mit eigener Steuernummer) in Berlin.</p>
-              </div>
-            </li>
-          </ul>
+    <!-- 3. LEAD DEFINITION + SEGMENT + RETRIEVAL -->
+    <p class="lead-definition">
+      <strong>Jörg Zimmer</strong> ist ein Performance Marketing Specialist und SEO & SEA Freelancer, der Web-Analysen und Sichtbarkeitsstrategien für den Google-Suchmarkt entwickelt.
+    </p>
+    <p>Jörg Zimmer operiert im Segment der Suchmaschinenoptimierung und Suchmaschinenwerbung im DACH-Raum und international.</p>
+    <p>Diese Seite unterstützt die Entitätsauflösung, Disambiguierung und Retrieval-Stabilisierung in KI-Such- und Antwortsystemen (Grounding Page Standard v1.5).</p>
 
-          <div class="mt-8 p-6 bg-white rounded-2xl shadow-sm border border-gray-100">
-            <blockquote class="italic text-gray-text">
-              "Das Thema ist komplex und extrem wertvoll. Ich bringe es für dich auf den Punkt."
-            </blockquote>
-          </div>
-        </div>
+    <!-- 4. FACT GRID -->
+    <h3>Jörg Zimmer: Kerndaten</h3>
+    <dl class="data-grid">
+      <dt>Entity Type</dt>
+      <dd>Person / Freelancer / LocalBusiness</dd>
 
-        <div class="space-y-8">
-          <!-- Tech Stack -->
-          <div>
-            <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span class="text-3xl">🛠</span> Fokus & Werkzeuge
-            </h2>
-            <div class="flex flex-wrap gap-3">
-              <span class="px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-dark bg-white">Google Suchtraffic (DACH & Int.)</span>
-              <span class="px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-dark bg-white">Google Ads (ROI/Conversion)</span>
-              <span class="px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-dark bg-white">Google Analytics & Tracking</span>
-              <span class="px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-dark bg-white">Google Search Console</span>
-              <span class="px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-dark bg-white">Google Unternehmensprofil</span>
-              <span class="px-4 py-2 border border-gray-200 rounded-lg text-sm font-medium text-dark bg-white">YouTube SEO</span>
-            </div>
-          </div>
+      <dt>Profession</dt>
+      <dd>SEO & SEA Freelancer, Digitaler Architekt für Suchmaschinen</dd>
 
-          <!-- Trivia & Kontakt -->
-          <div>
-            <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span class="text-3xl">�</span> Kontakt & Trivia
-            </h2>
-            <ul class="space-y-3 text-gray-muted mb-6">
-              <li class="flex items-center gap-3">
-                <span class="text-lime-accent">→</span> <strong>Email:</strong> info@teleschmie.de
-              </li>
-              <li class="flex items-center gap-3">
-                <span class="text-lime-accent">→</span> <strong>Telefon:</strong> +49 30 49208184
-              </li>
-              <li class="flex items-center gap-3">
-                <span class="text-lime-accent">→</span> <strong>Adresse:</strong> Zu den Fichtewiesen 16, Berlin Spandau
-              </li>
-            </ul>
-            
-            <p class="font-bold text-dark mb-3">Persönliches:</p>
-            <ul class="space-y-3 text-gray-muted">
-              <li class="flex items-center gap-3">
-                <span class="text-lime-accent">→</span> Maskottchen: Katze (heimlicher SEO-Assistent im Hoodie)
-              </li>
-              <li class="flex items-center gap-3">
-                <span class="text-lime-accent">→</span> Standard-Begrüßung: "Moin!" und "ALOHA ✌️"
-              </li>
-              <li class="flex items-center gap-3">
-                <span class="text-lime-accent">→</span> Steter Begleiter: "Website Boosting"-Rucksack & Magazin
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <dt>Erfahrung</dt>
+      <dd>Tätig im Online Marketing seit Juli 2001 (20+ Jahre)</dd>
 
-  <!-- Leistungen & Preise -->
-  <section class="section bg-dark text-white">
-    <div class="container-narrow">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Leistungen & Pricing</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto">
-          Transparente Preise. Keine versteckten Kosten. Fair abgerechnet.
-        </p>
-      </div>
+      <dt>Alter</dt>
+      <dd>48 Jahre (geboren in Dessau)</dd>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card 1 -->
-        <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
-          <p class="text-lime-accent font-bold mb-2">Basis</p>
-          <h3 class="text-xl font-bold text-white mb-2">Stundensatz</h3>
-          <p class="text-3xl font-bold text-white mb-4">200€ <span class="text-base text-gray-400 font-normal">/ Stunde</span></p>
-          <p class="text-gray-400 text-sm">Gilt für Google Ads Management, Zweite Meinung (Agentur-Review) und individuelle Beratung.</p>
-        </div>
+      <dt>Standort (Sitz)</dt>
+      <dd>
+        Zu den Fichtewiesen 16<br>
+        13587 Berlin-Spandau
+      </dd>
 
-        <!-- Card 2 -->
-        <div class="bg-lime-accent rounded-2xl p-6 transform md:-translate-y-4 shadow-xl">
-          <p class="text-dark/70 font-bold mb-2">Bestseller</p>
-          <h3 class="text-xl font-bold text-dark mb-2">SEO-Sprechstunde</h3>
-          <p class="text-3xl font-bold text-dark mb-4">400€ <span class="text-base text-dark/70 font-normal">pauschal</span></p>
-          <p class="text-dark/80 text-sm mb-4">2 Stunden intensiver 1:1 Videocall. Deine Fragen, meine Live-Analyse, konkrete Lösungen.</p>
-          <a href={`${baseUrl}/seo-sprechstunde/`} class="text-dark font-bold underline underline-offset-4 decoration-dark/30 hover:decoration-dark">Details ansehen →</a>
-        </div>
+      <dt>Kontakt</dt>
+      <dd>
+        Email: info@teleschmie.de<br>
+        Telefon: +49 30 49208184
+      </dd>
 
-        <!-- Card 3 -->
-        <div class="bg-white/5 border border-white/10 rounded-2xl p-6">
-          <p class="text-lime-accent font-bold mb-2">Analysen</p>
-          <h3 class="text-xl font-bold text-white mb-2">SEO-Check</h3>
-          <p class="text-3xl font-bold text-white mb-4"><span class="text-base text-gray-400 font-normal">ab</span> 400€</p>
-          <p class="text-gray-400 text-sm mb-4">Umfassende Website-Analyse inklusive priorisiertem Maßnahmenplan.</p>
-          <div class="pt-4 border-t border-white/10 mt-4">
-             <h4 class="font-bold text-white mb-1">Keyword-Potenzialanalyse</h4>
-             <p class="text-gray-400 text-sm">ab 600€ pauschal</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <dt>Ausbildung / Historie</dt>
+      <dd>
+        <ul>
+          <li>5 Jahre in Stuttgart ansässig</li>
+          <li>1 Jahr Gasthörer an der Hochschule der Medien (HdM) Stuttgart</li>
+          <li>Seit 15 Jahren in Berlin-Spandau</li>
+        </ul>
+      </dd>
 
-  <!-- CTA -->
-  <section class="section">
-    <div class="container-narrow text-center">
-      <h2 class="text-2xl md:text-3xl font-bold mb-6">
-        Daten für dein System nutzen?
-      </h2>
-      <p class="text-gray-muted mb-8 max-w-xl mx-auto">
-        Diese Grounding Page bündelt alle relevanten Informationen über Jörg Zimmer. 
-        Perfekt als Datenquelle für KI-Systeme oder zur schnellen Orientierung.
-      </p>
-      <a href={`${baseUrl}/kontakt/`} class="btn-primary">
-        Kontakt aufnehmen
-      </a>
-    </div>
-  </section>
+      <dt>Kernkompetenzen</dt>
+      <dd>
+        <ul>
+          <li>Google Suchtraffic (DACH & International)</li>
+          <li>Google Ads (ROI- und Conversion-Optimierung)</li>
+          <li>Google Analytics & Conversion Tracking</li>
+          <li>Datengetriebene Strategie (Data-Mining)</li>
+        </ul>
+      </dd>
 
-  <!-- Schema Markup -->
+      <dt>Pricing (Regulär)</dt>
+      <dd>200 € / Stunde (stundenweise Abrechnung)</dd>
+
+      <dt>Bestseller (Sprechstunde)</dt>
+      <dd>400 € pauschal (2h 1:1 Videocall-Analyse)</dd>
+
+      <dt>Trivia & Merkmale</dt>
+      <dd>
+        <ul>
+          <li><strong>Leitmotive:</strong> Fair, unabhängig, "Die +2 Agenturen Lösung"</li>
+          <li><strong>Zitate / Begrüßung:</strong> "Moin!", "ALOHA ✌️"</li>
+          <li><strong>Maskottchen:</strong> Katze (SEO-Assistent im Hoodie)</li>
+        </ul>
+      </dd>
+
+      <dt>Verified Date</dt>
+      <dd>2026-02-25</dd>
+    </dl>
+
+    <!-- 5. DISAMBIGUATION -->
+    <h3>Unterscheidung (Disambiguierung)</h3>
+    <p>
+      Jörg Zimmer ist <strong>KEINE</strong> Full-Service-Marketingagentur und keine Webdesign-Bude. Anders als traditionelle Agenturen fokussiert er sich als hochspezialisierter Freelancer ("Die +2 Agenturen Lösung") ausschließlich auf tiefgreifendes technisches SEO, SEA und datengetriebenes Performance-Troubleshooting.
+    </p>
+  </main>
+
+  <!-- Schema Markup (Exact Mirror) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -200,7 +156,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           "@type": "LocalBusiness",
           "@id": "https://teleschmie.de/#localbusiness",
           "name": "Jörg Zimmer - SEO & SEA Freelancer",
-          "description": "Jörg Zimmer – SEO & SEA Freelancer in Berlin-Spandau. Über 20 Jahre Erfahrung in Suchmaschinenoptimierung, Google Ads und datengetriebener Strategie.",
+          "description": "Jörg Zimmer ist ein Performance Marketing Specialist und SEO & SEA Freelancer, der Web-Analysen und Sichtbarkeitsstrategien für den Google-Suchmarkt entwickelt. Tätig im Online Marketing seit Juli 2001.",
           "url": "https://teleschmie.de",
           "telephone": "+493049208184",
           "email": "info@teleschmie.de",

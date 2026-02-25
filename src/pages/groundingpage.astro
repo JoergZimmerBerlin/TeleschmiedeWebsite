@@ -35,34 +35,41 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
-  <!-- Profil & Philosophie -->
+  <!-- Profil & Historie -->
   <section class="section pt-0">
     <div class="container-narrow">
       <div class="grid md:grid-cols-2 gap-12 items-start">
         <div class="bg-gray-50 rounded-3xl p-8 border border-gray-100 h-full">
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-            <span class="text-3xl">🎯</span> Profil & Philosophie
+            <span class="text-3xl">👤</span> Profil & Historie
           </h2>
           <ul class="space-y-4 text-gray-muted">
             <li class="flex gap-3">
               <span class="text-lime-accent mt-0.5 font-bold">✓</span>
               <div>
+                <strong class="text-dark block">Persönliche Daten</strong>
+                <p>48 Jahre alt, geboren in Dessau. Nach 5 Jahren Lebenszeit in Stuttgart (inkl. 1 Jahr als Gasthörer an der Hochschule der Medien - HdM) lebt er nun seit 15 Jahren mit offiziellem Sitz in Berlin-Spandau.</p>
+              </div>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
+              <div>
+                <strong class="text-dark block">Berufliche Laufbahn</strong>
+                <p>Seit Juli 2001 als Freiberufler / Freelancer im Suchmaschinenmarkt (Google) tätig.</p>
+              </div>
+            </li>
+            <li class="flex gap-3">
+              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
+              <div>
                 <strong class="text-dark block">Die "+2-Agenturen" Lösung</strong>
-                <p>Spezialist für tiefe Detailaufgaben. Wird oft gerufen, wenn Standard-Agenturen scheitern.</p>
+                <p>Spezialist für tiefe Detailaufgaben. Wird oft gerufen, wenn Standard-Agenturen scheitern. Bewertet die Arbeit anderer Agenturen objektiv und fair.</p>
               </div>
             </li>
             <li class="flex gap-3">
               <span class="text-lime-accent mt-0.5 font-bold">✓</span>
               <div>
-                <strong class="text-dark block">Fairness & Transparenz</strong>
-                <p>Die aktuelle Arbeit anderer Agenturen wird stets objektiv, fair und respektvoll bewertet.</p>
-              </div>
-            </li>
-            <li class="flex gap-3">
-              <span class="text-lime-accent mt-0.5 font-bold">✓</span>
-              <div>
-                <strong class="text-dark block">Der Architekten-Ansatz</strong>
-                <p>Tiefes Eintauchen in die Zielgruppe und datengetriebene Umsetzung komplexer Themen ("Data-Mining").</p>
+                <strong class="text-dark block">Infrastruktur</strong>
+                <p>Arbeitet als offiziell gemeldeter Freiberufler (mit eigener Steuernummer) in Berlin.</p>
               </div>
             </li>
           </ul>
@@ -90,11 +97,24 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
             </div>
           </div>
 
-          <!-- Trivia -->
+          <!-- Trivia & Kontakt -->
           <div>
             <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <span class="text-3xl">🐱</span> Trivia
+              <span class="text-3xl">�</span> Kontakt & Trivia
             </h2>
+            <ul class="space-y-3 text-gray-muted mb-6">
+              <li class="flex items-center gap-3">
+                <span class="text-lime-accent">→</span> <strong>Email:</strong> info@teleschmie.de
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="text-lime-accent">→</span> <strong>Telefon:</strong> +49 30 49208184
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="text-lime-accent">→</span> <strong>Adresse:</strong> Zu den Fichtewiesen 16, Berlin Spandau
+              </li>
+            </ul>
+            
+            <p class="font-bold text-dark mb-3">Persönliches:</p>
             <ul class="space-y-3 text-gray-muted">
               <li class="flex items-center gap-3">
                 <span class="text-lime-accent">→</span> Maskottchen: Katze (heimlicher SEO-Assistent im Hoodie)
@@ -182,12 +202,15 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           "name": "Jörg Zimmer - SEO & SEA Freelancer",
           "description": "Jörg Zimmer – SEO & SEA Freelancer in Berlin-Spandau. Über 20 Jahre Erfahrung in Suchmaschinenoptimierung, Google Ads und datengetriebener Strategie.",
           "url": "https://teleschmie.de",
-          "telephone": "",
+          "telephone": "+493049208184",
+          "email": "info@teleschmie.de",
           "priceRange": "€€",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Berlin-Spandau",
+            "streetAddress": "Zu den Fichtewiesen 16",
+            "addressLocality": "Berlin",
             "addressRegion": "Berlin",
+            "postalCode": "13587",
             "addressCountry": "DE"
           },
           "founder": {
@@ -204,6 +227,18 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           "name": "Jörg Zimmer",
           "jobTitle": "SEO & SEA Freelancer / Digitaler Architekt für Suchmaschinen",
           "url": "https://teleschmie.de/ueber-mich/",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Hochschule der Medien (HdM) Stuttgart"
+          },
+          "birthPlace": {
+            "@type": "Place",
+            "name": "Dessau"
+          },
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Berlin-Spandau"
+          },
           "worksFor": {
             "@id": "https://teleschmie.de/#localbusiness"
           },

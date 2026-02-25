@@ -28,11 +28,16 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
     - Eine auffällige Box mit der Klasse `<div class="blog-cta-box">`.
     - Enthält eine direkte Handlungsaufforderung (z.B. Buchung einer SEO-Sprechstunde).
 
-## 3. SEO & Schema (Automatisch)
+## 3. Authentizität & LinkedIn-Integration
+- Integriere regelmäßig **Original-Zitate aus LinkedIn-Posts oder Kommentaren** (eigene oder von Experten).
+- Nutze dafür die Blockquote-Syntax (`>`), um Authentizität und Community-Bezug zu stärken.
+- Erwähne konkrete Personen oder Diskussionen, um den E-E-A-T Faktor (Experience) zu untermauern.
+
+## 4. SEO & Schema (Automatisch)
 - Der Artikel generiert automatisch `Article` und `Author` (Jörg Zimmer) Schema-Daten basierend auf dem Frontmatter.
 - Sorge dafür, dass `title`, `description` und `image` im Frontmatter präzise und optimiert sind.
 
-## 4. Schreibstil & Tonalität (Brand Voice)
+## 5. Schreibstil & Tonalität (Brand Voice)
 - **Persönlich & Nahbar:** Schreibe in der Ich-Form. Nutze Formulierungen wie "Ich habe getestet...", "Meiner Meinung nach...".
 - **Seniorität:** Zeige Expertise ohne unnötigen Jargon. Erkläre komplexe Themen einfach.
 - **Begrüßung/Abschied:** Nutze "Moin!" oder vergleichbare lockere Einstiege und schließe immer mit einem **"ALOHA ✌️"**.

@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
-import sitemap from '@astrojs/sitemap';
 
 // Automatische Erkennung: GitHub Pages vs Produktion
 // DEPLOY_TARGET=ionos wird in deploy.yml gesetzt, damit der IONOS-Build
@@ -13,7 +12,7 @@ export default defineConfig({
     : 'https://teleschmie.de',
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
-  integrations: [tailwind(), sitemap()],
+  integrations: [tailwind()],
   output: 'static',
   build: {
     assets: 'assets'

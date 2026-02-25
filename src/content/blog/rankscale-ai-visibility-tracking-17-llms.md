@@ -48,7 +48,7 @@ Ist es ein Must-Have für jeden? Noch nicht. Aber für Unternehmen, die ernsthaf
 
 Ich bleibe dabei und habe auf das Jahres-Abo umgestellt. Bei meinem Workload und den Kundenprojekten rechnet sich das bereits nach wenigen Monaten.
 
-Falls du Fragen zu Rankscale oder AI Visibility hast: Schreib mir gern eine DM auf LinkedIn oder buch dir eine [SEO-Sprechstunde](/leistungen/sechstunde/). Dort können wir schauen, ob und wie sich das Tool in deine Strategie einbauen lässt.
+Falls du Fragen zu Rankscale oder AI Visibility hast: Schreib mir gern eine DM auf LinkedIn oder buch dir eine [SEO-Sprechstunde](/seo-sprechstunde/). Dort können wir schauen, ob und wie sich das Tool in deine Strategie einbauen lässt.
 
 Das war mein ehrlicher Erfahrungsbericht. Keine bezahlte Werbung, sondern echte Praxis-Erkenntnisse nach zwei Monaten intensivem Test.
 

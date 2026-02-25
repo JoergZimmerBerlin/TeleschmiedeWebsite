@@ -44,3 +44,8 @@ Die Methoden ändern sich. Das Prinzip bleibt.
 ---
 
 *Die ganze Episode gibt es auf allen Podcast-Plattformen. Schaut mal bei Magic Writing rein!*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/)
+* **Lese-Tipp:** [Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot](/blog/google-ads-support-seo-nicht-tot/)
+

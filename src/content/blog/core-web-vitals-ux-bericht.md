@@ -38,3 +38,8 @@ Core Web Vitals sind kein Hexenwerk. Mit den richtigen Maßnahmen kann jede Webs
 ---
 
 *Du willst wissen, wo deine Website steht? Die Search Console zeigt es dir - oder wir schauen es uns gemeinsam in einer SEO-Sprechstunde an.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [PageSpeed 100/100: So wurde diese Website blitzschnell](/blog/pagespeed-100-seo-optimierung/)
+* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
+

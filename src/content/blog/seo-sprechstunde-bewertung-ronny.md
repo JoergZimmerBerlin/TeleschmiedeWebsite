@@ -37,3 +37,8 @@ Keine versteckten Kosten, keine Folgeverpflichtungen. Nur geballtes Wissen.
 ---
 
 *Interesse? Schreib mir auf LinkedIn und wir finden einen Termin.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)
+* **Lese-Tipp:** [Wie läuft so eine SEO-Sprechstunde ab?](/blog/seo-sprechstunde-so-laeuft-sie-ab/)
+

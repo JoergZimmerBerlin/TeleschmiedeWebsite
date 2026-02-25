@@ -56,3 +56,8 @@ Das freut mich. Weil genau das ist mein Ziel: Echten Mehrwert liefern.
 ---
 
 *Interesse? Schreib mir auf LinkedIn - wir finden einen Termin.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Wie läuft so eine SEO-Sprechstunde ab?](/blog/seo-sprechstunde-so-laeuft-sie-ab/)
+* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)
+

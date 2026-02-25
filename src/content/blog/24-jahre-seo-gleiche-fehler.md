@@ -37,3 +37,8 @@ Nach 24 Jahren kann ich sagen: Die Grundlagen sind immer noch die Grundlagen. Gu
 ---
 
 *Das vollständige Gespräch gibt's im SEO Presso Podcast auf YouTube.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt](/blog/geo-seo-ai-seo-llmo-umfrage/)
+* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)
+

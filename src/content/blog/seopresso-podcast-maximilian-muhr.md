@@ -41,3 +41,8 @@ Wenn du gerade selbst an einem Wendepunkt stehst oder einfach Bock auf ehrliche 
 ---
 
 *Danach vielleicht auch mal die Folge mit mir anhören? Gleiches Format, ähnlich persönlich.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
+* **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/)
+

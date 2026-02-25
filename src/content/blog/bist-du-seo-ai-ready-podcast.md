@@ -44,3 +44,8 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
 ---
 
 *PS: Jedes Mal, wenn ich "komplex" sage, einen Shot! Wer hat mitgezählt?*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
+* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
+

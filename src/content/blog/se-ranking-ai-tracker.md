@@ -33,3 +33,8 @@ Ob SE Ranking oder Rankscale das bessere Tool ist? Kommt auf den Use Case an. Am
 ---
 
 *Nutzt ihr schon AI Tracking Tools? Welche Erfahrungen habt ihr gemacht?*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
+* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)
+

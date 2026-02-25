@@ -35,3 +35,8 @@ Die Umfrage hat einige interessante Diskussionen ausgelöst. Viele sind der Mein
 ---
 
 *Was denkt ihr? Schreibt mir auf LinkedIn - ich bin gespannt auf eure Meinung.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
+* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
+

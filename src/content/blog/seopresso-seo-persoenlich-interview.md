@@ -47,3 +47,8 @@ Das Freelancer Team schreibt:
 ---
 
 *Ob du selbst Freelancer bist, gerade erst im SEO startest oder einfach Bock auf echte Insights hast - diese Folge ist vollgepackt mit Erfahrungen, Anekdoten und ehrlichen Einblicken.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
+* **Lese-Tipp:** [Highlights 2025 - Ein SEO-Jahresrückblick](/blog/highlights-2025-jahresrueckblick/)
+

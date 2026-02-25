@@ -288,3 +288,8 @@ Bei Sonderwünschen – etwa individuellem Design, speziellen Funktionen oder um
 Für konkrete Angebote gerne anfragen. Ich vermittle Aufträge zu mit mir befreundeten Developern in allen Preisklassen – vom Freelancer bis zur Agentur.
 
 **[Jetzt Kontakt aufnehmen](/kontakt)**
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst](/blog/core-web-vitals-ux-bericht/)
+* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
+

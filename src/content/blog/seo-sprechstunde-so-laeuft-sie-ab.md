@@ -45,3 +45,8 @@ Keine langfristige Bindung. Kein Abo. Einfach Wissen, das du sofort umsetzen kan
 ---
 
 *Interesse? Schreib mir auf LinkedIn und wir finden einen Termin.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf Grill](/blog/seo-sprechstunde-erklaert/)
+* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)
+

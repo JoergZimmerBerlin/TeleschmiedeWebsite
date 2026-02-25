@@ -30,3 +30,8 @@ Der Post hat über 35 Reaktionen und 10 Kommentare ausgelöst. Viele teilen ihre
 ---
 
 *Du hast ähnliche Erfahrungen gemacht? Schreib mir auf LinkedIn - ich bin gespannt auf deine Geschichte.*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/)
+* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
+

@@ -44,3 +44,8 @@ Auf ein spannendes 2026!
 ---
 
 *ALOHA ✌️*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
+* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)
+

@@ -36,3 +36,8 @@ Ich werde weiter echte Inhalte posten. Mit echten Gedanken. Und echten Tippfehle
 ---
 
 *Was denkt ihr: Wo ist die Grenze zwischen hilfreicher AI und nervigem Spam?*
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)
+* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
+

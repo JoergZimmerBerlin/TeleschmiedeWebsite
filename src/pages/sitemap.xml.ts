@@ -26,7 +26,6 @@ export const GET = async () => {
   <url>
     <loc>${baseUrl}/${cleanPath}</loc>
     <lastmod>${lastModYYYYMMDD}</lastmod>
-    <changefreq>${cleanPath === '' ? 'daily' : 'weekly'}</changefreq>
   </url>`;
   }
 
@@ -35,7 +34,6 @@ export const GET = async () => {
   <url>
     <loc>${baseUrl}/blog/</loc>
     <lastmod>${lastModYYYYMMDD}</lastmod>
-    <changefreq>weekly</changefreq>
   </url>`;
 
   // 3. Blog Posts
@@ -46,7 +44,6 @@ export const GET = async () => {
   <url>
     <loc>${baseUrl}/blog/${post.slug}/</loc>
     <lastmod>${postDate}</lastmod>
-    <changefreq>monthly</changefreq>
   </url>`;
   }
 

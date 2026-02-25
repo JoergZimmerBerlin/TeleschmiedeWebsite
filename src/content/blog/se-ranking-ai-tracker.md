@@ -59,7 +59,7 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
 <div class="blog-cta-box">
   <h3>Lust auf den SE Ranking AI Tracker?</h3>
   <p>Wenn du die KI-Sichtbarkeit deiner Projekte mit einem etablierten Tool messen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
     SE Ranking AI Tracker testen →
   </a>
 </div>

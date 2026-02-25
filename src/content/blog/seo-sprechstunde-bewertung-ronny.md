@@ -66,7 +66,7 @@ Am Ende sitzt du da mit einem Fahrplan, den du entweder selbst abarbeitest oder 
 
 ## Fazit: Danke, Ronny!
 
-Feedback wie das von Ronny ist der Treibstoff für meine Arbeit hier in Berlin-Spandau. Es zeigt, dass Ehrlichkeit und harte Vorbereitung in unserer Branche immer noch den größten Unterschied machen.
+Feedback wie das von Ronny ist der Treibstoff für meine Arbeit hier in Berlin Spandau. Es zeigt, dass Ehrlichkeit und harte Vorbereitung in unserer Branche immer noch den größten Unterschied machen.
 
 Wenn du auch das Gefühl hast, dass deine Website "mehr könnte", aber du nicht weißt, wo der Flaschenhals steckt: Lass uns reden. Wir legen deine Seite gemeinsam auf den Grill.
 

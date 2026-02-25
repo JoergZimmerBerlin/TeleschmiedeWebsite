@@ -54,7 +54,7 @@ Viele vergessen das Thema Barrierefreiheit. Jedes Bild hat einen individuellen A
 ```html
 <img
   src="/images/profile/joerg-zimmer-berlin.webp"
-  alt="Jörg Zimmer - SEO Experte aus Berlin-Spandau vor dem Laptop"
+  alt="Jörg Zimmer - SEO Experte aus Berlin Spandau vor dem Laptop"
   width="800"
   height="600"
 />

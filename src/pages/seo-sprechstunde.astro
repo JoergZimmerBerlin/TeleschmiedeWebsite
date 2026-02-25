@@ -96,6 +96,81 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
+  <!-- Typische Inhalte -->
+  <section class="section">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Inhalte</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Das erwartet dich in der <span class="highlight">Sprechstunde</span>
+      </h2>
+
+      <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
+            <span class="text-2xl">1️⃣</span> SEO-Analyse deiner Website
+          </h3>
+          <ul class="space-y-2 text-gray-muted">
+            <li class="flex items-start gap-2"><span>•</span> Technische Basics (Indexierung, Ladezeit, Core Web Vitals)</li>
+            <li class="flex items-start gap-2"><span>•</span> OnPage-Optimierung (Meta-Tags, Überschriften, interne Verlinkung)</li>
+            <li class="flex items-start gap-2"><span>•</span> Struktur & Informationsarchitektur</li>
+            <li class="flex items-start gap-2"><span>•</span> Erste Einschätzung zu Ranking-Potenzial</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
+            <span class="text-2xl">2️⃣</span> Keyword- & Content-Strategie
+          </h3>
+          <ul class="space-y-2 text-gray-muted">
+            <li class="flex items-start gap-2"><span>•</span> Welche Keywords sind realistisch?</li>
+            <li class="flex items-start gap-2"><span>•</span> Suchintention richtig treffen</li>
+            <li class="flex items-start gap-2"><span>•</span> Content-Struktur & Themencluster</li>
+            <li class="flex items-start gap-2"><span>•</span> Priorisierung: Was bringt am schnellsten Ergebnisse?</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
+            <span class="text-2xl">3️⃣</span> Wettbewerbsanalyse
+          </h3>
+          <ul class="space-y-2 text-gray-muted">
+            <li class="flex items-start gap-2"><span>•</span> Warum ranken andere besser?</li>
+            <li class="flex items-start gap-2"><span>•</span> Welche Lücken kannst du nutzen?</li>
+            <li class="flex items-start gap-2"><span>•</span> Quick-Wins vs. langfristige Strategie</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
+            <span class="text-2xl">4️⃣</span> Konkrete Handlungsempfehlungen
+          </h3>
+          <ul class="space-y-2 text-gray-muted">
+            <li class="flex items-start gap-2"><span>•</span> To-Do-Liste mit Prioritäten</li>
+            <li class="flex items-start gap-2"><span>•</span> Technische oder redaktionelle Maßnahmen</li>
+            <li class="flex items-start gap-2"><span>•</span> Einschätzung von Aufwand vs. Nutzen</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 rounded-2xl p-8 border border-gray-100 lg:col-span-2">
+          <h3 class="text-xl font-bold mb-4 flex items-center gap-3">
+            <span class="text-2xl">5️⃣</span> Q&A-Format
+          </h3>
+          <p class="text-gray-muted mb-4">Du kannst alle Fragen stellen, zum Beispiel:</p>
+          <div class="grid md:grid-cols-2 gap-4">
+            <ul class="space-y-2 text-gray-muted">
+              <li class="flex items-start gap-2"><span>•</span> Lohnt sich SEO noch in meiner Nische?</li>
+              <li class="flex items-start gap-2"><span>•</span> Soll ich auf KI-Content setzen?</li>
+            </ul>
+            <ul class="space-y-2 text-gray-muted">
+              <li class="flex items-start gap-2"><span>•</span> Wie wichtig sind Backlinks heute?</li>
+              <li class="flex items-start gap-2"><span>•</span> Wie lange dauern Ergebnisse realistisch?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Was du bekommst -->
   <section class="section">
     <div class="container-narrow">
@@ -196,41 +271,192 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="container-narrow">
       <p class="subheadline mb-4">Zielgruppe</p>
       <h2 class="text-3xl md:text-4xl font-bold mb-12">
-        Für wen ist die Sprechstunde?
+        Für wen lohnt sich die <span class="highlight">Sprechstunde?</span>
       </h2>
 
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="grid md:grid-cols-2 gap-x-12 gap-y-8">
         <div class="flex items-start gap-4">
           <span class="text-lime-accent text-2xl mt-1">→</span>
           <div>
-            <h3 class="font-bold text-dark mb-1">Unternehmer</h3>
-            <p class="text-gray-muted">Die verstehen wollen, wo sie SEO-technisch stehen</p>
+            <h3 class="font-bold text-dark mb-1">Selbstständige & Unternehmer</h3>
+            <p class="text-gray-muted">Die verstehen wollen, wo sie SEO-technisch stehen oder bevor sie viel Budget investieren.</p>
           </div>
         </div>
         <div class="flex items-start gap-4">
           <span class="text-lime-accent text-2xl mt-1">→</span>
           <div>
-            <h3 class="font-bold text-dark mb-1">Marketing-Manager</h3>
-            <p class="text-gray-muted">Die eine unabhängige zweite Meinung brauchen</p>
+            <h3 class="font-bold text-dark mb-1">Website-Relaunch-Projekte</h3>
+            <p class="text-gray-muted">Um von Anfang an die richtigen Weichen zu stellen und Ranking-Verluste zu vermeiden.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <span class="text-lime-accent text-2xl mt-1">→</span>
+          <div>
+            <h3 class="font-bold text-dark mb-1">Shops mit stagnierendem Traffic</h3>
+            <p class="text-gray-muted">Wenn die Umsätze nicht mehr wachsen und man die Ursachen im organischen Traffic finden will.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4">
+          <span class="text-lime-accent text-2xl mt-1">→</span>
+          <div>
+            <h3 class="font-bold text-dark mb-1">Marketing-Teams</h3>
+            <p class="text-gray-muted">Die keine eigene SEO-Expertise im Haus haben oder eine unabhängige zweite Meinung brauchen.</p>
           </div>
         </div>
         <div class="flex items-start gap-4">
           <span class="text-lime-accent text-2xl mt-1">→</span>
           <div>
             <h3 class="font-bold text-dark mb-1">Startups</h3>
-            <p class="text-gray-muted">Die wissen wollen, wo sie anfangen sollen</p>
+            <p class="text-gray-muted">Die von Anfang an eine solide Basis schaffen und wissen wollen, wo sie anfangen sollen.</p>
           </div>
         </div>
         <div class="flex items-start gap-4">
           <span class="text-lime-accent text-2xl mt-1">→</span>
           <div>
-            <h3 class="font-bold text-dark mb-1">Alle mit Fragen</h3>
-            <p class="text-gray-muted">Die konkrete Antworten statt allgemeines Blabla wollen</p>
+            <h3 class="font-bold text-dark mb-1">Alle mit konkreten Fragen</h3>
+            <p class="text-gray-muted">Die klare Antworten und echte Handlungsempfehlungen statt allgemeines "Blabla" suchen.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- FAQ -->
+  <section class="section bg-gray-50" id="faq">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Fragen & Antworten</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Häufig gestellte <span class="highlight">Fragen</span>
+      </h2>
+
+      <div class="space-y-6">
+        <div class="bg-white rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-3">Lohnt sich SEO heute überhaupt noch für meine Nische?</h3>
+          <p class="text-gray-muted">Ja, absolut. Aber der Ansatz hat sich geändert. In der Sprechstunde analysieren wir, ob deine Nische durch KI-Antworten bedroht ist oder ob es noch genügend wertvollen Traffic gibt, den wir abgreifen können.</p>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-3">Soll ich für meinen Content voll auf KI setzen?</h3>
+          <p class="text-gray-muted">KI ist ein Werkzeug, kein kompletter Ersatz. Wir besprechen, wie du KI effizient einsetzt, ohne deine Marke zu schwächen oder von Google wegen minderwertigem Content abgestraft zu werden.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-3">Wie wichtig sind Backlinks im Jahr 2024/2025 noch?</h3>
+          <p class="text-gray-muted">Backlinks sind nach wie vor ein Rankingfaktor, aber die Qualität steht über der Quantität. Wir schauen uns dein Backlink-Profil an und entscheiden, ob hier Handlungsbedarf besteht.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-3">Wie lange dauert es, bis ich die ersten Ergebnisse sehe?</h3>
+          <p class="text-gray-muted">Das hängt stark von der Konkurrenz und dem Zustand deiner Website ab. In der Regel sieht man bei technischen Quick-Wins Ergebnisse nach wenigen Wochen, bei Content-Strategien eher nach 3-6 Monaten.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 border border-gray-100">
+          <h3 class="text-xl font-bold mb-3">Kann ich die Sprechstunde auch für einen Website-Relaunch nutzen?</h3>
+          <p class="text-gray-muted">Definitiv. Das ist sogar einer der besten Zeitpunkte, um teure Fehler bei der Struktur oder den Weiterleitungen zu vermeiden, bevor die neue Seite live geht.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vorbereitung -->
+  <section class="section">
+    <div class="container-narrow">
+      <p class="subheadline mb-4">Vorbereitung</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        So holst du das <span class="highlight">Maximum</span> heraus
+      </h2>
+      
+      <p class="text-lg text-gray-text mb-10 max-w-2xl">
+        Damit wir in den 2 Stunden keine Zeit verlieren, empfehle ich dir folgende Vorbereitung:
+      </p>
+
+      <div class="bg-lime-accent rounded-3xl p-8 md:p-12">
+        <div class="grid md:grid-cols-2 gap-8">
+          <ul class="space-y-6">
+            <li class="flex items-start gap-4">
+              <span class="w-8 h-8 bg-dark text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</span>
+              <div>
+                <p class="font-bold text-dark text-lg">Liste deine wichtigsten Fragen vorab</p>
+                <p class="text-dark/70">Was brennt dir unter den Nägeln? Was wolltest du schon immer mal wissen?</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="w-8 h-8 bg-dark text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</span>
+              <div>
+                <p class="font-bold text-dark text-lg">Definiere dein Ziel</p>
+                <p class="text-dark/70">Willst du mehr Leads, mehr Traffic oder einfach nur bessere Rankings für bestimmte Keywords?</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="space-y-6">
+            <li class="flex items-start gap-4">
+              <span class="w-8 h-8 bg-dark text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</span>
+              <div>
+                <p class="font-bold text-dark text-lg">Zugriff gewähren</p>
+                <p class="text-dark/70">Stelle nach Möglichkeit Zugriff auf Analytics & Search Console bereit.</p>
+              </div>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="w-8 h-8 bg-dark text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</span>
+              <div>
+                <p class="font-bold text-dark text-lg">Wettbewerber nennen</p>
+                <p class="text-dark/70">Sammle 2–3 direkte Wettbewerber, die wir uns gemeinsam ansehen können.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Lohnt sich SEO heute überhaupt noch für meine Nische?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, absolut. In der Sprechstunde analysieren wir, ob deine Nische durch KI-Antworten bedroht ist oder ob es noch genügend wertvollen Traffic gibt, den wir abgreifen können."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Soll ich für meinen Content voll auf KI setzen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KI ist ein Werkzeug, kein kompletter Ersatz. Wir besprechen, wie du KI effizient einsetzt, ohne deine Marke zu schwächen oder von Google wegen minderwertigem Content abgestraft zu werden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie wichtig sind Backlinks im Jahr 2024/2025 noch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Backlinks sind nach wie vor ein Rankingfaktor, aber die Qualität steht über der Quantität. Wir schauen uns dein Backlink-Profil an und entscheiden, ob hier Handlungsbedarf besteht."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie lange dauert es, bis ich die ersten Ergebnisse sehe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das hängt von Konkurrenz und Website-Zustand ab. Technische Quick-Wins zeigen oft nach wenigen Wochen Ergebnisse, Content-Strategien eher nach 3-6 Monaten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich die Sprechstunde auch für einen Website-Relaunch nutzen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Definitiv. Das ist einer der besten Zeitpunkte, um teure Fehler bei der Struktur oder den Weiterleitungen zu vermeiden, bevor die neue Seite live geht."
+          }
+        }
+      ]
+    }
+  </script>
 
   <!-- CTA -->
   <section class="section bg-dark text-white">

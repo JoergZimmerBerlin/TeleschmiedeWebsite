@@ -7,36 +7,72 @@ image: "/images/profile/joerg-lifestyle.jpg"
 image_alt: "GEO vs AI-SEO - Jörg Zimmer fragt die Community"
 ---
 
-Sichtbarkeit in KI-Modellen optimieren - das ist das neue große Thema. Aber wie nennen wir das eigentlich?
+Sichtbarkeit in KI-Modellen optimieren – das ist das neue große Thema, das gerade durch alle SEO-Foren und LinkedIn-Timelines geistert. Aber wie nennen wir das eigentlich? Haben wir uns schon auf einen Standard geeinigt oder werfen wir einfach nur mit neuen Buzzwords um uns, um auf Partys cooler zu wirken? (Wobei, SEOs auf Partys... lassen wir das Thema.)
 
-Ich habe auf LinkedIn eine Umfrage gestartet: **"Wie nennen wir es nun?"**
+Ich wollte es genau wissen und habe auf LinkedIn eine Umfrage gestartet: **"Wie nennen wir es nun?"** Das Ergebnis war so spannend wie aufschlussreich und sagt viel über den aktuellen Zustand unserer Branche aus.
 
-## Die Ergebnisse
+## Die nackten Zahlen der Umfrage
+
+Hier ist das, was die Community (immerhin ein Querschnitt aus Inhouse-SEOs, Agenturköpfen und Freelancern) abgestimmt hat:
 
 - **GEO** (Generative Engine Optimization): 50%
 - **AI SEO**: 22%
 - **SEO**: 19%
 - **LLMO** (Large Language Model Optimization): 8%
 
-## Was bedeutet das?
+## Eine tiefere Analyse der Begriffe: Was steckt wirklich dahinter?
 
-**GEO** scheint sich als Begriff durchzusetzen - zumindest in meiner Bubble. Der Begriff macht auch Sinn: Es geht nicht mehr nur um Suchmaschinen (Search Engines), sondern um generative Systeme wie ChatGPT, Claude oder Perplexity.
+Lass uns mal die einzelnen Begriffe sezieren. Denn hinter jeder Abkürzung steckt eine andere Sichtweise auf die Zukunft unseres Handwerks.
 
-Interessant finde ich, dass 19% bei "SEO" geblieben sind. Die Argumentation: Es ist und bleibt Optimierung für Suchsysteme - egal ob klassisch oder AI-basiert.
+### GEO (Generative Engine Optimization) – Der klare Favorit
 
-## Meine Meinung
+Mit 50% scheint sich GEO als Begriff durchzusetzen – zumindest in meiner Bubble. Und das hat gute Gründe. Der Begriff wurde maßgeblich durch eine Studie von Forschern (u.a. von Princeton und Georgia Tech) geprägt. Er macht Sinn, weil er anerkennt, dass wir es nicht mehr nur mit klassischen Suchmaschinen (Search Engines) zu tun haben, die einen Index durchsuchen. Wir haben es mit generativen Systemen zu tun, die Antworten *erzeugen*.
 
-Ehrlich? Der Name ist mir egal. Was zählt ist, dass wir verstehen, was wir tun: Inhalte so aufbereiten, dass sie von Maschinen verstanden und empfohlen werden. Ob wir das GEO, AI-SEO oder Sichtbarkeitsoptimierung nennen - die Arbeit bleibt die gleiche.
+Wenn du für Perplexity, Claude oder ChatGPT optimierst, spielst du nach anderen Regeln. Es geht um **Semantic Richness**, um das Liefern von Quellen, die so präzise sind, dass die KI sie nicht "halluzinieren" muss. GEO ist die Anerkennung, dass der Kanal sich fundamental ändert.
 
-## Community-Diskussion
+### AI SEO – Der pragmatische Ansatz
 
-Die Umfrage hat einige interessante Diskussionen ausgelöst. Viele sind der Meinung, dass wir nicht noch mehr Abkürzungen brauchen. Andere sehen den Mehrwert einer klaren Unterscheidung.
+22% bleiben bei AI SEO. Das ist die Bezeichnung für alle, die sagen: "Hey, es ist SEO, aber die Tools sind jetzt AI-powered." Das ist ein wenig wie "Digitalfotografie" statt nur "Fotografie". Es beschreibt eher den Prozess als das Ziel. Für viele Kunden ist AI SEO auch leichter zu verstehen als GEO. Wer will schon "generative Engines" optimieren, wenn er eigentlich "KI-Sichtbarkeit" meint?
+
+### SEO – Die Traditionalisten (oder Realisten?)
+
+Interessant finde ich, dass 19% bei "SEO" geblieben sind. Die Argumentation der "Puristen" ist simpel und logisch: Es ist und bleibt die Optimierung für Informations-Suchsysteme. Egal ob der Algorithmus von 2005 oder ein LLM von 2026 mir die Antwort liefert – mein Job ist es, den Inhalt so aufzubereiten, dass er gefunden wird.
+
+Das ist eine sehr bodenständige Sichtweise. Sie impliziert: Verliere dich nicht in neuen Buzzwords, sondern mach deinen Job. Technik, Content, Backlinks. Das Ziel bleibt Sichtbarkeit, egal durch welches Fenster der Nutzer schaut.
+
+### LLMO (Large Language Model Optimization) – Die Nerds
+
+Mit 8% abgeschlagen, aber technisch am präzisesten. LLMO beschreibt genau, was wir tun: Ein Modell optimieren. Aber seien wir ehrlich: Wer das gegenüber einem Kunden erwähnt, sieht meist in leere Augen. Es ist zu technisch, zu wenig "Marketing".
+
+## Meine ganz persönliche Meinung zu dem Namens-Hype
+
+Ehrlich unter uns? Der Name ist mir am Ende des Tages völlig egal. Was zählt, ist das, was wir tun: Inhalte so aufbereiten, dass sie von Maschinen verstanden und – noch wichtiger – als wertvoll genug erachtet werden, um sie einem Menschen zu empfehlen.
+
+Ob wir das GEO, AI-SEO, LLMO oder "Wunder-Sichtbarkeits-Optimierung" nennen – die harte Arbeit bleibt die gleiche. Wir müssen verstehen, wie die Systeme Daten fressen und wieder ausspucken. Wir müssen weg vom Keyword-Staring und hin zum Entity-Understanding.
+
+## Die hitzige Community-Diskussion
+
+Die Umfrage hat weit mehr ausgelöst als nur Klicks auf Antwortmöglichkeiten. In den Kommentaren ging es richtig zur Sache. Ein Punkt wurde immer wieder genannt: **Dringlichkeits-Inflation.**
+
+Ein Teilnehmer schrieb: *"Wir brauchen nicht noch mehr Abkürzungen, die nur dazu dienen, neue, teure Pakete an Kunden zu verkaufen, die eigentlich nur klassisches SEO brauchen."* Da ist was dran. Wir müssen aufpassen, dass wir vor lauter neuen Begriffen nicht vergessen, dass eine Website, die technisch schrottreif ist, auch in einer "Generative Engine" nicht ranken wird.
+
+Andere wiederum sahen den Mehrwert der Unterscheidung. GEO erfordert neue Skills, wie zum Beispiel den Umgang mit Vektor-Datenbanken oder das Verständnis von RAG (Retrieval-Augmented Generation). Dafür einen eigenen Namen zu haben, hilft, die Komplexität gegenüber Entscheidern zu rechtfertigen.
+
+## Fazit: Die Evolution hört nicht auf
+
+Wir befinden uns in einer der spannendsten Phasen seit dem Start des Google-Algorithmus. Dass die Community sich uneinig über den Namen ist, zeigt nur eines: Wir experimentieren noch. Wir lernen noch.
+
+Aber eines ist sicher: Wer glaubt, er könne das Thema aussitzen, wird von denen überholt, die heute schon verstehen, dass man für KI-Systeme anders strukturieren muss als für den Google-Bot von 2018.
+
+Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte so gut sind, dass keine KI an dir vorbeikommt. 
 
 ---
 
-*Was denkt ihr? Schreibt mir auf LinkedIn - ich bin gespannt auf eure Meinung.*
+*Wie nennst du das Kind beim Namen? Oder ist dir das Marketing-Sprech auch völlig egal, solange die Rankings stimmen? Schreib mir auf LinkedIn – ich bin gespannt auf eure Meinung.*
 
-### Weiterführende Artikel
-* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
+### Weiterführende Artikel zum Thema KI-Sichtbarkeit
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/) - Wie man den Wahnsinn misst.
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
+* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr den Praktikanten NICHT dransetzen solltet](/blog/ai-seo-geo-praktikanten/)
+
 

@@ -7,38 +7,57 @@ image: "/images/profile/joerg-zimmer-portrait.jpg"
 image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
 ---
 
-Ich mache jetzt seit über 24 Jahren SEO. Und wisst ihr was? Die Fehler, die ich 2002 gesehen habe, sehe ich 2026 immer noch. Nur die Tools sind schicker geworden.
+Ich mache jetzt seit über 24 Jahren SEO. Wenn ich das laut sage, fühle ich mich manchmal wie ein digitaler Dinosaurier. Ich habe gesehen, wie Google geboren wurde, wie AltaVista unterging und wie wir alle dachten, dass Meta-Keywords der heilige Gral sind. Und wisst ihr was? Die Fehler, die ich 2002 gesehen habe, sehe ich 2026 immer noch. Nur die Tools sind schicker, die Grafiken bunter und die Ausreden kreativer geworden.
 
-## Die Klassiker, die nie sterben
+Es ist faszinierend und erschreckend zugleich. Wir haben heute Rechenpower in der Tasche, die NASA-Computer vor 30 Jahren vor Scham hätte erröten lassen, aber wir stolpern immer noch über die gleichen banalen Steine wie damals.
 
-**1. Keyword-Stuffing in neuem Gewand**
-Früher: "Schuhe kaufen Schuhe online Schuhe günstig Schuhe Berlin"
-Heute: Der gleiche Unsinn, nur verpackt in "AI-optimierte Texte"
+## Die Klassiker: Warum wir immer wieder in die gleiche Falle tappen
 
-**2. Technik ignorieren**
-"Aber der Content ist doch gut!" - Ja, aber wenn die Seite 8 Sekunden lädt, ist das egal.
+Lass uns mal tief in die Mottenkiste der SEO-Fehler greifen. Diese "Dauerbrenner" sind wie die Refrains von schlechten 80er-Jahre-Hits: Man kriegt sie einfach nicht aus dem Kopf (und nicht aus der Website).
 
-**3. Keine Geduld**
-SEO braucht Zeit. Mindestens 6 Monate für erste echte Ergebnisse. Das war vor 20 Jahren so, das ist heute so.
+### 1. Keyword-Stuffing 2.0 (Der AI-Mantel)
+Früher war es primitiv: "Schuhe kaufen Schuhe online Schuhe günstig Schuhe Berlin". Wir haben das weiß auf weißem Grund in den Footer geklatscht. Google hat uns dafür irgendwann (zu Recht) den Stecker gezogen.
+Heute sehe ich das gleiche Problem, nur "eleganter" verpackt. Leute lassen sich von ChatGPT Texte schreiben, in denen das Fokus-Keyword alle zwei Sätze auftaucht, weil der Prompt hieß: "Schreib mir einen SEO-optimierten Text für XY". Das Ergebnis ist unleserlicher Datensalat, der weder dem Nutzer noch der KI gefällt. LLMs (Large Language Models) sind heute extrem gut darin, Semantik zu verstehen. Sie merken, wenn du versuchst, sie zu füttern.
 
-**4. Dem falschen Berater vertrauen**
-Wer verspricht, dass du in 4 Wochen auf Platz 1 bist, lügt. Punkt.
+### 2. Technik als "lästiges Beiboot"
+"Jörg, der Content ist doch Weltklasse, wir haben sogar ein Interview mit dem Papst!" – Ja, schön und gut. Aber wenn deine Seite 8 Sekunden braucht, um das Bild vom Papst zu laden, ist er schon längst weitergesurft.
+Die Ignoranz gegenüber der technischen Basis ist ein Phänomen, das ich seit 20 Jahren bekämpfe. Früher waren es fehlerhafte Flash-Animationen, heute sind es überladene JavaScript-Frameworks und Bilder, die direkt aus der 100-Megapixel-Kamera ins Netz gehen. Ein schlechtes technisches Fundament macht jeden noch so guten Content zunichte.
 
-## Was die Community sagt
+### 3. Die "Sofort-Reich-Falle" (Geduld ist ein Fremdwort)
+SEO braucht Zeit. Das war 2002 so und das ist 2026 immer noch so. Google ist kein Lichtschalter, sondern eher wie ein guter Wein oder ein Sparplan: Man muss kontinuierlich einzahlen, damit es hinten raus knallt. Wenn mir heute jemand im Erstgespräch sagt: "Wir brauchen Ergebnisse in 4 Wochen", dann antworte ich: "Dann schalte Ads. Aber SEO ist der falsche Weg für dich." Wer die 6 Monate Mindestlaufzeit nicht im Kopf hat, wird im SEO niemals glücklich.
 
-Der Post bei SEO Presso hat 35 Reaktionen und 17 Kommentare bekommen. Viele teilen ihre eigenen "Dauerbrenner-Fehler".
+## Der menschliche Faktor: Warum SEO eigentlich Psychologie ist
 
-Ein Kommentator brachte es auf den Punkt: "Die Tools ändern sich, die menschliche Natur nicht."
+Warum machen wir diese Fehler? Weil wir Menschen Abkürzungen lieben. Wir wollen den schnellen Erfolg, den geheimen "Hack", die Wunderwaffe.
 
-## Mein Fazit
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) merke ich oft, dass es gar nicht am Wissen mangelt. Die Leute wissen oft, was zu tun wäre. Aber sie lassen sich von Trends blenden. Sie lesen "KI ist alles" und vergessen dabei, dass am anderen Ende immer noch ein Mensch sitzt, der ein Problem gelöst haben will.
 
-Nach 24 Jahren kann ich sagen: Die Grundlagen sind immer noch die Grundlagen. Guter Content, solide Technik, relevante Backlinks, Geduld. Wer das beherrscht, ist 90% der Konkurrenz voraus.
+### Die "Tool-Gläubigkeit"
+Ein weiterer Fehler, den ich immer wieder sehe: Man kauft sich das teuerste SEO-Tool (Sistrix, Ahrefs, Semrush – egal welches) und glaubt, damit sei das Problem gelöst. Ein Tool ist wie ein Hammer. Wenn du nicht weißt, wo der Nagel ist, haust du dir nur auf den Daumen. Viele Kunden zeigen mir stolz ihre Dashboards mit bunten Linien, können mir aber nicht sagen, was diese Linien für ihr Business bedeuten.
+
+## Was die Community dazu sagt
+
+Als ich dieses Thema neulich auf LinkedIn und im SEOpresso Podcast angeschnitten habe, war das Echo gewaltig. Über 35 Reaktionen und eine hitzige Kommentarspalte haben gezeigt: Ich bin nicht allein mit diesem Frust.
+
+Ein Kollege brachte es auf den Punkt: *"Jörg, das Problem ist, dass viele SEO als IT-Projekt sehen. Aber SEO ist Markenaufbau mit technischen Hilfsmitteln."* Dem ist wenig hinzuzufügen.
+
+## Mein Fazit nach einem Vierteljahrhundert im Game
+
+Wenn ich eines gelernt habe in den letzten 24 Jahren, dann ist es das: Die Grundlagen sind unkaputtbar.
+1. Bau eine Seite, die technisch flutscht (**PageSpeed!**).
+2. Schreibe Texte, die Menschen wirklich helfen (**Helpful Content**).
+3. Sorge dafür, dass andere Kapazitäten dein Wissen schätzen (**Backlinks/Reputation**).
+4. Bleib geduldig und hör auf, nach dem "einen geheimen Trick" zu suchen.
+
+Wer das beherrscht, ist 90% seiner Konkurrenz voraus – egal ob 2002, 2026 oder 2040.
 
 ---
 
-*Das vollständige Gespräch gibt's im SEO Presso Podcast auf YouTube.*
+*Woran scheitert es bei euch am häufigsten? An der Technik, am Content oder an der Geduld? Schreibt mir auf LinkedIn – ich bin gespannt, ob ihr auch noch Fehler aus der "guten alten Zeit" entdeckt.*
 
-### Weiterführende Artikel
-* **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt](/blog/geo-seo-ai-seo-llmo-umfrage/)
-* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)
+### Weiterführende Artikel für Langstreckenläufer
+* **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Was wirklich zählt](/blog/geo-seo-ai-seo-llmo-umfrage/)
+* **Lese-Tipp:** [Die SEO-Sprechstunde erklärt: Website auf den Grill legen](/blog/seo-sprechstunde-erklaert/)
+* **Lese-Tipp:** [PageSpeed 100/100: So geht Technik heute](/blog/pagespeed-100-seo-optimierung/)
+
 

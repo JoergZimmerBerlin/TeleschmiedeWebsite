@@ -10,6 +10,7 @@ Diese Anforderungen gelten für alle neuen Blogartikel auf teleschmie.de, um SEO
 - **Länge:** Jeder Artikel muss zwischen **800 und 1000 Wörtern** liegen.
 - **Frontmatter:** Muss `title`, `description`, `date`, `linkedin_url`, `image` und `image_alt` enthalten.
 - **URL-Slug:** Kurz, kleingeschrieben, mit Bindestrichen (z.B. `rankscale-ai-tracking`).
+- **Interne Links:** Alle internen Links müssen zwingend mit einem **abschließenden Trailing Slash** enden (z.B. `[Link](/seite/)` statt `[Link](/seite)`). Dies gilt global für alle Markdown-Dateien und Komponenten.
 
 ## 2. Strukturierter Aufbau
 Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:

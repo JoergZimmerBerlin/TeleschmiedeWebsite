@@ -68,7 +68,7 @@ Eine SEO-Sprechstunde ist manchmal wie ein Gang zum Arzt: Man hat ein bisschen A
 
 *Haben wir einen Termin? Wenn nicht, wird es Zeit. SEO wartet auf niemanden. Schreib mir auf LinkedIn oder nutze das Kontaktformular – ich freue mich auf dich!*
 
-**Bock auf Action?** [Termin für die Sprechstunde anfragen](/kontakt)
+**Bock auf Action?** [Termin für die Sprechstunde anfragen](/kontakt/)
 
 ### Weiterführende Artikel für Strategen
 * **Lese-Tipp:** [Die Sprechstunde erklärt: Was genau ist das "Grill-Konzept"?](/blog/seo-sprechstunde-erklaert/)

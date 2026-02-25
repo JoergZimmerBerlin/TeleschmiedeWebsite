@@ -69,7 +69,7 @@ Ich liebe es, wenn meine Kunden im Call sagen: "Ach so! Das wusste ich gar nicht
 
 *Haben wir uns schon mal auf dem LinkedIn-Marktplatz getroffen? Wenn du Lust hast, deine Seite mal ordentlich auf den Grill zu legen: Schreib mir. Ich freue mich auf Projekte, die Ecken und Kanten haben.*
 
-**Lust auf eine Sprechstunde?** [Hier geht's zur Buchung (wenn noch Slots frei sind)](/kontakt)
+**Lust auf eine Sprechstunde?** [Hier geht's zur Buchung (wenn noch Slots frei sind)](/kontakt/)
 
 ### Weiterführende Artikel für Tieftaucher
 * **Lese-Tipp:** [Der detaillierte Ablauf: So sieht dein Call aus](/blog/seo-sprechstunde-so-laeuft-sie-ab/)

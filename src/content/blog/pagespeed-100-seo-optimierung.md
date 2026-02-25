@@ -103,7 +103,7 @@ Du fragst dich jetzt sicher: "Jörg, was muss ich auf den Tisch legen für so ei
 
 Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Performance willst, musst du ins Tuning investieren. Eine Seite wie diese, mit ca. 20 Unterseiten und optimiertem LinkedIn-Content, ist bei befreundeten Developern ab ca. 1.000 € machbar. Wenn du allerdings ein komplexes Design oder hunderte Produkte hast, steigt der Aufwand natürlich.
 
-**Interesse?** Wenn du auch eine Seite willst, die deine Konkurrenz im Rückspiegel stehen lässt: [Meld dich bei mir!](/kontakt) Ich vermittle dich an die Leute, die das Handwerk so beherrschen wie ich das SEO.
+**Interesse?** Wenn du auch eine Seite willst, die deine Konkurrenz im Rückspiegel stehen lässt: [Meld dich bei mir!](/kontakt/) Ich vermittle dich an die Leute, die das Handwerk so beherrschen wie ich das SEO.
 
 ---
 

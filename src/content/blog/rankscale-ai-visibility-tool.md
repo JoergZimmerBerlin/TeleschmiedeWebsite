@@ -63,6 +63,16 @@ Ob du es nun AI-SEO, GEO oder LLMO nennst – am Ende des Tages geht es darum, d
 
 ---
 
+<div class="blog-cta-box">
+  <h3>Lust auf mehr AI Visibility?</h3>
+  <p>Wenn du Rankscale selbst testen willst, kannst du hier direkt loslegen:</p>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
+    Rankscale ausprobieren →
+  </a>
+</div>
+
+---
+
 *Nutzt ihr schon AI Visibility Tools? Oder verlasst ihr euch noch auf euer Glück und manuelle Stichproben? Schreibt mir auf LinkedIn – ich bin gespannt auf eure Erfahrungen und ob ihr den Preis auch für gerechtfertigt haltet.*
 
 ### Weiterführende Artikel für KI-Pioniere

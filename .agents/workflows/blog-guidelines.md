@@ -28,13 +28,17 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
     - Eine auffällige Box mit der Klasse `<div class="blog-cta-box">`.
     - Enthält eine direkte Handlungsaufforderung (z.B. Buchung einer SEO-Sprechstunde).
 
-## 3. Schreibstil & Tonalität (Brand Voice)
+## 3. SEO & Schema (Automatisch)
+- Der Artikel generiert automatisch `Article` und `Author` (Jörg Zimmer) Schema-Daten basierend auf dem Frontmatter.
+- Sorge dafür, dass `title`, `description` und `image` im Frontmatter präzise und optimiert sind.
+
+## 4. Schreibstil & Tonalität (Brand Voice)
 - **Persönlich & Nahbar:** Schreibe in der Ich-Form. Nutze Formulierungen wie "Ich habe getestet...", "Meiner Meinung nach...".
 - **Seniorität:** Zeige Expertise ohne unnötigen Jargon. Erkläre komplexe Themen einfach.
 - **Begrüßung/Abschied:** Nutze "Moin!" oder vergleichbare lockere Einstiege und schließe immer mit einem **"ALOHA ✌️"**.
 - **Layout-Regel:** Nutze kurze Absätze. Sorge für genügend Weißraum (wird durch das `blog/[slug].astro` CSS automatisch unterstützt).
 
-## 4. Bildmaterial
+## 5. Bildmaterial
 - **Header-Bild:** Hochwertig (PNG/WebP), Format 16:9 oder quadratisch.
 - **Speicherort:** `/public/images/blog/`.
 - **Git-Hinweis:** Da `public/images` oft in der `.gitignore` ist, neue Bilder mit `git add -f [Pfad]` forcen.

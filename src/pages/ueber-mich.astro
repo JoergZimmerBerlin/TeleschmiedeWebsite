@@ -196,4 +196,78 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </a>
     </div>
   </section>
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://teleschmie.de/#person",
+          "name": "Jörg Zimmer",
+          "url": "https://teleschmie.de/ueber-mich/",
+          "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.jpg",
+          "jobTitle": "SEO & SEA Freelancer",
+          "worksFor": { "@id": "https://teleschmie.de/#service" },
+          "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer aus Berlin Spandau.",
+          "sameAs": [
+            "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+            "https://www.xing.com/profile/Joerg_Zimmer6",
+            "https://linktr.ee/jorgzimmer"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://teleschmie.de/#service",
+          "name": "Teleschmiede - Jörg Zimmer SEO & SEA Freelancer",
+          "url": "https://teleschmie.de",
+          "logo": "https://teleschmie.de/images/logo-teleschmiede.png",
+          "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.jpg",
+          "description": "Individuelle SEO & SEA Strategien und persönliche Beratung von Jörg Zimmer.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Zu den Fichtewiesen 16",
+            "addressLocality": "Berlin",
+            "postalCode": "13587",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.5482,
+            "longitude": 13.2033
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          "priceRange": "€€€",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "10"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "Was kostet eine SEO-Beratung bei Jörg Zimmer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Der Stundensatz liegt bei 200€ für individuelle Beratung. Die SEO-Sprechstunde wird als 2-stündiges Paket für 400€ angeboten."
+            }
+          }, {
+            "@type": "Question",
+            "name": "Bietet Jörg Zimmer auch Google Ads (SEA) an?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja, als Google Ads Spezialist optimiere ich Kampagnen auf ROI und Conversions."
+            }
+          }]
+        }
+      ]
+    }
+  </script>
 </Layout>

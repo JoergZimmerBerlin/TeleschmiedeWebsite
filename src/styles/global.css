@@ -24,7 +24,7 @@
 @layer components {
   /* Lime Highlight (Pill-Shape wie bei lau.do) */
   .highlight {
-    @apply bg-lime-accent px-3 py-0.5 rounded-full;
+    @apply bg-lime-accent px-3 rounded-full;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }

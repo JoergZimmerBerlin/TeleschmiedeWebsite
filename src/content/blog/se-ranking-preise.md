@@ -5,6 +5,8 @@ date: "2026-02-26"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/blog/se-ranking-preise.png"
 image_alt: "SE Ranking Preise und Pakete im Vergleich - Core vs Growth"
+category: "Tools"
+tags: ["SEO", "SE Ranking", "Preise"]
 ---
 
 Moin!

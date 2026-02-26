@@ -5,6 +5,8 @@ date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/blog/pagespeed-screenshot.png"
 image_alt: "PageSpeed Insights Screenshot - teleschmie.de mit 100/100 Score"
+category: "Technisches SEO"
+tags: ["PageSpeed", "Performance", "Optimization"]
 ---
 
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 20 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 

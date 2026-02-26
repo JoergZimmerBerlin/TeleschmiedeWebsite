@@ -5,6 +5,8 @@ date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/profile/joerg-zimmer-portrait.jpg"
 image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
+category: "SEO Strategie"
+tags: ["Experience", "SEO", "Best Practices"]
 ---
 
 Ich mache jetzt seit über 24 Jahren SEO. Wenn ich das laut sage, fühle ich mich manchmal wie ein digitaler Dinosaurier. Ich habe gesehen, wie Google geboren wurde, wie AltaVista unterging und wie wir alle dachten, dass Meta-Keywords der heilige Gral sind. Und wisst ihr was? Die Fehler, die ich 2002 gesehen habe, sehe ich 2026 immer noch. Nur die Tools sind schicker, die Grafiken bunter und die Ausreden kreativer geworden.

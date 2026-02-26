@@ -5,6 +5,8 @@ date: "2025-12-15"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/profile/joerg-zimmer-cta.jpg"
 image_alt: "SE Ranking AI Tracker - SEO Tool Review von Jörg Zimmer"
+category: "AI SEO"
+tags: ["AI", "SEO", "SE Ranking"]
 ---
 
 Man merkt, dass ein Thema den Kinderschuhen entwachsen ist, wenn die "Großen" anfangen, ihre Claims abzustecken. Nach Rankscale kommt nun das nächste Schwergewicht für **AI Visibility Tracking** aus der Versenkung: SE Ranking hat offiziell seinen eigenen AI Tracker gelauncht.

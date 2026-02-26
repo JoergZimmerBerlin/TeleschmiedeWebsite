@@ -5,6 +5,8 @@ date: "2026-01-03"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/profile/katze-seo-hoodie.jpg"
 image_alt: "SEO-Sprechstunde erklärt - Was erwartet dich bei Jörg Zimmer"
+category: "Service"
+tags: ["Consulting", "SEO Sprechstunde"]
 ---
 
 "Was genau machst du eigentlich in diesen zwei Stunden Sprechstunde? Ist das nur ein netter Plausch oder kommt da wirklich was bei rum?" 

@@ -48,3 +48,6 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
 - **Header-Bild:** Hochwertig (PNG/WebP), Format 16:9 oder quadratisch.
 - **Speicherort:** `/public/images/blog/`.
 - **Git-Hinweis:** Da `public/images` oft in der `.gitignore` ist, neue Bilder mit `git add -f [Pfad]` forcen.
+
+## 6. Qualitätssicherung
+- Vor jedem Release muss der Artikel gemäß dem [QA-Workflow](file:///Users/jorti/Documents/Antigravity/.agents/workflows/qa-workflow.md) geprüft werden.

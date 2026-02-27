@@ -66,8 +66,8 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
         <article class="blog-card featured-post mb-12 group" data-tags={JSON.stringify(featuredPost.data.tags || [])}>
           <a href={`${baseUrl}/blog/${featuredPost.slug}/`} class="flex flex-col lg:flex-row gap-8 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
             <div class="lg:w-1/2 overflow-hidden">
-              <img
-                src={`${baseUrl}${featuredPost.data.image}`}
+              <Image
+                src={featuredPost.data.image}
                 alt={featuredPost.data.image_alt || featuredPost.data.title}
                 width={800}
                 height={600}

@@ -101,7 +101,7 @@ Ehrlich gesagt: Nein. Google sagt, alles im "grünen Bereich" (über 90) ist ers
 ### 2. Kann ich das mit WordPress auch schaffen?
 Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was wir hier nutzen) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
 
-![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](/images/blog/astro-vs-wordpress-performance.png)
+![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](../../assets/images/blog/astro-vs-wordpress-performance.png)
 
 ### 3. Was ist die wichtigste Metrik für mich?
 Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment, in dem der Nutzer das Gefühl hat: "Ah, jetzt ist die Seite da." Wenn der unter 1.5 Sekunden liegt, bist du vorne mit dabei.

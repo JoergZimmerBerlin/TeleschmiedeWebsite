@@ -3,8 +3,17 @@ title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "/images/blog/pagespeed-screenshot.png"
-image_alt: "PageSpeed Insights Screenshot - teleschmie.de mit 100/100 Score"
+image: "/images/blog/pagespeed-tuning.png"
+image_alt: "PageSpeed 100 SEO Optimierung - Jörg Zimmer"
+key_takeaways:
+  - "Eine 100 im PageSpeed-Index ist kein Selbstzweck, sondern ein Wettbewerbsvorteil."
+  - "Astro überzeugt durch 'Zero JS by default' und schlägt WordPress in der Performance deutlich."
+  - "Bilder-Optimierung (WebP/AVIF) und Caching sind die 'Low-Hanging Fruits' für schnelle Ladezeiten."
+faqs:
+  - question: "Warum ist PageSpeed wichtig für SEO?"
+    answer: "Google nutzt die Core Web Vitals als Ranking-Faktor. Eine schnelle Seite verbessert die Nutzererfahrung und führt zu höheren Conversion-Rates."
+  - question: "Ist Astro besser als WordPress?"
+    answer: "Für reine Content-Seiten und Performance ist Astro überlegen, da es statisches HTML ohne unnötiges JavaScript ausliefert."
 category: "Technisches SEO"
 tags: ["PageSpeed", "Performance", "Optimization"]
 ---
@@ -12,6 +21,8 @@ tags: ["PageSpeed", "Performance", "Optimization"]
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 20 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 
 
 In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der wir gedreht haben, damit diese Seite rennt, als gäbe es kein Morgen.
+
+![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](/images/blog/pagespeed-tuning-guide.png)
 
 ## Warum ich von 100/100 besessen bin
 
@@ -89,6 +100,8 @@ Ehrlich gesagt: Nein. Google sagt, alles im "grünen Bereich" (über 90) ist ers
 
 ### 2. Kann ich das mit WordPress auch schaffen?
 Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was wir hier nutzen) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
+
+![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](/images/blog/astro-vs-wordpress-performance.png)
 
 ### 3. Was ist die wichtigste Metrik für mich?
 Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment, in dem der Nutzer das Gefühl hat: "Ah, jetzt ist die Seite da." Wenn der unter 1.5 Sekunden liegt, bist du vorne mit dabei.

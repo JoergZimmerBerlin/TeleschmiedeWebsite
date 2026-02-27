@@ -1,0 +1,109 @@
+---
+---
+
+<div class="my-16 p-8 md:p-12 bg-dark rounded-[2rem] text-white shadow-2xl relative overflow-hidden group border border-white/5">
+  <!-- Gradient Glows -->
+  <div class="absolute -top-24 -left-24 w-64 h-64 bg-lime-accent/10 rounded-full blur-[80px]"></div>
+  <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-lime-accent/5 rounded-full blur-[80px]"></div>
+
+  <div class="relative z-10 max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <h3 class="text-3xl md:text-4xl font-bold mb-4">SEO ROI Rechner</h3>
+      <p class="text-gray-400 text-lg">Berechne das Potenzial deiner organischen Sichtbarkeit.</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- Inputs -->
+      <div class="space-y-8">
+        <div>
+          <div class="flex justify-between mb-2">
+            <label for="monthly-visitors" class="text-sm font-medium text-gray-300">Monatliche Besucher (Ziel)</label>
+            <span id="visitors-value" class="text-lime-accent font-bold text-lg">5.000</span>
+          </div>
+          <input type="range" id="monthly-visitors" min="500" max="50000" step="500" value="5000" class="w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer accent-lime-accent">
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-2">
+            <label for="conv-rate" class="text-sm font-medium text-gray-300">Conversion Rate (%)</label>
+            <span id="conv-value" class="text-lime-accent font-bold text-lg">2%</span>
+          </div>
+          <input type="range" id="conv-rate" min="0.1" max="10" step="0.1" value="2" class="w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer accent-lime-accent">
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-2">
+            <label for="avg-order" class="text-sm font-medium text-gray-300">Durchschn. Bestellwert (€)</label>
+            <span id="order-value" class="text-lime-accent font-bold text-lg">150€</span>
+          </div>
+          <input type="range" id="avg-order" min="10" max="5000" step="10" value="150" class="w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer accent-lime-accent">
+        </div>
+      </div>
+
+      <!-- Results Display -->
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 flex flex-col items-center justify-center text-center">
+        <p class="text-sm uppercase tracking-widest text-gray-400 mb-2">Potenzieller Mehrumsatz / Monat</p>
+        <div id="roi-result" class="text-5xl md:text-6xl font-bold mb-6 text-lime-accent">15.000€</div>
+        
+        <div class="w-full pt-6 border-t border-white/10 grid grid-cols-2 gap-4">
+          <div>
+            <p class="text-xs text-gray-500 uppercase">Leads/Sales</p>
+            <p id="leads-result" class="text-xl font-bold">100</p>
+          </div>
+          <div>
+            <p class="text-xs text-gray-500 uppercase">Jährlich</p>
+            <p id="annual-result" class="text-xl font-bold">180.000€</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 p-6 bg-white/5 rounded-2xl border border-white/5 text-sm text-gray-400 italic text-center">
+      *Diese Rechnung basiert auf Schätzwerten und dient der Potenzialanalyse. Der tatsächliche ROI ist abhängig von Marktfaktoren und Wettbewerb.
+    </div>
+  </div>
+</div>
+
+<script>
+  function calculateROI() {
+    const visitors = parseInt((document.getElementById('monthly-visitors') as HTMLInputElement).value);
+    const convRate = parseFloat((document.getElementById('conv-rate') as HTMLInputElement).value);
+    const avgOrder = parseInt((document.getElementById('avg-order') as HTMLInputElement).value);
+
+    // Update labels
+    document.getElementById('visitors-value')!.textContent = visitors.toLocaleString('de-DE');
+    document.getElementById('conv-value')!.textContent = convRate + '%';
+    document.getElementById('order-value')!.textContent = avgOrder + '€';
+
+    // Calculate
+    const leads = Math.round(visitors * (convRate / 100));
+    const monthlyRevenue = leads * avgOrder;
+    const annualRevenue = monthlyRevenue * 12;
+
+    // Update results
+    document.getElementById('leads-result')!.textContent = leads.toLocaleString('de-DE');
+    document.getElementById('roi-result')!.textContent = monthlyRevenue.toLocaleString('de-DE') + '€';
+    document.getElementById('annual-result')!.textContent = annualRevenue.toLocaleString('de-DE') + '€';
+  }
+
+  // Setup listeners
+  ['monthly-visitors', 'conv-rate', 'avg-order'].forEach(id => {
+    document.getElementById(id)?.addEventListener('input', calculateROI);
+  });
+
+  // Initial calc
+  calculateROI();
+</script>
+
+<style>
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #D9FF00;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(217, 255, 0, 0.4);
+  }
+</style>

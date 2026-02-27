@@ -46,6 +46,12 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
 
 ## 5. Bildmaterial
 - **Header-Bild:** Hochwertig (PNG/WebP), Format 16:9 oder quadratisch.
+- **Infografiken:**
+    - **Anzahl:** 1-2 Infografiken pro Blogartikel.
+    - **Inhalt:** Visualisieren den Inhalt (z.B. Prozesse, Vergleiche, Statistiken).
+    - **Stil:** Moderner 3D-Stil mit Lime-Akzenten (`#D9FF00` / `lime-accent`), passend zur Brand Identity von teleschmie.de.
+    - **Sprache:** Alle Textelemente innerhalb der Infografiken müssen zwingend auf **Deutsch** sein.
+    - **Einbau:** Optisch ansprechend in den Textfluss integriert (meist nach relevanten Abschnitten oder vor dem Fazit).
 - **Speicherort:** `/public/images/blog/`.
 - **Git-Hinweis:** Da `public/images` oft in der `.gitignore` ist, neue Bilder mit `git add -f [Pfad]` forcen.
 

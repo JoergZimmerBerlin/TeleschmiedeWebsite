@@ -15,6 +15,8 @@ Es ist faszinierend und erschreckend zugleich. Wir haben heute Rechenpower in de
 
 ## Die Klassiker: Warum wir immer wieder in die gleiche Falle tappen
 
+![Die 4 SEO-Dauerbrenner: Typische Fehler in der Analyse](/images/blog/seo-fehler-dauerbrenner.png)
+
 Lass uns mal tief in die Mottenkiste der SEO-Fehler greifen. Diese "Dauerbrenner" sind wie die Refrains von schlechten 80er-Jahre-Hits: Man kriegt sie einfach nicht aus dem Kopf (und nicht aus der Website).
 
 ### 1. Keyword-Stuffing 2.0 (Der AI-Mantel)
@@ -50,6 +52,8 @@ Wenn ich eines gelernt habe in den letzten 24 Jahren, dann ist es das: Die Grund
 2. Schreibe Texte, die Menschen wirklich helfen (**Helpful Content**).
 3. Sorge dafür, dass andere Kapazitäten dein Wissen schätzen (**Backlinks/Reputation**).
 4. Bleib geduldig und hör auf, nach dem "einen geheimen Trick" zu suchen.
+
+![Strategischer Vergleich: Nachhaltiges SEO vs. Kurzfristige Hacks](/images/blog/nachhaltiges-seo-vs-quickfix.png)
 
 Wer das beherrscht, ist 90% seiner Konkurrenz voraus – egal ob 2002, 2026 oder 2040.
 

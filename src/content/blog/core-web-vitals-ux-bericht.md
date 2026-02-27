@@ -23,7 +23,9 @@ Seit 2021 sind die CWV ein offizieller Ranking-Faktor. Aber Hand aufs Herz: Das 
 
 ## Die drei Reiter der Nutzererfahrung (und wie wir sie gezähmt haben)
 
-Hier ist das, was wir bei meinem Kunden-Projekt im Detail gemacht haben. Es war ein Zusammenspiel aus Analyse, Strategie und knallharter Umsetzung.
+![Die 3 Säulen der Nutzererfahrung: LCP, INP und CLS erklärt](/images/blog/core-web-vitals-pfeiler.png)
+
+Hier ist das, what wir bei meinem Kunden-Projekt im Detail gemacht haben. Es war ein Zusammenspiel aus Analyse, Strategie und knallharter Umsetzung.
 
 ### 1. LCP (Largest Contentful Paint) – Der Tempomacher
 LCP misst, wie lange es dauert, bis das größte sichtbare Element (meist ein Hero-Image oder eine fette Headline) geladen ist. 

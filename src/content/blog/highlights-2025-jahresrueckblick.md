@@ -7,9 +7,9 @@ image: "/images/profile/website-boosting-rucksack.jpg"
 image_alt: "Jahresrückblick 2025 - SEO Highlights von Jörg Zimmer"
 ---
 
-2025 war ein wildes Jahr. Ein Jahr, in dem wir uns alle an KI-Antworten gewöhnen mussten, in dem LinkedIn noch mehr zum digitalen Marktplatz wurde und in dem ich öfter den Kopf geschüttelt habe, als ich zählen kann. Aber es war auch ein Jahr voller echter Verbindungen und wichtiger Diskussionen.
-
 Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüter erhitzt haben, die Themen, die mich nachts wachgehalten haben, und natürlich auch die Momente, in denen wir einfach nur gelacht haben.
+
+![Dashboard: Meine persönlichen SEO-Highlights aus dem Jahr 2025](/images/blog/seo-highlights-2025.png)
 
 ## Ein Jahr in Posts: Meine persönlichen Meilensteine
 

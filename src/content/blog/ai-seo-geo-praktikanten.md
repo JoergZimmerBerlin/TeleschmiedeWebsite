@@ -17,6 +17,8 @@ In meinem aktuellen Video bei SEO Presso spreche ich mit erfahrenen Kollegen dar
 
 ### GEO: Generative Engine Optimization
 
+![Komplexitäts-Layer von GEO und AI-Sichtbarkeit](/images/blog/geo-aio-komplexitaet.png)
+
 Bei GEO geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT aufzutauchen. 
 
 Das ist echtes High-End-Handwerk. Warum? Weil diese Systeme Informationen anders verarbeiten als die klassische Google-Suche. Sie suchen nicht nach dem Dokument mit dem besten Backlink-Profil, sondern nach dem Dokument, das die höchste semantische Relevanz und Fakten-Dichte zur Anfrage bietet. GEO erfordert ein Verständnis von **Entity-Based SEO**, **Structured Data** auf einem neuen Level und der Fähigkeit, komplexe Themen so präzise zu strukturieren, dass eine KI sie fehlerfrei extrahieren kann.

@@ -24,6 +24,8 @@ Die Vorschläge laufen fast immer auf das Gleiche hinaus:
 - **Smart Bidding ohne Limits:** Gib Google die volle Kontrolle über dein Budget. Das System optimiert vielleicht auf Conversions, aber oft auf die, die du ohnehin bekommen hättest – nur jetzt teurer.
 - **Einbeziehung des Suchnetzwerk-Partners:** Damit landet deine Werbung auf irgendwelchen Schrott-Seiten, die niemand ernsthaft liest.
 
+![Die Broad-Match-Falle: Wenn das Werbebudget im Nichts verschwindet](/images/blog/broad-match-falle.png)
+
 ### Die Realität in den Accounts
 
 Ich sehe regelmäßig Accounts, in denen Kunden blind den Empfehlungen gefolgt sind. Die Story ist immer gleich: "Jörg, wir haben jetzt einen Optimierungsscore von 98%, aber unsere Kosten sind explodiert und die Qualität der Leads ist im Keller." 
@@ -39,6 +41,8 @@ Jedes Jahr die gleiche Leier. "SEO ist tot!" Seit ich 2002 angefangen habe, habe
 - 2012: Penguin-Update? "SEO ist tot!"
 - 2015: Mobilegate? "SEO ist tot!"
 - 2023: ChatGPT/AI? "SEO ist tot!"
+
+![Resilienz und Evolution: SEO übersteht alle Google-Updates](/images/blog/google-updates-timeline.png)
 
 Wisst ihr was? SEO erfreut sich bester Gesundheit. Es hat nur die Form gewechselt. Die "Wildwest-Zeiten", in denen man mit ein paar Linkkäufen und Keyword-Spamming auf Platz 1 kam, die sind tot. Und das ist auch gut so.
 

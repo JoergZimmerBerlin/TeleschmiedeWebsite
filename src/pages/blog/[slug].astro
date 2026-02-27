@@ -1,6 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import KeyTakeaways from '../../components/KeyTakeaways.astro';
+import FAQAccordion from '../../components/FAQAccordion.astro';
+import ROICalculator from '../../components/ROICalculator.astro';
+import DownloadCard from '../../components/DownloadCard.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -11,8 +15,27 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content, headings } = await post.render();
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Reading Time Calculation
+const wordCount = post.body.split(/\s+/).length;
+const readingTime = Math.ceil(wordCount / 200); // Avg 200 wpm
+
+const shareUrl = `https://teleschmie.de/blog/${post.slug}/`;
+const shareTitle = encodeURIComponent(post.data.title);
+
+// Get related posts
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter(p => p.slug !== post.slug) // Exclude current
+  .filter(p => {
+    const hasCommonCategory = p.data.category === post.data.category;
+    const commonTags = p.data.tags?.filter(tag => post.data.tags?.includes(tag)) || [];
+    return hasCommonCategory || commonTags.length > 0;
+  })
+  .sort(() => Math.random() - 0.5) // Randomize
+  .slice(0, 3); // Top 3
 ---
 
 <Layout
@@ -20,24 +43,66 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
   description={post.data.description}
   ogImage={post.data.image}
 >
-  <article class="section">
+  <!-- Reading Progress Bar -->
+  <div id="progress-container" class="fixed top-0 left-0 w-full h-1.5 z-50 pointer-events-none">
+    <div id="progress-bar" class="h-full bg-lime-accent w-0 transition-all duration-150 shadow-[0_0_10px_rgba(217,255,0,0.5)]"></div>
+  </div>
+
+  <article class="section pt-8">
     <div class="container-narrow">
-      <!-- Back Link -->
-      <a href={`${baseUrl}/blog/`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors mb-8">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-        </svg>
-        Zurück zum Blog
-      </a>
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
+        <!-- Back Link -->
+        <a href={`${baseUrl}/blog/`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Zurück zum Blog
+        </a>
+
+        <!-- Reading Time -->
+        <div class="flex items-center gap-4 text-sm text-gray-muted">
+          <span class="flex items-center gap-1.5">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            {readingTime} Min. Lesezeit
+          </span>
+        </div>
+      </div>
 
       <!-- Featured Image -->
       {post.data.image && (
         <img
           src={`${baseUrl}${post.data.image}`}
           alt={post.data.image_alt || post.data.title}
-          class="w-full rounded-2xl mb-8"
+          class="w-full rounded-2xl mb-8 shadow-sm"
           loading="eager"
         />
+      )}
+
+      <!-- Table of Contents -->
+      {headings.length > 0 && (
+        <nav class="mb-12 p-6 bg-gray-50 border border-gray-100 rounded-2xl">
+          <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <svg class="w-5 h-5 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+            Inhaltsverzeichnis
+          </h2>
+          <ul class="space-y-2">
+            {headings.filter(h => h.depth <= 3).map(heading => (
+              <li class={`text-sm ${heading.depth === 3 ? 'ml-6' : ''}`}>
+                <a 
+                  href={`#${heading.slug}`} 
+                  class="text-gray-muted hover:text-lime-600 transition-colors flex items-center gap-2"
+                >
+                  <span class="w-1.5 h-1.5 bg-gray-300 rounded-full"></span>
+                  {heading.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
       )}
 
       <!-- Header -->
@@ -53,9 +118,9 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
             href={post.data.linkedin_url}
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 text-sm text-gray-muted hover:text-dark transition-colors"
+            class="inline-flex items-center gap-2 text-sm text-gray-muted hover:text-dark transition-colors bg-gray-50 px-3 py-1.5 rounded-lg border border-gray-100"
           >
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 text-[#0077b5]" fill="currentColor" viewBox="0 0 24 24">
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
             </svg>
             Original auf LinkedIn ansehen
@@ -64,10 +129,39 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </header>
 
       <!-- Content -->
-      <!-- Content -->
-      <div class="blog-content prose prose-lg max-w-none leading-relaxed prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:my-12 prose-blockquote:rounded-r-lg">
+      <div class="blog-content prose prose-lg max-w-none leading-relaxed prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:my-12 prose-blockquote:rounded-r-lg" id="blog-content">
+        {post.data.key_takeaways && <KeyTakeaways takeaways={post.data.key_takeaways} />}
         <Content />
+        {post.data.show_roi_calculator && <ROICalculator />}
+        {post.data.download_card && <DownloadCard {...post.data.download_card} />}
+        {post.data.faqs && <FAQAccordion faqs={post.data.faqs} />}
       </div>
+
+      <script>
+        // Reading Progress Bar
+        const updateProgressBar = () => {
+          const content = document.getElementById('blog-content');
+          if (!content) return;
+          
+          const progressBar = document.getElementById('progress-bar');
+          if (!progressBar) return;
+
+          const totalHeight = content.offsetHeight;
+          const contentTop = content.offsetTop;
+          const scrollPos = window.scrollY;
+          const windowHeight = window.innerHeight;
+
+          // Calculate percentage based on content area
+          let progress = ((scrollPos - contentTop + windowHeight / 2) / totalHeight) * 100;
+          progress = Math.max(0, Math.min(100, progress));
+          
+          progressBar.style.width = `${progress}%`;
+        };
+
+        window.addEventListener('scroll', updateProgressBar);
+        window.addEventListener('resize', updateProgressBar);
+        updateProgressBar();
+      </script>
 
       <!-- Custom Blog Styles -->
       <style is:global>
@@ -130,13 +224,41 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           </div>
         </div>
       </footer>
+
+      <!-- Related Posts -->
+      {relatedPosts.length > 0 && (
+        <div class="mt-20 pt-12 border-t border-gray-100">
+          <h3 class="text-2xl font-bold mb-8">Das könnte dich auch interessieren</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedPosts.map(p => (
+              <a href={`${baseUrl}/blog/${p.slug}/`} class="group block bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all">
+                <div class="aspect-video overflow-hidden">
+                  <img 
+                    src={`${baseUrl}${p.data.image}`} 
+                    alt={p.data.image_alt} 
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div class="p-4">
+                  <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-2 inline-block">
+                    {p.data.category || 'SEO'}
+                  </span>
+                  <h4 class="font-bold text-sm line-clamp-2 group-hover:text-lime-600 transition-colors">
+                    {p.data.title}
+                  </h4>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   </article>
 
   <!-- Schema Markup -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": ["Article", post.data.faqs ? "FAQPage" : null].filter(Boolean),
     "headline": post.data.title,
     "description": post.data.description,
     "image": post.data.image ? `https://teleschmie.de${post.data.image}` : undefined,
@@ -162,7 +284,17 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://teleschmie.de/blog/${post.slug}/`
-    }
+    },
+    ...(post.data.faqs ? {
+      "mainEntity": post.data.faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    } : {})
   })} />
 </Layout>
 

@@ -18,10 +18,14 @@ Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gela
 Wir haben uns Zeit genommen, die Themen zu sezieren, die viele Marketer heute nachts wachhalten:
 
 - **Warum SEO kein 4-Wochen-Projekt ist:** Ich sage es im Podcast ganz deutlich: Wer echte Ergebnisse will, sollte in Monaten denken, nicht in Wochen. Oft dauert es 13 Monate (ja, das ist eine spezifische Zahl aus meiner Erfahrung), bis ein Projekt wirklich sein volles Momentum entfaltet. Warum? Weil Vertrauen bei Suchmaschinen organisch wachsen muss. Man kann technische Fehler in Tagen beheben, aber Autorität lässt sich nicht erzwingen.
+
+![Infografik: Die 13-Monate-Momentum-Timeline für SEO-Projekte](/images/blog/seo-projekt-timeline.png)
 - **Content ist mehr als nur Buchstaben auf dem Bildschirm:** Wir haben darüber philosophiert, wie man mit Inhalten echte Werte schafft. Es geht nicht darum, den hundertsten Artikel über "SEO Tipps" zu schreiben. Es geht darum, die Suchintention (Search Intent) so präzise zu treffen, dass der Nutzer gar nicht anders kann, als bei dir zu bleiben. Wir haben besprochen, wie man Content-Cluster baut, die wie ein Magnet für die richtige Zielgruppe wirken.
 - **Wieso "Money Keywords" keine Magie sind, sondern Handwerk:** Alle wollen für "Versicherung kaufen" auf Platz 1. Aber ist das strategisch klug? Wir haben analysiert, wie man die Nischen findet, in denen das Geld wirklich verdient wird – fernab vom blutigen Wettbewerb der großen Begriffe. Es ist die Kunst der Long-Tail-Strategie gepaart mit einem tiefen Verständnis des Nutzer-Funnels.
 - **Wie KI heute wirklich hilft und wo sie versagt:** KI ist ein Co-Pilot, kein Kapitän. Wir haben darüber gesprochen, wie wir LLMs für die Datenanalyse, das Clustering und die Strukturierung nutzen. Aber wir haben auch aufgezeigt, wo die menschliche Expertise unersetzlich bleibt: In der Intuition, im Branding und in der Fähigkeit, über den Tellerrand der vorhandenen Trainingsdaten hinauszuschauen.
 - **Die ewige Frage: SEO vs. Ads:** Wann schmeiße ich Geld in Google Ads (früher AdWords) und wann investiere ich in den langen Atem von SEO? Wir haben ein paar "Fausregeln" geteilt, die dir tausende Euro an Lehrgeld ersparen können. Es geht um die Synergie, nicht um das Entweder-oder.
+
+![Die Synergie aus SEO und Ads: Gemeinsam zum Erfolg](/images/blog/seo-ads-synergie.png)
 
 ## Der Kern der Sache: Bist du SEO AI ready?
 

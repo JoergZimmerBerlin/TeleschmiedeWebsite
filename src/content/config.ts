@@ -11,6 +11,19 @@ const blog = defineCollection({
     image_alt: z.string().optional(),
     tags: z.array(z.string()).optional(),
     category: z.string().optional(),
+    key_takeaways: z.array(z.string()).optional(),
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
+    show_roi_calculator: z.boolean().optional(),
+    download_card: z.object({
+      title: z.string(),
+      description: z.string(),
+      buttonText: z.string(),
+      buttonLink: z.string(),
+      image: z.string().optional(),
+    }).optional(),
   }),
 });
 

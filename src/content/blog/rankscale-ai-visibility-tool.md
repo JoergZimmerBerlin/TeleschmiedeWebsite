@@ -26,7 +26,7 @@ Es geht nicht nur darum, ob du erwähnt wirst, sondern WIE. Rankscale zeigt dir,
 
 ### 2. Der Sentiment-Check: Was denkt die KI über dich?
 
-![AI Sentiment Kompass: Wie die KI deine Brand-Reputation bewertet](/images/blog/ai-sentiment-kompass.png)
+![AI Sentiment Kompass: Wie die KI deine Brand-Reputation bewertet](../../assets/images/blog/ai-sentiment-kompass.png)
 
 Das ist für mich der absolute Game-Changer. Das Tool analysiert den Kontext der Erwähnung. Sagt Claude, dass du ein Experte bist? Oder wirst du in einem negativen Kontext erwähnt (z.B. "XY ist teuer")? Dieses Sentiment-Tracking ist für das Reputation-Management in der KI-Ära überlebenswichtig.
 

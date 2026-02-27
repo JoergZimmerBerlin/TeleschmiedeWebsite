@@ -25,7 +25,7 @@ Wo genau tauchst du in den AI-Suchergebnissen (z. B. Google AI Overviews oder SG
 ### 2. Der Trend-Check: Gehst du steil oder gehst du unter?
 Sichtbarkeit in der KI ist extrem volatil. Ein Modell-Update von OpenAI oder Google kann deine Präsenz über Nacht halbieren oder verdoppeln. SE Ranking bietet hier die gewohnten Charts, um diese Schwankungen in einen Kontext zu setzen. Geht dein ganzer Markt runter oder nur du? Das ist die Millionen-Euro-Frage.
 
-![AI Visibility Volatilität: Die Wirkung von Modell-Updates messen](/images/blog/ai-visibility-volatilitaet.png)
+![AI Visibility Volatilität: Die Wirkung von Modell-Updates messen](../../assets/images/blog/ai-visibility-volatilitaet.png)
 
 ### 3. Wettbewerbs-Spionage (classic SE Ranking Style)
 Wer sind die neuen Könige der KI-Suche? Oft sind das gar nicht deine klassischen Konkurrenten aus den organischen SERPs. Der AI Tracker identifiziert, welche Player die KI bevorzugt. Das ist oft ein Augenöffner: Warum rankt da plötzlich ein kleiner Fachblog vor dem großen Marktführer?

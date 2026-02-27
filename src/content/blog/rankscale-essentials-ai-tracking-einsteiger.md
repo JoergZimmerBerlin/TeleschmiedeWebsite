@@ -42,7 +42,7 @@ Im Essentials-Paket hast du Zugriff auf über 17 LLMs (u.a. ChatGPT, Claude, Gem
 
 ## Infografik: Dein Weg zur AI Visibility
 
-![AI Visibility Trichter - Der Prozess von Content zu Daten](/images/blog/ai-visibility-trichter.png)
+![AI Visibility Trichter - Der Prozess von Content zu Daten](../../assets/images/blog/ai-visibility-trichter.png)
 
 Stell dir das Ganze wie einen Trichter vor:
 1.  **Input:** Dein Content und deine Marke fließen hinein.
@@ -77,7 +77,7 @@ ALOHA ✌️
 
 ---
 
-![Die 5 Säulen der AI Visibility - Rankscale Essentials](/images/blog/five-pillars-ai-visibility.png)
+![Die 5 Säulen der AI Visibility - Rankscale Essentials](../../assets/images/blog/five-pillars-ai-visibility.png)
 
 ---
 

@@ -40,7 +40,7 @@ Wenn du deine Zielgruppe nicht verstehst, wenn deine Texte niemanden bewegen und
 
 Michael Kaufhold hat im Magic Writing Podcast sehr schön herausgearbeitet, dass Schreiben (oder Content-Creation generell) heute eine Brücke schlagen muss zwischen dem, was die KI versteht, und dem, was den Menschen emotional abholt. Wer nur für die KI schreibt, langweilt den Menschen. Wer nur für den Menschen schreibt, wird von der KI vielleicht nicht gefunden. Die Magie liegt in der Mitte.
 
-![Die Contextual SEO Brücke: Technologie trifft auf menschliche Emotion](/images/blog/contextual-seo-bruecke.png)
+![Die Contextual SEO Brücke: Technologie trifft auf menschliche Emotion](../../assets/images/blog/contextual-seo-bruecke.png)
 
 ## Das Problem mit den Totgesagten
 

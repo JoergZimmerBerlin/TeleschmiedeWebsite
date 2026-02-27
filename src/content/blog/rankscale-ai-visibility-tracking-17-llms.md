@@ -13,7 +13,7 @@ Da bin ich wochenlang auf der Suche, wie man die Erwähnungen in den KI-Modellen
 
 Die Rede ist von Rankscale aus Österreich. Ich hatte gestern mein kleines Onboarding-Gespräch und bin überrascht, wie intuitiv es ist. Domain eingeben, Topic Cluster wählen, LLM auswählen. Fertig. Das Tool rennt los, erkennt das Umfeld und schaut, wo die Marke inklusive verschiedener Schreibweisen bereits erschienen ist.
 
-![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](/images/blog/llm-universum-tracking.png)
+![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](../../assets/images/blog/llm-universum-tracking.png)
 
 ### AI Visibility: Warum Rankscale?
 

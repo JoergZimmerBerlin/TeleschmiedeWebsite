@@ -9,7 +9,7 @@ image_alt: "Jahresrückblick 2025 - SEO Highlights von Jörg Zimmer"
 
 Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüter erhitzt haben, die Themen, die mich nachts wachgehalten haben, und natürlich auch die Momente, in denen wir einfach nur gelacht haben.
 
-![Dashboard: Meine persönlichen SEO-Highlights aus dem Jahr 2025](/images/blog/seo-highlights-2025.png)
+![Dashboard: Meine persönlichen SEO-Highlights aus dem Jahr 2025](../../assets/images/blog/seo-highlights-2025.png)
 
 ## Ein Jahr in Posts: Meine persönlichen Meilensteine
 

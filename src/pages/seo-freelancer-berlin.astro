@@ -1,0 +1,232 @@
+---
+import { Image } from 'astro:assets';
+import Layout from '../layouts/Layout.astro';
+import Stats from '../components/Stats.astro';
+import Expertise from '../components/Expertise.astro';
+import CTASection from '../components/CTASection.astro';
+import heroImage from '../assets/images/pages/hero-pose.jpg';
+import joergWorking from '../assets/images/profile/joerg-lifestyle.jpg';
+import joergCTA from '../assets/images/profile/joerg-zimmer-cta.jpg';
+
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// SEO Freelancer Berlin specific data
+const title = "SEO Freelancer Berlin | Technisch, ehrlich & ohne Bullshit - Jörg Zimmer";
+const description = "Dein SEO Freelancer in Berlin Spandau. 20+ Jahre Erfahrung, Fokus auf technische Exzellenz, Relaunch-Begleitung und ehrliche Beratung. ALOHA!";
+
+const basics = [
+  {
+    title: "Die Redirect-Hölle vermeiden",
+    desc: "Bei Relaunches wird oft gehofft, statt geplant. Ich sorge dafür, dass deine Rankings nicht im Nirgendwo verschwinden.",
+    icon: "🚀"
+  },
+  {
+    title: "Saubere H-Strukturen",
+    desc: "Überschriften sind kein Design-Element, sondern die Roadmap für Google. Wir räumen das Chaos auf.",
+    icon: "🏗️"
+  },
+  {
+    title: "Performance & CWV",
+    desc: "Eine langsame Seite ist der höflichste Gruß, den du deinen Kunden schickst – nicht. Wir machen sie blitzschnell.",
+    icon: "⚡"
+  },
+  {
+    title: "Ehrliche Meta-Daten",
+    desc: "Kein Keyword-Stuffing. Wir schreiben für Menschen, damit sie klicken – und Google versteht, worum es geht.",
+    icon: "✍️"
+  }
+];
+
+const faqs = [
+  {
+    q: "Warum Berlin-Spandau?",
+    a: "Hier bin ich verwurzelt. Ich berate lokal in Berlin, aber durch meine stundenweisen Video-Consultings bin ich für Kunden im gesamten DACH-Raum erreichbar."
+  },
+  {
+    q: "Was unterscheidet dich von Agenturen?",
+    a: "Kein Bullsh*t-Bingo, kein Junior-Account-Manager. Du redest direkt mit mir. 20+ Jahre Erfahrung fließen direkt in dein Projekt."
+  },
+  {
+    q: "Ab wann lohnt sich eine SEO-Sprechstunde?",
+    a: "Sobald du merkst, dass du nicht weiterkommst oder das Gefühl hast, dass dein Webdesigner das Thema SEO nur 'nebenbei' mitmacht."
+  }
+];
+---
+
+<Layout title={title} description={description}>
+  <!-- Hero Section -->
+  <section class="section relative overflow-hidden bg-white">
+    <div class="container-narrow">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="md:w-2/3 z-10">
+          <p class="subheadline mb-4">ALOHA! Ich bin Jörg.</p>
+          <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-8">
+            SEO Freelancer in Berlin – 
+            <span class="highlight">Ehrlich, technisch,</span>
+            ohne Bullsh*t-Bingo.
+          </h1>
+          <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
+            Ich sorge dafür, dass deine Website nicht nur schick aussieht, sondern auch 
+            <span class="text-dark font-semibold">gefunden wird und konvertiert.</span> 
+            Keine Magie, sondern ehrliches Handwerk aus über 20 Jahren Erfahrung.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={`${baseUrl}/kontakt/`} class="btn-primary">
+              Lass uns sprechen
+            </a>
+            <a href="#ansatz" class="btn-secondary">
+              Mein Ansatz
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/3">
+          <Image
+            src={heroImage}
+            alt="Jörg Zimmer - SEO Freelancer Berlin Spandau"
+            width={552}
+            height={896}
+            class="w-full h-auto rounded-2xl shadow-xl border-4 border-white"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The "Basics" Reality -->
+  <section id="ansatz" class="section bg-gray-50">
+    <div class="container-narrow">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          In 80% der Fälle fehlen die <span class="highlight">Basics.</span>
+        </h2>
+        <p class="text-lg text-gray-muted italic">
+          "Wir SEO-Typen sind schuld, dass das Netz die Basics nicht kennt."
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {basics.map((item) => (
+          <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+            <div class="text-4xl mb-6">{item.icon}</div>
+            <h3 class="text-xl font-bold mb-4">{item.title}</h3>
+            <p class="text-gray-muted leading-relaxed">
+              {item.desc}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy: Sei nützlich -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="flex flex-col md:flex-row items-center gap-16">
+        <div class="md:w-1/2">
+          <div class="relative">
+            <Image
+              src={joergWorking}
+              alt="Jörg Zimmer bei der SEO-Analyse in Berlin"
+              width={800}
+              height={600}
+              class="rounded-3xl shadow-lg"
+            />
+            <div class="absolute -bottom-6 -right-6 bg-lime-accent p-6 rounded-2xl shadow-xl hidden md:block">
+              <p class="text-dark font-bold text-lg">"Sei nützlich."</p>
+              <p class="text-xs uppercase tracking-widest text-lime-900 opacity-80">Jörgs Credo</p>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <p class="subheadline mb-4">Meine Philosophie</p>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            SEO ist kein Fancy <span class="highlight">Zubehör.</span>
+          </h2>
+          <div class="space-y-6 text-gray-muted text-lg">
+            <p>
+              Viele glauben, SEO macht der Webdesigner "so nebenbei" mit. Das ist der klassische Fehler. 
+              Gutes SEO ist das technische und inhaltliche Fundament deiner Seite.
+            </p>
+            <p>
+              Mein Spiel dreht sich in Wirklichkeit um die <strong>Nutzer und deren Interessen.</strong> 
+              Wer nur für den Google-Bot optimiert, hat schon verloren. Google will nützliche Inhalte – 
+              ich zeige dir, wie du sie lieferst.
+            </p>
+            <p>
+              Seit über 20 Jahren begleite ich Unternehmen dabei, im Netz sichtbar zu werden. 
+              Vom Relaunch-Schutz bis zur GA4-Strategie.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Stats />
+  <Expertise />
+
+  <!-- FAQ Section -->
+  <section class="section bg-gray-50">
+    <div class="container-narrow">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold">Häufige Fragen (FAQ)</h2>
+      </div>
+      <div class="max-w-3xl mx-auto space-y-8">
+        {faqs.map((faq) => (
+          <div class="bg-white p-8 rounded-2xl border border-gray-100">
+            <h3 class="text-xl font-bold mb-4 flex items-start gap-4">
+              <span class="text-lime-600">Q:</span>
+              {faq.q}
+            </h3>
+            <p class="text-gray-muted pl-9 leading-relaxed">
+              <span class="font-bold text-dark inline-block mb-1">A:</span> 
+              {faq.a}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing Statement Body -->
+  <section class="section bg-white">
+    <div class="container-narrow text-center">
+      <div class="max-w-2xl mx-auto">
+        <p class="text-2xl font-serif italic text-dark mb-8">
+          "SEO ist kein Sprint und auch kein Marathon. Es ist ein kontinuierlicher Prozess der Verbesserung."
+        </p>
+        <Image
+          src={joergCTA}
+          alt="Jörg Zimmer lächelt - SEO Freelancer Berlin"
+          width={150}
+          height={150}
+          class="w-24 h-24 rounded-full mx-auto mb-6 grayscale border-2 border-gray-200"
+        />
+        <p class="font-bold">Jörg Zimmer</p>
+        <p class="text-sm text-gray-400">SEO & SEA Freelancer seit 2001</p>
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</Layout>
+
+<style>
+  .highlight {
+    position: relative;
+    display: inline-block;
+  }
+  .highlight::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: theme('colors.lime.accent');
+    opacity: 0.3;
+    z-index: -1;
+  }
+</style>

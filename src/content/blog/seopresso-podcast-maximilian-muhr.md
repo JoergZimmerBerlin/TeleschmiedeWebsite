@@ -3,7 +3,7 @@ title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
 description: "Björn Darko interviewt Maximilian Muhr im SEOpresso Podcast - ehrliche Einblicke in 15+ Jahre SEO-Karriere."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_seopresso-seo-karriere-activity-7385248850594353152-Ev6m"
-image: "/images/blog/seopresso-max-muhr.jpg"
+image: "../../assets/images/blog/seopresso-max-muhr.jpg"
 image_alt: "SEOpresso Podcast mit Maximilian Muhr - SEO-Karriere von BILD.de bis poliSYS"
 ---
 

@@ -3,7 +3,7 @@ title: "SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen"
 description: "Ein weiteres Tool für AI Visibility Tracking - diesmal von einem etablierten SEO-Tool-Anbieter."
 date: "2025-12-15"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "/images/profile/joerg-zimmer-cta.jpg"
+image: "../../assets/images/profile/joerg-zimmer-cta.jpg"
 image_alt: "SE Ranking AI Tracker - SEO Tool Review von Jörg Zimmer"
 category: "AI SEO"
 tags: ["AI", "SEO", "SE Ranking"]

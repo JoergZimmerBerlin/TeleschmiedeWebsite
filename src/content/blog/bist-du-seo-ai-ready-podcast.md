@@ -3,7 +3,7 @@ title: "Bist du SEO AI Ready? Podcast mit Antonio Blago"
 description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 20 Jahren SEO & Google Ads - ehrlich, ohne Buzzword-Bingo."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/antonioblago_bist-du-seo-ai-ready-alle-reden-%C3%BCber-ai-activity-7363117745070112768-BRRj"
-image: "/images/blog/ai-ready-podcast.jpg"
+image: "../../assets/images/blog/ai-ready-podcast.jpg"
 image_alt: "Podcast mit Antonio Blago und Jörg Zimmer über SEO und AI - Bist du AI Ready?"
 ---
 

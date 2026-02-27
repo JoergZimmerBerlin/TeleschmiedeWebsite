@@ -1,5 +1,6 @@
----
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import kontaktHero from '../assets/images/pages/kontakt-hero.jpg';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -25,12 +26,12 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           </p>
         </div>
         <div class="md:w-1/3">
-          <img
-            src={`${baseUrl}/images/pages/kontakt-hero.jpg`}
+          <Image
+            src={kontaktHero}
             alt="Jörg Zimmer telefoniert mit Kunden über SEO-Strategie in Berlin Spandau"
-            width="1400"
-            height="349"
-            class="w-full rounded-2xl shadow-lg"
+            width={1400}
+            height={349}
+            class="w-full h-auto rounded-2xl shadow-lg"
             loading="eager"
             fetchpriority="high"
           />

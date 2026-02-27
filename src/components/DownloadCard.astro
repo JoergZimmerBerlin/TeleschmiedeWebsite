@@ -1,10 +1,11 @@
----
+import { Image } from 'astro:assets';
+
 interface Props {
   title: string;
   description: string;
   buttonText: string;
   buttonLink: string;
-  image?: string;
+  image?: any;
   tags?: string[];
 }
 
@@ -17,7 +18,7 @@ const { title, description, buttonText, buttonLink, image, tags = ['Exklusiv', '
     <div class="w-full md:w-1/3 relative flex justify-center">
       <div class="absolute inset-0 bg-lime-accent/10 blur-3xl rounded-full scale-150 group-hover:scale-175 transition-transform duration-700"></div>
       {image ? (
-        <img src={image} alt={title} class="relative z-10 w-48 shadow-2xl rounded-lg group-hover:-translate-y-2 transition-transform duration-500" />
+        <Image src={image} alt={title} width={200} class="relative z-10 w-48 h-auto shadow-2xl rounded-lg group-hover:-translate-y-2 transition-transform duration-500" />
       ) : (
         <div class="relative z-10 w-40 h-56 bg-gray-100 rounded-lg shadow-2xl flex flex-col p-4 group-hover:-translate-y-2 transition-transform duration-500 overflow-hidden">
            <div class="w-full h-4 bg-gray-200 rounded mb-4"></div>

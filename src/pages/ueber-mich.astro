@@ -1,5 +1,13 @@
----
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+
+import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.jpg';
+import rucksackImage from '../assets/images/profile/website-boosting-rucksack.jpg';
+import katzeHoodieImage from '../assets/images/profile/katze-seo-hoodie.jpg';
+import magazinImage from '../assets/images/profile/website-boosting-magazin.jpg';
+import lifestyleImage from '../assets/images/profile/joerg-lifestyle.jpg';
+import katzePortraitImage from '../assets/images/profile/joerg-zimmer-katze.jpg';
+
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -26,12 +34,12 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       <div class="grid md:grid-cols-3 gap-12">
         <!-- Profile Image -->
         <div class="md:col-span-1">
-          <img
-            src={`${baseUrl}/images/profile/joerg-zimmer-portrait.jpg`}
+          <Image
+            src={portraitImage}
             alt="Jörg Zimmer - SEO & SEA Freelancer aus Berlin Spandau, Porträtfoto"
-            width="1309"
-            height="1020"
-            class="w-full aspect-square object-cover object-top rounded-2xl"
+            width={1309}
+            height={1020}
+            class="w-full aspect-square object-cover object-top rounded-2xl h-auto"
             loading="eager"
             fetchpriority="high"
           />
@@ -61,39 +69,39 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           </div>
 
           <!-- Lifestyle Images -->
-          <img
-            src={`${baseUrl}/images/profile/website-boosting-rucksack.jpg`}
+          <Image
+            src={rucksackImage}
             alt="Jörg Zimmer mit Website Boosting Rucksack - SEO-Experte unterwegs"
-            width="800"
-            height="1422"
-            class="w-full mt-8 rounded-2xl object-cover object-top"
+            width={800}
+            height={1422}
+            class="w-full mt-8 rounded-2xl object-cover object-top h-auto"
             loading="lazy"
           />
 
-          <img
-            src={`${baseUrl}/images/profile/katze-seo-hoodie.jpg`}
+          <Image
+            src={katzeHoodieImage}
             alt="Katze von Jörg Zimmer im SEO-Hoodie - der heimliche SEO-Assistent"
-            width="800"
-            height="1066"
-            class="w-full mt-4 rounded-2xl object-cover object-top"
+            width={800}
+            height={1066}
+            class="w-full mt-4 rounded-2xl object-cover object-top h-auto"
             loading="lazy"
           />
 
-          <img
-            src={`${baseUrl}/images/profile/website-boosting-magazin.jpg`}
+          <Image
+            src={magazinImage}
             alt="Jörg Zimmer liest das Website Boosting Magazin - immer auf dem neuesten SEO-Stand"
-            width="800"
-            height="1198"
-            class="w-full mt-4 rounded-2xl object-cover object-top"
+            width={800}
+            height={1198}
+            class="w-full mt-4 rounded-2xl object-cover object-top h-auto"
             loading="lazy"
           />
 
-          <img
-            src={`${baseUrl}/images/profile/joerg-lifestyle.jpg`}
+          <Image
+            src={lifestyleImage}
             alt="Jörg Zimmer - persönliches Lifestyle-Foto des SEO-Freelancers"
-            width="800"
-            height="1422"
-            class="w-full mt-4 rounded-2xl object-cover object-top"
+            width={800}
+            height={1422}
+            class="w-full mt-4 rounded-2xl object-cover object-top h-auto"
             loading="lazy"
           />
         </div>
@@ -164,11 +172,11 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
           <div class="bg-gray-50 rounded-2xl p-6 mt-8">
             <div class="flex flex-col md:flex-row gap-6 items-center">
-              <img
-                src={`${baseUrl}/images/profile/joerg-zimmer-katze.jpg`}
-            alt="Jörg Zimmer mit seiner Katze - persönliche Seite des SEO-Experten"
-                width="256"
-                height="256"
+              <Image
+                src={katzePortraitImage}
+                alt="Jörg Zimmer mit seiner Katze - persönliche Seite des SEO-Experten"
+                width={256}
+                height={256}
                 class="w-24 h-24 object-cover object-top rounded-full flex-shrink-0"
                 loading="lazy"
               />

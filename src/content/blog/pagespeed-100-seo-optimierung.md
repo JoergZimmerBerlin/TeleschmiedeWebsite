@@ -3,7 +3,7 @@ title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "/images/blog/pagespeed-tuning.png"
+image: "../../assets/images/blog/pagespeed-tuning.png"
 image_alt: "PageSpeed 100 SEO Optimierung - Jörg Zimmer"
 key_takeaways:
   - "Eine 100 im PageSpeed-Index ist kein Selbstzweck, sondern ein Wettbewerbsvorteil."
@@ -22,7 +22,7 @@ Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur a
 
 In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der wir gedreht haben, damit diese Seite rennt, als gäbe es kein Morgen.
 
-![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](/images/blog/pagespeed-tuning-guide.png)
+![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](../../assets/images/blog/pagespeed-tuning-guide.png)
 
 ## Warum ich von 100/100 besessen bin
 

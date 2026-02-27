@@ -1,15 +1,16 @@
----
+import { Image } from 'astro:assets';
+import ctaImage from '../assets/images/profile/joerg-zimmer-cta.jpg';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <section class="section bg-dark text-white">
   <div class="container-narrow">
     <div class="flex flex-col md:flex-row items-center gap-12">
       <div class="md:w-1/3">
-        <img
-          src={`${baseUrl}/images/profile/joerg-zimmer-cta.jpg`}
+        <Image
+          src={ctaImage}
           alt="Jörg Zimmer - SEO & SEA Freelancer Berlin, bereit für dein Projekt"
-          width="575"
-          height="1020"
+          width={575}
+          height={1020}
           class="w-48 h-48 md:w-full md:h-auto object-cover object-top rounded-2xl mx-auto"
           loading="lazy"
         />

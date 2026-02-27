@@ -1,4 +1,6 @@
----
+import { Image } from 'astro:assets';
+import logoImage from '../assets/images/logo-teleschmiede.png';
+
 interface Props {
   currentPath: string;
 }
@@ -28,11 +30,11 @@ const isActive = (href: string) => {
     <nav class="flex items-center justify-between">
       <!-- Logo -->
       <a href={`${baseUrl}/`} class="flex items-center gap-2.5">
-        <img
-          src={`${baseUrl}/images/logo-teleschmiede.png`}
+        <Image
+          src={logoImage}
           alt="Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau"
-          width="36"
-          height="36"
+          width={36}
+          height={36}
           class="w-9 h-9"
         />
         <span class="text-xl font-bold text-dark">TELESCHMIE<span class="text-lime-accent">.</span>DE</span>

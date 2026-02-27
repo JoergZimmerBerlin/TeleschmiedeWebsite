@@ -1,10 +1,12 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import KeyTakeaways from '../../components/KeyTakeaways.astro';
 import FAQAccordion from '../../components/FAQAccordion.astro';
 import ROICalculator from '../../components/ROICalculator.astro';
 import DownloadCard from '../../components/DownloadCard.astro';
+import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.jpg';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -41,7 +43,7 @@ const relatedPosts = allPosts
 <Layout
   title={`${post.data.title} | Jörg Zimmer Blog`}
   description={post.data.description}
-  ogImage={post.data.image}
+  ogImage={post.data.image?.src}
 >
   <!-- Reading Progress Bar -->
   <div id="progress-container" class="fixed top-0 left-0 w-full h-1.5 z-50 pointer-events-none">
@@ -72,11 +74,12 @@ const relatedPosts = allPosts
 
       <!-- Featured Image -->
       {post.data.image && (
-        <img
-          src={`${baseUrl}${post.data.image}`}
+        <Image
+          src={post.data.image}
           alt={post.data.image_alt || post.data.title}
-          class="w-full rounded-2xl mb-8 shadow-sm"
+          class="w-full rounded-2xl mb-8 shadow-sm h-auto"
           loading="eager"
+          fetchpriority="high"
         />
       )}
 
@@ -193,9 +196,11 @@ const relatedPosts = allPosts
       <!-- Author Box Update -->
       <footer class="mt-20 pt-12 border-t border-gray-100">
         <div class="bg-gray-50 rounded-2xl p-8 flex flex-col md:flex-row gap-8 items-center md:items-start">
-          <img
-            src={`${baseUrl}/images/profile/joerg-zimmer-portrait.jpg`}
+          <Image
+            src={portraitImage}
             alt="Jörg Zimmer - SEO & SEA Experte"
+            width={96}
+            height={96}
             class="w-24 h-24 rounded-full object-cover shadow-sm border-2 border-white"
           />
           <div class="flex-1 text-center md:text-left">
@@ -233,11 +238,15 @@ const relatedPosts = allPosts
             {relatedPosts.map(p => (
               <a href={`${baseUrl}/blog/${p.slug}/`} class="group block bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all">
                 <div class="aspect-video overflow-hidden">
-                  <img 
-                    src={`${baseUrl}${p.data.image}`} 
-                    alt={p.data.image_alt} 
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  {p.data.image && (
+                    <Image 
+                      src={p.data.image} 
+                      alt={p.data.image_alt || p.data.title}
+                      width={400}
+                      height={225}
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  )}
                 </div>
                 <div class="p-4">
                   <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-2 inline-block">

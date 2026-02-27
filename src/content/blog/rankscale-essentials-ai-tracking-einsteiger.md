@@ -87,7 +87,9 @@ Wenn mich heute jemand fragt: „Jörg, ich will mit AI-SEO anfangen, was soll i
 
 ## Infografik: Dein Weg zur AI Visibility
 
-Stell dir das Ganze wie einen Trichter vor (ich liebe visuelle Auflocherungen, also hier mal in Textform skizziert):
+![AI Visibility Trichter - Der Prozess von Content zu Daten](/images/blog/ai-visibility-trichter.png)
+
+Stell dir das Ganze wie einen Trichter vor:
 
 1.  **Input:** Dein Content & deine Brand.
 2.  **The Box (Rankscale):** Analyse durch 17+ verschiedene Gehirne (LLMs).
@@ -137,7 +139,9 @@ Passe einen deiner wichtigsten Artikel basierend auf den Insights an. Nutze klar
 
 ## Infografik: Die 5 Säulen deiner AI Visibility Strategie
 
-Hier nochmal optisch aufbereitet (merk dir das Bild):
+![Die 5 Säulen der AI Visibility - Rankscale Essentials](/images/blog/five-pillars-ai-visibility.png)
+
+Hier nochmal optisch aufbereitet:
 
 1.  **Presence (Präsenz):** Wirst du überhaupt erwähnt? (Die Basis)
 2.  **Frequency (Häufigkeit):** Wie oft pro 100 Abfragen tauchst du auf?

@@ -4,7 +4,7 @@ description: "Warum das Essentials-Paket von Rankscale für 20€/Monat (bzw. 17
 date: "2026-02-27"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "/images/blog/rankscale-essentials-hero.png"
-image_alt: "Rankscale Essentials AI Visibility ab 20 Euro"
+image_alt: "Rankscale AI Visibility Tracking Dashboard - Essentials für 20 Euro"
 ---
 
 Moin!

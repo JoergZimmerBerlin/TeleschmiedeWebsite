@@ -7,6 +7,7 @@ import FAQAccordion from '../../components/FAQAccordion.astro';
 import ROICalculator from '../../components/ROICalculator.astro';
 import DownloadCard from '../../components/DownloadCard.astro';
 import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.jpg';
+import logoImage from '../../assets/images/logo-teleschmiede.png';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -349,7 +350,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
       "name": "Teleschmiede",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://teleschmie.de/assets/images/logo-teleschmiede.png"
+        "url": `https://teleschmie.de${logoImage.src}`
       }
     },
     "mainEntityOfPage": {

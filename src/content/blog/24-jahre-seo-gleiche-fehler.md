@@ -15,7 +15,7 @@ Es ist faszinierend und erschreckend zugleich. Wir haben heute Rechenpower in de
 
 ## Die Klassiker: Warum wir immer wieder in die gleiche Falle tappen
 
-![Die 4 SEO-Dauerbrenner: Typische Fehler in der Analyse](../../assets/images/blog/seo_fehler_white_1772296979665.png)
+![Die 4 SEO-Dauerbrenner: Typische Fehler in der Analyse](../../assets/images/blog/seo_fehler_simple.png)
 
 Lass uns mal tief in die Mottenkiste der SEO-Fehler greifen. Diese "Dauerbrenner" sind wie die Refrains von schlechten 80er-Jahre-Hits: Man kriegt sie einfach nicht aus dem Kopf (und nicht aus der Website).
 

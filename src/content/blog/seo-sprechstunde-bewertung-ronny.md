@@ -3,7 +3,7 @@ title: "5 Sterne: Was Kunden über die SEO-Sprechstunde sagen"
 description: "Ronny A. teilt seine Erfahrung nach einer 2-stündigen SEO-Beratung."
 date: "2026-01-27"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/joerg-zimmer-katze.webp"
+image: "../../assets/images/profile/joerg-zimmer-katze.jpg"
 image_alt: "SEO-Sprechstunde Bewertung: 5 Sterne von Ronny"
 category: "SEO Praxis"
 tags: ["Case Study", "Feedback", "Sprechstunde"]

@@ -3,7 +3,7 @@ title: "GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen soll
 description: "Die neuen Buzzwords der SEO-Branche erklärt - und warum das Thema zu komplex für Anfänger ist."
 date: "2026-01-23"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/leistungen-hero.webp"
+image: "../../assets/images/pages/leistungen-hero.jpg"
 image_alt: "AI SEO oder GEO? SEO Experten Jörg Zimmer warnt vor Praktikanten-Lösungen"
 category: "AI SEO"
 tags: ["AI Visibility", "GEO", "Governance", "Expertise"]

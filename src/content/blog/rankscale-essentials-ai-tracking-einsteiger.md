@@ -3,7 +3,7 @@ title: "Rankscale Essentials: AI Visibility ab 20 Euro – Absolute Empfehlung f
 description: "Warum das Essentials-Paket von Rankscale für 20€/Monat (bzw. 17€ im Jahresabo) der perfekte Einstieg ins AI-Tracking ist. Volle Flexibilität & echte Daten."
 date: "2026-02-27"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/blog/rankscale-essentials-hero.webp"
+image: "../../assets/images/blog/rankscale-essentials-hero.png"
 image_alt: "Rankscale AI Visibility Tracking Dashboard - Essentials für 20 Euro"
 category: "AI SEO"
 tags: ["AI Visibility", "Rankscale", "Pricing", "Beginner"]

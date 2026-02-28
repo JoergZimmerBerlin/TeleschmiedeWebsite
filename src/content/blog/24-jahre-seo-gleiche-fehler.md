@@ -3,7 +3,7 @@ title: "24 Jahre SEO - und wir machen immer noch die gleichen Fehler"
 description: "Ein ehrlicher Blick auf die Fehler, die ich seit über zwei Jahrzehnten immer wieder sehe."
 date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/joerg-zimmer-portrait.webp"
+image: "../../assets/images/profile/joerg-zimmer-portrait.jpg"
 image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
 category: "SEO Strategie"
 tags: ["Experience", "SEO", "Best Practices", "Strategy"]

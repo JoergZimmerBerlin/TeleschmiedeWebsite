@@ -3,7 +3,7 @@ title: "Wenn AI-Agenten deinen LinkedIn-Feed kapern"
 description: "Achim vom Gartenverein hat einen Bot gebaut - und damit ein Problem sichtbar gemacht."
 date: "2025-12-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/blog-hero-notizblock.webp"
+image: "../../assets/images/pages/blog-hero-notizblock.jpg"
 image_alt: "AI-Agent für LinkedIn Nachrichten - Jörgs KI-Experiment zu Weihnachten"
 category: "AI SEO"
 tags: ["AI Agent", "LinkedIn", "Automation", "Case Study"]

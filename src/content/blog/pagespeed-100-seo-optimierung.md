@@ -3,10 +3,10 @@ title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/blog/pagespeed-tuning-guide.webp"
+image: "../../assets/images/blog/pagespeed-tuning-guide.png"
 image_alt: "PageSpeed 100/100 für die Teleschmiede - Jörg Zimmer optimiert die Performance"
-category: "Mobile & Performance"
-tags: ["PageSpeed", "Optimization", "Web Vitals", "Astro"]
+category: "Technisches SEO"
+tags: ["PageSpeed", "Performance", "Optimization", "Web Vitals", "Astro"]
 key_takeaways:
   - "Eine 100 im PageSpeed-Index ist kein Selbstzweck, sondern ein Wettbewerbsvorteil."
   - "Astro überzeugt durch 'Zero JS by default' und schlägt WordPress in der Performance deutlich."
@@ -16,8 +16,6 @@ faqs:
     answer: "Google nutzt die Core Web Vitals als Ranking-Faktor. Eine schnelle Seite verbessert die Nutzererfahrung und führt zu höheren Conversion-Rates."
   - question: "Ist Astro besser als WordPress?"
     answer: "Für reine Content-Seiten und Performance ist Astro überlegen, da es statisches HTML ohne unnötiges JavaScript ausliefert."
-category: "Technisches SEO"
-tags: ["PageSpeed", "Performance", "Optimization"]
 ---
 
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 20 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 
@@ -68,7 +66,7 @@ Viele vergessen das Thema Barrierefreiheit. Jedes Bild hat einen individuellen A
 
 ```html
 <img
-  src="/images/profile/joerg-zimmer-berlin.webp"
+  src="/images/profile/joerg-lifestyle.jpg"
   alt="Jörg Zimmer - SEO Experte aus Berlin Spandau vor dem Laptop"
   width="800"
   height="600"

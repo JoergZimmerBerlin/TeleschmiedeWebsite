@@ -17,6 +17,8 @@ Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, be
 
 Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tête-à-Tête treffen.
 
+![Infografik: Der Sprechstunden-Ablauf – Von der Buchung bis zum Maßnahmenplan](../../assets/images/blog/sprechstunde-ablauf.png)
+
 ## Schritt 1: Den Anker werfen (Die Buchung)
 
 Alles beginnt mit deiner Entscheidung. Du suchst dir in meinem Kalender einen Slot aus, der dir passt. In dem Moment, in dem die Bestätigung in dein Postfach flattert, geht bei mir die Arbeit los. Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Checkup, sondern die Basis für meine Analyse. Ich möchte wissen:

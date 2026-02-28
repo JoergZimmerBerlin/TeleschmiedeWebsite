@@ -21,6 +21,8 @@ Hier ist, was er geschrieben hat:
 
 ## Was Ronny besonders hervorhebt (und warum das für dich wichtig ist)
 
+![Infografik: Die SEO-Sprechstunde – Vorbereitung, Live-Call, Nachbereitung](../../assets/images/blog/seo-sprechstunde-prozess.png)
+
 Wenn man als Freelancer 400€ für zwei Stunden Beratung aufruft, dann muss man liefern. Ohne Wenn und Aber. Ronny hat drei Punkte genannt, die für mich das Fundament meiner Arbeit sind. Lass uns die mal kurz aufschlüsseln:
 
 ### 1. "Top auf unsere Website vorbereitet"

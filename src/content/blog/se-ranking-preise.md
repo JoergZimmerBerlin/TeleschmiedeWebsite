@@ -11,6 +11,17 @@ key_takeaways:
   - "SE Ranking Core (87€/Monat) reicht für Freelancer und Inhouse-SEOs – Growth (188€/Monat) ist die Agentur-Lösung."
   - "20% Ersparnis im Jahresabo und flexible Erweiterbarkeit machen SE Ranking preislich attraktiver als die Platzhirsche."
   - "14 Tage kostenlos testen ohne Kreditkarte – risikoloser Einstieg für alle, die das Tool ausprobieren wollen."
+faqs:
+  - question: "Lohnt sich ein Jahresabo bei SE Ranking wirklich?"
+    answer: "Ja, definitiv. Die 20 % Ersparnis sind kein Marketing-Gag. Wenn du SEO ernsthaft betreibst, sind 12 Monate der Mindestzeitraum für eine vernünftige Strategie. Du sparst bares Geld, das du besser in Content oder Backlinks investieren kannst."
+  - question: "Was passiert, wenn ich meine Keyword-Limits erreiche?"
+    answer: "Keine Panik. SE Ranking sperrt dich nicht aus. Du kannst dein Paket jederzeit flexibel erweitern. Das ist einer der größten Pluspunkte im Vergleich zur Konkurrenz, wo man oft direkt in den nächsten, viel teureren Tarif gezwungen wird."
+  - question: "Brauche ich für KI-SEO wirklich den Growth-Tarif?"
+    answer: "Nicht zwingend. Für den Start reicht Core. Aber wenn du für 30+ Kunden tracken willst, wie oft sie in den Google AI Overviews auftauchen, wirst du die 250 Daily Prompts im Growth-Tarif schnell zu schätzen wissen."
+  - question: "Sind die Backlink-Daten im Core-Paket eingeschränkt?"
+    answer: "Du hast Zugriff auf alle Tools, aber die Anzahl der Backlinks, die du pro Tag analysieren kannst, ist gecappt. Für Freelancer ist das meist völlig ausreichend. Für Hardcore-Linkbuilder empfehle ich jedoch direkt den Growth-Tarif."
+  - question: "Gibt es eine kostenlose Testphase?"
+    answer: "Ja, über einen Affiliate-Link kannst du SE Ranking 14 Tage lang kostenlos testen, ohne eine Kreditkarte hinterlegen zu müssen."
 ---
 
 Moin!
@@ -30,6 +41,8 @@ SE Ranking hat das verstanden und seine Tarife so gestrickt, dass sie mit deinen
 ---
 
 ## Der große Check: Core vs. Growth – Was steckt drin?
+
+![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](../../assets/images/blog/se-ranking-core-vs-growth.png)
 
 SE Ranking unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management.
 
@@ -86,21 +99,7 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 
 ---
 
-## FAQ: Eure brennendsten Fragen zu den SE Ranking Preisen
 
-### 1. Lohnt sich ein Jahresabo wirklich?
-Ja, definitiv. Die 20 % Ersparnis sind kein Marketing-Gag. Wenn du SEO ernsthaft betreibst, sind 12 Monate der Mindestzeitraum für eine vernünftige Strategie. Du sparst bares Geld, das du besser in Content oder Backlinks investieren kannst.
-
-### 2. Was passiert, wenn ich meine Keyword-Limits erreiche?
-Keine Panik. SE Ranking sperrt dich nicht aus. Du kannst dein Paket jederzeit flexibel erweitern. Das ist einer der größten Pluspunkte im Vergleich zur Konkurrenz, wo man oft direkt in den nächsten, viel teureren Tarif gezwungen wird.
-
-### 3. Brauche ich für KI-SEO wirklich den Growth-Tarif?
-Nicht zwingend. Für den Start reicht Core. Aber wenn du für 30+ Kunden tracken willst, wie oft sie in den Google AI Overviews auftauchen, wirst du die 250 Daily Prompts im Growth-Tarif schnell zu schätzen wissen.
-
-### 4. Sind die Backlink-Daten im Core-Paket eingeschränkt?
-Du hast Zugriff auf alle Tools, aber die Anzahl der Backlinks, die du pro Tag analysieren kannst, ist gecappt. Für Freelancer ist das meist völlig ausreichend. Für Hardcore-Linkbuilder empfehle ich jedoch direkt den Growth-Tarif.
-
----
 
 ## Fazit: Welches Paket ist das Richtige für dich?
 
@@ -121,35 +120,4 @@ ALOHA ✌️
 * **Lese-Tipp:** [Rankscale: AI Visibility Tracking im Vergleich](/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [PageSpeed 100/100: Warum technisches SEO die Basis ist](/blog/pagespeed-100-seo-optimierung/)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Lohnt sich ein Jahresabo bei SE Ranking wirklich?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ja, durch die jährliche Zahlung sparst du 20 % gegenüber der monatlichen Abrechnung. Da SEO eine langfristige Strategie ist, ist das Jahresabo die wirtschaftlichste Wahl."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Kann ich mein Paket bei SE Ranking flexibel erweitern?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ja, SE Ranking bietet die Möglichkeit, Limits für Keywords oder Projekte flexibel zu erweitern, ohne direkt den kompletten Tarif wechseln zu müssen."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Gibt es eine kostenlose Testphase?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ja, über einen Affiliate-Link kannst du SE Ranking 14 Tage lang kostenlos testen, ohne eine Kreditkarte hinterlegen zu müssen."
-      }
-    }
-  ]
-}
-</script>
+

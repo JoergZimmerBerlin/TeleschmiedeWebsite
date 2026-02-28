@@ -19,6 +19,8 @@ Aber mal im Ernst: Wer sich für die Menschen hinter den Algorithmen interessier
 
 ## Warum du diese Folge unbedingt hören solltest
 
+![Infografik: Karriere-Evolution im SEO – Von Zeitarbeit zum Managing Director](../../assets/images/blog/karriere-evolution-seo.png)
+
 Max ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat (und manchmal auch vor dem Sinken bewahrt hat). Was mich an seinem Interview beeindruckt hat:
 - **Die radikale Ehrlichkeit:** Er beschönigt nichts. Weder seinen Werdegang noch die Fehler, die man macht, wenn man hunderte Mitarbeiter führt.
 - **Die persönliche Tiefe:** Es geht nicht nur um Keywords. Es geht um Life-Work-Balance, Familie und die Frage: Was zählt am Ende wirklich?

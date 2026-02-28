@@ -19,6 +19,8 @@ Danke **Björn Darko**, dass du mich in dein Format eingeladen hast. Deine Frage
 
 ## Worüber wir gesprochen haben: Ein tiefer Blick in den Jörg-Zimmer-Kosmos
 
+![Infografik: 24 Jahre SEO Freelancing – Neugier, Kommunikation, Netzwerk](../../assets/images/blog/seo-freelancing-journey.png)
+
 Björn hat mich in der Reihe "SEO Persönlich" im [SEOpresso Podcast](https://seopresso.de) empfangen. Und wir haben tief gegraben – tiefer als ein Google-Bot bei einem technischen Audit.
 
 ### 1. Die Anfänge: Als das Internet noch ein Wilder Westen war

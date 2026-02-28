@@ -12,7 +12,10 @@ export default defineConfig({
     : 'https://teleschmie.de',
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
-  integrations: [tailwind()],
+  integrations: [
+    tailwind()
+  ],
+  prefetch: true,
   output: 'static',
   build: {
     assets: 'assets'

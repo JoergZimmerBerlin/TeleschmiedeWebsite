@@ -45,6 +45,7 @@ const isActive = (href: string) => {
         {navItems.map((item) => (
           <a
             href={item.href}
+            data-astro-prefetch
             class:list={[
               'px-4 py-2 rounded-full text-sm font-medium transition-all duration-200',
               isActive(item.href)
@@ -84,6 +85,7 @@ const isActive = (href: string) => {
         {navItems.map((item) => (
           <a
             href={item.href}
+            data-astro-prefetch
             class:list={[
               'px-4 py-3 rounded-lg font-medium transition-colors',
               isActive(item.href)

@@ -39,7 +39,7 @@ export const GET = async () => {
   // 3. Blog Posts
   const blogPosts = await getCollection('blog');
   for (const post of blogPosts) {
-    const postDate = post.data.pubDate ? new Date(post.data.pubDate).toISOString().split('T')[0] : lastModYYYYMMDD;
+    const postDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : lastModYYYYMMDD;
     urls += `
   <url>
     <loc>${baseUrl}/blog/${post.slug}/</loc>

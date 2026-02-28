@@ -77,7 +77,7 @@ ALOHA ✌️
 
 ---
 
-![Die 5 Säulen der AI Visibility - Rankscale Essentials](../../assets/images/blog/five-pillars-ai-visibility.png)
+![Die 5 Säulen der AI Visibility - Rankscale Essentials](../../assets/images/blog/fuenf-saeulen-ai-visibility.png)
 
 ---
 

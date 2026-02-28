@@ -22,7 +22,7 @@ Hier ist das, was die Community (immerhin ein Querschnitt aus Inhouse-SEOs, Agen
 - **SEO**: 19%
 - **LLMO** (Large Language Model Optimization): 8%
 
-![Community-Umfrage: Wie nennen wir die Optimierung für KI-Systeme?](../../assets/images/blog/geo-umfrage-ergebnisse-de.png)
+![Community-Umfrage: Wie nennen wir die Optimierung für KI-Systeme?](../../assets/images/blog/geo_umfrage_white_1772296995506.png)
 
 ## Eine tiefere Analyse der Begriffe: Was steckt wirklich dahinter?
 

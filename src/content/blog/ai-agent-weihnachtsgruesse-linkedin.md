@@ -23,7 +23,7 @@ An sich ist Achims Tat harmlos. Er wollte ja nur nett sein. Aber er hat damit un
 
 ## Wenn die Maschine das "Social" aus Social Media entfernt
 
-![Infografik: Authentische Interaktion vs. KI-Massen-Spam](../../assets/images/blog/authentizitaet-vs-spam-de.png)
+![Infografik: Authentische Interaktion vs. KI-Massen-Spam](../../assets/images/blog/authentizitaet_white_1772296894989.png)
 
 Was Achim im Kleinen gemacht hat, wird aktuell im Großen perfektioniert. Wir reden nicht mehr nur über Bots, die Likes verteilen. Wir reden über AI-Agenten, die:
 - **Kontextsensitive Kommentare schreiben:** Die KI erkennt, worum es in deinem Post geht, und verfasst einen Kommentar, der täuschend echt nach Zustimmung oder konstruktiver Kritik klingt.

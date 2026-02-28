@@ -333,43 +333,93 @@ const faqs = [
   <CTASection />
 </Layout>
 
-<!-- JSON-LD Structured Data für Local Business & ProfessionalService -->
+<!-- JSON-LD Structured Data für Local Business, Person & Services -->
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Jörg Zimmer - SEO Freelancer Berlin",
-  "image": "https://teleschmie.de/assets/images/profile/joerg-lifestyle.jpg",
-  "@id": "https://teleschmie.de/seo-freelancer-berlin/#freelancer",
-  "url": "https://teleschmie.de/seo-freelancer-berlin/",
-  "telephone": "+49123456789", 
-  "priceRange": "$$$",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Musterstraße 1", 
-    "addressLocality": "Berlin",
-    "addressRegion": "Berlin",
-    "postalCode": "13597",
-    "addressCountry": "DE"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 52.5358,
-    "longitude": 13.1977
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "09:00",
-    "closes": "18:00"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.xing.com/profile/Joerg_Zimmer6"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://teleschmie.de/ueber-mich/#person",
+      "name": "Jörg Zimmer",
+      "jobTitle": "SEO & SEA Freelancer",
+      "description": "Erfahrener SEO-Experte aus Berlin mit über 20 Jahren Branchenerfahrung.",
+      "image": "https://teleschmie.de/assets/images/profile/joerg-lifestyle.jpg",
+      "url": "https://teleschmie.de/ueber-mich/",
+      "sameAs": [
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://www.xing.com/profile/Joerg_Zimmer6"
+      ],
+      "knowsAbout": ["Search Engine Optimization", "Technical SEO", "Local SEO", "AI Search", "Google Ads"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://teleschmie.de/seo-freelancer-berlin/#freelancer",
+      "name": "Jörg Zimmer - SEO Freelancer Berlin",
+      "description": "Technisches SEO, Relaunch-Begleitung und ehrliche SEO Beratung in Berlin Spandau und DACH.",
+      "image": "https://teleschmie.de/assets/images/pages/hero-pose.jpg",
+      "url": "https://teleschmie.de/seo-freelancer-berlin/",
+      "telephone": "+49123456789", 
+      "email": "hallo@teleschmie.de",
+      "priceRange": "€€€",
+      "founder": {
+        "@id": "https://teleschmie.de/ueber-mich/#person"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Musterstraße 1", 
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "postalCode": "13597",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.5358,
+        "longitude": 13.1977
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "24"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "SEO Dienstleistungen",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Technisches SEO Audit",
+              "description": "Tiefgreifende technische Analyse von Crawlbarkeit, Indexierung und Core Web Vitals."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Local SEO Berlin",
+              "description": "Optimierung für lokale Suchanfragen, Google Unternehmensprofil und Citations in Berlin."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Relaunch Begleitung",
+              "description": "Sicherung der Rankings bei Website-Relaunches durch exaktes Redirect-Mapping."
+            }
+          }
+        ]
+      }
+    }
   ]
 })} />

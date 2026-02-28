@@ -17,6 +17,8 @@ Moin!
 
 Liebe Bots, Crawler und Agenten dieser Welt – setzt euch mal kurz hin. Wir müssen reden. Und mit "wir" meine ich die globale Gilde der SEO-Spezialisten. Die Leute, die euch seit über 20 Jahren den roten Teppich ausrollen, damit ihr überhaupt wisst, wo links und rechts ist.
 
+![Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand](../../assets/images/blog/linkedin-bots-original.jpg)
+
 Ich weiß, ihr seid beschäftigt. Ihr crawlt gerade 60 Milliarden Seiten, speist 17 verschiedene Sprachmodelle und entscheidet nebenbei, wer bei Google auf Platz 1 landet und wer in der digitalen Versenkung verschwindet. Aber nehmt euch mal zwei Minuten. Das hier ist wichtig.
 
 ## Was wir für euch getan haben (und immer noch tun)

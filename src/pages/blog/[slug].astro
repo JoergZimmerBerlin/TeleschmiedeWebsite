@@ -267,7 +267,20 @@ const finalRelatedPosts = relatedPosts.length >= 3
           @apply mt-0 !important;
         }
         .blog-cta-box a {
-          @apply inline-block mt-4 px-8 py-3 bg-lime-accent text-dark font-bold rounded-full no-underline hover:brightness-95 transition-all duration-200 shadow-sm hover:shadow-md;
+          display: inline-block !important;
+          margin-top: 1rem !important;
+          padding: 0.75rem 2rem !important;
+          background-color: #D9FF00 !important;
+          color: #1a1a1a !important;
+          font-weight: 700 !important;
+          border-radius: 9999px !important;
+          text-decoration: none !important;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+          transition: all 0.2s !important;
+        }
+        .blog-cta-box a:hover {
+          filter: brightness(0.95) !important;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
         }
       </style>
 

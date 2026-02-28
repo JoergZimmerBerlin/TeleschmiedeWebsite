@@ -72,11 +72,6 @@ const finalRelatedPosts = relatedPosts.length >= 3
   description={post.data.description}
   ogImage={post.data.image?.src}
 >
-  <!-- Reading Progress Bar -->
-  <div id="progress-container" class="fixed top-0 left-0 w-full h-1.5 z-50 pointer-events-none">
-    <div id="progress-bar" class="h-full bg-lime-accent w-0 transition-all duration-150 shadow-[0_0_10px_rgba(217,255,0,0.5)]"></div>
-  </div>
-
   <article class="section pt-8">
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
@@ -168,20 +163,11 @@ const finalRelatedPosts = relatedPosts.length >= 3
         // Reading Progress Bar & Back to Top Visibility
         const updateScrollingUI = () => {
           const content = document.getElementById('blog-content');
-          const progressBar = document.getElementById('progress-bar');
           const backToTop = document.getElementById('back-to-top');
           
-          if (!content || !progressBar || !backToTop) return;
+          if (!content || !backToTop) return;
 
-          const totalHeight = content.offsetHeight;
-          const contentTop = content.offsetTop;
           const scrollPos = window.scrollY;
-          const windowHeight = window.innerHeight;
-
-          // Progress Bar
-          let progress = ((scrollPos - contentTop + windowHeight / 2) / totalHeight) * 100;
-          progress = Math.max(0, Math.min(100, progress));
-          progressBar.style.width = `${progress}%`;
 
           // Back to Top Visibility
           if (scrollPos > 500) {

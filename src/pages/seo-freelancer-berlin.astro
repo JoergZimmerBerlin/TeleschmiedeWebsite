@@ -46,11 +46,6 @@ const faqs = [
 ---
 
 <Layout title={title} description={description}>
-  <!-- Reading Progress Bar -->
-  <div id="progress-container" class="fixed top-0 left-0 w-full h-1.5 z-50 pointer-events-none">
-    <div id="progress-bar" class="h-full bg-lime-accent w-0 transition-all duration-150 shadow-[0_0_10px_rgba(217,255,0,0.5)]"></div>
-  </div>
-
   <!-- Hero Section -->
   <section class="section relative overflow-hidden bg-white mt-12">
     <div class="container-narrow">
@@ -328,26 +323,6 @@ const faqs = [
   </section>
 
   <CTASection />
-
-  <!-- Progress Bar Script -->
-  <script>
-    const updateProgress = () => {
-      const progressBar = document.getElementById('progress-bar');
-      if (!progressBar) return;
-
-      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrollPos = window.scrollY;
-
-      let progress = (scrollPos / totalHeight) * 100;
-      progress = Math.max(0, Math.min(100, progress));
-      progressBar.style.width = `${progress}%`;
-    };
-
-    window.addEventListener('scroll', updateProgress);
-    window.addEventListener('resize', updateProgress);
-    // Initialize
-    updateProgress();
-  </script>
 </Layout>
 
 <!-- JSON-LD Structured Data für Local Business, Person & Services -->

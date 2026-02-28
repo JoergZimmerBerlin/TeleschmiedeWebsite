@@ -1,91 +1,83 @@
 ---
 import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
-import Stats from '../components/Stats.astro';
-import Expertise from '../components/Expertise.astro';
 import CTASection from '../components/CTASection.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
 import heroImage from '../assets/images/pages/hero-pose.jpg';
 import joergWorking from '../assets/images/profile/joerg-lifestyle.jpg';
 import joergCTA from '../assets/images/profile/joerg-zimmer-cta.jpg';
+import joergInterview from '../assets/images/blog/seopresso-interview.jpg';
+import joergPodcast from '../assets/images/blog/ai-ready-podcast.jpg';
+import FehlerImage from '../assets/images/blog/seo_fehler_white_1772296979665.png';
+import ContextualImage from '../assets/images/blog/contextual_seo_white_1772296880924.png';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// SEO Freelancer Berlin specific data
+// Meta Data
 const title = "SEO Freelancer Berlin | Technisch, ehrlich & ohne Bullshit - Jörg Zimmer";
 const description = "Dein SEO Freelancer in Berlin Spandau. 20+ Jahre Erfahrung, Fokus auf technische Exzellenz, Relaunch-Begleitung und ehrliche Beratung. ALOHA!";
 
-const basics = [
-  {
-    title: "Die Redirect-Hölle vermeiden",
-    desc: "Bei Relaunches wird oft gehofft, statt geplant. Ich sorge dafür, dass deine Rankings nicht im Nirgendwo verschwinden.",
-    icon: "🚀"
-  },
-  {
-    title: "Saubere H-Strukturen",
-    desc: "Überschriften sind kein Design-Element, sondern die Roadmap für Google. Wir räumen das Chaos auf.",
-    icon: "🏗️"
-  },
-  {
-    title: "Performance & CWV",
-    desc: "Eine langsame Seite ist der höflichste Gruß, den du deinen Kunden schickst – nicht. Wir machen sie blitzschnell.",
-    icon: "⚡"
-  },
-  {
-    title: "Ehrliche Meta-Daten",
-    desc: "Kein Keyword-Stuffing. Wir schreiben für Menschen, damit sie klicken – und Google versteht, worum es geht.",
-    icon: "✍️"
-  }
-];
-
 const faqs = [
   {
-    q: "Warum Berlin-Spandau?",
-    a: "Hier bin ich verwurzelt. Ich berate lokal in Berlin, aber durch meine stundenweisen Video-Consultings bin ich für Kunden im gesamten DACH-Raum erreichbar."
+    question: "Warum sollte ich einen SEO Freelancer aus Berlin buchen und keine SEO Agentur?",
+    answer: "Der größte Vorteil: Du bekommst immer den Chef. Bei vielen Agenturen sprichst du anfangs mit dem Geschäftsführer oder Senior Consultant, aber die eigentliche Arbeit am Projekt übernimmt dann ein Junior oder Trainee. Als Freelancer betreue ich dein Projekt persönlich. Du profitierst direkt von meinen über 20 Jahren Erfahrung aus den Schützengräben des SEO. Keine Account Manager, keine stillen Post-Spiele, sondern direkter Kontakt und pragmatische Umsetzung."
   },
   {
-    q: "Was unterscheidet dich von Agenturen?",
-    a: "Kein Bullsh*t-Bingo, kein Junior-Account-Manager. Du redest direkt mit mir. 20+ Jahre Erfahrung fließen direkt in dein Projekt."
+    question: "Arbeitest du nur für Kunden aus Berlin oder ganz Deutschland?",
+    answer: "Mein Lebensmittelpunkt und Schreibtisch stehen in Berlin Spandau, aber das Internet kennt bekanntlich keine Stadtgrenzen. Ich arbeite für und mit Unternehmen im gesamten DACH-Raum (Deutschland, Österreich, Schweiz). Videocalls und moderne Collaboration-Tools machen es möglich, dass wir so effizient zusammenarbeiten, als säßen wir im selben Raum. Für Berliner Unternehmen gibt es natürlich den Bonus, dass man sich auch mal unkompliziert auf einen Kaffee im Kiez treffen kann."
   },
   {
-    q: "Ab wann lohnt sich eine SEO-Sprechstunde?",
-    a: "Sobald du merkst, dass du nicht weiterkommst oder das Gefühl hast, dass dein Webdesigner das Thema SEO nur 'nebenbei' mitmacht."
+    question: "Was kostet SEO bei dir als Freelancer?",
+    answer: "Die kurze Antwort: Es kommt darauf an, wie groß die Baustelle ist. Die lange Antwort: Ich bin ein großer Fan von Transparenz. Ein sauberer technischer SEO-Audit für einen mittelgroßen Shop oder eine B2B-Website startet meist im mittleren vierstelligen Bereich. Laufende Betreuung rechne ich am liebsten in Form von Kontingenten auf Stundenbasis oder über definierte Milestone-Pakete ab. Billig-SEO für 300 Euro im Monat gibt es bei mir nicht – denn das verbrennt am Ende nur dein Geld, ohne Ergebnisse zu liefern."
+  },
+  {
+    question: "Wie lange dauert es, bis man beim SEO Ergebnisse sieht?",
+    answer: "Wer dir Platz 1 in vier Wochen garantiert, lügt. SEO ist kein Sprint, sondern ein Langstreckenlauf. Wenn wir technische Blocker (wie massive Indexierungsprobleme oder Ladegeschwindigkeit) beheben, kann man oft schon nach 4 bis 8 Wochen erste Sprünge in der Sichtbarkeit sehen. Echter, organisch aufgebauter Content-Traffic braucht hingegen Vertrauen bei Google (Authorität) und benötigt meist 3 bis 6 Monate, bis er spürbar an Fahrt aufnimmt. Der Vorteil: Die Ergebnisse sind nachhaltig."
+  },
+  {
+    question: "Machst du auch Local SEO speziell für Berlin?",
+    answer: "Absolut! Für Handwerker, Kanzleien, Ärzte oder lokale Dienstleister in Berlin ist Local SEO der stärkste Hebel. Wir optimieren dein Google Unternehmensprofil (früher Google My Business), sorgen für saubere lokale Citations und bauen Landingpages auf, die punktgenau für Suchanfragen wie 'Zahnarzt Berlin Spandau' oder 'IT Systemhaus Charlottenburg' ranken. Gerade in einer umkämpften Metropole wie Berlin ist eine messerscharfe lokale Positionierung Gold wert."
+  },
+  {
+    question: "Was sagst du zu KI im SEO (ChatGPT, SGE)? Ist SEO tot?",
+    answer: "SEO ist nicht tot, es entwickelt sich nur rasant weiter. Generative KI (wie ChatGPT oder Google’s SGE) verändert die Informationsbeschaffung grundlegend. Ich spreche oft von 'GEO' (Generative Engine Optimization) oder 'LLMO' (Large Language Model Optimization). Die Taktik ändert sich: Statt nur Keywords abzuarbeiten, müssen wir Entitäten aufbauen und echten Kontext liefern, den die KI zitieren möchte. Der alte Spam-Mechanismus ist tot – hochwertiger, expertengetriebener Content lebt mehr denn je."
+  },
+  {
+    question: "Benutzt du Tools oder machst du das aus dem Bauch heraus?",
+    answer: "Gefühle haben in der Datenanalyse nichts zu suchen. Mein Stack besteht aus professionellen Enterprise-Tools wie dem Screaming Frog SEO Spider (für tiefgreifende technische Crawls), Ahrefs und Sistrix (für Backlinks, Sichtbarkeit und Wettbewerb) sowie natürlich der Google Search Console und Google Analytics. Für das KI-Tracking nutze ich Tools wie Rankscale. Die Kunst ist nicht, das Tool zu haben, sondern die Daten, die es ausspuckt, richtig zu interpretieren."
   }
 ];
 ---
 
 <Layout title={title} description={description}>
   <!-- Hero Section -->
-  <section class="section relative overflow-hidden bg-white">
+  <section class="section relative overflow-hidden bg-white mt-12">
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-2/3 z-10">
-          <p class="subheadline mb-4">ALOHA! Ich bin Jörg.</p>
-          <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-8">
-            SEO Freelancer in Berlin – 
-            <span class="highlight">Ehrlich, technisch,</span>
-            ohne Bullsh*t-Bingo.
+        <div class="md:w-3/5 z-10">
+          <p class="subheadline mb-4 uppercase text-sm tracking-widest text-lime-900 font-bold bg-lime-accent/30 inline-block px-4 py-1 rounded-full">ALOHA! Ich bin Jörg.</p>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-8">
+            Dein <span class="text-lime-600">SEO Freelancer Berlin</span>: Ehrlich, Technisch & Ohne Bullshit.
           </h1>
-          <p class="text-lg md:text-xl text-gray-muted max-w-2xl mb-10">
-            Ich sorge dafür, dass deine Website nicht nur schick aussieht, sondern auch 
-            <span class="text-dark font-semibold">gefunden wird und konvertiert.</span> 
-            Keine Magie, sondern ehrliches Handwerk aus über 20 Jahren Erfahrung.
+          <p class="text-lg md:text-xl text-gray-700 max-w-2xl mb-10 leading-relaxed">
+            Du suchst keinen glattgebügelten Agentur-Pitch, sondern jemanden, der sich die Hände im Code schmutzig macht? Ich bringe über <strong>20 Jahre Schützengraben-Erfahrung</strong> in der Suchmaschinenoptimierung mit. Mein Ziel: Deine Website nicht nur sichtbar, sondern zu einer echten Verkaufsmaschine zu machen.
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href={`${baseUrl}/kontakt/`} class="btn-primary">
+            <a href={`${baseUrl}/kontakt/`} class="btn-primary text-center">
               Lass uns sprechen
             </a>
-            <a href="#ansatz" class="btn-secondary">
-              Mein Ansatz
+            <a href="#ansatz" class="btn-secondary text-center scroll-smooth">
+              Warum ein Freelancer?
             </a>
           </div>
         </div>
-        <div class="md:w-1/3">
+        <div class="md:w-2/5">
           <Image
             src={heroImage}
-            alt="Jörg Zimmer - SEO Freelancer Berlin Spandau"
-            width={552}
-            height={896}
-            class="w-full h-auto rounded-2xl shadow-xl border-4 border-white"
+            alt="Jörg Zimmer - Dein SEO Freelancer in Berlin"
+            width={600}
+            height={800}
+            class="w-full h-auto rounded-3xl shadow-2xl border-4 border-white object-cover"
             format="webp"
             loading="eager"
             fetchpriority="high"
@@ -95,143 +87,289 @@ const faqs = [
     </div>
   </section>
 
-  <!-- The "Basics" Reality -->
-  <section id="ansatz" class="section bg-gray-50">
+  <!-- Content Section 1: Intro & Agentur vs Freelancer -->
+  <section id="ansatz" class="section bg-gray-50 pt-24 pb-24">
     <div class="container-narrow">
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">
-          In 80% der Fälle fehlen die <span class="highlight">Basics.</span>
-        </h2>
-        <p class="text-lg text-gray-muted italic">
-          "Wir SEO-Typen sind schuld, dass das Netz die Basics nicht kennt."
-        </p>
+      <div class="flex flex-col lg:flex-row gap-16 items-start">
+        <div class="lg:w-2/3 prose prose-lg max-w-none text-gray-800">
+          <h2 class="text-3xl md:text-4xl font-bold text-dark mb-8 border-b-2 border-lime-accent pb-4 inline-block">Warum überhaupt ein SEO Freelancer aus Berlin?</h2>
+          
+          <p class="mb-6 leading-relaxed">
+            Stell dir vor, du stehst vor einem komplexen Motorproblem an deinem Auto. Fährst du zu einer riesigen Werkstattkette, wo du dein Auto am Schalter einer freundlichen Empfangskraft abgibst, die dein Anliegen als Ticket in ein System tippt? Oder fährst du zu dem erfahrenen Meister um die Ecke, der sich den Motor selbst anhört, den Schraubenschlüssel ansetzt und dir genau erklärt, welcher Keilriemen pfeift?
+          </p>
+
+          <p class="mb-6 leading-relaxed">
+            Genau das ist der Unterschied zwischen einer großen SEO-Agentur und mir als <strong>SEO Freelancer in Berlin</strong>. Wenn du mich buchst, bekommst du mich. Kein Bullshit-Bingo in Präsentationen, kein Junior-Account-Manager, der deine Mails an die Technikabteilung weiterleitet. Du arbeitest direkt mit jemandem zusammen, der seit 2001 im Online Marketing aktiv ist.
+          </p>
+          
+          <div class="my-10 bg-white p-6 rounded-2xl border-l-4 border-lime-500 shadow-sm">
+            <p class="text-dark font-bold italic text-lg mb-2">"Ich spreche fließend C-Level und fließend Nerd. Wenn die Geschäftsführung Traffic-Ziele bespricht, übersetze ich das für die Entwickler in konkrete JSON-LD und Server-Side-Rendering Vorgaben."</p>
+          </div>
+
+          <h3 class="text-2xl font-bold mt-16 mb-6">Ein Blick zurück: Die Wildwest-Zeit des SEO</h3>
+          <p class="mb-6 leading-relaxed">
+            Ich habe die Zeiten erlebt, als SEO noch wie im Wilden Westen ablief. Weiße Schrift auf weißem Grund? Hat funktioniert. Keyword-Stuffing im Footer, bis der Browser abgestürzt ist? Brachte Platz 1. Content-Spam, massenhaft Links aus dubiosen Blognetzwerken oder russischen Foren? Das waren die Instrumente der frühen 2000er Jahre. Wir haben gelacht, getestet und oft am Rand des Erlaubten operiert. Die Wahrheit ist: Wer damals aktiv war, hat die Grundmechaniken der Suchmaschinen besser verstanden als jeder, der sein Wissen heute aus einem Online-Kurs hat.
+          </p>
+          
+          <p class="mb-12 leading-relaxed">
+            Heute bekommst du für dieselben Taktiken sofort eine Penalty von Google, von der sich viele Projekte nie wieder erholen. Das Internet ist erwachsen geworden. SEO ist heute ein hochkomplexes Zusammenspiel aus <strong>technischer Perfektion, herausragendem Content, User Experience (UX) und dem Aufbau von echter Markenautorität</strong>. Das alte Wissen hilft mir jedoch jeden Tag dabei, Algorithmus-Updates schneller zu entschlüsseln, weil ich die DNA der Suchmaschinen kenne.
+          </p>
+        </div>
+        
+        <!-- Sidebar mit persönlichem Bild -->
+        <div class="lg:w-1/3">
+          <div class="sticky top-32">
+            <Image
+              src={joergInterview}
+              alt="Jörg Zimmer im SEOPRESSO Podcast Interview"
+              width={600}
+              height={800}
+              class="w-full h-auto rounded-3xl shadow-xl border-4 border-white mb-6 object-cover aspect-[3/4]"
+              format="webp"
+            />
+            <p class="text-sm text-center text-gray-muted italic px-4">In meinem Element: Diskussionen über tiefgehende SEO-Strukturen und die Zukunft der Suche (SEOPRESSO Interview).</p>
+          </div>
+        </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {basics.map((item) => (
-          <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-            <div class="text-4xl mb-6">{item.icon}</div>
-            <h3 class="text-xl font-bold mb-4">{item.title}</h3>
-            <p class="text-gray-muted leading-relaxed">
-              {item.desc}
-            </p>
-          </div>
-        ))}
+      <!-- Infografik 1 -->
+      <div class="my-16 bg-white p-8 rounded-3xl shadow-sm border border-gray-100 relative">
+        <div class="absolute -top-6 left-8 bg-dark text-lime-accent px-6 py-2 rounded-full font-bold text-sm shadow-md">
+          Fehler, die Klicks kosten
+        </div>
+        <Image
+          src={FehlerImage}
+          alt="Häufige SEO Fehler und deren Lösungen - Infografik"
+          width={1200}
+          height={675}
+          class="w-full h-auto rounded-xl object-contain"
+          format="webp"
+        />
+        <p class="text-sm text-center text-gray-muted mt-4 italic">Wie viele dieser Baustellen hast du aktuell noch auf deiner Website?</p>
       </div>
     </div>
   </section>
 
-  <!-- Philosophy: Sei nützlich -->
-  <section class="section">
+  <!-- Content Section 2: Die 4 Säulen meiner SEO-Beratung -->
+  <section class="section bg-white pt-24 pb-24">
     <div class="container-narrow">
-      <div class="flex flex-col md:flex-row items-center gap-16">
-        <div class="md:w-1/2">
-          <div class="relative">
-            <Image
-              src={joergWorking}
-              alt="Jörg Zimmer bei der SEO-Analyse in Berlin"
-              width={800}
-              height={600}
-              class="rounded-3xl shadow-lg"
-              format="webp"
-              loading="lazy"
-            />
-            <div class="absolute -bottom-6 -right-6 bg-lime-accent p-6 rounded-2xl shadow-xl hidden md:block">
-              <p class="text-dark font-bold text-lg">"Sei nützlich."</p>
-              <p class="text-xs uppercase tracking-widest text-lime-900 opacity-80">Jörgs Credo</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-dark mb-12 text-center">Meine Methodik: Handwerk statt Magie</h2>
+      
+      <p class="text-lg text-gray-700 text-center max-w-4xl mx-auto mb-16 leading-relaxed">
+        Als SEO Freelancer arbeite ich nach einem klaren, bewährten Prinzip. Keine Blackbox-Agenturverträge, sondern messbare Milestones, die nachweislich den organischen Traffic und deinen Umsatz steigern. Meine Arbeit stützt sich auf vier fundamentale Säulen.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Säule 1 -->
+        <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">⚙️</div>
+          <h3 class="text-2xl font-bold mb-4">1. Technisches SEO (Das Fundament)</h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Eine Website, die lahm ist oder von Suchmaschinen nicht richtig gecrawlt werden kann, ist wie ein Ferrari ohne Motor. Sie sieht vielleicht gut aus, bewegt sich aber nicht fleck.
+          </p>
+          <ul class="space-y-3 text-gray-dark list-none pl-0">
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Core Web Vitals & PageSpeed:</strong> Blitzschnelle Ladezeiten durch Image-Kompression, Caching und sauberen Code.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Crawlbarkeit:</strong> Behebung von Redirect-Chains, 404-Fehlern und Blockierung wichtiger Assets durch die robots.txt.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Strukturierte Daten (Schema.org):</strong> Wir sprechen mit Google in seiner Heimatsprache (JSON-LD), um Rich Snippets wie FAQs oder Produktsterne zu erzwingen.</li>
+          </ul>
+        </div>
+
+        <!-- Säule 2 -->
+        <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">✍️</div>
+          <h3 class="text-2xl font-bold mb-4">2. Content & Suchintention</h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Es geht nicht darum, Texte mit Keywords vollzustopfen. "SEO-Texte" der alten Schule verursachen heute bei Usern und bei Google nur noch Kopfschmerzen. Wir brauchen Inhalte, die exakt die Suchintention (Information, Transaktion, Navigation) treffen.
+          </p>
+          <ul class="space-y-3 text-gray-dark list-none pl-0">
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Content Audits:</strong> Wir identifizieren "Zombie-Seiten", die Traffic fressen, und konsolidieren diese.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Entity-basierte Optimierung:</strong> Text-Strukturierung durch H1-H4 Tags, semantische Keywords (WDF*IDF war gestern, wir denken in Themenclustern).</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Die Contextual-Brücke:</strong> Content, der Technologie und Nutzer-Empathie perfekt miteinander verbindet.</li>
+          </ul>
+        </div>
+
+        <!-- Säule 3 -->
+        <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">🔗</div>
+          <h3 class="text-2xl font-bold mb-4">3. Authority & Linkbuilding</h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Backlinks sind nach wie vor das stärkste Vertrauenssignal im Algorithmus. Aber nicht jeder Link ist ein guter Link. Wer heute auf billige PBNs (Private Blog Networks) setzt, spielt russisches Roulette mit seinem Business.
+          </p>
+          <ul class="space-y-3 text-gray-dark list-none pl-0">
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Digital PR:</strong> Echte Erwähnungen in relevanten Fachmedien und Magazinen.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Backlink-Audits (Toxizität):</strong> Analyse deines aktuellen Linkprofils durch Tools wie Ahrefs, um toxische Altlasten über das Disavow-Tool zu entwerten.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Interne Verlinkung:</strong> Der unterschätzte Hebel. Perfekte Silobildung, um den Linkjuice gezielt auf deine Money-Pages zu lenken.</li>
+          </ul>
+        </div>
+
+        <!-- Säule 4 -->
+        <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">🚑</div>
+          <h3 class="text-2xl font-bold mb-4">4. Relaunch-Begleitung (Die Unfallchirurgie)</h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Die meisten Kunden melden sich nicht, wenn alles toll läuft. Sie melden sich bei mir aus genau zwei Gründen: Einer Google Penalty oder nach einem Website-Relaunch, bei dem der Traffic um 60% eingebrochen ist.
+          </p>
+          <ul class="space-y-3 text-gray-dark list-none pl-0">
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Redirect-Mapping:</strong> Lückenlose 301-Weiterleitungen, damit keine alten URLs ins Leere (404) laufen.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Staging-Umgebungen:</strong> Begleitung der Webentwicklung von der Testumgebung bis zum Live-Gang.</li>
+            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>URL-Struktur-Beratung:</strong> Saubere Hierarchien für Shops (Kategorie-Filter, Facettennavigation ohne Duplicate Content).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section 3: AI & SGE & Local SEO -->
+  <section class="section bg-dark text-white pt-24 pb-24 relative overflow-hidden">
+    <!-- Decorative element -->
+    <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-lime-accent rounded-full opacity-5 blur-[120px] pointer-events-none translate-x-1/2 -translate-y-1/2"></div>
+    
+    <div class="container-narrow position-relative z-10">
+      <div class="prose prose-lg prose-invert max-w-none">
+        
+        <div class="flex flex-col lg:flex-row gap-16 items-start">
+          <div class="lg:w-1/2">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 !text-white !border-lime-accent !pb-4">SEO auf dem Prüfstand: Die Ära der KI (LLMO & GEO)</h2>
+            <p class="leading-relaxed text-gray-300">
+              Seit der Veröffentlichung von ChatGPT und der anstehenden Revolution durch Googles SGE (Search Generative Experience) fragen sich viele: Ist SEO tot? Die Antwort lautet: Klassisches SEO, wie wir es kannten, liegt auf der Intensivstation. Was stattdessen entsteht, nenne ich <strong>Generative Engine Optimization (GEO)</strong> oder <strong>LLMO (Large Language Model Optimation)</strong>.
+            </p>
+            <p class="leading-relaxed text-gray-300 mt-6">
+              KIs "verstehen" Texte nicht wie wir, sie berechnen Wahrscheinlichkeiten von Wortfolgen. Wenn wir künftig wollen, dass eine KI uns in ihren Antworten zitiert (ob bei Perplexity, OpenAI oder Google AI Overview), müssen wir Informationsdichte und Authorität ausstrahlen. Das gelingt durch echte Meinungsstärke, originäre Daten (Studien, Umfragen) und die Vermeidung von generischem Content-Einheitsbrei.
+            </p>
+          </div>
+          <div class="lg:w-1/2 flex flex-col sm:flex-row gap-6">
+            <div class="sm:w-1/2">
+              <Image
+                src={joergPodcast}
+                alt="Jörg Zimmer diskutiert über KI und SEO"
+                width={400}
+                height={600}
+                class="rounded-3xl shadow-xl w-full h-auto object-cover aspect-[3/4] border-2 border-gray-700"
+                format="webp"
+                loading="lazy"
+              />
+            </div>
+            <div class="sm:w-1/2 mt-8 sm:mt-16">
+              <Image
+                src={ContextualImage}
+                alt="Contextual SEO: Wie Technologie auf Menschliche Emotion trifft"
+                width={400}
+                height={600}
+                class="rounded-3xl shadow-2xl bg-white p-2 w-full h-auto object-contain"
+                format="webp"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
-        <div class="md:w-1/2">
-          <p class="subheadline mb-4">Meine Philosophie</p>
-          <h2 class="text-3xl md:text-4xl font-bold mb-6">
-            SEO ist kein Fancy <span class="highlight">Zubehör.</span>
-          </h2>
-          <div class="space-y-6 text-gray-muted text-lg">
-            <p>
-              Viele glauben, SEO macht der Webdesigner "so nebenbei" mit. Das ist der klassische Fehler. 
-              Gutes SEO ist das technische und inhaltliche Fundament deiner Seite.
-            </p>
-            <p>
-              Mein Spiel dreht sich in Wirklichkeit um die <strong>Nutzer und deren Interessen.</strong> 
-              Wer nur für den Google-Bot optimiert, hat schon verloren. Google will nützliche Inhalte – 
-              ich zeige dir, wie du sie lieferst.
-            </p>
-            <p>
-              Seit über 20 Jahren begleite ich Unternehmen dabei, im Netz sichtbar zu werden. 
-              Vom Relaunch-Schutz bis zur GA4-Strategie.
-            </p>
+
+        <h3 class="text-2xl font-bold mt-20 mb-6 text-lime-accent">Local SEO Berlin: Deine Stadt, dein Spielfeld</h3>
+        <p class="mb-6 leading-relaxed text-gray-300">
+          Als Berliner weiß ich: Wer in Mitte gesucht wird, möchte keinen Dienstleister aus Marzahn angezeigt bekommen (egal ob es um den Schlüsseldienst, den Steuerberater oder den Zahnarzt geht). Google versteht Hyperlokalität mittlerweile extrem gut.
+        </p>
+        <p class="mb-12 leading-relaxed text-gray-300">
+          Um beim Keyword <em>"SEO Freelancer Berlin"</em> ganz vorne mitzuspielen, reicht es nicht, einfach nur eine Stadt auf die Website zu klatschen. Es braucht ein exzellent gepflegtes Google-Unternehmensprofil, Reviews, lokale Citations in hochwertigen Verzeichnissen (Das Örtliche, Gelbe Seiten, branchenspezifische Portale) und lokale Backlinks. Was ich an meiner eigenen Seite demonstriere, setze ich täglich profitabel für Spandauer und Berliner Unternehmen aus dem Mittelstand um.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section 4: Workflow & Philosophie -->
+  <section class="section bg-gray-50 pt-24 pb-12">
+    <div class="container-narrow">
+      <div class="flex flex-col lg:flex-row gap-16 items-center">
+        
+        <div class="lg:w-1/2">
+          <Image
+            src={joergWorking}
+            alt="Jörg Zimmer am Arbeitsplatz - SEO Beratung Berlin"
+            width={800}
+            height={600}
+            class="rounded-3xl shadow-lg w-full h-auto object-cover"
+            format="webp"
+            loading="lazy"
+          />
+          <div class="mt-8 bg-white p-6 rounded-2xl border-l-4 border-lime-500 shadow-sm">
+            <p class="text-dark font-bold italic text-lg mb-2">"Der größte Fehler im eCommerce ist die Annahme, dass Traffic gleichbedeutend mit Umsatz ist. Wir wollen keinen Traffic, wir wollen Kundenkäufe."</p>
+            <p class="text-sm text-gray-500 uppercase tracking-widest">- Jörg Zimmer</p>
           </div>
         </div>
+
+        <div class="lg:w-1/2 prose prose-lg">
+          <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6">Wie wir zusammenarbeiten</h2>
+          
+          <p class="mb-6">
+            Ich bin kein Freund von starren 24-Monats-Verträgen. Wir arbeiten auf Basis von Vertrauen, Transparenz und Leistung. Mein typischer Projektablauf sieht wie folgt aus:
+          </p>
+
+          <ol class="space-y-6 text-gray-800">
+            <li class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <strong class="text-lime-700 text-xl block mb-2">Phase 1: Das Deep-Dive Audit</strong>
+              Wir fischen nicht im Trüben. Ein Audit mit Screaming Frog und der Search Console legt den Finger gnadenlos auf die Wunde. Was blockiert Google? Welche Strukturfehler existieren? Wo bluten wir organischen Traffic?
+            </li>
+            <li class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <strong class="text-lime-700 text-xl block mb-2">Phase 2: Die Roadmap & Priorisierung</strong>
+              Anschließend bauen wir einen Maßnahmenkatalog auf. Aber wir setzen nicht wahllos um, sondern sortieren nach dem <em>ICE-Score</em> (Impact, Confidence, Ease). Wir beheben zuerst die Dinge, die mit wenig Aufwand sofort massiven ROI (Return on Investment) bringen.
+            </li>
+            <li class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <strong class="text-lime-700 text-xl block mb-2">Phase 3: Hands-on Umsetzung</strong>
+              Ab hier trennt sich die Spreu vom Weizen. Berater schreiben dir 100 PDF-Seiten, die in der Schublade verstauben. Als Freelancer schiebe ich auf Wunsch die Tickets direkt in Jira an deine Entwickler, briefe Texter, oder schreibe Code-Anpassungen (wie diese Website hier in Astro/Tailwind) zum Teil sogar selbst.
+            </li>
+          </ol>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <Stats />
-  <Expertise />
-
-  <!-- FAQ Section -->
-  <section class="section bg-gray-50">
-    <div class="container-narrow">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold">Häufige Fragen (FAQ)</h2>
-      </div>
-      <div class="max-w-3xl mx-auto space-y-8">
-        {faqs.map((faq) => (
-          <div class="bg-white p-8 rounded-2xl border border-gray-100">
-            <h3 class="text-xl font-bold mb-4 flex items-start gap-4">
-              <span class="text-lime-600">Q:</span>
-              {faq.q}
-            </h3>
-            <p class="text-gray-muted pl-9 leading-relaxed">
-              <span class="font-bold text-dark inline-block mb-1">A:</span> 
-              {faq.a}
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- Closing Statement Body -->
-  <section class="section bg-white">
-    <div class="container-narrow text-center">
-      <div class="max-w-2xl mx-auto">
-        <p class="text-2xl font-serif italic text-dark mb-8">
-          "SEO ist kein Sprint und auch kein Marathon. Es ist ein kontinuierlicher Prozess der Verbesserung."
-        </p>
-        <Image
-          src={joergCTA}
-          alt="Jörg Zimmer lächelt - SEO Freelancer Berlin"
-          width={150}
-          height={150}
-          class="w-24 h-24 rounded-full mx-auto mb-6 grayscale border-2 border-gray-200"
-          format="webp"
-          loading="lazy"
-        />
-        <p class="font-bold">Jörg Zimmer</p>
-        <p class="text-sm text-gray-400">SEO & SEA Freelancer seit 2001</p>
-      </div>
+  <!-- FAQ Section with Schema inside the Component -->
+  <section class="section bg-white pt-16 pb-24">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <FAQAccordion faqs={faqs} />
     </div>
   </section>
 
   <CTASection />
 </Layout>
 
-<style>
-  .highlight {
-    position: relative;
-    display: inline-block;
-  }
-  .highlight::after {
-    content: '';
-    position: absolute;
-    bottom: 4px;
-    left: 0;
-    width: 100%;
-    height: 12px;
-    background: theme('colors.lime-accent');
-    opacity: 0.3;
-    z-index: -1;
-  }
-</style>
+<!-- JSON-LD Structured Data für Local Business & ProfessionalService -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Jörg Zimmer - SEO Freelancer Berlin",
+  "image": "https://teleschmie.de/assets/images/profile/joerg-lifestyle.jpg",
+  "@id": "https://teleschmie.de/seo-freelancer-berlin/#freelancer",
+  "url": "https://teleschmie.de/seo-freelancer-berlin/",
+  "telephone": "+49123456789", 
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Musterstraße 1", 
+    "addressLocality": "Berlin",
+    "addressRegion": "Berlin",
+    "postalCode": "13597",
+    "addressCountry": "DE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.5358,
+    "longitude": 13.1977
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+    "https://www.xing.com/profile/Joerg_Zimmer6"
+  ]
+})} />

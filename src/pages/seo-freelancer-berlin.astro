@@ -227,8 +227,8 @@ const faqs = [
     <div class="container-narrow position-relative z-10">
       <div class="prose prose-lg prose-invert max-w-none">
         
-        <div class="flex flex-col lg:flex-row gap-16 items-start">
-          <div class="lg:w-1/2">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          <div class="lg:col-span-7">
             <h2 class="text-3xl md:text-5xl font-bold mb-6 !text-white !border-lime-accent !pb-4">SEO auf dem Prüfstand: Die Ära der KI (LLMO & GEO)</h2>
             <p class="leading-relaxed text-gray-300">
               Seit der Veröffentlichung von ChatGPT und der anstehenden Revolution durch Googles SGE (Search Generative Experience) fragen sich viele: Ist SEO tot? Die Antwort lautet: Klassisches SEO, wie wir es kannten, liegt auf der Intensivstation. Was stattdessen entsteht, nenne ich <strong>Generative Engine Optimization (GEO)</strong> oder <strong>LLMO (Large Language Model Optimation)</strong>.
@@ -237,29 +237,25 @@ const faqs = [
               KIs "verstehen" Texte nicht wie wir, sie berechnen Wahrscheinlichkeiten von Wortfolgen. Wenn wir künftig wollen, dass eine KI uns in ihren Antworten zitiert (ob bei Perplexity, OpenAI oder Google AI Overview), müssen wir Informationsdichte und Authorität ausstrahlen. Das gelingt durch echte Meinungsstärke, originäre Daten (Studien, Umfragen) und die Vermeidung von generischem Content-Einheitsbrei.
             </p>
           </div>
-          <div class="lg:w-1/2 flex flex-col sm:flex-row gap-6">
-            <div class="sm:w-1/2">
-              <Image
-                src={joergPodcast}
-                alt="Jörg Zimmer diskutiert über KI und SEO"
-                width={400}
-                height={600}
-                class="rounded-3xl shadow-xl w-full h-auto object-cover aspect-[3/4] border-2 border-gray-700"
-                format="webp"
-                loading="lazy"
-              />
-            </div>
-            <div class="sm:w-1/2 mt-8 sm:mt-16">
-              <Image
-                src={ContextualImage}
-                alt="Contextual SEO: Wie Technologie auf Menschliche Emotion trifft"
-                width={400}
-                height={600}
-                class="rounded-3xl shadow-2xl bg-white p-2 w-full h-auto object-contain"
-                format="webp"
-                loading="lazy"
-              />
-            </div>
+          <div class="lg:col-span-5 flex flex-col gap-10">
+            <Image
+              src={ContextualImage}
+              alt="Contextual SEO: Wie Technologie auf Menschliche Emotion trifft"
+              width={800}
+              height={450}
+              class="rounded-3xl shadow-2xl bg-white p-3 w-full h-auto object-contain"
+              format="webp"
+              loading="lazy"
+            />
+            <Image
+              src={joergPodcast}
+              alt="Jörg Zimmer diskutiert über KI und SEO"
+              width={800}
+              height={500}
+              class="rounded-3xl shadow-xl w-full h-[350px] object-cover object-top border-4 border-gray-800"
+              format="webp"
+              loading="lazy"
+            />
           </div>
         </div>
 

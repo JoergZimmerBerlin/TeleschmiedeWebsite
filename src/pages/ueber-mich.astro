@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 
 import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.jpg';
@@ -10,6 +10,7 @@ import lifestyleImage from '../assets/images/profile/joerg-lifestyle.jpg';
 import katzePortraitImage from '../assets/images/profile/joerg-zimmer-katze.jpg';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' });
 ---
 
 <Layout
@@ -219,7 +220,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           "@id": "https://teleschmie.de/#person",
           "name": "Jörg Zimmer",
           "url": "https://teleschmie.de/ueber-mich/",
-          "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.jpg",
+          "image": `https://teleschmie.de${portraitImageWebp.src}`,
           "jobTitle": "SEO & SEA Freelancer",
           "worksFor": { "@id": "https://teleschmie.de/#service" },
           "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer aus Berlin Spandau.",
@@ -254,7 +255,12 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           "sameAs": [
             "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
             "https://www.xing.com/profile/Joerg_Zimmer6",
-            "https://linktr.ee/jorgzimmer"
+            "https://linktr.ee/jorgzimmer",
+            "https://www.instagram.com/joerg.zimmer.berlin/",
+            "https://www.facebook.com/teleschmiede",
+            "https://www.youtube.com/@Teleschmiede",
+            "https://www.tiktok.com/@teleschmiede",
+            "https://www.threads.com/@joerg.zimmer.berlin"
           ]
         },
         {
@@ -275,8 +281,8 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 52.5482,
-            "longitude": 13.2033
+            "latitude": 52.5591,
+            "longitude": 13.1883
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",

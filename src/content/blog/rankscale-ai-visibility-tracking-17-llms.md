@@ -7,6 +7,10 @@ image: "../../assets/images/blog/rankscale-ai-visibility-tracking.png"
 image_alt: "Rankscale AI Tracking: 17 LLMs im Test"
 category: "AI SEO"
 tags: ["AI Visibility", "Rankscale", "LLM", "Benchmark"]
+key_takeaways:
+  - "Rankscale trackt 17 Sprachmodelle gleichzeitig – Domain eingeben, Topic Cluster wählen, fertig."
+  - "Marken-Tracking, Sentiment-Analyse und Wettbewerbsvergleich über alle LLMs liefern Reporting auf neuem Level."
+  - "Nach 3 Monaten Content-Strategie konnte ein Kunde schwarz auf weiß belegen, dass ChatGPT ihn als Experten nennt."
 ---
 
 ## Die Lösung für AI Tracking ist da

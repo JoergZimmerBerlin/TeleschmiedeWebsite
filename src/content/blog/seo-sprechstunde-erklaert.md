@@ -7,6 +7,10 @@ image: "../../assets/images/profile/katze-seo-hoodie.jpg"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Die Grill-Analyse"
 category: "SEO Praxis"
 tags: ["SEO Audit", "Sprechstunde", "Analysis", "Best Practices"]
+key_takeaways:
+  - "Die Sprechstunde ist kein netter Plausch, sondern eine Live-Analyse nach dem 80/20-Prinzip."
+  - "Vor dem Call sitze ich mindestens eine Stunde an deinem Projekt – wir steigen bei Minute 1 direkt ins Thema ein."
+  - "Du bekommst Aufzeichnung, KI-Zusammenfassung und einen individuellen Maßnahmenplan – keine Standard-Checkliste."
 ---
 
 "Was genau machst du eigentlich in diesen zwei Stunden Sprechstunde? Ist das nur ein netter Plausch oder kommt da wirklich was bei rum?" 

@@ -7,6 +7,10 @@ image: "../../assets/images/blog/ai-ready-podcast.jpg"
 image_alt: "Bist du SEO AI Ready? Jörg Zimmer im Podcast Interview"
 category: "AI SEO"
 tags: ["Podcast", "AI Visibility", "Interview", "AI SEO"]
+key_takeaways:
+  - "Klassisches SEO ist nur noch die Eintrittskarte – für AI Overviews muss man in Entitäten denken."
+  - "KI ist ein Co-Pilot, kein Kapitän: Sie hilft bei Datenanalyse, ersetzt aber keine menschliche Intuition."
+  - "SEO-Projekte brauchen mindestens 13 Monate, bis das volle Momentum entfaltet wird."
 ---
 
 **Antonio Blago** hat mich eingeladen und was soll ich sagen? In einer Branche, die vor oberflächlichem Geplänkel nur so strotzt, war dieses Gespräch eine echte Wohltat. Antonio stellt nicht nur gute Fragen – er besitzt die seltene Gabe, wirklich zuzuhören und Raum für Antworten zu lassen, die über die üblichen Marketing-Phrasen hinausgehen. Das Ergebnis? Ein Podcast, der kein Buzzword-Bingo ist, sondern ein ehrlicher Schlagabtausch über den Status Quo von SEO, Google Ads und der Frage, wo wir in zwei Jahren stehen werden.

@@ -7,6 +7,10 @@ image: "../../assets/images/blog/magic-writing-podcast.jpg"
 image_alt: "Magic Writing Podcast: Jörg Zimmer über das Ende von SEO?"
 category: "SEO Strategie"
 tags: ["Podcast", "Magic Writing", "Interview", "Content Strategy"]
+key_takeaways:
+  - "Zielgruppenverständnis ist die am meisten unterschätzte Superkraft im SEO – nicht Keywords, sondern Suchintention zählt."
+  - "Google bleibt King of Search: Die Infrastruktur aus Android, Chrome und Ads ist nicht mal eben zu ersetzen."
+  - "Content muss die Brücke zwischen KI-Verständlichkeit und menschlicher Emotion schlagen."
 ---
 
 "SEO ist tot" – sagen sie und schreiben dann krampfhaft für den Algorithmus, damit sie überhaupt noch jemand im digitalen Nirvana wahrnimmt. Es ist die ewige Schlagzeile unserer Branche. Ein Evergreen, der pünktlich zu jedem größeren Google-Update oder jeder neuen Technologie-Welle (wie aktuell KI) aus der Mottenkiste geholt wird.

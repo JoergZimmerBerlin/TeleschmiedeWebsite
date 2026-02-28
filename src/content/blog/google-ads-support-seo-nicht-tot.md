@@ -7,6 +7,10 @@ image: "../../assets/images/pages/kontakt-hero.jpg"
 image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
 category: "Google Ads"
 tags: ["Google Ads", "SEA", "Consulting", "Expertise"]
+key_takeaways:
+  - "Google Ads 'Optimierungsvorschläge' dienen Googles Umsatz, nicht deinem ROI – hinterfrage jeden Vorschlag."
+  - "SEO ist nicht tot, es hat nur aufgehört, einfach zu sein: Entitäten und E-E-A-T statt Keyword-Spam."
+  - "KI sortiert den Müll schneller aus – wer echten Mehrwert bietet, wird als Quelle zitiert."
 ---
 
 Zwei Aussagen, die ich in fast jedem Erstgespräch machen muss – und sie lösen meistens erst mal ungläubiges Staunen oder nervöses Herzklopfen aus. Weil sie an den Grundfesten dessen rütteln, was viele Marketing-Abteilungen über Jahre als "Wahrheit" verkauft bekommen haben. 

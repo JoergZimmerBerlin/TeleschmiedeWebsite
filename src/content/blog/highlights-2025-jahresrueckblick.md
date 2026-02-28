@@ -7,6 +7,10 @@ image: "../../assets/images/profile/website-boosting-rucksack.jpg"
 image_alt: "SEO-Highlights 2025 - Ein Rückblick von Jörg Zimmer"
 category: "SEO Strategie"
 tags: ["Year in Review", "Trends", "Experience", "Strategy"]
+key_takeaways:
+  - "2025 war das Jahr, in dem AI-Tracking mit Tools wie Rankscale den Kinderschuhen entwachsen ist."
+  - "Die SEO-Szene braucht mehr Zusammenhalt und weniger Ellenbogen – echte Mastermind-Gruppen entstehen."
+  - "Freelancer unter 100€/Stunde verkaufen sich und die gesamte Branche unter Wert."
 ---
 
 Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüter erhitzt haben, die Themen, die mich nachts wachgehalten haben, und natürlich auch die Momente, in denen wir einfach nur gelacht haben.

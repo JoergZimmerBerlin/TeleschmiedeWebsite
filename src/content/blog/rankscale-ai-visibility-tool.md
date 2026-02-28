@@ -7,6 +7,10 @@ image: "../../assets/images/pages/hero-pose.jpg"
 image_alt: "Rankscale AI Visibility Tool - Empfehlung von Jörg Zimmer"
 category: "AI SEO"
 tags: ["AI Visibility", "Rankscale", "Tracking"]
+key_takeaways:
+  - "Rankscale trackt Sichtbarkeit in 17 verschiedenen LLMs – jedes Modell bewertet deine Marke unterschiedlich."
+  - "Die Sentiment-Analyse zeigt, ob KIs dich als Experten empfehlen oder in negativem Kontext erwähnen."
+  - "Wer jetzt die Datenhoheit über seine KI-Sichtbarkeit gewinnt, setzt die Standards für morgen."
 ---
 
 Die große Frage im AI-SEO-Zeitalter ist nicht mehr nur, auf welcher Position du bei Google stehst. Die neue, viel spannendere Frage lautet: **Wie sichtbar bin ich eigentlich in ChatGPT, Perplexity, Claude und all den anderen AI-Systemen?**

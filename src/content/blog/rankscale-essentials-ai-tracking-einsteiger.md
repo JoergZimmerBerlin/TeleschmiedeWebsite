@@ -7,6 +7,10 @@ image: "../../assets/images/blog/rankscale-essentials-hero.png"
 image_alt: "Rankscale AI Visibility Tracking Dashboard - Essentials für 20 Euro"
 category: "AI SEO"
 tags: ["AI Visibility", "Rankscale", "Pricing", "Beginner"]
+key_takeaways:
+  - "Rankscale Essentials bietet AI Visibility Tracking ab 17€/Monat – der perfekte Einstieg ins KI-Monitoring."
+  - "Über 17 LLMs gleichzeitig tracken: Jede KI tickt anders und bewertet deine Marke unterschiedlich."
+  - "In 4 Wochen von der Bestandsaufnahme zur Optimierung: Ein konkreter Quickstart-Plan für Einsteiger."
 ---
 
 Moin!

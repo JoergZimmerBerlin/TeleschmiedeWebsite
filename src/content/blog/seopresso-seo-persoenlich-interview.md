@@ -7,6 +7,10 @@ image: "../../assets/images/blog/seopresso-interview.jpg"
 image_alt: "SEOPRESSO Interview: Jörg Zimmer ganz persönlich"
 category: "SEO Strategie"
 tags: ["Interview", "Experience", "SEOPRESSO", "Personal"]
+key_takeaways:
+  - "24 Jahre Freelancing ohne Agentur-Background – Neugier und Daten statt polierter Lebensläufe zählen."
+  - "SEO ist heute zu 80% Kommunikation: Kunden und Entwicklern erklären, warum technische Änderungen nötig sind."
+  - "Echte Profis kennen ihre Grenzen und nutzen Netzwerke wie das Freelancer Team für Spezialthemen."
 ---
 
 Ein sehr persönliches Interview über meine Anfänge, meine Rückschläge und die Tatsache, dass ich nun seit unglaublichen 24 Jahren als Selbständiger in der SEO-Welt überlebt habe. Wer mich kennt, weiß: Ich bin kein Freund von glattgebügelten Hochglanz-Lebensläufen. Ich mag die Ecken, die Kanten und die echten Geschichten.

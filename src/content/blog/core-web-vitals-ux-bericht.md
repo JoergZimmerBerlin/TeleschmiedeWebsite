@@ -7,6 +7,10 @@ image: "../../assets/images/profile/website-boosting-magazin.jpg"
 image_alt: "Core Web Vitals Optimierung - Die 3 Säulen der UX"
 category: "Mobile & Performance"
 tags: ["Core Web Vitals", "UX", "Performance", "SEO"]
+key_takeaways:
+  - "Von 0 auf 216 gute URLs: Core Web Vitals sind kein Hexenwerk, sondern systematische Ingenieurskunst."
+  - "LCP, INP und CLS optimieren heißt: Bilder komprimieren, Third-Party-Scripts ausmisten und Layout-Shifts eliminieren."
+  - "Eine langsame Seite ist wie ein Verkäufer, der erst mal im Lager verschwindet – die Kunden sind dann schon weg."
 ---
 
 Ich liebe Zahlen. Besonders wenn sie so aussehen, dass man sie sich am liebsten einrahmen und übers Bett hängen möchte:

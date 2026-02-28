@@ -7,6 +7,10 @@ image: "../../assets/images/blog/seo-sprechstunde.jpg"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - 5-Sterne-Bewertung von Martin Meng CEO konfidal"
 category: "SEO Praxis"
 tags: ["Sprechstunde", "Case Study", "Feedback", "SEO Audit"]
+key_takeaways:
+  - "Die SEO-Sprechstunde ist ein Dialog, keine Vorlesung – du sitzt im Fahrersitz, ich bin der Co-Pilot."
+  - "CEO Martin Meng bestätigt: Die 3-5 wichtigsten Hebel statt 50 kleinteiliger Aufgaben machen den Unterschied."
+  - "2 Stunden geballtes Wissen für 400€ – kein Abo, keine Bindung, 100% individueller Fokus."
 ---
 
 Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, bei dem ich dir 120 Minuten lang Statistiken um die Ohren haue? Nein, ganz im Gegenteil. Die Sprechstunde ist eine Live-Analyse, bei der du im Fahrersitz sitzt und ich als Co-Pilot die Karte lese, die Abkürzungen kenne und dich vor den Schlaglöchern warne.

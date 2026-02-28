@@ -7,6 +7,10 @@ image: "../../assets/images/pages/blog-hero-notizblock.jpg"
 image_alt: "AI-Agent für LinkedIn Nachrichten - Jörgs KI-Experiment zu Weihnachten"
 category: "AI SEO"
 tags: ["AI Agent", "LinkedIn", "Automation", "Case Study"]
+key_takeaways:
+  - "AI-Agenten auf LinkedIn erzeugen einen digitalen Einheitsbrei, der echte Interaktion entwertet."
+  - "Authentizität ist im KI-Zeitalter kein Buzzword, sondern ein messbarer Wettbewerbsvorteil."
+  - "Vertrauen lässt sich nicht delegieren – weder an einen Praktikanten noch an GPT-5."
 ---
 
 Es war kurz vor Weihnachten, draußen war es grau, und ich wollte eigentlich nur kurz bei LinkedIn vorbeischauen, um zu sehen, was die Branche so treibt. Aber statt spannender Insights oder echter Networking-Stories explodierte mein Feed förmlich. Überall Weihnachtsgrüße. Überall die gleichen, verdächtig perfekten Floskeln. Überall... irgendwie die gleiche Handschrift.

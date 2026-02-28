@@ -7,6 +7,10 @@ image: "../../assets/images/profile/joerg-zimmer-katze.jpg"
 image_alt: "SEO-Sprechstunde Bewertung: 5 Sterne von Ronny"
 category: "SEO Praxis"
 tags: ["Case Study", "Feedback", "Sprechstunde"]
+key_takeaways:
+  - "400€ für 2 Stunden kaufen keine Zeit, sondern Abkürzungen aus 25 Jahren Erfahrung."
+  - "Intensive Vorbereitung vor dem Call ist der Schlüssel: Minute 1 steigt direkt ins Thema ein."
+  - "Kunden erhalten Aufzeichnung, KI-Zusammenfassung und individuellen Maßnahmenplan als Nachbereitung."
 ---
 
 Manchmal bekommt man Feedback, das einen nicht nur freut, sondern das einen auch daran erinnert, warum man diesen Job nach über zwei Jahrzehnten immer noch mit vollem Herzblut macht. **Ronny A.**, ein Local Guide mit beeindruckenden 182 Rezensionen (der also weiß, wie man Qualität beurteilt), hat mir nach unserer gemeinsamen SEO-Sprechstunde eine Bewertung hinterlassen, die ich mir am liebsten ausdrucken und übers Bett hängen würde.

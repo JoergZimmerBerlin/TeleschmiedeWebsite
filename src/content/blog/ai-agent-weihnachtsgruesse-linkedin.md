@@ -3,7 +3,7 @@ title: "Wenn AI-Agenten deinen LinkedIn-Feed kapern"
 description: "Achim vom Gartenverein hat einen Bot gebaut - und damit ein Problem sichtbar gemacht."
 date: "2025-12-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/blog-hero-notizblock.jpg"
+image: "../../assets/images/pages/blog-hero-notizblock.webp"
 image_alt: "AI-Agent für LinkedIn Nachrichten - Jörgs KI-Experiment zu Weihnachten"
 category: "AI SEO"
 tags: ["AI Agent", "LinkedIn", "Automation", "Case Study"]
@@ -23,7 +23,7 @@ An sich ist Achims Tat harmlos. Er wollte ja nur nett sein. Aber er hat damit un
 
 ## Wenn die Maschine das "Social" aus Social Media entfernt
 
-![Infografik: Authentische Interaktion vs. KI-Massen-Spam](../../assets/images/blog/authentizitaet-vs-ki-spam.png)
+![Infografik: Authentische Interaktion vs. KI-Massen-Spam](../../assets/images/blog/authentizitaet-vs-spam-de.png)
 
 Was Achim im Kleinen gemacht hat, wird aktuell im Großen perfektioniert. Wir reden nicht mehr nur über Bots, die Likes verteilen. Wir reden über AI-Agenten, die:
 - **Kontextsensitive Kommentare schreiben:** Die KI erkennt, worum es in deinem Post geht, und verfasst einen Kommentar, der täuschend echt nach Zustimmung oder konstruktiver Kritik klingt.

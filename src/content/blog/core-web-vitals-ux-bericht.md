@@ -3,7 +3,7 @@ title: "Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst"
 description: "Von 0 auf 216 gute URLs - ein echter Case aus meiner SEO-Arbeit."
 date: "2026-01-05"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/website-boosting-magazin.jpg"
+image: "../../assets/images/profile/website-boosting-magazin.webp"
 image_alt: "Core Web Vitals Optimierung - Die 3 Säulen der UX"
 category: "Mobile & Performance"
 tags: ["Core Web Vitals", "UX", "Performance", "SEO"]

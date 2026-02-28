@@ -6,7 +6,7 @@ import KeyTakeaways from '../../components/KeyTakeaways.astro';
 import FAQAccordion from '../../components/FAQAccordion.astro';
 import ROICalculator from '../../components/ROICalculator.astro';
 import DownloadCard from '../../components/DownloadCard.astro';
-import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.jpg';
+import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -104,6 +104,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
           src={post.data.image}
           alt={post.data.image_alt || post.data.title}
           class="w-full rounded-2xl mb-8 shadow-sm h-auto"
+          format="webp"
           loading="eager"
           fetchpriority="high"
         />
@@ -352,6 +353,8 @@ const finalRelatedPosts = relatedPosts.length >= 3
                       width={400}
                       height={225}
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      format="webp"
+                      loading="lazy"
                     />
                   )}
                 </div>
@@ -377,13 +380,14 @@ const finalRelatedPosts = relatedPosts.length >= 3
     "@type": ["Article", post.data.faqs ? "FAQPage" : null].filter(Boolean),
     "headline": post.data.title,
     "description": post.data.description,
-    "image": post.data.image ? `https://teleschmie.de${post.data.image}` : undefined,
+    "image": post.data.image ? `https://teleschmie.de${post.data.image.src}` : undefined,
     "datePublished": post.data.date,
     "author": {
       "@type": "Person",
       "@id": "https://teleschmie.de/ueber-mich/#person",
       "name": "Jörg Zimmer",
       "url": "https://teleschmie.de/ueber-mich/",
+      "jobTitle": "SEO & SEA Freelancer",
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
         "https://www.xing.com/profile/Joerg_Zimmer6"
@@ -394,7 +398,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
       "name": "Teleschmiede",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://teleschmie.de/images/logo-teleschmiede.png"
+        "url": "https://teleschmie.de/assets/images/logo-teleschmiede.png"
       }
     },
     "mainEntityOfPage": {

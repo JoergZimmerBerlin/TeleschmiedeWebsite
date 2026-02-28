@@ -3,7 +3,7 @@ title: "SEO ist tot? Magic Writing Podcast mit Michael Kaufhold"
 description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SEO, Google und warum Zielgruppenverständnis so unterschätzt wird."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"
-image: "../../assets/images/blog/magic-writing-podcast.jpg"
+image: "../../assets/images/blog/magic-writing-podcast.webp"
 image_alt: "Magic Writing Podcast: Jörg Zimmer über das Ende von SEO?"
 category: "SEO Strategie"
 tags: ["Podcast", "Magic Writing", "Interview", "Content Strategy"]
@@ -42,7 +42,7 @@ Wenn du deine Zielgruppe nicht verstehst, wenn deine Texte niemanden bewegen und
 
 Michael Kaufhold hat im Magic Writing Podcast sehr schön herausgearbeitet, dass Schreiben (oder Content-Creation generell) heute eine Brücke schlagen muss zwischen dem, was die KI versteht, und dem, was den Menschen emotional abholt. Wer nur für die KI schreibt, langweilt den Menschen. Wer nur für den Menschen schreibt, wird von der KI vielleicht nicht gefunden. Die Magie liegt in der Mitte.
 
-![Die Contextual SEO Brücke: Technologie trifft auf menschliche Emotion](../../assets/images/blog/contextual-seo-bruecke.png)
+![Die Contextual SEO Brücke: Technologie trifft auf menschliche Emotion](../../assets/images/blog/contextual-seo-bruecke-de.png)
 
 ## Das Problem mit den Totgesagten
 

@@ -72,6 +72,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                 width={800}
                 height={600}
                 class="w-full h-full object-cover object-top aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
+                format="webp"
                 loading="eager"
               />
             </div>
@@ -116,6 +117,7 @@ const allTags = [...new Set(posts.flatMap(post => post.data.tags || []))].sort()
                     width={600}
                     height={338}
                     class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    format="webp"
                     loading="lazy"
                   />
                 </div>

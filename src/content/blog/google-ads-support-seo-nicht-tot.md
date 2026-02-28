@@ -3,7 +3,7 @@ title: "Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot"
 description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google."
 date: "2026-01-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/kontakt-hero.jpg"
+image: "../../assets/images/pages/kontakt-hero.webp"
 image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
 category: "Google Ads"
 tags: ["Google Ads", "SEA", "Consulting", "Expertise"]

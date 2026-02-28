@@ -9,6 +9,7 @@ export const GET = async () => {
   // 1. Static Pages (.astro files in src/pages)
   const pages = import.meta.glob([
     '../pages/*.astro',
+    '../pages/seo-freelancer-berlin.astro',
     '!../pages/404.astro'
   ]);
 

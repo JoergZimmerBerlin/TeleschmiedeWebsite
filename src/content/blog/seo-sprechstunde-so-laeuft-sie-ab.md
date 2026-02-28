@@ -3,7 +3,7 @@ title: "Wie läuft so eine SEO-Sprechstunde ab?"
 description: "Ganz einfach: Videocall buchen, Domain und Fragen vorab schicken, Live-Analyse mit Screensharing und individuelle Empfehlungen."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wie-l%C3%A4uft-so-eine-seo-sprechstunde-ab-ganz-activity-7242563916046766081-eVJc"
-image: "../../assets/images/blog/seo-sprechstunde.jpg"
+image: "../../assets/images/blog/seo-sprechstunde.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - 5-Sterne-Bewertung von Martin Meng CEO konfidal"
 category: "SEO Praxis"
 tags: ["Sprechstunde", "Case Study", "Feedback", "SEO Audit"]

@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import CTASection from '../components/CTASection.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
@@ -12,6 +12,10 @@ import FehlerImage from '../assets/images/blog/seo_fehler_simple.png';
 import ContextualImage from '../assets/images/blog/contextual_seo_simple.png';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Generate WebP Image Paths for Schema.org
+const joergWorkingWebp = await getImage({ src: joergWorking, format: 'webp' });
+const heroImageWebp = await getImage({ src: heroImage, format: 'webp' });
 
 // Meta Data
 const title = "SEO Freelancer Berlin | Ehrlich & ohne Bullshit - Jörg Zimmer";
@@ -335,7 +339,7 @@ const faqs = [
       "name": "Jörg Zimmer",
       "jobTitle": "SEO & SEA Freelancer",
       "description": "Erfahrener SEO-Experte aus Berlin mit über 20 Jahren Branchenerfahrung.",
-      "image": `https://teleschmie.de${joergWorking.src}`,
+      "image": `https://teleschmie.de${joergWorkingWebp.src}`,
       "url": "https://teleschmie.de/ueber-mich/",
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
@@ -348,20 +352,20 @@ const faqs = [
       "@id": "https://teleschmie.de/seo-freelancer-berlin/#freelancer",
       "name": "Jörg Zimmer - SEO Freelancer Berlin",
       "description": "Technisches SEO, Relaunch-Begleitung und ehrliche SEO Beratung in Berlin Spandau und DACH.",
-      "image": `https://teleschmie.de${heroImage.src}`,
+      "image": `https://teleschmie.de${heroImageWebp.src}`,
       "url": "https://teleschmie.de/seo-freelancer-berlin/",
       "telephone": "+493049208184", 
-      "email": "hallo@teleschmie.de",
+      "email": "info@teleschmie.de",
       "priceRange": "€€€",
       "founder": {
         "@id": "https://teleschmie.de/ueber-mich/#person"
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Heidereuterstr. 28", 
+        "streetAddress": "Zu den Fichtewiese 16", 
         "addressLocality": "Berlin",
         "addressRegion": "Berlin",
-        "postalCode": "13597",
+        "postalCode": "13587",
         "addressCountry": "DE"
       },
       "geo": {

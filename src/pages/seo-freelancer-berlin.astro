@@ -328,6 +328,26 @@ const faqs = [
   </section>
 
   <CTASection />
+
+  <!-- Progress Bar Script -->
+  <script>
+    const updateProgress = () => {
+      const progressBar = document.getElementById('progress-bar');
+      if (!progressBar) return;
+
+      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPos = window.scrollY;
+
+      let progress = (scrollPos / totalHeight) * 100;
+      progress = Math.max(0, Math.min(100, progress));
+      progressBar.style.width = `${progress}%`;
+    };
+
+    window.addEventListener('scroll', updateProgress);
+    window.addEventListener('resize', updateProgress);
+    // Initialize
+    updateProgress();
+  </script>
 </Layout>
 
 <!-- JSON-LD Structured Data für Local Business, Person & Services -->

@@ -33,7 +33,7 @@ Redirect 410 /sitemap-0.xml
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json
 </IfModule>
 
-# Browser Caching
+# Browser Caching (Astro fingerprints CSS/JS with content hashes)
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/jpg "access plus 1 year"
@@ -43,7 +43,20 @@ Redirect 410 /sitemap-0.xml
   ExpiresByType image/webp "access plus 1 year"
   ExpiresByType image/avif "access plus 1 year"
   ExpiresByType image/svg+xml "access plus 1 year"
-  ExpiresByType text/css "access plus 1 month"
-  ExpiresByType application/javascript "access plus 1 month"
-  ExpiresByType text/html "access plus 1 day"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# Cache-Control for immutable hashed assets
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|woff2|woff|png|jpg|jpeg|webp|avif|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
 </IfModule>

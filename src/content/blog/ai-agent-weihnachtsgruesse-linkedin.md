@@ -4,7 +4,9 @@ description: "Achim vom Gartenverein hat einen Bot gebaut - und damit ein Proble
 date: "2025-12-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/pages/blog-hero-notizblock.jpg"
-image_alt: "AI-Agenten auf LinkedIn - Jörg Zimmer analysiert den Trend"
+image_alt: "AI-Agent für LinkedIn Nachrichten - Jörgs KI-Experiment zu Weihnachten"
+category: "AI SEO"
+tags: ["AI Agent", "LinkedIn", "Automation", "Case Study"]
 ---
 
 Es war kurz vor Weihnachten, draußen war es grau, und ich wollte eigentlich nur kurz bei LinkedIn vorbeischauen, um zu sehen, was die Branche so treibt. Aber statt spannender Insights oder echter Networking-Stories explodierte mein Feed förmlich. Überall Weihnachtsgrüße. Überall die gleichen, verdächtig perfekten Floskeln. Überall... irgendwie die gleiche Handschrift.

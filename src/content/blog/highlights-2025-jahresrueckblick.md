@@ -4,7 +4,9 @@ description: "Ein Jahr voller LinkedIn-Posts, Diskussionen und hoffentlich dem e
 date: "2025-12-31"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/profile/website-boosting-rucksack.jpg"
-image_alt: "Jahresrückblick 2025 - SEO Highlights von Jörg Zimmer"
+image_alt: "SEO-Highlights 2025 - Ein Rückblick von Jörg Zimmer"
+category: "SEO Strategie"
+tags: ["Year in Review", "Trends", "Experience", "Strategy"]
 ---
 
 Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüter erhitzt haben, die Themen, die mich nachts wachgehalten haben, und natürlich auch die Momente, in denen wir einfach nur gelacht haben.

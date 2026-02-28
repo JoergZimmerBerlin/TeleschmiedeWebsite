@@ -5,6 +5,8 @@ date: "2026-01-07"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/profile/joerg-lifestyle.jpg"
 image_alt: "GEO vs AI-SEO - Jörg Zimmer fragt die Community"
+category: "AI SEO"
+tags: ["AI Visibility", "GEO", "SEO", "Community"]
 ---
 
 Sichtbarkeit in KI-Modellen optimieren – das ist das neue große Thema, das gerade durch alle SEO-Foren und LinkedIn-Timelines geistert. Aber wie nennen wir das eigentlich? Haben wir uns schon auf einen Standard geeinigt oder werfen wir einfach nur mit neuen Buzzwords um uns, um auf Partys cooler zu wirken? (Wobei, SEOs auf Partys... lassen wir das Thema.)

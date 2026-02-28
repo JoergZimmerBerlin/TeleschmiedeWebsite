@@ -4,7 +4,9 @@ description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 20 Jahren S
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/antonioblago_bist-du-seo-ai-ready-alle-reden-%C3%BCber-ai-activity-7363117745070112768-BRRj"
 image: "../../assets/images/blog/ai-ready-podcast.jpg"
-image_alt: "Podcast mit Antonio Blago und Jörg Zimmer über SEO und AI - Bist du AI Ready?"
+image_alt: "Bist du SEO AI Ready? Jörg Zimmer im Podcast Interview"
+category: "AI SEO"
+tags: ["Podcast", "AI Visibility", "Interview", "AI SEO"]
 ---
 
 **Antonio Blago** hat mich eingeladen und was soll ich sagen? In einer Branche, die vor oberflächlichem Geplänkel nur so strotzt, war dieses Gespräch eine echte Wohltat. Antonio stellt nicht nur gute Fragen – er besitzt die seltene Gabe, wirklich zuzuhören und Raum für Antworten zu lassen, die über die üblichen Marketing-Phrasen hinausgehen. Das Ergebnis? Ein Podcast, der kein Buzzword-Bingo ist, sondern ein ehrlicher Schlagabtausch über den Status Quo von SEO, Google Ads und der Frage, wo wir in zwei Jahren stehen werden.

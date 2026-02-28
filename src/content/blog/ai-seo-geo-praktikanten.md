@@ -4,7 +4,9 @@ description: "Die neuen Buzzwords der SEO-Branche erklärt - und warum das Thema
 date: "2026-01-23"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/pages/leistungen-hero.jpg"
-image_alt: "Jörg Zimmer erklärt GEO, AIO und AI-SEO - Expertise statt Praktikanten"
+image_alt: "AI SEO oder GEO? SEO Experten Jörg Zimmer warnt vor Praktikanten-Lösungen"
+category: "AI SEO"
+tags: ["AI Visibility", "GEO", "Governance", "Expertise"]
 ---
 
 Die SEO-Welt hat mal wieder neue Abkürzungen: **GEO** (Generative Engine Optimization), **AIO** (AI Optimization), **AI-SEO**. Klingt alles fancy, fast schon futuristisch, aber was steckt wirklich dahinter? Ist es nur alter Wein in neuen Schläuchen oder befinden wir uns wirklich in einer tektonischen Verschiebung der digitalen Sichtbarkeit?

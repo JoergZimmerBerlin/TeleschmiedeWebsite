@@ -4,7 +4,9 @@ description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, 
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/blog/pagespeed-tuning.png"
-image_alt: "PageSpeed 100 SEO Optimierung - Jörg Zimmer"
+image_alt: "PageSpeed 100/100 für die Teleschmiede - Jörg Zimmer optimiert die Performance"
+category: "Mobile & Performance"
+tags: ["PageSpeed", "Optimization", "Web Vitals", "Astro"]
 key_takeaways:
   - "Eine 100 im PageSpeed-Index ist kein Selbstzweck, sondern ein Wettbewerbsvorteil."
   - "Astro überzeugt durch 'Zero JS by default' und schlägt WordPress in der Performance deutlich."

@@ -4,7 +4,9 @@ description: "Björn Darko interviewt Maximilian Muhr im SEOpresso Podcast - ehr
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_seopresso-seo-karriere-activity-7385248850594353152-Ev6m"
 image: "../../assets/images/blog/seopresso-max-muhr.jpg"
-image_alt: "SEOpresso Podcast mit Maximilian Muhr - SEO-Karriere von BILD.de bis poliSYS"
+image_alt: "SEOPRESSO Podcast Interview mit Jörg Zimmer und Max Muhr"
+category: "SEO Strategie"
+tags: ["Podcast", "Interview", "SEOPRESSO", "Technical SEO"]
 ---
 
 Hab es mir angehört und musste bei **Chuck Norris Witzen für die Bild-Website** so laut lachen, dass meine Katze fast vom Kratzbaum gefallen wäre. Ja, so waren die Zeiten damals – wild, chaotisch und ein bisschen anarchisch. Es war die Ära, in der wir SEOs noch wie digitale Alchemisten in dunklen Kellern brodelten, um Google ein Schnippchen zu schlagen.

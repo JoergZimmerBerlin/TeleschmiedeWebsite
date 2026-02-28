@@ -4,7 +4,9 @@ description: "Ein sehr persönliches Interview über meine Anfänge und 24 Jahre
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bjoerndarko_seo-freelancing-seopodcast-activity-7348282072345587712-wSkZ"
 image: "../../assets/images/blog/seopresso-interview.jpg"
-image_alt: "SEOpresso Podcast SEO Persönlich - Interview mit Jörg Zimmer über 24 Jahre Freelancing"
+image_alt: "SEOPRESSO Interview: Jörg Zimmer ganz persönlich"
+category: "SEO Strategie"
+tags: ["Interview", "Experience", "SEOPRESSO", "Personal"]
 ---
 
 Ein sehr persönliches Interview über meine Anfänge, meine Rückschläge und die Tatsache, dass ich nun seit unglaublichen 24 Jahren als Selbständiger in der SEO-Welt überlebt habe. Wer mich kennt, weiß: Ich bin kein Freund von glattgebügelten Hochglanz-Lebensläufen. Ich mag die Ecken, die Kanten und die echten Geschichten.

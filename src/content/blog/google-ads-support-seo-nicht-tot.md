@@ -4,7 +4,9 @@ description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google."
 date: "2026-01-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/pages/kontakt-hero.jpg"
-image_alt: "Google Ads Support kritisch hinterfragen - SEO Experte Jörg Zimmer"
+image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
+category: "Google Ads"
+tags: ["Google Ads", "SEA", "Consulting", "Expertise"]
 ---
 
 Zwei Aussagen, die ich in fast jedem Erstgespräch machen muss – und sie lösen meistens erst mal ungläubiges Staunen oder nervöses Herzklopfen aus. Weil sie an den Grundfesten dessen rütteln, was viele Marketing-Abteilungen über Jahre als "Wahrheit" verkauft bekommen haben. 

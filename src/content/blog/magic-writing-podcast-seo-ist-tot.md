@@ -4,7 +4,9 @@ description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SE
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"
 image: "../../assets/images/blog/magic-writing-podcast.jpg"
-image_alt: "Magic Writing Podcast mit Michael Kaufhold und Jörg Zimmer - Ist SEO wirklich tot?"
+image_alt: "Magic Writing Podcast: Jörg Zimmer über das Ende von SEO?"
+category: "SEO Strategie"
+tags: ["Podcast", "Magic Writing", "Interview", "Content Strategy"]
 ---
 
 "SEO ist tot" – sagen sie und schreiben dann krampfhaft für den Algorithmus, damit sie überhaupt noch jemand im digitalen Nirvana wahrnimmt. Es ist die ewige Schlagzeile unserer Branche. Ein Evergreen, der pünktlich zu jedem größeren Google-Update oder jeder neuen Technologie-Welle (wie aktuell KI) aus der Mottenkiste geholt wird.

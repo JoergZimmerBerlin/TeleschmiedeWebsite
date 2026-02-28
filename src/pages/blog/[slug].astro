@@ -27,17 +27,43 @@ const readingTime = Math.ceil(wordCount / 200); // Avg 200 wpm
 const shareUrl = `https://teleschmie.de/blog/${post.slug}/`;
 const shareTitle = encodeURIComponent(post.data.title);
 
-// Get related posts
+// Get related posts with scoring
 const allPosts = await getCollection('blog');
 const relatedPosts = allPosts
   .filter(p => p.slug !== post.slug) // Exclude current
-  .filter(p => {
-    const hasCommonCategory = p.data.category === post.data.category;
+  .map(p => {
+    let score = 0;
+    
+    // Category match (highest weight)
+    if (p.data.category && post.data.category && p.data.category === post.data.category) {
+      score += 5;
+    }
+    
+    // Tag matches
     const commonTags = p.data.tags?.filter(tag => post.data.tags?.includes(tag)) || [];
-    return hasCommonCategory || commonTags.length > 0;
+    score += commonTags.length * 2;
+    
+    return { ...p, score };
   })
-  .sort(() => Math.random() - 0.5) // Randomize
+  .filter(p => p.score > 0) // Only show the ones that have some relation
+  .sort((a, b) => {
+    // 1. Higher score first
+    if (b.score !== a.score) return b.score - a.score;
+    // 2. Newer date first for same score
+    return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+  })
   .slice(0, 3); // Top 3
+
+// Fallback to most recent posts if no thematic matches found
+const finalRelatedPosts = relatedPosts.length >= 3 
+  ? relatedPosts 
+  : [
+      ...relatedPosts,
+      ...allPosts
+        .filter(p => p.slug !== post.slug && !relatedPosts.find(r => r.slug === p.slug))
+        .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+        .slice(0, 3 - relatedPosts.length)
+    ];
 ---
 
 <Layout
@@ -312,11 +338,11 @@ const relatedPosts = allPosts
       </footer>
 
       <!-- Related Posts -->
-      {relatedPosts.length > 0 && (
+      {finalRelatedPosts.length > 0 && (
         <div class="mt-20 pt-12 border-t border-gray-100">
           <h3 class="text-2xl font-bold mb-8">Das könnte dich auch interessieren</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {relatedPosts.map(p => (
+            {finalRelatedPosts.map(p => (
               <a href={`${baseUrl}/blog/${p.slug}/`} class="group block bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all">
                 <div class="aspect-video overflow-hidden">
                   {p.data.image && (

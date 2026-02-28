@@ -5,6 +5,8 @@ date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wie-l%C3%A4uft-so-eine-seo-sprechstunde-ab-ganz-activity-7242563916046766081-eVJc"
 image: "../../assets/images/blog/seo-sprechstunde.jpg"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - 5-Sterne-Bewertung von Martin Meng CEO konfidal"
+category: "SEO Praxis"
+tags: ["Sprechstunde", "Case Study", "Feedback", "SEO Audit"]
 ---
 
 Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, bei dem ich dir 120 Minuten lang Statistiken um die Ohren haue? Nein, ganz im Gegenteil. Die Sprechstunde ist eine Live-Analyse, bei der du im Fahrersitz sitzt und ich als Co-Pilot die Karte lese, die Abkürzungen kenne und dich vor den Schlaglöchern warne.

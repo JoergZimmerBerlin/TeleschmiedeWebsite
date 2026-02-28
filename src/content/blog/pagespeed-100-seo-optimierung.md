@@ -3,7 +3,7 @@ title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/blog/pagespeed-tuning.png"
+image: "../../assets/images/blog/pagespeed-tuning-guide.png"
 image_alt: "PageSpeed 100/100 für die Teleschmiede - Jörg Zimmer optimiert die Performance"
 category: "Mobile & Performance"
 tags: ["PageSpeed", "Optimization", "Web Vitals", "Astro"]

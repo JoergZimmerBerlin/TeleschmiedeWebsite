@@ -40,7 +40,7 @@ deploy.sh
 docs/
 
 # Lokale Screenshots
-images/
+/images/
 
 # Claude Code Rules (lokal)
 CLAUDE.md

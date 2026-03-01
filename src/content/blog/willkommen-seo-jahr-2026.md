@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/seo-missverstaendnisse-2026.png"
 image_alt: "Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen"
 category: "SEO Strategie"
-tags: ["SEO", "Strategy", "Best Practices", "Experience"]
+tags: ["E-E-A-T"]
 key_takeaways:
   - "Die drei größten SEO-Irrtümer halten sich seit 20 Jahren: 'Macht der Webdesigner', 'nach dem Relaunch' und 'SEO ist tot'."
   - "Ein Relaunch ohne 301-Weiterleitungen ist wie ein Umzug, ohne die neue Adresse mitzuteilen – du wirst unsichtbar."

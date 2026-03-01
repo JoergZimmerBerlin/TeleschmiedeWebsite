@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/profile/joerg-zimmer-katze.jpg"
 image_alt: "SEO-Sprechstunde Bewertung: 5 Sterne von Ronny"
 category: "SEO Praxis"
-tags: ["Case Study", "Feedback", "Sprechstunde"]
+tags: ["Sprechstunde", "Case Study"]
 key_takeaways:
   - "400€ für 2 Stunden kaufen keine Zeit, sondern Abkürzungen aus 25 Jahren Erfahrung."
   - "Intensive Vorbereitung vor dem Call ist der Schlüssel: Minute 1 steigt direkt ins Thema ein."

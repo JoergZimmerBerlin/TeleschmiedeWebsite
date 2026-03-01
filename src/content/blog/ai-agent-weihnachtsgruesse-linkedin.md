@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/pages/blog-hero-notizblock.jpg"
 image_alt: "AI-Agent für LinkedIn Nachrichten - Jörgs KI-Experiment zu Weihnachten"
 category: "AI SEO"
-tags: ["AI Agent", "LinkedIn", "Automation", "Case Study"]
+tags: ["Case Study"]
 key_takeaways:
   - "AI-Agenten auf LinkedIn erzeugen einen digitalen Einheitsbrei, der echte Interaktion entwertet."
   - "Authentizität ist im KI-Zeitalter kein Buzzword, sondern ein messbarer Wettbewerbsvorteil."

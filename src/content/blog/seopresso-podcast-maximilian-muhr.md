@@ -5,8 +5,8 @@ date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_seopresso-seo-karriere-activity-7385248850594353152-Ev6m"
 image: "../../assets/images/blog/seopresso-max-muhr.jpg"
 image_alt: "SEOPRESSO Podcast Interview mit Jörg Zimmer und Max Muhr"
-category: "SEO Strategie"
-tags: ["Podcast", "Interview", "SEOPRESSO", "Technical SEO"]
+category: "SEO Praxis"
+tags: ["Interview & Podcast"]
 key_takeaways:
   - "Max Muhr zeigt: Von der Zeitarbeit bei BILD.de zum Managing Director – Eigeninitiative schlägt jedes Studium."
   - "Entitäten-Optimierung statt Keyword-Recherche ist die Brücke zum GEO der Zukunft."

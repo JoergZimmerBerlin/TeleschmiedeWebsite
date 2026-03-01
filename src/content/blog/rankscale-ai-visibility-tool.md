@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/pages/hero-pose.jpg"
 image_alt: "Rankscale AI Visibility Tool - Empfehlung von Jörg Zimmer"
 category: "AI SEO"
-tags: ["AI Visibility", "Rankscale", "Tracking"]
+tags: ["Case Study", "Tools"]
 key_takeaways:
   - "Rankscale trackt Sichtbarkeit in 17 verschiedenen LLMs – jedes Modell bewertet deine Marke unterschiedlich."
   - "Die Sentiment-Analyse zeigt, ob KIs dich als Experten empfehlen oder in negativem Kontext erwähnen."

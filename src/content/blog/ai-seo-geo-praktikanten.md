@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/pages/leistungen-hero.jpg"
 image_alt: "AI SEO oder GEO? SEO Experten Jörg Zimmer warnt vor Praktikanten-Lösungen"
 category: "AI SEO"
-tags: ["AI Visibility", "GEO", "Governance", "Expertise"]
+tags: ["E-E-A-T"]
 key_takeaways:
   - "GEO, AIO und AI-SEO erfordern tiefes Verständnis von LLMs – das ist kein Praktikanten-Job."
   - "Echte Expertise ist am Ende immer günstiger, weil sie Fehler vermeidet und nachhaltige Ergebnisse liefert."

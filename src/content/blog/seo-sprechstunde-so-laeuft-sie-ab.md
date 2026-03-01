@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/seo-sprechstunde.jpg"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - 5-Sterne-Bewertung von Martin Meng CEO konfidal"
 category: "SEO Praxis"
-tags: ["Sprechstunde", "Case Study", "Feedback", "SEO Audit"]
+tags: ["Sprechstunde", "Case Study"]
 key_takeaways:
   - "Die SEO-Sprechstunde ist ein Dialog, keine Vorlesung – du sitzt im Fahrersitz, ich bin der Co-Pilot."
   - "CEO Martin Meng bestätigt: Die 3-5 wichtigsten Hebel statt 50 kleinteiliger Aufgaben machen den Unterschied."

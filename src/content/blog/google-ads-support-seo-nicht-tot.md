@@ -5,8 +5,8 @@ date: "2026-01-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/pages/kontakt-hero.jpg"
 image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
-category: "Google Ads"
-tags: ["Google Ads", "SEA", "Consulting", "Expertise"]
+category: "SEO Praxis"
+tags: ["SEA & Ads"]
 key_takeaways:
   - "Google Ads 'Optimierungsvorschläge' dienen Googles Umsatz, nicht deinem ROI – hinterfrage jeden Vorschlag."
   - "SEO ist nicht tot, es hat nur aufgehört, einfach zu sein: Entitäten und E-E-A-T statt Keyword-Spam."

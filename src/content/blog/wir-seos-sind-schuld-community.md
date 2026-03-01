@@ -5,7 +5,7 @@ date: "2026-03-01"
 image: "../../assets/images/pages/hero-pose.jpg"
 image_alt: "Jörg Zimmer vor einer Hecke in Aktion - Warum SEOs Verantwortung übernehmen müssen"
 category: "SEO Strategie"
-tags: ["SEO Community", "Branchen-Kritik", "Networking", "LinkedIn"]
+tags: []
 key_takeaways:
   - "SEO-Basics (Title, H-Struktur, Sitemaps) sind oft kein Standard, weil wir als Experten den Wert unserer Arbeit nicht laut genug verkaufen."
   - "Die Verantwortung liegt bei uns: Wir müssen SEO als fundamentalen Prozess etablieren, nicht als lästiges Extra am Ende der Kette."

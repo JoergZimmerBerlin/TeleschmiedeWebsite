@@ -5,8 +5,8 @@ date: "2026-01-05"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/profile/website-boosting-magazin.jpg"
 image_alt: "Core Web Vitals Optimierung - Die 3 Säulen der UX"
-category: "Mobile & Performance"
-tags: ["Core Web Vitals", "UX", "Performance", "SEO"]
+category: "Technisches SEO"
+tags: ["E-E-A-T"]
 key_takeaways:
   - "Von 0 auf 216 gute URLs: Core Web Vitals sind kein Hexenwerk, sondern systematische Ingenieurskunst."
   - "LCP, INP und CLS optimieren heißt: Bilder komprimieren, Third-Party-Scripts ausmisten und Layout-Shifts eliminieren."

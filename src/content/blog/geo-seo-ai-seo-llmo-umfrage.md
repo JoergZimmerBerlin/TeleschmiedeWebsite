@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/profile/joerg-lifestyle.jpg"
 image_alt: "GEO vs AI-SEO - Jörg Zimmer fragt die Community"
 category: "AI SEO"
-tags: ["AI Visibility", "GEO", "SEO", "Community"]
+tags: []
 key_takeaways:
   - "GEO (Generative Engine Optimization) setzt sich mit 50% als bevorzugter Begriff durch – aber der Name ist zweitrangig."
   - "Die harte Arbeit bleibt gleich: Inhalte so aufbereiten, dass KI-Systeme sie als wertvoll erkennen und empfehlen."

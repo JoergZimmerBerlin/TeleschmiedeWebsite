@@ -5,8 +5,8 @@ date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/profile/joerg-zimmer-portrait.jpg"
 image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
-category: "SEO Strategie"
-tags: ["Experience", "SEO", "Best Practices", "Strategy"]
+category: "SEO Praxis"
+tags: ["E-E-A-T", "Sprechstunde"]
 key_takeaways:
   - "Keyword-Stuffing, technische Ignoranz und Ungeduld sind seit 20 Jahren die gleichen SEO-Fehler – nur die Verpackung ändert sich."
   - "SEO ist zu 80% Psychologie: Wir lieben Abkürzungen, aber die Grundlagen (Technik, Content, Geduld) sind unkaputtbar."

@@ -5,8 +5,8 @@ date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"
 image: "../../assets/images/blog/magic-writing-podcast.jpg"
 image_alt: "Magic Writing Podcast: Jörg Zimmer über das Ende von SEO?"
-category: "SEO Strategie"
-tags: ["Podcast", "Magic Writing", "Interview", "Content Strategy"]
+category: "SEO Praxis"
+tags: ["Interview & Podcast"]
 key_takeaways:
   - "Zielgruppenverständnis ist die am meisten unterschätzte Superkraft im SEO – nicht Keywords, sondern Suchintention zählt."
   - "Google bleibt King of Search: Die Infrastruktur aus Android, Chrome und Ads ist nicht mal eben zu ersetzen."

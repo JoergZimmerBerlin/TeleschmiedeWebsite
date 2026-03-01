@@ -5,8 +5,8 @@ date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bjoerndarko_seo-freelancing-seopodcast-activity-7348282072345587712-wSkZ"
 image: "../../assets/images/blog/seopresso-interview.jpg"
 image_alt: "SEOPRESSO Interview: Jörg Zimmer ganz persönlich"
-category: "SEO Strategie"
-tags: ["Interview", "Experience", "SEOPRESSO", "Personal"]
+category: "SEO Praxis"
+tags: ["Interview & Podcast"]
 key_takeaways:
   - "24 Jahre Freelancing ohne Agentur-Background – Neugier und Daten statt polierter Lebensläufe zählen."
   - "SEO ist heute zu 80% Kommunikation: Kunden und Entwicklern erklären, warum technische Änderungen nötig sind."

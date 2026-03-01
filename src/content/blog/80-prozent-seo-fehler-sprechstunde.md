@@ -5,8 +5,8 @@ date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_in-80-aller-seo-sprechstunden-entdecke-activity-7366897094021791744-trk9"
 image: "../../assets/images/blog/seo-discovery-original.jpg"
 image_alt: "Jörg Zimmer bei der Analyse einer Website - Die 80% SEO-Fehler-Falle"
-category: "SEO Analyse"
-tags: ["SEO Sprechstunde", "Fehler-Analyse", "Checkliste", "Relaunch", "Performance"]
+category: "Technisches SEO"
+tags: ["Sprechstunde"]
 key_takeaways:
   - "Technische Klippen (Noindex, PageSpeed, SSL) sind immer noch die häufigsten Gründe für Sichtbarkeitsverluste, selbst bei modernen Systemen."
   - "Ein Relaunch ohne Redirect-Mapping ist der sicherste Weg, um jahrelang aufgebaute Rankings innerhalb weniger Tage zu vernichten."

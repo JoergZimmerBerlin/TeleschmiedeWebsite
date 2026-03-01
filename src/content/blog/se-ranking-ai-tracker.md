@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/profile/joerg-zimmer-cta.jpg"
 image_alt: "SE Ranking AI Tracker - Vergleich der Rankings in KI-Suchmaschinen"
 category: "AI SEO"
-tags: ["AI Visibility", "SE Ranking", "Tracking", "GEO"]
+tags: ["Case Study", "Tools"]
 key_takeaways:
   - "SE Ranking integriert AI-Tracking nahtlos in sein bestehendes SEO-Ökosystem – alles an einem Ort."
   - "KI-Sichtbarkeit ist extrem volatil: Ein Modell-Update kann deine Präsenz über Nacht halbieren oder verdoppeln."

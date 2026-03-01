@@ -6,7 +6,7 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/profile/website-boosting-rucksack.jpg"
 image_alt: "SEO-Highlights 2025 - Ein Rückblick von Jörg Zimmer"
 category: "SEO Strategie"
-tags: ["Year in Review", "Trends", "Experience", "Strategy"]
+tags: ["E-E-A-T"]
 key_takeaways:
   - "2025 war das Jahr, in dem AI-Tracking mit Tools wie Rankscale den Kinderschuhen entwachsen ist."
   - "Die SEO-Szene braucht mehr Zusammenhalt und weniger Ellenbogen – echte Mastermind-Gruppen entstehen."

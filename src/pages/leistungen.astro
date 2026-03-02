@@ -142,6 +142,78 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           </div>
         </div>
 
+        <!-- NEW: 10-Stunden Paket -->
+        <div class="bg-gray-50 border-2 border-lime-accent rounded-2xl p-8 hover:shadow-xl transition-all relative overflow-hidden group">
+          <div class="absolute top-0 right-0 bg-lime-accent text-dark font-bold px-4 py-1 rounded-bl-xl text-sm shadow-sm z-10">Beliebt</div>
+          <div class="absolute -right-16 -top-16 w-32 h-32 bg-lime-accent/20 rounded-full blur-2xl group-hover:bg-lime-accent/30 transition-colors pointer-events-none"></div>
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 relative z-10">
+            <div class="flex-1">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="text-2xl">⏳</span>
+                <h2 class="text-2xl font-bold">10-Stunden Paket</h2>
+              </div>
+              <p class="text-gray-700 mb-4">
+                Das perfekte Paket für tiefe Audits, erste Setup-Phasen oder punktuelle Problemlösung (z.B. Penalty-Recovery). 
+                Maximale Flexibilität: Du teilst mir die Aufgaben zu, ich arbeite sie transparent ab.
+              </p>
+              <ul class="space-y-2 text-sm text-gray-700">
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-600 font-bold">✓</span> Freie Zeiteinteilung für SEO & SEA
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-600 font-bold">✓</span> Stundengenaues Reporting
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-600 font-bold">✓</span> Keine Vertragslaufzeit
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-600 font-bold">✓</span> Für Audits, Setups & Troubleshooting
+                </li>
+              </ul>
+            </div>
+            <div class="text-right">
+              <p class="text-sm text-gray-muted">Pauschal</p>
+              <p class="text-3xl font-bold text-dark">1.600€</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- NEW: Monthly Retainer -->
+        <div class="bg-dark text-white rounded-2xl p-8 hover:shadow-2xl transition-shadow relative overflow-hidden group border border-gray-800">
+          <div class="absolute -bottom-20 -left-20 w-48 h-48 bg-lime-accent/10 rounded-full blur-3xl group-hover:bg-lime-accent/20 transition-colors pointer-events-none"></div>
+          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 relative z-10">
+            <div class="flex-1">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="text-2xl">💎</span>
+                <h2 class="text-2xl font-bold text-white">Monatlicher Retainer</h2>
+              </div>
+              <p class="text-gray-300 mb-4">
+                Ideal für ambitionierte B2B-Unternehmen und Online-Shops, die kontinuierliches Wachstum suchen. 
+                Laufende Überwachung, Content-Steuerung, Linkbuilding und strategische Beratung.
+              </p>
+              <ul class="space-y-2 text-sm text-gray-300">
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-accent">✓</span> Kontinuierliche SEO & SEA Optimierung
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-accent">✓</span> Regelmäßiges Reporting & Calls (Jour Fixe)
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-accent">✓</span> Proaktive Strategieanpassungen
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-lime-accent">✓</span> Externe Sparringspartnerschaft fürs C-Level
+                </li>
+              </ul>
+            </div>
+            <div class="text-right">
+              <p class="text-sm text-gray-400">Monatlich ab</p>
+              <p class="text-3xl font-bold text-white">1.600€</p>
+              <p class="text-sm text-gray-400 mt-1">bis ca. 3.200€</p>
+            </div>
+          </div>
+        </div>
+
         <!-- SEO Freelancer Check -->
         <a href={`${baseUrl}/seo-freelancer-berlin/`} class="block bg-lime-accent rounded-2xl p-8 hover:brightness-95 transition-all">
           <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">

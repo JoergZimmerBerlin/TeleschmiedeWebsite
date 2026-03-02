@@ -16,6 +16,9 @@ export default defineConfig({
   integrations: [
     tailwind()
   ],
+  redirects: {
+    '/leistungen/sechstunde/': '/seo-sprechstunde/'
+  },
   prefetch: true,
   output: 'static',
   build: {

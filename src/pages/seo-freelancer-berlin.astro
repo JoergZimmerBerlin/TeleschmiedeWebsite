@@ -27,12 +27,8 @@ const faqs = [
     answer: "Der größte Vorteil: Du bekommst immer den Chef. Bei vielen Agenturen sprichst du anfangs mit dem Geschäftsführer oder Senior Consultant, aber die eigentliche Arbeit am Projekt übernimmt dann ein Junior oder Trainee. Als Freelancer betreue ich dein Projekt persönlich. Du profitierst direkt von meinen über 20 Jahren Erfahrung aus den Schützengräben des SEO. Keine Account Manager, keine stillen Post-Spiele, sondern direkter Kontakt und pragmatische Umsetzung."
   },
   {
-    question: "Was kostet SEO bei dir als Freelancer?",
-    answer: "Das hängt stark von der Größe deines Projekts und deinen Zielen ab. Als perfekten Einstieg empfehle ich meist meine <strong>Sprechstunde (400€)</strong> für einen detaillierten Check. Für die Umsetzung biete ich das <strong>10-Stunden Paket (1.600€)</strong> oder einen <strong>Monatlichen Retainer (ab 1.600€)</strong> an."
-  },
-  {
-    question: "Bietest du feste SEO-Pakete und Retainer an?",
-    answer: "Ja, ich arbeite mit klaren, pauschalen Paketen ohne versteckte Kosten. Du hast die Wahl zwischen der <strong>Sprechstunde (400€)</strong> für punktuelle Beratung, dem <strong>10-Stunden Paket (1.600€)</strong> für Setups und Audits oder dem <strong>Monatlichen Retainer (ab 1.600€)</strong> für die fortlaufende Betreuung."
+    question: "Was kostet die Zusammenarbeit und bietest du feste Pakete an?",
+    answer: "Ja, ich arbeite mit klaren, pauschalen Paketen ohne versteckte Kosten. Du hast die Wahl zwischen der <strong>Sprechstunde (400€)</strong> für punktuelle Beratung, dem <strong>10-Stunden Paket (1.600€)</strong> für Setups und Audits oder dem <strong>Monatlichen Retainer (ab 1.600€)</strong> für die fortlaufende Betreuung. So hast du volle Kostentransparenz von Anfang an."
   },
   {
     question: "Kommst du auch mal in unser Büro in Berlin?",
@@ -43,8 +39,8 @@ const faqs = [
     answer: "Absolut! Für Handwerker, Kanzleien, Ärzte oder lokale Dienstleister in Berlin ist Local SEO der stärkste Hebel. Wir optimieren dein Google Unternehmensprofil (früher Google My Business), sorgen für saubere lokale Citations und bauen Landingpages auf, die punktgenau für Suchanfragen wie 'Zahnarzt Berlin Spandau' oder 'IT Systemhaus Charlottenburg' ranken. Gerade in einer umkämpften Metropole wie Berlin ist eine messerscharfe lokale Positionierung Gold wert."
   },
   {
-    question: "Was sagst du zu KI im SEO (ChatGPT, SGE)? Ist SEO tot?",
-    answer: "SEO ist nicht tot, es entwickelt sich nur rasant weiter. Generative KI (wie ChatGPT oder Google’s SGE) verändert die Informationsbeschaffung grundlegend. Ich spreche oft von 'GEO' (Generative Engine Optimization) oder 'LLMO' (Large Language Model Optimization). Die Taktik ändert sich: Statt nur Keywords abzuarbeiten, müssen wir Entitäten aufbauen und echten Kontext liefern, den die KI zitieren möchte. Der alte Spam-Mechanismus ist tot – hochwertiger, expertengetriebener Content lebt mehr denn je."
+    question: "Was sagst du zu KI im SEO (ChatGPT, Google KI-Modus)? Ist SEO tot?",
+    answer: "SEO ist nicht tot, es entwickelt sich nur rasant weiter. Generative KI (wie ChatGPT oder der Google KI-Modus) verändert die Informationsbeschaffung grundlegend. Ich spreche oft von 'GEO' (Generative Engine Optimization) oder 'LLMO' (Large Language Model Optimization). Die Taktik ändert sich: Statt nur Keywords abzuarbeiten, müssen wir Entitäten aufbauen und echten Kontext liefern, den die KI zitieren möchte. Der alte Spam-Mechanismus ist tot – hochwertiger, expertengetriebener Content lebt mehr denn je."
   },
   {
     question: "Benutzt du Tools oder machst du das aus dem Bauch heraus?",
@@ -55,7 +51,7 @@ const faqs = [
 
 <Layout title={title} description={description}>
   <!-- Hero Section -->
-  <section class="section relative overflow-hidden bg-white">
+  <section class="section-hero relative overflow-hidden bg-white pt-12">
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-3/5 z-10">
@@ -240,7 +236,7 @@ const faqs = [
     </div>
   </section>
 
-  <!-- Content Section 3: AI & SGE & Local SEO -->
+  <!-- Content Section 3: AI & Google KI-Modus & Local SEO -->
   <section class="section bg-dark text-white pt-24 pb-24 relative overflow-hidden">
     <!-- Decorative element -->
     <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-lime-accent rounded-full opacity-5 blur-[120px] pointer-events-none translate-x-1/2 -translate-y-1/2"></div>
@@ -252,7 +248,7 @@ const faqs = [
           <div class="lg:col-span-7">
             <h2 class="text-3xl md:text-5xl font-bold mb-6 !text-white !border-lime-accent !pb-4">SEO auf dem Prüfstand: Die Ära der KI (LLMO & GEO)</h2>
             <p class="leading-relaxed text-gray-300">
-              Seit der Veröffentlichung von ChatGPT und der anstehenden Revolution durch Googles SGE (Search Generative Experience) fragen sich viele: Ist SEO tot? Die Antwort lautet: Klassisches SEO, wie wir es kannten, liegt auf der Intensivstation. Was stattdessen entsteht, nenne ich <strong>Generative Engine Optimization (GEO)</strong> oder <strong>LLMO (Large Language Model Optimation)</strong>.
+              Seit der Veröffentlichung von ChatGPT und der anstehenden Revolution durch den <strong>Google KI-Modus</strong> fragen sich viele: Ist SEO tot? Die Antwort lautet: Klassisches SEO, wie wir es kannten, liegt auf der Intensivstation. Was stattdessen entsteht, nenne ich <strong>Generative Engine Optimization (GEO)</strong> oder <strong>LLMO (Large Language Model Optimation)</strong>.
             </p>
             <p class="leading-relaxed text-gray-300 mt-6">
               KIs "verstehen" Texte nicht wie wir, sie berechnen Wahrscheinlichkeiten von Wortfolgen. Wenn wir künftig wollen, dass eine KI uns in ihren Antworten zitiert (ob bei Perplexity, OpenAI oder Google AI Overview), müssen wir Informationsdichte und Authorität ausstrahlen. Das gelingt durch echte Meinungsstärke, originäre Daten (Studien, Umfragen) und die Vermeidung von generischem Content-Einheitsbrei.
@@ -356,7 +352,7 @@ const faqs = [
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://teleschmie.de/ueber-mich/#person",
+      "@id": "https://teleschmie.de/#person",
       "name": "Jörg Zimmer",
       "jobTitle": "SEO & SEA Freelancer",
       "description": "Erfahrener SEO-Experte aus Berlin mit über 20 Jahren Branchenerfahrung.",
@@ -376,7 +372,7 @@ const faqs = [
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://teleschmie.de/seo-freelancer-berlin/#freelancer",
+      "@id": "https://teleschmie.de/#organization",
       "name": "Jörg Zimmer - SEO Freelancer Berlin",
       "description": "Technisches SEO, Relaunch-Begleitung und ehrliche SEO Beratung in Berlin Spandau und DACH.",
       "image": `https://teleschmie.de${heroImageWebp.src}`,
@@ -385,7 +381,7 @@ const faqs = [
       "email": "info@teleschmie.de",
       "priceRange": "€€€",
       "founder": {
-        "@id": "https://teleschmie.de/ueber-mich/#person"
+        "@id": "https://teleschmie.de/#person"
       },
       "address": {
         "@type": "PostalAddress",
@@ -445,16 +441,16 @@ const faqs = [
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "10-Stunden Paket",
-              "description": "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€)."
+              "name": "10-Stunden Paket (1.600€)",
+              "description": "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€ Pauschal)."
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Monatlicher Retainer",
-              "description": "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€)."
+              "name": "Monatlicher Retainer (ab 1.600€)",
+              "description": "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€ monatlich)."
             }
           }
         ]

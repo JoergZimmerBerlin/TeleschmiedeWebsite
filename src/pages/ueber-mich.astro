@@ -15,7 +15,7 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
 
 <Layout
   title="Über mich | Jörg Zimmer - SEO Freelancer Berlin"
-  description="Lerne Jörg Zimmer kennen: SEO & SEA Freelancer aus Berlin mit über 20 Jahren Erfahrung. Mein Fokus liegt auf messbaren Erfolgen und ehrlicher Beratung. ALOHA! 🌻"
+  description="Lerne Jörg Zimmer kennen: SEO & SEA Freelancer aus Berlin mit über 20 Jahren Erfahrung. Mein Fokus liegt auf messbaren Erfolgen, dem Google KI-Modus und ehrlicher Beratung. ALOHA! 🌻"
 >
   <!-- Hero -->
   <section class="section">
@@ -123,7 +123,7 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
           </p>
 
           <p class="text-gray-muted">
-            In der Branche bin ich vernetzt: Als aktives Mitglied im "SEO Stammtisch Berlin", Teilnehmer der "Campixx", Mitgründer vom "Freelancer Team" und regelmäßiger Gast bei Netzwerk-Abenden wie der "Überstunde Berlin" oder der "Freelance Unlocked" Konferenz.
+            In der Branche bin ich vernetzt: Als aktives Mitglied im "SEO Stammtisch Berlin", Teilnehmer der "Campixx", Mitgründer vom "Freelancer Team" und regelmäßiger Gast bei Netzwerk-Abenden wie der "Überstunde Berlin" oder der "Freelance Unlocked" Konferenz. Ich bin spezialisiert auf den <strong>Google KI-Modus</strong> und AI Visibility.
             Dieser Austausch hält meinen Blick scharf und mein Wissen aktuell.
           </p>
 
@@ -211,113 +211,157 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
     </div>
   </section>
   <!-- Schema Markup -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://teleschmie.de/#person",
-          "name": "Jörg Zimmer",
-          "url": "https://teleschmie.de/ueber-mich/",
-          "image": `https://teleschmie.de${portraitImageWebp.src}`,
-          "jobTitle": "SEO & SEA Freelancer",
-          "worksFor": { "@id": "https://teleschmie.de/#service" },
-          "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer aus Berlin Spandau.",
-          "knowsAbout": [
-            "Search Engine Optimization (SEO)",
-            "Search Engine Advertising (SEA)",
-            "Google Ads",
-            "Google Analytics",
-            "Performance Marketing",
-            "Generative Engine Optimization (GEO)",
-            "AI Visibility Tracking",
-            "Technical SEO Audits",
-            "Conversion Rate Optimization (CRO)"
-          ],
-          "subjectOf": [
-            {
-              "@type": "CreativeWork",
-              "name": "SEOpresso Podcast - Interview mit Jörg Zimmer",
-              "url": "https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/"
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Interview: SEO persönlich - Antonia Blago trifft Jörg Zimmer",
-              "url": "https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/"
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Campixx Berlin - Speaker & Teilnehmer",
-              "url": "https://www.campixx.de/"
-            }
-          ],
-          "sameAs": [
-            "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-            "https://www.xing.com/profile/Joerg_Zimmer6",
-            "https://linktr.ee/jorgzimmer",
-            "https://www.instagram.com/joerg.zimmer.berlin/",
-            "https://www.facebook.com/teleschmiede",
-            "https://www.youtube.com/@Teleschmiede",
-            "https://www.tiktok.com/@teleschmiede",
-            "https://www.threads.com/@joerg.zimmer.berlin"
-          ]
-        },
-        {
-          "@type": "ProfessionalService",
-          "@id": "https://teleschmie.de/#organization",
-          "name": "Jörg Zimmer - Teleschmiede",
-          "foundingDate": "2001-07-23",
-          "url": "https://teleschmie.de",
-          "logo": "https://teleschmie.de/images/logo-teleschmiede.png",
-          "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.jpg",
-          "description": "Technisches SEO, Relaunch-Begleitung und ehrliche Google Ads Beratung von Jörg Zimmer.",
-          "telephone": "+493049208184",
-          "email": "info@teleschmie.de",
-          "priceRange": "€€€",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Zu den Fichtewiesen 16",
-            "addressLocality": "Berlin",
-            "postalCode": "13587",
-            "addressCountry": "DE"
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://teleschmie.de/#person",
+        "name": "Jörg Zimmer",
+        "url": "https://teleschmie.de/ueber-mich/",
+        "image": `https://teleschmie.de${portraitImageWebp.src}`,
+        "jobTitle": "SEO & SEA Freelancer",
+        "worksFor": { "@id": "https://teleschmie.de/#organization" },
+        "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer aus Berlin Spandau.",
+        "knowsAbout": [
+          "Search Engine Optimization (SEO)",
+          "Search Engine Advertising (SEA)",
+          "Google Ads",
+          "Google Analytics",
+          "Performance Marketing",
+          "Generative Engine Optimization (GEO)",
+          "AI Visibility Tracking",
+          "Technical SEO Audits",
+          "Conversion Rate Optimization (CRO)"
+        ],
+        "subjectOf": [
+          {
+            "@type": "CreativeWork",
+            "name": "SEOpresso Podcast - Interview mit Jörg Zimmer",
+            "url": "https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/"
           },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 52.5591,
-            "longitude": 13.1883
+          {
+            "@type": "CreativeWork",
+            "name": "Interview: SEO persönlich - Antonia Blago trifft Jörg Zimmer",
+            "url": "https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/"
           },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "18:00"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "reviewCount": "24"
+          {
+            "@type": "CreativeWork",
+            "name": "Campixx Berlin - Speaker & Teilnehmer",
+            "url": "https://www.campixx.de/"
           }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+          "https://www.xing.com/profile/Joerg_Zimmer6",
+          "https://linktr.ee/jorgzimmer",
+          "https://www.instagram.com/joerg.zimmer.berlin/",
+          "https://www.facebook.com/teleschmiede",
+          "https://www.youtube.com/@Teleschmiede",
+          "https://www.tiktok.com/@teleschmiede",
+          "https://www.threads.com/@joerg.zimmer.berlin"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://teleschmie.de/#organization",
+        "name": "Jörg Zimmer - Teleschmiede",
+        "foundingDate": "2001-07-23",
+        "url": "https://teleschmie.de",
+        "logo": "https://teleschmie.de/images/logo-teleschmiede.png",
+        "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.jpg",
+        "description": "Technisches SEO, Relaunch-Begleitung und ehrliche Google Ads Beratung von Jörg Zimmer.",
+        "telephone": "+493049208184",
+        "email": "info@teleschmie.de",
+        "priceRange": "€€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Zu den Fichtewiesen 16",
+          "addressLocality": "Berlin",
+          "postalCode": "13587",
+          "addressCountry": "DE"
         },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [{
-            "@type": "Question",
-            "name": "Was kostet eine SEO-Beratung bei Jörg Zimmer?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Der Stundensatz liegt bei 200€ für individuelle Beratung. Die SEO-Sprechstunde wird als 2-stündiges Paket für 400€ angeboten."
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 52.5591,
+          "longitude": 13.1883
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "24"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dienstleistungen von Jörg Zimmer",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Sprechstunde (400€)",
+                "description": "2-stündige Live-Analyse und Strategieberatung für 400€ Pauschal."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SEO Troubleshooting & Live Coaching (ab 3.000€)",
+                "description": "Hilfe in Notfällen, bei Relaunch-Absturz oder strategischen Fragen ab 3.000€."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Keyword-Potenzialanalyse (ab 800€)",
+                "description": "Data-Mining im Google-Universum inklusive Suchvolumen und Wettbewerb für 800€."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "10-Stunden Paket (1.600€)",
+                "description": "Flexibles Leistungspaket für tiefgreifende Audits und Setup-Phasen für 1.600€ Pauschal."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Monatlicher Retainer (ab 1.600€)",
+                "description": "Fortlaufende Betreuung und strategische Optimierung ab 1.600€ monatlich."
+              }
             }
-          }, {
-            "@type": "Question",
-            "name": "Bietet Jörg Zimmer auch Google Ads (SEA) an?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Ja, ich habe über 10 Jahre mit Hauptfokus auf Google Ads gearbeitet und bin offizieller Google Partner."
-            }
-          }]
+          ]
         }
-      ]
-    }
-  </script>
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [{
+          "@type": "Question",
+          "name": "Was kostet eine SEO-Beratung bei Jörg Zimmer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Stundensatz liegt bei 200€ für individuelle Beratung. Die SEO-Sprechstunde wird als 2-stündiges Paket für 400€ angeboten."
+          }
+        }, {
+          "@type": "Question",
+          "name": "Bietet Jörg Zimmer auch Google Ads (SEA) an?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, ich habe über 10 Jahre mit Hauptfokus auf Google Ads gearbeitet und bin offizieller Google Partner."
+          }
+        }]
+      }
+    ]
+  })} />
 </Layout>

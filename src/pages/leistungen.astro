@@ -3,19 +3,102 @@ import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import leistungenHero from '../assets/images/pages/leistungen-hero.jpg';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Data for services
+const categories = [
+  {
+    title: "Einstieg & Analyse",
+    description: "Der perfekte Start, um den Status Quo zu verstehen und Potenziale zu identifizieren.",
+    services: [
+      {
+        title: "SEO-Sprechstunde",
+        price: "400€",
+        unit: "Pauschal",
+        description: "2-stündiger Videocall für alle deine Fragen. Ich teile mein komplettes Wissen aus 20+ Jahren SEO-Erfahrung. Direkt, auf den Punkt, ohne Blabla.",
+        bullets: ["2 Stunden 1:1 Videocall", "Alle Fragen erlaubt", "Sofort umsetzbare Tipps", "Optional: Aufzeichnung"],
+        link: `${baseUrl}/seo-sprechstunde/`,
+        linkText: "Alle Details zur Sprechstunde"
+      },
+      {
+        title: "Keyword-Potenzialanalyse",
+        price: "800€",
+        unit: "Ab",
+        description: "Data-Mining im Google-Universum: Ich finde die Keywords, die für dein Business wirklich relevant sind. Inklusive Suchvolumen, Wettbewerb und monetärem Potenzial.",
+        bullets: ["Keyword-Recherche", "Suchvolumen-Analyse", "Wettbewerbsbewertung", "Monetäres Potenzial"]
+      },
+      {
+        title: "Zweite Meinung",
+        price: "200€",
+        unit: "Stundensatz",
+        description: "Unabhängige Einschätzung deiner bisherigen Agenturarbeit. <strong>Diskret und ohne Account-Zugänge möglich</strong>, damit dein bisheriger Partner nichts davon merkt.",
+        bullets: ["Unabhängige Bewertung", "Ehrliches Feedback", "Handlungsempfehlungen"]
+      }
+    ]
+  },
+  {
+    title: "Krisen & Strategie",
+    description: "Hilfe wenn es brennt oder wenn eine grundlegende Neuausrichtung nötig ist.",
+    services: [
+      {
+        title: "SEO Troubleshooting & Live Coaching",
+        price: "3.000€",
+        unit: "Ab",
+        description: "In Notfällen, bei Relaunch-Absturz, bei strategischen Fragen zu Domain-Management, bei Google Penalty oder Ranking-Verlust. Schnelle Hilfe, wenn es brennt.",
+        bullets: ["Krisen-Management (Penalty & Absturz)", "Relaunch-Begleitung & Recovery", "Domain-Management & Strategie", "Support bei Personal-Engpässen"]
+      },
+      {
+        title: "Strategieberatung",
+        price: "Individuell",
+        unit: "Auf Anfrage",
+        description: "Tiefgehende Strategie- und Unternehmensberatung aus Data-Mining des Google-Universums. Für Unternehmen, die das volle Potenzial ausschöpfen wollen.",
+        bullets: ["Marktanalyse", "Zielgruppen-Strategie", "Langfristige Roadmap", "Coaching für Teams"]
+      }
+    ]
+  },
+  {
+    title: "Begleitung & Management",
+    description: "Langfristige Betreuung und operative Umsetzung für messbares Wachstum.",
+    services: [
+      {
+        title: "10-Stunden Paket",
+        price: "1.600€",
+        unit: "Pauschal",
+        description: "Das perfekte Paket für tiefe Audits, erste Setup-Phasen oder punktuelle Problemlösung. Maximale Flexibilität ohne Vertragslaufzeit.",
+        bullets: ["Freie Zeiteinteilung", "Keine Vertragslaufzeit", "Für Audits, Setups & Troubleshooting"],
+        isPopular: true
+      },
+      {
+        title: "Monatlicher Retainer",
+        price: "1.600€",
+        unit: "Ab",
+        description: "Ideal für ambitionierte B2B-Unternehmen und Online-Shops. Laufende Überwachung, Content-Steuerung und strategische Beratung.",
+        bullets: ["Kontinuierliche Optimierung", "Regelmäßiges Reporting & Calls", "Proaktive Strategieanpassungen", "Sparringspartnerschaft fürs C-Level"],
+        isDark: true
+      },
+      {
+        title: "Google Ads Management",
+        price: "200€",
+        unit: "Stundensatz",
+        description: "Performance-optimierte Kampagnen mit Fokus auf ROI. Von der Strategie über den Aufbau bis zur laufenden Optimierung. Transparent und ergebnisorientiert.",
+        bullets: ["Kampagnen-Setup", "Anzeigentexte & Keywords", "Conversion-Tracking", "Laufende Optimierung"],
+        link: `${baseUrl}/google-ads-freelancer-berlin/`,
+        linkText: "Zum Google Ads Profil"
+      }
+    ]
+  }
+];
 ---
 
 <Layout
   title="Leistungen | Jörg Zimmer - SEO & SEA Freelancer"
-  description="SEO-Checks, Keyword-Analysen, Google Ads Management und strategische Beratung. Entdecke meine Leistungen als SEO-Freelancer in Berlin Spandau."
+  description="SEO-Checks, Keyword-Analysen, Google Ads Management und strategische Beratung. Entdecke meine Leistungen als SEO-Freelancer in Berlin Spandau. ALOHA! 🌻"
 >
   <!-- Hero -->
-  <section class="section">
+  <section class="section-hero pt-12 pb-20 md:pb-32">
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-2/3">
-          <p class="subheadline mb-6">Leistungen</p>
-
+          <p class="subheadline mb-4 uppercase text-sm tracking-widest text-dark font-bold bg-lime-accent inline-block px-4 py-1 rounded-full">ALOHA! 🌻 Ich bin Jörg.</p>
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
             Von der Analyse zur
             <span class="highlight">Umsetzung.</span>
@@ -23,7 +106,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
           <p class="text-lg md:text-xl text-gray-muted max-w-2xl">
             Mein Stundensatz liegt bei 200€. Dafür bekommst du alles, was ich in
-            über 20 Jahren gelernt habe.
+            über 20 Jahren gelernt habe. Keine Agentur-Struktur, kein Overhead – nur direkte Expertise.
           </p>
         </div>
         <div class="md:w-1/3">
@@ -32,7 +115,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
             alt="Jörg Zimmer präsentiert SEO-Strategie - Freelancer für Suchmaschinenoptimierung Berlin"
             width={800}
             height={800}
-            class="w-full h-auto rounded-2xl shadow-lg"
+            class="w-full h-auto rounded-2xl shadow-lg border-4 border-white"
             format="webp"
             loading="eager"
             fetchpriority="high"
@@ -42,356 +125,214 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
-  <!-- Services Grid -->
-  <section class="pb-20">
-    <div class="container-narrow">
-      <div class="space-y-8">
-        <!-- SEO Check -->
-        <div class="bg-white border border-gray-100 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">SEO-Check</h2>
-              <p class="text-gray-muted mb-4">
-                Umfassende Analyse deiner Website: Ich beleuchte dein Projekt ganzheitlich durch 
-                <strong>technisches, inhaltliches und strategisches SEO</strong>. Du bekommst einen 
-                klaren Maßnahmenplan mit priorisierten Empfehlungen.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-muted">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Technisches SEO (Fundament)
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Inhaltliches SEO (Content)
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Strategisches SEO (Authority)
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Priorisierter Maßnahmenplan
-                </li>
-              </ul>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-muted">Ab</p>
-              <p class="text-3xl font-bold text-dark">400€</p>
-            </div>
-          </div>
+  <!-- Categories & Services -->
+  {categories.map((category, catIndex) => (
+    <section class={`section ${catIndex % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
+      <div class="container-narrow">
+        <div class="mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">{category.title}</h2>
+          <p class="text-gray-600 max-w-2xl text-lg">{category.description}</p>
         </div>
 
-        <!-- Keyword-Analyse -->
-        <div class="bg-white border border-gray-100 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">Keyword-Potenzialanalyse</h2>
-              <p class="text-gray-muted mb-4">
-                Data-Mining im Google-Universum: Ich finde die Keywords, die für
-                dein Business wirklich relevant sind. Inklusive Suchvolumen,
-                Wettbewerb und monetärem Potenzial.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-muted">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Keyword-Recherche
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Suchvolumen-Analyse
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Wettbewerbsbewertung
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Monetäres Potenzial
-                </li>
-              </ul>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-muted">Ab</p>
-              <p class="text-3xl font-bold text-dark">600€</p>
-            </div>
-          </div>
-        </div>
+        <div class="grid gap-8">
+          {category.services.map((service) => (
+            <div 
+              class:list={[
+                "rounded-2xl p-8 border transition-all duration-300 relative overflow-hidden group",
+                service.isDark ? "bg-dark text-white border-gray-800 shadow-2xl" : "bg-white border-gray-100 hover:shadow-xl",
+                service.isPopular ? "border-2 border-lime-accent shadow-lg" : ""
+              ]}
+            >
+              {service.isPopular && (
+                <div class="absolute top-0 right-0 bg-lime-accent text-dark font-bold px-4 py-1 rounded-bl-xl text-xs uppercase tracking-wider z-10 shadow-sm">
+                  Beliebt
+                </div>
+              )}
+              
+              <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-8 relative z-10">
+                <div class="flex-1">
+                  <h3 class="text-2xl font-bold mb-4">{service.title}</h3>
+                  <p 
+                    class:list={[
+                      "mb-6 max-w-xl text-lg leading-relaxed",
+                      service.isDark ? "text-gray-300" : "text-gray-600"
+                    ]}
+                    set:html={service.description}
+                  />
+                  
+                  <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+                    {service.bullets.map((bullet) => (
+                      <li class="flex items-start gap-2 text-sm">
+                        <svg 
+                          class:list={[
+                            "w-5 h-5 flex-shrink-0 mt-0.5",
+                            service.isDark ? "text-lime-400" : "text-lime-600"
+                          ]} 
+                          fill="none" 
+                          stroke="currentColor" 
+                          viewBox="0 0 24 24"
+                        >
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class={service.isDark ? "text-gray-300" : "text-gray-600"}>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
 
-        <!-- Google Ads -->
-        <div class="bg-white border border-gray-100 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">Google Ads Management</h2>
-              <p class="text-gray-muted mb-4">
-                Performance-optimierte Kampagnen mit Fokus auf ROI. Von der
-                Strategie über den Aufbau bis zur laufenden Optimierung.
-                Transparent und ergebnisorientiert.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-muted">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Kampagnen-Setup
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Anzeigentexte & Keywords
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Conversion-Tracking
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Laufende Optimierung
-                </li>
-              </ul>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-muted">Stundensatz</p>
-              <p class="text-3xl font-bold text-dark">200€</p>
-            </div>
-          </div>
-        </div>
+                  {service.link && (
+                    <a 
+                      href={service.link}
+                      class:list={[
+                        "inline-flex items-center gap-2 font-medium underline underline-offset-4 decoration-2 transition-colors",
+                        service.isDark ? "text-lime-400 decoration-lime-400/30 hover:decoration-lime-400" : "text-dark decoration-lime-accent/50 hover:decoration-lime-accent"
+                      ]}
+                    >
+                      {service.linkText}
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </a>
+                  )}
+                </div>
 
-        <!-- NEW: 10-Stunden Paket -->
-        <div class="bg-gray-50 border-2 border-lime-accent rounded-2xl p-8 hover:shadow-xl transition-all relative overflow-hidden group">
-          <div class="absolute top-0 right-0 bg-lime-accent text-dark font-bold px-4 py-1 rounded-bl-xl text-sm shadow-sm z-10">Beliebt</div>
-          <div class="absolute -right-16 -top-16 w-32 h-32 bg-lime-accent/20 rounded-full blur-2xl group-hover:bg-lime-accent/30 transition-colors pointer-events-none"></div>
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 relative z-10">
-            <div class="flex-1">
-              <div class="flex items-center gap-3 mb-3">
-                <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <h2 class="text-2xl font-bold">10-Stunden Paket</h2>
+                <div class="md:w-32 lg:w-40 md:text-right flex flex-col justify-center">
+                  <p class:list={["text-xs font-bold uppercase tracking-widest mb-1", service.isDark ? "text-gray-400" : "text-gray-400"]}>
+                    {service.unit}
+                  </p>
+                  <p class="text-4xl font-black">{service.price}</p>
+                </div>
               </div>
-              <p class="text-gray-700 mb-4">
-                Das perfekte Paket für tiefe Audits, erste Setup-Phasen oder punktuelle Problemlösung. 
-                Maximale Flexibilität: Wir erarbeiten die Maßnahmen und passen meine Zuarbeit den Ressourcen an. Du kannst dein Zeitbudget völlig frei einsetzen.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-700">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Freie Zeiteinteilung
-                </li>
-
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Keine Vertragslaufzeit
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Für Audits, Setups & Troubleshooting
-                </li>
-              </ul>
             </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-muted">Pauschal</p>
-              <p class="text-3xl font-bold text-dark">1.600€</p>
-            </div>
-          </div>
+          ))}
         </div>
+      </div>
+    </section>
+  ))}
 
-        <!-- NEW: Monthly Retainer -->
-        <div class="bg-dark text-white rounded-2xl p-8 hover:shadow-2xl transition-shadow relative overflow-hidden group border border-gray-800">
-          <div class="absolute -bottom-20 -left-20 w-48 h-48 bg-lime-accent/10 rounded-full blur-3xl group-hover:bg-lime-accent/20 transition-colors pointer-events-none"></div>
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 relative z-10">
-            <div class="flex-1">
-              <div class="flex items-center gap-3 mb-3">
-                <svg class="w-8 h-8 text-lime-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                <h2 class="text-2xl font-bold text-white">Monatlicher Retainer</h2>
-              </div>
-              <p class="text-gray-300 mb-4">
-                Ideal für ambitionierte B2B-Unternehmen und Online-Shops, die kontinuierliches Wachstum suchen. 
-                Laufende Überwachung, Content-Steuerung und strategische Beratung. Buchbar mit vollem Fokus auf deine Ziele.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-300">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Kontinuierliche Optimierung
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Regelmäßiges Reporting & Calls (Jour Fixe)
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Proaktive Strategieanpassungen
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Externe Sparringspartnerschaft fürs C-Level
-                </li>
-              </ul>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-400">Monatlich ab</p>
-              <p class="text-3xl font-bold text-white">1.600€</p>
-              <p class="text-sm text-gray-400 mt-1">bis ca. 3.200€</p>
-            </div>
-          </div>
-        </div>
+  <!-- Profiles / CTA Area -->
+  <section class="section bg-lime-accent text-dark overflow-hidden relative">
+    <div class="absolute -right-20 -top-20 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
+    <div class="container-narrow relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-bold mb-6">Willst du mehr wissen?</h2>
+        <p class="text-xl max-w-2xl mx-auto font-medium">
+          Detaillierte Einblicke in meine Arbeitsweise findest du auf meinen spezialisierten Profilen.
+        </p>
+      </div>
 
-        <!-- SEO Freelancer Check -->
-        <a href={`${baseUrl}/seo-freelancer-berlin/`} class="block bg-lime-accent rounded-2xl p-8 hover:brightness-95 transition-all">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">SEO Freelancer Berlin</h2>
-              <p class="text-dark/70 mb-4">
-                Keine Knebelverträge, nur ehrliche Arbeit auf Rechnung. 
-                Als Freelancer übernehme ich das komplette Setup, Audits oder 
-                auch das Retainer-Management für Shops und B2B.
-              </p>
-              <ul class="space-y-2 text-sm text-dark/70">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Flexibles SEO-Management
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Technisches, inhaltliches & strategisches SEO
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> 100% Transparent
-                </li>
-              </ul>
-              <span class="inline-flex items-center gap-2 text-dark font-medium mt-4 underline underline-offset-4 decoration-dark/40 hover:decoration-dark transition-colors">
-                Zum SEO Freelancer Profil
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </span>
-            </div>
-          </div>
+      <div class="grid md:grid-cols-2 gap-8">
+        <a href={`${baseUrl}/seo-freelancer-berlin/`} class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group">
+          <h3 class="text-2xl font-bold mb-4 group-hover:text-lime-700 transition-colors">SEO Freelancer Profil</h3>
+          <p class="text-gray-700 mb-6">Mein Fokus auf Strategie, technische Exzellenz und 20+ Jahre Erfahrung in der organischen Suche.</p>
+          <span class="flex items-center gap-2 font-bold underline underline-offset-4">Profil ansehen <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
         </a>
 
-        <!-- Google Ads Freelancer Check -->
-        <a href={`${baseUrl}/google-ads-freelancer-berlin/`} class="block bg-lime-accent rounded-2xl p-8 hover:brightness-95 transition-all">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">Google Ads Freelancer Berlin</h2>
-              <p class="text-dark/70 mb-4">
-                10+ Jahre exklusive Google Ads-Erfahrung. Ich drehe Budgetverschwendung ab 
-                und fokussiere Kampagnen auf extrem relevantes B2B- & E-Commerce-Targeting.
-              </p>
-              <ul class="space-y-2 text-sm text-dark/70">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Kampagnen Setup & Audit
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Eliminieren der "Broad Match Falle"
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Fokus auf ROI & Leads
-                </li>
-              </ul>
-              <span class="inline-flex items-center gap-2 text-dark font-medium mt-4 underline underline-offset-4 decoration-dark/40 hover:decoration-dark transition-colors">
-                Zum Google Ads Freelancer Profil
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </span>
-            </div>
-          </div>
+        <a href={`${baseUrl}/google-ads-freelancer-berlin/`} class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group">
+          <h3 class="text-2xl font-bold mb-4 group-hover:text-lime-700 transition-colors">Google Ads Profil</h3>
+          <p class="text-gray-700 mb-6">10 Jahre exklusive SEA-Expertise, ROI-fokussiertes Management und Google Partner Know-how.</p>
+          <span class="flex items-center gap-2 font-bold underline underline-offset-4">Profil ansehen <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
         </a>
-
-        <!-- Sprechstunde -->
-        <a href={`${baseUrl}/seo-sprechstunde/`} class="block bg-lime-accent rounded-2xl p-8 hover:brightness-95 transition-all">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">SEO-Sprechstunde</h2>
-              <p class="text-dark/70 mb-4">
-                2-stündiger Videocall für alle deine Fragen. Ich teile mein
-                komplettes Wissen aus 20+ Jahren SEO-Erfahrung. Direkt, auf
-                den Punkt, ohne Blabla.
-              </p>
-              <ul class="space-y-2 text-sm text-dark/70">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> 2 Stunden 1:1 Videocall
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Alle Fragen erlaubt
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Sofort umsetzbare Tipps
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-dark flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Optional: Aufzeichnung
-                </li>
-              </ul>
-              <span class="inline-flex items-center gap-2 text-dark font-medium mt-4 underline underline-offset-4 decoration-dark/40 hover:decoration-dark transition-colors">
-                Alle Details zur Sprechstunde
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </span>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-dark/70">Pauschal</p>
-              <p class="text-3xl font-bold text-dark">400€</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Zweite Meinung -->
-        <div class="bg-white border border-gray-100 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">Zweite Meinung</h2>
-              <p class="text-gray-muted mb-4">
-                Unabhängige Einschätzung deiner bisherigen Agenturarbeit.
-                Ich bin fair, respektiere jeden Stand und sage dir ehrlich,
-                ob du auf dem richtigen Weg bist.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-muted">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Unabhängige Bewertung
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Ehrliches Feedback
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Handlungsempfehlungen
-                </li>
-              </ul>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-muted">Stundensatz</p>
-              <p class="text-3xl font-bold text-dark">200€</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Strategieberatung -->
-        <div class="bg-white border border-gray-100 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-          <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
-            <div class="flex-1">
-              <h2 class="text-2xl font-bold mb-3">Strategieberatung</h2>
-              <p class="text-gray-muted mb-4">
-                Tiefgehende Strategie- und Unternehmensberatung aus Data-Mining
-                des Google-Universums. Für Unternehmen, die das volle Potenzial
-                ihrer Online-Präsenz ausschöpfen wollen.
-              </p>
-              <ul class="space-y-2 text-sm text-gray-muted">
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Marktanalyse
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Zielgruppen-Strategie
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Langfristige Roadmap
-                </li>
-                <li class="flex items-center gap-2">
-                  <svg class="w-5 h-5 text-lime-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Coaching für Teams
-                </li>
-              </ul>
-            </div>
-            <div class="text-right">
-              <p class="text-sm text-gray-muted">Auf Anfrage</p>
-              <p class="text-xl font-bold text-dark">Individuell</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- Final CTA -->
   <section class="section bg-dark text-white">
     <div class="container-narrow text-center">
       <h2 class="text-2xl md:text-3xl font-bold mb-6">
         Welche Leistung passt zu dir?
       </h2>
-      <p class="text-gray-400 mb-8 max-w-xl mx-auto">
+      <p class="text-gray-400 mb-8 max-w-xl mx-auto text-lg">
         Schreib mir eine Nachricht und wir finden gemeinsam heraus,
-        wie ich dir am besten helfen kann.
+        wie ich dir am besten helfen kann. ALOHA! 🌻
       </p>
       <a href={`${baseUrl}/kontakt/`} class="btn-primary">
         Unverbindlich anfragen
       </a>
     </div>
   </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://teleschmie.de/#person",
+        "name": "Jörg Zimmer",
+        "jobTitle": "SEO & SEA Freelancer",
+        "url": "https://teleschmie.de/ueber-mich/",
+        "sameAs": [
+          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+          "https://www.xing.com/profile/Joerg_Zimmer6",
+          "https://linktr.ee/jorgzimmer"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://teleschmie.de/#organization",
+        "name": "Jörg Zimmer - Teleschmiede",
+        "url": "https://teleschmie.de/leistungen/",
+        "image": "https://teleschmie.de/assets/images/pages/leistungen-hero.jpg",
+        "description": "Umfassende SEO-Analysen, Troubleshooting, Keyword-Strategie und Google Ads Management von Jörg Zimmer.",
+        "telephone": "+493049208184",
+        "priceRange": "€€€",
+        "founder": {
+          "@id": "https://teleschmie.de/#person"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Zu den Fichtewiesen 16",
+          "addressLocality": "Berlin",
+          "postalCode": "13587",
+          "addressCountry": "DE"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Dienstleistungen von Jörg Zimmer",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Sprechstunde (400€)",
+                "description": "2-stündige Live-Analyse und Strategieberatung für 400€ Pauschal."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "SEO Troubleshooting & Live Coaching (ab 3.000€)",
+                "description": "Krisen-Management, Relaunch-Recovery und strategischer Support ab 3.000€."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Keyword-Potenzialanalyse (ab 800€)",
+                "description": "Deep-Dive Keyword-Recherche inklusive Wettbewerbs- und ROI-Check für 800€."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "10-Stunden Paket (1.600€)",
+                "description": "Flexibles Kontingent für Audits und Umsetzungen für 1.600€ Pauschal."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Monatlicher Retainer (ab 1.600€)",
+                "description": "Kontinuierliche Begleitung und Performance-Steigerung ab 1.600€ monatlich."
+              }
+            }
+          ]
+        }
+      }
+    ]
+  })} />
 </Layout>

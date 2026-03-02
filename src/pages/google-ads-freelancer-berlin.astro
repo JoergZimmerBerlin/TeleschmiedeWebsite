@@ -27,12 +27,8 @@ const faqs = [
     answer: "Weil du bei mir genau den Experten bekommst, mit dem du auch sprichst. Keine Junior-Account-Manager, kein ewiges 'Wir geben das an die Technik weiter'. Ich habe 10 Jahre lang mit Hauptfokus auf Google Ads und als Google Partner gearbeitet. Im Gegensatz zu vielen Agenturen biete ich auch Einzelpakete für einmalige Optimierungen an und fungiere gerne als zweite Meinung für deinen bestehenden Account."
   },
   {
-    question: "Was kostet eine Google Ads Optimierung bei dir?",
-    answer: "Das hängt stark von der Größe deines Accounts und deinen Zielen ab. Als perfekten Einstieg empfehle ich meist meine <strong>Sprechstunde (400€)</strong> für einen knackigen Account-Check. Für die Umsetzung biete ich das <strong>10-Stunden Paket (1.600€)</strong> oder einen <strong>Monatlichen Retainer (ab 1.600€)</strong> an."
-  },
-  {
-    question: "Bietest du feste Ads-Pakete und Retainer an?",
-    answer: "Ja, ich arbeite mit klaren, pauschalen Paketen ohne versteckte Kosten. Du hast die Wahl zwischen der <strong>Sprechstunde (400€)</strong> für punktuelle Beratung, dem <strong>10-Stunden Paket (1.600€)</strong> für Setups und Audits oder dem <strong>Monatlichen Retainer (ab 1.600€)</strong> für die fortlaufende Betreuung."
+    question: "Was kostet die Zusammenarbeit und bietest du feste Pakete an?",
+    answer: "Ja, ich arbeite mit klaren, pauschalen Paketen ohne versteckte Kosten. Du hast die Wahl zwischen der <strong>Sprechstunde (400€)</strong> für punktuelle Beratung, dem <strong>10-Stunden Paket (1.600€)</strong> für Setups und Audits oder dem <strong>Monatlichen Retainer (ab 1.600€)</strong> für die fortlaufende Betreuung. So hast du volle Kostentransparenz von Anfang an."
   },
   {
     question: "Warum verbrennt mein aktueller Google Ads Account so viel Geld?",
@@ -55,7 +51,7 @@ const faqs = [
 
 <Layout title={title} description={description}>
   <!-- Hero Section -->
-  <section class="section relative overflow-hidden bg-white">
+  <section class="section-hero relative overflow-hidden bg-white pt-12 pb-20 md:pb-32">
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-3/5 z-10">
@@ -263,7 +259,7 @@ const faqs = [
           <div class="lg:col-span-5 flex flex-col gap-10">
             <Image
               src={joergPodcast}
-              alt="Jörg Zimmer über SEA, KI und Google Ads"
+              alt="Jörg Zimmer über SEA, Google KI-Modus und Google Ads"
               width={800}
               height={500}
               class="rounded-3xl shadow-xl w-full h-[350px] object-cover object-top border-4 border-gray-800"
@@ -415,8 +411,8 @@ const faqs = [
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Google Ads Account Audit / Sprechstunde",
-              "description": "Ein kompakter Direkt-Check des bestehenden Ads Accounts auf Budgetfresser (400€)."
+              "name": "Sprechstunde (400€)",
+              "description": "Ein kompakter Direkt-Check des bestehenden Ads Accounts auf Budgetfresser (400€ Pauschal)."
             }
           },
           {
@@ -439,16 +435,16 @@ const faqs = [
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "10-Stunden Paket",
-              "description": "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€)."
+              "name": "10-Stunden Paket (1.600€)",
+              "description": "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€ Pauschal)."
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Monatlicher Retainer",
-              "description": "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€)."
+              "name": "Monatlicher Retainer (ab 1.600€)",
+              "description": "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€ monatlich)."
             }
           }
         ]

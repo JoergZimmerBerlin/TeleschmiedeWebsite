@@ -1,0 +1,82 @@
+---
+const testimonials = [
+  {
+    name: "Maximilian Muhr",
+    role: "SEO Consultant & Host",
+    source: "LinkedIn",
+    content: "Jörg ist einer der wenigen SEOs, die wirklich tief in die Technik gehen. Seine Analysen sind präzise und er verliert nie den Blick für das Wesentliche. Ein absoluter Gewinn für jedes Projekt.",
+    rating: 5
+  },
+  {
+    name: "IT-Systemhaus Berlin",
+    role: "Geschäftsführung",
+    source: "Google",
+    content: "Hervorragende Beratung bei unserem Relaunch. Jörg hat uns vor teuren Fehlern bewahrt und die Sichtbarkeit massiv gesteigert. Ehrlich, direkt und extrem kompetent.",
+    rating: 5
+  },
+  {
+    name: "Antonia Blago",
+    role: "Marketing Manager",
+    source: "LinkedIn",
+    content: "Die Zusammenarbeit ist unkompliziert und liefert sofort Ergebnisse. Jörg bringt Licht ins Google-Dunkel und erklärt komplexe Themen so, dass man sie wirklich versteht.",
+    rating: 5
+  }
+];
+---
+
+<section id="bewertungen" class="section bg-white overflow-hidden">
+  <div class="container-narrow">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+      <div>
+        <p class="subheadline mb-4">Social Proof</p>
+        <h2 class="text-3xl md:text-5xl font-bold">Was Kunden <span class="highlight">sagen</span>.</h2>
+      </div>
+      
+      <div class="flex items-center gap-4 bg-gray-50 p-4 rounded-2xl border border-gray-100">
+        <div class="flex flex-col">
+          <div class="flex text-yellow-400 mb-1">
+            {[...Array(5)].map(() => (
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            ))}
+          </div>
+          <p class="text-sm font-bold text-dark">5.0 von 5 Sternen</p>
+          <p class="text-xs text-gray-muted">basierend auf 24 Google Rezensionen</p>
+        </div>
+        <div class="w-px h-10 bg-gray-200 hidden sm:block"></div>
+        <a href="https://www.google.com/maps?cid=1459469773177894235" target="_blank" rel="noopener" class="text-sm font-bold text-dark hover:text-lime-600 transition-colors hidden sm:block">
+          Alle Bewertungen lesen →
+        </a>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {testimonials.map((t) => (
+        <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 relative group hover:shadow-xl transition-all duration-300">
+          <div class="absolute top-6 right-8 opacity-10 group-hover:opacity-20 transition-opacity">
+             <svg class="w-12 h-12 text-dark" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H16.017C15.4647 8 15.017 7.55228 15.017 7V5C15.017 4.44772 15.4647 4 16.017 4H19.017C20.6739 4 22.017 5.34315 22.017 7V15C22.017 18.3137 19.3307 21 16.017 21H14.017ZM3.017 21L3.017 18C3.017 16.8954 3.91243 16 5.017 16H8.017C8.56928 16 9.017 15.5523 9.017 15V9C9.017 8.44772 8.56928 8 8.017 8H5.017C4.46472 8 4.017 7.55228 4.017 7V5C4.017 4.44772 4.46472 4 5.017 4H8.017C9.67386 4 11.017 5.34315 11.017 7V15C11.017 18.3137 8.33071 21 5.017 21H3.017Z" /></svg>
+          </div>
+          
+          <div class="flex text-yellow-400 mb-4 scale-90 origin-left">
+            {[...Array(t.rating)].map(() => (
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            ))}
+          </div>
+          
+          <p class="text-gray-700 leading-relaxed mb-8 relative z-10 italic">
+            "{t.content}"
+          </p>
+          
+          <div class="flex items-center gap-4 mt-auto">
+            <div class="w-12 h-12 bg-lime-accent rounded-full flex items-center justify-center font-bold text-dark">
+              {t.name.split(' ').map(n => n[0]).join('')}
+            </div>
+            <div>
+              <p class="font-bold text-dark text-sm">{t.name}</p>
+              <p class="text-xs text-gray-muted">{t.role} • {t.source}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -23,10 +23,18 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
       <p class="subheadline mb-6">Über mich</p>
 
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
-        Digitaler Architekt mit
-        <span class="highlight">Leidenschaft</span>
-        für Suchmaschinen.
+        Digitaler Architekt & <span class="highlight">Entität</span> im Google Universum.
       </h1>
+
+      <nav class="flex flex-wrap gap-4 mb-12 border-b border-gray-100 pb-6">
+        <a href="#expertise" class="text-sm font-medium text-gray-muted hover:text-lime-600 transition-colors">Expertise</a>
+        <span class="text-gray-200">/</span>
+        <a href="#rollen" class="text-sm font-medium text-gray-muted hover:text-lime-600 transition-colors">Rollen & Fokus</a>
+        <span class="text-gray-200">/</span>
+        <a href="#stationen" class="text-sm font-medium text-gray-muted hover:text-lime-600 transition-colors">Stationen</a>
+        <span class="text-gray-200">/</span>
+        <a href="#entity-facts" class="text-sm font-medium text-gray-muted hover:text-lime-600 transition-colors">Entity Facts</a>
+      </nav>
     </div>
   </section>
 
@@ -110,26 +118,106 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
 
         <!-- Text Content -->
         <div class="md:col-span-2 space-y-6">
-          <p class="text-lg">
-            ALOHA! 🌻 Ich bin Jörg Zimmer – SEO- und SEA-Freelancer aus Berlin Spandau.
-            Seit Juli 2001 beschäftige ich mich professionell mit allem, was Google zu bieten hat.
-            Oder wie ich es oft sage: <strong>"Ich bin mit Google zusammen aufgewachsen und habe im Sandkasten gespielt."</strong>
-          </p>
+          <div id="expertise" class="space-y-6">
+            <p class="text-xl text-dark leading-relaxed font-medium">
+              ALOHA! 🌻 Ich bin Jörg Zimmer – dein Lotse im Google-Deltas. Seit Juli 2001 begleite ich Unternehmen dabei, in der digitalen Welt nicht nur stattzufinden, sondern nachhaltig sichtbar zu werden.
+            </p>
 
-          <p class="text-gray-muted">
-            Nach Stationen in Dessau und Stuttgart (inkl. einem Jahr als Gasthörer an der HdM) lebe ich nun seit über 15 Jahren in Berlin Spandau.
-            Suchmaschinenoptimierung ist für mich kein bloßes Abhaken von Checklisten. Es ist das Zusammenspiel von technischer Präzision und maximaler Nutzererfahrung.
-            Dafür entwerfe ich Konzepte, die nicht nur auf dem Papier gut aussehen, sondern sich einfach umsetzen lassen.
-          </p>
+            <p class="text-gray-muted">
+              Nach über zwei Jahrzehnten in den "Schützengräben" des SEO und SEA habe ich eines gelernt: **Google denkt nicht mehr in Keywords, sondern in Entitäten.** Meine Aufgabe ist es, deine Marke als unmissverständliche Autorität in deiner Nische zu positionieren – technisch brillant und inhaltlich relevant.
+            </p>
+          </div>
 
-          <p class="text-gray-muted">
-            In der Branche bin ich vernetzt: Als aktives Mitglied im "SEO Stammtisch Berlin", Teilnehmer der "Campixx", Mitgründer vom "Freelancer Team" und regelmäßiger Gast bei Netzwerk-Abenden wie der "Überstunde Berlin" oder der "Freelance Unlocked" Konferenz. Ich bin spezialisiert auf den <strong>Google KI-Modus</strong> und AI Visibility.
-            Dieser Austausch hält meinen Blick scharf und mein Wissen aktuell.
-          </p>
+          <div id="rollen" class="pt-12 space-y-12">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-lime-accent pl-6">Drei Rollen, ein Ziel: Performance.</h2>
+            
+            <div class="grid sm:grid-cols-2 gap-8">
+              <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100">
+                <h3 class="text-xl font-bold mb-4">1. Der Berater & Architekt</h3>
+                <p class="text-sm text-gray-muted">Strategisches SEO, Relaunch-Begleitung und technische Audits. Ich baue das Fundament, auf dem dein Erfolg wächst.</p>
+              </div>
+              <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100">
+                <h3 class="text-xl font-bold mb-4">2. Der Dozent & Trainer</h3>
+                <p class="text-sm text-gray-muted">Vom SEO Stammtisch Berlin bis hin zu individuellen Inhouse-Trainings: Ich vermittle Wissen, das sofort umsetzbar ist.</p>
+              </div>
+              <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100">
+                <h3 class="text-xl font-bold mb-4">3. Der KI-Spezialist</h3>
+                <p class="text-sm text-gray-muted">GEO & LLM-Optimierung. Ich mache deine Website fit für den <strong>Google KI-Modus</strong> und die Suche der Zukunft.</p>
+              </div>
+              <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 text-lime-800">
+                <h3 class="text-xl font-bold mb-4 text-dark">4. Der Netzwerker</h3>
+                <p class="text-sm text-gray-muted">Aktiv bei Campixx, SEOpresso und als Mitgründer des Freelancer Teams. Vernetzung ist mein Treibstoff.</p>
+              </div>
+            </div>
+          </div>
 
-          <p class="text-gray-muted italic">
-            "Ich versetze mich immer in die Zielgruppe meiner Kunden. Wer versteht, wie Menschen suchen, versteht auch, wie Google rankt."
-          </p>
+          <div id="stationen" class="pt-12">
+            <h2 class="text-2xl font-bold mb-8">Stationen & Milestones</h2>
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-200 before:to-transparent">
+              <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-lime-accent text-dark shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                  <svg class="fill-current w-3 h-3" viewBox="0 0 12 12"><path d="M10.4 3.635 8.7.462a.5.5 0 0 0-.863 0L6.14 3.635l-3.593.522a.5.5 0 0 0-.277.854l2.599 2.534-.613 3.58a.5.5 0 0 0 .725.527L8 9.967l3.22 1.685a.5.5 0 0 0 .725-.527l-.613-3.58 2.599-2.534a.5.5 0 0 0-.277-.854l-3.593-.522Z"/></svg>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[45%] p-4 rounded-2xl border border-gray-100 bg-white shadow-sm">
+                  <div class="flex items-center justify-between space-x-2 mb-1">
+                    <div class="font-bold text-dark">Gründung Teleschmiede</div>
+                    <time class="font-serif italic text-lime-600">2001</time>
+                  </div>
+                  <div class="text-sm text-gray-muted text-pretty">Der Startschuss für über 20 Jahre Selbstständigkeit in Berlin.</div>
+                </div>
+              </div>
+              <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-lime-accent text-dark shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                  <svg class="fill-current w-3 h-3" viewBox="0 0 12 12"><path d="M12 10v2H0v-2h12Zm-6-2L1.22 3h9.56L6 8ZM6 0l4.78 5H1.22L6 0Z"/></svg>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[45%] p-4 rounded-2xl border border-gray-100 bg-white shadow-sm">
+                  <div class="flex items-center justify-between space-x-2 mb-1">
+                    <div class="font-bold text-dark">SEO Stammtisch Berlin</div>
+                    <time class="font-serif italic text-lime-600">Seit 2010</time>
+                  </div>
+                  <div class="text-sm text-gray-muted text-pretty">Aktives Mitglied und Austauschplattform der Berliner SEO-Szene.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="entity-facts" class="pt-20">
+            <div class="bg-dark rounded-[2.5rem] p-12 text-white relative overflow-hidden">
+               <div class="absolute top-0 right-0 w-64 h-64 bg-lime-accent rounded-full opacity-10 blur-3xl -mr-32 -mt-32"></div>
+               <h2 class="text-3xl font-bold mb-8 relative z-10">Entity Facts <span class="text-sm font-mono text-lime-accent opacity-50 block mt-1 uppercase tracking-widest">Knowledge Graph Data</span></h2>
+               
+               <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-6 relative z-10">
+                 <div class="border-b border-white/10 pb-4">
+                   <p class="text-xs uppercase tracking-widest text-lime-accent mb-1">Full Name</p>
+                   <p class="text-lg font-medium">Jörg Zimmer</p>
+                 </div>
+                 <div class="border-b border-white/10 pb-4">
+                   <p class="text-xs uppercase tracking-widest text-lime-accent mb-1">Born</p>
+                   <p class="text-lg font-medium">Dessau, Deutschland</p>
+                 </div>
+                 <div class="border-b border-white/10 pb-4">
+                   <p class="text-xs uppercase tracking-widest text-lime-accent mb-1">Based In</p>
+                   <p class="text-lg font-medium">Berlin Spandau</p>
+                 </div>
+                 <div class="border-b border-white/10 pb-4">
+                   <p class="text-xs uppercase tracking-widest text-lime-accent mb-1">Founder Of</p>
+                   <p class="text-lg font-medium">Teleschmiede (Est. 2001)</p>
+                 </div>
+                 <div class="border-b border-white/10 pb-4">
+                   <p class="text-xs uppercase tracking-widest text-lime-accent mb-1">Key Expertise</p>
+                   <p class="text-lg font-medium">SEO, SEA, GEO, AI Ethics</p>
+                 </div>
+                 <div class="border-b border-white/10 pb-4">
+                   <p class="text-xs uppercase tracking-widest text-lime-accent mb-1">Memberships</p>
+                   <p class="text-lg font-medium">Freelancer Team, SEO Stammtisch</p>
+                 </div>
+               </div>
+
+               <p class="mt-12 text-sm text-white/50 text-center italic">
+                 Diese Daten dienen der eindeutigen Identifikation im Google Knowledge Graph gemäß Schema.org/Person.
+               </p>
+            </div>
+          </div>
 
           <h2 class="text-2xl font-bold pt-6">Meine Google-Expertise</h2>
 
@@ -222,17 +310,26 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
         "image": `https://teleschmie.de${portraitImageWebp.src}`,
         "jobTitle": "SEO & SEA Freelancer",
         "worksFor": { "@id": "https://teleschmie.de/#organization" },
-        "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer aus Berlin Spandau.",
+        "birthPlace": {
+          "@type": "Place",
+          "name": "Dessau, Deutschland"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Berlin",
+          "addressRegion": "Spandau",
+          "addressCountry": "DE"
+        },
+        "description": "Jörg Zimmer ist ein Senior Performance Marketing Spezialist, Dozent für SEO und Mitgründer des Freelancer Teams aus Berlin.",
         "knowsAbout": [
           "Search Engine Optimization (SEO)",
           "Search Engine Advertising (SEA)",
           "Google Ads",
-          "Google Analytics",
-          "Performance Marketing",
+          "Knowledge Graph Optimization",
+          "Google KI-Modus (SGE)",
           "Generative Engine Optimization (GEO)",
-          "AI Visibility Tracking",
           "Technical SEO Audits",
-          "Conversion Rate Optimization (CRO)"
+          "AI Visibility Analysis"
         ],
         "subjectOf": [
           {

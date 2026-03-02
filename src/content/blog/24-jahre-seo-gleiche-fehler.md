@@ -54,7 +54,7 @@ Ein Kollege brachte es auf den Punkt: *"Jörg, das Problem ist, dass viele SEO a
 Wenn ich eines gelernt habe in den letzten 24 Jahren, dann ist es das: Die Grundlagen sind unkaputtbar.
 1. Bau eine Seite, die technisch flutscht (**PageSpeed!**).
 2. Schreibe Texte, die Menschen wirklich helfen (**Helpful Content**).
-3. Sorge dafür, dass andere Kapazitäten dein Wissen schätzen (**Backlinks/Reputation**).
+3. Sorge dafür, dass andere Kapazitäten dein Wissen schätzen (**Reputation/Autorität**).
 4. Bleib geduldig und hör auf, nach dem "einen geheimen Trick" zu suchen.
 
 ![Strategischer Vergleich: Nachhaltiges SEO vs. Kurzfristige Hacks](../../assets/images/blog/seo_strategie_white_1772296866475.png)

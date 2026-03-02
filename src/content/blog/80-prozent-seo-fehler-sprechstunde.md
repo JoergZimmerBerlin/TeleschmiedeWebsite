@@ -1,6 +1,6 @@
 ---
 title: "Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke (und wie du es vermeidest)"
-description: "Ein Frontbericht aus hunderten SEO-Sprechstunden: Warum 80% aller Websites an den gleichen Basics scheitern und wie du deine Seite technisch und strategisch auf Platz 1 bringst."
+description: "Ein Praxisbericht aus hunderten SEO-Sprechstunden: Warum 80% aller Websites an den gleichen Basics scheitern und wie du deine Seite technisch und strategisch auf Platz 1 bringst."
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_in-80-aller-seo-sprechstunden-entdecke-activity-7366897094021791744-trk9"
 image: "../../assets/images/blog/seo-discovery-original.jpg"

@@ -23,7 +23,7 @@ Diese Frage bekomme ich oft gestellt, meistens mit einem leicht skeptischen Unte
 
 Stell dir vor, deine Website ist ein ordentliches Stück Fleisch (oder Tofu, wenn dir das lieber ist). Meistens sieht es von außen ganz passabel aus, aber ob es wirklich durchgegart ist oder ob es im Inneren noch zäh und ungenießbar ist, merkst du erst, wenn du es auf den heißen Grill legst.
 
-Genau das machen wir in der SEO-Sprechstunde. Ich bin der Grillmeister. Ich schaue mir deine Seite von allen Seiten an. Ich prüfe die Kruste (dein Design und Front-End), ich schaue mir die Textur an (deinen Content) und ich werfe einen Blick in den Garraum (deine technische Basis). Und ich sage dir ehrlich, ohne Marketing-Sprech und ohne Weichspüler, wo es brennt.
+Genau das machen wir in der SEO-Sprechstunde. Ich bin der Grillmeister. Ich schaue mir deine Seite von allen Seiten an. Ich prüfe die Kruste (dein Design und Frontend), ich schaue mir die Textur an (deinen Content) und ich werfe einen Blick in den Garraum (deine technische Basis). Und ich sage dir ehrlich, ohne Marketing-Sprech und ohne Weichspüler, wo es brennt.
 
 ## Warum "Sprechstunde" und nicht "Paket"?
 

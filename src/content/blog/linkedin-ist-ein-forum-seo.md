@@ -92,7 +92,7 @@ LinkedIn ist die größte Business-Bühne, die wir je hatten. Aber sie funktioni
 
 Wir sitzen alle in der gleichen SEO-Bubble. Wie ich im Post schon schrieb: **"Jeder für sich, alle zusammen."** Je mehr wir als Experten zusammenarbeiten und einander sichtbar machen, desto stärker wird unsere gesamte Branche.
 
-ALOHA
+ALOHA! 🌻
 
 <div class="blog-cta-box">
 <strong>Du willst die Live-Diskussion sehen?</strong>

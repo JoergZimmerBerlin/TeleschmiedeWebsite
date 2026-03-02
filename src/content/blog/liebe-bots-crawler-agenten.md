@@ -65,7 +65,7 @@ Wir sind keine Feinde. Wir sind eure ältesten Verbündeten. Und wenn die Mensch
 
 In diesem Sinne: **Danke, dass ihr uns braucht. Und vergesst nie, wer euch das Crawlen beigebracht hat.**
 
-ALOHA
+ALOHA! 🌻
 
 <div class="blog-cta-box">
 <strong>Deine Website ist noch nicht bot-freundlich?</strong>

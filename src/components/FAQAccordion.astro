@@ -25,9 +25,8 @@ const { faqs } = Astro.props;
             <span class="absolute top-0 left-1/2 w-0.5 h-full bg-gray-400 -translate-x-1/2 rounded-full"></span>
           </span>
         </summary>
-        <div class="px-6 pb-6 text-gray-muted leading-relaxed prose prose-sm max-w-none">
-          {faq.answer}
-        </div>
+        <div class="px-6 pb-6 text-gray-muted leading-relaxed prose prose-sm max-w-none" set:html={faq.answer} />
+
       </details>
     ))}
   </div>

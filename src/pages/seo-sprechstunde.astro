@@ -1,9 +1,41 @@
 ---
 import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
 import sprechstundeImage from '../assets/images/blog/seo-sprechstunde.jpg';
 import ctaImage from '../assets/images/profile/joerg-zimmer-cta.jpg';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const faqs = [
+  {
+    question: "Lohnt sich SEO heute überhaupt noch für meine Nische?",
+    answer: "Ja, absolut. Aber der Ansatz hat sich geändert. In der Sprechstunde analysieren wir, ob deine Nische durch KI-Antworten bedroht ist oder ob es noch genügend wertvollen Traffic gibt, den wir abgreifen können."
+  },
+  {
+    question: "Was kostet SEO bei dir abseits der Sprechstunde?",
+    answer: "Das hängt stark von der Größe deines Projekts ab. Pauschalpreise für Rankings sind oft unseriös. Meine Sprechstunde (400€) ist jedoch immer der perfekte, risikoarme Einstieg."
+  },
+  {
+    question: "Bietest du feste SEO-Pakete und Retainer an?",
+    answer: "Ja, für die konkrete Umsetzung arbeite ich mit klaren Paketen: Für fundierte Audits oder technische Setups gibt es das **10-Stunden Paket für 1.600€**. Für eine fortlaufende strategische Betreuung biete ich einen **Monatlichen Retainer ab 1.600€ bis ca. 3.200€** an. Die Pakete sind flexibel für SEO, SEA oder eine smarte Kombination anwendbar."
+  },
+  {
+    question: "Soll ich für meinen Content voll auf KI setzen?",
+    answer: "KI ist ein Werkzeug, kein kompletter Ersatz. Wir besprechen, wie du KI effizient einsetzt, ohne deine Marke zu schwächen oder von Google wegen minderwertigem Content abgestraft zu werden."
+  },
+  {
+    question: "Kann ich auch nur 1 Stunde buchen und nur 200 € bezahlen?",
+    answer: "Nein. Weil die Vorbereitung, das Kunden anlegen im System, die Rechnungstellung, die Kommunikation im Vorfeld und danach sowie das Einarbeiten ins Thema als administrativer Aufwand zählt und eingerechnet wird – daher immer 2 Stunden und 400 €."
+  },
+  {
+    question: "Wie lange dauert es, bis ich die ersten Ergebnisse sehe?",
+    answer: "Das hängt stark von der Konkurrenz und dem Zustand deiner Website ab. In der Regel sieht man bei technischen Quick-Wins Ergebnisse nach wenigen Wochen, bei Content-Strategien eher nach 3-6 Monaten."
+  },
+  {
+    question: "Kann ich die Sprechstunde auch für einen Website-Relaunch nutzen?",
+    answer: "Definitiv. Das ist sogar einer der besten Zeitpunkte, um teure Fehler bei der Struktur oder den Weiterleitungen zu vermeiden, bevor die neue Seite live geht."
+  }
+];
 ---
 
 <Layout
@@ -324,45 +356,10 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
-  <!-- FAQ -->
-  <section class="section bg-gray-50" id="faq">
-    <div class="container-narrow">
-      <p class="subheadline mb-4">Fragen & Antworten</p>
-      <h2 class="text-3xl md:text-4xl font-bold mb-12">
-        Häufig gestellte <span class="highlight">Fragen</span>
-      </h2>
-
-      <div class="space-y-6">
-        <div class="bg-white rounded-2xl p-8 border border-gray-100">
-          <h3 class="text-xl font-bold mb-3">Lohnt sich SEO heute überhaupt noch für meine Nische?</h3>
-          <p class="text-gray-muted">Ja, absolut. Aber der Ansatz hat sich geändert. In der Sprechstunde analysieren wir, ob deine Nische durch KI-Antworten bedroht ist oder ob es noch genügend wertvollen Traffic gibt, den wir abgreifen können.</p>
-        </div>
-
-        <div class="bg-white rounded-2xl p-8 border border-gray-100">
-          <h3 class="text-xl font-bold mb-3">Was kostet SEO bei dir abseits der Sprechstunde?</h3>
-          <p class="text-gray-muted">Ich arbeite mit klaren, pauschalen Paketen: Meine Sprechstunde ist der perfekte Einstieg (400€). Für fundierte Account-Audits oder die Lösung akuter, technischer Probleme gibt es das <strong>10-Stunden Paket für 1.600€</strong>. Für eine fortlaufende strategische Betreuung, Content-Steuerung und laufende Optimierung biete ich einen <strong>Monatlichen Retainer ab 1.600€ bis ca. 3.200€</strong> an. Die Pakete sind flexibel für SEO, SEA oder eine Kombination anwendbar.</p>
-        </div>
-        
-        <div class="bg-white rounded-2xl p-8 border border-gray-100">
-          <h3 class="text-xl font-bold mb-3">Soll ich für meinen Content voll auf KI setzen?</h3>
-          <p class="text-gray-muted">KI ist ein Werkzeug, kein kompletter Ersatz. Wir besprechen, wie du KI effizient einsetzt, ohne deine Marke zu schwächen oder von Google wegen minderwertigem Content abgestraft zu werden.</p>
-        </div>
-
-        <div class="bg-white rounded-2xl p-8 border border-gray-100">
-          <h3 class="text-xl font-bold mb-3">Kann ich auch nur 1 Stunde buchen und nur 200 € bezahlen?</h3>
-          <p class="text-gray-muted">Nein. Weil die Vorbereitung, das Kunden anlegen im System, die Rechnungstellung, die Kommunikation im Vorfeld und danach sowie das Einarbeiten ins Thema als administrativer Aufwand zählt und eingerechnet wird – daher immer 2 Stunden und 400 €.</p>
-        </div>
-
-        <div class="bg-white rounded-2xl p-8 border border-gray-100">
-          <h3 class="text-xl font-bold mb-3">Wie lange dauert es, bis ich die ersten Ergebnisse sehe?</h3>
-          <p class="text-gray-muted">Das hängt stark von der Konkurrenz und dem Zustand deiner Website ab. In der Regel sieht man bei technischen Quick-Wins Ergebnisse nach wenigen Wochen, bei Content-Strategien eher nach 3-6 Monaten.</p>
-        </div>
-
-        <div class="bg-white rounded-2xl p-8 border border-gray-100">
-          <h3 class="text-xl font-bold mb-3">Kann ich die Sprechstunde auch für einen Website-Relaunch nutzen?</h3>
-          <p class="text-gray-muted">Definitiv. Das ist sogar einer der besten Zeitpunkte, um teure Fehler bei der Struktur oder den Weiterleitungen zu vermeiden, bevor die neue Seite live geht.</p>
-        </div>
-      </div>
+  <!-- FAQ Section with Schema inside the Component -->
+  <section class="section bg-white pt-16 pb-24" id="faq">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <FAQAccordion faqs={faqs} />
     </div>
   </section>
 
@@ -417,62 +414,18 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Lohnt sich SEO heute überhaupt noch für meine Nische?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, absolut. In der Sprechstunde analysieren wir, ob deine Nische durch KI-Antworten bedroht ist oder ob es noch genügend wertvollen Traffic gibt, den wir abgreifen können."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Was kostet SEO bei dir abseits der Sprechstunde?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ich arbeite mit klaren, pauschalen Paketen: Meine Sprechstunde ist der perfekte Einstieg (400€). Für fundierte Account-Audits gibt es das 10-Stunden Paket für 1.600€. Für eine fortlaufende Betreuung biete ich einen Monatlichen Retainer ab 1.600€ an. Die Pakete sind flexibel für SEO, SEA oder eine Kombination anwendbar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Soll ich für meinen Content voll auf KI setzen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "KI ist ein Werkzeug, kein kompletter Ersatz. Wir besprechen, wie du KI effizient einsetzt, ohne deine Marke zu schwächen oder von Google wegen minderwertigem Content abgestraft zu werden."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kann ich auch nur 1 Stunde buchen und nur 200 € bezahlen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Nein. Weil die Vorbereitung, das Kunden anlegen im System, die Rechnungstellung, die Kommunikation im Vorfeld und danach sowie das Einarbeiten ins Thema als administrativer Aufwand zählt und eingerechnet wird – daher immer 2 Stunden und 400 €."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Wie lange dauert es, bis ich die ersten Ergebnisse sehe?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Das hängt von Konkurrenz und Website-Zustand ab. Technische Quick-Wins zeigen oft nach wenigen Wochen Ergebnisse, Content-Strategien eher nach 3-6 Monaten."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kann ich die Sprechstunde auch für einen Website-Relaunch nutzen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Definitiv. Das ist einer der besten Zeitpunkte, um teure Fehler bei der Struktur oder den Weiterleitungen zu vermeiden, bevor die neue Seite live geht."
-          }
-        }
-      ]
-    }
-  </script>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer.replace(/<[^>]*>?/gm, '')
+      }
+    }))
+  })} />
 
   <!-- CTA -->
   <section class="section bg-dark text-white">

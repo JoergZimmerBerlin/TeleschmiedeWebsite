@@ -82,7 +82,7 @@ Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist
 
 Also: Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
 
-ALOHA ✌️
+ALOHA
 
 <div class="blog-cta-box">
 <strong>Werde Teil der SEO-Welle!</strong>

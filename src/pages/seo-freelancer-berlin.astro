@@ -162,57 +162,74 @@ const faqs = [
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <!-- Säule 1 -->
         <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">⚙️</div>
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
           <h3 class="text-2xl font-bold mb-4">1. Technisches SEO (Das Fundament)</h3>
           <p class="text-gray-700 leading-relaxed mb-4">
             Eine Website, die lahm ist oder von Suchmaschinen nicht richtig gecrawlt werden kann, ist wie ein Ferrari ohne Motor. Sie sieht vielleicht gut aus, bewegt sich aber nicht fleck.
           </p>
           <ul class="space-y-3 text-gray-dark list-none pl-0">
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Core Web Vitals & PageSpeed:</strong> Blitzschnelle Ladezeiten durch Image-Kompression, Caching und sauberen Code.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Crawlbarkeit:</strong> Behebung von Redirect-Chains, 404-Fehlern und Blockierung wichtiger Assets durch die robots.txt.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Strukturierte Daten (Schema.org):</strong> Wir sprechen mit Google in seiner Heimatsprache (JSON-LD), um Rich Snippets wie FAQs oder Produktsterne zu erzwingen.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Core Web Vitals & PageSpeed:</strong> Blitzschnelle Ladezeiten durch Image-Kompression, Caching und sauberen Code.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Crawlbarkeit:</strong> Behebung von Redirect-Chains, 404-Fehlern und Blockierung wichtiger Assets durch die robots.txt.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Strukturierte Daten (Schema.org):</strong> Wir sprechen mit Google in seiner Heimatsprache (JSON-LD), um Rich Snippets wie FAQs oder Produktsterne zu erzwingen.</li>
           </ul>
         </div>
 
         <!-- Säule 2 -->
         <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">✍️</div>
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            </svg>
+          </div>
           <h3 class="text-2xl font-bold mb-4">2. Inhaltliches SEO (Content & Suchintention)</h3>
           <p class="text-gray-700 leading-relaxed mb-4">
             Es geht nicht darum, Texte mit Keywords vollzustopfen. "SEO-Texte" der alten Schule verursachen heute bei Usern und bei Google nur noch Kopfschmerzen. Wir brauchen Inhalte, die exakt die Suchintention (Information, Transaktion, Navigation) treffen.
           </p>
           <ul class="space-y-3 text-gray-dark list-none pl-0">
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Content Audits:</strong> Wir identifizieren "Zombie-Seiten", die Traffic fressen, und konsolidieren diese.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Entity-basierte Optimierung:</strong> Text-Strukturierung durch H1-H4 Tags, semantische Keywords (WDF*IDF war gestern, wir denken in Themenclustern).</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Die Contextual-Brücke:</strong> Content, der Technologie und Nutzer-Empathie perfekt miteinander verbindet.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Content Audits:</strong> Wir identifizieren "Zombie-Seiten", die Traffic fressen, und konsolidieren diese.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Entity-basierte Optimierung:</strong> Text-Strukturierung durch H1-H4 Tags, semantische Keywords (WDF*IDF war gestern, wir denken in Themenclustern).</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Die Contextual-Brücke:</strong> Content, der Technologie und Nutzer-Empathie perfekt miteinander verbindet.</li>
           </ul>
         </div>
 
         <!-- Säule 3 -->
         <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">🔗</div>
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+            </svg>
+          </div>
           <h3 class="text-2xl font-bold mb-4">3. Strategisches SEO (Authority & Linkbuilding)</h3>
           <p class="text-gray-700 leading-relaxed mb-4">
             Backlinks sind nach wie vor das stärkste Vertrauenssignal im Algorithmus. Aber nicht jeder Link ist ein guter Link. Wer heute auf billige PBNs (Private Blog Networks) setzt, spielt russisches Roulette mit seinem Business.
           </p>
           <ul class="space-y-3 text-gray-dark list-none pl-0">
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Digital PR:</strong> Echte Erwähnungen in relevanten Fachmedien und Magazinen.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Backlink-Audits (Toxizität):</strong> Analyse deines aktuellen Linkprofils durch Tools wie Ahrefs, um toxische Altlasten über das Disavow-Tool zu entwerten.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Interne Verlinkung:</strong> Der unterschätzte Hebel. Perfekte Silobildung, um den Linkjuice gezielt auf deine Money-Pages zu lenken.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Digital PR:</strong> Echte Erwähnungen in relevanten Fachmedien und Magazinen.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Backlink-Audits (Toxizität):</strong> Analyse deines aktuellen Linkprofils durch Tools wie Ahrefs, um toxische Altlasten über das Disavow-Tool zu entwerten.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Interne Verlinkung:</strong> Der unterschätzte Hebel. Perfekte Silobildung, um den Linkjuice gezielt auf deine Money-Pages zu lenken.</li>
           </ul>
         </div>
 
         <!-- Säule 4 -->
         <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 group-hover:scale-110 transition-transform">🚑</div>
+          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6 group-hover:scale-110 transition-transform">
+            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
           <h3 class="text-2xl font-bold mb-4">4. Relaunch-Begleitung (Die Unfallchirurgie)</h3>
           <p class="text-gray-700 leading-relaxed mb-4">
             Die meisten Kunden melden sich nicht, wenn alles toll läuft. Sie melden sich bei mir aus genau zwei Gründen: Einer Google Penalty oder nach einem Website-Relaunch, bei dem der Traffic um 60% eingebrochen ist.
           </p>
           <ul class="space-y-3 text-gray-dark list-none pl-0">
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Redirect-Mapping:</strong> Lückenlose 301-Weiterleitungen, damit keine alten URLs ins Leere (404) laufen.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>Staging-Umgebungen:</strong> Begleitung der Webentwicklung von der Testumgebung bis zum Live-Gang.</li>
-            <li class="flex items-start gap-2"><span class="text-lime-600 font-bold">✓</span> <strong>URL-Struktur-Beratung:</strong> Saubere Hierarchien für Shops (Kategorie-Filter, Facettennavigation ohne Duplicate Content).</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Redirect-Mapping:</strong> Lückenlose 301-Weiterleitungen, damit keine alten URLs ins Leere (404) laufen.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>Staging-Umgebungen:</strong> Begleitung der Webentwicklung von der Testumgebung bis zum Live-Gang.</li>
+            <li class="flex items-start gap-2"><svg class="w-5 h-5 text-lime-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> <strong>URL-Struktur-Beratung:</strong> Saubere Hierarchien für Shops (Kategorie-Filter, Facettennavigation ohne Duplicate Content).</li>
           </ul>
         </div>
       </div>

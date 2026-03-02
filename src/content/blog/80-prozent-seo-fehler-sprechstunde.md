@@ -82,7 +82,7 @@ Du musst kein technisches Genie sein, um 80% deiner SEO-Probleme zu lösen. Es g
 
 Wenn du diese Basics im Griff hast, gehörst du bereits zu den Top 20% im Netz. Der Rest ist dann Finetuning.
 
-ALOHA ✌️
+ALOHA
 
 <div class="blog-cta-box">
 <strong>Lass uns deine Website "grillen"!</strong>

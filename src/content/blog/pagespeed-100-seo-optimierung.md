@@ -122,7 +122,7 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 
 ---
 
-*ALOHA ✌️ – Lass uns deine Seite zum Rennen bringen!*
+*ALOHA – Lass uns deine Seite zum Rennen bringen!*
 
 ### Weiterführende Artikel für Performance-Freaks
 * **Lese-Tipp:** [Core Web Vitals: Warum dein UX-Bericht über deinen Erfolg entscheidet](/blog/core-web-vitals-ux-bericht/)

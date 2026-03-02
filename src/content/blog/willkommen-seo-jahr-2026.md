@@ -78,7 +78,7 @@ Nicht um Google. Nicht um ChatGPT. Nicht um den neuesten Algorithmus-Trick. Es g
 
 *Dieser Artikel basiert auf meinem LinkedIn-Post, der 78 Reaktionen und 34 Kommentare ausgelöst hat. Ein Zeichen dafür, dass die Frustration über SEO-Missverständnisse in unserer Branche real und allgegenwärtig ist.*
 
-ALOHA ✌️
+ALOHA
 
 <div class="blog-cta-box">
 <strong>Du willst dein SEO 2026 richtig angehen?</strong>

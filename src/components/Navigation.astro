@@ -31,7 +31,7 @@ const isActive = (href: string) => {
   <div class="max-w-6xl mx-auto px-6 py-4">
     <nav class="flex items-center justify-between">
       <!-- Logo -->
-      <a href={`${baseUrl}/`} class="flex items-center gap-2.5">
+      <a href={`${baseUrl}/`} class="flex items-center gap-2.5 group">
         <Image
           src={logoImage}
           alt="Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau"
@@ -39,7 +39,7 @@ const isActive = (href: string) => {
           height={36}
           class="w-9 h-9"
         />
-        <span class="text-xl font-bold text-dark">TELESCHMIE<span class="text-lime-accent">.</span>DE</span>
+        <span class="text-xl font-bold text-dark group-hover:text-lime-600 transition-colors">TELESCHMIE<span class="text-lime-accent">.</span>DE</span>
       </a>
 
       <!-- Desktop Navigation (Pill-Style wie lau.do) -->
@@ -52,7 +52,7 @@ const isActive = (href: string) => {
               'px-4 py-2 rounded-full text-sm font-medium transition-all duration-200',
               isActive(item.href)
                 ? 'bg-white text-dark shadow-sm'
-                : 'text-gray-muted hover:text-dark'
+                : 'text-gray-muted hover:text-lime-600'
             ]}
           >
             {item.label}

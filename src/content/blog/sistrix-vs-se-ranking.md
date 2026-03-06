@@ -27,7 +27,7 @@ Genau deshalb teile ich heute meine persönlichen Erfahrungen aus der Sicht eine
 
 Erst kürzlich habe ich mich intensiv mit den Entwicklungen der Plattform beschäftigt. Dazu gab es auf der Campixx auch einen spannenden Austausch. Wie ich bereits auf LinkedIn geschrieben habe:
 
-> Das Bild musste noch raus! 📸 & Warum ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für AI Tracking & SEO nutze?
+> Das Bild musste noch raus! 📸 & Warum ich [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) für AI Tracking & SEO nutze?
 > Bevor das Jahr rum ist (oder die nächste Campixx startet 😉), hier endlich das Foto mit Nico Kavelar! Hat mich sehr gefreut, dich auf der Campixx getroffen zu haben. Wir haben lange über die Entwicklung von SE Ranking gesprochen. Ich bin ja Fan von effizienten Workflows und da liefert die Suite ordentlich ab.
 > 
 > *[Original auf LinkedIn ansehen](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI)*
@@ -50,7 +50,7 @@ Lass uns Fakten auf den Tisch legen und die beiden Grundversionen vergleichen, d
 
 Sistrix ruft für das Start-Paket mittlerweile rund 119€ im Monat auf. Für Einzelkämpfer ist das absolut in Ordnung und marktüblich. Sobald das Team aber wächst oder man Mandanten eigene Reporting-Zugänge geben möchte, wird es restriktiv und schnell teuer.
 
-**Die Vorteile von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) im Essential-Plan (bei jährlicher Zahlung deutlich unter 60€ im Monat):**
+**Die Vorteile von [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) im Essential-Plan (bei jährlicher Zahlung schon ab rund 44€ im Monat):**
 - **Mehr Mitarbeiterplätze (Seats):** Du kannst deinem Team direkt Zugriff geben, ohne ständig Extra-Gebühren zahlen zu müssen.
 - **Mehr verwaltbare Projekte:** Die Anzahl der Domains im Account ist deutlich flexibler.
 - **Budget-Freundlich:** Da bleibt mehr Budget für aktiven Linkaufbau oder die Content-Kreation übrig.
@@ -110,7 +110,7 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 <div class="blog-cta-box">
   <h3>Lust auf mehr AI Visibility und SEO-Power?</h3>
   <p>Wenn du SE Ranking selbst testen willst und dir das All-in-One Tool einmal genauer ansehen möchtest, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
+  <a href="https://seranking.com/de/subscription.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
     Jetzt SE Ranking ausprobieren →
   </a>
 </div>

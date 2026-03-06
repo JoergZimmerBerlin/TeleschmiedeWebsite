@@ -69,7 +69,7 @@ Der Core-Zugang reicht für die allermeisten Freelancer und Inhouse-SEOs am Anfa
 
 Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiedenen Branchen verglichen. SE Ranking hat dazu auch selbst mal eine Studie veröffentlicht und sich gefragt, ob sie [eine würdige Sistrix Alternative](https://seranking.com/de/worthy-sistrix-alternative.html?ga=4169588&source=link) sind. Ob man dem Marketing-Sprech des Herstellers immer blind trauen kann? Weiß ich nicht genau. Deshalb prüfe ich die Daten immer selbst mit echten Rankings meiner Kundenprojekte.
 
-![SE Ranking Datenanalyse und Dashboard Vergleich](../../assets/images/blog/sistrix-vs-seranking-light.png)
+![SE Ranking Datenanalyse und Dashboard Vergleich](../../assets/images/blog/sistrix-vs-seranking-light-de.png)
 
 **Die Backlinks im Vergleich:**
 Sistrix ist traditionell im DACH-Raum sehr stark, hat aber im internationalen Vergleich eine eher kleinere Backlink-Datenbank. Wer auch mal über die DACH-Grenzen hinaus optimiert, merkt das recht schnell. SE Ranking protzt hier mit einer massiven Datenbank von über 3 Billionen Backlink-Verbindungen. In der Praxis merke ich das deutlich: Ich finde mit SE Ranking oft schneller kleine Nischen-Backlinks, feine Linkprofil-Veränderungen bei Wettbewerbern und potenziell toxische Verlinkungen als mit der vertrauten Konkurrenz.

@@ -43,6 +43,10 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
 - **Seniorität:** Zeige Expertise ohne unnötigen Jargon. Erkläre komplexe Themen einfach.
 - **Begrüßung/Abschied:** Nutze "Moin!" oder vergleichbare lockere Einstiege und schließe immer mit einem **"ALOHA ✌️"**.
 - **Layout-Regel:** Nutze kurze Absätze. Sorge für genügend Weißraum (wird durch das `blog/[slug].astro` CSS automatisch unterstützt).
+- **Verbotene Phrasen/Wörter:** Folgende Floskeln/Wörter dürfen in Blogartikeln **niemals** verwendet werden:
+    - "Mein Fazit" (Nutze stattdessen z.B. "Lohnt sich das?", "Endgültige Einschätzung", oder ähnliches.)
+    - "Linkbuilding" (Nutze stattdessen deutsche Begriffe wie "Linkaufbau" oder thematisch spezifischere Bezeichnungen.)
+    - "Keyword-Dichte" (Nutze stattdessen "Termgewichtung" oder "relevante Suchbegriffe".)
 
 ## 5. Bildmaterial
 - **Header-Bild:** Hochwertig (PNG/WebP), Format 16:9 oder quadratisch.

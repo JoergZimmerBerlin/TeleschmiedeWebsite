@@ -1,0 +1,156 @@
+---
+import { Image, getImage } from 'astro:assets';
+import Layout from '../layouts/Layout.astro';
+
+import teamImage1 from '../assets/images/team/team-event-1.jpg';
+import teamImage2 from '../assets/images/team/team-event-2.jpg';
+import teamImage3 from '../assets/images/team/team-event-3.jpg';
+
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const teamImage1Webp = await getImage({ src: teamImage1, format: 'webp' });
+---
+
+<Layout
+  title="Freelancer Team | Jörg Zimmer & Netzwerk"
+  description="Lerne mein Freelancer Team kennen: Zusammen mit motivierten Profis biete ich geballte Kompetenz in SEO, Tracking, Social Media, Webdesign und mehr. ALOHA! 🌻"
+>
+  <!-- Hero -->
+  <section class="section">
+    <div class="container-narrow">
+      <p class="subheadline mb-6">Netzwerk & Partner</p>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
+        Gemeinsam stark: Das <span class="highlight">Freelancer Team</span>.
+      </h1>
+
+      <p class="text-xl text-dark leading-relaxed font-medium mb-12">
+        Moin! Ich bin stolzer Teil und aktives Mitglied im Freelancer Team. Meine Mission hier ist es, mit motivierten Profis langfristig zusammenzuarbeiten und schnell für alle Disziplinen ein eingespieltes Team bereitzustellen.
+      </p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="pb-20">
+    <div class="container-narrow">
+      <div class="grid md:grid-cols-3 gap-12">
+        <!-- Sidebar Images -->
+        <div class="md:col-span-1 space-y-6">
+          <Image
+            src={teamImage1}
+            alt="Jörg Zimmer auf einem Event des Freelancer Teams"
+            width={800}
+            height={800}
+            class="w-full aspect-square object-cover object-center rounded-2xl shadow-sm h-auto"
+            loading="eager"
+            fetchpriority="high"
+          />
+
+          <Image
+            src={teamImage2}
+            alt="Weihnachtsfeier / Sommerfest des Freelancer Teams"
+            width={800}
+            height={800}
+            class="w-full aspect-square object-cover object-center rounded-2xl shadow-sm h-auto"
+            loading="lazy"
+          />
+
+          <Image
+            src={teamImage3}
+            alt="Gute Stimmung im Freelancer Team"
+            width={800}
+            height={800}
+            class="w-full aspect-square object-cover object-center rounded-2xl shadow-sm h-auto"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Main Text -->
+        <div class="md:col-span-2 space-y-8">
+          
+          <h2 class="text-3xl font-bold">Geballte Kompetenz für deine Projekte</h2>
+          <p class="text-gray-muted leading-relaxed">
+            Ich bringe meine jahrzehntelange SEO- und SEA-Erfahrung ein. Aber oft braucht ein Projekt mehr als nur Suchmaschinenoptimierung. Genau hier kommt das Netzwerk ins Spiel: Ich gebe Kunden den direkten Zugang für alles, was ich selbst nicht anbiete.
+          </p>
+
+          <ul class="space-y-3 text-gray-text mb-8">
+            <li class="flex items-start gap-3">
+              <span class="text-lime-accent mt-1">→</span>
+              <strong>Tracking & Webanalyse</strong>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-lime-accent mt-1">→</span>
+              <strong>Social Media Marketing</strong>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-lime-accent mt-1">→</span>
+              <strong>Webdesign & Programmierung</strong>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-lime-accent mt-1">→</span>
+              <strong>Grafik & Video Produktion</strong>
+            </li>
+          </ul>
+
+          <p class="text-gray-muted leading-relaxed">
+            Manchmal übergebe ich auch SEO-Anfragen an meine Kollegen, wenn sie fachlich nicht hundertprozentig in mein Kerngebiet fallen oder wenn ich operativ keine Kapazitäten habe. <strong>Hauptsache, der Kunde bekommt seine Projekte schnell und professionell auf die Straße.</strong>
+          </p>
+
+          <h3 class="text-2xl font-bold mt-12 mb-4">Familienanschluss inklusive</h3>
+          <p class="text-gray-muted leading-relaxed">
+            Wenn wir uns im Team zusammenfinden, ist die Stimmung einfach immer super. Durch unsere gemeinsamen Events – wie das Sommerfest oder die Weihnachtsfeier – bekomme ich sogar den "Familienanschluss" mitgeliefert. Das macht riesig Spaß, motiviert ungemein und hilft am Ende vor allem einem: meinen Kunden. Danke für alles!
+          </p>
+
+          <!-- Quote Block -->
+          <blockquote class="bg-gray-50 border-l-4 border-lime-accent p-6 rounded-r-2xl my-10 italic text-dark max-w-2xl">
+            "Meine Leidenschaft liegt in der Suchmaschinenoptimierung. Doch wenn ein Kunde Webdesign, Social Media oder komplexes Tracking braucht, greife ich auf dieses geniale Netzwerk zurück. So kommt jedes Projekt auf die Straße."
+            <footer class="mt-4 text-sm font-bold text-gray-500 not-italic">
+              <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_freelancerteam-activity-7212050155968081921-Kocl?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI" target="_blank" rel="noopener noreferrer" class="hover:text-lime-600 transition-colors">
+                — Beitrag auf LinkedIn <span class="text-lime-accent">↗</span>
+              </a>
+            </footer>
+          </blockquote>
+
+          <blockquote class="bg-gray-50 border-l-4 border-lime-accent p-6 rounded-r-2xl my-10 italic text-dark max-w-2xl">
+            "Zusammenarbeit auf Augenhöhe. Ein eingespieltes Team für jede Disziplin. Die Stimmung beim Sommerfest zeigt: Hier passt es fachlich UND menschlich."
+            <footer class="mt-4 text-sm font-bold text-gray-500 not-italic">
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7399764736323506176" target="_blank" rel="noopener noreferrer" class="hover:text-lime-600 transition-colors">
+                — Beitrag auf LinkedIn <span class="text-lime-accent">↗</span>
+              </a>
+            </footer>
+          </blockquote>
+
+          <div class="mt-12 bg-dark text-white p-8 rounded-3xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-lime-accent rounded-full opacity-10 blur-3xl -mr-32 -mt-32"></div>
+            <h3 class="text-2xl font-bold mb-4 relative z-10">Lerne das Team kennen</h3>
+            <p class="text-white/80 mb-6 relative z-10 max-w-xl">
+              Egal welches digitale Projekt du planst – wir haben die passenden Köpfe dafür. Schau dir das gesamte Netzwerk und unsere geballte Kompetenz an.
+            </p>
+            <a href="https://freelancerteam.de/" target="_blank" rel="noopener noreferrer" class="btn-primary relative z-10 inline-flex items-center gap-2">
+              Zur FreelancerTeam Website <span class="text-dark bg-white rounded-full p-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg></span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simple Schema for the page -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Freelancer Team Partner | Jörg Zimmer",
+    "description": "Informationen über die Zusammenarbeit von SEO Freelancer Jörg Zimmer mit dem Freelancer Team Netzwerk.",
+    "url": "https://teleschmie.de/freelancer-team/",
+    "mainEntity": {
+      "@type": "Organization",
+      "@id": "https://freelancerteam.de/#organization",
+      "name": "Freelancer Team",
+      "url": "https://freelancerteam.de/",
+      "member": {
+        "@type": "Person",
+        "@id": "https://teleschmie.de/#person"
+      }
+    }
+  })} />
+</Layout>

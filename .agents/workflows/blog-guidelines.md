@@ -8,7 +8,7 @@ Diese Anforderungen gelten für alle neuen Blogartikel auf teleschmie.de, um SEO
 
 ## 1. Umfang & Metadaten
 - **Länge:** Jeder Artikel muss zwischen **800 und 1000 Wörtern** liegen.
-- **Frontmatter:** Muss `title`, `description`, `date`, `linkedin_url`, `image` und `image_alt` enthalten.
+- **Frontmatter:** Muss `title`, `description`, `date`, `linkedin_url`, `image`, `image_alt` und `key_takeaways` enthalten. Die `key_takeaways` müssen aus exakt 3 prägnanten Bulletpoints bestehen.
 - **URL-Slug:** Kurz, kleingeschrieben, mit Bindestrichen (z.B. `rankscale-ai-tracking`).
 - **Interne Links:** Alle internen Links müssen zwingend mit einem **abschließenden Trailing Slash** enden (z.B. `[Link](/seite/)` statt `[Link](/seite)`). Dies gilt global für alle Markdown-Dateien und Komponenten.
 
@@ -51,6 +51,7 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
     - **Inhalt:** Visualisieren den Inhalt (z.B. Prozesse, Vergleiche, Statistiken).
     - **Stil:** Moderner 3D-Stil mit Lime-Akzenten (`#D9FF00` / `lime-accent`), passend zur Brand Identity von teleschmie.de.
     - **Sprache:** Alle Textelemente innerhalb der Infografiken müssen zwingend auf **Deutsch** sein.
+    - **Watermark:** Jede Infografik muss zwingend unten rechts ein kleines Wasserzeichen oder den Text "Jörg Zimmer" enthalten.
     - **Einbau:** Optisch ansprechend in den Textfluss integriert (meist nach relevanten Abschnitten oder vor dem Fazit).
 - **Speicherort:** `/public/images/blog/`.
 - **Git-Hinweis:** Da `public/images` oft in der `.gitignore` ist, neue Bilder mit `git add -f [Pfad]` forcen.

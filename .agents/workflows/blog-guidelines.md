@@ -8,7 +8,7 @@ Diese Anforderungen gelten für alle neuen Blogartikel auf teleschmie.de, um SEO
 
 ## 1. Umfang & Metadaten
 - **Länge:** Jeder Artikel muss zwischen **800 und 1000 Wörtern** liegen.
-- **Frontmatter:** Muss `title`, `description`, `date`, `linkedin_url`, `image`, `image_alt` und `key_takeaways` enthalten. Die `key_takeaways` müssen aus exakt 3 prägnanten Bulletpoints bestehen.
+- **Frontmatter:** Muss `title`, `description`, `date`, `linkedin_url`, `image`, `image_alt`, `key_takeaways` und `faqs` enthalten. Die `key_takeaways` müssen aus exakt 3 prägnanten Bulletpoints bestehen. Die `faqs` müssen 3-4 relevante Fragen und Antworten enthalten.
 - **URL-Slug:** Kurz, kleingeschrieben, mit Bindestrichen (z.B. `rankscale-ai-tracking`).
 - **Interne Links:** Alle internen Links müssen zwingend mit einem **abschließenden Trailing Slash** enden (z.B. `[Link](/seite/)` statt `[Link](/seite)`). Dies gilt global für alle Markdown-Dateien und Komponenten.
 
@@ -27,7 +27,9 @@ Ein Artikel muss logisch in folgende Abschnitte unterteilt sein:
     - Persönliche Empfehlung.
 4.  **CTA-Box (Call-to-Action):**
     - Eine auffällige Box mit der Klasse `<div class="blog-cta-box">`.
-    - Enthält eine direkte Handlungsaufforderung (z.B. Buchung einer SEO-Sprechstunde).
+    - Enthält eine direkte Handlungsaufforderung (z.B. Buchung einer SEO-Sprechstunde) oder passenden Affiliate-Link.
+5.  **Weiterführende Artikel (Lesetipps):**
+    - Nach der CTA-Box müssen 2-3 inhaltlich passende interne Links eingefügt werden, formatiert als `* **Lese-Tipp:** [Titel](/link/)`.
 
 ## 3. Authentizität & LinkedIn-Integration
 - Integriere regelmäßig **Original-Zitate aus LinkedIn-Posts oder Kommentaren** (eigene oder von Experten).

@@ -11,17 +11,27 @@
     @apply font-sans text-gray-text antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-dark font-bold;
   }
 
-  .text-white h1, .text-white h2, .text-white h3,
-  .text-white h4, .text-white h5, .text-white h6 {
+  .text-white h1,
+  .text-white h2,
+  .text-white h3,
+  .text-white h4,
+  .text-white h5,
+  .text-white h6 {
     color: inherit;
   }
 }
 
 @layer components {
+
   /* Lime Highlight (Pill-Shape wie bei lau.do) */
   .highlight {
     @apply bg-lime-accent px-3 rounded-full;
@@ -54,11 +64,12 @@
 
   /* Container */
   .container-narrow {
-    @apply max-w-4xl mx-auto px-6;
+    @apply max-w-6xl mx-auto px-6;
   }
 }
 
 @layer utilities {
+
   /* Smooth fade-in animation */
   .fade-in {
     animation: fadeIn 0.6s ease-out forwards;
@@ -70,6 +81,7 @@
       opacity: 1;
       transform: translateY(0);
     }
+
     from {
       opacity: 0;
       transform: translateY(20px);

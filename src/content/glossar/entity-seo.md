@@ -2,7 +2,7 @@
 title: "Entity SEO (Entitäten-Optimierung)"
 description: "Entity SEO ist die Optimierung von Inhalten basierend auf Themen-Clustern und semantischen Beziehungen statt auf reinen Keywords."
 date: "2026-03-10"
-image: "/src/assets/images/glossar/entity-seo-semantic-web-de.png"
+image: "../../assets/images/glossar/entity-seo-semantic-web-de.png"
 related_terms: ["entitaet", "knowledge-graph", "geo"]
 ---
 

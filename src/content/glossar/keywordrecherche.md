@@ -2,7 +2,7 @@
 title: "Keywordrecherche"
 description: "Die Keywordrecherche ist das Fundament jeder SEO-Maßnahme. Erfahre, wie du die Begriffe findest, nach denen deine Kunden wirklich suchen."
 date: "2026-03-10"
-image: "/src/assets/images/glossar/keyword-intent-funnel-de.png"
+image: "../../assets/images/glossar/keyword-intent-funnel-de.png"
 related_terms: ["keywoerter", "suchvolumen", "keyword-tool"]
 ---
 

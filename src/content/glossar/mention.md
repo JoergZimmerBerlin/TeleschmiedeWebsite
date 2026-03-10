@@ -2,7 +2,7 @@
 title: "Mention (Markennennung)"
 description: "Eine Mention ist die namentliche Erwähnung einer Marke oder Person im Netz. Sie dient als indirektes Vertrauenssignal für Suchmaschinen und KI-Modelle."
 date: "2026-03-10"
-image: "/src/assets/images/glossar/local-seo-karte-de.png"
+image: "../../assets/images/glossar/local-seo-karte-de.png"
 related_terms: ["citation", "entitaet", "e-e-a-t"]
 ---
 

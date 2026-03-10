@@ -2,7 +2,7 @@
 title: "Title Tag (HTML-Titel)"
 description: "Das Title Tag ist eines der wichtigsten On-Page SEO-Elemente. Es definiert den anklickbaren Titel in den Suchergebnissen und ist ein primärer Rankingfaktor."
 date: "2026-03-10"
-image: "/src/assets/images/glossar/serp-anatomie-de.png"
+image: "../../assets/images/glossar/serp-anatomie-de.png"
 related_terms: ["meta-description", "h1-h2-h3"]
 ---
 

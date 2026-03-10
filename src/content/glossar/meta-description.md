@@ -2,7 +2,7 @@
 title: "Meta Description (Seitenbeschreibung)"
 description: "Die Meta Description ist der kurze Vorschautext in den Suchergebnissen. Sie ist kein direkter Rankingfaktor, aber entscheidend für eine hohe Klickrate (CTR)."
 date: "2026-03-10"
-image: "/src/assets/images/glossar/serp-anatomie-de.png"
+image: "../../assets/images/glossar/serp-anatomie-de.png"
 related_terms: ["title-tag", "noindex"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Interne Verlinkung (On-Page Linking)"
 description: "Die interne Verlinkung steuert den Nutzerfluss und die Verteilung von Autorität (Linkjuice) auf deiner Website. Erfahre, wie du eine perfekte Struktur aufbaust."
 date: "2026-03-10"
-image: "/src/assets/images/glossar/interne-verlinkung-netz-de.png"
+image: "../../assets/images/glossar/interne-verlinkung-netz-de.png"
 related_terms: ["linkjuice", "crawling-vs-indexing"]
 ---
 

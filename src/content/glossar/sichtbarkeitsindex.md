@@ -21,6 +21,8 @@ Stattdessen ist der Sichtbarkeitsindex eine mathematische Annäherung, ein relat
 
 Der fertige Sichtbarkeitsindex ist die Summe der Klickwahrscheinlichkeiten aller Keywords, zu denen deine Domain platziert ist, gewichtet nach deren jeweiligem Suchvolumen. 
 
+![Sistrix vs. SE Ranking - Daten im Vergleich](../../assets/images/blog/sistrix-vs-seranking-light-de.png)
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Warum Traffic != Sichtbarkeit ist</h4>
   <p class="mb-0 text-sm">Ein stetig steigender Sichtbarkeitsindex bedeutet nicht zwingend mehr Umsatz. Rankst du plötzlich auf Platz 1 für das High-Volume-Keyword "Kostenlose Bilder", schießt dein Sichtbarkeitsindex durch die Decke. Verkaufst du auf deiner Seite aber Industriekrane, wird dir diese Sichtbarkeit exakt 0 Euro Umsatz einbringen. Sichtbarkeit zeigt nur die "Masse der Berührungspunkte" an, nicht unbegingt die Qualität der Konversion.</p>

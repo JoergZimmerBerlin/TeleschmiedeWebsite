@@ -15,6 +15,8 @@ Stell dir das Web als ein gigantisches Netzwerk aus miteinander verbundenen Gef�
 
 Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains wie die Wikipedia oder große Zeitungen auf sie verlinken), ist ihr Gefäß bis zum Rand mit Linkjuice gefüllt. Setzt du nun von deiner Startseite einen Link zu deinem neuesten Blog-Artikel, fließt ein beachtlicher Teil dieses Saftes in den Artikel. Dieser gewinnt an [Sichtbarkeit](/blog/sistrix-vs-se-ranking/) im Google-Index.
 
+![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.png)
+
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
   <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">🧮 Die Mathematik hinter dem Fluss</h3>
   <div class="space-y-4">

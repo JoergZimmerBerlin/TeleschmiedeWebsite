@@ -59,6 +59,8 @@ Auch du als Webseitenbesitzer kannst steuern, wer dich auslesen darf:
 *   **`User-agent: GPTBot`** und dann **`Disallow: /`** sperrt explizit den Crawler von OpenAI aus. Dein Content wird nicht genutzt, um zukünftige GPT-Modelle zu trainieren.
 *   **Strategisches Problem:** Wenn du `PerplexityBot` oder KIs aussperrst, sorgst du aber auch dafür, dass diese Engines dich nicht mehr im RAG-Prozess (Real-time Citations) erwähnen können. Du machst dich extrem sicher vor Datenverlust, aber gleichzeitig völlig unsichtbar in der generativen KI-Suche ([AI Overview Praktikanten Paradoxon](/blog/ai-seo-geo-praktikanten/)). 
 
+![Infografik: Die Evolution der SEO Bots](../../assets/images/blog/bot-evolution.png)
+
 ### Zusammenfassung
 
 Die `robots.txt` ist das Fundament des Crawl-Budgets (der Effizienz, mit der Google deine Seite besucht). Sperre hier logischerweise Backend-Seiten, Parameter-URLs, Warenkörbe, User-Profile oder Suchfunktions-Resultate aus. Die Datei ist ein mächtiges, wenn auch stumpfes Schwert: Handle bei Setzung und Änderung mit maximaler Sorgfalt, am besten, indem du das Tool zur "robots.txt Testung" in Googles Search Console vorab nutzt oder das Setup einem Tool wie [Sistrix und SE Ranking](/blog/sistrix-vs-se-ranking/) überlässt, die fehlkonfigurierte Anweisungen sofort mit feuerroten Alerts melden.

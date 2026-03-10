@@ -32,6 +32,8 @@ Der einzige Mechanismus, der das Crawling einer URL aktiv **vorab** verbieten ka
   <p class="mb-0 text-sm">Das massenhafte Downloaden von Millionen URLs kostet Google jeden Tag unfassbar viel Strom, Cache-Speicher und Geld. Jede Seite besitzt daher ein "Crawl Budget" – eine fiktive Grenze an täglichen Abrufen, nach der sich Google abmeldet. Ertränkt sich dein Crawl-Budget in unsinnigen URLs (Faceted Navigation, Parameter, Session-IDs, Tausende leere Tag-Seiten), crawlt Google nie deine neuen, hochwertigen Beiträge. Die Effizienz deines Crawlings ist das Herz der OnPage-Optimierung!</p>
 </div>
 
+![Infografik: Die Timeline der Google Updates](../../assets/images/blog/google-updates-timeline.png)
+
 ---
 
 ## 🗃️ Phase 2: Das Indexing (Das Einordnen & Bewerten)

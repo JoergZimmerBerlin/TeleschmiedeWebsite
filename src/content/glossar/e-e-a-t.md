@@ -37,6 +37,8 @@ Google bewertet Inhalte fließend auf Basis dieser vier Säulen. Sie sind keine 
   </div>
 </div>
 
+![Infografik: Die SEO Verantwortungskette](../../assets/images/blog/seo-responsibility-chain.png)
+
 ## Wie optimiert man für E-E-A-T?
 
 Es gibt keinen "Magischen E-E-A-T-Button" im WordPress-Backend. Der Aufbau dieses Status ist ein strategischer Langzeitprozess, der weit über die klassische OnPage-Optimierung hinausgeht. 

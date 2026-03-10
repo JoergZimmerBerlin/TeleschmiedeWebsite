@@ -15,18 +15,16 @@ faqs:
     answer: "Analytics ist verhaltensorientiert: Es zeigt dir im Detail, was die Nutzer tun, *nachdem* sie deine Website betreten haben (Verweildauer, Klicks, komplizierte Kaufabschlüsse). Die Search Console ist hingegen rein akquisitionsorientiert: Sie zeigt dir messerscharf, was direkt *vor* dem Klick in der Suchmaschine passiert ist. Für exakt welche Suchbegriffe hast du Impressions generiert? Auf welcher Ranking-Position warst du sichtbar? Und ganz wichtig: Liegen fatale Fehler vor, die das Crawling blockieren?"
   - question: "Wie kompliziert ist die Installation der Search Console?"
     answer: "Die Verifizierung deiner Website-Inhaberschaft ist der allererste Schritt und glücklicherweise selbst für Einsteiger machbar. Der mit Abstand sicherste und von Profis favorisierte Weg ist die DNS-Verifizierung (als 'Domain Property'), da du hiermit direkt alle Subdomains und Protokolle (http/https) auf einen Schlag sauber erfasst. Alternativ kannst du auch simpel einen kleinen HTML-Tag im `<head>` deiner Seite platzieren oder die Freischaltung nahtlos über ein bereits verifiziertes Google Analytics-Konto anstoßen."
----
-
-Moin!
+---Moin!
 
 Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google Search Console (GSC)**. Während andere Tools (wie Sistrix oder SE Ranking) Daten schätzen und hochrechnen, liefert dir die GSC die nackte Wahrheit direkt aus dem Maschinenraum von Google.
 
-Wer die Search Console ignoriert, fliegt im SEO-Blindflug. Hier erfährst du nicht nur, wie viele Leute auf deine Links klicken, sondern auch, ob Google deine Seite überhaupt leiden kann.
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
-  <p class="italic text-dark mb-0">"Prüfe deine Core Web Vitals in der Google Search Console. Probiere wenigstens, die 80/100 Punkte und die grünen Core Web Vitals zu erreichen."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Es gibt keine 'geheimen Rankingfaktoren'. Google will die beste Antwort für den Nutzer. Sei die beste Antwort."</p>
 </div>
+
+Wer die Search Console ignoriert, fliegt im SEO-Blindflug. Hier erfährst du nicht nur, wie viele Leute auf deine Links klicken, sondern auch, ob Google deine Seite überhaupt leiden kann.
 
 ---
 

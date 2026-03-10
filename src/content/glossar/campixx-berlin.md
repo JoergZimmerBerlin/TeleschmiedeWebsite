@@ -15,11 +15,14 @@ faqs:
     answer: "Der wohl größte Unterschied ist das Barcamp-Prinzip. Während man bei der OMR oder SMX oft nur Frontalbeschallung bekommt, wird auf der Campixx echtes Wissen 'geschmiedet'. Sessions entstehen oft spontan durch Fragen aus der Community. Jörg meint: 'Hier lernst du die Dinge, die Google in seinen offiziellen Dokumentationen lieber verschweigt.' Es ist eine Konferenz von Experten für Experten."
   - question: "Lohnt sich die Campixx auch für Einsteiger oder Inhouse-Marketer?"
     answer: "Absolut, aber man muss mutig sein. Die Themen können sehr technisch werden (z.B. Logfile-Analyse oder Python für SEO). Für Inhouse-Marketer ist es eine Goldgrube, um ein echtes Gefühl für die Qualität ihrer Agenturen zu bekommen. Man lernt, die richtigen Fragen zu stellen und Trends von Hypes zu unterscheiden. Ein Wochenende Campixx spart oft Monate an teurem Consulting."
----
-
-Moin!
+---Moin!
 
 Es gibt Termine im Jahr, die sind im Kalender rot markiert. Die **Campixx** (viele sagen immer noch SEO Campixx) ist genau so ein Highlight. Seit 2026 findet sie im **Van der Valk Hotel Berlin Brandenburg** in Blankenfelde-Mahlow statt – vorher war es jahrelang die legendäre Location am Müggelsee. Es ist kein klassisches "Anzug-Event", sondern das wohl größte und herzlichste Klassentreffen der Branche.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie."</p>
+</div>
 
 Wer hier hinfährt, will nicht nur Folien starren. Wer hier hinfährt, will den Deep Dive. Und genau das ist mein Ding.
 
@@ -71,4 +74,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Der SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/)
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)
-

@@ -15,11 +15,14 @@ faqs:
     answer: "Drei Hebel: Der Title-Tag muss in 60 Zeichen neugierig machen, den Suchintent treffen und idealerweise eine Zahl oder einen Benefit enthalten. Die Meta-Description hat 160 Zeichen für den Elevator Pitch – nutze einen Call-to-Action. Und nutze strukturierte Daten für Rich Snippets: FAQ-Markup erzeugt ausklappbare Fragen, Review-Schema zeigt Sterne, Breadcrumbs verbessern die Navigation. All das vergrößert die Fläche deines Ergebnisses."
   - question: "Was sind Featured Snippets und wie bekomme ich eins?"
     answer: "Featured Snippets sind die hervorgehobenen Antwortboxen über den normalen Suchergebnissen – Position 0. Google wählt dafür Content aus, der eine Frage direkt und präzise beantwortet. Optimiere dafür: Verwende die Frage als H2-Überschrift, beantworte sie in 2-3 Sätzen direkt darunter, und nutze Listen oder Tabellen für strukturierte Informationen. Auf meiner Seite generieren mehrere Glossar-Einträge Featured Snippets, weil sie genau diesem Format folgen."
----
-
-Moin!
+---Moin!
 
 **Snippet Optimierung** ist der am meisten unterschätzte Hebel im SEO. Jeder jagt Rankings – aber kaum jemand optimiert das, was der Nutzer tatsächlich sieht und klickt: das **Snippet**.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
+</div>
 
 Dein Snippet ist dein Schaufenster in der Google-Suche. Es entscheidet in Sekundenbruchteilen, ob ein Nutzer auf DEIN Ergebnis klickt oder auf das der Konkurrenz.
 

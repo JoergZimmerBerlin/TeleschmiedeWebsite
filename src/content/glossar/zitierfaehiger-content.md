@@ -15,11 +15,14 @@ faqs:
     answer: "Normales SEO optimiert für Keywords und Rankings. Zitierfähiger Content optimiert für die Extraktion durch Maschinen. Stell dir vor, ChatGPT liest deinen Artikel und sucht einen Satz, den es als Antwort zitieren kann. Findet es diesen Satz? Wenn ja, ist dein Content zitierfähig. In der Praxis bedeutet das: Jeder Abschnitt beginnt mit einer klaren, eigenständigen Aussage, die auch ohne Kontext verständlich ist."
   - question: "Wird mein Content dann nicht einfach geklaut?"
     answer: "Das ist die große Angst – und sie ist teilweise berechtigt. Aber die Alternative ist schlimmer: Wenn dein Content NICHT zitierfähig ist, zitiert die KI jemand anderen. Der Trick ist, deinen Markennamen in den zitierfähigen Content einzubauen. Wenn ChatGPT zitiert: 'Laut Jörg Zimmer, SEO-Experte, sind 80% aller SEO-Fehler technischer Natur' – dann ist das mehr wert als jeder Klick."
----
-
-Moin!
+---Moin!
 
 **Zitierfähiger Content** ist der Stoff, aus dem KI-Antworten gemacht sind. Wenn ChatGPT, Perplexity oder Google SGE eine Frage beantworten, suchen sie im Web nach Content, den sie direkt als Antwort verwenden können.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Es gibt keine 'geheimen Rankingfaktoren'. Google will die beste Antwort für den Nutzer. Sei die beste Antwort."</p>
+</div>
 
 Die Frage ist: Ist das dein Content – oder der deiner Konkurrenz?
 

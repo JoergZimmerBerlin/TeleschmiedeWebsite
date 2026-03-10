@@ -15,10 +15,13 @@ faqs:
     answer: "Auf keinen Fall, das wäre ein massiver strategischer Fehler. Wenn du aus deinen Kunden-E-Mails, Support-Gesprächen oder LinkedIn-Dialogen weißt, dass eine spezifische Frage extrem oft gestellt wird, baue dazu Content – auch wenn Sistrix '0' anzeigt. Gerade im B2B-Umfeld oder bei brandneuen Themen (KI, GEO, LLMs) hinken die Keyword-Tools oft Monate hinter der realen Marktdynamik her. Frühe Relevanz zahlt sich hier mehr aus als das Warten auf messbare Daten."
   - question: "Ab welcher Zahl ist ein monatliches Suchvolumen eigentlich 'gut'?"
     answer: "Es gibt keine allgemein gültige magische Zahl – es hängt zu 100% von der Suchintention und der Gewinnmarge deiner Branche ab. Wenn du als B2B-Spezialmaschinenbauer ein Keyword mit hochexplizitem Kaufintent bedienst, reichen schon 50 Suchen im Monat, um sechsstellige Umsätze zu triggern. In der extrem kompetitiven und margenschwachen Entertainment- oder Fashion-Nische würden dir 10.000 Suchen vielleicht nicht einmal die Hostingkosten einspielen."
----
-
-Suchvolumen ist die Antwort auf die Frage: Lohnt sich das?
+---Suchvolumen ist die Antwort auf die Frage: Lohnt sich das?
 Es gibt an, wie oft ein Keyword pro Monat durchschnittlich bei Google eingegeben wird.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Große Agenturen verkaufen dir gerne einen Junior für den Preis eines Seniors. Ich verkaufe dir meine 24 Jahre Erfahrung, komprimiert auf das, was funktioniert."</p>
+</div>
 
 Klingt simpel. Ist es aber nicht.
 Viele machen den Fehler und jagen nur den hohen Zahlen hinterher.

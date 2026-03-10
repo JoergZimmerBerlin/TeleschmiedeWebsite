@@ -15,13 +15,16 @@ faqs:
     answer: "Das Crawl-Budget, also die Frequenz der Besuche, hängt direkt von der Autorität, der Aktualisierungsrate und der Serverkapazität deiner Website ab. Große News-Portale (wie Spiegel Online) werden sekündlich vom Googlebot besucht. Wenn du hingegen auf einem kleinen B2B-Blog nur einmal im Quartal etwas veröffentlichst, schaut der Crawler oft über Wochen nicht vorbei. Mit einer sauberen XML-Sitemap und Ping-Funktionen kannst du diesen Rhythmus aber positiv beeinflussen."
   - question: "Kann man Crawler aktiv aussperren?"
     answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich oder Warenkorb) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird."
----
-
-Moin!
+---Moin!
 
 Ein Crawler (oder Bot/Spider) ist ein Computerprogramm, das das Internet unermüdlich durchforstet. 
 Stell dir Google wie eine riesige Bibliothek vor. 
 Der Crawler ist der Bibliothekar, der jeden Tag neue Bücher liest und ins Regal sortiert.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie."</p>
+</div>
 
 Ohne Crawler gäbe es kein Google. 
 Sie folgen Links, lesen HTML-Text und schießen Fotos von Websites. 
@@ -83,4 +86,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
 * **Lese-Tipp:** [Warum die robots.txt wichtig ist](/glossar/robots-txt/)
-

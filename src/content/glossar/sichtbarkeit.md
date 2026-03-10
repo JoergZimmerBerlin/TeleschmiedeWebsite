@@ -15,11 +15,14 @@ faqs:
     answer: "Die absolute Low-Hanging-Fruit ist fast immer die technische Onpage-Optimierung und Snippet-Arbeit. Wenn dein Content bereits auf Seite 2 der Suchergebnisse rankt, reicht oft eine Optimierung des Title-Tags, das Beheben von Indexierungsproblemen oder eine verbesserte interne Verlinkung, um den Sprung auf Seite 1 zu schaffen. Für langfristige Sichtbarkeit führt aber kein Weg an exzellentem, E-E-A-T-konformen Content vorbei, der Fragen besser beantwortet als die Konkurrenz."
   - question: "Ist 'Sichtbarkeit' als Kennzahl ein direkter Rankingfaktor?"
     answer: "Nein, Sichtbarkeit ist kein Hebel, den du direkt umlegen kannst, sondern das Resultat all deiner organischen Marketing-Maßnahmen. Google interessiert sich nicht dafür, welchen Index-Wert ein externes Tool für dich berechnet. Wenn aber eine Seite extrem präsent ist (hohe Sichtbarkeit), generiert sie meist auch mehr Branded Search Traffic und natürliche Backlinks. Diese Folgeerscheinungen sind es, die Google sehr wohl als massive Ranking-Signale wertet."
----
-
-Sichtbarkeit ist das Ziel jeder SEO-Strategie.
+---Sichtbarkeit ist das Ziel jeder SEO-Strategie.
 Ganz einfach: Wenn dich niemand sieht, existierst du nicht.
 Zumindest nicht für deine Kunden.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Zweitmeinung mit ehrlichen Augen: Manchmal sieht man vor lauter Keywords den Wald nicht mehr."</p>
+</div>
 
 Früher hieß Sichtbarkeit: Platz 1 bei Google für ein einzelnes Wort.
 Heute ist das viel komplexer.

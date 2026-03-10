@@ -15,11 +15,14 @@ faqs:
     answer: "Nicht direkt mit einem einzigen KPI, aber indirekt über mehrere Indikatoren: Wie oft wird dein Name in Fachmedien erwähnt? Wie viele hochwertige Backlinks hast du? Wie oft wirst du von KI-Systemen als Quelle zitiert? Wächst dein Branded Search Volume? Hast du einen Knowledge Panel bei Google? All diese Signale zusammen ergeben dein Autoritäts-Profil. Tools wie Rankscale messen deine AI Authority über 17 LLMs."
   - question: "Was ist der Unterschied zwischen Expertise und Authoritativeness?"
     answer: "Expertise ist das, was du KANNST. Authoritativeness ist das, was andere über dein Können SAGEN. Du kannst der beste SEO-Experte der Welt sein – wenn niemand dich kennt, hast du keine Autorität. Umgekehrt: Jemand mit wenig Expertise aber großer Bekanntheit hat zwar Autorität, aber sie bröckelt, sobald die fehlende Substanz auffällt. Das Ziel ist die Kombination: Echtes Können + externe Anerkennung."
----
-
-Moin!
+---Moin!
 
 **Authoritativeness** (Autorität) ist der E-E-A-T Faktor, den du dir nicht selbst geben kannst. Er kommt von außen – von Fachmedien, die dich zitieren. Von Experten, die dich empfehlen. Von Plattformen, die dich einladen.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"PDF-Datenbanken als Secret Weapon: AI-Modelle lieben strukturierte Daten."</p>
+</div>
 
 Google fragt: *Wird dieser Mensch (oder diese Website) von der Fachwelt als Autorität anerkannt?*
 

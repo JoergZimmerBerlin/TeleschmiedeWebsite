@@ -15,18 +15,16 @@ faqs:
     answer: "SEO Beratung ist die strategische Landkarte: das 'Was', 'Wann' und vor allem das 'Warum'. Ein Berater analysiert deine Architektur, deckt Potenziale auf und erstellt einen priorisierten Maßnahmenkatalog (z.B. einen Audit). Die SEO Optimierung ist dann die operative, handwerkliche Umsetzung dieses Plans – das Schreiben der Texte, das Fixen der Technik und der Aufbau von Entitäten. Auf teleschmie.de biete ich ganz bewusst beides an, da eine Strategie ohne Umsetzung wertlos ist."
   - question: "Wann brauche ich einen festen SEO Consulting Partner?"
     answer: "Spatestens dann, wenn du spürst, dass dein digitales Wachstum stagniert, obwohl du Content produzierst. Ein Consulting-Partner schaut mit objektivem Experten-Blick von außen auf dein Geschäftsmodell und verhindert blinden Aktionismus. Besonders in Krisensituationen (wie Traffic-Verlust durch Core Updates) oder vor großen Relaunches ist ein erfahrener Consultant unverzichtbar, um fatale und teure Fehlentscheidungen in der Informationsarchitektur zu vermeiden."
----
-
-Moin!
+---Moin!
 
 In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, **SEO Consulting**, **SEO Betreuung**, **SEO Analyse** oder der **SEO Check**. Am Ende des Tages geht es aber immer um eine einzige Sache: Wie bekommen wir mehr relevante Kunden über Google auf deine Website?
 
-Als [SEO-Experte](/seo-freelancer-berlin/) weiß ich, dass viele Unternehmen Unmengen an Zeit und Geld in "SEO Optimierung" stecken, ohne jemals eine echte Strategie zu haben. Das ist wie ein Haus ohne Bauplan zu bauen. Man hat am Ende vielleicht viele Steine (Keywords), aber niemand will darin wohnen (kaufen).
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus dem Podcast (SEOpresso Interview)</p>
-  <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten, die ich an einem Dokument sitze. Er bezahlt für die 24 Jahre, die ich gebraucht habe, um dieses Dokument in 60 Minuten so präzise zu erstellen, dass es den Relaunch rettet."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Suchmaschinen haben noch nie ein Produkt gekauft. Überzeuge den Menschen, der hinter der Tastatur sitzt."</p>
 </div>
+
+Als [SEO-Experte](/seo-freelancer-berlin/) weiß ich, dass viele Unternehmen Unmengen an Zeit und Geld in "SEO Optimierung" stecken, ohne jemals eine echte Strategie zu haben. Das ist wie ein Haus ohne Bauplan zu bauen. Man hat am Ende vielleicht viele Steine (Keywords), aber niemand will darin wohnen (kaufen).
 
 ---
 

@@ -15,18 +15,16 @@ faqs:
     answer: "Noch nicht als separate Rolle, aber als integrierte Kompetenz. Der beste Weg ist ein SEO-Experte, der auch GEO und LLMO versteht und beide Welten verbinden kann. Das ist mein Ansatz: Ich trenne nicht zwischen 'klassischem SEO' und 'AI SEO', sondern behandle es als eine integrierte Strategie. Jede SEO-Maßnahme wird so umgesetzt, dass sie sowohl Google als auch KI-Systemen Signale sendet."
   - question: "Ist AI SEO nur ein neues Buzzword?"
     answer: "Die Begriffe sind neu, ja. Aber die Entwicklung dahinter ist real und messbar. Über 30% aller Google-Suchen zeigen bereits AI Overviews. ChatGPT hat hunderte Millionen aktive Nutzer. Perplexity wächst rasant. Wer diese Kanäle ignoriert, verliert faktisch Sichtbarkeit. AI SEO ist kein Marketing-Buzz – es ist die logische Evolution einer Branche, die sich seit 25 Jahren ständig neu erfindet."
----
-
-Moin!
+---Moin!
 
 **AI SEO** – zwei Buchstaben, die alles verändern. Es ist der Dachbegriff für die nächste Evolution der Suchmaschinenoptimierung: Die Verbindung von klassischem Google-SEO mit der Optimierung für KI-Suchmaschinen.
 
-Wenn mich jemand fragt „Jörg, was machst du eigentlich genau?" – dann ist die präziseste Antwort: AI SEO. Ich optimiere die Sichtbarkeit meiner Kunden in Google **und** in KI-Antworten.
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
-  <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie. AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Messbarkeit ist oft ein Albtraum. Aber der eine Klick, der durchkam, hat konvertiert."</p>
 </div>
+
+Wenn mich jemand fragt „Jörg, was machst du eigentlich genau?" – dann ist die präziseste Antwort: AI SEO. Ich optimiere die Sichtbarkeit meiner Kunden in Google **und** in KI-Antworten.
 
 ## Die vier Säulen des AI SEO
 

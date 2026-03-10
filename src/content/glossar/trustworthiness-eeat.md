@@ -15,20 +15,18 @@ faqs:
     answer: "Auf drei Ebenen: Technisch – HTTPS ist Pflicht, saubere Core Web Vitals zeigen Professionalität. Rechtlich – Impressum, Datenschutzerklärung und AGB müssen vollständig und aktuell sein. Inhaltlich – zeig, wer hinter dem Content steht (Autorenprofile), zitiere deine Quellen, und kommuniziere ehrlich über deine Dienstleistungen. Auf teleschmie.de habe ich ein vollständiges Impressum, eine transparente Über-Mich-Seite und mein Autorenprofil ist über Schema.org maschinenlesbar hinterlegt."
   - question: "Können Reviews und Bewertungen die Trustworthiness beeinflussen?"
     answer: "Absolut! Google wertet Kundenbewertungen auf Google Business Profile, Trustpilot und branchenspezifischen Portalen als starke Trust-Signale. Negative Bewertungen schaden, positive stärken. Aber Achtung: Fake-Reviews sind der schnellste Weg, Vertrauen komplett zu zerstören. Google erkennt Muster bei gefälschten Bewertungen und straft sie ab. Echte Kundenstimmen, wie die Bewertungen in meiner Sprechstunde, sind unbezahlbar."
----
-
-Moin!
+---Moin!
 
 **Trustworthiness** (Vertrauenswürdigkeit) ist nicht einfach nur ein weiterer [E-E-A-T](/glossar/e-e-a-t/) Faktor. Er ist DER zentrale Faktor, um den sich alles dreht.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Google Core Update - Die Antwort ist oft hart: Deine Seite ist einfach nicht gut genug für den Nutzer."</p>
+</div>
 
 Google sagt es selbst: *"Trust is the most important member of the E-E-A-T family."*
 
 Du kannst die beste [Experience](/glossar/experience-eeat/), die tiefste [Expertise](/glossar/expertise-eeat/) und die höchste [Autorität](/glossar/authoritativeness-eeat/) haben – wenn dir niemand vertraut, ist alles andere nutzlos.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (Magic Writing Podcast)</p>
-  <p class="italic text-dark mb-0">"Die 'Hacks' von früher sind heute gefährlich. Was heute funktioniert, ist Tiefe. Ein Algorithmus erkennt heute, ob ein Text von einem Experten geschrieben wurde oder ob er nur aus Worthülsen besteht. Am Ende des Tages geht es um Vertrauen."</p>
-</div>
 
 ## Die drei Dimensionen von Trust
 

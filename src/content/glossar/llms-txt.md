@@ -15,9 +15,12 @@ faqs:
     answer: "Wie auch bei der robots.txt muss die llms.txt zwingend im Hauptverzeichnis (Root) deiner Domain liegen, also unter https://deinedomain.de/llms.txt. Nur dort suchen die KI-Agenten und Web-Crawler standardisiert nach dieser Informationsquelle. Der Standard sieht zudem vor, dass bei umfangreichen Seiten eine zusätzliche llms-full.txt verlinkt werden kann, die dann tiefere Datenstrukturen liefert."
   - question: "Muss ich die Datei händisch pflegen und aktuell halten?"
     answer: "Für kleine, statische Seiten wie einen One-Pager reicht oft eine händisch erstellte Markdown-Datei völlig aus. Bei Portalen, dynamischen Shops oder komplexen Blogs wie teleschmie.de sollte die Datei idealerweise automatisiert aus den Metadaten des CMS generiert werden. Wichtig ist, dass die darin enthaltenen Informationen (deine Kernkompetenzen, deine Grounding-Daten) stets aktuell sind, da sie direkt in die Trainingspipelines der LLMs fließen."
----
+---Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
 
-Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
+</div>
 
 Sie ist ein junger, aber rapide an Bedeutung gewinnender Standard (initiiert u.a. von Answer.ai), der im Wurzelverzeichnis einer Domain liegt. Ihr Ziel ist es, KI-Agenten eine maschinenlesbare, hochgradig komprimierte Zusammenfassung deiner Website bereitzustellen. In der Ära der [KI-Suche (GEO)](/glossar/geo/) ist sie dein direkter Draht zum "Gedächtnis" der großen Sprachmodelle.
 

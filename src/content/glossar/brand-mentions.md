@@ -15,11 +15,14 @@ faqs:
     answer: "Google Alerts ist die einfachste Methode: Richte einen Alert für deinen Markennamen ein und erhalte Benachrichtigungen bei jeder neuen Erwähnung. Für tiefere Analysen nutze Tools wie Brand24, Mention oder BrandMentions. Und vergiss nicht: In der Google Search Console unter 'Links' findest du Seiten, die auf dich verlinken – aber die unverlinkten Mentions musst du separat tracken."
   - question: "Wie generiere ich mehr Brand Mentions?"
     answer: "Die beste Strategie: Sei es wert, erwähnt zu werden. Publiziere eigene Daten und Studien. Sei in Podcasts und auf Konferenzen präsent. Teile kontroverse, aber fundierte Meinungen auf LinkedIn. Hilf anderen in Communities. Jeder dieser Touchpoints kann zu einer organischen Brand Mention führen. In meinem Fall haben Podcast-Auftritte und LinkedIn-Posts die meisten Mentions generiert."
----
-
-Moin!
+---Moin!
 
 **Brand Mentions** sind das, was passiert, wenn jemand deinen Namen erwähnt – ohne dass du darum gebeten hast. Das ist die ehrlichste Form der Empfehlung im Internet.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Der größte Fehler im modernen SEO? Den Nutzern keine echte Expertise (E-E-A-T) zu liefern. KI kann keine 24 Jahre Praxiserfahrung simulieren."</p>
+</div>
 
 Eine Brand Mention ist jede Erwähnung deiner Marke, deines Namens oder deines Unternehmens im Web. Der entscheidende Unterschied zu einem [Backlink](/glossar/linkbuilding/): Es muss kein klickbarer Link sein. Schon die bloße Texterwähnung „Jörg Zimmer, SEO-Experte aus Berlin" ist eine wertvolle Brand Mention.
 

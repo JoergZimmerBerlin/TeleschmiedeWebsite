@@ -4,11 +4,14 @@ description: "Ein SEO Audit ist der Gesundheitscheck für deine Website. Wir dec
 date: "2026-03-10"
 image: "../../assets/images/blog/website-auf-den-grill.png"
 related_terms: ["sichtbarkeitsindex", "pagespeed", "interne-verlinkung"]
----
-
-Ein SEO Audit ist wie ein Besuch beim Zahnarzt.
+---Ein SEO Audit ist wie ein Besuch beim Zahnarzt.
 Niemand freut sich drauf, aber hinterher bist du heilfroh, wenn die Löcher gestopft sind.
 Es ist die schonungslose Bestandsaufnahme deiner kompletten Website.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"24 Jahre in dieser Branche haben mich eins gelehrt: Jeder Hype geht vorbei, aber sauberes Handwerk und echter Nutzerfokus überleben jedes Core Update."</p>
+</div>
 
 Wir werfen alles in den Grill: Technik, Content, Backlinks.
 Warum rankst du nicht auf Platz 1? 

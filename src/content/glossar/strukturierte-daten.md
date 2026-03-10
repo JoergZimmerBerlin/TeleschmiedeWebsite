@@ -4,12 +4,15 @@ description: "Strukturierte Daten sind der Dolmetscher für Google. Sie helfen d
 date: "2026-03-10"
 image: "../../assets/images/blog/seo-missverstaendnisse-2026.png"
 related_terms: ["schema-org-markup", "entitaet", "knowledge-graph"]
----
-
-Strukturierte Daten sind die Geheimsprache der SEO-Profis.
+---Strukturierte Daten sind die Geheimsprache der SEO-Profis.
 Ganz einfach: Ein standardisierter Code, den du im Hintergrund deiner Website einbaust.
 Für den Nutzer ist er unsichtbar.
 Für Google ist er die wichtigste Orientierungshilfe überhaupt.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Der SEO TÜV: Einmal im Jahr unter die Haube schauen, bevor der Motor raucht."</p>
+</div>
 
 Stell dir vor, du hast ein Rezept auf deiner Seite.
 Google sieht Text und Bilder. Aber weiß Google, was die Backzeit ist? Oder wie viele Kalorien das Gericht hat?

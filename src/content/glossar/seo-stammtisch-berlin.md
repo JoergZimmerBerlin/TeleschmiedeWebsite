@@ -15,11 +15,14 @@ faqs:
     answer: "Nichts. Und das ist ein ehernes, ungeschriebenes Gesetz der lokalen SEO-Community. Es gibt keine elitären Eintrittsgebühren, VIP-Tickets oder versteckte Speaker-Kosten. Der Stammtisch lebt davon, dass er niederschwellig und zugänglich bleibt. Du zahlst in der jeweiligen Location (Kneipe, Agentur-Büro) lediglich das, was du an dem Abend selbst isst oder trinkst – der gigantische Wissenstransfer ist absolut gratis."
   - question: "Wo und wie oft finden diese Treffen statt?"
     answer: "Der Rhythmus pegelt sich organisch meist auf ein entspanntes, monatliches Treffen ein. Die Locations variieren dabei durch die gesamte Hauptstadt. Die genauen Termine, Updates und spontanen Location-Wechsel laufen heute fast ausschließlich dezentral über LinkedIn, spezielle Xing-Gruppen oder Eventbrite. Ein heißer Tipp: Folge den bekannten Berliner SEO-Gesichtern auf LinkedIn, um rechtzeitig einen der sehr begehrten Plätze zu sichern."
----
-
-Moin!
+---Moin!
 
 Wer mich kennt, weiß: Ich bin kein Fan von einsamen Elfenbeintürmen. SEO passiert da draußen, im Austausch, in der Reibung mit anderen Experten. Und genau dafür ist der **SEO Stammtisch Berlin** da. 
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Als externer Berater kann ich den Finger in die Wunde legen, ohne Angst um meinen Schreibtischstuhl zu haben."</p>
+</div>
 
 Seit Jahren sitze ich dort regelmäßig mit Kollegen zusammen, die genauso tief im Kaninchenbau stecken wie ich. Es ist der Ort, an dem wir über die neuesten Core Updates fluchen, uns über verrückte [GEO-Experimente](/glossar/geo/) austauschen oder gemeinsam über die Tücken der [Search Console](/glossar/google-search-console/) lachen.
 
@@ -44,11 +47,6 @@ SEO kann frustrierend sein. Man investiert Monate in [Entity SEO](/glossar/entit
 Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es geht um Geben und Nehmen. Wenn jemand ein Problem mit [strukturierten Daten](/glossar/strukturierte-daten/) hat, helfe ich. Wenn ich bei einem komplexen [SEO-Audit](/glossar/seo-audit/) an meine Grenzen stoße, frage ich die Runde.
 
 Das ist genau der Spirit der Teleschmie.de: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe diese bodenständige Berliner Art in jedes meiner Projekte.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus der Praxis (SEOpresso Podcast)</p>
-  <p class="italic text-dark mb-0">"Niemand ist eine Insel. Auch nach 24 Jahren weiß ich, dass ich für Spezialthemen Experten aus meinem Netzwerk brauche. Echte Profis kennen ihre Grenzen. Genau hierfür sind diese Stammtische so unbezahlbar."</p>
-</div>
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dabei sein ist alles</h4>
@@ -77,4 +75,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Warum ich die Campixx Berlin liebe](/glossar/campixx-berlin/)
 * **Lese-Tipp:** [Die Überstunde Berlin – Netzwerken mal anders](/glossar/ueberstunde-berlin/)
-

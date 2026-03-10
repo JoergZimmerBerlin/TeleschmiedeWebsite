@@ -15,18 +15,16 @@ faqs:
     answer: "Die Tools senden definierte Prompts (Suchanfragen) an verschiedene LLMs und analysieren die Antworten: Wird deine Marke erwähnt? Wird deine Website als Quelle verlinkt? Wie positiv ist der Kontext? Das passiert automatisiert und regelmäßig. Die Ergebnisse werden als 'AI Visibility Score' oder 'LLM Share of Voice' aggregiert. So siehst du über Wochen und Monate, ob deine GEO-Maßnahmen wirken."
   - question: "Reicht die Google Search Console nicht für's Tracking?"
     answer: "Nein, die Google Search Console trackt nur Google-Rankings und -Klicks. Sie zeigt dir nicht, ob ChatGPT dich zitiert, ob Perplexity deine Website als Quelle verwendet oder ob Gemini deinen Namen als Experte nennt. AI Tracking Tools schließen genau diese Lücke. Idealerweise nutzt du beides: Google Search Console für klassisches SEO-Tracking und ein AI Tracking Tool für GEO-Tracking."
----
-
-Moin!
+---Moin!
 
 **AI Tracking Tools** sind die Antwort auf die Frage, die jeden [GEO](/glossar/geo/)-Strategen umtreibt: *Werde ich von KI-Systemen zitiert – und wenn ja, wie oft und wie positiv?*
 
-In der klassischen SEO-Welt misst du Rankings mit Sistrix oder SE Ranking. In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
-  <p class="italic text-dark mb-0">"Messbarkeit in AI ist (noch) ein Albtraum. Klassische Klicks schrumpfen. Aber der eine Klick, der durchkam, der hat konvertiert!"</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? 🦖"</p>
 </div>
+
+In der klassischen SEO-Welt misst du Rankings mit Sistrix oder SE Ranking. In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
 
 ## Warum du AI Tracking brauchst
 

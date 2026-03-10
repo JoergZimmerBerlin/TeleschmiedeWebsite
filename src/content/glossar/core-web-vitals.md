@@ -15,13 +15,16 @@ faqs:
     answer: "FID (First Input Delay) hat nur die allererste Interaktion gemessen – das war Google zu ungenau. INP (Interaction to Next Paint) misst jetzt die Verzögerung aller Interaktionen auf einer Seite. Wenn deine Seite beim Scrollen stockt oder das Menü erst nach einer Gedenksekunde aufklappt, schlägt dein INP-Wert aus. Es geht um die 'gefühlte' Flüssigkeit deiner Seite, nicht nur um den ersten Klick."
   - question: "Beeinflussen Core Web Vitals mein Google-Ranking massiv?"
     answer: "Ja, sie sind seit 2021 ein offizieller Rankingfaktor. Stell dir die CWV wie einen 'Tie-Breaker' vor: Wenn zwei Seiten inhaltlich gleichwertig sind, gewinnt die mit der besseren Performance. Zudem wirken sie indirekt: Langsame Seiten erhöhen die Absprungrate, was wiederum ein negatives Signal an Google sendet. Grüne Vitals sind die Eintrittskarte in die Top 3 der Suchergebnisse."
----
-
-Moin!
+---Moin!
 
 Wer mich kennt, weiß: Ich bin kein Fan von theoretischem Schnickschnack. 
 Im SEO zählt am Ende, was beim Nutzer ankommt.
 Die **Core Web Vitals (CWV)** sind genau das: Ein Maß an Objektivität in einer ansonsten oft subjektiven Debatte über "schickes Design".
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Bau lieber eine Plattform, die so gut ist, dass die Leute freiwillig auf dich verlinken."</p>
+</div>
 
 Es nützt dir der beste Content nichts, wenn deine Seite beim Laden so sehr wackelt, dass der Nutzer genervt wegklickt.
 Google sieht das genauso und hat diese Metriken zum offiziellen Rankingfaktor gemacht.
@@ -93,4 +96,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [PageSpeed Optimierung Guide](/glossar/pagespeed/)
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-

@@ -15,18 +15,16 @@ faqs:
     answer: "Ja, das hat Google selbst bestätigt. Aber lass dich von der Zahl nicht verrückt machen. In der Praxis gibt es vielleicht 15-20 Faktoren, die den Löwenanteil ausmachen. Der Rest ist Feintuning. In meinen Audits konzentriere ich mich auf die Hebel mit dem größten Impact: Content-Qualität, interne Verlinkung, technische Fehler und Backlink-Profil. Wer diese vier Bereiche im Griff hat, schlägt 90% der Konkurrenz."
   - question: "Zählen Social Media Signale als Rankingfaktor?"
     answer: "Google hat offiziell gesagt: Nein, Social Signals sind kein direkter Rankingfaktor. Aber indirekt haben sie einen enormen Einfluss. Ein viraler LinkedIn-Post erzeugt Aufmerksamkeit, die zu Backlinks, Mentions und Branded Searches führt – und DAS sind direkte Rankingfaktoren. Außerdem nutzen KI-Modelle Social-Media-Inhalte als Trainingsmaterial. Wer auf LinkedIn aktiv ist, stärkt also auch seine GEO-Sichtbarkeit."
----
-
-Moin!
+---Moin!
 
 Jeder, der sich mit SEO beschäftigt, stellt irgendwann die Frage aller Fragen: *Was genau entscheidet Google, wer auf Platz 1 steht?*
 
-Die Antwort sind die **Rankingfaktoren** – über 200 Signale, die der [Google Algorithmus](/glossar/google-algorithmus/) in Millisekunden auswertet, um aus Milliarden von Seiten die zehn relevantesten auszuwählen.
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Ein Blick zurück (SEOpresso Podcast mit Max Muhr)</p>
-  <p class="italic text-dark mb-0">"Es war die Ära, in der wir SEOs noch wie digitale Alchemisten in dunklen Kellern brodelten, um Google ein Schnippchen zu schlagen. Heute ist SEO ein hochgradig datengetriebenes und nutzerzentriertes Handwerk."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
 </div>
+
+Die Antwort sind die **Rankingfaktoren** – über 200 Signale, die der [Google Algorithmus](/glossar/google-algorithmus/) in Millisekunden auswertet, um aus Milliarden von Seiten die zehn relevantesten auszuwählen.
 
 ## Die wichtigsten Rankingfaktor-Kategorien
 

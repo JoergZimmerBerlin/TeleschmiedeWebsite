@@ -15,11 +15,14 @@ faqs:
     answer: "Das ist die Königsdisziplin! Optimiere deinen Title-Tag: Er muss neugierig machen, den Suchintent treffen und idealerweise eine Zahl, eine Frage oder einen Benefit enthalten. Deine Meta-Description ist der 'Elevator Pitch' – sie muss in 160 Zeichen überzeugen. Und nutze strukturierte Daten: FAQ-Markup, Review-Sterne oder How-To-Schema erzeugen Rich Snippets, die dein Ergebnis optisch hervorstechen lassen. Auf meiner Seite erziele ich durch FAQ-Schema und klare Titles überdurchschnittliche CTRs."
   - question: "Ist die CTR ein direkter Rankingfaktor bei Google?"
     answer: "Google sagt offiziell: Nein. Aber jeder erfahrene SEO weiß, dass es einen Zusammenhang gibt. Wenn dein Ergebnis auf Position 3 häufiger geklickt wird als das auf Position 1, sendet das ein starkes Signal: 'Diese Seite ist relevanter.' Ob Google das direkt im Algorithmus nutzt oder indirekt über User-Engagement-Metriken – das Ergebnis ist dasselbe. Eine hohe CTR korreliert nachweislich mit besseren Rankings."
----
-
-Moin!
+---Moin!
 
 Die **CTR (Click-Through-Rate)** ist die einfachste und gleichzeitig mächtigste Metrik im SEO: Sie sagt dir, wie viele Menschen, die dein Suchergebnis gesehen haben, auch tatsächlich darauf geklickt haben.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"SEO ist heutzutage keine schwarze Magie mehr, es ist einfach extrem gutes Handwerk."</p>
+</div>
 
 Formel: **CTR = Klicks ÷ Impressionen × 100**
 

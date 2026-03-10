@@ -4,11 +4,14 @@ description: "Eine Grounding Page ist der Ankerpunkt für deine KI-Sichtbarkeit.
 date: "2026-03-10"
 image: "../../assets/images/blog/contextual-seo-bruecke-de.png"
 related_terms: ["geo", "entitaet", "llms-txt"]
----
-
-Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/).
+---Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/).
 Früher haben wir Landingpages für Nutzer gebaut.
 Heute bauen wir Grounding Pages für Maschinen.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? 🦖"</p>
+</div>
 
 Warum? Weil KIs (LLMs) wie ChatGPT oder Gemini Fakten brauchen.
 "Grounding" bedeutet im KI-Kontext: Ein Modell mit realen, verifizierbaren Daten füttern.

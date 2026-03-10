@@ -15,11 +15,14 @@ faqs:
     answer: "Ja, aber es ist ein Marathon, kein Sprint. Ein Core Update bestraft selten einen einzelnen technischen Fehler, sondern bewertet die Gesamtqualität deiner Seite auf Basis der E-E-A-T Kriterien neu. Wenn du massiv Traffic verlierst, musst du oft Monate hart arbeiten: Content aufräumen (Content Pruning), Expertise beweisen und die Informationsarchitektur schärfen. Oft siehst du erst beim nächsten oder übernächsten Core Update eine Recovery."
   - question: "Gibt es eine offizielle Liste der Rankingfaktoren, die geändert wurden?"
     answer: "Nein, Google kommuniziert nie exakt, an welchen Schrauben gedreht wurde. Das liegt daran, dass der Kernalgorithmus hunderte Signale (und zunehmend massive KI-Modelle) nutzt, um Suchintentionen und Content-Qualität abzugleichen. Statt nach 'dem einen Fehler' zu suchen, analysiere ich nach einem Update die Gewinner in deiner Nische: Was machen die besser? Meist geht es um überlegene Struktur, tiefere Expertise oder schnellere Antworten auf komplexe Nutzerfragen."
----
-
-Ein Google Core Update ist das Erdbeben der SEO-Welt.
+---Ein Google Core Update ist das Erdbeben der SEO-Welt.
 Mehrmals im Jahr zieht Google an den großen Hebeln seiner künstlichen Intelligenz.
 Das Ziel: Die Qualität der Suchergebnisse radikal verbessern.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wie schön deine Seite ist, korreliert nicht damit, wie viele Besucher du bekommst."</p>
+</div>
 
 Danach ist nichts mehr wie vorher.
 Manche Seiten stürzen ab, manche schießen nach oben.

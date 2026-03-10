@@ -14,16 +14,14 @@ faqs:
     answer: "Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie Rankscale, das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt."
   - question: "Sind Backlinks auch für Generative Engine Optimization noch relevant?"
     answer: "Sie haben weiterhin Relevanz, allerdings fungieren sie heute viel indirekter – nämlich als klares Trust-Signal (Reputation) an das KI-System. Moderne LLMs werten beim Web-Crawling primär die Textsemantik und sogenannte Brand Mentions (Erwähnungen deines Namens, auch ohne gesetzten Link) in autoritätsstarken Umfeldern aus. Ein rein auf Masse gebautes Backlink-Profil verliert in der GEO-Logik drastisch an Hebelwirkung."
----
-
-Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die darauf abzielen, die Sichtbarkeit und Autorität von Marken, Personen oder Produkten speziell in KI-basierten Antworten und Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews systematisch zu erhöhen. 
-
-Mit dem Wandel von der Links-zu-Ergebnissen-Suche hin zur generativen Suche verändert sich die Dynamik der User Journey radikal. Ein tieferes Verständnis von GEO ist für moderne digitale Sichtbarkeit unabdingbar. Wie ich bereits in meinem Beitrag über die [AI-SEO-Praktikanten](/blog/ai-seo-geo-praktikanten/) erläutert habe, werden diese Systeme das klassische Rankingverhalten in vielen Branchen komplett transformieren.
+---Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die darauf abzielen, die Sichtbarkeit und Autorität von Marken, Personen oder Produkten speziell in KI-basierten Antworten und Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews systematisch zu erhöhen. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
-  <p class="italic text-dark mb-0">"Bevor ihr Tausende Euros in 'Generative Engine Optimization' versenkt, habt ihr eure Hausaufgaben gemacht? Wenn deine Seite technisch eine Katastrophe ist [...] brauchst du dir über ChatGPT keine Gedanken machen."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Lokales SEO ist heutzutage oft der schnellste Weg zum Umsatz. Wer sein Google Business Profile verstauben lässt, überlässt der Konkurrenz das Feld."</p>
 </div>
+
+Mit dem Wandel von der Links-zu-Ergebnissen-Suche hin zur generativen Suche verändert sich die Dynamik der User Journey radikal. Ein tieferes Verständnis von GEO ist für moderne digitale Sichtbarkeit unabdingbar. Wie ich bereits in meinem Beitrag über die [AI-SEO-Praktikanten](/blog/ai-seo-geo-praktikanten/) erläutert habe, werden diese Systeme das klassische Rankingverhalten in vielen Branchen komplett transformieren.
 
 ## Was unterscheidet GEO von klassischem SEO?
 

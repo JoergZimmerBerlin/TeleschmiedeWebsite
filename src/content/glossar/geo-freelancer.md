@@ -15,11 +15,14 @@ faqs:
     answer: "Weil GEO noch eine junge Disziplin ist, in der praktische Erfahrung Gold wert ist. In einer Agentur landet dein Projekt oft bei einem Junior, der GEO aus einem Blogpost kennt. Ein spezialisierter Freelancer hat selbst experimentiert, eigene Ergebnisse gemessen und optimiert. Ich arbeite direkt mit meinen Kunden – ohne Umwege, ohne Agentur-Overhead. Dazu kommt: Mein eigenes Setup (teleschmie.de) ist ein lebendes Proof-of-Concept. Was ich für Kunden empfehle, habe ich vorher an mir selbst getestet."
   - question: "Was kostet ein GEO Freelancer und was bekomme ich dafür?"
     answer: "Die Stundensätze für GEO-spezialisierte Freelancer liegen typischerweise zwischen 120€ und 200€, je nach Erfahrung und Projektumfang. Dafür bekommst du keine generische Keyword-Liste, sondern eine maßgeschneiderte Strategie: Entity-Audit, Citation-Analyse, Schema.org-Implementierung, Grounding-Page-Aufbau und ein AI-Visibility-Monitoring über Tools wie Rankscale. Der ROI zeigt sich oft schneller als bei klassischem SEO, weil der KI-Markt noch wenig Wettbewerb hat."
----
-
-Moin!
+---Moin!
 
 Wenn du nach einem **GEO Freelancer** suchst, bist du einer der Ersten. Und genau das ist dein Vorteil.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist ein schöner Graph für den Quartalsbericht. Aber am Ende des Monats zählt nur, wie oft die Kasse geklingelt hat."</p>
+</div>
 
 [Generative Engine Optimization (GEO)](/glossar/geo/) ist die neue Disziplin, die darüber entscheidet, ob ChatGPT, Perplexity oder Google SGE dich als Experte zitiert – oder ob du in der KI-Welt unsichtbar bist. Und ehrlich: Die meisten [SEO-Agenturen](/glossar/seo-agentur/) haben dieses Thema noch nicht mal verstanden, geschweige denn eine funktionierende Strategie dafür.
 

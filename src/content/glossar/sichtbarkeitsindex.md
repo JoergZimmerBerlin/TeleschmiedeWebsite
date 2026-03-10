@@ -15,11 +15,14 @@ faqs:
     answer: "Das ist ein klassisches und oft missverstandenes Phänomen. Der Sichtbarkeitsindex misst deine Rankings für ein vordefiniertes, repräsentatives Keyword-Set (meist 1 Million Keywords). Wenn du Rankings für Suchbegriffe mit extrem hohem Suchvolumen aus diesem Set verlierst (die dir aber ohnehin keine Conversions gebracht haben), sinkt der Index dramatisch. Gleichzeitig gewinnst du vielleicht bei lukrativen Long-Tail-Keywords, die nicht im Set sind – dein relevanter Traffic steigt also, während die Metrik fällt."
   - question: "Wie oft wird der SEO Sichtbarkeitsindex aktualisiert?"
     answer: "Früher gab es montags das große 'Sistrix-Zittern', da die Daten nur wöchentlich aktualisiert wurden. Heute berechnen professionelle Tools wie Sistrix oder SE Ranking die Sichtbarkeit für wichtige Märkte und große Websites täglich neu. Bei massiven Ranking-Schwankungen oder nach einem Google Core Update kannst du die Auswirkungen also mittlerweile fast in Echtzeit verfolgen und entsprechend gegensteuern."
----
-
-Moin!
+---Moin!
 
 Der Sichtbarkeitsindex ist die harte Währung der SEO-Welt. Keine Likes, keine Shares, kein Bullshit. Nur pure Daten aus den Google-SERPs. 
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"24 Jahre in dieser Branche haben mich eins gelehrt: Jeder Hype geht vorbei, aber sauberes Handwerk und echter Nutzerfokus überleben jedes Core Update."</p>
+</div>
 
 Was genau wird da gemessen? Tools wie Sistrix oder SE Ranking nehmen eine riesige Liste an Keywords (meist Millionen). Dann schauen sie jeden Tag: Wo rankst du mit deiner Domain? Aus der Summe dieser Platzierungen, gewichtet nach Suchvolumen und Klickwahrscheinlichkeit, entsteht dein Indexwert.
 
@@ -72,4 +75,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was ist allgemeine Sichtbarkeit?](/glossar/sichtbarkeit/)
 * **Lese-Tipp:** [Wie funktioniert ein SEO Audit?](/glossar/seo-audit/)
-

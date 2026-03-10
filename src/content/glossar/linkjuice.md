@@ -4,9 +4,12 @@ description: "Linkjuice ist ein umgangssprachlicher SEO-Begriff für die Verteil
 date: "2026-03-10"
 image: "../../assets/images/blog/core-web-vitals-pfeiler.png"
 related_terms: ["crawling-vs-indexing"]
----
+---Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.
 
-Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Vergiss das 'Keyword-Vollstopfen'. Schreib für Menschen, strukturiere für Maschinen."</p>
+</div>
 
 Jeder Hyperlink, der von einer Seite (A) zu einer anderen Seite (B) gesetzt wird, fungiert als eine Art "Empfehlung". Diese Empfehlung gibt einen Teil der Autorität von Seite A an Seite B weiter. Das systematische Leiten dieses Linkjuices ist das fundamentale Prinzip von strategischer interner Verlinkung und OffPage-SEO (Linkaufbau).
 

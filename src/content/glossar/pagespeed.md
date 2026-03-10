@@ -15,12 +15,15 @@ faqs:
     answer: "Dieses Phänomen sehen wir praktisch in jedem tiefgreifenden SEO-Audit. Smartphones haben im Vergleich zu starken Desktop-Computern drastisch weniger Rechenleistung, um komplexe Skripte (JavaScript) schnell zu verarbeiten. Zudem simulieren Googles PageSpeed-Tests für Mobile extrem realistische, oft relativ langsame 4G-Netze. Wenn du dann unkoordinierte Hero-Images oder völlig überladene Slider-Plugins in den Ladefluss schickst, bricht ein durchschnittliches mobiles Endgerät unter der Render-Last förmlich zusammen."
   - question: "Was ist der mit Abstand größte Bremsklotz für Web-Performance?"
     answer: "In meiner täglichen Praxis als Technical SEO gibt es meist zwei völlig klare Haupttäter auf der Anklagebank. Erstens: Gigantische, völlig unkomprimierte Bilderformate (statt modernem WebP oder AVIF). Zweitens: Massive Berge an render-blockierendem JavaScript. Sehr oft sind das nicht einmal die eigenen Code-Skripte, sondern Dutzende externe Tracking-Tools, fette Cookie-Banner, Chat-Widgets und Werbenetzwerke, die das schnelle Laden der eigentlichen Textinhalte für Sekunden komplett blockieren."
----
-
-Moin!
+---Moin!
 
 PageSpeed ist weit mehr als nur eine technische Metrik – es ist die digitale Eintrittskarte zu deiner Website. 
 In einer Zeit, in der die Aufmerksamkeitsspanne von Nutzern unter der eines Goldfisches liegt, entscheidet jede Millisekunde darüber, ob ein Besucher bleibt oder genervt zum Wettbewerber zurückspringt. 
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Es gibt keinen Quick Fix für SEO. SEO ist ein Marathon, kein Sprint. Wer das nicht versteht, sollte Ads schalten."</p>
+</div>
 
 Google hat die Ladezeit bereits vor Jahren als offiziellen Rankingfaktor etabliert. 
 Mit der Einführung der [Core Web Vitals](/glossar/core-web-vitals/) wurde dieser Faktor nochmals präzisiert: Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
@@ -32,11 +35,6 @@ Wenn wir über PageSpeed sprechen, müssen wir drei unterschiedliche Phasen der 
 1.  **First Byte (TTFB):** Die Zeit, die dein Server braucht, um auf die Anfrage des Browsers überhaupt zu reagieren. Hier helfen schnelles Hosting und effizientes Caching.
 2.  **Visueller Aufbau (FCP/LCP):** Wann sieht der Nutzer das erste Bild oder den ersten Satz? Hier optimieren wir Bilder und den kritischen Rendering-Pfad.
 3.  **Interaktivität (INP):** Ab wann kann der Nutzer auf einen Button klicken, ohne dass die Seite "einfriert"? Hier geht es primär um das Reduzieren von schwerem JavaScript.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
-  <p class="italic text-dark mb-0">"Der moderne Internetnutzer hat die Aufmerksamkeitsspanne eines Goldfisches auf Espresso. Darum sind schnelle Ladezeiten wichtig. Wenn alles nichts hilft oder es zu komplex in der Umsetzung wird, empfehle ich Cloudflare Pro davorzuschalten. Das kostet zwar 20 Dollar im Monat, löst aber mit wenigen Klicks, was Programmierer in vielen Stunden bauen müssten."</p>
-</div>
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Der PageSpeed-Insights Mythos</h4>
@@ -78,4 +76,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Warum Core Web Vitals so wichtig sind](/glossar/core-web-vitals/)
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)
-

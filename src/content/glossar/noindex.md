@@ -15,11 +15,14 @@ faqs:
     answer: "Alles, was für einen Google-Nutzer keinen Mehrwert bietet: Dankesseiten (Thank-You-Pages), die nach Formulareingabe erscheinen, AGB/Impressum (rechtlich nötig, aber kein SEO-Wert), interne Suchergebnisseiten, Tag-Archive ohne Content, und veraltete 'Trend'-Artikel, die nur noch peinlich sind. ALOHA-Regel: Wenn du dich schämen würdest, einem Kunden die Seite zu zeigen – noindex!"
   - question: "Darf ich noindex und eine robots.txt-Blockierung gleichzeitig verwenden?"
     answer: "Diese Kombi ist der gefährlichste Fehler im technischen SEO! Wenn du eine URL per robots.txt sperrst, kann der Googlebot sie nicht mehr crawlen. Das bedeutet: Er sieht dein noindex-Tag gar nicht. Die Seite bleibt also als 'Zombie' im Index. Die sichere Methode: Crawling erlauben (keine Disallow-Regel) und NUR über das Meta-Tag noindex steuern. So kann Google die Seite lesen und den Befehl 'bitte raus aus dem Index' auch tatsächlich ausführen."
----
-
-Moin!
+---Moin!
 
 Wenn es einen Code-Schnipsel gibt, der das Schicksal eines Millionen-Euro Onlineshops oder einer Unternehmenswebsite innerhalb von Sekunden besiegeln kann, dann ist es dieses winzige Stück Text im `<head>`-Bereich einer HTML-Datei:
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Suchmaschinen haben noch nie ein Produkt gekauft. Überzeuge den Menschen, der hinter der Tastatur sitzt."</p>
+</div>
 
 ```html
 <meta name="robots" content="noindex">
@@ -89,4 +92,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
 * **Lese-Tipp:** [Warum die robots.txt allein nicht reicht](/glossar/robots-txt/)
-

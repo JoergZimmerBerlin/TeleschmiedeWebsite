@@ -15,12 +15,15 @@ faqs:
     answer: "Nein, und das ist der häufigste und gefährlichste Irrtum im technischen SEO! Die robots.txt blockiert nur das Crawling – die Seite kann trotzdem im Index bleiben (nur ohne Beschreibung). Wenn du eine URL wirklich aus den Suchergebnissen entfernen willst, musst du das Noindex Meta-Tag setzen. Diesen Unterschied erkläre ich ausführlich im Glossar unter Crawling vs. Indexing."
   - question: "Wie teste ich, ob meine robots.txt korrekt funktioniert?"
     answer: "Google bietet dafür ein kostenloses Tool in der Google Search Console: Den 'robots.txt Tester'. Dort kannst du einzelne URLs eingeben und prüfen, ob sie blockiert oder erlaubt sind. Außerdem empfehle ich nach jedem Relaunch einen manuellen Check: Ruf einfach deinedomain.de/robots.txt im Browser auf und prüf die Regeln Zeile für Zeile. Auf meiner Seite teleschmie.de sieht das Setup so aus, dass nur irrelevante Verzeichnisse blockiert sind und die Sitemap korrekt verlinkt ist."
----
-
-Moin!
+---Moin!
 
 Die `robots.txt` ist das digitale "Betreten verboten"-Schild deiner Website. 
 Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner Tippfehler hier kann deine gesamte Online-Präsenz vernichten.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Bau lieber eine Plattform, die so gut ist, dass die Leute freiwillig auf dich verlinken."</p>
+</div>
 
 Bevor der Googlebot oder ein moderner KI-Crawler deine eigentliche Seite sieht, checkt er diese Datei.
 Im Rahmen meiner täglichen Arbeit als [SEO Freelancer in Berlin](/seo-freelancer-berlin/) ist der Blick in die `robots.txt` daher immer Schritt Eins bei jedem Audit.
@@ -78,4 +81,3 @@ ALOHA ✌️
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
 * **Lese-Tipp:** [Sitemap Optimierung](/glossar/sitemap/)
 * **Lese-Tipp:** [Linkbuilding richtig angehen](/glossar/linkbuilding/)
-

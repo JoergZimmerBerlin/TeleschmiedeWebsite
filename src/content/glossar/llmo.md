@@ -15,11 +15,14 @@ faqs:
     answer: "Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein."
   - question: "Wie teste ich meine LLM-Sichtbarkeit?"
     answer: "Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie Rankscale, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen."
----
-
-Moin!
+---Moin!
 
 **LLMO** (LLM-Optimization) ist die Disziplin, die sich mit der Frage beschäftigt: *Wie beeinflusse ich, was ChatGPT, Gemini und Claude über mich und mein Fachgebiet wissen?*
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"SEO-Tools sind wie ein Skalpell. In der Hand eines Anfängers lebensgefährlich, in der Hand eines Experten ein Präzisionswerkzeug."</p>
+</div>
 
 Während [GEO](/glossar/geo/) die Gesamtstrategie für KI-Sichtbarkeit darstellt, taucht LLMO tiefer ein: Es analysiert, wie Large Language Models Informationen verarbeiten, welche Quellen sie bevorzugen und wie man zum verlässlichen „Trainingspartner" der KI wird.
 
@@ -31,11 +34,6 @@ LLMs wie GPT-4, Gemini oder Claude lernen aus riesigen Textmengen des Internets.
 *   **Source Authority:** Stammt die Erwähnung von t3n oder von einem Spam-Blog?
 *   **Konsistenz:** Stimmen die Informationen über dich quellenübergreifend überein?
 *   **Aktualität:** Gibt es frische Erwähnungen oder nur uralte?
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Geheimtipp aus der Praxis (LinkedIn Insight)</p>
-  <p class="italic text-dark mb-0">"PDF-Datenbanken als Secret Weapon: AI-Modelle lieben strukturierte Daten. Habt ihr Whitepapers? Ladet sie auf Plattformen wie Scribd hoch. Das ist Futter für die LLMs."</p>
-</div>
 
 ## Die LLMO-Strategie
 

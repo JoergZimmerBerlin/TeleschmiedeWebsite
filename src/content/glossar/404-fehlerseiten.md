@@ -15,13 +15,16 @@ faqs:
     answer: "Viele denken: 'Inhalt weg? Einfach ab zur Startseite!' Das ist aus SEO-Sicht ein klassischer Fehler. Google erkennt das als 'Soft-404'. Der Nutzer wollte Informationen über 'SEO-Konventionen' und landet plötzlich auf deiner allgemeinen Homepage – das ist eine schlechte User Experience. Google ignoriert solche pauschalen Weiterleitungen oft und überträgt keinen Linkjuice. Der korrekte Weg ist immer die thematisch nächste Seite (z.B. von einem gelöschten Blogartikel auf die Blog-Übersicht oder einen ähnlichen Beitrag)."
   - question: "Wie gehe ich professionell mit 404-Fehlern in der Google Search Console um?"
     answer: "Gehe in der GSC zum Bericht 'Indexierung' -> 'Seiten' und schau dir den Punkt 'Nicht gefunden (404)' an. Exportiere die Liste und sortiere sie nach Priorität: Welche URLs hatten früher Traffic oder Backlinks? Diese müssen sofort per 301 weitergeleitet werden. URLs, die versehentlich durch Tippfehler dritter entstanden sind, kannst du oft ignorieren – außer sie kommen extrem häufig vor. Mein Workflow: Einmal im Monat Deep-Audit mit dem Screaming Frog, um Sackgassen zu finden, bevor Google sie sieht."
----
-
-Moin!
+---Moin!
 
 "404 Not Found" – der Albtraum jedes Website-Besuchers. 
 Du klickst auf einen Link und landest im Nichts. 
 Technisch gesehen heißt das: Die URL existiert nicht mehr.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
+</div>
 
 Für dein SEO ist das Gift. 
 Ganz einfach: Wenn der [Crawler](/glossar/crawler/) gegen eine Wand läuft, verschwendet er Zeit. 
@@ -88,4 +91,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)
 * **Lese-Tipp:** [Crawler verstehen](/glossar/crawler/)
-

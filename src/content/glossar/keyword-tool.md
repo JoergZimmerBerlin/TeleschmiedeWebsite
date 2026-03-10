@@ -15,11 +15,14 @@ faqs:
     answer: "Auf gar keinen Fall, und wer das blind glaubt, verbrennt viel Geld. Fast alle Drittanbieter Tools basieren auf massiven Hochrechnungen ('Clickstream-Daten'), die bei Nischen-Keywords im B2B extrem schwanken oder verzögert sind. Tools sind ein gigantischer Kompass, aber die absolut einzige verlässliche und exakte Wahrheit über das reale Such- und Klickverhalten auf genau deiner URL findest du ausschließlich in den Leistungsberichten deiner eigenen Google Search Console."
   - question: "Lohnt sich die Investition? Gute Tools kosten schließlich viel Geld."
     answer: "Wer auf professionellem Niveau SEO betreiben will, kommt um bezahlte SaaS-Lösungen nicht herum. Hochwertige Einsteiger-Lizenzen (z.B. bei SE Ranking oder Ahrefs) liegen meist zwischen 50 und 150 Euro im Monat. Betrachte diese Ausgaben nicht als lästiges Software-Abo, sondern als deine wichtigste analytische Versicherung: Diese Kosten machen sich meist schon durch eine einzige vermiedene, monatelange Fehlinvestition in das komplett falsche Keyword bezahlt."
----
-
-Moin!
+---Moin!
 
 Ohne Keyword Tool bist du im SEO blind. Du rätst, was deine Kunden suchen. Du ratest, was Google über deine Nische denkt.Spoiler-Alarm: In 9 von 10 Fällen wirst du ohne Daten falsch liegen.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Nur, weil deine Website von außen schön aussieht, heißt das nicht, dass sie Rankings produziert."</p>
+</div>
 
 Ein Keyword Tool zapft die gewaltigen Datenbanken von Google an. Es zeigt dir, wonach die Welt wirklich verlangt. Und zwar in harten Fakten: [Suchvolumen](/glossar/suchvolumen/), Konkurrenzstärke (Keyword Difficulty) und der [CPC](/glossar/cpc/).
 

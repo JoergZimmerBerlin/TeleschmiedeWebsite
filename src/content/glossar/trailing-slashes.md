@@ -15,11 +15,14 @@ faqs:
     answer: "Dann hat Google im schlimmsten Fall zwei verschiedene URLs mit identischem Inhalt im Index – der Klassiker für Duplicate Content. Google muss dann selbst entscheiden, welche Variante die 'richtige' ist, und dein Linkjuice wird auf zwei URLs aufgeteilt statt konzentriert. Die Lösung: 301-Redirects von der ungewünschten auf die gewünschte Variante und ein sauberes Canonical Tag. In der Google Search Console kannst du unter 'URL-Prüfung' checken, welche Version Google bevorzugt."
   - question: "Wie konfiguriere ich Trailing Slashes in meinem Framework korrekt?"
     answer: "Das hängt vom Stack ab. In Astro setzt du 'trailingSlash: always' oder 'trailingSlash: never' in der astro.config.mjs. In Next.js gibt es die trailingSlash-Option in next.config.js. In WordPress steuert das die Permalink-Struktur in den Einstellungen. Auf meiner Seite (Astro-basiert) habe ich 'trailingSlash: always' konfiguriert – so enden alle URLs sauber auf einem Slash und es gibt keine Inkonsistenzen."
----
-
-Moin!
+---Moin!
 
 Klingt nach einem Nerd-Detail? Ist es auch. Aber dieses Nerd-Detail kann der Unterschied zwischen sauberem [technischem SEO](/glossar/technisches-seo/) und einem chaotischen Duplicate-Content-Desaster sein.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."</p>
+</div>
 
 Ein **Trailing Slash** ist der Schrägstrich `/` am Ende einer URL:
 *   `https://teleschmie.de/glossar/` ← **mit** Trailing Slash

@@ -15,18 +15,16 @@ faqs:
     answer: "Bei einem Core Update bewertet Google die Qualität und Relevanz von Inhalten grundlegend neu. Seiten, die vorher gut rankten, können plötzlich abstürzen – und umgekehrt. Das Wichtigste: Core Updates sind keine Strafen! Wenn du verlierst, heißt das nur, dass andere Seiten jetzt als relevanter eingestuft werden. Mein Rat: Nicht in Panik verfallen, sondern die Daten analysieren. In der Google Search Console siehst du genau, welche Seiten und Keywords betroffen sind."
   - question: "Kann ich den Google Algorithmus 'überlisten'?"
     answer: "Kurzfristig ja, langfristig niemals. Google hat tausende Ingenieure, die nichts anderes tun, als Manipulation aufzudecken. Wer auf Black-Hat-Tricks setzt (Linkspam, Keyword-Stuffing, Cloaking), gewinnt vielleicht für 3 Monate – und verliert dann alles. Die einzige nachhaltige Strategie: Baue die beste Antwort auf die Frage des Nutzers. Punkt. In 24 Jahren SEO habe ich genug 'Trickser' kommen und gehen sehen."
----
-
-Moin!
+---Moin!
 
 Der **Google Algorithmus** ist das bestgehütete Geheimnis der digitalen Welt. Kein Mensch auf der Erde kennt die vollständige Formel – nicht mal die Google-Ingenieure selbst, denn große Teile werden heute von KI-Systemen gesteuert.
 
-Was wir wissen: Der Algorithmus bewertet über 200 [Rankingfaktoren](/glossar/rankingfaktoren/), um aus Milliarden von Webseiten die zehn relevantesten für jede Suchanfrage auszuwählen. Und er wird jeden Tag besser darin.
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (Magic Writing Podcast)</p>
-  <p class="italic text-dark mb-0">"Die Infrastruktur von Google, die Verzahnung mit Android, Chrome und Google Ads, ist so tief, dass man sie nicht mal eben in zwei Quartalen ersetzt. Google bleibt erst mal auf dem Thron. Unser Job ist es, die neuen Spielregeln auf diesem Thron zu lernen."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wenn deine Seite technisch eine Katastrophe ist und du nicht mal in den Top 10 rankst, brauchst du dir über ChatGPT keine Gedanken machen."</p>
 </div>
+
+Was wir wissen: Der Algorithmus bewertet über 200 [Rankingfaktoren](/glossar/rankingfaktoren/), um aus Milliarden von Webseiten die zehn relevantesten für jede Suchanfrage auszuwählen. Und er wird jeden Tag besser darin.
 
 ## Die Evolution des Algorithmus
 

@@ -15,12 +15,15 @@ faqs:
     answer: "Ein hoher CPC ist der beste Beweis für den Wert eines Keywords. Wenn Wettbewerber bereit sind, viel Geld für einen Klick zu zahlen, dann 'konvertiert' dieser Begriff auch. Es ist oft lukrativer, auf Platz 3 für ein teures Money-Keyword zu stehen, als auf Platz 1 für einen Begriff, der zwar viel Traffic bringt, aber null Umsatz generiert. Der CPC ist dein Profit-Kompass."
   - question: "Kann man den CPC durch SEO-Maßnahmen wirklich sparen?"
     answer: "Absolut! Das ist das Kerngeschäft meiner 'SEO-Strategie'. Wenn wir ein Keyword organisch in die Top-Rankings schieben, sinkt der Druck auf dein Google Ads Budget. Du kannst entweder die teuren Anzeigen ganz abschalten oder das gesparte Geld in noch tiefergehende Kampagnen investieren. SEO macht dich unabhängig von den Preisdiktaten Googles."
----
-
-CPC steht für Cost per Click.
+---CPC steht für Cost per Click.
 Oder auf Deutsch: Wie viel wandert pro Klick von deinem Konto zu Google?
 Ursprünglich ein Begriff aus der Welt von Google Ads (SEA).
 Aber für uns SEOs ist der CPC eine Goldgrube an Informationen.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Rankings sind Vanity-Metriken. Was bringen dir 10.000 Besucher, wenn am Ende niemand anruft oder kauft? SEO muss Umsatz treiben."</p>
+</div>
 
 Warum?
 Weil der CPC uns den Marktwert eines Keywords verrät.

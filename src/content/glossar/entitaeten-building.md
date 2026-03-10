@@ -15,11 +15,14 @@ faqs:
     answer: "Das hängt davon ab, wie 'bekannt' du bereits bist. Für jemanden mit einer Wikipedia-Seite kann es Wochen dauern. Für einen lokalen Freelancer eher 3-12 Monate. Die gute Nachricht: Sobald du Entity-Status hast, ist er extrem stabil. Google vertraut Entitäten und indexiert neue Inhalte schneller. Auf meiner Seite werden neue Glossar-Einträge innerhalb von 1-3 Tagen indexiert – ein direktes Ergebnis meines Entity-Status."
   - question: "Welche Schritte sind die wichtigsten beim Entitäten-Building?"
     answer: "Die Reihenfolge ist entscheidend: Erstens, Grounding Page erstellen (deine maschinenlesbare Fakten-Seite). Zweitens, Schema.org Person/Organization Markup auf allen relevanten Seiten implementieren. Drittens, konsistente Citations in den wichtigsten Verzeichnissen und Plattformen aufbauen. Viertens, Content publizieren, der deine Expertise in deinem Fachgebiet demonstriert. Fünftens, externe Mentions durch Pressearbeit und Podcasts generieren."
----
-
-Moin!
+---Moin!
 
 **Entitäten-Building** ist die praktische Umsetzung einer der wichtigsten SEO-Strategien der Gegenwart: Dich selbst – deinen Namen, deine Marke, dein Unternehmen – als [Entität](/glossar/entitaet/) im Knowledge Graph und in KI-Modellen zu verankern.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Zweitmeinung mit ehrlichen Augen: Manchmal sieht man vor lauter Keywords den Wald nicht mehr."</p>
+</div>
 
 Es ist der Unterschied zwischen „eine Website, die über SEO schreibt" und „Jörg Zimmer, die Entität, die Google als SEO-Experten in Berlin kennt."
 

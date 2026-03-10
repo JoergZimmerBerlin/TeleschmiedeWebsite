@@ -15,13 +15,16 @@ faqs:
     answer: "Ein spezialisierter GEO-Berater denkt nicht mehr eindimensional in der Metrik von '10 blauen Links in den Suchergebnissen'. Im Zentrum meiner Arbeit als Freelancer steht die Frage: Wie bereiten wir Unternehmens-Informationen so strukturiert auf, dass Google SGE, Perplexity oder ChatGPT exakt *dich* als die autoritäre, unumstößliche Antwortquelle für ihre Nutzer zitieren? Das erfordert heute einen extremen Fokus auf saubere semantische RAG-Strukturen und den Aufbau von organischen Brand Mentions im gesamten Web."
   - question: "Warum brauche ich in der KI-Ära eine dezidierte GEO Agentur?"
     answer: "Weil bedrückend viele klassische Full-Service-Agenturen ihren Kunden heute noch die manipulativen SEO-Methoden von 2018 (wie starres Keyword-Stuffing oder fragwürdiges Linkbuilding) verkaufen. Eine dedizierte GEO-Strategie sichert aber deine Sichtbarkeits-Relevanz in der Suchlandschaft von morgen ab. Wenn die Nutzer ihre Antworten in Zukunft immer öfter direkt im KI-Prompt erhalten (Zero Click Search), brauchst du einen technischen Partner, der sicherstellt, dass dein Markenname in genau diesem Kontext zitiert wird."
----
-
-Moin!
+---Moin!
 
 Wir befinden uns mitten im größten Wandel seit dem Start von Google. Der Kampf heißt **GEO vs. SEO**. 
 Früher war das Ziel klar: Platz 1 in den Suchergebnissen. 
 Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Google Search Generative Experience (SGE) als Quelle genannt?
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Guck dir mal deinen PageSpeed auf dem Handy an. Wenn der Nutzer dreimal Kaffee kochen kann, bis deine Seite lädt, ist er längst bei der Konkurrenz."</p>
+</div>
 
 Als [GEO Strategist](/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Denn wer heute nur für SEO optimiert, stirbt morgen vielleicht in der KI-Suche.
 

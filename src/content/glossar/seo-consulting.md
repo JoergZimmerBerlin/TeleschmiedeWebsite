@@ -15,11 +15,14 @@ faqs:
     answer: "Consulting liefert dir Antworten und Strategien – du bekommst einen fertigen Plan. Coaching bringt dir bei, selbst die richtigen Fragen zu stellen und Antworten zu finden. Consulting ist für Unternehmen, die schnell Ergebnisse brauchen. Coaching ist für alle, die langfristig unabhängig werden wollen. Beides hat seinen Platz, und ich biete beides an."
   - question: "Was kostet SEO Consulting?"
     answer: "Stundensätze für erfahrene SEO Consultants liegen zwischen 120€ und 250€. Ein strategisches Audit mit Roadmap dauert typischerweise 15-30 Stunden. Das klingt nach viel, aber vergleich es mit einer Agentur, die dir 2.000-5.000€ pro Monat berechnet, ohne dass du weißt, wofür. Beim Consulting ist jede Stunde transparent und der ROI direkt messbar."
----
-
-Moin!
+---Moin!
 
 **SEO Consulting** ist für alle, die keine Ausführung brauchen, sondern einen Plan. Einen echten, datenbasierten Plan, der auf deinem Markt, deinen Wettbewerbern und deinen Zielen basiert.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
+</div>
 
 In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung – wenn du an den richtigen Hebeln ansetzt.
 

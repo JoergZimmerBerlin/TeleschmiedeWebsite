@@ -15,22 +15,20 @@ faqs:
     answer: "Ein Traffic-Einbruch ist der Albtraum jedes Website-Betreibers, aber meistens gibt es eine logische Erklärung. Häufigste Ursachen sind Google Core Updates, technische Fehler (wie versehentliches Noindex), Saisonalität oder das Erstarken von Wettbewerbern. In meiner SEO Sprechstunde analysiere ich zuerst, ob der Einbruch site-wide ist oder nur bestimmte URLs betrifft. Dann grenzen wir ein, ob es ein technisches oder ein inhaltliches Problem ist."
   - question: "Wie steigere ich meinen organischen Traffic?"
     answer: "Die ehrliche Antwort: Es gibt keinen Quick-Fix. Nachhaltiges Traffic-Wachstum erfordert hochwertigen Content, der echte Nutzerfragen beantwortet, eingebettet in eine saubere technische Architektur. Du musst die Suchintention deiner Zielgruppe perfekt bedienen und gleichzeitig Signale für deine E-E-A-T Autorität setzen. Ein gut strukturiertes Glossar wie dieses hier ist zum Beispiel ein hervorragender Motor für langfristigen Traffic-Aufbau."
----
-
-Traffic ist die Währung der Aufmerksamkeit.
+---Traffic ist die Währung der Aufmerksamkeit.
 Ganz einfach: Wie viele Menschen landen auf deiner Seite?
 Aber hier fangen die Probleme meist schon an.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
+</div>
 
 Viele jagen blind nach hohen Zahlen.
 "Wir haben 10.000 Besucher im Monat!"
 Klingt toll. Aber was machen die da?
 Gucken die nur? Oder kaufen die?
 Traffic ist kein Selbstzweck. Er ist nur der Anfang.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus der Praxis (SEOpresso Podcast)</p>
-  <p class="italic text-dark mb-0">"Die KI-Welt beschleunigt alles. Wir haben keine Zeit mehr für monatelange Strategiepapiere. Wir brauchen schnelle Entscheidungen, schnelle Hilfe und jemanden, der ans Telefon geht, wenn der Traffic-Vulkan ausbricht."</p>
-</div>
 
 ## Die Quellen deines Traffics
 

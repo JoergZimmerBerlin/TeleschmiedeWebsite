@@ -15,11 +15,14 @@ faqs:
     answer: "Am besten als JSON-LD Block im Head-Bereich deiner Seite. Du definierst ein FAQPage-Objekt mit einer Liste von Question- und Answer-Paaren. Auf meiner Seite teleschmie.de generiere ich das Markup automatisch aus den FAQ-Daten im Frontmatter – so ist sichergestellt, dass es immer mit dem sichtbaren Inhalt übereinstimmt. Wichtig: Die Fragen und Antworten im Schema MÜSSEN auch auf der Seite für den Nutzer sichtbar sein, sonst droht eine manuelle Maßnahme."
   - question: "Lohnt sich FAQ-Markup 2026 überhaupt noch?"
     answer: "Absolut, aber aus anderen Gründen als früher. Der direkte SERP-Rich-Result-Effekt ist zwar eingeschränkt, aber FAQ-Markup ist jetzt ein Schlüssel für die KI-Suche. Perplexity, ChatGPT und Google SGE nutzen strukturierte FAQ-Daten als bevorzugte Antwortquelle. Wer sein Wissen in sauberem Q&A-Format bereitstellt, wird von KI-Systemen häufiger zitiert. Es ist eine Investition in die GEO-Zukunft."
----
-
-Moin!
+---Moin!
 
 Wenn du schon mal ein Google-Suchergebnis gesehen hast, das ausklappbare Fragen und Antworten direkt unter dem Link zeigt – dann hast du **FAQ-Markup** in Aktion gesehen.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
+</div>
 
 Es ist eine der sichtbarsten Anwendungen von [Strukturierten Daten](/glossar/strukturierte-daten/) und eines der mächtigsten Werkzeuge, um mehr Platz in den Suchergebnissen zu besetzen. Auf meiner eigenen Seite teleschmie.de nutze ich FAQ-Markup auf jeder Glossar-Seite – du siehst die Ergebnisse in den FAQ-Accordions am Ende jeder Seite.
 

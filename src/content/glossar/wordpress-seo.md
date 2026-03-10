@@ -15,11 +15,14 @@ faqs:
     answer: "WP Rocket ist fantastisch, aber es ist leider keine Zauberei. Ein Premium-Caching-Plugin kann statische Ressourcen komprimieren und die Serverantwortzeit drastisch verbessern, aber wenn dein WordPress-Theme komplett überladen ist (z.B. mit massiven Page-Buildern wie alten Elementor-Versionen), stößt auch WP Rocket an seine Grenzen. Echter PageSpeed entsteht durch eine extrem schlanke Code-Basis, die dann durch kluges Caching auf High-Speed getrimmt wird."
   - question: "Ist das Enterprise-CMS TYPO3 besser für SEO als WordPress?"
     answer: "Das ist ein klassischer Äpfel-Birnen-Vergleich. TYPO3 ist architektonisch in Themen wie Multi-Language, Rechteverwaltung und extrem komplexen URL-Strukturen oft überlegen. Allerdings glänzt WordPress durch seine enorme Flexibilität, die intuitive Content-Pflege und ein gigantisches Ökosystem an High-End SEO-Plugins. Mit dem passenden technischen Setup (schnelles Hosting, sauberes Theme) kannst du auch auf WordPress Enterprise-Level-SEO betreiben."
----
-
-Moin!
+---Moin!
 
 In der Welt der Content Management Systeme (CMS) gibt es zwei Welten: Die intuitive, Plugin-reiche Welt von **WordPress** und das technische Schwergewicht **TYPO3**. Als [SEO Experte](/seo-freelancer-berlin/) betreue ich beide Welten und weiß: Ohne das richtige Werkzeug bleibst du unsichtbar.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
+</div>
 
 ---
 

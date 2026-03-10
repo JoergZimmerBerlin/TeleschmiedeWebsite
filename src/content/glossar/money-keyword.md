@@ -15,12 +15,15 @@ faqs:
     answer: "Weil Traffic nicht gleich Umsatz ist. Ich nehme jederzeit lieber 100 gezielte Klicks auf das Money-Keyword 'SEO Audit B2B buchen' als 10.000 Klicks auf 'SEO Tipps 2026'. Die Conversion-Rate bei spezifischen, transaktionalen Long-Tail-Keywords ist gigantisch viel höher. Ein Nischen-Keyword mit nur 50 Suchanfragen pro Monat kann dein profitabelster Kanal sein, wenn exakt dein Traumkunde danach sucht."
   - question: "Wie finde ich die besten Money Keywords für mein Business?"
     answer: "Verlass dich nicht nur auf klassische Keyword-Tools – die zeigen dir oft nur das Offensichtliche. Die besten Insights bekommst du aus deiner laufenden Google Ads Kampagne: Welche Suchbegriffe führen dort tatsächlich zu messbaren Conversions? Das sind deine echten Money Keywords. Analysiere das Wording deiner Kunden in Support-Mails oder Verkaufsgesprächen und schau in die Google Search Console, welche Queries aktuell den qualifiziertesten Traffic bringen."
----
-
-Moin!
+---Moin!
 
 Ein Money Keyword ist der Jackpot im SEO.
 Es ist ein Suchbegriff, bei dem der Nutzer bereits die Kreditkarte in der Hand hält oder zumindest kurz davor ist, auf "Anfragen" zu klicken.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wenn dein Relaunch am Sonntagabend schiefgeht, brauchst du jemanden, der direkt in den Code geht und rettet, was zu retten ist."</p>
+</div>
 
 Beispiel:
 "Was ist SEO?" -> Informations-Keyword. Der Nutzer will nur wissen, was das ist.
@@ -83,4 +86,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was ist die Conversion Rate?](/glossar/conversion-rate/)
 * **Lese-Tipp:** [Suchintention verstehen](/glossar/keywordrecherche/)
-

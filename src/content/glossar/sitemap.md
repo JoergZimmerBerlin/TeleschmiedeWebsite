@@ -15,13 +15,16 @@ faqs:
     answer: "Auf keinen Fall! Nur URLs, die auch tatsächlich indexiert werden sollen und einen HTTP-Status 200 zurückgeben. Seiten mit noindex, Weiterleitungen (301/302), veraltete Inhalte oder interne Suchergebnisseiten haben in der Sitemap nichts verloren. Eine 'aufgeblähte' Sitemap mit tausenden irrelevanten URLs verschwendet dein Crawl-Budget und verwirrt Google. Qualität vor Quantität!"
   - question: "Wie oft sollte die Sitemap aktualisiert werden?"
     answer: "Am besten automatisch bei jeder Veröffentlichung! Auf meiner Seite teleschmie.de wird die Sitemap bei jedem Build-Prozess dynamisch generiert – das gewährleistet, dass neue Glossar-Einträge oder Blogartikel sofort für Google sichtbar sind. Bei WordPress erledigen das Plugins wie Yoast automatisch. Wer seine Sitemap manuell pflegt, vergisst es garantiert – Automatisierung ist hier Pflicht."
----
-
-Moin!
+---Moin!
 
 Eine Sitemap ist die Landkarte deiner Website. 
 Ganz einfach: Ein Dokument, das alle URLs deiner Seite auflistet. 
 Das Ziel? Google sagen: "Hey, hier sind meine Inhalte, bitte schau sie dir an!"
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Eine Website ohne klare Hierarchie und interne Verlinkung ist wie ein Supermarkt ohne Wegweiser."</p>
+</div>
 
 Zwar findet Google viele Seiten auch über [interne Verlinkungen](/glossar/interne-verlinkung/), aber die Sitemap ist das Sicherheitsnetz. 
 Besonders für neue Websites oder Seiten mit tausenden Artikeln ist sie absolut unverzichtbar.
@@ -84,4 +87,3 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Warum Crawler so wichtig sind](/glossar/crawler/)
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-

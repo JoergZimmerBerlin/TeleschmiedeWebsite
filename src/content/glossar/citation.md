@@ -15,9 +15,12 @@ faqs:
     answer: "Die Basis ist immer ein perfekt gepflegtes Google Business Profile. Danach folgen die 'Big Players' wie Bing Places, Apple Maps und Branchen-Riesen wie Gelbe Seiten oder das Örtliche. Aber Vorsicht: Den echten SEO-Boost bringen oft themenspezifische Nischen-Portale oder lokale Nachrichtenartikel. Eine Citation in einem PDF der IHK Berlin ist oft mehr wert als zehn Standard-Einträge in Spam-Verzeichnissen."
   - question: "Wie finde und korrigiere ich fehlerhafte Citations effektiv?"
     answer: "Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein 'nice to have', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut."
----
+---Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch in der Ära von ChatGPT, Perplexity und Google SGE hat sich das Spiel fundamental verändert: **Citations** – also Erwähnungen deines Namens oder deiner Marke im Netz – sind zum wichtigsten Faktor geworden, ob eine KI dich als Experte erkennt und zitiert.
 
-Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch in der Ära von ChatGPT, Perplexity und Google SGE hat sich das Spiel fundamental verändert: **Citations** – also Erwähnungen deines Namens oder deiner Marke im Netz – sind zum wichtigsten Faktor geworden, ob eine KI dich als Experte erkennt und zitiert.
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Lokales SEO ist heutzutage oft der schnellste Weg zum Umsatz. Wer sein Google Business Profile verstauben lässt, überlässt der Konkurrenz das Feld."</p>
+</div>
 
 Eine Citation ist jede Erwähnung deines Namens im Internet. Das Besondere: Es muss kein klickbarer Hyperlink sein. Schon die bloße Nennung deines Namens in einem Fachartikel, einer Podcast-Shownote oder einem Konferenz-Programm reicht aus, damit Algorithmen und KI-Modelle dies als "Vertrauens-Votum" werten.
 

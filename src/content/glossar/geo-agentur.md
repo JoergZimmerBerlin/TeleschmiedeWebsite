@@ -15,11 +15,14 @@ faqs:
     answer: "SEO ist die Basis – aber ohne GEO verschenkst du 2026 massiv Sichtbarkeit. Schon heute beantworten KI-Systeme einen wachsenden Anteil aller Suchanfragen direkt, ohne dass Nutzer eine Website besuchen. Wenn du in diesen KI-Antworten nicht zitiert wirst, existierst du für einen immer größeren Teil deiner Zielgruppe schlicht nicht. GEO ist kein Ersatz für SEO, sondern die logische Erweiterung. In meiner Arbeit als Freelancer verbinde ich beides nahtlos."
   - question: "Wie messe ich den Erfolg von GEO-Maßnahmen?"
     answer: "Das war lange das größte Problem: Wie misst man, ob ChatGPT einen zitiert? Inzwischen gibt es spezialisierte Tools wie Rankscale, die deine Sichtbarkeit über 17 verschiedene LLMs gleichzeitig tracken. Ich nutze dieses Tool selbst und habe darüber ausführlich in meinem Blog geschrieben. Zusätzlich kannst du manuell testen: Frag ChatGPT, Perplexity oder Gemini nach deinem Fachgebiet und schau, ob dein Name oder deine Website in den Antworten und Quellen auftaucht."
----
-
-Moin!
+---Moin!
 
 **GEO Agentur** – ein Begriff, den vor zwei Jahren noch niemand kannte. Heute ist er die Antwort auf die wichtigste Frage im digitalen Marketing: *Wie werde ich sichtbar, wenn die Hälfte aller Suchanfragen von KI beantwortet wird?*
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Guck dir mal deinen PageSpeed auf dem Handy an. Wenn der Nutzer dreimal Kaffee kochen kann, bis deine Seite lädt, ist er längst bei der Konkurrenz."</p>
+</div>
 
 Ich sage es klar: Wer 2026 nur klassisches [SEO](/glossar/seo-beratung/) betreibt, baut sein Haus auf halbem Fundament. Die andere Hälfte ist [Generative Engine Optimization (GEO)](/glossar/geo/) – die Kunst, von KI-Systemen als Experte erkannt, zitiert und empfohlen zu werden.
 

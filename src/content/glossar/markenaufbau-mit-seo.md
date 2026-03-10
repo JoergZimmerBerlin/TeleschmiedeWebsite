@@ -15,11 +15,14 @@ faqs:
     answer: "Der wichtigste KPI ist dein 'Branded Search Volume' – du findest es in der Google Search Console unter 'Leistung', gefiltert nach Suchanfragen, die deinen Markennamen enthalten. Wenn dieses Volumen steigt, wächst deine Marke. Außerdem: Beobachte, ob du einen Knowledge Panel auf Google bekommst. Das ist der ultimative Beweis, dass Google dich als Entität erkannt hat. Auf teleschmie.de arbeite ich gezielt daran, dass mein Name und meine Expertise im Knowledge Graph verankert sind."
   - question: "Was ist der Unterschied zwischen Brand SEO und klassischem Branding?"
     answer: "Klassisches Branding dreht sich um Logo, Farben und Werbebotschaften. Brand SEO geht tiefer: Es sorgt dafür, dass deine Marke maschinenlesbar ist – über Schema.org Markup, konsistente Citations, Mentions in Fachmedien und eine starke Grounding Page. Es ist Branding für Algorithmen UND Menschen gleichzeitig. In der KI-Suche entscheidet nicht dein Logo, sondern dein digitaler Fußabdruck."
----
-
-Moin!
+---Moin!
 
 Die meisten denken bei **SEO** an Keywords und Rankings. Aber die klügsten SEO-Strategen wissen: Der mächtigste Rankingfaktor der Welt ist ein Markenname, den Menschen aktiv bei Google eingeben.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Große Agenturen verkaufen dir gerne einen Junior für den Preis eines Seniors. Ich verkaufe dir meine 24 Jahre Erfahrung, komprimiert auf das, was funktioniert."</p>
+</div>
 
 Wenn jemand nach „Jörg Zimmer SEO" sucht, ist das für Google ein glasklares Signal: Dieser Mensch wird als Experte wahrgenommen. Und genau dieses Signal strahlt auf **alle** anderen Rankings aus. Deshalb ist der strategische Markenaufbau mit SEO keine Marketing-Spielerei, sondern die Königsdisziplin.
 

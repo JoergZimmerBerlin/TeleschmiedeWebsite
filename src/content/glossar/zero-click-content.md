@@ -15,11 +15,14 @@ faqs:
     answer: "Zwei Strategien gleichzeitig: Erstens, für Keywords mit hohem Zero-Click-Anteil (informationelle Fragen) optimierst du auf das Featured Snippet und AI Overview – du wirst die zitierte Quelle. Zweitens, fokussiere dich auf Keywords mit Klick-Intent (transaktionale und navigierende Suchanfragen): 'SEO Freelancer Berlin beauftragen' wird nie zero-click beantwortet. Die Mischung macht's."
   - question: "Kann ich Zero-Click Content für mein Branding nutzen?"
     answer: "Unbedingt! Wenn Google dich in einem Featured Snippet als Quelle nennt, sehen tausende Nutzer deinen Namen – auch ohne Klick. Das stärkt deine Marke und dein Branded Search Volume. Auf meiner Seite generieren Glossar-Einträge regelmäßig Featured Snippets. Die Klicks sind weniger, aber die Brand Awareness ist enorm."
----
-
-Moin!
+---Moin!
 
 **Zero-Click Content** ist der Elefant im Raum, über den die SEO-Branche nur ungern spricht: Über 60% aller Google-Suchen enden, ohne dass jemand auf ein Suchergebnis klickt.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
+</div>
 
 Der Nutzer bekommt seine Antwort direkt in der SERP – über Featured Snippets, Knowledge Panels, AI Overviews oder „People Also Ask" Boxen. Und mit der [generativen Suche (GEO)](/glossar/geo/) wird dieser Anteil weiter steigen.
 

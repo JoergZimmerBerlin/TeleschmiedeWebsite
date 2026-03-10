@@ -15,19 +15,18 @@ faqs:
     answer: "Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie ('Was machen wir nun mit diesen Daten?') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs."
   - question: "Reicht der kostenlose Google Keyword Planner heute noch aus?"
     answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie SE Ranking, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
----
-
-Keywordrecherche ist keine Fleißaufgabe.
+---Keywordrecherche ist keine Fleißaufgabe.
 Es ist Marktforschung im 21. Jahrhundert.
 Wer keine saubere Recherche macht, baut sein Haus auf Sand.
 Ganz egal, wie schick das Design ist.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."</p>
+</div>
+
 Das Ziel: Die Sprache deiner Kunden verstehen.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (Magic Writing Podcast)</p>
-  <p class="italic text-dark mb-0">"Viele SEOs starren stundenlang auf Excel-Listen mit Suchvolumen und Wettbewerbs-Scores. Aber sie vergessen dabei, wer diese Wörter eigentlich eintippt. Was ist der Schmerz hinter der Suche? Was ist das Ziel? Zielgruppenverständnis ist die am meisten unterschätzte Superkraft im SEO."</p>
-</div>
 Suchen sie nach "Lohnsteuerhilfe" oder nach "Steuern sparen Tipps"?
 Ein kleiner Unterschied im Wortlaut bedeutet oft einen gewaltigen Unterschied im [Suchvolumen](/glossar/suchvolumen/) und im [Umsatz](/glossar/money-keyword/).
 

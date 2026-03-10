@@ -9,12 +9,12 @@ key_takeaways:
   - "Fokus auf Felddaten: Echte Nutzerdaten (CrUX) zählen mehr als theoretische Lab-Tests."
   - "Drei Kernmetriken: LCP (Ladezeit), INP (Interaktivität) und CLS (visuelle Stabilität) sind entscheidend."
 faqs:
-  - question: "Was ist ein guter LCP-Wert?"
-    answer: "Ein guter Largest Contentful Paint (LCP) liegt bei unter 2,5 Sekunden für 75% der Seitenbesuche."
-  - question: "Warum wurde FID durch INP ersetzt?"
-    answer: "INP (Interaction to Next Paint) ist präziser, da es die Verzögerung aller Interaktionen misst, nicht nur der ersten."
-  - question: "Beeinflussen Core Web Vitals das Ranking?"
-    answer: "Ja, sie sind seit 2021 ein offizieller Google Rankingfaktor, insbesondere im mobilen Index."
+  - question: "Was ist ein wirklich guter LCP-Wert für meine Website?"
+    answer: "Ein guter Largest Contentful Paint (LCP) liegt bei unter 2,5 Sekunden. Aber Achtung: Das gilt für 75% deiner Seitenbesuche! Es nützt nichts, wenn dein LCP im LAN-Kabel super ist, aber deine mobilen Nutzer in der Berliner U-Bahn 10 Sekunden warten. Fokus auf 'Real User Monitoring' ist hier der Schlüssel. Schnelles Laden ist kein Schicksal, sondern harte Entwickler-Arbeit."
+  - question: "Warum wurde FID durch INP ersetzt und was bedeutet das für mich?"
+    answer: "FID (First Input Delay) hat nur die allererste Interaktion gemessen – das war Google zu ungenau. INP (Interaction to Next Paint) misst jetzt die Verzögerung aller Interaktionen auf einer Seite. Wenn deine Seite beim Scrollen stockt oder das Menü erst nach einer Gedenksekunde aufklappt, schlägt dein INP-Wert aus. Es geht um die 'gefühlte' Flüssigkeit deiner Seite, nicht nur um den ersten Klick."
+  - question: "Beeinflussen Core Web Vitals mein Google-Ranking massiv?"
+    answer: "Ja, sie sind seit 2021 ein offizieller Rankingfaktor. Stell dir die CWV wie einen 'Tie-Breaker' vor: Wenn zwei Seiten inhaltlich gleichwertig sind, gewinnt die mit der besseren Performance. Zudem wirken sie indirekt: Langsame Seiten erhöhen die Absprungrate, was wiederum ein negatives Signal an Google sendet. Grüne Vitals sind die Eintrittskarte in die Top 3 der Suchergebnisse."
 ---
 
 Moin!
@@ -74,7 +74,7 @@ Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert.
 
 In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist die Performance-Optimierung daher kein "nice to have", sondern das technische Fundament.
 
-### Fazit war gestern (Lohnt sich das?)
+## Was du jetzt tun solltest
 
 Technische Exzellenz durch grüne Core Web Vitals ist die Hausaufgabe jeder professionell betriebenen Website.
 Wer hier spart, verliert Nutzer an die Konkurrenz.

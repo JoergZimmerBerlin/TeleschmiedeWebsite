@@ -68,7 +68,7 @@ Die Leute optimieren für Begriffe, die niemand sucht.
 Oder für Begriffe, die gar nicht zu ihrem Angebot passen.
 Spar nicht an diesem Schritt. Es ist die wichtigste Investition in deine digitale Strategie.
 
-### Fazit war gestern (Der Kompass)
+## Was du jetzt tun solltest
 
 Keywordrecherche ist der Kompass für deinen Erfolg. Lern die Sprache deiner Zielgruppe. Analysiere die harten Daten, aber vertrau auch auf den Kontext. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
 

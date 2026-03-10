@@ -66,7 +66,7 @@ Gute Usability für Menschen ist oft auch gute Lesbarkeit für Maschinen.
 
 Dazu gehört auch die Einbindung einer sauberen [Sitemap](/glossar/sitemap/) und eine logische [Hierarchie der Überschriften](/glossar/h1-h2-h3/).
 
-### Fazit war gestern (Nutzertest)
+## Was du jetzt tun solltest
 
 Viele Firmen geben tausende Euro für Design aus, vergessen aber die Usability. Sie bauen wunderschöne, aber unbenutzbare Websites. Am Ende wundern sie sich über eine schlechte Conversion Rate. Hör auf, deine Nutzer zu quälen. Mach es ihnen einfach. Dann danken sie es dir mit Vertrauen und Umsatz. Denn eine Seite, die niemand versteht, wird auch niemand besuchen.
 

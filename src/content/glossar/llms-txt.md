@@ -54,7 +54,7 @@ Wichtig: Die `llms.txt` ersetzt nicht die `robots.txt`. Sie arbeiten Hand in Han
 
 Für moderne SEO-Strategien, die ich in meinem [Blog](/blog/rankscale-ai-visibility-tracking-17-llms/) diskutiere, ist die `llms.txt` das ultimative Werkzeug, um die "Halluzinationen" von KIs zu reduzieren. Indem du der Maschine die Fakten auf dem Silbertablett servierst, minimierst du das Risiko, dass die KI falsche Informationen über dein Unternehmen erfindet.
 
-### Fazit war gestern (Die Visitenkarte)
+## Was du jetzt tun solltest
 
 Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready" und sichert sich einen Startvorteil in der Welt des [Generative Engine Optimization (GEO)](/glossar/geo/). Es ist eine kleine Textdatei mit einer riesigen Wirkung für die Zukunft deines digitalen Footprints. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
 

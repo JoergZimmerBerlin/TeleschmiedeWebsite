@@ -9,17 +9,17 @@ key_takeaways:
   - "Indexierungs-Kontrolle: Nutze 'noindex' für die Steuerung der Sichtbarkeit, nicht die robots.txt."
   - "Crawl-Budget Management: Schütze deine Ressourcen vor sinnlosen URLs, um frischen Content schnell ins Ranking zu bringen."
 faqs:
-  - question: "Kann eine Seite ranken, wenn das Crawling gesperrt ist?"
-    answer: "Ja, falls sie von außen stark verlinkt wird. Google kennt dann die URL, aber nicht den Inhalt."
-  - question: "Wie lange dauert es vom Crawling bis zum Indexing?"
-    answer: "Das schwankt von Sekunden (bei News) bis hin zu Wochen (bei neuen, unbekannten Seiten)."
-  - question: "Hilft das Löschen von Seiten dem Crawling-Budget?"
-    answer: "Indirekt ja, da der Bot weniger Ballast verarbeiten muss und sich auf die wichtigen Seiten konzentrieren kann."
+  - question: "Was bedeutet es, wenn in der Search Console 'Gecrawlt, aber nicht indexiert' steht?"
+    answer: "Das ist einer der häufigsten Statusmeldungen, die mir in meinen Audits begegnen. Google hat die Seite zwar besucht und heruntergeladen, hält den Inhalt aber für nicht relevant genug, um ihn in den Index aufzunehmen. Die Gründe können vielfältig sein: zu wenig einzigartiger Content (Thin Content), Duplikate, fehlende interne Verlinkung oder schwache E-E-A-T-Signale. Mein erster Schritt ist immer: die betroffenen URLs einzeln zu analysieren und zu entscheiden – löschen, zusammenlegen oder massiv aufwerten."
+  - question: "Wie lange dauert es vom Crawling bis zur Indexierung einer neuen Seite?"
+    answer: "Das hängt stark vom Vertrauen ab, das Google in deine Domain hat. Bei großen News-Seiten passiert das in Sekunden. Bei einer neuen, unbekannten Domain kann es Wochen dauern. Für meine Seite teleschmie.de werden neue Glossar-Einträge meist innerhalb von 1-3 Tagen indexiert, weil Google die Domain als regelmäßig aktualisierten Experten-Hub kennt. Tipp: Reiche neue URLs aktiv über die Search Console ein ('URL-Prüfung' -> 'Indexierung beantragen')."
+  - question: "Ich habe versehentlich meine Seiten auf noindex gesetzt – wie schnell kann ich das reparieren?"
+    answer: "Das ist der Relaunch-Klassiker! Entferne sofort das noindex-Tag, prüfe deinen HTTP-Header auf X-Robots-Tag (da versteckt es sich manchmal auch!), und reiche die betroffenen URLs einzeln in der Google Search Console zur erneuten Indexierung ein. Normalerweise dauert es 3-14 Tage, bis Google die Änderung verarbeitet hat. Je stärker die Domain, desto schneller geht es. Bei meinen Kunden löse ich solche Blockaden oft innerhalb einer einzigen Sprechstunde."
 ---
 
 Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
 
-Oftmals heißt es: *"Jörg, diese Seite darf nicht in Google auftauchen. Ich sperre sie schnell in der robots.txt gegen das Crawling"*. (Ein kapitaler Fehler, den wir uns später ansehen).
+In meiner täglichen Arbeit muss ich ständig Indexierungs-Blockaden beheben: Seiten, die als "Gecrawlt, aber nicht indexiert" gemeldet werden, oder Kunden, die sich unbewusst selbst blockieren – sei es durch ein vergessenes noindex-Tag vom Relaunch oder eine falsch konfigurierte robots.txt. Die meisten wollen indexiert werden, wissen aber nicht, dass sie sich selbst im Weg stehen.
 
 Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
 
@@ -84,7 +84,7 @@ Man sperrt den Bot logischerweise rigoros **aus** und friert damit den fehlerhaf
 
 Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament einer robusten Online-Reputation ab der ersten Zeile Code.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Begreife Crawling als technischen Zugang und Indexing als inhaltliche Qualifizierung. Wer beides sauber trennt, steuert seine Sichtbarkeit punktgenau. 
 

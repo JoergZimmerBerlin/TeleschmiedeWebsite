@@ -53,7 +53,7 @@ Ob du auf WordPress mit **Rank Math** optimierst oder in TYPO3 die Indexierung s
 
 WordPress eignet sich hervorragend für schnelles Content-Marketing und **YouTube SEO** Integration. TYPO3 ist die Festung für komplexe Datenstrukturen. 
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Wähle dein CMS nach deinen Business-Zielen. 
 Für WordPress: Aktiviere Rank Math und WP Rocket. 

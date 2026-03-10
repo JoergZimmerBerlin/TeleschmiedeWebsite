@@ -69,7 +69,7 @@ Google erkennt heute sehr gut, ob ein Text echtes Wissen enthält oder nur aus W
 Für die Sichtbarkeit in [Generative Engines](/glossar/geo/) ist ein überstandenes Core Update wie ein Gütesiegel.
 Wenn Google dir vertraut, vertrauen dir auch die LLMs.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
 

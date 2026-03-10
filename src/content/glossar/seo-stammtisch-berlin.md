@@ -39,7 +39,7 @@ Nichts spart mehr Geld als aus den Fehlern anderer zu lernen. Am Stammtisch wird
 ### 3. Emotionale Resilienz
 SEO kann frustrierend sein. Man investiert Monate in [Entity SEO](/glossar/entity-seo/) und dann schiebt Google ein Update nach, das alles durcheinanderwürfelt. Zu sehen, dass gestandene Experten mit denselben Sorgen kämpfen, gibt Kraft und Perspektive.
 
-## Meine Rolle vor Ort (Teleschmie.de Spirit)
+## Meine Rolle vor Ort
 
 Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es geht um Geben und Nehmen. Wenn jemand ein Problem mit [strukturierten Daten](/glossar/strukturierte-daten/) hat, helfe ich. Wenn ich bei einem komplexen [SEO-Audit](/glossar/seo-audit/) an meine Grenzen stoße, frage ich die Runde.
 
@@ -56,7 +56,7 @@ Man könnte meinen, in Zeiten von ChatGPT bräuchten wir keinen menschlichen Aus
 
 Am Stammtisch validieren wir, was die KIs uns vorgaukeln. Wir besprechen, wie wir die [Grounding-Page](/glossar/grounding-page/) Konzepte in der Praxis umsetzen oder wie wir mit der [LLMs.txt](/glossar/llms-txt/) die KI-Bots steuern. Das ist 'Expertise aus erster Hand' – und die kann man nicht simulieren.
 
-### Fazit war gestern (Let's connect)
+## Was du jetzt tun solltest
 
 Der SEO Stammtisch Berlin ist mein persönliches Kraftwerk. Wer wachsen will, muss sich mit Leuten umgeben, die schon weiter sind. Keine steifen Vorträge, sondern echte Gespräche. So wie ich es mag.
 

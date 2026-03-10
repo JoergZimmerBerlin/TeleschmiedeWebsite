@@ -21,7 +21,7 @@ Keywörter (oder Keywords) sind die DNA der Suche.
 Ganz simpel: Was gibt der Nutzer bei Google ein? Das ist dein Keyword.
 Aber Vorsicht: Wer heute noch Keywords zählt, hat SEO nicht verstanden.
 
-Ein Keyword ist 2025 kein reines Text-Match mehr.
+Ein Keyword ist 2026 kein reines Text-Match mehr.
 Es ist ein Signal für eine **Absicht** (User Intent).
 Wir optimieren nicht mehr für Zeichenketten, sondern für Konzepte und Bedürfnisse.
 
@@ -74,7 +74,7 @@ Die echten Schätze liegen im Long-Tail und im Mid-Tail.
 Dort, wo die Konkurrenz schläft und die Nutzer echte Probleme lösen wollen. 
 Dort, wo du als Experte wirklich helfen kannst.
 
-### Fazit war gestern (Maximale Relevanz)
+## Was du jetzt tun solltest
 
 Keywords sind das Fundament. Aber nutze sie mit Verstand und Empathie für den Nutzer. Schreib für Menschen, aber gib der Maschine die klaren Signale, die sie braucht. Kein Keyword-Stuffing. Nur maximale Relevanz. Denn am Ende zählt nur eines: Hat der Nutzer auf deiner Seite genau das gefunden, wonach er gesucht hat?
 

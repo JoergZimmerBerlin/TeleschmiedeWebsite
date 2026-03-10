@@ -9,12 +9,12 @@ key_takeaways:
   - "Vollständigkeit: Sie garantiert, dass auch verwaiste Seiten (Orphan Pages) gefunden werden."
   - "Schnelle Indexierung: Neue Inhalte werden über die Sitemap deutlich schneller von Google erfasst."
 faqs:
-  - question: "Wo finde ich meine Sitemap?"
-    answer: "Meistens liegt sie unter deiner-domain.de/sitemap.xml oder wird in der robots.txt verlinkt."
-  - question: "Braucht jede Website eine Sitemap?"
-    answer: "Ab einer Handvoll Seiten ist sie absolut empfehlenswert. Bei großen Portalen oder Shops ist sie geschäftskritisch."
-  - question: "Sollten alle URLs in die Sitemap?"
-    answer: "Nein! Nur URLs, die indexiert werden sollen (200 OK) und für den Nutzer relevant sind."
+  - question: "Wo finde ich meine Sitemap und wie prüfe ich, ob sie korrekt ist?"
+    answer: "Die Sitemap liegt standardmäßig unter deiner-domain.de/sitemap.xml. Meine eigene findest du unter https://teleschmie.de/sitemap.xml – schau sie dir gerne als Referenz an. In der robots.txt sollte sie außerdem verlinkt sein. Und ganz wichtig: Reiche sie in der Google Search Console unter 'Sitemaps' ein und prüfe dort, ob alle URLs korrekt verarbeitet werden oder Fehler auftreten."
+  - question: "Sollte wirklich jede meiner URLs in die Sitemap?"
+    answer: "Auf keinen Fall! Nur URLs, die auch tatsächlich indexiert werden sollen und einen HTTP-Status 200 zurückgeben. Seiten mit noindex, Weiterleitungen (301/302), veraltete Inhalte oder interne Suchergebnisseiten haben in der Sitemap nichts verloren. Eine 'aufgeblähte' Sitemap mit tausenden irrelevanten URLs verschwendet dein Crawl-Budget und verwirrt Google. Qualität vor Quantität!"
+  - question: "Wie oft sollte die Sitemap aktualisiert werden?"
+    answer: "Am besten automatisch bei jeder Veröffentlichung! Auf meiner Seite teleschmie.de wird die Sitemap bei jedem Build-Prozess dynamisch generiert – das gewährleistet, dass neue Glossar-Einträge oder Blogartikel sofort für Google sichtbar sind. Bei WordPress erledigen das Plugins wie Yoast automatisch. Wer seine Sitemap manuell pflegt, vergisst es garantiert – Automatisierung ist hier Pflicht."
 ---
 
 Moin!
@@ -68,7 +68,7 @@ Oder solche, die 50.000 URLs enthalten, wovon die Hälfte Fehler produziert.
 Eine schlechte Sitemap ist schlimmer als gar keine.
 Sie muss dynamisch sein. Sie muss sauber sein. Sie muss der Wahrheit entsprechen.
 
-### Fazit war gestern (Der Wegweiser)
+## Was du jetzt tun solltest
 
 Die Sitemap ist dein direkter Draht zum Googlebot. Mach es der Maschine so einfach wie möglich. Ein klarer Wegweiser führt zu schnelleren Rankings und besserer Indexierung. Kein High-Level SEO, sondern solides Handwerk. Aber ohne Handwerk kein Masterpiece.
 

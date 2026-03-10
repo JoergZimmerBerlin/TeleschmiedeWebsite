@@ -9,12 +9,12 @@ key_takeaways:
   - "NAP-Konsistenz: Einheitliche Daten (Name, Adresse, Tel) sind die Basis für Google-Vertrauen."
   - "KI-Relevanz: In der GEO-Ära dienen Citations als Belege für die Existenz und Kompetenz deiner Entität."
 faqs:
-  - question: "Muss eine Citation immer einen Link enthalten?"
-    answer: "Nein. Eine Erwähnung ohne Link (Unstructured Citation) ist bereits ein starkes Signal für Google."
-  - question: "Welche Citations sind am wichtigsten?"
-    answer: "Das Google Business Profile ist die Basis. Danach folgen fachrelevante Branchenbücher und Nischen-Portale."
-  - question: "Wie finde ich fehlerhafte Citations?"
-    answer: "Dafür gibt es Tools wie Local SEO Checkers, man kann aber auch nach seiner alten Adresse oder Telefonnummer googeln."
+  - question: "Muss eine Citation zwingend einen klickbaren Link enthalten?"
+    answer: "Ganz klares Nein! Das ist ja gerade der Witz an Citations. Google ist mittlerweile intelligent genug, um Erwähnungen deiner Marke (Name, Adresse, Telefonnummer) auch ohne Hyperlink zuzuordnen. Solche 'Unstructured Citations' dienen als Validierung deiner Entität. Je öfter du in einem vertrauenswürdigen Kontext ohne Link genannt wirst, desto mehr 'brand authority' baust du auf."
+  - question: "Welche Citations haben den größten Einfluss auf mein Ranking?"
+    answer: "Die Basis ist immer ein perfekt gepflegtes Google Business Profile. Danach folgen die 'Big Players' wie Bing Places, Apple Maps und Branchen-Riesen wie Gelbe Seiten oder das Örtliche. Aber Vorsicht: Den echten SEO-Boost bringen oft themenspezifische Nischen-Portale oder lokale Nachrichtenartikel. Eine Citation in einem PDF der IHK Berlin ist oft mehr wert als zehn Standard-Einträge in Spam-Verzeichnissen."
+  - question: "Wie finde und korrigiere ich fehlerhafte Citations effektiv?"
+    answer: "Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein 'nice to have', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut."
 ---
 
 Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch mit dem Aufstieg der lokalen Suche (Local SEO) und der modernen KI-Suche ([Generative Engine Optimization](/glossar/geo/)) ist ein neues Element ins Rampenlicht gerückt: die **Citation** (Zitierung).
@@ -26,7 +26,7 @@ Eine Citation ist im Grunde jede Erwähnung deines Unternehmens im Internet. Das
 Für lokale Unternehmen (wie z.B. einen [SEO Freelancer in Spandau](/seo-freelancer-berlin/)) sind Citations das Rückgrat der Sichtbarkeit in Google Maps und dem "Local Pack". Google gleicht Informationen aus tausenden Verzeichnissen, Gelben Seiten und Portalen ab.
 
 Der heilige Gral hierbei sind die sogenannten **NAP-Daten** (Name, Address, Phone):
-*   **Name:** Teleschmie-de SEO Agentur
+*   **Name:** Jörg Zimmer – SEO Freelancer
 *   **Address:** Straße X, 13xxx Berlin
 *   **Phone:** 030 / 1234567
 
@@ -53,7 +53,7 @@ Wenn du ChatGPT nach dem "besten SEO-Experten in Berlin" fragst, berechnet die K
 
 Jede Erwähnung deines Namens auf starken, vertrauenswürdigen Drittseiten ([E-E-A-T](/glossar/e-e-a-t/)) zahlt auf dein Konto als "Entität" ein. In der generativen Suchoptimierung ([Entity SEO](/glossar/entity-seo/)) geht es darum, die eigene Marke so oft und so hochwertig wie möglich als Zitat im Web zu platzieren, damit KIs dich als verlässliche Antwortquelle (Citations in Perplexity etc.) auswählen.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Citations sind die digitalen Empfehlungen des 21. Jahrhunderts. Für lokale Firmen sind sie die Basis für Google Maps Rankings, für internationale Marken sind sie der Schlüssel, um Teil des globalen Knowledge Graphs zu werden. Achte auf maximale Konsistenz deiner Daten, pflege deine Profile in den wichtigsten Portalen und sorge durch exzellente Arbeit dafür, dass Menschen und Medien über dich sprechen. Ein Zitat ist oft mehr wert als ein gekaufter Backlink.
 

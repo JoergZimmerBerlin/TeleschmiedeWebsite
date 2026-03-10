@@ -51,7 +51,7 @@ Für Large Language Models (LLMs) sind Mentions die primäre Währung. Eine KI w
 
 Wenn du in tausenden Dokumenten als Experte erwähnt wirst, wird die Wahrscheinlichkeit extrem hoch, dass die KI deinen Namen als Empfehlung ausgibt, wenn ein Nutzer nach Hilfe fragt. Mentions bauen deinen "Vektor-Fußabdruck" im semantischen Raum auf. Wer nicht erwähnt wird, existiert für eine generative Engine schlicht nicht – egal wie gut die [On-Page SEO Basics](/blog/80-prozent-seo-fehler-sprechstunde/) der eigenen Seite sind.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Mentions sind die leise, aber gewaltige Kraft hinter einer starken Marke. Sie signalisieren Suchmaschinen und KI-Agenten, dass du eine reale, vertrauenswürdige Autorität bist. Kämpfe nicht nur um harte Links, sondern kämpfe um Aufmerksamkeit und positive Erwähnungen. Werde Teil der Konversation im Netz, denn jede positive Nennung ist ein Baustein für deine langfristige Sichtbarkeit und deinen digitalen Expertenstatus.
 

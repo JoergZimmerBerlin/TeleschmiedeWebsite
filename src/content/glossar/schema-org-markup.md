@@ -9,12 +9,12 @@ key_takeaways:
   - "Rich Snippet Booster: Sauberes Markup ist die Grundvoraussetzung für Sternebewertungen, FAQs und Produkt-Features in den SERPs."
   - "E-E-A-T Verfestigung: Durch @id und sameAs Verknüpfungen belegst du deine Expertise und Entitäts-Zugehörigkeit."
 faqs:
-  - question: "Welches Format ist für Schema.org am besten?"
-    answer: "Google empfiehlt ausdrücklich JSON-LD, da es sauber vom HTML-Code getrennt ist und leicht gewartet werden kann."
-  - question: "Kostet Schema.org Geld?"
-    answer: "Nein, es ist ein offener Standard. Die Implementierung erfordert jedoch technisches Know-how."
-  - question: "Kann man für falsches Schema-Markup bestraft werden?"
-    answer: "Ja. Wer irreführende Daten (z.B. Fake-Bewertungen) per Schema einbaut, riskiert eine manuelle Maßnahme von Google."
+  - question: "Welches Format empfiehlt Google für Schema.org Markup?"
+    answer: "Google empfiehlt ausdrücklich JSON-LD – und das aus gutem Grund. Es ist sauber vom HTML-Code getrennt, leicht wartbar und beeinflusst deinen PageSpeed nicht. Auf meiner eigenen Seite teleschmie.de nutze ich JSON-LD für Person, LocalBusiness, FAQPage und DefinedTerm (für das Glossar). Du kannst dir das Live-Markup jederzeit über den 'Seitenquelltext anzeigen' deines Browsers anschauen und als Vorlage nutzen."
+  - question: "Kann Google mich für falsches oder manipulatives Schema-Markup abstrafen?"
+    answer: "Absolut! Das ist kein Kavaliersdelikt. Wer Fake-Bewertungen einbaut, Preise vortäuscht, die es so nicht gibt, oder Schema-Daten für nicht sichtbare Inhalte nutzt, riskiert eine 'Manuelle Maßnahme' in der Google Search Console. Das bedeutet: Deine Rich Snippets verschwinden – manchmal dauerhaft. Die Regel ist einfach: Schema-Markup darf nur Informationen beschreiben, die auch tatsächlich auf der Seite für den Nutzer sichtbar sind."
+  - question: "Wie teste ich, ob mein Schema.org Markup fehlerfrei ist?"
+    answer: "Google bietet zwei offizielle Tools: Den 'Rich Results Test' (Test für Rich-Suchergebnisse) und den 'Schema Markup Validator'. Der Rich Results Test zeigt dir, welche Rich Snippets möglich sind, der Validator prüft die technische Korrektheit. Tipp: Teste nach jeder Änderung! Auf teleschmie.de prüfe ich das bei jedem Deployment automatisch. Ein kleiner Syntaxfehler im JSON-LD und dein gesamtes Markup wird ignoriert."
 ---
 
 Schema.org ist das Wörterbuch des Webs.
@@ -66,7 +66,7 @@ Es ist die unsichtbare Architektur des Erfolgs.
 Wer lernt, das Schema-Vokabular strategisch einzusetzen, baut keine Website mehr, sondern eine autoritäre Wissensdatenbank.
 Und genau das ist es, was Google heute belohnt.
 
-### Fazit war gestern (Der Standard)
+## Was du jetzt tun solltest
 
 Schema.org ist kein Trend. Es ist der Standard. Sprich die Sprache der Maschinen, um die Aufmerksamkeit der Menschen zu gewinnen. Nutze das volle Vokabular für deine Nische. Verknüpfe deine Daten zu einem starken Netz. Denn am Ende gewinnt der, der die klarsten Antworten liefert.
 

@@ -59,7 +59,7 @@ Jede Entität hat eine Position in diesem hochdimensionalen Raum.
 Durch gezieltes Entity SEO rückst du deine Website-Entität näher an die Kernfragen deiner Zielgruppe im Vektorraum der KI. 
 Wenn eine generative Engine eine Antwort formuliert, zieht sie jene Bruchstücke heran, die die höchste semantische Dichte zum Suchthema aufweisen. 
 
-### Lohnt sich das? (Fazit-Alternative)
+## Was du jetzt tun solltest
 
 Entity SEO ist "SEO für Erwachsene". 
 Es erfordert tiefes thematisches Verständnis statt technischer Tricksereien. 

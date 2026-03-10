@@ -62,7 +62,7 @@ Wie gut können KI-Systeme deine Inhalte extrahieren?
 Sind deine Informationen so strukturiert, dass sie in einer AI Overview zitiert werden können?
 Haben wir die [LLMs.txt](/glossar/llms-txt/) schon als Einladung für die Bots am Start?
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Ein SEO Audit ist kein Luxusgut, sondern die Versicherung für deinen Erfolg. Hör auf zu raten oder dich auf automatisierte Tool-Berichte zu verlassen. Fang an zu wissen. Pack deine Website auf den Grill und lass uns schauen, wo wir die PS wirklich auf die Straße bekommen. 
 

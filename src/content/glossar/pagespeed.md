@@ -57,7 +57,7 @@ Da Google seit 2020 ausschließlich den "Mobile First Index" nutzt, ist die Desk
 
 In der generativen KI-Suche ([GEO](/glossar/geo/)) spielt die Geschwindigkeit beim "Reading" der Bots eine Rolle. Wenn ein LLM-Agent versucht, deine Inhalte zu extrahieren, um sie kuratiert wiederzugeben, hat dieser Bot nur begrenzte Kapazitäten (Crawl-Budget). Langsame Seiten werden oft unvollständig ausgelesen, was dazu führt, dass deine Citations in der KI ungenau oder gar nicht erscheinen.
 
-### Lohnt sich das? (Fazit-Alternative)
+## Was du jetzt tun solltest
 
 PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Nutze Tools wie Google Search Console und PageSpeed Insights regelmäßig, um Engpässe zu identifizieren. Denk immer daran: Eine Sekunde Verzögerung kann bis zu 7% Conversion-Rate kosten. Bleib schnell, bleib sichtbar!
 

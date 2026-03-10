@@ -59,7 +59,7 @@ Damit das Ganze funktioniert, braucht es eine kontinuierliche **SEO Betreuung** 
 
 Ein **SEO Experte** behält die Daten im Blick und passt die Segel an, bevor der Sturm aufzieht.
 
-### Fazit war gestern (Integration)
+## Was du jetzt tun solltest
 
 Ob du nun **SEO Texte schreiben lassen** willst oder eine komplette **digitale Unternehmensberatung** suchst: Achte darauf, dass alle drei Säulen bedient werden. Ein schöner Text auf einer langsamen WordPress-Seite wird niemals sein volles Potenzial entfalten.
 

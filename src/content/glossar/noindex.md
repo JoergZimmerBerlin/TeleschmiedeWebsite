@@ -9,12 +9,12 @@ key_takeaways:
   - "Index-Hygiene: Nutze Noindex für AGB, Impressum oder Thin Content, um die Relevanz zu steigern."
   - "Relaunch-Killer: Ein vergessenes Noindex auf dem Live-Server kann die gesamte Sichtbarkeit vernichten."
 faqs:
-  - question: "Wie baue ich noindex ein?"
-    answer: "Meist über ein Meta-Tag im <head>: <meta name='robots' content='noindex'>. Alternativ über den X-Robots-Tag im HTTP-Header."
-  - question: "Wann sollte ich noindex nutzen?"
-    answer: "Für alle Seiten, die keinen SEO-Mehrwert bieten, wie Dankesseiten, interne Suchen oder Admin-Bereiche."
-  - question: "Kann ich noindex und robots.txt kombinieren?"
-    answer: "Vorsicht! Wenn du eine Seite per robots.txt sperrst, kann Google das noindex-Tag nicht mehr lesen. Die Seite bleibt eventuell im Index."
+  - question: "Wie baue ich das noindex-Tag technisch korrekt ein?"
+    answer: "Die gängigste Methode ist ein Meta-Tag im HTML-Head-Bereich: <meta name='robots' content='noindex'>. Alternativ (z.B. für PDFs) kann man den X-Robots-Tag als HTTP-Header setzen. In WordPress erledigen das Plugins wie Yoast oder RankMath per Klick. In meiner eigenen Astro-Seite (teleschmie.de) steuere ich das direkt im Code – so habe ich volle Kontrolle und keine Plugin-Abhängigkeit."
+  - question: "Welche Seiten meiner Website sollte ich konkret auf noindex setzen?"
+    answer: "Alles, was für einen Google-Nutzer keinen Mehrwert bietet: Dankesseiten (Thank-You-Pages), die nach Formulareingabe erscheinen, AGB/Impressum (rechtlich nötig, aber kein SEO-Wert), interne Suchergebnisseiten, Tag-Archive ohne Content, und veraltete 'Trend'-Artikel, die nur noch peinlich sind. ALOHA-Regel: Wenn du dich schämen würdest, einem Kunden die Seite zu zeigen – noindex!"
+  - question: "Darf ich noindex und eine robots.txt-Blockierung gleichzeitig verwenden?"
+    answer: "Diese Kombi ist der gefährlichste Fehler im technischen SEO! Wenn du eine URL per robots.txt sperrst, kann der Googlebot sie nicht mehr crawlen. Das bedeutet: Er sieht dein noindex-Tag gar nicht. Die Seite bleibt also als 'Zombie' im Index. Die sichere Methode: Crawling erlauben (keine Disallow-Regel) und NUR über das Meta-Tag noindex steuern. So kann Google die Seite lesen und den Befehl 'bitte raus aus dem Index' auch tatsächlich ausführen."
 ---
 
 Moin!
@@ -71,7 +71,7 @@ Ja, tut sie.
 Oft kombiniert man das Tag als `<meta name="robots" content="noindex, follow">`. 
 Google soll diese spezielle Seite ignorieren, aber all die nützlichen Links, die sich im Textkörper befinden, verfolgen und den dahinterliegenden [Linkjuice](/glossar/linkjuice/) an die Hauptartikel weitervererben.
 
-### Lohnt sich die Deindexierung? (Fazit-Alternative)
+## Was du jetzt tun solltest
 
 Eine saubere, technisch verschlankte Domain rankt exponentiell leichter als ein riesiger, unkontrollierter Wasserkopf aus tausenden unnützen Tags und Paginierungen.
 Hab keine Angst vor `noindex` – nutze es als Werkzeug für eine präzise, messerscharfe Content-Strategie.

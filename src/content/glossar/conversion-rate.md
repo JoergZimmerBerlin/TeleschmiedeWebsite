@@ -9,12 +9,12 @@ key_takeaways:
   - "Psychologie & Technik: CRO verbindet technisches SEO mit Nutzerpsychologie und UX."
   - "Multiplier-Effekt: Eine verdoppelte Conversion Rate halbiert deine Kundenakquisitionskosten (CAC)."
 faqs:
-  - question: "Was ist eine gute Conversion Rate?"
-    answer: "Das ist branchenabhängig. Im E-Commerce sind 1-3% üblich, bei B2B-Anfragen oft deutlich höher."
-  - question: "Wie fange ich mit CRO an?"
-    answer: "Zuerst Daten sammeln. Nutze Tools wie Hotjar oder Google Analytics, um zu sehen, wo Nutzer abspringen."
-  - question: "Warum ist SEO für die Conversion Rate wichtig?"
-    answer: "Weil wir durch gezielte Keyword-Auswahl Nutzer mit hoher Kaufabsicht (Intent) auf die Seite holen."
+  - question: "Ab wann spricht man im SEO von einer 'guten' Conversion Rate?"
+    answer: "Die Antwort, die niemand hören will, aber die einzig wahre ist: Es kommt darauf an. Im E-Commerce sind 1-3% oft der Standard, während hochspezialisierte B2B-Landingpages (wie meine [Sprechstunde](/blog/80-prozent-seo-fehler-sprechstunde/)) locker 10% oder mehr erreichen können. Wichtiger als ein Branchenwert ist dein interner Trend: Wenn wir die CR von 0,5% auf 1% heben, hast du deinen Umsatz bei gleichem Werbebudget verdoppelt!"
+  - question: "Wie identifiziere ich die 'Conversion-Killer' auf meiner Website?"
+    answer: "Daten lügen nicht. Ich schaue mir zuerst die Absprungraten in Google Analytics an. Wo verlassen die Leute den Trichter? Danach kommen Heatmaps und Session-Aufnahmen (z.B. mit Hotjar) ins Spiel. Oft sind es Kleinigkeiten: Ein Formular mit zu vielen Feldern, ein fehlendes SSL-Zertifikat oder ein Button, der auf dem Smartphone nicht klickbar ist. Usability ist das Fundament jeder Conversion."
+  - question: "Welchen Einfluss hat qualifizierter SEO-Traffic auf die Abschlussquote?"
+    answer: "Gutes SEO ist der beste Hebel für die Conversion Rate. Warum? Weil wir durch gezielte [Keyword-Recherche](/glossar/keywordrecherche/) Nutzer genau dann abholen, wenn sie ein Problem haben und nach einer Lösung suchen. Jemand, der nach 'SEO Freelancer Berlin Kosten' sucht, ist viel näher am Abschluss als jemand, der nur 'Was bedeutet SEO' googelt. Wir optimieren den Intent, nicht nur die Klicks."
 ---
 
 Die Conversion Rate ist der Moment der Wahrheit.
@@ -74,7 +74,7 @@ Oft ist es günstiger, die Conversion Rate von 1% auf 2% zu heben, als den Traff
 
 In der Welt von ChatGPT und Gemini ändert sich die "Conversion Journey". Nutzer treffen ihre Vorauswahl oft schon in der KI. Wenn dich die KI als Lösung vorschlägt, landen die Leute bei dir auf der Seite und sind schon fast überzeugt. Das bedeutet: Die Klicks von KI-Apps haben oft eine extrem hohe Conversion Rate. Vorausgesetzt, du hast deine [Hausaufgaben](/glossar/entity-seo/) gemacht.
 
-### Fazit war gestern (ROI maximieren)
+## Was du jetzt tun solltest
 
 Die Conversion Rate ist dein wichtigster Hebel für mehr Profit. Hör auf, nur Klicks zu zählen. Fang an, Ergebnisse zu messen. Optimiere deine Seite für Menschen, nicht nur für Bots. Denn am Ende lügt dein Bankkonto nicht.
 

@@ -67,7 +67,7 @@ Sie wollen nicht nur indexieren, sie wollen Wissen extrahieren.
 Dabei spielt die [LLMs.txt](/glossar/llms-txt/) eine Schlüsselrolle. 
 Hier sagst du dem KI-Bot explizit, was er wissen muss.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Behandle Crawler wie deine besten Kunden. Empfange sie mit einer schnellen Seite und klaren Informationen. Wenn der Bot sich bei dir wohlfühlt, belohnt er dich mit häufigeren Besuchen. Und häufige Besuche sind der erste Schritt zu besseren Rankings. Wer seine Crawler im Griff hat, hat die Kontrolle über sein SEO.
 

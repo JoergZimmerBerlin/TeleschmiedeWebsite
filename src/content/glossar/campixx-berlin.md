@@ -1,6 +1,6 @@
 ---
 title: "Campixx Berlin"
-description: "Die Campixx (früher SEO Campixx) ist das Klassentreffen der deutschen SEO-Szene. Ein Un-Konferenz-Format am Müggelsee, das Maßstäbe setzt."
+description: "Die Campixx (früher SEO Campixx) ist das Klassentreffen der deutschen SEO-Szene. Seit 2026 im Van der Valk Hotel Berlin Brandenburg – ein Format, das Maßstäbe setzt."
 date: "2026-03-10"
 image: "../../assets/images/blog/seo-community-visibility-wave.png"
 related_terms: ["seo-stammtisch-berlin", "ueberstunde-berlin", "e-e-a-t"]
@@ -9,17 +9,17 @@ key_takeaways:
   - "Müggelsee-Vibe: Einzigartige Atmosphäre, die tiefgehende Gespräche fördert."
   - "Content-Tiefe: Von technischen Nischen bis hin zu strategischem High-Level-SEO."
 faqs:
-  - question: "Wo findet die Campixx statt?"
-    answer: "Traditionell findet die Campixx in einer Hotelanlage am Müggelsee im Osten Berlins statt."
-  - question: "Was unterscheidet die Campixx von anderen Konferenzen?"
-    answer: "Der Fokus liegt auf dem Austausch. Viele Sessions werden von den Teilnehmern selbst im Barcamp-Style gestaltet."
-  - question: "Ist die Campixx nur für SEOs?"
-    answer: "Nein. Sie deckt heute das gesamte Content-Marketing-Spektrum ab, bleibt im Kern aber der SEO-Heimat treu."
+  - question: "Wo genau findet die Campixx statt?"
+    answer: "Seit 2026 ist das Van der Valk Hotel Berlin Brandenburg in Blankenfelde-Mahlow die neue Heimat der Campixx. Vorher war es jahrelang das legendäre Hotel am Müggelsee. Die neue Location bietet mehr Platz, modernere Konferenzräume und liegt trotzdem nah genug an Berlin, um den Community-Vibe zu erhalten. Wer dort übernachtet, bleibt zusammen – und genau das macht den Netzwerk-Effekt der Campixx so besonders."
+  - question: "Was unterscheidet die Campixx fundamental von anderen SEO-Konferenzen?"
+    answer: "Der wohl größte Unterschied ist das Barcamp-Prinzip. Während man bei der OMR oder SMX oft nur Frontalbeschallung bekommt, wird auf der Campixx echtes Wissen 'geschmiedet'. Sessions entstehen oft spontan durch Fragen aus der Community. Jörg meint: 'Hier lernst du die Dinge, die Google in seinen offiziellen Dokumentationen lieber verschweigt.' Es ist eine Konferenz von Experten für Experten."
+  - question: "Lohnt sich die Campixx auch für Einsteiger oder Inhouse-Marketer?"
+    answer: "Absolut, aber man muss mutig sein. Die Themen können sehr technisch werden (z.B. Logfile-Analyse oder Python für SEO). Für Inhouse-Marketer ist es eine Goldgrube, um ein echtes Gefühl für die Qualität ihrer Agenturen zu bekommen. Man lernt, die richtigen Fragen zu stellen und Trends von Hypes zu unterscheiden. Ein Wochenende Campixx spart oft Monate an teurem Consulting."
 ---
 
 Moin!
 
-Es gibt Termine im Jahr, die sind im Kalender rot markiert. Die **Campixx** (viele sagen immer noch SEO Campixx) am Berliner Müggelsee ist genau so ein Highlight. Es ist kein klassisches "Anzug-Event", sondern das wohl größte und herzlichste Klassentreffen der Branche.
+Es gibt Termine im Jahr, die sind im Kalender rot markiert. Die **Campixx** (viele sagen immer noch SEO Campixx) ist genau so ein Highlight. Seit 2026 findet sie im **Van der Valk Hotel Berlin Brandenburg** in Blankenfelde-Mahlow statt – vorher war es jahrelang die legendäre Location am Müggelsee. Es ist kein klassisches "Anzug-Event", sondern das wohl größte und herzlichste Klassentreffen der Branche.
 
 Wer hier hinfährt, will nicht nur Folien starren. Wer hier hinfährt, will den Deep Dive. Und genau das ist mein Ding.
 
@@ -36,7 +36,7 @@ Ich erinnere mich an Sessions, in denen wir stundenlang über kleinste Details v
 2.  **Keine Tabus:** Hier wird offen über Google-Strafen, misslungene Relaunches und technische Albträume gesprochen.
 3.  **Cross-Disziplinär:** Du sitzt neben einem Programmierer, einem Texter und einem Chief Marketing Officer – alle auf Augenhöhe.
 
-## Warum ich dort bin (Teleschmie.de Spirit)
+## Warum ich dort bin
 
 Als [SEO-Freelancer](/seo-freelancer-berlin/) ist man oft Einzelkämpfer. Die Campixx ist der Ort, an dem man merkt: Wir sind viele. Und wir haben alle die gleichen Herausforderungen mit den immer schlauer werdenden [Crawlern](/glossar/crawler/) und den neuen [KI-Suchmechanismen (GEO)](/glossar/geo/).
 
@@ -49,15 +49,15 @@ Dafür steht mein Brand Teleschmie.de – handwerkliche Präzision, geschmiedet 
   <p class="mb-0 text-sm">Geh nicht nur in die großen Sessions. Die kleinen, fast privaten Runden auf dem Flur oder am Seeufer sind oft die, in denen die echten 'Hacks' geteilt werden. Sei mutig, stell Fragen und teile selbst dein Wissen.</p>
 </div>
 
-## SEO 2025: Campixx-Spirit für dein Projekt
+## SEO 2026: Campixx-Spirit für dein Projekt
 
 In einer Welt, in der KI-Content massenhaft produziert wird, wird die individuelle "Experience" ([E-E-A-T](/glossar/e-e-a-t/)) zum wichtigsten Rankingfaktor. Die Campixx ist die Verkörperung dieses Faktors. Echte Menschen, echtes Wissen, echte Tests.
 
 Wenn ich von der Campixx zurückkomme, fließen diese neuen Erkenntnisse über [Entity SEO](/glossar/entity-seo/) oder [Local SEO](/glossar/local-seo/) Trends direkt in die Strategien meiner Kunden ein. Wer nicht auf der Campixx war, hat oft den Anschluss an das verloren, was *wirklich* gerade in den Köpfen der Top-SEOs vorgeht.
 
-### Fazit war gestern (Der Müggelsee-Effekt)
+## Was du jetzt tun solltest
 
-Absolut. Ja, es kostet Geld und Zeit. Aber der ROI (Return on Invest) ist unschlagbar. Ein Wochenende am Müggelsee ist wie ein halbes Jahr SEO-Fortbildung im Zeitraffer. Es schärft den Blick für das Wesentliche und sortiert den Bullshit aus.
+Absolut. Ja, es kostet Geld und Zeit. Aber der ROI (Return on Invest) ist unschlagbar. Ein Wochenende im Van der Valk Hotel ist wie ein halbes Jahr SEO-Fortbildung im Zeitraffer. Es schärft den Blick für das Wesentliche und sortiert den Bullshit aus.
 
 ALOHA ✌️
 

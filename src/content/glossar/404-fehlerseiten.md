@@ -9,12 +9,12 @@ key_takeaways:
   - "Linkjuice-Verlust: Jeder Backlink auf eine 404-Seite ist verlorene Autorität."
   - "Lösung 301: Leite gelöschte Inhalte immer auf eine relevante neue Seite weiter."
 faqs:
-  - question: "Ist ein 404 Fehler schlecht für mein Ranking?"
-    answer: "Einzelne Fehler sind normal, aber eine hohe Anzahl signallisiert Ungepflegtheit und kann die Gesamtautorität schwächen."
-  - question: "Sollte ich alle 404s auf die Startseite leiten?"
-    answer: "Nein! Das nennt man Soft-404. Leite lieber auf die nächstliegende Inhaltskategorie weiter."
-  - question: "Wie finde ich 404-Fehler?"
-    answer: "Der beste Ort ist die Google Search Console im Bericht 'Indexierung' unter 'Nicht gefunden (404)'."
+  - question: "Ist ein 404 Fehler wirklich so schädlich für mein Google-Ranking?"
+    answer: "Nicht jeder einzelne 404-Fehler führt sofort zur Abwertung. Google weiß, dass das Internet dynamisch ist. Kritisch wird es aber, wenn wichtige 'Power-Pages' mit starken Backlinks ins Leere laufen oder wenn die schiere Menge an Fehlern signalisiert, dass die Seite technisch verwahrlost ist. Das verschwendet wertvolles Crawl-Budget, da der Googlebot Zeit damit verbringt, Sackgassen zu prüfen, statt deinen neuen Content zu indexieren. ALOHA-Tipp: Behandle deine Website wie deinen Garten – Unkraut (404s) muss regelmäßig gejätet werden!"
+  - question: "Warum ist die Weiterleitung auf die Startseite (Soft-404) eine schlechte Idee?"
+    answer: "Viele denken: 'Inhalt weg? Einfach ab zur Startseite!' Das ist aus SEO-Sicht ein klassischer Fehler. Google erkennt das als 'Soft-404'. Der Nutzer wollte Informationen über 'SEO-Konventionen' und landet plötzlich auf deiner allgemeinen Homepage – das ist eine schlechte User Experience. Google ignoriert solche pauschalen Weiterleitungen oft und überträgt keinen Linkjuice. Der korrekte Weg ist immer die thematisch nächste Seite (z.B. von einem gelöschten Blogartikel auf die Blog-Übersicht oder einen ähnlichen Beitrag)."
+  - question: "Wie gehe ich professionell mit 404-Fehlern in der Google Search Console um?"
+    answer: "Gehe in der GSC zum Bericht 'Indexierung' -> 'Seiten' und schau dir den Punkt 'Nicht gefunden (404)' an. Exportiere die Liste und sortiere sie nach Priorität: Welche URLs hatten früher Traffic oder Backlinks? Diese müssen sofort per 301 weitergeleitet werden. URLs, die versehentlich durch Tippfehler dritter entstanden sind, kannst du oft ignorieren – außer sie kommen extrem häufig vor. Mein Workflow: Einmal im Monat Deep-Audit mit dem Screaming Frog, um Sackgassen zu finden, bevor Google sie sieht."
 ---
 
 Moin!
@@ -72,7 +72,7 @@ Dann stuft die KI deine Information als unzuverlässig ein.
 In der [Generative Engine Optimization](/glossar/geo/) zählt Konsistenz. 
 Wer seine technische Basis nicht im Griff hat, wird nicht zitiert.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
 

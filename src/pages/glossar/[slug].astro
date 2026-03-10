@@ -200,4 +200,12 @@ const relatedTerms = allEntries.filter((e) =>
   .blog-content p > strong:first-child {
     @apply block mt-12 mb-4 text-dark text-lg !important;
   }
+
+  /* Lese-Tipp spacing: Give reading tips at the bottom more visual breathing room */
+  .blog-content > ul:last-of-type {
+    @apply mt-12 pt-8 border-t border-gray-100 space-y-4 !important;
+  }
+  .blog-content > ul:last-of-type li {
+    @apply mb-2 text-base !important;
+  }
 </style>

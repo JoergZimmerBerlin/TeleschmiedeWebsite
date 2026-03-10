@@ -36,7 +36,7 @@ Dieses Verständnis hilft mir, meine Arbeit als [SEO-Experte](/seo-freelancer-be
 *   **Synergien nutzen:** Hier entstehen oft Kooperationen zwischen PR-Agenturen und SEOs, die für beide Seiten einen massiven [Linkjuice](/glossar/linkjuice/) Vorteil bringen.
 *   **Echtes Feedback:** Wenn ich einem Nicht-SEO erkläre, was ich tue, merke ich sofort, ob meine Sprache zu kompliziert ist.
 
-## Meine Präsenz in Berlin (Teleschmie.de Spirit)
+## Meine Präsenz in Berlin
 
 Ich bin fest davon überzeugt: Die digitale Welt braucht ein analoges Fundament. Gerade in Zeiten von KI-Schwemme und anonymen Dienstleistungen ist das persönliche Treffen unersetzbar. Wenn ich bei der Überstunde stehe, bin ich Jörg Zimmer – nicht irgendein Name in einem [SEO-Audit](/glossar/seo-audit/).
 
@@ -53,7 +53,7 @@ Indirekt: Absolut. Starke Kooperationen in der Hauptstadt führen zu echten [Men
 
 Google erkennt diese Signale der lokalen Verwurzelung extrem genau. Wer im Gedächtnis der Berliner Wirtschaft bleibt, hat einen uneinholbaren Vorsprung gegenüber anonymen Billig-Anbietern.
 
-### Fazit war gestern (Man sieht sich!)
+## Was du jetzt tun solltest
 
 Wenn du mich das nächste Mal bei der Überstunde siehst: Sprich mich einfach an. Lass uns über deine Vision reden, über Berlin oder meinetwegen auch über das letzte Google Update. Hauptsache auf Augenhöhe und mit einem echten Interesse an der Lösung.
 

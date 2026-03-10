@@ -9,12 +9,12 @@ key_takeaways:
   - "SEO-Kompass: Ein hoher CPC signalisiert oft eine extrem hohe Kaufabsicht (Commercial Intent)."
   - "Synergie-Effekt: Gutes SEO spart dir die Kosten für teure Google Ads CPCs."
 faqs:
-  - question: "Warum schwankt der CPC so stark?"
-    answer: "Er wird durch Angebot und Nachfrage bestimmt. Vor saisonalen Highlights (z.B. Weihnachten) steigen die Preise meist massiv."
-  - question: "Sollte ich nur auf Keywords mit hohem CPC optimieren?"
-    answer: "Nein, aber sie sollten das Rückgrat deiner SEO-Strategie bilden, um den ROI sicherzustellen."
-  - question: "Was ist ein 'impliziter CPC'?"
-    answer: "Der theoretische Wert eines organischen Klicks, basierend auf dem Preis, den man in Google Ads bezahlen müsste."
+  - question: "Was verursacht die teilweise extremen Schwankungen beim CPC?"
+    answer: "Zwei Worte: Angebot und Nachfrage. Der CPC ist das Ergebnis einer Echtzeit-Auktion. Wenn vor Weihnachten oder dem Black Friday alle gleichzeitig werben wollen, explodieren die Preise. Auch Google-Updates oder neue Wettbewerber am Markt können den Klickpreis massiv nach oben treiben. Wer hier nicht aufpasst und nur auf Standard-Gebote setzt, verbrennt sein Budget im Minutentakt."
+  - question: "Warum sollte ich auf Keywords mit hohem CPC optimieren, wenn der Wettbewerb so hart ist?"
+    answer: "Ein hoher CPC ist der beste Beweis für den Wert eines Keywords. Wenn Wettbewerber bereit sind, viel Geld für einen Klick zu zahlen, dann 'konvertiert' dieser Begriff auch. Es ist oft lukrativer, auf Platz 3 für ein teures Money-Keyword zu stehen, als auf Platz 1 für einen Begriff, der zwar viel Traffic bringt, aber null Umsatz generiert. Der CPC ist dein Profit-Kompass."
+  - question: "Kann man den CPC durch SEO-Maßnahmen wirklich sparen?"
+    answer: "Absolut! Das ist das Kerngeschäft meiner 'SEO-Strategie'. Wenn wir ein Keyword organisch in die Top-Rankings schieben, sinkt der Druck auf dein Google Ads Budget. Du kannst entweder die teuren Anzeigen ganz abschalten oder das gesparte Geld in noch tiefergehende Kampagnen investieren. SEO macht dich unabhängig von den Preisdiktaten Googles."
 ---
 
 CPC steht für Cost per Click.
@@ -40,7 +40,7 @@ Wir suchen die "Sweet Spots": Hoher CPC bei moderater Konkurrenz.
 ## Die Synergie zwischen SEO und SEA
 
 Man darf SEO und Google Ads niemals getrennt voneinander betrachten.
-Ich nenne das die "Teleschmie-de Synergie".
+Ich nenne das die "SEO-SEA Synergie".
 
 *   **Daten-Transfer:** Wenn wir via Google Ads sehen, dass ein Keyword eine extrem hohe [Conversion Rate](/glossar/conversion-rate/) hat, priorisieren wir es sofort für SEO.
 *   **Kostensenkung:** Wenn du organisch auf Platz 1 rankst, kannst du dein Budget bei den Ads sparen oder für andere Begriffe nutzen. Deine [Sichtbarkeit](/glossar/sichtbarkeit/) bleibt hoch, aber deine Kosten sinken.
@@ -62,7 +62,7 @@ Das macht SEO zur rentabelsten Investition in dein Marketing, wenn du es langfri
 In der Welt der KI-Suche verschwindet der Klickpreis aus dem Sichtfeld, aber der Wert bleibt gleich.
 KI-Systeme präsentieren dem Nutzer oft nur noch eine einzige, perfekte Lösung. Wer dort zitiert wird, gewinnt eine "Sichtbarkeit", die man mit Geld kaum noch kaufen kann. Der "implizite CPC" steigt also weiter an, je schwerer es wird, organisch präsent zu sein.
 
-### Fazit war gestern (Geld sparen durch SEO)
+## Was du jetzt tun solltest
 
 Nutze den CPC als Kompass für deine Keyword-Auswahl. Er zeigt dir, wo das Geld im Markt liegt. Verknüpfe deine SEO-Arbeit mit deinen Ads-Daten. Hör auf, für wertlose Begriffe zu ranken, und konzentrier dich auf die harten Fakten. Denn am Ende ist der beste CPC der, den du gar nicht erst bezahlen musst – weil du organisch ganz oben stehst.
 

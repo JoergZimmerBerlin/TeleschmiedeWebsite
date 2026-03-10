@@ -9,12 +9,12 @@ key_takeaways:
   - "Erfahrung zählt: Google belohnt reale Praxiserfahrung ('First-Hand-Experience') gegenüber reinem Wissen."
   - "YMYL-Fokus: In sensiblen Bereichen wie Medizin oder Finanzen ist ein starkes E-E-A-T Profil überlebenswichtig."
 faqs:
-  - question: "Ist E-E-A-T ein Rankingfaktor?"
-    answer: "Es ist kein direkter technischer Faktor, sondern ein Bewertungssystem, das viele Signale bündelt, um die Qualität zu bestimmen."
-  - question: "Wie zeige ich Expertise?"
-    answer: "Durch detaillierte Autorenbiografien, Verlinkungen zu Fachpublikationen und die Nennung von Qualifikationen."
-  - question: "Was bedeutet das zweite E?"
-    answer: "Das steht für 'Experience' (Erfahrung). Google will wissen, ob der Autor das Thema wirklich selbst erlebt oder das Produkt selbst ausprobiert hat."
+  - question: "Ist E-E-A-T ein direkter Google-Rankingfaktor, den ich 'einstellen' kann?"
+    answer: "Nein, und genau das macht es so vielen Agenturen schwer. E-E-A-T ist kein technischer Hebel wie ein Meta-Tag. Es ist ein Bewertungsrahmen aus Googles Search Quality Rater Guidelines. Das bedeutet: Echte Menschen (die 'Quality Rater') bewerten Websites anhand dieser Kriterien, und die Ergebnisse fließen in Googles Algorithmus-Training ein. Du optimierst also nicht für E-E-A-T direkt – du baust es auf, indem du echte Expertise zeigst."
+  - question: "Wie beweise ich Google konkret meine Expertise und Erfahrung?"
+    answer: "Die wichtigsten Signale: Detaillierte Autorenbiografien mit echten Fotos und Qualifikationen. Verlinkungen von und zu Fachpublikationen, Gastbeiträge in Branchen-Medien und Podcasts. Eigene Daten und Case Studies, die nur du hast. Und ganz zentral: Schema.org Markup ('Person'), das deine Autorität maschinenlesbar macht. Meine eigene Grounding Page ist ein Beispiel, wie ich das für mich selbst und für Kunden umsetze."
+  - question: "Wofür steht das zweite 'E' in E-E-A-T, und warum hat Google es nachträglich hinzugefügt?"
+    answer: "Das steht für 'Experience' (Erfahrung aus erster Hand). Google hat 2022 gemerkt, dass reines Expertenwissen nicht reicht. Ein Arzt, der über eine OP schreibt, hat Expertise. Aber ein Patient, der seine persönliche Genesungsgeschichte erzählt, hat Erfahrung. Beides zusammen ist die Traumkombination. Das zeigt Googles klare Richtung: Authentischer Praxis-Content ist die Zukunft."
 ---
 
 Moin!
@@ -81,7 +81,7 @@ KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopf
 Schreibe keine Artikel, die eine KI in 5 Sekunden generieren könnte. 
 Der einzige echte Burggraben ist deine unverwechselbare Praxiserfahrung, angereichert mit eigenen Bildern und Daten.
 
-### Lohnt sich der Aufwand? (Fazit-Alternative)
+## Was du jetzt tun solltest
 
 E-E-A-T lässt sich nicht vortäuschen. 
 Es erfordert den harten Weg: Echten, tief recherchierten Inhalt von Spezialisten zu publizieren. 

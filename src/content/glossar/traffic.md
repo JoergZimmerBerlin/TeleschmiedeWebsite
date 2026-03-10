@@ -67,7 +67,7 @@ Das bedeutet: Der klassische "Informations-Traffic" für triviale Fragen wird si
 Übrig bleibt der wertvolle Traffic von Menschen, die echte Tiefe und echte Experten suchen.
 Besucher, die dein [E-E-A-T](/glossar/e-e-a-t/) schätzen.
 
-### Fazit war gestern (Action-Plan)
+## Was du jetzt tun solltest
 
 Traffic ist gut. Qualifizierter Traffic ist besser. Such nicht nach der Masse. Such nach der Relevanz. Behandle jeden Besucher wie einen potenziellen Kunden. Sorge für eine gute Usability und schnelle Ladezeiten. Denn am Ende zählt nicht, wie viele reinlaufen – sondern wie viele zufrieden wieder rausgehen (oder bleiben).
 

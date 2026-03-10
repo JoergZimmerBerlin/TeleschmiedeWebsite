@@ -1,17 +1,17 @@
 ---
-description: Custom logic for dynamically generating an Astro sitemap with exact file mtime dates
+description: Custom logic for dynamically generating an Astro sitemap with exact file mtime dates using Git history
 ---
 
-## Astro Sitemap File Modified Dates Logic
+## Astro Sitemap File Modified Dates Logic (Git-Based)
 
-This logic allows an Astro project to automatically map true file modification dates (mtime) into the generated `sitemap.xml` file, rather than using the generic current build date.
+In CI/CD environments (like GitHub Actions), standard file system modification dates (`mtime`) are often reset during checkout. To ensure a sitemap correctly reflects the last actual change to a file, using the Git history is the most reliable approach.
 
 ### How to use
-When working with an Astro sitemap, apply the following logic in `src/pages/sitemap.xml.ts` in order to scan `.astro` pages as well as markdown files in `src/content/`.
+Apply the following logic in `src/pages/sitemap.xml.ts`. It uses `execSync` to run `git log` and extract the last commit date for each file.
 
 ```javascript
 import { getCollection } from 'astro:content';
-import fs from 'node:fs';
+import { execSync } from 'node:child_process';
 import path from 'node:path';
 
 export const GET = async () => {
@@ -20,11 +20,12 @@ export const GET = async () => {
 
   const lastModYYYYMMDD = new Date().toISOString().split('T')[0];
 
-  // Helper logic to find mtime from physical file path
+  // Helper logic to find the last commit date for a physical file path
   const getLastMod = (filePath) => {
     try {
-      const stats = fs.statSync(filePath);
-      return new Date(stats.mtimeMs).toISOString().split('T')[0];
+      // %cs extracts the committer date in YYYY-MM-DD format
+      const dateStr = execSync(`git log -1 --format=%cs -- "${filePath}"`, { encoding: 'utf8' }).trim();
+      return dateStr || lastModYYYYMMDD;
     } catch (e) {
       return lastModYYYYMMDD;
     }

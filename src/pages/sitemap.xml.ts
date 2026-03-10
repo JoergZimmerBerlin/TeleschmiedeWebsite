@@ -1,5 +1,5 @@
 import { getCollection } from 'astro:content';
-import fs from 'node:fs';
+import { execSync } from 'node:child_process';
 import path from 'node:path';
 
 export const GET = async () => {
@@ -10,8 +10,9 @@ export const GET = async () => {
 
   const getLastMod = (filePath: string) => {
     try {
-      const stats = fs.statSync(filePath);
-      return new Date(stats.mtimeMs).toISOString().split('T')[0];
+      // Use git log to find the last commit date for this file in YYYY-MM-DD format
+      const dateStr = execSync(`git log -1 --format=%cs -- "${filePath}"`, { encoding: 'utf8' }).trim();
+      return dateStr || lastModYYYYMMDD;
     } catch (e) {
       return lastModYYYYMMDD;
     }
@@ -53,6 +54,7 @@ export const GET = async () => {
   // 3. Blog Posts
   const blogPosts = await getCollection('blog');
   for (const post of blogPosts) {
+    // Collect the source path for the content post
     const filePath = path.join(process.cwd(), 'src/content/blog', post.id);
     const postDate = getLastMod(filePath);
     urls += `

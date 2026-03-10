@@ -72,7 +72,7 @@ Search-Engines werden zu Answer-Engines. Chatbots fressen Traffic. Aber ratet ma
 
 Wenn wir die Basics nicht hinkriegen, werden wir in einer KI-zentrierten Welt komplett unsichtbar. Die "SEO-Welle" muss also nicht nur laut sein, sondern auch fachlich am Ball bleiben.
 
-## Fazit: Zeit für Krawall (im positiven Sinne)
+### Was du jetzt tun solltest
 Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Wir müssen lauter sein, wir müssen besser kommunizieren und wir müssen uns gegenseitig unterstützen. 
 
 Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist: Die einzige nachhaltige Strategie, um im Internet nicht nur zu existieren, sondern gefunden zu werden.

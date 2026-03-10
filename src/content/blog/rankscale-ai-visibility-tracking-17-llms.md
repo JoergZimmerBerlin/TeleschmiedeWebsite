@@ -48,7 +48,7 @@ Ein Beispiel: Wir haben eine Strategie für einen E-Commerce-Kunden im Bereich N
 
 ---
 
-## Mein Fazit nach dem Test
+### Was du jetzt tun solltest
 
 Rankscale löst ein echtes Problem elegant. Die Bedienung ist intuitiv, die Preise fair, die Ergebnisse aussagekräftig.
 

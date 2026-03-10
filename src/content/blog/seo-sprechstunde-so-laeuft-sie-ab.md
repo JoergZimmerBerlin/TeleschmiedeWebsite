@@ -68,7 +68,7 @@ Wir sprechen hier über **2 Stunden geballtes Wissen für 400€**. Das ist kein
 
 Ich vertraue darauf, dass du nach diesen zwei Stunden so viel Mehrwert mitnimmst, dass sich die Investition innerhalb kurzer Zeit durch bessere Rankings und mehr Conversions amortisiert.
 
-## Fazit: Bist du bereit für den Blick in den Spiegel?
+### Tacheles am Ende
 
 Eine SEO-Sprechstunde ist manchmal wie ein Gang zum Arzt: Man hat ein bisschen Angst vor der Diagnose, aber danach fühlt man sich besser, weil man weiß, was zu tun ist. Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz und Nieren prüfen zu lassen, dann bin ich dein Mann.
 

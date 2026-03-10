@@ -50,7 +50,7 @@ Antonio und ich haben intensiv über die Rolle von Video-Content diskutiert. Mac
 
 Zwischendurch ist der Podcast in die "gute alte Zeit" abgedriftet. Wir haben über Techniken gelacht, die 2005 funktioniert haben und uns heute eine sofortige Penalty einbringen würden. Es war wichtig aufzuzeigen, wie weit wir gekommen sind. Diese Anekdoten sind nicht nur Unterhaltung – sie sind die Basis für das Verständnis dafür, dass das Internet ein Geben und Nehmen ist. Wer nur nimmt (spammt), wird irgendwann bestraft. Wer gibt (Wert schafft), überlebt jedes Update.
 
-## Fazit: Jetzt reinhören und lernen
+### Was du jetzt tun solltest
 
 Dieser Podcast ist für alle, die genug haben von 5-Minuten-Tipps, die morgen nicht mehr funktionieren. Es ist ein Deep Dive für echte Macher, die wissen wollen, wie sie ihr Unternehmen langfristig sicher durch die raue See des digitalen Wandels steuern.
 

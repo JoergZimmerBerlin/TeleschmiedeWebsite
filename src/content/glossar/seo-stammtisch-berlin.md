@@ -44,6 +44,8 @@ SEO kann frustrierend sein. Man investiert Monate in [Entity SEO](/glossar/entit
 
 ## Meine Rolle vor Ort
 
+![SEO Stammtisch Berlin Networking](../../assets/images/glossar/seostammtisch_photo_1_1773173770837.png)
+
 Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es geht um Geben und Nehmen. Wenn jemand ein Problem mit [strukturierten Daten](/glossar/strukturierte-daten/) hat, helfe ich. Wenn ich bei einem komplexen [SEO-Audit](/glossar/seo-audit/) an meine Grenzen stoße, frage ich die Runde.
 
 Das ist genau der Spirit der Teleschmie.de: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe diese bodenständige Berliner Art in jedes meiner Projekte.
@@ -54,6 +56,8 @@ Das ist genau der Spirit der Teleschmie.de: Ehrlich, direkt und immer auf Augenh
 </div>
 
 ## Community in Zeiten von KI
+
+![Jörg Zimmer beim SEO Stammtisch bei Google in Berlin](../../assets/images/glossar/seostammtisch_photo_2_1773173797284.png)
 
 Man könnte meinen, in Zeiten von ChatGPT bräuchten wir keinen menschlichen Austausch mehr. Das Gegenteil ist der Fall. Je mehr KI-Einerlei das Netz flutet, desto wertvoller wird die echte, menschliche Expertise ([E-E-A-T](/glossar/e-e-a-t/)). 
 

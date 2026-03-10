@@ -72,7 +72,7 @@ Die SEO-Sprechstunde ist nichts für Leute, die eine "Magic Bullet" suchen, ohne
 
 Am Ende sitzt du da mit einem Fahrplan, den du entweder selbst abarbeitest oder deinem Entwickler/deiner Agentur auf den Tisch legst.
 
-## Fazit: Danke, Ronny!
+### Tacheles am Ende
 
 Feedback wie das von Ronny ist der Treibstoff für meine Arbeit hier in Berlin Spandau. Es zeigt, dass Ehrlichkeit und harte Vorbereitung in unserer Branche immer noch den größten Unterschied machen.
 

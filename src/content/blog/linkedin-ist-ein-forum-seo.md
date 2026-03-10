@@ -87,7 +87,7 @@ Google liebt E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
 **Nadine McNulty** sagte es passend: 
 *"Als SEOs sind wir von Natur aus nicht die größten Marktschreier dürfen aber lauter sein auf LinkedIn."*
 
-## Fazit: Nutze das Forum!
+### Dein nächster Schritt
 LinkedIn ist die größte Business-Bühne, die wir je hatten. Aber sie funktioniert nur, wenn du bereit bist, dich auf echte Diskussionen einzulassen. Hör auf zu senden, fang an zu kommunizieren.
 
 Wir sitzen alle in der gleichen SEO-Bubble. Wie ich im Post schon schrieb: **"Jeder für sich, alle zusammen."** Je mehr wir als Experten zusammenarbeiten und einander sichtbar machen, desto stärker wird unsere gesamte Branche.

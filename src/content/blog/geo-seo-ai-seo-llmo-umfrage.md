@@ -66,7 +66,7 @@ Ein Teilnehmer schrieb: *"Wir brauchen nicht noch mehr Abkürzungen, die nur daz
 
 Andere wiederum sahen den Mehrwert der Unterscheidung. GEO erfordert neue Skills, wie zum Beispiel den Umgang mit Vektor-Datenbanken oder das Verständnis von RAG (Retrieval-Augmented Generation). Dafür einen eigenen Namen zu haben, hilft, die Komplexität gegenüber Entscheidern zu rechtfertigen.
 
-## Fazit: Die Evolution hört nicht auf
+### Was du jetzt tun solltest
 
 Wir befinden uns in einer der spannendsten Phasen seit dem Start des Google-Algorithmus. Dass die Community sich uneinig über den Namen ist, zeigt nur eines: Wir experimentieren noch. Wir lernen noch.
 

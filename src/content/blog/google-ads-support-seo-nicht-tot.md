@@ -75,7 +75,7 @@ Ein Kommentar brachte es auf den Punkt: *"Der Google Ads Support ist wie ein Ban
 
 Bei SEO war das Echo ähnlich. Die "Alten Hasen" der Branche zucken bei "SEO ist tot" nur noch mit den Schultern und arbeiten weiter an ihren Strategien. Wir wissen: Solange es Neugier gibt, gibt es Suche.
 
-## Mein Fazit
+### Bottom Line für dein Business
 
 In einer Welt voller glitzernder Automatisierung und lauter Buzzwords ist Skepsis eine Tugend. 
 1. Vertrau deinem Bauchgefühl und deinen Daten mehr als dem Support eines Mega-Konzerns.

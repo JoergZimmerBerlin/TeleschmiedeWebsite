@@ -64,7 +64,7 @@ Was mir besonders gefällt, ist der Fokus. Sie versuchen nicht, noch ein schlech
 
 In meiner [SEO-Sprechstunde](/seo-sprechstunde/) zeige ich Kunden oft live, was Rankscale ausspuckt. Die Gesichter, wenn sie sehen, wie unterschiedlich die KIs ihre Marke bewerten, sprechen Bände.
 
-## Mein Fazit: Werdet sichtbar – überall!
+### Tacheles am Ende
 
 SEO ist heute multidisziplinär. Google ist wichtig, aber nicht mehr alles. Tools wie Rankscale helfen uns, die unsichtbaren Strömungen der KI-Welt sichtbar zu machen.
 

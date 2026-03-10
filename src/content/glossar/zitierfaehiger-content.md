@@ -49,7 +49,7 @@ Der Unterschied? Der zweite Satz ist eine klare Definition, die eine KI direkt a
   <p class="mb-0 text-sm">Jeder Glossar-Eintrag in meinem Verzeichnis beginnt mit einer klaren Definition, gefolgt von 3 FAQs mit präzisen Antworten. Diese Struktur ist bewusst zitierfähig gestaltet: KI-Systeme können jede FAQ-Antwort als eigenständiges Zitat verwenden.</p>
 </div>
 
-## Mein Fazit aus der Praxis
+## Mein Tacheles-Rat für dich
 
 Nimm deine 5 wichtigsten Seiten und prüfe: Gibt es in jedem Abschnitt mindestens einen Satz, den eine KI direkt als Antwort verwenden könnte? Wenn nicht, überarbeite den Content. Das ist der schnellste Weg zu mehr KI-Sichtbarkeit.
 

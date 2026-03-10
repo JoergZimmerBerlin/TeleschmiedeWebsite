@@ -74,7 +74,7 @@ Prüfe alle internen Links in deinem Content – verlinken sie konsistent auf di
 | **WordPress** | mit Slash | Permalink-Einstellungen |
 | **Hugo** | mit Slash | `uglyURLs` in config.toml |
 
-## Mein Fazit aus der Praxis
+## Mein Tacheles-Rat für dich
 
 Öffne jetzt deine Website und teste es: Ruf eine beliebige Seite einmal mit und einmal ohne Trailing Slash auf. Leitet eine Variante auf die andere weiter? Perfekt. Wenn nicht, musst du handeln. Prüfe deine Framework-Config, setze 301-Redirects, und durchlauf deine Sitemap. Es sind 30 Minuten Arbeit, die dir monatelangen Ranking-Ärger ersparen können.
 

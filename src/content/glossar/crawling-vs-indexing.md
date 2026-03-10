@@ -12,7 +12,7 @@ faqs:
   - question: "Was bedeutet es, wenn in der Search Console 'Gecrawlt, aber nicht indexiert' steht?"
     answer: "Das ist einer der häufigsten Statusmeldungen, die mir in meinen Audits begegnen. Google hat die Seite zwar besucht und heruntergeladen, hält den Inhalt aber für nicht relevant genug, um ihn in den Index aufzunehmen. Die Gründe können vielfältig sein: zu wenig einzigartiger Content (Thin Content), Duplikate, fehlende interne Verlinkung oder schwache E-E-A-T-Signale. Mein erster Schritt ist immer: die betroffenen URLs einzeln zu analysieren und zu entscheiden – löschen, zusammenlegen oder massiv aufwerten."
   - question: "Wie lange dauert es vom Crawling bis zur Indexierung einer neuen Seite?"
-    answer: "Das hängt stark vom Vertrauen ab, das Google in deine Domain hat. Bei großen News-Seiten passiert das in Sekunden. Bei einer neuen, unbekannten Domain kann es Wochen dauern. Für meine Seite teleschmie.de werden neue Glossar-Einträge meist innerhalb von 1-3 Tagen indexiert, weil Google die Domain als regelmäßig aktualisierten Experten-Hub kennt. Tipp: Reiche neue URLs aktiv über die Search Console ein ('URL-Prüfung' -> 'Indexierung beantragen')."
+    answer: "Das hängt stark vom Vertrauen ab, das Google in deine Domain hat. Bei großen News-Seiten passiert das in Sekunden. Bei einer neuen, unbekannten Domain kann es Wochen dauern. Bei mir persönlich werden neue Glossar-Einträge meist innerhalb von 1-3 Tagen indexiert, weil Google die Domain als regelmäßig aktualisierten Experten-Hub kennt. Tipp: Reiche neue URLs aktiv über die Search Console ein ('URL-Prüfung' -> 'Indexierung beantragen')."
   - question: "Ich habe versehentlich meine Seiten auf noindex gesetzt – wie schnell kann ich das reparieren?"
     answer: "Das ist der Relaunch-Klassiker! Entferne sofort das noindex-Tag, prüfe deinen HTTP-Header auf X-Robots-Tag (da versteckt es sich manchmal auch!), und reiche die betroffenen URLs einzeln in der Google Search Console zur erneuten Indexierung ein. Normalerweise dauert es 3-14 Tage, bis Google die Änderung verarbeitet hat. Je stärker die Domain, desto schneller geht es. Bei meinen Kunden löse ich solche Blockaden oft innerhalb einer einzigen Sprechstunde."
 ---Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
@@ -87,7 +87,7 @@ Man sperrt den Bot logischerweise rigoros **aus** und friert damit den fehlerhaf
 
 Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament einer robusten Online-Reputation ab der ersten Zeile Code.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Begreife Crawling als technischen Zugang und Indexing als inhaltliche Qualifizierung. Wer beides sauber trennt, steuert seine Sichtbarkeit punktgenau. 
 

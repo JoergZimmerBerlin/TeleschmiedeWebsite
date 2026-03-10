@@ -12,7 +12,7 @@ faqs:
   - question: "Warum ist Trustworthiness der wichtigste E-E-A-T Faktor?"
     answer: "Google hat es selbst in den Search Quality Rater Guidelines geschrieben: 'Trust is the most important member of the E-E-A-T family.' Die Logik ist einfach: Einem erfahrenen Experten mit hoher Autorität, dem man nicht vertrauen kann, nützt das alles nichts. Denk an einen brillanten Arzt, der gefälschte Studien publiziert – Expertise und Autorität sind da, Trust ist weg. Und ohne Trust ist alles andere wertlos."
   - question: "Wie kann ich die Vertrauenswürdigkeit meiner Website steigern?"
-    answer: "Auf drei Ebenen: Technisch – HTTPS ist Pflicht, saubere Core Web Vitals zeigen Professionalität. Rechtlich – Impressum, Datenschutzerklärung und AGB müssen vollständig und aktuell sein. Inhaltlich – zeig, wer hinter dem Content steht (Autorenprofile), zitiere deine Quellen, und kommuniziere ehrlich über deine Dienstleistungen. Auf teleschmie.de habe ich ein vollständiges Impressum, eine transparente Über-Mich-Seite und mein Autorenprofil ist über Schema.org maschinenlesbar hinterlegt."
+    answer: "Auf drei Ebenen: Technisch – HTTPS ist Pflicht, saubere Core Web Vitals zeigen Professionalität. Rechtlich – Impressum, Datenschutzerklärung und AGB müssen vollständig und aktuell sein. Inhaltlich – zeig, wer hinter dem Content steht (Autorenprofile), zitiere deine Quellen, und kommuniziere ehrlich über deine Dienstleistungen. Auf meiner Seite habe ich ein vollständiges Impressum, eine transparente Über-Mich-Seite und mein Autorenprofil ist über Schema.org maschinenlesbar hinterlegt."
   - question: "Können Reviews und Bewertungen die Trustworthiness beeinflussen?"
     answer: "Absolut! Google wertet Kundenbewertungen auf Google Business Profile, Trustpilot und branchenspezifischen Portalen als starke Trust-Signale. Negative Bewertungen schaden, positive stärken. Aber Achtung: Fake-Reviews sind der schnellste Weg, Vertrauen komplett zu zerstören. Google erkennt Muster bei gefälschten Bewertungen und straft sie ab. Echte Kundenstimmen, wie die Bewertungen in meiner Sprechstunde, sind unbezahlbar."
 ---Moin!
@@ -51,7 +51,7 @@ Du kannst die beste [Experience](/glossar/experience-eeat/), die tiefste [Expert
   <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Mach den Vertrauens-Check: Ist dein Impressum vollständig? Hast du eine transparente Über-Mich-Seite? Gibt es Autorenprofile? Sind deine Kontaktdaten aktuell? Funktioniert HTTPS ohne Fehler? Diese Basics kosten eine Stunde Arbeit – und sie sind die Grundlage für alles andere im E-E-A-T Framework.
 

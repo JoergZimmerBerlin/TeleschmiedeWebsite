@@ -12,7 +12,7 @@ faqs:
   - question: "Was unterscheidet einen GEO Freelancer von einem SEO Freelancer?"
     answer: "Ein SEO Freelancer kennt Google in- und auswendig: Rankings, Keywords, Backlinks, technische Optimierung. Ein GEO Freelancer geht darüber hinaus und versteht, wie KI-Modelle Informationen verarbeiten und Antworten generieren. Er weiß, was eine Entität ist, wie Co-Occurrence funktioniert und wie man in ChatGPT, Perplexity oder Google SGE als Quelle zitiert wird. Die Wahrheit: 2026 brauchst du beides – und die besten Freelancer beherrschen die Kombination."
   - question: "Warum einen Freelancer statt einer GEO Agentur beauftragen?"
-    answer: "Weil GEO noch eine junge Disziplin ist, in der praktische Erfahrung Gold wert ist. In einer Agentur landet dein Projekt oft bei einem Junior, der GEO aus einem Blogpost kennt. Ein spezialisierter Freelancer hat selbst experimentiert, eigene Ergebnisse gemessen und optimiert. Ich arbeite direkt mit meinen Kunden – ohne Umwege, ohne Agentur-Overhead. Dazu kommt: Mein eigenes Setup (teleschmie.de) ist ein lebendes Proof-of-Concept. Was ich für Kunden empfehle, habe ich vorher an mir selbst getestet."
+    answer: "Weil GEO noch eine junge Disziplin ist, in der praktische Erfahrung Gold wert ist. In einer Agentur landet dein Projekt oft bei einem Junior, der GEO aus einem Blogpost kennt. Ein spezialisierter Freelancer hat selbst experimentiert, eigene Ergebnisse gemessen und optimiert. Ich arbeite direkt mit meinen Kunden – ohne Umwege, ohne Agentur-Overhead. Dazu kommt: Mein eigenes Setup ist ein lebendes Proof-of-Concept. Was ich für Kunden empfehle, habe ich vorher an mir selbst getestet."
   - question: "Was kostet ein GEO Freelancer und was bekomme ich dafür?"
     answer: "Die Stundensätze für GEO-spezialisierte Freelancer liegen typischerweise zwischen 120€ und 200€, je nach Erfahrung und Projektumfang. Dafür bekommst du keine generische Keyword-Liste, sondern eine maßgeschneiderte Strategie: Entity-Audit, Citation-Analyse, Schema.org-Implementierung, Grounding-Page-Aufbau und ein AI-Visibility-Monitoring über Tools wie Rankscale. Der ROI zeigt sich oft schneller als bei klassischem SEO, weil der KI-Markt noch wenig Wettbewerb hat."
 ---Moin!
@@ -41,7 +41,7 @@ Das ist Expertenwissen, kein Fließband-SEO. Ein Freelancer mit echtem GEO-Know-
 
 Ich verbinde in meiner täglichen Arbeit [SEO](/seo-freelancer-berlin/) und GEO zu einer integrierten Strategie. Mein eigenes Setup ist der beste Beweis:
 
-### Das teleschmie.de GEO-Playbook
+### Mein GEO-Playbook
 
 1.  **[Grounding Page](/groundingpage/):** Meine maschinenlesbare Fakten-Seite, die KI-Systemen alle relevanten Informationen über meine Expertise liefert.
 2.  **[Schema.org Markup](/glossar/schema-org-markup/):** Person, LocalBusiness, FAQPage, DefinedTerm – alles als JSON-LD implementiert, so dass KIs meine Daten strukturiert lesen können.
@@ -65,7 +65,7 @@ Beides verstärkt sich gegenseitig: Starke SEO-Signale (Rankings, Traffic, Backl
 
 In meiner [SEO Sprechstunde](/seo-sprechstunde/) zeige ich dir, wo du stehst – sowohl in Google als auch in der KI-Welt.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 GEO ist kein Hype, der in 6 Monaten wieder verschwindet. Es ist die Evolution der Suche. Je früher du dich positionierst, desto größer dein Vorsprung. Während deine Wettbewerber noch darüber diskutieren, ob „KI-SEO" echt ist, baust du dir jetzt die [Entität](/glossar/entitaet/) auf, die in einem Jahr von jeder KI der Welt als Experte erkannt wird.
 

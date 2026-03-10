@@ -57,7 +57,7 @@ In Zeiten von [Entity SEO](/glossar/entity-seo/) dienen Links auch dazu, Google 
 
 Das stärkt dein Profil als Experte ([E-E-A-T](/glossar/e-e-a-t/)) und sorgt dafür, dass du auch in KI-gestützten Suchen öfter als Referenz auftauchst.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Ein starkes Rückgrat aus internen Links ist die Basis. Darauf setzt du gezieltes Linkbuilding, um deine Autorität im Markt zu festigen. Wer beides beherrscht, dominiert langfristig die SERPs.
 

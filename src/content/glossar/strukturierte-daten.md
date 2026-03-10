@@ -59,7 +59,7 @@ Ich habe Projekte gesehen, die alleine durch das Hinzufügen von FAQ-Schema ihre
 Es ist die einfachste Art, mehr Platz in den Suchergebnissen zu besetzen.
 Sei nicht nur ein blauer Link. Sei das Ergebnis, das ins Auge fällt.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Strukturierte Daten machen deine Website intelligent. Hilf Google, dich zu verstehen. Nutze JSON-LD für Produkte, Rezensionen, Events oder lokale Geschäfte. Es ist das Bindeglied zwischen deinem Content und dem Gehirn der Suchmaschine. Wer hier spart, spart am falschen Ende.
 

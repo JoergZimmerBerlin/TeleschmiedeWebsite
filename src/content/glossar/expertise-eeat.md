@@ -43,7 +43,7 @@ Hier zählt die nachweisbare Praxis-Expertise. Du musst kein Professor sein – 
   <p class="mb-0 text-sm">24 Jahre SEO-Erfahrung. Ein Glossar mit 50+ Facheinträgen. Podcast-Auftritte als SEO-Experte. Eine Grounding Page, die meine Qualifikationen maschinenlesbar auflistet. Das ist kein Zufall – es ist eine bewusste Expertise-Strategie, die Google und KI-Systeme gleichermaßen verstehen.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt.
 

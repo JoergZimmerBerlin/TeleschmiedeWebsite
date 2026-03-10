@@ -10,7 +10,7 @@ key_takeaways:
   - "Beweis-Pflicht: Eigene Fotos, Screenshots und persönliche Geschichten stärken Experience."
 faqs:
   - question: "Wie kann ich Experience auf meiner Website nachweisen?"
-    answer: "Zeig, dass du dabei warst. Eigene Fotos statt Stock-Fotografie. Screenshots deiner Arbeit. Konkrete Zahlen aus deinen Projekten. Persönliche Anekdoten, die nur jemand erzählen kann, der es wirklich erlebt hat. Auf meiner Seite teleschmie.de zeige ich z.B. echte PageSpeed-Scores meiner eigenen Seite, echte Search Console Daten und berichte von Erfahrungen aus meinen Sprechstunden. Das kann keine KI faken."
+    answer: "Zeig, dass du dabei warst. Eigene Fotos statt Stock-Fotografie. Screenshots deiner Arbeit. Konkrete Zahlen aus deinen Projekten. Persönliche Anekdoten, die nur jemand erzählen kann, der es wirklich erlebt hat. Auf meiner Seite zeige ich z.B. echte PageSpeed-Scores meiner eigenen Projekte, echte Search Console Daten und berichte von Erfahrungen aus meinen Sprechstunden. Das kann keine KI faken."
   - question: "Warum hat Google den Experience-Faktor 2022 hinzugefügt?"
     answer: "Weil KI-generierter Content explodiert ist. ChatGPT kann einen perfekten Artikel über 'Die besten Restaurants in Berlin' schreiben – ohne je dort gewesen zu sein. Google braucht ein Signal, das echte Menschen von Maschinen unterscheidet. Experience ist dieses Signal. Es ist Googles Antwort auf die Frage: Hat ein Mensch das wirklich erlebt, oder hat eine KI es nur zusammengeschrieben?"
   - question: "Ist Experience wichtiger als Expertise?"
@@ -43,12 +43,12 @@ Nutze eigene Fotos, Screenshots und Videos. Ein Bild von dir auf der [Campixx](/
 Berichte von echten Erfahrungen aus deiner Arbeit. In meinen Glossar-Einträgen erzähle ich von realen Situationen aus meiner [SEO Sprechstunde](/seo-sprechstunde/) – das kann keine KI erfinden.
 
 ### 3. Konkrete Daten
-Zeige echte Ergebnisse: PageSpeed-Scores, Rankings, Traffic-Entwicklungen. Auf teleschmie.de publiziere ich meine eigenen [Core Web Vitals](/glossar/core-web-vitals/) Scores als Beweis.
+Zeige echte Ergebnisse: PageSpeed-Scores, Rankings, Traffic-Entwicklungen. Ich publiziere regelmäßig meine eigenen [Core Web Vitals](/glossar/core-web-vitals/) Scores als Beweis für meine Expertise.
 
 ### 4. Autorenprofile
 Verknüpfe deinen Content mit einem klaren Autorenprofil, das deine echte Erfahrung belegt. [Schema.org Markup](/glossar/schema-org-markup/) mit `Person`-Typ macht das maschinenlesbar.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Geh deinen Content durch und frag dich bei jedem Artikel: Kann der Leser erkennen, dass ein Mensch mit echter Erfahrung das geschrieben hat? Wenn nicht, ergänze persönliche Anekdoten, eigene Bilder und konkrete Daten. Das ist der einfachste Weg, sich von KI-Content abzuheben.
 

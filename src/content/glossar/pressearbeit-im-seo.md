@@ -58,7 +58,7 @@ Jeder Podcast-Auftritt generiert eine Shownote-Seite mit Links zu deinen Profile
 
 In der [Generative Engine Optimization](/glossar/geo/) spielen Presseartikel eine Sonderrolle. LLMs wie ChatGPT, Gemini oder Perplexity nutzen journalistische Quellen als bevorzugtes Trainingsmaterial. Wenn dein Name in einem vertrauenswürdigen Presseartikel steht, ist die Wahrscheinlichkeit hoch, dass KIs dich als Experte für dieses Thema zitieren. Pressearbeit ist damit nicht nur SEO, sondern auch AIO (AI Optimization).
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Hör auf, Links zu „bauen". Fang an, Geschichten zu erzählen, die es wert sind, verbreitet zu werden. Nutze deine eigenen Daten, deine Erfahrungen und deine Meinungen als PR-Material. Platziere dich in Podcasts und auf LinkedIn. Denn der beste Backlink ist der, den ein Journalist freiwillig setzt, weil dein Content einfach zu gut ist, um ihn zu ignorieren.
 

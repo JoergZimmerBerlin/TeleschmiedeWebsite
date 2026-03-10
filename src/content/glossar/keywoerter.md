@@ -77,7 +77,7 @@ Die echten Schätze liegen im Long-Tail und im Mid-Tail.
 Dort, wo die Konkurrenz schläft und die Nutzer echte Probleme lösen wollen. 
 Dort, wo du als Experte wirklich helfen kannst.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Keywords sind das Fundament. Aber nutze sie mit Verstand und Empathie für den Nutzer. Schreib für Menschen, aber gib der Maschine die klaren Signale, die sie braucht. Kein Keyword-Stuffing. Nur maximale Relevanz. Denn am Ende zählt nur eines: Hat der Nutzer auf deiner Seite genau das gefunden, wonach er gesucht hat?
 

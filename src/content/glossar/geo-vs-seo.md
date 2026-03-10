@@ -64,7 +64,7 @@ Heute willst du, dass die KI auf die Frage "Wer ist der beste B2B SEO Consultant
 
 Das ist das Ziel von GEO. Das ist die Dominanz, die wir anstreben.
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Die Grenze zwischen **GEO vs. SEO** verschwimmt. Eine gute **SEO Beratung** von heute ist immer auch eine GEO Beratung von morgen. 
 Verlass dich nicht auf veraltete Taktiken. Schmiede deine digitale Zukunft mit Strategien, die sowohl Menschen als auch Maschinen überzeugen.

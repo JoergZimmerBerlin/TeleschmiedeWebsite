@@ -65,7 +65,7 @@ Neben Google spielen Meta Descriptions eine große Rolle bei den sogenannten *Op
 
 Für KI-Agenten ([GEO](/glossar/geo/)) dient die Description oft als erste schnelle Inhalts-Einordnung beim Indexing-Vorgang. Sie hilft der Maschine, den Kontext deiner "Entität" im Web besser zu verorten.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Die Meta Description ist dein kostenloser Werbeplatz in der wertvollsten Auslage der Welt: Der Google-Ergebnisseite. Wer auf diese 155 Zeichen verzichtet, verschenkt bares Geld und wertvolle Klicks. Schreibe sie aktiv, keyword-zentriert und mit einem echten emotionalen Mehrwert (USP) für deine Zielgruppe – dann steigerst du deine Sichtbarkeit auch ohne neue Backlinks spürbar.
 

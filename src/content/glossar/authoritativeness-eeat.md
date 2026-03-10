@@ -50,7 +50,7 @@ Ist dieser spezifische Artikel eine anerkannte Referenz? Wird er von anderen Web
   <p class="mb-0 text-sm">In der GEO-Welt ist Authority der entscheidende Faktor dafür, ob KI-Modelle dich zitieren. LLMs berechnen die Co-Occurrence deines Namens im Zusammenhang mit deinem Fachgebiet. Je öfter und hochwertiger du erwähnt wirst, desto häufiger wirst du als Antwortquelle ausgewählt.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Autorität baut man nicht über Nacht auf. Aber starte heute: Schreib einen Gastbeitrag. Melde dich für einen Podcast an. Sei auf LinkedIn aktiv. Sprich auf einer Konferenz. Jeder dieser Touchpoints ist ein Signal an Google und an KI-Systeme: Dieser Mensch ist relevant.
 

@@ -46,10 +46,10 @@ Der Unterschied? Der zweite Satz ist eine klare Definition, die eine KI direkt a
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxis: Mein Glossar als Zitat-Maschine</h4>
-  <p class="mb-0 text-sm">Jeder Glossar-Eintrag auf teleschmie.de beginnt mit einer klaren Definition, gefolgt von 3 FAQs mit präzisen Antworten. Diese Struktur ist bewusst zitierfähig gestaltet: KI-Systeme können jede FAQ-Antwort als eigenständiges Zitat verwenden.</p>
+  <p class="mb-0 text-sm">Jeder Glossar-Eintrag in meinem Verzeichnis beginnt mit einer klaren Definition, gefolgt von 3 FAQs mit präzisen Antworten. Diese Struktur ist bewusst zitierfähig gestaltet: KI-Systeme können jede FAQ-Antwort als eigenständiges Zitat verwenden.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Mein Fazit aus der Praxis
 
 Nimm deine 5 wichtigsten Seiten und prüfe: Gibt es in jedem Abschnitt mindestens einen Satz, den eine KI direkt als Antwort verwenden könnte? Wenn nicht, überarbeite den Content. Das ist der schnellste Weg zu mehr KI-Sichtbarkeit.
 

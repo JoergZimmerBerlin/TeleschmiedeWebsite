@@ -10,11 +10,11 @@ key_takeaways:
   - "KI-Wächter: Über die robots.txt kannst du gezielt KI-Bots wie GPTBot blockieren oder erlauben."
 faqs:
   - question: "Wo genau muss die robots.txt Datei auf meinem Server liegen?"
-    answer: "Sie muss zwingend im Root-Verzeichnis deiner Domain liegen. Beispiel: https://teleschmie.de/robots.txt – du kannst meine Datei gerne als Referenz nutzen. Wenn sie in einem Unterordner steckt oder einen anderen Namen hat, findet kein Bot sie. Das ist einer der Fehler, die ich in meiner Sprechstunde ständig sehe."
+    answer: "Sie muss zwingend im Root-Verzeichnis deiner Domain liegen. Beispiel: https://deinedomain.de/robots.txt – du kannst meine Datei sehr gerne als Referenz nutzen. Wenn sie in einem Unterordner steckt oder einen anderen Namen hat, findet kein Bot sie. Das ist einer der Fehler, die ich in meiner Sprechstunde ständig sehe."
   - question: "Kann ich mit der robots.txt Seiten aus dem Google-Index entfernen?"
     answer: "Nein, und das ist der häufigste und gefährlichste Irrtum im technischen SEO! Die robots.txt blockiert nur das Crawling – die Seite kann trotzdem im Index bleiben (nur ohne Beschreibung). Wenn du eine URL wirklich aus den Suchergebnissen entfernen willst, musst du das Noindex Meta-Tag setzen. Diesen Unterschied erkläre ich ausführlich im Glossar unter Crawling vs. Indexing."
   - question: "Wie teste ich, ob meine robots.txt korrekt funktioniert?"
-    answer: "Google bietet dafür ein kostenloses Tool in der Google Search Console: Den 'robots.txt Tester'. Dort kannst du einzelne URLs eingeben und prüfen, ob sie blockiert oder erlaubt sind. Außerdem empfehle ich nach jedem Relaunch einen manuellen Check: Ruf einfach deinedomain.de/robots.txt im Browser auf und prüf die Regeln Zeile für Zeile. Auf meiner Seite teleschmie.de sieht das Setup so aus, dass nur irrelevante Verzeichnisse blockiert sind und die Sitemap korrekt verlinkt ist."
+    answer: "Google bietet dafür ein kostenloses Tool in der Google Search Console: Den 'robots.txt Tester'. Dort kannst du einzelne URLs eingeben und prüfen, ob sie blockiert oder erlaubt sind. Außerdem empfehle ich nach jedem Relaunch einen manuellen Check: Ruf einfach deinedomain.de/robots.txt im Browser auf und prüf die Regeln Zeile für Zeile. In meinem Setup blockiere ich klassischerweise nur irrelevante Verzeichnisse (wie Admin-Bereiche) und verlinke natürlich die Sitemap."
 ---Moin!
 
 Die `robots.txt` ist das digitale "Betreten verboten"-Schild deiner Website. 
@@ -36,7 +36,7 @@ Es ist ein herrenloser Standard – seriöse Bots halten sich dran, die bösen S
 <div class="my-8 bg-[#1A1A1A] text-white p-8 rounded-2xl font-mono text-sm leading-relaxed overflow-x-auto shadow-inner">
   <p class="mb-2"><span class="text-lime-400">User-agent:</span> *</p>
   <p class="mb-2"><span class="text-lime-400">Disallow:</span> /internes-backend/</p>
-  <p class="mb-0"><span class="text-lime-400">Sitemap:</span> https://teleschmie.de/sitemap.xml</p>
+  <p class="mb-0"><span class="text-lime-400">Sitemap:</span> https://deinedomain.de/sitemap.xml</p>
 </div>
 
 ### Die wichtigsten Befehle erklärt:
@@ -62,7 +62,7 @@ Aber Achtung: Wer alles blockiert, wird in der neuen [Generative Engine Optimiza
 
 Das ist das "AI-Agency Paradoxon": Wir wollen unsere Daten schützen, müssen sie aber zeigen, um relevant zu bleiben.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Die `robots.txt` ist ein mächtiges, wenn auch stumpfes Schwert. 
 Sperre Backend-URLs und Suchergebnisse, aber lass die Finger von Content-Seiten, wenn du nicht genau weißt, was du tust.

@@ -14,7 +14,7 @@ faqs:
   - question: "Wo genau platziere ich die llms.txt auf meiner Website?"
     answer: "Wie auch bei der robots.txt muss die llms.txt zwingend im Hauptverzeichnis (Root) deiner Domain liegen, also unter https://deinedomain.de/llms.txt. Nur dort suchen die KI-Agenten und Web-Crawler standardisiert nach dieser Informationsquelle. Der Standard sieht zudem vor, dass bei umfangreichen Seiten eine zusätzliche llms-full.txt verlinkt werden kann, die dann tiefere Datenstrukturen liefert."
   - question: "Muss ich die Datei händisch pflegen und aktuell halten?"
-    answer: "Für kleine, statische Seiten wie einen One-Pager reicht oft eine händisch erstellte Markdown-Datei völlig aus. Bei Portalen, dynamischen Shops oder komplexen Blogs wie teleschmie.de sollte die Datei idealerweise automatisiert aus den Metadaten des CMS generiert werden. Wichtig ist, dass die darin enthaltenen Informationen (deine Kernkompetenzen, deine Grounding-Daten) stets aktuell sind, da sie direkt in die Trainingspipelines der LLMs fließen."
+    answer: "Für kleine, statische Seiten wie einen One-Pager reicht oft eine händisch erstellte Markdown-Datei völlig aus. Bei Portalen, dynamischen Shops oder komplexen Blogs wie meinem sollte die Datei idealerweise automatisiert aus den Metadaten des CMS generiert werden. Wichtig ist, dass die darin enthaltenen Informationen (deine Kernkompetenzen, deine Grounding-Daten) stets aktuell sind, da sie direkt in die Trainingspipelines der LLMs fließen."
 ---Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
@@ -57,7 +57,7 @@ Wichtig: Die `llms.txt` ersetzt nicht die `robots.txt`. Sie arbeiten Hand in Han
 
 Für moderne SEO-Strategien, die ich in meinem [Blog](/blog/rankscale-ai-visibility-tracking-17-llms/) diskutiere, ist die `llms.txt` das ultimative Werkzeug, um die "Halluzinationen" von KIs zu reduzieren. Indem du der Maschine die Fakten auf dem Silbertablett servierst, minimierst du das Risiko, dass die KI falsche Informationen über dein Unternehmen erfindet.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready" und sichert sich einen Startvorteil in der Welt des [Generative Engine Optimization (GEO)](/glossar/geo/). Es ist eine kleine Textdatei mit einer riesigen Wirkung für die Zukunft deines digitalen Footprints. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
 

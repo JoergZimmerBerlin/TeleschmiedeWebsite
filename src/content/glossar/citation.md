@@ -31,7 +31,7 @@ Für lokale Unternehmen und Freelancer sind Citations das Rückgrat der Sichtbar
 Der heilige Gral hierbei sind die **NAP-Daten** (Name, Address, Phone). In meinem Fall:
 *   **Name:** Jörg Zimmer – SEO & SEA Freelancer
 *   **Adresse:** Berlin-Spandau
-*   **Web:** [teleschmie.de](https://teleschmie.de)
+*   **Web:** [Jörg Zimmer](https://teleschmie.de)
 
 Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst.
 
@@ -66,7 +66,7 @@ Um dort zitiert zu werden, brauchst du:
 
 In der generativen Suchoptimierung ([Entity SEO](/glossar/entity-seo/)) geht es darum, die eigene Marke so oft und so hochwertig wie möglich als Zitat im Web zu platzieren.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Citations sind die digitalen Empfehlungen des 21. Jahrhunderts. Im Local SEO sind sie die Basis für Google Maps Rankings. Aber der wahre Hebel liegt heute in der KI-Welt: Wer konsistent und hochwertig im Netz zitiert wird, wird von ChatGPT, Perplexity und Gemini als Experte erkannt und empfohlen. Investiere in echte [Pressearbeit](/glossar/pressearbeit-im-seo/), baue deinen [Markenaufbau](/glossar/markenaufbau-mit-seo/) strategisch auf, und sorge dafür, dass dein Name im richtigen Kontext erscheint.
 

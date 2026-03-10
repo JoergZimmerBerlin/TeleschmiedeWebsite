@@ -68,7 +68,7 @@ KI-Systeme werden immer öfter als lokale Berater genutzt.
 Die KI scannt das Netz nach Empfehlungen, Rezensionen und [Mentions](/glossar/mention/). 
 Wer lokal nicht sauber aufgestellt ist, existiert für moderne KI-Agenten schlichtweg nicht.
 
-## Was du jetzt tun solltest
+## Mein Fazit aus der Praxis
 
 Local SEO ist kein Hexenwerk, aber es erfordert Disziplin. Halte deine Daten sauber. Sei aktiv in deiner Region. Sammle echtes Feedback. Dann klappt es auch mit den Kunden aus der Nachbarschaft. Denn am Ende ist der wertvollste Klick der, der durch deine Ladentür kommt.
 

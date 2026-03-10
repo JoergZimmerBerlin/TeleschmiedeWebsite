@@ -59,7 +59,7 @@ Als [SEO-Freelancer in Berlin](/seo-freelancer-berlin/) sehe ich jeden Tag hunde
 
 Speziell im Hinblick auf [Entity SEO](/glossar/entity-seo/) wird der Index immer wichtiger. Er spiegelt wider, wie stark deine 'Entität' im Vektorraum von Google gewichtet wird. Wer hier gewinnt, gewinnt langfristig Kunden.
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Vergiss Eitelkeits-Metriken. Konzentrier dich auf den Sichtbarkeitsindex. Er ist das Thermometer für deine SEO-Gesundheit. Beobachte ihn, pflege ihn, aber jage ihm nicht blind hinterher. Am Ende zählen die Conversions, nicht nur die Kurve. Werde zur unangefochtenen Autorität in deiner Nische.
 

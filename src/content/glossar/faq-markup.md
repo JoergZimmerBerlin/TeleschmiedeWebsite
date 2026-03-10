@@ -12,7 +12,7 @@ faqs:
   - question: "Zeigt Google FAQ-Markup immer in den Suchergebnissen an?"
     answer: "Nein, und das ist ein häufiges Missverständnis. Google entscheidet selbst, wann und ob FAQ-Rich-Results angezeigt werden. Seit den Updates 2023-2024 zeigt Google FAQs primär für Behörden- und autorisierte Gesundheitsseiten. Für 'normale' Websites ist der direkte SERP-Effekt zurückgegangen. ABER: Das Markup hat trotzdem massive indirekte Vorteile – es hilft Google und KI-Systemen, deine Inhalte als strukturierte Wissensquelle zu verstehen."
   - question: "Wie implementiere ich FAQ-Markup technisch korrekt?"
-    answer: "Am besten als JSON-LD Block im Head-Bereich deiner Seite. Du definierst ein FAQPage-Objekt mit einer Liste von Question- und Answer-Paaren. Auf meiner Seite teleschmie.de generiere ich das Markup automatisch aus den FAQ-Daten im Frontmatter – so ist sichergestellt, dass es immer mit dem sichtbaren Inhalt übereinstimmt. Wichtig: Die Fragen und Antworten im Schema MÜSSEN auch auf der Seite für den Nutzer sichtbar sein, sonst droht eine manuelle Maßnahme."
+    answer: "Am besten als JSON-LD Block im Head-Bereich deiner Seite. Du definierst ein FAQPage-Objekt mit einer Liste von Question- und Answer-Paaren. Auf meiner eigenen Seite generiere ich das Markup automatisch aus den FAQ-Daten im Frontmatter – so ist sichergestellt, dass es immer mit dem sichtbaren Inhalt übereinstimmt. Wichtig: Die Fragen und Antworten im Schema MÜSSEN auch auf der Seite für den Nutzer sichtbar sein, sonst droht eine manuelle Maßnahme."
   - question: "Lohnt sich FAQ-Markup 2026 überhaupt noch?"
     answer: "Absolut, aber aus anderen Gründen als früher. Der direkte SERP-Rich-Result-Effekt ist zwar eingeschränkt, aber FAQ-Markup ist jetzt ein Schlüssel für die KI-Suche. Perplexity, ChatGPT und Google SGE nutzen strukturierte FAQ-Daten als bevorzugte Antwortquelle. Wer sein Wissen in sauberem Q&A-Format bereitstellt, wird von KI-Systemen häufiger zitiert. Es ist eine Investition in die GEO-Zukunft."
 ---Moin!
@@ -24,7 +24,7 @@ Wenn du schon mal ein Google-Suchergebnis gesehen hast, das ausklappbare Fragen 
   <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
 </div>
 
-Es ist eine der sichtbarsten Anwendungen von [Strukturierten Daten](/glossar/strukturierte-daten/) und eines der mächtigsten Werkzeuge, um mehr Platz in den Suchergebnissen zu besetzen. Auf meiner eigenen Seite teleschmie.de nutze ich FAQ-Markup auf jeder Glossar-Seite – du siehst die Ergebnisse in den FAQ-Accordions am Ende jeder Seite.
+Es ist eine der sichtbarsten Anwendungen von [Strukturierten Daten](/glossar/strukturierte-daten/) und eines der mächtigsten Werkzeuge, um mehr Platz in den Suchergebnissen zu besetzen. Auf meiner eigenen Webseite nutze ich FAQ-Markup auf jeder einzelnen Glossar-Seite – du siehst die Ergebnisse in den Accordions am Ende jeder Seite.
 
 ## Wie FAQ-Markup funktioniert
 
@@ -62,7 +62,7 @@ Die Gründe, warum du es trotzdem implementieren solltest:
 *   **Voice Search:** Sprachassistenten greifen bevorzugt auf FAQ-strukturierte Antworten zu.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: teleschmie.de Glossar</h4>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: Mein eigenes Glossar</h4>
   <p class="mb-0 text-sm">Jeder Glossar-Eintrag auf meiner Seite hat 3 FAQs mit ausführlichen Antworten. Die Daten werden im YAML-Frontmatter gepflegt und automatisch als JSON-LD Schema UND als sichtbares Accordion gerendert. So ist garantiert, dass Schema und sichtbarer Inhalt immer identisch sind – keine Diskrepanzen, kein Spam-Risiko.</p>
 </div>
 
@@ -73,7 +73,7 @@ Teste dein FAQ-Markup immer im [Google Rich Results Test](https://search.google.
 *   Welche Rich Results möglich sind
 *   Ob es Warnungen oder Fehler gibt
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Implementiere FAQ-Markup auf jeder Seite, die echte Nutzerfragen beantwortet. Nutze JSON-LD, halte dich an die Regel „Schema = sichtbarer Content", und denke langfristig: Auch wenn Google die Rich Results einschränkt, sind strukturierte FAQs der Türöffner für KI-Zitate. Wer heute die Infrastruktur baut, erntet morgen die Sichtbarkeit.
 

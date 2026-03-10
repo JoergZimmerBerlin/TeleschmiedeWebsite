@@ -10,7 +10,7 @@ key_takeaways:
   - "Konsistenz ist King: Egal ob mit oder ohne Slash – Hauptsache, du entscheidest dich für EINE Variante und setzt sie konsequent um."
 faqs:
   - question: "Ist es besser, URLs mit oder ohne Trailing Slash zu verwenden?"
-    answer: "Es gibt keine 'richtige' Antwort – beides ist technisch korrekt. Entscheidend ist die Konsistenz. Wenn du dich für eine Variante entscheidest, musst du sie überall durchziehen: In der Sitemap, in internen Links, in Canonical Tags und in der Google Search Console. Auf meiner Seite teleschmie.de nutze ich konsistent Trailing Slashes (z.B. /glossar/trailing-slashes/), weil Astro das standardmäßig so handhabt. Mische niemals beide Varianten – das führt zu Duplicate Content."
+    answer: "Es gibt keine 'richtige' Antwort – beides ist technisch korrekt. Entscheidend ist die Konsistenz. Wenn du dich für eine Variante entscheidest, musst du sie überall durchziehen: In der Sitemap, in internen Links, in Canonical Tags und in der Google Search Console. Bei meinen eigenen Projekten nutze ich konsistent Trailing Slashes (z.B. /glossar/trailing-slashes/), weil Astro das standardmäßig so handhabt. Mische niemals beide Varianten – das führt zu Duplicate Content."
   - question: "Was passiert, wenn ich beide Varianten (mit und ohne Slash) im Einsatz habe?"
     answer: "Dann hat Google im schlimmsten Fall zwei verschiedene URLs mit identischem Inhalt im Index – der Klassiker für Duplicate Content. Google muss dann selbst entscheiden, welche Variante die 'richtige' ist, und dein Linkjuice wird auf zwei URLs aufgeteilt statt konzentriert. Die Lösung: 301-Redirects von der ungewünschten auf die gewünschte Variante und ein sauberes Canonical Tag. In der Google Search Console kannst du unter 'URL-Prüfung' checken, welche Version Google bevorzugt."
   - question: "Wie konfiguriere ich Trailing Slashes in meinem Framework korrekt?"
@@ -45,7 +45,7 @@ Wenn deine Website beide Varianten ausliefert (also `/seite` und `/seite/` zeige
 In deiner Framework-Konfiguration legst du fest: **immer mit** oder **immer ohne** Trailing Slash.
 
 <div class="my-8 bg-[#1A1A1A] text-white p-8 rounded-2xl font-mono text-sm leading-relaxed overflow-x-auto shadow-inner">
-  <p class="mb-2 text-gray-400">// astro.config.mjs (Beispiel von teleschmie.de)</p>
+  <p class="mb-2 text-gray-400">// astro.config.mjs (Beispiel aus meiner Config)</p>
   <p class="mb-2"><span class="text-lime-400">export default</span> defineConfig({</p>
   <p class="mb-2 ml-4"><span class="text-lime-400">trailingSlash:</span> 'always',</p>
   <p class="mb-0">});</p>
@@ -74,7 +74,7 @@ Prüfe alle internen Links in deinem Content – verlinken sie konsistent auf di
 | **WordPress** | mit Slash | Permalink-Einstellungen |
 | **Hugo** | mit Slash | `uglyURLs` in config.toml |
 
-## Was du jetzt tun solltest
+## Mein Fazit aus der Praxis
 
 Öffne jetzt deine Website und teste es: Ruf eine beliebige Seite einmal mit und einmal ohne Trailing Slash auf. Leitet eine Variante auf die andere weiter? Perfekt. Wenn nicht, musst du handeln. Prüfe deine Framework-Config, setze 301-Redirects, und durchlauf deine Sitemap. Es sind 30 Minuten Arbeit, die dir monatelangen Ranking-Ärger ersparen können.
 

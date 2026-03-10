@@ -48,7 +48,7 @@ SEO kann frustrierend sein. Man investiert Monate in [Entity SEO](/glossar/entit
 
 Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es geht um Geben und Nehmen. Wenn jemand ein Problem mit [strukturierten Daten](/glossar/strukturierte-daten/) hat, helfe ich. Wenn ich bei einem komplexen [SEO-Audit](/glossar/seo-audit/) an meine Grenzen stoße, frage ich die Runde.
 
-Das ist genau der Spirit der Teleschmie.de: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe diese bodenständige Berliner Art in jedes meiner Projekte.
+Das ist genau mein Spirit: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe diese bodenständige Berliner Art in jedes meiner Projekte.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dabei sein ist alles</h4>
@@ -63,7 +63,7 @@ Man könnte meinen, in Zeiten von ChatGPT bräuchten wir keinen menschlichen Aus
 
 Am Stammtisch validieren wir, was die KIs uns vorgaukeln. Wir besprechen, wie wir die [Grounding-Page](/glossar/grounding-page/) Konzepte in der Praxis umsetzen oder wie wir mit der [LLMs.txt](/glossar/llms-txt/) die KI-Bots steuern. Das ist 'Expertise aus erster Hand' – und die kann man nicht simulieren.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Der SEO Stammtisch Berlin ist mein persönliches Kraftwerk. Wer wachsen will, muss sich mit Leuten umgeben, die schon weiter sind. Keine steifen Vorträge, sondern echte Gespräche. So wie ich es mag.
 

@@ -75,7 +75,7 @@ Dann stuft die KI deine Information als unzuverlässig ein.
 In der [Generative Engine Optimization](/glossar/geo/) zählt Konsistenz. 
 Wer seine technische Basis nicht im Griff hat, wird nicht zitiert.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
 

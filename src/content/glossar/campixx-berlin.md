@@ -45,7 +45,7 @@ Als [SEO-Freelancer](/seo-freelancer-berlin/) ist man oft Einzelkämpfer. Die Ca
 
 Ich nutze die Zeit am See intensiv, um meine eigene [Grounding-Page](/glossar/grounding-page/) Strategie zu challengen. Was sagen andere Experten dazu? Wo liegen die Schwachstellen? Diese "Schwarmintelligenz" macht meine Beratung für meine Kunden am Ende so stabil und zukunftssicher. 
 
-Dafür steht mein Brand Teleschmie.de – handwerkliche Präzision, geschmiedet im Feuer der Community.
+Dafür steht mein Name – handwerkliche Präzision, geschmiedet im Feuer der Community.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Campixx-Tipp</h4>
@@ -58,7 +58,7 @@ In einer Welt, in der KI-Content massenhaft produziert wird, wird die individuel
 
 Wenn ich von der Campixx zurückkomme, fließen diese neuen Erkenntnisse über [Entity SEO](/glossar/entity-seo/) oder [Local SEO](/glossar/local-seo/) Trends direkt in die Strategien meiner Kunden ein. Wer nicht auf der Campixx war, hat oft den Anschluss an das verloren, was *wirklich* gerade in den Köpfen der Top-SEOs vorgeht.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Absolut. Ja, es kostet Geld und Zeit. Aber der ROI (Return on Invest) ist unschlagbar. Ein Wochenende im Van der Valk Hotel ist wie ein halbes Jahr SEO-Fortbildung im Zeitraffer. Es schärft den Blick für das Wesentliche und sortiert den Bullshit aus.
 

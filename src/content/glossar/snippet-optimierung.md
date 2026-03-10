@@ -51,7 +51,7 @@ Visuelle Erweiterungen deines Snippets:
 
 Das Featured Snippet ist die Box über allen anderen Ergebnissen. Es beantwortet die Suchanfrage direkt und bekommt damit die meisten Klicks – oder erzeugt [Zero-Click Content](/glossar/zero-click-content/), bei dem du zumindest als Quelle sichtbar bist.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Öffne die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Das ist eine der schnellsten SEO-Maßnahmen mit sofortigem Impact.
 

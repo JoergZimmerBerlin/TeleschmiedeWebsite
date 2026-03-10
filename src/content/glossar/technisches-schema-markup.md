@@ -10,7 +10,7 @@ key_takeaways:
   - "Multi-Type: Person, Organization, FAQPage, Article, LocalBusiness – für jeden Content den passenden Typ."
 faqs:
   - question: "Welche Schema-Typen sind 2026 am wichtigsten?"
-    answer: "Für die meisten Websites sind diese fünf Typen die wichtigsten: 'Person' oder 'Organization' für den Seiteninhaber – das stärkt dein Entity-Profil. 'FAQPage' für Glossar-Einträge und FAQ-Bereiche. 'Article' oder 'BlogPosting' für redaktionelle Inhalte mit Autorenzuordnung. 'LocalBusiness' für lokale Unternehmen und Freelancer. Und 'BreadcrumbList' für eine saubere Navigationsstruktur in den SERPs. Auf teleschmie.de nutze ich alle fünf."
+    answer: "Für die meisten Websites sind diese fünf Typen die wichtigsten: 'Person' oder 'Organization' für den Seiteninhaber – das stärkt dein Entity-Profil. 'FAQPage' für Glossar-Einträge und FAQ-Bereiche. 'Article' oder 'BlogPosting' für redaktionelle Inhalte mit Autorenzuordnung. 'LocalBusiness' für lokale Unternehmen und Freelancer. Und 'BreadcrumbList' für eine saubere Navigationsstruktur in den SERPs. In meiner eigenen Architektur nutze ich alle fünf."
   - question: "Wie teste ich, ob mein Schema-Markup korrekt ist?"
     answer: "Zwei Tools sind Pflicht: Der Google Rich Results Test (search.google.com/test/rich-results) zeigt dir, welche Rich Results für deine Seite möglich sind. Und der Schema Markup Validator (validator.schema.org) prüft die technische Korrektheit deines JSON-LD. Teste jede Seite nach der Implementierung. Fehlerhafte Markup-Daten sind schlimmer als gar kein Markup, weil sie Google verwirren können."
   - question: "Kann ich Schema-Markup ohne Programmierkenntnisse implementieren?"
@@ -44,11 +44,11 @@ Für [Local SEO](/glossar/local-seo/): Adresse, Öffnungszeiten, Bewertungen, Ko
 Zeigt die Navigationsstruktur im Suchergebnis: Home > Glossar > Schema-Markup.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxis: Schema auf teleschmie.de</h4>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxis: Schema in meinem Setup</h4>
   <p class="mb-0 text-sm">Meine Seite nutzt Person-Markup mit sameAs-Verlinkung zu LinkedIn, YouTube und meiner Grounding Page. Jeder Glossar-Eintrag hat FAQPage-Schema. Die Blog-Artikel nutzen BlogPosting mit Autor-Zuordnung. Alles als JSON-LD im Head-Bereich, automatisch aus dem Frontmatter generiert.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Prüfe im Google Rich Results Test, welche Schema-Typen auf deiner Website bereits implementiert sind. Wenn die Antwort „keine" ist: Starte mit Person/Organization und FAQPage. Das sind die Low-Hanging-Fruits mit dem größten Impact.
 

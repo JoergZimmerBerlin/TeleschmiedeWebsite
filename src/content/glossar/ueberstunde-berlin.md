@@ -60,7 +60,7 @@ Indirekt: Absolut. Starke Kooperationen in der Hauptstadt führen zu echten [Men
 
 Google erkennt diese Signale der lokalen Verwurzelung extrem genau. Wer im Gedächtnis der Berliner Wirtschaft bleibt, hat einen uneinholbaren Vorsprung gegenüber anonymen Billig-Anbietern.
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Wenn du mich das nächste Mal bei der Überstunde siehst: Sprich mich einfach an. Lass uns über deine Vision reden, über Berlin oder meinetwegen auch über das letzte Google Update. Hauptsache auf Augenhöhe und mit einem echten Interesse an der Lösung.
 

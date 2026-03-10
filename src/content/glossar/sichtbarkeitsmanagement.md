@@ -52,7 +52,7 @@ Dein Name muss als [Entität](/glossar/entitaet/) im Web verankert sein – durc
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein eigenes Sichtbarkeitsmanagement</h4>
-  <p class="mb-0 text-sm">Auf teleschmie.de manage ich meine Sichtbarkeit über ein integriertes System: 50+ Glossar-Einträge für thematische Autorität, Podcast-Auftritte für Mentions, LinkedIn für Community, Schema.org für maschinenlesbare Expertise und Rankscale für AI-Visibility-Tracking. Alles greift ineinander.</p>
+  <p class="mb-0 text-sm">Ich manage meine Sichtbarkeit über ein ganzheitliches System: 50+ Glossar-Einträge für thematische Autorität, Podcast-Auftritte für Mentions, LinkedIn für Community, Schema.org für maschinenlesbare Expertise und Rankscale für AI-Visibility-Tracking. Alles greift ineinander.</p>
 </div>
 
 ## Sichtbarkeitsmanagement als laufender Prozess
@@ -64,7 +64,7 @@ Es ist kein einmaliges Projekt. Es ist ein fortlaufender Kreislauf:
 3.  **Optimieren:** Gezielt Content erstellen, technische Fehler beheben, Entity stärken.
 4.  **Wiederholen:** Ergebnisse tracken und Strategie anpassen.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Nimm dir 30 Minuten und mach einen Realitätscheck: Google deinen eigenen Namen. Frag ChatGPT nach deinem Fachgebiet. Schau in die Search Console, ob dein Branded Search Volume wächst. Wenn die Antworten enttäuschend sind, brauchst du keine neuen Keywords – du brauchst ein Sichtbarkeitsmanagement-System.
 

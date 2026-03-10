@@ -10,7 +10,7 @@ key_takeaways:
   - "Relaunch-Killer: Ein vergessenes Noindex auf dem Live-Server kann die gesamte Sichtbarkeit vernichten."
 faqs:
   - question: "Wie baue ich das noindex-Tag technisch korrekt ein?"
-    answer: "Die gängigste Methode ist ein Meta-Tag im HTML-Head-Bereich: <meta name='robots' content='noindex'>. Alternativ (z.B. für PDFs) kann man den X-Robots-Tag als HTTP-Header setzen. In WordPress erledigen das Plugins wie Yoast oder RankMath per Klick. In meiner eigenen Astro-Seite (teleschmie.de) steuere ich das direkt im Code – so habe ich volle Kontrolle und keine Plugin-Abhängigkeit."
+    answer: "Die gängigste Methode ist ein Meta-Tag im HTML-Head-Bereich: <meta name='robots' content='noindex'>. Alternativ (z.B. für PDFs) kann man den X-Robots-Tag als HTTP-Header setzen. In WordPress erledigen das Plugins wie Yoast oder RankMath per Klick. Bei meinen eigenen Astro-Projekten steuere ich das direkt im Code – so habe ich volle Kontrolle und keine Plugin-Abhängigkeit."
   - question: "Welche Seiten meiner Website sollte ich konkret auf noindex setzen?"
     answer: "Alles, was für einen Google-Nutzer keinen Mehrwert bietet: Dankesseiten (Thank-You-Pages), die nach Formulareingabe erscheinen, AGB/Impressum (rechtlich nötig, aber kein SEO-Wert), interne Suchergebnisseiten, Tag-Archive ohne Content, und veraltete 'Trend'-Artikel, die nur noch peinlich sind. ALOHA-Regel: Wenn du dich schämen würdest, einem Kunden die Seite zu zeigen – noindex!"
   - question: "Darf ich noindex und eine robots.txt-Blockierung gleichzeitig verwenden?"
@@ -74,7 +74,7 @@ Ja, tut sie.
 Oft kombiniert man das Tag als `<meta name="robots" content="noindex, follow">`. 
 Google soll diese spezielle Seite ignorieren, aber all die nützlichen Links, die sich im Textkörper befinden, verfolgen und den dahinterliegenden [Linkjuice](/glossar/linkjuice/) an die Hauptartikel weitervererben.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Eine saubere, technisch verschlankte Domain rankt exponentiell leichter als ein riesiger, unkontrollierter Wasserkopf aus tausenden unnützen Tags und Paginierungen.
 Hab keine Angst vor `noindex` – nutze es als Werkzeug für eine präzise, messerscharfe Content-Strategie.

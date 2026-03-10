@@ -45,10 +45,10 @@ Ein thematisches Content-Cluster ([Semantic SEO](/glossar/semantic-seo/)) zeigt 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein Entitäten-Building Playbook</h4>
-  <p class="mb-0 text-sm">Auf teleschmie.de habe ich all diese Schritte umgesetzt: Grounding Page mit vollständigen Fakten, Schema.org Person-Markup, 60+ Glossar-Einträge als Expertise-Nachweis, Podcast-Auftritte für externe Mentions und LinkedIn für Community-Präsenz. Das Ergebnis: KI-Systeme erkennen „Jörg Zimmer" als Entität im Bereich SEO.</p>
+  <p class="mb-0 text-sm">Ich habe für mich selbst all diese Schritte umgesetzt: Grounding Page mit vollständigen Fakten, Schema.org Person-Markup, 60+ Glossar-Einträge als Expertise-Nachweis, Podcast-Auftritte für externe Mentions und LinkedIn für Community-Präsenz. Das Ergebnis: KI-Systeme erkennen „Jörg Zimmer" präzise als Entität im Bereich SEO.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Mein Fazit aus der Praxis
 
 Starte mit Schritt 1: Erstelle eine Grounding Page. Das dauert 2 Stunden und ist das Fundament für alles Weitere. Dann implementiere Schema.org. Dann bau dir ein Glossar oder Content-Hub auf. Entitäten-Building ist ein Marathon – aber jeder Schritt bringt dich näher an den Punkt, an dem Google und KI dich als das erkennen, was du bist: Ein Experte.
 

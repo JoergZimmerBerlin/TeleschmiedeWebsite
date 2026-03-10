@@ -64,7 +64,7 @@ Mit dem Aufstieg der [Generative Engine Optimization (GEO)](/glossar/geo/) komme
 *   **Strukturierte Daten:** Liefert dein [Schema.org Markup](/glossar/schema-org-markup/) klare Fakten?
 *   **Source Authority:** Wird deine Website von KI-Systemen als vertrauenswürdige Quelle eingestuft?
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Vergiss die Jagd nach dem "einen Trick". Es gibt keinen. Rankingfaktoren sind ein Zusammenspiel aus hunderten Signalen. Konzentrier dich auf die Basics: Schreib den besten Content zu deinem Thema. Bau eine saubere technische Basis. Verdiene dir echte Backlinks und Mentions. Und stärke deine Marke als Entität. Wer das konsequent macht, braucht keine SEO-Tricks.
 

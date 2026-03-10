@@ -10,7 +10,7 @@ key_takeaways:
   - "KI-Wandel: Informations-Traffic sinkt durch KI-Antworten; Experten-Traffic gewinnt an Wert."
 faqs:
   - question: "Was ist der Unterschied zwischen Nutzern und Sitzungen?"
-    answer: "Ein Nutzer ist die einzelne Person (oder der Browser), die deine Website besucht. Eine Sitzung ist der Zeitabschnitt, den dieser Nutzer auf deiner Seite verbringt – in Google Analytics endet eine Sitzung standardmäßig nach 30 Minuten Inaktivität. Ein einzelner Nutzer kann also an einem Tag mehrere Sitzungen erzeugen, wenn er vormittags und nachmittags auf teleschmie.de vorbeischaut. Für die Monetarisierung sind oft regelmäßige Nutzer wichtiger als reine Sitzungszahlen."
+    answer: "Ein Nutzer ist die einzelne Person (oder der Browser), die deine Website besucht. Eine Sitzung ist der Zeitabschnitt, den dieser Nutzer auf deiner Seite verbringt – in Google Analytics endet eine Sitzung standardmäßig nach 30 Minuten Inaktivität. Ein einzelner Nutzer kann also an einem Tag mehrere Sitzungen erzeugen, wenn er vormittags und nachmittags auf meiner Seite vorbeischaut. Für die Monetarisierung sind oft regelmäßige Nutzer wichtiger als reine Sitzungszahlen."
   - question: "Warum sinkt mein Traffic plötzlich?"
     answer: "Ein Traffic-Einbruch ist der Albtraum jedes Website-Betreibers, aber meistens gibt es eine logische Erklärung. Häufigste Ursachen sind Google Core Updates, technische Fehler (wie versehentliches Noindex), Saisonalität oder das Erstarken von Wettbewerbern. In meiner SEO Sprechstunde analysiere ich zuerst, ob der Einbruch site-wide ist oder nur bestimmte URLs betrifft. Dann grenzen wir ein, ob es ein technisches oder ein inhaltliches Problem ist."
   - question: "Wie steigere ich meinen organischen Traffic?"
@@ -70,7 +70,7 @@ Das bedeutet: Der klassische "Informations-Traffic" für triviale Fragen wird si
 Übrig bleibt der wertvolle Traffic von Menschen, die echte Tiefe und echte Experten suchen.
 Besucher, die dein [E-E-A-T](/glossar/e-e-a-t/) schätzen.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Traffic ist gut. Qualifizierter Traffic ist besser. Such nicht nach der Masse. Such nach der Relevanz. Behandle jeden Besucher wie einen potenziellen Kunden. Sorge für eine gute Usability und schnelle Ladezeiten. Denn am Ende zählt nicht, wie viele reinlaufen – sondern wie viele zufrieden wieder rausgehen (oder bleiben).
 

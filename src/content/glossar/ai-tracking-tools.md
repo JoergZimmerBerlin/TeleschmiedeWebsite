@@ -50,7 +50,7 @@ AI Tracking Tools zeigen dir:
   <p class="mb-0 text-sm">Ich nutze <a href="/blog/rankscale-ai-visibility-tracking-17-llms/" class="underline text-lime-700">Rankscale</a> für das AI Visibility Tracking meiner eigenen Seite und für Kundenprojekte. Das Tool trackt meine Sichtbarkeit über 17 LLMs und liefert einen konkreten Score, den ich über Wochen verfolgen kann. So sehe ich, ob meine GEO-Maßnahmen greifen.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Richte dir ein AI Tracking Tool ein. Es muss nicht gleich das teuerste sein – starte mit manuellen Tests: Frag ChatGPT, Perplexity und Gemini nach deinem Fachgebiet und dokumentiere die Ergebnisse. Wiederhole das monatlich. Auch manuelles Tracking ist besser als gar keins.
 

@@ -40,7 +40,7 @@ In der KI-Ära ist das noch wichtiger: [LLMs](/glossar/llmo/) können keine Hype
 *   **Presse-Mentions:** Zitate in Fachartikeln und Nachrichtenmedien.
 *   **Podcast Mentions:** Namentliche Erwähnung in Shownotes und Episoden.
 
-## Was du jetzt tun solltest
+## Mein Fazit aus der Praxis
 
 Google deinen eigenen Namen in Anführungszeichen. Richte Google Alerts ein. Und dann arbeite aktiv daran, mehr Mentions zu generieren – durch [Pressearbeit](/glossar/pressearbeit-im-seo/), Community-Engagement und exzellenten Content.
 

@@ -12,7 +12,7 @@ faqs:
   - question: "Was ist der Unterschied zwischen Semantic SEO und klassischem Keyword-SEO?"
     answer: "Klassisches Keyword-SEO optimiert eine Seite für ein bestimmtes Keyword: 'SEO Agentur Berlin'. Semantic SEO denkt in Themenfeldern: Wer über SEO in Berlin schreibt, sollte auch über Local SEO, Google Business Profile, Backlinks, technisches SEO und Citation Management schreiben. Google belohnt Websites, die ein Thema ganzheitlich abdecken, mit stärkeren Rankings für ALLE verwandten Suchanfragen. Mein Glossar ist ein Paradebeispiel: 60+ Einträge, die ein semantisches Netz rund um SEO und GEO bilden."
   - question: "Wie baue ich semantische Content-Cluster auf?"
-    answer: "Starte mit einem Pillar-Artikel zu deinem Kernthema (z.B. 'E-E-A-T'). Dann erstellst du Unterthemen-Artikel zu jedem Aspekt (Experience, Expertise, Authoritativeness, Trustworthiness). Verlinke alles intern. So entsteht ein 'Topic Cluster', das Google signalisiert: Diese Website ist die Autorität für dieses Thema. Genau so habe ich es auf teleschmie.de aufgebaut – mein E-E-A-T Pillar verlinkt auf 4 Detailartikel, die wiederum untereinander und nach außen verlinken."
+    answer: "Starte mit einem Pillar-Artikel zu deinem Kernthema (z.B. 'E-E-A-T'). Dann erstellst du Unterthemen-Artikel zu jedem Aspekt (Experience, Expertise, Authoritativeness, Trustworthiness). Verlinke alles intern. So entsteht ein 'Topic Cluster', das Google signalisiert: Diese Website ist die Autorität für dieses Thema. Genau so baue ich meine eigenen Cluster auf – ein starker Pillar-Artikel verlinkt auf Detailartikel, die wiederum untereinander und nach außen verlinken."
   - question: "Spielt Semantic SEO auch für die KI-Suche eine Rolle?"
     answer: "Absolut! KI-Modelle verstehen Sprache semantisch – sie denken in Konzepten, nicht in Keywords. Eine Website mit einem starken semantischen Netz wird von LLMs als umfassende Wissensquelle erkannt. Das erhöht die Wahrscheinlichkeit, als Quelle zitiert zu werden. Semantic SEO ist damit die Brücke zwischen klassischem SEO und GEO."
 ---Moin!
@@ -45,10 +45,10 @@ Ein semantischer Content-Cluster besteht aus:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxis: Mein Glossar als semantisches Netz</h4>
-  <p class="mb-0 text-sm">Mein Glossar auf teleschmie.de ist ein lebendes Beispiel für Semantic SEO. Jeder Eintrag verlinkt auf verwandte Glossar-Einträge. Die E-E-A-T-Seite verlinkt auf 4 Pillar-Artikel. GEO verlinkt auf AEO und LLMO. So entsteht ein Wissensnetz, das Google als thematische Autorität erkennt – und das KI-Systemen als strukturierte Wissensquelle dient.</p>
+  <p class="mb-0 text-sm">Mein Glossar ist ein lebendes Beispiel für Semantic SEO. Jeder Eintrag verlinkt auf verwandte Glossar-Einträge. Die E-E-A-T-Seite verlinkt auf detaillierte Unterseiten. GEO verlinkt auf AEO und LLMO. So entsteht ein echtes Wissensnetz, das Google als thematische Autorität erkennt – und das KI-Systemen als saubere, strukturierte Wissensquelle dient.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Hör auf, einzelne Keywords zu jagen. Definiere stattdessen dein Kernthema und baue ein Content-Cluster drum herum. Verlinke alles intern. Nutze Schema.org. Und beobachte, wie deine Rankings für das gesamte Themenfeld steigen.
 

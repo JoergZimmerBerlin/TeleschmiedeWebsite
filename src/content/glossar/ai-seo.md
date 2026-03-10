@@ -69,7 +69,7 @@ In meiner täglichen Arbeit als [SEO & GEO Freelancer](/seo-freelancer-berlin/) 
 *   **Entity:** Wird mein Kunde als [Entität](/glossar/entitaeten-building/) erkannt?
 *   **Tracking:** Nutzen wir [AI Tracking Tools](/glossar/ai-tracking-tools/) neben der Search Console?
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Frag dich: Optimierst du nur für Google – oder auch für ChatGPT, Perplexity und Gemini? Wenn die Antwort „nur Google" ist, verschenkst du Potenzial. AI SEO ist keine Zukunftsmusik – es ist die Gegenwart. Und die Unternehmen, die jetzt einsteigen, bauen einen Vorsprung auf, den Nachzügler Jahre brauchen, um aufzuholen.
 

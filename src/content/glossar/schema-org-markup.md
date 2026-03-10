@@ -69,7 +69,7 @@ Es ist die unsichtbare Architektur des Erfolgs.
 Wer lernt, das Schema-Vokabular strategisch einzusetzen, baut keine Website mehr, sondern eine autoritäre Wissensdatenbank.
 Und genau das ist es, was Google heute belohnt.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Schema.org ist kein Trend. Es ist der Standard. Sprich die Sprache der Maschinen, um die Aufmerksamkeit der Menschen zu gewinnen. Nutze das volle Vokabular für deine Nische. Verknüpfe deine Daten zu einem starken Netz. Denn am Ende gewinnt der, der die klarsten Antworten liefert.
 

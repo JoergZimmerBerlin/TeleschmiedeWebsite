@@ -25,7 +25,7 @@ Genau hier setzt **Rankscale** an. Ich habe mir das Tool aus Österreich in den 
 
 ## Rankscale im echten Praxis-Test
 
-Rankscale ist nicht einfach nur ein weiteres Keyword-Tool. Es ist ein AI Visibility Tracker. Ich habe damit meine eigene Domain `teleschmie.de` und die Projekte einiger Kunden durch die Mangel gedreht. Was das Tool wirklich liefert:
+Rankscale ist nicht einfach nur ein weiteres Keyword-Tool. Es ist ein AI Visibility Tracker. Ich habe damit meine eigene Domain und die Projekte einiger Kunden durch die Mangel gedreht. Was das Tool wirklich liefert:
 
 ### 1. Tracking deiner Erwähnungen (Citations)
 Es geht nicht nur darum, ob du erwähnt wirst, sondern WIE. Rankscale zeigt dir, ob die KI dich als Quelle verlinkt oder ob du nur beiläufig erwähnt wirst. Das ist der heilige Gral für GEO (Generative Engine Optimization).

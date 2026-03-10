@@ -12,7 +12,7 @@ faqs:
   - question: "Was kostet eine professionelle SEO Beratung?"
     answer: "Erfahrungsgemäß liegen die Stundensätze für seriöse SEO-Experten in Deutschland zwischen 120 € und 250 €. Billiganbieter, die pauschale Beratung für '50 Euro im Monat' verkaufen, liefern meist nur automatisierte Tool-Reports ohne strategischen Tiefgang. Eine echte Beratung ist ein Investment in deinen digitalen Vertrieb: Ein einzelnes, gut rankendes Money-Keyword kann den ROI der Beratung innerhalb weniger Wochen um ein Vielfaches einspielen."
   - question: "Was ist der genaue Unterschied zwischen SEO Beratung und SEO Optimierung?"
-    answer: "SEO Beratung ist die strategische Landkarte: das 'Was', 'Wann' und vor allem das 'Warum'. Ein Berater analysiert deine Architektur, deckt Potenziale auf und erstellt einen priorisierten Maßnahmenkatalog (z.B. einen Audit). Die SEO Optimierung ist dann die operative, handwerkliche Umsetzung dieses Plans – das Schreiben der Texte, das Fixen der Technik und der Aufbau von Entitäten. Auf teleschmie.de biete ich ganz bewusst beides an, da eine Strategie ohne Umsetzung wertlos ist."
+    answer: "SEO Beratung ist die strategische Landkarte: das 'Was', 'Wann' und vor allem das 'Warum'. Ein Berater analysiert deine Architektur, deckt Potenziale auf und erstellt einen priorisierten Maßnahmenkatalog (z.B. einen Audit). Die SEO Optimierung ist dann die operative, handwerkliche Umsetzung dieses Plans – das Schreiben der Texte, das Fixen der Technik und der Aufbau von Entitäten. Als Freelancer biete ich ganz bewusst beides an, da eine Strategie ohne Umsetzung wertlos ist."
   - question: "Wann brauche ich einen festen SEO Consulting Partner?"
     answer: "Spatestens dann, wenn du spürst, dass dein digitales Wachstum stagniert, obwohl du Content produzierst. Ein Consulting-Partner schaut mit objektivem Experten-Blick von außen auf dein Geschäftsmodell und verhindert blinden Aktionismus. Besonders in Krisensituationen (wie Traffic-Verlust durch Core Updates) oder vor großen Relaunches ist ein erfahrener Consultant unverzichtbar, um fatale und teure Fehlentscheidungen in der Informationsarchitektur zu vermeiden."
 ---Moin!
@@ -59,7 +59,7 @@ Die Zeiten, in denen man nur ein paar Keywords in einen Text "gestopft" hat, sin
 
 Ein professionelles SEO Consulting hilft dir heute dabei, deine Marke als unumstößliche [Entität](/glossar/entitaet/) im Wissensnetz von Google zu verankern. Nur wer als Experte wahrgenommen wird, bekommt in der KI-Suche noch Sichtbarkeit.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Egal ob du eine **digitale Unternehmensberatung** suchst oder eine langfristige **SEO Betreuung** – das Ziel muss immer der ROI (Return on Invest) sein. 
 

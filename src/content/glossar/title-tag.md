@@ -62,7 +62,7 @@ Mit dem Wandel hin zur generativen Suche ([Generative Engine Optimization](/glos
 
 Gleichzeitig werden Title Tags immer öfter als "Context Header" für Large Language Models genutzt, um beim RAG-Prozess (Retrieval-Augmented Generation) schnell zu entscheiden, ob ein Dokument relevant ist. Ein unpräziser Titel sorgt hier dafür, dass deine Seite von der KI als Informationsquelle gar nicht erst in Betracht gezogen wird. Wer hier spart, spart am falschen Ende – wie ich auch oft in meiner [SEO Sprechstunde](/seo-sprechstunde/) betone.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Das Title Tag ist das Aushängeschild deiner digitalen Präsenz. Es ist der Bruchteil einer Sekunde, in dem ein Nutzer entscheidet: "Klicke ich hier oder beim Wettbewerber?". Ein optimierter Title ist kurz, prägnant, keyword-strong am Anfang und markentreu am Ende. Vernachlässige dieses kleine HTML-Tag niemals, denn es ist das Fundament deines gesamten organischen Erfolgs.
 

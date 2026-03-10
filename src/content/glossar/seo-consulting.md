@@ -45,7 +45,7 @@ Regelmäßige Reviews, in denen wir Daten analysieren, Kurskorrekturen vornehmen
   <p class="mb-0 text-sm">2026 umfasst SEO Consulting nicht mehr nur Google. Ein moderner Consultant muss auch <a href="/glossar/geo/" class="underline text-lime-700">GEO-Strategien</a> beherrschen: Wie wirst du von KI-Systemen zitiert? Wie stärkst du deine Entität? Wie misst du AI Visibility? Wer dir 2026 "nur" Google-SEO verkauft, verkauft dir die halbe Wahrheit.</p>
 </div>
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Wenn du das Gefühl hast, dass du im SEO viel tust, aber wenig erreichst, fehlt dir wahrscheinlich die Strategie. Hol dir einen Consultant, der deinen IST-Zustand analysiert und dir einen klaren Fahrplan gibt. Das spart Monate an Trial-and-Error und bringt dein Budget dahin, wo es den größten Hebel hat.
 

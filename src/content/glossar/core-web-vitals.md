@@ -77,7 +77,7 @@ Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert.
 
 In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist die Performance-Optimierung daher kein "nice to have", sondern das technische Fundament.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Technische Exzellenz durch grüne Core Web Vitals ist die Hausaufgabe jeder professionell betriebenen Website.
 Wer hier spart, verliert Nutzer an die Konkurrenz.

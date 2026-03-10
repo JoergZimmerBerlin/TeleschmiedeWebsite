@@ -12,7 +12,7 @@ faqs:
   - question: "Warum ist Markenaufbau für SEO überhaupt relevant?"
     answer: "Ganz einfach: Google liebt Marken. Branded Keywords (also Suchen nach deinem Namen) sind das stärkste Vertrauenssignal, das du senden kannst. Wenn Leute aktiv nach 'Jörg Zimmer SEO Berlin' suchen, versteht Google: Diese Person ist eine Autorität. Das strahlt positiv auf alle deine Rankings aus. Markenaufbau und SEO sind keine getrennten Disziplinen – sie sind zwei Seiten derselben Medaille."
   - question: "Wie messe ich den Erfolg meines Brand-SEO?"
-    answer: "Der wichtigste KPI ist dein 'Branded Search Volume' – du findest es in der Google Search Console unter 'Leistung', gefiltert nach Suchanfragen, die deinen Markennamen enthalten. Wenn dieses Volumen steigt, wächst deine Marke. Außerdem: Beobachte, ob du einen Knowledge Panel auf Google bekommst. Das ist der ultimative Beweis, dass Google dich als Entität erkannt hat. Auf teleschmie.de arbeite ich gezielt daran, dass mein Name und meine Expertise im Knowledge Graph verankert sind."
+    answer: "Der wichtigste KPI ist dein 'Branded Search Volume' – du findest es in der Google Search Console unter 'Leistung', gefiltert nach Suchanfragen, die deinen Markennamen enthalten. Wenn dieses Volumen steigt, wächst deine Marke. Außerdem: Beobachte, ob du einen Knowledge Panel auf Google bekommst. Das ist der ultimative Beweis, dass Google dich als Entität erkannt hat. Für meine eigene Brand 'Jörg Zimmer' arbeite ich gezielt daran, dass mein Name im Knowledge Graph verankert ist."
   - question: "Was ist der Unterschied zwischen Brand SEO und klassischem Branding?"
     answer: "Klassisches Branding dreht sich um Logo, Farben und Werbebotschaften. Brand SEO geht tiefer: Es sorgt dafür, dass deine Marke maschinenlesbar ist – über Schema.org Markup, konsistente Citations, Mentions in Fachmedien und eine starke Grounding Page. Es ist Branding für Algorithmen UND Menschen gleichzeitig. In der KI-Suche entscheidet nicht dein Logo, sondern dein digitaler Fußabdruck."
 ---Moin!
@@ -49,7 +49,7 @@ Nutze [Schema.org Markup](/glossar/schema-org-markup/) (`Person` oder `Organizat
 Jede Erwähnung deines Namens in einem Fachmedium, einem Blog oder einem Nachrichtenportal ist ein Signal an Google. Diese [Mentions](/glossar/mention/) müssen nicht mal verlinkt sein – auch eine reine Namensnennung (Unstructured Citation) stärkt deine Marke.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: teleschmie.de</h4>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: Mein eigener Markenaufbau</h4>
   <p class="mb-0 text-sm">Durch die Kombination aus Podcasts, LinkedIn-Aktivität, Glossar-Content, Schema.org Markup und einer Grounding Page habe ich es geschafft, dass mein Name als Entität im Google-Ökosystem verankert ist. Das Ergebnis: Neue Glossar-Einträge werden innerhalb von 1-3 Tagen indexiert, weil Google meiner Domain vertraut.</p>
 </div>
 
@@ -57,7 +57,7 @@ Jede Erwähnung deines Namens in einem Fachmedium, einem Blog oder einem Nachric
 
 In der [Generative Engine Optimization](/glossar/geo/) wird Markenbekanntheit noch wichtiger. KI-Systeme wie ChatGPT oder Perplexity zitieren bevorzugt Quellen, die sie als vertrauenswürdig eingestuft haben. Eine starke Marke wird häufiger als Antwortquelle herangezogen – eine unbekannte Domain wird ignoriert, selbst wenn der Content gut ist.
 
-## Was du jetzt tun solltest
+## Mein Fazit aus der Praxis
 
 Hör auf, nur „Keywords zu optimieren". Fang an, deinen Namen zu einem Begriff zu machen. Baue eine Marke, die Menschen suchen, der Google vertraut und die KIs zitieren. Das ist kein Sprint, sondern ein Marathon. Aber am Ende ist es der einzige echte Burggraben gegen den KI-Content-Tsunami.
 

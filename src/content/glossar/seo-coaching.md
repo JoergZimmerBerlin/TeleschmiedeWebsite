@@ -63,7 +63,7 @@ Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenhei
 
 Viele Kunden starten mit einer einmaligen SEO-Sprechstunde und entwickeln daraus ein laufendes Coaching, bei dem wir alle 2 Wochen die Fortschritte besprechen.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Wenn du im SEO "blind fährst" – Geld ausgibst, aber nicht verstehst, was passiert – ist Coaching der richtige Weg. Wissen kann dir niemand mehr wegnehmen.
 

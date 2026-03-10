@@ -69,7 +69,7 @@ Die [Google Search Console](/glossar/google-search-console/) ist dein bestes Too
 
 Das sind deine "Low Hanging Fruits" – Seiten, die bereits ranken, aber nicht geklickt werden. Hier optimierst du zuerst.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Öffne jetzt die Google Search Console und sortiere deine Keywords nach CTR. Identifiziere die 10 Seiten mit den meisten Impressionen und der niedrigsten CTR. Überarbeite Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Das ist eine Maßnahme, die in 2 Stunden umgesetzt ist und sofort mehr Traffic bringt. Kein Agentur-Vertrag nötig.
 

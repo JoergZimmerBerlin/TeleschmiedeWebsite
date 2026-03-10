@@ -67,7 +67,7 @@ Mit Tools wie [Rankscale](/blog/rankscale-ai-visibility-tracking-17-llms/) kann 
 
 In meiner Arbeit als [SEO Freelancer in Berlin](/seo-freelancer-berlin/) habe ich schon früh erkannt, dass die Grenzen zwischen SEO und GEO verschwimmen. Deshalb biete ich beides als integrierte Strategie an. Mein eigenes Setup – von der [Grounding Page](/groundingpage/) über [Schema.org](/glossar/schema-org-markup/) bis hin zu meinem Glossar – ist ein lebendes Beispiel dafür, wie GEO in der Praxis funktioniert.
 
-## Was du jetzt tun solltest
+## Jörgs Action-Plan
 
 Wenn du merkst, dass dein organischer Traffic stagniert, obwohl deine Rankings stabil sind – dann verlierst du vermutlich Klicks an KI-Antworten. Eine GEO-Strategie ist kein Luxus mehr, sondern Überlebenssicherung. Lass dir nicht von einer Agentur erzählen, dass „SEO reicht". Frag sie nach ihrer GEO-Strategie. Wenn sie keine haben, suchst du dir besser einen Experten, der die Zukunft der Suche versteht.
 

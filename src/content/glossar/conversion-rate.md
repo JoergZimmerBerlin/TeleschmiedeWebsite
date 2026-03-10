@@ -77,7 +77,7 @@ Oft ist es günstiger, die Conversion Rate von 1% auf 2% zu heben, als den Traff
 
 In der Welt von ChatGPT und Gemini ändert sich die "Conversion Journey". Nutzer treffen ihre Vorauswahl oft schon in der KI. Wenn dich die KI als Lösung vorschlägt, landen die Leute bei dir auf der Seite und sind schon fast überzeugt. Das bedeutet: Die Klicks von KI-Apps haben oft eine extrem hohe Conversion Rate. Vorausgesetzt, du hast deine [Hausaufgaben](/glossar/entity-seo/) gemacht.
 
-## Was du jetzt tun solltest
+## Dein nächster Schritt
 
 Die Conversion Rate ist dein wichtigster Hebel für mehr Profit. Hör auf, nur Klicks zu zählen. Fang an, Ergebnisse zu messen. Optimiere deine Seite für Menschen, nicht nur für Bots. Denn am Ende lügt dein Bankkonto nicht.
 

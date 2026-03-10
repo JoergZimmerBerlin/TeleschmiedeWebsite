@@ -70,7 +70,7 @@ KI-Modelle verstehen Kaufabsichten heute extrem gut.
 Willst du, dass die KI dich als "die beste Lösung" vorschlägt?
 Dann muss deine Seite als autoritäre [Entität](/glossar/entitaet/) wahrgenommen werden.
 
-## Was du jetzt tun solltest
+## Mein Tacheles-Rat für dich
 
 Money Keywords sind der Treibstoff für dein Business. Hör auf, nach Eitelkeits-Metriken zu jagen. Such die Begriffe, die deine Rechnungen bezahlen. Konzentrier dich auf Qualität, Relevanz und Vertrauen. Denn am Ende zählt nur, was unten rauskommt.
 

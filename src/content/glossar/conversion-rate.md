@@ -90,3 +90,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
 * **Lese-Tipp:** [Traffic allein reicht nicht](/glossar/traffic/)
+* **Lese-Tipp:** [Google Ads Kosten im Griff](/google-ads-freelancer-berlin/)

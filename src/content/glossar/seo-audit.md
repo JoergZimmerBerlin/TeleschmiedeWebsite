@@ -78,3 +78,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
 * **Lese-Tipp:** [Technisches SEO verstehen](/glossar/technisches-seo/)
+* **Lese-Tipp:** [SEO Agentur oder Freelancer?](/glossar/seo-agentur/)

@@ -72,5 +72,5 @@ ALOHA ✌️
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO Beratung anfragen →</a>
 </div>
 
-* **Lese-Tipp:** [Was macht ein SEO Freelancer?](/glossar/local-seo/)
-* **Lese-Tipp:** [Warum technisches SEO die Basis ist](/glossar/crawler/)
+* **Lese-Tipp:** [SEO Agentur vs. SEO Freelancer](/glossar/seo-agentur/)
+* **Lese-Tipp:** [Warum technisches SEO die Basis ist](/glossar/technisches-seo/)

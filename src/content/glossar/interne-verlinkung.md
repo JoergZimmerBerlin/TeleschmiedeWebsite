@@ -69,3 +69,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
+* **Lese-Tipp:** [Linkbuilding: Externe Links strategisch aufbauen](/glossar/linkbuilding/)

@@ -77,4 +77,5 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
 * **Lese-Tipp:** [Sitemap Optimierung](/glossar/sitemap/)
+* **Lese-Tipp:** [Linkbuilding richtig angehen](/glossar/linkbuilding/)
 

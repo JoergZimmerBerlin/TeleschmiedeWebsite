@@ -1,10 +1,21 @@
 import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export const GET = async () => {
   const isGitHubPages = import.meta.env.GITHUB_ACTIONS === 'true' && import.meta.env.DEPLOY_TARGET !== 'ionos';
   const baseUrl = isGitHubPages ? 'https://joergzimmerberlin.github.io/TeleschmiedeWebsite' : 'https://teleschmie.de';
 
   const lastModYYYYMMDD = new Date().toISOString().split('T')[0];
+
+  const getLastMod = (filePath: string) => {
+    try {
+      const stats = fs.statSync(filePath);
+      return new Date(stats.mtimeMs).toISOString().split('T')[0];
+    } catch (e) {
+      return lastModYYYYMMDD;
+    }
+  };
 
   // 1. Static Pages (.astro files in src/pages)
   const pages = import.meta.glob([
@@ -15,18 +26,20 @@ export const GET = async () => {
 
   let urls = '';
 
-  for (const path in pages) {
-    let cleanPath = path.split('/').pop()?.replace('.astro', '') || '';
+  for (const globPath in pages) {
+    let cleanPath = globPath.split('/').pop()?.replace('.astro', '') || '';
+    const filePath = path.join(process.cwd(), 'src/pages', cleanPath + '.astro');
+    let urlLoc = cleanPath;
     if (cleanPath === 'index') {
-      cleanPath = '';
+      urlLoc = '';
     } else {
-      cleanPath = cleanPath + '/';
+      urlLoc = cleanPath + '/';
     }
 
     urls += `
   <url>
-    <loc>${baseUrl}/${cleanPath}</loc>
-    <lastmod>${lastModYYYYMMDD}</lastmod>
+    <loc>${baseUrl}/${urlLoc}</loc>
+    <lastmod>${getLastMod(filePath)}</lastmod>
   </url>`;
   }
 
@@ -34,16 +47,36 @@ export const GET = async () => {
   urls += `
   <url>
     <loc>${baseUrl}/blog/</loc>
-    <lastmod>${lastModYYYYMMDD}</lastmod>
+    <lastmod>${getLastMod(path.join(process.cwd(), 'src/pages/blog/index.astro'))}</lastmod>
   </url>`;
 
   // 3. Blog Posts
   const blogPosts = await getCollection('blog');
   for (const post of blogPosts) {
-    const postDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : lastModYYYYMMDD;
+    const filePath = path.join(process.cwd(), 'src/content/blog', post.id);
+    const postDate = getLastMod(filePath);
     urls += `
   <url>
     <loc>${baseUrl}/blog/${post.slug}/</loc>
+    <lastmod>${postDate}</lastmod>
+  </url>`;
+  }
+
+  // 4. Glossary Index
+  urls += `
+  <url>
+    <loc>${baseUrl}/glossar/</loc>
+    <lastmod>${getLastMod(path.join(process.cwd(), 'src/pages/glossar/index.astro'))}</lastmod>
+  </url>`;
+
+  // 5. Glossary Posts
+  const glossaryPosts = await getCollection('glossar');
+  for (const post of glossaryPosts) {
+    const filePath = path.join(process.cwd(), 'src/content/glossar', post.id);
+    const postDate = getLastMod(filePath);
+    urls += `
+  <url>
+    <loc>${baseUrl}/glossar/${post.slug}/</loc>
     <lastmod>${postDate}</lastmod>
   </url>`;
   }

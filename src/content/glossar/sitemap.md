@@ -4,20 +4,33 @@ description: "Eine Sitemap ist der Wegweiser für Google. Sie hilft Crawlern, al
 date: "2026-03-10"
 image: "../../assets/images/blog/seo-relaunch-checklist-visual.png"
 related_terms: ["crawler", "robots-txt", "crawling-vs-indexing"]
+key_takeaways:
+  - "Crawler-Effizienz: Eine saubere Sitemap spart wertvolles Crawl-Budget."
+  - "Vollständigkeit: Sie garantiert, dass auch verwaiste Seiten (Orphan Pages) gefunden werden."
+  - "Schnelle Indexierung: Neue Inhalte werden über die Sitemap deutlich schneller von Google erfasst."
+faqs:
+  - question: "Wo finde ich meine Sitemap?"
+    answer: "Meistens liegt sie unter deiner-domain.de/sitemap.xml oder wird in der robots.txt verlinkt."
+  - question: "Braucht jede Website eine Sitemap?"
+    answer: "Ab einer Handvoll Seiten ist sie absolut empfehlenswert. Bei großen Portalen oder Shops ist sie geschäftskritisch."
+  - question: "Sollten alle URLs in die Sitemap?"
+    answer: "Nein! Nur URLs, die indexiert werden sollen (200 OK) und für den Nutzer relevant sind."
 ---
 
-Eine Sitemap ist die Landkarte deiner Website.
-Ganz einfach: Ein Dokument, das alle URLs deiner Seite auflistet.
+Moin!
+
+Eine Sitemap ist die Landkarte deiner Website. 
+Ganz einfach: Ein Dokument, das alle URLs deiner Seite auflistet. 
 Das Ziel? Google sagen: "Hey, hier sind meine Inhalte, bitte schau sie dir an!"
 
-Zwar findet Google viele Seiten auch über [interne Verlinkungen](/glossar/interne-verlinkung/), aber die Sitemap ist das Sicherheitsnetz.
+Zwar findet Google viele Seiten auch über [interne Verlinkungen](/glossar/interne-verlinkung/), aber die Sitemap ist das Sicherheitsnetz. 
 Besonders für neue Websites oder Seiten mit tausenden Artikeln ist sie absolut unverzichtbar.
 
 ## Die zwei Arten von Sitemaps
 
 Wir unterscheiden im Wesentlichen:
 
-1.  **XML-Sitemap:** Das ist die Version für Maschinen. Sie liegt meistens unter `/sitemap.xml`. Sie ist purer Code, den der [Crawler](/glossar/crawler/) ausliest.
+1.  **XML-Sitemap:** Das ist die Version für Maschinen. Sie liegt meistens unter `/sitemap.xml/`. Sie ist purer Code, den der [Crawler](/glossar/crawler/) ausliest.
 2.  **HTML-Sitemap:** Das ist eine Seite für Menschen (oft im Footer verlinkt). Gut für die [Usability](/glossar/usability/), aber SEO-technisch weniger relevant als die XML-Version.
 
 ## Warum brauchst du eine Sitemap?
@@ -55,18 +68,20 @@ Oder solche, die 50.000 URLs enthalten, wovon die Hälfte Fehler produziert.
 Eine schlechte Sitemap ist schlimmer als gar keine.
 Sie muss dynamisch sein. Sie muss sauber sein. Sie muss der Wahrheit entsprechen.
 
-### Zusammenfassung
+### Fazit war gestern (Der Wegweiser)
 
-Die Sitemap ist dein direkter Draht zum Googlebot.
-Mach es der Maschine so einfach wie möglich.
-Ein klarer Wegweiser führt zu schnelleren Rankings und besserer Indexierung.
-Kein High-Level SEO, sondern solides Handwerk.
-Aber ohne Handwerk kein Masterpiece.
+Die Sitemap ist dein direkter Draht zum Googlebot. Mach es der Maschine so einfach wie möglich. Ein klarer Wegweiser führt zu schnelleren Rankings und besserer Indexierung. Kein High-Level SEO, sondern solides Handwerk. Aber ohne Handwerk kein Masterpiece.
+
+ALOHA ✌️
 
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Probleme mit der Indexierung?</h3>
+  <p class="mb-6">Lass uns in einer SEO-Sprechstunde prüfen, ob deine Sitemap Google in die Irre führt oder dein Crawl-Budget verschwendet wird.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sprechstunde anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Warum Crawler so wichtig sind](/glossar/crawler/)
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+

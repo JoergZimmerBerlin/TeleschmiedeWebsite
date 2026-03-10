@@ -62,15 +62,19 @@ Wie gut können KI-Systeme deine Inhalte extrahieren?
 Sind deine Informationen so strukturiert, dass sie in einer AI Overview zitiert werden können?
 Haben wir die [LLMs.txt](/glossar/llms-txt/) schon als Einladung für die Bots am Start?
 
-### Fazit
+### Fazit war gestern (Action-Plan)
 
-Ein SEO Audit ist kein Luxusgut, sondern die Versicherung für deinen Erfolg.
-Hör auf zu raten oder dich auf automatisierte Tool-Berichte zu verlassen.
-Fang an zu wissen. Pack deine Website auf den Grill und lass uns schauen, wo wir die PS wirklich auf die Straße bekommen. 
+Ein SEO Audit ist kein Luxusgut, sondern die Versicherung für deinen Erfolg. Hör auf zu raten oder dich auf automatisierte Tool-Berichte zu verlassen. Fang an zu wissen. Pack deine Website auf den Grill und lass uns schauen, wo wir die PS wirklich auf die Straße bekommen. 
+
+ALOHA ✌️
 
 ---
 
-### LinkedIn von Jörg Zimmer folgen
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Bereit für den Grillabend?</h3>
+  <p class="mb-6">Ich nehme deine Website schonungslos auseinander und zeige dir die echten Hebel für mehr Umsatz. Lass uns dein SEO professionalisieren.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO-Audit buchen →</a>
+</div>
 
-Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.
-[Jetzt auf LinkedIn folgen →](https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/)
+* **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* **Lese-Tipp:** [Technisches SEO verstehen](/glossar/technisches-seo/)

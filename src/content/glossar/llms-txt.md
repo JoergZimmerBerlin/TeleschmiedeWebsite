@@ -4,6 +4,17 @@ description: "Die llms.txt ist ein neuer Standard zur Steuerung von KI-Crawlern.
 date: "2026-03-10"
 image: "../../assets/images/blog/bot-evolution.png"
 related_terms: ["robots-txt", "geo", "entitaet"]
+key_takeaways:
+  - "Maschinen-Fokus: Die llms.txt liefert Fakten direkt in das Gedächtnis von Sprachmodellen."
+  - "Effizienz: Kurze, strukturierte Markdown-Daten sparen LLM-Tokens und erhöhen die Zitationsrate."
+  - "Kontrolle: Minimiere Halluzinationen, indem du KIs die offizielle Wahrheit über deine Marke lieferst."
+faqs:
+  - question: "Ersetzt llms.txt die robots.txt?"
+    answer: "Nein. Die robots.txt regelt den Zugriff, die llms.txt regelt das Verständnis (Kontext)."
+  - question: "Wo platziere ich die llms.txt?"
+    answer: "Immer im Root-Verzeichnis deiner Domain (https://deinedomain.de/llms.txt)."
+  - question: "Muss ich die Datei händisch pflegen?"
+    answer: "Bei statischen Seiten ja, bei großen Portalen kann sie automatisiert aus den Metadaten generiert werden."
 ---
 
 Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
@@ -43,14 +54,19 @@ Wichtig: Die `llms.txt` ersetzt nicht die `robots.txt`. Sie arbeiten Hand in Han
 
 Für moderne SEO-Strategien, die ich in meinem [Blog](/blog/rankscale-ai-visibility-tracking-17-llms/) diskutiere, ist die `llms.txt` das ultimative Werkzeug, um die "Halluzinationen" von KIs zu reduzieren. Indem du der Maschine die Fakten auf dem Silbertablett servierst, minimierst du das Risiko, dass die KI falsche Informationen über dein Unternehmen erfindet.
 
-### Zusammenfassung
+### Fazit war gestern (Die Visitenkarte)
 
 Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready" und sichert sich einen Startvorteil in der Welt des [Generative Engine Optimization (GEO)](/glossar/geo/). Es ist eine kleine Textdatei mit einer riesigen Wirkung für die Zukunft deines digitalen Footprints. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
 
+ALOHA ✌️
+
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Ist deine Seite bereit für Claude & GPT?</h3>
+  <p class="mb-6">Ich erstelle für dich eine optimierte llms.txt, die deine Markenbotschaft fehlerfrei an die großen Sprachmodelle übermittelt. Lass uns deine KI-Präsenz professionalisieren.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Check anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* **Lese-Tipp:** [Warum Entitäten so wichtig sind](/glossar/entitaet/)

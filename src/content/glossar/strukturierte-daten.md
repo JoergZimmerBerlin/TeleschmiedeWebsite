@@ -56,18 +56,19 @@ Ich habe Projekte gesehen, die alleine durch das Hinzufügen von FAQ-Schema ihre
 Es ist die einfachste Art, mehr Platz in den Suchergebnissen zu besetzen.
 Sei nicht nur ein blauer Link. Sei das Ergebnis, das ins Auge fällt.
 
-### Zusammenfassung
+### Fazit war gestern (Der Dolmetscher)
 
-Strukturierte Daten machen deine Website intelligent.
-Hilf Google, dich zu verstehen.
-Nutze JSON-LD für Produkte, Rezensionen, Events oder lokale Geschäfte.
-Es ist das Bindeglied zwischen deinem Content und dem Gehirn der Suchmaschine.
-Wer hier spart, spart am falschen Ende.
+Strukturierte Daten machen deine Website intelligent. Hilf Google, dich zu verstehen. Nutze JSON-LD für Produkte, Rezensionen, Events oder lokale Geschäfte. Es ist das Bindeglied zwischen deinem Content und dem Gehirn der Suchmaschine. Wer hier spart, spart am falschen Ende.
+
+ALOHA ✌️
 
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Ist deine Website für Google noch 'stumm'?</h3>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Lass uns deine Daten sprechen lassen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Struktur-Audit anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Alles über Schema.org](/glossar/schema-org-markup/)
+* **Lese-Tipp:** [Warum Entitäten die Basis sind](/glossar/entitaet/)

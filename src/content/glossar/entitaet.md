@@ -4,6 +4,17 @@ description: "Eine Entität ist ein eindeutig identifizierbares Objekt – wie e
 date: "2026-03-10"
 image: "../../assets/images/blog/contextual-seo-bruecke-de.png"
 related_terms: ["knowledge-graph", "mention", "geo"]
+key_takeaways:
+  - "Vom Wort zum Ding: Google versteht die Welt heute in Objekten (Entitäten), nicht nur in Zeichenketten."
+  - "Semantische Vernetzung: Eine Entität wird durch ihre Beziehungen zu anderen Objekten definiert."
+  - "KI-Treiber: GEO basiert fast vollständig auf der Identifizierung und Validierung von Entitäten."
+faqs:
+  - question: "Ist meine Website eine Entität?"
+    answer: "Ja, in der Regel wird sie dem Typ 'WebSite' zugeordnet, verknüpft mit der Entität 'Organization' (deine Firma)."
+  - question: "Wie prüfe ich meine Entität?"
+    answer: "Google nach deinem Markennamen. Wenn ein Knowledge Panel erscheint, hat Google dich als Entität konsolidiert."
+  - question: "Helfen Backlinks meiner Entität?"
+    answer: "Ja, vor allem wenn sie von anderen starken Entitäten aus demselben Themenfeld kommen."
 ---
 
 Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).

@@ -4,6 +4,17 @@ description: "Eine Citation ist die Erwähnung einer Marke, eines Namens oder ei
 date: "2026-03-10"
 image: "../../assets/images/blog/authentizitaet-vs-spam-de.png"
 related_terms: ["mention", "entitaet"]
+key_takeaways:
+  - "Lokale Autorität: Citations sind der Schlüsselfaktor für Rankings in Google Maps."
+  - "NAP-Konsistenz: Einheitliche Daten (Name, Adresse, Tel) sind die Basis für Google-Vertrauen."
+  - "KI-Relevanz: In der GEO-Ära dienen Citations als Belege für die Existenz und Kompetenz deiner Entität."
+faqs:
+  - question: "Muss eine Citation immer einen Link enthalten?"
+    answer: "Nein. Eine Erwähnung ohne Link (Unstructured Citation) ist bereits ein starkes Signal für Google."
+  - question: "Welche Citations sind am wichtigsten?"
+    answer: "Das Google Business Profile ist die Basis. Danach folgen fachrelevante Branchenbücher und Nischen-Portale."
+  - question: "Wie finde ich fehlerhafte Citations?"
+    answer: "Dafür gibt es Tools wie Local SEO Checkers, man kann aber auch nach seiner alten Adresse oder Telefonnummer googeln."
 ---
 
 Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch mit dem Aufstieg der lokalen Suche (Local SEO) und der modernen KI-Suche ([Generative Engine Optimization](/glossar/geo/)) ist ein neues Element ins Rampenlicht gerückt: die **Citation** (Zitierung).
@@ -42,14 +53,19 @@ Wenn du ChatGPT nach dem "besten SEO-Experten in Berlin" fragst, berechnet die K
 
 Jede Erwähnung deines Namens auf starken, vertrauenswürdigen Drittseiten ([E-E-A-T](/glossar/e-e-a-t/)) zahlt auf dein Konto als "Entität" ein. In der generativen Suchoptimierung ([Entity SEO](/glossar/entity-seo/)) geht es darum, die eigene Marke so oft und so hochwertig wie möglich als Zitat im Web zu platzieren, damit KIs dich als verlässliche Antwortquelle (Citations in Perplexity etc.) auswählen.
 
-### Zusammenfassung
+### Fazit war gestern (Action-Plan)
 
 Citations sind die digitalen Empfehlungen des 21. Jahrhunderts. Für lokale Firmen sind sie die Basis für Google Maps Rankings, für internationale Marken sind sie der Schlüssel, um Teil des globalen Knowledge Graphs zu werden. Achte auf maximale Konsistenz deiner Daten, pflege deine Profile in den wichtigsten Portalen und sorge durch exzellente Arbeit dafür, dass Menschen und Medien über dich sprechen. Ein Zitat ist oft mehr wert als ein gekaufter Backlink.
 
+ALOHA ✌️
+
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Brauchst du mehr lokale Power?</h3>
+  <p class="mb-6">Ich analysiere deine aktuelle Citation-Abdeckung und sorge für ein glasklares, konsistentes NAP-Profil im gesamten Netz. Lass uns dein Google Maps Ranking dominieren.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Local-Audit anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Warum Mentions so wichtig sind](/glossar/mention/)
+* **Lese-Tipp:** [Local SEO: Der ultimative Guide](/glossar/local-seo/)

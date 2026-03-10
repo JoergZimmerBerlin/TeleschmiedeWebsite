@@ -2,8 +2,19 @@
 title: "Mention (Markennennung)"
 description: "Eine Mention ist die namentliche Erwähnung einer Marke oder Person im Netz. Sie dient als indirektes Vertrauenssignal für Suchmaschinen und KI-Modelle."
 date: "2026-03-10"
-image: "../../assets/images/glossar/local-seo-karte-de.png"
+image: "../../assets/images/blog/local-seo-karte-de.png"
 related_terms: ["citation", "entitaet", "e-e-a-t"]
+key_takeaways:
+  - "Implizite Links: Auch ohne klickbaren Hyperlink wertet Google eine Markennennung als Vertrauenssignal."
+  - "Reputations-Anker: Mentions bauen deine Autorität und dein E-E-A-T Profil im Web gezielt auf."
+  - "KI-Währung: In Trainingsdaten von LLMs sind konsistente Mentions der Schlüssel zum Zitiert-werden."
+faqs:
+  - question: "Zählen Mentions in Foren?"
+    answer: "Ja, sofern das Forum eine gewisse thematische Relevanz und Autorität besitzt."
+  - question: "Kann eine Mention negativ sein?"
+    answer: "Ja. Das Sentiment (Stimmung) des umgebenden Textes wird von Google analysiert."
+  - question: "Wie steigere ich meine Mentions?"
+    answer: "Durch PR, Community-Arbeit, Gastbeiträge und exzellente Inhalte, die geteilt werden."
 ---
 
 Eine Mention (oder Markennennung) beschreibt den Moment, in dem dein Markenname, dein Produkt oder dein Personenname im Internet auftaucht, ohne dass notwendigerweise ein Link zu deiner Website gesetzt wurde. 
@@ -40,14 +51,19 @@ Für Large Language Models (LLMs) sind Mentions die primäre Währung. Eine KI w
 
 Wenn du in tausenden Dokumenten als Experte erwähnt wirst, wird die Wahrscheinlichkeit extrem hoch, dass die KI deinen Namen als Empfehlung ausgibt, wenn ein Nutzer nach Hilfe fragt. Mentions bauen deinen "Vektor-Fußabdruck" im semantischen Raum auf. Wer nicht erwähnt wird, existiert für eine generative Engine schlicht nicht – egal wie gut die [On-Page SEO Basics](/blog/80-prozent-seo-fehler-sprechstunde/) der eigenen Seite sind.
 
-### Zusammenfassung
+### Fazit war gestern (Action-Plan)
 
 Mentions sind die leise, aber gewaltige Kraft hinter einer starken Marke. Sie signalisieren Suchmaschinen und KI-Agenten, dass du eine reale, vertrauenswürdige Autorität bist. Kämpfe nicht nur um harte Links, sondern kämpfe um Aufmerksamkeit und positive Erwähnungen. Werde Teil der Konversation im Netz, denn jede positive Nennung ist ein Baustein für deine langfristige Sichtbarkeit und deinen digitalen Expertenstatus.
 
+ALOHA ✌️
+
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Wird über dich gesprochen?</h3>
+  <p class="mb-6">Ich entwickle eine Strategie für dich, die deine Markennennungen im Netz organisch steigert und dein E-E-A-T Profil festigt. Lass uns deine Reputation zum Glänzen bringen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Reputation-Audit anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)
+* **Lese-Tipp:** [Die Zukunft: GEO](/glossar/geo/)

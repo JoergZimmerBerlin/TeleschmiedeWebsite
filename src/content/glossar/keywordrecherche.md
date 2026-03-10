@@ -2,8 +2,19 @@
 title: "Keywordrecherche"
 description: "Die Keywordrecherche ist das Fundament jeder SEO-Maßnahme. Erfahre, wie du die Begriffe findest, nach denen deine Kunden wirklich suchen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/keyword-intent-funnel-de.png"
+image: "../../assets/images/blog/keyword-intent-funnel-de.png"
 related_terms: ["keywoerter", "suchvolumen", "keyword-tool"]
+key_takeaways:
+  - "Marktforschung pur: Eine saubere Recherche ist die Basis für jede erfolgreiche SEO-Strategie."
+  - "Intent-Analyse: Nur wer versteht, was der Nutzer wirklich will, kann die passende Antwort liefern."
+  - "Lücken-Suche: Identifiziere Keywords, bei denen die Konkurrenz schwächelt (Opportunity-Scoring)."
+faqs:
+  - question: "Wie lange dauert eine professionelle Keywordrecherche?"
+    answer: "Je nach Umfang des Projekts zwischen 5 und 20 Stunden für ein tiefgreifendes Audit."
+  - question: "Was kostet eine Keywordrecherche?"
+    answer: "Als Teil meiner [SEO Beratung](/glossar/seo-beratung/) ist sie ein Kernmodul. Einzelpreise variieren je nach Komplexität."
+  - question: "Sollte ich Tools wie den Keyword Planner nutzen?"
+    answer: "Ja, aber als Ergänzung. Er zeigt oft nur Durchschnittswerte; Profi-Tools wie SE Ranking liefern präzisere Live-Daten."
 ---
 
 Keywordrecherche ist keine Fleißaufgabe.
@@ -57,18 +68,19 @@ Die Leute optimieren für Begriffe, die niemand sucht.
 Oder für Begriffe, die gar nicht zu ihrem Angebot passen.
 Spar nicht an diesem Schritt. Es ist die wichtigste Investition in deine digitale Strategie.
 
-### Zusammenfassung
+### Fazit war gestern (Der Kompass)
 
-Keywordrecherche ist der Kompass für deinen Erfolg.
-Lern die Sprache deiner Zielgruppe.
-Analysiere die harten Daten, aber vertrau auch auf den Kontext.
-Bau deine Inhalte auf echten Bedürfnissen auf.
-Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
+Keywordrecherche ist der Kompass für deinen Erfolg. Lern die Sprache deiner Zielgruppe. Analysiere die harten Daten, aber vertrau auch auf den Kontext. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
+
+ALOHA ✌️
 
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Investierst du in die falschen Themen?</h3>
+  <p class="mb-6">Ich erstelle für dich eine glasklare Keyword-Map, die zeigt, wo dein Potenzial wirklich liegt. Lass uns deine Strategie auf ein echtes Daten-Fundament stellen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)
+* **Lese-Tipp:** [Wie funktioniert ein Keyword Tool?](/glossar/keyword-tool/)

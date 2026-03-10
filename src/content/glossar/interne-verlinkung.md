@@ -2,8 +2,19 @@
 title: "Interne Verlinkung (On-Page Linking)"
 description: "Die interne Verlinkung steuert den Nutzerfluss und die Verteilung von Autorität (Linkjuice) auf deiner Website. Erfahre, wie du eine perfekte Struktur aufbaust."
 date: "2026-03-10"
-image: "../../assets/images/glossar/interne-verlinkung-netz-de.png"
+image: "../../assets/images/blog/interne-verlinkung-netz-de.png"
 related_terms: ["linkjuice", "crawling-vs-indexing"]
+key_takeaways:
+  - "Struktur-Master: Die interne Verlinkung definiert das Rückgrat deiner Website-Hierarchie."
+  - "Linkjuice-Steuerung: Gezielte Links leiten Autorität von starken Seiten auf deine Verkaufsseiten."
+  - "User-Experience: Gut gesetzte Links senken die Absprungrate und erhöhen die Verweildauer."
+faqs:
+  - question: "Wie viele interne Links sind zu viel?"
+    answer: "Es gibt kein hartes Limit, aber jeder Link entwertet die Kraft der anderen Links auf derselben Seite. Weniger ist oft mehr Fokus."
+  - question: "Sollten interne Links auf 'nofollow' stehen?"
+    answer: "Nein, niemals. Interne Links sollten immer 'dofollow' sein, um den Crawlern den Weg zu weisen."
+  - question: "Was ist ein Ankertext?"
+    answer: "Der klickbare Text eines Links. Er sollte das Keyword der Zielseite enthalten."
 ---
 
 Die interne Verlinkung beschreibt alle Hyperlinks auf einer Website, die von einer Unterseite zu einer anderen Unterseite derselben Domain führen. Im Gegensatz zu Backlinks (externe Links von fremden Seiten) hast du hier die absolute Kontrolle über 100% aller Parameter.
@@ -42,14 +53,19 @@ KI-Suchmaschinen wie Perplexity oder ChatGPT versuchen, Themen ganzheitlich zu b
 
 Durch eine dichte interne Vernetzung signalisierst du, dass du nicht nur einen einzigen Artikel zu einem Schlagwort hast, sondern ein ganzes Ökosystem an Wissen (Topical Authority). In KI-generierten Antworten wirst du eher als Primärquelle herangezogen, wenn die KI sieht, dass deine "Knowledge Node" (dein Wissensknotenpunkt) im Web durch viele interne Referenzen gestärkt wird. Wie man diese Sichtbarkeit in LLMs misst, erfährst du auch in meinem Beitrag zum [Rankscale AI Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/).
 
-### Zusammenfassung
+### Fazit war gestern (Action-Plan)
 
 Die interne Verlinkung ist die unterschätzte Superkraft im On-Page SEO. Sie kostet kein Geld, erfordert keine Zustimmung von Dritten und liefert sofortige Ergebnisse. Behandle deine Website wie eine gut sortierte Bibliothek: Sorge für klare Wegweiser, verlinke verwandte Themen eng miteinander und führe deine Leser (und die Bots) behutsam zu deinen wichtigsten Inhalten. Wer seine interne Linkkraft beherrscht, beherrscht seine Sichtbarkeit.
 
+ALOHA ✌️
+
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Hast du ein löchriges Link-Netz?</h3>
+  <p class="mb-6">Ich analysiere deine interne Verlinkung und zeige dir genau, wie wir deinen Linkjuice optimal verteilen. Lass uns deine Power maximieren.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)
+* **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

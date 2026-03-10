@@ -4,6 +4,17 @@ description: "Google Core Updates sind massive Änderungen am Suchalgorithmus. E
 date: "2026-03-10"
 image: "../../assets/images/blog/google-updates-timeline.png"
 related_terms: ["sichtbarkeitsindex", "e-e-a-t", "seo-audit"]
+key_takeaways:
+  - "Qualitäts-Zäsur: Core Updates bewerten die gesamte Relevanz und Vertrauenswürdigkeit einer Domain neu."
+  - "E-E-A-T Fokus: Google gewichtet Expertise und echte Erfahrung heute stärker als rein technische SEO-Tricks."
+  - "Keine Panik: Schwankungen während des Rollouts sind normal. Analyse erst nach Abschluss des Updates."
+faqs:
+  - question: "Wie oft gibt es Google Core Updates?"
+    answer: "In der Regel zwei- bis dreimal pro Jahr. Sie werden meist von Google auf X (Twitter) angekündigt."
+  - question: "Kann man sich von einem Absturz erholen?"
+    answer: "Ja, aber es erfordert oft Monate harter Arbeit an der Content-Qualität und technischem Fundament."
+  - question: "Gibt es eine Liste der Rankingfaktoren?"
+    answer: "Nein. Google bewertet hunderte Signale gleichzeitig, die bei Core Updates neu gewichtet werden."
 ---
 
 Ein Google Core Update ist das Erdbeben der SEO-Welt.
@@ -58,18 +69,19 @@ Google erkennt heute sehr gut, ob ein Text echtes Wissen enthält oder nur aus W
 Für die Sichtbarkeit in [Generative Engines](/glossar/geo/) ist ein überstandenes Core Update wie ein Gütesiegel.
 Wenn Google dir vertraut, vertrauen dir auch die LLMs.
 
-### Zusammenfassung
+### Fazit war gestern (Action-Plan)
 
-Hab keine Angst vor Core Updates.
-Sie sind eine Chance für alle, die wirklich gute Arbeit leisten.
-Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen.
-Bleib ruhig, bleib dran und denk immer an den Nutzer.
-Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
+Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
+
+ALOHA ✌️
 
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Ranking-Absturz nach einem Update?</h3>
+  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Lass uns deine Sichtbarkeit zurückerobern.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* **Lese-Tipp:** [Alles über E-E-A-T](/glossar/e-e-a-t/)

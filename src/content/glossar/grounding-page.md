@@ -51,17 +51,19 @@ Es gibt zu viel Text im Netz.
 KIs wollen nicht mehr Text. Sie wollen bessere Daten.
 Wer jetzt anfängt, seine wichtigsten Themen in Grounding Pages zu gießen, gewinnt den Kampf um die [KI-Sichtbarkeit](/blog/rankscale-ai-visibility-tracking-17-llms/).
 
-### Zusammenfassung
+### Fazit war gestern (Die Daten-Quelle)
 
-Die Grounding Page ist der Anker für deine Marke in der Welt der generativen Suche.
-Hör auf, für Google-Bots zu schreiben. Fang an, für KI-Wissen zu strukturieren.
-Sei die stabilste Quelle für dein Thema.
-Denn wer die Fakten liefert, kontrolliert die Antwort.
+Die Grounding Page ist der Anker für deine Marke in der Welt der generativen Suche. Hör auf, für Google-Bots zu schreiben. Fang an, für KI-Wissen zu strukturieren. Sei die stabilste Quelle für dein Thema. Denn wer die Fakten liefert, kontrolliert die Antwort.
+
+ALOHA ✌️
 
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Braucht deine KI-Sichtbarkeit ein Fundament?</h3>
+  <p class="mb-6">Ich erstelle für dich eine Grounding Page, die deine Marken-Fakten glasklar für ChatGPT und Co. aufbereitet. Lass uns deine Entität stärken.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* **Lese-Tipp:** [Die Bedeutung von LLMs.txt](/glossar/llms-txt/)

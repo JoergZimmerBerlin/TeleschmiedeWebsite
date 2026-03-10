@@ -2,8 +2,19 @@
 title: "Meta Description (Seitenbeschreibung)"
 description: "Die Meta Description ist der kurze Vorschautext in den Suchergebnissen. Sie ist kein direkter Rankingfaktor, aber entscheidend für eine hohe Klickrate (CTR)."
 date: "2026-03-10"
-image: "../../assets/images/glossar/serp-anatomie-de.png"
+image: "../../assets/images/blog/serp-anatomie-de.png"
 related_terms: ["title-tag", "noindex"]
+key_takeaways:
+  - "Klick-Magnet: Die Meta Description ist deine kostenlose Anzeige in den SERPs."
+  - "CTR-Hebel: Eine optimierte Beschreibung steigert die Klickrate massiv, was indirekt Rankings stärkt."
+  - "Keyword-Fettung: Google hebt gesuchte Begriffe in der Description hervor, was die Aufmerksamkeit lenkt."
+faqs:
+  - question: "Warum zeigt Google meine Meta Description nicht an?"
+    answer: "Google schreibt Snippets in über 70% der Fälle um, wenn der eigene Text nicht perfekt zum Such-Intent passt."
+  - question: "Wie lang darf eine Meta Description sein?"
+    answer: "Optimal sind 140 bis 155 Zeichen. Auf Mobilgeräten wird sie oft schon früher gekürzt."
+  - question: "Ist die Meta Description ein Rankingfaktor?"
+    answer: "Nein, kein direkter technischer Faktor, aber ein massiver Treiber für Nutzersignale (CTR)."
 ---
 
 Die Meta Description ist ein kurzes HTML-Attribut im Header (`<head>`) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](/glossar/title-tag/). 
@@ -51,14 +62,19 @@ Neben Google spielen Meta Descriptions eine große Rolle bei den sogenannten *Op
 
 Für KI-Agenten ([GEO](/glossar/geo/)) dient die Description oft als erste schnelle Inhalts-Einordnung beim Indexing-Vorgang. Sie hilft der Maschine, den Kontext deiner "Entität" im Web besser zu verorten.
 
-### Zusammenfassung
+### Fazit war gestern (Action-Plan)
 
 Die Meta Description ist dein kostenloser Werbeplatz in der wertvollsten Auslage der Welt: Der Google-Ergebnisseite. Wer auf diese 155 Zeichen verzichtet, verschenkt bares Geld und wertvolle Klicks. Schreibe sie aktiv, keyword-zentriert und mit einem echten emotionalen Mehrwert (USP) für deine Zielgruppe – dann steigerst du deine Sichtbarkeit auch ohne neue Backlinks spürbar.
 
+ALOHA ✌️
+
 ---
 
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Sehen deine Snippets langweilig aus?</h3>
+  <p class="mb-6">Ich analysiere deine Klickraten in der Search Console und schreibe Meta Descriptions, die Nutzer magisch anziehen. Lass uns deinen Traffic maximieren.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Snippet-Check anfragen →</a>
 </div>
+
+* **Lese-Tipp:** [Was macht ein gutes Title Tag aus?](/glossar/title-tag/)
+* **Lese-Tipp:** [Warum Noindex wichtig ist](/glossar/noindex/)

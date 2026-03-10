@@ -2,6 +2,7 @@
 title: "Linkjuice (Linkkraft)"
 description: "Linkjuice ist ein umgangssprachlicher SEO-Begriff für die Verteilung von Ranking-Power (PageRank), die durch interne und externe Verlinkungen weitergegeben wird."
 date: "2026-03-10"
+image: "../../assets/images/blog/core-web-vitals-pfeiler.png"
 related_terms: ["crawling-vs-indexing"]
 ---
 

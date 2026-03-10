@@ -78,7 +78,8 @@ const relatedTerms = allEntries.filter((e) =>
     "@type": "DefinedTerm",
     "name": entry.data.title,
     "description": entry.data.description,
-    "inDefinedTermSet": "https://teleschmie.de/glossar/"
+    "inDefinedTermSet": "https://teleschmie.de/glossar/",
+    ...(entry.data.image && { "image": `https://teleschmie.de${entry.data.image.src}` })
   })} />
 </Layout>
 

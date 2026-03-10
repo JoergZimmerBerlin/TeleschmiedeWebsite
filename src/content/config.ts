@@ -29,10 +29,11 @@ const blog = defineCollection({
 
 const glossar = defineCollection({
   type: 'content',
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
     date: z.string(),
+    image: image().optional(),
     related_terms: z.array(z.string()).optional(),
   }),
 });

@@ -2,6 +2,7 @@
 title: "Sichtbarkeitsindex (Visibility Index)"
 description: "Der Sichtbarkeitsindex ist eine von SEO-Tools berechnete Metrik, die den relativen Anteil einer Domain an den Klicks in den organischen Suchergebnissen abbildet."
 date: "2026-03-10"
+image: "../../assets/images/blog/sistrix-vs-seranking-light-de.png"
 related_terms: ["crawling-vs-indexing", "robots-txt"]
 ---
 

@@ -2,6 +2,7 @@
 title: "E-E-A-T (Google Quality Rater Guidelines)"
 description: "E-E-A-T steht für Experience, Expertise, Authoritativeness und Trustworthiness. Es ist das wichtigste Konzept Googles zur Bewertung der Qualität und Vertrauenswürdigkeit von Website-Inhalten."
 date: "2026-03-10"
+image: "../../assets/images/blog/seo-responsibility-chain.png"
 related_terms: ["geo", "crawling-vs-indexing"]
 ---
 

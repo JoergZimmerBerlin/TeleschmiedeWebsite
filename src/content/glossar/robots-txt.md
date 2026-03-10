@@ -2,6 +2,7 @@
 title: "Robots.txt"
 description: "Die robots.txt ist eine essenzielle Textdatei im Wurzelverzeichnis von Websites. Sie steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse zugreifen dürfen."
 date: "2026-03-10"
+image: "../../assets/images/blog/bot-evolution.png"
 related_terms: ["crawling-vs-indexing", "geo"]
 ---
 

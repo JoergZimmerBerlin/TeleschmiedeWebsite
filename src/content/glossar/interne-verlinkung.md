@@ -9,12 +9,12 @@ key_takeaways:
   - "Linkjuice-Steuerung: Gezielte Links leiten Autorität von starken Seiten auf deine Verkaufsseiten."
   - "User-Experience: Gut gesetzte Links senken die Absprungrate und erhöhen die Verweildauer."
 faqs:
-  - question: "Wie viele interne Links sind zu viel?"
-    answer: "Es gibt kein hartes Limit, aber jeder Link entwertet die Kraft der anderen Links auf derselben Seite. Weniger ist oft mehr Fokus."
-  - question: "Sollten interne Links auf 'nofollow' stehen?"
-    answer: "Nein, niemals. Interne Links sollten immer 'dofollow' sein, um den Crawlern den Weg zu weisen."
-  - question: "Was ist ein Ankertext?"
-    answer: "Der klickbare Text eines Links. Er sollte das Keyword der Zielseite enthalten."
+  - question: "Wie viele interne Links pro Seite sind im SEO zu viel?"
+    answer: "Technisch gesehen gibt es heute kein hartes Limit mehr (früher sprach man von maximal 100 Links pro URL). Aus strategischer Sicht gilt jedoch: Jeder gesetzte Link teilt den 'Linkjuice' der Seite auf. Wenn du 300 interne Links auf einer Startseite hast, bekommt das einzelne Ziel nur noch einen minimalen Bruchteil dieser Kraft. Fokussiere dich auf maximale Relevanz und verlinke im Textkörper nur die Seiten, die dem Nutzer echten thematischen Mehrwert bieten."
+  - question: "Sollten interne Links aus SEO-Gründen auf 'nofollow' stehen?"
+    answer: "Auf gar keinen Fall! Interne Links sollten ausnahmslos auf dem Standard (also 'dofollow') belassen werden. Ein internes 'nofollow' ist wie eine massive Straßensperre für den Googlebot – du sagst der Suchmaschine quasi aktiv: 'Folge diesem Link nicht und gib dieser eigenen Unterseite kein Vertrauen'. Eine absolute Ausnahme bilden höchstens Login-Seiten oder der Warenkorb, jedoch steuerst du diese besser global über ein sauberes Noindex in Kombination mit der robots.txt."
+  - question: "Was ist ein Ankertext und wofür brauche ich ihn?"
+    answer: "Der Ankertext (Anchor Text) ist der sichtbare, meist bläulich markierte und klickbare Text eines Hyperlinks. Bei der internen Verlinkung ist er dein stärkstes semantisches Steuerungsinstrument. Du solltest hier niemals nichtssagende Phrasen wie 'Hier klicken' verwenden, sondern immer das exakte Fokus-Keyword der Zielseite (z.B. 'zur SEO Beratung'). Google liest diesen Ankertext aus und versteht so sofort, für welches Thema die verlinkte Seite ranken soll."
 ---
 
 Die interne Verlinkung beschreibt alle Hyperlinks auf einer Website, die von einer Unterseite zu einer anderen Unterseite derselben Domain führen. Im Gegensatz zu Backlinks (externe Links von fremden Seiten) hast du hier die absolute Kontrolle über 100% aller Parameter.

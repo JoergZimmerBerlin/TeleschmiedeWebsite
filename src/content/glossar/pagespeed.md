@@ -9,12 +9,12 @@ key_takeaways:
   - "Mobile First: Google bewertet primär die Geschwindigkeit auf mobilen Endgeräten."
   - "Modernes Format: Nutze WebP/AVIF statt JPEG, um massive Byte-Einsparungen zu erzielen."
 faqs:
-  - question: "Was ist ein idealer PageSpeed-Score?"
-    answer: "Ein Score über 90 in Google PageSpeed Insights ist exzellent. Wichtiger sind jedoch die grünen Werte in den Core Web Vitals."
-  - question: "Warum ist meine Seite mobil langsamer als am Desktop?"
-    answer: "Mobile Geräte haben weniger Rechenleistung und oft langsamere Internetverbindungen (3G/4G), was Skripte und Bilder schwerer wiegen lässt."
-  - question: "Was ist der größte Bremsklotz für PageSpeed?"
-    answer: "Am häufigsten sind es nicht optimierte, zu große Bilder und zu viele externe JavaScript-Skripte (Tracking, Ads)."
+  - question: "Was ist ein wirklich idealer PageSpeed-Score?"
+    answer: "Ein Score von über 90 (im grünen Bereich) bei den Google PageSpeed Insights ist das angestrebte Optimum, aber lass dich von dieser isolierten Labor-Metrik nicht in den Wahnsinn treiben. Viel entscheidender für dein tatsächliches SEO-Ranking sind die realen Felddaten deiner Nutzer, gemessen in den sogenannten Core Web Vitals (wie LCP, INP und CLS). Ein optisch perfekter Score von 100 nützt dir absolut nichts, wenn die Seite auf dem echten 4G-Smartphone eines deiner Kunden erst nach zähen vier Sekunden reagiert."
+  - question: "Warum ist meine Seite mobil oft so viel langsamer als am Desktop?"
+    answer: "Dieses Phänomen sehen wir praktisch in jedem tiefgreifenden SEO-Audit. Smartphones haben im Vergleich zu starken Desktop-Computern drastisch weniger Rechenleistung, um komplexe Skripte (JavaScript) schnell zu verarbeiten. Zudem simulieren Googles PageSpeed-Tests für Mobile extrem realistische, oft relativ langsame 4G-Netze. Wenn du dann unkoordinierte Hero-Images oder völlig überladene Slider-Plugins in den Ladefluss schickst, bricht ein durchschnittliches mobiles Endgerät unter der Render-Last förmlich zusammen."
+  - question: "Was ist der mit Abstand größte Bremsklotz für Web-Performance?"
+    answer: "In meiner täglichen Praxis als Technical SEO gibt es meist zwei völlig klare Haupttäter auf der Anklagebank. Erstens: Gigantische, völlig unkomprimierte Bilderformate (statt modernem WebP oder AVIF). Zweitens: Massive Berge an render-blockierendem JavaScript. Sehr oft sind das nicht einmal die eigenen Code-Skripte, sondern Dutzende externe Tracking-Tools, fette Cookie-Banner, Chat-Widgets und Werbenetzwerke, die das schnelle Laden der eigentlichen Textinhalte für Sekunden komplett blockieren."
 ---
 
 Moin!

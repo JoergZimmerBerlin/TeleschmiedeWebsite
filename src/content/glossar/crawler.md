@@ -9,12 +9,12 @@ key_takeaways:
   - "Link-Navigation: Sie bewegen sich primär über Hyperlinks von Seite zu Seite."
   - "Crawl-Budget: Begrenzte Ressourcen bedeuten, dass du deine Seite strukturieren musst, um Prioritäten zu setzen."
 faqs:
-  - question: "Welche Crawler gibt es?"
-    answer: "Der bekannteste ist der Googlebot. Weitere sind Bingbot, Applebot und moderne KI-Bots wie GPTBot."
+  - question: "Welche Crawler sind neben dem Googlebot 2026 noch wichtig?"
+    answer: "Der Googlebot ist der König, aber er teilt sich das Spielfeld zunehmend mit anderen Playern. Der Bingbot ist extrem wichtig geworden, da Bing die Backend-Suchmaschine für viele KI-Dienste (wie Copilot) stellt. Dazu kommen branchenspezifische Bots wie der Applebot (für Siri und Spotlight) und natürlich die KI-Crawler wie GPTBot (OpenAI) oder ClaudeBot (Anthropic), die deine Inhalte für ihre Large Language Models crawlen."
   - question: "Wie oft besucht ein Crawler meine Seite?"
-    answer: "Das hängt von der Autorität deiner Seite und der Aktualisierungsrate ab. Beliebte News-Seiten werden sekündlich gecrawlt."
-  - question: "Kann man Crawler aussperren?"
-    answer: "Ja, über die robots.txt kannst du spezifischen Bots den Zugriff auf Verzeichnisse verbieten."
+    answer: "Das Crawl-Budget, also die Frequenz der Besuche, hängt direkt von der Autorität, der Aktualisierungsrate und der Serverkapazität deiner Website ab. Große News-Portale (wie Spiegel Online) werden sekündlich vom Googlebot besucht. Wenn du hingegen auf einem kleinen B2B-Blog nur einmal im Quartal etwas veröffentlichst, schaut der Crawler oft über Wochen nicht vorbei. Mit einer sauberen XML-Sitemap und Ping-Funktionen kannst du diesen Rhythmus aber positiv beeinflussen."
+  - question: "Kann man Crawler aktiv aussperren?"
+    answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich oder Warenkorb) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird."
 ---
 
 Moin!

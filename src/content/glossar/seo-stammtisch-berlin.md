@@ -9,12 +9,12 @@ key_takeaways:
   - "Kein Bullshit: Ehrlicher Austausch über Erfolge und (vor allem) Fails."
   - "Regelmäßigkeit: Monatliche Treffen für nachhaltigen Beziehungsaufbau."
 faqs:
-  - question: "Wer kann am SEO Stammtisch Berlin teilnehmen?"
-    answer: "Grundsätzlich jeder, der sich professionell mit SEO beschäftigt – vom Junior bis zum Senior, Inhouse oder Freelancer."
-  - question: "Kostet die Teilnahme am Stammtisch etwas?"
-    answer: "In der Regel ist die Teilnahme kostenlos, man zahlt lediglich seine eigenen Getränke und Speisen vor Ort."
-  - question: "Wie oft findet der Stammtisch statt?"
-    answer: "Meistens einmal im Monat, die Termine werden oft über LinkedIn kommuniziert."
+  - question: "Wer kann an einem SEO Stammtisch in Berlin eigentlich teilnehmen?"
+    answer: "Der Stammtisch ist ein extrem offenes Format und genau das macht ihn so authentisch. Hier sitzen gestandene Senior SEOs von internationalen Konzernen (wie Zalando) entspannt neben motivierten Freelancern und Agentur-Neulingen. Voraussetzung ist lediglich ein echtes professionelles Interesse an der Suchmaschinenoptimierung. Wer hingegen nur aufschlägt, um plumpe Vertriebspitches zu halten oder aggressive Agentur-Akquise zu betreiben, fliegt sozial sehr schnell aus der Kurve."
+  - question: "Was kostet die Teilnahme am SEO Stammtisch?"
+    answer: "Nichts. Und das ist ein ehernes, ungeschriebenes Gesetz der lokalen SEO-Community. Es gibt keine elitären Eintrittsgebühren, VIP-Tickets oder versteckte Speaker-Kosten. Der Stammtisch lebt davon, dass er niederschwellig und zugänglich bleibt. Du zahlst in der jeweiligen Location (Kneipe, Agentur-Büro) lediglich das, was du an dem Abend selbst isst oder trinkst – der gigantische Wissenstransfer ist absolut gratis."
+  - question: "Wo und wie oft finden diese Treffen statt?"
+    answer: "Der Rhythmus pegelt sich organisch meist auf ein entspanntes, monatliches Treffen ein. Die Locations variieren dabei durch die gesamte Hauptstadt. Die genauen Termine, Updates und spontanen Location-Wechsel laufen heute fast ausschließlich dezentral über LinkedIn, spezielle Xing-Gruppen oder Eventbrite. Ein heißer Tipp: Folge den bekannten Berliner SEO-Gesichtern auf LinkedIn, um rechtzeitig einen der sehr begehrten Plätze zu sichern."
 ---
 
 Moin!

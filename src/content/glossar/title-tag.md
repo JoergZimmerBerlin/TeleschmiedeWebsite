@@ -9,12 +9,12 @@ key_takeaways:
   - "Snippet-Werbung: Der Titel ist dein Versprechen an den Nutzer – er entscheidet über den Klick (CTR)."
   - "Platzierung zählt: Wichtige Keywords müssen so weit wie möglich vorne im Titel stehen."
 faqs:
-  - question: "Wie lang sollte ein Title Tag sein?"
-    answer: "Optimal sind ca. 55 bis 60 Zeichen (max. 580 Pixel), um in den Suchergebnissen nicht abgeschnitten zu werden."
-  - question: "Warum ändert Google meinen Titel?"
-    answer: "Google schreibt den Titel um, wenn er zu lang ist, Keyword-Stuffing enthält oder nicht zum Such-Intent passt."
-  - question: "Kann ich Emojis im Title Tag nutzen?"
-    answer: "Ja, sie können die CTR steigern, werden aber nicht von Google für jedes Keyword oder in jeder Nische ausgespielt."
+  - question: "Wie lang sollte ein Title Tag im SEO maximal sein?"
+    answer: "Die absolute Obergrenze liegt nicht bei einer festen Zeichenanzahl, sondern bei exakt 580 Pixeln Breite auf Desktop-Bildschirmen (das entspricht meist 55 bis 60 Zeichen). Wenn dein Title Tag länger ist, kappt Google ihn gnadenlos mit drei Punkten (...), was extrem unprofessionell aussieht und die Klickrate messbar senkt. Ich nutze in meinen Projekten immer spezielle SERP-Preview-Tools wie Sistrix, um diese exakte Pixelbreite vor dem Live-Gang visuell zu überprüfen."
+  - question: "Warum ändert Google meinen mühevoll geschriebenen Titel in den Ergebnissen?"
+    answer: "Das passiert leider sehr häufig (bei über 60% aller Ergebnisse). Google überschreibt deinen Title Tag oft dann dynamisch, wenn er die Suchintention des Nutzers nicht perfekt trifft, exzessives Keyword-Stuffing betreibt oder schlicht viel zu lang ist. In solchen Fällen zieht Google als 'Ersatz' meist H1-Überschriften oder andere relevante Textfragmente der Seite heran. Ein knallharter, präziser und conversion-optimierter Title Tag verhindert diese Einmischung des Algorithmus."
+  - question: "Kann ich Emojis im Title Tag nutzen, um aufzufallen?"
+    answer: "Definitiv ja! Emojis sind ein genialer Eye-Catcher in den sonst oft tristen Google-Suchergebnissen und können deine Klickrate (CTR) massiv durch die Decke jagen. Allerdings gibt es auch hier keine Garantie: Google entscheidet dynamisch für jede Suchanfrage, ob das Emoji zum Suchkontext passt und eine seriöse Relevanz hat. In stark professionellen B2B-Nischen filtert Google bunte Emojis im Title Tag oft kommentarlos heraus."
 ---
 
 Das Title Tag (oft fälschlicherweise als "Meta Title" bezeichnet) ist ein HTML-Element im Kopfbereich (`<head>`) einer Website. Es bestimmt den Text, der in den Registerkarten des Webbrowsers, in der Lesezeichen-Liste und – am wichtigsten – als die große, blaue, anklickbare Überschrift in den Suchmaschinenergebnissen (SERPs) erscheint.

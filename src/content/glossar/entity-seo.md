@@ -9,12 +9,12 @@ key_takeaways:
   - "Semantische Dichte: Nutze verwandte Fachbegriffe (Entitäten), um deine Expertise zu untermauern."
   - "Wissensgraph-Futter: Strukturiere deine Daten, damit Google deine Marke als eindeutige Entität erkennt."
 faqs:
-  - question: "Was ist eine Entität im SEO?"
-    answer: "Eine Entität ist ein eindeutiges, abgrenzbares Ding oder Konzept – eine Person, ein Ort, ein Gegenstand oder eine Idee."
-  - question: "Wie optimiere ich für Entitäten?"
-    answer: "Indem du Themen ganzheitlich behandelst, strukturierte Daten (Schema.org) nutzt und starke interne Verlinkungen aufbaust."
-  - question: "Ist Keyword-Recherche noch wichtig?"
-    answer: "Ja, aber sie ist nur der Anfang. Entity SEO geht einen Schritt weiter und fragt nach dem Kontext hinter dem Suchwort."
+  - question: "Was genau ist eine Entität im modernen SEO?"
+    answer: "Eine Entität ist weit mehr als nur ein Keyword – es ist ein eindeutiges, maschinenlesbares Konzept. Das kann eine reale Person (wie du als Berater), ein Unternehmen, ein Ort oder auch eine abstrakte Idee (wie 'Suchmaschinenoptimierung') sein. Google und Large Language Models nutzen diese Entitäten, um das Internet nicht mehr nur als flache Textwüste zu scannen, sondern als ein gewaltiges Netzwerk aus echten und logisch miteinander verknüpften Dingen (Knowledge Graph) zu begreifen."
+  - question: "Wie optimiere ich als Unternehmen für Entitäten?"
+    answer: "Der Hebel liegt in der Semantik und der maschinenlesbaren Datenstruktur. Du musst dein Kernthema extrem ganzheitlich und tiefgreifend behandeln, um sogenannte Topical Authority aufzubauen. Technisch zwingend erforderlich ist die Auszeichnung deiner wichtigsten Seiten mit strukturierten Daten (Schema.org) im JSON-LD-Format. Flankiert von einer starken Inhalts-Architektur zwingst du die KI-Systeme quasi dazu, deine Website als den ultimativen 'Knotenpunkt' für diese spezifische Entität zu akzeptieren."
+  - question: "Ist die klassische Keyword-Recherche im Entity SEO noch wichtig?"
+    answer: "Ein absolut klares Ja. Die klassische Keyword-Recherche ist keineswegs tot, sondern sie fungiert heute als Einstiegstor in die Denkweise deiner potenziellen Nutzer. Wer allerdings nach der simplen Keyword-Identifikation aufhört und isolierte Texte schreibt, verliert das Spiel. Professionelles Entity SEO nutzt ein Keyword nur als groben Startpunkt, um ein gigantisches semantisches Themennetz aufzuspannen, das den gesamten Kontext und alle verborgenen Fragen der Kunden restlos abdeckt."
 ---
 
 Moin!

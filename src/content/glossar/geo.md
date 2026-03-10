@@ -8,12 +8,12 @@ key_takeaways:
   - "Semantische Autorität: Vertrauen und E-E-A-T sind wichtiger als klassische Keyword-Dichte."
   - "RAG-Exzellenz: Inhalte müssen so aufbereitet sein, dass KI-Systeme sie leicht extrahieren und verknüpfen können."
 faqs:
-  - question: "Was ist der größte Unterschied zwischen SEO und GEO?"
-    answer: "SEO optimiert für Algorithmen, die Links sortieren. GEO optimiert für Modelle, die Informationen synthetisieren."
-  - question: "Kann man GEO-Sichtbarkeit messen?"
-    answer: "Ja, durch KI-Tracking (wie Rankscale), das misst, wie oft eine Marke in KI-Gesprächen als Quelle genannt wird."
-  - question: "Helfen Backlinks bei GEO?"
-    answer: "Ja, indirekt als Trust-Signal, aber die inhaltliche Tiefe und Semantik sind mittlerweile gewichtiger."
+  - question: "Was ist der gravierendste Unterschied zwischen klassischem SEO und GEO?"
+    answer: "Klassisches SEO optimiert primär für Algorithmen, die Webseiten nach Links und Keyword-Relevanz bewerten und sortenrein auflisten (die '10 blauen Links'). GEO hingegen optimiert für komplexe Large Language Models (LLMs), die Milliarden von Trainingstexten synthetisieren, um dem Nutzer sofort eine fundierte, natürliche Antwort zu generieren. Im GEO bist du nicht mehr nur die URL, die gerankt wird, sondern du musst zwingend die 'Entität' werden, die von der KI als unumstößliche Tatsache zitiert wird."
+  - question: "Lässt sich GEO-Sichtbarkeit überhaupt schon verlässlich messen?"
+    answer: "Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie Rankscale, das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt."
+  - question: "Sind Backlinks auch für Generative Engine Optimization noch relevant?"
+    answer: "Sie haben weiterhin Relevanz, allerdings fungieren sie heute viel indirekter – nämlich als klares Trust-Signal (Reputation) an das KI-System. Moderne LLMs werten beim Web-Crawling primär die Textsemantik und sogenannte Brand Mentions (Erwähnungen deines Namens, auch ohne gesetzten Link) in autoritätsstarken Umfeldern aus. Ein rein auf Masse gebautes Backlink-Profil verliert in der GEO-Logik drastisch an Hebelwirkung."
 ---
 
 Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die darauf abzielen, die Sichtbarkeit und Autorität von Marken, Personen oder Produkten speziell in KI-basierten Antworten und Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews systematisch zu erhöhen. 

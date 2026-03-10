@@ -10,11 +10,11 @@ key_takeaways:
   - "Natürliches Profil: Ein Mix aus verschiedenen Quellen ist überlebenswichtig für langfristige Rankings."
 faqs:
   - question: "Was ist Linkbuilding?"
-    answer: "Der gezielte Aufbau von Backlinks von anderen Websites auf deine eigene, um deine Autorität (Domain Rating) zu steigern."
-  - question: "Warum ist die interne Verlinkung so wichtig?"
-    answer: "Sie hilft Crawlern, deine Seitenstruktur zu verstehen und verteilt die Kraft deiner stärksten Seiten auf den Rest der Website."
-  - question: "Sollte ich Links kaufen?"
-    answer: "Vorsicht. Gekaufte Links verstoßen gegen Google-Richtlinien. Fokus sollte immer auf wertvollem Content liegen, der natürlich verlinkt wird."
+    answer: "Linkbuilding ist die Königsdisziplin der Offpage-SEO. Es beschreibt den strategischen Aufbau von Backlinks (Rückverweisen) von externen, thematisch relevanten Websites auf deine eigene Domain. Jeder hochwertige Link fungiert dabei als digitales 'Vertrauensvotum' und signalisiert Google, dass dein Content Autorität besitzt. Ein starkes Backlinkprofil ist oft genau das Zünglein an der Waage, wenn es darum geht, in hart umkämpften Nischen (wie Finanzen oder SEO) auf Platz 1 zu klettern."
+  - question: "Warum ist die interne Verlinkung so wichtig für SEO?"
+    answer: "Im Gegensatz zu externen Backlinks hast du bei der internen Verlinkung 100% Kontrolle. Sie ist das Navigationssystem für Crawling-Bots und verteilt den wertvollen 'Linkjuice' strategisch von deinen stärksten Ratgebern auf deine wichtigsten Verkaufsseiten (Money Pages). Eine exzellente interne Verlinkungsstruktur (Siloing) ist die absolute Basis-Arbeit – wenn du das vermasselst, verpufft selbst das teuerste externe Linkbuilding."
+  - question: "Sollte ich Backlinks für meine Website kaufen?"
+    answer: "Das ist ein toxisches Minenfeld. Gekaufte Massenlinks aus zweifelhaften Netzwerken verstoßen nicht nur massiv gegen die Google Webmaster Richtlinien, sondern führen oft zu harten manuellen Strafen (Penalties) und dem Rauswurf aus dem Index. Der Profi-Fokus sollte heute immer auf digitalen PR-Strategien liegen: Erschaffe herausragenden Content, Daten-Studien oder Tools (sogenannte Linkable Assets), die so einen extremen Mehrwert bieten, dass starke Medien völlig organisch darauf verlinken."
 ---
 
 Moin!

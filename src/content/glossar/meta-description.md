@@ -9,12 +9,12 @@ key_takeaways:
   - "CTR-Hebel: Eine optimierte Beschreibung steigert die Klickrate massiv, was indirekt Rankings stärkt."
   - "Keyword-Fettung: Google hebt gesuchte Begriffe in der Description hervor, was die Aufmerksamkeit lenkt."
 faqs:
-  - question: "Warum zeigt Google meine Meta Description nicht an?"
-    answer: "Google schreibt Snippets in über 70% der Fälle um, wenn der eigene Text nicht perfekt zum Such-Intent passt."
-  - question: "Wie lang darf eine Meta Description sein?"
-    answer: "Optimal sind 140 bis 155 Zeichen. Auf Mobilgeräten wird sie oft schon früher gekürzt."
-  - question: "Ist die Meta Description ein Rankingfaktor?"
-    answer: "Nein, kein direkter technischer Faktor, aber ein massiver Treiber für Nutzersignale (CTR)."
+  - question: "Warum zeigt Google meine mühevoll geschriebene Meta Description oft nicht an?"
+    answer: "Das ist für viele Webmaster extrem frustrierend, aber völlig normaler Alltag im Web: Google schreibt die Snippets in über 70% aller Live-Suchanfragen dynamisch einfach selbst um. Der Algorithmus ignoriert deine penibel geschriebene Meta Description praktisch immer dann, wenn sie nicht perfekt auf den exakten Such-Intent des aktuellen Nutzers zugeschnitten ist. Stattdessen zieht sich die KI dann eigenmächtig extrem relevante Textpassagen (wie eine fettdruckte Liste) direkt aus deinem Content, um dem User eine scheinbar passendere Vorschau zu bieten."
+  - question: "Wie lang darf eine wirklich optimale Meta Description heute sein?"
+    answer: "Das ideale Zeitfenster (und Pixel-Limit) für die klassische Desktop-Suche liegt bei etwa 140 bis 155 sicheren Zeichen. Wenn du allerdings ein extrem junges, rein mobiles Publikum adressierst (etwa im B2C-Shop-Bereich), solltest du dein Verkaufsversprechen zwingend in den ersten 120 Zeichen unterbringen. Alles, was danach in der Textzeile kommt, kappt Google auf dem engen Smartphone-Display gnadenlos mit drei Punkten ab. Dein Pitch muss sitzen und im allerersten Satz überzeugen."
+  - question: "Ist die Meta Description ein direkter Google Rankingfaktor?"
+    answer: "Ich kann es nicht oft genug betonen: Google hat bereits vor Jahren offiziell und final bestätigt, dass der Inhalt der Meta Description selbst mit exakt 0% in die Ranking-Berechnung einfließt. Und dennoch ist sie ein gigantischer Hebel im SEO! Eine extrem überzeugende, psychologisch knackige Description treibt die Klickrate (Click-Through-Rate) in den SERPs massiv nach oben. Diese starken Nutzersignale sind für Google ein deutlicher Wach-Ruf, dass deine Seite irre relevant für den Suchbegriff ist."
 ---
 
 Die Meta Description ist ein kurzes HTML-Attribut im Header (`<head>`) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](/glossar/title-tag/). 

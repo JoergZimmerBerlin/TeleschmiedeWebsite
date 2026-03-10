@@ -9,12 +9,12 @@ key_takeaways:
   - "E-E-A-T Fokus: Google gewichtet Expertise und echte Erfahrung heute stärker als rein technische SEO-Tricks."
   - "Keine Panik: Schwankungen während des Rollouts sind normal. Analyse erst nach Abschluss des Updates."
 faqs:
-  - question: "Wie oft gibt es Google Core Updates?"
-    answer: "In der Regel zwei- bis dreimal pro Jahr. Sie werden meist von Google auf X (Twitter) angekündigt."
-  - question: "Kann man sich von einem Absturz erholen?"
-    answer: "Ja, aber es erfordert oft Monate harter Arbeit an der Content-Qualität und technischem Fundament."
-  - question: "Gibt es eine Liste der Rankingfaktoren?"
-    answer: "Nein. Google bewertet hunderte Signale gleichzeitig, die bei Core Updates neu gewichtet werden."
+  - question: "Wie oft rollt Google ein neues Core Update aus?"
+    answer: "In der Regel erleben wir zwei bis vier große Core Updates pro Jahr. Google kündigt diese meist offiziell über ihren Search Central Account auf X (Twitter) oder LinkedIn an. Der Rollout selbst dauert dann oft zwei bis vier Wochen, in denen die Rankings extrem stark schwanken können. In dieser Zeit gilt für alle meine Kunden: Ruhe bewahren, keine Panik-Änderungen an der Website vornehmen, sondern abwarten, bis sich der Staub gelegt hat."
+  - question: "Kann man sich von einem Absturz nach einem Core Update erholen?"
+    answer: "Ja, aber es ist ein Marathon, kein Sprint. Ein Core Update bestraft selten einen einzelnen technischen Fehler, sondern bewertet die Gesamtqualität deiner Seite auf Basis der E-E-A-T Kriterien neu. Wenn du massiv Traffic verlierst, musst du oft Monate hart arbeiten: Content aufräumen (Content Pruning), Expertise beweisen und die Informationsarchitektur schärfen. Oft siehst du erst beim nächsten oder übernächsten Core Update eine Recovery."
+  - question: "Gibt es eine offizielle Liste der Rankingfaktoren, die geändert wurden?"
+    answer: "Nein, Google kommuniziert nie exakt, an welchen Schrauben gedreht wurde. Das liegt daran, dass der Kernalgorithmus hunderte Signale (und zunehmend massive KI-Modelle) nutzt, um Suchintentionen und Content-Qualität abzugleichen. Statt nach 'dem einen Fehler' zu suchen, analysiere ich nach einem Update die Gewinner in deiner Nische: Was machen die besser? Meist geht es um überlegene Struktur, tiefere Expertise oder schnellere Antworten auf komplexe Nutzerfragen."
 ---
 
 Ein Google Core Update ist das Erdbeben der SEO-Welt.

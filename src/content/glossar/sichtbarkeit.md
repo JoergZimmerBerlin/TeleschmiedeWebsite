@@ -9,12 +9,12 @@ key_takeaways:
   - "Qualified Visibility: Nicht jeder Klick zählt – Sichtbarkeit muss auf kaufbereite Nutzer zielen."
   - "KI-Einfluss: In Zeiten von GEO bedeutet Sichtbarkeit vor allem, von KIs zitiert zu werden."
 faqs:
-  - question: "Warum sinkt meine Sichtbarkeit in Tools, aber der Traffic steigt?"
-    answer: "Das kann passieren, wenn du Rankings für unwichtige Begriffe verlierst, aber für deine Haupt-Keywords gewinnst."
-  - question: "Wie steigere ich meine Sichtbarkeit schnell?"
-    answer: "Durch technische Fehlerbehebung (Security, PageSpeed) und die Optimierung von Title-Tags für höhere Klickraten."
-  - question: "Ist Sichtbarkeit ein direkter Rankingfaktor?"
-    answer: "Nein, aber sie ist das Resultat gelungener SEO-Arbeit und ein Indikator für deine Markenautorität."
+  - question: "Warum sinkt meine Sichtbarkeit in Tools wie Sistrix, aber mein Traffic steigt?"
+    answer: "Das ist der Klassiker in fast jeder SEO-Sprechstunde. Deine KPIs in den Tools sinken, wenn du Rankings für generische Keywords (z.B. 'Urlaub') verlierst, die zwar abertausende Suchanfragen haben, bei dir aber nie geklickt wurden. Im gleichen Zeitraum hast du vielleicht für extrem spitze Money-Keywords ('Mietwagen Mallorca stornierbar') gewonnen, die massiv qualifizierten Traffic für dich generieren. Der Traffic ist immer die wichtigere Metrik."
+  - question: "Wie steigere ich meine SEO Sichtbarkeit am schnellsten?"
+    answer: "Die absolute Low-Hanging-Fruit ist fast immer die technische Onpage-Optimierung und Snippet-Arbeit. Wenn dein Content bereits auf Seite 2 der Suchergebnisse rankt, reicht oft eine Optimierung des Title-Tags, das Beheben von Indexierungsproblemen oder eine verbesserte interne Verlinkung, um den Sprung auf Seite 1 zu schaffen. Für langfristige Sichtbarkeit führt aber kein Weg an exzellentem, E-E-A-T-konformen Content vorbei, der Fragen besser beantwortet als die Konkurrenz."
+  - question: "Ist 'Sichtbarkeit' als Kennzahl ein direkter Rankingfaktor?"
+    answer: "Nein, Sichtbarkeit ist kein Hebel, den du direkt umlegen kannst, sondern das Resultat all deiner organischen Marketing-Maßnahmen. Google interessiert sich nicht dafür, welchen Index-Wert ein externes Tool für dich berechnet. Wenn aber eine Seite extrem präsent ist (hohe Sichtbarkeit), generiert sie meist auch mehr Branded Search Traffic und natürliche Backlinks. Diese Folgeerscheinungen sind es, die Google sehr wohl als massive Ranking-Signale wertet."
 ---
 
 Sichtbarkeit ist das Ziel jeder SEO-Strategie.

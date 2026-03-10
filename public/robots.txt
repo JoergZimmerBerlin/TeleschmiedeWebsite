@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://teleschmie.de/sitemap-index.xml
+Sitemap: https://teleschmie.de/sitemap.xml

@@ -30,6 +30,8 @@ Hier treffe ich nicht nur andere SEO-Nerds, sondern die Leute, für die wir das 
 
 ## Warum "fachfremdes" Netzwerken Gold wert ist
 
+![Atmosphäre bei der Überstunde Berlin](../../assets/images/glossar/ueberstunde_atmosphere.png)
+
 Wer nur in der eigenen SEO-Blase bleibt, verpasst oft den Blick für das große Ganze. Bei der Überstunde lerne ich, welche Probleme Geschäftsführer *wirklich* haben. Meistens ist das nicht "fehlendes Schema-Markup", sondern schlichtweg "zu wenig qualifizierte Leads für das Sales-Team".
 
 Dieses Verständnis hilft mir, meine Arbeit als [SEO-Experte](/seo-freelancer-berlin/) nicht nur technisch perfekt, sondern unternehmerisch wertvoll zu machen. 
@@ -40,6 +42,8 @@ Dieses Verständnis hilft mir, meine Arbeit als [SEO-Experte](/seo-freelancer-be
 *   **Echtes Feedback:** Wenn ich einem Nicht-SEO erkläre, was ich tue, merke ich sofort, ob meine Sprache zu kompliziert ist.
 
 ## Meine Präsenz in Berlin
+
+![Jörg Zimmer auf dem Überstunde Berlin Afterwork Event](../../assets/images/glossar/ueberstunde_joerg.png)
 
 Ich bin fest davon überzeugt: Die digitale Welt braucht ein analoges Fundament. Gerade in Zeiten von KI-Schwemme und anonymen Dienstleistungen ist das persönliche Treffen unersetzbar. Wenn ich bei der Überstunde stehe, bin ich Jörg Zimmer – nicht irgendein Name in einem [SEO-Audit](/glossar/seo-audit/).
 

@@ -14,7 +14,7 @@ Da Google seit Jahren dem "Mobile First"-Paradigma folgt, sind die Core Web Vita
 Google misst Hunderte von Signalen, doch aktuell definieren drei zentrale Metriken die "Core" Experience. Diese werden kontinuierlich evaluiert und von Zeit zu Zeit von Google angepasst (wie z. B. der kürzliche Wechsel von FID zu INP).
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">🏆 Die CWV Schwellenwerte im Überblick</h3>
+  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Die CWV Schwellenwerte im Überblick</h3>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
     <div class="p-4 bg-white rounded-lg border-b-4 border-green-500 shadow-sm">
       <div class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">LCP (Ladezeit)</div>
@@ -68,5 +68,5 @@ Diese echten Daten werden anonym von Milliarden Chrome-Browsern gesammelt und he
 
 Um CWVs langfristig im Auge zu behalten und mit dem Wettbewerb zu vergleichen, empfehle ich den professionellen Einsatz starker Tool-Suiten. Mehr zu den Tooling-Möglichkeiten und den Marktführern findest du in meinem Deep-Dive Vergleich: [Sichtbarkeitsindex – Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/).
 
-## Fazit zu den Performance Metriken
+## Zusammenfassung der Performance Metriken
 Core Web Vitals bringen ein Maß an Objektivität in eine ansonsten subjektive "Design"-Debatte. Es nützt der schönste Content und die ausgefeilteste [GEO](/glossar/geo) Architektur nichts, wenn der Besucher die Seite vor dem vollendeten Rendern (wegen einem extrem schlechten LCP) genervt wieder verlässt (Bounce Rate). Technische Exzellenz durch grüne Core Web Vitals ist die notwendige Hausaufgabe jeder professionell betriebenen Website.

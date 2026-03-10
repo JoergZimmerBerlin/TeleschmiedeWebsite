@@ -19,7 +19,7 @@ Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains 
 ![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.png)
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">🧮 Die Mathematik hinter dem Fluss</h3>
+  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Die Mathematik hinter dem Fluss</h3>
   <div class="space-y-4">
     <div class="p-4 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm flex items-start gap-4">
       <div class="bg-lime-accent/20 p-2 rounded-full text-lime-800 font-bold shrink-0">1</div>
@@ -36,7 +36,7 @@ Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains 
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm flex items-start gap-4">
-      <div class="bg-lime-accent/20 p-2 rounded-full text-red-500 font-bold shrink-0">3</div>
+      <div class="bg-lime-accent/20 p-2 rounded-full text-lime-600 font-bold shrink-0">3</div>
       <div>
         <strong class="block text-dark mb-1">Der Nofollow-Mythos (PageRank Sculpting)</strong>
         <p class="text-sm text-gray-500 mb-0">Früher konnte man Links auf <code>rel="nofollow"</code> setzen, um den Linkjuice künstlich auf andere Links "umzuleiten". Google hat diesen Trick (PageRank Sculpting) längst unterbunden. Ein Nofollow-Link "verbrennt" heute den für ihn vorgesehenen Anteil der Kraft einfach, anstatt ihn umzuverteilen.</p>
@@ -73,6 +73,6 @@ KIs wie LLMs nutzen bei der Beantwortung komplexer Fragen keine PageRank-Berechn
 
 Das bedeutet: Zukünftig wird es immer weniger wichtig sein, *woher* der harte HTML-Link kommt (PageRank), sondern *wer* über dich in welchem Kontext berichtet (Entitäten-Autorität). Ein reiner Text-Mention ohne Link in einem bekannten Fachmagazin kann für KI-Agenten bald wertvoller sein, als ein harter Backlink aus einem anonymen Artikel-Verzeichnis. Wer sich nicht rechtzeitig darauf einstellt, begeht einen der klassischen [80% SEO-Fehler der Zukunft](/blog/80-prozent-seo-fehler-sprechstunde/).
 
-### Fazit: Linkjuice ist Steuerung
+### Zusammenfassung: Linkjuice ist Steuerung
 
 Verstehe Linkjuice nicht als absolute mathematische Wahrheit (Google nutzt den Begriff ohnehin intern nicht), sondern als eine fantastische Metapher zur Steuerung deiner Website. Mit jeder internen Verlinkung sagst du Google: *"Dieser Artikel ist mir wichtiger als jener"*. Wer Herr über seinen internen Linkjuice wird, braucht oftmals nicht einen einzigen externen Link teuer zu akquirieren, um signifikante Rankingsprünge zu feiern.

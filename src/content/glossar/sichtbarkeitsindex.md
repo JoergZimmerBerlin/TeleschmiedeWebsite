@@ -56,7 +56,7 @@ Wenn Google bei einer Suchanfrage keinen blauen Link, sondern primär einen fett
 
 Wer sich an die Spitze setzt, nutzt moderne Tracking-Möglichkeiten, die genau diese Cites und AI-Antworten mit auslesen und protokollieren. Umfassende Berichte dazu findet ihr auf meinem Blog – wie wichtig dieses Umdenken ist, zeigen gerade die teils katastrophalen [Fehler in meinen täglichen Sprechstunden](/blog/80-prozent-seo-fehler-sprechstunde/).
 
-### Fazit
+### Zusammenfassung
 
 Der Sichtbarkeitsindex ist nicht dein KPI (Key Performance Indicator) für den Unternehmensgewinn, aber er ist der mit Abstand beste Frühindikator für die Gesundheit deiner SEO-Strategie. Steile Abstürze deuten auf technische Defekte, Hacks oder Abstrafungen hin. Stetiges Wachstum zeigt, dass dein Content und dein Backlinkaufbau ([Linkjuice](/glossar/linkjuice/)) vom Algorithmus positiv belohnt wird. Ein erfahrener SEO bettet diesen Index immer sauber in die Analyse von Konversionsraten und hartem Analytics-Traffic ein.
 

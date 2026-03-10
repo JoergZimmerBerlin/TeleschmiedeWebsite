@@ -14,7 +14,7 @@ Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von W
 
 ---
 
-## 🕷️ Phase 1: Das Crawling (Das Entdecken & Lesen)
+## Phase 1: Das Crawling (Das Entdecken & Lesen)
 
 Das Crawling ist rein methodisch gesehen ein automatisierter Download-Prozess. 
 
@@ -37,7 +37,7 @@ Der einzige Mechanismus, der das Crawling einer URL aktiv **vorab** verbieten ka
 
 ---
 
-## 🗃️ Phase 2: Das Indexing (Das Einordnen & Bewerten)
+## Phase 2: Das Indexing (Das Einordnen & Bewerten)
 
 Hat der Bot die Seite gecrawlt (Phase 1 abgehakt), reicht er das rohe Datenpaket an den Indexierungs-Algorithmus weiter. Das Indexing ist der intellektuelle, ressourcenfressende Prozess von Google (oder KI-Maschinen).
 

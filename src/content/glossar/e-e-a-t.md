@@ -17,7 +17,7 @@ Wie ich bereits in meinem Artikel über die Gefahr von [AI-SEO Praktikanten](/bl
 Google bewertet Inhalte fließend auf Basis dieser vier Säulen. Sie sind keine harten Rankingfaktoren im Sinne von "Ich setze ein H1-Tag und gewinne 10 Punkte", sondern eher ein heuristisches Modell, nach dem der Google-Algorithmus maschinelles Lernen (Pattern Recognition) ausrichtet, um die besten Ergebnisse für den Nutzer zu filtern.
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-6 text-center">🧠 Die 4 Säulen des E-E-A-T</h3>
+  <h3 class="text-xl font-bold text-dark mt-0 mb-6 text-center">Die 4 Säulen des E-E-A-T</h3>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="p-5 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm">
       <h4 class="font-bold text-dark mb-2 mt-0">E - Experience (Erfahrung)</h4>
@@ -71,7 +71,7 @@ Nehmen wir an, du betreibst einen Shop für Laufschuhe.
 *   **Schlecht:** Ein SEO-Text "Die besten Laufschuhe 2026", geschrieben von einer AI, voller Stockfotos mit generischen Amazon-Links.
 *   **Perfekt (E-E-A-T optimiert):** Ein Testbericht, für den der tatsächliche Shop-Inhaber (dessen Kurzbiografie und LinkedIn-Link unten in der Autorenbox steht) die Schuhe selbst 100km im Regen gejoggt ist. Er bindet ein kurzes, wackliges Video von seinem Lauf ein (Experience), erklärt als diplomierter Sportwissenschaftler die Pronationsstütze am Schuh (Expertise) und verlinkt im Text zu einer Podologie-Studie über Kniegelenke (Authoritativeness/Trust). 
 
-### Fazit
+### Zusammenfassung
 
 E-E-A-T lässt sich nicht vortäuschen. Es erfordert den harten Weg: Echten, tief recherchierten Inhalt von ausgewiesenen Spezialisten zu publizieren. In einer Welt, in der Content dank KI "nichts" mehr kostet in der Herstellung, wird die Reputation des Autors zur wichtigsten und teuersten Währung für Suchmaschinen.
 

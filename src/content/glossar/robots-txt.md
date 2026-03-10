@@ -17,7 +17,7 @@ Im Rahmen meiner täglichen Arbeit als [SEO Freelancer in Berlin](/seo-freelance
 Das Regelwerk, nach dem Bots diese Datei interpretieren, nennt sich *Robots Exclusion Protocol (REP)*. Es ist ein freiwilliger Standard! Bösartige Spambots, Hacker-Skripte oder schlecht programmierte Scraper ignorieren die Regeln der Datei einfach. Seriöse Suchmaschinen halten sich jedoch weitesgehend strikt an die Vorgaben.
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">⚙️ Die Anatomie einer robots.txt</h3>
+  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Die Anatomie einer robots.txt</h3>
   <div class="bg-[#1A1A1A] text-white p-6 rounded-xl font-mono text-sm leading-relaxed overflow-x-auto shadow-inner">
     <p class="mb-2"><span class="text-lime-400">User-agent:</span> *</p>
     <p class="mb-2"><span class="text-lime-400">Disallow:</span> /internes-backend/</p>

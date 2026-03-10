@@ -29,10 +29,10 @@ Typische Anwendungsfälle, bei denen du URLs unbedingt auf `noindex` setzen *mus
 4.  **Bilder-Tagging und irrelevante Paginierungen:** Hast du in deinem WordPress tausende Seiten generiert, die nur eine Liste von Stichworten (Tags) zeigen, aber keinen Content? Noindex ist dein Freund, um die Indexverstopfung aufzulösen.
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">💣 Der Relaunch-Tod: Die vergessene Sandbox</h3>
+  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Der Relaunch-Tod: Die vergessene Sandbox</h3>
   <p class="mb-4">Die häufigste Ursache für einen kompletten Ranking-Absturz: Eine Agentur baut deine neue Website auf einem Testserver (einer Staging-Area / Sandbox). Um zu verhindern, dass Google diese geheime Testumgebung vorab liest, hakt der Webentwickler im WordPress-Backend "Suchmaschinen davon abhalten, diese Website zu indexieren" an.</p>
-  <div class="p-4 bg-red-50 border-l-4 border-red-500 rounded-lg">
-    <strong class="text-red-800">Der Kardinalfehler:</strong> Beim Live-Gang der Seite an einem späten Freitagabend wird vergessen, dieses kleine Häkchen wieder zu entfernen. Der gesamte Live-Server funkt nun an Google ein hartes `noindex`. Binnen 7 Tagen löscht Google alle Top 1 Positionen unwiderruflich aus dem Netz. Der Schaden ist oft extrem massiv! 
+  <div class="p-4 bg-lime-accent/10 border-l-4 border-lime-600 rounded-lg">
+    <strong class="text-lime-800">Der Kardinalfehler:</strong> Beim Live-Gang der Seite an einem späten Freitagabend wird vergessen, dieses kleine Häkchen wieder zu entfernen. Der gesamte Live-Server funkt nun an Google ein hartes `noindex`. Binnen 7 Tagen löscht Google alle Top 1 Positionen unwiderruflich aus dem Netz. Der Schaden ist oft extrem massiv! 
   </div>
 </div>
 
@@ -52,7 +52,7 @@ Willst du etwas chirurgisch deindexieren, musst du Google immer physisch heranla
 Gibt eine Seite, die auf `noindex` steht, eigentlich noch Pagerank/Linkkraft weiter?
 Ja, tut sie. Oft kombiniert man das Tag als `<meta name="robots" content="noindex, follow">`. Google soll diese spezielle Seite ignorieren, aber all die nützlichen Links, die sich im Textkörper befinden, verfolgen und den dahinterliegenden [Linkjuice](/glossar/linkjuice/) an die Hauptartikel weitervererben. Wichtig: Seit einigen Jahren signalisiert Google, dass ein `noindex` bei Langzeit-Bestehen (oft > 12 Monate) langsam als ein weiches "nofollow" (Ignoranz jeglicher Links auf dieser Unterseite) interpretiert werden kann.
 
-### Fazit und Checkliste
+### Zusammenfassung und Checkliste
 
 Lerne das Thema Index-Steuerung zu beherrschen. Regelmäßige SEO-Audits, bei denen du mit Crawlern (z. B. ScreamingFrog der [SE Ranking Audits – siehe meinen Toolvergleich](/blog/sistrix-vs-se-ranking/)) prüfst, wie das Verhältnis aus indexierbaren und nicht-indexierbaren URLs ist, sind Gold wert. Eine saubere, technisch verschlankte Domain rankt exponentiell leichter als ein riesiger, unkontrollierter Wasserkopf aus tausenden unnützen Tags und Paginierungen.
 

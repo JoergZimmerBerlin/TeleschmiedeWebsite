@@ -74,4 +74,5 @@ ALOHA ✌️
 </div>
 
 * **Lese-Tipp:** [Warum WordPress SEO so mächtig ist](/glossar/wordpress-seo/)
-* **Lese-Tipp:** [Die Zukunft: GEO vs. SEO](/glossar/geo-vs-seo/)
+* **Lese-Tipp:** [Trailing Slashes: Das unterschätzte Problem](/glossar/trailing-slashes/)
+* **Lese-Tipp:** [Snippet Optimierung](/glossar/snippet-optimierung/)

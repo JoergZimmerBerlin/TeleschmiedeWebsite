@@ -85,3 +85,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [GEO vs. SEO: Die Unterschiede](/glossar/geo-vs-seo/)
 * **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)
+* **Lese-Tipp:** [AI SEO: Das große Bild](/glossar/ai-seo/)

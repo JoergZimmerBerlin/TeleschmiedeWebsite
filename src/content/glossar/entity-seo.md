@@ -78,5 +78,7 @@ ALOHA ✌️
 </div>
 
 * **Lese-Tipp:** [Was ist eine Entität?](/glossar/entitaet/)
-* **Lese-Tipp:** [E-E-A-T verstehen](/glossar/e-e-a-t/)
+* **Lese-Tipp:** [Entitäten-Building: So geht's](/glossar/entitaeten-building/)
+* **Lese-Tipp:** [Brand Mentions](/glossar/brand-mentions/)
+* **Lese-Tipp:** [Semantic SEO](/glossar/semantic-seo/)
 

@@ -68,4 +68,5 @@ ALOHA ✌️
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Was ist eine Sitemap?](/glossar/sitemap/)
+* **Lese-Tipp:** [Bing Webmaster Tools](/glossar/bing-webmastertools/)
+* **Lese-Tipp:** [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)

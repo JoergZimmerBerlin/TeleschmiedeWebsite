@@ -73,4 +73,5 @@ ALOHA ✌️
 </div>
 
 * **Lese-Tipp:** [SEO Agentur vs. SEO Freelancer](/glossar/seo-agentur/)
-* **Lese-Tipp:** [Warum technisches SEO die Basis ist](/glossar/technisches-seo/)
+* **Lese-Tipp:** [SEO Coaching: Selbst lernen](/glossar/seo-coaching/)
+* **Lese-Tipp:** [SEO Consulting: Strategieberatung](/glossar/seo-consulting/)

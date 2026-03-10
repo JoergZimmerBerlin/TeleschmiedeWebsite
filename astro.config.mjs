@@ -1,6 +1,7 @@
 // Re-triggering deployment: 2026-02-28 11:40
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
 
 // Automatische Erkennung: GitHub Pages vs Produktion
 // DEPLOY_TARGET=ionos wird in deploy.yml gesetzt, damit der IONOS-Build
@@ -14,7 +15,8 @@ export default defineConfig({
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
   integrations: [
-    tailwind()
+    tailwind(),
+    sitemap()
   ],
   redirects: {
     '/leistungen/sechstunde/': '/seo-sprechstunde/'

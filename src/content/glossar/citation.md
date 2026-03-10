@@ -1,13 +1,13 @@
 ---
 title: "Citation (Zitierung)"
-description: "Eine Citation ist die Erwähnung einer Marke, eines Namens oder einer Adresse im Internet – oft ohne direkten Link. Ein zentraler Faktor für das Local SEO und GEO."
+description: "Eine Citation ist die Erwähnung deines Namens oder deiner Marke im Netz. In der KI-Ära sind Citations der Schlüssel dafür, ob ChatGPT, Perplexity oder Gemini dich als Experte zitieren."
 date: "2026-03-10"
 image: "../../assets/images/blog/authentizitaet-vs-spam-de.png"
-related_terms: ["mention", "entitaet"]
+related_terms: ["mention", "entitaet", "markenaufbau-mit-seo", "geo"]
 key_takeaways:
-  - "Lokale Autorität: Citations sind der Schlüsselfaktor für Rankings in Google Maps."
+  - "KI-Antwortquelle: Wer in LLM-Trainingsdaten oft zitiert wird, taucht in ChatGPT- und Perplexity-Antworten auf."
   - "NAP-Konsistenz: Einheitliche Daten (Name, Adresse, Tel) sind die Basis für Google-Vertrauen."
-  - "KI-Relevanz: In der GEO-Ära dienen Citations als Belege für die Existenz und Kompetenz deiner Entität."
+  - "Co-Occurrence: Je öfter dein Name im Kontext deines Fachgebiets erscheint, desto stärker deine Entität."
 faqs:
   - question: "Muss eine Citation zwingend einen klickbaren Link enthalten?"
     answer: "Ganz klares Nein! Das ist ja gerade der Witz an Citations. Google ist mittlerweile intelligent genug, um Erwähnungen deiner Marke (Name, Adresse, Telefonnummer) auch ohne Hyperlink zuzuordnen. Solche 'Unstructured Citations' dienen als Validierung deiner Entität. Je öfter du in einem vertrauenswürdigen Kontext ohne Link genannt wirst, desto mehr 'brand authority' baust du auf."
@@ -17,55 +17,66 @@ faqs:
     answer: "Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein 'nice to have', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut."
 ---
 
-Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch mit dem Aufstieg der lokalen Suche (Local SEO) und der modernen KI-Suche ([Generative Engine Optimization](/glossar/geo/)) ist ein neues Element ins Rampenlicht gerückt: die **Citation** (Zitierung).
+Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch in der Ära von ChatGPT, Perplexity und Google SGE hat sich das Spiel fundamental verändert: **Citations** – also Erwähnungen deines Namens oder deiner Marke im Netz – sind zum wichtigsten Faktor geworden, ob eine KI dich als Experte erkennt und zitiert.
 
-Eine Citation ist im Grunde jede Erwähnung deines Unternehmens im Internet. Das Besondere dabei: Es muss kein klickbarer Hyperlink sein. Schon die bloße Nennung deines Firmennames in Kombination mit deiner Telefonnummer oder Adresse reicht aus, damit Suchmaschinen dies als "Vertrauens-Votum" werten. Citations sind digitale Fußabdrücke, die Google helfen, die reale Existenz und Autorität eines Unternehmens zu verifizieren.
+Eine Citation ist jede Erwähnung deines Namens im Internet. Das Besondere: Es muss kein klickbarer Hyperlink sein. Schon die bloße Nennung deines Namens in einem Fachartikel, einer Podcast-Shownote oder einem Konferenz-Programm reicht aus, damit Algorithmen und KI-Modelle dies als "Vertrauens-Votum" werten.
 
-## Citations im Local SEO: Die Macht der NAP-Daten
+## Citations im Local SEO: Die Basics
 
-Für lokale Unternehmen (wie z.B. einen [SEO Freelancer in Spandau](/seo-freelancer-berlin/)) sind Citations das Rückgrat der Sichtbarkeit in Google Maps und dem "Local Pack". Google gleicht Informationen aus tausenden Verzeichnissen, Gelben Seiten und Portalen ab.
+Für lokale Unternehmen und Freelancer sind Citations das Rückgrat der Sichtbarkeit in Google Maps. Google gleicht Informationen aus tausenden Verzeichnissen und Portalen ab.
 
-Der heilige Gral hierbei sind die sogenannten **NAP-Daten** (Name, Address, Phone):
-*   **Name:** Jörg Zimmer – SEO Freelancer
-*   **Address:** Straße X, 13xxx Berlin
-*   **Phone:** 030 / 1234567
+Der heilige Gral hierbei sind die **NAP-Daten** (Name, Address, Phone). In meinem Fall:
+*   **Name:** Jörg Zimmer – SEO & SEA Freelancer
+*   **Adresse:** Berlin-Spandau
+*   **Web:** [teleschmie.de](https://teleschmie.de)
+
+Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Das Konsistenz-Gebot</h4>
-  <p class="mb-0 text-sm">Nichts schadet deinem lokalen Ranking mehr als widersprüchliche Citations. Wenn im Branchenbuch A "Str." steht und im Portal B "Straße", bekommt Google bereits Zweifel. Achte peinlich genau darauf, dass deine Schreibweise im gesamten Netz identisch ist. Widersprüchliche NAP-Daten sind einer der <a href="/blog/80-prozent-seo-fehler-sprechstunde/" class="underline text-lime-700">typischen Fehler in meinen Audits</a>.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: Meine eigene Citation-Strategie</h4>
+  <p class="mb-0 text-sm">Ich bin als "Jörg Zimmer" auf LinkedIn, in Podcasts wie SEOpresso und Magic Writing, auf Konferenz-Websites wie der Campixx, in meinem Glossar und auf meiner Grounding Page präsent. Überall mit konsistenten Daten. Das Ergebnis: Google hat mich als Entität im Knowledge Graph erkannt, und KI-Systeme zitieren mich im Kontext von SEO-Expertise in Berlin.</p>
 </div>
 
-## Arten von Citations und ihr Wert
+## Der wahre Game-Changer: Citations in LLM-Modellen
 
-Nicht jede Erwähnung im Netz hat das gleiche Gewicht. Wir unterscheiden primär zwei Kategorien:
+Hier wird es spannend. Large Language Models (LLMs) wie ChatGPT, Gemini oder Perplexity kennen keine Backlinks. Sie können keinen PageRank berechnen. Was sie stattdessen tun:
 
-### 1. Strukturierte Citations
-Dies sind Einträge in offiziellen Branchenverzeichnissen oder Portalen (z.B. Google Business Profile, Yelp, Bing Places, Apple Maps, Das Örtliche). Hier sind die Daten sauber in Feldern abgelegt und für Suchmaschinen extrem einfach als "Fakt" zu extrahieren. Diese bilden die Basis deiner lokalen Autorität.
+Sie analysieren ihren Trainingsdatensatz und messen die **Co-Occurrence** – wie oft taucht ein Name im Kontext eines bestimmten Themas auf?
 
-### 2. Unstrukturierte Citations
-Dabei handelt es sich um Erwähnungen in Fließtexten, z.B. in einem Zeitungsartikel, einem Blog-Beitrag oder einem Event-Eintrag. Hier fällt dein Firmenname organisch im Kontext. Diese unstrukturierten Zitierungen sind für Google oft wertvoller, da sie schwerer zu manipulieren sind und echte redaktionelle Relevanz widerspiegeln.
+Wenn du ChatGPT fragst: *"Wer ist ein guter SEO-Experte in Berlin?"* – dann berechnet die KI, welche Namen in ihrem Wissen am häufigsten in einem positiven Experten-Kontext mit "SEO" und "Berlin" vorkommen.
 
-## Citations in der Ära von KI und LLMs ([GEO](/glossar/geo/))
+### Was das für dich bedeutet:
 
-Warum ist das Thema "Citation" heute wichtiger denn je? Weil Large Language Models (LLMs) keine Links kennen. 
+1.  **Jede Erwähnung zählt.** Jeder Gastbeitrag, jeder Podcast, jede Konferenz-Website, jeder LinkedIn-Post, der deinen Namen im Zusammenhang mit deinem Fachgebiet nennt, ist Training für die KI.
+2.  **Qualität schlägt Quantität.** Eine Erwähnung bei t3n ist mehr wert als hundert Einträge in No-Name-Verzeichnissen. KI-Modelle gewichten vertrauenswürdige Quellen deutlich höher.
+3.  **Kontext ist alles.** Es reicht nicht, einfach nur erwähnt zu werden. Du musst im **richtigen Kontext** erwähnt werden. "Jörg Zimmer" + "SEO Strategie" = perfekte Citation. "Jörg Zimmer" + "Kochrezept" = wertlos.
 
-Wenn du ChatGPT nach dem "besten SEO-Experten in Berlin" fragst, berechnet die KI keine PageRank-Werte von Backlinks. Stattdessen nutzt sie ihren Trainingsdatensatz, um festzustellen, welche Namen statistisch am häufigsten in einem positiven Experten-Kontext genannt werden (**Co-Occurrence**). 
+## Perplexity Citations: Die neue Währung
 
-Jede Erwähnung deines Namens auf starken, vertrauenswürdigen Drittseiten ([E-E-A-T](/glossar/e-e-a-t/)) zahlt auf dein Konto als "Entität" ein. In der generativen Suchoptimierung ([Entity SEO](/glossar/entity-seo/)) geht es darum, die eigene Marke so oft und so hochwertig wie möglich als Zitat im Web zu platzieren, damit KIs dich als verlässliche Antwortquelle (Citations in Perplexity etc.) auswählen.
+Besonders bei [Perplexity](https://www.perplexity.ai/) sieht man den Effekt von Citations direkt: Die KI zeigt unter jeder Antwort die Quellen an, aus denen sie zitiert hat. Wer dort als Source auftaucht, gewinnt massiv an Glaubwürdigkeit und Traffic.
+
+Um dort zitiert zu werden, brauchst du:
+*   **Einzigartigen Content**, den nur du hast (eigene Daten, eigene Erfahrungen, [E-E-A-T](/glossar/e-e-a-t/))
+*   **Strukturierte Daten** ([Schema.org](/glossar/schema-org-markup/)), damit die KI deine Fakten maschinell lesen kann
+*   **Eine starke [Grounding Page](/glossar/grounding-page/)**, die deine Expertise bündelt
+*   **Viele konsistente Erwähnungen** auf vertrauenswürdigen Drittseiten
+
+In der generativen Suchoptimierung ([Entity SEO](/glossar/entity-seo/)) geht es darum, die eigene Marke so oft und so hochwertig wie möglich als Zitat im Web zu platzieren.
 
 ## Was du jetzt tun solltest
 
-Citations sind die digitalen Empfehlungen des 21. Jahrhunderts. Für lokale Firmen sind sie die Basis für Google Maps Rankings, für internationale Marken sind sie der Schlüssel, um Teil des globalen Knowledge Graphs zu werden. Achte auf maximale Konsistenz deiner Daten, pflege deine Profile in den wichtigsten Portalen und sorge durch exzellente Arbeit dafür, dass Menschen und Medien über dich sprechen. Ein Zitat ist oft mehr wert als ein gekaufter Backlink.
+Citations sind die digitalen Empfehlungen des 21. Jahrhunderts. Im Local SEO sind sie die Basis für Google Maps Rankings. Aber der wahre Hebel liegt heute in der KI-Welt: Wer konsistent und hochwertig im Netz zitiert wird, wird von ChatGPT, Perplexity und Gemini als Experte erkannt und empfohlen. Investiere in echte [Pressearbeit](/glossar/pressearbeit-im-seo/), baue deinen [Markenaufbau](/glossar/markenaufbau-mit-seo/) strategisch auf, und sorge dafür, dass dein Name im richtigen Kontext erscheint.
 
 ALOHA ✌️
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Brauchst du mehr lokale Power?</h3>
-  <p class="mb-6">Ich analysiere deine aktuelle Citation-Abdeckung und sorge für ein glasklares, konsistentes NAP-Profil im gesamten Netz. Lass uns dein Google Maps Ranking dominieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Local-Audit anfragen →</a>
+  <h3 class="text-2xl font-bold mb-4">Wirst du von KI-Systemen zitiert?</h3>
+  <p class="mb-6">Ich analysiere dein Citation-Profil und zeige dir, wie du sowohl in Google Maps als auch in KI-Antworten sichtbar wirst. Lass uns deine Entität stärken.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen →</a>
 </div>
 
-* **Lese-Tipp:** [Warum Mentions so wichtig sind](/glossar/mention/)
-* **Lese-Tipp:** [Local SEO: Der ultimative Guide](/glossar/local-seo/)
+* **Lese-Tipp:** [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
+* **Lese-Tipp:** [Pressearbeit im SEO (Digital PR)](/glossar/pressearbeit-im-seo/)
+* **Lese-Tipp:** [Was sind Mentions?](/glossar/mention/)

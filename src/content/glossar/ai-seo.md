@@ -23,6 +23,11 @@ Moin!
 
 Wenn mich jemand fragt „Jörg, was machst du eigentlich genau?" – dann ist die präziseste Antwort: AI SEO. Ich optimiere die Sichtbarkeit meiner Kunden in Google **und** in KI-Antworten.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie. AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
+</div>
+
 ## Die vier Säulen des AI SEO
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">

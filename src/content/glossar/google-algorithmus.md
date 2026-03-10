@@ -23,6 +23,11 @@ Der **Google Algorithmus** ist das bestgehütete Geheimnis der digitalen Welt. K
 
 Was wir wissen: Der Algorithmus bewertet über 200 [Rankingfaktoren](/glossar/rankingfaktoren/), um aus Milliarden von Webseiten die zehn relevantesten für jede Suchanfrage auszuwählen. Und er wird jeden Tag besser darin.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (Magic Writing Podcast)</p>
+  <p class="italic text-dark mb-0">"Die Infrastruktur von Google, die Verzahnung mit Android, Chrome und Google Ads, ist so tief, dass man sie nicht mal eben in zwei Quartalen ersetzt. Google bleibt erst mal auf dem Thron. Unser Job ist es, die neuen Spielregeln auf diesem Thron zu lernen."</p>
+</div>
+
 ## Die Evolution des Algorithmus
 
 ### Das Fundament: PageRank

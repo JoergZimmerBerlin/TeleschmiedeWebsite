@@ -23,6 +23,11 @@ Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google S
 
 Wer die Search Console ignoriert, fliegt im SEO-Blindflug. Hier erfährst du nicht nur, wie viele Leute auf deine Links klicken, sondern auch, ob Google deine Seite überhaupt leiden kann.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"Prüfe deine Core Web Vitals in der Google Search Console. Probiere wenigstens, die 80/100 Punkte und die grünen Core Web Vitals zu erreichen."</p>
+</div>
+
 ---
 
 ## Die wichtigsten Funktionen der Search Console

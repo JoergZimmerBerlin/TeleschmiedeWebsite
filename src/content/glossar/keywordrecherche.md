@@ -23,6 +23,11 @@ Wer keine saubere Recherche macht, baut sein Haus auf Sand.
 Ganz egal, wie schick das Design ist.
 
 Das Ziel: Die Sprache deiner Kunden verstehen.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (Magic Writing Podcast)</p>
+  <p class="italic text-dark mb-0">"Viele SEOs starren stundenlang auf Excel-Listen mit Suchvolumen und Wettbewerbs-Scores. Aber sie vergessen dabei, wer diese Wörter eigentlich eintippt. Was ist der Schmerz hinter der Suche? Was ist das Ziel? Zielgruppenverständnis ist die am meisten unterschätzte Superkraft im SEO."</p>
+</div>
 Suchen sie nach "Lohnsteuerhilfe" oder nach "Steuern sparen Tipps"?
 Ein kleiner Unterschied im Wortlaut bedeutet oft einen gewaltigen Unterschied im [Suchvolumen](/glossar/suchvolumen/) und im [Umsatz](/glossar/money-keyword/).
 

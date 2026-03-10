@@ -24,6 +24,11 @@ Entstanden aus den internen *Search Quality Rater Guidelines* von Google, hat si
 
 Besonders in sensiblen Branchen – den sogenannten YMYL-Bereichen (Your Money or Your Life), wie Finanzen, Medizin oder Recht – entscheidet ein starkes E-E-A-T Profil radikal darüber, ob eine Website auf Platz 1 rankt oder völlig in der Bedeutungslosigkeit des Indexes verschwindet.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 "Experience" in der echten Welt (Aus dem Podcast)</p>
+  <p class="italic text-dark mb-0">"Ich bin kein Freund von glattgebügelten Hochglanz-Lebensläufen. Ich mag die Ecken, die Kanten und die echten Geschichten. Wer 2002 wusste, wie man Keywords im Quellcode versteckt, war der König. Heute würde man mich dafür jagen. Aber diese Zeit hat mich gelehrt: Bleib neugierig und vertrau nur den Daten, die du selbst gemessen hast."</p>
+</div>
+
 Wie ich bereits in meinem Artikel über die Gefahr von [AI-SEO Praktikanten](/blog/ai-seo-geo-praktikanten/) erläutert habe: Google und moderne KI-Antwortmaschinen belohnen echte, menschliche Erfahrung. 
 Eine künstliche Intelligenz kann Texte generieren, aber sie kann keine echte Expertise aufbauen oder Verantwortung für ihre Ratschläge übernehmen.
 

@@ -32,6 +32,11 @@ LLMs wie GPT-4, Gemini oder Claude lernen aus riesigen Textmengen des Internets.
 *   **Konsistenz:** Stimmen die Informationen über dich quellenübergreifend überein?
 *   **Aktualität:** Gibt es frische Erwähnungen oder nur uralte?
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Geheimtipp aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"PDF-Datenbanken als Secret Weapon: AI-Modelle lieben strukturierte Daten. Habt ihr Whitepapers? Ladet sie auf Plattformen wie Scribd hoch. Das ist Futter für die LLMs."</p>
+</div>
+
 ## Die LLMO-Strategie
 
 ### 1. Digitalen Fußabdruck maximieren

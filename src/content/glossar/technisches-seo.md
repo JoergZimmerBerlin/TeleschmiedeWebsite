@@ -21,6 +21,11 @@ Moin!
 
 Wenn wir über **SEO Optimierung** sprechen, meinen die meisten nur das "Einbauen von Keywords". Aber modernes, **professionelles SEO** ist ein komplexes Zusammenspiel aus drei Disziplinen, die perfekt aufeinander abgestimmt sein müssen. Wer eine dieser Säulen ignoriert, lässt bares Geld auf der Straße liegen.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"1 x mal im Jahr 'SEO TÜV' sollte Pflicht sein! Die Guidelines für sauberen Code, sauberes Spiel und saubere Webseiten werden leider auch dieses Jahr 1.000-fach ignoriert."</p>
+</div>
+
 ---
 
 ## 1. Technisches SEO: Das unsichtbare Fundament

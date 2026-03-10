@@ -46,6 +46,11 @@ Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es g
 Das ist genau der Spirit der Teleschmie.de: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe diese bodenständige Berliner Art in jedes meiner Projekte.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus der Praxis (SEOpresso Podcast)</p>
+  <p class="italic text-dark mb-0">"Niemand ist eine Insel. Auch nach 24 Jahren weiß ich, dass ich für Spezialthemen Experten aus meinem Netzwerk brauche. Echte Profis kennen ihre Grenzen. Genau hierfür sind diese Stammtische so unbezahlbar."</p>
+</div>
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dabei sein ist alles</h4>
   <p class="mb-0 text-sm">Wenn du in Berlin im Bereich SEO unterwegs bist, ist dieser Stammtisch Pflicht. Es ist der beste Weg, um aus dem 'Home-Office-Trott' auszubrechen und echte Impulse zu bekommen. Such auf LinkedIn nach den aktuellen Terminen oder schreib mir einfach.</p>
 </div>

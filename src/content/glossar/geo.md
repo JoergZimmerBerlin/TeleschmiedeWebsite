@@ -20,6 +20,11 @@ Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die d
 
 Mit dem Wandel von der Links-zu-Ergebnissen-Suche hin zur generativen Suche verändert sich die Dynamik der User Journey radikal. Ein tieferes Verständnis von GEO ist für moderne digitale Sichtbarkeit unabdingbar. Wie ich bereits in meinem Beitrag über die [AI-SEO-Praktikanten](/blog/ai-seo-geo-praktikanten/) erläutert habe, werden diese Systeme das klassische Rankingverhalten in vielen Branchen komplett transformieren.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"Bevor ihr Tausende Euros in 'Generative Engine Optimization' versenkt, habt ihr eure Hausaufgaben gemacht? Wenn deine Seite technisch eine Katastrophe ist [...] brauchst du dir über ChatGPT keine Gedanken machen."</p>
+</div>
+
 ## Was unterscheidet GEO von klassischem SEO?
 
 Während die klassische Suchmaschinenoptimierung stark auf traditionelle Rankingfaktoren wie Backlink-Profile (PageRank-Graph), exakte Keyword-Mappings, Seitenhierarchien und Core Web Vitals optimiert ist, funktionieren LLMs grundlegend anders. Sie bewerten keinen Graphen von Hyperlinks, sondern konstruieren Bedeutung in einem hochdimensionalen semantischen Vektorraum (Embeddings). 

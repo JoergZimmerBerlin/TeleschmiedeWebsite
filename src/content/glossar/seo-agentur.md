@@ -23,6 +23,11 @@ In der deutschen Hauptstadt ist der Wettbewerb hart. Wer hier bei Google unter d
 
 Egal ob du eine klassische **SEO Agentur**, eine kombinierte **SEO SEA Agentur** oder einen **SEO Experten Berlin** suchst: Am Ende geht es darum, wer dein Business wirklich nach vorne bringt.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus dem Podcast (SEOpresso Interview)</p>
+  <p class="italic text-dark mb-0">"Viele sehen beim Freelancing nur die Freiheit. Praktisch bedeutet es aber auch: Wenn ein Relaunch am Sonntagabend schiefgeht, bin ich die SEO-Feuerwehr. Warum ich mich gegen eine große Agentur entschieden habe? Der direkte Draht zum Kunden ist mir wichtiger als ein schickes Büro mit Tischtennisplatte."</p>
+</div>
+
 ---
 
 ## Agentur vs. Freelancer: Die Qual der Wahl

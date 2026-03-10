@@ -23,6 +23,11 @@ Jeder, der sich mit SEO beschäftigt, stellt irgendwann die Frage aller Fragen: 
 
 Die Antwort sind die **Rankingfaktoren** – über 200 Signale, die der [Google Algorithmus](/glossar/google-algorithmus/) in Millisekunden auswertet, um aus Milliarden von Seiten die zehn relevantesten auszuwählen.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Ein Blick zurück (SEOpresso Podcast mit Max Muhr)</p>
+  <p class="italic text-dark mb-0">"Es war die Ära, in der wir SEOs noch wie digitale Alchemisten in dunklen Kellern brodelten, um Google ein Schnippchen zu schlagen. Heute ist SEO ein hochgradig datengetriebenes und nutzerzentriertes Handwerk."</p>
+</div>
+
 ## Die wichtigsten Rankingfaktor-Kategorien
 
 ### 1. Content-Signale (Was du sagst)

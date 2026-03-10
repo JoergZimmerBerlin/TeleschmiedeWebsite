@@ -34,6 +34,11 @@ Wenn wir über PageSpeed sprechen, müssen wir drei unterschiedliche Phasen der 
 3.  **Interaktivität (INP):** Ab wann kann der Nutzer auf einen Button klicken, ohne dass die Seite "einfriert"? Hier geht es primär um das Reduzieren von schwerem JavaScript.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"Der moderne Internetnutzer hat die Aufmerksamkeitsspanne eines Goldfisches auf Espresso. Darum sind schnelle Ladezeiten wichtig. Wenn alles nichts hilft oder es zu komplex in der Umsetzung wird, empfehle ich Cloudflare Pro davorzuschalten. Das kostet zwar 20 Dollar im Monat, löst aber mit wenigen Klicks, was Programmierer in vielen Stunden bauen müssten."</p>
+</div>
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Der PageSpeed-Insights Mythos</h4>
   <p class="mb-0 text-sm">Ein Score von 100/100 bei Google PageSpeed Insights ist ein tolles Statussymbol, aber kein Garant für Rankings. Viel wichtiger ist, dass deine Seite im realen 'Chrome User Experience Report' (CrUX) grüne Werte zeigt. Die echten Nutzerdaten zählen mehr als das synthetische Labor-Ergebnis.</p>
 </div>

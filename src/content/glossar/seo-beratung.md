@@ -23,6 +23,11 @@ In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, *
 
 Als [SEO-Experte](/seo-freelancer-berlin/) weiß ich, dass viele Unternehmen Unmengen an Zeit und Geld in "SEO Optimierung" stecken, ohne jemals eine echte Strategie zu haben. Das ist wie ein Haus ohne Bauplan zu bauen. Man hat am Ende vielleicht viele Steine (Keywords), aber niemand will darin wohnen (kaufen).
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus dem Podcast (SEOpresso Interview)</p>
+  <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten, die ich an einem Dokument sitze. Er bezahlt für die 24 Jahre, die ich gebraucht habe, um dieses Dokument in 60 Minuten so präzise zu erstellen, dass es den Relaunch rettet."</p>
+</div>
+
 ---
 
 ## Die Säulen einer professionellen SEO Beratung

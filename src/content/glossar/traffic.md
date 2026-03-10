@@ -27,6 +27,11 @@ Klingt toll. Aber was machen die da?
 Gucken die nur? Oder kaufen die?
 Traffic ist kein Selbstzweck. Er ist nur der Anfang.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Tacheles aus der Praxis (SEOpresso Podcast)</p>
+  <p class="italic text-dark mb-0">"Die KI-Welt beschleunigt alles. Wir haben keine Zeit mehr für monatelange Strategiepapiere. Wir brauchen schnelle Entscheidungen, schnelle Hilfe und jemanden, der ans Telefon geht, wenn der Traffic-Vulkan ausbricht."</p>
+</div>
+
 ## Die Quellen deines Traffics
 
 Nicht jeder Besucher kommt über Google.

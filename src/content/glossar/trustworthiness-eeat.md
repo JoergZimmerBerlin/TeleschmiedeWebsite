@@ -25,6 +25,11 @@ Google sagt es selbst: *"Trust is the most important member of the E-E-A-T famil
 
 Du kannst die beste [Experience](/glossar/experience-eeat/), die tiefste [Expertise](/glossar/expertise-eeat/) und die höchste [Autorität](/glossar/authoritativeness-eeat/) haben – wenn dir niemand vertraut, ist alles andere nutzlos.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (Magic Writing Podcast)</p>
+  <p class="italic text-dark mb-0">"Die 'Hacks' von früher sind heute gefährlich. Was heute funktioniert, ist Tiefe. Ein Algorithmus erkennt heute, ob ein Text von einem Experten geschrieben wurde oder ob er nur aus Worthülsen besteht. Am Ende des Tages geht es um Vertrauen."</p>
+</div>
+
 ## Die drei Dimensionen von Trust
 
 ### 1. Technisches Vertrauen

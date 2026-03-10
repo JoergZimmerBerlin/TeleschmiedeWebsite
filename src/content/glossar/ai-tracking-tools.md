@@ -23,6 +23,11 @@ Moin!
 
 In der klassischen SEO-Welt misst du Rankings mit Sistrix oder SE Ranking. In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Klartext aus der Praxis (LinkedIn Insight)</p>
+  <p class="italic text-dark mb-0">"Messbarkeit in AI ist (noch) ein Albtraum. Klassische Klicks schrumpfen. Aber der eine Klick, der durchkam, der hat konvertiert!"</p>
+</div>
+
 ## Warum du AI Tracking brauchst
 
 Ohne Messung keine Optimierung. Du kannst die beste [LLMO](/glossar/llmo/) Strategie der Welt fahren – wenn du nicht misst, ob sie wirkt, optimierst du blind.

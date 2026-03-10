@@ -30,6 +30,9 @@ Wer hier hinfährt, will nicht nur Folien starren. Wer hier hinfährt, will den 
 
 ## Die Magie des Barcamp-Formats
 
+![Die Berliner SEO Szene auf der Campixx](../../assets/images/glossar/campixx-berlin.jpg)
+*Die Berliner SEO Szene vereint auf der Campixx.*
+
 Auf der Campixx gibt es keinen festen "Star-Sprecher-Plan", der von oben diktiert wird. Abends oder morgens wird abgestimmt: Wer hat welches Thema? Wer will was wissen? Das sorgt für eine extreme Relevanz und Aktualität, die starre Konferenzen nie erreichen können.
 
 Ich erinnere mich an Sessions, in denen wir stundenlang über kleinste Details von [strukturierten Daten](/glossar/strukturierte-daten/) oder die Auswirkungen von [Google Core Updates](/glossar/google-core-update/) auf Nischenseiten debattiert haben. Das ist Wissen, das du in keinem Webinar der Welt findest.

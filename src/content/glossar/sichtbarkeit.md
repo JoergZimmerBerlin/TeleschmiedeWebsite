@@ -56,7 +56,7 @@ Es bringt dir nichts, für "Was ist SEO" auf Platz 1 zu stehen, wenn du eigentli
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Sichtbarkeits-Falle</h4>
-  <p class="mb-0 text-sm">Wer nur auf High-Volume Keywords optimiert, hat oft eine hohe theoretische Sichtbarkeit in Tools, aber eine miserable [Conversion Rate](/glossar/conversion-rate/). Qualität vor Quantität. Immer. Sichtbarkeit muss konvertieren, sonst ist sie nur Dekoration.</p>
+  <p class="mb-0 text-sm">Wer nur auf High-Volume Keywords optimiert, hat oft eine hohe theoretische Sichtbarkeit in Tools, aber eine miserable <a href="/glossar/conversion-rate/" class="underline font-semibold text-lime-600 hover:text-lime-700">Conversion Rate</a>. Qualität vor Quantität. Immer. Sichtbarkeit muss konvertieren, sonst ist sie nur Dekoration.</p>
 </div>
 
 ## Messung: Der Sichtbarkeitsindex als Fieberkurve

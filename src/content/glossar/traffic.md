@@ -50,7 +50,7 @@ Schlechter Traffic verfälscht deine Daten und belastet deinen Server unnötig.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Traffic-Lüge</h4>
-  <p class="mb-0 text-sm">Vorsicht vor Bots! Ein plötzlicher Anstieg im Traffic ist oft kein Erfolg, sondern ein Angriff oder ein Crawler-Sturm. Check regelmäßig deine Google Search Console, um die [Crawler-Aktivität](/glossar/crawler/) zu prüfen.</p>
+  <p class="mb-0 text-sm">Vorsicht vor Bots! Ein plötzlicher Anstieg im Traffic ist oft kein Erfolg, sondern ein Angriff oder ein Crawler-Sturm. Check regelmäßig deine Google Search Console, um die <a href="/glossar/crawler/" class="underline font-semibold text-lime-600 hover:text-lime-700">Crawler-Aktivität</a> zu prüfen.</p>
 </div>
 
 ## Monitoring: Wie du deinen Traffic verstehst

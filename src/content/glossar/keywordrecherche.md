@@ -52,7 +52,7 @@ Einfach nur das Wort "Wanderschuhe" auf die Seite zu klatschen (Keyword-Stuffing
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Long-Tail Strategie</h4>
-  <p class="mb-0 text-sm">Versuch nicht, sofort gegen Giganten wie Amazon bei kurzen Keywords zu gewinnen. Die echte Musik spielt im Long-Tail. Spezifische Fragen ziehen genau die Nutzer an, die bereit für eine [Conversion](/glossar/conversion-rate/) sind.</p>
+  <p class="mb-0 text-sm">Versuch nicht, sofort gegen Giganten wie Amazon bei kurzen Keywords zu gewinnen. Die echte Musik spielt im Long-Tail. Spezifische Fragen ziehen genau die Nutzer an, die bereit für eine <a href="/glossar/conversion-rate/" class="underline font-semibold text-lime-600 hover:text-lime-700">Conversion</a> sind.</p>
 </div>
 
 ## Keywordrecherche in Zeiten von KI ([GEO](/glossar/geo/))

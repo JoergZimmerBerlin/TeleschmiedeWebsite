@@ -34,7 +34,7 @@ Damit Google eine Entität versteht, muss sie drei Kriterien erfüllen:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Disambiguierung (Eindeutigkeit)</h4>
-  <p class="mb-0 text-sm">Eines der größten Probleme für SEOs ist die Mehrdeutigkeit. Heißt dein Unternehmen wie ein gebräuchliches deutsches Wort (z.B. "Schildkröte GmbH"), musst du massiv daran arbeiten, deine Marke als eigenständige geschäftliche Entität von der biologischen Entität abzugrenzen. Hierbei helfen [Citations](/glossar/citation/) und semantisches Markup radikal.</p>
+  <p class="mb-0 text-sm">Eines der größten Probleme für SEOs ist die Mehrdeutigkeit. Heißt dein Unternehmen wie ein gebräuchliches deutsches Wort (z.B. "Schildkröte GmbH"), musst du massiv daran arbeiten, deine Marke als eigenständige geschäftliche Entität von der biologischen Entität abzugrenzen. Hierbei helfen <a href="/glossar/citation/" class="underline font-semibold text-lime-600 hover:text-lime-700">Citations</a> und semantisches Markup radikal.</p>
 </div>
 
 ## Wie man zur Entität für Google wird

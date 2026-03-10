@@ -40,7 +40,7 @@ Ich liefere dir den Hebel mit dem höchsten ROI.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Der größte Fehler im Audit</h4>
-  <p class="mb-0 text-sm">Die meisten fixieren sich auf kosmetischen Kleinkram. Sie optimieren das 124. Bild, während die gesamte [interne Verlinkung](/glossar/interne-verlinkung/) im Keller ist oder wichtige Seiten auf 'noindex' stehen. Fokus ist alles. Ein Audit muss die kritischen Bremsen lösen.</p>
+  <p class="mb-0 text-sm">Die meisten fixieren sich auf kosmetischen Kleinkram. Sie optimieren das 124. Bild, während die gesamte <a href="/glossar/interne-verlinkung/" class="underline font-semibold text-lime-600 hover:text-lime-700">interne Verlinkung</a> im Keller ist oder wichtige Seiten auf 'noindex' stehen. Fokus ist alles. Ein Audit muss die kritischen Bremsen lösen.</p>
 </div>
 
 ## Wann brauchst du zwingend einen Audit?

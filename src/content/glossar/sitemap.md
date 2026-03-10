@@ -46,7 +46,7 @@ Selbst wenn dein Link-Geflecht perfekt ist, hilft die Sitemap Google massiv:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Wichtiger Hinweis für Profis</h4>
-  <p class="mb-0 text-sm">Pack niemals URLs in die Sitemap, die auf [noindex](/glossar/noindex/) stehen oder per [robots.txt](/glossar/robots-txt/) gesperrt sind. Das verwirrt Google und verschwendet wertvolles Crawl-Budget.</p>
+  <p class="mb-0 text-sm">Pack niemals URLs in die Sitemap, die auf <a href="/glossar/noindex/" class="underline font-semibold text-lime-600 hover:text-lime-700">noindex</a> stehen oder per <a href="/glossar/robots-txt/" class="underline font-semibold text-lime-600 hover:text-lime-700">robots.txt</a> gesperrt sind. Das verwirrt Google und verschwendet wertvolles Crawl-Budget.</p>
 </div>
 
 ## Monitoring in der Search Console

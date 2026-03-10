@@ -52,7 +52,7 @@ Es gibt klare Signale, dass ein Keyword echtes Geld wert ist:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die größte Gefahr</h4>
-  <p class="mb-0 text-sm">Glaube nicht, dass du Money Keywords mal eben 'erledigen' kannst. Die Konkurrenz schläft nicht. Hier gewinnt nur, wer das meiste [Vertrauen (E-E-A-T)](/glossar/e-e-a-t/) aufbaut.</p>
+  <p class="mb-0 text-sm">Glaube nicht, dass du Money Keywords mal eben 'erledigen' kannst. Die Konkurrenz schläft nicht. Hier gewinnt nur, wer das meiste <a href="/glossar/e-e-a-t/" class="underline font-semibold text-lime-600 hover:text-lime-700">Vertrauen (E-E-A-T)</a> aufbaut.</p>
 </div>
 
 ## Optimierung für Money Keywords

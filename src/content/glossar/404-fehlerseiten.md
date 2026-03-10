@@ -56,7 +56,7 @@ Der Linkjuice wird übertragen, der Nutzer landet am Ziel.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Profi-Tipp: Die kreative 404-Seite</h4>
-  <p class="mb-0 text-sm">Manchmal lassen sich 404-Fehler nicht vermeiden (z.B. durch falsche Eingabe des Nutzers). Nutze dann eine hilfreiche 404-Seite. Biete eine Suchfunktion an oder verlinke deine besten Artikel. Mach aus einem Fehler eine Chance für die [Usability](/glossar/usability/).</p>
+  <p class="mb-0 text-sm">Manchmal lassen sich 404-Fehler nicht vermeiden (z.B. durch falsche Eingabe des Nutzers). Nutze dann eine hilfreiche 404-Seite. Biete eine Suchfunktion an oder verlinke deine besten Artikel. Mach aus einem Fehler eine Chance für die <a href="/glossar/usability/" class="underline font-semibold text-lime-600 hover:text-lime-700">Usability</a>.</p>
 </div>
 
 ## Monitoring: Fehler finden, bevor sie wehtun

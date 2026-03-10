@@ -47,7 +47,7 @@ Wenn du überall unterschiedliche Schreibweisen hast, verlierst du Vertrauen. Da
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dringender Hinweis: Rezensionen</h4>
-  <p class="mb-0 text-sm">Antworte auf jede einzelne Bewertung. Egal ob positiv oder negativ. Das signalisiert Google Aktivität und Kundennähe. Es ist einer der stärksten Signale für lokales [E-E-A-T](/glossar/e-e-a-t/).</p>
+  <p class="mb-0 text-sm">Antworte auf jede einzelne Bewertung. Egal ob positiv oder negativ. Das signalisiert Google Aktivität und Kundennähe. Es ist einer der stärksten Signale für lokales <a href="/glossar/e-e-a-t/" class="underline font-semibold text-lime-600 hover:text-lime-700">E-E-A-T</a>.</p>
 </div>
 
 ## Google Business Profile (GBP)

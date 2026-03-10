@@ -52,7 +52,7 @@ Und das schadet deiner [Sichtbarkeit](/glossar/sichtbarkeit/).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dringender Hinweis für Admins</h4>
-  <p class="mb-0 text-sm">Wusstest du, dass du Crawler auch aussperren kannst? Mit der [robots.txt](/glossar/robots-txt/) gibst du Anweisungen. Aber Vorsicht: Ein kleiner Fehler und deine gesamte Website verschwindet aus der Suche.</p>
+  <p class="mb-0 text-sm">Wusstest du, dass du Crawler auch aussperren kannst? Mit der <a href="/glossar/robots-txt/" class="underline font-semibold text-lime-600 hover:text-lime-700">robots.txt</a> gibst du Anweisungen. Aber Vorsicht: Ein kleiner Fehler und deine gesamte Website verschwindet aus der Suche.</p>
 </div>
 
 ## So machst du dich bei Crawlern beliebt

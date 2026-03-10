@@ -44,7 +44,7 @@ Es gibt zwei Arten, wie wir Sichtbarkeit messen:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dringender Hinweis für Webmaster</h4>
-  <p class="mb-0 text-sm">Ein sinkender Sichtbarkeitsindex ist oft das erste Warnsignal vor einem Google Core Update Absturz. Wenn du siehst, dass deine Kurve wegbricht, warte nicht. Analysiere sofort deine [Strukturierten Daten](/glossar/strukturierte-daten/) und deinen [Content (E-E-A-T)](/glossar/e-e-a-t/).</p>
+  <p class="mb-0 text-sm">Ein sinkender Sichtbarkeitsindex ist oft das erste Warnsignal vor einem Google Core Update Absturz. Wenn du siehst, dass deine Kurve wegbricht, warte nicht. Analysiere sofort deine <a href="/glossar/strukturierte-daten/" class="underline font-semibold text-lime-600 hover:text-lime-700">Strukturierten Daten</a> und deinen <a href="/glossar/e-e-a-t/" class="underline font-semibold text-lime-600 hover:text-lime-700">Content (E-E-A-T)</a>.</p>
 </div>
 
 ## Sichtbarkeitsindex vs. Traffic

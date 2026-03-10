@@ -36,19 +36,19 @@ Sie sind keine harten Rankingfaktoren im Sinne von "Ich setze ein H1-Tag und gew
   <h3 class="text-xl font-bold text-dark mt-0 mb-6 text-center">Die 4 Säulen des E-E-A-T</h3>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="p-5 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm">
-      <h4 class="font-bold text-dark mb-2 mt-0">E - Experience (Erfahrung)</h4>
+      <h4 class="font-bold text-dark mb-2 mt-0"><a href="/glossar/experience-eeat/" class="hover:text-lime-600">E - Experience (Erfahrung)</a></h4>
       <p class="text-sm text-gray-600 mb-0">Hat der Autor das Produkt wirklich genutzt? Google sucht First-Hand-Experience. Ein Reise-Blogpost mit eigenen Handyfotos schlägt oft den textgenerierten Artikel.</p>
     </div>
     <div class="p-5 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm">
-      <h4 class="font-bold text-dark mb-2 mt-0">E - Expertise (Fachwissen)</h4>
+      <h4 class="font-bold text-dark mb-2 mt-0"><a href="/glossar/expertise-eeat/" class="hover:text-lime-600">E - Expertise (Fachwissen)</a></h4>
       <p class="text-sm text-gray-600 mb-0">Verfügt der Ersteller über Fachwissen? Ein Artikel über Medizin sollte von einem Arzt stammen, nicht nur von einem Texter auf Fiverr.</p>
     </div>
     <div class="p-5 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm">
-      <h4 class="font-bold text-dark mb-2 mt-0">A - Authoritativeness (Autorität)</h4>
+      <h4 class="font-bold text-dark mb-2 mt-0"><a href="/glossar/authoritativeness-eeat/" class="hover:text-lime-600">A - Authoritativeness (Autorität)</a></h4>
       <p class="text-sm text-gray-600 mb-0">Wird der Autor im Netz als Experte wahrgenommen? Wird er von Fachzeitschriften zitiert? Das ist die Autorität auf Entitäten-Ebene.</p>
     </div>
     <div class="p-5 bg-white rounded-lg border-l-4 border-lime-500 shadow-sm">
-      <h4 class="font-bold text-dark mb-2 mt-0">T - Trustworthiness (Vertrauen)</h4>
+      <h4 class="font-bold text-dark mb-2 mt-0"><a href="/glossar/trustworthiness-eeat/" class="hover:text-lime-600">T - Trustworthiness (Vertrauen)</a></h4>
       <p class="text-sm text-gray-600 mb-0"><strong>Der wichtigste Faktor!</strong> Ist die Seite sicher? Gibt es ein Impressum? Sind die Quellenangaben transparent?</p>
     </div>
   </div>

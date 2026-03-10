@@ -189,56 +189,58 @@ const finalRelatedPosts = relatedPosts.length >= 3
       </button>
 
       <script>
-        // Reading Progress Bar & Back to Top Visibility
-        const updateScrollingUI = () => {
-          const content = document.getElementById('blog-content');
-          const backToTop = document.getElementById('back-to-top');
-          
-          if (!content || !backToTop) return;
+        document.addEventListener('astro:page-load', () => {
+          // Reading Progress Bar & Back to Top Visibility
+          const updateScrollingUI = () => {
+            const content = document.getElementById('blog-content');
+            const backToTop = document.getElementById('back-to-top');
+            
+            if (!content || !backToTop) return;
 
-          const scrollPos = window.scrollY;
+            const scrollPos = window.scrollY;
 
-          // Back to Top Visibility
-          if (scrollPos > 500) {
-            backToTop.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
-            backToTop.classList.add('opacity-100', 'translate-y-0');
-          } else {
-            backToTop.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
-            backToTop.classList.remove('opacity-100', 'translate-y-0');
-          }
-        };
-
-        // Back to Top Click
-        document.getElementById('back-to-top')?.addEventListener('click', () => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Copy Link Logic
-        const copyBtn = document.getElementById('copy-link');
-        const feedback = document.getElementById('copy-feedback');
-        
-        if (copyBtn && feedback) {
-          copyBtn.addEventListener('click', async () => {
-            const url = copyBtn.dataset.url;
-            try {
-              if (url) {
-                await navigator.clipboard.writeText(url);
-                feedback.classList.remove('opacity-0');
-                feedback.classList.add('opacity-100');
-                setTimeout(() => {
-                  feedback.classList.remove('opacity-100');
-                  feedback.classList.add('opacity-0');
-                }, 2000);
-              }
-            } catch (err) {
-              console.error('Failed to copy: ', err);
+            // Back to Top Visibility
+            if (scrollPos > 500) {
+              backToTop.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+              backToTop.classList.add('opacity-100', 'translate-y-0');
+            } else {
+              backToTop.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+              backToTop.classList.remove('opacity-100', 'translate-y-0');
             }
-          });
-        }
+          };
 
-        window.addEventListener('scroll', updateScrollingUI);
-        window.addEventListener('resize', updateScrollingUI);
-        updateScrollingUI();
+          // Back to Top Click
+          document.getElementById('back-to-top')?.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+
+          // Copy Link Logic
+          const copyBtn = document.getElementById('copy-link');
+          const feedback = document.getElementById('copy-feedback');
+          
+          if (copyBtn && feedback) {
+            copyBtn.addEventListener('click', async () => {
+              const url = copyBtn.dataset.url;
+              try {
+                if (url) {
+                  await navigator.clipboard.writeText(url);
+                  feedback.classList.remove('opacity-0');
+                  feedback.classList.add('opacity-100');
+                  setTimeout(() => {
+                    feedback.classList.remove('opacity-100');
+                    feedback.classList.add('opacity-0');
+                  }, 2000);
+                }
+              } catch (err) {
+                console.error('Failed to copy: ', err);
+              }
+            });
+          }
+
+          window.addEventListener('scroll', updateScrollingUI);
+          window.addEventListener('resize', updateScrollingUI);
+          updateScrollingUI();
+        });
       </script>
 
       <!-- Custom Blog Styles -->

@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
@@ -23,6 +24,7 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <ViewTransitions />
 
     <!-- Security -->
     <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -123,10 +125,11 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
         progressBar.style.width = `${progress}%`;
       };
 
-      window.addEventListener('scroll', updateProgress);
-      window.addEventListener('resize', updateProgress);
-      // Initialize
-      updateProgress();
+      document.addEventListener('astro:page-load', () => {
+        window.addEventListener('scroll', updateProgress);
+        window.addEventListener('resize', updateProgress);
+        updateProgress();
+      });
     </script>
   </body>
 </html>

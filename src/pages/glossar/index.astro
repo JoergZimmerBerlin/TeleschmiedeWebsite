@@ -1,0 +1,151 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const glossarEntries = await getCollection('glossar');
+const sortedEntries = glossarEntries.sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
+
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Layout
+  title="SEO Glossar | Fachbegriffe einfach erklärt | Jörg Zimmer"
+  description="Das ultimative SEO-Glossar: Von Core Web Vitals über GEO bis zu LLMs. Verständliche Erklärungen für modernes Suchmaschinenmarketing."
+>
+  <!-- Hero Section -->
+  <section class="section pt-12 pb-12 bg-white">
+    <div class="container-narrow">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <p class="subheadline mb-4">Wissen</p>
+        <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold leading-normal mb-6">
+          <span class="highlight">SEO Glossar</span>
+        </h1>
+        <p class="text-lg md:text-xl text-gray-muted">
+          Dein Nachschlagewerk für modernes Suchmaschinenmarketing, KI-Suche und technische Optimierung.
+        </p>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="blog-filter-wrapper mb-12">
+        <div class="search-bar-wrapper mb-2">
+          <div class="search-bar">
+            <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input 
+              type="text" 
+              id="glossar-search" 
+              placeholder="Begriff suchen (z.B. Core Web Vitals)..." 
+              class="search-input"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Entries Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="glossar-grid">
+        {sortedEntries.map((entry) => (
+          <a 
+            href={`${baseUrl}/glossar/${entry.slug}/`} 
+            class="glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300"
+            data-title={entry.data.title.toLowerCase()}
+            data-desc={entry.data.description.toLowerCase()}
+          >
+            <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
+              {entry.data.title}
+            </h2>
+            <p class="text-sm text-gray-muted line-clamp-3">
+              {entry.data.description}
+            </p>
+            <div class="mt-4 pt-4 border-t border-gray-50 text-xs font-bold text-dark inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+              Erklärung lesen
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <!-- No Results State -->
+      <div id="no-results" class="no-results hidden">
+        <p class="text-gray-muted mt-8 text-center">Keinen passenden Begriff gefunden.</p>
+      </div>
+
+    </div>
+  </section>
+</Layout>
+
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const searchInput = document.getElementById('glossar-search') as HTMLInputElement;
+    const cards = document.querySelectorAll('.glossar-card');
+    const noResults = document.getElementById('no-results');
+
+    searchInput?.addEventListener('input', (e) => {
+      const term = (e.target as HTMLInputElement).value.toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title') || '';
+        const desc = card.getAttribute('data-desc') || '';
+
+        if (title.includes(term) || desc.includes(term)) {
+          (card as HTMLElement).style.display = 'block';
+          visibleCount++;
+        } else {
+          (card as HTMLElement).style.display = 'none';
+        }
+      });
+
+      if (noResults) {
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      }
+    });
+  });
+</script>
+
+<style>
+  .blog-filter-wrapper {
+    background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+    border: 1px solid #e5e5e5;
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+  }
+  .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search-icon {
+    position: absolute;
+    left: 0.875rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #aaa;
+    pointer-events: none;
+    transition: color 0.2s;
+  }
+  .search-input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.75rem;
+    border-radius: 0.75rem;
+    border: 1.5px solid #e0e0e0;
+    background: #fff;
+    font-size: 0.95rem;
+    color: #333;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+  .search-input:focus {
+    border-color: #D4FF00;
+    box-shadow: 0 0 0 3px rgba(212, 255, 0, 0.2);
+  }
+</style>

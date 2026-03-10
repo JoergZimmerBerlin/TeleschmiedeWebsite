@@ -2,6 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
+import KeyTakeaways from '../../components/KeyTakeaways.astro';
+import FAQAccordion from '../../components/FAQAccordion.astro';
+
 export async function getStaticPaths() {
   const entries = await getCollection('glossar');
   return entries.map((entry) => ({
@@ -11,8 +14,12 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content, headings } = await entry.render();
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Reading Time Calculation
+const wordCount = entry.body.split(/\s+/).length;
+const readingTime = Math.ceil(wordCount / 200); // Avg 200 wpm
 
 // Fetch related terms
 const allEntries = await getCollection('glossar');
@@ -27,13 +34,24 @@ const relatedTerms = allEntries.filter((e) =>
 >
   <article class="section pt-8">
     <div class="container-narrow">
-      <div class="mb-8">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
+        <!-- Back Link -->
         <a href={`${baseUrl}/glossar/`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
           Zurück zum Glossar
         </a>
+
+        <!-- Reading Time -->
+        <div class="flex items-center gap-4 text-sm text-gray-muted">
+          <span class="flex items-center gap-1.5">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            {readingTime} Min. Lesezeit
+          </span>
+        </div>
       </div>
 
       <header class="mb-12">
@@ -43,62 +61,143 @@ const relatedTerms = allEntries.filter((e) =>
         </h1>
       </header>
 
-      <div class="blog-content prose prose-lg max-w-none leading-relaxed prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:my-12 prose-blockquote:rounded-r-lg" id="blog-content">
-        <Content />
-      </div>
+      <!-- Content Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <!-- Sidebar (Sticky on Desktop) -->
+        <aside class="lg:col-span-4 lg:sticky lg:top-24 space-y-8">
+          <!-- Table of Contents -->
+          {headings.length > 0 && (
+            <nav class="p-6 bg-gray-50 border border-gray-100 rounded-3xl">
+              <h2 class="text-lg font-bold mb-4 flex items-center gap-2 !mt-0 !mb-4 border-none !pb-0">
+                <svg class="w-5 h-5 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+                Inhalt
+              </h2>
+              <ul class="space-y-3">
+                {headings.filter(h => h.depth <= 3).map(heading => (
+                  <li class={`${heading.depth === 3 ? 'ml-4' : ''}`}>
+                    <a 
+                      href={`#${heading.slug}`} 
+                      class="text-sm text-gray-muted hover:text-lime-600 transition-colors flex items-start gap-2 group"
+                    >
+                      <span class="w-1 h-1 bg-gray-300 rounded-full mt-2 group-hover:bg-lime-500 transition-colors"></span>
+                      <span class="flex-1">{heading.text}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
 
-      {relatedTerms.length > 0 && (
-        <div class="mt-16 pt-8 border-t border-gray-100">
-          <h3 class="text-xl font-bold mb-4">Verwandte Begriffe</h3>
-          <div class="flex flex-wrap gap-3">
-            {relatedTerms.map((t) => (
-              <a 
-                href={`${baseUrl}/glossar/${t.slug}/`} 
-                class="px-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm font-medium hover:bg-lime-accent/20 hover:border-lime-500 hover:text-dark transition-all"
-              >
-                {t.data.title}
-              </a>
-            ))}
+          {relatedTerms.length > 0 && (
+            <div class="p-6 bg-gray-50 border border-gray-100 rounded-3xl">
+              <h3 class="text-lg font-bold mb-4">Verwandte Begriffe</h3>
+              <div class="flex flex-col gap-2">
+                {relatedTerms.map((t) => (
+                  <a 
+                    href={`${baseUrl}/glossar/${t.slug}/`} 
+                    class="text-sm text-gray-muted hover:text-lime-600 transition-colors"
+                  >
+                    {t.data.title}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </aside>
+
+        <!-- Main Content -->
+        <div class="lg:col-span-8">
+          <div class="blog-content prose prose-lg max-w-none leading-relaxed prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:my-12 prose-blockquote:rounded-r-lg" id="blog-content">
+            {entry.data.key_takeaways && <KeyTakeaways takeaways={entry.data.key_takeaways} />}
+            <Content />
+            {entry.data.faqs && <FAQAccordion faqs={entry.data.faqs} />}
+          </div>
+
+          <!-- CTA -->
+          <div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
+            <h3 class="text-2xl font-bold mb-4">Nichts mehr verpassen?</h3>
+            <p class="text-gray-muted mb-6">Folge mir auf LinkedIn für tägliche SEO-Nuggets und diskutiere mit über 5.000 anderen Experten.</p>
+            <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">LinkedIn-Profil besuchen →</a>
           </div>
         </div>
-      )}
-
-      <!-- CTA -->
-      <div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-        <h3 class="text-2xl font-bold mb-4">Nichts mehr verpassen?</h3>
-        <p class="text-gray-muted mb-6">Folge mir auf LinkedIn für tägliche SEO-Nuggets und diskutiere mit über 5.000 anderen Experten.</p>
-        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">LinkedIn-Profil besuchen →</a>
       </div>
+
+      <!-- Back to Top Button -->
+      <button 
+        id="back-to-top" 
+        class="fixed bottom-8 right-8 w-12 h-12 bg-white border border-gray-100 text-dark rounded-full shadow-lg flex items-center justify-center opacity-0 translate-y-4 pointer-events-none transition-all duration-300 hover:bg-lime-accent hover:border-lime-accent group z-40"
+        aria-label="Nach oben scrollen"
+      >
+        <svg class="w-6 h-6 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+      </button>
+
+      <script>
+        document.addEventListener('astro:page-load', () => {
+          const updateScrollingUI = () => {
+            const backToTop = document.getElementById('back-to-top');
+            if (!backToTop) return;
+
+            if (window.scrollY > 500) {
+              backToTop.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+              backToTop.classList.add('opacity-100', 'translate-y-0');
+            } else {
+              backToTop.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+              backToTop.classList.remove('opacity-100', 'translate-y-0');
+            }
+          };
+
+          document.getElementById('back-to-top')?.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+
+          window.addEventListener('scroll', updateScrollingUI);
+          updateScrollingUI();
+        });
+      </script>
     </div>
   </article>
 
   <!-- Schema.org Definition -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
+    "@type": ["DefinedTerm", entry.data.faqs ? "FAQPage" : null].filter(Boolean),
     "name": entry.data.title,
     "description": entry.data.description,
     "inDefinedTermSet": "https://teleschmie.de/glossar/",
-    ...(entry.data.image && { "image": `https://teleschmie.de${entry.data.image.src}` })
+    ...(entry.data.image && { "image": `https://teleschmie.de${entry.data.image.src}` }),
+    ...(entry.data.faqs ? {
+      "mainEntity": entry.data.faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    } : {})
   })} />
 </Layout>
 
 <style is:global>
   .blog-content h2 {
-    @apply text-2xl md:text-3xl font-bold mt-16 mb-6 border-b border-gray-100 pb-4 !important;
+    @apply text-2xl md:text-3xl font-bold mt-20 mb-8 border-b border-gray-100 pb-4 scroll-mt-28 md:scroll-mt-32 !important;
   }
   .blog-content h3 {
-    @apply text-xl md:text-2xl font-bold mt-12 mb-4 !important;
+    @apply text-xl md:text-2xl font-bold mt-16 mb-6 scroll-mt-28 md:scroll-mt-32 !important;
   }
   .blog-content p {
-    @apply mb-6 leading-relaxed !important;
+    @apply mb-8 leading-relaxed !important;
   }
   .blog-content li {
-    @apply mb-3 !important;
+    @apply mb-4 !important;
   }
   /* Pseudo-headings: Paragraphs starting with bold text */
   .blog-content p > strong:first-child:only-child,
   .blog-content p > strong:first-child {
-    @apply block mt-8 mb-2 text-dark text-lg !important;
+    @apply block mt-12 mb-4 text-dark text-lg !important;
   }
 </style>

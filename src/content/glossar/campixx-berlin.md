@@ -66,7 +66,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Campixx-Wissen für dich nutzen?</h3>
   <p class="mb-6">Ich bringe die neuesten Trends vom Müggelsee direkt in dein Projekt. Lass uns in einem Audit schauen, wie wir deine Seite auf das nächste Level heben.</p>
-  <a href="/seo-relaunch-begleitung/" class="btn-primary inline-flex">Projekt-Check anfragen →</a>
+  <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Projekt-Check anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Der SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/)

@@ -29,7 +29,7 @@ Wenn ein Nutzer eine Frage stellt, sucht die KI nach einer Seite, die die Antwor
 Die Grounding Page ist so optimiert, dass die KI die Fakten sofort "greifen" kann.
 Das erhöht die Chance extrem, dass du als Quelle zitiert wirst.
 
-Ich nutze auf meiner Website bereits [Grounding Pages für den englischsprachigen Markt](/pages/groundingpage-en/), um auch dort als [Entität](/glossar/entitaet/) wahrgenommen zu werden.
+Ich nutze auf meiner Website bereits [Grounding Pages für den englischsprachigen Markt](/groundingpage-en/), um auch dort als [Entität](/glossar/entitaet/) wahrgenommen zu werden.
 Es ist der ultimative Hebel für deine globale Sichtbarkeit.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">

@@ -67,7 +67,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Kurve geht nach unten?</h3>
   <p class="mb-6">Ich analysiere deinen Sichtbarkeits-Absturz und finde die technischen oder inhaltlichen Ursachen. Lass uns deine Domain wieder auf Kurs bringen.</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Was ist allgemeine Sichtbarkeit?](/glossar/sichtbarkeit/)

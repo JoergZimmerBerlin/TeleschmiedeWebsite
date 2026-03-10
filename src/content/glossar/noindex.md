@@ -84,7 +84,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Angst vor Ranking-Absturz?</h3>
   <p class="mb-6">Lass uns in einem Audit prüfen, ob deine noindex-Strategie aufgeht oder du wertvolle Potenziale verschenkst.</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

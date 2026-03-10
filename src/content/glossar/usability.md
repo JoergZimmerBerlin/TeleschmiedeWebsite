@@ -77,7 +77,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hängst du in der Design-Falle?</h3>
   <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Lass uns deine Seite benutzerfreundlich machen.</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Core Web Vitals optimieren](/glossar/core-web-vitals/)

@@ -68,7 +68,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
   <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert.</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Warum Core Web Vitals so wichtig sind](/glossar/core-web-vitals/)

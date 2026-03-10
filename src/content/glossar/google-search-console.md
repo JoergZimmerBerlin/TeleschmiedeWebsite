@@ -64,7 +64,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Search Console zeigt nur rote Zahlen?</h3>
   <p class="mb-6">Ich helfe dir, die Daten richtig zu interpretieren und technische Blockaden zu lösen. Lass uns deine GSC zum Glühen bringen!</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt GSC-Check anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt GSC-Check anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

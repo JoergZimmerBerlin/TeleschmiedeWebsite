@@ -35,6 +35,11 @@ const glossar = defineCollection({
     date: z.string(),
     image: image().optional(),
     related_terms: z.array(z.string()).optional(),
+    key_takeaways: z.array(z.string()).optional(),
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 

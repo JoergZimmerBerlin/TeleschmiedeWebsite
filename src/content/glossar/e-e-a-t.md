@@ -94,7 +94,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein EEAT-Profil ist schwach?</h3>
   <p class="mb-6">Ich helfe dir, echte Autorität aufzubauen und deine Experten-Signale für Google zu schärfen. Lass uns deine Story erzählen!</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)

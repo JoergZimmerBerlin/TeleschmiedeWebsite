@@ -68,7 +68,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du brauchst echte Power in Berlin?</h3>
   <p class="mb-6">Als SEO Freelancer biete ich dir die Agilität eines Experten mit der Power eines Netzwerks. Lass uns den Berliner Markt gemeinsam dominieren.</p>
-  <a href="/seo-beratung-berlin/" class="btn-primary inline-flex">Jetzt Projekt-Anfrage senden →</a>
+  <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Jetzt Projekt-Anfrage senden →</a>
 </div>
 
 * **Lese-Tipp:** [Was kostet SEO Beratung?](/glossar/seo-beratung/)

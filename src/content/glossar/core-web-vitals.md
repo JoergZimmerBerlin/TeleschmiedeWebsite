@@ -88,7 +88,7 @@ ALOHA ✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Vitals sind im roten Bereich?</h3>
   <p class="mb-6">Lass uns im Audit schauen, welche Skripte deine Seite bremsen. Ich sorge für Speed, der wirklich konvertiert.</p>
-  <a href="/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [PageSpeed Optimierung Guide](/glossar/pagespeed/)

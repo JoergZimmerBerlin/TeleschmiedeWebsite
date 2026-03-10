@@ -9,12 +9,12 @@ key_takeaways:
   - "NAP-Konsistenz: Name, Adresse und Telefonnummer müssen überall im Netz identisch sein."
   - "E-E-A-T vor Ort: Kundenbewertungen und lokale Relevanz sind die stärksten Rankingfaktoren."
 faqs:
-  - question: "Was ist das wichtigste Tool für Local SEO?"
-    answer: "Das Google Business Profile (ehemals Google My Business) ist das Herzstück deiner lokalen Präsenz."
-  - question: "Muss ich eine Adresse auf der Website haben?"
-    answer: "Ja, für lokale Rankings ist eine physische Adresse im Impressum und auf der Kontaktseite zwingend erforderlich."
-  - question: "Wie wichtig sind Rezensionen?"
-    answer: "Extrem wichtig. Sie beeinflussen nicht nur das Ranking, sondern auch die Klickrate und das Vertrauen der Kunden."
+  - question: "Was ist der absolut stärkste Hebel für lokales SEO Ranking?"
+    answer: "Ohne Wenn und Aber: Ein top-optimiertes Google Business Profile (früher Google My Business). Es ist die absolute Schaltzentrale deiner lokalen Sichtbarkeit und entscheidet maßgeblich, ob du im begehrten Local Pack (der Karte mit den Top 3 Ergebnissen) auftauchst. Neben vollständigen NAP-Daten (Name, Address, Phone) musst du hier regelmäßig Beiträge posten, Dienstleistungen eintragen und vor allem aktiv Kundenbewertungen sammeln und beantworten."
+  - question: "Muss ich für Local SEO zwingend meine Büro-Adresse veröffentlichen?"
+    answer: "Ja, für ein starkes lokales Ranking in Google Maps ist eine physische Adresse im Impressum und auf der Kontaktseite praktisch unverzichtbar. Wenn du als Berater von zu Hause arbeitest und aus Datenschutzgründen keine genauen Standortdaten angeben willst, wird lokales SEO deutlich schwerer. Google ordnet Entitäten immer über Geodaten zu – fehlendes lokales Schema-Markup oder versteckte Adressen schwächen dieses Lokalsignal enorm ab."
+  - question: "Wie wichtig sind Google-Bewertungen für Local SEO 2026?"
+    answer: "Bewertungen sind die Währung des lokalen Vertrauens. Sie beeinflussen nicht nur direkt den Algorithmus für das Local Pack, sondern sind auch das stärkste Konversions-Signal für Nutzer. Eine Kanzlei mit 45 Fünf-Sterne-Bewertungen zieht Klicks magisch an, selbst wenn sie nur auf Platz 3 der Karte steht. Zudem analysieren KI-Systeme den Text aus den Rezensionen (sogenannte UGC-Mentions), um ein Gefühl für deine Tonalität und Fachkompetenz zu bekommen."
 ---
 
 Moin!

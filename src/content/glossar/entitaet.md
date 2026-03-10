@@ -9,12 +9,12 @@ key_takeaways:
   - "Semantische Vernetzung: Eine Entität wird durch ihre Beziehungen zu anderen Objekten definiert."
   - "KI-Treiber: GEO basiert fast vollständig auf der Identifizierung und Validierung von Entitäten."
 faqs:
-  - question: "Ist meine Website eine Entität?"
-    answer: "Ja, in der Regel wird sie dem Typ 'WebSite' zugeordnet, verknüpft mit der Entität 'Organization' (deine Firma)."
-  - question: "Wie prüfe ich meine Entität?"
-    answer: "Google nach deinem Markennamen. Wenn ein Knowledge Panel erscheint, hat Google dich als Entität konsolidiert."
-  - question: "Helfen Backlinks meiner Entität?"
-    answer: "Ja, vor allem wenn sie von anderen starken Entitäten aus demselben Themenfeld kommen."
+  - question: "Ist meine Website automatisch auch eine Entität?"
+    answer: "Nein, nicht automatisch. Deine Website wird im Knowledge Graph meist dem Typ 'WebSite' zugeordnet, aber der eigentliche Entity-Status bezieht sich auf dein Unternehmen ('Organization') oder dich als Person ('Person'). Damit Google dich als echte Entität begreift, musst du konsistente Signale senden: sauberes Schema.org Markup, eine strukturierte Grounding Page und stetige Erwähnungen in deinem Themenumfeld. Erst dann wandelst du dich von einer simplen URL zu einem anerkannten Konzept im Semantic Web."
+  - question: "Wie prüfe ich, ob Google mich als Entität erkannt hat?"
+    answer: "Der offensichtlichste Beweis ist ein eigenes Knowledge Panel in den Google-Suchergebnissen, wenn du nach deinem Markennamen suchst. Ein weiterer starker Indikator ist, wenn Google in der automatischen Suchvervollständigung (Google Suggest) deinen Namen vorschlägt und ihn direkt kategorisiert (z.B. 'Jörg Zimmer SEO'). Für eine tiefe technische Analyse nutze ich das Google Knowledge Graph Search API, um abzufragen, mit welchem Confidence-Score eine bestimmte Entität im Google-System verankert ist."
+  - question: "Helfen Backlinks beim Aufbau meines Entity-Status?"
+    answer: "Definitiv, aber die Qualität und der Kontext sind hier noch entscheidender als beim klassischen SEO. Ein Link von einer vertrauenswürdigen Fachseite in deiner Nische bestätigt Google, dass du ein relevanter Knotenpunkt in diesem thematischen Netzwerk bist ('Co-Occurrence'). Noch wichtiger sind sogenannte Citations und ungelinkte Brand Mentions in starken Medien – sie trainieren KI-Systeme und festigen deinen Status als Autorität in deinem Fachgebiet, auch ganz ohne Hyperlink."
 ---
 
 Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).

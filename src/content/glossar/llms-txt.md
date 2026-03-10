@@ -9,12 +9,12 @@ key_takeaways:
   - "Effizienz: Kurze, strukturierte Markdown-Daten sparen LLM-Tokens und erhöhen die Zitationsrate."
   - "Kontrolle: Minimiere Halluzinationen, indem du KIs die offizielle Wahrheit über deine Marke lieferst."
 faqs:
-  - question: "Ersetzt llms.txt die robots.txt?"
-    answer: "Nein. Die robots.txt regelt den Zugriff, die llms.txt regelt das Verständnis (Kontext)."
-  - question: "Wo platziere ich die llms.txt?"
-    answer: "Immer im Root-Verzeichnis deiner Domain (https://deinedomain.de/llms.txt)."
-  - question: "Muss ich die Datei händisch pflegen?"
-    answer: "Bei statischen Seiten ja, bei großen Portalen kann sie automatisiert aus den Metadaten generiert werden."
+  - question: "Ersetzt die llms.txt Datei die klassische robots.txt?"
+    answer: "Absolut nicht. Die robots.txt agiert wie ein Türsteher: Sie regelt strikt den Zugriff und entscheidet, welche Crawler (wie Googlebot oder GPTBot) überhaupt auf deine Seite dürfen. Die llms.txt ist hingegen wie ein Museumsführer für die KI-Modelle, die du hereingelassen hast. Sie liefert in radikal komprimierter Form den Kontext, die Struktur und die wichtigsten Entitäten deiner Website, damit die KI dich als Antwortquelle optimal versteht und zitiert."
+  - question: "Wo genau platziere ich die llms.txt auf meiner Website?"
+    answer: "Wie auch bei der robots.txt muss die llms.txt zwingend im Hauptverzeichnis (Root) deiner Domain liegen, also unter https://deinedomain.de/llms.txt. Nur dort suchen die KI-Agenten und Web-Crawler standardisiert nach dieser Informationsquelle. Der Standard sieht zudem vor, dass bei umfangreichen Seiten eine zusätzliche llms-full.txt verlinkt werden kann, die dann tiefere Datenstrukturen liefert."
+  - question: "Muss ich die Datei händisch pflegen und aktuell halten?"
+    answer: "Für kleine, statische Seiten wie einen One-Pager reicht oft eine händisch erstellte Markdown-Datei völlig aus. Bei Portalen, dynamischen Shops oder komplexen Blogs wie teleschmie.de sollte die Datei idealerweise automatisiert aus den Metadaten des CMS generiert werden. Wichtig ist, dass die darin enthaltenen Informationen (deine Kernkompetenzen, deine Grounding-Daten) stets aktuell sind, da sie direkt in die Trainingspipelines der LLMs fließen."
 ---
 
 Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.

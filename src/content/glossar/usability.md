@@ -10,11 +10,11 @@ key_takeaways:
   - "Klarheit: Ein Nutzer muss in Sekunden verstehen, was er auf deiner Seite tun kann."
 faqs:
   - question: "Was ist der Unterschied zwischen UI und UX?"
-    answer: "UI (User Interface) ist das Aussehen, UX (User Experience) ist das Gefühl und die Usability bei der Benutzung."
-  - question: "Ist Usability ein Rankingfaktor?"
-    answer: "Indirekt ja. Google misst Nutzersignale. Eine schlechte Usability führt zu kurzen Besuchen, was Google negativ bewertet."
-  - question: "Wie kann ich die Usability testen?"
-    answer: "Durch Nutzertests, Heatmaps und die Analyse der Absprungraten in der Google Search Console."
+    answer: "UI (User Interface) ist das, was du siehst – die Farben, die Buttons, die Typografie. UX (User Experience) ist das, was du fühlst – wie intuitiv die Navigation ist, wie schnell du ans Ziel kommst und ob die Usability frustfrei ist. Ein Button kann wunderschön designt sein (gute UI), aber wenn er auf dem Smartphone zu klein zum Tippen ist, hast du eine miese UX. Für SEO ist vor allem die reibungslose UX entscheidend, da sie Nutzersignale wie die Verweildauer direkt beeinflusst."
+  - question: "Ist Usability ein Rankingfaktor bei Google?"
+    answer: "Absolut, auch wenn es indirekt gemessen wird. Google nutzt Core Web Vitals und Nutzersignale (wie Pogo-Sticking), um zu bewerten, wie zufrieden Besucher mit deiner Seite sind. Wenn jemand nach drei Sekunden genervt abbricht, weil ein Popup den Text verdeckt oder das Menü unbedienbar ist, registriert Google das als schlechte Erfahrung. Eine hohe Usability hält Nutzer auf der Seite und sendet starke Relevanzsignale an den Algorithmus."
+  - question: "Wie kann ich die Usability meiner Website testen?"
+    answer: "Der erste Schritt kostet nichts: Gib fünf Freunden, die deine Seite nicht kennen, eine konkrete Aufgabe (z.B. 'Finde meine Preise und schick mir eine Anfrage') und schau ihnen dabei unkommentiert über die Schulter. Für datengetriebene Insights nutze ich Tools wie Microsoft Clarity oder Hotjar für Heatmaps und Session-Aufzeichnungen. Außerdem verraten dir hohe Absprungraten in Google Analytics exakt, an welchen Stellen die Usability deiner Nutzerführung scheitert."
 ---
 
 Moin!

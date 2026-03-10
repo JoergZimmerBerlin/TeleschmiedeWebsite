@@ -10,11 +10,11 @@ key_takeaways:
   - "KI-Wandel: Informations-Traffic sinkt durch KI-Antworten; Experten-Traffic gewinnt an Wert."
 faqs:
   - question: "Was ist der Unterschied zwischen Nutzern und Sitzungen?"
-    answer: "Ein Nutzer ist die einzelne Person (Browser), eine Sitzung ist der Zeitabschnitt, den er auf der Seite verbringt."
+    answer: "Ein Nutzer ist die einzelne Person (oder der Browser), die deine Website besucht. Eine Sitzung ist der Zeitabschnitt, den dieser Nutzer auf deiner Seite verbringt – in Google Analytics endet eine Sitzung standardmäßig nach 30 Minuten Inaktivität. Ein einzelner Nutzer kann also an einem Tag mehrere Sitzungen erzeugen, wenn er vormittags und nachmittags auf teleschmie.de vorbeischaut. Für die Monetarisierung sind oft regelmäßige Nutzer wichtiger als reine Sitzungszahlen."
   - question: "Warum sinkt mein Traffic plötzlich?"
-    answer: "Gründe können Google Updates, technische Fehler, Saisonalität oder das Erstarken von Wettbewerbern sein."
+    answer: "Ein Traffic-Einbruch ist der Albtraum jedes Website-Betreibers, aber meistens gibt es eine logische Erklärung. Häufigste Ursachen sind Google Core Updates, technische Fehler (wie versehentliches Noindex), Saisonalität oder das Erstarken von Wettbewerbern. In meiner SEO Sprechstunde analysiere ich zuerst, ob der Einbruch site-wide ist oder nur bestimmte URLs betrifft. Dann grenzen wir ein, ob es ein technisches oder ein inhaltliches Problem ist."
   - question: "Wie steigere ich meinen organischen Traffic?"
-    answer: "Durch die Erstellung von hochwertigem Content, der echte Nutzerfragen beantwortet und technisch sauber optimiert ist."
+    answer: "Die ehrliche Antwort: Es gibt keinen Quick-Fix. Nachhaltiges Traffic-Wachstum erfordert hochwertigen Content, der echte Nutzerfragen beantwortet, eingebettet in eine saubere technische Architektur. Du musst die Suchintention deiner Zielgruppe perfekt bedienen und gleichzeitig Signale für deine E-E-A-T Autorität setzen. Ein gut strukturiertes Glossar wie dieses hier ist zum Beispiel ein hervorragender Motor für langfristigen Traffic-Aufbau."
 ---
 
 Traffic ist die Währung der Aufmerksamkeit.

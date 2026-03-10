@@ -9,12 +9,12 @@ key_takeaways:
   - "Cluster-Strategie: Optimiere für Themenfelder (Entitäten), nicht für isolierte Begriffe."
   - "Long-Tail-Chance: Spezifische Anfragen konvertieren oft deutlich besser als generische Begriffe."
 faqs:
-  - question: "Sind Keywords noch wichtig für SEO?"
-    answer: "Ja, aber als Wegweiser für den Intent, nicht mehr als starre Wiederholung im Text."
-  - question: "Was ist ein Fokus-Keyword?"
-    answer: "Das Hauptthema einer Seite, auf das die gesamte Optimierung (H1, Title, Inhalt) ausgerichtet ist."
-  - question: "Hilft Keyword-Stuffing noch?"
-    answer: "Nein, es schadet heute aktiv der Lesbarkeit und dem Ranking durch negative Nutzersignale."
+  - question: "Haben klassische Keywords in der SEO-Welt überhaupt noch Relevanz?"
+    answer: "Ein klares Ja, aber ihre Funktion hat sich radikal gewandelt. Keywords sind nicht mehr die starren Textbausteine, die wir gebetsmühlenartig im Content wiederholen (Keyword Stuffing ist tot). Sie fungieren heute als Signalfackeln, die Google und KI-Systemen den dahinterliegenden Suchintent (die Absicht des Nutzers) verraten. Ein Keyword zeigt dir den Weg, aber am Ende rankt die Seite, die den thematischen Kontext (die Entität) am besten und umfassendsten bedient."
+  - question: "Was ist ein Fokus-Keyword und brauche ich es für jede Seite?"
+    answer: "Das Fokus-Keyword ist das Kernthema, auf das du eine spezifische URL ausrichtest. Es hilft dir, nicht den roten Faden zu verlieren und sorgt dafür, dass H1-Überschrift, Title-Tag und Meta-Description einheitlich optimiert sind. Grundsätzlich sollte jede redaktionelle Seite oder Landingpage ein eigenes Fokus-Keyword besitzen, um sogenanntes 'Keyword Cannibalization' zu vermeiden – also den Fall, dass zwei Seiten deiner eigenen Website um denselben Begriff miteinander konkurrieren."
+  - question: "Hilft es, Keywords möglichst oft im Text unterzubringen?"
+    answer: "Nein, das ist tiefstes SEO-Mittelalter und schadet deinen Rankings massiv. Wenn ein Text unnatürlich klingt, weil das Keyword 15-mal im Absatz steht, brechen echte Nutzer den Besuch sofort ab – was Google katastrophale Nutzersignale (Usability) sendet. Schreibe stattdessen natürlich, nutze Synonyme und bediene dich der LSI-Methode (Latent Semantic Indexing), indem du thematisch verwandte Begriffe, Fragen und semantische Cluster organisch in den Text einfließen lässt."
 ---
 
 Keywörter (oder Keywords) sind die DNA der Suche.

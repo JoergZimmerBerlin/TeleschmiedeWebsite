@@ -46,13 +46,13 @@ Ich erinnere mich an Sessions, in denen wir stundenlang über kleinste Details v
 
 Als [SEO-Freelancer](/seo-freelancer-berlin/) ist man oft Einzelkämpfer. Die Campixx ist der Ort, an dem man merkt: Wir sind viele. Und wir haben alle die gleichen Herausforderungen mit den immer schlauer werdenden [Crawlern](/glossar/crawler/) und den neuen [KI-Suchmechanismen (GEO)](/glossar/geo/).
 
-Ich nutze die Zeit am See intensiv, um meine eigene [Grounding-Page](/glossar/grounding-page/) Strategie zu challengen. Was sagen andere Experten dazu? Wo liegen die Schwachstellen? Diese "Schwarmintelligenz" macht meine Beratung für meine Kunden am Ende so stabil und zukunftssicher. 
+Ich nutze die Zeit im Hotel intensiv, um meine eigene [Grounding-Page](/glossar/grounding-page/) Strategie zu challengen. Was sagen andere Experten dazu? Wo liegen die Schwachstellen? Diese "Schwarmintelligenz" macht meine Beratung für meine Kunden am Ende so stabil und zukunftssicher. 
 
 Dafür steht mein Name – handwerkliche Präzision, geschmiedet im Feuer der Community.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Campixx-Tipp</h4>
-  <p class="mb-0 text-sm">Geh nicht nur in die großen Sessions. Die kleinen, fast privaten Runden auf dem Flur oder am Seeufer sind oft die, in denen die echten 'Hacks' geteilt werden. Sei mutig, stell Fragen und teile selbst dein Wissen.</p>
+  <p class="mb-0 text-sm">Geh nicht nur in die großen Sessions. Die kleinen, fast privaten Runden auf dem Flur oder an der Hotelbar sind oft die, in denen die echten 'Hacks' geteilt werden. Sei mutig, stell Fragen und teile selbst dein Wissen.</p>
 </div>
 
 ## SEO 2026: Campixx-Spirit für dein Projekt
@@ -71,7 +71,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Campixx-Wissen für dich nutzen?</h3>
-  <p class="mb-6">Ich bringe die neuesten Trends vom Müggelsee direkt in dein Projekt. Lass uns in einem Audit schauen, wie wir deine Seite auf das nächste Level heben.</p>
+  <p class="mb-6">Ich bringe die neuesten Trends vom Van der Valk Hotel direkt in dein Projekt. Lass uns in einem Audit schauen, wie wir deine Seite auf das nächste Level heben.</p>
   <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Projekt-Check anfragen →</a>
 </div>
 

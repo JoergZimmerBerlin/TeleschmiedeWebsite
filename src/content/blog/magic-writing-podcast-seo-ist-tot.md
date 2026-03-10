@@ -57,7 +57,7 @@ Ich höre seit über 20 Jahren, dass SEO tot ist. Und trotzdem:
 
 Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Aber das Prinzip bleibt: Be the best answer!
 
-### Der Teleschmie-de Action-Plan
+### Dein Action-Plan
 
 Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. Er kommt aus einer anderen Ecke als ich, aber unsere Schnittmenge ist riesig. Am Ende des Tages geht es um Vertrauen. Technik und Keywords sind die Basis, aber Vertrauen gewinnst du nur durch Relevanz.
 

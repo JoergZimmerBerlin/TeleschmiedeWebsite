@@ -49,7 +49,7 @@ Als ich dieses Thema neulich auf LinkedIn und im SEOpresso Podcast angeschnitten
 
 Ein Kollege brachte es auf den Punkt: *"Jörg, das Problem ist, dass viele SEO als IT-Projekt sehen. Aber SEO ist Markenaufbau mit technischen Hilfsmitteln."* Dem ist wenig hinzuzufügen.
 
-### Der Teleschmie-de Action-Plan
+### Dein Action-Plan
 
 Wenn ich eines gelernt habe in den letzten 24 Jahren, dann ist es das: Die Grundlagen sind unkaputtbar.
 1. Bau eine Seite, die technisch flutscht (**PageSpeed!**).

@@ -73,7 +73,7 @@ Wie startest du jetzt konkret? Hier ist mein Schlachtplan für deinen ersten Mon
 
 ---
 
-### Der Teleschmie-de Action-Plan
+### Dein Action-Plan
 
 SEO verändert sich massiv. Die Leute nutzen KI-Assistenten, um Entscheidungen zu treffen. Wenn du dort nicht stattfindest, existierst du für diese Zielgruppe nicht.
 

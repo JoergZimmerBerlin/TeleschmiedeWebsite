@@ -1,0 +1,53 @@
+---
+title: "Mention (Markennennung)"
+description: "Eine Mention ist die namentliche Erwähnung einer Marke oder Person im Netz. Sie dient als indirektes Vertrauenssignal für Suchmaschinen und KI-Modelle."
+date: "2026-03-10"
+image: "/src/assets/images/glossar/local-seo-karte-de.png"
+related_terms: ["citation", "entitaet", "e-e-a-t"]
+---
+
+Eine Mention (oder Markennennung) beschreibt den Moment, in dem dein Markenname, dein Produkt oder dein Personenname im Internet auftaucht, ohne dass notwendigerweise ein Link zu deiner Website gesetzt wurde. 
+
+Lange Zeit galt im SEO das Dogma: "Ohne Link ist die Erwähnung wertlos." Doch dieses Bild hat sich radikal gewandelt. Professionelle Suchmaschinenoptimierung betrachtet Mentions heute als ein essentielles Signal für Marktmacht und Vertrauen. In einer Welt, in der [Linkjuice](/glossar/linkjuice/) oft künstlich manipuliert wird, nutzt Google Mentions als "unlinked Implied Links" (implizit verstandene Links), um die wahre Popularität einer Marke zu messen.
+
+## Der Unterschied zwischen Mention und Citation
+
+Häufig werden die Begriffe synonym verwendet, aber es gibt eine feine Nuance:
+*   **[Citation](/glossar/citation/):** Hier liegt der Fokus auf den Geschäftsdaten (NAP: Name, Adresse, Telefon). Es geht um die Verifizierung deines Standorts, meist im Local SEO Kontext.
+*   **Mention:** Hier geht es um das Branding und die Reputation. Eine Mention passiert, wenn ein Journalist über dich schreibt, ein Nutzer dich in den sozialen Medien erwähnt oder dein Name in einem Experten-Podcast fällt.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Sentiment Analysis</h4>
+  <p class="mb-0 text-sm">Google bewertet Mentions nicht nur nach ihrer Quantität, sondern auch nach ihrer Qualität. Durch moderne NLP-Verfahren (Natural Language Processing) erkennt der Algorithmus das "Sentiment": Wird deine Marke in einem positiven, hilfreichen Kontext genannt oder im Rahmen von Beschwerden und Skandalen? Negative Mentions auf starken News-Portalen können dein Vertrauens-Profil (E-E-A-T) nachhaltig schädigen.</p>
+</div>
+
+## Mentions als Treibstoff für den Knowledge Graph
+
+Google versucht, das "Who is Who" des Internets zu verstehen. Wenn dein Name (als [Entität](/glossar/entitaet/)) im Web konsistent in Verbindung mit einem bestimmten Fachgebiet genannt wird (z.B. "Jörg Zimmer" im Kontext zu "[GEO Optimierung](/glossar/geo/)"), festigt das deine Position im Google Knowledge Graph.
+
+Je öfter du erwähnt wirst, desto eher begreift Google, dass du eine relevante Institution in deiner Nische bist. Dies führt dazu, dass du für Deine Kern-Keywords auch ohne massiven Linkaufbau stabilere Rankings generierst, weil du für den Algorithmus schlichtweg "die logische Antwort" auf die Suchanfrage des Nutzers bist.
+
+## Strategisches Management von Mentions
+
+Wie sorgst du dafür, dass über dich gesprochen wird?
+1.  **PR und Media Relations:** Gastbeiträge auf Fachportalen sind oft wertvoller für die Mention-Bilanz als ein gekaufter Backlink aus einem versteckten Archiv.
+2.  **Social Listening:** Nutze Tools wie Google Alerts oder spezialisierte Brand-Tracker, um sofort zu erfahren, wenn jemand über dich spricht. Trete in den Dialog!
+3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
+
+## Mentions in der generativen KI-Suche ([GEO](/glossar/geo/))
+
+Für Large Language Models (LLMs) sind Mentions die primäre Währung. Eine KI wie Claude oder GPT-4 "weiß" nichts über das Internet in Echtzeit, sie "erinnert" sich aber an die Häufigkeit von Konzepten aus ihren Trainingsdaten. 
+
+Wenn du in tausenden Dokumenten als Experte erwähnt wirst, wird die Wahrscheinlichkeit extrem hoch, dass die KI deinen Namen als Empfehlung ausgibt, wenn ein Nutzer nach Hilfe fragt. Mentions bauen deinen "Vektor-Fußabdruck" im semantischen Raum auf. Wer nicht erwähnt wird, existiert für eine generative Engine schlicht nicht – egal wie gut die [On-Page SEO Basics](/blog/80-prozent-seo-fehler-sprechstunde/) der eigenen Seite sind.
+
+### Zusammenfassung
+
+Mentions sind die leise, aber gewaltige Kraft hinter einer starken Marke. Sie signalisieren Suchmaschinen und KI-Agenten, dass du eine reale, vertrauenswürdige Autorität bist. Kämpfe nicht nur um harte Links, sondern kämpfe um Aufmerksamkeit und positive Erwähnungen. Werde Teil der Konversation im Netz, denn jede positive Nennung ist ein Baustein für deine langfristige Sichtbarkeit und deinen digitalen Expertenstatus.
+
+---
+
+<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
+  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
+  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+</div>

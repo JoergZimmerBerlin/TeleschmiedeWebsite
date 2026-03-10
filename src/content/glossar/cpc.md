@@ -1,0 +1,70 @@
+---
+title: "CPC (Cost per Click)"
+description: "CPC gibt an, wie viel du für einen Klick auf eine Werbeanzeige bei Google Ads bezahlst. Ein wichtiger Indikator für Keyword-Wertigkeit."
+date: "2026-03-10"
+image: "../../assets/images/blog/seo-ads-synergie.png"
+related_terms: ["keywoerter", "money-keyword", "conversion-rate"]
+---
+
+CPC steht für Cost per Click.
+Oder auf Deutsch: Wie viel wandert pro Klick von deinem Konto zu Google?
+Ursprünglich ein Begriff aus der Welt von Google Ads (SEA).
+Aber für uns SEOs ist der CPC eine Goldgrube an Informationen.
+
+Warum?
+Weil der CPC uns den Marktwert eines Keywords verrät.
+Wenn Wettbewerber bereit sind, 20€ für einen einzigen Klick auszugeben, weißt du:
+Hinter diesem Begriff steckt massiv viel Umsatzpotenzial.
+
+## Was der CPC über dein SEO aussagt
+
+Ein hoher CPC bedeutet meistens zwei Dinge:
+1.  **Hohe Kaufabsicht:** Der Nutzer will jetzt eine Lösung kaufen. ([Money Keyword](/glossar/money-keyword/)).
+2.  **Harter Wettbewerb:** Du wirst es organisch schwerer haben, aber der Sieg lohnt sich umso mehr.
+
+In meiner Strategie als [SEO Berater](/seo-freelancer-berlin/) ist der CPC ein entscheidender Filter.
+Warum für Keywords ranken, für die niemand bereit ist, Geld auszugeben?
+Wir suchen die "Sweet Spots": Hoher CPC bei moderater Konkurrenz.
+
+## Die Synergie zwischen SEO und SEA
+
+Man darf SEO und Google Ads niemals getrennt voneinander betrachten.
+Ich nenne das die "Teleschmie-de Synergie".
+
+*   **Daten-Transfer:** Wenn wir via Google Ads sehen, dass ein Keyword eine extrem hohe [Conversion Rate](/glossar/conversion-rate/) hat, priorisieren wir es sofort für SEO.
+*   **Kostensenkung:** Wenn du organisch auf Platz 1 rankst, kannst du dein Budget bei den Ads sparen oder für andere Begriffe nutzen. Deine [Sichtbarkeit](/glossar/sichtbarkeit/) bleibt hoch, aber deine Kosten sinken.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Klickpreis-Falle</h4>
+  <p class="mb-0 text-sm">Lass dich nicht von extrem niedrigen CPCs blenden. Oft bedeutet ein niedriger Preis auch niedrige Qualität oder nur Informationssuchende ohne Kaufabsicht. Billig ist nicht immer gut.</p>
+</div>
+
+## Kalkulation: Lohnt sich SEO im Vergleich zum CPC?
+
+Das ist die einfachste Rechnung der Welt.
+Wenn ein Keyword 10€ im CPC kostet und du bekommst monatlich 1.000 Klicks über SEO?
+Dann sparst du theoretisch 10.000€ Werbebudget. Jeden Monat.
+Das macht SEO zur rentabelsten Investition in dein Marketing, wenn du es langfristig betrachtest.
+
+## CPC in Zeiten von KI ([GEO](/glossar/geo/))
+
+In der Welt der KI-Suche verschwindet der Klickpreis aus dem Sichtfeld, aber der Wert bleibt gleich.
+KI-Systeme präsentieren dem Nutzer oft nur noch eine einzige, perfekte Lösung.
+Wer dort zitiert wird, gewinnt eine "Sichtbarkeit", die man mit Geld kaum noch kaufen kann.
+Der "implizite CPC" steigt also weiter an, je schwerer es wird, organisch präsent zu sein.
+
+### Zusammenfassung
+
+Nutze den CPC als Kompass für deine Keyword-Auswahl.
+Er zeigt dir, wo das Geld im Markt liegt.
+Verknüpfe deine SEO-Arbeit mit deinen Ads-Daten.
+Hör auf, für wertlose Begriffe zu ranken, und konzentrier dich auf die harten Fakten.
+Denn am Ende ist der beste CPC der, den du gar nicht erst bezahlen musst – weil du organisch ganz oben stehst.
+
+---
+
+<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
+  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
+  <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Schließ dich über 5.000 Experten an.</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+</div>

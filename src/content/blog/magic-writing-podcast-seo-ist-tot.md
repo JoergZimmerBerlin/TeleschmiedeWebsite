@@ -15,7 +15,12 @@ key_takeaways:
 
 "SEO ist tot" – sagen sie und schreiben dann krampfhaft für den Algorithmus, damit sie überhaupt noch jemand im digitalen Nirvana wahrnimmt. Es ist die ewige Schlagzeile unserer Branche. Ein Evergreen, der pünktlich zu jedem größeren Google-Update oder jeder neuen Technologie-Welle (wie aktuell KI) aus der Mottenkiste geholt wird.
 
-Aber wisst ihr was? Vielleicht stirbt das klassische SEO tatsächlich. Aber wenn, dann stirbt es einen so langsamen Tod, dass wir alle noch in Rente gehen werden, bevor der letzte Bot das Licht ausmacht. Und genau darüber, über die vermeintliche "Leiche" SEO und warum sie eigentlich fitter ist als je zuvor, durfte ich mit **Michael Kaufhold** im Magic Writing Podcast sprechen.
+But in fact, maybe the classic SEO is actually dying. But if it is, it's dying such a slow death that we'll all be retired before the last bot turns out the lights. And that's exactly what I got to talk about with **Michael Kaufhold** in the Magic Writing Podcast - about the supposed "corpse" of SEO and why it's actually fitter than ever.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"SEO stirbt nicht – es evolviert. Wer heute den Nachruf schreibt, hat den Anschluss an die semantische Suche von morgen schon gestern verloren."</p>
+</div>
 
 ## Die ewige Totgesagte: Warum wir den Nachruf noch mal verschieben
 

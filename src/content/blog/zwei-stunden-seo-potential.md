@@ -2,7 +2,7 @@
 title: "Was kann man in 2 Stunden SEO schon erreichen? (Spoiler: Eine ganze Menge!) 🚀"
 description: "Können 2 Stunden SEO-Beratung wirklich den Unterschied machen? Ein Case Study über Indexierung, schnelle Fixes und enorme Sichtbarkeit."
 date: "2026-03-11"
-image: "../../assets/images/blog/linkedin_2-stunden-seo.webp"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_was-kann-man-in-2-stunden-seo-schon-erreichen-activity-7274003504106090496-e2hS"
 image_alt: "Search Console Graph mit starkem Aufwärtstrend in der SEO Sprechstunde"
 key_takeaways:
   - "Technische Blockaden lösen bringt sofortige Ergebnisse."
@@ -20,6 +20,11 @@ faqs:
 Moin! 🌻
 
 Hand aufs Herz: Was erwartest du von 2 Stunden SEO-Beratung? Ein schickes PDF mit bunten Graphen, die eh niemand versteht? Ein paar nette Worte und ein teures Folgeangebot?
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"SEO ist keine Alchemie. Wer zwei Jahrzehnte dabei ist, sieht den Pfusch am Bau in zehn Minuten. Zwei Stunden Tacheles sparen oft sechs Monate Blindflug."</p>
+</div>
 
 Ich sage dir: In 2 Stunden kann man eine Website komplett umkrempeln, wenn man weiß, wo man hinschauen muss. 🦖 Als **Digitaler Dinosaurier** habe ich in den letzten 24+ Jahren so gut wie jeden SEO-Fehler gesehen. Ich brauche keine wochenlange Analysephase, um den "Pfusch am Bau" zu finden. 
 

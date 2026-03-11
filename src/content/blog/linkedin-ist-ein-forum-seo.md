@@ -2,8 +2,8 @@
 title: "LinkedIn ist kein soziales Netzwerk, es ist ein Forum (und wir SEOs müssen es nutzen)"
 description: "Warum LinkedIn für SEO-Spezialisten das perfekte Spielfeld ist: Von der Profil-Optimierung als Landingpage bis zum Algorithmus-Hacking durch echte Diskussionen."
 date: "2026-03-01"
-linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR"
-image: "../../assets/images/blog/linkedin-forum-original.webp"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_innovation-mut-und-d%C3%B6ner-am-ende-zieht-activity-7411702493564473344-TD6t"
+image: "../../assets/images/blog/linkedin_doenerback.webp"
 image_alt: "Jörg Zimmer beim SEO Stammtisch Berlin - Vortrag über LinkedIn als Forum"
 category: "LinkedIn Marketing"
 tags: []
@@ -22,6 +22,11 @@ Ich war neulich beim SEO Stammtisch in Berlin – Grüße gehen raus an Carsten 
 ![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](../../assets/images/blog/linkedin-forum-original.webp)
 
 Hier ist die nackte Wahrheit: Wer LinkedIn wie Google SEO versteht, gewinnt. Wer es nur als "Social Media" sieht, verbrennt Zeit. In diesem Deep Dive gehen wir die 13 Hauptpunkte aus meinem Vortrag durch und schauen uns an, wie du den Algo wirklich zum Fliegen bringst.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Dein Profil ist keine Visitenkarte, sondern deine wichtigste Landingpage. Optimiere für Conversions, nicht für das Ego-Lifting durch Likes."</p>
+</div>
 
 ## 1. Dein Name ist die Domain, dein Profil eine Landingpage
 Im Google SEO optimieren wir Domains. Auf LinkedIn bist **du** die Domain. Wenn jemand deinen Namen sieht, ist das der erste Touchpoint im "Search"-Prozess des Netzwerks. 

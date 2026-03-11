@@ -2,7 +2,7 @@
 title: "Meine Highlights aus 2025 - Ein SEO-Jahresrückblick"
 description: "Ein Jahr voller LinkedIn-Posts, Diskussionen und hoffentlich dem einen oder anderen Lacher."
 date: "2025-12-31"
-linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_highlights-2025-seo-rückblick-activity-7278772863925700608-P_2C"
 image: "../../assets/images/profile/website-boosting-rucksack.webp"
 image_alt: "SEO-Highlights 2025 - Ein Rückblick von Jörg Zimmer"
 category: "SEO Strategie"
@@ -11,9 +11,23 @@ key_takeaways:
   - "2025 war das Jahr, in dem AI-Tracking mit Tools wie Rankscale den Kinderschuhen entwachsen ist."
   - "Die SEO-Szene braucht mehr Zusammenhalt und weniger Ellenbogen – echte Mastermind-Gruppen entstehen."
   - "Freelancer unter 100€/Stunde verkaufen sich und die gesamte Branche unter Wert."
+faqs:
+  - question: "War 2025 das Jahr von AI-SEO?"
+    answer: "Absolut. Es war der Wendepunkt, an dem wir aufgehört haben über Prompt-Engineering zu reden und angefangen haben, echte Sichtbarkeit in LLMs messbar zu machen. Wer 2025 verschlafen hat, hat heute eine enorme Lernkurve vor sich."
+  - question: "Warum regst du dich über Stundensätze auf?"
+    answer: "Weil Erfahrung eine Währung ist. Ein Experte mit 20 Jahren Erfahrung löst ein Problem in zwei Stunden, für das ein Junior zwei Wochen braucht. Wenn der Experte dann nur 70€ nimmt, entwertet er das gesamte Berufsfeld."
+  - question: "Was ist dein wichtigster Tipp für 2026?"
+    answer: "Vernetzung. Die Algorithmen ändern sich zu schnell für Einzelkämpfer. Wir brauchen den Austausch in Masterminds und auf Stammtischen, um am Ball zu bleiben."
 ---
 
+Moin! 🌻
+
 Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüter erhitzt haben, die Themen, die mich nachts wachgehalten haben, und natürlich auch die Momente, in denen wir einfach nur gelacht haben.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Ein Jahresrückblick ohne Schmerzen ist kein echter Rückblick. Wir müssen aus den Fehlern von 2025 die Erfolge von 2026 bauen."</p>
+</div>
 
 ![Dashboard: Meine persönlichen SEO-Highlights aus dem Jahr 2025](../../assets/images/blog/seo-highlights-2025.webp)
 
@@ -73,7 +87,7 @@ Auf ein noch wilderes, spannenderes und erfolgreiches 2026! Lasst uns die KIs z�
 
 ---
 
-*ALOHA! 🌻 – Wir sehen uns in den Kommentaren!*
+ALOHA! 🌻✌️
 
 ### Weiterführende Artikel für den Rückblick-Effekt
 ### Weiterführende Artikel

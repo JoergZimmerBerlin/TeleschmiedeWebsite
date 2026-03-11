@@ -10,6 +10,13 @@ key_takeaways:
   - "SEO-Basics (Title, H-Struktur, Sitemaps) sind oft kein Standard, weil wir als Experten den Wert unserer Arbeit nicht laut genug verkaufen."
   - "Die Verantwortung liegt bei uns: Wir müssen SEO als fundamentalen Prozess etablieren, nicht als lästiges Extra am Ende der Kette."
   - "Gemeinsam sind wir stärker: Durch gezielte Interaktion auf LinkedIn können wir SEO-Themen die Reichweite geben, die sie verdienen."
+faqs:
+  - question: "Sind wir SEOs wirklich schuld?"
+    answer: "In gewisser Weise ja. Wir haben uns zu lange in unserer technischen Blase versteckt. Wenn wir nicht lernen, den wirtschaftlichen Wert von SEO-Basics auf C-Level-Ebene zu kommunizieren, werden wir immer nur die 'Feuerwehr' am Ende des Projekts bleiben."
+  - question: "Was ist das Ziel der 'Welle'?"
+    answer: "Sichtbarkeit für unsere Disziplin. Indem wir gegenseitig unsere Beiträge unterstützen und echtes Wissen teilen, durchbrechen wir die Bubble und erreichen die Menschen, die über Budgets entscheiden."
+  - question: "Wie ändere ich die Verantwortungskette?"
+    answer: "Indem du SEO als Fundament verkaufst. SEO muss Teil der Design-Phase sein. Ein Relaunch ohne SEO-Begleitung ist ein strategischer Fehler, den man sich heute nicht mehr leisten kann."
 ---
 
 Moin!
@@ -19,6 +26,11 @@ Wir müssen reden. Und zwar Tacheles. Ich habe neulich auf LinkedIn einen Beitra
 Warum ich das sage? Weil ich es jeden Tag sehe. Wir beraten Kunden, wir auditieren Seiten und immer wieder stolpern wir über Dinge, die eigentlich seit 2002 geklärt sein sollten. Fehlende Title Tags, hanebüchene Überschriften-Kaskaden, URL-Umzüge ohne einen einzigen Redirect. 
 
 Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? Oder einfach zu unwichtig geworden?
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wir SEOs müssen aufhören, nur die Technik zu polieren. Wir müssen anfangen, den Business-Case zu verkaufen. Wer schweigt, wird ignoriert."</p>
+</div>
 
 ![Jörg Zimmer - Volle Kraft für SEO](../../assets/images/pages/hero-pose.webp)
 
@@ -82,7 +94,7 @@ Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist
 
 Also: Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
 
-ALOHA! 🌻
+ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
 <strong>Werde Teil der SEO-Welle!</strong>

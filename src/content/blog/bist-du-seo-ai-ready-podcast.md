@@ -15,6 +15,11 @@ key_takeaways:
 
 **Antonio Blago** hat mich eingeladen und was soll ich sagen? In einer Branche, die vor oberflächlichem Geplänkel nur so strotzt, war dieses Gespräch eine echte Wohltat. Antonio stellt nicht nur gute Fragen – er besitzt die seltene Gabe, wirklich zuzuhören und Raum für Antworten zu lassen, die über die üblichen Marketing-Phrasen hinausgehen. Das Ergebnis? Ein Podcast, der kein Buzzword-Bingo ist, sondern ein ehrlicher Schlagabtausch über den Status Quo von SEO, Google Ads und der Frage, wo wir in zwei Jahren stehen werden.
 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Digitaler Erfolg ist kein Sprint, sondern ein strategischer Dauerlauf. Wer heute die Weichen stellt, kontrolliert morgen die KI-Sichtbarkeit."</p>
+</div>
+
 ## 20 Jahre im Geschäft – Ein Blick zurück in die Zukunft
 
 Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten. Aber im Kern geht es immer noch darum: Relevanz schaffen und diese sichtbar machen.

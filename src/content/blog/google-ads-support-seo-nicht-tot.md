@@ -2,7 +2,7 @@
 title: "Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot"
 description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google."
 date: "2026-01-20"
-linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_warum-google-ads-support-nicht-dein-freund-activity-7287019183416819712-lP49"
 image: "../../assets/images/pages/kontakt-hero.webp"
 image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
 category: "SEO Praxis"
@@ -18,6 +18,11 @@ Zwei Aussagen, die ich in fast jedem Erstgespräch machen muss – und sie löse
 Lass uns Tacheles reden. Ohne Weichspüler, direkt aus der Praxis von über zwei Jahrzehnten Arbeit mit den Algorithmen aus Mountain View.
 
 ## 1. Der Google Ads Support ist nicht dein Freund (und war es nie)
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Der Google Support arbeitet für Googles Quartalszahlen, nicht für deinen Kontostand. Vertrau deinen Daten mehr als einem anonymen Callcenter."</p>
+</div>
 
 Klingt hart? Mag sein. Ist es wahr? Zu 100%. Wenn du einen Anruf von einer "Google Ads Strategin" oder einem "Account Spezialisten" bekommst, dann sei dir einer Sache bewusst: Diese Menschen sitzen meist in großen Callcentern in Barcelona, Dublin oder Lissabon. Viele von ihnen haben nach einer kurzen Schulung ihre Skripte in der Hand und ihr Ziel ist klar definiert: **Umsatzsteigerung für Google.**
 
@@ -85,9 +90,6 @@ SEO und SEA sind Werkzeuge. Kraftvoll, wenn man sie beherrscht. Zerstörerisch f
 
 ---
 
-*Hattest du schon mal das Vergnügen mit einem Google Ads "Strategen"? Oder hast du auch schon mal einen SEO-Nachruf geschrieben und ihn dann bereut? Schreib mir auf LinkedIn – ich bin gespannt auf deine Geschichte.*
-
-### Weiterführende Artikel für kritische Denker
-### Weiterführende Artikel
+ALOHA! 🌻✌️
 * **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/)
 * **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

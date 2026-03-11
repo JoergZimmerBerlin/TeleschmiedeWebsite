@@ -11,13 +11,27 @@ key_takeaways:
   - "Rankscale trackt 17 Sprachmodelle gleichzeitig – Domain eingeben, Topic Cluster wählen, fertig."
   - "Marken-Tracking, Sentiment-Analyse und Wettbewerbsvergleich über alle LLMs liefern Reporting auf neuem Level."
   - "Nach 3 Monaten Content-Strategie konnte ein Kunde schwarz auf weiß belegen, dass ChatGPT ihn als Experten nennt."
+faqs:
+  - question: "Warum braucht man 17 LLMs?"
+    answer: "Weil jedes Modell andere Trainingsdaten hat. Wer in ChatGPT sichtbar ist, kann in Claude oder Perplexity komplett fehlen. Nur der 360-Grad-Blick gibt dir echte Sicherheit."
+  - question: "Ist Rankscale für kleine Firmen sinnvoll?"
+    answer: "Für lokale Dienstleister reicht oft Google Maps. Aber wer überregional Kunden gewinnt oder eine Personal Brand aufbaut, muss wissen, was die KIs über ihn erzählen."
+  - question: "Was ist Sentiment-Analyse?"
+    answer: "Sie zeigt nicht nur DASS du erwähnt wirst, sondern WIE. Werden deine Inhalte als Experten-Wissen empfohlen oder nur neutral zitiert? Das ist der neue Hebel für E-E-A-T."
 ---
+
+Moin! 🌻
 
 ## Die Lösung für AI Tracking ist da
 
 Da bin ich wochenlang auf der Suche, wie man die Erwähnungen in den KI-Modellen sauber messen kann — und dann fällt mir die Lösung einfach so auf den Tisch. Ein Tool, was nicht nur ChatGPT, Google AI und Perplexity messen kann, sondern gleich 17 Sprachmodelle und KI-Maschinen.
 
 Die Rede ist von Rankscale aus Österreich. Ich hatte gestern mein kleines Onboarding-Gespräch und bin überrascht, wie intuitiv es ist. Domain eingeben, Topic Cluster wählen, LLM auswählen. Fertig. Das Tool rennt los, erkennt das Umfeld und schaut, wo die Marke inklusive verschiedener Schreibweisen bereits erschienen ist.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"AI-Tracking ist das neue Google Search Console. Wer hier blind fliegt, verliert die Kontrolle über seine wichtigste digitale Währung: Reputation."</p>
+</div>
 
 ![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](../../assets/images/blog/llm-universum-tracking.webp)
 
@@ -72,7 +86,7 @@ Das war mein ehrlicher Erfahrungsbericht. Keine bezahlte Werbung, sondern echte 
 
 ---
 
-Was denkst du? Trackst du bereits deine AI Visibility oder ist das für dich noch Neuland?
+ALOHA! 🌻✌️
 
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)

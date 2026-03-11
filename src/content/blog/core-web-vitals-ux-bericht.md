@@ -2,7 +2,7 @@
 title: "Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst"
 description: "Von 0 auf 216 gute URLs: Ein echter Case aus meiner SEO-Praxis zeigt, wie systematische Core Web Vitals-Optimierung die organische Performance nachhaltig verändert."
 date: "2026-01-05"
-image: "../../assets/images/blog/core-web-vitals-pfeiler.webp"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_core-web-vitals-ux-bericht-activity-7281315863925700608-P_2C"
 image_alt: "Die drei Säulen der Core Web Vitals: LCP, INP und CLS erklärt"
 category: "Technisches SEO"
 tags: ["E-E-A-T"]
@@ -37,9 +37,11 @@ Immer wenn Google ein neues Akronym einführt, verdrehen viele SEOs die Augen. A
 
 Seit 2021 sind die CWV ein offizieller Ranking-Faktor. Aber hand aufs Herz: Das ist zweitrangig. Das wichtigste Argument ist simpler: Schnelle Website = glückliche Nutzer = mehr Conversions.
 
+Zeig dem CEO nicht die Search Console mit grünen und roten Punkten – zeig ihm die Absprungrate und das Conversion-Fenster. Daten zeigen, dass gute Core Web Vitals die Absprungrate um bis zu 24% senken können. Das ist die Sprache, die Budget freisetzt."
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Eine langsame Seite ist wie ein Verkäufer, der erst mal fünf Minuten im Lager verschwindet, wenn ein Kunde den Laden betritt. Die meisten Kunden sind dann schon wieder draußen. Zeig deinem Chef nicht die Search Console – zeig ihm die Absprungrate."</p>
+  <p class="italic text-dark mb-0">"Wer heute noch glaubt, dass PageSpeed nur ein technisches Gimmick ist, hat den Ernst der Lage nicht verstanden. Performance ist Customer Service."</p>
 </div>
 
 ## Die drei Metriken: Was sie bedeuten und wie wir sie gefixt haben

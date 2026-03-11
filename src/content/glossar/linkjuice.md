@@ -5,6 +5,10 @@ date: "2026-03-10"
 image: "../../assets/images/blog/glossar-linkjuice.png"
 image_alt: "Linkjuice & Interne Verlinkung Infografik"
 related_terms: ["crawling-vs-indexing"]
+key_takeaways:
+  - "Linkjuice beschreibt die Verteilung von Autorität und Vertrauen durch interne und externe Links."
+  - "Strategische interne Verlinkung leitet Ranking-Power gezielt auf deine wichtigsten Fokus-Seiten."
+  - "In der KI-Suche wandelt sich Linkjuice zur semantischen Referenz (Marken-Nennung im Kontext)."
 ---
 
 ![Linkjuice Infografik](../../assets/images/blog/glossar-linkjuice.png)

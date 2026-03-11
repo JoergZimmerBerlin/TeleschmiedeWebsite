@@ -4,6 +4,10 @@ description: "Strukturierte Daten sind der Dolmetscher für Google. Sie helfen d
 date: "2026-03-10"
 image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "entitaet", "knowledge-graph"]
+key_takeaways:
+  - "Strukturierte Daten (JSON-LD) übersetzen Website-Inhalte in eine maschinenlesbare Sprache."
+  - "Sie ermöglichen Rich Snippets (Sterne, FAQs, Preise), die CTR und indirekt Rankings steigern."
+  - "Für KI-Suche und GEO sind sie die primäre Datenquelle zur Extraktion korrekter Fakten."
 ---Strukturierte Daten sind die Geheimsprache der SEO-Profis.
 Ganz einfach: Ein standardisierter Code, den du im Hintergrund deiner Website einbaust.
 Für den Nutzer ist er unsichtbar.

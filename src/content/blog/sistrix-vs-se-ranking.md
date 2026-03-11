@@ -2,7 +2,7 @@
 title: "Sistrix vs. SE Ranking: Kann das Tool den Platzhirsch ersetzen?"
 description: "Ein ehrlicher Vergleich zwischen Sistrix und SE Ranking aus der Praxis. Lohnt sich der Wechsel? Vorteile, Nachteile und warum SE Ranking oft die bessere Wahl ist."
 date: "2026-03-06"
-linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W"
 image: "../../assets/images/blog/joerg-und-mitarbeiter.webp"
 image_alt: "Jörg Zimmer und Nico Kavelar von SE Ranking auf der Campixx"
 category: "SEO Tools"

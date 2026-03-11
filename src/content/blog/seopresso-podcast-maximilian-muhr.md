@@ -58,8 +58,6 @@ Wenn du gerade selbst an einem Wendepunkt stehst, wenn du dich fragst, ob die Ko
 **Jetzt reinhören:** [SEOpresso mit Maximilian Muhr](https://seopresso.de)
 
 ### Weiterführende Artikel für Karriere-Planer
-* **Lese-Tipp:** [SEO Persönlich: Mein eigenes Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
 * **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/)
-* **Lese-Tipp:** [Highlights 2025: Ein wilder Ritt durch das SEO-Jahr](/blog/highlights-2025-jahresrueckblick/)
-
-

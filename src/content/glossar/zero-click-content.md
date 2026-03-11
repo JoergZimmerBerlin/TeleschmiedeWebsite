@@ -2,7 +2,7 @@
 title: "Zero-Click Content"
 description: "Zero-Click Content beantwortet Suchanfragen direkt in der SERP oder KI-Antwort – ohne dass der Nutzer klicken muss. Fluch und Chance zugleich."
 date: "2026-03-10"
-image: "../../assets/images/blog/serp-anatomie-de.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["aeo", "ctr", "geo", "snippet-optimierung"]
 key_takeaways:
   - "Realität 2026: Über 60% aller Google-Suchen enden ohne Klick auf ein Suchergebnis."

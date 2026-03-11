@@ -2,7 +2,7 @@
 title: "Conversion Rate (Konversionsrate)"
 description: "Die Conversion Rate ist das Maß deines Erfolgs. Wie viele Besucher tun das, was sie tun sollen? Erfahre mehr über die wichtigste KPI."
 date: "2026-03-10"
-image: "../../assets/images/blog/ai-visibility-trichter.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["traffic", "money-keyword", "usability"]
 key_takeaways:
   - "KPI der Wahrheit: Die Conversion Rate entscheidet über den ROI deines Traffics."
@@ -90,7 +90,6 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deinen Trichter und zeige dir genau, wo du Nutzer verlierst. Lass uns gemeinsam aus deinen Besuchern echte Kunden machen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Conversion-Check anfragen →</a>
 </div>
-
+### Lese-Tipp
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
-* **Lese-Tipp:** [Traffic allein reicht nicht](/glossar/traffic/)
-* **Lese-Tipp:** [Google Ads Kosten im Griff](/google-ads-freelancer-berlin/)
+* **Lese-Tipp:** [Usability & SEO](/glossar/usability/)

@@ -90,7 +90,6 @@ ALOHA! 🌻
 <a href="/seo-sprechstunde/">Jetzt SEO-Sprechstunde buchen</a>
 </div>
 
-### Diese Artikel könnten dich auch interessieren:
+### Weiterführende Artikel
 * **Lese-Tipp:** [LinkedIn ist kein soziales Netzwerk, es ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)
-* **Lese-Tipp:** [Liebe Bots, Crawler und Agenten: Ein offener Brief](/blog/liebe-bots-crawler-agenten/)
-* **Lese-Tipp:** [Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer](/blog/willkommen-seo-jahr-2026/)
+* **Lese-Tipp:** [Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke](/blog/80-prozent-seo-fehler-sprechstunde/)

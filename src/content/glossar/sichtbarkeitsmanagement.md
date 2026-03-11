@@ -2,7 +2,7 @@
 title: "Sichtbarkeitsmanagement"
 description: "Sichtbarkeitsmanagement ist die strategische Steuerung deiner gesamten digitalen Präsenz – in Google, KI-Systemen und auf allen relevanten Plattformen."
 date: "2026-03-10"
-image: "../../assets/images/blog/ai-visibility-trichter.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["sichtbarkeit", "sichtbarkeitsindex", "geo", "entity-seo"]
 key_takeaways:
   - "Ganzheitlich: Sichtbarkeit ist mehr als Google-Rankings – sie umfasst KI-Antworten, Social Media und Branchenverzeichnisse."

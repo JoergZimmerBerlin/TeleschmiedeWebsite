@@ -2,7 +2,7 @@
 title: "Keywörter (Keywords)"
 description: "Keywords sind die Brücke zwischen Nutzerfrage und deiner Antwort. Lerne, wie du die richtigen Begriffe für dein SEO auswählst."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-top-mistakes-checkliste.png"
+image: "../../assets/images/glossar/glossar-keyword-cluster.png"
 related_terms: ["suchvolumen", "keyword-tool", "money-keyword"]
 key_takeaways:
   - "Intent-Fokus: Ein Keyword ist kein Wort, sondern eine Suchabsicht des Nutzers."
@@ -90,6 +90,6 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deine Zielgruppe und finde die Begriffe, die wirklich für Umsatz sorgen. Lass uns deine Keyword-Strategie professionalisieren.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Check anfragen →</a>
 </div>
-
+### Lese-Tipp
+* **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
-* **Lese-Tipp:** [Alles über Suchvolumen](/glossar/suchvolumen/)

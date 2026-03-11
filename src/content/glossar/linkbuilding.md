@@ -2,7 +2,7 @@
 title: "Linkbuilding & Interne Verlinkung"
 description: "Links sind die Empfehlungen des Webs. Erfahre, wie du durch Linkbuilding und smarte interne Verlinkung deine Autorität steigerst."
 date: "2026-03-10"
-image: "../../assets/images/blog/interne-verlinkung-netz-de.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["linkjuice", "seo-beratung", "entitaet"]
 key_takeaways:
   - "Autorität gewinnen: Qualitatives Linkbuilding signalisiert Google Vertrauen und Relevanz."
@@ -70,6 +70,6 @@ ALOHA ✌️
   <p class="mb-6">Lass uns deine interne Verlinkung professionalisieren und einen Plan für nachhaltiges Linkbuilding erstellen. Ich zeige dir, wie du deine Linkkraft verdoppelst.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen →</a>
 </div>
-
-* **Lese-Tipp:** [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)
-* **Lese-Tipp:** [Die Bedeutung von Entitäten im SEO](/glossar/entitaet/)
+### Lese-Tipp
+* **Lese-Tipp:** [Was ist Linkjuice?](/glossar/linkjuice/)
+* **Lese-Tipp:** [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)

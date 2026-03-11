@@ -74,6 +74,6 @@ ALOHA! 🌻
 </div>
 
 ### Weiterführende Artikel für Bot-Versteher
-* **Lese-Tipp:** [Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer](/blog/willkommen-seo-jahr-2026/)
-* **Lese-Tipp:** [GEO, AI-SEO oder LLMO? Die große Umfrage](/blog/geo-seo-ai-seo-llmo-umfrage/)
-* **Lese-Tipp:** [PageSpeed 100/100: Warum technisches SEO die Basis ist](/blog/pagespeed-100-seo-optimierung/)
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt](/blog/geo-seo-ai-seo-llmo-umfrage/)
+* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)

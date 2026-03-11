@@ -2,7 +2,7 @@
 title: "AI SEO"
 description: "AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin."
 date: "2026-03-10"
-image: "../../assets/images/blog/fuenf-saeulen-ai-visibility.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["geo", "aeo", "llmo", "entity-seo"]
 key_takeaways:
   - "Dachbegriff: AI SEO vereint klassisches SEO mit GEO, AEO und LLMO unter einem Dach."

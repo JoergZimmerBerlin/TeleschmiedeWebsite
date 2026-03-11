@@ -2,7 +2,7 @@
 title: "Google Core Update"
 description: "Google Core Updates sind massive Änderungen am Suchalgorithmus. Erfahre, wie du sie überstehst und gestärkt daraus hervorgehst."
 date: "2026-03-10"
-image: "../../assets/images/blog/google-updates-timeline.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["sichtbarkeitsindex", "e-e-a-t", "seo-audit"]
 key_takeaways:
   - "Qualitäts-Zäsur: Core Updates bewerten die gesamte Relevanz und Vertrauenswürdigkeit einer Domain neu."

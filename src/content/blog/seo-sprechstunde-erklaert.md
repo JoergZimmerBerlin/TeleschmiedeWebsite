@@ -80,8 +80,6 @@ Ich liebe es, wenn meine Kunden im Call sagen: "Ach so! Das wusste ich gar nicht
 **Lust auf eine Sprechstunde?** [Hier geht's zur Buchung (wenn noch Slots frei sind)](/kontakt/)
 
 ### Weiterführende Artikel für Tieftaucher
-* **Lese-Tipp:** [Der detaillierte Ablauf: So sieht dein Call aus](/blog/seo-sprechstunde-so-laeuft-sie-ab/)
-* **Lese-Tipp:** [Echtes Kundenfeedback: Die Ronny-Story](/blog/seo-sprechstunde-bewertung-ronny/)
-* **Lese-Tipp:** [Warum PageSpeed die Eintrittskarte für guten Content ist](/blog/pagespeed-100-seo-optimierung/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [Wie läuft so eine SEO-Sprechstunde ab?](/blog/seo-sprechstunde-so-laeuft-sie-ab/)
+* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)

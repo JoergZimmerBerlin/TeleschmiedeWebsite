@@ -66,8 +66,6 @@ LinkedIn wird auf das Problem reagieren müssen. Ob es durch Proof-of-Person-Ver
 *Was ist eure Meinung? Habt ihr "Achims Weihnachtsgrüße" auch schon im Feed gesehen? Wo hört die hilfreiche Unterstützung durch KI auf und wo fängt der Spam an? Diskutiert mit mir auf LinkedIn!*
 
 ### Weiterführende Artikel für KI-Beobachter
-* **Lese-Tipp:** [GEO vs. SEO: Wo liegt der Unterschied in der KI-Suche?](/blog/ai-seo-geo-praktikanten/)
-* **Lese-Tipp:** [SE Ranking AI Tracker: Den Überblick behalten](/blog/se-ranking-ai-tracker/)
-* **Lese-Tipp:** [24 Jahre SEO: Warum wir immer noch an den Basics scheitern](/blog/24-jahre-seo-gleiche-fehler/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)
+* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)

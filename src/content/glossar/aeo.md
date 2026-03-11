@@ -2,7 +2,7 @@
 title: "AEO (Answer Engine Optimization)"
 description: "AEO optimiert deine Inhalte für Antwortmaschinen wie ChatGPT, Perplexity und Google SGE. Der Fokus liegt auf direkten, zitierfähigen Antworten statt klassischer Rankings."
 date: "2026-03-10"
-image: "../../assets/images/blog/geo-aio-komplexitaet.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["geo", "llmo", "geo-vs-seo", "zitierfaehiger-content"]
 key_takeaways:
   - "Paradigmenwechsel: AEO optimiert für Antworten, nicht für Rankings."

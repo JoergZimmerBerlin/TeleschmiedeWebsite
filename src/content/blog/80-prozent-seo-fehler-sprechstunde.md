@@ -90,7 +90,7 @@ ALOHA! 🌻
 <a href="/seo-sprechstunde/">Jetzt Analyse-Termin sichern</a>
 </div>
 
-### Diese Artikel könnten dich auch interessieren:
+### Weiterführende Artikel
 * **Lese-Tipp:** [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/)
 * **Lese-Tipp:** [LinkedIn ist kein soziales Netzwerk, es ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)
 * **Lese-Tipp:** [Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer](/blog/willkommen-seo-jahr-2026/)

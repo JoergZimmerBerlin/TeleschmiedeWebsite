@@ -2,7 +2,7 @@
 title: "Suchvolumen (Search Volume)"
 description: "Suchvolumen zeigt dir, wie viele Menschen monatlich nach einem Begriff suchen. Ein wichtiger Indikator, aber oft überschätzt."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-strategie-vergleich-de.png"
+image: "../../assets/images/glossar/glossar-suchvolumen-prognose.png"
 related_terms: ["keywoerter", "keyword-tool", "sichtbarkeit"]
 key_takeaways:
   - "Potenzial-Messwert: Suchvolumen zeigt das theoretische Interesse an einem Thema."
@@ -83,6 +83,7 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere dein Keyword-Set und finde die Schätze, die wirklich für Conversions sorgen. Lass uns dein SEO auf profitable Beine stellen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Potenzial-Audit anfragen →</a>
 </div>
-
-* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
+### Lese-Tipp
+* **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
 * **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
+* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)

@@ -2,7 +2,7 @@
 title: "Google Search Console"
 description: "Die Google Search Console ist das wichtigste Werkzeug für jeden Webseitenbetreiber. Hier erfährst du direkt von Google, wie deine Seite performt."
 date: "2026-03-10"
-image: "../../assets/images/blog/rankscale-essentials-hero.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["crawling-vs-indexing", "sitemap", "keyword-tool"]
 key_takeaways:
   - "Direktquelle: Die Daten stammen ohne Umwege direkt aus dem Google-Index."

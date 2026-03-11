@@ -125,8 +125,6 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 *ALOHA! 🌻 – Lass uns deine Seite zum Rennen bringen!*
 
 ### Weiterführende Artikel für Performance-Freaks
-* **Lese-Tipp:** [Core Web Vitals: Warum dein UX-Bericht über deinen Erfolg entscheidet](/blog/core-web-vitals-ux-bericht/)
+### Weiterführende Artikel
+* **Lese-Tipp:** [Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst](/blog/core-web-vitals-ux-bericht/)
 * **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
-* **Lese-Tipp:** [Rankscale: So tracke ich Sichtbarkeit in der KI-Welt](/blog/rankscale-ai-visibility-tool/)
-
-

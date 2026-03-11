@@ -79,8 +79,6 @@ Und wenn dir das alles zu technisch ist oder du den Wald vor lauter Bäumen nich
 *Wusstest du, dass gute Core Web Vitals auch deine Absprungrate um bis zu 24% senken können? Es lohnt sich also nicht nur für Google.*
 
 ### Weiterführende Artikel für Performance-Junkies
-* **Lese-Tipp:** [PageSpeed 100/100: So wurde diese Website blitzschnell](/blog/pagespeed-100-seo-optimierung/) - Ein Deep Dive in die Technik.
-* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/) - Warum wir die Basics oft vergessen.
-* **Lese-Tipp:** [GEO, SEO, AI-SEO: Warum Erfahrung beim Tech-Stack zählt](/blog/ai-seo-geo-praktikanten/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [PageSpeed 100/100: So wurde diese Website blitzschnell](/blog/pagespeed-100-seo-optimierung/)
+* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

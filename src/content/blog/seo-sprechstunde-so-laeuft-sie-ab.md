@@ -79,8 +79,6 @@ Eine SEO-Sprechstunde ist manchmal wie ein Gang zum Arzt: Man hat ein bisschen A
 **Bock auf Action?** [Termin für die Sprechstunde anfragen](/kontakt/)
 
 ### Weiterführende Artikel für Strategen
-* **Lese-Tipp:** [Die Sprechstunde erklärt: Was genau ist das "Grill-Konzept"?](/blog/seo-sprechstunde-erklaert/)
-* **Lese-Tipp:** [5-Sterne-Feedback: Die Ronny-Story](/blog/seo-sprechstunde-bewertung-ronny/)
-* **Lese-Tipp:** [Der Google Ads Support ist nicht dein Freund - die Sprechstunde schon](/blog/google-ads-support-seo-nicht-tot/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)
+* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)

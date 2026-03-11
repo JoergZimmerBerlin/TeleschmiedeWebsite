@@ -88,8 +88,6 @@ SEO und SEA sind Werkzeuge. Kraftvoll, wenn man sie beherrscht. Zerstörerisch f
 *Hattest du schon mal das Vergnügen mit einem Google Ads "Strategen"? Oder hast du auch schon mal einen SEO-Nachruf geschrieben und ihn dann bereut? Schreib mir auf LinkedIn – ich bin gespannt auf deine Geschichte.*
 
 ### Weiterführende Artikel für kritische Denker
-* **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/) – Ein Deep Dive in die Gerüchteküche.
-* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/) – Warum wir immer wieder in die gleichen Fallen tappen.
-* **Lese-Tipp:** [Bist du SEO AI ready? Ein ehrlicher Check](/blog/bist-du-seo-ai-ready-podcast/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/)
+* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

@@ -100,7 +100,6 @@ ALOHA! 🌻
 <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR" target="_blank">Zur LinkedIn Diskussion (34+ Kommentare)</a>
 </div>
 
-### Diese Artikel könnten dich auch interessieren:
-* **Lese-Tipp:** [Liebe Bots, Crawler und Agenten: Ein offener Brief](/blog/liebe-bots-crawler-agenten/)
-* **Lese-Tipp:** [Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer](/blog/willkommen-seo-jahr-2026/)
-* **Lese-Tipp:** [SEO-Sprechstunde erklärt: Website auf den Grill](/blog/seo-sprechstunde-erklaert/)
+### Weiterführende Artikel
+* **Lese-Tipp:** [Wenn AI-Agenten deinen LinkedIn-Feed kapern](/blog/ai-agent-weihnachtsgruesse-linkedin/)
+* **Lese-Tipp:** [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/)

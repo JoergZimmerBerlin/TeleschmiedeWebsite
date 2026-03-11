@@ -68,8 +68,6 @@ Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. 
 **Hör mal rein:** [Magic Writing Podcast: Jörg Zimmer & Michael Kaufhold](https://linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk)
 
 ### Weiterführende Artikel für Strategen
-* **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/) – Ein weiterer Blick in die KI-Glaskugel.
-* **Lese-Tipp:** [Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot](/blog/google-ads-support-seo-nicht-tot/) – Warum Skepsis eine Tugend ist.
-* **Lese-Tipp:** [GEO, SEO, AI-SEO: Warum Erfahrung das neue Gold ist](/blog/ai-seo-geo-praktikanten/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/)
+* **Lese-Tipp:** [Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot](/blog/google-ads-support-seo-nicht-tot/)

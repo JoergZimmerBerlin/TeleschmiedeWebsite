@@ -64,9 +64,6 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
 - auf YouTube (inklusive Zeitstempel für die ungeduldigen): [Zum Video: Klartext aus 20 Jahren SEO & Google Ads](https://youtu.be/pJFZzv5LEvk)
 - und natürlich auf Spotify für unterwegs.
 
-### Weiterführende Artikel für Deep-Diver
-* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/) - Ein weiteres Gespräch über die SEO-Zukunft.
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
 * **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
-* **Lese-Tipp:** [GEO, SEO oder LLMO? Die Community-Umfrage](/blog/geo-seo-ai-seo-llmo-umfrage/)
-
-

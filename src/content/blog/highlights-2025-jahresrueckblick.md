@@ -76,8 +76,6 @@ Auf ein noch wilderes, spannenderes und erfolgreiches 2026! Lasst uns die KIs z�
 *ALOHA! 🌻 – Wir sehen uns in den Kommentaren!*
 
 ### Weiterführende Artikel für den Rückblick-Effekt
-* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/) – Mehr Storys von mir.
-* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/) – Echte Ergebnisse.
-* **Lese-Tipp:** [Hinter den Kulissen: 24 Jahre SEO-Erfahrung](/blog/24-jahre-seo-gleiche-fehler/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
+* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)

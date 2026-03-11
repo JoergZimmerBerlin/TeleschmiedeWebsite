@@ -66,8 +66,6 @@ Wer das beherrscht, ist 90% seiner Konkurrenz voraus – egal ob 2002, 2026 oder
 *Woran scheitert es bei euch am häufigsten? An der Technik, am Content oder an der Geduld? Schreibt mir auf LinkedIn – ich bin gespannt, ob ihr auch noch Fehler aus der "guten alten Zeit" entdeckt.*
 
 ### Weiterführende Artikel für Langstreckenläufer
-* **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Was wirklich zählt](/blog/geo-seo-ai-seo-llmo-umfrage/)
-* **Lese-Tipp:** [Die SEO-Sprechstunde erklärt: Website auf den Grill legen](/blog/seo-sprechstunde-erklaert/)
-* **Lese-Tipp:** [PageSpeed 100/100: So geht Technik heute](/blog/pagespeed-100-seo-optimierung/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt](/blog/geo-seo-ai-seo-llmo-umfrage/)
+* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)

@@ -87,6 +87,6 @@ ALOHA! 🌻
 </div>
 
 ### Weiterführende Artikel für Strategen
-* **Lese-Tipp:** [24 Jahre SEO: Warum immer die gleichen Fehler passieren](/blog/24-jahre-seo-gleiche-fehler/)
-* **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast klärt auf](/blog/magic-writing-podcast-seo-ist-tot/)
-* **Lese-Tipp:** [Die SEO-Sprechstunde erklärt: Website auf den Grill](/blog/seo-sprechstunde-erklaert/)
+### Weiterführende Artikel
+* **Lese-Tipp:** [Highlights 2025 - Ein SEO-Jahresrückblick](/blog/highlights-2025-jahresrueckblick/)
+* **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

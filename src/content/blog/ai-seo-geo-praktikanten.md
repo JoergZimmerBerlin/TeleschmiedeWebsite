@@ -79,8 +79,6 @@ Investiert in Wissen, investiert in Tiefe und bleibt neugierig. Aber lasst die F
 *Das vollständige Video mit einer tiefgehenden Analyse der neuen SEO-Landschaft findet ihr auf YouTube bei SEO Presso.*
 
 ### Weiterführende Artikel für Strategen
-* **Lese-Tipp:** [Wenn AI-Agenten deinen LinkedIn-Feed kapern](/blog/ai-agent-weihnachtsgruesse-linkedin/) - Was Automatisierung mit deiner Marke macht.
-* **Lese-Tipp:** [Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken](/blog/rankscale-ai-visibility-tracking-17-llms/) - So misst du den Erfolg in der neuen Welt.
-* **Lese-Tipp:** [Core Web Vitals & UX: Technisches Fundament für die KI-Suche](/blog/core-web-vitals-ux-bericht/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [Wenn AI-Agenten deinen LinkedIn-Feed kapern](/blog/ai-agent-weihnachtsgruesse-linkedin/)
+* **Lese-Tipp:** [Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken](/blog/rankscale-ai-visibility-tracking-17-llms/)

@@ -2,7 +2,7 @@
 title: "SEO Coaching"
 description: "SEO Coaching macht dich unabhängig von Agenturen. Lerne die Tools und Strategien, um dein eigenes SEO zu beurteilen und zu steuern."
 date: "2026-03-10"
-image: "../../assets/images/blog/karriere-evolution-seo.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
 key_takeaways:
   - "Empowerment: Coaching macht dich unabhängig von Agenturen und Dienstleistern."

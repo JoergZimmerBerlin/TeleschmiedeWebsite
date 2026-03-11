@@ -2,7 +2,7 @@
 title: "Sitemap"
 description: "Eine Sitemap ist der Wegweiser für Google. Sie hilft Crawlern, alle wichtigen Seiten deiner Website schnell und effizient zu finden."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-relaunch-checklist-visual.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["crawler", "robots-txt", "crawling-vs-indexing"]
 key_takeaways:
   - "Crawler-Effizienz: Eine saubere Sitemap spart wertvolles Crawl-Budget."

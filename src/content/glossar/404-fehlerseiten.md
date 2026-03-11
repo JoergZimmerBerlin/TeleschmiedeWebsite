@@ -2,7 +2,7 @@
 title: "404 Fehlerseiten"
 description: "Eine 404 Fehlerseite erscheint, wenn ein Inhalt nicht gefunden wird. Erfahre, warum das für dein SEO gefährlich ist und wie du es löst."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-fehler-dauerbrenner-de.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["crawler", "seo-audit", "usability", "301-redirect"]
 key_takeaways:
   - "Sackgassen vermeiden: 404-Fehler vergraulen Nutzer und verschwenden Crawl-Budget."

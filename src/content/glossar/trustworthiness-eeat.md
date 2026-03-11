@@ -2,7 +2,7 @@
 title: "Trustworthiness (E-E-A-T Faktor)"
 description: "Trustworthiness (Vertrauenswürdigkeit) ist der zentrale E-E-A-T Faktor. Google sagt selbst: Ohne Trust sind Experience, Expertise und Authority wertlos."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-relaunch-checklist-visual.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativeness-eeat"]
 key_takeaways:
   - "Kern-Faktor: Trustworthiness steht im Zentrum von E-E-A-T – alle anderen Faktoren bauen darauf auf."

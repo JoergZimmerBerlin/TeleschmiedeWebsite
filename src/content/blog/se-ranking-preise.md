@@ -115,9 +115,6 @@ ALOHA! 🌻
 
 ---
 
-### Weiterführende Artikel für Experten
-* **Lese-Tipp:** [SE Ranking AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
-* **Lese-Tipp:** [Rankscale: AI Visibility Tracking im Vergleich](/blog/rankscale-ai-visibility-tool/)
-* **Lese-Tipp:** [PageSpeed 100/100: Warum technisches SEO die Basis ist](/blog/pagespeed-100-seo-optimierung/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
+* **Lese-Tipp:** [Sistrix vs. SE Ranking: Kann das Tool den Platzhirsch ersetzen?](/blog/sistrix-vs-se-ranking/)

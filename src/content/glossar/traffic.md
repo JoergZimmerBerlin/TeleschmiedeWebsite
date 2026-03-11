@@ -2,7 +2,7 @@
 title: "Traffic (Besucherströme)"
 description: "Traffic bezeichnet die Anzahl der Besucher auf deiner Website. Aber Vorsicht: Nicht jeder Klick ist gleich viel wert."
 date: "2026-03-10"
-image: "../../assets/images/blog/ai-visibility-trichter.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]
 key_takeaways:
   - "Qualität vor Quantität: Qualifizierter Traffic von potenziellen Kunden ist wertvoller als reine Masse."

@@ -44,7 +44,21 @@ export const GET = async () => {
   <url>
     <loc>${baseUrl}/blog/${post.slug}/</loc>
     <image:image>
-      <image:loc>${baseUrl}${post.data.image}</image:loc>
+      <image:loc>${baseUrl}${post.data.image.src}</image:loc>
+      <image:title>${post.data.title}</image:title>
+    </image:image>
+  </url>`;
+        }
+    }
+
+    const glossaryPosts = await getCollection('glossar');
+    for (const post of glossaryPosts) {
+        if (post.data.image) {
+            urls += `
+  <url>
+    <loc>${baseUrl}/glossar/${post.slug}/</loc>
+    <image:image>
+      <image:loc>${baseUrl}${post.data.image.src}</image:loc>
       <image:title>${post.data.title}</image:title>
     </image:image>
   </url>`;

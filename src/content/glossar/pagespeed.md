@@ -2,7 +2,7 @@
 title: "PageSpeed (Ladezeit-Optimierung)"
 description: "PageSpeed beschreibt die Zeitspanne, die eine Website benötigt, um Inhalte vollständig für den Nutzer darzustellen. Ein kritischer Rankingfaktor für SEO und UX."
 date: "2026-03-10"
-image: "../../assets/images/blog/pagespeed-100-de.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["core-web-vitals", "noindex"]
 key_takeaways:
   - "Konvertierungsfaktor: Jede Sekunde Ladezeit kostet bares Geld (bis zu 7% Conversion-Rate)."

@@ -83,8 +83,6 @@ Wenn du auch das Gefühl hast, dass deine Website "mehr könnte", aber du nicht 
 *Hattest du schon mal eine Beratung, bei der du danach dachtest: "Das war jeden Cent wert"? Schreib mir auf LinkedIn – ich freue mich über jede Erfolgsstory!*
 
 ### Weiterführende Artikel für Sprechstunden-Interessierte
-* **Lese-Tipp:** [Die SEO-Sprechstunde erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)
-* **Lese-Tipp:** [Was Kunden wirklich über mich sagen (Bewertungen)](/blog/seo-sprechstunde-so-laeuft-sie-ab/)
-* **Lese-Tipp:** [24 Jahre SEO - und warum ich immer noch lerne](/blog/24-jahre-seo-gleiche-fehler/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill](/blog/seo-sprechstunde-erklaert/)
+* **Lese-Tipp:** [Wie läuft so eine SEO-Sprechstunde ab?](/blog/seo-sprechstunde-so-laeuft-sie-ab/)

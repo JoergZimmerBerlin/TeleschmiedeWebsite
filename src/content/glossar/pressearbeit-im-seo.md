@@ -2,7 +2,7 @@
 title: "Pressearbeit im SEO (Digital PR)"
 description: "Pressearbeit im SEO (Digital PR) verbindet klassische PR mit Suchmaschinenoptimierung. Erfahre, wie Medienarbeit deine Rankings, Autorität und KI-Sichtbarkeit stärkt."
 date: "2026-03-10"
-image: "../../assets/images/blog/karriere-evolution-seo.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["linkbuilding", "mention", "e-e-a-t", "markenaufbau-mit-seo"]
 key_takeaways:
   - "Natürliche Backlinks: Pressearbeit erzeugt die hochwertigsten Links, die kein Geld der Welt kaufen kann."

@@ -2,7 +2,7 @@
 title: "Money Keyword"
 description: "Money Keywords sind Begriffe mit einer klaren Kaufabsicht. Hier erfährst du, wie du die rentabelsten Begriffe für dein Business findest."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-strategie-vergleich-de.png"
+image: "../../assets/images/glossar/glossar-money-keyword-visual.png"
 related_terms: ["keywoerter", "cpc", "conversion-rate"]
 key_takeaways:
   - "Kaufabsicht: Money Keywords haben eine transaktionale Intention (Kaufen, Buchen, Preis)."
@@ -83,6 +83,6 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deine Suchbegriffe und finde die echten Umsatztreiber für dein Business. Lass uns profitables SEO machen!</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Gespräch buchen →</a>
 </div>
-
-* **Lese-Tipp:** [Was ist die Conversion Rate?](/glossar/conversion-rate/)
-* **Lese-Tipp:** [Suchintention verstehen](/glossar/keywordrecherche/)
+### Lese-Tipp
+* **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
+* **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)

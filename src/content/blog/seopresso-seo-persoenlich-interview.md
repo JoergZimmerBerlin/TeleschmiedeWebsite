@@ -63,8 +63,6 @@ Genau das ist der Punkt: Niemand ist eine Insel. Auch nach 24 Jahren weiß ich, 
 **Hör mal rein und sag mir auf LinkedIn, was du davon hältst!**
 
 ### Weiterführende Artikel zum Podcast-Thema
-* **Lese-Tipp:** [Empfehlung: Max Muhr im SEOpresso Podcast](/blog/seopresso-podcast-maximilian-muhr/)
-* **Lese-Tipp:** [Jahresrückblick 2025: Was mich bewegt hat](/blog/highlights-2025-jahresrueckblick/)
-* **Lese-Tipp:** [24 Jahre SEO: Die gleichen Fehler immer wieder](/blog/24-jahre-seo-gleiche-fehler/)
-
-
+### Weiterführende Artikel
+* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
+* **Lese-Tipp:** [Highlights 2025 - Ein SEO-Jahresrückblick](/blog/highlights-2025-jahresrueckblick/)

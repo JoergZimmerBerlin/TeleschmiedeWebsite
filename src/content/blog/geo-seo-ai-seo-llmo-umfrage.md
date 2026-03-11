@@ -97,8 +97,6 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
 *Wie nennst du das Kind beim Namen? Oder ist dir das Marketing-Sprech auch völlig egal, solange die Rankings stimmen? Schreib mir auf LinkedIn – ich bin gespannt auf eure Meinung.*
 
 ### Weiterführende Artikel zum Thema KI-Sichtbarkeit
-* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/) - Wie man den Wahnsinn misst.
+### Weiterführende Artikel
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
-* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr den Praktikanten NICHT dransetzen solltet](/blog/ai-seo-geo-praktikanten/)
-
-

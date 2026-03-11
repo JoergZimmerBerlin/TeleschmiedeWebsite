@@ -2,7 +2,7 @@
 title: "Zitierfähiger Content"
 description: "Zitierfähiger Content ist Content, den KI-Systeme und Suchmaschinen wortwörtlich als Antwort übernehmen können. Die Grundlage für AEO und GEO."
 date: "2026-03-10"
-image: "../../assets/images/blog/contextual-seo-bruecke-de.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["aeo", "geo", "zero-click-content", "faq-markup"]
 key_takeaways:
   - "Zitat-Ready: Schreib Sätze, die eine KI direkt als Antwort verwenden kann."

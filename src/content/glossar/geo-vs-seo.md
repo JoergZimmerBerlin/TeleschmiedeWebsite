@@ -2,7 +2,7 @@
 title: "GEO vs. SEO: Die Zukunft der Suche"
 description: "Was ist der Unterschied zwischen klassischem SEO und moderner Generative Engine Optimization (GEO)? Ein Blick in die Zukunft der AI-Search."
 date: "2026-03-10"
-image: "../../assets/images/blog/rankscale-ai-visibility-tracking.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["geo", "e-e-a-t", "knowledge-graph"]
 key_takeaways:
   - "Paradigma-Wechsel: SEO optimiert für Suchmaschinen (Listen), GEO für KI-Engines (Antworten)."

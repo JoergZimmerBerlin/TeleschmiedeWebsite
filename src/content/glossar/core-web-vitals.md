@@ -2,7 +2,7 @@
 title: "Core Web Vitals (CWV)"
 description: "Die Core Web Vitals sind ein essenzielles Set standardisierter Metriken von Google, die die reale User Experience (UX) einer Webseite quantifizieren. Erfahre alles über LCP, INP und CLS."
 date: "2026-03-10"
-image: "../../assets/images/blog/core-web-vitals-pfeiler.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["geo", "pagespeed", "usability"]
 key_takeaways:
   - "UX als Rankingfaktor: Google bewertet die gefühlte Geschwindigkeit und Stabilität deiner Seite."

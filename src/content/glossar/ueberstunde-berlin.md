@@ -2,7 +2,7 @@
 title: "Die Überstunde Berlin"
 description: "Die Überstunde ist das After-Work-Event in Berlin für Macher und Kreative. Ein Ort für entspanntes Networking fernab von steifen Visitenkarten-Partys."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-community-visibility-wave.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["seo-stammtisch-berlin", "campixx-berlin", "local-seo"]
 key_takeaways:
   - "Lockerer Vibe: Netzwerken ohne den Druck klassischer Business-Events."

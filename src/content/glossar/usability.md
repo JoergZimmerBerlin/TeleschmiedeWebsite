@@ -2,7 +2,7 @@
 title: "Usability (Nutzungsfreundlichkeit)"
 description: "Usability entscheidet, ob Nutzer auf deiner Website bleiben oder gehen. Ein kritischer Faktor für SEO und Conversion."
 date: "2026-03-10"
-image: "../../assets/images/blog/seo-relaunch-checklist-visual.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["pagespeed", "conversion-rate", "traffic", "core-web-vitals"]
 key_takeaways:
   - "User-Fokus: Gute Usability reduziert die Absprungrate und erhöht die Verweildauer."

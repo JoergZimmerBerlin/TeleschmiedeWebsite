@@ -99,8 +99,6 @@ ALOHA! 🌻
 
 *PS: Wenn du Hilfe beim Setup brauchst, buche dir eine [SEO-Sprechstunde](/seo-sprechstunde/) bei mir. Wir biegen deine AI-Visibility gemeinsam gerade!*
 
-### Diese Artikel könnten dich auch interessieren:
-* [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
-* [Deep Dive: 17 LLMs mit Rankscale tracken – Mein Erfahrungsbericht](/blog/rankscale-ai-visibility-tracking-17-llms/)
-* [GEO vs. SEO: Wo liegt der Unterschied?](/blog/geo-seo-ai-seo-llmo-umfrage/)
-* [SE Ranking launcht AI Tracker](/blog/se-ranking-ai-tracker/)
+### Weiterführende Artikel
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
+* **Lese-Tipp:** [Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken](/blog/rankscale-ai-visibility-tracking-17-llms/)

@@ -2,7 +2,7 @@
 title: "Crawling vs. Indexing"
 description: "Crawling und Indexing sind die zwei grundlegenden Backend-Prozesse jeder Suchmaschine. Ihre Unterscheidung ist existenziell zur Fehlerbehebung im SEO."
 date: "2026-03-10"
-image: "../../assets/images/blog/google-updates-timeline.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["robots-txt", "linkjuice"]
 key_takeaways:
   - "Sequenzieller Prozess: Eine Seite muss erst fehlerfrei gecrawlt werden, bevor sie indexiert werden kann."

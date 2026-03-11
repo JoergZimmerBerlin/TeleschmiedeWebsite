@@ -2,7 +2,7 @@
 title: "LLM-Optimization (LLMO)"
 description: "LLMO optimiert deine Inhalte speziell für Large Language Models wie ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt werden."
 date: "2026-03-10"
-image: "../../assets/images/blog/fuenf-saeulen-ai-visibility.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["geo", "aeo", "entity-seo", "citation"]
 key_takeaways:
   - "Trainingsdata-Fokus: LLMO sorgt dafür, dass dein Name in den Trainingsdaten der LLMs positiv vorkommt."

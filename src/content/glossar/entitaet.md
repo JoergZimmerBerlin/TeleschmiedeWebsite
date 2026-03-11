@@ -2,7 +2,7 @@
 title: "Entität (Entity)"
 description: "Eine Entität ist ein eindeutig identifizierbares Objekt – wie eine Person, ein Ort oder ein Konzept. Sie ist der Grundbaustein der modernen semantischen Suche."
 date: "2026-03-10"
-image: "../../assets/images/blog/contextual-seo-bruecke-de.png"
+image: "../../assets/images/glossar/glossar-theme-technical.png"
 related_terms: ["knowledge-graph", "mention", "geo"]
 key_takeaways:
   - "Vom Wort zum Ding: Google versteht die Welt heute in Objekten (Entitäten), nicht nur in Zeichenketten."
@@ -54,6 +54,11 @@ In der [Generative Engine Optimization (GEO)](/glossar/geo/) optimieren wir nich
 ### Zusammenfassung
 
 Entitäten sind die neue Währung der Suche. Google möchte nicht mehr nur nach passenden Worten suchen, sondern Antworten auf Konzepte liefern. Werde für Google zu einer greifbaren, eindeutigen und hochgradig vernetzten Entität. Sorge für konsistente Daten im Netz, nutze Schema-Markup und positioniere dich als unangefochtener Experte in deiner Nische. Wenn Google weiß, *wer* du bist, folgen die Rankings fast von ganz alleine.
+
+
+### Lese-Tipp
+* **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
+* **Lese-Tipp:** [Semantic SEO einfach erklärt](/glossar/semantic-seo/)
 
 ---
 

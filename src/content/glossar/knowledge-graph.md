@@ -15,7 +15,9 @@ faqs:
     answer: "Ein Knowledge Panel ist kein lebenslanger Titel, sondern eine dynamische Anzeige. Wenn Google widersprüchliche Signale aus dem Web empfängt (z.B. unterschiedliche Adressen in wichtigen Verzeichnissen), sinkt der 'Confidence Score' des Algorithmus und das Panel verschwindet. Ebenso kann es passieren, wenn die Relevanz deiner Marke drastisch sinkt oder wenn ein Core Update die Algorithmen zur Entitäten-Berechnung neu justiert."
   - question: "Was ist der Unterschied zwischen Wikidata und dem Knowledge Graph?"
     answer: "Wikidata ist ein offenes, kollaboratives Projekt der Wikimedia Foundation, in das Theoretisch jeder strukturierte Fakten eintragen kann. Der Knowledge Graph ist hingegen Googles geschlossene, private Datenbank. Google nutzt Wikidata massiv als eine von vielen vertrauenswürdigen Quellen, um seinen eigenen Graph zu füttern. Ein sauberer Wikidata-Eintrag für dich oder dein Unternehmen ist daher einer der stärksten Hebel für deinen eigenen Knowledge Graph Eintrag."
----Der Knowledge Graph (Wissens-Graph) ist Googles Gehirn. Er wurde 2012 eingeführt und markierte den Übergang von einer bloßen Indexierung von Texten hin zu einer intelligenten Wissensdatenbank. Er ist der Grund, warum du in der Google-Suche oft direkt eine Infobox (Knowledge Panel) rechts neben den Ergebnissen siehst, wenn du nach Prominenten, Firmen oder Nationalparks suchst.
+---
+
+Der Knowledge Graph (Wissens-Graph) ist Googles Gehirn. Er wurde 2012 eingeführt und markierte den Übergang von einer bloßen Indexierung von Texten hin zu einer intelligenten Wissensdatenbank. Er ist der Grund, warum du in der Google-Suche oft direkt eine Infobox (Knowledge Panel) rechts neben den Ergebnissen siehst, wenn du nach Prominenten, Firmen oder Nationalparks suchst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

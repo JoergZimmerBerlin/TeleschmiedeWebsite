@@ -15,7 +15,9 @@ faqs:
     answer: "Starte mit einem Pillar-Artikel zu deinem Kernthema (z.B. 'E-E-A-T'). Dann erstellst du Unterthemen-Artikel zu jedem Aspekt (Experience, Expertise, Authoritativeness, Trustworthiness). Verlinke alles intern. So entsteht ein 'Topic Cluster', das Google signalisiert: Diese Website ist die Autorität für dieses Thema. Genau so baue ich meine eigenen Cluster auf – ein starker Pillar-Artikel verlinkt auf Detailartikel, die wiederum untereinander und nach außen verlinken."
   - question: "Spielt Semantic SEO auch für die KI-Suche eine Rolle?"
     answer: "Absolut! KI-Modelle verstehen Sprache semantisch – sie denken in Konzepten, nicht in Keywords. Eine Website mit einem starken semantischen Netz wird von LLMs als umfassende Wissensquelle erkannt. Das erhöht die Wahrscheinlichkeit, als Quelle zitiert zu werden. Semantic SEO ist damit die Brücke zwischen klassischem SEO und GEO."
----Moin!
+---
+
+Moin!
 
 **Semantic SEO** ist der Grund, warum ein Glossar mit 60+ Einträgen mehr wert ist als 60 einzelne Blogartikel auf verschiedenen Domains.
 

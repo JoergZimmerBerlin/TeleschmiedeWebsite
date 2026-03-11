@@ -8,7 +8,9 @@ key_takeaways:
   - "Eine Grounding Page liefert verifizierbare Fakten statt Marketing-Floskeln für LLMs."
   - "Sie dient als 'Source of Truth' für KI-Agenten und erhöht die Zitationsrate in GEO."
   - "Struktur schlägt Content-Masse: Klare Daten, Tabellen und neutraler Ton sind entscheidend."
----Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/).
+---
+
+Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/).
 Früher haben wir Landingpages für Nutzer gebaut.
 Heute bauen wir Grounding Pages für Maschinen.
 

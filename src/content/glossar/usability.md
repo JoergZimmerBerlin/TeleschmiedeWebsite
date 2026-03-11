@@ -15,7 +15,9 @@ faqs:
     answer: "Absolut, auch wenn es indirekt gemessen wird. Google nutzt Core Web Vitals und Nutzersignale (wie Pogo-Sticking), um zu bewerten, wie zufrieden Besucher mit deiner Seite sind. Wenn jemand nach drei Sekunden genervt abbricht, weil ein Popup den Text verdeckt oder das Menü unbedienbar ist, registriert Google das als schlechte Erfahrung. Eine hohe Usability hält Nutzer auf der Seite und sendet starke Relevanzsignale an den Algorithmus."
   - question: "Wie kann ich die Usability meiner Website testen?"
     answer: "Der erste Schritt kostet nichts: Gib fünf Freunden, die deine Seite nicht kennen, eine konkrete Aufgabe (z.B. 'Finde meine Preise und schick mir eine Anfrage') und schau ihnen dabei unkommentiert über die Schulter. Für datengetriebene Insights nutze ich Tools wie Microsoft Clarity oder Hotjar für Heatmaps und Session-Aufzeichnungen. Außerdem verraten dir hohe Absprungraten in Google Analytics exakt, an welchen Stellen die Usability deiner Nutzerführung scheitert."
----Moin!
+---
+
+Moin!
 
 Usability ist kein Design-Thema. Es ist ein Business-Thema. 
 Ganz einfach: Versteht ein Nutzer innerhalb von 3 Sekunden, was er bei dir tun soll? 

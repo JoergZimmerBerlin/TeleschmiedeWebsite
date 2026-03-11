@@ -15,7 +15,9 @@ faqs:
     answer: "Nein, und das ist der häufigste und gefährlichste Irrtum im technischen SEO! Die robots.txt blockiert nur das Crawling – die Seite kann trotzdem im Index bleiben (nur ohne Beschreibung). Wenn du eine URL wirklich aus den Suchergebnissen entfernen willst, musst du das Noindex Meta-Tag setzen. Diesen Unterschied erkläre ich ausführlich im Glossar unter Crawling vs. Indexing."
   - question: "Wie teste ich, ob meine robots.txt korrekt funktioniert?"
     answer: "Google bietet dafür ein kostenloses Tool in der Google Search Console: Den 'robots.txt Tester'. Dort kannst du einzelne URLs eingeben und prüfen, ob sie blockiert oder erlaubt sind. Außerdem empfehle ich nach jedem Relaunch einen manuellen Check: Ruf einfach deinedomain.de/robots.txt im Browser auf und prüf die Regeln Zeile für Zeile. In meinem Setup blockiere ich klassischerweise nur irrelevante Verzeichnisse (wie Admin-Bereiche) und verlinke natürlich die Sitemap."
----Moin!
+---
+
+Moin!
 
 Die `robots.txt` ist das digitale "Betreten verboten"-Schild deiner Website. 
 Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner Tippfehler hier kann deine gesamte Online-Präsenz vernichten.

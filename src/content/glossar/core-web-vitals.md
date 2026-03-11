@@ -15,7 +15,9 @@ faqs:
     answer: "FID (First Input Delay) hat nur die allererste Interaktion gemessen – das war Google zu ungenau. INP (Interaction to Next Paint) misst jetzt die Verzögerung aller Interaktionen auf einer Seite. Wenn deine Seite beim Scrollen stockt oder das Menü erst nach einer Gedenksekunde aufklappt, schlägt dein INP-Wert aus. Es geht um die 'gefühlte' Flüssigkeit deiner Seite, nicht nur um den ersten Klick."
   - question: "Beeinflussen Core Web Vitals mein Google-Ranking massiv?"
     answer: "Ja, sie sind seit 2021 ein offizieller Rankingfaktor. Stell dir die CWV wie einen 'Tie-Breaker' vor: Wenn zwei Seiten inhaltlich gleichwertig sind, gewinnt die mit der besseren Performance. Zudem wirken sie indirekt: Langsame Seiten erhöhen die Absprungrate, was wiederum ein negatives Signal an Google sendet. Grüne Vitals sind die Eintrittskarte in die Top 3 der Suchergebnisse."
----Moin!
+---
+
+Moin!
 
 Wer mich kennt, weiß: Ich bin kein Fan von theoretischem Schnickschnack. 
 Im SEO zählt am Ende, was beim Nutzer ankommt.

@@ -15,7 +15,9 @@ faqs:
     answer: "Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie ('Was machen wir nun mit diesen Daten?') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs."
   - question: "Reicht der kostenlose Google Keyword Planner heute noch aus?"
     answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie SE Ranking, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
----Keywordrecherche ist keine Fleißaufgabe.
+---
+
+Keywordrecherche ist keine Fleißaufgabe.
 Es ist Marktforschung im 21. Jahrhundert.
 Wer keine saubere Recherche macht, baut sein Haus auf Sand.
 Ganz egal, wie schick das Design ist.

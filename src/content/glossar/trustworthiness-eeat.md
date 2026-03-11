@@ -15,7 +15,9 @@ faqs:
     answer: "Auf drei Ebenen: Technisch – HTTPS ist Pflicht, saubere Core Web Vitals zeigen Professionalität. Rechtlich – Impressum, Datenschutzerklärung und AGB müssen vollständig und aktuell sein. Inhaltlich – zeig, wer hinter dem Content steht (Autorenprofile), zitiere deine Quellen, und kommuniziere ehrlich über deine Dienstleistungen. Auf meiner Seite habe ich ein vollständiges Impressum, eine transparente Über-Mich-Seite und mein Autorenprofil ist über Schema.org maschinenlesbar hinterlegt."
   - question: "Können Reviews und Bewertungen die Trustworthiness beeinflussen?"
     answer: "Absolut! Google wertet Kundenbewertungen auf Google Business Profile, Trustpilot und branchenspezifischen Portalen als starke Trust-Signale. Negative Bewertungen schaden, positive stärken. Aber Achtung: Fake-Reviews sind der schnellste Weg, Vertrauen komplett zu zerstören. Google erkennt Muster bei gefälschten Bewertungen und straft sie ab. Echte Kundenstimmen, wie die Bewertungen in meiner Sprechstunde, sind unbezahlbar."
----Moin!
+---
+
+Moin!
 
 **Trustworthiness** (Vertrauenswürdigkeit) ist nicht einfach nur ein weiterer [E-E-A-T](/glossar/e-e-a-t/) Faktor. Er ist DER zentrale Faktor, um den sich alles dreht.
 

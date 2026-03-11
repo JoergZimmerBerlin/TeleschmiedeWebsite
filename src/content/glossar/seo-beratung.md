@@ -15,7 +15,9 @@ faqs:
     answer: "SEO Beratung ist die strategische Landkarte: das 'Was', 'Wann' und vor allem das 'Warum'. Ein Berater analysiert deine Architektur, deckt Potenziale auf und erstellt einen priorisierten Maßnahmenkatalog (z.B. einen Audit). Die SEO Optimierung ist dann die operative, handwerkliche Umsetzung dieses Plans – das Schreiben der Texte, das Fixen der Technik und der Aufbau von Entitäten. Als Freelancer biete ich ganz bewusst beides an, da eine Strategie ohne Umsetzung wertlos ist."
   - question: "Wann brauche ich einen festen SEO Consulting Partner?"
     answer: "Spatestens dann, wenn du spürst, dass dein digitales Wachstum stagniert, obwohl du Content produzierst. Ein Consulting-Partner schaut mit objektivem Experten-Blick von außen auf dein Geschäftsmodell und verhindert blinden Aktionismus. Besonders in Krisensituationen (wie Traffic-Verlust durch Core Updates) oder vor großen Relaunches ist ein erfahrener Consultant unverzichtbar, um fatale und teure Fehlentscheidungen in der Informationsarchitektur zu vermeiden."
----Moin!
+---
+
+Moin!
 
 In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, **SEO Consulting**, **SEO Betreuung**, **SEO Analyse** oder der **SEO Check**. Am Ende des Tages geht es aber immer um eine einzige Sache: Wie bekommen wir mehr relevante Kunden über Google auf deine Website?
 

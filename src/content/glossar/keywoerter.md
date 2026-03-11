@@ -15,7 +15,9 @@ faqs:
     answer: "Das Fokus-Keyword ist das Kernthema, auf das du eine spezifische URL ausrichtest. Es hilft dir, nicht den roten Faden zu verlieren und sorgt dafür, dass H1-Überschrift, Title-Tag und Meta-Description einheitlich optimiert sind. Grundsätzlich sollte jede redaktionelle Seite oder Landingpage ein eigenes Fokus-Keyword besitzen, um sogenanntes 'Keyword Cannibalization' zu vermeiden – also den Fall, dass zwei Seiten deiner eigenen Website um denselben Begriff miteinander konkurrieren."
   - question: "Hilft es, Keywords möglichst oft im Text unterzubringen?"
     answer: "Nein, das ist tiefstes SEO-Mittelalter und schadet deinen Rankings massiv. Wenn ein Text unnatürlich klingt, weil das Keyword 15-mal im Absatz steht, brechen echte Nutzer den Besuch sofort ab – was Google katastrophale Nutzersignale (Usability) sendet. Schreibe stattdessen natürlich, nutze Synonyme und bediene dich der LSI-Methode (Latent Semantic Indexing), indem du thematisch verwandte Begriffe, Fragen und semantische Cluster organisch in den Text einfließen lässt."
----Keywörter (oder Keywords) sind die DNA der Suche.
+---
+
+Keywörter (oder Keywords) sind die DNA der Suche.
 Ganz simpel: Was gibt der Nutzer bei Google ein? Das ist dein Keyword.
 Aber Vorsicht: Wer heute noch Keywords zählt, hat SEO nicht verstanden.
 

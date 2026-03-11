@@ -15,7 +15,9 @@ faqs:
     answer: "Absolut. Google und moderne KI-Systeme lesen nicht nur den Namen, sondern nutzen Natural Language Processing (NLP), um das 'Sentiment' (die Grundstimmung) des umgebenden Textes zu analysieren. Wenn dein Firmenname pausenlos in Artikeln über Betrug oder miesen Kundenservice auftaucht, merkt sich die Suchmaschine diese toxische Co-Occurrence. Solche toxischen Mentions können massiven Schaden an deinem Entity-Profil anrichten."
   - question: "Wie steigere ich die Anzahl meiner Brand Mentions gezielt?"
     answer: "Der effektivste Weg führt heute über digitale PR und Thought Leadership in B2B-Netzwerken. Gastbeiträge in Fachmagazinen, Auftritte in Branchen-Podcasts oder exklusive Daten-Studien, die von Journalisten aufgegriffen werden, sind Gold wert. In meinem Alltag als SEO-Consultant merke ich: Wenn du starke Meinungen auf LinkedIn postest und aktiv in relevanten Communities diskutierst, folgen die organischen Mentions fast von allein."
----Eine Mention (oder Markennennung) beschreibt den Moment, in dem dein Markenname, dein Produkt oder dein Personenname im Internet auftaucht, ohne dass notwendigerweise ein Link zu deiner Website gesetzt wurde. 
+---
+
+Eine Mention (oder Markennennung) beschreibt den Moment, in dem dein Markenname, dein Produkt oder dein Personenname im Internet auftaucht, ohne dass notwendigerweise ein Link zu deiner Website gesetzt wurde. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

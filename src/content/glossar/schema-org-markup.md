@@ -15,7 +15,9 @@ faqs:
     answer: "Absolut! Das ist kein Kavaliersdelikt. Wer Fake-Bewertungen einbaut, Preise vortäuscht, die es so nicht gibt, oder Schema-Daten für nicht sichtbare Inhalte nutzt, riskiert eine 'Manuelle Maßnahme' in der Google Search Console. Das bedeutet: Deine Rich Snippets verschwinden – manchmal dauerhaft. Die Regel ist einfach: Schema-Markup darf nur Informationen beschreiben, die auch tatsächlich auf der Seite für den Nutzer sichtbar sind."
   - question: "Wie teste ich, ob mein Schema.org Markup fehlerfrei ist?"
     answer: "Google bietet zwei offizielle Tools: Den 'Rich Results Test' (Test für Rich-Suchergebnisse) und den 'Schema Markup Validator'. Der Rich Results Test zeigt dir, welche Rich Snippets möglich sind, der Validator prüft die technische Korrektheit. Tipp: Teste nach jeder Änderung! Auf teleschmie.de prüfe ich das bei jedem Deployment automatisch. Ein kleiner Syntaxfehler im JSON-LD und dein gesamtes Markup wird ignoriert."
----Schema.org ist das Wörterbuch des Webs.
+---
+
+Schema.org ist das Wörterbuch des Webs.
 Es ist eine Initiative der großen Player: Google, Bing, Yahoo und Yandex.
 Sie haben sich auf ein gemeinsames Vokabular geeinigt, um das Internet besser zu verstehen.
 

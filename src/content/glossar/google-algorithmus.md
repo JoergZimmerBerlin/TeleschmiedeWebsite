@@ -15,7 +15,9 @@ faqs:
     answer: "Bei einem Core Update bewertet Google die Qualität und Relevanz von Inhalten grundlegend neu. Seiten, die vorher gut rankten, können plötzlich abstürzen – und umgekehrt. Das Wichtigste: Core Updates sind keine Strafen! Wenn du verlierst, heißt das nur, dass andere Seiten jetzt als relevanter eingestuft werden. Mein Rat: Nicht in Panik verfallen, sondern die Daten analysieren. In der Google Search Console siehst du genau, welche Seiten und Keywords betroffen sind."
   - question: "Kann ich den Google Algorithmus 'überlisten'?"
     answer: "Kurzfristig ja, langfristig niemals. Google hat tausende Ingenieure, die nichts anderes tun, als Manipulation aufzudecken. Wer auf Black-Hat-Tricks setzt (Linkspam, Keyword-Stuffing, Cloaking), gewinnt vielleicht für 3 Monate – und verliert dann alles. Die einzige nachhaltige Strategie: Baue die beste Antwort auf die Frage des Nutzers. Punkt. In 24 Jahren SEO habe ich genug 'Trickser' kommen und gehen sehen."
----Moin!
+---
+
+Moin!
 
 Der **Google Algorithmus** ist das bestgehütete Geheimnis der digitalen Welt. Kein Mensch auf der Erde kennt die vollständige Formel – nicht mal die Google-Ingenieure selbst, denn große Teile werden heute von KI-Systemen gesteuert.
 

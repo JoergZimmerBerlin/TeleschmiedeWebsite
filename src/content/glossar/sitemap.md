@@ -15,7 +15,9 @@ faqs:
     answer: "Auf keinen Fall! Nur URLs, die auch tatsächlich indexiert werden sollen und einen HTTP-Status 200 zurückgeben. Seiten mit noindex, Weiterleitungen (301/302), veraltete Inhalte oder interne Suchergebnisseiten haben in der Sitemap nichts verloren. Eine 'aufgeblähte' Sitemap mit tausenden irrelevanten URLs verschwendet dein Crawl-Budget und verwirrt Google. Qualität vor Quantität!"
   - question: "Wie oft sollte die Sitemap aktualisiert werden?"
     answer: "Am besten automatisch bei jeder Veröffentlichung! Auf meiner Seite wird die Sitemap bei jedem Build-Prozess dynamisch generiert – das gewährleistet, dass neue Glossar-Einträge oder Blogartikel sofort für Google sichtbar sind. Bei WordPress erledigen das Plugins wie Yoast automatisch. Wer seine Sitemap manuell pflegt, vergisst es garantiert – Automatisierung ist hier Pflicht."
----Moin!
+---
+
+Moin!
 
 Eine Sitemap ist die Landkarte deiner Website. 
 Ganz einfach: Ein Dokument, das alle URLs deiner Seite auflistet. 

@@ -11,6 +11,8 @@ key_takeaways:
   - "Technische Klippen (Noindex, PageSpeed, SSL) sind immer noch die häufigsten Gründe für Sichtbarkeitsverluste, selbst bei modernen Systemen."
   - "Ein Relaunch ohne Redirect-Mapping ist der sicherste Weg, um jahrelang aufgebaute Rankings innerhalb weniger Tage zu vernichten."
   - "Keywords und Semantik gewinnen nur, wenn das technische Fundament (Indexierung, Header-Struktur) stabil ist – SEO-Hygiene ist Pflicht."
+---
+
 Moin! 🌻
 
 *"In 80% aller SEO-Sprechstunden entdecke ich immer wieder die gleichen Fehler."* 

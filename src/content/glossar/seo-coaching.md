@@ -15,7 +15,9 @@ faqs:
     answer: "Für drei Zielgruppen: Geschäftsführer, die verstehen wollen, was ihre Agentur tut. Inhouse-Marketer, die SEO-Kompetenz aufbauen wollen. Und Freelancer, die ihre eigene Website optimieren wollen, aber nicht wissen wo sie anfangen. In meiner Sprechstunde arbeite ich oft mit allen drei Gruppen."
   - question: "Wie läuft ein SEO Coaching bei Jörg Zimmer ab?"
     answer: "Wir starten mit einem Ist-Analyse-Call. Dann erstelle ich einen individuellen Coaching-Plan. In Sessions alle 2 Wochen arbeiten wir an deinen Themen: Search Console, Content-Strategie, technische Basis. Zwischen den Sessions bekommst du Hausaufgaben. Ziel: Nach 3-6 Monaten kannst du 80% deines SEO selbst bewerten."
----Moin!
+---
+
+Moin!
 
 **SEO Coaching** ist für alle, die es satt haben, sich von Agenturen Dinge erzählen zu lassen, die sie nicht überprüfen können.
 

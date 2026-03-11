@@ -16,7 +16,9 @@ faqs:
     answer: "Ja, für ein starkes lokales Ranking in Google Maps ist eine physische Adresse im Impressum und auf der Kontaktseite praktisch unverzichtbar. Wenn du als Berater von zu Hause arbeitest und aus Datenschutzgründen keine genauen Standortdaten angeben willst, wird lokales SEO deutlich schwerer. Google ordnet Entitäten immer über Geodaten zu – fehlendes lokales Schema-Markup oder versteckte Adressen schwächen dieses Lokalsignal enorm ab."
   - question: "Wie wichtig sind Google-Bewertungen für Local SEO 2026?"
     answer: "Bewertungen sind die Währung des lokalen Vertrauens. Sie beeinflussen nicht nur direkt den Algorithmus für das Local Pack, sondern sind auch das stärkste Konversions-Signal für Nutzer. Eine Kanzlei mit 45 Fünf-Sterne-Bewertungen zieht Klicks magisch an, selbst wenn sie nur auf Platz 3 der Karte steht. Zudem analysieren KI-Systeme den Text aus den Rezensionen (sogenannte UGC-Mentions), um ein Gefühl für deine Tonalität und Fachkompetenz zu bekommen."
----Moin!
+---
+
+Moin!
 
 Local SEO ist die Königsdisziplin für alle, die echte Kunden vor Ort haben wollen. Ganz egal, ob du eine Pizzeria in Spandau oder eine [SEO-Agentur in Berlin](/seo-freelancer-berlin/) betreibst.
 Wenn jemand nach "Angebot in meiner Nähe" sucht, musst du da sein.

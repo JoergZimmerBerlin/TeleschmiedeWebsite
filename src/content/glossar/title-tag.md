@@ -15,7 +15,9 @@ faqs:
     answer: "Das passiert leider sehr häufig (bei über 60% aller Ergebnisse). Google überschreibt deinen Title Tag oft dann dynamisch, wenn er die Suchintention des Nutzers nicht perfekt trifft, exzessives Keyword-Stuffing betreibt oder schlicht viel zu lang ist. In solchen Fällen zieht Google als 'Ersatz' meist H1-Überschriften oder andere relevante Textfragmente der Seite heran. Ein knallharter, präziser und conversion-optimierter Title Tag verhindert diese Einmischung des Algorithmus."
   - question: "Kann ich Emojis im Title Tag nutzen, um aufzufallen?"
     answer: "Definitiv ja! Emojis sind ein genialer Eye-Catcher in den sonst oft tristen Google-Suchergebnissen und können deine Klickrate (CTR) massiv durch die Decke jagen. Allerdings gibt es auch hier keine Garantie: Google entscheidet dynamisch für jede Suchanfrage, ob das Emoji zum Suchkontext passt und eine seriöse Relevanz hat. In stark professionellen B2B-Nischen filtert Google bunte Emojis im Title Tag oft kommentarlos heraus."
----Das Title Tag (oft fälschlicherweise als "Meta Title" bezeichnet) ist ein HTML-Element im Kopfbereich (`<head>`) einer Website. Es bestimmt den Text, der in den Registerkarten des Webbrowsers, in der Lesezeichen-Liste und – am wichtigsten – als die große, blaue, anklickbare Überschrift in den Suchmaschinenergebnissen (SERPs) erscheint.
+---
+
+Das Title Tag (oft fälschlicherweise als "Meta Title" bezeichnet) ist ein HTML-Element im Kopfbereich (`<head>`) einer Website. Es bestimmt den Text, der in den Registerkarten des Webbrowsers, in der Lesezeichen-Liste und – am wichtigsten – als die große, blaue, anklickbare Überschrift in den Suchmaschinenergebnissen (SERPs) erscheint.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

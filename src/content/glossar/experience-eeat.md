@@ -15,7 +15,9 @@ faqs:
     answer: "Weil KI-generierter Content explodiert ist. ChatGPT kann einen perfekten Artikel über 'Die besten Restaurants in Berlin' schreiben – ohne je dort gewesen zu sein. Google braucht ein Signal, das echte Menschen von Maschinen unterscheidet. Experience ist dieses Signal. Es ist Googles Antwort auf die Frage: Hat ein Mensch das wirklich erlebt, oder hat eine KI es nur zusammengeschrieben?"
   - question: "Ist Experience wichtiger als Expertise?"
     answer: "Es kommt auf das Thema an. Bei Produktreviews und Reiseberichten ist Experience der dominante Faktor – du musst das Produkt benutzt oder den Ort besucht haben. Bei medizinischen oder rechtlichen Themen überwiegt Expertise – hier zählt die Qualifikation. Am stärksten bist du, wenn du beides kombinierst: Die Qualifikation UND die praktische Erfahrung. Das ist mein Ansatz: 24 Jahre SEO-Erfahrung plus tägliche Praxis."
----Moin!
+---
+
+Moin!
 
 **Experience** (Erfahrung) ist der jüngste Buchstabe im [E-E-A-T](/glossar/e-e-a-t/) Framework – und gleichzeitig der revolutionärste. Google hat ihn Ende 2022 hinzugefügt, und der Grund ist simpel: In der KI-Ära muss Google unterscheiden können, ob ein Mensch wirklich Erfahrung mit einem Thema hat oder ob eine Maschine den Text generiert hat.
 

@@ -8,7 +8,9 @@ key_takeaways:
   - "Strukturierte Daten (JSON-LD) übersetzen Website-Inhalte in eine maschinenlesbare Sprache."
   - "Sie ermöglichen Rich Snippets (Sterne, FAQs, Preise), die CTR und indirekt Rankings steigern."
   - "Für KI-Suche und GEO sind sie die primäre Datenquelle zur Extraktion korrekter Fakten."
----Strukturierte Daten sind die Geheimsprache der SEO-Profis.
+---
+
+Strukturierte Daten sind die Geheimsprache der SEO-Profis.
 Ganz einfach: Ein standardisierter Code, den du im Hintergrund deiner Website einbaust.
 Für den Nutzer ist er unsichtbar.
 Für Google ist er die wichtigste Orientierungshilfe überhaupt.

@@ -16,7 +16,9 @@ faqs:
     answer: "Spatestens bei einem Website-Relaunch, wenn du das CMS wechselst oder wenn du plötzlich unerklärliche Traffic-Einbrüche hast. Auch wenn du Content publizierst, der einfach nicht in den Index aufgenommen wird (Status: 'Gecrawlt – zurzeit nicht indexiert'), steckt oft ein technisches Problem dahinter. Für kleine WordPress-Blogs reicht oft ein sauberes Setup, aber bei großen Shops oder komplexen JavaScript-Frameworks ist technisches SEO pure Existenzsicherung."
   - question: "Was macht ein technischer SEO Spezialist konkret?"
     answer: "Ein Technical SEO orchestriert die Kommunikation zwischen deiner Website und den Crawlern der Suchmaschinen. Wir analysieren Server-Logs, optimieren die Crawl-Budget-Steuerung, beheben Rendering-Probleme bei JavaScript und strukturieren komplexe XML-Sitemaps. Kurz gesagt: Wir räumen die Steine aus dem Weg, damit Google deinen Content schnell, fehlerfrei und vollständig erfassen kann."
----Moin!
+---
+
+Moin!
 
 Wenn wir über **SEO Optimierung** sprechen, meinen die meisten nur das "Einbauen von Keywords". Aber modernes, **professionelles SEO** ist ein komplexes Zusammenspiel aus drei Disziplinen, die perfekt aufeinander abgestimmt sein müssen. Wer eine dieser Säulen ignoriert, lässt bares Geld auf der Straße liegen.
 

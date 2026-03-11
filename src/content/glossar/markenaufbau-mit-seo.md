@@ -15,7 +15,9 @@ faqs:
     answer: "Der wichtigste KPI ist dein 'Branded Search Volume' – du findest es in der Google Search Console unter 'Leistung', gefiltert nach Suchanfragen, die deinen Markennamen enthalten. Wenn dieses Volumen steigt, wächst deine Marke. Außerdem: Beobachte, ob du einen Knowledge Panel auf Google bekommst. Das ist der ultimative Beweis, dass Google dich als Entität erkannt hat. Für meine eigene Brand 'Jörg Zimmer' arbeite ich gezielt daran, dass mein Name im Knowledge Graph verankert ist."
   - question: "Was ist der Unterschied zwischen Brand SEO und klassischem Branding?"
     answer: "Klassisches Branding dreht sich um Logo, Farben und Werbebotschaften. Brand SEO geht tiefer: Es sorgt dafür, dass deine Marke maschinenlesbar ist – über Schema.org Markup, konsistente Citations, Mentions in Fachmedien und eine starke Grounding Page. Es ist Branding für Algorithmen UND Menschen gleichzeitig. In der KI-Suche entscheidet nicht dein Logo, sondern dein digitaler Fußabdruck."
----Moin!
+---
+
+Moin!
 
 Die meisten denken bei **SEO** an Keywords und Rankings. Aber die klügsten SEO-Strategen wissen: Der mächtigste Rankingfaktor der Welt ist ein Markenname, den Menschen aktiv bei Google eingeben.
 

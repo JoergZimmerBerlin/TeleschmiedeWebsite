@@ -15,7 +15,9 @@ faqs:
     answer: "Dieses Phänomen sehen wir praktisch in jedem tiefgreifenden SEO-Audit. Smartphones haben im Vergleich zu starken Desktop-Computern drastisch weniger Rechenleistung, um komplexe Skripte (JavaScript) schnell zu verarbeiten. Zudem simulieren Googles PageSpeed-Tests für Mobile extrem realistische, oft relativ langsame 4G-Netze. Wenn du dann unkoordinierte Hero-Images oder völlig überladene Slider-Plugins in den Ladefluss schickst, bricht ein durchschnittliches mobiles Endgerät unter der Render-Last förmlich zusammen."
   - question: "Was ist der mit Abstand größte Bremsklotz für Web-Performance?"
     answer: "In meiner täglichen Praxis als Technical SEO gibt es meist zwei völlig klare Haupttäter auf der Anklagebank. Erstens: Gigantische, völlig unkomprimierte Bilderformate (statt modernem WebP oder AVIF). Zweitens: Massive Berge an render-blockierendem JavaScript. Sehr oft sind das nicht einmal die eigenen Code-Skripte, sondern Dutzende externe Tracking-Tools, fette Cookie-Banner, Chat-Widgets und Werbenetzwerke, die das schnelle Laden der eigentlichen Textinhalte für Sekunden komplett blockieren."
----Moin!
+---
+
+Moin!
 
 PageSpeed ist weit mehr als nur eine technische Metrik – es ist die digitale Eintrittskarte zu deiner Website. 
 In einer Zeit, in der die Aufmerksamkeitsspanne von Nutzern unter der eines Goldfisches liegt, entscheidet jede Millisekunde darüber, ob ein Besucher bleibt oder genervt zum Wettbewerber zurückspringt. 

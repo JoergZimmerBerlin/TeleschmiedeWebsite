@@ -15,7 +15,9 @@ faqs:
     answer: "Im Gegensatz zu externen Backlinks hast du bei der internen Verlinkung 100% Kontrolle. Sie ist das Navigationssystem für Crawling-Bots und verteilt den wertvollen 'Linkjuice' strategisch von deinen stärksten Ratgebern auf deine wichtigsten Verkaufsseiten (Money Pages). Eine exzellente interne Verlinkungsstruktur (Siloing) ist die absolute Basis-Arbeit – wenn du das vermasselst, verpufft selbst das teuerste externe Linkbuilding."
   - question: "Sollte ich Backlinks für meine Website kaufen?"
     answer: "Das ist ein toxisches Minenfeld. Gekaufte Massenlinks aus zweifelhaften Netzwerken verstoßen nicht nur massiv gegen die Google Webmaster Richtlinien, sondern führen oft zu harten manuellen Strafen (Penalties) und dem Rauswurf aus dem Index. Der Profi-Fokus sollte heute immer auf digitalen PR-Strategien liegen: Erschaffe herausragenden Content, Daten-Studien oder Tools (sogenannte Linkable Assets), die so einen extremen Mehrwert bieten, dass starke Medien völlig organisch darauf verlinken."
----Moin!
+---
+
+Moin!
 
 Stell dir das Word Wide Web als ein riesiges Netz aus Straßen vor. Die Straßen sind die Links. Ohne diese Verbindungen wüsste niemand, dass du existierst – weder Nutzer noch die Suchmaschine. In der **SEO Optimierung** unterscheiden wir dabei zwei wesentliche Disziplinen: Das **Linkbuilding** (außerhalb deiner Seite) und die **Interne Verlinkung** (innerhalb deiner Seite).
 

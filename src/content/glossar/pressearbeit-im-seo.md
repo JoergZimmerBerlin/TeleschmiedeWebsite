@@ -15,7 +15,9 @@ faqs:
     answer: "Klassisches Linkbuilding fragt: 'Wo bekomme ich einen Link her?' Digital PR fragt: 'Welche Geschichte ist so gut, dass Medien freiwillig darüber berichten?' Der Unterschied ist fundamental. Beim Linkbuilding hast du oft minderwertige oder gekaufte Links. Bei Digital PR entstehen natürliche, redaktionelle Links von Nachrichtenportalen und Fachmagazinen – das Sahnehäubchen für dein Backlink-Profil. Google erkennt diesen Qualitätsunterschied sofort."
   - question: "Hat Pressearbeit einen direkten Einfluss auf mein Google-Ranking?"
     answer: "Ja, und zwar auf mehreren Ebenen gleichzeitig. Erstens: Redaktionelle Backlinks von News-Seiten gehören zu den stärksten Linksignalen überhaupt. Zweitens: Mentions (Erwähnungen ohne Link) stärken dein Entity-Profil bei Google. Drittens: Presseartikel werden von LLMs wie ChatGPT als Trainingsmaterial genutzt – wer dort zitiert wird, taucht in KI-Antworten auf. Es ist ein dreifacher ROI."
----Moin!
+---
+
+Moin!
 
 Wenn mich jemand fragt: „Jörg, was ist der eine SEO-Hack, der alles andere in den Schatten stellt?" – dann sage ich: **Pressearbeit**. Nicht wegen eines einzelnen Links, sondern wegen des Gesamteffekts auf deine digitale Autorität.
 

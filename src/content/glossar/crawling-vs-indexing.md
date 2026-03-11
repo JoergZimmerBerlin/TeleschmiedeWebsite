@@ -15,7 +15,9 @@ faqs:
     answer: "Das hängt stark vom Vertrauen ab, das Google in deine Domain hat. Bei großen News-Seiten passiert das in Sekunden. Bei einer neuen, unbekannten Domain kann es Wochen dauern. Bei mir persönlich werden neue Glossar-Einträge meist innerhalb von 1-3 Tagen indexiert, weil Google die Domain als regelmäßig aktualisierten Experten-Hub kennt. Tipp: Reiche neue URLs aktiv über die Search Console ein ('URL-Prüfung' -> 'Indexierung beantragen')."
   - question: "Ich habe versehentlich meine Seiten auf noindex gesetzt – wie schnell kann ich das reparieren?"
     answer: "Das ist der Relaunch-Klassiker! Entferne sofort das noindex-Tag, prüfe deinen HTTP-Header auf X-Robots-Tag (da versteckt es sich manchmal auch!), und reiche die betroffenen URLs einzeln in der Google Search Console zur erneuten Indexierung ein. Normalerweise dauert es 3-14 Tage, bis Google die Änderung verarbeitet hat. Je stärker die Domain, desto schneller geht es. Bei meinen Kunden löse ich solche Blockaden oft innerhalb einer einzigen Sprechstunde."
----Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
+---
+
+Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

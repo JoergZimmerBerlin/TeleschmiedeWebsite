@@ -15,7 +15,9 @@ faqs:
     answer: "Der offensichtlichste Beweis ist ein eigenes Knowledge Panel in den Google-Suchergebnissen, wenn du nach deinem Markennamen suchst. Ein weiterer starker Indikator ist, wenn Google in der automatischen Suchvervollständigung (Google Suggest) deinen Namen vorschlägt und ihn direkt kategorisiert (z.B. 'Jörg Zimmer SEO'). Für eine tiefe technische Analyse nutze ich das Google Knowledge Graph Search API, um abzufragen, mit welchem Confidence-Score eine bestimmte Entität im Google-System verankert ist."
   - question: "Helfen Backlinks beim Aufbau meines Entity-Status?"
     answer: "Definitiv, aber die Qualität und der Kontext sind hier noch entscheidender als beim klassischen SEO. Ein Link von einer vertrauenswürdigen Fachseite in deiner Nische bestätigt Google, dass du ein relevanter Knotenpunkt in diesem thematischen Netzwerk bist ('Co-Occurrence'). Noch wichtiger sind sogenannte Citations und ungelinkte Brand Mentions in starken Medien – sie trainieren KI-Systeme und festigen deinen Status als Autorität in deinem Fachgebiet, auch ganz ohne Hyperlink."
----Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).
+---
+
+Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

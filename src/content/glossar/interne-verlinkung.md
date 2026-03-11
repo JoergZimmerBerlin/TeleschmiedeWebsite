@@ -15,7 +15,9 @@ faqs:
     answer: "Auf gar keinen Fall! Interne Links sollten ausnahmslos auf dem Standard (also 'dofollow') belassen werden. Ein internes 'nofollow' ist wie eine massive Straßensperre für den Googlebot – du sagst der Suchmaschine quasi aktiv: 'Folge diesem Link nicht und gib dieser eigenen Unterseite kein Vertrauen'. Eine absolute Ausnahme bilden höchstens Login-Seiten oder der Warenkorb, jedoch steuerst du diese besser global über ein sauberes Noindex in Kombination mit der robots.txt."
   - question: "Was ist ein Ankertext und wofür brauche ich ihn?"
     answer: "Der Ankertext (Anchor Text) ist der sichtbare, meist bläulich markierte und klickbare Text eines Hyperlinks. Bei der internen Verlinkung ist er dein stärkstes semantisches Steuerungsinstrument. Du solltest hier niemals nichtssagende Phrasen wie 'Hier klicken' verwenden, sondern immer das exakte Fokus-Keyword der Zielseite (z.B. 'zur SEO Beratung'). Google liest diesen Ankertext aus und versteht so sofort, für welches Thema die verlinkte Seite ranken soll."
----Die interne Verlinkung beschreibt alle Hyperlinks auf einer Website, die von einer Unterseite zu einer anderen Unterseite derselben Domain führen. Im Gegensatz zu Backlinks (externe Links von fremden Seiten) hast du hier die absolute Kontrolle über 100% aller Parameter.
+---
+
+Die interne Verlinkung beschreibt alle Hyperlinks auf einer Website, die von einer Unterseite zu einer anderen Unterseite derselben Domain führen. Im Gegensatz zu Backlinks (externe Links von fremden Seiten) hast du hier die absolute Kontrolle über 100% aller Parameter.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

@@ -10,7 +10,10 @@ tags: ["E-E-A-T", "Sprechstunde"]
 key_takeaways:
   - "Keyword-Stuffing, technische Ignoranz und Ungeduld sind seit 20 Jahren die gleichen SEO-Fehler – nur die Verpackung ändert sich."
   - "SEO ist zu 80% Psychologie: Wir lieben Abkürzungen, aber die Grundlagen (Technik, Content, Geduld) sind unkaputtbar."
-  - "Tools sind wie Hämmer – ohne zu wissen, wo der Nagel ist, haut man sich nur auf den DaumeMoin! 🌻
+  - "Tools sind wie Hämmer – ohne zu wissen, wo der Nagel ist, haut man sich nur auf den Daumen."
+---
+
+Moin! 🌻
 
 Ich mache jetzt seit über 24 Jahren SEO. 
 

@@ -15,7 +15,9 @@ faqs:
     answer: "Das ideale Zeitfenster (und Pixel-Limit) für die klassische Desktop-Suche liegt bei etwa 140 bis 155 sicheren Zeichen. Wenn du allerdings ein extrem junges, rein mobiles Publikum adressierst (etwa im B2C-Shop-Bereich), solltest du dein Verkaufsversprechen zwingend in den ersten 120 Zeichen unterbringen. Alles, was danach in der Textzeile kommt, kappt Google auf dem engen Smartphone-Display gnadenlos mit drei Punkten ab. Dein Pitch muss sitzen und im allerersten Satz überzeugen."
   - question: "Ist die Meta Description ein direkter Google Rankingfaktor?"
     answer: "Ich kann es nicht oft genug betonen: Google hat bereits vor Jahren offiziell und final bestätigt, dass der Inhalt der Meta Description selbst mit exakt 0% in die Ranking-Berechnung einfließt. Und dennoch ist sie ein gigantischer Hebel im SEO! Eine extrem überzeugende, psychologisch knackige Description treibt die Klickrate (Click-Through-Rate) in den SERPs massiv nach oben. Diese starken Nutzersignale sind für Google ein deutlicher Wach-Ruf, dass deine Seite irre relevant für den Suchbegriff ist."
----Die Meta Description ist ein kurzes HTML-Attribut im Header (`<head>`) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](/glossar/title-tag/). 
+---
+
+Die Meta Description ist ein kurzes HTML-Attribut im Header (`<head>`) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](/glossar/title-tag/). 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

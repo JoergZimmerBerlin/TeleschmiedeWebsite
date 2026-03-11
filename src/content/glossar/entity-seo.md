@@ -15,7 +15,9 @@ faqs:
     answer: "Der Hebel liegt in der Semantik und der maschinenlesbaren Datenstruktur. Du musst dein Kernthema extrem ganzheitlich und tiefgreifend behandeln, um sogenannte Topical Authority aufzubauen. Technisch zwingend erforderlich ist die Auszeichnung deiner wichtigsten Seiten mit strukturierten Daten (Schema.org) im JSON-LD-Format. Flankiert von einer starken Inhalts-Architektur zwingst du die KI-Systeme quasi dazu, deine Website als den ultimativen 'Knotenpunkt' für diese spezifische Entität zu akzeptieren."
   - question: "Ist die klassische Keyword-Recherche im Entity SEO noch wichtig?"
     answer: "Ein absolut klares Ja. Die klassische Keyword-Recherche ist keineswegs tot, sondern sie fungiert heute als Einstiegstor in die Denkweise deiner potenziellen Nutzer. Wer allerdings nach der simplen Keyword-Identifikation aufhört und isolierte Texte schreibt, verliert das Spiel. Professionelles Entity SEO nutzt ein Keyword nur als groben Startpunkt, um ein gigantisches semantisches Themennetz aufzuspannen, das den gesamten Kontext und alle verborgenen Fragen der Kunden restlos abdeckt."
----Moin!
+---
+
+Moin!
 
 Entity SEO markiert den Paradigmenwechsel in der Suchmaschinentechnik. 
 Es ist der Abschied von der reinen Keyword-Jagd und die Hinwendung zum Verständnis von Kontext und semantischer Relevanz. 

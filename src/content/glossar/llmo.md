@@ -15,7 +15,9 @@ faqs:
     answer: "Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein."
   - question: "Wie teste ich meine LLM-Sichtbarkeit?"
     answer: "Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie Rankscale, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen."
----Moin!
+---
+
+Moin!
 
 **LLMO** (LLM-Optimization) ist die Disziplin, die sich mit der Frage beschäftigt: *Wie beeinflusse ich, was ChatGPT, Gemini und Claude über mich und mein Fachgebiet wissen?*
 

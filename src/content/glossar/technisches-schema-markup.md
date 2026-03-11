@@ -15,7 +15,9 @@ faqs:
     answer: "Zwei Tools sind Pflicht: Der Google Rich Results Test (search.google.com/test/rich-results) zeigt dir, welche Rich Results für deine Seite möglich sind. Und der Schema Markup Validator (validator.schema.org) prüft die technische Korrektheit deines JSON-LD. Teste jede Seite nach der Implementierung. Fehlerhafte Markup-Daten sind schlimmer als gar kein Markup, weil sie Google verwirren können."
   - question: "Kann ich Schema-Markup ohne Programmierkenntnisse implementieren?"
     answer: "Ja, mit Einschränkungen. WordPress bietet Plugins wie Yoast oder RankMath, die Basis-Schema automatisch generieren. Für fortgeschrittene Setups (mehrere Schema-Typen pro Seite, sameAs-Verknüpfungen, verschachtelte Objekte) brauchst du aber technisches Verständnis oder einen Entwickler. In Astro, meinem Framework, generiere ich das Schema programmatisch aus den Frontmatter-Daten – das ist die sauberste Lösung."
----Moin!
+---
+
+Moin!
 
 **Technisches Schema-Markup** ist die Brücke zwischen deinem Content und den Maschinen, die ihn auswerten. Es übersetzt deine Website-Inhalte in ein Format, das Google, Bing und KI-Systeme direkt als Fakten verarbeiten können.
 

@@ -15,7 +15,9 @@ faqs:
     answer: "Absolut nicht, und das ist das Schöne daran. Lass deine PowerPoints und lauten Sales-Pitches zu Hause. Komm einfach mit einer neugierigen Einstellung, einer gewissen Offenheit und einem Feierabend-Drink in der Hand vorbei. Die besten und nachhaltigsten Business-Kontakte habe ich in der Überstunde genau dann geknüpft, wenn wir nicht direkt über das nächste große Projekt, sondern über gemeinsame Visionen und Herausforderungen sprachen."
   - question: "Wo genau finden die Treffen der Überstunde statt?"
     answer: "Es gibt keine feste 'Stammkneipe'. Die Locations wechseln regelmäßig und führen dich quer durch die angesagtesten, spannendsten oder auch verborgensten Business- und Kultur-Spots in ganz Berlin. Dieses stetige Rotieren sorgt nicht nur für frische Eindrücke, sondern bringt auch immer wieder neue, interessante Menschen aus den unterschiedlichsten Kiezen und Industrien zusammen."
----Moin!
+---
+
+Moin!
 
 Ich liebe SEO. Keine Frage. Aber manchmal tut es gut, den Kopf aus den [SERPs](/glossar/title-tag/) zu nehmen und über den Tellerrand zu schauen. Die **Überstunde Berlin** ist für mich genau dieser Ort.
 

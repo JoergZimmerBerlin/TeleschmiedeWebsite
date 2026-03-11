@@ -15,7 +15,9 @@ faqs:
     answer: "Agenturen punkten mit Skalierbarkeit, Redundanz (falls jemand krank wird) und einem breiten Team aus Generalisten und Textern. Ein Freelancer wie ich arbeitet hingegen wie ein Skalpell: Maximal fokussiert auf Strategie, schnelle Entscheidungswege und direkten Dialog. Bei mir hast du nicht den 'Junior Consultant' am Telefon, sondern den Experten mit der Erfahrung. Viele meiner Kunden haben Agenturen für die reine Umsetzung, holen sich mich aber als strategischen Piloten ins Cockpit."
   - question: "Gibt es qualitative Unterschiede bei SEO-Klitschen in Berlin?"
     answer: "Die Berliner SEO-Szene ist ein Haifischbecken voller brillanter Köpfe, aber auch voller Blender, die von 'garantierten Platz 1 Rankings' schwadronieren. Du findest hier alles: vom elitären Boutique-Zirkel in Mitte bis zur Massen-Abfertigungs-Factory am Rand. Am Ende des Tages zählt nicht die Postleitzahl, sondern die nachweisbare Expertise der Person, die konkret an deinem Projekt arbeitet – und ob die zwischenmenschliche Chemie für eine monatelange, enge Zusammenarbeit stimmt."
----Moin!
+---
+
+Moin!
 
 In der deutschen Hauptstadt ist der Wettbewerb hart. Wer hier bei Google unter dem Suchbegriff **SEO Agentur Berlin** gefunden werden will, muss sein Handwerk verstehen. Berlin ist das Epizentrum für **SEO Marketing** in Deutschland – hier sitzen die schlausten Köpfe, aber leider auch viele Schaumschläger.
 

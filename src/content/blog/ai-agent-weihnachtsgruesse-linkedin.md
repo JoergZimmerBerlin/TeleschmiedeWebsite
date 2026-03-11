@@ -19,7 +19,10 @@ faqs:
   - question: "Wie erkenne ich, ob ein Post oder Kommentar KI-generiert ist?"
     answer: "Es gibt oft typische 'Fingerabdrücke': verdächtig perfekte Grammatik ohne jede Ecken und Kanten, der übermäßige Gebrauch von Superlativen wie 'bahnbrechend' oder 'superduper erfolgreich', und oft eine sehr formelhafte Struktur (Einleitung, 3 Bulletpoints, Handlungsaufforderung). Aber das sicherste Merkmal ist das Fehlen von echten, schmerzhaften oder humorvollen persönlichen Anekdoten. Eine KI hat keine Geschichte – sie hat nur Trainingsdaten."
   - question: "Wird LinkedIn durch KI-Bots sterben?"
-    answer: "LinkedIn wird sich verändern müssen. Wir werden vermutlich 'Proof-of-Person'-Verfahren sehen oder Badges für verifizierten menschlichen Content. Das Netzwerk wird nur überleben, wenn es den Wert der echten menschlichen Aufmerksamkeit schützt. Wenn der Feed nur noch aus KIs besteht, die KIs kommentieren, werden die Entscheider und Kunden abwandern. Genau deshalb ist deine echte, unperfekte StimmeMoin! 🌻
+    answer: "LinkedIn wird sich verändern müssen. Wir werden vermutlich 'Proof-of-Person'-Verfahren sehen oder Badges für verifizierten menschlichen Content. Das Netzwerk wird nur überleben, wenn es den Wert der echten menschlichen Aufmerksamkeit schützt. Wenn der Feed nur noch aus KIs besteht, die KIs kommentieren, werden die Entscheider und Kunden abwandern. Genau deshalb ist deine echte, unperfekte Stimme heute wichtiger denn je."
+---
+
+Moin! 🌻
 
 Es war kurz vor Weihnachten. 
 

@@ -15,7 +15,9 @@ faqs:
     answer: "Das ist ein klassisches und oft missverstandenes Phänomen. Der Sichtbarkeitsindex misst deine Rankings für ein vordefiniertes, repräsentatives Keyword-Set (meist 1 Million Keywords). Wenn du Rankings für Suchbegriffe mit extrem hohem Suchvolumen aus diesem Set verlierst (die dir aber ohnehin keine Conversions gebracht haben), sinkt der Index dramatisch. Gleichzeitig gewinnst du vielleicht bei lukrativen Long-Tail-Keywords, die nicht im Set sind – dein relevanter Traffic steigt also, während die Metrik fällt."
   - question: "Wie oft wird der SEO Sichtbarkeitsindex aktualisiert?"
     answer: "Früher gab es montags das große 'Sistrix-Zittern', da die Daten nur wöchentlich aktualisiert wurden. Heute berechnen professionelle Tools wie Sistrix oder SE Ranking die Sichtbarkeit für wichtige Märkte und große Websites täglich neu. Bei massiven Ranking-Schwankungen oder nach einem Google Core Update kannst du die Auswirkungen also mittlerweile fast in Echtzeit verfolgen und entsprechend gegensteuern."
----Moin!
+---
+
+Moin!
 
 Der Sichtbarkeitsindex ist die harte Währung der SEO-Welt. Keine Likes, keine Shares, kein Bullshit. Nur pure Daten aus den Google-SERPs. 
 

@@ -15,7 +15,9 @@ faqs:
     answer: "Daten lügen nicht. Ich schaue mir zuerst die Absprungraten in Google Analytics an. Wo verlassen die Leute den Trichter? Danach kommen Heatmaps und Session-Aufnahmen (z.B. mit Hotjar) ins Spiel. Oft sind es Kleinigkeiten: Ein Formular mit zu vielen Feldern, ein fehlendes SSL-Zertifikat oder ein Button, der auf dem Smartphone nicht klickbar ist. Usability ist das Fundament jeder Conversion."
   - question: "Welchen Einfluss hat qualifizierter SEO-Traffic auf die Abschlussquote?"
     answer: "Gutes SEO ist der beste Hebel für die Conversion Rate. Warum? Weil wir durch gezielte [Keyword-Recherche](/glossar/keywordrecherche/) Nutzer genau dann abholen, wenn sie ein Problem haben und nach einer Lösung suchen. Jemand, der nach 'SEO Freelancer Berlin Kosten' sucht, ist viel näher am Abschluss als jemand, der nur 'Was bedeutet SEO' googelt. Wir optimieren den Intent, nicht nur die Klicks."
----Die Conversion Rate ist der Moment der Wahrheit.
+---
+
+Die Conversion Rate ist der Moment der Wahrheit.
 Dein SEO kann noch so gut sein.
 Dein [Traffic](/glossar/traffic/) kann durch die Decke gehen.
 Aber wenn niemand kauft, anfragt oder sich einträgt?

@@ -15,7 +15,9 @@ faqs:
     answer: "Drei Grundregeln: Erstens, beantworte Fragen direkt und präzise in den ersten zwei Sätzen – KI-Systeme extrahieren bevorzugt klare Definitionen. Zweitens, strukturiere deinen Content mit klaren H2/H3-Überschriften, die als Fragen formuliert sind. Drittens, nutze FAQ-Schema und strukturierte Daten, damit Maschinen deine Antworten identifizieren können. Bei mir ist jeder Glossar-Eintrag so aufgebaut: Definition am Anfang, FAQs mit Schema.org, klare Struktur."
   - question: "Ersetzt AEO das klassische SEO?"
     answer: "Nein, AEO ergänzt SEO. Die klassische Google-Suche mit blauen Links wird nicht über Nacht verschwinden. Aber der Anteil der Suchanfragen, die direkt von KI beantwortet werden, wächst rapide. Wer nur SEO macht, verpasst einen wachsenden Teil des Traffics. Wer nur AEO macht, verliert die Google-Basics. Die kluge Strategie ist: SEO als Fundament, AEO und GEO als Erweiterung."
----Moin!
+---
+
+Moin!
 
 **AEO** steht für Answer Engine Optimization – und es ist die Antwort auf die größte Frage im digitalen Marketing 2026: *Wie werde ich die Quelle, die KI-Systeme zitieren?*
 

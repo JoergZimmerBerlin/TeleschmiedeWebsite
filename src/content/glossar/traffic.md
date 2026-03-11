@@ -15,7 +15,9 @@ faqs:
     answer: "Ein Traffic-Einbruch ist der Albtraum jedes Website-Betreibers, aber meistens gibt es eine logische Erklärung. Häufigste Ursachen sind Google Core Updates, technische Fehler (wie versehentliches Noindex), Saisonalität oder das Erstarken von Wettbewerbern. In meiner SEO Sprechstunde analysiere ich zuerst, ob der Einbruch site-wide ist oder nur bestimmte URLs betrifft. Dann grenzen wir ein, ob es ein technisches oder ein inhaltliches Problem ist."
   - question: "Wie steigere ich meinen organischen Traffic?"
     answer: "Die ehrliche Antwort: Es gibt keinen Quick-Fix. Nachhaltiges Traffic-Wachstum erfordert hochwertigen Content, der echte Nutzerfragen beantwortet, eingebettet in eine saubere technische Architektur. Du musst die Suchintention deiner Zielgruppe perfekt bedienen und gleichzeitig Signale für deine E-E-A-T Autorität setzen. Ein gut strukturiertes Glossar wie dieses hier ist zum Beispiel ein hervorragender Motor für langfristigen Traffic-Aufbau."
----Traffic ist die Währung der Aufmerksamkeit.
+---
+
+Traffic ist die Währung der Aufmerksamkeit.
 Ganz einfach: Wie viele Menschen landen auf deiner Seite?
 Aber hier fangen die Probleme meist schon an.
 

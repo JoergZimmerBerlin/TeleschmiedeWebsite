@@ -16,7 +16,9 @@ faqs:
     answer: "Die wichtigsten Signale: Detaillierte Autorenbiografien mit echten Fotos und Qualifikationen. Verlinkungen von und zu Fachpublikationen, Gastbeiträge in Branchen-Medien und Podcasts. Eigene Daten und Case Studies, die nur du hast. Und ganz zentral: Schema.org Markup ('Person'), das deine Autorität maschinenlesbar macht. Meine eigene Grounding Page ist ein Beispiel, wie ich das für mich selbst und für Kunden umsetze."
   - question: "Wofür steht das zweite 'E' in E-E-A-T, und warum hat Google es nachträglich hinzugefügt?"
     answer: "Das steht für 'Experience' (Erfahrung aus erster Hand). Google hat 2022 gemerkt, dass reines Expertenwissen nicht reicht. Ein Arzt, der über eine OP schreibt, hat Expertise. Aber ein Patient, der seine persönliche Genesungsgeschichte erzählt, hat Erfahrung. Beides zusammen ist die Traumkombination. Das zeigt Googles klare Richtung: Authentischer Praxis-Content ist die Zukunft."
----Moin!
+---
+
+Moin!
 
 Wenn in der modernen Suchmaschinenoptimierung ein Begriff die letzten Jahre dominiert hat, dann ist es **E-E-A-T**. 
 Entstanden aus den internen *Search Quality Rater Guidelines* von Google, hat sich dieses Akronym vom reinen Theorie-Konzept zum absoluten Fundament jeglicher Content-Strategie entwickelt. 

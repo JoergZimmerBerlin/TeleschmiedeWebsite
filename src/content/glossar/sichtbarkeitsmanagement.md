@@ -15,7 +15,9 @@ faqs:
     answer: "Du brauchst mehrere KPIs gleichzeitig. Der Sichtbarkeitsindex (z.B. von Sistrix oder SE Ranking) misst deine Google-Präsenz. Tools wie Rankscale messen deine AI Visibility über 17+ LLMs. Das Branded Search Volume in der Google Search Console zeigt, wie oft nach deinem Namen gesucht wird. Und dein Citation-Profil verrät, wie oft du auf Drittseiten erwähnt wirst. Erst die Kombination all dieser Werte ergibt das vollständige Bild."
   - question: "Kann ich Sichtbarkeitsmanagement selbst machen oder brauche ich einen Experten?"
     answer: "Die Basics kannst du definitiv selbst umsetzen: Google Search Console einrichten, Sitemap pflegen, regelmäßig Content veröffentlichen. Aber für eine echte Strategie – also die Frage 'Wie werde ich zur Entität in meiner Nische?' – brauchst du jemanden, der den Gesamtblick hat. In meinen SEO Sprechstunden starten wir oft genau hier: Wo stehst du, wo willst du hin, und welche Kanäle haben den größten Hebel?"
----Moin!
+---
+
+Moin!
 
 **Sichtbarkeitsmanagement** klingt nach Corporate-Buzzword? Ist es auch. Aber hinter dem sperrigen Begriff steckt die wichtigste Frage im digitalen Marketing: *Wer kontrolliert, wo und wie du online gefunden wirst?*
 

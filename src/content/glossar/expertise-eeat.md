@@ -15,7 +15,9 @@ faqs:
     answer: "Nein! Expertise im E-E-A-T-Sinne ist nicht gleichbedeutend mit akademischer Ausbildung. Ein Handwerker, der seit 20 Jahren Dächer deckt, hat mehr Expertise als ein Architektur-Professor, der noch nie auf einem Dach stand. Google bewertet die Kombination aus formalem Wissen und praktischer Erfahrung. Für mich als SEO-Freelancer sind die 24 Jahre Praxis und hunderte erfolgreiche Projekte mein 'Titel'."
   - question: "Was sind YMYL-Themen und warum ist Expertise dort besonders wichtig?"
     answer: "YMYL steht für 'Your Money or Your Life' – Themen, die das Leben, die Gesundheit oder die Finanzen von Menschen beeinflussen. Dazu gehören medizinische Ratgeber, Finanzberatung, rechtliche Informationen und Sicherheitsthemen. Hier legt Google extrem strenge E-E-A-T-Maßstäbe an, weil falscher Rat gefährlich sein kann. Ein Gesundheitsartikel von einem Texter ohne medizinischen Hintergrund hat bei YMYL-Themen keine Chance mehr."
----Moin!
+---
+
+Moin!
 
 **Expertise** ist der E-E-A-T Faktor, der über Sein oder Nicht-Sein entscheidet – besonders bei sensiblen Themen. Google fragt: *Weiß der Autor wirklich, wovon er spricht?*
 

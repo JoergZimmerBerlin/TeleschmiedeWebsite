@@ -15,7 +15,9 @@ faqs:
     answer: "Noch nicht als separate Rolle, aber als integrierte Kompetenz. Der beste Weg ist ein SEO-Experte, der auch GEO und LLMO versteht und beide Welten verbinden kann. Das ist mein Ansatz: Ich trenne nicht zwischen 'klassischem SEO' und 'AI SEO', sondern behandle es als eine integrierte Strategie. Jede SEO-Maßnahme wird so umgesetzt, dass sie sowohl Google als auch KI-Systemen Signale sendet."
   - question: "Ist AI SEO nur ein neues Buzzword?"
     answer: "Die Begriffe sind neu, ja. Aber die Entwicklung dahinter ist real und messbar. Über 30% aller Google-Suchen zeigen bereits AI Overviews. ChatGPT hat hunderte Millionen aktive Nutzer. Perplexity wächst rasant. Wer diese Kanäle ignoriert, verliert faktisch Sichtbarkeit. AI SEO ist kein Marketing-Buzz – es ist die logische Evolution einer Branche, die sich seit 25 Jahren ständig neu erfindet."
----Moin!
+---
+
+Moin!
 
 **AI SEO** – zwei Buchstaben, die alles verändern. Es ist der Dachbegriff für die nächste Evolution der Suchmaschinenoptimierung: Die Verbindung von klassischem Google-SEO mit der Optimierung für KI-Suchmaschinen.
 

@@ -15,7 +15,9 @@ faqs:
     answer: "Ja, das hat Google selbst bestätigt. Aber lass dich von der Zahl nicht verrückt machen. In der Praxis gibt es vielleicht 15-20 Faktoren, die den Löwenanteil ausmachen. Der Rest ist Feintuning. In meinen Audits konzentriere ich mich auf die Hebel mit dem größten Impact: Content-Qualität, interne Verlinkung, technische Fehler und Backlink-Profil. Wer diese vier Bereiche im Griff hat, schlägt 90% der Konkurrenz."
   - question: "Zählen Social Media Signale als Rankingfaktor?"
     answer: "Google hat offiziell gesagt: Nein, Social Signals sind kein direkter Rankingfaktor. Aber indirekt haben sie einen enormen Einfluss. Ein viraler LinkedIn-Post erzeugt Aufmerksamkeit, die zu Backlinks, Mentions und Branded Searches führt – und DAS sind direkte Rankingfaktoren. Außerdem nutzen KI-Modelle Social-Media-Inhalte als Trainingsmaterial. Wer auf LinkedIn aktiv ist, stärkt also auch seine GEO-Sichtbarkeit."
----Moin!
+---
+
+Moin!
 
 Jeder, der sich mit SEO beschäftigt, stellt irgendwann die Frage aller Fragen: *Was genau entscheidet Google, wer auf Platz 1 steht?*
 

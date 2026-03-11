@@ -9,6 +9,7 @@
     "check-links": "node scripts/check-links.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.16.0",

@@ -5,59 +5,94 @@ date: "2026-03-11"
 image: "../../assets/images/blog/seo-responsibility-chain.webp"
 image_alt: "Illustrative Darstellung der Verknüpfung von Design und SEO"
 key_takeaways:
-  - "Google Search Console (GSC) Setup gehört zum ultimativen Pflicht-Standard eines Webprojekts."
-  - "Die Verantwortung fürs initiale Setup liegt fast immer beim Designer, da er den ersten Kontaktpunkt hat."
-  - "Egal wer es einrichtet: Die Account-Hoheit über die Website-Daten muss immer beim Kunden bleiben."
+  - "Die Google Search Console (GSC) ist keine optionale Spielerei, sondern das absolute Pflicht-Werkzeug jedes Web-Projekts vom ersten Tag an."
+  - "Die Verantwortung fürs initiale Setup liegt fast immer beim Designer oder Entwickler – wer baut, prüft auch, ob das Fundament trägt."
+  - "Egal wer einrichtet: Die Admin-Hoheit muss immer beim Kunden selbst liegen, niemals bei der Agentur."
 faqs:
-  - question: "Warum ist die GSC so essenziell?"
-    answer: "Sie ist die absolute Basis-'Gesundheits-App' deiner Website. Ohne GSC fliegst du beim Relaunch im totalen Blindflug ohne Radar."
-  - question: "Muss ein Webdesigner tiefes SEO können?"
-    answer: "Nein, er muss kein SEO-Strategie-Guru sein. Aber die technischen Basics (wie Indexierungsfreigabe und Sitemap-Einreichung) müssen sitzen."
-  - question: "Was ist mit dem Tracking-Code?"
-    answer: "Klar geregelt: GSC ist kein zustimmungspflichtiges Tracking-Tool wie Analytics. Es greift keine User-Daten ab, sondern Server-Daten. Es gibt also keine DSGVO-Ausrede."
+  - question: "Warum ist die GSC so essenziell für jedes Webprojekt?"
+    answer: "Die Google Search Console ist die absolute Gesundheits-App deiner Website – und das völlig kostenlos. Hier siehst du, welche Seiten Google crawlt, welche Seiten indexiert werden (und welche nicht!), welche Keywords dir Traffic bringen und wo technische Fehler lauern. Ohne GSC fliegst du nach einem Relaunch im totalen Blindflug. Du weißt nicht, ob Google die neue Sitemap kennt, ob Seiten versehentlich auf 'noindex' stehen oder ob ein Crawl-Fehler deinen gesamten Shop unsichtbar macht."
+  - question: "Muss ein Webdesigner also tiefes SEO-Wissen haben?"
+    answer: "Nein, er muss kein SEO-Strategie-Guru sein. Aber die technischen Launches-Basics müssen absolut sitzen: Die Domain in der GSC verifizieren, die Sitemap einreichen und prüfen, ob die Seite nicht versehentlich mit 'noindex'-Tags gesperrt ist. Das ist wie ein Elektriker, der nach der Installation prüft, ob der Strom fließt. Es gehört zum Handwerk, nicht zur Erweiterungsleistung."
+  - question: "Was ist mit dem Datenschutz beim GSC-Tracking?"
+    answer: "Es gibt eine verbreitete Fehlannahme: Die Google Search Console ist kein Tracking-Tool im DSGVO-Sinne wie Google Analytics 4. Sie gibt keine individuellen Nutzerprofile aus und greift keine Cookie-basierten User-Daten ab. Sie analysiert aggregierte Server-Daten aus Googles eigenem Index. Es gibt also keine rechtliche Ausrede, sie nicht einzurichten. Wer das zuständige Team mit DSGVO-Argumenten hinhalten will, schiebt nur Verantwortung weg."
 ---
 
 Moin! 🌻
 
-Hier kommt ein Thema, bei dem in Projektrunden regelmäßig die Fetzen fliegen: **Wer ist eigentlich verdammt nochmal für die Einrichtung der Google Search Console (GSC) zuständig?** 🛠️
+Hier kommt eines der Themen, bei dem in Projektmeetings regelmäßig die Fetzen fliegen – und ich das eigentlich seit Jahren nicht mehr ertrage: **Wer ist verdammt nochmal für die Einrichtung der Google Search Console (GSC) zuständig?** 🛠️
 
-Es klingt lächerlich banal, aber stell dir vor, du baust ein teures Haus. Wer meldet den Wasseranschluss final an? Der Architekt, der das Dach geplant hat? Die handwerkliche Sanitärfirma? Oder der Hausherr selbst, wenn er am ersten Tag einziehen will und unter der trockenen Dusche steht?
+Das klingt nach einer banalen Frage. Ist es nicht.
 
-### Die "Health App" deiner Website
+Stell dir vor: Du baust ein teures Haus. Nach dem Einzug stellst du fest, dass der Wasseranschluss nie final angemeldet wurde. Wer trägt die Verantwortung? Der Architekt, der das Dach geplant hat? Die Sanitärfirma? Oder du als Hausherr, der unter der trockenen Dusche steht?
 
-Die GSC ist für mich die absolute Gesundheits-App jeder Website. Hier sehen wir Server-Fehler, Core Web Vitals, Indexierungsprobleme und natürlich unsere rohe Sichtbarkeit bei Google.  Das kostenlose SEO-Tool von Google hilft allen Beteiligten. 
+## Warum das jeden betrifft
 
-Trotzdem wird das initial Setup bei einem Website-Neubau oder Relaunch oft wie ein Stück glühende Kohle hin- und hergeschoben. Bei der Erstellung ist oft nur der Webdesigner im Boot. Der SEO-Spezialist wird meist erst gerufen, wenn der Traffic abstürzt, und der Inhaber zuckt nur mit den Schultern.
+Die Google Search Console ist die Gesundheits-App jeder Website. Hier sehen wir:
+- Welche Seiten Google crawlt – und welche er ignoriert
+- Technische Fehler, die das Ranking blockieren
+- Core Web Vitals in Echtzeit
+- Welche Keywords wirklich Traffic bringen
+- Ob der Relaunch sauber indiziert wurde
 
-### Die Ergebnisse: 71 Expertenreden Tacheles
+Und trotzdem wird das GSC-Setup bei Webprojekten oft behandelt wie eine heiße Kartoffel: Jeder schiebt sie weiter, keiner fängt sie auf.
 
-Ich habe diese Zuständigkeitsfrage in meinem LinkedIn-Netzwerk gepostet. Die Diskussion explodierte mit 71 Kommentaren. Und die Tendenz war so glasklar wie der Himmel über Berlin-Spandau: **Der Webdesigner (oder Entwickler) ist beim Launch in der Pflicht.** 
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wer eine neue Website live schaltet ohne die GSC einzurichten und die Sitemap einzureichen, liefert ein unfertiges Produkt ab. Punkt. Das ist wie ein Auto ohne Tacho zu verkaufen und zu sagen: 'Die Geschwindigkeit müssen Sie selbst schätzen.'"</p>
+</div>
 
-In der Regel ist die Agentur, die baut, der erste technische Kontaktpunkt. Wer eine neue Website live schaltet, ohne sie wenigstens basis-mäßig bei Google anzumelden und eine Sitemap einzureichen, liefert schlichtweg ein unfertiges Produkt ab. 
+## Was 71 Experten auf LinkedIn sagen
 
-Das ist, als würdest du ein neues Auto teuer verkaufen, aber die Zulassung darf der Kunde selbst beim Straßenverkehrsamt würfeln.
+Ich habe diese Zuständigkeitsfrage öffentlich gepostet. 71 Kommentare später war das Bild glasklar.
 
-Einige Zitate aus der Community brachten es auf den Punkt:
-*"Die GSC ist keine optionale Marketing-Spielerei, sie ist die technische Basis-Kontrolle. Wer baut, prüft, ob das Haus gerade steht."*
+| Zuständigkeit | Argument | Häufigkeit in Diskussion |
+|---|---|---|
+| **Webentwickler / Agentur** | Ist der erste tech. Kontaktpunkt beim Launch | Sehr häufig |
+| **SEO-Spezialist** | Hat das Fachwissen für korrekte Konfiguration | Häufig |
+| **Auftraggeber selbst** | Sollte ohnehin immer Admin sein | Mittel |
+| **Keiner zuständig ("nicht mein Job")** | Klassischer Pfusch am Bau | Leider auch häufig |
 
-💬 **Jörgs SEO-Klartext:**
-Es gibt einen Punkt, bei dem ich wirklich rasend werde: **Wem gehört der Account?**
-Ganz wichtig: Wer auch immer das Setup anlegt – **die Admin-Rechte gehören dem Eigentümer der Domain!** Ich erlebe in meinen [Sprechstunden](/seo-sprechstunde/) fast wöchentlich das Drama, dass alte Agenturen die GSC-Accounts unter ihrer eigenen Sammel-Adresse "gefangen" halten. Das ist ein absolutes No-Go und starker **Pfusch am Bau**. 🦖 
+Der Konsens war eindeutig: **Der Webentwickler oder die Agentur, die das Projekt live schaltet, ist beim Launch in der Pflicht.** Sie haben den technischen Zugriff, sie kennen die Hosting-Konfiguration, sie sind der erste Ansprechpartner.
 
-### Die Rollenverteilung (Im A-Team Style)
+Das heißt nicht, dass der SEO keine Rolle spielt. Der SEO kommt danach und analysiert die eingehenden Daten strategisch. Aber er kann erst anfangen zu arbeiten, wenn das Basis-Setup steht.
 
-Ein erfolgreicher Relaunch ist wie ein sauber ausgeführter Einsatz vom A-Team. Da braucht es klare Rollen:
+## Der Punkt, bei dem ich wirklich rasend werde
 
-- **Der Webentwickler (B.A. Baracus):** Er baut das fundamentale Gerüst, setzt sauberen Code ein, verifiziert die Domain in der GSC am Launch-Tag und schickt die `sitemap.xml` los. Er prüft, ob die Roboter aussperrt sind (`noindex`).
-- **Der Eigentümer (Face):** Ist der offizielle Inhaber aller Properties, zahlt die Rechnungen und gibt die rechtliche Freigabe.
-- **Der SEO (Hannibal):** Übernimmt nach dem Launch (oder im grandiosen Idealfall: er plant vorher mit!), analysiert die reinkommenden Daten, steuert die Content-Strategie und löst komplexe Indexierungs-Rätsel.
+Es gibt eine noch schlimmere Variante des Problems, die ich in meinen [SEO-Sprechstunden](/seo-sprechstunde/) regelmäßig sehe: Die alte Agentur hat die Google Search Console **unter ihrer eigenen E-Mail-Adresse** eingerichtet.
 
-Wenn beide Parteien Hand in Hand arbeiten, klappt es auch mit einem sauberen Ranking-Start. Wenn aber jeder sagt: *"Das stand nicht in meinem Pflichtenheft"*, landen wir direkt in der viel zitierten **Tracking-Hölle**.
+Das bedeutet: Wenn der Kunde die Agentur wechselt, verliert er den Zugang zu seiner eigenen Website-Datenhistorie. Jahre von Daten sind weg. Manchmal sogar die Domainverifizierung.
 
-### Mein Fazit
+**Das ist kein Versehen. Das ist Machtmissbrauch durch Datenfesthaltung.** 🦖
 
-Das Basis-Setup der GSC ist rein technisches Pflichtprogramm, keine optionale Kür-Leistung. Liebe Webdesigner: Integriert es fix in eure Go-Live-Checkliste. Es gehört zu einem verdammt guten Handwerk einfach dazu.
+Die klare Regel lautet:
 
-Wie seht ihr das Projekt-Geplänkel? Wer zieht bei euch die GSC-Strippen am Launch-Tag?
+1. **Admin-Recht = Auftraggeber.** Der Domain-Eigentümer ist immer der primäre Eigentümer der GSC-Property.
+2. **Agentur hat delegierten Zugang.** Sie kann vollständige Zugriffsrechte haben – aber nie die Eigentümerrolle.
+3. **Beim Projektabschluss:** Agentur wird entfernt, Eigentümer behält alle Daten.
+
+## Rollenverteilung beim Launch: Wer macht was?
+
+Ein sauberer Website-Launch braucht klare Verantwortlichkeiten:
+
+**Der Webentwickler:**
+- Domain in der GSC verifizieren
+- `sitemap.xml` einreichen
+- Prüfen, ob keine `noindex`-Tags aktiv sind
+- Core Web Vitals prüfen
+
+**Der Auftraggeber:**
+- Primärer Account-Eigentümer sein
+- Zugänge dokumentieren
+- Der Agentur delegierten Zugang geben (nicht umgekehrt!)
+
+**Der SEO-Experte:**
+- Holt sich delegierten Zugang
+- Beginnt Baseline-Daten zu analysieren
+- Entwickelt die langfristige [Keyword-Strategie](/glossar/keywordrecherche/)
+- Prüft [technische SEO](/glossar/technisches-seo/)-Probleme
+
+Wenn alle Parteien nach diesem Schema arbeiten, klappt es auch mit einem sauberen Ranking-Start. Wenn jeder sagt "Das stand nicht in meinem Pflichtenheft" – herzlich willkommen in der **Tracking-Hölle.**
+
+Wie seht ihr das in euren Projekten? Wer zieht bei euch die GSC-Strippen am Launch-Tag?
 
 ALOHA! 🌻✌️

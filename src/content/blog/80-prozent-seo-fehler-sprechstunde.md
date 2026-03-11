@@ -11,78 +11,120 @@ key_takeaways:
   - "Technische Klippen (Noindex, PageSpeed, SSL) sind immer noch die häufigsten Gründe für Sichtbarkeitsverluste, selbst bei modernen Systemen."
   - "Ein Relaunch ohne Redirect-Mapping ist der sicherste Weg, um jahrelang aufgebaute Rankings innerhalb weniger Tage zu vernichten."
   - "Keywords und Semantik gewinnen nur, wenn das technische Fundament (Indexierung, Header-Struktur) stabil ist – SEO-Hygiene ist Pflicht."
----
+Moin! 🌻
 
-Moin!
+*"In 80% aller SEO-Sprechstunden entdecke ich immer wieder die gleichen Fehler."* 
 
-"In 80% aller SEO-Sprechstunden entdecke ich immer wieder die gleichen Fehler." Diesen Satz habe ich neulich auf LinkedIn gepostet und er hat eine Welle von Zustimmungen (und ein bisschen Frust) ausgelöst. Warum? Weil es die bittere Realität ist. 
+Diesen Satz habe ich neulich gepostet. 
 
-Stell dir vor: Du investierst tausende Euro in ein schickes Design, lässt Texte schreiben und schaltest Anzeigen. Aber am Ende kommt kein organischer Traffic an. Warum? Weil irgendwo im Hintergrund ein kleiner Schalter auf `noindex` steht oder die Seite so langsam lädt, dass selbst die geduldigsten Nutzer (und der Google Bot) vorher abspringen.
+Das Echo? 
 
-![Jörg Zimmer - SEO Sprechstunde Ergebnisse](../../assets/images/blog/seo-discovery-original.webp)
+Ein Mix aus Zustimmung und tiefem Seufzen. 
 
-In den letzten Monaten habe ich hunderte von Websites "gegrillt". Von der kleinen Freelancer-Seite bis zum großen Enterprise-Portal. Die Fehler sind erstaunlicherweise fast immer identisch. In diesem Deep Dive gehen wir die "Top 5 Sünden" durch, die ich am häufigsten finde. Schnall dich an – das hier könnte wehtun, wenn du deine Seite darin wiedererkennst.
+Es ist die bittere Realität. 
 
-## 1. Der technische Friedhof
-Wenn ich eine Seite im Audit habe, ist mein erster Blick immer: **Darf Google überhaupt rein?** 
+Leute investieren tausende Euro in Hochglanz-Designs. 
 
-Es klingt banal, aber ich finde regelmäßig Seiten, die seit Wochen oder Monaten via `noindex` komplett aus der Suche ausgesperrt sind. Oft ist das ein Überbleibsel aus der Entwicklungsphase ("Testumgebung"), das beim Live-Gang vergessen wurde. 
+Sie lassen Texte für SEO-Götter schreiben. 
 
-### Die PageSpeed-Katastrophe
-Ein PageSpeed-Score von 10/100 auf Mobilgeräten ist leider keine Seltenheit. Wenn die Seite 8 Sekunden braucht, um den ersten Inhalt anzuzeigen, ist SEO eigentlich hinfällig. Die Nutzer sind weg, bevor sie dein Angebot überhaupt sehen können. 
+Aber am Ende kommt: **Nichts.** 
 
-**Philipp F.** brachte es in den Kommentaren auf den Punkt: 
-*"Das liegt oft an diesen 'Baukasten-Versprechen' (Bau deine Seite in 10 Min). Die Leute glauben, sie brauchen keine Experten mehr und übersehen dann die technischen Basics komplett."*
+Kein Klick. Kein Lead. 
 
-## 2. Die Top 5 SEO-Fehler in der Sprechstunde
-Um das Ganze mal visuell festzuhalten, habe ich hier die Klassiker aus meinen Audits zusammengefasst. Wenn du nur einen dieser Punkte auf deiner Seite hast, verschenkst du massiv Potenzial.
+Warum? 
 
-![Infografik: Top 5 SEO-Fehler in der Sprechstunde](../../assets/images/blog/seo-top-mistakes-checkliste.webp)
+Weil irgendwo im Getriebe ein Sandkorn klebt.
 
-### Das Header-Chaos (H1 bis H5)
-Überschriften sind keine Design-Elemente. Sie sind die Inhaltsstruktur für Maschinen. Ich sehe oft Seiten mit fünf H1-Tags, aber keiner logischen Unterteilung in H2 oder H3. Oder schlimmer: Überschriften werden nur genutzt, um Text "fett und groß" zu machen. Das verwirrt den Google-Bot und verschlechtert deine Relevanz-Signale.
+## Die Top 5 Sünden: Was ich wirklich finde
 
-## 3. Das Relaunch-Drama: Der Ranking-Killer Nummer 1
-Das ist der absolute Klassiker unter den Herzinfarkt-Momenten. Eine Firma macht einen Relaunch. Alles ist neu, alles ist schöner. Aber zwei Wochen später bricht die Sichtbarkeit um 70% ein. 
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. 
 
-Der Grund? **Fehlendes Redirect-Mapping.** 
-Alte URLs führen ins Leere (404-Fehler), und Google verliert den Bezug zu den Inhalten, die früher gut gerankt haben. 
+Hier ist das Protokoll der häufigsten Abgründe:
 
-**Alex Diogo** merkte dazu treffend an: 
-*"Websites sind oft unter mehreren Versionen erreichbar (www vs. non-www), ohne dass eine klare Umleitung besteht. Das ist Duplicate Content par excellence."*
+### 1. Der technische Friedhof
 
-Ein Relaunch ohne einen sauberen Redirect-Plan ist kein Fortschritt, sondern digitaler Selbstmord.
+Checkst du eigentlich, ob Google überhaupt rein darf? 
 
-![Infografik: Der sichere Relaunch-Prozess](../../assets/images/blog/seo-relaunch-checklist-visual.webp)
+Oft finde ich Seiten, die seit Monaten auf `noindex` stehen. 
 
-Wie du in der Grafik siehst: Die Vorbereitung (Mapping) ist der wichtigste Teil. Wer diesen Schritt überspringt, fängt bei Null an.
+Vergessen nach dem Live-Gang. 
 
-## 4. Struktur & Indexierung: Die unsichtbaren Bremsen
-Oft liegen die Fehler tief im System vergraben.
-- **Versteckte Subdomänen:** Manchmal rankt eine alte "dev.meinewebsite.de" besser als die Hauptseite, weil sie nicht sauber getrennt wurde. 
-- **Fehlende SSL-Verschlüsselung:** Ja, 2024 gibt es das noch. Ohne HTTPS straft Google (und der Browser) die Seite sofort ab.
-- **Sitemap & Canonical-Chaos:** Wenn die Sitemap auf uralte URLs verweist und Canonical-Tags ins Leere zeigen, weiß Google nicht mehr, welche Seite die "echte" ist.
+Ein digitaler Selbstmord auf Raten.
 
-**Charlotte Rüsch** hat in der Diskussion einen wichtigen Punkt gemacht: 
-*"SEO wird oft als störendes Anhängsel betrachtet, statt es von Anfang an mitzudenken. Das führt genau zu diesen 80%-Problemen."*
+### 2. Die PageSpeed-Katastrophe
 
-## 5. Strategie: Keywords am Ziel vorbei
-Selbst wenn die Technik steht, scheitern viele an der Strategie. Es werden Keywords targetiert, die ein riesiges Volumen haben, aber null Kaufabsicht. Oder es werden extrem spezifische Nischen-Keywords ignoriert, die eigentlich die echte Conversion bringen würden. 
+Ein Score von 10/100? 
 
-**Jörg Niethammer** spottete in den Kommentaren über den Hype um "GEO" (Generative Engine Optimization), während die Basics vernachlässigt werden: 
-*"Man redet über die Spitze des Eisbergs, während das Schiff unter Wasser schon leckt."*
+8 Sekunden Ladezeit auf dem Handy? 
 
-### Bottom Line für dein Business
-Du musst kein technisches Genie sein, um 80% deiner SEO-Probleme zu lösen. Es geht um **Disziplin**.
-1. Check deine Indexierung (`noindex`?).
-2. Fix deinen PageSpeed.
-3. Bring Struktur in deine Header.
-4. Plane jeden URL-Wechsel wie eine Herz-OP.
-5. Konzentrier dich auf Inhalte, die deinen Nutzern wirklich helfen.
+Vergiss es. 
 
-Wenn du diese Basics im Griff hast, gehörst du bereits zu den Top 20% im Netz. Der Rest ist dann Finetuning.
+Der Nutzer ist weg. 
 
-ALOHA! 🌻
+Der Bot ist weg. 
+
+Du hast verloren.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Design verkauft vielleicht das erste Mal. Aber Technik behält den Kunden. Wer PageSpeed ignoriert, verbrennt Marketingbudget schneller als er 'Conversion' sagen kann."</p>
+</div>
+
+### 3. Das Header-Chaos
+
+H1 bis H5 sind keine Design-Vorgaben. 
+
+Es ist die Straßenkarte für Google. 
+
+Wer fünf H1-Tags nutzt, um Text "schön fett" zu machen, schickt den Bot in eine Sackgasse. 
+
+Strukturier deinen Inhalt. Tacheles.
+
+### 4. Das Relaunch-Drama: Der Ranking-Killer
+
+Mein "Liebling". 
+
+Website neu. Alles chic. 
+
+Zwei Wochen später: -70% Sichtbarkeit. 
+
+Der Grund? 
+
+Du hast das Redirect-Mapping vergessen. 
+
+Deine alten URLs führen ins Leere (404). 
+
+Google verliert den Bezug. Dein Ranking stirbt.
+
+### 5. Strategie am Ziel vorbei
+
+Keywords mit gewaltigem Volumen? 
+
+Klingt toll in der Grafik. 
+
+Bringt dir aber keine einzige Anfrage, wenn die Suchabsicht nicht passt. 
+
+Wer auf die Spitze des Eisbergs starrt, merkt nicht, dass das Schiff unten leckt.
+
+| Sünde | Die Lösung |
+|---|---|
+| Indexierung blockiert | `noindex` Schalter prüfen |
+| Schneckentempo | Bilder komprimieren, Code aufräumen |
+| Header-Salat | Eine H1 pro Seite. Logisch verschachtelt. |
+| Redirect-Schlamperei | Sauberes Mapping vor dem Launch |
+| Keyword-Hype | Fokus auf Conversion, nicht auf Eitelkeit |
+
+## Bottom Line für dein Business
+
+Du musst kein Tech-Genie sein. 
+
+Du brauchst Disziplin. 
+
+Wer die Basics macht, gehört schon zu den Top 20%. 
+
+Bist du bereit, deine Seite mal so richtig grillen zu lassen?
+
+ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
 <strong>Lass uns deine Website "grillen"!</strong>

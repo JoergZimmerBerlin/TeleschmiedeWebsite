@@ -2,6 +2,7 @@
 title: "5 Sterne: Was Kunden über die SEO-Sprechstunde sagen"
 description: "Ronny A. teilt seine Erfahrung nach einer 2-stündigen SEO-Beratung mit Jörg Zimmer. Was wirklich passiert, wenn eine Website auf den Grill kommt – und was danach anders ist."
 date: "2026-01-27"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_einmal-website-sichtbarkeit-auf-den-grill-activity-7411702493564473344-TD6t"
 image: "../../assets/images/blog/seo-sprechstunde-prozess.webp"
 image_alt: "SEO-Sprechstunde Bewertung: 5 Sterne von Ronny – Prozess von Vorbereitung bis Maßnahmenplan"
 category: "SEO Praxis"
@@ -23,59 +24,80 @@ faqs:
 
 Moin! 🌻
 
-Manchmal bekommt man Feedback, das einen nicht nur freut, sondern das einen auch daran erinnert, warum man diesen Job nach über zwei Jahrzehnten immer noch mit Herzblut macht.
+Feedback ist Treibstoff. 
 
-**Ronny A.** – Local Guide mit beeindruckenden 182+ Rezensionen, also jemand, der wirklich weiß, wie man Qualität beurteilt – hat nach unserer gemeinsamen SEO-Sprechstunde eine Bewertung geschrieben, die ich mir am liebsten ausdrucken und übers Bett hängen würde:
+Gestern kam eine Bewertung von **Ronny A.** rein. 
 
-> *"Nach langem Überlegen eine 2-stündige SEO-Sprechstunde mit Jörg gebucht. Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website vorbereitet. Es war ein sehr intensives Gespräch mit sehr großem Mehrwert."*
+Ronny ist Local Guide mit 182+ Rezensionen. 
 
-Lass uns diese drei Punkte aufschlüsseln – weil genau das mein Fundament ist.
+Einer, der weiß, wie man Qualität beurteilt. 
 
-## "Top auf unsere Website vorbereitet"
+Sein Urteil nach 2 Stunden SEO-Sprechstunde? 
 
-Das ist mein heiliges Versprechen an jeden, der bucht. Wenn wir uns im Videocall treffen, fange ich nicht erst dann an, deine URL einzutippen. Zu diesem Zeitpunkt habe ich bereits mindestens eine Stunde (oft länger) in dein Projekt investiert.
+**5 Sterne.**
 
-Was ich in dieser Stunde mache:
+Warum? 
 
-| Tool | Was ich prüfe |
-|---|---|
-| Google Search Console | Welche Keywords, welche Fehler, welche Trends |
-| SISTRIX / Ahrefs | Sichtbarkeits-Historie, Konkurrenzvergleich |
-| Screaming Frog | Technische Fehler, kaputte Links, Indexierung |
-| PageSpeed Insights | Core Web Vitals, LCP, CLS |
+Weil ich Websites auf den Grill lege. Ohne Kompromisse.
 
-Wenn wir starten, habe ich bereits ein klares Bild. Wir quatschen nicht über das Wetter in Berlin. Wir reden ab Minute 1 über deine Sichtbarkeit.
+> *"Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website vorbereitet. Es war ein sehr intensives Gespräch mit sehr großem Mehrwert."*
+
+## "Top vorbereitet" ist mein Gesetz
+
+Bei mir gibt es kein "Lass mal kurz gucken". 
+
+Wenn wir den Call starten, kenne ich deine Seite schon. 
+
+Ich habe bereits 60 Minuten investiert. 
+
+### Mein Vorbereitungs-Check:
+
+- **GSC**: Wo klemmt es bei den Keywords?
+- **SISTRIX**: Wie ist der Sichtbarkeits-Trend?
+- **Screaming Frog**: Was sagen die Crawl-Daten?
+- **PageSpeed**: Wie schnell flutscht die Seite?
+
+Wir quatschen nicht übers Wetter. 
+
+Wir reden ab Minute 1 über deine Performance.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"400€ kaufen keine Zeit. Sie kaufen Abkürzungen aus 25 Jahren Erfahrung, hunderte gelöste Krisen und das Wissen aus tausenden Stunden Analyse – konzentriert in 120 Minuten."</p>
+  <p class="italic text-dark mb-0">"400€ kaufen keine Zeit. Sie kaufen Abkürzungen aus 25 Jahren Erfahrung. 120 Minuten, um Fehler zu vermeiden, die dich Monate und zehntausende Euro kosten könnten."</p>
 </div>
 
-## "Sehr gut strukturiert"
+## Struktur statt Chaos
 
-Zwei Stunden klingen erst mal lang. Im SEO-Universum ist das ein Wimpernschlag. Man kann sich in Details vergraben, über Meta-Tags philosophieren oder sich in Keyword-Listen verlieren. Meine Aufgabe ist es, den roten Faden zu halten.
+Zwei Stunden sind im SEO ein Wimpernschlag. 
 
-Wir arbeiten von den großen Brocken zu den Feinheiten:
-1. **Technik & Architektur** – Was hält die Seite strukturell zurück?
-2. **Content-Analyse** – Wo ist das Potenzial, wo ist der Ballast?
-3. **[Interne Verlinkung](/glossar/interne-verlinkung/)** – Wo fließt kein Linkjuice, obwohl er sollte?
-4. **Konkurrenzlücken** – Was machen die anderen besser und warum?
+Meine Aufgabe: Den roten Faden halten. 
 
-Am Ende hast du keinen wirren Kopf, sondern einen klaren Plan.
+1. **Technik**: Was bremst die Architektur? 
+2. **Content**: Wo ist Potenzial, wo ist Ballast? 
+3. **Konkurrenz**: Was machen die anderen besser?
 
-## "Sehr großer Mehrwert"
+Am Ende hast du keinen wirren Kopf. 
 
-Ronny schreibt weiter:
+Sondern einen Schlachtplan.
 
-> *"Der Preis ist völlig gerechtfertigt und spiegelt seine 25-jährige Erfahrung wieder."*
+## "Der Preis ist völlig gerechtfertigt"
 
-Das ist der Punkt, bei dem viele erst mal schlucken: 400€ für 2 Stunden? Aber wenn du es durchrechnest, ist es das effizienteste Format, das ich kenne.
+Sagt Ronny. Und er hat recht. 
 
-Was du konkret bekommst:
-- **Aufzeichnung:** Konzentriere dich voll auf das Gespräch statt auf Notizen
-- **KI-Zusammenfassung:** Ein schnelles Protokoll der wichtigsten Erkenntnisse
-- **Individueller Maßnahmenplan:** Dein persönlicher Schlachtplan – kein generisches Template
+Was du wirklich bekommst: 
 
-Wenn du das Gefühl hast, dass deine Website "mehr könnte", aber du nicht weißt, wo der Flaschenhals steckt: **[Lass uns reden](/kontakt/).**
+- **Aufzeichnung**: Voller Fokus auf den Call.
+- **KI-Summary**: Die wichtigsten Punkte per Mail.
+- **Maßnahmenplan**: Individuell. Kein PDF-Template.
+
+Du kaufst Expertise. 
+
+Keine Stunden. 
+
+Deine Website "könnte mehr"? 
+
+Dann [lass uns reden](/kontakt/). 
+
+Tacheles. 
 
 ALOHA! 🌻✌️

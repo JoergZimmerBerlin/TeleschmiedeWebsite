@@ -2,7 +2,8 @@
 title: "Local SEO (Lokale Optimierung)"
 description: "Local SEO sorgt dafür, dass dein Unternehmen in deiner Region ganz oben steht. Essenziell für stationäre Händler und lokale Dienstleister."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/blog/glossar-local-seo.png"
+image_alt: "Local SEO Infografik - Regionale Sichtbarkeit"
 related_terms: ["citation", "mention", "sichtbarkeit", "google-business-profile"]
 key_takeaways:
   - "Local Pack: Ziel ist das Erscheinen in den Top-3-Ergebnissen der Google Maps Karte."

@@ -2,9 +2,13 @@
 title: "Linkjuice (Linkkraft)"
 description: "Linkjuice ist ein umgangssprachlicher SEO-Begriff für die Verteilung von Ranking-Power (PageRank), die durch interne und externe Verlinkungen weitergegeben wird."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/blog/glossar-linkjuice.png"
+image_alt: "Linkjuice & Interne Verlinkung Infografik"
 related_terms: ["crawling-vs-indexing"]
----Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.
+---
+
+![Linkjuice Infografik](../../assets/images/blog/glossar-linkjuice.png)
+Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

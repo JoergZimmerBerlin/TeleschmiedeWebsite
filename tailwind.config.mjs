@@ -7,7 +7,7 @@ export default {
         'lime-accent': '#D4FF00',
         'dark': '#1A1A1A',
         'gray-text': '#333333',
-        'gray-muted': '#888888',
+        'gray-muted': '#555555',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

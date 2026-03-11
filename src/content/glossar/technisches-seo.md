@@ -2,7 +2,8 @@
 title: "Technisches, Inhaltliches & Strategisches SEO"
 description: "Die drei Säulen des SEO-Erfolgs. Erfahre, wie technisches Fundament, exzellenter Content und eine smarte Strategie ineinandergreifen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/blog/glossar-technisches-seo.png"
+image_alt: "Technisches SEO Infografik - Das Fundament"
 related_terms: ["seo-audit", "pagespeed", "keywordrecherche"]
 key_takeaways:
   - "Technik first: Ohne sauberes Crawling und Indexierung nützt der beste Content nichts."

@@ -21,7 +21,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // Reading Time Calculation
 const wordCount = entry.body.split(/\s+/).length;
-const readingTime = Math.ceil(wordCount / 200); // Avg 200 wpm
+const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
 // Fetch related terms
 const allEntries = await getCollection('glossar');
@@ -35,9 +35,9 @@ const relatedTerms = allEntries.filter((e) =>
   description={entry.data.description}
   ogImage={entry.data.image?.src}
 >
-  <article class="section pt-8">
+  <article class="section pt-2">
     <div class="container-narrow">
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
         <!-- Back Link -->
         <a href={`${baseUrl}/glossar/`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

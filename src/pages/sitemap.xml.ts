@@ -58,9 +58,12 @@ export const GET = async () => {
   // 3. Blog Posts
   const blogPosts = await getCollection('blog');
   for (const post of blogPosts) {
-    // Collect the source path for the content post
+    // If post has a date in frontmatter (populated by Astro), use it.
+    // Otherwise fallback to git.
+    const frontmatterDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : null;
     const filePath = path.join(process.cwd(), 'src/content/blog', post.id);
-    const postDate = getLastMod(filePath);
+    const postDate = frontmatterDate || getLastMod(filePath);
+    
     urls += `
   <url>
     <loc>${baseUrl}/blog/${post.slug}/</loc>
@@ -78,8 +81,10 @@ export const GET = async () => {
   // 5. Glossary Posts
   const glossaryPosts = await getCollection('glossar');
   for (const post of glossaryPosts) {
+    const frontmatterDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : null;
     const filePath = path.join(process.cwd(), 'src/content/glossar', post.id);
-    const postDate = getLastMod(filePath);
+    const postDate = frontmatterDate || getLastMod(filePath);
+    
     urls += `
   <url>
     <loc>${baseUrl}/glossar/${post.slug}/</loc>

@@ -53,7 +53,8 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
     <meta name="twitter:image" content={ogImageUrl} />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href={`${baseUrl}/images/logo-teleschmiede.webp`} />
+    <link rel="icon" type="image/svg+xml" href={`${baseUrl}/favicon.svg`} />
+    <link rel="apple-touch-icon" href={`${baseUrl}/images/logo-teleschmiede.webp`} />
 
     <!-- Preload critical font -->
     <link rel="preload" href={`${baseUrl}/fonts/inter-latin.woff2`} as="font" type="font/woff2" crossorigin />

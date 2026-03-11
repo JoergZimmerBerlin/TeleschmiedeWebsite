@@ -85,6 +85,7 @@ ALOHA ✌️
   <p class="mb-6">Ich entwickle für dich eine GEO-Strategie, die dich in die Antworten von ChatGPT und Co. bringt. Lass uns deine Sichtbarkeit zukunftssicher machen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Check anfragen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
 * **Lese-Tipp:** [LLMs verstehen](/glossar/llmo/)

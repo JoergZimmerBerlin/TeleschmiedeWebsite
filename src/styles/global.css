@@ -17,7 +17,7 @@
   h4,
   h5,
   h6 {
-    @apply text-dark font-bold;
+    @apply text-dark font-bold leading-[1.2];
   }
 
   .text-white h1,
@@ -34,9 +34,11 @@
 
   /* Lime Highlight (Pill-Shape wie bei lau.do) */
   .highlight {
-    @apply bg-lime-accent px-3 rounded-full;
+    @apply bg-lime-accent px-3 py-1 rounded-full;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+    display: inline-block;
+    line-height: 1.1;
   }
 
   /* Pill Button */

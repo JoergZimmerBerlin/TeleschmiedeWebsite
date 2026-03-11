@@ -83,6 +83,7 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deine Suchbegriffe und finde die echten Umsatztreiber für dein Business. Lass uns profitables SEO machen!</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Gespräch buchen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
 * **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)

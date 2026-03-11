@@ -99,6 +99,7 @@ ALOHA ✌️
   <p class="mb-6">Ich helfe dir, echte Autorität aufzubauen und deine Experten-Signale für Google zu schärfen. Lass uns deine Story erzählen!</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Expertise (E-E-A-T)](/glossar/expertise-eeat/)
 * **Lese-Tipp:** [Experience (E-E-A-T)](/glossar/experience-eeat/)

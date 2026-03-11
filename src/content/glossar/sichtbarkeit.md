@@ -109,6 +109,7 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dort hin, wo die Aufmerksamkeit deiner Zielgruppe ist. Lass uns deine Marktanteile sichern.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
 * **Lese-Tipp:** [Wie funktioniert GEO?](/glossar/geo/)

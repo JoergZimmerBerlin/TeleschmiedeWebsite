@@ -83,6 +83,7 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere dein Keyword-Set und finde die Schätze, die wirklich für Conversions sorgen. Lass uns dein SEO auf profitable Beine stellen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Potenzial-Audit anfragen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
 * **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)

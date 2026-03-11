@@ -90,6 +90,7 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deinen Trichter und zeige dir genau, wo du Nutzer verlierst. Lass uns gemeinsam aus deinen Besuchern echte Kunden machen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Conversion-Check anfragen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
 * **Lese-Tipp:** [Usability & SEO](/glossar/usability/)

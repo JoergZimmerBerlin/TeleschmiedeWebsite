@@ -10,8 +10,12 @@ export const GET = async () => {
 
   const getLastMod = (filePath: string) => {
     try {
+      const absolutePath = path.isAbsolute(filePath) ? filePath : path.join(process.cwd(), filePath);
       // Use git log to find the last commit date for this file in YYYY-MM-DD format
-      const dateStr = execSync(`git log -1 --format=%cs -- "${filePath}"`, { encoding: 'utf8' }).trim();
+      const dateStr = execSync(`git log -1 --format=%cs -- "${absolutePath}"`, { 
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'ignore'] 
+      }).trim();
       return dateStr || lastModYYYYMMDD;
     } catch (e) {
       return lastModYYYYMMDD;

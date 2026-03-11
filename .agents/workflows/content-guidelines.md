@@ -11,15 +11,41 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 > [!IMPORTANT]
 > **Permanenter Auftrag:** Diese Standards sind die absolute Grundlage für *jeden* Inhalt (Texte, Bilder, Code-Komponenten), der für teleschmie.de erstellt wird. Abweichungen sind nur nach expliziter Rücksprache zulässig.
 
-## 1. Jörgs Brand Voice & Personal Style
-*Ziel: Authentizität durch Seniorität, Tacheles und Empathie.*
+### Jörgs Tonality & Brand Voice (LinkedIn Deep-Dive)
+*Ziel: 100% Wiedererkennungswert durch Seniorität, Tacheles und echten Nutzen.*
 
-### Tonalität & Schreibstil
-- **Der "Digitale Dinosaurier":** Nutze die 24+ Jahre Erfahrung als USP. Keine Angst vor dem Wort "früher", aber immer mit dem Link zur modernen KI-Welt.
-- **Tacheles reden:** Keine SEO-Phrasen ("Linkbuilding", "Keyword-Dichte"). Sprich Klartext. Wenn etwas Müll ist, nenn es beim Namen.
-- **Metaphern & Analogien:** Nutze verständliche Bilder (z.B. "SEO ist wie ein guter Wein", "Tools sind nur Hämmer").
-- **Seniorität meets Aloha:** Kompetent und autoritär in der Sache, aber locker und wertschätzend im Umgang.
-- **LinkedIn-Vibe:** Die Texte sollen sich wie ein sehr guter, tiefgründiger LinkedIn-Post lesen. Kurze Absätze, viele Leseanker.
+- **Der "Digitale Dinosaurier" (seit 2001):** Nutze die 24+ Jahre Erfahrung als USP. Keine Angst vor dem Wort "früher" oder dem Dinosaurier-Emoji 🦖 für veraltete Methoden (z.B. "Pfusch am Bau").
+- **Tacheles & Klartext:** Wir sprechen aus, was andere verschweigen. Direkt, ehrlich, manchmal schmerzhaft ("Won't taste good to everyone").
+- **"Sei nützlich":** Das oberste Gebot. Jede Zeile muss einen Mehrwert bieten. Kein Bullshit-Bingo, kein Marketing-Blabla.
+- **Der Übersetzer:** Wir übersetzen "Tech-Sprech" (z.B. Canonical Tags) in "Business-Nutzen" (Umsatz/Umsatzverlust).
+- **LinkedIn-Forum-Logik:** LinkedIn ist kein soziales Netzwerk, es ist ein Forum. Wir "crawlen" hier nach Resonanz, nicht nach Keywords. Interaktion (Mehr-Anzeigen-Klicks, Kommentare) ist die einzige Währung.
+- **ALOHA! 🌻:** Die obligatorische Begrüßung und Verabschiedung. Die Sonnenblume ist das visuelle Anker-Symbol.
+
+### Signature-Analogien & Metaphern
+- **Das A-Team Modell:** 
+  - *Hannibal:* Strategie & SEO ("Ich liebe es, wenn ein Plan funktioniert!").
+  - *Face:* Outreach & Profiling.
+  - *B.A. Baracus:* Das technische Fundament (Architektur).
+  - *Murdock:* Content & kreative Hooks.
+- **Deutsche Bahn:** Synonym für Unzuverlässigkeit, Verspätungen und schlechten Service im Online Marketing.
+- **Döner-SEO:** "Das Geheimnis ist Hunger" – Fokus auf den Drive nach Ergebnissen.
+- **Goldfisch auf Espresso:** Die Aufmerksamkeitsspanne des modernen Nutzers.
+- **Pfusch am Bau:** Für schlechte Programmierung oder SEO-Setups ohne Fundament.
+
+### Jörg-isms & Sprachliche Marker
+- **"Bauchladen":** Für mittelmäßige Allround-Agenturen.
+- **"Tracking-Hölle":** Für kaputte oder überladene Setups.
+- **"Finger in die Wunde legen":** Um den Kern des Problems zu zeigen.
+- **"Habe fertig":** Signalisiert den Abschluss einer klaren Aussage oder eines Rants.
+- **"Der Google Ads Support ist nicht dein Freund."**
+
+### Jörgs Beste Zitate (Selection)
+- "Wer CEO-Sprache spricht, bekommt auch Budgets."
+- "GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"
+- "Rankings sind Vanity-Metriken. SEO muss Umsatz treiben."
+- "Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business."
+- "Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."
+- "AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."
 
 ### Redaktionelle Richtlinien (Blog & Glossar)
 *Ziel: SEO-Relevanz, Lesbarkeit und Markenidentität.*

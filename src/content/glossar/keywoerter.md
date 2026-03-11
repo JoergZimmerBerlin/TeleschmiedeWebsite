@@ -90,6 +90,7 @@ ALOHA ✌️
   <p class="mb-6">Ich analysiere deine Zielgruppe und finde die Begriffe, die wirklich für Umsatz sorgen. Lass uns deine Keyword-Strategie professionalisieren.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Check anfragen →</a>
 </div>
+
 ### Lese-Tipp
 * **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)

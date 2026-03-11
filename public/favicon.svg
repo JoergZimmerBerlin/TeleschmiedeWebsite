@@ -1,10 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- The Lüfterrad (Fan Wheel) - Pure version without background -->
+  <!-- Pure Black Lüfterrad from the logo - No background -->
   <g transform="translate(16, 16)">
-    <!-- Central Hub -->
     <circle r="1" fill="#1A1A1A"/>
-    
-    <!-- 24 Radiating Spokes -->
     <g stroke="#1A1A1A" stroke-width="1.2" stroke-linecap="round">
       <line y1="3.5" y2="13.5" transform="rotate(0)" />
       <line y1="3.5" y2="13.5" transform="rotate(15)" />

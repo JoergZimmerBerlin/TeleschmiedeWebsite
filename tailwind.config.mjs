@@ -8,10 +8,6 @@ export default {
         'dark': '#1A1A1A',
         'gray-text': '#333333',
         'gray-muted': '#4D4D4D',
-        'gray': {
-          400: '#737373', // Darker gray for meta-text
-          500: '#525252',
-        }
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

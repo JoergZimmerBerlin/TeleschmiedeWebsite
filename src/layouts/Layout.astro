@@ -15,7 +15,7 @@ const { title, description = 'Jörg Zimmer ist ein erfahrener Performance Market
 const currentPath = Astro.url.pathname;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteUrl = import.meta.env.SITE || 'https://teleschmie.de';
-const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${baseUrl}/images/pages/hero-pose.jpg`;
+const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${baseUrl}/images/pages/hero-pose.webp`;
 ---
 
 <!doctype html>
@@ -49,7 +49,7 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
     <meta name="twitter:image" content={ogImageUrl} />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href={`${baseUrl}/images/logo-teleschmiede.png`} />
+    <link rel="icon" type="image/png" href={`${baseUrl}/images/logo-teleschmiede.webp`} />
 
     <!-- Preload critical font -->
     <link rel="preload" href={`${baseUrl}/fonts/inter-latin.woff2`} as="font" type="font/woff2" crossorigin />

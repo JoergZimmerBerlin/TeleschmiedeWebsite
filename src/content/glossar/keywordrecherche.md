@@ -2,7 +2,7 @@
 title: "Keywordrecherche"
 description: "Die Keywordrecherche ist das Fundament jeder SEO-Maßnahme. Erfahre, wie du die Begriffe findest, nach denen deine Kunden wirklich suchen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["keywoerter", "suchvolumen", "keyword-tool"]
 key_takeaways:
   - "Marktforschung pur: Eine saubere Recherche ist die Basis für jede erfolgreiche SEO-Strategie."

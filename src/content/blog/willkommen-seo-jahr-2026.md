@@ -3,7 +3,7 @@ title: "Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer, die gleiche Wahrhei
 description: "Auch 2026 wird SEO falsch verstanden. Relaunchs ohne Weiterleitungen, SEO-ist-tot-Rufe und Webdesigner als SEO-Experten – es ändert sich nichts. Oder doch?"
 date: "2026-02-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_herzlich-willkommen-im-seo-jahr-2026-p%C3%BCnktlich-activity-7424407144093028352-u44d"
-image: "../../assets/images/blog/seo-missverstaendnisse-2026.png"
+image: "../../assets/images/blog/seo-missverstaendnisse-2026.webp"
 image_alt: "Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen"
 category: "SEO Strategie"
 tags: ["E-E-A-T"]
@@ -21,7 +21,7 @@ Warum ich das so sicher weiß? Weil ich seit über 24 Jahren im SEO-Zug sitze. U
 
 ## Die drei Klassiker, die einfach nicht sterben wollen
 
-![Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen](../../assets/images/blog/seo-missverstaendnisse-2026.png)
+![Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen](../../assets/images/blog/seo-missverstaendnisse-2026.webp)
 
 Freut euch auch 2026 wieder auf Sätze, die mich seit zwei Jahrzehnten in den Wahnsinn treiben:
 
@@ -39,7 +39,7 @@ Jedes Jahr aufs Neue. Jedes verdammte Mal. Nein, SEO ist nicht tot. SEO hat sich
 
 ## Der Relaunch-Friedhof: Wo gute Rankings sterben
 
-![Infografik: Relaunch ohne SEO – Plan vs. Realität mit fehlenden Weiterleitungen](../../assets/images/blog/relaunch-ohne-seo.png)
+![Infografik: Relaunch ohne SEO – Plan vs. Realität mit fehlenden Weiterleitungen](../../assets/images/blog/relaunch-ohne-seo.webp)
 
 Auch in diesem Jahr werden Leute einen Relaunch feiern, der keine Weiterleitungen enthält. Ganze Webseiten und Shops werden an den Start gehen, die alles missachten, was SEO-Leute als "ein bisschen wichtig" erachten. Die Guidelines für sauberen Code, sauberes Spiel und saubere Webseiten werden auch dieses Jahr **tausendfach ignoriert**.
 

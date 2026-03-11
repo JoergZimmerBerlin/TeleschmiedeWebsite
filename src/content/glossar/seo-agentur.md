@@ -2,7 +2,7 @@
 title: "SEO Agentur & SEO Agentur Berlin"
 description: "Wann brauchst du eine SEO Agentur, wann einen Freelancer? Alles über SEO Marketing, SEA und die Auswahl der richtigen Partner in Berlin."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-local.png"
+image: "../../assets/images/glossar/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
 key_takeaways:
   - "Struktur: Agenturen bieten oft ein breites Spektrum von Content bis IT-Support."

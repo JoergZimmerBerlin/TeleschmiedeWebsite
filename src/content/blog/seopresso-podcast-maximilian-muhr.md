@@ -3,7 +3,7 @@ title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
 description: "Björn Darko interviewt Maximilian Muhr im SEOpresso Podcast - ehrliche Einblicke in 15+ Jahre SEO-Karriere."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_seopresso-seo-karriere-activity-7385248850594353152-Ev6m"
-image: "../../assets/images/blog/seopresso-max-muhr.jpg"
+image: "../../assets/images/blog/seopresso-max-muhr.webp"
 image_alt: "SEOPRESSO Podcast Interview mit Jörg Zimmer und Max Muhr"
 category: "SEO Praxis"
 tags: ["Interview & Podcast"]
@@ -19,7 +19,7 @@ Aber mal im Ernst: Wer sich für die Menschen hinter den Algorithmen interessier
 
 ## Warum du diese Folge unbedingt hören solltest
 
-![Infografik: Karriere-Evolution im SEO – Von Zeitarbeit zum Managing Director](../../assets/images/blog/karriere-evolution-seo.png)
+![Infografik: Karriere-Evolution im SEO – Von Zeitarbeit zum Managing Director](../../assets/images/blog/karriere-evolution-seo.webp)
 
 Max ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat (und manchmal auch vor dem Sinken bewahrt hat). Was mich an seinem Interview beeindruckt hat:
 - **Die radikale Ehrlichkeit:** Er beschönigt nichts. Weder seinen Werdegang noch die Fehler, die man macht, wenn man hunderte Mitarbeiter führt.

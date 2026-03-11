@@ -2,7 +2,7 @@
 title: "Campixx Berlin"
 description: "Die Campixx (früher SEO Campixx) ist das Klassentreffen der deutschen SEO-Szene. Seit 2022 im Van der Valk Hotel Berlin Brandenburg – ein Format, das Maßstäbe setzt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-local.png"
+image: "../../assets/images/glossar/glossar-theme-local.webp"
 related_terms: ["seo-stammtisch-berlin", "ueberstunde-berlin", "e-e-a-t"]
 key_takeaways:
   - "Un-Konferenz-Format: Wissen auf Augenhöhe statt steifer Frontalbeschallung."
@@ -30,7 +30,7 @@ Wer hier hinfährt, will nicht nur Folien starren. Wer hier hinfährt, will den 
 
 ## Die Magie des Barcamp-Formats
 
-![Die Berliner SEO Szene auf der Campixx](../../assets/images/glossar/campixx-berlin.jpg)
+![Die Berliner SEO Szene auf der Campixx](../../assets/images/glossar/campixx-berlin.webp)
 *Die Berliner SEO Szene vereint auf der Campixx.*
 
 Auf der Campixx gibt es keinen festen "Star-Sprecher-Plan", der von oben diktiert wird. Abends oder morgens wird abgestimmt: Wer hat welches Thema? Wer will was wissen? Das sorgt für eine extreme Relevanz und Aktualität, die starre Konferenzen nie erreichen können.

@@ -6,16 +6,16 @@ export const GET = async () => {
 
     const imageMap = {
         '': [
-            { loc: '/images/joerg-zimmer-portrait.jpg', title: 'Jörg Zimmer SEO Freelancer Profilbild' }
+            { loc: '/images/joerg-zimmer-portrait.webp', title: 'Jörg Zimmer SEO Freelancer Profilbild' }
         ],
         'ueber-mich/': [
-            { loc: '/images/joerg-zimmer-portrait.jpg', title: 'Jörg Zimmer über mich' }
+            { loc: '/images/joerg-zimmer-portrait.webp', title: 'Jörg Zimmer über mich' }
         ],
         'seo-sprechstunde/': [
-            { loc: '/images/joerg-zimmer-portrait.jpg', title: 'SEO Sprechstunde mit Jörg Zimmer' }
+            { loc: '/images/joerg-zimmer-portrait.webp', title: 'SEO Sprechstunde mit Jörg Zimmer' }
         ],
         'kontakt/': [
-            { loc: '/images/joerg-zimmer-portrait.jpg', title: 'Kontakt Jörg Zimmer' }
+            { loc: '/images/joerg-zimmer-portrait.webp', title: 'Kontakt Jörg Zimmer' }
         ]
     };
 

@@ -3,7 +3,7 @@ title: "Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke (und wie 
 description: "Ein Praxisbericht aus hunderten SEO-Sprechstunden: Warum 80% aller Websites an den gleichen Basics scheitern und wie du deine Seite technisch und strategisch auf Platz 1 bringst."
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_in-80-aller-seo-sprechstunden-entdecke-activity-7366897094021791744-trk9"
-image: "../../assets/images/blog/seo-discovery-original.jpg"
+image: "../../assets/images/blog/seo-discovery-original.webp"
 image_alt: "Jörg Zimmer bei der Analyse einer Website - Die 80% SEO-Fehler-Falle"
 category: "Technisches SEO"
 tags: ["Sprechstunde"]
@@ -19,7 +19,7 @@ Moin!
 
 Stell dir vor: Du investierst tausende Euro in ein schickes Design, lässt Texte schreiben und schaltest Anzeigen. Aber am Ende kommt kein organischer Traffic an. Warum? Weil irgendwo im Hintergrund ein kleiner Schalter auf `noindex` steht oder die Seite so langsam lädt, dass selbst die geduldigsten Nutzer (und der Google Bot) vorher abspringen.
 
-![Jörg Zimmer - SEO Sprechstunde Ergebnisse](../../assets/images/blog/seo-discovery-original.jpg)
+![Jörg Zimmer - SEO Sprechstunde Ergebnisse](../../assets/images/blog/seo-discovery-original.webp)
 
 In den letzten Monaten habe ich hunderte von Websites "gegrillt". Von der kleinen Freelancer-Seite bis zum großen Enterprise-Portal. Die Fehler sind erstaunlicherweise fast immer identisch. In diesem Deep Dive gehen wir die "Top 5 Sünden" durch, die ich am häufigsten finde. Schnall dich an – das hier könnte wehtun, wenn du deine Seite darin wiedererkennst.
 
@@ -37,7 +37,7 @@ Ein PageSpeed-Score von 10/100 auf Mobilgeräten ist leider keine Seltenheit. We
 ## 2. Die Top 5 SEO-Fehler in der Sprechstunde
 Um das Ganze mal visuell festzuhalten, habe ich hier die Klassiker aus meinen Audits zusammengefasst. Wenn du nur einen dieser Punkte auf deiner Seite hast, verschenkst du massiv Potenzial.
 
-![Infografik: Top 5 SEO-Fehler in der Sprechstunde](../../assets/images/blog/seo-top-mistakes-checkliste.png)
+![Infografik: Top 5 SEO-Fehler in der Sprechstunde](../../assets/images/blog/seo-top-mistakes-checkliste.webp)
 
 ### Das Header-Chaos (H1 bis H5)
 Überschriften sind keine Design-Elemente. Sie sind die Inhaltsstruktur für Maschinen. Ich sehe oft Seiten mit fünf H1-Tags, aber keiner logischen Unterteilung in H2 oder H3. Oder schlimmer: Überschriften werden nur genutzt, um Text "fett und groß" zu machen. Das verwirrt den Google-Bot und verschlechtert deine Relevanz-Signale.
@@ -53,7 +53,7 @@ Alte URLs führen ins Leere (404-Fehler), und Google verliert den Bezug zu den I
 
 Ein Relaunch ohne einen sauberen Redirect-Plan ist kein Fortschritt, sondern digitaler Selbstmord.
 
-![Infografik: Der sichere Relaunch-Prozess](../../assets/images/blog/seo-relaunch-checklist-visual.png)
+![Infografik: Der sichere Relaunch-Prozess](../../assets/images/blog/seo-relaunch-checklist-visual.webp)
 
 Wie du in der Grafik siehst: Die Vorbereitung (Mapping) ist der wichtigste Teil. Wer diesen Schritt überspringt, fängt bei Null an.
 

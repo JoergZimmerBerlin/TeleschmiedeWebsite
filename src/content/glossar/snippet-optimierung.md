@@ -2,7 +2,7 @@
 title: "Snippet Optimierung"
 description: "Snippet Optimierung maximiert die Klickrate deines Suchergebnisses. Title-Tag, Meta-Description und Rich Snippets entscheiden, ob Nutzer auf dein Ergebnis klicken."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["ctr", "meta-description", "title-tag", "faq-markup"]
 key_takeaways:
   - "Dein Schaufenster: Das Snippet ist die Werbeanzeige deiner Seite in der Google-Suche."

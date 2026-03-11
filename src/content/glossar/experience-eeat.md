@@ -2,7 +2,7 @@
 title: "Experience (E-E-A-T Faktor)"
 description: "Experience ist der neueste E-E-A-T Faktor. Google bewertet, ob der Autor echte Erfahrung mit dem Thema hat – nicht nur theoretisches Wissen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["e-e-a-t", "expertise-eeat", "authoritativeness-eeat", "trustworthiness-eeat"]
 key_takeaways:
   - "First-Hand: Google sucht Inhalte von Menschen, die das Thema selbst erlebt haben."

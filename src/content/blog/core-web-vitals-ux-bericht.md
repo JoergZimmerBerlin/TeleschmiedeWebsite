@@ -3,7 +3,7 @@ title: "Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst"
 description: "Von 0 auf 216 gute URLs - ein echter Case aus meiner SEO-Arbeit."
 date: "2026-01-05"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/website-boosting-magazin.jpg"
+image: "../../assets/images/profile/website-boosting-magazin.webp"
 image_alt: "Core Web Vitals Optimierung - Die 3 Säulen der UX"
 category: "Technisches SEO"
 tags: ["E-E-A-T"]
@@ -29,7 +29,7 @@ Seit 2021 sind die CWV ein offizieller Ranking-Faktor. Aber Hand aufs Herz: Das 
 
 ## Die drei Reiter der Nutzererfahrung (und wie wir sie gezähmt haben)
 
-![Die 3 Säulen der Nutzererfahrung: LCP, INP und CLS erklärt](../../assets/images/blog/core-web-vitals-pfeiler.png)
+![Die 3 Säulen der Nutzererfahrung: LCP, INP und CLS erklärt](../../assets/images/blog/core-web-vitals-pfeiler.webp)
 
 Hier ist das, what wir bei meinem Kunden-Projekt im Detail gemacht haben. Es war ein Zusammenspiel aus Analyse, Strategie und knallharter Umsetzung.
 

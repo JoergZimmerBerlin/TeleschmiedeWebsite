@@ -1,8 +1,8 @@
 ---
-title: "Conversion Rate (Konversionsrate)"
-description: "Die Conversion Rate ist das Maß deines Erfolgs. Wie viele Besucher tun das, was sie tun sollen? Erfahre mehr über die wichtigste KPI."
-date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+title: "Conversion-Rate-Optimierung (CRO): Mehr Umsatz aus vorhandenem Traffic 📈"
+description: "Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions."
+date: "2026-02-18"
+image: "../../assets/images/glossar/glossar-theme-strategy.webp"
 related_terms: ["traffic", "money-keyword", "usability"]
 key_takeaways:
   - "KPI der Wahrheit: Die Conversion Rate entscheidet über den ROI deines Traffics."

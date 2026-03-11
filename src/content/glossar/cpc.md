@@ -2,7 +2,7 @@
 title: "CPC (Cost per Click)"
 description: "CPC gibt an, wie viel du für einen Klick auf eine Werbeanzeige bei Google Ads bezahlst. Ein wichtiger Indikator für Keyword-Wertigkeit."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-ai-geo.png"
+image: "../../assets/images/glossar/glossar-theme-ai-geo.webp"
 related_terms: ["keywoerter", "money-keyword", "conversion-rate"]
 key_takeaways:
   - "Marktwert-Indikator: Der CPC zeigt dir, wie viel Wettbewerber bereit sind, für einen Klick zu zahlen."

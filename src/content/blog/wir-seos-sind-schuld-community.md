@@ -2,7 +2,7 @@
 title: "Warum wir SEO-Spezialisten schuld am Zustand des Internets sind (und wie wir es gemeinsam ändern)"
 description: "Ein kritischer Blick auf die SEO-Branche: Warum grundlegende Basics oft fehlen und wie wir durch eine starke Community die Sichtbarkeit unserer Disziplin erhöhen."
 date: "2026-03-01"
-image: "../../assets/images/pages/hero-pose.jpg"
+image: "../../assets/images/pages/hero-pose.webp"
 image_alt: "Jörg Zimmer vor einer Hecke in Aktion - Warum SEOs Verantwortung übernehmen müssen"
 category: "SEO Strategie"
 tags: []
@@ -20,7 +20,7 @@ Warum ich das sage? Weil ich es jeden Tag sehe. Wir beraten Kunden, wir auditier
 
 Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? Oder einfach zu unwichtig geworden?
 
-![Jörg Zimmer - Volle Kraft für SEO](../../assets/images/pages/hero-pose.jpg)
+![Jörg Zimmer - Volle Kraft für SEO](../../assets/images/pages/hero-pose.webp)
 
 In diesem Artikel gehen wir der Sache auf den Grund. Wir schauen uns an, wo die Verantwortungskette reißt und wie wir als Community – die "SEO-Welle" – dafür sorgen können, dass unsere Disziplin endlich den Stellenwert bekommt, den sie verdient.
 
@@ -39,7 +39,7 @@ Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? Wenn das Design 
 
 Das funktioniert nicht. SEO ist kein Anstrich, den man am Ende auf ein Haus klatscht. Es ist das Fundament.
 
-![Infografik: Die SEO-Verantwortungs-Kette](../../assets/images/blog/seo-responsibility-chain.png)
+![Infografik: Die SEO-Verantwortungs-Kette](../../assets/images/blog/seo-responsibility-chain.webp)
 
 Wenn die Kette so aussieht wie oben, dann bricht sie zwangsläufig. Der SEO-Spezialist steht am Ende und muss versuchen, die architektonischen Fehler von Designern und Entwicklern mit "Tricks" auszubügeln. Wir müssen SEO in die Design- und Planungsphase bringen. 
 
@@ -61,7 +61,7 @@ Allein ist man leise, gemeinsam ist man laut. Deshalb habe ich auf LinkedIn dazu
 
 LinkedIn ist perfekt dafür. Es ist ein Forum (wie ich in meinem [letzten Artikel](/blog/linkedin-ist-ein-forum-seo/) ausführlich erklärt habe). Wenn wir gegenseitig unsere Beiträge kommentieren, diskutieren und sichtbar machen, dann skalieren wir unser Wissen über unsere eigene Blase hinaus.
 
-![Infografik: Die SEO-Community-Welle](../../assets/images/blog/seo-community-visibility-wave.png)
+![Infografik: Die SEO-Community-Welle](../../assets/images/blog/seo-community-visibility-wave.webp)
 
 Wie **Antonio Blago** und **Julian Hofmann** schrieben: Eine "mega Idee", um gute SEO-Inhalte durch Interaktion zu unterstützen. Je mehr wir uns vernetzen, desto weniger können uns die Budget-Entscheider ignorieren.
 

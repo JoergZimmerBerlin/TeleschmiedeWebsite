@@ -3,7 +3,7 @@ title: "Rankscale Essentials: AI Visibility ab 20 Euro – Absolute Empfehlung f
 description: "Warum das Essentials-Paket von Rankscale für 20€/Monat (bzw. 17€ im Jahresabo) der perfekte Einstieg ins AI-Tracking ist. Volle Flexibilität & echte Daten."
 date: "2026-02-27"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/blog/rankscale-essentials-hero.png"
+image: "../../assets/images/blog/rankscale-essentials-hero.webp"
 image_alt: "Rankscale AI Visibility Tracking Dashboard - Essentials für 20 Euro"
 category: "AI SEO"
 tags: ["Case Study", "Tools"]
@@ -48,7 +48,7 @@ Im Essentials-Paket hast du Zugriff auf über 17 LLMs (u.a. ChatGPT, Claude, Gem
 
 ## Infografik: Dein Weg zur AI Visibility
 
-![AI Visibility Trichter - Der Prozess von Content zu Daten](../../assets/images/blog/ai-visibility-trichter.png)
+![AI Visibility Trichter - Der Prozess von Content zu Daten](../../assets/images/blog/ai-visibility-trichter.webp)
 
 Stell dir das Ganze wie einen Trichter vor:
 1.  **Input:** Dein Content und deine Marke fließen hinein.
@@ -83,7 +83,7 @@ ALOHA! 🌻
 
 ---
 
-![Die 5 Säulen der AI Visibility - Rankscale Essentials](../../assets/images/blog/fuenf-saeulen-ai-visibility.png)
+![Die 5 Säulen der AI Visibility - Rankscale Essentials](../../assets/images/blog/fuenf-saeulen-ai-visibility.webp)
 
 ---
 

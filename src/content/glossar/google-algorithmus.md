@@ -2,7 +2,7 @@
 title: "Google Algorithmus"
 description: "Der Google Algorithmus ist das Herzstück der Suchmaschine. Erfahre, wie er funktioniert, welche Updates ihn formen und warum du ihn verstehen musst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-eeat.png"
+image: "../../assets/images/glossar/glossar-theme-eeat.webp"
 related_terms: ["google-core-update", "rankingfaktoren", "e-e-a-t", "entity-seo"]
 key_takeaways:
   - "KI-gesteuert: Der Algorithmus nutzt KI-Systeme wie RankBrain, BERT und MUM für das Verständnis von Suchanfragen."

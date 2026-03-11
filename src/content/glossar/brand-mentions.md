@@ -2,7 +2,7 @@
 title: "Brand Mentions"
 description: "Brand Mentions sind Erwähnungen deiner Marke im Web – mit oder ohne Link. In der KI-Ära sind sie das neue Linkbuilding."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-local.png"
+image: "../../assets/images/glossar/glossar-theme-local.webp"
 related_terms: ["mention", "citation", "markenaufbau-mit-seo", "pressearbeit-im-seo"]
 key_takeaways:
   - "Kein Link nötig: Google und KI-Systeme erkennen Markenerwähnungen auch ohne Hyperlink."

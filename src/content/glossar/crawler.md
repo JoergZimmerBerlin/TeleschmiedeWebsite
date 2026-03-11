@@ -2,7 +2,7 @@
 title: "Crawler (Search Engine Bots)"
 description: "Crawler sind die emsigen Arbeiter des Internets. Sie scannen Websites, sammeln Daten und bilden die Basis für jede Google-Suche."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["robots-txt", "crawling-vs-indexing", "sitemap", "geo"]
 key_takeaways:
   - "Automatisierung: Crawler scannen das Web rund um die Uhr nach neuen Inhalten."

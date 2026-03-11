@@ -3,7 +3,7 @@ title: "Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Gr
 description: "Was passiert eigentlich in einer 2-stündigen SEO-Beratung? Hier sind die Grundinfos."
 date: "2026-01-03"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/katze-seo-hoodie.jpg"
+image: "../../assets/images/profile/katze-seo-hoodie.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Die Grill-Analyse"
 category: "SEO Praxis"
 tags: ["Sprechstunde"]
@@ -19,7 +19,7 @@ Diese Frage bekomme ich oft gestellt, meistens mit einem leicht skeptischen Unte
 
 ## Das Konzept: Website & Sichtbarkeit auf den Grill
 
-![Infografik: Website auf den Grill – Kruste, Textur, Garraum analysiert](../../assets/images/blog/website-auf-den-grill.png)
+![Infografik: Website auf den Grill – Kruste, Textur, Garraum analysiert](../../assets/images/blog/website-auf-den-grill.webp)
 
 Stell dir vor, deine Website ist ein ordentliches Stück Fleisch (oder Tofu, wenn dir das lieber ist). Meistens sieht es von außen ganz passabel aus, aber ob es wirklich durchgegart ist oder ob es im Inneren noch zäh und ungenießbar ist, merkst du erst, wenn du es auf den heißen Grill legst.
 

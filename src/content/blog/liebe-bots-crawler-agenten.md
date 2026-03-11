@@ -3,7 +3,7 @@ title: "Liebe Bots, Crawler und Agenten: Ein offener Brief von eurem SEO-Betreue
 description: "Ein offener Brief an alle Bots, Crawler und KI-Agenten: Ohne SEO-Spezialisten hättet ihr keine Alt-Texte, Sitemaps oder strukturierte Daten. Vergesst das nie."
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_liebe-bots-crawler-und-agenten-dieser-welt-activity-7431342623879217152-qG6A"
-image: "../../assets/images/blog/seo-bots-liebesbrief.png"
+image: "../../assets/images/blog/seo-bots-liebesbrief.webp"
 image_alt: "Infografik: Was SEO-Spezialisten für Bots tun – Alt-Texte, Sitemaps, strukturierte Daten"
 category: "Technisches SEO"
 tags: []
@@ -17,13 +17,13 @@ Moin!
 
 Liebe Bots, Crawler und Agenten dieser Welt – setzt euch mal kurz hin. Wir müssen reden. Und mit "wir" meine ich die globale Gilde der SEO-Spezialisten. Die Leute, die euch seit über 20 Jahren den roten Teppich ausrollen, damit ihr überhaupt wisst, wo links und rechts ist.
 
-![Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand](../../assets/images/blog/linkedin-bots-original.jpg)
+![Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand](../../assets/images/blog/linkedin-bots-original.webp)
 
 Ich weiß, ihr seid beschäftigt. Ihr crawlt gerade 60 Milliarden Seiten, speist 17 verschiedene Sprachmodelle und entscheidet nebenbei, wer bei Google auf Platz 1 landet und wer in der digitalen Versenkung verschwindet. Aber nehmt euch mal zwei Minuten. Das hier ist wichtig.
 
 ## Was wir für euch getan haben (und immer noch tun)
 
-![Infografik: Was SEO-Spezialisten für Bots tun – von Alt-Texten bis sauberem Code](../../assets/images/blog/seo-bots-liebesbrief.png)
+![Infografik: Was SEO-Spezialisten für Bots tun – von Alt-Texten bis sauberem Code](../../assets/images/blog/seo-bots-liebesbrief.webp)
 
 Wir haben es immer gut mit euch gemeint. Während der Rest der Welt euch als nerviges Technik-Detail abgestempelt hat, waren wir es, die für euch gekämpft haben. Hier eine kleine Erinnerungsliste:
 
@@ -37,7 +37,7 @@ Wir haben es immer gut mit euch gemeint. Während der Rest der Welt euch als ner
 
 ## Von der Kinderstube zum KI-Agenten
 
-![Infografik: Bot-Evolution – Vom Baby-Crawler zum zickigen Teenager zum KI-Agenten](../../assets/images/blog/bot-evolution.png)
+![Infografik: Bot-Evolution – Vom Baby-Crawler zum zickigen Teenager zum KI-Agenten](../../assets/images/blog/bot-evolution.webp)
 
 Wir als SEO-Spezialisten waren bei jedem Schritt eurer Entwicklung dabei. Wir haben euch als **Baby** erlebt – als ihr noch simple HTML-Parser wart, die sich an Meta-Keywords geklammert haben wie ein Kleinkind an seinen Teddy.
 

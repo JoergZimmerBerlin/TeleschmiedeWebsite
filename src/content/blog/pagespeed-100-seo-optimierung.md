@@ -3,7 +3,7 @@ title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/blog/pagespeed-tuning-guide.png"
+image: "../../assets/images/blog/pagespeed-tuning-guide.webp"
 image_alt: "PageSpeed 100/100 für die Teleschmiede - Jörg Zimmer optimiert die Performance"
 category: "Technisches SEO"
 tags: []
@@ -22,7 +22,7 @@ Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur a
 
 In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der wir gedreht haben, damit diese Seite rennt, als gäbe es kein Morgen.
 
-![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](../../assets/images/blog/pagespeed-tuning-guide.png)
+![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](../../assets/images/blog/pagespeed-tuning-guide.webp)
 
 ## Warum ich von 100/100 besessen bin
 
@@ -66,7 +66,7 @@ Viele vergessen das Thema Barrierefreiheit. Jedes Bild hat einen individuellen A
 
 ```html
 <img
-  src="/images/profile/joerg-lifestyle.jpg"
+  src="/images/profile/joerg-lifestyle.webp"
   alt="Jörg Zimmer - SEO Experte aus Berlin Spandau vor dem Laptop"
   width="800"
   height="600"
@@ -101,7 +101,7 @@ Ehrlich gesagt: Nein. Google sagt, alles im "grünen Bereich" (über 90) ist ers
 ### 2. Kann ich das mit WordPress auch schaffen?
 Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was wir hier nutzen) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
 
-![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](../../assets/images/blog/astro-vs-wordpress-performance.png)
+![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](../../assets/images/blog/astro-vs-wordpress-performance.webp)
 
 ### 3. Was ist die wichtigste Metrik für mich?
 Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment, in dem der Nutzer das Gefühl hat: "Ah, jetzt ist die Seite da." Wenn der unter 1.5 Sekunden liegt, bist du vorne mit dabei.

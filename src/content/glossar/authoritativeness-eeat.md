@@ -2,7 +2,7 @@
 title: "Authoritativeness (E-E-A-T Faktor)"
 description: "Authoritativeness (Autorität) misst, ob du im Netz als anerkannter Experte wahrgenommen wirst. Es geht um Reputation, Citations und externe Bestätigung."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-local.png"
+image: "../../assets/images/glossar/glossar-theme-local.webp"
 related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "trustworthiness-eeat"]
 key_takeaways:
   - "Externe Bestätigung: Autorität kommt nicht von dir selbst, sondern von anderen – durch Zitate, Links und Erwähnungen."

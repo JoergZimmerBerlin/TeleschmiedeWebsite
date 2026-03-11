@@ -2,7 +2,7 @@
 title: "Meta Description (Seitenbeschreibung)"
 description: "Die Meta Description ist der kurze Vorschautext in den Suchergebnissen. Sie ist kein direkter Rankingfaktor, aber entscheidend für eine hohe Klickrate (CTR)."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["title-tag", "noindex"]
 key_takeaways:
   - "Klick-Magnet: Die Meta Description ist deine kostenlose Anzeige in den SERPs."

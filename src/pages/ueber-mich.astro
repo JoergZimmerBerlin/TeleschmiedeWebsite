@@ -2,12 +2,12 @@
 import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 
-import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.jpg';
-import rucksackImage from '../assets/images/profile/website-boosting-rucksack.jpg';
-import katzeHoodieImage from '../assets/images/profile/katze-seo-hoodie.jpg';
-import magazinImage from '../assets/images/profile/website-boosting-magazin.jpg';
-import lifestyleImage from '../assets/images/profile/joerg-lifestyle.jpg';
-import katzePortraitImage from '../assets/images/profile/joerg-zimmer-katze.jpg';
+import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.webp';
+import rucksackImage from '../assets/images/profile/website-boosting-rucksack.webp';
+import katzeHoodieImage from '../assets/images/profile/katze-seo-hoodie.webp';
+import magazinImage from '../assets/images/profile/website-boosting-magazin.webp';
+import lifestyleImage from '../assets/images/profile/joerg-lifestyle.webp';
+import katzePortraitImage from '../assets/images/profile/joerg-zimmer-katze.webp';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' });
@@ -335,8 +335,8 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
         "name": "Jörg Zimmer - Teleschmiede",
         "foundingDate": "2001-07-23",
         "url": "https://teleschmie.de",
-        "logo": "https://teleschmie.de/images/logo-teleschmiede.png",
-        "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.jpg",
+        "logo": "https://teleschmie.de/images/logo-teleschmiede.webp",
+        "image": "https://teleschmie.de/images/profile/joerg-zimmer-portrait.webp",
         "description": "Technisches SEO, Relaunch-Begleitung und ehrliche Google Ads Beratung von Jörg Zimmer.",
         "telephone": "+493049208184",
         "email": "info@teleschmie.de",

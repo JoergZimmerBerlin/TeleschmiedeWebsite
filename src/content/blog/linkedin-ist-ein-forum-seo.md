@@ -3,7 +3,7 @@ title: "LinkedIn ist kein soziales Netzwerk, es ist ein Forum (und wir SEOs müs
 description: "Warum LinkedIn für SEO-Spezialisten das perfekte Spielfeld ist: Von der Profil-Optimierung als Landingpage bis zum Algorithmus-Hacking durch echte Diskussionen."
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR"
-image: "../../assets/images/blog/linkedin-forum-original.jpg"
+image: "../../assets/images/blog/linkedin-forum-original.webp"
 image_alt: "Jörg Zimmer beim SEO Stammtisch Berlin - Vortrag über LinkedIn als Forum"
 category: "LinkedIn Marketing"
 tags: []
@@ -19,7 +19,7 @@ Hast du dich auch schon mal gefragt, warum manche SEOs auf LinkedIn scheinbar m�
 
 Ich war neulich beim SEO Stammtisch in Berlin – Grüße gehen raus an Carsten Appel für die top Organisation! – und habe dort genau darüber gesprochen: **LinkedIn ist kein soziales Netzwerk im klassischen Sinne (wie Instagram oder TikTok). Es ist ein Forum.** Und wir SEO-Spezialisten sollten es genau so nutzen. Jetzt!
 
-![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](../../assets/images/blog/linkedin-forum-original.jpg)
+![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](../../assets/images/blog/linkedin-forum-original.webp)
 
 Hier ist die nackte Wahrheit: Wer LinkedIn wie Google SEO versteht, gewinnt. Wer es nur als "Social Media" sieht, verbrennt Zeit. In diesem Deep Dive gehen wir die 13 Hauptpunkte aus meinem Vortrag durch und schauen uns an, wie du den Algo wirklich zum Fliegen bringst.
 
@@ -34,7 +34,7 @@ Dein Profil ist keine digitale Visitenkarte und auch kein Lebenslauf. Es ist ein
 ## 2. LinkedIn SEO vs. Google SEO: Die Analogie
 Um das Prinzip "LinkedIn als Forum" zu verstehen, hilft ein direkter Vergleich mit unserem täglichen Brot, dem Google SEO. 
 
-![Vergleichstabelle: LinkedIn SEO vs. Google SEO](../../assets/images/blog/linkedin-vs-google-seo.png)
+![Vergleichstabelle: LinkedIn SEO vs. Google SEO](../../assets/images/blog/linkedin-vs-google-seo.webp)
 
 Wer diese Analogien versteht, kann seine bestehenden SEO-Skills 1-zu-1 auf LinkedIn übertragen. Wir "crawlen" hier nicht nach Keywords, sondern nach Resonanz. Wie **Nele Dörk** in den Kommentaren treffend anmerkte: 
 *"Rankingfaktoren liegen im Zusammenspiel von Vertrauen, Verweildauer und thematischer Tiefe."*
@@ -49,7 +49,7 @@ Warum? Weil es nahbar macht. Authentizität schlägt Perfektion. Wenn du dich nu
 ## 4. Die Macht des Algorithmus: Von 100 zu 1.000
 Wie entscheidet LinkedIn eigentlich, wer was im Feed sieht? Es ist ein mehrstufiger Prozess. Ich nenne es den "Algorithmus-Kreislauf".
 
-![Visualisierung: Der LinkedIn Algorithmus-Kreislauf](../../assets/images/blog/linkedin-algo-tiers.png)
+![Visualisierung: Der LinkedIn Algorithmus-Kreislauf](../../assets/images/blog/linkedin-algo-tiers.webp)
 
 ### Die 100er-Hürde
 Wenn du einen Beitrag veröffentlichst, zeigt ihn LinkedIn zuerst einer kleinen Testgruppe (deiner Kern-Zielgruppe von ca. 100 Personen). Diese Gruppe besteht oft aus Leuten, mit denen du kürzlich interagiert oder gechattet hast.

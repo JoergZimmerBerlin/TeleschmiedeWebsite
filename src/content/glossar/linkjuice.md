@@ -2,7 +2,7 @@
 title: "Linkjuice (Linkkraft)"
 description: "Linkjuice ist ein umgangssprachlicher SEO-Begriff für die Verteilung von Ranking-Power (PageRank), die durch interne und externe Verlinkungen weitergegeben wird."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["crawling-vs-indexing"]
 ---Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.
 
@@ -19,7 +19,7 @@ Stell dir das Web als ein gigantisches Netzwerk aus miteinander verbundenen Gef�
 
 Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains wie die Wikipedia oder große Zeitungen auf sie verlinken), ist ihr Gefäß bis zum Rand mit Linkjuice gefüllt. Setzt du nun von deiner Startseite einen Link zu deinem neuesten Blog-Artikel, fließt ein beachtlicher Teil dieses Saftes in den Artikel. Dieser gewinnt an [Sichtbarkeit](/blog/sistrix-vs-se-ranking/) im Google-Index.
 
-![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.png)
+![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.webp)
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
   <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Die Mathematik hinter dem Fluss</h3>

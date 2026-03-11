@@ -3,7 +3,7 @@ title: "Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot"
 description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google."
 date: "2026-01-20"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/kontakt-hero.jpg"
+image: "../../assets/images/pages/kontakt-hero.webp"
 image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
 category: "SEO Praxis"
 tags: ["SEA & Ads"]
@@ -30,7 +30,7 @@ Die Vorschläge laufen fast immer auf das Gleiche hinaus:
 - **Smart Bidding ohne Limits:** Gib Google die volle Kontrolle über dein Budget. Das System optimiert vielleicht auf Conversions, aber oft auf die, die du ohnehin bekommen hättest – nur jetzt teurer.
 - **Einbeziehung des Suchnetzwerk-Partners:** Damit landet deine Werbung auf irgendwelchen Schrott-Seiten, die niemand ernsthaft liest.
 
-![Die Broad-Match-Falle: Wenn das Werbebudget im Nichts verschwindet](../../assets/images/blog/broad-match-falle.png)
+![Die Broad-Match-Falle: Wenn das Werbebudget im Nichts verschwindet](../../assets/images/blog/broad-match-falle.webp)
 
 ### Die Realität in den Accounts
 
@@ -48,7 +48,7 @@ Jedes Jahr die gleiche Leier. "SEO ist tot!" Seit ich 2002 angefangen habe, habe
 - 2015: Mobilegate? "SEO ist tot!"
 - 2023: ChatGPT/AI? "SEO ist tot!"
 
-![Resilienz und Evolution: SEO übersteht alle Google-Updates](../../assets/images/blog/google-updates-timeline.png)
+![Resilienz und Evolution: SEO übersteht alle Google-Updates](../../assets/images/blog/google-updates-timeline.webp)
 
 Wisst ihr was? SEO erfreut sich bester Gesundheit. Es hat nur die Form gewechselt. Die "Wildwest-Zeiten", in denen man mit ein paar Linkkäufen und Keyword-Spamming auf Platz 1 kam, die sind tot. Und das ist auch gut so.
 

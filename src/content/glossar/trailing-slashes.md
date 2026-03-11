@@ -2,7 +2,7 @@
 title: "Trailing Slashes"
 description: "Trailing Slashes (der Schrägstrich am Ende einer URL) sind ein oft übersehenes technisches SEO-Detail, das zu Duplicate-Content-Problemen und Ranking-Verlusten führen kann."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["technisches-seo", "crawling-vs-indexing", "robots-txt", "sitemap"]
 key_takeaways:
   - "Duplicate Content Gefahr: /seite und /seite/ sind für Google zwei verschiedene URLs – ohne Canonical wird es problematisch."

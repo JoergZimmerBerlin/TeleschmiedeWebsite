@@ -3,7 +3,7 @@ title: "GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen soll
 description: "Die neuen Buzzwords der SEO-Branche erklärt - und warum das Thema zu komplex für Anfänger ist."
 date: "2026-01-23"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/leistungen-hero.jpg"
+image: "../../assets/images/pages/leistungen-hero.webp"
 image_alt: "AI SEO oder GEO? SEO Experten Jörg Zimmer warnt vor Praktikanten-Lösungen"
 category: "AI SEO"
 tags: ["E-E-A-T"]
@@ -23,7 +23,7 @@ In meinem aktuellen Video bei SEO Presso spreche ich mit erfahrenen Kollegen dar
 
 ### GEO: Generative Engine Optimization
 
-![Komplexitäts-Layer von GEO und AI-Sichtbarkeit](../../assets/images/blog/geo-aio-komplexitaet.png)
+![Komplexitäts-Layer von GEO und AI-Sichtbarkeit](../../assets/images/blog/geo-aio-komplexitaet.webp)
 
 Bei GEO geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT aufzutauchen. 
 

@@ -2,7 +2,7 @@
 title: "Bing Webmaster Tools"
 description: "Die Bing Webmaster Tools sind das Pendant zur Google Search Console für Microsofts Suchmaschine. In der KI-Ära gewinnen sie massiv an Bedeutung."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["google-search-console", "crawling-vs-indexing", "sitemap", "geo"]
 key_takeaways:
   - "KI-Relevanz: Bing ist die Basis für Microsofts Copilot und ChatGPT-Suche – wer hier sichtbar ist, wird von KI zitiert."

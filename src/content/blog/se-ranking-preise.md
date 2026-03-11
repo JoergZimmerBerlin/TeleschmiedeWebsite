@@ -3,7 +3,7 @@ title: "SE Ranking Preise 2026: Der ultimative Guide für SEO-Experten"
 description: "Detaillierte Analyse der SE Ranking Kosten und Pakete. Welcher Tarif bietet das beste Preis-Leistungs-Verhältnis? Inklusive Praxistipps und FAQ."
 date: "2026-02-26"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/blog/se-ranking-preise.png"
+image: "../../assets/images/blog/se-ranking-preise.webp"
 image_alt: "SE Ranking Preise erklärt - Jörg Zimmer analysiert die Kosten"
 category: "SEO Praxis"
 tags: ["Tools"]
@@ -42,7 +42,7 @@ SE Ranking hat das verstanden und seine Tarife so gestrickt, dass sie mit deinen
 
 ## Der große Check: Core vs. Growth – Was steckt drin?
 
-![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](../../assets/images/blog/se-ranking-core-vs-growth.png)
+![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](../../assets/images/blog/se-ranking-core-vs-growth.webp)
 
 SE Ranking unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management.
 

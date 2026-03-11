@@ -2,7 +2,7 @@
 title: "Entitäten-Building"
 description: "Entitäten-Building ist der systematische Aufbau deiner digitalen Identität als Entität im Knowledge Graph und in KI-Modellen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["entitaet", "entity-seo", "grounding-page", "citation"]
 key_takeaways:
   - "Systematisch: Entitäten-Building ist kein Zufall, sondern ein strukturierter Prozess."

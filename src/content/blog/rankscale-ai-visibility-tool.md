@@ -3,7 +3,7 @@ title: "Rankscale: Ein AI Visibility Tool das ich empfehlen kann"
 description: "Endlich ein Tool das zeigt, wie sichtbar du in ChatGPT, Perplexity und Co. bist."
 date: "2026-01-19"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/hero-pose.jpg"
+image: "../../assets/images/pages/hero-pose.webp"
 image_alt: "Rankscale AI Visibility Tool - Empfehlung von Jörg Zimmer"
 category: "AI SEO"
 tags: ["Case Study", "Tools"]
@@ -32,7 +32,7 @@ Es geht nicht nur darum, ob du erwähnt wirst, sondern WIE. Rankscale zeigt dir,
 
 ### 2. Der Sentiment-Check: Was denkt die KI über dich?
 
-![AI Sentiment Kompass: Wie die KI deine Brand-Reputation bewertet](../../assets/images/blog/ai-sentiment-kompass.png)
+![AI Sentiment Kompass: Wie die KI deine Brand-Reputation bewertet](../../assets/images/blog/ai-sentiment-kompass.webp)
 
 Das ist für mich der absolute Game-Changer. Das Tool analysiert den Kontext der Erwähnung. Sagt Claude, dass du ein Experte bist? Oder wirst du in einem negativen Kontext erwähnt (z.B. "XY ist teuer")? Dieses Sentiment-Tracking ist für das Reputation-Management in der KI-Ära überlebenswichtig.
 

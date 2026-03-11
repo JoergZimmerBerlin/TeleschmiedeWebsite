@@ -3,7 +3,7 @@ title: "24 Jahre SEO - und wir machen immer noch die gleichen Fehler"
 description: "Ein ehrlicher Blick auf die Fehler, die ich seit über zwei Jahrzehnten immer wieder sehe."
 date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/joerg-zimmer-portrait.jpg"
+image: "../../assets/images/profile/joerg-zimmer-portrait.webp"
 image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
 category: "SEO Praxis"
 tags: ["E-E-A-T", "Sprechstunde"]
@@ -19,7 +19,7 @@ Es ist faszinierend und erschreckend zugleich. Wir haben heute Rechenpower in de
 
 ## Die Klassiker: Warum wir immer wieder in die gleiche Falle tappen
 
-![Die 4 SEO-Dauerbrenner: Typische Fehler in der Analyse](../../assets/images/blog/seo_fehler_simple.png)
+![Die 4 SEO-Dauerbrenner: Typische Fehler in der Analyse](../../assets/images/blog/seo_fehler_simple.webp)
 
 Lass uns mal tief in die Mottenkiste der SEO-Fehler greifen. Diese "Dauerbrenner" sind wie die Refrains von schlechten 80er-Jahre-Hits: Man kriegt sie einfach nicht aus dem Kopf (und nicht aus der Website).
 
@@ -57,7 +57,7 @@ Wenn ich eines gelernt habe in den letzten 24 Jahren, dann ist es das: Die Grund
 3. Sorge dafür, dass andere Kapazitäten dein Wissen schätzen (**Reputation/Autorität**).
 4. Bleib geduldig und hör auf, nach dem "einen geheimen Trick" zu suchen.
 
-![Strategischer Vergleich: Nachhaltiges SEO vs. Kurzfristige Hacks](../../assets/images/blog/seo_strategie_white_1772296866475.png)
+![Strategischer Vergleich: Nachhaltiges SEO vs. Kurzfristige Hacks](../../assets/images/blog/seo_strategie_white_1772296866475.webp)
 
 Wer das beherrscht, ist 90% seiner Konkurrenz voraus – egal ob 2002, 2026 oder 2040.
 

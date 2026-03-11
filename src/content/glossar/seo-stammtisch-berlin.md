@@ -2,7 +2,7 @@
 title: "SEO Stammtisch Berlin"
 description: "Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf Augenhöhe."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["campixx-berlin", "ueberstunde-berlin", "sichtbarkeit"]
 key_takeaways:
   - "Networking pur: Direkter Draht zu den klügsten Köpfen der Berliner SEO-Szene."
@@ -44,7 +44,7 @@ SEO kann frustrierend sein. Man investiert Monate in [Entity SEO](/glossar/entit
 
 ## Meine Rolle vor Ort
 
-![SEO Stammtisch Berlin Networking](../../assets/images/glossar/seostammtisch_photo_1_1773173770837.png)
+![SEO Stammtisch Berlin Networking](../../assets/images/glossar/seostammtisch_photo_1_1773173770837.webp)
 
 Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es geht um Geben und Nehmen. Wenn jemand ein Problem mit [strukturierten Daten](/glossar/strukturierte-daten/) hat, helfe ich. Wenn ich bei einem komplexen [SEO-Audit](/glossar/seo-audit/) an meine Grenzen stoße, frage ich die Runde.
 
@@ -57,7 +57,7 @@ Das ist genau mein Spirit: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe 
 
 ## Community in Zeiten von KI
 
-![Jörg Zimmer beim SEO Stammtisch bei Google in Berlin](../../assets/images/glossar/seostammtisch_photo_2_1773173797284.png)
+![Jörg Zimmer beim SEO Stammtisch bei Google in Berlin](../../assets/images/glossar/seostammtisch_photo_2_1773173797284.webp)
 
 Man könnte meinen, in Zeiten von ChatGPT bräuchten wir keinen menschlichen Austausch mehr. Das Gegenteil ist der Fall. Je mehr KI-Einerlei das Netz flutet, desto wertvoller wird die echte, menschliche Expertise ([E-E-A-T](/glossar/e-e-a-t/)). 
 

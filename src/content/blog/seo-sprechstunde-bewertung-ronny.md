@@ -3,7 +3,7 @@ title: "5 Sterne: Was Kunden über die SEO-Sprechstunde sagen"
 description: "Ronny A. teilt seine Erfahrung nach einer 2-stündigen SEO-Beratung."
 date: "2026-01-27"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/joerg-zimmer-katze.jpg"
+image: "../../assets/images/profile/joerg-zimmer-katze.webp"
 image_alt: "SEO-Sprechstunde Bewertung: 5 Sterne von Ronny"
 category: "SEO Praxis"
 tags: ["Sprechstunde", "Case Study"]
@@ -21,7 +21,7 @@ Hier ist, was er geschrieben hat:
 
 ## Was Ronny besonders hervorhebt (und warum das für dich wichtig ist)
 
-![Infografik: Die SEO-Sprechstunde – Vorbereitung, Live-Call, Nachbereitung](../../assets/images/blog/seo-sprechstunde-prozess.png)
+![Infografik: Die SEO-Sprechstunde – Vorbereitung, Live-Call, Nachbereitung](../../assets/images/blog/seo-sprechstunde-prozess.webp)
 
 Wenn man als Freelancer 400€ für zwei Stunden Beratung aufruft, dann muss man liefern. Ohne Wenn und Aber. Ronny hat drei Punkte genannt, die für mich das Fundament meiner Arbeit sind. Lass uns die mal kurz aufschlüsseln:
 

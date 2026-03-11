@@ -2,7 +2,7 @@
 title: "Expertise (E-E-A-T Faktor)"
 description: "Expertise ist der E-E-A-T Faktor, der bewertet, ob der Autor echtes Fachwissen mitbringt. Für YMYL-Themen ist Expertise existenziell."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["e-e-a-t", "experience-eeat", "authoritativeness-eeat", "trustworthiness-eeat"]
 key_takeaways:
   - "Qualifikation zählt: Bei Medizin, Recht und Finanzen will Google Fachleute sehen."

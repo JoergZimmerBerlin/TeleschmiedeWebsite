@@ -3,7 +3,7 @@ title: "SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen"
 description: "Ein weiteres Tool für AI Visibility Tracking - diesmal von einem etablierten SEO-Tool-Anbieter."
 date: "2025-12-15"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/profile/joerg-zimmer-cta.jpg"
+image: "../../assets/images/profile/joerg-zimmer-cta.webp"
 image_alt: "SE Ranking AI Tracker - Vergleich der Rankings in KI-Suchmaschinen"
 category: "AI SEO"
 tags: ["Case Study", "Tools"]
@@ -29,7 +29,7 @@ Wo genau tauchst du in den AI-Suchergebnissen (z. B. Google AI Overviews oder SG
 ### 2. Der Trend-Check: Gehst du steil oder gehst du unter?
 Sichtbarkeit in der KI ist extrem volatil. Ein Modell-Update von OpenAI oder Google kann deine Präsenz über Nacht halbieren oder verdoppeln. SE Ranking bietet hier die gewohnten Charts, um diese Schwankungen in einen Kontext zu setzen. Geht dein ganzer Markt runter oder nur du? Das ist die Millionen-Euro-Frage.
 
-![AI Visibility Volatilität: Die Wirkung von Modell-Updates messen](../../assets/images/blog/ai-visibility-volatilitaet.png)
+![AI Visibility Volatilität: Die Wirkung von Modell-Updates messen](../../assets/images/blog/ai-visibility-volatilitaet.webp)
 
 ### 3. Wettbewerbs-Spionage (classic SE Ranking Style)
 Wer sind die neuen Könige der KI-Suche? Oft sind das gar nicht deine klassischen Konkurrenten aus den organischen SERPs. Der AI Tracker identifiziert, welche Player die KI bevorzugt. Das ist oft ein Augenöffner: Warum rankt da plötzlich ein kleiner Fachblog vor dem großen Marktführer?

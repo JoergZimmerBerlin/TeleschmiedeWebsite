@@ -2,7 +2,7 @@
 title: "Sichtbarkeit (Visibility)"
 description: "Sichtbarkeit im SEO bedeutet: Gefunden werden, wenn es zählt. Erfahre, warum präsente Rankings wichtiger sind als theoretischer Traffic."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-sichtbarkeit-benchmark.png"
+image: "../../assets/images/glossar/glossar-sichtbarkeit-benchmark.webp"
 related_terms: ["sichtbarkeitsindex", "geo", "traffic"]
 key_takeaways:
   - "Omnipräsenz: Sichtbarkeit bedeutet heute, über alle Google-Features hinweg präsent zu sein."

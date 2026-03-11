@@ -59,8 +59,9 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 - **Trailing Slashes:** Interne Links müssen zwingend auf `/` enden (z.B. `[Link](/seite/)`).
 
 ### Metadaten & SEO
-- **Frontmatter:** Jeder Artikel benötigt `title`, `description`, `date`, `image`, `image_alt`, `key_takeaways` (exakt 3) und `faqs` (3-4).
+- **Frontmatter:** Jeder Artikel benötigt `title`, `description`, `date` (als String in Anführungszeichen!), `image` (relativer Pfad zu assets), `image_alt`, `key_takeaways` (exakt 3) und `faqs` (3-4).
 - **Slug:** Kurz, kleingeschrieben, Trennung durch Bindestriche.
+- **Bilder:** Muss immer auf eine `.webp` Datei in `src/assets/` verweisen.
 
 ---
 
@@ -78,6 +79,8 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 > "A professional, high-end isometric 3D infographic for [THEMA]. Background is pure white (#FFFFFF). Features sleek 3D elements with vibrant lime green (#D9FF00) accents. Typography is modern, clean dark grey. All text in GERMAN: [LABEL 1], [LABEL 2], [LABEL 3]. Small subtle watermark 'Jörg Zimmer' in bottom right corner."
 
 - **Speicherorte:** Blog-Bilder → `/public/images/blog/`, Glossar-Bilder → `src/assets/images/glossar/`.
+- **Dateiformat:** Alle Bilder **zwingend in WebP** umwandeln (Standard für Pagespeed).
+- **Einmaligkeit:** Jedes Glossar-Thema benötigt eine **eigene, themenspezifische** Infografik. Keine geteilten "Theme-Bilder" mehr.
 
 ---
 
@@ -91,6 +94,10 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 4.  **Link Check:** Alle internen Links enden auf `/`. Keine 404-Fehler.
 5.  **Git Check:** Neue Bilder wurden via `git add -f` hinzugefügt (falls nötig).
 6.  **Readability:** Überschriften haben ausreichende Abstände (mt-20/mt-16), Absätze nutzen `mb-8`.
+7.  **Performance:** Jede Seite muss einen **PageSpeed Score von nahezu 100%** erreichen.
+8.  **Schema IDs:** Personen-Entitäten müssen konsequent die ID `#person` verwenden.
+9.  **Sitemap:** `lastmod` Werte müssen dynamisch via `git log` ermittelt werden (technischer Standard für CI/CD).
+10. **Grounding Page:** Die `groundingpage.astro` agiert als ultimative Entitäts-Referenz (Entity Home).
 
 ---
 

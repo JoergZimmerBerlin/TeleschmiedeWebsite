@@ -2,7 +2,7 @@
 title: "Die Überstunde Berlin"
 description: "Die Überstunde ist das After-Work-Event in Berlin für Macher und Kreative. Ein Ort für entspanntes Networking fernab von steifen Visitenkarten-Partys."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["seo-stammtisch-berlin", "campixx-berlin", "local-seo"]
 key_takeaways:
   - "Lockerer Vibe: Netzwerken ohne den Druck klassischer Business-Events."
@@ -30,7 +30,7 @@ Hier treffe ich nicht nur andere SEO-Nerds, sondern die Leute, für die wir das 
 
 ## Warum "fachfremdes" Netzwerken Gold wert ist
 
-![Atmosphäre bei der Überstunde Berlin](../../assets/images/glossar/ueberstunde_atmosphere.png)
+![Atmosphäre bei der Überstunde Berlin](../../assets/images/glossar/ueberstunde_atmosphere.webp)
 
 Wer nur in der eigenen SEO-Blase bleibt, verpasst oft den Blick für das große Ganze. Bei der Überstunde lerne ich, welche Probleme Geschäftsführer *wirklich* haben. Meistens ist das nicht "fehlendes Schema-Markup", sondern schlichtweg "zu wenig qualifizierte Leads für das Sales-Team".
 
@@ -43,7 +43,7 @@ Dieses Verständnis hilft mir, meine Arbeit als [SEO-Experte](/seo-freelancer-be
 
 ## Meine Präsenz in Berlin
 
-![Jörg Zimmer auf dem Überstunde Berlin Afterwork Event](../../assets/images/glossar/ueberstunde_joerg.png)
+![Jörg Zimmer auf dem Überstunde Berlin Afterwork Event](../../assets/images/glossar/ueberstunde_joerg.webp)
 
 Ich bin fest davon überzeugt: Die digitale Welt braucht ein analoges Fundament. Gerade in Zeiten von KI-Schwemme und anonymen Dienstleistungen ist das persönliche Treffen unersetzbar. Wenn ich bei der Überstunde stehe, bin ich Jörg Zimmer – nicht irgendein Name in einem [SEO-Audit](/glossar/seo-audit/).
 

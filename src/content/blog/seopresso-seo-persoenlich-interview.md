@@ -3,7 +3,7 @@ title: "SEO Persönlich: Mein Interview im SEOpresso Podcast"
 description: "Ein sehr persönliches Interview über meine Anfänge und 24 Jahre Selbständigkeit - im SEOpresso Podcast mit Björn Darko."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bjoerndarko_seo-freelancing-seopodcast-activity-7348282072345587712-wSkZ"
-image: "../../assets/images/blog/seopresso-interview.jpg"
+image: "../../assets/images/blog/seopresso-interview.webp"
 image_alt: "SEOPRESSO Interview: Jörg Zimmer ganz persönlich"
 category: "SEO Praxis"
 tags: ["Interview & Podcast"]
@@ -19,7 +19,7 @@ Danke **Björn Darko**, dass du mich in dein Format eingeladen hast. Deine Frage
 
 ## Worüber wir gesprochen haben: Ein tiefer Blick in den Jörg-Zimmer-Kosmos
 
-![Infografik: 24 Jahre SEO Freelancing – Neugier, Kommunikation, Netzwerk](../../assets/images/blog/seo-freelancing-journey.png)
+![Infografik: 24 Jahre SEO Freelancing – Neugier, Kommunikation, Netzwerk](../../assets/images/blog/seo-freelancing-journey.webp)
 
 Björn hat mich in der Reihe "SEO Persönlich" im [SEOpresso Podcast](https://seopresso.de) empfangen. Und wir haben tief gegraben – tiefer als ein Google-Bot bei einem technischen Audit.
 

@@ -2,7 +2,7 @@
 title: "Grounding Page"
 description: "Eine Grounding Page ist der Ankerpunkt für deine KI-Sichtbarkeit. Sie liefert die Fakten, die LLMs für ihre Antworten brauchen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-ai-geo.png"
+image: "../../assets/images/glossar/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "entitaet", "llms-txt"]
 ---Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/).
 Früher haben wir Landingpages für Nutzer gebaut.

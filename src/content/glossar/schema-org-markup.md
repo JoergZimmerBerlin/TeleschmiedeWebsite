@@ -2,7 +2,7 @@
 title: "Schema.org Markup"
 description: "Schema.org ist der globale Standard für strukturierte Daten. Erfahre, wie du dieses mächtige SEO-Vokabular für deine Website nutzt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["strukturierte-daten", "entity-seo", "knowledge-graph"]
 key_takeaways:
   - "Maschinen-Sprache: Schema.org ist das globale Vokabular, um Informationen für Suchmaschinen unmissverständlich zu machen."

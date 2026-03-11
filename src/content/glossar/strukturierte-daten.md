@@ -2,7 +2,7 @@
 title: "Strukturierte Daten (Structured Data)"
 description: "Strukturierte Daten sind der Dolmetscher für Google. Sie helfen der Suchmaschine, den Inhalt deiner Seite maschinenlesbar zu verstehen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "entitaet", "knowledge-graph"]
 ---Strukturierte Daten sind die Geheimsprache der SEO-Profis.
 Ganz einfach: Ein standardisierter Code, den du im Hintergrund deiner Website einbaust.

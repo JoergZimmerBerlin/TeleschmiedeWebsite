@@ -2,7 +2,7 @@
 title: "GEO Agentur (Generative Engine Optimization)"
 description: "Eine GEO Agentur optimiert deine Sichtbarkeit in KI-Suchmaschinen wie ChatGPT, Perplexity und Google SGE. Erfahre, warum klassisches SEO allein nicht mehr reicht."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["geo", "geo-vs-seo", "entity-seo", "seo-agentur"]
 key_takeaways:
   - "Neue Disziplin: GEO (Generative Engine Optimization) ist die Optimierung für KI-Antwortmaschinen – nicht nur für Google."

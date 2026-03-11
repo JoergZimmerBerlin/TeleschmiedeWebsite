@@ -2,7 +2,7 @@
 title: "Linkbuilding & Interne Verlinkung"
 description: "Links sind die Empfehlungen des Webs. Erfahre, wie du durch Linkbuilding und smarte interne Verlinkung deine Autorität steigerst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.png"
+image: "../../assets/images/glossar/glossar-theme-technical.webp"
 related_terms: ["linkjuice", "seo-beratung", "entitaet"]
 key_takeaways:
   - "Autorität gewinnen: Qualitatives Linkbuilding signalisiert Google Vertrauen und Relevanz."

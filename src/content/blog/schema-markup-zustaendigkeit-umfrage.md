@@ -22,78 +22,84 @@ Moin! 🌻
 
 Hier kommt eines der Themen, bei dem in Projektmeetings regelmäßig die Fetzen fliegen – und ich das eigentlich seit Jahren nicht mehr ertrage: **Wer ist verdammt nochmal für die Einrichtung der Google Search Console (GSC) zuständig?** 🛠️
 
-Das klingt nach einer banalen Frage. Ist es nicht.
+Das klingt nach einer banalen Frage. Ist es nicht. In einer Welt, in der Daten die neue Währung sind, ist die Search Console dein Kontoauszug.
 
 Stell dir vor: Du baust ein teures Haus. Nach dem Einzug stellst du fest, dass der Wasseranschluss nie final angemeldet wurde. Wer trägt die Verantwortung? Der Architekt, der das Dach geplant hat? Die Sanitärfirma? Oder du als Hausherr, der unter der trockenen Dusche steht?
 
-## Warum das jeden betrifft
+---
 
-Die Google Search Console ist die Gesundheits-App jeder Website. Hier sehen wir:
-- Welche Seiten Google crawlt – und welche er ignoriert
-- Technische Fehler, die das Ranking blockieren
-- Core Web Vitals in Echtzeit
-- Welche Keywords wirklich Traffic bringen
-- Ob der Relaunch sauber indiziert wurde
+## Warum das jeden betrifft: Die Gesundheits-App deiner Website
+
+Die Google Search Console ist die absolute **Gesundheits-App** jeder Website. Ohne sie fliegen wir im Blindflug. Hier sehen wir ungeschönt:
+
+*   **Indexierung**: Welche Seiten Google crawlt – und welche er ignoriert.
+*   **Technik-Check**: Fehler, die das Ranking blockieren (404, Redirect-Chains).
+*   **Performance**: Core Web Vitals in Echtzeit.
+*   **Keywords**: Welche Suchbegriffe wirklich zahlende Kunden bringen.
+*   **Relaunch-Voodoo**: Ob der neue Shop sauber indiziert wurde.
 
 Und trotzdem wird das GSC-Setup bei Webprojekten oft behandelt wie eine heiße Kartoffel: Jeder schiebt sie weiter, keiner fängt sie auf.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wer eine neue Website live schaltet ohne die GSC einzurichten und die Sitemap einzureichen, liefert ein unfertiges Produkt ab. Punkt. Das ist wie ein Auto ohne Tacho zu verkaufen und zu sagen: 'Die Geschwindigkeit müssen Sie selbst schätzen.'"</p>
+<div class="my-10 bg-lime-accent/10 border-l-4 border-lime-600 p-8 rounded-r-3xl shadow-sm">
+  <p class="font-bold text-lime-600 mb-2 uppercase tracking-widest text-sm">💬 Jörgs SEO-Klartext</p>
+  <p class="text-xl font-medium text-dark italic leading-relaxed mb-0">
+    "Wer eine neue Website live schaltet, ohne die GSC einzurichten, liefert ein unfertiges Produkt ab. Das ist wie ein Auto ohne Tacho zu verkaufen. Wer misst, führt. Wer nicht misst, hofft nur."
+  </p>
 </div>
 
 ## Was 71 Experten auf LinkedIn sagen
 
-Ich habe diese Zuständigkeitsfrage öffentlich gepostet. 71 Kommentare später war das Bild glasklar.
+Ich habe diese Zuständigkeitsfrage öffentlich zur Diskussion gestellt. 71 Experten-Kommentare später war das Bild glasklar.
 
-| Zuständigkeit | Argument | Häufigkeit in Diskussion |
-|---|---|---|
-| **Webentwickler / Agentur** | Ist der erste tech. Kontaktpunkt beim Launch | Sehr häufig |
-| **SEO-Spezialist** | Hat das Fachwissen für korrekte Konfiguration | Häufig |
-| **Auftraggeber selbst** | Sollte ohnehin immer Admin sein | Mittel |
-| **Keiner zuständig ("nicht mein Job")** | Klassischer Pfusch am Bau | Leider auch häufig |
+| Rolle | Zuständigkeit | Warum? |
+| :--- | :--- | :--- |
+| **Webentwickler** | **Pflicht** | Erster tech. Kontaktpunkt, kennt Hosting & DNS. |
+| **SEO-Spezialist** | **Beratend** | Konfiguriert Sitemaps & analysiert die Daten. |
+| **Auftraggeber** | **Eigentümer** | Muss die Datenhoheit behalten (Admin-Domain). |
+| **Keiner** | **Pfusch** | Führt zum "Blindflug" nach dem Launch. |
 
-Der Konsens war eindeutig: **Der Webentwickler oder die Agentur, die das Projekt live schaltet, ist beim Launch in der Pflicht.** Sie haben den technischen Zugriff, sie kennen die Hosting-Konfiguration, sie sind der erste Ansprechpartner.
+Der Konsens war eindeutig: **Der Webentwickler oder die Agentur, die das Projekt live schaltet, ist beim Launch in der Pflicht.** Sie haben den technischen Zugriff, sie kennen die Hosting-Konfiguration.
 
-Das heißt nicht, dass der SEO keine Rolle spielt. Der SEO kommt danach und analysiert die eingehenden Daten strategisch. Aber er kann erst anfangen zu arbeiten, wenn das Basis-Setup steht.
+---
 
-## Der Punkt, bei dem ich wirklich rasend werde
+## Der "Daten-Machtmissbrauch": Wenn Agenturen mauern 🦖
 
-Es gibt eine noch schlimmere Variante des Problems, die ich in meinen [SEO-Sprechstunden](/seo-sprechstunde/) regelmäßig sehe: Die alte Agentur hat die Google Search Console **unter ihrer eigenen E-Mail-Adresse** eingerichtet.
+Es gibt einen Punkt, bei dem ich wirklich rasend werde. Das sehe ich in meinen [SEO-Sprechstunden](/seo-sprechstunde/) fast wöchentlich: Die alte Agentur hat die Google Search Console unter ihrer **eigenen E-Mail-Adresse** eingerichtet.
 
-Das bedeutet: Wenn der Kunde die Agentur wechselt, verliert er den Zugang zu seiner eigenen Website-Datenhistorie. Jahre von Daten sind weg. Manchmal sogar die Domainverifizierung.
+Wenn der Kunde die Agentur wechselt, heißt es plötzlich: *"Geht nicht, die Daten gehören uns."* **Bullshit.**
 
-**Das ist kein Versehen. Das ist Machtmissbrauch durch Datenfesthaltung.** 🦖
+**Die klare Regel für saubere Projekte:**
+1.  **Admin-Recht = Auftraggeber.** Der Domain-Eigentümer ist IMMER der primäre Eigentümer der GSC-Property.
+2.  **Agentur hat delegierten Zugang.** Volle Rechte? Ja. Aber niemals die Eigentümerrolle.
+3.  **Sicherheit**: Beim Wechsel wird nur der Zugang entzogen, die Datenhistorie bleibt beim Kunden.
 
-Die klare Regel lautet:
+---
 
-1. **Admin-Recht = Auftraggeber.** Der Domain-Eigentümer ist immer der primäre Eigentümer der GSC-Property.
-2. **Agentur hat delegierten Zugang.** Sie kann vollständige Zugriffsrechte haben – aber nie die Eigentümerrolle.
-3. **Beim Projektabschluss:** Agentur wird entfernt, Eigentümer behält alle Daten.
+## ⚡ Checkliste: Wer macht was beim Launch?
 
-## Rollenverteilung beim Launch: Wer macht was?
+Damit es kein "Stille-Post-Spiel" gibt, hier mein Blueprint für deine Projekte:
 
-Ein sauberer Website-Launch braucht klare Verantwortlichkeiten:
+### Der Webentwickler (Das Fundament)
+- [ ] Domain in der GSC verifizieren (am besten via DNS-Eintrag).
+- [ ] `sitemap.xml` im Root hinterlegen und in GSC einreichen.
+- [ ] Render-Check: Keine `noindex`-Tags mehr aktiv?
+- [ ] Core Web Vitals im Staging prüfen.
 
-**Der Webentwickler:**
-- Domain in der GSC verifizieren
-- `sitemap.xml` einreichen
-- Prüfen, ob keine `noindex`-Tags aktiv sind
-- Core Web Vitals prüfen
+### Der Auftraggeber (Die Hoheit)
+- [ ] Primärer Account-Eigentümer sein (Eigene Google-Mail/Workspace).
+- [ ] Der Agentur "Eingeschränkte" oder "Volle" Zugriffsrechte geben.
+- [ ] GSC-Meldungen im Auge behalten (oder an SEO delegieren).
 
-**Der Auftraggeber:**
-- Primärer Account-Eigentümer sein
-- Zugänge dokumentieren
-- Der Agentur delegierten Zugang geben (nicht umgekehrt!)
+### Der SEO-Experte (Die Strategie)
+- [ ] Baseline-Daten analysieren (Was passierte beim Launch?).
+- [ ] [Keyword-Strategie](/glossar/keywordrecherche/) auf Basis echter Search-Daten verfeinern.
+- [ ] [Technisches SEO](/glossar/technisches-seo/) Audit nach den ersten 14 Tagen.
 
-**Der SEO-Experte:**
-- Holt sich delegierten Zugang
-- Beginnt Baseline-Daten zu analysieren
-- Entwickelt die langfristige [Keyword-Strategie](/glossar/keywordrecherche/)
-- Prüft [technische SEO](/glossar/technisches-seo/)-Probleme
+> [!TIP]
+> **Pro-Tipp für Profis**: Richtet die Search Console schon in der Staging/Entwicklungsumgebung ein (wenn möglich), um Crawl-Fehler zu finden, bevor die Welt sie sieht.
 
-Wenn alle Parteien nach diesem Schema arbeiten, klappt es auch mit einem sauberen Ranking-Start. Wenn jeder sagt "Das stand nicht in meinem Pflichtenheft" – herzlich willkommen in der **Tracking-Hölle.**
+Wenn alle Parteien nach diesem Schema arbeiten, klappt es auch mit einem sauberen Ranking-Start. Wenn jeder sagt "Nicht mein Job" – herzlich willkommen in der **Tracking-Hölle.**
 
-Wie seht ihr das in euren Projekten? Wer zieht bei euch die GSC-Strippen am Launch-Tag?
+Wie läuft das bei dir? Hat deine Agentur die Hand auf deinen Daten?
 
 ALOHA! 🌻✌️

@@ -129,10 +129,12 @@ Bist du bereit, deine Seite mal so richtig grillen zu lassen?
 ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
-<strong>Lass uns deine Website "grillen"!</strong>
-<p>Du willst wissen, ob du auch in die 80%-Falle getappt bist? In meiner SEO-Sprechstunde analysiere ich deine Seite live und finde die Fehler, bevor sie dich dein Ranking kosten.</p>
-<a href="/seo-sprechstunde/">Jetzt Analyse-Termin sichern</a>
+  <h3 class="!mt-0">Lass uns deine Website "grillen"!</h3>
+  <p>Du willst wissen, ob du auch in die 80%-Falle getappt bist? In meiner SEO-Sprechstunde analysiere ich deine Seite live und finde die Fehler, bevor sie dich dein Ranking kosten.</p>
+  <a href="/seo-sprechstunde/">Jetzt Analyse-Termin sichern →</a>
 </div>
+
+---
 
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/)

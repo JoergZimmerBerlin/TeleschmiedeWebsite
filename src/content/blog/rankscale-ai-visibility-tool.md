@@ -1,90 +1,79 @@
 ---
-title: "Rankscale: Ein AI Visibility Tool das ich empfehlen kann"
-description: "Endlich ein Tool das zeigt, wie sichtbar du in ChatGPT, Perplexity und Co. bist."
+title: "Rankscale: Ein AI Visibility Tool, das ich empfehlen kann"
+description: "Endlich ein Tool, das zeigt wie sichtbar du wirklich in ChatGPT, Perplexity und 15 weiteren KI-Modellen bist. Jörgs ehrlicher Praxis-Test nach mehreren Wochen."
 date: "2026-01-19"
-linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
-image: "../../assets/images/pages/hero-pose.webp"
-image_alt: "Rankscale AI Visibility Tool - Empfehlung von Jörg Zimmer"
+image: "../../assets/images/blog/rankscale-ai-visibility-tracking.webp"
+image_alt: "Rankscale AI Visibility Tracker – KI-Sichtbarkeit in 17 LLMs messen"
 category: "AI SEO"
 tags: ["Case Study", "Tools"]
 key_takeaways:
-  - "Rankscale trackt Sichtbarkeit in 17 verschiedenen LLMs – jedes Modell bewertet deine Marke unterschiedlich."
-  - "Die Sentiment-Analyse zeigt, ob KIs dich als Experten empfehlen oder in negativem Kontext erwähnen."
+  - "Rankscale trackt Sichtbarkeit in 17 verschiedenen LLMs – jedes Modell bewertet deine Marke unterschiedlich, dein Blindflug hat ein Ende."
+  - "Die Sentiment-Analyse zeigt, ob KIs dich als Experten empfehlen oder in negativem Kontext erwähnen – das ist der echte Game-Changer."
   - "Wer jetzt die Datenhoheit über seine KI-Sichtbarkeit gewinnt, setzt die Standards für morgen."
+faqs:
+  - question: "Was genau trackt Rankscale und wie funktioniert es?"
+    answer: "Rankscale fragt regelmäßig 17 verschiedene LLMs (darunter ChatGPT, Claude, Gemini, Perplexity, You.com) mit relevanten Suchanfragen für deine Nische ab und protokolliert, ob und wie deine Marke oder Domain in den Antworten auftaucht. Das Tool unterscheidet dabei drei wichtige Dimensionen: ob du überhaupt erwähnt wirst (Citation), wie du erwähnt wirst (Sentiment: Experten-Empfehlung vs. neutraler Verweis vs. negativer Kontext) und im Vergleich zu welchen Wettbewerbern du genannt oder übergangen wirst."
+  - question: "Lohnt sich Rankscale für jedes Business?"
+    answer: "Ehrliche Antwort: Nein. Für das kleine Café um die Ecke ist lokales SEO und ein gepflegter Google Maps-Eintrag viel wertvoller. Rankscale lohnt sich klar für Freelancer und Berater die ihre persönliche Brand aufbauen, für E-Commerce-Marken in wettbewerbsintensiven Märkten, für Agenturen die ihren Kunden KI-Sichtbarkeitsreports anbieten wollen, und für alle B2B-Unternehmen deren Kunden Kaufentscheidungen auf Basis von KI-Recherchen treffen."
+  - question: "Was kostet Rankscale und wie ist die Kosten-Nutzen-Rechnung?"
+    answer: "Im Jahresplan (mit aktuell 15% Rabatt) landest du beim Pro-Plan bei ca. 84€ pro Monat für 1.200 Credits. Das ist kein Kleingeld. Aber wenn du in einem kompetitiven Markt unterwegs bist und nicht weißt, was KIs über dich erzählen, dann ist das die teuerste Unwissenheit, die du dir leisten kannst. Wenn ein Kunde fragt 'Warum empfiehlt ChatGPT immer unseren Konkurrenten?', willst du nicht mit den Schultern zucken."
+  - question: "Kann ich GEO-Strategie ohne ein Tool wie Rankscale betreiben?"
+    answer: "Du kannst – aber es ist, als würdest du eine SEO-Kampagne ohne Google Search Console fahren. Technisch möglich, praktisch ein Blindflug. Ohne Daten weißt du nicht, ob deine GEO-Maßnahmen wirken, welche KIs dich bereits kennen, und wo Wettbewerber dich überflügeln. Manuelle Stichproben ('Hey ChatGPT, kennst du mich?') sind unrepräsentativ, nicht reproduzierbar und geben dir kein Trendgefühl. Rankscale ist der Unterschied zwischen Gefühl und Daten."
 ---
 
-Die große Frage im AI-SEO-Zeitalter ist nicht mehr nur, auf welcher Position du bei Google stehst. Die neue, viel spannendere Frage lautet: **Wie sichtbar bin ich eigentlich in ChatGPT, Perplexity, Claude und all den anderen AI-Systemen?**
+Moin! 🌻
 
-Früher war alles "einfach". Wir hatten die Google Search Console, wir hatten Tools wie Sistrix oder Ahrefs und haben uns über Nachkommastellen beim Sichtbarkeitsindex gefreut. Aber was nützt dir ein Sichtbarkeitsindex von 10 bei Google, wenn die Leute ihre Kaufentscheidungen heute immer öfter auf Basis der Empfehlungen eines KI-Assistenten treffen?
+Die große Frage im [GEO](/glossar/ai-geo/)-Zeitalter ist nicht mehr nur: Auf welcher Position stehe ich bei Google? Die neue, viel existenziellere Frage lautet: **Wie sichtbar bin ich in ChatGPT, Perplexity, Claude und Co. – und was erzählen die KIs über mich?**
 
-## Der Blindflug in der KI-Suche
+Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 
-Bisher war das Ganze ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Hey, kennst du Jörg Zimmer?" oder "Wer ist der beste SEO in Berlin?". Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht mal, WARUM. Es gab keine Daten, keine Historie, keinen Wettbewerbsvergleich. 
-
-Genau hier setzt **Rankscale** an. Ich habe mir das Tool aus Österreich in den letzten Wochen genauer angeschaut und muss sagen: Es ist für mich aktuell die Antwort auf die dringendste Frage im modernen SEO.
+Genau hier setzt **Rankscale** an.
 
 ## Rankscale im echten Praxis-Test
 
-Rankscale ist nicht einfach nur ein weiteres Keyword-Tool. Es ist ein AI Visibility Tracker. Ich habe damit meine eigene Domain und die Projekte einiger Kunden durch die Mangel gedreht. Was das Tool wirklich liefert:
+Ich habe mir das Tool aus Österreich über mehrere Wochen hinweg genau angeschaut und meine eigene Domain sowie die Projekte einiger Kunden durch die Mangel gedreht. Was das Tool wirklich liefert:
 
-### 1. Tracking deiner Erwähnungen (Citations)
-Es geht nicht nur darum, ob du erwähnt wirst, sondern WIE. Rankscale zeigt dir, ob die KI dich als Quelle verlinkt oder ob du nur beiläufig erwähnt wirst. Das ist der heilige Gral für GEO (Generative Engine Optimization).
+| Feature | Was es zeigt | Warum es wichtig ist |
+|---|---|---|
+| **Citation Tracking** | Ob und wie du in LLM-Antworten erwähnt wirst | Grundlage jeder GEO-Strategie |
+| **Sentiment-Analyse** | Positiv / neutral / negativ erwähnt? | KI-Reputation-Management |
+| **17 LLM-Coverage** | ChatGPT, Claude, Gemini, Perplexity, You.com u.a. | Jedes Modell tickt anders |
+| **Wettbewerbsvergleich** | Wer wird statt dir genannt? | Identifiziert Content-Lücken |
+| **Historisches Tracking** | Trendverlauf über Zeit | Zeigt ob Maßnahmen wirken |
 
-### 2. Der Sentiment-Check: Was denkt die KI über dich?
+### Der Sentiment-Check: Der absolute Game-Changer
 
-![AI Sentiment Kompass: Wie die KI deine Brand-Reputation bewertet](../../assets/images/blog/ai-sentiment-kompass.webp)
+Das ist für mich das herausragende Feature. Die KI erwähnt dich – aber **wie**? Sagt Claude, du seist ein zuverlässiger SEO-Experte? Oder taucht dein Name in einem negativen Kontext auf ("XY ist teuer und langsam")? Dieses Sentiment-Tracking ist für das [E-E-A-T](/glossar/e-e-a-t/)-Reputation-Management in der KI-Ära überlebenswichtig.
 
-Das ist für mich der absolute Game-Changer. Das Tool analysiert den Kontext der Erwähnung. Sagt Claude, dass du ein Experte bist? Oder wirst du in einem negativen Kontext erwähnt (z.B. "XY ist teuer")? Dieses Sentiment-Tracking ist für das Reputation-Management in der KI-Ära überlebenswichtig.
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wir stehen am Anfang einer Revolution. Wer jetzt die Datenhoheit über seine KI-Sichtbarkeit gewinnt, setzt die Standards für morgen. Es ist wie 2005, als die ersten SEO-Tools kamen. Die, die damals gelacht haben, haben heute keine Agentur mehr."</p>
+</div>
 
-### 3. Der Kampf um die 17 LLMs
-Rankscale trackt nicht nur ChatGPT. Es deckt eine riesige Bandbreite ab, von Google Gemini über Anthropic's Claude bis hin zu spezialisierten Suchmaschinen wie Perplexity und You.com. Warum ist das wichtig? Weil jedes dieser Modelle auf anderen Daten basiert. Wer in Perplexity sichtbar ist, muss es in ChatGPT noch lange nicht sein.
+### Warum 17 LLMs und nicht nur ChatGPT?
 
-## Die Kosten-Nutzen-Rechnung: Lohnt sich das?
+Weil jedes dieser Modelle auf anderen Trainingsdaten basiert und unterschiedliche Quellen priorisiert. Wer in Perplexity sichtbar ist, muss es in ChatGPT noch lange nicht sein. Wer in Google Gemini als Experte gilt, kann bei Claude völlig unbekannt sein.
 
-Reden wir über Geld. Der Jahresplan ist gerade mit 15% Rabatt verfügbar. Im Pro-Plan landest du bei ca. 84€ im Monat für 1200 Credits. 
+Das ist kein akademisches Problem. Deine Zielgruppe nutzt verschiedene KI-Tools. Wenn du nur ChatGPT trackst, übersiehst du einen erheblichen Teil deiner potenziellen KI-Sichtbarkeit.
 
-### Ist das nötig?
-Meine ehrliche Meinung:
-- **Für das kleine Café um die Ecke?** Nein, vergiss es. Da reicht lokales SEO und ein guter Google Maps Eintrag.
-- **Für Freelancer, Agenturen und E-Commerce-Brands?** Ein deutliches JA. 
+## Community-Feedback: Zwischen Euphorie und gesunder Skepsis
 
-Wenn du in einem wettbewerbsintensiven Markt unterwegs bist, kannst du es dir nicht leisten, nicht zu wissen, was die KI über dich erzählt. Wenn ein Kunde fragt: "Warum empfiehlt ChatGPT eigentlich immer unseren Konkurrenten?", dann willst du nicht mit den Schultern zucken. Du willst sagen: "Weil die deren Content besser als Quelle validieren können – und hier ist die Strategie, wie wir das ändern."
+Ich habe meine ersten Ergebnisse auf LinkedIn geteilt. Die Reaktionen waren bezeichnend für unsere Branche:
 
-## Community-Feedback: Zwischen Euphorie und Skepsis
+Einige Kollegen: *"Endlich ein Tool, das Ordnung ins Chaos bringt!"*
 
-Ich habe meine ersten Ergebnisse auf LinkedIn geteilt und die Reaktionen waren bezeichnend für unsere Branche. 
-Einige Kollegen waren sofort Feuer und Flamme: *"Endlich ein Tool, das Ordnung ins Chaos bringt!"* 
-Andere waren skeptisch wegen des Preises: *"Noch ein Abo? Brauchen wir das wirklich?"*
+Andere, skeptischer: *"Noch ein Abo? Brauchen wir das wirklich?"*
 
-Meine Antwort auf die Skeptiker: Wir stehen am Anfang einer Revolution. Wer jetzt die Datenhoheit gewinnt, setzt die Standards für morgen. Es ist wie 2005 bei den ersten SEO-Tools. Die, die damals gelacht haben, haben heute keine Agentur mehr.
-
-## Warum Rankscale für mich aktuell die Nr. 1 ist
-
-Was mir besonders gefällt, ist der Fokus. Sie versuchen nicht, noch ein schlechtes Tool für Keyword-Recherche zu sein. Sie konzentrieren sich voll auf die AI Visibility. Das Team aus Österreich liefert schnellen Support und die Roadmap ist vielversprechend. 
+Meine ehrliche Antwort an die Skeptiker: Es kommt auf dein Business an. Für das kleine lokale Business – nein, es gibt Wichtigeres. Für alle, deren Kunden B2B-Entscheidungen auf Basis von KI-Recherchen treffen – ja, klar.
 
 In meiner [SEO-Sprechstunde](/seo-sprechstunde/) zeige ich Kunden oft live, was Rankscale ausspuckt. Die Gesichter, wenn sie sehen, wie unterschiedlich die KIs ihre Marke bewerten, sprechen Bände.
 
-### Tacheles am Ende
+## Lohnt es sich? Mein Fazit
 
-SEO ist heute multidisziplinär. Google ist wichtig, aber nicht mehr alles. Tools wie Rankscale helfen uns, die unsichtbaren Strömungen der KI-Welt sichtbar zu machen.
+Was mir an Rankscale gefällt: Der Fokus. Sie versuchen nicht, noch ein schlechtes Keyword-Tool zu sein. Sie konzentrieren sich vollständig auf AI Visibility. Das Team aus Österreich liefert schnellen Support und die Roadmap ist vielversprechend.
 
-Ob du es nun AI-SEO, GEO oder LLMO nennst – am Ende des Tages geht es darum, dass die Maschine dich als vertrauenswürdige Antwort erkennt. Rankscale ist das Thermometer, das uns sagt, ob wir in dieser neuen Welt glühen oder ob wir erfrieren.
+SEO ist heute multi-dimensional. Google ist wichtig, aber nicht mehr alles. Tools wie Rankscale helfen, die unsichtbaren Strömungen der KI-Welt sichtbar zu machen – und damit strategisch beherrschbar.
 
----
+**[Rankscale selbst testen →](https://rankscale.ai/?via=offer)**
 
-<div class="blog-cta-box">
-  <h3>Lust auf mehr AI Visibility?</h3>
-  <p>Wenn du Rankscale selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Rankscale ausprobieren →
-  </a>
-</div>
-
----
-
-*Nutzt ihr schon AI Visibility Tools? Oder verlasst ihr euch noch auf euer Glück und manuelle Stichproben? Schreibt mir auf LinkedIn – ich bin gespannt auf eure Erfahrungen und ob ihr den Preis auch für gerechtfertigt haltet.*
-
-### Weiterführende Artikel für KI-Pioniere
-### Weiterführende Artikel
-* **Lese-Tipp:** [Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken](/blog/rankscale-ai-visibility-tracking-17-llms/)
-* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
+ALOHA! 🌻✌️

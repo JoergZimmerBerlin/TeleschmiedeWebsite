@@ -2,8 +2,8 @@
 title: "Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet 😲"
 description: "Einmal im Jahr poste ich dieses Meme. Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir Spezialisten das Chaos verhindern könnten."
 date: "2026-03-11"
-image: "../../assets/images/blog/seo-relaunch-klassiker.webp"
-image_alt: "Sarkastisches Meme über SEO nach dem Relaunch ohne Planung"
+image: "../../assets/images/blog/relaunch-ohne-seo.webp"
+image_alt: "Sarkastisches Meme: Website-Relaunch ohne SEO – das klassische Relaunch-Desaster"
 key_takeaways:
   - "SEO ist kein Zauberstaub, den man am Ende über die fertige Website streut. Es ist Architektur – und muss vor dem ersten Wireframe stattfinden."
   - "Hochwertiges Design ohne organische Sichtbarkeit ist wie ein Porsche ohne Motor: schön, aber nutzlos für das Geschäft."

@@ -2,8 +2,8 @@
 title: "Tatü Tata: Wenn die SEO Feuerwehr tief in der Nacht ausrücken muss 🚒"
 description: "Ein Sichtbarkeitseinbruch von 3,5 auf 1,3 Punkte per Nacht. Wie fatale Tech-Fehler einen Online-Shop killen – und warum dein Experten-Netzwerk im Notfall alles ist."
 date: "2026-03-11"
-image: "../../assets/images/blog/seo-relaunch-checklist-visual.webp"
-image_alt: "SEO Feuerwehr rettet Online-Shop - Symbolbild für technische SEO-Notfallhilfe"
+image: "../../assets/images/blog/seo-sprechstunde.webp"
+image_alt: "SEO Feuerwehr – Jörg Zimmer rettet Online-Shop mit Notfall-Analyse"
 key_takeaways:
   - "Versteckte Drittanbieter-Scripte können die organische Sichtbarkeit schlagartig und komplett zerstören."
   - "Performance-Einbrüche sind nicht nur ärgerlich – sie sind lebensbedrohend für E-Commerce-Umsätze."

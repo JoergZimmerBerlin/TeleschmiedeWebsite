@@ -13,29 +13,39 @@ const { videoId, title } = Astro.props;
 const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
 ---
 
-<div class="youtube-facade-container relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl bg-gray-900 group cursor-pointer" data-video-id={videoId} data-title={title}>
+<div 
+  class="youtube-facade-container relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl bg-gray-900 group cursor-pointer" 
+  data-video-id={videoId} 
+  data-title={title}
+  role="button"
+  tabindex="0"
+  aria-label={`Video abspielen: ${title}`}
+>
   
-  <!-- The static thumbnail (loads fast) -->
-  <img 
-    src={thumbnailUrl} 
-    alt={`Vorschau für Video: ${title}`} 
-    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-    loading="lazy"
-  />
+<!-- The static thumbnail (loads fast) -->
+<Image 
+  src={thumbnailUrl} 
+  alt={`Vorschau für Video: ${title}`} 
+  width={1280}
+  height={720}
+  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+  loading="lazy"
+  format="webp"
+/>
 
-  <!-- The Play Button Overlay -->
-  <div class="absolute inset-0 flex items-center justify-center">
-    <div class="w-16 h-16 md:w-20 md:h-20 bg-primary/90 text-dark rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:bg-primary z-10">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 md:w-10 md:h-10 ml-1">
-        <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
-      </svg>
-    </div>
+<!-- The Play Button Overlay -->
+<div class="absolute inset-0 flex items-center justify-center">
+  <div class="w-16 h-16 md:w-20 md:h-20 bg-primary/90 text-dark rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:bg-primary z-10">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 md:w-10 md:h-10 ml-1">
+      <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
+    </svg>
   </div>
 </div>
+</div>
 
-<script>
-  // Script to swap the static image with the actual YouTube iframe upon click
-  document.addEventListener('DOMContentLoaded', () => {
+<script is:inline>
+// Script to swap the static image with the actual YouTube iframe upon click
+document.addEventListener('DOMContentLoaded', () => {
     const facades = document.querySelectorAll('.youtube-facade-container');
     
     facades.forEach(facade => {

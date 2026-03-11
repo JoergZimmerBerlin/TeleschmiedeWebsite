@@ -18,6 +18,9 @@ export default defineConfig({
     tailwind(),
     sitemap()
   ],
+  image: {
+    remotePatterns: [{ protocol: 'https', hostname: 'i.ytimg.com' }],
+  },
   redirects: {
     '/leistungen/sechstunde/': '/seo-sprechstunde/'
   },

@@ -138,6 +138,28 @@ const relatedTerms = allEntries.filter((e) =>
         </div>
       </div>
 
+      <!-- Related Terms (Bottom) -->
+      {relatedTerms.length > 0 && (
+        <div class="mt-20 pt-12 border-t border-gray-100">
+          <h3 class="text-2xl font-bold mb-8">Verwandte Begriffe & Leseempfehlungen</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedTerms.map(t => (
+              <a href={`${baseUrl}/glossar/${t.slug}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all">
+                <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">
+                  Glossar
+                </span>
+                <h4 class="font-bold text-lg mb-2 group-hover:text-lime-600 transition-colors">
+                  {t.data.title}
+                </h4>
+                <p class="text-sm text-gray-muted line-clamp-2">
+                  {t.data.description}
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
       <!-- Back to Top Button -->
       <button 
         id="back-to-top" 
@@ -162,8 +184,8 @@ const relatedTerms = allEntries.filter((e) =>
           <div class="flex-1 text-center md:text-left">
             <h4 class="text-xl font-bold text-dark mb-2">Über den Autor: Jörg Zimmer</h4>
             <p class="text-gray-muted mb-4 leading-relaxed">
-              Jörg Zimmer ist SEO- und SEA-Freelancer aus Berlin Spandau mit über 20 Jahren Erfahrung. 
-              Er hilft Unternehmen dabei, in einer KI-getriebenen Welt sichtbar zu bleiben und nachhaltig Suchtraffic aufzubauen.
+              Jörg Zimmer ist SEO- und SEA-Freelancer aus Berlin Spandau mit über 24 Jahren Erfahrung ("Digitaler Dinosaurier"). 
+              Er hilft Unternehmen, den "Pfusch am Bau" zu beenden, durch Tacheles-Beratung sichtbar zu bleiben und Ranking-Verluste in Umsätze zu verwandeln.
             </p>
             <div class="flex flex-wrap justify-center md:justify-start gap-4">
               <a

@@ -22,11 +22,6 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 - **ALOHA! 🌻:** Die obligatorische Begrüßung und Verabschiedung. Die Sonnenblume ist das visuelle Anker-Symbol.
 
 ### Signature-Analogien & Metaphern
-- **Das A-Team Modell:** 
-  - *Hannibal:* Strategie & SEO ("Ich liebe es, wenn ein Plan funktioniert!").
-  - *Face:* Outreach & Profiling.
-  - *B.A. Baracus:* Das technische Fundament (Architektur).
-  - *Murdock:* Content & kreative Hooks.
 - **Deutsche Bahn:** Synonym für Unzuverlässigkeit, Verspätungen und schlechten Service im Online Marketing.
 - **Döner-SEO:** "Das Geheimnis ist Hunger" – Fokus auf den Drive nach Ergebnissen.
 - **Goldfisch auf Espresso:** Die Aufmerksamkeitsspanne des modernen Nutzers.
@@ -48,14 +43,23 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 - "AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."
 
 ### Redaktionelle Richtlinien (Blog & Glossar)
-*Ziel: SEO-Relevanz, Lesbarkeit und Markenidentität.*
+*Ziel: Die absolut beste, nutzerfreundlichste und technisch perfekteste Quelle zum jeweiligen Thema zu sein.*
 
-### Blogartikel (800-1000 Wörter)
-- **Struktur:** Einleitung (Hook), Hauptteil (Deep Dive via h2/h3), Fazit, CTA-Box, Lesetipps.
-- **Tonalität:** Authentische Ich-Form. Nutze Formulierungen wie "Ich habe getestet...", "Meiner Meinung nach...".
-- **Besonderheiten:** Nutze das Format `💬 Jörgs SEO-Klartext (LinkedIn Insights)` für Einschübe.
-- **Begrüßung & Abschied:** Immer mit "Moin!" beginnen und mit "ALOHA ✌️" enden.
-- **LinkedIn-Integration:** Zitate aus echten Posts/Kommentaren einbinden, um E-E-A-T (Experience) zu stärken.
+### Artikel-Struktur & Länge (Bis zu 1.500 Wörter)
+- **Länge:** Blog-Artikel und Glossar-Beiträge sollen ausführlich sein (bis zu 1.500 Wörter), solange der Inhalt fesselnd, tiefgründig und exzellent bleibt.
+- **Zwingende Layout-Elemente (Immer erforderlich):**
+  - **Key Facts / Wichtigste Erkenntnisse:** Müssen immer ganz oben im Artikel als `key_takeaways` (Frontmatter) definiert werden.
+  - **Inhaltsverzeichnis (Table of Contents):** Wird automatisch aus H2/H3 generiert, sofern diese sauber formatiert sind.
+  - **Verwandte Artikel / Lese-Tipps:** Am Ende des Artikels (und ggf. in der Sidebar) müssen immer zwingend verwandte Themen (`related_posts` / `related_terms`) angeteasert werden.
+- **Visuelle Auflockerung:**
+  - Die Struktur muss **maximal nutzerfreundlich** sein (NIEMALS Textwände!).
+  - **Zwingende Elemente:** Nutze aktiv **Tabellen** für Zusammenfassungen/Vergleiche und **Infoboxen/Callouts**, um Kerninformationen hervorzuheben.
+  - Nutze systematisch kurze Absätze (`mb-8`) und hierarchische H2/H3 Überschriften.
+- **Interne Verlinkung:** Verlinke innerhalb des Fließtextes sinnvoll, kontextbezogen und aggressiv auf andere relevante Glossar- oder Blog-Beiträge. Trailing Slashes sind Pflicht (`/`).
+- **Tonalität & Zitate:** Authentische Ich-Form, die den Leser fesselt. Integriere aktiv Jörgs "Tacheles"-Zitate und Analogien in den Fließtext.
+- **Besonderheiten:** Nutze das Format `💬 Jörgs SEO-Klartext (LinkedIn Insights)` für unverblümte persönliche Einschübe.
+- **Begrüßung & Abschied:** Immer mit "Moin! 🌻" beginnen und mit "ALOHA! 🌻✌️" enden.
+- **LinkedIn-Integration:** Echte Community-Kommentare einweben, um E-E-A-T zu maximieren.
 - **Trailing Slashes:** Interne Links müssen zwingend auf `/` enden (z.B. `[Link](/seite/)`).
 
 ### Metadaten & SEO

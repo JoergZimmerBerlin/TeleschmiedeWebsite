@@ -70,7 +70,3 @@ ALOHA ✌️
   <p class="mb-6">Lass uns deine interne Verlinkung professionalisieren und einen Plan für nachhaltiges Linkbuilding erstellen. Ich zeige dir, wie du deine Linkkraft verdoppelst.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen →</a>
 </div>
-
-### Lese-Tipp
-* **Lese-Tipp:** [Was ist Linkjuice?](/glossar/linkjuice/)
-* **Lese-Tipp:** [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)

@@ -2,8 +2,8 @@
 title: "GEO, AI SEO oder LLMO? Wie wir Sichtbarkeit in KI-Modellen wirklich nennen 🤖"
 description: "Die große Umfrage zur Zukunft der Suche. Warum GEO der neue Standard wird und was über 110 Experten dazu denken. Mit Jörgs ehrlichem Tacheles-Check."
 date: "2026-03-11"
-image: "../../assets/images/blog/ai-geo-sichtbarkeit.webp"
-image_alt: "Grafik zur Experten-Umfrage: GEO vs. AI SEO"
+image: "../../assets/images/blog/geo-umfrage-infografik.png"
+image_alt: "Donut-Chart: Sichtbarkeit in KI-Modellen – GEO 51%, AI SEO 22%, SEO 19%, LLMO 8%"
 key_takeaways:
   - "GEO (Generative Engine Optimization) setzt sich mit über 51% unter Fachleuten als dominanter Begriff durch."
   - "Sichtbarkeit in nativen KI-Antworten von ChatGPT, Perplexity & Google AI Overviews wird zur neuen Pflicht."

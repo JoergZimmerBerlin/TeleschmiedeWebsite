@@ -2,8 +2,8 @@
 title: "Braucht SEO einen neuen Namen? (Die Campixx Umfrage) 🧐"
 description: "Auf der Campixx habe ich die Community gefragt: Ist der Begriff 'SEO' noch zeitgemäß? Die Ergebnisse und die besten Namensvorschläge aus über 40 Kommentaren."
 date: "2026-03-11"
-image: "../../assets/images/blog/infografik_seo_namen_umfrage.webp"
-image_alt: "Infografik zur Umfrage: Braucht SEO einen neuen Namen?"
+image: "../../assets/images/blog/campixx-seo-naming-poll.png"
+image_alt: "Balkendiagramm: Braucht SEO einen neuen Namen? – Search Everywhere Optimization 55%, Digital Authority 28%, SEO bleibt SEO 17%"
 key_takeaways:
   - "Der Begriff SEO wird von Entscheidern oft als zu technisch oder einseitig wahrgenommen – das hat direkte Budget-Konsequenzen."
   - "Alternative Begriffe wie 'Search Everywhere Optimization' gewinnen in der Fachcommunity extrem an Bedeutung."

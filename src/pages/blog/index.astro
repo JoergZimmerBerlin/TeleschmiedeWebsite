@@ -1,7 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { Image } from 'astro:assets';
-import { getImage } from 'astro:assets';
 import { getCollection } from 'astro:content';
 
 // Get all blog posts, sorted by date
@@ -9,12 +8,6 @@ const posts = await getCollection('blog');
 const sortedPosts = posts.sort((a, b) =>
   new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
-
-// Get optimized image for LCP
-const featuredImage = sortedPosts[0]?.data.image;
-const optimizedFeaturedImage = featuredImage 
-  ? await getImage({ src: featuredImage, format: 'webp', width: 800 }) 
-  : null;
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
@@ -37,7 +30,7 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
 <Layout
   title="Blog | Jörg Zimmer - SEO Insights"
   description="SEO-Insights, Google-Tipps und Gedanken aus der Praxis. Basierend auf meinen LinkedIn-Beiträgen und über 20 Jahren Erfahrung."
-  lcpImage={optimizedFeaturedImage?.src}
+  lcpImage={sortedPosts[0]?.data.image?.src}
 >
   <!-- Hero Section -->
   <section class="section pt-12 pb-12 bg-white">

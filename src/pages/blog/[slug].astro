@@ -22,10 +22,6 @@ const { Content, headings } = await post.render();
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const logoWebp = await getImage({ src: logoImage, format: 'webp' });
-let postImageWebp = null;
-if (post.data.image) {
-  postImageWebp = await getImage({ src: post.data.image, format: 'webp' });
-}
 
 // Reading Time Calculation
 const wordCount = post.body.split(/\s+/).length;
@@ -77,7 +73,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
   title={`${post.data.title} | Jörg Zimmer Blog`}
   description={post.data.description}
   ogImage={post.data.image?.src}
-  lcpImage={postImageWebp?.src}
+  lcpImage={post.data.image?.src}
 >
   <article class="section pt-8">
     <div class="container-narrow">
@@ -366,7 +362,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
     "@type": ["Article", post.data.faqs ? "FAQPage" : null].filter(Boolean),
     "headline": post.data.title,
     "description": post.data.description,
-    "image": postImageWebp ? `https://teleschmie.de${postImageWebp.src}` : undefined,
+    "image": post.data.image ? `https://teleschmie.de${post.data.image.src}` : undefined,
     "datePublished": post.data.date,
     "author": {
       "@type": "Person",

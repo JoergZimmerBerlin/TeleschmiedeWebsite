@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "date +%s > public/build.txt",
     "build": "astro build",
     "preview": "astro preview",
     "check-links": "node scripts/check-links.mjs"

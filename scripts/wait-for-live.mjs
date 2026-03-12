@@ -1,9 +1,5 @@
-#!/usr/bin/env node
-
-/**
- * Wait for site to be live before links check.
- * Usage: node scripts/wait-for-live.mjs https://example.com
- */
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 
 const url = process.argv[2];
 if (!url) {
@@ -11,25 +7,50 @@ if (!url) {
   process.exit(1);
 }
 
-const MAX_ATTEMPTS = 10;
+// Get local build ID
+let localBuildId = '';
+try {
+  localBuildId = readFileSync(resolve('dist/build.txt'), 'utf-8').trim();
+} catch (e) {
+  console.log("Kein lokales build.txt gefunden. Nutze Standard-Verhalten.");
+}
+
+const MAX_ATTEMPTS = 15;
 const DELAY = 10000; // 10s
 
 async function check() {
+  const buildUrl = url.replace(/\/+$/, "") + "/build.txt";
+  
   for (let i = 1; i <= MAX_ATTEMPTS; i++) {
     try {
-      console.log(`Prüfe ob Site live ist: ${url} (Versuch ${i}/${MAX_ATTEMPTS})...`);
-      const res = await fetch(url, { method: 'HEAD' });
-      if (res.ok) {
-        console.log("Site ist live! Starte Link-Check.");
-        process.exit(0);
+      console.log(`Prüfe Deployment-Status: ${url} (Versuch ${i}/${MAX_ATTEMPTS})...`);
+      
+      if (localBuildId) {
+        const res = await fetch(buildUrl, { cache: 'no-store' });
+        if (res.ok) {
+          const remoteBuildId = (await res.text()).trim();
+          if (remoteBuildId === localBuildId) {
+            console.log("Build-ID Match! Neues Deployment ist live.");
+            process.exit(0);
+          } else {
+            console.log(`Warte auf Propagation... (Remote: ${remoteBuildId}, Local: ${localBuildId})`);
+          }
+        } else {
+          console.log(`build.txt nicht erreichbar (Status: ${res.status}).`);
+        }
+      } else {
+        const res = await fetch(url, { method: 'HEAD' });
+        if (res.ok) {
+          console.log("Site ist live!");
+          process.exit(0);
+        }
       }
-      console.log(`Status: ${res.status}. Warte ${DELAY/1000}s...`);
     } catch (err) {
-      console.log(`Verbindungsfehler: ${err.message}. Warte ${DELAY/1000}s...`);
+      console.log(`Verbindungsfehler: ${err.message}.`);
     }
     await new Promise(r => setTimeout(r, DELAY));
   }
-  console.error("Site wurde nicht rechtzeitig live geschaltet.");
+  console.error("Timeout: Deployment wurde nicht rechtzeitig erkannt.");
   process.exit(1);
 }
 

@@ -15,7 +15,7 @@ try {
   console.log("Kein lokales build.txt gefunden. Nutze Standard-Verhalten.");
 }
 
-const MAX_ATTEMPTS = 15;
+const MAX_ATTEMPTS = 45;
 const DELAY = 10000; // 10s
 
 async function check() {

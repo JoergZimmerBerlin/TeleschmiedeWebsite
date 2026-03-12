@@ -1,8 +1,7 @@
 ---
 title: "AEO (Answer Engine Optimization)"
-description: "AEO optimiert deine Inhalte für AntwortmaschMoin!
-
-AI SEO ist die Verschmelzung von klassischer Suchmaschinenoptimierung und künstlicher Intelligenz. Es geht einerseits darum, KI-Tools wie ChatGPT, Poe oder Midjourney zur Effizienzsteigerung zu nutzen (z.B. für Strategien und Datenanalysen), und andererseits darum, Content so zu gestalten, dass er von KI-Modellen als vertrauenswürdige Quelle eingestuft wird."
+description: "AEO optimiert deine Inhalte für Antwortmaschinen. Erfahre, wie du als direkte Antwort in KI-Systemen wie ChatGPT und Perplexity erscheinst."
+date: "2026-03-11"
 image: "../../assets/images/glossar/glossar-aeo-3d.png"
 image_alt: "AEO 3D Infografik - Answer Engine Optimization für KI"
 related_terms: ["geo", "llmo", "geo-vs-seo", "zitierfaehiger-content"]

@@ -65,7 +65,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Autorität braucht einen Boost?</h3>
-  <p class="mb-6">Ich zeige dir die schnellsten Wege, deine digitale Autorität aufzubauen.</p>
+  <p class="mb-6">Ich zeige dir die schnellsten Wege, deine digitale Autorität aufzubauen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Marktanalyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) zur Validierung deiner Reputation in KI-Systemen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Autoritäts-Strategie anfragen →</a>
 </div>
 

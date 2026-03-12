@@ -57,10 +57,7 @@ Alle Standard-Verdächtigen waren raus.
 
 Das hieß: Das Problem liegt im Code.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Kleine Eingriffe, fatale Wirkung. Ein falscher Pixel und Google denkt, dein Shop ist leer. Das ist kein Horrorfilm. Das passiert täglich."</p>
-</div>
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten-Analyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ## Der Täter: Drittanbieter-Scripte
 
@@ -117,6 +114,9 @@ Hattest du das schon mal?
 Kleiner Code-Eingriff – großes Desaster?
 
 ALOHA! 🌻✌️
-l erlebt? Ein kleiner Code-Eingriff, der das komplette System lahmgelegt hat?
 
-ALOHA! 🌻✌️
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Brennt deine Hütte auch?</h3>
+  <p class="mb-6">Warte nicht, bis der Schaden irreparabel ist. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) finden wir das Leck sofort und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) hilft uns, deine KI-Visibility zu retten.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Notfall-Check anfragen →</a>
+</div>

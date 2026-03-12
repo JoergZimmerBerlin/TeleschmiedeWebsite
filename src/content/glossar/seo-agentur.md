@@ -1,6 +1,6 @@
 ---
 title: "SEO Agentur & SEO Agentur Berlin"
-description: "Wann brauchst du eine SEO Agentur, wann einen Freelancer? Alles über SEO Marketing, SEA und die Auswahl der richtigen Partner in Berlin."
+description: "Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) machen wir Ergebnisse messbar, während [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat."
 date: "2026-03-10"
 image: "../../assets/images/glossar/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
@@ -19,7 +19,7 @@ faqs:
 
 Moin!
 
-In der deutschen Hauptstadt ist der Wettbewerb hart. Wer hier bei Google unter dem Suchbegriff **SEO Agentur Berlin** gefunden werden will, muss sein Handwerk verstehen. Berlin ist das Epizentrum für **SEO Marketing** in Deutschland – hier sitzen die schlausten Köpfe, aber leider auch viele Schaumschläger.
+In der deutschen Hauptstadt ist der Wettbewerb hart. Wer hier bei Google unter dem Suchbegriff **SEO Agentur Berlin** gefunden werden will, muss sein Handwerk verstehen. Berlin ist das Epizentrum für **SEO Marketing** in Deutschland – hier sitzen die schlauesten Köpfe, aber leider auch viele Schaumschläger.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -71,9 +71,9 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Du brauchst echte Power in Berlin?</h3>
-  <p class="mb-6">Als SEO Freelancer biete ich dir die Agilität eines Experten mit der Power eines Netzwerks. Lass uns den Berliner Markt gemeinsam dominieren.</p>
-  <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Jetzt Projekt-Anfrage senden →</a>
+  <h3 class="text-2xl font-bold mb-4">Pfusch am Bau bei deiner SEO Agentur?</h3>
+  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine Ergebnisse und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine KI-Sichtbarkeit.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zweitmeinung anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Was kostet SEO Beratung?](/glossar/seo-beratung/)

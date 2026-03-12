@@ -1,6 +1,6 @@
 ---
 title: "Core Web Vitals (CWV)"
-description: "Die Core Web Vitals sind ein essenzielles Set standardisierter Metriken von Google, die die reale User Experience (UX) einer Webseite quantifizieren. Erfahre alles über LCP, INP und CLS."
+description: "Die Core Web Vitals sind ein essenzielles Stell dir vor, du stehst vor einem Laden. Du drückst die Klinke, aber die Tür geht erst nach 5 Sekunden langsam auf. Gehst du rein? Wahrscheinlich nicht. Genau das ist **PageSpeed** (Ladezeit) für deine Website."
 date: "2026-03-10"
 image: "../../assets/images/glossar/glossar-cwv-3d.png"
 image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren von Google"
@@ -24,8 +24,6 @@ Wer mich kennt, weiß: Ich bin kein Fan von theoretischem Schnickschnack.
 Im SEO zählt am Ende, was beim Nutzer ankommt.
 Die **Core Web Vitals (CWV)** sind genau das: Ein Maß an Objektivität in einer ansonsten oft subjektiven Debatte über "schickes Design".
 
-![Core Web Vitals 3D Infografik](../../assets/images/glossar/glossar-cwv-3d.png)
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Bau lieber eine Plattform, die so gut ist, dass die Leute freiwillig auf dich verlinken."</p>
@@ -38,27 +36,6 @@ Google sieht das genauso und hat diese Metriken zum offiziellen Rankingfaktor ge
 
 Google misst Hunderte von Signalen, doch aktuell definieren drei zentrale Metriken die "Core" Experience. 
 Wenn man diese drei nicht im Griff hat, braucht man über [Entity SEO](/glossar/entity-seo/) gar nicht erst nachdenken.
-
-<div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Die CWV Schwellenwerte im Überblick</h3>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-    <div class="p-4 bg-white rounded-lg border-b-4 border-green-500 shadow-sm">
-      <div class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">LCP (Ladezeit)</div>
-      <div class="text-3xl font-black text-dark mb-1">< 2,5<span class="text-lg">s</span></div>
-      <div class="text-xs text-gray-400">Largest Contentful Paint</div>
-    </div>
-    <div class="p-4 bg-white rounded-lg border-b-4 border-green-500 shadow-sm">
-      <div class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">INP (Interaktion)</div>
-      <div class="text-3xl font-black text-dark mb-1">< 200<span class="text-lg">ms</span></div>
-      <div class="text-xs text-gray-400">Interaction to Next Paint</div>
-    </div>
-    <div class="p-4 bg-white rounded-lg border-b-4 border-green-500 shadow-sm">
-      <div class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">CLS (Stabilität)</div>
-      <div class="text-3xl font-black text-dark mb-1">< 0.1</div>
-      <div class="text-xs text-gray-400">Cumulative Layout Shift</div>
-    </div>
-  </div>
-</div>
 
 ## Warum du Felddaten (CrUX) hassen und lieben wirst
 
@@ -93,9 +70,9 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Deine Vitals sind im roten Bereich?</h3>
-  <p class="mb-6">Lass uns im Audit schauen, welche Skripte deine Seite bremsen. Ich sorge für Speed, der wirklich konvertiert.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
+  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Monitoring und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Sichtbarkeit.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [PageSpeed Optimierung Guide](/glossar/pagespeed/)

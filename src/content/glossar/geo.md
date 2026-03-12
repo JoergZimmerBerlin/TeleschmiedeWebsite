@@ -18,7 +18,10 @@ image: "../../assets/images/glossar/glossar-geo-3d.png"
 image_alt: "GEO 3D Infografik - Generative Engine Optimization Strategie"
 ---
 
-![GEO 3D Infografik](../../assets/images/glossar/glossar-geo-3d.png)
+Moin!
+
+**GEO Agentur** – ein Begriff, den vor zwei Jahren noch niemand kannte. Heute ist er die Antwort auf die wichtigste Frage im digitalen Marketing: *Wie werde ich sichtbar, wenn die Hälfte aller Suchanfragen von KI beantwortet wird?*
+
 Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die darauf abzielen, die Sichtbarkeit und Autorität von Marken, Personen oder Produkten speziell in KI-basierten Antworten und Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews systematisch zu erhöhen. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
@@ -39,9 +42,9 @@ Während die klassische Suchmaschinenoptimierung stark auf traditionelle Ranking
 
 ### Die wichtigsten Unterschiede im Überblick:
 
-1. **Vom Keyword zur Entität:** LLMs verstehen die Welt in Konzepten und Entitäten (Personen, Orte, abstrakte Fachbegriffe) und deren Beziehung zueinander, nicht als eine Anreihung von Strings (Textbausteinen).
-2. **Autorität durch Erwähnung (Citation):** Während Google beim klassischen SEO einen eingehenden Hyperlink oft als Empfehlung wertet, wertet eine KI die bloße konsistente und semantisch nah beieinanderliegende Nennung (Co-Occurrence) einer Marke im Zusammenhang mit einem Thema als Expertise.
-3. **Fokus auf Disambiguierung (Eindeutigkeit):** KI-Modelle "halluzinieren", wenn ihre Trainingsdaten widersprüchlich oder mehrdeutig sind. Es ist entscheidend, Inhalte so strukturieren, dass das Sprachmodell gar nicht erst raten muss.
+1.  **Vom Keyword zur Entität:** LLMs verstehen die Welt in Konzepten und Entitäten (Personen, Orte, abstrakte Fachbegriffe) und deren Beziehung zueinander, nicht als eine Anreihung von Strings (Textbausteinen).
+2.  **Autorität durch Erwähnung (Citation):** Während Google beim klassischen SEO einen eingehenden Hyperlink oft als Empfehlung wertet, wertet eine KI die bloße konsistente und semantisch nah beieinanderliegende Nennung (Co-Occurrence) einer Marke im Zusammenhang mit einem Thema als Expertise.
+3.  **Fokus auf Disambiguierung (Eindeutigkeit):** KI-Modelle "halluzinieren", wenn ihre Trainingsdaten widersprüchlich oder mehrdeutig sind. Es ist entscheidend, Inhalte so strukturieren, dass das Sprachmodell gar nicht erst raten muss.
 
 ## Die 3 Säulen erfolgreicher GEO
 
@@ -86,9 +89,9 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bist du bereit für die KI-Suche?</h3>
-  <p class="mb-6">Ich entwickle für dich eine GEO-Strategie, die dich in die Antworten von ChatGPT und Co. bringt. Lass uns deine Sichtbarkeit zukunftssicher machen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Check anfragen →</a>
+  <h3 class="text-2xl font-bold mb-4">Bist du in KI-Antworten sichtbar?</h3>
+  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und baue eine Strategie, die dich in Google UND in ChatGPT, Perplexity und Co. nach vorne bringt. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die SEO-Basis und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Reputation.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie anfragen →</a>
 </div>
 
 ### Lese-Tipp

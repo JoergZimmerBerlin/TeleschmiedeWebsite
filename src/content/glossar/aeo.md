@@ -1,13 +1,14 @@
 ---
 title: "AEO (Answer Engine Optimization)"
-description: "AEO optimiert deine Inhalte für Antwortmaschinen wie ChatGPT, Perplexity und Google SGE. Der Fokus liegt auf direkten, zitierfähigen Antworten statt klassischer Rankings."
-date: "2026-03-10"
+description: "AEO optimiert deine Inhalte für AntwortmaschMoin!
+
+AI SEO ist die Verschmelzung von klassischer Suchmaschinenoptimierung und künstlicher Intelligenz. Es geht einerseits darum, KI-Tools wie ChatGPT, Poe oder Midjourney zur Effizienzsteigerung zu nutzen (z.B. für Strategien und Datenanalysen), und andererseits darum, Content so zu gestalten, dass er von KI-Modellen als vertrauenswürdige Quelle eingestuft wird."
 image: "../../assets/images/glossar/glossar-aeo-3d.png"
 image_alt: "AEO 3D Infografik - Answer Engine Optimization für KI"
 related_terms: ["geo", "llmo", "geo-vs-seo", "zitierfaehiger-content"]
 key_takeaways:
   - "Paradigmenwechsel: AEO optimiert für Antworten, nicht für Rankings."
-  - "Direkte Antworten: KI-Systeme suchen Content, der Fragen präzise beantwortet."
+  - "Direkte Antworten: KI-Systeme suchen Content, der Fragen präzise beantworten."
   - "Überschneidung: AEO, GEO und LLMO sind verwandte Disziplinen mit gemeinsamen Strategien."
 faqs:
   - question: "Was ist der Unterschied zwischen AEO und GEO?"
@@ -15,14 +16,13 @@ faqs:
   - question: "Wie optimiere ich meinen Content für Answer Engines?"
     answer: "Drei Grundregeln: Erstens, beantworte Fragen direkt und präzise in den ersten zwei Sätzen – KI-Systeme extrahieren bevorzugt klare Definitionen. Zweitens, strukturiere deinen Content mit klaren H2/H3-Überschriften, die als Fragen formuliert sind. Drittens, nutze FAQ-Schema und strukturierte Daten, damit Maschinen deine Antworten identifizieren können. Bei mir ist jeder Glossar-Eintrag so aufgebaut: Definition am Anfang, FAQs mit Schema.org, klare Struktur."
   - question: "Ersetzt AEO das klassische SEO?"
-    answer: "Nein, AEO ergänzt SEO. Die klassische Google-Suche mit blauen Links wird nicht über Nacht verschwinden. Aber der Anteil der Suchanfragen, die direkt von KI beantwortet werden, wächst rapide. Wer nur SEO macht, verpasst einen wachsenden Teil des Traffics. Wer nur AEO macht, verliert die Google-Basics. Die kluge Strategie ist: SEO als Fundament, AEO und GEO als Erweiterung."
+    answer: "Nein, AEO ergänzt SEO. Die klassische Google-Suche mit blauen Links wird nicht über Nacht verschwinden. Aber der Anteil der Suchanfragen, die direkt von KI beantwortet wird, wächst rapide. Wer nur SEO macht, verpasst einen wachsenden Teil des Traffics. Wer nur AEO macht, verliert die Google-Basics. Die kluge Strategie ist: SEO als Fundament, AEO und GEO als Erweiterung."
 ---
 
 Moin!
 
 **AEO** steht für Answer Engine Optimization – und es ist die Antwort auf die größte Frage im digitalen Marketing 2026: *Wie werde ich die Quelle, die KI-Systeme zitieren?*
 
-![AEO 3D Infografik](../../assets/images/glossar/glossar-aeo-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -59,18 +59,18 @@ Schreib Sätze, die eine KI wortwörtlich zitieren kann. Klare Definitionen, Zah
   <p class="mb-0 text-sm">AEO, <a href="/glossar/geo/" class="underline text-lime-700">GEO</a> und <a href="/glossar/llmo/" class="underline text-lime-700">LLMO</a> überschneiden sich stark. AEO fokussiert auf die Content-Optimierung für Antworten. GEO umfasst die gesamte Entity-Strategie. LLMO optimiert speziell für Large Language Models. In meiner Beratung verbinde ich alle drei.</p>
 </div>
 
-## Mein Tacheles-Rat für dich
+## Jörgs Action-Plan
 
-Nimm deine 10 wichtigsten Seiten und frag dich: Beantwortet diese Seite eine konkrete Frage in den ersten 2-3 Sätzen? Wenn nicht, überarbeite sie. Füge FAQ-Schema hinzu. Formuliere klare, zitierfähige Definitionen. Nutze Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), um deine Fortschritte zu messen. Das ist AEO in seiner einfachsten Form – und es funktioniert.
+AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
 
 ALOHA ✌️
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Wirst du von KI zitiert?</h3>
-  <p class="mb-6">Ich analysiere, ob dein Content AEO-ready ist und optimiere ihn für maximale KI-Sichtbarkeit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Analyse anfragen →</a>
+  <h3 class="text-2xl font-bold mb-4">Bereit für die KI-Antworten?</h3>
+  <p class="mb-6">Ich helfe dir, deinen Content für Answer Engines zu optimieren und deine Sichtbarkeit in ChatGPT & Co. zu steigern. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hilft uns bei der Vorbereitung, [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) bei der Erfolgskontrolle.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Strategie anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [GEO verstehen](/glossar/geo/)

@@ -86,7 +86,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Technisches SEO macht dir Kopfschmerzen?</h3>
-  <p class="mb-6">Trailing Slashes, Redirects, Canonical Tags – ich bringe deine technische Basis in Ordnung, damit du dich auf Content und Strategie konzentrieren kannst.</p>
+  <p class="mb-6">Trailing Slashes, Redirects, Canonical Tags – ich bringe deine technische Basis in Ordnung. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Audit und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für die Messung deines KI-Erfolgs.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt technisches SEO-Audit anfragen →</a>
 </div>
 

@@ -22,8 +22,6 @@ Moin!
 
 Wenn du nach einem **GEO Freelancer** suchst, bist du einer der Ersten. Und genau das ist dein Vorteil.
 
-![GEO Freelancer 3D Infografik](../../assets/images/glossar/glossar-geo-freelancer-3d.png)
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist ein schöner Graph für den Quartalsbericht. Aber am Ende des Monats zählt nur, wie oft die Kasse geklingelt hat."</p>

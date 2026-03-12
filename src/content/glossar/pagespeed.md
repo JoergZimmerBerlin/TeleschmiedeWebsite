@@ -63,8 +63,6 @@ Da Google seit 2020 ausschließlich den "Mobile First Index" nutzt, ist die Desk
 
 Stell dir vor, du stehst vor einem Laden. Du drückst die Klinke, aber die Tür geht erst nach 5 Sekunden langsam auf. Gehst du rein? Wahrscheinlich nicht. Genau das ist **PageSpeed** (Ladezeit) für deine Website.
 
-![PageSpeed 3D Infografik](../../assets/images/glossar/glossar-pagespeed-3d.png)
-
 In der generativen KI-Suche ([GEO](/glossar/geo/)) spielt die Geschwindigkeit beim "Reading" der Bots eine Rolle. Wenn ein LLM-Agent versucht, deine Inhalte zu extrahieren, um sie kuratiert wiederzugeben, hat dieser Bot nur begrenzte Kapazitäten (Crawl-Budget). Langsame Seiten werden oft unvollständig ausgelesen, was dazu führt, dass deine Citations in der KI ungenau oder gar nicht erscheinen.
 
 ## Mein Tacheles-Rat für dich
@@ -79,8 +77,8 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Monitoring und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Sichtbarkeit.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Warum Core Web Vitals so wichtig sind](/glossar/core-web-vitals/)

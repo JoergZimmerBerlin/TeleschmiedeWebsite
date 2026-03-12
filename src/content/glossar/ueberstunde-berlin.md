@@ -71,9 +71,9 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Wollen wir uns mal persönlich kennenlernen?</h3>
-  <p class="mb-6">Komm zur nächsten Überstunde oder lass uns in einer digitalen Sprechstunde starten. Ich freue mich auf echten Austausch.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Kontakt aufnehmen →</a>
+  <h3 class="text-2xl font-bold mb-4">SEO-Problem nach Feierabend?</h3>
+  <p class="mb-6">Keine Sorge, ich helfe dir auch dann, wenn andere schon schlafen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern →</a>
 </div>
 
 * **Lese-Tipp:** [Lokal sichtbarer werden mit Local SEO](/glossar/local-seo/)

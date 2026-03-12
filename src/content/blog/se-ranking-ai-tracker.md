@@ -68,7 +68,7 @@ Am Ende ist es wie bei Canon vs. Nikon. Beide machen gute Fotos. Wichtig ist, DA
 
 Dass SE Ranking dieses Feature gelauncht hat, ist ein Signal an die gesamte Branche. Es normalisiert das Thema GEO (Generative Engine Optimization). Wir müssen aufhören, KI-Sichtbarkeit als "Magic Voodoo" zu betrachten. Es ist ein messbarer Kanal, genau wie Paid Search oder Organisch.
 
-Der Markt für AI Tracking Tools wird in den nächsten 12 Monaten explodieren. Ahrefs, Semrush und Sistrix werden nachziehen müssen. SE Ranking hat hier einen mutigen Schritt gemacht und ich bin gespannt, wie tief sie das Thema Sentiment-Analyse noch treiben werden. Denn zu wissen, DASS man erwähnt wird, ist toll. Zu wissen, ob die KI dich empfiehlt oder vor dir warnt, ist wichtiger.
+Der Markt für AI Tracking Tools wird in den nächsten 12 Monaten explodieren. Ahrefs, Semrush und Sistrix werden nachziehen müssen. SE Ranking hat hier einen mutigen Schritt gemacht und ich bin gespannt, wie tief sie das Thema Sentiment-Analyse noch treiben werden. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) haben wir bereits ein Tool, das spezialisierter ist, während [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) die Integration in den Arbeitsalltag meistert.
 
 ### Tacheles am Ende
 
@@ -79,11 +79,9 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
 ---
 
 <div class="blog-cta-box">
-  <h3>Lust auf den SE Ranking AI Tracker?</h3>
-  <p>Wenn du die KI-Sichtbarkeit deiner Projekte mit einem etablierten Tool messen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    SE Ranking AI Tracker testen →
-  </a>
+  <h3 class="text-2xl font-bold mb-4">Lust auf den SE Ranking AI Tracker?</h3>
+  <p class="mb-6">Hör auf, deinen Erfolg in der KI-Suche dem Zufall zu überlassen. Teste [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für deine täglichen SEO-Daten und nutze [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für das Next-Level AI-Tracking.</p>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt AI Tracker ausprobieren →</a>
 </div>
 
 ---

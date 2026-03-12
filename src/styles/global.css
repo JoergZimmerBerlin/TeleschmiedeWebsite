@@ -89,3 +89,53 @@
     }
   }
 }
+
+/* --- Premium Table & Comparison Styling --- */
+.blog-content table {
+  @apply w-full mb-12 border-collapse overflow-hidden rounded-2xl shadow-sm border border-gray-100 !important;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+.blog-content thead {
+  @apply bg-dark text-white text-left !important;
+}
+
+.blog-content th {
+  @apply px-6 py-4 font-bold text-sm uppercase tracking-wider border-none !important;
+  background: linear-gradient(135deg, #1A1A1A 0%, #333 100%);
+}
+
+.blog-content td {
+  @apply px-6 py-4 text-gray-text border-b border-gray-50 transition-colors !important;
+}
+
+.blog-content tr:last-child td {
+  @apply border-b-0 !important;
+}
+
+.blog-content tr {
+  @apply transition-all duration-200 !important;
+}
+
+.blog-content tr:hover {
+  background-color: rgba(212, 255, 0, 0.05);
+}
+
+.blog-content tr:hover td {
+  @apply text-dark !important;
+}
+
+/* Specific styling for bold text in the first column */
+.blog-content td:first-child strong,
+.blog-content td:first-child b {
+  @apply text-lime-600 !important;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .blog-content table {
+    @apply block overflow-x-auto whitespace-nowrap !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}

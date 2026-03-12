@@ -85,41 +85,51 @@ async function fetchWithTimeout(url, timeoutMs = 10_000) {
 // Interne Links extrahieren
 // ---------------------------------------------------------------------------
 
-function extractInternalLinks(html, baseUrl) {
+function extractLinksAndAssets(html, baseUrl) {
   const links = new Set();
-  const regex = /href=["']([^"'#]+?)["']/g;
+  const assets = new Set();
+  
+  // Extract <a> hrefs
+  const hrefRegex = /href=["']([^"'#\s]+?)["']/g;
   let match;
-
-  while ((match = regex.exec(html)) !== null) {
+  while ((match = hrefRegex.exec(html)) !== null) {
     let href = match[1].trim();
-
-    // Skip: externe, mailto, tel, javascript, unaufgeloeste Template-Literals
     if (/^(mailto:|tel:|javascript:)/.test(href)) continue;
     if (href.includes("${")) continue;
     if (href.startsWith("http") && !href.startsWith(baseUrl)) continue;
 
-    // Relative → absolute
     if (href.startsWith("/")) {
       href = baseUrl + href;
     } else if (!href.startsWith("http")) {
       continue;
     }
 
-    // Query + Fragment entfernen
     href = href.split("?")[0].split("#")[0];
-
-    // Assets ueberspringen
-    if (/\.(css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|eot|pdf|xml|txt|json|map)$/i.test(href)) {
-      continue;
+    
+    // Distinguish between pages and binary assets
+    if (/\.(png|jpe?g|gif|svg|webp|ico|pdf|xml|txt|json)$/i.test(href)) {
+      assets.add(href);
+    } else if (!/\.(css|js|map)$/i.test(href)) {
+      if (!href.endsWith("/")) href += "/";
+      links.add(href);
     }
-
-    // Trailing Slash normalisieren (Astro: trailingSlash: 'always')
-    if (!href.endsWith("/")) href += "/";
-
-    links.add(href);
   }
 
-  return links;
+  // Extract <img> srcs
+  const srcRegex = /src=["']([^"'\s]+?)["']/g;
+  while ((match = srcRegex.exec(html)) !== null) {
+    let src = match[1].trim();
+    if (src.startsWith("data:")) continue;
+    if (src.startsWith("/")) {
+      src = baseUrl + src;
+    } else if (!src.startsWith("http")) {
+      continue;
+    }
+    src = src.split("?")[0].split("#")[0];
+    assets.add(src);
+  }
+
+  return { links, assets };
 }
 
 // ---------------------------------------------------------------------------
@@ -130,22 +140,52 @@ async function main() {
   const siteUrl = getSiteUrl();
   console.log(`\n  Link-Check: ${siteUrl}\n`);
 
-  const visited = new Set();
-  const queue = [siteUrl + "/"];
-  const results = [];
+  // Initial delay for deployment propagation
+  const INITIAL_WAIT = 15_000;
+  console.log(`Warte ${INITIAL_WAIT/1000}s auf Propagation...`);
+  await new Promise(r => setTimeout(r, INITIAL_WAIT));
+
+  let visited = new Set();
+  let queue = [siteUrl + "/"];
+  let results = [];
+  let retryCount = 0;
+  const MAX_RETRIES = 2;
 
   while (queue.length > 0) {
     const url = queue.shift();
     if (visited.has(url)) continue;
     visited.add(url);
 
-    const result = await fetchWithTimeout(url);
+    let result = await fetchWithTimeout(url);
+    
+    if (!result.ok && retryCount < MAX_RETRIES) {
+      console.log(`Warnung: Fetch fehlgeschlagen fuer ${url}. Retry ${retryCount+1}/2 in 5s...`);
+      await new Promise(r => setTimeout(r, 5000));
+      result = await fetchWithTimeout(url);
+    }
+
     results.push(result);
 
-    // Neue interne Links aus erfolgreichen Seiten sammeln
     if (result.ok && result.html) {
-      for (const link of extractInternalLinks(result.html, siteUrl)) {
+      const { links, assets } = extractLinksAndAssets(result.html, siteUrl);
+      
+      // Add pages to crawl queue
+      for (const link of links) {
         if (!visited.has(link)) queue.push(link);
+      }
+      
+      // Check assets (but don't crawl them)
+      for (const asset of assets) {
+        if (!visited.has(asset)) {
+          visited.add(asset);
+          let assetRes = await fetchWithTimeout(asset);
+          if (!assetRes.ok) {
+             // Retry asset too
+             await new Promise(r => setTimeout(r, 2000));
+             assetRes = await fetchWithTimeout(asset);
+          }
+          results.push(assetRes);
+        }
       }
     }
   }

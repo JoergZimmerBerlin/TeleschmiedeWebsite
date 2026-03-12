@@ -35,7 +35,7 @@ Das Szenario, das in meiner [SEO-Sprechstunde](/seo-sprechstunde/) auf dem Tisch
 
 Und dann, zwei Wochen nach Launch, wenn die Umsatzkurve ins Bodenlose sinkt, kommt der panische Anruf:
 
-> *"Hallo Herr Zimmer, wir haben unsere komplett neue Website live. Sie können jetzt Ihren SEO-Zauber starten und uns wieder auf Platz 1 bringen!"*
+> *"Hallo Herr Zimmer, wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysiere ich deine historischen Daten und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist. Dann können wir dich wieder auf Platz 1 bringen!"*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -73,12 +73,18 @@ Ein guter SEO-Experte verdoppelt nicht euer Design-Budget. Er rettet es davor, a
 
 Für einen sicheren Relaunch brauche ich drei Dinge von euch:
 
-1. **Vollständiges URL-Mapping** aller alten auf alle neuen Seiten – vor dem Launch-Tag
-2. **Staging-Umgebung** mit demselben Setup wie Live, damit wir testen können
-3. **48-Stunden-Monitoring** nach Launch via Google Search Console – in Echtzeit
+1.  **Vollständiges URL-Mapping** aller alten auf alle neuen Seiten – vor dem Launch-Tag
+2.  **Staging-Umgebung** mit demselben Setup wie Live, damit wir testen können
+3.  **48-Stunden-Monitoring** nach Launch via Google Search Console – in Echtzeit
 
 Das klingt nach mehr Arbeit? Es ist weniger Arbeit als ein nachträglicher Recovery-Prozess, der wenn durchschnittlich 3-6 Monate dauert – wenn er überhaupt erfolgreich endet.
 
 Wie lief euer letzter Relaunch? War der SEO-Experte von Tag 1 an Bord oder erst, als es brannte?
 
 ALOHA! 🌻✌️
+
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Bereit für den SEO-Check?</h3>
+  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen →</a>
+</div>

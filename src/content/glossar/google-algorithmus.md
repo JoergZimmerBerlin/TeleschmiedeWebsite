@@ -68,7 +68,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hat ein Google Update dich getroffen?</h3>
-  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich nicht nur zurückbringt, sondern langfristig absichert.</p>
+  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich langfristig absichert. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hilft uns bei der Datenanalyse, [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) bei der Prognose deiner KI-Sichtbarkeit.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Update-Analyse anfragen →</a>
 </div>
 

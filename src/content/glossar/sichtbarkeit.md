@@ -39,10 +39,10 @@ SEO 2026 ist kein Tunnelblick mehr auf eine blaue Link-Liste.
 Echte Sichtbarkeit bedeutet, den gesamten "Suchraum" zu besetzen.
 Hier geht es um die Dominanz deiner [Entität](/glossar/entitaet/) über verschiedene Kanäle hinweg.
 
-*   **Organische Ergebnisse:** Die klassischen Top 10, die immer noch das Fundament bilden.
+*   **Organische Ergebnisse:** Die klassischen Top 10, die immer noch das Fundament bilden. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das tägliche Performance-Tracking.
 *   **Featured Snippets:** Die "Position Null", die sofort Vertrauen aufbaut.
 *   **Video-Snippets:** Präsenz auf YouTube, die direkt in der Google-Suche ausgespielt wird.
-*   **KI-Antworten (GEO):** Zitiert werden von Large Language Models wie Perplexity oder ChatGPT.
+*   **KI-Antworten (GEO):** Zitiert werden von Large Language Models wie Perplexity oder ChatGPT. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir diese neue Sichtbarkeit.
 *   **Local Pack:** Sichtbar sein in Google Maps, besonders wichtig für regionale Relevanz ([Local SEO](/glossar/local-seo/)).
 
 ## Warum reine Klickzahlen often lügen
@@ -108,7 +108,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du für deine Kunden unsichtbar?</h3>
-  <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dort hin, wo die Aufmerksamkeit deiner Zielgruppe ist. Lass uns deine Marktanteile sichern.</p>
+  <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dorthin, wo deine Zielgruppe sucht. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für die KI-Präsenz sichern wir deine Marktanteile.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
 </div>
 

@@ -22,8 +22,6 @@ Moin!
 
 Eine **Sitemap** ist im Grunde die „Inhaltsangabe" deiner Website für Google. Ohne sie müsste der Googlebot jede einzelne Seite mühsam über interne Links finden. Das dauert nicht nur länger, sondern führt bei großen Seiten oft dazu, dass wichtige Inhalte gar nicht erst im Index landen.
 
-![Sitemap 3D Infografik](../../assets/images/glossar/glossar-sitemap-3d.png)
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Eine Website ohne klare Hierarchie und interne Verlinkung ist wie ein Supermarkt ohne Wegweiser."</p>
@@ -79,7 +77,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Probleme mit der Indexierung?</h3>
-  <p class="mb-6">Lass uns in einer SEO-Sprechstunde prüfen, ob deine Sitemap Google in die Irre führt oder dein Crawl-Budget verschwendet wird.</p>
+  <p class="mb-6">Lass uns in einer SEO-Sprechstunde prüfen, ob deine Sitemap Google in die Irre führt. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine Struktur und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) prüfen wir deine KI-Findbarkeit.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sprechstunde anfragen →</a>
 </div>
 

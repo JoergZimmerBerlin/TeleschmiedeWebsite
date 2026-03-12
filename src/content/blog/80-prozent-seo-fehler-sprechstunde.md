@@ -39,9 +39,7 @@ Weil irgendwo im Getriebe ein Sandkorn klebt.
 
 ## Die Top 5 Sünden: Was ich wirklich finde
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. 
-
-Hier ist das Protokoll der häufigsten Abgründe:
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten-Analyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ### 1. Der technische Friedhof
 
@@ -129,9 +127,9 @@ Bist du bereit, deine Seite mal so richtig grillen zu lassen?
 ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
-  <h3 class="!mt-0">Lass uns deine Website "grillen"!</h3>
-  <p>Du willst wissen, ob du auch in die 80%-Falle getappt bist? In meiner SEO-Sprechstunde analysiere ich deine Seite live und finde die Fehler, bevor sie dich dein Ranking kosten.</p>
-  <a href="/seo-sprechstunde/">Jetzt Analyse-Termin sichern →</a>
+  <h3 class="text-2xl font-bold mb-4">Lass uns deine Website "grillen"!</h3>
+  <p class="mb-6">Du willst wissen, ob du auch in die 80%-Falle getappt bist? In meiner SEO-Sprechstunde analysiere ich deine Seite live. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine Zukunftssicherheit.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Analyse-Termin sichern →</a>
 </div>
 
 ---

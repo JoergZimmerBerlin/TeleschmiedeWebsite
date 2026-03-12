@@ -115,7 +115,7 @@ Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment
 
 ## Das Ergebnis: Ein digitales Rennauto
 
-Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Das gibt mir die Sicherheit, dass jeder Euro, den ich in Content stecke, auf ein perfektes Fundament trifft.
+Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und prüfen mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
 
 ## Was kostet so eine High-Performance-Website?
 
@@ -123,7 +123,11 @@ Du fragst dich jetzt sicher: "Jörg, was muss ich auf den Tisch legen für so ei
 
 Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Performance willst, musst du ins Tuning investieren. Eine Seite wie diese, mit ca. 20 Unterseiten und optimiertem LinkedIn-Content, ist bei befreundeten Developern ab ca. 1.000 € machbar. Wenn du allerdings ein komplexes Design oder hunderte Produkte hast, steigt der Aufwand natürlich.
 
-**Interesse?** Wenn du auch eine Seite willst, die deine Konkurrenz im Rückspiegel stehen lässt: [Meld dich bei mir!](/kontakt/) Ich vermittle dich an die Leute, die das Handwerk so beherrschen wie ich das SEO.
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Willst du auch ein digitales Rennauto?</h3>
+  <p class="mb-6">Ich helfe dir, deine Website technisch auf Weltklasse-Niveau zu heben. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) decken wir Performance-Fresser auf und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine Zukunft in der Google-Suche.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Performance-Check anfragen →</a>
+</div>
 
 ---
 

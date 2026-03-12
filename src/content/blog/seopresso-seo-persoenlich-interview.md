@@ -121,5 +121,11 @@ Es ist ein ehrliches **"How-to-Survive-SEO"**.
 
 ALOHA! 🌻✌️
 
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Willst du den Menschen hinter den Daten?</h3>
+  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Analyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Sichtbarkeit.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen →</a>
+</div>
+
 * **Lese-Tipp:** [24 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
 * **Lese-Tipp:** [SEO-Sprechstunde: So läuft der Prozess ab](/blog/seo-sprechstunde-so-laeuft-sie-ab/)

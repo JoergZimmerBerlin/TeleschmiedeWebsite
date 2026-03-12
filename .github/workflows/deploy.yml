@@ -6,13 +6,20 @@ on:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -39,9 +46,20 @@ jobs:
           options: '--verbose'
 
       - name: Wait for deployment propagation
-        run: sleep 30
+        run: node scripts/wait-for-live.mjs https://teleschmie.de
 
       - name: Post-Deploy Link-Check
-        run: node scripts/check-links.mjs
+        run: |
+          for i in {1..3}; do
+            node scripts/check-links.mjs && break || {
+              if [ $i -lt 3 ]; then
+                echo "Link check failed. Retrying in 30s ($i/3)..."
+                sleep 30
+              else
+                echo "Link check failed after 3 attempts."
+                exit 1
+              fi
+            }
+          done
         env:
           SITE_URL: https://teleschmie.de

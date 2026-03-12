@@ -20,9 +20,7 @@ faqs:
 
 Moin!
 
-Wenn wir über **SEO Optimierung** sprechen, meinen die meisten nur das "Einbauen von Keywords". Aber modernes, **professionelles SEO** ist ein komplexes Zusammenspiel aus drei Disziplinen, die perfekt aufeinander abgestimmt sein müssen. Wer eine dieser Säulen ignoriert, lässt bares Geld auf der Straße liegen.
-
-![Technisches SEO 3D Infografik](../../assets/images/glossar/glossar-tech-seo-3d.png)
+Wenn wir über **SEO Optimierung** sprechen, meinen die meisten nur das "Einbauen von Keywords". Aber modernes, **professionelles SEO** ist ein komplexes Zusammenspiel aus drei Disziplinen, die perfekt aufeinander abgestimmt sein müssen. Wer eine dieser Säuren ignoriert, lässt bares Geld auf der Straße liegen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -76,9 +74,9 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Brauchst du ein SEO-Fundament?</h3>
-  <p class="mb-6">Lass uns in einer SEO-Analyse schauen, welche deiner Säulen gerade wackelt. Ich helfe dir, eine Strategie zu schmieden, die wirklich hält.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check buchen →</a>
+  <h3 class="text-2xl font-bold mb-4">Deine Seite wird ignoriert?</h3>
+  <p class="mb-6">Ich prüfe dein Crawl-Budget und sorge dafür, dass der Googlebot deine besten Inhalte zuerst findet. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) optimieren wir deinen Zugang für Mensch und KI.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Warum WordPress SEO so mächtig ist](/glossar/wordpress-seo/)

@@ -20,9 +20,7 @@ faqs:
 
 Moin!
 
-**Expertise** ist der E-E-A-T Faktor, der über Sein oder Nicht-Sein entscheidet – besonders bei sensiblen Themen. Google fragt: *Weiß der Autor wirklich, wovon er spricht?*
-
-![Expertise 3D Infografik](../../assets/images/glossar/glossar-expertise-3d.png)
+Expertise ist der E-E-A-T Faktor, der über Sein oder Nicht-Sein entscheidet – besonders bei sensiblen Themen. Google fragt: *Weiß der Autor wirklich, wovon er spricht?*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

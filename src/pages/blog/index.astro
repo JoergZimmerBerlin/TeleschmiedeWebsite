@@ -129,6 +129,7 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
               /* Featured Post Layout */
               <a href={`${baseUrl}/blog/${post.slug}/`} class="featured-link flex flex-col lg:flex-row gap-0 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-lg hover:border-lime-accent transition-all duration-300 group">
                 <div class="lg:w-1/2 overflow-hidden">
+                  {post.data.image && (
                     <Image
                       src={post.data.image}
                       alt={post.data.image_alt || post.data.title}
@@ -139,6 +140,7 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
                       loading="eager"
                       fetchpriority="high"
                     />
+                  )}
                 </div>
                 <div class="lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                   <div class="flex items-center gap-3 mb-4">

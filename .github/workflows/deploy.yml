@@ -11,10 +11,29 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint content and code
+        run: npm run lint
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -44,6 +63,37 @@ jobs:
           localDir: './dist'
           remoteDir: '.'
           options: '--verbose'
+
+      # Upload build.txt artifact for the verification job
+      - name: Upload build ID
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-info
+          path: dist/build.txt
+          retention-days: 1
+
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download build ID
+        uses: actions/download-artifact@v4
+        with:
+          name: build-info
+          path: dist
 
       - name: Wait for deployment propagation
         run: node scripts/wait-for-live.mjs https://teleschmie.de

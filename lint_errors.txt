@@ -1,0 +1,202 @@
+
+> teleschmie-de@1.0.0 lint
+> astro check
+
+18:22:06 [types] Generated 494ms
+18:22:06 [check] Getting diagnostics for Astro files in /Users/jorti/Documents/Antigravity...
+[96mscrape_linkedin.cjs[0m:[93m38[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'mainDiv' is declared but its value is never read.
+
+[7m38[0m                 const mainDiv = document.querySelector('main') || document.body;
+[7m  [0m [93m                      ~~~~~~~[0m
+
+[96mscripts/add_internal_links.js[0m:[93m1[0m:[93m12[0m - [93mwarning[0m[90m ts(80001): [0mFile is a CommonJS module; it may be converted to an ES module.
+
+[7m1[0m const fs = require('fs');
+[7m [0m [93m           ~~~~~~~~~~~~~[0m
+
+[96msrc/components/FAQAccordion.astro[0m:[93m19[0m:[93m21[0m - [93mwarning[0m[90m ts(6133): [0m'index' is declared but its value is never read.
+
+[7m19[0m     {faqs.map((faq, index) => (
+[7m  [0m [93m                    ~~~~~[0m
+
+[96msrc/pages/datenschutz.astro[0m:[93m5[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'baseUrl' is declared but its value is never read.
+
+[7m5[0m const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+[7m [0m [93m      ~~~~~~~[0m
+
+[96msrc/pages/freelancer-team.astro[0m:[93m198[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m198[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/google-ads-freelancer-berlin.astro[0m:[93m8[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'joergCTA' is declared but its value is never read.
+
+[7m8[0m import joergCTA from '../assets/images/profile/joerg-zimmer-cta.webp';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/pages/google-ads-freelancer-berlin.astro[0m:[93m348[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m348[0m <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m        ~~~~[0m
+
+[96msrc/pages/groundingpage-en.astro[0m:[93m202[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m202[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/groundingpage.astro[0m:[93m201[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m201[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/impressum.astro[0m:[93m5[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'baseUrl' is declared but its value is never read.
+
+[7m5[0m const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+[7m [0m [93m      ~~~~~~~[0m
+
+[96msrc/pages/index.astro[0m:[93m88[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m88[0m <script type="application/ld+json" set:html={JSON.stringify({
+[7m  [0m [93m        ~~~~[0m
+
+[96msrc/pages/leistungen.astro[0m:[93m223[0m:[93m95[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m223[0m                   <p class:list={["text-xs font-bold uppercase tracking-widest mb-1", service.isDark ? "text-gray-400" : "text-gray-muted"]}>
+[7m   [0m [91m                                                                                              ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m211[0m:[93m33[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; isPopular?: undefined; isDark?: undefined; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m211[0m                         service.isDark ? "text-lime-400 decoration-lime-400/30 hover:decoration-lime-400" : "text-dark decoration-lime-accent/50 hover:decoration-lime-accent"
+[7m   [0m [91m                                ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m201[0m:[93m46[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m201[0m                         <span class={service.isDark ? "text-gray-300" : "text-gray-600"}>{bullet}</span>
+[7m   [0m [91m                                             ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m193[0m:[93m37[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m193[0m                             service.isDark ? "text-lime-400" : "text-lime-600"
+[7m   [0m [91m                                    ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m182[0m:[93m31[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m182[0m                       service.isDark ? "text-gray-300" : "text-gray-600"
+[7m   [0m [91m                              ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m178[0m:[93m102[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m178[0m                   <h3 class:list={["text-2xl font-bold mb-4 transition-colors duration-300", service.isDark ? "group-hover:text-lime-400" : "group-hover:text-lime-600"]}>{service.title}</h3>
+[7m   [0m [91m                                                                                                     ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m170[0m:[93m24[0m - [91merror[0m[90m ts(2339): [0mProperty 'isPopular' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isPopular' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m170[0m               {service.isPopular && (
+[7m   [0m [91m                       ~~~~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m167[0m:[93m25[0m - [91merror[0m[90m ts(2339): [0mProperty 'isPopular' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isPopular' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m167[0m                 service.isPopular ? "border-2 border-lime-accent shadow-lg" : ""
+[7m   [0m [91m                        ~~~~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m166[0m:[93m25[0m - [91merror[0m[90m ts(2339): [0mProperty 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; } | { title: string; price: string; unit: string; description: string; bullets: string[]; link?: undefined; linkText?: undefined; } | { ...; } | { ...; } | { ...; }'.
+  Property 'isDark' does not exist on type '{ title: string; price: string; unit: string; description: string; bullets: string[]; link: string; linkText: string; }'.
+
+[7m166[0m                 service.isDark ? "bg-dark text-white border-gray-800 shadow-2xl" : "bg-white border-gray-100 hover:shadow-xl",
+[7m   [0m [91m                        ~~~~~~[0m
+[96msrc/pages/leistungen.astro[0m:[93m279[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m279[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/seo-freelancer-berlin.astro[0m:[93m8[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'joergCTA' is declared but its value is never read.
+
+[7m8[0m import joergCTA from '../assets/images/profile/joerg-zimmer-cta.webp';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/pages/seo-freelancer-berlin.astro[0m:[93m357[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m357[0m <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m        ~~~~[0m
+
+[96msrc/pages/seo-sprechstunde.astro[0m:[93m413[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m413[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/ueber-mich.astro[0m:[93m272[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m272[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/blog/[slug].astro[0m:[93m35[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'shareTitle' is declared but its value is never read.
+
+[7m35[0m const shareTitle = encodeURIComponent(post.data.title);
+[7m  [0m [93m      ~~~~~~~~~~[0m
+[96msrc/pages/blog/[slug].astro[0m:[93m34[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'shareUrl' is declared but its value is never read.
+
+[7m34[0m const shareUrl = `https://teleschmie.de/blog/${post.slug}/`;
+[7m  [0m [93m      ~~~~~~~~[0m
+[96msrc/pages/blog/[slug].astro[0m:[93m333[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m333[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+[96msrc/pages/blog/index.astro[0m:[93m133[0m:[93m23[0m - [91merror[0m[90m ts(2322): [0mType '{ height: number; width: number; src: string; format: "svg" | "avif" | "png" | "webp" | "jpeg" | "jpg" | "tiff" | "gif"; } | undefined' is not assignable to type 'string | ImageMetadata | Promise<{ default: ImageMetadata; }>'.
+  Type 'undefined' is not assignable to type 'string | ImageMetadata | Promise<{ default: ImageMetadata; }>'.
+
+[7m133[0m                       src={post.data.image}
+[7m   [0m [91m                      ~~~[0m
+
+[96msrc/pages/glossar/[slug].astro[0m:[93m207[0m:[93m11[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m207[0m   <script type="application/ld+json" set:html={JSON.stringify({
+[7m   [0m [93m          ~~~~[0m
+
+Result (49 files): 
+- 10 errors
+- 0 warnings
+- 20 hints
+

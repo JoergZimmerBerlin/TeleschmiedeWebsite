@@ -34,6 +34,7 @@ const glossar = defineCollection({
     description: z.string(),
     date: z.string(),
     image: image().optional(),
+    image_alt: z.string().optional(),
     related_terms: z.array(z.string()).optional(),
     key_takeaways: z.array(z.string()).optional(),
     faqs: z.array(z.object({

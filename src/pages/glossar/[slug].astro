@@ -160,16 +160,7 @@ const relatedTerms = allEntries.filter((e) =>
         </div>
       )}
 
-      <!-- Back to Top Button -->
-      <button 
-        id="back-to-top" 
-        class="fixed bottom-8 right-8 w-12 h-12 bg-white border border-gray-100 text-dark rounded-full shadow-lg flex items-center justify-center opacity-0 translate-y-4 pointer-events-none transition-all duration-300 hover:bg-lime-accent hover:border-lime-accent group z-40"
-        aria-label="Nach oben scrollen"
-      >
-        <svg class="w-6 h-6 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
-        </svg>
-      </button>
+
 
       <!-- Author Box -->
       <footer class="mt-20 pt-12 border-t border-gray-100">
@@ -208,29 +199,7 @@ const relatedTerms = allEntries.filter((e) =>
         </div>
       </footer>
 
-      <script>
-        document.addEventListener('astro:page-load', () => {
-          const updateScrollingUI = () => {
-            const backToTop = document.getElementById('back-to-top');
-            if (!backToTop) return;
 
-            if (window.scrollY > 500) {
-              backToTop.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
-              backToTop.classList.add('opacity-100', 'translate-y-0');
-            } else {
-              backToTop.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
-              backToTop.classList.remove('opacity-100', 'translate-y-0');
-            }
-          };
-
-          document.getElementById('back-to-top')?.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          });
-
-          window.addEventListener('scroll', updateScrollingUI);
-          updateScrollingUI();
-        });
-      </script>
     </div>
   </article>
 

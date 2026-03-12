@@ -3,6 +3,7 @@ title: "Was kann man in 2 Stunden SEO schon erreichen? (Spoiler: Eine ganze Meng
 description: "Können 2 Stunden SEO-Beratung wirklich den Unterschied machen? Ein Case Study über Indexierung, schnelle Fixes und enorme Sichtbarkeit."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_was-kann-man-in-2-stunden-seo-schon-erreichen-activity-7274003504106090496-e2hS"
+image: "../../assets/images/blog/linkedin_2-stunden-seo.webp"
 image_alt: "Search Console Graph mit starkem Aufwärtstrend in der SEO Sprechstunde"
 key_takeaways:
   - "Technische Blockaden lösen bringt sofortige Ergebnisse."

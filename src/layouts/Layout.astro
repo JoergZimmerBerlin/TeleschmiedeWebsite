@@ -106,7 +106,8 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
     <Footer />
 
 <script is:inline>
-  const updateProgress = () => {
+      let ticking = false;
+      const updateProgress = () => {
         const progressBar = document.getElementById('progress-bar');
         if (!progressBar) return;
 
@@ -116,23 +117,29 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
         let progress = 0;
 
         if (content) {
-          // Refined reading logic for blog posts
           const totalHeight = content.offsetHeight;
           const contentTop = content.offsetTop;
           progress = ((scrollPos - contentTop + windowHeight / 2) / totalHeight) * 100;
         } else {
-          // Fallback logic for normal pages
           const totalHeight = document.documentElement.scrollHeight - windowHeight;
           progress = totalHeight > 0 ? (scrollPos / totalHeight) * 100 : 0;
         }
 
         progress = Math.max(0, Math.min(100, progress));
         progressBar.style.width = `${progress}%`;
+        ticking = false;
+      };
+
+      const requestTick = () => {
+        if (!ticking) {
+          requestAnimationFrame(updateProgress);
+          ticking = true;
+        }
       };
 
       document.addEventListener('astro:page-load', () => {
-        window.addEventListener('scroll', updateProgress);
-        window.addEventListener('resize', updateProgress);
+        window.addEventListener('scroll', requestTick);
+        window.addEventListener('resize', requestTick);
         updateProgress();
       });
     </script>

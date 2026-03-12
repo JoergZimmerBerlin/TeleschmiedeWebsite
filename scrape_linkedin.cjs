@@ -10,7 +10,7 @@ const urls = [
     { id: "seo-feuerwehr-rettung", url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-liebe-es-wenn-ein-plan-funktioniert-activity-7301646738480300032-QvI_" }, // using same A-Team one for feuerwehr per earlier context
     { id: "campixx-seo-agentur-umfrage", url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-bin-gerade-auf-der-campixx-eine-frage-ugcPost-7339011979937738753-L6pW" },
     { id: "ai-geo-sichtbarkeit-umfrage", url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_sichtbarkeit-in-kimodellen-optimieren-wie-ugcPost-7413982210355089408-Eh4y" },
-    { id: "schema-markup-zustaendigkeit-umfrage", url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-wer-ist-f%C3%BCr-die-einrichtung-der-ugcPost-7375810636775071744-L5_O" }
+    { id: "google-search-console-zustaendigkeit-umfrage", url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-wer-ist-f%C3%BCr-die-einrichtung-der-ugcPost-7375810636775071744-L5_O" }
 ];
 
 async function scrapePost(page, item) {

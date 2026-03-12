@@ -22,7 +22,8 @@ export default defineConfig({
     remotePatterns: [{ protocol: 'https', hostname: 'i.ytimg.com' }],
   },
   redirects: {
-    '/leistungen/sechstunde/': '/seo-sprechstunde/'
+    '/leistungen/sechstunde/': '/seo-sprechstunde/',
+    '/blog/schema-markup-zustaendigkeit-umfrage/': '/blog/google-search-console-zustaendigkeit-umfrage/'
   },
   prefetch: true,
   output: 'static',

@@ -26,7 +26,7 @@ Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelance
 
 In meiner täglichen Arbeit muss ich ständig Indexierungs-Blockaden beheben: Seiten, die als "Gecrawlt, aber nicht indexiert" gemeldet werden, oder Kunden, die sich unbewusst selbst blockieren – sei es durch ein vergessenes noindex-Tag vom Relaunch oder eine falsch konfigurierte robots.txt. Die meisten wollen indexiert werden, wissen aber nicht, dass sie sich selbst im Weg stehen.
 
-Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
+Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du deine Indexierung und AI-Sichtbarkeit im Auge behalten. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
 
 ---
 
@@ -87,7 +87,7 @@ Wie soll der Indexer das Buch jetzt aktualisieren und die Seite aus seinen Suche
 
 Man sperrt den Bot logischerweise rigoros **aus** und friert damit den fehlerhaften Zustand im Google-Index permanent **ein**. Die Folge: Man rankt oft für Monate fehlerhaft weiter, und Tools wie [Sistrix schlagen im Sichtbarkeitsindex Alarm](/blog/sistrix-vs-se-ranking/).
 
-Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament einer robusten Online-Reputation ab der ersten Zeile Code.
+Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament einer robusten Online-Reputation ab der ersten Zeile Code. Nutze Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um Indexierungsfehler frühzeitig zu erkennen.
 
 ## Dein nächster Schritt
 
@@ -105,3 +105,5 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Alles über die Robots.txt](/glossar/robots-txt/)
 * **Lese-Tipp:** [Was ist Linkjuice?](/glossar/linkjuice/)
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* **Lese-Tipp:** [Sitemap Optimierung](/glossar/sitemap/)

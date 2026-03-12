@@ -71,10 +71,17 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
+  <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen →</a>
+</div>
+
+<div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du suchst nach den falschen Keywords?</h3>
-  <p class="mb-6">Ich nutze Profi-Tools wie SE Ranking und Sistrix, um für dich die echten Goldstücke in deiner Nische zu finden. Lass uns deine Strategie mit validen Daten schärfen.</p>
+  <p class="mb-6">Ich unterstütze dich dabei, die echten Goldstücke in deiner Nische zu finden. Lass uns deine Strategie mit validen Daten schärfen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Analyse anfragen →</a>
 </div>
 
 * **Lese-Tipp:** [Warum die Suchintention zählt](/glossar/keywordrecherche/)
 * **Lese-Tipp:** [Was ist der CPC?](/glossar/cpc/)
+* **Lese-Tipp:** [Suchvolumen verstehen](/glossar/suchvolumen/)

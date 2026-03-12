@@ -11,14 +11,14 @@ faqs:
   - question: "Was ist der gravierendste Unterschied zwischen klassischem SEO und GEO?"
     answer: "Klassisches SEO optimiert primär für Algorithmen, die Webseiten nach Links und Keyword-Relevanz bewerten und sortenrein auflisten (die '10 blauen Links'). GEO hingegen optimiert für komplexe Large Language Models (LLMs), die Milliarden von Trainingstexten synthetisieren, um dem Nutzer sofort eine fundierte, natürliche Antwort zu generieren. Im GEO bist du nicht mehr nur die URL, die gerankt wird, sondern du musst zwingend die 'Entität' werden, die von der KI als unumstößliche Tatsache zitiert wird."
   - question: "Lässt sich GEO-Sichtbarkeit überhaupt schon verlässlich messen?"
-    answer: "Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie Rankscale, das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt."
+    answer: "Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt."
   - question: "Sind Backlinks auch für Generative Engine Optimization noch relevant?"
     answer: "Sie haben weiterhin Relevanz, allerdings fungieren sie heute viel indirekter – nämlich als klares Trust-Signal (Reputation) an das KI-System. Moderne LLMs werten beim Web-Crawling primär die Textsemantik und sogenannte Brand Mentions (Erwähnungen deines Namens, auch ohne gesetzten Link) in autoritätsstarken Umfeldern aus. Ein rein auf Masse gebautes Backlink-Profil verliert in der GEO-Logik drastisch an Hebelwirkung."
-image: "../../assets/images/blog/glossar-ai-geo.png"
-image_alt: "AI GEO & LLMO Infografik - Die Zukunft der Suche"
+image: "../../assets/images/glossar/glossar-geo-3d.png"
+image_alt: "GEO 3D Infografik - Generative Engine Optimization Strategie"
 ---
 
-![AI GEO & LLMO Infografik](../../assets/images/blog/glossar-ai-geo.png)
+![GEO 3D Infografik](../../assets/images/glossar/glossar-geo-3d.png)
 Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die darauf abzielen, die Sichtbarkeit und Autorität von Marken, Personen oder Produkten speziell in KI-basierten Antworten und Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews systematisch zu erhöhen. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
@@ -94,3 +94,4 @@ ALOHA ✌️
 ### Lese-Tipp
 * **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
 * **Lese-Tipp:** [LLMs verstehen](/glossar/llmo/)
+* **Lese-Tipp:** [Was ist AEO?](/glossar/aeo/)

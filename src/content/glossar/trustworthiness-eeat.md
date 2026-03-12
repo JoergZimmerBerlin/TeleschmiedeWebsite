@@ -2,7 +2,8 @@
 title: "Trustworthiness (E-E-A-T Faktor)"
 description: "Trustworthiness (Vertrauenswürdigkeit) ist der zentrale E-E-A-T Faktor. Google sagt selbst: Ohne Trust sind Experience, Expertise und Authority wertlos."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-trust-3d.png"
+image_alt: "Trustworthiness (E-E-A-T) 3D Infografik - Vertrauen als Basis der Suchmaschinenoptimierung"
 related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativeness-eeat"]
 key_takeaways:
   - "Kern-Faktor: Trustworthiness steht im Zentrum von E-E-A-T – alle anderen Faktoren bauen darauf auf."
@@ -20,6 +21,8 @@ faqs:
 Moin!
 
 **Trustworthiness** (Vertrauenswürdigkeit) ist nicht einfach nur ein weiterer [E-E-A-T](/glossar/e-e-a-t/) Faktor. Er ist DER zentrale Faktor, um den sich alles dreht.
+
+![Trustworthiness 3D Infografik](../../assets/images/glossar/glossar-trust-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -50,7 +53,7 @@ Du kannst die beste [Experience](/glossar/experience-eeat/), die tiefste [Expert
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Trust und KI-Systeme</h4>
-  <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.</p>
+  <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du genau messen, wie vertrauenswürdig deine Entität für verschiedene LLMs eingestuft wird. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.
 </div>
 
 ## Jörgs Action-Plan
@@ -67,5 +70,6 @@ ALOHA ✌️
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Trust-Audit anfragen →</a>
 </div>
 
-* **Lese-Tipp:** [E-E-A-T im Überblick](/glossar/e-e-a-t/)
-* **Lese-Tipp:** [Experience: Der Erfahrungsfaktor](/glossar/experience-eeat/)
+* **Lese-Tipp:** [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)
+* **Lese-Tipp:** [Experience: Praxiserfahrung zeigen](/glossar/experience-eeat/)
+* **Lese-Tipp:** [Professionelles Keyword-Monitoring mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link)

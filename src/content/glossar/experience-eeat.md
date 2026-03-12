@@ -2,7 +2,8 @@
 title: "Experience (E-E-A-T Faktor)"
 description: "Experience ist der neueste E-E-A-T Faktor. Google bewertet, ob der Autor echte Erfahrung mit dem Thema hat – nicht nur theoretisches Wissen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-experience-3d.png"
+image_alt: "Experience (E-E-A-T) 3D Infografik - Reale Praxiserfahrung als Qualitätsmerkmal"
 related_terms: ["e-e-a-t", "expertise-eeat", "authoritativeness-eeat", "trustworthiness-eeat"]
 key_takeaways:
   - "First-Hand: Google sucht Inhalte von Menschen, die das Thema selbst erlebt haben."
@@ -20,6 +21,8 @@ faqs:
 Moin!
 
 **Experience** (Erfahrung) ist der jüngste Buchstabe im [E-E-A-T](/glossar/e-e-a-t/) Framework – und gleichzeitig der revolutionärste. Google hat ihn Ende 2022 hinzugefügt, und der Grund ist simpel: In der KI-Ära muss Google unterscheiden können, ob ein Mensch wirklich Erfahrung mit einem Thema hat oder ob eine Maschine den Text generiert hat.
+
+![Experience 3D Infografik](../../assets/images/glossar/glossar-experience-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -52,6 +55,7 @@ Verknüpfe deinen Content mit einem klaren Autorenprofil, das deine echte Erfahr
 
 ## Mein Tacheles-Rat für dich
 
+In der neuen Welt der [KI-Suche (GEO)](/glossar/geo/) ist Deine Erfahrung Dein stärkster Burggraben. Eine KI kann keine Berge besteigen oder Software-Bugs im Live-Betrieb fixen. Wer seine Inhalte mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) auf KI-Sichtbarkeit prüft, wird feststellen, dass Google genau diese persönlichen Signale belohnt.
 Geh deinen Content durch und frag dich bei jedem Artikel: Kann der Leser erkennen, dass ein Mensch mit echter Erfahrung das geschrieben hat? Wenn nicht, ergänze persönliche Anekdoten, eigene Bilder und konkrete Daten. Das ist der einfachste Weg, sich von KI-Content abzuheben.
 
 ALOHA ✌️
@@ -64,5 +68,6 @@ ALOHA ✌️
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt E-E-A-T Audit anfragen →</a>
 </div>
 
-* **Lese-Tipp:** [E-E-A-T im Überblick](/glossar/e-e-a-t/)
-* **Lese-Tipp:** [Expertise als Rankingfaktor](/glossar/expertise-eeat/)
+* **Lese-Tipp:** [Expertise: Mehr als nur Wissen](/glossar/expertise-eeat/)
+* **Lese-Tipp:** [Trust: Das Fundament](/glossar/trustworthiness-eeat/)
+* **Lese-Tipp:** [Keyword-Validierung mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link)

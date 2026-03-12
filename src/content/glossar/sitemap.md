@@ -2,7 +2,8 @@
 title: "Sitemap"
 description: "Eine Sitemap ist der Wegweiser für Google. Sie hilft Crawlern, alle wichtigen Seiten deiner Website schnell und effizient zu finden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-sitemap-3d.png"
+image_alt: "Sitemap 3D Infografik - Die Architektur deiner Website für Suchmaschinen"
 related_terms: ["crawler", "robots-txt", "crawling-vs-indexing"]
 key_takeaways:
   - "Crawler-Effizienz: Eine saubere Sitemap spart wertvolles Crawl-Budget."
@@ -19,23 +20,21 @@ faqs:
 
 Moin!
 
-Eine Sitemap ist die Landkarte deiner Website. 
-Ganz einfach: Ein Dokument, das alle URLs deiner Seite auflistet. 
-Das Ziel? Google sagen: "Hey, hier sind meine Inhalte, bitte schau sie dir an!"
+Eine **Sitemap** ist im Grunde die „Inhaltsangabe" deiner Website für Google. Ohne sie müsste der Googlebot jede einzelne Seite mühsam über interne Links finden. Das dauert nicht nur länger, sondern führt bei großen Seiten oft dazu, dass wichtige Inhalte gar nicht erst im Index landen.
+
+![Sitemap 3D Infografik](../../assets/images/glossar/glossar-sitemap-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Eine Website ohne klare Hierarchie und interne Verlinkung ist wie ein Supermarkt ohne Wegweiser."</p>
 </div>
 
-Zwar findet Google viele Seiten auch über [interne Verlinkungen](/glossar/interne-verlinkung/), aber die Sitemap ist das Sicherheitsnetz. 
+Zwar findet Google viele Seiten auch über [interne Verlinkungen](/glossar/interne-verlinkung/), aber die Sitemap ist das Sicherheitsnetz.
 Besonders für neue Websites oder Seiten mit tausenden Artikeln ist sie absolut unverzichtbar.
 
 ## Die zwei Arten von Sitemaps
 
-Wir unterscheiden im Wesentlichen:
-
-1.  **XML-Sitemap:** Das ist die Version für Maschinen. Sie liegt meistens unter `/sitemap.xml/`. Sie ist purer Code, den der [Crawler](/glossar/crawler/) ausliest.
+Früher gab es Sitemaps oft noch als reine HTML-Seiten für Nutzer. Heute sprechen wir im SEO fast ausschließlich von der **XML-Sitemap**. Das ist eine Datei, die speziell für Maschinen (Google, Bing, KI-Bots) geschrieben ist. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du prüfen, ob deine Sitemaps auch von modernen KI-Suchmaschinen effizient gecrawlt werden. Sie liegt meistens unter `/sitemap.xml/`. Sie ist purer Code, den der [Crawler](/glossar/crawler/) ausliest.
 2.  **HTML-Sitemap:** Das ist eine Seite für Menschen (oft im Footer verlinkt). Gut für die [Usability](/glossar/usability/), aber SEO-technisch weniger relevant als die XML-Version.
 
 ## Warum brauchst du eine Sitemap?
@@ -53,11 +52,8 @@ Selbst wenn dein Link-Geflecht perfekt ist, hilft die Sitemap Google massiv:
 
 ## Monitoring in der Search Console
 
-Es reicht nicht, eine Sitemap zu haben.
-Du musst sie Google auch geben.
-Das machst du in der Google Search Console.
-Dort siehst du auch sofort, ob Google die Sitemap lesen konnte und wie viele URLs daraus indexiert wurden.
-Wenn du dort Fehler siehst -> Sofort handeln! Das ist Basis-SEO.
+Es reicht nicht, eine Sitemap zu haben. Du musst sie Google auch geben. Das machst du in der Google Search Console. Wenn Google deine Sitemap nicht kennt, weiß Google nicht, dass es dich gibt. Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) um sicherzustellen, dass keine 404-Fehler oder Noindex-Seiten in deiner Sitemap landen. Alles zum perfekten Setup erfährst du in meinem Lese-Tipp unten.
+Dort siehst du auch sofort, ob Google die Sitemap lesen konnte und wie viele URLs daraus indexiert wurden. Wenn du dort Fehler siehst -> Sofort handeln! Das ist Basis-SEO.
 
 ## Sitemaps und die KI-Suche ([GEO](/glossar/geo/))
 

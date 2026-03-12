@@ -14,7 +14,7 @@ faqs:
   - question: "Mit welchen Kosten muss ich für eine umfassende SEO-Keywordrecherche rechnen?"
     answer: "Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie ('Was machen wir nun mit diesen Daten?') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs."
   - question: "Reicht der kostenlose Google Keyword Planner heute noch aus?"
-    answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie SE Ranking, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
+    answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
 ---
 
 Keywordrecherche ist keine Fleißaufgabe.
@@ -83,6 +83,12 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
+  <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen →</a>
+</div>
+
+<div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Investierst du in die falschen Themen?</h3>
   <p class="mb-6">Ich erstelle für dich eine glasklare Keyword-Map, die zeigt, wo dein Potenzial wirklich liegt. Lass uns deine Strategie auf ein echtes Daten-Fundament stellen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen →</a>
@@ -90,3 +96,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)
 * **Lese-Tipp:** [Wie funktioniert ein Keyword Tool?](/glossar/keyword-tool/)
+* **Lese-Tipp:** [Was ist das Suchvolumen?](/glossar/suchvolumen/)

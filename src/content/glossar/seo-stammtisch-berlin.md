@@ -33,7 +33,7 @@ Seit Jahren sitze ich dort regelmäßig mit Kollegen zusammen, die genauso tief 
 ## Warum Networking dein stärkstes SEO-Tool ist
 
 Viele denken bei SEO nur an Code und Content. Falsch. SEO ist ein People-Business. 
-Die besten Informationen bekommst du nicht in einem Tool-Report von [Sistrix](/glossar/sichtbarkeitsindex/) oder [SE Ranking](/glossar/keyword-tool/), sondern beim zweiten Bier (oder Spezi) am Stammtisch.
+Die besten Informationen bekommst du nicht in einem Tool-Report von [Sistrix](/glossar/sichtbarkeitsindex/) oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), sondern beim zweiten Bier (oder Spezi) am Stammtisch.
 
 ### 1. Der ungefilterte Wissensvorsprung
 Oft flüstert man sich dort Dinge zu, die so nie in einem offiziellen Google-Blogpost stehen würden. Wer hat gerade ein Manual Action erlebt? Welche Nischen werden gerade von [KI-Crawlern](/glossar/crawler/) besonders hart rangenommen? Dieses 'Hearsay' ist oft der entscheidende Vorsprung, bevor ein offizielles Update die ganze Branche überrascht.
@@ -81,3 +81,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Warum ich die Campixx Berlin liebe](/glossar/campixx-berlin/)
 * **Lese-Tipp:** [Die Überstunde Berlin – Netzwerken mal anders](/glossar/ueberstunde-berlin/)
+* **Lese-Tipp:** [Was ist Sichtbarkeit?](/glossar/sichtbarkeit/)

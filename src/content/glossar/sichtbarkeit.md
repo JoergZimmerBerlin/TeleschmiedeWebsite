@@ -64,7 +64,7 @@ Es bringt dir nichts, für "Was ist SEO" auf Platz 1 zu stehen, wenn du eigentli
 ## Messung: Der Sichtbarkeitsindex als Fieberkurve
 
 Wie finden wir heraus, wie sichtbar du wirklich bist?
-Dafür nutzen wir Tools wie den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) von Sistrix oder Metriken aus SE Ranking.
+Dafür nutzen wir Tools wie den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) von Sistrix oder Metriken aus [SE Ranking](https://seranking.com/de/?ga=4169588&source=link).
 Dieser Index ist die Fieberkurve deines Projekts.
 Er zeigt nicht nur deine eigenen Leistungen, sondern setzt sie ins Verhältnis zum Wettbewerb.
 
@@ -116,3 +116,4 @@ ALOHA ✌️
 * **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
 * **Lese-Tipp:** [Wie funktioniert GEO?](/glossar/geo/)
 * **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* **Lese-Tipp:** [Was ist Traffic?](/glossar/traffic/)

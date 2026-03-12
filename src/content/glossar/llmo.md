@@ -2,7 +2,8 @@
 title: "LLM-Optimization (LLMO)"
 description: "LLMO optimiert deine Inhalte speziell für Large Language Models wie ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt werden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-llmo-3d.png"
+image_alt: "LLMO 3D Infografik - Optimierung für Large Language Models"
 related_terms: ["geo", "aeo", "entity-seo", "citation"]
 key_takeaways:
   - "Trainingsdata-Fokus: LLMO sorgt dafür, dass dein Name in den Trainingsdaten der LLMs positiv vorkommt."
@@ -14,12 +15,14 @@ faqs:
   - question: "Kann ich beeinflussen, was ChatGPT über mich sagt?"
     answer: "Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein."
   - question: "Wie teste ich meine LLM-Sichtbarkeit?"
-    answer: "Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie Rankscale, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen."
+    answer: "Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen."
 ---
 
 Moin!
 
 **LLMO** (LLM-Optimization) ist die Disziplin, die sich mit der Frage beschäftigt: *Wie beeinflusse ich, was ChatGPT, Gemini und Claude über mich und mein Fachgebiet wissen?*
+
+![LLMO 3D Infografik](../../assets/images/glossar/glossar-llmo-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -49,7 +52,7 @@ Konsistente Erwähnungen in vertrauenswürdigen Verzeichnissen, Branchenportalen
 [Schema.org Markup](/glossar/schema-org-markup/) und [Grounding Pages](/glossar/grounding-page/) liefern maschinenlesbare Fakten, die von Retrieval-Augmented-Generation (RAG) Systemen bevorzugt genutzt werden.
 
 ### 4. Prompt-Testing
-Regelmäßig testen, was verschiedene LLMs über dich und dein Fachgebiet wissen. Mit [AI Tracking Tools](/glossar/ai-tracking-tools/) wie Rankscale lässt sich das automatisieren.
+Regelmäßig testen, was verschiedene LLMs über dich und dein Fachgebiet wissen. Mit [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich das automatisieren.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">LLMO ist Langzeitstrategie</h4>
@@ -72,4 +75,5 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [GEO: Die Gesamtstrategie](/glossar/geo/)
 * **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)
-* **Lese-Tipp:** [AI Tracking Tools](/glossar/ai-tracking-tools/)
+* **Lese-Tipp:** [AI Tracking Tools nutzen](/glossar/ai-tracking-tools/)
+* **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)

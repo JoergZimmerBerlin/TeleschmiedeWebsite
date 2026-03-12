@@ -38,7 +38,7 @@ Google zeigt heute immer mehr [direkte Antworten in den SERPs](/glossar/knowledg
 Das heißt: Die Leute suchen zwar, aber sie klicken nicht mehr auf deine Website. (Zero-Click-Search).
 
 Außerdem: Suchvolumen ist oft ungenau.
-Tools wie [SE Ranking](/blog/sistrix-vs-se-ranking/) oder Ahrefs schätzen diese Werte.
+Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder Ahrefs schätzen diese Werte.
 Nur der Google Keyword Planner hat echte Daten – aber auch die sind gruppiert und oft geschönt.
 
 ## Warum "weniger" oft "mehr" ist
@@ -81,6 +81,12 @@ ALOHA ✌️
 ---
 
 <div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
+  <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen →</a>
+</div>
+
+<div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Jagst du den falschen Zahlen hinterher?</h3>
   <p class="mb-6">Ich analysiere dein Keyword-Set und finde die Schätze, die wirklich für Conversions sorgen. Lass uns dein SEO auf profitable Beine stellen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Potenzial-Audit anfragen →</a>
@@ -90,3 +96,4 @@ ALOHA ✌️
 * **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
 * **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
+* **Lese-Tipp:** [Keyword Tool einsetzen](/glossar/keyword-tool/)

@@ -2,7 +2,8 @@
 title: "AEO (Answer Engine Optimization)"
 description: "AEO optimiert deine Inhalte für Antwortmaschinen wie ChatGPT, Perplexity und Google SGE. Der Fokus liegt auf direkten, zitierfähigen Antworten statt klassischer Rankings."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-aeo-3d.png"
+image_alt: "AEO 3D Infografik - Answer Engine Optimization für KI"
 related_terms: ["geo", "llmo", "geo-vs-seo", "zitierfaehiger-content"]
 key_takeaways:
   - "Paradigmenwechsel: AEO optimiert für Antworten, nicht für Rankings."
@@ -20,6 +21,8 @@ faqs:
 Moin!
 
 **AEO** steht für Answer Engine Optimization – und es ist die Antwort auf die größte Frage im digitalen Marketing 2026: *Wie werde ich die Quelle, die KI-Systeme zitieren?*
+
+![AEO 3D Infografik](../../assets/images/glossar/glossar-aeo-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -58,7 +61,7 @@ Schreib Sätze, die eine KI wortwörtlich zitieren kann. Klare Definitionen, Zah
 
 ## Mein Tacheles-Rat für dich
 
-Nimm deine 10 wichtigsten Seiten und frag dich: Beantwortet diese Seite eine konkrete Frage in den ersten 2-3 Sätzen? Wenn nicht, überarbeite sie. Füge FAQ-Schema hinzu. Formuliere klare, zitierfähige Definitionen. Das ist AEO in seiner einfachsten Form – und es funktioniert.
+Nimm deine 10 wichtigsten Seiten und frag dich: Beantwortet diese Seite eine konkrete Frage in den ersten 2-3 Sätzen? Wenn nicht, überarbeite sie. Füge FAQ-Schema hinzu. Formuliere klare, zitierfähige Definitionen. Nutze Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), um deine Fortschritte zu messen. Das ist AEO in seiner einfachsten Form – und es funktioniert.
 
 ALOHA ✌️
 

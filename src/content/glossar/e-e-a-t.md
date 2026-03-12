@@ -2,8 +2,8 @@
 title: "E-E-A-T (Google Quality Rater Guidelines)"
 description: "E-E-A-T steht für Experience, Expertise, Authoritativeness und Trustworthiness. Es ist das wichtigste Konzept Googles zur Bewertung der Qualität und Vertrauenswürdigkeit von Website-Inhalten."
 date: "2026-03-10"
-image: "../../assets/images/blog/glossar-eeat.png"
-image_alt: "E-E-A-T Infografik - Erfahrung, Expertise, Autorität, Vertrauen"
+image: "../../assets/images/glossar/glossar-eeat-3d.png"
+image_alt: "E-E-A-T 3D Infografik - Vertrauen als Rankingfaktor"
 related_terms: ["geo", "crawling-vs-indexing", "usability"]
 key_takeaways:
   - "Qualitätssiegel: E-E-A-T bewertet die Vertrauenswürdigkeit einer Website und ihres Autors."
@@ -22,6 +22,8 @@ Moin!
 
 Wenn in der modernen Suchmaschinenoptimierung ein Begriff die letzten Jahre dominiert hat, dann ist es **E-E-A-T**. 
 Entstanden aus den internen *Search Quality Rater Guidelines* von Google, hat sich dieses Akronym vom reinen Theorie-Konzept zum absoluten Fundament jeglicher Content-Strategie entwickelt. 
+
+![E-E-A-T 3D Infografik](../../assets/images/glossar/glossar-eeat-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -81,7 +83,7 @@ Aktive Moderation ist Pflicht, um Spam zu vermeiden, der den *Trust* schwächt.
 ## E-E-A-T in Zeiten der generativen KI
 
 Mit dem Aufkommen von Large Language Models (LLMs) wie ChatGPT und [GEO](/glossar/geo/) wird E-E-A-T brisanter denn je.
-KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopfen, hat Google massiv an den Filtern gedreht (Helpful Content Updates). 
+KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopfen, hat Google massiv an den Filtern gedreht (Helpful Content Updates). Mit Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du messen, wie die KI deine fachliche Autorität aktuell einstuft. 
 
 **Deshalb lautet die goldene Regel:** 
 Schreibe keine Artikel, die eine KI in 5 Sekunden generieren könnte. 
@@ -91,7 +93,7 @@ Der einzige echte Burggraben ist deine unverwechselbare Praxiserfahrung, angerei
 
 E-E-A-T lässt sich nicht vortäuschen. 
 Es erfordert den harten Weg: Echten, tief recherchierten Inhalt von Spezialisten zu publizieren. 
-In einer Welt, in der Content dank KI "nichts" mehr kostet, wird die Reputation des Autors zur wichtigsten Währung.
+In einer Welt, in der Content dank KI "nichts" mehr kostet, wird die Reputation des Autors zur wichtigsten Währung. Wer hier professionelle Unterstützung bei der Keyword-Validierung sucht, sollte einen Blick auf [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) werfen.
 
 ALOHA ✌️
 

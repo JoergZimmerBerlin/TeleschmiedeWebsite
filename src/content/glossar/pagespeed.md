@@ -2,7 +2,8 @@
 title: "PageSpeed (Ladezeit-Optimierung)"
 description: "PageSpeed beschreibt die Zeitspanne, die eine Website benötigt, um Inhalte vollständig für den Nutzer darzustellen. Ein kritischer Rankingfaktor für SEO und UX."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-pagespeed-3d.png"
+image_alt: "PageSpeed 3D Infografik - Schnelligkeit als Rankingfaktor"
 related_terms: ["core-web-vitals", "noindex"]
 key_takeaways:
   - "Konvertierungsfaktor: Jede Sekunde Ladezeit kostet bares Geld (bis zu 7% Conversion-Rate)."
@@ -28,7 +29,7 @@ In einer Zeit, in der die Aufmerksamkeitsspanne von Nutzern unter der eines Gold
 </div>
 
 Google hat die Ladezeit bereits vor Jahren als offiziellen Rankingfaktor etabliert. 
-Mit der Einführung der [Core Web Vitals](/glossar/core-web-vitals/) wurde dieser Faktor nochmals präzisiert: Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
+Seit 2021 nutzt Google die [Core Web Vitals](/glossar/core-web-vitals/) als offizielle Ranking-Signale. Es geht nicht mehr nur um „irgendeine" Ladezeit, sondern um das echte Nutzererlebnis. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du überwachen, ob technische Ladezeit-Probleme deine Sichtbarkeit in KI-Suchmaschinen negativ beeinflussen. Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
 
 ## Die drei Ebenen der Ladezeit
 
@@ -60,11 +61,17 @@ Anstatt die Seite bei jedem Aufruf neu am Server "zusammenzubauen", sollte ein C
 
 Da Google seit 2020 ausschließlich den "Mobile First Index" nutzt, ist die Desktop-Ladezeit für dein Ranking fast irrelevant geworden. Google bewertet deine Seite so, wie sie auf einem mittelalten Android-Smartphone bei einer 4G-Verbindung (oder sogar 3G) lädt. Wenn deine Seite dort 8 Sekunden braucht, bist du für Google eine "langsame" Seite und wirst in den Suchergebnissen systematisch nach unten korrigiert.
 
+Stell dir vor, du stehst vor einem Laden. Du drückst die Klinke, aber die Tür geht erst nach 5 Sekunden langsam auf. Gehst du rein? Wahrscheinlich nicht. Genau das ist **PageSpeed** (Ladezeit) für deine Website.
+
+![PageSpeed 3D Infografik](../../assets/images/glossar/glossar-pagespeed-3d.png)
+
 In der generativen KI-Suche ([GEO](/glossar/geo/)) spielt die Geschwindigkeit beim "Reading" der Bots eine Rolle. Wenn ein LLM-Agent versucht, deine Inhalte zu extrahieren, um sie kuratiert wiederzugeben, hat dieser Bot nur begrenzte Kapazitäten (Crawl-Budget). Langsame Seiten werden oft unvollständig ausgelesen, was dazu führt, dass deine Citations in der KI ungenau oder gar nicht erscheinen.
 
 ## Mein Tacheles-Rat für dich
 
-PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Nutze Tools wie Google Search Console und PageSpeed Insights regelmäßig, um Engpässe zu identifizieren. Denk immer daran: Eine Sekunde Verzögerung kann bis zu 7% Conversion-Rate kosten. Bleib schnell, bleib sichtbar!
+PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Wenn deine Ladezeit zu langsam ist, verlierst du nicht nur Rankings bei Google, sondern auch das Vertrauen deiner Nutzer. Nutze Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) um deinen PageSpeed im Vergleich zum Wettbewerb zu Benchmarken. Und denk dran: Mobile First ist kein Trend, sondern Gesetz.
+
+Denk immer daran: Eine Sekunde Verzögerung kann bis zu 7% Conversion-Rate kosten. Bleib schnell, bleib sichtbar!
 
 ALOHA ✌️
 

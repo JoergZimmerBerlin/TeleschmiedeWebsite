@@ -27,7 +27,7 @@ Die große Frage im [GEO](/glossar/ai-geo/)-Zeitalter ist nicht mehr nur: Auf we
 
 Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 
-Genau hier setzt **Rankscale** an.
+Genau hier setzt [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) an.
 
 ## Rankscale im echten Praxis-Test
 
@@ -74,6 +74,7 @@ Was mir an Rankscale gefällt: Der Fokus. Sie versuchen nicht, noch ein schlecht
 
 SEO ist heute multi-dimensional. Google ist wichtig, aber nicht mehr alles. Tools wie Rankscale helfen, die unsichtbaren Strömungen der KI-Welt sichtbar zu machen – und damit strategisch beherrschbar.
 
-**[Rankscale selbst testen →](https://rankscale.ai/?via=offer)**
-
 ALOHA! 🌻✌️
+
+* **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)
+* **Lese-Tipp:** [KI-Sichtbarkeit messen mit dem SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/)

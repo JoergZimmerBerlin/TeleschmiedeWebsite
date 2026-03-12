@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Wer mich kennt, weiß: Ich teste Tools nicht nur, ich quäle sie. Und wenn ein Team so schnell liefert wie die Jungs von **Rankscale**, dann muss ich das hier im Blog natürlich Tacheles besprechen. 
+Wer mich kennt, weiß: Ich teste Tools nicht nur, ich quäle sie. Und wenn ein Team so schnell liefert wie die Jungs von [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), dann muss ich das hier im Blog natürlich Tacheles besprechen. 
 
 Die AI-Visibility-Welt dreht sich gerade rasend schnell, und Rankscale hat gerade ein Paket an Updates rausgehauen, das zeigt: Sie wollen nicht nur mitspielen, sie wollen den Standard für [GEO](/glossar/ai-geo/) setzen.
 
@@ -80,3 +80,7 @@ Schau dir am besten direkt die [verschiedenen Pakete in der Übersicht](https://
 </div>
 
 ALOHA! 🌻✌️
+
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
+* **Lese-Tipp:** [KI-Sichtbarkeit messen mit dem SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/)
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)

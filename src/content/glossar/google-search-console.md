@@ -19,7 +19,7 @@ faqs:
 
 Moin!
 
-Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google Search Console (GSC)**. Während andere Tools (wie Sistrix oder SE Ranking) Daten schätzen und hochrechnen, liefert dir die GSC die nackte Wahrheit direkt aus dem Maschinenraum von Google.
+Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google Search Console (GSC)**. Während andere Tools (wie Sistrix oder [[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)](https://seranking.com/de/?ga=4169588&source=link)) Daten schätzen und hochrechnen, liefert dir die GSC die nackte Wahrheit direkt aus dem Maschinenraum von Google.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -75,3 +75,4 @@ ALOHA ✌️
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
 * **Lese-Tipp:** [Bing Webmaster Tools](/glossar/bing-webmastertools/)
 * **Lese-Tipp:** [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
+* **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)

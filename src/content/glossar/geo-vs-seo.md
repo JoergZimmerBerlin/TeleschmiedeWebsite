@@ -2,7 +2,8 @@
 title: "GEO vs. SEO: Die Zukunft der Suche"
 description: "Was ist der Unterschied zwischen klassischem SEO und moderner Generative Engine Optimization (GEO)? Ein Blick in die Zukunft der AI-Search."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-geo-vs-seo-3d.png"
+image_alt: "GEO vs. SEO 3D Infografik - Die Evolution der Suche"
 related_terms: ["geo", "e-e-a-t", "knowledge-graph"]
 key_takeaways:
   - "Paradigma-Wechsel: SEO optimiert für Suchmaschinen (Listen), GEO für KI-Engines (Antworten)."
@@ -20,6 +21,8 @@ faqs:
 Moin!
 
 Wir befinden uns mitten im größten Wandel seit dem Start von Google. Der Kampf heißt **GEO vs. SEO**. 
+
+![GEO vs. SEO 3D Infografik](../../assets/images/glossar/glossar-geo-vs-seo-3d.png)
 Früher war das Ziel klar: Platz 1 in den Suchergebnissen. 
 Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Google Search Generative Experience (SGE) als Quelle genannt?
 
@@ -44,7 +47,7 @@ Eine **GEO Agentur** optimiert nicht für "billigste Waschmaschine kaufen", sond
 KI-Modelle haben ein Problem mit Halluzinationen. Sie suchen verzweifelt nach Fakten, die sie validieren können. Wer als **GEO Freelancer** arbeitet, sorgt dafür, dass deine Expertise überall im Netz konsistent und verknüpft ist. 
 
 ### 3. Zitate und Mentions
-In der Welt von **AI-Search** ist ein Link weniger wert als eine echte Erwähnung ([Mention](/glossar/mention/)) in einem fachrelevanten Kontext. KI-Engines "lesen" das Internet – und sie zitieren nur das, was sie als verlässliche Quelle einstufen.
+In der Welt von **AI-Search** ist ein Link weniger wert als eine echte Erwähnung ([Mention](/glossar/mention/)) in einem fachrelevanten Kontext. KI-Engines "lesen" das Internet – und sie zitieren nur das, was sie als verlässliche Quelle einstufen. Mit Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich dieser Status Quo heute erstmals präzise messen.
 
 ## Was ein GEO Spezialist für dich tut
 

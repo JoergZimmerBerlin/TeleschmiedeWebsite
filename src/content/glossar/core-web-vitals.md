@@ -2,7 +2,8 @@
 title: "Core Web Vitals (CWV)"
 description: "Die Core Web Vitals sind ein essenzielles Set standardisierter Metriken von Google, die die reale User Experience (UX) einer Webseite quantifizieren. Erfahre alles über LCP, INP und CLS."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-cwv-3d.png"
+image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren von Google"
 related_terms: ["geo", "pagespeed", "usability"]
 key_takeaways:
   - "UX als Rankingfaktor: Google bewertet die gefühlte Geschwindigkeit und Stabilität deiner Seite."
@@ -22,6 +23,8 @@ Moin!
 Wer mich kennt, weiß: Ich bin kein Fan von theoretischem Schnickschnack. 
 Im SEO zählt am Ende, was beim Nutzer ankommt.
 Die **Core Web Vitals (CWV)** sind genau das: Ein Maß an Objektivität in einer ansonsten oft subjektiven Debatte über "schickes Design".
+
+![Core Web Vitals 3D Infografik](../../assets/images/glossar/glossar-cwv-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -74,8 +77,7 @@ Wenn dein Server in Deutschland steht, aber deine Nutzer aus den USA kommen, wir
 
 In der Welt von [Generative Engine Optimization](/glossar/geo/) spielen Ladezeiten eine neue Rolle.
 LLM-Agenten (die "KI-Bots") haben ein begrenztes Zeitfenster, um deine Seite zu crawlen.
-Wenn deine Seite massives Layout-Shifting (CLS) hat, kann der Bot den Text vielleicht nicht korrekt extrahieren.
-Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert.
+Wenn deine Seite massives Layout-Shifting (CLS) hat, kann der Bot den Text vielleicht nicht korrekt extrahieren. Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du deine AI-Sichtbarkeit im Vergleich zu technischen Performance-Werten analysieren.
 
 In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist die Performance-Optimierung daher kein "nice to have", sondern das technische Fundament.
 
@@ -83,7 +85,7 @@ In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist d
 
 Technische Exzellenz durch grüne Core Web Vitals ist die Hausaufgabe jeder professionell betriebenen Website.
 Wer hier spart, verliert Nutzer an die Konkurrenz.
-Pack dein Performance-Problem an der Wurzel und sorg für eine reibungslose Experience.
+Pack dein Performance-Problem an der Wurzel und sorg für eine reibungslose Experience. Nutze professionelle Monitoring-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für deine tägliche SEO-Arbeit.
 Deine Nutzer (und Google) werden es dir danken.
 
 ALOHA ✌️

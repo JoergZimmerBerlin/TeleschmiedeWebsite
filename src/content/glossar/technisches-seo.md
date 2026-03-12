@@ -2,8 +2,8 @@
 title: "Technisches, Inhaltliches & Strategisches SEO"
 description: "Die drei Säulen des SEO-Erfolgs. Erfahre, wie technisches Fundament, exzellenter Content und eine smarte Strategie ineinandergreifen."
 date: "2026-03-10"
-image: "../../assets/images/blog/glossar-technisches-seo.png"
-image_alt: "Technisches SEO Infografik - Das Fundament"
+image: "../../assets/images/glossar/glossar-tech-seo-3d.png"
+image_alt: "Technisches SEO 3D Infografik - Fundament und Architektur"
 related_terms: ["seo-audit", "pagespeed", "keywordrecherche"]
 key_takeaways:
   - "Technik first: Ohne sauberes Crawling und Indexierung nützt der beste Content nichts."
@@ -22,6 +22,8 @@ Moin!
 
 Wenn wir über **SEO Optimierung** sprechen, meinen die meisten nur das "Einbauen von Keywords". Aber modernes, **professionelles SEO** ist ein komplexes Zusammenspiel aus drei Disziplinen, die perfekt aufeinander abgestimmt sein müssen. Wer eine dieser Säulen ignoriert, lässt bares Geld auf der Straße liegen.
 
+![Technisches SEO 3D Infografik](../../assets/images/glossar/glossar-tech-seo-3d.png)
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer CEO-Sprache spricht, bekommt auch Budgets."</p>
@@ -37,7 +39,7 @@ Wichtige Hebel im technischen SEO:
 *   **Indexierbarkeit:** Nutzen wir [Noindex](/glossar/noindex/) richtig?
 *   **Struktur:** Ist unsere [Sitemap](/glossar/sitemap/) aktuell?
 *   **Mobile First:** Lädt die Seite auf dem Smartphone in unter 2 Sekunden?
-*   **Schema:** Nutzen wir [Strukturierte Daten](/glossar/strukturierte-daten/), um Google 'Essen' für KI-Antworten zu geben?
+*   **Schema:** Nutzen wir [Strukturierte Daten](/glossar/strukturierte-daten/), um Google 'Essen' für KI-Antworten zu geben? Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich die Wirkung technischer Optimierungen auf die KI-Sichtbarkeit direkt tracken.
 
 ## 2. Inhaltliches SEO: Die Stimme deiner Marke
 
@@ -56,7 +58,7 @@ Eine gute **SEO Strategie** stellt sicher, dass wir nicht planlos drauflos optim
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">SEO Pro-Tipp</h4>
-  <p class="mb-0 text-sm">Mach keine halben Sachen. Ein 'bisschen SEO' ist oft verbranntes Geld. Setz auf ein ganzheitliches Konzept, das Technik, Content und Strategie vereint. Nur so baust du nachhaltige Sichtbarkeit auf.</p>
+  <p class="mb-0 text-sm">Mach keine halben Sachen. Ein 'bisschen SEO' ist oft verbranntes Geld. Setz auf ein ganzheitliches Konzept, das Technik, Content und Strategie vereint. Nur so baust du nachhaltige Sichtbarkeit auf. Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für dein tägliches Monitoring.
 </div>
 
 ## SEO-Betreuung & Analyse

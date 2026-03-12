@@ -22,7 +22,7 @@ faqs:
 
 Moin! 🌻
 
-Man merkt, dass ein Thema den Kinderschuhen entwachsen ist, wenn die "Großen" anfangen, ihre Claims abzustecken. Nach Rankscale kommt nun das nächste Schwergewicht für **AI Visibility Tracking** aus der Versenkung: SE Ranking hat offiziell seinen eigenen AI Tracker gelauncht.
+Man merkt, dass ein Thema den Kinderschuhen entwachsen ist, wenn die "Großen" anfangen, ihre Claims abzustecken. Nach [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kommt nun das nächste Schwergewicht für **AI Visibility Tracking** aus der Versenkung: [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat offiziell seinen eigenen AI Tracker gelauncht.
 
 Als ich das erste Mal davon hörte, dachte ich: "Schon wieder ein Tool?" Aber dann wurde mir klar: Dass ein etablierter Player wie SE Ranking in diesen Markt einsteigt, zeigt, dass AI-SEO kein Nischen-Spielzeug mehr für uns Early Adopter ist. Es ist gekommen, um zu bleiben.
 

@@ -46,7 +46,7 @@ Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenhei
 ### Tools beherrschen
 *   Die [Google Search Console](/glossar/google-search-console/) wie ein Profi lesen.
 *   [Bing Webmaster Tools](/glossar/bing-webmastertools/) einrichten und nutzen.
-*   SE Ranking oder vergleichbare Tools für Keyword-Monitoring.
+*   [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder vergleichbare Tools für Keyword-Monitoring.
 
 ### Content-Strategie
 *   [Keywordrecherche](/glossar/keywordrecherche/) mit Suchintention verbinden.
@@ -81,3 +81,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [SEO Consulting verstehen](/glossar/seo-consulting/)
 * **Lese-Tipp:** [SEO Beratung erklärt](/glossar/seo-beratung/)
+* **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)

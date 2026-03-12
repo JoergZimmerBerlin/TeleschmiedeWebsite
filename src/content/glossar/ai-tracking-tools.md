@@ -6,11 +6,11 @@ image: "../../assets/images/glossar/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "llmo", "sichtbarkeitsmanagement", "google-search-console"]
 key_takeaways:
   - "Neue Metrik: AI Visibility misst, wie oft du von KI-Systemen als Quelle zitiert wirst."
-  - "Multi-LLM: Tools wie Rankscale tracken die Sichtbarkeit über 17+ verschiedene KI-Modelle."
+  - "Multi-LLM: Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) tracken die Sichtbarkeit über 17+ verschiedene KI-Modelle."
   - "Frühphase: Der AI-Tracking-Markt ist jung – wer jetzt trackt, hat einen Datenvorteil."
 faqs:
   - question: "Welche AI Tracking Tools gibt es 2026?"
-    answer: "Die wichtigsten sind Rankscale (trackt 17+ LLMs gleichzeitig, inklusive AI Visibility Score), Peec.ai (fokussiert auf Brand Mentions in KI-Antworten), Profound (trackt LLM-Zitate mit Quellenanalyse) und Otterly (überwacht KI-Antworten für definierte Keywords). Ich nutze selbst Rankscale, weil es die breiteste LLM-Abdeckung hat und einen klaren AI Visibility Score liefert. Darüber habe ich ausführlich in meinem Blog geschrieben."
+    answer: "Die wichtigsten sind [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) (trackt 17+ LLMs gleichzeitig, inklusive AI Visibility Score), Peec.ai (fokussiert auf Brand Mentions in KI-Antworten), Profound (trackt LLM-Zitate mit Quellenanalyse) und Otterly (überwacht KI-Antworten für definierte Keywords). Ich nutze selbst [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), weil es die breiteste LLM-Abdeckung hat und einen klaren AI Visibility Score liefert. Darüber habe ich ausführlich in meinem Blog geschrieben."
   - question: "Wie funktioniert AI Visibility Tracking technisch?"
     answer: "Die Tools senden definierte Prompts (Suchanfragen) an verschiedene LLMs und analysieren die Antworten: Wird deine Marke erwähnt? Wird deine Website als Quelle verlinkt? Wie positiv ist der Kontext? Das passiert automatisiert und regelmäßig. Die Ergebnisse werden als 'AI Visibility Score' oder 'LLM Share of Voice' aggregiert. So siehst du über Wochen und Monate, ob deine GEO-Maßnahmen wirken."
   - question: "Reicht die Google Search Console nicht für's Tracking?"
@@ -26,7 +26,7 @@ Moin!
   <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? 🦖"</p>
 </div>
 
-In der klassischen SEO-Welt misst du Rankings mit Sistrix oder SE Ranking. In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
+In der klassischen SEO-Welt misst du Rankings mit Sistrix oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
 
 ## Warum du AI Tracking brauchst
 
@@ -42,14 +42,14 @@ AI Tracking Tools zeigen dir:
 
 | Tool | LLM-Abdeckung | Besonderheit |
 |---|---|---|
-| **Rankscale** | 17+ LLMs | AI Visibility Score, breiteste Abdeckung |
+| **[Rankscale](https://app.rankscale.ai/auth/signup?via=joerg)** | 17+ LLMs | AI Visibility Score, breiteste Abdeckung |
 | **Peec.ai** | 5+ LLMs | Fokus auf Brand Mentions |
 | **Profound** | 8+ LLMs | Quellenanalyse |
 | **Otterly** | 4+ LLMs | Keyword-basiertes Monitoring |
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein Setup: Rankscale</h4>
-  <p class="mb-0 text-sm">Ich nutze <a href="/blog/rankscale-ai-visibility-tracking-17-llms/" class="underline text-lime-700">Rankscale</a> für das AI Visibility Tracking meiner eigenen Seite und für Kundenprojekte. Das Tool trackt meine Sichtbarkeit über 17 LLMs und liefert einen konkreten Score, den ich über Wochen verfolgen kann. So sehe ich, ob meine GEO-Maßnahmen greifen.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein Setup: [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg)</h4>
+  <p class="mb-0 text-sm">Ich nutze [[Rankscale](https://app.rankscale.ai/auth/signup?via=joerg)](https://app.rankscale.ai/auth/signup?via=joerg) für das AI Visibility Tracking meiner eigenen Seite und für Kundenprojekte. Das Tool trackt meine Sichtbarkeit über 17 LLMs und liefert einen konkreten Score, den ich über Wochen verfolgen kann. So sehe ich, ob meine GEO-Maßnahmen greifen.</p>
 </div>
 
 ## Dein nächster Schritt
@@ -68,3 +68,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [GEO: Sichtbar in KI-Antworten](/glossar/geo/)
 * **Lese-Tipp:** [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
+* **Lese-Tipp:** [Was ist LLMO?](/glossar/llmo/)

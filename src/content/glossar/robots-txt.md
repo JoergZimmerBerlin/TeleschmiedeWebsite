@@ -2,7 +2,8 @@
 title: "Robots.txt"
 description: "Die robots.txt ist eine essenzielle Textdatei im Wurzelverzeichnis von Websites. Sie steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse zugreifen dürfen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-robots-txt-3d.png"
+image_alt: "robots.txt 3D Infografik - Die Steuerung der Suchmaschinen-Crawler"
 related_terms: ["crawling-vs-indexing", "geo", "sitemap"]
 key_takeaways:
   - "Steuerzentrale für Crawler: Die Datei regelt den Zugriff von Bots auf deine Verzeichnisse."
@@ -19,7 +20,10 @@ faqs:
 
 Moin!
 
-Die `robots.txt` ist das digitale "Betreten verboten"-Schild deiner Website. 
+Die **robots.txt** ist der Türsteher deiner Website. Sie ist eine einfache Textdatei, die im Hauptverzeichnis deiner Domain liegt und den Suchmaschinen-Crawlern ([Googlebot](/glossar/crawler/)) sagt: "Hier darfst du rein, und dort ist der Zutritt verboten."
+
+![robots.txt 3D Infografik](../../assets/images/glossar/glossar-robots-txt-3d.png)
+
 Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner Tippfehler hier kann deine gesamte Online-Präsenz vernichten.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
@@ -27,7 +31,7 @@ Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner
   <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Bau lieber eine Plattform, die so gut ist, dass die Leute freiwillig auf dich verlinken."</p>
 </div>
 
-Bevor der Googlebot oder ein moderner KI-Crawler deine eigentliche Seite sieht, checkt er diese Datei.
+Bevor der Googlebot oder ein moderner KI-Crawler deine eigentliche Seite sieht, checkt er diese Datei. Ein kleiner Fehler in dieser Datei kann dazu führen, dass deine gesamte Website aus Google verschwindet. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du überwachen, ob deine robots.txt die Sichtbarkeit für KI-Suchmaschinen unbeabsichtigt einschränkt. Hier ist Tacheles gefragt: Wer nicht weiß, was er tut, sollte die Finger von der robots.txt lassen.
 Im Rahmen meiner täglichen Arbeit als [SEO Freelancer in Berlin](/seo-freelancer-berlin/) ist der Blick in die `robots.txt` daher immer Schritt Eins bei jedem Audit.
 
 ## Die Anatomie einer sauberen robots.txt
@@ -68,9 +72,9 @@ Das ist das "AI-Agency Paradoxon": Wir wollen unsere Daten schützen, müssen si
 
 Die `robots.txt` ist ein mächtiges, wenn auch stumpfes Schwert. 
 Sperre Backend-URLs und Suchergebnisse, aber lass die Finger von Content-Seiten, wenn du nicht genau weißt, was du tust.
-Nutze professionelle Tools wie [SE Ranking](/blog/sistrix-vs-se-ranking/), um deine Datei live zu überwachen.
+Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine Datei live zu überwachen.
 
-ALOHA ✌️
+Nutze professionelle SEO-Software wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine robots.txt regelmäßig zu validieren und unerwünschte Sperren zu finden. ALOHA ✌️
 
 ---
 
@@ -82,4 +86,5 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
 * **Lese-Tipp:** [Sitemap Optimierung](/glossar/sitemap/)
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
 * **Lese-Tipp:** [Linkbuilding richtig angehen](/glossar/linkbuilding/)

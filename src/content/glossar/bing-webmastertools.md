@@ -57,7 +57,7 @@ Anders als Google zeigt dir Bing dein vollständiges Backlink-Profil. Welche Dom
 Ein eingebautes Tool, das deine Seiten auf technische SEO-Probleme scannt: Fehlende Alt-Tags, zu lange Titles, fehlende H1-Tags und mehr. Direkt im Browser, ohne Plugin.
 
 ### Keyword Research
-Suchvolumen und verwandte Keywords direkt in den Webmaster Tools. Kein SE Ranking, kein SEMrush nötig – zumindest für den ersten Überblick.
+Suchvolumen und verwandte Keywords direkt in den Webmaster Tools. Kein [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), kein SEMrush nötig – zumindest für den ersten Überblick.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Bing für GEO nutzen</h4>
@@ -81,3 +81,4 @@ ALOHA ✌️
 * **Lese-Tipp:** [Google Search Console verstehen](/glossar/google-search-console/)
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
 * **Lese-Tipp:** [Sitemap richtig einsetzen](/glossar/sitemap/)
+* **Lese-Tipp:** [Crawler verstehen](/glossar/crawler/)

@@ -56,7 +56,7 @@ Links, die ganz oben im Einleitungstext eines Artikels stehen, erhalten statisti
 
 KI-Suchmaschinen wie Perplexity oder ChatGPT versuchen, Themen ganzheitlich zu begreifen. Wenn du über eine "Entität" schreibt (z.B. ein spezifisches Software-Tool), helfen interne Links diesen Systemen dabei, die Grenzen deines Expertenwissens zu erkennen. 
 
-Durch eine dichte interne Vernetzung signalisierst du, dass du nicht nur einen einzigen Artikel zu einem Schlagwort hast, sondern ein ganzes Ökosystem an Wissen (Topical Authority). In KI-generierten Antworten wirst du eher als Primärquelle herangezogen, wenn die KI sieht, dass deine "Knowledge Node" (dein Wissensknotenpunkt) im Web durch viele interne Referenzen gestärkt wird. Wie man diese Sichtbarkeit in LLMs misst, erfährst du auch in meinem Beitrag zum [Rankscale AI Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/).
+Durch eine dichte interne Vernetzung signalisierst du, dass du nicht nur einen einzigen Artikel zu einem Schlagwort hast, sondern ein ganzes Ökosystem an Wissen (Topical Authority). In KI-generierten Antworten wirst du eher als Primärquelle herangezogen, wenn die KI sieht, dass deine "Knowledge Node" (dein Wissensknotenpunkt) im Web durch viele interne Referenzen gestärkt wird. Wie man diese Sichtbarkeit in LLMs misst, erfährst du auch in meinem Beitrag zum [[Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) AI Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/).
 
 ## Mein Tacheles-Rat für dich
 

@@ -2,7 +2,8 @@
 title: "AI SEO"
 description: "AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-ai-seo-3d.png"
+image_alt: "AI SEO 3D Infografik - Integrierte Strategie für Google und KI"
 related_terms: ["geo", "aeo", "llmo", "entity-seo"]
 key_takeaways:
   - "Dachbegriff: AI SEO vereint klassisches SEO mit GEO, AEO und LLMO unter einem Dach."
@@ -20,6 +21,8 @@ faqs:
 Moin!
 
 **AI SEO** – zwei Buchstaben, die alles verändern. Es ist der Dachbegriff für die nächste Evolution der Suchmaschinenoptimierung: Die Verbindung von klassischem Google-SEO mit der Optimierung für KI-Suchmaschinen.
+
+![AI SEO 3D Infografik](../../assets/images/glossar/glossar-ai-seo-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -69,7 +72,7 @@ In meiner täglichen Arbeit als [SEO & GEO Freelancer](/seo-freelancer-berlin/) 
 *   **Content:** Ist er [zitierfähig](/glossar/zitierfaehiger-content/) für KI-Systeme?
 *   **Technik:** Sind [Schema.org](/glossar/technisches-schema-markup/) und [strukturierte Daten](/glossar/strukturierte-daten/) implementiert?
 *   **Entity:** Wird mein Kunde als [Entität](/glossar/entitaeten-building/) erkannt?
-*   **Tracking:** Nutzen wir [AI Tracking Tools](/glossar/ai-tracking-tools/) neben der Search Console?
+*   **Tracking:** Nutzen wir [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) neben der [Google Search Console](https://seranking.com/de/?ga=4169588&source=link).
 
 ## Dein nächster Schritt
 

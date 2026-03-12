@@ -60,7 +60,7 @@ Hier ist der Überblick über meine "Epochen":
 
 Wir SEOs lieben unsere Tools. 
 
-Wir starren auf Graphen. SISTRIX. SE Ranking. Rankscale. 
+Wir starren auf Graphen. SISTRIX. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg). 
 
 Aber im Gespräch mit Björn wurde eines klar: 
 
@@ -120,3 +120,6 @@ Es ist kein klassisches "How-to-SEO".
 Es ist ein ehrliches **"How-to-Survive-SEO"**.
 
 ALOHA! 🌻✌️
+
+* **Lese-Tipp:** [24 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
+* **Lese-Tipp:** [SEO-Sprechstunde: So läuft der Prozess ab](/blog/seo-sprechstunde-so-laeuft-sie-ab/)

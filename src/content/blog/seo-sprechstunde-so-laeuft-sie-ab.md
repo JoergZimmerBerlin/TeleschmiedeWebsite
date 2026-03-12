@@ -56,7 +56,7 @@ Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Chec
 
 ## Schritt 2: Meine Hausaufgaben (Die Vorbereitung)
 
-Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, SE Ranking, Screaming Frog und natürlich die Google Search Console.
+Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), Screaming Frog und natürlich die Google Search Console.
 
 Ich erstelle mir ein Bild von deiner "digitalen Gesundheit". Gibt es technische Blocker? Ist dein Content gehaltvoll wie ein Berliner Eisbein oder eher dünne Suppe? Ich bereite mich so vor, dass ich im Call keine Zeit mit Suchen verschwenden muss. Wir starten bei Minute 1 direkt mit den harten Fakten.
 
@@ -85,3 +85,6 @@ Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz
 **[Jetzt Termin für die Sprechstunde anfragen](/kontakt/)**
 
 ALOHA! 🌻✌️
+
+* **Lese-Tipp:** [SEO Beratung: Warum ein Partner auf Augenhöhe Gold wert ist](/glossar/seo-beratung/)
+* **Lese-Tipp:** [SE Ranking: Mein liebstes All-in-One SEO Tool](/blog/sistrix-vs-se-ranking/)

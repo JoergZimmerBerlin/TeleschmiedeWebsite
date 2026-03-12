@@ -67,7 +67,7 @@ Du musst deine Fehlerseiten aktiv suchen.
 Ich nutze in meinen [Audits](/glossar/seo-audit/) die Google Search Console. 
 Dort gibt es einen Bericht zur Indexierung. 
 Stehen dort "Nicht gefunden (404)" Meldungen? 
-Dann ist es Zeit zu handeln. Auch Tools wie [SE Ranking](/blog/sistrix-vs-se-ranking/) finden diese Sackgassen sofort.
+Dann ist es Zeit zu handeln. Auch Tools wie [[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)](https://seranking.com/de/?ga=4169588&source=link) finden diese Sackgassen sofort.
 
 ## 404 Fehler in der KI-Suche ([GEO](/glossar/geo/))
 
@@ -93,3 +93,4 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)
 * **Lese-Tipp:** [Crawler verstehen](/glossar/crawler/)
+* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)

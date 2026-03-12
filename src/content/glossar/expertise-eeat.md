@@ -2,7 +2,8 @@
 title: "Expertise (E-E-A-T Faktor)"
 description: "Expertise ist der E-E-A-T Faktor, der bewertet, ob der Autor echtes Fachwissen mitbringt. Für YMYL-Themen ist Expertise existenziell."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/glossar-expertise-3d.png"
+image_alt: "Expertise (E-E-A-T) 3D Infografik - Tiefgreifendes Fachwissen als Qualitätsfaktor"
 related_terms: ["e-e-a-t", "experience-eeat", "authoritativeness-eeat", "trustworthiness-eeat"]
 key_takeaways:
   - "Qualifikation zählt: Bei Medizin, Recht und Finanzen will Google Fachleute sehen."
@@ -20,6 +21,8 @@ faqs:
 Moin!
 
 **Expertise** ist der E-E-A-T Faktor, der über Sein oder Nicht-Sein entscheidet – besonders bei sensiblen Themen. Google fragt: *Weiß der Autor wirklich, wovon er spricht?*
+
+![Expertise 3D Infografik](../../assets/images/glossar/glossar-expertise-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -47,7 +50,7 @@ Hier zählt die nachweisbare Praxis-Expertise. Du musst kein Professor sein – 
 
 ## Jörgs Action-Plan
 
-Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt.
+Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Nutze [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) um deine Sichtbarkeit zu tracken. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt. Professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) können dir bei der Marktanalyse helfen.
 
 ALOHA ✌️
 
@@ -61,3 +64,5 @@ ALOHA ✌️
 
 * **Lese-Tipp:** [E-E-A-T im Überblick](/glossar/e-e-a-t/)
 * **Lese-Tipp:** [Experience: Der Erfahrungsfaktor](/glossar/experience-eeat/)
+* **Lese-Tipp:** [Trustworthiness: Das Fundament](/glossar/trustworthiness-eeat/)
+* **Lese-Tipp:** [Authoritativeness: Die Autorität](/glossar/authoritativeness-eeat/)

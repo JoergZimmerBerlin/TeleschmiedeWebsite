@@ -107,14 +107,20 @@ const isActive = (href: string) => {
 </header>
 
 <script is:inline>
-  // Script to swap the static image with the actual YouTube iframe upon click
-  document.addEventListener('DOMContentLoaded', () => {
+  // Mobile menu toggle logic compatible with Astro View Transitions
+  document.addEventListener('astro:page-load', () => {
     const btn = document.getElementById('mobile-menu-btn');
     const menu = document.getElementById('mobile-menu');
 
-    btn?.addEventListener('click', () => {
-      const isHidden = menu?.classList.toggle('hidden');
-      btn.setAttribute('aria-expanded', String(!isHidden));
-    });
+    if (btn && menu) {
+      // Remove any existing listener to prevent double-firing (Astro best practice)
+      const newBtn = btn.cloneNode(true);
+      btn.parentNode.replaceChild(newBtn, btn);
+      
+      newBtn.addEventListener('click', () => {
+        const isHidden = menu.classList.toggle('hidden');
+        newBtn.setAttribute('aria-expanded', String(!isHidden));
+      });
+    }
   });
 </script>

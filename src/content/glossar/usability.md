@@ -2,7 +2,8 @@
 title: "Usability (Nutzungsfreundlichkeit)"
 description: "Usability entscheidet, ob Nutzer auf deiner Website bleiben oder gehen. Ein kritischer Faktor für SEO und Conversion."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-usability-3d.png"
+image_alt: "Usability 3D Infografik - User Experience und SEO"
 related_terms: ["pagespeed", "conversion-rate", "traffic", "core-web-vitals"]
 key_takeaways:
   - "User-Fokus: Gute Usability reduziert die Absprungrate und erhöht die Verweildauer."
@@ -16,6 +17,8 @@ faqs:
   - question: "Wie kann ich die Usability meiner Website testen?"
     answer: "Der erste Schritt kostet nichts: Gib fünf Freunden, die deine Seite nicht kennen, eine konkrete Aufgabe (z.B. 'Finde meine Preise und schick mir eine Anfrage') und schau ihnen dabei unkommentiert über die Schulter. Für datengetriebene Insights nutze ich Tools wie Microsoft Clarity oder Hotjar für Heatmaps und Session-Aufzeichnungen. Außerdem verraten dir hohe Absprungraten in Google Analytics exakt, an welchen Stellen die Usability deiner Nutzerführung scheitert."
 ---
+
+![Usability 3D Infografik: User Experience optimieren](../../assets/images/glossar/3d-light/glossar-usability-3d.png)
 
 Moin!
 
@@ -81,7 +84,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hängst du in der Design-Falle?</h3>
-  <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Lass uns deine Seite benutzerfreundlich machen.</p>
+  <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) machen wir deine Seite benutzerfreundlich und profitabel.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen →</a>
 </div>
 

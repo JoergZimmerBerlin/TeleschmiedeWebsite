@@ -2,7 +2,8 @@
 title: "Crawling vs. Indexing"
 description: "Crawling und Indexing sind die zwei grundlegenden Backend-Prozesse jeder Suchmaschine. Ihre Unterscheidung ist existenziell zur Fehlerbehebung im SEO."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-indexing-3d.png"
+image_alt: "Crawling vs Indexing 3D Infografik - Technisches SEO"
 related_terms: ["robots-txt", "linkjuice"]
 key_takeaways:
   - "Sequenzieller Prozess: Eine Seite muss erst fehlerfrei gecrawlt werden, bevor sie indexiert werden kann."
@@ -16,6 +17,8 @@ faqs:
   - question: "Ich habe versehentlich meine Seiten auf noindex gesetzt – wie schnell kann ich das reparieren?"
     answer: "Das ist der Relaunch-Klassiker! Entferne sofort das noindex-Tag, prüfe deinen HTTP-Header auf X-Robots-Tag (da versteckt es sich manchmal auch!), und reiche die betroffenen URLs einzeln in der Google Search Console zur erneuten Indexierung ein. Normalerweise dauert es 3-14 Tage, bis Google die Änderung verarbeitet hat. Je stärker die Domain, desto schneller geht es. Bei meinen Kunden löse ich solche Blockaden oft innerhalb einer einzigen Sprechstunde."
 ---
+
+![Crawling vs Indexing 3D Infografik: Der Weg in den Google Index](../../assets/images/glossar/3d-light/glossar-indexing-3d.png)
 
 Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
 

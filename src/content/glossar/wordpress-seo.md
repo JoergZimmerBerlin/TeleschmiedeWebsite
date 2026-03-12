@@ -2,7 +2,7 @@
 title: "WordPress SEO, TYPO3 & Plugins"
 description: "WordPress und TYPO3 sind die Giganten im CMS-Markt. Erfahre, wie du Yoast, Rank Math und WP Rocket für maximale Sichtbarkeit einsetzt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "pagespeed", "strukturierte-daten"]
 key_takeaways:
   - "Plugin-Macht: Tools wie Rank Math und Yoast SEO sind essenziell für technische Basics."

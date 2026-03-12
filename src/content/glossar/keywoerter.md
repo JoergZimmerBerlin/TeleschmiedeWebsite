@@ -2,7 +2,7 @@
 title: "Keywörter (Keywords)"
 description: "Keywords sind die Brücke zwischen Nutzerfrage und deiner Antwort. Lerne, wie du die richtigen Begriffe für dein SEO auswählst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-keyword-cluster.webp"
+image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"
 related_terms: ["suchvolumen", "keyword-tool", "money-keyword"]
 key_takeaways:
   - "Intent-Fokus: Ein Keyword ist kein Wort, sondern eine Suchabsicht des Nutzers."

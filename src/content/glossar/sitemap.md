@@ -2,7 +2,7 @@
 title: "Sitemap"
 description: "Eine Sitemap ist der Wegweiser für Google. Sie hilft Crawlern, alle wichtigen Seiten deiner Website schnell und effizient zu finden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-sitemap-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.png"
 image_alt: "Sitemap 3D Infografik - Die Architektur deiner Website für Suchmaschinen"
 related_terms: ["crawler", "robots-txt", "crawling-vs-indexing"]
 key_takeaways:

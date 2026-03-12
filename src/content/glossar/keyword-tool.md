@@ -2,7 +2,7 @@
 title: "Keyword Tool (SE Ranking & Co.)"
 description: "Ein Keyword Tool hilft dir, Suchbegriffe zu finden, zu analysieren und zu bewerten. Ohne Tool ist modernes SEO unmöglich."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-ai-geo.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["keywordrecherche", "keywoerter", "suchvolumen"]
 key_takeaways:
   - "Datengold: Tools liefern dir Suchvolumen, Konkurrenzstärke und Klickpreise (CPC) auf Knopfdruck."

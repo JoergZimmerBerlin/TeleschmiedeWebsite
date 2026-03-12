@@ -2,7 +2,7 @@
 title: "PageSpeed (Ladezeit-Optimierung)"
 description: "PageSpeed beschreibt die Zeitspanne, die eine Website benötigt, um Inhalte vollständig für den Nutzer darzustellen. Ein kritischer Rankingfaktor für SEO und UX."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-pagespeed-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-pagespeed-3d.png"
 image_alt: "PageSpeed 3D Infografik - Schnelligkeit als Rankingfaktor"
 related_terms: ["core-web-vitals", "noindex"]
 key_takeaways:

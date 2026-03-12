@@ -2,7 +2,7 @@
 title: "Citation (Zitierung)"
 description: "Eine Citation ist die Erwähnung deines Namens oder deiner Marke im Netz. In der KI-Ära sind Citations der Schlüssel dafür, ob ChatGPT, Perplexity oder Gemini dich als Experte zitieren."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["mention", "entitaet", "markenaufbau-mit-seo", "geo"]
 key_takeaways:
   - "KI-Antwortquelle: Wer in LLM-Trainingsdaten oft zitiert wird, taucht in ChatGPT- und Perplexity-Antworten auf."

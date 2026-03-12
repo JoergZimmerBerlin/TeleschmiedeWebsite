@@ -2,7 +2,7 @@
 title: "Rankingfaktoren"
 description: "Rankingfaktoren sind die Kriterien, nach denen Google Suchergebnisse sortiert. Über 200 Signale entscheiden, ob du auf Seite 1 oder auf Seite 10 landest."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["e-e-a-t", "core-web-vitals", "google-algorithmus", "technisches-seo"]
 key_takeaways:
   - "Über 200 Signale: Google nutzt hunderte Faktoren – aber nicht alle sind gleich wichtig."

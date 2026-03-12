@@ -2,7 +2,7 @@
 title: "Experience (E-E-A-T Faktor)"
 description: "Experience ist der neueste E-E-A-T Faktor. Google bewertet, ob der Autor echte Erfahrung mit dem Thema hat – nicht nur theoretisches Wissen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-experience-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-experience-3d.png"
 image_alt: "Experience (E-E-A-T) 3D Infografik - Reale Praxiserfahrung als Qualitätsmerkmal"
 related_terms: ["e-e-a-t", "expertise-eeat", "authoritativeness-eeat", "trustworthiness-eeat"]
 key_takeaways:
@@ -22,7 +22,7 @@ Moin!
 
 **Experience** (Erfahrung) ist der jüngste Buchstabe im [E-E-A-T](/glossar/e-e-a-t/) Framework – und gleichzeitig der revolutionärste. Google hat ihn Ende 2022 hinzugefügt, und der Grund ist simpel: In der KI-Ära muss Google unterscheiden können, ob ein Mensch wirklich Erfahrung mit einem Thema hat oder ob eine Maschine den Text generiert hat.
 
-![Experience 3D Infografik](../../assets/images/glossar/glossar-experience-3d.png)
+![Experience 3D Infografik](../../assets/images/glossar/3d-light/glossar-experience-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

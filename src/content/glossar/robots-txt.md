@@ -2,7 +2,7 @@
 title: "Robots.txt"
 description: "Die robots.txt ist eine essenzielle Textdatei im Wurzelverzeichnis von Websites. Sie steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse zugreifen dürfen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-robots-txt-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.png"
 image_alt: "robots.txt 3D Infografik - Die Steuerung der Suchmaschinen-Crawler"
 related_terms: ["crawling-vs-indexing", "geo", "sitemap"]
 key_takeaways:
@@ -22,7 +22,7 @@ Moin!
 
 Die **robots.txt** ist der Türsteher deiner Website. Sie ist eine einfache Textdatei, die im Hauptverzeichnis deiner Domain liegt und den Suchmaschinen-Crawlern ([Googlebot](/glossar/crawler/)) sagt: "Hier darfst du rein, und dort ist der Zutritt verboten."
 
-![robots.txt 3D Infografik](../../assets/images/glossar/glossar-robots-txt-3d.png)
+![robots.txt 3D Infografik](../../assets/images/glossar/3d-light/glossar-robots-txt-3d.png)
 
 Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner Tippfehler hier kann deine gesamte Online-Präsenz vernichten.
 

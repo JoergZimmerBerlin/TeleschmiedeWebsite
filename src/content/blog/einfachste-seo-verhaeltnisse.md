@@ -3,8 +3,8 @@ title: "Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist �
 description: "Ich komme aus einer Zeit mit 56k Modems und reinem HTML Code. Warum diese Basics heute wichtiger sind als jedes Hochglanz-Leerschwerdt. Jörgs SEO-Biografie."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-komme-aus-einfachsten-seo-verhaeltnissen-activity-7278776634860732416-L_oQ"
-image: "../../assets/images/blog/joerg-zimmer-dots-hero.png"
-image_alt: "Jörg Zimmer vor einer Wand mit bunten Punkten - Fokus auf das Wesentliche"
+image: "../../assets/images/blog/joerg-zimmer-dots-personal.png"
+image_alt: "Jörg Zimmer (SEO Architekt) vor einer Wand mit bunten Punkten - Fokus auf das Wesentliche"
 key_takeaways:
   - "Ein blitzsauberes technisches SEO-Fundament ist zeitlos und krisenfest."
   - "Design darf niemals die organische Performance killen."

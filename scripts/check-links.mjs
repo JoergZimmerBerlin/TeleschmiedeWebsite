@@ -1,225 +1,152 @@
 #!/usr/bin/env node
 
 /**
- * Post-Deploy Link-Check
+ * Post-Deploy Link-Check (Optimized & Parallel)
  *
  * Crawlt die Live-Site, extrahiert alle internen Links und prueft HTTP-Status.
- * Generisch fuer alle Astro-Projekte die site.config.ts / astro.config.mjs nutzen.
- *
- * Nutzung:
- *   node scripts/check-links.mjs                  # Domain aus Config
- *   SITE_URL=https://example.com node scripts/check-links.mjs  # Explizit
- *
- * HTTP Basic Auth (fuer passwortgeschuetzte Sites):
- *   SITE_USER=admin SITE_PASS=geheim node scripts/check-links.mjs
+ * 
+ * Verbesserungen:
+ * - Paralleles Crawling (Concurrency: 5)
+ * - Korrekte Behandlung von Font-Dateien (kein trailing slash)
+ * - Robustere URL-Erkennung
  */
 
 import { readFileSync } from "fs";
 import { resolve } from "path";
 
 // ---------------------------------------------------------------------------
-// Domain ermitteln
+// Konfiguration & Domain
 // ---------------------------------------------------------------------------
 
-function getSiteUrl() {
-  // 1. Env-Variable (hoechste Prioritaet — fuer CI)
-  if (process.env.SITE_URL) {
-    return process.env.SITE_URL.replace(/\/+$/, "");
-  }
+const CONCURRENCY = 5;
+const TIMEOUT_MS = 15_000;
 
-  // 2. astro.config.mjs → site: '...'
+function getSiteUrl() {
+  if (process.env.SITE_URL) return process.env.SITE_URL.replace(/\/+$/, "");
+
   try {
     const cfg = readFileSync(resolve("astro.config.mjs"), "utf-8");
-    const m = cfg.match(/site:\s*['"]([^'"]+)['"]/);
-    if (m) return m[1].replace(/\/+$/, "");
-  } catch {
-    /* ignore */
-  }
+    // Handhabt auch ternaere Ausdruecke oder komplexe Configs
+    const m = cfg.match(/site:\s*['"]([^'"]+)['"]/) || cfg.match(/site:\s*.*?\?\s*['"]([^'"]+)['"]/);
+    if (m) return (m[1] || m[2]).replace(/\/+$/, "");
+  } catch { /* ignore */ }
 
-  // 3. src/site.config.ts → domain: '...'
-  try {
-    const cfg = readFileSync(resolve("src/site.config.ts"), "utf-8");
-    const m = cfg.match(/domain:\s*['"]([^'"]+)['"]/);
-    if (m) return m[1].replace(/\/+$/, "");
-  } catch {
-    /* ignore */
-  }
-
-  console.error("Keine Site-URL gefunden. Setze SITE_URL oder pruefe astro.config.mjs");
+  console.error("Keine Site-URL gefunden. Setze SITE_URL.");
   process.exit(1);
 }
 
 // ---------------------------------------------------------------------------
-// Fetch mit Timeout
+// Fetch Logik
 // ---------------------------------------------------------------------------
 
-async function fetchWithTimeout(url, timeoutMs = 10_000) {
+async function fetchInternal(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  const headers = { "User-Agent": "Teleschmiede-Bot/2.0" };
 
-  const headers = { "User-Agent": "poliSYS-LinkChecker/1.0" };
-
-  // HTTP Basic Auth (fuer .htpasswd-geschuetzte Sites)
   if (process.env.SITE_USER && process.env.SITE_PASS) {
     const cred = Buffer.from(`${process.env.SITE_USER}:${process.env.SITE_PASS}`).toString("base64");
     headers["Authorization"] = `Basic ${cred}`;
   }
 
   try {
-    const res = await fetch(url, {
-      redirect: "follow",
-      signal: controller.signal,
-      headers,
-    });
-    const html = res.ok ? await res.text() : "";
+    const res = await fetch(url, { redirect: "follow", signal: controller.signal, headers });
+    const isHtml = res.headers.get("content-type")?.includes("text/html");
+    const html = (res.ok && isHtml) ? await res.text() : "";
     return { url, status: res.status, ok: res.ok, html };
   } catch (err) {
-    const msg = err.name === "AbortError" ? "TIMEOUT" : err.message;
-    return { url, status: 0, ok: false, html: "", error: msg };
+    return { url, status: 0, ok: false, html: "", error: err.name === "AbortError" ? "TIMEOUT" : err.message };
   } finally {
     clearTimeout(timer);
   }
 }
 
 // ---------------------------------------------------------------------------
-// Interne Links extrahieren
+// Link-Extraktion
 // ---------------------------------------------------------------------------
 
-function extractLinksAndAssets(html, baseUrl) {
-  const links = new Set();
-  const assets = new Set();
-  
-  // Extract <a> hrefs
-  const hrefRegex = /href=["']([^"'#\s]+?)["']/g;
-  let match;
-  while ((match = hrefRegex.exec(html)) !== null) {
-    let href = match[1].trim();
-    if (/^(mailto:|tel:|javascript:)/.test(href)) continue;
-    if (href.includes("${")) continue;
-    if (href.startsWith("http") && !href.startsWith(baseUrl)) continue;
+function extractLinks(html, baseUrl) {
+  const found = new Set();
+  const regex = /(?:href|src)=["']([^"'\s#]+?)["']/g;
+  let m;
 
-    if (href.startsWith("/")) {
-      href = baseUrl + href;
-    } else if (!href.startsWith("http")) {
-      continue;
+  while ((m = regex.exec(html)) !== null) {
+    let raw = m[1].trim();
+    if (/^(mailto:|tel:|javascript:|data:|\$\{)/.test(raw)) continue;
+
+    let fullUrl;
+    if (raw.startsWith("/")) {
+      fullUrl = baseUrl + raw;
+    } else if (raw.startsWith("http")) {
+      if (!raw.startsWith(baseUrl)) continue;
+      fullUrl = raw;
+    } else {
+      continue; // Relative Pfade ohne / werden ignoriert (nicht Standard in Astro)
     }
 
-    href = href.split("?")[0].split("#")[0];
+    // Clean URL
+    fullUrl = fullUrl.split("?")[0].split("#")[0];
     
-    // Distinguish between pages and binary assets
-    if (/\.(png|jpe?g|gif|svg|webp|ico|pdf|xml|txt|json)$/i.test(href)) {
-      assets.add(href);
-    } else if (!/\.(css|js|map)$/i.test(href)) {
-      if (!href.endsWith("/")) href += "/";
-      links.add(href);
+    // Trailing Slash Logik: Nur für URLs ohne Dateiendung
+    const isFile = /\.[a-z0-9]{2,10}$/i.test(fullUrl);
+    if (!isFile && !fullUrl.endsWith("/")) {
+      fullUrl += "/";
     }
-  }
 
-  // Extract <img> srcs
-  const srcRegex = /src=["']([^"'\s]+?)["']/g;
-  while ((match = srcRegex.exec(html)) !== null) {
-    let src = match[1].trim();
-    if (src.startsWith("data:")) continue;
-    if (src.startsWith("/")) {
-      src = baseUrl + src;
-    } else if (!src.startsWith("http")) {
-      continue;
-    }
-    src = src.split("?")[0].split("#")[0];
-    assets.add(src);
+    found.add(fullUrl);
   }
-
-  return { links, assets };
+  return found;
 }
 
 // ---------------------------------------------------------------------------
-// Main
+// Engine
 // ---------------------------------------------------------------------------
 
 async function main() {
   const siteUrl = getSiteUrl();
-  console.log(`\n  Link-Check: ${siteUrl}\n`);
+  console.log(`\n🚀 Starte Link-Check fuer: ${siteUrl}`);
 
-  // Initial delay for deployment propagation
-  const INITIAL_WAIT = 15_000;
-  console.log(`Warte ${INITIAL_WAIT/1000}s auf Propagation...`);
-  await new Promise(r => setTimeout(r, INITIAL_WAIT));
-
-  let visited = new Set();
-  let queue = [siteUrl + "/"];
-  let results = [];
-  let retryCount = 0;
-  const MAX_RETRIES = 2;
+  const visited = new Map();
+  const queue = [siteUrl + "/"];
+  const results = [];
 
   while (queue.length > 0) {
-    const url = queue.shift();
-    if (visited.has(url)) continue;
-    visited.add(url);
+    const batch = queue.splice(0, CONCURRENCY);
+    const promises = batch.map(async (url) => {
+      if (visited.has(url)) return;
+      visited.set(url, "processing");
 
-    let result = await fetchWithTimeout(url);
-    
-    if (!result.ok && retryCount < MAX_RETRIES) {
-      console.log(`Warnung: Fetch fehlgeschlagen fuer ${url}. Retry ${retryCount+1}/2 in 5s...`);
-      await new Promise(r => setTimeout(r, 5000));
-      result = await fetchWithTimeout(url);
-    }
-
-    results.push(result);
-
-    if (result.ok && result.html) {
-      const { links, assets } = extractLinksAndAssets(result.html, siteUrl);
+      process.stdout.write(`  Pruefe: ${url.replace(siteUrl, "") || "/"} ... `);
+      const res = await fetchInternal(url);
+      console.log(res.ok ? "✅" : `❌ (${res.status || res.error})`);
       
-      // Add pages to crawl queue
-      for (const link of links) {
-        if (!visited.has(link)) queue.push(link);
-      }
-      
-      // Check assets (but don't crawl them)
-      for (const asset of assets) {
-        if (!visited.has(asset)) {
-          visited.add(asset);
-          let assetRes = await fetchWithTimeout(asset);
-          if (!assetRes.ok) {
-             // Retry asset too
-             await new Promise(r => setTimeout(r, 2000));
-             assetRes = await fetchWithTimeout(asset);
-          }
-          results.push(assetRes);
+      results.push(res);
+      visited.set(url, res.ok ? "ok" : "fail");
+
+      if (res.ok && res.html) {
+        const found = extractLinks(res.html, siteUrl);
+        for (const link of found) {
+          if (!visited.has(link)) queue.push(link);
         }
       }
-    }
+    });
+
+    await Promise.all(promises);
   }
 
-  // --- Ergebnis-Tabelle ---
-  const colUrl = 50;
-  const colStatus = 8;
-  const line = "\u2500".repeat(colUrl + colStatus + 12);
+  // --- Report ---
+  const fails = results.filter(r => !r.ok);
+  console.log("\n" + "─".repeat(60));
+  console.log(`Check beendet: ${results.length} URLs geprueft, ${fails.length} Fehler.`);
+  console.log("─".repeat(60));
 
-  console.log(line);
-  console.log(`${"URL".padEnd(colUrl)} ${"Status".padEnd(colStatus)} Ergebnis`);
-  console.log(line);
-
-  let errors = 0;
-
-  for (const r of results.sort((a, b) => a.url.localeCompare(b.url))) {
-    const short = r.url.replace(siteUrl, "") || "/";
-    const status = r.error || String(r.status);
-    const label = r.ok ? "OK" : "FEHLER";
-
-    if (!r.ok) errors++;
-
-    console.log(`${short.padEnd(colUrl)} ${status.padEnd(colStatus)} ${label}`);
-  }
-
-  console.log(line);
-  console.log(`\n  ${results.length} Links geprueft, ${errors} Fehler\n`);
-
-  if (errors > 0) {
-    console.error("Link-Check fehlgeschlagen — siehe Fehler oben.");
+  if (fails.length > 0) {
+    console.error("\nGEFUNDENE FEHLER:");
+    fails.forEach(f => console.error(`  [${f.status || "ERR"}] ${f.url}`));
     process.exit(1);
   }
 
-  console.log("Alle Links OK.");
+  console.log("\n✅ Alle internen Links und Assets sind erreichbar.\n");
 }
 
 main();

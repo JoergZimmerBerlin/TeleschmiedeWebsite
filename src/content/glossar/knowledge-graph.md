@@ -46,7 +46,7 @@ Du kannst dich nicht direkt "anmelden", um in den Knowledge Graph zu kommen, abe
 
 1.  **Wikidata & Wikipedia:** Diese Portale sind die primäre Datenquelle für den Knowledge Graph. Ein Eintrag dort ist fast eine Garantie für ein Knowledge Panel, aber die Hürden (Relevanzkriterien) sind extrem hoch.
 2.  **Schema.org JSON-LD:** Nutze auf deiner Startseite und Über-Mich-Seite das Schema-Markup für `Organization` oder `Person`. Verweise mit dem `sameAs`-Attribut auf alle deine gesicherten Profile im Web (Social Media, Partnerseiten, Einträge in Branchenregistern).
-3.  **Konsistente Citations:** Sorge dafür, dass dein Name, dein Logo und deine Gründungsdaten in allen großen Verzeichnissen (LinkedIn, Crunchbase, Google Business) identisch sind. Widersprüche führen dazu, dass Google dich nicht eindeutig als eine einzige Entität identifizieren kann.
+3.  **Konsistente Citations:** Sorge dafür, dass dein Name, dein Logo und deine Gründungsdaten in allen großen Verzeichnissen (LinkedIn, Crunchbase, Google Business) identisch sind. Widersprüche führen dazu, dass Google dich nicht eindeutig als eine einzige Entität identifizieren kann. Ich nutze dafür das [AI-Visibility-Tracking von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), um schwarz auf weiß zu sehen, wie stabil deine Marke bereits in den KI-Antworten verankert ist.
 
 ## Der Knowledge Graph in Zeiten von KI ([GEO](/glossar/geo/))
 

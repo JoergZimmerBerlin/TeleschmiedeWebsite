@@ -18,8 +18,6 @@ faqs:
     answer: "Das ist der Relaunch-Klassiker! Entferne sofort das noindex-Tag, prüfe deinen HTTP-Header auf X-Robots-Tag (da versteckt es sich manchmal auch!), und reiche die betroffenen URLs einzeln in der Google Search Console zur erneuten Indexierung ein. Normalerweise dauert es 3-14 Tage, bis Google die Änderung verarbeitet hat. Je stärker die Domain, desto schneller geht es. Bei meinen Kunden löse ich solche Blockaden oft innerhalb einer einzigen Sprechstunde."
 ---
 
-![Crawling vs Indexing 3D Infografik: Der Weg in den Google Index](../../assets/images/glossar/3d-light/glossar-indexing-3d.png)
-
 Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
@@ -29,7 +27,7 @@ Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelance
 
 In meiner täglichen Arbeit muss ich ständig Indexierungs-Blockaden beheben: Seiten, die als "Gecrawlt, aber nicht indexiert" gemeldet werden, oder Kunden, die sich unbewusst selbst blockieren – sei es durch ein vergessenes noindex-Tag vom Relaunch oder eine falsch konfigurierte robots.txt. Die meisten wollen indexiert werden, wissen aber nicht, dass sie sich selbst im Weg stehen.
 
-Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du deine Indexierung und AI-Sichtbarkeit im Auge behalten. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
+Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Mit dem [Index-Monitoring von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du deine Indexierung und AI-Sichtbarkeit im Auge behalten. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
 
 ---
 
@@ -41,9 +39,16 @@ Google schickt winzige Programme (die "Googlebots") durch das extrem verbundene 
 
 Finden sie eine neue HTML-URL, fragen sie diese beim Webserver an, warten geduldig bis der Server eine Antwort schickt (Server Return Codes im Idealfall: HTTP 200) und laden den Quellcode der Seite (oder die Bilder, das JavaScript und die CSS-Stylesheets) komplett herunter. 
 
-**Das wichtigste Merkmal:** Was beim Crawlen passiert, bleibt beim Crawlen. Wenn ein Googlebot einen Blogartikel physisch "liest" (geladen hat), bedeutet das noch in absolut keiner Form, dass dieser Artikel jemals in den öffentlichen Suchergebnissen auftauchen wird. 
 
-### Der Türsteher: Die robots.txt
+### Übersicht: Crawling vs. Indexing
+
+| Merkmal | Crawling (Entdecken) | Indexing (Verstehen) |
+| :--- | :--- | :--- |
+| **Akteur** | Googlebot (Crawler) | Indexier-Algorithmus |
+| **Ziel** | Seite finden & HTML laden | Seite verstehen & bewerten |
+| **Steuerung** | robots.txt (Betreten verboten) | Meta-Robots (Indexieren verboten) |
+| **Voraussetzung** | Link oder Sitemap vorhanden | Erfolgreiches Crawling |
+| **Ergebnis** | Daten sind auf Google-Servern | Seite erscheint in der Suche |
 
 Der einzige Mechanismus, der das Crawling einer URL aktiv **vorab** verbieten kann, ist die Domain-weite Steuerungsdatei `robots.txt`. Sieht der Crawler darin in der Befehlszeile ein `Disallow: /geheimes-verzeichnis/`, dann betritt er diesen Pfad gar nicht erst. Er dreht im Vorgarten um und speichert keinen Fetzen Code von dort auf den Google-Servern. Mehr dazu im Detail in meinem Fachartikel zur [Robots.txt](/glossar/robots-txt/).
 
@@ -90,7 +95,7 @@ Wie soll der Indexer das Buch jetzt aktualisieren und die Seite aus seinen Suche
 
 Man sperrt den Bot logischerweise rigoros **aus** und friert damit den fehlerhaften Zustand im Google-Index permanent **ein**. Die Folge: Man rankt oft für Monate fehlerhaft weiter, und Tools wie [Sistrix schlagen im Sichtbarkeitsindex Alarm](/blog/sistrix-vs-se-ranking/).
 
-Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament einer robusten Online-Reputation ab der ersten Zeile Code. Nutze Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um Indexierungsfehler frühzeitig zu erkennen.
+Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament einer robusten Online-Reputation ab der ersten Zeile Code. Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um Indexierungsfehler frühzeitig zu erkennen.
 
 ## Dein nächster Schritt
 

@@ -53,7 +53,7 @@ Der Unterschied? Der zweite Satz ist eine klare Definition, die eine KI direkt a
 
 ## Mein Tacheles-Rat für dich
 
-Nimm deine 5 wichtigsten Seiten und prüfe: Gibt es in jedem Abschnitt mindestens einen Satz, den eine KI direkt als Antwort verwenden könnte? Wenn nicht, überarbeite den Content. Das ist der schnellste Weg zu mehr KI-Sichtbarkeit.
+Nimm deine 5 wichtigsten Seiten und prüfe: Gibt es in jedem Abschnitt mindestens einen Satz, den eine KI direkt als Antwort verwenden könnte? Wenn nicht, überarbeite den Content. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir anschließend, wie oft diese Sätze tatsächlich als Zitat ausgespielt werden.
 
 ALOHA ✌️
 

@@ -33,8 +33,7 @@ Das sind die auffälligen Suchergebnisse mit Sternchen, Preisen, FAQ-Boxen oder 
 Wer ein Rich Snippet hat, bekommt deutlich mehr Klicks.
 Und mehr Klicks (CTR) führen indirekt zu besseren Rankings.
 
-In meinen [SEO Audits](/glossar/seo-audit/) ist das Fehlen von strukturierten Daten der Fehler Nummer 1.
-80% aller KMU-Websites verschenken hier massiv [Sichtbarkeit](/glossar/sichtbarkeit/).
+In meinen [SEO Audits](/glossar/seo-audit/) ist das Fehlen von strukturierten Daten der Fehler Nummer 1. 80% aller KMU-Websites verschenken hier massiv [Sichtbarkeit](/glossar/sichtbarkeit/). Ich nutze in solchen Fällen oft [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um diese Lücken in Sekunden aufzudecken und die Umsetzung für meine Kunden zu priorisieren.
 
 ## JSON-LD: Der Goldstandard
 
@@ -56,8 +55,7 @@ Wenn du via `Organization` Markup sagst, wer du bist und wo du sitzt, verknüpft
 Das ist die Basis für deine Autorität ([E-E-A-T](/glossar/e-e-a-t/)) im Netz.
 
 In der Welt der KI-Suche ([GEO](/glossar/geo/)) sind strukturierte Daten die primäre Quelle für LLM-Agenten.
-Sie "fressen" diese formatierten Daten, um korrekte Antworten zu generieren.
-Wer keinen maschinenlesbaren Content liefert, existiert für eine KI nicht.
+Sie "fressen" diese formatierten Daten, um korrekte Antworten zu generieren. Deshalb kontrolliere ich mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) heute bereits bei meinen Kunden, ob diese Daten auch bei ChatGPT und Perplexity ankommen. Wer keinen maschinenlesbaren Content liefert, existiert für eine KI nicht.
 
 ## Meine Erfahrung als [SEO Experte](/seo-freelancer-berlin/)
 

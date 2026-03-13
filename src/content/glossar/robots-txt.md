@@ -22,7 +22,7 @@ Moin!
 
 Die **robots.txt** ist der Türsteher deiner Website. Sie ist eine einfache Textdatei, die im Hauptverzeichnis deiner Domain liegt und den Suchmaschinen-Crawlern ([Googlebot](/glossar/crawler/)) sagt: "Hier darfst du rein, und dort ist der Zutritt verboten."
 
-![robots.txt 3D Infografik](../../assets/images/glossar/3d-light/glossar-robots-txt-3d.png)
+
 
 Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner Tippfehler hier kann deine gesamte Online-Präsenz vernichten.
 
@@ -74,7 +74,7 @@ Die `robots.txt` ist ein mächtiges, wenn auch stumpfes Schwert.
 Sperre Backend-URLs und Suchergebnisse, aber lass die Finger von Content-Seiten, wenn du nicht genau weißt, was du tust.
 Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine Datei live zu überwachen.
 
-Nutze professionelle SEO-Software wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine robots.txt regelmäßig zu validieren und unerwünschte Sperren zu finden. ALOHA ✌️
+Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine robots.txt regelmäßig zu validieren und technische Fehler zu finden, bevor sie dein Ranking kosten. ALOHA ✌️
 
 ---
 

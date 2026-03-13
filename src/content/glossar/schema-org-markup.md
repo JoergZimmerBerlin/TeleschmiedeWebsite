@@ -68,7 +68,7 @@ Wer kein sauberes Schema-Markup hat, läuft Gefahr, von KIs falsch interpretiert
 
 Schema.org ist das mächtigste Werkzeug in meinem Kasten, von dem Kunden oft gar nichts mitbekommen.
 Es ist die unsichtbare Architektur des Erfolgs.
-Wer lernt, das Schema-Vokabular strategisch einzusetzen, baut keine Website mehr, sondern eine autoritäre Wissensdatenbank.
+Wer lernt, das Schema-Vokabular strategisch einzusetzen, baut keine Website mehr, sondern eine autoritäre Wissensdatenbank. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine technische Basis und stellen sicher, dass dein Markup nicht nur vorhanden, sondern auch effektiv ist.
 Und genau das ist es, was Google heute belohnt.
 
 ## Mein Tacheles-Rat für dich
@@ -81,7 +81,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für Google noch 'stumm'?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Lass uns deine Daten sprechen lassen.</p>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine Sichtbarkeit in der KI-Suche ab.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen →</a>
 </div>
 

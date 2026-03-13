@@ -2,7 +2,7 @@
 title: "Interne Verlinkung (On-Page Linking)"
 description: "Die interne Verlinkung steuert den Nutzerfluss und die Verteilung von Autorität (Linkjuice) auf deiner Website. Erfahre, wie du eine perfekte Struktur aufbaust."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-interne-verlinkung-3d.webp"
 related_terms: ["linkjuice", "crawling-vs-indexing"]
 key_takeaways:
   - "Struktur-Master: Die interne Verlinkung definiert das Rückgrat deiner Website-Hierarchie."
@@ -17,7 +17,9 @@ faqs:
     answer: "Der Ankertext (Anchor Text) ist der sichtbare, meist bläulich markierte und klickbare Text eines Hyperlinks. Bei der internen Verlinkung ist er dein stärkstes semantisches Steuerungsinstrument. Du solltest hier niemals nichtssagende Phrasen wie 'Hier klicken' verwenden, sondern immer das exakte Fokus-Keyword der Zielseite (z.B. 'zur SEO Beratung'). Google liest diesen Ankertext aus und versteht so sofort, für welches Thema die verlinkte Seite ranken soll."
 ---
 
-Die interne Verlinkung beschreibt alle Hyperlinks auf einer Website, die von einer Unterseite zu einer anderen Unterseite derselben Domain führen. Im Gegensatz zu Backlinks (externe Links von fremden Seiten) hast du hier die absolute Kontrolle über 100% aller Parameter.
+![Interne Verlinkung Infografik](../../assets/images/glossar/3d-light/glossar-interne-verlinkung-3d.webp)
+
+Moin! 🔗
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -44,7 +46,7 @@ Ein strategisch klug gesetzter interner Link erfüllt drei Aufgaben gleichzeitig
 In meinen [SEO-Beratungen in Berlin](/seo-freelancer-berlin/) ist die Reparatur der internen Verlinkung oft der erste Schritt. Hier sind die wichtigsten Regeln:
 
 ### 1. Aussagekräftige Ankertexte (Anchor Texts)
-Verzichte auf Links wie "hier klicken" oder "mehr lesen". Das ist für Suchmaschinen völlig wertlos. Nutze stattdessen das Ziel-Keyword als Linktext. Wenn du auf eine Seite über SEO-Preise verlinkst, nenne den Link auch "[SEO-Freelancer Preise](/blog/se-ranking-preise/)". So erfährt Google schon vor dem Klick, worum es auf der Zielseite geht.
+Verzichte auf Links wie "hier klicken" oder "mehr lesen". Das ist für Suchmaschinen völlig wertlos. Nutze stattdessen das Ziel-Keyword als Linktext. Wenn du auf eine Seite über SEO-Preise verlinkst, nenne den Link auch "[SEO-Freelancer Preise](/blog/se-ranking-preise/)". Professionelle SEO-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) helfen dir dabei, die Relevanz deiner Ankertexte zu optimieren.
 
 ### 2. Die Link-Tiefe minimieren
 Jede wichtige Seite deiner Website sollte mit maximal drei Klicks von der Startseite aus erreichbar sein. Je tiefer eine URL in der Hierarchie vergraben ist, desto weniger Linkjuice kommt dort an und desto seltener wird sie gecrawlt.

@@ -17,7 +17,6 @@ faqs:
     answer: "Featured Snippets sind die hervorgehobenen Antwortboxen über den normalen Suchergebnissen – Position 0. Google wählt dafür Content aus, der eine Frage direkt und präzise beantwortet. Optimiere dafür: Verwende die Frage als H2-Überschrift, beantworte sie in 2-3 Sätzen direkt darunter, und nutze Listen oder Tabellen für strukturierte Informationen. Auf meiner Seite generieren mehrere Glossar-Einträge Featured Snippets, weil sie genau diesem Format folgen."
 ---
 
-![Snippet-Optimierung Infografik](../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp)
 
 Moin! 🌻
 
@@ -57,7 +56,7 @@ Das Featured Snippet ist die Box über allen anderen Ergebnissen. Es beantwortet
 
 ## Mein Tacheles-Rat für dich
 
-Öffne die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Das ist eine der schnellsten SEO-Maßnahmen mit sofortigem Impact.
+Öffne dein Dashboard bei [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir anschließend, ob dein Snippet-Upgrade auch deine Präsenz in Featured Snippets und KI-Antworten boostet.
 
 ALOHA ✌️
 

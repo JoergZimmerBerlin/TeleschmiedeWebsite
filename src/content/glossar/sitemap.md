@@ -32,7 +32,7 @@ Besonders für neue Websites oder Seiten mit tausenden Artikeln ist sie absolut 
 
 ## Die zwei Arten von Sitemaps
 
-Früher gab es Sitemaps oft noch als reine HTML-Seiten für Nutzer. Heute sprechen wir im SEO fast ausschließlich von der **XML-Sitemap**. Das ist eine Datei, die speziell für Maschinen (Google, Bing, KI-Bots) geschrieben ist. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du prüfen, ob deine Sitemaps auch von modernen KI-Suchmaschinen effizient gecrawlt werden. Sie liegt meistens unter `/sitemap.xml/`. Sie ist purer Code, den der [Crawler](/glossar/crawler/) ausliest.
+Früher gab es Sitemaps oft noch als reine HTML-Seiten für Nutzer. Heute sprechen wir im SEO fast ausschließlich von der **XML-Sitemap**. Das ist eine Datei, die speziell für Maschinen (Google, Bing, KI-Bots) geschrieben ist. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du prüfen, ob deine Sitemaps auch von modernen KI-Suchmaschinen effizient gecrawlt werden. Sie liegt meistens unter `/sitemap.xml`. Sie ist purer Code, den der [Crawler](/glossar/crawler/) ausliest.
 2.  **HTML-Sitemap:** Das ist eine Seite für Menschen (oft im Footer verlinkt). Gut für die [Usability](/glossar/usability/), aber SEO-technisch weniger relevant als die XML-Version.
 
 ## Warum brauchst du eine Sitemap?

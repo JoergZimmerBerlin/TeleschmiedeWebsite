@@ -2,7 +2,7 @@
 title: "Pressearbeit im SEO (Digital PR)"
 description: "Pressearbeit im SEO (Digital PR) verbindet klassische PR mit Suchmaschinenoptimierung. Erfahre, wie Medienarbeit deine Rankings, Autorität und KI-Sichtbarkeit stärkt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 related_terms: ["linkbuilding", "mention", "e-e-a-t", "markenaufbau-mit-seo"]
 key_takeaways:
   - "Natürliche Backlinks: Pressearbeit erzeugt die hochwertigsten Links, die kein Geld der Welt kaufen kann."
@@ -19,7 +19,9 @@ faqs:
 
 Moin!
 
-Wenn mich jemand fragt: „Jörg, was ist der eine SEO-Hack, der alles andere in den Schatten stellt?" – dann sage ich: **Pressearbeit**. Nicht wegen eines einzelnen Links, sondern wegen des Gesamteffekts auf deine digitale Autorität.
+![Pressearbeit Infografik](../../assets/images/glossar/3d-light/glossar-authority-3d.webp)
+
+Moin! 🗞️
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -34,8 +36,8 @@ Die Zeiten, in denen man SEO-Links in Webkatalogen oder Forenkommentaren „aufg
 
 **Digital PR** liefert genau das, was Google sehen will:
 *   **Natürliche, redaktionelle Links** von vertrauenswürdigen Domains
-*   **Brand Mentions** ([Erwähnungen](/glossar/mention/)) in relevanten Kontexten
-*   **Signale für Expertise** (ein Interview zum Thema SEO bestätigt deine Fachkompetenz)
+*   **Brand Mentions** ([Erwähnungen](/glossar/mention/)) in relevanten Kontexten. Ob deine Marke bereits in KI-Antworten als Autorität auftaucht, kannst du mit [Rankscale AI Tracking](https://app.rankscale.ai/auth/signup?via=joerg) validieren.
+*   **Signale für Expertise** (ein Interview zum Thema SEO bestätigt deine Fachkompetenz). Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysierst du die Wirkung dieser PR-Massnahmen auf dein Ranking-Profil.
 
 ## Die PR-Strategie für SEO-Profis
 

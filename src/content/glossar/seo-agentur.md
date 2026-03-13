@@ -1,6 +1,6 @@
 ---
 title: "SEO Agentur & SEO Agentur Berlin"
-description: "Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) machen wir Ergebnisse messbar, während [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat."
+description: "Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit dem [Profitability-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) machen wir Ergebnisse messbar, während [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
@@ -41,7 +41,7 @@ Ein **SEO Profi** oder Freelancer (wie ich ihn verkörpere) bietet dafür maxima
 ### Was eine wirklich gute SEO Agentur auszeichnet:
 1.  **Keine Ranking-Garantien:** Wer dir Platz 1 bei Google verspricht, lügt. Google gehört niemandem außer Google. Wir beeinflussen die Wahrscheinlichkeit, aber wir garantieren nicht.
 2.  **Ganzheitliches Marketing:** Sie verstehen, dass SEO nur ein Teil des **SEO Marketing** Mixes ist.
-3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast.
+3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast. In meiner Beratung nutzen wir die [unabhängigen Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die Berichte von Agenturen objektiv gegenprüfen zu können – Vertrauen ist gut, Kontrolle ist SEO.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vorsicht bei Billig-Angeboten</h4>
@@ -72,7 +72,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Pfusch am Bau bei deiner SEO Agentur?</h3>
-  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine Ergebnisse und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit der [technischen Analyse von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine Ergebnisse und mit dem [SGE-Tracking von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zweitmeinung anfragen →</a>
 </div>
 

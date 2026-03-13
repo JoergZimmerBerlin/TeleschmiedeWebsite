@@ -2,7 +2,7 @@
 title: "Mention (Markennennung)"
 description: "Eine Mention ist die namentliche Erwähnung einer Marke oder Person im Netz. Sie dient als indirektes Vertrauenssignal für Suchmaschinen und KI-Modelle."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
+image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["citation", "entitaet", "e-e-a-t"]
 key_takeaways:
   - "Implizite Links: Auch ohne klickbaren Hyperlink wertet Google eine Markennennung als Vertrauenssignal."
@@ -17,7 +17,9 @@ faqs:
     answer: "Der effektivste Weg führt heute über digitale PR und Thought Leadership in B2B-Netzwerken. Gastbeiträge in Fachmagazinen, Auftritte in Branchen-Podcasts oder exklusive Daten-Studien, die von Journalisten aufgegriffen werden, sind Gold wert. In meinem Alltag als SEO-Consultant merke ich: Wenn du starke Meinungen auf LinkedIn postest und aktiv in relevanten Communities diskutierst, folgen die organischen Mentions fast von allein."
 ---
 
-Eine Mention (oder Markennennung) beschreibt den Moment, in dem dein Markenname, dein Produkt oder dein Personenname im Internet auftaucht, ohne dass notwendigerweise ein Link zu deiner Website gesetzt wurde. 
+
+
+Moin! 🗣️
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -48,7 +50,7 @@ Je öfter du erwähnt wirst, desto eher begreift Google, dass du eine relevante 
 Wie sorgst du dafür, dass über dich gesprochen wird?
 1.  **PR und Media Relations:** Gastbeiträge auf Fachportalen sind oft wertvoller für die Mention-Bilanz als ein gekaufter Backlink aus einem versteckten Archiv.
 2.  **Social Listening:** Nutze Tools wie Google Alerts oder spezialisierte Brand-Tracker, um sofort zu erfahren, wenn jemand über dich spricht. Trete in den Dialog!
-3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
+3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Ich analysiere meine [Visibility-Trends mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um zu sehen, wie meine Reputation im Vergleich zur Konkurrenz wächst. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
 
 ## Mentions in der generativen KI-Suche ([GEO](/glossar/geo/))
 

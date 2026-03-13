@@ -68,12 +68,12 @@ Die Gründe, warum du es trotzdem implementieren solltest:
   <p class="mb-0 text-sm">Jeder Glossar-Eintrag auf meiner Seite hat 3 FAQs mit ausführlichen Antworten. Die Daten werden im YAML-Frontmatter gepflegt und automatisch als JSON-LD Schema UND als sichtbares Accordion gerendert. So ist garantiert, dass Schema und sichtbarer Inhalt immer identisch sind – keine Diskrepanzen, kein Spam-Risiko.</p>
 </div>
 
-## Testen und Validieren
-
 Teste dein FAQ-Markup immer im [Google Rich Results Test](https://search.google.com/test/rich-results). Dort siehst du sofort:
 *   Ob dein Schema fehlerfrei ist
 *   Welche Rich Results möglich sind
 *   Ob es Warnungen oder Fehler gibt
+
+Zusätzlich nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die tatsächliche Ausspielung deiner Rich Snippets in den echten SERPs zu überwachen und bei Bedarf nachzujustieren.
 
 ## Mein Tacheles-Rat für dich
 
@@ -85,7 +85,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Schema.org Setup braucht ein Upgrade?</h3>
-  <p class="mb-6">Ich implementiere für dich ein sauberes FAQ-Markup, das sowohl Google als auch KI-Systeme begeistert. Lass uns deine Sichtbarkeit maximieren.</p>
+  <p class="mb-6">Ich implementiere für dich ein sauberes FAQ-Markup, das sowohl Google als auch KI-Systeme begeistert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) prüfen wir, ob deine FAQs auch in den Antworten von ChatGPT & Co. ankommen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Check anfragen →</a>
 </div>
 

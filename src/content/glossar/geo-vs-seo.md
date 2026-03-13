@@ -22,7 +22,6 @@ Moin!
 
 Wir befinden uns mitten im größten Wandel seit dem Start von Google. Der Kampf heißt **GEO vs. SEO**. 
 
-![GEO vs. SEO 3D Infografik](../../assets/images/glossar/3d-light/glossar-geo-vs-seo-3d.png)
 Früher war das Ziel klar: Platz 1 in den Suchergebnissen. 
 Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Google Search Generative Experience (SGE) als Quelle genannt?
 
@@ -31,7 +30,7 @@ Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Go
   <p class="italic text-dark mb-0">"Guck dir mal deinen PageSpeed auf dem Handy an. Wenn der Nutzer dreimal Kaffee kochen kann, bis deine Seite lädt, ist er längst bei der Konkurrenz."</p>
 </div>
 
-Als [GEO Strategist](/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Denn wer heute nur für SEO optimiert, stirbt morgen vielleicht in der KI-Suche.
+Als [GEO Strategist](/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Um dein klassisches SEO-Fundament zu sichern, greife ich auf die [tiefgehenden Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) zurück, während wir parallel die GEO-Säulen aufbauen.
 
 ---
 
@@ -47,7 +46,7 @@ Eine **GEO Agentur** optimiert nicht für "billigste Waschmaschine kaufen", sond
 KI-Modelle haben ein Problem mit Halluzinationen. Sie suchen verzweifelt nach Fakten, die sie validieren können. Wer als **GEO Freelancer** arbeitet, sorgt dafür, dass deine Expertise überall im Netz konsistent und verknüpft ist. 
 
 ### 3. Zitate und Mentions
-In der Welt von **AI-Search** ist ein Link weniger wert als eine echte Erwähnung ([Mention](/glossar/mention/)) in einem fachrelevanten Kontext. KI-Engines "lesen" das Internet – und sie zitieren nur das, was sie als verlässliche Quelle einstufen. Mit Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich dieser Status Quo heute erstmals präzise messen.
+In der Welt von **AI-Search** ist ein Link weniger wert als eine echte Erwähnung ([Mention](/glossar/mention/)) in einem fachrelevanten Kontext. KI-Engines "lesen" das Internet – und sie zitieren nur das, was sie als verlässliche Quelle einstufen. Mit dem [AI Visibility Tracking von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich dieser Status Quo heute erstmals präzise messen und steuern.
 
 ## Was ein GEO Spezialist für dich tut
 

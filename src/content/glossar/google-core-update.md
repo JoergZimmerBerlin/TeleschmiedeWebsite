@@ -76,7 +76,7 @@ Wenn Google dir vertraut, vertrauen dir auch die LLMs.
 
 ## Jörgs Action-Plan
 
-Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
+Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) begleiten wir den Sichtbarkeitsverlauf während und nach dem Rollout in Echtzeit. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
 
 ALOHA ✌️
 

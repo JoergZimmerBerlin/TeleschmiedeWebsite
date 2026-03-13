@@ -39,7 +39,7 @@ Wer Entity SEO ernsthaft betreiben möchte, muss seine Arbeitsweise anpassen:
 
 1.  **Topical Clustering:** Erstelle keine isolierten Blogbeiträge. Baue Themen-Welten (Silos) auf. Schreibe einen Hauptartikel (Pillar Page) und verlinke diesen mit zahlreichen spezifischen Unterartikeln. So wird deine gesamte Website zu einer starken Fach-Entität.
 2.  **Semantisches Markup:** Unterstütze die Suchmaschine durch [Strukturierte Daten](/glossar/entitaet/). Deklariere Personen, Produkte und Orte explizit im HTML.
-3.  **WDF*IDF Analyse:** Nutze Tools, die prüfen, welche verwandten Begriffe in den Top-Ergebnissen deiner Wettbewerber vorkommen. Dies hilft dir, die semantische Lücke in deinem Content zu schließen.
+3.  **WDF*IDF Analyse:** Nutze den [Content-Editor von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), der prüft, welche verwandten Begriffe in den Top-Ergebnissen deiner Wettbewerber vorkommen. Dies hilft dir, die semantische Lücke in deinem Content zu schließen und deine Topical Authority schrittweise auszubauen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Das LSI-Mysterium</h4>

@@ -21,7 +21,7 @@ Es ist die schonungslose Bestandsaufnahme deiner kompletten Website.
 
 Wir werfen alles in den Grill: Technik, Content, Backlinks.
 Warum rankst du nicht auf Platz 1? 
-Warum stagnieren deine Anfragen?
+Warum stagnieren deine Anfragen? Professionelle Analyse-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) liefern uns dabei die nötige Datengrundlage, um deine Wettbewerber zu deklassieren.
 Der Audit liefert die Antwort. Keine Vermutungen, sondern harte Fakten und Daten.
 
 ## Was wird beim Audit wirklich geprüft?
@@ -67,7 +67,7 @@ Was machen wir in Woche 1 (die "Quick Wins")? Was in Monat 3 (strategischer Aufb
 Wie schlagen wir den Wettbewerb im [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/)?
 
 In der Ära von [GEO](/glossar/geo/) prüfen wir im Audit auch:
-Wie gut können KI-Systeme deine Inhalte extrahieren? 
+Wie gut können KI-Systeme deine Inhalte extrahieren? Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) validieren wir, ob dein Audit bereits Früchte trägt und du in den LLM-Antworten als Autorität erscheinst.
 Sind deine Informationen so strukturiert, dass sie in einer AI Overview zitiert werden können?
 Haben wir die [LLMs.txt](/glossar/llms-txt/) schon als Einladung für die Bots am Start?
 

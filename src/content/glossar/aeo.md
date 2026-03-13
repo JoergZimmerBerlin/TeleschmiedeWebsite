@@ -60,7 +60,7 @@ Schreib Sätze, die eine KI wortwörtlich zitieren kann. Klare Definitionen, Zah
 
 ## Jörgs Action-Plan
 
-AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
+AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
 
 ALOHA ✌️
 

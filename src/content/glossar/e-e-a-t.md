@@ -23,7 +23,7 @@ Moin!
 Wenn in der modernen Suchmaschinenoptimierung ein Begriff die letzten Jahre dominiert hat, dann ist es **E-E-A-T**. 
 Entstanden aus den internen *Search Quality Rater Guidelines* von Google, hat sich dieses Akronym vom reinen Theorie-Konzept zum absoluten Fundament jeglicher Content-Strategie entwickelt. 
 
-![E-E-A-T 3D Infografik](../../assets/images/glossar/3d-light/glossar-eeat-3d.png)
+
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

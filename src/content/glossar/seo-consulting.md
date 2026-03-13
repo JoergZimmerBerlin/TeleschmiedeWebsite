@@ -26,7 +26,7 @@ Moin!
   <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
 </div>
 
-In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung – wenn du an den richtigen Hebeln ansetzt.
+In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung. Dabei nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) als zentrales Dashboard, um den Fortschritt deiner Strategie in Echtzeit zu überwachen.
 
 ## Was ein SEO Consultant macht
 

@@ -36,7 +36,7 @@ Fast jede WordPress-Seite nutzt heute ein SEO-Plugin. Die Platzhirsche sind klar
 Lange Zeit war **Yoast SEO** der unangefochtene König. Es ist solide, einfach und jeder kennt es. Aber **Rank Math** hat den Thron erklommen. Warum? Weil es schlanker ist und Profi-Features wie Schema-Markup-Generatoren und die Anbindung an die Google Indexing API direkt mitbringt. Wer heute ein Projekt neu startet, sollte auf Rank Math setzen.
 
 ### 2. WP Rocket: Die Speed-Maschine
-Ein Rankingfaktor, den WordPress oft vernachlässigt, ist der [PageSpeed](/glossar/pagespeed/). Hier kommt **WP Rocket** ins Spiel. Es ist kein klassisches SEO-Plugin, sondern ein Performance-Plugin. Es minimiert CSS, verzögert JavaScript und kümmert sich um das Caching. In meinen [Audits](/glossar/seo-audit/) ist WP Rocket oft der Grund, warum eine Seite die 90-Punkte-Marke knackt.
+Ein Rankingfaktor, den WordPress oft vernachlässigt, ist der [PageSpeed](/glossar/pagespeed/). Hier kommt **WP Rocket** ins Spiel. Es ist kein klassisches SEO-Plugin, sondern ein Performance-Plugin. Es minimiert CSS, verzögert JavaScript und kümmert sich um das Caching. In meinen [Audits](/glossar/seo-audit/) via [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist WP Rocket oft der Grund, warum eine Seite die 90-Punkte-Marke knackt und technisch endlich auf Augenhöhe mit der Konkurrenz spielt.
 
 ## TYPO3 SEO: Die Kraft aus dem Kern
 

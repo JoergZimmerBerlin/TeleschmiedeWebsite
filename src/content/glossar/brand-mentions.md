@@ -44,7 +44,7 @@ In der KI-Ära ist das noch wichtiger: [LLMs](/glossar/llmo/) können keine Hype
 
 ## Mein Tacheles-Rat für dich
 
-Google deinen eigenen Namen in Anführungszeichen. Richte Google Alerts ein. Und dann arbeite aktiv daran, mehr Mentions zu generieren – durch [Pressearbeit](/glossar/pressearbeit-im-seo/), Community-Engagement und exzellenten Content.
+Google deinen eigenen Namen in Anführungszeichen. Richte Google Alerts ein. Und dann arbeite aktiv daran, mehr Mentions zu generieren – durch [Pressearbeit](/glossar/pressearbeit-im-seo/), Community-Engagement und exzellenten Content. Mit dem [Reputations-Tracking von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) siehst du sofort, wer dich im Web entdeckt.
 
 ALOHA ✌️
 

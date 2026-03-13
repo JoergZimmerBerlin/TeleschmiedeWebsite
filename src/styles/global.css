@@ -93,8 +93,7 @@
 /* --- Premium Table & Comparison Styling --- */
 .blog-content table {
   @apply w-full mb-12 border-collapse overflow-hidden rounded-2xl shadow-sm border border-gray-100 !important;
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
+  background: white;
 }
 
 .blog-content thead {
@@ -103,7 +102,7 @@
 
 .blog-content th {
   @apply px-6 py-4 font-bold text-sm uppercase tracking-wider border-none !important;
-  background: linear-gradient(135deg, #1A1A1A 0%, #333 100%);
+  background: #1a1a1a;
 }
 
 .blog-content td {
@@ -122,20 +121,44 @@
   background-color: rgba(212, 255, 0, 0.05);
 }
 
-.blog-content tr:hover td {
-  @apply text-dark !important;
-}
-
 /* Specific styling for bold text in the first column */
 .blog-content td:first-child strong,
 .blog-content td:first-child b {
-  @apply text-lime-600 !important;
+  @apply text-lime-600 font-bold !important;
 }
 
-/* Responsive Table */
+/* --- Responsive Table Optimization (Card Layout) --- */
 @media (max-width: 768px) {
   .blog-content table {
-    @apply block overflow-x-auto whitespace-nowrap !important;
-    -webkit-overflow-scrolling: touch;
+    @apply border-none shadow-none bg-transparent !important;
   }
+  
+  .blog-content thead {
+    @apply hidden !important; /* Hide headers on mobile */
+  }
+  
+  .blog-content tr {
+    @apply block mb-8 bg-white border border-gray-100 rounded-2xl p-6 shadow-sm !important;
+  }
+  
+  .blog-content td {
+    @apply block px-0 py-3 border-b border-gray-50 text-base !important;
+  }
+  
+  .blog-content td:last-child {
+    @apply border-b-0 !important;
+  }
+  
+  /* Make the first cell (usually the title/feature) more prominent */
+  .blog-content td:first-child {
+    @apply text-lg font-bold text-dark pt-0 !important;
+  }
+  
+  .blog-content td:first-child strong,
+  .blog-content td:first-child b {
+    @apply text-lime-600 !important;
+  }
+  
+  /* Add mini labels via pseudo-elements if needed, but since we can't easily 
+     pass the labels from MD, we focus on a clean list-like structure */
 }

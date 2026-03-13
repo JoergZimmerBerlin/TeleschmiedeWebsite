@@ -22,7 +22,7 @@ Moin!
 
 **LLMO** (LLM-Optimization) ist die Disziplin, die sich mit der Frage beschäftigt: *Wie beeinflusse ich, was ChatGPT, Gemini und Claude über mich und mein Fachgebiet wissen?*
 
-![LLMO 3D Infografik](../../assets/images/glossar/3d-light/glossar-llmo-3d.png)
+
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -56,7 +56,7 @@ Regelmäßig testen, was verschiedene LLMs über dich und dein Fachgebiet wissen
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">LLMO ist Langzeitstrategie</h4>
-  <p class="mb-0 text-sm">Anders als SEO, wo ein guter Artikel in Wochen ranken kann, wirkt LLMO mit Verzögerung. Deine heutigen Erwähnungen fließen erst beim nächsten Training-Update in die Modelle ein. Das kann Monate dauern. Wer jetzt anfängt, erntet in 6-12 Monaten die Sichtbarkeit.</p>
+  <p class="mb-0 text-sm">Anders als SEO, wo ein guter Artikel in Wochen ranken kann, wirkt LLMO mit Verzögerung. Deine heutigen Erwähnungen fließen erst beim nächsten Training-Update in die Modelle ein. Ich begleite diesen Prozess für meine Kunden mit technischem Monitoring via [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), während [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) die echte KI-Resonanz misst.</p>
 </div>
 
 ## Mein Tacheles-Rat für dich

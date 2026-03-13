@@ -74,7 +74,7 @@ Dann muss deine Seite als autoritäre [Entität](/glossar/entitaet/) wahrgenomme
 
 ## Mein Tacheles-Rat für dich
 
-Money Keywords sind der Treibstoff für dein Business. Hör auf, nach Eitelkeits-Metriken zu jagen. Such die Begriffe, die deine Rechnungen bezahlen. Konzentrier dich auf Qualität, Relevanz und Vertrauen. Denn am Ende zählt nur, was unten rauskommt.
+Money Keywords sind der Treibstoff für dein Business. Hör auf, nach Eitelkeits-Metriken zu jagen. Ich nutze die [Wettbewerbsanalyse von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um genau die Begriffe mit hohem CPC und klarer Kaufabsicht zu finden, die deine Rechnungen bezahlen. Konzentrier dich auf Qualität, Relevanz und Vertrauen. Denn am Ende zählt nur, was unten rauskommt.
 
 ALOHA ✌️
 

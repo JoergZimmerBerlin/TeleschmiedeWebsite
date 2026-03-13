@@ -2,7 +2,7 @@
 title: "Citation (Zitierung)"
 description: "Eine Citation ist die Erwähnung deines Namens oder deiner Marke im Netz. In der KI-Ära sind Citations der Schlüssel dafür, ob ChatGPT, Perplexity oder Gemini dich als Experte zitieren."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["mention", "entitaet", "markenaufbau-mit-seo", "geo"]
 key_takeaways:
   - "KI-Antwortquelle: Wer in LLM-Trainingsdaten oft zitiert wird, taucht in ChatGPT- und Perplexity-Antworten auf."
@@ -17,7 +17,9 @@ faqs:
     answer: "Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein 'nice to have', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut."
 ---
 
-Im klassischen SEO drehte sich jahrelang alles nur um den "Backlink". Doch in der Ära von ChatGPT, Perplexity und Google SGE hat sich das Spiel fundamental verändert: **Citations** – also Erwähnungen deines Namens oder deiner Marke im Netz – sind zum wichtigsten Faktor geworden, ob eine KI dich als Experte erkennt und zitiert.
+
+
+Moin! 📝
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -35,7 +37,7 @@ Der heilige Gral hierbei sind die **NAP-Daten** (Name, Address, Phone). In meine
 *   **Adresse:** Berlin-Spandau
 *   **Web:** [Jörg Zimmer](https://teleschmie.de)
 
-Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst.
+Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst. Mit dem [Backlink-Checker von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir gezielt die Erwähnungen deiner Wettbewerber, um deine eigenen Hebel zu finden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: Meine eigene Citation-Strategie</h4>

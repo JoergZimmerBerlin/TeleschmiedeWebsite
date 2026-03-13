@@ -17,7 +17,7 @@ faqs:
     answer: "Nein, Sichtbarkeit ist kein Hebel, den du direkt umlegen kannst, sondern das Resultat all deiner organischen Marketing-Maßnahmen. Google interessiert sich nicht dafür, welchen Index-Wert ein externes Tool für dich berechnet. Wenn aber eine Seite extrem präsent ist (hohe Sichtbarkeit), generiert sie meist auch mehr Branded Search Traffic und natürliche Backlinks. Diese Folgeerscheinungen sind es, die Google sehr wohl als massive Ranking-Singale wertet."
 ---
 
-![Sichtbarkeit Infografik](../../assets/images/glossar/3d-light/glossar-sichtbarkeit-3d.webp)
+
 
 Moin! 🌻
 

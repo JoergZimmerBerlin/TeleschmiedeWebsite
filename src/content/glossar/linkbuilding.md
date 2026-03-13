@@ -2,7 +2,7 @@
 title: "Linkbuilding & Interne Verlinkung"
 description: "Links sind die Empfehlungen des Webs. Erfahre, wie du durch Linkbuilding und smarte interne Verlinkung deine Autorität steigerst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp"
 related_terms: ["linkjuice", "seo-beratung", "entitaet"]
 key_takeaways:
   - "Autorität gewinnen: Qualitatives Linkbuilding signalisiert Google Vertrauen und Relevanz."
@@ -17,7 +17,9 @@ faqs:
     answer: "Das ist ein toxisches Minenfeld. Gekaufte Massenlinks aus zweifelhaften Netzwerken verstoßen nicht nur massiv gegen die Google Webmaster Richtlinien, sondern führen oft zu harten manuellen Strafen (Penalties) und dem Rauswurf aus dem Index. Der Profi-Fokus sollte heute immer auf digitalen PR-Strategien liegen: Erschaffe herausragenden Content, Daten-Studien oder Tools (sogenannte Linkable Assets), die so einen extremen Mehrwert bieten, dass starke Medien völlig organisch darauf verlinken."
 ---
 
-Moin!
+![Linkbuilding Infografik](../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp)
+
+Moin! 🏗️
 
 Stell dir das Word Wide Web als ein riesiges Netz aus Straßen vor. Die Straßen sind die Links. Ohne diese Verbindungen wüsste niemand, dass du existierst – weder Nutzer noch die Suchmaschine. In der **SEO Optimierung** unterscheiden wir dabei zwei wesentliche Disziplinen: Das **Linkbuilding** (außerhalb deiner Seite) und die **Interne Verlinkung** (innerhalb deiner Seite).
 
@@ -30,12 +32,16 @@ Stell dir das Word Wide Web als ein riesiges Netz aus Straßen vor. Die Straßen
 
 ## Linkbuilding: Deine digitale Reputation
 
+![Backlink Infografik](../../assets/images/glossar/3d-light/glossar-backlink-3d.webp)
+
 **Linkbuilding** ist die hohe Schule des SEO. Es geht darum, dass andere Websites (im besten Fall namhafte Magazine, Partner oder Blogs) auf dich verlinken. Früher zählte nur die Masse, heute zählt die Klasse. Ein einziger Link von einer starken Fachseite ist wertvoller als 1.000 Links aus zwielichtigen Verzeichnissen.
 
 Warum Linkbuilding für dich wichtig ist:
 1.  **Trust-Signal:** Ein Backlink ist wie eine digitale Empfehlung.
 2.  **Ranking-Boost:** Starke Links korrelieren fast immer mit besseren Rankings für schwierige Keywords.
 3.  **Traffic:** Gute Links bringen direkt interessierte Besucher auf deine Seite.
+
+Um den Erfolg deines Linkaufbaus zu messen, empfehle ich ein professionelles SEO-Tool wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Dort siehst du sofort, welche neuen Backlinks Google indexiert hat.
 
 ## Interne Verlinkung: Der Masterplan für deinen Linkjuice
 

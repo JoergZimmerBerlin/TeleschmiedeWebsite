@@ -17,7 +17,6 @@ faqs:
     answer: "Google hat offiziell gesagt: Nein, Social Signals sind kein direkter Rankingfaktor. Aber indirekt haben sie einen enormen Einfluss. Ein viraler LinkedIn-Post erzeugt Aufmerksamkeit, die zu Backlinks, Mentions und Branded Searches führt – und DAS sind direkte Rankingfaktoren. Außerdem nutzen KI-Modelle Social-Media-Inhalte als Trainingsmaterial. Wer auf LinkedIn aktiv ist, stärkt also auch seine GEO-Sichtbarkeit."
 ---
 
-![Rankingfaktoren Infografik](../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp)
 
 Moin! 🌻
 
@@ -70,7 +69,7 @@ Mit dem Aufstieg der [Generative Engine Optimization (GEO)](/glossar/geo/) komme
 
 ## Mein Tacheles-Rat für dich
 
-Vergiss die Jagd nach dem "einen Trick". Es gibt keinen. Rankingfaktoren sind ein Zusammenspiel aus hunderten Signalen. Konzentrier dich auf die Basics: Schreib den besten Content zu deinem Thema. Bau eine saubere technische Basis. Verdiene dir echte Backlinks und Mentions. Und stärke deine Marke als Entität. Wer das konsequent macht, braucht keine SEO-Tricks.
+Vergiss die Jagd nach dem "einen Trick". Es gibt keinen. Rankingfaktoren sind ein Zusammenspiel aus hunderten Signalen. Konzentrier dich auf die Basics: Schreib den besten Content zu deinem Thema. Bau eine saubere technische Basis. Ich persönlich verlasse mich beim Monitoring meiner Kundenprojekte auf [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um alle kritischen Faktoren in Echtzeit im Blick zu behalten. Verdiene dir echte Backlinks und Mentions. Und stärke deine Marke als Entität. Wer das konsequent macht, braucht keine SEO-Tricks.
 
 ALOHA ✌️
 

@@ -132,10 +132,18 @@
   /* Default: Horizontal Scroll for Markdown tables (Script-free context) */
   .blog-content .overflow-x-auto {
     @apply -mx-4 px-4 !important;
+    -webkit-overflow-scrolling: touch;
   }
   
   .blog-content table:not(.comparison-table) {
-    @apply min-w-[600px] mb-8 !important;
+    @apply min-w-full mb-8 border-separate border-spacing-0 !important;
+    display: table !important; /* Force table behavior */
+  }
+
+  .blog-content table:not(.comparison-table) th,
+  .blog-content table:not(.comparison-table) td {
+    @apply px-4 py-3 text-sm !important;
+    white-space: nowrap;
   }
 
   /* Card Layout for ComparisonTable (Server-side labels) */
@@ -148,7 +156,15 @@
   }
   
   .blog-content table.comparison-table tr {
-    @apply block mb-8 bg-white border border-gray-100 rounded-2xl p-6 shadow-sm !important;
+    @apply block mb-8 bg-white border border-lime-accent/30 rounded-2xl p-6 shadow-sm !important;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Highlight bar on the left for cards */
+  .blog-content table.comparison-table tr::before {
+    content: '';
+    @apply absolute left-0 top-0 bottom-0 w-1 bg-lime-accent !important;
   }
   
   .blog-content table.comparison-table td {
@@ -176,7 +192,11 @@
 
 /* --- Glossar CTA Box Styling --- */
 .blog-cta-box {
-  @apply my-16 bg-gray-50 border border-gray-100 rounded-3xl p-8 md:p-12 text-center shadow-sm !important;
+  @apply my-10 bg-gray-50 border border-gray-100 rounded-3xl p-8 text-center shadow-sm !important;
+}
+
+.blog-cta-box hr {
+  @apply hidden !important;
 }
 
 .blog-cta-box a:not(.btn-primary) {

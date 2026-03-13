@@ -15,8 +15,7 @@ export default defineConfig({
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
   integrations: [
-    tailwind(),
-    sitemap()
+    tailwind()
   ],
   image: {
     remotePatterns: [{ protocol: 'https', hostname: 'i.ytimg.com' }],

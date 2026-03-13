@@ -17,7 +17,6 @@ faqs:
     answer: "Das ist ein toxisches Minenfeld. Gekaufte Massenlinks aus zweifelhaften Netzwerken verstoßen nicht nur massiv gegen die Google Webmaster Richtlinien, sondern führen oft zu harten manuellen Strafen (Penalties) und dem Rauswurf aus dem Index. Der Profi-Fokus sollte heute immer auf digitalen PR-Strategien liegen: Erschaffe herausragenden Content, Daten-Studien oder Tools (sogenannte Linkable Assets), die so einen extremen Mehrwert bieten, dass starke Medien völlig organisch darauf verlinken."
 ---
 
-![Linkbuilding Infografik](../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp)
 
 Moin! 
 

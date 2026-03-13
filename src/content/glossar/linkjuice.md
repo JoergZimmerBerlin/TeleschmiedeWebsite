@@ -11,7 +11,6 @@ key_takeaways:
   - "In der KI-Suche wandelt sich Linkjuice zur semantischen Referenz (Marken-Nennung im Kontext)."
 ---
 
-![Linkjuice Infografik](../../assets/images/glossar/3d-light/glossar-linkjuice-3d.webp)
 
 Moin! 
 Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.

@@ -2,7 +2,6 @@
 title: "404 Fehlerseiten"
 description: "Eine 404 Fehlerseite erscheint, wenn ein Inhalt nicht gefunden wird. Erfahre, warum das für dein SEO gefährlich ist und wie du es löst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-404-3d.png"
 image_alt: "404 Fehlerseite 3D Infografik - Technisches SEO Standard"
 related_terms: ["crawler", "seo-audit", "usability", "301-redirect"]
 key_takeaways:
@@ -18,7 +17,6 @@ faqs:
     answer: "Gehe in der GSC zum Bericht 'Indexierung' -> 'Seiten' und schau dir den Punkt 'Nicht gefunden (404)' an. Exportiere die Liste und sortiere sie nach Priorität: Welche URLs hatten früher Traffic oder Backlinks? Diese müssen sofort per 301 weitergeleitet werden. URLs, die versehentlich durch Tippfehler dritter entstanden sind, kannst du oft ignorieren – außer sie kommen extrem häufig vor. Mein Workflow: Einmal im Monat Deep-Audit mit dem Screaming Frog, um Sackgassen zu finden, bevor Google sie sieht."
 ---
 
-![404 Fehlerseite 3D Infografik: Sackgassen vermeiden](../../assets/images/glossar/3d-light/glossar-404-3d.png)
 
 Moin! 🌻
 

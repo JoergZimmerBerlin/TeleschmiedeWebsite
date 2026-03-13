@@ -84,7 +84,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ranking-Absturz nach einem Update?</h3>
-  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Lass uns deine Sichtbarkeit zurückerobern.</p>
+  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Erholung, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen </a>
 </div>
 

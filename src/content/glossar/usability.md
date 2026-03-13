@@ -2,7 +2,7 @@
 title: "Usability (Nutzungsfreundlichkeit)"
 description: "Usability entscheidet, ob Nutzer auf deiner Website bleiben oder gehen. Ein kritischer Faktor für SEO und Conversion."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-usability-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-usability-3d.webp"
 image_alt: "Usability 3D Infografik - User Experience und SEO"
 related_terms: ["pagespeed", "conversion-rate", "traffic", "core-web-vitals"]
 key_takeaways:
@@ -18,7 +18,7 @@ faqs:
     answer: "Der erste Schritt kostet nichts: Gib fünf Freunden, die deine Seite nicht kennen, eine konkrete Aufgabe (z.B. 'Finde meine Preise und schick mir eine Anfrage') und schau ihnen dabei unkommentiert über die Schulter. Für datengetriebene Insights nutze ich Tools wie Microsoft Clarity oder Hotjar für Heatmaps und Session-Aufzeichnungen. Außerdem verraten dir hohe Absprungraten in Google Analytics exakt, an welchen Stellen die Usability deiner Nutzerführung scheitert."
 ---
 
-![Usability 3D Infografik: User Experience optimieren](../../assets/images/glossar/3d-light/glossar-usability-3d.png)
+![Usability 3D Infografik: User Experience optimieren](../../assets/images/glossar/3d-light/glossar-usability-3d.webp)
 
 Moin!
 

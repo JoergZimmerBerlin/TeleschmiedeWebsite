@@ -2,7 +2,7 @@
 title: "Zero-Click Content"
 description: "Zero-Click Content beantwortet Suchanfragen direkt in der SERP oder KI-Antwort – ohne dass der Nutzer klicken muss. Fluch und Chance zugleich."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "ctr", "geo", "snippet-optimierung"]
 key_takeaways:
   - "Realität 2026: Über 60% aller Google-Suchen enden ohne Klick auf ein Suchergebnis."
@@ -53,7 +53,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Traffic sinkt trotz guter Rankings?</h3>
-  <p class="mb-6">Ich analysiere dein Zero-Click Profil und entwickle Strategien, die Sichtbarkeit trotz weniger Klicks maximieren.</p>
+  <p class="mb-6">Zero-Click-Searches sind die neue Realität. Ich zeige dir, wie du mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> in den KI-Antworten trotzdem als Quelle glänzt und Klicks rettest.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zero-Click Strategie anfragen </a>
 </div>
 

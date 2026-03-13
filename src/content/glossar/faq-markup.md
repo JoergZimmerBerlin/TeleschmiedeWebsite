@@ -2,7 +2,7 @@
 title: "FAQ Markup (FAQPage Schema)"
 description: "FAQ Markup ist ein strukturiertes Daten-Format, das Google erlaubt, Fragen und Antworten direkt in den Suchergebnissen anzuzeigen. Ein mächtiges Tool für mehr Klicks und Sichtbarkeit."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "strukturierte-daten", "meta-description"]
 key_takeaways:
   - "Mehr SERP-Fläche: FAQ-Markup kann dein Suchergebnis um ausklappbare Fragen erweitern – du dominierst mehr Platz."

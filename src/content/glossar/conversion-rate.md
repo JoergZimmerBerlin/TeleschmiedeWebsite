@@ -2,7 +2,7 @@
 title: "Conversion-Rate-Optimierung (CRO): Mehr Umsatz aus vorhandenem Traffic "
 description: "Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"
 image_alt: "Conversion Rate 3D Infografik - Marketing Funnel"
 related_terms: ["traffic", "money-keyword", "usability"]
 key_takeaways:
@@ -18,7 +18,7 @@ faqs:
     answer: "Gutes SEO ist der beste Hebel für die Conversion Rate. Warum? Weil wir durch gezielte [Keyword-Recherche](/glossar/keywordrecherche/) Nutzer genau dann abholen, wenn sie ein Problem haben und nach einer Lösung suchen. Jemand, der nach 'SEO Freelancer Berlin Kosten' sucht, ist viel näher am Abschluss als jemand, der nur 'Was bedeutet SEO' googelt. Wir optimieren den Intent, nicht nur die Klicks. Das ist der Unterschied zwischen einem 'Bauchladen'  und Experten-Akquise."
 ---
 
-![Conversion Rate 3D Infografik: Vom Besucher zum Kunden](../../assets/images/glossar/3d-light/glossar-conversion-3d.png)
+![Conversion Rate 3D Infografik: Vom Besucher zum Kunden](../../assets/images/glossar/3d-light/glossar-conversion-3d.webp)
 
 Moin! 🌻
 

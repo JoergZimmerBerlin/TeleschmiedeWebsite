@@ -80,8 +80,8 @@ ALOHA 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Deine Rankings sind gut, aber die Klicks fehlen?</h3>
-  <p class="mb-6">Ich optimiere deine Snippets für maximale CTR und implementiere Rich-Result-Markup, das dein Ergebnis in der Suche hervorstechen lässt.</p>
+  <h3 class="text-2xl font-bold mb-4">Gute Rankings, aber keine Klicks?</h3>
+  <p class="mb-6">Ich optimiere deine Snippets für maximale CTR. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir die Klick-Killer, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sorgen wir für Relevanz in KI-Zitierungen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CTR-Optimierung anfragen </a>
 </div>
 

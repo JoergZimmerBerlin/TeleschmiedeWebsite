@@ -2,6 +2,7 @@
 title: "404 Fehlerseiten"
 description: "Eine 404 Fehlerseite erscheint, wenn ein Inhalt nicht gefunden wird. Erfahre, warum das für dein SEO gefährlich ist und wie du es löst."
 date: "2026-03-10"
+image: "../../assets/images/glossar/3d-light/glossar-404-3d.webp"
 image_alt: "404 Fehlerseite 3D Infografik - Technisches SEO Standard"
 related_terms: ["crawler", "seo-audit", "usability", "301-redirect"]
 key_takeaways:

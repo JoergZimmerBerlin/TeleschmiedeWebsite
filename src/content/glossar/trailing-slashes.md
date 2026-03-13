@@ -2,7 +2,7 @@
 title: "Trailing Slashes"
 description: "Trailing Slashes (der Schrägstrich am Ende einer URL) sind ein oft übersehenes technisches SEO-Detail, das zu Duplicate-Content-Problemen und Ranking-Verlusten führen kann."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["technisches-seo", "crawling-vs-indexing", "robots-txt", "sitemap"]
 key_takeaways:
   - "Duplicate Content Gefahr: /seite und /seite/ sind für Google zwei verschiedene URLs – ohne Canonical wird es problematisch."
@@ -86,8 +86,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Technisches SEO macht dir Kopfschmerzen?</h3>
-  <p class="mb-6">Trailing Slashes, Redirects, Canonical Tags – ich bringe deine technische Basis in Ordnung. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das technische Audit und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die Messung deines KI-Erfolgs.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt technisches SEO-Audit anfragen </a>
+  <p class="mb-6">Trailing Slashes oder Redirect-Ketten? Ich bringe deine URLs in Ordnung. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Check und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für saubere KI-Referenzen.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Technisches SEO verstehen](/glossar/technisches-seo/)

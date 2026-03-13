@@ -2,7 +2,7 @@
 title: "SEO Beratung & SEO Consulting"
 description: "Professionelle SEO Beratung hilft dir, aus dem Dickicht technischer Details eine klare Strategie für mehr Umsatz zu schmieden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["seo-audit", "seo-agentur", "keywordrecherche"]
 key_takeaways:
   - "Strategische Ausrichtung: Beratung geht über Technik hinaus und fokussiert sich auf Business-Ziele."
@@ -73,7 +73,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du suchst eine echte SEO Strategie?</h3>
-  <p class="mb-6">Lass uns in einem kostenlosen Erstgespräch schauen, wo dein Business steht und wie wir dich ganz nach vorne bringen. Transparent, ehrlich und ohne Bullshit.</p>
+  <p class="mb-6">Ich liefere dir Daten statt Vermutungen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO Beratung anfragen </a>
 </div>
 

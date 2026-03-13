@@ -2,7 +2,7 @@
 title: "GEO vs. SEO: Die Zukunft der Suche"
 description: "Was ist der Unterschied zwischen klassischem SEO und moderner Generative Engine Optimization (GEO)? Ein Blick in die Zukunft der AI-Search."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-geo-vs-seo-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-geo-vs-seo-3d.webp"
 image_alt: "GEO vs. SEO 3D Infografik - Die Evolution der Suche"
 related_terms: ["geo", "e-e-a-t", "knowledge-graph"]
 key_takeaways:
@@ -78,9 +78,9 @@ ALOHA 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit für die KI-Suche?</h3>
-  <p class="mb-6">Ich analysiere deine aktuelle KI-Sichtbarkeit und entwickle eine hybride Strategie aus SEO und GEO für dich. Lass uns dein Business zukunftssicher machen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie sichern </a>
+  <h3 class="text-2xl font-bold mb-4">SEO oder GEO? Beides!</h3>
+  <p class="mb-6">Wer nur für Google optimiert, verpasst die KI-Revolution. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sichern wir deine Google-Rankings, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine Sichtbarkeit in ChatGPT & Co.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt hybride Strategie anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)

@@ -80,7 +80,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wirst du von KI-Systemen zitiert?</h3>
-  <p class="mb-6">Ich analysiere dein Citation-Profil und zeige dir, wie du sowohl in Google Maps als auch in KI-Antworten sichtbar wirst. Lass uns deine Entität stärken.</p>
+  <p class="mb-6">Citations sind das Fundament für local Rankings und KI-Vertrauen. Ich optimiere dein Profil für Google Maps und ChatGPT. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Citability.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen </a>
 </div>
 

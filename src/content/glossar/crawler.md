@@ -2,7 +2,7 @@
 title: "Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets "
 description: "Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"
 image_alt: "Crawler 3D Infografik - Suchmaschinen Bots"
 related_terms: ["robots-txt", "crawling-vs-indexing", "sitemap", "geo"]
 key_takeaways:
@@ -18,7 +18,7 @@ faqs:
     answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird. Aber Vorsicht: Wer hier pfuscht (Pfusch am Bau ), verschwindet komplett aus der Suche."
 ---
 
-![Crawler 3D Infografik: Wie Bots das Web scannen](../../assets/images/glossar/3d-light/glossar-crawler-3d.png)
+![Crawler 3D Infografik: Wie Bots das Web scannen](../../assets/images/glossar/3d-light/glossar-crawler-3d.webp)
 
 Moin! 🌻
 
@@ -84,9 +84,9 @@ ALOHA 🌻! 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Gefangen in der Crawling-Falle?</h3>
-  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir deinen Index fit für die Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Bot-Traffic richtig verstehen?</h3>
+  <p class="mb-6">Ich zeige dir, wie Googlebot und KI-Crawler deine Seite sehen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Bot-Aktivität, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Crawler-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

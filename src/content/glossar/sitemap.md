@@ -2,7 +2,7 @@
 title: "Sitemap"
 description: "Eine Sitemap ist der Wegweiser für Google. Sie hilft Crawlern, alle wichtigen Seiten deiner Website schnell und effizient zu finden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.webp"
 image_alt: "Sitemap 3D Infografik - Die Architektur deiner Website für Suchmaschinen"
 related_terms: ["crawler", "robots-txt", "crawling-vs-indexing"]
 key_takeaways:
@@ -77,8 +77,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Probleme mit der Indexierung?</h3>
-  <p class="mb-6">Lass uns in einer SEO-Sprechstunde prüfen, ob deine Sitemap Google in die Irre führt. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine Struktur und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir deine KI-Findbarkeit.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sprechstunde anfragen </a>
+  <p class="mb-6">Eine unsaubere Sitemap führt Google in die Irre. Ich optimiere deine Struktur mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und sichere deine KI-Sichtbarkeit über <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sitemap-Optimierung anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Warum Crawler so wichtig sind](/glossar/crawler/)

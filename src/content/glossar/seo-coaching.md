@@ -2,7 +2,7 @@
 title: "SEO Coaching"
 description: "SEO Coaching macht dich unabhängig von Agenturen. Lerne die Tools und Strategien, um dein eigenes SEO zu beurteilen und zu steuern."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
 key_takeaways:
   - "Empowerment: Coaching macht dich unabhängig von Agenturen und Dienstleistern."
@@ -76,7 +76,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit, SEO selbst zu verstehen?</h3>
-  <p class="mb-6">Persönlich, praxisnah und auf dein Business zugeschnitten.</p>
+  <p class="mb-6">Ich coache dich an deinen echten Daten. Lerne, wie du <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> wie ein Profi bedienst und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die KI-Suche dominierst.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Coaching-Gespräch vereinbaren </a>
 </div>
 

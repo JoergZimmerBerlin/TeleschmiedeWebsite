@@ -90,7 +90,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Investierst du in die falschen Themen?</h3>
-  <p class="mb-6">Ich erstelle für dich eine glasklare Keyword-Map, die zeigt, wo dein Potenzial wirklich liegt. Lass uns deine Strategie auf ein echtes Daten-Fundament stellen.</p>
+  <p class="mb-6">Ich erstelle für dich eine glasklare Keyword-Map. Mit den Profi-Daten von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und den semantischen Clustern von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> finden wir deine profitablen Nischen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen </a>
 </div>
 

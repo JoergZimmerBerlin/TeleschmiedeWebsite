@@ -2,7 +2,7 @@
 title: "Robots.txt"
 description: "Die robots.txt ist eine essenzielle Textdatei im Wurzelverzeichnis von Websites. Sie steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse zugreifen dürfen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.webp"
 image_alt: "robots.txt 3D Infografik - Die Steuerung der Suchmaschinen-Crawler"
 related_terms: ["crawling-vs-indexing", "geo", "sitemap"]
 key_takeaways:
@@ -74,14 +74,14 @@ Die `robots.txt` ist ein mächtiges, wenn auch stumpfes Schwert.
 Sperre Backend-URLs und Suchergebnisse, aber lass die Finger von Content-Seiten, wenn du nicht genau weißt, was du tust.
 Nutze professionelle Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um deine Datei live zu überwachen.
 
-Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine robots.txt regelmäßig zu validieren und technische Fehler zu finden, bevor sie dein Ranking kosten. ALOHA 🌻 
+Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deine robots.txt regelmäßig zu validieren und technische Fehler zu finden, bevor sie dein Ranking kosten. 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Sicher, dass deine robots.txt korrekt ist?</h3>
-  <p class="mb-6">Ein falscher Klick kann dich das Ranking kosten. Lass uns in einer kurzen Sprechstunde dein Setup prüfen.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sprechstunde buchen </a>
+  <p class="mb-6">Ein falscher Klick sperrt Google aus. Ich prüfe dein Setup mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und stelle sicher, dass <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Findbarkeit maximiert.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt robots.txt Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

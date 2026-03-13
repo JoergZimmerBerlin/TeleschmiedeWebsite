@@ -2,7 +2,7 @@
 title: "Noindex (Meta-Tag)"
 description: "Das Noindex Meta-Tag ist der mächtigste Steuerungsbefehl im HTML-Code, der Suchmaschinen explizit verbietet, eine spezifische URL in ihre öffentlichen Ergebnisse aufzunehmen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["crawling-vs-indexing", "robots-txt", "seo-audit"]
 key_takeaways:
   - "Ultimative Löschung: Noindex entfernt Seiten zuverlässig aus dem Google-Index."
@@ -88,8 +88,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Angst vor Ranking-Absturz?</h3>
-  <p class="mb-6">Lass uns in einem Audit prüfen, ob deine noindex-Strategie aufgeht oder du wertvolle Potenziale verschenkst.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen </a>
+  <p class="mb-6">Indexierst du die falschen Seiten? Mit einer klaren Strategie fokussieren wir deinen Linkjuice. Ich prüfe dein Setup mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Index-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

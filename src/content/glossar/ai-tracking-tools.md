@@ -2,7 +2,7 @@
 title: "AI Tracking Tools"
 description: "AI Tracking Tools messen deine Sichtbarkeit in KI-Antworten von ChatGPT, Perplexity, Gemini und Co. Ohne Messung keine Optimierung."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "llmo", "sichtbarkeitsmanagement", "google-search-console"]
 key_takeaways:
   - "Neue Metrik: AI Visibility misst, wie oft du von KI-Systemen als Quelle zitiert wirst."
@@ -62,7 +62,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wie sichtbar bist du in der KI-Welt?</h3>
-  <p class="mb-6">Ich setze AI Tracking für dich auf und liefere den ersten AI Visibility Report.</p>
+  <p class="mb-6">Ich setze profi AI Tracking für dich auf. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> überwachen wir deine KI-Findbarkeit parallel über 17+ LLMs.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AI Visibility Check anfragen </a>
 </div>
 

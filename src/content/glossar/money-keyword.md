@@ -82,8 +82,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Keywords bringen keinen Umsatz?</h3>
-  <p class="mb-6">Ich analysiere deine Suchbegriffe und finde die echten Umsatztreiber für dein Business. Lass uns profitables SEO machen!</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Gespräch buchen </a>
+  <p class="mb-6">Ich finde deine echten Umsatztreiber mit hohem CPC und klarer Kaufabsicht. Mit der Wettbewerbsanalyse von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Autorität.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Money-Keyword Strategie buchen </a>
 </div>
 
 ### Lese-Tipp

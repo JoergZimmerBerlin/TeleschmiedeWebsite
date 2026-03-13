@@ -2,6 +2,8 @@
 title: "GEO Agentur (Generative Engine Optimization)"
 description: "Eine GEO Agentur optimiert deine Sichtbarkeit in KI-Suchmaschinen wie ChatGPT, Perplexity und Google SGE. Erfahre, warum klassisches SEO allein nicht mehr reicht."
 date: "2026-03-10"
+image: "../../assets/images/glossar/3d-light/glossar-geo-agentur-3d.webp"
+image_alt: "GEO Agentur 3D Infografik - KI-Sichtbarkeit und SEO"
 related_terms: ["geo", "geo-vs-seo", "entity-seo", "seo-agentur"]
 key_takeaways:
   - "Neue Disziplin: GEO (Generative Engine Optimization) ist die Optimierung für KI-Antwortmaschinen – nicht nur für Google."
@@ -78,8 +80,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du in KI-Antworten sichtbar?</h3>
-  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und baue eine Strategie, die dich in Google UND in ChatGPT, Perplexity und Co. nach vorne bringt.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie anfragen </a>
+  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und sorge dafür, dass du in Google UND in ChatGPT, Perplexity und Co. glänzt. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Basis und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Domination.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)

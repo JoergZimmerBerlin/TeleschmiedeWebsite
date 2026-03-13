@@ -68,8 +68,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wird über dich gesprochen?</h3>
-  <p class="mb-6">Ich entwickle eine Strategie für dich, die deine Markennennungen im Netz organisch steigert und dein E-E-A-T Profil festigt. Lass uns deine Reputation zum Glänzen bringen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Reputation-Audit anfragen </a>
+  <p class="mb-6">Mentions sind das Rückgrat deiner KI-Reputation. Ich schärfe dein Profil als Branchen-Experte. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> überwachen wir deine Nennungen über alle Kanäle.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Reputation-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)

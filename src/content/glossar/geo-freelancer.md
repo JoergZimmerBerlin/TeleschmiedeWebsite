@@ -2,7 +2,7 @@
 title: "GEO Freelancer (Generative Engine Optimization)"
 description: "Ein GEO Freelancer optimiert deine Sichtbarkeit in KI-Suchmaschinen. Erfahre, warum ein spezialisierter Freelancer oft die bessere Wahl als eine große Agentur ist."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-geo-freelancer-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-geo-freelancer-3d.webp"
 image_alt: "GEO Freelancer 3D Infografik - Individuelle KI-Sichtbarkeits-Strategie"
 related_terms: ["geo", "geo-agentur", "seo-agentur", "entity-seo"]
 key_takeaways:

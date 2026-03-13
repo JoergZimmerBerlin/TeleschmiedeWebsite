@@ -2,7 +2,7 @@
 title: "PageSpeed (Ladezeit-Optimierung)"
 description: "PageSpeed beschreibt die Zeitspanne, die eine Website benötigt, um Inhalte vollständig für den Nutzer darzustellen. Ein kritischer Rankingfaktor für SEO und UX."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-pagespeed-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-pagespeed-3d.webp"
 image_alt: "PageSpeed 3D Infografik - Schnelligkeit als Rankingfaktor"
 related_terms: ["core-web-vitals", "noindex"]
 key_takeaways:
@@ -77,7 +77,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen die [Monitoring-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Jede Sekunde Ladezeit kostet Conversions. Ich sorge für Speed, der wirklich verkauft. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die echten Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen </a>
 </div>
 

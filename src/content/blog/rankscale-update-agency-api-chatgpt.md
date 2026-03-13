@@ -2,7 +2,7 @@
 title: "Rankscale Update: Growth-Plan, REST-API & ChatGPT Shopping Analyse"
 description: "Rankscale liefert massiv ab: Neuer Growth-Plan (früher Agency), API-Zugriff, ChatGPT Shopping-Analyse und ein komplett neues Page Audit. Jörg erklärt, was das für deine KI-Strategie bedeutet."
 date: "2026-03-12"
-image: "../../assets/images/blog/rankscale-growth-hero.png"
+image: "../../assets/images/blog/rankscale-growth-hero.webp"
 image_alt: "Rankscale Growth Plan – Die Lösung für Agenturen und Marketing-Teams"
 category: "AI SEO"
 tags: ["Tools", "Product Update", "Rankscale"]

@@ -87,4 +87,15 @@ Das bedeutet: Zukünftig wird es immer weniger wichtig sein, *woher* der harte H
 
 ### Zusammenfassung: Linkjuice ist Steuerung
 
-Verstehe Linkjuice nicht als absolute mathematische Wahrheit (Google nutzt den Begriff ohnehin intern nicht), sondern als eine fantastische Metapher zur Steuerung deiner Website. Mit jeder internen Verlinkung sagst du Google: *"Dieser Artikel ist mir wichtiger als jener"*. Wer Herr über seinen internen Linkjuice wird, braucht oftmals nicht einen einzigen externen Link teuer zu akquirieren, um signifikante Rankingsprünge zu feiern.
+ALOHA 🌻 
+
+---
+
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Verschenkst du wertvollen Linkjuice?</h3>
+  <p class="mb-6">Ich zeige dir, wie du deine interne Kraft verdoppelst und externe Autorität aufbaust. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir deine Power-Pages.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen </a>
+</div>
+
+* **Lese-Tipp:** [Was ist Authority?](/glossar/authoritativeness-eeat/)
+* **Lese-Tipp:** [Interne Verlinkung](/glossar/interne-verlinkung/)

@@ -3,7 +3,7 @@ title: "Wer ist für die Einrichtung der Google Search Console zuständig? "
 description: "Die große Streitfrage: Muss der Webdesigner die Search Console einrichten oder ist das reine SEO-Sache? Die ehrlichen Antworten aus über 70 Kommentaren."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-wer-ist-fuer-die-einrichtung-der-activity-7264177815217430528-9Y7S"
-image: "../../assets/images/blog/gsc-zustaendigkeit-poll.png"
+image: "../../assets/images/blog/gsc-zustaendigkeit-poll.webp"
 image_alt: "Balkendiagramm: Wer richtet die Google Search Console ein? – Webentwickler 65%, SEO 20%, Auftraggeber 10%, Keiner 5%"
 key_takeaways:
   - "Die Google Search Console (GSC) ist keine optionale Spielerei, sondern das absolute Pflicht-Werkzeug jedes Web-Projekts vom ersten Tag an."

@@ -2,7 +2,7 @@
 title: "LLM-Optimization (LLMO)"
 description: "LLMO optimiert deine Inhalte speziell für Large Language Models wie ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt werden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.webp"
 image_alt: "LLMO 3D Infografik - Optimierung für Large Language Models"
 related_terms: ["geo", "aeo", "entity-seo", "citation"]
 key_takeaways:
@@ -69,7 +69,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Was sagt ChatGPT über dich?</h3>
-  <p class="mb-6">Ich analysiere dein LLM-Profil und entwickle eine Strategie, damit KI-Modelle dich als Experte erkennen.</p>
+  <p class="mb-6">Wenn die KI dich ignoriert, existierst du bald nicht mehr. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> analysieren wir dein LLM-Profil und schärfen deine semantische Autorität.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO-Analyse anfragen </a>
 </div>
 

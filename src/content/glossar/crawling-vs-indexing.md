@@ -2,7 +2,7 @@
 title: "Crawling vs. Indexing"
 description: "Crawling und Indexing sind die zwei grundlegenden Backend-Prozesse jeder Suchmaschine. Ihre Unterscheidung ist existenziell zur Fehlerbehebung im SEO."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-indexing-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-indexing-3d.webp"
 image_alt: "Crawling vs Indexing 3D Infografik - Technisches SEO"
 related_terms: ["robots-txt", "linkjuice"]
 key_takeaways:
@@ -111,9 +111,9 @@ ALOHA 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Gefangen in der Crawling-Falle?</h3>
-  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir deinen Index fit für die Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Gecrawlt, aber nicht indexiert?</h3>
+  <p class="mb-6">Ich löse deine Indexierungs-Blockaden und sorge für Sichtbarkeit. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir die Fehler, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> optimieren wir für KI-Systeme.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Index-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Alles über die Robots.txt](/glossar/robots-txt/)

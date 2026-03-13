@@ -2,7 +2,7 @@
 title: "Strukturierte Daten (Structured Data)"
 description: "Strukturierte Daten sind der Dolmetscher für Google. Sie helfen der Suchmaschine, den Inhalt deiner Seite maschinenlesbar zu verstehen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "entitaet", "knowledge-graph"]
 key_takeaways:
   - "Strukturierte Daten (JSON-LD) übersetzen Website-Inhalte in eine maschinenlesbare Sprache."

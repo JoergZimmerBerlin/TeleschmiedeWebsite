@@ -2,7 +2,7 @@
 title: "SEO Consulting"
 description: "SEO Consulting ist die strategische Seite der Suchmaschinenoptimierung. Hier geht es nicht um Schrauben drehen, sondern um den Masterplan."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
+image: "../../assets/images/glossar/themes/themes/glossar-theme-eeat.webp"
 related_terms: ["seo-beratung", "seo-coaching", "seo-audit"]
 key_takeaways:
   - "Strategie first: Consulting definiert das 'Was' und 'Warum', bevor die Umsetzung beginnt."
@@ -57,7 +57,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du brauchst Klarheit statt Aktionismus?</h3>
-  <p class="mb-6">Als SEO Consultant liefere ich dir den strategischen Fahrplan für dein Business. Datenbasiert, priorisiert und ohne Bullshit.</p>
+  <p class="mb-6">Als SEO Consultant liefere ich dir den strategischen Fahrplan. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für lückenlose Überwachung und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Reputation.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Consulting-Gespräch anfragen </a>
 </div>
 

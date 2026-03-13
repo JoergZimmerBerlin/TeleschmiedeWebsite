@@ -2,7 +2,7 @@
 title: "Core Web Vitals (CWV)"
 description: "Die Core Web Vitals sind ein essenzielles Stell dir vor, du stehst vor einem Laden. Du drückst die Klinke, aber die Tür geht erst nach 5 Sekunden langsam auf. Gehst du rein? Wahrscheinlich nicht. Genau das ist **PageSpeed** (Ladezeit) für deine Website."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"
 image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren von Google"
 related_terms: ["geo", "pagespeed", "usability"]
 key_takeaways:
@@ -70,9 +70,9 @@ ALOHA 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das technische Monitoring und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Rote Balken in der Search Console?</h3>
+  <p class="mb-6">Rote Core Web Vitals killen dein Ranking. Ich zeige dir, wie wir LCP und CLS bändigen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Stabilität.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt CWV-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [PageSpeed Optimierung Guide](/glossar/pagespeed/)

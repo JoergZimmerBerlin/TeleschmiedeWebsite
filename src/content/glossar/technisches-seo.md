@@ -2,7 +2,7 @@
 title: "Technisches, Inhaltliches & Strategisches SEO"
 description: "Die drei Säulen des SEO-Erfolgs. Erfahre, wie technisches Fundament, exzellenter Content und eine smarte Strategie ineinandergreifen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-tech-seo-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-tech-seo-3d.webp"
 image_alt: "Technisches SEO 3D Infografik - Fundament und Architektur"
 related_terms: ["seo-audit", "pagespeed", "keywordrecherche"]
 key_takeaways:
@@ -74,8 +74,8 @@ ALOHA 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Deine Seite wird ignoriert?</h3>
-  <p class="mb-6">Ich prüfe dein Crawl-Budget und sorge dafür, dass der Googlebot deine besten Inhalte zuerst findet. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> optimieren wir deinen Zugang für Mensch und KI.</p>
+  <h3 class="text-2xl font-bold mb-4">Dein technisches Fundament wackelt?</h3>
+  <p class="mb-6">Ich sorge für eine fehlerfreie Basis, die konvertiert. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den technischen Check und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 

@@ -89,7 +89,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Jagst du den falschen Keywords hinterher?</h3>
-  <p class="mb-6">Ich analysiere deine Zielgruppe und finde die Begriffe, die wirklich für Umsatz sorgen. Lass uns deine Keyword-Strategie professionalisieren.</p>
+  <p class="mb-6">Wer die falsche Absicht trifft, verliert Klicks. Ich finde die Begriffe, die wirklich für Umsatz sorgen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> Daten und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Check anfragen </a>
 </div>
 

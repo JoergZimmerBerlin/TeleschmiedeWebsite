@@ -14,7 +14,7 @@ faqs:
     answer: 'Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt.'
   - question: "Sind Backlinks auch für Generative Engine Optimization noch relevant?"
     answer: "Sie haben weiterhin Relevanz, allerdings fungieren sie heute viel indirekter – nämlich als klares Trust-Signal (Reputation) an das KI-System. Moderne LLMs werten beim Web-Crawling primär die Textsemantik und sogenannte Brand Mentions (Erwähnungen deines Namens, auch ohne gesetzten Link) in autoritätsstarken Umfeldern aus. Ein rein auf Masse gebautes Backlink-Profil verliert in der GEO-Logik drastisch an Hebelwirkung."
-image: "../../assets/images/glossar/3d-light/glossar-geo-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-geo-3d.webp"
 image_alt: "GEO 3D Infografik - Generative Engine Optimization Strategie"
 ---
 

@@ -2,7 +2,7 @@
 title: "AI SEO"
 description: "AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-ai-seo-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp"
 image_alt: "AI SEO 3D Infografik - Integrierte Strategie für Google und KI"
 related_terms: ["geo", "aeo", "llmo", "entity-seo"]
 key_takeaways:
@@ -22,7 +22,7 @@ Moin!
 
 **AI SEO** – zwei Buchstaben, die alles verändern. Es ist der Dachbegriff für die nächste Evolution der Suchmaschinenoptimierung: Die Verbindung von klassischem Google-SEO mit der Optimierung für KI-Suchmaschinen.
 
-![AI SEO 3D Infografik](../../assets/images/glossar/3d-light/glossar-ai-seo-3d.png)
+![AI SEO 3D Infografik](../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>

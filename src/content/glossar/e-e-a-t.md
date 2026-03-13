@@ -2,7 +2,7 @@
 title: "E-E-A-T (Google Quality Rater Guidelines)"
 description: "E-E-A-T steht für Experience, Expertise, Authoritativeness und Trustworthiness. Es ist das wichtigste Konzept Googles zur Bewertung der Qualität und Vertrauenswürdigkeit von Website-Inhalten."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "E-E-A-T 3D Infografik - Vertrauen als Rankingfaktor"
 related_terms: ["geo", "crawling-vs-indexing", "usability"]
 key_takeaways:
@@ -101,8 +101,8 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein EEAT-Profil ist schwach?</h3>
-  <p class="mb-6">Ich helfe dir, echte Autorität aufzubauen und deine Experten-Signale für Google zu schärfen. Lass uns deine Story erzählen!</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen </a>
+  <p class="mb-6">Ohne Vertrauen kein Ranking. Ich schärfe deine Experten-Signale für Mensch und Maschine. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> prüfen wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt E-E-A-T Audit anfragen </a>
 </div>
 
 ### Lese-Tipp

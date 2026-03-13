@@ -184,7 +184,14 @@
 
 /* --- Glossar CTA Box Styling --- */
 .blog-cta-box {
-  @apply my-10 bg-gray-50 border border-gray-100 rounded-3xl p-8 text-center shadow-sm !important;
+  @apply my-16 bg-gray-50 border border-gray-100 rounded-3xl p-8 text-center shadow-sm !important;
+}
+
+.blog-cta-box h1,
+.blog-cta-box h2,
+.blog-cta-box h3,
+.blog-cta-box h4 {
+  @apply mt-0 !important;
 }
 
 .blog-cta-box hr {

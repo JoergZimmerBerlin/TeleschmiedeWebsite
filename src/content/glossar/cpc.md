@@ -2,7 +2,8 @@
 title: "CPC (Cost per Click)"
 description: "CPC gibt an, wie viel du für einen Klick auf eine Werbeanzeige bei Google Ads bezahlst. Ein wichtiger Indikator für Keyword-Wertigkeit."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
+image: "../../assets/images/glossar/3d-light/glossar-cpc-3d.webp"
+image_alt: "CPC (Cost per Click) 3D Infografik - Marktwert von Keywords"
 related_terms: ["keywoerter", "money-keyword", "conversion-rate"]
 key_takeaways:
   - "Marktwert-Indikator: Der CPC zeigt dir, wie viel Wettbewerber bereit sind, für einen Klick zu zahlen."
@@ -16,6 +17,8 @@ faqs:
   - question: "Kann man den CPC durch SEO-Maßnahmen wirklich sparen?"
     answer: "Absolut! Das ist das Kerngeschäft meiner 'SEO-Strategie'. Wenn wir ein Keyword organisch in die Top-Rankings schieben, sinkt der Druck auf dein Google Ads Budget. Du kannst entweder die teuren Anzeigen ganz abschalten oder das gesparte Geld in noch tiefergehende Kampagnen investieren. SEO macht dich unabhängig von den Preisdiktaten Googles."
 ---
+
+![CPC (Cost per Click) 3D Infografik](../../assets/images/glossar/3d-light/glossar-cpc-3d.webp)
 
 CPC steht für Cost per Click.
 Oder auf Deutsch: Wie viel wandert pro Klick von deinem Konto zu Google?

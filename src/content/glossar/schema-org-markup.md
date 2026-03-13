@@ -2,7 +2,8 @@
 title: "Schema.org Markup"
 description: "Schema.org ist der globale Standard für strukturierte Daten. Erfahre, wie du dieses mächtige SEO-Vokabular für deine Website nutzt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"
+image_alt: "Schema.org Markup 3D Infografik - Strukturierte Daten Visualisierung"
 related_terms: ["strukturierte-daten", "entity-seo", "knowledge-graph"]
 key_takeaways:
   - "Maschinen-Sprache: Schema.org ist das globale Vokabular, um Informationen für Suchmaschinen unmissverständlich zu machen."
@@ -16,6 +17,8 @@ faqs:
   - question: "Wie teste ich, ob mein Schema.org Markup fehlerfrei ist?"
     answer: "Google bietet zwei offizielle Tools: Den 'Rich Results Test' (Test für Rich-Suchergebnisse) und den 'Schema Markup Validator'. Der Rich Results Test zeigt dir, welche Rich Snippets möglich sind, der Validator prüft die technische Korrektheit. Tipp: Teste nach jeder Änderung! Auf teleschmie.de prüfe ich das bei jedem Deployment automatisch. Ein kleiner Syntaxfehler im JSON-LD und dein gesamtes Markup wird ignoriert."
 ---
+
+![Schema.org Markup 3D Infografik](../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp)
 
 Schema.org ist das Wörterbuch des Webs.
 Es ist eine Initiative der großen Player: Google, Bing, Yahoo und Yandex.
@@ -76,8 +79,6 @@ Und genau das ist es, was Google heute belohnt.
 Schema.org ist kein Trend. Es ist der Standard. Sprich die Sprache der Maschinen, um die Aufmerksamkeit der Menschen zu gewinnen. Nutze das volle Vokabular für deine Nische. Verknüpfe deine Daten zu einem starken Netz. Denn am Ende gewinnt der, der die klarsten Antworten liefert.
 
 ALOHA 🌻 
-
----
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für Google noch 'stumm'?</h3>

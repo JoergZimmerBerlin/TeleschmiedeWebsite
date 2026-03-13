@@ -89,8 +89,6 @@ Das bedeutet: Zukünftig wird es immer weniger wichtig sein, *woher* der harte H
 
 ALOHA 🌻 
 
----
-
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Verschenkst du wertvollen Linkjuice?</h3>
   <p class="mb-6">Ich zeige dir, wie du deine interne Kraft verdoppelst und externe Autorität aufbaust. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir deine Power-Pages.</p>

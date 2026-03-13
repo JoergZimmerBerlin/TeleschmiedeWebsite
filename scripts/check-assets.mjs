@@ -26,11 +26,15 @@ let missingCount = 0;
 
 files.forEach(file => {
     const content = fs.readFileSync(file, 'utf8');
-    const imageRefs = content.match(/\/assets\/images\/[^ )"']+\.(webp|png|jpg|jpeg|svg)/g);
+    // Match anything that looks like an image path in src/assets
+    const imageRefs = content.match(/((\.\.\/)+|(\/))assets\/images\/[^ )"']+\.(webp|png|jpg|jpeg|svg)/g);
 
     if (imageRefs) {
         imageRefs.forEach(ref => {
-            const fullPath = path.join(process.cwd(), ASSETS_DIR, ref);
+            // Normalize path: remove leading / or ../ and join with src
+            const cleanRef = ref.replace(/^(\.\.\/)+/, '').replace(/^\//, '');
+            const fullPath = path.join(process.cwd(), ASSETS_DIR, cleanRef);
+            
             if (!fs.existsSync(fullPath)) {
                 console.error(`❌ Missing asset: ${ref} referenced in ${file}`);
                 missingCount++;

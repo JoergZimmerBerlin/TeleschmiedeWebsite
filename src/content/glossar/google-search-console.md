@@ -70,7 +70,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Search Console zeigt nur rote Zahlen?</h3>
-  <p class="mb-6">Ich helfe dir, die Daten richtig zu interpretieren und technische Blockaden zu lösen. Lass uns deine GSC zum Glühen bringen!</p>
+  <p class="mb-6">Ich helfe dir, die Daten richtig zu interpretieren und technische Blockaden zu lösen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir deine Sichtbarkeit über alle Kanäle hinweg messbar.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt GSC-Check anfragen </a>
 </div>
 

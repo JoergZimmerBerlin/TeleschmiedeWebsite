@@ -2,7 +2,7 @@
 title: "CTR (Click-Through-Rate)"
 description: "Die CTR (Click-Through-Rate) zeigt, wie oft dein Suchergebnis angeklickt wird. Sie ist ein indirekter Rankingfaktor und der ultimative Gradmesser für deine SERP-Attraktivität."
 date: "2026-03-10"
-image: "../../assets/images/glossar/3d-light/glossar-ctr-3d.png"
+image: "../../assets/images/glossar/3d-light/glossar-ctr-3d.webp"
 related_terms: ["meta-description", "title-tag", "rankingfaktoren", "conversion-rate"]
 key_takeaways:
   - "Sichtbar  Geklickt: Ein Ranking auf Platz 3 bringt nichts, wenn niemand klickt."

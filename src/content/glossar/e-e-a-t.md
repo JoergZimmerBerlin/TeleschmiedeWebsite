@@ -83,7 +83,7 @@ Aktive Moderation ist Pflicht, um Spam zu vermeiden, der den *Trust* schwächt.
 ## E-E-A-T in Zeiten der generativen KI
 
 Mit dem Aufkommen von Large Language Models (LLMs) wie ChatGPT und [GEO](/glossar/geo/) wird E-E-A-T brisanter denn je.
-KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopfen, hat Google massiv an den Filtern gedreht (Helpful Content Updates). Mit Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du messen, wie die KI deine fachliche Autorität aktuell einstuft. 
+KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopfen, hat Google massiv an den Filtern gedreht (Helpful Content Updates). Mit Tools wie [Rankscale](https://rankscale.ai/?via=offer) kannst du messen, wie die KI deine fachliche Autorität aktuell einstuft. 
 
 **Deshalb lautet die goldene Regel:** 
 Schreibe keine Artikel, die eine KI in 5 Sekunden generieren könnte. 

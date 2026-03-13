@@ -61,7 +61,7 @@ Für moderne SEO-Strategien, die ich in meinem [Blog](/blog/rankscale-ai-visibil
 
 ## Mein Tacheles-Rat für dich
 
-Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), während [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
+Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), während [Rankscale](https://rankscale.ai/?via=offer) mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
 
 ALOHA ✌️
 

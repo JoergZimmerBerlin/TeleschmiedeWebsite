@@ -55,7 +55,7 @@ Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenhei
 ### Technisches SEO beurteilen
 *   [Core Web Vitals](/glossar/core-web-vitals/) interpretieren.
 *   [Sitemap](/glossar/sitemap/), [robots.txt](/glossar/robots-txt/) und [Schema.org](/glossar/schema-org-markup/) verstehen.
-*   **KI-Reputation:** Lerne mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), wie du deine Marke für 17+ Sprachmodelle optimierst.
+*   **KI-Reputation:** Lerne mit [Rankscale](https://rankscale.ai/?via=offer), wie du deine Marke für 17+ Sprachmodelle optimierst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Meine Coaching-Philosophie</h4>

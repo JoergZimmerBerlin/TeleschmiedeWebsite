@@ -25,7 +25,7 @@ In meinem aktuellen Video bei SEO Presso spreche ich mit erfahrenen Kollegen dar
 
 ![Komplexitäts-Layer von GEO und AI-Sichtbarkeit](../../assets/images/blog/geo-aio-komplexitaet.webp)
 
-Bei GEO geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT. Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) helfen dabei, diese Sichtbarkeit messbar zu machen. aufzutauchen. 
+Bei GEO geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT. Tools wie [Rankscale](https://rankscale.ai/?via=offer) helfen dabei, diese Sichtbarkeit messbar zu machen. aufzutauchen. 
 
 Das ist echtes High-End-Handwerk. Warum? Weil diese Systeme Informationen anders verarbeiten als die klassische Google-Suche. Sie suchen nicht nach dem Dokument mit dem besten Vertrauensprofil, sondern nach dem Dokument, das die höchste semantische Relevanz und Fakten-Dichte zur Anfrage bietet. GEO erfordert ein Verständnis von **Entity-Based SEO**, **Structured Data** auf einem neuen Level und der Fähigkeit, komplexe Themen so präzise zu strukturieren, dass eine KI sie fehlerfrei extrahieren kann.
 

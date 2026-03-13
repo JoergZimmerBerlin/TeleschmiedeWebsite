@@ -39,9 +39,9 @@ const { title, subtitle, columns, rows } = Astro.props;
       <tbody>
         {rows.map((row) => (
           <tr class="hover:bg-gray-50/50 transition-colors">
-            <td class="p-6 text-sm font-bold text-dark border-b border-gray-50">{row.feature}</td>
+            <td class="p-6 text-sm font-bold text-dark border-b border-gray-50" data-label="Funktion / Tool">{row.feature}</td>
             {row.values.map((val, idx) => (
-              <td class={`p-6 text-sm text-center border-b border-gray-50 ${columns[idx].isPrimary ? 'bg-lime-accent/5' : ''}`}>
+              <td class={`p-6 text-sm text-center border-b border-gray-50 ${columns[idx].isPrimary ? 'bg-lime-accent/5' : ''}`} data-label={columns[idx].name}>
                 {typeof val === 'boolean' ? (
                   val ? (
                     <div class="flex justify-center">

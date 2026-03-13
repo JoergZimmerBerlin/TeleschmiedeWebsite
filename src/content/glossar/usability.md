@@ -84,7 +84,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hängst du in der Design-Falle?</h3>
-  <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) machen wir deine Seite benutzerfreundlich und profitabel.</p>
+  <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) machen wir deine Seite benutzerfreundlich und profitabel.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen →</a>
 </div>
 

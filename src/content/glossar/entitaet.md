@@ -24,7 +24,7 @@ Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Stri
   <p class="italic text-dark mb-0">"AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
 </div>
 
-Eine Entität ist ein Ding oder ein Konzept, das singulär, einzigartig und von anderen Dingen klar unterscheidbar ist. "Apple Inc." ist eine Entität (ein Unternehmen), "Apfel" ist eine Entität (eine Frucht), "Steve Jobs" ist eine Entität (eine verstorbene Person). Die moderne SEO-Arbeit dreht sich fast ausschließlich darum, Google dabei zu helfen, deine Identität als Entität zweifelsfrei zu begreifen und sie im [Knowledge Graph](/glossar/knowledge-graph/) richtig zu verknüpfen. Mit dem [Entity-Tracking von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir heute den Erfolg: KI-Systeme erkennen deine Marke präzise als Entität.
+Eine Entität ist ein Ding oder ein Konzept, das singulär, einzigartig und von anderen Dingen klar unterscheidbar ist. "Apple Inc." ist eine Entität (ein Unternehmen), "Apfel" ist eine Entität (eine Frucht), "Steve Jobs" ist eine Entität (eine verstorbene Person). Die moderne SEO-Arbeit dreht sich fast ausschließlich darum, Google dabei zu helfen, deine Identität als Entität zweifelsfrei zu begreifen und sie im [Knowledge Graph](/glossar/knowledge-graph/) richtig zu verknüpfen. Mit dem [Entity-Tracking von Rankscale](https://rankscale.ai/?via=offer) messen wir heute den Erfolg: KI-Systeme erkennen deine Marke präzise als Entität.
 
 ## Die drei Merkmale einer starken Entität
 

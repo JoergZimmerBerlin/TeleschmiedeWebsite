@@ -85,7 +85,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Schema.org Setup braucht ein Upgrade?</h3>
-  <p class="mb-6">Ich implementiere für dich ein sauberes FAQ-Markup, das sowohl Google als auch KI-Systeme begeistert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) prüfen wir, ob deine FAQs auch in den Antworten von ChatGPT & Co. ankommen.</p>
+  <p class="mb-6">Ich implementiere für dich ein sauberes FAQ-Markup, das sowohl Google als auch KI-Systeme begeistert. Mit [Rankscale](https://rankscale.ai/?via=offer) prüfen wir, ob deine FAQs auch in den Antworten von ChatGPT & Co. ankommen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Check anfragen →</a>
 </div>
 

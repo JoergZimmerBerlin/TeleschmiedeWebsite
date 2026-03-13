@@ -29,7 +29,7 @@ In einer Zeit, in der die Aufmerksamkeitsspanne von Nutzern unter der eines Gold
 </div>
 
 Google hat die Ladezeit bereits vor Jahren als offiziellen Rankingfaktor etabliert. 
-Seit 2021 nutzt Google die [Core Web Vitals](/glossar/core-web-vitals/) als offizielle Ranking-Signale. Es geht nicht mehr nur um „irgendeine" Ladezeit, sondern um das echte Nutzererlebnis. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du überwachen, ob technische Ladezeit-Probleme deine Sichtbarkeit in KI-Suchmaschinen negativ beeinflussen. Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
+Seit 2021 nutzt Google die [Core Web Vitals](/glossar/core-web-vitals/) als offizielle Ranking-Signale. Es geht nicht mehr nur um „irgendeine" Ladezeit, sondern um das echte Nutzererlebnis. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du überwachen, ob technische Ladezeit-Probleme deine Sichtbarkeit in KI-Suchmaschinen negativ beeinflussen. Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
 
 ## Die drei Ebenen der Ladezeit
 
@@ -77,7 +77,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen die [Monitoring-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Fundament und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen die [Monitoring-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Fundament und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Sichtbarkeit.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen →</a>
 </div>
 

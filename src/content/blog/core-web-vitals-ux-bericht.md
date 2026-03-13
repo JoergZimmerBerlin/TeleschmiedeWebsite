@@ -29,7 +29,7 @@ Ich liebe Zahlen. Besonders wenn sie so aussehen, dass man sie sich einrahmen m�
 - **Optimierung erforderlich:** 10 URLs
 - **Gut:** **216 URLs** ✅
 
-Das ist kein Best-Case-Szenario aus einem Marketing-Folder. Das ist ein echter **UX-Bericht für Chrome (CrUX)** eines meiner Kunden. Von Oktober 2025 bis Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts komplett umgekrempelt. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) behalten wir die Trends im Blick, während [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) uns zeigt, wie diese Verbesserungen auf unsere KI-Sichtbarkeit einzahlen.
+Das ist kein Best-Case-Szenario aus einem Marketing-Folder. Das ist ein echter **UX-Bericht für Chrome (CrUX)** eines meiner Kunden. Von Oktober 2025 bis Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts komplett umgekrempelt. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) behalten wir die Trends im Blick, während [Rankscale](https://rankscale.ai/?via=offer) uns zeigt, wie diese Verbesserungen auf unsere KI-Sichtbarkeit einzahlen.
 
 ## Warum Core Web Vitals mehr sind als Google-Schikane
 
@@ -104,6 +104,6 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du bereit für den User-Check?</h3>
-  <p class="mb-6">Ich analysiere deine Core Web Vitals und entwickle eine Strategie, die Nutzer UND Google glücklich macht. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das kontinuierliche Monitoring und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Visibility.</p>
+  <p class="mb-6">Ich analysiere deine Core Web Vitals und entwickle eine Strategie, die Nutzer UND Google glücklich macht. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das kontinuierliche Monitoring und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Visibility.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Performance-Audit buchen →</a>
 </div>

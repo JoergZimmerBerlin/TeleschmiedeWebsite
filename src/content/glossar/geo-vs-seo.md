@@ -46,7 +46,7 @@ Eine **GEO Agentur** optimiert nicht für "billigste Waschmaschine kaufen", sond
 KI-Modelle haben ein Problem mit Halluzinationen. Sie suchen verzweifelt nach Fakten, die sie validieren können. Wer als **GEO Freelancer** arbeitet, sorgt dafür, dass deine Expertise überall im Netz konsistent und verknüpft ist. 
 
 ### 3. Zitate und Mentions
-In der Welt von **AI-Search** ist ein Link weniger wert als eine echte Erwähnung ([Mention](/glossar/mention/)) in einem fachrelevanten Kontext. KI-Engines "lesen" das Internet – und sie zitieren nur das, was sie als verlässliche Quelle einstufen. Mit dem [AI Visibility Tracking von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich dieser Status Quo heute erstmals präzise messen und steuern.
+In der Welt von **AI-Search** ist ein Link weniger wert als eine echte Erwähnung ([Mention](/glossar/mention/)) in einem fachrelevanten Kontext. KI-Engines "lesen" das Internet – und sie zitieren nur das, was sie als verlässliche Quelle einstufen. Mit dem [AI Visibility Tracking von Rankscale](https://rankscale.ai/?via=offer) lässt sich dieser Status Quo heute erstmals präzise messen und steuern.
 
 ## Was ein GEO Spezialist für dich tut
 

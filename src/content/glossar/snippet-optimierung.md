@@ -56,7 +56,7 @@ Das Featured Snippet ist die Box über allen anderen Ergebnissen. Es beantwortet
 
 ## Mein Tacheles-Rat für dich
 
-Öffne dein Dashboard bei [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir anschließend, ob dein Snippet-Upgrade auch deine Präsenz in Featured Snippets und KI-Antworten boostet.
+Öffne dein Dashboard bei [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Mit [Rankscale](https://rankscale.ai/?via=offer) messen wir anschließend, ob dein Snippet-Upgrade auch deine Präsenz in Featured Snippets und KI-Antworten boostet.
 
 ALOHA ✌️
 

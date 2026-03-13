@@ -57,7 +57,7 @@ Alle Standard-Verdächtigen waren raus.
 
 Das hieß: Das Problem liegt im Code.
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten-Analyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten-Analyse und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ## Der Täter: Drittanbieter-Scripte
 
@@ -117,6 +117,6 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Brennt deine Hütte auch?</h3>
-  <p class="mb-6">Warte nicht, bis der Schaden irreparabel ist. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) finden wir das Leck sofort und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) hilft uns, deine KI-Visibility zu retten.</p>
+  <p class="mb-6">Warte nicht, bis der Schaden irreparabel ist. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) finden wir das Leck sofort und [Rankscale](https://rankscale.ai/?via=offer) hilft uns, deine KI-Visibility zu retten.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Notfall-Check anfragen →</a>
 </div>

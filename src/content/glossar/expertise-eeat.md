@@ -48,7 +48,7 @@ Hier zählt die nachweisbare Praxis-Expertise. Du musst kein Professor sein – 
 
 ## Jörgs Action-Plan
 
-Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Nutze [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) um deine Sichtbarkeit zu tracken. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt. Professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) können dir bei der Marktanalyse helfen.
+Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Nutze [Rankscale](https://rankscale.ai/?via=offer) um deine Sichtbarkeit zu tracken. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt. Professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) können dir bei der Marktanalyse helfen.
 
 ALOHA ✌️
 

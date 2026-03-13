@@ -55,7 +55,7 @@ Verknüpfe deinen Content mit einem klaren Autorenprofil, das deine echte Erfahr
 
 ## Mein Tacheles-Rat für dich
 
-In der neuen Welt der [KI-Suche (GEO)](/glossar/geo/) ist Deine Erfahrung Dein stärkster Burggraben. Eine KI kann keine Berge besteigen oder Software-Bugs im Live-Betrieb fixen. Wer seine Inhalte mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) auf KI-Sichtbarkeit prüft, wird feststellen, dass Google genau diese persönlichen Signale belohnt.
+In der neuen Welt der [KI-Suche (GEO)](/glossar/geo/) ist Deine Erfahrung Dein stärkster Burggraben. Eine KI kann keine Berge besteigen oder Software-Bugs im Live-Betrieb fixen. Wer seine Inhalte mit [Rankscale](https://rankscale.ai/?via=offer) auf KI-Sichtbarkeit prüft, wird feststellen, dass Google genau diese persönlichen Signale belohnt.
 Geh deinen Content durch und frag dich bei jedem Artikel: Kann der Leser erkennen, dass ein Mensch mit echter Erfahrung das geschrieben hat? Wenn nicht, ergänze persönliche Anekdoten, eigene Bilder und konkrete Daten. Das ist der einfachste Weg, sich von KI-Content abzuheben.
 
 ALOHA ✌️

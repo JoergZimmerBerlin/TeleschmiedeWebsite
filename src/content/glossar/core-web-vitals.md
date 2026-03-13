@@ -54,7 +54,7 @@ Wenn dein Server in Deutschland steht, aber deine Nutzer aus den USA kommen, wir
 
 In der Welt von [Generative Engine Optimization](/glossar/geo/) spielen Ladezeiten eine neue Rolle.
 LLM-Agenten (die "KI-Bots") haben ein begrenztes Zeitfenster, um deine Seite zu crawlen.
-Wenn deine Seite massives Layout-Shifting (CLS) hat, kann der Bot den Text vielleicht nicht korrekt extrahieren. Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du deine AI-Sichtbarkeit im Vergleich zu technischen Performance-Werten analysieren.
+Wenn deine Seite massives Layout-Shifting (CLS) hat, kann der Bot den Text vielleicht nicht korrekt extrahieren. Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du deine AI-Sichtbarkeit im Vergleich zu technischen Performance-Werten analysieren.
 
 In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist die Performance-Optimierung daher kein "nice to have", sondern das technische Fundament.
 
@@ -71,7 +71,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Monitoring und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Monitoring und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Sichtbarkeit.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen →</a>
 </div>
 

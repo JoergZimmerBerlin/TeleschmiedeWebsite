@@ -81,7 +81,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für Google noch 'stumm'?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine Sichtbarkeit in der KI-Suche ab.</p>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit [Rankscale](https://rankscale.ai/?via=offer) sichern wir deine Sichtbarkeit in der KI-Suche ab.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen →</a>
 </div>
 

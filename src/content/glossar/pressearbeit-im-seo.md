@@ -36,7 +36,7 @@ Die Zeiten, in denen man SEO-Links in Webkatalogen oder Forenkommentaren „aufg
 
 **Digital PR** liefert genau das, was Google sehen will:
 *   **Natürliche, redaktionelle Links** von vertrauenswürdigen Domains
-*   **Brand Mentions** ([Erwähnungen](/glossar/mention/)) in relevanten Kontexten. Ob deine Marke bereits in KI-Antworten als Autorität auftaucht, kannst du mit [Rankscale AI Tracking](https://app.rankscale.ai/auth/signup?via=joerg) validieren.
+*   **Brand Mentions** ([Erwähnungen](/glossar/mention/)) in relevanten Kontexten. Ob deine Marke bereits in KI-Antworten als Autorität auftaucht, kannst du mit [Rankscale AI Tracking](https://rankscale.ai/?via=offer) validieren.
 *   **Signale für Expertise** (ein Interview zum Thema SEO bestätigt deine Fachkompetenz). Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysierst du die Wirkung dieser PR-Massnahmen auf dein Ranking-Profil.
 
 ## Die PR-Strategie für SEO-Profis

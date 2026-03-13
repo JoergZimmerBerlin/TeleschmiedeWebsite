@@ -84,6 +84,6 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Sprechen wir dieselbe Sprache?</h3>
-  <p class="mb-6">Egal ob SEO, Digital Authority oder Search Everywhere: Am Ende zählen die Daten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) haben wir die Basis und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) die Zukunft fest im Blick.</p>
+  <p class="mb-6">Egal ob SEO, Digital Authority oder Search Everywhere: Am Ende zählen die Daten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) haben wir die Basis und mit [Rankscale](https://rankscale.ai/?via=offer) die Zukunft fest im Blick.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Visionen-Check anfragen →</a>
 </div>

@@ -47,7 +47,7 @@ Ein thematisches Content-Cluster ([Semantic SEO](/glossar/semantic-seo/)) zeigt 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein Entitäten-Building Playbook</h4>
-  <p class="mb-0 text-sm">Ich habe für mich selbst all diese Schritte umgesetzt: Grounding Page mit vollständigen Fakten, Schema.org Person-Markup, 60+ Glossar-Einträge als Expertise-Nachweis, Podcast-Auftritte für externe Mentions und LinkedIn für Community-Präsenz. Mit dem [AI Visibility Tracking von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messe ich heute den Erfolg: KI-Systeme erkennen „Jörg Zimmer" präzise als Entität im Bereich SEO.</p>
+  <p class="mb-0 text-sm">Ich habe für mich selbst all diese Schritte umgesetzt: Grounding Page mit vollständigen Fakten, Schema.org Person-Markup, 60+ Glossar-Einträge als Expertise-Nachweis, Podcast-Auftritte für externe Mentions und LinkedIn für Community-Präsenz. Mit dem [AI Visibility Tracking von Rankscale](https://rankscale.ai/?via=offer) messe ich heute den Erfolg: KI-Systeme erkennen „Jörg Zimmer" präzise als Entität im Bereich SEO.</p>
 </div>
 
 ## Mein Tacheles-Rat für dich

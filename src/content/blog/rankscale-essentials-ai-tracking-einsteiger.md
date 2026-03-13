@@ -21,7 +21,7 @@ Wir reden hier nicht mehr nur von der klassischen Google-Suche mit ihren "blauen
 
 Das Problem für Einsteiger war bisher: **Wie zum Geier messe ich das?** 
 
-Entweder du verbringst Stunden mit manuellem Tippen in fünf verschiedene KIs, oder du schaust dir Enterprise-Lösungen an, die preislich jenseits von Gut und Böse liegen. Heute habe ich die Lösung für alle, die Licht ins Dunkel ihres AI-Trackings bringen wollen: **Das [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) Essentials-Paket.**
+Entweder du verbringst Stunden mit manuellem Tippen in fünf verschiedene KIs, oder du schaust dir Enterprise-Lösungen an, die preislich jenseits von Gut und Böse liegen. Heute habe ich die Lösung für alle, die Licht ins Dunkel ihres AI-Trackings bringen wollen: **Das [Rankscale](https://rankscale.ai/?via=offer) Essentials-Paket.**
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

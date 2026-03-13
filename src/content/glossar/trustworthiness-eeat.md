@@ -53,7 +53,7 @@ Du kannst die beste [Experience](/glossar/experience-eeat/), die tiefste [Expert
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Trust und KI-Systeme</h4>
-  <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du genau messen, wie vertrauenswürdig deine Entität für verschiedene LLMs eingestuft wird. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.
+  <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du genau messen, wie vertrauenswürdig deine Entität für verschiedene LLMs eingestuft wird. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.
 </div>
 
 ## Jörgs Action-Plan

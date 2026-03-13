@@ -41,7 +41,7 @@ Wer 20 Jahre Erfahrung hat, wer hunderte Relaunches begleitet hat, wer technisch
 
 ### 2. Der Aufstieg des AI-Trackings: Rankscale im Fokus
 
-2025 war das Jahr, in dem wir aufhören mussten, nur klassische Rankings zu zählen. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kam einer der ersten Tracker auf den Markt, der wirklich ernsthaft die Sichtbarkeit in 17 verschiedenen LLMs (Large Language Models) gemessen hat. 
+2025 war das Jahr, in dem wir aufhören mussten, nur klassische Rankings zu zählen. Mit [Rankscale](https://rankscale.ai/?via=offer) kam einer der ersten Tracker auf den Markt, der wirklich ernsthaft die Sichtbarkeit in 17 verschiedenen LLMs (Large Language Models) gemessen hat. 
 
 Ich hab das Tool vorgestellt und die Community war gespalten. Die einen sagten: "Endlich Daten für die neue Welt!" Die anderen: "Wir können doch nicht für jede KI einzeln optimieren!" Es war der Startschuss für eine neue Ära des Monitorings. Wir tracken heute nicht mehr nur Position 1 auf Google, sondern die Wahrscheinlichkeit, von einer KI als Top-Lösung empfohlen zu werden.
 

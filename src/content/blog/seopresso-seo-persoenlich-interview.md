@@ -60,7 +60,7 @@ Hier ist der Überblick über meine "Epochen":
 
 Wir SEOs lieben unsere Tools. 
 
-Wir starren auf Graphen. SISTRIX. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg). 
+Wir starren auf Graphen. SISTRIX. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). [Rankscale](https://rankscale.ai/?via=offer). 
 
 Aber im Gespräch mit Björn wurde eines klar: 
 
@@ -123,7 +123,7 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du den Menschen hinter den Daten?</h3>
-  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Analyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) für deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Analyse und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen →</a>
 </div>
 

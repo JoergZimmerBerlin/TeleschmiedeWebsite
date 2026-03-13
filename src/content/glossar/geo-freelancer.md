@@ -15,7 +15,7 @@ faqs:
   - question: "Warum einen Freelancer statt einer GEO Agentur beauftragen?"
     answer: "Weil GEO noch eine junge Disziplin ist, in der praktische Erfahrung Gold wert ist. In einer Agentur landet dein Projekt oft bei einem Junior, der GEO aus einem Blogpost kennt. Ein spezialisierter Freelancer hat selbst experimentiert, eigene Ergebnisse gemessen und optimiert. Ich arbeite direkt mit meinen Kunden – ohne Umwege, ohne Agentur-Overhead. Dazu kommt: Mein eigenes Setup ist ein lebendes Proof-of-Concept. Was ich für Kunden empfehle, habe ich vorher an mir selbst getestet."
   - question: "Was kostet ein GEO Freelancer und was bekomme ich dafür?"
-    answer: "Die Stundensätze für GEO-spezialisierte Freelancer liegen typischerweise zwischen 120€ und 200€, je nach Erfahrung und Projektumfang. Dafür bekommst du keine generische Keyword-Liste, sondern eine maßgeschneiderte Strategie: Entity-Audit, Citation-Analyse, Schema.org-Implementierung, Grounding-Page-Aufbau und ein AI-Visibility-Monitoring über Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg). Der ROI zeigt sich oft schneller als bei klassischem SEO, weil der KI-Markt noch wenig Wettbewerb hat."
+    answer: "Die Stundensätze für GEO-spezialisierte Freelancer liegen typischerweise zwischen 120€ und 200€, je nach Erfahrung und Projektumfang. Dafür bekommst du keine generische Keyword-Liste, sondern eine maßgeschneiderte Strategie: Entity-Audit, Citation-Analyse, Schema.org-Implementierung, Grounding-Page-Aufbau und ein AI-Visibility-Monitoring über Tools wie [Rankscale](https://rankscale.ai/?via=offer). Der ROI zeigt sich oft schneller als bei klassischem SEO, weil der KI-Markt noch wenig Wettbewerb hat."
 ---
 
 Moin!
@@ -50,7 +50,7 @@ Ich verbinde in meiner täglichen Arbeit [SEO](/seo-freelancer-berlin/) und GEO 
 2.  **[Schema.org Markup](/glossar/schema-org-markup/):** Person, LocalBusiness, FAQPage, DefinedTerm – alles als JSON-LD implementiert, so dass KIs meine Daten strukturiert lesen können.
 3.  **48+ Glossar-Einträge:** Jeder Eintrag ist ein Wissensknoten, der meine inhaltliche Autorität in meinem Fachgebiet belegt.
 4.  **[Podcast-Auftritte](/blog/seopresso-seo-persoenlich-interview/):** Jede Shownote-Seite ist eine Citation, die mein Entity-Profil stärkt.
-5.  **[AI Visibility Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/):** Ich messe meine Sichtbarkeit über 17 LLMs mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg).
+5.  **[AI Visibility Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/):** Ich messe meine Sichtbarkeit über 17 LLMs mit [Rankscale](https://rankscale.ai/?via=offer).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Der Unterschied: Theorie vs. Praxis</h4>

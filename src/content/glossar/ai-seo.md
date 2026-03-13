@@ -72,11 +72,11 @@ In meiner täglichen Arbeit als [SEO & GEO Freelancer](/seo-freelancer-berlin/) 
 *   **Content:** Ist er [zitierfähig](/glossar/zitierfaehiger-content/) für KI-Systeme?
 *   **Technik:** Sind [Schema.org](/glossar/technisches-schema-markup/) und [strukturierte Daten](/glossar/strukturierte-daten/) implementiert?
 *   **Entity:** Wird mein Kunde als [Entität](/glossar/entitaeten-building/) erkannt?
-*   **Tracking:** Nutzen wir [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) neben der [Google Search Console](https://seranking.com/de/?ga=4169588&source=link).
+*   **Tracking:** Nutzen wir [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://rankscale.ai/?via=offer) neben der [Google Search Console](https://seranking.com/de/?ga=4169588&source=link).
 
 ## Dein nächster Schritt
 
-Frag dich: Optimierst du nur für Google – oder auch für ChatGPT, Perplexity und Gemini? Wenn die Antwort „nur Google" ist, verschenkst du Potenzial. AI SEO ist keine Zukunftsmusik – es ist die Gegenwart. Nutze [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für deine klassische Keyword-Analyse und verknüpfe sie mit der KI-Sichtbarkeit von [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg). Und die Unternehmen, die jetzt einsteigen, bauen einen Vorsprung auf, den Nachzügler Jahre brauchen, um aufzuholen.
+Frag dich: Optimierst du nur für Google – oder auch für ChatGPT, Perplexity und Gemini? Wenn die Antwort „nur Google" ist, verschenkst du Potenzial. AI SEO ist keine Zukunftsmusik – es ist die Gegenwart. Nutze [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für deine klassische Keyword-Analyse und verknüpfe sie mit der KI-Sichtbarkeit von [Rankscale](https://rankscale.ai/?via=offer). Und die Unternehmen, die jetzt einsteigen, bauen einen Vorsprung auf, den Nachzügler Jahre brauchen, um aufzuholen.
 
 ALOHA ✌️
 
@@ -84,7 +84,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für AI SEO?</h3>
-  <p class="mb-6">Ich verbinde klassisches SEO mit GEO, AEO und LLMO zu einer integrierten Strategie, die dich in Google UND in KI-Antworten sichtbar macht. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) als technisches Fundament.</p>
+  <p class="mb-6">Ich verbinde klassisches SEO mit GEO, AEO und LLMO zu einer integrierten Strategie, die dich in Google UND in KI-Antworten sichtbar macht. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) als technisches Fundament.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AI SEO Strategie anfragen →</a>
 </div>
 

@@ -37,7 +37,7 @@ Wichtige Hebel im technischen SEO:
 *   **Indexierbarkeit:** Nutzen wir [Noindex](/glossar/noindex/) richtig?
 *   **Struktur:** Ist unsere [Sitemap](/glossar/sitemap/) aktuell?
 *   **Mobile First:** Lädt die Seite auf dem Smartphone in unter 2 Sekunden?
-*   **Schema:** Nutzen wir [Strukturierte Daten](/glossar/strukturierte-daten/), um Google 'Essen' für KI-Antworten zu geben? Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) lässt sich die Wirkung technischer Optimierungen auf die KI-Sichtbarkeit direkt tracken.
+*   **Schema:** Nutzen wir [Strukturierte Daten](/glossar/strukturierte-daten/), um Google 'Essen' für KI-Antworten zu geben? Mit [Rankscale](https://rankscale.ai/?via=offer) lässt sich die Wirkung technischer Optimierungen auf die KI-Sichtbarkeit direkt tracken.
 
 ## 2. Inhaltliches SEO: Die Stimme deiner Marke
 
@@ -75,7 +75,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite wird ignoriert?</h3>
-  <p class="mb-6">Ich prüfe dein Crawl-Budget und sorge dafür, dass der Googlebot deine besten Inhalte zuerst findet. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) optimieren wir deinen Zugang für Mensch und KI.</p>
+  <p class="mb-6">Ich prüfe dein Crawl-Budget und sorge dafür, dass der Googlebot deine besten Inhalte zuerst findet. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) optimieren wir deinen Zugang für Mensch und KI.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen →</a>
 </div>
 

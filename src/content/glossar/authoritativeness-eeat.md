@@ -13,7 +13,7 @@ faqs:
   - question: "Wie baue ich Authoritativeness auf?"
     answer: "Autorität musst du dir verdienen – sie lässt sich nicht per Plugin installieren. Die drei stärksten Hebel: Erstens, Pressearbeit und Gastbeiträge in Fachmedien. Zweitens, Podcast-Auftritte und Konferenz-Vorträge. Drittens, ein konsistentes Citation-Profil über alle wichtigen Plattformen hinweg. In meinem Fall sind es die Kombination aus SEOpresso-Podcast, Campixx-Präsenz, meinem Glossar und meiner LinkedIn-Aktivität, die meine Autorität im Bereich SEO Berlin demonstrieren."
   - question: "Kann man Authoritativeness messen?"
-    answer: "Nicht direkt mit einem einzigen KPI, aber indirekt über mehrere Indikatoren: Wie oft wird dein Name in Fachmedien erwähnt? Wie viele hochwertige Backlinks hast du? Wie oft wirst du von KI-Systemen als Quelle zitiert? Wächst dein Branded Search Volume? Hast du einen Knowledge Panel bei Google? All diese Signale zusammen ergeben dein Autoritäts-Profil. Tools wie [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen deine AI Authority über 17 LLMs."
+    answer: "Nicht direkt mit einem einzigen KPI, aber indirekt über mehrere Indikatoren: Wie oft wird dein Name in Fachmedien erwähnt? Wie viele hochwertige Backlinks hast du? Wie oft wirst du von KI-Systemen als Quelle zitiert? Wächst dein Branded Search Volume? Hast du einen Knowledge Panel bei Google? All diese Signale zusammen ergeben dein Autoritäts-Profil. Tools wie [Rankscale](https://rankscale.ai/?via=offer) messen deine AI Authority über 17 LLMs."
   - question: "Was ist der Unterschied zwischen Expertise und Authoritativeness?"
     answer: "Expertise ist das, was du KANNST. Authoritativeness ist das, was andere über dein Können SAGEN. Du kannst der beste SEO-Experte der Welt sein – wenn niemand dich kennt, hast du keine Autorität. Umgekehrt: Jemand mit wenig Expertise aber großer Bekanntheit hat zwar Autorität, aber sie bröckelt, sobald die fehlende Substanz auffällt. Das Ziel ist die Kombination: Echtes Können + externe Anerkennung."
 ---
@@ -54,7 +54,7 @@ Ist dieser spezifische Artikel eine anerkannte Referenz? Wird er von anderen Web
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Autorität in der KI-Ära</h4>
-  <p class="mb-0 text-sm">In der GEO-Welt ist Authority der entscheidende Faktor dafür, ob KI-Modelle dich zitieren. LLMs berechnen die Co-Occurrence deines Namens im Zusammenhang mit deinem Fachgebiet. Je öfter und hochwertiger du erwähnt wirst, desto häufiger wirst du als Antwortquelle ausgewählt. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du heute präzise messen, ob dich KI-Suchmaschinen bereits als Autorität für dein Kernthema zitieren.</p>
+  <p class="mb-0 text-sm">In der GEO-Welt ist Authority der entscheidende Faktor dafür, ob KI-Modelle dich zitieren. LLMs berechnen die Co-Occurrence deines Namens im Zusammenhang mit deinem Fachgebiet. Je öfter und hochwertiger du erwähnt wirst, desto häufiger wirst du als Antwortquelle ausgewählt. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du heute präzise messen, ob dich KI-Suchmaschinen bereits als Autorität für dein Kernthema zitieren.</p>
 </div>
 
 ## Dein nächster Schritt
@@ -67,7 +67,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Autorität braucht einen Boost?</h3>
-  <p class="mb-6">Ich zeige dir die schnellsten Wege, deine digitale Autorität aufzubauen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Marktanalyse und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) zur Validierung deiner Reputation in KI-Systemen.</p>
+  <p class="mb-6">Ich zeige dir die schnellsten Wege, deine digitale Autorität aufzubauen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Marktanalyse und [Rankscale](https://rankscale.ai/?via=offer) zur Validierung deiner Reputation in KI-Systemen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Autoritäts-Strategie anfragen →</a>
 </div>
 

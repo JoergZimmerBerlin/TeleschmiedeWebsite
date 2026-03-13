@@ -115,7 +115,7 @@ Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment
 
 ## Das Ergebnis: Ein digitales Rennauto
 
-Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und prüfen mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
+Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
 
 ## Was kostet so eine High-Performance-Website?
 
@@ -125,7 +125,7 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du auch ein digitales Rennauto?</h3>
-  <p class="mb-6">Ich helfe dir, deine Website technisch auf Weltklasse-Niveau zu heben. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) decken wir Performance-Fresser auf und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) sichern wir deine Zukunft in der Google-Suche.</p>
+  <p class="mb-6">Ich helfe dir, deine Website technisch auf Weltklasse-Niveau zu heben. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) decken wir Performance-Fresser auf und mit [Rankscale](https://rankscale.ai/?via=offer) sichern wir deine Zukunft in der Google-Suche.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Performance-Check anfragen →</a>
 </div>
 

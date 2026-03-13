@@ -82,7 +82,7 @@ Wer seine technische Basis nicht im Griff hat, wird nicht zitiert.
 
 ## Mein Tacheles-Rat für dich
 
-404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
+404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
 
 ALOHA! 🌻✌️
 
@@ -90,7 +90,7 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Sackgassen auf deiner Website?</h3>
-  <p class="mb-6">Ich finde alle 404-Fehler und leite sie sauber weiter, damit dein Linkjuice nicht verpufft. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir den Status Quo, mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir deinen Erfolg in der KI-Suche.</p>
+  <p class="mb-6">Ich finde alle 404-Fehler und leite sie sauber weiter, damit dein Linkjuice nicht verpufft. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir den Status Quo, mit [Rankscale](https://rankscale.ai/?via=offer) messen wir deinen Erfolg in der KI-Suche.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern →</a>
 </div>
 

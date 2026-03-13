@@ -53,7 +53,7 @@ Zeigt die Navigationsstruktur im Suchergebnis: Home > Glossar > Schema-Markup.
 ## Mein Tacheles-Rat für dich
 
 Prüfe im Google Rich Results Test oder mit einem Audit von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), welche Schema-Typen auf deiner Website bereits implementiert sind. Wenn die Antwort „keine" ist: Starte mit Person/Organization und FAQPage. Das sind die Low-Hanging-Fruits mit dem größten Impact.
-Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) validieren wir anschließend, ob deine technische Vorarbeit auch von den LLMs belohnt wird.
+Mit [Rankscale](https://rankscale.ai/?via=offer) validieren wir anschließend, ob deine technische Vorarbeit auch von den LLMs belohnt wird.
 
 ALOHA ✌️
 

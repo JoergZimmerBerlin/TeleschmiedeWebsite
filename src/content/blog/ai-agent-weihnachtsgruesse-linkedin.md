@@ -107,7 +107,7 @@ Jetzt wird die Währung "Aufmerksamkeit" durch KI-Massenware entwertet.
 
 Kunden fragen mich oft: *"Jörg, können wir LinkedIn nicht automatisieren?"*
 
-Meine Antwort: **Könnt ihr. Aber ihr solltet es nicht.** Wenn ihr Zeit sparen wollt, nutzt lieber Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für eure Recherche oder [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg), um eure Botschaft in der KI-Suche zu platzieren – aber lasst die Finger von der automatisierten Interaktion auf LinkedIn.
+Meine Antwort: **Könnt ihr. Aber ihr solltet es nicht.** Wenn ihr Zeit sparen wollt, nutzt lieber Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für eure Recherche oder [Rankscale](https://rankscale.ai/?via=offer), um eure Botschaft in der KI-Suche zu platzieren – aber lasst die Finger von der automatisierten Interaktion auf LinkedIn.
 
 Vertrauen lässt sich nicht delegieren. 
 
@@ -159,6 +159,6 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du echte Ergebnisse statt Bot-Blabla?</h3>
-  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine echte Performance und mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) messen wir deine Reputation in der KI-Welt.</p>
+  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine echte Performance und mit [Rankscale](https://rankscale.ai/?via=offer) messen wir deine Reputation in der KI-Welt.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen →</a>
 </div>

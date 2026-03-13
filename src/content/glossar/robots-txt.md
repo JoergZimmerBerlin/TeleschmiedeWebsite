@@ -31,7 +31,7 @@ Es ist eine extrem simple Textdatei, aber lass dich nicht täuschen: Ein kleiner
   <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Bau lieber eine Plattform, die so gut ist, dass die Leute freiwillig auf dich verlinken."</p>
 </div>
 
-Bevor der Googlebot oder ein moderner KI-Crawler deine eigentliche Seite sieht, checkt er diese Datei. Ein kleiner Fehler in dieser Datei kann dazu führen, dass deine gesamte Website aus Google verschwindet. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du überwachen, ob deine robots.txt die Sichtbarkeit für KI-Suchmaschinen unbeabsichtigt einschränkt. Hier ist Tacheles gefragt: Wer nicht weiß, was er tut, sollte die Finger von der robots.txt lassen.
+Bevor der Googlebot oder ein moderner KI-Crawler deine eigentliche Seite sieht, checkt er diese Datei. Ein kleiner Fehler in dieser Datei kann dazu führen, dass deine gesamte Website aus Google verschwindet. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du überwachen, ob deine robots.txt die Sichtbarkeit für KI-Suchmaschinen unbeabsichtigt einschränkt. Hier ist Tacheles gefragt: Wer nicht weiß, was er tut, sollte die Finger von der robots.txt lassen.
 Im Rahmen meiner täglichen Arbeit als [SEO Freelancer in Berlin](/seo-freelancer-berlin/) ist der Blick in die `robots.txt` daher immer Schritt Eins bei jedem Audit.
 
 ## Die Anatomie einer sauberen robots.txt

@@ -27,7 +27,7 @@ Die große Frage im [GEO](/glossar/ai-geo/)-Zeitalter ist nicht mehr nur: Auf we
 
 Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 
-Genau hier setzt [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) an. Ich nutze es parallel zu [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
+Genau hier setzt [Rankscale](https://rankscale.ai/?via=offer) an. Ich nutze es parallel zu [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
 
 ## Rankscale im echten Praxis-Test
 
@@ -78,8 +78,8 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du deine KI-Sichtbarkeit kennen?</h3>
-  <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) trackst du deine Reputation in 17 LLMs und mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sicherst du deine Basis-Sichtbarkeit bei Google.</p>
-  <a href="https://app.rankscale.ai/auth/signup?via=joerg" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale testen →</a>
+  <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit [Rankscale](https://rankscale.ai/?via=offer) trackst du deine Reputation in 17 LLMs und mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sicherst du deine Basis-Sichtbarkeit bei Google.</p>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale testen →</a>
 </div>
 
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)

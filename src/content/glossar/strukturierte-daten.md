@@ -55,7 +55,7 @@ Wenn du via `Organization` Markup sagst, wer du bist und wo du sitzt, verknüpft
 Das ist die Basis für deine Autorität ([E-E-A-T](/glossar/e-e-a-t/)) im Netz.
 
 In der Welt der KI-Suche ([GEO](/glossar/geo/)) sind strukturierte Daten die primäre Quelle für LLM-Agenten.
-Sie "fressen" diese formatierten Daten, um korrekte Antworten zu generieren. Deshalb kontrolliere ich mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) heute bereits bei meinen Kunden, ob diese Daten auch bei ChatGPT und Perplexity ankommen. Wer keinen maschinenlesbaren Content liefert, existiert für eine KI nicht.
+Sie "fressen" diese formatierten Daten, um korrekte Antworten zu generieren. Deshalb kontrolliere ich mit [Rankscale](https://rankscale.ai/?via=offer) heute bereits bei meinen Kunden, ob diese Daten auch bei ChatGPT und Perplexity ankommen. Wer keinen maschinenlesbaren Content liefert, existiert für eine KI nicht.
 
 ## Meine Erfahrung als [SEO Experte](/seo-freelancer-berlin/)
 

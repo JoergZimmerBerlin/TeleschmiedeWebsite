@@ -67,7 +67,7 @@ Was machen wir in Woche 1 (die "Quick Wins")? Was in Monat 3 (strategischer Aufb
 Wie schlagen wir den Wettbewerb im [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/)?
 
 In der Ära von [GEO](/glossar/geo/) prüfen wir im Audit auch:
-Wie gut können KI-Systeme deine Inhalte extrahieren? Mit [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) validieren wir, ob dein Audit bereits Früchte trägt und du in den LLM-Antworten als Autorität erscheinst.
+Wie gut können KI-Systeme deine Inhalte extrahieren? Mit [Rankscale](https://rankscale.ai/?via=offer) validieren wir, ob dein Audit bereits Früchte trägt und du in den LLM-Antworten als Autorität erscheinst.
 Sind deine Informationen so strukturiert, dass sie in einer AI Overview zitiert werden können?
 Haben wir die [LLMs.txt](/glossar/llms-txt/) schon als Einladung für die Bots am Start?
 

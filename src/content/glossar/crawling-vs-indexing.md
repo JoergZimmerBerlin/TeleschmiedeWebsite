@@ -27,7 +27,7 @@ Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelance
 
 In meiner täglichen Arbeit muss ich ständig Indexierungs-Blockaden beheben: Seiten, die als "Gecrawlt, aber nicht indexiert" gemeldet werden, oder Kunden, die sich unbewusst selbst blockieren – sei es durch ein vergessenes noindex-Tag vom Relaunch oder eine falsch konfigurierte robots.txt. Die meisten wollen indexiert werden, wissen aber nicht, dass sie sich selbst im Weg stehen.
 
-Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Mit dem [Index-Monitoring von Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) kannst du deine Indexierung und AI-Sichtbarkeit im Auge behalten. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
+Um technisches SEO, Fehler in der Google Search Console oder die Effizienz von Website-Relaunches meistern zu können, musst du zwingend begreifen, dass eine Suchmaschine wie ein riesiger Bibliothekar arbeitet, der in zwei völlig abgetrennten, sequenziellen Phasen agiert. Mit dem [Index-Monitoring von Rankscale](https://rankscale.ai/?via=offer) kannst du deine Indexierung und AI-Sichtbarkeit im Auge behalten. Wer diesen Unterschied verstanden hat, eliminiert spielend leicht [80 Prozent aller kritischen Website-Sichtbarkeits-Probleme](/blog/80-prozent-seo-fehler-sprechstunde/).
 
 ---
 
@@ -107,7 +107,7 @@ ALOHA ✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Gefangen in der Crawling-Falle?</h3>
-  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) machen wir deinen Index fit für die Zukunft.</p>
+  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) machen wir deinen Index fit für die Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen →</a>
 </div>
 

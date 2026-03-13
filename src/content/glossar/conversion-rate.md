@@ -94,7 +94,7 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Verlierst du Geld auf der Zielgeraden?</h3>
-  <p class="mb-6">Ich analysiere deinen Trichter und zeige dir genau, wo du Nutzer verlierst. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://app.rankscale.ai/auth/signup?via=joerg) machen wir aus deinen Besuchern echte Kunden.</p>
+  <p class="mb-6">Ich analysiere deinen Trichter und zeige dir genau, wo du Nutzer verlierst. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) machen wir aus deinen Besuchern echte Kunden.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Conversion-Check anfragen →</a>
 </div>
 

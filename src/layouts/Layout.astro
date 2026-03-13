@@ -138,6 +138,18 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
       };
 
       document.addEventListener('astro:page-load', () => {
+        // Table labeling for responsive cards
+        document.querySelectorAll('.blog-content table').forEach(table => {
+          const headers = Array.from(table.querySelectorAll('th')).map(th => th.textContent.trim());
+          if (headers.length > 0) {
+            table.querySelectorAll('tr').forEach(tr => {
+              tr.querySelectorAll('td').forEach((td, i) => {
+                if (headers[i]) td.setAttribute('data-label', headers[i]);
+              });
+            });
+          }
+        });
+
         window.addEventListener('scroll', requestTick);
         window.addEventListener('resize', requestTick);
         updateProgress();

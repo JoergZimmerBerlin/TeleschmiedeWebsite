@@ -129,62 +129,54 @@
 
 /* --- Responsive Table Optimization --- */
 @media (max-width: 768px) {
-  /* Default: Horizontal Scroll for Markdown tables (Script-free context) */
+  /* Hide the default table scroll for card layout */
   .blog-content .overflow-x-auto {
-    @apply -mx-4 px-4 !important;
-    -webkit-overflow-scrolling: touch;
+    @apply mx-0 px-0 !important;
+    overflow: visible !important;
   }
   
-  .blog-content table:not(.comparison-table) {
-    @apply min-w-full mb-8 border-separate border-spacing-0 !important;
-    display: table !important; /* Force table behavior */
-  }
-
-  .blog-content table:not(.comparison-table) th,
-  .blog-content table:not(.comparison-table) td {
-    @apply px-4 py-3 text-sm !important;
-    white-space: nowrap;
-  }
-
-  /* Card Layout for ComparisonTable (Server-side labels) */
-  .blog-content table.comparison-table {
-    @apply block border-none shadow-none bg-transparent !important;
+  /* Universal Card Layout for ALL Blog Tables on Mobile */
+  .blog-content table {
+    @apply block border-none shadow-none bg-transparent mb-12 !important;
   }
   
-  .blog-content table.comparison-table thead {
+  .blog-content thead {
     @apply hidden !important;
   }
   
-  .blog-content table.comparison-table tr {
+  .blog-content tr {
     @apply block mb-8 bg-white border border-lime-accent/30 rounded-2xl p-6 shadow-sm !important;
     position: relative;
     overflow: hidden;
   }
 
   /* Highlight bar on the left for cards */
-  .blog-content table.comparison-table tr::before {
+  .blog-content tr::before {
     content: '';
     @apply absolute left-0 top-0 bottom-0 w-1 bg-lime-accent !important;
   }
   
-  .blog-content table.comparison-table td {
+  .blog-content td {
     @apply block px-0 py-3 border-b border-gray-50 text-base !important;
+    white-space: normal !important; /* Allow wrapping */
   }
   
-  .blog-content table.comparison-table td:last-child {
+  .blog-content td:last-child {
     @apply border-b-0 !important;
   }
   
-  .blog-content table.comparison-table td:first-child {
+  /* Feature column (usually the 1st or 2nd depending on table type) */
+  /* If it's a comparison where the first Col is the name, highlight it */
+  .blog-content td:first-child {
     @apply text-lg font-bold text-dark pt-0 !important;
   }
   
-  .blog-content table.comparison-table td:first-child strong,
-  .blog-content table.comparison-table td:first-child b {
+  .blog-content td:first-child strong,
+  .blog-content td:first-child b {
     @apply text-lime-600 !important;
   }
 
-  .blog-content table.comparison-table td[data-label]::before {
+  .blog-content td[data-label]::before {
     content: attr(data-label);
     @apply block text-[10px] uppercase tracking-widest text-gray-muted font-bold mb-1;
   }

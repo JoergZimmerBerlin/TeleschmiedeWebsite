@@ -21,10 +21,10 @@ faqs:
 
 Moin! 🌻
 
-Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google Search Console (GSC)**. Während andere Tools (wie Sistrix oder [[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)](https://seranking.com/de/?ga=4169588&source=link)) Daten schätzen und hochrechnen, liefert dir die GSC die nackte Wahrheit direkt aus dem Maschinenraum von Google.
+Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google Search Console (GSC)**. Während andere Tools (wie Sistrix oder [<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>](https://seranking.com/de/?ga=4169588&source=link)) Daten schätzen und hochrechnen, liefert dir die GSC die nackte Wahrheit direkt aus dem Maschinenraum von Google.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Es gibt keine 'geheimen Rankingfaktoren'. Google will die beste Antwort für den Nutzer. Sei die beste Antwort."</p>
 </div>
 
@@ -64,14 +64,14 @@ Die Google Search Console ist die Basis für jede professionelle SEO-Arbeit.
 Sie kostet nichts, liefert aber unbezahlbare Einblicke. 
 Logge dich mindestens einmal pro Woche ein, prüfe deine Indexierung und optimiere deine Klickraten. Wer seine Daten kennt, beherrscht den Markt.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Search Console zeigt nur rote Zahlen?</h3>
   <p class="mb-6">Ich helfe dir, die Daten richtig zu interpretieren und technische Blockaden zu lösen. Lass uns deine GSC zum Glühen bringen!</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt GSC-Check anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt GSC-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

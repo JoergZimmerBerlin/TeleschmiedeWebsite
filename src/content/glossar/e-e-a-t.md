@@ -26,7 +26,7 @@ Entstanden aus den internen *Search Quality Rater Guidelines* von Google, hat si
 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wenn deine Seite technisch eine Katastrophe ist und du nicht mal in den Top 10 rankst, brauchst du dir über ChatGPT keine Gedanken machen."</p>
 </div>
 
@@ -83,7 +83,7 @@ Aktive Moderation ist Pflicht, um Spam zu vermeiden, der den *Trust* schwächt.
 ## E-E-A-T in Zeiten der generativen KI
 
 Mit dem Aufkommen von Large Language Models (LLMs) wie ChatGPT und [GEO](/glossar/geo/) wird E-E-A-T brisanter denn je.
-KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopfen, hat Google massiv an den Filtern gedreht (Helpful Content Updates). Mit Tools wie [Rankscale](https://rankscale.ai/?via=offer) kannst du messen, wie die KI deine fachliche Autorität aktuell einstuft. 
+KIs halluzinieren oft. Um den Suchindex nicht mit künstlichem Müll zu verstopfen, hat Google massiv an den Filtern gedreht (Helpful Content Updates). Mit Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du messen, wie die KI deine fachliche Autorität aktuell einstuft. 
 
 **Deshalb lautet die goldene Regel:** 
 Schreibe keine Artikel, die eine KI in 5 Sekunden generieren könnte. 
@@ -93,16 +93,16 @@ Der einzige echte Burggraben ist deine unverwechselbare Praxiserfahrung, angerei
 
 E-E-A-T lässt sich nicht vortäuschen. 
 Es erfordert den harten Weg: Echten, tief recherchierten Inhalt von Spezialisten zu publizieren. 
-In einer Welt, in der Content dank KI "nichts" mehr kostet, wird die Reputation des Autors zur wichtigsten Währung. Wer hier professionelle Unterstützung bei der Keyword-Validierung sucht, sollte einen Blick auf [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) werfen.
+In einer Welt, in der Content dank KI "nichts" mehr kostet, wird die Reputation des Autors zur wichtigsten Währung. Wer hier professionelle Unterstützung bei der Keyword-Validierung sucht, sollte einen Blick auf <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> werfen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein EEAT-Profil ist schwach?</h3>
   <p class="mb-6">Ich helfe dir, echte Autorität aufzubauen und deine Experten-Signale für Google zu schärfen. Lass uns deine Story erzählen!</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Audit anfragen </a>
 </div>
 
 ### Lese-Tipp

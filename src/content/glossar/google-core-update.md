@@ -22,7 +22,7 @@ Mehrmals im Jahr zieht Google an den großen Hebeln seiner künstlichen Intellig
 Das Ziel: Die Qualität der Suchergebnisse radikal verbessern.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wie schön deine Seite ist, korreliert nicht damit, wie viele Besucher du bekommst."</p>
 </div>
 
@@ -76,16 +76,16 @@ Wenn Google dir vertraut, vertrauen dir auch die LLMs.
 
 ## Jörgs Action-Plan
 
-Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) begleiten wir den Sichtbarkeitsverlauf während und nach dem Rollout in Echtzeit. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
+Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> begleiten wir den Sichtbarkeitsverlauf während und nach dem Rollout in Echtzeit. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ranking-Absturz nach einem Update?</h3>
   <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Lass uns deine Sichtbarkeit zurückerobern.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)

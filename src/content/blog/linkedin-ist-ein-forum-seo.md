@@ -24,7 +24,7 @@ Ich war neulich beim SEO Stammtisch in Berlin – Grüße gehen raus an Carsten 
 Hier ist die nackte Wahrheit: Wer LinkedIn wie Google SEO versteht, gewinnt. Wer es nur als "Social Media" sieht, verbrennt Zeit. In diesem Deep Dive gehen wir die 13 Hauptpunkte aus meinem Vortrag durch und schauen uns an, wie du den Algo wirklich zum Fliegen bringst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Dein Profil ist keine Visitenkarte, sondern deine wichtigste Landingpage. Optimiere für Conversions, nicht für das Ego-Lifting durch Likes."</p>
 </div>
 
@@ -97,7 +97,7 @@ LinkedIn ist die größte Business-Bühne, die wir je hatten. Aber sie funktioni
 
 Wir sitzen alle in der gleichen SEO-Bubble. Wie ich im Post schon schrieb: **"Jeder für sich, alle zusammen."** Je mehr wir als Experten zusammenarbeiten und einander sichtbar machen, desto stärker wird unsere gesamte Branche.
 
-ALOHA! 🌻
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
 <strong>Du willst die Live-Diskussion sehen?</strong>

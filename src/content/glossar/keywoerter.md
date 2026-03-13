@@ -22,7 +22,7 @@ Ganz simpel: Was gibt der Nutzer bei Google ein? Das ist dein Keyword.
 Aber Vorsicht: Wer heute noch Keywords zählt, hat SEO nicht verstanden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer nur Keywords zählt, wird von der KI ersetzt. Wer Marken aufbaut und Zusammenhänge versteht, bleibt."</p>
 </div>
 
@@ -81,16 +81,16 @@ Dort, wo du als Experte wirklich helfen kannst.
 
 ## Mein Tacheles-Rat für dich
 
-Keywords sind das Fundament. Aber nutze sie mit Verstand und Empathie für den Nutzer. In meiner täglichen Arbeit setze ich auf die [Keyword-Recherche von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um genau die Begriffe zu finden, die deine Zielgruppe wirklich eingibt. Schreib für Menschen, aber gib der Maschine die klaren Signale, die sie braucht. Nur maximale Relevanz – und mit [Rankscale](https://rankscale.ai/?via=offer) validieren wir, ob du damit auch in den KI-Antworten stattfindest.
+Keywords sind das Fundament. Aber nutze sie mit Verstand und Empathie für den Nutzer. In meiner täglichen Arbeit setze ich auf die [Keyword-Recherche von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um genau die Begriffe zu finden, die deine Zielgruppe wirklich eingibt. Schreib für Menschen, aber gib der Maschine die klaren Signale, die sie braucht. Nur maximale Relevanz – und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> validieren wir, ob du damit auch in den KI-Antworten stattfindest.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Jagst du den falschen Keywords hinterher?</h3>
   <p class="mb-6">Ich analysiere deine Zielgruppe und finde die Begriffe, die wirklich für Umsatz sorgen. Lass uns deine Keyword-Strategie professionalisieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Check anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Check anfragen </a>
 </div>
 
 ### Lese-Tipp

@@ -19,12 +19,12 @@ faqs:
 
 ![Linkbuilding Infografik](../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp)
 
-Moin! 🏗️
+Moin! 
 
 Stell dir das Word Wide Web als ein riesiges Netz aus Straßen vor. Die Straßen sind die Links. Ohne diese Verbindungen wüsste niemand, dass du existierst – weder Nutzer noch die Suchmaschine. In der **SEO Optimierung** unterscheiden wir dabei zwei wesentliche Disziplinen: Das **Linkbuilding** (außerhalb deiner Seite) und die **Interne Verlinkung** (innerhalb deiner Seite).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Der SEO TÜV: Einmal im Jahr unter die Haube schauen, bevor der Motor raucht."</p>
 </div>
 
@@ -41,7 +41,7 @@ Warum Linkbuilding für dich wichtig ist:
 2.  **Ranking-Boost:** Starke Links korrelieren fast immer mit besseren Rankings für schwierige Keywords.
 3.  **Traffic:** Gute Links bringen direkt interessierte Besucher auf deine Seite.
 
-Um den Erfolg deines Linkaufbaus zu messen, empfehle ich ein professionelles SEO-Tool wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Dort siehst du sofort, welche neuen Backlinks Google indexiert hat.
+Um den Erfolg deines Linkaufbaus zu messen, empfehle ich ein professionelles SEO-Tool wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Dort siehst du sofort, welche neuen Backlinks Google indexiert hat.
 
 ## Interne Verlinkung: Der Masterplan für deinen Linkjuice
 
@@ -69,12 +69,12 @@ Das stärkt dein Profil als Experte ([E-E-A-T](/glossar/e-e-a-t/)) und sorgt daf
 
 Ein starkes Rückgrat aus internen Links ist die Basis. Darauf setzt du gezieltes Linkbuilding, um deine Autorität im Markt zu festigen. Wer beides beherrscht, dominiert langfristig die SERPs.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hast du ein löchriges Link-Netz?</h3>
   <p class="mb-6">Lass uns deine interne Verlinkung professionalisieren und einen Plan für nachhaltiges Linkbuilding erstellen. Ich zeige dir, wie du deine Linkkraft verdoppelst.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen </a>
 </div>

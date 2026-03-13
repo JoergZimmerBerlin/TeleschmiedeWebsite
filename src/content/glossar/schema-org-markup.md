@@ -22,7 +22,7 @@ Es ist eine Initiative der großen Player: Google, Bing, Yahoo und Yandex.
 Sie haben sich auf ein gemeinsames Vokabular geeinigt, um das Internet besser zu verstehen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Rankings sind Vanity-Metriken. Was bringen dir 10.000 Besucher, wenn am Ende niemand anruft oder kauft? SEO muss Umsatz treiben."</p>
 </div>
 
@@ -68,21 +68,21 @@ Wer kein sauberes Schema-Markup hat, läuft Gefahr, von KIs falsch interpretiert
 
 Schema.org ist das mächtigste Werkzeug in meinem Kasten, von dem Kunden oft gar nichts mitbekommen.
 Es ist die unsichtbare Architektur des Erfolgs.
-Wer lernt, das Schema-Vokabular strategisch einzusetzen, baut keine Website mehr, sondern eine autoritäre Wissensdatenbank. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine technische Basis und stellen sicher, dass dein Markup nicht nur vorhanden, sondern auch effektiv ist.
+Wer lernt, das Schema-Vokabular strategisch einzusetzen, baut keine Website mehr, sondern eine autoritäre Wissensdatenbank. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine technische Basis und stellen sicher, dass dein Markup nicht nur vorhanden, sondern auch effektiv ist.
 Und genau das ist es, was Google heute belohnt.
 
 ## Mein Tacheles-Rat für dich
 
 Schema.org ist kein Trend. Es ist der Standard. Sprich die Sprache der Maschinen, um die Aufmerksamkeit der Menschen zu gewinnen. Nutze das volle Vokabular für deine Nische. Verknüpfe deine Daten zu einem starken Netz. Denn am Ende gewinnt der, der die klarsten Antworten liefert.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für Google noch 'stumm'?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit [Rankscale](https://rankscale.ai/?via=offer) sichern wir deine Sichtbarkeit in der KI-Suche ab.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen →</a>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Sichtbarkeit in der KI-Suche ab.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind strukturierte Daten?](/glossar/strukturierte-daten/)
@@ -93,5 +93,5 @@ ALOHA ✌️
 <div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
   <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Diskutiere mit anderen Experten.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen </a>
 </div>

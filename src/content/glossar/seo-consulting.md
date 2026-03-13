@@ -22,11 +22,11 @@ Moin!
 **SEO Consulting** ist für alle, die keine Ausführung brauchen, sondern einen Plan. Einen echten, datenbasierten Plan, der auf deinem Markt, deinen Wettbewerbern und deinen Zielen basiert.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
 </div>
 
-In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung. Dabei nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) als zentrales Dashboard, um den Fortschritt deiner Strategie in Echtzeit zu überwachen.
+In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung. Dabei nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> als zentrales Dashboard, um den Fortschritt deiner Strategie in Echtzeit zu überwachen.
 
 ## Was ein SEO Consultant macht
 
@@ -51,14 +51,14 @@ Regelmäßige Reviews, in denen wir Daten analysieren, Kurskorrekturen vornehmen
 
 Wenn du das Gefühl hast, dass du im SEO viel tust, aber wenig erreichst, fehlt dir wahrscheinlich die Strategie. Hol dir einen Consultant, der deinen IST-Zustand analysiert und dir einen klaren Fahrplan gibt. Das spart Monate an Trial-and-Error und bringt dein Budget dahin, wo es den größten Hebel hat.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du brauchst Klarheit statt Aktionismus?</h3>
   <p class="mb-6">Als SEO Consultant liefere ich dir den strategischen Fahrplan für dein Business. Datenbasiert, priorisiert und ohne Bullshit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Consulting-Gespräch anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Consulting-Gespräch anfragen </a>
 </div>
 
 * **Lese-Tipp:** [SEO Coaching: Selbst lernen](/glossar/seo-coaching/)

@@ -62,7 +62,7 @@ Wir quatschen nicht übers Wetter.
 Wir reden ab Minute 1 über deine Performance.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"400€ kaufen keine Zeit. Sie kaufen Abkürzungen aus 25 Jahren Erfahrung. 120 Minuten, um Fehler zu vermeiden, die dich Monate und zehntausende Euro kosten könnten."</p>
 </div>
 
@@ -100,4 +100,4 @@ Dann [lass uns reden](/kontakt/).
 
 Tacheles. 
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻

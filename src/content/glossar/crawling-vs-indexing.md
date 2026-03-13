@@ -21,7 +21,7 @@ faqs:
 Einer der häufigsten Fehler, den ich als [SEO-Berater in Berlin](/seo-freelancer-berlin/) immer wieder in Gesprächen mit Entwicklern, Geschäftsführern und Marketingabteilungen klären muss, ist die konsequente Verwechselung der Begriffe "Crawling" und "Indexing".
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie."</p>
 </div>
 
@@ -40,15 +40,20 @@ Google schickt winzige Programme (die "Googlebots") durch das extrem verbundene 
 Finden sie eine neue HTML-URL, fragen sie diese beim Webserver an, warten geduldig bis der Server eine Antwort schickt (Server Return Codes im Idealfall: HTTP 200) und laden den Quellcode der Seite (oder die Bilder, das JavaScript und die CSS-Stylesheets) komplett herunter. 
 
 
-### Übersicht: Crawling vs. Indexing
-
-| Merkmal | Crawling (Entdecken) | Indexing (Verstehen) |
-| :--- | :--- | :--- |
-| **Akteur** | Googlebot (Crawler) | Indexier-Algorithmus |
-| **Ziel** | Seite finden & HTML laden | Seite verstehen & bewerten |
-| **Steuerung** | robots.txt (Betreten verboten) | Meta-Robots (Indexieren verboten) |
-| **Voraussetzung** | Link oder Sitemap vorhanden | Erfolgreiches Crawling |
-| **Ergebnis** | Daten sind auf Google-Servern | Seite erscheint in der Suche |
+<ComparisonTable 
+  title="Crawling vs. Indexing" 
+  columns={[
+    { name: "Crawling (Entdecken)" },
+    { name: "Indexing (Verstehen)", isPrimary: true }
+  ]}
+  rows={[
+    { feature: "Akteur", values: ["Googlebot (Crawler)", "Indexier-Algorithmus"] },
+    { feature: "Ziel", values: ["Seite finden & HTML laden", "Seite verstehen & bewerten"] },
+    { feature: "Steuerung", values: ["robots.txt (Betreten)", "Meta-Robots (Indexieren)"] },
+    { feature: "Voraussetzung", values: ["Link oder Sitemap", "Erfolgreiches Crawling"] },
+    { feature: "Ergebnis", values: ["Daten auf Google-Servern", "Seite erscheint in der Suche"] }
+  ]}
+/>
 
 Der einzige Mechanismus, der das Crawling einer URL aktiv **vorab** verbieten kann, ist die Domain-weite Steuerungsdatei `robots.txt`. Sieht der Crawler darin in der Befehlszeile ein `Disallow: /geheimes-verzeichnis/`, dann betritt er diesen Pfad gar nicht erst. Er dreht im Vorgarten um und speichert keinen Fetzen Code von dort auf den Google-Servern. Mehr dazu im Detail in meinem Fachartikel zur [Robots.txt](/glossar/robots-txt/).
 
@@ -101,14 +106,14 @@ Wer diese Trennschärfe im Projektmanagement begreift, dem gehört das Fundament
 
 Begreife Crawling als technischen Zugang und Indexing als inhaltliche Qualifizierung. Wer beides sauber trennt, steuert seine Sichtbarkeit punktgenau. 
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Gefangen in der Crawling-Falle?</h3>
-  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) machen wir deinen Index fit für die Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen →</a>
+  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir deinen Index fit für die Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Alles über die Robots.txt](/glossar/robots-txt/)

@@ -39,7 +39,7 @@ Weil irgendwo im Getriebe ein Sandkorn klebt.
 
 ## Die Top 5 Sünden: Was ich wirklich finde
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten-Analyse und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten-Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ### 1. Der technische Friedhof
 
@@ -66,7 +66,7 @@ Der Bot ist weg.
 Du hast verloren.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Design verkauft vielleicht das erste Mal. Aber Technik behält den Kunden. Wer PageSpeed ignoriert, verbrennt Marketingbudget schneller als er 'Conversion' sagen kann."</p>
 </div>
 
@@ -124,12 +124,12 @@ Wer die Basics macht, gehört schon zu den Top 20%.
 
 Bist du bereit, deine Seite mal so richtig grillen zu lassen?
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lass uns deine Website "grillen"!</h3>
-  <p class="mb-6">Du willst wissen, ob du auch in die 80%-Falle getappt bist? In meiner SEO-Sprechstunde analysiere ich deine Seite live. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://rankscale.ai/?via=offer) für deine Zukunftssicherheit.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Analyse-Termin sichern →</a>
+  <p class="mb-6">Du willst wissen, ob du auch in die 80%-Falle getappt bist? In meiner SEO-Sprechstunde analysiere ich deine Seite live. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunftssicherheit.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Analyse-Termin sichern </a>
 </div>
 
 ---

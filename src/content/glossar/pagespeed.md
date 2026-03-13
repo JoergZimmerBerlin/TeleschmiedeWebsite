@@ -24,12 +24,12 @@ PageSpeed ist weit mehr als nur eine technische Metrik – es ist die digitale E
 In einer Zeit, in der die Aufmerksamkeitsspanne von Nutzern unter der eines Goldfisches liegt, entscheidet jede Millisekunde darüber, ob ein Besucher bleibt oder genervt zum Wettbewerber zurückspringt. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Es gibt keinen Quick Fix für SEO. SEO ist ein Marathon, kein Sprint. Wer das nicht versteht, sollte Ads schalten."</p>
 </div>
 
 Google hat die Ladezeit bereits vor Jahren als offiziellen Rankingfaktor etabliert. 
-Seit 2021 nutzt Google die [Core Web Vitals](/glossar/core-web-vitals/) als offizielle Ranking-Signale. Es geht nicht mehr nur um „irgendeine" Ladezeit, sondern um das echte Nutzererlebnis. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du überwachen, ob technische Ladezeit-Probleme deine Sichtbarkeit in KI-Suchmaschinen negativ beeinflussen. Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
+Seit 2021 nutzt Google die [Core Web Vitals](/glossar/core-web-vitals/) als offizielle Ranking-Signale. Es geht nicht mehr nur um „irgendeine" Ladezeit, sondern um das echte Nutzererlebnis. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du überwachen, ob technische Ladezeit-Probleme deine Sichtbarkeit in KI-Suchmaschinen negativ beeinflussen. Es geht nicht mehr nur darum, wann die erste Zeile Code geladen wird, sondern wann die Seite für den Menschen tatsächlich nutzbar und stabil ist. 
 
 ## Die drei Ebenen der Ladezeit
 
@@ -71,14 +71,14 @@ PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop
 
 Denk immer daran: Eine Sekunde Verzögerung kann bis zu 7% Conversion-Rate kosten. Bleib schnell, bleib sichtbar!
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen die [Monitoring-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Fundament und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Sichtbarkeit.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen →</a>
+  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen die [Monitoring-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Warum Core Web Vitals so wichtig sind](/glossar/core-web-vitals/)

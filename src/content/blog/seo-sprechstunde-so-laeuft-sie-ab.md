@@ -1,5 +1,5 @@
 ---
-title: "Wie läuft so eine SEO-Sprechstunde ab? 🩺"
+title: "Wie läuft so eine SEO-Sprechstunde ab? "
 description: "Videocall buchen, Domain schicken, Live-Analyse. Erfahre wie der Prozess von der Vorbereitung bis zum Maßnahmenplan im Detail aussieht. Jörgs ehrlicher Einblick."
 date: "2026-01-28"
 image: "../../assets/images/blog/seo-sprechstunde.webp"
@@ -27,7 +27,7 @@ Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, be
 
 Nein, ganz im Gegenteil. Die Sprechstunde ist eine Live-Analyse, bei der du im Fahrersitz sitzt und ich als Co-Pilot die Karte lese, die Abkürzungen kenne und dich vor den Schlaglöchern warne.
 
-Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tête-à-Tête treffen.
+Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tte--Tte treffen.
 
 ## Der 4-Stufen-Plan für deine Sichtbarkeit
 
@@ -50,13 +50,13 @@ Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Chec
 - Was sind deine 3 brennendsten Fragen?
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"400€ für zwei Stunden klingen für manche viel. Aber was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? In der Sprechstunde kaufst du keine Zeit – du kaufst das Ende deines Blindflugs."</p>
 </div>
 
 ## Schritt 2: Meine Hausaufgaben (Die Vorbereitung)
 
-Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), Screaming Frog und natürlich die Google Search Console.
+Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, Screaming Frog und natürlich die Google Search Console.
 
 Ich erstelle mir ein Bild von deiner "digitalen Gesundheit". Gibt es technische Blocker? Ist dein Content gehaltvoll wie ein Berliner Eisbein oder eher dünne Suppe? Ich bereite mich so vor, dass ich im Call keine Zeit mit Suchen verschwenden muss. Wir starten bei Minute 1 direkt mit den harten Fakten.
 
@@ -84,11 +84,11 @@ Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für den SEO-Check?</h3>
-  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://rankscale.ai/?via=offer) für deine Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen →</a>
+  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
 </div>
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 * **Lese-Tipp:** [SEO Beratung: Warum ein Partner auf Augenhöhe Gold wert ist](/glossar/seo-beratung/)
 * **Lese-Tipp:** [SE Ranking: Mein liebstes All-in-One SEO Tool](/blog/sistrix-vs-se-ranking/)

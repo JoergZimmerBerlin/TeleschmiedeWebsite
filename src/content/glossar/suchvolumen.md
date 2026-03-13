@@ -25,7 +25,7 @@ Suchvolumen ist die Antwort auf die Frage: Lohnt sich das?
 Es gibt an, wie oft ein Keyword pro Monat durchschnittlich bei Google eingegeben wird.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Große Agenturen verkaufen dir gerne einen Junior für den Preis eines Seniors. Ich verkaufe dir meine 24 Jahre Erfahrung, komprimiert auf das, was funktioniert."</p>
 </div>
 
@@ -42,7 +42,7 @@ Google zeigt heute immer mehr [direkte Antworten in den SERPs](/glossar/knowledg
 Das heißt: Die Leute suchen zwar, aber sie klicken nicht mehr auf deine Website. (Zero-Click-Search).
 
 Außerdem: Suchvolumen ist oft ungenau.
-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder Ahrefs schätzen diese Werte.
+Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder Ahrefs schätzen diese Werte.
 Nur der Google Keyword Planner hat echte Daten – aber auch die sind gruppiert und oft geschönt.
 
 ## Warum "weniger" oft "mehr" ist
@@ -80,20 +80,20 @@ Das ist der Grund, warum ich als [SEO Experte](/seo-freelancer-berlin/) heute me
 
 Suchvolumen ist ein guter Kompass. Aber es ist kein Ziel an sich. Nutze es, um Prioritäten zu setzen, aber lass dich nicht von großen Zahlen blenden. Relevanz schlägt Volumen. Jedes Mal.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
   <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen →</a>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen </a>
 </div>
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Jagst du den falschen Zahlen hinterher?</h3>
   <p class="mb-6">Ich analysiere dein Keyword-Set und finde die Schätze, die wirklich für Conversions sorgen. Lass uns dein SEO auf profitable Beine stellen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Potenzial-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Potenzial-Audit anfragen </a>
 </div>
 
 ### Lese-Tipp

@@ -27,9 +27,9 @@ Ich liebe Zahlen. Besonders wenn sie so aussehen, dass man sie sich einrahmen m�
 
 - **Schlecht:** 0 URLs
 - **Optimierung erforderlich:** 10 URLs
-- **Gut:** **216 URLs** ✅
+- **Gut:** **216 URLs** 
 
-Das ist kein Best-Case-Szenario aus einem Marketing-Folder. Das ist ein echter **UX-Bericht für Chrome (CrUX)** eines meiner Kunden. Von Oktober 2025 bis Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts komplett umgekrempelt. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) behalten wir die Trends im Blick, während [Rankscale](https://rankscale.ai/?via=offer) uns zeigt, wie diese Verbesserungen auf unsere KI-Sichtbarkeit einzahlen.
+Das ist kein Best-Case-Szenario aus einem Marketing-Folder. Das ist ein echter **UX-Bericht für Chrome (CrUX)** eines meiner Kunden. Von Oktober 2025 bis Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts komplett umgekrempelt. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> behalten wir die Trends im Blick, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> uns zeigt, wie diese Verbesserungen auf unsere KI-Sichtbarkeit einzahlen.
 
 ## Warum Core Web Vitals mehr sind als Google-Schikane
 
@@ -40,7 +40,7 @@ Seit 2021 sind die CWV ein offizieller Ranking-Faktor. Aber hand aufs Herz: Das 
 Zeig dem CEO nicht die Search Console mit grünen und roten Punkten – zeig ihm die Absprungrate und das Conversion-Fenster. Daten zeigen, dass gute Core Web Vitals die Absprungrate um bis zu 24% senken können. Das ist die Sprache, die Budget freisetzt."
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer heute noch glaubt, dass PageSpeed nur ein technisches Gimmick ist, hat den Ernst der Lage nicht verstanden. Performance ist Customer Service."</p>
 </div>
 
@@ -93,17 +93,17 @@ Ein Kollege kommentierte treffend: *"Das Problem sind oft die Themes von der Sta
 
 Wenn du nicht weißt wo du anfängst:
 
-1. Öffne die **[Google Search Console](https://search.google.com/search-console)** → Tab "Nutzererfahrung" → Core Web Vitals Bericht
+1. Öffne die **[Google Search Console](https://search.google.com/search-console)**  Tab "Nutzererfahrung"  Core Web Vitals Bericht
 2. Nimm dir nur die URLs die auf **"Schlecht"** stehen
 3. Starte mit **Bild-Optimierung (LCP)** und **festen Bildabmessungen (CLS)** – das sind die Quick-Wins mit der größten Wirkung
 4. Danach analysiere deine **Third-Party-Scripte** – jedes unnötige Script ist ein Risiko
 
 Und wenn dir das zu technisch ist oder du den Wald vor lauter Bäumen nicht siehst: In einer **[SEO-Sprechstunde](/seo-sprechstunde/)** legen wir deine Seite auf den Grill und ich zeige dir live, wo das Fett wegmuss.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du bereit für den User-Check?</h3>
-  <p class="mb-6">Ich analysiere deine Core Web Vitals und entwickle eine Strategie, die Nutzer UND Google glücklich macht. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das kontinuierliche Monitoring und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Visibility.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Performance-Audit buchen →</a>
+  <p class="mb-6">Ich analysiere deine Core Web Vitals und entwickle eine Strategie, die Nutzer UND Google glücklich macht. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das kontinuierliche Monitoring und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Visibility.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Performance-Audit buchen </a>
 </div>

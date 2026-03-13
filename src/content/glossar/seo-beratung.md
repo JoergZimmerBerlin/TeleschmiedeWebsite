@@ -19,10 +19,10 @@ faqs:
 
 Moin!
 
-In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, **SEO Consulting**, **SEO Betreuung**, **SEO Analyse** oder der **SEO Check**. Am Ende des Tages geht es aber immer um eine einzige Sache: Wie bekommen wir mehr relevante Kunden über Google auf deine Website? Mit der richtigen [SEO Beratung](/glossar/seo-beratung/) und Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) legen wir den Grundstein für messbaren Erfolg.
+In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, **SEO Consulting**, **SEO Betreuung**, **SEO Analyse** oder der **SEO Check**. Am Ende des Tages geht es aber immer um eine einzige Sache: Wie bekommen wir mehr relevante Kunden über Google auf deine Website? Mit der richtigen [SEO Beratung](/glossar/seo-beratung/) und Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> legen wir den Grundstein für messbaren Erfolg.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Suchmaschinen haben noch nie ein Produkt gekauft. Überzeuge den Menschen, der hinter der Tastatur sitzt."</p>
 </div>
 
@@ -67,14 +67,14 @@ Egal ob du eine **digitale Unternehmensberatung** suchst oder eine langfristige 
 
 Hör auf mit dem SEO-Voodoo. Setz auf Daten, Strategie und echtes Handwerk. Denn am Ende des Tages zählt nicht dein [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/), sondern der Umsatz auf deinem Konto.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du suchst eine echte SEO Strategie?</h3>
   <p class="mb-6">Lass uns in einem kostenlosen Erstgespräch schauen, wo dein Business steht und wie wir dich ganz nach vorne bringen. Transparent, ehrlich und ohne Bullshit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO Beratung anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO Beratung anfragen </a>
 </div>
 
 * **Lese-Tipp:** [SEO Agentur vs. SEO Freelancer](/glossar/seo-agentur/)

@@ -1,5 +1,5 @@
 ---
-title: "Wer ist für die Einrichtung der Google Search Console zuständig? 🛠️"
+title: "Wer ist für die Einrichtung der Google Search Console zuständig? "
 description: "Die große Streitfrage: Muss der Webdesigner die Search Console einrichten oder ist das reine SEO-Sache? Die ehrlichen Antworten aus über 70 Kommentaren."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-wer-ist-fuer-die-einrichtung-der-activity-7264177815217430528-9Y7S"
@@ -20,7 +20,7 @@ faqs:
 
 Moin! 🌻
 
-Hier kommt eines der Themen, bei dem in Projektmeetings regelmäßig die Fetzen fliegen – und ich das eigentlich seit Jahren nicht mehr ertrage: **Wer ist verdammt nochmal für die Einrichtung der Google Search Console (GSC) zuständig?** 🛠️
+Hier kommt eines der Themen, bei dem in Projektmeetings regelmäßig die Fetzen fliegen – und ich das eigentlich seit Jahren nicht mehr ertrage: **Wer ist verdammt nochmal für die Einrichtung der Google Search Console (GSC) zuständig?** 
 
 Das klingt nach einer banalen Frage. Ist es nicht. In einer Welt, in der Daten die neue Währung sind, ist die Search Console dein Kontoauszug.
 
@@ -41,7 +41,7 @@ Die Google Search Console ist die absolute **Gesundheits-App** jeder Website. Oh
 Und trotzdem wird das GSC-Setup bei Webprojekten oft behandelt wie eine heiße Kartoffel: Jeder schiebt sie weiter, keiner fängt sie auf.
 
 <div class="my-10 bg-lime-accent/10 border-l-4 border-lime-600 p-8 rounded-r-3xl shadow-sm">
-  <p class="font-bold text-lime-600 mb-2 uppercase tracking-widest text-sm">💬 Jörgs SEO-Klartext</p>
+  <p class="font-bold text-lime-600 mb-2 uppercase tracking-widest text-sm"> Jörgs SEO-Klartext</p>
   <p class="text-xl font-medium text-dark italic leading-relaxed mb-0">
     "Wer eine neue Website live schaltet, ohne die GSC einzurichten, liefert ein unfertiges Produkt ab. Das ist wie ein Auto ohne Tacho zu verkaufen. Wer misst, führt. Wer nicht misst, hofft nur."
   </p>
@@ -62,7 +62,7 @@ Der Konsens war eindeutig: **Der Webentwickler oder die Agentur, die das Projekt
 
 ---
 
-## Der "Daten-Machtmissbrauch": Wenn Agenturen mauern 🦖
+## Der "Daten-Machtmissbrauch": Wenn Agenturen mauern 
 
 Es gibt einen Punkt, bei dem ich wirklich rasend werde. Das sehe ich in meinen [SEO-Sprechstunden](/seo-sprechstunde/) fast wöchentlich: Die alte Agentur hat die Google Search Console unter ihrer **eigenen E-Mail-Adresse** eingerichtet.
 
@@ -75,7 +75,7 @@ Wenn der Kunde die Agentur wechselt, heißt es plötzlich: *"Geht nicht, die Dat
 
 ---
 
-## ⚡ Checkliste: Wer macht was beim Launch?
+##  Checkliste: Wer macht was beim Launch?
 
 Damit es kein "Stille-Post-Spiel" gibt, hier mein Blueprint für deine Projekte:
 
@@ -102,4 +102,4 @@ Wenn alle Parteien nach diesem Schema arbeiten, klappt es auch mit einem saubere
 
 Wie läuft das bei dir? Hat deine Agentur die Hand auf deinen Daten?
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻

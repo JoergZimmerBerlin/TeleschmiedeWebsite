@@ -1,5 +1,5 @@
 ---
-title: "SEO Persönlich: Mein Interview im SEOpresso Podcast 🎙️"
+title: "SEO Persönlich: Mein Interview im SEOpresso Podcast "
 description: "Ein sehr persönliches Interview über meine Anfänge, 24 Jahre Selbständigkeit und warum Kommunikation im SEO heute wichtiger ist als jedes Tool. Im Gespräch mit Björn Darko."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bj%C3%B6rn-darko_bj%C3%B6rn-darko-joerg-zimmer-seo-persoenlich-activity-7289547115112222720-Y6eW"
@@ -60,7 +60,7 @@ Hier ist der Überblick über meine "Epochen":
 
 Wir SEOs lieben unsere Tools. 
 
-Wir starren auf Graphen. SISTRIX. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). [Rankscale](https://rankscale.ai/?via=offer). 
+Wir starren auf Graphen. SISTRIX. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. 
 
 Aber im Gespräch mit Björn wurde eines klar: 
 
@@ -79,7 +79,7 @@ Wer nicht kommunizieren kann, wird im modernen SEO scheitern.
 Punkt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten im Call. Er bezahlt für die 24 Jahre, die ich gebraucht habe, um in diesen 60 Minuten dein Projekt zu retten."</p>
 </div>
 
@@ -119,12 +119,12 @@ Es ist kein klassisches "How-to-SEO".
 
 Es ist ein ehrliches **"How-to-Survive-SEO"**.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du den Menschen hinter den Daten?</h3>
-  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Analyse und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Sichtbarkeit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen →</a>
+  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen </a>
 </div>
 
 * **Lese-Tipp:** [24 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

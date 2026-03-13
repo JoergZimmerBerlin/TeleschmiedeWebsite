@@ -23,7 +23,7 @@ Ein Money Keyword ist der Jackpot im SEO.
 Es ist ein Suchbegriff, bei dem der Nutzer bereits die Kreditkarte in der Hand hält oder zumindest kurz davor ist, auf "Anfragen" zu klicken.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wenn dein Relaunch am Sonntagabend schiefgeht, brauchst du jemanden, der direkt in den Code geht und rettet, was zu retten ist."</p>
 </div>
 
@@ -76,14 +76,14 @@ Dann muss deine Seite als autoritäre [Entität](/glossar/entitaet/) wahrgenomme
 
 Money Keywords sind der Treibstoff für dein Business. Hör auf, nach Eitelkeits-Metriken zu jagen. Ich nutze die [Wettbewerbsanalyse von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um genau die Begriffe mit hohem CPC und klarer Kaufabsicht zu finden, die deine Rechnungen bezahlen. Konzentrier dich auf Qualität, Relevanz und Vertrauen. Denn am Ende zählt nur, was unten rauskommt.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Keywords bringen keinen Umsatz?</h3>
   <p class="mb-6">Ich analysiere deine Suchbegriffe und finde die echten Umsatztreiber für dein Business. Lass uns profitables SEO machen!</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Gespräch buchen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Gespräch buchen </a>
 </div>
 
 ### Lese-Tipp

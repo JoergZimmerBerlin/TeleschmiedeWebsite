@@ -24,7 +24,7 @@ Moin! 🌻
 Der Sichtbarkeitsindex ist die harte Währung der SEO-Welt. Keine Likes, keine Shares, kein Bullshit. Nur pure Daten aus den Google-SERPs. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"24 Jahre in dieser Branche haben mich eins gelehrt: Jeder Hype geht vorbei, aber sauberes Handwerk und echter Nutzerfokus überleben jedes Core Update."</p>
 </div>
 
@@ -67,14 +67,14 @@ Speziell im Hinblick auf [Entity SEO](/glossar/entity-seo/) wird der Index immer
 
 Vergiss Eitelkeits-Metriken. Konzentrier dich auf den Sichtbarkeitsindex. Er ist das Thermometer für deine SEO-Gesundheit. Beobachte ihn, pflege ihn, aber jage ihm nicht blind hinterher. Am Ende zählen die Conversions, nicht nur die Kurve. Werde zur unangefochtenen Autorität in deiner Nische.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Kurve geht nach unten?</h3>
-  <p class="mb-6">Ich analysiere deinen Sichtbarkeits-Absturz und finde die technischen oder inhaltlichen Ursachen. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) bringen wir deine Domain wieder auf Kurs.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
+  <p class="mb-6">Ich analysiere deinen Sichtbarkeits-Absturz und finde die technischen oder inhaltlichen Ursachen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bringen wir deine Domain wieder auf Kurs.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist allgemeine Sichtbarkeit?](/glossar/sichtbarkeit/)

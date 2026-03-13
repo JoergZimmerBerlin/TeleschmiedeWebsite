@@ -20,7 +20,7 @@ faqs:
 Der Knowledge Graph (Wissens-Graph) ist Googles Gehirn. Er wurde 2012 eingeführt und markierte den Übergang von einer bloßen Indexierung von Texten hin zu einer intelligenten Wissensdatenbank. Er ist der Grund, warum du in der Google-Suche oft direkt eine Infobox (Knowledge Panel) rechts neben den Ergebnissen siehst, wenn du nach Prominenten, Firmen oder Nationalparks suchst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO ist kein Projekt, das man einmal macht und dann vergisst. Es ist ein Prozess, keine Einmal-Spritze."</p>
 </div>
 
@@ -58,14 +58,14 @@ Wenn ein Nutzer fragt: "Welchem SEO-Experten in Berlin kann ich vertrauen?", gre
 
 Der Knowledge Graph ist die ultimative Bestätigung deiner Relevanz im Internet. Er verwandelt deine Website-Daten in echtes, vernetztes Wissen. Investiere Zeit in sauberes Schema-Markup und konsistente Markenpräsenz auf Drittportalen. Sobald Google dich als festen Knotenpunkt in seinem Gehirn akzeptiert hat, wird deine Sichtbarkeit auf ein völlig neues, stabiles Level gehoben.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du schon Teil von Googles Gehirn?</h3>
   <p class="mb-6">Ich helfe dir, deine Daten so zu strukturieren, dass Google dich als eindeutige Entität im Knowledge Graph erkennt. Lass uns dein digitales Erbe sichern.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entity-Consulting buchen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entity-Consulting buchen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)

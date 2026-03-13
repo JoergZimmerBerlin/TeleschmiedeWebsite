@@ -11,7 +11,7 @@ key_takeaways:
   - "Lösung 301: Leite gelöschte Inhalte immer auf eine relevante neue Seite weiter."
 faqs:
   - question: "Ist ein 404 Fehler wirklich so schädlich für mein Google-Ranking?"
-    answer: "Nicht jeder einzelne 404-Fehler führt sofort zur Abwertung. Google weiß, dass das Internet dynamisch ist. Kritisch wird es aber, wenn wichtige 'Power-Pages' mit starken Backlinks ins Leere laufen oder wenn die schiere Menge an Fehlern signalisiert, dass die Seite technisch verwahrlost ist. Das verschwendet wertvolles Crawl-Budget, da der Googlebot Zeit damit verbringt, Sackgassen zu prüfen, statt deinen neuen Content zu indexieren. ALOHA-Tipp: Behandle deine Website wie deinen Garten – Unkraut (404s) muss regelmäßig gejätet werden!"
+    answer: "Nicht jeder einzelne 404-Fehler führt sofort zur Abwertung. Google weiß, dass das Internet dynamisch ist. Kritisch wird es aber, wenn wichtige 'Power-Pages' mit starken Backlinks ins Leere laufen oder wenn die schiere Menge an Fehlern signalisiert, dass die Seite technisch verwahrlost ist. Das verschwendet wertvolles Crawl-Budget, da der Googlebot Zeit damit verbringt, Sackgassen zu prüfen, statt deinen neuen Content zu indexieren. ALOHA 🌻-Tipp: Behandle deine Website wie deinen Garten – Unkraut (404s) muss regelmäßig gejätet werden!"
   - question: "Warum ist die Weiterleitung auf die Startseite (Soft-404) eine schlechte Idee?"
     answer: "Viele denken: 'Inhalt weg? Einfach ab zur Startseite!' Das ist aus SEO-Sicht ein klassischer Fehler. Google erkennt das als 'Soft-404'. Der Nutzer wollte Informationen über 'SEO-Konventionen' und landet plötzlich auf deiner allgemeinen Homepage – das ist eine schlechte User Experience. Google ignoriert solche pauschalen Weiterleitungen oft und überträgt keinen Linkjuice. Der korrekte Weg ist immer die thematisch nächste Seite (z.B. von einem gelöschten Blogartikel auf die Blog-Übersicht oder einen ähnlichen Beitrag)."
   - question: "Wie gehe ich professionell mit 404-Fehlern in der Google Search Console um?"
@@ -27,8 +27,8 @@ Du klickst auf einen Link und landest im Nichts.
 Technisch gesehen heißt das: Die URL existiert nicht mehr.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. "</p>
 </div>
 
 Für dein SEO ist das Gift. 
@@ -47,7 +47,7 @@ Die häufigsten Gründe sind banal, aber folgenschwer:
 ## Die Gefahr für deine Sichtbarkeit
 
 Häufen sich 404-Fehler, bekommt Google ein schlechtes Bild von deiner Website. 
-Es signalisiert Ungepflegtheit – quasi "Pfusch am Bau" 🦖. 
+Es signalisiert Ungepflegtheit – quasi "Pfusch am Bau" . 
 Außerdem geht wertvoller [Linkjuice](/glossar/linkjuice/) verloren. 
 Stell dir vor, eine starke News-Seite verlinkt dich, aber der Link führt auf eine 404 Seite. 
 Die ganze Kraft verpufft einfach im digitalen Nirgendwo.
@@ -70,7 +70,7 @@ Du musst deine Fehlerseiten aktiv suchen.
 Ich nutze in meinen [Audits](/glossar/seo-audit/) konsequent die [Google Search Console](/glossar/google-search-console/). 
 Dort gibt es einen Bericht zur Indexierung. 
 Stehen dort "Nicht gefunden (404)" Meldungen? 
-Dann ist es Zeit zu handeln. Auch Tools wie [[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)](https://seranking.com/de/?ga=4169588&source=link) finden diese Sackgassen sofort.
+Dann ist es Zeit zu handeln. Auch Tools wie [<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>](https://seranking.com/de/?ga=4169588&source=link) finden diese Sackgassen sofort.
 
 ## 404 Fehler in der KI-Suche ([GEO](/glossar/geo/))
 
@@ -82,16 +82,16 @@ Wer seine technische Basis nicht im Griff hat, wird nicht zitiert.
 
 ## Mein Tacheles-Rat für dich
 
-404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
+404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Sackgassen auf deiner Website?</h3>
-  <p class="mb-6">Ich finde alle 404-Fehler und leite sie sauber weiter, damit dein Linkjuice nicht verpufft. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir den Status Quo, mit [Rankscale](https://rankscale.ai/?via=offer) messen wir deinen Erfolg in der KI-Suche.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern →</a>
+  <p class="mb-6">Ich finde alle 404-Fehler und leite sie sauber weiter, damit dein Linkjuice nicht verpufft. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysieren wir den Status Quo, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deinen Erfolg in der KI-Suche.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern </a>
 </div>
 
 * **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)

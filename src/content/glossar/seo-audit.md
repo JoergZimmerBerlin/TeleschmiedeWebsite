@@ -15,13 +15,13 @@ Niemand freut sich drauf, aber hinterher bist du heilfroh, wenn die Löcher gest
 Es ist die schonungslose Bestandsaufnahme deiner kompletten Website.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"24 Jahre in dieser Branche haben mich eins gelehrt: Jeder Hype geht vorbei, aber sauberes Handwerk und echter Nutzerfokus überleben jedes Core Update."</p>
 </div>
 
 Wir werfen alles in den Grill: Technik, Content, Backlinks.
 Warum rankst du nicht auf Platz 1? 
-Warum stagnieren deine Anfragen? Professionelle Analyse-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) liefern uns dabei die nötige Datengrundlage, um deine Wettbewerber zu deklassieren.
+Warum stagnieren deine Anfragen? Professionelle Analyse-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> liefern uns dabei die nötige Datengrundlage, um deine Wettbewerber zu deklassieren.
 Der Audit liefert die Antwort. Keine Vermutungen, sondern harte Fakten und Daten.
 
 ## Was wird beim Audit wirklich geprüft?
@@ -67,7 +67,7 @@ Was machen wir in Woche 1 (die "Quick Wins")? Was in Monat 3 (strategischer Aufb
 Wie schlagen wir den Wettbewerb im [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/)?
 
 In der Ära von [GEO](/glossar/geo/) prüfen wir im Audit auch:
-Wie gut können KI-Systeme deine Inhalte extrahieren? Mit [Rankscale](https://rankscale.ai/?via=offer) validieren wir, ob dein Audit bereits Früchte trägt und du in den LLM-Antworten als Autorität erscheinst.
+Wie gut können KI-Systeme deine Inhalte extrahieren? Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> validieren wir, ob dein Audit bereits Früchte trägt und du in den LLM-Antworten als Autorität erscheinst.
 Sind deine Informationen so strukturiert, dass sie in einer AI Overview zitiert werden können?
 Haben wir die [LLMs.txt](/glossar/llms-txt/) schon als Einladung für die Bots am Start?
 
@@ -75,14 +75,14 @@ Haben wir die [LLMs.txt](/glossar/llms-txt/) schon als Einladung für die Bots a
 
 Ein SEO Audit ist kein Luxusgut, sondern die Versicherung für deinen Erfolg. Hör auf zu raten oder dich auf automatisierte Tool-Berichte zu verlassen. Fang an zu wissen. Pack deine Website auf den Grill und lass uns schauen, wo wir die PS wirklich auf die Straße bekommen. 
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für den Grillabend?</h3>
   <p class="mb-6">Ich nehme deine Website schonungslos auseinander und zeige dir die echten Hebel für mehr Umsatz. Lass uns dein SEO professionalisieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO-Audit buchen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO-Audit buchen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)

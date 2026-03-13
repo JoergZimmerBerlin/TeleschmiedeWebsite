@@ -22,7 +22,7 @@ Moin!
 **Technisches Schema-Markup** ist die Brücke zwischen deinem Content und den Maschinen, die ihn auswerten. Es übersetzt deine Website-Inhalte in ein Format, das Google, Bing und KI-Systeme direkt als Fakten verarbeiten können.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Warum machen Unternehmen immer noch Relaunches, ohne vorher einen SEO zu fragen? Da wird monatelang designt und entwickelt, und am Tag nach dem Go-Live sind alle Rankings weg."</p>
 </div>
 
@@ -52,17 +52,17 @@ Zeigt die Navigationsstruktur im Suchergebnis: Home > Glossar > Schema-Markup.
 
 ## Mein Tacheles-Rat für dich
 
-Prüfe im Google Rich Results Test oder mit einem Audit von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), welche Schema-Typen auf deiner Website bereits implementiert sind. Wenn die Antwort „keine" ist: Starte mit Person/Organization und FAQPage. Das sind die Low-Hanging-Fruits mit dem größten Impact.
-Mit [Rankscale](https://rankscale.ai/?via=offer) validieren wir anschließend, ob deine technische Vorarbeit auch von den LLMs belohnt wird.
+Prüfe im Google Rich Results Test oder mit einem Audit von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, welche Schema-Typen auf deiner Website bereits implementiert sind. Wenn die Antwort „keine" ist: Starte mit Person/Organization und FAQPage. Das sind die Low-Hanging-Fruits mit dem größten Impact.
+Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> validieren wir anschließend, ob deine technische Vorarbeit auch von den LLMs belohnt wird.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Schema-Markup fehlt?</h3>
   <p class="mb-6">Ich implementiere ein maßgeschneidertes Schema-Setup, das Google und KI-Systemen klare Signale sendet.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Schema.org Markup Grundlagen](/glossar/schema-org-markup/)

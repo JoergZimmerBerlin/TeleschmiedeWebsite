@@ -23,7 +23,7 @@ Moin!
 Wenn wir über **SEO Optimierung** sprechen, meinen die meisten nur das "Einbauen von Keywords". Aber modernes, **professionelles SEO** ist ein komplexes Zusammenspiel aus drei Disziplinen, die perfekt aufeinander abgestimmt sein müssen. Wer eine dieser Säuren ignoriert, lässt bares Geld auf der Straße liegen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer CEO-Sprache spricht, bekommt auch Budgets."</p>
 </div>
 
@@ -37,7 +37,7 @@ Wichtige Hebel im technischen SEO:
 *   **Indexierbarkeit:** Nutzen wir [Noindex](/glossar/noindex/) richtig?
 *   **Struktur:** Ist unsere [Sitemap](/glossar/sitemap/) aktuell?
 *   **Mobile First:** Lädt die Seite auf dem Smartphone in unter 2 Sekunden?
-*   **Schema:** Nutzen wir [Strukturierte Daten](/glossar/strukturierte-daten/), um Google 'Essen' für KI-Antworten zu geben? Mit [Rankscale](https://rankscale.ai/?via=offer) lässt sich die Wirkung technischer Optimierungen auf die KI-Sichtbarkeit direkt tracken.
+*   **Schema:** Nutzen wir [Strukturierte Daten](/glossar/strukturierte-daten/), um Google 'Essen' für KI-Antworten zu geben? Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> lässt sich die Wirkung technischer Optimierungen auf die KI-Sichtbarkeit direkt tracken.
 
 ## 2. Inhaltliches SEO: Die Stimme deiner Marke
 
@@ -56,7 +56,7 @@ Eine gute **SEO Strategie** stellt sicher, dass wir nicht planlos drauflos optim
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">SEO Pro-Tipp</h4>
-  <p class="mb-0 text-sm">Mach keine halben Sachen. Ein 'bisschen SEO' ist oft verbranntes Geld. Setz auf ein ganzheitliches Konzept, das Technik, Content und Strategie vereint. Nur so baust du nachhaltige Sichtbarkeit auf. Nutze professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für dein tägliches Monitoring.
+  <p class="mb-0 text-sm">Mach keine halben Sachen. Ein 'bisschen SEO' ist oft verbranntes Geld. Setz auf ein ganzheitliches Konzept, das Technik, Content und Strategie vereint. Nur so baust du nachhaltige Sichtbarkeit auf. Nutze professionelle Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein tägliches Monitoring.
 </div>
 
 ## SEO-Betreuung & Analyse
@@ -69,14 +69,14 @@ Ein **SEO Experte** behält die Daten im Blick und passt die Segel an, bevor der
 
 Ob du nun **SEO Texte schreiben lassen** willst oder eine komplette **digitale Unternehmensberatung** suchst: Achte darauf, dass alle drei Säulen bedient werden. Ein schöner Text auf einer langsamen WordPress-Seite wird niemals sein volles Potenzial entfalten.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite wird ignoriert?</h3>
-  <p class="mb-6">Ich prüfe dein Crawl-Budget und sorge dafür, dass der Googlebot deine besten Inhalte zuerst findet. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) optimieren wir deinen Zugang für Mensch und KI.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen →</a>
+  <p class="mb-6">Ich prüfe dein Crawl-Budget und sorge dafür, dass der Googlebot deine besten Inhalte zuerst findet. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> optimieren wir deinen Zugang für Mensch und KI.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Warum WordPress SEO so mächtig ist](/glossar/wordpress-seo/)

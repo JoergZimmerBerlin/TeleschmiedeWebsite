@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Wer mich kennt, weiß: Ich teste Tools nicht nur, ich quäle sie. Und wenn ein Team so schnell liefert wie die Jungs von [Rankscale](https://rankscale.ai/?via=offer), dann muss ich das hier im Blog natürlich Tacheles besprechen. 
+Wer mich kennt, weiß: Ich teste Tools nicht nur, ich quäle sie. Und wenn ein Team so schnell liefert wie die Jungs von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, dann muss ich das hier im Blog natürlich Tacheles besprechen. 
 
 Die AI-Visibility-Welt dreht sich gerade rasend schnell, und Rankscale hat gerade ein Paket an Updates rausgehauen, das zeigt: Sie wollen nicht nur mitspielen, sie wollen den Standard für [GEO](/glossar/ai-geo/) setzen.
 
@@ -33,7 +33,7 @@ Bisher gab es oft ein "Entweder-Oder" zwischen dem Pro-Paket und den großen Ent
 
 <div class="my-10 text-center">
   <a href="https://rankscale.ai/pricing?via=offer" target="_blank" class="inline-block bg-lime-accent text-dark font-bold py-4 px-8 rounded-full hover:bg-lime-400 transition-colors shadow-lg shadow-lime- accent/20 no-underline shadow-lime-accent/20">
-    🚀 Jetzt Growth-Preise checken →
+     Jetzt Growth-Preise checken 
   </a>
 </div>
 
@@ -42,7 +42,7 @@ Mehr Flexibilität, ohne direkt den Core des Unternehmens verpfänden zu müssen
 ## 2. REST-API: Endlich Daten-Freiheit
 Das ist für mich als "Digitaler Dinosaurier", der Automatisierung liebt, der echte Knaller. Die neue **REST-API** (verfügbar für Growth & Enterprise) erlaubt es uns, die Sichtbarkeitsdaten direkt in unsere eigenen Dashboards oder CRM-Systeme zu ziehen. 
 
-Kein manuelles Exportieren mehr. Wer Reporting-Automatisierung liebt, wird das feiern. Übrigens: Es gibt sogar einen [OpenClaw Skill](https://github.com/Rankscale/OpenClaw), der zeigt, wie man das Ganze integriert. 🦞
+Kein manuelles Exportieren mehr. Wer Reporting-Automatisierung liebt, wird das feiern. Übrigens: Es gibt sogar einen [OpenClaw Skill](https://github.com/Rankscale/OpenClaw), der zeigt, wie man das Ganze integriert. 
 
 ## 3. ChatGPT Shopping Analyse
 E-Commerce-Leute, passt auf! Wir wissen, dass KI-Modelle immer mehr Kaufberatung übernehmen. Rankscale zeigt jetzt in einer dedizierten Ansicht, wie deine Produkte in ChatGPT-Einkaufsergebnissen auftauchen. 
@@ -53,7 +53,7 @@ E-Commerce-Leute, passt auf! Wir wissen, dass KI-Modelle immer mehr Kaufberatung
 Das ist Gold wert für das [Reputation-Management](/glossar/e-e-a-t/) im Online-Handel.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs Tacheles-Check</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs Tacheles-Check</p>
   <p class="italic text-dark mb-0">"Wenn du im E-Commerce heute nicht weißt, ob ChatGPT dich empfiehlt oder deine Konkurrenz, dann lässt du Geld auf der Straße liegen. Es ist egal, wie gut dein herkömmliches SEO ist, wenn die KI dich nicht auf dem Schirm hat."</p>
 </div>
 
@@ -62,7 +62,7 @@ Das Team hat das Page Audit komplett neu gebaut. Über **90 Regeln** checken jet
 
 ## 5. Mehr Flexibilität beim Tracking
 KI-Suchergebnisse sind volatil. Manchmal will man es ganz genau wissen. Rankscale bietet jetzt neue Tracking-Intervalle an:
-- Alle 2 Stunden (für die ganz heißen Kisten 🔥)
+- Alle 2 Stunden (für die ganz heißen Kisten )
 - Zweitägig
 - Zweiwöchentlich
 - Zweimonatlich
@@ -75,11 +75,11 @@ Schau dir am besten direkt die [verschiedenen Pakete in der Übersicht](https://
 
 <div class="my-12 text-center">
   <a href="https://rankscale.ai/pricing?via=offer" target="_blank" class="inline-block bg-lime-accent text-dark font-bold py-5 px-10 rounded-full hover:bg-lime-400 transition-all hover:scale-105 shadow-xl shadow-lime-accent/30 no-underline">
-    🔥 Rankscale Test-Account & Preise sichern →
+     Rankscale Test-Account & Preise sichern 
   </a>
 </div>
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [KI-Sichtbarkeit messen mit dem SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/)

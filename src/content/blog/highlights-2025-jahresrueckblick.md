@@ -25,7 +25,7 @@ Moin! 🌻
 Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüter erhitzt haben, die Themen, die mich nachts wachgehalten haben, und natürlich auch die Momente, in denen wir einfach nur gelacht haben.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Ein Jahresrückblick ohne Schmerzen ist kein echter Rückblick. Wir müssen aus den Fehlern von 2025 die Erfolge von 2026 bauen."</p>
 </div>
 
@@ -41,7 +41,7 @@ Wer 20 Jahre Erfahrung hat, wer hunderte Relaunches begleitet hat, wer technisch
 
 ### 2. Der Aufstieg des AI-Trackings: Rankscale im Fokus
 
-2025 war das Jahr, in dem wir aufhören mussten, nur klassische Rankings zu zählen. Mit [Rankscale](https://rankscale.ai/?via=offer) kam einer der ersten Tracker auf den Markt, der wirklich ernsthaft die Sichtbarkeit in 17 verschiedenen LLMs (Large Language Models) gemessen hat. 
+2025 war das Jahr, in dem wir aufhören mussten, nur klassische Rankings zu zählen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kam einer der ersten Tracker auf den Markt, der wirklich ernsthaft die Sichtbarkeit in 17 verschiedenen LLMs (Large Language Models) gemessen hat. 
 
 Ich hab das Tool vorgestellt und die Community war gespalten. Die einen sagten: "Endlich Daten für die neue Welt!" Die anderen: "Wir können doch nicht für jede KI einzeln optimieren!" Es war der Startschuss für eine neue Ära des Monitorings. Wir tracken heute nicht mehr nur Position 1 auf Google, sondern die Wahrscheinlichkeit, von einer KI als Top-Lösung empfohlen zu werden.
 
@@ -87,7 +87,7 @@ Auf ein noch wilderes, spannenderes und erfolgreiches 2026! Lasst uns die KIs z�
 
 ---
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ### Weiterführende Artikel für den Rückblick-Effekt
 ### Weiterführende Artikel

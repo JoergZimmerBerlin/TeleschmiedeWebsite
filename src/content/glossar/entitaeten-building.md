@@ -22,7 +22,7 @@ Moin!
 **Entitäten-Building** ist die praktische Umsetzung einer der wichtigsten SEO-Strategien der Gegenwart: Dich selbst – deinen Namen, deine Marke, dein Unternehmen – als [Entität](/glossar/entitaet/) im Knowledge Graph und in KI-Modellen zu verankern.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Zweitmeinung mit ehrlichen Augen: Manchmal sieht man vor lauter Keywords den Wald nicht mehr."</p>
 </div>
 
@@ -54,14 +54,14 @@ Ein thematisches Content-Cluster ([Semantic SEO](/glossar/semantic-seo/)) zeigt 
 
 Starte mit Schritt 1: Erstelle eine Grounding Page. Das dauert 2 Stunden und ist das Fundament für alles Weitere. Dann implementiere Schema.org. Dann bau dir ein Glossar oder Content-Hub auf. Entitäten-Building ist ein Marathon – aber jeder Schritt bringt dich näher an den Punkt, an dem Google und KI dich als das erkennen, was du bist: Ein Experte.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit, zur Entität zu werden?</h3>
   <p class="mb-6">Ich begleite dich Schritt für Schritt beim Aufbau deiner digitalen Entität.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entitäten-Building starten →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entitäten-Building starten </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eine Entität?](/glossar/entitaet/)

@@ -22,7 +22,7 @@ Moin!
 **SEO Coaching** ist für alle, die es satt haben, sich von Agenturen Dinge erzählen zu lassen, die sie nicht überprüfen können.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Suchmaschinen haben noch nie ein Produkt gekauft. Überzeuge den Menschen, der hinter der Tastatur sitzt."</p>
 </div>
 
@@ -46,7 +46,7 @@ Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenhei
 ### Tools beherrschen
 *   Die [Google Search Console](/glossar/google-search-console/) wie ein Profi lesen.
 *   [Bing Webmaster Tools](/glossar/bing-webmastertools/) einrichten und nutzen.
-*   [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder vergleichbare Tools für Keyword-Monitoring.
+*   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder vergleichbare Tools für Keyword-Monitoring.
 
 ### Content-Strategie
 *   [Keywordrecherche](/glossar/keywordrecherche/) mit Suchintention verbinden.
@@ -55,7 +55,7 @@ Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenhei
 ### Technisches SEO beurteilen
 *   [Core Web Vitals](/glossar/core-web-vitals/) interpretieren.
 *   [Sitemap](/glossar/sitemap/), [robots.txt](/glossar/robots-txt/) und [Schema.org](/glossar/schema-org-markup/) verstehen.
-*   **KI-Reputation:** Lerne mit [Rankscale](https://rankscale.ai/?via=offer), wie du deine Marke für 17+ Sprachmodelle optimierst.
+*   **KI-Reputation:** Lerne mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie du deine Marke für 17+ Sprachmodelle optimierst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Meine Coaching-Philosophie</h4>
@@ -70,14 +70,14 @@ Viele Kunden starten mit einer einmaligen SEO-Sprechstunde und entwickeln daraus
 
 Wenn du im SEO "blind fährst" – Geld ausgibst, aber nicht verstehst, was passiert – ist Coaching der richtige Weg. Wissen kann dir niemand mehr wegnehmen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit, SEO selbst zu verstehen?</h3>
   <p class="mb-6">Persönlich, praxisnah und auf dein Business zugeschnitten.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Coaching-Gespräch vereinbaren →</a>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Coaching-Gespräch vereinbaren </a>
 </div>
 
 * **Lese-Tipp:** [SEO Consulting verstehen](/glossar/seo-consulting/)

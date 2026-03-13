@@ -12,7 +12,7 @@ faqs:
   - question: "Was ist der Unterschied zwischen Sichtbarkeit und Sichtbarkeitsmanagement?"
     answer: "Sichtbarkeit ist ein Zustand – du bist sichtbar oder nicht. Sichtbarkeitsmanagement ist die aktive Steuerung dieses Zustands. Es geht darum, strategisch zu entscheiden: Wo will ich sichtbar sein? Für welche Themen? In welchen Kanälen? Das umfasst Google-Rankings, KI-Zitierungen, Social-Media-Präsenz und Branchenverzeichnisse. In meiner Arbeit nenne ich das die 'Sichtbarkeits-Architektur' – ein durchdachtes System aus Content, technischem SEO und Entity Building."
   - question: "Wie messe ich mein Sichtbarkeitsmanagement am besten?"
-    answer: "Du brauchst mehrere KPIs gleichzeitig. Der Sichtbarkeitsindex (z.B. von Sistrix oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link)) misst deine Google-Präsenz. Tools wie [Rankscale](https://rankscale.ai/?via=offer) messen deine AI Visibility über 17+ LLMs. Das Branded Search Volume in der Google Search Console zeigt, wie oft nach deinem Namen gesucht wird. Und dein Citation-Profil verrät, wie oft du auf Drittseiten erwähnt wirst. Erst die Kombination all dieser Werte ergibt das vollständige Bild."
+    answer: "Du brauchst mehrere KPIs gleichzeitig. Der Sichtbarkeitsindex (z.B. von Sistrix oder <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>) misst deine Google-Präsenz. Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen deine AI Visibility über 17+ LLMs. Das Branded Search Volume in der Google Search Console zeigt, wie oft nach deinem Namen gesucht wird. Und dein Citation-Profil verrät, wie oft du auf Drittseiten erwähnt wirst. Erst die Kombination all dieser Werte ergibt das vollständige Bild."
   - question: "Kann ich Sichtbarkeitsmanagement selbst machen oder brauche ich einen Experten?"
     answer: "Die Basics kannst du definitiv selbst umsetzen: Google Search Console einrichten, Sitemap pflegen, regelmäßig Content veröffentlichen. Aber für eine echte Strategie – also die Frage 'Wie werde ich zur Entität in meiner Nische?' – brauchst du jemanden, der den Gesamtblick hat. In meinen SEO Sprechstunden starten wir oft genau hier: Wo stehst du, wo willst du hin, und welche Kanäle haben den größten Hebel?"
 ---
@@ -22,7 +22,7 @@ Moin!
 **Sichtbarkeitsmanagement** klingt nach Corporate-Buzzword? Ist es auch. Aber hinter dem sperrigen Begriff steckt die wichtigste Frage im digitalen Marketing: *Wer kontrolliert, wo und wie du online gefunden wirst?*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Strukturierte Daten sind absolute Pflicht. Serviere Google die Daten maschinenlesbar auf dem Silbertablett."</p>
 </div>
 
@@ -54,7 +54,7 @@ Dein Name muss als [Entität](/glossar/entitaet/) im Web verankert sein – durc
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein eigenes Sichtbarkeitsmanagement</h4>
-  <p class="mb-0 text-sm">Ich manage meine Sichtbarkeit über ein ganzheitliches System: 50+ Glossar-Einträge für thematische Autorität, Podcast-Auftritte für Mentions, LinkedIn für Community, Schema.org für maschinenlesbare Expertise und [Rankscale](https://rankscale.ai/?via=offer) für AI-Visibility-Tracking. Alles greift ineinander.</p>
+  <p class="mb-0 text-sm">Ich manage meine Sichtbarkeit über ein ganzheitliches System: 50+ Glossar-Einträge für thematische Autorität, Podcast-Auftritte für Mentions, LinkedIn für Community, Schema.org für maschinenlesbare Expertise und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für AI-Visibility-Tracking. Alles greift ineinander.</p>
 </div>
 
 ## Sichtbarkeitsmanagement als laufender Prozess
@@ -70,14 +70,14 @@ Es ist kein einmaliges Projekt. Es ist ein fortlaufender Kreislauf:
 
 Nimm dir 30 Minuten und mach einen Realitätscheck: Google deinen eigenen Namen. Frag ChatGPT nach deinem Fachgebiet. Schau in die Search Console, ob dein Branded Search Volume wächst. Wenn die Antworten enttäuschend sind, brauchst du keine neuen Keywords – du brauchst ein Sichtbarkeitsmanagement-System.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wo stehst du wirklich?</h3>
   <p class="mb-6">In einer SEO-Sprechstunde analysiere ich deine aktuelle Sichtbarkeit über alle Kanäle hinweg und zeige dir die größten Hebel.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)

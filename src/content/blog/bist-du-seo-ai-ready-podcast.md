@@ -16,7 +16,7 @@ key_takeaways:
 **Antonio Blago** hat mich eingeladen und was soll ich sagen? In einer Branche, die vor oberflächlichem Geplänkel nur so strotzt, war dieses Gespräch eine echte Wohltat. Antonio stellt nicht nur gute Fragen – er besitzt die seltene Gabe, wirklich zuzuhören und Raum für Antworten zu lassen, die über die üblichen Marketing-Phrasen hinausgehen. Das Ergebnis? Ein Podcast, der kein Buzzword-Bingo ist, sondern ein ehrlicher Schlagabtausch über den Status Quo von SEO, Google Ads und der Frage, wo wir in zwei Jahren stehen werden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Digitaler Erfolg ist kein Sprint, sondern ein strategischer Dauerlauf. Wer heute die Weichen stellt, kontrolliert morgen die KI-Sichtbarkeit."</p>
 </div>
 

@@ -22,7 +22,7 @@ Moin!
 In der Welt der Content Management Systeme (CMS) gibt es zwei Welten: Die intuitive, Plugin-reiche Welt von **WordPress** und das technische Schwergewicht **TYPO3**. Als [SEO Experte](/seo-freelancer-berlin/) betreue ich beide Welten und weiß: Ohne das richtige Werkzeug bleibst du unsichtbar.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
 </div>
 
@@ -36,7 +36,7 @@ Fast jede WordPress-Seite nutzt heute ein SEO-Plugin. Die Platzhirsche sind klar
 Lange Zeit war **Yoast SEO** der unangefochtene König. Es ist solide, einfach und jeder kennt es. Aber **Rank Math** hat den Thron erklommen. Warum? Weil es schlanker ist und Profi-Features wie Schema-Markup-Generatoren und die Anbindung an die Google Indexing API direkt mitbringt. Wer heute ein Projekt neu startet, sollte auf Rank Math setzen.
 
 ### 2. WP Rocket: Die Speed-Maschine
-Ein Rankingfaktor, den WordPress oft vernachlässigt, ist der [PageSpeed](/glossar/pagespeed/). Hier kommt **WP Rocket** ins Spiel. Es ist kein klassisches SEO-Plugin, sondern ein Performance-Plugin. Es minimiert CSS, verzögert JavaScript und kümmert sich um das Caching. In meinen [Audits](/glossar/seo-audit/) via [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist WP Rocket oft der Grund, warum eine Seite die 90-Punkte-Marke knackt und technisch endlich auf Augenhöhe mit der Konkurrenz spielt.
+Ein Rankingfaktor, den WordPress oft vernachlässigt, ist der [PageSpeed](/glossar/pagespeed/). Hier kommt **WP Rocket** ins Spiel. Es ist kein klassisches SEO-Plugin, sondern ein Performance-Plugin. Es minimiert CSS, verzögert JavaScript und kümmert sich um das Caching. In meinen [Audits](/glossar/seo-audit/) via <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> ist WP Rocket oft der Grund, warum eine Seite die 90-Punkte-Marke knackt und technisch endlich auf Augenhöhe mit der Konkurrenz spielt.
 
 ## TYPO3 SEO: Die Kraft aus dem Kern
 
@@ -65,14 +65,14 @@ Für WordPress: Aktiviere Rank Math und WP Rocket.
 Für TYPO3: Nutze die nativen SEO-Module und achte auf sauberes Typoscript. 
 Und denk immer daran: Ein Tool ist nur so gut wie der Mensch, der es bedient.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Probleme mit deinem CMS?</h3>
   <p class="mb-6">Ich optimiere WordPress-Instanzen und TYPO3-Projekte für maximale Sichtbarkeit. Lass uns deine Technik auf Elite-Niveau heben.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CMS-Check anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CMS-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Core Web Vitals optimieren](/glossar/core-web-vitals/)

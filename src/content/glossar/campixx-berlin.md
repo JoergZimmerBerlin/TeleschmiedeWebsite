@@ -22,7 +22,7 @@ Moin!
 Es gibt Termine im Jahr, die sind im Kalender rot markiert. Die **Campixx** (viele sagen immer noch SEO Campixx) ist genau so ein Highlight. Seit 2022 findet sie im **Van der Valk Hotel Berlin Brandenburg** in Blankenfelde-Mahlow statt – vorher war es jahrelang die legendäre Location am Müggelsee. Es ist kein klassisches "Anzug-Event", sondern das wohl größte und herzlichste Klassentreffen der Branche.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie."</p>
 </div>
 
@@ -67,14 +67,14 @@ Wenn ich von der Campixx zurückkomme, fließen diese neuen Erkenntnisse über [
 
 Absolut. Ja, es kostet Geld und Zeit. Aber der ROI (Return on Invest) ist unschlagbar. Ein Wochenende im Van der Valk Hotel ist wie ein halbes Jahr SEO-Fortbildung im Zeitraffer. Es schärft den Blick für das Wesentliche und sortiert den Bullshit aus.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Campixx-Wissen für dich nutzen?</h3>
   <p class="mb-6">Ich bringe die neuesten Trends vom Van der Valk Hotel direkt in dein Projekt. Lass uns in einem Audit schauen, wie wir deine Seite auf das nächste Level heben.</p>
-  <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Projekt-Check anfragen →</a>
+  <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Projekt-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Der SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/)

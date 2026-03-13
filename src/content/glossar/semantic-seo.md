@@ -22,7 +22,7 @@ Moin!
 **Semantic SEO** ist der Grund, warum ein Glossar mit 60+ Einträgen mehr wert ist als 60 einzelne Blogartikel auf verschiedenen Domains.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer CEO-Sprache spricht, bekommt auch Budgets."</p>
 </div>
 
@@ -54,14 +54,14 @@ Ein semantischer Content-Cluster besteht aus:
 
 Hör auf, einzelne Keywords zu jagen. Definiere stattdessen dein Kernthema und baue ein Content-Cluster drum herum. Verlinke alles intern. Nutze Schema.org. Ich persönlich nutze das professionelle [Cluster-Monitoring von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um den Überblick über gesamte Themengebiete zu behalten, statt nur einzelne Terme zu beobachten. Und dann beobachte, wie deine Autorität wächst.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Content hat keine Struktur?</h3>
   <p class="mb-6">Ich helfe dir, semantische Content-Cluster aufzubauen, die Google und KI-Systeme als Autorität erkennen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Content-Strategie anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Content-Strategie anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Entity SEO verstehen](/glossar/entity-seo/)

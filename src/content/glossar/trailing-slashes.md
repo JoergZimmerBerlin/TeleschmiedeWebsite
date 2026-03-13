@@ -22,13 +22,13 @@ Moin!
 Klingt nach einem Nerd-Detail? Ist es auch. Aber dieses Nerd-Detail kann der Unterschied zwischen sauberem [technischem SEO](/glossar/technisches-seo/) und einem chaotischen Duplicate-Content-Desaster sein.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."</p>
 </div>
 
 Ein **Trailing Slash** ist der Schrägstrich `/` am Ende einer URL:
-*   `https://teleschmie.de/glossar/` ← **mit** Trailing Slash
-*   `https://teleschmie.de/glossar` ← **ohne** Trailing Slash
+*   `https://teleschmie.de/glossar/`  **mit** Trailing Slash
+*   `https://teleschmie.de/glossar`  **ohne** Trailing Slash
 
 Für den Nutzer sieht das gleich aus. Für Google sind es **zwei verschiedene URLs**. Und genau hier beginnt das Problem.
 
@@ -80,14 +80,14 @@ Prüfe alle internen Links in deinem Content – verlinken sie konsistent auf di
 
 Öffne jetzt deine Website und teste es: Ruf eine beliebige Seite einmal mit und einmal ohne Trailing Slash auf. Leitet eine Variante auf die andere weiter? Perfekt. Wenn nicht, musst du handeln. Prüfe deine Framework-Config, setze 301-Redirects, und durchlauf deine Sitemap. Es sind 30 Minuten Arbeit, die dir monatelangen Ranking-Ärger ersparen können.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Technisches SEO macht dir Kopfschmerzen?</h3>
-  <p class="mb-6">Trailing Slashes, Redirects, Canonical Tags – ich bringe deine technische Basis in Ordnung. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Audit und [Rankscale](https://rankscale.ai/?via=offer) für die Messung deines KI-Erfolgs.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt technisches SEO-Audit anfragen →</a>
+  <p class="mb-6">Trailing Slashes, Redirects, Canonical Tags – ich bringe deine technische Basis in Ordnung. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das technische Audit und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die Messung deines KI-Erfolgs.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt technisches SEO-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Technisches SEO verstehen](/glossar/technisches-seo/)

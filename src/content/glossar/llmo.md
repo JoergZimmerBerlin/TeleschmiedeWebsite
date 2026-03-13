@@ -15,7 +15,7 @@ faqs:
   - question: "Kann ich beeinflussen, was ChatGPT über mich sagt?"
     answer: "Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein."
   - question: "Wie teste ich meine LLM-Sichtbarkeit?"
-    answer: "Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie [Rankscale](https://rankscale.ai/?via=offer), das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen."
+    answer: "Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen."
 ---
 
 Moin!
@@ -25,7 +25,7 @@ Moin!
 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO-Tools sind wie ein Skalpell. In der Hand eines Anfängers lebensgefährlich, in der Hand eines Experten ein Präzisionswerkzeug."</p>
 </div>
 
@@ -52,25 +52,25 @@ Konsistente Erwähnungen in vertrauenswürdigen Verzeichnissen, Branchenportalen
 [Schema.org Markup](/glossar/schema-org-markup/) und [Grounding Pages](/glossar/grounding-page/) liefern maschinenlesbare Fakten, die von Retrieval-Augmented-Generation (RAG) Systemen bevorzugt genutzt werden.
 
 ### 4. Prompt-Testing
-Regelmäßig testen, was verschiedene LLMs über dich und dein Fachgebiet wissen. Mit [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://rankscale.ai/?via=offer) lässt sich das automatisieren.
+Regelmäßig testen, was verschiedene LLMs über dich und dein Fachgebiet wissen. Mit [AI Tracking Tools](/glossar/ai-tracking-tools/) wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> lässt sich das automatisieren.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">LLMO ist Langzeitstrategie</h4>
-  <p class="mb-0 text-sm">Anders als SEO, wo ein guter Artikel in Wochen ranken kann, wirkt LLMO mit Verzögerung. Deine heutigen Erwähnungen fließen erst beim nächsten Training-Update in die Modelle ein. Ich begleite diesen Prozess für meine Kunden mit technischem Monitoring via [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), während [Rankscale](https://rankscale.ai/?via=offer) die echte KI-Resonanz misst.</p>
+  <p class="mb-0 text-sm">Anders als SEO, wo ein guter Artikel in Wochen ranken kann, wirkt LLMO mit Verzögerung. Deine heutigen Erwähnungen fließen erst beim nächsten Training-Update in die Modelle ein. Ich begleite diesen Prozess für meine Kunden mit technischem Monitoring via <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die echte KI-Resonanz misst.</p>
 </div>
 
 ## Mein Tacheles-Rat für dich
 
 Frag jetzt ChatGPT nach deinem Fachgebiet. Wenn du nicht erwähnt wirst, hast du ein LLMO-Problem. Starte mit dem Aufbau deines digitalen Fußabdrucks: Publiziere Fachcontent, lass dich zitieren, sei in Communities aktiv. Jede qualitative Erwähnung ist eine Investition in deine KI-Zukunft.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Was sagt ChatGPT über dich?</h3>
   <p class="mb-6">Ich analysiere dein LLM-Profil und entwickle eine Strategie, damit KI-Modelle dich als Experte erkennen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO-Analyse anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [GEO: Die Gesamtstrategie](/glossar/geo/)

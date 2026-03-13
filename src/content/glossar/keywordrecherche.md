@@ -14,7 +14,7 @@ faqs:
   - question: "Mit welchen Kosten muss ich für eine umfassende SEO-Keywordrecherche rechnen?"
     answer: "Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie ('Was machen wir nun mit diesen Daten?') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs."
   - question: "Reicht der kostenlose Google Keyword Planner heute noch aus?"
-    answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
+    answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
 ---
 
 Keywordrecherche ist keine Fleißaufgabe.
@@ -23,7 +23,7 @@ Wer keine saubere Recherche macht, baut sein Haus auf Sand.
 Ganz egal, wie schick das Design ist.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."</p>
 </div>
 
@@ -78,20 +78,20 @@ Spar nicht an diesem Schritt. Es ist die wichtigste Investition in deine digital
 
 Keywordrecherche ist der Kompass für deinen Erfolg. Lern die Sprache deiner Zielgruppe. Analysiere die harten Daten, aber vertrau auch auf den Kontext. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
   <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen →</a>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen </a>
 </div>
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Investierst du in die falschen Themen?</h3>
   <p class="mb-6">Ich erstelle für dich eine glasklare Keyword-Map, die zeigt, wo dein Potenzial wirklich liegt. Lass uns deine Strategie auf ein echtes Daten-Fundament stellen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)

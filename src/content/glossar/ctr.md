@@ -5,7 +5,7 @@ date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["meta-description", "title-tag", "rankingfaktoren", "conversion-rate"]
 key_takeaways:
-  - "Sichtbar ≠ Geklickt: Ein Ranking auf Platz 3 bringt nichts, wenn niemand klickt."
+  - "Sichtbar  Geklickt: Ein Ranking auf Platz 3 bringt nichts, wenn niemand klickt."
   - "Title + Description: Dein Title-Tag und deine Meta-Description sind die Werbeanzeige deiner Seite."
   - "Rich Snippets: FAQ-Markup, Sterne und Sitelinks können die CTR um 30-50% steigern."
 faqs:
@@ -22,11 +22,11 @@ Moin!
 Die **CTR (Click-Through-Rate)** ist die einfachste und gleichzeitig mächtigste Metrik im SEO: Sie sagt dir, wie viele Menschen, die dein Suchergebnis gesehen haben, auch tatsächlich darauf geklickt haben.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO ist heutzutage keine schwarze Magie mehr, es ist einfach extrem gutes Handwerk."</p>
 </div>
 
-Formel: **CTR = Klicks ÷ Impressionen × 100**
+Formel: **CTR = Klicks  Impressionen  100**
 
 Klingt simpel? Ist es auch. Aber die Konsequenzen sind gewaltig.
 
@@ -64,7 +64,7 @@ Deshalb ist die CTR-Optimierung oft der schnellste Weg zu mehr Traffic, ohne an 
 ## CTR in der Google Search Console analysieren
 
 Die [Google Search Console](/glossar/google-search-console/) ist dein bestes Tool für CTR-Analyse:
-1.  Gehe zu **Leistung → Suchergebnisse**
+1.  Gehe zu **Leistung  Suchergebnisse**
 2.  Aktiviere **Impressionen** und **CTR**
 3.  Sortiere nach **Impressionen absteigend**
 4.  Suche nach Keywords mit vielen Impressionen aber niedriger CTR
@@ -75,14 +75,14 @@ Das sind deine "Low Hanging Fruits" – Seiten, die bereits ranken, aber nicht g
 
 Öffne jetzt die Google Search Console und sortiere deine Keywords nach CTR. Identifiziere die 10 Seiten mit den meisten Impressionen und der niedrigsten CTR. Überarbeite Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Das ist eine Maßnahme, die in 2 Stunden umgesetzt ist und sofort mehr Traffic bringt. Kein Agentur-Vertrag nötig.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Rankings sind gut, aber die Klicks fehlen?</h3>
   <p class="mb-6">Ich optimiere deine Snippets für maximale CTR und implementiere Rich-Result-Markup, das dein Ergebnis in der Suche hervorstechen lässt.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CTR-Optimierung anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CTR-Optimierung anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Title-Tags optimieren](/glossar/title-tag/)

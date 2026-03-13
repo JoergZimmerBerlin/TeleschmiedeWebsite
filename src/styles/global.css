@@ -127,38 +127,58 @@
   @apply text-lime-600 font-bold !important;
 }
 
-/* --- Responsive Table Optimization (Card Layout) --- */
+/* --- Responsive Table Optimization --- */
 @media (max-width: 768px) {
-  .blog-content table {
-    @apply border-none shadow-none bg-transparent !important;
+  /* Default: Horizontal Scroll for Markdown tables (Script-free context) */
+  .blog-content .overflow-x-auto {
+    @apply -mx-4 px-4 !important;
   }
   
-  .blog-content thead {
-    @apply hidden !important; /* Hide headers on mobile */
+  .blog-content table:not(.comparison-table) {
+    @apply min-w-[600px] mb-8 !important;
+  }
+
+  /* Card Layout for ComparisonTable (Server-side labels) */
+  .blog-content table.comparison-table {
+    @apply block border-none shadow-none bg-transparent !important;
   }
   
-  .blog-content tr {
+  .blog-content table.comparison-table thead {
+    @apply hidden !important;
+  }
+  
+  .blog-content table.comparison-table tr {
     @apply block mb-8 bg-white border border-gray-100 rounded-2xl p-6 shadow-sm !important;
   }
   
-  .blog-content td {
+  .blog-content table.comparison-table td {
     @apply block px-0 py-3 border-b border-gray-50 text-base !important;
   }
   
-  .blog-content td:last-child {
+  .blog-content table.comparison-table td:last-child {
     @apply border-b-0 !important;
   }
   
-  /* Make the first cell (usually the title/feature) more prominent */
-  .blog-content td:first-child {
+  .blog-content table.comparison-table td:first-child {
     @apply text-lg font-bold text-dark pt-0 !important;
   }
   
-  .blog-content td:first-child strong,
-  .blog-content td:first-child b {
+  .blog-content table.comparison-table td:first-child strong,
+  .blog-content table.comparison-table td:first-child b {
     @apply text-lime-600 !important;
   }
-  
-  /* Add mini labels via pseudo-elements if needed, but since we can't easily 
-     pass the labels from MD, we focus on a clean list-like structure */
+
+  .blog-content table.comparison-table td[data-label]::before {
+    content: attr(data-label);
+    @apply block text-[10px] uppercase tracking-widest text-gray-muted font-bold mb-1;
+  }
+}
+
+/* --- Glossar CTA Box Styling --- */
+.blog-cta-box {
+  @apply my-16 bg-gray-50 border border-gray-100 rounded-3xl p-8 md:p-12 text-center shadow-sm !important;
+}
+
+.blog-cta-box a:not(.btn-primary) {
+  @apply underline font-semibold text-lime-600 hover:text-lime-700 transition-colors !important;
 }

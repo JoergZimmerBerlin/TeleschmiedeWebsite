@@ -22,7 +22,7 @@ Moin!
 Der **Google Algorithmus** ist das bestgehütete Geheimnis der digitalen Welt. Kein Mensch auf der Erde kennt die vollständige Formel – nicht mal die Google-Ingenieure selbst, denn große Teile werden heute von KI-Systemen gesteuert.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wenn deine Seite technisch eine Katastrophe ist und du nicht mal in den Top 10 rankst, brauchst du dir über ChatGPT keine Gedanken machen."</p>
 </div>
 
@@ -62,14 +62,14 @@ Mit der [Generativen Suche (GEO)](/glossar/geo/) erzeugt Google direkte KI-Antwo
 
 Vergiss den Algorithmus. Im Ernst. Hör auf, bei jedem Core Update nervös zu werden und deine gesamte Strategie über den Haufen zu werfen. Konzentrier dich stattdessen auf das, was Google seit 20 Jahren belohnt: Den besten Content für deine Zielgruppe. Eine saubere Technik. Echte Expertise ([E-E-A-T](/glossar/e-e-a-t/)). Und eine starke Marke. Denn der Algorithmus ändert sich ständig – die Grundprinzipien nie.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hat ein Google Update dich getroffen?</h3>
-  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich langfristig absichert. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hilft uns bei der Datenanalyse, [Rankscale](https://rankscale.ai/?via=offer) bei der Prognose deiner KI-Sichtbarkeit.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Update-Analyse anfragen →</a>
+  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich langfristig absichert. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Datenanalyse, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Prognose deiner KI-Sichtbarkeit.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Update-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Google Core Updates verstehen](/glossar/google-core-update/)

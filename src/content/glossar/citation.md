@@ -19,10 +19,10 @@ faqs:
 
 
 
-Moin! 📝
+Moin! 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Lokales SEO ist heutzutage oft der schnellste Weg zum Umsatz. Wer sein Google Business Profile verstauben lässt, überlässt der Konkurrenz das Feld."</p>
 </div>
 
@@ -74,14 +74,14 @@ In der generativen Suchoptimierung ([Entity SEO](/glossar/entity-seo/)) geht es 
 
 Citations sind die digitalen Empfehlungen des 21. Jahrhunderts. Im Local SEO sind sie die Basis für Google Maps Rankings. Aber der wahre Hebel liegt heute in der KI-Welt: Wer konsistent und hochwertig im Netz zitiert wird, wird von ChatGPT, Perplexity und Gemini als Experte erkannt und empfohlen. Investiere in echte [Pressearbeit](/glossar/pressearbeit-im-seo/), baue deinen [Markenaufbau](/glossar/markenaufbau-mit-seo/) strategisch auf, und sorge dafür, dass dein Name im richtigen Kontext erscheint.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wirst du von KI-Systemen zitiert?</h3>
   <p class="mb-6">Ich analysiere dein Citation-Profil und zeige dir, wie du sowohl in Google Maps als auch in KI-Antworten sichtbar wirst. Lass uns deine Entität stärken.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)

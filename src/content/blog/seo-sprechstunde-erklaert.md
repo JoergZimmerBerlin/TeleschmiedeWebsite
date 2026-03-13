@@ -41,7 +41,7 @@ Ich bin der Grillmeister. Ich schaue mir deine Seite von allen Seiten an:
 Und ich sage dir ehrlich, ohne Marketing-Sprech und ohne Weichspüler, wo es brennt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Ich verkaufe keine 50-seitigen PDF-Audits, die in der untersten Schublade verstauben. Ich verkaufe Lösungen für Probleme, die dich heute nerven. Das ist der Unterschied."</p>
 </div>
 
@@ -59,7 +59,7 @@ Die 400 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr d
 
 Bevor wir uns sehen, sitze ich bereits mindestens eine Stunde an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
 
-Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysiere ich deine historischen Daten und mit [Rankscale](https://rankscale.ai/?via=offer) prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
+Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
 
 ### 2. Der Videocall: Action statt Blabla
 
@@ -88,8 +88,8 @@ Wie mein Kunde Ronny treffend sagte: *"Der Preis ist völlig gerechtfertigt und 
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit, deine Seite auf den Grill zu legen?</h3>
-  <p class="mb-6">Ich finde die Fehler, die dich dein Ranking kosten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Analyse und [Rankscale](https://rankscale.ai/?via=offer) für deine Zukunftssperrspektive bringen wir deine Seite nach vorne.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen →</a>
+  <p class="mb-6">Ich finde die Fehler, die dich dein Ranking kosten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunftssperrspektive bringen wir deine Seite nach vorne.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
 </div>
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻

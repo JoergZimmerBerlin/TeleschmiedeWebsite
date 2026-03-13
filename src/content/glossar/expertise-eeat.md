@@ -23,7 +23,7 @@ Moin!
 Expertise ist der E-E-A-T Faktor, der über Sein oder Nicht-Sein entscheidet – besonders bei sensiblen Themen. Google fragt: *Weiß der Autor wirklich, wovon er spricht?*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wie schön deine Seite ist, korreliert nicht damit, wie viele Besucher du bekommst."</p>
 </div>
 
@@ -48,16 +48,16 @@ Hier zählt die nachweisbare Praxis-Expertise. Du musst kein Professor sein – 
 
 ## Jörgs Action-Plan
 
-Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Nutze [Rankscale](https://rankscale.ai/?via=offer) um deine Sichtbarkeit zu tracken. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt. Professionelle Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) können dir bei der Marktanalyse helfen.
+Baue dein Expertise-Profil systematisch auf. Erstelle eine ausführliche Autorenseite. Schreib regelmäßig Fachcontent zu deinem Kernthema. Lass dich in Podcasts interviewen. Nutze <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> um deine Sichtbarkeit zu tracken. Und verknüpfe alles über [Schema.org](/glossar/schema-org-markup/) – so dass Google ein klares Bild deiner Fachkompetenz bekommt. Professionelle Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> können dir bei der Marktanalyse helfen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Expertise ist unsichtbar?</h3>
   <p class="mb-6">Ich helfe dir, dein Fachwissen für Google und KI-Systeme sichtbar zu machen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Expertise-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Expertise-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [E-E-A-T im Überblick](/glossar/e-e-a-t/)

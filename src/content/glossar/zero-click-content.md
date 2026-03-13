@@ -22,7 +22,7 @@ Moin!
 **Zero-Click Content** ist der Elefant im Raum, über den die SEO-Branche nur ungern spricht: Über 60% aller Google-Suchen enden, ohne dass jemand auf ein Suchergebnis klickt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
 </div>
 
@@ -45,16 +45,16 @@ Wenn du die zitierte Quelle bist, gewinnst du etwas Wertvolleres als Klicks: **M
 
 ## Mein Tacheles-Rat für dich
 
-Akzeptiere die Zero-Click Realität und nutze sie strategisch. Nicht jeder Seitenaufruf ist gleich wertvoll – aber jede Quellennennung in einem Featured Snippet oder AI Overview ist Gold für deine Marke. Ich überwache diese Klicks mit den [SERP-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und messe deine KI-Zitate präzise mit [Rankscale](https://rankscale.ai/?via=offer).
+Akzeptiere die Zero-Click Realität und nutze sie strategisch. Nicht jeder Seitenaufruf ist gleich wertvoll – aber jede Quellennennung in einem Featured Snippet oder AI Overview ist Gold für deine Marke. Ich überwache diese Klicks mit den [SERP-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und messe deine KI-Zitate präzise mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Traffic sinkt trotz guter Rankings?</h3>
   <p class="mb-6">Ich analysiere dein Zero-Click Profil und entwickle Strategien, die Sichtbarkeit trotz weniger Klicks maximieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zero-Click Strategie anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zero-Click Strategie anfragen </a>
 </div>
 
 * **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)

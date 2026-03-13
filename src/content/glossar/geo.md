@@ -11,7 +11,7 @@ faqs:
   - question: "Was ist der gravierendste Unterschied zwischen klassischem SEO und GEO?"
     answer: "Klassisches SEO optimiert primär für Algorithmen, die Webseiten nach Links und Keyword-Relevanz bewerten und sortenrein auflisten (die '10 blauen Links'). GEO hingegen optimiert für komplexe Large Language Models (LLMs), die Milliarden von Trainingstexten synthetisieren, um dem Nutzer sofort eine fundierte, natürliche Antwort zu generieren. Im GEO bist du nicht mehr nur die URL, die gerankt wird, sondern du musst zwingend die 'Entität' werden, die von der KI als unumstößliche Tatsache zitiert wird."
   - question: "Lässt sich GEO-Sichtbarkeit überhaupt schon verlässlich messen?"
-    answer: "Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie [Rankscale](https://rankscale.ai/?via=offer), das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt."
+    answer: "Ja, der Markt für professionelles KI-Tracking entwickelt sich aktuell rasant. Ich setze bei meiner Arbeit stark auf Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, das deine Sichtbarkeit parallel über 17+ große LLMs (GPT-4, Claude, Gemini etc.) überwacht. Gemessen wird unter anderem, wie oft dein Markenname als Quelle für thematische Prompts zitiert wird und ob das durch das KI-Modell gewertete Sentiment positiv oder negativ ausfällt."
   - question: "Sind Backlinks auch für Generative Engine Optimization noch relevant?"
     answer: "Sie haben weiterhin Relevanz, allerdings fungieren sie heute viel indirekter – nämlich als klares Trust-Signal (Reputation) an das KI-System. Moderne LLMs werten beim Web-Crawling primär die Textsemantik und sogenannte Brand Mentions (Erwähnungen deines Namens, auch ohne gesetzten Link) in autoritätsstarken Umfeldern aus. Ein rein auf Masse gebautes Backlink-Profil verliert in der GEO-Logik drastisch an Hebelwirkung."
 image: "../../assets/images/glossar/3d-light/glossar-geo-3d.png"
@@ -25,7 +25,7 @@ Moin!
 Generative Engine Optimization (GEO) bezeichnet Strategien und Maßnahmen, die darauf abzielen, die Sichtbarkeit und Autorität von Marken, Personen oder Produkten speziell in KI-basierten Antworten und Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews systematisch zu erhöhen. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Lokales SEO ist heutzutage oft der schnellste Weg zum Umsatz. Wer sein Google Business Profile verstauben lässt, überlässt der Konkurrenz das Feld."</p>
 </div>
 
@@ -84,14 +84,14 @@ GEO ist kein kurzfristiger Trend oder simples "Keyword-Stuffing" für KIs. Es is
 
 Wer morgen gewinnen will, muss heute anfangen, seine Inhalte für Maschinenlesbarkeit und menschliches Vertrauen gleichermaßen zu optimieren. GEO ist der Schlüssel dazu.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du in KI-Antworten sichtbar?</h3>
-  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und baue eine Strategie, die dich in Google UND in ChatGPT, Perplexity und Co. nach vorne bringt. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die SEO-Basis und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Reputation.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie anfragen →</a>
+  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und baue eine Strategie, die dich in Google UND in ChatGPT, Perplexity und Co. nach vorne bringt. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die SEO-Basis und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Reputation.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie anfragen </a>
 </div>
 
 ### Lese-Tipp

@@ -1,5 +1,5 @@
 ---
-title: "Warum wir SEO-Spezialisten eine Welle machen sollten 🌊"
+title: "Warum wir SEO-Spezialisten eine Welle machen sollten "
 description: "SEO ist mehr als Keywords schubsen. Wir brauchen Standards, Zusammenhalt und eine laute Stimme. Jörg Zimmer ruft zur WELLE auf."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seos-sind-schuld-activity-7274003504106090496-e2hS"
@@ -38,7 +38,7 @@ Und dann sollen **WIR** das reparieren. In drei Monaten.
 
 Ich habe genug davon. 
 
-Ich rufe zur Welle auf. 🌊
+Ich rufe zur Welle auf. 
 
 ## Die Initiative: SEO ins Rampenlicht
 
@@ -55,7 +55,7 @@ Wir fluten den Feed der Entscheider mit echtem Wissen.
 Von A bis Z. Tacheles. Ohne Filter.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wir sind die Architekten des digitalen Erfolgs. Ohne uns ist die schönste Website nur ein teures Stück Code im Nirgendwo. Zeit, dass wir das klar kommunizieren."</p>
 </div>
 
@@ -91,7 +91,7 @@ Wissen wird mehr, wenn man es teilt.
 
 | Problem | Was wir ändern |
 |---|---|
-| Beauftragung erst im Notfall | Dauerhafte Präsenz → SEO wird Standard |
+| Beauftragung erst im Notfall | Dauerhafte Präsenz  SEO wird Standard |
 | Preisdumping | Sichtbare Qualität entlarvt Billigangebote |
 | "SEO ist nur für Nerds" | Echte Experten-Stimmen zeigen Relevanz |
 
@@ -115,16 +115,16 @@ Unterstütz deine Kollegen.
 
 Wir lesen uns im Feed!
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du echte Ergebnisse statt Bot-Blabla?</h3>
-  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine echte Performance und mit [Rankscale](https://rankscale.ai/?via=offer) messen wir deine Reputation in der KI-Welt.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen →</a>
+  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine echte Performance und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deine Reputation in der KI-Welt.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen </a>
 </div>
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du Teil der Welle sein?</h3>
-  <p class="mb-6">Hör auf, SEO als Einzelkämpfer zu betrachten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine Konkurrenz und mit [Rankscale](https://rankscale.ai/?via=offer) sichern wir deine Sichtbarkeit in der KI-Suche.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen →</a>
+  <p class="mb-6">Hör auf, SEO als Einzelkämpfer zu betrachten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine Konkurrenz und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Sichtbarkeit in der KI-Suche.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen </a>
 </div>

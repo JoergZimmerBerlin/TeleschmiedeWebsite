@@ -257,37 +257,3 @@ const relatedTerms = allEntries.filter((e) =>
   }
 </style>
 
-<script is:inline>
-  // Mobile Table Header Injection
-  document.addEventListener('astro:page-load', () => {
-    const content = document.getElementById('blog-content');
-    if (!content) return;
-
-    const tables = content.querySelectorAll('table');
-    tables.forEach(table => {
-      const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.innerText.trim());
-      if (headers.length === 0) return;
-
-      const rows = table.querySelectorAll('tbody tr');
-      rows.forEach(row => {
-        const cells = row.querySelectorAll('td');
-        cells.forEach((cell, index) => {
-          if (headers[index]) {
-            cell.setAttribute('data-label', headers[index]);
-          }
-        });
-      });
-    });
-
-    // Update Rankscale links dynamically if missed in content
-    const links = content.querySelectorAll('a[href*="rankscale.ai"]');
-    links.forEach(link => {
-      let href = link.getAttribute('href');
-      if (href.includes('via=joerg')) {
-        link.setAttribute('href', 'https://rankscale.ai/?via=offer');
-      } else if (href.includes('app.rankscale.ai')) {
-        link.setAttribute('href', 'https://rankscale.ai/?via=offer');
-      }
-    });
-  });
-</script>

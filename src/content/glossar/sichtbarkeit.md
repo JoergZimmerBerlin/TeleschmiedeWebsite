@@ -26,7 +26,7 @@ Ganz einfach: Wenn dich niemand sieht, existierst du nicht.
 Zumindest nicht für deine Kunden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Zweitmeinung mit ehrlichen Augen: Manchmal sieht man vor lauter Keywords den Wald nicht mehr."</p>
 </div>
 
@@ -43,10 +43,10 @@ SEO 2026 ist kein Tunnelblick mehr auf eine blaue Link-Liste.
 Echte Sichtbarkeit bedeutet, den gesamten "Suchraum" zu besetzen.
 Hier geht es um die Dominanz deiner [Entität](/glossar/entitaet/) über verschiedene Kanäle hinweg.
 
-*   **Organische Ergebnisse:** Die klassischen Top 10, die immer noch das Fundament bilden. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das tägliche Performance-Tracking.
+*   **Organische Ergebnisse:** Die klassischen Top 10, die immer noch das Fundament bilden. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das tägliche Performance-Tracking.
 *   **Featured Snippets:** Die "Position Null", die sofort Vertrauen aufbaut.
 *   **Video-Snippets:** Präsenz auf YouTube, die direkt in der Google-Suche ausgespielt wird.
-*   **KI-Antworten (GEO):** Zitiert werden von Large Language Models wie Perplexity oder ChatGPT. Mit [Rankscale](https://rankscale.ai/?via=offer) messen wir diese neue Sichtbarkeit.
+*   **KI-Antworten (GEO):** Zitiert werden von Large Language Models wie Perplexity oder ChatGPT. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir diese neue Sichtbarkeit.
 *   **Local Pack:** Sichtbar sein in Google Maps, besonders wichtig für regionale Relevanz ([Local SEO](/glossar/local-seo/)).
 
 ## Warum reine Klickzahlen often lügen
@@ -68,7 +68,7 @@ Es bringt dir nichts, für "Was ist SEO" auf Platz 1 zu stehen, wenn du eigentli
 ## Messung: Der Sichtbarkeitsindex als Fieberkurve
 
 Wie finden wir heraus, wie sichtbar du wirklich bist?
-Dafür nutzen wir Tools wie den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) von Sistrix oder Metriken aus [SE Ranking](https://seranking.com/de/?ga=4169588&source=link).
+Dafür nutzen wir Tools wie den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) von Sistrix oder Metriken aus <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>.
 Dieser Index ist die Fieberkurve deines Projekts.
 Er zeigt nicht nur deine eigenen Leistungen, sondern setzt sie ins Verhältnis zum Wettbewerb.
 
@@ -106,14 +106,14 @@ Bau Expertise auf. Zeig Gesicht. Werde zur Referenz in deiner Nische.
 
 Sichtbarkeit ist kein Zufallsprodukt. Es ist das Ergebnis von präziser Strategie, hoher Content-Qualität und technischer Exzellenz. Werde präsent. Werde laut. Werde relevant. Aber bleib fachlich korrekt und authentisch. Denn Sichtbarkeit ohne Substanz ist wie ein Schaufenster ohne Ware: Es lockt zwar Leute an, aber niemand kauft. Konzentrier dich auf die Begriffe, die dein Business wirklich bewegen. Das ist der Weg zu echtem, nachhaltigem Erfolg in den Suchmaschinen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du für deine Kunden unsichtbar?</h3>
-  <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dorthin, wo deine Zielgruppe sucht. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten und [Rankscale](https://rankscale.ai/?via=offer) für die KI-Präsenz sichern wir deine Marktanteile.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen →</a>
+  <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dorthin, wo deine Zielgruppe sucht. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Präsenz sichern wir deine Marktanteile.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen </a>
 </div>
 
 ### Lese-Tipp

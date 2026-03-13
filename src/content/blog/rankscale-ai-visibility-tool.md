@@ -14,7 +14,7 @@ faqs:
   - question: "Was genau trackt Rankscale und wie funktioniert es?"
     answer: "Rankscale fragt regelmäßig 17 verschiedene LLMs (darunter ChatGPT, Claude, Gemini, Perplexity, You.com) mit relevanten Suchanfragen für deine Nische ab und protokolliert, ob und wie deine Marke oder Domain in den Antworten auftaucht. Das Tool unterscheidet dabei drei wichtige Dimensionen: ob du überhaupt erwähnt wirst (Citation), wie du erwähnt wirst (Sentiment: Experten-Empfehlung vs. neutraler Verweis vs. negativer Kontext) und im Vergleich zu welchen Wettbewerbern du genannt oder übergangen wirst."
   - question: "Lohnt sich Rankscale für jedes Business?"
-    answer: "Ehrliche Antwort: Nein. Für das kleine Café um die Ecke ist lokales SEO und ein gepflegter Google Maps-Eintrag viel wertvoller. Rankscale lohnt sich klar für Freelancer und Berater die ihre persönliche Brand aufbauen, für E-Commerce-Marken in wettbewerbsintensiven Märkten, für Agenturen die ihren Kunden KI-Sichtbarkeitsreports anbieten wollen, und für alle B2B-Unternehmen deren Kunden Kaufentscheidungen auf Basis von KI-Recherchen treffen."
+    answer: "Ehrliche Antwort: Nein. Für das kleine Caf um die Ecke ist lokales SEO und ein gepflegter Google Maps-Eintrag viel wertvoller. Rankscale lohnt sich klar für Freelancer und Berater die ihre persönliche Brand aufbauen, für E-Commerce-Marken in wettbewerbsintensiven Märkten, für Agenturen die ihren Kunden KI-Sichtbarkeitsreports anbieten wollen, und für alle B2B-Unternehmen deren Kunden Kaufentscheidungen auf Basis von KI-Recherchen treffen."
   - question: "Was kostet Rankscale und wie ist die Kosten-Nutzen-Rechnung?"
     answer: "Im Jahresplan (mit aktuell 15% Rabatt) landest du beim Pro-Plan bei ca. 84€ pro Monat für 1.200 Credits. Das ist kein Kleingeld. Aber wenn du in einem kompetitiven Markt unterwegs bist und nicht weißt, was KIs über dich erzählen, dann ist das die teuerste Unwissenheit, die du dir leisten kannst. Wenn ein Kunde fragt 'Warum empfiehlt ChatGPT immer unseren Konkurrenten?', willst du nicht mit den Schultern zucken."
   - question: "Kann ich GEO-Strategie ohne ein Tool wie Rankscale betreiben?"
@@ -27,7 +27,7 @@ Die große Frage im [GEO](/glossar/ai-geo/)-Zeitalter ist nicht mehr nur: Auf we
 
 Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 
-Genau hier setzt [Rankscale](https://rankscale.ai/?via=offer) an. Ich nutze es parallel zu [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
+Genau hier setzt <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> an. Ich nutze es parallel zu <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
 
 ## Rankscale im echten Praxis-Test
 
@@ -46,7 +46,7 @@ Ich habe mir das Tool aus Österreich über mehrere Wochen hinweg genau angescha
 Das ist für mich das herausragende Feature. Die KI erwähnt dich – aber **wie**? Sagt Claude, du seist ein zuverlässiger SEO-Experte? Oder taucht dein Name in einem negativen Kontext auf ("XY ist teuer und langsam")? Dieses Sentiment-Tracking ist für das [E-E-A-T](/glossar/e-e-a-t/)-Reputation-Management in der KI-Ära überlebenswichtig.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wir stehen am Anfang einer Revolution. Wer jetzt die Datenhoheit über seine KI-Sichtbarkeit gewinnt, setzt die Standards für morgen. Es ist wie 2005, als die ersten SEO-Tools kamen. Die, die damals gelacht haben, haben heute keine Agentur mehr."</p>
 </div>
 
@@ -74,12 +74,12 @@ Was mir an Rankscale gefällt: Der Fokus. Sie versuchen nicht, noch ein schlecht
 
 SEO ist heute multi-dimensional. Google ist wichtig, aber nicht mehr alles. Tools wie Rankscale helfen, die unsichtbaren Strömungen der KI-Welt sichtbar zu machen – und damit strategisch beherrschbar.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du deine KI-Sichtbarkeit kennen?</h3>
-  <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit [Rankscale](https://rankscale.ai/?via=offer) trackst du deine Reputation in 17 LLMs und mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sicherst du deine Basis-Sichtbarkeit bei Google.</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale testen →</a>
+  <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> trackst du deine Reputation in 17 LLMs und mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sicherst du deine Basis-Sichtbarkeit bei Google.</p>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale testen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)

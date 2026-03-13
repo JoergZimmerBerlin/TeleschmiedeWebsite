@@ -25,7 +25,7 @@ Ganz einfach: Wie viele Menschen landen auf deiner Seite?
 Aber hier fangen die Probleme meist schon an.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
 </div>
 
@@ -77,16 +77,16 @@ Besucher, die dein [E-E-A-T](/glossar/e-e-a-t/) schätzen.
 
 ## Mein Tacheles-Rat für dich
 
-Traffic ist gut. Qualifizierter Traffic ist besser. Such nicht nach der Masse. Such nach der Relevanz. Ich nutze die tiefgehenden Analyse-Funktionen von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die Traffic-Quellen zu identifizieren, die wirklich konvertieren. Behandle jeden Besucher wie einen potenziellen Kunden. Sorge für eine gute Usability und schnelle Ladezeiten. Denn am Ende zählt nicht, wie viele reinlaufen – sondern wie viele zufrieden wieder rausgehen (oder bleiben).
+Traffic ist gut. Qualifizierter Traffic ist besser. Such nicht nach der Masse. Such nach der Relevanz. Ich nutze die tiefgehenden Analyse-Funktionen von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Traffic-Quellen zu identifizieren, die wirklich konvertieren. Behandle jeden Besucher wie einen potenziellen Kunden. Sorge für eine gute Usability und schnelle Ladezeiten. Denn am Ende zählt nicht, wie viele reinlaufen – sondern wie viele zufrieden wieder rausgehen (oder bleiben).
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Viel Traffic, aber kein Umsatz?</h3>
   <p class="mb-6">Ich analysiere deine Besucherströme und optimiere deinen Content auf Conversion. Lass uns deinen Traffic veredeln.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Traffic-Analyse anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Traffic-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist die Conversion Rate?](/glossar/conversion-rate/)

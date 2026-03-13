@@ -27,7 +27,7 @@ Ganz einfach: Versteht ein Nutzer innerhalb von 3 Sekunden, was er bei dir tun s
 Wenn nicht, hast du verloren.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Suchmaschinen haben noch nie ein Produkt gekauft. Überzeuge den Menschen, der hinter der Tastatur sitzt."</p>
 </div>
 
@@ -78,14 +78,14 @@ Dazu gehört auch die Einbindung einer sauberen [Sitemap](/glossar/sitemap/) und
 
 Viele Firmen geben tausende Euro für Design aus, vergessen aber die Usability. Sie bauen wunderschöne, aber unbenutzbare Websites. Am Ende wundern sie sich über eine schlechte Conversion Rate. Hör auf, deine Nutzer zu quälen. Mach es ihnen einfach. Dann danken sie es dir mit Vertrauen und Umsatz. Denn eine Seite, die niemand versteht, wird auch niemand besuchen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hängst du in der Design-Falle?</h3>
-  <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) machen wir deine Seite benutzerfreundlich und profitabel.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen →</a>
+  <p class="mb-6">Ich analysiere die Nutzerführung auf deiner Website und finde die Conversion-Killer. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir deine Seite benutzerfreundlich und profitabel.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Core Web Vitals optimieren](/glossar/core-web-vitals/)

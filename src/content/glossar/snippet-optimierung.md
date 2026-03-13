@@ -23,8 +23,8 @@ Moin! 🌻
 **Snippet Optimierung** ist der am meisten unterschätzte Hebel im SEO. Jeder jagt Rankings – aber kaum jemand optimiert das, was der Nutzer tatsächlich sieht und klickt: das **Snippet**.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. "</p>
 </div>
 
 Dein Snippet ist dein Schaufenster in der Google-Suche. Es entscheidet in Sekundenbruchteilen, ob ein Nutzer auf DEIN Ergebnis klickt oder auf das der Konkurrenz.
@@ -56,16 +56,16 @@ Das Featured Snippet ist die Box über allen anderen Ergebnissen. Es beantwortet
 
 ## Mein Tacheles-Rat für dich
 
-Öffne dein Dashboard bei [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Mit [Rankscale](https://rankscale.ai/?via=offer) messen wir anschließend, ob dein Snippet-Upgrade auch deine Präsenz in Featured Snippets und KI-Antworten boostet.
+Öffne dein Dashboard bei <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen aber niedriger CTR. Überarbeite deren Title-Tags und Meta-Descriptions. Implementiere Rich Snippets wo möglich. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir anschließend, ob dein Snippet-Upgrade auch deine Präsenz in Featured Snippets und KI-Antworten boostet.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Snippets bringen keine Klicks?</h3>
   <p class="mb-6">Ich optimiere deine Snippets für maximale CTR und implementiere Rich-Result-Markup.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Snippet-Optimierung anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Snippet-Optimierung anfragen </a>
 </div>
 
 * **Lese-Tipp:** [CTR verstehen und optimieren](/glossar/ctr/)

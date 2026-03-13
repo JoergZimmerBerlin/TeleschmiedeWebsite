@@ -22,7 +22,7 @@ Moin!
 Wer mich kennt, weiß: Ich bin kein Fan von einsamen Elfenbeintürmen. SEO passiert da draußen, im Austausch, in der Reibung mit anderen Experten. Und genau dafür ist der **SEO Stammtisch Berlin** da. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Als externer Berater kann ich den Finger in die Wunde legen, ohne Angst um meinen Schreibtischstuhl zu haben."</p>
 </div>
 
@@ -33,7 +33,7 @@ Seit Jahren sitze ich dort regelmäßig mit Kollegen zusammen, die genauso tief 
 ## Warum Networking dein stärkstes SEO-Tool ist
 
 Viele denken bei SEO nur an Code und Content. Falsch. SEO ist ein People-Business. 
-Die besten Informationen bekommst du nicht in einem Tool-Report von [Sistrix](/glossar/sichtbarkeitsindex/) oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), sondern beim zweiten Bier (oder Spezi) am Stammtisch.
+Die besten Informationen bekommst du nicht in einem Tool-Report von [Sistrix](/glossar/sichtbarkeitsindex/) oder <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, sondern beim zweiten Bier (oder Spezi) am Stammtisch.
 
 ### 1. Der ungefilterte Wissensvorsprung
 Oft flüstert man sich dort Dinge zu, die so nie in einem offiziellen Google-Blogpost stehen würden. Wer hat gerade ein Manual Action erlebt? Welche Nischen werden gerade von [KI-Crawlern](/glossar/crawler/) besonders hart rangenommen? Dieses 'Hearsay' ist oft der entscheidende Vorsprung, bevor ein offizielles Update die ganze Branche überrascht.
@@ -69,14 +69,14 @@ Am Stammtisch validieren wir, was die KIs uns vorgaukeln. Wir besprechen, wie wi
 
 Der SEO Stammtisch Berlin ist mein persönliches Kraftwerk. Wer wachsen will, muss sich mit Leuten umgeben, die schon weiter sind. Keine steifen Vorträge, sondern echte Gespräche. So wie ich es mag.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lust auf einen echten Austausch?</h3>
   <p class="mb-6">Komm zum nächsten Stammtisch oder lass uns direkt in einer SEO-Sprechstunde über dein Projekt reden. Ich bringe die Erfahrung aus der Community direkt in deine Strategie.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">SEO-Sprechstunde buchen →</a>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">SEO-Sprechstunde buchen </a>
 </div>
 
 * **Lese-Tipp:** [Warum ich die Campixx Berlin liebe](/glossar/campixx-berlin/)

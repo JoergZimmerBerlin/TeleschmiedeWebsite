@@ -28,7 +28,7 @@ Warum ich das sage? Weil ich es jeden Tag sehe. Wir beraten Kunden, wir auditier
 Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? Oder einfach zu unwichtig geworden?
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wir SEOs müssen aufhören, nur die Technik zu polieren. Wir müssen anfangen, den Business-Case zu verkaufen. Wer schweigt, wird ignoriert."</p>
 </div>
 
@@ -94,7 +94,7 @@ Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist
 
 Also: Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
 <strong>Werde Teil der SEO-Welle!</strong>

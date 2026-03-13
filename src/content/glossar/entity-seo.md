@@ -23,7 +23,7 @@ Entity SEO markiert den Paradigmenwechsel in der Suchmaschinentechnik.
 Es ist der Abschied von der reinen Keyword-Jagd und die Hinwendung zum Verständnis von Kontext und semantischer Relevanz. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist ein schöner Graph für den Quartalsbericht. Aber am Ende des Monats zählt nur, wie oft die Kasse geklingelt hat."</p>
 </div>
 
@@ -72,14 +72,14 @@ Höre auf, Wörter zu zählen, und fange an, Wissen zu strukturieren.
 Baue Beziehungen auf – zwischen deinen Artikeln, deiner Marke und anderen Experten. 
 Je besser Google versteht, wie deine Wissens-Puzzleteile zusammenpassen, desto unangefochtener wird deine Experten-Sichtbarkeit sein.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Inhalte sind zu oberflächlich?</h3>
   <p class="mb-6">Ich helfe dir, echte Themen-Autorität aufzubauen und deine Seite für Entitäten zu optimieren. Lass uns dein Wissens-Netzwerk spinnen!</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Kontakt aufnehmen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Kontakt aufnehmen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eine Entität?](/glossar/entitaet/)

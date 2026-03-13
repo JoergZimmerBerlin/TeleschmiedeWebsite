@@ -22,7 +22,7 @@ Moin!
 **Zitierfähiger Content** ist der Stoff, aus dem KI-Antworten gemacht sind. Wenn ChatGPT, Perplexity oder Google SGE eine Frage beantworten, suchen sie im Web nach Content, den sie direkt als Antwort verwenden können.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Es gibt keine 'geheimen Rankingfaktoren'. Google will die beste Antwort für den Nutzer. Sei die beste Antwort."</p>
 </div>
 
@@ -30,10 +30,10 @@ Die Frage ist: Ist das dein Content – oder der deiner Konkurrenz?
 
 ## Die Anatomie eines zitierfähigen Satzes
 
-### ❌ Nicht zitierfähig:
+###  Nicht zitierfähig:
 *„SEO ist total wichtig und man sollte es auf jeden Fall machen wenn man online erfolgreich sein will."*
 
-### ✅ Zitierfähig:
+###  Zitierfähig:
 *„SEO (Search Engine Optimization) ist die Optimierung von Websites für Suchmaschinen mit dem Ziel, organische Sichtbarkeit und qualifizierten Traffic zu steigern."*
 
 Der Unterschied? Der zweite Satz ist eine klare Definition, die eine KI direkt als Antwort übernehmen kann.
@@ -53,16 +53,16 @@ Der Unterschied? Der zweite Satz ist eine klare Definition, die eine KI direkt a
 
 ## Mein Tacheles-Rat für dich
 
-Nimm deine 5 wichtigsten Seiten und prüfe: Gibt es in jedem Abschnitt mindestens einen Satz, den eine KI direkt als Antwort verwenden könnte? Wenn nicht, überarbeite den Content. Mit [Rankscale](https://rankscale.ai/?via=offer) messen wir anschließend, wie oft diese Sätze tatsächlich als Zitat ausgespielt werden.
+Nimm deine 5 wichtigsten Seiten und prüfe: Gibt es in jedem Abschnitt mindestens einen Satz, den eine KI direkt als Antwort verwenden könnte? Wenn nicht, überarbeite den Content. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir anschließend, wie oft diese Sätze tatsächlich als Zitat ausgespielt werden.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wird dein Content zitiert?</h3>
   <p class="mb-6">Ich optimiere deinen Content für maximale Zitierfähigkeit durch KI-Systeme.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Content-Analyse anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Content-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)

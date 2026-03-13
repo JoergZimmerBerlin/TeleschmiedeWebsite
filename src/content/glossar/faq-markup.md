@@ -22,8 +22,8 @@ Moin!
 Wenn du schon mal ein Google-Suchergebnis gesehen hast, das ausklappbare Fragen und Antworten direkt unter dem Link zeigt – dann hast du **FAQ-Markup** in Aktion gesehen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. "</p>
 </div>
 
 Es ist eine der sichtbarsten Anwendungen von [Strukturierten Daten](/glossar/strukturierte-daten/) und eines der mächtigsten Werkzeuge, um mehr Platz in den Suchergebnissen zu besetzen. Auf meiner eigenen Webseite nutze ich FAQ-Markup auf jeder einzelnen Glossar-Seite – du siehst die Ergebnisse in den Accordions am Ende jeder Seite.
@@ -73,20 +73,20 @@ Teste dein FAQ-Markup immer im [Google Rich Results Test](https://search.google.
 *   Welche Rich Results möglich sind
 *   Ob es Warnungen oder Fehler gibt
 
-Zusätzlich nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die tatsächliche Ausspielung deiner Rich Snippets in den echten SERPs zu überwachen und bei Bedarf nachzujustieren.
+Zusätzlich nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die tatsächliche Ausspielung deiner Rich Snippets in den echten SERPs zu überwachen und bei Bedarf nachzujustieren.
 
 ## Mein Tacheles-Rat für dich
 
 Implementiere FAQ-Markup auf jeder Seite, die echte Nutzerfragen beantwortet. Nutze JSON-LD, halte dich an die Regel „Schema = sichtbarer Content", und denke langfristig: Auch wenn Google die Rich Results einschränkt, sind strukturierte FAQs der Türöffner für KI-Zitate. Wer heute die Infrastruktur baut, erntet morgen die Sichtbarkeit.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Schema.org Setup braucht ein Upgrade?</h3>
-  <p class="mb-6">Ich implementiere für dich ein sauberes FAQ-Markup, das sowohl Google als auch KI-Systeme begeistert. Mit [Rankscale](https://rankscale.ai/?via=offer) prüfen wir, ob deine FAQs auch in den Antworten von ChatGPT & Co. ankommen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Check anfragen →</a>
+  <p class="mb-6">Ich implementiere für dich ein sauberes FAQ-Markup, das sowohl Google als auch KI-Systeme begeistert. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir, ob deine FAQs auch in den Antworten von ChatGPT & Co. ankommen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Alles über Schema.org Markup](/glossar/schema-org-markup/)

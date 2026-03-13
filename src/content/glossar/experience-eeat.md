@@ -25,7 +25,7 @@ Moin!
 ![Experience 3D Infografik](../../assets/images/glossar/3d-light/glossar-experience-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Rankings sind Vanity-Metriken. Was bringen dir 10.000 Besucher, wenn am Ende niemand anruft oder kauft? SEO muss Umsatz treiben."</p>
 </div>
 
@@ -34,10 +34,10 @@ Moin!
 Google fragt: *Hat der Ersteller dieses Inhalts das Thema persönlich erlebt?*
 
 Beispiele:
-*   Ein Produkttest von jemandem, der das Produkt 3 Monate lang benutzt hat → **starke Experience**
-*   Ein Produkttest, der die Amazon-Beschreibung umschreibt → **keine Experience**
-*   Ein SEO-Artikel von jemandem mit [24 Jahren Berufserfahrung](/blog/24-jahre-seo-gleiche-fehler/) → **starke Experience**
-*   Ein SEO-Artikel von einer KI, die Textfragmente zusammensetzt → **keine Experience**
+*   Ein Produkttest von jemandem, der das Produkt 3 Monate lang benutzt hat  **starke Experience**
+*   Ein Produkttest, der die Amazon-Beschreibung umschreibt  **keine Experience**
+*   Ein SEO-Artikel von jemandem mit [24 Jahren Berufserfahrung](/blog/24-jahre-seo-gleiche-fehler/)  **starke Experience**
+*   Ein SEO-Artikel von einer KI, die Textfragmente zusammensetzt  **keine Experience**
 
 ## Wie du Experience demonstrierst
 
@@ -55,17 +55,17 @@ Verknüpfe deinen Content mit einem klaren Autorenprofil, das deine echte Erfahr
 
 ## Mein Tacheles-Rat für dich
 
-In der neuen Welt der [KI-Suche (GEO)](/glossar/geo/) ist Deine Erfahrung Dein stärkster Burggraben. Eine KI kann keine Berge besteigen oder Software-Bugs im Live-Betrieb fixen. Wer seine Inhalte mit [Rankscale](https://rankscale.ai/?via=offer) auf KI-Sichtbarkeit prüft, wird feststellen, dass Google genau diese persönlichen Signale belohnt.
+In der neuen Welt der [KI-Suche (GEO)](/glossar/geo/) ist Deine Erfahrung Dein stärkster Burggraben. Eine KI kann keine Berge besteigen oder Software-Bugs im Live-Betrieb fixen. Wer seine Inhalte mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> auf KI-Sichtbarkeit prüft, wird feststellen, dass Google genau diese persönlichen Signale belohnt.
 Geh deinen Content durch und frag dich bei jedem Artikel: Kann der Leser erkennen, dass ein Mensch mit echter Erfahrung das geschrieben hat? Wenn nicht, ergänze persönliche Anekdoten, eigene Bilder und konkrete Daten. Das ist der einfachste Weg, sich von KI-Content abzuheben.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wirkt dein Content authentisch?</h3>
   <p class="mb-6">Ich analysiere, ob Google deinen Content als erfahrungsbasiert einstuft und zeige dir, wie du den Experience-Faktor gezielt stärkst.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt E-E-A-T Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt E-E-A-T Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Expertise: Mehr als nur Wissen](/glossar/expertise-eeat/)

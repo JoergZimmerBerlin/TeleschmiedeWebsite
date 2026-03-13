@@ -24,7 +24,7 @@ Moin!
 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO ist heutzutage keine schwarze Magie mehr, es ist einfach extrem gutes Handwerk."</p>
 </div>
 
@@ -42,7 +42,7 @@ Während klassisches [SEO](/glossar/seo-beratung/) darauf abzielt, auf Seite 1 b
 ## Wie AEO in der Praxis funktioniert
 
 ### 1. Frage-Antwort-Format
-KI-Systeme lieben Content, der Fragen direkt beantwortet. Statt eines 2.000-Wörter-Essays ohne klare Struktur brauchen sie: **Frage → Antwort → Begründung**.
+KI-Systeme lieben Content, der Fragen direkt beantwortet. Statt eines 2.000-Wörter-Essays ohne klare Struktur brauchen sie: **Frage  Antwort  Begründung**.
 
 ### 2. Featured-Snippet-Optimierung
 Die gleichen Prinzipien, die für Google Featured Snippets funktionieren, gelten auch für AEO: Klare Definitionen, Listen, Tabellen und Schritt-für-Schritt-Anleitungen.
@@ -60,16 +60,16 @@ Schreib Sätze, die eine KI wortwörtlich zitieren kann. Klare Definitionen, Zah
 
 ## Jörgs Action-Plan
 
-AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und [Rankscale](https://rankscale.ai/?via=offer) für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
+AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für die KI-Antworten?</h3>
-  <p class="mb-6">Ich helfe dir, deinen Content für Answer Engines zu optimieren und deine Sichtbarkeit in ChatGPT & Co. zu steigern. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hilft uns bei der Vorbereitung, [Rankscale](https://rankscale.ai/?via=offer) bei der Erfolgskontrolle.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Strategie anfragen →</a>
+  <p class="mb-6">Ich helfe dir, deinen Content für Answer Engines zu optimieren und deine Sichtbarkeit in ChatGPT & Co. zu steigern. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Vorbereitung, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Erfolgskontrolle.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Strategie anfragen </a>
 </div>
 
 * **Lese-Tipp:** [GEO verstehen](/glossar/geo/)

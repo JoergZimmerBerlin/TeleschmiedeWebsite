@@ -20,7 +20,7 @@ faqs:
 Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
 </div>
 
@@ -61,16 +61,16 @@ Für moderne SEO-Strategien, die ich in meinem [Blog](/blog/rankscale-ai-visibil
 
 ## Mein Tacheles-Rat für dich
 
-Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), während [Rankscale](https://rankscale.ai/?via=offer) mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
+Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Seite bereit für Claude & GPT?</h3>
   <p class="mb-6">Ich erstelle für dich eine optimierte llms.txt, die deine Markenbotschaft fehlerfrei an die großen Sprachmodelle übermittelt. Lass uns deine KI-Präsenz professionalisieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Check anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)

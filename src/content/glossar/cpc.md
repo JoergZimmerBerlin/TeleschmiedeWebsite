@@ -23,7 +23,7 @@ Ursprünglich ein Begriff aus der Welt von Google Ads (SEA).
 Aber für uns SEOs ist der CPC eine Goldgrube an Informationen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Rankings sind Vanity-Metriken. Was bringen dir 10.000 Besucher, wenn am Ende niemand anruft oder kauft? SEO muss Umsatz treiben."</p>
 </div>
 
@@ -73,14 +73,14 @@ Nutze den CPC als Kompass für deine Keyword-Auswahl. Er zeigt dir, wo das Geld 
 
 Wenn du Hilfe brauchst, dein Google Ads Budget optimal einzusetzen, schau dir an, wie ich als [Google Ads Freelancer in Berlin](/google-ads-freelancer-berlin/) arbeite.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Zahlst du zu viel für Klicks?</h3>
   <p class="mb-6">Ich analysiere dein Google Ads Budget und zeige dir, wie wir die teuersten Keywords durch nachhaltige SEO-Rankings ersetzen. Lass uns deine Marketingkosten senken.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CPC-Check anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CPC-Check anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind eigentlich Keywörter?](/glossar/keywoerter/)

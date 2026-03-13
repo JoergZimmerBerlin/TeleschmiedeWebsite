@@ -21,10 +21,10 @@ Wir reden hier nicht mehr nur von der klassischen Google-Suche mit ihren "blauen
 
 Das Problem für Einsteiger war bisher: **Wie zum Geier messe ich das?** 
 
-Entweder du verbringst Stunden mit manuellem Tippen in fünf verschiedene KIs, oder du schaust dir Enterprise-Lösungen an, die preislich jenseits von Gut und Böse liegen. Heute habe ich die Lösung für alle, die Licht ins Dunkel ihres AI-Trackings bringen wollen: **Das [Rankscale](https://rankscale.ai/?via=offer) Essentials-Paket.**
+Entweder du verbringst Stunden mit manuellem Tippen in fünf verschiedene KIs, oder du schaust dir Enterprise-Lösungen an, die preislich jenseits von Gut und Böse liegen. Heute habe ich die Lösung für alle, die Licht ins Dunkel ihres AI-Trackings bringen wollen: **Das <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> Essentials-Paket.**
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Gute Daten müssen nicht teuer sein. Aber gar keine Daten sind für dein Business lebensgefährlich."</p>
 </div>
 
@@ -84,7 +84,7 @@ SEO verändert sich massiv. Die Leute nutzen KI-Assistenten, um Entscheidungen z
 
 Rankscale Essentials ist die fairste Eintrittskarte in diese neue Welt. Es ist intuitiv, kommt aus Österreich und liefert Daten, die man sonst kaum so kompakt bekommt. Es ist wie das Fitnessstudio für deinen digitalen Marken-Körper: Du baust echte Daten-Muskeln auf.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ---
 
@@ -96,7 +96,7 @@ ALOHA! 🌻✌️
   <h3>Werde jetzt zum AI Visibility Profi!</h3>
   <p>Hol dir das Rankscale Essentials-Paket für nur 17 € im Monat (Jahresabo) und starte dein Tracking noch heute.</p>
   <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Jetzt Rankscale testen →
+    Jetzt Rankscale testen 
   </a>
 </div>
 

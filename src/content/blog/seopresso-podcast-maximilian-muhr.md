@@ -46,7 +46,7 @@ Max ist einer von uns. Nicht der Wirtschaftsinformatiker mit dem perfekten Linke
 Von Chuck-Norris-Witzen bis zum Managing Director bei poliSYS – dieser Weg ist geprägt von Neugier, Mut und der Fähigkeit, sich in Tech-Stacks einzugraben, die andere nur mit der Kneifzange anfassen. Ganz ohne klassisches Studium. **Eigeninitiative als einziger Motor.** Genau der Spirit, den diese Branche braucht.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten, in denen ich an deinem Dokument sitze. Er bezahlt für die 24 Jahre, die ich gebraucht habe, um dieses Dokument in 60 Minuten so präzise zu erstellen, dass es den Relaunch rettet. Das ist der fundamentale Unterschied zwischen Zeit-Verkäufer und Experten."</p>
 </div>
 
@@ -74,4 +74,4 @@ Wenn du gerade an einem Wendepunkt stehst, die Konzernkarriere in Frage stellst 
 
 **Direkt reinhören:** [SEOpresso mit Maximilian Muhr](https://seopresso.de)
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻

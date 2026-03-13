@@ -1,5 +1,5 @@
 ---
-title: "Grüne Woche, Dönerback und warum das Geheimnis in der Qualität liegt 🍕"
+title: "Grüne Woche, Dönerback und warum das Geheimnis in der Qualität liegt "
 description: "Vom Rewe-Kühlschrank zur Grüne Woche. Eine Geschichte über Produktqualität, die Döner-Revolution und was das alles mit Performance Marketing zu tun hat."
 date: "2026-03-11"
 image: "../../assets/images/blog/linkedin_doenerback.webp"
@@ -30,7 +30,7 @@ Vor ein paar Wochen passierte es im Rewe. Ich stand vor dem Regal und sah ein Pr
 Trotzdem landete der Dönerback für 6,99 € in meinem Einkaufswagen. Weil ich immer neugierig bleibe. Weil ich nie einfach annehme, was ich nicht getestet habe. 15 Minuten Ofen, und was kam raus? **Deutlich besser als erwartet.** Ordentlich Fleisch, knuspriges Fladenbrot, Soße nicht durchgesuppt, Salat akzeptabel warm. Kein Vergleich mit dem Imbiss-Erlebnis, aber ein starkes Statement für ein Fertigprodukt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Ihr könnt den besten Traffic einkaufen – aber wenn euer Produkt nicht schmeckt, kommen die Kunden nicht wieder. Das gilt für Döner genauso wie für Landing Pages."</p>
 </div>
 
@@ -60,7 +60,7 @@ Was ich an LinkedIn liebe: Wenn du etwas Kontroverses postest, bekommst du direk
 
 Absolut valider Punkt! Dönerback kann und soll den lokalen Kult-Imbiss nicht ersetzen. Es ist kein Entweder-Oder. Es ist eine Ergänzung für den Alltag zu Hause – für den Heißhunger um Mitternacht, für Kinder, für ältere Menschen, die nicht einfach zum Imbiss gehen können.
 
-**René Thiemicke** ließ mich schmunzeln:
+**Ren Thiemicke** ließ mich schmunzeln:
 > *"Meinen 'Döner-Alatin' ersetze ich damit nicht... Aber als Snack klingt das gut."*
 
 Genau. Produkt-Fit kennt seinen Platz – im Markt und in der Kommunikation.
@@ -84,4 +84,4 @@ Für dich heißt das: **Bevor du auch nur einen Euro in Traffic, SEO oder Ads in
 
 Support your local heroes, redet Tacheles und seid mutig, auch gegen den Strom zu schwimmen.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻

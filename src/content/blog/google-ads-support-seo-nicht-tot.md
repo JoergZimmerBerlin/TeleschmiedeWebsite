@@ -20,7 +20,7 @@ Lass uns Tacheles reden. Ohne Weichspüler, direkt aus der Praxis von über zwei
 ## 1. Der Google Ads Support ist nicht dein Freund (und war es nie)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Der Google Support arbeitet für Googles Quartalszahlen, nicht für deinen Kontostand. Vertrau deinen Daten mehr als einem anonymen Callcenter."</p>
 </div>
 
@@ -90,6 +90,6 @@ SEO und SEA sind Werkzeuge. Kraftvoll, wenn man sie beherrscht. Zerstörerisch f
 
 ---
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 * **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/)
 * **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

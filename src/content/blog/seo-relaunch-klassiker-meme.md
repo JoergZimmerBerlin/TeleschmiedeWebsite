@@ -1,5 +1,5 @@
 ---
-title: "Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet 😲"
+title: "Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet "
 description: "Einmal im Jahr poste ich dieses Meme. Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir Spezialisten das Chaos verhindern könnten."
 date: "2026-03-11"
 image: "../../assets/images/blog/relaunch-ohne-seo.webp"
@@ -35,10 +35,10 @@ Das Szenario, das in meiner [SEO-Sprechstunde](/seo-sprechstunde/) auf dem Tisch
 
 Und dann, zwei Wochen nach Launch, wenn die Umsatzkurve ins Bodenlose sinkt, kommt der panische Anruf:
 
-> *"Hallo Herr Zimmer, wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysiere ich deine historischen Daten und mit [Rankscale](https://rankscale.ai/?via=offer) prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist. Dann können wir dich wieder auf Platz 1 bringen!"*
+> *"Hallo Herr Zimmer, wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist. Dann können wir dich wieder auf Platz 1 bringen!"*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO ist kein Zauberstaub. Es ist tiefgründige Architektur. Wenn das Fundament beim Relaunch geschreddert wurde, gibt es kein Plugin und kein Tool, das das sofort repariert. Das kostet Monate – und Umsatz."</p>
 </div>
 
@@ -81,10 +81,10 @@ Das klingt nach mehr Arbeit? Es ist weniger Arbeit als ein nachträglicher Recov
 
 Wie lief euer letzter Relaunch? War der SEO-Experte von Tag 1 an Bord oder erst, als es brannte?
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für den SEO-Check?</h3>
-  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://rankscale.ai/?via=offer) für deine Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen →</a>
+  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
 </div>

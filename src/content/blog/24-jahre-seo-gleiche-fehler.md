@@ -17,7 +17,7 @@ Moin! 🌻
 
 Ich mache jetzt seit über 24 Jahren SEO. 
 
-Wenn ich das laut sage, fühle ich mich wie ein digitaler Dinosaurier. 🦖
+Wenn ich das laut sage, fühle ich mich wie ein digitaler Dinosaurier. 
 
 Ich habe gesehen: 
 
@@ -78,7 +78,7 @@ Wer Ergebnisse in 4 Wochen will: **Schalte Ads.**
 SEO ist ein Marathon. Wer nach 100 Metern stehen bleibt, verliert.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Tools sind wie Hämmer. Wenn du nicht weißt, wo der Nagel ist, haust du dir nur auf den Daumen. Dashboards machen dich nicht zum Experten. Wissen tut es."</p>
 </div>
 
@@ -133,7 +133,7 @@ Oder an der Geduld?
 
 Schreibt mir bei LinkedIn. Tacheles.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets 🕷️"
+title: "Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets "
 description: "Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.png"
@@ -11,11 +11,11 @@ key_takeaways:
   - "Crawl-Budget: Begrenzte Ressourcen bedeuten, dass du Prioritäten setzen musst."
 faqs:
   - question: "Welche Crawler sind neben dem Googlebot 2026 noch wichtig?"
-    answer: "Der Googlebot ist der König, aber er teilt sich das Spielfeld zunehmend mit anderen Playern. Der Bingbot ist extrem wichtig geworden, da Bing die Backend-Suchmaschine für viele KI-Dienste (wie Copilot) stellt. Dazu kommen branchenspezifische Bots wie der Applebot (für Siri und Spotlight) und natürlich die KI-Crawler wie GPTBot (OpenAI) oder ClaudeBot (Anthropic), die deine Inhalte für ihre Large Language Models crawlen. Wer hier den Praktikanten dransetzt 🦖, verpasst die KI-Revolution!"
+    answer: "Der Googlebot ist der König, aber er teilt sich das Spielfeld zunehmend mit anderen Playern. Der Bingbot ist extrem wichtig geworden, da Bing die Backend-Suchmaschine für viele KI-Dienste (wie Copilot) stellt. Dazu kommen branchenspezifische Bots wie der Applebot (für Siri und Spotlight) und natürlich die KI-Crawler wie GPTBot (OpenAI) oder ClaudeBot (Anthropic), die deine Inhalte für ihre Large Language Models crawlen. Wer hier den Praktikanten dransetzt , verpasst die KI-Revolution!"
   - question: "Wie oft besucht ein Crawler meine Seite?"
-    answer: "Das Crawl-Budget, also die Frequenz der Besuche, hängt direkt von der Autorität, der Aktualisierungsrate und der Serverkapazität deiner Website ab. Große News-Portale werden sekündlich besucht. Wenn du hingegen auf einem kleinen B2B-Blog nur einmal im Quartal etwas veröffentlichst, schaut der Crawler oft über Wochen nicht vorbei. Mit einer sauberen XML-Sitemap und Ping-Funktionen kannst du diesen Rhythmus positiv beeinflussen. ALOHA-Tipp: Sei nützlich, dann kommt der Bot auch öfter!"
+    answer: "Das Crawl-Budget, also die Frequenz der Besuche, hängt direkt von der Autorität, der Aktualisierungsrate und der Serverkapazität deiner Website ab. Große News-Portale werden sekündlich besucht. Wenn du hingegen auf einem kleinen B2B-Blog nur einmal im Quartal etwas veröffentlichst, schaut der Crawler oft über Wochen nicht vorbei. Mit einer sauberen XML-Sitemap und Ping-Funktionen kannst du diesen Rhythmus positiv beeinflussen. ALOHA 🌻-Tipp: Sei nützlich, dann kommt der Bot auch öfter!"
   - question: "Kann man Crawler aktiv aussperren?"
-    answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird. Aber Vorsicht: Wer hier pfuscht (Pfusch am Bau 🦖), verschwindet komplett aus der Suche."
+    answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird. Aber Vorsicht: Wer hier pfuscht (Pfusch am Bau ), verschwindet komplett aus der Suche."
 ---
 
 ![Crawler 3D Infografik: Wie Bots das Web scannen](../../assets/images/glossar/3d-light/glossar-crawler-3d.png)
@@ -27,13 +27,13 @@ Stell dir Google wie eine riesige Bibliothek vor.
 Der Crawler ist der Bibliothekar, der jeden Tag neue Bücher liest und ins Regal sortiert.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie."</p>
 </div>
 
 Ohne Crawler gäbe es kein Google. 
 Sie folgen Links, lesen HTML-Text und schießen Fotos von Websites. 
-Wer seine Crawler versteht, versteht, wie Sichtbarkeit entsteht. Alles andere ist "Pfusch am Bau" 🦖.
+Wer seine Crawler versteht, versteht, wie Sichtbarkeit entsteht. Alles andere ist "Pfusch am Bau" .
 
 ## Die bekanntesten Crawler
 
@@ -53,7 +53,7 @@ Das ist die Zeit und Anzahl der Seiten, die Google bei dir pro Tag besucht.
 Verschwendest du dieses Budget? 
 Zum Beispiel durch endlose Weiterleitungen, 404-Fehler oder unnötige Seiten-Duplikate? 
 Dann werden deine wichtigen [Money Keywords](/glossar/money-keyword/) seltener besucht. 
-Und das schadet deiner [Sichtbarkeit](/glossar/sichtbarkeit/) massiv. Wer "Bauchladen" 🦖 spielt, wird hier abgestraft.
+Und das schadet deiner [Sichtbarkeit](/glossar/sichtbarkeit/) massiv. Wer "Bauchladen"  spielt, wird hier abgestraft.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dringender Hinweis für Admins</h4>
@@ -62,7 +62,7 @@ Und das schadet deiner [Sichtbarkeit](/glossar/sichtbarkeit/) massiv. Wer "Bauch
 
 ## So machst du dich bei Crawlern beliebt
 
-Crawler sind einfach gestrickt. Sie hassen Chaos und "Tracking-Hölle" 🦖. 
+Crawler sind einfach gestrickt. Sie hassen Chaos und "Tracking-Hölle" . 
 Was sie lieben:
 *   **Schnelligkeit:** Ein langsamer [PageSpeed](/glossar/pagespeed/) nervt auch Bots.
 *   **Struktur:** Saubere [H1-H3 Überschriften](/glossar/h1-h2-h3/) und [Sitemaps](/glossar/sitemap/).
@@ -79,14 +79,14 @@ Hier sagst du dem KI-Bot explizit, was er wissen muss. Das ist "SEO für Erwachs
 
 Behandle Crawler wie deine besten Kunden. Empfange sie mit einer schnellen Seite und klaren Informationen. Wenn der Bot sich bei dir wohlfühlt, belohnt er dich mit häufigeren Besuchen. Und häufige Besuche sind der erste Schritt zu besseren Rankings. Wer seine Crawler im Griff hat, hat die Kontrolle über sein SEO. Wer das ignoriert, hat bald "fertig".
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Gefangen in der Crawling-Falle?</h3>
-  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) machen wir deinen Index fit für die Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen →</a>
+  <p class="mb-6">Ich analysiere deine Logfiles und die Search Console, um die Bremsen in deinem Crawling-Prozess zu lösen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir deinen Index fit für die Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

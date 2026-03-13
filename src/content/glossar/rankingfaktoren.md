@@ -23,7 +23,7 @@ Moin! 🌻
 Jeder, der sich mit SEO beschäftigt, stellt irgendwann die Frage aller Fragen: *Was genau entscheidet Google, wer auf Platz 1 steht?*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
 </div>
 
@@ -69,16 +69,16 @@ Mit dem Aufstieg der [Generative Engine Optimization (GEO)](/glossar/geo/) komme
 
 ## Mein Tacheles-Rat für dich
 
-Vergiss die Jagd nach dem "einen Trick". Es gibt keinen. Rankingfaktoren sind ein Zusammenspiel aus hunderten Signalen. Konzentrier dich auf die Basics: Schreib den besten Content zu deinem Thema. Bau eine saubere technische Basis. Ich persönlich verlasse mich beim Monitoring meiner Kundenprojekte auf [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um alle kritischen Faktoren in Echtzeit im Blick zu behalten. Verdiene dir echte Backlinks und Mentions. Und stärke deine Marke als Entität. Wer das konsequent macht, braucht keine SEO-Tricks.
+Vergiss die Jagd nach dem "einen Trick". Es gibt keinen. Rankingfaktoren sind ein Zusammenspiel aus hunderten Signalen. Konzentrier dich auf die Basics: Schreib den besten Content zu deinem Thema. Bau eine saubere technische Basis. Ich persönlich verlasse mich beim Monitoring meiner Kundenprojekte auf <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um alle kritischen Faktoren in Echtzeit im Blick zu behalten. Verdiene dir echte Backlinks und Mentions. Und stärke deine Marke als Entität. Wer das konsequent macht, braucht keine SEO-Tricks.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Welche Rankingfaktoren bremsen dich aus?</h3>
   <p class="mb-6">In einem SEO-Audit decke ich auf, welche Faktoren bei dir Potenzial verschenken und wo der größte Hebel liegt.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [E-E-A-T verstehen](/glossar/e-e-a-t/)

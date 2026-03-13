@@ -25,7 +25,7 @@ Im SEO zählt am Ende, was beim Nutzer ankommt.
 Die **Core Web Vitals (CWV)** sind genau das: Ein Maß an Objektivität in einer ansonsten oft subjektiven Debatte über "schickes Design".
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Bau lieber eine Plattform, die so gut ist, dass die Leute freiwillig auf dich verlinken."</p>
 </div>
 
@@ -54,7 +54,7 @@ Wenn dein Server in Deutschland steht, aber deine Nutzer aus den USA kommen, wir
 
 In der Welt von [Generative Engine Optimization](/glossar/geo/) spielen Ladezeiten eine neue Rolle.
 LLM-Agenten (die "KI-Bots") haben ein begrenztes Zeitfenster, um deine Seite zu crawlen.
-Wenn deine Seite massives Layout-Shifting (CLS) hat, kann der Bot den Text vielleicht nicht korrekt extrahieren. Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du deine AI-Sichtbarkeit im Vergleich zu technischen Performance-Werten analysieren.
+Wenn deine Seite massives Layout-Shifting (CLS) hat, kann der Bot den Text vielleicht nicht korrekt extrahieren. Das Ergebnis? Deine Marke wird in KI-Antworten nicht zitiert. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du deine AI-Sichtbarkeit im Vergleich zu technischen Performance-Werten analysieren.
 
 In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist die Performance-Optimierung daher kein "nice to have", sondern das technische Fundament.
 
@@ -62,17 +62,17 @@ In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist d
 
 Technische Exzellenz durch grüne Core Web Vitals ist die Hausaufgabe jeder professionell betriebenen Website.
 Wer hier spart, verliert Nutzer an die Konkurrenz.
-Pack dein Performance-Problem an der Wurzel und sorg für eine reibungslose Experience. Nutze professionelle Monitoring-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für deine tägliche SEO-Arbeit.
+Pack dein Performance-Problem an der Wurzel und sorg für eine reibungslose Experience. Nutze professionelle Monitoring-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für deine tägliche SEO-Arbeit.
 Deine Nutzer (und Google) werden es dir danken.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für das technische Monitoring und [Rankscale](https://rankscale.ai/?via=offer) für deine KI-Sichtbarkeit.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen →</a>
+  <p class="mb-6">Lass uns in einem Audit schauen, wo wir die Bremsen lösen können. Ich sorge für Speed, der wirklich konvertiert. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das technische Monitoring und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [PageSpeed Optimierung Guide](/glossar/pagespeed/)

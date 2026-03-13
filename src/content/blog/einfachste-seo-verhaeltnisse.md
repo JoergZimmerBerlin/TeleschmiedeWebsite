@@ -1,5 +1,5 @@
 ---
-title: "Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist 🦖"
+title: "Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist "
 description: "Ich komme aus einer Zeit mit 56k Modems und reinem HTML Code. Warum diese Basics heute wichtiger sind als jedes Hochglanz-Leerschwerdt. Jörgs SEO-Biografie."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-komme-aus-einfachsten-seo-verhaeltnissen-activity-7278776634860732416-L_oQ"
@@ -26,7 +26,7 @@ Sprechen wir mal Tacheles über Herkunft.
 
 Über digitale Wurzeln. 
 
-Ich komme aus einfachsten SEO-Verhältnissen. 🦖
+Ich komme aus einfachsten SEO-Verhältnissen. 
 
 Meine Eltern waren keine SEOs. Damals gab es den Beruf noch gar nicht. 
 
@@ -51,7 +51,7 @@ Keine JavaScript-Animationen, die dir den Browser wegsprengen.
 **In genau dieser Schule habe ich mein Handwerk gelernt.**
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer den Modem-Piepton von 1998 noch im Ohr hat, denkt bei 'Pagespeed' sofort in Kilobyte. Wer heute Megabyte-schwere Slider einbaut, hat diese Schule nie besucht."</p>
 </div>
 
@@ -106,7 +106,7 @@ Das Feedback war klar: Wer früher mit wenig viel erreicht hat, durchschaut heut
 
 Handwerk schlägt Tool-Folklore. Immer.
 
-## Das Résumé für morgen
+## Das Rsum für morgen
 
 Holt euch die SEO-Architekten ins Projekt, **bevor** der Designer die erste Figma-Datei anlegt!
 
@@ -126,4 +126,4 @@ Aus einfachsten Verhältnissen.
 
 Mit Instinkt für das Wesentliche.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻

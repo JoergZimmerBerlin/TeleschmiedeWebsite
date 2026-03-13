@@ -18,7 +18,7 @@ key_takeaways:
 But in fact, maybe the classic SEO is actually dying. But if it is, it's dying such a slow death that we'll all be retired before the last bot turns out the lights. And that's exactly what I got to talk about with **Michael Kaufhold** in the Magic Writing Podcast - about the supposed "corpse" of SEO and why it's actually fitter than ever.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO stirbt nicht – es evolviert. Wer heute den Nachruf schreibt, hat den Anschluss an die semantische Suche von morgen schon gestern verloren."</p>
 </div>
 

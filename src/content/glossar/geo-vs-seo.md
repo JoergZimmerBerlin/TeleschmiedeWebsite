@@ -26,7 +26,7 @@ Früher war das Ziel klar: Platz 1 in den Suchergebnissen.
 Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Google Search Generative Experience (SGE) als Quelle genannt?
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Guck dir mal deinen PageSpeed auf dem Handy an. Wenn der Nutzer dreimal Kaffee kochen kann, bis deine Seite lädt, ist er längst bei der Konkurrenz."</p>
 </div>
 
@@ -73,14 +73,14 @@ Das ist das Ziel von GEO. Das ist die Dominanz, die wir anstreben.
 Die Grenze zwischen **GEO vs. SEO** verschwimmt. Eine gute **SEO Beratung** von heute ist immer auch eine GEO Beratung von morgen. 
 Verlass dich nicht auf veraltete Taktiken. Schmiede deine digitale Zukunft mit Strategien, die sowohl Menschen als auch Maschinen überzeugen.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für die KI-Suche?</h3>
   <p class="mb-6">Ich analysiere deine aktuelle KI-Sichtbarkeit und entwickle eine hybride Strategie aus SEO und GEO für dich. Lass uns dein Business zukunftssicher machen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie sichern →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Strategie sichern </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)

@@ -1,5 +1,5 @@
 ---
-title: "Braucht SEO einen neuen Namen? (Die Campixx Umfrage) 🧐"
+title: "Braucht SEO einen neuen Namen? (Die Campixx Umfrage) "
 description: "Auf der Campixx habe ich die Community gefragt: Ist der Begriff 'SEO' noch zeitgemäß? Die Ergebnisse und die besten Namensvorschläge aus über 40 Kommentaren."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_braucht-seo-einen-neuen-namen-activity-7261642115124117504-2W9Q"
@@ -22,7 +22,7 @@ Moin! 🌻
 
 Ich war auf der **Campixx** in Berlin – und wer mich kennt, weiß: Auf einer Fachkonferenz kann ich es nicht lassen, direkt eine unbequeme Frage in die Runde zu werfen. Die Community ist dort offen, ehrlich und auf Tacheles getrimmt. Das ist genau mein Umfeld.
 
-Die Frage, die mich diesmal beschäftigt hat, war fundamental: **Braucht SEO eigentlich einen neuen Namen?** 🧐
+Die Frage, die mich diesmal beschäftigt hat, war fundamental: **Braucht SEO eigentlich einen neuen Namen?** 
 
 ## Die Ausgangslage: Wenn das Kürzel zur Falle wird
 
@@ -35,7 +35,7 @@ Was passiert in den Köpfen der Anwesenden? Bei manchem CEO läuft ein Bild von 
 Ich habe die Debatte auf LinkedIn gestartet – und über 40 Kommentare und eine hitzig geführte Fachdiskussion später ist das Bild klarer.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Wer CEO-Sprache spricht, bekommt auch CEO-Budgets. Wer 'H1 fehlt' sagt, bekommt einen Handwerker-Tagessatz. Das ist keine SEO-Frage – das ist eine Positionierungsfrage."</p>
 </div>
 
@@ -80,10 +80,10 @@ Das Handwerk selbst hat sich verändert. [GEO (Generative Engine Optimization)](
 
 Also: Wie nennst du dein Handwerk, wenn du es einem Entscheider erklärst? Und noch wichtiger: Tust du das mit der Sprache, die Budget freisetzt?
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Sprechen wir dieselbe Sprache?</h3>
-  <p class="mb-6">Egal ob SEO, Digital Authority oder Search Everywhere: Am Ende zählen die Daten. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) haben wir die Basis und mit [Rankscale](https://rankscale.ai/?via=offer) die Zukunft fest im Blick.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Visionen-Check anfragen →</a>
+  <p class="mb-6">Egal ob SEO, Digital Authority oder Search Everywhere: Am Ende zählen die Daten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> haben wir die Basis und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die Zukunft fest im Blick.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Visionen-Check anfragen </a>
 </div>

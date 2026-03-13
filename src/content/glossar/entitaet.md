@@ -20,7 +20,7 @@ faqs:
 Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."</p>
 </div>
 
@@ -67,5 +67,5 @@ Entitäten sind die neue Währung der Suche. Google möchte nicht mehr nur nach 
 <div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
   <p class="text-gray-muted mb-6">Täglich frische SEO-Insights, glasklarer Fokus und kein Bullshit. Diskutiere mit anderen Experten.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen →</a>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen </a>
 </div>

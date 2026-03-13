@@ -15,8 +15,8 @@ Früher haben wir Landingpages für Nutzer gebaut.
 Heute bauen wir Grounding Pages für Maschinen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? 🦖"</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? "</p>
 </div>
 
 Warum? Weil KIs (LLMs) wie ChatGPT oder Gemini Fakten brauchen.
@@ -64,14 +64,14 @@ Wer jetzt anfängt, seine wichtigsten Themen in Grounding Pages zu gießen, gewi
 
 Die Grounding Page ist der Anker für deine Marke in der Welt der generativen Suche. Hör auf, für Google-Bots zu schreiben. Fang an, für KI-Wissen zu strukturieren. Sei die stabilste Quelle für dein Thema. Denn wer die Fakten liefert, kontrolliert die Antwort.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Braucht deine KI-Sichtbarkeit ein Fundament?</h3>
   <p class="mb-6">Ich erstelle für dich eine Grounding Page, die deine Marken-Fakten glasklar für ChatGPT und Co. aufbereitet. Lass uns deine Entität stärken.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)

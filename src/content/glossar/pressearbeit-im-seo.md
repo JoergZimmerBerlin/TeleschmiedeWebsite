@@ -21,10 +21,10 @@ Moin!
 
 ![Pressearbeit Infografik](../../assets/images/glossar/3d-light/glossar-authority-3d.webp)
 
-Moin! 🗞️
+Moin! 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist ein schöner Graph für den Quartalsbericht. Aber am Ende des Monats zählt nur, wie oft die Kasse geklingelt hat."</p>
 </div>
 
@@ -37,7 +37,7 @@ Die Zeiten, in denen man SEO-Links in Webkatalogen oder Forenkommentaren „aufg
 **Digital PR** liefert genau das, was Google sehen will:
 *   **Natürliche, redaktionelle Links** von vertrauenswürdigen Domains
 *   **Brand Mentions** ([Erwähnungen](/glossar/mention/)) in relevanten Kontexten. Ob deine Marke bereits in KI-Antworten als Autorität auftaucht, kannst du mit [Rankscale AI Tracking](https://rankscale.ai/?via=offer) validieren.
-*   **Signale für Expertise** (ein Interview zum Thema SEO bestätigt deine Fachkompetenz). Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysierst du die Wirkung dieser PR-Massnahmen auf dein Ranking-Profil.
+*   **Signale für Expertise** (ein Interview zum Thema SEO bestätigt deine Fachkompetenz). Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysierst du die Wirkung dieser PR-Massnahmen auf dein Ranking-Profil.
 
 ## Die PR-Strategie für SEO-Profis
 
@@ -66,14 +66,14 @@ In der [Generative Engine Optimization](/glossar/geo/) spielen Presseartikel ein
 
 Hör auf, Links zu „bauen". Fang an, Geschichten zu erzählen, die es wert sind, verbreitet zu werden. Nutze deine eigenen Daten, deine Erfahrungen und deine Meinungen als PR-Material. Platziere dich in Podcasts und auf LinkedIn. Denn der beste Backlink ist der, den ein Journalist freiwillig setzt, weil dein Content einfach zu gut ist, um ihn zu ignorieren.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein Backlink-Profil braucht einen Boost?</h3>
   <p class="mb-6">Ich zeige dir, wie du durch gezielte Pressearbeit und Digital PR natürliche, hochwertige Links aufbaust, die dein Ranking nachhaltig stärken.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Digital PR Strategie besprechen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Digital PR Strategie besprechen </a>
 </div>
 
 * **Lese-Tipp:** [Linkbuilding richtig angehen](/glossar/linkbuilding/)

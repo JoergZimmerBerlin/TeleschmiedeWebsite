@@ -22,7 +22,7 @@ Moin!
 Ohne Keyword Tool bist du im SEO blind. Du rätst, was deine Kunden suchen. Du ratest, was Google über deine Nische denkt.Spoiler-Alarm: In 9 von 10 Fällen wirst du ohne Daten falsch liegen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Nur, weil deine Website von außen schön aussieht, heißt das nicht, dass sie Rankings produziert."</p>
 </div>
 
@@ -66,20 +66,20 @@ In meinen Strategien nutze ich KI-Bots, um semantische Nischen zu finden, die kl
 
 Ein Keyword Tool ist dein Auge in der digitalen Welt. Es verwandelt Raten in Wissen. Aber vergiss niemals: Ein Tool ist nur ein Hammer. Das Haus bauen musst du selbst. Lerne die Daten zu interpretieren, verstehe die psychologische Absicht hinter der Suche und bau darauf deine unschlagbare Sichtbarkeit auf.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
   <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen →</a>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen </a>
 </div>
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du suchst nach den falschen Keywords?</h3>
   <p class="mb-6">Ich unterstütze dich dabei, die echten Goldstücke in deiner Nische zu finden. Lass uns deine Strategie mit validen Daten schärfen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Analyse anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Warum die Suchintention zählt](/glossar/keywordrecherche/)

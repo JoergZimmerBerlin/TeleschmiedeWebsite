@@ -13,11 +13,11 @@ key_takeaways:
 
 ![Linkjuice Infografik](../../assets/images/glossar/3d-light/glossar-linkjuice-3d.webp)
 
-Moin! 🧃
+Moin! 
 Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der prägendsten Begriffe in der Geschichte der Suchmaschinenoptimierung. Obwohl Google intern ausschließlich von [PageRank](https://en.wikipedia.org/wiki/PageRank) spricht – benannt nach Google-Gründer Larry Page –, hat sich der bildliche Begriff des "Link-Saftes" in der SEO-Szene durchgesetzt. Er beschreibt anschaulich den Fluss von Autorität und Vertrauen durch das Netzwerk des Internets.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Vergiss das 'Keyword-Vollstopfen'. Schreib für Menschen, strukturiere für Maschinen."</p>
 </div>
 
@@ -27,7 +27,7 @@ Jeder Hyperlink, der von einer Seite (A) zu einer anderen Seite (B) gesetzt wird
 
 Stell dir das Web als ein gigantisches Netzwerk aus miteinander verbundenen Gefäßen vor. Jede Website hat eine bestimmte Menge an "Saft" (Vertrauen/Autorität). 
 
-Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains wie die Wikipedia oder große Zeitungen auf sie verlinken), ist ihr Gefäß bis zum Rand mit Linkjuice gefüllt. Setzt du nun von deiner Startseite einen Link zu deinem neuesten Blog-Artikel, fließt ein beachtlicher Teil dieses Saftes in den Artikel. Dieser gewinnt an [Sichtbarkeit](/glossar/sichtbarkeit/) im Google-Index. Dank Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) kannst du diesen Zuwachs an Autorität präzise tracken.
+Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains wie die Wikipedia oder große Zeitungen auf sie verlinken), ist ihr Gefäß bis zum Rand mit Linkjuice gefüllt. Setzt du nun von deiner Startseite einen Link zu deinem neuesten Blog-Artikel, fließt ein beachtlicher Teil dieses Saftes in den Artikel. Dieser gewinnt an [Sichtbarkeit](/glossar/sichtbarkeit/) im Google-Index. Dank Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> kannst du diesen Zuwachs an Autorität präzise tracken.
 
 ![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.webp)
 

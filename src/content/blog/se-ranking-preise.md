@@ -28,10 +28,10 @@ Moin! 🌻
 
 Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, SE Ranking sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
 
-Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auf den ersten Blick fast schon zu günstig. Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 24 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und SE Ranking ist aktuell einer der Player, der den Markt ordentlich aufmischt.
+Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig. Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 24 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und SE Ranking ist aktuell einer der Player, der den Markt ordentlich aufmischt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Günstige Tools sind nur dann gut, wenn du weißt, was du tust. Wer blind bucht, verbrennt auch bei kleinen Preisen viel Geld."</p>
 </div>
 
@@ -98,7 +98,7 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
   <h3>Jetzt SE Ranking 14 Tage kostenlos testen</h3>
   <p>Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.</p>
   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Kostenlos Testen starten →
+    Kostenlos Testen starten 
   </a>
 </div>
 
@@ -116,7 +116,7 @@ SE Ranking hat mit dieser Preisgestaltung einen "Sweet Spot" getroffen. Es ist t
 
 Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst du die Power des Growth-Tarifs? Schreib mir deine Meinung auf LinkedIn – ich bin gespannt auf dein Feedback!
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ---
 

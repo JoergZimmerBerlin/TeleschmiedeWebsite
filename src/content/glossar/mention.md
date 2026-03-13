@@ -19,10 +19,10 @@ faqs:
 
 
 
-Moin! 🗣️
+Moin! 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Ein SEO-Audit, der als 100-seitiges PDF in der Schublade verstaubt, ist wertlos. Was müssen wir MORGEN ändern, damit es besser wird?"</p>
 </div>
 
@@ -62,14 +62,14 @@ Wenn du in tausenden Dokumenten als Experte erwähnt wirst, wird die Wahrscheinl
 
 Mentions sind die leise, aber gewaltige Kraft hinter einer starken Marke. Sie signalisieren Suchmaschinen und KI-Agenten, dass du eine reale, vertrauenswürdige Autorität bist. Kämpfe nicht nur um harte Links, sondern kämpfe um Aufmerksamkeit und positive Erwähnungen. Werde Teil der Konversation im Netz, denn jede positive Nennung ist ein Baustein für deine langfristige Sichtbarkeit und deinen digitalen Expertenstatus.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wird über dich gesprochen?</h3>
   <p class="mb-6">Ich entwickle eine Strategie für dich, die deine Markennennungen im Netz organisch steigert und dein E-E-A-T Profil festigt. Lass uns deine Reputation zum Glänzen bringen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Reputation-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Reputation-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)

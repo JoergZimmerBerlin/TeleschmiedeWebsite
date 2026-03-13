@@ -25,7 +25,7 @@ Moin!
 ![Trustworthiness 3D Infografik](../../assets/images/glossar/3d-light/glossar-trust-3d.png)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Google Core Update - Die Antwort ist oft hart: Deine Seite ist einfach nicht gut genug für den Nutzer."</p>
 </div>
 
@@ -53,21 +53,21 @@ Du kannst die beste [Experience](/glossar/experience-eeat/), die tiefste [Expert
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Trust und KI-Systeme</h4>
-  <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Mit [Rankscale](https://rankscale.ai/?via=offer) kannst du genau messen, wie vertrauenswürdig deine Entität für verschiedene LLMs eingestuft wird. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.
+  <p class="mb-0 text-sm">Für KI-Modelle wie ChatGPT und Perplexity ist Trust sogar noch wichtiger als für Google. LLMs müssen entscheiden, welche Quellen sie zitieren – und sie bevorzugen Quellen mit starken Vertrauenssignalen: Bekannte Domains, konsistente Daten, transparente Autorenschaft. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du genau messen, wie vertrauenswürdig deine Entität für verschiedene LLMs eingestuft wird. Wer hier sauber aufgestellt ist, wird zur bevorzugten Antwortquelle.
 </div>
 
 ## Jörgs Action-Plan
 
 Mach den Vertrauens-Check: Ist dein Impressum vollständig? Hast du eine transparente Über-Mich-Seite? Gibt es Autorenprofile? Sind deine Kontaktdaten aktuell? Funktioniert HTTPS ohne Fehler? Diese Basics kosten eine Stunde Arbeit – und sie sind die Grundlage für alles andere im E-E-A-T Framework.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Vertraut Google deiner Website?</h3>
   <p class="mb-6">In einem E-E-A-T Audit prüfe ich alle Trust-Signale und zeige dir, wo du nachbessern musst.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Trust-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Trust-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)

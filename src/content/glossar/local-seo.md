@@ -24,7 +24,7 @@ Local SEO ist die Königsdisziplin für alle, die echte Kunden vor Ort haben wol
 Wenn jemand nach "Angebot in meiner Nähe" sucht, musst du da sein.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Es gibt keine 'geheimen Rankingfaktoren'. Google will die beste Antwort für den Nutzer. Sei die beste Antwort."</p>
 </div>
 
@@ -75,14 +75,14 @@ Wer lokal nicht sauber aufgestellt ist, existiert für moderne KI-Agenten schlic
 
 Local SEO ist kein Hexenwerk, aber es erfordert Disziplin. Halte deine Daten sauber. Sei aktiv in deiner Region. Sammle echtes Feedback. Mit dem [Local Marketing Tool von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) stelle ich sicher, dass dein Business die lokale Nachbarschaft dominiert. Dann klappt es auch mit den Kunden aus der Nachbarschaft. Denn am Ende ist der wertvollste Klick der, der durch deine Ladentür kommt.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lokal unsichtbar?</h3>
   <p class="mb-6">Ich helfe dir, dein Google Business Profile zu optimieren und lokale Citations aufzubauen. Lass uns deine Nachbarschaft erobern!</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt lokale Strategie planen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt lokale Strategie planen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)

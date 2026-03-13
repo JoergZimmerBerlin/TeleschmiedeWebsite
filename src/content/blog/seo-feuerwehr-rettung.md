@@ -1,5 +1,5 @@
 ---
-title: "Tatü Tata: Die SEO Feuerwehr rückt aus! 🚒"
+title: "Tatü Tata: Die SEO Feuerwehr rückt aus! "
 description: "Sichtbarkeitseinbruch von 3,5 auf 1,3 Punkte per Nacht. Wie technische Fehler einen Shop killen – und warum dein Netzwerk im Notfall alles ist."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_tatue-tata-die-seo-feuerwehr-ist-da-activity-7272895244342525952-V4_P"
@@ -22,7 +22,7 @@ faqs:
 
 Moin! 🌻
 
-Tatü Tata – die SEO-Feuerwehr rückt aus! 🚒
+Tatü Tata – die SEO-Feuerwehr rückt aus! 
 
 Ich rede hier oft über Strategie. Langzeitplanung. Saubere Strukturen. 
 
@@ -57,7 +57,7 @@ Alle Standard-Verdächtigen waren raus.
 
 Das hieß: Das Problem liegt im Code.
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Daten-Analyse und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten-Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ## Der Täter: Drittanbieter-Scripte
 
@@ -113,10 +113,10 @@ Hattest du das schon mal?
 
 Kleiner Code-Eingriff – großes Desaster?
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Brennt deine Hütte auch?</h3>
-  <p class="mb-6">Warte nicht, bis der Schaden irreparabel ist. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) finden wir das Leck sofort und [Rankscale](https://rankscale.ai/?via=offer) hilft uns, deine KI-Visibility zu retten.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Notfall-Check anfragen →</a>
+  <p class="mb-6">Warte nicht, bis der Schaden irreparabel ist. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir das Leck sofort und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> hilft uns, deine KI-Visibility zu retten.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Notfall-Check anfragen </a>
 </div>

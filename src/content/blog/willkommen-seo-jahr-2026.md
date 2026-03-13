@@ -20,7 +20,7 @@ Herzlich willkommen im SEO-Jahr 2026. Pünktlich wie die Deutsche Bahn begrüße
 Warum ich das so sicher weiß? Weil ich seit über 24 Jahren im SEO-Zug sitze. Und wenn mir diese Reise eines beigebracht hat, dann das: **Die Missverständnisse ändern sich nie.** Die Tools werden schicker, die KI schlauer, die Buzzwords kreativer – aber die Grundfehler? Die sind so stabil wie die Gravitation.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"SEO-History wiederholt sich immer als Farce. Wer heute die Abkürzung sucht, zahlt morgen das Lehrgeld."</p>
 </div>
 
@@ -83,7 +83,7 @@ Nicht um Google. Nicht um ChatGPT. Nicht um den neuesten Algorithmus-Trick. Es g
 
 *Dieser Artikel basiert auf meinem LinkedIn-Post, der 78 Reaktionen und 34 Kommentare ausgelöst hat. Ein Zeichen dafür, dass die Frustration über SEO-Missverständnisse in unserer Branche real und allgegenwärtig ist.*
 
-ALOHA! 🌻
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
 <strong>Du willst dein SEO 2026 richtig angehen?</strong>

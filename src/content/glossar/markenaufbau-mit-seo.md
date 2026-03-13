@@ -22,7 +22,7 @@ Moin!
 Die meisten denken bei **SEO** an Keywords und Rankings. Aber die klügsten SEO-Strategen wissen: Der mächtigste Rankingfaktor der Welt ist ein Markenname, den Menschen aktiv bei Google eingeben.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Große Agenturen verkaufen dir gerne einen Junior für den Preis eines Seniors. Ich verkaufe dir meine 24 Jahre Erfahrung, komprimiert auf das, was funktioniert."</p>
 </div>
 
@@ -63,14 +63,14 @@ In der [Generative Engine Optimization](/glossar/geo/) wird Markenbekanntheit no
 
 Hör auf, nur „Keywords zu optimieren". Fang an, deinen Namen zu einem Begriff zu machen. Baue eine Marke, die Menschen suchen, der Google vertraut und die KIs zitieren. Das ist kein Sprint, sondern ein Marathon. Aber am Ende ist es der einzige echte Burggraben gegen den KI-Content-Tsunami.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Marke ist unsichtbar?</h3>
   <p class="mb-6">Ich helfe dir, deinen Namen bei Google als Entität zu verankern. Lass uns gemeinsam deine Brand-SEO-Strategie aufbauen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Marken-Strategie anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Marken-Strategie anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Entity SEO verstehen](/glossar/entity-seo/)

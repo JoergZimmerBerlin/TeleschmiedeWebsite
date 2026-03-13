@@ -22,7 +22,7 @@ Moin!
 **Brand Mentions** sind das, was passiert, wenn jemand deinen Namen erwähnt – ohne dass du darum gebeten hast. Das ist die ehrlichste Form der Empfehlung im Internet.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Der größte Fehler im modernen SEO? Den Nutzern keine echte Expertise (E-E-A-T) zu liefern. KI kann keine 24 Jahre Praxiserfahrung simulieren."</p>
 </div>
 
@@ -46,14 +46,14 @@ In der KI-Ära ist das noch wichtiger: [LLMs](/glossar/llmo/) können keine Hype
 
 Google deinen eigenen Namen in Anführungszeichen. Richte Google Alerts ein. Und dann arbeite aktiv daran, mehr Mentions zu generieren – durch [Pressearbeit](/glossar/pressearbeit-im-seo/), Community-Engagement und exzellenten Content. Mit dem [Reputations-Tracking von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) siehst du sofort, wer dich im Web entdeckt.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wer spricht über dich?</h3>
   <p class="mb-6">Ich analysiere dein Brand-Mention-Profil und zeige dir Strategien für mehr organische Erwähnungen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Mention-Analyse anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Mention-Analyse anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind Mentions?](/glossar/mention/)

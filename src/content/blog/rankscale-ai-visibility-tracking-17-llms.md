@@ -29,7 +29,7 @@ Da bin ich wochenlang auf der Suche, wie man die Erwähnungen in den KI-Modellen
 Die Rede ist von Rankscale aus Österreich. Ich hatte gestern mein kleines Onboarding-Gespräch und bin überrascht, wie intuitiv es ist. Domain eingeben, Topic Cluster wählen, LLM auswählen. Fertig. Das Tool rennt los, erkennt das Umfeld und schaut, wo die Marke inklusive verschiedener Schreibweisen bereits erschienen ist.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"AI-Tracking ist das neue Google Search Console. Wer hier blind fliegt, verliert die Kontrolle über seine wichtigste digitale Währung: Reputation."</p>
 </div>
 
@@ -80,13 +80,13 @@ Das war mein ehrlicher Erfahrungsbericht. Keine bezahlte Werbung, sondern echte 
   <h3>Lust auf mehr AI Visibility?</h3>
   <p>Wenn du Rankscale selbst testen willst, kannst du hier direkt loslegen:</p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Rankscale ausprobieren →
+    Rankscale ausprobieren 
   </a>
 </div>
 
 ---
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)

@@ -1,5 +1,5 @@
 ---
-title: "Wenn AI-Agenten deinen LinkedIn-Feed kapern 🤖"
+title: "Wenn AI-Agenten deinen LinkedIn-Feed kapern "
 description: "Achim vom Gartenverein hat einen Bot gebaut - und damit ein Problem sichtbar gemacht. Warum automatisierte LinkedIn-Grüße das 'Social' aus Social Media entfernen."
 date: "2025-12-20"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_achim-vom-gartenverein-hat-einen-ai-agenten-share-7409572323978276864-P1I1"
@@ -71,7 +71,7 @@ Achim hat damit ungewollt ein hässliches Problem sichtbar gemacht.
 Die Industrialisierung der (un)echten Interaktion.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Authentizität lässt sich nicht automatisieren. Wer glaubt, Vertrauen per Prompt-Engineering aufzubauen, hat das Prinzip 'Social' Media nicht verstanden. In einer Welt voller Bots ist das Unperfekte das neue Premium."</p>
 </div>
 
@@ -107,7 +107,7 @@ Jetzt wird die Währung "Aufmerksamkeit" durch KI-Massenware entwertet.
 
 Kunden fragen mich oft: *"Jörg, können wir LinkedIn nicht automatisieren?"*
 
-Meine Antwort: **Könnt ihr. Aber ihr solltet es nicht.** Wenn ihr Zeit sparen wollt, nutzt lieber Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für eure Recherche oder [Rankscale](https://rankscale.ai/?via=offer), um eure Botschaft in der KI-Suche zu platzieren – aber lasst die Finger von der automatisierten Interaktion auf LinkedIn.
+Meine Antwort: **Könnt ihr. Aber ihr solltet es nicht.** Wenn ihr Zeit sparen wollt, nutzt lieber Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für eure Recherche oder <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um eure Botschaft in der KI-Suche zu platzieren – aber lasst die Finger von der automatisierten Interaktion auf LinkedIn.
 
 Vertrauen lässt sich nicht delegieren. 
 
@@ -155,10 +155,10 @@ Sei kein Achim.
 
 Sei echt.
 
-ALOHA! 🌻✌️
+ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du echte Ergebnisse statt Bot-Blabla?</h3>
-  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine echte Performance und mit [Rankscale](https://rankscale.ai/?via=offer) messen wir deine Reputation in der KI-Welt.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen →</a>
+  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine echte Performance und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deine Reputation in der KI-Welt.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen </a>
 </div>

@@ -19,10 +19,10 @@ faqs:
 
 ![Interne Verlinkung Infografik](../../assets/images/glossar/3d-light/glossar-interne-verlinkung-3d.webp)
 
-Moin! 🔗
+Moin! 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Große Agenturen verkaufen dir gerne einen Junior für den Preis eines Seniors. Ich verkaufe dir meine 24 Jahre Erfahrung, komprimiert auf das, was funktioniert."</p>
 </div>
 
@@ -46,7 +46,7 @@ Ein strategisch klug gesetzter interner Link erfüllt drei Aufgaben gleichzeitig
 In meinen [SEO-Beratungen in Berlin](/seo-freelancer-berlin/) ist die Reparatur der internen Verlinkung oft der erste Schritt. Hier sind die wichtigsten Regeln:
 
 ### 1. Aussagekräftige Ankertexte (Anchor Texts)
-Verzichte auf Links wie "hier klicken" oder "mehr lesen". Das ist für Suchmaschinen völlig wertlos. Nutze stattdessen das Ziel-Keyword als Linktext. Wenn du auf eine Seite über SEO-Preise verlinkst, nenne den Link auch "[SEO-Freelancer Preise](/blog/se-ranking-preise/)". Professionelle SEO-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) helfen dir dabei, die Relevanz deiner Ankertexte zu optimieren.
+Verzichte auf Links wie "hier klicken" oder "mehr lesen". Das ist für Suchmaschinen völlig wertlos. Nutze stattdessen das Ziel-Keyword als Linktext. Wenn du auf eine Seite über SEO-Preise verlinkst, nenne den Link auch "[SEO-Freelancer Preise](/blog/se-ranking-preise/)". Professionelle SEO-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> helfen dir dabei, die Relevanz deiner Ankertexte zu optimieren.
 
 ### 2. Die Link-Tiefe minimieren
 Jede wichtige Seite deiner Website sollte mit maximal drei Klicks von der Startseite aus erreichbar sein. Je tiefer eine URL in der Hierarchie vergraben ist, desto weniger Linkjuice kommt dort an und desto seltener wird sie gecrawlt.
@@ -58,20 +58,20 @@ Links, die ganz oben im Einleitungstext eines Artikels stehen, erhalten statisti
 
 KI-Suchmaschinen wie Perplexity oder ChatGPT versuchen, Themen ganzheitlich zu begreifen. Wenn du über eine "Entität" schreibt (z.B. ein spezifisches Software-Tool), helfen interne Links diesen Systemen dabei, die Grenzen deines Expertenwissens zu erkennen. 
 
-Durch eine dichte interne Vernetzung signalisierst du, dass du nicht nur einen einzigen Artikel zu einem Schlagwort hast, sondern ein ganzes Ökosystem an Wissen (Topical Authority). In KI-generierten Antworten wirst du eher als Primärquelle herangezogen, wenn die KI sieht, dass deine "Knowledge Node" (dein Wissensknotenpunkt) im Web durch viele interne Referenzen gestärkt wird. Wie man diese Sichtbarkeit in LLMs misst, erfährst du auch in meinem Beitrag zum [[Rankscale](https://rankscale.ai/?via=offer) AI Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/).
+Durch eine dichte interne Vernetzung signalisierst du, dass du nicht nur einen einzigen Artikel zu einem Schlagwort hast, sondern ein ganzes Ökosystem an Wissen (Topical Authority). In KI-generierten Antworten wirst du eher als Primärquelle herangezogen, wenn die KI sieht, dass deine "Knowledge Node" (dein Wissensknotenpunkt) im Web durch viele interne Referenzen gestärkt wird. Wie man diese Sichtbarkeit in LLMs misst, erfährst du auch in meinem Beitrag zum [<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> AI Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/).
 
 ## Mein Tacheles-Rat für dich
 
 Die interne Verlinkung ist die unterschätzte Superkraft im On-Page SEO. Sie kostet kein Geld, erfordert keine Zustimmung von Dritten und liefert sofortige Ergebnisse. Behandle deine Website wie eine gut sortierte Bibliothek: Sorge für klare Wegweiser, verlinke verwandte Themen eng miteinander und führe deine Leser (und die Bots) behutsam zu deinen wichtigsten Inhalten. Wer seine interne Linkkraft beherrscht, beherrscht seine Sichtbarkeit.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hast du ein löchriges Link-Netz?</h3>
   <p class="mb-6">Ich analysiere deine interne Verlinkung und zeige dir genau, wie wir deinen Linkjuice optimal verteilen. Lass uns deine Power maximieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen →</a>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)

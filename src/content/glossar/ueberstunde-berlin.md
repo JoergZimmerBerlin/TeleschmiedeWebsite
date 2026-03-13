@@ -22,7 +22,7 @@ Moin!
 Ich liebe SEO. Keine Frage. Aber manchmal tut es gut, den Kopf aus den [SERPs](/glossar/title-tag/) zu nehmen und über den Tellerrand zu schauen. Die **Überstunde Berlin** ist für mich genau dieser Ort.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Ein SEO-Audit, der als 100-seitiges PDF in der Schublade verstaubt, ist wertlos. Was müssen wir MORGEN ändern, damit es besser wird?"</p>
 </div>
 
@@ -66,14 +66,14 @@ Google erkennt diese Signale der lokalen Verwurzelung extrem genau. Wer im Gedä
 
 Wenn du mich das nächste Mal bei der Überstunde siehst: Sprich mich einfach an. Lass uns über deine Vision reden, über Berlin oder meinetwegen auch über das letzte Google Update. Hauptsache auf Augenhöhe und mit einem echten Interesse an der Lösung.
 
-ALOHA ✌️
+ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">SEO-Problem nach Feierabend?</h3>
-  <p class="mb-6">Keine Sorge, ich helfe dir auch dann, wenn andere schon schlafen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status-Quo und [Rankscale](https://rankscale.ai/?via=offer) für deine Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern →</a>
+  <p class="mb-6">Keine Sorge, ich helfe dir auch dann, wenn andere schon schlafen. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern </a>
 </div>
 
 * **Lese-Tipp:** [Lokal sichtbarer werden mit Local SEO](/glossar/local-seo/)

@@ -100,4 +100,4 @@ ALOHA! 🌻✌️
 
 * **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
 * **Lese-Tipp:** [Usability & SEO](/glossar/usability/)
-* **Lese-Tipp:** [Topical Authority aufbauen](/glossar/topical-authority/)
+* **Lese-Tipp:** [Semantic SEO & Cluster-Strategie](/glossar/semantic-seo/)

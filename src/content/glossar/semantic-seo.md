@@ -3,7 +3,7 @@ title: "Semantic SEO"
 description: "Semantic SEO optimiert nicht für einzelne Keywords, sondern für das Verständnis ganzer Themenfelder. Google denkt in Konzepten – du solltest es auch."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
-related_terms: ["entity-seo", "keywordrecherche", "strukturierte-daten", "topical-authority"]
+related_terms: ["entity-seo", "keywordrecherche", "strukturierte-daten", "semantic-seo"]
 key_takeaways:
   - "Konzepte statt Keywords: Google versteht Themen, nicht nur Suchwörter."
   - "Topical Authority: Wer ein Thema umfassend abdeckt, wird für alle verwandten Keywords belohnt."

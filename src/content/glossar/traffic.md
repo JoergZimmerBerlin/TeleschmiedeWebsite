@@ -2,7 +2,7 @@
 title: "Traffic (Besucherströme)"
 description: "Traffic bezeichnet die Anzahl der Besucher auf deiner Website. Aber Vorsicht: Nicht jeder Klick ist gleich viel wert."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]
 key_takeaways:
   - "Qualität vor Quantität: Qualifizierter Traffic von potenziellen Kunden ist wertvoller als reine Masse."
@@ -16,6 +16,10 @@ faqs:
   - question: "Wie steigere ich meinen organischen Traffic?"
     answer: "Die ehrliche Antwort: Es gibt keinen Quick-Fix. Nachhaltiges Traffic-Wachstum erfordert hochwertigen Content, der echte Nutzerfragen beantwortet, eingebettet in eine saubere technische Architektur. Du musst die Suchintention deiner Zielgruppe perfekt bedienen und gleichzeitig Signale für deine E-E-A-T Autorität setzen. Ein gut strukturiertes Glossar wie dieses hier ist zum Beispiel ein hervorragender Motor für langfristigen Traffic-Aufbau."
 ---
+
+![SEO Traffic Infografik](../../assets/images/glossar/3d-light/glossar-traffic-3d.webp)
+
+Moin! 🌻
 
 Traffic ist die Währung der Aufmerksamkeit.
 Ganz einfach: Wie viele Menschen landen auf deiner Seite?

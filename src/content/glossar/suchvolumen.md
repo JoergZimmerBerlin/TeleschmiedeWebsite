@@ -2,7 +2,7 @@
 title: "Suchvolumen (Search Volume)"
 description: "Suchvolumen zeigt dir, wie viele Menschen monatlich nach einem Begriff suchen. Ein wichtiger Indikator, aber oft überschätzt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/glossar-suchvolumen-prognose.webp"
+image: "../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp"
 related_terms: ["keywoerter", "keyword-tool", "sichtbarkeit"]
 key_takeaways:
   - "Potenzial-Messwert: Suchvolumen zeigt das theoretische Interesse an einem Thema."
@@ -16,6 +16,10 @@ faqs:
   - question: "Ab welcher Zahl ist ein monatliches Suchvolumen eigentlich 'gut'?"
     answer: "Es gibt keine allgemein gültige magische Zahl – es hängt zu 100% von der Suchintention und der Gewinnmarge deiner Branche ab. Wenn du als B2B-Spezialmaschinenbauer ein Keyword mit hochexplizitem Kaufintent bedienst, reichen schon 50 Suchen im Monat, um sechsstellige Umsätze zu triggern. In der extrem kompetitiven und margenschwachen Entertainment- oder Fashion-Nische würden dir 10.000 Suchen vielleicht nicht einmal die Hostingkosten einspielen."
 ---
+
+![Suchvolumen Infografik](../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp)
+
+Moin! 🌻
 
 Suchvolumen ist die Antwort auf die Frage: Lohnt sich das?
 Es gibt an, wie oft ein Keyword pro Monat durchschnittlich bei Google eingegeben wird.

@@ -2,7 +2,7 @@
 title: "Snippet Optimierung"
 description: "Snippet Optimierung maximiert die Klickrate deines Suchergebnisses. Title-Tag, Meta-Description und Rich Snippets entscheiden, ob Nutzer auf dein Ergebnis klicken."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp"
 related_terms: ["ctr", "meta-description", "title-tag", "faq-markup"]
 key_takeaways:
   - "Dein Schaufenster: Das Snippet ist die Werbeanzeige deiner Seite in der Google-Suche."
@@ -17,7 +17,9 @@ faqs:
     answer: "Featured Snippets sind die hervorgehobenen Antwortboxen über den normalen Suchergebnissen – Position 0. Google wählt dafür Content aus, der eine Frage direkt und präzise beantwortet. Optimiere dafür: Verwende die Frage als H2-Überschrift, beantworte sie in 2-3 Sätzen direkt darunter, und nutze Listen oder Tabellen für strukturierte Informationen. Auf meiner Seite generieren mehrere Glossar-Einträge Featured Snippets, weil sie genau diesem Format folgen."
 ---
 
-Moin!
+![Snippet-Optimierung Infografik](../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp)
+
+Moin! 🌻
 
 **Snippet Optimierung** ist der am meisten unterschätzte Hebel im SEO. Jeder jagt Rankings – aber kaum jemand optimiert das, was der Nutzer tatsächlich sieht und klickt: das **Snippet**.
 

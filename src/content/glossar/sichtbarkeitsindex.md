@@ -2,7 +2,7 @@
 title: "Sichtbarkeitsindex (Sistrix & Co.)"
 description: "Der Sichtbarkeitsindex ist die wichtigste Währung im SEO. Er zeigt, wie gut deine Domain in den Google-Top-100 platziert ist. Hier erfährst du alles Wichtige."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
+image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsindex-3d.webp"
 related_terms: ["sichtbarkeit", "traffic", "keywoerter"]
 key_takeaways:
   - "Harte Währung: Der Index misst deine organische Macht unabhängig von saisonalen Schwankungen."
@@ -17,7 +17,9 @@ faqs:
     answer: "Früher gab es montags das große 'Sistrix-Zittern', da die Daten nur wöchentlich aktualisiert wurden. Heute berechnen professionelle Tools wie Sistrix oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) die Sichtbarkeit für wichtige Märkte und große Websites täglich neu. Bei massiven Ranking-Schwankungen oder nach einem Google Core Update kannst du die Auswirkungen also mittlerweile fast in Echtzeit verfolgen und entsprechend gegensteuern."
 ---
 
-Moin!
+![Sichtbarkeitsindex Infografik](../../assets/images/glossar/3d-light/glossar-sichtbarkeitsindex-3d.webp)
+
+Moin! 🌻
 
 Der Sichtbarkeitsindex ist die harte Währung der SEO-Welt. Keine Likes, keine Shares, kein Bullshit. Nur pure Daten aus den Google-SERPs. 
 

@@ -2,7 +2,7 @@
 title: "Rankingfaktoren"
 description: "Rankingfaktoren sind die Kriterien, nach denen Google Suchergebnisse sortiert. Über 200 Signale entscheiden, ob du auf Seite 1 oder auf Seite 10 landest."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp"
 related_terms: ["e-e-a-t", "core-web-vitals", "google-algorithmus", "technisches-seo"]
 key_takeaways:
   - "Über 200 Signale: Google nutzt hunderte Faktoren – aber nicht alle sind gleich wichtig."
@@ -17,7 +17,9 @@ faqs:
     answer: "Google hat offiziell gesagt: Nein, Social Signals sind kein direkter Rankingfaktor. Aber indirekt haben sie einen enormen Einfluss. Ein viraler LinkedIn-Post erzeugt Aufmerksamkeit, die zu Backlinks, Mentions und Branded Searches führt – und DAS sind direkte Rankingfaktoren. Außerdem nutzen KI-Modelle Social-Media-Inhalte als Trainingsmaterial. Wer auf LinkedIn aktiv ist, stärkt also auch seine GEO-Sichtbarkeit."
 ---
 
-Moin!
+![Rankingfaktoren Infografik](../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp)
+
+Moin! 🌻
 
 Jeder, der sich mit SEO beschäftigt, stellt irgendwann die Frage aller Fragen: *Was genau entscheidet Google, wer auf Platz 1 steht?*
 

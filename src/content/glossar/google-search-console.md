@@ -2,7 +2,7 @@
 title: "Google Search Console"
 description: "Die Google Search Console ist das wichtigste Werkzeug für jeden Webseitenbetreiber. Hier erfährst du direkt von Google, wie deine Seite performt."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"
 related_terms: ["crawling-vs-indexing", "sitemap", "keyword-tool"]
 key_takeaways:
   - "Direktquelle: Die Daten stammen ohne Umwege direkt aus dem Google-Index."
@@ -17,7 +17,9 @@ faqs:
     answer: "Die Verifizierung deiner Website-Inhaberschaft ist der allererste Schritt und glücklicherweise selbst für Einsteiger machbar. Der mit Abstand sicherste und von Profis favorisierte Weg ist die DNS-Verifizierung (als 'Domain Property'), da du hiermit direkt alle Subdomains und Protokolle (http/https) auf einen Schlag sauber erfasst. Alternativ kannst du auch simpel einen kleinen HTML-Tag im `<head>` deiner Seite platzieren oder die Freischaltung nahtlos über ein bereits verifiziertes Google Analytics-Konto anstoßen."
 ---
 
-Moin!
+![Google Search Console Infografik](../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp)
+
+Moin! 🌻
 
 Wenn es ein Tool gibt, das absolut unverzichtbar ist, dann ist es die **Google Search Console (GSC)**. Während andere Tools (wie Sistrix oder [[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)](https://seranking.com/de/?ga=4169588&source=link)) Daten schätzen und hochrechnen, liefert dir die GSC die nackte Wahrheit direkt aus dem Maschinenraum von Google.
 

@@ -18,8 +18,6 @@ faqs:
     answer: "Gutes SEO ist der beste Hebel für die Conversion Rate. Warum? Weil wir durch gezielte [Keyword-Recherche](/glossar/keywordrecherche/) Nutzer genau dann abholen, wenn sie ein Problem haben und nach einer Lösung suchen. Jemand, der nach 'SEO Freelancer Berlin Kosten' sucht, ist viel näher am Abschluss als jemand, der nur 'Was bedeutet SEO' googelt. Wir optimieren den Intent, nicht nur die Klicks. Das ist der Unterschied zwischen einem 'Bauchladen'  und Experten-Akquise."
 ---
 
-![Conversion Rate 3D Infografik: Vom Besucher zum Kunden](../../assets/images/glossar/3d-light/glossar-conversion-3d.webp)
-
 Moin! 🌻
 
 Die Conversion Rate ist der Moment der Wahrheit.

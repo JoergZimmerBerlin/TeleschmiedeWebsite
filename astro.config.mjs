@@ -1,6 +1,6 @@
-// Re-triggering deployment: 2026-02-28 11:40
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
+import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 // Automatische Erkennung: GitHub Pages vs Produktion
@@ -15,7 +15,9 @@ export default defineConfig({
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
   integrations: [
-    tailwind()
+    tailwind(),
+    sitemap(),
+    mdx()
   ],
   image: {
     remotePatterns: [{ protocol: 'https', hostname: 'i.ytimg.com' }],

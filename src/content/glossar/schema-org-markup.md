@@ -81,12 +81,13 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für Google noch 'stumm'?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Sichtbarkeit in der KI-Suche ab.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen </a>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir die Basis, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Audit anfragen </a>
 </div>
 
 * **Lese-Tipp:** [Was sind strukturierte Daten?](/glossar/strukturierte-daten/)
 * **Lese-Tipp:** [Die Bedeutung von Entity SEO](/glossar/entity-seo/)
+* **Lese-Tipp:** [Was ist E-E-A-T?](/glossar/e-e-a-t/)
 
 ---
 

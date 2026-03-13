@@ -2,7 +2,7 @@
 title: "LLMs.txt"
 description: "Die llms.txt ist ein neuer Standard zur Steuerung von KI-Crawlern. Sie liefert strukturierte Informationen direkt an Large Language Models."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["robots-txt", "geo", "entitaet"]
 key_takeaways:
   - "Maschinen-Fokus: Die llms.txt liefert Fakten direkt in das Gedächtnis von Sprachmodellen."

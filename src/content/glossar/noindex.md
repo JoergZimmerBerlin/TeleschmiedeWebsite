@@ -2,7 +2,7 @@
 title: "Noindex (Meta-Tag)"
 description: "Das Noindex Meta-Tag ist der mächtigste Steuerungsbefehl im HTML-Code, der Suchmaschinen explizit verbietet, eine spezifische URL in ihre öffentlichen Ergebnisse aufzunehmen."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["crawling-vs-indexing", "robots-txt", "seo-audit"]
 key_takeaways:
   - "Ultimative Löschung: Noindex entfernt Seiten zuverlässig aus dem Google-Index."

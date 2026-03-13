@@ -2,7 +2,7 @@
 title: "SEO Audit"
 description: "Ein SEO Audit ist der Gesundheitscheck für deine Website. Wir decken Fehler auf und bauen die Roadmap für dein Ranking."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["sichtbarkeitsindex", "pagespeed", "interne-verlinkung"]
 key_takeaways:
   - "Der SEO Audit deckt technische Fehler, Content-Lücken und strategische Bremsen auf."

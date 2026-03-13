@@ -2,7 +2,7 @@
 title: "SEO Beratung & SEO Consulting"
 description: "Professionelle SEO Beratung hilft dir, aus dem Dickicht technischer Details eine klare Strategie für mehr Umsatz zu schmieden."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-audit", "seo-agentur", "keywordrecherche"]
 key_takeaways:
   - "Strategische Ausrichtung: Beratung geht über Technik hinaus und fokussiert sich auf Business-Ziele."

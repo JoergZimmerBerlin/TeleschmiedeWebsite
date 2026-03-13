@@ -2,7 +2,7 @@
 title: "Markenaufbau mit SEO (Brand SEO)"
 description: "Markenaufbau mit SEO verbindet klassisches Branding mit Suchmaschinenoptimierung. Erfahre, wie du deine Marke über Google, KI-Suche und den Knowledge Graph strategisch positionierst."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entity-seo", "e-e-a-t", "mention", "citation"]
 key_takeaways:
   - "Entity First: Eine starke Marke ist eine starke Entität – Google versteht dich als Konzept, nicht nur als Domain."

@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "date +%s > public/build.txt",
+    "prebuild": "node scripts/check-assets.mjs && date +%s > public/build.txt",
     "build": "astro build",
     "preview": "astro preview",
     "lint": "astro check",

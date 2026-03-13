@@ -2,7 +2,7 @@
 title: "Knowledge Graph"
 description: "Der Google Knowledge Graph ist eine riesige Datenbank, die Wissen über reale Objekte (Entitäten) und deren Beziehungen untereinander verknüpft."
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-technical.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "entity-seo", "meta-description"]
 key_takeaways:
   - "Gehirn der Suche: Der Knowledge Graph verarbeitet Informationen als vernetztes Wissen, nicht als Listen."

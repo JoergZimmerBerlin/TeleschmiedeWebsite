@@ -2,7 +2,7 @@
 title: "SEO Agentur & SEO Agentur Berlin"
 description: 'Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit dem [Profitability-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) machen wir Ergebnisse messbar, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat.'
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/themes/glossar-theme-local.webp"
+image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
 key_takeaways:
   - "Struktur: Agenturen bieten oft ein breites Spektrum von Content bis IT-Support."

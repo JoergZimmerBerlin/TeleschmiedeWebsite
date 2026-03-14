@@ -73,7 +73,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
 <Layout
   title={`${post.data.title} | Jörg Zimmer Blog`}
   description={post.data.description}
-  ogImage={post.data.image?.src}
+  ogImage={postImageWebp?.src || post.data.image?.src}
   lcpImage={postImageWebp?.src}
 >
   <article class="section pt-8">

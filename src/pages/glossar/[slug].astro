@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 
 import KeyTakeaways from '../../components/KeyTakeaways.astro';
 import TachelesEcke from '../../components/TachelesEcke.astro';
@@ -20,6 +20,11 @@ const { entry } = Astro.props;
 const { Content, headings } = await entry.render();
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+let entryImageWebp = null;
+if (entry.data.image) {
+  entryImageWebp = await getImage({ src: entry.data.image, format: 'webp' });
+}
+
 // Reading Time Calculation
 const wordCount = entry.body.split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
@@ -34,7 +39,7 @@ const relatedTerms = allEntries.filter((e) =>
 <Layout
   title={`${entry.data.title} | SEO Glossar | Jörg Zimmer`}
   description={entry.data.description}
-  ogImage={entry.data.image?.src}
+  ogImage={entryImageWebp?.src || entry.data.image?.src}
 >
   <article class="section pt-2">
     <div class="container-narrow">

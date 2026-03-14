@@ -218,7 +218,7 @@ const relatedTerms = allEntries.filter((e) =>
   </article>
 
   <!-- Schema.org Definition -->
-  <script type="application/ld+json" set:html={JSON.stringify({
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["DefinedTerm", entry.data.faqs ? "FAQPage" : null].filter(Boolean),
     "name": entry.data.title,

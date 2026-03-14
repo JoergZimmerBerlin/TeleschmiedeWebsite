@@ -41,6 +41,7 @@ const glossar = defineCollection({
       question: z.string(),
       answer: z.string(),
     })).optional(),
+    tacheles: z.string().optional(),
   }),
 });
 

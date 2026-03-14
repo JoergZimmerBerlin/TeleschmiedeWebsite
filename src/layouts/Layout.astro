@@ -146,6 +146,7 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
               tr.querySelectorAll('td').forEach((td, i) => {
                 if (headers[i]) td.setAttribute('data-label', headers[i]);
               });
+            });
           }
         });
 

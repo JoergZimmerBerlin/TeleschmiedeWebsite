@@ -12,26 +12,7 @@ concurrency:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Lint content and code
-        run: npm run lint
-
-  deploy:
-    needs: validate
+    name: Build & Validate
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -49,10 +30,32 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Lint content and code
+        run: npm run lint
+
       - name: Build website
         run: npm run build
         env:
           DEPLOY_TARGET: ionos
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-dist
+          path: dist/
+          retention-days: 1
+
+  deploy:
+    name: Deploy to IONOS
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: website-dist
+          path: dist
 
       - name: Deploy via SFTP
         uses: pressidium/lftp-mirror-action@v1
@@ -64,18 +67,11 @@ jobs:
           remoteDir: '.'
           options: '--verbose'
 
-      # Upload build.txt artifact for the verification job
-      - name: Upload build ID
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-info
-          path: dist/build.txt
-          retention-days: 1
-
   verify:
+    name: Verify Live Site
     needs: deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -92,21 +88,25 @@ jobs:
       - name: Download build ID
         uses: actions/download-artifact@v4
         with:
-          name: build-info
-          path: dist
+          name: website-dist
+          path: dist-verify
 
       - name: Wait for deployment propagation
-        run: node scripts/wait-for-live.mjs https://teleschmie.de
-
-      - name: Post-Deploy Link-Check
         run: |
-          for i in {1..3}; do
+          # Copy only build.txt to dist where expected by script
+          mkdir -p dist
+          cp dist-verify/build.txt dist/build.txt
+          node scripts/wait-for-live.mjs https://teleschmie.de
+
+      - name: Post-Deploy Link-Check (Robust Retries)
+        run: |
+          for i in {1..5}; do
             node scripts/check-links.mjs && break || {
-              if [ $i -lt 3 ]; then
-                echo "Link check failed. Retrying in 30s ($i/3)..."
-                sleep 30
+              if [ $i -lt 5 ]; then
+                echo "Link check failed. Retrying in 60s ($i/5)..."
+                sleep 60
               else
-                echo "Link check failed after 3 attempts."
+                echo "Link check failed after 5 attempts."
                 exit 1
               fi
             }

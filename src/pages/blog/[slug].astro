@@ -31,9 +31,6 @@ if (post.data.image) {
 const wordCount = post.body.split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
-const shareUrl = `https://teleschmie.de/blog/${post.slug}/`;
-const shareTitle = encodeURIComponent(post.data.title);
-
 // Get related posts with scoring
 const allPosts = await getCollection('blog');
 const relatedPosts = allPosts
@@ -330,7 +327,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
   </article>
 
   <!-- Schema Markup -->
-  <script type="application/ld+json" set:html={JSON.stringify({
+  <script is:inline type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["Article", post.data.faqs ? "FAQPage" : null].filter(Boolean),
     "headline": post.data.title,

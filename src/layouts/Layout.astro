@@ -105,7 +105,7 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
 
     <Footer />
 
-<script is:inline>
+<script is:inline define:vars={{ baseUrl }}>
       let ticking = false;
       const updateProgress = () => {
         const progressBar = document.getElementById('progress-bar');
@@ -146,13 +146,84 @@ const ogImageUrl = ogImage ? `${siteUrl}${baseUrl}${ogImage}` : `${siteUrl}${bas
               tr.querySelectorAll('td').forEach((td, i) => {
                 if (headers[i]) td.setAttribute('data-label', headers[i]);
               });
-            });
           }
         });
 
         window.addEventListener('scroll', requestTick);
         window.addEventListener('resize', requestTick);
         updateProgress();
+
+        // --- High-End Glossary Tooltips (Lightweight Display-Only) ---
+        const initGlossaryTooltips = () => {
+          // Create Tooltip Element if doesn't exist
+          let tooltip = document.getElementById('glossary-tooltip');
+          if (!tooltip) {
+            tooltip = document.createElement('div');
+            tooltip.id = 'glossary-tooltip';
+            tooltip.innerHTML = '<span class="tooltip-title"></span><p class="tooltip-body"></p>';
+            document.body.appendChild(tooltip);
+          }
+
+          const titleEl = tooltip.querySelector('.tooltip-title');
+          const bodyEl = tooltip.querySelector('.tooltip-body');
+
+          const updatePos = (e, targetTooltip) => {
+            const x = e.clientX || (e.touches && e.touches[0].clientX);
+            const y = e.clientY || (e.touches && e.touches[0].clientY);
+            const offset = 20;
+            
+            let left = x + offset;
+            let top = y + offset;
+            
+            if (left + targetTooltip.offsetWidth > window.innerWidth) {
+              left = x - targetTooltip.offsetWidth - offset;
+            }
+            if (top + targetTooltip.offsetHeight > window.innerHeight) {
+              top = y - targetTooltip.offsetHeight - offset;
+            }
+            
+            targetTooltip.style.left = `${Math.max(10, left)}px`;
+            targetTooltip.style.top = `${Math.max(10, top)}px`;
+          };
+
+          // Tooltip Event Listeners for pre-linked terms
+          document.querySelectorAll('.glossary-link').forEach(link => {
+            const showTooltip = (e) => {
+              const title = link.getAttribute('data-tooltip-title');
+              const body = link.getAttribute('data-tooltip-body');
+              titleEl.textContent = title;
+              bodyEl.textContent = body;
+              tooltip.classList.add('visible');
+              updatePos(e, tooltip);
+            };
+
+            const hideTooltip = () => {
+              tooltip.classList.remove('visible');
+            };
+
+            link.addEventListener('mouseenter', showTooltip);
+            link.addEventListener('mousemove', (e) => updatePos(e, tooltip));
+            link.addEventListener('mouseleave', hideTooltip);
+            
+            // Mobile Support
+            link.addEventListener('touchstart', (e) => {
+              if (tooltip.classList.contains('visible') && titleEl.textContent === link.getAttribute('data-tooltip-title')) {
+                hideTooltip();
+              } else {
+                showTooltip(e);
+              }
+            });
+          });
+
+          // Close on tap outside
+          document.addEventListener('touchstart', (e) => {
+            if (!e.target.closest('.glossary-link') && !e.target.closest('#glossary-tooltip')) {
+              tooltip.classList.remove('visible');
+            }
+          });
+        };
+
+        initGlossaryTooltips();
       });
     </script>
   </body>

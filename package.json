@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/check-assets.mjs && date +%s > public/build.txt",
-    "build": "astro build",
+    "build": "astro build && node scripts/glossary-linker.mjs",
     "preview": "astro preview",
     "lint": "astro check",
     "check-links": "node scripts/check-links.mjs"

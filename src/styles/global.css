@@ -201,3 +201,38 @@
 .blog-cta-box a:not(.btn-primary) {
   @apply underline font-semibold text-lime-600 hover:text-lime-700 transition-colors !important;
 }
+/* --- High-End Glossary Tooltips --- */
+.glossary-link {
+  @apply relative text-lime-600 font-semibold border-b border-dashed border-lime-400 no-underline transition-all duration-200 !important;
+}
+
+.glossary-link:hover {
+  @apply border-lime-600 bg-lime-accent/10 !important;
+  cursor: help;
+}
+
+#glossary-tooltip {
+  @apply fixed z-[10000] max-w-[300px] p-6 rounded-2xl shadow-2xl pointer-events-none opacity-0 transition-opacity duration-300 transform scale-95;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(212, 255, 0, 0.3);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.15), 0 0 20px -5px rgba(212, 255, 0, 0.1);
+}
+
+#glossary-tooltip.visible {
+  @apply opacity-100 scale-100;
+}
+
+#glossary-tooltip .tooltip-title {
+  @apply block text-sm font-bold text-dark uppercase tracking-widest mb-2;
+}
+
+#glossary-tooltip .tooltip-body {
+  @apply text-sm text-gray-text leading-relaxed line-clamp-4;
+}
+
+#glossary-tooltip::after {
+  content: "Klicken für Details 🦖";
+  @apply block mt-3 pt-3 border-t border-gray-100 text-[10px] font-bold text-lime-700 uppercase tracking-widest;
+}

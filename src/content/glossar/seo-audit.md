@@ -3,6 +3,7 @@ title: "SEO Audit"
 description: "Ein SEO Audit ist der Gesundheitscheck für deine Website. Wir decken Fehler auf und bauen die Roadmap für dein Ranking."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+tacheles: "Ein SEO-Audit ist kein PDF-Friedhof, den man nach 6 Monaten mal ausdruckt. Wer nur Fehler auflistet, statt Prioritäten zu setzen, betreibt Pfusch am Bau. Ein Audit muss wehtun, wenn man sieht, wo Umsatz liegen bleibt, aber er muss vor allem einen klaren Schlachtplan liefern. Ohne Umsetzung ist jedes Audit nur teures Altpapier. 🦖"
 related_terms: ["sichtbarkeitsindex", "pagespeed", "interne-verlinkung"]
 key_takeaways:
   - "Der SEO Audit deckt technische Fehler, Content-Lücken und strategische Bremsen auf."
@@ -13,11 +14,6 @@ key_takeaways:
 Ein SEO Audit ist wie ein Besuch beim Zahnarzt.
 Niemand freut sich drauf, aber hinterher bist du heilfroh, wenn die Löcher gestopft sind.
 Es ist die schonungslose Bestandsaufnahme deiner kompletten Website.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"24 Jahre in dieser Branche haben mich eins gelehrt: Jeder Hype geht vorbei, aber sauberes Handwerk und echter Nutzerfokus überleben jedes Core Update."</p>
-</div>
 
 Wir werfen alles in den Grill: Technik, Content, Backlinks.
 Warum rankst du nicht auf Platz 1? 

@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets';
+import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.webp';
+
+interface Props {
+  insight: string;
+}
+
+const { insight } = Astro.props;
+---
+
+<div class="my-16 bg-lime-accent/10 border-2 border-lime-accent/30 rounded-3xl p-8 relative overflow-hidden group">
+  <!-- Decorative background element -->
+  <div class="absolute -right-8 -top-8 w-32 h-32 bg-lime-accent/20 rounded-full blur-2xl group-hover:bg-lime-accent/30 transition-colors"></div>
+  
+  <div class="flex flex-col md:flex-row gap-8 items-start relative z-10">
+    <div class="flex-shrink-0">
+      <div class="relative">
+        <Image
+          src={portraitImage}
+          alt="Jörg Zimmer Tacheles"
+          width={80}
+          height={80}
+          class="w-20 h-20 rounded-2xl object-cover shadow-md border-2 border-white transform -rotate-3 group-hover:rotate-0 transition-transform duration-300"
+        />
+        <span class="absolute -bottom-2 -right-2 bg-dark text-white text-[10px] font-bold px-2 py-1 rounded-lg shadow-sm">
+          TACHELES
+        </span>
+      </div>
+    </div>
+    
+    <div class="flex-1">
+      <h4 class="text-xl font-bold text-dark mb-4 flex items-center gap-2">
+        💬 Jörgs SEO-Klartext
+        <span class="text-xs font-normal text-gray-muted hidden md:inline-block bg-white/50 px-2 py-0.5 rounded-full">LinkedIn Insights</span>
+      </h4>
+      <p class="text-lg text-dark leading-relaxed font-medium italic">
+        "{insight}"
+      </p>
+      <div class="mt-4 flex items-center gap-2 text-sm text-lime-700 font-bold">
+        <span>Sei nützlich.</span>
+        <span class="w-1.5 h-1.5 bg-lime-500 rounded-full"></span>
+        <span>Moin! 🌻✌️</span>
+      </div>
+    </div>
+  </div>
+</div>

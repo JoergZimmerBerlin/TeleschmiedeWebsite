@@ -24,7 +24,11 @@ export default defineConfig({
   },
   redirects: {
     '/leistungen/sechstunde/': '/seo-sprechstunde/',
-    '/blog/schema-markup-zustaendigkeit-umfrage/': '/blog/google-search-console-zustaendigkeit-umfrage/'
+    '/blog/schema-markup-zustaendigkeit-umfrage/': '/blog/google-search-console-zustaendigkeit-umfrage/',
+    '/html/impressum.html': '/impressum/',
+    '/html/antworten.html': '/leistungen/',
+    '/berlin/adwords-optimierung-sea.html': '/google-ads-freelancer-berlin/',
+    '/berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html': '/seo-freelancer-berlin/'
   },
   prefetch: true,
   output: 'static',

@@ -1,6 +1,6 @@
 ---
 title: "Trustworthiness (E-E-A-T Faktor)"
-description: "Trustworthiness (Vertrauenswürdigkeit) ist der zentrale E-E-A-T Faktor. Google sagt selbst: Ohne Trust sind Experience, Expertise und Authority wertlos."
+description: "Trustworthiness (Vertrauenswürdigkeit) im SEO: Der zentrale E-E-A-T Faktor. Erfahre, warum Trust die Basis für dein Google-Ranking ist. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-trust-3d.webp"
 image_alt: "Trustworthiness (E-E-A-T) 3D Infografik - Vertrauen als Basis der Suchmaschinenoptimierung"

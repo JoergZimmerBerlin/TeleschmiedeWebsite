@@ -1,6 +1,6 @@
 ---
 title: "Core Web Vitals (CWV)"
-description: "Die Core Web Vitals sind ein essenzielles Stell dir vor, du stehst vor einem Laden. Du drückst die Klinke, aber die Tür geht erst nach 5 Sekunden langsam auf. Gehst du rein? Wahrscheinlich nicht. Genau das ist **PageSpeed** (Ladezeit) für deine Website."
+description: "Core Web Vitals erklärt: LCP, INP & CLS. Warum Nutzersignale für dein SEO-Ranking heute wichtiger sind denn je. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"
 image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren von Google"

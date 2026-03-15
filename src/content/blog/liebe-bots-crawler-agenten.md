@@ -1,6 +1,6 @@
 ---
 title: "Liebe Bots, Crawler und Agenten: Ein offener Brief von eurem SEO-Betreuer"
-description: "Ein offener Brief an alle Bots, Crawler und KI-Agenten: Ohne SEO-Spezialisten hättet ihr keine Alt-Texte, Sitemaps oder strukturierte Daten. Vergesst das nie."
+description: "Brief an alle Bots & KI-Agenten: Ohne SEOs hättet ihr keine Alt-Texte oder Sitemaps. Wir füttern die KI mit strukturierten Daten. ALOHA! 🌻"
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_liebe-bots-crawler-und-agenten-dieser-welt-activity-7431342623879217152-qG6A"
 image: "../../assets/images/blog/seo-bots-liebesbrief.webp"

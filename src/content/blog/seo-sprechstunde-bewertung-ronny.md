@@ -1,6 +1,6 @@
 ---
 title: "5 Sterne: Was Kunden über die SEO-Sprechstunde sagen"
-description: "Ronny A. teilt seine Erfahrung nach einer 2-stündigen SEO-Beratung mit Jörg Zimmer. Was wirklich passiert, wenn eine Website auf den Grill kommt – und was danach anders ist."
+description: "Ronny A. teilt seine Erfahrung nach der 2-stündigen SEO-Sprechstunde. Was passiert, wenn eine Website auf den Grill kommt. ALOHA! 🌻"
 date: "2026-01-27"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_einmal-website-sichtbarkeit-auf-den-grill-activity-7411702493564473344-TD6t"
 image: "../../assets/images/blog/seo-sprechstunde-prozess.webp"

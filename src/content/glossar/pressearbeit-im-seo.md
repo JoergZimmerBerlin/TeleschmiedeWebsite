@@ -1,6 +1,6 @@
 ---
 title: "Pressearbeit im SEO (Digital PR)"
-description: "Pressearbeit im SEO (Digital PR) verbindet klassische PR mit Suchmaschinenoptimierung. Erfahre, wie Medienarbeit deine Rankings, Autorität und KI-Sichtbarkeit stärkt."
+description: "Pressearbeit im SEO (Digital PR) stärkt deine Rankings, Autorität und KI-Sichtbarkeit durch gezielte Medienarbeit. Jetzt informieren. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 related_terms: ["linkbuilding", "mention", "e-e-a-t", "markenaufbau-mit-seo"]

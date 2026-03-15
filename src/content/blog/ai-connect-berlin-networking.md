@@ -1,6 +1,6 @@
 ---
 title: "1. AI Connect Berlin: Vibe Coding, Antigravity und Gemini Pro"
-description: "Ich bin am 8. April beim AI Connect in Berlin! Warum ich mich auf Antigravity, Gemini AI Pro und echtes 'Vibe Coding' freue – und warum du dich mit mir vernetzen solltest."
+description: "Besuche mich am 8. April beim AI Connect in Berlin! Antigravity, Gemini AI Pro und echtes 'Vibe Coding' – vernetze dich mit mir. ALOHA! 🌻"
 date: "2026-03-15"
 image: "../../assets/images/blog/ai-connect-berlin-ticket.webp"
 image_alt: "Ticket für 1. AI Connect Berlin - Jörg Zimmer ist dabei"

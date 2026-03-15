@@ -1,6 +1,6 @@
 ---
 title: "Warum wir SEO-Spezialisten schuld am Zustand des Internets sind (und wie wir es gemeinsam ändern)"
-description: "Ein kritischer Blick auf die SEO-Branche: Warum grundlegende Basics oft fehlen und wie wir durch eine starke Community die Sichtbarkeit unserer Disziplin erhöhen."
+description: "Warum der SEO-Branche oft Basics fehlen und wie wir durch eine starke Community die Sichtbarkeit unserer Disziplin erhöhen. ALOHA! 🌻"
 date: "2026-03-01"
 image: "../../assets/images/pages/hero-pose.webp"
 image_alt: "Jörg Zimmer vor einer Hecke in Aktion - Warum SEOs Verantwortung übernehmen müssen"

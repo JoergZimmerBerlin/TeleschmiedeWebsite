@@ -1,6 +1,6 @@
 ---
 title: "Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist "
-description: "Ich komme aus einer Zeit mit 56k Modems und reinem HTML Code. Warum diese Basics heute wichtiger sind als jedes Hochglanz-Leerschwerdt. Jörgs SEO-Biografie."
+description: "Von 56k Modems zu modernem SEO: Warum Technik-Basics heute wichtiger sind als jedes Hochglanz-Tool. Jörgs persönliche SEO-Biografie. ALOHA! 🌻"
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-komme-aus-einfachsten-seo-verhaeltnissen-activity-7278776634860732416-L_oQ"
 image: "../../assets/images/blog/joerg-zimmer-dots-personal.webp"

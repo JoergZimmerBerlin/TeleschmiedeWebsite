@@ -1,6 +1,6 @@
 ---
 title: "Technisches Schema-Markup"
-description: "Technisches Schema-Markup ist die Implementierung von strukturierten Daten auf deiner Website. Es macht deine Inhalte maschinenlesbar – für Google UND KI-Systeme."
+description: "Schema-Markup macht deine Inhalte maschinenlesbar – für Google UND moderne KI-Systeme. Jetzt technische Implementierung lernen. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "strukturierte-daten", "faq-markup", "technisches-seo"]

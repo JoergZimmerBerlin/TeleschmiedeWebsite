@@ -1,6 +1,6 @@
 ---
 title: "Linkjuice (Linkkraft)"
-description: "Linkjuice ist ein umgangssprachlicher SEO-Begriff für die Verteilung von Ranking-Power (PageRank), die durch interne und externe Verlinkungen weitergegeben wird."
+description: "Linkjuice erklärt: Die Verteilung von Ranking-Power durch interne und externe Verlinkungen. So optimierst du deine Linkstruktur. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkjuice-3d.webp"
 image_alt: "Linkjuice (Linkkraft) 3D Infografik"
@@ -81,7 +81,7 @@ Ein Fehler, den ich regelmäßig in meiner [SEO Sprechstunde](/seo-sprechstunde/
 
 Mit dem Aufkommen der generativen Suche ([Generative Engine Optimization](/glossar/geo/)) verändert sich die Bedeutung des klassischen Linkaufbaus. 
 
-KIs wie LLMs nutzen bei der Beantwortung komplexer Fragen keine PageRank-Berechnung in Echtzeit. Stattdessen gewichten sie *Co-Occurrences* – wie oft dein Markenname im Kontext eines Themas im Trainingsdatensatz auftaucht. Hier wandelt sich der technische "Linkjuice" in eine Art "Semantische Referenz". 
+KIs wie LLMs nutzen bei der Beantwortung komplexer Fragen keine PageRank-Berechnung in Echtzeit. Stattdessen gewichten sie *Co-Occurrences* – wie oft dein Markenname im Kontext eines Themen im Trainingsdatensatz auftaucht. Hier wandelt sich der technische "Linkjuice" in eine Art "Semantische Referenz". 
 
 Das bedeutet: Zukünftig wird es immer weniger wichtig sein, *woher* der harte HTML-Link kommt (PageRank), sondern *wer* über dich in welchem Kontext berichtet (Entitäten-Autorität). Ein reiner Text-Mention ohne Link in einem bekannten Fachmagazin kann für KI-Agenten bald wertvoller sein, als ein harter Backlink aus einem anonymen Artikel-Verzeichnis. Wer sich nicht rechtzeitig darauf einstellt, begeht einen der klassischen [80% SEO-Fehler der Zukunft](/blog/80-prozent-seo-fehler-sprechstunde/).
 
@@ -89,11 +89,14 @@ Das bedeutet: Zukünftig wird es immer weniger wichtig sein, *woher* der harte H
 
 ALOHA 🌻 
 
+---
+
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Verschenkst du wertvollen Linkjuice?</h3>
   <p class="mb-6">Ich zeige dir, wie du deine interne Kraft verdoppelst und externe Autorität aufbaust. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir deine Power-Pages.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen </a>
 </div>
 
+### Lese-Tipp
 * **Lese-Tipp:** [Was ist Authority?](/glossar/authoritativeness-eeat/)
 * **Lese-Tipp:** [Interne Verlinkung](/glossar/interne-verlinkung/)

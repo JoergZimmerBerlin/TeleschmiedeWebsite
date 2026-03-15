@@ -1,6 +1,6 @@
 ---
 title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
-description: "Björn Darko interviewt Maximilian Muhr im SEOpresso Podcast – ehrliche Einblicke in 15+ Jahre SEO-Karriere, Burnout-Erfahrungen und die Zukunft der Entitäten-Optimierung."
+description: "Maximilian Muhr im SEOpresso Podcast: Einblicke in 15+ Jahre SEO, Burnout-Erfahrungen und die Zukunft der Entitäten-Optimierung. ALOHA! 🌻"
 date: "2026-01-28"
 image: "../../assets/images/blog/seopresso-max-muhr.webp"
 image_alt: "SEOPRESSO Podcast Interview mit Maximilian Muhr"

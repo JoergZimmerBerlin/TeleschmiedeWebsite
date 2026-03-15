@@ -1,6 +1,6 @@
 ---
 title: "SEO Persönlich: Mein Interview im SEOpresso Podcast "
-description: "Ein sehr persönliches Interview über meine Anfänge, 24 Jahre Selbständigkeit und warum Kommunikation im SEO heute wichtiger ist als jedes Tool. Im Gespräch mit Björn Darko."
+description: "Interview über meine Anfänge, 24 Jahre Selbständigkeit und warum Kommunikation im SEO heute wichtiger ist als jedes Tool. Mit Björn Darko. ALOHA! 🌻"
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bj%C3%B6rn-darko_bj%C3%B6rn-darko-joerg-zimmer-seo-persoenlich-activity-7289547115112222720-Y6eW"
 image: "../../assets/images/blog/seopresso-interview.webp"

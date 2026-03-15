@@ -1,6 +1,6 @@
 ---
 title: "Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet "
-description: "Einmal im Jahr poste ich dieses Meme. Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir Spezialisten das Chaos verhindern könnten."
+description: "Jedes Jahr das gleiche Meme: Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir das Chaos verhindern. ALOHA! 🌻"
 date: "2026-03-11"
 image: "../../assets/images/blog/relaunch-ohne-seo.webp"
 image_alt: "Sarkastisches Meme: Website-Relaunch ohne SEO – das klassische Relaunch-Desaster"

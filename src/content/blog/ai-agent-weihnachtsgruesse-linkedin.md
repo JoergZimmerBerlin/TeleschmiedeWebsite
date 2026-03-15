@@ -1,6 +1,6 @@
 ---
 title: "Wenn AI-Agenten deinen LinkedIn-Feed kapern "
-description: "Achim vom Gartenverein hat einen Bot gebaut - und damit ein Problem sichtbar gemacht. Warum automatisierte LinkedIn-Grüße das 'Social' aus Social Media entfernen."
+description: "Warum automatisierte LinkedIn-Grüße das 'Social' aus Social Media entfernen. Ein Beispiel von Achim und seinem Gartenverein-Bot. ALOHA! 🌻"
 date: "2025-12-20"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_achim-vom-gartenverein-hat-einen-ai-agenten-share-7409572323978276864-P1I1"
 image: "../../assets/images/pages/blog-hero-notizblock.webp"

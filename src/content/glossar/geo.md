@@ -1,6 +1,6 @@
 ---
 title: "Generative Engine Optimization (GEO)"
-description: "GEO ist die Weiterentwicklung der klassischen Suchmaschinenoptimierung (SEO), die sich auf die Sichtbarkeit in generativen KI-Suchmaschinen und Sprachmodellen (LLMs) konzentriert."
+description: "GEO (Generative Engine Optimization): Die Zukunft von SEO für KI-Suchmaschinen wie ChatGPT & Perplexity. Sei dort sichtbar, wo Nutzer fragen. ALOHA! 🌻"
 date: "2026-03-10"
 related_terms: ["llm", "search-intent", "core-web-vitals"]
 key_takeaways:
@@ -37,7 +37,7 @@ Während die klassische Suchmaschinenoptimierung stark auf traditionelle Ranking
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Der Paradigmenwechsel</h4>
-  <p class="mb-0 text-sm">LLMs sind "Reasoning Engines". Sie versuchen Fakten zu synthetisieren, anstatt nur Links aufzulisten. Dein Ziel bei GEO ist es nicht, für ein Keyword auf Platz 1 zu ranken, sondern <strong>Teil der Fakten-Synthese der KI zu werden</strong> und von ihr zitiert zu werden.</p>
+  <p class="mb-0 text-sm">LLMs are "Reasoning Engines". Sie versuchen Fakten zu synthetisieren, anstatt nur Links aufzulisten. Dein Ziel bei GEO ist es nicht, für ein Keyword auf Platz 1 zu ranken, sondern <strong>Teil der Fakten-Synthese der KI zu werden</strong> und von ihr zitiert zu werden.</p>
 </div>
 
 ### Die wichtigsten Unterschiede im Überblick:
@@ -78,7 +78,7 @@ Die Adaption von Usern hin zu Sprachmodellen bedeutet, dass Long-Tail-Suchanfrag
 
 Wer bei diesen extrem spezifischen *Conversational Queries* sichtbar ist, generiert hoch konvertierenden Traffic. Gleichzeitig sinkt der Traffic für generische, informationsgetriebene *Short-Tail* Keywords rapide, da die User die Applikation (z. B. ChatGPT) für die Antwort nicht mehr verlassen (Zero-Click-Searches). Wer eine Website einem kritischen Relaunch unterzieht, sollte diese neuen Metriken und Herangehensweisen zwingend vorab einplanen – werfe dazu gerne einen Blick auf meine Tipps zum Thema [Relaunch ohne SEO-Verlust](/blog/80-prozent-seo-fehler-sprechstunde/).
 
-GEO ist kein kurzfristiger Trend oder simples "Keyword-Stuffing" für KIs. Es ist die technische und semantische Evolution der Disziplin SEO und zwingt Webmaster dazu, Inhalte logisch unmissverständlich, extrem nutzerzentriert (hilfreich) und vor allem fachlich tiefgreifend aufzubereiten. Wer den Algorithmus als bloßes Hindernis sieht, verliert – wer ihn als "Reasoning Engine" begreift und ihm saubere Fakten liefert, wird auf Jahre hinweg dominieren.
+GEO ist kein kurzfristiger Trend oder simples "Keyword-Stuffing" für KIs. Es ist die technische und semantische Evolution der Disziplin SEO und zwingt Webmaster dazu, Inhalte logisch unmissverständlich, extrem nutzerzentriert (hilfreich) und vor allem fachlich tiefgreifend aufzubereiten. Wer den Algorithmus als bloßes Hindernis sieht, verliert – wer ihn als "Reasoning Engine" begreift und ihm saubere Fakten lievert, wird auf Jahre hinweg dominieren.
 
 ## Dein nächster Schritt
 

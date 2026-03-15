@@ -1,6 +1,6 @@
 ---
 title: "Braucht SEO einen neuen Namen? (Die Campixx Umfrage) "
-description: "Auf der Campixx habe ich die Community gefragt: Ist der Begriff 'SEO' noch zeitgemäß? Die Ergebnisse und die besten Namensvorschläge aus über 40 Kommentaren."
+description: "Auf der Campixx gefragt: Ist der Begriff 'SEO' noch zeitgemäß? Die Ergebnisse und besten Namensvorschläge aus über 40 Kommentaren. ALOHA! 🌻"
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_braucht-seo-einen-neuen-namen-activity-7261642115124117504-2W9Q"
 image: "../../assets/images/blog/campixx-seo-naming-poll.webp"

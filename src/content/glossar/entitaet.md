@@ -1,6 +1,6 @@
 ---
 title: "Entität (Entity)"
-description: "Eine Entität ist ein eindeutig identifizierbares Objekt – wie eine Person, ein Ort oder ein Konzept. Sie ist der Grundbaustein der modernen semantischen Suche."
+description: "Eine Entität ist ein identifizierbares Objekt wie eine Person oder ein Konzept. Sie ist der Grundbaustein der modernen semantischen Suche."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["knowledge-graph", "mention", "geo"]

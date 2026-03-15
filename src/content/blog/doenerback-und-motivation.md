@@ -1,6 +1,6 @@
 ---
 title: "Grüne Woche, Dönerback und warum das Geheimnis in der Qualität liegt "
-description: "Vom Rewe-Kühlschrank zur Grüne Woche. Eine Geschichte über Produktqualität, die Döner-Revolution und was das alles mit Performance Marketing zu tun hat."
+description: "Vom Rewe-Kühlschrank zur Grüne Woche. Produktqualität, die Döner-Revolution und was Performance Marketing damit zu tun hat. Jörg klärt auf."
 date: "2026-03-11"
 image: "../../assets/images/blog/linkedin_doenerback.webp"
 image_alt: "Jörg auf der Grüne Woche mit den Gründern von Dönerback"

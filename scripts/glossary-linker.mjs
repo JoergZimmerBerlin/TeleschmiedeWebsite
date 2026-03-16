@@ -78,19 +78,30 @@ function linkHtml(filePath, glossary) {
 
     const regex = new RegExp(`\\b(${term.title})\\b`, 'gi');
     
-    content = content.replace(regex, (match, offset) => {
+    content = content.replace(regex, (match, p1, offset) => {
       const upToMatch = content.substring(0, offset);
-      const openTags = upToMatch.match(/<[a-zA-Z]+/g) || [];
-      const closeTags = upToMatch.match(/<\/[a-zA-Z]+/g) || [];
-      if (openTags.length > closeTags.length) return match;
+      
+      // Robust check: are we inside a tag?
+      // Look at the last '<' and '>' before the match.
+      const lastOpen = upToMatch.lastIndexOf('<');
+      const lastClose = upToMatch.lastIndexOf('>');
+      
+      // If there's an open bracket after the last close bracket, we're inside a tag attribute
+      if (lastOpen > lastClose) return match;
 
-      const lastAOpen = upToMatch.lastIndexOf('<a');
-      const lastAClose = upToMatch.lastIndexOf('</a');
+      // Case-insensitive check for being inside an <a> tag
+      const lastAOpen = upToMatch.toLowerCase().lastIndexOf('<a');
+      const lastAClose = upToMatch.toLowerCase().lastIndexOf('</a');
       if (lastAOpen > lastAClose) return match;
 
-      const lastHOpen = upToMatch.search(/<h[1-6]/i);
-      const lastHClose = upToMatch.search(/<\/h[1-6]/i);
-      if (lastHOpen > lastHClose) return match;
+      // Case-insensitive check for being inside a heading (h1-h6)
+      const lastHOpen = upToMatch.toLowerCase().lastIndexOf('<h');
+      const lastHClose = upToMatch.toLowerCase().lastIndexOf('</h');
+      // If we found a <hX tag, check if it's actually a heading and not closed
+      if (lastHOpen > lastHClose) {
+          const headingTagMatch = upToMatch.substring(lastHOpen).match(/^<h[1-6]/i);
+          if (headingTagMatch) return match;
+      }
 
       matchesCount++;
       return `<a href="/glossar/${term.slug}/" class="glossary-link" data-tooltip-title="${term.title}" data-tooltip-body="${term.description}">${match}</a>`;

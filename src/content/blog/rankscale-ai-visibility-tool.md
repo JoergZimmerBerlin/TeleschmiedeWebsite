@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Die große Frage im [GEO](/glossar/ai-geo/)-Zeitalter ist nicht mehr nur: Auf welcher Position stehe ich bei Google? Die neue, viel existenziellere Frage lautet: **Wie sichtbar bin ich in ChatGPT, Perplexity, Claude und Co. – und was erzählen die KIs über mich?**
+Die große Frage im [GEO](/glossar/geo/)-Zeitalter ist nicht mehr nur: Auf welcher Position stehe ich bei Google? Die neue, viel existenziellere Frage lautet: **Wie sichtbar bin ich in ChatGPT, Perplexity, Claude und Co. – und was erzählen die KIs über mich?**
 
 Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 

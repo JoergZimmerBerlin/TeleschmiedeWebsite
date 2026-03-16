@@ -76,7 +76,7 @@ Die Namens-Debatte ist im Kern keine Semantik-Übung. Sie ist ein Spiegel unsere
 
 Wenn wir uns beim Kunden als "SEO-Dienstleister" positionieren, landen wir in der Vergleichsliste zusammen mit Fiverr und der Freelancerin für 300 Euro monatlich. Wenn wir uns als **Experten für digitale Marktposition und Sichtbarkeit** präsentieren, sitzen wir am Strategiemeetingtisch.
 
-Das Handwerk selbst hat sich verändert. [GEO (Generative Engine Optimization)](/glossar/ai-geo/) ist kein Zukunftsbegriff mehr – es ist Gegenwart. [E-E-A-T](/glossar/e-e-a-t/) ist längst der Goldstandard. Voice Search, [Schema Markup](/glossar/schema-org-markup/), Core Web Vitals – alles Themen, die in einem "klassischen" SEO-Verständnis nicht mal Platz hätten.
+Das Handwerk selbst hat sich verändert. [GEO (Generative Engine Optimization)](/glossar/geo/) ist kein Zukunftsbegriff mehr – es ist Gegenwart. [E-E-A-T](/glossar/e-e-a-t/) ist längst der Goldstandard. Voice Search, [Schema Markup](/glossar/schema-org-markup/), Core Web Vitals – alles Themen, die in einem "klassischen" SEO-Verständnis nicht mal Platz hätten.
 
 Also: Wie nennst du dein Handwerk, wenn du es einem Entscheider erklärst? Und noch wichtiger: Tust du das mit der Sprache, die Budget freisetzt?
 

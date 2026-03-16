@@ -25,7 +25,7 @@ Moin! 🌻
 
 Wer mich kennt, weiß: Ich teste Tools nicht nur, ich quäle sie. Und wenn ein Team so schnell liefert wie die Jungs von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, dann muss ich das hier im Blog natürlich Tacheles besprechen. 
 
-Die AI-Visibility-Welt dreht sich gerade rasend schnell, und Rankscale hat gerade ein Paket an Updates rausgehauen, das zeigt: Sie wollen nicht nur mitspielen, sie wollen den Standard für [GEO](/glossar/ai-geo/) setzen.
+Die AI-Visibility-Welt dreht sich gerade rasend schnell, und Rankscale hat gerade ein Paket an Updates rausgehauen, das zeigt: Sie wollen nicht nur mitspielen, sie wollen den Standard für [GEO](/glossar/geo/) setzen.
 
 Hier sind die wichtigsten Neuerungen, die du jetzt auf dem Schirm haben musst:
 

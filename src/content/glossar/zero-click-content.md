@@ -57,5 +57,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zero-Click Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)
-* **Lese-Tipp:** [CTR optimieren](/glossar/ctr/)
+* [AEO: Answer Engine Optimization](/glossar/aeo/)
+* [CTR optimieren](/glossar/ctr/)

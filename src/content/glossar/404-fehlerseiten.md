@@ -93,6 +93,6 @@ ALOHA 🌻! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern </a>
 </div>
 
-* **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)
-* **Lese-Tipp:** [Crawler verstehen](/glossar/crawler/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* [Was ist ein SEO Audit?](/glossar/seo-audit/)
+* [Crawler verstehen](/glossar/crawler/)
+* [Was ist GEO?](/glossar/geo/)

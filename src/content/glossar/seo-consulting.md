@@ -61,5 +61,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Consulting-Gespräch anfragen </a>
 </div>
 
-* **Lese-Tipp:** [SEO Coaching: Selbst lernen](/glossar/seo-coaching/)
-* **Lese-Tipp:** [SEO Beratung erklärt](/glossar/seo-beratung/)
+* [SEO Coaching: Selbst lernen](/glossar/seo-coaching/)
+* [SEO Beratung erklärt](/glossar/seo-beratung/)

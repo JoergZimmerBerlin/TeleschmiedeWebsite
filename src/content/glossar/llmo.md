@@ -73,7 +73,7 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [GEO: Die Gesamtstrategie](/glossar/geo/)
-* **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)
-* **Lese-Tipp:** [AI Tracking Tools nutzen](/glossar/ai-tracking-tools/)
-* **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)
+* [GEO: Die Gesamtstrategie](/glossar/geo/)
+* [AEO: Answer Engine Optimization](/glossar/aeo/)
+* [AI Tracking Tools nutzen](/glossar/ai-tracking-tools/)
+* [Was sind Entitäten?](/glossar/entitaet/)

@@ -117,7 +117,7 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
-* **Lese-Tipp:** [Wie funktioniert GEO?](/glossar/geo/)
-* **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
-* **Lese-Tipp:** [Was ist Traffic?](/glossar/traffic/)
+* [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
+* [Wie funktioniert GEO?](/glossar/geo/)
+* [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* [Was ist Traffic?](/glossar/traffic/)

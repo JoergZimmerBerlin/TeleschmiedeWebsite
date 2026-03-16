@@ -86,9 +86,9 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind strukturierte Daten?](/glossar/strukturierte-daten/)
-* **Lese-Tipp:** [Die Bedeutung von Entity SEO](/glossar/entity-seo/)
-* **Lese-Tipp:** [Was ist E-E-A-T?](/glossar/e-e-a-t/)
+* [Was sind strukturierte Daten?](/glossar/strukturierte-daten/)
+* [Die Bedeutung von Entity SEO](/glossar/entity-seo/)
+* [Was ist E-E-A-T?](/glossar/e-e-a-t/)
 
 ---
 

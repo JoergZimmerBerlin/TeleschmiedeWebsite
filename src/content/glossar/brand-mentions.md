@@ -56,6 +56,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Mention-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind Mentions?](/glossar/mention/)
-* **Lese-Tipp:** [Citations und ihre Bedeutung](/glossar/citation/)
-* **Lese-Tipp:** [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
+* [Was sind Mentions?](/glossar/mention/)
+* [Citations und ihre Bedeutung](/glossar/citation/)
+* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)

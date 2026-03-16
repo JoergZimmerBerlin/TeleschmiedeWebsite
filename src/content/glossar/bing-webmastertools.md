@@ -81,7 +81,7 @@ ALOHA 🌻! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Setup anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Google Search Console verstehen](/glossar/google-search-console/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-* **Lese-Tipp:** [Sitemap richtig einsetzen](/glossar/sitemap/)
-* **Lese-Tipp:** [Crawler verstehen](/glossar/crawler/)
+* [Google Search Console verstehen](/glossar/google-search-console/)
+* [Was ist GEO?](/glossar/geo/)
+* [Sitemap richtig einsetzen](/glossar/sitemap/)
+* [Crawler verstehen](/glossar/crawler/)

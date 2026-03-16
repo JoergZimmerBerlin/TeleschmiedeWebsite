@@ -73,6 +73,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Marken-Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Entity SEO verstehen](/glossar/entity-seo/)
-* **Lese-Tipp:** [Was ist eine Grounding Page?](/glossar/grounding-page/)
-* **Lese-Tipp:** [Pressearbeit im SEO](/glossar/pressearbeit-im-seo/)
+* [Entity SEO verstehen](/glossar/entity-seo/)
+* [Was ist eine Grounding Page?](/glossar/grounding-page/)
+* [Pressearbeit im SEO](/glossar/pressearbeit-im-seo/)

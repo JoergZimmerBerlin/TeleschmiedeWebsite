@@ -84,6 +84,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-* **Lese-Tipp:** [GEO Freelancer: Was macht er anders?](/glossar/geo-freelancer/)
-* **Lese-Tipp:** [Entity SEO verstehen](/glossar/entity-seo/)
+* [Was ist GEO?](/glossar/geo/)
+* [GEO Freelancer: Was macht er anders?](/glossar/geo-freelancer/)
+* [Entity SEO verstehen](/glossar/entity-seo/)

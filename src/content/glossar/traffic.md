@@ -89,5 +89,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Traffic-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist die Conversion Rate?](/glossar/conversion-rate/)
-* **Lese-Tipp:** [Sichtbarkeit vs. Traffic](/glossar/sichtbarkeit/)
+* [Was ist die Conversion Rate?](/glossar/conversion-rate/)
+* [Sichtbarkeit vs. Traffic](/glossar/sichtbarkeit/)

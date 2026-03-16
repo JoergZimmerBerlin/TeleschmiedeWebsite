@@ -79,6 +79,6 @@ ALOHA 🌻
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">SEO-Sprechstunde buchen </a>
 </div>
 
-* **Lese-Tipp:** [Warum ich die Campixx Berlin liebe](/glossar/campixx-berlin/)
-* **Lese-Tipp:** [Die Überstunde Berlin – Netzwerken mal anders](/glossar/ueberstunde-berlin/)
-* **Lese-Tipp:** [Was ist Sichtbarkeit?](/glossar/sichtbarkeit/)
+* [Warum ich die Campixx Berlin liebe](/glossar/campixx-berlin/)
+* [Die Überstunde Berlin – Netzwerken mal anders](/glossar/ueberstunde-berlin/)
+* [Was ist Sichtbarkeit?](/glossar/sichtbarkeit/)

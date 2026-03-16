@@ -90,6 +90,6 @@ ALOHA 🌻
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Technisches SEO verstehen](/glossar/technisches-seo/)
-* **Lese-Tipp:** [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Robots.txt richtig konfigurieren](/glossar/robots-txt/)
+* [Technisches SEO verstehen](/glossar/technisches-seo/)
+* [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
+* [Robots.txt richtig konfigurieren](/glossar/robots-txt/)

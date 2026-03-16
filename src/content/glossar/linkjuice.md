@@ -98,5 +98,5 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Was ist Authority?](/glossar/authoritativeness-eeat/)
-* **Lese-Tipp:** [Interne Verlinkung](/glossar/interne-verlinkung/)
+* [Was ist Authority?](/glossar/authoritativeness-eeat/)
+* [Interne Verlinkung](/glossar/interne-verlinkung/)

@@ -81,5 +81,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Snippet-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was macht ein gutes Title Tag aus?](/glossar/title-tag/)
-* **Lese-Tipp:** [Warum Noindex wichtig ist](/glossar/noindex/)
+* [Was macht ein gutes Title Tag aus?](/glossar/title-tag/)
+* [Warum Noindex wichtig ist](/glossar/noindex/)

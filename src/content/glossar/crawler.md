@@ -89,6 +89,6 @@ ALOHA 🌻! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Crawler-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Warum die robots.txt wichtig ist](/glossar/robots-txt/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
+* [Warum die robots.txt wichtig ist](/glossar/robots-txt/)
+* [Was ist GEO?](/glossar/geo/)

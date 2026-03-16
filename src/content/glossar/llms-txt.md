@@ -73,5 +73,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-* **Lese-Tipp:** [Warum Entitäten so wichtig sind](/glossar/entitaet/)
+* [Was ist GEO?](/glossar/geo/)
+* [Warum Entitäten so wichtig sind](/glossar/entitaet/)

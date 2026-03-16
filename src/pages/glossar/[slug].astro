@@ -268,8 +268,12 @@ const relatedTerms = allEntries.filter((e) =>
   }
 
   /* Lese-Tipp spacing: Give reading tips at the bottom more visual breathing room */
+  .blog-content > h3:last-of-type + ul,
   .blog-content > ul:last-of-type {
     @apply mt-12 pt-8 border-t border-gray-100 space-y-4 !important;
+  }
+  .blog-content > h3:last-of-type + ul {
+    @apply border-t-0 mt-4 pt-0 !important;
   }
   .blog-content > ul:last-of-type li {
     @apply mb-2 text-base !important;

@@ -71,8 +71,8 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Autoritäts-Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [E-E-A-T im Überblick](/glossar/e-e-a-t/)
-* **Lese-Tipp:** [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)
-* **Lese-Tipp:** [Experience: Praxiserfahrung zeigen](/glossar/experience-eeat/)
-* **Lese-Tipp:** [Trustworthiness: Vertrauen schaffen](/glossar/trustworthiness-eeat/)
-* **Lese-Tipp:** [Was ist Markenaufbau?](/glossar/markenaufbau-mit-seo/)
+* [E-E-A-T im Überblick](/glossar/e-e-a-t/)
+* [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)
+* [Experience: Praxiserfahrung zeigen](/glossar/experience-eeat/)
+* [Trustworthiness: Vertrauen schaffen](/glossar/trustworthiness-eeat/)
+* [Was ist Markenaufbau?](/glossar/markenaufbau-mit-seo/)

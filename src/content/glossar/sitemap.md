@@ -81,5 +81,5 @@ ALOHA 🌻
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sitemap-Optimierung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Warum Crawler so wichtig sind](/glossar/crawler/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* [Warum Crawler so wichtig sind](/glossar/crawler/)
+* [Was ist GEO?](/glossar/geo/)

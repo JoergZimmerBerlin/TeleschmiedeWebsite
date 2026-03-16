@@ -85,5 +85,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt lokale Strategie planen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)
-* **Lese-Tipp:** [Mentions vs. Backlinks](/glossar/mention/)
+* [Was sind Citations?](/glossar/citation/)
+* [Mentions vs. Backlinks](/glossar/mention/)

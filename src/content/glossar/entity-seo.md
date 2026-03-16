@@ -82,7 +82,7 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Kontakt aufnehmen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist eine Entität?](/glossar/entitaet/)
-* **Lese-Tipp:** [Entitäten-Building: So geht's](/glossar/entitaeten-building/)
-* **Lese-Tipp:** [Brand Mentions](/glossar/brand-mentions/)
-* **Lese-Tipp:** [Semantic SEO](/glossar/semantic-seo/)
+* [Was ist eine Entität?](/glossar/entitaet/)
+* [Entitäten-Building: So geht's](/glossar/entitaeten-building/)
+* [Brand Mentions](/glossar/brand-mentions/)
+* [Semantic SEO](/glossar/semantic-seo/)

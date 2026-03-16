@@ -76,5 +76,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zweitmeinung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was kostet SEO Beratung?](/glossar/seo-beratung/)
-* **Lese-Tipp:** [Local SEO in Berlin](/glossar/local-seo/)
+* [Was kostet SEO Beratung?](/glossar/seo-beratung/)
+* [Local SEO in Berlin](/glossar/local-seo/)

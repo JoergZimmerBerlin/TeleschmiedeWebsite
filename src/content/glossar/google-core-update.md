@@ -88,5 +88,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
-* **Lese-Tipp:** [Alles über E-E-A-T](/glossar/e-e-a-t/)
+* [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* [Alles über E-E-A-T](/glossar/e-e-a-t/)

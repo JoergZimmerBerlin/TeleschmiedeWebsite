@@ -76,6 +76,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Digital PR Strategie besprechen </a>
 </div>
 
-* **Lese-Tipp:** [Linkbuilding richtig angehen](/glossar/linkbuilding/)
-* **Lese-Tipp:** [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
-* **Lese-Tipp:** [Was sind Mentions?](/glossar/mention/)
+* [Linkbuilding richtig angehen](/glossar/linkbuilding/)
+* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
+* [Was sind Mentions?](/glossar/mention/)

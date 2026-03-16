@@ -77,5 +77,5 @@ ALOHA 🌻
   <a href="/seo-freelancer-berlin/" class="btn-primary inline-flex">Projekt-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Der SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/)
-* **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)
+* [Der SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/)
+* [Was ist eigentlich GEO?](/glossar/geo/)

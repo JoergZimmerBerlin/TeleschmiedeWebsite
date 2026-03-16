@@ -74,7 +74,7 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GSC-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Bing Webmaster Tools](/glossar/bing-webmastertools/)
-* **Lese-Tipp:** [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
-* **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
+* [Bing Webmaster Tools](/glossar/bing-webmastertools/)
+* [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
+* [Was ist ein SEO Audit?](/glossar/seo-audit/)

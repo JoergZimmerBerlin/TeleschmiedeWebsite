@@ -106,6 +106,6 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Expertise (E-E-A-T)](/glossar/expertise-eeat/)
-* **Lese-Tipp:** [Experience (E-E-A-T)](/glossar/experience-eeat/)
-* **Lese-Tipp:** [Trustworthiness (E-E-A-T)](/glossar/trustworthiness-eeat/)
+* [Expertise (E-E-A-T)](/glossar/expertise-eeat/)
+* [Experience (E-E-A-T)](/glossar/experience-eeat/)
+* [Trustworthiness (E-E-A-T)](/glossar/trustworthiness-eeat/)

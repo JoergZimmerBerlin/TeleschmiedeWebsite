@@ -70,6 +70,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Trust-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)
-* **Lese-Tipp:** [Experience: Praxiserfahrung zeigen](/glossar/experience-eeat/)
-* **Lese-Tipp:** [Professionelles Keyword-Monitoring mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link)
+* [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)
+* [Experience: Praxiserfahrung zeigen](/glossar/experience-eeat/)
+* [Professionelles Keyword-Monitoring mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link)

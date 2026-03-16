@@ -75,5 +75,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CMS-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Core Web Vitals optimieren](/glossar/core-web-vitals/)
-* **Lese-Tipp:** [Warum WordPress SEO so wichtig ist](/glossar/sitemap/)
+* [Core Web Vitals optimieren](/glossar/core-web-vitals/)
+* [Warum WordPress SEO so wichtig ist](/glossar/sitemap/)

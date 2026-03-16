@@ -72,5 +72,5 @@ ALOHA 🌻
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Update-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Google Core Updates verstehen](/glossar/google-core-update/)
-* **Lese-Tipp:** [Alle Rankingfaktoren im Überblick](/glossar/rankingfaktoren/)
+* [Google Core Updates verstehen](/glossar/google-core-update/)
+* [Alle Rankingfaktoren im Überblick](/glossar/rankingfaktoren/)

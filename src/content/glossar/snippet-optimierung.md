@@ -68,5 +68,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Snippet-Optimierung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [CTR verstehen und optimieren](/glossar/ctr/)
-* **Lese-Tipp:** [FAQ Markup implementieren](/glossar/faq-markup/)
+* [CTR verstehen und optimieren](/glossar/ctr/)
+* [FAQ Markup implementieren](/glossar/faq-markup/)

@@ -74,5 +74,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-* **Lese-Tipp:** [Die Bedeutung von LLMs.txt](/glossar/llms-txt/)
+* [Was ist GEO?](/glossar/geo/)
+* [Die Bedeutung von LLMs.txt](/glossar/llms-txt/)

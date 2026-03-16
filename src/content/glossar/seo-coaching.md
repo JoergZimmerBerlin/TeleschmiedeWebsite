@@ -80,6 +80,6 @@ ALOHA 🌻
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Coaching-Gespräch vereinbaren </a>
 </div>
 
-* **Lese-Tipp:** [SEO Consulting verstehen](/glossar/seo-consulting/)
-* **Lese-Tipp:** [SEO Beratung erklärt](/glossar/seo-beratung/)
-* **Lese-Tipp:** [Was ist ein SEO Audit?](/glossar/seo-audit/)
+* [SEO Consulting verstehen](/glossar/seo-consulting/)
+* [SEO Beratung erklärt](/glossar/seo-beratung/)
+* [Was ist ein SEO Audit?](/glossar/seo-audit/)

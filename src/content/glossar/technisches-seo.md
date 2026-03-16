@@ -79,6 +79,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Warum WordPress SEO so mächtig ist](/glossar/wordpress-seo/)
-* **Lese-Tipp:** [Trailing Slashes: Das unterschätzte Problem](/glossar/trailing-slashes/)
-* **Lese-Tipp:** [Snippet Optimierung](/glossar/snippet-optimierung/)
+* [Warum WordPress SEO so mächtig ist](/glossar/wordpress-seo/)
+* [Trailing Slashes: Das unterschätzte Problem](/glossar/trailing-slashes/)
+* [Snippet Optimierung](/glossar/snippet-optimierung/)

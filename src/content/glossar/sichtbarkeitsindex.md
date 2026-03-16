@@ -77,6 +77,6 @@ ALOHA 🌻
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist allgemeine Sichtbarkeit?](/glossar/sichtbarkeit/)
-* **Lese-Tipp:** [Wie funktioniert ein SEO Audit?](/glossar/seo-audit/)
-* **Lese-Tipp:** [Warum interne Verlinkung wichtig ist](/glossar/interne-verlinkung/)
+* [Was ist allgemeine Sichtbarkeit?](/glossar/sichtbarkeit/)
+* [Wie funktioniert ein SEO Audit?](/glossar/seo-audit/)
+* [Warum interne Verlinkung wichtig ist](/glossar/interne-verlinkung/)

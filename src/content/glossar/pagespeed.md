@@ -81,5 +81,5 @@ ALOHA 🌻
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Warum Core Web Vitals so wichtig sind](/glossar/core-web-vitals/)
-* **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)
+* [Warum Core Web Vitals so wichtig sind](/glossar/core-web-vitals/)
+* [Was ist eigentlich GEO?](/glossar/geo/)

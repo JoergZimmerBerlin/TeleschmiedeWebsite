@@ -76,5 +76,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern </a>
 </div>
 
-* **Lese-Tipp:** [Lokal sichtbarer werden mit Local SEO](/glossar/local-seo/)
-* **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)
+* [Lokal sichtbarer werden mit Local SEO](/glossar/local-seo/)
+* [Was sind Citations?](/glossar/citation/)

@@ -96,6 +96,6 @@ ALOHA 🌻! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Conversion-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
-* **Lese-Tipp:** [Usability & SEO](/glossar/usability/)
-* **Lese-Tipp:** [Semantic SEO & Cluster-Strategie](/glossar/semantic-seo/)
+* [Was sind Money Keywords?](/glossar/money-keyword/)
+* [Usability & SEO](/glossar/usability/)
+* [Semantic SEO & Cluster-Strategie](/glossar/semantic-seo/)

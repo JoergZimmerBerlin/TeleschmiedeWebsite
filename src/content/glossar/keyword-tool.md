@@ -77,7 +77,7 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Warum die Suchintention zählt](/glossar/keywordrecherche/)
-* **Lese-Tipp:** [Was ist der CPC?](/glossar/cpc/)
-* **Lese-Tipp:** [Suchvolumen verstehen](/glossar/suchvolumen/)
-* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
+* [Warum die Suchintention zählt](/glossar/keywordrecherche/)
+* [Was ist der CPC?](/glossar/cpc/)
+* [Suchvolumen verstehen](/glossar/suchvolumen/)
+* [Was sind Money Keywords?](/glossar/money-keyword/)

@@ -83,5 +83,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt hybride Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)
-* **Lese-Tipp:** [E-E-A-T: Vertrauen als Rankingfaktor](/glossar/e-e-a-t/)
+* [Was ist eigentlich GEO?](/glossar/geo/)
+* [E-E-A-T: Vertrauen als Rankingfaktor](/glossar/e-e-a-t/)

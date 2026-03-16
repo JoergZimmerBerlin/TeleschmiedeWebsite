@@ -84,6 +84,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CPC-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind eigentlich Keywörter?](/glossar/keywoerter/)
-* **Lese-Tipp:** [Alles über Konversionsraten](/glossar/conversion-rate/)
-* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
+* [Was sind eigentlich Keywörter?](/glossar/keywoerter/)
+* [Alles über Konversionsraten](/glossar/conversion-rate/)
+* [Was sind Money Keywords?](/glossar/money-keyword/)

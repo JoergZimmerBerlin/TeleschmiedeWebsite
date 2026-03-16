@@ -84,6 +84,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
-* **Lese-Tipp:** [Pressearbeit im SEO (Digital PR)](/glossar/pressearbeit-im-seo/)
-* **Lese-Tipp:** [Was sind Mentions?](/glossar/mention/)
+* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
+* [Pressearbeit im SEO (Digital PR)](/glossar/pressearbeit-im-seo/)
+* [Was sind Mentions?](/glossar/mention/)

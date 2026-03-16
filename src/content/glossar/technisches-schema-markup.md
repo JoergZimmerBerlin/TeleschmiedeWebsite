@@ -65,6 +65,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Schema.org Markup Grundlagen](/glossar/schema-org-markup/)
-* **Lese-Tipp:** [Strukturierte Daten](/glossar/strukturierte-daten/)
-* **Lese-Tipp:** [FAQ Markup implementieren](/glossar/faq-markup/)
+* [Schema.org Markup Grundlagen](/glossar/schema-org-markup/)
+* [Strukturierte Daten](/glossar/strukturierte-daten/)
+* [FAQ Markup implementieren](/glossar/faq-markup/)

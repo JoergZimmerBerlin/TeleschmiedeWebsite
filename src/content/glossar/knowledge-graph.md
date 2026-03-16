@@ -68,5 +68,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entity-Consulting buchen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)
-* **Lese-Tipp:** [Die Zukunft der Suche: GEO](/glossar/geo/)
+* [Was sind Entitäten?](/glossar/entitaet/)
+* [Die Zukunft der Suche: GEO](/glossar/geo/)

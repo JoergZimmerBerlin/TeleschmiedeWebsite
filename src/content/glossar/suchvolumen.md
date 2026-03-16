@@ -97,7 +97,7 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
-* **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
-* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
-* **Lese-Tipp:** [Keyword Tool einsetzen](/glossar/keyword-tool/)
+* [Keywörter (Keywords)](/glossar/keywoerter/)
+* [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
+* [Was sind Money Keywords?](/glossar/money-keyword/)
+* [Keyword Tool einsetzen](/glossar/keyword-tool/)

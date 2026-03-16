@@ -94,6 +94,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind Entitäten?](/glossar/entitaet/)
-* **Lese-Tipp:** [Wie funktioniert ein Keyword Tool?](/glossar/keyword-tool/)
-* **Lese-Tipp:** [Was ist das Suchvolumen?](/glossar/suchvolumen/)
+* [Was sind Entitäten?](/glossar/entitaet/)
+* [Wie funktioniert ein Keyword Tool?](/glossar/keyword-tool/)
+* [Was ist das Suchvolumen?](/glossar/suchvolumen/)

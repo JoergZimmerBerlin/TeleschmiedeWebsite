@@ -85,6 +85,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt CTR-Optimierung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Title-Tags optimieren](/glossar/title-tag/)
-* **Lese-Tipp:** [Meta-Descriptions schreiben](/glossar/meta-description/)
-* **Lese-Tipp:** [FAQ Markup implementieren](/glossar/faq-markup/)
+* [Title-Tags optimieren](/glossar/title-tag/)
+* [Meta-Descriptions schreiben](/glossar/meta-description/)
+* [FAQ Markup implementieren](/glossar/faq-markup/)

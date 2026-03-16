@@ -72,6 +72,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [GEO verstehen](/glossar/geo/)
-* **Lese-Tipp:** [LLMO: LLM-Optimization](/glossar/llmo/)
-* **Lese-Tipp:** [Zitierfähiger Content](/glossar/zitierfaehiger-content/)
+* [GEO verstehen](/glossar/geo/)
+* [LLMO: LLM-Optimization](/glossar/llmo/)
+* [Zitierfähiger Content](/glossar/zitierfaehiger-content/)

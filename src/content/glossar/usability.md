@@ -88,5 +88,5 @@ ALOHA 🌻
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt User-Experience-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Core Web Vitals optimieren](/glossar/core-web-vitals/)
-* **Lese-Tipp:** [Warum PageSpeed zählt](/glossar/pagespeed/)
+* [Core Web Vitals optimieren](/glossar/core-web-vitals/)
+* [Warum PageSpeed zählt](/glossar/pagespeed/)

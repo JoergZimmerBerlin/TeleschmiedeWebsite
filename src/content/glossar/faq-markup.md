@@ -89,6 +89,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Alles über Schema.org Markup](/glossar/schema-org-markup/)
-* **Lese-Tipp:** [Strukturierte Daten verstehen](/glossar/strukturierte-daten/)
-* **Lese-Tipp:** [Meta Descriptions optimieren](/glossar/meta-description/)
+* [Alles über Schema.org Markup](/glossar/schema-org-markup/)
+* [Strukturierte Daten verstehen](/glossar/strukturierte-daten/)
+* [Meta Descriptions optimieren](/glossar/meta-description/)

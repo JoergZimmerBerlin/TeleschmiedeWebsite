@@ -64,5 +64,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entitäten-Building starten </a>
 </div>
 
-* **Lese-Tipp:** [Was ist eine Entität?](/glossar/entitaet/)
-* **Lese-Tipp:** [Entity SEO Strategie](/glossar/entity-seo/)
+* [Was ist eine Entität?](/glossar/entitaet/)
+* [Entity SEO Strategie](/glossar/entity-seo/)

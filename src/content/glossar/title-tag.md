@@ -78,5 +78,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt On-Page-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Wie schreibt man Meta Descriptions?](/glossar/meta-description/)
-* **Lese-Tipp:** [Die Bedeutung von H1-H3 Überschriften](/glossar/h1-h2-h3/)
+* [Wie schreibt man Meta Descriptions?](/glossar/meta-description/)
+* [Die Bedeutung von H1-H3 Überschriften](/glossar/h1-h2-h3/)

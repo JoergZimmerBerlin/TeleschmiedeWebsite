@@ -60,7 +60,7 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Expertise-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [E-E-A-T im Überblick](/glossar/e-e-a-t/)
-* **Lese-Tipp:** [Experience: Der Erfahrungsfaktor](/glossar/experience-eeat/)
-* **Lese-Tipp:** [Trustworthiness: Das Fundament](/glossar/trustworthiness-eeat/)
-* **Lese-Tipp:** [Authoritativeness: Die Autorität](/glossar/authoritativeness-eeat/)
+* [E-E-A-T im Überblick](/glossar/e-e-a-t/)
+* [Experience: Der Erfahrungsfaktor](/glossar/experience-eeat/)
+* [Trustworthiness: Das Fundament](/glossar/trustworthiness-eeat/)
+* [Authoritativeness: Die Autorität](/glossar/authoritativeness-eeat/)

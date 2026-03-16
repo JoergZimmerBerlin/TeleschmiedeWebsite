@@ -95,6 +95,6 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
-* **Lese-Tipp:** [LLMs verstehen](/glossar/llmo/)
-* **Lese-Tipp:** [Was ist AEO?](/glossar/aeo/)
+* [Die Bedeutung von Sichtbarkeit](/glossar/sichtbarkeit/)
+* [LLMs verstehen](/glossar/llmo/)
+* [Was ist AEO?](/glossar/aeo/)

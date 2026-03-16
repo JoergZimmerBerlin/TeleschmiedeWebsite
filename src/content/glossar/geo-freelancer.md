@@ -82,6 +82,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-* **Lese-Tipp:** [GEO Agentur: Was bieten sie an?](/glossar/geo-agentur/)
-* **Lese-Tipp:** [GEO vs. SEO: Die Unterschiede](/glossar/geo-vs-seo/)
+* [Was ist GEO?](/glossar/geo/)
+* [GEO Agentur: Was bieten sie an?](/glossar/geo-agentur/)
+* [GEO vs. SEO: Die Unterschiede](/glossar/geo-vs-seo/)

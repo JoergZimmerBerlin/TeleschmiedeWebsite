@@ -81,6 +81,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [E-E-A-T verstehen](/glossar/e-e-a-t/)
-* **Lese-Tipp:** [Core Web Vitals optimieren](/glossar/core-web-vitals/)
-* **Lese-Tipp:** [Google Algorithmus erklärt](/glossar/google-algorithmus/)
+* [E-E-A-T verstehen](/glossar/e-e-a-t/)
+* [Core Web Vitals optimieren](/glossar/core-web-vitals/)
+* [Google Algorithmus erklärt](/glossar/google-algorithmus/)

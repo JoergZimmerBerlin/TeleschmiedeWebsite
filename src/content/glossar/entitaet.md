@@ -59,8 +59,8 @@ Entitäten sind die neue Währung der Suche. Google möchte nicht mehr nur nach 
 
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
-* **Lese-Tipp:** [Semantic SEO einfach erklärt](/glossar/semantic-seo/)
+* [Keywörter (Keywords)](/glossar/keywoerter/)
+* [Semantic SEO einfach erklärt](/glossar/semantic-seo/)
 
 ---
 

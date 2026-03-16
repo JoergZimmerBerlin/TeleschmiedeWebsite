@@ -75,5 +75,5 @@ ALOHA 🌻
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt CWV-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [PageSpeed Optimierung Guide](/glossar/pagespeed/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* [PageSpeed Optimierung Guide](/glossar/pagespeed/)
+* [Was ist GEO?](/glossar/geo/)

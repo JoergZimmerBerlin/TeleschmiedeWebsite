@@ -81,6 +81,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO-Audit buchen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
-* **Lese-Tipp:** [Technisches SEO verstehen](/glossar/technisches-seo/)
-* **Lese-Tipp:** [SEO Agentur oder Freelancer?](/glossar/seo-agentur/)
+* [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* [Technisches SEO verstehen](/glossar/technisches-seo/)
+* [SEO Agentur oder Freelancer?](/glossar/seo-agentur/)

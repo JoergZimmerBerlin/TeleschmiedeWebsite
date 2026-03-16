@@ -84,7 +84,7 @@ Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&sourc
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt robots.txt Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Sitemap Optimierung](/glossar/sitemap/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
-* **Lese-Tipp:** [Linkbuilding richtig angehen](/glossar/linkbuilding/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
+* [Sitemap Optimierung](/glossar/sitemap/)
+* [Was ist GEO?](/glossar/geo/)
+* [Linkbuilding richtig angehen](/glossar/linkbuilding/)

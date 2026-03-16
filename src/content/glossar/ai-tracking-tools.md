@@ -66,6 +66,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AI Visibility Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [GEO: Sichtbar in KI-Antworten](/glossar/geo/)
-* **Lese-Tipp:** [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
-* **Lese-Tipp:** [Was ist LLMO?](/glossar/llmo/)
+* [GEO: Sichtbar in KI-Antworten](/glossar/geo/)
+* [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
+* [Was ist LLMO?](/glossar/llmo/)

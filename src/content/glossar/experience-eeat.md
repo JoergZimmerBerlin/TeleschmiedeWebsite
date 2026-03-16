@@ -68,6 +68,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt E-E-A-T Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Expertise: Mehr als nur Wissen](/glossar/expertise-eeat/)
-* **Lese-Tipp:** [Trust: Das Fundament](/glossar/trustworthiness-eeat/)
-* **Lese-Tipp:** [Keyword-Validierung mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link)
+* [Expertise: Mehr als nur Wissen](/glossar/expertise-eeat/)
+* [Trust: Das Fundament](/glossar/trustworthiness-eeat/)
+* [Keyword-Validierung mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link)

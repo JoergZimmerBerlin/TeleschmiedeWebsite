@@ -88,6 +88,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AI SEO Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [GEO: Generative Engine Optimization](/glossar/geo/)
-* **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)
-* **Lese-Tipp:** [LLMO: LLM-Optimization](/glossar/llmo/)
+* [GEO: Generative Engine Optimization](/glossar/geo/)
+* [AEO: Answer Engine Optimization](/glossar/aeo/)
+* [LLMO: LLM-Optimization](/glossar/llmo/)

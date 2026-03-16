@@ -65,5 +65,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Content-Analyse anfragen </a>
 </div>
 
-* **Lese-Tipp:** [AEO: Answer Engine Optimization](/glossar/aeo/)
-* **Lese-Tipp:** [Zero-Click Content](/glossar/zero-click-content/)
+* [AEO: Answer Engine Optimization](/glossar/aeo/)
+* [Zero-Click Content](/glossar/zero-click-content/)

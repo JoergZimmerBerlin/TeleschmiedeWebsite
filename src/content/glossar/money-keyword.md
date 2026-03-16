@@ -87,7 +87,7 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Money-Keyword Strategie buchen </a>
 </div>
 
-* **Lese-Tipp:** [Keywörter (Keywords)](/glossar/keywoerter/)
-* **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
-* **Lese-Tipp:** [Was ist der CPC?](/glossar/cpc/)
-* **Lese-Tipp:** [Conversion Rate Optimierung](/glossar/conversion-rate/)
+* [Keywörter (Keywords)](/glossar/keywoerter/)
+* [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
+* [Was ist der CPC?](/glossar/cpc/)
+* [Conversion Rate Optimierung](/glossar/conversion-rate/)

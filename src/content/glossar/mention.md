@@ -72,5 +72,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Reputation-Check anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was sind Citations?](/glossar/citation/)
-* **Lese-Tipp:** [Die Zukunft: GEO](/glossar/geo/)
+* [Was sind Citations?](/glossar/citation/)
+* [Die Zukunft: GEO](/glossar/geo/)

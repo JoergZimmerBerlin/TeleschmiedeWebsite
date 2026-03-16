@@ -92,5 +92,5 @@ ALOHA 🌻
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Index-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Warum die robots.txt allein nicht reicht](/glossar/robots-txt/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
+* [Warum die robots.txt allein nicht reicht](/glossar/robots-txt/)

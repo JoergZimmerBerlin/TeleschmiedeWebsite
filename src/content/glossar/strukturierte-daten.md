@@ -77,5 +77,5 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Struktur-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Alles über Schema.org](/glossar/schema-org-markup/)
-* **Lese-Tipp:** [Warum Entitäten die Basis sind](/glossar/entitaet/)
+* [Alles über Schema.org](/glossar/schema-org-markup/)
+* [Warum Entitäten die Basis sind](/glossar/entitaet/)

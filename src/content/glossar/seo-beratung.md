@@ -77,6 +77,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO Beratung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [SEO Agentur vs. SEO Freelancer](/glossar/seo-agentur/)
-* **Lese-Tipp:** [SEO Coaching: Selbst lernen](/glossar/seo-coaching/)
-* **Lese-Tipp:** [SEO Consulting: Strategieberatung](/glossar/seo-consulting/)
+* [SEO Agentur vs. SEO Freelancer](/glossar/seo-agentur/)
+* [SEO Coaching: Selbst lernen](/glossar/seo-coaching/)
+* [SEO Consulting: Strategieberatung](/glossar/seo-consulting/)

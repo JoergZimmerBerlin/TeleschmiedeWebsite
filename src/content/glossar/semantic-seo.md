@@ -64,6 +64,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Content-Strategie anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Entity SEO verstehen](/glossar/entity-seo/)
-* **Lese-Tipp:** [Strukturierte Daten](/glossar/strukturierte-daten/)
-* **Lese-Tipp:** [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)
+* [Entity SEO verstehen](/glossar/entity-seo/)
+* [Strukturierte Daten](/glossar/strukturierte-daten/)
+* [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)

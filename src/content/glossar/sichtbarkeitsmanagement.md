@@ -81,6 +81,6 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
-* **Lese-Tipp:** [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
-* **Lese-Tipp:** [Was ist GEO?](/glossar/geo/)
+* [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
+* [Was ist GEO?](/glossar/geo/)

@@ -94,5 +94,5 @@ ALOHA 🌻
 </div>
 
 ### Lese-Tipp
-* **Lese-Tipp:** [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
-* **Lese-Tipp:** [Was sind Money Keywords?](/glossar/money-keyword/)
+* [Suchvolumen (Search Volume)](/glossar/suchvolumen/)
+* [Was sind Money Keywords?](/glossar/money-keyword/)

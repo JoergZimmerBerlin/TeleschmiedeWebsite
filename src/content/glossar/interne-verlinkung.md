@@ -74,6 +74,6 @@ ALOHA 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Link-Audit anfragen </a>
 </div>
 
-* **Lese-Tipp:** [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)
-* **Lese-Tipp:** [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* **Lese-Tipp:** [Linkbuilding: Externe Links strategisch aufbauen](/glossar/linkbuilding/)
+* [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
+* [Linkbuilding: Externe Links strategisch aufbauen](/glossar/linkbuilding/)

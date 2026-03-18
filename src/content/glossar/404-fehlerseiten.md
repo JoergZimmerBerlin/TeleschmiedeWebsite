@@ -69,7 +69,7 @@ Du musst deine Fehlerseiten aktiv suchen.
 Ich nutze in meinen [Audits](/glossar/seo-audit/) konsequent die [Google Search Console](/glossar/google-search-console/). 
 Dort gibt es einen Bericht zur Indexierung. 
 Stehen dort "Nicht gefunden (404)" Meldungen? 
-Dann ist es Zeit zu handeln. Auch Tools wie [<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>](https://seranking.com/de/?ga=4169588&source=link) finden diese Sackgassen sofort.
+Dann ist es Zeit zu handeln. Auch Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden diese Sackgassen sofort.
 
 ## 404 Fehler in der KI-Suche ([GEO](/glossar/geo/))
 

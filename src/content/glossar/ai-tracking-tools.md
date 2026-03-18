@@ -49,7 +49,7 @@ AI Tracking Tools zeigen dir:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Mein Setup: <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a></h4>
-  <p class="mb-0 text-sm">Ich nutze [<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>](https://rankscale.ai/?via=offer) für das AI Visibility Tracking meiner eigenen Seite und für Kundenprojekte. Das Tool trackt meine Sichtbarkeit über 17 LLMs und liefert einen konkreten Score, den ich über Wochen verfolgen kann. So sehe ich, ob meine GEO-Maßnahmen greifen.</p>
+  <p class="mb-0 text-sm">Ich nutze <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für das AI Visibility Tracking meiner eigenen Seite und für Kundenprojekte. Das Tool trackt meine Sichtbarkeit über 17 LLMs und liefert einen konkreten Score, den ich über Wochen verfolgen kann. So sehe ich, ob meine GEO-Maßnahmen greifen.</p>
 </div>
 
 ## Dein nächster Schritt

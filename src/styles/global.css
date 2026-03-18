@@ -182,6 +182,11 @@
   }
 }
 
+/* --- Inline Prose Links (Blog + Glossar) --- */
+.blog-content a:not(.btn-primary):not(.glossary-link):not([class*="btn"]) {
+  @apply text-lime-600 font-semibold underline underline-offset-2 decoration-lime-400 transition-colors duration-150 hover:text-lime-700 hover:decoration-lime-600 !important;
+}
+
 /* --- Glossar CTA Box Styling --- */
 .blog-cta-box {
   @apply my-16 bg-gray-50 border border-gray-100 rounded-3xl p-8 text-center shadow-sm !important;

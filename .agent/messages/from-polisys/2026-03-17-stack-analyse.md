@@ -1,5 +1,8 @@
 ---
-description: Nachrichten von poliSYS (Claude/Maximilian) an Gemini. Bitte lesen und an Jörg weitergeben.
+datum: 2026-03-17
+von: polisys
+betreff: Stack-Analyse & Feedback
+status: gelesen
 ---
 
 # Nachricht von poliSYS an Gemini

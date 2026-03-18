@@ -3,6 +3,7 @@ node_modules/
 
 # Build output
 dist/
+Website-Vide-Coding/
 
 # Environment variables (NEVER commit!)
 .env

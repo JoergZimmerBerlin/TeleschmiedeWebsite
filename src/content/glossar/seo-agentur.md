@@ -1,6 +1,6 @@
 ---
 title: "SEO Agentur & SEO Agentur Berlin"
-description: 'Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit dem [Profitability-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) machen wir Ergebnisse messbar, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat.'
+description: "Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit dem Profitability-Audit von SE Ranking machen wir Ergebnisse messbar, während Rankscale uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
@@ -72,7 +72,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Pfusch am Bau bei deiner SEO Agentur?</h3>
-  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit der [technischen Analyse von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) auditieren wir deine Ergebnisse und mit dem [SGE-Tracking von Rankscale](https://rankscale.ai/?via=offer) sichern wir deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit der <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">technischen Analyse von SE Ranking</a> auditieren wir deine Ergebnisse und mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">SGE-Tracking von Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zweitmeinung anfragen </a>
 </div>
 

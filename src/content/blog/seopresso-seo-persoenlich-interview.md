@@ -110,7 +110,6 @@ Die Folge gibt's auf allen Plattformen.
 Björn hat ordentlich aufgefahren:
 
 - **[Spotify](https://open.spotify.com/episode/2rVaKkqxOdsBDeUC8ZLyt0)** – Mit Video! Falls ihr meine Mimik bei harten Fragen sehen wollt.
-- **[Apple Podcasts](https://podcasts.apple.com/seopresso)** – Der Klassiker für die Fahrt.
 - **[YouTube](https://www.youtube.com/watch?v=dVGOMAVUNQk)** – Ideal zum Mitdiskutieren.
 
 Wer mich wirklich kennenlernen will – den Menschen hinter der Teleschmiede – sollte reinhören. 

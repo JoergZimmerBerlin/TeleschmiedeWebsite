@@ -147,6 +147,6 @@ ALOHA! 🌻✌️
 
 ### Verwandte Begriffe & Leseempfehlungen
 * [Was ist GEO?](/glossar/geo/)
-* [RAG einfach erklärt](/glossar/rag/)
+* RAG einfach erklärt
 * [LLMO Strategien](/glossar/llmo/)
-* [KI-Tracking Tools](/glossar/ai-tracking-tools/)
+* KI-Tracking Tools

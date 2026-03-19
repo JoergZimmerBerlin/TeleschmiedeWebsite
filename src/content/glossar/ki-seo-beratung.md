@@ -18,7 +18,7 @@ faqs:
   - question: "Wie sieht eine typische KI SEO Optimierung aus?"
     answer: "Der Prozess ist dreigeteilt: Zuerst machen wir ein <a href=\"/glossar/geo-audit/\">GEO Audit</a>, um zu sehen, was die KIs heute über dich wissen. Dann folgt die **Optimierung** der technischen Basis (Schema, RAG-Ready Content). Zum Schluss etablieren wir ein Monitoring mit Tools wie <a href=\"/blog/rankscale-ai-visibility-tool/\">Rankscale</a>, um deine Fortschritte in 17+ LLMs zu tracken. Das ist kein Einmal-Event, sondern ein kontinuierlicher Prozess der Autoritäts-Stärkung."
   - question: "Warum sollte ich einen Freelancer statt einer großen Agentur wählen?"
-    answer: "In einer großen Agentur landet dein Projekt oft beim Junior. Bei mir (Jörg Zimmer) bekommst du 24 Jahre <a href=\"/seo-beratung-berlin/\">SEO Erfahrung</a> direkt auf den Tisch. In der KI-Welt, wo sich Regeln wöchentlich ändern, ist Seniorität durch nichts zu ersetzen. Ich bin kein Bauchladen, ich bin Spezialist für die Fälle, wo Standard-Lösungen versagen."
+    answer: "In einer großen Agentur landet dein Projekt oft beim Junior. Bei mir (Jörg Zimmer) bekommst du 24 Jahre <a href=\"/seo-freelancer-berlin/\">SEO Erfahrung</a> direkt auf den Tisch. In der KI-Welt, wo sich Regeln wöchentlich ändern, ist Seniorität durch nichts zu ersetzen. Ich bin kein Bauchladen, ich bin Spezialist für die Fälle, wo Standard-Lösungen versagen."
 ---
 
 Moin! 🌻

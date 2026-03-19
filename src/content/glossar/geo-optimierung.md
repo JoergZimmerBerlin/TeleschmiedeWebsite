@@ -12,7 +12,7 @@ tacheles: "GEO Optimierung ist kein 'SEO Plus'. Es ist ein Paradigmenwechsel. We
 related_terms: ["geo", "ai-seo", "citation", "markenaufbau-mit-seo", "eeat"]
 faqs:
   - question: "Was ist der wichtigste Hebel bei der GEO Optimierung?"
-    answer: "Ganz klar: Die [Zitierfähigkeit](/glossar/zitierfaehiger-content/). Deine Inhalte müssen so strukturiert sein, dass eine KI sie leicht extrahieren und als Fakt präsentieren kann. Das erreichen wir durch messerscharfes Chunking, klare [H1-H3 Strukturen](/glossar/h1-h2-h3/) und die konsequente Nutzung von [strukturierten Daten](/glossar/strukturierte-daten/). Wenn die KI deinen Text nicht 'versteht', wird sie dich nicht zitieren. Punkt."
+    answer: "Ganz klar: Die <a href=\"/glossar/zitierfaehiger-content/\">Zitierfähigkeit</a>. Deine Inhalte müssen so strukturiert sein, dass eine KI sie leicht extrahieren und als Fakt präsentieren kann. Das erreichen wir durch messerscharfes Chunking, klare <a href=\"/glossar/h1-h2-h3/\">H1-H3 Strukturen</a> und die konsequente Nutzung von <a href=\"/glossar/strukturierte-daten/\">strukturierten Daten</a>. Wenn die KI deinen Text nicht 'versteht', wird sie dich nicht zitieren. Punkt."
   - question: "Welche Tools brauche ich für GEO Monitoring?"
     answer: "Für die Strategie und das klassische Fundament nutze ich seit Jahren <a href=\"https://seranking.com/de/?ga=4169588&source=link\" target=\"_blank\" rel=\"noopener noreferrer\">SE Ranking</a>. Um aber die spezifische Sichtbarkeit in den KI-Antworten von ChatGPT, Claude und Gemini zu messen, führt kein Weg an <a href=\"https://rankscale.ai/?via=offer\" target=\"_blank\" rel=\"noopener noreferrer\">Rankscale</a> vorbei. Nur die Kombination aus beiden Welten gibt dir das volle Bild. Wer nur eines nutzt, sieht nur die halbe Wahrheit."
   - question: "Wie lange dauert es, bis GEO-Maßnahmen greifen?"
@@ -59,7 +59,7 @@ Wer am falschen Ende spart und nur mit kostenlosen Tools "rumspielt", der betrei
 
 ---
 
-## Fazit: Werde zur primären Datenquelle
+## Jörgs Tacheles-Check: Werde zur primären Datenquelle
 
 GEO Optimierung ist kein Trend, der wieder verschwindet. Es ist die neue Basis-Anforderung an jedes digitale Business. Wer heute die Weichen stellt und seine Seite für die generative Suche fit macht, der baut einen Vorsprung auf, den die Konkurrenz in zwei Jahren nicht mehr einholen kann.
 

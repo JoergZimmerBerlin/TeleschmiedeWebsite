@@ -14,11 +14,11 @@ faqs:
   - question: "Wann ist der beste Zeitpunkt für einen Relaunch?"
     answer: "Technisch gesehen: Dann, wenn du Zeit für eine saubere Überwachung hast. Aber mein digitaler Dinosaurier-Rat lautet: Niemals am Freitagnachmittag! Ein Relaunch ist wie eine Operation am offenen Herzen. Du willst nicht, dass dein Team im Wochenende ist, wenn die 'Deutsche Bahn' der Technik mal wieder zuschlägt. Idealerweise legst du den Go-Live auf einen Dienstag oder Mittwoch Vormittag, damit du 48 Stunden vollen Support hast."
   - question: "Verliere ich beim Relaunch automatisch meine Google-Rankings?"
-    answer: "Wenn du es richtig machst: Nein. Wenn du es wie 90% der Bauchladen-Agenturen machst: Ja, massiv. Google muss die neuen URLs erst neu bewerten. Mit sauberen 301-Weiterleitungen gibst du der Suchmaschine das Signal: 'Hey, der Inhalt ist jetzt hier!'. Ein kleiner, kurzzeitiger Knick in der [Sichtbarkeit](/glossar/sichtbarkeit/) ist normal, aber ein Totalabsturz ist immer ein Zeichen für handwerkliche Fehler."
+    answer: "Das absolute Horror-Szenario: Die organische Sichtbarkeit bricht um 50% oder mehr ein, weil Google die neuen URLs nicht den alten Inhalten zuordnen kann. Ohne einen sauberen Redirection-Plan (301-Weiterleitungen) 'vergisst' Google deine Autorität. In meiner <a href=\"/seo-beratung-berlin/\">SEO Beratung</a> ist das der kritischste Punkt. Pfusch am Bau wird hier sofort bestraft – deine Konkurrenz freut sich über deinen Traffic-Verlust. Ein kleiner, kurzzeitiger Knick in der <a href=\"/glossar/sichtbarkeit/\">Sichtbarkeit</a> ist normal, aber ein Totalabsturz ist immer ein Zeichen für handwerkliche Fehler."
   - question: "Was ist wichtiger: Design oder SEO?"
     answer: "Das ist die dümmste Frage der Welt. Ein schönes Design, das niemand findet, ist nutzlos. Ein hässliches Design, das rankt, verliert Nutzer. Die Wahrheit liegt im 'Perfect Mix'. Aber wenn du mich fragst: SEO ist das Fundament. Wenn der Crawler deine Seite nicht versteht oder die URL-Struktur im Eimer ist, hilft dir auch das beste User Interface nicht mehr weiter. Zuerst die Strategie, dann die Farben."
   - question: "Warum brauche ich ein Staging-System?"
-    answer: "Wer direkt am Live-System 'fummelt', spielt Russisch Roulette mit seinem Business. Ein Staging-System ist deine Sandbox. Hier testen wir, ob die [interne Verlinkung](/glossar/interne-verlinkung/) passt, ob das Schema-Markup fehlerfrei ist und ob die Performance stimmt. Erst wenn dort alles 'Green Flags' zeigt, ziehen wir den Hebel um."
+    answer: "Wer direkt am Live-System 'fummelt', spielt Russisch Roulette mit seinem Business. Ein Staging-System ist deine Sandbox. Hier testen wir, ob die <a href=\"/glossar/interne-verlinkung/\">interne Verlinkung</a> passt, ob das Schema-Markup fehlerfrei ist und ob die Performance stimmt. Erst wenn dort alles 'Green Flags' zeigt, ziehen wir den Hebel um."
 ---
 
 Moin! 🌻
@@ -65,9 +65,9 @@ Ein Relaunch ist wie ein Umzug. Du nimmst doch auch nicht den kaputten Toaster v
 
 Ein Relaunch ist der Moment, in dem sich zeigt, ob du ein Profi bist oder nur ein Glücksritter. Die KIs (ChatGPT & Co.) schauen übrigens auch ganz genau hin. Wenn deine interne Verlinkung nach dem Relaunch im Eimer ist, versteht die Reasoning Engine deine Entitäten nicht mehr. Der Schaden ist dann oft irreparabel.
 
-## Fazit: Durchstarten statt Abstürzen
+## Das ALOHA-Resümee: Relaunch ist kein Projekt, sondern ein Prozess
 
-Ein Website-Relaunch ist kein Projekt für den Freitagnachmittag. Es ist eine strategische Weichenstellung. Wer die Hausaufgaben macht – Technik-Check, Redirect-Plan, Inhalts-Polishing –, der wird mit einem massiven Boost in der Sichtbarkeit belohnt.
+Ein Relaunch ist kein Projekt für den Freitagnachmittag. Es ist eine strategische Weichenstellung. Wer die Hausaufgaben macht – Technik-Check, Redirect-Plan, Inhalts-Polishing –, der wird mit einem massiven Boost in der Sichtbarkeit belohnt.
 
 Warte nicht, bis der Traffic-Graph nach unten zeigt. Sei proaktiv. Sei nützlich. Sei kein Dinosaurier (außer du heißt Jörg und weißt, wie man überlebt).
 

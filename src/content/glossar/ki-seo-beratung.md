@@ -12,13 +12,13 @@ tacheles: "Die meisten Agenturen da draußen verkaufen euch aktuell 'KI SEO', in
 related_terms: ["ai-seo", "geo-agentur", "seo-beratung", "seo-consulting", "entitaet"]
 faqs:
   - question: "Was unterscheidet eine KI SEO Agentur von einer klassischen SEO Agentur?"
-    answer: "Eine klassische Agentur optimiert für den Google-Algorithmus und die '10 blauen Links'. Eine moderne **KI SEO Agentur** optimiert für das gesamte Ökosystem generativer Antworten. Das bedeutet: Wir kümmern uns nicht nur um Keywords, sondern um deine Reputation in Systemen wie ChatGPT, Claude und Perplexity. Der Fokus verschiebt sich von der reinen Klick-Optimierung hin zum [Zitier-Management](/glossar/citation/). Wer heute noch wie 2019 arbeitet, übersieht die Hälfte des Marktes."
+    answer: "Eine klassische Agentur optimiert für den Google-Algorithmus und die '10 blauen Links'. Eine moderne **KI SEO Agentur** optimiert für das gesamte Ökosystem generativer Antworten. Das bedeutet: Wir kümmern uns nicht nur um Keywords, sondern um deine Reputation in Systemen wie ChatGPT, Claude und Perplexity. Der Fokus verschiebt sich von der reinen Klick-Optimierung hin zum <a href=\"/glossar/citation/\">Zitier-Management</a>. Wer heute noch wie 2019 arbeitet, übersieht die Hälfte des Marktes."
   - question: "Lohnt sich eine KI SEO Beratung auch für kleine Unternehmen?"
-    answer: "Absolut, aber mit Augenmaß. Du brauchst keinen monatlichen 10k-Retainer, wenn du ein lokaler Handwerker bist. Aber du brauchst eine fundierte **KI SEO Beratung**, um dein lokales Listing so aufzubauen, dass Sprachassistenten und KIs dich als erste Wahl empfehlen. Oft reichen schon kleine Anpassungen an den [strukturierten Daten](/glossar/strukturierte-daten/), um in der KI-Welt stattzufinden. Es geht nicht um die Größe des Budgets, sondern um die Schlauheit der Strategie."
+    answer: "Absolut, aber mit Augenmaß. Du brauchst keinen monatlichen 10k-Retainer, wenn du ein lokaler Handwerker bist. Aber du brauchst eine fundierte **KI SEO Beratung**, um dein lokales Listing so aufzubauen, dass Sprachassistenten und KIs dich als erste Wahl empfehlen. Oft reichen schon kleine Anpassungen an den <a href=\"/glossar/strukturierte-daten/\">strukturierten Daten</a>, um in der KI-Welt stattzufinden. Es geht nicht um die Größe des Budgets, sondern um die Schlauheit der Strategie."
   - question: "Wie sieht eine typische KI SEO Optimierung aus?"
-    answer: "Der Prozess ist dreigeteilt: Zuerst machen wir ein [GEO Audit](/glossar/geo-audit/), um zu sehen, was die KIs heute über dich wissen. Dann folgt die **Optimierung** der technischen Basis (Schema, RAG-Ready Content). Zum Schluss etablieren wir ein Monitoring mit Tools wie [Rankscale](/blog/rankscale-ai-visibility-tool/), um deine Fortschritte in 17+ LLMs zu tracken. Das ist kein Einmal-Event, sondern ein kontinuierlicher Prozess der Autoritäts-Stärkung."
+    answer: "Der Prozess ist dreigeteilt: Zuerst machen wir ein <a href=\"/glossar/geo-audit/\">GEO Audit</a>, um zu sehen, was die KIs heute über dich wissen. Dann folgt die **Optimierung** der technischen Basis (Schema, RAG-Ready Content). Zum Schluss etablieren wir ein Monitoring mit Tools wie <a href=\"/blog/rankscale-ai-visibility-tool/\">Rankscale</a>, um deine Fortschritte in 17+ LLMs zu tracken. Das ist kein Einmal-Event, sondern ein kontinuierlicher Prozess der Autoritäts-Stärkung."
   - question: "Warum sollte ich einen Freelancer statt einer großen Agentur wählen?"
-    answer: "In einer großen Agentur landet dein Projekt oft beim Junior. Bei mir (Jörg Zimmer) bekommst du 24 Jahre [SEO Erfahrung](/seo-beratung/) direkt auf den Tisch. In der KI-Welt, wo sich Regeln wöchentlich ändern, ist Seniorität durch nichts zu ersetzen. Ich bin kein Bauchladen, ich bin Spezialist für die Fälle, wo Standard-Lösungen versagen."
+    answer: "In einer großen Agentur landet dein Projekt oft beim Junior. Bei mir (Jörg Zimmer) bekommst du 24 Jahre <a href=\"/seo-beratung-berlin/\">SEO Erfahrung</a> direkt auf den Tisch. In der KI-Welt, wo sich Regeln wöchentlich ändern, ist Seniorität durch nichts zu ersetzen. Ich bin kein Bauchladen, ich bin Spezialist für die Fälle, wo Standard-Lösungen versagen."
 ---
 
 Moin! 🌻
@@ -59,7 +59,7 @@ In meiner Zeit als Goldfisch auf Espresso (ja, so fühlt sich die KI-Entwicklung
 4.  **Modernes Toolset:** Einsatz von KI-Tracking-Tools wie [Rankscale](/blog/rankscale-ai-visibility-tool/) für echtes Monitoring.
 5.  **Senior-Begleitung:** Direkter Zugriff auf Experten-Wissen ohne "Junior-Filter".
 
-## Fazit: Die Antwort-Ära hat begonnen
+## Bottom Line: Die Ära des Senior-SEO hat erst begonnen
 
 Die Suche hat sich verändert. Die Nutzer haben sich verändert. Und deine Strategie muss es auch. **KI SEO Beratung** ist der Weg, um in einer Welt von ChatGPT, Gemini und SearchGPT nicht nur ein Statist zu sein, sondern der Hauptdarsteller in den Antworten deiner Kunden.
 

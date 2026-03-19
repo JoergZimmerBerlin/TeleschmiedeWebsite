@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Die große Frage im [GEO](/glossar/geo/)-Zeitalter ist nicht mehr nur: Auf welcher Position stehe ich bei Google? Die neue, viel existenziellere Frage lautet: **Wie sichtbar bin ich in ChatGPT, Perplexity, Claude und Co. – und was erzählen die KIs über mich?**
+Die große Frage im <a href="/glossar/geo/">GEO</a>-Zeitalter ist nicht mehr nur: Auf welcher Position stehe ich bei Google? Die neue, viel existenziellere Frage lautet: **Wie sichtbar bin ich in ChatGPT, Perplexity, Claude und Co. – und was erzählen die KIs über mich?**
 
 Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 
@@ -68,7 +68,7 @@ Meine ehrliche Antwort an die Skeptiker: Es kommt auf dein Business an. Für das
 
 In meiner [SEO-Sprechstunde](/seo-sprechstunde/) zeige ich Kunden oft live, was Rankscale ausspuckt. Die Gesichter, wenn sie sehen, wie unterschiedlich die KIs ihre Marke bewerten, sprechen Bände.
 
-## Lohnt es sich? Mein Fazit
+## Lohnt es sich? Der Tacheles-Check
 
 Was mir an Rankscale gefällt: Der Fokus. Sie versuchen nicht, noch ein schlechtes Keyword-Tool zu sein. Sie konzentrieren sich vollständig auf AI Visibility. Das Team aus Österreich liefert schnellen Support und die Roadmap ist vielversprechend.
 

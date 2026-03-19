@@ -12,7 +12,7 @@ tacheles: "Wer denkt, ChatGPT SEO sei nur 'SEO mit einem anderen Namen', der hat
 related_terms: ["geo", "aeo", "rag", "citation", "llmo"]
 faqs:
   - question: "Was ist der wichtigste Rankingfaktor für ChatGPT SEO?"
-    answer: "Es gibt nicht den 'einen' Faktor, aber zwei Dinge ragen heraus: Relevanz (RAG-Fähigkeit) und Citations. ChatGPT (bzw. SearchGPT) sucht nach Inhalten, die sich präzise in seine Antwort-Chunks integrieren lassen. Dabei spielt das sogenannte 'Sentiment' eine enorme Rolle: Wird deine Marke als hilfreiche Lösung oder nur als neutrales Beispiel genannt? Der wichtigste technische Hebel ist die Bereitstellung von [strukturierte Daten](/glossar/strukturierte-daten/) und klar abgegrenzten Info-Bausteinen."
+    answer: "Es gibt nicht den 'einen' Faktor, aber zwei Dinge ragen heraus: Relevanz (RAG-Fähigkeit) und Citations. ChatGPT (bzw. SearchGPT) sucht nach Inhalten, die sich präzise in seine Antwort-Chunks integrieren lassen. Dabei spielt das sogenannte 'Sentiment' eine enorme Rolle: Wird deine Marke als hilfreiche Lösung oder nur als neutrales Beispiel genannt? Der wichtigste technische Hebel ist die Bereitstellung von <a href=\"/glossar/strukturierte-daten/\">strukturierte Daten</a> und klar abgegrenzten Info-Bausteinen."
   - question: "Wie unterscheidet sich ChatGPT SEO von klassischem Google SEO?"
     answer: "Google optimiert für die '10 blauen Links' und Nutzerklicks auf die eigene Plattform. ChatGPT optimiert für die 'direkte Antwort'. Während du bei Google versuchst, für ein Keyword auf Platz 1 zu kommen, versuchst du bei ChatGPT, als *die* autoritative Quelle in einer generierten Antwort zitiert zu werden. Ein massiver Unterschied ist das 'Tracking': Bei Google hast du feste Positionen, bei ChatGPT hast du 'Visibility Scores' und 'Mentions' über unzählige semantische Variationen hinweg."
   - question: "Warum fluktuieren meine Rankings in ChatGPT so stark?"
@@ -58,7 +58,7 @@ Wenn dein Content nur für den Googlebot geschrieben ist (Stichwort: Keyword-Dic
 
 ## Jörgs Praxis-Tipp: So startest du mit ChatGPT SEO
 
-> **Fazit:** Hört auf zu raten, was ChatGPT über euch denkt. Nutzt die Technik, die wir heute haben, um den Blindflug zu beenden. ChatGPT SEO ist kein "Voodoo", es ist sauberes Handwerk. Wer seine Entitäten klar definiert, seine Daten strukturiert und die Stabilität seiner Rankings misst, der baut sich einen unfairen Wettbewerbsvorteil auf. 
+> **Bottom Line:** Hört auf zu raten, was ChatGPT über euch denkt. Nutzt die Technik, die wir heute haben, um den Blindflug zu beenden. ChatGPT SEO ist kein "Voodoo", es ist sauberes Handwerk. Wer seine Entitäten klar definiert, seine Daten strukturiert und die Stabilität seiner Rankings misst, der baut sich einen unfairen Wettbewerbsvorteil auf. 
 
 Wer heute die ersten Schritte geht, der wird morgen die Antworten dominieren. Es ist wie in den frühen 2000ern bei Google – die Goldgräberstimmung ist zurück, nur dass die Schaufeln diesmal aus KI-Daten bestehen.
 

@@ -76,7 +76,9 @@ function linkHtml(filePath, glossary) {
   for (const term of glossary) {
     if (filePath.includes(`/glossar/${term.slug}/`)) continue;
 
-    const regex = new RegExp(`\\b(${term.title})\\b`, 'gi');
+    // Escape special characters in the title for use in a regex
+    const escapedTitle = term.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`\\b(${escapedTitle})\\b`, 'gi');
     
     content = content.replace(regex, (match, p1, offset) => {
       const upToMatch = content.substring(0, offset);

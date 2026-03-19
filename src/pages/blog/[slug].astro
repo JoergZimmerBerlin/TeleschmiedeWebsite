@@ -68,6 +68,10 @@ const finalRelatedPosts = relatedPosts.length >= 3
         .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
         .slice(0, 3 - relatedPosts.length)
     ];
+
+// Tacheles Quote Extractor for AI citation schema
+const tachelesMatch = post.body.match(/> \*\*Tacheles:\*\* (.*)/);
+const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]\(.*?\)/g, '$1') : null; // Remove markdown links for clean schema
 ---
 
 <Layout
@@ -363,6 +367,13 @@ const finalRelatedPosts = relatedPosts.length >= 3
       "@type": "WebPage",
       "@id": `https://teleschmie.de/blog/${post.slug}/`
     },
+    ...(tachelesQuote ? {
+      "review": {
+        "@type": "Review",
+        "reviewBody": tachelesQuote,
+        "author": { "@id": "https://teleschmie.de/#person" }
+      }
+    } : {}),
     ...(post.data.faqs ? {
       "mainEntity": post.data.faqs.map(faq => ({
         "@type": "Question",

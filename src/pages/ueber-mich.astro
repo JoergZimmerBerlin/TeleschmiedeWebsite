@@ -293,14 +293,41 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
         },
         "description": "Jörg Zimmer ist ein Senior Performance Marketing Spezialist, Speaker und Mitgründer des Freelancer Teams aus Berlin.",
         "knowsAbout": [
-          "Search Engine Optimization (SEO)",
-          "Search Engine Advertising (SEA)",
-          "Google Ads",
+          {
+            "@type": "Thing",
+            "name": "Search Engine Optimization (SEO)",
+            "sameAs": "https://www.wikidata.org/wiki/Q180711"
+          },
+          {
+            "@type": "Thing",
+            "name": "Search Engine Advertising (SEA)",
+            "sameAs": "https://www.wikidata.org/wiki/Q846132"
+          },
+          {
+            "@type": "Thing",
+            "name": "Google Ads",
+            "sameAs": "https://www.wikidata.org/wiki/Q271982"
+          },
+          {
+            "@type": "Thing",
+            "name": "Generative Engine Optimization (GEO)",
+            "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization#Generative_engine_optimization"
+          },
+          {
+            "@type": "Thing",
+            "name": "Technical SEO Audits",
+            "sameAs": "https://www.wikidata.org/wiki/Q180711"
+          },
           "Knowledge Graph Optimization",
           "Google KI-Modus (SGE)",
-          "Generative Engine Optimization (GEO)",
-          "Technical SEO Audits",
           "AI Visibility Analysis"
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Google Partner",
+            "url": "https://www.google.com/partners/agency?id=YOUR_PARTNER_ID"
+          }
         ],
         "subjectOf": [
           {

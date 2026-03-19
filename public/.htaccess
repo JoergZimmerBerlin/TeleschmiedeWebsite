@@ -1,5 +1,7 @@
-# Error Pages
 ErrorDocument 404 /404.html
+
+# Force UTF-8 for plain text files (fixes Mojibake in LLM files)
+AddType "text/plain; charset=utf-8" .txt
 
 # === Security Headers ===
 <IfModule mod_headers.c>

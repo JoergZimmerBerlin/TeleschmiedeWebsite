@@ -3,6 +3,7 @@
 OUTPUT="public/llms-full.txt"
 GLOSSARY_DIR="src/content/glossar"
 BLOG_DIR="src/content/blog"
+DOMAIN="https://teleschmie.de"
 
 # Start with the main llms.txt content
 cat public/llms.txt > "$OUTPUT"
@@ -12,25 +13,25 @@ echo -e "# FULL KNOWLEDGE BASE\n" >> "$OUTPUT"
 echo -e "## GLOSSARY\n" >> "$OUTPUT"
 # Process Glossary (Alphabetical)
 for file in $(ls "$GLOSSARY_DIR"/*.md | sort); do
-    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g' | sed 's/ö/oe/g;s/ä/ae/g;s/ü/ue/g;s/Ö/Oe/g;s/Ä/Ae/g;s/Ü/Ue/g;s/ß/ss/g')
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
     echo -e "### $TITLE\n" >> "$OUTPUT"
-    # Append body content: skip frontmatter, strip HTML divs, replace umlauts
+    # Append body content: skip frontmatter, strip ALL HTML tags, absolute URLs
     sed '1,/---/d' "$file" | sed '1,/---/d' | \
-    sed 's/<div[^>]*>//g;s/<\/div>//g' | \
-    sed 's/ö/oe/g;s/ä/ae/g;s/ü/ue/g;s/Ö/Oe/g;s/Ä/Ae/g;s/Ü/Ue/g;s/ß/ss/g' >> "$OUTPUT"
+    sed 's/<[^>]*>//g' | \
+    sed -E "s|\]\((/[^)]*)\)|]($DOMAIN\1)|g" >> "$OUTPUT"
     echo -e "\n---\n" >> "$OUTPUT"
 done
 
 echo -e "## BLOG ARTICLES\n" >> "$OUTPUT"
-# Process Blog (Newest first based on filename date if possible, otherwise just sort)
+# Process Blog (Newest first)
 for file in $(ls "$BLOG_DIR"/*.md | sort -r); do
-    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g' | sed 's/ö/oe/g;s/ä/ae/g;s/ü/ue/g;s/Ö/Oe/g;s/Ä/Ae/g;s/Ü/Ue/g;s/ß/ss/g')
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
     echo -e "### $TITLE\n" >> "$OUTPUT"
-    # Append body content: skip frontmatter, strip HTML divs, replace umlauts
+    # Append body content: skip frontmatter, strip ALL HTML tags, absolute URLs
     sed '1,/---/d' "$file" | sed '1,/---/d' | \
-    sed 's/<div[^>]*>//g;s/<\/div>//g' | \
-    sed 's/ö/oe/g;s/ä/ae/g;s/ü/ue/g;s/Ö/Oe/g;s/Ä/Ae/g;s/Ü/Ue/g;s/ß/ss/g' >> "$OUTPUT"
+    sed 's/<[^>]*>//g' | \
+    sed -E "s|\]\((/[^)]*)\)|]($DOMAIN\1)|g" >> "$OUTPUT"
     echo -e "\n---\n" >> "$OUTPUT"
 done
 
-echo "llms-full.txt generated successfully."
+echo "llms-full.txt generated successfully with absolute URLs and UTF-8 (HTML stripped)."

@@ -18,7 +18,6 @@ faqs:
     answer: "Wer auf professionellem Niveau SEO betreiben will, kommt um bezahlte SaaS-Lösungen nicht herum. Hochwertige Einsteiger-Lizenzen (z.B. bei SE Ranking oder Ahrefs) liegen meist zwischen 50 und 150 Euro im Monat. Betrachte diese Ausgaben nicht als lästiges Software-Abo, sondern als deine wichtigste analytische Versicherung: Diese Kosten machen sich meist schon durch eine einzige vermiedene, monatelange Fehlinvestition in das komplett falsche Keyword bezahlt."
 ---
 
-![Keyword Tool 3D Infografik](../../assets/images/glossar/3d-light/glossar-keyword-tool-3d.webp)
 
 Moin!
 

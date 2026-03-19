@@ -18,7 +18,6 @@ faqs:
     answer: "Google bietet zwei offizielle Tools: Den 'Rich Results Test' (Test für Rich-Suchergebnisse) und den 'Schema Markup Validator'. Der Rich Results Test zeigt dir, welche Rich Snippets möglich sind, der Validator prüft die technische Korrektheit. Tipp: Teste nach jeder Änderung! Auf teleschmie.de prüfe ich das bei jedem Deployment automatisch. Ein kleiner Syntaxfehler im JSON-LD und dein gesamtes Markup wird ignoriert."
 ---
 
-![Schema.org Markup 3D Infografik](../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp)
 
 Schema.org ist das Wörterbuch des Webs.
 Es ist eine Initiative der großen Player: Google, Bing, Yahoo und Yandex.

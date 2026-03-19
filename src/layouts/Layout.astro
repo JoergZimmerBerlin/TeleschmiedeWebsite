@@ -104,6 +104,10 @@ if (ogImage) {
     <!-- Canonical -->
     <link rel="canonical" href={`${siteUrl}${currentPath}`} />
 
+    <!-- AI Discovery (llms.txt) -->
+    <link rel="llms" href={`${siteUrl}/llms.txt`} />
+    <link rel="alternate" type="text/markdown" href={`${siteUrl}/llms-full.txt`} />
+
     <title>{title}</title>
   </head>
   <body class="min-h-screen flex flex-col bg-white">

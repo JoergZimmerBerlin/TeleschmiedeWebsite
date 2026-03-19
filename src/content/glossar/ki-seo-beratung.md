@@ -35,7 +35,6 @@ Wenn wir über KI SEO sprechen, meinen wir drei Disziplinen, die nahtlos ineinan
 2.  **Die Optimierung (Technik & Content):** Hier wird "geschraubt". Wir machen deinen Content [RAG-ready](/glossar/rag/), bügeln den Pfusch am Bau bei den strukturierten Daten aus und sorgen dafür, dass Reasoning Engines deine Fakten glasklar extrahieren können.
 3.  **Die Agentur-Leistung (Execution):** Das ist das "Machen". Die kontinuierliche Überwachung der KI-Sichtbarkeit, das Nachjustieren bei Modell-Updates und das proaktive Besetzen neuer KI-relevanter Themenfelder.
 
-![KI SEO Beratung Infografik](../../assets/images/glossar/3d-light/glossar-ki-seo-beratung-3d.png)
 
 ## Warum klassische Agenturen oft versagen
 
@@ -47,7 +46,7 @@ Wer hier versucht, mit "KI-Massenware vom Praktikanten" zu punkten, landet in de
 
 ## Jörgs SEO-Klartext: "Kein Platz für Bauchläden"
 
-> **Tacheles:** Ich sehe jeden Tag Agenturen, die sich 'KI-ready' schimpfen, aber nicht einmal den Unterschied zwischen einem Index-Bot und einem KI-Crawler erklären können. Das ist gefährlich. Ein fehlerhafter Relaunch oder ein kaputtes Kategoriensystem kostet euch heute nicht nur Google-Rankings, sondern schließt euch komplett aus dem KI-Ökosystem aus. Wer keine Lust auf 'Pfusch am Bau' hat, braucht jemanden, der die Finger in die Wunde legt, bevor es weh tut. 🦖
+> **Tacheles:** Ich sehe jeden Tag Agenturen, die sich 'KI-ready' schimpfen, aber nicht einmal den Unterschied zwischen einem Index-Bot und einem KI-Crawler erklären können. Das ist gefährlich. Ein fehlerhafter Relaunch oder ein kaputtes Kategoriensystem kostet euch heute nicht nur Google-Rankings, sondern schließt euch komplett aus dem KI-Ökosystem aus. Wer keine Lust auf 'Pfusch am Bau' hat, braucht jemanden, der die Finger in die Wunde legt, bevor es weh tut.
 
 In meiner Zeit als Goldfisch auf Espresso (ja, so fühlt sich die KI-Entwicklung manchmal an) habe ich gelernt: Die Basics sind wichtiger denn je. Aber die Basics von heute heißen nicht mehr nur `H1` und `Meta-Title`. Sie heißen **Semantic Engineering**.
 

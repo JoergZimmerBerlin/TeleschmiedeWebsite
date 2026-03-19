@@ -31,11 +31,10 @@ Früher war unser Ziel: Klicks generieren. Heute ist unser Ziel: **Antworten dom
 
 GEO ist die konsequente Weiterentwicklung von SEO. Während klassisches SEO darauf abzielt, in Suchmaschinen-Ergebnissen weit oben zu stehen, fokussiert sich GEO darauf, dass deine Inhalte von Large Language Models (LLMs) als primäre Informationsquelle ausgewählt werden.
 
-![GEO Optimierung 3D Infografik](../../assets/images/glossar/3d-light/glossar-geo-optimierung-3d.png)
 
 ## Die 3 Säulen der GEO Optimierung
 
-Damit du im KI-Zeitalter nicht zum digitalen Dinosaurier (im schlechten Sinne!) wirst, musst du an drei Fronten gleichzeitig arbeiten:
+Damit du im KI-Zeitalter nicht zum digitalen Nachzügler wirst, musst du an drei Fronten gleichzeitig arbeiten:
 
 ### 1. Die technologische Basis (Grounding)
 Deine Website muss "lesbar" für KIs sein. Das bedeutet: Sauberes HTML, keine JavaScript-Wüsten, die den Crawler blockieren, und vor allem ein exzellentes [Schema.org Markup](/glossar/technisches-schema-markup/). Jede Information muss so eindeutig markiert sein, dass keine Halluzinationen entstehen können.
@@ -50,7 +49,7 @@ Wer nicht misst, der führt nicht. Wir nutzen modernste Tracking-Tools, um deine
 
 ## Jörgs Werkzeugkasten: SE Ranking vs. Rankscale
 
-> **Tacheles:** Ich werde oft gefragt, welches Tool das beste ist. Die Antwort: Es gibt nicht 'das eine'. Wer professionell arbeitet, braucht einen Hybrid-Ansatz. 🦖
+> **Tacheles:** Ich werde oft gefragt, welches Tool das beste ist. Die Antwort: Es gibt nicht 'das eine'. Wer professionell arbeitet, braucht einen Hybrid-Ansatz.
 
 *   **<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>:** Mein Fels in der Brandung für Keywords, Backlinks und die technische Gesundheit deiner Seite. Ohne ein starkes Google-Ranking wird dich auch keine KI finden.
 *   **<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>:** Das Radar für die KI-Welt. Hier sehen wir schwarz auf weiß, wie oft deine Marke in ChatGPT oder Perplexity auftaucht und ob du als [Citation](/glossar/citation/) genannt wirst.

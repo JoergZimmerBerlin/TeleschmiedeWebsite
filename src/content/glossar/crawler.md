@@ -18,7 +18,6 @@ faqs:
     answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird. Aber Vorsicht: Wer hier pfuscht (Pfusch am Bau ), verschwindet komplett aus der Suche."
 ---
 
-![Crawler 3D Infografik: Wie Bots das Web scannen](../../assets/images/glossar/3d-light/glossar-crawler-3d.webp)
 
 Moin! 🌻
 
@@ -79,7 +78,7 @@ Hier sagst du dem KI-Bot explizit, was er wissen muss. Das ist "SEO für Erwachs
 
 Behandle Crawler wie deine besten Kunden. Empfange sie mit einer schnellen Seite und klaren Informationen. Wenn der Bot sich bei dir wohlfühlt, belohnt er dich mit häufigeren Besuchen. Und häufige Besuche sind der erste Schritt zu besseren Rankings. Wer seine Crawler im Griff hat, hat die Kontrolle über sein SEO. Wer das ignoriert, hat bald "fertig".
 
-ALOHA 🌻! 🌻
+ALOHA! 🌻
 
 ---
 

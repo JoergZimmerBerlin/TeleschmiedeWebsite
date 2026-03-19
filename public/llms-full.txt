@@ -265,9 +265,6 @@ ALOHA 🌻
 
 ## Die Magie des Barcamp-Formats
 
-![Die Berliner SEO Szene auf der Campixx](../../assets/images/glossar/themes/campixx-berlin.webp)
-*Die Berliner SEO Szene vereint auf der Campixx.*
-
 Auf der Campixx gibt es keinen festen "Star-Sprecher-Plan", der von oben diktiert wird. Abends oder morgens wird abgestimmt: Wer hat welches Thema? Wer will was wissen? Das sorgt für eine extreme Relevanz und Aktualität, die starre Konferenzen nie erreichen können.
 
 Ich erinnere mich an Sessions, in denen wir stundenlang über kleinste Details von [strukturierten Daten](https://teleschmie.de/glossar/strukturierte-daten/) oder die Auswirkungen von [Google Core Updates](https://teleschmie.de/glossar/google-core-update/) auf Nischenseiten debattiert haben. Das ist Wissen, das du in keinem Webinar der Welt findest.
@@ -317,16 +314,6 @@ ALOHA 🌻
 
 ### Canonical Tag (rel='canonical')
 
-
-
-  Hast du Duplicate Content Probleme?
-  Deine Rankings treten auf der Stelle, weil Google nicht weiß, welche URL die richtige ist? Ich räume dein technisches Setup auf. Mit Profi-Check in SE Ranking bringen wir deine Autorität auf den Punkt.
-  Jetzt Technik-Check anfragen 
-
-
-* [Was ist Technisches SEO?](https://teleschmie.de/glossar/technisches-seo/)
-* [Crawling vs. Indexing verstehen](https://teleschmie.de/glossar/crawling-vs-indexing/)
-* [Trailing Slashes richtig handhaben](https://teleschmie.de/glossar/trailing-slashes/)
 
 ---
 
@@ -621,7 +608,7 @@ Das ist der "Bullshit-Detektor". KI-Systeme hassen werbliches Geplänkel. Sätze
 Nach dem Audit spuckt das System einen Status aus. Sei gefasst: Die Wahrheit tut oft weh.
 
 *   **Perfect Mix:** Dein Content ist hervorragend für Menschen UND Maschinen optimiert. Du bietest E-E-A-T Signale und eine perfekte technische Struktur. Glückwunsch, du wirst zitiert!
-*   **AI-Trap (KI-Falle):** Deine Seite sieht für Suchmaschinen technisch okay aus, aber der Content ist so generisch oder werblich, dass die KI ihn nicht als zitierwürdig einstuft. Oft ein Zeichen für ungeprüften KI-Output (Dinosaurier-Warnung! 🦖).
+*   **AI-Trap (KI-Falle):** Deine Seite sieht für Suchmaschinen technisch okay aus, aber der Content ist so generisch oder werblich, dass die KI ihn nicht als zitierwürdig einstuft. Oft ein Zeichen für ungeprüften KI-Output (Senior-Warnung!).
 *   **Hidden Gem (Verborgenes Juwel):** Dein Inhalt ist fachlich brillant und bietet echten Mehrwert für Menschen, aber technisch bist du ein Wrack. Die KI kann deine Perlen nicht finden, weil Schema fehlt oder die Struktur im Eimer ist.
 
 ---
@@ -698,7 +685,7 @@ ALOHA! 🌻✌️
 
 ## Jörgs Werkzeugkasten: SE Ranking vs. Rankscale
 
-> **Tacheles:** Ich werde oft gefragt, welches Tool das beste ist. Die Antwort: Es gibt nicht 'das eine'. Wer professionell arbeitet, braucht einen Hybrid-Ansatz. 🦖
+> **Tacheles:** Ich werde oft gefragt, welches Tool das beste ist. Die Antwort: Es gibt nicht 'das eine'. Wer professionell arbeitet, braucht einen Hybrid-Ansatz.
 
 *   **SE Ranking:** Mein Fels in der Brandung für Keywords, Backlinks und die technische Gesundheit deiner Seite. Ohne ein starkes Google-Ranking wird dich auch keine KI finden.
 *   **Rankscale:** Das Radar für die KI-Welt. Hier sehen wir schwarz auf weiß, wie oft deine Marke in ChatGPT oder Perplexity auftaucht und ob du als [Citation](https://teleschmie.de/glossar/citation/) genannt wirst.
@@ -1045,7 +1032,7 @@ ALOHA 🌻
 
 ## Jörgs SEO-Klartext: "Kein Platz für Bauchläden"
 
-> **Tacheles:** Ich sehe jeden Tag Agenturen, die sich 'KI-ready' schimpfen, aber nicht einmal den Unterschied zwischen einem Index-Bot und einem KI-Crawler erklären können. Das ist gefährlich. Ein fehlerhafter Relaunch oder ein kaputtes Kategoriensystem kostet euch heute nicht nur Google-Rankings, sondern schließt euch komplett aus dem KI-Ökosystem aus. Wer keine Lust auf 'Pfusch am Bau' hat, braucht jemanden, der die Finger in die Wunde legt, bevor es weh tut. 🦖
+> **Tacheles:** Ich sehe jeden Tag Agenturen, die sich 'KI-ready' schimpfen, aber nicht einmal den Unterschied zwischen einem Index-Bot und einem KI-Crawler erklären können. Das ist gefährlich. Ein fehlerhafter Relaunch oder ein kaputtes Kategoriensystem kostet euch heute nicht nur Google-Rankings, sondern schließt euch komplett aus dem KI-Ökosystem aus. Wer keine Lust auf 'Pfusch am Bau' hat, braucht jemanden, der die Finger in die Wunde legt, bevor es weh tut.
 
 In meiner Zeit als Goldfisch auf Espresso (ja, so fühlt sich die KI-Entwicklung manchmal an) habe ich gelernt: Die Basics sind wichtiger denn je. Aber die Basics von heute heißen nicht mehr nur `H1` und `Meta-Title`. Sie heißen **Semantic Engineering**.
 
@@ -2181,7 +2168,7 @@ Ein Relaunch ist wie ein Umzug. Du nimmst doch auch nicht den kaputten Toaster v
 
 ## Jörgs SEO-Klartext: "Habe fertig mit Pfusch"
 
-> **Tacheles:** Schmeißt die Agenturen raus, die euch erzählen, dass SEO beim Relaunch 'automatisch' passiert. Das ist gelogen. SEO ist beim Relaunch die wichtigste Abteilung. Wer das Design über die Datensicherheit stellt, der baut keinen Marktplatz, sondern einen Bauchladen. 🦖
+> **Tacheles:** Schmeißt die Agenturen raus, die euch erzählen, dass SEO beim Relaunch 'automatisch' passiert. Das ist gelogen. SEO ist beim Relaunch die wichtigste Abteilung. Wer das Design über die Datensicherheit stellt, der baut keinen Marktplatz, sondern einen Bauchladen.
 
 Ein Relaunch ist der Moment, in dem sich zeigt, ob du ein Profi bist oder nur ein Glücksritter. Die KIs (ChatGPT & Co.) schauen übrigens auch ganz genau hin. Wenn deine interne Verlinkung nach dem Relaunch im Eimer ist, versteht die Reasoning Engine deine Entitäten nicht mehr. Der Schaden ist dann oft irreparabel.
 
@@ -2189,7 +2176,7 @@ Ein Relaunch ist der Moment, in dem sich zeigt, ob du ein Profi bist oder nur ei
 
 Ein Relaunch ist kein Projekt für den Freitagnachmittag. Es ist eine strategische Weichenstellung. Wer die Hausaufgaben macht – Technik-Check, Redirect-Plan, Inhalts-Polishing –, der wird mit einem massiven Boost in der Sichtbarkeit belohnt.
 
-Warte nicht, bis der Traffic-Graph nach unten zeigt. Sei proaktiv. Sei nützlich. Sei kein Dinosaurier (außer du heißt Jörg und weißt, wie man überlebt).
+Warte nicht, bis der Traffic-Graph nach unten zeigt. Sei proaktiv. Sei nützlich. Sei kein Nachzügler (außer du heißt Jörg und weißt, wie man überlebt).
 
 ALOHA! 🌻✌️
 
@@ -3506,13 +3493,13 @@ ALOHA 🌻! 🌻
 
 ## 💬 Jörgs SEO-Klartext: "AI-Strategie ist Chefsache"
 
-> **Tacheles:** Ich sehe immer wieder Unternehmen, die den Praktikanten dransetzen, um "irgendwas mit KI" zu machen. Das ist gefährlich! In der neuen Welt von AI Search geht es um Autorität und Vertrauen. Wenn du dich auf Tools verlässt, die dir nur grüne Häkchen zeigen, aber nicht messen, was SearchGPT wirklich über dich sagt, dann spielst du Russisch Roulette mit deinem Business. Nutze Profi-Tools, um zu verstehen, WARUM du nicht zitiert wirst. Oft ist es fehlendes E-E-A-T oder eine kaputte semantische Struktur. Wer hier spart, zahlt später doppelt durch Traffic-Verlust. 🦖
+> **Tacheles:** Ich sehe immer wieder Unternehmen, die den Praktikanten dransetzen, um "irgendwas mit KI" zu machen. Das ist gefährlich! In der neuen Welt von AI Search geht es um Autorität und Vertrauen. Wenn du dich auf Tools verlässt, die dir nur grüne Häkchen zeigen, aber nicht messen, was SearchGPT wirklich über dich sagt, dann spielst du Russisch Roulette mit deinem Business. Nutze Profi-Tools, um zu verstehen, WARUM du nicht zitiert wirst. Oft ist es fehlendes E-E-A-T oder eine kaputte semantische Struktur. Wer hier spart, zahlt später doppelt durch Traffic-Verlust.
 
 ---
 
 ## Kostenlose Tools für die "SEO-Gesundheit"
 
-Du musst nicht für jeden Handgriff Geld ausgeben. Es gibt ein paar Dinosaurier unter den Gratis-Tools, die immer noch ihren Zweck erfüllen.
+Du musst nicht für jeden Handgriff Geld ausgeben. Es gibt ein paar Klassiker unter den Gratis-Tools, die immer noch ihren Zweck erfüllen.
 
 ### Google Search Console (GSC)
 Die GSC ist die einzige direkte Verbindung ins Gehirn von Google. Hier siehst du, ob deine Seiten indexiert sind. Seit Kurzem sehen wir dort auch immer mehr Daten zu "AI Overviews". Nutze die Console, um sicherzustellen, dass der Googlebot überhaupt auf deine Inhalte zugreifen kann. Keine Indexierung = Keine Chance auf KI-Zitate.

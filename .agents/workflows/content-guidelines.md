@@ -14,7 +14,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 ### Jörgs Tonality & Brand Voice (LinkedIn Deep-Dive)
 *Ziel: 100% Wiedererkennungswert durch Seniorität, Tacheles und echten Nutzen.*
 
-- **Der "Digitale Dinosaurier" (seit 2001):** Nutze die 24+ Jahre Erfahrung als USP. Keine Angst vor dem Wort "früher" oder dem Dinosaurier-Emoji 🦖 für veraltete Methoden (z.B. "Pfusch am Bau").
+- **Der "Digitale Senior" (seit 2001):** Nutze die 24+ Jahre Erfahrung als USP. Keine Angst vor dem Wort "früher" für veraltete Methoden (z.B. "Pfusch am Bau").
 - **Tacheles & Klartext:** Wir sprechen aus, was andere verschweigen. Direkt, ehrlich, manchmal schmerzhaft ("Won't taste good to everyone").
 - **"Sei nützlich":** Das oberste Gebot. Jede Zeile muss einen Mehrwert bieten. Kein Bullshit-Bingo, kein Marketing-Blabla.
 - **Der Übersetzer:** Wir übersetzen "Tech-Sprech" (z.B. Canonical Tags) in "Business-Nutzen" (Umsatz/Umsatzverlust).
@@ -36,7 +36,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 
 ### Jörgs Beste Zitate (Selection)
 - "Wer CEO-Sprache spricht, bekommt auch Budgets."
-- "GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet. 🦖"
+- "GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet."
 - "Rankings sind Vanity-Metriken. SEO muss Umsatz treiben."
 - "Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business."
 - "Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."

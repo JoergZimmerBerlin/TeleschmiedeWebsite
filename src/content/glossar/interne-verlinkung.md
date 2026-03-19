@@ -17,7 +17,6 @@ faqs:
     answer: "Der Ankertext (Anchor Text) ist der sichtbare, meist bläulich markierte und klickbare Text eines Hyperlinks. Bei der internen Verlinkung ist er dein stärkstes semantisches Steuerungsinstrument. Du solltest hier niemals nichtssagende Phrasen wie 'Hier klicken' verwenden, sondern immer das exakte Fokus-Keyword der Zielseite (z.B. 'zur SEO Beratung'). Google liest diesen Ankertext aus und versteht so sofort, für welches Thema die verlinkte Seite ranken soll."
 ---
 
-![Interne Verlinkung Infografik](../../assets/images/glossar/3d-light/glossar-interne-verlinkung-3d.webp)
 
 Moin! 
 

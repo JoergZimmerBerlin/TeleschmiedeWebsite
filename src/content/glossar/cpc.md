@@ -18,7 +18,6 @@ faqs:
     answer: "Absolut! Das ist das Kerngeschäft meiner 'SEO-Strategie'. Wenn wir ein Keyword organisch in die Top-Rankings schieben, sinkt der Druck auf dein Google Ads Budget. Du kannst entweder die teuren Anzeigen ganz abschalten oder das gesparte Geld in noch tiefergehende Kampagnen investieren. SEO macht dich unabhängig von den Preisdiktaten Googles."
 ---
 
-![CPC (Cost per Click) 3D Infografik](../../assets/images/glossar/3d-light/glossar-cpc-3d.webp)
 
 CPC steht für Cost per Click.
 Oder auf Deutsch: Wie viel wandert pro Klick von deinem Konto zu Google?

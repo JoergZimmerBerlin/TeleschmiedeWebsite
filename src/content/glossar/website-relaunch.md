@@ -12,7 +12,7 @@ tacheles: "Ein Website-Relaunch ohne SEO-Begleitung ist wie ein Hausbau ohne Sta
 related_terms: ["seo-audit", "301-redirect", "pagespeed", "strukturierte-daten", "sichtbarkeit"]
 faqs:
   - question: "Wann ist der beste Zeitpunkt für einen Relaunch?"
-    answer: "Technisch gesehen: Dann, wenn du Zeit für eine saubere Überwachung hast. Aber mein digitaler Dinosaurier-Rat lautet: Niemals am Freitagnachmittag! Ein Relaunch ist wie eine Operation am offenen Herzen. Du willst nicht, dass dein Team im Wochenende ist, wenn die 'Deutsche Bahn' der Technik mal wieder zuschlägt. Idealerweise legst du den Go-Live auf einen Dienstag oder Mittwoch Vormittag, damit du 48 Stunden vollen Support hast."
+    answer: "Technisch gesehen: Dann, wenn du Zeit für eine saubere Überwachung hast. Aber mein digitaler Senior-Rat lautet: Niemals am Freitagnachmittag! Ein Relaunch ist wie eine Operation am offenen Herzen. Du willst nicht, dass dein Team im Wochenende ist, wenn die 'Deutsche Bahn' der Technik mal wieder zuschlägt. Idealerweise legst du den Go-Live auf einen Dienstag oder Mittwoch Vormittag, damit du 48 Stunden vollen Support hast."
   - question: "Verliere ich beim Relaunch automatisch meine Google-Rankings?"
     answer: "Das absolute Horror-Szenario: Die organische Sichtbarkeit bricht um 50% oder mehr ein, weil Google die neuen URLs nicht den alten Inhalten zuordnen kann. Ohne einen sauberen Redirection-Plan (301-Weiterleitungen) 'vergisst' Google deine Autorität. In meiner <a href=\"/seo-freelancer-berlin/\">SEO Beratung</a> ist das der kritischste Punkt. Pfusch am Bau wird hier sofort bestraft – deine Konkurrenz freut sich über deinen Traffic-Verlust. Ein kleiner, kurzzeitiger Knick in der <a href=\"/glossar/sichtbarkeit/\">Sichtbarkeit</a> ist normal, aber ein Totalabsturz ist immer ein Zeichen für handwerkliche Fehler."
   - question: "Was ist wichtiger: Design oder SEO?"
@@ -25,13 +25,11 @@ Moin! 🌻
 
 Ein Website-Relaunch wird in vielen Unternehmen wie eine neue Kaffeemaschine behandelt: Man sucht sich was Schickes aus, drückt auf den Knopf und hofft, dass es schmeckt. Aber meistens schmeckt es nicht. Meistens ist die Enttäuschung groß, wenn zwei Wochen nach dem Go-Live die Kurve in der Search Console aussieht wie ein Sturzflug der Lufthansa.
 
-Als jemand, der das Internet quasi mit erfunden hat (okay, seit 2001 dabei 🦖), habe ich hunderte Relaunches gesehen. Die gute Nachricht: Ein Relaunch ist eine riesige Chance. Die schlechte Nachricht: Er ist die größte Gefahr für deine bisherige Arbeit. In diesem Artikel zeige ich dir, wie wir den "Pfusch am Bau" verhindern und deinen Relaunch zum Erfolg führen.
+Als jemand, der das Internet quasi mit erfunden hat (okay, seit 2001 dabei), habe ich hunderte Relaunches gesehen. Die gute Nachricht: Ein Relaunch ist eine riesige Chance. Die schlechte Nachricht: Er ist die größte Gefahr für deine bisherige Arbeit. In diesem Artikel zeige ich dir, wie wir den "Pfusch am Bau" verhindern und deinen Relaunch zum Erfolg führen.
 
 ## Was ist ein Website-Relaunch (aus SEO-Sicht)?
 
 Ein Relaunch ist weit mehr als nur ein neues Design. Es ist eine fundamentale Änderung an der technischen Struktur, der URL-Logik und oft auch an den Inhalten einer Website. Aus der Brille von Google ist ein Relaunch ein Vertrauens-Test. Die Suchmaschine kennt deine alten Pfade und hat sie bewertet. Wenn du diese Pfade änderst, ohne einen digitalen Wegweiser (Reverse Proxy oder 301-Redirects) zu hinterlassen, verliert Google die Orientierung.
-
-![Website Relaunch SEO Infografik](../../assets/images/glossar/3d-light/glossar-website-relaunch-3d.png)
 
 ## Die 4 apokalyptischen Reiter des Relaunche-Fails
 
@@ -61,7 +59,7 @@ Ein Relaunch ist wie ein Umzug. Du nimmst doch auch nicht den kaputten Toaster v
 
 ## Jörgs SEO-Klartext: "Habe fertig mit Pfusch"
 
-> **Tacheles:** Schmeißt die Agenturen raus, die euch erzählen, dass SEO beim Relaunch 'automatisch' passiert. Das ist gelogen. SEO ist beim Relaunch die wichtigste Abteilung. Wer das Design über die Datensicherheit stellt, der baut keinen Marktplatz, sondern einen Bauchladen. 🦖
+> **Tacheles:** Schmeißt die Agenturen raus, die euch erzählen, dass SEO beim Relaunch 'automatisch' passiert. Das ist gelogen. SEO ist beim Relaunch die wichtigste Abteilung. Wer das Design über die Datensicherheit stellt, der baut keinen Marktplatz, sondern einen Bauchladen.
 
 Ein Relaunch ist der Moment, in dem sich zeigt, ob du ein Profi bist oder nur ein Glücksritter. Die KIs (ChatGPT & Co.) schauen übrigens auch ganz genau hin. Wenn deine interne Verlinkung nach dem Relaunch im Eimer ist, versteht die Reasoning Engine deine Entitäten nicht mehr. Der Schaden ist dann oft irreparabel.
 
@@ -69,7 +67,7 @@ Ein Relaunch ist der Moment, in dem sich zeigt, ob du ein Profi bist oder nur ei
 
 Ein Relaunch ist kein Projekt für den Freitagnachmittag. Es ist eine strategische Weichenstellung. Wer die Hausaufgaben macht – Technik-Check, Redirect-Plan, Inhalts-Polishing –, der wird mit einem massiven Boost in der Sichtbarkeit belohnt.
 
-Warte nicht, bis der Traffic-Graph nach unten zeigt. Sei proaktiv. Sei nützlich. Sei kein Dinosaurier (außer du heißt Jörg und weißt, wie man überlebt).
+Warte nicht, bis der Traffic-Graph nach unten zeigt. Sei proaktiv. Sei nützlich. Sei kein Nachzügler (außer du heißt Jörg und weißt, wie man überlebt).
 
 ALOHA! 🌻✌️
 

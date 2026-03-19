@@ -20,7 +20,7 @@ faqs:
 
 Moin! 🌻
 
-Machen wir uns nichts vor: Wir befinden uns gerade in der größten Umbruchphase des digitalen Marketings seit der Erfindung der Suchmaschine. Als ich 2001 mit SEO angefangen habe (ja, ich bin der Dinosaurier hier 🦖), ging es darum, ein paar Keywords in die Meta-Tags zu schubsen. Später kamen die "Blauen Links" und der Kampf um Platz 1 bei Google.
+Machen wir uns nichts vor: Wir befinden uns gerade in der größten Umbruchphase des digitalen Marketings seit der Erfindung der Suchmaschine. Als ich 2001 mit SEO angefangen habe (ja, ich bin der Senior hier), ging es darum, ein paar Keywords in die Meta-Tags zu schubsen. Später kamen die "Blauen Links" und der Kampf um Platz 1 bei Google.
 
 Heute? Heute fragen die Leute ChatGPT oder Perplexity nach Empfehlungen. Und wenn du dort nicht auftauchst, existierst du faktisch für eine wachsende Zielgruppe nicht mehr.
 
@@ -61,7 +61,7 @@ Bevor du über Prompts und Zitate nachdenkst, muss dein technisches Gerüst steh
 
 ### Warum SE Ranking für KI-SEO wichtig ist
 
-Damit ChatGPT oder ein anderer Agent deine Seite als Quelle nutzt, muss er sie erst einmal finden und verarbeiten können. SE Ranking liefert hierfür den besten **Website Audit** im Preis-Leistungs-Verhältnis. Es findet kaputte <a href="/glossar/canonical-tag/">Canonical Tags</a>, 404-Fehler oder fehlende Schema-Markups schneller, als du "Dinosaurier" sagen kannst. 🦖
+Damit ChatGPT oder ein anderer Agent deine Seite als Quelle nutzt, muss er sie erst einmal finden und verarbeiten können. SE Ranking liefert hierfür den besten **Website Audit** im Preis-Leistungs-Verhältnis. Es findet kaputte <a href="/glossar/canonical-tag/">Canonical Tags</a>, 404-Fehler oder fehlende Schema-Markups schneller, als du "Senior" sagen kannst.
 
 Zusätzlich bietet SE Ranking mittlerweile erste KI-Funktionen im Content Editor an, die dir helfen, die semantische Dichte deiner Texte zu erhöhen. Das ist die absolute Basis für jede KI-Strategie.
 
@@ -75,13 +75,13 @@ Zusätzlich bietet SE Ranking mittlerweile erste KI-Funktionen im Content Editor
 
 ## 💬 Jörgs SEO-Klartext: "AI-Strategie ist Chefsache"
 
-> **Tacheles:** Ich sehe immer wieder Unternehmen, die den Praktikanten dransetzen, um "irgendwas mit KI" zu machen. Das ist gefährlich! In der neuen Welt von AI Search geht es um Autorität und Vertrauen. Wenn du dich auf Tools verlässt, die dir nur grüne Häkchen zeigen, aber nicht messen, was SearchGPT wirklich über dich sagt, dann spielst du Russisch Roulette mit deinem Business. Nutze Profi-Tools, um zu verstehen, WARUM du nicht zitiert wirst. Oft ist es fehlendes <a href="/glossar/e-e-a-t/">E-E-A-T</a> oder eine kaputte semantische Struktur. Wer hier spart, zahlt später doppelt durch Traffic-Verlust. 🦖
+> **Tacheles:** Ich sehe immer wieder Unternehmen, die den Praktikanten dransetzen, um "irgendwas mit KI" zu machen. Das ist gefährlich! In der neuen Welt von AI Search geht es um Autorität und Vertrauen. Wenn du dich auf Tools verlässt, die dir nur grüne Häkchen zeigen, aber nicht messen, was SearchGPT wirklich über dich sagt, dann spielst du Russisch Roulette mit deinem Business. Nutze Profi-Tools, um zu verstehen, WARUM du nicht zitiert wirst. Oft ist es fehlendes <a href="/glossar/e-e-a-t/">E-E-A-T</a> oder eine kaputte semantische Struktur. Wer hier spart, zahlt später doppelt durch Traffic-Verlust.
 
 ---
 
 ## Kostenlose Tools für die "SEO-Gesundheit"
 
-Du musst nicht für jeden Handgriff Geld ausgeben. Es gibt ein paar Dinosaurier unter den Gratis-Tools, die immer noch ihren Zweck erfüllen.
+Du musst nicht für jeden Handgriff Geld ausgeben. Es gibt ein paar Klassiker unter den Gratis-Tools, die immer noch ihren Zweck erfüllen.
 
 ### Google Search Console (GSC)
 Die GSC ist die einzige direkte Verbindung ins Gehirn von Google. Hier siehst du, ob deine Seiten indexiert sind. Seit Kurzem sehen wir dort auch immer mehr Daten zu "AI Overviews". Nutze die Console, um sicherzustellen, dass der Googlebot überhaupt auf deine Inhalte zugreifen kann. Keine Indexierung = Keine Chance auf KI-Zitate.

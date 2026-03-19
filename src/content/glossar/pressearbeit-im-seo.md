@@ -17,10 +17,6 @@ faqs:
     answer: "Ja, und zwar auf mehreren Ebenen gleichzeitig. Erstens: Redaktionelle Backlinks von News-Seiten gehören zu den stärksten Linksignalen überhaupt. Zweitens: Mentions (Erwähnungen ohne Link) stärken dein Entity-Profil bei Google. Drittens: Presseartikel werden von LLMs wie ChatGPT als Trainingsmaterial genutzt – wer dort zitiert wird, taucht in KI-Antworten auf. Es ist ein dreifacher ROI."
 ---
 
-Moin!
-
-![Pressearbeit Infografik](../../assets/images/glossar/3d-light/glossar-authority-3d.webp)
-
 Moin! 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">

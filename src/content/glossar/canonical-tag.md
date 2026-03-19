@@ -53,8 +53,8 @@ Als [SEO Berater](/glossar/seo-beratung/) sehe ich oft zwei extreme Fehler:
 *   **Ketten:** Seite A zeigt auf B, B auf C, C auf D. Das kostet [Crawl-Budget](/glossar/crawling-vs-indexing/) und ist ineffizient. 
 
 <div class="my-8 bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Tipp vom Dinosaurier 🦖</h3>
-  <p class="mb-0">Verlass dich nicht darauf, dass Google das schon 'irgendwie merkt'. Sei präzise. Ein sauber gesetztes Canonical Tag ist das Fundament für ein gesundes [Technisches SEO](/glossar/technisches-seo/). Nutze Tools wie den Website-Audit von SE Ranking, um fehlerhafte Tags sofort aufzuspüren, bevor sie deine Sichtbarkeit kosten.</p>
+  <h3 class="text-xl font-bold text-dark mt-0 mb-4 text-center">Tipp vom Senior</h3>
+  <p class="mb-0">Verlass dich nicht darauf, dass Google das schon 'irgendwie merkt'. Sei präzise. Ein sauber gesetztes Canonical Tag ist das Fundament für ein gesundes <a href="/glossar/technisches-seo/">Technisches SEO</a>. Nutze Tools wie den Website-Audit von SE Ranking, um fehlerhafte Tags sofort aufzuspüren, bevor sie deine Sichtbarkeit kosten.</p>
 </div>
 
 ## Mein Tacheles-Rat für dich
@@ -64,8 +64,6 @@ Ein fehlendes oder falsch gesetztes Canonical Tag gehört zu den klassischen [80
 Prüfe heute noch deinen `<head>`-Bereich. Wenn dort gähnende Leere herrscht oder die URLs nicht mit deiner Wunsch-Struktur übereinstimmen, hast du Hausaufgaben zu erledigen.
 
 ALOHA 🌻 
-
----
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hast du Duplicate Content Probleme?</h3>

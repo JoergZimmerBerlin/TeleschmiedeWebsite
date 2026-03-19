@@ -2,7 +2,7 @@
 title: "Campixx Berlin"
 description: "Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻"
 date: "2026-03-10"
-image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
+image: "../../assets/images/glossar/themes/campixx-berlin.webp"
 related_terms: ["seo-stammtisch-berlin", "ueberstunde-berlin", "e-e-a-t"]
 key_takeaways:
   - "Un-Konferenz-Format: Wissen auf Augenhöhe statt steifer Frontalbeschallung."
@@ -31,9 +31,6 @@ Wer hier hinfährt, will nicht nur Folien starren. Wer hier hinfährt, will den 
 ---
 
 ## Die Magie des Barcamp-Formats
-
-![Die Berliner SEO Szene auf der Campixx](../../assets/images/glossar/themes/campixx-berlin.webp)
-*Die Berliner SEO Szene vereint auf der Campixx.*
 
 Auf der Campixx gibt es keinen festen "Star-Sprecher-Plan", der von oben diktiert wird. Abends oder morgens wird abgestimmt: Wer hat welches Thema? Wer will was wissen? Das sorgt für eine extreme Relevanz und Aktualität, die starre Konferenzen nie erreichen können.
 

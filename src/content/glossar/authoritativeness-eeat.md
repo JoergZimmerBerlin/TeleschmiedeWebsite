@@ -22,10 +22,6 @@ Moin!
 
 **Authoritativeness** (Autorität) ist das „A" in [E-E-A-T](/glossar/e-e-a-t/) und beschreibt den Ruf, den eine Website oder ein Autor in seinem Fachgebiet genießt. 
 
-![Authoritativeness 3D Infografik](../../assets/images/glossar/3d-light/glossar-authority-3d.webp)
-
-Moin! 
-
 Anstatt dass du selbst behauptest, ein Experte zu sein, fragt Google: *Wird dieser Mensch (oder diese Website) von der Fachwelt als Autorität anerkannt?*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">

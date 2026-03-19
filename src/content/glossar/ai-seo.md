@@ -22,7 +22,6 @@ Moin!
 
 **AI SEO** – zwei Buchstaben, die alles verändern. Es ist der Dachbegriff für die nächste Evolution der Suchmaschinenoptimierung: Die Verbindung von klassischem Google-SEO mit der Optimierung für KI-Suchmaschinen.
 
-![AI SEO 3D Infografik](../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>

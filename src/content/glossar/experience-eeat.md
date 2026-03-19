@@ -22,7 +22,6 @@ Moin!
 
 **Experience** (Erfahrung) ist der jüngste Buchstabe im [E-E-A-T](/glossar/e-e-a-t/) Framework – und gleichzeitig der revolutionärste. Google hat ihn Ende 2022 hinzugefügt, und der Grund ist simpel: In der KI-Ära muss Google unterscheiden können, ob ein Mensch wirklich Erfahrung mit einem Thema hat oder ob eine Maschine den Text generiert hat.
 
-![Experience 3D Infografik](../../assets/images/glossar/3d-light/glossar-experience-3d.webp)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>

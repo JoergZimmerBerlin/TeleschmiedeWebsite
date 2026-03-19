@@ -84,7 +84,7 @@ Das ist der "Bullshit-Detektor". KI-Systeme hassen werbliches Geplänkel. Sätze
 Nach dem Audit spuckt das System einen Status aus. Sei gefasst: Die Wahrheit tut oft weh.
 
 *   **Perfect Mix:** Dein Content ist hervorragend für Menschen UND Maschinen optimiert. Du bietest E-E-A-T Signale und eine perfekte technische Struktur. Glückwunsch, du wirst zitiert!
-*   **AI-Trap (KI-Falle):** Deine Seite sieht für Suchmaschinen technisch okay aus, aber der Content ist so generisch oder werblich, dass die KI ihn nicht als zitierwürdig einstuft. Oft ein Zeichen für ungeprüften KI-Output (Dinosaurier-Warnung! 🦖).
+*   **AI-Trap (KI-Falle):** Deine Seite sieht für Suchmaschinen technisch okay aus, aber der Content ist so generisch oder werblich, dass die KI ihn nicht als zitierwürdig einstuft. Oft ein Zeichen für ungeprüften KI-Output (Senior-Warnung!).
 *   **Hidden Gem (Verborgenes Juwel):** Dein Inhalt ist fachlich brillant und bietet echten Mehrwert für Menschen, aber technisch bist du ein Wrack. Die KI kann deine Perlen nicht finden, weil Schema fehlt oder die Struktur im Eimer ist.
 
 ---

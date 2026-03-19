@@ -17,7 +17,6 @@ faqs:
     answer: "Die Verifizierung deiner Website-Inhaberschaft ist der allererste Schritt und glücklicherweise selbst für Einsteiger machbar. Der mit Abstand sicherste und von Profis favorisierte Weg ist die DNS-Verifizierung (als 'Domain Property'), da du hiermit direkt alle Subdomains und Protokolle (http/https) auf einen Schlag sauber erfasst. Alternativ kannst du auch simpel einen kleinen HTML-Tag im `<head>` deiner Seite platzieren oder die Freischaltung nahtlos über ein bereits verifiziertes Google Analytics-Konto anstoßen."
 ---
 
-![Google Search Console Infografik](../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp)
 
 Moin! 🌻
 

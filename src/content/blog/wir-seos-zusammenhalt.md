@@ -2,7 +2,7 @@
 title: "Warum wir SEO-Spezialisten eine Welle machen sollten "
 description: "SEO ist mehr als Keywords schubsen. Wir brauchen Standards, Zusammenhalt und eine laute Stimme. Jörg Zimmer ruft zur WELLE auf."
 date: "2026-03-11"
-linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seos-sind-schuld-activity-7274003504106090496-e2hS"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-spezialisten-schlie%C3%9Fen-uns-zusammen-activity-7388537332120834049-loB_"
 image: "../../assets/images/blog/linkedin-forum-original.webp"
 image_alt: "Jörg Zimmer vor einem LinkedIn-Vortrag - Gemeinsam für mehr SEO-Qualität"
 key_takeaways:
@@ -117,11 +117,6 @@ Wir lesen uns im Feed!
 
 ALOHA 🌻! 🌻
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Willst du echte Ergebnisse statt Bot-Blabla?</h3>
-  <p class="mb-6">Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine echte Performance und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deine Reputation in der KI-Welt.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen </a>
-</div>
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du Teil der Welle sein?</h3>

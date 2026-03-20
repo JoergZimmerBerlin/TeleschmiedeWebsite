@@ -2,7 +2,7 @@
 title: "LinkedIn ist kein soziales Netzwerk, es ist ein Forum (und wir SEOs müssen es nutzen)"
 description: "LinkedIn für SEO-Profis: Von Profil-Optimierung als Landingpage bis zum Algorithmus-Hacking durch echte Diskussionen. ALOHA! 🌻"
 date: "2026-03-01"
-linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_innovation-mut-und-d%C3%B6ner-am-ende-zieht-activity-7411702493564473344-TD6t"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR"
 image: "../../assets/images/blog/linkedin-forum-original.webp"
 image_alt: "Jörg Zimmer beim SEO Stammtisch Berlin - Vortrag über LinkedIn als Forum"
 category: "LinkedIn Marketing"

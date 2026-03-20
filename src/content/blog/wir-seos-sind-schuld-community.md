@@ -2,6 +2,7 @@
 title: "Warum wir SEO-Spezialisten schuld am Zustand des Internets sind (und wie wir es gemeinsam ändern)"
 description: "Warum der SEO-Branche oft Basics fehlen und wie wir durch eine starke Community die Sichtbarkeit unserer Disziplin erhöhen. ALOHA! 🌻"
 date: "2026-03-01"
+linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-typen-sind-schuld-das-das-netz-die-activity-7385954808316338176-oSyk"
 image: "../../assets/images/pages/hero-pose.webp"
 image_alt: "Jörg Zimmer vor einer Hecke in Aktion - Warum SEOs Verantwortung übernehmen müssen"
 category: "SEO Strategie"

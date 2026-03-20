@@ -81,8 +81,6 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
   lcpImage={postImageWebp?.src}
 >
   <article class="section pt-8 relative">
-    <!-- Reading Progress Bar -->
-    <div id="reading-progress" class="fixed top-0 left-0 h-1 bg-lime-accent z-[100] transition-all duration-150 ease-out w-0 shadow-[0_0_10px_rgba(212,255,0,0.5)]"></div>
 
     <div class="container-narrow">
       <!-- Breadcrumbs -->
@@ -186,11 +184,11 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
         <div class="lg:col-span-8 order-2 lg:order-2">
           <!-- Featured Image (Moved into Grid) -->
           {post.data.image && (
-            <div class="mb-12 rounded-3xl overflow-hidden shadow-xl border border-gray-100 max-h-[500px]">
+            <div class="mb-12 rounded-3xl overflow-hidden shadow-xl border border-gray-100">
               <Image
                 src={post.data.image}
                 alt={post.data.image_alt || post.data.title}
-                class="w-full h-full object-cover"
+                class="w-full h-auto"
                 format="webp"
                 loading="eager"
                 fetchpriority="high"
@@ -255,18 +253,6 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
               }
             });
           }
-
-          const progressBar = document.getElementById('reading-progress');
-          const updateProgress = () => {
-             const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-             if (progressBar) {
-               progressBar.style.width = scrollPercent + '%';
-             }
-          };
-
-          window.addEventListener('scroll', updateProgress);
-          window.addEventListener('resize', updateProgress);
-          updateProgress();
         });
       </script>
 

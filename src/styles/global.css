@@ -118,6 +118,27 @@
   @apply !text-lime-600 !font-bold;
 }
 
+/* --- Prose / Legal Page Customizations --- */
+.prose h2 {
+  @apply !text-xl !font-bold !mt-8 !mb-4 !text-dark;
+}
+
+.prose h3 {
+  @apply !text-lg !font-semibold !mt-6 !mb-3 !text-dark;
+}
+
+.prose p {
+  @apply !mb-4 !text-gray-text;
+}
+
+.prose ul {
+  @apply !mb-4 !ml-6 !list-disc !text-gray-text;
+}
+
+.prose li {
+  @apply !mb-1;
+}
+
 /* --- Article Content Styling (Blog & Glossar) --- */
 .blog-content h2 {
   @apply !text-2xl md:!text-3xl !font-bold !mt-20 !mb-8 !border-b !border-gray-100 !pb-4 !scroll-mt-28 md:!scroll-mt-32;

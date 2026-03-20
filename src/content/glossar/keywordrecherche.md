@@ -14,7 +14,7 @@ faqs:
   - question: "Mit welchen Kosten muss ich für eine umfassende SEO-Keywordrecherche rechnen?"
     answer: "Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie ('Was machen wir nun mit diesen Daten?') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs."
   - question: "Reicht der kostenlose Google Keyword Planner heute noch aus?"
-    answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href=\"https://seranking.com/de/?ga=4169588&source=link\" target=\"_blank\" rel=\"noopener noreferrer\">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
+    answer: "Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark ('Search Volume Buckets') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href=\"https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link\" target=\"_blank\" rel=\"noopener noreferrer\">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern."
 ---
 
 Keywordrecherche ist keine Fleißaufgabe.
@@ -37,7 +37,7 @@ Ein kleiner Unterschied im Wortlaut bedeutet oft einen gewaltigen Unterschied im
 Ich gehe in meiner Arbeit als [SEO Berater](/seo-freelancer-berlin/) immer nach diesem Schema vor:
 
 1.  **Brainstorming:** Was sind deine Kern-Themen? Was sind deine Produkte?
-2.  **Tool-Check:** Wir füttern ein [Keyword Tool](/glossar/keyword-tool/) mit deinen Ideen und schauen auf die harten Fakten.
+2.  **Tool-Check:** Wir füttern ein [Keyword Tool](/glossar/keyword-tool/) wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> mit deinen Ideen und schauen auf die harten Fakten.
 3.  **Wettbewerbs-Analyse:** Für welche Begriffe rankt die Konkurrenz? Wo schlafen sie?
 4.  **Clustering:** Wir sortieren die Begriffe nach Themen und [User Intent](/glossar/keywoerter/).
 
@@ -85,7 +85,7 @@ ALOHA 🌻
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
   <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking kostenlos testen </a>
+  <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking Keyword Recherche testen </a>
 </div>
 
 <div class="blog-cta-box">

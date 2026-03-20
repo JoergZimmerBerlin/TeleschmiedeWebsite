@@ -56,7 +56,7 @@ ALOHA! 🌻✌️
 
 ### Glossary
 
-- 301 vs. 302 Redirects: Der Nachsendeauftrag für dein SEO
+- 301 vs. 302 Redirects: Dein SEO-Nachsendeauftrag
 - 404 Fehlerseiten
 - AEO (Answer Engine Optimization)
 - AI SEO
@@ -66,12 +66,12 @@ ALOHA! 🌻✌️
 - Brand Mentions
 - Campixx Berlin
 - Canonical Tag (rel='canonical')
-- ChatGPT SEO: Sichtbarkeit in der wichtigsten Reasoning Engine
+- ChatGPT SEO: Sichtbarkeit in KI-Engines
 - Citation (Zitierung)
-- Conversion-Rate-Optimierung (CRO): Mehr Umsatz aus vorhandenem Traffic 
+- Conversion-Rate-Optimierung (CRO): Mehr Umsatz
 - Core Web Vitals (CWV)
 - CPC (Cost per Click)
-- Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets 
+- Crawler & Search Bots: Die Internet-Arbeiter
 - CTR (Click-Through-Rate)
 - E-E-A-T (Google Quality Rater Guidelines)
 - Entität (Entity)
@@ -81,9 +81,9 @@ ALOHA! 🌻✌️
 - Expertise (E-E-A-T Faktor)
 - FAQ Markup (FAQPage Schema)
 - GEO Agentur (Generative Engine Optimization)
-- GEO Audit: Der ultimative Check für deine KI-Sichtbarkeit
+- GEO Audit: Check für deine KI-Sichtbarkeit
 - GEO Freelancer (Generative Engine Optimization)
-- GEO Optimierung: Die neue Währung für KI-Sichtbarkeit
+- GEO Optimierung: Währung für KI-Sichtbarkeit
 - GEO vs. SEO: Die Zukunft der Suche
 - Generative Engine Optimization (GEO)
 - Google Algorithmus
@@ -95,8 +95,8 @@ ALOHA! 🌻✌️
 - Keywörter (Keywords)
 - Keyword Tool (SE Ranking & Co.)
 - Keywordrecherche
-- KI SEO Beratung: Agentur-Leistung für die Antwort-Ära
-- KI Sichtbarkeit messen & optimieren – Der ultimative Guide
+- KI-SEO Beratung: Agentur für die Antwort-Ära
+- KI-Sichtbarkeit messen: Der ultimative Guide
 - Knowledge Graph
 - Linkbuilding & Interne Verlinkung
 - Linkjuice (Linkkraft)
@@ -136,57 +136,58 @@ ALOHA! 🌻✌️
 - Trustworthiness (E-E-A-T Faktor)
 - Die Überstunde Berlin
 - Usability (Nutzungsfreundlichkeit)
-- Website Relaunch: SEO-Rettung vor dem Pfusch am Bau
+- Website Relaunch: SEO-Rettung vor Pfusch
+- Website SEO Audit
 - WordPress SEO, TYPO3 & Plugins
 - Zero-Click Content
 - Zitierfähiger Content
 
 ### Blog Articles
 
-- Was kann man in 2 Stunden SEO schon erreichen? (Spoiler: Eine ganze Menge!) 
-- Warum wir SEO-Spezialisten eine Welle machen sollten 
-- Warum wir SEO-Spezialisten schuld am Zustand des Internets sind (und wie wir es gemeinsam ändern)
-- Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer, die gleiche Wahrheit
-- Sistrix vs. SE Ranking: Kann das Tool den Platzhirsch ersetzen?
-- SEO Persönlich: Mein Interview im SEOpresso Podcast 
+- 2h SEO-Sprechstunde: Was ist wirklich möglich?
+- Warum wir SEO-Spezialisten zusammenhalten sollten
+- Warum wir SEOs schuld am Internet-Zustand sind
+- SEO 2026: Alte Irrtümer & neue Wahrheiten
+- Sistrix vs. SE Ranking: Welches Tool gewinnt?
+- SEO Persönlich: Mein Interview bei SEOpresso
 - SEOpresso Podcast: Meine Empfehlung mit Max Muhr
 - Wie läuft so eine SEO-Sprechstunde ab? 
-- Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill
-- 5 Sterne: Was Kunden über die SEO-Sprechstunde sagen
-- Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet 
+- SEO-Sprechstunde: Website-Check & Sichtbarkeit
+- 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde
+- SEO-Relaunch: Warum ohne SEO das Desaster droht
 - Tatü Tata: Die SEO Feuerwehr rückt aus! 
-- SE Ranking Preise 2026: Der ultimative Guide für SEO-Experten
-- SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen
-- Rankscale Update: Growth-Plan, REST-API & ChatGPT Shopping Analyse
-- Rankscale Essentials: AI Visibility ab 20 Euro – Absolute Empfehlung für Einsteiger
-- Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken
-- Rankscale: Ein AI Visibility Tool, das ich empfehlen kann
-- PageSpeed 100/100: So wurde diese Website blitzschnell
-- SEO ist tot? Magic Writing Podcast mit Michael Kaufhold
-- LinkedIn ist kein soziales Netzwerk, es ist ein Forum (und wir SEOs müssen es nutzen)
-- Liebe Bots, Crawler und Agenten: Ein offener Brief von eurem SEO-Betreuer
-- Meine Highlights aus 2025 - Ein SEO-Jahresrückblick
-- Wer ist für die Einrichtung der Google Search Console zuständig? 
-- Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot
-- GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt
-- Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist 
-- Grüne Woche, Dönerback und warum das Geheimnis in der Qualität liegt 
-- Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst
-- Braucht SEO einen neuen Namen? (Die Campixx Umfrage) 
+- SE Ranking Preise 2026: Der Guide für Experten
+- SE Ranking AI Tracker: KI-Sichtbarkeit messen
+- Rankscale Update: API & ChatGPT Shopping Analyse
+- Rankscale Essentials: AI Visibility ab 20€
+- Rankscale: 17 LLMs für 99€ tracken
+- Rankscale: Ein AI Visibility Tool für Profis
+- PageSpeed 100/100: So wurde die Website schnell
+- Michael Kaufhold im Podcast Interview: SEO tot?
+- LinkedIn: Warum SEOs das Forum nutzen müssen
+- Brief an Bots & Crawler: SEO-Insights 2026
+- Meine SEO-Highlights 2025: Der Jahresrückblick
+- GSC: Wer ist für die Einrichtung zuständig?
+- Google Ads Support vs. SEO: Die Wahrheit
+- GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
+- SEO-Handwerk: Warum Qualität der USP ist
+- SEO-Qualität: Von Dönerback bis Erfolg
+- Core Web Vitals: Warum dein UX-Bericht zählt
+- Braucht SEO einen neuen Namen? Campixx Umfrage
 - Bist du SEO AI Ready? Podcast mit Antonio Blago
-- Beste SEO Tools für AI Search & Prompt Tracking: Der Tacheles-Vergleich 2026
-- GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet
-- GEO, AI SEO oder LLMO? Wie wir Sichtbarkeit in KI-Modellen wirklich nennen 
-- 1. AI Connect Berlin: Vibe Coding, Antigravity und Gemini Pro
+- Beste SEO-Tools für AI Search & Prompt Tracking
+- GEO & AI-SEO: Warum kein Praktikanten-Job
+- GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
+- 1. AI Connect Berlin: Vibe Coding & Gemini
 - Wenn AI-Agenten deinen LinkedIn-Feed kapern 
-- Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke (und wie du es vermeidest)
-- 24 Jahre SEO - und wir machen immer noch die gleichen Fehler
+- Die 80%-Falle: Was ich in der Sprechstunde sehe
+- 24 Jahre SEO: Warum wir gleiche Fehler machen
 
 ---
 
 ## GLOSSARY
 
-### 301 vs. 302 Redirects: Der Nachsendeauftrag für dein SEO
+### 301 vs. 302 Redirects: Dein SEO-Nachsendeauftrag
 
 
 Moin! 🌻
@@ -852,7 +853,7 @@ ALOHA 🌻
 
 ---
 
-### ChatGPT SEO: Sichtbarkeit in der wichtigsten Reasoning Engine
+### ChatGPT SEO: Sichtbarkeit in KI-Engines
 
 
 Moin! 🌻
@@ -1001,7 +1002,7 @@ ALOHA 🌻
 
 ---
 
-### Conversion-Rate-Optimierung (CRO): Mehr Umsatz aus vorhandenem Traffic 
+### Conversion-Rate-Optimierung (CRO): Mehr Umsatz
 
 
 Moin! 🌻
@@ -1227,7 +1228,7 @@ ALOHA 🌻
 
 ---
 
-### Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets 
+### Crawler & Search Bots: Die Internet-Arbeiter
 
 
 
@@ -1934,7 +1935,7 @@ ALOHA 🌻
 
 ---
 
-### GEO Audit: Der ultimative Check für deine KI-Sichtbarkeit
+### GEO Audit: Check für deine KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -2132,7 +2133,7 @@ ALOHA 🌻
 
 ---
 
-### GEO Optimierung: Die neue Währung für KI-Sichtbarkeit
+### GEO Optimierung: Währung für KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -2952,7 +2953,7 @@ Ein kleiner Unterschied im Wortlaut bedeutet oft einen gewaltigen Unterschied im
 Ich gehe in meiner Arbeit als [SEO Berater](https://teleschmie.de/seo-freelancer-berlin/) immer nach diesem Schema vor:
 
 1.  **Brainstorming:** Was sind deine Kern-Themen? Was sind deine Produkte?
-2.  **Tool-Check:** Wir füttern ein [Keyword Tool](https://teleschmie.de/glossar/keyword-tool/) mit deinen Ideen und schauen auf die harten Fakten.
+2.  **Tool-Check:** Wir füttern ein [Keyword Tool](https://teleschmie.de/glossar/keyword-tool/) wie SE Ranking mit deinen Ideen und schauen auf die harten Fakten.
 3.  **Wettbewerbs-Analyse:** Für welche Begriffe rankt die Konkurrenz? Wo schlafen sie?
 4.  **Clustering:** Wir sortieren die Begriffe nach Themen und [User Intent](https://teleschmie.de/glossar/keywoerter/).
 
@@ -3000,7 +3001,7 @@ ALOHA 🌻
 
   Lust auf Profi-Daten von SE Ranking?
   Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:
-  SE Ranking kostenlos testen 
+  SE Ranking Keyword Recherche testen 
 
 
 
@@ -3015,7 +3016,7 @@ ALOHA 🌻
 
 ---
 
-### KI SEO Beratung: Agentur-Leistung für die Antwort-Ära
+### KI-SEO Beratung: Agentur für die Antwort-Ära
 
 
 Moin! 🌻
@@ -3080,7 +3081,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### KI Sichtbarkeit messen & optimieren – Der ultimative Guide
+### KI-Sichtbarkeit messen: Der ultimative Guide
 
 
 Moin! 🌻
@@ -5968,7 +5969,7 @@ ALOHA 🌻
 
 ---
 
-### Website Relaunch: SEO-Rettung vor dem Pfusch am Bau
+### Website Relaunch: SEO-Rettung vor Pfusch
 
 
 Moin! 🌻
@@ -6035,6 +6036,119 @@ ALOHA! 🌻✌️
 * [Google Search Console Guide](https://teleschmie.de/glossar/google-search-console/)
 * [Pagespeed optimieren](https://teleschmie.de/glossar/pagespeed/)
 * [Sichtbarkeitsmanagement](https://teleschmie.de/glossar/sichtbarkeitsmanagement/)
+
+---
+
+### Website SEO Audit
+
+
+Moin! 
+
+Wenn du wissen willst, warum deine Website nicht rankt, musst du unter die Haube schauen. Ein **Website SEO Audit** ist wie die Hauptuntersuchung beim TÜV – nur für deine Domain. Wer hier schlampt, fährt mit angezogener Handbremse gegen die Wand der Google-Ignoranz. In einer Welt, in der KI-Bots wie ChatGPT und Perplexity das Netz crawlen, ist ein technisch sauberes Fundament überlebenswichtig.
+
+In meiner täglichen Arbeit als [SEO-Freelancer in Berlin](https://teleschmie.de/seo-freelancer-berlin/) ist das Audit immer der erste Schritt. Egal ob [Technisches SEO](https://teleschmie.de/glossar/technisches-seo/), Content-Strategie oder [Sichtbarkeitsmanagement](https://teleschmie.de/glossar/sichtbarkeitsmanagement/) – ohne eine saubere **Analyse** ist alles nur Raten. Und Raten ist im SEO teuer.
+
+
+   Jörgs SEO-Klartext (LinkedIn Insights)
+  "Ein Audit ohne anschließende Umsetzung ist nur eine teure Liste von Problemen. Die wahre Magie passiert in der Priorisierung: Was bringt den größten Hebel bei geringstem Aufwand? Meistens sind es nicht die 500 kleinen H-Tag-Fehler, sondern die eine blockierte Sitemap."
+
+
+---
+
+## Warum jedes SEO-Projekt mit einem Audit beginnt
+
+Stell dir vor, du baust ein Haus auf einem Sumpf. Egal wie schön die Fassade ist, das Haus wird absacken. Im SEO ist die Technik dein Fundament. Ein **Website Audit** prüft, ob Google deine Seiten überhaupt finden, lesen und verstehen kann. Wenn die [Indexierung](https://teleschmie.de/glossar/noindex/) hakt, nützt dir auch der beste Content der Welt nichts.
+
+### Die 3 Säulen meines Audits in der SEO Sprechstunde
+
+In meiner [SEO Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-erklaert/) kämmen wir deine Seite gemeinsam durch. Dabei konzentriere ich mich auf die drei wichtigsten Hebel, um die besten Prioritäten für dein Business herauszufinden:
+
+1.  **Technik:** Sind [Crawler](https://teleschmie.de/glossar/crawler/) blockiert? Gibt es [404-Fehlerseiten](https://teleschmie.de/glossar/404-fehlerseiten/)? Funktioniert deine [Sitemap](https://teleschmie.de/glossar/sitemap/)?
+2.  **Content:** Hast du Duplicate Content? Fehlen [Meta-Descriptions](https://teleschmie.de/glossar/meta-description/)? Sind deine [Title-Tags](https://teleschmie.de/glossar/title-tag/) optimiert?
+3.  **Performance:** Wie schnell lädt die Seite? Passen die [Core Web Vitals](https://teleschmie.de/glossar/core-web-vitals/)?
+
+---
+
+## Das Profi-Tool für dein technisches SEO-Audit: SE Ranking
+
+Ich werde oft gefragt: "Jörg, welches **SEO Tool** nutzt du eigentlich für den Check?" Meine Antwort ist klar: Für technische Audits setze ich auf **SE Ranking**. Es ist im Vergleich zu anderen Suiten extrem **günstig** und liefert trotzdem Daten auf Enterprise-Niveau. Es ist die perfekte Wahl für kleine und mittlere Unternehmen, die keine 500 Euro im Monat für Software ausgeben wollen, aber trotzdem Profi-Ergebnisse brauchen.
+
+### Was das SE Ranking Audit-Tool auszeichnet
+
+Das Site-Audit-Tool von SE Ranking analysiert deine Website auf mehr als **115 Parametern**. Hier sind die Highlights, die mir jedes Mal Zeit und Nerven sparen:
+
+*   **Health Score:** Ein prozentualer Wert, der dir sofort sagt, wie gesund dein technisches SEO ist. Er kombiniert alle gefundenen Fehler zu einer griffigen Kennzahl.
+*   **Probleme nach Typ:** Fehler werden nach Priorität sortiert (Kritisch, Warnung, Hinweis). Das hilft dir extrem bei der Umsetzung, da du dich nicht im Kleinklein verlierst.
+*   **JavaScript-Rendering:** Viele moderne Websites (Astro, React, Vue) brauchen JavaScript, um Inhalte anzuzeigen. SE Ranking kann das crawlen – viele günstigere Tools scheitern hier kläglich.
+*   **Crawl-Vergleich:** Du siehst genau, ob deine Fixes gewirkt haben, indem du das aktuelle Audit mit dem vorherigen vergleichst.
+
+---
+
+## Tiefenanalyse: Was ein technisches Audit wirklich prüft
+
+Lass uns tiefer in die Materie eintauchen. Ein professionelles Audit geht weit über "hast du eine H1?" hinaus. Hier sind die Bereiche, in denen SE Ranking glänzt und die wir in der Sprechstunde genau unter die Lupe nehmen.
+
+### 1. Indexierbarkeit und Crawling
+Wenn Google deine Seite nicht crawlen kann, existierst du nicht. Wir prüfen via Audit:
+*   **Robots.txt:** Gibt es versehentliche Blockaden?
+*   **Sitemap.xml:** Ist sie aktuell, fehlerfrei und in der Search Console hinterlegt?
+*   **HTTP-Statuscodes:** Finden wir 301-Weiterleitungsketten oder gar 404-Fehler, die wertvollen Linkjuice vernichten?
+*   **Canonical Tags:** Sind sie korrekt gesetzt, um Duplicate Content zu vermeiden?
+
+### 2. On-Page SEO Faktoren
+Jede einzelne URL muss für sich alleine stehen können. Das Audit checkt:
+*   **Title-Tags:** Sind sie einzigartig und haben sie die richtige Länge (unter 50 Zeichen)?
+*   **Meta-Descriptions:** Verleiten sie zum Klick (unter 150 Zeichen)?
+*   **Überschriften-Struktur:** Gibt es eine klare Hierarchie von H1 bis H3?
+*   **Bilder-Optimierung:** Fehlen Alt-Tags? Sind die Dateigrößen zu massiv?
+
+### 3. Core Web Vitals und Page Speed
+Google hat Geschwindigkeit zum Rankingfaktor gemacht. Ein gutes **SEO Tool** muss die Vitalwerte deiner Seite messen:
+*   **LCP (Largest Contentful Paint):** Wann sieht der Nutzer den Hauptinhalt?
+*   **FID (First Input Delay):** Wie schnell reagiert die Seite auf Klicks?
+*   **CLS (Cumulative Layout Shift):** Wackeln Elemente beim Laden hin und her?
+
+
+  Profi-Tipp: Automatisiertes Monitoring
+  Ein Audit ist keine Einmal-Aktion. In SE Ranking kannst du wöchentliche Scans planen. Wenn du aus Versehen eine wichtige Seite auf 'noindex' setzt, bekommst du sofort eine Mail. Das ist deine digitale Versicherung gegen Traffic-Verluste durch menschliche Fehler.
+
+
+---
+
+## Schritt-für-Schritt: So führst du dein erstes Website Audit durch
+
+Du musst kein Full-Stack-Entwickler sein, um ein technisches SEO-Audit zu starten. Mit dem richtigen Tool ist es fast ein Selbstläufer.
+
+1.  **Domain eintragen & Crawl starten:** Das ist der einfachste Teil. Auf der verlinkten Website von SE Ranking gibt es direkt ein Feld zum Eintrag der Domain. Tipp deine URL ein und lass den Crawler los.
+2.  **Dashboard analysieren:** Schau dir den Health Score an. Alles über 80% ist gut, unter 60% solltest du dringend handeln. Achte besonders auf die 'Top Issues' Liste.
+3.  **Fehler-Report priorisieren:** Geh zuerst die 'roten' Fehler an. Das sind meistens Dinge wie Server-Fehler, kaputte Links oder indexierte Test-Umgebungen, die dein SEO sabotieren.
+4.  **Core Web Vitals prüfen:** Google liebt Geschwindigkeit. Das Audit zeigt dir genau, welche Ressourcen (Bilder, Skripte) deine Ladezeit bremsen.
+5.  **Vergleich mit Mitbewerbern:** Du kannst SE Ranking auch nutzen, um die Websites deiner Konkurrenz zu checken. Wo haben sie technische Lücken, in die du stoßen kannst?
+
+---
+
+## Mein Tacheles-Rat für dich
+
+Hör auf zu raten und basiere deine Entscheidungen auf harten Fakten. Ein **Website SEO Audit** gibt dir die Roadmap, die du für echtes Wachstum brauchst. Wenn du es richtig machst, findest du Fehler, die dich seit Monaten wertvolle Rankings und damit bares Geld kosten. 
+
+Ich nutze SE Ranking für fast alle meine Klienten-Projekte und meine eigenen Seiten, weil es zuverlässig, schnell und vor allem bezahlbar ist. Wenn du selbst mal schauen willst, was bei dir im Argen liegt: Du kannst das Tool **14 Tage kostenlos** und unverbindlich testen. Kein Risiko, nur Wissen.
+
+**Probier es aus:** Auf der folgenden Seite musst du lediglich deine Domain eingeben, um den ersten Check zu triggern. Viel Erfolg bei deiner **Analyse**!
+
+ALOHA 🌻 
+
+
+  Bereit für den SEO-Check?
+  Hol dir jetzt die volle Kontrolle über deine Technik. Teste das Website-Audit von SE Ranking 14 Tage lang kostenlos und finde heraus, wo dein Potenzial liegt. Auf der Seite findest du direkt ein Feld für deine Domain!
+  Jetzt Website-Audit kostenlos starten
+
+
+* [Was ist Technisches SEO?](https://teleschmie.de/glossar/technisches-seo/)
+* [Crawler verstehen](https://teleschmie.de/glossar/crawler/)
+* [Warum die Sitemap wichtig ist](https://teleschmie.de/glossar/sitemap/)
+* [Core Web Vitals optimieren](https://teleschmie.de/glossar/core-web-vitals/)
+)
+* [Core Web Vitals optimieren](https://teleschmie.de/glossar/core-web-vitals/)
 
 ---
 
@@ -6210,7 +6324,7 @@ ALOHA 🌻
 
 ## BLOG ARTICLES
 
-### Was kann man in 2 Stunden SEO schon erreichen? (Spoiler: Eine ganze Menge!) 
+### 2h SEO-Sprechstunde: Was ist wirklich möglich?
 
 
 Moin! 🌻
@@ -6260,7 +6374,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Warum wir SEO-Spezialisten eine Welle machen sollten 
+### Warum wir SEO-Spezialisten zusammenhalten sollten
 
 
 Moin! 🌻
@@ -6361,11 +6475,6 @@ Wir lesen uns im Feed!
 ALOHA 🌻! 🌻
 
 
-  Willst du echte Ergebnisse statt Bot-Blabla?
-  Authentizität ist der Schlüssel, aber Daten sind das Schloss. Mit SE Ranking auditieren wir deine echte Performance und mit Rankscale messen wir deine Reputation in der KI-Welt.
-  Jetzt Strategie-Check anfragen 
-
-
 
   Willst du Teil der Welle sein?
   Hör auf, SEO als Einzelkämpfer zu betrachten. Mit SE Ranking auditieren wir deine Konkurrenz und mit Rankscale sichern wir deine Sichtbarkeit in der KI-Suche.
@@ -6374,7 +6483,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Warum wir SEO-Spezialisten schuld am Zustand des Internets sind (und wie wir es gemeinsam ändern)
+### Warum wir SEOs schuld am Internet-Zustand sind
 
 
 Moin!
@@ -6466,7 +6575,7 @@ Jetzt SEO-Sprechstunde buchen
 
 ---
 
-### Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer, die gleiche Wahrheit
+### SEO 2026: Alte Irrtümer & neue Wahrheiten
 
 
 Moin!
@@ -6554,7 +6663,7 @@ Jetzt Sprechstunde buchen
 
 ---
 
-### Sistrix vs. SE Ranking: Kann das Tool den Platzhirsch ersetzen?
+### Sistrix vs. SE Ranking: Welches Tool gewinnt?
 
 
 ALOHA 🌻! 🌻
@@ -6670,7 +6779,7 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 
 ---
 
-### SEO Persönlich: Mein Interview im SEOpresso Podcast 
+### SEO Persönlich: Mein Interview bei SEOpresso
 
 
 Moin! 🌻
@@ -6793,7 +6902,7 @@ So beginnt eine wirklich gute Podcast-Folge: Unerwartete Einblicke, echte Mensch
 
 ## Warum du diese Folge unbedingt hören solltest
 
-**Maximilian D. Muhr** erzählt im [SEOpresso Podcast](https://seopresso.de) von Björn Darko Dinge, die ich trotz meiner 24 Jahre in der Branche noch nicht wusste. Er ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat – und manchmal auch vor dem Sinken bewahrt hat.
+**Maximilian D. Muhr** erzählt im SEOpresso Podcast von Björn Darko Dinge, die ich trotz meiner 24 Jahre in der Branche noch nicht wusste. Er ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat – und manchmal auch vor dem Sinken bewahrt hat.
 
 Was mich an seinem Interview besonders beeindruckt hat:
 
@@ -6838,7 +6947,7 @@ SEOs persönlich kennenzulernen – ihre Brüche, ihre Erfolge, ihre Ängste –
 
 Wenn du gerade an einem Wendepunkt stehst, die Konzernkarriere in Frage stellst oder einfach Lust auf echte Insights aus der BILD-Zeit und moderne [Entitäts-SEO](https://teleschmie.de/glossar/entity-seo/) hast – hör rein.
 
-**Direkt reinhören:** [SEOpresso mit Maximilian Muhr](https://seopresso.de)
+**Direkt reinhören:** SEOpresso mit Maximilian Muhr
 
 ALOHA 🌻! 🌻
 
@@ -6921,7 +7030,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill
+### SEO-Sprechstunde: Website-Check & Sichtbarkeit
 
 
 Moin! 🌻
@@ -6999,7 +7108,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### 5 Sterne: Was Kunden über die SEO-Sprechstunde sagen
+### 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde
 
 
 Moin! 🌻
@@ -7084,7 +7193,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet 
+### SEO-Relaunch: Warum ohne SEO das Desaster droht
 
 
 Moin! 🌻
@@ -7265,7 +7374,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SE Ranking Preise 2026: Der ultimative Guide für SEO-Experten
+### SE Ranking Preise 2026: Der Guide für Experten
 
 
 Moin! 🌻
@@ -7371,7 +7480,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen
+### SE Ranking AI Tracker: KI-Sichtbarkeit messen
 
 
 Moin! 🌻
@@ -7449,7 +7558,7 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
 
 ---
 
-### Rankscale Update: Growth-Plan, REST-API & ChatGPT Shopping Analyse
+### Rankscale Update: API & ChatGPT Shopping Analyse
 
 
 Moin! 🌻
@@ -7473,7 +7582,7 @@ Mehr Flexibilität, ohne direkt den Core des Unternehmens verpfänden zu müssen
 ## 2. REST-API: Endlich Daten-Freiheit
 Das ist für mich als "Digitaler Dinosaurier", der Automatisierung liebt, der echte Knaller. Die neue **REST-API** (verfügbar für Growth & Enterprise) erlaubt es uns, die Sichtbarkeitsdaten direkt in unsere eigenen Dashboards oder CRM-Systeme zu ziehen. 
 
-Kein manuelles Exportieren mehr. Wer Reporting-Automatisierung liebt, wird das feiern. Übrigens: Es gibt sogar einen [OpenClaw Skill](https://github.com/Rankscale/OpenClaw), der zeigt, wie man das Ganze integriert. 
+Kein manuelles Exportieren mehr. Wer Reporting-Automatisierung liebt, wird das feiern. 
 
 ## 3. ChatGPT Shopping Analyse
 E-Commerce-Leute, passt auf! Wir wissen, dass KI-Modelle immer mehr Kaufberatung übernehmen. Rankscale zeigt jetzt in einer dedizierten Ansicht, wie deine Produkte in ChatGPT-Einkaufsergebnissen auftauchen. 
@@ -7518,7 +7627,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale Essentials: AI Visibility ab 20 Euro – Absolute Empfehlung für Einsteiger
+### Rankscale Essentials: AI Visibility ab 20€
 
 
 Moin! 🌻
@@ -7619,7 +7728,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken
+### Rankscale: 17 LLMs für 99€ tracken
 
 
 Moin! 🌻
@@ -7696,7 +7805,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale: Ein AI Visibility Tool, das ich empfehlen kann
+### Rankscale: Ein AI Visibility Tool für Profis
 
 
 Moin! 🌻
@@ -7765,7 +7874,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### PageSpeed 100/100: So wurde diese Website blitzschnell
+### PageSpeed 100/100: So wurde die Website schnell
 
 
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 20 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 
@@ -7890,7 +7999,7 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 
 ---
 
-### SEO ist tot? Magic Writing Podcast mit Michael Kaufhold
+### Michael Kaufhold im Podcast Interview: SEO tot?
 
 
 "SEO ist tot" – sagen sie und schreiben dann krampfhaft für den Algorithmus, damit sie überhaupt noch jemand im digitalen Nirvana wahrnimmt. Es ist die ewige Schlagzeile unserer Branche. Ein Evergreen, der pünktlich zu jedem größeren Google-Update oder jeder neuen Technologie-Welle (wie aktuell KI) aus der Mottenkiste geholt wird.
@@ -7959,7 +8068,7 @@ Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. 
 
 ---
 
-### LinkedIn ist kein soziales Netzwerk, es ist ein Forum (und wir SEOs müssen es nutzen)
+### LinkedIn: Warum SEOs das Forum nutzen müssen
 
 
 Moin!
@@ -8060,7 +8169,7 @@ Zur LinkedIn Diskussion (34+ Kommentare)
 
 ---
 
-### Liebe Bots, Crawler und Agenten: Ein offener Brief von eurem SEO-Betreuer
+### Brief an Bots & Crawler: SEO-Insights 2026
 
 
 Moin! 🌻
@@ -8135,7 +8244,7 @@ Jetzt Sprechstunde buchen
 
 ---
 
-### Meine Highlights aus 2025 - Ein SEO-Jahresrückblick
+### Meine SEO-Highlights 2025: Der Jahresrückblick
 
 
 Moin! 🌻
@@ -8215,7 +8324,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Wer ist für die Einrichtung der Google Search Console zuständig? 
+### GSC: Wer ist für die Einrichtung zuständig?
 
 
 Moin! 🌻
@@ -8306,7 +8415,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot
+### Google Ads Support vs. SEO: Die Wahrheit
 
 
 Zwei Aussagen, die ich in fast jedem Erstgespräch machen muss – und sie lösen meistens erst mal ungläubiges Staunen oder nervöses Herzklopfen aus. Weil sie an den Grundfesten dessen rütteln, was viele Marketing-Abteilungen über Jahre als "Wahrheit" verkauft bekommen haben. 
@@ -8392,7 +8501,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt
+### GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
 
 
 Sichtbarkeit in KI-Modellen optimieren – das ist das neue große Thema, das gerade durch alle SEO-Foren und LinkedIn-Timelines geistert. Aber wie nennen wir das eigentlich? Haben wir uns schon auf einen Standard geeinigt oder werfen wir einfach nur mit neuen Buzzwords um uns, um auf Partys cooler zu wirken? (Wobei, SEOs auf Partys... lassen wir das Thema.)
@@ -8486,7 +8595,7 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
 
 ---
 
-### Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist 
+### SEO-Handwerk: Warum Qualität der USP ist
 
 
 Moin! 🌻
@@ -8599,7 +8708,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Grüne Woche, Dönerback und warum das Geheimnis in der Qualität liegt 
+### SEO-Qualität: Von Dönerback bis Erfolg
 
 
 Moin! 🌻
@@ -8673,7 +8782,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst
+### Core Web Vitals: Warum dein UX-Bericht zählt
 
 
 Moin! 🌻
@@ -8765,7 +8874,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Braucht SEO einen neuen Namen? (Die Campixx Umfrage) 
+### Braucht SEO einen neuen Namen? Campixx Umfrage
 
 
 Moin! 🌻
@@ -8905,7 +9014,7 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
 
 ---
 
-### Beste SEO Tools für AI Search & Prompt Tracking: Der Tacheles-Vergleich 2026
+### Beste SEO-Tools für AI Search & Prompt Tracking
 
 
 Moin! 🌻
@@ -9023,7 +9132,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet
+### GEO & AI-SEO: Warum kein Praktikanten-Job
 
 
 Die SEO-Welt hat mal wieder neue Abkürzungen: **GEO** (Generative Engine Optimization), **AIO** (AI Optimization), **AI-SEO**. Klingt alles fancy, fast schon futuristisch, aber was steckt wirklich dahinter? Ist es nur alter Wein in neuen Schläuchen oder befinden wir uns wirklich in einer tektonischen Verschiebung der digitalen Sichtbarkeit?
@@ -9100,7 +9209,7 @@ Investiert in Wissen, investiert in Tiefe und bleibt neugierig. Aber lasst die F
 
 ---
 
-### GEO, AI SEO oder LLMO? Wie wir Sichtbarkeit in KI-Modellen wirklich nennen 
+### GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -9166,7 +9275,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### 1. AI Connect Berlin: Vibe Coding, Antigravity und Gemini Pro
+### 1. AI Connect Berlin: Vibe Coding & Gemini
 
 
 ALOHA! 🌻
@@ -9373,7 +9482,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke (und wie du es vermeidest)
+### Die 80%-Falle: Was ich in der Sprechstunde sehe
 
 
 Moin! 🌻
@@ -9504,7 +9613,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### 24 Jahre SEO - und wir machen immer noch die gleichen Fehler
+### 24 Jahre SEO: Warum wir gleiche Fehler machen
 
 
 Moin! 🌻

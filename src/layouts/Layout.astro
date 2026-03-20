@@ -31,6 +31,18 @@ if (ogImage) {
   // Default Fallback
   ogImageUrl = `${siteUrl}/assets/hero-pose.webp`; // This assumes the build moves it here, or we use a static one
 }
+// SEO Truncation Helper
+const truncate = (text: string, limit: number) => {
+  if (!text) return '';
+  if (text.length <= limit) return text;
+  // Try to cut at last space within limit
+  const sub = text.substring(0, limit);
+  const lastSpace = sub.lastIndexOf(' ');
+  return lastSpace > 0 ? sub.substring(0, lastSpace) : sub;
+};
+
+const displayTitle = truncate(title, 50);
+const displayDescription = truncate(description, 150);
 ---
 
 <!doctype html>
@@ -38,7 +50,7 @@ if (ogImage) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
+    <meta name="description" content={displayDescription} />
     <ClientRouter />
 
     <!-- Security -->
@@ -49,8 +61,8 @@ if (ogImage) {
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={displayTitle} />
+    <meta property="og:description" content={displayDescription} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={`${siteUrl}${currentPath}`} />
     <meta property="og:image" content={ogImageUrl} />
@@ -62,8 +74,8 @@ if (ogImage) {
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:title" content={displayTitle} />
+    <meta name="twitter:description" content={displayDescription} />
     <meta name="twitter:image" content={ogImageUrl} />
 
     <!-- Favicon -->
@@ -108,7 +120,7 @@ if (ogImage) {
     <link rel="llms" href={`${siteUrl}/llms.txt`} />
     <link rel="alternate" type="text/markdown" href={`${siteUrl}/llms-full.txt`} />
 
-    <title>{title}</title>
+    <title>{displayTitle}</title>
   </head>
   <body class="min-h-screen flex flex-col bg-white">
     <!-- Global Reading Progress Bar -->
@@ -123,7 +135,7 @@ if (ogImage) {
 
     <Footer />
 
-<script is:inline define:vars={{ baseUrl }}>
+<script>
       let ticking = false;
       const updateProgress = () => {
         const progressBar = document.getElementById('progress-bar');

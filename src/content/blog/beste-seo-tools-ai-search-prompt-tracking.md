@@ -1,5 +1,5 @@
 ---
-title: "Beste SEO Tools für AI Search & Prompt Tracking: Der Tacheles-Vergleich 2026"
+title: "Beste SEO-Tools für AI Search & Prompt Tracking"
 description: "Welche SEO-Tools tracken ChatGPT, Perplexity & Co. wirklich? Ein ehrlicher Vergleich von RankScale, SE Ranking und Gratis-Tools für deine AI Visibility. ALOHA! 🌻"
 date: "2026-03-19"
 image: "../../assets/images/blog/blog-ai-search-tools-3d.webp"

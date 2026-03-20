@@ -1,5 +1,5 @@
 ---
-title: "PageSpeed 100/100: So wurde diese Website blitzschnell"
+title: "PageSpeed 100/100: So wurde die Website schnell"
 description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, um einen perfekten PageSpeed Score von 100/100 zu erreichen?"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_pagespeed-100-perfekte-performance-activity-7290107283416819712-lP49"

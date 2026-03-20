@@ -1,5 +1,5 @@
 ---
-title: "KI SEO Beratung: Agentur-Leistung für die Antwort-Ära"
+title: "KI-SEO Beratung: Agentur für die Antwort-Ära"
 description: "KI SEO Beratung & Optimierung: Warum klassische Agenturen an GPT-4 & Co. scheitern und warum du echte Senior-Expertise brauchst. ALOHA! 🌻"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-ki-seo-beratung-3d.png"

@@ -27,7 +27,7 @@ So beginnt eine wirklich gute Podcast-Folge: Unerwartete Einblicke, echte Mensch
 
 ## Warum du diese Folge unbedingt hören solltest
 
-**Maximilian D. Muhr** erzählt im [SEOpresso Podcast](https://seopresso.de) von Björn Darko Dinge, die ich trotz meiner 24 Jahre in der Branche noch nicht wusste. Er ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat – und manchmal auch vor dem Sinken bewahrt hat.
+**Maximilian D. Muhr** erzählt im SEOpresso Podcast von Björn Darko Dinge, die ich trotz meiner 24 Jahre in der Branche noch nicht wusste. Er ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat – und manchmal auch vor dem Sinken bewahrt hat.
 
 Was mich an seinem Interview besonders beeindruckt hat:
 
@@ -72,6 +72,6 @@ SEOs persönlich kennenzulernen – ihre Brüche, ihre Erfolge, ihre Ängste –
 
 Wenn du gerade an einem Wendepunkt stehst, die Konzernkarriere in Frage stellst oder einfach Lust auf echte Insights aus der BILD-Zeit und moderne [Entitäts-SEO](/glossar/entity-seo/) hast – hör rein.
 
-**Direkt reinhören:** [SEOpresso mit Maximilian Muhr](https://seopresso.de)
+**Direkt reinhören:** SEOpresso mit Maximilian Muhr
 
 ALOHA 🌻! 🌻

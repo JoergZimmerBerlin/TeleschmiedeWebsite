@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const GLOSSAR_DIR = './src/content/glossar';
+const BLOG_DIR = './src/content/blog';
 const DIST_DIR = './dist';
 
 // 1. Load Glossary Terms
@@ -19,16 +20,39 @@ function loadGlossary() {
       terms.push({
         title: titleMatch[1],
         description: descMatch ? descMatch[1] : '',
-        slug: slug
+        slug: slug,
+        type: 'glossar'
       });
     }
   }
-  // Sort by length descending to match longer terms first (e.g., "Core Web Vitals" before "SEO")
-  return terms.sort((a, b) => b.title.length - a.title.length);
+  return terms;
 }
 
-// 2. Process HTML Files
-function processDirectory(dir, glossary) {
+// 2. Load Blog Posts
+function loadBlog() {
+  const posts = [];
+  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  
+  for (const file of files) {
+    const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');
+    const titleMatch = content.match(/title:\s*"(.*?)"/);
+    const descMatch = content.match(/description:\s*"(.*?)"/);
+    const slug = file.replace(/\.mdx?$/, '');
+    
+    if (titleMatch) {
+      posts.push({
+        title: titleMatch[1].replace(/[:"]/g, ''), // Clean title for matching
+        description: descMatch ? descMatch[1] : '',
+        slug: slug,
+        type: 'blog'
+      });
+    }
+  }
+  return posts;
+}
+
+// 3. Process HTML Files
+function processDirectory(dir, allTerms) {
   const items = fs.readdirSync(dir);
   
   for (const item of items) {
@@ -36,21 +60,20 @@ function processDirectory(dir, glossary) {
     const stat = fs.statSync(fullPath);
     
     if (stat.isDirectory()) {
-      processDirectory(fullPath, glossary);
+      processDirectory(fullPath, allTerms);
     } else if (item.endsWith('.html')) {
-      linkHtml(fullPath, glossary);
+      linkHtml(fullPath, allTerms);
     }
   }
 }
 
-function linkHtml(filePath, glossary) {
+function linkHtml(filePath, allTerms) {
   const absolutePath = path.resolve(filePath);
-  // Optional: Skip linking if it's the term's own page
-  const currentSlug = path.basename(filePath, '.html');
+  const currentFileName = path.basename(filePath, '.html');
   
   let html = fs.readFileSync(filePath, 'utf-8');
   
-  // Try ID first, then class
+  // Content areas to scan
   let startIdx = html.indexOf('id="blog-content"');
   if (startIdx === -1) {
     startIdx = html.indexOf('class="blog-content prose');
@@ -61,7 +84,6 @@ function linkHtml(filePath, glossary) {
   const startTagEnd = html.indexOf('>', startIdx);
   if (startTagEnd === -1) return;
   
-  // Find the end of this content area
   let endDivIdx = html.indexOf('</div> </div> </div>', startTagEnd); 
   if (endDivIdx === -1) {
     endDivIdx = html.indexOf('</div>', startTagEnd);
@@ -71,14 +93,15 @@ function linkHtml(filePath, glossary) {
   let content = html.substring(startTagEnd + 1, endDivIdx);
   const originalContent = content;
 
-  // 1. Create a map for lookup and build the unified regex
   const glossaryMap = new Map();
   const patternParts = [];
   
-  for (const term of glossary) {
+  for (const term of allTerms) {
     // Skip if it's the current page
-    if (currentSlug === term.slug || filePath.includes(`/glossar/${term.slug}/`)) continue;
+    if (currentFileName === term.slug) continue;
+    if (filePath.includes(`/${term.type}/${term.slug}/`)) continue;
     
+    // Exact title match (case insensitive)
     const escapedTitle = term.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     patternParts.push(escapedTitle);
     glossaryMap.set(term.title.toLowerCase(), term);
@@ -86,18 +109,17 @@ function linkHtml(filePath, glossary) {
 
   if (patternParts.length === 0) return;
 
-  // Unified regex: word boundary + (Term1|Term2|...) + word boundary
   const unifiedRegex = new RegExp(`\\b(${patternParts.join('|')})\\b`, 'gi');
   let matchesCount = 0;
+  const linkedTerms = new Set(); // Link each term only ONCE per page for better UX
 
-  // 2. Single pass replace
   content = content.replace(unifiedRegex, (match, p1, offset) => {
     const term = glossaryMap.get(match.toLowerCase());
-    if (!term) return match;
+    if (!term || linkedTerms.has(term.slug)) return match;
 
     const upToMatch = content.substring(0, offset);
     
-    // Safety checks: inside tag / already a link / inside heading
+    // Safety checks
     const lastOpen = upToMatch.lastIndexOf('<');
     const lastClose = upToMatch.lastIndexOf('>');
     if (lastOpen > lastClose) return match;
@@ -114,23 +136,32 @@ function linkHtml(filePath, glossary) {
     }
 
     matchesCount++;
-    return `<a href="/glossar/${term.slug}/" class="glossary-link" data-tooltip-title="${term.title}" data-tooltip-body="${term.description}">${match}</a>`;
+    linkedTerms.add(term.slug);
+    
+    if (term.type === 'glossar') {
+        return `<a href="/glossar/${term.slug}/" class="glossary-link" data-tooltip-title="${term.title}" data-tooltip-body="${term.description}">${match}</a>`;
+    } else {
+        return `<a href="/blog/${term.slug}/" class="internal-blog-link text-lime-600 underline decoration-lime-300 font-medium">${match}</a>`;
+    }
   });
 
   if (content !== originalContent) {
     const newHtml = html.substring(0, startTagEnd + 1) + content + html.substring(endDivIdx);
     fs.writeFileSync(filePath, newHtml);
-    console.log(`✅ Linked ${matchesCount} terms in: ${filePath}`);
+    console.log(`✅ Linked ${matchesCount} items in: ${filePath}`);
   }
 }
 
-console.log('🚀 Starting Server-Side Glossary Linking...');
+console.log('🚀 Starting Intelligent Cross-Linking (Blog & Glossar)...');
 const glossary = loadGlossary();
-console.log(`📚 Loaded ${glossary.length} terms.`);
+const blog = loadBlog();
+const allTerms = [...glossary, ...blog].sort((a, b) => b.title.length - a.title.length);
+
+console.log(`📚 Loaded ${glossary.length} glossary terms and ${blog.length} blog posts.`);
 
 if (fs.existsSync(DIST_DIR)) {
-  processDirectory(DIST_DIR, glossary);
-  console.log('✨ Build-Time Linking Complete!');
+  processDirectory(DIST_DIR, allTerms);
+  console.log('✨ Cross-Linking Complete!');
 } else {
   console.error('❌ dist directory not found. Run build first.');
 }

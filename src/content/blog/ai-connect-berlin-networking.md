@@ -1,5 +1,5 @@
 ---
-title: "1. AI Connect Berlin: Vibe Coding, Antigravity und Gemini Pro"
+title: "1. AI Connect Berlin: Vibe Coding & Gemini"
 description: "Besuche mich am 8. April beim AI Connect in Berlin! Antigravity, Gemini AI Pro und echtes 'Vibe Coding' – vernetze dich mit mir. ALOHA! 🌻"
 date: "2026-03-15"
 image: "../../assets/images/blog/ai-connect-berlin-ticket.webp"

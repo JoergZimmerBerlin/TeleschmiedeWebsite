@@ -1,5 +1,5 @@
 ---
-title: "GEO Optimierung: Die neue Währung für KI-Sichtbarkeit"
+title: "GEO Optimierung: Währung für KI-Sichtbarkeit"
 description: "GEO Optimierung (Generative Engine Optimization) einfach erklärt: Wie du in ChatGPT, Perplexity & Gemini zitiert wirst. Inklusive Tracking Tipps. ALOHA! 🌻"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-geo-optimierung-3d.png"

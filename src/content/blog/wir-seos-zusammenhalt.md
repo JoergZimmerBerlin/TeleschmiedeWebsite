@@ -1,5 +1,5 @@
 ---
-title: "Warum wir SEO-Spezialisten eine Welle machen sollten "
+title: "Warum wir SEO-Spezialisten zusammenhalten sollten"
 description: "SEO ist mehr als Keywords schubsen. Wir brauchen Standards, Zusammenhalt und eine laute Stimme. Jörg Zimmer ruft zur WELLE auf."
 date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-spezialisten-schlie%C3%9Fen-uns-zusammen-activity-7388537332120834049-loB_"

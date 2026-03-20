@@ -1,5 +1,5 @@
 ---
-title: "Rankscale Essentials: AI Visibility ab 20 Euro – Absolute Empfehlung für Einsteiger"
+title: "Rankscale Essentials: AI Visibility ab 20€"
 description: "Rankscale Essentials für 20€/Monat: Der perfekte Einstieg ins AI-Tracking. Volle Flexibilität & echte Daten für deine KI-Sichtbarkeit. ALOHA! 🌻"
 date: "2026-02-27"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ki-sichtbarkeit-tools-rankings-in-der-ki-suche-activity-7409276564808474624-3WVA"

@@ -29,15 +29,56 @@ if (entry.data.image) {
 const wordCount = (entry.body || '').split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
-// Fetch related terms
+// Fetch base related terms (manual)
 const allEntries = await getCollection('glossar');
-const relatedTerms = allEntries.filter((e) => 
+const manualRelatedTerms = allEntries.filter((e) => 
   entry.data.related_terms?.includes(e.id)
 );
+
+// Smart Fallback for related terms (if less than 3)
+const relatedTerms = manualRelatedTerms.length >= 3
+  ? manualRelatedTerms
+  : [
+      ...manualRelatedTerms,
+      ...allEntries
+        .filter(e => e.id !== entry.id && !manualRelatedTerms.find(m => m.id === e.id))
+        .map(e => {
+          let score = 0;
+          // Simple keyword match between titles
+          const titleWords = entry.data.title.toLowerCase().split(/\W+/).filter(w => w.length > 3);
+          const otherTitle = e.data.title.toLowerCase();
+          if (titleWords.some(w => otherTitle.includes(w))) score += 5;
+          return { ...e, score };
+        })
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3 - manualRelatedTerms.length)
+    ];
+
+// Fetch related blog posts for cross-linking
+const allBlogPosts = await getCollection('blog');
+const relatedBlogPosts = allBlogPosts
+  .filter(post => {
+    const entryTitle = entry.data.title.split('(')[0].trim().toLowerCase();
+    const postText = (post.data.title + ' ' + (post.data.description || '') + ' ' + (post.data.tags || []).join(' ')).toLowerCase().replace(/-/g, ' ');
+    
+    // Fuzzy match: check if the title exists as a substring
+    if (postText.includes(entryTitle)) return true;
+    
+    // Keyword match: if at least 50% of keywords (min 4 chars) match
+    const keywords = entryTitle.split(/\s+/).filter(k => k.length > 3);
+    if (keywords.length > 0) {
+      const matchCount = keywords.filter(k => postText.includes(k)).length;
+      if (matchCount >= Math.ceil(keywords.length / 2)) return true;
+    }
+    
+    return post.data.tags?.some(tag => entryTitle.includes(tag.toLowerCase()));
+  })
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
 ---
 
 <Layout
-  title={`${entry.data.title} | SEO Glossar | Jörg Zimmer`}
+  title={entry.data.title}
   description={entry.data.description}
   ogImage={entryImageWebp?.src || entry.data.image?.src}
 >
@@ -188,6 +229,28 @@ const relatedTerms = allEntries.filter((e) =>
                 </h4>
                 <p class="text-sm text-gray-muted line-clamp-2">
                   {t.data.description}
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Related Blog Posts (Cross-Linking) -->
+      {relatedBlogPosts.length > 0 && (
+        <div class="mt-16 pt-12 border-t border-gray-100 pb-20">
+          <h2 class="text-2xl font-bold mb-8">Passende Blog-Beiträge</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedBlogPosts.map(post => (
+              <a href={`${baseUrl}/blog/${post.id}/`} class="group block bg-gray-50 border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all">
+                <span class="text-[10px] font-bold text-dark bg-gray-200 px-2 py-0.5 rounded uppercase mb-3 inline-block">
+                  Blog
+                </span>
+                <h4 class="font-bold text-lg mb-2 group-hover:text-lime-600 transition-colors line-clamp-2">
+                  {post.data.title}
+                </h4>
+                <p class="text-sm text-gray-muted line-clamp-2">
+                  {post.data.description}
                 </p>
               </a>
             ))}

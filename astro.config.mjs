@@ -25,7 +25,8 @@ export default defineConfig({
       minimizer: 'lightningcss'
     },
     build: {
-      cssMinify: 'lightningcss'
+      cssMinify: 'lightningcss',
+      minify: 'esbuild'
     }
   },
   image: {

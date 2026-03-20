@@ -1,5 +1,5 @@
 ---
-title: "Rankscale: Ein AI Visibility Tool, das ich empfehlen kann"
+title: "Rankscale: Ein AI Visibility Tool für Profis"
 description: "Tool-Test: Sieh wie sichtbar du in ChatGPT, Perplexity und 15 weiteren KI-Modellen bist. Jörgs ehrlicher Praxis-Test nach mehreren Wochen. ALOHA! 🌻"
 date: "2026-01-19"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-ai-visibility-tool-rankscale-hat-einen-activity-7418685351940022272-7Z27"

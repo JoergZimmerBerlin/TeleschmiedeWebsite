@@ -1,5 +1,5 @@
 ---
-title: "Rankscale Update: Growth-Plan, REST-API & ChatGPT Shopping Analyse"
+title: "Rankscale Update: API & ChatGPT Shopping Analyse"
 description: "Rankscale Updates: Neuer Growth-Plan, API-Zugriff, ChatGPT Shopping-Analyse und ein neues Page Audit. Was das für deine KI-Strategie bedeutet."
 date: "2026-03-12"
 image: "../../assets/images/blog/rankscale-growth-hero.webp"
@@ -42,7 +42,7 @@ Mehr Flexibilität, ohne direkt den Core des Unternehmens verpfänden zu müssen
 ## 2. REST-API: Endlich Daten-Freiheit
 Das ist für mich als "Digitaler Dinosaurier", der Automatisierung liebt, der echte Knaller. Die neue **REST-API** (verfügbar für Growth & Enterprise) erlaubt es uns, die Sichtbarkeitsdaten direkt in unsere eigenen Dashboards oder CRM-Systeme zu ziehen. 
 
-Kein manuelles Exportieren mehr. Wer Reporting-Automatisierung liebt, wird das feiern. Übrigens: Es gibt sogar einen [OpenClaw Skill](https://github.com/Rankscale/OpenClaw), der zeigt, wie man das Ganze integriert. 
+Kein manuelles Exportieren mehr. Wer Reporting-Automatisierung liebt, wird das feiern. 
 
 ## 3. ChatGPT Shopping Analyse
 E-Commerce-Leute, passt auf! Wir wissen, dass KI-Modelle immer mehr Kaufberatung übernehmen. Rankscale zeigt jetzt in einer dedizierten Ansicht, wie deine Produkte in ChatGPT-Einkaufsergebnissen auftauchen. 

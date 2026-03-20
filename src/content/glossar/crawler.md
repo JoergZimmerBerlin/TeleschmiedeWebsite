@@ -1,5 +1,5 @@
 ---
-title: "Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets "
+title: "Crawler & Search Bots: Die Internet-Arbeiter"
 description: "Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"

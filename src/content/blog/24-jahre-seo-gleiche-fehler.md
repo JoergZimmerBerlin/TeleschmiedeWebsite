@@ -1,5 +1,5 @@
 ---
-title: "24 Jahre SEO - und wir machen immer noch die gleichen Fehler"
+title: "24 Jahre SEO: Warum wir gleiche Fehler machen"
 description: "Ein ehrlicher Blick auf die Fehler, die ich seit über zwei Jahrzehnten immer wieder sehe."
 date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_24-jahre-seo-gleiche-fehler-activity-7286645315112111104-5Y7_"

@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT SEO: Sichtbarkeit in der wichtigsten Reasoning Engine"
+title: "ChatGPT SEO: Sichtbarkeit in KI-Engines"
 description: "ChatGPT SEO: Wie du deine Marke in OpenAI's SearchGPT und ChatGPT sichtbar machst. Alles über Stability, Citations und den RankScale AI Tracker. ALOHA! 🌻"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-chatgpt-seo-3d.png"

@@ -1,5 +1,5 @@
 ---
-title: "Conversion-Rate-Optimierung (CRO): Mehr Umsatz aus vorhandenem Traffic "
+title: "Conversion-Rate-Optimierung (CRO): Mehr Umsatz"
 description: "Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"

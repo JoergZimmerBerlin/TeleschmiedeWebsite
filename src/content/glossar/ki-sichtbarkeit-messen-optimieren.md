@@ -1,5 +1,5 @@
 ---
-title: "KI Sichtbarkeit messen & optimieren – Der ultimative Guide"
+title: "KI-Sichtbarkeit messen: Der ultimative Guide"
 description: "Wie du deine Präsenz in ChatGPT, AI Overviews & Co. misst und steigerst. Technik, Tools und Tacheles von Jörg Zimmer. ALOHA! 🌻"
 date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-messen-optimieren-3d.png"

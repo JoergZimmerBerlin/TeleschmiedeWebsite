@@ -1,5 +1,5 @@
 ---
-title: "Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet "
+title: "SEO-Relaunch: Warum ohne SEO das Desaster droht"
 description: "Jedes Jahr das gleiche Meme: Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir das Chaos verhindern. ALOHA! 🌻"
 date: "2026-03-11"
 image: "../../assets/images/blog/relaunch-ohne-seo.webp"

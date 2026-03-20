@@ -1,5 +1,5 @@
 ---
-title: "Meine Highlights aus 2025 - Ein SEO-Jahresrückblick"
+title: "Meine SEO-Highlights 2025: Der Jahresrückblick"
 description: "Ein Jahr voller LinkedIn-Posts, Diskussionen und hoffentlich dem einen oder anderen Lacher."
 date: "2025-12-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_highlights-2025-seo-rückblick-activity-7278772863925700608-P_2C"

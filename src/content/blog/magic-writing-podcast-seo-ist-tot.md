@@ -1,5 +1,5 @@
 ---
-title: "SEO ist tot? Magic Writing Podcast mit Michael Kaufhold"
+title: "Michael Kaufhold im Podcast Interview: SEO tot?"
 description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SEO, Google und warum Zielgruppenverständnis so unterschätzt wird."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"

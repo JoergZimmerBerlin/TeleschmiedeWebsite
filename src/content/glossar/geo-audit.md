@@ -1,5 +1,5 @@
 ---
-title: "GEO Audit: Der ultimative Check für deine KI-Sichtbarkeit"
+title: "GEO Audit: Check für deine KI-Sichtbarkeit"
 description: "GEO Audit: Warum klassische SEO-Audits bei ChatGPT & Co. versagen. Erfahre alles über den Perfect Mix Auditor und die 7 Säulen der KI-Optimierung. ALOHA! 🌻"
 date: "2026-03-18"
 image: "../../assets/images/glossar/3d-light/glossar-geo-audit-3d.webp"

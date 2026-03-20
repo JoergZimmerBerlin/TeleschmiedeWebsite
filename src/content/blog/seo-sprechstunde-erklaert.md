@@ -1,5 +1,5 @@
 ---
-title: "Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill"
+title: "SEO-Sprechstunde: Website-Check & Sichtbarkeit"
 description: "Was passiert in einer 2-stündigen SEO-Sprechstunde mit Jörg Zimmer? Der Prozess, der Mehrwert und für wen das Format wirklich passt. ALOHA! 🌻"
 date: "2026-01-03"
 image: "../../assets/images/profile/katze-seo-hoodie.webp"

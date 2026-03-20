@@ -45,29 +45,62 @@ const relatedPosts = allPosts
     
     // Tag matches
     const commonTags = p.data.tags?.filter(tag => post.data.tags?.includes(tag)) || [];
-    score += commonTags.length * 2;
+    score += commonTags.length * 3;
+    
+    // Title/Description partial matches (contextual)
+    const titleWords = post.data.title.toLowerCase().split(/\W+/).filter(w => w.length > 3);
+    const otherText = (p.data.title + ' ' + (p.data.description || '')).toLowerCase();
+    const wordMatches = titleWords.filter(w => otherText.includes(w));
+    score += wordMatches.length * 1;
     
     return { ...p, score };
   })
-  .filter(p => p.score > 0) // Only show the ones that have some relation
+  .filter(p => p.score > 1) // Higher threshold for relevance
   .sort((a, b) => {
-    // 1. Higher score first
     if (b.score !== a.score) return b.score - a.score;
-    // 2. Newer date first for same score
     return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
   })
-  .slice(0, 3); // Top 3
+  .slice(0, 4); // Top 4
 
-// Fallback to most recent posts if no thematic matches found
-const finalRelatedPosts = relatedPosts.length >= 3 
+// Fallback logic to ensure 4 links (mix of same category and latest)
+const finalRelatedPosts = relatedPosts.length >= 4 
   ? relatedPosts 
   : [
       ...relatedPosts,
       ...allPosts
         .filter(p => p.id !== post.id && !relatedPosts.find(r => r.id === p.id))
-        .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-        .slice(0, 3 - relatedPosts.length)
+        .map(p => {
+          let fallbackScore = 0;
+          if (p.data.category === post.data.category) fallbackScore += 10;
+          return { ...p, fallbackScore };
+        })
+        .sort((a, b) => {
+          if (b.fallbackScore !== a.fallbackScore) return b.fallbackScore - a.fallbackScore;
+          return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+        })
+        .slice(0, 4 - relatedPosts.length)
     ];
+
+// Fetch related glossary terms for cross-linking
+const allGlossaryTerms = await getCollection('glossar');
+const relatedGlossaryTerms = allGlossaryTerms
+  .filter(term => {
+    const termTitle = term.data.title.split('(')[0].trim().toLowerCase();
+    const postText = (post.data.title + ' ' + (post.data.description || '') + ' ' + (post.data.tags || []).join(' ')).toLowerCase().replace(/-/g, ' ');
+    
+    // Fuzzy match: check if the term title exists as a substring
+    if (postText.includes(termTitle)) return true;
+    
+    // Keyword match: if at least 50% of keywords (min 4 chars) match
+    const keywords = termTitle.split(/\s+/).filter(k => k.length > 3);
+    if (keywords.length > 0) {
+      const matchCount = keywords.filter(k => postText.includes(k)).length;
+      if (matchCount >= Math.ceil(keywords.length / 2)) return true;
+    }
+    
+    return post.data.tags?.some(tag => termTitle.includes(tag.toLowerCase()));
+  })
+  .slice(0, 4);
 
 // Tacheles Quote Extractor for AI citation schema
 const tachelesMatch = (post.body || '').match(/> \*\*Tacheles:\*\* (.*)/);
@@ -75,7 +108,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
 ---
 
 <Layout
-  title={`${post.data.title} | Jörg Zimmer Blog`}
+  title={post.data.title}
   description={post.data.description}
   ogImage={postImageWebp?.src || post.data.image?.src}
   lcpImage={postImageWebp?.src}
@@ -227,7 +260,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
 
 
 
-<script is:inline>
+<script>
   document.addEventListener('astro:page-load', () => {
 
 
@@ -322,6 +355,25 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
                     {p.data.title}
                   </h4>
                 </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Related Glossary Terms (Cross-Linking) -->
+      {relatedGlossaryTerms.length > 0 && (
+        <div class="mt-16 pt-12 border-t border-gray-100 pb-20">
+          <h3 class="text-2xl font-bold mb-8">Passende Begriffe aus dem Glossar</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {relatedGlossaryTerms.map(term => (
+              <a href={`${baseUrl}/glossar/${term.id}/`} class="group block bg-gray-50 border border-gray-100 rounded-xl p-4 hover:shadow-md transition-all">
+                <span class="text-[9px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-2 inline-block">
+                  Glossar
+                </span>
+                <h4 class="font-bold text-sm group-hover:text-lime-600 transition-colors line-clamp-1">
+                  {term.data.title}
+                </h4>
               </a>
             ))}
           </div>

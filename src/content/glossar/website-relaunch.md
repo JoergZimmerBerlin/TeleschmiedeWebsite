@@ -1,5 +1,5 @@
 ---
-title: "Website Relaunch: SEO-Rettung vor dem Pfusch am Bau"
+title: "Website Relaunch: SEO-Rettung vor Pfusch"
 description: "Website Relaunch SEO: Warum 90% aller Relaunches Sichtbarkeit kosten und wie du mit dem richtigen Redirection-Plan dein Ranking rettest. ALOHA! 🌻"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-website-relaunch-3d.png"

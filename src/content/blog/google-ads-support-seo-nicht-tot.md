@@ -1,5 +1,5 @@
 ---
-title: "Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot"
+title: "Google Ads Support vs. SEO: Die Wahrheit"
 description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google."
 date: "2026-01-20"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_warum-google-ads-support-nicht-dein-freund-activity-7287019183416819712-lP49"

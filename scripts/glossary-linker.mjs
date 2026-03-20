@@ -45,7 +45,8 @@ function processDirectory(dir, glossary) {
 
 function linkHtml(filePath, glossary) {
   const absolutePath = path.resolve(filePath);
-  if (!absolutePath.includes('/blog/') && !absolutePath.includes('/glossar/')) return;
+  // Optional: Skip linking if it's the term's own page
+  const currentSlug = path.basename(filePath, '.html');
   
   let html = fs.readFileSync(filePath, 'utf-8');
   
@@ -60,8 +61,7 @@ function linkHtml(filePath, glossary) {
   const startTagEnd = html.indexOf('>', startIdx);
   if (startTagEnd === -1) return;
   
-  // Find the end of this content area by searching for the corresponding </div>
-  // Using a simpler approach that just finds the end of the section
+  // Find the end of this content area
   let endDivIdx = html.indexOf('</div> </div> </div>', startTagEnd); 
   if (endDivIdx === -1) {
     endDivIdx = html.indexOf('</div>', startTagEnd);
@@ -70,45 +70,52 @@ function linkHtml(filePath, glossary) {
 
   let content = html.substring(startTagEnd + 1, endDivIdx);
   const originalContent = content;
+
+  // 1. Create a map for lookup and build the unified regex
+  const glossaryMap = new Map();
+  const patternParts = [];
+  
+  for (const term of glossary) {
+    // Skip if it's the current page
+    if (currentSlug === term.slug || filePath.includes(`/glossar/${term.slug}/`)) continue;
+    
+    const escapedTitle = term.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    patternParts.push(escapedTitle);
+    glossaryMap.set(term.title.toLowerCase(), term);
+  }
+
+  if (patternParts.length === 0) return;
+
+  // Unified regex: word boundary + (Term1|Term2|...) + word boundary
+  const unifiedRegex = new RegExp(`\\b(${patternParts.join('|')})\\b`, 'gi');
   let matchesCount = 0;
 
-  // Link terms
-  for (const term of glossary) {
-    if (filePath.includes(`/glossar/${term.slug}/`)) continue;
+  // 2. Single pass replace
+  content = content.replace(unifiedRegex, (match, p1, offset) => {
+    const term = glossaryMap.get(match.toLowerCase());
+    if (!term) return match;
 
-    // Escape special characters in the title for use in a regex
-    const escapedTitle = term.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(`\\b(${escapedTitle})\\b`, 'gi');
+    const upToMatch = content.substring(0, offset);
     
-    content = content.replace(regex, (match, p1, offset) => {
-      const upToMatch = content.substring(0, offset);
-      
-      // Robust check: are we inside a tag?
-      // Look at the last '<' and '>' before the match.
-      const lastOpen = upToMatch.lastIndexOf('<');
-      const lastClose = upToMatch.lastIndexOf('>');
-      
-      // If there's an open bracket after the last close bracket, we're inside a tag attribute
-      if (lastOpen > lastClose) return match;
+    // Safety checks: inside tag / already a link / inside heading
+    const lastOpen = upToMatch.lastIndexOf('<');
+    const lastClose = upToMatch.lastIndexOf('>');
+    if (lastOpen > lastClose) return match;
 
-      // Case-insensitive check for being inside an <a> tag
-      const lastAOpen = upToMatch.toLowerCase().lastIndexOf('<a');
-      const lastAClose = upToMatch.toLowerCase().lastIndexOf('</a');
-      if (lastAOpen > lastAClose) return match;
+    const lastAOpen = upToMatch.toLowerCase().lastIndexOf('<a');
+    const lastAClose = upToMatch.toLowerCase().lastIndexOf('</a');
+    if (lastAOpen > lastAClose) return match;
 
-      // Case-insensitive check for being inside a heading (h1-h6)
-      const lastHOpen = upToMatch.toLowerCase().lastIndexOf('<h');
-      const lastHClose = upToMatch.toLowerCase().lastIndexOf('</h');
-      // If we found a <hX tag, check if it's actually a heading and not closed
-      if (lastHOpen > lastHClose) {
-          const headingTagMatch = upToMatch.substring(lastHOpen).match(/^<h[1-6]/i);
-          if (headingTagMatch) return match;
-      }
+    const lastHOpen = upToMatch.toLowerCase().lastIndexOf('<h');
+    const lastHClose = upToMatch.toLowerCase().lastIndexOf('</h');
+    if (lastHOpen > lastHClose) {
+        const headingTagMatch = upToMatch.substring(lastHOpen).match(/^<h[1-6]/i);
+        if (headingTagMatch) return match;
+    }
 
-      matchesCount++;
-      return `<a href="/glossar/${term.slug}/" class="glossary-link" data-tooltip-title="${term.title}" data-tooltip-body="${term.description}">${match}</a>`;
-    });
-  }
+    matchesCount++;
+    return `<a href="/glossar/${term.slug}/" class="glossary-link" data-tooltip-title="${term.title}" data-tooltip-body="${term.description}">${match}</a>`;
+  });
 
   if (content !== originalContent) {
     const newHtml = html.substring(0, startTagEnd + 1) + content + html.substring(endDivIdx);

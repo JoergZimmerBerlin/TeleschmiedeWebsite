@@ -1,7 +1,7 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import KeyTakeaways from '../../components/KeyTakeaways.astro';
 import FAQAccordion from '../../components/FAQAccordion.astro';
 import ROICalculator from '../../components/ROICalculator.astro';
@@ -12,13 +12,13 @@ import logoImage from '../../assets/images/logo-teleschmiede.webp';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
-const { Content, headings } = await post.render();
+const { Content, headings } = await render(post);
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const logoWebp = await getImage({ src: logoImage, format: 'webp' });
@@ -34,7 +34,7 @@ const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 // Get related posts with scoring
 const allPosts = await getCollection('blog');
 const relatedPosts = allPosts
-  .filter(p => p.slug !== post.slug) // Exclude current
+  .filter(p => p.id !== post.id) // Exclude current
   .map(p => {
     let score = 0;
     
@@ -64,7 +64,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
   : [
       ...relatedPosts,
       ...allPosts
-        .filter(p => p.slug !== post.slug && !relatedPosts.find(r => r.slug === p.slug))
+        .filter(p => p.id !== post.id && !relatedPosts.find(r => r.id === p.id))
         .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
         .slice(0, 3 - relatedPosts.length)
     ];
@@ -300,7 +300,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
           <h3 class="text-2xl font-bold mb-8">Das könnte dich auch interessieren</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {finalRelatedPosts.map(p => (
-              <a href={`${baseUrl}/blog/${p.slug}/`} class="group block bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all">
+              <a href={`${baseUrl}/blog/${p.id}/`} class="group block bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all">
                 <div class="aspect-video overflow-hidden">
                   {p.data.image && (
                     <Image 
@@ -365,7 +365,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://teleschmie.de/blog/${post.slug}/`
+      "@id": `https://teleschmie.de/blog/${post.id}/`
     },
     ...(tachelesQuote ? {
       "review": {

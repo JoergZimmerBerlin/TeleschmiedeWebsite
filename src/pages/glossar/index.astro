@@ -49,7 +49,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="glossar-grid">
         {sortedEntries.map((entry) => (
           <a 
-            href={`${baseUrl}/glossar/${entry.slug}/`} 
+            href={`${baseUrl}/glossar/${entry.id}/`} 
             class="glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300"
             data-title={entry.data.title.toLowerCase()}
             data-desc={entry.data.description.toLowerCase()}

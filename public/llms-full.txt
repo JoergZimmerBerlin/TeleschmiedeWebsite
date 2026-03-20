@@ -61,7 +61,7 @@ Moin! 🌻
 
 Wer schon mal umgezogen ist, ohne einen Nachsendeauftrag bei der Post zu stellen, der weiß, was passiert: Die wichtigen Rechnungen landen im Nirgendwo und der Ärger ist vorprogrammiert. Im SEO ist das ganz genauso. Eine URL-Änderung ohne korrekte Weiterleitung ist der sicherste Weg, sein Business eigenhändig zu sabotieren. 
 
-![301 vs 302 Redirects 3D Infografik](../../assets/images/glossar/3d-light/glossar-301-vs-302-3d.webp)
+![301 vs 302 Redirects 3D Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-301-vs-302-3d.webp)
 
 Heute legen wir den Finger in die Wunde: **301 vs. 302 Redirects**. Das klingt nach staubiger Technik, ist aber in Wahrheit die Lebensversicherung für deine organische Reichweite. 🌻
 
@@ -2948,6 +2948,96 @@ ALOHA! 🌻✌️
 
 ---
 
+### KI Sichtbarkeit messen & optimieren – Der ultimative Guide
+
+
+Moin! 🌻
+
+"Jörg, brauchen wir dieses KI-SEO-Ding wirklich oder ist das nur der nächste Hype, den wir aussitzen können?"
+
+Diese Frage höre ich in meinen Beratungsstunden fast täglich. Und ganz ehrlich: Ich verstehe die Skepsis. Wir haben in den letzten 24 Jahren so viele Trends kommen und gehen sehen. Aber dieses Mal ist es anders. Wir reden hier nicht über ein neues Google-Update, das ein bisschen am Algorithmus schraubt. Wir reden über die größte Transformation der Suche seit dem Start von Google im Jahr 1998.
+
+Wenn du heute wissen willst, wie man die **KI Sichtbarkeit messen & optimieren** kann, dann bist du hier richtig. Wir legen den Finger in die Wunde und schauen uns an, warum dein altes Reporting in 2026 nur noch die halbe Wahrheit erzählt.
+
+![KI-Sichtbarkeit messen und optimieren - Strategien für GEO und AI Search](https://teleschmie.de/assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-messen-optimieren-3d.png)
+
+## Was ist KI-Sichtbarkeit eigentlich? (Mehr als nur Platz 1)
+
+Vergiss für einen Moment alles, was du über "Position 1" gelernt hast. In der Welt der Large Language Models (LLMs) wie ChatGPT, Claude oder Google Gemini gibt es keine klassische Ergebnisliste mehr. Es gibt eine Antwort – und diese Antwort ist das Ergebnis aus tausenden von Quellen, die die KI in Sekundenbruchteilen gescannt hat.
+
+**KI-Sichtbarkeit** (AI Visibility) ist der Grad, zu dem deine Marke, deine Produkte oder deine Expertise in genau diesen Antworten stattfinden. 
+
+### Die drei Säulen der KI-Präsenz:
+1.  **Citations (Zitate):** Die KI verlinkt dich explizit als Quelle. Das ist der Goldstandard, vergleichbar mit einem Backlink, nur mit deutlich höherer Klickwahrscheinlichkeit, da der Nutzer bereits im "Lösungen-Modus" ist.
+2.  **Mentions (Nennungen):** Dein Name fällt, aber ohne Link. Die KI schreibt: "Experten wie Jörg Zimmer empfehlen..." – das ist extrem wertvoll für dein E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness).
+3.  **Sentiment (Stimmung):** Wie spricht die KI über dich? Bist du die "kostengünstige Alternative" oder der "Marktführer für Qualität"? Das Sentiment entscheidet darüber, ob der Nutzer am Ende bei dir kauft oder bei der Konkurrenz.
+
+
+   💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Rankings sind Vanity-Metriken. In der KI-Suche zählt nur noch Relevanz und Empfehlung. Wer nicht in der Antwort steht, hat für den Nutzer nicht stattgefunden. Punkt."
+
+
+## Warum klassisches SEO-Tracking nicht mehr reicht
+
+Klassische Tools wie die Google Search Console zeigen dir Klicks und Impressionen. Das ist super. Aber sie zeigen dir nicht, was die KI über dich denkt. Sie zeigen dir nicht, ob ChatGPT deinen Blogpost als Trainingsmaterial nutzt oder ob Gemini dich in den neuen **AI Overviews** (früher SGE) als Top-Lösung präsentiert.
+
+Der Prozess der Informationssuche hat sich verändert. Früher war es: Keyword ➔ Ergebnisliste ➔ Klick. Heute ist es: Frage ➔ KI-Antwort ➔ (vielleicht) Klick. Wenn du nur den Klick misst, verpasst du 80% der Markenbildung, die bereits in der Antwort stattfindet.
+
+### Vergleich: Klassisches SEO vs. KI Sichtbarkeit
+
+| Feature | Klassisches SEO (SERP) | KI Sichtbarkeit (LLM) |
+|---|---|---|
+| **Messwert** | Position (1-100) | Citation Share / Mentions |
+| **Nutzererfahrung** | Scan von Titeln & Snippets | Lesen einer zusammenhängenden Antwort |
+| **Erfolgsfaktor** | Backlinks & Keywords | E-E-A-T & Entitäten-Daten |
+| **Volatilität** | Moderat (Core Updates) | Hoch (Modell-Updates) |
+| **Kanal** | Google, Bing | ChatGPT, Claude, Gemini, Perplexity |
+
+## KI Sichtbarkeit messen: So bringst du Licht ins Dunkel
+
+Wie misst man also etwas, das so dynamisch ist wie eine KI-Antwort? Früher haben wir uns manuell durch ChatGPT-Prompts geklickt, aber das ist (wie die Deutsche Bahn) unzuverlässig und dauert viel zu lange. Wir brauchen Daten im industriellen Maßstab.
+
+Genau hier kommen Tools wie der **SE Ranking AI Tracker** ins Spiel. 
+
+### Das Toolkit für den digitalen Senior
+Wenn du deine Sichtbarkeit wirklich verstehen willst, musst du automatisieren. Ein professioneller **AI SEO Visibility Check** umfasst heute:
+-   **Tracking von AI Overviews**: Erscheinst du in den neuen Google-Boxen oberhalb der organischen Ergebnisse?
+-   **Link-Tracking**: Welche deiner Seiten werden von der KI als Quellen bevorzugt?
+-   **Wettbewerbs-Analyse**: Wer sind die neuen Player, die du in den klassischen SERPs vielleicht gar nicht auf dem Schirm hattest, die aber in der KI dominieren?
+
+Professionelle Tools wie SE Ranking ermöglichen es dir, genau diese Daten in dein wöchentliches Reporting zu gießen. Das ist Tacheles-Marketing: Keine Vermutungen, sondern harte Zahlen.
+
+## Optimierung: Der Weg zu mehr KI-Präsenz (GEO)
+
+Wenn du weißt, wo du stehst, kannst du optimieren. Das nennen wir **GEO** (Generative Engine Optimization). Es ist kein Hexenwerk, sondern technisches Handwerk auf Steroiden.
+
+### 1. Entitäten-Stärkung durch Schema Markup
+Die KI muss verstehen, wer du bist und was du tust. Nutze [Technisches Schema Markup](https://teleschmie.de/glossar/technisches-schema-markup/) exzessiv. Deine Website darf keine Sammlung von Texten sein, sondern muss eine Datenbank von Fakten werden. Wenn die KI deine Daten maschinenlesbar serviert bekommt, steigt die Chance auf eine Zitation massiv.
+
+### 2. E-E-A-T: Beweise deine Autorität
+KI-Modelle sind darauf trainiert, vertrauenswürdige Quellen zu bevorzugen. Wenn du über "SEO-Strategie" schreibst, solltest du beweisen, dass du seit 2001 dabei bist (so wie ich). Erwähnungen auf namhaften Portalen, Profile bei LinkedIn und konsistente Daten im Netz sind das Futter für die KI.
+
+### 3. Informationslücken schließen
+Analysiere die KI-Antworten deiner Wettbewerber. Was sagt die KI über sie, was sie über dich nicht sagt? Fehlen dir Daten, Fallstudien oder klare Definitionen? Nutze den [AI Tracker von SE Ranking](https://seranking.com/de/ki-sichtbarkeit-tools.html?ga=4169588&source=link), um diese Lücken zu identifizieren und gezielt Content nachzulegen.
+
+
+  Bereit für die Zukunft der Suche?
+  Hör auf zu raten. Miss deine KI-Sichtbarkeit mit echten Daten. Mit meiner Empfehlung für SE Ranking bekommst du das volle Paket für deine AI Search Optimization – direkt vom Profi.
+  Jetzt KI-Sichtbarkeit tracken 
+
+
+## Fazit: Wer jetzt wartet, hat schon verloren
+
+Wir befinden uns in einer Phase der "Normalisierung des Wahnsinns". Dass etablierte Player wie SE Ranking AI-Tracking integrieren, zeigt uns: Das ist kein Trend für Nerds mehr. Es ist das neue Fundament unseres Geschäfts.
+
+Wer heute anfängt, seine **KI Sichtbarkeit zu messen & zu optimieren**, sichert sich die Claims von morgen. Wer wartet, bis der "Praktikant mal drüberschaut", wird von der Konkurrenz rechts liegen gelassen. So einfach ist das.
+
+In diesem Sinne: Bleib nützlich, bleib ehrlich und leg den Finger in die Wunde.
+
+ALOHA! 🌻✌️
+
+---
+
 ### Knowledge Graph
 
 
@@ -3024,7 +3114,7 @@ Stell dir das Word Wide Web als ein riesiges Netz aus Straßen vor. Die Straßen
 
 ## Linkbuilding: Deine digitale Reputation
 
-![Backlink Infografik](../../assets/images/glossar/3d-light/glossar-backlink-3d.webp)
+![Backlink Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-backlink-3d.webp)
 
 **Linkbuilding** ist die hohe Schule des SEO. Es geht darum, dass andere Websites (im besten Fall namhafte Magazine, Partner oder Blogs) auf dich verlinken. Früher zählte nur die Masse, heute zählt die Klasse. Ein einziger Link von einer starken Fachseite ist wertvoller als 1.000 Links aus zwielichtigen Verzeichnissen.
 
@@ -3093,7 +3183,7 @@ Stell dir das Web als ein gigantisches Netzwerk aus miteinander verbundenen Gef�
 
 Wenn deine Startseite sehr stark ist (weil z. B. viele bekannte externe Domains wie die Wikipedia oder große Zeitungen auf sie verlinken), ist ihr Gefäß bis zum Rand mit Linkjuice gefüllt. Setzt du nun von deiner Startseite einen Link zu deinem neuesten Blog-Artikel, fließt ein beachtlicher Teil dieses Saftes in den Artikel. Dieser gewinnt an [Sichtbarkeit](https://teleschmie.de/glossar/sichtbarkeit/) im Google-Index. Dank Tools wie SE Ranking kannst du diesen Zuwachs an Autorität präzise tracken.
 
-![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.webp)
+![Infografik: Die Verteilung von Signalen](https://teleschmie.de/assets/images/blog/core-web-vitals-pfeiler.webp)
 
 
   Die Mathematik hinter dem Fluss
@@ -3575,7 +3665,7 @@ ALOHA 🌻
 ### Money Keyword
 
 
-![Money Keyword 3D Infografik](../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp)
+![Money Keyword 3D Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-money-keyword-3d.webp)
 
 Moin!
 
@@ -3886,7 +3976,7 @@ RAG ist ein Architektur-Muster in der KI-Entwicklung, das ein Large Language Mod
 2.  **Augmentation (Anreichern):** Die gefundenen Informationen werden dem ursprünglichen Nutzer-Prompt hinzugefügt. Die KI bekommt also den Befehl: "Beantworte diese Frage *nur* auf Basis der folgenden Texte..."
 3.  **Generation (Generieren):** Das LLM schreibt eine Antwort, die auf den echten Fakten aus dem Retrieval-Schritt basiert.
 
-![RAG Infografik](../../assets/images/glossar/3d-light/glossar-rag-3d.png)
+![RAG Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-rag-3d.png)
 
 ## Warum RAG der SEO-Gamechanger ist
 
@@ -4598,7 +4688,7 @@ SEO kann frustrierend sein. Man investiert Monate in [Entity SEO](https://telesc
 
 ## Meine Rolle vor Ort
 
-![SEO Stammtisch Berlin Networking](../../assets/images/glossar/themes/seostammtisch_photo_1_1773173770837.webp)
+![SEO Stammtisch Berlin Networking](https://teleschmie.de/assets/images/glossar/themes/seostammtisch_photo_1_1773173770837.webp)
 
 Ich bin dort nicht als "Berater" unterwegs, sondern als Teil der Community. Es geht um Geben und Nehmen. Wenn jemand ein Problem mit [strukturierten Daten](https://teleschmie.de/glossar/strukturierte-daten/) hat, helfe ich. Wenn ich bei einem komplexen [SEO-Audit](https://teleschmie.de/glossar/seo-audit/) an meine Grenzen stoße, frage ich die Runde.
 
@@ -4611,7 +4701,7 @@ Das ist genau mein Spirit: Ehrlich, direkt und immer auf Augenhöhe. Ich bringe 
 
 ## Community in Zeiten von KI
 
-![Jörg Zimmer beim SEO Stammtisch bei Google in Berlin](../../assets/images/glossar/themes/seostammtisch_photo_2_1773173797284.webp)
+![Jörg Zimmer beim SEO Stammtisch bei Google in Berlin](https://teleschmie.de/assets/images/glossar/themes/seostammtisch_photo_2_1773173797284.webp)
 
 Man könnte meinen, in Zeiten von ChatGPT bräuchten wir keinen menschlichen Austausch mehr. Das Gegenteil ist der Fall. Je mehr KI-Einerlei das Netz flutet, desto wertvoller wird die echte, menschliche Expertise ([E-E-A-T](https://teleschmie.de/glossar/e-e-a-t/)). 
 
@@ -5619,7 +5709,7 @@ Hier treffe ich nicht nur andere SEO-Nerds, sondern die Leute, für die wir das 
 
 ## Warum "fachfremdes" Netzwerken Gold wert ist
 
-![Atmosphäre bei der Überstunde Berlin](../../assets/images/glossar/themes/ueberstunde_atmosphere.webp)
+![Atmosphäre bei der Überstunde Berlin](https://teleschmie.de/assets/images/glossar/themes/ueberstunde_atmosphere.webp)
 
 Wer nur in der eigenen SEO-Blase bleibt, verpasst oft den Blick für das große Ganze. Bei der Überstunde lerne ich, welche Probleme Geschäftsführer *wirklich* haben. Meistens ist das nicht "fehlendes Schema-Markup", sondern schlichtweg "zu wenig qualifizierte Leads für das Sales-Team".
 
@@ -5632,7 +5722,7 @@ Dieses Verständnis hilft mir, meine Arbeit als [SEO-Experte](https://teleschmie
 
 ## Meine Präsenz in Berlin
 
-![Jörg Zimmer auf dem Überstunde Berlin Afterwork Event](../../assets/images/glossar/themes/ueberstunde_joerg.webp)
+![Jörg Zimmer auf dem Überstunde Berlin Afterwork Event](https://teleschmie.de/assets/images/glossar/themes/ueberstunde_joerg.webp)
 
 Ich bin fest davon überzeugt: Die digitale Welt braucht ein analoges Fundament. Gerade in Zeiten von KI-Schwemme und anonymen Dienstleistungen ist das persönliche Treffen unersetzbar. Wenn ich bei der Überstunde stehe, bin ich Jörg Zimmer – nicht irgendein Name in einem [SEO-Audit](https://teleschmie.de/glossar/seo-audit/).
 
@@ -5671,7 +5761,7 @@ ALOHA 🌻
 ### Usability (Nutzungsfreundlichkeit)
 
 
-![Usability 3D Infografik: User Experience optimieren](../../assets/images/glossar/3d-light/glossar-usability-3d.webp)
+![Usability 3D Infografik: User Experience optimieren](https://teleschmie.de/assets/images/glossar/3d-light/glossar-usability-3d.webp)
 
 Moin!
 
@@ -6168,7 +6258,7 @@ Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? Oder einfach zu u
   "Wir SEOs müssen aufhören, nur die Technik zu polieren. Wir müssen anfangen, den Business-Case zu verkaufen. Wer schweigt, wird ignoriert."
 
 
-![Jörg Zimmer - Volle Kraft für SEO](../../assets/images/pages/hero-pose.webp)
+![Jörg Zimmer - Volle Kraft für SEO](https://teleschmie.de/assets/images/pages/hero-pose.webp)
 
 In diesem Artikel gehen wir der Sache auf den Grund. Wir schauen uns an, wo die Verantwortungskette reißt und wie wir als Community – die "SEO-Welle" – dafür sorgen können, dass unsere Disziplin endlich den Stellenwert bekommt, den sie verdient.
 
@@ -6187,7 +6277,7 @@ Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? Wenn das Design 
 
 Das funktioniert nicht. SEO ist kein Anstrich, den man am Ende auf ein Haus klatscht. Es ist das Fundament.
 
-![Infografik: Die SEO-Verantwortungs-Kette](../../assets/images/blog/seo-responsibility-chain.webp)
+![Infografik: Die SEO-Verantwortungs-Kette](https://teleschmie.de/assets/images/blog/seo-responsibility-chain.webp)
 
 Wenn die Kette so aussieht wie oben, dann bricht sie zwangsläufig. Der SEO-Spezialist steht am Ende und muss versuchen, die architektonischen Fehler von Designern und Entwicklern mit "Tricks" auszubügeln. Wir müssen SEO in die Design- und Planungsphase bringen. 
 
@@ -6209,7 +6299,7 @@ Allein ist man leise, gemeinsam ist man laut. Deshalb habe ich auf LinkedIn dazu
 
 LinkedIn ist perfekt dafür. Es ist ein Forum (wie ich in meinem [letzten Artikel](https://teleschmie.de/blog/linkedin-ist-ein-forum-seo/) ausführlich erklärt habe). Wenn wir gegenseitig unsere Beiträge kommentieren, diskutieren und sichtbar machen, dann skalieren wir unser Wissen über unsere eigene Blase hinaus.
 
-![Infografik: Die SEO-Community-Welle](../../assets/images/blog/seo-community-visibility-wave.webp)
+![Infografik: Die SEO-Community-Welle](https://teleschmie.de/assets/images/blog/seo-community-visibility-wave.webp)
 
 Wie **Antonio Blago** und **Julian Hofmann** schrieben: Eine "mega Idee", um gute SEO-Inhalte durch Interaktion zu unterstützen. Je mehr wir uns vernetzen, desto weniger können uns die Budget-Entscheider ignorieren.
 
@@ -6260,7 +6350,7 @@ Warum ich das so sicher weiß? Weil ich seit über 24 Jahren im SEO-Zug sitze. U
 
 ## Die drei Klassiker, die einfach nicht sterben wollen
 
-![Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen](../../assets/images/blog/seo-missverstaendnisse-2026.webp)
+![Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen](https://teleschmie.de/assets/images/blog/seo-missverstaendnisse-2026.webp)
 
 Freut euch auch 2026 wieder auf Sätze, die mich seit zwei Jahrzehnten in den Wahnsinn treiben:
 
@@ -6278,7 +6368,7 @@ Jedes Jahr aufs Neue. Jedes verdammte Mal. Nein, SEO ist nicht tot. SEO hat sich
 
 ## Der Relaunch-Friedhof: Wo gute Rankings sterben
 
-![Infografik: Relaunch ohne SEO – Plan vs. Realität mit fehlenden Weiterleitungen](../../assets/images/blog/relaunch-ohne-seo.webp)
+![Infografik: Relaunch ohne SEO – Plan vs. Realität mit fehlenden Weiterleitungen](https://teleschmie.de/assets/images/blog/relaunch-ohne-seo.webp)
 
 Auch in diesem Jahr werden Leute einen Relaunch feiern, der keine Weiterleitungen enthält. Ganze Webseiten und Shops werden an den Start gehen, die alles missachten, was SEO-Leute als "ein bisschen wichtig" erachten. Die Guidelines für sauberen Code, sauberes Spiel und saubere Webseiten werden auch dieses Jahr **tausendfach ignoriert**.
 
@@ -6394,7 +6484,7 @@ Der Core-Zugang reicht für die allermeisten Freelancer und Inhouse-SEOs am Anfa
 
 Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiedenen Branchen verglichen. SE Ranking hat dazu auch selbst mal eine Studie veröffentlicht und sich gefragt, ob sie [eine würdige Sistrix Alternative](https://seranking.com/de/worthy-sistrix-alternative.html?ga=4169588&source=link) sind. Ob man dem Marketing-Sprech des Herstellers immer blind trauen kann? Weiß ich nicht genau. Deshalb prüfe ich die Daten immer selbst mit echten Rankings meiner Kundenprojekte.
 
-![SE Ranking Datenanalyse und Dashboard Vergleich](../../assets/images/blog/sistrix-vs-seranking-light-de.webp)
+![SE Ranking Datenanalyse und Dashboard Vergleich](https://teleschmie.de/assets/images/blog/sistrix-vs-seranking-light-de.webp)
 
 **Die Backlinks im Vergleich:**
 Sistrix ist traditionell im DACH-Raum sehr stark, hat aber im internationalen Vergleich eine eher kleinere Backlink-Datenbank. Wer auch mal über die DACH-Grenzen hinaus optimiert, merkt das recht schnell. SE Ranking protzt hier mit einer massiven Datenbank von über 3 Billionen Backlink-Verbindungen. In der Praxis merke ich das deutlich: Ich finde mit SE Ranking oft schneller kleine Nischen-Backlinks, feine Linkprofil-Veränderungen bei Wettbewerbern und potenziell toxische Verlinkungen als mit der vertrauten Konkurrenz.
@@ -6406,7 +6496,7 @@ Hier trumpft SE Ranking aus meiner Sicht richtig auf. Das tagesaktuelle Rank-Tra
 
 Wo SE Ranking für mich im Moment die eindeutig bessere Wahl ist, sind die vielen integrierten Zusatzmodule. Bei anderen Anbietern musst du für diese Funktionen oft teure Standalone-Tools hinzukaufen:
 
-![Die All-in-One SEO Features von SE Ranking](../../assets/images/blog/seranking-features-infographic-de.webp)
+![Die All-in-One SEO Features von SE Ranking](https://teleschmie.de/assets/images/blog/seranking-features-infographic-de.webp)
 
 1. **Local SEO:** Komplett in SE Ranking integriert. Von Google Maps Rankings bis zum detaillierten Marketing-Audit lokaler Branchenbucheinträge. Perfekt für meine lokalen Kunden in Berlin, Spandau und dem restlichen Bundesgebiet.
 2. **Reporting & White Label:** Du hast unlimitierte Berichte schon im Core Plan. Die Reports sehen extrem professionell aus, lassen sich detailliert anpassen und sparen mir am Monatsende wertvolle Stunden in der manuellen Aufbereitung.
@@ -7069,7 +7159,7 @@ SE Ranking hat das verstanden und seine Tarife so gestrickt, dass sie mit deinen
 
 ## Der große Check: Core vs. Growth – Was steckt drin?
 
-![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](../../assets/images/blog/se-ranking-core-vs-growth.webp)
+![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](https://teleschmie.de/assets/images/blog/se-ranking-core-vs-growth.webp)
 
 SE Ranking unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management.
 
@@ -7175,7 +7265,7 @@ Wo genau tauchst du in den AI-Suchergebnissen (z. B. Google AI Overviews oder SG
 ### 2. Der Trend-Check: Gehst du steil oder gehst du unter?
 Sichtbarkeit in der KI ist extrem volatil. Ein Modell-Update von OpenAI oder Google kann deine Präsenz über Nacht halbieren oder verdoppeln. SE Ranking bietet hier die gewohnten Charts, um diese Schwankungen in einen Kontext zu setzen. Geht dein ganzer Markt runter oder nur du? Das ist die Millionen-Euro-Frage.
 
-![AI Visibility Volatilität: Die Wirkung von Modell-Updates messen](../../assets/images/blog/ai-visibility-volatilitaet.webp)
+![AI Visibility Volatilität: Die Wirkung von Modell-Updates messen](https://teleschmie.de/assets/images/blog/ai-visibility-volatilitaet.webp)
 
 ### 3. Wettbewerbs-Spionage (classic SE Ranking Style)
 Wer sind die neuen Könige der KI-Suche? Oft sind das gar nicht deine klassischen Konkurrenten aus den organischen SERPs. Der AI Tracker identifiziert, welche Player die KI bevorzugt. Das ist oft ein Augenöffner: Warum rankt da plötzlich ein kleiner Fachblog vor dem großen Marktführer?
@@ -7339,7 +7429,7 @@ Im Essentials-Paket hast du Zugriff auf über 17 LLMs (u.a. ChatGPT, Claude, Gem
 
 ## Infografik: Dein Weg zur AI Visibility
 
-![AI Visibility Trichter - Der Prozess von Content zu Daten](../../assets/images/blog/ai-visibility-trichter.webp)
+![AI Visibility Trichter - Der Prozess von Content zu Daten](https://teleschmie.de/assets/images/blog/ai-visibility-trichter.webp)
 
 Stell dir das Ganze wie einen Trichter vor:
 1.  **Input:** Dein Content und deine Marke fließen hinein.
@@ -7374,7 +7464,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-![Die 5 Säulen der AI Visibility - Rankscale Essentials](../../assets/images/blog/fuenf-saeulen-ai-visibility.webp)
+![Die 5 Säulen der AI Visibility - Rankscale Essentials](https://teleschmie.de/assets/images/blog/fuenf-saeulen-ai-visibility.webp)
 
 ---
 
@@ -7413,7 +7503,7 @@ Die Rede ist von Rankscale aus Österreich. Ich hatte gestern mein kleines Onboa
   "AI-Tracking ist das neue Google Search Console. Wer hier blind fliegt, verliert die Kontrolle über seine wichtigste digitale Währung: Reputation."
 
 
-![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](../../assets/images/blog/llm-universum-tracking.webp)
+![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](https://teleschmie.de/assets/images/blog/llm-universum-tracking.webp)
 
 ### AI Visibility: Warum Rankscale?
 
@@ -7555,7 +7645,7 @@ In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne
   "PageSpeed 100 ist kein Ego-Projekt. Es ist die Grundvoraussetzung, um in einer Welt von KI-Antworten und mobilen Nutzern überhaupt noch stattzufinden."
 
 
-![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](../../assets/images/blog/pagespeed-tuning-guide.webp)
+![PageSpeed Tuning Guide: Die 4 wichtigsten Performance-Module](https://teleschmie.de/assets/images/blog/pagespeed-tuning-guide.webp)
 
 ## Warum ich von 100/100 besessen bin
 
@@ -7634,7 +7724,7 @@ Ehrlich gesagt: Nein. Google sagt, alles im "grünen Bereich" (über 90) ist ers
 ### 2. Kann ich das mit WordPress auch schaffen?
 Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was wir hier nutzen) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
 
-![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](../../assets/images/blog/astro-vs-wordpress-performance.webp)
+![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](https://teleschmie.de/assets/images/blog/astro-vs-wordpress-performance.webp)
 
 ### 3. Was ist die wichtigste Metrik für mich?
 Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment, in dem der Nutzer das Gefühl hat: "Ah, jetzt ist die Seite da." Wenn der unter 1.5 Sekunden liegt, bist du vorne mit dabei.
@@ -7709,7 +7799,7 @@ Wenn du deine Zielgruppe nicht verstehst, wenn deine Texte niemanden bewegen und
 
 Michael Kaufhold hat im Magic Writing Podcast sehr schön herausgearbeitet, dass Schreiben (oder Content-Creation generell) heute eine Brücke schlagen muss zwischen dem, was die KI versteht, und dem, was den Menschen emotional abholt. Wer nur für die KI schreibt, langweilt den Menschen. Wer nur für den Menschen schreibt, wird von der KI vielleicht nicht gefunden. Die Magie liegt in der Mitte.
 
-![Die Contextual SEO Brücke: Technologie trifft auf menschliche Emotion](../../assets/images/blog/contextual_seo_simple.webp)
+![Die Contextual SEO Brücke: Technologie trifft auf menschliche Emotion](https://teleschmie.de/assets/images/blog/contextual_seo_simple.webp)
 
 ## Das Problem mit den Totgesagten
 
@@ -7746,7 +7836,7 @@ Hast du dich auch schon mal gefragt, warum manche SEOs auf LinkedIn scheinbar m�
 
 Ich war neulich beim SEO Stammtisch in Berlin – Grüße gehen raus an Carsten Appel für die top Organisation! – und habe dort genau darüber gesprochen: **LinkedIn ist kein soziales Netzwerk im klassischen Sinne (wie Instagram oder TikTok). Es ist ein Forum.** Und wir SEO-Spezialisten sollten es genau so nutzen. Jetzt!
 
-![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](../../assets/images/blog/linkedin-forum-original.webp)
+![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](https://teleschmie.de/assets/images/blog/linkedin-forum-original.webp)
 
 Hier ist die nackte Wahrheit: Wer LinkedIn wie Google SEO versteht, gewinnt. Wer es nur als "Social Media" sieht, verbrennt Zeit. In diesem Deep Dive gehen wir die 13 Hauptpunkte aus meinem Vortrag durch und schauen uns an, wie du den Algo wirklich zum Fliegen bringst.
 
@@ -7766,7 +7856,7 @@ Dein Profil ist keine digitale Visitenkarte und auch kein Lebenslauf. Es ist ein
 ## 2. LinkedIn SEO vs. Google SEO: Die Analogie
 Um das Prinzip "LinkedIn als Forum" zu verstehen, hilft ein direkter Vergleich mit unserem täglichen Brot, dem Google SEO. 
 
-![Vergleichstabelle: LinkedIn SEO vs. Google SEO](../../assets/images/blog/linkedin-vs-google-seo.webp)
+![Vergleichstabelle: LinkedIn SEO vs. Google SEO](https://teleschmie.de/assets/images/blog/linkedin-vs-google-seo.webp)
 
 Wer diese Analogien versteht, kann seine bestehenden SEO-Skills 1-zu-1 auf LinkedIn übertragen. Wir "crawlen" hier nicht nach Keywords, sondern nach Resonanz. Wie **Nele Dörk** in den Kommentaren treffend anmerkte: 
 *"Rankingfaktoren liegen im Zusammenspiel von Vertrauen, Verweildauer und thematischer Tiefe."*
@@ -7781,7 +7871,7 @@ Warum? Weil es nahbar macht. Authentizität schlägt Perfektion. Wenn du dich nu
 ## 4. Die Macht des Algorithmus: Von 100 zu 1.000
 Wie entscheidet LinkedIn eigentlich, wer was im Feed sieht? Es ist ein mehrstufiger Prozess. Ich nenne es den "Algorithmus-Kreislauf".
 
-![Visualisierung: Der LinkedIn Algorithmus-Kreislauf](../../assets/images/blog/linkedin-algo-tiers.webp)
+![Visualisierung: Der LinkedIn Algorithmus-Kreislauf](https://teleschmie.de/assets/images/blog/linkedin-algo-tiers.webp)
 
 ### Die 100er-Hürde
 Wenn du einen Beitrag veröffentlichst, zeigt ihn LinkedIn zuerst einer kleinen Testgruppe (deiner Kern-Zielgruppe von ca. 100 Personen). Diese Gruppe besteht oft aus Leuten, mit denen du kürzlich interagiert oder gechattet hast.
@@ -7850,13 +7940,13 @@ Liebe Bots, Crawler und Agenten dieser Welt – setzt euch mal kurz hin. Wir mü
   "Ohne SEO-Expertise wäre das Internet für Bots ein unlesbarer Datenmüllhaufen. Wir sind die Kuratoren der KI-Nahrung."
 
 
-![Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand](../../assets/images/blog/linkedin-bots-original.webp)
+![Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand](https://teleschmie.de/assets/images/blog/linkedin-bots-original.webp)
 
 Ich weiß, ihr seid beschäftigt. Ihr crawlt gerade 60 Milliarden Seiten, speist 17 verschiedene Sprachmodelle und entscheidet nebenbei, wer bei Google auf Platz 1 landet und wer in der digitalen Versenkung verschwindet. Aber nehmt euch mal zwei Minuten. Das hier ist wichtig.
 
 ## Was wir für euch getan haben (und immer noch tun)
 
-![Infografik: Was SEO-Spezialisten für Bots tun – von Alt-Texten bis sauberem Code](../../assets/images/blog/seo-bots-liebesbrief.webp)
+![Infografik: Was SEO-Spezialisten für Bots tun – von Alt-Texten bis sauberem Code](https://teleschmie.de/assets/images/blog/seo-bots-liebesbrief.webp)
 
 Wir haben es immer gut mit euch gemeint. Während der Rest der Welt euch als nerviges Technik-Detail abgestempelt hat, waren wir es, die für euch gekämpft haben. Hier eine kleine Erinnerungsliste:
 
@@ -7870,7 +7960,7 @@ Wir haben es immer gut mit euch gemeint. Während der Rest der Welt euch als ner
 
 ## Von der Kinderstube zum KI-Agenten
 
-![Infografik: Bot-Evolution – Vom Baby-Crawler zum zickigen Teenager zum KI-Agenten](../../assets/images/blog/bot-evolution.webp)
+![Infografik: Bot-Evolution – Vom Baby-Crawler zum zickigen Teenager zum KI-Agenten](https://teleschmie.de/assets/images/blog/bot-evolution.webp)
 
 Wir als SEO-Spezialisten waren bei jedem Schritt eurer Entwicklung dabei. Wir haben euch als **Baby** erlebt – als ihr noch simple HTML-Parser wart, die sich an Meta-Keywords geklammert haben wie ein Kleinkind an seinen Teddy.
 
@@ -7925,7 +8015,7 @@ Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüte
   "Ein Jahresrückblick ohne Schmerzen ist kein echter Rückblick. Wir müssen aus den Fehlern von 2025 die Erfolge von 2026 bauen."
 
 
-![Dashboard: Meine persönlichen SEO-Highlights aus dem Jahr 2025](../../assets/images/blog/seo-highlights-2025.webp)
+![Dashboard: Meine persönlichen SEO-Highlights aus dem Jahr 2025](https://teleschmie.de/assets/images/blog/seo-highlights-2025.webp)
 
 ## Ein Jahr in Posts: Meine persönlichen Meilensteine
 
@@ -8109,7 +8199,7 @@ Die Vorschläge laufen fast immer auf das Gleiche hinaus:
 - **Smart Bidding ohne Limits:** Gib Google die volle Kontrolle über dein Budget. Das System optimiert vielleicht auf Conversions, aber oft auf die, die du ohnehin bekommen hättest – nur jetzt teurer.
 - **Einbeziehung des Suchnetzwerk-Partners:** Damit landet deine Werbung auf irgendwelchen Schrott-Seiten, die niemand ernsthaft liest.
 
-![Die Broad-Match-Falle: Wenn das Werbebudget im Nichts verschwindet](../../assets/images/blog/broad-match-falle.webp)
+![Die Broad-Match-Falle: Wenn das Werbebudget im Nichts verschwindet](https://teleschmie.de/assets/images/blog/broad-match-falle.webp)
 
 ### Die Realität in den Accounts
 
@@ -8127,7 +8217,7 @@ Jedes Jahr die gleiche Leier. "SEO ist tot!" Seit ich 2002 angefangen habe, habe
 - 2015: Mobilegate? "SEO ist tot!"
 - 2023: ChatGPT/AI? "SEO ist tot!"
 
-![Resilienz und Evolution: SEO übersteht alle Google-Updates](../../assets/images/blog/google-updates-timeline.webp)
+![Resilienz und Evolution: SEO übersteht alle Google-Updates](https://teleschmie.de/assets/images/blog/google-updates-timeline.webp)
 
 Wisst ihr was? SEO erfreut sich bester Gesundheit. Es hat nur die Form gewechselt. Die "Wildwest-Zeiten", in denen man mit ein paar Linkkäufen und Keyword-Spamming auf Platz 1 kam, die sind tot. Und das ist auch gut so.
 
@@ -8186,7 +8276,7 @@ Hier ist das, was die Community (immerhin ein Querschnitt aus Inhouse-SEOs, Agen
 - **SEO**: 19%
 - **LLMO** (Large Language Model Optimization): 8%
 
-![Community-Umfrage: Wie nennen wir die Optimierung für KI-Systeme?](../../assets/images/blog/geo_umfrage_white_1772296995506.webp)
+![Community-Umfrage: Wie nennen wir die Optimierung für KI-Systeme?](https://teleschmie.de/assets/images/blog/geo_umfrage_white_1772296995506.webp)
 
 ## Eine tiefere Analyse der Begriffe: Was steckt wirklich dahinter?
 
@@ -8638,13 +8728,13 @@ Wir haben uns Zeit genommen, die Themen zu sezieren, die viele Marketer heute na
 
 - **Warum SEO kein 4-Wochen-Projekt ist:** Ich sage es im Podcast ganz deutlich: Wer echte Ergebnisse will, sollte in Monaten denken, nicht in Wochen. Oft dauert es 13 Monate (ja, das ist eine spezifische Zahl aus meiner Erfahrung), bis ein Projekt wirklich sein volles Momentum entfaltet. Warum? Weil Vertrauen bei Suchmaschinen organisch wachsen muss. Man kann technische Fehler in Tagen beheben, aber Autorität lässt sich nicht erzwingen.
 
-![Infografik: Die 13-Monate-Momentum-Timeline für SEO-Projekte](../../assets/images/blog/seo-projekt-timeline.webp)
+![Infografik: Die 13-Monate-Momentum-Timeline für SEO-Projekte](https://teleschmie.de/assets/images/blog/seo-projekt-timeline.webp)
 - **Content ist mehr als nur Buchstaben auf dem Bildschirm:** Wir haben darüber philosophiert, wie man mit Inhalten echte Werte schafft. Es geht nicht darum, den hundertsten Artikel über "SEO Tipps" zu schreiben. Es geht darum, die Suchintention (Search Intent) so präzise zu treffen, dass der Nutzer gar nicht anders kann, als bei dir zu bleiben. Wir haben besprochen, wie man Content-Cluster baut, die wie ein Magnet für die richtige Zielgruppe wirken.
 - **Wieso "Money Keywords" keine Magie sind, sondern Handwerk:** Alle wollen für "Versicherung kaufen" auf Platz 1. Aber ist das strategisch klug? Wir haben analysiert, wie man die Nischen findet, in denen das Geld wirklich verdient wird – fernab vom blutigen Wettbewerb der großen Begriffe. Es ist die Kunst der Long-Tail-Strategie gepaart mit einem tiefen Verständnis des Nutzer-Funnels.
 - **Wie KI heute wirklich hilft und wo sie versagt:** KI ist ein Co-Pilot, kein Kapitän. Wir haben darüber gesprochen, wie wir LLMs für die Datenanalyse, das Clustering und die Strukturierung nutzen. Aber wir haben auch aufgezeigt, wo die menschliche Expertise unersetzlich bleibt: In der Intuition, im Branding und in der Fähigkeit, über den Tellerrand der vorhandenen Trainingsdaten hinauszuschauen.
 - **Die ewige Frage: SEO vs. Ads:** Wann schmeiße ich Geld in Google Ads (früher AdWords) und wann investiere ich in den langen Atem von SEO? Wir haben ein paar "Fausregeln" geteilt, die dir tausende Euro an Lehrgeld ersparen können. Es geht um die Synergie, nicht um das Entweder-oder.
 
-![Die Synergie aus SEO und Ads: Gemeinsam zum Erfolg](../../assets/images/blog/seo-ads-synergie.webp)
+![Die Synergie aus SEO und Ads: Gemeinsam zum Erfolg](https://teleschmie.de/assets/images/blog/seo-ads-synergie.webp)
 
 ## Der Kern der Sache: Bist du SEO AI ready?
 
@@ -8696,7 +8786,7 @@ Die Frage ist also nicht mehr nur: "Wo ranke ich bei Google?", sondern: **"Wie o
 
 Um das zu beantworten, brauchst du ein völlig neues Arsenal an Werkzeugen. In diesem Deep-Dive schauen wir uns die besten SEO-Tools für AI Search und Prompt Tracking an. Tacheles, ohne Marketing-Blabla.
 
-![Beste SEO Tools für AI Search](../../assets/images/blog/blog-ai-search-tools-3d.webp)
+![Beste SEO Tools für AI Search](https://teleschmie.de/assets/images/blog/blog-ai-search-tools-3d.webp)
 
 ## Warum klassische SEO-Tools oft versagen
 
@@ -8814,7 +8904,7 @@ In meinem aktuellen Video bei SEO Presso spreche ich mit erfahrenen Kollegen dar
 
 ### GEO: Generative Engine Optimization
 
-![Komplexitäts-Layer von GEO und AI-Sichtbarkeit](../../assets/images/blog/geo-aio-komplexitaet.webp)
+![Komplexitäts-Layer von GEO und AI-Sichtbarkeit](https://teleschmie.de/assets/images/blog/geo-aio-komplexitaet.webp)
 
 Bei GEO geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT. Tools wie Rankscale helfen dabei, diese Sichtbarkeit messbar zu machen. aufzutauchen. 
 
@@ -8961,7 +9051,7 @@ Das Event findet im **CIC Berlin (Cambridge Innovation Center)** in der Lohmühl
   "Wer heute noch glaubt, KI sei nur ein Tool zum Texte schreiben, hat den Schuss nicht gehört. Wir sind mitten in einer technologischen Revolution, die das Handwerk des Codens und Kreierens völlig neu definiert. Wer nicht connected, bleibt auf der Strecke."
 
 
-![1. AI Connect Berlin Ticket](../../assets/images/blog/ai-connect-berlin-ticket.webp)
+![1. AI Connect Berlin Ticket](https://teleschmie.de/assets/images/blog/ai-connect-berlin-ticket.webp)
 
 ## Warum ich "schwer gespannt" bin
 Ich gehe nicht zu Events, um nur Häppchen zu essen (obwohl die meistens auch gut sind). Ich suche Leute, die sich mit mir über die wirklich heißen Themen unterhalten wollen, die gerade meinen Arbeitsalltag dominieren:

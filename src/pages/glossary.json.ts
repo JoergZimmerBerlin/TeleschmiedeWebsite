@@ -4,7 +4,7 @@ export async function GET() {
   const glossarEntries = await getCollection('glossar');
   const manifest = glossarEntries.map(entry => ({
     title: entry.data.title,
-    slug: entry.slug,
+    id: entry.id,
     description: entry.data.description,
   }));
 

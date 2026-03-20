@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { Image, getImage } from 'astro:assets';
 
 import KeyTakeaways from '../../components/KeyTakeaways.astro';
@@ -11,13 +11,13 @@ import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.web
 export async function getStaticPaths() {
   const entries = await getCollection('glossar');
   return entries.map((entry) => ({
-    params: { slug: entry.slug },
+    params: { slug: entry.id },
     props: { entry },
   }));
 }
 
 const { entry } = Astro.props;
-const { Content, headings } = await entry.render();
+const { Content, headings } = await render(entry);
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 let entryImageWebp = null;
@@ -32,7 +32,7 @@ const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 // Fetch related terms
 const allEntries = await getCollection('glossar');
 const relatedTerms = allEntries.filter((e) => 
-  entry.data.related_terms?.includes(e.slug)
+  entry.data.related_terms?.includes(e.id)
 );
 ---
 
@@ -116,7 +116,7 @@ const relatedTerms = allEntries.filter((e) =>
               <div class="flex flex-col gap-2">
                 {relatedTerms.map((t) => (
                   <a 
-                    href={`${baseUrl}/glossar/${t.slug}/`} 
+                    href={`${baseUrl}/glossar/${t.id}/`} 
                     class="text-sm text-gray-muted hover:text-lime-600 transition-colors"
                   >
                     {t.data.title}
@@ -162,7 +162,7 @@ const relatedTerms = allEntries.filter((e) =>
           <h3 class="text-2xl font-bold mb-8">Verwandte Begriffe & Leseempfehlungen</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {relatedTerms.map(t => (
-              <a href={`${baseUrl}/glossar/${t.slug}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all">
+              <a href={`${baseUrl}/glossar/${t.id}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all">
                 <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">
                   Glossar
                 </span>

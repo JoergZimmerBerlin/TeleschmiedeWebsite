@@ -58,15 +58,15 @@ export const GET = async () => {
   // 3. Blog Posts
   const blogPosts = await getCollection('blog');
   for (const post of blogPosts) {
-    // If post has a date in frontmatter (populated by Astro), use it.
-    // Otherwise fallback to git.
     const frontmatterDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : null;
-    const filePath = path.join(process.cwd(), 'src/content/blog', post.id);
+    // In Astro 5 Content Layer, filePath is available on the entry
+    const relPath = post.filePath || `src/content/blog/${post.id}.md`;
+    const filePath = path.join(process.cwd(), relPath);
     const postDate = frontmatterDate || getLastMod(filePath);
     
     urls += `
   <url>
-    <loc>${baseUrl}/blog/${post.slug}/</loc>
+    <loc>${baseUrl}/blog/${post.id}/</loc>
     <lastmod>${postDate}</lastmod>
   </url>`;
   }
@@ -82,12 +82,13 @@ export const GET = async () => {
   const glossaryPosts = await getCollection('glossar');
   for (const post of glossaryPosts) {
     const frontmatterDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : null;
-    const filePath = path.join(process.cwd(), 'src/content/glossar', post.id);
+    const relPath = post.filePath || `src/content/glossar/${post.id}.md`;
+    const filePath = path.join(process.cwd(), relPath);
     const postDate = frontmatterDate || getLastMod(filePath);
     
     urls += `
   <url>
-    <loc>${baseUrl}/glossar/${post.slug}/</loc>
+    <loc>${baseUrl}/glossar/${post.id}/</loc>
     <lastmod>${postDate}</lastmod>
   </url>`;
   }

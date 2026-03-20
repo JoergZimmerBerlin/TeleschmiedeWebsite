@@ -26,7 +26,7 @@ if (entry.data.image) {
 }
 
 // Reading Time Calculation
-const wordCount = entry.body.split(/\s+/).length;
+const wordCount = (entry.body || '').split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
 // Fetch related terms

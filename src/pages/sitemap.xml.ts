@@ -80,15 +80,15 @@ export const GET = async () => {
 
   // 5. Glossary Posts
   const glossaryPosts = await getCollection('glossar');
-  for (const post of glossaryPosts) {
-    const frontmatterDate = post.data.date ? new Date(post.data.date).toISOString().split('T')[0] : null;
-    const relPath = post.filePath || `src/content/glossar/${post.id}.md`;
+  for (const entry of glossaryPosts) {
+    const frontmatterDate = entry.data.date ? new Date(entry.data.date).toISOString().split('T')[0] : null;
+    const relPath = entry.filePath || `src/content/glossar/${entry.id}.md`;
     const filePath = path.join(process.cwd(), relPath);
     const postDate = frontmatterDate || getLastMod(filePath);
     
     urls += `
   <url>
-    <loc>${baseUrl}/glossar/${post.id}/</loc>
+    <loc>${baseUrl}/glossar/${entry.id}/</loc>
     <lastmod>${postDate}</lastmod>
   </url>`;
   }

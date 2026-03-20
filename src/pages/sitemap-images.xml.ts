@@ -42,7 +42,7 @@ export const GET = async () => {
         if (post.data.image) {
             urls += `
   <url>
-    <loc>${baseUrl}/blog/${post.slug}/</loc>
+    <loc>${baseUrl}/blog/${post.id}/</loc>
     <image:image>
       <image:loc>${baseUrl}${post.data.image.src}</image:loc>
       <image:title>${post.data.title}</image:title>
@@ -56,7 +56,7 @@ export const GET = async () => {
         if (post.data.image) {
             urls += `
   <url>
-    <loc>${baseUrl}/glossar/${post.slug}/</loc>
+    <loc>${baseUrl}/glossar/${post.id}/</loc>
     <image:image>
       <image:loc>${baseUrl}${post.data.image.src}</image:loc>
       <image:title>${post.data.title}</image:title>

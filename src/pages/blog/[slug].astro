@@ -28,7 +28,7 @@ if (post.data.image) {
 }
 
 // Reading Time Calculation
-const wordCount = post.body.split(/\s+/).length;
+const wordCount = (post.body || '').split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
 // Get related posts with scoring
@@ -70,7 +70,7 @@ const finalRelatedPosts = relatedPosts.length >= 3
     ];
 
 // Tacheles Quote Extractor for AI citation schema
-const tachelesMatch = post.body.match(/> \*\*Tacheles:\*\* (.*)/);
+const tachelesMatch = (post.body || '').match(/> \*\*Tacheles:\*\* (.*)/);
 const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]\(.*?\)/g, '$1') : null; // Remove markdown links for clean schema
 ---
 

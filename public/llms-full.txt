@@ -63,7 +63,7 @@ Wer schon mal umgezogen ist, ohne einen Nachsendeauftrag bei der Post zu stellen
 
 ![301 vs 302 Redirects 3D Infografik](../../assets/images/glossar/3d-light/glossar-301-vs-302-3d.webp)
 
-Heute legen wir den Finger in die Wunde: **301 vs. 302 Redirects**. Das klingt nach staubiger Technik, ist aber in Wahrheit die Lebensversicherung für deine organische Reichweite. 🦖
+Heute legen wir den Finger in die Wunde: **301 vs. 302 Redirects**. Das klingt nach staubiger Technik, ist aber in Wahrheit die Lebensversicherung für deine organische Reichweite. 🌻
 
 ## Was ist ein 301 Redirect? (Moved Permanently)
 
@@ -75,7 +75,7 @@ Es ist der offizielle **Nachsendeauftrag**. Google versteht diesen Befehl sofort
 
 Der **302-Redirect** hingegen ist nur ein kurzes Gastspiel. Er signalisiert: "Ich hab die Seite gerade woanders gefunden, aber das ist nur vorübergehend so." Google reagiert darauf völlig anders: Die alte URL bleibt im Index, die neue URL wird meist gar nicht erst für Rankings in Betracht gezogen und – das ist der Knackpunkt – es wird **kein Linkjuice** vererbt.
 
-Wer einen 302 nutzt, wo eigentlich ein 301 hingehört (ein klassischer Fehler von "Dinosaurier-Agenturen" und Bauchläden), der baut sich eine gläserne Decke für seine Sichtbarkeit.
+Wer einen 302 nutzt, wo eigentlich ein 301 hingehört (ein klassischer Fehler von "Old-School-Agenturen" und Bauchläden), der baut sich eine gläserne Decke für seine Sichtbarkeit.
 
 ## Der direkte Vergleich: 301 vs. 302
 
@@ -90,7 +90,7 @@ Wer einen 302 nutzt, wo eigentlich ein 301 hingehört (ein klassischer Fehler vo
 
 ## 💬 Jörgs SEO-Klartext: "Der Tod durch 302"
 
-> **Tacheles:** Ich sehe es immer wieder in meinen Audits: Unternehmen investieren fünfstellig in einen schicken neuen Web-Auftritt, aber die Technik-Abteilung schaltet aus purer Bequemlichkeit oder Unwissenheit überall 302-Redirects. Das Ergebnis? Die Rankings stürzen ab, der Chef tobt und das Projekt wird zum Desaster. Wer beim Relaunch nicht auf 301 setzt, der betreibt **Digitales Harakiri**. Ein 301 ist Präzisionsarbeit. Wer hier schlampt, bekommt den Pfusch am Bau später schmerzhaft in der Search Console serviert. 🦖
+> **Tacheles:** Ich sehe es immer wieder in meinen Audits: Unternehmen investieren fünfstellig in einen schicken neuen Web-Auftritt, aber die Technik-Abteilung schaltet aus purer Bequemlichkeit oder Unwissenheit überall 302-Redirects. Das Ergebnis? Die Rankings stürzen ab, der Chef tobt und das Projekt wird zum Desaster. Wer beim Relaunch nicht auf 301 setzt, der betreibt **Digitales Harakiri**. Ein 301 ist Präzisionsarbeit. Wer hier schlampt, bekommt den Pfusch am Bau später schmerzhaft in der Search Console serviert. 🌻
 
 ## Die 4 wichtigsten Anwendungsfälle für 301-Redirects
 
@@ -197,7 +197,7 @@ Wer seine technische Basis nicht im Griff hat, wird nicht zitiert.
 
 404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie SE Ranking und Rankscale behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
 
-ALOHA 🌻! 🌻
+ALOHA 🌻
 
 ---
 
@@ -3901,7 +3901,7 @@ Früher haben wir Texte für den Googlebot geschrieben, damit er sie indexiert. 
 
 ## Jörgs SEO-Klartext: "RAG oder Tod"
 
-> **Tacheles:** Wer heute noch glaubt, dass eine einfache Textwüste auf der Website reicht, der hat die Kontrolle über seine digitale Sichtbarkeit verloren. RAG braucht Struktur. KIs brauchen klare Entitäten und logische Daten-Cluster. Wer hier 'Pfusch am Bau' betreibt, wird von den Reasoning Engines dieser Welt gnadenlos aussortiert. 🦖
+> **Tacheles:** Wer heute noch glaubt, dass eine einfache Text wüste auf der Website reicht, der hat die Kontrolle über seine digitale Sichtbarkeit verloren. RAG braucht Struktur. KIs brauchen klare Entitäten und logische Daten-Cluster. Wer hier 'Pfusch am Bau' betreibt, wird von den Reasoning Engines dieser Welt gnadenlos aussortiert. 🌻
 
 In meiner täglichen Arbeit sehe ich oft, dass Unternehmen Unmengen an Geld in KI-Projekte stecken, aber das Fundament – die Datenqualität und die RAG-Fähigkeit – vernachlässigen. Das ist wie ein Porsche mit leerem Tank. Sieht gut aus, bewegt sich aber keinen Millimeter.
 

@@ -238,6 +238,6 @@
 }
 
 #glossary-tooltip::after {
-  content: "Klicken für Details 🦖";
+  content: "Klicken für Details 🌻";
   @apply block mt-3 pt-3 border-t border-gray-100 text-[10px] font-bold text-lime-700 uppercase tracking-widest;
 }

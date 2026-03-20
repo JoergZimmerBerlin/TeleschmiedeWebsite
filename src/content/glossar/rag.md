@@ -8,7 +8,7 @@ key_takeaways:
   - "Fakten-Anker: RAG erlaubt es LLMs, auf externe, verifizierte Datenquellen zuzugreifen, statt nur auf dem (oft veralteten) Trainingswissen zu basieren."
   - "Halluzinations-Killer: Durch den Abruf echter Dokumente vor der Antwort-Generierung wird das Risiko von KI-erfundenen Fakten massiv gesenkt."
   - "Source of Truth: Für Unternehmen ist RAG der einzige Weg, ChatGPT sicher auf internen Daten oder aktuellen Website-Inhalten antworten zu lassen."
-tacheles: "Wer glaubt, dass ChatGPT alles weiß, der glaubt auch, dass die Erde eine Scheibe ist. Ohne RAG ist eine KI nur ein sehr eloquenter Lügner. Wer heute nicht versteht, wie er seine eigenen Daten als 'Anker' für die KI nutzt, der baut auf Sand – und der Pfusch am Bau wird bei der nächsten Nutzeranfrage gnadenlos sichtbar."
+tacheles: "Wer glaubt, dass ChatGPT alles weiß, der glaubt auch, dass die Erde eine Scheibe ist. Ohne RAG ist eine KI nur ein sehr eloquenter Lügner. Wer heute nicht versteht, wie er seine eigenen Daten als 'Anker' für die KI nutzt, der baut auf Sand – und der Pfusch am Bau wird bei der nächsten Nutzeranfrage gnadenlos sichtbar. 🌻"
 related_terms: ["geo", "chatgpt-seo", "ai-seo", "llmo"]
 faqs:
   - question: "Was ist der Unterschied zwischen RAG und Fine-Tuning?"
@@ -48,7 +48,7 @@ Früher haben wir Texte für den Googlebot geschrieben, damit er sie indexiert. 
 
 ## Jörgs SEO-Klartext: "RAG oder Tod"
 
-> **Tacheles:** Wer heute noch glaubt, dass eine einfache Textwüste auf der Website reicht, der hat die Kontrolle über seine digitale Sichtbarkeit verloren. RAG braucht Struktur. KIs brauchen klare Entitäten und logische Daten-Cluster. Wer hier 'Pfusch am Bau' betreibt, wird von den Reasoning Engines dieser Welt gnadenlos aussortiert. 🦖
+> **Tacheles:** Wer heute noch glaubt, dass eine einfache Text wüste auf der Website reicht, der hat die Kontrolle über seine digitale Sichtbarkeit verloren. RAG braucht Struktur. KIs brauchen klare Entitäten und logische Daten-Cluster. Wer hier 'Pfusch am Bau' betreibt, wird von den Reasoning Engines dieser Welt gnadenlos aussortiert. 🌻
 
 In meiner täglichen Arbeit sehe ich oft, dass Unternehmen Unmengen an Geld in KI-Projekte stecken, aber das Fundament – die Datenqualität und die RAG-Fähigkeit – vernachlässigen. Das ist wie ein Porsche mit leerem Tank. Sieht gut aus, bewegt sich aber keinen Millimeter.
 

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./theme.css";
+@plugin "@tailwindcss/typography";
 
 /* Custom base styles */
 @layer base {
@@ -117,6 +118,29 @@
   @apply !text-lime-600 !font-bold;
 }
 
+/* --- Article Content Styling (Blog & Glossar) --- */
+.blog-content h2 {
+  @apply !text-2xl md:!text-3xl !font-bold !mt-20 !mb-8 !border-b !border-gray-100 !pb-4 !scroll-mt-28 md:!scroll-mt-32;
+}
+
+.blog-content h3 {
+  @apply !text-xl md:!text-2xl !font-bold !mt-16 !mb-6 !scroll-mt-28 md:!scroll-mt-32;
+}
+
+.blog-content p {
+  @apply !mb-8 !leading-relaxed;
+}
+
+.blog-content li {
+  @apply !mb-4;
+}
+
+/* Pseudo-headings: Paragraphs starting with bold text */
+.blog-content p > strong:first-child:only-child,
+.blog-content p > strong:first-child {
+  @apply !block !mt-12 !mb-4 !text-dark !text-lg;
+}
+
 /* --- Responsive Table Optimization --- */
 @media (max-width: 768px) {
   .blog-content .overflow-x-auto {
@@ -188,8 +212,26 @@
   @apply !hidden;
 }
 
-.blog-cta-box a:not(.btn-primary) {
-  @apply !underline !font-semibold !text-lime-600 hover:!text-lime-700 !transition-colors;
+.blog-cta-box a {
+  @apply !inline-block !mt-4 !px-8 !py-3 !bg-lime-accent !text-dark !font-bold !rounded-full !no-underline !shadow-sm !transition-all hover:!brightness-95 hover:!shadow-md;
+}
+
+/* Lese-Tipp specific styling (Glossar) */
+.blog-content h3:last-of-type {
+  @apply !mt-20 !pt-8 !border-t !border-gray-100;
+}
+
+.blog-content > h3:last-of-type + ul,
+.blog-content > ul:last-of-type {
+  @apply !mt-12 !pt-8 !border-t !border-gray-100 !space-y-4;
+}
+
+.blog-content > h3:last-of-type + ul {
+  @apply !border-t-0 !mt-4 !pt-0;
+}
+
+.blog-content > ul:last-of-type li {
+  @apply !mb-2 !text-base;
 }
 
 /* --- High-End Glossary Tooltips --- */

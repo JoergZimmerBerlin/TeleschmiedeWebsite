@@ -214,50 +214,6 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
         });
       </script>
 
-      <!-- Custom Blog Styles -->
-      <style is:global>
-    @reference "tailwindcss";
-    @reference "../../styles/theme.css";
-    .blog-content h2 {
-          @apply !text-2xl md:!text-3xl !font-bold !mt-20 !mb-8 !border-b !border-gray-100 !pb-4 !scroll-mt-28 md:!scroll-mt-32;
-        }
-        .blog-content h3 {
-          @apply !text-xl md:!text-2xl !font-bold !mt-16 !mb-6 !scroll-mt-28 md:!scroll-mt-32;
-        }
-        .blog-content p {
-          @apply !mb-8 !leading-relaxed;
-        }
-        .blog-content li {
-          @apply !mb-4;
-        }
-        /* Pseudo-headings: Paragraphs starting with bold text */
-        .blog-content p > strong:first-child:only-child,
-        .blog-content p > strong:first-child {
-          @apply !block !mt-12 !mb-4 !text-dark !text-lg;
-        }
-        .blog-cta-box {
-          @apply my-16 p-8 bg-gray-50 border border-gray-100 rounded-2xl text-center;
-        }
-        .blog-cta-box h3 {
-          @apply !mt-0;
-        }
-        .blog-cta-box a {
-          display: inline-block !important;
-          margin-top: 1rem !important;
-          padding: 0.75rem 2rem !important;
-          background-color: #D9FF00 !important;
-          color: #1a1a1a !important;
-          font-weight: 700 !important;
-          border-radius: 9999px !important;
-          text-decoration: none !important;
-          box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
-          transition: all 0.2s !important;
-        }
-        .blog-cta-box a:hover {
-          filter: brightness(0.95) !important;
-          box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
-        }
-      </style>
 
       <!-- Author Box -->
       <footer class="mt-20 pt-12 border-t border-gray-100">

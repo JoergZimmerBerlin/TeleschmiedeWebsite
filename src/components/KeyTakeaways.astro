@@ -1,7 +1,5 @@
 ---
-interface Props {
-  takeaways: string[];
-}
+import { formatMarkdown } from '../utils/markdown';
 
 const { takeaways } = Astro.props;
 ---
@@ -26,7 +24,7 @@ const { takeaways } = Astro.props;
           <svg class="w-5 h-5 text-lime-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
           </svg>
-          <span class="text-gray-text font-medium leading-relaxed">{item}</span>
+          <span class="text-gray-text font-medium leading-relaxed" set:html={formatMarkdown(item)}></span>
         </li>
       ))}
     </ul>

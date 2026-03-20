@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.webp';
+import { formatMarkdown } from '../utils/markdown';
 
 interface Props {
   insight: string;
@@ -34,9 +35,7 @@ const { insight } = Astro.props;
         💬 Jörgs SEO-Klartext
         <span class="text-xs font-normal text-gray-muted hidden md:inline-block bg-white/50 px-2 py-0.5 rounded-full">LinkedIn Insights</span>
       </h4>
-      <p class="text-lg text-dark leading-relaxed font-medium italic">
-        "{insight}"
-      </p>
+      <p class="text-lg text-dark leading-relaxed font-medium italic" set:html={`"${formatMarkdown(insight)}"`}></p>
       <div class="mt-4 flex items-center gap-2 text-sm text-lime-700 font-bold">
         <span>Sei nützlich.</span>
         <span class="w-1.5 h-1.5 bg-lime-500 rounded-full"></span>

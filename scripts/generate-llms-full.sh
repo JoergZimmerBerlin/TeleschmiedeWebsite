@@ -10,6 +10,22 @@ cat public/llms.txt > "$OUTPUT"
 echo -e "\n---\n" >> "$OUTPUT"
 echo -e "# FULL KNOWLEDGE BASE\n" >> "$OUTPUT"
 
+# Generate Table of Contents for better AI navigation
+echo -e "## TABLE OF CONTENTS\n" >> "$OUTPUT"
+echo -e "### Glossary\n" >> "$OUTPUT"
+for file in $(ls "$GLOSSARY_DIR"/*.md | sort); do
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
+    echo "- $TITLE" >> "$OUTPUT"
+done
+
+echo -e "\n### Blog Articles\n" >> "$OUTPUT"
+for file in $(ls "$BLOG_DIR"/*.md | sort -r); do
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
+    echo "- $TITLE" >> "$OUTPUT"
+done
+
+echo -e "\n---\n" >> "$OUTPUT"
+
 echo -e "## GLOSSARY\n" >> "$OUTPUT"
 # Process Glossary (Alphabetical)
 for file in $(ls "$GLOSSARY_DIR"/*.md | sort); do

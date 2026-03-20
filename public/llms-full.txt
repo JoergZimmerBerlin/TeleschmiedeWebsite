@@ -52,6 +52,138 @@ ALOHA! 🌻✌️
 
 # FULL KNOWLEDGE BASE
 
+## TABLE OF CONTENTS
+
+### Glossary
+
+- 301 vs. 302 Redirects: Der Nachsendeauftrag für dein SEO
+- 404 Fehlerseiten
+- AEO (Answer Engine Optimization)
+- AI SEO
+- AI Tracking Tools
+- Authoritativeness (E-E-A-T Faktor)
+- Bing Webmaster Tools
+- Brand Mentions
+- Campixx Berlin
+- Canonical Tag (rel='canonical')
+- ChatGPT SEO: Sichtbarkeit in der wichtigsten Reasoning Engine
+- Citation (Zitierung)
+- Conversion-Rate-Optimierung (CRO): Mehr Umsatz aus vorhandenem Traffic 
+- Core Web Vitals (CWV)
+- CPC (Cost per Click)
+- Crawler (Search Engine Bots): Die emsigen Arbeiter des Internets 
+- CTR (Click-Through-Rate)
+- E-E-A-T (Google Quality Rater Guidelines)
+- Entität (Entity)
+- Entitäten-Building
+- Entity SEO (Entitäten-Optimierung)
+- Experience (E-E-A-T Faktor)
+- Expertise (E-E-A-T Faktor)
+- FAQ Markup (FAQPage Schema)
+- GEO Agentur (Generative Engine Optimization)
+- GEO Audit: Der ultimative Check für deine KI-Sichtbarkeit
+- GEO Freelancer (Generative Engine Optimization)
+- GEO Optimierung: Die neue Währung für KI-Sichtbarkeit
+- GEO vs. SEO: Die Zukunft der Suche
+- Generative Engine Optimization (GEO)
+- Google Algorithmus
+- Google Core Update
+- Google Search Console
+- Grounding Page
+- Überschriften-Struktur (H1, H2, H3)
+- Interne Verlinkung (On-Page Linking)
+- Keywörter (Keywords)
+- Keyword Tool (SE Ranking & Co.)
+- Keywordrecherche
+- KI SEO Beratung: Agentur-Leistung für die Antwort-Ära
+- KI Sichtbarkeit messen & optimieren – Der ultimative Guide
+- Knowledge Graph
+- Linkbuilding & Interne Verlinkung
+- Linkjuice (Linkkraft)
+- LLM-Optimization (LLMO)
+- LLMs.txt
+- Local SEO (Lokale Optimierung)
+- Markenaufbau mit SEO (Brand SEO)
+- Mention (Markennennung)
+- Meta Description (Seitenbeschreibung)
+- Money Keyword
+- Noindex (Meta-Tag)
+- PageSpeed (Ladezeit-Optimierung)
+- Pressearbeit im SEO (Digital PR)
+- RAG: Das Gehirn-Doping für deine KI-Inhalte
+- Rankingfaktoren
+- Robots.txt
+- Schema.org Markup
+- Semantic SEO
+- SEO Agentur & SEO Agentur Berlin
+- SEO Audit
+- SEO Beratung & SEO Consulting
+- SEO Coaching
+- SEO Consulting
+- SEO Stammtisch Berlin
+- Sichtbarkeit (Visibility)
+- Sichtbarkeitsindex (Sistrix & Co.)
+- Sichtbarkeitsmanagement
+- Sitemap
+- Snippet Optimierung
+- Strukturierte Daten (Structured Data)
+- Suchvolumen (Search Volume)
+- Technisches Schema-Markup
+- Technisches, Inhaltliches & Strategisches SEO
+- Title Tag (HTML-Titel)
+- Traffic (Besucherströme)
+- Trailing Slashes
+- Trustworthiness (E-E-A-T Faktor)
+- Die Überstunde Berlin
+- Usability (Nutzungsfreundlichkeit)
+- Website Relaunch: SEO-Rettung vor dem Pfusch am Bau
+- WordPress SEO, TYPO3 & Plugins
+- Zero-Click Content
+- Zitierfähiger Content
+
+### Blog Articles
+
+- Was kann man in 2 Stunden SEO schon erreichen? (Spoiler: Eine ganze Menge!) 
+- Warum wir SEO-Spezialisten eine Welle machen sollten 
+- Warum wir SEO-Spezialisten schuld am Zustand des Internets sind (und wie wir es gemeinsam ändern)
+- Willkommen im SEO-Jahr 2026: Die gleichen Irrtümer, die gleiche Wahrheit
+- Sistrix vs. SE Ranking: Kann das Tool den Platzhirsch ersetzen?
+- SEO Persönlich: Mein Interview im SEOpresso Podcast 
+- SEOpresso Podcast: Meine Empfehlung mit Max Muhr
+- Wie läuft so eine SEO-Sprechstunde ab? 
+- Die SEO-Sprechstunde einfach erklärt: Website & Sichtbarkeit auf den Grill
+- 5 Sterne: Was Kunden über die SEO-Sprechstunde sagen
+- Der SEO Klassiker: Warum der Relaunch ohne SEO meistens im Disaster endet 
+- Tatü Tata: Die SEO Feuerwehr rückt aus! 
+- SE Ranking Preise 2026: Der ultimative Guide für SEO-Experten
+- SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen
+- Rankscale Update: Growth-Plan, REST-API & ChatGPT Shopping Analyse
+- Rankscale Essentials: AI Visibility ab 20 Euro – Absolute Empfehlung für Einsteiger
+- Rankscale AI Visibility Tool: 17 LLMs für 99€ tracken
+- Rankscale: Ein AI Visibility Tool, das ich empfehlen kann
+- PageSpeed 100/100: So wurde diese Website blitzschnell
+- SEO ist tot? Magic Writing Podcast mit Michael Kaufhold
+- LinkedIn ist kein soziales Netzwerk, es ist ein Forum (und wir SEOs müssen es nutzen)
+- Liebe Bots, Crawler und Agenten: Ein offener Brief von eurem SEO-Betreuer
+- Meine Highlights aus 2025 - Ein SEO-Jahresrückblick
+- Wer ist für die Einrichtung der Google Search Console zuständig? 
+- Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot
+- GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt
+- Aus einfachsten SEO-Verhältnissen: Warum Handwerk der wahre USP ist 
+- Grüne Woche, Dönerback und warum das Geheimnis in der Qualität liegt 
+- Core Web Vitals: Warum dein UX-Bericht wichtiger ist als du denkst
+- Braucht SEO einen neuen Namen? (Die Campixx Umfrage) 
+- Bist du SEO AI Ready? Podcast mit Antonio Blago
+- Beste SEO Tools für AI Search & Prompt Tracking: Der Tacheles-Vergleich 2026
+- GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet
+- GEO, AI SEO oder LLMO? Wie wir Sichtbarkeit in KI-Modellen wirklich nennen 
+- 1. AI Connect Berlin: Vibe Coding, Antigravity und Gemini Pro
+- Wenn AI-Agenten deinen LinkedIn-Feed kapern 
+- Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke (und wie du es vermeidest)
+- 24 Jahre SEO - und wir machen immer noch die gleichen Fehler
+
+---
+
 ## GLOSSARY
 
 ### 301 vs. 302 Redirects: Der Nachsendeauftrag für dein SEO

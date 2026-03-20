@@ -114,13 +114,15 @@ const isActive = (href: string) => {
 
     if (btn && menu) {
       // Remove any existing listener to prevent double-firing (Astro best practice)
-      const newBtn = btn.cloneNode(true);
-      btn.parentNode.replaceChild(newBtn, btn);
-      
-      newBtn.addEventListener('click', () => {
-        const isHidden = menu.classList.toggle('hidden');
-        newBtn.setAttribute('aria-expanded', String(!isHidden));
-      });
+      const newBtn = btn.cloneNode(true) as HTMLElement;
+      if (btn.parentNode) {
+        btn.parentNode.replaceChild(newBtn, btn);
+        
+        newBtn.addEventListener('click', () => {
+          const isHidden = menu.classList.toggle('hidden');
+          newBtn.setAttribute('aria-expanded', String(!isHidden));
+        });
+      }
     }
   });
 </script>

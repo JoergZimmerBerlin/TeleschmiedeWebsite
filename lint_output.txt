@@ -1,0 +1,246 @@
+
+> teleschmie-de@1.0.0 lint
+> astro check
+
+00:42:27 [content] Syncing content
+00:42:27 [content] Synced content
+00:42:27 [types] Generated 774ms
+00:42:27 [check] Getting diagnostics for Astro files in /Users/jorti/Documents/Antigravity...
+[96mscrape_linkedin.cjs[0m:[93m38[0m:[93m23[0m - [93mwarning[0m[90m ts(6133): [0m'mainDiv' is declared but its value is never read.
+
+[7m38[0m                 const mainDiv = document.querySelector('main') || document.body;
+[7m  [0m [93m                      ~~~~~~~[0m
+
+[96mscripts/check-links-dist.mjs[0m:[93m3[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'fileURLToPath' is declared but its value is never read.
+
+[7m3[0m import { fileURLToPath } from 'node:url';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mscripts/check-links.mjs[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'resolve' is declared but its value is never read.
+
+[7m15[0m import { resolve } from "path";
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mscripts/check-links.mjs[0m:[93m14[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'readFileSync' is declared but its value is never read.
+
+[7m14[0m import { readFileSync } from "fs";
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mscripts/glossary-linker.mjs[0m:[93m116[0m:[93m51[0m - [93mwarning[0m[90m ts(6133): [0m'p1' is declared but its value is never read.
+
+[7m116[0m   content = content.replace(unifiedRegex, (match, p1, offset) => {
+[7m   [0m [93m                                                  ~~[0m
+[96mscripts/glossary-linker.mjs[0m:[93m71[0m:[93m9[0m - [93mwarning[0m[90m ts(6133): [0m'absolutePath' is declared but its value is never read.
+
+[7m71[0m   const absolutePath = path.resolve(filePath);
+[7m  [0m [93m        ~~~~~~~~~~~~[0m
+
+[96mscripts/_archive/add_internal_links.js[0m:[93m1[0m:[93m12[0m - [93mwarning[0m[90m ts(80001): [0mFile is a CommonJS module; it may be converted to an ES module.
+
+[7m1[0m const fs = require('fs');
+[7m [0m [93m           ~~~~~~~~~~~~~[0m
+
+[96mscripts/_archive/convert-batch7-webp.mjs[0m:[93m3[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'readdirSync' is declared but its value is never read.
+
+[7m3[0m import { existsSync, readdirSync, unlinkSync } from 'fs';
+[7m [0m [93m                     ~~~~~~~~~~~[0m
+
+[96msrc/components/Navigation.astro[0m:[93m122[0m:[93m16[0m - [91merror[0m[90m ts(2339): [0mProperty 'setAttribute' does not exist on type 'Node'.
+
+[7m122[0m         newBtn.setAttribute('aria-expanded', String(!isHidden));
+[7m   [0m [91m               ~~~~~~~~~~~~[0m
+[96msrc/components/Navigation.astro[0m:[93m118[0m:[93m7[0m - [91merror[0m[90m ts(18047): [0m'btn.parentNode' is possibly 'null'.
+
+[7m118[0m       btn.parentNode.replaceChild(newBtn, btn);
+[7m   [0m [91m      ~~~~~~~~~~~~~~[0m
+
+[96msrc/content/config.ts[0m:[93m44[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m44[0m     tacheles: z.string().optional(),
+[7m  [0m [93m              ~[0m
+[96msrc/content/config.ts[0m:[93m42[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m42[0m       answer: z.string(),
+[7m  [0m [93m              ~[0m
+[96msrc/content/config.ts[0m:[93m41[0m:[93m17[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m41[0m       question: z.string(),
+[7m  [0m [93m                ~[0m
+[96msrc/content/config.ts[0m:[93m40[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m40[0m     faqs: z.array(z.object({
+[7m  [0m [93m                  ~[0m
+[96msrc/content/config.ts[0m:[93m40[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m40[0m     faqs: z.array(z.object({
+[7m  [0m [93m          ~[0m
+[96msrc/content/config.ts[0m:[93m39[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m39[0m     key_takeaways: z.array(z.string()).optional(),
+[7m  [0m [93m                           ~[0m
+[96msrc/content/config.ts[0m:[93m39[0m:[93m20[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m39[0m     key_takeaways: z.array(z.string()).optional(),
+[7m  [0m [93m                   ~[0m
+[96msrc/content/config.ts[0m:[93m38[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m38[0m     related_terms: z.array(z.string()).optional(),
+[7m  [0m [93m                           ~[0m
+[96msrc/content/config.ts[0m:[93m38[0m:[93m20[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m38[0m     related_terms: z.array(z.string()).optional(),
+[7m  [0m [93m                   ~[0m
+[96msrc/content/config.ts[0m:[93m37[0m:[93m16[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m37[0m     image_alt: z.string().optional(),
+[7m  [0m [93m               ~[0m
+[96msrc/content/config.ts[0m:[93m35[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m35[0m     date: z.string(),
+[7m  [0m [93m          ~[0m
+[96msrc/content/config.ts[0m:[93m34[0m:[93m18[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m34[0m     description: z.string(),
+[7m  [0m [93m                 ~[0m
+[96msrc/content/config.ts[0m:[93m33[0m:[93m12[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m33[0m     title: z.string(),
+[7m  [0m [93m           ~[0m
+[96msrc/content/config.ts[0m:[93m32[0m:[93m26[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m32[0m   schema: ({ image }) => z.object({
+[7m  [0m [93m                         ~[0m
+[96msrc/content/config.ts[0m:[93m24[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m24[0m       buttonLink: z.string(),
+[7m  [0m [93m                  ~[0m
+[96msrc/content/config.ts[0m:[93m23[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m23[0m       buttonText: z.string(),
+[7m  [0m [93m                  ~[0m
+[96msrc/content/config.ts[0m:[93m22[0m:[93m20[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m22[0m       description: z.string(),
+[7m  [0m [93m                   ~[0m
+[96msrc/content/config.ts[0m:[93m21[0m:[93m14[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m21[0m       title: z.string(),
+[7m  [0m [93m             ~[0m
+[96msrc/content/config.ts[0m:[93m20[0m:[93m20[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m20[0m     download_card: z.object({
+[7m  [0m [93m                   ~[0m
+[96msrc/content/config.ts[0m:[93m19[0m:[93m26[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m19[0m     show_roi_calculator: z.boolean().optional(),
+[7m  [0m [93m                         ~[0m
+[96msrc/content/config.ts[0m:[93m17[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m17[0m       answer: z.string(),
+[7m  [0m [93m              ~[0m
+[96msrc/content/config.ts[0m:[93m16[0m:[93m17[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m16[0m       question: z.string(),
+[7m  [0m [93m                ~[0m
+[96msrc/content/config.ts[0m:[93m15[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m15[0m     faqs: z.array(z.object({
+[7m  [0m [93m                  ~[0m
+[96msrc/content/config.ts[0m:[93m15[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m15[0m     faqs: z.array(z.object({
+[7m  [0m [93m          ~[0m
+[96msrc/content/config.ts[0m:[93m14[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m14[0m     key_takeaways: z.array(z.string()).optional(),
+[7m  [0m [93m                           ~[0m
+[96msrc/content/config.ts[0m:[93m14[0m:[93m20[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m14[0m     key_takeaways: z.array(z.string()).optional(),
+[7m  [0m [93m                   ~[0m
+[96msrc/content/config.ts[0m:[93m13[0m:[93m15[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m13[0m     category: z.string().optional(),
+[7m  [0m [93m              ~[0m
+[96msrc/content/config.ts[0m:[93m12[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m12[0m     tags: z.array(z.string()).optional(),
+[7m  [0m [93m                  ~[0m
+[96msrc/content/config.ts[0m:[93m12[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m12[0m     tags: z.array(z.string()).optional(),
+[7m  [0m [93m          ~[0m
+[96msrc/content/config.ts[0m:[93m11[0m:[93m16[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m11[0m     image_alt: z.string().optional(),
+[7m  [0m [93m               ~[0m
+[96msrc/content/config.ts[0m:[93m9[0m:[93m19[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m9[0m     linkedin_url: z.string().optional(),
+[7m [0m [93m                  ~[0m
+[96msrc/content/config.ts[0m:[93m8[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m8[0m     date: z.string(),
+[7m [0m [93m          ~[0m
+[96msrc/content/config.ts[0m:[93m7[0m:[93m18[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m7[0m     description: z.string(),
+[7m [0m [93m                 ~[0m
+[96msrc/content/config.ts[0m:[93m6[0m:[93m12[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m6[0m     title: z.string(),
+[7m [0m [93m           ~[0m
+[96msrc/content/config.ts[0m:[93m5[0m:[93m26[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m5[0m   schema: ({ image }) => z.object({
+[7m [0m [93m                         ~[0m
+[96msrc/content/config.ts[0m:[93m1[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m1[0m import { defineCollection, z } from 'astro:content';
+[7m [0m [93m                           ~[0m
+
+[96msrc/layouts/Layout.astro[0m:[93m251[0m:[93m66[0m - [91merror[0m[90m ts(2339): [0mProperty 'closest' does not exist on type 'EventTarget'.
+
+[7m251[0m             if (!e.target.closest('.glossary-link') && !e.target.closest('#glossary-tooltip')) {
+[7m   [0m [91m                                                                 ~~~~~~~[0m
+[96msrc/layouts/Layout.astro[0m:[93m251[0m:[93m57[0m - [91merror[0m[90m ts(18047): [0m'e.target' is possibly 'null'.
+
+[7m251[0m             if (!e.target.closest('.glossary-link') && !e.target.closest('#glossary-tooltip')) {
+[7m   [0m [91m                                                        ~~~~~~~~[0m
+[96msrc/layouts/Layout.astro[0m:[93m251[0m:[93m27[0m - [91merror[0m[90m ts(2339): [0mProperty 'closest' does not exist on type 'EventTarget'.
+
+[7m251[0m             if (!e.target.closest('.glossary-link') && !e.target.closest('#glossary-tooltip')) {
+[7m   [0m [91m                          ~~~~~~~[0m
+[96msrc/layouts/Layout.astro[0m:[93m251[0m:[93m18[0m - [91merror[0m[90m ts(18047): [0m'e.target' is possibly 'null'.
+
+[7m251[0m             if (!e.target.closest('.glossary-link') && !e.target.closest('#glossary-tooltip')) {
+[7m   [0m [91m                 ~~~~~~~~[0m
+[96msrc/layouts/Layout.astro[0m:[93m241[0m:[93m60[0m - [91merror[0m[90m ts(18047): [0m'titleEl' is possibly 'null'.
+
+[7m241[0m               if (tooltip.classList.contains('visible') && titleEl.textContent === link.getAttribute('data-tooltip-title')) {
+[7m   [0m [91m                                                           ~~~~~~~[0m
+
+[96msrc/pages/datenschutz.astro[0m:[93m5[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'baseUrl' is declared but its value is never read.
+
+[7m5[0m const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+[7m [0m [93m      ~~~~~~~[0m
+
+[96msrc/pages/google-ads-freelancer-berlin.astro[0m:[93m8[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'joergCTA' is declared but its value is never read.
+
+[7m8[0m import joergCTA from '../assets/images/profile/joerg-zimmer-cta.webp';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/pages/impressum.astro[0m:[93m5[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'baseUrl' is declared but its value is never read.
+
+[7m5[0m const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+[7m [0m [93m      ~~~~~~~[0m
+
+[96msrc/pages/seo-freelancer-berlin.astro[0m:[93m8[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'joergCTA' is declared but its value is never read.
+
+[7m8[0m import joergCTA from '../assets/images/profile/joerg-zimmer-cta.webp';
+[7m [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+Result (50 files): 
+- 7 errors
+- 0 warnings
+- 48 hints
+

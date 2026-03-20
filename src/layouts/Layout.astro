@@ -198,7 +198,7 @@ const displayDescription = truncate(description, 150);
           const titleEl = tooltip.querySelector('.tooltip-title');
           const bodyEl = tooltip.querySelector('.tooltip-body');
 
-          const updatePos = (e, targetTooltip) => {
+          const updatePos = (e: any, targetTooltip: HTMLElement) => {
             const x = e.clientX || (e.touches && e.touches[0].clientX);
             const y = e.clientY || (e.touches && e.touches[0].clientY);
             const offset = 25;
@@ -219,11 +219,14 @@ const displayDescription = truncate(description, 150);
 
           // Tooltip Event Listeners for pre-linked terms
           document.querySelectorAll('.glossary-link').forEach(link => {
-            const showTooltip = (e) => {
+            const showTooltip = (e: any) => {
               const title = link.getAttribute('data-tooltip-title');
               const body = link.getAttribute('data-tooltip-body');
-              titleEl.textContent = title;
-              bodyEl.textContent = body;
+              if (tooltip.classList.contains('visible') && titleEl && titleEl.textContent === title) {
+                return;
+              }
+              if (titleEl) titleEl.textContent = title;
+              if (bodyEl) bodyEl.textContent = body;
               tooltip.classList.add('visible');
               updatePos(e, tooltip);
             };
@@ -233,12 +236,18 @@ const displayDescription = truncate(description, 150);
             };
 
             link.addEventListener('mouseenter', showTooltip);
-            link.addEventListener('mousemove', (e) => updatePos(e, tooltip));
+            link.addEventListener('mousemove', (e: any) => updatePos(e, tooltip));
             link.addEventListener('mouseleave', hideTooltip);
             
             // Mobile Support
-            link.addEventListener('touchstart', (e) => {
-              if (tooltip.classList.contains('visible') && titleEl.textContent === link.getAttribute('data-tooltip-title')) {
+            link.addEventListener('touchstart', (e: any) => {
+              const title = link.getAttribute('data-tooltip-title');
+              const body = link.getAttribute('data-tooltip-body');
+              
+              const isVisible = tooltip.classList.contains('visible');
+              const isSame = titleEl && titleEl.textContent === title;
+
+              if (isVisible && isSame) {
                 hideTooltip();
               } else {
                 showTooltip(e);
@@ -246,9 +255,10 @@ const displayDescription = truncate(description, 150);
             });
           });
 
-          // Close on tap outside
-          document.addEventListener('touchstart', (e) => {
-            if (!e.target.closest('.glossary-link') && !e.target.closest('#glossary-tooltip')) {
+          // Close on outside click
+          document.addEventListener('click', (e: any) => {
+            const target = e.target as HTMLElement;
+            if (target && !target.closest('.glossary-link') && !target.closest('#glossary-tooltip')) {
               tooltip.classList.remove('visible');
             }
           });

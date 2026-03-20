@@ -223,13 +223,20 @@
 }
 
 .blog-cta-box h1,
-.blog-cta-box h2,
-.blog-cta-box h3,
-.blog-cta-box h4 {
+.blog-cta-box h2 {
   @apply !mt-0;
 }
 
-.blog-cta-box hr {
+.blog-cta-box h3, 
+.blog-cta-box h4 {
+  @apply !mt-0 !mb-4 !border-none !pb-0;
+}
+
+.blog-cta-box p {
+  @apply !mb-6 !mt-0;
+}
+
+.blog-content hr:has(+ .blog-cta-box) {
   @apply !hidden;
 }
 
@@ -244,7 +251,13 @@
 
 .blog-content > h3:last-of-type + ul,
 .blog-content > ul:last-of-type {
-  @apply !mt-12 !pt-8 !border-t !border-gray-100 !space-y-4;
+  @apply !mt-12 !pt-8 !border-t !border-gray-100 !space-y-4 !relative;
+}
+
+.blog-content > h3:last-of-type + ul::before,
+.blog-content > ul:last-of-type::before {
+  content: "Leseempfehlungen";
+  @apply block !text-[10px] !font-black !uppercase !tracking-widest !text-lime-700 !mb-4;
 }
 
 .blog-content > h3:last-of-type + ul {

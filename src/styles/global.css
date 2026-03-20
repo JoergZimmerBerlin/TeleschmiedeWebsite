@@ -1,21 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "./theme.css";
 
+/* Custom base styles */
 @layer base {
-  html {
-  }
-
   body {
     @apply font-sans text-gray-text antialiased;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     @apply text-dark font-bold leading-[1.2];
   }
 
@@ -29,8 +21,8 @@
   }
 }
 
+/* Custom components and utilities */
 @layer components {
-
   /* Lime Highlight (Pill-Shape wie bei lau.do) */
   .highlight {
     @apply bg-lime-accent px-3 py-1 rounded-full;
@@ -46,11 +38,11 @@
   }
 
   .btn-primary {
-    @apply btn-pill bg-lime-accent text-dark hover:brightness-95;
+    @apply inline-flex items-center px-6 py-3 rounded-full font-medium transition-all duration-200 bg-lime-accent text-dark hover:brightness-95;
   }
 
   .btn-secondary {
-    @apply btn-pill bg-white border border-gray-200 text-dark hover:bg-gray-50;
+    @apply inline-flex items-center px-6 py-3 rounded-full font-medium transition-all duration-200 bg-white border border-gray-200 text-dark hover:bg-gray-50;
   }
 
   /* Subheadline (Versalien, grau) */
@@ -70,7 +62,6 @@
 }
 
 @layer utilities {
-
   /* Smooth fade-in animation */
   .fade-in {
     animation: fadeIn 0.6s ease-out forwards;
@@ -82,7 +73,6 @@
       opacity: 1;
       transform: translateY(0);
     }
-
     from {
       opacity: 0;
       transform: translateY(20px);
@@ -92,29 +82,29 @@
 
 /* --- Premium Table & Comparison Styling --- */
 .blog-content table {
-  @apply w-full mb-12 border-collapse overflow-hidden rounded-2xl shadow-sm border border-gray-100 !important;
+  @apply !w-full !mb-12 !border-collapse !overflow-hidden !rounded-2xl !shadow-sm !border !border-gray-100;
   background: white;
 }
 
 .blog-content thead {
-  @apply bg-dark text-white text-left !important;
+  @apply !bg-dark !text-white !text-left;
 }
 
 .blog-content th {
-  @apply px-6 py-4 font-bold text-sm uppercase tracking-wider border-none !important;
+  @apply !px-6 !py-4 !font-bold !text-sm !uppercase !tracking-wider !border-none;
   background: #1a1a1a;
 }
 
 .blog-content td {
-  @apply px-6 py-4 text-gray-text border-b border-gray-50 transition-colors !important;
+  @apply !px-6 !py-4 !text-gray-text !border-b !border-gray-50 !transition-colors;
 }
 
 .blog-content tr:last-child td {
-  @apply border-b-0 !important;
+  @apply !border-b-0;
 }
 
 .blog-content tr {
-  @apply transition-all duration-200 !important;
+  @apply !transition-all !duration-200;
 }
 
 .blog-content tr:hover {
@@ -124,56 +114,51 @@
 /* Specific styling for bold text in the first column */
 .blog-content td:first-child strong,
 .blog-content td:first-child b {
-  @apply text-lime-600 font-bold !important;
+  @apply !text-lime-600 !font-bold;
 }
 
 /* --- Responsive Table Optimization --- */
 @media (max-width: 768px) {
-  /* Hide the default table scroll for card layout */
   .blog-content .overflow-x-auto {
-    @apply mx-0 px-0 !important;
+    @apply !mx-0 !px-0;
     overflow: visible !important;
   }
   
-  /* Universal Card Layout for ALL Blog Tables on Mobile */
   .blog-content table {
-    @apply block border-none shadow-none bg-transparent mb-12 !important;
+    @apply !block !border-none !shadow-none !bg-transparent !mb-12;
   }
   
   .blog-content thead {
-    @apply hidden !important;
+    @apply !hidden;
   }
   
   .blog-content tr {
-    @apply block mb-8 bg-white border border-lime-accent/30 rounded-2xl p-6 shadow-sm !important;
+    @apply !block !mb-8 !bg-white !border !border-lime-accent/30 !rounded-2xl !p-6 !shadow-sm;
     position: relative;
     overflow: hidden;
   }
 
-  /* Highlight bar on the left for cards */
   .blog-content tr::before {
     content: '';
-    @apply absolute left-0 top-0 bottom-0 w-1 bg-lime-accent !important;
+    @apply !absolute !left-0 !top-0 !bottom-0 !w-1 !bg-lime-accent;
   }
   
   .blog-content td {
-    @apply block px-0 py-3 border-b border-gray-50 text-base !important;
-    white-space: normal !important; /* Allow wrapping */
+    @apply !block !px-0 !py-3 !border-b !border-gray-50 !text-base;
+    white-space: normal !important;
   }
   
   .blog-content td:last-child {
-    @apply border-b-0 !important;
+    @apply !border-b-0;
   }
   
-  /* Feature column (usually the 1st or 2nd depending on table type) */
-  /* If it's a comparison where the first Col is the name, highlight it */
   .blog-content td:first-child {
-    @apply text-lg font-bold text-dark pt-0 !important;
+    @apply !text-lg !font-bold !text-dark !pt-0;
   }
   
   .blog-content td:first-child strong,
   .blog-content td:first-child b {
-    @apply text-lime-600 !important;
+    @apply !text-lime-600;
   }
 
   .blog-content td[data-label]::before {
@@ -184,35 +169,36 @@
 
 /* --- Inline Prose Links (Blog + Glossar) --- */
 .blog-content a:not(.btn-primary):not(.glossary-link):not([class*="btn"]) {
-  @apply text-lime-600 font-semibold underline underline-offset-2 decoration-lime-400 transition-colors duration-150 hover:text-lime-700 hover:decoration-lime-600 !important;
+  @apply !text-lime-600 !font-semibold !underline !underline-offset-2 !decoration-lime-400 !transition-colors !duration-150 hover:!text-lime-700 hover:!decoration-lime-600;
 }
 
 /* --- Glossar CTA Box Styling --- */
 .blog-cta-box {
-  @apply my-16 bg-gray-50 border border-gray-100 rounded-3xl p-8 text-center shadow-sm !important;
+  @apply !my-16 !bg-gray-50 !border !border-gray-100 !rounded-3xl !p-8 !text-center !shadow-sm;
 }
 
 .blog-cta-box h1,
 .blog-cta-box h2,
 .blog-cta-box h3,
 .blog-cta-box h4 {
-  @apply mt-0 !important;
+  @apply !mt-0;
 }
 
 .blog-cta-box hr {
-  @apply hidden !important;
+  @apply !hidden;
 }
 
 .blog-cta-box a:not(.btn-primary) {
-  @apply underline font-semibold text-lime-600 hover:text-lime-700 transition-colors !important;
+  @apply !underline !font-semibold !text-lime-600 hover:!text-lime-700 !transition-colors;
 }
+
 /* --- High-End Glossary Tooltips --- */
 .glossary-link {
-  @apply relative text-lime-600 font-semibold border-b border-dashed border-lime-400 no-underline transition-all duration-200 !important;
+  @apply !relative !text-lime-600 !font-semibold !border-b !border-dashed !border-lime-400 !no-underline !transition-all !duration-200;
 }
 
 .glossary-link:hover {
-  @apply border-lime-600 bg-lime-accent/10 !important;
+  @apply !border-lime-600 !bg-lime-accent/10;
   cursor: help;
 }
 

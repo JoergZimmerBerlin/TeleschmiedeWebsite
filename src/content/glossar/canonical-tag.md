@@ -10,7 +10,7 @@ key_takeaways:
   - "Linkjuice bündeln: Konzentriert die Kraft externer Backlinks auf die bevorzugte URL-Variante."
 faqs:
   - question: "Wie baue ich ein Canonical Tag technisch korrekt ein?"
-    answer: "Das Tag gehört in den <head>-Bereich deines HTML-Dokuments und sieht so aus: <link rel='canonical' href='https://teleschmie.de/deine-ziel-url/'>. Wichtig: Die URL im href-Attribut muss absolut sein (inklusive https und Domain) und genau so aussehen, wie sie im Index erscheinen soll. In Astro-Projekten wie diesem steuerst du das meist über eine SEO-Komponente im Layout."
+    answer: "Das Tag gehört in den <head>-Bereich deines HTML-Dokuments und sieht so aus: `<link rel='canonical' href='https://example.com/deine-ziel-url/'>`. Wichtig: Die URL im href-Attribut muss absolut sein (inklusive https und Domain) und genau so aussehen, wie sie im Index erscheinen soll. In Astro-Projekten wie diesem steuerst du das meist über eine SEO-Komponente im Layout."
   - question: "Sollte jede Seite ein Canonical Tag haben?"
     answer: "Ja, absolut! Auch wenn eine Seite kein Duplikat hat, sollte sie ein 'selbstreferenzierendes' Canonical Tag besitzen. Das ist wie eine Versicherung. Falls jemand deine Seite mit Tracking-Parametern (z.B. ?utm_source=...) aufruft, weiß Google sofort, dass diese Parameter ignoriert werden sollen und die Basis-URL die entscheidende ist. ALOHA 🌻-Regel: Kein Release ohne Canonical!"
   - question: "Was ist der Unterschied zwischen einem 301-Redirect und einem Canonical Tag?"

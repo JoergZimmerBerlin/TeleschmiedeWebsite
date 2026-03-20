@@ -15,8 +15,8 @@ echo -e "## GLOSSARY\n" >> "$OUTPUT"
 for file in $(ls "$GLOSSARY_DIR"/*.md | sort); do
     TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
     echo -e "### $TITLE\n" >> "$OUTPUT"
-    # Append body content: skip frontmatter, strip ALL HTML tags, absolute URLs
-    sed '1,/---/d' "$file" | sed '1,/---/d' | \
+    # Append body content: skip first two frontmatter dashes, strip ALL HTML tags, absolute URLs
+    awk 'BEGIN{c=0} /^---$/ && c<2 {c++; next} c>=2 {print}' "$file" | \
     sed 's/<[^>]*>//g' | \
     sed -E "s|\]\((/[^)]*)\)|]($DOMAIN\1)|g" >> "$OUTPUT"
     echo -e "\n---\n" >> "$OUTPUT"
@@ -27,8 +27,8 @@ echo -e "## BLOG ARTICLES\n" >> "$OUTPUT"
 for file in $(ls "$BLOG_DIR"/*.md | sort -r); do
     TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
     echo -e "### $TITLE\n" >> "$OUTPUT"
-    # Append body content: skip frontmatter, strip ALL HTML tags, absolute URLs
-    sed '1,/---/d' "$file" | sed '1,/---/d' | \
+    # Append body content: skip first two frontmatter dashes, strip ALL HTML tags, absolute URLs
+    awk 'BEGIN{c=0} /^---$/ && c<2 {c++; next} c>=2 {print}' "$file" | \
     sed 's/<[^>]*>//g' | \
     sed -E "s|\]\((/[^)]*)\)|]($DOMAIN\1)|g" >> "$OUTPUT"
     echo -e "\n---\n" >> "$OUTPUT"

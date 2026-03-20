@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/check-assets.mjs && date +%s > public/build.txt",
-    "build": "astro build && node scripts/glossary-linker.mjs && bash scripts/generate-llms-full.sh",
+    "build": "node scripts/glossary-linker.mjs && bash scripts/generate-llms-full.sh && astro build",
     "build:verify": "npm run build && node scripts/check-links-dist.mjs",
     "preview": "astro preview",
     "lint": "astro check",

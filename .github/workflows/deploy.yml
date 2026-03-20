@@ -73,7 +73,7 @@ jobs:
           pass: ${{ secrets.FTP_PASSWORD }}
           localDir: './dist'
           remoteDir: '.'
-          options: '--verbose'
+          options: '--verbose --parallel=10 --use-cache'
 
   verify:
     name: Verify Live Site

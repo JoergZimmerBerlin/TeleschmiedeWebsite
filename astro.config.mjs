@@ -19,7 +19,14 @@ export default defineConfig({
     mdx()
   ],
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    css: {
+      transformer: 'lightningcss',
+      minimizer: 'lightningcss'
+    },
+    build: {
+      cssMinify: 'lightningcss'
+    }
   },
   image: {
     remotePatterns: [{ protocol: 'https', hostname: 'i.ytimg.com' }],
@@ -35,6 +42,7 @@ export default defineConfig({
   prefetch: true,
   output: 'static',
   build: {
-    assets: 'assets'
+    assets: 'assets',
+    concurrency: 10
   }
 });

@@ -152,20 +152,6 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
         </div>
       </header>
 
-      <!-- Featured Image (Moved DOWN and Optimized) -->
-      {post.data.image && (
-        <div class="mb-16 rounded-3xl overflow-hidden shadow-xl border border-gray-100 max-h-[500px] md:max-h-[600px]">
-          <Image
-            src={post.data.image}
-            alt={post.data.image_alt || post.data.title}
-            class="w-full h-full object-cover"
-            format="webp"
-            loading="eager"
-            fetchpriority="high"
-          />
-        </div>
-      )}
-
       <!-- Content Grid -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         <!-- Sidebar (Sticky on Desktop, appears FIRST on mobile) -->
@@ -198,6 +184,20 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
 
         <!-- Main Content -->
         <div class="lg:col-span-8 order-2 lg:order-2">
+          <!-- Featured Image (Moved into Grid) -->
+          {post.data.image && (
+            <div class="mb-12 rounded-3xl overflow-hidden shadow-xl border border-gray-100 max-h-[500px]">
+              <Image
+                src={post.data.image}
+                alt={post.data.image_alt || post.data.title}
+                class="w-full h-full object-cover"
+                format="webp"
+                loading="eager"
+                fetchpriority="high"
+              />
+            </div>
+          )}
+
           <div class="blog-content prose prose-lg max-w-none leading-relaxed prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:my-12 prose-blockquote:rounded-r-lg" id="blog-content">
             {post.data.key_takeaways && <KeyTakeaways takeaways={post.data.key_takeaways} />}
             <Content />

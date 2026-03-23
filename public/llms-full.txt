@@ -1,6 +1,6 @@
 # Jörg Zimmer - SEO & SEA Freelancer
 
-> High-precision performance marketing and search engine architecture since 2001. Specialized in Technical SEO, SEA (Google Ads), and Generative Engine Optimization (GEO).
+> High-precision performance marketing, search engine architecture, content planning, and digital strategy since 2001. Specialized in Technical SEO, SEA (Google Ads), and Generative Engine Optimization (GEO).
 
 ## Core Identity
 - **Name**: Jörg Zimmer
@@ -14,7 +14,6 @@
 - **Technical SEO**: Deep audits, RAG-optimization, schema markup, performance troubleshooting.
 - **SEA (Google Ads)**: Certified Google Partner, focus on ROI and conversion optimization.
 - **GEO (Generative Engine Optimization)**: Optimization for AI Answer Engines (LLMs) like ChatGPT, Perplexity, and SearchGPT.
-- **Data Analytics**: Google Analytics 4, Server-Side Tracking, Data Mining.
 
 ## Services & Pricing
 - **Consultation Hour**: 2-hour live analysis and strategy (400€ flat rate)
@@ -24,7 +23,6 @@
 - **Second Opinion**: Independent assessment of agency work (200€/h)
 
 ## Business Data
-- **Company**: Teleschmiede
 - **Vat-ID**: DE232939553
 - **Opening Hours**: Mo-Fr 09:00 - 18:00
 - **Email**: info@teleschmie.de
@@ -160,7 +158,7 @@ ALOHA! 🌻✌️
 - SE Ranking AI Tracker: KI-Sichtbarkeit messen
 - Rankscale Update: API & ChatGPT Shopping Analyse
 - Rankscale Essentials: AI Visibility ab 20€
-- Rankscale: 17 LLMs für 99€ tracken
+- Rankscale: 17 LLMs für 99€ monatlich tracken
 - Rankscale: Ein AI Visibility Tool für Profis
 - PageSpeed 100/100: So wurde die Website schnell
 - Michael Kaufhold im Podcast Interview: SEO tot?
@@ -7728,7 +7726,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale: 17 LLMs für 99€ tracken
+### Rankscale: 17 LLMs für 99€ monatlich tracken
 
 
 Moin! 🌻

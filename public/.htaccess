@@ -38,7 +38,19 @@ Redirect 410 /sitemap-0.xml
 
 # Kompression aktivieren
 <IfModule mod_deflate.c>
+  # Alte Methode (AddOutputFilterByType)
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript text/javascript application/json application/xml image/svg+xml
+
+  # Moderne Methode (mod_filter) für bessere Zuverlässigkeit
+  <IfModule mod_filter.c>
+    FilterDeclare COMPRESS
+    FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/(html|plain|xml|css|javascript)#"
+    FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^application/(javascript|json|xml|x-javascript)#"
+    FilterChain COMPRESS
+    FilterProtocol COMPRESS change=yes;remove=gzip,deflate
+  </IfModule>
+
+  # Zusätzliche Fallback-Regel für .js Dateien
   <FilesMatch "\.(js)$">
     SetOutputFilter DEFLATE
   </FilesMatch>

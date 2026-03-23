@@ -39,6 +39,9 @@ Redirect 410 /sitemap-0.xml
 # Kompression aktivieren
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript text/javascript application/json application/xml image/svg+xml
+  <FilesMatch "\.(js)$">
+    SetOutputFilter DEFLATE
+  </FilesMatch>
 </IfModule>
 
 # Browser Caching (Astro fingerprints CSS/JS with content hashes)

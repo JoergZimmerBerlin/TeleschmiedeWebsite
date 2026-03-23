@@ -1,5 +1,4 @@
 ---
-import { ClientRouter } from 'astro:transitions';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
@@ -51,7 +50,6 @@ const displayDescription = truncate(description, 150);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={displayDescription} />
-    <ClientRouter />
 
     <!-- Security -->
     <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -167,7 +165,7 @@ const displayDescription = truncate(description, 150);
         }
       };
 
-      document.addEventListener('astro:page-load', () => {
+      (() => {
         // Table labeling for responsive cards
         document.querySelectorAll('.blog-content table').forEach(table => {
           const headers = Array.from(table.querySelectorAll('th')).map(th => th.textContent.trim());
@@ -264,8 +262,12 @@ const displayDescription = truncate(description, 150);
           });
         };
 
-        initGlossaryTooltips();
-      });
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initGlossaryTooltips);
+        } else {
+          initGlossaryTooltips();
+        }
+      })();
     </script>
   </body>
 </html>

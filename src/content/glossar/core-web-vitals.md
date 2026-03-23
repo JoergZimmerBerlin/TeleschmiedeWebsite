@@ -1,5 +1,5 @@
 ---
-title: "Core Web Vitals (CWV)"
+title: "Core Web Vitals (CWV): Guide zur UX-Optimierung"
 description: "Core Web Vitals erklärt: LCP, INP & CLS. Warum Nutzersignale für dein SEO-Ranking heute wichtiger sind denn je. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"

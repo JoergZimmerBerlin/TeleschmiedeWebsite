@@ -1,5 +1,5 @@
 ---
-title: "Linkjuice (Linkkraft)"
+title: "Linkjuice (Linkkraft): Verteilung interner Stärke"
 description: "Linkjuice erklärt: Die Verteilung von Ranking-Power durch interne und externe Verlinkungen. So optimierst du deine Linkstruktur. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkjuice-3d.webp"

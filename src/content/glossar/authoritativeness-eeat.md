@@ -1,5 +1,5 @@
 ---
-title: "Authoritativeness (E-E-A-T Faktor)"
+title: "Authoritativeness: E-E-A-T Authorität für SEO"
 description: "Autorität misst, ob du im Netz als Experte wahrgenommen wirst. Es geht um Reputation, Citations und externe Bestätigung. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"

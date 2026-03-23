@@ -1,5 +1,5 @@
 ---
-title: "Semantic SEO"
+title: "Semantic SEO: Entitäten und Themenwelten verstehen"
 description: "Semantic SEO optimiert nicht für einzelne Keywords, sondern für das Verständnis ganzer Themenfelder. Google denkt in Konzepten – du solltest es auch."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"

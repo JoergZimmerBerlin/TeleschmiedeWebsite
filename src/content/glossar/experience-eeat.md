@@ -1,5 +1,5 @@
 ---
-title: "Experience (E-E-A-T Faktor)"
+title: "Experience: E-E-A-T Erfahrung als Rankingfaktor"
 description: "Experience ist der neueste E-E-A-T Faktor. Google bewertet, ob der Autor echte Erfahrung mit dem Thema hat – nicht nur theoretisches Wissen."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-experience-3d.webp"

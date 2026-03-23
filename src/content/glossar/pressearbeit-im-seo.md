@@ -1,5 +1,5 @@
 ---
-title: "Pressearbeit im SEO (Digital PR)"
+title: "Digital PR: Pressearbeit im SEO für Autorität"
 description: "Pressearbeit im SEO (Digital PR) stärkt deine Rankings, Autorität und KI-Sichtbarkeit durch gezielte Medienarbeit. Jetzt informieren. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"

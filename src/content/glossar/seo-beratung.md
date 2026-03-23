@@ -1,5 +1,5 @@
 ---
-title: "SEO Beratung & SEO Consulting"
+title: "SEO Beratung & Consulting für nachhaltigen Erfolg"
 description: "Professionelle SEO Beratung hilft dir, aus dem Dickicht technischer Details eine klare Strategie für mehr Umsatz zu schmieden."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

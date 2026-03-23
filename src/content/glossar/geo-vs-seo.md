@@ -1,5 +1,5 @@
 ---
-title: "GEO vs. SEO: Die Zukunft der Suche"
+title: "GEO vs. SEO: Die Zukunft der Suche im KI-Zeitalter"
 description: "Was ist der Unterschied zwischen klassischem SEO und moderner Generative Engine Optimization (GEO)? Ein Blick in die Zukunft der AI-Search."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-vs-seo-3d.webp"

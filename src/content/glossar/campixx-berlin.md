@@ -1,5 +1,5 @@
 ---
-title: "Campixx Berlin"
+title: "Campixx Berlin: Die legendäre SEO-Konferenz"
 description: "Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/campixx-berlin.webp"

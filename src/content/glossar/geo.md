@@ -1,5 +1,5 @@
 ---
-title: "Generative Engine Optimization (GEO)"
+title: "Generative Engine Optimization (GEO): SEO für KI"
 description: "GEO (Generative Engine Optimization): Die Zukunft von SEO für KI-Suchmaschinen wie ChatGPT & Perplexity. Sei dort sichtbar, wo Nutzer fragen. ALOHA! 🌻"
 date: "2026-03-10"
 related_terms: ["llm", "search-intent", "core-web-vitals"]

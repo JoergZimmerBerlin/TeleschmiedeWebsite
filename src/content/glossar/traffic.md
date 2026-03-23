@@ -1,5 +1,5 @@
 ---
-title: "Traffic (Besucherströme)"
+title: "Traffic (Besucherströme): Mehr als nur Klicks"
 description: "Traffic bezeichnet die Anzahl der Besucher auf deiner Website. Aber Vorsicht: Nicht jeder Klick ist gleich viel wert."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"

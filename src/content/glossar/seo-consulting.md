@@ -1,5 +1,5 @@
 ---
-title: "SEO Consulting"
+title: "SEO Consulting: Strategische Beratung für Unternehmen"
 description: "SEO Consulting ist die strategische Seite der Suchmaschinenoptimierung. Hier geht es nicht um Schrauben drehen, sondern um den Masterplan."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"

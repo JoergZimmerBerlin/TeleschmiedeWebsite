@@ -1,5 +1,5 @@
 ---
-title: "LLM-Optimization (LLMO)"
+title: "LLM-Optimization (LLMO): SEO für Sprachmodelle"
 description: "LLMO optimiert deine Inhalte für ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt und zitiert werden."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.webp"

@@ -1,5 +1,5 @@
 ---
-title: "Sichtbarkeitsindex (Sistrix & Co.)"
+title: "Sichtbarkeitsindex: Sistrix & Co. richtig deuten"
 description: "Der Sichtbarkeitsindex zeigt, wie gut deine Domain in den Google-Top-100 platziert ist. Erfahre hier alles Wichtige über diese SEO-Kennzahl."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsindex-3d.webp"

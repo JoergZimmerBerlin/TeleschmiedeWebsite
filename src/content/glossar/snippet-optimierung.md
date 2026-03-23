@@ -1,5 +1,5 @@
 ---
-title: "Snippet Optimierung"
+title: "Snippet Optimierung: CTR in Google verbessern"
 description: "Snippet Optimierung maximiert deine Klickrate. Title, Meta-Description und Rich Snippets entscheiden über den User-Besuch. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp"

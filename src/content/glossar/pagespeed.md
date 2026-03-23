@@ -1,5 +1,5 @@
 ---
-title: "PageSpeed (Ladezeit-Optimierung)"
+title: "PageSpeed: Ladezeit-Optimierung für Google & Nutzer"
 description: "PageSpeed erklärt: Warum Ladezeit ein kritischer Rankingfaktor für SEO und UX ist und wie du deine Website schneller machst. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-pagespeed-3d.webp"

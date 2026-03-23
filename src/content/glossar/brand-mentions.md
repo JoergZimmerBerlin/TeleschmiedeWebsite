@@ -1,5 +1,5 @@
 ---
-title: "Brand Mentions"
+title: "Brand Mentions: Markenwähnungen und SEO-Einfluss"
 description: "Brand Mentions sind Erwähnungen deiner Marke im Web – mit oder ohne Link. In der KI-Ära sind sie das neue Linkbuilding."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"

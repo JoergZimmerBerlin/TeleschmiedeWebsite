@@ -1,5 +1,5 @@
 ---
-title: "SEO Audit"
+title: "SEO Audit: Der komplette Guide zur Website-Analyse"
 description: "Ein SEO Audit ist der Gesundheitscheck für deine Website. Wir decken Fehler auf und bauen die Roadmap für dein Ranking."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

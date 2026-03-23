@@ -1,5 +1,5 @@
 ---
-title: "Linkbuilding & Interne Verlinkung"
+title: "Linkbuilding & Verlinkung für mehr Autorität"
 description: "Links sind die Empfehlungen des Webs. Erfahre, wie du durch Linkbuilding und smarte interne Verlinkung deine Autorität steigerst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp"

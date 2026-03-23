@@ -1,5 +1,5 @@
 ---
-title: "Keywörter (Keywords)"
+title: "Keywörter (Keywords): Bedeutung für Google & Co."
 description: "Keywords sind die Brücke zwischen Nutzerfrage und deiner Antwort. Lerne, wie du die richtigen Begriffe für dein SEO auswählst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"

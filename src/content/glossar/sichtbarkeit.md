@@ -1,5 +1,5 @@
 ---
-title: "Sichtbarkeit (Visibility)"
+title: "Sichtbarkeit (Visibility): SEO-Kennzahl für Erfolg"
 description: "Sichtbarkeit im SEO bedeutet: Gefunden werden, wenn es zählt. Erfahre, warum präsente Rankings wichtiger sind als theoretischer Traffic."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeit-3d.webp"

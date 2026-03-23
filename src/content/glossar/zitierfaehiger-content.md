@@ -1,5 +1,5 @@
 ---
-title: "Zitierfähiger Content"
+title: "Zitierfähiger Content: Rankingfaktor in der KI-Ära"
 description: "Zitierfähiger Content ist Content, den KI-Systeme und Suchmaschinen wortwörtlich als Antwort übernehmen können. Die Grundlage für AEO und GEO."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

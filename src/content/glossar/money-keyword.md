@@ -1,5 +1,5 @@
 ---
-title: "Money Keyword"
+title: "Money Keywords: Suchbegriffe mit hoher Conversion"
 description: "Money Keywords sind Begriffe mit einer klaren Kaufabsicht. Hier erfährst du, wie du die rentabelsten Begriffe für dein Business findest."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp"

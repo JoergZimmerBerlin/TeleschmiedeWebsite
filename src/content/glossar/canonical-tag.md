@@ -1,5 +1,5 @@
 ---
-title: "Canonical Tag (rel='canonical')"
+title: "Canonical Tag: Duplicate Content sicher vermeiden"
 description: "Canonical Tag: Der Lebensretter gegen Duplicate Content. Lerne, wie du Google zeigst, welche URL die 'echte' ist. ALOHA! 🌻"
 date: "2026-03-19"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

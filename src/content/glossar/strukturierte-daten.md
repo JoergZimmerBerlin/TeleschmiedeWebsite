@@ -1,5 +1,5 @@
 ---
-title: "Strukturierte Daten (Structured Data)"
+title: "Strukturierte Daten: Schema-Markup für Google"
 description: "Strukturierte Daten sind der Dolmetscher für Google. Sie helfen der Suchmaschine, den Inhalt deiner Seite maschinenlesbar zu verstehen."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

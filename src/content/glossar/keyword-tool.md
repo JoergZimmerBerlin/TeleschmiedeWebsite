@@ -1,5 +1,5 @@
 ---
-title: "Keyword Tool (SE Ranking & Co.)"
+title: "Keyword Tools: SE Ranking und Alternativen im Test"
 description: "Ein Keyword Tool hilft dir, Suchbegriffe zu finden, zu analysieren und zu bewerten. Ohne Tool ist modernes SEO unmöglich."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-tool-3d.webp"

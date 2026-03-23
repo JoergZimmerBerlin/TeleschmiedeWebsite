@@ -1,5 +1,5 @@
 ---
-title: "Suchvolumen (Search Volume)"
+title: "Suchvolumen (Search Volume): Nachfrage verstehen"
 description: "Suchvolumen zeigt dir, wie viele Menschen monatlich nach einem Begriff suchen. Ein wichtiger Indikator, aber oft überschätzt."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp"

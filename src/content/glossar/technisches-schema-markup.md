@@ -1,5 +1,5 @@
 ---
-title: "Technisches Schema-Markup"
+title: "Technisches Schema-Markup: Guide für LLMs & SEO"
 description: "Schema-Markup macht deine Inhalte maschinenlesbar – für Google UND moderne KI-Systeme. Jetzt technische Implementierung lernen. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

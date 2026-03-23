@@ -1,5 +1,5 @@
 ---
-title: "Schema.org Markup"
+title: "Schema.org Markup: strukturierte Daten für Google"
 description: "Schema.org ist der globale Standard für strukturierte Daten. Erfahre, wie du dieses mächtige SEO-Vokabular für deine Website nutzt."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"

@@ -1,5 +1,5 @@
 ---
-title: "FAQ Markup (FAQPage Schema)"
+title: "FAQ Markup: FAQPage Schema für Rich Snippets"
 description: "FAQ Markup (Strukturierte Daten): Zeige deine Fragen und Antworten direkt in den Google-Ergebnissen an. Mehr CTR und Visibility. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

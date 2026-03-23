@@ -1,5 +1,5 @@
 ---
-title: "LLMs.txt"
+title: "LLMs.txt: Die Robots.txt für Künstliche Intelligenz"
 description: "Die llms.txt ist ein neuer Standard zur Steuerung von KI-Crawlern. Sie liefert strukturierte Informationen direkt an Large Language Models."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

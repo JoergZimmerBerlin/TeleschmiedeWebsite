@@ -1,5 +1,5 @@
 ---
-title: "WordPress SEO, TYPO3 & Plugins"
+title: "WordPress SEO: TYPO3 & Plugins optimal nutzen"
 description: "WordPress und TYPO3 sind die Giganten im CMS-Markt. Erfahre, wie du Yoast, Rank Math und WP Rocket für maximale Sichtbarkeit einsetzt."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

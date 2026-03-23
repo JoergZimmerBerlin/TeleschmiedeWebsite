@@ -1,5 +1,5 @@
 ---
-title: "AI SEO"
+title: "AI SEO: Suchmaschinenoptimierung für die KI-Ära"
 description: "AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp"

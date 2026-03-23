@@ -1,5 +1,5 @@
 ---
-title: "Meta Description (Seitenbeschreibung)"
+title: "Meta Description: Optimale Seitenbeschreibung für Google"
 description: "Meta Description Optimierung: So schreibst du Texte, die Klicks bringen. Tipps für CTR & Sichtbarkeit in den Suchergebnissen. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

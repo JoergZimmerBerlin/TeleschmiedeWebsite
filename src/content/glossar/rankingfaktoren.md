@@ -1,5 +1,5 @@
 ---
-title: "Rankingfaktoren"
+title: "SEO Rankingfaktoren: Was Google wirklich bewertet"
 description: "Rankingfaktoren: Die Kriterien für dein Google-Ranking. Erfahre, welche Signale wirklich über Seite 1 oder Seite 10 entscheiden. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp"

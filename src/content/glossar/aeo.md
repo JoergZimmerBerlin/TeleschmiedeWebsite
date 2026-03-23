@@ -1,5 +1,5 @@
 ---
-title: "AEO (Answer Engine Optimization)"
+title: "AEO: Die Zukunft der Answer Engine Optimization"
 description: "AEO optimiert deine Inhalte für Antwortmaschinen. Erfahre, wie du als direkte Antwort in KI-Systemen wie ChatGPT und Perplexity erscheinst."
 date: "2026-03-11"
 image: "../../assets/images/glossar/3d-light/glossar-aeo-3d.webp"

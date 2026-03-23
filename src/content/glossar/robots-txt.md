@@ -1,5 +1,5 @@
 ---
-title: "Robots.txt"
+title: "Robots.txt: Anweisungen für Suchmaschinen-Crawler"
 description: "Die robots.txt steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse deiner Website zugreifen dürfen. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.webp"

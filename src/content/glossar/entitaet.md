@@ -1,5 +1,5 @@
 ---
-title: "Entität (Entity)"
+title: "Entität (Entity): Die Basis des modernen SEO"
 description: "Eine Entität ist ein identifizierbares Objekt wie eine Person oder ein Konzept. Sie ist der Grundbaustein der modernen semantischen Suche."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

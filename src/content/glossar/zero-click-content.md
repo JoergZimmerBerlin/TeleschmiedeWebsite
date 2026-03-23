@@ -1,5 +1,5 @@
 ---
-title: "Zero-Click Content"
+title: "Zero-Click Content: Mehr Sichtbarkeit ohne Klicks"
 description: "Zero-Click Content beantwortet Suchanfragen direkt in der SERP oder KI-Antwort – ohne dass der Nutzer klicken muss. Fluch und Chance zugleich."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

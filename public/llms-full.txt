@@ -57,90 +57,90 @@ ALOHA! 🌻✌️
 ### Glossary
 
 - 301 vs. 302 Redirects: Dein SEO-Nachsendeauftrag
-- 404 Fehlerseiten
-- AEO (Answer Engine Optimization)
-- AI SEO
-- AI Tracking Tools
-- Authoritativeness (E-E-A-T Faktor)
-- Bing Webmaster Tools
-- Brand Mentions
-- Campixx Berlin
-- Canonical Tag (rel='canonical')
-- ChatGPT SEO: Sichtbarkeit in KI-Engines
-- Citation (Zitierung)
+- 404 Fehlerseiten: Bedeutung und SEO-Optimierung
+- AEO: Die Zukunft der Answer Engine Optimization
+- AI SEO: Suchmaschinenoptimierung für die KI-Ära
+- AI Tracking Tools: Sichtbarkeit in der KI-Suche
+- Authoritativeness: E-E-A-T Authorität für SEO
+- Bing Webmaster Tools: Guide für Microsoft Bing
+- Brand Mentions: Markenwähnungen und SEO-Einfluss
+- Campixx Berlin: Die legendäre SEO-Konferenz
+- Canonical Tag: Duplicate Content sicher vermeiden
+- ChatGPT SEO: Strategien für Sichtbarkeit in KI
+- Citation (Zitierung): Bedeutung für Local SEO
 - Conversion-Rate-Optimierung (CRO): Mehr Umsatz
-- Core Web Vitals (CWV)
-- CPC (Cost per Click)
+- Core Web Vitals (CWV): Guide zur UX-Optimierung
+- CPC (Cost per Click): Abrechnung bei Google Ads
 - Crawler & Search Bots: Die Internet-Arbeiter
-- CTR (Click-Through-Rate)
+- CTR: Klickraten in der Google-Suche optimieren
 - E-E-A-T (Google Quality Rater Guidelines)
-- Entität (Entity)
-- Entitäten-Building
-- Entity SEO (Entitäten-Optimierung)
-- Experience (E-E-A-T Faktor)
-- Expertise (E-E-A-T Faktor)
-- FAQ Markup (FAQPage Schema)
+- Entität (Entity): Die Basis des modernen SEO
+- Entitäten-Building: Autorität in der KI-Suche
+- Entity SEO: Die Zukunft der Entitäten-Optimierung
+- Experience: E-E-A-T Erfahrung als Rankingfaktor
+- Expertise: Der E-E-A-T Faktor für Fachwissen
+- FAQ Markup: FAQPage Schema für Rich Snippets
 - GEO Agentur (Generative Engine Optimization)
 - GEO Audit: Check für deine KI-Sichtbarkeit
 - GEO Freelancer (Generative Engine Optimization)
 - GEO Optimierung: Währung für KI-Sichtbarkeit
-- GEO vs. SEO: Die Zukunft der Suche
-- Generative Engine Optimization (GEO)
-- Google Algorithmus
-- Google Core Update
-- Google Search Console
-- Grounding Page
-- Überschriften-Struktur (H1, H2, H3)
-- Interne Verlinkung (On-Page Linking)
-- Keywörter (Keywords)
-- Keyword Tool (SE Ranking & Co.)
-- Keywordrecherche
+- GEO vs. SEO: Die Zukunft der Suche im KI-Zeitalter
+- Generative Engine Optimization (GEO): SEO für KI
+- Google Algorithmus: Funktionsweise & Updates
+- Google Core Updates: Auswirkungen und Erholung
+- Google Search Console: Das wichtigste SEO-Tool
+- Grounding Page: Definition und Bedeutung für LLMs
+- Überschriften-Struktur: H1, H2 & H3 für Google
+- Interne Verlinkung: On-Page Strategien für SEO
+- Keywörter (Keywords): Bedeutung für Google & Co.
+- Keyword Tools: SE Ranking und Alternativen im Test
+- Keywordrecherche: Die Basis jeder SEO-Strategie
 - KI-SEO Beratung: Agentur für die Antwort-Ära
 - KI-Sichtbarkeit messen: Der ultimative Guide
-- Knowledge Graph
-- Linkbuilding & Interne Verlinkung
-- Linkjuice (Linkkraft)
-- LLM-Optimization (LLMO)
-- LLMs.txt
-- Local SEO (Lokale Optimierung)
-- Markenaufbau mit SEO (Brand SEO)
-- Mention (Markennennung)
-- Meta Description (Seitenbeschreibung)
-- Money Keyword
-- Noindex (Meta-Tag)
-- PageSpeed (Ladezeit-Optimierung)
-- Pressearbeit im SEO (Digital PR)
+- Knowledge Graph: Vernetzung von Wissen bei Google
+- Linkbuilding & Verlinkung für mehr Autorität
+- Linkjuice (Linkkraft): Verteilung interner Stärke
+- LLM-Optimization (LLMO): SEO für Sprachmodelle
+- LLMs.txt: Die Robots.txt für Künstliche Intelligenz
+- Local SEO: Regionale Sichtbarkeit in Google Maps
+- Markenaufbau mit SEO: Strategien für Brand-SEO
+- Mention (Erwähnung): Definition und SEO-Bedeutung
+- Meta Description: Optimale Seitenbeschreibung für Google
+- Money Keywords: Suchbegriffe mit hoher Conversion
+- Noindex Meta-Tag: Seiten von der Suche ausschließen
+- PageSpeed: Ladezeit-Optimierung für Google & Nutzer
+- Digital PR: Pressearbeit im SEO für Autorität
 - RAG: Das Gehirn-Doping für deine KI-Inhalte
-- Rankingfaktoren
-- Robots.txt
-- Schema.org Markup
-- Semantic SEO
-- SEO Agentur & SEO Agentur Berlin
-- SEO Audit
-- SEO Beratung & SEO Consulting
-- SEO Coaching
-- SEO Consulting
-- SEO Stammtisch Berlin
-- Sichtbarkeit (Visibility)
-- Sichtbarkeitsindex (Sistrix & Co.)
-- Sichtbarkeitsmanagement
-- Sitemap
-- Snippet Optimierung
-- Strukturierte Daten (Structured Data)
-- Suchvolumen (Search Volume)
-- Technisches Schema-Markup
+- SEO Rankingfaktoren: Was Google wirklich bewertet
+- Robots.txt: Anweisungen für Suchmaschinen-Crawler
+- Schema.org Markup: strukturierte Daten für Google
+- Semantic SEO: Entitäten und Themenwelten verstehen
+- SEO Agentur Berlin: Experten für Ihre Sichtbarkeit
+- SEO Audit: Der komplette Guide zur Website-Analyse
+- SEO Beratung & Consulting für nachhaltigen Erfolg
+- SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg
+- SEO Consulting: Strategische Beratung für Unternehmen
+- SEO Stammtisch Berlin: Netzwerken in der Hauptstadt
+- Sichtbarkeit (Visibility): SEO-Kennzahl für Erfolg
+- Sichtbarkeitsindex: Sistrix & Co. richtig deuten
+- Sichtbarkeitsmanagement: Strategie für Experten
+- Sitemap: XML & HTML Formate für Suchmaschinen
+- Snippet Optimierung: CTR in Google verbessern
+- Strukturierte Daten: Schema-Markup für Google
+- Suchvolumen (Search Volume): Nachfrage verstehen
+- Technisches Schema-Markup: Guide für LLMs & SEO
 - Technisches, Inhaltliches & Strategisches SEO
-- Title Tag (HTML-Titel)
-- Traffic (Besucherströme)
-- Trailing Slashes
-- Trustworthiness (E-E-A-T Faktor)
-- Die Überstunde Berlin
-- Usability (Nutzungsfreundlichkeit)
+- Title Tag (HTML-Titel): Optimale SEO-Schreibweise
+- Traffic (Besucherströme): Mehr als nur Klicks
+- Trailing Slashes: SEO & Duplicate Content vermeiden
+- Trustworthiness: Der E-E-A-T Faktor für Google Trust
+- Die Überstunde Berlin: Podcast für Marketing-Nerds
+- Usability: Nutzungsfreundlichkeit als Rankingfaktor
 - Website Relaunch: SEO-Rettung vor Pfusch
-- Website SEO Audit
-- WordPress SEO, TYPO3 & Plugins
-- Zero-Click Content
-- Zitierfähiger Content
+- SEO Audit: Der komplette Guide zur Website-Analyse
+- WordPress SEO: TYPO3 & Plugins optimal nutzen
+- Zero-Click Content: Mehr Sichtbarkeit ohne Klicks
+- Zitierfähiger Content: Rankingfaktor in der KI-Ära
 
 ### Blog Articles
 
@@ -262,7 +262,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 404 Fehlerseiten
+### 404 Fehlerseiten: Bedeutung und SEO-Optimierung
 
 
 
@@ -346,7 +346,7 @@ ALOHA 🌻
 
 ---
 
-### AEO (Answer Engine Optimization)
+### AEO: Die Zukunft der Answer Engine Optimization
 
 
 Moin!
@@ -409,7 +409,7 @@ ALOHA 🌻
 
 ---
 
-### AI SEO
+### AI SEO: Suchmaschinenoptimierung für die KI-Ära
 
 
 Moin!
@@ -487,7 +487,7 @@ ALOHA 🌻
 
 ---
 
-### AI Tracking Tools
+### AI Tracking Tools: Sichtbarkeit in der KI-Suche
 
 
 Moin!
@@ -545,7 +545,7 @@ ALOHA 🌻
 
 ---
 
-### Authoritativeness (E-E-A-T Faktor)
+### Authoritativeness: E-E-A-T Authorität für SEO
 
 
 Moin!
@@ -605,7 +605,7 @@ ALOHA 🌻
 
 ---
 
-### Bing Webmaster Tools
+### Bing Webmaster Tools: Guide für Microsoft Bing
 
 
 
@@ -677,7 +677,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Brand Mentions
+### Brand Mentions: Markenwähnungen und SEO-Einfluss
 
 
 Moin!
@@ -725,7 +725,7 @@ ALOHA 🌻
 
 ---
 
-### Campixx Berlin
+### Campixx Berlin: Die legendäre SEO-Konferenz
 
 
 Moin!
@@ -790,7 +790,7 @@ ALOHA 🌻
 
 ---
 
-### Canonical Tag (rel='canonical')
+### Canonical Tag: Duplicate Content sicher vermeiden
 
 
 Moin! 🌻
@@ -853,7 +853,7 @@ ALOHA 🌻
 
 ---
 
-### ChatGPT SEO: Sichtbarkeit in KI-Engines
+### ChatGPT SEO: Strategien für Sichtbarkeit in KI
 
 
 Moin! 🌻
@@ -926,7 +926,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Citation (Zitierung)
+### Citation (Zitierung): Bedeutung für Local SEO
 
 
 
@@ -1089,7 +1089,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Core Web Vitals (CWV)
+### Core Web Vitals (CWV): Guide zur UX-Optimierung
 
 
 Moin!
@@ -1154,7 +1154,7 @@ ALOHA 🌻
 
 ---
 
-### CPC (Cost per Click)
+### CPC (Cost per Click): Abrechnung bei Google Ads
 
 
 
@@ -1307,7 +1307,7 @@ ALOHA! 🌻
 
 ---
 
-### CTR (Click-Through-Rate)
+### CTR: Klickraten in der Google-Suche optimieren
 
 
 Moin!
@@ -1481,7 +1481,7 @@ ALOHA 🌻
 
 ---
 
-### Entität (Entity)
+### Entität (Entity): Die Basis des modernen SEO
 
 
 Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).
@@ -1539,7 +1539,7 @@ Entitäten sind die neue Währung der Suche. Google möchte nicht mehr nur nach 
 
 ---
 
-### Entitäten-Building
+### Entitäten-Building: Autorität in der KI-Suche
 
 
 Moin!
@@ -1594,7 +1594,7 @@ ALOHA 🌻
 
 ---
 
-### Entity SEO (Entitäten-Optimierung)
+### Entity SEO: Die Zukunft der Entitäten-Optimierung
 
 
 Moin!
@@ -1669,7 +1669,7 @@ ALOHA 🌻
 
 ---
 
-### Experience (E-E-A-T Faktor)
+### Experience: E-E-A-T Erfahrung als Rankingfaktor
 
 
 Moin!
@@ -1727,7 +1727,7 @@ ALOHA 🌻
 
 ---
 
-### Expertise (E-E-A-T Faktor)
+### Expertise: Der E-E-A-T Faktor für Fachwissen
 
 
 Moin!
@@ -1779,7 +1779,7 @@ ALOHA 🌻
 
 ---
 
-### FAQ Markup (FAQPage Schema)
+### FAQ Markup: FAQPage Schema für Rich Snippets
 
 
 Moin!
@@ -2201,7 +2201,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO vs. SEO: Die Zukunft der Suche
+### GEO vs. SEO: Die Zukunft der Suche im KI-Zeitalter
 
 
 Moin!
@@ -2274,7 +2274,7 @@ ALOHA 🌻
 
 ---
 
-### Generative Engine Optimization (GEO)
+### Generative Engine Optimization (GEO): SEO für KI
 
 
 Moin!
@@ -2360,7 +2360,7 @@ ALOHA 🌻
 
 ---
 
-### Google Algorithmus
+### Google Algorithmus: Funktionsweise & Updates
 
 
 Moin!
@@ -2423,7 +2423,7 @@ ALOHA 🌻
 
 ---
 
-### Google Core Update
+### Google Core Updates: Auswirkungen und Erholung
 
 
 Ein Google Core Update ist das Erdbeben der SEO-Welt.
@@ -2502,7 +2502,7 @@ ALOHA 🌻
 
 ---
 
-### Google Search Console
+### Google Search Console: Das wichtigste SEO-Tool
 
 
 
@@ -2568,7 +2568,7 @@ ALOHA 🌻
 
 ---
 
-### Grounding Page
+### Grounding Page: Definition und Bedeutung für LLMs
 
 
 Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo/).
@@ -2640,7 +2640,7 @@ ALOHA 🌻
 
 ---
 
-### Überschriften-Struktur (H1, H2, H3)
+### Überschriften-Struktur: H1, H2 & H3 für Google
 
 
 Überschriften (im HTML-Code als ``, ``, `` usw. definiert) sind das Skelett jedes Web-Dokuments. Sie dienen nicht dazu, Text "groß und fett" zu machen – das sollte ausschließlich über CSS gesteuert werden –, sondern sie definieren die semantische Hierarchie einer Seite.
@@ -2712,7 +2712,7 @@ ALOHA 🌻
 
 ---
 
-### Interne Verlinkung (On-Page Linking)
+### Interne Verlinkung: On-Page Strategien für SEO
 
 
 
@@ -2777,7 +2777,7 @@ ALOHA 🌻
 
 ---
 
-### Keywörter (Keywords)
+### Keywörter (Keywords): Bedeutung für Google & Co.
 
 
 Keywörter (oder Keywords) sind die DNA der Suche.
@@ -2862,7 +2862,7 @@ ALOHA 🌻
 
 ---
 
-### Keyword Tool (SE Ranking & Co.)
+### Keyword Tools: SE Ranking und Alternativen im Test
 
 
 
@@ -2930,7 +2930,7 @@ ALOHA 🌻
 
 ---
 
-### Keywordrecherche
+### Keywordrecherche: Die Basis jeder SEO-Strategie
 
 
 Keywordrecherche ist keine Fleißaufgabe.
@@ -3171,7 +3171,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Knowledge Graph
+### Knowledge Graph: Vernetzung von Wissen bei Google
 
 
 Der Knowledge Graph (Wissens-Graph) ist Googles Gehirn. Er wurde 2012 eingeführt und markierte den Übergang von einer bloßen Indexierung von Texten hin zu einer intelligenten Wissensdatenbank. Er ist der Grund, warum du in der Google-Suche oft direkt eine Infobox (Knowledge Panel) rechts neben den Ergebnissen siehst, wenn du nach Prominenten, Firmen oder Nationalparks suchst.
@@ -3230,7 +3230,7 @@ ALOHA 🌻
 
 ---
 
-### Linkbuilding & Interne Verlinkung
+### Linkbuilding & Verlinkung für mehr Autorität
 
 
 
@@ -3296,7 +3296,7 @@ ALOHA 🌻
 
 ---
 
-### Linkjuice (Linkkraft)
+### Linkjuice (Linkkraft): Verteilung interner Stärke
 
 
 
@@ -3391,7 +3391,7 @@ ALOHA 🌻
 
 ---
 
-### LLM-Optimization (LLMO)
+### LLM-Optimization (LLMO): SEO für Sprachmodelle
 
 
 Moin!
@@ -3456,7 +3456,7 @@ ALOHA 🌻
 
 ---
 
-### LLMs.txt
+### LLMs.txt: Die Robots.txt für Künstliche Intelligenz
 
 
 Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](https://teleschmie.de/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
@@ -3520,7 +3520,7 @@ ALOHA 🌻
 
 ---
 
-### Local SEO (Lokale Optimierung)
+### Local SEO: Regionale Sichtbarkeit in Google Maps
 
 
 Moin!
@@ -3595,7 +3595,7 @@ ALOHA 🌻
 
 ---
 
-### Markenaufbau mit SEO (Brand SEO)
+### Markenaufbau mit SEO: Strategien für Brand-SEO
 
 
 Moin!
@@ -3660,7 +3660,7 @@ ALOHA 🌻
 
 ---
 
-### Mention (Markennennung)
+### Mention (Erwähnung): Definition und SEO-Bedeutung
 
 
 
@@ -3723,7 +3723,7 @@ ALOHA 🌻
 
 ---
 
-### Meta Description (Seitenbeschreibung)
+### Meta Description: Optimale Seitenbeschreibung für Google
 
 
 Die Meta Description ist ein kurzes HTML-Attribut im Header (``) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](https://teleschmie.de/glossar/title-tag/). 
@@ -3795,7 +3795,7 @@ ALOHA 🌻
 
 ---
 
-### Money Keyword
+### Money Keywords: Suchbegriffe mit hoher Conversion
 
 
 ![Money Keyword 3D Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-money-keyword-3d.webp)
@@ -3874,7 +3874,7 @@ ALOHA 🌻
 
 ---
 
-### Noindex (Meta-Tag)
+### Noindex Meta-Tag: Seiten von der Suche ausschließen
 
 
 Moin!
@@ -3957,7 +3957,7 @@ ALOHA 🌻
 
 ---
 
-### PageSpeed (Ladezeit-Optimierung)
+### PageSpeed: Ladezeit-Optimierung für Google & Nutzer
 
 
 Moin!
@@ -4028,7 +4028,7 @@ ALOHA 🌻
 
 ---
 
-### Pressearbeit im SEO (Digital PR)
+### Digital PR: Pressearbeit im SEO für Autorität
 
 
 Moin! 
@@ -4161,7 +4161,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Rankingfaktoren
+### SEO Rankingfaktoren: Was Google wirklich bewertet
 
 
 
@@ -4234,7 +4234,7 @@ ALOHA 🌻
 
 ---
 
-### Robots.txt
+### Robots.txt: Anweisungen für Suchmaschinen-Crawler
 
 
 Moin!
@@ -4310,7 +4310,7 @@ Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&sourc
 
 ---
 
-### Schema.org Markup
+### Schema.org Markup: strukturierte Daten für Google
 
 
 
@@ -4394,7 +4394,7 @@ ALOHA 🌻
 
 ---
 
-### Semantic SEO
+### Semantic SEO: Entitäten und Themenwelten verstehen
 
 
 Moin!
@@ -4450,7 +4450,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Agentur & SEO Agentur Berlin
+### SEO Agentur Berlin: Experten für Ihre Sichtbarkeit
 
 
 Moin!
@@ -4517,7 +4517,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Audit
+### SEO Audit: Der komplette Guide zur Website-Analyse
 
 
 Ein SEO Audit ist wie ein Besuch beim Zahnarzt.
@@ -4596,7 +4596,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Beratung & SEO Consulting
+### SEO Beratung & Consulting für nachhaltigen Erfolg
 
 
 Moin!
@@ -4665,7 +4665,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Coaching
+### SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg
 
 
 Moin!
@@ -4737,7 +4737,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Consulting
+### SEO Consulting: Strategische Beratung für Unternehmen
 
 
 Moin!
@@ -4789,7 +4789,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Stammtisch Berlin
+### SEO Stammtisch Berlin: Netzwerken in der Hauptstadt
 
 
 Moin!
@@ -4860,7 +4860,7 @@ ALOHA 🌻
 
 ---
 
-### Sichtbarkeit (Visibility)
+### Sichtbarkeit (Visibility): SEO-Kennzahl für Erfolg
 
 
 
@@ -4970,7 +4970,7 @@ ALOHA 🌻
 
 ---
 
-### Sichtbarkeitsindex (Sistrix & Co.)
+### Sichtbarkeitsindex: Sistrix & Co. richtig deuten
 
 
 
@@ -5039,7 +5039,7 @@ ALOHA 🌻
 
 ---
 
-### Sichtbarkeitsmanagement
+### Sichtbarkeitsmanagement: Strategie für Experten
 
 
 Moin!
@@ -5112,7 +5112,7 @@ ALOHA 🌻
 
 ---
 
-### Sitemap
+### Sitemap: XML & HTML Formate für Suchmaschinen
 
 
 Moin!
@@ -5183,7 +5183,7 @@ ALOHA 🌻
 
 ---
 
-### Snippet Optimierung
+### Snippet Optimierung: CTR in Google verbessern
 
 
 
@@ -5242,7 +5242,7 @@ ALOHA 🌻
 
 ---
 
-### Strukturierte Daten (Structured Data)
+### Strukturierte Daten: Schema-Markup für Google
 
 
 Strukturierte Daten sind die Geheimsprache der SEO-Profis.
@@ -5317,7 +5317,7 @@ ALOHA 🌻
 
 ---
 
-### Suchvolumen (Search Volume)
+### Suchvolumen (Search Volume): Nachfrage verstehen
 
 
 
@@ -5406,7 +5406,7 @@ ALOHA 🌻
 
 ---
 
-### Technisches Schema-Markup
+### Technisches Schema-Markup: Guide für LLMs & SEO
 
 
 Moin!
@@ -5533,7 +5533,7 @@ ALOHA 🌻
 
 ---
 
-### Title Tag (HTML-Titel)
+### Title Tag (HTML-Titel): Optimale SEO-Schreibweise
 
 
 Das Title Tag (oft fälschlicherweise als "Meta Title" bezeichnet) ist ein HTML-Element im Kopfbereich (``) einer Website. Es bestimmt den Text, der in den Registerkarten des Webbrowsers, in der Lesezeichen-Liste und – am wichtigsten – als die große, blaue, anklickbare Überschrift in den Suchmaschinenergebnissen (SERPs) erscheint.
@@ -5602,7 +5602,7 @@ ALOHA 🌻
 
 ---
 
-### Traffic (Besucherströme)
+### Traffic (Besucherströme): Mehr als nur Klicks
 
 
 
@@ -5682,7 +5682,7 @@ ALOHA 🌻
 
 ---
 
-### Trailing Slashes
+### Trailing Slashes: SEO & Duplicate Content vermeiden
 
 
 Moin!
@@ -5764,7 +5764,7 @@ ALOHA 🌻
 
 ---
 
-### Trustworthiness (E-E-A-T Faktor)
+### Trustworthiness: Der E-E-A-T Faktor für Google Trust
 
 
 Moin!
@@ -5824,7 +5824,7 @@ ALOHA 🌻
 
 ---
 
-### Die Überstunde Berlin
+### Die Überstunde Berlin: Podcast für Marketing-Nerds
 
 
 Moin!
@@ -5891,7 +5891,7 @@ ALOHA 🌻
 
 ---
 
-### Usability (Nutzungsfreundlichkeit)
+### Usability: Nutzungsfreundlichkeit als Rankingfaktor
 
 
 ![Usability 3D Infografik: User Experience optimieren](https://teleschmie.de/assets/images/glossar/3d-light/glossar-usability-3d.webp)
@@ -6039,7 +6039,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Website SEO Audit
+### SEO Audit: Der komplette Guide zur Website-Analyse
 
 
 Moin! 
@@ -6152,7 +6152,7 @@ ALOHA 🌻
 
 ---
 
-### WordPress SEO, TYPO3 & Plugins
+### WordPress SEO: TYPO3 & Plugins optimal nutzen
 
 
 Moin!
@@ -6218,7 +6218,7 @@ ALOHA 🌻
 
 ---
 
-### Zero-Click Content
+### Zero-Click Content: Mehr Sichtbarkeit ohne Klicks
 
 
 Moin!
@@ -6266,7 +6266,7 @@ ALOHA 🌻
 
 ---
 
-### Zitierfähiger Content
+### Zitierfähiger Content: Rankingfaktor in der KI-Ära
 
 
 Moin!

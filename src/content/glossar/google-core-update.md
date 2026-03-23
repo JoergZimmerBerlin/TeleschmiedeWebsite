@@ -1,5 +1,5 @@
 ---
-title: "Google Core Update"
+title: "Google Core Updates: Auswirkungen und Erholung"
 description: "Google Core Updates sind massive Änderungen am Suchalgorithmus. Erfahre, wie du sie überstehst und gestärkt daraus hervorgehst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-core-update-3d.webp"

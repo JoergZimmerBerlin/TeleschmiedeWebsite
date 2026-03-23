@@ -65,8 +65,6 @@ const displayDescription = truncate(description, 150);
     <meta property="og:url" content={`${siteUrl}${currentPath}`} />
     <meta property="og:image" content={ogImageUrl} />
 
-    {/* Preload Hero Image for LCP */}
-    {lcpImage && <link rel="preload" as="image" href={lcpImage} fetchpriority="high" />}
 
     {/* CSS is already injected by Astro, but preloading fonts/assets can help */}
 

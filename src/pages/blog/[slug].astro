@@ -419,13 +419,6 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
       "@type": "WebPage",
       "@id": `https://teleschmie.de/blog/${post.id}/`
     },
-    ...(tachelesQuote ? {
-      "review": {
-        "@type": "Review",
-        "reviewBody": tachelesQuote,
-        "author": { "@id": "https://teleschmie.de/#person" }
-      }
-    } : {}),
     ...(post.data.faqs ? {
       "mainEntity": post.data.faqs.map(faq => ({
         "@type": "Question",

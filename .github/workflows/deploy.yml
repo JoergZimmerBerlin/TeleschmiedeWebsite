@@ -65,6 +65,9 @@ jobs:
           name: website-dist
           path: dist
 
+      - name: Rename .htaccess for sync
+        run: mv dist/htaccess.root dist/.htaccess
+
       - name: Deploy via SFTP
         uses: pressidium/lftp-mirror-action@v1
         with:

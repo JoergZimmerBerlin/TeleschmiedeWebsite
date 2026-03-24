@@ -102,16 +102,6 @@ const displayDescription = truncate(description, 150);
       }
     `} />
 
-    <!-- Performance: Inline Critical CSS (Fixes render-blocking Layout.css) -->
-    <style is:inline>
-      /* Layout & Global Critical Styles */
-      :root { --lime-accent: #D4FF00; }
-      body { margin: 0; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
-      .container-narrow { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; }
-      /* Pre-render specific layouts to avoid layout shift */
-      header { position: sticky; top: 0; z-index: 50; }
-    </style>
-
     <!-- DNS Prefetch -->
     <link rel="dns-prefetch" href="https://www.linkedin.com" />
     <link rel="dns-prefetch" href="https://www.youtube.com" />

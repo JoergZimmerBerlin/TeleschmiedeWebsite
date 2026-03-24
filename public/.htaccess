@@ -1,14 +1,9 @@
 ErrorDocument 404 /404.html
 
 # Force UTF-8 encoding for text files
+AddType text/plain;charset=UTF-8 .txt
+AddType text/markdown;charset=UTF-8 .md
 AddCharset UTF-8 .txt .md .json
-
-<FilesMatch "llms(-full)?\.txt$">
-    ForceType "text/plain; charset=utf-8"
-    <IfModule mod_headers.c>
-        Header always set Content-Type "text/plain; charset=utf-8"
-    </IfModule>
-</FilesMatch>
 
 # === Security Headers ===
 <IfModule mod_headers.c>

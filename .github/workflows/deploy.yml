@@ -65,9 +65,6 @@ jobs:
           name: website-dist
           path: dist
 
-      - name: Rename .htaccess for sync
-        run: mv dist/htaccess.root dist/.htaccess
-
       - name: Deploy via SFTP
         uses: pressidium/lftp-mirror-action@v1
         with:
@@ -76,7 +73,7 @@ jobs:
           pass: ${{ secrets.FTP_PASSWORD }}
           localDir: './dist'
           remoteDir: '.'
-          options: '--verbose --parallel=10 --use-cache -a'
+          options: '--verbose --parallel=10 --use-cache'
 
   verify:
     name: Verify Live Site

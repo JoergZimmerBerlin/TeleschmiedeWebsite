@@ -1,5 +1,5 @@
 ---
-title: "Trustworthiness: Der E-E-A-T Faktor für Google Trust"
+title: "Trustworthiness: E-E-A-T Faktor für Google"
 description: "Trustworthiness (Vertrauenswürdigkeit) im SEO: Der zentrale E-E-A-T Faktor. Erfahre, warum Trust die Basis für dein Google-Ranking ist. ALOHA! 🌻"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-trust-3d.webp"

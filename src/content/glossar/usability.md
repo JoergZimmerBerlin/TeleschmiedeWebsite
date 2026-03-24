@@ -1,5 +1,5 @@
 ---
-title: "Usability: Nutzungsfreundlichkeit als Rankingfaktor"
+title: "Usability: Nutzerfreundlichkeit im Ranking"
 description: "Usability entscheidet, ob Nutzer auf deiner Website bleiben oder gehen. Ein kritischer Faktor für SEO und Conversion."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-usability-3d.webp"

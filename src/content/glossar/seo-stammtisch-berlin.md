@@ -1,5 +1,5 @@
 ---
-title: "SEO Stammtisch Berlin: Netzwerken in der Hauptstadt"
+title: "SEO Stammtisch Berlin: Netzwerken Hauptstadt"
 description: "Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf Augenhöhe."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

@@ -5,7 +5,25 @@ import leistungenHero from '../assets/images/pages/leistungen-hero.webp';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // Data for services
-const categories = [
+interface Service {
+  title: string;
+  price: string;
+  unit: string;
+  description: string;
+  bullets: string[];
+  link?: string;
+  linkText?: string;
+  isPopular: boolean;
+  isDark: boolean;
+}
+
+interface Category {
+  title: string;
+  description: string;
+  services: Service[];
+}
+
+const categories: Category[] = [
   {
     title: "Einstieg & Analyse",
     description: "Der perfekte Start, um den Status Quo zu verstehen und Potenziale zu identifizieren.",
@@ -110,7 +128,7 @@ const categories = [
         title: "Monatlicher Retainer",
         price: "1.600€",
         unit: "Ab",
-        description: "Ideal für ambitionierte B2B-Unternehmen und Online-Shops. Laufende Überwachung, Content-Steuerung und strategische Beratung.",
+        description: "Ideal für ambitionierte B2B-Unternehmen and Online-Shops. Laufende Überwachung, Content-Steuerung und strategische Beratung.",
         bullets: ["Kontinuierliche Optimierung", "Regelmäßiges Reporting & Calls", "Proaktive Strategieanpassungen", "Sparringspartnerschaft fürs C-Level"],
         isPopular: false,
         isDark: true

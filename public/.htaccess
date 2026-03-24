@@ -5,10 +5,16 @@ AddDefaultCharset UTF-8
 
 <Files "llms.txt">
     ForceType "text/plain; charset=utf-8"
+    <IfModule mod_headers.c>
+        Header set Content-Type "text/plain; charset=utf-8"
+    </IfModule>
 </Files>
 
 <Files "llms-full.txt">
     ForceType "text/plain; charset=utf-8"
+    <IfModule mod_headers.c>
+        Header set Content-Type "text/plain; charset=utf-8"
+    </IfModule>
 </Files>
 
 # === Security Headers ===

@@ -102,6 +102,16 @@ const displayDescription = truncate(description, 150);
       }
     `} />
 
+    <!-- Performance: Inline Critical CSS (Fixes render-blocking Layout.css) -->
+    <style is:inline>
+      /* Layout & Global Critical Styles */
+      :root { --lime-accent: #D4FF00; }
+      body { margin: 0; font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+      .container-narrow { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; }
+      /* Pre-render specific layouts to avoid layout shift */
+      header { position: sticky; top: 0; z-index: 50; }
+    </style>
+
     <!-- DNS Prefetch -->
     <link rel="dns-prefetch" href="https://www.linkedin.com" />
     <link rel="dns-prefetch" href="https://www.youtube.com" />
@@ -194,23 +204,33 @@ const displayDescription = truncate(description, 150);
           const titleEl = tooltip.querySelector('.tooltip-title');
           const bodyEl = tooltip.querySelector('.tooltip-body');
 
+          let tooltipTicking = false;
           const updatePos = (e: any, targetTooltip: HTMLElement) => {
-            const x = e.clientX || (e.touches && e.touches[0].clientX);
-            const y = e.clientY || (e.touches && e.touches[0].clientY);
-            const offset = 25;
-            
-            let left = x + offset;
-            let top = y + offset;
-            
-            if (left + targetTooltip.offsetWidth > window.innerWidth) {
-              left = x - targetTooltip.offsetWidth - offset;
-            }
-            if (top + targetTooltip.offsetHeight > window.innerHeight) {
-              top = y - targetTooltip.offsetHeight - offset;
-            }
-            
-            targetTooltip.style.left = `${Math.max(10, left)}px`;
-            targetTooltip.style.top = `${Math.max(10, top)}px`;
+            if (tooltipTicking) return;
+            tooltipTicking = true;
+
+            requestAnimationFrame(() => {
+              const x = e.clientX || (e.touches && e.touches[0].clientX);
+              const y = e.clientY || (e.touches && e.touches[0].clientY);
+              const offset = 25;
+              
+              const tooltipWidth = targetTooltip.offsetWidth;
+              const tooltipHeight = targetTooltip.offsetHeight;
+              
+              let left = x + offset;
+              let top = y + offset;
+              
+              if (left + tooltipWidth > window.innerWidth) {
+                left = x - tooltipWidth - offset;
+              }
+              if (top + tooltipHeight > window.innerHeight) {
+                top = y - tooltipHeight - offset;
+              }
+              
+              targetTooltip.style.left = `${Math.max(10, left)}px`;
+              targetTooltip.style.top = `${Math.max(10, top)}px`;
+              tooltipTicking = false;
+            });
           };
 
           // Tooltip Event Listeners for pre-linked terms

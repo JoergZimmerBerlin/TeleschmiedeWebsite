@@ -99,14 +99,14 @@ ALOHA! 🌻✌️
 - Linkbuilding & Verlinkung für mehr Autorität
 - Linkjuice (Linkkraft): Verteilung interner Stärke
 - LLM-Optimization (LLMO): SEO für Sprachmodelle
-- LLMs.txt: Die Robots.txt für Künstliche Intelligenz
+- LLMs.txt: Die Robots.txt für die KI-Suche
 - Local SEO: Regionale Sichtbarkeit in Google Maps
 - Markenaufbau mit SEO: Strategien für Brand-SEO
 - Mention (Erwähnung): Definition und SEO-Bedeutung
-- Meta Description: Optimale Seitenbeschreibung für Google
+- Meta Description: Seitenbeschreibung für Google
 - Money Keywords: Suchbegriffe mit hoher Conversion
-- Noindex Meta-Tag: Seiten von der Suche ausschließen
-- PageSpeed: Ladezeit-Optimierung für Google & Nutzer
+- Noindex: Seiten von der Suche ausschließen
+- PageSpeed: Ladezeit-Optimierung für Google
 - Digital PR: Pressearbeit im SEO für Autorität
 - RAG: Das Gehirn-Doping für deine KI-Inhalte
 - SEO Rankingfaktoren: Was Google wirklich bewertet
@@ -117,8 +117,8 @@ ALOHA! 🌻✌️
 - SEO Audit: Der komplette Guide zur Website-Analyse
 - SEO Beratung & Consulting für nachhaltigen Erfolg
 - SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg
-- SEO Consulting: Strategische Beratung für Unternehmen
-- SEO Stammtisch Berlin: Netzwerken in der Hauptstadt
+- SEO Consulting: Strategische Fachberatung
+- SEO Stammtisch Berlin: Netzwerken Hauptstadt
 - Sichtbarkeit (Visibility): SEO-Kennzahl für Erfolg
 - Sichtbarkeitsindex: Sistrix & Co. richtig deuten
 - Sichtbarkeitsmanagement: Strategie für Experten
@@ -130,10 +130,10 @@ ALOHA! 🌻✌️
 - Technisches, Inhaltliches & Strategisches SEO
 - Title Tag (HTML-Titel): Optimale SEO-Schreibweise
 - Traffic (Besucherströme): Mehr als nur Klicks
-- Trailing Slashes: SEO & Duplicate Content vermeiden
-- Trustworthiness: Der E-E-A-T Faktor für Google Trust
+- Trailing Slashes: SEO & Duplicate Content
+- Trustworthiness: E-E-A-T Faktor für Google
 - Die Überstunde Berlin: Podcast für Marketing-Nerds
-- Usability: Nutzungsfreundlichkeit als Rankingfaktor
+- Usability: Nutzerfreundlichkeit im Ranking
 - Website Relaunch: SEO-Rettung vor Pfusch
 - SEO Audit: Der komplette Guide zur Website-Analyse
 - WordPress SEO: TYPO3 & Plugins optimal nutzen
@@ -149,11 +149,11 @@ ALOHA! 🌻✌️
 - Sistrix vs. SE Ranking: Welches Tool gewinnt?
 - SEO Persönlich: Mein Interview bei SEOpresso
 - SEOpresso Podcast: Meine Empfehlung mit Max Muhr
-- Wie läuft so eine SEO-Sprechstunde ab? 
+- Wie läuft so eine SEO-Sprechstunde genau ab?
 - SEO-Sprechstunde: Website-Check & Sichtbarkeit
 - 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde
 - SEO-Relaunch: Warum ohne SEO das Desaster droht
-- Tatü Tata: Die SEO Feuerwehr rückt aus! 
+- Tatü Tata: Die SEO Feuerwehr rückt nun aus!
 - SE Ranking Preise 2026: Der Guide für Experten
 - SE Ranking AI Tracker: KI-Sichtbarkeit messen
 - Rankscale Update: API & ChatGPT Shopping Analyse
@@ -169,7 +169,7 @@ ALOHA! 🌻✌️
 - Google Ads Support vs. SEO: Die Wahrheit
 - GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
 - SEO-Handwerk: Warum Qualität der USP ist
-- SEO-Qualität: Von Dönerback bis Erfolg
+- SEO-Qualität: Vom Dönerback bis zum Erfolg
 - Core Web Vitals: Warum dein UX-Bericht zählt
 - Braucht SEO einen neuen Namen? Campixx Umfrage
 - Bist du SEO AI Ready? Podcast mit Antonio Blago
@@ -3454,7 +3454,7 @@ ALOHA 🌻
 
 ---
 
-### LLMs.txt: Die Robots.txt für Künstliche Intelligenz
+### LLMs.txt: Die Robots.txt für die KI-Suche
 
 
 Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](https://teleschmie.de/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
@@ -3721,7 +3721,7 @@ ALOHA 🌻
 
 ---
 
-### Meta Description: Optimale Seitenbeschreibung für Google
+### Meta Description: Seitenbeschreibung für Google
 
 
 Die Meta Description ist ein kurzes HTML-Attribut im Header (``) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](https://teleschmie.de/glossar/title-tag/). 
@@ -3872,7 +3872,7 @@ ALOHA 🌻
 
 ---
 
-### Noindex Meta-Tag: Seiten von der Suche ausschließen
+### Noindex: Seiten von der Suche ausschließen
 
 
 Moin!
@@ -3955,7 +3955,7 @@ ALOHA 🌻
 
 ---
 
-### PageSpeed: Ladezeit-Optimierung für Google & Nutzer
+### PageSpeed: Ladezeit-Optimierung für Google
 
 
 Moin!
@@ -4735,7 +4735,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Consulting: Strategische Beratung für Unternehmen
+### SEO Consulting: Strategische Fachberatung
 
 
 Moin!
@@ -4787,7 +4787,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Stammtisch Berlin: Netzwerken in der Hauptstadt
+### SEO Stammtisch Berlin: Netzwerken Hauptstadt
 
 
 Moin!
@@ -5680,7 +5680,7 @@ ALOHA 🌻
 
 ---
 
-### Trailing Slashes: SEO & Duplicate Content vermeiden
+### Trailing Slashes: SEO & Duplicate Content
 
 
 Moin!
@@ -5762,7 +5762,7 @@ ALOHA 🌻
 
 ---
 
-### Trustworthiness: Der E-E-A-T Faktor für Google Trust
+### Trustworthiness: E-E-A-T Faktor für Google
 
 
 Moin!
@@ -5889,7 +5889,7 @@ ALOHA 🌻
 
 ---
 
-### Usability: Nutzungsfreundlichkeit als Rankingfaktor
+### Usability: Nutzerfreundlichkeit im Ranking
 
 
 ![Usability 3D Infografik: User Experience optimieren](https://teleschmie.de/assets/images/glossar/3d-light/glossar-usability-3d.webp)
@@ -6951,7 +6951,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Wie läuft so eine SEO-Sprechstunde ab? 
+### Wie läuft so eine SEO-Sprechstunde genau ab?
 
 
 Moin! 🌻
@@ -7266,7 +7266,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Tatü Tata: Die SEO Feuerwehr rückt aus! 
+### Tatü Tata: Die SEO Feuerwehr rückt nun aus!
 
 
 Moin! 🌻
@@ -8706,7 +8706,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SEO-Qualität: Von Dönerback bis Erfolg
+### SEO-Qualität: Vom Dönerback bis zum Erfolg
 
 
 Moin! 🌻

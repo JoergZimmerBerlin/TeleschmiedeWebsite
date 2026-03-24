@@ -1,0 +1,92 @@
+ErrorDocument 404 /404.html
+
+# Force UTF-8 encoding for text files
+AddCharset UTF-8 .txt .md .json
+
+<FilesMatch "llms(-full)?\.txt$">
+    ForceType "text/plain; charset=utf-8"
+    <IfModule mod_headers.c>
+        Header always set Content-Type "text/plain; charset=utf-8"
+    </IfModule>
+</FilesMatch>
+
+# === Security Headers ===
+<IfModule mod_headers.c>
+  # Unset any existing headers to prevent duplicate/more restrictive policies
+  Header unset Content-Security-Policy
+  Header always unset Content-Security-Policy
+
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-XSS-Protection "1; mode=block"
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Permanente Weiterleitungen für Alt-URLs (direkt auf HTTPS Ziel)
+Redirect 301 /html/impressum.html https://teleschmie.de/impressum/
+Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
+Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
+Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
+
+# HTTPS erzwingen (301 Redirect)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# www zu non-www (optional, falls gewünscht)
+RewriteCond %{HTTP_HOST} ^www\.teleschmie.de [NC]
+RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
+
+# Veraltete Sitemaps löschen (410 Gone)
+Redirect 410 /sitemap-index.xml
+Redirect 410 /sitemap-0.xml
+
+# Kompression aktivieren
+<IfModule mod_deflate.c>
+  # Alte Methode (AddOutputFilterByType)
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript text/javascript application/json application/xml image/svg+xml
+
+  # Moderne Methode (mod_filter) für bessere Zuverlässigkeit
+  <IfModule mod_filter.c>
+    FilterDeclare COMPRESS
+    FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/(html|plain|xml|css|javascript)#"
+    FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^application/(javascript|json|xml|x-javascript)#"
+    FilterChain COMPRESS
+    FilterProtocol COMPRESS change=yes;remove=gzip,deflate
+  </IfModule>
+
+  # Zusätzliche Fallback-Regel für .js Dateien
+  <FilesMatch "\.(js)$">
+    SetOutputFilter DEFLATE
+  </FilesMatch>
+</IfModule>
+
+# Browser Caching (Astro fingerprints CSS/JS with content hashes)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# Cache-Control for immutable hashed assets
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|woff2|woff|png|jpg|jpeg|webp|avif|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
+</IfModule>

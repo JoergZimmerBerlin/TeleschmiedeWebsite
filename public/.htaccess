@@ -1,21 +1,14 @@
 ErrorDocument 404 /404.html
 
-# Force UTF-8 for plain text files (fixes Mojibake in LLM files)
-AddDefaultCharset UTF-8
+# Force UTF-8 encoding for text files
+AddCharset UTF-8 .txt .md .json
 
-<Files "llms.txt">
+<FilesMatch "llms(-full)?\.txt$">
     ForceType "text/plain; charset=utf-8"
     <IfModule mod_headers.c>
-        Header set Content-Type "text/plain; charset=utf-8"
+        Header always set Content-Type "text/plain; charset=utf-8"
     </IfModule>
-</Files>
-
-<Files "llms-full.txt">
-    ForceType "text/plain; charset=utf-8"
-    <IfModule mod_headers.c>
-        Header set Content-Type "text/plain; charset=utf-8"
-    </IfModule>
-</Files>
+</FilesMatch>
 
 # === Security Headers ===
 <IfModule mod_headers.c>

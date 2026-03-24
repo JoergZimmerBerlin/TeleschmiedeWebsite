@@ -27,7 +27,7 @@ Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, be
 
 Nein, ganz im Gegenteil. Die Sprechstunde ist eine Live-Analyse, bei der du im Fahrersitz sitzt und ich als Co-Pilot die Karte lese, die Abkürzungen kenne und dich vor den Schlaglöchern warne.
 
-Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tte--Tte treffen.
+Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tête-à-Tête treffen.
 
 ## Der 4-Stufen-Plan für deine Sichtbarkeit
 
@@ -88,7 +88,7 @@ Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
 </div>
 
-ALOHA 🌻! 🌻
+ALOHA 🌻!
 
 * **Lese-Tipp:** [SEO Beratung: Warum ein Partner auf Augenhöhe Gold wert ist](/glossar/seo-beratung/)
 * **Lese-Tipp:** [SE Ranking: Mein liebstes All-in-One SEO Tool](/blog/sistrix-vs-se-ranking/)

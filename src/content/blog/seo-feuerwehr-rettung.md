@@ -113,7 +113,7 @@ Hattest du das schon mal?
 
 Kleiner Code-Eingriff – großes Desaster?
 
-ALOHA 🌻! 🌻
+ALOHA 🌻!
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Brennt deine Hütte auch?</h3>

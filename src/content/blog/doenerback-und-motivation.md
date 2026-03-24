@@ -84,4 +84,4 @@ Für dich heißt das: **Bevor du auch nur einen Euro in Traffic, SEO oder Ads in
 
 Support your local heroes, redet Tacheles und seid mutig, auch gegen den Strom zu schwimmen.
 
-ALOHA 🌻! 🌻
+ALOHA 🌻!

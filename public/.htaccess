@@ -21,7 +21,7 @@ AddCharset UTF-8 .txt .md .json
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-XSS-Protection "1; mode=block"
   Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com https://teleschmie-canary-test.de; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
- generational-build: "1774363739"
+ # generational-build: "1774364139"
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 

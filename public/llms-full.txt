@@ -135,7 +135,7 @@ ALOHA! 🌻✌️
 - Die Überstunde Berlin: Podcast für Marketing-Nerds
 - Usability: Nutzerfreundlichkeit im Ranking
 - Website Relaunch: SEO-Rettung vor Pfusch
-- SEO Audit: Der komplette Guide zur Website-Analyse
+- Website SEO Audit: Der komplette Guide zur Website-Analyse
 - WordPress SEO: TYPO3 & Plugins optimal nutzen
 - Zero-Click Content: Mehr Sichtbarkeit ohne Klicks
 - Zitierfähiger Content: Rankingfaktor in der KI-Ära
@@ -6037,7 +6037,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SEO Audit: Der komplette Guide zur Website-Analyse
+### Website SEO Audit: Der komplette Guide zur Website-Analyse
 
 
 Moin! 
@@ -6053,7 +6053,7 @@ In meiner täglichen Arbeit als [SEO-Freelancer in Berlin](https://teleschmie.de
 
 ---
 
-## Warum jedes SEO-Projekt mit einem Audit beginnt
+## Warum jedes SEO-Projekt mit einem Website SEO Audit beginnt
 
 Stell dir vor, du baust ein Haus auf einem Sumpf. Egal wie schön die Fassade ist, das Haus wird absacken. Im SEO ist die Technik dein Fundament. Ein **Website Audit** prüft, ob Google deine Seiten überhaupt finden, lesen und verstehen kann. Wenn die [Indexierung](https://teleschmie.de/glossar/noindex/) hakt, nützt dir auch der beste Content der Welt nichts.
 
@@ -6067,7 +6067,7 @@ In meiner [SEO Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-erklaer
 
 ---
 
-## Das Profi-Tool für dein technisches SEO-Audit: SE Ranking
+## Das Profi-Tool für dein Website SEO Audit: SE Ranking
 
 Ich werde oft gefragt: "Jörg, welches **SEO Tool** nutzt du eigentlich für den Check?" Meine Antwort ist klar: Für technische Audits setze ich auf **SE Ranking**. Es ist im Vergleich zu anderen Suiten extrem **günstig** und liefert trotzdem Daten auf Enterprise-Niveau. Es ist die perfekte Wahl für kleine und mittlere Unternehmen, die keine 500 Euro im Monat für Software ausgeben wollen, aber trotzdem Profi-Ergebnisse brauchen.
 
@@ -6113,7 +6113,7 @@ Google hat Geschwindigkeit zum Rankingfaktor gemacht. Ein gutes **SEO Tool** mus
 
 ---
 
-## Schritt-für-Schritt: So führst du dein erstes Website Audit durch
+## Schritt-für-Schritt: So führst du dein erstes Website SEO Audit durch
 
 Du musst kein Full-Stack-Entwickler sein, um ein technisches SEO-Audit zu starten. Mit dem richtigen Tool ist es fast ein Selbstläufer.
 
@@ -6960,7 +6960,7 @@ Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, be
 
 Nein, ganz im Gegenteil. Die Sprechstunde ist eine Live-Analyse, bei der du im Fahrersitz sitzt und ich als Co-Pilot die Karte lese, die Abkürzungen kenne und dich vor den Schlaglöchern warne.
 
-Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tte--Tte treffen.
+Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tête-à-Tête treffen.
 
 ## Der 4-Stufen-Plan für deine Sichtbarkeit
 
@@ -7021,7 +7021,7 @@ Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz
   Jetzt Sprechstunde anfragen 
 
 
-ALOHA 🌻! 🌻
+ALOHA 🌻!
 
 * **Lese-Tipp:** [SEO Beratung: Warum ein Partner auf Augenhöhe Gold wert ist](https://teleschmie.de/glossar/seo-beratung/)
 * **Lese-Tipp:** [SE Ranking: Mein liebstes All-in-One SEO Tool](https://teleschmie.de/blog/sistrix-vs-se-ranking/)
@@ -7362,7 +7362,7 @@ Hattest du das schon mal?
 
 Kleiner Code-Eingriff – großes Desaster?
 
-ALOHA 🌻! 🌻
+ALOHA 🌻!
 
 
   Brennt deine Hütte auch?
@@ -8776,7 +8776,7 @@ Für dich heißt das: **Bevor du auch nur einen Euro in Traffic, SEO oder Ads in
 
 Support your local heroes, redet Tacheles und seid mutig, auch gegen den Strom zu schwimmen.
 
-ALOHA 🌻! 🌻
+ALOHA 🌻!
 
 ---
 

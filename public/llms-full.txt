@@ -168,6 +168,7 @@ ALOHA! 🌻✌️
 - GSC: Wer ist für die Einrichtung zuständig?
 - Google Ads Support vs. SEO: Die Wahrheit
 - GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
+- GEO Action Plan 2026: Guide zur KI-Sichtbarkeit
 - SEO-Handwerk: Warum Qualität der USP ist
 - SEO-Qualität: Vom Dönerback bis zum Erfolg
 - Core Web Vitals: Warum dein UX-Bericht zählt
@@ -8590,6 +8591,170 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](https://teleschmie.de/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](https://teleschmie.de/blog/se-ranking-ai-tracker/)
 * **Lese-Tipp:** [Was ist eigentlich LLMO?](https://teleschmie.de/glossar/llmo/)
+
+---
+
+### GEO Action Plan 2026: Guide zur KI-Sichtbarkeit
+
+
+Moin! 🌻
+
+Machen wir uns nichts vor: Die Welt der Suche hat sich in den letzten Monaten radikaler verändert als in den letzten 20 Jahren davor. Wer heute bei Google nach einer Lösung sucht, bekommt oft gar keine Liste mit zehn blauen Links mehr zu sehen. Stattdessen erscheint ein präziser, zusammengefasster Text – die **Answer Engine**.
+
+"Jörg, wie schaffe ich es, dass mein Name in dieser Antwort steht?"
+
+Diese Frage höre ich in jeder [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/), und die Antwort lautet: Nicht durch Panik, sondern durch Handwerk. Wir müssen nicht alles über den Haufen werfen, aber wir müssen die Art und Weise, wie wir Informationen für Maschinen aufbereiten, professionalisieren.
+
+---
+
+
+  Warum wir uns entspannen können (aber müssen)
+  GEO (Generative Engine Optimization) ist kein Voodoo. Es ist die logische Weiterentwicklung von technischem SEO und E-E-A-T. Die KI "liest" das Internet nicht wie ein Mensch, aber sie "versteht" Konzepte und Verbindungen. Unser Job ist es, diese Verbindungen für die KI so offensichtlich wie möglich zu machen. Wer hier auf "Pfusch am Bau" setzt, wird von den LLMs gnadenlos ignoriert.
+
+
+---
+
+### Der 6-Schritte-Plan im Überblick
+
+Bevor wir ins Detail gehen, hier die Kurzfassung deiner neuen GEO-Strategie. Scannbar, präzise und ohne Schnickschnack.
+
+| Schritt | Bezeichnung | Fokus | Ziel |
+| :--- | :--- | :--- | :--- |
+| **1** | **Status Quo messen** | Audit & Baseline | Wissen, wo man steht |
+| **2** | **Entitäten definieren** | Profile & USP | Eindeutige Identität für KIs |
+| **3** | **Quellen glattziehen** | Konsistenz-Check | Widersprüche eliminieren |
+| **4** | **Content-GEO** | Answer-First Design | Schnelle Informations-Extraktion |
+| **5** | **Schema Markup** | JSON-LD & @id | Maschinensprache beherrschen |
+| **6** | **Re-Tracking** | Erfolgskontrolle | Langfristige Autorität sichern |
+
+---
+
+Hier ist mein **GEO Action Plan 2026**. Ein entspannter, aber hochgradig effizienter 6-Schritte-Fahrplan, um dich von der Unsichtbarkeit direkt ins "Kurzzeitgedächtnis" der großen Sprachmodelle (LLMs) zu katapultieren.
+
+## Der Plan: Schritt für Schritt zur KI-Sichtbarkeit
+
+### Schritt 1: Status Quo messen – Wo liegt das Problem?
+
+Jede Reise beginnt mit einer ehrlichen Bestandsaufnahme. Bevor wir die erste Zeile Code ändern oder den Content umschreiben, müssen wir wissen: Was wissen ChatGPT, Perplexity, Gemini und Claude eigentlich über dich?
+
+#### Das manuelle Audit
+Nimm dir eine Stunde Zeit und stelle den KIs spezifische Fragen zu deinem Fachgebiet:
+- "Wer sind die Experten für [Dein Thema]?"
+- "Welche Lösungen gibt es für [Problem X]?"
+- "Was kannst du mir über [Deine Brand/Deinen Namen] sagen?"
+
+#### Die Daten-Variante (Scalable Audit)
+Wenn du es professioneller willst, nutze Tools wie Rankscale oder den AI Tracker von SE Ranking. 
+
+**Worauf du achten musst:**
+- **Mentions:** Fällt dein Name überhaupt?
+- **Citations:** Wirst du als Quelle verlinkt?
+- **Sentiment:** Spricht die KI positiv, neutral oder (Gott bewahre) negativ über dich?
+
+
+   💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Wer heute noch glaubt, dass eine einfache Textwüste auf der Website reicht, der hat die Kontrolle über seine digitale Sichtbarkeit verloren. Ohne Audit fährst du nachts auf der Autobahn ohne Licht. Wir machen jetzt das Fernlicht an."
+
+
+---
+
+### Schritt 2: Entitäten definieren – Wer bist du eigentlich?
+
+In der klassischen SEO haben wir für Keywords optimiert. In 2026 optimieren wir für **Entitäten**. Eine Entität ist ein eindeutiger "Fakt" im Wissensnetz der KI. Stell dir vor, du bist eine Marke – die KI muss dich wie eine Datei in einer Datenbank ablegen können.
+
+#### Dein digitales ID-Card-Management:
+Wir müssen dein Profil schärfen. Wir legen fest:
+- Was ist dein **Unique Selling Point (USP)**?
+- Mit welchen anderen Entitäten bist du verknüpft (z.B. deine Firma, deine Partner, deine Fachgebiete)?
+- Welche "Claims" willst du besetzen?
+
+Die KI muss dich als eine unstrittige, vertrauenswürdige Wissens-Einheit begreifen. Nur dann kann sie dich sicher empfehlen, ohne zu "halluzinieren". Das ist das digitale Fundament – wir wollen keinen "Pfusch am Bau".
+
+
+  💡 Der Digital Architect Tipp
+  Stell dir dein Entity-Profil wie eine digitale Visitenkarte vor, die von tausenden Robotern gleichzeitig gelesen wird. Wenn die ID (dein Name + dein USP) nicht eindeutig ist, wirst du im Rauschen der Konkurrenz untergehen wie ein Goldfisch auf Espresso.
+
+
+---
+
+### Schritt 3: Eigene Quellen glattziehen – Das Fundament reinigen
+
+LLMs hassen Widersprüche. Wenn auf deiner Website steht, du bietest "SEO für Cafés" an, aber dein LinkedIn-Profil sagt "SEO für Software-Unternehmen", dann wird die KI unsicher. Unsicherheit führt zu Nicht-Erwähnung.
+
+#### Die Aufräum-Checkliste:
+1.  **Website-Konsistenz:** Überprüf deine "Über mich"-Seite und die Leistungsseiten. Sind die Informationen präzise und aktuell?
+2.  **Social Proof:** LinkedIn, Xing, Speaker-Profile – überall müssen die Kernfakten (deine Expertise) identisch sein.
+3.  **Noise removal:** Lösche oder archiviere veraltete Inhalte, die dein aktuelles Experten-Profil verwässern.
+
+---
+
+### Schritt 4: Inhalte für KI optimieren – Answer-First Design
+
+Das ist der kreative Teil. Wir schreiben nicht mehr für "Google-Bots", sondern für Systeme, die Informationen extrahieren wollen.
+
+#### Das Prinzip der "Informations-Dichte"
+Vermeide Füllwörter und lange "Storytelling"-Einleitungen, wenn der Nutzer eine Antwort sucht.
+
+**So baust du einen GEO-optimierten Content-Block:**
+- **Die Frage:** Verwende klare Fragen in der H2-Überschrift.
+- **Die Antwort:** Gib die Antwort direkt im ersten Satz (max. 40-50 Wörter).
+- **Die Vertiefung:** Nutze Listen, Tabellen und Bullet-Points, um die Informationen maschinenlesbar zu machen.
+
+
+   💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Hör auf, die KI mit Prosa zu langweilen. Wer heute noch 'Herzlich willkommen auf meiner Seite' schreibt, hat den Kampf um den Token-Slot der KI schon verloren. Sei präzise wie ein Schweizer Uhrwerk oder sei unsichtbar wie die Deutsche Bahn bei Schnee."
+
+
+---
+
+### Schritt 5: Strukturierte Daten einbauen – Maschinensprache lernen
+
+Als "Digital Architect" ist das mein Lieblingsthema. Wir nutzen [Technisches Schema-Markup](https://teleschmie.de/glossar/technisches-schema-markup/) (JSON-LD), um der KI die Hand zu reichen.
+
+#### Was wir einbauen müssen:
+- **Person & Organization Schema:** Mit der `sameAs`-Verknüpfung zu all deinen anderen Profilen.
+- **FAQPage Schema:** Für jeden Glossar-Eintrag und jede Service-Seite.
+- **Article & BlogPosting Schema:** Um Autorität und Datum zu sichern.
+
+**Der Clou:** Wir nutzen `@id`-Referenzen, um verschiedene Schema-Typen miteinander zu verknüpfen. So versteht die KI die Hierarchie und den Kontext deiner gesamten digitalen Identität.
+
+---
+
+### Schritt 6: Re-Tracking – Der Moment der Wahrheit
+
+SEO (und GEO) ist kein einmaliges Projekt, sondern ein Prozess. Nachdem wir die Änderungen live gestellt haben, brauchen wir Geduld – aber keine endlose Geduld.
+
+**Die Erfolgskriterien:**
+1.  **Sentiment-Check:** Hat sich die Art, wie die KI über dich spricht, präzisiert?
+2.  **Citation-Tracking:** Tauchen Links zu deiner Website in den Quellenverzeichnissen von Perplexity oder Gemini auf?
+3.  **Entity-Stabilität:** Wenn du die KI fragst: "Wer ist [Dein Name]?", liefert sie ein schärferes, korrektes Profil?
+
+
+  Dranbleiben ist die einzige Strategie
+  GEO ist kein 'Set-and-Forget'. Wer oben bleiben will, muss den Rhythmus halten wie ein Profi-Sportler. Die Belohnung? Eine Autorität, die man nicht mit Werbebudget kaufen kann.
+
+
+---
+
+## Bottom Line: Sichtbarkeit ist kein Zufall
+
+In der Welt der LLMs gewinnt nicht der mit dem meisten Text, sondern der mit der höchsten **Informations-Autorität**.
+
+Mein **GEO Action Plan** ist dein Kompass in dieser neuen Such-Landschaft. Wir fangen entspannt an, messen den Status Quo, ziehen die Strukturen glatt und sorgen durch technische Exzellenz dafür, dass die KI keine andere Wahl hat, als dich zu empfehlen.
+
+Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answer-Engine-Ära. Ich helfe dir dabei, dein Profil zu schärfen und deine Inhalte "KI-sicher" zu machen.
+
+ALOHA! 🌻✌️
+
+
+  Willst du dein echtes KI-Ranking wissen?
+  Hör auf zu raten. Mit dem **Rankscale Page Audit** siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten. Das ist der ultimative Tacheles-Check für dein Business.
+  Rankscale Page Audit 🌻
+
+
+* **Lese-Tipp:** [KI-Sichtbarkeit messen: Der ultimative Guide](https://teleschmie.de/glossar/ki-sichtbarkeit-messen-optimieren/)
+* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool für Profis](https://teleschmie.de/blog/rankscale-ai-visibility-tool/)
+* **Lese-Tipp:** [Technisches Schema-Markup: Guide für LLMs](https://teleschmie.de/glossar/technisches-schema-markup/)
 
 ---
 

@@ -167,6 +167,8 @@ Mein **GEO Action Plan** ist dein Kompass in dieser neuen Such-Landschaft. Wir f
 
 Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answer-Engine-Ära. Ich helfe dir dabei, dein Profil zu schärfen und deine Inhalte "KI-sicher" zu machen.
 
+ALOHA! 🌻✌️
+
 <div class="blog-cta-box !bg-dark !border-none !text-white px-10">
   <h3 class="text-2xl font-bold mb-4 !text-white">Willst du dein echtes KI-Ranking wissen?</h3>
   <p class="mb-6 opacity-90 !text-white">Hör auf zu raten. Mit dem **Rankscale Page Audit** siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten. Das ist der ultimative Tacheles-Check für dein Business.</p>
@@ -176,5 +178,3 @@ Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answe
 * **Lese-Tipp:** [KI-Sichtbarkeit messen: Der ultimative Guide](/glossar/ki-sichtbarkeit-messen-optimieren/)
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool für Profis](/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [Technisches Schema-Markup: Guide für LLMs](/glossar/technisches-schema-markup/)
-
-ALOHA! 🌻✌️

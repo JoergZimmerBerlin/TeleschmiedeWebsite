@@ -129,17 +129,25 @@ const displayDescription = truncate(description, 150);
       let cachedWindowHeight = 0;
       let hasBlogContent = false;
 
-      const refreshMetrics = () => {
-        const content = document.getElementById('blog-content');
-        cachedWindowHeight = window.innerHeight;
-        hasBlogContent = !!content;
-        if (content) {
-          cachedTotalHeight = content.offsetHeight;
+      function refreshMetrics() {
+        // Use requestIdleCallback or setTimeout to calculate when the layout is stable
+        const calculate = () => {
+          cachedWindowHeight = window.innerHeight;
+          const content = document.getElementById('blog-content') || document.documentElement;
           cachedContentTop = content.offsetTop;
+          cachedTotalHeight = content.scrollHeight - cachedWindowHeight;
+          if (!document.getElementById('blog-content')) {
+            cachedTotalHeight = document.documentElement.scrollHeight - cachedWindowHeight;
+          }
+          requestTick();
+        };
+
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(calculate, { timeout: 2000 });
         } else {
-          cachedTotalHeight = document.documentElement.scrollHeight - cachedWindowHeight;
+          setTimeout(calculate, 300);
         }
-      };
+      }
 
       const updateProgress = () => {
         const progressBar = document.getElementById('progress-bar');

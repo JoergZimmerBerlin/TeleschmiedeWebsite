@@ -52,10 +52,7 @@ const displayDescription = truncate(description, 150);
     <meta name="description" content={displayDescription} />
 
     <!-- DNS Prefetch (Early Discovery) -->
-    <link rel="dns-prefetch" href="https://www.linkedin.com" />
-    <link rel="dns-prefetch" href="https://www.youtube.com" />
-    <link rel="preconnect" href="https://www.linkedin.com" crossorigin />
-    <link rel="preconnect" href="https://www.youtube.com" crossorigin />
+    <!-- Preload critical font (High Priority) -->
 
     <!-- Preload critical font (High Priority) -->
     <link rel="preload" href={`${baseUrl}/fonts/inter-latin.woff2`} as="font" type="font/woff2" crossorigin="anonymous" />
@@ -133,11 +130,14 @@ const displayDescription = truncate(description, 150);
         // Use requestIdleCallback or setTimeout to calculate when the layout is stable
         const calculate = () => {
           cachedWindowHeight = window.innerHeight;
-          const content = document.getElementById('blog-content') || document.documentElement;
-          cachedContentTop = content.offsetTop;
-          cachedTotalHeight = content.scrollHeight - cachedWindowHeight;
-          if (!document.getElementById('blog-content')) {
-            cachedTotalHeight = document.documentElement.scrollHeight - cachedWindowHeight;
+          cachedTotalHeight = document.documentElement.scrollHeight - cachedWindowHeight;
+          const content = document.getElementById('blog-content');
+          if (content) {
+            cachedContentTop = content.offsetTop;
+            cachedTotalHeight = content.scrollHeight;
+            hasBlogContent = true;
+          } else {
+            hasBlogContent = false;
           }
           requestTick();
         };

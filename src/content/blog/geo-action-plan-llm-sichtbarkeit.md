@@ -172,7 +172,7 @@ ALOHA! 🌻✌️
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du dein echtes KI-Ranking wissen?</h3>
   <p class="mb-6 opacity-90">Hör auf zu raten. Mit dem **Rankscale Page Audit** siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten. Das ist der ultimative Tacheles-Check für dein Business.</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale Audit starten 🌻</a>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Rankscale Page Audit 🌻</a>
 </div>
 
 * **Lese-Tipp:** [KI-Sichtbarkeit messen: Der ultimative Guide](/glossar/ki-sichtbarkeit-messen-optimieren/)

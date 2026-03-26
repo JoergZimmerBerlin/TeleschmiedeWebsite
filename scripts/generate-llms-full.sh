@@ -5,8 +5,9 @@ GLOSSARY_DIR="src/content/glossar"
 BLOG_DIR="src/content/blog"
 DOMAIN="https://teleschmie.de"
 
-# Start with the main llms.txt content
-cat public/llms.txt > "$OUTPUT"
+# Start with the main llms.txt content (adding BOM for IONOS encoding fix)
+printf '\357\273\277' > "$OUTPUT"
+cat public/llms.txt >> "$OUTPUT"
 echo -e "\n---\n" >> "$OUTPUT"
 echo -e "# FULL KNOWLEDGE BASE\n" >> "$OUTPUT"
 
@@ -14,13 +15,13 @@ echo -e "# FULL KNOWLEDGE BASE\n" >> "$OUTPUT"
 echo -e "## TABLE OF CONTENTS\n" >> "$OUTPUT"
 echo -e "### Glossary\n" >> "$OUTPUT"
 for file in $(ls "$GLOSSARY_DIR"/*.md | sort); do
-    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g' | sed 's/ä/ae/g;s/ö/oe/g;s/ü/ue/g;s/Ä/Ae/g;s/Ö/Oe/g;s/Ü/Ue/g;s/ß/ss/g')
     echo "- $TITLE" >> "$OUTPUT"
 done
 
 echo -e "\n### Blog Articles\n" >> "$OUTPUT"
 for file in $(ls "$BLOG_DIR"/*.md | sort -r); do
-    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g' | sed 's/ä/ae/g;s/ö/oe/g;s/ü/ue/g;s/Ä/Ae/g;s/Ö/Oe/g;s/Ü/Ue/g;s/ß/ss/g')
     echo "- $TITLE" >> "$OUTPUT"
 done
 
@@ -29,27 +30,29 @@ echo -e "\n---\n" >> "$OUTPUT"
 echo -e "## GLOSSARY\n" >> "$OUTPUT"
 # Process Glossary (Alphabetical)
 for file in $(ls "$GLOSSARY_DIR"/*.md | sort); do
-    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g' | sed 's/ä/ae/g;s/ö/oe/g;s/ü/ue/g;s/Ä/Ae/g;s/Ö/Oe/g;s/Ü/Ue/g;s/ß/ss/g')
     echo -e "### $TITLE\n" >> "$OUTPUT"
-    # Append body content: skip first two frontmatter dashes, absolute URLs, strip HTML
+    # Append body content: skip first two frontmatter dashes, absolute URLs, strip HTML, ASCII fallback
     awk 'BEGIN{c=0} /^---$/ && c<2 {c++; next} c>=2 {print}' "$file" | \
     sed 's/<[^>]*>//g' | \
     sed -E "s|\]\((/[^)]*)\)|]($DOMAIN\1)|g" | \
-    sed -E "s|\]\(\.\./\.\./|]($DOMAIN/|g" >> "$OUTPUT"
+    sed -E "s|\]\(\.\./\.\./|]($DOMAIN/|g" | \
+    sed 's/ä/ae/g;s/ö/oe/g;s/ü/ue/g;s/Ä/Ae/g;s/Ö/Oe/g;s/Ü/Ue/g;s/ß/ss/g' >> "$OUTPUT"
     echo -e "\n---\n" >> "$OUTPUT"
 done
 
 echo -e "## BLOG ARTICLES\n" >> "$OUTPUT"
 # Process Blog (Newest first)
 for file in $(ls "$BLOG_DIR"/*.md | sort -r); do
-    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g')
+    TITLE=$(grep "^title:" "$file" | head -1 | sed 's/title: //;s/"//g' | sed 's/ä/ae/g;s/ö/oe/g;s/ü/ue/g;s/Ä/Ae/g;s/Ö/Oe/g;s/Ü/Ue/g;s/ß/ss/g')
     echo -e "### $TITLE\n" >> "$OUTPUT"
-    # Append body content: skip first two frontmatter dashes, absolute URLs, strip HTML
+    # Append body content: skip first two frontmatter dashes, absolute URLs, strip HTML, ASCII fallback
     awk 'BEGIN{c=0} /^---$/ && c<2 {c++; next} c>=2 {print}' "$file" | \
     sed 's/<[^>]*>//g' | \
     sed -E "s|\]\((/[^)]*)\)|]($DOMAIN\1)|g" | \
-    sed -E "s|\]\(\.\./\.\./|]($DOMAIN/|g" >> "$OUTPUT"
+    sed -E "s|\]\(\.\./\.\./|]($DOMAIN/|g" | \
+    sed 's/ä/ae/g;s/ö/oe/g;s/ü/ue/g;s/Ä/Ae/g;s/Ö/Oe/g;s/Ü/Ue/g;s/ß/ss/g' >> "$OUTPUT"
     echo -e "\n---\n" >> "$OUTPUT"
 done
 
-echo "llms-full.txt updated successfully with absolute URLs and native UTF-8 characters (HTML stripped)."
+echo "llms-full.txt updated successfully with absolute URLs and ASCII-safe replacements for German characters."

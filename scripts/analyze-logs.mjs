@@ -90,10 +90,11 @@ async function analyzeLogs() {
       day.bots[bot.name].lastSeen = data.date;
 
       if (!day.pages[data.url]) {
-        day.pages[data.url] = { count: 0, errors: 0, bots: new Set() };
+        day.pages[data.url] = { count: 0, errors: 0, bots: new Set(), categories: {} };
       }
       day.pages[data.url].count++;
       day.pages[data.url].bots.add(bot.name);
+      day.pages[data.url].categories[bot.category] = (day.pages[data.url].categories[bot.category] || 0) + 1;
 
       if (data.status >= 400) {
         day.errors.total++;
@@ -109,6 +110,8 @@ async function analyzeLogs() {
         Object.values(day.pages).forEach(page => {
           if (page.bots instanceof Set) {
             page.uniqueBots = page.bots.size;
+            // No delete page.bots if we want to know exact bots? 
+            // But let's keep it clean for now and use categories.
             delete page.bots;
           }
         });

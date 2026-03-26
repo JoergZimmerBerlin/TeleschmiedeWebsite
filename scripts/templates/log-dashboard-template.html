@@ -26,6 +26,14 @@
         .progress-bg { background: #30363d; height: 6px; border-radius: 3px; overflow: hidden; }
         .progress-fill { background: #3fb950; height: 100%; transition: width 0.5s; }
         .error-glow { box-shadow: 0 0 15px rgba(248, 81, 73, 0.1) inset; border-color: rgba(248, 81, 73, 0.3) !important; }
+        
+        /* Fallback for blocked Tailwind */
+        @media (min-width: 1024px) {
+            .lg-grid-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; }
+            .lg-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+        }
+        .grid-fallback { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+        .grid-fallback > * { flex: 1; min-width: 250px; }
     </style>
 </head>
 <body class="p-4 md:p-10">
@@ -131,8 +139,9 @@
                             <th class="pb-4 pl-4">URL Path</th>
                             <th class="pb-4 text-center">AI Coverage</th>
                             <th class="pb-4 text-center">Unikate Bots</th>
+                            <th class="pb-4 text-center">Assistant Hits</th>
                             <th class="pb-4 text-center">Status</th>
-                            <th class="pb-4 text-right pr-4">Hits</th>
+                            <th class="pb-4 text-right pr-4">Total Hits</th>
                         </tr>
                     </thead>
                     <tbody id="page-table-body"></tbody>
@@ -373,12 +382,14 @@
             pageBody.innerHTML = '';
             Object.entries(pages).sort((a,b) => b[1].count - a[1].count).slice(0, 15).forEach(([url, data]) => {
                 const score = (data.uniqueBots / totalAiBotsInConfig) * 100;
+                const assistantHits = data.categories?.ai_assistant || 0;
                 const tr = document.createElement('tr');
                 tr.className = 'bg-[#1c2128] hover:bg-[#22272e] transition';
                 tr.innerHTML = `
                     <td class="py-3 pl-4 rounded-l-xl max-w-xs truncate font-mono text-xs text-blue-400" title="${url}">${url}</td>
                     <td class="py-3 w-40 px-4"><div class="progress-bg"><div class="progress-fill" style="width: ${score}%"></div></div></td>
                     <td class="py-3 text-center text-xs text-gray-400">${data.uniqueBots} / ${totalAiBotsInConfig}</td>
+                    <td class="py-3 text-center font-bold ${assistantHits > 0 ? 'text-[#3fb950]' : 'text-gray-600'}">${assistantHits}</td>
                     <td class="py-3 text-center">${data.errors > 0 ? '<span class="text-red-400 text-[10px] font-bold">⚠️ Error</span>' : '<span class="text-green-500 text-[10px] font-bold">✓ OK</span>'}</td>
                     <td class="py-3 text-right pr-4 font-bold rounded-r-xl">${data.count.toLocaleString('de-DE')}</td>
                 `;

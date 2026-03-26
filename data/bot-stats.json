@@ -1,53 +1,153 @@
 {
-  "_meta": { "total_ai_bots": 14 },
-  "25/Mar/2026": {
-    "total": 5000,
-    "categories": { 
-      "seo_classic": 2500, 
-      "ai_assistant": 800, 
-      "geo_grounding": 1200, 
-      "ai_training": 500, 
-      "other": 0 
-    },
-    "errors": { 
-      "total": 12, 
-      "byCategory": { "ai_assistant": 8, "geo_grounding": 4 } 
+  "_meta": {
+    "total_ai_bots": 14
+  },
+  "24/Mar/2026": {
+    "total": 120,
+    "categories": {
+      "seo_classic": 80,
+      "ai_assistant": 20,
+      "geo_search": 15,
+      "ai_training": 5
     },
     "bots": {
-      "Googlebot": { "count": 2200, "lastSeen": "25/Mar/2026:23:59:59", "provider": "Google", "purpose": "Standard Indexierung", "category": "seo_classic", "pages": { "/": 1000, "/blog/": 800, "/glossar/": 400 }, "errors": 0 },
-      "ChatGPT-User": { "count": 450, "lastSeen": "25/Mar/2026:22:10:00", "provider": "OpenAI", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/blog/seo-sprechstunde/": 400, "/non-existent-page": 50 }, "errors": 8 },
-      "Claude-User": { "count": 200, "lastSeen": "25/Mar/2026:18:30:00", "provider": "Anthropic", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/groundingpage/": 150 }, "errors": 0 },
-      "Perplexity-User": { "count": 150, "lastSeen": "25/Mar/2026:21:45:00", "provider": "Perplexity", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/blog/magic-writing/": 150 }, "errors": 0 },
-      "Google-Other": { "count": 800, "lastSeen": "25/Mar/2026:20:50:00", "provider": "Google", "purpose": "AI Overviews (GEO)", "category": "geo_grounding", "pages": { "/blog/core-web-vitals/": 800 }, "errors": 4 },
-      "OAI-SearchBot": { "count": 400, "lastSeen": "25/Mar/2026:12:00:00", "provider": "OpenAI", "purpose": "Search Index (GEO)", "category": "geo_grounding", "pages": { "/": 400 }, "errors": 0 },
-      "GPTBot": { "count": 500, "lastSeen": "25/Mar/2026:10:00:00", "provider": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/blog/": 500 }, "errors": 0 }
+      "Googlebot": {
+        "count": 70,
+        "provider": "Google",
+        "purpose": "Indexing",
+        "category": "seo_classic",
+        "lastSeen": "24/Mar/2026"
+      },
+      "ChatGPT-User": {
+        "count": 15,
+        "provider": "OpenAI",
+        "purpose": "Citation",
+        "category": "ai_assistant",
+        "lastSeen": "24/Mar/2026"
+      },
+      "OAI-SearchBot": {
+        "count": 10,
+        "provider": "OpenAI",
+        "purpose": "Search",
+        "category": "geo_search",
+        "lastSeen": "24/Mar/2026"
+      }
     },
     "pages": {
-      "/": { "count": 1400, "uniqueBots": 4, "errors": 0 },
-      "/blog/seo-sprechstunde/": { "count": 400, "uniqueBots": 12, "errors": 8 },
-      "/blog/core-web-vitals/": { "count": 800, "uniqueBots": 8, "errors": 4 },
-      "/groundingpage/": { "count": 150, "uniqueBots": 6, "errors": 0 },
-      "/non-existent-page": { "count": 50, "uniqueBots": 2, "errors": 8 }
+      "/": {
+        "count": 50,
+        "errors": 0,
+        "uniqueBots": 5
+      },
+      "/blog/ai-seo": {
+        "count": 30,
+        "errors": 2,
+        "uniqueBots": 3
+      }
+    },
+    "folders": {
+      "/": {
+        "count": 70
+      },
+      "/blog": {
+        "count": 50
+      }
+    },
+    "errors": {
+      "total": 2,
+      "byCategory": {
+        "ai_assistant": 2
+      }
     }
   },
-  "26/Mar/2026": {
-    "total": 1200,
-    "categories": { 
-      "seo_classic": 500, 
-      "ai_assistant": 400, 
-      "geo_grounding": 200, 
-      "ai_training": 100, 
-      "other": 0 
+  "25/Mar/2026": {
+    "total": 150,
+    "categories": {
+      "seo_classic": 90,
+      "ai_assistant": 30,
+      "geo_search": 20,
+      "ai_training": 10
     },
-    "errors": { "total": 0, "byCategory": {} },
     "bots": {
-      "Googlebot": { "count": 400, "lastSeen": "26/Mar/2026:21:30:00", "provider": "Google", "purpose": "Standard Indexierung", "category": "seo_classic", "pages": { "/": 400 }, "errors": 0 },
-      "ChatGPT-User": { "count": 300, "lastSeen": "26/Mar/2026:21:40:00", "provider": "OpenAI", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/": 300 }, "errors": 0 },
-      "Claude-User": { "count": 100, "lastSeen": "26/Mar/2026:20:15:00", "provider": "Anthropic", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/blog/": 100 }, "errors": 0 }
+      "Googlebot": {
+        "count": 80,
+        "provider": "Google",
+        "purpose": "Indexing",
+        "category": "seo_classic",
+        "lastSeen": "25/Mar/2026"
+      },
+      "ChatGPT-User": {
+        "count": 25,
+        "provider": "OpenAI",
+        "purpose": "Citation",
+        "category": "ai_assistant",
+        "lastSeen": "25/Mar/2026"
+      },
+      "PerplexityBot": {
+        "count": 15,
+        "provider": "Perplexity",
+        "purpose": "Search",
+        "category": "geo_search",
+        "lastSeen": "25/Mar/2026"
+      }
     },
     "pages": {
-      "/": { "count": 700, "uniqueBots": 6, "errors": 0 },
-      "/blog/": { "count": 100, "uniqueBots": 3, "errors": 0 }
+      "/": {
+        "count": 60,
+        "errors": 0,
+        "uniqueBots": 6
+      },
+      "/glossar/crawler": {
+        "count": 40,
+        "errors": 0,
+        "uniqueBots": 4
+      }
+    },
+    "folders": {
+      "/": {
+        "count": 80
+      },
+      "/glossar": {
+        "count": 70
+      }
+    },
+    "errors": {
+      "total": 0,
+      "byCategory": {}
+    }
+  },
+  "15/Feb/2026": {
+    "total": 100,
+    "categories": {
+      "seo_classic": 70,
+      "ai_assistant": 10,
+      "geo_search": 10,
+      "ai_training": 10
+    },
+    "bots": {
+      "Googlebot": {
+        "count": 60,
+        "provider": "Google",
+        "purpose": "Indexing",
+        "category": "seo_classic",
+        "lastSeen": "15/Feb/2026"
+      }
+    },
+    "pages": {
+      "/": {
+        "count": 100,
+        "errors": 0,
+        "uniqueBots": 3
+      }
+    },
+    "folders": {
+      "/": {
+        "count": 100
+      }
+    },
+    "errors": {
+      "total": 0,
+      "byCategory": {}
     }
   }
 }

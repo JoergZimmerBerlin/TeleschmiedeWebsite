@@ -22,6 +22,7 @@
         .bg-assistant { background: #1b2e2d; color: #3fb950; border: 1px solid #3fb95040; }
         .bg-geo { background: #2b1d4c; color: #bc8cff; }
         .bg-training { background: #30363d; color: #8b949e; }
+        .bg-grounding { background: #3b1e1e; color: #ff7b72; border: 1px solid #ff7b7240; }
         .progress-bg { background: #30363d; height: 6px; border-radius: 3px; overflow: hidden; }
         .progress-fill { background: #3fb950; height: 100%; transition: width 0.5s; }
         .error-glow { box-shadow: 0 0 15px rgba(248, 81, 73, 0.1) inset; border-color: rgba(248, 81, 73, 0.3) !important; }
@@ -38,10 +39,12 @@
                 <h1 class="text-4xl font-extrabold tracking-tight text-white mb-1">AI-Assistant & GEO Analysis</h1>
                 <p class="text-gray-400">Optimieren Sie Ihre Sichtbarkeit f&uuml;r Zitate in ChatGPT, Claude & Co.</p>
             </div>
-            <div class="flex gap-2" id="range-picker">
+            <div class="flex gap-2 flex-wrap" id="range-picker">
                 <button class="btn" onclick="setRange(7)">7 Tage</button>
                 <button class="btn active" onclick="setRange(30)">30 Tage</button>
-                <button class="btn" onclick="setRange('mom')">MoM Comparison</button>
+                <button class="btn" onclick="setRange(90)">90 Tage</button>
+                <button class="btn" onclick="setRange('all')">Gesamtverlauf</button>
+                <button class="btn" onclick="setRange('mom')">Vormonat (MoM)</button>
             </div>
         </header>
 
@@ -60,8 +63,8 @@
                     <span class="badge bg-geo">GEO Search</span>
                     <h3 class="text-[10px] font-bold uppercase tracking-widest text-gray-500">AI Discovery</h3>
                 </div>
-                <div id="geo_grounding-total" class="stat-value text-[#bc8cff]">-</div>
-                <div id="geo_grounding-change" class="text-xs"></div>
+                <div id="geo_search-total" class="stat-value text-[#bc8cff]">-</div>
+                <div id="geo_search-change" class="text-xs"></div>
             </div>
             <div class="card" id="error-card">
                 <div class="flex items-center gap-2 mb-3">
@@ -88,9 +91,9 @@
                 <div class="flex justify-between items-center mb-6">
                     <h3 class="text-xl font-bold text-white">Bot Activity Trends</h3>
                     <div class="text-[10px] text-gray-500 flex gap-4">
-                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#3fb950]"></span> Assistants</span>
-                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#bc8cff]"></span> GEO</span>
-                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#58a6ff]"></span> SEO</span>
+                        <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-[#3fb950]"></span> Assistants</span>
+                        <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-[#bc8cff]"></span> GEO</span>
+                        <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-[#58a6ff]"></span> SEO</span>
                     </div>
                 </div>
                 <div style="height: 350px;">
@@ -102,28 +105,25 @@
                 <!-- GEO Visibility Score Card -->
                 <div class="card bg-[#1b2e2d20] border-[#3fb95030]">
                     <h3 class="text-lg font-bold text-[#3fb950] mb-2">AI Visibility Score</h3>
-                    <p class="text-xs text-gray-400 mb-6">Wie viele der 2026 relevanten AI-Bots haben Ihren Content bereits gecrawlt?</p>
+                    <p class="text-xs text-gray-400 mb-6">Prozentualer Anteil der AI-Bots (2026 Standard), die Ihren Content bereits gecrawlt haben.</p>
                     <div id="global-visibility-score" class="text-5xl font-black text-white mb-2">0%</div>
                     <div class="progress-bg mb-4">
                         <div id="global-visibility-fill" class="progress-fill" style="width: 0%"></div>
                     </div>
-                    <p class="text-[10px] text-gray-500 leading-relaxed uppercase tracking-widest">
-                        Focus: High-Value Citations & Grounding
-                    </p>
                 </div>
-                <!-- Log Insight -->
-                <div class="card border-yellow-900/30 bg-yellow-900/5">
-                    <h4 class="text-xs font-bold text-yellow-500 uppercase tracking-widest mb-2">2026 Strategy Tip</h4>
-                    <p class="text-xs text-gray-400 leading-relaxed">
-                        Wenn <strong>ChatGPT-User</strong> oder <strong>Perplexity-User</strong> Fehler (4xx/5xx) werfen, verlieren Sie Zitate in Echtzeit-Diskursen. Pr&uuml;fen Sie die Fehlerliste unten!
-                    </p>
+                <!-- Folder Analysis -->
+                <div class="card">
+                    <h3 class="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-4">Crawl-Budget nach Verzeichnis</h3>
+                    <div id="folder-stats" class="space-y-3">
+                        <!-- Dynamic content -->
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Pages Table -->
         <div class="card mb-10">
-            <h3 class="text-xl font-bold text-white mb-6">Page Detail: AI Discovery & Health</h3>
+            <h3 class="text-xl font-bold text-white mb-6">Engagement per Page: AI Discovery</h3>
             <div class="overflow-x-auto">
                 <table class="w-full text-left text-sm border-separate border-spacing-y-2">
                     <thead>
@@ -142,16 +142,16 @@
 
         <!-- Bot Inventory -->
         <div class="card">
-            <h3 class="text-xl font-bold text-white mb-6">Bot Inventory (Comprehensive Tracking)</h3>
+            <h3 class="text-xl font-bold text-white mb-6">Bot-Inventar (Technisches Detail)</h3>
             <div class="overflow-x-auto">
                 <table class="w-full text-left text-sm border-separate border-spacing-y-2">
                     <thead>
                         <tr class="text-gray-500 uppercase text-[10px] tracking-widest">
                             <th class="pb-4 pl-4">Bot / Platform</th>
-                            <th class="pb-4">Category</th>
+                            <th class="pb-4">Kategorie</th>
                             <th class="pb-4 text-right">Anfragen</th>
                             <th class="pb-4 text-right">Fehler</th>
-                            <th class="pb-4 text-right pr-4">Last Seen</th>
+                            <th class="pb-4 text-right pr-4">Letzter Aufruf</th>
                         </tr>
                     </thead>
                     <tbody id="bot-table-body"></tbody>
@@ -161,7 +161,7 @@
         
         <footer class="mt-10 py-6 border-t border-[#30363d] text-center">
             <p class="text-[10px] text-gray-600 uppercase tracking-[0.3em]">
-                Inspired by Eric Hinzpeter, Fabian Jaeckert & Screaming Frog • 2026 AI-Ready Dashboard
+                Teleschmie.de • AI-First Infrastructure 2026
             </p>
         </footer>
     </div>
@@ -173,8 +173,9 @@
         let trendChart;
 
         const CATEGORIES = {
-            ai_assistant: { label: 'AI Assistants', color: '#3fb950', badge: 'bg-assistant' },
-            geo_grounding: { label: 'GEO Search', color: '#bc8cff', badge: 'bg-geo' },
+            ai_assistant: { label: 'Assistenten', color: '#3fb950', badge: 'bg-assistant' },
+            geo_search: { label: 'GEO Search', color: '#bc8cff', badge: 'bg-geo' },
+            ai_grounding: { label: 'KI-Grounding', color: '#ff7b72', badge: 'bg-grounding' },
             seo_classic: { label: 'SEO Classic', color: '#58a6ff', badge: 'bg-seo' },
             ai_training: { label: 'AI Training', color: '#8b949e', badge: 'bg-training' }
         };
@@ -182,15 +183,22 @@
         function setRange(range) {
             currentRange = range;
             document.querySelectorAll('#range-picker button').forEach(b => b.classList.remove('active'));
-            event.target.classList.add('active');
+            if (event) event.target.classList.add('active');
             updateDashboard();
+        }
+
+        function parseMonth(m) {
+            const months = { Jan:0, Feb:1, Mar:2, Apr:3, May:4, Jun:5, Jul:6, Aug:7, Sep:8, Oct:9, Nov:10, Dec:11 };
+            return months[m] !== undefined ? months[m] : 0;
         }
 
         function getSortedDates() {
             return Object.keys(rawData).filter(k => !k.startsWith('_')).sort((a,b) => {
                 const [d1, m1, y1] = a.split('/');
                 const [d2, m2, y2] = b.split('/');
-                return new Date(`${y1}-${m1}-${d1}`) - new Date(`${y2}-${m2}-${d2}`);
+                const date1 = new Date(parseInt(y1), parseMonth(m1), parseInt(d1));
+                const date2 = new Date(parseInt(y2), parseMonth(m2), parseInt(d2));
+                return date1 - date2;
             });
         }
 
@@ -201,6 +209,9 @@
             if (currentRange === 'mom') {
                 selectedDates = allDates.slice(-30);
                 prevDates = allDates.slice(-60, -30);
+            } else if (currentRange === 'all') {
+                selectedDates = allDates;
+                prevDates = [];
             } else {
                 selectedDates = allDates.slice(-currentRange);
                 prevDates = allDates.slice(-currentRange * 2, -currentRange);
@@ -220,14 +231,14 @@
             const s = Object.keys(CATEGORIES).reduce((acc, cat) => {
                 acc[cat] = {
                     current: sum(currentDates, cat),
-                    prev: sum(prevDates, cat)
+                    prev: (prevDates && prevDates.length) ? sum(prevDates, cat) : 0
                 };
                 return acc;
             }, {});
 
             s.errors = {
                 current: errSum(currentDates),
-                prev: errSum(prevDates),
+                prev: (prevDates && prevDates.length) ? errSum(prevDates) : 0,
                 rate: (totalSum(currentDates) > 0) ? (errSum(currentDates) / totalSum(currentDates)) * 100 : 0
             };
 
@@ -241,37 +252,40 @@
                 if (!el) return;
                 el.textContent = data.current.toLocaleString('de-DE');
                 const changeEl = document.getElementById(`${cat}-change`);
-                if (data.prev > 0) {
-                    const diff = ((data.current - data.prev) / data.prev) * 100;
-                    const color = diff >= 0 ? 'green' : 'red';
-                    changeEl.innerHTML = `<span class="${color} font-bold">${diff >= 0 ? '↑' : '↓'} ${Math.abs(diff).toFixed(1)}%</span> vs Prev`;
-                } else {
-                    changeEl.textContent = 'Neu';
+                if (changeEl) {
+                    if (data.prev > 0) {
+                        const diff = ((data.current - data.prev) / data.prev) * 100;
+                        const color = diff >= 0 ? 'green' : 'red';
+                        changeEl.innerHTML = `<span class="${color} font-bold">${diff >= 0 ? '↑' : '↓'} ${Math.abs(diff).toFixed(1)}%</span>`;
+                    } else {
+                        changeEl.textContent = '–';
+                    }
                 }
             });
 
-            // Errors
             document.getElementById('error-total').textContent = stats.errors.current.toLocaleString('de-DE');
-            document.getElementById('error-rate').textContent = `${stats.errors.rate.toFixed(2)}% Error Rate`;
-            if (stats.errors.current > 0) {
-                document.getElementById('error-card').classList.add('error-glow');
-            } else {
-                document.getElementById('error-card').classList.remove('error-glow');
-            }
+            document.getElementById('error-rate').textContent = `${stats.errors.rate.toFixed(2)}% Quote`;
+            const errorCard = document.getElementById('error-card');
+            if (stats.errors.current > 0) errorCard.classList.add('error-glow');
+            else errorCard.classList.remove('error-glow');
         }
 
         function renderCharts(dates) {
             if (trendChart) trendChart.destroy();
+            let labels = dates.map(d => d.split('/')[0] + '.' + d.split('/')[1]);
+            if (dates.length > 60) labels = dates.map((d, i) => i % 5 === 0 ? d.split('/')[1] + '/' + d.split('/')[2].slice(-2) : '');
+
             trendChart = new Chart(document.getElementById('trendChart'), {
                 type: 'line',
                 data: {
-                    labels: dates.map(d => d.split('/')[0] + '.' + d.split('/')[1]),
-                    datasets: ['ai_assistant', 'geo_grounding', 'seo_classic'].map(cat => ({
+                    labels: labels,
+                    datasets: ['ai_assistant', 'geo_search', 'seo_classic'].map(cat => ({
                         label: CATEGORIES[cat].label,
-                        data: dates.map(d => rawData[d].categories[cat] || 0),
+                        data: dates.map(d => (rawData[d].categories[cat] || 0)),
                         borderColor: CATEGORIES[cat].color,
                         tension: 0.3,
                         pointRadius: 0,
+                        pointHitRadius: 10,
                         fill: false
                     }))
                 },
@@ -279,10 +293,13 @@
                     responsive: true,
                     maintainAspectRatio: false,
                     scales: {
-                        y: { beginAtZero: true, grid: { color: '#30363d' }, ticks: { color: '#8b949e' } },
-                        x: { grid: { display: false }, ticks: { color: '#8b949e' } }
+                        y: { beginAtZero: true, grid: { color: '#30363d' }, ticks: { color: '#8b949e', font: { size: 10 } } },
+                        x: { grid: { display: false }, ticks: { color: '#8b949e', font: { size: 9 }, maxRotation: 0 } }
                     },
-                    plugins: { legend: { display: false } }
+                    plugins: { 
+                        legend: { display: false },
+                        tooltip: { backgroundColor: '#161b22', titleColor: '#fff', borderColor: '#30363d', borderWidth: 1 }
+                    }
                 }
             });
         }
@@ -290,46 +307,61 @@
         function renderTables(dates) {
             const bots = {};
             const pages = {};
+            const folders = {};
             let uniqueAiBotsEncountered = new Set();
 
             dates.forEach(d => {
-                Object.entries(rawData[d].bots).forEach(([name, data]) => {
+                const day = rawData[d];
+                Object.entries(day.bots).forEach(([name, data]) => {
                     if (!bots[name]) bots[name] = { ...data, count: 0, errors: 0 };
                     bots[name].count += data.count;
                     bots[name].errors += (data.errors || 0);
                     bots[name].lastSeen = data.lastSeen;
                     if (data.category !== 'seo_classic') uniqueAiBotsEncountered.add(name);
                 });
-                
-                Object.entries(rawData[d].pages).forEach(([url, data]) => {
+                Object.entries(day.pages).forEach(([url, data]) => {
                     if (!pages[url]) pages[url] = { count: 0, errors: 0, uniqueBots: 0 };
                     pages[url].count += data.count;
                     pages[url].errors += (data.errors || 0);
-                    pages[url].uniqueBots = Math.max(pages[url].uniqueBots, data.uniqueBots);
+                    pages[url].uniqueBots = Math.max(pages[url].uniqueBots, data.uniqueBots || 0);
                 });
+                if (day.folders) {
+                    Object.entries(day.folders).forEach(([folder, data]) => {
+                        if (!folders[folder]) folders[folder] = { count: 0 };
+                        folders[folder].count += data.count;
+                    });
+                }
             });
 
-            // Global score
             const globalScore = (uniqueAiBotsEncountered.size / totalAiBotsInConfig) * 100;
             document.getElementById('global-visibility-score').textContent = `${Math.round(globalScore)}%`;
             document.getElementById('global-visibility-fill').style.width = `${globalScore}%`;
 
-            // Bot Table
+            // Folder Stats
+            const folderStats = document.getElementById('folder-stats');
+            folderStats.innerHTML = '';
+            const totalHits = Object.values(folders).reduce((s,f) => s + f.count, 0);
+            Object.entries(folders).sort((a,b) => b[1].count - a[1].count).slice(0, 5).forEach(([folder, data]) => {
+                const pct = (data.count / totalHits) * 100;
+                folderStats.innerHTML += `
+                    <div>
+                        <div class="flex justify-between text-[10px] mb-1">
+                            <span class="text-blue-400 font-mono">${folder}</span>
+                            <span class="text-gray-400">${Math.round(pct)}%</span>
+                        </div>
+                        <div class="progress-bg"><div class="progress-fill bg-blue-500" style="width: ${pct}%"></div></div>
+                    </div>
+                `;
+            });
+
             const botBody = document.getElementById('bot-table-body');
             botBody.innerHTML = '';
             Object.entries(bots).sort((a,b) => b[1].count - a[1].count).forEach(([name, data]) => {
                 const tr = document.createElement('tr');
                 tr.className = 'bg-[#1c2128] hover:bg-[#22272e] transition';
                 tr.innerHTML = `
-                    <td class="py-3 pl-4 rounded-l-xl">
-                        <div class="font-bold flex items-center gap-2">
-                            ${name}
-                            <span class="text-[9px] text-gray-500 font-normal">by ${data.provider}</span>
-                        </div>
-                    </td>
-                    <td class="py-3">
-                        <span class="badge ${CATEGORIES[data.category].badge}">${CATEGORIES[data.category].label}</span>
-                    </td>
+                    <td class="py-3 pl-4 rounded-l-xl"><div class="font-bold flex items-center gap-2">${name} <span class="text-[9px] text-gray-500 font-normal">by ${data.provider}</span></div></td>
+                    <td class="py-3"><span class="badge ${CATEGORIES[data.category].badge}">${CATEGORIES[data.category].label}</span></td>
                     <td class="py-3 text-right font-mono font-bold">${data.count.toLocaleString('de-DE')}</td>
                     <td class="py-3 text-right ${data.errors > 0 ? 'text-red-500 font-bold' : 'text-gray-500'}">${data.errors}</td>
                     <td class="py-3 text-right pr-4 text-[10px] text-gray-500 rounded-r-xl">${data.lastSeen}</td>
@@ -337,7 +369,6 @@
                 botBody.appendChild(tr);
             });
 
-            // Page Table
             const pageBody = document.getElementById('page-table-body');
             pageBody.innerHTML = '';
             Object.entries(pages).sort((a,b) => b[1].count - a[1].count).slice(0, 15).forEach(([url, data]) => {
@@ -346,17 +377,9 @@
                 tr.className = 'bg-[#1c2128] hover:bg-[#22272e] transition';
                 tr.innerHTML = `
                     <td class="py-3 pl-4 rounded-l-xl max-w-xs truncate font-mono text-xs text-blue-400" title="${url}">${url}</td>
-                    <td class="py-3 w-40 px-4">
-                        <div class="progress-bg">
-                            <div class="progress-fill" style="width: ${score}%"></div>
-                        </div>
-                    </td>
+                    <td class="py-3 w-40 px-4"><div class="progress-bg"><div class="progress-fill" style="width: ${score}%"></div></div></td>
                     <td class="py-3 text-center text-xs text-gray-400">${data.uniqueBots} / ${totalAiBotsInConfig}</td>
-                    <td class="py-3 text-center">
-                        ${data.errors > 0 
-                            ? `<span class="text-red-400 text-[10px] font-bold">⚠️ ${data.errors} Errors</span>` 
-                            : `<span class="text-green-500 text-[10px] font-bold">✓ Healthy</span>`}
-                    </td>
+                    <td class="py-3 text-center">${data.errors > 0 ? '<span class="text-red-400 text-[10px] font-bold">⚠️ Error</span>' : '<span class="text-green-500 text-[10px] font-bold">✓ OK</span>'}</td>
                     <td class="py-3 text-right pr-4 font-bold rounded-r-xl">${data.count.toLocaleString('de-DE')}</td>
                 `;
                 pageBody.appendChild(tr);

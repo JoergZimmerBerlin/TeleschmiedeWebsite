@@ -29,7 +29,7 @@ AddCharset UTF-8 .txt .md .json
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 
-# Permanente Weiterleitungen für Alt-URLs (direkt auf HTTPS Ziel)
+# Permanente Weiterleitungen fuer Alt-URLs (direkt auf HTTPS Ziel)
 Redirect 301 /html/impressum.html https://teleschmie.de/impressum/
 Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
@@ -40,11 +40,11 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# www zu non-www (optional, falls gewünscht)
+# www zu non-www (optional, falls gewuenscht)
 RewriteCond %{HTTP_HOST} ^www\.teleschmie.de [NC]
 RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
 
-# Veraltete Sitemaps löschen (410 Gone)
+# Veraltete Sitemaps loeschen (410 Gone)
 Redirect 410 /sitemap-index.xml
 Redirect 410 /sitemap-0.xml
 
@@ -53,7 +53,7 @@ Redirect 410 /sitemap-0.xml
   # Alte Methode (AddOutputFilterByType)
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript text/javascript application/json application/xml image/svg+xml
 
-  # Moderne Methode (mod_filter) für bessere Zuverlässigkeit
+  # Moderne Methode (mod_filter) fuer bessere Zuverlaessigkeit
   <IfModule mod_filter.c>
     FilterDeclare COMPRESS
     FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/(html|plain|xml|css|javascript)#"
@@ -62,7 +62,7 @@ Redirect 410 /sitemap-0.xml
     FilterProtocol COMPRESS change=yes;remove=gzip,deflate
   </IfModule>
 
-  # Zusätzliche Fallback-Regel für .js Dateien
+  # Zusaetzliche Fallback-Regel fuer .js Dateien
   <FilesMatch "\.(js)$">
     SetOutputFilter DEFLATE
   </FilesMatch>

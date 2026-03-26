@@ -208,7 +208,7 @@
     </div>
 
     <script>
-        const rawData = '{{BOT_DATA_JSON_STR}}';
+        const rawData = /* {{BOT_DATA_JSON_STR}} */ 'placeholder';
         const totalAiBotsInConfig = rawData._meta?.total_ai_bots || 14;
         let currentRange = 30;
         let trendChart;

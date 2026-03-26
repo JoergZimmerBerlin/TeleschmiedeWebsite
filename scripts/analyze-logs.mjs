@@ -12,29 +12,41 @@ const TEMPLATE_FILE = path.join(__dirname, 'templates/log-dashboard-template.htm
 const OUTPUT_FILE = path.join(__dirname, '../dist/admin/logs/index.html');
 
 const BOT_CATEGORIES = {
-  seo: [
-    { name: 'Googlebot', pattern: /Googlebot/i },
-    { name: 'Bingbot', pattern: /bingbot/i },
-    { name: 'YandexBot', pattern: /YandexBot/i },
-    { name: 'Baiduspider', pattern: /Baiduspider/i },
-    { name: 'DuckDuckBot', pattern: /DuckDuckBot/i },
-  ],
-  ai_training: [
-    { name: 'GPTBot', pattern: /GPTBot/i },
-    { name: 'ClaudeBot', pattern: /ClaudeBot/i },
-    { name: 'CCBot', pattern: /CCBot/i },
-    { name: 'Meta-ExternalAgent', pattern: /Meta-ExternalAgent/i },
-    { name: 'Amazonbot', pattern: /Amazonbot/i },
-    { name: 'CrawlSitemapCo', pattern: /CrawlSitemapCo/i },
-    { name: 'AI2Bot', pattern: /AI2Bot/i },
-  ],
-  ai_grounding: [
-    { name: 'ChatGPT-User', pattern: /ChatGPT-User/i },
-    { name: 'OAI-SearchBot', pattern: /OAI-SearchBot/i },
-    { name: 'PerplexityBot', pattern: /PerplexityBot/i },
-    { name: 'BingPreview', pattern: /BingPreview/i },
-    { name: 'Applebot-Extended', pattern: /Applebot-Extended/i },
-  ],
+  seo: {
+    label: 'Suchmaschinen',
+    bots: [
+      { name: 'Googlebot', pattern: /Googlebot/i, company: 'Google', purpose: 'Indexierung' },
+      { name: 'Bingbot', pattern: /bingbot/i, company: 'Microsoft', purpose: 'Indexierung' },
+      { name: 'YandexBot', pattern: /YandexBot/i, company: 'Yandex', purpose: 'Indexierung' },
+      { name: 'Baiduspider', pattern: /Baiduspider/i, company: 'Baidu', purpose: 'Indexierung' },
+      { name: 'DuckDuckBot', pattern: /DuckDuckBot/i, company: 'DuckDuckGo', purpose: 'Indexierung' },
+    ]
+  },
+  ai_training: {
+    label: 'AI-Training',
+    bots: [
+      { name: 'GPTBot', pattern: /GPTBot/i, company: 'OpenAI', purpose: 'Training' },
+      { name: 'ClaudeBot', pattern: /ClaudeBot/i, company: 'Anthropic', purpose: 'Training' },
+      { name: 'CCBot', pattern: /CCBot/i, company: 'Common Crawl', purpose: 'Dataset' },
+      { name: 'Meta-ExternalAgent', pattern: /Meta-ExternalAgent/i, company: 'Meta', purpose: 'Training' },
+      { name: 'Amazonbot', pattern: /Amazonbot/i, company: 'Amazon', purpose: 'Training' },
+    ]
+  },
+  ai_search: {
+    label: 'AI-Suche',
+    bots: [
+      { name: 'PerplexityBot', pattern: /PerplexityBot/i, company: 'Perplexity', purpose: 'Real-time Search' },
+      { name: 'OAI-SearchBot', pattern: /OAI-SearchBot/i, company: 'OpenAI', purpose: 'SearchGPT' },
+      { name: 'BingPreview', pattern: /BingPreview/i, company: 'Microsoft', purpose: 'Grounding' },
+    ]
+  },
+  ai_assistant: {
+    label: 'AI-Assistenten',
+    bots: [
+      { name: 'ChatGPT-User', pattern: /ChatGPT-User/i, company: 'OpenAI', purpose: 'User Browsing' },
+      { name: 'Claude-Web', pattern: /Claude-Web/i, company: 'Anthropic', purpose: 'User Browsing' },
+    ]
+  }
 };
 
 async function parseLogFile(filePath) {
@@ -45,32 +57,52 @@ async function parseLogFile(filePath) {
     crlfDelay: Infinity
   });
 
-  // Apache Combined Log Format regex
   const logRegex = /^(\S+) (\S+) (\S+) \[(.*?)\] "(.*?)" (\d{3}) (\S+) "(.*?)" "(.*?)"/;
 
   for await (const line of rl) {
     const match = line.match(logRegex);
     if (!match) continue;
 
-    const [,, , , timestamp, request, status, , , userAgent] = match;
+    const [,, , , timestamp, requestLine, status, , , userAgent] = match;
     const date = timestamp.split(':')[0]; // DD/MMM/YYYY
+    const request = requestLine.split(' ')[1] || '/';
 
     if (!stats[date]) {
       stats[date] = {
         total: 0,
-        categories: { seo: 0, ai_training: 0, ai_grounding: 0, other: 0 },
-        bots: {}
+        categories: { seo: 0, ai_training: 0, ai_search: 0, ai_assistant: 0, other: 0 },
+        bots: {},
+        pages: {}
       };
     }
 
     stats[date].total++;
     let found = false;
 
-    for (const [catName, bots] of Object.entries(BOT_CATEGORIES)) {
-      for (const bot of bots) {
+    for (const [catKey, catData] of Object.entries(BOT_CATEGORIES)) {
+      for (const bot of catData.bots) {
         if (bot.pattern.test(userAgent)) {
-          stats[date].categories[catName]++;
-          stats[date].bots[bot.name] = (stats[date].bots[bot.name] || 0) + 1;
+          stats[date].categories[catKey]++;
+          
+          if (!stats[date].bots[bot.name]) {
+            stats[date].bots[bot.name] = { 
+              count: 0, 
+              lastSeen: timestamp, 
+              company: bot.company, 
+              purpose: bot.purpose,
+              category: catKey,
+              pages: {}
+            };
+          }
+          
+          stats[date].bots[bot.name].count++;
+          stats[date].bots[bot.name].lastSeen = timestamp;
+          stats[date].bots[bot.name].pages[request] = (stats[date].bots[bot.name].pages[request] || 0) + 1;
+          
+          // Overall top pages per category
+          stats[date].pages[catKey] = stats[date].pages[catKey] || {};
+          stats[date].pages[catKey][request] = (stats[date].pages[catKey][request] || 0) + 1;
+          
           found = true;
           break;
         }
@@ -93,15 +125,30 @@ function mergeStats(current, newData) {
     } else {
       current[date].total += data.total;
       for (const cat of Object.keys(data.categories)) {
-        current[date].categories[cat] += data.categories[cat];
+        current[date].categories[cat] = (current[date].categories[cat] || 0) + data.categories[cat];
       }
-      for (const [bot, count] of Object.entries(data.bots)) {
-        current[date].bots[bot] = (current[date].bots[bot] || 0) + count;
+      for (const [botName, botData] of Object.entries(data.bots)) {
+        if (!current[date].bots[botName]) {
+          current[date].bots[botName] = botData;
+        } else {
+          current[date].bots[botName].count += botData.count;
+          current[date].bots[botName].lastSeen = botData.lastSeen;
+          for (const [page, count] of Object.entries(botData.pages)) {
+            current[date].bots[botName].pages[page] = (current[date].bots[botName].pages[page] || 0) + count;
+          }
+        }
+      }
+      // Merge category top pages
+      current[date].pages = current[date].pages || {};
+      for (const [cat, pages] of Object.entries(data.pages || {})) {
+        current[date].pages[cat] = current[date].pages[cat] || {};
+        for (const [page, count] of Object.entries(pages)) {
+          current[date].pages[cat][page] = (current[date].pages[cat][page] || 0) + count;
+        }
       }
     }
   }
 }
-
 async function run() {
   const args = process.argv.slice(2);
   const mode = args[0] || '--all';

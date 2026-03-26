@@ -3,196 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log-Analyse Dashboard | Teleschmie.de</title>
+    <title>Premium Bot-Analyse Dashboard | Teleschmie.de</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; background-color: #0d1117; color: #c9d1d9; }
-        .card { background: #161b22; border: 1px solid #30363d; border-radius: 0.75rem; padding: 1.5rem; }
-        .stat-value { font-size: 2rem; font-weight: 700; color: #58a6ff; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 0.75rem; padding: 1.5rem; transition: all 0.2s; }
+        .card:hover { border-color: #58a6ff; }
+        .stat-value { font-size: 2.25rem; font-weight: 700; color: #58a6ff; }
+        .btn { padding: 0.5rem 1rem; border-radius: 0.5rem; border: 1px solid #30363d; background: #21262d; font-size: 0.875rem; transition: all 0.2s; }
+        .btn:hover { background: #30363d; border-color: #8b949e; }
+        .btn.active { background: #1f6feb; border-color: #388bfd; color: white; }
         .green { color: #3fb950; }
         .red { color: #f85149; }
+        .badge { padding: 0.125rem 0.5rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+        .bg-seo { background: #05264c; color: #58a6ff; }
+        .bg-training { background: #2b1d4c; color: #bc8cff; }
+        .bg-search { background: #1b2e2d; color: #3fb950; }
+        .bg-assistant { background: #4c2b1d; color: #ffa657; }
     </style>
 </head>
 <body class="p-4 md:p-8">
-    <div class="max-w-6xl mx-auto">
-        <header class="flex justify-between items-center mb-8">
+    <div class="max-w-7xl mx-auto">
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
             <div>
-                <h1 class="text-3xl font-bold">Bot-Analyse Dashboard</h1>
-                <p class="text-gray-400">Teleschmie.de | Crawler & AI-Bots</p>
+                <h1 class="text-4xl font-bold tracking-tight">Bot-Analyse Dashboard</h1>
+                <p class="text-gray-400 mt-1">Detaillierte Einsicht in Crawler, AI-Bots und Assistenten auf Teleschmie.de</p>
             </div>
-            <div id="last-update" class="text-sm text-gray-500"></div>
+            <div class="flex gap-2" id="range-picker">
+                <button class="btn" onclick="setRange(7)">7 Tage</button>
+                <button class="btn active" onclick="setRange(30)">30 Tage</button>
+                <button class="btn" onclick="setRange('mom')">Vormonat-Vergleich</button>
+            </div>
         </header>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <!-- Summary Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             <div class="card">
-                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">SEO-Crawls</h3>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="badge bg-seo">SEO</span>
+                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">Suchmaschinen</h3>
+                </div>
                 <div id="seo-total" class="stat-value">-</div>
-                <div id="seo-change" class="text-sm mt-2"></div>
+                <div id="seo-change" class="text-sm mt-1"></div>
             </div>
             <div class="card">
-                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">AI-Training</h3>
-                <div id="ai-training-total" class="stat-value">-</div>
-                <div id="ai-training-change" class="text-sm mt-2"></div>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="badge bg-training">Training</span>
+                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">AI-Training</h3>
+                </div>
+                <div id="training-total" class="stat-value">-</div>
+                <div id="training-change" class="text-sm mt-1"></div>
             </div>
             <div class="card">
-                <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">AI-Grounding</h3>
-                <div id="ai-grounding-total" class="stat-value">-</div>
-                <div id="ai-grounding-change" class="text-sm mt-2"></div>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="badge bg-search">Suche</span>
+                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">AI-Suche</h3>
+                </div>
+                <div id="search-total" class="stat-value">-</div>
+                <div id="search-change" class="text-sm mt-1"></div>
+            </div>
+            <div class="card">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="badge bg-assistant">Assistent</span>
+                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">AI-Assistent</h3>
+                </div>
+                <div id="assistant-total" class="stat-value">-</div>
+                <div id="assistant-change" class="text-sm mt-1"></div>
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div class="card">
-                <h3 class="text-lg font-semibold mb-4">Crawler-Trends (Letzte 30 Tage)</h3>
-                <canvas id="trendChart"></canvas>
+        <!-- Charts Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            <div class="card lg:col-span-2">
+                <h3 class="text-lg font-semibold mb-6">Crawler-Trends</h3>
+                <div style="height: 300px;">
+                    <canvas id="trendChart"></canvas>
+                </div>
             </div>
             <div class="card">
-                <h3 class="text-lg font-semibold mb-4">Bot-Verteilung (Current Month)</h3>
-                <canvas id="distributionChart"></canvas>
+                <h3 class="text-lg font-semibold mb-6">Bot-Verteilung (Aktuell)</h3>
+                <div style="height: 300px;">
+                    <canvas id="distributionChart"></canvas>
+                </div>
             </div>
         </div>
 
-        <div class="card">
-            <h3 class="text-lg font-semibold mb-4">Top Bots (Top 10)</h3>
-            <div class="overflow-x-auto">
-                <table class="w-full text-left">
-                    <thead>
-                        <tr class="border-b border-gray-700">
-                            <th class="py-2">Bot</th>
-                            <th class="py-2">Kategorie</th>
-                            <th class="py-2 text-right">Anfragen</th>
-                        </tr>
-                    </thead>
-                    <tbody id="bot-table-body">
-                        <!-- Bot rows will be inserted here -->
-                    </tbody>
-                </table>
+        <!-- Detailed Inventory -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="card">
+                <h3 class="text-lg font-semibold mb-6">Bot-Inventar & Aktivität</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <thead>
+                            <tr class="border-b border-gray-700 text-gray-400">
+                                <th class="pb-3">Bot</th>
+                                <th class="pb-3">Firma / Zweck</th>
+                                <th class="pb-3 text-right">Anfragen</th>
+                                <th class="pb-3 text-right">Last Seen</th>
+                            </tr>
+                        </thead>
+                        <tbody id="bot-table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card">
+                <h3 class="text-lg font-semibold mb-6">Meist-gecrawlte Unterseiten</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <thead>
+                            <tr class="border-b border-gray-700 text-gray-400">
+                                <th class="pb-3">URL</th>
+                                <th class="pb-3 text-right">Anfragen</th>
+                                <th class="pb-3 text-right">Top-Bot</th>
+                            </tr>
+                        </thead>
+                        <tbody id="page-table-body"></tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 
     <script>
         const rawData = {{BOT_DATA}};
-        
-        function formatNumber(num) {
-            return num.toLocaleString('de-DE');
+        let currentRange = 30;
+        let trendChart, distributionChart;
+
+        const CATEGORIES = {
+            seo: { label: 'Suchmaschinen', color: '#58a6ff', badge: 'bg-seo' },
+            ai_training: { label: 'AI-Training', color: '#bc8cff', badge: 'bg-training' },
+            ai_search: { label: 'AI-Suche', color: '#3fb950', badge: 'bg-search' },
+            ai_assistant: { label: 'AI-Assistent', color: '#ffa657', badge: 'bg-assistant' }
+        };
+
+        function formatDisplayDate(dateStr) {
+            const [d, m, y] = dateStr.split('/');
+            return `${d}. ${m}`;
         }
 
-        function calculateStats() {
-            const sortedDates = Object.keys(rawData).sort((a,b) => {
+        function setRange(range) {
+            currentRange = range;
+            document.querySelectorAll('#range-picker button').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            updateDashboard();
+        }
+
+        function getSortedDates() {
+            return Object.keys(rawData).sort((a,b) => {
                 const [d1, m1, y1] = a.split('/');
                 const [d2, m2, y2] = b.split('/');
                 return new Date(`${y1}-${m1}-${d1}`) - new Date(`${y2}-${m2}-${d2}`);
             });
-
-            const labels = sortedDates.slice(-30);
-            const seoData = labels.map(d => rawData[d].categories.seo);
-            const trainingData = labels.map(d => rawData[d].categories.ai_training);
-            const groundingData = labels.map(d => rawData[d].categories.ai_grounding);
-
-            // Totals and Peaks
-            const currentMonth = new Date().toLocaleString('en-US', { month: 'short' });
-            const prevMonth = new Date(new Date().setMonth(new Date().getMonth() - 1)).toLocaleString('en-US', { month: 'short' });
-
-            const getMonthlyTotal = (month, category) => {
-                return Object.entries(rawData)
-                    .filter(([date]) => date.includes(month))
-                    .reduce((sum, [_, data]) => sum + (data.categories[category] || 0), 0);
-            };
-
-            const stats = {
-                seo: { current: getMonthlyTotal(currentMonth, 'seo'), prev: getMonthlyTotal(prevMonth, 'seo') },
-                training: { current: getMonthlyTotal(currentMonth, 'ai_training'), prev: getMonthlyTotal(prevMonth, 'ai_training') },
-                grounding: { current: getMonthlyTotal(currentMonth, 'ai_grounding'), prev: getMonthlyTotal(prevMonth, 'ai_grounding') }
-            };
-
-            updateUI(stats, labels, seoData, trainingData, groundingData);
         }
 
-        function updateUI(stats, labels, seoTrend, trainingTrend, groundingTrend) {
-            const renderChange = (current, prev, elId) => {
-                const el = document.getElementById(elId);
-                if (prev === 0) {
-                    el.innerHTML = '<span class="text-gray-500">Keine Vergleichsdaten</span>';
-                    return;
+        function updateDashboard() {
+            const allDates = getSortedDates();
+            let selectedDates, prevDates;
+
+            if (currentRange === 'mom') {
+                selectedDates = allDates.slice(-30);
+                prevDates = allDates.slice(-60, -30);
+            } else {
+                selectedDates = allDates.slice(-currentRange);
+                prevDates = allDates.slice(-currentRange * 2, -currentRange);
+            }
+
+            const stats = calculateStats(selectedDates, prevDates);
+            renderStats(stats);
+            renderCharts(selectedDates, stats);
+            renderTables(selectedDates);
+        }
+
+        function calculateStats(currentDates, prevDates) {
+            const sum = (dates, cat) => dates.reduce((s, d) => s + (rawData[d].categories[cat] || 0), 0);
+            return Object.keys(CATEGORIES).reduce((acc, cat) => {
+                acc[cat] = {
+                    current: sum(currentDates, cat),
+                    prev: sum(prevDates, cat)
+                };
+                return acc;
+            }, {});
+        }
+
+        function renderStats(stats) {
+            Object.entries(stats).forEach(([cat, data]) => {
+                document.getElementById(`${cat}-total`).textContent = data.current.toLocaleString('de-DE');
+                const changeEl = document.getElementById(`${cat}-change`);
+                if (data.prev > 0) {
+                    const diff = ((data.current - data.prev) / data.prev) * 100;
+                    const color = diff >= 0 ? 'green' : 'red';
+                    changeEl.innerHTML = `<span class="${color}">${diff >= 0 ? '+' : ''}${diff.toFixed(1)}%</span> vs. Vorperiode`;
+                } else {
+                    changeEl.innerHTML = '<span class="text-gray-500">Kein Vergleich</span>';
                 }
-                const diff = ((current - prev) / prev) * 100;
-                const sign = diff >= 0 ? '+' : '';
-                const color = diff >= 0 ? 'green' : 'red';
-                el.innerHTML = `<span class="${color}">${sign}${diff.toFixed(1)}%</span> vs. Vormonat`;
-            };
+            });
+        }
 
-            document.getElementById('seo-total').textContent = formatNumber(stats.seo.current);
-            renderChange(stats.seo.current, stats.seo.prev, 'seo-change');
+        function renderCharts(dates, stats) {
+            if (trendChart) trendChart.destroy();
+            if (distributionChart) distributionChart.destroy();
 
-            document.getElementById('ai-training-total').textContent = formatNumber(stats.training.current);
-            renderChange(stats.training.current, stats.training.prev, 'ai-training-change');
-
-            document.getElementById('ai-grounding-total').textContent = formatNumber(stats.grounding.current);
-            renderChange(stats.grounding.current, stats.grounding.prev, 'ai-grounding-change');
-
-            // Trend Chart
-            new Chart(document.getElementById('trendChart'), {
+            trendChart = new Chart(document.getElementById('trendChart'), {
                 type: 'line',
                 data: {
-                    labels: labels,
-                    datasets: [
-                        { label: 'SEO', data: seoTrend, borderColor: '#58a6ff', tension: 0.3, fill: false },
-                        { label: 'Training', data: trainingTrend, borderColor: '#bc8cff', tension: 0.3, fill: false },
-                        { label: 'Grounding', data: groundingTrend, borderColor: '#3fb950', tension: 0.3, fill: false }
-                    ]
+                    labels: dates.map(formatDisplayDate),
+                    datasets: Object.entries(CATEGORIES).map(([cat, config]) => ({
+                        label: config.label,
+                        data: dates.map(d => rawData[d].categories[cat] || 0),
+                        borderColor: config.color,
+                        tension: 0.3,
+                        pointRadius: 0
+                    }))
                 },
-                options: { responsive: true, scales: { y: { beginAtZero: true, grid: { color: '#30363d' } }, x: { grid: { display: false } } } }
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: { beginAtZero: true, grid: { color: '#30363d' } },
+                        x: { grid: { display: false } }
+                    },
+                    plugins: { legend: { position: 'bottom', labels: { color: '#8b949e' } } }
+                }
             });
 
-            // Distribution Chart
-            new Chart(document.getElementById('distributionChart'), {
+            distributionChart = new Chart(document.getElementById('distributionChart'), {
                 type: 'doughnut',
                 data: {
-                    labels: ['SEO', 'AI Training', 'AI Grounding'],
+                    labels: Object.values(CATEGORIES).map(c => c.label),
                     datasets: [{
-                        data: [stats.seo.current, stats.training.current, stats.grounding.current],
-                        backgroundColor: ['#58a6ff', '#bc8cff', '#3fb950'],
+                        data: Object.keys(CATEGORIES).map(cat => stats[cat].current),
+                        backgroundColor: Object.values(CATEGORIES).map(c => c.color),
                         borderWidth: 0
                     }]
                 },
-                options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom', labels: { color: '#8b949e' } } }
+                }
             });
+        }
 
-            // Table
-            const botAggregation = {};
-            Object.values(rawData).forEach(day => {
-                Object.entries(day.bots).forEach(([name, count]) => {
-                    botAggregation[name] = (botAggregation[name] || 0) + count;
+        function renderTables(dates) {
+            const bots = {};
+            const pages = {};
+
+            dates.forEach(d => {
+                Object.entries(rawData[d].bots).forEach(([name, data]) => {
+                    if (!bots[name]) bots[name] = { ...data, count: 0, topPage: '' };
+                    bots[name].count += data.count;
+                    bots[name].lastSeen = data.lastSeen;
+                    
+                    Object.entries(data.pages).forEach(([url, count]) => {
+                        pages[url] = pages[url] || { count: 0, topBot: '' };
+                        pages[url].count += count;
+                        if (!pages[url].topBotCount || count > pages[url].topBotCount) {
+                            pages[url].topBotCount = count;
+                            pages[url].topBot = name;
+                        }
+                    });
                 });
             });
 
-            const sortedBots = Object.entries(botAggregation).sort((a,b) => b[1] - a[1]).slice(0, 10);
-            const tbody = document.getElementById('bot-table-body');
-            sortedBots.forEach(([name, count]) => {
+            // Bot Table
+            const botBody = document.getElementById('bot-table-body');
+            botBody.innerHTML = '';
+            Object.entries(bots).sort((a,b) => b[1].count - a[1].count).forEach(([name, data]) => {
+                const tr = document.createElement('tr');
+                tr.className = 'border-b border-gray-800 hover:bg-gray-800 transition cursor-help';
+                tr.innerHTML = `
+                    <td class="py-3">
+                        <div class="font-semibold">${name}</div>
+                        <span class="badge ${CATEGORIES[data.category].badge}">${CATEGORIES[data.category].label}</span>
+                    </td>
+                    <td class="py-3 text-gray-400">
+                        ${data.company}<br/><span class="text-xs opacity-75">${data.purpose}</span>
+                    </td>
+                    <td class="py-3 text-right font-mono">${data.count.toLocaleString('de-DE')}</td>
+                    <td class="py-3 text-right text-xs opacity-50">${data.lastSeen}</td>
+                `;
+                botBody.appendChild(tr);
+            });
+
+            // Page Table
+            const pageBody = document.getElementById('page-table-body');
+            pageBody.innerHTML = '';
+            Object.entries(pages).sort((a,b) => b[1].count - a[1].count).slice(0, 15).forEach(([url, data]) => {
                 const tr = document.createElement('tr');
                 tr.className = 'border-b border-gray-800 hover:bg-gray-800 transition';
                 tr.innerHTML = `
-                    <td class="py-3 font-semibold">${name}</td>
-                    <td class="py-3 text-sm text-gray-400">${getCategory(name)}</td>
-                    <td class="py-3 text-right font-mono">${formatNumber(count)}</td>
+                    <td class="py-3 truncate max-w-xs font-mono text-xs" title="${url}">${url}</td>
+                    <td class="py-3 text-right font-semibold">${data.count.toLocaleString('de-DE')}</td>
+                    <td class="py-3 text-right text-xs text-blue-400">${data.topBot}</td>
                 `;
-                tbody.appendChild(tr);
+                pageBody.appendChild(tr);
             });
         }
 
-        function getCategory(botName) {
-            const categories = {
-                'Googlebot': 'SEO', 'bingbot': 'SEO', 'YandexBot': 'SEO',
-                'GPTBot': 'AI Training', 'ClaudeBot': 'AI Training', 'CCBot': 'AI Training',
-                'ChatGPT-User': 'AI Grounding', 'PerplexityBot': 'AI Grounding', 'OAI-SearchBot': 'AI Grounding'
-            };
-            return categories[botName] || 'AI Bot';
-        }
-
-        calculateStats();
+        updateDashboard();
     </script>
 </body>
 </html>

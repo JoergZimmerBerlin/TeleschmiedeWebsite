@@ -1,17 +1,46 @@
 {
   "01/Feb/2026": {
-    "total": 600,
-    "categories": { "seo": 300, "ai_training": 100, "ai_grounding": 200, "other": 0 },
-    "bots": { "Googlebot": 250, "bingbot": 50, "GPTBot": 100, "ChatGPT-User": 200 }
+    "total": 2500,
+    "categories": { "seo": 1200, "ai_training": 400, "ai_search": 600, "ai_assistant": 300, "other": 0 },
+    "bots": {
+      "Googlebot": { "count": 1000, "lastSeen": "01/Feb/2026:23:55:00", "company": "Google", "purpose": "Indexierung", "category": "seo", "pages": { "/": 500, "/blog/": 300, "/leistungen/": 200 } },
+      "GPTBot": { "count": 400, "lastSeen": "01/Feb/2026:12:00:00", "company": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/blog/": 300, "/impressum/": 100 } },
+      "PerplexityBot": { "count": 600, "lastSeen": "01/Feb/2026:18:30:00", "company": "Perplexity", "purpose": "Real-time Search", "category": "ai_search", "pages": { "/blog/seo-sprechstunde-so-laeuft-sie-ab/": 400, "/": 200 } }
+    },
+    "pages": {
+      "seo": { "/": 500, "/blog/": 300, "/leistungen/": 200 },
+      "ai_training": { "/blog/": 300, "/impressum/": 100 },
+      "ai_search": { "/blog/seo-sprechstunde-so-laeuft-sie-ab/": 400, "/": 200 }
+    }
   },
-  "01/Mar/2026": {
-    "total": 900,
-    "categories": { "seo": 450, "ai_training": 150, "ai_grounding": 300, "other": 0 },
-    "bots": { "Googlebot": 400, "bingbot": 50, "GPTBot": 150, "ChatGPT-User": 300 }
+  "15/Mar/2026": {
+    "total": 3500,
+    "categories": { "seo": 1800, "ai_training": 600, "ai_search": 800, "ai_assistant": 300, "other": 0 },
+    "bots": {
+      "Googlebot": { "count": 1500, "lastSeen": "15/Mar/2026:23:59:00", "company": "Google", "purpose": "Indexierung", "category": "seo", "pages": { "/": 700, "/blog/": 500, "/glossar/": 300 } },
+      "GPTBot": { "count": 600, "lastSeen": "15/Mar/2026:14:20:00", "company": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/blog/": 500, "/glossar/": 100 } },
+      "PerplexityBot": { "count": 800, "lastSeen": "15/Mar/2026:10:15:00", "company": "Perplexity", "purpose": "Real-time Search", "category": "ai_search", "pages": { "/blog/": 600, "/": 200 } },
+      "ChatGPT-User": { "count": 300, "lastSeen": "15/Mar/2026:11:45:00", "company": "OpenAI", "purpose": "User Browsing", "category": "ai_assistant", "pages": { "/leistungen/": 300 } }
+    },
+    "pages": {
+      "seo": { "/": 700, "/blog/": 500, "/glossar/": 300 },
+      "ai_training": { "/blog/": 500, "/glossar/": 100 },
+      "ai_search": { "/blog/": 600, "/": 200 },
+      "ai_assistant": { "/leistungen/": 300 }
+    }
   },
   "26/Mar/2026": {
-    "total": 100,
-    "categories": { "seo": 50, "ai_training": 20, "ai_grounding": 30, "other": 0 },
-    "bots": { "Googlebot": 40, "bingbot": 10, "GPTBot": 20, "ChatGPT-User": 30 }
+    "total": 500,
+    "categories": { "seo": 200, "ai_training": 100, "ai_search": 150, "ai_assistant": 50, "other": 0 },
+    "bots": {
+      "Googlebot": { "count": 200, "lastSeen": "26/Mar/2026:21:00:00", "company": "Google", "purpose": "Indexierung", "category": "seo", "pages": { "/": 100, "/blog/": 100 } },
+      "GPTBot": { "count": 100, "lastSeen": "26/Mar/2026:15:30:00", "company": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/glossar/": 100 } },
+      "OAI-SearchBot": { "count": 150, "lastSeen": "26/Mar/2026:20:45:00", "company": "OpenAI", "purpose": "SearchGPT", "category": "ai_search", "pages": { "/": 150 } }
+    },
+    "pages": {
+      "seo": { "/": 100, "/blog/": 100 },
+      "ai_training": { "/glossar/": 100 },
+      "ai_search": { "/": 150 }
+    }
   }
 }

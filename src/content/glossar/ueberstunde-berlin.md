@@ -56,15 +56,19 @@ Das baut das Vertrauen auf, das für eine langfristige Zusammenarbeit essenziell
   <p class="mb-0 text-sm">Die Überstunde ist kein Ort für Hard-Selling. Lass die Verkaufspräsentation zu Hause. Sei einfach interessiert an den Menschen. Die Aufträge folgen ganz organisch, wenn die Chemie stimmt.</p>
 </div>
 
-## Vernetzung als Rankingfaktor?
+## Netzwerken 2.0: Die Formate der Überstunde
 
-Indirekt: Absolut. Starke Kooperationen in der Hauptstadt führen zu echten [Mentions](/glossar/mention/) und hochwertigen [Citations](/glossar/citation/). Echte Beziehungen im lokalen Raum Berlin stärken dein regionales Profil, was wiederum auf deine [Local SEO](/glossar/local-seo/) Strategie einzahlt. 
+Die Überstunde ist nicht einfach nur *ein* Event. Es ist ein Ökosystem für echtes Networking in Städten wie Berlin, Leipzig und München.
 
-Google erkennt diese Signale der lokalen Verwurzelung extrem genau. Wer im Gedächtnis der Berliner Wirtschaft bleibt, hat einen uneinholbaren Vorsprung gegenüber anonymen Billig-Anbietern.
+*   **ÜBERSTUNDE Afterwork:** Das klassische Format. Offen für alle, wechselnde Top-Locations (z.B. Mercedes-Benz Welt, THF Tower), Fokus auf den Austausch.
+*   **ÜBERSTUNDE KLUB:** Die exklusive Variante. Kleinere Runden, tiefgehende Gespräche und noch außergewöhnlichere Locations für geladene Gäste oder Mitglieder.
+*   **ÜBERSTUNDE Community:** Der digitale und analoge Hub für alle, die über das Event hinaus vernetzt bleiben und gemeinsam wachsen wollen.
+
+Weitere Infos und die nächsten Termine findest du direkt auf [ueberstunde.com](https://ueberstunde.com).
 
 ## Jörgs Action-Plan
 
-Wenn du mich das nächste Mal bei der Überstunde siehst: Sprich mich einfach an. Lass uns über deine Vision reden, über Berlin oder meinetwegen auch über das letzte Google Update. Hauptsache auf Augenhöhe und mit einem echten Interesse an der Lösung.
+Wenn du mich das nächste Mal bei der Überstunde siehst (vielleicht beim nächsten Event im Mercedes-Benz Center oder in einer coolen Rooftop-Bar): Sprich mich einfach an. Lass uns über deine Vision reden, über Berlin oder meinetwegen auch über das letzte Google Update. Hauptsache auf Augenhöhe und mit einem echten Interesse an der Lösung.
 
 ALOHA 🌻 
 

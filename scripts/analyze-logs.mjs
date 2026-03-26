@@ -12,42 +12,51 @@ const TEMPLATE_FILE = path.join(__dirname, 'templates/log-dashboard-template.htm
 const OUTPUT_FILE = path.join(__dirname, '../dist/admin/logs/index.html');
 
 const BOT_CATEGORIES = {
-  seo: {
-    label: 'Suchmaschinen',
+  seo_classic: {
+    label: 'SEO (Classic)',
+    description: 'Traditionelle Suchmaschinen-Crawler.',
     bots: [
-      { name: 'Googlebot', pattern: /Googlebot/i, company: 'Google', purpose: 'Indexierung' },
-      { name: 'Bingbot', pattern: /bingbot/i, company: 'Microsoft', purpose: 'Indexierung' },
-      { name: 'YandexBot', pattern: /YandexBot/i, company: 'Yandex', purpose: 'Indexierung' },
-      { name: 'Baiduspider', pattern: /Baiduspider/i, company: 'Baidu', purpose: 'Indexierung' },
-      { name: 'DuckDuckBot', pattern: /DuckDuckBot/i, company: 'DuckDuckGo', purpose: 'Indexierung' },
+      { name: 'Googlebot', pattern: /Googlebot(?!\-Other)/i, provider: 'Google', purpose: 'Standard Indexierung' },
+      { name: 'Bingbot', pattern: /bingbot/i, provider: 'Microsoft', purpose: 'Standard Indexierung' },
+      { name: 'YandexBot', pattern: /YandexBot/i, provider: 'Yandex', purpose: 'Indexierung' },
+      { name: 'Baiduspider', pattern: /Baiduspider/i, provider: 'Baidu', purpose: 'Indexierung' },
+    ]
+  },
+  ai_assistant: {
+    label: 'AI-Assistenten (Zitate)',
+    description: 'Echtzeit-Anfragen f&uuml;r Zitate in AI-Antworten (High-Value).',
+    bots: [
+      { name: 'ChatGPT-User', pattern: /ChatGPT-User/i, provider: 'OpenAI', purpose: 'Citation / Browsing' },
+      { name: 'Claude-User', pattern: /Claude-User/i, provider: 'Anthropic', purpose: 'Citation / Browsing' },
+      { name: 'Perplexity-User', pattern: /Perplexity-User/i, provider: 'Perplexity', purpose: 'Citation / Browsing' },
+    ]
+  },
+  geo_grounding: {
+    label: 'GEO / Search Bots',
+    description: 'AI-Suche & KI-augmentierte Indexierung.',
+    bots: [
+      { name: 'PerplexityBot', pattern: /PerplexityBot/i, provider: 'Perplexity', purpose: 'Search Index (GEO)' },
+      { name: 'OAI-SearchBot', pattern: /OAI-SearchBot/i, provider: 'OpenAI', purpose: 'Search Index (GEO)' },
+      { name: 'BingPreview', pattern: /BingPreview/i, provider: 'Microsoft', purpose: 'Grounding (GEO)' },
+      { name: 'Google-Other', pattern: /Google\-Other/i, provider: 'Google', purpose: 'AI Overviews (GEO)' },
     ]
   },
   ai_training: {
     label: 'AI-Training',
+    description: 'Bulk-Scraping f&uuml;r Modell-Training.',
     bots: [
-      { name: 'GPTBot', pattern: /GPTBot/i, company: 'OpenAI', purpose: 'Training' },
-      { name: 'ClaudeBot', pattern: /ClaudeBot/i, company: 'Anthropic', purpose: 'Training' },
-      { name: 'CCBot', pattern: /CCBot/i, company: 'Common Crawl', purpose: 'Dataset' },
-      { name: 'Meta-ExternalAgent', pattern: /Meta-ExternalAgent/i, company: 'Meta', purpose: 'Training' },
-      { name: 'Amazonbot', pattern: /Amazonbot/i, company: 'Amazon', purpose: 'Training' },
-    ]
-  },
-  ai_search: {
-    label: 'AI-Suche',
-    bots: [
-      { name: 'PerplexityBot', pattern: /PerplexityBot/i, company: 'Perplexity', purpose: 'Real-time Search' },
-      { name: 'OAI-SearchBot', pattern: /OAI-SearchBot/i, company: 'OpenAI', purpose: 'SearchGPT' },
-      { name: 'BingPreview', pattern: /BingPreview/i, company: 'Microsoft', purpose: 'Grounding' },
-    ]
-  },
-  ai_assistant: {
-    label: 'AI-Assistenten',
-    bots: [
-      { name: 'ChatGPT-User', pattern: /ChatGPT-User/i, company: 'OpenAI', purpose: 'User Browsing' },
-      { name: 'Claude-Web', pattern: /Claude-Web/i, company: 'Anthropic', purpose: 'User Browsing' },
+      { name: 'GPTBot', pattern: /GPTBot/i, provider: 'OpenAI', purpose: 'Training' },
+      { name: 'ClaudeBot', pattern: /ClaudeBot/i, provider: 'Anthropic', purpose: 'Training' },
+      { name: 'CCBot', pattern: /CCBot/i, provider: 'Common Crawl', purpose: 'Dataset' },
+      { name: 'Meta-ExternalAgent', pattern: /Meta-ExternalAgent/i, provider: 'Meta', purpose: 'Training' },
+      { name: 'Amazonbot', pattern: /Amazonbot/i, provider: 'Amazon', purpose: 'Training' },
+      { name: 'Applebot', pattern: /Applebot/i, provider: 'Apple', purpose: 'Training' },
+      { name: 'ByteSpider', pattern: /ByteSpider/i, provider: 'ByteDance', purpose: 'Training' },
     ]
   }
 };
+
+const TOTAL_AI_BOTS = Object.values(BOT_CATEGORIES).reduce((acc, cat) => cat.label.includes('AI') || cat.label.includes('GEO') ? acc + cat.bots.length : acc, 0);
 
 async function parseLogFile(filePath) {
   const stats = {};
@@ -66,14 +75,18 @@ async function parseLogFile(filePath) {
     const [,, , , timestamp, requestLine, status, , , userAgent] = match;
     const date = timestamp.split(':')[0]; // DD/MMM/YYYY
     const request = requestLine.split(' ')[1] || '/';
+    const statusCode = parseInt(status);
 
     if (!stats[date]) {
       stats[date] = {
         total: 0,
-        categories: { seo: 0, ai_training: 0, ai_search: 0, ai_assistant: 0, other: 0 },
+        categories: {},
+        errors: { total: 0, byCategory: {} },
         bots: {},
         pages: {}
       };
+      Object.keys(BOT_CATEGORIES).forEach(k => stats[date].categories[k] = 0);
+      stats[date].categories.other = 0;
     }
 
     stats[date].total++;
@@ -84,24 +97,37 @@ async function parseLogFile(filePath) {
         if (bot.pattern.test(userAgent)) {
           stats[date].categories[catKey]++;
           
+          if (statusCode >= 400) {
+              stats[date].errors.total++;
+              stats[date].errors.byCategory[catKey] = (stats[date].errors.byCategory[catKey] || 0) + 1;
+          }
+
           if (!stats[date].bots[bot.name]) {
             stats[date].bots[bot.name] = { 
               count: 0, 
               lastSeen: timestamp, 
-              company: bot.company, 
+              provider: bot.provider, 
               purpose: bot.purpose,
               category: catKey,
-              pages: {}
+              pages: {},
+              errors: 0
             };
           }
           
           stats[date].bots[bot.name].count++;
           stats[date].bots[bot.name].lastSeen = timestamp;
           stats[date].bots[bot.name].pages[request] = (stats[date].bots[bot.name].pages[request] || 0) + 1;
+          if (statusCode >= 400) stats[date].bots[bot.name].errors++;
           
-          // Overall top pages per category
-          stats[date].pages[catKey] = stats[date].pages[catKey] || {};
-          stats[date].pages[catKey][request] = (stats[date].pages[catKey][request] || 0) + 1;
+          // AI Visibility tracking
+          if (catKey !== 'seo_classic') {
+            if (!stats[date].pages[request]) {
+                stats[date].pages[request] = { bots: {}, count: 0, errors: 0 };
+            }
+            stats[date].pages[request].bots[bot.name] = true;
+            stats[date].pages[request].count++;
+            if (statusCode >= 400) stats[date].pages[request].errors++;
+          }
           
           found = true;
           break;
@@ -115,6 +141,13 @@ async function parseLogFile(filePath) {
     }
   }
 
+  for (const date in stats) {
+    for (const page in stats[date].pages) {
+        stats[date].pages[page].uniqueBots = Object.keys(stats[date].pages[page].bots).length;
+        delete stats[date].pages[page].bots;
+    }
+  }
+
   return stats;
 }
 
@@ -124,6 +157,13 @@ function mergeStats(current, newData) {
       current[date] = data;
     } else {
       current[date].total += data.total;
+      
+      current[date].errors = current[date].errors || { total: 0, byCategory: {} };
+      current[date].errors.total += (data.errors?.total || 0);
+      for (const [cat, count] of Object.entries(data.errors?.byCategory || {})) {
+        current[date].errors.byCategory[cat] = (current[date].errors.byCategory[cat] || 0) + count;
+      }
+
       for (const cat of Object.keys(data.categories)) {
         current[date].categories[cat] = (current[date].categories[cat] || 0) + data.categories[cat];
       }
@@ -133,17 +173,20 @@ function mergeStats(current, newData) {
         } else {
           current[date].bots[botName].count += botData.count;
           current[date].bots[botName].lastSeen = botData.lastSeen;
+          current[date].bots[botName].errors = (current[date].bots[botName].errors || 0) + (botData.errors || 0);
           for (const [page, count] of Object.entries(botData.pages)) {
             current[date].bots[botName].pages[page] = (current[date].bots[botName].pages[page] || 0) + count;
           }
         }
       }
-      // Merge category top pages
       current[date].pages = current[date].pages || {};
-      for (const [cat, pages] of Object.entries(data.pages || {})) {
-        current[date].pages[cat] = current[date].pages[cat] || {};
-        for (const [page, count] of Object.entries(pages)) {
-          current[date].pages[cat][page] = (current[date].pages[cat][page] || 0) + count;
+      for (const [page, pData] of Object.entries(data.pages || {})) {
+        if (!current[date].pages[page]) {
+            current[date].pages[page] = pData;
+        } else {
+            current[date].pages[page].count += pData.count;
+            current[date].pages[page].errors = (current[date].pages[page].errors || 0) + (pData.errors || 0);
+            current[date].pages[page].uniqueBots = Math.max(current[date].pages[page].uniqueBots, pData.uniqueBots);
         }
       }
     }
@@ -153,7 +196,8 @@ async function run() {
   const args = process.argv.slice(2);
   const mode = args[0] || '--all';
 
-  console.log(`--- Starting Log Analysis [Mode: ${mode}] ---`);
+  console.log(`--- Starting 2026 AI/GEO Log Analysis [Mode: ${mode}] ---`);
+  console.log(`Tracking ${TOTAL_AI_BOTS} AI/Assistant Bots f&uuml;r Citation Accuracy.`);
 
   if (mode === '--parse' || mode === '--all') {
     if (!fs.existsSync(LOG_DIR)) {
@@ -180,6 +224,9 @@ async function run() {
       }
 
       mergeStats(history, allNewStats);
+      
+      // Store total bot count for score calculation in dashboard
+      history._meta = { total_ai_bots: TOTAL_AI_BOTS };
 
       // Ensure data dir exists
       if (!fs.existsSync(path.dirname(DATA_FILE))) {

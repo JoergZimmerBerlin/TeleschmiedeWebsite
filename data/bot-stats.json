@@ -1,46 +1,53 @@
 {
-  "01/Feb/2026": {
-    "total": 2500,
-    "categories": { "seo": 1200, "ai_training": 400, "ai_search": 600, "ai_assistant": 300, "other": 0 },
+  "_meta": { "total_ai_bots": 14 },
+  "25/Mar/2026": {
+    "total": 5000,
+    "categories": { 
+      "seo_classic": 2500, 
+      "ai_assistant": 800, 
+      "geo_grounding": 1200, 
+      "ai_training": 500, 
+      "other": 0 
+    },
+    "errors": { 
+      "total": 12, 
+      "byCategory": { "ai_assistant": 8, "geo_grounding": 4 } 
+    },
     "bots": {
-      "Googlebot": { "count": 1000, "lastSeen": "01/Feb/2026:23:55:00", "company": "Google", "purpose": "Indexierung", "category": "seo", "pages": { "/": 500, "/blog/": 300, "/leistungen/": 200 } },
-      "GPTBot": { "count": 400, "lastSeen": "01/Feb/2026:12:00:00", "company": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/blog/": 300, "/impressum/": 100 } },
-      "PerplexityBot": { "count": 600, "lastSeen": "01/Feb/2026:18:30:00", "company": "Perplexity", "purpose": "Real-time Search", "category": "ai_search", "pages": { "/blog/seo-sprechstunde-so-laeuft-sie-ab/": 400, "/": 200 } }
+      "Googlebot": { "count": 2200, "lastSeen": "25/Mar/2026:23:59:59", "provider": "Google", "purpose": "Standard Indexierung", "category": "seo_classic", "pages": { "/": 1000, "/blog/": 800, "/glossar/": 400 }, "errors": 0 },
+      "ChatGPT-User": { "count": 450, "lastSeen": "25/Mar/2026:22:10:00", "provider": "OpenAI", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/blog/seo-sprechstunde/": 400, "/non-existent-page": 50 }, "errors": 8 },
+      "Claude-User": { "count": 200, "lastSeen": "25/Mar/2026:18:30:00", "provider": "Anthropic", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/groundingpage/": 150 }, "errors": 0 },
+      "Perplexity-User": { "count": 150, "lastSeen": "25/Mar/2026:21:45:00", "provider": "Perplexity", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/blog/magic-writing/": 150 }, "errors": 0 },
+      "Google-Other": { "count": 800, "lastSeen": "25/Mar/2026:20:50:00", "provider": "Google", "purpose": "AI Overviews (GEO)", "category": "geo_grounding", "pages": { "/blog/core-web-vitals/": 800 }, "errors": 4 },
+      "OAI-SearchBot": { "count": 400, "lastSeen": "25/Mar/2026:12:00:00", "provider": "OpenAI", "purpose": "Search Index (GEO)", "category": "geo_grounding", "pages": { "/": 400 }, "errors": 0 },
+      "GPTBot": { "count": 500, "lastSeen": "25/Mar/2026:10:00:00", "provider": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/blog/": 500 }, "errors": 0 }
     },
     "pages": {
-      "seo": { "/": 500, "/blog/": 300, "/leistungen/": 200 },
-      "ai_training": { "/blog/": 300, "/impressum/": 100 },
-      "ai_search": { "/blog/seo-sprechstunde-so-laeuft-sie-ab/": 400, "/": 200 }
-    }
-  },
-  "15/Mar/2026": {
-    "total": 3500,
-    "categories": { "seo": 1800, "ai_training": 600, "ai_search": 800, "ai_assistant": 300, "other": 0 },
-    "bots": {
-      "Googlebot": { "count": 1500, "lastSeen": "15/Mar/2026:23:59:00", "company": "Google", "purpose": "Indexierung", "category": "seo", "pages": { "/": 700, "/blog/": 500, "/glossar/": 300 } },
-      "GPTBot": { "count": 600, "lastSeen": "15/Mar/2026:14:20:00", "company": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/blog/": 500, "/glossar/": 100 } },
-      "PerplexityBot": { "count": 800, "lastSeen": "15/Mar/2026:10:15:00", "company": "Perplexity", "purpose": "Real-time Search", "category": "ai_search", "pages": { "/blog/": 600, "/": 200 } },
-      "ChatGPT-User": { "count": 300, "lastSeen": "15/Mar/2026:11:45:00", "company": "OpenAI", "purpose": "User Browsing", "category": "ai_assistant", "pages": { "/leistungen/": 300 } }
-    },
-    "pages": {
-      "seo": { "/": 700, "/blog/": 500, "/glossar/": 300 },
-      "ai_training": { "/blog/": 500, "/glossar/": 100 },
-      "ai_search": { "/blog/": 600, "/": 200 },
-      "ai_assistant": { "/leistungen/": 300 }
+      "/": { "count": 1400, "uniqueBots": 4, "errors": 0 },
+      "/blog/seo-sprechstunde/": { "count": 400, "uniqueBots": 12, "errors": 8 },
+      "/blog/core-web-vitals/": { "count": 800, "uniqueBots": 8, "errors": 4 },
+      "/groundingpage/": { "count": 150, "uniqueBots": 6, "errors": 0 },
+      "/non-existent-page": { "count": 50, "uniqueBots": 2, "errors": 8 }
     }
   },
   "26/Mar/2026": {
-    "total": 500,
-    "categories": { "seo": 200, "ai_training": 100, "ai_search": 150, "ai_assistant": 50, "other": 0 },
+    "total": 1200,
+    "categories": { 
+      "seo_classic": 500, 
+      "ai_assistant": 400, 
+      "geo_grounding": 200, 
+      "ai_training": 100, 
+      "other": 0 
+    },
+    "errors": { "total": 0, "byCategory": {} },
     "bots": {
-      "Googlebot": { "count": 200, "lastSeen": "26/Mar/2026:21:00:00", "company": "Google", "purpose": "Indexierung", "category": "seo", "pages": { "/": 100, "/blog/": 100 } },
-      "GPTBot": { "count": 100, "lastSeen": "26/Mar/2026:15:30:00", "company": "OpenAI", "purpose": "Training", "category": "ai_training", "pages": { "/glossar/": 100 } },
-      "OAI-SearchBot": { "count": 150, "lastSeen": "26/Mar/2026:20:45:00", "company": "OpenAI", "purpose": "SearchGPT", "category": "ai_search", "pages": { "/": 150 } }
+      "Googlebot": { "count": 400, "lastSeen": "26/Mar/2026:21:30:00", "provider": "Google", "purpose": "Standard Indexierung", "category": "seo_classic", "pages": { "/": 400 }, "errors": 0 },
+      "ChatGPT-User": { "count": 300, "lastSeen": "26/Mar/2026:21:40:00", "provider": "OpenAI", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/": 300 }, "errors": 0 },
+      "Claude-User": { "count": 100, "lastSeen": "26/Mar/2026:20:15:00", "provider": "Anthropic", "purpose": "Citation / Browsing", "category": "ai_assistant", "pages": { "/blog/": 100 }, "errors": 0 }
     },
     "pages": {
-      "seo": { "/": 100, "/blog/": 100 },
-      "ai_training": { "/glossar/": 100 },
-      "ai_search": { "/": 150 }
+      "/": { "count": 700, "uniqueBots": 6, "errors": 0 },
+      "/blog/": { "count": 100, "uniqueBots": 3, "errors": 0 }
     }
   }
 }

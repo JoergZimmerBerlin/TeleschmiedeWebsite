@@ -3,145 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Bot-Analyse Dashboard | Teleschmie.de</title>
+    <title>AI & Assistant Analysis 2026 | Teleschmie.de</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; background-color: #0d1117; color: #c9d1d9; }
-        .card { background: #161b22; border: 1px solid #30363d; border-radius: 0.75rem; padding: 1.5rem; transition: all 0.2s; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 1rem; padding: 1.5rem; transition: all 0.2s; position: relative; overflow: hidden; }
         .card:hover { border-color: #58a6ff; }
-        .stat-value { font-size: 2.25rem; font-weight: 700; color: #58a6ff; }
-        .btn { padding: 0.5rem 1rem; border-radius: 0.5rem; border: 1px solid #30363d; background: #21262d; font-size: 0.875rem; transition: all 0.2s; }
+        .stat-value { font-size: 2.25rem; font-weight: 700; color: #58a6ff; line-height: 1; margin-bottom: 0.25rem; }
+        .btn { padding: 0.5rem 1rem; border-radius: 0.75rem; border: 1px solid #30363d; background: #21262d; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; }
         .btn:hover { background: #30363d; border-color: #8b949e; }
         .btn.active { background: #1f6feb; border-color: #388bfd; color: white; }
         .green { color: #3fb950; }
         .red { color: #f85149; }
-        .badge { padding: 0.125rem 0.5rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+        .badge { padding: 0.25rem 0.625rem; border-radius: 9999px; font-size: 0.65rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; }
         .bg-seo { background: #05264c; color: #58a6ff; }
-        .bg-training { background: #2b1d4c; color: #bc8cff; }
-        .bg-search { background: #1b2e2d; color: #3fb950; }
-        .bg-assistant { background: #4c2b1d; color: #ffa657; }
+        .bg-assistant { background: #1b2e2d; color: #3fb950; border: 1px solid #3fb95040; }
+        .bg-geo { background: #2b1d4c; color: #bc8cff; }
+        .bg-training { background: #30363d; color: #8b949e; }
+        .progress-bg { background: #30363d; height: 6px; border-radius: 3px; overflow: hidden; }
+        .progress-fill { background: #3fb950; height: 100%; transition: width 0.5s; }
+        .error-glow { box-shadow: 0 0 15px rgba(248, 81, 73, 0.1) inset; border-color: rgba(248, 81, 73, 0.3) !important; }
     </style>
 </head>
-<body class="p-4 md:p-8">
+<body class="p-4 md:p-10">
     <div class="max-w-7xl mx-auto">
-        <header class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+        <header class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-10 gap-6">
             <div>
-                <h1 class="text-4xl font-bold tracking-tight">Bot-Analyse Dashboard</h1>
-                <p class="text-gray-400 mt-1">Detaillierte Einsicht in Crawler, AI-Bots und Assistenten auf Teleschmie.de</p>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    <span class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em]">Live AI Traffic Intel 2026</span>
+                </div>
+                <h1 class="text-4xl font-extrabold tracking-tight text-white mb-1">AI-Assistant & GEO Analysis</h1>
+                <p class="text-gray-400">Optimieren Sie Ihre Sichtbarkeit f&uuml;r Zitate in ChatGPT, Claude & Co.</p>
             </div>
             <div class="flex gap-2" id="range-picker">
                 <button class="btn" onclick="setRange(7)">7 Tage</button>
                 <button class="btn active" onclick="setRange(30)">30 Tage</button>
-                <button class="btn" onclick="setRange('mom')">Vormonat-Vergleich</button>
+                <button class="btn" onclick="setRange('mom')">MoM Comparison</button>
             </div>
         </header>
 
-        <!-- Summary Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-            <div class="card">
-                <div class="flex items-center gap-2 mb-2">
-                    <span class="badge bg-seo">SEO</span>
-                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">Suchmaschinen</h3>
+        <!-- KPI Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            <div class="card bg-gradient-to-br from-[#161b22] to-[#1b2e2d30]">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="badge bg-assistant">AI Assistants</span>
+                    <h3 class="text-[10px] font-bold uppercase tracking-widest text-gray-500">Citation Hits</h3>
                 </div>
-                <div id="seo-total" class="stat-value">-</div>
-                <div id="seo-change" class="text-sm mt-1"></div>
+                <div id="ai_assistant-total" class="stat-value text-[#3fb950]">-</div>
+                <div id="ai_assistant-change" class="text-xs"></div>
             </div>
             <div class="card">
-                <div class="flex items-center gap-2 mb-2">
-                    <span class="badge bg-training">Training</span>
-                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">AI-Training</h3>
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="badge bg-geo">GEO Search</span>
+                    <h3 class="text-[10px] font-bold uppercase tracking-widest text-gray-500">AI Discovery</h3>
                 </div>
-                <div id="training-total" class="stat-value">-</div>
-                <div id="training-change" class="text-sm mt-1"></div>
+                <div id="geo_grounding-total" class="stat-value text-[#bc8cff]">-</div>
+                <div id="geo_grounding-change" class="text-xs"></div>
+            </div>
+            <div class="card" id="error-card">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="badge bg-red-900 text-red-100">Errors</span>
+                    <h3 class="text-[10px] font-bold uppercase tracking-widest text-gray-500">Missed Citations</h3>
+                </div>
+                <div id="error-total" class="stat-value text-red-500">-</div>
+                <div id="error-rate" class="text-xs text-gray-500">0.0% Error Rate</div>
             </div>
             <div class="card">
-                <div class="flex items-center gap-2 mb-2">
-                    <span class="badge bg-search">Suche</span>
-                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">AI-Suche</h3>
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="badge bg-seo">Classic SEO</span>
+                    <h3 class="text-[10px] font-bold uppercase tracking-widest text-gray-500">Google / Bing</h3>
                 </div>
-                <div id="search-total" class="stat-value">-</div>
-                <div id="search-change" class="text-sm mt-1"></div>
-            </div>
-            <div class="card">
-                <div class="flex items-center gap-2 mb-2">
-                    <span class="badge bg-assistant">Assistent</span>
-                    <h3 class="text-xs font-semibold uppercase tracking-wider text-gray-400">AI-Assistent</h3>
-                </div>
-                <div id="assistant-total" class="stat-value">-</div>
-                <div id="assistant-change" class="text-sm mt-1"></div>
+                <div id="seo_classic-total" class="stat-value">-</div>
+                <div id="seo_classic-change" class="text-xs"></div>
             </div>
         </div>
 
-        <!-- Charts Section -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+        <!-- Main Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10">
+            <!-- Left: Trends -->
             <div class="card lg:col-span-2">
-                <h3 class="text-lg font-semibold mb-6">Crawler-Trends</h3>
-                <div style="height: 300px;">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-xl font-bold text-white">Bot Activity Trends</h3>
+                    <div class="text-[10px] text-gray-500 flex gap-4">
+                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#3fb950]"></span> Assistants</span>
+                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#bc8cff]"></span> GEO</span>
+                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-[#58a6ff]"></span> SEO</span>
+                    </div>
+                </div>
+                <div style="height: 350px;">
                     <canvas id="trendChart"></canvas>
                 </div>
             </div>
-            <div class="card">
-                <h3 class="text-lg font-semibold mb-6">Bot-Verteilung (Aktuell)</h3>
-                <div style="height: 300px;">
-                    <canvas id="distributionChart"></canvas>
+            <!-- Right: Logic & Alerts -->
+            <div class="flex flex-col gap-6">
+                <!-- GEO Visibility Score Card -->
+                <div class="card bg-[#1b2e2d20] border-[#3fb95030]">
+                    <h3 class="text-lg font-bold text-[#3fb950] mb-2">AI Visibility Score</h3>
+                    <p class="text-xs text-gray-400 mb-6">Wie viele der 2026 relevanten AI-Bots haben Ihren Content bereits gecrawlt?</p>
+                    <div id="global-visibility-score" class="text-5xl font-black text-white mb-2">0%</div>
+                    <div class="progress-bg mb-4">
+                        <div id="global-visibility-fill" class="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <p class="text-[10px] text-gray-500 leading-relaxed uppercase tracking-widest">
+                        Focus: High-Value Citations & Grounding
+                    </p>
+                </div>
+                <!-- Log Insight -->
+                <div class="card border-yellow-900/30 bg-yellow-900/5">
+                    <h4 class="text-xs font-bold text-yellow-500 uppercase tracking-widest mb-2">2026 Strategy Tip</h4>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Wenn <strong>ChatGPT-User</strong> oder <strong>Perplexity-User</strong> Fehler (4xx/5xx) werfen, verlieren Sie Zitate in Echtzeit-Diskursen. Pr&uuml;fen Sie die Fehlerliste unten!
+                    </p>
                 </div>
             </div>
         </div>
 
-        <!-- Detailed Inventory -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div class="card">
-                <h3 class="text-lg font-semibold mb-6">Bot-Inventar & Aktivität</h3>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left text-sm">
-                        <thead>
-                            <tr class="border-b border-gray-700 text-gray-400">
-                                <th class="pb-3">Bot</th>
-                                <th class="pb-3">Firma / Zweck</th>
-                                <th class="pb-3 text-right">Anfragen</th>
-                                <th class="pb-3 text-right">Last Seen</th>
-                            </tr>
-                        </thead>
-                        <tbody id="bot-table-body"></tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="card">
-                <h3 class="text-lg font-semibold mb-6">Meist-gecrawlte Unterseiten</h3>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left text-sm">
-                        <thead>
-                            <tr class="border-b border-gray-700 text-gray-400">
-                                <th class="pb-3">URL</th>
-                                <th class="pb-3 text-right">Anfragen</th>
-                                <th class="pb-3 text-right">Top-Bot</th>
-                            </tr>
-                        </thead>
-                        <tbody id="page-table-body"></tbody>
-                    </table>
-                </div>
+        <!-- Pages Table -->
+        <div class="card mb-10">
+            <h3 class="text-xl font-bold text-white mb-6">Page Detail: AI Discovery & Health</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm border-separate border-spacing-y-2">
+                    <thead>
+                        <tr class="text-gray-500 uppercase text-[10px] tracking-widest">
+                            <th class="pb-4 pl-4">URL Path</th>
+                            <th class="pb-4 text-center">AI Coverage</th>
+                            <th class="pb-4 text-center">Unikate Bots</th>
+                            <th class="pb-4 text-center">Status</th>
+                            <th class="pb-4 text-right pr-4">Hits</th>
+                        </tr>
+                    </thead>
+                    <tbody id="page-table-body"></tbody>
+                </table>
             </div>
         </div>
+
+        <!-- Bot Inventory -->
+        <div class="card">
+            <h3 class="text-xl font-bold text-white mb-6">Bot Inventory (Comprehensive Tracking)</h3>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm border-separate border-spacing-y-2">
+                    <thead>
+                        <tr class="text-gray-500 uppercase text-[10px] tracking-widest">
+                            <th class="pb-4 pl-4">Bot / Platform</th>
+                            <th class="pb-4">Category</th>
+                            <th class="pb-4 text-right">Anfragen</th>
+                            <th class="pb-4 text-right">Fehler</th>
+                            <th class="pb-4 text-right pr-4">Last Seen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bot-table-body"></tbody>
+                </table>
+            </div>
+        </div>
+        
+        <footer class="mt-10 py-6 border-t border-[#30363d] text-center">
+            <p class="text-[10px] text-gray-600 uppercase tracking-[0.3em]">
+                Inspired by Eric Hinzpeter, Fabian Jaeckert & Screaming Frog • 2026 AI-Ready Dashboard
+            </p>
+        </footer>
     </div>
 
     <script>
         const rawData = {{BOT_DATA}};
+        const totalAiBotsInConfig = rawData._meta?.total_ai_bots || 14;
         let currentRange = 30;
-        let trendChart, distributionChart;
+        let trendChart;
 
         const CATEGORIES = {
-            seo: { label: 'Suchmaschinen', color: '#58a6ff', badge: 'bg-seo' },
-            ai_training: { label: 'AI-Training', color: '#bc8cff', badge: 'bg-training' },
-            ai_search: { label: 'AI-Suche', color: '#3fb950', badge: 'bg-search' },
-            ai_assistant: { label: 'AI-Assistent', color: '#ffa657', badge: 'bg-assistant' }
+            ai_assistant: { label: 'AI Assistants', color: '#3fb950', badge: 'bg-assistant' },
+            geo_grounding: { label: 'GEO Search', color: '#bc8cff', badge: 'bg-geo' },
+            seo_classic: { label: 'SEO Classic', color: '#58a6ff', badge: 'bg-seo' },
+            ai_training: { label: 'AI Training', color: '#8b949e', badge: 'bg-training' }
         };
-
-        function formatDisplayDate(dateStr) {
-            const [d, m, y] = dateStr.split('/');
-            return `${d}. ${m}`;
-        }
 
         function setRange(range) {
             currentRange = range;
@@ -151,7 +187,7 @@
         }
 
         function getSortedDates() {
-            return Object.keys(rawData).sort((a,b) => {
+            return Object.keys(rawData).filter(k => !k.startsWith('_')).sort((a,b) => {
                 const [d1, m1, y1] = a.split('/');
                 const [d2, m2, y2] = b.split('/');
                 return new Date(`${y1}-${m1}-${d1}`) - new Date(`${y2}-${m2}-${d2}`);
@@ -172,76 +208,81 @@
 
             const stats = calculateStats(selectedDates, prevDates);
             renderStats(stats);
-            renderCharts(selectedDates, stats);
+            renderCharts(selectedDates);
             renderTables(selectedDates);
         }
 
         function calculateStats(currentDates, prevDates) {
             const sum = (dates, cat) => dates.reduce((s, d) => s + (rawData[d].categories[cat] || 0), 0);
-            return Object.keys(CATEGORIES).reduce((acc, cat) => {
+            const errSum = (dates) => dates.reduce((s, d) => s + (rawData[d].errors?.total || 0), 0);
+            const totalSum = (dates) => dates.reduce((s, d) => s + (rawData[d].total || 0), 0);
+
+            const s = Object.keys(CATEGORIES).reduce((acc, cat) => {
                 acc[cat] = {
                     current: sum(currentDates, cat),
                     prev: sum(prevDates, cat)
                 };
                 return acc;
             }, {});
+
+            s.errors = {
+                current: errSum(currentDates),
+                prev: errSum(prevDates),
+                rate: (totalSum(currentDates) > 0) ? (errSum(currentDates) / totalSum(currentDates)) * 100 : 0
+            };
+
+            return s;
         }
 
         function renderStats(stats) {
             Object.entries(stats).forEach(([cat, data]) => {
-                document.getElementById(`${cat}-total`).textContent = data.current.toLocaleString('de-DE');
+                if (cat === 'errors') return;
+                const el = document.getElementById(`${cat}-total`);
+                if (!el) return;
+                el.textContent = data.current.toLocaleString('de-DE');
                 const changeEl = document.getElementById(`${cat}-change`);
                 if (data.prev > 0) {
                     const diff = ((data.current - data.prev) / data.prev) * 100;
                     const color = diff >= 0 ? 'green' : 'red';
-                    changeEl.innerHTML = `<span class="${color}">${diff >= 0 ? '+' : ''}${diff.toFixed(1)}%</span> vs. Vorperiode`;
+                    changeEl.innerHTML = `<span class="${color} font-bold">${diff >= 0 ? '↑' : '↓'} ${Math.abs(diff).toFixed(1)}%</span> vs Prev`;
                 } else {
-                    changeEl.innerHTML = '<span class="text-gray-500">Kein Vergleich</span>';
+                    changeEl.textContent = 'Neu';
                 }
             });
+
+            // Errors
+            document.getElementById('error-total').textContent = stats.errors.current.toLocaleString('de-DE');
+            document.getElementById('error-rate').textContent = `${stats.errors.rate.toFixed(2)}% Error Rate`;
+            if (stats.errors.current > 0) {
+                document.getElementById('error-card').classList.add('error-glow');
+            } else {
+                document.getElementById('error-card').classList.remove('error-glow');
+            }
         }
 
-        function renderCharts(dates, stats) {
+        function renderCharts(dates) {
             if (trendChart) trendChart.destroy();
-            if (distributionChart) distributionChart.destroy();
-
             trendChart = new Chart(document.getElementById('trendChart'), {
                 type: 'line',
                 data: {
-                    labels: dates.map(formatDisplayDate),
-                    datasets: Object.entries(CATEGORIES).map(([cat, config]) => ({
-                        label: config.label,
+                    labels: dates.map(d => d.split('/')[0] + '.' + d.split('/')[1]),
+                    datasets: ['ai_assistant', 'geo_grounding', 'seo_classic'].map(cat => ({
+                        label: CATEGORIES[cat].label,
                         data: dates.map(d => rawData[d].categories[cat] || 0),
-                        borderColor: config.color,
+                        borderColor: CATEGORIES[cat].color,
                         tension: 0.3,
-                        pointRadius: 0
+                        pointRadius: 0,
+                        fill: false
                     }))
                 },
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
                     scales: {
-                        y: { beginAtZero: true, grid: { color: '#30363d' } },
-                        x: { grid: { display: false } }
+                        y: { beginAtZero: true, grid: { color: '#30363d' }, ticks: { color: '#8b949e' } },
+                        x: { grid: { display: false }, ticks: { color: '#8b949e' } }
                     },
-                    plugins: { legend: { position: 'bottom', labels: { color: '#8b949e' } } }
-                }
-            });
-
-            distributionChart = new Chart(document.getElementById('distributionChart'), {
-                type: 'doughnut',
-                data: {
-                    labels: Object.values(CATEGORIES).map(c => c.label),
-                    datasets: [{
-                        data: Object.keys(CATEGORIES).map(cat => stats[cat].current),
-                        backgroundColor: Object.values(CATEGORIES).map(c => c.color),
-                        borderWidth: 0
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { position: 'bottom', labels: { color: '#8b949e' } } }
+                    plugins: { legend: { display: false } }
                 }
             });
         }
@@ -249,40 +290,49 @@
         function renderTables(dates) {
             const bots = {};
             const pages = {};
+            let uniqueAiBotsEncountered = new Set();
 
             dates.forEach(d => {
                 Object.entries(rawData[d].bots).forEach(([name, data]) => {
-                    if (!bots[name]) bots[name] = { ...data, count: 0, topPage: '' };
+                    if (!bots[name]) bots[name] = { ...data, count: 0, errors: 0 };
                     bots[name].count += data.count;
+                    bots[name].errors += (data.errors || 0);
                     bots[name].lastSeen = data.lastSeen;
-                    
-                    Object.entries(data.pages).forEach(([url, count]) => {
-                        pages[url] = pages[url] || { count: 0, topBot: '' };
-                        pages[url].count += count;
-                        if (!pages[url].topBotCount || count > pages[url].topBotCount) {
-                            pages[url].topBotCount = count;
-                            pages[url].topBot = name;
-                        }
-                    });
+                    if (data.category !== 'seo_classic') uniqueAiBotsEncountered.add(name);
+                });
+                
+                Object.entries(rawData[d].pages).forEach(([url, data]) => {
+                    if (!pages[url]) pages[url] = { count: 0, errors: 0, uniqueBots: 0 };
+                    pages[url].count += data.count;
+                    pages[url].errors += (data.errors || 0);
+                    pages[url].uniqueBots = Math.max(pages[url].uniqueBots, data.uniqueBots);
                 });
             });
+
+            // Global score
+            const globalScore = (uniqueAiBotsEncountered.size / totalAiBotsInConfig) * 100;
+            document.getElementById('global-visibility-score').textContent = `${Math.round(globalScore)}%`;
+            document.getElementById('global-visibility-fill').style.width = `${globalScore}%`;
 
             // Bot Table
             const botBody = document.getElementById('bot-table-body');
             botBody.innerHTML = '';
             Object.entries(bots).sort((a,b) => b[1].count - a[1].count).forEach(([name, data]) => {
                 const tr = document.createElement('tr');
-                tr.className = 'border-b border-gray-800 hover:bg-gray-800 transition cursor-help';
+                tr.className = 'bg-[#1c2128] hover:bg-[#22272e] transition';
                 tr.innerHTML = `
+                    <td class="py-3 pl-4 rounded-l-xl">
+                        <div class="font-bold flex items-center gap-2">
+                            ${name}
+                            <span class="text-[9px] text-gray-500 font-normal">by ${data.provider}</span>
+                        </div>
+                    </td>
                     <td class="py-3">
-                        <div class="font-semibold">${name}</div>
                         <span class="badge ${CATEGORIES[data.category].badge}">${CATEGORIES[data.category].label}</span>
                     </td>
-                    <td class="py-3 text-gray-400">
-                        ${data.company}<br/><span class="text-xs opacity-75">${data.purpose}</span>
-                    </td>
-                    <td class="py-3 text-right font-mono">${data.count.toLocaleString('de-DE')}</td>
-                    <td class="py-3 text-right text-xs opacity-50">${data.lastSeen}</td>
+                    <td class="py-3 text-right font-mono font-bold">${data.count.toLocaleString('de-DE')}</td>
+                    <td class="py-3 text-right ${data.errors > 0 ? 'text-red-500 font-bold' : 'text-gray-500'}">${data.errors}</td>
+                    <td class="py-3 text-right pr-4 text-[10px] text-gray-500 rounded-r-xl">${data.lastSeen}</td>
                 `;
                 botBody.appendChild(tr);
             });
@@ -291,12 +341,23 @@
             const pageBody = document.getElementById('page-table-body');
             pageBody.innerHTML = '';
             Object.entries(pages).sort((a,b) => b[1].count - a[1].count).slice(0, 15).forEach(([url, data]) => {
+                const score = (data.uniqueBots / totalAiBotsInConfig) * 100;
                 const tr = document.createElement('tr');
-                tr.className = 'border-b border-gray-800 hover:bg-gray-800 transition';
+                tr.className = 'bg-[#1c2128] hover:bg-[#22272e] transition';
                 tr.innerHTML = `
-                    <td class="py-3 truncate max-w-xs font-mono text-xs" title="${url}">${url}</td>
-                    <td class="py-3 text-right font-semibold">${data.count.toLocaleString('de-DE')}</td>
-                    <td class="py-3 text-right text-xs text-blue-400">${data.topBot}</td>
+                    <td class="py-3 pl-4 rounded-l-xl max-w-xs truncate font-mono text-xs text-blue-400" title="${url}">${url}</td>
+                    <td class="py-3 w-40 px-4">
+                        <div class="progress-bg">
+                            <div class="progress-fill" style="width: ${score}%"></div>
+                        </div>
+                    </td>
+                    <td class="py-3 text-center text-xs text-gray-400">${data.uniqueBots} / ${totalAiBotsInConfig}</td>
+                    <td class="py-3 text-center">
+                        ${data.errors > 0 
+                            ? `<span class="text-red-400 text-[10px] font-bold">⚠️ ${data.errors} Errors</span>` 
+                            : `<span class="text-green-500 text-[10px] font-bold">✓ Healthy</span>`}
+                    </td>
+                    <td class="py-3 text-right pr-4 font-bold rounded-r-xl">${data.count.toLocaleString('de-DE')}</td>
                 `;
                 pageBody.appendChild(tr);
             });

@@ -1,48 +1,164 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta CSP to bypass server-side header stripping on IONOS -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com https://teleschmie-canary-test.de;">
     <title>AI & Assistant Analysis 2026 | Teleschmie.de</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #0d1117; color: #c9d1d9; }
-        .card { background: #161b22; border: 1px solid #30363d; border-radius: 1rem; padding: 1.5rem; transition: all 0.2s; position: relative; overflow: hidden; }
-        .card:hover { border-color: #58a6ff; }
-        .stat-value { font-size: 2.25rem; font-weight: 700; color: #58a6ff; line-height: 1; margin-bottom: 0.25rem; }
-        .btn { padding: 0.5rem 1rem; border-radius: 0.75rem; border: 1px solid #30363d; background: #21262d; font-size: 0.875rem; font-weight: 600; transition: all 0.2s; }
-        .btn:hover { background: #30363d; border-color: #8b949e; }
-        .btn.active { background: #1f6feb; border-color: #388bfd; color: white; }
-        .green { color: #3fb950; }
-        .red { color: #f85149; }
-        .badge { padding: 0.25rem 0.625rem; border-radius: 9999px; font-size: 0.65rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; }
-        .bg-seo { background: #05264c; color: #58a6ff; }
-        .bg-assistant { background: #1b2e2d; color: #3fb950; border: 1px solid #3fb95040; }
-        .bg-geo { background: #2b1d4c; color: #bc8cff; }
-        .bg-training { background: #30363d; color: #8b949e; }
-        .bg-grounding { background: #3b1e1e; color: #ff7b72; border: 1px solid #ff7b7240; }
-        .progress-bg { background: #30363d; height: 6px; border-radius: 3px; overflow: hidden; }
-        .progress-fill { background: #3fb950; height: 100%; transition: width 0.5s; }
-        .error-glow { box-shadow: 0 0 15px rgba(248, 81, 73, 0.1) inset; border-color: rgba(248, 81, 73, 0.3) !important; }
-        
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            border-color: #58a6ff;
+        }
+
+        .stat-value {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #58a6ff;
+            line-height: 1;
+            margin-bottom: 0.25rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.75rem;
+            border: 1px solid #30363d;
+            background: #21262d;
+            font-size: 0.875rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: #30363d;
+            border-color: #8b949e;
+        }
+
+        .btn.active {
+            background: #1f6feb;
+            border-color: #388bfd;
+            color: white;
+        }
+
+        .green {
+            color: #3fb950;
+        }
+
+        .red {
+            color: #f85149;
+        }
+
+        .badge {
+            padding: 0.25rem 0.625rem;
+            border-radius: 9999px;
+            font-size: 0.65rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .bg-seo {
+            background: #05264c;
+            color: #58a6ff;
+        }
+
+        .bg-assistant {
+            background: #1b2e2d;
+            color: #3fb950;
+            border: 1px solid #3fb95040;
+        }
+
+        .bg-geo {
+            background: #2b1d4c;
+            color: #bc8cff;
+        }
+
+        .bg-training {
+            background: #30363d;
+            color: #8b949e;
+        }
+
+        .bg-grounding {
+            background: #3b1e1e;
+            color: #ff7b72;
+            border: 1px solid #ff7b7240;
+        }
+
+        .progress-bg {
+            background: #30363d;
+            height: 6px;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: #3fb950;
+            height: 100%;
+            transition: width 0.5s;
+        }
+
+        .error-glow {
+            box-shadow: 0 0 15px rgba(248, 81, 73, 0.1) inset;
+            border-color: rgba(248, 81, 73, 0.3) !important;
+        }
+
         /* Fallback for blocked Tailwind */
         @media (min-width: 1024px) {
-            .lg-grid-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; }
-            .lg-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
+            .lg-grid-3 {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                gap: 1.5rem;
+            }
+
+            .lg-grid-4 {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1.5rem;
+            }
         }
-        .grid-fallback { display: flex; flex-wrap: wrap; gap: 1.5rem; }
-        .grid-fallback > * { flex: 1; min-width: 250px; }
+
+        .grid-fallback {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .grid-fallback>* {
+            flex: 1;
+            min-width: 250px;
+        }
     </style>
 </head>
+
 <body class="p-4 md:p-10">
     <div class="max-w-7xl mx-auto">
         <header class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-10 gap-6">
             <div>
                 <div class="flex items-center gap-2 mb-2">
                     <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                    <span class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em]">Live AI Traffic Intel 2026</span>
+                    <span class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em]">Live AI Traffic Intel
+                        2026</span>
                 </div>
                 <h1 class="text-4xl font-extrabold tracking-tight text-white mb-1">AI-Assistant & GEO Analysis</h1>
                 <p class="text-gray-400">Optimieren Sie Ihre Sichtbarkeit f&uuml;r Zitate in ChatGPT, Claude & Co.</p>
@@ -99,9 +215,12 @@
                 <div class="flex justify-between items-center mb-6">
                     <h3 class="text-xl font-bold text-white">Bot Activity Trends</h3>
                     <div class="text-[10px] text-gray-500 flex gap-4">
-                        <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-[#3fb950]"></span> Assistants</span>
-                        <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-[#bc8cff]"></span> GEO</span>
-                        <span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-[#58a6ff]"></span> SEO</span>
+                        <span class="flex items-center gap-1"><span
+                                class="w-1.5 h-1.5 rounded-full bg-[#3fb950]"></span> Assistants</span>
+                        <span class="flex items-center gap-1"><span
+                                class="w-1.5 h-1.5 rounded-full bg-[#bc8cff]"></span> GEO</span>
+                        <span class="flex items-center gap-1"><span
+                                class="w-1.5 h-1.5 rounded-full bg-[#58a6ff]"></span> SEO</span>
                     </div>
                 </div>
                 <div style="height: 350px;">
@@ -113,7 +232,8 @@
                 <!-- GEO Visibility Score Card -->
                 <div class="card bg-[#1b2e2d20] border-[#3fb95030]">
                     <h3 class="text-lg font-bold text-[#3fb950] mb-2">AI Visibility Score</h3>
-                    <p class="text-xs text-gray-400 mb-6">Prozentualer Anteil der AI-Bots (2026 Standard), die Ihren Content bereits gecrawlt haben.</p>
+                    <p class="text-xs text-gray-400 mb-6">Prozentualer Anteil der AI-Bots (2026 Standard), die Ihren
+                        Content bereits gecrawlt haben.</p>
                     <div id="global-visibility-score" class="text-5xl font-black text-white mb-2">0%</div>
                     <div class="progress-bg mb-4">
                         <div id="global-visibility-fill" class="progress-fill" style="width: 0%"></div>
@@ -121,7 +241,8 @@
                 </div>
                 <!-- Folder Analysis -->
                 <div class="card">
-                    <h3 class="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-4">Crawl-Budget nach Verzeichnis</h3>
+                    <h3 class="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-4">Crawl-Budget nach
+                        Verzeichnis</h3>
                     <div id="folder-stats" class="space-y-3">
                         <!-- Dynamic content -->
                     </div>
@@ -167,7 +288,7 @@
                 </table>
             </div>
         </div>
-        
+
         <footer class="mt-10 py-6 border-t border-[#30363d] text-center">
             <p class="text-[10px] text-gray-600 uppercase tracking-[0.3em]">
                 Teleschmie.de • AI-First Infrastructure 2026
@@ -176,7 +297,7 @@
     </div>
 
     <script>
-        const rawData = {{BOT_DATA}};
+        const rawData = {{BOT_DATA_JSON}};
         const totalAiBotsInConfig = rawData._meta?.total_ai_bots || 14;
         let currentRange = 30;
         let trendChart;
@@ -197,12 +318,12 @@
         }
 
         function parseMonth(m) {
-            const months = { Jan:0, Feb:1, Mar:2, Apr:3, May:4, Jun:5, Jul:6, Aug:7, Sep:8, Oct:9, Nov:10, Dec:11 };
+            const months = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
             return months[m] !== undefined ? months[m] : 0;
         }
 
         function getSortedDates() {
-            return Object.keys(rawData).filter(k => !k.startsWith('_')).sort((a,b) => {
+            return Object.keys(rawData).filter(k => !k.startsWith('_')).sort((a, b) => {
                 const [d1, m1, y1] = a.split('/');
                 const [d2, m2, y2] = b.split('/');
                 const date1 = new Date(parseInt(y1), parseMonth(m1), parseInt(d1));
@@ -305,7 +426,7 @@
                         y: { beginAtZero: true, grid: { color: '#30363d' }, ticks: { color: '#8b949e', font: { size: 10 } } },
                         x: { grid: { display: false }, ticks: { color: '#8b949e', font: { size: 9 }, maxRotation: 0 } }
                     },
-                    plugins: { 
+                    plugins: {
                         legend: { display: false },
                         tooltip: { backgroundColor: '#161b22', titleColor: '#fff', borderColor: '#30363d', borderWidth: 1 }
                     }
@@ -349,8 +470,8 @@
             // Folder Stats
             const folderStats = document.getElementById('folder-stats');
             folderStats.innerHTML = '';
-            const totalHits = Object.values(folders).reduce((s,f) => s + f.count, 0);
-            Object.entries(folders).sort((a,b) => b[1].count - a[1].count).slice(0, 5).forEach(([folder, data]) => {
+            const totalHits = Object.values(folders).reduce((s, f) => s + f.count, 0);
+            Object.entries(folders).sort((a, b) => b[1].count - a[1].count).slice(0, 5).forEach(([folder, data]) => {
                 const pct = (data.count / totalHits) * 100;
                 folderStats.innerHTML += `
                     <div>
@@ -365,7 +486,7 @@
 
             const botBody = document.getElementById('bot-table-body');
             botBody.innerHTML = '';
-            Object.entries(bots).sort((a,b) => b[1].count - a[1].count).forEach(([name, data]) => {
+            Object.entries(bots).sort((a, b) => b[1].count - a[1].count).forEach(([name, data]) => {
                 const tr = document.createElement('tr');
                 tr.className = 'bg-[#1c2128] hover:bg-[#22272e] transition';
                 tr.innerHTML = `
@@ -380,7 +501,7 @@
 
             const pageBody = document.getElementById('page-table-body');
             pageBody.innerHTML = '';
-            Object.entries(pages).sort((a,b) => b[1].count - a[1].count).slice(0, 15).forEach(([url, data]) => {
+            Object.entries(pages).sort((a, b) => b[1].count - a[1].count).slice(0, 15).forEach(([url, data]) => {
                 const score = (data.uniqueBots / totalAiBotsInConfig) * 100;
                 const assistantHits = data.categories?.ai_assistant || 0;
                 const tr = document.createElement('tr');
@@ -400,4 +521,5 @@
         updateDashboard();
     </script>
 </body>
+
 </html>

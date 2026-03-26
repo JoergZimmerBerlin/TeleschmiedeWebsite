@@ -6,6 +6,14 @@ AddType "text/plain; charset=UTF-8" .txt
 AddType "text/markdown; charset=UTF-8" .md
 AddCharset UTF-8 .txt .md .json
 
+# Force MIME type for AI Crawler files (IONOS Fix)
+<Files "llms.txt">
+    ForceType text/plain
+</Files>
+<Files "llms-full.txt">
+    ForceType text/plain
+</Files>
+
 # === Security Headers ===
 <IfModule mod_headers.c>
   # Unset any existing headers to prevent duplicate/more restrictive policies

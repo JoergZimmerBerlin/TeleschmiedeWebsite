@@ -133,7 +133,7 @@ function generateDashboard(stats) {
     return;
   }
   const template = fs.readFileSync(TEMPLATE_FILE, 'utf8');
-  const finalHtml = template.replace('{{BOT_DATA_JSON}}', JSON.stringify(stats));
+  const finalHtml = template.replace('\'{{BOT_DATA_JSON_STR}}\'', JSON.stringify(stats));
   
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
   fs.writeFileSync(OUTPUT_FILE, finalHtml);

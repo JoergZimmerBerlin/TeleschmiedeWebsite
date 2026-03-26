@@ -408,7 +408,7 @@ ALOHA 🌻
 
 ---
 
-### AI SEO: Suchmaschinenoptimierung für die KI-Ära
+### AI SEO: Suchmaschinenoptimierung fuer die KI-Aera
 
 
 Moin!
@@ -544,7 +544,7 @@ ALOHA 🌻
 
 ---
 
-### Authoritativeness: E-E-A-T Authorität für SEO
+### Authoritativeness: E-E-A-T Authoritaet fuer SEO
 
 
 Moin!
@@ -604,7 +604,7 @@ ALOHA 🌻
 
 ---
 
-### Bing Webmaster Tools: Guide für Microsoft Bing
+### Bing Webmaster Tools: Guide fuer Microsoft Bing
 
 
 
@@ -676,7 +676,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Brand Mentions: Markenwähnungen und SEO-Einfluss
+### Brand Mentions: Markenwaehnungen und SEO-Einfluss
 
 
 Moin!
@@ -724,7 +724,7 @@ ALOHA 🌻
 
 ---
 
-### Campixx Berlin: Die legendäre SEO-Konferenz
+### Campixx Berlin: Die legendaere SEO-Konferenz
 
 
 Moin!
@@ -852,7 +852,7 @@ ALOHA 🌻
 
 ---
 
-### ChatGPT SEO: Strategien für Sichtbarkeit in KI
+### ChatGPT SEO: Strategien fuer Sichtbarkeit in KI
 
 
 Moin! 🌻
@@ -925,7 +925,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Citation (Zitierung): Bedeutung für Local SEO
+### Citation (Zitierung): Bedeutung fuer Local SEO
 
 
 
@@ -1480,7 +1480,7 @@ ALOHA 🌻
 
 ---
 
-### Entität (Entity): Die Basis des modernen SEO
+### Entitaet (Entity): Die Basis des modernen SEO
 
 
 Früher verstand Google das Internet als eine Ansammlung von Zeichenketten (Strings). Wenn jemand nach "Apple" suchte, suchte der Algorithmus nach Seiten, auf denen das Wort oft vorkam. Heute versteht Google die Welt in **Entitäten** (Things, not Strings).
@@ -1538,7 +1538,7 @@ Entitäten sind die neue Währung der Suche. Google möchte nicht mehr nur nach 
 
 ---
 
-### Entitäten-Building: Autorität in der KI-Suche
+### Entitaeten-Building: Autoritaet in der KI-Suche
 
 
 Moin!
@@ -1593,7 +1593,7 @@ ALOHA 🌻
 
 ---
 
-### Entity SEO: Die Zukunft der Entitäten-Optimierung
+### Entity SEO: Die Zukunft der Entitaeten-Optimierung
 
 
 Moin!
@@ -1726,7 +1726,7 @@ ALOHA 🌻
 
 ---
 
-### Expertise: Der E-E-A-T Faktor für Fachwissen
+### Expertise: Der E-E-A-T Faktor fuer Fachwissen
 
 
 Moin!
@@ -1778,7 +1778,7 @@ ALOHA 🌻
 
 ---
 
-### FAQ Markup: FAQPage Schema für Rich Snippets
+### FAQ Markup: FAQPage Schema fuer Rich Snippets
 
 
 Moin!
@@ -1934,7 +1934,7 @@ ALOHA 🌻
 
 ---
 
-### GEO Audit: Check für deine KI-Sichtbarkeit
+### GEO Audit: Check fuer deine KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -2132,7 +2132,7 @@ ALOHA 🌻
 
 ---
 
-### GEO Optimierung: Währung für KI-Sichtbarkeit
+### GEO Optimierung: Waehrung fuer KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -2273,7 +2273,7 @@ ALOHA 🌻
 
 ---
 
-### Generative Engine Optimization (GEO): SEO für KI
+### Generative Engine Optimization (GEO): SEO fuer KI
 
 
 Moin!
@@ -2567,7 +2567,7 @@ ALOHA 🌻
 
 ---
 
-### Grounding Page: Definition und Bedeutung für LLMs
+### Grounding Page: Definition und Bedeutung fuer LLMs
 
 
 Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo/).
@@ -2639,7 +2639,7 @@ ALOHA 🌻
 
 ---
 
-### Überschriften-Struktur: H1, H2 & H3 für Google
+### Ueberschriften-Struktur: H1, H2 & H3 fuer Google
 
 
 Überschriften (im HTML-Code als ``, ``, `` usw. definiert) sind das Skelett jedes Web-Dokuments. Sie dienen nicht dazu, Text "groß und fett" zu machen – das sollte ausschließlich über CSS gesteuert werden –, sondern sie definieren die semantische Hierarchie einer Seite.
@@ -2711,7 +2711,7 @@ ALOHA 🌻
 
 ---
 
-### Interne Verlinkung: On-Page Strategien für SEO
+### Interne Verlinkung: On-Page Strategien fuer SEO
 
 
 
@@ -2776,7 +2776,7 @@ ALOHA 🌻
 
 ---
 
-### Keywörter (Keywords): Bedeutung für Google & Co.
+### Keywoerter (Keywords): Bedeutung fuer Google & Co.
 
 
 Keywörter (oder Keywords) sind die DNA der Suche.
@@ -3015,7 +3015,7 @@ ALOHA 🌻
 
 ---
 
-### KI-SEO Beratung: Agentur für die Antwort-Ära
+### KI-SEO Beratung: Agentur fuer die Antwort-Aera
 
 
 Moin! 🌻
@@ -3229,7 +3229,7 @@ ALOHA 🌻
 
 ---
 
-### Linkbuilding & Verlinkung für mehr Autorität
+### Linkbuilding & Verlinkung fuer mehr Autoritaet
 
 
 
@@ -3295,7 +3295,7 @@ ALOHA 🌻
 
 ---
 
-### Linkjuice (Linkkraft): Verteilung interner Stärke
+### Linkjuice (Linkkraft): Verteilung interner Staerke
 
 
 
@@ -3390,7 +3390,7 @@ ALOHA 🌻
 
 ---
 
-### LLM-Optimization (LLMO): SEO für Sprachmodelle
+### LLM-Optimization (LLMO): SEO fuer Sprachmodelle
 
 
 Moin!
@@ -3455,7 +3455,7 @@ ALOHA 🌻
 
 ---
 
-### LLMs.txt: Die Robots.txt für die KI-Suche
+### LLMs.txt: Die Robots.txt fuer die KI-Suche
 
 
 Die `llms.txt` ist die moderne Antwort auf die klassische [robots.txt](https://teleschmie.de/glossar/robots-txt/). Während die robots.txt primär dazu dient, Crawlern den Zugriff auf bestimmte Verzeichnisse zu verbieten, ist die `llms.txt` eine proaktive Servicestation für Large Language Models (LLMs) wie GPT-4, Claude oder Gemini.
@@ -3594,7 +3594,7 @@ ALOHA 🌻
 
 ---
 
-### Markenaufbau mit SEO: Strategien für Brand-SEO
+### Markenaufbau mit SEO: Strategien fuer Brand-SEO
 
 
 Moin!
@@ -3659,7 +3659,7 @@ ALOHA 🌻
 
 ---
 
-### Mention (Erwähnung): Definition und SEO-Bedeutung
+### Mention (Erwaehnung): Definition und SEO-Bedeutung
 
 
 
@@ -3722,7 +3722,7 @@ ALOHA 🌻
 
 ---
 
-### Meta Description: Seitenbeschreibung für Google
+### Meta Description: Seitenbeschreibung fuer Google
 
 
 Die Meta Description ist ein kurzes HTML-Attribut im Header (``) einer Website, das den Inhalt einer Seite zusammenfasst. In den Suchmaschinenergebnissen (SERPs) erscheint sie als der graue Textblock unterhalb des blauen [Title Tags](https://teleschmie.de/glossar/title-tag/). 
@@ -3873,7 +3873,7 @@ ALOHA 🌻
 
 ---
 
-### Noindex: Seiten von der Suche ausschließen
+### Noindex: Seiten von der Suche ausschliessen
 
 
 Moin!
@@ -3956,7 +3956,7 @@ ALOHA 🌻
 
 ---
 
-### PageSpeed: Ladezeit-Optimierung für Google
+### PageSpeed: Ladezeit-Optimierung fuer Google
 
 
 Moin!
@@ -4027,7 +4027,7 @@ ALOHA 🌻
 
 ---
 
-### Digital PR: Pressearbeit im SEO für Autorität
+### Digital PR: Pressearbeit im SEO fuer Autoritaet
 
 
 Moin! 
@@ -4091,7 +4091,7 @@ ALOHA 🌻
 
 ---
 
-### RAG: Das Gehirn-Doping für deine KI-Inhalte
+### RAG: Das Gehirn-Doping fuer deine KI-Inhalte
 
 
 Moin! 🌻
@@ -4233,7 +4233,7 @@ ALOHA 🌻
 
 ---
 
-### Robots.txt: Anweisungen für Suchmaschinen-Crawler
+### Robots.txt: Anweisungen fuer Suchmaschinen-Crawler
 
 
 Moin!
@@ -4309,7 +4309,7 @@ Nutze den [Site-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&sourc
 
 ---
 
-### Schema.org Markup: strukturierte Daten für Google
+### Schema.org Markup: strukturierte Daten fuer Google
 
 
 
@@ -4393,7 +4393,7 @@ ALOHA 🌻
 
 ---
 
-### Semantic SEO: Entitäten und Themenwelten verstehen
+### Semantic SEO: Entitaeten und Themenwelten verstehen
 
 
 Moin!
@@ -4449,7 +4449,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Agentur Berlin: Experten für Ihre Sichtbarkeit
+### SEO Agentur Berlin: Experten fuer Ihre Sichtbarkeit
 
 
 Moin!
@@ -4595,7 +4595,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Beratung & Consulting für nachhaltigen Erfolg
+### SEO Beratung & Consulting fuer nachhaltigen Erfolg
 
 
 Moin!
@@ -4664,7 +4664,7 @@ ALOHA 🌻
 
 ---
 
-### SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg
+### SEO Coaching: 1:1 Beratung fuer nachhaltigen Erfolg
 
 
 Moin!
@@ -4859,7 +4859,7 @@ ALOHA 🌻
 
 ---
 
-### Sichtbarkeit (Visibility): SEO-Kennzahl für Erfolg
+### Sichtbarkeit (Visibility): SEO-Kennzahl fuer Erfolg
 
 
 
@@ -5038,7 +5038,7 @@ ALOHA 🌻
 
 ---
 
-### Sichtbarkeitsmanagement: Strategie für Experten
+### Sichtbarkeitsmanagement: Strategie fuer Experten
 
 
 Moin!
@@ -5111,7 +5111,7 @@ ALOHA 🌻
 
 ---
 
-### Sitemap: XML & HTML Formate für Suchmaschinen
+### Sitemap: XML & HTML Formate fuer Suchmaschinen
 
 
 Moin!
@@ -5241,7 +5241,7 @@ ALOHA 🌻
 
 ---
 
-### Strukturierte Daten: Schema-Markup für Google
+### Strukturierte Daten: Schema-Markup fuer Google
 
 
 Strukturierte Daten sind die Geheimsprache der SEO-Profis.
@@ -5405,7 +5405,7 @@ ALOHA 🌻
 
 ---
 
-### Technisches Schema-Markup: Guide für LLMs & SEO
+### Technisches Schema-Markup: Guide fuer LLMs & SEO
 
 
 Moin!
@@ -5601,7 +5601,7 @@ ALOHA 🌻
 
 ---
 
-### Traffic (Besucherströme): Mehr als nur Klicks
+### Traffic (Besucherstroeme): Mehr als nur Klicks
 
 
 
@@ -5763,7 +5763,7 @@ ALOHA 🌻
 
 ---
 
-### Trustworthiness: E-E-A-T Faktor für Google
+### Trustworthiness: E-E-A-T Faktor fuer Google
 
 
 Moin!
@@ -5823,7 +5823,7 @@ ALOHA 🌻
 
 ---
 
-### Die Überstunde Berlin: Podcast für Marketing-Nerds
+### Die Ueberstunde Berlin: Podcast fuer Marketing-Nerds
 
 
 Moin!
@@ -6265,7 +6265,7 @@ ALOHA 🌻
 
 ---
 
-### Zitierfähiger Content: Rankingfaktor in der KI-Ära
+### Zitierfaehiger Content: Rankingfaktor in der KI-Aera
 
 
 Moin!
@@ -6323,7 +6323,7 @@ ALOHA 🌻
 
 ## BLOG ARTICLES
 
-### 2h SEO-Sprechstunde: Was ist wirklich möglich?
+### 2h SEO-Sprechstunde: Was ist wirklich moeglich?
 
 
 Moin! 🌻
@@ -6574,7 +6574,7 @@ Jetzt SEO-Sprechstunde buchen
 
 ---
 
-### SEO 2026: Alte Irrtümer & neue Wahrheiten
+### SEO 2026: Alte Irrtuemer & neue Wahrheiten
 
 
 Moin!
@@ -6778,7 +6778,7 @@ Fuer Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 
 ---
 
-### SEO Persönlich: Mein Interview bei SEOpresso
+### SEO Persoenlich: Mein Interview bei SEOpresso
 
 
 Moin! 🌻
@@ -6952,7 +6952,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Wie läuft so eine SEO-Sprechstunde genau ab?
+### Wie laeuft so eine SEO-Sprechstunde genau ab?
 
 
 Moin! 🌻
@@ -7267,7 +7267,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Tatü Tata: Die SEO Feuerwehr rückt nun aus!
+### Tatue Tata: Die SEO Feuerwehr rueckt nun aus!
 
 
 Moin! 🌻
@@ -7373,7 +7373,7 @@ ALOHA 🌻!
 
 ---
 
-### SE Ranking Preise 2026: Der Guide für Experten
+### SE Ranking Preise 2026: Der Guide fuer Experten
 
 
 Moin! 🌻
@@ -7727,7 +7727,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale: 17 LLMs für 99€ monatlich tracken
+### Rankscale: 17 LLMs fuer 99€ monatlich tracken
 
 
 Moin! 🌻
@@ -7804,7 +7804,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale: Ein AI Visibility Tool für Profis
+### Rankscale: Ein AI Visibility Tool fuer Profis
 
 
 Moin! 🌻
@@ -8067,7 +8067,7 @@ Es war mir ein Fest, mit Michael Kaufhold ueber diese Themen zu philosophieren. 
 
 ---
 
-### LinkedIn: Warum SEOs das Forum nutzen müssen
+### LinkedIn: Warum SEOs das Forum nutzen muessen
 
 
 Moin!
@@ -8243,7 +8243,7 @@ Jetzt Sprechstunde buchen
 
 ---
 
-### Meine SEO-Highlights 2025: Der Jahresrückblick
+### Meine SEO-Highlights 2025: Der Jahresrueckblick
 
 
 Moin! 🌻
@@ -8323,7 +8323,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### GSC: Wer ist für die Einrichtung zuständig?
+### GSC: Wer ist fuer die Einrichtung zustaendig?
 
 
 Moin! 🌻
@@ -8758,7 +8758,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SEO-Handwerk: Warum Qualität der USP ist
+### SEO-Handwerk: Warum Qualitaet der USP ist
 
 
 Moin! 🌻
@@ -8871,7 +8871,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SEO-Qualität: Vom Dönerback bis zum Erfolg
+### SEO-Qualitaet: Vom Doenerback bis zum Erfolg
 
 
 Moin! 🌻
@@ -8945,7 +8945,7 @@ ALOHA 🌻!
 
 ---
 
-### Core Web Vitals: Warum dein UX-Bericht zählt
+### Core Web Vitals: Warum dein UX-Bericht zaehlt
 
 
 Moin! 🌻
@@ -9177,7 +9177,7 @@ Antonio, danke fuer den Raum, das ehrliche Gespraech und deine Neugier. Es war m
 
 ---
 
-### Beste SEO-Tools für AI Search & Prompt Tracking
+### Beste SEO-Tools fuer AI Search & Prompt Tracking
 
 
 Moin! 🌻
@@ -9372,7 +9372,7 @@ Investiert in Wissen, investiert in Tiefe und bleibt neugierig. Aber lasst die F
 
 ---
 
-### GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
+### GEO, AI-SEO or LLMO? Name fuer KI-Sichtbarkeit
 
 
 Moin! 🌻

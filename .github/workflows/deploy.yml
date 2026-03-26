@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22.x
+          node-version: '22.13.1'
           cache: 'npm'
 
       - name: Cache Astro build
@@ -37,6 +37,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Generate Astro types
+        run: npx astro sync
 
       # - name: Lint content and code
       #   run: npm run lint
@@ -87,7 +90,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22.x
+          node-version: '22.13.1'
           # No npm cache/install needed here as scripts are standalone
 
       - name: Download build ID

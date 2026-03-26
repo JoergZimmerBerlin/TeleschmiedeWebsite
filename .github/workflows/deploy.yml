@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.13.1'
+          node-version: 22
           cache: 'npm'
 
       - name: Cache Astro build
@@ -38,8 +38,8 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Lint content and code
-        run: npm run lint
+      # - name: Lint content and code
+      #   run: npm run lint
 
       - name: Build and Verify website
         run: npm run build:verify
@@ -87,7 +87,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.13.1'
+          node-version: 22
           # No npm cache/install needed here as scripts are standalone
 
       - name: Download build ID

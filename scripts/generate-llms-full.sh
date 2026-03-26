@@ -5,8 +5,9 @@ GLOSSARY_DIR="src/content/glossar"
 BLOG_DIR="src/content/blog"
 DOMAIN="https://teleschmie.de"
 
-# Start with the main llms.txt content
-cat public/llms.txt > "$OUTPUT"
+# Start with the main llms.txt content (adding BOM for IONOS encoding fix)
+printf '\xEF\xBB\xBF' > "$OUTPUT"
+cat public/llms.txt >> "$OUTPUT"
 echo -e "\n---\n" >> "$OUTPUT"
 echo -e "# FULL KNOWLEDGE BASE\n" >> "$OUTPUT"
 

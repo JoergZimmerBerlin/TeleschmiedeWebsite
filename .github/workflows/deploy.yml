@@ -17,18 +17,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
 
       - name: Cache Astro build
-        uses: actions/cache@v5
+        uses: actions/cache@v4
         with:
           path: node_modules/.astro
           key: ${{ runner.os }}-astro-${{ hashFiles('**/package-lock.json', '**/astro.config.mjs') }}
@@ -47,7 +47,7 @@ jobs:
           DEPLOY_TARGET: ionos
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: website-dist
           path: dist/
@@ -60,7 +60,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v4
         with:
           name: website-dist
           path: dist
@@ -82,16 +82,16 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           # No npm cache/install needed here as scripts are standalone
 
       - name: Download build ID
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v4
         with:
           name: website-dist
           path: dist-verify

@@ -1,0 +1,46 @@
+name: Weekly Log Analysis
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Sonntags um Mitternacht
+  workflow_dispatch: # Ermöglicht manuelles Auslösen
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Download Logs from IONOS
+        run: |
+          sudo apt-get install -y lftp
+          mkdir -p logs
+          # Wir laden die Logs aus dem /logs Verzeichnis von IONOS herunter.
+          # Hinweis: Der Pfad kann je nach IONOS-Konfiguration variieren.
+          lftp -c "set ftp:ssl-allow no; open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}; mirror --use-cache --verbose /logs ./logs"
+
+      - name: Run Log Analysis (--parse)
+        run: node scripts/analyze-logs.mjs --parse
+        env:
+          LOG_DIR: ./logs
+          NODE_ENV: production
+
+      - name: Commit and Push Updated Stats
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/bot-stats.json
+          # Wir committen nur, wenn sich etwas geändert hat
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update bot stats from logs [skip ci]" && git push)

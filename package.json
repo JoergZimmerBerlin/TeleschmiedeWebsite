@@ -5,11 +5,12 @@
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/check-assets.mjs && date +%s > public/build.txt",
-    "build": "node scripts/glossary-linker.mjs && bash scripts/generate-llms-full.sh && astro build",
+    "build": "node scripts/glossary-linker.mjs && bash scripts/generate-llms-full.sh && astro build && npm run analyze-logs",
     "build:verify": "npm run build && node scripts/check-links-dist.mjs",
     "preview": "astro preview",
     "lint": "astro check",
-    "check-links": "node scripts/check-links.mjs"
+    "check-links": "node scripts/check-links.mjs",
+    "analyze-logs": "node scripts/analyze-logs.mjs --generate"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.2",

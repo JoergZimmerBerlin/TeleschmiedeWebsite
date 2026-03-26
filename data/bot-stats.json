@@ -1,0 +1,17 @@
+{
+  "01/Feb/2026": {
+    "total": 600,
+    "categories": { "seo": 300, "ai_training": 100, "ai_grounding": 200, "other": 0 },
+    "bots": { "Googlebot": 250, "bingbot": 50, "GPTBot": 100, "ChatGPT-User": 200 }
+  },
+  "01/Mar/2026": {
+    "total": 900,
+    "categories": { "seo": 450, "ai_training": 150, "ai_grounding": 300, "other": 0 },
+    "bots": { "Googlebot": 400, "bingbot": 50, "GPTBot": 150, "ChatGPT-User": 300 }
+  },
+  "26/Mar/2026": {
+    "total": 100,
+    "categories": { "seo": 50, "ai_training": 20, "ai_grounding": 30, "other": 0 },
+    "bots": { "Googlebot": 40, "bingbot": 10, "GPTBot": 20, "ChatGPT-User": 30 }
+  }
+}

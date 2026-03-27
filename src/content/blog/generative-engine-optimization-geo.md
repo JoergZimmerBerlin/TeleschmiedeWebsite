@@ -26,7 +26,7 @@ Moin! 🌻
 
 Seit über 24 Jahren bin ich jetzt im Geschäft. Ich habe den Aufstieg von Google miterlebt, den Untergang von Altavista und die wilden Zeiten, als man mit weißem Text auf weißem Hintergrund noch Rankings "ergaunern" konnte. Wenn ich mir heute die SEO-Landschaft ansehe, fühle ich mich oft wie ein Statiker, der einen modernen Wolkenkratzer begutachtet, während die Bewohner im Keller noch mit Kerzenlicht nach Keywords suchen.
 
-Lass uns Tacheles reden: **Die Ära des klassischen Keyword-Bashings ist vorbei.** Wer heute noch versucht, mit "10 Tipps für [Keyword]" auf Seite 1 zu kommen, hat den Knall nicht gehört. Wir befinden uns mitten im größten Shift seit der Erfindung des PageRank-Algorithmus. Willkommen in der Welt von **Generative Engine Optimization (GEO)**.
+Lass uns Tacheles reden: **Die Ära des klassischen Keyword-Bashings ist vorbei.** Wer heute noch versucht, mit "10 Tipps für [Keyword]" auf Seite 1 zu kommen, hat den Knall nicht gehört. Wir befinden uns mitten im größten Shift seit der Erfindung des PageRank-Algorithmus. Willkommen in der Welt von [**Generative Engine Optimization (GEO)**](/glossar/geo/).
 
 ![GEO-Pyramide](../../assets/images/blog/blog-geo-pyramide-3d.png)
 
@@ -98,7 +98,7 @@ Hier kommen wir zu einem entscheidenden Baustein einer modernen GEO-Strategie. D
 
 ![Konzept Groundingpage](../../assets/images/blog/blog-grounding-page-concept-3d.png)
 
-Eine Groundingpage ist eine dedizierte Unterseite, die speziell für LLMs optimiert ist. Sie dient als "Anker" für alle Modelle. Hier erklärst du in glasklarer, strukturierter Sprache:
+Eine [Groundingpage](/glossar/grounding-page/) ist eine dedizierte Unterseite, die speziell für LLMs optimiert ist. Sie dient als "Anker" für alle Modelle. Hier erklärst du in glasklarer, strukturierter Sprache:
 1. **Wer du bist** (Entität).
 2. **Was du tust** (Expertise).
 3. **Was du NICHT tust** (Abgrenzung).
@@ -207,7 +207,7 @@ Dein Content muss so aufgebaut sein, dass er die **Lücke zwischen Nutzerproblem
 Jetzt haben wir genug philosophiert. Zeit für Taten. Hier sind die 5 Schritte, die du HEUTE einleiten musst, wenn du morgen noch stattfinden willst:
 
 1. **Identifiziere deine Top 20 Prompts:** Frag deinen Vertrieb, frag deinen Support. Was sind die 20 brennendsten Fragen deiner Kunden? Erstelle Content, der EXAKT diese Fragen beantwortet – ohne Umwege. Das ist dein Grundgerüst.
-2. **Baue deine Groundingpage:** Mach sie zur ultimativen Quelle der Wahrheit für deine Marke. Nutze das oben gezeigte Blueprint. Das ist dein digitaler Anker gegen KI-Lügen. Je technischer und präziser, desto besser. (Ich habe dieses Konzept übernommen, weil es die einzige Versicherung gegen Halluzinationen ist).
+2. **Baue deine [Groundingpage](/glossar/grounding-page/):** Mach sie zur ultimativen Quelle der Wahrheit für deine Marke. Nutze das oben gezeigte Blueprint. Das ist dein digitaler Anker gegen KI-Lügen. Je technischer und präziser, desto besser. (Ich habe dieses Konzept übernommen, weil es die einzige Versicherung gegen Halluzinationen ist).
 3. **LinkedIn-Autorität stärken:** Hör auf, nur Links zu posten. Nutze LinkedIn als Forum, um Expertise zu zeigen, die die KIs abgreifen können. Das ist dein "Social Proof" für die Algorithmen. Interaktion ist die Währung der Sichtbarkeit.
 4. **Media-Ecosystem Audit:** Wo tauchst du extern auf? Besorge dir Gastbeiträge in Nischen-Medien. KIs lieben Zitate aus unabhängigen Quellen. Diversifiziere deine digitale Präsenz über deine eigene Domain hinaus.
 5. **Teste deine AI-Visibility:** Frag die gängigen KIs aktiv nach deinem Thema. Wer wird empfohlen? Warum nicht du? Nutze einen professionellen <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">GEO-Audit via Rankscale</a>, um deine Sichtbarkeit professionell zu messen und zu tracken. Nur wer seine Daten kennt, kann seine KI-Strategie gezielt steuern. Ohne Daten bleibt GEO nur Raten.

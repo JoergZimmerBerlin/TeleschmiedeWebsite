@@ -127,16 +127,24 @@ Hier ist ein Beispiel, wie wir eine Entität heute so definieren, dass die KI ke
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "@id": "https://teleschmie.de/#person",
+  "@type": "LocalBusiness",
+  "@id": "https://teleschmie.de/#localbusiness",
   "name": "Jörg Zimmer - SEO & SEA Freelancer",
-  "founder": "Jörg Zimmer",
-  "foundingDate": "2001",
-  "description": "Premium SEO & SEA Beratung mit über 24 Jahren Erfahrung. Spezialisiert auf GEO, technische Relaunches und High-Performance Web-Projekte.",
-  "knowsAbout": ["Generative Engine Optimization", "Technical SEO", "Google Ads Strategy"],
+  "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer der individuelle Strategien und persönliche Beratung anbietet. Tätig im Online Marketing seit Juli 2001.",
+  "foundingDate": "2001-07-23",
+  "url": "https://teleschmie.de",
+  "telephone": "+493049208184",
+  "email": "info@teleschmie.de",
+  "founder": {
+    "@id": "https://teleschmie.de/#person"
+  },
   "sameAs": [
-    "https://www.linkedin.com/in/joergzimmerberlin/",
-    "https://twitter.com/jorti"
+    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+    "https://www.xing.com/profile/Joerg_Zimmer6",
+    "https://linktr.ee/jorgzimmer",
+    "https://www.instagram.com/joerg.zimmer.berlin/",
+    "https://www.youtube.com/@Teleschmiede",
+    "https://share.google/FELFkQBL46obhnygq"
   ]
 }
 ```

@@ -2,6 +2,8 @@
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
+import { getImage } from 'astro:assets';
+import heroImage from '../assets/images/pages/hero-pose.webp';
 
 interface Props {
   title: string;
@@ -16,6 +18,10 @@ const currentPath = Astro.url.pathname;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteUrl = import.meta.env.SITE || 'https://teleschmie.de';
 
+// Optimized fallback image
+const optimizedHero = await getImage({ src: heroImage, format: 'webp', width: 1200, height: 630 });
+const fallbackUrl = `${siteUrl}${optimizedHero.src}`;
+
 // Absolute URL logic for OG Image
 let ogImageUrl = '';
 if (ogImage) {
@@ -27,8 +33,7 @@ if (ogImage) {
     ogImageUrl = `${siteUrl}${cleanOgImage}`;
   }
 } else {
-  // Default Fallback
-  ogImageUrl = `${siteUrl}/assets/hero-pose.webp`; // This assumes the build moves it here, or we use a static one
+  ogImageUrl = fallbackUrl;
 }
 // SEO Truncation Helper
 const truncate = (text: string, limit: number) => {

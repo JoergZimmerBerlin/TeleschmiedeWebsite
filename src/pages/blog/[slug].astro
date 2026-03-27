@@ -110,7 +110,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
 <Layout
   title={post.data.title}
   description={post.data.description}
-  ogImage={postImageWebp?.src || post.data.image?.src}
+  ogImage={postImageWebp?.src || (post.data.image as any)?.src}
   lcpImage={postImageWebp?.src}
 >
   <article class="section pt-8 relative">

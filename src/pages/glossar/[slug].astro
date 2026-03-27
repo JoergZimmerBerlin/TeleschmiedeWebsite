@@ -80,7 +80,7 @@ const relatedBlogPosts = allBlogPosts
 <Layout
   title={entry.data.title}
   description={entry.data.description}
-  ogImage={entryImageWebp?.src || entry.data.image?.src}
+  ogImage={entryImageWebp?.src || (entry.data.image as any)?.src}
 >
   <article class="section pt-2">
     <div class="container-narrow">

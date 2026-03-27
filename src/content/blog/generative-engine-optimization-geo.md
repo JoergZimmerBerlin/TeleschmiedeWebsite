@@ -2,7 +2,7 @@
 title: "Generative Engine Optimization (GEO): Die neue Ära der Sichtbarkeit in ChatGPT, Gemini & Co."
 description: "SEO ist tot? Nein, es entwickelt sich weiter. Erfahre alles über GEO, die 3-Stufen-Pyramide für KI-Sichtbarkeit und warum die Grounding Page dein wichtigstes Asset 2026 wird."
 date: "2026-03-27"
-image: "/src/assets/images/blog/blog-geo-pyramide-3d.png"
+image: "../../assets/images/blog/blog-geo-pyramide-3d.png"
 image_alt: "Die GEO-Pyramide: Ein 3-Stufen-Modell für Sichtbarkeit in generativen KIs"
 key_takeaways:
   - "SEO verschiebt sich von Keywords zu Prompts: Wer nicht die Fragen der Nutzer beantwortet, existiert für KIs nicht."

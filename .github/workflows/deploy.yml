@@ -10,6 +10,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   validate:
     name: Build & Validate
@@ -17,18 +20,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22.13.1'
           cache: 'npm'
 
       - name: Cache Astro build
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules/.astro
           key: ${{ runner.os }}-astro-${{ hashFiles('**/package-lock.json', '**/astro.config.mjs') }}
@@ -50,7 +53,7 @@ jobs:
           DEPLOY_TARGET: ionos
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: website-dist
           path: dist/
@@ -63,7 +66,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           name: website-dist
           path: dist
@@ -85,16 +88,16 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22.13.1'
           # No npm cache/install needed here as scripts are standalone
 
       - name: Download build ID
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           name: website-dist
           path: dist-verify

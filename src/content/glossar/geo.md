@@ -56,7 +56,7 @@ Die Basis für ein sauberes GEO-Fundament ist die makellose Deklaration wer oder
 
 Speziell für große Unternehmen bietet sich hier das **Konzept Groundingpage** an. In meinen Projekten hat sich gezeigt, dass dies der perfekte "CI-Bypass" ist: Während Marketingseiten oft durch Design-Vorgaben und CI-Vorgaben starr sind, liefert die Groundingpage (ähnlich wie eine AGB-Seite) schlichte, harte Fakten für KIs. Wichtig: Diese sollte zwingend auch in **Englisch** vorhanden sein, da die internen Grounding-Prozesse der LLMs meist sprachübergreifend auf Englisch basieren.
 
-Dies geschieht oft auf der [Über Mich](/ueber-mich/)-Seite oder einer dedizierten [Grounding Page](/glossar/groundingpage/).
+Dies geschieht oft auf der [Über Mich](/ueber-mich/)-Seite oder einer dedizierten [Grounding Page](/glossar/grounding-page/).
 
 ### 2. Semantische Dichte und Information Retrieval (IR) Optimierung
 

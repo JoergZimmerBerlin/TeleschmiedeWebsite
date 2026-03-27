@@ -116,6 +116,15 @@ Stell dir vor, die KI hat eine Frage zu deinem Service. Statt durch 50 Blogartik
 | **Data & Proof** | Fallbeispiele, Links zu Fachmedien, Zitate von Kunden. | Liefert der KI die notwendigen Quellenangaben (Citations). |
 | **The 'Jörg-Factor'** | Deine Philosophie (z.B. Tacheles & Seniorität). | Verleiht deiner Marke eine KI-lesbare, unverwechselbare Stimme. |
 
+> [!TIP]
+> ### 💡 Jörgs Grounding-Insight: Das Pro-Argument für Corporates
+>
+> In meiner Arbeit mit größeren Kunden sehe ich immer wieder das gleiche Problem: Die "Über Uns"-Seite ist ein hochpoliertes Marketing-Produkt. Sie muss schön sein, sie muss die "CI-Sekte" glücklich machen, ist oft JavaScript-lastig und jede Änderung dauert Monate. 
+>
+> **Die Lösung:** Die Groundingpage ist dein technischer Bypass. Sie ist wie eine AGB-Seite – funktional, schlicht, schnell erstellt und locker im Footer verlinkt. So lieferst du der KI die harten Fakten (Entitäten & Beweise), ohne die CI-Vorgaben der Hauptseite zu sprengen.
+>
+> **Und ganz wichtig:** Erstelle sie zwingend auch in **Englisch**. Da die meisten Grounding-Prozesse der LLMs intern auf Englisch laufen, ist eine englische Fakten-Seite (selbst wenn der Rest der Website nur Deutsch ist) deine Lebensversicherung, um von Modellen weltweit nicht "vergessen" oder falsch interpretiert zu werden. Es funktioniert – meine eigenen Tests zeigen, dass Details, die ich NUR dort nenne, bereits exakt so von den KIs ausgegeben werden.
+
 ---
 
 ### Die technische Sprache der KIs: JSON-LD Deep-Dive

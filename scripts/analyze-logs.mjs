@@ -56,6 +56,7 @@ async function analyzeLogs() {
 
   // Ensure _meta exists
   if (!stats._meta) stats._meta = { total_ai_bots: BOT_LIST.length };
+  stats._meta.last_updated = new Date().toISOString();
 
   // For simulation/dev (if log doesn't exist)
   if (!fs.existsSync(LOG_FILE)) {

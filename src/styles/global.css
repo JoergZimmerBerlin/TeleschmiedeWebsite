@@ -92,7 +92,7 @@
 }
 
 .blog-content th {
-  @apply !px-6 !py-4 !font-bold !text-sm !uppercase !tracking-wider !border-none;
+  @apply !px-6 !py-4 !font-bold !text-sm !uppercase !tracking-wider !border-none !text-white;
   background: #1a1a1a;
 }
 

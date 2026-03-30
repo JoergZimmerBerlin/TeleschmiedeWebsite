@@ -1,5 +1,6 @@
 ---
 import { Image, getImage } from 'astro:assets';
+import { getGitModDate } from '../utils/git-date';
 import Layout from '../layouts/Layout.astro';
 import CTASection from '../components/CTASection.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
@@ -12,6 +13,7 @@ import FehlerImage from '../assets/images/blog/broad-match-falle.webp';
 import ContextualImage from '../assets/images/blog/seo-ads-synergie.webp';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const lastReviewed = getGitModDate('src/pages/google-ads-freelancer-berlin.astro');
 
 // Generate WebP Image Paths for Schema.org
 const joergWorkingWebp = await getImage({ src: joergWorking, format: 'webp' });
@@ -379,6 +381,7 @@ const faqs = [
       "telephone": "+493049208184", 
       "email": "info@teleschmie.de",
       "priceRange": "€€",
+      "lastReviewed": lastReviewed,
       "founder": {
         "@type": "Person",
         "@id": "https://teleschmie.de/#person",

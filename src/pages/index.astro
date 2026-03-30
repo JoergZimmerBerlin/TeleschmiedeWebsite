@@ -7,7 +7,10 @@ import Expertise from '../components/Expertise.astro';
 import Testimonials from '../components/Testimonials.astro';
 import CTASection from '../components/CTASection.astro';
 import heroImage from '../assets/images/pages/hero-pose.webp';
+import { getGitModDate } from '../utils/git-date';
+
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const lastReviewed = getGitModDate('src/pages/index.astro');
 ---
 
 <Layout 
@@ -20,7 +23,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-2/3">
-          <p class="subheadline mb-6">SEO & SEA Freelancer Berlin Spandau</p>
+          <p class="subheadline mb-6">Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau</p>
 
           <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold leading-normal mb-8">
             Ich bringe dein <span class="highlight">Google-Ranking</span>
@@ -97,6 +100,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
         "image": "https://teleschmie.de/assets/images/profile/joerg-lifestyle.webp",
         "telephone": "+493049208184",
         "priceRange": "€€",
+        "lastReviewed": lastReviewed,
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
         "https://www.xing.com/profile/Joerg_Zimmer6",
@@ -140,6 +144,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       "telephone": "+493049208184",
       "email": "info@teleschmie.de",
       "priceRange": "€€",
+      "lastReviewed": lastReviewed,
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Zu den Fichtewiesen 16",

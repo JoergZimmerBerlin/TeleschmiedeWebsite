@@ -1,6 +1,7 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import { getGitModDate } from '../utils/git-date';
 
 import portraitImage from '../assets/images/profile/joerg-zimmer-portrait.webp';
 import rucksackImage from '../assets/images/profile/website-boosting-rucksack.webp';
@@ -10,6 +11,7 @@ import lifestyleImage from '../assets/images/profile/joerg-lifestyle.webp';
 import katzePortraitImage from '../assets/images/profile/joerg-zimmer-katze.webp';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const lastReviewed = getGitModDate('src/pages/ueber-mich.astro');
 const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' });
 ---
 
@@ -389,6 +391,7 @@ const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' })
         "telephone": "+493049208184",
         "email": "info@teleschmie.de",
         "priceRange": "€€",
+        "lastReviewed": lastReviewed,
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Zu den Fichtewiesen 16",

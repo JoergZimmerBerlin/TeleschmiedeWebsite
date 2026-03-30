@@ -29,35 +29,29 @@ jobs:
 
       - name: Download Logs from IONOS
         timeout-minutes: 5
-        run: |
-          sudo apt-get install -y lftp
-          mkdir -p logs
-          # FTP-Verbindung zu IONOS (ssl-allow, da der Server kein explizites SSL erzwingt)
-          lftp -c "
-            set ftp:ssl-allow true;
-            set ftp:ssl-protect-data true;
-            set ssl:verify-certificate no;
-            set net:timeout 30;
-            set net:max-retries 3;
-            set net:reconnect-interval-base 5;
-            set ftp:passive-mode true;
-            debug 3;
-            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }};
-            echo '--- Listing /logs/ ---';
-            ls /logs/;
-            echo '--- Starting mirror ---';
-            mirror --use-cache --verbose /logs ./logs;
-          " || echo "⚠️ FTP download failed or timed out, continuing with local data"
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          host: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USER }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          remoteDir: '/logs'
+          localDir: './logs'
+          reverse: false
+          options: '--verbose --parallel=2'
 
+      - name: Process Downloaded Logs
+        run: |
+          echo "📁 Log-Verzeichnis nach Download:"
+          ls -la logs/ || echo "Verzeichnis ist leer"
           # IONOS-Logs sind .gz-komprimiert – entpacken
           if ls logs/*.gz 1> /dev/null 2>&1; then
             echo "📦 Entpacke $(ls logs/*.gz | wc -l) Log-Dateien..."
             gunzip -f logs/*.gz
+            echo "📁 Log-Verzeichnis nach Entpacken:"
+            ls -la logs/
           else
             echo "ℹ️ Keine .gz-Dateien gefunden"
           fi
-          echo "📁 Log-Verzeichnis:"
-          ls -la logs/ || echo "Verzeichnis ist leer"
 
       - name: Run Log Analysis (--parse)
         run: node scripts/analyze-logs.mjs --parse

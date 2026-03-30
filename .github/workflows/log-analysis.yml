@@ -1,8 +1,8 @@
-name: Weekly Log Analysis
+name: Daily Log Analysis
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Sonntags um Mitternacht
+    - cron: '0 16 * * *' # Täglich um 18:00 Uhr (16:00 UTC)
   workflow_dispatch: # Ermöglicht manuelles Auslösen
 
 

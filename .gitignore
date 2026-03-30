@@ -44,3 +44,8 @@ docs/
 
 # Claude Code Rules (lokal)
 CLAUDE.md
+
+# Agent-Infrastruktur (nie in Git)
+claude.md
+_work/
+.claude/

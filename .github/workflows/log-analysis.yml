@@ -3,13 +3,12 @@ name: Daily Log Analysis
 on:
   schedule:
     - cron: '0 16 * * *' # Täglich um 18:00 Uhr (16:00 UTC)
-  workflow_dispatch: # Ermöglicht manuelles Auslösen
-
-
+  workflow_dispatch: # Manuelles Auslösen
 
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,12 +25,29 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Download Logs from IONOS
+        timeout-minutes: 5
         run: |
           sudo apt-get install -y lftp
           mkdir -p logs
-          # Wir laden die Logs aus dem /logs Verzeichnis von IONOS herunter.
-          # Hinweis: Der Pfad kann je nach IONOS-Konfiguration variieren.
-          lftp -c "set ftp:ssl-allow no; open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}; mirror --use-cache --verbose /logs ./logs"
+          # FTPS-Verbindung zu IONOS (SSL ist Pflicht)
+          lftp -c "
+            set ssl:verify-certificate no;
+            set net:timeout 30;
+            set net:max-retries 3;
+            set net:reconnect-interval-base 5;
+            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ftps://${{ secrets.FTP_HOST }};
+            mirror --use-cache --verbose /logs ./logs;
+          " || echo "⚠️ FTP download failed or timed out, continuing with local data"
+
+          # IONOS-Logs sind .gz-komprimiert – entpacken
+          if ls logs/*.gz 1> /dev/null 2>&1; then
+            echo "📦 Entpacke $(ls logs/*.gz | wc -l) Log-Dateien..."
+            gunzip -f logs/*.gz
+          else
+            echo "ℹ️ Keine .gz-Dateien gefunden"
+          fi
+          echo "📁 Log-Verzeichnis:"
+          ls -la logs/ || echo "Verzeichnis ist leer"
 
       - name: Run Log Analysis (--parse)
         run: node scripts/analyze-logs.mjs --parse

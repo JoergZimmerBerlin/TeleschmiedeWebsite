@@ -214,7 +214,7 @@ if (type === 'article') {
   } as any);
 }
 
-// Add FAQ if provided
+// Add FAQ if provided (overwrites or adds to auto-generated)
 if (faqs && faqs.length > 0) {
   graph.push({
     "@type": "FAQPage",

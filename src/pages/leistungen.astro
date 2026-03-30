@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import leistungenHero from '../assets/images/pages/leistungen-hero.webp';
 import { getGitModDate } from '../utils/git-date';
+import Schema from '../components/Schema.astro';
 
 const lastReviewed = getGitModDate('src/pages/leistungen.astro');
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -150,6 +151,12 @@ const categories: Category[] = [
     ]
   }
 ];
+
+// Flatten categories into a single offers array for the schema
+const allOffers = categories.flatMap(cat => cat.services.map(s => ({
+  name: s.title,
+  description: s.description.replace(/<\/?[^>]+(>|$)/g, "") // Strip HTML for schema
+})));
 ---
 
 <Layout
@@ -315,115 +322,10 @@ const categories: Category[] = [
     </div>
   </section>
 
-  <script is:inline type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://teleschmie.de/#person",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "jobTitle": "SEO & SEA Freelancer",
-        "url": "https://teleschmie.de/ueber-mich/",
-        "sameAs": [
-          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-          "https://www.xing.com/profile/Joerg_Zimmer6",
-          "https://linktr.ee/jorgzimmer"
-        ]
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://teleschmie.de/#localbusiness",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "url": "https://teleschmie.de/leistungen/",
-        "image": "https://teleschmie.de/assets/images/pages/leistungen-hero.webp",
-        "description": "Umfassende SEO-Analysen, Troubleshooting, Keyword-Strategie und Google Ads Management von Jörg Zimmer.",
-        "telephone": "+493049208184",
-        "priceRange": "€€",
-        "lastReviewed": lastReviewed,
-        "founder": {
-          "@type": "Person",
-          "@id": "https://teleschmie.de/#person",
-          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-          "url": "https://teleschmie.de/ueber-mich/"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Zu den Fichtewiesen 16",
-          "addressLocality": "Berlin",
-          "postalCode": "13587",
-          "addressCountry": "DE"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Dienstleistungen von Jörg Zimmer",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Sprechstunde (400€)",
-                "description": "2-stündige Live-Analyse und Strategieberatung für 400€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "SEO Troubleshooting & Live Coaching (ab 3.000€)",
-                "description": "Krisen-Management, Relaunch-Recovery und strategischer Support ab 3.000€."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Freelancer Team Vermittlung (0€)",
-                "description": "Kostenfreie Vermittlung von handverlesenen Marketing-Experten aus dem Freelancer Team Netzwerk."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Keyword-Potenzialanalyse (ab 800€)",
-                "description": "Deep-Dive Keyword-Recherche inklusive Wettbewerbs- und ROI-Check für 800€."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Local SEO & Stadtportale (500€)",
-                "description": "Einmaliger Eintrag in 50 Stadtportale (Ströer Portfolio) inklusive Daten-Sync und Scan für 500€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "10-Stunden Paket (1.600€)",
-                "description": "Flexibles Kontingent für Audits und Umsetzungen für 1.600€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Monatlicher Retainer (ab 1.600€)",
-              "description": "Kontinuierliche Begleitung und Performance-Steigerung ab 1.600€ monatlich."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Zweite Meinung / Angebotsprüfung (200€/h)",
-              "description": "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
-            }
-          }
-          ]
-        }
-      }
-    ]
-  })} />
+  <Schema 
+    title="Leistungen | Jörg Zimmer - SEO & SEA Freelancer"
+    description="SEO-Checks, Keyword-Analysen, Google Ads Management und Beratung. Entdecke meine Leistungen als SEO-Freelancer in Berlin Spandau. ALOHA! 🌻"
+    lastReviewed={lastReviewed}
+    offers={allOffers}
+  />
 </Layout>

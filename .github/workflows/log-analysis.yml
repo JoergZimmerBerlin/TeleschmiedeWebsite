@@ -32,17 +32,20 @@ jobs:
         run: |
           sudo apt-get install -y lftp
           mkdir -p logs
-          # Explicit FTPS (Port 21 + StartTLS) – IONOS Standard
+          # FTP-Verbindung zu IONOS (ssl-allow, da der Server kein explizites SSL erzwingt)
           lftp -c "
-            set ftp:ssl-force true;
+            set ftp:ssl-allow true;
             set ftp:ssl-protect-data true;
-            set ftp:ssl-protect-list true;
             set ssl:verify-certificate no;
             set net:timeout 30;
             set net:max-retries 3;
             set net:reconnect-interval-base 5;
+            set ftp:passive-mode true;
+            debug 3;
             open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }};
-            ls /logs/ || echo 'Verzeichnis /logs/ nicht gefunden';
+            echo '--- Listing /logs/ ---';
+            ls /logs/;
+            echo '--- Starting mirror ---';
             mirror --use-cache --verbose /logs ./logs;
           " || echo "⚠️ FTP download failed or timed out, continuing with local data"
 

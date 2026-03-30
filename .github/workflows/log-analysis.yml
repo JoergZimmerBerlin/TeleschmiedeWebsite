@@ -32,20 +32,22 @@ jobs:
         run: |
           sudo apt-get install -y lftp
           mkdir -p logs
-          # SFTP-Verbindung (Port 22) – identisches Protokoll wie Deploy
+          # FTP Port 21 – /logs/ ist NUR über FTP sichtbar (nicht SFTP)
+          # IONOS lehnt SSL ab, daher ssl-allow=false
           lftp -c "
-            set sftp:auto-confirm yes;
+            set ftp:ssl-allow false;
             set net:timeout 30;
             set net:max-retries 3;
-            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -p 22 sftp://${{ secrets.FTP_HOST }};
-            echo '=== Root-Verzeichnis ===';
+            set net:reconnect-interval-base 5;
+            set ftp:passive-mode true;
+            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -p 21 ftp://${{ secrets.FTP_HOST }};
+            echo '=== Root ===';
             ls /;
-            echo '=== Suche nach logs ===';
-            ls /logs/ 2>/dev/null || echo '/logs/ nicht gefunden';
-            ls logs/ 2>/dev/null || echo 'logs/ nicht gefunden';
-            echo '=== Mirror starten ===';
-            mirror --verbose /logs ./logs 2>/dev/null || mirror --verbose logs ./logs 2>/dev/null || echo 'Kein logs-Verzeichnis gefunden';
-          " || echo "⚠️ SFTP download failed, continuing with local data"
+            echo '=== /logs/ ===';
+            ls /logs/;
+            echo '=== Mirror ===';
+            mirror --verbose /logs ./logs;
+          " || echo "⚠️ FTP download failed, continuing with local data"
 
           echo "📁 Log-Verzeichnis:"
           ls -la logs/ || echo "Verzeichnis ist leer"

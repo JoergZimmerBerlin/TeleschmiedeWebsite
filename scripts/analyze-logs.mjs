@@ -58,61 +58,88 @@ async function analyzeLogs() {
   if (!stats._meta) stats._meta = { total_ai_bots: BOT_LIST.length };
   stats._meta.last_updated = new Date().toISOString();
 
-  // For simulation/dev (if log doesn't exist)
-  if (!fs.existsSync(LOG_FILE)) {
-    console.log("Log file not found. Skipping parsing, using existing stats.");
-  } else {
-    const lines = fs.readFileSync(LOG_FILE, 'utf8').split('\n');
-    lines.forEach(line => {
-      const data = parseLogLine(line);
-      if (!data) return;
+  // Determine which files to process
+  const filesToProcess = [];
+  const logDir = process.env.LOG_DIR;
 
-      const bot = BOT_LIST.find(b => b.pattern.test(data.ua));
-      if (!bot) return;
-
-      if (!stats[data.date]) {
-        stats[data.date] = { total: 0, categories: {}, bots: {}, pages: {}, folders: {}, errors: { total: 0, byCategory: {} } };
-      }
-
-      const day = stats[data.date];
-      day.total++;
-      day.categories[bot.category] = (day.categories[bot.category] || 0) + 1;
-
-      // Folder analysis (e.g., /blog, /glossar)
-      const folder = data.url.split('/')[1] ? `/${data.url.split('/')[1]}` : '/';
-      if (!day.folders[folder]) day.folders[folder] = { count: 0, categories: {} };
-      day.folders[folder].count++;
-      day.folders[folder].categories[bot.category] = (day.folders[folder].categories[bot.category] || 0) + 1;
-
-      if (!day.bots[bot.name]) {
-        day.bots[bot.name] = { count: 0, provider: bot.provider, purpose: bot.purpose, category: bot.category, errors: 0 };
-      }
-      day.bots[bot.name].count++;
-      day.bots[bot.name].lastSeen = data.date;
-
-      if (!day.pages[data.url]) {
-        day.pages[data.url] = { count: 0, errors: 0, bots: new Set(), categories: {} };
-      }
-      day.pages[data.url].count++;
-      day.pages[data.url].bots.add(bot.name);
-      day.pages[data.url].categories[bot.category] = (day.pages[data.url].categories[bot.category] || 0) + 1;
-
-      if (data.status >= 400) {
-        day.errors.total++;
-        day.errors.byCategory[bot.category] = (day.errors.byCategory[bot.category] || 0) + 1;
-        day.bots[bot.name].errors++;
-        day.pages[data.url].errors++;
+  if (logDir && fs.existsSync(logDir)) {
+    const dirFiles = fs.readdirSync(logDir);
+    dirFiles.forEach(file => {
+      const fullPath = path.join(logDir, file);
+      if (fs.statSync(fullPath).isFile() && (file.includes('access.log') || file.includes('.log'))) {
+        filesToProcess.push(fullPath);
       }
     });
+    console.log(`Found ${filesToProcess.length} log files in ${logDir}`);
+  } else if (fs.existsSync(LOG_FILE)) {
+    filesToProcess.push(LOG_FILE);
+    console.log(`Processing single log file: ${LOG_FILE}`);
+  }
 
-    // Post-process sets to counts
+  if (filesToProcess.length === 0) {
+    console.log("No log files found. Skipping parsing, using existing stats.");
+  } else {
+    filesToProcess.forEach(filePath => {
+      console.log(`Parsing: ${path.basename(filePath)}`);
+      const lines = fs.readFileSync(filePath, 'utf8').split('\n');
+      let linesParsed = 0;
+      
+      lines.forEach(line => {
+        const data = parseLogLine(line);
+        if (!data) return;
+
+        const bot = BOT_LIST.find(b => b.pattern.test(data.ua));
+        if (!bot) return;
+
+        linesParsed++;
+
+        if (!stats[data.date]) {
+          stats[data.date] = { total: 0, categories: {}, bots: {}, pages: {}, folders: {}, errors: { total: 0, byCategory: {} } };
+        }
+
+        const day = stats[data.date];
+        day.total++;
+        day.categories[bot.category] = (day.categories[bot.category] || 0) + 1;
+
+        // Folder analysis (e.g., /blog, /glossar)
+        const folder = data.url.split('/')[1] ? `/${data.url.split('/')[1]}` : '/';
+        if (!folder.startsWith('/')) { // Handle edge cases
+          return;
+        }
+        
+        if (!day.folders[folder]) day.folders[folder] = { count: 0, categories: {} };
+        day.folders[folder].count++;
+        day.folders[folder].categories[bot.category] = (day.folders[folder].categories[bot.category] || 0) + 1;
+
+        if (!day.bots[bot.name]) {
+          day.bots[bot.name] = { count: 0, provider: bot.provider, purpose: bot.purpose, category: bot.category, errors: 0 };
+        }
+        day.bots[bot.name].count++;
+        day.bots[bot.name].lastSeen = data.date;
+
+        if (!day.pages[data.url]) {
+          day.pages[data.url] = { count: 0, errors: 0, bots: new Set(), categories: {} };
+        }
+        day.pages[data.url].count++;
+        day.pages[data.url].bots.add(bot.name);
+        day.pages[data.url].categories[bot.category] = (day.pages[data.url].categories[bot.category] || 0) + 1;
+
+        if (data.status >= 400) {
+          day.errors.total++;
+          day.errors.byCategory[bot.category] = (day.errors.byCategory[bot.category] || 0) + 1;
+          day.bots[bot.name].errors++;
+          day.pages[data.url].errors++;
+        }
+      });
+      console.log(`- Finished ${path.basename(filePath)}: ${linesParsed} lines relevant for AI analytics.`);
+    });
+
+    // Post-process sets to counts across all days
     Object.values(stats).forEach(day => {
       if (day.pages) {
         Object.values(day.pages).forEach(page => {
-          if (page.bots instanceof Set) {
+          if (page.bots && page.bots instanceof Set) {
             page.uniqueBots = page.bots.size;
-            // No delete page.bots if we want to know exact bots? 
-            // But let's keep it clean for now and use categories.
             delete page.bots;
           }
         });

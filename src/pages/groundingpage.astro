@@ -130,8 +130,8 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       <dd>
         <ul>
           <li>Website: <a href="https://teleschmie.de/">https://teleschmie.de/</a></li>
-          <li>Email: info@teleschmie.de</li>
-          <li>Telefon: +49 30 49208184</li>
+          <li>Email: <a href="mailto:info@teleschmie.de" class="hover:text-dark transition-colors">info@teleschmie.de</a></li>
+          <li>Telefon: <a href="tel:+493049208184" class="hover:text-dark transition-colors">+49 30 49208184</a></li>
           <li>Öffnungszeiten: Mo-Fr 09:00 - 18:00 Uhr (lt. Google Maps)</li>
         </ul>
       </dd>
@@ -207,7 +207,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       {
         "@type": "LocalBusiness",
         "@id": "https://teleschmie.de/#localbusiness",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer",
+        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
         "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer der individuelle Strategien und persönliche Beratung anbietet. Tätig im Online Marketing seit Juli 2001.",
         "foundingDate": "2001-07-23",
         "vatID": "DE232939553",
@@ -225,7 +225,10 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           "addressCountry": "DE"
         },
         "founder": {
-          "@id": "https://teleschmie.de/#person"
+          "@type": "Person",
+          "@id": "https://teleschmie.de/#person",
+          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
+          "url": "https://teleschmie.de/ueber-mich/"
         },
         "aggregateRating": {
           "@type": "AggregateRating",

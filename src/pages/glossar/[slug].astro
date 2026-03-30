@@ -308,7 +308,7 @@ const relatedBlogPosts = allBlogPosts
       {
         "@type": "LocalBusiness",
         "@id": "https://teleschmie.de/#localbusiness",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer",
+        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
         "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer der individuelle Strategien und persönliche Beratung anbietet. Tätig im Online Marketing seit Juli 2001.",
         "foundingDate": "2001-07-23",
         "vatID": "DE232939553",
@@ -325,7 +325,12 @@ const relatedBlogPosts = allBlogPosts
           "postalCode": "13587",
           "addressCountry": "DE"
         },
-        "founder": { "@id": "https://teleschmie.de/#person" },
+        "founder": {
+          "@type": "Person",
+          "@id": "https://teleschmie.de/#person",
+          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
+          "url": "https://teleschmie.de/ueber-mich/"
+        },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5.0",
@@ -404,7 +409,7 @@ const relatedBlogPosts = allBlogPosts
       {
         "@type": "Person",
         "@id": "https://teleschmie.de/#person",
-        "name": "Jörg Zimmer",
+        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
         "jobTitle": "SEO & SEA Freelancer / Digitaler Architekt",
         "image": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
         "url": "https://teleschmie.de/ueber-mich/",
@@ -463,8 +468,21 @@ const relatedBlogPosts = allBlogPosts
         "description": entry.data.description,
         "inDefinedTermSet": "https://teleschmie.de/glossar/",
         ...(entry.data.image && { "image": `https://teleschmie.de${entry.data.image.src}` }),
-        "author": { "@id": "https://teleschmie.de/#person" },
-        "publisher": { "@id": "https://teleschmie.de/#localbusiness" }
+        "author": {
+          "@type": "Person",
+          "@id": "https://teleschmie.de/#person",
+          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
+          "url": "https://teleschmie.de/ueber-mich/"
+        },
+        "publisher": {
+          "@type": "LocalBusiness",
+          "@id": "https://teleschmie.de/#localbusiness",
+          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://teleschmie.de/images/logo-teleschmiede.webp"
+          }
+        }
       },
       ...(entry.data.faqs ? [{
         "@type": "FAQPage",

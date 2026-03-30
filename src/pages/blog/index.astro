@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Schema from '../../components/Schema.astro';
 import { Image } from 'astro:assets';
 import { getImage } from 'astro:assets';
 import { getCollection } from 'astro:content';
@@ -254,6 +255,10 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
        </div>
     </div>
   </section>
+  <Schema 
+    title="Blog | Jörg Zimmer - SEO Insights & Strategien"
+    description="Aktuelle Insights zu SEO, SEA und Performance Marketing von Jörg Zimmer."
+  />
 </Layout>
 
 <script>

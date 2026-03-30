@@ -2,6 +2,7 @@
 import { Image, getImage } from 'astro:assets';
 import { getGitModDate } from '../utils/git-date';
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 import CTASection from '../components/CTASection.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
 import heroImage from '../assets/images/pages/hero-pose.webp';
@@ -47,6 +48,33 @@ const faqs = [
   {
     question: "Benutzt du Tools oder machst du das aus dem Bauch heraus?",
     answer: "Gefühle sind super für LinkedIn-Posts, aber Gift für die SEO-Strategie. Mein Stack ist hocheffizient: Screaming Frog für die Technik, Sistrix und Ahrefs für die Sichtbarkeit und Rankscale für das KI-Sichtbarkeits-Tracking. Ich übersetze diese harten Daten für dich in Business-Nutzen. Denn am Ende des Tages zählen keine bunten Graphen, sondern ob wir Umsatz für dein Unternehmen treiben."
+  }
+];
+
+const offers = [
+  {
+    name: "Technisches SEO Audit",
+    description: "Tiefgreifende technische Analyse von Crawlbarkeit, Indexierung und Core Web Vitals."
+  },
+  {
+    name: "Local SEO Berlin",
+    description: "Optimierung für lokale Suchanfragen, Google Unternehmensprofil und Citations in Berlin."
+  },
+  {
+    name: "Relaunch Begleitung",
+    description: "Sicherung der Rankings bei Website-Relaunches durch exaktes Redirect-Mapping."
+  },
+  {
+    name: "10-Stunden Paket (1.600€)",
+    description: "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€ Pauschal)."
+  },
+  {
+    name: "Monatlicher Retainer (ab 1.600€)",
+    description: "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€ monatlich)."
+  },
+  {
+    name: "Zweite Meinung / Angebotsprüfung (200€/h)",
+    description: "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
   }
 ];
 ---
@@ -347,138 +375,13 @@ const faqs = [
   </section>
 
   <!-- FAQ Section with Schema inside the Component -->
-  <section class="section bg-white pt-16 pb-24">
-    <div class="container-narrow max-w-4xl mx-auto">
-      <FAQAccordion faqs={faqs} />
-    </div>
-  </section>
-
   <CTASection />
 </Layout>
 
-<!-- JSON-LD Structured Data für Local Business, Person & Services -->
-<script is:inline type="application/ld+json" set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person",
-      "@id": "https://teleschmie.de/#person",
-      "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-      "jobTitle": "SEO & SEA Freelancer",
-      "description": "Erfahrener SEO-Experte aus Berlin mit über 20 Jahren Branchenerfahrung.",
-      "image": `https://teleschmie.de${joergWorkingWebp.src}`,
-      "url": "https://teleschmie.de/ueber-mich/",
-      "sameAs": [
-        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-        "https://www.xing.com/profile/Joerg_Zimmer6",
-        "https://linktr.ee/jorgzimmer",
-        "https://www.instagram.com/joerg.zimmer.berlin/",
-        "https://www.facebook.com/teleschmiede",
-        "https://www.youtube.com/@Teleschmiede",
-        "https://www.tiktok.com/@teleschmiede",
-        "https://www.threads.com/@joerg.zimmer.berlin"
-      ],
-      "knowsAbout": ["Search Engine Optimization", "Technical SEO", "Local SEO", "AI Search", "Google Ads"]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://teleschmie.de/#localbusiness",
-      "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-      "description": "Technisches SEO, Relaunch-Begleitung und ehrliche SEO Beratung in Berlin Spandau und DACH.",
-      "image": `https://teleschmie.de${heroImageWebp.src}`,
-      "url": "https://teleschmie.de/seo-freelancer-berlin/",
-      "telephone": "+493049208184", 
-      "email": "info@teleschmie.de",
-      "priceRange": "€€",
-      "lastReviewed": lastReviewed,
-      "founder": {
-        "@type": "Person",
-        "@id": "https://teleschmie.de/#person",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "url": "https://teleschmie.de/ueber-mich/"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Zu den Fichtewiesen 16", 
-        "addressLocality": "Berlin",
-        "addressRegion": "Berlin",
-        "postalCode": "13587",
-        "addressCountry": "DE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 52.5591,
-        "longitude": 13.1883
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "09:00",
-          "closes": "18:00"
-        }
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "bestRating": "5",
-        "worstRating": "1",
-        "reviewCount": "24"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "SEO Dienstleistungen",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Technisches SEO Audit",
-              "description": "Tiefgreifende technische Analyse von Crawlbarkeit, Indexierung und Core Web Vitals."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Local SEO Berlin",
-              "description": "Optimierung für lokale Suchanfragen, Google Unternehmensprofil und Citations in Berlin."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Relaunch Begleitung",
-              "description": "Sicherung der Rankings bei Website-Relaunches durch exaktes Redirect-Mapping."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "10-Stunden Paket (1.600€)",
-              "description": "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€ Pauschal)."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monatlicher Retainer (ab 1.600€)",
-              "description": "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€ monatlich)."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Zweite Meinung / Angebotsprüfung (200€/h)",
-              "description": "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
-            }
-          }
-        ]
-      }
-    }
-  ]
-})} />
+<Schema 
+  title={title}
+  description={description}
+  lastReviewed={lastReviewed}
+  offers={offers}
+  faqs={faqs}
+/>

@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Schema from '../../components/Schema.astro';
 import { getCollection } from 'astro:content';
 
 const glossarEntries = await getCollection('glossar');
@@ -77,6 +78,10 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     </div>
   </section>
+  <Schema 
+    title="SEO Glossar | Fachbegriffe einfach erklärt"
+    description="Lexikon der wichtigsten Fachbegriffe aus SEO, SEA und Online Marketing – verständlich erklärt für Entscheider."
+  />
 </Layout>
 
 <script>

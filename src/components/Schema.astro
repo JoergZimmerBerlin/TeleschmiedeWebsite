@@ -1,0 +1,233 @@
+---
+/**
+ * Schema.astro
+ * Centralized JSON-LD Schema component to ensure consistency and high audit scores.
+ */
+interface Props {
+  title?: string;
+  description?: string;
+  lastReviewed?: string;
+  url?: string;
+  type?: 'article' | 'glossary' | 'default';
+  image?: string;
+  datePublished?: string;
+  faqs?: any[];
+  offers?: any[];
+}
+
+const { 
+  title, 
+  description, 
+  lastReviewed,
+  url = Astro.url.href,
+  type = 'default',
+  image,
+  datePublished,
+  offers,
+  faqs
+} = Astro.props;
+
+const siteUrl = 'https://teleschmie.de';
+const personId = `${siteUrl}/#person`;
+const businessId = `${siteUrl}/#localbusiness`;
+const websiteId = `${siteUrl}/#website`;
+
+// Central Person Entity
+const personEntity = {
+  "@type": "Person",
+  "@id": personId,
+  "name": "Jörg Zimmer",
+  "givenName": "Jörg",
+  "familyName": "Zimmer",
+  "jobTitle": "SEO & SEA Freelancer / Digitaler Architekt",
+  "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer mit über 20 Jahren Erfahrung.",
+  "image": `${siteUrl}/assets/images/profile/joerg-zimmer-portrait.webp`,
+  "url": `${siteUrl}/ueber-mich/`,
+  "sameAs": [
+    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+    "https://www.xing.com/profile/Joerg_Zimmer6",
+    "https://linktr.ee/jorgzimmer",
+    "https://www.instagram.com/joerg.zimmer.berlin/",
+    "https://www.facebook.com/teleschmiede",
+    "https://www.youtube.com/@Teleschmiede",
+    "https://www.tiktok.com/@teleschmiede",
+    "https://www.threads.com/@joerg.zimmer.berlin"
+  ],
+  "knowsAbout": [
+    { "@type": "Thing", "name": "Search Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q180711" },
+    { "@type": "Thing", "name": "Technical SEO", "sameAs": "https://www.wikidata.org/wiki/Q110287413" },
+    { "@type": "Thing", "name": "Local SEO", "sameAs": "https://www.wikidata.org/wiki/Q6664539" },
+    { "@type": "Thing", "name": "Search Engine Advertising", "sameAs": "https://www.wikidata.org/wiki/Q846132" },
+    { "@type": "Thing", "name": "Google Ads", "sameAs": "https://www.wikidata.org/wiki/Q271982" },
+    { "@type": "Thing", "name": "Performance Marketing", "sameAs": "https://www.wikidata.org/wiki/Q2070665" },
+    { "@type": "Thing", "name": "Generative Engine Optimization", "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization#Generative_engine_optimization" },
+    { "@type": "Thing", "name": "Artificial Intelligence", "sameAs": "https://www.wikidata.org/wiki/Q1164" }
+  ],
+  "memberOf": [
+    { "@type": "Organization", "name": "SEO Stammtisch Berlin" },
+    { "@type": "Organization", "name": "Freelancer Team" }
+  ],
+  "subjectOf": [
+    {
+      "@type": "VideoObject",
+      "name": "SEOpresso Podcast Ep. 207: 24 Jahre SEO - und wir machen immer noch die gleichen Fehler",
+      "url": "https://www.youtube.com/watch?v=dVGOMAVUNQk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dVGOMAVUNQk/maxresdefault.webp",
+      "description": "Jörg Zimmer im Gespräch mit Björn Darko über 24 Jahre SEO-Geschichte.",
+      "uploadDate": "2025-07-04"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Bist du SEO AI ready? - Interview mit Antonia Blago",
+      "url": "https://www.youtube.com/watch?v=ZIFCXUXypSc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZIFCXUXypSc/maxresdefault.webp",
+      "description": "Interview über die Schnittmenge von SEO und Künstlicher Intelligenz.",
+      "uploadDate": "2025-07-20"
+    },
+    {
+      "@type": "VideoObject",
+      "name": "SEO ist tot? - Magic Writing Podcast",
+      "url": "https://www.youtube.com/watch?v=32YkPQtOJDU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/32YkPQtOJDU/maxresdefault.webp",
+      "description": "Diskussion über den aktuellen Stand von SEO.",
+      "uploadDate": "2025-06-01"
+    }
+  ]
+};
+
+// Central Business Entity (Hardened for Local Service Audit)
+const businessEntity: any = {
+  "@type": "ProfessionalService",
+  "@id": businessId,
+  "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
+  "description": description || "Individuelle SEO & SEA Beratung mit über 20 Jahren Erfahrung.",
+  "url": siteUrl,
+  "telephone": "+493049208184",
+  "email": "info@teleschmie.de",
+  "priceRange": "€€",
+  "lastReviewed": lastReviewed,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Zu den Fichtewiesen 16",
+    "addressLocality": "Berlin",
+    "addressRegion": "Berlin",
+    "postalCode": "13587",
+    "addressCountry": "DE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.5591,
+    "longitude": 13.1883
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "hasMap": "https://share.google/FELFkQBL46obhnygq",
+  "founder": { "@id": personId },
+  "author": { "@id": personId },
+  "publisher": { "@id": personId },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "bestRating": "5",
+    "worstRating": "1",
+    "reviewCount": "24"
+  },
+  "logo": {
+    "@type": "ImageObject",
+    "url": `${siteUrl}/images/logo-teleschmiede.webp`
+  }
+};
+const extractPrice = (name: string) => {
+  const match = name.match(/(\d+(?:\.\d+)?)\s*€/);
+  return match ? match[1].replace('.', '') : null;
+};
+
+// Add Offers if provided
+if (offers && offers.length > 0) {
+  businessEntity.hasOfferCatalog = {
+    "@type": "OfferCatalog",
+    "name": "Dienstleistungen von Jörg Zimmer",
+    "itemListElement": offers.map(offer => {
+      const price = extractPrice(offer.name) || extractPrice(offer.description);
+      return {
+        "@type": "Offer",
+        "price": price || undefined,
+        "priceCurrency": price ? "EUR" : undefined,
+        "itemOffered": {
+          "@type": "Service",
+          "name": offer.name,
+          "description": offer.description
+        }
+      };
+    })
+  };
+}
+
+const graph = [
+  personEntity,
+  businessEntity,
+  {
+    "@type": "WebSite",
+    "@id": websiteId,
+    "url": siteUrl,
+    "name": "TELESCHMIE.DE",
+    "publisher": { "@id": personId },
+    "author": { "@id": personId }
+  }
+];
+
+// Add Article/Glossary specific data to graph
+if (type === 'article') {
+  graph.push({
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "image": image,
+    "datePublished": datePublished,
+    "lastReviewed": lastReviewed,
+    "author": { "@id": personId },
+    "publisher": { "@id": businessId },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+  } as any);
+} else if (type === 'glossary') {
+  graph.push({
+    "@type": "DefinedTerm",
+    "name": title,
+    "description": description,
+    "lastReviewed": lastReviewed,
+    "inDefinedTermSet": `${siteUrl}/glossar/`,
+    "image": image,
+    "author": { "@id": personId },
+    "publisher": { "@id": businessId }
+  } as any);
+}
+
+// Add FAQ if provided
+if (faqs && faqs.length > 0) {
+  graph.push({
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  } as any);
+}
+
+// Wrap in context
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": graph
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />

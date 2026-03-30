@@ -8,6 +8,7 @@ import TachelesEcke from '../../components/TachelesEcke.astro';
 import FAQAccordion from '../../components/FAQAccordion.astro';
 import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
 import { getGitModDate } from '../../utils/git-date';
+import Schema from '../../components/Schema.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossar');
@@ -303,203 +304,15 @@ const relatedBlogPosts = allBlogPosts
     </div>
   </article>
 
-  <!-- Schema Markup (High-End Grounding for AI & LLMs) -->
-  <script is:inline type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://teleschmie.de/#localbusiness",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer der individuelle Strategien und persönliche Beratung anbietet. Tätig im Online Marketing seit Juli 2001.",
-        "foundingDate": "2001-07-23",
-        "vatID": "DE232939553",
-        "url": "https://teleschmie.de",
-        "telephone": "+493049208184",
-        "email": "info@teleschmie.de",
-        "priceRange": "€€",
-        "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Zu den Fichtewiesen 16",
-          "addressLocality": "Berlin",
-          "addressRegion": "Berlin",
-          "postalCode": "13587",
-          "addressCountry": "DE"
-        },
-        "founder": {
-          "@type": "Person",
-          "@id": "https://teleschmie.de/#person",
-          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-          "url": "https://teleschmie.de/ueber-mich/"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "24",
-          "description": "Basierend auf Bewertungen bei Google Maps und Empfehlungen auf LinkedIn."
-        },
-        "hasOfferCatalog": {
-          "@id": "https://teleschmie.de/#offercatalog",
-          "@type": "OfferCatalog",
-          "name": "Dienstleistungen von Jörg Zimmer",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Sprechstunde (400€)",
-                "description": "2-stündige Live-Analyse und Strategieberatung für 400€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "SEO Troubleshooting & Live Coaching (ab 3.000€)",
-                "description": "Hilfe in Notfällen, bei Relaunch-Absturz oder strategischen Fragen ab 3.000€."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Keyword-Potenzialanalyse (ab 800€)",
-                "description": "Data-Mining im Google-Universum inklusive Suchvolumen und Wettbewerb für 800€."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "10-Stunden Paket (1.600€)",
-                "description": "Flexibles Leistungspaket für tiefgreifende Audits und Setup-Phasen für 1.600€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Monatlicher Retainer (ab 1.600€)",
-                "description": "Fortlaufende Betreuung und strategische Optimierung ab 1.600€ monatlich."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Zweite Meinung / Angebotsprüfung (200€/h)",
-                "description": "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote."
-              }
-            }
-          ]
-        },
-        "sameAs": [
-          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-          "https://www.xing.com/profile/Joerg_Zimmer6",
-          "https://linktr.ee/jorgzimmer",
-          "https://www.instagram.com/joerg.zimmer.berlin/",
-          "https://www.facebook.com/teleschmiede",
-          "https://www.youtube.com/@Teleschmiede",
-          "https://www.tiktok.com/@teleschmiede",
-          "https://www.threads.com/@joerg.zimmer.berlin",
-          "https://share.google/FELFkQBL46obhnygq"
-        ]
-      },
-      {
-        "@type": "Person",
-        "@id": "https://teleschmie.de/#person",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "jobTitle": "SEO & SEA Freelancer / Digitaler Architekt",
-        "image": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
-        "url": "https://teleschmie.de/ueber-mich/",
-        "knowsLanguage": ["de", "en"],
-        "knowsAbout": ["SEO", "SEA", "Performance Marketing", "GEO", "Technisches SEO"],
-        "memberOf": [
-          { "@type": "Organization", "name": "SEO Stammtisch Berlin" },
-          { "@type": "Organization", "name": "Freelancer Team" }
-        ],
-        "subjectOf": [
-          {
-            "@type": "VideoObject",
-            "name": "SEOpresso Podcast Ep. 207: 24 Jahre SEO - und wir machen immer noch die gleichen Fehler",
-            "url": "https://www.youtube.com/watch?v=dVGOMAVUNQk",
-            "thumbnailUrl": "https://i.ytimg.com/vi/dVGOMAVUNQk/maxresdefault.webp",
-            "description": "Jörg Zimmer im Gespräch mit Björn Darko über 24 Jahre SEO-Geschichte, die Entwicklung der Branche und warum wir immer noch die gleichen Fehler machen.",
-            "uploadDate": "2025-07-04",
-            "duration": "PT1H15M",
-            "contentUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk",
-            "embedUrl": "https://www.youtube.com/embed/dVGOMAVUNQk"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Bist du SEO AI ready? - Interview mit Antonia Blago",
-            "url": "https://www.youtube.com/watch?v=ZIFCXUXypSc",
-            "thumbnailUrl": "https://i.ytimg.com/vi/ZIFCXUXypSc/maxresdefault.webp",
-            "description": "Interview über die Schnittmenge von SEO und Künstlicher Intelligenz: Strategien für die Zukunft der Suche.",
-            "uploadDate": "2025-07-20",
-            "duration": "PT45M",
-            "contentUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc",
-            "embedUrl": "https://www.youtube.com/embed/ZIFCXUXypSc"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "SEO ist tot? - Magic Writing Podcast",
-            "url": "https://www.youtube.com/watch?v=32YkPQtOJDU",
-            "thumbnailUrl": "https://i.ytimg.com/vi/32YkPQtOJDU/maxresdefault.webp",
-            "description": "Diskussion über den aktuellen Stand von SEO und warum das Verständnis der Zielgruppe wichtiger ist als je zuvor.",
-            "uploadDate": "2025-06-01",
-            "duration": "PT30M",
-            "contentUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU",
-            "embedUrl": "https://www.youtube.com/embed/32YkPQtOJDU"
-          }
-        ],
-        "sameAs": [
-          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-          "https://www.xing.com/profile/Joerg_Zimmer6",
-          "https://linktr.ee/jorgzimmer",
-          "https://www.instagram.com/joerg.zimmer.berlin/",
-          "https://www.youtube.com/@Teleschmiede"
-        ]
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": entry.data.title,
-        "description": entry.data.description,
-        "lastReviewed": lastReviewed,
-        "inDefinedTermSet": "https://teleschmie.de/glossar/",
-        ...(entry.data.image && { "image": `https://teleschmie.de${entry.data.image.src}` }),
-        "author": {
-          "@type": "Person",
-          "@id": "https://teleschmie.de/#person",
-          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-          "url": "https://teleschmie.de/ueber-mich/"
-        },
-        "publisher": {
-          "@type": "LocalBusiness",
-          "@id": "https://teleschmie.de/#localbusiness",
-          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://teleschmie.de/images/logo-teleschmiede.webp"
-          }
-        }
-      },
-      ...(entry.data.faqs ? [{
-        "@type": "FAQPage",
-        "mainEntity": entry.data.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      }] : [])
-    ]
-  })} />
+  <Schema 
+    type="glossary"
+    title={entry.data.title}
+    description={entry.data.description}
+    image={entryImageWebp ? `https://teleschmie.de${entryImageWebp.src}` : undefined}
+    lastReviewed={lastReviewed}
+    faqs={entry.data.faqs}
+    url={`https://teleschmie.de/glossar/${entry.id}/`}
+  />
 </Layout>
 
 

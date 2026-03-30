@@ -2,6 +2,7 @@
 import { Image, getImage } from 'astro:assets';
 import { getGitModDate } from '../utils/git-date';
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 import CTASection from '../components/CTASection.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
 import heroImage from '../assets/images/pages/hero-pose.webp';
@@ -47,6 +48,33 @@ const faqs = [
   {
     question: "Betreust du auch B2B Industrie und lokale Unternehmen?",
     answer: "Ja, absolut. Ich arbeite besonders gerne mit Industrie, B2B, Online Shops und Local Businesses. Die Anforderungen sind hier sehr unterschiedlich – von der Leadgenerierung für komplexe Maschinen bis hin zur lokalen Sichtbarkeit für den Handwerker um die Ecke. Das Grundprinzip ist stets: Präzises Targeting und Vermeidung von Streuverlusten."
+  }
+];
+
+const offers = [
+  {
+    name: "Sprechstunde (400€)",
+    description: "Ein kompakter Direkt-Check des bestehenden Ads Accounts auf Budgetfresser (400€ Pauschal)."
+  },
+  {
+    name: "B2B & Online Shop SEA Setup",
+    description: "Strukturierter Aufbau präziser Such- und Shopping-Kampagnen zur Conversion-Steigerung."
+  },
+  {
+    name: "Local Ads Berlin",
+    description: "Optimierung von bezahlten Suchkampagnen für lokale Suchanfragen, Leads und Geschäftsfelder in Berlin."
+  },
+  {
+    name: "10-Stunden Paket (1.600€)",
+    description: "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€ Pauschal)."
+  },
+  {
+    name: "Monatlicher Retainer (ab 1.600€)",
+    description: "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€ monatlich)."
+  },
+  {
+    name: "Zweite Meinung / Angebotsprüfung (200€/h)",
+    description: "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
   }
 ];
 ---
@@ -347,141 +375,10 @@ const faqs = [
   <CTASection />
 </Layout>
 
-<!-- JSON-LD Structured Data für Professional Services, Local Business & Person -->
-<script is:inline type="application/ld+json" set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person",
-      "@id": "https://teleschmie.de/#person",
-      "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-      "jobTitle": "SEO & SEA Freelancer",
-      "description": "Erfahrener SEO & SEA-Experte aus Berlin mit über 10 Jahren exklusiver Google Ads Erfahrung.",
-      "image": `https://teleschmie.de${joergWorkingWebp.src}`,
-      "url": "https://teleschmie.de/ueber-mich/",
-      "sameAs": [
-        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-        "https://www.xing.com/profile/Joerg_Zimmer6",
-        "https://linktr.ee/jorgzimmer",
-        "https://www.instagram.com/joerg.zimmer.berlin/",
-        "https://www.facebook.com/teleschmiede",
-        "https://www.youtube.com/@Teleschmiede",
-        "https://www.tiktok.com/@teleschmiede",
-        "https://www.threads.com/@joerg.zimmer.berlin"
-      ],
-      "knowsAbout": ["Google Ads", "SEA", "PMax", "Search Engine Marketing", "E-Commerce SEA", "Local Ads", "B2B SEA", "Conversion Tracking"]
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://teleschmie.de/#localbusiness",
-      "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-      "description": "Google Ads Beratung, Kampagnen-Setup, SEA Optimierung für B2B und Online Shops in Berlin und DACH.",
-      "image": `https://teleschmie.de${heroImageWebp.src}`,
-      "url": "https://teleschmie.de/google-ads-freelancer-berlin/",
-      "telephone": "+493049208184", 
-      "email": "info@teleschmie.de",
-      "priceRange": "€€",
-      "lastReviewed": lastReviewed,
-      "founder": {
-        "@type": "Person",
-        "@id": "https://teleschmie.de/#person",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "url": "https://teleschmie.de/ueber-mich/"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Zu den Fichtewiesen 16", 
-        "addressLocality": "Berlin",
-        "addressRegion": "Berlin",
-        "postalCode": "13587",
-        "addressCountry": "DE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 52.5591,
-        "longitude": 13.1883
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "09:00",
-          "closes": "18:00"
-        }
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "bestRating": "5",
-        "worstRating": "1",
-        "reviewCount": "24"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Google Ads Dienstleistungen",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Sprechstunde (400€)",
-              "description": "Ein kompakter Direkt-Check des bestehenden Ads Accounts auf Budgetfresser (400€ Pauschal)."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "B2B & Online Shop SEA Setup",
-              "description": "Strukturierter Aufbau präziser Such- und Shopping-Kampagnen zur Conversion-Steigerung."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Local Ads Berlin",
-              "description": "Optimierung von bezahlten Suchkampagnen für lokale Suchanfragen, Leads und Geschäftsfelder in Berlin."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "10-Stunden Paket (1.600€)",
-              "description": "Flexibles Leistungspaket für Audits, Setup und punktuelles Troubleshooting (1.600€ Pauschal)."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Monatlicher Retainer (ab 1.600€)",
-              "description": "Laufende Betreuung, Strategie und Optimierung für nachhaltiges Wachstum (ab 1.600€ monatlich)."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Zweite Meinung / Angebotsprüfung (200€/h)",
-              "description": "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://teleschmie.de/google-ads-freelancer-berlin/#faq",
-      "mainEntity": faqs.map(faq => ({
-        "@type": "Question",
-        "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
-      }))
-    }
-  ]
-})} />
+<Schema 
+  title={title}
+  description={description}
+  lastReviewed={lastReviewed}
+  offers={offers}
+  faqs={faqs}
+/>

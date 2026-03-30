@@ -29,25 +29,32 @@ jobs:
 
       - name: Download Logs from IONOS
         timeout-minutes: 5
-        uses: pressidium/lftp-mirror-action@v1
-        with:
-          host: ${{ secrets.FTP_HOST }}
-          user: ${{ secrets.FTP_USER }}
-          pass: ${{ secrets.FTP_PASSWORD }}
-          remoteDir: '/logs'
-          localDir: './logs'
-          reverse: false
-          options: '--verbose --parallel=2'
-
-      - name: Process Downloaded Logs
         run: |
-          echo "📁 Log-Verzeichnis nach Download:"
+          sudo apt-get install -y lftp
+          mkdir -p logs
+          # SFTP-Verbindung (Port 22) – identisches Protokoll wie Deploy
+          lftp -c "
+            set sftp:auto-confirm yes;
+            set net:timeout 30;
+            set net:max-retries 3;
+            open -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} -p 22 sftp://${{ secrets.FTP_HOST }};
+            echo '=== Root-Verzeichnis ===';
+            ls /;
+            echo '=== Suche nach logs ===';
+            ls /logs/ 2>/dev/null || echo '/logs/ nicht gefunden';
+            ls logs/ 2>/dev/null || echo 'logs/ nicht gefunden';
+            echo '=== Mirror starten ===';
+            mirror --verbose /logs ./logs 2>/dev/null || mirror --verbose logs ./logs 2>/dev/null || echo 'Kein logs-Verzeichnis gefunden';
+          " || echo "⚠️ SFTP download failed, continuing with local data"
+
+          echo "📁 Log-Verzeichnis:"
           ls -la logs/ || echo "Verzeichnis ist leer"
+
           # IONOS-Logs sind .gz-komprimiert – entpacken
           if ls logs/*.gz 1> /dev/null 2>&1; then
             echo "📦 Entpacke $(ls logs/*.gz | wc -l) Log-Dateien..."
             gunzip -f logs/*.gz
-            echo "📁 Log-Verzeichnis nach Entpacken:"
+            echo "📁 Nach Entpacken:"
             ls -la logs/
           else
             echo "ℹ️ Keine .gz-Dateien gefunden"

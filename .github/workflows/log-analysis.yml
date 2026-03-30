@@ -1,8 +1,8 @@
 name: Daily Log Analysis
 
 on:
-  schedule:
-    - cron: '0 16 * * *' # Täglich um 18:00 Uhr (16:00 UTC)
+  # schedule:
+  #   - cron: '0 16 * * *' # DEAKTIVIERT – IONOS erlaubt kein FTP, /logs/ über SFTP nicht erreichbar
   workflow_dispatch: # Manuelles Auslösen
 
 permissions:

@@ -1,6 +1,6 @@
 ---
-title: "RAG: Das Gehirn-Doping für deine KI-Inhalte"
-description: "RAG (Retrieval-Augmented Generation) einfach erklärt: Wie du ChatGPT & Co. mit deinen eigenen Daten fütterst und Halluzinationen verhinderst. ALOHA! 🌻"
+title: 'RAG: Das Gehirn-Doping für deine KI-Inhalte'
+description: 'RAG (Retrieval-Augmented Generation) einfach erklärt: Wie du ChatGPT & Co. mit deinen eigenen Daten fütterst und Halluzinationen verhinderst. ALOHA! 🌻'
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-rag-3d.png"
 image_alt: "RAG 3D Infografik - Zusammenspiel von Datenquelle, KI-Synthese und Antwort"
@@ -8,15 +8,15 @@ key_takeaways:
   - "Fakten-Anker: RAG erlaubt es LLMs, auf externe, verifizierte Datenquellen zuzugreifen, statt nur auf dem (oft veralteten) Trainingswissen zu basieren."
   - "Halluzinations-Killer: Durch den Abruf echter Dokumente vor der Antwort-Generierung wird das Risiko von KI-erfundenen Fakten massiv gesenkt."
   - "Source of Truth: Für Unternehmen ist RAG der einzige Weg, ChatGPT sicher auf internen Daten oder aktuellen Website-Inhalten antworten zu lassen."
-tacheles: "Wer glaubt, dass ChatGPT alles weiß, der glaubt auch, dass die Erde eine Scheibe ist. Ohne RAG ist eine KI nur ein sehr eloquenter Lügner. Wer heute nicht versteht, wie er seine eigenen Daten als 'Anker' für die KI nutzt, der baut auf Sand – und der Pfusch am Bau wird bei der nächsten Nutzeranfrage gnadenlos sichtbar. 🌻"
+tacheles: 'Wer glaubt, dass ChatGPT alles weiß, der glaubt auch, dass die Erde eine Scheibe ist. Ohne RAG ist eine KI nur ein sehr eloquenter Lügner. Wer heute nicht versteht, wie er seine eigenen Daten als ''Anker'' für die KI nutzt, der baut auf Sand – und der Pfusch am Bau wird bei der nächsten Nutzeranfrage gnadenlos sichtbar. 🌻'
 related_terms: ["geo", "chatgpt-seo", "ai-seo", "llmo"]
 faqs:
-  - question: "Was ist der Unterschied zwischen RAG und Fine-Tuning?"
+  - question: 'Was ist der Unterschied zwischen RAG und Fine-Tuning?'
     answer: 'Das ist eine der häufigsten Fragen in meiner <a href="/seo-sprechstunde/">SEO-Sprechstunde</a>. Stell dir Fine-Tuning wie das Auswendiglernen eines ganzen Buches für eine Prüfung vor – es ist aufwendig, teuer und das Wissen ist danach ''starr''. RAG hingegen ist so, als ob die KI ein Open-Book-Examen schreibt: Sie hat Zugriff auf eine Bibliothek (deine Daten) und schlägt bei jeder Frage blitzschnell nach, bevor sie antwortet. RAG ist für 99% aller SEO-Anwendungsfälle die bessere, günstigere und aktuellere Wahl.'
-  - question: "Warum ist RAG für GEO (Generative Engine Optimization) so wichtig?"
+  - question: 'Warum ist RAG für GEO (Generative Engine Optimization) so wichtig?'
     answer: 'In der Welt der <a href="/glossar/geo/">Generative Search Engines</a> wie Perplexity oder SearchGPT ist RAG der Standardprozess. Die Suchmaschine ''retrievaled'' (holt) deine Webseite, baut sie in den Prompt ein (''augment'') und generiert dann die Antwort. Wenn dein Content nicht RAG-optimiert ist – also nicht in klaren, semantischen Häppchen vorliegt –, wird die KI deine Seite schlichtweg ignorieren. RAG-Optimierung ist das neue ''Crawlability''.'
-  - question: "Kann ich RAG auch ohne Programmierkenntnisse nutzen?"
-    answer: "Ja, mittlerweile gibt es viele 'No-Code' Tools und GPTs, die RAG-Funktionen (wie das Hochladen von Dokumenten) direkt anbieten. Aber Vorsicht vor dem 'Pfusch am Bau'! Wenn du eine professionelle Lösung für deine Website-Suche oder einen Agentur-Chatbot willst, brauchst du eine saubere Vektordatenbank und ein kluges Chunking. Wer hier spart, bekommt am Ende Antworten, die zwar nett klingen, aber fachlich am Ziel vorbeischießen."
+  - question: 'Kann ich RAG auch ohne Programmierkenntnisse nutzen?'
+    answer: 'Ja, mittlerweile gibt es viele ''No-Code'' Tools und GPTs, die RAG-Funktionen (wie das Hochladen von Dokumenten) direkt anbieten. Aber Vorsicht vor dem ''Pfusch am Bau''! Wenn du eine professionelle Lösung für deine Website-Suche oder einen Agentur-Chatbot willst, brauchst du eine saubere Vektordatenbank und ein kluges Chunking. Wer hier spart, bekommt am Ende Antworten, die zwar nett klingen, aber fachlich am Ziel vorbeischießen.'
 ---
 
 Moin! 🌻

@@ -1,6 +1,6 @@
 ---
-title: "AEO: Die Zukunft der Answer Engine Optimization"
-description: "AEO optimiert deine Inhalte für Antwortmaschinen. Erfahre, wie du als direkte Antwort in KI-Systemen wie ChatGPT und Perplexity erscheinst."
+title: 'AEO: Die Zukunft der Answer Engine Optimization'
+description: 'AEO optimiert deine Inhalte für Antwortmaschinen. Erfahre, wie du als direkte Antwort in KI-Systemen wie ChatGPT und Perplexity erscheinst.'
 date: "2026-03-11"
 image: "../../assets/images/glossar/3d-light/glossar-aeo-3d.webp"
 image_alt: "AEO 3D Infografik - Answer Engine Optimization für KI"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Direkte Antworten: KI-Systeme suchen Content, der Fragen präzise beantworten."
   - "Überschneidung: AEO, GEO und LLMO sind verwandte Disziplinen mit gemeinsamen Strategien."
 faqs:
-  - question: "Was ist der Unterschied zwischen AEO und GEO?"
-    answer: "AEO (Answer Engine Optimization) fokussiert sich darauf, dass dein Content als direkte Antwort in KI-Systemen ausgespielt wird. GEO (Generative Engine Optimization) ist breiter gefasst und umfasst auch Entity Building, Citation-Strategien und Markenaufbau für KI. Man könnte sagen: AEO ist eine Teilmenge von GEO. AEO kümmert sich ums 'Was' (welcher Content wird zitiert), GEO ums 'Wer' (wirst du als Entität erkannt). In der Praxis brauchst du beides."
-  - question: "Wie optimiere ich meinen Content für Answer Engines?"
-    answer: "Drei Grundregeln: Erstens, beantworte Fragen direkt und präzise in den ersten zwei Sätzen – KI-Systeme extrahieren bevorzugt klare Definitionen. Zweitens, strukturiere deinen Content mit klaren H2/H3-Überschriften, die als Fragen formuliert sind. Drittens, nutze FAQ-Schema und strukturierte Daten, damit Maschinen deine Antworten identifizieren können. Bei mir ist jeder Glossar-Eintrag so aufgebaut: Definition am Anfang, FAQs mit Schema.org, klare Struktur."
-  - question: "Ersetzt AEO das klassische SEO?"
-    answer: "Nein, AEO ergänzt SEO. Die klassische Google-Suche mit blauen Links wird nicht über Nacht verschwinden. Aber der Anteil der Suchanfragen, die direkt von KI beantwortet wird, wächst rapide. Wer nur SEO macht, verpasst einen wachsenden Teil des Traffics. Wer nur AEO macht, verliert die Google-Basics. Die kluge Strategie ist: SEO als Fundament, AEO und GEO als Erweiterung."
+  - question: 'Was ist der Unterschied zwischen AEO und GEO?'
+    answer: 'AEO (Answer Engine Optimization) fokussiert sich darauf, dass dein Content als direkte Antwort in KI-Systemen ausgespielt wird. GEO (Generative Engine Optimization) ist breiter gefasst und umfasst auch Entity Building, Citation-Strategien und Markenaufbau für KI. Man könnte sagen: AEO ist eine Teilmenge von GEO. AEO kümmert sich ums ''Was'' (welcher Content wird zitiert), GEO ums ''Wer'' (wirst du als Entität erkannt). In der Praxis brauchst du beides.'
+  - question: 'Wie optimiere ich meinen Content für Answer Engines?'
+    answer: 'Drei Grundregeln: Erstens, beantworte Fragen direkt und präzise in den ersten zwei Sätzen – KI-Systeme extrahieren bevorzugt klare Definitionen. Zweitens, strukturiere deinen Content mit klaren H2/H3-Überschriften, die als Fragen formuliert sind. Drittens, nutze FAQ-Schema und strukturierte Daten, damit Maschinen deine Antworten identifizieren können. Bei mir ist jeder Glossar-Eintrag so aufgebaut: Definition am Anfang, FAQs mit Schema.org, klare Struktur.'
+  - question: 'Ersetzt AEO das klassische SEO?'
+    answer: 'Nein, AEO ergänzt SEO. Die klassische Google-Suche mit blauen Links wird nicht über Nacht verschwinden. Aber der Anteil der Suchanfragen, die direkt von KI beantwortet wird, wächst rapide. Wer nur SEO macht, verpasst einen wachsenden Teil des Traffics. Wer nur AEO macht, verliert die Google-Basics. Die kluge Strategie ist: SEO als Fundament, AEO und GEO als Erweiterung.'
 ---
 
 Moin!

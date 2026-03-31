@@ -1,6 +1,6 @@
 ---
-title: "SEO Rankingfaktoren: Was Google wirklich bewertet"
-description: "Rankingfaktoren: Die Kriterien für dein Google-Ranking. Erfahre, welche Signale wirklich über Seite 1 oder Seite 10 entscheiden. ALOHA! 🌻"
+title: 'SEO Rankingfaktoren: Was Google wirklich bewertet'
+description: 'Rankingfaktoren: Die Kriterien für dein Google-Ranking. Erfahre, welche Signale wirklich über Seite 1 oder Seite 10 entscheiden. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp"
 related_terms: ["e-e-a-t", "core-web-vitals", "google-algorithmus", "technisches-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Content ist King, E-E-A-T ist God: Qualität und Vertrauenswürdigkeit schlagen jede Taktik."
   - "Ständiger Wandel: Was 2020 funktionierte, kann 2026 irrelevant sein. Bleib am Ball."
 faqs:
-  - question: "Was sind die wichtigsten Rankingfaktoren 2026?"
-    answer: "Die Top 3 sind unverändert: Relevanter Content, der die Suchintention trifft. Starke Backlinks von vertrauenswürdigen Domains. Und eine saubere technische Basis (Core Web Vitals, HTTPS, Mobile-First). Dazu kommt 2026 ein vierter Faktor, der immer wichtiger wird: E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness). Google bewertet nicht nur WELCHEN Content du hast, sondern WER ihn erstellt hat. Dein Autorenprofil, dein Entity-Status und deine Reputation im Netz spielen eine zentrale Rolle."
-  - question: "Stimmt es, dass Google über 200 Rankingfaktoren nutzt?"
-    answer: "Ja, das hat Google selbst bestätigt. Aber lass dich von der Zahl nicht verrückt machen. In der Praxis gibt es vielleicht 15-20 Faktoren, die den Löwenanteil ausmachen. Der Rest ist Feintuning. In meinen Audits konzentriere ich mich auf die Hebel mit dem größten Impact: Content-Qualität, interne Verlinkung, technische Fehler und Backlink-Profil. Wer diese vier Bereiche im Griff hat, schlägt 90% der Konkurrenz."
-  - question: "Zählen Social Media Signale als Rankingfaktor?"
-    answer: "Google hat offiziell gesagt: Nein, Social Signals sind kein direkter Rankingfaktor. Aber indirekt haben sie einen enormen Einfluss. Ein viraler LinkedIn-Post erzeugt Aufmerksamkeit, die zu Backlinks, Mentions und Branded Searches führt – und DAS sind direkte Rankingfaktoren. Außerdem nutzen KI-Modelle Social-Media-Inhalte als Trainingsmaterial. Wer auf LinkedIn aktiv ist, stärkt also auch seine GEO-Sichtbarkeit."
+  - question: 'Was sind die wichtigsten Rankingfaktoren 2026?'
+    answer: 'Die Top 3 sind unverändert: Relevanter Content, der die Suchintention trifft. Starke Backlinks von vertrauenswürdigen Domains. Und eine saubere technische Basis (Core Web Vitals, HTTPS, Mobile-First). Dazu kommt 2026 ein vierter Faktor, der immer wichtiger wird: E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness). Google bewertet nicht nur WELCHEN Content du hast, sondern WER ihn erstellt hat. Dein Autorenprofil, dein Entity-Status und deine Reputation im Netz spielen eine zentrale Rolle.'
+  - question: 'Stimmt es, dass Google über 200 Rankingfaktoren nutzt?'
+    answer: 'Ja, das hat Google selbst bestätigt. Aber lass dich von der Zahl nicht verrückt machen. In der Praxis gibt es vielleicht 15-20 Faktoren, die den Löwenanteil ausmachen. Der Rest ist Feintuning. In meinen Audits konzentriere ich mich auf die Hebel mit dem größten Impact: Content-Qualität, interne Verlinkung, technische Fehler und Backlink-Profil. Wer diese vier Bereiche im Griff hat, schlägt 90% der Konkurrenz.'
+  - question: 'Zählen Social Media Signale als Rankingfaktor?'
+    answer: 'Google hat offiziell gesagt: Nein, Social Signals sind kein direkter Rankingfaktor. Aber indirekt haben sie einen enormen Einfluss. Ein viraler LinkedIn-Post erzeugt Aufmerksamkeit, die zu Backlinks, Mentions und Branded Searches führt – und DAS sind direkte Rankingfaktoren. Außerdem nutzen KI-Modelle Social-Media-Inhalte als Trainingsmaterial. Wer auf LinkedIn aktiv ist, stärkt also auch seine GEO-Sichtbarkeit.'
 ---
 
 

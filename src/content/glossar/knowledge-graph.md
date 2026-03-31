@@ -1,6 +1,6 @@
 ---
-title: "Knowledge Graph: Vernetzung von Wissen bei Google"
-description: "Der Google Knowledge Graph ist eine riesige Datenbank, die Wissen über reale Objekte (Entitäten) und deren Beziehungen untereinander verknüpft."
+title: 'Knowledge Graph: Vernetzung von Wissen bei Google'
+description: 'Der Google Knowledge Graph ist eine riesige Datenbank, die Wissen über reale Objekte (Entitäten) und deren Beziehungen untereinander verknüpft.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "entity-seo", "meta-description"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Autoritäts-Signal: Ein eigenes Knowledge Panel ist das ultimative Zeichen für digitale Relevanz."
   - "GEO-Rückgrat: KI-Modelle nutzen den Graphen als Basis für ihre Fakten-Synthese."
 faqs:
-  - question: "Wie komme ich mit meinem Unternehmen in den Knowledge Graph?"
-    answer: "Das ist die Kernaufgabe im Bereich Entity SEO. Du musst Google überall im Netz konsistente, maschinenlesbare Signale senden, dass dein Unternehmen eine relevante Entität ist. Das Fundament bilden strukturierte Daten (LocalBusiness oder Organization Schema), ein perfekt gepflegtes Google Business Profile und eine semantische Grounding Page. Flankiert von PR-Mentions und Einträgen in vertrauenswürdigen Verzeichnissen führt das meist nach wenigen Monaten zur Aufnahme in den Graph."
-  - question: "Warum verschwindet mein Knowledge Panel manchmal wieder?"
-    answer: "Ein Knowledge Panel ist kein lebenslanger Titel, sondern eine dynamische Anzeige. Wenn Google widersprüchliche Signale aus dem Web empfängt (z.B. unterschiedliche Adressen in wichtigen Verzeichnissen), sinkt der 'Confidence Score' des Algorithmus und das Panel verschwindet. Ebenso kann es passieren, wenn die Relevanz deiner Marke drastisch sinkt oder wenn ein Core Update die Algorithmen zur Entitäten-Berechnung neu justiert."
-  - question: "Was ist der Unterschied zwischen Wikidata und dem Knowledge Graph?"
-    answer: "Wikidata ist ein offenes, kollaboratives Projekt der Wikimedia Foundation, in das Theoretisch jeder strukturierte Fakten eintragen kann. Der Knowledge Graph ist hingegen Googles geschlossene, private Datenbank. Google nutzt Wikidata massiv als eine von vielen vertrauenswürdigen Quellen, um seinen eigenen Graph zu füttern. Ein sauberer Wikidata-Eintrag für dich oder dein Unternehmen ist daher einer der stärksten Hebel für deinen eigenen Knowledge Graph Eintrag."
+  - question: 'Wie komme ich mit meinem Unternehmen in den Knowledge Graph?'
+    answer: 'Das ist die Kernaufgabe im Bereich Entity SEO. Du musst Google überall im Netz konsistente, maschinenlesbare Signale senden, dass dein Unternehmen eine relevante Entität ist. Das Fundament bilden strukturierte Daten (LocalBusiness oder Organization Schema), ein perfekt gepflegtes Google Business Profile und eine semantische Grounding Page. Flankiert von PR-Mentions und Einträgen in vertrauenswürdigen Verzeichnissen führt das meist nach wenigen Monaten zur Aufnahme in den Graph.'
+  - question: 'Warum verschwindet mein Knowledge Panel manchmal wieder?'
+    answer: 'Ein Knowledge Panel ist kein lebenslanger Titel, sondern eine dynamische Anzeige. Wenn Google widersprüchliche Signale aus dem Web empfängt (z.B. unterschiedliche Adressen in wichtigen Verzeichnissen), sinkt der ''Confidence Score'' des Algorithmus und das Panel verschwindet. Ebenso kann es passieren, wenn die Relevanz deiner Marke drastisch sinkt oder wenn ein Core Update die Algorithmen zur Entitäten-Berechnung neu justiert.'
+  - question: 'Was ist der Unterschied zwischen Wikidata und dem Knowledge Graph?'
+    answer: 'Wikidata ist ein offenes, kollaboratives Projekt der Wikimedia Foundation, in das Theoretisch jeder strukturierte Fakten eintragen kann. Der Knowledge Graph ist hingegen Googles geschlossene, private Datenbank. Google nutzt Wikidata massiv als eine von vielen vertrauenswürdigen Quellen, um seinen eigenen Graph zu füttern. Ein sauberer Wikidata-Eintrag für dich oder dein Unternehmen ist daher einer der stärksten Hebel für deinen eigenen Knowledge Graph Eintrag.'
 ---
 
 Der Knowledge Graph (Wissens-Graph) ist Googles Gehirn. Er wurde 2012 eingeführt und markierte den Übergang von einer bloßen Indexierung von Texten hin zu einer intelligenten Wissensdatenbank. Er ist der Grund, warum du in der Google-Suche oft direkt eine Infobox (Knowledge Panel) rechts neben den Ergebnissen siehst, wenn du nach Prominenten, Firmen oder Nationalparks suchst.

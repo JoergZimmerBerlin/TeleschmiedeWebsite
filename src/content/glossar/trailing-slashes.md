@@ -1,6 +1,6 @@
 ---
-title: "Trailing Slashes: SEO & Duplicate Content"
-description: "Trailing Slashes im SEO: Warum der Schrägstrich am Ende der URL wichtig ist und wie du Duplicate Content vermeidest. ALOHA! 🌻"
+title: 'Trailing Slashes: SEO & Duplicate Content'
+description: 'Trailing Slashes im SEO: Warum der Schrägstrich am Ende der URL wichtig ist und wie du Duplicate Content vermeidest. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["technisches-seo", "crawling-vs-indexing", "robots-txt", "sitemap"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Framework-Abhängig: Jedes Framework (Astro, WordPress, Next.js) handhabt Trailing Slashes anders."
   - "Konsistenz ist King: Egal ob mit oder ohne Slash – Hauptsache, du entscheidest dich für EINE Variante und setzt sie konsequent um."
 faqs:
-  - question: "Ist es besser, URLs mit oder ohne Trailing Slash zu verwenden?"
-    answer: "Es gibt keine 'richtige' Antwort – beides ist technisch korrekt. Entscheidend ist die Konsistenz. Wenn du dich für eine Variante entscheidest, musst du sie überall durchziehen: In der Sitemap, in internen Links, in Canonical Tags und in der Google Search Console. Bei meinen eigenen Projekten nutze ich konsistent Trailing Slashes (z.B. /glossar/trailing-slashes/), weil Astro das standardmäßig so handhabt. Mische niemals beide Varianten – das führt zu Duplicate Content."
-  - question: "Was passiert, wenn ich beide Varianten (mit und ohne Slash) im Einsatz habe?"
-    answer: "Dann hat Google im schlimmsten Fall zwei verschiedene URLs mit identischem Inhalt im Index – der Klassiker für Duplicate Content. Google muss dann selbst entscheiden, welche Variante die 'richtige' ist, und dein Linkjuice wird auf zwei URLs aufgeteilt statt konzentriert. Die Lösung: 301-Redirects von der ungewünschten auf die gewünschte Variante und ein sauberes Canonical Tag. In der Google Search Console kannst du unter 'URL-Prüfung' checken, welche Version Google bevorzugt."
-  - question: "Wie konfiguriere ich Trailing Slashes in meinem Framework korrekt?"
-    answer: "Das hängt vom Stack ab. In Astro setzt du 'trailingSlash: always' oder 'trailingSlash: never' in der astro.config.mjs. In Next.js gibt es die trailingSlash-Option in next.config.js. In WordPress steuert das die Permalink-Struktur in den Einstellungen. Auf meiner Seite (Astro-basiert) habe ich 'trailingSlash: always' konfiguriert – so enden alle URLs sauber auf einem Slash und es gibt keine Inkonsistenzen."
+  - question: 'Ist es besser, URLs mit oder ohne Trailing Slash zu verwenden?'
+    answer: 'Es gibt keine ''richtige'' Antwort – beides ist technisch korrekt. Entscheidend ist die Konsistenz. Wenn du dich für eine Variante entscheidest, musst du sie überall durchziehen: In der Sitemap, in internen Links, in Canonical Tags und in der Google Search Console. Bei meinen eigenen Projekten nutze ich konsistent Trailing Slashes (z.B. /glossar/trailing-slashes/), weil Astro das standardmäßig so handhabt. Mische niemals beide Varianten – das führt zu Duplicate Content.'
+  - question: 'Was passiert, wenn ich beide Varianten (mit und ohne Slash) im Einsatz habe?'
+    answer: 'Dann hat Google im schlimmsten Fall zwei verschiedene URLs mit identischem Inhalt im Index – der Klassiker für Duplicate Content. Google muss dann selbst entscheiden, welche Variante die ''richtige'' ist, und dein Linkjuice wird auf zwei URLs aufgeteilt statt konzentriert. Die Lösung: 301-Redirects von der ungewünschten auf die gewünschte Variante und ein sauberes Canonical Tag. In der Google Search Console kannst du unter ''URL-Prüfung'' checken, welche Version Google bevorzugt.'
+  - question: 'Wie konfiguriere ich Trailing Slashes in meinem Framework korrekt?'
+    answer: 'Das hängt vom Stack ab. In Astro setzt du ''trailingSlash: always'' oder ''trailingSlash: never'' in der astro.config.mjs. In Next.js gibt es die trailingSlash-Option in next.config.js. In WordPress steuert das die Permalink-Struktur in den Einstellungen. Auf meiner Seite (Astro-basiert) habe ich ''trailingSlash: always'' konfiguriert – so enden alle URLs sauber auf einem Slash und es gibt keine Inkonsistenzen.'
 ---
 
 Moin!

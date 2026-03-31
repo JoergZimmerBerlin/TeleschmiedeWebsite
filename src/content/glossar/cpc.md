@@ -1,6 +1,6 @@
 ---
-title: "CPC (Cost per Click): Abrechnung bei Google Ads"
-description: "CPC gibt an, wie viel du für einen Klick auf eine Werbeanzeige bei Google Ads bezahlst. Ein wichtiger Indikator für Keyword-Wertigkeit."
+title: 'CPC (Cost per Click): Abrechnung bei Google Ads'
+description: 'CPC gibt an, wie viel du für einen Klick auf eine Werbeanzeige bei Google Ads bezahlst. Ein wichtiger Indikator für Keyword-Wertigkeit.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cpc-3d.webp"
 image_alt: "CPC (Cost per Click) 3D Infografik - Marktwert von Keywords"
@@ -10,12 +10,12 @@ key_takeaways:
   - "SEO-Kompass: Ein hoher CPC signalisiert oft eine extrem hohe Kaufabsicht (Commercial Intent)."
   - "Synergie-Effekt: Gutes SEO spart dir die Kosten für teure Google Ads CPCs."
 faqs:
-  - question: "Was verursacht die teilweise extremen Schwankungen beim CPC?"
-    answer: "Zwei Worte: Angebot und Nachfrage. Der CPC ist das Ergebnis einer Echtzeit-Auktion. Wenn vor Weihnachten oder dem Black Friday alle gleichzeitig werben wollen, explodieren die Preise. Auch Google-Updates oder neue Wettbewerber am Markt können den Klickpreis massiv nach oben treiben. Wer hier nicht aufpasst und nur auf Standard-Gebote setzt, verbrennt sein Budget im Minutentakt."
-  - question: "Warum sollte ich auf Keywords mit hohem CPC optimieren, wenn der Wettbewerb so hart ist?"
-    answer: "Ein hoher CPC ist der beste Beweis für den Wert eines Keywords. Wenn Wettbewerber bereit sind, viel Geld für einen Klick zu zahlen, dann 'konvertiert' dieser Begriff auch. Es ist oft lukrativer, auf Platz 3 für ein teures Money-Keyword zu stehen, als auf Platz 1 für einen Begriff, der zwar viel Traffic bringt, aber null Umsatz generiert. Der CPC ist dein Profit-Kompass."
-  - question: "Kann man den CPC durch SEO-Maßnahmen wirklich sparen?"
-    answer: "Absolut! Das ist das Kerngeschäft meiner 'SEO-Strategie'. Wenn wir ein Keyword organisch in die Top-Rankings schieben, sinkt der Druck auf dein Google Ads Budget. Du kannst entweder die teuren Anzeigen ganz abschalten oder das gesparte Geld in noch tiefergehende Kampagnen investieren. SEO macht dich unabhängig von den Preisdiktaten Googles."
+  - question: 'Was verursacht die teilweise extremen Schwankungen beim CPC?'
+    answer: 'Zwei Worte: Angebot und Nachfrage. Der CPC ist das Ergebnis einer Echtzeit-Auktion. Wenn vor Weihnachten oder dem Black Friday alle gleichzeitig werben wollen, explodieren die Preise. Auch Google-Updates oder neue Wettbewerber am Markt können den Klickpreis massiv nach oben treiben. Wer hier nicht aufpasst und nur auf Standard-Gebote setzt, verbrennt sein Budget im Minutentakt.'
+  - question: 'Warum sollte ich auf Keywords mit hohem CPC optimieren, wenn der Wettbewerb so hart ist?'
+    answer: 'Ein hoher CPC ist der beste Beweis für den Wert eines Keywords. Wenn Wettbewerber bereit sind, viel Geld für einen Klick zu zahlen, dann ''konvertiert'' dieser Begriff auch. Es ist oft lukrativer, auf Platz 3 für ein teures Money-Keyword zu stehen, als auf Platz 1 für einen Begriff, der zwar viel Traffic bringt, aber null Umsatz generiert. Der CPC ist dein Profit-Kompass.'
+  - question: 'Kann man den CPC durch SEO-Maßnahmen wirklich sparen?'
+    answer: 'Absolut! Das ist das Kerngeschäft meiner ''SEO-Strategie''. Wenn wir ein Keyword organisch in die Top-Rankings schieben, sinkt der Druck auf dein Google Ads Budget. Du kannst entweder die teuren Anzeigen ganz abschalten oder das gesparte Geld in noch tiefergehende Kampagnen investieren. SEO macht dich unabhängig von den Preisdiktaten Googles.'
 ---
 
 

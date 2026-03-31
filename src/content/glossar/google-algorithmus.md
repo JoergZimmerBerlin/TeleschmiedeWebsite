@@ -1,6 +1,6 @@
 ---
-title: "Google Algorithmus: Funktionsweise & Updates"
-description: "Der Google Algorithmus ist das Herzstück der Suchmaschine. Erfahre, wie er funktioniert, welche Updates ihn formen und warum du ihn verstehen musst."
+title: 'Google Algorithmus: Funktionsweise & Updates'
+description: 'Der Google Algorithmus ist das Herzstück der Suchmaschine. Erfahre, wie er funktioniert, welche Updates ihn formen und warum du ihn verstehen musst.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["google-core-update", "rankingfaktoren", "e-e-a-t", "entity-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Ständig im Wandel: Google führt tausende Updates pro Jahr durch – die meisten bemerkt niemand."
   - "Nicht hackbar: Nachhaltige SEO-Strategien schlagen kurzfristige Tricks. Immer."
 faqs:
-  - question: "Wie oft ändert Google seinen Algorithmus?"
-    answer: "Google bestätigt, dass sie tausende Änderungen pro Jahr am Algorithmus vornehmen. Die meisten sind so klein, dass sie niemand bemerkt. Die großen, sichtbaren Updates – die sogenannten Core Updates – passieren etwa 3-4 Mal im Jahr und können Rankings massiv durcheinander wirbeln. In meiner Erfahrung als SEO-Berater ist die beste Strategie gegen Algorithmus-Angst: Baue eine Marke und exzellenten Content. Wer das tut, übersteht jedes Update."
-  - question: "Was passiert bei einem Google Core Update?"
-    answer: "Bei einem Core Update bewertet Google die Qualität und Relevanz von Inhalten grundlegend neu. Seiten, die vorher gut rankten, können plötzlich abstürzen – und umgekehrt. Das Wichtigste: Core Updates sind keine Strafen! Wenn du verlierst, heißt das nur, dass andere Seiten jetzt als relevanter eingestuft werden. Mein Rat: Nicht in Panik verfallen, sondern die Daten analysieren. In der Google Search Console siehst du genau, welche Seiten und Keywords betroffen sind."
-  - question: "Kann ich den Google Algorithmus 'überlisten'?"
-    answer: "Kurzfristig ja, langfristig niemals. Google hat tausende Ingenieure, die nichts anderes tun, als Manipulation aufzudecken. Wer auf Black-Hat-Tricks setzt (Linkspam, Keyword-Stuffing, Cloaking), gewinnt vielleicht für 3 Monate – und verliert dann alles. Die einzige nachhaltige Strategie: Baue die beste Antwort auf die Frage des Nutzers. Punkt. In 24 Jahren SEO habe ich genug 'Trickser' kommen und gehen sehen."
+  - question: 'Wie oft ändert Google seinen Algorithmus?'
+    answer: 'Google bestätigt, dass sie tausende Änderungen pro Jahr am Algorithmus vornehmen. Die meisten sind so klein, dass sie niemand bemerkt. Die großen, sichtbaren Updates – die sogenannten Core Updates – passieren etwa 3-4 Mal im Jahr und können Rankings massiv durcheinander wirbeln. In meiner Erfahrung als SEO-Berater ist die beste Strategie gegen Algorithmus-Angst: Baue eine Marke und exzellenten Content. Wer das tut, übersteht jedes Update.'
+  - question: 'Was passiert bei einem Google Core Update?'
+    answer: 'Bei einem Core Update bewertet Google die Qualität und Relevanz von Inhalten grundlegend neu. Seiten, die vorher gut rankten, können plötzlich abstürzen – und umgekehrt. Das Wichtigste: Core Updates sind keine Strafen! Wenn du verlierst, heißt das nur, dass andere Seiten jetzt als relevanter eingestuft werden. Mein Rat: Nicht in Panik verfallen, sondern die Daten analysieren. In der Google Search Console siehst du genau, welche Seiten und Keywords betroffen sind.'
+  - question: 'Kann ich den Google Algorithmus ''überlisten''?'
+    answer: 'Kurzfristig ja, langfristig niemals. Google hat tausende Ingenieure, die nichts anderes tun, als Manipulation aufzudecken. Wer auf Black-Hat-Tricks setzt (Linkspam, Keyword-Stuffing, Cloaking), gewinnt vielleicht für 3 Monate – und verliert dann alles. Die einzige nachhaltige Strategie: Baue die beste Antwort auf die Frage des Nutzers. Punkt. In 24 Jahren SEO habe ich genug ''Trickser'' kommen und gehen sehen.'
 ---
 
 Moin!

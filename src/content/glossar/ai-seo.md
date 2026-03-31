@@ -1,6 +1,6 @@
 ---
-title: "AI SEO: Suchmaschinenoptimierung für die KI-Ära"
-description: "AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin."
+title: 'AI SEO: Suchmaschinenoptimierung für die KI-Ära'
+description: 'AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp"
 image_alt: "AI SEO 3D Infografik - Integrierte Strategie für Google und KI"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Doppelstrategie: Sichtbar in Google UND in KI-Antworten – das ist das Ziel von AI SEO."
   - "Zukunftssicher: Wer 2026 nur klassisches SEO macht, verliert die Hälfte seiner potenziellen Sichtbarkeit."
 faqs:
-  - question: "Was genau bedeutet AI SEO?"
-    answer: "AI SEO ist der Überbegriff für alle SEO-Strategien, die KI-Systeme berücksichtigen. Es umfasst klassisches Google-SEO als Basis, GEO (Generative Engine Optimization) für KI-Suchmaschinen, AEO (Answer Engine Optimization) für direkte Antworten, und LLMO (LLM-Optimization) für die Optimierung der Trainingsdaten. Wer AI SEO betreibt, optimiert nicht mehr nur für Google, sondern für das gesamte Ökosystem der digitalen Suche – einschließlich ChatGPT, Perplexity, Gemini und Copilot."
-  - question: "Brauche ich einen eigenen AI SEO Experten?"
-    answer: "Noch nicht als separate Rolle, aber als integrierte Kompetenz. Der beste Weg ist ein SEO-Experte, der auch GEO und LLMO versteht und beide Welten verbinden kann. Das ist mein Ansatz: Ich trenne nicht zwischen 'klassischem SEO' und 'AI SEO', sondern behandle es als eine integrierte Strategie. Jede SEO-Maßnahme wird so umgesetzt, dass sie sowohl Google als auch KI-Systemen Signale sendet."
-  - question: "Ist AI SEO nur ein neues Buzzword?"
-    answer: "Die Begriffe sind neu, ja. Aber die Entwicklung dahinter ist real und messbar. Über 30% aller Google-Suchen zeigen bereits AI Overviews. ChatGPT hat hunderte Millionen aktive Nutzer. Perplexity wächst rasant. Wer diese Kanäle ignoriert, verliert faktisch Sichtbarkeit. AI SEO ist kein Marketing-Buzz – es ist die logische Evolution einer Branche, die sich seit 25 Jahren ständig neu erfindet."
+  - question: 'Was genau bedeutet AI SEO?'
+    answer: 'AI SEO ist der Überbegriff für alle SEO-Strategien, die KI-Systeme berücksichtigen. Es umfasst klassisches Google-SEO als Basis, GEO (Generative Engine Optimization) für KI-Suchmaschinen, AEO (Answer Engine Optimization) für direkte Antworten, und LLMO (LLM-Optimization) für die Optimierung der Trainingsdaten. Wer AI SEO betreibt, optimiert nicht mehr nur für Google, sondern für das gesamte Ökosystem der digitalen Suche – einschließlich ChatGPT, Perplexity, Gemini und Copilot.'
+  - question: 'Brauche ich einen eigenen AI SEO Experten?'
+    answer: 'Noch nicht als separate Rolle, aber als integrierte Kompetenz. Der beste Weg ist ein SEO-Experte, der auch GEO und LLMO versteht und beide Welten verbinden kann. Das ist mein Ansatz: Ich trenne nicht zwischen ''klassischem SEO'' und ''AI SEO'', sondern behandle es als eine integrierte Strategie. Jede SEO-Maßnahme wird so umgesetzt, dass sie sowohl Google als auch KI-Systemen Signale sendet.'
+  - question: 'Ist AI SEO nur ein neues Buzzword?'
+    answer: 'Die Begriffe sind neu, ja. Aber die Entwicklung dahinter ist real und messbar. Über 30% aller Google-Suchen zeigen bereits AI Overviews. ChatGPT hat hunderte Millionen aktive Nutzer. Perplexity wächst rasant. Wer diese Kanäle ignoriert, verliert faktisch Sichtbarkeit. AI SEO ist kein Marketing-Buzz – es ist die logische Evolution einer Branche, die sich seit 25 Jahren ständig neu erfindet.'
 ---
 
 Moin!

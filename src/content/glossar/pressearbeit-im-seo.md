@@ -1,6 +1,6 @@
 ---
-title: "Digital PR: Pressearbeit im SEO für Autorität"
-description: "Pressearbeit im SEO (Digital PR) stärkt deine Rankings, Autorität und KI-Sichtbarkeit durch gezielte Medienarbeit. Jetzt informieren. ALOHA! 🌻"
+title: 'Digital PR: Pressearbeit im SEO für Autorität'
+description: 'Pressearbeit im SEO (Digital PR) stärkt deine Rankings, Autorität und KI-Sichtbarkeit durch gezielte Medienarbeit. Jetzt informieren. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 related_terms: ["linkbuilding", "mention", "e-e-a-t", "markenaufbau-mit-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "E-E-A-T Boost: Erwähnungen in Fachmedien und Nachrichtenportalen sind das stärkste Autoritätssignal."
   - "KI-Sichtbarkeit: Presseartikel dienen als Trainingsmaterial für LLMs – wer zitiert wird, wird empfohlen."
 faqs:
-  - question: "Brauche ich einen PR-Berater, oder kann ich Pressearbeit selbst machen?"
-    answer: "Gerade für Freelancer und KMU ist 'Do-it-yourself Digital PR' oft der bessere Weg. Du brauchst keinen teuren PR-Berater – du brauchst eine Geschichte, die es wert ist, erzählt zu werden. Schreib Gastbeiträge für Fachblogs, lass dich in Podcasts interviewen, teile eigene Daten und Studien. Mein Tipp: LinkedIn ist 2026 die beste kostenlose PR-Plattform. Ein starker LinkedIn-Post kann von Journalisten aufgegriffen werden und so organisch zu Presseerwähnungen führen."
-  - question: "Wie unterscheidet sich Digital PR vom klassischen Linkbuilding?"
-    answer: "Klassisches Linkbuilding fragt: 'Wo bekomme ich einen Link her?' Digital PR fragt: 'Welche Geschichte ist so gut, dass Medien freiwillig darüber berichten?' Der Unterschied ist fundamental. Beim Linkbuilding hast du oft minderwertige oder gekaufte Links. Bei Digital PR entstehen natürliche, redaktionelle Links von Nachrichtenportalen und Fachmagazinen – das Sahnehäubchen für dein Backlink-Profil. Google erkennt diesen Qualitätsunterschied sofort."
-  - question: "Hat Pressearbeit einen direkten Einfluss auf mein Google-Ranking?"
-    answer: "Ja, und zwar auf mehreren Ebenen gleichzeitig. Erstens: Redaktionelle Backlinks von News-Seiten gehören zu den stärksten Linksignalen überhaupt. Zweitens: Mentions (Erwähnungen ohne Link) stärken dein Entity-Profil bei Google. Drittens: Presseartikel werden von LLMs wie ChatGPT als Trainingsmaterial genutzt – wer dort zitiert wird, taucht in KI-Antworten auf. Es ist ein dreifacher ROI."
+  - question: 'Brauche ich einen PR-Berater, oder kann ich Pressearbeit selbst machen?'
+    answer: 'Gerade für Freelancer und KMU ist ''Do-it-yourself Digital PR'' oft der bessere Weg. Du brauchst keinen teuren PR-Berater – du brauchst eine Geschichte, die es wert ist, erzählt zu werden. Schreib Gastbeiträge für Fachblogs, lass dich in Podcasts interviewen, teile eigene Daten und Studien. Mein Tipp: LinkedIn ist 2026 die beste kostenlose PR-Plattform. Ein starker LinkedIn-Post kann von Journalisten aufgegriffen werden und so organisch zu Presseerwähnungen führen.'
+  - question: 'Wie unterscheidet sich Digital PR vom klassischen Linkbuilding?'
+    answer: 'Klassisches Linkbuilding fragt: ''Wo bekomme ich einen Link her?'' Digital PR fragt: ''Welche Geschichte ist so gut, dass Medien freiwillig darüber berichten?'' Der Unterschied ist fundamental. Beim Linkbuilding hast du oft minderwertige oder gekaufte Links. Bei Digital PR entstehen natürliche, redaktionelle Links von Nachrichtenportalen und Fachmagazinen – das Sahnehäubchen für dein Backlink-Profil. Google erkennt diesen Qualitätsunterschied sofort.'
+  - question: 'Hat Pressearbeit einen direkten Einfluss auf mein Google-Ranking?'
+    answer: 'Ja, und zwar auf mehreren Ebenen gleichzeitig. Erstens: Redaktionelle Backlinks von News-Seiten gehören zu den stärksten Linksignalen überhaupt. Zweitens: Mentions (Erwähnungen ohne Link) stärken dein Entity-Profil bei Google. Drittens: Presseartikel werden von LLMs wie ChatGPT als Trainingsmaterial genutzt – wer dort zitiert wird, taucht in KI-Antworten auf. Es ist ein dreifacher ROI.'
 ---
 
 Moin! 

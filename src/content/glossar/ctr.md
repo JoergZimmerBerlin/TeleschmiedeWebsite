@@ -1,6 +1,6 @@
 ---
-title: "CTR: Klickraten in der Google-Suche optimieren"
-description: "Die Click-Through-Rate (CTR) zeigt, wie oft dein Suchergebnis geklickt wird. Ein wichtiger Faktor für Erfolg in den SERPs. ALOHA! 🌻"
+title: 'CTR: Klickraten in der Google-Suche optimieren'
+description: 'Die Click-Through-Rate (CTR) zeigt, wie oft dein Suchergebnis geklickt wird. Ein wichtiger Faktor für Erfolg in den SERPs. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ctr-3d.webp"
 related_terms: ["meta-description", "title-tag", "rankingfaktoren", "conversion-rate"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Title + Description: Dein Title-Tag und deine Meta-Description sind die Werbeanzeige deiner Seite."
   - "Rich Snippets: FAQ-Markup, Sterne und Sitelinks können die CTR um 30-50% steigern."
 faqs:
-  - question: "Was ist eine gute CTR in der Google-Suche?"
-    answer: "Das hängt stark von der Position ab. Platz 1 bekommt im Durchschnitt 25-35% aller Klicks, Platz 2 etwa 15-20%, Platz 3 noch 10-12%. Ab Position 4 wird es dünn. Aber Achtung: Diese Werte sinken, wenn Google AI Overviews oder Featured Snippets anzeigt. In der Google Search Console kannst du deine exakte CTR pro Keyword und Seite einsehen. Wenn du auf Platz 3 stehst und nur 3% CTR hast, stimmt etwas mit deinem Snippet nicht."
-  - question: "Wie kann ich meine CTR verbessern, ohne mein Ranking zu ändern?"
-    answer: "Das ist die Königsdisziplin! Optimiere deinen Title-Tag: Er muss neugierig machen, den Suchintent treffen und idealerweise eine Zahl, eine Frage oder einen Benefit enthalten. Deine Meta-Description ist der 'Elevator Pitch' – sie muss in 160 Zeichen überzeugen. Und nutze strukturierte Daten: FAQ-Markup, Review-Sterne oder How-To-Schema erzeugen Rich Snippets, die dein Ergebnis optisch hervorstechen lassen. Auf meiner Seite erziele ich durch FAQ-Schema und klare Titles überdurchschnittliche CTRs."
-  - question: "Ist die CTR ein direkter Rankingfaktor bei Google?"
-    answer: "Google sagt offiziell: Nein. Aber jeder erfahrene SEO weiß, dass es einen Zusammenhang gibt. Wenn dein Ergebnis auf Position 3 häufiger geklickt wird als das auf Position 1, sendet das ein starkes Signal: 'Diese Seite ist relevanter.' Ob Google das direkt im Algorithmus nutzt oder indirekt über User-Engagement-Metriken – das Ergebnis ist dasselbe. Eine hohe CTR korreliert nachweislich mit besseren Rankings."
+  - question: 'Was ist eine gute CTR in der Google-Suche?'
+    answer: 'Das hängt stark von der Position ab. Platz 1 bekommt im Durchschnitt 25-35% aller Klicks, Platz 2 etwa 15-20%, Platz 3 noch 10-12%. Ab Position 4 wird es dünn. Aber Achtung: Diese Werte sinken, wenn Google AI Overviews oder Featured Snippets anzeigt. In der Google Search Console kannst du deine exakte CTR pro Keyword und Seite einsehen. Wenn du auf Platz 3 stehst und nur 3% CTR hast, stimmt etwas mit deinem Snippet nicht.'
+  - question: 'Wie kann ich meine CTR verbessern, ohne mein Ranking zu ändern?'
+    answer: 'Das ist die Königsdisziplin! Optimiere deinen Title-Tag: Er muss neugierig machen, den Suchintent treffen und idealerweise eine Zahl, eine Frage oder einen Benefit enthalten. Deine Meta-Description ist der ''Elevator Pitch'' – sie muss in 160 Zeichen überzeugen. Und nutze strukturierte Daten: FAQ-Markup, Review-Sterne oder How-To-Schema erzeugen Rich Snippets, die dein Ergebnis optisch hervorstechen lassen. Auf meiner Seite erziele ich durch FAQ-Schema und klare Titles überdurchschnittliche CTRs.'
+  - question: 'Ist die CTR ein direkter Rankingfaktor bei Google?'
+    answer: 'Google sagt offiziell: Nein. Aber jeder erfahrene SEO weiß, dass es einen Zusammenhang gibt. Wenn dein Ergebnis auf Position 3 häufiger geklickt wird als das auf Position 1, sendet das ein starkes Signal: ''Diese Seite ist relevanter.'' Ob Google das direkt im Algorithmus nutzt oder indirekt über User-Engagement-Metriken – das Ergebnis ist dasselbe. Eine hohe CTR korreliert nachweislich mit besseren Rankings.'
 ---
 
 Moin!

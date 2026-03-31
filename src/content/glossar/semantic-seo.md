@@ -1,6 +1,6 @@
 ---
-title: "Semantic SEO: Themenwelten im KI-Vektorraum"
-description: "Semantic SEO (2026): Warum Google Konzepte versteht und wie du Themenwelten für KI-Modelle optimierst. Topical Authority als Rankingfaktor. ALOHA! 🌻"
+title: 'Semantic SEO: Themenwelten im KI-Vektorraum'
+description: 'Semantic SEO (2026): Warum Google Konzepte versteht und wie du Themenwelten für KI-Modelle optimierst. Topical Authority als Rankingfaktor. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["entity-seo", "topical-authority", "strukturierte-daten", "knowledge-graph"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Topical Authority: Wer ein Wissensgebiet umfassend abdeckt (Glossar, Pillar-Pages), wird als Autorität für das gesamte Cluster belohnt."
   - "Interne Verlinkung: Semantische Vernetzung leitet KI-Crawler durch dein Wissensnetz und stärkt deine Entität."
 faqs:
-  - question: "Was ist der gravierende Unterschied zwischen Keyword-SEO und Semantic SEO 2026?"
-    answer: "Keyword-SEO ist 2026 praktisch tot. Semantic SEO denkt in Wissens-Einheiten. Wer über 'SEO Berlin' schreibt, muss heute unmissverständlich das gesamte semantische Umfeld (Local SEO, Google Business Profile, Backlinks, Technisches SEO, E-E-A-T) abdecken. Google belohnt Websites, die ein Thema ganzheitlich und vernetzt behandeln, mit massiver Sichtbarkeit für ALLE verwandten Suchanfragen in den generativen Overviews."
-  - question: "Wie baue ich 2026 semantische Content-Cluster auf?"
-    answer: "Starte mit einem Pillar-Artikel zu deinem Kernthema. Dann erstelle Detailartikel (Cluster-Content) zu jedem Unter-Aspekt. Verlinke alles logisch untereinander. So entsteht ein 'Semantic Topic Cluster', das KI-Systemen signalisiert: 'Diese Domain ist die autoritäre Wissensquelle für dieses Konzept'. Genau so baue ich mein Glossar auf: 60+ vernetzte Einträge, die eine semantische Einheit bilden."
-  - question: "Warum ist Semantic SEO die Brücke zu GEO?"
-    answer: "KI-Modelle interpretieren Sprache semantisch – sie denken in 'Embeddings' (Vektoren). Eine Website mit einem starken semantischen Netz wird von LLMs als hochgradig relevante Entität erkannt. Das erhöht die Wahrscheinlichkeit, als Fakt für eine Antwort ausgewählt zu werden. Semantic SEO liefert den Kontext, den generative Engines für das Grounding ihrer Antworten benötigen."
+  - question: 'Was ist der gravierende Unterschied zwischen Keyword-SEO und Semantic SEO 2026?'
+    answer: 'Keyword-SEO ist 2026 praktisch tot. Semantic SEO denkt in Wissens-Einheiten. Wer über ''SEO Berlin'' schreibt, muss heute unmissverständlich das gesamte semantische Umfeld (Local SEO, Google Business Profile, Backlinks, Technisches SEO, E-E-A-T) abdecken. Google belohnt Websites, die ein Thema ganzheitlich und vernetzt behandeln, mit massiver Sichtbarkeit für ALLE verwandten Suchanfragen in den generativen Overviews.'
+  - question: 'Wie baue ich 2026 semantische Content-Cluster auf?'
+    answer: 'Starte mit einem Pillar-Artikel zu deinem Kernthema. Dann erstelle Detailartikel (Cluster-Content) zu jedem Unter-Aspekt. Verlinke alles logisch untereinander. So entsteht ein ''Semantic Topic Cluster'', das KI-Systemen signalisiert: ''Diese Domain ist die autoritäre Wissensquelle für dieses Konzept''. Genau so baue ich mein Glossar auf: 60+ vernetzte Einträge, die eine semantische Einheit bilden.'
+  - question: 'Warum ist Semantic SEO die Brücke zu GEO?'
+    answer: 'KI-Modelle interpretieren Sprache semantisch – sie denken in ''Embeddings'' (Vektoren). Eine Website mit einem starken semantischen Netz wird von LLMs als hochgradig relevante Entität erkannt. Das erhöht die Wahrscheinlichkeit, als Fakt für eine Antwort ausgewählt zu werden. Semantic SEO liefert den Kontext, den generative Engines für das Grounding ihrer Antworten benötigen.'
 ---
 
 Moin!

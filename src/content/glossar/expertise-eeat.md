@@ -1,6 +1,6 @@
 ---
-title: "Expertise: Fachliche Autorität (E-E-A-T 2026)"
-description: "Expertise 2026: Wie du dein Fachwissen maschinenlesbar machst. Fach-Profil und Topical Authority als KI-Rankingfaktor. ALOHA! 🌻"
+title: 'Expertise: Fachliche Autorität (E-E-A-T 2026)'
+description: 'Expertise 2026: Wie du dein Fachwissen maschinenlesbar machst. Fach-Profil und Topical Authority als KI-Rankingfaktor. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-expertise-3d.webp"
 image_alt: "Expertise (E-E-A-T) 3D Infografik - Fachliche Autorität in KI-Systemen"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Technische Signale: Zertifikate, Veröffentlichungen und berufliche Historie müssen als strukturierte Daten (`knowsAbout`) vorliegen."
   - "Nischen-Expertise: Für KI-Systeme ist es wichtiger, der Beste in einer Nische zu sein als oberflächlich in vielen Themen."
 faqs:
-  - question: "Wie beweise ich einer KI 2026 meine fachliche Expertise?"
-    answer: "Indem du deinen Namen im Knowledge Graph fest verankerst. Nutze das Schema.org Attribut `knowsAbout` in deinem Personen-Markup, um dein Fachgebiet maschinenlesbar zu deklarieren. Jede Fachpublikation und jeder Glossar-Eintrag stärkt deine Topical Authority. Auf teleschmie.de nutze ich dafür über 60 tiefgreifende Fachartikel, die alle semantisch miteinander vernetzt sind."
-  - question: "Ist ein akademischer Titel für die KI-Sichtbarkeit 2026 Pflicht?"
-    answer: "Nein, aber er hilft. KI-Modelle wie GPT-4 und Gemini können akademische Grade und berufliche Auszeichnungen aus verschiedenen Online-Quellen (LinkedIn, Hochschul-Verzeichnisse) extrahieren. Für die KI ist 'Expertise' die Summe aller validen Datenpunkte über deine fachliche Laufbahn. Wer keine Titel hat, muss durch hunderte Praxis-Cases und Fach-Content eine noch höhere semantische Relevanz aufbauen."
-  - question: "Wie wichtig ist die Nischentiefe bei der Expertise-Bewertung?"
-    answer: "Enorm! Die Zeit des 'Generalisten-SEO' ist vorbei. KIs bevorzugen Spezialisten. Wer über 24 Jahre lang ausschließlich Suchmaschinenoptimierung betreibt, wird von den LLMs als autoritäre Quelle für dieses Nischenthema gewertet. Diese Fokussierung auf ein Cluster nennt man im GEO-Bereich 'Entity-Sideloading' – man lädt die eigene Entität fachlich so tief auf, dass die KI nicht mehr an einem vorbeikommt."
+  - question: 'Wie beweise ich einer KI 2026 meine fachliche Expertise?'
+    answer: 'Indem du deinen Namen im Knowledge Graph fest verankerst. Nutze das Schema.org Attribut `knowsAbout` in deinem Personen-Markup, um dein Fachgebiet maschinenlesbar zu deklarieren. Jede Fachpublikation und jeder Glossar-Eintrag stärkt deine Topical Authority. Auf teleschmie.de nutze ich dafür über 60 tiefgreifende Fachartikel, die alle semantisch miteinander vernetzt sind.'
+  - question: 'Ist ein akademischer Titel für die KI-Sichtbarkeit 2026 Pflicht?'
+    answer: 'Nein, aber er hilft. KI-Modelle wie GPT-4 und Gemini können akademische Grade und berufliche Auszeichnungen aus verschiedenen Online-Quellen (LinkedIn, Hochschul-Verzeichnisse) extrahieren. Für die KI ist ''Expertise'' die Summe aller validen Datenpunkte über deine fachliche Laufbahn. Wer keine Titel hat, muss durch hunderte Praxis-Cases und Fach-Content eine noch höhere semantische Relevanz aufbauen.'
+  - question: 'Wie wichtig ist die Nischentiefe bei der Expertise-Bewertung?'
+    answer: 'Enorm! Die Zeit des ''Generalisten-SEO'' ist vorbei. KIs bevorzugen Spezialisten. Wer über 24 Jahre lang ausschließlich Suchmaschinenoptimierung betreibt, wird von den LLMs als autoritäre Quelle für dieses Nischenthema gewertet. Diese Fokussierung auf ein Cluster nennt man im GEO-Bereich ''Entity-Sideloading'' – man lädt die eigene Entität fachlich so tief auf, dass die KI nicht mehr an einem vorbeikommt.'
 ---
 
 Moin!

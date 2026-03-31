@@ -1,6 +1,6 @@
 ---
-title: "FAQ Markup: Datenquelle für RAG & KI-Antworten"
-description: "FAQ Markup 2026: Von Rich Snippets zur primären Datenquelle für KI-Antworten (RAG). Erfahre alles über FAQPage Schema & GEO. ALOHA! 🌻"
+title: 'FAQ Markup: Datenquelle für RAG & KI-Antworten'
+description: 'FAQ Markup 2026: Von Rich Snippets zur primären Datenquelle für KI-Antworten (RAG). Erfahre alles über FAQPage Schema & GEO. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "strukturierte-daten", "rag", "geo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "KI-Futter: Saubere Q&A-Daten sind die bevorzugte Quelle für Google AIOs, ChatGPT-Fakten-Checks und Perplexity."
   - "Content Parity: Jedes FAQ-Schema-Element MUSS für den Nutzer sichtbar auf der Seite stehen, sonst droht Trust-Verlust."
 faqs:
-  - question: "Ist FAQ-Markup 2026 für die SERPs noch relevant?"
-    answer: "Direkt in den '10 blauen Links' zeigt Google FAQs nur noch selten an. ABER: In KI-Antworten (AI Overviews) sind sie dominanter denn je. KIs extrahieren Antworten bevorzugt aus strukturiertem FAQ-Markup, weil es semantisch unmissverständlich ist. Es ist kein CTR-Hebel mehr für die SERPs, sondern ein Sichtbarkeits-Hebel für die generative Suche (GEO)."
-  - question: "Wie steigert FAQ-Markup meine KI-Sichtbarkeit?"
-    answer: "Indem es dem Retrieval-Prozess der KI-Agenten die Arbeit erleichtert. Wenn eine KI nach einer spezifischen Antwort sucht, greift sie zuerst auf 'geparste' Fakten im JSON-LD zurück. Durch die Nutzung von FAQPage-Schema deklarierst du deine Experten-Antworten als autoritäre Fakten-Quelle. Wer sein Wissen strukturiert liefert, wird häufiger als Quelle zitiert."
-  - question: "Darf ich FAQ-Markup für nicht sichtbare Inhalte nutzen?"
-    answer: "Auf keinen Fall! 2026 führen alle großen KIs automatisierte Checks durch (Content Parity). Ein FAQ-Schema, das Fragen beantwortet, die nicht im sichtbaren Text stehen, wird als 'Schema-Spam' gewertet. Das führt zu einem sofortigen Verlust der Authoritativeness im Knowledge Graph."
+  - question: 'Ist FAQ-Markup 2026 für die SERPs noch relevant?'
+    answer: 'Direkt in den ''10 blauen Links'' zeigt Google FAQs nur noch selten an. ABER: In KI-Antworten (AI Overviews) sind sie dominanter denn je. KIs extrahieren Antworten bevorzugt aus strukturiertem FAQ-Markup, weil es semantisch unmissverständlich ist. Es ist kein CTR-Hebel mehr für die SERPs, sondern ein Sichtbarkeits-Hebel für die generative Suche (GEO).'
+  - question: 'Wie steigert FAQ-Markup meine KI-Sichtbarkeit?'
+    answer: 'Indem es dem Retrieval-Prozess der KI-Agenten die Arbeit erleichtert. Wenn eine KI nach einer spezifischen Antwort sucht, greift sie zuerst auf ''geparste'' Fakten im JSON-LD zurück. Durch die Nutzung von FAQPage-Schema deklarierst du deine Experten-Antworten als autoritäre Fakten-Quelle. Wer sein Wissen strukturiert liefert, wird häufiger als Quelle zitiert.'
+  - question: 'Darf ich FAQ-Markup für nicht sichtbare Inhalte nutzen?'
+    answer: 'Auf keinen Fall! 2026 führen alle großen KIs automatisierte Checks durch (Content Parity). Ein FAQ-Schema, das Fragen beantwortet, die nicht im sichtbaren Text stehen, wird als ''Schema-Spam'' gewertet. Das führt zu einem sofortigen Verlust der Authoritativeness im Knowledge Graph.'
 ---
 
 Moin!

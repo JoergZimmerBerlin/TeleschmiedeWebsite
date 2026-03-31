@@ -1,6 +1,6 @@
 ---
-title: "Zitierfähiger Content: Rankingfaktor in der KI-Ära"
-description: "Zitierfähiger Content ist Content, den KI-Systeme und Suchmaschinen wortwörtlich als Antwort übernehmen können. Die Grundlage für AEO und GEO."
+title: 'Zitierfähiger Content: Rankingfaktor in der KI-Ära'
+description: 'Zitierfähiger Content ist Content, den KI-Systeme und Suchmaschinen wortwörtlich als Antwort übernehmen können. Die Grundlage für AEO und GEO.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "geo", "zero-click-content", "faq-markup"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Definitionsformat: Klare Definitionen in den ersten 2-3 Sätzen eines Absatzes."
   - "Fakten > Meinungen: KI-Systeme zitieren bevorzugt verifizierbare Fakten und Daten."
 faqs:
-  - question: "Was macht Content zitierfähig?"
-    answer: "Drei Eigenschaften: Erstens, klare Definitionen ('X ist Y, weil Z'). Zweitens, konkrete Zahlen und Daten ('Über 60% aller Google-Suchen enden ohne Klick'). Drittens, einzigartige Erkenntnisse, die nur du hast ('In meinen Audits sehe ich bei 8 von 10 Websites dieses Problem'). KI-Systeme können mit vagen Aussagen wie 'Es ist irgendwie wichtig' nichts anfangen. Sie brauchen präzise, belegbare Statements."
-  - question: "Wie unterscheidet sich zitierfähiger Content von normaler SEO-Optimierung?"
-    answer: "Normales SEO optimiert für Keywords und Rankings. Zitierfähiger Content optimiert für die Extraktion durch Maschinen. Stell dir vor, ChatGPT liest deinen Artikel und sucht einen Satz, den es als Antwort zitieren kann. Findet es diesen Satz? Wenn ja, ist dein Content zitierfähig. In der Praxis bedeutet das: Jeder Abschnitt beginnt mit einer klaren, eigenständigen Aussage, die auch ohne Kontext verständlich ist."
-  - question: "Wird mein Content dann nicht einfach geklaut?"
-    answer: "Das ist die große Angst – und sie ist teilweise berechtigt. Aber die Alternative ist schlimmer: Wenn dein Content NICHT zitierfähig ist, zitiert die KI jemand anderen. Der Trick ist, deinen Markennamen in den zitierfähigen Content einzubauen. Wenn ChatGPT zitiert: 'Laut Jörg Zimmer, SEO-Experte, sind 80% aller SEO-Fehler technischer Natur' – dann ist das mehr wert als jeder Klick."
+  - question: 'Was macht Content zitierfähig?'
+    answer: 'Drei Eigenschaften: Erstens, klare Definitionen (''X ist Y, weil Z''). Zweitens, konkrete Zahlen und Daten (''Über 60% aller Google-Suchen enden ohne Klick''). Drittens, einzigartige Erkenntnisse, die nur du hast (''In meinen Audits sehe ich bei 8 von 10 Websites dieses Problem''). KI-Systeme können mit vagen Aussagen wie ''Es ist irgendwie wichtig'' nichts anfangen. Sie brauchen präzise, belegbare Statements.'
+  - question: 'Wie unterscheidet sich zitierfähiger Content von normaler SEO-Optimierung?'
+    answer: 'Normales SEO optimiert für Keywords und Rankings. Zitierfähiger Content optimiert für die Extraktion durch Maschinen. Stell dir vor, ChatGPT liest deinen Artikel und sucht einen Satz, den es als Antwort zitieren kann. Findet es diesen Satz? Wenn ja, ist dein Content zitierfähig. In der Praxis bedeutet das: Jeder Abschnitt beginnt mit einer klaren, eigenständigen Aussage, die auch ohne Kontext verständlich ist.'
+  - question: 'Wird mein Content dann nicht einfach geklaut?'
+    answer: 'Das ist die große Angst – und sie ist teilweise berechtigt. Aber die Alternative ist schlimmer: Wenn dein Content NICHT zitierfähig ist, zitiert die KI jemand anderen. Der Trick ist, deinen Markennamen in den zitierfähigen Content einzubauen. Wenn ChatGPT zitiert: ''Laut Jörg Zimmer, SEO-Experte, sind 80% aller SEO-Fehler technischer Natur'' – dann ist das mehr wert als jeder Klick.'
 ---
 
 Moin!

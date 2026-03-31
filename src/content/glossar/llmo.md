@@ -1,6 +1,6 @@
 ---
-title: "LLM-Optimization (LLMO): SEO für Sprachmodelle"
-description: "LLMO optimiert deine Inhalte für ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt und zitiert werden."
+title: 'LLM-Optimization (LLMO): SEO für Sprachmodelle'
+description: 'LLMO optimiert deine Inhalte für ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt und zitiert werden.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.webp"
 image_alt: "LLMO 3D Infografik - Optimierung für Large Language Models"
@@ -10,11 +10,11 @@ key_takeaways:
   - "Co-Occurrence: Je öfter dein Name im Kontext deines Fachgebiets auftaucht, desto häufiger wirst du zitiert."
   - "Prompt-Testing: Regelmäßig testen, was ChatGPT und Co. über dich sagen – und darauf optimieren."
 faqs:
-  - question: "Wie unterscheidet sich LLMO von GEO und AEO?"
-    answer: "LLMO ist die technischste der drei Disziplinen. Während GEO die Gesamtstrategie für KI-Sichtbarkeit umfasst und AEO auf Antwort-Optimierung zielt, fokussiert LLMO sich darauf, wie LLMs (Large Language Models) Informationen verarbeiten. Es geht um Fragen wie: In welchen Trainingsdaten kommt mein Name vor? Wie bewertet das Modell meine Glaubwürdigkeit? Welche Co-Occurrence-Muster stärken mein Profil? LLMO ist die Wissenschaft hinter GEO."
-  - question: "Kann ich beeinflussen, was ChatGPT über mich sagt?"
-    answer: "Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein."
-  - question: "Wie teste ich meine LLM-Sichtbarkeit?"
+  - question: 'Wie unterscheidet sich LLMO von GEO und AEO?'
+    answer: 'LLMO ist die technischste der drei Disziplinen. Während GEO die Gesamtstrategie für KI-Sichtbarkeit umfasst und AEO auf Antwort-Optimierung zielt, fokussiert LLMO sich darauf, wie LLMs (Large Language Models) Informationen verarbeiten. Es geht um Fragen wie: In welchen Trainingsdaten kommt mein Name vor? Wie bewertet das Modell meine Glaubwürdigkeit? Welche Co-Occurrence-Muster stärken mein Profil? LLMO ist die Wissenschaft hinter GEO.'
+  - question: 'Kann ich beeinflussen, was ChatGPT über mich sagt?'
+    answer: 'Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein.'
+  - question: 'Wie teste ich meine LLM-Sichtbarkeit?'
     answer: 'Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen.'
 ---
 

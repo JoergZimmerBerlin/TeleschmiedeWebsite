@@ -1,6 +1,6 @@
 ---
-title: "GEO Freelancer (Generative Engine Optimization)"
-description: "Ein GEO Freelancer optimiert dein Ranking in KI-Suchmaschinen. Warum ein spezialisierter Freelancer oft die bessere Wahl als eine Agentur ist."
+title: 'GEO Freelancer (Generative Engine Optimization)'
+description: 'Ein GEO Freelancer optimiert dein Ranking in KI-Suchmaschinen. Warum ein spezialisierter Freelancer oft die bessere Wahl als eine Agentur ist.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-freelancer-3d.webp"
 image_alt: "GEO Freelancer 3D Infografik - Individuelle KI-Sichtbarkeits-Strategie"
@@ -10,11 +10,11 @@ key_takeaways:
   - "Direkter Draht: Kein Agentur-Overhead, kein Junior-Account-Manager – du arbeitest direkt mit dem Experten."
   - "Praxis statt Theorie: Ein guter GEO Freelancer hat sein eigenes Setup als lebendes Beispiel."
 faqs:
-  - question: "Was unterscheidet einen GEO Freelancer von einem SEO Freelancer?"
-    answer: "Ein SEO Freelancer kennt Google in- und auswendig: Rankings, Keywords, Backlinks, technische Optimierung. Ein GEO Freelancer geht darüber hinaus und versteht, wie KI-Modelle Informationen verarbeiten und Antworten generieren. Er weiß, was eine Entität ist, wie Co-Occurrence funktioniert und wie man in ChatGPT, Perplexity oder Google SGE als Quelle zitiert wird. Die Wahrheit: 2026 brauchst du beides – und die besten Freelancer beherrschen die Kombination."
-  - question: "Warum einen Freelancer statt einer GEO Agentur beauftragen?"
-    answer: "Weil GEO noch eine junge Disziplin ist, in der praktische Erfahrung Gold wert ist. In einer Agentur landet dein Projekt oft bei einem Junior, der GEO aus einem Blogpost kennt. Ein spezialisierter Freelancer hat selbst experimentiert, eigene Ergebnisse gemessen und optimiert. Ich arbeite direkt mit meinen Kunden – ohne Umwege, ohne Agentur-Overhead. Dazu kommt: Mein eigenes Setup ist ein lebendes Proof-of-Concept. Was ich für Kunden empfehle, habe ich vorher an mir selbst getestet."
-  - question: "Was kostet ein GEO Freelancer und was bekomme ich dafür?"
+  - question: 'Was unterscheidet einen GEO Freelancer von einem SEO Freelancer?'
+    answer: 'Ein SEO Freelancer kennt Google in- und auswendig: Rankings, Keywords, Backlinks, technische Optimierung. Ein GEO Freelancer geht darüber hinaus und versteht, wie KI-Modelle Informationen verarbeiten und Antworten generieren. Er weiß, was eine Entität ist, wie Co-Occurrence funktioniert und wie man in ChatGPT, Perplexity oder Google SGE als Quelle zitiert wird. Die Wahrheit: 2026 brauchst du beides – und die besten Freelancer beherrschen die Kombination.'
+  - question: 'Warum einen Freelancer statt einer GEO Agentur beauftragen?'
+    answer: 'Weil GEO noch eine junge Disziplin ist, in der praktische Erfahrung Gold wert ist. In einer Agentur landet dein Projekt oft bei einem Junior, der GEO aus einem Blogpost kennt. Ein spezialisierter Freelancer hat selbst experimentiert, eigene Ergebnisse gemessen und optimiert. Ich arbeite direkt mit meinen Kunden – ohne Umwege, ohne Agentur-Overhead. Dazu kommt: Mein eigenes Setup ist ein lebendes Proof-of-Concept. Was ich für Kunden empfehle, habe ich vorher an mir selbst getestet.'
+  - question: 'Was kostet ein GEO Freelancer und was bekomme ich dafür?'
     answer: 'Die Stundensätze für GEO-spezialisierte Freelancer liegen typischerweise zwischen 120€ und 200€, je nach Erfahrung und Projektumfang. Dafür bekommst du keine generische Keyword-Liste, sondern eine maßgeschneiderte Strategie: Entity-Audit, Citation-Analyse, Schema.org-Implementierung, Grounding-Page-Aufbau und ein AI-Visibility-Monitoring über Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. Der ROI zeigt sich oft schneller als bei klassischem SEO, weil der KI-Markt noch wenig Wettbewerb hat.'
 ---
 

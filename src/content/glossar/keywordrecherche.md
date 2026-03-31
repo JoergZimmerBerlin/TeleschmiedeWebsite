@@ -1,6 +1,6 @@
 ---
-title: "Keywordrecherche: Die Basis jeder SEO-Strategie"
-description: "Die Keywordrecherche ist das Fundament jeder SEO-Maßnahme. Erfahre, wie du die Begriffe findest, nach denen deine Kunden wirklich suchen."
+title: 'Keywordrecherche: Die Basis jeder SEO-Strategie'
+description: 'Die Keywordrecherche ist das Fundament jeder SEO-Maßnahme. Erfahre, wie du die Begriffe findest, nach denen deine Kunden wirklich suchen.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keywordrecherche-3d.webp"
 related_terms: ["keywoerter", "suchvolumen", "keyword-tool"]
@@ -9,11 +9,11 @@ key_takeaways:
   - "Intent-Analyse: Nur wer versteht, was der Nutzer wirklich will, kann die passende Antwort liefern."
   - "Lücken-Suche: Identifiziere Keywords, bei denen die Konkurrenz schwächelt (Opportunity-Scoring)."
 faqs:
-  - question: "Wie viel Zeit sollte man für eine professionelle Keywordrecherche einplanen?"
-    answer: "Eine rudimentäre Keyword-Liste ist in 30 Minuten erstellt, aber eine professionelle semantische Keyword-Recherche ist ein tiefgreifendes strategisches Projekt. Je nach Umfang der Website, der Komplexität der B2B/B2C-Nische und den internationalen Zielmärkten investiere ich in meinen SEO-Audits zwischen 5 und 20 hochkonzentrierte Stunden. Es geht dabei nicht primär um die bloße Datenerhebung, sondern vor allem um die intelligente Clusterung der Suchintentionen und die Abstimmung mit deiner Customer Journey."
-  - question: "Mit welchen Kosten muss ich für eine umfassende SEO-Keywordrecherche rechnen?"
-    answer: "Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie ('Was machen wir nun mit diesen Daten?') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs."
-  - question: "Reicht der kostenlose Google Keyword Planner heute noch aus?"
+  - question: 'Wie viel Zeit sollte man für eine professionelle Keywordrecherche einplanen?'
+    answer: 'Eine rudimentäre Keyword-Liste ist in 30 Minuten erstellt, aber eine professionelle semantische Keyword-Recherche ist ein tiefgreifendes strategisches Projekt. Je nach Umfang der Website, der Komplexität der B2B/B2C-Nische und den internationalen Zielmärkten investiere ich in meinen SEO-Audits zwischen 5 und 20 hochkonzentrierte Stunden. Es geht dabei nicht primär um die bloße Datenerhebung, sondern vor allem um die intelligente Clusterung der Suchintentionen und die Abstimmung mit deiner Customer Journey.'
+  - question: 'Mit welchen Kosten muss ich für eine umfassende SEO-Keywordrecherche rechnen?'
+    answer: 'Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie (''Was machen wir nun mit diesen Daten?'') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs.'
+  - question: 'Reicht der kostenlose Google Keyword Planner heute noch aus?'
     answer: 'Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark (''Search Volume Buckets'') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern.'
 ---
 

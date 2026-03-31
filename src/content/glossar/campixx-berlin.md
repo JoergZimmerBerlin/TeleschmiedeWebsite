@@ -1,6 +1,6 @@
 ---
-title: "Campixx Berlin: Die legendäre SEO-Konferenz"
-description: "Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻"
+title: 'Campixx Berlin: Die legendäre SEO-Konferenz'
+description: 'Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/campixx-berlin.webp"
 related_terms: ["seo-stammtisch-berlin", "ueberstunde-berlin", "e-e-a-t"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Van der Valk Vibe: Familiäre Atmosphäre, die tiefgehende Gespräche fördert."
   - "Content-Tiefe: Von technischen Nischen bis hin zu strategischem High-Level-SEO."
 faqs:
-  - question: "Wann und wo findet die Campixx 2026 statt?"
-    answer: "Die CAMPIXX 2026 findet vom 18. bis 19. Juni 2026 wieder im Van der Valk Hotel Berlin Brandenburg (Blankenfelde-Mahlow) statt. Diese Location hat sich seit 2022 als neue Heimat fest etabliert und bietet den perfekten Rahmen für das intensive Networking."
-  - question: "Was unterscheidet die Campixx fundamental von anderen SEO-Konferenzen?"
-    answer: "Der wohl größte Unterschied ist das Barcamp-Prinzip kombiniert mit einem Festival-Charakter. Hier wird echtes Wissen 'geschmiedet', oft spontan durch Fragen aus der Community. Jörg meint: 'Hier lernst du die Dinge, die Google in seinen offiziellen Dokumentationen lieber verschweigt.' Es ist eine Konferenz von Experten für Experten."
-  - question: "Lohnt sich die Campixx auch für Einsteiger oder Inhouse-Marketer?"
-    answer: "Absolut, aber man muss mutig sein. Die Themen können sehr technisch werden. Für Inhouse-Marketer ist es eine Goldgrube, um ein echtes Gefühl für die Qualität ihrer Agenturen zu bekommen. Ein Wochenende Campixx spart oft Monate an teurem Consulting."
+  - question: 'Wann und wo findet die Campixx 2026 statt?'
+    answer: 'Die CAMPIXX 2026 findet vom 18. bis 19. Juni 2026 wieder im Van der Valk Hotel Berlin Brandenburg (Blankenfelde-Mahlow) statt. Diese Location hat sich seit 2022 als neue Heimat fest etabliert und bietet den perfekten Rahmen für das intensive Networking.'
+  - question: 'Was unterscheidet die Campixx fundamental von anderen SEO-Konferenzen?'
+    answer: 'Der wohl größte Unterschied ist das Barcamp-Prinzip kombiniert mit einem Festival-Charakter. Hier wird echtes Wissen ''geschmiedet'', oft spontan durch Fragen aus der Community. Jörg meint: ''Hier lernst du die Dinge, die Google in seinen offiziellen Dokumentationen lieber verschweigt.'' Es ist eine Konferenz von Experten für Experten.'
+  - question: 'Lohnt sich die Campixx auch für Einsteiger oder Inhouse-Marketer?'
+    answer: 'Absolut, aber man muss mutig sein. Die Themen können sehr technisch werden. Für Inhouse-Marketer ist es eine Goldgrube, um ein echtes Gefühl für die Qualität ihrer Agenturen zu bekommen. Ein Wochenende Campixx spart oft Monate an teurem Consulting.'
 ---
 
 Moin!

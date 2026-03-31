@@ -1,6 +1,6 @@
 ---
-title: "Google Search Console: Das wichtigste SEO-Tool"
-description: "Die Google Search Console ist das wichtigste Werkzeug für jeden Webseitenbetreiber. Hier erfährst du direkt von Google, wie deine Seite performt."
+title: 'Google Search Console: Das wichtigste SEO-Tool'
+description: 'Die Google Search Console ist das wichtigste Werkzeug für jeden Webseitenbetreiber. Hier erfährst du direkt von Google, wie deine Seite performt.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"
 related_terms: ["crawling-vs-indexing", "sitemap", "keyword-tool"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Fehlerdiagnose: Du siehst sofort, wenn Google Probleme beim Crawlen oder Indexieren deiner Seiten hat."
   - "Leistungsanalyse: Erfahre genau, für welche Keywords du Impressionen und Klicks generierst."
 faqs:
-  - question: "Ist die Google Search Console wirklich dauerhaft kostenlos?"
-    answer: "Ja, absolut. Google stellt die Search Console (GSC) als essenzielles Webmaster-Werkzeug komplett kostenfrei zur Verfügung – und das ohne versteckte Premium-Tiers, Abos oder nervige Traffic-Beschränkungen. Es ist in meinen Augen das einzige Tool auf dem gesamten Milliarden-Dollar-SEO-Markt, das wirklich ausnahmslos unverzichtbar ist. Nur die Search Console liefert dir ungefilterte, rohe First-Party-Daten direkt aus den Logfiles des echten Google-Suchalgorithmus."
-  - question: "Was ist der genaue Unterschied zu Google Analytics 4?"
-    answer: "Analytics ist verhaltensorientiert: Es zeigt dir im Detail, was die Nutzer tun, *nachdem* sie deine Website betreten haben (Verweildauer, Klicks, komplizierte Kaufabschlüsse). Die Search Console ist hingegen rein akquisitionsorientiert: Sie zeigt dir messerscharf, was direkt *vor* dem Klick in der Suchmaschine passiert ist. Für exakt welche Suchbegriffe hast du Impressions generiert? Auf welcher Ranking-Position warst du sichtbar? Und ganz wichtig: Liegen fatale Fehler vor, die das Crawling blockieren?"
-  - question: "Wie kompliziert ist die Installation der Search Console?"
-    answer: "Die Verifizierung deiner Website-Inhaberschaft ist der allererste Schritt und glücklicherweise selbst für Einsteiger machbar. Der mit Abstand sicherste und von Profis favorisierte Weg ist die DNS-Verifizierung (als 'Domain Property'), da du hiermit direkt alle Subdomains und Protokolle (http/https) auf einen Schlag sauber erfasst. Alternativ kannst du auch simpel einen kleinen HTML-Tag im `<head>` deiner Seite platzieren oder die Freischaltung nahtlos über ein bereits verifiziertes Google Analytics-Konto anstoßen."
+  - question: 'Ist die Google Search Console wirklich dauerhaft kostenlos?'
+    answer: 'Ja, absolut. Google stellt die Search Console (GSC) als essenzielles Webmaster-Werkzeug komplett kostenfrei zur Verfügung – und das ohne versteckte Premium-Tiers, Abos oder nervige Traffic-Beschränkungen. Es ist in meinen Augen das einzige Tool auf dem gesamten Milliarden-Dollar-SEO-Markt, das wirklich ausnahmslos unverzichtbar ist. Nur die Search Console liefert dir ungefilterte, rohe First-Party-Daten direkt aus den Logfiles des echten Google-Suchalgorithmus.'
+  - question: 'Was ist der genaue Unterschied zu Google Analytics 4?'
+    answer: 'Analytics ist verhaltensorientiert: Es zeigt dir im Detail, was die Nutzer tun, *nachdem* sie deine Website betreten haben (Verweildauer, Klicks, komplizierte Kaufabschlüsse). Die Search Console ist hingegen rein akquisitionsorientiert: Sie zeigt dir messerscharf, was direkt *vor* dem Klick in der Suchmaschine passiert ist. Für exakt welche Suchbegriffe hast du Impressions generiert? Auf welcher Ranking-Position warst du sichtbar? Und ganz wichtig: Liegen fatale Fehler vor, die das Crawling blockieren?'
+  - question: 'Wie kompliziert ist die Installation der Search Console?'
+    answer: 'Die Verifizierung deiner Website-Inhaberschaft ist der allererste Schritt und glücklicherweise selbst für Einsteiger machbar. Der mit Abstand sicherste und von Profis favorisierte Weg ist die DNS-Verifizierung (als ''Domain Property''), da du hiermit direkt alle Subdomains und Protokolle (http/https) auf einen Schlag sauber erfasst. Alternativ kannst du auch simpel einen kleinen HTML-Tag im `<head>` deiner Seite platzieren oder die Freischaltung nahtlos über ein bereits verifiziertes Google Analytics-Konto anstoßen.'
 ---
 
 

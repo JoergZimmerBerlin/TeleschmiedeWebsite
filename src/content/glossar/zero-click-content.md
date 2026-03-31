@@ -1,6 +1,6 @@
 ---
-title: "Zero-Click Content: Mehr Sichtbarkeit ohne Klicks"
-description: "Zero-Click Content beantwortet Suchanfragen direkt in der SERP oder KI-Antwort – ohne dass der Nutzer klicken muss. Fluch und Chance zugleich."
+title: 'Zero-Click Content: Mehr Sichtbarkeit ohne Klicks'
+description: 'Zero-Click Content beantwortet Suchanfragen direkt in der SERP oder KI-Antwort – ohne dass der Nutzer klicken muss. Fluch und Chance zugleich.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "ctr", "geo", "snippet-optimierung"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "KI verstärkt den Trend: AI Overviews beantworten Fragen direkt – dein Traffic sinkt."
   - "Chance: Wer die zitierte Quelle IST, gewinnt Sichtbarkeit, Vertrauen und Markenbekanntheit."
 faqs:
-  - question: "Ist Zero-Click eine Bedrohung für meine Website?"
-    answer: "Ja und nein. Ja, weil du für informationelle Suchanfragen weniger Klicks bekommst – Google zeigt die Antwort direkt. Nein, weil du diese Entwicklung als Chance nutzen kannst: Wenn du die Quelle bist, die Google in seinem Featured Snippet oder AI Overview zitiert, gewinnst du massive Markenbekanntheit. Jeder, der deine Antwort liest, sieht deinen Namen. Das ist kostenloses Branding. In meiner Strategie optimiere ich gezielt dafür, als zitierte Quelle aufzutauchen."
-  - question: "Wie passe ich meine Content-Strategie an Zero-Click an?"
-    answer: "Zwei Strategien gleichzeitig: Erstens, für Keywords mit hohem Zero-Click-Anteil (informationelle Fragen) optimierst du auf das Featured Snippet und AI Overview – du wirst die zitierte Quelle. Zweitens, fokussiere dich auf Keywords mit Klick-Intent (transaktionale und navigierende Suchanfragen): 'SEO Freelancer Berlin beauftragen' wird nie zero-click beantwortet. Die Mischung macht's."
-  - question: "Kann ich Zero-Click Content für mein Branding nutzen?"
-    answer: "Unbedingt! Wenn Google dich in einem Featured Snippet als Quelle nennt, sehen tausende Nutzer deinen Namen – auch ohne Klick. Das stärkt deine Marke und dein Branded Search Volume. Auf meiner Seite generieren Glossar-Einträge regelmäßig Featured Snippets. Die Klicks sind weniger, aber die Brand Awareness ist enorm."
+  - question: 'Ist Zero-Click eine Bedrohung für meine Website?'
+    answer: 'Ja und nein. Ja, weil du für informationelle Suchanfragen weniger Klicks bekommst – Google zeigt die Antwort direkt. Nein, weil du diese Entwicklung als Chance nutzen kannst: Wenn du die Quelle bist, die Google in seinem Featured Snippet oder AI Overview zitiert, gewinnst du massive Markenbekanntheit. Jeder, der deine Antwort liest, sieht deinen Namen. Das ist kostenloses Branding. In meiner Strategie optimiere ich gezielt dafür, als zitierte Quelle aufzutauchen.'
+  - question: 'Wie passe ich meine Content-Strategie an Zero-Click an?'
+    answer: 'Zwei Strategien gleichzeitig: Erstens, für Keywords mit hohem Zero-Click-Anteil (informationelle Fragen) optimierst du auf das Featured Snippet und AI Overview – du wirst die zitierte Quelle. Zweitens, fokussiere dich auf Keywords mit Klick-Intent (transaktionale und navigierende Suchanfragen): ''SEO Freelancer Berlin beauftragen'' wird nie zero-click beantwortet. Die Mischung macht''s.'
+  - question: 'Kann ich Zero-Click Content für mein Branding nutzen?'
+    answer: 'Unbedingt! Wenn Google dich in einem Featured Snippet als Quelle nennt, sehen tausende Nutzer deinen Namen – auch ohne Klick. Das stärkt deine Marke und dein Branded Search Volume. Auf meiner Seite generieren Glossar-Einträge regelmäßig Featured Snippets. Die Klicks sind weniger, aber die Brand Awareness ist enorm.'
 ---
 
 Moin!

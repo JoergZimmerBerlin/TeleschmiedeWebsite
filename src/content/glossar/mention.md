@@ -1,6 +1,6 @@
 ---
-title: "Mention (Erwähnung): Definition und SEO-Bedeutung"
-description: "Eine Mention ist die Erwähnung einer Marke im Netz. Sie dient als indirektes Vertrauenssignal für Google und KI-Modelle. ALOHA! 🌻"
+title: 'Mention (Erwähnung): Definition und SEO-Bedeutung'
+description: 'Eine Mention ist die Erwähnung einer Marke im Netz. Sie dient als indirektes Vertrauenssignal für Google und KI-Modelle. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["citation", "entitaet", "e-e-a-t"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Reputations-Anker: Mentions bauen deine Autorität und dein E-E-A-T Profil im Web gezielt auf."
   - "KI-Währung: In Trainingsdaten von LLMs sind konsistente Mentions der Schlüssel zum Zitiert-werden."
 faqs:
-  - question: "Zählen Mentions in Foren oder Social Media auch?"
-    answer: "Grundsätzlich ja, aber die Gewichtung hängt massiv von der Autorität der Quelle ab. Eine namentliche Erwähnung in einem tiefen, fachlich relevanten Reddit-Thread oder auf LinkedIn hat heute einen echten SEO-Wert, da Google Social Media verstärkt als vertrauenswürdige Quelle für E-E-A-T Signale ausliest. Eine Spam-Erwähnung in einem toten Web-2.0-Forum wird vom Algorithmus hingegen schlicht ignoriert."
-  - question: "Kann eine Brand Mention auch negativ für mich sein?"
-    answer: "Absolut. Google und moderne KI-Systeme lesen nicht nur den Namen, sondern nutzen Natural Language Processing (NLP), um das 'Sentiment' (die Grundstimmung) des umgebenden Textes zu analysieren. Wenn dein Firmenname pausenlos in Artikeln über Betrug oder miesen Kundenservice auftaucht, merkt sich die Suchmaschine diese toxische Co-Occurrence. Solche toxischen Mentions können massiven Schaden an deinem Entity-Profil anrichten."
-  - question: "Wie steigere ich die Anzahl meiner Brand Mentions gezielt?"
-    answer: "Der effektivste Weg führt heute über digitale PR und Thought Leadership in B2B-Netzwerken. Gastbeiträge in Fachmagazinen, Auftritte in Branchen-Podcasts oder exklusive Daten-Studien, die von Journalisten aufgegriffen werden, sind Gold wert. In meinem Alltag als SEO-Consultant merke ich: Wenn du starke Meinungen auf LinkedIn postest und aktiv in relevanten Communities diskutierst, folgen die organischen Mentions fast von allein."
+  - question: 'Zählen Mentions in Foren oder Social Media auch?'
+    answer: 'Grundsätzlich ja, aber die Gewichtung hängt massiv von der Autorität der Quelle ab. Eine namentliche Erwähnung in einem tiefen, fachlich relevanten Reddit-Thread oder auf LinkedIn hat heute einen echten SEO-Wert, da Google Social Media verstärkt als vertrauenswürdige Quelle für E-E-A-T Signale ausliest. Eine Spam-Erwähnung in einem toten Web-2.0-Forum wird vom Algorithmus hingegen schlicht ignoriert.'
+  - question: 'Kann eine Brand Mention auch negativ für mich sein?'
+    answer: 'Absolut. Google und moderne KI-Systeme lesen nicht nur den Namen, sondern nutzen Natural Language Processing (NLP), um das ''Sentiment'' (die Grundstimmung) des umgebenden Textes zu analysieren. Wenn dein Firmenname pausenlos in Artikeln über Betrug oder miesen Kundenservice auftaucht, merkt sich die Suchmaschine diese toxische Co-Occurrence. Solche toxischen Mentions können massiven Schaden an deinem Entity-Profil anrichten.'
+  - question: 'Wie steigere ich die Anzahl meiner Brand Mentions gezielt?'
+    answer: 'Der effektivste Weg führt heute über digitale PR und Thought Leadership in B2B-Netzwerken. Gastbeiträge in Fachmagazinen, Auftritte in Branchen-Podcasts oder exklusive Daten-Studien, die von Journalisten aufgegriffen werden, sind Gold wert. In meinem Alltag als SEO-Consultant merke ich: Wenn du starke Meinungen auf LinkedIn postest und aktiv in relevanten Communities diskutierst, folgen die organischen Mentions fast von allein.'
 ---
 
 

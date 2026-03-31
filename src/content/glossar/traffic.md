@@ -1,6 +1,6 @@
 ---
-title: "Traffic (Besucherströme): Mehr als nur Klicks"
-description: "Traffic bezeichnet die Anzahl der Besucher auf deiner Website. Aber Vorsicht: Nicht jeder Klick ist gleich viel wert."
+title: 'Traffic (Besucherströme): Mehr als nur Klicks'
+description: 'Traffic bezeichnet die Anzahl der Besucher auf deiner Website. Aber Vorsicht: Nicht jeder Klick ist gleich viel wert.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Quellen-Mix: Eine gesunde Website nutzt organische, direkte und Referrer-Quellen gleichermaßen."
   - "KI-Wandel: Informations-Traffic sinkt durch KI-Antworten; Experten-Traffic gewinnt an Wert."
 faqs:
-  - question: "Was ist der Unterschied zwischen Nutzern und Sitzungen?"
-    answer: "Ein Nutzer ist die einzelne Person (oder der Browser), die deine Website besucht. Eine Sitzung ist der Zeitabschnitt, den dieser Nutzer auf deiner Seite verbringt – in Google Analytics endet eine Sitzung standardmäßig nach 30 Minuten Inaktivität. Ein einzelner Nutzer kann also an einem Tag mehrere Sitzungen erzeugen, wenn er vormittags und nachmittags auf meiner Seite vorbeischaut. Für die Monetarisierung sind oft regelmäßige Nutzer wichtiger als reine Sitzungszahlen."
-  - question: "Warum sinkt mein Traffic plötzlich?"
-    answer: "Ein Traffic-Einbruch ist der Albtraum jedes Website-Betreibers, aber meistens gibt es eine logische Erklärung. Häufigste Ursachen sind Google Core Updates, technische Fehler (wie versehentliches Noindex), Saisonalität oder das Erstarken von Wettbewerbern. In meiner SEO Sprechstunde analysiere ich zuerst, ob der Einbruch site-wide ist oder nur bestimmte URLs betrifft. Dann grenzen wir ein, ob es ein technisches oder ein inhaltliches Problem ist."
-  - question: "Wie steigere ich meinen organischen Traffic?"
-    answer: "Die ehrliche Antwort: Es gibt keinen Quick-Fix. Nachhaltiges Traffic-Wachstum erfordert hochwertigen Content, der echte Nutzerfragen beantwortet, eingebettet in eine saubere technische Architektur. Du musst die Suchintention deiner Zielgruppe perfekt bedienen und gleichzeitig Signale für deine E-E-A-T Autorität setzen. Ein gut strukturiertes Glossar wie dieses hier ist zum Beispiel ein hervorragender Motor für langfristigen Traffic-Aufbau."
+  - question: 'Was ist der Unterschied zwischen Nutzern und Sitzungen?'
+    answer: 'Ein Nutzer ist die einzelne Person (oder der Browser), die deine Website besucht. Eine Sitzung ist der Zeitabschnitt, den dieser Nutzer auf deiner Seite verbringt – in Google Analytics endet eine Sitzung standardmäßig nach 30 Minuten Inaktivität. Ein einzelner Nutzer kann also an einem Tag mehrere Sitzungen erzeugen, wenn er vormittags und nachmittags auf meiner Seite vorbeischaut. Für die Monetarisierung sind oft regelmäßige Nutzer wichtiger als reine Sitzungszahlen.'
+  - question: 'Warum sinkt mein Traffic plötzlich?'
+    answer: 'Ein Traffic-Einbruch ist der Albtraum jedes Website-Betreibers, aber meistens gibt es eine logische Erklärung. Häufigste Ursachen sind Google Core Updates, technische Fehler (wie versehentliches Noindex), Saisonalität oder das Erstarken von Wettbewerbern. In meiner SEO Sprechstunde analysiere ich zuerst, ob der Einbruch site-wide ist oder nur bestimmte URLs betrifft. Dann grenzen wir ein, ob es ein technisches oder ein inhaltliches Problem ist.'
+  - question: 'Wie steigere ich meinen organischen Traffic?'
+    answer: 'Die ehrliche Antwort: Es gibt keinen Quick-Fix. Nachhaltiges Traffic-Wachstum erfordert hochwertigen Content, der echte Nutzerfragen beantwortet, eingebettet in eine saubere technische Architektur. Du musst die Suchintention deiner Zielgruppe perfekt bedienen und gleichzeitig Signale für deine E-E-A-T Autorität setzen. Ein gut strukturiertes Glossar wie dieses hier ist zum Beispiel ein hervorragender Motor für langfristigen Traffic-Aufbau.'
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Entity SEO: Das Wissens-Netzwerk für KIs"
-description: "Entity SEO (2026): Optimierung für den semantischen Vektorraum. Erfahre, wie du 'Entity Depth' & Grounding für LLMs nutzt. ALOHA! 🌻"
+title: 'Entity SEO: Das Wissens-Netzwerk für KIs'
+description: 'Entity SEO (2026): Optimierung für den semantischen Vektorraum. Erfahre, wie du ''Entity Depth'' & Grounding für LLMs nutzt. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page-standard"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Entity Depth: Die Tiefe deiner Daten (Nesting) bestimmt deine Position im semantischen Vektorraum der KIs."
   - "Beweiskraft: Wer seine Entität unmissverständlich deklariert (Grounding), wird zur bevorzugten Quelle für Antworten."
 faqs:
-  - question: "Was ist 'Entity Depth' im modernen SEO?"
-    answer: "In 2026 ist dies die wichtigste Metrik für Autorität. Es geht nicht mehr um einfache Tags, sondern um die Verschachtelung von Informationen im Schema-Markup. Wenn du eine Person (Entität) markierst, verknüpfst du sie mit Organisationen, dem fachlichen Wissen ('knowsAbout'), Veröffentlichungen und sozialen Identitäten. Je 'tiefer' und vernetzter dieser Baum ist, desto höher ist deine Entity Depth – und damit dein Trust-Level bei KI-Agenten."
-  - question: "Wie optimiere ich für generative KIs (GEO) mittels Entity SEO?"
-    answer: "Indem du dich als unbestreitbarer Knotenpunkt im Wissensgraphen positionierst. Nutze den Groundingpage-Standard für eine glasklare Faktenlage deiner Marke. Verknüpfe diese mit hochgradig semantischem Content, der alle Facetten deines Kernthemas abdeckt. KI-Systeme ziehen ihre Antworten bevorzugt aus jenen Bruchstücken, die die höchste 'semantische Dichte' zu deiner Entität aufweisen."
-  - question: "Ist Keyword-Recherche im Entity SEO 2026 noch relevant?"
-    answer: "Ja, aber ihr Zweck hat sich geändert. Sie dient heute als Einstieg in die Intent-Analyse: Welche Fragen stellen die Nutzer? Keyword-Daten zeigen uns die Oberfläche, Entity SEO baut das Fundament darunter. Wir optimieren heute nicht mehr 'auf ein Wort', sondern wir 'besetzen ein Konzept' im digitalen Raum."
+  - question: 'Was ist ''Entity Depth'' im modernen SEO?'
+    answer: 'In 2026 ist dies die wichtigste Metrik für Autorität. Es geht nicht mehr um einfache Tags, sondern um die Verschachtelung von Informationen im Schema-Markup. Wenn du eine Person (Entität) markierst, verknüpfst du sie mit Organisationen, dem fachlichen Wissen (''knowsAbout''), Veröffentlichungen und sozialen Identitäten. Je ''tiefer'' und vernetzter dieser Baum ist, desto höher ist deine Entity Depth – und damit dein Trust-Level bei KI-Agenten.'
+  - question: 'Wie optimiere ich für generative KIs (GEO) mittels Entity SEO?'
+    answer: 'Indem du dich als unbestreitbarer Knotenpunkt im Wissensgraphen positionierst. Nutze den Groundingpage-Standard für eine glasklare Faktenlage deiner Marke. Verknüpfe diese mit hochgradig semantischem Content, der alle Facetten deines Kernthemas abdeckt. KI-Systeme ziehen ihre Antworten bevorzugt aus jenen Bruchstücken, die die höchste ''semantische Dichte'' zu deiner Entität aufweisen.'
+  - question: 'Ist Keyword-Recherche im Entity SEO 2026 noch relevant?'
+    answer: 'Ja, aber ihr Zweck hat sich geändert. Sie dient heute als Einstieg in die Intent-Analyse: Welche Fragen stellen die Nutzer? Keyword-Daten zeigen uns die Oberfläche, Entity SEO baut das Fundament darunter. Wir optimieren heute nicht mehr ''auf ein Wort'', sondern wir ''besetzen ein Konzept'' im digitalen Raum.'
 ---
 
 Moin!

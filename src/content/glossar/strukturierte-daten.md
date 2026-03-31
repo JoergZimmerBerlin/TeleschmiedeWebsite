@@ -1,6 +1,6 @@
 ---
-title: "Strukturierte Daten: AI-Grounding & LLM-Fütterung"
-description: "Strukturierte Daten (2026): Vom CMS-Plugin zur hochpräzisen Faktenquelle für KI-Modelle. Erfahre alles über AI-Grounding & Content Parity. ALOHA! 🌻"
+title: 'Strukturierte Daten: AI-Grounding & LLM-Fütterung'
+description: 'Strukturierte Daten (2026): Vom CMS-Plugin zur hochpräzisen Faktenquelle für KI-Modelle. Erfahre alles über AI-Grounding & Content Parity. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "grounding-page-standard", "knowledge-graph", "geo"]

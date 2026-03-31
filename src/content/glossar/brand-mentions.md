@@ -1,6 +1,6 @@
 ---
-title: "Brand Mentions: Markenwähnungen und SEO-Einfluss"
-description: "Brand Mentions sind Erwähnungen deiner Marke im Web – mit oder ohne Link. In der KI-Ära sind sie das neue Linkbuilding."
+title: 'Brand Mentions: Markenwähnungen und SEO-Einfluss'
+description: 'Brand Mentions sind Erwähnungen deiner Marke im Web – mit oder ohne Link. In der KI-Ära sind sie das neue Linkbuilding.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["mention", "citation", "markenaufbau-mit-seo", "pressearbeit-im-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Entity-Signal: Jede Brand Mention stärkt dein Profil als Entität im Knowledge Graph."
   - "LLM-Training: Erwähnungen in vertrauenswürdigen Quellen fließen in die Trainingsdaten von KI-Modellen ein."
 faqs:
-  - question: "Sind Brand Mentions genauso wertvoll wie Backlinks?"
-    answer: "In mancher Hinsicht sogar wertvoller! Backlinks kann man kaufen – Brand Mentions entstehen organisch, wenn jemand deinen Namen in einem positiven Kontext erwähnt. Google weiß, dass eine Erwähnung in einem Fachartikel oder einem Podcast schwerer zu manipulieren ist als ein gesetzter Link. Für KI-Modelle sind Brand Mentions sogar noch wichtiger als Links, weil LLMs keine Hyperlinks auswerten, sondern Textmuster analysieren."
-  - question: "Wie finde ich heraus, wo meine Marke erwähnt wird?"
-    answer: "Google Alerts ist die einfachste Methode: Richte einen Alert für deinen Markennamen ein und erhalte Benachrichtigungen bei jeder neuen Erwähnung. Für tiefere Analysen nutze Tools wie Brand24, Mention oder BrandMentions. Und vergiss nicht: In der Google Search Console unter 'Links' findest du Seiten, die auf dich verlinken – aber die unverlinkten Mentions musst du separat tracken."
-  - question: "Wie generiere ich mehr Brand Mentions?"
-    answer: "Die beste Strategie: Sei es wert, erwähnt zu werden. Publiziere eigene Daten und Studien. Sei in Podcasts und auf Konferenzen präsent. Teile kontroverse, aber fundierte Meinungen auf LinkedIn. Hilf anderen in Communities. Jeder dieser Touchpoints kann zu einer organischen Brand Mention führen. In meinem Fall haben Podcast-Auftritte und LinkedIn-Posts die meisten Mentions generiert."
+  - question: 'Sind Brand Mentions genauso wertvoll wie Backlinks?'
+    answer: 'In mancher Hinsicht sogar wertvoller! Backlinks kann man kaufen – Brand Mentions entstehen organisch, wenn jemand deinen Namen in einem positiven Kontext erwähnt. Google weiß, dass eine Erwähnung in einem Fachartikel oder einem Podcast schwerer zu manipulieren ist als ein gesetzter Link. Für KI-Modelle sind Brand Mentions sogar noch wichtiger als Links, weil LLMs keine Hyperlinks auswerten, sondern Textmuster analysieren.'
+  - question: 'Wie finde ich heraus, wo meine Marke erwähnt wird?'
+    answer: 'Google Alerts ist die einfachste Methode: Richte einen Alert für deinen Markennamen ein und erhalte Benachrichtigungen bei jeder neuen Erwähnung. Für tiefere Analysen nutze Tools wie Brand24, Mention oder BrandMentions. Und vergiss nicht: In der Google Search Console unter ''Links'' findest du Seiten, die auf dich verlinken – aber die unverlinkten Mentions musst du separat tracken.'
+  - question: 'Wie generiere ich mehr Brand Mentions?'
+    answer: 'Die beste Strategie: Sei es wert, erwähnt zu werden. Publiziere eigene Daten und Studien. Sei in Podcasts und auf Konferenzen präsent. Teile kontroverse, aber fundierte Meinungen auf LinkedIn. Hilf anderen in Communities. Jeder dieser Touchpoints kann zu einer organischen Brand Mention führen. In meinem Fall haben Podcast-Auftritte und LinkedIn-Posts die meisten Mentions generiert.'
 ---
 
 Moin!

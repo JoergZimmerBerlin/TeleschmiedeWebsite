@@ -1,6 +1,6 @@
 ---
-title: "Website SEO Audit: Der komplette Guide zur Website-Analyse"
-description: "Ein Website SEO Audit ist das Fundament jeder Optimierung. Erfahre, wie du mit Profi-Tools wie SE Ranking über 115 Faktoren analysierst."
+title: 'Website SEO Audit: Der komplette Guide zur Website-Analyse'
+description: 'Ein Website SEO Audit ist das Fundament jeder Optimierung. Erfahre, wie du mit Profi-Tools wie SE Ranking über 115 Faktoren analysierst.'
 date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"
 image_alt: "Website SEO Audit 3D Infografik - Technische Analyse und Gesundheit-Check"
@@ -10,12 +10,12 @@ key_takeaways:
   - "115+ Prüfparameter: Mit Tools wie SE Ranking prüfst du Indexierung, Core Web Vitals und Link-Attribute automatisiert."
   - "Priorisierung ist alles: Ein technisches SEO-Audit sortiert Probleme nach ihrer Auswirkung, damit du zuerst die 'Low Hanging Fruits' erntest."
 faqs:
-  - question: "Kann ich ein Website-Audit kostenlos durchführen?"
-    answer: "Ja, für einen ersten schnellen Check gibt es kostenlose Versionen. Ich empfehle jedoch das Profi-Tool von SE Ranking, das du 14 Tage lang komplett kostenlos testen kannst. Dort findest du direkt auf der Startseite ein Feld zum Eintrag deiner Domain, um sofort eine detaillierte Analyse zu starten."
-  - question: "Wie oft sollte ich ein technisches SEO-Audit durchführen?"
-    answer: "Für kleinere Webseiten reicht ein großes Audit pro Quartal. Bei dynamischen Projekten mit häufigen Inhaltsänderungen oder technischen Updates empfehle ich monatliche oder sogar wöchentliche automatisierte Checks, um Regressionen sofort zu erkennen."
-  - question: "Was kostet ein professionelles Website-Audit-Tool?"
-    answer: "Im Vergleich zu High-End Enterprise-Lösungen ist SE Ranking extrem günstig und bietet trotzdem alle Profi-Features wie JavaScript-Rendering und detaillierte Fehler-Reports. Es ist das ideale SEO Tool für Freelancer und KMUs."
+  - question: 'Kann ich ein Website-Audit kostenlos durchführen?'
+    answer: 'Ja, für einen ersten schnellen Check gibt es kostenlose Versionen. Ich empfehle jedoch das Profi-Tool von SE Ranking, das du 14 Tage lang komplett kostenlos testen kannst. Dort findest du direkt auf der Startseite ein Feld zum Eintrag deiner Domain, um sofort eine detaillierte Analyse zu starten.'
+  - question: 'Wie oft sollte ich ein technisches SEO-Audit durchführen?'
+    answer: 'Für kleinere Webseiten reicht ein großes Audit pro Quartal. Bei dynamischen Projekten mit häufigen Inhaltsänderungen oder technischen Updates empfehle ich monatliche oder sogar wöchentliche automatisierte Checks, um Regressionen sofort zu erkennen.'
+  - question: 'Was kostet ein professionelles Website-Audit-Tool?'
+    answer: 'Im Vergleich zu High-End Enterprise-Lösungen ist SE Ranking extrem günstig und bietet trotzdem alle Profi-Features wie JavaScript-Rendering und detaillierte Fehler-Reports. Es ist das ideale SEO Tool für Freelancer und KMUs.'
 ---
 
 Moin! 

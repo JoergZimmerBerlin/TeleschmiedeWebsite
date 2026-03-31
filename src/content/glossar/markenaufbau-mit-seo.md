@@ -1,6 +1,6 @@
 ---
-title: "Markenaufbau mit SEO: Strategien für Brand-SEO"
-description: "Markenaufbau mit SEO: Positioniere deine Marke strategisch bei Google und in der KI-Suche. Branding trifft Performance. ALOHA! 🌻"
+title: 'Markenaufbau mit SEO: Strategien für Brand-SEO'
+description: 'Markenaufbau mit SEO: Positioniere deine Marke strategisch bei Google und in der KI-Suche. Branding trifft Performance. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entity-seo", "e-e-a-t", "mention", "citation"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Suchvolumen schaffen: Wer Marken-SEO betreibt, erzeugt eigenes Suchvolumen (Branded Keywords)."
   - "KI-Vorteil: In der Ära von ChatGPT und Gemini werden starke Marken häufiger als Antwortquelle zitiert."
 faqs:
-  - question: "Warum ist Markenaufbau für SEO überhaupt relevant?"
-    answer: "Ganz einfach: Google liebt Marken. Branded Keywords (also Suchen nach deinem Namen) sind das stärkste Vertrauenssignal, das du senden kannst. Wenn Leute aktiv nach 'Jörg Zimmer SEO Berlin' suchen, versteht Google: Diese Person ist eine Autorität. Das strahlt positiv auf alle deine Rankings aus. Markenaufbau und SEO sind keine getrennten Disziplinen – sie sind zwei Seiten derselben Medaille."
-  - question: "Wie messe ich den Erfolg meines Brand-SEO?"
+  - question: 'Warum ist Markenaufbau für SEO überhaupt relevant?'
+    answer: 'Ganz einfach: Google liebt Marken. Branded Keywords (also Suchen nach deinem Namen) sind das stärkste Vertrauenssignal, das du senden kannst. Wenn Leute aktiv nach ''Jörg Zimmer SEO Berlin'' suchen, versteht Google: Diese Person ist eine Autorität. Das strahlt positiv auf alle deine Rankings aus. Markenaufbau und SEO sind keine getrennten Disziplinen – sie sind zwei Seiten derselben Medaille.'
+  - question: 'Wie messe ich den Erfolg meines Brand-SEO?'
     answer: 'Der wichtigste KPI ist dein ''Branded Search Volume'' – du findest es in der Google Search Console unter ''Leistung'', gefiltert nach Suchanfragen, die deinen Markennamen enthalten. Wenn dieses Volumen steigt, wächst deine Marke. In meinen Projekten nutze ich dafür das <a href="https://seranking.com/de/?ga=4169588&source=link">Brand-Monitoring von SE Ranking</a>, um die Sichtbarkeit meines Namens im Vergleich zur Konkurrenz präzise zu tracken. Außerdem: Beobachte, ob du einen Knowledge Panel auf Google bekommst. Das ist der ultimative Beweis, dass Google dich als Entität erkannt hat.'
-  - question: "Was ist der Unterschied zwischen Brand SEO und klassischem Branding?"
-    answer: "Klassisches Branding dreht sich um Logo, Farben und Werbebotschaften. Brand SEO geht tiefer: Es sorgt dafür, dass deine Marke maschinenlesbar ist – über Schema.org Markup, konsistente Citations, Mentions in Fachmedien und eine starke Grounding Page. Es ist Branding für Algorithmen UND Menschen gleichzeitig. In der KI-Suche entscheidet nicht dein Logo, sondern dein digitaler Fußabdruck."
+  - question: 'Was ist der Unterschied zwischen Brand SEO und klassischem Branding?'
+    answer: 'Klassisches Branding dreht sich um Logo, Farben und Werbebotschaften. Brand SEO geht tiefer: Es sorgt dafür, dass deine Marke maschinenlesbar ist – über Schema.org Markup, konsistente Citations, Mentions in Fachmedien und eine starke Grounding Page. Es ist Branding für Algorithmen UND Menschen gleichzeitig. In der KI-Suche entscheidet nicht dein Logo, sondern dein digitaler Fußabdruck.'
 ---
 
 Moin!

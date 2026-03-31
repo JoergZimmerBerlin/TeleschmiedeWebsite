@@ -1,6 +1,6 @@
 ---
-title: "Money Keywords: Suchbegriffe mit hoher Conversion"
-description: "Money Keywords sind Begriffe mit einer klaren Kaufabsicht. Hier erfährst du, wie du die rentabelsten Begriffe für dein Business findest."
+title: 'Money Keywords: Suchbegriffe mit hoher Conversion'
+description: 'Money Keywords sind Begriffe mit einer klaren Kaufabsicht. Hier erfährst du, wie du die rentabelsten Begriffe für dein Business findest.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp"
 image_alt: "Money Keyword 3D Infografik - Kaufabsicht und Umsatz"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Qualität vor Quantität: Weniger Suchvolumen, aber deutlich höhere Conversion-Raten."
   - "Wettbewerb: Die lukrativsten Begriffe sind meist hart umkämpft und erfordern top-notch E-E-A-T."
 faqs:
-  - question: "Was ist der genaue Unterschied zwischen Info- und Money-Keywords?"
-    answer: "Info-Keywords ('Was ist SEO?') spiegeln eine Informationsabsicht wider – der Nutzer recherchiert, lernt und steht ganz am Anfang seiner Customer Journey. Money-Keywords ('SEO Freelancer Berlin beauftragen') haben eine glasklare Transaktionsabsicht (Kaufintent). Der Nutzer weiß bereits, was er will, und hat die Kreditkarte quasi schon in der Hand. In meiner Beratung priorisieren wir immer zuerst die Money-Keywords, weil sie den direkten ROI für dein Unternehmen liefern."
-  - question: "Warum ist das monatliche Suchvolumen bei Money-Keywords oft zweitrangig?"
-    answer: "Weil Traffic nicht gleich Umsatz ist. Ich nehme jederzeit lieber 100 gezielte Klicks auf das Money-Keyword 'SEO Audit B2B buchen' als 10.000 Klicks auf 'SEO Tipps 2026'. Die Conversion-Rate bei spezifischen, transaktionalen Long-Tail-Keywords ist gigantisch viel höher. Ein Nischen-Keyword mit nur 50 Suchanfragen pro Monat kann dein profitabelster Kanal sein, wenn exakt dein Traumkunde danach sucht."
-  - question: "Wie finde ich die besten Money Keywords für mein Business?"
-    answer: "Verlass dich nicht nur auf klassische Keyword-Tools – die zeigen dir oft nur das Offensichtliche. Die besten Insights bekommst du aus deiner laufenden Google Ads Kampagne: Welche Suchbegriffe führen dort tatsächlich zu messbaren Conversions? Das sind deine echten Money Keywords. Analysiere das Wording deiner Kunden in Support-Mails oder Verkaufsgesprächen und schau in die Google Search Console, welche Queries aktuell den qualifiziertesten Traffic bringen."
+  - question: 'Was ist der genaue Unterschied zwischen Info- und Money-Keywords?'
+    answer: 'Info-Keywords (''Was ist SEO?'') spiegeln eine Informationsabsicht wider – der Nutzer recherchiert, lernt und steht ganz am Anfang seiner Customer Journey. Money-Keywords (''SEO Freelancer Berlin beauftragen'') haben eine glasklare Transaktionsabsicht (Kaufintent). Der Nutzer weiß bereits, was er will, und hat die Kreditkarte quasi schon in der Hand. In meiner Beratung priorisieren wir immer zuerst die Money-Keywords, weil sie den direkten ROI für dein Unternehmen liefern.'
+  - question: 'Warum ist das monatliche Suchvolumen bei Money-Keywords oft zweitrangig?'
+    answer: 'Weil Traffic nicht gleich Umsatz ist. Ich nehme jederzeit lieber 100 gezielte Klicks auf das Money-Keyword ''SEO Audit B2B buchen'' als 10.000 Klicks auf ''SEO Tipps 2026''. Die Conversion-Rate bei spezifischen, transaktionalen Long-Tail-Keywords ist gigantisch viel höher. Ein Nischen-Keyword mit nur 50 Suchanfragen pro Monat kann dein profitabelster Kanal sein, wenn exakt dein Traumkunde danach sucht.'
+  - question: 'Wie finde ich die besten Money Keywords für mein Business?'
+    answer: 'Verlass dich nicht nur auf klassische Keyword-Tools – die zeigen dir oft nur das Offensichtliche. Die besten Insights bekommst du aus deiner laufenden Google Ads Kampagne: Welche Suchbegriffe führen dort tatsächlich zu messbaren Conversions? Das sind deine echten Money Keywords. Analysiere das Wording deiner Kunden in Support-Mails oder Verkaufsgesprächen und schau in die Google Search Console, welche Queries aktuell den qualifiziertesten Traffic bringen.'
 ---
 
 ![Money Keyword 3D Infografik](../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp)

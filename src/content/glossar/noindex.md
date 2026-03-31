@@ -1,6 +1,6 @@
 ---
-title: "Noindex: Seiten von der Suche ausschließen"
-description: "Noindex Meta-Tag: So kontrollierst du, welche Seiten Google indexiert. Der wichtigste Befehl zum Schutz deines Indexing-Budgets. ALOHA! 🌻"
+title: 'Noindex: Seiten von der Suche ausschließen'
+description: 'Noindex Meta-Tag: So kontrollierst du, welche Seiten Google indexiert. Der wichtigste Befehl zum Schutz deines Indexing-Budgets. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["crawling-vs-indexing", "robots-txt", "seo-audit"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Index-Hygiene: Nutze Noindex für AGB, Impressum oder Thin Content, um die Relevanz zu steigern."
   - "Relaunch-Killer: Ein vergessenes Noindex auf dem Live-Server kann die gesamte Sichtbarkeit vernichten."
 faqs:
-  - question: "Wie baue ich das noindex-Tag technisch korrekt ein?"
-    answer: "Die gängigste Methode ist ein Meta-Tag im HTML-Head-Bereich: <meta name='robots' content='noindex'>. Alternativ (z.B. für PDFs) kann man den X-Robots-Tag als HTTP-Header setzen. In WordPress erledigen das Plugins wie Yoast oder RankMath per Klick. Bei meinen eigenen Astro-Projekten steuere ich das direkt im Code – so habe ich volle Kontrolle und keine Plugin-Abhängigkeit."
-  - question: "Welche Seiten meiner Website sollte ich konkret auf noindex setzen?"
-    answer: "Alles, was für einen Google-Nutzer keinen Mehrwert bietet: Dankesseiten (Thank-You-Pages), die nach Formulareingabe erscheinen, AGB/Impressum (rechtlich nötig, aber kein SEO-Wert), interne Suchergebnisseiten, Tag-Archive ohne Content, und veraltete 'Trend'-Artikel, die nur noch peinlich sind. ALOHA 🌻-Regel: Wenn du dich schämen würdest, einem Kunden die Seite zu zeigen – noindex!"
-  - question: "Darf ich noindex und eine robots.txt-Blockierung gleichzeitig verwenden?"
-    answer: "Diese Kombi ist der gefährlichste Fehler im technischen SEO! Wenn du eine URL per robots.txt sperrst, kann der Googlebot sie nicht mehr crawlen. Das bedeutet: Er sieht dein noindex-Tag gar nicht. Die Seite bleibt also als 'Zombie' im Index. Die sichere Methode: Crawling erlauben (keine Disallow-Regel) und NUR über das Meta-Tag noindex steuern. So kann Google die Seite lesen und den Befehl 'bitte raus aus dem Index' auch tatsächlich ausführen."
+  - question: 'Wie baue ich das noindex-Tag technisch korrekt ein?'
+    answer: 'Die gängigste Methode ist ein Meta-Tag im HTML-Head-Bereich: <meta name=''robots'' content=''noindex''>. Alternativ (z.B. für PDFs) kann man den X-Robots-Tag als HTTP-Header setzen. In WordPress erledigen das Plugins wie Yoast oder RankMath per Klick. Bei meinen eigenen Astro-Projekten steuere ich das direkt im Code – so habe ich volle Kontrolle und keine Plugin-Abhängigkeit.'
+  - question: 'Welche Seiten meiner Website sollte ich konkret auf noindex setzen?'
+    answer: 'Alles, was für einen Google-Nutzer keinen Mehrwert bietet: Dankesseiten (Thank-You-Pages), die nach Formulareingabe erscheinen, AGB/Impressum (rechtlich nötig, aber kein SEO-Wert), interne Suchergebnisseiten, Tag-Archive ohne Content, und veraltete ''Trend''-Artikel, die nur noch peinlich sind. ALOHA 🌻-Regel: Wenn du dich schämen würdest, einem Kunden die Seite zu zeigen – noindex!'
+  - question: 'Darf ich noindex und eine robots.txt-Blockierung gleichzeitig verwenden?'
+    answer: 'Diese Kombi ist der gefährlichste Fehler im technischen SEO! Wenn du eine URL per robots.txt sperrst, kann der Googlebot sie nicht mehr crawlen. Das bedeutet: Er sieht dein noindex-Tag gar nicht. Die Seite bleibt also als ''Zombie'' im Index. Die sichere Methode: Crawling erlauben (keine Disallow-Regel) und NUR über das Meta-Tag noindex steuern. So kann Google die Seite lesen und den Befehl ''bitte raus aus dem Index'' auch tatsächlich ausführen.'
 ---
 
 Moin!

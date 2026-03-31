@@ -1,6 +1,6 @@
 ---
-title: "Robots.txt: Anweisungen für Suchmaschinen-Crawler"
-description: "Die robots.txt steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse deiner Website zugreifen dürfen. ALOHA! 🌻"
+title: 'Robots.txt: Anweisungen für Suchmaschinen-Crawler'
+description: 'Die robots.txt steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse deiner Website zugreifen dürfen. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.webp"
 image_alt: "robots.txt 3D Infografik - Die Steuerung der Suchmaschinen-Crawler"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Keine Index-Garantie: Disallow in der robots.txt verhindert nicht die Indexierung, nur das Crawling."
   - "KI-Wächter: Über die robots.txt kannst du gezielt KI-Bots wie GPTBot blockieren oder erlauben."
 faqs:
-  - question: "Wo genau muss die robots.txt Datei auf meinem Server liegen?"
-    answer: "Sie muss zwingend im Root-Verzeichnis deiner Domain liegen. Beispiel: https://deinedomain.de/robots.txt – du kannst meine Datei sehr gerne als Referenz nutzen. Wenn sie in einem Unterordner steckt oder einen anderen Namen hat, findet kein Bot sie. Das ist einer der Fehler, die ich in meiner Sprechstunde ständig sehe."
-  - question: "Kann ich mit der robots.txt Seiten aus dem Google-Index entfernen?"
-    answer: "Nein, und das ist der häufigste und gefährlichste Irrtum im technischen SEO! Die robots.txt blockiert nur das Crawling – die Seite kann trotzdem im Index bleiben (nur ohne Beschreibung). Wenn du eine URL wirklich aus den Suchergebnissen entfernen willst, musst du das Noindex Meta-Tag setzen. Diesen Unterschied erkläre ich ausführlich im Glossar unter Crawling vs. Indexing."
-  - question: "Wie teste ich, ob meine robots.txt korrekt funktioniert?"
-    answer: "Google bietet dafür ein kostenloses Tool in der Google Search Console: Den 'robots.txt Tester'. Dort kannst du einzelne URLs eingeben und prüfen, ob sie blockiert oder erlaubt sind. Außerdem empfehle ich nach jedem Relaunch einen manuellen Check: Ruf einfach deinedomain.de/robots.txt im Browser auf und prüf die Regeln Zeile für Zeile. In meinem Setup blockiere ich klassischerweise nur irrelevante Verzeichnisse (wie Admin-Bereiche) und verlinke natürlich die Sitemap."
+  - question: 'Wo genau muss die robots.txt Datei auf meinem Server liegen?'
+    answer: 'Sie muss zwingend im Root-Verzeichnis deiner Domain liegen. Beispiel: https://deinedomain.de/robots.txt – du kannst meine Datei sehr gerne als Referenz nutzen. Wenn sie in einem Unterordner steckt oder einen anderen Namen hat, findet kein Bot sie. Das ist einer der Fehler, die ich in meiner Sprechstunde ständig sehe.'
+  - question: 'Kann ich mit der robots.txt Seiten aus dem Google-Index entfernen?'
+    answer: 'Nein, und das ist der häufigste und gefährlichste Irrtum im technischen SEO! Die robots.txt blockiert nur das Crawling – die Seite kann trotzdem im Index bleiben (nur ohne Beschreibung). Wenn du eine URL wirklich aus den Suchergebnissen entfernen willst, musst du das Noindex Meta-Tag setzen. Diesen Unterschied erkläre ich ausführlich im Glossar unter Crawling vs. Indexing.'
+  - question: 'Wie teste ich, ob meine robots.txt korrekt funktioniert?'
+    answer: 'Google bietet dafür ein kostenloses Tool in der Google Search Console: Den ''robots.txt Tester''. Dort kannst du einzelne URLs eingeben und prüfen, ob sie blockiert oder erlaubt sind. Außerdem empfehle ich nach jedem Relaunch einen manuellen Check: Ruf einfach deinedomain.de/robots.txt im Browser auf und prüf die Regeln Zeile für Zeile. In meinem Setup blockiere ich klassischerweise nur irrelevante Verzeichnisse (wie Admin-Bereiche) und verlinke natürlich die Sitemap.'
 ---
 
 Moin!

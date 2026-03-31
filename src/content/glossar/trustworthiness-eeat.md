@@ -1,6 +1,6 @@
 ---
-title: "Trustworthiness: E-E-A-T Vertrauen (Basis für KIs)"
-description: "Trustworthiness 2026: Warum Vertrauen der wichtigste Faktor für KI-Suchmaschinen ist. Halluzinations-Schutz durch Disambiguierung & Fakten. ALOHA! 🌻"
+title: 'Trustworthiness: E-E-A-T Vertrauen (Basis für KIs)'
+description: 'Trustworthiness 2026: Warum Vertrauen der wichtigste Faktor für KI-Suchmaschinen ist. Halluzinations-Schutz durch Disambiguierung & Fakten. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-trust-3d.webp"
 image_alt: "Trustworthiness (E-E-A-T) 3D Infografik - Vertrauen als Basis der KI-Optimierung"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Halluzinations-Schutz: Korrekte Daten reduzieren KI-Halluzinationen und machen dich zur bevorzugten Quelle."
   - "Disambiguierung: Klare Abgrenzung deiner Entität von anderen Marken stärkt das maschinelle Vertrauen."
 faqs:
-  - question: "Warum ist Trustworthiness 2026 der wichtigste Faktor?"
-    answer: "Weil KI-Modelle keine eigene Meinung haben – sie treffen Entscheidungen auf Basis von Wahrscheinlichkeiten. Vertrauen bedeutet für eine KI: 'Wie wahrscheinlich ist es, dass diese Information faktisch korrekt ist?' Ein hohes Trust-Level führt dazu, dass deine Inhalte als 'Grounding-Daten' für AI-Overviews und ChatGPT benutzt werden. Ohne Trust bist du für LLMs nur Rauschen."
-  - question: "Wie steigere ich das Vertrauen einer KI in meine Website?"
-    answer: "Indem du für maximale Transparenz und technische Sauberkeit sorgst. Nutze eine Groundingpage zur Faktendarstellung. Sorge für NAP-Konsistenz (Name, Address, Phone) über das gesamte Web. Verwende HTTPS und sichere deine Website gegen Manipulationen. KIs werten auch das Sentiment externer Bewertungen auf Plattformen wie Google Business Profile aus, um deine Vertrauenswürdigkeit zu berechnen."
-  - question: "Was ist 'Disambiguierung' im Kontext von Trust?"
-    answer: "Disambiguierung bedeutet Eindeutigkeit. Wenn es im Netz mehrere Firmen mit ähnlichem Namen gibt, muss die KI zweifelsfrei wissen, wer DU bist. Durch Schema.org IDs und sameAs-Verknüpfungen (LinkedIn, Wikidata) 'disambiguierst' du dein Profil. Wer für die Maschine unmissverständlich identifizierbar ist, bekommt einen höheren Trust-Score."
+  - question: 'Warum ist Trustworthiness 2026 der wichtigste Faktor?'
+    answer: 'Weil KI-Modelle keine eigene Meinung haben – sie treffen Entscheidungen auf Basis von Wahrscheinlichkeiten. Vertrauen bedeutet für eine KI: ''Wie wahrscheinlich ist es, dass diese Information faktisch korrekt ist?'' Ein hohes Trust-Level führt dazu, dass deine Inhalte als ''Grounding-Daten'' für AI-Overviews und ChatGPT benutzt werden. Ohne Trust bist du für LLMs nur Rauschen.'
+  - question: 'Wie steigere ich das Vertrauen einer KI in meine Website?'
+    answer: 'Indem du für maximale Transparenz und technische Sauberkeit sorgst. Nutze eine Groundingpage zur Faktendarstellung. Sorge für NAP-Konsistenz (Name, Address, Phone) über das gesamte Web. Verwende HTTPS und sichere deine Website gegen Manipulationen. KIs werten auch das Sentiment externer Bewertungen auf Plattformen wie Google Business Profile aus, um deine Vertrauenswürdigkeit zu berechnen.'
+  - question: 'Was ist ''Disambiguierung'' im Kontext von Trust?'
+    answer: 'Disambiguierung bedeutet Eindeutigkeit. Wenn es im Netz mehrere Firmen mit ähnlichem Namen gibt, muss die KI zweifelsfrei wissen, wer DU bist. Durch Schema.org IDs und sameAs-Verknüpfungen (LinkedIn, Wikidata) ''disambiguierst'' du dein Profil. Wer für die Maschine unmissverständlich identifizierbar ist, bekommt einen höheren Trust-Score.'
 ---
 
 Moin!

@@ -1,6 +1,6 @@
 ---
-title: "Authoritativeness: E-E-A-T Autorität (KI-Reputation)"
-description: "Authoritativeness 2026: Warum deine digitale Reputation wichtiger ist als jeder Backlink. Wie KIs echte Autorität im Knowledge Graph messen. ALOHA! 🌻"
+title: 'Authoritativeness: E-E-A-T Autorität (KI-Reputation)'
+description: 'Authoritativeness 2026: Warum deine digitale Reputation wichtiger ist als jeder Backlink. Wie KIs echte Autorität im Knowledge Graph messen. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 image_alt: "Authoritativeness (E-E-A-T) 3D Infografik - Digitale Reputation im KI-Zeitalter"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Knowledge Graph: Das Ziel ist eine feste Verankerung als unbestreitbare Quelle am Knotenpunkt eines Wissensgebiets."
   - "Citations als Währung: Co-Occurrence (Nennung deines Namens in Fachkontexten) schlägt klassische Backlinks."
 faqs:
-  - question: "Wie baue ich 2026 Authoritativeness auf?"
-    answer: "Autorität musst du dir verdienen – sie lässt sich im KI-Zeitalter nicht mehr durch Linkkauf erzwingen. Die stärksten Hebel sind: Fachpublikationen in Leitmedien, Podcast-Auftritte und die konsistente Nennung deines Namens im Kontext deines Fachgebiets (GEO-Optimierung). In meinem Fall stärken der SEOpresso-Podcast und die Präsenz auf der Campixx meine Autorität als SEO-Experte für KI."
-  - question: "Kann man KI-Autorität 2026 verlässlich messen?"
-    answer: "Ja, mit Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deine Author Authority über alle großen LLMs. Wir prüfen, wie oft dein Name oder deine Marke als Quelle für spezifische Fragen herangezogen wird und ob diese Empfehlungen in einem positiven fachlichen Kontext stehen."
-  - question: "Was ist der Unterschied zwischen Expertise und Autorität?"
-    answer: "Expertise ist das, was du KANNST (internes Signal). Authoritativeness ist das, was andere über dein Können SAGEN (externes Signal). Eine KI-Engine wird dich immer dann bevorzugt als Antwort ausspielen, wenn beides vorhanden ist: Du lieferst den Fakten-Content (Expertise) und das Web bestätigt deine Reputation (Autorität)."
+  - question: 'Wie baue ich 2026 Authoritativeness auf?'
+    answer: 'Autorität musst du dir verdienen – sie lässt sich im KI-Zeitalter nicht mehr durch Linkkauf erzwingen. Die stärksten Hebel sind: Fachpublikationen in Leitmedien, Podcast-Auftritte und die konsistente Nennung deines Namens im Kontext deines Fachgebiets (GEO-Optimierung). In meinem Fall stärken der SEOpresso-Podcast und die Präsenz auf der Campixx meine Autorität als SEO-Experte für KI.'
+  - question: 'Kann man KI-Autorität 2026 verlässlich messen?'
+    answer: 'Ja, mit Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deine Author Authority über alle großen LLMs. Wir prüfen, wie oft dein Name oder deine Marke als Quelle für spezifische Fragen herangezogen wird und ob diese Empfehlungen in einem positiven fachlichen Kontext stehen.'
+  - question: 'Was ist der Unterschied zwischen Expertise und Autorität?'
+    answer: 'Expertise ist das, was du KANNST (internes Signal). Authoritativeness ist das, was andere über dein Können SAGEN (externes Signal). Eine KI-Engine wird dich immer dann bevorzugt als Antwort ausspielen, wenn beides vorhanden ist: Du lieferst den Fakten-Content (Expertise) und das Web bestätigt deine Reputation (Autorität).'
 ---
 
 Moin!

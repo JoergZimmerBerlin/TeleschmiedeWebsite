@@ -1,6 +1,6 @@
 ---
-title: "AI Tracking Tools: Sichtbarkeit in der KI-Suche"
-description: "AI Tracking Tools messen deine Sichtbarkeit in KI-Antworten von ChatGPT, Perplexity, Gemini und Co. Ohne Messung keine Optimierung."
+title: 'AI Tracking Tools: Sichtbarkeit in der KI-Suche'
+description: 'AI Tracking Tools messen deine Sichtbarkeit in KI-Antworten von ChatGPT, Perplexity, Gemini und Co. Ohne Messung keine Optimierung.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "llmo", "sichtbarkeitsmanagement", "google-search-console"]
@@ -9,12 +9,12 @@ key_takeaways:
   - 'Multi-LLM: Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> tracken die Sichtbarkeit über 17+ verschiedene KI-Modelle.'
   - "Frühphase: Der AI-Tracking-Markt ist jung – wer jetzt trackt, hat einen Datenvorteil."
 faqs:
-  - question: "Welche AI Tracking Tools gibt es 2026?"
+  - question: 'Welche AI Tracking Tools gibt es 2026?'
     answer: 'Die wichtigsten sind <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> (trackt 17+ LLMs gleichzeitig, inklusive AI Visibility Score), Peec.ai (fokussiert auf Brand Mentions in KI-Antworten), Profound (trackt LLM-Zitate mit Quellenanalyse) und Otterly (überwacht KI-Antworten für definierte Keywords). Ich nutze selbst <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, weil es die breiteste LLM-Abdeckung hat und einen klaren AI Visibility Score liefert. Darüber habe ich ausführlich in meinem Blog geschrieben.'
-  - question: "Wie funktioniert AI Visibility Tracking technisch?"
-    answer: "Die Tools senden definierte Prompts (Suchanfragen) an verschiedene LLMs und analysieren die Antworten: Wird deine Marke erwähnt? Wird deine Website als Quelle verlinkt? Wie positiv ist der Kontext? Das passiert automatisiert und regelmäßig. Die Ergebnisse werden als 'AI Visibility Score' oder 'LLM Share of Voice' aggregiert. So siehst du über Wochen und Monate, ob deine GEO-Maßnahmen wirken."
-  - question: "Reicht die Google Search Console nicht für's Tracking?"
-    answer: "Nein, die Google Search Console trackt nur Google-Rankings und -Klicks. Sie zeigt dir nicht, ob ChatGPT dich zitiert, ob Perplexity deine Website als Quelle verwendet oder ob Gemini deinen Namen als Experte nennt. AI Tracking Tools schließen genau diese Lücke. Idealerweise nutzt du beides: Google Search Console für klassisches SEO-Tracking und ein AI Tracking Tool für GEO-Tracking."
+  - question: 'Wie funktioniert AI Visibility Tracking technisch?'
+    answer: 'Die Tools senden definierte Prompts (Suchanfragen) an verschiedene LLMs und analysieren die Antworten: Wird deine Marke erwähnt? Wird deine Website als Quelle verlinkt? Wie positiv ist der Kontext? Das passiert automatisiert und regelmäßig. Die Ergebnisse werden als ''AI Visibility Score'' oder ''LLM Share of Voice'' aggregiert. So siehst du über Wochen und Monate, ob deine GEO-Maßnahmen wirken.'
+  - question: 'Reicht die Google Search Console nicht für''s Tracking?'
+    answer: 'Nein, die Google Search Console trackt nur Google-Rankings und -Klicks. Sie zeigt dir nicht, ob ChatGPT dich zitiert, ob Perplexity deine Website als Quelle verwendet oder ob Gemini deinen Namen als Experte nennt. AI Tracking Tools schließen genau diese Lücke. Idealerweise nutzt du beides: Google Search Console für klassisches SEO-Tracking und ein AI Tracking Tool für GEO-Tracking.'
 ---
 
 Moin!

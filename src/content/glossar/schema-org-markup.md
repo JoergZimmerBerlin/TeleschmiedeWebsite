@@ -1,6 +1,6 @@
 ---
-title: "Schema.org Markup: Die Wissensbasis für KIs"
-description: "Schema.org ist 2026 mehr als nur SEO – es ist das globale Vokabular für KI-Agenten und LLMs. Erfahre alles über Entity Depth & Grounding. ALOHA! 🌻"
+title: 'Schema.org Markup: Die Wissensbasis für KIs'
+description: 'Schema.org ist 2026 mehr als nur SEO – es ist das globale Vokabular für KI-Agenten und LLMs. Erfahre alles über Entity Depth & Grounding. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"
 image_alt: "Schema.org Markup 3D Infografik - Wissensbasis für KIs"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Entity Depth: Tief verschachteltes Markup (Article -> Author -> Organization) beweist fachliche Tiefe und Autorität."
   - "Beweiskraft: Durch @id und sameAs Verknüpfungen lieferst du den 'Fakten-Anker' für das Grounding von KI-Antworten."
 faqs:
-  - question: "Welches Format ist 2026 für KI-Systeme am besten?"
-    answer: "JSON-LD bleibt der absolute Goldstandard. Es ist maschinenlesbar, hochgradig strukturierbar und lässt sich perfekt in moderne Headless-Architekturen integrieren. Auf teleschmie.de nutze ich JSON-LD, um Entitäten wie 'Person' und 'LocalBusiness' für KI-Crawler mundgerecht aufzubereiten. Ein Tipp für 2026: Nutze immer das '@graph'-Objekt, um mehrere Entitäten auf einer Seite logisch miteinander zu verknüpfen."
-  - question: "Kann eine KI falsches Schema-Markup erkennen?"
-    answer: "Ja, KI-Modelle sind 2026 extrem gut darin, Inkonsistenzen zwischen dem sichtbaren Text und dem Schema-Code zu finden (Content Parity Check). Wenn dein Schema Dinge behauptet, die auf der Seite nicht stehen, wertet die KI dies als unzuverlässige Quelle. Das schadet nicht nur deinem Ranking bei Google, sondern führt dazu, dass du aus dem Wissensmodell der LLMs 'rausfliegst'."
-  - question: "Brauche ich für GEO spezielles Schema-Markup?"
-    answer: "Nicht zwingend 'spezielles' Markup, aber eine höhere 'Entity Depth'. Während früher einfache Tags reichten, erwarten generative Engines heute ein Netz aus Informationen. Verknüpfe deine Produkte mit Rezensionen, Herstellern und verwandten Themen. Je mehr valide Kanten dein Wissensgraph hat, desto öfter wirst du als Quelle zitiert. Nutze Tools wie Rankscale, um deine KI-Sichtbarkeit zu validieren."
+  - question: 'Welches Format ist 2026 für KI-Systeme am besten?'
+    answer: 'JSON-LD bleibt der absolute Goldstandard. Es ist maschinenlesbar, hochgradig strukturierbar und lässt sich perfekt in moderne Headless-Architekturen integrieren. Auf teleschmie.de nutze ich JSON-LD, um Entitäten wie ''Person'' und ''LocalBusiness'' für KI-Crawler mundgerecht aufzubereiten. Ein Tipp für 2026: Nutze immer das ''@graph''-Objekt, um mehrere Entitäten auf einer Seite logisch miteinander zu verknüpfen.'
+  - question: 'Kann eine KI falsches Schema-Markup erkennen?'
+    answer: 'Ja, KI-Modelle sind 2026 extrem gut darin, Inkonsistenzen zwischen dem sichtbaren Text und dem Schema-Code zu finden (Content Parity Check). Wenn dein Schema Dinge behauptet, die auf der Seite nicht stehen, wertet die KI dies als unzuverlässige Quelle. Das schadet nicht nur deinem Ranking bei Google, sondern führt dazu, dass du aus dem Wissensmodell der LLMs ''rausfliegst''.'
+  - question: 'Brauche ich für GEO spezielles Schema-Markup?'
+    answer: 'Nicht zwingend ''spezielles'' Markup, aber eine höhere ''Entity Depth''. Während früher einfache Tags reichten, erwarten generative Engines heute ein Netz aus Informationen. Verknüpfe deine Produkte mit Rezensionen, Herstellern und verwandten Themen. Je mehr valide Kanten dein Wissensgraph hat, desto öfter wirst du als Quelle zitiert. Nutze Tools wie Rankscale, um deine KI-Sichtbarkeit zu validieren.'
 ---
 
 

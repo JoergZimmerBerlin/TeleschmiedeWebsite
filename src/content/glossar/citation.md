@@ -1,6 +1,6 @@
 ---
-title: "Citation (Zitierung): Bedeutung für Local SEO"
-description: "Citations in der KI-Ära: Warum Markenerwähnungen ohne Link entscheidend dafür sind, ob ChatGPT & Gemini dich als Experten zitieren. ALOHA! 🌻"
+title: 'Citation (Zitierung): Bedeutung für Local SEO'
+description: 'Citations in der KI-Ära: Warum Markenerwähnungen ohne Link entscheidend dafür sind, ob ChatGPT & Gemini dich als Experten zitieren. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["mention", "entitaet", "markenaufbau-mit-seo", "geo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "NAP-Konsistenz: Einheitliche Daten (Name, Adresse, Tel) sind die Basis für Google-Vertrauen."
   - "Co-Occurrence: Je öfter dein Name im Kontext deines Fachgebiets erscheint, desto stärker deine Entität."
 faqs:
-  - question: "Muss eine Citation zwingend einen klickbaren Link enthalten?"
-    answer: "Ganz klares Nein! Das ist ja gerade der Witz an Citations. Google ist mittlerweile intelligent genug, um Erwähnungen deiner Marke (Name, Adresse, Telefonnummer) auch ohne Hyperlink zuzuordnen. Solche 'Unstructured Citations' dienen als Validierung deiner Entität. Je öfter du in einem vertrauenswürdigen Kontext ohne Link genannt wirst, desto mehr 'brand authority' baust du auf."
-  - question: "Welche Citations haben den größten Einfluss auf mein Ranking?"
-    answer: "Die Basis ist immer ein perfekt gepflegtes Google Business Profile. Danach folgen die 'Big Players' wie Bing Places, Apple Maps und Branchen-Riesen wie Gelbe Seiten oder das Örtliche. Aber Vorsicht: Den echten SEO-Boost bringen oft themenspezifische Nischen-Portale oder lokale Nachrichtenartikel. Eine Citation in einem PDF der IHK Berlin ist oft mehr wert als zehn Standard-Einträge in Spam-Verzeichnissen."
-  - question: "Wie finde und korrigiere ich fehlerhafte Citations effektiv?"
-    answer: "Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein 'nice to have', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut."
+  - question: 'Muss eine Citation zwingend einen klickbaren Link enthalten?'
+    answer: 'Ganz klares Nein! Das ist ja gerade der Witz an Citations. Google ist mittlerweile intelligent genug, um Erwähnungen deiner Marke (Name, Adresse, Telefonnummer) auch ohne Hyperlink zuzuordnen. Solche ''Unstructured Citations'' dienen als Validierung deiner Entität. Je öfter du in einem vertrauenswürdigen Kontext ohne Link genannt wirst, desto mehr ''brand authority'' baust du auf.'
+  - question: 'Welche Citations haben den größten Einfluss auf mein Ranking?'
+    answer: 'Die Basis ist immer ein perfekt gepflegtes Google Business Profile. Danach folgen die ''Big Players'' wie Bing Places, Apple Maps und Branchen-Riesen wie Gelbe Seiten oder das Örtliche. Aber Vorsicht: Den echten SEO-Boost bringen oft themenspezifische Nischen-Portale oder lokale Nachrichtenartikel. Eine Citation in einem PDF der IHK Berlin ist oft mehr wert als zehn Standard-Einträge in Spam-Verzeichnissen.'
+  - question: 'Wie finde und korrigiere ich fehlerhafte Citations effektiv?'
+    answer: 'Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein ''nice to have'', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut.'
 ---
 
 

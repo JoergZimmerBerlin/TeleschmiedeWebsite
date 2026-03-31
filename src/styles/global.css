@@ -128,11 +128,11 @@
 }
 
 .prose p {
-  @apply !mb-4 !text-gray-text;
+  @apply !mb-4;
 }
 
 .prose ul {
-  @apply !mb-4 !ml-6 !list-disc !text-gray-text;
+  @apply !mb-4 !ml-6 !list-disc;
 }
 
 .prose li {

@@ -1,6 +1,6 @@
 ---
-title: "Die Überstunde Berlin: Networking-Event für die Digitalszene"
-description: "Die Überstunde ist das After-Work-Event in Berlin für Macher und Kreative. Ein Ort für entspanntes Networking fernab von steifen Visitenkarten-Partys."
+title: 'Die Überstunde Berlin: Networking-Event für die Digitalszene'
+description: 'Die Überstunde ist das After-Work-Event in Berlin für Macher und Kreative. Ein Ort für entspanntes Networking fernab von steifen Visitenkarten-Partys.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-stammtisch-berlin", "campixx-berlin", "local-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Branchen-Mix: Triff Leute aus Marketing, Tech, Design und Management."
   - "Präsenz vor Ort: Echte Kontakte in der Berliner Wirtschaft knüpfen."
 faqs:
-  - question: "An wen richtet sich das Netzwerkevent 'Überstunde'?"
-    answer: "Das Event ist offen für alle, die in der pulsierenden Berliner Wirtschaft und der Startup-Szene aktiv sind – egal ob DAX-Konzernlenker, frischgründender Entrepreneur oder Freelancer. Der entscheidende Fokus liegt auf der Haltung: Die Macher der Überstunde legen extrem viel Wert auf offene, unkomplizierte Begegnungen auf Augenhöhe. Hier geht es nicht um plumpe Pitch-Kultur und Visitenkarten-Quartett, sondern um echte, menschliche Verbindungen in der Metropole."
-  - question: "Muss man für die Überstunde Berlin etwas Besonderes vorbereiten?"
-    answer: "Absolut nicht, und das ist das Schöne daran. Lass deine PowerPoints und lauten Sales-Pitches zu Hause. Komm einfach mit einer neugierigen Einstellung, einer gewissen Offenheit und einem Feierabend-Drink in der Hand vorbei. Die besten und nachhaltigsten Business-Kontakte habe ich in der Überstunde genau dann geknüpft, wenn wir nicht direkt über das nächste große Projekt, sondern über gemeinsame Visionen und Herausforderungen sprachen."
-  - question: "Wo genau finden die Treffen der Überstunde statt?"
-    answer: "Es gibt keine feste 'Stammkneipe'. Die Locations wechseln regelmäßig und führen dich quer durch die angesagtesten, spannendsten oder auch verborgensten Business- und Kultur-Spots in ganz Berlin. Dieses stetige Rotieren sorgt nicht nur für frische Eindrücke, sondern bringt auch immer wieder neue, interessante Menschen aus den unterschiedlichsten Kiezen und Industrien zusammen."
+  - question: 'An wen richtet sich das Netzwerkevent ''Überstunde''?'
+    answer: 'Das Event ist offen für alle, die in der pulsierenden Berliner Wirtschaft und der Startup-Szene aktiv sind – egal ob DAX-Konzernlenker, frischgründender Entrepreneur oder Freelancer. Der entscheidende Fokus liegt auf der Haltung: Die Macher der Überstunde legen extrem viel Wert auf offene, unkomplizierte Begegnungen auf Augenhöhe. Hier geht es nicht um plumpe Pitch-Kultur und Visitenkarten-Quartett, sondern um echte, menschliche Verbindungen in der Metropole.'
+  - question: 'Muss man für die Überstunde Berlin etwas Besonderes vorbereiten?'
+    answer: 'Absolut nicht, und das ist das Schöne daran. Lass deine PowerPoints und lauten Sales-Pitches zu Hause. Komm einfach mit einer neugierigen Einstellung, einer gewissen Offenheit und einem Feierabend-Drink in der Hand vorbei. Die besten und nachhaltigsten Business-Kontakte habe ich in der Überstunde genau dann geknüpft, wenn wir nicht direkt über das nächste große Projekt, sondern über gemeinsame Visionen und Herausforderungen sprachen.'
+  - question: 'Wo genau finden die Treffen der Überstunde statt?'
+    answer: 'Es gibt keine feste ''Stammkneipe''. Die Locations wechseln regelmäßig und führen dich quer durch die angesagtesten, spannendsten oder auch verborgensten Business- und Kultur-Spots in ganz Berlin. Dieses stetige Rotieren sorgt nicht nur für frische Eindrücke, sondern bringt auch immer wieder neue, interessante Menschen aus den unterschiedlichsten Kiezen und Industrien zusammen.'
 ---
 
 Moin!

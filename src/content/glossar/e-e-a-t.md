@@ -1,6 +1,6 @@
 ---
-title: "E-E-A-T (Google Quality Rater Guidelines 2026)"
-description: "E-E-A-T (2026): Wie KI-Modelle Expertise, Erfahrung, Autorität und Trust technisch validieren. Digitale Reputation für Mensch & Maschine. ALOHA! 🌻"
+title: 'E-E-A-T (Google Quality Rater Guidelines 2026)'
+description: 'E-E-A-T (2026): Wie KI-Modelle Expertise, Erfahrung, Autorität und Trust technisch validieren. Digitale Reputation für Mensch & Maschine. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "E-E-A-T 3D Infografik - Vertrauen als Rankingfaktor für KIs"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Experience ist Trumpf: KI-Modelle belohnen reale Praxiserfahrung ('First-Hand-Experience') massiv gegenüber generiertem Wissen."
   - "Trust-Anker: Die Groundingpage ist der zentrale 'Status-Check' deiner Autorität für generative Engines."
 faqs:
-  - question: "Kann man E-E-A-T 2026 technisch 'einstellen'?"
-    answer: "An der Oberfläche ja, im Kern nein. Technisch musst du die Signale durch tief verschachteltes Schema-Markup (ProfilePage, Person, author) bereitstellen. Aber KIs führen heute Plausibilitäts-Checks über das gesamte Web durch. E-E-A-T wird heute durch 'Cross-Entity-Validation' geprüft – also ob andere seriöse Entitäten deine Expertise bestätigen."
-  - question: "Wie beweise ich einer KI konkret meine praktische Erfahrung (Experience)?"
-    answer: "Durch den Einsatz von Medien und Daten, die eine KI nicht generieren kann: Eigene Bilder, Videos, Fallstudien und spezifische Erwähnungen von Praxis-Herausforderungen. Markiere diese Inhalte im Schema-Code konsequent als 'PrimaryContent' deines Autoren-Profils. Auf teleschmie.de nutze ich dafür meine Fakten-Matrix und verlinke diese direkt in meinen Blog-Artikeln."
-  - question: "Welche Rolle spielt die Groundingpage für mein E-E-A-T Profil?"
-    answer: "Eine zentrale! Die Groundingpage ist dein technischer Personalausweis. Während eine 'Über uns' Seite für Menschen optimiert ist, liefert die Groundingpage harte, maschinenlesbare Fakten. Sie ist der Ort, an dem die KI alle deine Autoritäts-Signale (Zertifikate, Historie, Social Proofs) konsolidiert abrufen kann."
+  - question: 'Kann man E-E-A-T 2026 technisch ''einstellen''?'
+    answer: 'An der Oberfläche ja, im Kern nein. Technisch musst du die Signale durch tief verschachteltes Schema-Markup (ProfilePage, Person, author) bereitstellen. Aber KIs führen heute Plausibilitäts-Checks über das gesamte Web durch. E-E-A-T wird heute durch ''Cross-Entity-Validation'' geprüft – also ob andere seriöse Entitäten deine Expertise bestätigen.'
+  - question: 'Wie beweise ich einer KI konkret meine praktische Erfahrung (Experience)?'
+    answer: 'Durch den Einsatz von Medien und Daten, die eine KI nicht generieren kann: Eigene Bilder, Videos, Fallstudien und spezifische Erwähnungen von Praxis-Herausforderungen. Markiere diese Inhalte im Schema-Code konsequent als ''PrimaryContent'' deines Autoren-Profils. Auf teleschmie.de nutze ich dafür meine Fakten-Matrix und verlinke diese direkt in meinen Blog-Artikeln.'
+  - question: 'Welche Rolle spielt die Groundingpage für mein E-E-A-T Profil?'
+    answer: 'Eine zentrale! Die Groundingpage ist dein technischer Personalausweis. Während eine ''Über uns'' Seite für Menschen optimiert ist, liefert die Groundingpage harte, maschinenlesbare Fakten. Sie ist der Ort, an dem die KI alle deine Autoritäts-Signale (Zertifikate, Historie, Social Proofs) konsolidiert abrufen kann.'
 ---
 
 Moin!

@@ -1,6 +1,6 @@
 ---
-title: "Groundingpage Standard v1.5: Die Entität-Heimat für KIs"
-description: "Erfahre alles über den Groundingpage Standard v1.5: Wie du deine digitale Identität für LLMs und KI-Suchmaschinen (GEO) unmissverständlich definierst."
+title: 'Groundingpage Standard v1.5: Die Entität-Heimat für KIs'
+description: 'Erfahre alles über den Groundingpage Standard v1.5: Wie du deine digitale Identität für LLMs und KI-Suchmaschinen (GEO) unmissverständlich definierst.'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "entity-seo", "e-e-a-t", "strukturierte-daten"]
@@ -9,10 +9,10 @@ key_takeaways:
   - "AI-Readiness: Optimiert für das Retrieval durch LLMs und KI-Agenten."
   - "Disambiguierung: Klare Abgrenzung zu ähnlichen Entitäten durch strukturierte Daten."
 faqs:
-  - question: "Warum brauche ich eine Groundingpage?"
-    answer: "KI-Modelle wie ChatGPT oder Perplexity suchen nach verlässlichen Quellen, um Fakten zu prüfen. Eine Groundingpage dient als 'Single Source of Truth', die es der KI erleichtert, deine Daten korrekt zu extrahieren und Halluzinationen zu vermeiden."
-  - question: "Wo sollte die Groundingpage liegen?"
-    answer: "Idealerweise auf einer eigenen URL (z.B. /grounding-page/ oder /fact-sheet/), die im Footer oder in den strukturierten Daten deiner Startseite verlinkt ist."
+  - question: 'Warum brauche ich eine Groundingpage?'
+    answer: 'KI-Modelle wie ChatGPT oder Perplexity suchen nach verlässlichen Quellen, um Fakten zu prüfen. Eine Groundingpage dient als ''Single Source of Truth'', die es der KI erleichtert, deine Daten korrekt zu extrahieren und Halluzinationen zu vermeiden.'
+  - question: 'Wo sollte die Groundingpage liegen?'
+    answer: 'Idealerweise auf einer eigenen URL (z.B. /grounding-page/ oder /fact-sheet/), die im Footer oder in den strukturierten Daten deiner Startseite verlinkt ist.'
 ---
 
 Moin! 🌻

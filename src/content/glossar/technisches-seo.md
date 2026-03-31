@@ -1,6 +1,6 @@
 ---
-title: "Technisches, Inhaltliches & Strategisches SEO"
-description: "Die drei Säulen des SEO-Erfolgs. Erfahre, wie technisches Fundament, exzellenter Content und eine smarte Strategie ineinandergreifen."
+title: 'Technisches, Inhaltliches & Strategisches SEO'
+description: 'Die drei Säulen des SEO-Erfolgs. Erfahre, wie technisches Fundament, exzellenter Content und eine smarte Strategie ineinandergreifen.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-tech-seo-3d.webp"
 image_alt: "Technisches SEO 3D Infografik - Fundament und Architektur"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Content is King: Inhaltliches SEO beantwortet Nutzerfragen und baut Vertrauen auf."
   - "Strategie führt: Strategisches SEO bündelt Ressourcen für maximalen ROI."
 faqs:
-  - question: "Was ist im SEO wichtiger: Die Technik oder der Content?"
-    answer: "Keines von beiden schlägt das andere – sie bedingen einander. Technisches SEO ist die Eintrittskarte zur Party, grandioser Content ist der Grund, warum du bleibst und kaufst. Ohne eine saubere technische Basis wird der beste Content der Welt von Google nicht richtig gecrawlt oder indexiert. Umgekehrt nützt dir ein PageSpeed von 100 nichts, wenn dein Text die Suchintention der Nutzer komplett verfehlt. In meinen Audits sorge ich dafür, dass beide Säulen perfekt ineinandergreifen."
-  - question: "Wann brauche ich echtes technisches SEO?"
-    answer: "Spatestens bei einem Website-Relaunch, wenn du das CMS wechselst oder wenn du plötzlich unerklärliche Traffic-Einbrüche hast. Auch wenn du Content publizierst, der einfach nicht in den Index aufgenommen wird (Status: 'Gecrawlt – zurzeit nicht indexiert'), steckt oft ein technisches Problem dahinter. Für kleine WordPress-Blogs reicht oft ein sauberes Setup, aber bei großen Shops oder komplexen JavaScript-Frameworks ist technisches SEO pure Existenzsicherung."
-  - question: "Was macht ein technischer SEO Spezialist konkret?"
-    answer: "Ein Technical SEO orchestriert die Kommunikation zwischen deiner Website und den Crawlern der Suchmaschinen. Wir analysieren Server-Logs, optimieren die Crawl-Budget-Steuerung, beheben Rendering-Probleme bei JavaScript und strukturieren komplexe XML-Sitemaps. Kurz gesagt: Wir räumen die Steine aus dem Weg, damit Google deinen Content schnell, fehlerfrei und vollständig erfassen kann."
+  - question: 'Was ist im SEO wichtiger: Die Technik oder der Content?'
+    answer: 'Keines von beiden schlägt das andere – sie bedingen einander. Technisches SEO ist die Eintrittskarte zur Party, grandioser Content ist der Grund, warum du bleibst und kaufst. Ohne eine saubere technische Basis wird der beste Content der Welt von Google nicht richtig gecrawlt oder indexiert. Umgekehrt nützt dir ein PageSpeed von 100 nichts, wenn dein Text die Suchintention der Nutzer komplett verfehlt. In meinen Audits sorge ich dafür, dass beide Säulen perfekt ineinandergreifen.'
+  - question: 'Wann brauche ich echtes technisches SEO?'
+    answer: 'Spatestens bei einem Website-Relaunch, wenn du das CMS wechselst oder wenn du plötzlich unerklärliche Traffic-Einbrüche hast. Auch wenn du Content publizierst, der einfach nicht in den Index aufgenommen wird (Status: ''Gecrawlt – zurzeit nicht indexiert''), steckt oft ein technisches Problem dahinter. Für kleine WordPress-Blogs reicht oft ein sauberes Setup, aber bei großen Shops oder komplexen JavaScript-Frameworks ist technisches SEO pure Existenzsicherung.'
+  - question: 'Was macht ein technischer SEO Spezialist konkret?'
+    answer: 'Ein Technical SEO orchestriert die Kommunikation zwischen deiner Website und den Crawlern der Suchmaschinen. Wir analysieren Server-Logs, optimieren die Crawl-Budget-Steuerung, beheben Rendering-Probleme bei JavaScript und strukturieren komplexe XML-Sitemaps. Kurz gesagt: Wir räumen die Steine aus dem Weg, damit Google deinen Content schnell, fehlerfrei und vollständig erfassen kann.'
 ---
 
 Moin!

@@ -1,6 +1,6 @@
 ---
-title: "ChatGPT SEO: Strategien für Sichtbarkeit in KI"
-description: "ChatGPT SEO: Wie du deine Marke in OpenAI's SearchGPT und ChatGPT sichtbar machst. Alles über Stability, Citations und den RankScale AI Tracker. ALOHA! 🌻"
+title: 'ChatGPT SEO: Strategien für Sichtbarkeit in KI'
+description: 'ChatGPT SEO: Wie du deine Marke in OpenAI''s SearchGPT und ChatGPT sichtbar machst. Alles über Stability, Citations und den RankScale AI Tracker. ALOHA! 🌻'
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-chatgpt-seo-3d.png"
 image_alt: "ChatGPT SEO 3D Infografik - Analyse der Sichtbarkeit und Citations in KI-Antworten"
@@ -8,15 +8,15 @@ key_takeaways:
   - "Search Query Fanout: ChatGPT SEO erfordert das Testen hunderter semantischer Varianten einer Suchanfrage, da die KI bei minimalen Nuancen völlig anders antwortet."
   - "Mention vs. Citation: Es reicht nicht, nur im Text erwähnt zu werden. Das Ziel ist die 'Citation' – eine klickbare Quellenangabe, die wertvollen Traffic liefert."
   - "Stability Tracking: KI-Rankings fluktuieren extrem. Nur wer die 'Stabilität' über Zeit misst, kann echte strategische Erfolge von statistischem Rauschen unterscheiden."
-tacheles: "Wer denkt, ChatGPT SEO sei nur 'SEO mit einem anderen Namen', der hat den Schuss nicht gehört. Wir optimieren hier nicht für einen starren Algorithmus, sondern für eine dynamische Reasoning Engine. Wer hier nicht misst, der rät nur – und wer rät, der verliert."
+tacheles: 'Wer denkt, ChatGPT SEO sei nur ''SEO mit einem anderen Namen'', der hat den Schuss nicht gehört. Wir optimieren hier nicht für einen starren Algorithmus, sondern für eine dynamische Reasoning Engine. Wer hier nicht misst, der rät nur – und wer rät, der verliert.'
 related_terms: ["geo", "aeo", "rag", "citation", "llmo"]
 faqs:
-  - question: "Was ist der wichtigste Rankingfaktor für ChatGPT SEO?"
+  - question: 'Was ist der wichtigste Rankingfaktor für ChatGPT SEO?'
     answer: 'Es gibt nicht den ''einen'' Faktor, aber zwei Dinge ragen heraus: Relevanz (RAG-Fähigkeit) und Citations. ChatGPT (bzw. SearchGPT) sucht nach Inhalten, die sich präzise in seine Antwort-Chunks integrieren lassen. Dabei spielt das sogenannte ''Sentiment'' eine enorme Rolle: Wird deine Marke als hilfreiche Lösung oder nur als neutrales Beispiel genannt? Der wichtigste technische Hebel ist die Bereitstellung von <a href="/glossar/strukturierte-daten/">strukturierte Daten</a> und klar abgegrenzten Info-Bausteinen.'
-  - question: "Wie unterscheidet sich ChatGPT SEO von klassischem Google SEO?"
-    answer: "Google optimiert für die '10 blauen Links' und Nutzerklicks auf die eigene Plattform. ChatGPT optimiert für die 'direkte Antwort'. Während du bei Google versuchst, für ein Keyword auf Platz 1 zu kommen, versuchst du bei ChatGPT, als *die* autoritative Quelle in einer generierten Antwort zitiert zu werden. Ein massiver Unterschied ist das 'Tracking': Bei Google hast du feste Positionen, bei ChatGPT hast du 'Visibility Scores' und 'Mentions' über unzählige semantische Variationen hinweg."
-  - question: "Warum fluktuieren meine Rankings in ChatGPT so stark?"
-    answer: "Willkommen in der Welt der LLMs! Das Phänomen nennen wir mangelnde 'Stability'. Da generative Modelle probabilistisch (wahrscheinlichkeitsbasiert) arbeiten, kann die gleiche Abfrage heute zu einer Citation führen und morgen nicht einmal deinen Namen erwähnen. Deshalb ist das Tracking der 'Stability' (wie oft tauche ich bei 100 Abfragen auf?) so entscheidend. Ein einmaliger Treffer ist kein Erfolg, sondern Glück. Strategie beginnt bei der Wiederholbarkeit."
+  - question: 'Wie unterscheidet sich ChatGPT SEO von klassischem Google SEO?'
+    answer: 'Google optimiert für die ''10 blauen Links'' und Nutzerklicks auf die eigene Plattform. ChatGPT optimiert für die ''direkte Antwort''. Während du bei Google versuchst, für ein Keyword auf Platz 1 zu kommen, versuchst du bei ChatGPT, als *die* autoritative Quelle in einer generierten Antwort zitiert zu werden. Ein massiver Unterschied ist das ''Tracking'': Bei Google hast du feste Positionen, bei ChatGPT hast du ''Visibility Scores'' und ''Mentions'' über unzählige semantische Variationen hinweg.'
+  - question: 'Warum fluktuieren meine Rankings in ChatGPT so stark?'
+    answer: 'Willkommen in der Welt der LLMs! Das Phänomen nennen wir mangelnde ''Stability''. Da generative Modelle probabilistisch (wahrscheinlichkeitsbasiert) arbeiten, kann die gleiche Abfrage heute zu einer Citation führen und morgen nicht einmal deinen Namen erwähnen. Deshalb ist das Tracking der ''Stability'' (wie oft tauche ich bei 100 Abfragen auf?) so entscheidend. Ein einmaliger Treffer ist kein Erfolg, sondern Glück. Strategie beginnt bei der Wiederholbarkeit.'
 ---
 
 Moin! 🌻

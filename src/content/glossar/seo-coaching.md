@@ -1,6 +1,6 @@
 ---
-title: "SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg"
-description: "SEO Coaching macht dich unabhängig von Agenturen. Lerne die Tools und Strategien, um dein eigenes SEO zu beurteilen und zu steuern."
+title: 'SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg'
+description: 'SEO Coaching macht dich unabhängig von Agenturen. Lerne die Tools und Strategien, um dein eigenes SEO zu beurteilen und zu steuern.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Praxis statt Theorie: Ein guter Coach löst DEINE Probleme, nicht generische Textbuch-Fälle."
   - "ROI: Die Fähigkeit, SEO selbst zu beurteilen, spart dir langfristig tausende Euro."
 faqs:
-  - question: "Was ist der Unterschied zwischen SEO Coaching und SEO Beratung?"
-    answer: "Bei einer SEO Beratung sage ich dir, was du tun sollst. Beim SEO Coaching bringe ich dir bei, es SELBST zu verstehen. Du lernst, die Google Search Console zu lesen, technische Probleme zu erkennen und Content-Entscheidungen datenbasiert zu treffen. Nach einem Coaching-Zyklus brauchst du keinen Berater mehr für die Basics – du brauchst ihn nur noch für die Strategie."
-  - question: "Für wen ist SEO Coaching geeignet?"
-    answer: "Für drei Zielgruppen: Geschäftsführer, die verstehen wollen, was ihre Agentur tut. Inhouse-Marketer, die SEO-Kompetenz aufbauen wollen. Und Freelancer, die ihre eigene Website optimieren wollen, aber nicht wissen wo sie anfangen. In meiner Sprechstunde arbeite ich oft mit allen drei Gruppen."
-  - question: "Wie läuft ein SEO Coaching bei Jörg Zimmer ab?"
-    answer: "Wir starten mit einem Ist-Analyse-Call. Dann erstelle ich einen individuellen Coaching-Plan. In Sessions alle 2 Wochen arbeiten wir an deinen Themen: Search Console, Content-Strategie, technische Basis. Zwischen den Sessions bekommst du Hausaufgaben. Ziel: Nach 3-6 Monaten kannst du 80% deines SEO selbst bewerten."
+  - question: 'Was ist der Unterschied zwischen SEO Coaching und SEO Beratung?'
+    answer: 'Bei einer SEO Beratung sage ich dir, was du tun sollst. Beim SEO Coaching bringe ich dir bei, es SELBST zu verstehen. Du lernst, die Google Search Console zu lesen, technische Probleme zu erkennen und Content-Entscheidungen datenbasiert zu treffen. Nach einem Coaching-Zyklus brauchst du keinen Berater mehr für die Basics – du brauchst ihn nur noch für die Strategie.'
+  - question: 'Für wen ist SEO Coaching geeignet?'
+    answer: 'Für drei Zielgruppen: Geschäftsführer, die verstehen wollen, was ihre Agentur tut. Inhouse-Marketer, die SEO-Kompetenz aufbauen wollen. Und Freelancer, die ihre eigene Website optimieren wollen, aber nicht wissen wo sie anfangen. In meiner Sprechstunde arbeite ich oft mit allen drei Gruppen.'
+  - question: 'Wie läuft ein SEO Coaching bei Jörg Zimmer ab?'
+    answer: 'Wir starten mit einem Ist-Analyse-Call. Dann erstelle ich einen individuellen Coaching-Plan. In Sessions alle 2 Wochen arbeiten wir an deinen Themen: Search Console, Content-Strategie, technische Basis. Zwischen den Sessions bekommst du Hausaufgaben. Ziel: Nach 3-6 Monaten kannst du 80% deines SEO selbst bewerten.'
 ---
 
 Moin!

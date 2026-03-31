@@ -1,6 +1,6 @@
 ---
-title: "GEO Audit: Check für deine KI-Sichtbarkeit"
-description: "GEO Audit: Warum klassische SEO-Audits bei ChatGPT & Co. versagen. Erfahre alles über den Perfect Mix Auditor und die 7 Säulen der KI-Optimierung. ALOHA! 🌻"
+title: 'GEO Audit: Check für deine KI-Sichtbarkeit'
+description: 'GEO Audit: Warum klassische SEO-Audits bei ChatGPT & Co. versagen. Erfahre alles über den Perfect Mix Auditor und die 7 Säulen der KI-Optimierung. ALOHA! 🌻'
 date: "2026-03-18"
 image: "../../assets/images/glossar/3d-light/glossar-geo-audit-3d.webp"
 image_alt: "GEO Audit 3D Infografik - Analyse der KI-Sichtbarkeit und Human Trust"
@@ -8,15 +8,15 @@ key_takeaways:
   - "Deterministische Analyse: Ein GEO Audit nutzt regelbasierte Module statt unzuverlässiger LLMs, um die KI-Crawlbar- und Zitierfähigkeit zu prüfen."
   - "Human Trust & AI Citation: Der Kern eines modernen Audits ist die Balance zwischen Inhalten für Menschen (E-E-A-T) und Strukturen für KIs (RAG/Schema)."
   - "Deep-Dive Klassifizierung: Seiten werden in 8 Typen (z. B. YMYL, Local) unterteilt, um spezifische GEO-Rankingfaktoren chirurgisch genau zu optimieren."
-tacheles: "Ein GEO Audit ohne Daten ist wie eine Meinung ohne Ahnung. Wer heute noch rät, was die KI über ihn denkt, der spielt Russisch Roulette mit seinem Business. Wir brauchen harte, deterministische Fakten, keine vagen Vorhersagen."
+tacheles: 'Ein GEO Audit ohne Daten ist wie eine Meinung ohne Ahnung. Wer heute noch rät, was die KI über ihn denkt, der spielt Russisch Roulette mit seinem Business. Wir brauchen harte, deterministische Fakten, keine vagen Vorhersagen.'
 related_terms: ["geo", "aeo", "rag", "entitaet"]
 faqs:
-  - question: "Was ist der Unterschied zwischen einem klassischen SEO Audit und einem GEO Audit?"
-    answer: "Ein klassisches SEO Audit konzentriert sich primär auf die '10 blauen Links' von Google – also Crawlability für den Googlebot, PageSpeed, Keyword-Dichte und Linkprofile. Ein GEO Audit (Generative Engine Optimization Audit) geht weit darüber hinaus. Es analysiert, wie gut deine Inhalte von 'Reasoning Engines' wie ChatGPT, Perplexity oder Gemini verstanden und als Faktenquelle für generative Antworten extrahiert werden können. Hier spielen Faktoren wie die RAG-Fähigkeit (Retrieval-Augmented Generation), die semantische Eindeutigkeit (Disambiguierung) und der sogenannte Subjectivity-Filter (Vermeidung von Marketing-Floskeln) eine entscheidende Rolle. Kurz gesagt: SEO Audit = Gefunden werden; GEO Audit = Zitiert werden."
-  - question: "Warum nutzt RankScale für das GEO Audit keine LLMs in der Kern-Engine?"
-    answer: "Das ist ein entscheidender Punkt für die Verlässlichkeit. Wer ein LLM (wie GPT-4) nutzt, um eine Webseite zu bewerten, erhält bei jeder Abfrage leicht unterschiedliche, nicht-deterministische Ergebnisse. Das ist für ein professionelles Audit inakzeptabel. Die Engine von RankScale arbeitet daher vollständig regelbasiert und deterministisch. Sie nutzt Parser für JSON-LD, Microdata und semantische Textanalysen, um knallharte Fakten über die Datenqualität zu liefern. So stellen wir sicher, dass eine Optimierungsempfehlung auf messbaren Standards basiert und nicht auf der 'Tagesform' einer KI-Halluzination."
-  - question: "Was bedeutet der Status 'AI-Trap' in einem GEO Audit-Bericht?"
-    answer: "Der Status 'AI-Trap' (KI-Falle) warnt vor Webseiten, die zwar technisch für Suchmaschinen optimiert sind, aber inhaltlich so 'flach' oder generisch klingen, dass sie von KI-Modellen als minderwertig oder rein werblich eingestuft werden. Oft passiert das, wenn Content massenhaft ohne menschliche Kontrolle KI-generiert wurde (Pfusch am Bau!). Das Ergebnis: Die Seite bekommt zwar vielleicht noch Rankings, wird aber von generativen Engines wie Perplexity nicht als vertrauenswürdige Quelle zitiert, weil sie keinen echten E-E-A-T Mehrwert liefert. Ein GEO Audit hilft dabei, diese Fallen zu identifizieren und den Inhalt wieder Richtung 'Perfect Mix' zu schieben."
+  - question: 'Was ist der Unterschied zwischen einem klassischen SEO Audit und einem GEO Audit?'
+    answer: 'Ein klassisches SEO Audit konzentriert sich primär auf die ''10 blauen Links'' von Google – also Crawlability für den Googlebot, PageSpeed, Keyword-Dichte und Linkprofile. Ein GEO Audit (Generative Engine Optimization Audit) geht weit darüber hinaus. Es analysiert, wie gut deine Inhalte von ''Reasoning Engines'' wie ChatGPT, Perplexity oder Gemini verstanden und als Faktenquelle für generative Antworten extrahiert werden können. Hier spielen Faktoren wie die RAG-Fähigkeit (Retrieval-Augmented Generation), die semantische Eindeutigkeit (Disambiguierung) und der sogenannte Subjectivity-Filter (Vermeidung von Marketing-Floskeln) eine entscheidende Rolle. Kurz gesagt: SEO Audit = Gefunden werden; GEO Audit = Zitiert werden.'
+  - question: 'Warum nutzt RankScale für das GEO Audit keine LLMs in der Kern-Engine?'
+    answer: 'Das ist ein entscheidender Punkt für die Verlässlichkeit. Wer ein LLM (wie GPT-4) nutzt, um eine Webseite zu bewerten, erhält bei jeder Abfrage leicht unterschiedliche, nicht-deterministische Ergebnisse. Das ist für ein professionelles Audit inakzeptabel. Die Engine von RankScale arbeitet daher vollständig regelbasiert und deterministisch. Sie nutzt Parser für JSON-LD, Microdata und semantische Textanalysen, um knallharte Fakten über die Datenqualität zu liefern. So stellen wir sicher, dass eine Optimierungsempfehlung auf messbaren Standards basiert und nicht auf der ''Tagesform'' einer KI-Halluzination.'
+  - question: 'Was bedeutet der Status ''AI-Trap'' in einem GEO Audit-Bericht?'
+    answer: 'Der Status ''AI-Trap'' (KI-Falle) warnt vor Webseiten, die zwar technisch für Suchmaschinen optimiert sind, aber inhaltlich so ''flach'' oder generisch klingen, dass sie von KI-Modellen als minderwertig oder rein werblich eingestuft werden. Oft passiert das, wenn Content massenhaft ohne menschliche Kontrolle KI-generiert wurde (Pfusch am Bau!). Das Ergebnis: Die Seite bekommt zwar vielleicht noch Rankings, wird aber von generativen Engines wie Perplexity nicht als vertrauenswürdige Quelle zitiert, weil sie keinen echten E-E-A-T Mehrwert liefert. Ein GEO Audit hilft dabei, diese Fallen zu identifizieren und den Inhalt wieder Richtung ''Perfect Mix'' zu schieben.'
 ---
 
 Moin! 🌻

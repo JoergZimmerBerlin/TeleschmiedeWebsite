@@ -1,6 +1,6 @@
 ---
-title: "Suchvolumen (Search Volume): Nachfrage verstehen"
-description: "Suchvolumen zeigt dir, wie viele Menschen monatlich nach einem Begriff suchen. Ein wichtiger Indikator, aber oft überschätzt."
+title: 'Suchvolumen (Search Volume): Nachfrage verstehen'
+description: 'Suchvolumen zeigt dir, wie viele Menschen monatlich nach einem Begriff suchen. Ein wichtiger Indikator, aber oft überschätzt.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp"
 related_terms: ["keywoerter", "keyword-tool", "sichtbarkeit"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Relevanz vor Masse: Wenige, hochkonvertierende Klicks sind wertvoller als tausende irrelevante Besucher."
   - "Zero-Click-Gefahr: Ein hohes Volumen führt heute oft zu keinen Klicks, da Google die Antwort direkt liefert."
 faqs:
-  - question: "Wie genau und verlässlich sind die Suchvolumen-Daten in gängigen SEO-Tools?"
-    answer: "Grundsätzlich sind fast alle Zahlen in Sistrix, Ahrefs oder SE Ranking berechnete Schätzwerte, die meist auf Clickstream-Daten basieren. Nur der offizielle Google Keyword Planner nutzt die direkten Google-Datenböcke – und auch dort gruppiert Google extrem viele Nuancen und Synonyme in grobe Cluster (die berühmten 'Suchvolumen-Klassen'). Mein Rat in Consulting-Projekten: Nutze das Suchvolumen als relativen Kompass, um Prioritäten zwischen Themen zu setzen, nicht als absolute Finanzprognose."
-  - question: "Sollte ich Keywords mit '0 Suchvolumen' grundsätzlich ignorieren?"
-    answer: "Auf keinen Fall, das wäre ein massiver strategischer Fehler. Wenn du aus deinen Kunden-E-Mails, Support-Gesprächen oder LinkedIn-Dialogen weißt, dass eine spezifische Frage extrem oft gestellt wird, baue dazu Content – auch wenn Sistrix '0' anzeigt. Gerade im B2B-Umfeld oder bei brandneuen Themen (KI, GEO, LLMs) hinken die Keyword-Tools oft Monate hinter der realen Marktdynamik her. Frühe Relevanz zahlt sich hier mehr aus als das Warten auf messbare Daten."
-  - question: "Ab welcher Zahl ist ein monatliches Suchvolumen eigentlich 'gut'?"
-    answer: "Es gibt keine allgemein gültige magische Zahl – es hängt zu 100% von der Suchintention und der Gewinnmarge deiner Branche ab. Wenn du als B2B-Spezialmaschinenbauer ein Keyword mit hochexplizitem Kaufintent bedienst, reichen schon 50 Suchen im Monat, um sechsstellige Umsätze zu triggern. In der extrem kompetitiven und margenschwachen Entertainment- oder Fashion-Nische würden dir 10.000 Suchen vielleicht nicht einmal die Hostingkosten einspielen."
+  - question: 'Wie genau und verlässlich sind die Suchvolumen-Daten in gängigen SEO-Tools?'
+    answer: 'Grundsätzlich sind fast alle Zahlen in Sistrix, Ahrefs oder SE Ranking berechnete Schätzwerte, die meist auf Clickstream-Daten basieren. Nur der offizielle Google Keyword Planner nutzt die direkten Google-Datenböcke – und auch dort gruppiert Google extrem viele Nuancen und Synonyme in grobe Cluster (die berühmten ''Suchvolumen-Klassen''). Mein Rat in Consulting-Projekten: Nutze das Suchvolumen als relativen Kompass, um Prioritäten zwischen Themen zu setzen, nicht als absolute Finanzprognose.'
+  - question: 'Sollte ich Keywords mit ''0 Suchvolumen'' grundsätzlich ignorieren?'
+    answer: 'Auf keinen Fall, das wäre ein massiver strategischer Fehler. Wenn du aus deinen Kunden-E-Mails, Support-Gesprächen oder LinkedIn-Dialogen weißt, dass eine spezifische Frage extrem oft gestellt wird, baue dazu Content – auch wenn Sistrix ''0'' anzeigt. Gerade im B2B-Umfeld oder bei brandneuen Themen (KI, GEO, LLMs) hinken die Keyword-Tools oft Monate hinter der realen Marktdynamik her. Frühe Relevanz zahlt sich hier mehr aus als das Warten auf messbare Daten.'
+  - question: 'Ab welcher Zahl ist ein monatliches Suchvolumen eigentlich ''gut''?'
+    answer: 'Es gibt keine allgemein gültige magische Zahl – es hängt zu 100% von der Suchintention und der Gewinnmarge deiner Branche ab. Wenn du als B2B-Spezialmaschinenbauer ein Keyword mit hochexplizitem Kaufintent bedienst, reichen schon 50 Suchen im Monat, um sechsstellige Umsätze zu triggern. In der extrem kompetitiven und margenschwachen Entertainment- oder Fashion-Nische würden dir 10.000 Suchen vielleicht nicht einmal die Hostingkosten einspielen.'
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Website Relaunch: SEO-Rettung vor Pfusch"
-description: "Website Relaunch SEO: Warum 90% aller Relaunches Sichtbarkeit kosten und wie du mit dem richtigen Redirection-Plan dein Ranking rettest. ALOHA! 🌻"
+title: 'Website Relaunch: SEO-Rettung vor Pfusch'
+description: 'Website Relaunch SEO: Warum 90% aller Relaunches Sichtbarkeit kosten und wie du mit dem richtigen Redirection-Plan dein Ranking rettest. ALOHA! 🌻'
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-website-relaunch-3d.png"
 image_alt: "Website Relaunch SEO 3D Infografik - Planung, Migration und Sichtbarkeits-Check"
@@ -8,16 +8,16 @@ key_takeaways:
   - "301-Redirects sind kein 'Nice-to-Have': Wer ohne einen lückenlosen Weiterleitungsplan relauncht, begeht digitalen Selbstmord. Alte URLs müssen zwingend auf die neuen Pendants zeigen."
   - "Content-Audit vor Design-Fokus: Ein neues Kleid hilft nichts, wenn der Körper krank ist. Nutze den Relaunch, um 'Content-Müll' zu entsorgen und wertvolle Seiten zu stärken."
   - "Technisches SEO-Fundament: Ein Relaunch ist die Chance, Altlasten wie schlechte PageSpeed-Werte, kaputte Strukturen oder fehlendes Schema-Markup ein für alle Mal zu eliminieren."
-tacheles: "Ein Website-Relaunch ohne SEO-Begleitung ist wie ein Hausbau ohne Statiker. Es sieht am Anfang vielleicht schick aus, aber beim ersten kleinen Windstoß (oder Google Update) bricht die Hütte zusammen. Wer erst nach dem Livegang merkt, dass der Traffic weg ist, hat den 'Pfusch am Bau' bereits perfektioniert."
+tacheles: 'Ein Website-Relaunch ohne SEO-Begleitung ist wie ein Hausbau ohne Statiker. Es sieht am Anfang vielleicht schick aus, aber beim ersten kleinen Windstoß (oder Google Update) bricht die Hütte zusammen. Wer erst nach dem Livegang merkt, dass der Traffic weg ist, hat den ''Pfusch am Bau'' bereits perfektioniert.'
 related_terms: ["seo-audit", "301-redirect", "pagespeed", "strukturierte-daten", "sichtbarkeit"]
 faqs:
-  - question: "Wann ist der beste Zeitpunkt für einen Relaunch?"
-    answer: "Technisch gesehen: Dann, wenn du Zeit für eine saubere Überwachung hast. Aber mein digitaler Senior-Rat lautet: Niemals am Freitagnachmittag! Ein Relaunch ist wie eine Operation am offenen Herzen. Du willst nicht, dass dein Team im Wochenende ist, wenn die 'Deutsche Bahn' der Technik mal wieder zuschlägt. Idealerweise legst du den Go-Live auf einen Dienstag oder Mittwoch Vormittag, damit du 48 Stunden vollen Support hast."
-  - question: "Verliere ich beim Relaunch automatisch meine Google-Rankings?"
+  - question: 'Wann ist der beste Zeitpunkt für einen Relaunch?'
+    answer: 'Technisch gesehen: Dann, wenn du Zeit für eine saubere Überwachung hast. Aber mein digitaler Senior-Rat lautet: Niemals am Freitagnachmittag! Ein Relaunch ist wie eine Operation am offenen Herzen. Du willst nicht, dass dein Team im Wochenende ist, wenn die ''Deutsche Bahn'' der Technik mal wieder zuschlägt. Idealerweise legst du den Go-Live auf einen Dienstag oder Mittwoch Vormittag, damit du 48 Stunden vollen Support hast.'
+  - question: 'Verliere ich beim Relaunch automatisch meine Google-Rankings?'
     answer: 'Das absolute Horror-Szenario: Die organische Sichtbarkeit bricht um 50% oder mehr ein, weil Google die neuen URLs nicht den alten Inhalten zuordnen kann. Ohne einen sauberen Redirection-Plan (301-Weiterleitungen) ''vergisst'' Google deine Autorität. In meiner <a href="/seo-freelancer-berlin/">SEO Beratung</a> ist das der kritischste Punkt. Pfusch am Bau wird hier sofort bestraft – deine Konkurrenz freut sich über deinen Traffic-Verlust. Ein kleiner, kurzzeitiger Knick in der <a href="/glossar/sichtbarkeit/">Sichtbarkeit</a> ist normal, aber ein Totalabsturz ist immer ein Zeichen für handwerkliche Fehler.'
-  - question: "Was ist wichtiger: Design oder SEO?"
-    answer: "Das ist die dümmste Frage der Welt. Ein schönes Design, das niemand findet, ist nutzlos. Ein hässliches Design, das rankt, verliert Nutzer. Die Wahrheit liegt im 'Perfect Mix'. Aber wenn du mich fragst: SEO ist das Fundament. Wenn der Crawler deine Seite nicht versteht oder die URL-Struktur im Eimer ist, hilft dir auch das beste User Interface nicht mehr weiter. Zuerst die Strategie, dann die Farben."
-  - question: "Warum brauche ich ein Staging-System?"
+  - question: 'Was ist wichtiger: Design oder SEO?'
+    answer: 'Das ist die dümmste Frage der Welt. Ein schönes Design, das niemand findet, ist nutzlos. Ein hässliches Design, das rankt, verliert Nutzer. Die Wahrheit liegt im ''Perfect Mix''. Aber wenn du mich fragst: SEO ist das Fundament. Wenn der Crawler deine Seite nicht versteht oder die URL-Struktur im Eimer ist, hilft dir auch das beste User Interface nicht mehr weiter. Zuerst die Strategie, dann die Farben.'
+  - question: 'Warum brauche ich ein Staging-System?'
     answer: 'Wer direkt am Live-System ''fummelt'', spielt Russisch Roulette mit seinem Business. Ein Staging-System ist deine Sandbox. Hier testen wir, ob die <a href="/glossar/interne-verlinkung/">interne Verlinkung</a> passt, ob das Schema-Markup fehlerfrei ist und ob die Performance stimmt. Erst wenn dort alles ''Green Flags'' zeigt, ziehen wir den Hebel um.'
 ---
 

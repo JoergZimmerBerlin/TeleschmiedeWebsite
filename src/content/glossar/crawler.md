@@ -1,6 +1,6 @@
 ---
-title: "Crawler & Search Bots: Die Internet-Arbeiter"
-description: "Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst."
+title: 'Crawler & Search Bots: Die Internet-Arbeiter'
+description: 'Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"
 image_alt: "Crawler 3D Infografik - Suchmaschinen Bots"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Link-Navigation: Sie bewegen sich primär über Hyperlinks von Seite zu Seite."
   - "Crawl-Budget: Begrenzte Ressourcen bedeuten, dass du Prioritäten setzen musst."
 faqs:
-  - question: "Welche Crawler sind neben dem Googlebot 2026 noch wichtig?"
-    answer: "Der Googlebot ist der König, aber er teilt sich das Spielfeld zunehmend mit anderen Playern. Der Bingbot ist extrem wichtig geworden, da Bing die Backend-Suchmaschine für viele KI-Dienste (wie Copilot) stellt. Dazu kommen branchenspezifische Bots wie der Applebot (für Siri und Spotlight) und natürlich die KI-Crawler wie GPTBot (OpenAI) oder ClaudeBot (Anthropic), die deine Inhalte für ihre Large Language Models crawlen. Wer hier den Praktikanten dransetzt , verpasst die KI-Revolution!"
-  - question: "Wie oft besucht ein Crawler meine Seite?"
-    answer: "Das Crawl-Budget, also die Frequenz der Besuche, hängt direkt von der Autorität, der Aktualisierungsrate und der Serverkapazität deiner Website ab. Große News-Portale werden sekündlich besucht. Wenn du hingegen auf einem kleinen B2B-Blog nur einmal im Quartal etwas veröffentlichst, schaut der Crawler oft über Wochen nicht vorbei. Mit einer sauberen XML-Sitemap und Ping-Funktionen kannst du diesen Rhythmus positiv beeinflussen. ALOHA 🌻-Tipp: Sei nützlich, dann kommt der Bot auch öfter!"
-  - question: "Kann man Crawler aktiv aussperren?"
-    answer: "Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird. Aber Vorsicht: Wer hier pfuscht (Pfusch am Bau ), verschwindet komplett aus der Suche."
+  - question: 'Welche Crawler sind neben dem Googlebot 2026 noch wichtig?'
+    answer: 'Der Googlebot ist der König, aber er teilt sich das Spielfeld zunehmend mit anderen Playern. Der Bingbot ist extrem wichtig geworden, da Bing die Backend-Suchmaschine für viele KI-Dienste (wie Copilot) stellt. Dazu kommen branchenspezifische Bots wie der Applebot (für Siri und Spotlight) und natürlich die KI-Crawler wie GPTBot (OpenAI) oder ClaudeBot (Anthropic), die deine Inhalte für ihre Large Language Models crawlen. Wer hier den Praktikanten dransetzt , verpasst die KI-Revolution!'
+  - question: 'Wie oft besucht ein Crawler meine Seite?'
+    answer: 'Das Crawl-Budget, also die Frequenz der Besuche, hängt direkt von der Autorität, der Aktualisierungsrate und der Serverkapazität deiner Website ab. Große News-Portale werden sekündlich besucht. Wenn du hingegen auf einem kleinen B2B-Blog nur einmal im Quartal etwas veröffentlichst, schaut der Crawler oft über Wochen nicht vorbei. Mit einer sauberen XML-Sitemap und Ping-Funktionen kannst du diesen Rhythmus positiv beeinflussen. ALOHA 🌻-Tipp: Sei nützlich, dann kommt der Bot auch öfter!'
+  - question: 'Kann man Crawler aktiv aussperren?'
+    answer: 'Ja, das ist sogar ein massives Instrument in der technischen SEO. Über die robots.txt kannst du spezifischen Bots den Zugriff auf bestimmte Verzeichnisse (z.B. den Admin-Bereich) knallhart verbieten. Gerade aktuell sperren viele Publisher gezielt KI-Bots wie den GPTBot aus, um zu verhindern, dass ihr hart erarbeiteter Content kostenlos für das Training von KI-Modellen abgegriffen wird. Aber Vorsicht: Wer hier pfuscht (Pfusch am Bau ), verschwindet komplett aus der Suche.'
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-title: "SEO Stammtisch Berlin: Netzwerken Hauptstadt"
-description: "Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf Augenhöhe."
+title: 'SEO Stammtisch Berlin: Netzwerken Hauptstadt'
+description: 'Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf Augenhöhe.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["campixx-berlin", "ueberstunde-berlin", "sichtbarkeit"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Kein Bullshit: Ehrlicher Austausch über Erfolge und (vor allem) Fails."
   - "Regelmäßigkeit: Monatliche Treffen für nachhaltigen Beziehungsaufbau."
 faqs:
-  - question: "Wer kann an einem SEO Stammtisch in Berlin eigentlich teilnehmen?"
-    answer: "Der Stammtisch ist ein extrem offenes Format und genau das macht ihn so authentisch. Hier sitzen gestandene Senior SEOs von internationalen Konzernen (wie Zalando) entspannt neben motivierten Freelancern und Agentur-Neulingen. Voraussetzung ist lediglich ein echtes professionelles Interesse an der Suchmaschinenoptimierung. Wer hingegen nur aufschlägt, um plumpe Vertriebspitches zu halten oder aggressive Agentur-Akquise zu betreiben, fliegt sozial sehr schnell aus der Kurve."
-  - question: "Was kostet die Teilnahme am SEO Stammtisch?"
-    answer: "Nichts. Und das ist ein ehernes, ungeschriebenes Gesetz der lokalen SEO-Community. Es gibt keine elitären Eintrittsgebühren, VIP-Tickets oder versteckte Speaker-Kosten. Der Stammtisch lebt davon, dass er niederschwellig und zugänglich bleibt. Du zahlst in der jeweiligen Location (Kneipe, Agentur-Büro) lediglich das, was du an dem Abend selbst isst oder trinkst – der gigantische Wissenstransfer ist absolut gratis."
-  - question: "Wo und wie oft finden diese Treffen statt?"
-    answer: "Der Rhythmus pegelt sich organisch meist auf ein entspanntes, monatliches Treffen ein. Die Locations variieren dabei durch die gesamte Hauptstadt. Die genauen Termine, Updates und spontanen Location-Wechsel laufen heute fast ausschließlich dezentral über LinkedIn, spezielle Xing-Gruppen oder Eventbrite. Ein heißer Tipp: Folge den bekannten Berliner SEO-Gesichtern auf LinkedIn, um rechtzeitig einen der sehr begehrten Plätze zu sichern."
+  - question: 'Wer kann an einem SEO Stammtisch in Berlin eigentlich teilnehmen?'
+    answer: 'Der Stammtisch ist ein extrem offenes Format und genau das macht ihn so authentisch. Hier sitzen gestandene Senior SEOs von internationalen Konzernen (wie Zalando) entspannt neben motivierten Freelancern und Agentur-Neulingen. Voraussetzung ist lediglich ein echtes professionelles Interesse an der Suchmaschinenoptimierung. Wer hingegen nur aufschlägt, um plumpe Vertriebspitches zu halten oder aggressive Agentur-Akquise zu betreiben, fliegt sozial sehr schnell aus der Kurve.'
+  - question: 'Was kostet die Teilnahme am SEO Stammtisch?'
+    answer: 'Nichts. Und das ist ein ehernes, ungeschriebenes Gesetz der lokalen SEO-Community. Es gibt keine elitären Eintrittsgebühren, VIP-Tickets oder versteckte Speaker-Kosten. Der Stammtisch lebt davon, dass er niederschwellig und zugänglich bleibt. Du zahlst in der jeweiligen Location (Kneipe, Agentur-Büro) lediglich das, was du an dem Abend selbst isst oder trinkst – der gigantische Wissenstransfer ist absolut gratis.'
+  - question: 'Wo und wie oft finden diese Treffen statt?'
+    answer: 'Der Rhythmus pegelt sich organisch meist auf ein entspanntes, monatliches Treffen ein. Die Locations variieren dabei durch die gesamte Hauptstadt. Die genauen Termine, Updates und spontanen Location-Wechsel laufen heute fast ausschließlich dezentral über LinkedIn, spezielle Xing-Gruppen oder Eventbrite. Ein heißer Tipp: Folge den bekannten Berliner SEO-Gesichtern auf LinkedIn, um rechtzeitig einen der sehr begehrten Plätze zu sichern.'
 ---
 
 Moin!

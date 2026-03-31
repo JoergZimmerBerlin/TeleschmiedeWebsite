@@ -1,6 +1,6 @@
 ---
-title: "Local SEO: Sichtbarkeit für KI-Agenten & Voice"
-description: "Local SEO (2026): Von Google Maps zur 'Agentic Search'. Erfahre, wie Siri, Alexa und GPT-Agenten lokale Unternehmen finden. ALOHA! 🌻"
+title: 'Local SEO: Sichtbarkeit für KI-Agenten & Voice'
+description: 'Local SEO (2026): Von Google Maps zur ''Agentic Search''. Erfahre, wie Siri, Alexa und GPT-Agenten lokale Unternehmen finden. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/blog/glossar-local-seo.webp"
 image_alt: "Local SEO 2026 - Sichtbarkeit für KI-Agenten"
@@ -10,12 +10,12 @@ key_takeaways:
   - "NAP-Grounding: Identische Name-, Adress- und Telefondaten über alle Entitäts-Knotenpunkte hinweg sind Pflicht."
   - "Sentiment-Relevanz: KIs bewerten den emotionalen Gehalt von Rezensionen zur Berechnung deiner lokalen Autorität."
 faqs:
-  - question: "Was ist der stärkste Hebel für lokales SEO 2026?"
-    answer: "Immer noch ein perfekt optimiertes Google Business Profile (GBP), aber heute als Kern deiner lokalen Entitäts-Strategie. Neben NAP-Daten (Name, Address, Phone) musst du hier aktiv das User-Generated-Content (UGC) Sentiment managen. KIs 'lesen' deine Rezensionen, um deine Tonalität und Fachkompetenz zu bewerten. Werden deine Antworten von der KI als hilfreich eingestuft?"
-  - question: "Wie beeinflussen KI-Agenten das lokale SEO?"
-    answer: "KI-Agenten wie ChatGPT-Siri oder Gemini-Search handeln 2026 oft autonom. 'Siri, buche mir den besten SEO-Experten in Spandau für heute Nachmittag.' Damit das klappt, müssen deine Verfügbarkeit, dein Standort und dein Angebot maschinenlesbar (Schema.org / LocalBusiness) und konsistent im Web hinterlegt sein. Fehlt dieses Signal, wirst du bei Agenten-Anfragen ignoriert."
-  - question: "Warum ist NAP-Konsistenz 2026 wichtiger denn je?"
-    answer: "Wegen der Disambiguierung. Wenn eine KI unterschiedliche Adressen oder Telefonnummern für deine Firma findet, sinkt das Vertrauen in deine Datenquelle (Halluzinations-Risiko). Für die KI bedeutet Inkonsistenz: 'Ich kann dieses Ergebnis nicht sicher empfehlen.' NAP-Grounding ist die Basis für dein lokales Trust-Level."
+  - question: 'Was ist der stärkste Hebel für lokales SEO 2026?'
+    answer: 'Immer noch ein perfekt optimiertes Google Business Profile (GBP), aber heute als Kern deiner lokalen Entitäts-Strategie. Neben NAP-Daten (Name, Address, Phone) musst du hier aktiv das User-Generated-Content (UGC) Sentiment managen. KIs ''lesen'' deine Rezensionen, um deine Tonalität und Fachkompetenz zu bewerten. Werden deine Antworten von der KI als hilfreich eingestuft?'
+  - question: 'Wie beeinflussen KI-Agenten das lokale SEO?'
+    answer: 'KI-Agenten wie ChatGPT-Siri oder Gemini-Search handeln 2026 oft autonom. ''Siri, buche mir den besten SEO-Experten in Spandau für heute Nachmittag.'' Damit das klappt, müssen deine Verfügbarkeit, dein Standort und dein Angebot maschinenlesbar (Schema.org / LocalBusiness) und konsistent im Web hinterlegt sein. Fehlt dieses Signal, wirst du bei Agenten-Anfragen ignoriert.'
+  - question: 'Warum ist NAP-Konsistenz 2026 wichtiger denn je?'
+    answer: 'Wegen der Disambiguierung. Wenn eine KI unterschiedliche Adressen oder Telefonnummern für deine Firma findet, sinkt das Vertrauen in deine Datenquelle (Halluzinations-Risiko). Für die KI bedeutet Inkonsistenz: ''Ich kann dieses Ergebnis nicht sicher empfehlen.'' NAP-Grounding ist die Basis für dein lokales Trust-Level.'
 ---
 
 Moin!

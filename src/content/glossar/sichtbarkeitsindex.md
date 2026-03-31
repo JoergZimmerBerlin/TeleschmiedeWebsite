@@ -1,6 +1,6 @@
 ---
-title: "Sichtbarkeitsindex: Sistrix & Co. richtig deuten"
-description: "Der Sichtbarkeitsindex zeigt, wie gut deine Domain in den Google-Top-100 platziert ist. Erfahre hier alles Wichtige über diese SEO-Kennzahl."
+title: 'Sichtbarkeitsindex: Sistrix & Co. richtig deuten'
+description: 'Der Sichtbarkeitsindex zeigt, wie gut deine Domain in den Google-Top-100 platziert ist. Erfahre hier alles Wichtige über diese SEO-Kennzahl.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsindex-3d.webp"
 related_terms: ["sichtbarkeit", "traffic", "keywoerter"]
@@ -9,11 +9,11 @@ key_takeaways:
   - "Wettbewerbsvergleich: Er ist das perfekte Thermometer, um dich direkt mit deinen Konkurrenten zu messen."
   - "Warnsignal: Ein plötzlicher Absturz deutet oft auf ein Google Core Update oder technische Fehler hin."
 faqs:
-  - question: "Was ist ein guter Sichtbarkeitsindex?"
-    answer: "Die absolute Zahl ist fast irrelevant, da sie extrem branchenabhängig ist. Amazon hat einen Index von über 1.000, während für einen hochspezialisierten B2B-Maschinenbauer in seiner Nische ein Wert von 0,1 ein absoluter Top-Wert sein kann. Wichtig ist allein die Entwicklung deines eigenen Index im Vergleich zu deinen direkten Wettbewerbern. Wenn die Konkurrenz fällt und du steigst, machst du einen guten Job – völlig unabhängig davon, ob da eine 1 oder eine 10 vor dem Komma steht."
-  - question: "Warum sinkt mein Index plötzlich trotz mehr SEO Traffic?"
-    answer: "Das ist ein klassisches und oft missverstandenes Phänomen. Der Sichtbarkeitsindex misst deine Rankings für ein vordefiniertes, repräsentatives Keyword-Set (meist 1 Million Keywords). Wenn du Rankings für Suchbegriffe mit extrem hohem Suchvolumen aus diesem Set verlierst (die dir aber ohnehin keine Conversions gebracht haben), sinkt der Index dramatisch. Gleichzeitig gewinnst du vielleicht bei lukrativen Long-Tail-Keywords, die nicht im Set sind – dein relevanter Traffic steigt also, während die Metrik fällt."
-  - question: "Wie oft wird der SEO Sichtbarkeitsindex aktualisiert?"
+  - question: 'Was ist ein guter Sichtbarkeitsindex?'
+    answer: 'Die absolute Zahl ist fast irrelevant, da sie extrem branchenabhängig ist. Amazon hat einen Index von über 1.000, während für einen hochspezialisierten B2B-Maschinenbauer in seiner Nische ein Wert von 0,1 ein absoluter Top-Wert sein kann. Wichtig ist allein die Entwicklung deines eigenen Index im Vergleich zu deinen direkten Wettbewerbern. Wenn die Konkurrenz fällt und du steigst, machst du einen guten Job – völlig unabhängig davon, ob da eine 1 oder eine 10 vor dem Komma steht.'
+  - question: 'Warum sinkt mein Index plötzlich trotz mehr SEO Traffic?'
+    answer: 'Das ist ein klassisches und oft missverstandenes Phänomen. Der Sichtbarkeitsindex misst deine Rankings für ein vordefiniertes, repräsentatives Keyword-Set (meist 1 Million Keywords). Wenn du Rankings für Suchbegriffe mit extrem hohem Suchvolumen aus diesem Set verlierst (die dir aber ohnehin keine Conversions gebracht haben), sinkt der Index dramatisch. Gleichzeitig gewinnst du vielleicht bei lukrativen Long-Tail-Keywords, die nicht im Set sind – dein relevanter Traffic steigt also, während die Metrik fällt.'
+  - question: 'Wie oft wird der SEO Sichtbarkeitsindex aktualisiert?'
     answer: 'Früher gab es montags das große ''Sistrix-Zittern'', da die Daten nur wöchentlich aktualisiert wurden. Heute berechnen professionelle Tools wie Sistrix oder der <a href="https://seranking.com/de/?ga=4169588&source=link">Rank-Tracker von SE Ranking</a> die Sichtbarkeit für wichtige Märkte und große Websites täglich neu. Bei massiven Ranking-Schwankungen oder nach einem Google Core Update kannst du die Auswirkungen also mittlerweile fast in Echtzeit verfolgen und entsprechend gegensteuern.'
 ---
 

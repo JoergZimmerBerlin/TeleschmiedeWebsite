@@ -1,6 +1,6 @@
 ---
-title: "Technisches Schema-Markup: Guide für LLMs & SEO"
-description: "Schema-Markup 2026: Von Rich Snippets zur AI-Infrastruktur. Erfahre, wie du Entity-Depth und Disambiguierung für Google & LLMs nutzt. ALOHA! 🌻"
+title: 'Technisches Schema-Markup: Guide für LLMs & SEO'
+description: 'Schema-Markup 2026: Von Rich Snippets zur AI-Infrastruktur. Erfahre, wie du Entity-Depth und Disambiguierung für Google & LLMs nutzt. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "grounding-page-standard", "entity-seo", "faq-markup", "technisches-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Entity Depth: Tief verschachtelte JSON-LD Strukturen (Nesting) bauen Autorität und E-E-A-T für Maschinen auf."
   - "Disambiguierung: Klare Verknüpfung mit externen IDs wie Wikidata oder LinkedIn via sameAs verhindert KI-Halluzinationen."
 faqs:
-  - question: "Reicht einfaches Organization-Schema 2026 noch aus?"
-    answer: "Kaum. Moderne KI-Systeme erwarten 'Entity Depth'. Verknüpfe dein Organization-Schema mit Personen (Founders), Produkten und spezifischen Erwähnungen (mentions). Je mehr valide Fakten du im Baum verknüpfst, desto höher ist die Chance, in KI-Antworten (Grounding) zitiert zu werden."
-  - question: "Was ist 'Content Parity' beim Schema-Markup?"
-    answer: "Google und andere Suchmaschinen bestrafen 2026 hart, wenn Daten im JSON-LD stehen, die für den Nutzer auf der Seite nicht sichtbar sind. Alles, was du maschinenlesbar machst, muss auch als Text oder Element auf der Webseite existieren. Keine 'versteckten' SEO-Daten mehr!"
-  - question: "Welche neuen Schema-Typen sind für E-E-A-T wichtig?"
-    answer: "Besonders 'ProfilePage' (für Autoren-Profile) und 'DiscussionForumPosting' (für User-Generated Content) haben massiv an Bedeutung gewonnen. Sie helfen Google, die 'Experience' und 'Expertise' hinter einem Inhalt zu validieren."
+  - question: 'Reicht einfaches Organization-Schema 2026 noch aus?'
+    answer: 'Kaum. Moderne KI-Systeme erwarten ''Entity Depth''. Verknüpfe dein Organization-Schema mit Personen (Founders), Produkten und spezifischen Erwähnungen (mentions). Je mehr valide Fakten du im Baum verknüpfst, desto höher ist die Chance, in KI-Antworten (Grounding) zitiert zu werden.'
+  - question: 'Was ist ''Content Parity'' beim Schema-Markup?'
+    answer: 'Google und andere Suchmaschinen bestrafen 2026 hart, wenn Daten im JSON-LD stehen, die für den Nutzer auf der Seite nicht sichtbar sind. Alles, was du maschinenlesbar machst, muss auch als Text oder Element auf der Webseite existieren. Keine ''versteckten'' SEO-Daten mehr!'
+  - question: 'Welche neuen Schema-Typen sind für E-E-A-T wichtig?'
+    answer: 'Besonders ''ProfilePage'' (für Autoren-Profile) und ''DiscussionForumPosting'' (für User-Generated Content) haben massiv an Bedeutung gewonnen. Sie helfen Google, die ''Experience'' und ''Expertise'' hinter einem Inhalt zu validieren.'
 ---
 
 Moin!

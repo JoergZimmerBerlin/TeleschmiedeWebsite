@@ -1,6 +1,6 @@
 ---
-title: "Experience: E-E-A-T Erfahrung 2026 (Anti-KI-Signal)"
-description: "Experience (2026): Warum reale Praxiserfahrung das wichtigste Signal gegen KI-Einheitsbrei ist. Beweise deine Echtheit für Google & LLMs. ALOHA! 🌻"
+title: 'Experience: E-E-A-T Erfahrung 2026 (Anti-KI-Signal)'
+description: 'Experience (2026): Warum reale Praxiserfahrung das wichtigste Signal gegen KI-Einheitsbrei ist. Beweise deine Echtheit für Google & LLMs. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-experience-3d.webp"
 image_alt: "Experience (E-E-A-T) 3D Infografik - Reale Praxiserfahrung als KI-Bollwerk"
@@ -10,12 +10,12 @@ key_takeaways:
   - "Beweis-Pflicht: 2026 werten KI-Agenten Bild-Metadaten und spezifische Detailbeschreibungen als 'Beweis' für Echtheit aus."
   - "Trust-Boost: Persönliche Anekdoten und eigene Case Studies verwandeln anonyme Texte in autoritäre Entitäts-Daten."
 faqs:
-  - question: "Wie beweise ich einer KI 2026 meine Erfahrung?"
-    answer: "Durch Information-Retrieval (IR) Optimierung. Nutze eigene, nicht-generierte Bilder mit GPS-Daten oder Timestamp. Beschreibe spezifische Fehler, die du in einem Projekt gemacht hast – KIs lieben Fehlersuche zur Validierung von Expertise. Verlinke deine Erfahrungswerte in deiner Groundingpage, damit sie als 'faktischer Anker' für LLMs dienen."
-  - question: "Warum ist Experience das wichtigste Signal gegen KI-Content?"
-    answer: "Weil LLMs nur auf Basis von Wahrscheinlichkeiten Text generieren. Sie haben kein Bewusstsein und keine sensorische Erfahrung. Google und andere Suchmaschinen nutzen 'Experience' als harten Filter, um echte menschliche Insights von synthetisch erzeugtem Wissen zu trennen. Wer zeigt, dass er 'da war', gewinnt 2026 das Vertrauen."
-  - question: "Kann eine KI 'Erfahrung' überzeugend imitieren?"
-    answer: "An der Oberfläche ja, aber nicht in der Tiefe. Bei genauerer Analyse (Entity-Validation) fallen synthetische Erfahrungen auf, weil ihnen die semantische Verknüpfung zu realweltlichen Ereignissen fehlt. Nutze Schema.org Markup (`PrimaryContent`), um deine eigenen Erlebnisberichte als Original-Quelle zu deklarieren."
+  - question: 'Wie beweise ich einer KI 2026 meine Erfahrung?'
+    answer: 'Durch Information-Retrieval (IR) Optimierung. Nutze eigene, nicht-generierte Bilder mit GPS-Daten oder Timestamp. Beschreibe spezifische Fehler, die du in einem Projekt gemacht hast – KIs lieben Fehlersuche zur Validierung von Expertise. Verlinke deine Erfahrungswerte in deiner Groundingpage, damit sie als ''faktischer Anker'' für LLMs dienen.'
+  - question: 'Warum ist Experience das wichtigste Signal gegen KI-Content?'
+    answer: 'Weil LLMs nur auf Basis von Wahrscheinlichkeiten Text generieren. Sie haben kein Bewusstsein und keine sensorische Erfahrung. Google und andere Suchmaschinen nutzen ''Experience'' als harten Filter, um echte menschliche Insights von synthetisch erzeugtem Wissen zu trennen. Wer zeigt, dass er ''da war'', gewinnt 2026 das Vertrauen.'
+  - question: 'Kann eine KI ''Erfahrung'' überzeugend imitieren?'
+    answer: 'An der Oberfläche ja, aber nicht in der Tiefe. Bei genauerer Analyse (Entity-Validation) fallen synthetische Erfahrungen auf, weil ihnen die semantische Verknüpfung zu realweltlichen Ereignissen fehlt. Nutze Schema.org Markup (`PrimaryContent`), um deine eigenen Erlebnisberichte als Original-Quelle zu deklarieren.'
 ---
 
 Moin!

@@ -1,6 +1,6 @@
 ---
-title: "Sichtbarkeitsmanagement: Strategie für Experten"
-description: "Sichtbarkeitsmanagement: Strategische Steuerung deiner digitalen Präsenz in Google, KI-Systemen und auf allen relevanten Plattformen. ALOHA! 🌻"
+title: 'Sichtbarkeitsmanagement: Strategie für Experten'
+description: 'Sichtbarkeitsmanagement: Strategische Steuerung deiner digitalen Präsenz in Google, KI-Systemen und auf allen relevanten Plattformen. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsmanagement-3d.webp"
 related_terms: ["sichtbarkeit", "sichtbarkeitsindex", "geo", "entity-seo"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Steuerbar: Mit den richtigen Tools und Strategien ist Sichtbarkeit kein Zufall, sondern planbar."
   - "Messbar: Vom Sichtbarkeitsindex über AI Visibility Scores bis hin zu Branded Search Volume – alles ist trackbar."
 faqs:
-  - question: "Was ist der Unterschied zwischen Sichtbarkeit und Sichtbarkeitsmanagement?"
-    answer: "Sichtbarkeit ist ein Zustand – du bist sichtbar oder nicht. Sichtbarkeitsmanagement ist die aktive Steuerung dieses Zustands. Es geht darum, strategisch zu entscheiden: Wo will ich sichtbar sein? Für welche Themen? In welchen Kanälen? Das umfasst Google-Rankings, KI-Zitierungen, Social-Media-Präsenz und Branchenverzeichnisse. In meiner Arbeit nenne ich das die 'Sichtbarkeits-Architektur' – ein durchdachtes System aus Content, technischem SEO und Entity Building."
-  - question: "Wie messe ich mein Sichtbarkeitsmanagement am besten?"
-    answer: 'Du brauchst mehrere KPIs gleichzeitig. Der Sichtbarkeitsindex (z.B. von Sistrix oder <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>) misst deine Google-Präsenz. Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen deine AI Visibility über 17+ LLMs. Das Branded Search Volume in der Google Search Console zeigt, wie oft nach deinem Namen gesucht wird. Und dein Citation-Profil verrät, wie oft du auf Drittseiten erwähnt wirst. Erst die Kombination all dieser Werte ergibt das vollständige Bild.'
-  - question: "Kann ich Sichtbarkeitsmanagement selbst machen oder brauche ich einen Experten?"
-    answer: "Die Basics kannst du definitiv selbst umsetzen: Google Search Console einrichten, Sitemap pflegen, regelmäßig Content veröffentlichen. Aber für eine echte Strategie – also die Frage 'Wie werde ich zur Entität in meiner Nische?' – brauchst du jemanden, der den Gesamtblick hat. In meinen SEO Sprechstunden starten wir oft genau hier: Wo stehst du, wo willst du hin, und welche Kanäle haben den größten Hebel?"
+  - question: 'Was ist der Unterschied zwischen Sichtbarkeit und Sichtbarkeitsmanagement?'
+    answer: 'Sichtbarkeit ist ein Zustand – du bist sichtbar oder nicht. Sichtbarkeitsmanagement ist die aktive Steuerung dieses Zustands. Es geht darum, strategisch zu entscheiden: Wo will ich sichtbar sein? Für welche Themen? In welchen Kanälen? Das umfasst Google-Rankings, KI-Zitierungen, Social-Media-Präsenz und Branchenverzeichnisse. In meiner Arbeit nenne ich das die ''Sichtbarkeits-Architektur'' – ein durchdachtes System aus Content, technischem SEO und Entity Building.'
+  - question: 'Wie messe ich mein Sichtbarkeitsmanagement am besten?'
+    answer: 'Über eine Kombination aus harten Daten (Rankings, Klicks, Citations) und weichen Faktoren (Markentonalität, Themen-Assoziation). Ich nutze dafür Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die klassische Performance und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Dominanz. Ein gutes Management zeigt sich darin, dass deine Kernthemen über alle Kanäle hinweg konsistent mit deinem Namen verknüpft sind.'
+  - question: 'Kann ich Sichtbarkeitsmanagement selbst machen oder brauche ich einen Experten?'
+    answer: 'Die Basics kannst du definitiv selbst umsetzen: Google Search Console einrichten, Sitemap pflegen, regelmäßig Content veröffentlichen. Aber für eine echte Strategie – also die Frage ''Wie werde ich zur Entität in meiner Nische?'' – brauchst du jemanden, der den Gesamtblick hat. In meinen SEO Sprechstunden starten wir oft genau hier: Wo stehst du, wo willst du hin, und welche Kanäle haben den größten Hebel?'
 ---
 
 Moin!

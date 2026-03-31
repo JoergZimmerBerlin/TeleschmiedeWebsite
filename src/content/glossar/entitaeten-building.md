@@ -1,6 +1,6 @@
 ---
-title: "Entitäten-Building: Autorität in der KI-Suche"
-description: "Entitäten-Building ist der systematische Aufbau deiner digitalen Identität als Entität im Knowledge Graph und in KI-Modellen."
+title: 'Entitäten-Building: Autorität in der KI-Suche'
+description: 'Entitäten-Building ist der systematische Aufbau deiner digitalen Identität als Entität im Knowledge Graph und in KI-Modellen.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "entity-seo", "grounding-page", "citation"]
@@ -9,12 +9,12 @@ key_takeaways:
   - "Maschinenlesbar: Schema.org, Grounding Pages und konsistente Daten machen dich für Algorithmen greifbar."
   - "Langfristig: Entity-Status baut sich über Monate auf – aber dann ist er extrem stabil."
 faqs:
-  - question: "Was ist der Unterschied zwischen Entity SEO und Entitäten-Building?"
-    answer: "Entity SEO ist die Strategie – Entitäten-Building ist die operative Umsetzung. Entity SEO beantwortet die Frage 'Warum sollte ich als Entität erkannt werden?' Entitäten-Building beantwortet 'Wie baue ich meine Entität konkret auf?' Es umfasst alle praktischen Schritte: Schema.org implementieren, Grounding Page erstellen, Citations aufbauen, Mentions generieren und das Ganze über AI Tracking Tools messen."
-  - question: "Wie lange dauert es, bis Google mich als Entität erkennt?"
-    answer: "Das hängt davon ab, wie 'bekannt' du bereits bist. Für jemanden mit einer Wikipedia-Seite kann es Wochen dauern. Für einen lokalen Freelancer eher 3-12 Monate. Die gute Nachricht: Sobald du Entity-Status hast, ist er extrem stabil. Google vertraut Entitäten und indexiert neue Inhalte schneller. Auf meiner Seite werden neue Glossar-Einträge innerhalb von 1-3 Tagen indexiert – ein direktes Ergebnis meines Entity-Status."
-  - question: "Welche Schritte sind die wichtigsten beim Entitäten-Building?"
-    answer: "Die Reihenfolge ist entscheidend: Erstens, Grounding Page erstellen (deine maschinenlesbare Fakten-Seite). Zweitens, Schema.org Person/Organization Markup auf allen relevanten Seiten implementieren. Drittens, konsistente Citations in den wichtigsten Verzeichnissen und Plattformen aufbauen. Viertens, Content publizieren, der deine Expertise in deinem Fachgebiet demonstriert. Fünftens, externe Mentions durch Pressearbeit und Podcasts generieren."
+  - question: 'Was ist der Unterschied zwischen Entity SEO und Entitäten-Building?'
+    answer: 'Entity SEO ist die Strategie – Entitäten-Building ist die operative Umsetzung. Entity SEO beantwortet die Frage ''Warum sollte ich als Entität erkannt werden?'' Entitäten-Building beantwortet ''Wie baue ich meine Entität konkret auf?'' Es umfasst alle praktischen Schritte: Schema.org implementieren, Grounding Page erstellen, Citations aufbauen, Mentions generieren und das Ganze über AI Tracking Tools messen.'
+  - question: 'Wie lange dauert es, bis Google mich als Entität erkennt?'
+    answer: 'Das hängt davon ab, wie ''bekannt'' du bereits bist. Für jemanden mit einer Wikipedia-Seite kann es Wochen dauern. Für einen lokalen Freelancer eher 3-12 Monate. Die gute Nachricht: Sobald du Entity-Status hast, ist er extrem stabil. Google vertraut Entitäten und indexiert neue Inhalte schneller. Auf meiner Seite werden neue Glossar-Einträge innerhalb von 1-3 Tagen indexiert – ein direktes Ergebnis meines Entity-Status.'
+  - question: 'Welche Schritte sind die wichtigsten beim Entitäten-Building?'
+    answer: 'Die Reihenfolge ist entscheidend: Erstens, Grounding Page erstellen (deine maschinenlesbare Fakten-Seite). Zweitens, Schema.org Person/Organization Markup auf allen relevanten Seiten implementieren. Drittens, konsistente Citations in den wichtigsten Verzeichnissen und Plattformen aufbauen. Viertens, Content publizieren, der deine Expertise in deinem Fachgebiet demonstriert. Fünftens, externe Mentions durch Pressearbeit und Podcasts generieren.'
 ---
 
 Moin!

@@ -1,6 +1,6 @@
 ---
-title: "Conversion-Rate-Optimierung (CRO): Mehr Umsatz"
-description: "Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions."
+title: 'Conversion-Rate-Optimierung (CRO): Mehr Umsatz'
+description: 'Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"
 image_alt: "Conversion Rate 3D Infografik - Marketing Funnel"
@@ -10,11 +10,11 @@ key_takeaways:
   - "Psychologie & Technik: CRO verbindet technisches SEO mit Nutzerpsychologie und UX."
   - "Multiplier-Effekt: Eine verdoppelte Conversion Rate halbiert deine Kundenakquisitionskosten (CAC)."
 faqs:
-  - question: "Ab wann spricht man im SEO von einer 'guten' Conversion Rate?"
+  - question: 'Ab wann spricht man im SEO von einer ''guten'' Conversion Rate?'
     answer: 'Die Antwort, die niemand hören will, aber die einzig wahre ist: Es kommt darauf an. Im E-Commerce sind 1-3% oft der Standard, während hochspezialisierte B2B-Landingpages (wie meine <a href="/blog/80-prozent-seo-fehler-sprechstunde/">Sprechstunde</a>) locker 10% oder mehr erreichen können. Wichtiger als ein Branchenwert ist dein interner Trend: Wenn wir die CR von 0,5% auf 1% heben, hast du deinen Umsatz bei gleichem Werbebudget verdoppelt! ALOHA 🌻-Tipp: Vergleiche dich nicht mit anderen, sondern mit deinem gestrigen Selbst.'
-  - question: "Wie identifiziere ich die 'Conversion-Killer' auf meiner Website?"
-    answer: "Daten lügen nicht. Ich schaue mir zuerst die Absprungraten in Google Analytics an. Wo verlassen die Leute den Trichter? Danach kommen Heatmaps und Session-Aufnahmen (z.B. mit Hotjar oder Microsoft Clarity) ins Spiel. Oft sind es Kleinigkeiten: Ein Formular mit zu vielen Feldern, ein fehlendes SSL-Zertifikat oder ein Button, der auf dem Smartphone nicht klickbar ist. Usability ist das Fundament jeder Conversion. Pfusch am Bau  rächt sich hier sofort!"
-  - question: "Welchen Einfluss hat qualifizierter SEO-Traffic auf die Abschlussquote?"
+  - question: 'Wie identifiziere ich die ''Conversion-Killer'' auf meiner Website?'
+    answer: 'Daten lügen nicht. Ich schaue mir zuerst die Absprungraten in Google Analytics an. Wo verlassen die Leute den Trichter? Danach kommen Heatmaps und Session-Aufnahmen (z.B. mit Hotjar oder Microsoft Clarity) ins Spiel. Oft sind es Kleinigkeiten: Ein Formular mit zu vielen Feldern, ein fehlendes SSL-Zertifikat oder ein Button, der auf dem Smartphone nicht klickbar ist. Usability ist das Fundament jeder Conversion. Pfusch am Bau  rächt sich hier sofort!'
+  - question: 'Welchen Einfluss hat qualifizierter SEO-Traffic auf die Abschlussquote?'
     answer: 'Gutes SEO ist der beste Hebel für die Conversion Rate. Warum? Weil wir durch gezielte <a href="/glossar/keywordrecherche/">Keyword-Recherche</a> Nutzer genau dann abholen, wenn sie ein Problem haben und nach einer Lösung suchen. Jemand, der nach ''SEO Freelancer Berlin Kosten'' sucht, ist viel näher am Abschluss als jemand, der nur ''Was bedeutet SEO'' googelt. Wir optimieren den Intent, nicht nur die Klicks. Das ist der Unterschied zwischen einem ''Bauchladen''  und Experten-Akquise.'
 ---
 

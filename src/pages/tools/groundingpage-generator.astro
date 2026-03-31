@@ -17,12 +17,13 @@ const lastReviewed = getGitModDate('src/pages/tools/groundingpage-generator.astr
   <section class="py-12 md:py-24 bg-gray-50 min-h-[80vh]">
     <div class="container mx-auto px-4 max-w-4xl">
       <div class="mb-12 text-center">
-        <h1 class="font-bold mb-4 font-headings text-4xl md:text-5xl lg:text-5xl text-dark tracking-tight leading-tight flex flex-wrap items-center justify-center gap-x-4">
+        <h1 class="font-bold mb-4 font-headings text-4xl md:text-5xl lg:text-6xl text-dark tracking-tight leading-tight flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-4">
           <span>Grounding Page Generator</span>
           {lastReviewed && (
-            <span class="text-gray-muted text-xs font-normal italic border-l border-gray-200 pl-4 mb-2">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            <span class="text-gray-muted text-sm md:text-base font-medium border-l-0 md:border-l border-gray-200 pl-0 md:pl-6">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
           )}
         </h1>
+
 
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
           Mach es dir einfach: Gib deine Domain ein. Kopiere unseren perfektionierten Mega-Prompt. Füge ihn in ChatGPT / Gemini / LLM ein und du erhältst direkt den perfekten HTML-Code samt Schema-Markup.
@@ -187,10 +188,11 @@ const lastReviewed = getGitModDate('src/pages/tools/groundingpage-generator.astr
                     <strong>Wichtig:</strong> Erstelle sie unbedingt auch auf Englisch! Die Grounding-Prozesse fast aller KIs laufen primär auf Englisch. Selbst für lokale Websites ohne englische Inhalte hilft es massiv, von LLMs nicht „vergessen“ zu werden – und genau das war die Grundidee hinter dem gesamten Konzept.
                   </p>
                 </div>
-                <p class="pt-4 text-[10px] font-bold text-gray-400 uppercase tracking-widest flex flex-wrap items-center gap-x-4">
-                  <span>— Jörg Zimmer, Senior SEO & GEO Architekt</span>
-                  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-lime-700 hover:text-dark transition-colors normal-case font-bold border-l border-gray-200 pl-4">LinkedIn Profil ↗</a>
+                <p class="pt-6 text-xs md:text-sm font-bold text-gray-500 uppercase tracking-widest flex flex-wrap items-center gap-x-4 gap-y-2">
+                  <span>Jörg Zimmer, Senior SEO & GEO Architekt</span>
+                  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-lime-700 hover:text-dark transition-colors normal-case font-extrabold border-l border-gray-200 pl-4">LinkedIn Profil ↗</a>
                 </p>
+
 
              </div>
              <div class="md:col-span-2 bg-gray-50 p-6 rounded-3xl border border-gray-100 space-y-4 shadow-inner">
@@ -200,9 +202,13 @@ const lastReviewed = getGitModDate('src/pages/tools/groundingpage-generator.astr
                 </h4>
                 <ul class="text-sm text-gray-600 space-y-3">
                   <li class="flex gap-2"><span>✅</span> <span>Schneller Go-Live (wie AGB/Impressum)</span></li>
+                  <li class="flex gap-2"><span>✅</span> <span>Einfach im Footer verlinken</span></li>
                   <li class="flex gap-2"><span>✅</span> <span>CI-konform, aber marketing-befreit</span></li>
+                  <li class="flex gap-2"><span>✅</span> <span>Wird danach auch intern gern als Quelle genutzt</span></li>
+                  <li class="flex gap-2"><span>✅</span> <span>Zwingt alle Beteiligten sich über Entitäten, Zahlen und harte Fakten Gedanken zu machen</span></li>
                   <li class="flex gap-2"><span>✅</span> <span>Keine Javascript-Abhängigkeiten</span></li>
                   <li class="flex gap-2"><span>✅</span> <span>LLM-Sichtbarkeit durch Englisch-Fokus</span></li>
+
                 </ul>
              </div>
           </div>

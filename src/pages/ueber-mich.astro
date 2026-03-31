@@ -51,7 +51,13 @@ const offers = [
   <!-- Hero -->
   <section class="section">
     <div class="container-narrow">
-      <p class="subheadline mb-6">Über mich</p>
+      <p class="subheadline mb-6 flex flex-wrap items-center gap-x-3">
+        <span>Über mich</span>
+        {lastReviewed && (
+          <span class="text-gray-muted text-xs font-normal italic border-l border-gray-200 pl-3">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+        )}
+      </p>
+
 
       <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold leading-normal mb-8">
         Digitaler Architekt & <span class="highlight">Entität</span> im Google Universum.

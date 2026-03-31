@@ -2,6 +2,10 @@
 import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
+import { getGitModDate } from '../utils/git-date';
+
+const lastReviewed = getGitModDate('src/pages/freelancer-team.astro');
+
 
 import teamImage1 from '../assets/images/team/team-event-1.webp';
 import teamImage2 from '../assets/images/team/team-event-2.webp';
@@ -18,7 +22,13 @@ const teamImage1Webp = await getImage({ src: teamImage1, format: 'webp' });
   <!-- Hero -->
   <section class="section">
     <div class="container-narrow">
-      <p class="subheadline mb-6">Netzwerk & Partner</p>
+      <p class="subheadline mb-6 flex flex-wrap items-center gap-x-3">
+        <span>Netzwerk & Partner</span>
+        {lastReviewed && (
+          <span class="text-gray-muted text-xs font-normal italic border-l border-gray-200 pl-3">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+        )}
+      </p>
+
 
       <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold leading-normal mb-8">
         Gemeinsam stark: Das <span class="highlight">Freelancer Team</span>.
@@ -199,7 +209,9 @@ const teamImage1Webp = await getImage({ src: teamImage1, format: 'webp' });
     type="about"
     title="Freelancer Team | SEO, Tracking, Design & mehr"
     description="Mein Freelancer Team: Zusammen mit Profis biete ich geballte Kompetenz in SEO, Tracking, Social Media, Webdesign und mehr. ALOHA! 🌻"
+    lastReviewed={lastReviewed}
     image={`https://teleschmie.de${teamImage1Webp.src}`}
+
     mainEntity={{
       "@type": "Organization",
       "@id": "https://freelancerteam.de/#organization",

@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 import Stats from '../components/Stats.astro';
 import Expertise from '../components/Expertise.astro';
 import CTASection from '../components/CTASection.astro';
@@ -53,4 +54,5 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
   <Stats />
   <Expertise />
   <CTASection />
+  <Schema />
 </Layout>

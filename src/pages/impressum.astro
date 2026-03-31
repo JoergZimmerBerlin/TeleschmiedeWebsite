@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 import impressumImage from '../assets/images/pages/impressum.webp';
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
@@ -106,5 +107,5 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </div>
   </section>
+  <Schema />
 </Layout>
-

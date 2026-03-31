@@ -8,11 +8,12 @@ interface Props {
   description?: string;
   lastReviewed?: string;
   url?: string;
-  type?: 'article' | 'glossary' | 'default';
+  type?: 'article' | 'glossary' | 'about' | 'default';
   image?: string;
   datePublished?: string;
   faqs?: any[];
   offers?: any[];
+  mainEntity?: any;
 }
 
 const { 
@@ -24,13 +25,17 @@ const {
   image,
   datePublished,
   offers,
-  faqs
+  faqs,
+  mainEntity
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
 const personId = `${siteUrl}/#person`;
 const businessId = `${siteUrl}/#localbusiness`;
 const websiteId = `${siteUrl}/#website`;
+
+// Helper to strip HTML for clean JSON-LD strings
+const cleanText = (html: string) => html ? html.replace(/<[^>]*>?/gm, '').trim() : '';
 
 // Central Person Entity
 const personEntity = {
@@ -51,7 +56,8 @@ const personEntity = {
     "https://www.facebook.com/teleschmiede",
     "https://www.youtube.com/@Teleschmiede",
     "https://www.tiktok.com/@teleschmiede",
-    "https://www.threads.com/@joerg.zimmer.berlin"
+    "https://www.threads.com/@joerg.zimmer.berlin",
+    "https://share.google/FELFkQBL46obhnygq"
   ],
   "knowsAbout": [
     { "@type": "Thing", "name": "Search Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q180711" },
@@ -71,7 +77,7 @@ const personEntity = {
   ],
   "memberOf": [
     { "@type": "Organization", "name": "SEO Stammtisch Berlin" },
-    { "@type": "Organization", "name": "Freelancer Team" }
+    { "@type": "Organization", "name": "Freelancer Team", "url": "https://freelancerteam.de/" }
   ],
   "subjectOf": [
     {
@@ -111,6 +117,8 @@ const businessEntity: any = {
   "telephone": "+493049208184",
   "email": "info@teleschmie.de",
   "priceRange": "€€",
+  "vatID": "DE232939553",
+  "foundingDate": "2001-07-23",
   "lastReviewed": lastReviewed,
   "address": {
     "@type": "PostalAddress",
@@ -149,6 +157,7 @@ const businessEntity: any = {
     "url": `${siteUrl}/images/logo-teleschmiede.webp`
   }
 };
+
 const extractPrice = (name: string) => {
   const match = name.match(/(\d+(?:\.\d+)?)\s*€/);
   return match ? match[1].replace('.', '') : null;
@@ -188,7 +197,7 @@ const graph = [
   }
 ];
 
-// Add Article/Glossary specific data to graph
+// Add Article/Glossary/About specific data to graph
 if (type === 'article') {
   graph.push({
     "@type": "Article",
@@ -212,6 +221,14 @@ if (type === 'article') {
     "author": { "@id": personId },
     "publisher": { "@id": businessId }
   } as any);
+} else if (type === 'about') {
+  graph.push({
+    "@type": "AboutPage",
+    "name": title,
+    "description": description,
+    "url": url,
+    "mainEntity": mainEntity || { "@id": personId }
+  } as any);
 }
 
 // Add FAQ if provided (overwrites or adds to auto-generated)
@@ -220,10 +237,10 @@ if (faqs && faqs.length > 0) {
     "@type": "FAQPage",
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",
-      "name": faq.question,
+      "name": cleanText(faq.question),
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": faq.answer
+        "text": cleanText(faq.answer)
       }
     }))
   } as any);
@@ -237,3 +254,4 @@ const schema = {
 ---
 
 <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+

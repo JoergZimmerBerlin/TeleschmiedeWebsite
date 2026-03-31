@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
 import sprechstundeImage from '../assets/images/blog/seo-sprechstunde.webp';
 import ctaImage from '../assets/images/profile/joerg-zimmer-cta.webp';
@@ -33,6 +34,25 @@ const faqs = [
   {
     question: "Kann ich die Sprechstunde auch für einen Website-Relaunch nutzen?",
     answer: "Definitiv. Das ist sogar einer der besten Zeitpunkte, um teure Fehler bei der Struktur oder den Weiterleitungen zu vermeiden, bevor die neue Seite live geht."
+  }
+];
+
+const offers = [
+  {
+    name: "Sprechstunde (400€)",
+    description: "2-stündige Live-Analyse und Strategieberatung für 400€ Pauschal."
+  },
+  {
+    name: "10-Stunden Paket (1.600€)",
+    description: "Flexibles Leistungspaket für tiefgreifende Audits und Setup-Phasen für 1.600€ Pauschal."
+  },
+  {
+    name: "Monatlicher Retainer (ab 1.600€)",
+    description: "Fortlaufende Betreuung und strategische Optimierung ab 1.600€ monatlich."
+  },
+  {
+    name: "Zweite Meinung / Angebotsprüfung (200€/h)",
+    description: "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
   }
 ];
 ---
@@ -413,99 +433,13 @@ const faqs = [
     </div>
   </section>
 
-  <script is:inline type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://teleschmie.de/#person",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "jobTitle": "SEO & SEA Freelancer",
-        "url": "https://teleschmie.de/ueber-mich/",
-        "sameAs": [
-          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-          "https://www.xing.com/profile/Joerg_Zimmer6",
-          "https://linktr.ee/jorgzimmer"
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://teleschmie.de/seo-sprechstunde/#faq",
-        "mainEntity": faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer.replace(/<[^>]*>?/gm, '')
-          }
-        }))
-      },
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://teleschmie.de/#localbusiness",
-        "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-        "url": "https://teleschmie.de/seo-sprechstunde/",
-        "image": "https://teleschmie.de/images/blog/seo-sprechstunde.webp",
-        "description": "2-stündige SEO-Sprechstunde per Videocall: Live-Analyse, sofort umsetzbare Tipps und ein konkreter Maßnahmenplan.",
-        "telephone": "+493049208184",
-        "priceRange": "€€€",
-        "lastReviewed": lastReviewed,
-        "founder": {
-          "@type": "Person",
-          "@id": "https://teleschmie.de/#person",
-          "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-          "url": "https://teleschmie.de/ueber-mich/"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Zu den Fichtewiesen 16",
-          "addressLocality": "Berlin",
-          "postalCode": "13587",
-          "addressCountry": "DE"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Dienstleistungen von Jörg Zimmer",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Sprechstunde (400€)",
-                "description": "2-stündige Live-Analyse und Strategieberatung für 400€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "10-Stunden Paket (1.600€)",
-                "description": "Flexibles Leistungspaket für tiefgreifende Audits und Setup-Phasen für 1.600€ Pauschal."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Monatlicher Retainer (ab 1.600€)",
-              "description": "Fortlaufende Betreuung und strategische Optimierung ab 1.600€ monatlich."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Zweite Meinung / Angebotsprüfung (200€/h)",
-              "description": "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
-            }
-          }
-          ]
-        }
-      }
-    ]
-  })} />
-
-  <!-- CTA -->
+  <Schema
+    title="SEO-Sprechstunde | Jörg Zimmer - SEO & SEA Freelancer"
+    description="2-stündige SEO-Sprechstunde: Live-Analyse, sofort umsetzbare Tipps und ein konkreter Maßnahmenplan. 400€ pauschal, ohne versteckte Kosten. ALOHA! 🌻"
+    lastReviewed={lastReviewed}
+    faqs={faqs}
+    offers={offers}
+  />
   <section class="section bg-dark text-white">
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">

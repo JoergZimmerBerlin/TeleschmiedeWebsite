@@ -1,6 +1,7 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
 
 import teamImage1 from '../assets/images/team/team-event-1.webp';
 import teamImage2 from '../assets/images/team/team-event-2.webp';
@@ -194,14 +195,12 @@ const teamImage1Webp = await getImage({ src: teamImage1, format: 'webp' });
     </div>
   </section>
 
-  <!-- Simple Schema for the page -->
-  <script is:inline type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "name": "Freelancer Team Partner | Jörg Zimmer",
-    "description": "Informationen über die Zusammenarbeit von SEO Freelancer Jörg Zimmer mit dem Freelancer Team Netzwerk.",
-    "url": "https://teleschmie.de/freelancer-team/",
-    "mainEntity": {
+  <Schema
+    type="about"
+    title="Freelancer Team | SEO, Tracking, Design & mehr"
+    description="Mein Freelancer Team: Zusammen mit Profis biete ich geballte Kompetenz in SEO, Tracking, Social Media, Webdesign und mehr. ALOHA! 🌻"
+    image={`https://teleschmie.de${teamImage1Webp.src}`}
+    mainEntity={{
       "@type": "Organization",
       "@id": "https://freelancerteam.de/#organization",
       "name": "Freelancer Team",
@@ -213,6 +212,6 @@ const teamImage1Webp = await getImage({ src: teamImage1, format: 'webp' });
         "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
         "url": "https://teleschmie.de/ueber-mich/"
       }
-    }
-  })} />
+    }}
+  />
 </Layout>

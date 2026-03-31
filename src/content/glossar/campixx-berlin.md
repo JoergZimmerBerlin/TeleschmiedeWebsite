@@ -1,29 +1,31 @@
 ---
 title: "Campixx Berlin: Die legendäre SEO-Konferenz"
 description: "Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻"
-date: "2026-03-10"
+date: "2026-03-31"
 image: "../../assets/images/glossar/themes/campixx-berlin.webp"
 related_terms: ["seo-stammtisch-berlin", "ueberstunde-berlin", "e-e-a-t"]
 key_takeaways:
-  - "Un-Konferenz-Format: Wissen auf Augenhöhe statt steifer Frontalbeschallung."
-  - "Müggelsee-Vibe: Einzigartige Atmosphäre, die tiefgehende Gespräche fördert."
+  - "Un-Konferenz-Festival: Wissen auf Augenhöhe statt steifer Frontalbeschallung."
+  - "Van der Valk Vibe: Familiäre Atmosphäre, die tiefgehende Gespräche fördert."
   - "Content-Tiefe: Von technischen Nischen bis hin zu strategischem High-Level-SEO."
 faqs:
-  - question: "Wo genau findet die Campixx statt?"
-    answer: "Seit 2022 ist das Van der Valk Hotel Berlin Brandenburg in Blankenfelde-Mahlow die neue Heimat der Campixx. Vorher war es jahrelang das legendäre Hotel am Müggelsee. Die neue Location bietet mehr Platz, modernere Konferenzräume und liegt trotzdem nah genug an Berlin, um den Community-Vibe zu erhalten. Wer dort übernachtet, bleibt zusammen – und genau das macht den Netzwerk-Effekt der Campixx so besonders."
+  - question: "Wann und wo findet die Campixx 2026 statt?"
+    answer: "Die CAMPIXX 2026 findet vom 18. bis 19. Juni 2026 wieder im Van der Valk Hotel Berlin Brandenburg (Blankenfelde-Mahlow) statt. Diese Location hat sich seit 2022 als neue Heimat fest etabliert und bietet den perfekten Rahmen für das intensive Networking."
   - question: "Was unterscheidet die Campixx fundamental von anderen SEO-Konferenzen?"
-    answer: "Der wohl größte Unterschied ist das Barcamp-Prinzip. Während man bei der OMR oder SMX oft nur Frontalbeschallung bekommt, wird auf der Campixx echtes Wissen 'geschmiedet'. Sessions entstehen oft spontan durch Fragen aus der Community. Jörg meint: 'Hier lernst du die Dinge, die Google in seinen offiziellen Dokumentationen lieber verschweigt.' Es ist eine Konferenz von Experten für Experten."
+    answer: "Der wohl größte Unterschied ist das Barcamp-Prinzip kombiniert mit einem Festival-Charakter. Hier wird echtes Wissen 'geschmiedet', oft spontan durch Fragen aus der Community. Jörg meint: 'Hier lernst du die Dinge, die Google in seinen offiziellen Dokumentationen lieber verschweigt.' Es ist eine Konferenz von Experten für Experten."
   - question: "Lohnt sich die Campixx auch für Einsteiger oder Inhouse-Marketer?"
-    answer: "Absolut, aber man muss mutig sein. Die Themen können sehr technisch werden (z.B. Logfile-Analyse oder Python für SEO). Für Inhouse-Marketer ist es eine Goldgrube, um ein echtes Gefühl für die Qualität ihrer Agenturen zu bekommen. Man lernt, die richtigen Fragen zu stellen und Trends von Hypes zu unterscheiden. Ein Wochenende Campixx spart oft Monate an teurem Consulting."
+    answer: "Absolut, aber man muss mutig sein. Die Themen können sehr technisch werden. Für Inhouse-Marketer ist es eine Goldgrube, um ein echtes Gefühl für die Qualität ihrer Agenturen zu bekommen. Ein Wochenende Campixx spart oft Monate an teurem Consulting."
 ---
 
 Moin!
 
-Es gibt Termine im Jahr, die sind im Kalender rot markiert. Die **Campixx** (viele sagen immer noch SEO Campixx) ist genau so ein Highlight. Seit 2022 findet sie im **Van der Valk Hotel Berlin Brandenburg** in Blankenfelde-Mahlow statt – vorher war es jahrelang die legendäre Location am Müggelsee. Es ist kein klassisches "Anzug-Event", sondern das wohl größte und herzlichste Klassentreffen der Branche.
+Es gibt Termine im Jahr, die sind im Kalender rot markiert. Die **Campixx** ist genau so ein Highlight. Seit 2022 findet sie im **Van der Valk Hotel Berlin Brandenburg** statt – und hat den legendären Spirit vom Müggelsee erfolgreich in die neue Location überführt. Es ist kein klassisches "Anzug-Event", sondern das wohl größte und herzlichste Klassentreffen der Branche.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"70% von AI-SEO ist einfach nur sauberes, klassisches SEO. Handwerk. Keine Magie."</p>
+  <p class="font-bold text-lime-600 mb-2">Meine Campixx-Erfahrung aus der Praxis</p>
+  <p class="italic text-dark mb-0">
+    "Die Campixx ist ein fantastisches Event zur Weiterbildung und zum realen Netzwerken. Die Qualität der Vorträge und der anwesenden Leute ist einzigartig. Das spezielle, offene Konzept bringt Menschen sehr leicht ins Gespräch. Das Rahmenprogramm ist außergewöhnlich und genial. Auf keiner anderen Konferenz fühlt man sich so wohl und kann so direkt mit Spezialisten und Speakern ins Gespräch kommen. Die Online-Marketing-Welt bezeichnet die Campixx zu Recht als Klassentreffen. Es fühlt sich wirklich so an."
+  </p>
 </div>
 
 Wer hier hinfährt, will nicht nur Folien starren. Wer hier hinfährt, will den Deep Dive. Und genau das ist mein Ding.
@@ -49,8 +51,8 @@ Ich nutze die Zeit im Hotel intensiv, um meine eigene [Grounding-Page](/glossar/
 
 Dafür steht mein Name – handwerkliche Präzision, geschmiedet im Feuer der Community.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Campixx-Tipp</h4>
+<div class="my-8 bg-black text-white p-6 rounded-r-lg border-l-4 border-lime-accent">
+  <h4 class="text-xl font-bold text-lime-accent mb-2 mt-0">Campixx-Tipp</h4>
   <p class="mb-0 text-sm">Geh nicht nur in die großen Sessions. Die kleinen, fast privaten Runden auf dem Flur oder an der Hotelbar sind oft die, in denen die echten 'Hacks' geteilt werden. Sei mutig, stell Fragen und teile selbst dein Wissen.</p>
 </div>
 
@@ -62,7 +64,7 @@ Wenn ich von der Campixx zurückkomme, fließen diese neuen Erkenntnisse über [
 
 ## Dein nächster Schritt
 
-Absolut. Ja, es kostet Geld und Zeit. Aber der ROI (Return on Invest) ist unschlagbar. Ein Wochenende im Van der Valk Hotel ist wie ein halbes Jahr SEO-Fortbildung im Zeitraffer. Es schärft den Blick für das Wesentliche und sortiert den Bullshit aus.
+Lohnt sich der Besuch? Absolut. Ja, es kostet Geld und Zeit. Aber der ROI (Return on Invest) ist unschlagbar. Ein Wochenende im Van der Valk Hotel ist wie ein halbes Jahr SEO-Fortbildung im Zeitraffer. Es schärft den Blick für das Wesentliche und sortiert den Bullshit aus.
 
 ALOHA 🌻 
 

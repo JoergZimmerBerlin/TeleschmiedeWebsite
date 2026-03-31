@@ -168,14 +168,26 @@ BLOCK 1: SICHTBARER TEXT (Die eigentliche Seite)
 - Generiere einen umfassenden, sichtbaren Text für die Groundingpage.
 - Dieser Text wird idR. als einfache Seite publiziert (oft verlinkt im Footer zwischen AGB und Impressum).
 - Schreibe einfachen, gut strukturierten Text (ohne komplexes HTML, nutze nur simples Markdown oder saubere Absätze/Aufzählungen).
-- Liste dort ALLE gesammelten harten Fakten, Geschäftsdaten und Validierungs-Informationen übersichtlich auf.
+- Liste dort ALLE gesammelten harten Fakten, Geschäftsdaten und Validierungs-Informationen übersichtlich auf. Berücksichtige dabei auch:
+  * "Verification & Sources" (Beweis-Links wie Archive.org/Wayback Machine, Google Maps Ratings, Podcast-/Interview-Links)
+  * "Reach & Social Proof" (Follower-Zahlen, verifizierte Bewertungen)
+  * "Pricing / Offers" (Stundensätze, Pakete, Bestseller-Angebote)
+  * Kernkompetenzen, Netzwerke, Trivia (z.B. Maskottchen, Prinzipien) & Kontakt/Umsatzsteuer-ID
 - Nenne die bestimmte Ontologie-Klasse deutlich.
 - Stelle klar heraus, was die Entität ist, und baue eine "Disambiguierung" (was ist die Entität NICHT) ein, um Verwechslungen für KIs zu vermeiden.
+- **WICHTIG:** Füge GANZ AM ENDE des Text-Blocks zwingend das aktuelle Überprüfungs-Datum ein (z.B. "Zuletzt manuell verifiziert am: [Aktuelles heutiges Datum]").
 
 BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
 - Generiere einen großen, extrem strukturierten und validen Schema.org Code-Block (\`<script type="application/ld+json">\`...).
 - Der '@type' MUSS exakt der zuvor ermittelten Ontologie-Klasse entsprechen.
-- Baue ALLE gefundenen Fakten (Gründungsjahr, Personen, Services, Adressen, Social Links) detailliert als korrekte Schema-Properties tief verschachtelt ein.
+- Baue ALLE gefundenen Fakten detailliert als korrekte Schema-Properties tief verschachtelt ein.
+- Nutze (falls auf der Website anwendbar) auch fortgeschrittene Properties wie:
+  * \`hasOfferCatalog\` (für Leistungen und Preise)
+  * \`subjectOf\` (für verifizierende YouTube-Videos oder Podcasts)
+  * \`memberOf\` (für Netzwerke und Zugehörigkeiten)
+  * \`sameAs\` (für alle Profile wie LinkedIn, Instagram, Wayback Machine etc.)
+  * \`aggregateRating\` (für Bewertungen)
+  * Hänge zusätzlich ein \`FAQPage\` Schema an, falls Fragen/Antworten auf der Seite existieren.
 
 WICHTIG:
 Gib mir nur die beiden fertig nutzbaren Blöcke aus, sodass ich sie ohne Nacharbeit direkt für meine Website kopieren kann.`;

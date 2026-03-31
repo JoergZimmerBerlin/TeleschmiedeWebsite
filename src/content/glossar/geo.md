@@ -2,7 +2,7 @@
 title: 'Generative Engine Optimization (GEO): SEO für KI 2026'
 description: 'GEO (2026): Werde zur unumstößlichen Antwortquelle in ChatGPT, Perplexity & Google AI Overviews. Erfahre alles über RAG, Grounding & AI-Readiness. ALOHA! 🌻'
 date: "2026-03-31"
-related_terms: ["llm", "rag", "entity-seo", "grounding-page-standard"]
+related_terms: ["llm", "rag", "entity-seo", "grounding-page"]
 key_takeaways:
   - "Antwort-Synthese: GEO zielt darauf ab, als maßgebliche Fakten-Quelle (Grounding) in KI-Antworten zitiert zu werden."
   - "Semantische Autorität: Vertrauen und E-E-A-T sind 2026 wichtiger als klassische Keyword-Optimierungen."
@@ -38,7 +38,7 @@ Klassische Suchmaschinen sortieren Links nach Relevanz. KI-Modelle (LLMs) hingeg
 
 ### Die wichtigsten GEO-Checkpunkte:
 
-1.  **Vom Keyword zur Entität:** LLMs verstehen Welten in Konzepten. Nutze einen starken [Groundingpage Standard](/glossar/grounding-page-standard/), um dein Profil maschinenlesbar unmissverständlich zu deklarieren.
+1.  **Vom Keyword zur Entität:** LLMs verstehen Welten in Konzepten. Nutze einen starken [Groundingpage Standard](/glossar/grounding-page/), um dein Profil maschinenlesbar unmissverständlich zu deklarieren.
 2.  **Autorität durch Co-Citation:** Werde dort erwähnt, wo die KI bereits Vertrauen hat (Fachmagazine, Leitportale, Podcasts).
 3.  **Disambiguierung & Eindeutigkeit:** Sorge dafür, dass deine Daten (z.B. Name, Standort, Fachgebiet) überall im Netz konsistent vorliegen. Wenn die KI raten muss, wird sie dich nicht zitieren.
 
@@ -78,6 +78,6 @@ ALOHA 🌻
 </div>
 
 * [Was ist AI Presence?](/glossar/ki-sichtbarkeit-messen-optimieren/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Entity SEO Trends 2026](/glossar/entity-seo/)
 * [Was sind LLMs?](/glossar/llmo/)

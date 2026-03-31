@@ -3,7 +3,7 @@ title: 'Entity SEO: Das Wissens-Netzwerk für KIs'
 description: 'Entity SEO (2026): Optimierung für den semantischen Vektorraum. Erfahre, wie du ''Entity Depth'' & Grounding für LLMs nutzt. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page-standard"]
+related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page"]
 key_takeaways:
   - "Themen statt Keywords: KI-Modelle wie GPT-4 und Google AI Overviews verstehen Konzepte (Entitäten), nicht nur Text-Strings."
   - "Entity Depth: Die Tiefe deiner Daten (Nesting) bestimmt deine Position im semantischen Vektorraum der KIs."
@@ -35,7 +35,7 @@ Wer in Zeiten generativer Engines wachsen will, muss seine Arbeitsweise anpassen
 
 1.  **Topical Authority durch Clustering:** Erstelle keine isolierten Blogbeiträge. Baue Themen-Welten auf, die semantisch perfekt vernetzt sind. Deine Website muss der ultimative Wissens-Knotenpunkt für dein Thema werden.
 2.  **Entitäts-Bäume (Entity Depth):** Nutze verschachteltes Schema-Markup. Deklariere Personen, Produkte und Organisationen als eine Einheit. Je vernetzter deine Daten sind, desto weniger muss die KI raten.
-3.  **Grounding & Disambiguierung:** Nutze den [Groundingpage Standard v1.5](/glossar/grounding-page-standard/), um Halluzinationen vorzubeugen. Sorge für eine klare Unterscheidung (Disambiguierung) zu ähnlichen Marken oder Personen im Netz.
+3.  **Grounding & Disambiguierung:** Nutze den [Groundingpage Standard v1.5](/glossar/grounding-page/), um Halluzinationen vorzubeugen. Sorge für eine klare Unterscheidung (Disambiguierung) zu ähnlichen Marken oder Personen im Netz.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Der Wissensgraph</h4>
@@ -74,6 +74,6 @@ ALOHA 🌻
 </div>
 
 * [Was ist eine Entität?](/glossar/entitaet/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Was ist GEO?](/glossar/geo/)
 * [Semantic SEO](/glossar/semantic-seo/)

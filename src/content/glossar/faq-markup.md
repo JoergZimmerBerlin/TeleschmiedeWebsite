@@ -79,5 +79,5 @@ ALOHA 🌻
 
 * [Was ist GEO?](/glossar/geo/)
 * [Everything about RAG](/glossar/rag/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Entity SEO Trends 2026](/glossar/entity-seo/)

@@ -4,7 +4,7 @@ description: 'Schema.org ist 2026 mehr als nur SEO – es ist das globale Vokabu
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"
 image_alt: "Schema.org Markup 3D Infografik - Wissensbasis für KIs"
-related_terms: ["strukturierte-daten", "entity-seo", "knowledge-graph", "grounding-page-standard"]
+related_terms: ["strukturierte-daten", "entity-seo", "knowledge-graph", "grounding-page"]
 key_takeaways:
   - "KI-Vokabular: Schema.org ist die primäre Schnittstelle, über die LLMs (ChatGPT, Gemini) Fakten über deine Marke extrahieren."
   - "Entity Depth: Tief verschachteltes Markup (Article -> Author -> Organization) beweist fachliche Tiefe und Autorität."
@@ -80,7 +80,7 @@ ALOHA 🌻
 </div>
 
 * [Was sind strukturierte Daten?](/glossar/strukturierte-daten/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Die Bedeutung von Entity SEO](/glossar/entity-seo/)
 * [Was ist E-E-A-T?](/glossar/e-e-a-t/)
 

@@ -3,7 +3,7 @@ title: 'Strukturierte Daten: AI-Grounding & LLM-Fütterung'
 description: 'Strukturierte Daten (2026): Vom CMS-Plugin zur hochpräzisen Faktenquelle für KI-Modelle. Erfahre alles über AI-Grounding & Content Parity. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["schema-org-markup", "grounding-page-standard", "knowledge-graph", "geo"]
+related_terms: ["schema-org-markup", "grounding-page", "knowledge-graph", "geo"]
 key_takeaways:
   - "Strukturierte Daten: In 2026 die primäre 'Futterquelle' für Large Language Models (LLMs) zur Vermeidung von Halluzinationen."
   - "JSON-LD: Der universelle Standard zur maschinenlesbaren Übersetzung deiner Marken-Identität."
@@ -70,6 +70,6 @@ ALOHA 🌻
 </div>
 
 * [Alles über Schema.org](/glossar/schema-org-markup/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [GEO Agentur Strategie](/glossar/geo-agentur/)
 * [Wer sind Entitäten?](/glossar/entitaet/)

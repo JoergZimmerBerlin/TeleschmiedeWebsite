@@ -4,7 +4,7 @@ description: 'Trustworthiness 2026: Warum Vertrauen der wichtigste Faktor für K
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-trust-3d.webp"
 image_alt: "Trustworthiness (E-E-A-T) 3D Infografik - Vertrauen als Basis der KI-Optimierung"
-related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativeness-eeat", "grounding-page-standard"]
+related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativeness-eeat", "grounding-page"]
 key_takeaways:
   - "Kern-Faktor: Trustworthiness steht im Zentrum von E-E-A-T – alle anderen Faktoren bauen darauf auf."
   - "Halluzinations-Schutz: Korrekte Daten reduzieren KI-Halluzinationen und machen dich zur bevorzugten Quelle."
@@ -66,5 +66,5 @@ ALOHA 🌻
 
 * [Expertise: Fachwissen beweisen](/glossar/expertise-eeat/)
 * [Experience: Erfahrung zeigen](/glossar/experience-eeat/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [GEO Agentur Services](/glossar/geo-agentur/)

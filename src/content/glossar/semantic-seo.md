@@ -64,6 +64,6 @@ ALOHA 🌻
 </div>
 
 * [Was ist Entity SEO?](/glossar/entity-seo/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Was sind strukturierte Daten?](/glossar/strukturierte-daten/)
 * [GEO Agentur Strategie](/glossar/geo-agentur/)

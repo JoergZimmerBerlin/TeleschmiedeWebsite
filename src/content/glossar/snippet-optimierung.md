@@ -66,5 +66,5 @@ ALOHA 🌻
 
 * [CTR verstehen und für KIs optimieren](/glossar/ctr/)
 * [FAQ Markup als Wissensquelle](/glossar/faq-markup/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [GEO Agentur Strategie](/glossar/geo-agentur/)

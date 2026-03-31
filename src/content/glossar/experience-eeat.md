@@ -4,7 +4,7 @@ description: 'Experience (2026): Warum reale Praxiserfahrung das wichtigste Sign
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-experience-3d.webp"
 image_alt: "Experience (E-E-A-T) 3D Infografik - Reale Praxiserfahrung als KI-Bollwerk"
-related_terms: ["e-e-a-t", "expertise-eeat", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page-standard"]
+related_terms: ["e-e-a-t", "expertise-eeat", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]
 key_takeaways:
   - "Anti-KI-Signal: Echte, gelebte Erfahrung ist das einzige, was eine generative KI (noch) nicht faken kann."
   - "Beweis-Pflicht: 2026 werten KI-Agenten Bild-Metadaten und spezifische Detailbeschreibungen als 'Beweis' für Echtheit aus."
@@ -63,4 +63,4 @@ ALOHA 🌻
 
 * [Expertise vs. Experience](/glossar/expertise-eeat/)
 * [Trust: Die Basis aller Daten](/glossar/trustworthiness-eeat/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)

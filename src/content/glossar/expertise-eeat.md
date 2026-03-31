@@ -4,7 +4,7 @@ description: 'Expertise 2026: Wie du dein Fachwissen maschinenlesbar machst. Fac
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-expertise-3d.webp"
 image_alt: "Expertise (E-E-A-T) 3D Infografik - Fachliche Autorität in KI-Systemen"
-related_terms: ["e-e-a-t", "experience-eeat", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page-standard"]
+related_terms: ["e-e-a-t", "experience-eeat", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]
 key_takeaways:
   - "Topical Authority: Expertise wird 2026 durch die Breite und Tiefe deines semantischen Themennetzes (Glossar, Pillar-Pages) gemessen."
   - "Technische Signale: Zertifikate, Veröffentlichungen und berufliche Historie müssen als strukturierte Daten (`knowsAbout`) vorliegen."
@@ -57,5 +57,5 @@ ALOHA 🌻
 
 * [E-E-A-T im Überblick](/glossar/e-e-a-t/)
 * [Experience: Echte Erfahrung zeigen](/glossar/experience-eeat/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Entity SEO verstehen](/glossar/entity-seo/)

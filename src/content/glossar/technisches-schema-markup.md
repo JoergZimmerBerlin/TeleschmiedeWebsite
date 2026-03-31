@@ -3,7 +3,7 @@ title: 'Technisches Schema-Markup: Guide für LLMs & SEO'
 description: 'Schema-Markup 2026: Von Rich Snippets zur AI-Infrastruktur. Erfahre, wie du Entity-Depth und Disambiguierung für Google & LLMs nutzt. ALOHA! 🌻'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["schema-org-markup", "grounding-page-standard", "entity-seo", "faq-markup", "technisches-seo"]
+related_terms: ["schema-org-markup", "grounding-page", "entity-seo", "faq-markup", "technisches-seo"]
 key_takeaways:
   - "AI-Infrastruktur: Schema-Markup ist 2026 die primäre Datenquelle für LLMs (Generative AI), nicht nur für optische Google-Sterne."
   - "Entity Depth: Tief verschachtelte JSON-LD Strukturen (Nesting) bauen Autorität und E-E-A-T für Maschinen auf."
@@ -74,5 +74,5 @@ ALOHA 🌻
 
 * [Schema.org Markup Grundlagen](/glossar/schema-org-markup/)
 * [Strukturierte Daten für KIs](/glossar/strukturierte-daten/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [GEO Agentur Services](/glossar/geo-agentur/)

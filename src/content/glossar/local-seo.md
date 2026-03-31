@@ -4,7 +4,7 @@ description: 'Local SEO (2026): Von Google Maps zur ''Agentic Search''. Erfahre,
 date: "2026-03-31"
 image: "../../assets/images/blog/glossar-local-seo.webp"
 image_alt: "Local SEO 2026 - Sichtbarkeit für KI-Agenten"
-related_terms: ["citation", "mention", "google-business-profile", "grounding-page-standard"]
+related_terms: ["citation", "mention", "google-business-profile", "grounding-page"]
 key_takeaways:
   - "Agentic Search: Local SEO füttert 2026 primär KI-Agenten, die autonom Dienstleister buchen oder empfehlen."
   - "NAP-Grounding: Identische Name-, Adress- und Telefondaten über alle Entitäts-Knotenpunkte hinweg sind Pflicht."
@@ -74,6 +74,6 @@ ALOHA 🌻
 </div>
 
 * [Was sind Citations?](/glossar/citation/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [GEO Agentur Strategie](/glossar/geo-agentur/)
 * [Google Business Profile verstehen](/glossar/google-search-console/)

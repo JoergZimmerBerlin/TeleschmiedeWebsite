@@ -4,7 +4,7 @@ description: 'E-E-A-T (2026): Wie KI-Modelle Expertise, Erfahrung, Autorität un
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "E-E-A-T 3D Infografik - Vertrauen als Rankingfaktor für KIs"
-related_terms: ["geo", "grounding-page-standard", "technisches-schema-markup", "authoritativeness-eeat"]
+related_terms: ["geo", "grounding-page", "technisches-schema-markup", "authoritativeness-eeat"]
 key_takeaways:
   - "Technische Validierung: E-E-A-T ist 2026 messbar durch digitale Signaturen, Schema-Nesting und Zitationen im Knowledge Graph."
   - "Experience ist Trumpf: KI-Modelle belohnen reale Praxiserfahrung ('First-Hand-Experience') massiv gegenüber generiertem Wissen."
@@ -64,7 +64,7 @@ Jeder Fachartikel muss über Schema.org (`ProfilePage` oder `author`) eindeutig 
 *   Zertifikate sollten maschinenlesbar im Schema deklariert sein.
 
 ### 2. Der Groundingpage Standard v1.5
-Nutze eine dedizierte [Groundingpage](/glossar/grounding-page-standard/), um dein E-E-A-T Profil für Crawler mundgerecht zu servieren. Es ist der Ort, an dem die KI deine Expertise "prüfen" kann, ohne raten zu müssen.
+Nutze eine dedizierte [Groundingpage](/glossar/grounding-page/), um dein E-E-A-T Profil für Crawler mundgerecht zu servieren. Es ist der Ort, an dem die KI deine Expertise "prüfen" kann, ohne raten zu müssen.
 
 ### 3. Citations & Sentiment
 KIs messen heute das Sentiment rund um deine Marke. Positive Erwähnungen auf Experten-Portalen sind wertvoller als 100 mittelmäßige Backlinks. Nutze Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um deine KI-Reputation in Echtzeit zu tracken.
@@ -84,5 +84,5 @@ ALOHA 🌻
 </div>
 
 * [Expertise & Entity Depth](/glossar/technisches-schema-markup/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Was ist Trustworthiness?](/glossar/trustworthiness-eeat/)

@@ -4,7 +4,7 @@ description: 'Authoritativeness 2026: Warum deine digitale Reputation wichtiger 
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 image_alt: "Authoritativeness (E-E-A-T) 3D Infografik - Digitale Reputation im KI-Zeitalter"
-related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "trustworthiness-eeat", "grounding-page-standard"]
+related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "trustworthiness-eeat", "grounding-page"]
 key_takeaways:
   - "Externe Bestätigung: Autorität kommt 2026 primär durch Zitationen und Erwähnungen (Mentions) auf Drittportalen."
   - "Knowledge Graph: Das Ziel ist eine feste Verankerung als unbestreitbare Quelle am Knotenpunkt eines Wissensgebiets."
@@ -44,7 +44,7 @@ Wirst du als Antwort-Anker genutzt? In der generativen Suche ([GEO](/glossar/geo
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Autorität durch Grounding</h4>
-  <p class="mb-0 text-sm">In der GEO-Welt ist Authority das ultimative Signal dafür, ob LLMs dich für ihre Antwort-Synthese auswählen. Nutze eine [Groundingpage](/glossar/grounding-page-standard/), um deine Reputation maschinenlesbar zu bündeln. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du heute präzise messen, ob dich KI-Suchmaschinen bereits als Autorität für dein Kernthema zitieren.</p>
+  <p class="mb-0 text-sm">In der GEO-Welt ist Authority das ultimative Signal dafür, ob LLMs dich für ihre Antwort-Synthese auswählen. Nutze eine [Groundingpage](/glossar/grounding-page/), um deine Reputation maschinenlesbar zu bündeln. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du heute präzise messen, ob dich KI-Suchmaschinen bereits als Autorität für dein Kernthema zitieren.</p>
 </div>
 
 ## Dein nächster Schritt: Reputations-Building
@@ -62,5 +62,5 @@ ALOHA 🌻
 
 * [E-E-A-T Übersicht 2026](/glossar/e-e-a-t/)
 * [Expertise & Entity Depth](/glossar/expertise-eeat/)
-* [Groundingpage Standard v1.5](/glossar/grounding-page-standard/)
+* [Groundingpage Standard v1.5](/glossar/grounding-page/)
 * [Sichtbarkeit im LLM messen](/glossar/ki-sichtbarkeit-messen-optimieren/)

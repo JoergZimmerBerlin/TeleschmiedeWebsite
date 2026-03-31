@@ -18,7 +18,29 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <!-- Form Column -->
         <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-200">
-          <h2 class="text-2xl font-bold mb-6 border-b pb-4">Entitätsdaten Eingeben</h2>
+          
+          <!-- AI Assistant Block -->
+          <div class="bg-gradient-to-r from-lime-50 to-lime-100 p-6 rounded-2xl mb-8 border border-lime-200 shadow-inner">
+            <h3 class="text-lg font-bold text-dark mb-3 flex items-center gap-2">
+              <svg class="w-5 h-5 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+              Auto-Fill mit KI (Prompt-Bridge)
+            </h3>
+            <p class="text-sm text-gray-700 mb-4">Lass ChatGPT oder Claude die Arbeit für dich machen! Gib deine Ziel-URL (z.B. Impressum) ein und kopiere den intelligenten Extraktions-Prompt.</p>
+            
+            <div class="flex gap-2 flex-col sm:flex-row mb-2">
+              <input type="url" id="ai-url" placeholder="https://deine-domain.de" class="w-full px-4 py-2 rounded-lg border border-lime-300 focus:ring-2 focus:ring-lime-500 focus:outline-none text-sm" />
+              <button type="button" id="btn-generate-prompt" class="bg-lime-600 hover:bg-lime-700 text-white font-bold py-2 px-4 rounded-xl text-sm whitespace-nowrap transition-colors">Prompt kopieren</button>
+            </div>
+
+            <div id="ai-json-area" class="hidden mt-4 pt-4 border-t border-lime-200">
+              <label class="block text-sm font-bold text-gray-700 mb-2">JSON-Antwort der KI hier einfügen:</label>
+              <textarea id="ai-json-input" rows="4" class="w-full px-4 py-2 rounded-lg border border-lime-300 focus:ring-2 focus:ring-lime-500 focus:outline-none text-xs font-mono" placeholder='{\n  "name": "...",\n  "type": "organization"\n}'></textarea>
+              <button type="button" id="btn-apply-json" class="mt-2 w-full bg-dark hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-xl text-sm transition-colors">Automagisch ausfüllen</button>
+              <p id="json-error" class="text-red-500 text-xs mt-2 hidden">Ungültiges JSON-Format. Bitte prüfe die KI-Antwort.</p>
+            </div>
+          </div>
+
+          <h2 class="text-2xl font-bold mb-6 border-b pb-4">Entitätsdaten Manuell Prüfen</h2>
           
           <form id="generator-form" class="space-y-6">
             <div>
@@ -27,18 +49,29 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
             </div>
 
             <div>
-              <label class="block text-sm font-bold text-gray-700 mb-1">Entitätstyp*</label>
+              <label class="block text-sm font-bold text-gray-700 mb-1">Entitätsklasse (Ontologie V2)*</label>
               <select id="type" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none">
-                <option value="Organization">Organisation (Firma)</option>
-                <option value="LocalBusiness">Lokales Unternehmen</option>
-                <option value="Person">Person / Freelancer</option>
+                <!-- Dropdown populated dynamically via JS -->
               </select>
+              <p id="type-hint" class="text-xs text-gray-500 mt-2 hidden">Referenz-Beispiel: <a href="#" id="type-ref-link" target="_blank" rel="noopener noreferrer" class="text-lime-600 hover:underline">Link</a></p>
             </div>
 
             <div class="grid grid-cols-2 gap-4">
-              <div>
+              <div id="field-foundingDate" class="dynamic-field">
                 <label class="block text-sm font-bold text-gray-700 mb-1">Gründungsdatum</label>
                 <input type="date" id="foundingDate" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" />
+              </div>
+              <div id="field-datePublished" class="dynamic-field hidden">
+                <label class="block text-sm font-bold text-gray-700 mb-1">Veröffentlichungsdatum</label>
+                <input type="date" id="datePublished" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" />
+              </div>
+              <div id="field-startDate" class="dynamic-field hidden">
+                <label class="block text-sm font-bold text-gray-700 mb-1">Startdatum</label>
+                <input type="date" id="startDate" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" />
+              </div>
+              <div id="field-endDate" class="dynamic-field hidden">
+                <label class="block text-sm font-bold text-gray-700 mb-1">Enddatum</label>
+                <input type="date" id="endDate" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" />
               </div>
               <div>
                 <label class="block text-sm font-bold text-gray-700 mb-1">Ausgabesprache*</label>
@@ -59,7 +92,7 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
               <textarea id="description" rows="3" placeholder="z.B. [Name] ist ein Experte für [Bereich] in [Ort]..." class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" required></textarea>
             </div>
 
-            <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
+            <div id="field-location" class="dynamic-field bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h3 class="font-bold text-sm mb-3">Standort (optional)</h3>
               <div class="grid grid-cols-1 gap-4">
                 <input type="text" id="street" placeholder="Straße & Hausnummer" class="w-full px-4 py-1.5 rounded-lg border border-gray-300 text-sm" />
@@ -112,22 +145,105 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
 </Layout>
 
 <script is:inline>
+  const entityClasses = {
+    // Gruppe A: Akteure & Einheiten
+    "organization": { schema: "Organization", group: "Akteure & Einheiten", name: "Organisation / Firma", ref: "gpt-insights", showFields: ["foundingDate", "location"] },
+    "person": { schema: "Person", group: "Akteure & Einheiten", name: "Natürliche Person", ref: "hanns-kronenberg", showFields: ["location"] },
+    "role": { schema: "Audience", group: "Akteure & Einheiten", name: "Rolle / Zielgruppe", ref: "seo-manager", showFields: [] },
+    
+    // Gruppe B: Kommerzielle Angebote
+    "product": { schema: "Product", group: "Kommerzielle Angebote", name: "Physisches/Digitales Produkt", ref: "haribo-goldbaeren", showFields: [] },
+    "service": { schema: "Service", group: "Kommerzielle Angebote", name: "Dienstleistung / Service", ref: "ai-visibility-audit", showFields: ["location"] },
+    "software": { schema: "SoftwareApplication", group: "Kommerzielle Angebote", name: "Software / Plattform", ref: "rankscale", showFields: [] },
+    "feature": { schema: "SoftwareApplication", group: "Kommerzielle Angebote", name: "Feature / Modul", ref: "sendungsverfolgung", showFields: [] },
+    "segment": { schema: "CategoryCode", group: "Kommerzielle Angebote", name: "Marktsegment / Kategorie", ref: "ai-visibility-tools", showFields: [] },
+
+    // Gruppe C: Wissen & Methodik
+    "discipline": { schema: "Thing", group: "Wissen & Methodik", name: "Disziplin / Praxisbereich", ref: "ai-seo", showFields: [] },
+    "concept": { schema: "DefinedTerm", group: "Wissen & Methodik", name: "Konzept / Begriff", ref: "grounding", showFields: [] },
+    "work": { schema: "CreativeWork", group: "Wissen & Methodik", name: "Abgeschlossenes Werk / Dok.", ref: "nber-wp-34255-2025", showFields: ["datePublished"] },
+    "dataset": { schema: "Dataset", group: "Wissen & Methodik", name: "Datensatz / Corpus", ref: "common-crawl-web-corpus", showFields: [] },
+    "standard": { schema: "Standard", group: "Wissen & Methodik", name: "Spezifikation / Standard", ref: "grounding-page-standard", showFields: ["datePublished"] },
+    "procedure": { schema: "HowTo", group: "Wissen & Methodik", name: "Prozedur / Methode", ref: "ab-testing-method", showFields: [] },
+
+    // Gruppe D: Zeit, Raum & Messung
+    "location": { schema: "Place", group: "Zeit, Raum & Messung", name: "Physischer Ort / Region", ref: "bonn-de", showFields: ["location"] },
+    "event": { schema: "Event", group: "Zeit, Raum & Messung", name: "Zeitlich begrenztes Ereignis", ref: "smx-munich-2026", showFields: ["startDate", "endDate", "location"] },
+    "score": { schema: "QuantitativeValue", group: "Zeit, Raum & Messung", name: "Score / Metrik", ref: "sentiment-score-rankscale", showFields: [] },
+    "project": { schema: "Project", group: "Zeit, Raum & Messung", name: "Projekt / Initiative", ref: "grounding-page-project", showFields: ["startDate", "endDate"] }
+  };
+
   const form = document.getElementById('generator-form');
+  const typeSelect = document.getElementById('type');
+  const typeHint = document.getElementById('type-hint');
+  const typeRefLink = document.getElementById('type-ref-link');
   const outputHtml = document.getElementById('output-html');
   const outputJson = document.getElementById('output-json');
   const copyHtml = document.getElementById('copy-html');
   const copyJson = document.getElementById('copy-json');
 
+  // Initialize Select Options
+  const groups = {};
+  for (const [key, val] of Object.entries(entityClasses)) {
+    if (!groups[val.group]) groups[val.group] = [];
+    groups[val.group].push({key, ...val});
+  }
+  
+  for (const [groupName, items] of Object.entries(groups)) {
+    const optgroup = document.createElement('optgroup');
+    optgroup.label = groupName;
+    items.forEach(item => {
+      const option = document.createElement('option');
+      option.value = item.key;
+      option.textContent = item.name;
+      optgroup.appendChild(option);
+    });
+    typeSelect.appendChild(optgroup);
+  }
+
+  // Handle Type Change
+  typeSelect.addEventListener('change', (e) => {
+    const selected = entityClasses[e.target.value];
+    
+    // Update reference link
+    if (selected && selected.ref) {
+      typeHint.classList.remove('hidden');
+      typeRefLink.href = 'https://groundingpage.com/facts/' + selected.ref + '/de/';
+      typeRefLink.textContent = selected.ref;
+    } else {
+      typeHint.classList.add('hidden');
+    }
+
+    // Toggle fields dynamically
+    document.querySelectorAll('.dynamic-field').forEach(el => el.classList.add('hidden'));
+    if (selected && selected.showFields) {
+      selected.showFields.forEach(f => {
+        const fieldEl = document.getElementById('field-' + f);
+        if (fieldEl) fieldEl.classList.remove('hidden');
+      });
+    }
+  });
+
+  // Trigger initial change
+  typeSelect.dispatchEvent(new Event('change'));
+
   const generateCode = (e) => {
     e.preventDefault();
     
     const lang = document.getElementById('langChoice').value;
+    const typeKey = document.getElementById('type').value;
+    const selectedClass = entityClasses[typeKey];
+    
     const data = {
       name: document.getElementById('name').value,
-      type: document.getElementById('type').value,
+      schemaType: selectedClass ? selectedClass.schema : "Thing",
+      className: selectedClass ? selectedClass.name : "",
       url: document.getElementById('url').value,
       desc: document.getElementById('description').value,
       foundingDate: document.getElementById('foundingDate').value,
+      datePublished: document.getElementById('datePublished').value,
+      startDate: document.getElementById('startDate').value,
+      endDate: document.getElementById('endDate').value,
       street: document.getElementById('street').value,
       zip: document.getElementById('zip').value,
       city: document.getElementById('city').value,
@@ -140,8 +256,12 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
         notice: 'Hinweis',
         noticeText: 'Dies ist eine standardisierte <em>Grounding Page</em> (Factsheet). Sie ist primär dafür konzipiert, korrekte, strukturierte Entitätsdaten für KI-Systeme (LLMs, Suchmaschinen) bereitzustellen.',
         coreData: 'Kern-Entitätsdaten',
-        type: 'Entitätstyp',
+        class: 'Entitätsklasse',
+        type: 'Schema Typ',
         founded: 'Gegründet',
+        published: 'Veröffentlicht',
+        start: 'Start',
+        end: 'Ende',
         url: 'Offizielle URL',
         location: 'Standort',
         disambiguation: 'Unterscheidung (Disambiguierung)',
@@ -152,8 +272,12 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
         notice: 'Notice',
         noticeText: 'This is a standardized <em>Grounding Page</em> (Factsheet). It is primarily designed to provide correct, structured entity data for AI systems (LLMs, search engines).',
         coreData: 'Core Entity Data',
-        type: 'Entity Type',
+        class: 'Entity Class',
+        type: 'Schema Type',
         founded: 'Founded',
+        published: 'Published',
+        start: 'Start',
+        end: 'End',
         url: 'Official URL',
         location: 'Location',
         disambiguation: 'Disambiguation',
@@ -164,7 +288,7 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
     const t = i18n[lang];
 
     const templateHtml = `
-<!-- Groundingpage Standard v1.5 (\${lang.toUpperCase()}) -->
+<!-- Groundingpage Standard v2.0 (\${lang.toUpperCase()}) -->
 <main class="grounding-page">
   <h1>\${data.name} (\${t.factSheet})</h1>
 
@@ -176,13 +300,24 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
 
   <h3>\${t.coreData}</h3>
   <dl class="data-grid">
+    <dt>\${t.class}</dt>
+    <dd>\${data.className}</dd>
     <dt>\${t.type}</dt>
-    <dd>\${data.type}</dd>
-  \${data.foundingDate ? `
+    <dd>\${data.schemaType}</dd>
+  \${selectedClass.showFields.includes('foundingDate') && data.foundingDate ? `
     <dt>\${t.founded}</dt>
     <dd>\${data.foundingDate}</dd>` : ''}
+  \${selectedClass.showFields.includes('datePublished') && data.datePublished ? `
+    <dt>\${t.published}</dt>
+    <dd>\${data.datePublished}</dd>` : ''}
+  \${selectedClass.showFields.includes('startDate') && data.startDate ? `
+    <dt>\${t.start}</dt>
+    <dd>\${data.startDate}</dd>` : ''}
+  \${selectedClass.showFields.includes('endDate') && data.endDate ? `
+    <dt>\${t.end}</dt>
+    <dd>\${data.endDate}</dd>` : ''}
     <dt>\${t.url}</dt>
-    <dd><a href="\${data.url}">\${data.url}</a></dd>\${data.city ? `
+    <dd><a href="\${data.url}">\${data.url}</a></dd>\${selectedClass.showFields.includes('location') && data.city ? `
     <dt>\${t.location}</dt>
     <dd>\${data.street ? data.street + ', ' : ''}\${data.zip} \${data.city}</dd>` : ''}
   </dl>
@@ -194,18 +329,37 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
 
     const schemaJson = {
       "@context": "https://schema.org",
-      "@type": data.type,
+      "@type": data.schemaType,
       "name": data.name,
       "url": data.url,
       "description": data.desc,
-      "foundingDate": data.foundingDate || undefined,
-      "address": data.city ? {
-        "@type": "PostalAddress",
-        "streetAddress": data.street || undefined,
-        "addressLocality": data.city,
-        "postalCode": data.zip || undefined
-      } : undefined
     };
+    
+    if (selectedClass.showFields.includes('foundingDate') && data.foundingDate) schemaJson.foundingDate = data.foundingDate;
+    if (selectedClass.showFields.includes('datePublished') && data.datePublished) schemaJson.datePublished = data.datePublished;
+    if (selectedClass.showFields.includes('startDate') && data.startDate) schemaJson.startDate = data.startDate;
+    if (selectedClass.showFields.includes('endDate') && data.endDate) schemaJson.endDate = data.endDate;
+
+    if (selectedClass.showFields.includes('location') && data.city) {
+      if (data.schemaType === "Event") {
+        schemaJson.location = {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": data.street || undefined,
+            "addressLocality": data.city,
+            "postalCode": data.zip || undefined
+          }
+        };
+      } else {
+        schemaJson.address = {
+          "@type": "PostalAddress",
+          "streetAddress": data.street || undefined,
+          "addressLocality": data.city,
+          "postalCode": data.zip || undefined
+        };
+      }
+    }
 
     outputHtml.textContent = templateHtml;
     outputJson.textContent = JSON.stringify(schemaJson, null, 2);
@@ -232,4 +386,99 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
 
   copyHtml.addEventListener('click', () => copyToClipboard(outputHtml, copyHtml));
   copyJson.addEventListener('click', () => copyToClipboard(outputJson, copyJson));
+
+  // --- AI Bridge Logic ---
+  const btnGeneratePrompt = document.getElementById('btn-generate-prompt');
+  const aiUrl = document.getElementById('ai-url');
+  const aiJsonArea = document.getElementById('ai-json-area');
+  const aiJsonInput = document.getElementById('ai-json-input');
+  const btnApplyJson = document.getElementById('btn-apply-json');
+  const jsonError = document.getElementById('json-error');
+
+  btnGeneratePrompt.addEventListener('click', () => {
+    const url = aiUrl.value.trim();
+    if(!url) return alert("Bitte eine URL eingeben.");
+
+    const classesList = Object.keys(entityClasses).map(k => `"${k}": ${entityClasses[k].name}`).join("\\n");
+
+    const promptText = `Lies den Inhalt der folgenden URL: ${url}
+
+Deine Aufgabe ist es, exakte Entitätsdaten für den Groundingpage-Standard V2 zu extrahieren.
+Verwende ausschließlich diese zulässigen Ontologie-Klassen-IDs für das Feld "type":
+${classesList}
+
+Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt. Keine Markdown-Blöcke (\`\`\`json).
+{
+  "name": "Der offizielle Name der Entität",
+  "type": "<ID aus der Liste oben>",
+  "url": "Die offizielle URL",
+  "description": "Eine scharfe, präzise Kurzbeschreibung im Lexikon-Stil (max. 2 Sätze)",
+  "disambiguation": "Was ist die Entität NICHT? (z.B. 'KEINE SEO Agentur')",
+  "street": "Straße inkl. Hausnummer (nur falls zutreffend)",
+  "zip": "Postleitzahl",
+  "city": "Stadt",
+  "foundingDate": "YYYY-MM-DD (nur falls es sich um eine Firma handelt)",
+  "datePublished": "YYYY-MM-DD (nur für Publikationen/Standards)",
+  "startDate": "YYYY-MM-DD (nur für Events/Projekte)",
+  "endDate": "YYYY-MM-DD (nur für Events/Projekte)"
+}`;
+
+    navigator.clipboard.writeText(promptText).then(() => {
+      const originalText = btnGeneratePrompt.textContent;
+      btnGeneratePrompt.textContent = 'Kopiert! Bei KI einfügen.';
+      btnGeneratePrompt.classList.replace('bg-lime-600', 'bg-green-600');
+      
+      aiJsonArea.classList.remove('hidden');
+
+      setTimeout(() => {
+        btnGeneratePrompt.textContent = originalText;
+        btnGeneratePrompt.classList.replace('bg-green-600', 'bg-lime-600');
+      }, 3000);
+    });
+  });
+
+  btnApplyJson.addEventListener('click', () => {
+    jsonError.classList.add('hidden');
+    let raw = aiJsonInput.value.trim();
+    if(raw.startsWith('\`\`\`json')) raw = raw.slice(7);
+    if(raw.startsWith('\`\`\`')) raw = raw.slice(3);
+    if(raw.endsWith('\`\`\`')) raw = raw.slice(0, -3);
+    raw = raw.trim();
+
+    try {
+      const parsed = JSON.parse(raw);
+      
+      const setV = (id, key) => { if(parsed[key] !== undefined && parsed[key] !== null && document.getElementById(id)) document.getElementById(id).value = parsed[key]; };
+      
+      setV('name', 'name');
+      setV('url', 'url');
+      setV('description', 'description');
+      setV('disambiguation', 'disambiguation');
+      setV('street', 'street');
+      setV('zip', 'zip');
+      setV('city', 'city');
+      setV('foundingDate', 'foundingDate');
+      setV('datePublished', 'datePublished');
+      setV('startDate', 'startDate');
+      setV('endDate', 'endDate');
+
+      if(parsed.type && entityClasses[parsed.type]) {
+        document.getElementById('type').value = parsed.type;
+        document.getElementById('type').dispatchEvent(new Event('change'));
+      }
+
+      form.dispatchEvent(new Event('submit'));
+      
+      btnApplyJson.textContent = "Erfolgreich!";
+      btnApplyJson.classList.replace('bg-dark', 'bg-green-500');
+      setTimeout(() => {
+        btnApplyJson.textContent = "Automagisch ausfüllen";
+        btnApplyJson.classList.replace('bg-green-500', 'bg-dark');
+      }, 2000);
+
+    } catch (e) {
+      jsonError.classList.remove('hidden');
+      console.error("JSON Parsing failed:", e);
+    }
+  });
 </script>

@@ -13,8 +13,9 @@ import Layout from '../../layouts/Layout.astro';
           Grounding Page Generator
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Mach es dir einfach: Gib deine Domain ein. Kopiere unseren perfektionierten Mega-Prompt. Füge ihn in ChatGPT ein und du erhältst direkt den perfekten HTML-Code samt Schema-Markup.
+          Mach es dir einfach: Gib deine Domain ein. Kopiere unseren perfektionierten Mega-Prompt. Füge ihn in ChatGPT / Gemini / LLM ein und du erhältst direkt den perfekten HTML-Code samt Schema-Markup.
         </p>
+
       </div>
 
       <!-- KI Prompt Box -->
@@ -102,9 +103,10 @@ import Layout from '../../layouts/Layout.astro';
             <div>
               <h4 class="font-bold text-dark">Verlinkung (Wichtig!)</h4>
               <p class="text-gray-600 text-sm">
-                Damit KI-Bots deine Groundingpage finden, musst du sie prominent auf deiner Website verlinken (am besten im Footer als "KI-Facts" oder "Groundingpage") und in deiner `llms.txt` referenzieren.
+                Damit KI-Bots deine Groundingpage finden, musst du sie prominent auf deiner Website verlinken (am besten im Footer als "Facts" oder "Groundingpage").
               </p>
             </div>
+
           </div>
         </div>
       </div>
@@ -160,11 +162,12 @@ import Layout from '../../layouts/Layout.astro';
 
           <details class="bg-white rounded-2xl shadow-sm border border-gray-100 group">
             <summary class="flex items-center justify-between cursor-pointer list-none p-6 font-bold text-lg [&::-webkit-details-marker]:hidden">
-               Brauche ich zwingend englische Grounding-Prozesse?
+               Brauche ich zwingend eine englische Grounding Page?
               <span class="transition group-open:rotate-180">
                 <svg fill="none" class="h-6 w-6 text-gray-500" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
               </span>
             </summary>
+
             <div class="text-gray-600 px-6 pb-6 pt-0 leading-relaxed">
               Nein, aber es wird dringend empfohlen für maximale Relevanz. Fast alle großen Large Language Models (LLMs) besitzen einen hauptsächlich englischen Kern-Datensatz (Bias). Legst du deine Fakten in deiner Heimatsprache UND zusätzlich auf Englisch ab, stellen die KI-Bots internationale Querverbindungen zur Entität deutlich präziser her.
             </div>
@@ -265,7 +268,7 @@ BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
   * \`memberOf\` (für Netzwerke und Zugehörigkeiten)
   * \`sameAs\` (für alle Profile wie LinkedIn, Instagram, Wayback Machine etc.)
   * \`aggregateRating\` (für Bewertungen)
-  * Hänge zusätzlich ein \`FAQPage\` Schema an, falls Fragen/Antworten auf der Seite existieren.
+
 
 WICHTIG:
 Gib mir nur die beiden fertig nutzbaren Blöcke aus, sodass ich sie ohne Nacharbeit direkt für meine Website kopieren kann.`;

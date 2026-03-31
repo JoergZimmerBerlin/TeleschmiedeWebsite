@@ -15,6 +15,13 @@ Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der 
 Früher haben wir Landingpages für Nutzer gebaut.
 Heute bauen wir Grounding Pages für Maschinen.
 
+<div class="my-8 bg-gray-50 border border-gray-100 p-6 md:p-8 rounded-2xl shadow-sm">
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0 italic font-headings">Tool-Empfehlung: Einfach selbst machen</h4>
+  <p class="mb-4 text-gray-600 text-sm">Keine Lust auf manuelles Coden? Nutze unseren kostenlosen <a href="/tools/groundingpage-generator/" class="underline font-bold text-lime-700 hover:text-dark transition-colors">Grounding Page Generator</a>, um in Sekunden den perfekten Prompt für deine eigene Fakten-Seite zu erzeugen.</p>
+  <a href="/tools/groundingpage-generator/" class="bg-dark text-lime-accent font-bold px-6 py-2 rounded-xl text-sm hover:bg-black transition-all inline-flex shadow-sm">Zum Generator →</a>
+</div>
+
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? "</p>

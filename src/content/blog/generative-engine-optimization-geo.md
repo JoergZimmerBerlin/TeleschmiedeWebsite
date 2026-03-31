@@ -106,7 +106,14 @@ Eine [Groundingpage](/glossar/grounding-page/) ist eine dedizierte Unterseite, d
 
 Stell dir vor, die KI hat eine Frage zu deinem Service. Statt durch 50 Blogartikel zu raten, findet sie die Groundingpage und bekommt alle Fakten auf dem Silbertablett serviert. Das ist kein Marketing-Geseier, das ist technischer Service für die Software, die heute deine Kunden berät.
 
+<div class="my-8 bg-gray-50 border border-gray-100 p-6 md:p-8 rounded-2xl shadow-sm">
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0 italic font-headings">Tool-Tipp: Schnellstart</h4>
+  <p class="mb-4 text-gray-600">Du willst direkt loslegen? Nutze unseren kostenlosen <a href="/tools/groundingpage-generator/" class="underline font-bold text-lime-700 hover:text-dark transition-colors">Grounding Page Generator</a>, um in Sekunden den perfekten System-Prompt für deine eigene Fakten-Seite zu erzeugen.</p>
+  <a href="/tools/groundingpage-generator/" class="inline-flex justify-center items-center gap-2 bg-dark text-lime-accent font-bold px-6 py-2 rounded-xl text-sm hover:bg-black transition-all shadow-sm">Zum Generator →</a>
+</div>
+
 ### Blueprint: So baust du deine Groundingpage
+
 
 | Element | Inhalt / Fokus | Business-Nutzen |
 | :--- | :--- | :--- |

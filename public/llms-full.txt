@@ -8775,7 +8775,14 @@ Eine [Groundingpage](https://teleschmie.de/glossar/grounding-page/) ist eine ded
 
 Stell dir vor, die KI hat eine Frage zu deinem Service. Statt durch 50 Blogartikel zu raten, findet sie die Groundingpage und bekommt alle Fakten auf dem Silbertablett serviert. Das ist kein Marketing-Geseier, das ist technischer Service für die Software, die heute deine Kunden berät.
 
+
+  Tool-Tipp: Schnellstart
+  Du willst direkt loslegen? Nutze unseren kostenlosen Grounding Page Generator, um in Sekunden den perfekten System-Prompt für deine eigene Fakten-Seite zu erzeugen.
+  Zum Generator →
+
+
 ### Blueprint: So baust du deine Groundingpage
+
 
 | Element | Inhalt / Fokus | Business-Nutzen |
 | :--- | :--- | :--- |

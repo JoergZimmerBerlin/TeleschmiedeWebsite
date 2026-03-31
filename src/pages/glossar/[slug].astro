@@ -108,7 +108,15 @@ const relatedBlogPosts = allBlogPosts
       </div>
 
       <header class="mb-12">
-        <p class="subheadline mb-4">SEO Begriffslexikon</p>
+        <p class="subheadline mb-4 flex flex-wrap items-center gap-2">
+          <span>SEO Begriffslexikon</span>
+          {lastReviewed && (
+            <span class="text-gray-muted text-xs font-normal italic">
+              • Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </span>
+          )}
+        </p>
+
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
           {entry.data.title}
         </h1>
@@ -309,8 +317,10 @@ const relatedBlogPosts = allBlogPosts
     title={entry.data.title}
     description={entry.data.description}
     image={entryImageWebp ? `https://teleschmie.de${entryImageWebp.src}` : undefined}
+    dateModified={lastReviewed}
     lastReviewed={lastReviewed}
     faqs={entry.data.faqs}
+
     url={`https://teleschmie.de/glossar/${entry.id}/`}
   />
 </Layout>

@@ -85,7 +85,13 @@ const offers = [
     <div class="container-narrow">
       <div class="flex flex-col md:flex-row items-center gap-12">
         <div class="md:w-3/5 z-10">
-          <p class="subheadline mb-4 uppercase text-sm tracking-widest text-dark font-bold bg-lime-accent inline-block px-4 py-1 rounded-full">Moin! 🌻 Ich bin Jörg.</p>
+          <p class="subheadline mb-4 uppercase text-sm tracking-widest text-dark font-bold bg-lime-accent inline-block px-4 py-1 rounded-full flex flex-wrap items-center gap-x-2">
+            <span>Moin! 🌻 Ich bin Jörg.</span>
+            {lastReviewed && (
+              <span class="opacity-70 text-[10px] font-normal normal-case border-l border-dark/20 pl-2">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            )}
+          </p>
+
           <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold text-dark mb-6 leading-normal">
             Dein <span class="highlight">Google Ads Freelancer</span>: Klare Kante statt Klick-Abzocke.
           </h1>

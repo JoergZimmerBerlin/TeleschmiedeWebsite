@@ -1,6 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { getGitModDate } from '../utils/git-date';
+
+const lastReviewed = getGitModDate('src/pages/groundingpage-en.astro');
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 ---
 
 <Layout
@@ -191,7 +195,8 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </dd>
 
       <dt>Verified Date</dt>
-      <dd>2026-03-11</dd>
+      <dd>{lastReviewed}</dd>
+
     </dl>
 
     <!-- 5. DISAMBIGUATION -->
@@ -211,7 +216,10 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
         "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
         "description": "Jörg Zimmer is an experienced Performance Marketing Specialist and SEO & SEA Freelancer offering individual strategies and personal consulting. Active in online marketing since July 2001.",
         "foundingDate": "2001-07-23",
+        "dateModified": lastReviewed,
+        "lastReviewed": lastReviewed,
         "vatID": "DE232939553",
+
         "url": "https://teleschmie.de/groundingpage-en/",
         "telephone": "+493049208184",
         "email": "info@teleschmie.de",

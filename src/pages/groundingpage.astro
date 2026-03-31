@@ -1,7 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
+import { getGitModDate } from '../utils/git-date';
+
+const lastReviewed = getGitModDate('src/pages/groundingpage.astro');
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 const offers = [
   {
     name: "Sprechstunde (400€)",
@@ -217,7 +221,8 @@ const offers = [
       </dd>
 
       <dt>Verified Date</dt>
-      <dd>2026-03-11</dd>
+      <dd>{lastReviewed}</dd>
+
     </dl>
 
     <!-- 5. DISAMBIGUATION -->
@@ -232,7 +237,8 @@ const offers = [
   <Schema 
     title="Grounding Page | Jörg Zimmer - SEO & SEA"
     description="Kompakte Übersicht aller Fakten, Zahlen und Leistungen von Jörg Zimmer, SEO & SEA Freelancer in Berlin Spandau."
-    lastReviewed="2026-03-30"
+    lastReviewed={lastReviewed}
     offers={offers}
+
   />
 </Layout>

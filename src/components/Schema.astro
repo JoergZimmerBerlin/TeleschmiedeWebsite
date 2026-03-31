@@ -11,7 +11,9 @@ interface Props {
   type?: 'article' | 'glossary' | 'about' | 'default';
   image?: string;
   datePublished?: string;
+  dateModified?: string;
   faqs?: any[];
+
   offers?: any[];
   mainEntity?: any;
 }
@@ -24,9 +26,11 @@ const {
   type = 'default',
   image,
   datePublished,
+  dateModified,
   offers,
   faqs,
   mainEntity
+
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
@@ -119,7 +123,9 @@ const businessEntity: any = {
   "priceRange": "€€",
   "vatID": "DE232939553",
   "foundingDate": "2001-07-23",
+  "dateModified": dateModified || lastReviewed,
   "lastReviewed": lastReviewed,
+
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Zu den Fichtewiesen 16",
@@ -205,8 +211,10 @@ if (type === 'article') {
     "description": description,
     "image": image,
     "datePublished": datePublished,
+    "dateModified": dateModified || lastReviewed || datePublished,
     "lastReviewed": lastReviewed,
     "author": { "@id": personId },
+
     "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@type": "WebPage", "@id": url }
   } as any);
@@ -215,8 +223,10 @@ if (type === 'article') {
     "@type": "DefinedTerm",
     "name": title,
     "description": description,
+    "dateModified": dateModified || lastReviewed,
     "lastReviewed": lastReviewed,
     "inDefinedTermSet": `${siteUrl}/glossar/`,
+
     "image": image,
     "author": { "@id": personId },
     "publisher": { "@id": businessId }

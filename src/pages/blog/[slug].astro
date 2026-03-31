@@ -150,9 +150,15 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
 
       <!-- Article Header (Moved UP) -->
       <header class="mb-12 max-w-4xl">
-        <p class="subheadline mb-4">
-          {new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+        <p class="subheadline mb-4 flex flex-wrap items-center gap-x-3 gap-y-1">
+          <span>{new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+          {lastReviewed && new Date(lastReviewed).getTime() > new Date(post.data.date).getTime() + 86400000 && (
+            <span class="text-gray-muted text-xs font-normal italic">
+              (Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })})
+            </span>
+          )}
         </p>
+
         <h1 class="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-8">
           {post.data.title}
         </h1>
@@ -391,8 +397,10 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
     description={post.data.description}
     image={postImageWebp ? `https://teleschmie.de${postImageWebp.src}` : undefined}
     datePublished={post.data.date}
+    dateModified={lastReviewed}
     lastReviewed={lastReviewed}
     faqs={post.data.faqs}
+
     url={`https://teleschmie.de/blog/${post.id}/`}
   />
 </Layout>

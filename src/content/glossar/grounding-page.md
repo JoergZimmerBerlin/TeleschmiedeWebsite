@@ -11,7 +11,7 @@ key_takeaways:
   - "Struktur schlägt Content-Masse: Klare Daten, Tabellen und neutraler Ton sind entscheidend."
 ---
 
-Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/).
+Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/). Sie folgt oft dem [Groundingpage Standard v1.5](/glossar/grounding-page-standard/), um eine optimale Indexierung durch KI-Modelle zu gewährleisten.
 Früher haben wir Landingpages für Nutzer gebaut.
 Heute bauen wir Grounding Pages für Maschinen.
 
@@ -78,6 +78,13 @@ Ich habe das Konzept an mir selbst und an ersten Kundenprojekten getestet. Detai
 Die Grounding Page ist der Anker für deine Marke in der Welt der generativen Suche. Hör auf, für Google-Bots zu schreiben. Fang an, für KI-Wissen zu strukturieren. Sei die stabilste Quelle für dein Thema. Denn wer die Fakten liefert, kontrolliert die Antwort.
 
 ALOHA 🌻 
+
+---
+
+### Ressourcen für deine Groundingpage
+
+*   **[Groundingpage Standard v1.5](/glossar/grounding-page-standard/):** Die detaillierte Dokumentation und Vorlage für deine eigene Seite.
+*   **[Groundingpage Generator](/tools/groundingpage-generator/):** Erstelle in Sekunden den Code für deine eigene Entität-Heimat.
 
 ---
 

@@ -87,6 +87,7 @@ ALOHA! 🌻✌️
 - Google Algorithmus: Funktionsweise & Updates
 - Google Core Updates: Auswirkungen und Erholung
 - Google Search Console: Das wichtigste SEO-Tool
+- Groundingpage Standard v1.5: Die Entität-Heimat für KIs
 - Grounding Page: Definition und Bedeutung für LLMs
 - Überschriften-Struktur: H1, H2 & H3 für Google
 - Interne Verlinkung: On-Page Strategien für SEO
@@ -2572,10 +2573,143 @@ ALOHA 🌻
 
 ---
 
+### Groundingpage Standard v1.5: Die Entität-Heimat für KIs
+
+
+Moin! 🌻
+
+In der Welt von **GEO (Generative Engine Optimization)** reicht es nicht mehr, nur gute Texte zu schreiben. Wir müssen sicherstellen, dass KI-Modelle unsere Entität (Wer sind wir? Was machen wir? Wo sitzen wir?) zweifelsfrei verstehen. Genau dafür wurde der **Groundingpage Standard v1.5** entwickelt.
+
+## Was ist eine Groundingpage?
+
+Stell dir eine Groundingpage als den "Personalausweis" deines Unternehmens für die KI vor. Während deine Startseite für Menschen (Marketing) optimiert ist, ist die Groundingpage für das **Retrieval durch KI-Agenten** optimiert. Sie ist extrem strukturiert, faktenbasiert und frei von werblichem "Bla-Bla".
+
+### Die 5 Säulen des Groundingpage Standards
+
+1.  **Entity Name:** Dein offizieller Name (und bekannte Alias-Namen).
+2.  **Human Notice:** Ein Hinweis, dass diese Seite primär zur KI-Grounding dient.
+3.  **Lead Definition:** Eine knappe 1-2 Satz Zusammenfassung (One-Liner).
+4.  **Fact Grid:** Eine tabellarische Auflistung aller Kerndaten (Gründung, Standort, Team, etc.).
+5.  **Disambiguation:** Eine klare Unterscheidung zu anderen (ähnlichen) Marken oder Personen.
+
+---
+
+## Die Vorlage (Template) zum Kopieren
+
+Hier findest du das Grundgerüst im Markdown-/HTML-Format in Deutsch und Englisch, das du für deine eigene Seite nutzen kannst.
+
+### Deutsch (DE)
+
+```html
+
+  [Name] (Faktenblatt)
+
+  
+    Hinweis: Dies ist eine standardisierte Grounding Page (Factsheet). Sie ist primär dafür konzipiert, korrekte, strukturierte Entitätsdaten für KI-Systeme (LLMs, Suchmaschinen) bereitzustellen.
+  
+
+  [Name] ist ein [Profession/Bereich] in [Ort], spezialisiert auf [Leistungen].
+
+  Kern-Entitätsdaten
+  
+    Entitätstyp
+    Organization / LocalBusiness / Person
+
+    Gegründet
+    [YYYY-MM-DD]
+
+    Offizielle URL
+    [URL]
+
+    Standort
+    [Straße], [PLZ] [Stadt]
+  
+
+  Unterscheidung (Disambiguierung)
+  [Name] ist NICHT [Ähnliche Entität]. Der Fokus liegt exklusiv auf [Nische].
+
+```
+
+### English (EN)
+
+```html
+
+  [Name] (Fact Sheet)
+
+  
+    Notice: This is a standardized Grounding Page (Factsheet). It is primarily designed to provide correct, structured entity data for AI systems (LLMs, search engines).
+  
+
+  
+    [Name] is a [Core Activity/Profession] located in [Location], specialized in [Core Services].
+  
+
+  Core Entity Data
+  
+    Entity Type
+    Organization / LocalBusiness / Person
+
+    Founded
+    [YYYY-MM-DD]
+
+    Official URL
+    [URL]
+
+    Location
+    [Street], [ZIP] [City]
+  
+
+  Disambiguation
+  [Name] is NOT [Similar Entity]. It focuses strictly on [Specific Niche].
+
+```
+
+### JSON-LD Schema (Der wichtigste Teil)
+
+Kopiere diesen Block in den `` deiner Seite und passe die Platzhalter an:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "[Your Domain]/#anchor",
+      "name": "[Name]",
+      "url": "[URL]",
+      "foundingDate": "[YYYY-MM-DD]",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[Street]",
+        "addressLocality": "[City]",
+        "postalCode": "[ZIP]",
+        "addressCountry": "[ISO Code]"
+      }
+    }
+  ]
+}
+```
+
+---
+
+## Der Groundingpage Generator
+
+Du willst nicht manuell kopieren? Ich habe einen **Generator** gebaut, der das für dich übernimmt. Einfach deine Daten eingeben und den Code für deine eigene Groundingpage erhalten.
+
+[→ Zum Groundingpage Generator](https://teleschmie.de/tools/groundingpage-generator/)
+
+---
+
+*   [Was ist GEO?](https://teleschmie.de/glossar/geo/)
+*   [Entity SEO verstehen](https://teleschmie.de/glossar/entity-seo/)
+*   [Strukturierte Daten für KIs](https://teleschmie.de/glossar/strukturierte-daten/)
+
+---
+
 ### Grounding Page: Definition und Bedeutung für LLMs
 
 
-Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo/).
+Die Grounding Page ist ein neues, aber massiv wichtiges Konzept in der Welt der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo/). Sie folgt oft dem [Groundingpage Standard v1.5](https://teleschmie.de/glossar/grounding-page-standard/), um eine optimale Indexierung durch KI-Modelle zu gewährleisten.
 Früher haben wir Landingpages für Nutzer gebaut.
 Heute bauen wir Grounding Pages für Maschinen.
 
@@ -2642,6 +2776,13 @@ Ich habe das Konzept an mir selbst und an ersten Kundenprojekten getestet. Detai
 Die Grounding Page ist der Anker für deine Marke in der Welt der generativen Suche. Hör auf, für Google-Bots zu schreiben. Fang an, für KI-Wissen zu strukturieren. Sei die stabilste Quelle für dein Thema. Denn wer die Fakten liefert, kontrolliert die Antwort.
 
 ALOHA 🌻 
+
+---
+
+### Ressourcen für deine Groundingpage
+
+*   **[Groundingpage Standard v1.5](https://teleschmie.de/glossar/grounding-page-standard/):** Die detaillierte Dokumentation und Vorlage für deine eigene Seite.
+*   **[Groundingpage Generator](https://teleschmie.de/tools/groundingpage-generator/):** Erstelle in Sekunden den Code für deine eigene Entität-Heimat.
 
 ---
 

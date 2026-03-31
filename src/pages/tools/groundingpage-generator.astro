@@ -1,0 +1,235 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const title = "Groundingpage Standard Generator";
+const description = "Create your own standardized Entity-Home (Groundingpage) for AI-Bot retrieval and Generative Engine Optimization (GEO).";
+---
+
+<Layout title={title} description={description}>
+  <section class="section pt-12 pb-24 bg-gray-50">
+    <div class="container-narrow">
+      <div class="mb-12 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-dark mb-4">{title}</h1>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+          Nutze dieses Tool, um eine standardisierte **Groundingpage** (v1.5) für deine Marke zu erstellen. Kopiere den Code anschließend auf eine neue Seite deiner Website.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <!-- Form Column -->
+        <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-200">
+          <h2 class="text-2xl font-bold mb-6 border-b pb-4">Entitätsdaten Eingeben</h2>
+          
+          <form id="generator-form" class="space-y-6">
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-1">Offizieller Name*</label>
+              <input type="text" id="name" placeholder="z.B. Jörg Zimmer - SEO Freelancer" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" required />
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-1">Entitätstyp*</label>
+              <select id="type" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none">
+                <option value="Organization">Organisation (Firma)</option>
+                <option value="LocalBusiness">Lokales Unternehmen</option>
+                <option value="Person">Person / Freelancer</option>
+              </select>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-bold text-gray-700 mb-1">Gründungsdatum</label>
+                <input type="date" id="foundingDate" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" />
+              </div>
+              <div>
+                <label class="block text-sm font-bold text-gray-700 mb-1">Ausgabesprache*</label>
+                <select id="langChoice" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none">
+                  <option value="de">Deutsch (DE)</option>
+                  <option value="en" selected>English (EN)</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-1">URL (Website)*</label>
+              <input type="url" id="url" placeholder="https://example.com" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" required />
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-1">Kurzbeschreibung (Lead Definition)*</label>
+              <textarea id="description" rows="3" placeholder="z.B. [Name] ist ein Experte für [Bereich] in [Ort]..." class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" required></textarea>
+            </div>
+
+            <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
+              <h3 class="font-bold text-sm mb-3">Standort (optional)</h3>
+              <div class="grid grid-cols-1 gap-4">
+                <input type="text" id="street" placeholder="Straße & Hausnummer" class="w-full px-4 py-1.5 rounded-lg border border-gray-300 text-sm" />
+                <div class="grid grid-cols-3 gap-2">
+                  <input type="text" id="zip" placeholder="PLZ" class="w-full px-4 py-1.5 rounded-lg border border-gray-300 text-sm" />
+                  <input type="text" id="city" placeholder="Stadt" class="col-span-2 w-full px-4 py-1.5 rounded-lg border border-gray-300 text-sm" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-gray-700 mb-1">Disambiguation (KEIN...)*</label>
+              <input type="text" id="disambiguation" placeholder="z.B. KEINE Full-Service Agentur" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-lime-500 focus:outline-none" required />
+            </div>
+
+            <button type="submit" class="w-full btn-primary py-3 font-bold !rounded-xl">Generator Starten</button>
+          </form>
+        </div>
+
+        <!-- Output Column -->
+        <div class="sticky top-8 space-y-8">
+          <!-- HTML Output -->
+          <div class="bg-dark p-8 rounded-3xl shadow-xl text-white overflow-hidden relative group">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5 text-lime-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+              HTML Template Output
+            </h2>
+            <pre id="output-html" class="text-xs bg-black/50 p-4 rounded-xl max-h-[300px] overflow-auto whitespace-pre-wrap font-mono text-gray-300 italic">Noch keine Daten eingegeben...</pre>
+            <button id="copy-html" class="absolute top-8 right-8 bg-lime-accent text-dark px-3 py-1 rounded text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity">Copy</button>
+          </div>
+
+          <!-- JSON-LD Output -->
+          <div class="bg-dark p-8 rounded-3xl shadow-xl text-white overflow-hidden relative group">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5 text-lime-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2 2 4 4 4h8c2 0 4-2 4-4V7M4 7c0-2 2-4 4-4h8c2 0 4 2 4 4M4 7h16" /></svg>
+              JSON-LD Schema (Header)
+            </h2>
+            <pre id="output-json" class="text-xs bg-black/50 p-4 rounded-xl max-h-[300px] overflow-auto whitespace-pre-wrap font-mono text-gray-300 italic">Noch keine Daten eingegeben...</pre>
+            <button id="copy-json" class="absolute top-8 right-8 bg-lime-accent text-dark px-3 py-1 rounded text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity">Copy</button>
+          </div>
+
+          <div class="bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+            <h4 class="text-dark font-bold mb-1">Nächste Schritte:</h4>
+            <p class="text-sm text-gray-700">Erstelle eine neue Seite auf deiner Website (z.B. `/grounding/`) und füge die beiden Code-Blöcke ein. Verlinke die Seite prominent in deinem Footer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script is:inline>
+  const form = document.getElementById('generator-form');
+  const outputHtml = document.getElementById('output-html');
+  const outputJson = document.getElementById('output-json');
+  const copyHtml = document.getElementById('copy-html');
+  const copyJson = document.getElementById('copy-json');
+
+  const generateCode = (e) => {
+    e.preventDefault();
+    
+    const lang = document.getElementById('langChoice').value;
+    const data = {
+      name: document.getElementById('name').value,
+      type: document.getElementById('type').value,
+      url: document.getElementById('url').value,
+      desc: document.getElementById('description').value,
+      foundingDate: document.getElementById('foundingDate').value,
+      street: document.getElementById('street').value,
+      zip: document.getElementById('zip').value,
+      city: document.getElementById('city').value,
+      disambiguation: document.getElementById('disambiguation').value,
+    };
+
+    const i18n = {
+      de: {
+        factSheet: 'Faktenblatt',
+        notice: 'Hinweis',
+        noticeText: 'Dies ist eine standardisierte <em>Grounding Page</em> (Factsheet). Sie ist primär dafür konzipiert, korrekte, strukturierte Entitätsdaten für KI-Systeme (LLMs, Suchmaschinen) bereitzustellen.',
+        coreData: 'Kern-Entitätsdaten',
+        type: 'Entitätstyp',
+        founded: 'Gegründet',
+        url: 'Offizielle URL',
+        location: 'Standort',
+        disambiguation: 'Unterscheidung (Disambiguierung)',
+        isNot: 'ist NICHT'
+      },
+      en: {
+        factSheet: 'Fact Sheet',
+        notice: 'Notice',
+        noticeText: 'This is a standardized <em>Grounding Page</em> (Factsheet). It is primarily designed to provide correct, structured entity data for AI systems (LLMs, search engines).',
+        coreData: 'Core Entity Data',
+        type: 'Entity Type',
+        founded: 'Founded',
+        url: 'Official URL',
+        location: 'Location',
+        disambiguation: 'Disambiguation',
+        isNot: 'is NOT'
+      }
+    };
+
+    const t = i18n[lang];
+
+    const templateHtml = `
+<!-- Groundingpage Standard v1.5 (\${lang.toUpperCase()}) -->
+<main class="grounding-page">
+  <h1>\${data.name} (\${t.factSheet})</h1>
+
+  <div class="human-notice">
+    <strong>\${t.notice}:</strong> \${t.noticeText}
+  </div>
+
+  <p class="lead-definition"><strong>\${data.name}</strong> \${data.desc}</p>
+
+  <h3>\${t.coreData}</h3>
+  <dl class="data-grid">
+    <dt>\${t.type}</dt>
+    <dd>\${data.type}</dd>
+  \${data.foundingDate ? `
+    <dt>\${t.founded}</dt>
+    <dd>\${data.foundingDate}</dd>` : ''}
+    <dt>\${t.url}</dt>
+    <dd><a href="\${data.url}">\${data.url}</a></dd>\${data.city ? `
+    <dt>\${t.location}</dt>
+    <dd>\${data.street ? data.street + ', ' : ''}\${data.zip} \${data.city}</dd>` : ''}
+  </dl>
+
+  <h3>\${t.disambiguation}</h3>
+  <p>\${data.name} \${t.isNot} \${data.disambiguation}.</p>
+</main>
+    `.trim();
+
+    const schemaJson = {
+      "@context": "https://schema.org",
+      "@type": data.type,
+      "name": data.name,
+      "url": data.url,
+      "description": data.desc,
+      "foundingDate": data.foundingDate || undefined,
+      "address": data.city ? {
+        "@type": "PostalAddress",
+        "streetAddress": data.street || undefined,
+        "addressLocality": data.city,
+        "postalCode": data.zip || undefined
+      } : undefined
+    };
+
+    outputHtml.textContent = templateHtml;
+    outputJson.textContent = JSON.stringify(schemaJson, null, 2);
+    
+    // Smooth scroll to top of output on mobile if needed
+    outputHtml.parentElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  form.addEventListener('submit', generateCode);
+
+  const copyToClipboard = (el, btn) => {
+    navigator.clipboard.writeText(el.textContent).then(() => {
+      const originalText = btn.textContent;
+      btn.textContent = 'Copied!';
+      btn.classList.replace('bg-lime-accent', 'bg-green-500');
+      btn.classList.add('text-white');
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.classList.replace('bg-green-500', 'bg-lime-accent');
+        btn.classList.remove('text-white');
+      }, 2000);
+    });
+  };
+
+  copyHtml.addEventListener('click', () => copyToClipboard(outputHtml, copyHtml));
+  copyJson.addEventListener('click', () => copyToClipboard(outputJson, copyJson));
+</script>

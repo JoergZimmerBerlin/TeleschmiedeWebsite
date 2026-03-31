@@ -288,42 +288,42 @@ const description = "Create your own standardized Entity-Home (Groundingpage) fo
     const t = i18n[lang];
 
     const templateHtml = `
-<!-- Groundingpage Standard v2.0 (\${lang.toUpperCase()}) -->
+<!-- Groundingpage Standard v2.0 (${lang.toUpperCase()}) -->
 <main class="grounding-page">
-  <h1>\${data.name} (\${t.factSheet})</h1>
+  <h1>${data.name} (${t.factSheet})</h1>
 
   <div class="human-notice">
-    <strong>\${t.notice}:</strong> \${t.noticeText}
+    <strong>${t.notice}:</strong> ${t.noticeText}
   </div>
 
-  <p class="lead-definition"><strong>\${data.name}</strong> \${data.desc}</p>
+  <p class="lead-definition"><strong>${data.name}</strong> ${data.desc}</p>
 
-  <h3>\${t.coreData}</h3>
+  <h3>${t.coreData}</h3>
   <dl class="data-grid">
-    <dt>\${t.class}</dt>
-    <dd>\${data.className}</dd>
-    <dt>\${t.type}</dt>
-    <dd>\${data.schemaType}</dd>
-  \${selectedClass.showFields.includes('foundingDate') && data.foundingDate ? `
-    <dt>\${t.founded}</dt>
-    <dd>\${data.foundingDate}</dd>` : ''}
-  \${selectedClass.showFields.includes('datePublished') && data.datePublished ? `
-    <dt>\${t.published}</dt>
-    <dd>\${data.datePublished}</dd>` : ''}
-  \${selectedClass.showFields.includes('startDate') && data.startDate ? `
-    <dt>\${t.start}</dt>
-    <dd>\${data.startDate}</dd>` : ''}
-  \${selectedClass.showFields.includes('endDate') && data.endDate ? `
-    <dt>\${t.end}</dt>
-    <dd>\${data.endDate}</dd>` : ''}
-    <dt>\${t.url}</dt>
-    <dd><a href="\${data.url}">\${data.url}</a></dd>\${selectedClass.showFields.includes('location') && data.city ? `
-    <dt>\${t.location}</dt>
-    <dd>\${data.street ? data.street + ', ' : ''}\${data.zip} \${data.city}</dd>` : ''}
+    <dt>${t.class}</dt>
+    <dd>${data.className}</dd>
+    <dt>${t.type}</dt>
+    <dd>${data.schemaType}</dd>
+  ${selectedClass.showFields.includes('foundingDate') && data.foundingDate ? `
+    <dt>${t.founded}</dt>
+    <dd>${data.foundingDate}</dd>` : ''}
+  ${selectedClass.showFields.includes('datePublished') && data.datePublished ? `
+    <dt>${t.published}</dt>
+    <dd>${data.datePublished}</dd>` : ''}
+  ${selectedClass.showFields.includes('startDate') && data.startDate ? `
+    <dt>${t.start}</dt>
+    <dd>${data.startDate}</dd>` : ''}
+  ${selectedClass.showFields.includes('endDate') && data.endDate ? `
+    <dt>${t.end}</dt>
+    <dd>${data.endDate}</dd>` : ''}
+    <dt>${t.url}</dt>
+    <dd><a href="${data.url}">${data.url}</a></dd>${selectedClass.showFields.includes('location') && data.city ? `
+    <dt>${t.location}</dt>
+    <dd>${data.street ? data.street + ', ' : ''}${data.zip} ${data.city}</dd>` : ''}
   </dl>
 
-  <h3>\${t.disambiguation}</h3>
-  <p>\${data.name} \${t.isNot} \${data.disambiguation}.</p>
+  <h3>${t.disambiguation}</h3>
+  <p>${data.name} ${t.isNot} ${data.disambiguation}.</p>
 </main>
     `.trim();
 

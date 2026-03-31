@@ -1,17 +1,29 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
+import Schema from '../../components/Schema.astro';
+import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
+import { getGitModDate } from '../../utils/git-date';
+
+const lastReviewed = getGitModDate('src/pages/tools/groundingpage-generator.astro');
 ---
 
 <Layout 
   title="Grounding Page Generator - aus Prompt erstellen"
   description="Erstelle mit einem Klick den perfekten System-Prompt für ChatGPT oder Claude, um eine vollständige Groundingpage samt Schema.org Markup zu generieren."
+  lastReviewed={lastReviewed}
 >
+
   <section class="py-12 md:py-24 bg-gray-50 min-h-[80vh]">
     <div class="container mx-auto px-4 max-w-4xl">
       <div class="mb-12 text-center">
-        <h1 class="font-bold mb-4 font-headings text-4xl md:text-5xl lg:text-6xl text-dark tracking-tight leading-tight">
-          Grounding Page Generator
+        <h1 class="font-bold mb-4 font-headings text-4xl md:text-5xl lg:text-5xl text-dark tracking-tight leading-tight flex flex-wrap items-center justify-center gap-x-4">
+          <span>Grounding Page Generator</span>
+          {lastReviewed && (
+            <span class="text-gray-muted text-xs font-normal italic border-l border-gray-200 pl-4 mb-2">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+          )}
         </h1>
+
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
           Mach es dir einfach: Gib deine Domain ein. Kopiere unseren perfektionierten Mega-Prompt. Füge ihn in ChatGPT / Gemini / LLM ein und du erhältst direkt den perfekten HTML-Code samt Schema-Markup.
         </p>
@@ -147,10 +159,17 @@ import Layout from '../../layouts/Layout.astro';
       <div class="mt-12 bg-white p-8 md:p-12 rounded-[2.5rem] border border-gray-100 shadow-xl relative overflow-hidden group">
         <div class="absolute top-0 right-0 w-64 h-64 bg-lime-accent rounded-full opacity-5 blur-[100px] -mr-32 -mt-32"></div>
         <div class="relative z-10">
-          <h3 class="text-2xl font-bold mb-6 flex items-center gap-3 font-headings">
-            <span class="w-8 h-8 rounded-full bg-dark text-lime-accent flex items-center justify-center text-sm font-mono italic inline-block shadow-sm">"</span>
+          <h3 class="text-2xl font-bold mb-6 flex items-center gap-4 font-headings">
+            <Image 
+              src={portraitImage} 
+              alt="Jörg Zimmer" 
+              width={80} 
+              height={80} 
+              class="w-12 h-12 rounded-full border-2 border-lime-accent shadow-sm object-cover"
+            />
             Warum die Grounding Page oft die Rettung ist
           </h3>
+
           <div class="grid md:grid-cols-5 gap-8 items-start">
              <div class="md:col-span-3 space-y-4">
                 <p class="text-lg text-dark leading-relaxed font-bold">
@@ -167,7 +186,11 @@ import Layout from '../../layouts/Layout.astro';
                     <strong>Wichtig:</strong> Erstelle sie unbedingt auch auf Englisch! Die Grounding-Prozesse fast aller KIs laufen primär auf Englisch. Selbst für lokale Websites ohne englische Inhalte hilft es massiv, von LLMs nicht „vergessen“ zu werden – und genau das war die Grundidee hinter dem gesamten Konzept.
                   </p>
                 </div>
-                <p class="pt-4 text-sm font-bold text-gray-400 uppercase tracking-widest">— Jörg Zimmer, Senior SEO & GEO Architekt</p>
+                <p class="pt-4 text-[10px] font-bold text-gray-400 uppercase tracking-widest flex flex-wrap items-center gap-x-4">
+                  <span>— Jörg Zimmer, Senior SEO & GEO Architekt</span>
+                  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-lime-700 hover:text-dark transition-colors normal-case font-bold border-l border-gray-200 pl-4">LinkedIn Profil ↗</a>
+                </p>
+
              </div>
              <div class="md:col-span-2 bg-gray-50 p-6 rounded-3xl border border-gray-100 space-y-4 shadow-inner">
                 <h4 class="font-bold flex items-center gap-2 text-dark">

@@ -1,5 +1,6 @@
 ErrorDocument 404 /404.html
-# Repaired Golden Version - Optimized for IONOS (Lauf #564)
+# Repaired Golden Version - Optimized for IONOS (Lauf #568)
+Header set X-Golden-Status "Active-Lauf-568"
 
 # 1. UTF-8 Erzwingung (Fix für Umlaute/Mojibake)
 AddDefaultCharset UTF-8

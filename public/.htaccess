@@ -1,19 +1,8 @@
 ErrorDocument 404 /404.html
-Header set X-Status-Check "Active"
 
-# Force UTF-8 encoding for text files
+# Force UTF-8 for plain text files (fixes Mojibake in LLM files)
 AddDefaultCharset UTF-8
-AddType "text/plain; charset=UTF-8" .txt
-AddType "text/markdown; charset=UTF-8" .md
-AddCharset UTF-8 .txt .md .json
-
-# Force MIME type for AI Crawler files (IONOS Fix)
-<Files "llms.txt">
-    ForceType text/plain
-</Files>
-<Files "llms-full.txt">
-    ForceType text/plain
-</Files>
+AddType "text/plain; charset=utf-8" .txt
 
 # === Security Headers ===
 <IfModule mod_headers.c>
@@ -25,30 +14,26 @@ AddCharset UTF-8 .txt .md .json
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-XSS-Protection "1; mode=block"
-  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com https://teleschmie-canary-test.de; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
- # generational-build: "1774364139"
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </IfModule>
 
-# === Kanonische Redirects (HTTPS & Non-WWW) ===
-RewriteEngine On
-
-# 1. HTTP zu HTTPS (inklusive Check für Proxys/Load-Balancer)
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
-
-# 2. WWW zu Non-WWW
-RewriteCond %{HTTP_HOST} ^www\.teleschmie\.de [NC]
-RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
-
-# Permanente Weiterleitungen fuer Alt-URLs
+# Permanente Weiterleitungen für Alt-URLs (direkt auf HTTPS Ziel)
 Redirect 301 /html/impressum.html https://teleschmie.de/impressum/
 Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 
-# Veraltete Sitemaps loeschen (410 Gone)
+# HTTPS erzwingen (301 Redirect)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# www zu non-www (optional, falls gewünscht)
+RewriteCond %{HTTP_HOST} ^www\.teleschmie.de [NC]
+RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
+
+# Veraltete Sitemaps löschen (410 Gone)
 Redirect 410 /sitemap-index.xml
 Redirect 410 /sitemap-0.xml
 
@@ -57,7 +42,7 @@ Redirect 410 /sitemap-0.xml
   # Alte Methode (AddOutputFilterByType)
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript text/javascript application/json application/xml image/svg+xml
 
-  # Moderne Methode (mod_filter) fuer bessere Zuverlaessigkeit
+  # Moderne Methode (mod_filter) für bessere Zuverlässigkeit
   <IfModule mod_filter.c>
     FilterDeclare COMPRESS
     FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/(html|plain|xml|css|javascript)#"
@@ -66,7 +51,7 @@ Redirect 410 /sitemap-0.xml
     FilterProtocol COMPRESS change=yes;remove=gzip,deflate
   </IfModule>
 
-  # Zusaetzliche Fallback-Regel fuer .js Dateien
+  # Zusätzliche Fallback-Regel für .js Dateien
   <FilesMatch "\.(js)$">
     SetOutputFilter DEFLATE
   </FilesMatch>

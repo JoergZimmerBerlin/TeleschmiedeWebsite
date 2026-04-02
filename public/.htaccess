@@ -1,4 +1,5 @@
 ErrorDocument 404 /404.html
+# Manual restoration of stable .htaccess (March 23rd state) - Triggered: 2026-04-02 19:31
 
 # Force UTF-8 for plain text files (fixes Mojibake in LLM files)
 AddDefaultCharset UTF-8

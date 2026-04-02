@@ -1,4 +1,5 @@
 ErrorDocument 404 /404.html
+Header set X-Status-Check "Active"
 
 # Force UTF-8 encoding for text files
 AddDefaultCharset UTF-8

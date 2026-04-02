@@ -1,49 +1,50 @@
 ErrorDocument 404 /404.html
-# Manual restoration of stable .htaccess (March 23rd state) - Triggered: 2026-04-02 19:31
+# Repaired Golden Version - Optimized for IONOS (Lauf #564)
 
-# Force UTF-8 for plain text files (fixes Mojibake in LLM files)
+# 1. UTF-8 Erzwingung (Fix für Umlaute/Mojibake)
 AddDefaultCharset UTF-8
-AddType "text/plain; charset=utf-8" .txt
+AddCharset UTF-8 .txt .md .json .html
+<FilesMatch "\.(txt|md|json|html)$">
+    AddType "text/plain; charset=UTF-8" .txt
+    AddType "text/markdown; charset=UTF-8" .md
+</FilesMatch>
 
-# === Security Headers ===
-<IfModule mod_headers.c>
-  # Unset any existing headers to prevent duplicate/more restrictive policies
-  Header unset Content-Security-Policy
-  Header always unset Content-Security-Policy
+# Spezielle Behandlung für llms.txt (Charset-Header erzwingen)
+<Files "llms.txt">
+    Header set Content-Type "text/plain; charset=UTF-8"
+</Files>
 
-  Header always set X-Content-Type-Options "nosniff"
-  Header always set X-Frame-Options "SAMEORIGIN"
-  Header always set Referrer-Policy "strict-origin-when-cross-origin"
-  Header always set X-XSS-Protection "1; mode=block"
-  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
-  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-</IfModule>
+# 2. Kanonische Redirects (Reihenfolge: WWW -> HTTPS)
+RewriteEngine On
 
-# Permanente Weiterleitungen für Alt-URLs (direkt auf HTTPS Ziel)
+# A. WWW zu Non-WWW (Zuerst entfernen!)
+RewriteCond %{HTTP_HOST} ^www\.teleschmie\.de [NC]
+RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
+
+# B. HTTP zu HTTPS (Mit robustem Proxy-Check für IONOS)
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+# C. Permanente Weiterleitungen für Alt-URLs
 Redirect 301 /html/impressum.html https://teleschmie.de/impressum/
 Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 
-# HTTPS erzwingen (301 Redirect)
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# 3. Security Headers (Test: Header set statt always set)
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
 
-# www zu non-www (optional, falls gewünscht)
-RewriteCond %{HTTP_HOST} ^www\.teleschmie.de [NC]
-RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
-
-# Veraltete Sitemaps löschen (410 Gone)
-Redirect 410 /sitemap-index.xml
-Redirect 410 /sitemap-0.xml
-
-# Kompression aktivieren
+# 4. Kompression & Caching (Vom 23.03. übernommen)
 <IfModule mod_deflate.c>
-  # Alte Methode (AddOutputFilterByType)
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript text/javascript application/json application/xml image/svg+xml
-
-  # Moderne Methode (mod_filter) für bessere Zuverlässigkeit
   <IfModule mod_filter.c>
     FilterDeclare COMPRESS
     FilterProvider COMPRESS DEFLATE "%{CONTENT_TYPE} =~ m#^text/(html|plain|xml|css|javascript)#"
@@ -51,14 +52,8 @@ Redirect 410 /sitemap-0.xml
     FilterChain COMPRESS
     FilterProtocol COMPRESS change=yes;remove=gzip,deflate
   </IfModule>
-
-  # Zusätzliche Fallback-Regel für .js Dateien
-  <FilesMatch "\.(js)$">
-    SetOutputFilter DEFLATE
-  </FilesMatch>
 </IfModule>
 
-# Browser Caching (Astro fingerprints CSS/JS with content hashes)
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/jpg "access plus 1 year"
@@ -76,7 +71,6 @@ Redirect 410 /sitemap-0.xml
   ExpiresByType text/html "access plus 1 hour"
 </IfModule>
 
-# Cache-Control for immutable hashed assets
 <IfModule mod_headers.c>
   <FilesMatch "\.(css|js|woff2|woff|png|jpg|jpeg|webp|avif|svg)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
@@ -85,3 +79,7 @@ Redirect 410 /sitemap-0.xml
     Header set Cache-Control "public, max-age=3600, must-revalidate"
   </FilesMatch>
 </IfModule>
+
+# Veraltete Sitemaps löschen (410 Gone)
+Redirect 410 /sitemap-index.xml
+Redirect 410 /sitemap-0.xml

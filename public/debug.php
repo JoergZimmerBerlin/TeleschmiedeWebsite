@@ -36,5 +36,12 @@ if (function_exists('apache_get_modules')) {
 }
 
 echo "\n--- REQUEST HEADERS ---\n";
-print_r(getallheaders());
+if (function_exists('getallheaders')) {
+    print_r(getallheaders());
+} else {
+    echo "getallheaders() NOT AVAILABLE\n";
+}
+
+echo "\n--- FULL SERVER VARIABLES (\$_SERVER) ---\n";
+print_r($_SERVER);
 ?>

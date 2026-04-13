@@ -115,9 +115,11 @@ const isActive = (href: string) => {
 
       if (btn && menu) {
         // Remove any existing listener to prevent double-firing
-        const newBtn = btn.cloneNode(true) as HTMLElement;
-        if (btn.parentNode) {
-          btn.parentNode.replaceChild(newBtn, btn);
+        const newBtn = btn.cloneNode(true) as HTMLButtonElement;
+        const parent = btn.parentNode;
+        
+        if (parent) {
+          parent.replaceChild(newBtn, btn);
           
           newBtn.addEventListener('click', () => {
             const isHidden = menu.classList.toggle('hidden');

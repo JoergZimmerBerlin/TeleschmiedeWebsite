@@ -286,10 +286,12 @@ const displayDescription = truncate(description, 150);
             }, { passive: true });
           });
 
-          document.addEventListener('click', (e: any) => {
+          document.addEventListener('click', (e: Event) => {
             const target = e.target as HTMLElement;
-            if (target && !target.closest('.glossary-link') && !target.closest('#glossary-tooltip')) {
-              tooltip?.classList.remove('visible');
+            if (target && typeof target.closest === 'function') {
+              if (!target.closest('.glossary-link') && !target.closest('#glossary-tooltip')) {
+                tooltip?.classList.remove('visible');
+              }
             }
           });
         };

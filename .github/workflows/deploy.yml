@@ -29,7 +29,9 @@ jobs:
 
       - name: Verify Build Artifacts
         run: |
+          cp dist/.htaccess dist/htaccess.deploy
           ls -la dist/.htaccess
+          ls -la dist/htaccess.deploy
           ls -la dist/build.txt
 
       - name: Upload Build Artifacts
@@ -57,7 +59,11 @@ jobs:
           pass: ${{ secrets.FTP_PASSWORD }}
           localDir: './dist'
           remoteDir: '.'
-          options: '--verbose --parallel=2 --delete --include-glob=* --include-glob=.*'
+          options: '--verbose --parallel=2 --delete'
+
+      - name: Activate .htaccess (Safe-Rename)
+        run: |
+          lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} sftp://${{ secrets.FTP_HOST }} -e "set sftp:auto-confirm yes; mv htaccess.deploy .htaccess; quit"
 
       - name: Final Verification
         run: echo "Deployment complete for Build $(cat dist/build.txt)"

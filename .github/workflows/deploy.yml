@@ -1,3 +1,4 @@
+# IONOS DEPLOYMENT STANDARD (See .agent/ionos-standard.md for reference)
 name: Build and Deploy to IONOS
 on:
   push:

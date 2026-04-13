@@ -1,42 +1,37 @@
 ErrorDocument 404 /404.html
 
-# Repaired Golden Version - Stable IONOS Pattern (Lauf #574)
+# Repaired Golden Version - Stable IONOS Pattern (Lauf #574-Fix)
 <IfModule mod_headers.c>
-    Header always set X-Golden-Status "Active-Lauf-574"
+    Header always set X-Golden-Status "Active-Lauf-574-Fix"
 </IfModule>
 
 # 1. Encodings & MIME Types
 AddDefaultCharset UTF-8
-AddType "text/plain; charset=UTF-8" .txt
-AddType "text/markdown; charset=UTF-8" .md
 AddCharset UTF-8 .txt .md .json .html .css .js
 
-# Force MIME type for AI Crawler files
-<Files "llms.txt">
+<FilesMatch "\.(txt|md)$">
     ForceType 'text/plain; charset=UTF-8'
-</Files>
-<Files "llms-full.txt">
-    ForceType 'text/plain; charset=UTF-8'
-</Files>
+</FilesMatch>
 
 # 2. Redirects
 RewriteEngine On
 
-# A. HTTPS erzwingen (Standard-Muster für IONOS/Proxy)
+# A. HTTPS erzwingen (Proxy-safe für IONOS)
 RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # B. WWW zu Non-WWW erzwingen
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^(.*)$ https://teleschmie.de%{REQUEST_URI} [L,R=301]
 
-# C. Permanente Weiterleitungen für Alt-URLs
+# C. Permanente Weiterleitungen
 Redirect 301 /html/impressum.html https://teleschmie.de/impressum/
 Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 
-# 3. Security Headers (Always Set Pattern)
+# 3. Security Headers
 <IfModule mod_headers.c>
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "SAMEORIGIN"

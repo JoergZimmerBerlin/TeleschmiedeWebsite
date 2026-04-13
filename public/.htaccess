@@ -41,9 +41,17 @@ Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https
     Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self';"
 </IfModule>
 
-# 4. Kompression
+# 4. Kompression (Speed-Boost für SEO)
 <IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
+    # Kompression nach MIME-Type (Umfassende Liste)
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+    AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/ecmascript
+    AddOutputFilterByType DEFLATE application/json application/xml image/svg+xml
+    
+    # Fallback-Kompression für Dateiendungen (Sicher ist sicher)
+    <FilesMatch "\.(js|css|xml|json|svg)$">
+        SetOutputFilter DEFLATE
+    </FilesMatch>
 </IfModule>
 
 # 5. Caching

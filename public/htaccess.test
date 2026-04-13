@@ -9,16 +9,16 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     ForceType 'text/plain; charset=UTF-8'
 </FilesMatch>
 
-# 2. Redirects (DIAGNOSTIC SHUTDOWN - Lauf #582)
+# 2. Redirects
 RewriteEngine On
 
-# A. WWW zu Non-WWW erzwingen (DEAKTIVIERT)
-# RewriteCond %{HTTP_HOST} ^www\. [NC]
-# RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
+# A. WWW zu Non-WWW erzwingen (Sicherer Pattern)
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
 
-# B. HTTPS erzwingen (DEAKTIVIERT)
-# RewriteCond %{HTTP:X-Forwarded-Proto} !https
-# RewriteRule ^(.*)$ https://teleschmie.de%{REQUEST_URI} [L,R=301]
+# B. HTTPS erzwingen (Standard-Check basierend auf $_SERVER Diagnose)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://teleschmie.de%{REQUEST_URI} [L,R=301]
 
 # C. Permanente Weiterleitungen
 Redirect 301 /html/impressum.html https://teleschmie.de/impressum/

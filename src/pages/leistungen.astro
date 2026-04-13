@@ -213,7 +213,7 @@ const allOffers = categories.flatMap(cat => cat.services.map(s => ({
         </div>
 
         <div class="grid gap-8">
-          {category.services.map((service) => (
+          {category.services.map((service: Service) => (
             <div 
               class:list={[
                 "rounded-2xl p-8 border transition-all duration-300 relative overflow-hidden group hover:border-lime-accent",

@@ -1,5 +1,5 @@
 ErrorDocument 404 /404.html
-# Repaired Golden Version - Stable IONOS Loop-Fix (Lauf #581)
+# Repaired Golden Version - Stable IONOS Härtung (Lauf #586)
 
 # 1. Encodings & MIME Types
 AddDefaultCharset UTF-8
@@ -26,14 +26,19 @@ Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 
-# 3. Security Headers
+# 3. Security Headers (Härtung auf A+ Niveau)
 <IfModule mod_headers.c>
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
     Header always set X-XSS-Protection "1; mode=block"
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google.com https://*.google-analytics.com https://*.googletagmanager.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
-    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    # HSTS Pro (1 Jahr + Preload für maximale Sicherheit)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    # Modern Security Policies
+    Header always set Cross-Origin-Resource-Policy "same-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    # CSP: Maximale Einschränkung für statische Astro-Seiten (optimiert für GA)
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self';"
 </IfModule>
 
 # 4. Kompression

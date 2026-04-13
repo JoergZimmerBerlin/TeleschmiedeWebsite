@@ -16,13 +16,12 @@ AddCharset UTF-8 .txt .md .json .html .css .js
 # 2. Redirects
 RewriteEngine On
 
-# A. HTTPS erzwingen (Proxy-safe für IONOS)
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# B. WWW zu Non-WWW erzwingen
+# A. WWW zu Non-WWW erzwingen (Sicherer Pattern)
 RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
+
+# B. HTTPS erzwingen (Proxy-safe für IONOS - nur X-Forwarded-Proto)
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://teleschmie.de%{REQUEST_URI} [L,R=301]
 
 # C. Permanente Weiterleitungen

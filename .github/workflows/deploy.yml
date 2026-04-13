@@ -24,6 +24,8 @@ jobs:
 
       - name: Build Astro
         run: npm run build
+        env:
+          DEPLOY_TARGET: ionos
 
       - name: Verify Build Artifacts
         run: |

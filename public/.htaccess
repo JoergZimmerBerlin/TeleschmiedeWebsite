@@ -22,14 +22,13 @@ AddCharset UTF-8 .txt .md .json .html .css .js
 # 2. Redirects
 RewriteEngine On
 
-# A. HTTPS erzwingen (Separate Regelsatz für maximale Kompatibilität)
+# A. HTTPS erzwingen (Standard-Muster für IONOS/Proxy)
 RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # B. WWW zu Non-WWW erzwingen
-RewriteCond %{HTTP_HOST} ^www\.teleschmie\.de [NC]
-RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://teleschmie.de%{REQUEST_URI} [L,R=301]
 
 # C. Permanente Weiterleitungen für Alt-URLs
 Redirect 301 /html/impressum.html https://teleschmie.de/impressum/

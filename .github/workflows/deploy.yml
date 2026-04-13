@@ -59,9 +59,11 @@ jobs:
           remoteDir: '.'
           options: '--verbose --parallel=10 --delete'
 
-      - name: Force .htaccess upload (Safe-Put)
+      - name: Activate .htaccess (PHP-Aktivator)
         run: |
-          lftp -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} sftp://${{ secrets.FTP_HOST }} -e "set sftp:auto-confirm yes; put dist/.htaccess; quit"
+          sleep 5
+          curl -s https://teleschmie.de/activate_htaccess.php
+          echo "Activation script triggered."
 
       - name: Final Verification
         run: echo "Deployment complete for Build $(cat dist/build.txt)"

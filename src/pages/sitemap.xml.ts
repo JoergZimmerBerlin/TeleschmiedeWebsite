@@ -93,6 +93,17 @@ export const GET = async () => {
   </url>`;
   }
 
+  // 6. LLM Files
+  const llmFiles = ['llms.txt', 'llms-full.txt'];
+  for (const file of llmFiles) {
+    const filePath = path.join(process.cwd(), 'public', file);
+    urls += `
+  <url>
+    <loc>${baseUrl}/${file}</loc>
+    <lastmod>${getLastMod(filePath)}</lastmod>
+  </url>`;
+  }
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls}

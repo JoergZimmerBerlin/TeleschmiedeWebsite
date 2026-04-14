@@ -272,14 +272,39 @@ if (type === 'article') {
     "mainEntityOfPage": { "@id": url }
   } as any);
 } else if (type === 'glossary') {
+  const termId = `${url}#term`;
+  const glossaryArticleId = `${url}#article`;
+  
+  // The Article serves as the container for the knowledge, attributing it to the Person
+  graph.push({
+    "@type": "Article",
+    "@id": glossaryArticleId,
+    "headline": `Glossar: ${title}`,
+    "description": description,
+    "author": { "@id": personId },
+    "publisher": { "@id": businessId },
+    "datePublished": datePublished,
+    "dateModified": dateModified || lastReviewed || datePublished,
+    "mainEntity": { "@id": termId },
+    "image": imageId ? { "@id": imageId } : undefined
+  });
+
+  // The DefinedTerm is the core knowledge piece
   graph.push({
     "@type": "DefinedTerm",
+    "@id": termId,
     "name": title,
     "description": description,
     "inDefinedTermSet": `${siteUrl}/glossar/`,
     "image": imageId ? { "@id": imageId } : undefined,
     "mainEntityOfPage": { "@id": url }
   } as any);
+
+  // Link WebPage to the Article instead of the term directly
+  const webPage = graph.find(e => e["@type"] === "WebPage");
+  if (webPage) {
+    webPage.mainEntity = { "@id": glossaryArticleId };
+  }
 } else if (type === 'about') {
   graph.push({
     "@type": "AboutPage",

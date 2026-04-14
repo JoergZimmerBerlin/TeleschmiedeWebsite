@@ -59,7 +59,8 @@ Es ist der ultimative Hebel für deine globale Sichtbarkeit.
 1.  **Direct Answer:** Beantworte das Hauptproblem gleich im ersten Absatz. Kurz und knackig.
 2.  **Daten-Listen:** Tabellen und Listen sind für LLMs Gold wert.
 3.  **Entity-Linking:** Verlinke auf andere starke Entitäten (Wikipedia, LinkedIn, Branchenportale).
-4.  **No Bullshit:** Streiche alles, was keinen Informationswert hat.
+4.  **@graph & IDs:** Nutze eine flache `@graph`-Struktur statt tiefer Verschachtelung, um Entitäten über eindeutige `@id`s unzerstörbar miteinander zu vernetzen.
+5.  **No Bullshit:** Streiche alles, was keinen Informationswert hat.
 
 ## Meine Meinung aus der Praxis
 

@@ -252,7 +252,7 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
               </span>
             </summary>
             <div class="text-gray-600 px-6 pb-6 pt-0 leading-relaxed">
-              Gib oben einfach die Kern-URL deiner Organisation (z. B. Homepage oder "Über Uns"-Seite) ein. Der Generator baut dir live einen hochkomplexen Arbeitsauftrag für die KI. Kopiere diesen generierten Prompt, logge dich bei ChatGPT (GPT-4o) oder Claude 3.5 ein und feuere den Prompt ab. Die KI liest daraufhin deine Live-Website und schreibt den perfekten Code für deine eigene Faktenseite, den du nur noch in deine Website einbauen musst.
+              Gib oben einfach die Kern-URL deiner Organisation (z. B. Homepage oder "Über Uns"-Seite) ein. Der Generator baut dir live einen hochkomplexen Arbeitsauftrag für die KI. Kopiere diesen generierten Prompt, logge dich bei ChatGPT (GPT-4o) oder Claude 3.5 ein und feuere den Prompt ab. Die KI liest daraufhin deine Live-Website und schreibt den perfekten Code (inklusive flacher <strong>@graph Struktur</strong>) für deine eigene Faktenseite, den du nur noch in deine Website einbauen musst.
             </div>
           </details>
 
@@ -367,8 +367,12 @@ BLOCK 1: SICHTBARER TEXT (Die eigentliche Seite)
 
 BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
 - Generiere einen großen, extrem strukturierten und validen Schema.org Code-Block (\`<script type="application/ld+json">\`...).
-- Der '@type' MUSS exakt der zuvor ermittelten Ontologie-Klasse entsprechen.
-- Baue ALLE gefundenen Fakten detailliert als korrekte Schema-Properties tief verschachtelt ein.
+- WICHTIG (ROOT-STRUKTUR): Starte zwingend mit \`@context: "https://schema.org"\` und einem \`@graph\` Array auf der obersten Ebene.
+- NUTZE DIE POWER VON @graph: Flache den Code ab und verbinde Entitäten über eindeutige Identifikatoren (@id). 
+- @id KONVENTION: Nutze die absolute URL der Seite mit Fragmenten (z.B. \`${url}#organization\`, \`${url}#person\`, \`${url}#webpage\`).
+- ENTITÄTEN-VERNETZUNG: Anstatt eine Organization in ein Article einzubetten, welches wiederum in einer WebPage steckt, deklariere sie alle als gleichberechtigte Knoten im @graph und verlinke sie über ihre @id (z.B. \`"publisher": {"@id": "${url}#organization"}\`).
+- Der '@type' der Haupt-Entität MUSS exakt der zuvor ermittelten Ontologie-Klasse entsprechen.
+- Baue ALLE gefundenen Fakten detailliert als korrekte Schema-Properties flach über den @graph vernetzt ein (Ziel: 100% Validität ohne Warnings).
 - Nutze (falls auf der Website anwendbar) auch fortgeschrittene Properties wie:
   * \`hasOfferCatalog\` (für Leistungen und Preise)
   * \`subjectOf\` (für verifizierende YouTube-Videos oder Podcasts)

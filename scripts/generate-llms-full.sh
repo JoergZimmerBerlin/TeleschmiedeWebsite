@@ -5,11 +5,8 @@ GLOSSARY_DIR="src/content/glossar"
 BLOG_DIR="src/content/blog"
 DOMAIN="https://teleschmie.de"
 
-# Start with the metadata and entity mapping (adding BOM for IONOS encoding fix)
+# Start with the main llms.txt content (adding BOM for IONOS encoding fix)
 printf '\357\273\277' > "$OUTPUT"
-echo -e "Last Updated: $(date +%Y-%m-%d) | Status: Production / Verified\n" >> "$OUTPUT"
-echo -e "---\n" >> "$OUTPUT"
-
 cat public/llms.txt >> "$OUTPUT"
 echo -e "\n---\n" >> "$OUTPUT"
 echo -e "# FULL KNOWLEDGE BASE\n" >> "$OUTPUT"

@@ -37,9 +37,40 @@ const siteUrl = 'https://teleschmie.de';
 const personId = `${siteUrl}/#person`;
 const businessId = `${siteUrl}/#localbusiness`;
 const websiteId = `${siteUrl}/#website`;
+const breadcrumbId = `${url}#breadcrumb`;
+const imageId = image ? `${url}#primaryimage` : undefined;
 
 // Helper to strip HTML for clean JSON-LD strings
 const cleanText = (html: string) => html ? html.replace(/<[^>]*>?/gm, '').trim() : '';
+
+// --- Breadcrumb Logic ---
+const pathSegments = new URL(url).pathname.split('/').filter(Boolean);
+const breadcrumbItems = [
+  { "@type": "ListItem", "position": 1, "name": "Basis", "item": siteUrl }
+];
+
+let currentPath = siteUrl;
+pathSegments.forEach((segment, index) => {
+  currentPath += `/${segment}/`;
+  let name = segment.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  
+  // Custom mapping for prettier labels
+  if (segment === 'glossar') name = 'Glossar';
+  if (segment === 'blog') name = 'Blog & News';
+  if (segment === 'tools') name = 'KI Tools';
+  
+  // Use the title for the last item if it's a specific page
+  if (index === pathSegments.length - 1 && title) {
+    name = title;
+  }
+
+  breadcrumbItems.push({
+    "@type": "ListItem",
+    "position": index + 2,
+    "name": name,
+    "item": currentPath
+  });
+});
 
 // Central Person Entity
 const personEntity = {
@@ -49,7 +80,7 @@ const personEntity = {
   "givenName": "Jörg",
   "familyName": "Zimmer",
   "jobTitle": "SEO & SEA Freelancer / Digitaler Architekt",
-  "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer mit über 20 Jahren Erfahrung.",
+  "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer mit über 24 Jahren Erfahrung.",
   "image": `${siteUrl}/assets/images/profile/joerg-zimmer-portrait.webp`,
   "url": `${siteUrl}/ueber-mich/`,
   "sameAs": [
@@ -111,19 +142,18 @@ const personEntity = {
   ]
 };
 
-// Central Business Entity (Hardened for Local Service Audit)
+// Central Business Entity
 const businessEntity: any = {
   "@type": "ProfessionalService",
   "@id": businessId,
   "name": "Jörg Zimmer - SEO & SEA Freelancer in Berlin Spandau",
-  "description": description || "Individuelle SEO & SEA Beratung mit über 20 Jahren Erfahrung.",
+  "description": description || "Individuelle SEO & SEA Beratung mit über 24 Jahren Erfahrung.",
   "url": siteUrl,
   "telephone": "+493049208184",
   "email": "info@teleschmie.de",
   "priceRange": "€€",
   "vatID": "DE232939553",
   "foundingDate": "2001-07-23",
-
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Zu den Fichtewiesen 16",
@@ -186,7 +216,7 @@ if (offers && offers.length > 0) {
   };
 }
 
-const graph = [
+const graph: any[] = [
   personEntity,
   businessEntity,
   {
@@ -204,13 +234,29 @@ const graph = [
     "name": title,
     "description": description,
     "publisher": { "@id": businessId },
-    "breadcrumb": { "@id": `${url}#breadcrumb` },
+    "breadcrumb": { "@id": breadcrumbId },
     "datePublished": datePublished,
     "dateModified": dateModified || lastReviewed || datePublished,
     "lastReviewed": lastReviewed,
-    "isPartOf": { "@id": websiteId }
+    "isPartOf": { "@id": websiteId },
+    "primaryImageOfPage": imageId ? { "@id": imageId } : undefined
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": breadcrumbId,
+    "itemListElement": breadcrumbItems
   }
 ];
+
+// Add ImageObject if image is present
+if (image) {
+  graph.push({
+    "@type": "ImageObject",
+    "@id": imageId,
+    "url": image.startsWith('http') ? image : (image.startsWith('/') ? `${siteUrl}${image}` : `${siteUrl}/${image}`),
+    "caption": title
+  });
+}
 
 // Add Article/Glossary/About specific data to graph
 if (type === 'article') {
@@ -218,11 +264,10 @@ if (type === 'article') {
     "@type": "Article",
     "headline": title,
     "description": description,
-    "image": image,
+    "image": imageId ? { "@id": imageId } : undefined,
     "datePublished": datePublished,
     "dateModified": dateModified || lastReviewed || datePublished,
     "author": { "@id": personId },
-
     "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@id": url }
   } as any);
@@ -231,12 +276,8 @@ if (type === 'article') {
     "@type": "DefinedTerm",
     "name": title,
     "description": description,
-    "dateModified": dateModified || lastReviewed,
     "inDefinedTermSet": `${siteUrl}/glossar/`,
-
-    "image": image,
-    "author": { "@id": personId },
-    "publisher": { "@id": businessId },
+    "image": imageId ? { "@id": imageId } : undefined,
     "mainEntityOfPage": { "@id": url }
   } as any);
 } else if (type === 'about') {
@@ -249,7 +290,7 @@ if (type === 'article') {
   } as any);
 }
 
-// Add FAQ if provided (overwrites or adds to auto-generated)
+// Add FAQ if provided
 if (faqs && faqs.length > 0) {
   graph.push({
     "@type": "FAQPage",

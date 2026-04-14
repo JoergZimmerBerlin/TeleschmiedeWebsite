@@ -3,7 +3,7 @@ title: 'LLMs.txt: Die Robots.txt für die KI-Suche'
 description: 'Die llms.txt ist ein neuer Standard zur Steuerung von KI-Crawlern. Sie liefert strukturierte Informationen direkt an Large Language Models.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["robots-txt", "geo", "entitaet"]
+related_terms: ["llms-full-txt", "robots-txt", "geo", "entitaet"]
 key_takeaways:
   - "Maschinen-Fokus: Die llms.txt liefert Fakten direkt in das Gedächtnis von Sprachmodellen."
   - "Effizienz: Kurze, strukturierte Markdown-Daten sparen LLM-Tokens und erhöhen die Zitationsrate."
@@ -37,7 +37,7 @@ Die `llms.txt` löst dieses Problem, indem sie:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Der Aufbau der Datei</h4>
-  <p class="mb-0 text-sm">Eine llms.txt besteht meist aus einer kurzen Einleitung (H1), gefolgt von einer Liste der wichtigsten Sektionen deiner Website. Man unterscheidet oft zwischen der <code>llms.txt</code> (Zusammenfassung) und einer optionalen <code>llms-full.txt</code> (alle Details für ein tieferes Training). Es ist quasi ein erweitertes Inhaltsverzeichnis für Maschinen.</p>
+  <p class="mb-0 text-sm">Eine llms.txt besteht meist aus einer kurzen Einleitung (H1), gefolgt von einer Liste der wichtigsten Sektionen deiner Website. Man unterscheidet oft zwischen der <code>llms.txt</code> (Zusammenfassung) und einer optionalen <a href="/glossar/llms-full-txt/" class="font-bold underline">llms-full.txt</a> (alle Details für ein tieferes Training). Es ist quasi ein erweitertes Inhaltsverzeichnis für Maschinen.</p>
 </div>
 
 ## So implementierst du LLMs.txt für dein SEO

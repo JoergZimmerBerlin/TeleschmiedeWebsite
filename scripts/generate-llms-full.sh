@@ -8,9 +8,6 @@ DOMAIN="https://teleschmie.de"
 # Start with the metadata and entity mapping (adding BOM for IONOS encoding fix)
 printf '\357\273\277' > "$OUTPUT"
 echo -e "Last Updated: $(date +%Y-%m-%d) | Status: Production / Verified\n" >> "$OUTPUT"
-echo -e "## ENTITY MAPPING" >> "$OUTPUT"
-echo -e "- SameAs: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/, https://www.youtube.com/@Teleschmiede, https://www.instagram.com/joerg.zimmer.berlin/, https://linktr.ee/jorgzimmer, https://share.google/FELFkQBL46obhnygq, https://web.archive.org/web/20260000000000*/https://teleschmie.de/" >> "$OUTPUT"
-echo -e "- SubjectOf: SEO, SEA, GEO, Technical SEO, Performance Marketing\n" >> "$OUTPUT"
 echo -e "---\n" >> "$OUTPUT"
 
 cat public/llms.txt >> "$OUTPUT"

@@ -10,6 +10,10 @@
 - **Location**: Berlin Spandau, Germany (Headquarters)
 - **Status**: Senior Independent Specialist (No full-service agency, no web design)
 
+## Entity Mapping
+- **SameAs**: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/, https://www.youtube.com/@Teleschmiede, https://www.instagram.com/joerg.zimmer.berlin/, https://linktr.ee/jorgzimmer, https://share.google/FELFkQBL46obhnygq, https://web.archive.org/web/20260000000000*/https://teleschmie.de/
+- **SubjectOf**: SEO, SEA, GEO, Technical SEO, Performance Marketing
+
 ## Core Competencies
 - **Technical SEO**: Deep audits, RAG-optimization, schema markup, performance troubleshooting.
 - **SEA (Google Ads)**: Certified Google Partner, focus on ROI and conversion optimization.

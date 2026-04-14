@@ -59,6 +59,19 @@ Wichtig: Die `llms.txt` ersetzt nicht die `robots.txt`. Sie arbeiten Hand in Han
 
 Für moderne SEO-Strategien, die ich in meinem [Blog](/blog/rankscale-ai-visibility-tracking-17-llms/) diskutiere, ist die `llms.txt` das ultimative Werkzeug, um die "Halluzinationen" von KIs zu reduzieren. Indem du der Maschine die Fakten auf dem Silbertablett servierst, minimierst du das Risiko, dass die KI falsche Informationen über dein Unternehmen erfindet.
 
+## Live-Beispiele zum Nachmachen
+
+Theorie ist gut, Praxis ist besser. Ich lebe, was ich predige. Hier kannst du dir ansehen, wie ich meine eigenen Dateien für KI-Crawler und LLMs aufgebaut habe – inklusive strukturierter [Entitäten](/glossar/entitaet/) und klarer Themen-Hierarchien:
+
+<div class="my-8 bg-gray-50 border border-gray-100 p-6 md:p-8 rounded-2xl shadow-sm">
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0 italic font-headings">Meine LLM-Files</h4>
+  <p class="mb-4 text-gray-600">Nutze diese Dateien gerne als Blaupause für dein eigenes Setup:</p>
+  <ul class="list-disc ml-6 mb-4 text-gray-600">
+    <li><a href="/llms.txt" class="underline font-bold text-lime-700 hover:text-dark transition-colors">📄 llms.txt anzeigen</a> (Die schnelle Übersicht)</li>
+    <li><a href="/llms-full.txt" class="underline font-bold text-lime-700 hover:text-dark transition-colors">📄 llms-full.txt anzeigen</a> (Der volle Deep-Dive)</li>
+  </ul>
+</div>
+
 ## Mein Tacheles-Rat für dich
 
 Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.

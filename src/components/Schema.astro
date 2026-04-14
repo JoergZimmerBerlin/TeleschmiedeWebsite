@@ -123,8 +123,6 @@ const businessEntity: any = {
   "priceRange": "€€",
   "vatID": "DE232939553",
   "foundingDate": "2001-07-23",
-  "dateModified": dateModified || lastReviewed,
-  "lastReviewed": lastReviewed,
 
   "address": {
     "@type": "PostalAddress",
@@ -149,8 +147,6 @@ const businessEntity: any = {
   ],
   "hasMap": "https://share.google/FELFkQBL46obhnygq",
   "founder": { "@id": personId },
-  "author": { "@id": personId },
-  "publisher": { "@id": personId },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
@@ -200,6 +196,19 @@ const graph = [
     "name": "TELESCHMIE.DE",
     "publisher": { "@id": personId },
     "author": { "@id": personId }
+  },
+  {
+    "@type": "WebPage",
+    "@id": url,
+    "url": url,
+    "name": title,
+    "description": description,
+    "publisher": { "@id": businessId },
+    "breadcrumb": { "@id": `${url}#breadcrumb` },
+    "datePublished": datePublished,
+    "dateModified": dateModified || lastReviewed || datePublished,
+    "lastReviewed": lastReviewed,
+    "isPartOf": { "@id": websiteId }
   }
 ];
 
@@ -212,11 +221,10 @@ if (type === 'article') {
     "image": image,
     "datePublished": datePublished,
     "dateModified": dateModified || lastReviewed || datePublished,
-    "lastReviewed": lastReviewed,
     "author": { "@id": personId },
 
     "publisher": { "@id": businessId },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+    "mainEntityOfPage": { "@id": url }
   } as any);
 } else if (type === 'glossary') {
   graph.push({
@@ -224,12 +232,12 @@ if (type === 'article') {
     "name": title,
     "description": description,
     "dateModified": dateModified || lastReviewed,
-    "lastReviewed": lastReviewed,
     "inDefinedTermSet": `${siteUrl}/glossar/`,
 
     "image": image,
     "author": { "@id": personId },
-    "publisher": { "@id": businessId }
+    "publisher": { "@id": businessId },
+    "mainEntityOfPage": { "@id": url }
   } as any);
 } else if (type === 'about') {
   graph.push({

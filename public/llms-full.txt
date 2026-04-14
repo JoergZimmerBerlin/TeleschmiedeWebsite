@@ -1,8 +1,8 @@
 ﻿Last Updated: 2026-04-14 | Status: Production / Verified
 
 ## ENTITY MAPPING
-- SameAs: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/
-- SubjectOf: SEO, SEA, GEO, Technical SEO
+- SameAs: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/, https://www.youtube.com/@Teleschmiede, https://www.instagram.com/joerg.zimmer.berlin/, https://linktr.ee/jorgzimmer, https://share.google/FELFkQBL46obhnygq, https://web.archive.org/web/20260000000000*/https://teleschmie.de/
+- SubjectOf: SEO, SEA, GEO, Technical SEO, Performance Marketing
 
 ---
 

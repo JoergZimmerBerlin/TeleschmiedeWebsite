@@ -1,5 +1,5 @@
 ---
-title: "AI-Crawler sind dumm: Warum Markdown die Zukunft der KI-Sichtbarkeit ist 🤖"
+title: "AI Crawler, Markdown & Cloudflare: Bot-Optimierung"
 description: "Warum AI-Bots an komplexem HTML scheitern und wie Cloudflares 'Markdown for Agents' 80% Token spart. Ein Tacheles-Blick auf die Zukunft des AI-SEO. ALOHA! 🌻"
 date: "2026-04-16"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawler-sind-dumm-sie-k%C3%B6nnen-oft-keine-activity-7450640002549526528-dIpv"
@@ -30,7 +30,7 @@ Sie scheitern an komplexem JavaScript, verheddern sich in verschachteltem HTML-C
 
 Bots brauchen keine CSS-Animationen oder bunte Header-Grafiken. Sie brauchen **Daten**. Pure, unverfälschte Information.
 
-## Das Problem: HTML ist Rauschen, Markdown ist Musik
+## AI Crawler & Cloudflare: Warum Markdown die Lösung ist
 
 Wenn ein LLM (Large Language Model) eine klassische Website crawlt, muss es sich durch hunderte Zeilen HTML-Ballast wühlen, um den eigentlichen Inhalt zu finden. Das kostet:
 1. **Rechenpower:** Das Token-Limit wird unnötig belastet.

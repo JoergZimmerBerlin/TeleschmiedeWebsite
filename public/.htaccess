@@ -50,6 +50,10 @@ Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https
     # CSP: Maximale Einschränkung für statische Astro-Seiten
     # Erlaubt Google Analytics, Tag Manager und YouTube Einbettungen
     Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
+    
+    # AI/Agent Discovery (RFC 8288) - Schlägt bei Cloudflare Radar 'Agent Readiness' an
+    Header always add Link "</llms.txt>; rel=\"llms\""
+    Header always add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
 </IfModule>
 
 # 4. Kompression (Speed-Boost für SEO)

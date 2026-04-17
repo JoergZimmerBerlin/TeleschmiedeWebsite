@@ -46,7 +46,7 @@ Wer hier versucht, mit "KI-Massenware vom Praktikanten" zu punkten, landet in de
 
 ## Jörgs SEO-Klartext: "Kein Platz für Bauchläden"
 
-> **Tacheles:** Ich sehe jeden Tag Agenturen, die sich 'KI-ready' schimpfen, aber nicht einmal den Unterschied zwischen einem Index-Bot und einem KI-Crawler erklären können. Das ist gefährlich. Ein fehlerhafter Relaunch oder ein kaputtes Kategoriensystem kostet euch heute nicht nur Google-Rankings, sondern schließt euch komplett aus dem KI-Ökosystem aus. Wer keine Lust auf 'Pfusch am Bau' hat, braucht jemanden, der die Finger in die Wunde legt, bevor es weh tut.
+> **Tacheles:** Ich sehe jeden Tag Agenturen, die sich 'KI-ready' schimpfen, aber nicht einmal den Unterschied zwischen einem Index-Bot und einem KI-Crawler erklären können. Das ist gefährlich. Ein fehlerhafter Relaunch oder ein kaputtes Kategoriensystem kostet euch heute nicht nur Google-Rankings, sondern schließt euch komplett aus dem KI-Ökosystem aus. Wer keine Lust auf 'Pfusch am Bau' hat, braucht jemanden, der von Beginn an freundlichen Klartext spricht.
 
 In meiner Zeit als Goldfisch auf Espresso (ja, so fühlt sich die KI-Entwicklung manchmal an) habe ich gelernt: Die Basics sind wichtiger denn je. Aber die Basics von heute heißen nicht mehr nur `H1` und `Meta-Title`. Sie heißen **Semantic Engineering**.
 

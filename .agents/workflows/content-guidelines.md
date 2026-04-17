@@ -30,7 +30,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 ### Jörg-isms & Sprachliche Marker
 - **"Bauchladen":** Für mittelmäßige Allround-Agenturen.
 - **"Tracking-Hölle":** Für kaputte oder überladene Setups.
-- **"Finger in die Wunde legen":** Um den Kern des Problems zu zeigen.
+- **"Freundlicher Klartext":** Um sympathisch, aber absolut ehrlich den Kern des Problems anzusprechen.
 - **"Habe fertig":** Signalisiert den Abschluss einer klaren Aussage oder eines Rants.
 - **"Der Google Ads Support ist nicht dein Freund."**
 

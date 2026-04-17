@@ -15,7 +15,7 @@ faqs:
   - question: "Warum scheitern so viele an den Basics?"
     answer: "SEO wird oft als lästiges Anhängsel am Ende eines Projekts gesehen, statt als integraler Teil des Designs und der Entwicklung. Viele Agenturen fokussieren sich auf Optik, vergessen aber die Straßenkarte für den Google-Bot. Ein klassischer Fall von Pfusch am Bau."
   - question: "Ist die 120-Minuten-Sprechstunde auch für Profis geeignet?"
-    answer: "Absolut. Gerade erfahrene Teams übersehen oft Details durch Betriebsblindheit. Ich lege den Finger in die Wunde und grille das Setup live. Oft finden wir in 2 Stunden mehr wirksame Hebel als in monatelangen internen Meetings."
+    answer: "Absolut. Gerade erfahrene Teams übersehen oft Details durch Betriebsblindheit. Ich spreche freundlichen Klartext und grille das Setup live. Oft finden wir in 2 Stunden mehr wirksame Hebel als in monatelangen internen Meetings."
   - question: "Was ist der größte Ranking-Killer?"
     answer: "Das Relaunch-Drama ohne Redirect-Mapping. Wer seine alten URLs ins Leere laufen lässt, vernichtet jahrelanges Vertrauen bei Google innerhalb von Tagen. Das ist digitaler Selbstmord auf Raten und leider trauriger Alltag."
   - question: "Lohnt sich die Investition von 400 € netto?"
@@ -64,7 +64,7 @@ Mein LinkedIn-Post zu diesem Thema hat gezeigt: Das Problem ist systemisch.
 
 **Beate Aust** brachte es auf den Punkt: Sie ist immer wieder überrascht, dass diese Basics im Jahr 2026 immer noch die Hauptursache für Probleme sind. Es sind Dinge, die eigentlich zum Einmaleins gehören sollten, aber in der Hektik des "Bauchladen"-Alltags vieler Agenturen untergehen.
 
-**Charlotte Rüsch** legte den Finger in die Wunde: SEO wird oft erst dann gerufen, wenn das Kind schon in den Brunnen gefallen ist. Viele Kunden verstehen SEO als "Korrekturmaßnahme" am Ende, statt es von Anfang an in das Fundament der Website einzubauen.
+**Charlotte Rüsch** sprach es in freundlichem Klartext an: SEO wird oft erst dann gerufen, wenn das Kind schon in den Brunnen gefallen ist. Viele Kunden verstehen SEO als "Korrekturmaßnahme" am Ende, statt es von Anfang an in das Fundament der Website einzubauen.
 
 **Jörg Niethammer** ergänzte treffend: Alle Welt redet über komplexe KI-Themen, aber vergessen dabei, die Haustür abzuschließen. Wer seine Indexierung nicht im Griff hat, braucht über KI-Sichtbarkeit gar nicht erst nachdenken.
 

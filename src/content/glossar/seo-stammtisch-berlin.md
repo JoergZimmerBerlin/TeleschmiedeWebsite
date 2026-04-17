@@ -23,7 +23,7 @@ Wer mich kennt, weiß: Ich bin kein Fan von einsamen Elfenbeintürmen. SEO passi
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Als externer Berater kann ich den Finger in die Wunde legen, ohne Angst um meinen Schreibtischstuhl zu haben."</p>
+  <p class="italic text-dark mb-0">"Als externer Berater spreche ich Herausforderungen in freundlichem Klartext an, ohne Angst um meinen Schreibtischstuhl zu haben."</p>
 </div>
 
 Seit Jahren sitze ich dort regelmäßig mit Kollegen zusammen, die genauso tief im Kaninchenbau stecken wie ich. Es ist der Ort, an dem wir über die neuesten Core Updates fluchen, uns über verrückte [GEO-Experimente](/glossar/geo/) austauschen oder gemeinsam über die Tücken der [Search Console](/glossar/google-search-console/) lachen.

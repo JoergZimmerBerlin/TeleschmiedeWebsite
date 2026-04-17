@@ -46,7 +46,7 @@ Als ich diesen Case auf LinkedIn geteilt habe, gab es großartiges Feedback aus 
 **Andre Herzog** hat den Nagel auf den Kopf getroffen:
 > *"Was so n bissl Indexierung, korrekte HTML Struktur, Keywordsuche/-optimierung, entfernen von totenLinks, dafür Querverlinkung, evtl noch robot.txt,usw alles ausmacht. Die meisten groben Fehler findet und behebt ein Profi sicher in 1-2 Stunden.  Manche wollen aber auch nur eine digitale Visitenkarte und keinen organischen Treffer. Man muss definieren, was man möchte und entsprechend die Ziele umsetzen."*
 
-Genau das ist es! Es geht oft um die Basics. Wer den **Finger in die Wunde legt** und diese Basics repariert, bekommt eine Hebelwirkung, von der manch einer nur träumt.
+Genau das ist es! Es geht oft um die Basics. Wer mit **freundlichem Klartext** an die Sache geht und diese Basics repariert, bekommt eine Hebelwirkung, von der manch einer nur träumt.
 
 Auch **Stefan Kock** gab einen wichtigen Hinweis:
 > *"Ich tippe auf „Anzahl der indexierten URLs“? Aber wir wissen ja alle: Quantity ist nicht gleich Quality "*

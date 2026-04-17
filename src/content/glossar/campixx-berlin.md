@@ -60,7 +60,7 @@ Dafür steht mein Name – handwerkliche Präzision, geschmiedet im Feuer der Co
 
 In einer Welt, in der KI-Content massenhaft produziert wird, wird die individuelle "Experience" ([E-E-A-T](/glossar/e-e-a-t/)) zum wichtigsten Rankingfaktor. Die Campixx ist die Verkörperung dieses Faktors. Echte Menschen, echtes Wissen, echte Tests.
 
-Wenn ich von der Campixx zurückkomme, fließen diese neuen Erkenntnisse über [Entity SEO](/glossar/entity-seo/) oder [Local SEO](/glossar/local-seo/) Trends direkt in die Strategien meiner Kunden ein. Wer nicht auf der Campixx war, hat oft den Anschluss an das verloren, was *wirklich* gerade in den Köpfen der Top-SEOs vorgeht.
+Wenn ich von der Campixx zurückkomme, fließen diese neuen Erkenntnisse über [Entity SEO](/glossar/entity-seo/) oder KI-Sichtbarkeit direkt in den Mix aus technischem, inhaltlichem und strategischem SEO für meine Beratung ein. Wer nicht auf der Campixx war, hat oft den Anschluss an das verloren, was *wirklich* gerade in den Köpfen der Top-SEOs vorgeht.
 
 ## Dein nächster Schritt
 

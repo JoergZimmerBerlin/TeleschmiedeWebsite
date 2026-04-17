@@ -14,7 +14,7 @@ faqs:
   - question: 'Welche Citations haben den größten Einfluss auf mein Ranking?'
     answer: 'Die Basis ist immer ein perfekt gepflegtes Google Business Profile. Danach folgen die ''Big Players'' wie Bing Places, Apple Maps und Branchen-Riesen wie Gelbe Seiten oder das Örtliche. Aber Vorsicht: Den echten SEO-Boost bringen oft themenspezifische Nischen-Portale oder lokale Nachrichtenartikel. Eine Citation in einem PDF der IHK Berlin ist oft mehr wert als zehn Standard-Einträge in Spam-Verzeichnissen.'
   - question: 'Wie finde und korrigiere ich fehlerhafte Citations effektiv?'
-    answer: 'Das ist die klassische Detektivarbeit im Local SEO. Ich nutze dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein ''nice to have'', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut.'
+    answer: 'Das ist klassische Detektivarbeit. In meiner Beratung – bei der es um den Mix aus technischem, inhaltlichem und strategischem SEO geht – nutze ich dafür oft spezialisierte Crawler, aber du kannst auch selbst suchen: Google nach deiner alten Telefonnummer oder Adresse in Anführungszeichen. Wenn du Widersprüche findest, musst du die Portalbetreiber anschreiben. NAP-Konsistenz (Name, Address, Phone) ist kein ''nice to have'', sondern die Grundvoraussetzung, damit Google deinem Standort vertraut.'
 ---
 
 
@@ -80,7 +80,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wirst du von KI-Systemen zitiert?</h3>
-  <p class="mb-6">Citations sind das Fundament für local Rankings und KI-Vertrauen. Ich optimiere dein Profil für Google Maps und ChatGPT. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Citability.</p>
+  <p class="mb-6">Citations sind das Fundament für lokale Rankings und KI-Vertrauen. Durch einen gezielten Mix aus technischem, inhaltlichem und strategischem SEO als Beratung optimieren wir dein Profil für Google Maps und ChatGPT. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Citability.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen </a>
 </div>
 

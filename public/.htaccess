@@ -26,19 +26,30 @@ Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 
-# 3. Security Headers (Härtung auf A+ Niveau)
+# 3. Security Headers (Best-in-Class A+ Härtung)
 <IfModule mod_headers.c>
+    # Basis Härtung
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
     Header always set X-XSS-Protection "1; mode=block"
-    # HSTS Pro (1 Jahr + Preload für maximale Sicherheit - Nur über HTTPS senden)
-    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
-    # Modern Security Policies
+    Header always set X-Permitted-Cross-Domain-Policies "none"
+    
+    # HSTS (1 Jahr + Preload für maximale Sicherheit)
+    # Entferne env=HTTPS, falls Ionos HTTPS nicht korrekt in env spiegelt
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    
+    # Modern Isolation Policies
+    Header always set Cross-Origin-Embedder-Policy "unsafe-none"
+    Header always set Cross-Origin-Opener-Policy "same-origin"
     Header always set Cross-Origin-Resource-Policy "same-origin"
-    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
-    # CSP: Maximale Einschränkung für statische Astro-Seiten (optimiert für GA)
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self';"
+    
+    # Permissions-Policy (Zentrale Kontrolle über Browser-Features)
+    Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    
+    # CSP: Maximale Einschränkung für statische Astro-Seiten
+    # Erlaubt Google Analytics, Tag Manager und YouTube Einbettungen
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
 </IfModule>
 
 # 4. Kompression (Speed-Boost für SEO)

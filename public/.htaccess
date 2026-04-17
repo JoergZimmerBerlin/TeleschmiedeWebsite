@@ -50,17 +50,15 @@ Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https
     # Mime Fix für CSS
     AddType text/css .css
     
-    # CSP: Maximale Einschränkung für statische Astro-Seiten
-    # KEIN 'unsafe-inline' mehr! Assets wurden externalisiert.
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
+    # Content-Security-Policy (PascalCase, no 'always' for discovery)
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
     
-    # AI/Agent Discovery (RFC 8288) - Schlägt bei Cloudflare Radar 'Agent Readiness' an
-    # Einzelne 'add' Befehle sind auf Ionos/Apache robuster als eine kommagetrennte Liste
-    Header always add Link "</llms.txt>; rel=\"llms\""
-    Header always add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
-    Header always add Link "</.well-known/mcp-server-card.json\"; rel=\"service-doc\""
-    Header always add Link "</.well-known/ai-plugin.json\"; rel=\"service-doc\""
-    Header always add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
+    # AI/Agent Discovery (RFC 8288)
+    Header add Link "</llms.txt>; rel=\"llms\""
+    Header add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
+    Header add Link "</.well-known/mcp-server-card.json\"; rel=\"service-doc\""
+    Header add Link "</.well-known/ai-plugin.json\"; rel=\"service-doc\""
+    Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
 </IfModule>
 
 # 4. Kompression (Speed-Boost für SEO)

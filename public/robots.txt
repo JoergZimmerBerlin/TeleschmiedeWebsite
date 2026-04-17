@@ -2,12 +2,18 @@
 User-agent: *
 Allow: /
 
-# AI Specialists - Explicitly welcomed for better Discovery
+# AI Specialists & Search Agents - Explicitly welcomed for Discovery
+# Focus: High-quality Citation and Technical Ingestion (DACH/Global)
 User-agent: GPTBot
 User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
 User-agent: Google-Extended
 User-agent: ClaudeBot
 User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: YouBot
+User-agent: DeepL-Crawler
+User-agent: CCBot
 Allow: /
 
 # Direct sitemaps and discovery links

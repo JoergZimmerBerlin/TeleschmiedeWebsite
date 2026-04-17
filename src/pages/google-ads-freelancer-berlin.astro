@@ -10,8 +10,8 @@ import joergWorking from '../assets/images/profile/joerg-lifestyle.webp';
 import joergCTA from '../assets/images/profile/joerg-zimmer-cta.webp';
 import joergInterview from '../assets/images/blog/seopresso-interview.webp';
 import joergPodcast from '../assets/images/blog/ai-ready-podcast.webp';
-import FehlerImage from '../assets/images/blog/broad-match-falle.webp';
 import ContextualImage from '../assets/images/blog/seo-ads-synergie.webp';
+import Testimonials from '../components/Testimonials.astro';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const lastReviewed = getGitModDate('src/pages/google-ads-freelancer-berlin.astro');
@@ -173,24 +173,13 @@ const offers = [
           </div>
         </div>
       </div>
-
-      <!-- Infografik 1 (Reused) -->
-      <div class="my-16 bg-white p-8 rounded-3xl shadow-sm border border-gray-100 relative">
-        <div class="absolute -top-6 left-8 bg-dark text-lime-accent px-6 py-2 rounded-full font-bold text-sm shadow-md">
-          Performance-Killer identifizieren
-        </div>
-        <Image
-          src={FehlerImage}
-          alt="Die Broad Match Falle in Google Ads - Kostenfalle vermeiden"
-          width={1200}
-          height={675}
-          class="w-full h-auto rounded-xl object-contain"
-          format="webp"
-        />
-        <p class="text-sm text-center text-gray-muted mt-4 italic">Kennst du deine genauen und wahren Kosten pro Conversion?</p>
-      </div>
     </div>
   </section>
+
+  <!-- Social Proof / Bewertungen -->
+  <div class="py-12 bg-white border-t border-gray-100">
+    <Testimonials />
+  </div>
 
   <!-- Content Section 2: Die 4 Säulen meiner SEA-Beratung -->
   <section class="section bg-white pt-24 pb-24">

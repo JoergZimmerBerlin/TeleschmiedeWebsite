@@ -5,12 +5,12 @@ import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
 import CTASection from '../components/CTASection.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
+import Testimonials from '../components/Testimonials.astro';
 import heroImage from '../assets/images/pages/hero-pose.webp';
 import joergWorking from '../assets/images/profile/joerg-lifestyle.webp';
 import joergCTA from '../assets/images/profile/joerg-zimmer-cta.webp';
 import joergInterview from '../assets/images/blog/seopresso-interview.webp';
 import joergPodcast from '../assets/images/blog/ai-ready-podcast.webp';
-import FehlerImage from '../assets/images/blog/seo_fehler_simple.webp';
 import ContextualImage from '../assets/images/blog/contextual_seo_simple.webp';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -133,7 +133,7 @@ const offers = [
           <h2 class="text-3xl md:text-4xl font-bold text-dark mb-8 border-b-2 border-lime-accent pb-4 inline-block">Warum überhaupt ein SEO Freelancer aus Berlin?</h2>
           
           <p class="mb-8 leading-relaxed">
-            Stell dir vor, dein Auto macht seltsame Geräusche. Fährst du zu einer riesigen Werkstattkette (die <strong>Deutsche Bahn</strong> des Kfz-Handwerks), wo dich eine Empfangskraft ohne Plan einbucht? Oder fährst du zum Meister, der seit 20 Jahren denselben Motortyp im Schlaf zerlegt? 
+            Stell dir vor, dein Auto macht seltsame Geräusche. Fährst du zu einer riesigen Werkstattkette, wo dich eine Empfangskraft ohne Plan einbucht? Oder fährst du zum Meister, der seit 20 Jahren denselben Motortyp im Schlaf zerlegt? 
           </p>
 
           <p class="mb-8 leading-relaxed">
@@ -153,13 +153,6 @@ const offers = [
           <p class="mb-8 leading-relaxed">
             Heute ist SEO kein Spielplatz mehr für Praktikanten. Es ist ein hochkomplexes Zusammenspiel aus <strong>technischer Exzellenz, messerscharfem Content und echter Autorität</strong>. Wer heute noch glaubt, mit ein paar gekauften Backlinks den Markt zu rocken, spielt Russisch Roulette mit seiner Existenz.
           </p>
-
-          <div class="my-10 bg-lime-accent/10 p-8 rounded-3xl border border-lime-200">
-            <h4 class="text-xl font-bold mb-4">Die Gefahr des "KI-Einheitsbreis"</h4>
-            <p class="text-gray-800 leading-relaxed mb-0">
-              Der Markt wird gerade mit generischem KI-Content geflutet. Wenn alle dasselbe schreiben, wird niemand mehr wahrgenommen. Google indexiert diesen Einheitsbrei immer seltener. Was heute zählt, ist <strong>E-E-A-T</strong>. Meine Aufgabe ist es, deine echte Expertise so zu verpacken, dass Google dich nicht für einen Bot hält, sondern für die unangefochtene Nummer 1 in deiner Nische.
-            </p>
-          </div>
         </div>
         
         <!-- Sidebar mit persönlichem Bild -->
@@ -177,24 +170,13 @@ const offers = [
           </div>
         </div>
       </div>
-
-      <!-- Infografik 1 -->
-      <div class="my-16 bg-white p-8 rounded-3xl shadow-sm border border-gray-100 relative">
-        <div class="absolute -top-6 left-8 bg-dark text-lime-accent px-6 py-2 rounded-full font-bold text-sm shadow-md">
-          Fehler, die Klicks kosten
-        </div>
-        <Image
-          src={FehlerImage}
-          alt="Häufige SEO Fehler und deren Lösungen - Infografik"
-          width={1200}
-          height={675}
-          class="w-full h-auto rounded-xl object-contain"
-          format="webp"
-        />
-        <p class="text-sm text-center text-gray-muted mt-4 italic">Wie viele dieser Baustellen hast du aktuell noch auf deiner Website?</p>
-      </div>
     </div>
   </section>
+
+  <!-- Social Proof / Bewertungen auskommentiert vom Nutzer -->
+  <div class="py-12 bg-white border-t border-gray-100">
+    <Testimonials />
+  </div>
 
   <!-- Content Section 2: Die 4 Säulen meiner SEO-Beratung -->
   <section class="section bg-white pt-24 pb-24">
@@ -292,7 +274,7 @@ const offers = [
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           <div class="lg:col-span-7">
-            <h2 class="text-3xl md:text-5xl font-bold mb-6 !text-white !border-lime-accent !pb-4">SEO auf dem Prüfstand: Die Ära der KI (LLMO & GEO)</h2>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 !text-white !border-lime-accent !pb-4">GEO und AI SEO</h2>
             <p class="leading-relaxed text-gray-300">
               Seit der Veröffentlichung von ChatGPT und der anstehenden Revolution durch den <strong>Google KI-Modus</strong> fragen sich viele: Ist SEO tot? Die Antwort lautet: Klassisches SEO, wie wir es kannten, liegt auf der Intensivstation. Was stattdessen entsteht, nenne ich <strong>Generative Engine Optimization (GEO)</strong> oder <strong>LLMO (Large Language Model Optimation)</strong>.
             </p>

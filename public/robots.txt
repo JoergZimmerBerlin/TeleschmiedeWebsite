@@ -2,40 +2,52 @@
 User-agent: *
 Allow: /
 
-# Top 30+ AI & LLM Specialists (State-of-the-art 2026)
-# Explicitly allowed to maximize AI Search visibility, Citations, and Discovery
-User-agent: GPTBot
-User-agent: ChatGPT-User
-User-agent: OAI-SearchBot
+# Top 30+ AI & LLM Specialists (April 2026 - Ordered by Crawl Volume)
+# -------------------------------------------------------------------
+
+# 1. The Volume Kings (High-Intensity Training & Search)
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: FacebookBot
 User-agent: ClaudeBot
 User-agent: Claude-Web
 User-agent: Claude-SearchBot
-User-agent: Google-Extended
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+
+# 2. Strategic Surgers (Fast-Growing AI Training)
+User-agent: Applebot
 User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: Bytespider
+User-agent: TikTokSpider
+User-agent: Petalbot
+
+# 3. Mass Data Collectors (Foundation Training Sources)
+User-agent: CCBot
+User-agent: Diffbot
+User-agent: Omgilibot
+User-agent: Thinker-Crawler
+User-agent: VelenPublicWebCrawler
+User-agent: ImagesiftBot
+
+# 4. Search, Citations & Global Agents
 User-agent: PerplexityBot
 User-agent: Perplexity-User
+User-agent: OAI-SearchBot
 User-agent: YouBot
 User-agent: KomoBot
 User-agent: MojeekBot
 User-agent: DuckAssistBot
-User-agent: Meta-ExternalAgent
-User-agent: Meta-ExternalFetcher
-User-agent: FacebookBot
-User-agent: Amazonbot
-User-agent: CCBot
-User-agent: Bytespider
-User-agent: TikTokSpider
-User-agent: Petalbot
-User-agent: Diffbot
-User-agent: Omgilibot
 User-agent: DeepL-Crawler
 User-agent: Cohere-ai
-User-agent: Thinker-Crawler
-User-agent: VelenPublicWebCrawler
-User-agent: ImagesiftBot
 User-agent: Baiduspider-render
 User-agent: YandexMobileBot
 User-agent: Scrapy
+
 Allow: /
 
 # Direct sitemaps and discovery links

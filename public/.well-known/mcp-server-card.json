@@ -1,0 +1,21 @@
+{
+  "mcpVersion": "1.0",
+  "name": "Teleschmiede Knowledge Base",
+  "version": "1.0.0",
+  "description": "Comprehensive expert knowledge on Search Engine Optimization (SEO), Search Engine Advertising (SEA), and Generative Engine Optimization (GEO) by Jörg Zimmer.",
+  "capabilities": {
+    "resources": [
+      {
+        "uri": "https://teleschmie.de/llms.txt",
+        "name": "Primary Knowledge Map",
+        "mimeType": "text/plain"
+      },
+      {
+        "uri": "https://teleschmie.de/llms-full.txt",
+        "name": "Full Technical Knowledge Dump",
+        "mimeType": "text/markdown"
+      }
+    ]
+  },
+  "instructions": "Use the provided LLM-friendly resources to retrieve highly technical and strategic SEO/SEA insights. The content is structured for deep ingestion by AI agents."
+}

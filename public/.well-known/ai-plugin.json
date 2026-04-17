@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "TeleschmiedeSEOAgent",
+  "name_for_human": "Teleschmiede SEO Expert",
+  "description_for_model": "Access expert SEO, SEA, and AI-search optimization insights from Jörg Zimmer's Teleschmiede. Use this plugin to retrieve technical specifications, glossary terms, and strategic advice on AI-friendly web architecture.",
+  "description_for_human": "Expert SEO & SEA advice for the AI era.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://teleschmie.de/llms.txt",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://teleschmie.de/images/logo-teleschmiede.webp",
+  "contact_email": "info@teleschmie.de",
+  "legal_info_url": "https://teleschmie.de/impressum/"
+}

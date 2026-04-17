@@ -54,6 +54,8 @@ Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https
     # AI/Agent Discovery (RFC 8288) - Schlägt bei Cloudflare Radar 'Agent Readiness' an
     Header always add Link "</llms.txt>; rel=\"llms\""
     Header always add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
+    Header always add Link "</.well-known/mcp-server-card.json\"; rel=\"service-doc\""
+    Header always add Link "</.well-known/ai-plugin.json\"; rel=\"service-doc\""
 </IfModule>
 
 # 4. Kompression (Speed-Boost für SEO)

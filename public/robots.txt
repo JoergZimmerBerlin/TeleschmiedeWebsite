@@ -1,6 +1,16 @@
+# Standard Crawlers
 User-agent: *
 Allow: /
 
+# AI Specialists - Explicitly welcomed for better Discovery
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: ClaudeBot
+User-agent: Claude-Web
+Allow: /
+
+# Direct sitemaps and discovery links
 Sitemap: https://teleschmie.de/sitemap.xml
 Sitemap: https://teleschmie.de/llms.txt
 Sitemap: https://teleschmie.de/llms-full.txt

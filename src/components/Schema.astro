@@ -43,6 +43,21 @@ const imageId = image ? `${url}#primaryimage` : undefined;
 // Helper to strip HTML for clean JSON-LD strings
 const cleanText = (html: string) => html ? html.replace(/<[^>]*>?/gm, '').trim() : '';
 
+// Helper to ensure dates are in valid ISO 8601 format for Google/LLMs
+const formatISO = (dateStr?: string) => {
+  if (!dateStr) return undefined;
+  try {
+    const d = new Date(dateStr);
+    return isNaN(d.getTime()) ? dateStr : d.toISOString();
+  } catch (e) {
+    return dateStr;
+  }
+};
+
+const datePublishedISO = formatISO(datePublished);
+const dateModifiedISO = formatISO(dateModified || lastReviewed || datePublished);
+const lastReviewedISO = formatISO(lastReviewed);
+
 // --- Breadcrumb Logic ---
 const pathSegments = new URL(url).pathname.split('/').filter(Boolean);
 const breadcrumbItems = [
@@ -236,9 +251,9 @@ const graph: any[] = [
     "description": description,
     "publisher": { "@id": businessId },
     "breadcrumb": { "@id": breadcrumbId },
-    "datePublished": datePublished,
-    "dateModified": dateModified || lastReviewed || datePublished,
-    "lastReviewed": lastReviewed,
+    "datePublished": datePublishedISO,
+    "dateModified": dateModifiedISO,
+    "lastReviewed": lastReviewedISO,
     "isPartOf": { "@id": websiteId },
     "primaryImageOfPage": imageId ? { "@id": imageId } : undefined
   },
@@ -266,8 +281,8 @@ if (type === 'article') {
     "headline": title,
     "description": description,
     "image": imageId ? { "@id": imageId } : undefined,
-    "datePublished": datePublished,
-    "dateModified": dateModified || lastReviewed || datePublished,
+    "datePublished": datePublishedISO,
+    "dateModified": dateModifiedISO,
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@id": url }
@@ -284,8 +299,8 @@ if (type === 'article') {
     "description": description,
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
-    "datePublished": datePublished,
-    "dateModified": dateModified || lastReviewed || datePublished,
+    "datePublished": datePublishedISO,
+    "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
     "image": imageId ? { "@id": imageId } : undefined
   });

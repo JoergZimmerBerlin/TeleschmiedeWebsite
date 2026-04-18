@@ -27,7 +27,7 @@ Genau hier kommt **RAG** ins Spiel. **Retrieval-Augmented Generation** ist das s
 
 ## Was ist RAG (Retrieval-Augmented Generation)?
 
-RAG ist ein Architektur-Muster in der KI-Entwicklung, das ein Large Language Model (wie GPT-4 oder Claude) mit einer externen Datenquelle verknüpft. Statt sich nur auf das in den Parametern gespeicherte Wissen zu verlassen, geht die KI in drei Schritten vor:
+RAG ist ein Architektur-Muster in der KI-Entwicklung, das ein Large Language Model (wie ChatGPT oder Claude) mit einer externen Datenquelle verknüpft. Statt sich nur auf das in den Parametern gespeicherte Wissen zu verlassen, geht die KI in drei Schritten vor:
 
 1.  **Retrieval (Abrufen):** Basierend auf der Nutzerfrage sucht die KI in einer Datenbank (meist eine Vektordatenbank) nach den relevantesten Informationen.
 2.  **Augmentation (Anreichern):** Die gefundenen Informationen werden dem ursprünglichen Nutzer-Prompt hinzugefügt. Die KI bekommt also den Befehl: "Beantworte diese Frage *nur* auf Basis der folgenden Texte..."

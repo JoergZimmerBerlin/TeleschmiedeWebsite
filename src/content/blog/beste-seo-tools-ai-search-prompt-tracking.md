@@ -32,7 +32,7 @@ Um das zu beantworten, brauchst du ein völlig neues Arsenal an Werkzeugen. In d
 
 ## Warum klassische SEO-Tools oft versagen
 
-Die meisten großen SEO-Suiten (ihr kennt sie alle: Sistrix, Semrush, Ahrefs) wurden für die alte Welt gebaut. Sie crawlen den Google-Index und schauen, an welcher Stelle ein Link auftaucht. Das ist wichtig, keine Frage. Aber ein Sprachmodell wie GPT-4o oder Claude 3.5 ist kein Index. Es ist ein neuronales Netz, das Informationen aus tausenden Quellen zusammenwürfelt.
+Die meisten großen SEO-Suiten (ihr kennt sie alle: Sistrix, Semrush, Ahrefs) wurden für die alte Welt gebaut. Sie crawlen den Google-Index und schauen, an welcher Stelle ein Link auftaucht. Das ist wichtig, keine Frage. Aber ein Sprachmodell wie ChatGPT oder Claude ist kein Index. Es ist ein neuronales Netz, das Informationen aus tausenden Quellen zusammenwürfelt.
 
 Wer heute "AI-SEO" oder <a href="/glossar/geo/">GEO (Generative Engine Optimization)</a> betreiben will, muss verstehen, wie die KI seinen Content verarbeitet. Und genau hier trennt sich die Spreu vom Weizen.
 

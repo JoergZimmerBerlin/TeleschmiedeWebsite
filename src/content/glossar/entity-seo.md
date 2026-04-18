@@ -5,7 +5,7 @@ date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page"]
 key_takeaways:
-  - "Themen statt Keywords: KI-Modelle wie GPT-4 und Google AI Overviews verstehen Konzepte (Entitäten), nicht nur Text-Strings."
+  - "Themen statt Keywords: KI-Modelle wie ChatGPT und Google AI Overviews verstehen Konzepte (Entitäten), nicht nur Text-Strings."
   - "Entity Depth: Die Tiefe deiner Daten (Nesting) bestimmt deine Position im semantischen Vektorraum der KIs."
   - "Beweiskraft: Wer seine Entität unmissverständlich deklariert (Grounding), wird zur bevorzugten Quelle für Antworten."
 faqs:
@@ -39,7 +39,7 @@ Wer in Zeiten generativer Engines wachsen will, muss seine Arbeitsweise anpassen
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Info-Box: Der Wissensgraph</h4>
-  <p class="mb-0 text-sm">Google und LLMs nutzen fortgeschrittene Deep Learning Modelle (wie Gemini oder GPT-4), um semantische Konzepte in Echtzeit zu erschließen. Jede Entität hat eine Koordinate im 'Vektorraum'. Deine Aufgabe ist es, durch präzisen Content und korrektes Schema deine Position in diesem Raum zu zementieren.</p>
+  <p class="mb-0 text-sm">Google und LLMs nutzen fortgeschrittene Deep Learning Modelle (wie Gemini oder ChatGPT), um semantische Konzepte in Echtzeit zu erschließen. Jede Entität hat eine Koordinate im 'Vektorraum'. Deine Aufgabe ist es, durch präzisen Content und korrektes Schema deine Position in diesem Raum zu zementieren.</p>
 </div>
 
 ## Entity SEO und die Macht der Authorität ([E-E-A-T](/glossar/e-e-a-t/))

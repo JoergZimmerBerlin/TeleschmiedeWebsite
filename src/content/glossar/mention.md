@@ -54,7 +54,7 @@ Wie sorgst du dafür, dass über dich gesprochen wird?
 
 ## Mentions in der generativen KI-Suche ([GEO](/glossar/geo/))
 
-Für Large Language Models (LLMs) sind Mentions die primäre Währung. Eine KI wie Claude oder GPT-4 "weiß" nichts über das Internet in Echtzeit, sie "erinnert" sich aber an die Häufigkeit von Konzepten aus ihren Trainingsdaten. 
+Für Large Language Models (LLMs) sind Mentions die primäre Währung. Eine KI wie Claude oder ChatGPT "weiß" nichts über das Internet in Echtzeit, sie "erinnert" sich aber an die Häufigkeit von Konzepten aus ihren Trainingsdaten. 
 
 Wenn du in tausenden Dokumenten als Experte erwähnt wirst, wird die Wahrscheinlichkeit extrem hoch, dass die KI deinen Namen als Empfehlung ausgibt, wenn ein Nutzer nach Hilfe fragt. Mentions bauen deinen "Vektor-Fußabdruck" im semantischen Raum auf. Wer nicht erwähnt wird, existiert für eine generative Engine schlicht nicht – egal wie gut die [On-Page SEO Basics](/blog/80-prozent-seo-fehler-sprechstunde/) der eigenen Seite sind.
 

@@ -33,7 +33,7 @@ Während [GEO](/glossar/geo/) die Gesamtstrategie für KI-Sichtbarkeit darstellt
 
 ## Wie LLMs Informationen verarbeiten
 
-LLMs wie GPT-4, Gemini oder Claude lernen aus riesigen Textmengen des Internets. Sie analysieren statistische Muster:
+LLMs wie ChatGPT, Gemini oder Claude lernen aus riesigen Textmengen des Internets. Sie analysieren statistische Muster:
 
 *   **Co-Occurrence:** Wie oft wird „Jörg Zimmer" zusammen mit „SEO Berlin" erwähnt?
 *   **Source Authority:** Stammt die Erwähnung von t3n oder von einem Spam-Blog?

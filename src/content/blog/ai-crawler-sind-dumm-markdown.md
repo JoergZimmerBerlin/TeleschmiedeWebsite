@@ -33,7 +33,7 @@ Bots brauchen keine CSS-Animationen oder bunte Header-Grafiken. Sie brauchen **D
 
 ## AI Crawler & Cloudflare: Warum Markdown die Lösung ist
 
-Wenn ein LLM wie GPT-4o oder Claude 3.5 eine klassische Website crawlt, muss es sich durch hunderte Zeilen HTML-Ballast wühlen, um den eigentlichen Kerninhalt zu finden. Stell dir vor, du müsstest ein Buch lesen, bei dem auf jeder Seite zwischen den Sätzen die Konstruktionspläne des Druckers stehen. Das ist das "Erlebnis", das wir Bots aktuell bieten.
+Wenn ein LLM wie ChatGPT oder Claude eine klassische Website crawlt, muss es sich durch hunderte Zeilen HTML-Ballast wühlen, um den eigentlichen Kerninhalt zu finden. Stell dir vor, du müsstest ein Buch lesen, bei dem auf jeder Seite zwischen den Sätzen die Konstruktionspläne des Druckers stehen. Das ist das "Erlebnis", das wir Bots aktuell bieten.
 
 Das Problem ist dreifaltig:
 1. **Rechenpower:** Das Token-Limit (die "Gedächtnisspanne" der KI) wird unnötig belastet. Jedes `<div>`, jedes `<span>` und jede CSS-Klasse frisst Token, die eigentlich für die Antwort übrig sein sollten.

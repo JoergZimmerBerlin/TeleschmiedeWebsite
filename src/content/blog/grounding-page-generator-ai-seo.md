@@ -15,7 +15,7 @@ faqs:
   - question: "Reicht eine normale 'Über uns'-Seite nicht aus?"
     answer: "Nein, absolut nicht. Die 'Über uns'-Seite ist meistens ein Marketing-Produkt, vollgestopft mit 'CI-Sekte'-Blabla und weichgespülten Formulierungen. KIs brauchen aber harte Fakten, strukturierte Daten und glasklare Abgrenzungen. Eine Grounding Page ist technisch optimiert, liefert validen JSON-LD Code und ist so aufgebaut, dass ein LLM-Bot sie in Millisekunden fehlerfrei verarbeiten kann, ohne die Wahrheit 'raten' zu müssen."
   - question: "Warum sollte ich die Grounding Page auch auf Englisch erstellen?"
-    answer: "Das ist einer der wichtigsten Punkte im modernen GEO (Generative Engine Optimization). Die meisten großen Sprachmodelle wie GPT-4 oder Gemini führen ihre internen Grounding- und Denkprozesse primär auf Englisch durch. Wenn du nur eine deutsche Seite hast, muss die KI deine Informationen erst übersetzen und interpretieren – dabei entstehen Reibungsverluste und Fehler. Eine englische Grounding Page ist wie ein direkter Draht zum Gehirn der KI. Sie garantiert, dass deine Marke auch in internationalen Suchen korrekt zitiert wird."
+    answer: "Das ist einer der wichtigsten Punkte im modernen GEO (Generative Engine Optimization). Die meisten großen Sprachmodelle wie ChatGPT oder Gemini führen ihre internen Grounding- und Denkprozesse primär auf Englisch durch. Wenn du nur eine deutsche Seite hast, muss die KI deine Informationen erst übersetzen und interpretieren – dabei entstehen Reibungsverluste und Fehler. Eine englische Grounding Page ist wie ein direkter Draht zum Gehirn der KI. Sie garantiert, dass deine Marke auch in internationalen Suchen korrekt zitiert wird."
   - question: "Was ist der Vorteil von JSON-LD @graph-Strukturen?"
     answer: "Dank eines Tipps aus der Community (Grüße an René Dhemant!) wissen wir: Die wahre Power von JSON-LD liegt in @graph. Statt viele einzelne Datenfetzen zu haben, vernetzen wir mit @graph alle Entitäten (Person, Firma, Dienstleistung, Standort) zu einem unzerstörbaren logischen Netz. Das flacht den Code ab und verhindert, dass die KI den Kontext verliert. Wer heute noch JSON-LD ohne klare IDs und graph-Struktur baut, betreibt im Grunde 'Pfusch am Bau' im digitalen Maschinenraum."
   - question: "Kann ich das Grounding-Konzept auch für kleine Unternehmen nutzen?"
@@ -60,7 +60,7 @@ Ich sage es immer wieder: Technik ist Chefsache. Wer dieses Fundament vernachlä
 
 Damit du nicht bei Null anfangen musst, habe ich ein Tool gebaut: Den **Grounding Page Generator**.
 
-Das Prinzip ist simpel, aber hocheffektiv. Du fütterst den Generator mit deiner URL, und er spuckt dir einen hochkomplexen **Mega-Prompt** aus. Diesen Prompt fütterst du der KI deiner Wahl (Claude 3.5 Sonnet ist hier mein persönlicher Favorit für Code-Strukturen), und du erhältst:
+Das Prinzip ist simpel, aber hocheffektiv. Du fütterst den Generator mit deiner URL, und er spuckt dir einen hochkomplexen **Mega-Prompt** aus. Diesen Prompt fütterst du der KI deiner Wahl (Claude ist hier mein persönlicher Favorit für Code-Strukturen), und du erhältst:
 
 1.  **Glasklaren HTML-Code** für deine Grounding-Inhalte.
 2.  **Validiertes JSON-LD**, das alle deine Entitäten vernetzt.

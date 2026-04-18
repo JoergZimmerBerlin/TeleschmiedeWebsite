@@ -10,7 +10,7 @@ tags: ["Case Study"]
 key_takeaways:
   - "AI-Agenten auf LinkedIn erzeugen einen digitalen Einheitsbrei, der echte Interaktion entwertet."
   - "Authentizität ist im KI-Zeitalter kein Buzzword, sondern ein messbarer Wettbewerbsvorteil."
-  - "Vertrauen lässt sich nicht delegieren – weder an einen Praktikanten noch an GPT-5."
+  - "Vertrauen lässt sich nicht delegieren – weder an einen Praktikanten noch an ChatGPT."
 faqs:
   - question: "Sollte ich KI für meine LinkedIn-Kommentare nutzen?"
     answer: "Ein klares 'Jein', aber mit starker Tendenz zum Nein bei der Interaktion. Du kannst KI nutzen, um Ideen zu strukturieren oder Schreibblockaden zu überwinden. Aber sobald du die Maschine das 'Sprechen' für dich übernehmen lässt, zerstörst du das Vertrauensverhältnis zu deinem Netzwerk. Wenn ich merke, dass ein Kommentar nur ein generierter Prompt ist, warum sollte ich mir dann die Mühe machen, dir jemals wieder eine echte Antwort zu schreiben? Interaktion ist eine soziale Währung – wer sie fälscht, fliegt langfristig aus dem Markt."
@@ -113,7 +113,7 @@ Vertrauen lässt sich nicht delegieren.
 
 Nicht an einen Praktikanten. 
 
-Und erst recht nicht an GPT-5. 
+Und erst recht nicht an ChatGPT. 
 
 Vertrauen braucht Konsistenz. 
 

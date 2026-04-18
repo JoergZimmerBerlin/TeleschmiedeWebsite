@@ -46,7 +46,7 @@ Das war die Leitfrage des Gesprächs. Wir haben versucht, den Hype vom Handfeste
 Die kurze Antwort: Nein. Die lange Antwort: Klassisches SEO (saubere Technik, gute Keywords) ist nur noch die Eintrittskarte ins Stadion. Um in den neuen AI-Overviews (wie Googles AIO oder Perplexity) sichtbar zu werden, musst du anfangen, in Entitäten zu denken. Du musst der Suchmaschine beweisen, dass du DIE Autorität für ein bestimmtes Thema bist. Wir haben besprochen, wie man E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) im Zeitalter generativer KI nachweist.
 
 ### 2. Welche Datenquellen nutzen die KIs wirklich?
-Das ist die Millionen-Euro-Frage. Wir haben darüber spekuliert und erste Datenpunkte analysiert, welche Quellen von GPT-4o, Claude 3.5 und Gemini bevorzugt werden. Es geht um strukturierte Daten, aber auch um die Präsenz auf Drittanbieter-Plattformen, in Foren und Podcasts. Sichtbarkeit ist heute multidimensional.
+Das ist die Millionen-Euro-Frage. Wir haben darüber spekuliert und erste Datenpunkte analysiert, welche Quellen von ChatGPT, Claude und Gemini bevorzugt werden. Es geht um strukturierte Daten, aber auch um die Präsenz auf Drittanbieter-Plattformen, in Foren und Podcasts. Sichtbarkeit ist heute multidimensional.
 
 ### 3. Die YouTube-Falle: Freigabe für das AI-Training?
 Antonio und ich haben intensiv über die Rolle von Video-Content diskutiert. Macht es Sinn, YouTube-Transkripte für das KI-Training freizugeben? Kann man so die KI "beeinflussen", damit sie einen in den Antworten zitiert? Wir teilen unsere ersten Testergebnisse und geben eine Einschätzung, worauf man achten sollte, bevor man seine Daten dem großen Hunger der LLMs opfert.

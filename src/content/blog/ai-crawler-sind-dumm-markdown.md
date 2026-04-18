@@ -3,8 +3,8 @@ title: "AI Crawler, Markdown & Cloudflare: Bot-Optimierung"
 description: "Warum AI-Bots an komplexem HTML scheitern und wie Cloudflares 'Markdown for Agents' 80% Token spart. Ein Tacheles-Blick auf die Zukunft des AI-SEO. ALOHA! 🌻"
 date: "2026-04-18"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawler-sind-dumm-sie-k%C3%B6nnen-oft-keine-activity-7450640002549526528-dIpv"
-image: "../../assets/images/blog/ai-crawler-markdown-cloudflare.jpg"
-image_alt: "Cloudflare Markdown for Agents Dashboard mit Token-Statistiken"
+image: "../../assets/images/blog/ai-crawler-markdown-premium.png"
+image_alt: "Futuristische 3D-Illustration eines KI-Agenten, der Markdown-Daten liest"
 category: "AI SEO"
 tags: ["AI Crawler", "Markdown", "SEO Technik", "Cloudflare", "GEO"]
 key_takeaways:

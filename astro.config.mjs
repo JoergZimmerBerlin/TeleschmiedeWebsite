@@ -45,6 +45,6 @@ export default defineConfig({
   build: {
     assets: 'assets',
     concurrency: 10,
-    inlineStylesheets: 'always'
+    inlineStylesheets: 'never'
   }
 });

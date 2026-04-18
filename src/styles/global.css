@@ -301,3 +301,14 @@
   content: "Klicken für Details 🌻";
   @apply block mt-3 pt-3 border-t border-gray-100 text-[10px] font-bold text-lime-700 uppercase tracking-widest;
 }
+/* --- ROI Calculator Slider Styles --- */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #D9FF00;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(217, 255, 0, 0.4);
+}

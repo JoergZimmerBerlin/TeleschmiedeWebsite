@@ -64,46 +64,5 @@
   </div>
 </div>
 
-<script>
-  function calculateROI() {
-    const visitors = parseInt((document.getElementById('monthly-visitors') as HTMLInputElement).value);
-    const convRate = parseFloat((document.getElementById('conv-rate') as HTMLInputElement).value);
-    const avgOrder = parseInt((document.getElementById('avg-order') as HTMLInputElement).value);
+<script src="/js/roi-calculator.js" defer></script>
 
-    // Update labels
-    document.getElementById('visitors-value')!.textContent = visitors.toLocaleString('de-DE');
-    document.getElementById('conv-value')!.textContent = convRate + '%';
-    document.getElementById('order-value')!.textContent = avgOrder + '€';
-
-    // Calculate
-    const leads = Math.round(visitors * (convRate / 100));
-    const monthlyRevenue = leads * avgOrder;
-    const annualRevenue = monthlyRevenue * 12;
-
-    // Update results
-    document.getElementById('leads-result')!.textContent = leads.toLocaleString('de-DE');
-    document.getElementById('roi-result')!.textContent = monthlyRevenue.toLocaleString('de-DE') + '€';
-    document.getElementById('annual-result')!.textContent = annualRevenue.toLocaleString('de-DE') + '€';
-  }
-
-  // Setup listeners
-  ['monthly-visitors', 'conv-rate', 'avg-order'].forEach(id => {
-    document.getElementById(id)?.addEventListener('input', calculateROI);
-  });
-
-  // Initial calc
-  calculateROI();
-</script>
-
-<style>
-  input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: #D9FF00;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(217, 255, 0, 0.4);
-  }
-</style>

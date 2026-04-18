@@ -3,8 +3,8 @@ title: "Die 80%-Falle: Warum die meisten Websites an den Basics scheitern 🚀"
 description: "In 80% aller SEO-Sprechstunden sehe ich die gleichen Fehler. Warum Websites an Basics wie noindex, PageSpeed und Struktur scheitern und wie du es besser machst. ALOHA! 🌻"
 date: "2026-04-16"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_in-80-aller-seo-sprechstunden-entdecke-activity-7366897094021791744-trk9"
-image: "../../assets/images/blog/seo-basics-trap-3d.png"
-image_alt: "3D-Illustration eines Gebäudes mit bröckelndem technischen Fundament und SEO-Experten-Avatar"
+image: "../../assets/images/blog/seo-basics-verpasst.jpg"
+image_alt: "Jörg Zimmer mit einer weißen Taube - Symbol für den Frieden mit dem Google-Bot und den Fokus auf SEO-Basics"
 category: "SEO Praxis"
 tags: ["Sprechstunde", "Technisches SEO", "Basics"]
 key_takeaways:

@@ -9,7 +9,8 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     ForceType 'text/plain; charset=UTF-8'
 </FilesMatch>
 
-# 2. Redirects
+# 2. Redirects & Options
+Options -MultiViews
 RewriteEngine On
 
 # A. WWW zu Non-WWW erzwingen (Sicherer Pattern)

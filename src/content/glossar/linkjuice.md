@@ -1,6 +1,6 @@
 ---
 title: 'Linkjuice (Linkkraft): Verteilung interner Stärke'
-description: 'Linkjuice erklärt: Die Verteilung von Ranking-Power durch interne und externe Verlinkungen. So optimierst du deine Linkstruktur. ALOHA! 🌻'
+description: 'Linkjuice erklärt: Die Verteilung von Ranking-Power durch interne und externe Verlinkungen. So optimierst du deine Linkstruktur. ALOHA!'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkjuice-3d.webp"
 image_alt: "Linkjuice (Linkkraft) 3D Infografik"
@@ -9,12 +9,14 @@ key_takeaways:
   - "Linkjuice beschreibt die Verteilung von Autorität und Vertrauen durch interne und externe Links."
   - "Strategische interne Verlinkung leitet Ranking-Power gezielt auf deine wichtigsten Fokus-Seiten."
   - "In der KI-Suche wandelt sich Linkjuice zur semantischen Referenz (Marken-Nennung im Kontext)."
-Moin! 🌻
+---
+
+Moin!
 
 Linkjuice (häufig auch "Linkkraft" oder "Link Equity" genannt) ist einer der mächtigsten Begriffe in der SEO. Google spricht intern trocken vom [PageRank](https://en.wikipedia.org/wiki/PageRank) – benannt nach Gründer Larry Page. In der Szene reden wir vom "Link-Saft", weil es perfekt beschreibt, wie Autorität und Vertrauen durch das Web fließen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"Dein Linkjuice ist dein wertvollstes On-Page Kapital. Wer Links wahllos im Footer oder in Dropdowns verschleudert, blutet Ranking-Power aus jeder Pore aus."</p>
 </div>
 

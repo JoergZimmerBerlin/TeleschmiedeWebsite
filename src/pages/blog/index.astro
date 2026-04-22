@@ -135,7 +135,7 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
                       src={post.data.image!}
                       alt={post.data.image_alt || post.data.title}
                       width={800}
-                      class="w-full h-full object-cover object-top aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
+                      class="w-full h-full object-cover object-[center_15%] aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
                       format="webp"
                       loading="eager"
                       fetchpriority="high"
@@ -176,7 +176,7 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
                       src={post.data.image!}
                       alt={post.data.image_alt || post.data.title}
                       width={600}
-                      class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      class="w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-500"
                       format="webp"
                       loading="lazy"
                     />

@@ -169,7 +169,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
                 alt="Jörg Zimmer"
                 width={64}
                 height={64}
-                class="w-10 h-10 rounded-full border-2 border-white shadow-sm"
+                class="w-10 h-10 rounded-full border-2 border-white shadow-sm object-cover object-top"
               />
               <div class="text-sm">
                 <span class="block font-bold text-dark">Jörg Zimmer</span>
@@ -230,7 +230,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
               <Image
                 src={post.data.image}
                 alt={post.data.image_alt || post.data.title}
-                class="w-full h-auto"
+                class="w-full h-auto object-cover object-top"
                 format="webp"
                 loading="eager"
                 fetchpriority="high"
@@ -358,7 +358,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
             alt="Jörg Zimmer - SEO & SEA Experte"
             width={96}
             height={96}
-            class="w-24 h-24 rounded-full object-cover shadow-sm border-2 border-white"
+            class="w-24 h-24 rounded-full object-cover object-top shadow-sm border-2 border-white"
           />
           <div class="flex-1 text-center md:text-left">
             <h4 class="text-xl font-bold text-dark mb-2">Über den Autor: Jörg Zimmer</h4>
@@ -401,7 +401,7 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
                       alt={p.data.image_alt || p.data.title}
                       width={400}
                       height={225}
-                      class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      class="w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-500"
                       format="webp"
                       loading="lazy"
                     />

@@ -295,6 +295,25 @@ const tachelesQuote = tachelesMatch ? tachelesMatch[1].trim().replace(/\[(.*?)\]
               }
             });
           }
+          // Copy Prompt Logic
+          const promptBtns = document.querySelectorAll('.copy-prompt-btn');
+          promptBtns.forEach(btn => {
+            btn.addEventListener('click', async () => {
+              const prompt = btn.dataset.prompt;
+              if (prompt) {
+                try {
+                  await navigator.clipboard.writeText(prompt);
+                  const originalHtml = btn.innerHTML;
+                  btn.innerHTML = '<svg class="w-4 h-4 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>';
+                  setTimeout(() => {
+                    btn.innerHTML = originalHtml;
+                  }, 2000);
+                } catch (err) {
+                  console.error('Failed to copy prompt: ', err);
+                }
+              }
+            });
+          });
         });
       </script>
 

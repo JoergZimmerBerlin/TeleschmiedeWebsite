@@ -11,12 +11,16 @@ key_takeaways:
   - "Die teuersten Calls sind die AI-Search-Endpunkte (bis 7.500 Credits pro Abfrage). Mit denen misst du, ob ChatGPT dich zitiert."
   - "Keyword-Longtail mit 1 Credit pro Datensatz ist der größte Preisvorteil gegenüber anderen Tools: 1.000 Long-Tail-Begriffe für 1.000 Credits."
 faqs:
-  - question: "Welcher Endpunkt ist am wichtigsten für Einsteiger?"
-    answer: "research/domain/overview/db: 100 Credits, gibt dir Sichtbarkeit und organische Keywords einer Domain. Der perfekte Einstieg."
-  - question: "Ab wann ist der AI Tracker wirtschaftlich?"
-    answer: "Bei Kunden ab 5.000 Euro Monats-Retainer. Darunter lieber manuell mit ChatGPT-Plus testen."
-  - question: "Was ist mit Rate-Limits?"
-    answer: "Offiziell zählen nur 2xx-Responses. 4xx/5xx kosten nichts. Trotzdem: 1 Sekunde Pause zwischen Calls ist höflich."
+  - question: "Welcher API-Endpunkt ist der beste Einstieg für ein neues Projekt?"
+    answer: "Der Endpunkt `research/domain/overview/db` ist das absolute Arbeitspferd und der perfekte Startpunkt. Für einen Pauschalpreis von 100 Credits liefert er dir auf einen Schlag die organische Sichtbarkeit, die Gesamtzahl der rankenden Keywords und den geschätzten Traffic einer Domain. Damit hast du sofort einen soliden Überblick über den Status Quo eines (potenziellen) Kunden, bevor du tiefer in spezifische Analysen oder Keyword-Recherchen abtauchst."
+  - question: "Lohnt sich der teure AI Search Tracker auch für kleinere Kunden?"
+    answer: "In den meisten Fällen: Nein. Ein einzelner Call auf das AI Leaderboard kostet satte 7.500 Credits, was enorm ins Budget schneidet. Für lokale Unternehmen oder Kunden mit kleinen Budgets reicht es völlig aus, die Sichtbarkeit punktuell manuell in ChatGPT-Plus oder Perplexity zu testen. Wirtschaftlich sinnvoll wird die Automatisierung der AI-Search erst bei großen Brands oder Enterprise-Kunden, bei denen die Sichtbarkeit in KI-Antworten einen messbaren, hohen Einfluss auf den Umsatz hat – als Faustregel gilt hier ein monatlicher SEO-Retainer ab ca. 5.000 Euro."
+  - question: "Wie geht die SE Ranking API mit Rate-Limits und fehlerhaften Anfragen um?"
+    answer: "Das Pricing der SE Ranking API ist hier sehr fair: Dir werden offiziell nur erfolgreiche Anfragen (also HTTP-Statuscodes im 2xx-Bereich) von deinem Credit-Konto abgezogen. Serverfehler (5xx) oder Clientfehler (4xx) kosten dich keine Credits. Trotzdem solltest du deinen Wrapper so bauen, dass er nicht hunderte fehlerhafte Requests pro Sekunde abfeuert. Eine eingebettete Pause (Sleep) von einer Sekunde zwischen den einzelnen Calls ist nicht nur höflich gegenüber den SE Ranking Servern, sondern verhindert auch zuverlässig, dass du temporär blockiert wirst."
+  - question: "Wie nutze ich die API am effizientesten für die Content-Erstellung?"
+    answer: "Für die redaktionelle Arbeit ist der Endpunkt `research/keyword/questions` pures Gold. Er liefert dir zu einem Basis-Keyword genau die W-Fragen, die Nutzer tatsächlich in Google eingeben. Da du hier nur pro Datensatz (meist extrem günstige Raten) bezahlst, kannst du dir für wenige Credits ein komplettes FAQ-Set für einen neuen Artikel zusammenstellen. Wenn du diese echten Nutzerfragen in deinen Content einbaust, steigen deine Chancen auf Featured Snippets enorm."
+  - question: "Welchen Vorteil bietet die API beim technischen Website Audit?"
+    answer: "Das geniale am API-Modell für Audits ist die Trennung zwischen dem Crawl-Prozess und dem Datenabruf. Du bezahlst einmalig beim Start des Audits über den POST-Endpunkt (z.B. 2 Credits pro gecrawlter Seite beim Standard-Audit). Sobald der Crawl abgeschlossen ist, kannst du die Reports, Fehlerlisten und Status-Meldungen über die GET-Endpunkte wochenlang komplett kostenlos und beliebig oft abfragen. Das ist ideal, um Kunden oder Entwicklern regelmäßige Qualitätsberichte zukommen zu lassen, ohne dass jedes Mal neue API-Kosten entstehen."
 ---
 
 ALOHA 🌻!

@@ -11,12 +11,16 @@ key_takeaways:
   - "Ein Daily-Credit-Limit gehört von Minute 1 dazu - nicht erst, nachdem ein Agent mal eben 10.000 Credits in einem Call verbrannt hat."
   - "Der account/subscription-Endpunkt kostet 0 Credits und ist dein Rettungsanker: Immer vor und nach jedem Job abfragen."
 faqs:
-  - question: "Brauche ich für das Setup Python-Erfahrung?"
-    answer: "Grundkenntnisse helfen. Claude Code macht den Rest: Es schreibt den Wrapper auf Ansage. Du musst nur lesen, was es produziert, und sagen, wo das Budget-Limit rein muss."
-  - question: "Was kostet die API im Test?"
-    answer: "Der Smoketest ist gratis. Der account/subscription-Endpunkt kostet 0 Credits. Erst produktive Abfragen (Keyword-Research, Domain-Overview) verbrauchen Guthaben: Zwischen 1 und 7.500 Credits pro Call, je nach Endpunkt."
-  - question: "Warum extra Claude Code und nicht einfach Postman?"
-    answer: "Weil Claude Code den ganzen Stack baut: Wrapper, Tests, Budget-Guardrails, Credit-Log. Postman ist Debugging-Tool - Claude Code ist ein Produktions-Setup."
+  - question: "Brauche ich für das Setup tiefgehende Python-Erfahrung?"
+    answer: "Nein, grundlegende Kenntnisse in Python und im Umgang mit dem Terminal reichen vollkommen aus. Der große Vorteil von Claude Code ist, dass der KI-Agent den eigentlichen Python-Code für den Wrapper basierend auf deinen Anweisungen schreibt. Deine Hauptaufgabe besteht darin, das generierte Skript zu lesen, die Logik zu überprüfen und Claude genau zu sagen, an welchen Stellen kritische Elemente wie das Budget-Limit eingebaut werden müssen. So wirst du vom Coder zum Reviewer."
+  - question: "Welche Kosten kommen beim Testen der SE Ranking API auf mich zu?"
+    answer: "Der reine Smoketest, also die initiale Überprüfung deiner Credentials, ist komplett kostenlos. Der Endpunkt `account/subscription` zieht keine Credits ab. Erst wenn du produktive Daten abfragst – etwa bei der Keyword-Recherche oder beim Domain-Overview – wird dein Guthaben belastet. Die Preise variieren dabei stark je nach Endpunkt und Datentiefe, von einem einzigen Credit für einfache Abfragen bis hin zu 7.500 Credits für umfangreiche Leaderboard-Reports in der AI-Search."
+  - question: "Warum sollte ich Claude Code nutzen und nicht einfach Postman für die API-Calls?"
+    answer: "Postman ist ein hervorragendes Tool für das Debugging und das schnelle Testen einzelner Endpunkte. Claude Code hingegen baut dir ein vollständiges, dauerhaftes Setup auf. Es generiert nicht nur den API-Aufruf, sondern baut direkt einen robusten Wrapper, schreibt die dazugehörigen Testfälle, implementiert deine Budget-Guardrails und legt eine Log-Datei an. Mit Claude Code entwickelst du ein echtes, lokales SEO-Tool für deinen Produktions-Workflow, während Postman eher ein Werkzeug für isolierte Stichproben bleibt."
+  - question: "Wie schütze ich mich effektiv davor, mein ganzes API-Budget an einem Tag zu verbrennen?"
+    answer: "Der wichtigste Schutzmechanismus ist ein hartes Daily-Limit direkt in deinem Code-Wrapper, das vor jedem einzelnen kostenpflichtigen Call abgefragt wird. Verlasse dich niemals darauf, dass du 'nur mal eben was Kleines' testest. Implementiere ein Ampelsystem: Ein grüner Bereich für normale Abfragen, ein gelber Bereich, der deine manuelle Freigabe im Terminal erfordert, und ein harter roter Stopp, der das Skript sofort abbricht, sobald dein definiertes Limit für den Tag oder die Session erreicht ist. Dieser einfache Check rettet dir im Zweifelsfall dein gesamtes Monatsbudget."
+  - question: "Muss ich meinen API-Key regelmäßig rotieren?"
+    answer: "Ja, es ist eine absolute Best Practice der IT-Sicherheit, API-Keys regelmäßig auszutauschen. Behandle deinen SE Ranking API-Key wie den Schlüssel zu deinem Bankkonto. Speichere ihn lokal immer in einer `.env.local`-Datei, pushe ihn niemals in ein Git-Repository und teile ihn niemals unverschlüsselt in Chat-Programmen wie Slack oder WhatsApp. Solltest du auch nur den leisesten Verdacht haben, dass der Key kompromittiert wurde, generiere im SE Ranking Dashboard sofort einen neuen und lösche den alten."
 ---
 
 Moin! 🌻
@@ -87,7 +91,14 @@ claude
 
 Meinen ersten echten Prompt an Claude Code habe ich fast eins zu eins so eingetippt:
 
-> "Erstelle einen Python-Client für die SE Ranking Data API. Base-URL `https://api.seranking.com`. Auth: Header `Authorization: Token {KEY}`. Plus Smoketest gegen `account/subscription`. Plus Tests mit pytest-mock. Key aus `.env.local` via python-dotenv."
+<div class="relative group my-8">
+  <div class="bg-gray-50 border-l-4 border-lime-600 p-6 rounded-r-lg italic text-dark pr-12">
+    "Erstelle einen Python-Client für die SE Ranking Data API. Base-URL `https://api.seranking.com`. Auth: Header `Authorization: Token {KEY}`. Plus Smoketest gegen `account/subscription`. Plus Tests mit pytest-mock. Key aus `.env.local` via python-dotenv."
+  </div>
+  <button class="copy-prompt-btn absolute top-4 right-4 p-2 bg-white border border-gray-200 rounded shadow-sm text-gray-500 hover:text-lime-600 hover:border-lime-600 transition-colors" data-prompt="Erstelle einen Python-Client für die SE Ranking Data API. Base-URL https://api.seranking.com. Auth: Header Authorization: Token {KEY}. Plus Smoketest gegen account/subscription. Plus Tests mit pytest-mock. Key aus .env.local via python-dotenv." title="Prompt kopieren">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
+  </button>
+</div>
 
 Claude Code legt dir daraufhin eine absolut saubere und professionelle Struktur an. Du bekommst ein `scripts/seo_api/seranking.py` für deinen zentralen API-Client, ein ausführbares `scripts/seranking_smoke.py` für deinen Smoketest und einen separaten `tests/`-Ordner für deine Testfälle. Der Wrapper sitzt auf Anhieb, die Tests laufen grün durch und der gesamte Code ist sauber dokumentiert und committbar. Was früher einen halben Tag manuelle Fleißarbeit bedeutet hätte, ist hier in nicht einmal 10 Minuten erledigt. 
 

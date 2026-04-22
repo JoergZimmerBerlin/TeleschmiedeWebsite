@@ -1,5 +1,5 @@
 ---
-title: "SE Ranking API mit Claude Code verbinden: Setup-Tutorial für SEO-Automatisierung"
+title: "SE Ranking API mit Claude Code verbinden"
 description: "Schritt für Schritt: So bindest du die SE Ranking API an Claude Code an - inkl. Daily-Limit gegen Credit-Verbrauch. Praxis-Tutorial mit Screenshots. ALOHA! 🌻"
 date: "2026-04-22"
 image: "../../assets/images/blog/se-ranking-claude-code-setup.webp"
@@ -25,13 +25,13 @@ faqs:
 
 Moin! 🌻
 
-Mein Kumpel <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Maximilian D. Muhr</a> - ja, der, den ich schon [im SEOpresso-Podcast-Artikel](../seopresso-podcast-maximilian-muhr/) erwähnt habe - saß mit mir letzte Woche beim Kaffee und erzählte mir eine Geschichte, die mich seitdem nicht loslässt. Er nutzt seit einer Weile die **Sistrix-API mit Claude Code** für automatisierte SEO-Analysen - sauber aufgesetzt, Wrapper gebaut, alles gut.
+Mein Kumpel <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Maximilian D. Muhr</a> - ja, der, den ich schon [im SEOpresso-Podcast-Artikel](../seopresso-podcast-maximilian-muhr/) erwähnt habe - saß mit mir letzte Woche beim Kaffee und erzählte mir eine Geschichte, die mich seitdem nicht loslässt. Er nutzt seit einer Weile eine **SEO-API von einem bekannten SEO-Tool mit Claude Code** für automatisierte SEO-Analysen - sauber aufgesetzt, Wrapper gebaut, alles gut.
 
 Bis an einem dieser Tage, an dem man irgendwas schnell testen will.
 
 Ein anderer Agent bei ihm machte eine **Mini-Anfrage**. Eine. Kleine. Abfrage.
 
-Ergebnis: **10.000 Sistrix-Credits weg in einem Rutsch.**
+Ergebnis: **10.000 API-Credits weg in einem Rutsch.**
 
 Das komplette Wochenbudget. Pulverisiert. Für eine Frage, die eigentlich einen Credit hätte kosten sollen - aber durch einen undokumentierten Endpoint-Preis eben 10.000 kostete.
 
@@ -104,7 +104,7 @@ Claude Code legt dir daraufhin eine absolut saubere und professionelle Struktur 
 
 Um dir zu veranschaulichen, wie das Ganze in der Praxis aufgebaut ist, habe ich dir hier eine kurze Architektur-Skizze mitgebracht. Sie zeigt exakt, wie der Request vom Nutzer über Claude Code und deinen eigenen Wrapper bis zur SE Ranking API durchgereicht wird:
 
-![Architektur-Skizze: User → Claude Code → Wrapper → budget.py → api.seranking.com](../../assets/images/blog/claude-code-seranking-architektur.webp)
+![Architektur-Skizze: SE Ranking API & Claude Code Setup](../../assets/images/blog/linkedin_seranking_setup_v2.png)
 
 Die Skizze verdeutlicht den massiven Vorteil dieses Setups: Du hast die volle Kontrolle über den Mittelsmann – deinen Wrapper. Und genau an dieser Stelle klinken wir im nächsten Schritt unsere Budget-Überwachung ein.
 

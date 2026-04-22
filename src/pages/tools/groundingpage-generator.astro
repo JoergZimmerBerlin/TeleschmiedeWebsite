@@ -309,8 +309,48 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
   </section>
 </Layout>
 
+<Schema 
+  title="Grounding Page Generator - aus Prompt erstellen"
+  description="Erstelle mit einem Klick den perfekten System-Prompt für ChatGPT oder Claude, um eine vollständige Groundingpage samt Schema.org Markup zu generieren."
+  lastReviewed={lastReviewed}
+  faqs={[
+    {
+      question: "Was ist eine Grounding Page überhaupt?",
+      answer: "Eine Grounding Page funktioniert als zentraler \"Wahrheits-Anker\" (Ground Truth) für deine Entität. KI-Systeme wie ChatGPT oder Claude durchsuchen das Internet nach verlässlichen Firmen- oder Personendaten. Anstatt KIs raten zu lassen, liefert ein dediziertes Factsheet (inklusive exakt passendem Schema.org Markup) strukturierte, fehlerfreie Fakten und minimiert Halluzinationen massiv."
+    },
+    {
+      question: "Wie benutze ich den Mega-Prompt genau?",
+      answer: "Gib oben einfach die Kern-URL deiner Organisation (z. B. Homepage oder \"Über Uns\"-Seite) ein. Der Generator baut dir live einen hochkomplexen Arbeitsauftrag für die KI. Kopiere diesen generierten Prompt, logge dich bei ChatGPT oder Claude ein und feuere den Prompt ab. Die KI liest daraufhin deine Live-Website und schreibt den perfekten Code (inklusive flacher @graph Struktur) für deine eigene Faktenseite, den du nur noch in deine Website einbauen musst."
+    },
+    {
+      question: "Brauche ich zwingend eine englische Grounding Page?",
+      answer: "Nein, aber es wird dringend empfohlen für maximale Relevanz. Fast alle großen Large Language Models (LLMs) besitzen einen hauptsächlich englischen Kern-Datensatz (Bias). Legst du deine Fakten in deiner Heimatsprache UND zusätzlich auf Englisch ab, stellen die KI-Bots internationale Querverbindungen zur Entität deutlich präziser her."
+    },
+    {
+      question: "Wo auf meiner Website binde ich den HTML-Code ein?",
+      answer: "Am besten baust du eine eigenständige, statische Unterseite (z. B. /groundingpage/ oder /factsheet/). Dort platzierst du den gesamten generierten Text-Code samt JSON-LD Markup. Diese Seite solltest du prominent und verlässlich verlinken; optimalerweise als einfachen Textlink über den Footer (Fußzeile) deiner Domain – direkt neben Impressum oder Datenschutzerklärung."
+    },
+    {
+      question: "Funktioniert das Konzept auch für kleine lokale Firmen?",
+      answer: "Absolut! Der erzeugte Prompt greift tief auf die offizielle V2 Ontologie zu, die insgesamt 18 spezifische Entitätsklassen abdeckt. Egal ob du ein kleiner regionaler Bäcker (LocalBusiness), eine Software (SoftwareApplication) oder eine Einzelperson bist – die Intelligenz wählt automatisch die korrekte Klasse und implementiert lokales Schema-Markup wie \"openingHours\" oder Standorte."
+    }
+  ]}
+  mainEntity={{
+    "@type": "SoftwareApplication",
+    "name": "Grounding Page Generator",
+    "operatingSystem": "All",
+    "applicationCategory": "SEO Tool",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    }
+  }}
+/>
+
 <script is:inline>
-  const ontologyList = `
+  (function() {
+    const ontologyList = `
 Gruppe A: Akteure & Einheiten
 - Organization (Organisation / Firma)
 - Person (Natürliche Person)
@@ -335,9 +375,9 @@ Gruppe D: Zeit, Raum & Messung
 - Event (Zeitlich begrenztes Ereignis)
 - QuantitativeValue (Score / Metrik)
 - Project (Projekt / Initiative)
-  `.trim();
+    `.trim();
 
-  const getPromptTemplate = (url) => `Du bist ein hochgradig spezialisierter SEO & Generative Engine Optimization (GEO) Architekt. 
+    const getPromptTemplate = (url) => `Du bist ein hochgradig spezialisierter SEO & Generative Engine Optimization (GEO) Architekt. 
 Deine Aufgabe ist es, eine perfekte "Groundingpage" auf Basis des inoffiziellen Groundingpage-Standards V2.0 zu generieren.
 
 SCHRITT 1: URL & WEBSITE ANALYSIEREN
@@ -377,40 +417,50 @@ BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
   * \`hasOfferCatalog\` (für Leistungen und Preise)
   * \`subjectOf\` (für verifizierende YouTube-Videos oder Podcasts)
   * \`memberOf\` (für Netzwerke und Zugehörigkeiten)
-  * \`sameAs\` (für alle Profile wie LinkedIn, Instagram, Wayback Machine etc.)
+  * \`sameAs\` (für alle Profile like LinkedIn, Instagram, Wayback Machine etc.)
   * \`aggregateRating\` (für Bewertungen)
 
 
 WICHTIG:
 Gib mir nur die beiden fertig nutzbaren Blöcke aus, sodass ich sie ohne Nacharbeit direkt für meine Website kopieren kann.`;
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const btnGenerate = document.getElementById('btn-generate');
-    const inputUrl = document.getElementById('target-url');
-    const textarea = document.getElementById('prompt-output');
-    const btnCopy = document.getElementById('btn-copy');
-    const successMsg = document.getElementById('copy-success');
+    const init = () => {
+      const btnGenerate = document.getElementById('btn-generate');
+      const inputUrl = document.getElementById('target-url');
+      const textarea = document.getElementById('prompt-output');
+      const btnCopy = document.getElementById('btn-copy');
+      const successMsg = document.getElementById('copy-success');
 
-    btnGenerate.addEventListener('click', () => {
-      const url = inputUrl.value.trim();
-      if (!url) {
-        alert("Bitte gib eine gültige URL ein!");
-        return;
-      }
-      const finalPrompt = getPromptTemplate(url);
-      textarea.value = finalPrompt;
-      
-      // Auto-scroll to prompt
-      textarea.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    });
+      if (!btnGenerate || !inputUrl || !textarea || !btnCopy) return;
 
-    btnCopy.addEventListener('click', () => {
-      if (!textarea.value) return;
-      
-      navigator.clipboard.writeText(textarea.value).then(() => {
-        successMsg.classList.remove('hidden');
-        setTimeout(() => successMsg.classList.add('hidden'), 3000);
+      btnGenerate.addEventListener('click', () => {
+        const url = inputUrl.value.trim();
+        if (!url) {
+          alert("Bitte gib eine gültige URL ein!");
+          return;
+        }
+        const finalPrompt = getPromptTemplate(url);
+        textarea.value = finalPrompt;
+        
+        // Auto-scroll to prompt
+        textarea.scrollIntoView({ behavior: 'smooth', block: 'center' });
       });
-    });
-  });
+
+      btnCopy.addEventListener('click', () => {
+        if (!textarea.value) return;
+        
+        navigator.clipboard.writeText(textarea.value).then(() => {
+          successMsg.classList.remove('hidden');
+          setTimeout(() => successMsg.classList.add('hidden'), 3000);
+        });
+      });
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
 </script>
+

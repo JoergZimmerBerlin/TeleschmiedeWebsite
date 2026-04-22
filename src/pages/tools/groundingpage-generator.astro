@@ -8,6 +8,7 @@ import { getGitModDate } from '../../utils/git-date';
 import { getImage } from 'astro:assets';
 
 const lastReviewed = getGitModDate('src/pages/tools/groundingpage-generator.astro');
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', width: 1200, height: 630 });
 ---
 

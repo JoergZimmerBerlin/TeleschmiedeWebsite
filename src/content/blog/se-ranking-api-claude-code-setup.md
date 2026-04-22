@@ -2,7 +2,7 @@
 title: "SE Ranking API mit Claude Code verbinden"
 description: "Schritt für Schritt: So bindest du die SE Ranking API an Claude Code an - inkl. Daily-Limit gegen Credit-Verbrauch. Praxis-Tutorial mit Screenshots. ALOHA! 🌻"
 date: "2026-04-22"
-image: "../../assets/images/blog/se-ranking-claude-code-setup.webp"
+image: "../../assets/images/blog/linkedin_seranking_setup_v2.png"
 image_alt: "SE Ranking API mit Claude Code verbinden - Setup-Tutorial von Jörg Zimmer"
 category: "SEO Tools"
 tags: ["Tutorial", "API", "Claude Code", "Erfahrungsbericht"]
@@ -104,7 +104,7 @@ Claude Code legt dir daraufhin eine absolut saubere und professionelle Struktur 
 
 Um dir zu veranschaulichen, wie das Ganze in der Praxis aufgebaut ist, habe ich dir hier eine kurze Architektur-Skizze mitgebracht. Sie zeigt exakt, wie der Request vom Nutzer über Claude Code und deinen eigenen Wrapper bis zur SE Ranking API durchgereicht wird:
 
-![Architektur-Skizze: SE Ranking API & Claude Code Setup](../../assets/images/blog/linkedin_seranking_setup_v2.png)
+![Architektur-Skizze: SE Ranking API & Claude Code Setup](../../assets/images/blog/se-ranking-claude-code-setup.webp)
 
 Die Skizze verdeutlicht den massiven Vorteil dieses Setups: Du hast die volle Kontrolle über den Mittelsmann – deinen Wrapper. Und genau an dieser Stelle klinken wir im nächsten Schritt unsere Budget-Überwachung ein.
 

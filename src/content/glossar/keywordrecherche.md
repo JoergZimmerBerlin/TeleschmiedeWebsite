@@ -17,83 +17,62 @@ faqs:
     answer: 'Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark (''Search Volume Buckets'') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern.'
 ---
 
-Keywordrecherche ist keine Fleißaufgabe.
-Es ist Marktforschung im 21. Jahrhundert.
-Wer keine saubere Recherche macht, baut sein Haus auf Sand.
-Ganz egal, wie schick das Design ist.
+Moin!
+
+Keywordrecherche ist keine lästige Fleißaufgabe. Es ist Marktforschung im 21. Jahrhundert. Wer keine saubere Recherche macht, baut sein gesamtes Business auf Sand – ganz egal, wie "fancy" das Design deiner Website am Ende aussieht.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."</p>
+  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Unsere wichtigste Skill im SEO ist die Übersetzung. Wir müssen dem Chef nicht erklären, dass das Canonical Tag fehlt. Wir müssen ihm erklären: 'Chef, wir verlieren gerade jeden Tag 500 Euro Umsatz, weil Google unsere Seite nicht versteht.' Das ist Tacheles."</p>
 </div>
 
-Das Ziel: Die Sprache deiner Kunden verstehen.
+Das Ziel: Die Sprache deiner Kunden verstehen. Suchen sie nach "Lohnsteuerhilfe" oder nach "Steuern sparen Tipps"? Ein winziger Unterschied im Wortlaut entscheidet oft über zehntausende Euro [Suchvolumen](/glossar/suchvolumen/) und massiven [Umsatz](/glossar/money-keyword/).
 
-Suchen sie nach "Lohnsteuerhilfe" oder nach "Steuern sparen Tipps"?
-Ein kleiner Unterschied im Wortlaut bedeutet oft einen gewaltigen Unterschied im [Suchvolumen](/glossar/suchvolumen/) und im [Umsatz](/glossar/money-keyword/).
+## Der Prozess einer Profi-Recherche 2026
 
-## Der Prozess einer Profi-Recherche
+In meiner Arbeit als [SEO Berater](/seo-freelancer-berlin/) gehe ich nach diesem messerscharfen Schema vor:
 
-Ich gehe in meiner Arbeit als [SEO Berater](/seo-freelancer-berlin/) immer nach diesem Schema vor:
+1.  **Status-Quo & Brainstorming:** Was sind deine Kern-Themen? Welche Probleme deiner Kunden löst du wirklich?
+2.  **Tool-Check (Harte Fakten):** Wir füttern Profi-Suiten wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> mit deinen Ideen und schauen uns Suchvolumen, Klickpreise und Konkurrenzdichte an.
+3.  **Wettbewerbs-Analyse (Content-Gaps):** Wo schläft deine Konkurrenz? Wir finden die Nischen, die andere übersehen haben.
+4.  **Thematisches Clustering:** Wir sortieren Begriffe nicht mehr in Excel-Listen, sondern in semantische Themen-Cluster und ordnen sie dem richtigen [User Intent](/glossar/keywoerter/) zu.
 
-1.  **Brainstorming:** Was sind deine Kern-Themen? Was sind deine Produkte?
-2.  **Tool-Check:** Wir füttern ein [Keyword Tool](/glossar/keyword-tool/) wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> mit deinen Ideen und schauen auf die harten Fakten.
-3.  **Wettbewerbs-Analyse:** Für welche Begriffe rankt die Konkurrenz? Wo schlafen sie?
-4.  **Clustering:** Wir sortieren die Begriffe nach Themen und [User Intent](/glossar/keywoerter/).
+## Warum der User Intent heute ALLES entscheidet
 
-## Warum der User Intent alles entscheidet
-
-Hör auf, Wörter zu zählen. Fang an, Absichten zu verstehen.
-Wenn jemand nach "Wanderschuhe" sucht, will er:
+Hör auf, stur Keywords zu zählen. Fang an, Absichten zu verstehen. Wenn jemand nach "Wanderschuhe" sucht, will er:
 *   Wissen, welche es gibt (Informational).
-*   Schuhe kaufen (Transaktional).
+*   Ein Paar kaufen (Transaktional).
 *   Einen Testbericht lesen (Commercial Investigation).
 
-Deine Website muss die passende Antwort für jede Phase der Customer Journey liefern.
-Einfach nur das Wort "Wanderschuhe" auf die Seite zu klatschen (Keyword-Stuffing), bringt dich heute keinen Millimeter mehr weiter.
+Deine Website muss die passende Antwort für jede Phase der Customer Journey liefern. Einfach nur das Wort "Wanderschuhe" 50 Mal auf die Seite zu klatschen (Keyword-Stuffing), ist Pfusch am Bau und bringt dich 2026 keinen Millimeter mehr weiter.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Long-Tail Strategie</h4>
-  <p class="mb-0 text-sm">Versuch nicht, sofort gegen Giganten wie Amazon bei kurzen Keywords zu gewinnen. Die echte Musik spielt im Long-Tail. Spezifische Fragen ziehen genau die Nutzer an, die bereit für eine <a href="/glossar/conversion-rate/" class="underline font-semibold text-lime-600 hover:text-lime-700">Conversion</a> sind.</p>
+  <p class="mb-0 text-sm">Versuch nicht, sofort gegen Giganten wie Amazon bei kurzen Keywords zu gewinnen. Die echte Musik spielt im Long-Tail. Spezifische Fragen ziehen genau die Nutzer an, die bereit für eine <a href="/glossar/conversion-rate/" class="underline font-semibold text-lime-600 hover:text-lime-700">Conversion</a> sind. Dort liegt das Geld.</p>
 </div>
 
 ## Keywordrecherche in Zeiten von KI ([GEO](/glossar/geo/))
 
-KI-Tools wie ChatGPT helfen massiv dabei, semantische Zusammenhänge zu finden.
-Wir suchen nicht mehr nur nach Synonymen.
-Wir suchen nach [Entitäten](/glossar/entitaet/).
-Welche Themen gehören logisch zusammen?
-Was erwartet eine KI in einem Text über "Immobilienfinanzierung"? (Zinsen, Tilgung, Eigenkapital).
-
-Wer diese semantische Tiefe bei der Recherche ignoriert, wird in den [AI Overviews](/glossar/geo/) niemals stattfinden.
-
-## Meine Meinung aus der Praxis
-
-80% aller SEO-Projekte scheitern an einer miesen Keywordrecherche.
-Die Leute optimieren für Begriffe, die niemand sucht.
-Oder für Begriffe, die gar nicht zu ihrem Angebot passen.
-Spar nicht an diesem Schritt. Es ist die wichtigste Investition in deine digitale Strategie.
+Mit dem Aufstieg der [Generative Engine Optimization (GEO)](/glossar/geo/) suchen wir nicht mehr nur nach Synonymen. Wir suchen nach [Entitäten](/glossar/entitaet/).
+Was erwartet ein LLM wie Gemini in einem Text über "Immobilienfinanzierung"? Zinsen, Tilgung, Eigenkapital, Notarkosten. Fehlen diese semantischen Eckpfeiler, stuft die KI deinen Content als oberflächlich ein. Wer diese Tiefe bei der Recherche ignoriert, wird in den [AI Overviews](/glossar/geo/) niemals auftauchen.
 
 ## Mein Tacheles-Rat für dich
 
-Keywordrecherche ist der Kompass für deinen Erfolg. Lern die Sprache deiner Zielgruppe. Analysiere die harten Daten, aber vertrau auch auf den Kontext. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
+80% aller SEO-Projekte scheitern an einer miesen Keywordrecherche. Die Leute optimieren für Begriffe, die niemand sucht – oder die gar nicht zu ihrem Angebot passen. Spar nicht an diesem Schritt. Es ist die wichtigste Investition in deine digitale Sichtbarkeit.
 
-ALOHA 🌻 
+Ich nutze für meine tägliche Arbeit <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die profitablen Nischen meiner Kunden zu finden. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
+
+ALOHA! Jörg
 
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Lust auf Profi-Daten von SE Ranking?</h3>
-  <p class="mb-6">Ich nutze SE Ranking täglich für meine Kunden-Projekte. Wenn du das Tool selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex no-underline">SE Ranking Keyword Recherche testen </a>
-</div>
-
-<div class="blog-cta-box">
+<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Investierst du in die falschen Themen?</h3>
-  <p class="mb-6">Ich erstelle für dich eine glasklare Keyword-Map. Mit den Profi-Daten von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und den semantischen Clustern von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> finden wir deine profitablen Nischen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen </a>
+  <p class="mb-6 text-gray-muted">Ich erstelle für dich eine glasklare Keyword-Map. Mit den Profi-Daten von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und den semantischen Clustern von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> finden wir deine profitablen Nischen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen</a>
 </div>
 
+### Verwandte Begriffe
 * [Was sind Entitäten?](/glossar/entitaet/)
 * [Wie funktioniert ein Keyword Tool?](/glossar/keyword-tool/)
 * [Was ist das Suchvolumen?](/glossar/suchvolumen/)

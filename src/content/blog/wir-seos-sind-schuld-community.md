@@ -20,87 +20,78 @@ faqs:
     answer: "Indem du SEO als Fundament verkaufst. SEO muss Teil der Design-Phase sein. Ein Relaunch ohne SEO-Begleitung ist ein strategischer Fehler, den man sich heute nicht mehr leisten kann."
 ---
 
-Moin!
+Moin! 🌻
 
-Wir müssen reden. Und zwar Tacheles. Ich habe neulich auf LinkedIn einen Beitrag abgesetzt, der eine Menge Staub aufgewirbelt hat. Die Kernthese war provokant: **"Wir SEO-Typen sind schuld, dass das Netz die grundlegendsten SEO-Basics ignoriert."**
+Wir müssen reden. Und zwar Tacheles. Ich habe neulich auf LinkedIn einen Beitrag abgesetzt, der eine Menge Staub aufgewirbelt hat. Die Kernthese war provokant, aber bitter nötig: **Wir SEO-Typen sind schuld, dass das Netz die grundlegendsten SEO-Basics ignoriert.**
 
-Warum ich das sage? Weil ich es jeden Tag sehe. Wir beraten Kunden, wir auditieren Seiten und immer wieder stolpern wir über Dinge, die eigentlich seit 2002 geklärt sein sollten. Fehlende Title Tags, hanebüchene Überschriften-Kaskaden, URL-Umzüge ohne einen einzigen Redirect. 
-
-Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? Oder einfach zu unwichtig geworden?
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wir SEOs müssen aufhören, nur die Technik zu polieren. Wir müssen anfangen, den Business-Case zu verkaufen. Wer schweigt, wird ignoriert."</p>
-</div>
+Warum ich das sage? Weil ich es jeden Tag in den Audits sehe. Wir schreiben das Jahr 2026, und immer wieder brennt die Hütte bei Dingen, die eigentlich seit zwei Jahrzehnten geklärt sein sollten. Fehlende Title Tags, hanebüchene Überschriften, URL-Umzüge ohne einen einzigen verdammten Redirect. 
 
 ![Jörg Zimmer - Volle Kraft für SEO](../../assets/images/pages/hero-pose.webp)
 
-In diesem Artikel gehen wir der Sache auf den Grund. Wir schauen uns an, wo die Verantwortungskette reißt und wie wir als Community – die "SEO-Welle" – dafür sorgen können, dass unsere Disziplin endlich den Stellenwert bekommt, den sie verdient.
+Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? In meinem LinkedIn-Post habe ich genau diese Fragen in den Raum geworfen – und die Diskussion darunter zeigt: Wir haben ein riesiges Kommunikationsproblem in unserer eigenen Bubble.
 
-## 1. Das Dilemma der SEO-Basics
-Es ist fast schon tragisch. Wir sprechen über KI-gestütztes Content-Cluster-Management, Generative Engine Optimization (GEO) und komplexe Entitäten-Graphen. Aber wenn wir unter die Haube vieler mittelständischer Websites schauen, brennt die Hütte bei den einfachsten Sachen.
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wir SEOs müssen aufhören, nur die Technik zu polieren. Wir müssen anfangen, den Business-Case zu verkaufen. Wer schweigt, wird ignoriert."</p>
+</div>
 
-Wie oft hast du schon erklärt, dass man nicht zwei H1-Tags auf einer Seite haben sollte? Oder dass Bilder ohne Alt-Texte für Google (und Screenreader) schwarze Löcher sind?
+## Das Dilemma der Basics und der Wert unserer Arbeit
 
-**Johannes Nass** brachte es in den Kommentaren auf den Punkt: 
-*"SEOs haben oft Schwierigkeiten, den Wert ihrer Arbeit auf Geschäftsführungsebene zu kommunizieren. Während für Ads Budgets locker sitzen, wird beim SEO oft gespart."*
+Es ist fast schon tragisch. Wir diskutieren auf Konferenzen über KI-gestütztes Content-Cluster-Management und Generative Engine Optimization (GEO). Aber wenn wir unter die Haube vieler mittelständischer Websites schauen, fehlt das Fundament.
 
-Und genau da liegt der Hund begraben. Wenn die Basics nicht umgesetzt werden, liegt es meistens nicht am Unwillen der Entwickler, sondern daran, dass SEO in der Prioritätenliste ganz unten steht.
+In den Kommentaren brachte **Johannes Nass** genau das auf den Punkt:
+> *"Meiner Meinung nach tun sich SEOs immer noch schwer, ihren Wert auf Geschäftsführerebene zu kommunizieren. Einen Geschäftsführer interessiert in der Regel nur: Wachstum – ja oder nein – und warum. Erst wenn der Wert verstanden wird, wächst auch die Awareness für die Basics."*
 
-## 2. Die kaputte Verantwortungskette
-Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? Wenn das Design fertig ist, der Code steht und der Launch-Button schon glüht. Dann heißt es: "Ach ja, mach mal noch kurz SEO."
+Genau da liegt der Hund begraben. Wir verkaufen "Title Tags", aber wir müssten "Sichtbarkeit und Umsatz" verkaufen. 
 
-Das funktioniert nicht. SEO ist kein Anstrich, den man am Ende auf ein Haus klatscht. Es ist das Fundament.
+## Die kaputte Verantwortungskette
+
+Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? Das Design ist fertig, der Code steht und der Launch-Button glüht. Dann heißt es: "Ach ja, mach mal noch kurz SEO."
+
+Das funktioniert nicht. SEO ist kein Anstrich, den man am Ende auf ein Haus klatscht.
 
 ![Infografik: Die SEO-Verantwortungs-Kette](../../assets/images/blog/seo-responsibility-chain.webp)
 
-Wenn die Kette so aussieht wie oben, dann bricht sie zwangsläufig. Der SEO-Spezialist steht am Ende und muss versuchen, die architektonischen Fehler von Designern und Entwicklern mit "Tricks" auszubügeln. Wir müssen SEO in die Design- und Planungsphase bringen. 
+**Micaela Eckermann** hat das in der Diskussion wunderbar zusammengefasst:
+> *"Was ich immer feststelle ist, dass der Kunde sich irgendwo eine Website basteln lässt und davon ausgeht, dass der Entwickler SEO automatisch mitmacht. Da SEO aber Aufwand ist, den der Kunde nicht bezahlen will, fällt das Thema elegant unter den Tisch."*
 
-**Michael Hovemann** merkte dazu an: 
-*"Designer, Entwickler und Projektmanager sehen SEO oft als nachgelagerten oder gar störenden Prozess anstatt als fundamentale Basis."* 
+Und **Michael Hovemann** ergänzte bitterböse, aber wahr:
+> *"Es gibt PMs, die wissen nicht, was ein FTP Zugang ist. Es gibt Kunden, die sagen 'ich betreibe den Shop noch max. 10 Jahre'. Es gibt Entwickler, die auch Text und DSGVO machen."*
 
-Wir müssen aufhören, die "Feuerwehr" zu sein. Wir müssen die Architekten sein.
+Wenn wir in dieser kaputten Kette immer nur die "Feuerwehr" am Ende sind, baden wir die architektonischen Fehler der anderen aus. Wir müssen SEO in die Design- und Planungsphase bringen.
 
-## 3. Die "Bubble" verlassen
-Hand aufs Herz: Wir SEOs lieben unsere Fachsimpeleien. Aber verstehen uns die Leute draußen? **Christian Gülcan** hat einen validen Punkt gemacht:
-*"Die SEO-Branche war zu lange in ihrer eigenen 'Bubble'. Andere Disziplinen wie Performance Marketing oder KI-Themen haben SEO überholt."*
+## Die Nerd-Bubble verlassen
 
-Wenn wir wollen, dass SEO-Basics zum Marktstandard werden, müssen wir sie für Nicht-SEOs sexy machen. Wir müssen zeigen, dass ein fehlender Redirect nicht nur "schlechtes SEO" ist, sondern bares Geld verbrennt. Dass ein langsamer PageSpeed die Conversion-Rate killt (und nicht nur ein grünes Licht im PageSpeed Insights Tool ist).
+Hand aufs Herz: Wir SEOs lieben unsere Fachsimpeleien. Aber verstehen uns die Leute draußen? **Jessica Seiffert** schrieb mir dazu:
+> *"Ich versuche gerade, die absoluten Basics auf Social Media zu erklären und die Feedbacks zeigen: Es wird als zu nerdig empfunden."*
 
-## 4. Wir schließen uns zusammen: Die LinkedIn-Welle
-Allein ist man leise, gemeinsam ist man laut. Deshalb habe ich auf LinkedIn dazu aufgerufen: Lasst uns den Feed fluten! Lasst uns die Welt wissen lassen, warum SEO-Beratung sinnvoll ist.
+**Christian Gülcan** traf den Nagel ebenfalls auf den Kopf:
+> *"Die ersten 2 Dekaden hat sich die SEO-Szene in Nerd-Foren und innerhalb ihrer eigenen Bubble ausgetauscht. Über die Jahre ist viel Wettbewerb dazu gekommen: PaidAds, Social Media, KI Agenturen, die SEO öffentlich für tot erklären."*
 
-**"Wir schließen uns zusammen – jeder für sich, alle zusammen."**
+Wenn wir wollen, dass SEO-Basics zum Marktstandard werden, müssen wir sie für Nicht-SEOs sexy machen. Wir müssen lauter werden und zeigen, dass ein fehlender Redirect bares Geld verbrennt. 
 
-LinkedIn ist perfekt dafür. Es ist ein Forum (wie ich in meinem [letzten Artikel](/blog/linkedin-ist-ein-forum-seo/) ausführlich erklärt habe). Wenn wir gegenseitig unsere Beiträge kommentieren, diskutieren und sichtbar machen, dann skalieren wir unser Wissen über unsere eigene Blase hinaus.
+## Wir schließen uns zusammen: Die LinkedIn-Welle
+
+Allein ist man leise, gemeinsam ist man laut. Wie **Benjamin Wenderoth** in seinem Kommentar extrem treffend forderte:
+> *"SEO muss sich emanzipieren, erwachsener werden. Als SEO Branche, als Community müssen wir lauter werden und den Weg zeigen."*
+
+Deshalb habe ich auf LinkedIn dazu aufgerufen: Lasst uns den Feed fluten! **Jeder für sich, alle zusammen.** 
+
+Wir müssen aufhören, uns als Konkurrenten zu sehen, und anfangen, eine SEO-Welle zu starten. Wenn wir gegenseitig unsere Beiträge kommentieren und sichtbar machen, skalieren wir unser Wissen über unsere Blase hinaus. Je mehr wir uns vernetzen, desto weniger können uns die Budget-Entscheider ignorieren.
 
 ![Infografik: Die SEO-Community-Welle](../../assets/images/blog/seo-community-visibility-wave.webp)
 
-Wie **Antonio Blago** und **Julian Hofmann** schrieben: Eine "mega Idee", um gute SEO-Inhalte durch Interaktion zu unterstützen. Je mehr wir uns vernetzen, desto weniger können uns die Budget-Entscheider ignorieren.
+### Dein nächster Schritt
+Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist: Das Fundament deines Unternehmens im Netz. 
 
-## 5. Der Blick in die Zukunft: Von SEO zu GEO
-Die Welt dreht sich weiter. Wer heute nur über Keywords nachdenkt, hat morgen schon verloren. **Birgit Schultz** verwies in der Diskussion auf den Wandel hin zu **GEO (Generative Engine Optimization)**. 
+Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
 
-Search-Engines werden zu Answer-Engines. Chatbots fressen Traffic. Aber ratet mal, was die Basis für GEO ist? Richtig: Saubere Daten, klare Strukturen und hochwertige Inhalte. Also genau die Basics, die wir seit Jahren predigen!
+ALOHA! 🌻✌️
 
-Wenn wir die Basics nicht hinkriegen, werden wir in einer KI-zentrierten Welt komplett unsichtbar. Die "SEO-Welle" muss also nicht nur laut sein, sondern auch fachlich am Ball bleiben.
-
-### Was du jetzt tun solltest
-Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Wir müssen lauter sein, wir müssen besser kommunizieren und wir müssen uns gegenseitig unterstützen. 
-
-Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist: Die einzige nachhaltige Strategie, um im Internet nicht nur zu existieren, sondern gefunden zu werden.
-
-**Nadine McNulty** hat es perfekt zusammengefasst: 
-*"Als SEOs sind wir von Natur aus nicht die größten Marktschreier, dürfen aber lauter sein auf LinkedIn."*
-
-Also: Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
-
-ALOHA 🌻! 🌻
-
-<div class="blog-cta-box">
-<strong>Werde Teil der SEO-Welle!</strong>
-<p>Du hast eine Website, die technisch im Dornröschenschlaf liegt? Oder du willst einfach mal Tacheles über deine SEO-Strategie reden?</p>
-<a href="/seo-sprechstunde/">Jetzt SEO-Sprechstunde buchen</a>
+<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
+  <h4 class="text-xl font-bold mb-4">Werde Teil der Diskussion!</h4>
+  <p class="text-gray-muted mb-6">Diesen Artikel habe ich basierend auf meinem LinkedIn-Post und den über 100 Kommentaren unserer starken SEO-Community erstellt. Lies dir die Meinungen der Kollegen durch und diskutiere mit!</p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-typen-sind-schuld-das-das-netz-die-activity-7385954808316338176-oSyk" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Zur LinkedIn Diskussion (109+ Kommentare)</a>
 </div>
 
 ### Weiterführende Artikel

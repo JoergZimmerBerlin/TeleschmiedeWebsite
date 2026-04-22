@@ -22,7 +22,7 @@ const heroImageWebp = await getImage({ src: heroImage, format: 'webp' });
 
 // Meta Data
 const title = "SEO Freelancer Berlin: 24+ Jahre Erfahrung & echtes Tacheles";
-const description = "Schluss mit Agentur-Bla-Bla. Dein SEO Freelancer in Berlin für technische Exzellenz, Relaunch-Sicherheit und ehrliche Beratung. Moin! 🌻";
+const description = "Schluss mit Agentur-Bla-Bla. Dein SEO Freelancer in Berlin für technische Exzellenz, Relaunch-Sicherheit und ehrliche Beratung. Moin! ALOHA! Jörg";
 
 const faqs = [
   {
@@ -87,7 +87,7 @@ const offers = [
         <div class="md:w-3/5 z-10">
           <div class="flex flex-wrap items-center gap-x-4 mb-4">
             <p class="subheadline uppercase text-sm tracking-widest text-dark font-bold bg-lime-accent inline-block px-4 py-1 rounded-full">
-              Moin! 🌻 Ich bin Jörg.
+              Moin! Ich bin Jörg.
             </p>
             {lastReviewed && (
               <span class="text-gray-muted text-xs font-normal italic border-l border-gray-200 pl-4">Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
@@ -140,9 +140,9 @@ const offers = [
             Genau das ist der Unterschied zwischen einer "Bauchladen"-Agentur und mir. Wenn du mich buchst, bekommst du mich. Kein Bullshit-Bingo, kein Junior-Account-Manager, der deine Mails an eine anonyme Technikabteilung weiterreicht. Du arbeitest direkt mit jemandem, der seit 2001 (damals war Google noch ein Experiment!) im Online Marketing die Ärmel hochkrempelt.
           </p>
           
-          <div class="my-10 bg-white p-6 rounded-2xl border-l-4 border-lime-500 shadow-sm">
-            <p class="text-dark font-bold italic text-lg mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-            <p class="text-dark mb-0 italic">"Wer CEO-Sprache spricht, bekommt auch Budgets. Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'. Das spart Zeit, Geld und Nerven."</p>
+          <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+            <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+            <p class="italic text-dark mb-0">"Wer CEO-Sprache spricht, bekommt auch Budgets. Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'. Das spart Zeit, Geld und Nerven."</p>
           </div>
 
           <h3 class="text-2xl font-bold mt-16 mb-6">Seit 2001: Vom "Wilden Westen" zur KI-Revolution</h3>
@@ -331,9 +331,9 @@ const offers = [
             format="webp"
             loading="lazy"
           />
-          <div class="mt-8 bg-white p-6 rounded-2xl border-l-4 border-lime-500 shadow-sm">
-            <p class="text-dark font-bold italic text-lg mb-2">💬 Jörgs Tacheles-Ecke</p>
-            <p class="text-dark italic mb-0">"Die Jagd nach reinem Traffic ist der größte Fehler im B2B-Sektor. Wir wollen keine Touristen auf der Website, sondern qualifizierte Leads, die dein Business wirklich voranbringen. Habe fertig. 🌻"</p>
+          <div class="mt-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+            <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+            <p class="italic text-dark mb-0">"Die Jagd nach reinem Traffic ist der größte Fehler im B2B-Sektor. Wir wollen keine Touristen auf der Website, sondern qualifizierte Leads, die dein Business wirklich voranbringen. Habe fertig. 🌻"</p>
           </div>
         </div>
 
@@ -365,6 +365,12 @@ const offers = [
   </section>
 
   <!-- FAQ Section with Schema inside the Component -->
+  <section class="section bg-white pt-16 pb-24">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <FAQAccordion faqs={faqs} />
+    </div>
+  </section>
+
   <CTASection />
 </Layout>
 

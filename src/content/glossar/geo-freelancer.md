@@ -18,70 +18,70 @@ faqs:
     answer: 'Die Stundensätze für GEO-spezialisierte Freelancer liegen typischerweise zwischen 120€ und 200€, je nach Erfahrung und Projektumfang. Dafür bekommst du keine generische Keyword-Liste, sondern eine maßgeschneiderte Strategie: Entity-Audit, Citation-Analyse, Schema.org-Implementierung, Grounding-Page-Aufbau und ein AI-Visibility-Monitoring über Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. Der ROI zeigt sich oft schneller als bei klassischem SEO, weil der KI-Markt noch wenig Wettbewerb hat.'
 ---
 
-Moin!
+Moin! 🌻
 
-Wenn du nach einem **GEO Freelancer** suchst, bist du einer der Ersten. Und genau das ist dein Vorteil.
+Wenn du 2026 gezielt nach einem **GEO Freelancer** suchst, bist du einer der ganz Wenigen, die kapiert haben, wohin die Reise geht. Und genau das ist dein massiver Wettbewerbsvorteil.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist ein schöner Graph für den Quartalsbericht. Aber am Ende des Monats zählt nur, wie oft die Kasse geklingelt hat."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist eine schöne Kurve für den Quartalsbericht. Aber am Ende des Monats zählt nur, ob die Kasse geklingelt hat – und das passiert bald nur noch über KI-Antworten."</p>
 </div>
 
-[Generative Engine Optimization (GEO)](/glossar/geo/) ist die neue Disziplin, die darüber entscheidet, ob ChatGPT, Perplexity oder Google SGE dich als Experte zitiert – oder ob du in der KI-Welt unsichtbar bist. Und ehrlich: Die meisten [SEO-Agenturen](/glossar/seo-agentur/) haben dieses Thema noch nicht mal verstanden, geschweige denn eine funktionierende Strategie dafür.
+[Generative Engine Optimization (GEO)](/glossar/geo/) ist die Disziplin, die darüber entscheidet, ob ChatGPT, Perplexity oder Google SGE dich als absoluten Experten zitieren – oder ob du in der neuen KI-Welt einfach unsichtbar bist. Und reden wir Tacheles: Die meisten [SEO-Agenturen](/glossar/seo-agentur/) haben das Thema noch nicht mal im Ansatz verstanden, geschweige denn eine Strategie dafür. Die verkaufen dir immer noch Keyword-Listen aus 2018.
 
 ## Warum ein Freelancer für GEO die bessere Wahl ist
 
-GEO ist keine Disziplin, die man „skaliert". Es erfordert tiefes Verständnis für:
+GEO ist nichts, was man als standardisiertes "Agentur-Paket" skalieren und am Fließband abarbeiten kann. Es erfordert ein extrem tiefes, handwerkliches Verständnis für:
 
-*   Wie LLMs (Large Language Models) Informationen verarbeiten
-*   Wie [Entitäten](/glossar/entitaet/) im Knowledge Graph verankert werden
-*   Wie [Citations](/glossar/citation/) in Trainingsdaten die KI-Antworten beeinflussen
-*   Wie man [Schema.org](/glossar/schema-org-markup/) und [Grounding Pages](/glossar/grounding-page/) strategisch einsetzt
+*   Wie LLMs (Large Language Models) Informationen eigentlich fressen und verarbeiten.
+*   Wie man [Entitäten](/glossar/entitaet/) knallhart im Knowledge Graph verankert.
+*   Wie [Citations](/glossar/citation/) in den Trainingsdaten die Antworten der KIs manipulieren.
+*   Wie man [Schema.org](/glossar/schema-org-markup/) und dedizierte [Grounding Pages](/glossar/grounding-page/) als maschinenlesbaren Köder auswirft.
 
-Das ist Expertenwissen, kein Fließband-SEO. Ein Freelancer mit echtem GEO-Know-how liefert hier mehr Wert als ein ganzes Agentur-Team, das noch „SEO-Pakete" verkauft.
+Das ist dreckiges Expertenwissen, kein Copy-Paste-SEO. Ein erfahrener Freelancer mit echtem GEO-Know-how liefert dir hier mehr Umsatz-Impact als ein ganzes Agentur-Team aus Junioren.
 
 ## Mein Ansatz als GEO Freelancer in Berlin
 
-Ich verbinde in meiner täglichen Arbeit [SEO](/seo-freelancer-berlin/) und GEO zu einer integrierten Strategie. Mein eigenes Setup ist der beste Beweis:
+Ich trenne das nicht mehr. Ich verbinde [SEO](/seo-freelancer-berlin/) und GEO in meiner täglichen Arbeit zu einer knallharten, integrierten Strategie. Mein eigenes Setup hier auf teleschmie.de ist der lebende Beweis:
 
 ### Mein GEO-Playbook
 
-1.  **[Grounding Page](/groundingpage/):** Meine maschinenlesbare Fakten-Seite, die KI-Systemen alle relevanten Informationen über meine Expertise liefert.
-2.  **[Schema.org Markup](/glossar/schema-org-markup/):** Person, LocalBusiness, FAQPage, DefinedTerm – alles als JSON-LD implementiert, so dass KIs meine Daten strukturiert lesen können.
-3.  **48+ Glossar-Einträge:** Jeder Eintrag ist ein Wissensknoten, der meine inhaltliche Autorität in meinem Fachgebiet belegt.
-4.  **[Podcast-Auftritte](/blog/seopresso-seo-persoenlich-interview/):** Jede Shownote-Seite ist eine Citation, die mein Entity-Profil stärkt.
-5.  **[AI Visibility Tracking](/blog/rankscale-ai-visibility-tracking-17-llms/):** Ich messe meine Sichtbarkeit über 17 LLMs mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.
+1.  **[Grounding Page](/groundingpage/):** Meine kompromisslose Fakten-Seite, die KI-Systemen meine Expertise maschinenlesbar auf dem Silbertablett serviert.
+2.  **[Schema.org Markup](/glossar/schema-org-markup/):** Person, LocalBusiness, FAQPage – alles als validiertes JSON-LD implementiert. Keine Fehler, nur reine Daten.
+3.  **48+ Glossar-Einträge:** Jeder Eintrag ist ein fetter Wissensknoten, der meine inhaltliche Autorität in der SEO-Nische zementiert.
+4.  **[Podcast-Auftritte](/blog/seopresso-seo-persoenlich-interview/):** Jede Shownote-Seite da draußen ist eine Citation, die mein Entity-Profil im Netz stärkt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Der Unterschied: Theorie vs. Praxis</h4>
-  <p class="mb-0 text-sm">Viele „GEO-Experten" schreiben Blogartikel über GEO. Ich lebe es. Mein gesamtes Setup – von der Grounding Page über das Schema.org Markup bis zum Glossar – ist ein funktionierendes GEO-System. Was ich meinen Kunden empfehle, habe ich vorher an mir selbst getestet und gemessen.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Der Unterschied: Theorie vs. Dreckige Praxis</h4>
+  <p class="mb-0 text-sm">Gefühlt jeder "Experte" schreibt gerade LinkedIn-Posts über GEO. Ich lebe es. Mein komplettes Setup – von der Grounding Page bis zum Glossar – ist ein hart getestetes GEO-System. Was ich meinen Kunden ins System baue, habe ich vorher mit meinem eigenen Traffic auf Herz und Nieren geprüft.</p>
 </div>
 
-## GEO + SEO: Die Doppelstrategie
+## GEO + SEO: Die einzig wahre Doppelstrategie
 
-Die klügste Strategie 2026 ist nicht „SEO oder GEO", sondern **beides zusammen**:
+Die Strategie für 2026 heißt nicht „SEO oder GEO". Das ist Quatsch. Es heißt **beides zusammen**:
 
-*   **SEO** sorgt dafür, dass du in den klassischen Google-Ergebnissen rankst und organischen Traffic bekommst.
-*   **GEO** sorgt dafür, dass du in KI-Antworten zitiert wirst – dort, wo der Traffic der Zukunft entsteht.
+*   **SEO** sorgt dafür, dass du in den klassischen Google-Ergebnissen rankst und das aktuelle Suchvolumen abgreifst.
+*   **GEO** sorgt dafür, dass du in KI-Antworten zitiert wirst – dort, wo der Umsatz von morgen entsteht.
 
-Beides verstärkt sich gegenseitig: Starke SEO-Signale (Rankings, Traffic, Backlinks) machen dich auch für KI-Modelle relevanter. Und wer von KI-Systemen empfohlen wird, bekommt Traffic, der wiederum die SEO-Metriken stärkt.
+Beides pusht sich gegenseitig: Starke SEO-Signale machen dich für KIs relevanter. Wer von KIs empfohlen wird, kriegt Traffic, der die SEO-Metriken durch die Decke jagt.
 
-In meiner [SEO Sprechstunde](/seo-sprechstunde/) zeige ich dir, wo du stehst – sowohl in Google als auch in der KI-Welt.
+In meiner [SEO Sprechstunde](/seo-sprechstunde/) zeige ich dir ungeschönt, wo du stehst.
 
 ## Mein Tacheles-Rat für dich
 
-GEO ist kein Hype, der in 6 Monaten wieder verschwindet. Es ist die Evolution der Suche. Je früher du dich positionierst, desto größer dein Vorsprung. Während deine Wettbewerber noch darüber diskutieren, ob „KI-SEO" echt ist, baust du dir jetzt die [Entität](/glossar/entitaet/) auf, die in einem Jahr von jeder KI der Welt als Experte erkannt wird. Nutze [Affiliate Link: SE Ranking](https://seranking.com/de/?ga=4169588&source=link) um keine Trends zu verpassen.
+GEO ist kein flüchtiger Hype. Es ist die knallharte Evolution der Suche. Je früher du das kapierst und dich positionierst, desto krasser wird dein Vorsprung. Während die Konkurrenz noch darüber philosophiert, ob „KI-SEO" echt ist, baust du dir jetzt die [Entität](/glossar/entitaet/) auf, an der in 12 Monaten keine KI mehr vorbeikommt. 
 
-ALOHA 🌻 
+ALOHA! 🌻✌️
 
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit für die Zukunft der Suche?</h3>
-  <p class="mb-6">Als einer der ersten GEO-spezialisierten Freelancer in Deutschland verbinde ich klassisches SEO mit KI-Optimierung. Lass uns gemeinsam deine Sichtbarkeit in Google UND in KI-Antworten maximieren.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen </a>
+<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
+  <h3 class="text-2xl font-bold mb-4">Bereit für die KI-Suche?</h3>
+  <p class="mb-6 text-gray-muted">Als GEO-spezialisierter Freelancer verbinde ich solides SEO-Handwerk mit neuester KI-Optimierung. Lass uns deine Marke so aufbauen, dass ChatGPT und Google SGE dich als Experten zitieren müssen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Beratung anfragen</a>
 </div>
 
+### Verwandte Begriffe
 * [Was ist GEO?](/glossar/geo/)
 * [GEO Agentur: Was bieten sie an?](/glossar/geo-agentur/)
 * [GEO vs. SEO: Die Unterschiede](/glossar/geo-vs-seo/)

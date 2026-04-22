@@ -15,65 +15,66 @@ faqs:
   - question: 'Kann ich beeinflussen, was ChatGPT über mich sagt?'
     answer: 'Ja, indirekt. Du kannst nicht direkt ins Training eingreifen, aber du kannst dafür sorgen, dass hochwertige, konsistente Informationen über dich im Web existieren. Je mehr vertrauenswürdige Quellen deinen Namen im richtigen Kontext erwähnen, desto positiver wird dein LLM-Profil. Konkret: Presseartikel, Podcast-Shownotes, Wikipedia-Erwähnungen, Fachpublikationen – all das fließt in die Trainingsdaten ein.'
   - question: 'Wie teste ich meine LLM-Sichtbarkeit?'
-    answer: 'Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten Training-Update auftauchen.'
----
+    answer: 'Am einfachsten: Frag ChatGPT, Gemini und Perplexity nach deinem Fachgebiet und schau, ob du erwähnt wirst. Für systematisches Tracking nutze ich Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, das die Sichtbarkeit über 17 LLMs gleichzeitig misst. Wichtig: Teste regelmäßig, denn die Modelle werden laufend aktualisiert. Was heute nicht zitiert wird, kann nach dem nächsten TraMoin! 🌻
 
-Moin!
+**LLMO** (Large Language Model Optimization) ist die brutale Antwort auf die Frage: *Wie kriege ich ChatGPT, Gemini und Claude dazu, mich und meine Expertise in ihren Antworten zu zitieren?* 
 
-**LLMO** (LLM-Optimization) ist die Disziplin, die sich mit der Frage beschäftigt: *Wie beeinflusse ich, was ChatGPT, Gemini und Claude über mich und mein Fachgebiet wissen?*
-
-
+Vergiss klassische Rankings für einen Moment. Es geht hier nicht um 10 blaue Links. Es geht um die alleinige Wahrheit, die eine KI ausspuckt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"SEO-Tools sind wie ein Skalpell. In der Hand eines Anfängers lebensgefährlich, in der Hand eines Experten ein Präzisionswerkzeug."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Wenn ChatGPT nicht weiß, wer du bist, existierst du im Jahr 2026 für eine massive Käuferschicht schlichtweg nicht. LLMO ist keine Spielerei, es ist dein digitales Überlebenstraining."</p>
 </div>
 
-Während [GEO](/glossar/geo/) die Gesamtstrategie für KI-Sichtbarkeit darstellt, taucht LLMO tiefer ein: Es analysiert, wie Large Language Models Informationen verarbeiten, welche Quellen sie bevorzugen und wie man zum verlässlichen „Trainingspartner" der KI wird.
+Während [GEO](/glossar/geo/) das große strategische Dach für KI-Sichtbarkeit ist, taucht LLMO in den dreckigen Maschinenraum ab: Wie verarbeiten Modelle eigentlich ihre Trainingsdaten? Welchen Quellen vertrauen sie blind? Und wie wirst du ein fester Bestandteil ihres Wissens?
 
-## Wie LLMs Informationen verarbeiten
+## Wie LLMs den Bullshit vom Gold trennen
 
-LLMs wie ChatGPT, Gemini oder Claude lernen aus riesigen Textmengen des Internets. Sie analysieren statistische Muster:
+ChatGPT & Co. „wissen“ nichts. Sie berechnen Wahrscheinlichkeiten auf Basis gigantischer Textberge. 
 
-*   **Co-Occurrence:** Wie oft wird „Jörg Zimmer" zusammen mit „SEO Berlin" erwähnt?
-*   **Source Authority:** Stammt die Erwähnung von t3n oder von einem Spam-Blog?
-*   **Konsistenz:** Stimmen die Informationen über dich quellenübergreifend überein?
-*   **Aktualität:** Gibt es frische Erwähnungen oder nur uralte?
+*   **Co-Occurrence:** Wie verdammt oft taucht der Name „Jörg Zimmer“ in einem Atemzug mit „B2B SEO Experte“ auf?
+*   **Source Authority:** Steht das in der Forbes, oder hat das irgendein indischer Spam-Blog gepostet?
+*   **Semantische Konsistenz:** Sind sich die Quellen einig über das, was du tust?
+*   **Aktualität (RAG):** Gibst du der KI frische Fakten über sauberes Schema, wenn sie live im Web sucht?
 
-## Die LLMO-Strategie
+## Die LLMO-Strategie: So manipulierst du (legal) die Maschinen
 
-### 1. Digitalen Fußabdruck maximieren
-Jede hochwertige Erwähnung deines Namens ist Trainingsmaterial. [Pressearbeit](/glossar/pressearbeit-im-seo/), [Podcast-Auftritte](/blog/seopresso-seo-persoenlich-interview/), Gastbeiträge, Konferenz-Programme – all das fließt in den Datensatz der LLMs.
+### 1. Digitalen Fußabdruck in den Trainingsdaten erzwingen
+Dein Name muss in den Datensatz. Jede fette Erwähnung im Netz zählt. Mach harte [Pressearbeit](/glossar/pressearbeit-im-seo/), geh in [Podcasts](/blog/seopresso-seo-persoenlich-interview/), schreib Gastbeiträge in Fachmedien. Das ist das Futter für das nächste KI-Training.
 
-### 2. [Citations](/glossar/citation/) streuen
-Konsistente Erwähnungen in vertrauenswürdigen Verzeichnissen, Branchenportalen und Fachmedien stärken dein LLM-Profil.
+### 2. Harte Citations aufbauen
+Streue deine Daten (NAP) und deine Thesen konsistent über die stärksten Portale deiner Nische ([Citations](/glossar/citation/)). Je mehr vertrauenswürdige Knotenpunkte dich bestätigen, desto tiefer brennst du dich in den Knowledge Graph ein.
 
-### 3. Strukturierte Daten bereitstellen
-[Schema.org Markup](/glossar/schema-org-markup/) und [Grounding Pages](/glossar/grounding-page/) liefern maschinenlesbare Fakten, die von Retrieval-Augmented-Generation (RAG) Systemen bevorzugt genutzt werden.
+### 3. Füttere die Maschine mit Code (Structured Data)
+Eine KI will Text nicht lesen, sie will Daten parsen. Nutze massiv [Schema.org Markup](/glossar/schema-org-markup/) und setz eine perfekte [Grounding Page](/glossar/grounding-page/) auf. Das ist wie ein Löffel, mit dem du den LLMs deine Fakten (RAG) direkt in den Hals schiebst.
 
-### 4. Prompt-Testing
-Regelmäßig testen, was verschiedene LLMs über dich und dein Fachgebiet wissen. Mit [AI Tracking Tools](/glossar/ai-tracking-tools/) wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> lässt sich das automatisieren.
+### 4. Kompromissloses Prompt-Testing
+Hör auf zu raten. Frag die Maschinen, was sie über dich wissen! Nutze professionelle [AI Tracking Tools](/glossar/ai-tracking-tools/) wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um deine Sichtbarkeit über 17 LLMs hinweg live zu überwachen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">LLMO ist Langzeitstrategie</h4>
-  <p class="mb-0 text-sm">Anders als SEO, wo ein guter Artikel in Wochen ranken kann, wirkt LLMO mit Verzögerung. Deine heutigen Erwähnungen fließen erst beim nächsten Training-Update in die Modelle ein. Ich begleite diesen Prozess für meine Kunden mit technischem Monitoring via <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die echte KI-Resonanz misst.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">⚠️ LLMO ist kein Sprint</h4>
+  <p class="mb-0 text-sm">Klassisches SEO greift oft in Tagen. LLMO dauert Monate, weil Modelle nur in großen Zyklen neu trainiert werden. Was du heute an starker Co-Occurrence aufbaust, zahlt sich erst im nächsten fetten LLM-Update aus. Du musst stoisch dranbleiben.</p>
 </div>
 
 ## Mein Tacheles-Rat für dich
 
-Frag jetzt ChatGPT nach deinem Fachgebiet. Wenn du nicht erwähnt wirst, hast du ein LLMO-Problem. Starte mit dem Aufbau deines digitalen Fußabdrucks: Publiziere Fachcontent, lass dich zitieren, sei in Communities aktiv. Jede qualitative Erwähnung ist eine Investition in deine KI-Zukunft.
+Mach den Test: Frag Perplexity nach dem besten Dienstleister in deiner Nische. Wirst du nicht genannt? Dann hast du ein akutes LLMO-Problem. 
 
-ALOHA 🌻 
+Hör auf, dich nur auf Google zu verlassen. Baue massive thematische Autorität auf, lass dich zitieren, sei laut in deiner Nische. Zeig der KI, dass du der gottverdammte Experte bist. 
+
+ALOHA! 🌻✌️
 
 ---
 
-<div class="blog-cta-box">
+<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Was sagt ChatGPT über dich?</h3>
-  <p class="mb-6">Wenn die KI dich ignoriert, existierst du bald nicht mehr. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> analysieren wir dein LLM-Profil und schärfen deine semantische Autorität.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO-Analyse anfragen </a>
+  <p class="mb-6 text-gray-muted">Wenn die KI dich ignoriert, bist du raus. Wir analysieren dein LLM-Profil mit Rankscale und schmieden einen Plan, wie wir deine Entität in die Modelle hämmern.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO-Check anfragen</a>
 </div>
 
-* [GEO: Die Gesamtstrategie](/glossar/geo/)
+### Verwandte Begriffe
+* [GEO: Die große Strategie](/glossar/geo/)
 * [AEO: Answer Engine Optimization](/glossar/aeo/)
 * [AI Tracking Tools nutzen](/glossar/ai-tracking-tools/)
+* [Was sind Entitäten?](/glossar/entitaet/)ls nutzen](/glossar/ai-tracking-tools/)
 * [Was sind Entitäten?](/glossar/entitaet/)

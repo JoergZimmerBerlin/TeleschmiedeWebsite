@@ -9,48 +9,15 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     ForceType 'text/plain; charset=UTF-8'
 </FilesMatch>
 
-# 2. Security Headers (Best-in-Class A+ Härtung)
-# Hinweis: Wir nutzen 'always set' für maximale Abdeckung, aber 'set' für CSP zur Kompatibilität.
-<IfModule mod_headers.c>
-    # Basis Härtung
-    Header always set X-Content-Type-Options "nosniff"
-    Header always set X-Frame-Options "SAMEORIGIN"
-    Header always set Referrer-Policy "strict-origin-when-cross-origin"
-    Header always set X-XSS-Protection "1; mode=block"
-    Header always set X-Permitted-Cross-Domain-Policies "none"
-    
-    # HSTS (1 Jahr + Preload)
-    # Wir nutzen 'set' statt 'always set' für HSTS, da IONOS 'always' bei 200 OK oft verschluckt.
-    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-    
-    # Modern Isolation Policies
-    Header always set Cross-Origin-Embedder-Policy "unsafe-none"
-    Header always set Cross-Origin-Opener-Policy "same-origin"
-    Header always set Cross-Origin-Resource-Policy "same-origin"
-    
-    # Permissions-Policy
-    Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
-    
-    # Content-Security-Policy (Standardisierte Absicherung)
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
-    
-    # AI/Agent Discovery (RFC 8288)
-    Header add Link "</llms.txt>; rel=\"llms\""
-    Header add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
-    Header add Link "</.well-known/mcp-server-card.json\"; rel=\"service-doc\""
-    Header add Link "</.well-known/ai-plugin.json\"; rel=\"service-doc\""
-    Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
-</IfModule>
-
-# 3. Redirects & Options
+# 2. Redirects & Options
 Options -MultiViews
 RewriteEngine On
 
-# A. WWW zu Non-WWW erzwingen
+# A. WWW zu Non-WWW erzwingen (Sicherer Pattern)
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]
 
-# B. HTTPS erzwingen
+# B. HTTPS erzwingen (Standard-Check basierend auf $_SERVER Diagnose)
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://teleschmie.de%{REQUEST_URI} [L,R=301]
 
@@ -60,6 +27,40 @@ Redirect 301 /html/antworten.html https://teleschmie.de/leistungen/
 Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-ads-freelancer-berlin/
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 
+# 3. Security Headers (Best-in-Class A+ Härtung)
+<IfModule mod_headers.c>
+    # Basis Härtung
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set X-Permitted-Cross-Domain-Policies "none"
+    
+    # HSTS (1 Jahr + Preload für maximale Sicherheit)
+    # Entferne env=HTTPS, falls Ionos HTTPS nicht korrekt in env spiegelt
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    
+    # Modern Isolation Policies
+    Header always set Cross-Origin-Embedder-Policy "unsafe-none"
+    Header always set Cross-Origin-Opener-Policy "same-origin"
+    Header always set Cross-Origin-Resource-Policy "same-origin"
+    
+    # Permissions-Policy (Zentrale Kontrolle über Browser-Features)
+    Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    
+    # Mime Fix für CSS
+    AddType text/css .css
+    
+    # Content-Security-Policy (PascalCase, no 'always' for discovery)
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
+    
+    # AI/Agent Discovery (RFC 8288)
+    Header add Link "</llms.txt>; rel=\"llms\""
+    Header add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
+    Header add Link "</.well-known/mcp-server-card.json\"; rel=\"service-doc\""
+    Header add Link "</.well-known/ai-plugin.json\"; rel=\"service-doc\""
+    Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
+</IfModule>
 
 # 4. Kompression (Speed-Boost für SEO)
 <IfModule mod_deflate.c>

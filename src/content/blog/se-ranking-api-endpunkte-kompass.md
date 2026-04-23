@@ -2,8 +2,8 @@
 title: "SE Ranking API: Ein Kompass durch die Endpunkte"
 description: "Backlinks, Keyword-Research, AI Search, Website Audit: 6 Endpunkt-Kategorien der SE Ranking API - mit Kosten-Tabelle und Praxis-Beispielen. ALOHA! 🌻"
 date: "2026-04-25"
-image: "../../assets/images/blog/seranking-api-kategorien-mindmap.webp"
-image_alt: "SE Ranking API: Die 6 Kategorien als Mindmap Übersicht"
+image: "../../assets/images/blog/seranking-api-kompass-friendly-hero.png"
+image_alt: "SE Ranking API Kompass: Die 6 Kategorien freundlich erklärt"
 category: "SEO Tools"
 tags: ["API", "Endpunkte", "Übersicht", "Kosten"]
 key_takeaways:
@@ -31,6 +31,8 @@ Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
 Kurze Antwort: verdammt viel. Lange Antwort: 6 Kategorien, über 50 Endpunkte, Kosten zwischen 0 und 7.500 Credits pro Call. Ich sortiere das für dich: wie ein Kompass durch den API-Dschungel.
 
+![6 API-Kategorien als Mindmap mit Endpunkten](../../assets/images/blog/seranking-api-kategorien-mindmap.webp)
+
 ## Die 6 Kategorien im Überblick
 
 | Kategorie | Zweck | Typische Kosten pro Call |
@@ -41,8 +43,6 @@ Kurze Antwort: verdammt viel. Lange Antwort: 6 Kategorien, über 50 Endpunkte, K
 | Keyword Research | KW-Ideen, Long-Tail, Fragen | 0 flat + 1–10 pro Record |
 | AI Search | KI-Sichtbarkeit | **800–7.500 pro Call** |
 | Website Audit | Technisches Audit | 2–20 pro Seite |
-
-![SE Ranking API Kompass: 6 Kategorien im Überblick](../../assets/images/blog/seranking-api-kompass-hero.webp)
 
 ## Account: dein Rettungsanker
 

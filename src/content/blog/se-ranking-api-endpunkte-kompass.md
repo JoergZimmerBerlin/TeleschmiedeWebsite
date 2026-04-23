@@ -99,12 +99,10 @@ Und dann gibt es die AI-Search-Kategorie. Hier misst du, ob ChatGPT, Perplexity,
 - `ai-search/prompts-by-target`: 0 flat + 200 pro Record
 - `ai-search/prompts-by-brand`: 0 flat + 200 pro Record
 
-<div class="my-8 bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-lg">
-  <p class="font-bold text-amber-700 mb-2">⚠️ Warnung: AI Search</p>
-  <p class="italic text-dark mb-0">"Ein einziger Leaderboard-Call = 7.500 Credits. Das entspricht 75 Domain-Analysen. Nie automatisiert in Cron-Jobs. Immer manueller Trigger."</p>
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💡 Budget-Tipp: AI Search</p>
+  <p class="italic text-dark mb-0">"Da ein Leaderboard-Call 7.500 Credits kostet, empfehle ich, diesen Endpunkt gezielt manuell zu triggern. So behältst du die volle Kontrolle über dein Budget und nutzt die Credits dort, wo sie den größten Hebel haben."</p>
 </div>
-
-![AI Search Endpunkte Kosten-Warnung Ampel](../../assets/images/blog/seranking-ai-search-ampel-warnung.webp)
 
 Meine Empfehlung: Fang mit `discover-brand` an. 100 Credits, du siehst sofort, ob deine Marke in ChatGPT-Antworten vorkommt. Für tiefere Analysen nimmst du `aggregated` - aber wirklich nur, wenn du einen Kunden mit Retainer ab 5.000 Euro/Monat hast. Sonst lohnt der Preis nicht.
 

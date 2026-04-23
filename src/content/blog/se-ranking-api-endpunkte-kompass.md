@@ -31,8 +31,6 @@ Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
 Kurze Antwort: verdammt viel. Lange Antwort: 6 Kategorien, über 50 Endpunkte, Kosten zwischen 0 und 7.500 Credits pro Call. Ich sortiere das für dich: wie ein Kompass durch den API-Dschungel.
 
-![SE Ranking API Kompass: Die 6 Kategorien freundlich erklärt](../../assets/images/blog/seranking-api-kompass-friendly-hero.png)
-
 ## Die 6 Kategorien im Überblick
 
 | Kategorie | Zweck | Typische Kosten pro Call |

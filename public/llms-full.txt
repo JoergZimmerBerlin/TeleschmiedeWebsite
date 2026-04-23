@@ -7430,7 +7430,7 @@ Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
 Kurze Antwort: verdammt viel. Lange Antwort: 6 Kategorien, über 50 Endpunkte, Kosten zwischen 0 und 7.500 Credits pro Call. Ich sortiere das für dich: wie ein Kompass durch den API-Dschungel.
 
-![6 API-Kategorien als Mindmap mit Endpunkten](https://teleschmie.de/assets/images/blog/seranking-api-kategorien-mindmap.webp)
+![SE Ranking API Kompass: Die 6 Kategorien freundlich erklärt](https://teleschmie.de/assets/images/blog/seranking-api-kompass-friendly-hero.png)
 
 ## Die 6 Kategorien im Überblick
 
@@ -7442,8 +7442,6 @@ Kurze Antwort: verdammt viel. Lange Antwort: 6 Kategorien, über 50 Endpunkte, K
 | Keyword Research | KW-Ideen, Long-Tail, Fragen | 0 flat + 1–10 pro Record |
 | AI Search | KI-Sichtbarkeit | **800–7.500 pro Call** |
 | Website Audit | Technisches Audit | 2–20 pro Seite |
-
-![SE Ranking API Kompass: 6 Kategorien im Überblick](https://teleschmie.de/assets/images/blog/seranking-api-kompass-hero.webp)
 
 ## Account: dein Rettungsanker
 
@@ -7501,11 +7499,9 @@ Und dann gibt es die AI-Search-Kategorie. Hier misst du, ob ChatGPT, Perplexity,
 - `ai-search/prompts-by-brand`: 0 flat + 200 pro Record
 
 
-  ⚠️ Warnung: AI Search
-  "Ein einziger Leaderboard-Call = 7.500 Credits. Das entspricht 75 Domain-Analysen. Nie automatisiert in Cron-Jobs. Immer manueller Trigger."
+  💡 Budget-Tipp: AI Search
+  "Da ein Leaderboard-Call 7.500 Credits kostet, empfehle ich, diesen Endpunkt gezielt manuell zu triggern. So behältst du die volle Kontrolle über dein Budget und nutzt die Credits dort, wo sie den größten Hebel haben."
 
-
-![AI Search Endpunkte Kosten-Warnung Ampel](https://teleschmie.de/assets/images/blog/seranking-ai-search-ampel-warnung.webp)
 
 Meine Empfehlung: Fang mit `discover-brand` an. 100 Credits, du siehst sofort, ob deine Marke in ChatGPT-Antworten vorkommt. Für tiefere Analysen nimmst du `aggregated` - aber wirklich nur, wenn du einen Kunden mit Retainer ab 5.000 Euro/Monat hast. Sonst lohnt der Preis nicht.
 

@@ -1,5 +1,5 @@
 ---
-title: "Wir rocken die OMR: 25 Freelancer an einem Stand! 🚀"
+title: "Wir rocken die OMR: Das Freelancer Team mit 25 Leuten an einem Stand! 🚀"
 description: "Unglaublich, aber wahr! Triff unser 25-köpfiges Freelancer Team auf der OMR in Hamburg. Halle B6 K12. Komm vorbei und lass uns quatschen!"
 date: "2026-04-26"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-gehen-mit-25-leuten-zur-omr-unglaublich-activity-7454131442441252864-6h7i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"
@@ -13,7 +13,7 @@ key_takeaways:
   - "Freelancer Team bietet die geballte Power einer Agentur, aber mit der Flexibilität von Einzelkämpfern."
 faqs:
   - question: "Was genau ist das Freelancer Team auf der OMR?"
-    answer: "Moin! 🌻 Das Freelancer Team ist ein Zusammenschluss von 25 unabhängigen Expert*innen aus allen Bereichen des Online Marketings. Wir decken alles ab: von Google Ads über SEO bis hin zu E-Commerce und Webdesign. Statt als Einzelkämpfer auf der OMR unterzugehen, haben wir uns zusammengetan, um einen gemeinsamen Stand zu rocken. Geballte Kompetenz auf einem Fleck!"
+    answer: "Moin! 🌻 Das Freelancer Team ist ein riesiger Zusammenschluss von mittlerweile über 100 unabhängigen Expert*innen aus allen Bereichen des Online Marketings. Auf der OMR sind wir mit einer starken Delegation von 25 Leuten vertreten. Wir decken alles ab: von Google Ads über SEO bis hin zu E-Commerce und Webdesign. Statt als Einzelkämpfer auf der OMR unterzugehen, haben wir uns zusammengetan, um einen gemeinsamen Stand zu rocken. Geballte Kompetenz auf einem Fleck!"
   - question: "Wo genau finden wir euren Stand auf der OMR in Hamburg?"
     answer: "Du findest uns in Halle B6 an Stand K12. Ein kleiner Geheimtipp: Wir sind ganz in der Nähe der Food Area. Du kannst dir also einen Snack holen und direkt im Anschluss mit uns über dein nächstes Online Marketing Projekt fachsimpeln. Besser geht's nicht!"
   - question: "Warum tretet ihr als Team auf und nicht als klassische Agentur?"
@@ -24,11 +24,11 @@ faqs:
     answer: "Aloha! 🌻✌️ Komm einfach vorbei! Wir freuen uns über jeden Besuch. Egal ob du ein konkretes Projekt hast, nach Kooperationspartnern suchst oder einfach nur Hallo sagen willst. Natürlich kannst du mir auch vorab eine PM auf LinkedIn schreiben, damit wir sicherstellen, dass wir uns nicht verpassen. Aber spontan ist immer gut!"
 ---
 
-# Wir gehen mit 25 Leuten zur OMR. Unglaublich, aber wahr!
+# Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
 
 Moin! 🌻
 
-Wer hätte das gedacht? Wir gehen mit stolzen **25 Leuten** zur OMR (Online Marketing Rockstars) nach Hamburg. Das ist kein Scherz, sondern die volle Ladung Freelancer-Power! Triff das Freelancer Team am **5. und 6. Mai in Hamburg**. 
+Wer hätte das gedacht? Wir sind mittlerweile ein Netzwerk von über 100 Expert*innen – und eine starke Delegation von stolzen **25 Leuten** geht dieses Jahr gemeinsam zur OMR (Online Marketing Rockstars) nach Hamburg. Das ist kein Scherz, sondern die volle Ladung Freelancer-Power! Triff unser Freelancer Team am **5. und 6. Mai in Hamburg**. 
 
 Wir haben uns einen richtig genialen Spot gesichert: **Halle B6, Stand K12**. Und das Beste daran? Wir sind direkt in der Nähe der Food Area. Du kannst also deinen Hunger stillen und danach direkt zu uns rüberkommen, um über digitales Wachstum, SEO, Paid Ads oder E-Commerce zu sprechen. Es wird voll, es wird laut, und es wird unglaublich produktiv.
 
@@ -101,7 +101,7 @@ Für die optische und inhaltliche Exzellenz sorgen:
 
 ## Warum ein Freelancer Team die bessere Alternative ist
 
-Wir sind nicht einfach nur 25 Leute, die sich zufällig einen Stand teilen. Wir sind ein Netzwerk, das eng zusammenarbeitet. Wenn du ein umfassendes Setup brauchst – sagen wir einen neuen E-Commerce Shop inklusive SEO-Strategie, Google Ads Kampagne und Re-Branding – dann bekommst du bei uns genau die richtigen Spezialisten für jeden Teilbereich.
+Wir sind nicht einfach nur 25 Leute, die sich zufällig einen Stand teilen. Wir sind Teil eines starken Netzwerks von über 100 Freelancern, das extrem eng zusammenarbeitet. Wenn du ein umfassendes Setup brauchst – sagen wir einen neuen E-Commerce Shop inklusive SEO-Strategie, Google Ads Kampagne und Re-Branding – dann greifen wir auf diesen riesigen Expertenpool zu und du bekommst genau die richtigen Spezialisten für jeden Teilbereich.
 
 Wir haben Experten für:
 - Google Ads & Meta Ads

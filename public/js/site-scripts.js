@@ -153,14 +153,121 @@
     });
   };
 
+  function initCopyButtons() {
+    // Site-wide Copy Link Logic
+    document.querySelectorAll('.copy-link-btn').forEach(btn => {
+      const feedback = btn.querySelector('.copy-feedback');
+      const url = btn.dataset.url || window.location.href;
+      
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(url);
+          showFeedback(feedback);
+        } catch (err) {
+          console.warn('Clipboard API failed, using fallback.', err);
+          fallbackCopy(url, feedback);
+        }
+      });
+    });
+
+    // Site-wide Copy Prompt Logic
+    document.querySelectorAll('.copy-prompt-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const prompt = btn.dataset.prompt;
+        if (prompt) {
+          try {
+            await navigator.clipboard.writeText(prompt);
+            showBtnSuccess(btn);
+          } catch (err) {
+            fallbackCopy(prompt, null, btn);
+          }
+        }
+      });
+    });
+
+    // Site-wide Copy Code Blocks Logic
+    document.querySelectorAll('.blog-content pre').forEach(pre => {
+      if (pre.querySelector('.copy-code-btn')) return; // Already initialized
+
+      pre.style.position = 'relative';
+      const btn = document.createElement('button');
+      btn.className = 'copy-code-btn absolute top-3 right-3 px-2 py-1 bg-[#1a1b1e]/80 hover:bg-lime-600 text-gray-300 hover:text-white text-[10px] font-bold uppercase rounded border border-gray-700 hover:border-lime-500 transition-all flex items-center gap-1 z-10 backdrop-blur-sm';
+      btn.innerHTML = '<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg> Kopieren für Agent';
+      
+      btn.addEventListener('click', async () => {
+        const codeEl = pre.querySelector('code');
+        const textToCopy = codeEl ? codeEl.innerText : pre.innerText;
+        
+        try {
+          await navigator.clipboard.writeText(textToCopy);
+          showBtnSuccess(btn, true);
+        } catch (err) {
+          fallbackCopy(textToCopy, null, btn, true);
+        }
+      });
+      
+      pre.appendChild(btn);
+    });
+  }
+
+  function showFeedback(feedback) {
+    if (!feedback) return;
+    feedback.classList.remove('opacity-0');
+    feedback.classList.add('opacity-100');
+    setTimeout(() => {
+      feedback.classList.remove('opacity-100');
+      feedback.classList.add('opacity-0');
+    }, 2000);
+  }
+
+  function showBtnSuccess(btn, isCodeBtn = false) {
+    const originalHtml = btn.innerHTML;
+    if (isCodeBtn) {
+      btn.innerHTML = '<svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg> Kopiert!';
+      btn.classList.add('!bg-lime-600', '!text-white', '!border-lime-500');
+    } else {
+      btn.innerHTML = '<svg class="w-4 h-4 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>';
+    }
+    
+    setTimeout(() => {
+      btn.innerHTML = originalHtml;
+      if (isCodeBtn) {
+        btn.classList.remove('!bg-lime-600', '!text-white', '!border-lime-500');
+      }
+    }, 2000);
+  }
+
+  function fallbackCopy(text, feedback, btn = null, isCodeBtn = false) {
+    try {
+      const tempInput = document.createElement('textarea');
+      tempInput.value = text;
+      // Ensure it's hidden but part of the DOM
+      tempInput.style.position = 'absolute';
+      tempInput.style.left = '-9999px';
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      
+      if (feedback) showFeedback(feedback);
+      if (btn) showBtnSuccess(btn, isCodeBtn);
+    } catch (fallbackErr) {
+      console.error('Fallback copy failed: ', fallbackErr);
+    }
+  }
+
   // Initialization
   refreshMetrics();
   initTables();
   
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initGlossaryTooltips);
+    document.addEventListener('DOMContentLoaded', () => {
+      initGlossaryTooltips();
+      initCopyButtons();
+    });
   } else {
     initGlossaryTooltips();
+    initCopyButtons();
   }
 
   window.addEventListener('scroll', requestTick, { passive: true });

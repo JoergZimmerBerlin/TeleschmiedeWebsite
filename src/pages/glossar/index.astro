@@ -85,7 +85,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 </Layout>
 
 <script>
-  document.addEventListener('astro:page-load', () => {
+  function initGlossarSearch() {
     const searchInput = document.getElementById('glossar-search') as HTMLInputElement;
     const cards = document.querySelectorAll('.glossar-card');
     const noResults = document.getElementById('no-results');
@@ -114,7 +114,13 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
         }
       }
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGlossarSearch);
+  } else {
+    initGlossarSearch();
+  }
 </script>
 
 <style>

@@ -26,4 +26,31 @@ if (file_put_contents($target, $content)) {
 } else {
     echo "FEHLER: Konnte '$target' nicht schreiben. Prüfe die Ordnerberechtigungen.\n";
 }
+
+// .well-known Aktivierung
+echo "\n--- IONOS .well-known AKTIVATOR ---\n";
+if (!file_exists('.well-known')) {
+    if (mkdir('.well-known', 0755, true)) {
+        echo "ERFOLG: Verzeichnis '.well-known' wurde erstellt.\n";
+    } else {
+        echo "FEHLER: Konnte Verzeichnis '.well-known' nicht erstellen.\n";
+    }
+} else {
+    echo "INFO: Verzeichnis '.well-known' existiert bereits.\n";
+}
+
+$wellKnownFiles = ['mcp-server-card.json', 'ai-plugin.json'];
+foreach ($wellKnownFiles as $file) {
+    $srcFile = 'well-known-export/' . $file;
+    $destFile = '.well-known/' . $file;
+    if (file_exists($srcFile)) {
+        if (copy($srcFile, $destFile)) {
+            echo "ERFOLG: '$file' wurde in '.well-known' kopiert.\n";
+        } else {
+            echo "FEHLER: Konnte '$file' nicht in '.well-known' kopieren.\n";
+        }
+    } else {
+        echo "INFO: Quelldatei '$srcFile' nicht gefunden (evtl. nicht hochgeladen).\n";
+    }
+}
 ?>

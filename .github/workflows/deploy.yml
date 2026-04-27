@@ -33,6 +33,13 @@ jobs:
           ls -la dist/.htaccess
           ls -la dist/build.txt
 
+      - name: Prepare Hidden Files for IONOS
+        run: |
+          if [ -d "dist/.well-known" ]; then
+            mv dist/.well-known dist/well-known-export
+            echo ".well-known renamed to well-known-export for SFTP transport"
+          fi
+
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:

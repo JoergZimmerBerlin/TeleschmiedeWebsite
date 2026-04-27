@@ -1,8 +1,14 @@
 {
-  "mcpVersion": "1.0",
-  "name": "Jörg Zimmer Knowledge Base",
-  "version": "1.0.0",
-  "description": "Comprehensive expert knowledge on Search Engine Optimization (SEO), Search Engine Advertising (SEA), and Generative Engine Optimization (GEO) by Jörg Zimmer.",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "joerg-zimmer-knowledge-base",
+    "title": "Jörg Zimmer Knowledge Base",
+    "description": "Comprehensive expert knowledge on Search Engine Optimization (SEO), Search Engine Advertising (SEA), and Generative Engine Optimization (GEO) by freelancer Jörg Zimmer.",
+    "iconUrl": "https://teleschmie.de/images/logo-teleschmiede.webp",
+    "documentationUrl": "https://teleschmie.de/ueber-mich/"
+  },
   "capabilities": {
     "resources": [
       {

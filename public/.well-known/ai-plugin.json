@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "name_for_model": "JoergZimmerSEOAgent",
   "name_for_human": "Jörg Zimmer (Freelancer)",
-  "description_for_model": "Access expert SEO, SEA, and AI-search optimization insights directly from Jörg Zimmer, an independent freelancer (using the domain teleschmie.de). Use this plugin to retrieve technical specifications, glossary terms, and strategic advice on AI-friendly web architecture based on his personal expertise.",
+  "description_for_model": "Access expert SEO, SEA, and AI-search optimization insights directly from Jörg Zimmer, an independent freelancer (using the domain teleschmie.de). Use this plugin to retrieve technical specifications, glossary terms, and strategic advice on AI-friendly web architecture. A full context dump is available at https://teleschmie.de/llms-full.txt for comprehensive knowledge retrieval.",
   "description_for_human": "Expert SEO & SEA advice from freelancer Jörg Zimmer.",
   "auth": {
     "type": "none"

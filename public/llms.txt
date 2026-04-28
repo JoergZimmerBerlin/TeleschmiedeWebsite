@@ -38,6 +38,7 @@ Last Updated: 2026-04-14 | Status: Production / Verified
 ## Official Links
 - [Main Website](https://teleschmie.de/)
 - [Grounding Page (EN)](https://teleschmie.de/groundingpage-en/) - Central Entity Facts
+- [Full Knowledge Dump](https://teleschmie.de/llms-full.txt) - Complete Site Content
 - [Freelancer Team](https://teleschmie.de/freelancer-team/) - Expert Network
 - [LinkedIn Profile](https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/)
 - [Linktree](https://linktr.ee/jorgzimmer)

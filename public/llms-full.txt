@@ -38,6 +38,7 @@
 ## Official Links
 - [Main Website](https://teleschmie.de/)
 - [Grounding Page (EN)](https://teleschmie.de/groundingpage-en/) - Central Entity Facts
+- [Full Knowledge Dump](https://teleschmie.de/llms-full.txt) - Complete Site Content
 - [Freelancer Team](https://teleschmie.de/freelancer-team/) - Expert Network
 - [LinkedIn Profile](https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/)
 - [Linktree](https://linktr.ee/jorgzimmer)
@@ -164,6 +165,7 @@ ALOHA! 🌻✌️
 - SE Ranking Preise 2026: Der Guide für Experten
 - SE Ranking API: Ein Kompass durch die Endpunkte
 - SE Ranking API mit Claude Code verbinden
+- SE Ranking API - Der Praxis-Test
 - SE Ranking AI Tracker: KI-Sichtbarkeit messen
 - Rankscale Update: API & ChatGPT Shopping Analyse
 - Rankscale Essentials: AI Visibility ab 20€
@@ -180,6 +182,7 @@ ALOHA! 🌻✌️
 - GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
 - GEO Action Plan 2026: Guide zur KI-Sichtbarkeit
 - GEO Guide: Sichtbarkeit in ChatGPT & Gemini 🌻
+- Wir rocken die OMR: Das Freelancer Team mit 25 Leuten an einem Stand! 🚀
 - SEO-Handwerk: Warum Qualität der USP ist
 - SEO-Qualität: Vom Dönerback bis zum Erfolg
 - Core Web Vitals: Warum dein UX-Bericht zählt
@@ -7430,8 +7433,6 @@ Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
 Kurze Antwort: verdammt viel. Lange Antwort: 6 Kategorien, über 50 Endpunkte, Kosten zwischen 0 und 7.500 Credits pro Call. Ich sortiere das für dich: wie ein Kompass durch den API-Dschungel.
 
-![SE Ranking API Kompass: Die 6 Kategorien freundlich erklärt](https://teleschmie.de/assets/images/blog/seranking-api-kompass-friendly-hero.png)
-
 ## Die 6 Kategorien im Überblick
 
 | Kategorie | Zweck | Typische Kosten pro Call |
@@ -7793,6 +7794,219 @@ Im nächsten Teil der Serie sortiere ich, was die SE Ranking API eigentlich alle
 
 Spart euch den 10k-Schock. Baut das Limit jetzt. ALOHA! 🌻
 
+
+---
+
+### SE Ranking API - Der Praxis-Test
+
+
+Moin! 🌻
+
+Genug Theorie. Heute der Praxis-Test: Ich ziehe mit der SE Ranking API und Claude Code drei komplette Domain-Analysen durch - und zeige dir was am Ende wirklich rauskommt.
+
+Die drei Kandidaten: **teleschmie.de** (meine eigene Seite, maximale Ehrlichkeit), **[arztbesuche.de](https://arztbesuche.de)** (ein etabliertes medizinisches Verzeichnis aus unserem Netzwerk) und **[prinodi.de](https://prinodi.de)** (eine aufsteigende Domain die gerade Fahrt aufnimmt). Drei völlig unterschiedliche Ausgangssituationen - drei völlig unterschiedliche Erkenntnisse.
+
+Spoiler: **~3.721 Credits zusammen**, das sind etwa 0,59 Euro - Keyword-Analyse plus Backlinks für alle drei Domains. Für drei Reports, für die ich früher locker einen halben Tag gebraucht hätte.
+
+## Wie ich das Setup aufgebaut habe
+
+Falls du noch nicht weißt wie man die SE Ranking API mit Claude Code verbindet: Das hab ich [im ersten Teil dieser Serie](../se-ranking-api-claude-code-setup/) Schritt für Schritt erklärt. Die [sechs Endpunkt-Kategorien](../se-ranking-api-endpunkte-kompass/) kenne ich inzwischen auswendig - und ich weiß welche Credits kosten.
+
+Für diesen Test habe ich **Variante B** gefahren: overview + keywords + related + questions + longtail + competitors. Alle sechs Endpunkte in einem Durchlauf, Claude Code koordiniert die Calls, ein Python-Wrapper prüft vor und nach dem Run den Credit-Stand.
+
+---
+
+## Die drei Domains im Überblick
+
+| Domain | Typ | Rankende Keywords | Traffic-Wert/Monat |
+|--------|-----|--------------------|---------------------|
+| teleschmie.de | SEO-Freelancer-Blog | 23 | ~24 EUR |
+| arztbesuche.de | Medizinisches Verzeichnis | 5.892 | ~6.071 EUR |
+| prinodi.de | Aufsteiger (Arzt-Notdienst) | 92 | ~18 EUR |
+
+Der "Traffic-Wert" ist der Gegenwert, den du zahlen würdest wenn du diese Keywords als Google Ads buchst. Kein echter Umsatz - aber ein fairer Sichtbarkeits-Indikator.
+
+---
+
+## Pilot 1 - teleschmie.de: Ich audit mich selbst
+
+Das war die interessanteste Analyse. Weil man bei der eigenen Seite sofort spürt: stimmt das was die API sagt mit dem überein was man sich gedacht hat?
+
+**Was die API zeigt:**
+- 23 rankende Keywords
+- Traffic-Summe: 20 (geringe organische Klicks, aber das ist für ein Nischen-Blog normal)
+- Top-Keyword: **„se ranking preise"** - in Position 1–5
+
+Das letzte überraschte mich ehrlich. Ich hab einen Artikel über SE Ranking geschrieben und ranke jetzt für das Pricing-Keyword des Tools selbst. Das klingt zufällig, ist aber logisch: Wer über ein Tool schreibt, fängt oft genau die Keywords ab, die potenzielle Käufer googlen.
+
+**Content-Gaps die die API direkt ausspuckt:**
+- „web ranking seo"
+- „seo ranking software"
+
+Zwei Artikel-Ideen in weniger als zehn Sekunden. Früher hätte ich das in einer halben Stunde KeywordRecherche herausgefunden - wenn überhaupt.
+
+**Was fehlte:** Der Competitors-Endpunkt gab nichts zurück. Keine Wettbewerber. Das ist kein Bug - das ist ein Signal. Als SEO-Freelancer-Blog bin ich so spezialisiert, dass der Algorithmus keine direkte algorithmische Konkurrenz findet. Kann man als Stärke lesen. Kann man auch als Warnung lesen: Wer keine Konkurrenz hat, hat vielleicht auch kein Marktvolumen.
+
+
+  Jörgs SEO-Klartext
+  „Wenn deine eigene Seite dir zeigt, dass du für das Pricing-Keyword eines Tools rankst das du empfiehlst - dann funktioniert dein Content-Marketing. Nicht weil du es geplant hast, sondern weil du ehrlich geschrieben hast."
+
+
+**Credit-Verbrauch:** ~1.100 Credits = ~0,17 Euro.
+
+---
+
+## Pilot 2 - arztbesuche.de: Seriöse Konkurrenz im Blick
+
+Ganz anderes Bild. arztbesuche.de ist ein etabliertes medizinisches Notdienst-Verzeichnis mit echter Reichweite.
+
+**Was die API zeigt:**
+- 5.892 rankende Keywords
+- Traffic-Summe: 14.981
+- Top-Keywords: „ärztlicher bereitschaftsdienst", „notarzt", „arzt in meiner nähe"
+- **5 direkte Wettbewerber** mit vollständigen Traffic-Daten
+
+Der Competitors-Endpunkt war hier besonders aufschlussreich:
+
+| Wettbewerber | Gemeinsame Keywords | Traffic-Schätzwert |
+|--------------|---------------------|--------------------|
+| rab-arztbesuche.de | 3.161 | ~11.156 |
+| arztbesucheberlin.de | 1.296 | ~13.739 |
+| arztbesuche.berlin | 1.408 | ~4.074 |
+
+Das Interessante: arztbesucheberlin.de liegt beim Traffic fast auf Augenhöhe (13.739 vs. 14.981), aber mit nur 1.389 Keywords - einem viel schmaleren Profil. arztbesuche.de hat die Breite, der Berliner Mitbewerber hat Tiefe. Das sind zwei verschiedene SEO-Strategien, die man ohne diesen API-Call nie so klar nebeneinander sehen würde.
+
+Für Jörg als Freelancer heißt das: Bei einem Pitch für solche Projekte kann ich nach einem 15-Minuten-API-Lauf fundiert sagen wo die Wettbewerbssituation steht. Das ist kein Bauchgefühl mehr - das sind Zahlen.
+
+**Credit-Verbrauch:** ~1.100 Credits = ~0,17 Euro.
+
+---
+
+## Pilot 3 - prinodi.de: Der FAQ-Goldschatz
+
+prinodi.de ist die frischeste der drei Domains - eine aufstrebende Plattform rund um privatärztliche Notdienste. Hier hat die API etwas geliefert, das die anderen beiden nicht hatten.
+
+**Was die API zeigt:**
+- 92 rankende Keywords (davon 89 neu!)
+- Traffic-Summe: 45
+- Keine Top-1-5-Positionen - alles in den Positionen 11 bis 100
+
+Das klingt nach wenig. Aber dann kam das:
+
+**10 echte Nutzerfragen aus dem Questions-Endpunkt:**
+- „Welcher Arzt hat Notdienst in meiner Nähe?"
+- „Welcher Arzt hat Notdienst in Braunschweig?"
+- „Welcher Arzt hat heute in Gifhorn Notdienst?"
+
+Das sind keine keyword-genierten Phrasen. Das sind echte Suchanfragen, die Menschen tippen wenn sie abends um elf einen Arzt brauchen. Pro Frage: 1 Credit. Zehn Fragen: 10 Credits. Zehn fertige Artikel-Themen.
+
+
+  Warum der Questions-Endpunkt so unterschätzt ist
+  Der Questions-Endpunkt kostet 1 Credit pro Frage und liefert direkte FAQPage-Schema-Kandidaten. Für Seiten mit lokalem Intent (Arztpraxen, Handwerksbetriebe, Anwälte) ist das regelmäßig der wertvollste Call im ganzen Batch.
+
+
+Auch bei prinodi.de: keine Wettbewerber-Daten. Selbe Diagnose wie bei teleschmie.de - die Domain ist noch zu jung und zu nischig für algorithmische Konkurrenz-Erkennung. In sechs Monaten sieht das anders aus.
+
+**Credit-Verbrauch:** 1.400 Credits = ~0,22 Euro. Mehr als die anderen beiden, weil der Long-Tail-Endpunkt mit vielen lokalen Varianten zurückkam.
+
+---
+
+## Bonus: Backlinks - was die API noch draufgelegt hat
+
+Keyword-Daten waren der Hauptauftrag. Aber nachdem ich die SE Ranking API eh schon geöffnet hatte, wollte ich wissen: Was hat sie noch? Also hab ich für alle drei Domains noch die Backlinks-Endpunkte mitlaufen lassen - Summary, Refdomains, Anchors.
+
+Das Ergebnis war lehrreicher als erwartet.
+
+| Domain | DR | Backlinks | Dofollow | Nofollow |
+|--------|----|-----------|---------:|--------:|
+| teleschmie.de | 37 | 341 | 295 | 46 |
+| arztbesuche.de | 48 | 240 | 91 | 149 |
+| prinodi.de | 2 | 26 | 2 | 24 |
+
+**teleschmie.de:** DR 37 ist solide für eine persönliche Freelancer-Seite. Das Interessante: 115 der 341 Links haben den Anchor-Text „Impressum". Das ist das klassische Freelancer-Muster - Footer-Attribution-Links von Kundenprojekten, die Jörg gebaut hat. Legitimer, natürlicher Linkaufbau. Die 295 Dofollow-Links zeigen echtes SEO-Gewicht.
+
+**arztbesuche.de:** DR 48 - stärkste der drei Domains. Überraschend: mehr Nofollow (149) als Dofollow (91). Das deutet auf Business-Directory-Einträge die standardmäßig nofollow setzen. Schwesterprojekte aus dem Netzwerk ([hausarztsteffin.de](https://hausarztsteffin.de), [praxis-steffin.de](https://praxis-steffin.de)) verlinken - positives Netzwerk-Signal.
+
+**prinodi.de:** DR 2, 26 Backlinks, fast ausschließlich Nofollow. Typisches Bild einer jungen Domain. Kein Problem - es zeigt, dass die Seite noch am Anfang steht. Mindestens 5–10 Dofollow-Links würden den DR schon deutlich bewegen.
+
+
+  Warum Backlinks-Daten beim Pitch zählen
+  „Ich kann jetzt in ein Erstgespräch gehen und sagen: Deine Domain hat DR 2, 26 Backlinks, davon 2 Dofollow. Das ist keine Meinung - das sind Zahlen aus der API. Das Gespräch läuft dann ganz anders."
+
+
+**Credit-Verbrauch Backlinks:** ~121 Credits für alle drei Domains zusammen - also etwa 40 Credits pro Domain. So wenig, weil die Refdomains- und Anchor-Endpunkte jeweils 1 Credit pro Datensatz kosten, und die meisten Domains nicht tausende Records zurückgeben.
+
+---
+
+## Die Credit-Abrechnung - Endpunkt für Endpunkt
+
+Transparenz ist mir wichtig, also zeige ich hier was jeder einzelne Call kostet. So kannst du selbst einschätzen welche Endpunkte für dein Use-Case sinnvoll sind.
+
+**Keyword-Analyse (Variante B) - Kosten pro Endpunkt:**
+
+| Endpunkt | Modell | Kosten/Lauf |
+|----------|--------|-------------|
+| `domain/overview` | Flatrate | 100 Credits |
+| `domain/keywords` | Flatrate | 100 Credits |
+| `keywords/related` | 10 Credits/Record | ~100–300 Credits |
+| `keywords/questions` | 10 Credits/Record | ~50–200 Credits |
+| `keywords/longtail` | 1 Credit/Record | ~200–700 Credits |
+| `domain/competitors` | Flatrate | 100 Credits |
+
+**Backlinks - Kosten pro Endpunkt:**
+
+| Endpunkt | Modell | Kosten/Lauf |
+|----------|--------|-------------|
+| `backlinks/summary` | 100 Credits/Record | 100 Credits (limit=1) |
+| `backlinks/refdomains` | 1 Credit/Record | 1–50 Credits |
+| `backlinks/anchors` | 1 Credit/Record | 1–50 Credits |
+
+**Was das pro Domain bedeutet:**
+
+| Domain | Keyword-Analyse | Backlinks | Gesamt | Euro |
+|--------|----------------|-----------|--------|------|
+| teleschmie.de | ~1.100 | ~40 | ~1.140 | ~0,18 € |
+| arztbesuche.de | ~1.100 | ~40 | ~1.140 | ~0,18 € |
+| prinodi.de | ~1.400 | ~41 | ~1.441 | ~0,23 € |
+| **Gesamt** | **~3.600** | **~121** | **~3.721** | **~0,59 €** |
+
+Der longtail-Endpunkt macht den Unterschied bei prinodi.de: viele lokale Varianten (Braunschweig, Gifhorn, etc.) treiben die Record-Zahl hoch. Das ist kein Nachteil - das sind echte Content-Ideen.
+
+Zum Vergleich: Eine manuelle Keyword- und Backlink-Analyse für drei Domains würde bei einem SEO-Freelancer zwischen 4 und 8 Stunden dauern. Das kostet bei marktüblichen Tagessätzen zwischen 200 und 600 Euro.
+
+Ich sage nicht, dass die API-Ergebnisse dasselbe leisten wie eine ausführliche manuelle Analyse. Aber als Ersteinstieg - als Grundlage für ein Erstgespräch, als Pitch-Vorbereitung, als Content-Briefing - kommt kein anderes Werkzeug auch nur annähernd ran.
+
+---
+
+## Der Workflow mit Claude Code (kurz)
+
+Der Ablauf ist inzwischen zur Routine geworden: Claude Code koordiniert die sechs Endpunkt-Calls in der richtigen Reihenfolge, der Python-Wrapper prüft vor und nach dem Run den Credit-Stand, das Ergebnis landet als Markdown-Report im Projektordner.
+
+Was früher ein halbstündiges Dashboard-Klicken war, ist jetzt ein Befehl:
+
+```
+claude "Fahre Variante B für teleschmie.de und erstelle den Summary-Report"
+```
+
+Dreißig Sekunden später liegt eine strukturierte Analyse vor. [Wie du das selbst aufsetzt](../se-ranking-api-claude-code-setup/) hab ich in Teil 1 erklärt.
+
+---
+
+## Tacheles am Ende
+
+Drei Domains, drei komplett verschiedene Ausgangssituationen - und überall haben sich Erkenntnisse ergeben, die ich so nicht auf dem Schirm hatte.
+
+Bei meiner eigenen Seite: Ich ranke für Keywords die ich nie bewusst angesteuert habe. Bei arztbesuche.de: Die Konkurrenz ist näher als gedacht, aber das Profil ist breiter. Bei prinodi.de: Die Fragen-Daten sind ein direkter Content-Fahrplan für die nächsten Monate.
+
+Das ist der Mehrwert: nicht dass die API dir alles erklärt, sondern dass sie dir die richtigen Fragen zeigt.
+
+Mein Fazit nach diesem Test: Max hatte recht. Mit dem richtigen Wrapper ist das ein **Workflow-Beschleuniger** - wobei „Beschleuniger" genau das nüchterne Wort ist, das ich bevorzuge. Kein Hype, keine Revolution. Einfach: schneller bessere Ausgangsdaten. 🌻
+
+Die [SE Ranking API](https://seranking.com/de/?ga=4169588&source=link) in Kombination mit Claude Code liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
+
+Danke an Max und die Crew von poliSYS für den Stups — und an [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die API.
+
+Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.
 
 ---
 
@@ -9404,6 +9618,166 @@ Wenn du 2026 noch sichergehen willst, dass dein Unternehmen in den Köpfen (und 
 Vergiss nicht: KI-Sicherheit ist Chefsache. Wer seine Strategie dem Zufall überlässt, wird von Modellen "halluziniert", die keine Ahnung haben, wer er ist. Sei die Quelle, nicht die Fußnote.
 
 ALOHA! 🌻✌️
+
+---
+
+### Wir rocken die OMR: Das Freelancer Team mit 25 Leuten an einem Stand! 🚀
+
+
+# Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
+
+Moin! 🌻
+
+Wer hätte das gedacht? Wir sind mittlerweile ein Netzwerk von über 100 Expert*innen – und eine starke Delegation von stolzen **25 Leuten** geht dieses Jahr gemeinsam zur OMR (Online Marketing Rockstars) nach Hamburg. Das ist kein Scherz, sondern die volle Ladung Freelancer-Power! Triff unser Freelancer Team am **5. und 6. Mai in Hamburg**. 
+
+Wir haben uns einen richtig genialen Spot gesichert: **Halle B6, Stand K12**. Und das Beste daran? Wir sind direkt in der Nähe der Food Area. Du kannst also deinen Hunger stillen und danach direkt zu uns rüberkommen, um über digitales Wachstum, SEO, Paid Ads oder E-Commerce zu sprechen. Es wird voll, es wird laut, und es wird unglaublich produktiv.
+
+---
+
+## Die geballte Power an einem Stand: Warum wir das machen
+
+Stell dir vor, du hast ein komplexes Projekt und brauchst Experten für verschiedene Disziplinen. Normalerweise müsstest du dir mühsam einzelne Freelancer zusammensuchen, deren Verfügbarkeit checken, die Kommunikation koordinieren und hoffen, dass alle am Ende an einem Strang ziehen. Oder du bezahlst teures Geld für eine große Agentur, bei der am Ende ein Junior-Berater dein Projekt betreut, während die eigentliche Arbeit von Praktikanten erledigt wird. 
+
+Nicht mit uns! An unserem Stand auf der OMR triffst du Freelancer*innen aus allen relevanten Disziplinen des Online Marketings. Wir sind unabhängige Einzelkämpfer, die sich zu einer unschlagbaren Spezialeinheit zusammengeschlossen haben. 
+
+Wir decken alle Kanäle und Systeme ab. Alles aus Web, Organic, Paid und was eben noch so dazu gehört. Das Besondere: Wir haben einzelne Experten für jeden speziellen Bereich, sind aber organisiert wie ein echtes Team. Das bedeutet für dich: Du hast immer einen direkten Draht zum Experten, der die Arbeit auch wirklich ausführt. Tacheles, absolute Transparenz und echtes Hands-on-Wissen.
+
+### Paid und Performance Marketing: Die Traffic-Maschine
+
+Ohne Traffic geht nichts, und manchmal muss es eben schnell gehen. Unsere Experten für Paid und Performance wissen genau, wie man Budget effizient einsetzt. Egal ob Google Ads, Meta Ads oder andere Performance-Kanäle – hier wird kein Geld verbrannt, sondern investiert. Es geht nicht um sinnlose Klicks, sondern um Conversions und einen positiven ROAS.
+
+An unserem Stand triffst du unter anderem:
+- **Andreas Absmeier**
+- **Christoph Buder**
+- **Matthias Hentschel**
+- **Yahia Chahrour 🍉**
+- **Inan Nacar**
+- **Sebastian Fuhrmann**
+
+Jeder Einzelne von ihnen hat schon Millionen-Budgets verwaltet und kennt die Tricks der Plattformen aus dem Effeff.
+
+### SEO, GEO und Organic Growth: Sichtbarkeit, die bleibt
+
+Mein absolutes Steckenpferd! Wenn du nachhaltig wachsen willst, kommst du an solider Suchmaschinenoptimierung nicht vorbei. Keine Tricks, sondern ehrliches Handwerk. Wir sorgen dafür, dass du gefunden wirst, wenn deine Kunden nach dir suchen. Und mit dem Aufstieg von AI im Search-Bereich (Stichwort GEO) wird es noch spannender. Wir bereiten deine [Crawler](https://teleschmie.de/glossar/crawler/)-Infrastruktur so vor, dass du auch in Zukunft ganz oben stehst.
+
+Für den Bereich SEO und Organic Growth sind vor Ort:
+- **Uta Leyke-Hess**
+- **Kimberly Marrek**
+- **Jörg Zimmer 🌻** (Das bin ich! Komm vorbei und lass uns über echtes SEO schnacken.)
+- **Dirk Veit**
+- **Sebastian Wicke**
+- **Thomas Kuchling**
+
+### E-Commerce, Shops und Webdesign: Verkaufen leicht gemacht
+
+Ein Shop, der nicht verkauft, ist wie ein Auto ohne Motor. Unsere Experten für Shopify, Shopware und Conversion-optimiertes Webdesign sorgen dafür, dass aus Besuchern auch wirklich zahlende Kunden werden. Die [Usability](https://teleschmie.de/glossar/usability/) muss stimmen, der Checkout muss flutschen und die Customer Journey muss ein Erlebnis sein. 
+
+Lerne unsere E-Commerce Spezialisten kennen:
+- **Tobias Bungers**
+- **Tim Nagel**
+- **Kostas Strigkos 🦐**
+
+Diese Jungs bauen nicht nur schöne Seiten, sie bauen Verkaufsmaschinen.
+
+### Technik, WordPress, KI und Projektpraxis: Das Rückgrat
+
+Das Backend muss stabil sein. Wenn die Technik hakt, bringt dir das beste Marketing nichts. Wir haben Leute am Start, die sich tief in WordPress eingraben, moderne KI-Lösungen implementieren, API-Schnittstellen wie die SE Ranking API anbinden und dafür sorgen, dass Projekte nicht nur auf dem Papier existieren, sondern auch erfolgreich in der Praxis umgesetzt werden.
+
+Unsere Technik- und Projekt-Cracks:
+- **Silvio Endruhn**
+- **Markus Koelmann**
+- **Raimund Herms**
+
+### Design, Marke und Content: Kopf und Auge
+
+Das Auge isst mit, und der Kopf braucht gute Inhalte. Ohne starkes Design und eine klare Markenbotschaft verpufft jede noch so gute Kampagne. Wir haben kreative Köpfe, die Marken zum Leben erwecken und Content produzieren, der wirklich gelesen (und geklickt) wird. Brand Strategie, Videoproduktion, Grafikdesign – alles aus einer Hand.
+
+Für die optische und inhaltliche Exzellenz sorgen:
+- **Florian Hertwig**
+- **Rainer von Rottenburg**
+- **Jonathan Scheurich**
+
+---
+
+## Warum ein Freelancer Team die bessere Alternative ist
+
+Wir sind nicht einfach nur 25 Leute, die sich zufällig einen Stand teilen. Wir sind Teil eines starken Netzwerks von über 100 Freelancern, das extrem eng zusammenarbeitet. Wenn du ein umfassendes Setup brauchst – sagen wir einen neuen E-Commerce Shop inklusive SEO-Strategie, Google Ads Kampagne und Re-Branding – dann greifen wir auf diesen riesigen Expertenpool zu und du bekommst genau die richtigen Spezialisten für jeden Teilbereich.
+
+Wir haben Experten für:
+- Google Ads & Meta Ads
+- SEO & GEO (Generative Engine Optimization)
+- Content Kreation
+- E-Commerce (Shopify, Shopware)
+- WordPress & Webentwicklung
+- Email Marketing
+- Grafikdesign
+- CRO (Conversion Rate Optimization) & A/B Testing
+- Videoproduktion
+- Brand Strategie
+- Künstliche Intelligenz (KI) & Automatisierung
+- Interims Management
+
+Kein Wasserkopf, keine Junior-Berater, die an deinem Budget üben. Bei uns bekommst du Senior-Level Expertise direkt auf den Tisch. Das bedeutet auch: Schnelle Entscheidungen, direkte Kommunikation und absolute Transparenz. Und wenn du mal nur einen Spezialisten für einen Monat brauchst? Kein Problem. Wir sind flexibel.
+
+---
+
+## Was die Community dazu sagt (Tacheles von LinkedIn)
+
+Als ich die News auf LinkedIn gedroppt habe, war die Resonanz überwältigend. Hier ein paar Auszüge aus den Kommentaren – so sieht echte Vorfreude aus!
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Hier der Jörg nochmal. Falls du mich nur aus LinkedIn kennst und auf der OMR unterwegs bist. Komm zu unserem Stand und schreibe mir eine PM. Freue mich dich persönlich kennenzulernen." – Jörg Zimmer 🌻
+
+
+
+  💬 LinkedIn Insights
+  "Haben wir eigentlich Becks oder Astra als Sponsor?" – Dirk Veit
+
+
+
+  💬 LinkedIn Insights
+  "Vorfreude steigt! Eigentlich unmöglich. Wir werden sehr viel Spaß haben!" – Andreas Absmeier
+
+
+
+  💬 LinkedIn Insights
+  "Jörg Zimmer bringt viele neue Deals und Kontakte nach Hause 💪🏻" – Patrycja Absmeier
+
+
+
+  💬 LinkedIn Insights
+  "Yeah 😁 Jörg Zimmer live und in Farbe sehen 🚀" – Silvio Endruhn
+
+
+
+  💬 Ein kleiner Reminder der Kollegen
+  "Du hättest wenigstens unsere LinkedIn Page erwähnen können, damit wir die 1.000 Follower bald knacken. Alles muss man selbst machen. 🙃" – Freelancer Team
+
+
+Okay, okay, Schande über mein Haupt. An dieser Stelle: Folgt unbedingt unserer Freelancer Team LinkedIn Seite!
+
+---
+
+## Komm vorbei und lern uns kennen!
+
+Die OMR in Hamburg ist immer ein massives Event. Gefühlt die halbe Branche trifft sich dort, um zu netzwerken, Vorträge zu hören und natürlich, um die ein oder andere Party mitzunehmen. Aber das Wichtigste sind die persönlichen Begegnungen. 
+
+Vergiss für einen Moment die Zoom-Calls und Google Meets. Lass uns persönlich quatschen. Über deine Herausforderungen, über neue Trends im SEO, über die Tücken der Usability in Online-Shops oder einfach nur bei einem Kaffee (oder Astra, wie Dirk so schön anmerkte) über das Leben als Freelancer.
+
+**Hier nochmal die Hard Facts:**
+- **Event:** OMR (Online Marketing Rockstars) Festival
+- **Datum:** 5. & 6. Mai
+- **Ort:** Hamburg Messe
+- **Stand:** Halle B6, Stand K12 (Nähe Food Area!)
+
+Bist du vor Ort? Dann komm rum. Schreib mir gerne vorher auf LinkedIn, dann machen wir einen festen Slot aus, damit wir auch wirklich Zeit füreinander haben. 
+
+Wir freuen uns extrem auf Hamburg, auf die OMR und vor allem: auf DICH!
+
+Hau rein und bis Mai,
+
+**Dein Jörg 🌻**
 
 ---
 

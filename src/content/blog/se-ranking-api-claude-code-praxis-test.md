@@ -120,7 +120,7 @@ Das klingt nach wenig. Aber dann kam das:
 Das sind keine keyword-genierten Phrasen. Das sind echte Suchanfragen, die Menschen tippen wenn sie abends um elf einen Arzt brauchen. Pro Frage: 1 Credit. Zehn Fragen: 10 Credits. Zehn fertige Artikel-Themen.
 
 <div class="my-8 bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-lg">
-  <p class="font-bold text-amber-700 mb-2">⚠️ Warum der Questions-Endpunkt so unterschätzt ist</p>
+  <p class="font-bold text-amber-700 mb-2">Warum der Questions-Endpunkt so unterschätzt ist</p>
   <p class="text-dark mb-0">Der Questions-Endpunkt kostet 1 Credit pro Frage und liefert direkte FAQPage-Schema-Kandidaten. Für Seiten mit lokalem Intent (Arztpraxen, Handwerksbetriebe, Anwälte) ist das regelmäßig der wertvollste Call im ganzen Batch.</p>
 </div>
 
@@ -225,4 +225,4 @@ Die [SE Ranking API](https://seranking.com/de/?ga=4169588&source=link) in Kombin
 
 Danke an Max und die Crew von <a href="https://polisys.de" target="_blank" rel="noopener noreferrer">poliSYS</a> für den Stups — und an [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die API.
 
-Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan. 😉
+Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.

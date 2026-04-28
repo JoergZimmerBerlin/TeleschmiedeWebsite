@@ -6,6 +6,7 @@ image: "../../assets/images/blog/seranking-praxistest-hero.webp"
 image_alt: "SE Ranking API Praxis-Test - drei Domains im Vergleich mit Claude Code"
 category: "SEO Praxis"
 tags: ["Case Study", "API", "Keyword-Analyse", "Praxis"]
+related_posts: ["se-ranking-api-claude-code-setup", "se-ranking-api-endpunkte-kompass", "se-ranking-preise"]
 key_takeaways:
   - "~3.721 Credits, ~0,59 Euro für drei komplette Keyword- und Backlinks-Analysen - Endpunkt für Endpunkt nachvollziehbar, kein Credit verschwendet."
   - "prinodi.de lieferte als einzige Domain echte Nutzerfragen zurück - 10 FAQ-Themen die direkt in Artikel fließen können. Der unterschätzteste Endpunkt der SE Ranking API."

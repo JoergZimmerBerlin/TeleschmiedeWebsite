@@ -34,10 +34,13 @@ if (post.data.image) {
 const wordCount = (post.body || '').split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
-// Get related posts with scoring
-const allPosts = await getCollection('blog');
-const relatedPosts = allPosts
-  .filter(p => p.id !== post.id) // Exclude current
+// Fetch explicitly defined related posts from frontmatter
+const explicitRelatedPosts = post.data.related_posts 
+  ? allPosts.filter(p => post.data.related_posts.includes(p.id)) 
+  : [];
+
+const dynamicRelatedPosts = allPosts
+  .filter(p => p.id !== post.id && !explicitRelatedPosts.some(e => e.id === p.id)) // Exclude current and already explicitly selected
   .map(p => {
     let score = 0;
     
@@ -63,15 +66,17 @@ const relatedPosts = allPosts
     if (b.score !== a.score) return b.score - a.score;
     return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
   })
-  .slice(0, 4); // Top 4
+  .slice(0, Math.max(0, 3 - explicitRelatedPosts.length)); // Top 3 combined
 
-// Fallback logic to ensure 4 links (mix of same category and latest)
-const finalRelatedPosts = relatedPosts.length >= 4 
-  ? relatedPosts 
+const combinedRelatedPosts = [...explicitRelatedPosts, ...dynamicRelatedPosts];
+
+// Fallback logic to ensure 3 links (mix of same category and latest)
+const finalRelatedPosts = combinedRelatedPosts.length >= 3 
+  ? combinedRelatedPosts 
   : [
-      ...relatedPosts,
+      ...combinedRelatedPosts,
       ...allPosts
-        .filter(p => p.id !== post.id && !relatedPosts.find(r => r.id === p.id))
+        .filter(p => p.id !== post.id && !combinedRelatedPosts.find(r => r.id === p.id))
         .map(p => {
           let fallbackScore = 0;
           if (p.data.category === post.data.category) fallbackScore += 10;
@@ -81,7 +86,7 @@ const finalRelatedPosts = relatedPosts.length >= 4
           if (b.fallbackScore !== a.fallbackScore) return b.fallbackScore - a.fallbackScore;
           return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
         })
-        .slice(0, 4 - relatedPosts.length)
+        .slice(0, 3 - combinedRelatedPosts.length)
     ];
 
 // Fetch related glossary terms for cross-linking

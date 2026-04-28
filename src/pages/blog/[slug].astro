@@ -35,6 +35,7 @@ const wordCount = (post.body || '').split(/\s+/).length;
 const readingTime = Math.ceil(wordCount / 180); // Avg 180 wpm (German Standard)
 
 // Fetch explicitly defined related posts from frontmatter
+const allPosts = await getCollection('blog');
 const explicitRelatedPosts = post.data.related_posts 
   ? allPosts.filter(p => post.data.related_posts.includes(p.id)) 
   : [];

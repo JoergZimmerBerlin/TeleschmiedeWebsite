@@ -23,7 +23,7 @@ Moin! 🌻
 
 Genug Theorie. Heute der Praxis-Test: Ich ziehe mit der SE Ranking API und Claude Code drei komplette Domain-Analysen durch — und zeige dir was am Ende wirklich rauskommt.
 
-Die drei Kandidaten: **teleschmie.de** (meine eigene Seite, maximale Ehrlichkeit), **arztbesuche.de** (ein etabliertes medizinisches Verzeichnis aus unserem Netzwerk) und **prinodi.de** (eine aufsteigende Domain die gerade Fahrt aufnimmt). Drei völlig unterschiedliche Ausgangssituationen — drei völlig unterschiedliche Erkenntnisse.
+Die drei Kandidaten: **teleschmie.de** (meine eigene Seite, maximale Ehrlichkeit), **[arztbesuche.de](https://arztbesuche.de)** (ein etabliertes medizinisches Verzeichnis aus unserem Netzwerk) und **[prinodi.de](https://prinodi.de)** (eine aufsteigende Domain die gerade Fahrt aufnimmt). Drei völlig unterschiedliche Ausgangssituationen — drei völlig unterschiedliche Erkenntnisse.
 
 Spoiler: **~3.721 Credits zusammen**, das sind etwa 0,59 Euro — Keyword-Analyse plus Backlinks für alle drei Domains. Für drei Reports, für die ich früher locker einen halben Tag gebraucht hätte.
 
@@ -144,7 +144,7 @@ Das Ergebnis war lehrreicher als erwartet.
 
 **teleschmie.de:** DR 37 ist solide für eine persönliche Freelancer-Seite. Das Interessante: 115 der 341 Links haben den Anchor-Text „Impressum". Das ist das klassische Freelancer-Muster — Footer-Attribution-Links von Kundenprojekten, die Jörg gebaut hat. Legitimer, natürlicher Linkaufbau. Die 295 Dofollow-Links zeigen echtes SEO-Gewicht.
 
-**arztbesuche.de:** DR 48 — stärkste der drei Domains. Überraschend: mehr Nofollow (149) als Dofollow (91). Das deutet auf Business-Directory-Einträge die standardmäßig nofollow setzen. Schwesterprojekte aus dem Netzwerk (hausarztsteffin.de, praxis-steffin.de) verlinken — positives Netzwerk-Signal.
+**arztbesuche.de:** DR 48 — stärkste der drei Domains. Überraschend: mehr Nofollow (149) als Dofollow (91). Das deutet auf Business-Directory-Einträge die standardmäßig nofollow setzen. Schwesterprojekte aus dem Netzwerk ([hausarztsteffin.de](https://hausarztsteffin.de), [praxis-steffin.de](https://praxis-steffin.de)) verlinken — positives Netzwerk-Signal.
 
 **prinodi.de:** DR 2, 26 Backlinks, fast ausschließlich Nofollow. Typisches Bild einer jungen Domain. Kein Problem — es zeigt, dass die Seite noch am Anfang steht. Mindestens 5–10 Dofollow-Links würden den DR schon deutlich bewegen.
 

@@ -32,6 +32,9 @@ Das Freelancer Team ist die Antwort darauf. Wir sind keine Einzelkämpfer, die i
 
 ![Mission OMR 2026](../../assets/images/blog/omr-2026-freelancer-team-mission.png)
 
+![Das Freelancer Team live an Stand B6 K12](../../assets/images/blog/omr-2026-freelancer-team-live.jpg)
+
+
 ---
 
 ## Warum wir das "Bauchladen-Modell" hassen

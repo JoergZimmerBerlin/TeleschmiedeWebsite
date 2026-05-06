@@ -75,10 +75,6 @@ Das Auge isst mit, aber die Strategie entscheidet. Brand Design, das wirkt und k
 
 Ich habe auf LinkedIn nachgefragt, was die Leute eigentlich von dieser "Freelancer-Invasion" halten. Die Resonanz war – gelinde gesagt – überwältigend. Hier ein kleiner Deep-Dive in die Köpfe meiner Mitstreiter:
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Ich bin ein SEO Dinosaurier, der mit Google zusammen aufgewachsen ist. Wer keine Lust auf Standard-Blabla hat, kommt zur <strong>SEO Sprechstunde</strong>. Zwei Stunden Roast, volle Ehrlichkeit. Wer das nicht aushält, sollte lieber zur klassischen Agentur gehen." – <strong>Jörg Zimmer 🌻</strong></p>
-</div>
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Paid Social Insights</p>

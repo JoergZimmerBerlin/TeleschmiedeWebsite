@@ -3,8 +3,8 @@ title: "Mission OMR 2026: Warum 25 Freelancer besser sind als eine Großagentur 
 description: "25 Experten, ein Stand, eine Mission. Warum das Freelancer Team auf der OMR 2026 das alte Agentur-Modell alt aussehen lässt. Tacheles aus Halle B6!"
 date: "2026-05-06"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K"
-image: "../../assets/images/blog/omr-2026-freelancer-team-mission.png"
-image_alt: "3D Infografik Mission OMR 2026 Freelancer Team Stand Halle B6 K12"
+image: "../../assets/images/blog/omr-2026-freelancer-team-live.jpg"
+image_alt: "Das Freelancer Team live auf der OMR 2026 an Stand B6 K12"
 category: "SEO Praxis"
 tags: ["OMR 2026", "Freelancer Team", "Online Marketing", "Networking", "Tacheles"]
 key_takeaways:
@@ -30,9 +30,7 @@ Ja, es ist genauso wild, wie es klingt. Wir sind mit **25 Expert*innen** auf der
 
 Das Freelancer Team ist die Antwort darauf. Wir sind keine Einzelkämpfer, die im stillen Kämmerlein vor sich hin wurschteln. Wir sind Spezialisten, die zusammen liefern. Ohne den Wasserkopf einer Großagentur, aber mit der geballten Power von über 100 Jahren Marketing-Erfahrung am Stand.
 
-![Mission OMR 2026](../../assets/images/blog/omr-2026-freelancer-team-mission.png)
-
-![Das Freelancer Team live an Stand B6 K12](../../assets/images/blog/omr-2026-freelancer-team-live.jpg)
+![Mission OMR 2026: 25 Experten, ein Stand](../../assets/images/blog/omr-2026-freelancer-team-mission.png)
 
 
 ---

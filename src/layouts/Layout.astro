@@ -12,9 +12,10 @@ interface Props {
   lcpImage?: string;
   lang?: string;
   maxTitleLength?: number;
+  robots?: string;
 }
 
-const { title, description = 'Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer der individuelle Strategien und persönliche Beratung anbietet.', ogImage, lcpImage, lang = 'de', maxTitleLength = 50 } = Astro.props;
+const { title, description = 'Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer der individuelle Strategien und persönliche Beratung anbietet.', ogImage, lcpImage, lang = 'de', maxTitleLength = 50, robots = 'index, follow' } = Astro.props;
 const currentPath = Astro.url.pathname;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const siteUrl = import.meta.env.SITE || 'https://teleschmie.de';
@@ -71,7 +72,7 @@ const displayDescription = truncate(description, 150);
 
     <!-- SEO -->
     <meta name="author" content="Jörg Zimmer" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={robots} />
 
     <!-- Open Graph -->
     <meta property="og:title" content={displayTitle} />

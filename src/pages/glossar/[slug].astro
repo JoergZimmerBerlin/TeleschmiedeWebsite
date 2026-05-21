@@ -84,6 +84,7 @@ const relatedBlogPosts = allBlogPosts
   title={entry.data.title}
   description={entry.data.description}
   ogImage={entryImageWebp?.src || (entry.data.image as any)?.src}
+  robots={entry.data.robots}
 >
   <article class="section pt-2">
     <div class="container-narrow">

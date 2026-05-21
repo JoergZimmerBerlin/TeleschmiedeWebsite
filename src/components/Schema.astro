@@ -260,13 +260,7 @@ const graph: any[] = [
     "lastReviewed": lastReviewedISO,
     "isPartOf": { "@id": websiteId },
     "primaryImageOfPage": imageId ? { "@id": imageId } : undefined,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "24",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    "about": type === 'default' ? { "@id": businessId } : undefined
   },
   {
     "@type": "BreadcrumbList",
@@ -296,14 +290,7 @@ if (type === 'article') {
     "dateModified": dateModifiedISO,
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
-    "mainEntityOfPage": { "@id": url },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "24",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    "mainEntityOfPage": { "@id": url }
   } as any);
 } else if (type === 'glossary') {
   const termId = `${url}#term`;
@@ -320,14 +307,7 @@ if (type === 'article') {
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
-    "image": imageId ? { "@id": imageId } : undefined,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "24",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
+    "image": imageId ? { "@id": imageId } : undefined
   });
 
   // The DefinedTerm is the core knowledge piece

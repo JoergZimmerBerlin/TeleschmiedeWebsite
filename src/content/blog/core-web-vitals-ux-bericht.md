@@ -29,7 +29,7 @@ Ich liebe Zahlen. Besonders wenn sie so aussehen, dass man sie sich einrahmen m�
 - **Optimierung erforderlich:** 10 URLs
 - **Gut:** **216 URLs** 
 
-Das ist kein Best-Case-Szenario aus einem Marketing-Folder. Das ist ein echter **UX-Bericht für Chrome (CrUX)** eines meiner Kunden. Von Oktober 2025 bis Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts komplett umgekrempelt. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> behalten wir die Trends im Blick, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> uns zeigt, wie diese Verbesserungen auf unsere KI-Sichtbarkeit einzahlen.
+Das ist kein Best-Case-Szenario aus einem Marketing-Folder. Das ist ein echter **UX-Bericht für Chrome (CrUX)** eines meiner Kunden. Von Oktober 2025 bis Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts komplett umgekrempelt. Mit Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> behalten wir die Trends im Blick, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> uns zeigt, wie diese Verbesserungen auf unsere KI-Sichtbarkeit einzahlen.
 
 ## Warum Core Web Vitals mehr sind als Google-Schikane
 
@@ -104,6 +104,6 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du bereit für den User-Check?</h3>
-  <p class="mb-6">Ich analysiere deine Core Web Vitals und entwickle eine Strategie, die Nutzer UND Google glücklich macht. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das kontinuierliche Monitoring und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Visibility.</p>
+  <p class="mb-6">Ich analysiere deine Core Web Vitals und entwickle eine Strategie, die Nutzer UND Google glücklich macht. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das kontinuierliche Monitoring und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Visibility.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Performance-Audit buchen </a>
 </div>

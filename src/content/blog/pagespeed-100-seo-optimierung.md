@@ -115,7 +115,7 @@ Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment
 
 ## Das Ergebnis: Ein digitales Rennauto
 
-Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und prüfen mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
+Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und prüfen mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
 
 ## Was kostet so eine High-Performance-Website?
 
@@ -125,7 +125,7 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du auch ein digitales Rennauto?</h3>
-  <p class="mb-6">Ich helfe dir, deine Website technisch auf Weltklasse-Niveau zu heben. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> decken wir Performance-Fresser auf und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Zukunft in der Google-Suche.</p>
+  <p class="mb-6">Ich helfe dir, deine Website technisch auf Weltklasse-Niveau zu heben. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> decken wir Performance-Fresser auf und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Zukunft in der Google-Suche.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Performance-Check anfragen </a>
 </div>
 

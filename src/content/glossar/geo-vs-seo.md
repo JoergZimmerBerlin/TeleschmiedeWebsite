@@ -30,7 +30,7 @@ Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Go
   <p class="italic text-dark mb-0">"Guck dir mal deinen PageSpeed auf dem Handy an. Wenn der Nutzer dreimal Kaffee kochen kann, bis deine Seite lädt, ist er längst bei der Konkurrenz."</p>
 </div>
 
-Als [GEO Strategist](/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Um dein klassisches SEO-Fundament zu sichern, greife ich auf die [tiefgehenden Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) zurück, während wir parallel die GEO-Säulen aufbauen.
+Als [GEO Strategist](/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Um dein klassisches SEO-Fundament zu sichern, greife ich auf die [tiefgehenden Audits von SE Ranking](https://seranking.com/?ga=4169588&source=link) zurück, während wir parallel die GEO-Säulen aufbauen.
 
 ---
 
@@ -79,7 +79,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">SEO oder GEO? Beides!</h3>
-  <p class="mb-6">Wer nur für Google optimiert, verpasst die KI-Revolution. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sichern wir deine Google-Rankings, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine Sichtbarkeit in ChatGPT & Co.</p>
+  <p class="mb-6">Wer nur für Google optimiert, verpasst die KI-Revolution. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sichern wir deine Google-Rankings, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine Sichtbarkeit in ChatGPT & Co.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt hybride Strategie anfragen </a>
 </div>
 

@@ -79,7 +79,7 @@ ALOHA! Jörg
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Angst vor dem Ranking-Absturz?</h3>
-  <p class="mb-6 text-gray-muted">Hast du Müll im Index? Wir checken dein Setup mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und räumen rigoros auf, damit Google nur deine starken Seiten bewertet.</p>
+  <p class="mb-6 text-gray-muted">Hast du Müll im Index? Wir checken dein Setup mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und räumen rigoros auf, damit Google nur deine starken Seiten bewertet.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Index-Audit anfragen</a>
 </div>
 

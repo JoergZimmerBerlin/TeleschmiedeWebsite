@@ -59,7 +59,7 @@ Es gibt viele "Jörg Zimmers" auf der Welt. Mit der `sameAs`-Property verknüpfs
 Hör auf, Schema-Markup als "Add-on" zu sehen. Es ist das **Fundament deiner technischen Sichtbarkeit**. 
 1.  **Validieren:** Nutze den Google Rich Results Test UND den [Schema Markup Validator](https://validator.schema.org).
 2.  **Parity:** Prüfe, ob alle Daten in deinem Schema auch für Menschen lesbar auf der Seite stehen.
-3.  **Audits:** Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> findest du fehlerhaftes Markup in Sekunden.
+3.  **Audits:** Mit Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> findest du fehlerhaftes Markup in Sekunden.
 4.  **KI-Check:** Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir, ob deine Daten von den LLMs korrekt extrahiert werden.
 
 ALOHA 🌻 

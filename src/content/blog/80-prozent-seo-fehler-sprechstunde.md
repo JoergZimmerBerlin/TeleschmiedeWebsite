@@ -34,7 +34,7 @@ Die Liste der Fehler ist lang, schmerzhaft und vor allem: Sie kostet dich jeden 
 
 ## Der Tacheles-Check: Woran es wirklich hakt
 
-Wenn ich Websites "grille", nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die harten Fakten und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Sichtbarkeit. Was wir da finden, ist oft ein digitaler Friedhof der guten Absichten.
+Wenn ich Websites "grille", nutze ich [SE Ranking](https://seranking.com/?ga=4169588&source=link) für die harten Fakten und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Sichtbarkeit. Was wir da finden, ist oft ein digitaler Friedhof der guten Absichten.
 
 Hier ist die "Hall of Shame" der häufigsten Versäumnisse aus meiner täglichen Praxis:
 
@@ -79,7 +79,7 @@ Mein LinkedIn-Post zu diesem Thema hat gezeigt: Das Problem ist systemisch.
 
 Du willst wissen, ob du auch unbewusst in die 80%-Falle getappt bist? 
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit. Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit. Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
 
 **Bist du bereit für die Wahrheit?**
 

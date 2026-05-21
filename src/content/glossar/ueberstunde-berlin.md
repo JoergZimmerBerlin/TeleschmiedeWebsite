@@ -76,7 +76,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">SEO-Problem nach Feierabend?</h3>
-  <p class="mb-6">Keine Sorge, ich helfe dir auch dann, wenn andere schon schlafen. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
+  <p class="mb-6">Keine Sorge, ich helfe dir auch dann, wenn andere schon schlafen. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern </a>
 </div>
 

@@ -19,7 +19,7 @@ faqs:
 
 Moin!
 
-In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, **SEO Consulting**, **SEO Betreuung**, **SEO Analyse** oder der **SEO Check**. Am Ende des Tages geht es aber immer um eine einzige Sache: Wie bekommen wir mehr relevante Kunden über Google auf deine Website? Mit der richtigen [SEO Beratung](/glossar/seo-beratung/) und Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> legen wir den Grundstein für messbaren Erfolg.
+In der Welt des digitalen Marketings gibt es viele Begriffe: **SEO Beratung**, **SEO Consulting**, **SEO Betreuung**, **SEO Analyse** oder der **SEO Check**. Am Ende des Tages geht es aber immer um eine einzige Sache: Wie bekommen wir mehr relevante Kunden über Google auf deine Website? Mit der richtigen [SEO Beratung](/glossar/seo-beratung/) und Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> legen wir den Grundstein für messbaren Erfolg.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -73,7 +73,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du suchst eine echte SEO Strategie?</h3>
-  <p class="mb-6">Ich liefere dir Daten statt Vermutungen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Zukunft.</p>
+  <p class="mb-6">Ich liefere dir Daten statt Vermutungen. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt SEO Beratung anfragen </a>
 </div>
 

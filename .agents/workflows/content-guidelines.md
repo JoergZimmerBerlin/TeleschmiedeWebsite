@@ -61,7 +61,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 - **Begrüßung & Abschied:** Immer mit "Moin! 🌻" beginnen und mit "ALOHA! 🌻✌️" enden.
 - **LinkedIn-Integration:** Echte Community-Kommentare einweben, um E-E-A-T zu maximieren.
 - **Trailing Slashes:** Interne Links müssen zwingend auf `/` enden (z.B. `[Link](/seite/)`).
-
+- **Affiliate-Links:** Jeder ausgehende Link zu SE Ranking MUSS zwingend exakt dieses Format aufweisen: `https://seranking.com/?ga=4169588&source=link`. Es dürfen keine Deep-Links oder andere Parameter verwendet werden. Der Linktext (Anchor Text) soll dabei kontextbezogen und natürlich bleiben.
 ### Metadaten & SEO
 - **Frontmatter:** Jeder Artikel benötigt `title`, `description`, `date` (als String in Anführungszeichen!), `image` (relativer Pfad zu assets), `image_alt`, `key_takeaways` (exakt 3) und `faqs` (3-4). 
   - **Wichtig:** Die Antworten (`answer`) in den FAQs müssen **zwingend ausführlich sein und immer aus mehreren zusammenhängenden Sätzen bestehen**, um Expertenwissen gut zu vermitteln.

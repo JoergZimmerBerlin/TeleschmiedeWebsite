@@ -69,7 +69,7 @@ Mit dem Aufstieg der [Generative Engine Optimization (GEO)](/glossar/geo/) versc
 
 Hör auf, nach "SEO Hacks" zu googeln. Es gibt keine Tricks mehr. Rankingfaktoren sind das Resultat aus hartem Handwerk, exzellentem Content und fehlerfreier Technik. 
 
-Ich nutze für meine täglichen Audits <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um alle technischen Faktoren lückenlos zu überwachen. Bau eine Marke auf, verdiene dir echte Backlinks und antworte auf die Probleme deiner Kunden. Wer das macht, muss keine Angst vor dem nächsten Google Update haben.
+Ich nutze für meine täglichen Audits <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um alle technischen Faktoren lückenlos zu überwachen. Bau eine Marke auf, verdiene dir echte Backlinks und antworte auf die Probleme deiner Kunden. Wer das macht, muss keine Angst vor dem nächsten Google Update haben.
 
 ALOHA! Jörg
 

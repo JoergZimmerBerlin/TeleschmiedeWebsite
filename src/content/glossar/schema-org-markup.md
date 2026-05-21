@@ -64,7 +64,7 @@ Wer kein sauberes Markup hat, läuft Gefahr, von KIs falsch interpretiert oder a
 
 Schema.org ist 2026 die wichtigste Brücke zwischen deiner Website und der Welt der KI-Agenten.
 Es ist die unsichtbare Architektur deines digitalen Erfolgs.
-Wer lernt, das Schema-Vokabular strategisch zur **Disambiguierung** einzusetzen, baut keine Website mehr, sondern eine unerschütterliche digitale Entität. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine technische Basis und stellen sicher, dass dein Markup nicht nur vorhanden, sondern auch effektiv ist.
+Wer lernt, das Schema-Vokabular strategisch zur **Disambiguierung** einzusetzen, baut keine Website mehr, sondern eine unerschütterliche digitale Entität. Mit Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine technische Basis und stellen sicher, dass dein Markup nicht nur vorhanden, sondern auch effektiv ist.
 
 ## Mein Tacheles-Rat für dich
 
@@ -75,7 +75,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für KIs noch 'stumm'?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir die Basis, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir die Basis, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Schema-Audit anfragen </a>
 </div>
 

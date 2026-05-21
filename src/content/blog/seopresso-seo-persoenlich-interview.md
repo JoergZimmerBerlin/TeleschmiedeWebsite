@@ -60,7 +60,7 @@ Hier ist der Überblick über meine "Epochen":
 
 Wir SEOs lieben unsere Tools. 
 
-Wir starren auf Graphen. SISTRIX. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. 
+Wir starren auf Graphen. SISTRIX. <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. 
 
 Aber im Gespräch mit Björn wurde eines klar: 
 
@@ -122,7 +122,7 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du den Menschen hinter den Daten?</h3>
-  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen </a>
 </div>
 

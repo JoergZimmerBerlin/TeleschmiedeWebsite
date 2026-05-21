@@ -62,7 +62,7 @@ Je mehr vertrauenswürdige Fach-Citations du hast, desto mehr Prominence pumpt i
 
 Hör auf, Local SEO als Stiefkind zu behandeln. Halte deine NAP-Daten penibel sauber. Zwinge deine glücklichen Kunden, dir fette, textreiche Reviews zu schreiben und antworte professionell darauf.
 
-Mit Tools wie dem <a href="https://seranking.com/de/?ga=4169588&source=link">Local Marketing Tool von SE Ranking</a> überwache ich für meine Kunden die komplette lokale Marktmacht. Und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir gnadenlos, ob die KIs dich auch auf dem Zettel haben. Sei lokal nicht nur gut, sei für die Maschinen unvermeidbar.
+Mit Tools wie dem <a href="https://seranking.com/?ga=4169588&source=link">Local Marketing Tool von SE Ranking</a> überwache ich für meine Kunden die komplette lokale Marktmacht. Und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir gnadenlos, ob die KIs dich auch auf dem Zettel haben. Sei lokal nicht nur gut, sei für die Maschinen unvermeidbar.
 
 ALOHA! 🌻✌️
 

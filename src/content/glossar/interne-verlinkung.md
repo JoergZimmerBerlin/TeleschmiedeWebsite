@@ -45,7 +45,7 @@ Ein strategisch klug gesetzter interner Link erfüllt drei Aufgaben gleichzeitig
 In meinen [SEO-Beratungen in Berlin](/seo-freelancer-berlin/) ist die Reparatur der internen Verlinkung oft der erste Schritt. Hier sind die wichtigsten Regeln:
 
 ### 1. Aussagekräftige Ankertexte (Anchor Texts)
-Verzichte auf Links wie "hier klicken" oder "mehr lesen". Das ist für Suchmaschinen völlig wertlos. Nutze stattdessen das Ziel-Keyword als Linktext. Wenn du auf eine Seite über SEO-Preise verlinkst, nenne den Link auch "[SEO-Freelancer Preise](/blog/se-ranking-preise/)". Professionelle SEO-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> helfen dir dabei, die Relevanz deiner Ankertexte zu optimieren.
+Verzichte auf Links wie "hier klicken" oder "mehr lesen". Das ist für Suchmaschinen völlig wertlos. Nutze stattdessen das Ziel-Keyword als Linktext. Wenn du auf eine Seite über SEO-Preise verlinkst, nenne den Link auch "[SEO-Freelancer Preise](/blog/se-ranking-preise/)". Professionelle SEO-Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> helfen dir dabei, die Relevanz deiner Ankertexte zu optimieren.
 
 ### 2. Die Link-Tiefe minimieren
 Jede wichtige Seite deiner Website sollte mit maximal drei Klicks von der Startseite aus erreichbar sein. Je tiefer eine URL in der Hierarchie vergraben ist, desto weniger Linkjuice kommt dort an und desto seltener wird sie gecrawlt.

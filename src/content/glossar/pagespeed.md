@@ -67,7 +67,7 @@ In der generativen KI-Suche ([GEO](/glossar/geo/)) spielt die Geschwindigkeit be
 
 ## Mein Tacheles-Rat für dich
 
-PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Wenn deine Ladezeit zu langsam ist, verlierst du nicht nur Rankings bei Google, sondern auch das Vertrauen deiner Nutzer. Ich nutze den [Performance-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deinen PageSpeed im Vergleich zum Wettbewerb zu benchmarken. Und denk dran: Mobile First ist kein Trend, sondern Gesetz.
+PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Wenn deine Ladezeit zu langsam ist, verlierst du nicht nur Rankings bei Google, sondern auch das Vertrauen deiner Nutzer. Ich nutze den [Performance-Audit von SE Ranking](https://seranking.com/?ga=4169588&source=link), um deinen PageSpeed im Vergleich zum Wettbewerb zu benchmarken. Und denk dran: Mobile First ist kein Trend, sondern Gesetz.
 
 Denk immer daran: Eine Sekunde Verzögerung kann bis zu 7% Conversion-Rate kosten. Bleib schnell, bleib sichtbar!
 
@@ -77,7 +77,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Seite ist eine lahme Ente?</h3>
-  <p class="mb-6">Jede Sekunde Ladezeit kostet Conversions. Ich sorge für Speed, der wirklich verkauft. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die echten Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
+  <p class="mb-6">Jede Sekunde Ladezeit kostet Conversions. Ich sorge für Speed, der wirklich verkauft. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die echten Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Speed-Audit anfragen </a>
 </div>
 

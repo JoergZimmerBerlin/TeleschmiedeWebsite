@@ -37,7 +37,7 @@ Der heilige Gral hierbei sind die **NAP-Daten** (Name, Address, Phone). In meine
 *   **Adresse:** Berlin-Spandau
 *   **Web:** [Jörg Zimmer](https://teleschmie.de)
 
-Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst. Mit dem [Backlink-Checker von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir gezielt die Erwähnungen deiner Wettbewerber, um deine eigenen Hebel zu finden.
+Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst. Mit dem [Backlink-Checker von SE Ranking](https://seranking.com/?ga=4169588&source=link) analysieren wir gezielt die Erwähnungen deiner Wettbewerber, um deine eigenen Hebel zu finden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxisbeispiel: Meine eigene Citation-Strategie</h4>
@@ -80,7 +80,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Wirst du von KI-Systemen zitiert?</h3>
-  <p class="mb-6">Citations sind das Fundament für lokale Rankings und KI-Vertrauen. Durch einen gezielten Mix aus technischem, inhaltlichem und strategischem SEO als Beratung optimieren wir dein Profil für Google Maps und ChatGPT. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Citability.</p>
+  <p class="mb-6">Citations sind das Fundament für lokale Rankings und KI-Vertrauen. Durch einen gezielten Mix aus technischem, inhaltlichem und strategischem SEO als Beratung optimieren wir dein Profil für Google Maps und ChatGPT. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Citability.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Citation-Analyse anfragen </a>
 </div>
 

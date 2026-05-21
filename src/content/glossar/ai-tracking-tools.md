@@ -26,7 +26,7 @@ Moin!
   <p class="italic text-dark mb-0">"24 Jahre SEO - und wir machen immer noch die gleichen Fehler? "</p>
 </div>
 
-In der klassischen SEO-Welt misst du Rankings mit Sistrix oder <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
+In der klassischen SEO-Welt misst du Rankings mit Sistrix oder <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. In der KI-Welt brauchst du neue Tools, die eine völlig neue Metrik tracken: die **AI Visibility**.
 
 ## Warum du AI Tracking brauchst
 

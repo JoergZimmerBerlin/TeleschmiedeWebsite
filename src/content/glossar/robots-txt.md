@@ -65,7 +65,7 @@ Aber Vorsicht: Das ist das "AI-Agency Paradoxon". Wenn du alle KI-Modelle ausspe
 
 Fass die `robots.txt` nur an, wenn du exakt weißt, was du tust. Sperre sinnlose Backend-URLs, interne Such-Parameter und Admin-Bereiche. Lass den Content in Ruhe.
 
-Ich prüfe diese sensiblen Setups täglich mit professionellen Werkzeugen wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> stellen wir sicher, dass du die richtigen KI-Crawler nicht versehentlich aussperrst. Halte die Datei sauber, kurz und fehlerfrei.
+Ich prüfe diese sensiblen Setups täglich mit professionellen Werkzeugen wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> stellen wir sicher, dass du die richtigen KI-Crawler nicht versehentlich aussperrst. Halte die Datei sauber, kurz und fehlerfrei.
 
 ALOHA! Jörg
 

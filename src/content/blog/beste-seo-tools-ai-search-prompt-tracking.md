@@ -69,7 +69,7 @@ Zusätzlich bietet SE Ranking mittlerweile erste KI-Funktionen im Content Editor
 - **Nachteil:** Fokus liegt noch stärker auf klassischen Suchmaschinen (Google).
 - **Kosten:** Sehr fair, ideal für Freelancer und KMUs.
 
-👉 **Hier findest du die aktuellen Preise:** <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking kostenlos testen</a>
+👉 **Hier findest du die aktuellen Preise:** <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking kostenlos testen</a>
 
 ---
 

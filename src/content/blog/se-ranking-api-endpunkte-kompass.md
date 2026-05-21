@@ -25,7 +25,7 @@ faqs:
 
 ALOHA 🌻!
 
-Im [ersten Teil](../se-ranking-api-claude-code-setup/) habe ich dir gezeigt, wie du die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> mit Claude Code verbindest - inklusive dem Daily-Limit, das dir den 10k-Credit-Schock erspart.
+Im [ersten Teil](../se-ranking-api-claude-code-setup/) habe ich dir gezeigt, wie du die <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> mit Claude Code verbindest - inklusive dem Daily-Limit, das dir den 10k-Credit-Schock erspart.
 
 Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
@@ -195,7 +195,7 @@ Für die Bookmark-Fraktion: alle wichtigen Endpunkte in einer Übersicht:
 
 ## Tacheles am Ende
 
-Die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> ist kein Selbstbedienungsladen. Es gibt teure Endpunkte, und wenn du ohne Plan reinläufst, ist das Wochenbudget weg, bevor du etwas Sinnvolles rausbekommen hast. Mit Plan aber ist sie das ehrlichste API-Pricing, das ich kenne: transparent, dokumentiert, ohne versteckte „ab-hier-wird's-teuer"-Fallen.
+Die <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> ist kein Selbstbedienungsladen. Es gibt teure Endpunkte, und wenn du ohne Plan reinläufst, ist das Wochenbudget weg, bevor du etwas Sinnvolles rausbekommen hast. Mit Plan aber ist sie das ehrlichste API-Pricing, das ich kenne: transparent, dokumentiert, ohne versteckte „ab-hier-wird's-teuer"-Fallen.
 
 Meine Strategie für neue Kunden: **Immer in dieser Reihenfolge.**
 

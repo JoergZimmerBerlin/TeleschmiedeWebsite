@@ -14,7 +14,7 @@ faqs:
   - question: 'Mit welchen Kosten muss ich für eine umfassende SEO-Keywordrecherche rechnen?'
     answer: 'Da die tiefgehende Keyword- und Themen-Analyse das absolute strategische Fundament für jede Content-Kreation darstellt, ist sie ein fester Bestandteil meiner SEO-Beratung. Eine isolierte Keyword-Recherche ohne die Ausarbeitung einer begleitenden Strategie (''Was machen wir nun mit diesen Daten?'') halte ich im Jahr 2026 für wenig zielführend. Die tatsächlichen Preise basieren daher auf dem Gesamtprojektumfang und dem individuellen Stundensatz eines erfahrenen Technical SEOs.'
   - question: 'Reicht der kostenlose Google Keyword Planner heute noch aus?'
-    answer: 'Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark (''Search Volume Buckets'') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern.'
+    answer: 'Nein, er ist mittlerweile eher als grober Richtungsgeber zu verstehen und sollte nur als ergänzende Metrik genutzt werden. Der Planner gruppiert Keywords extrem stark (''Search Volume Buckets'') und ist vorrangig auf das Google Ads-Geschäft optimiert, weshalb viele Long-Tail-Perlen komplett unter den Tisch fallen. Für meine Kundenanalysen vertraue ich ausschließlich auf professionelle SEO-Vollsuiten wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, die deutlich granularere und live-getriebene Daten zur Konkurrenzdichte und SERP-Dynamik liefern.'
 ---
 
 Moin!
@@ -33,7 +33,7 @@ Das Ziel: Die Sprache deiner Kunden verstehen. Suchen sie nach "Lohnsteuerhilfe"
 In meiner Arbeit als [SEO Berater](/seo-freelancer-berlin/) gehe ich nach diesem messerscharfen Schema vor:
 
 1.  **Status-Quo & Brainstorming:** Was sind deine Kern-Themen? Welche Probleme deiner Kunden löst du wirklich?
-2.  **Tool-Check (Harte Fakten):** Wir füttern Profi-Suiten wie <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> mit deinen Ideen und schauen uns Suchvolumen, Klickpreise und Konkurrenzdichte an.
+2.  **Tool-Check (Harte Fakten):** Wir füttern Profi-Suiten wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> mit deinen Ideen und schauen uns Suchvolumen, Klickpreise und Konkurrenzdichte an.
 3.  **Wettbewerbs-Analyse (Content-Gaps):** Wo schläft deine Konkurrenz? Wir finden die Nischen, die andere übersehen haben.
 4.  **Thematisches Clustering:** Wir sortieren Begriffe nicht mehr in Excel-Listen, sondern in semantische Themen-Cluster und ordnen sie dem richtigen [User Intent](/glossar/keywoerter/) zu.
 
@@ -60,7 +60,7 @@ Was erwartet ein LLM wie Gemini in einem Text über "Immobilienfinanzierung"? Zi
 
 80% aller SEO-Projekte scheitern an einer miesen Keywordrecherche. Die Leute optimieren für Begriffe, die niemand sucht – oder die gar nicht zu ihrem Angebot passen. Spar nicht an diesem Schritt. Es ist die wichtigste Investition in deine digitale Sichtbarkeit.
 
-Ich nutze für meine tägliche Arbeit <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die profitablen Nischen meiner Kunden zu finden. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
+Ich nutze für meine tägliche Arbeit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die profitablen Nischen meiner Kunden zu finden. Bau deine Inhalte auf echten Bedürfnissen auf. Denn nur wer die richtige Frage kennt, kann die perfekte Antwort liefern.
 
 ALOHA! Jörg
 
@@ -68,7 +68,7 @@ ALOHA! Jörg
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Investierst du in die falschen Themen?</h3>
-  <p class="mb-6 text-gray-muted">Ich erstelle für dich eine glasklare Keyword-Map. Mit den Profi-Daten von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und den semantischen Clustern von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> finden wir deine profitablen Nischen.</p>
+  <p class="mb-6 text-gray-muted">Ich erstelle für dich eine glasklare Keyword-Map. Mit den Profi-Daten von <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und den semantischen Clustern von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> finden wir deine profitablen Nischen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Audit anfragen</a>
 </div>
 

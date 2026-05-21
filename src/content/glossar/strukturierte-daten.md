@@ -31,7 +31,7 @@ Deine strukturierten Daten liefern Google-Präzision auf dem Silbertablett.
 Wer heute Rich Snippets hat, bekommt deutlich mehr Klicks.
 Wer heute saubere Daten hat, wird 2026 von KI-Agenten zitiert.
 
-In meinen [SEO Audits](/glossar/seo-audit/) ist das Fehlen von strukturierten Daten der Fehler Nummer 1. Ich nutze <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um diese Lücken in Sekunden aufzudecken.
+In meinen [SEO Audits](/glossar/seo-audit/) ist das Fehlen von strukturierten Daten der Fehler Nummer 1. Ich nutze <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um diese Lücken in Sekunden aufzudecken.
 
 ## JSON-LD und die 'Content Parity' Pflicht
 

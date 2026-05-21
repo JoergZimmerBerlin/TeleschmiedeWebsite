@@ -67,7 +67,7 @@ Noch wichtiger: Für autonome KI-Agenten ist die Meta Description beim initialen
 
 ## Mein Tacheles-Rat für dich
 
-Hör auf, dieses Feld im CMS leer zu lassen. Wer die Meta Description ignoriert, verbrennt wertvollen Traffic. Ich nutze die [Snippet-Analyse von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um Klickraten gnadenlos zu überwachen und aus Low-Performern Klick-Magneten zu machen. Schreib knackig, keyword-zentriert und mit einem echten USP – dann klappt's auch mit den Nutzern.
+Hör auf, dieses Feld im CMS leer zu lassen. Wer die Meta Description ignoriert, verbrennt wertvollen Traffic. Ich nutze die [Snippet-Analyse von SE Ranking](https://seranking.com/?ga=4169588&source=link), um Klickraten gnadenlos zu überwachen und aus Low-Performern Klick-Magneten zu machen. Schreib knackig, keyword-zentriert und mit einem echten USP – dann klappt's auch mit den Nutzern.
 
 ALOHA! Jörg
 

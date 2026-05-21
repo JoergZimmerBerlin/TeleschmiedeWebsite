@@ -35,7 +35,7 @@ Ergebnis: **10.000 API-Credits weg in einem Rutsch.**
 
 Das komplette Wochenbudget. Pulverisiert. Für eine Frage, die eigentlich einen Credit hätte kosten sollen - aber durch einen undokumentierten Endpoint-Preis eben 10.000 kostete.
 
-Und ich dachte mir: *Das kann ich mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> doch auch. Nur dass ich bei dem Fehler nicht noch mal hängen bleiben will.*
+Und ich dachte mir: *Das kann ich mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> doch auch. Nur dass ich bei dem Fehler nicht noch mal hängen bleiben will.*
 
 Deshalb gibt es diesen Artikel. Ein Setup-Tutorial, bei dem das **Daily-Credit-Limit von Minute 1 dabei ist** - nicht nachträglich.
 
@@ -57,7 +57,7 @@ Persönliches Versprechen: Ich zeige dir genau den Weg, den ich gegangen bin - i
 
 ## Schritt 1: API-Key holen
 
-*(Falls du noch keinen Account hast: <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Hier registrieren für einen SE Ranking Account inkl. API-Zugang</a>)*
+*(Falls du noch keinen Account hast: <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Hier registrieren für einen SE Ranking Account inkl. API-Zugang</a>)*
 
 Der Startpunkt ist denkbar einfach, aber extrem wichtig. Log dich in dein SE Ranking Dashboard ein, klick oben auf dein Profil und navigiere zu **Admin → API**. Hier findest du die Verwaltungsebene für deinen programmatischen Zugriff. Mit einem Klick auf "API-Schlüssel generieren" erzeugst du deinen persönlichen Token.
 
@@ -194,7 +194,7 @@ Bei dem Setup hat mir übrigens die Truppe von <a href="https://polisys.de" targ
 
 Wenn du einmal den Wrapper hast, sind alle weiteren Endpunkte eine Sache von fünf Minuten. `backlinks/summary`, `research/keyword/questions`, `audit/audits/standard`: alles nach dem gleichen Muster. Du baust dir im Lauf einer Woche dein eigenes kleines SEO-Tooling, das deinem Workflow entspricht und nicht dem eines SaaS-Produktmanagers in San Francisco.
 
-<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> belohnt strukturierte Setups. Die API-Docs sind gut, die Endpunkte gut sortiert. Aber Daily-Limits muss man selbst bauen. Jetzt weißt du, wie.
+<a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> belohnt strukturierte Setups. Die API-Docs sind gut, die Endpunkte gut sortiert. Aber Daily-Limits muss man selbst bauen. Jetzt weißt du, wie.
 
 Im nächsten Teil der Serie sortiere ich, was die SE Ranking API eigentlich alles kann: **Ein Kompass durch die Endpunkte**. Sechs Kategorien, Kosten-Tabelle, Use-Cases. Teuerste Abfrage: 7.500 Credits. Günstigste: null. Dazwischen liegt eine Menge SEO-Arbeit.
 

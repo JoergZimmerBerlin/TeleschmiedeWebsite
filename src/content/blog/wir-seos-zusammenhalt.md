@@ -120,6 +120,6 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du Teil der Welle sein?</h3>
-  <p class="mb-6">Hör auf, SEO als Einzelkämpfer zu betrachten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine Konkurrenz und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Sichtbarkeit in der KI-Suche.</p>
+  <p class="mb-6">Hör auf, SEO als Einzelkämpfer zu betrachten. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine Konkurrenz und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine Sichtbarkeit in der KI-Suche.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen </a>
 </div>

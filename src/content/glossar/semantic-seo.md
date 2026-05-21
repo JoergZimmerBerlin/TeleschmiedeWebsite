@@ -52,7 +52,7 @@ Ein semantischer Content-Cluster besteht 2026 aus:
 
 ## Jörgs Action-Plan: Semantic Ready
 
-Hör auf, SEO als Liste von Keywords zu sehen. Definiere dein Kernthema und baue ein Wissens-Universum drum herum. Verlinke alles intern. Nutze Schema.org. Mit dem [Topic-Cluster-Tool von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) behalten wir den Überblick über deine semantische Relevanz. Und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir, ob die LLMs deine Themen-Autorität bereits für ihre Antworten nutzen.
+Hör auf, SEO als Liste von Keywords zu sehen. Definiere dein Kernthema und baue ein Wissens-Universum drum herum. Verlinke alles intern. Nutze Schema.org. Mit dem [Topic-Cluster-Tool von SE Ranking](https://seranking.com/?ga=4169588&source=link) behalten wir den Überblick über deine semantische Relevanz. Und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfen wir, ob die LLMs deine Themen-Autorität bereits für ihre Antworten nutzen.
 
 ALOHA 🌻 
 

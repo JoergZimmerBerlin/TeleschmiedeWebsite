@@ -80,7 +80,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du in KI-Antworten sichtbar?</h3>
-  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und sorge dafür, dass du in Google UND in ChatGPT, Perplexity und Co. glänzt. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Basis und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Domination.</p>
+  <p class="mb-6">Ich analysiere deine aktuelle AI Visibility und sorge dafür, dass du in Google UND in ChatGPT, Perplexity und Co. glänzt. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Basis und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Domination.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GEO-Check anfragen </a>
 </div>
 

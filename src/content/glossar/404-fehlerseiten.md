@@ -69,7 +69,7 @@ Du musst deine Fehlerseiten aktiv suchen.
 Ich nutze in meinen [Audits](/glossar/seo-audit/) konsequent die [Google Search Console](/glossar/google-search-console/). 
 Dort gibt es einen Bericht zur Indexierung. 
 Stehen dort "Nicht gefunden (404)" Meldungen? 
-Dann ist es Zeit zu handeln. Auch Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden diese Sackgassen sofort.
+Dann ist es Zeit zu handeln. Auch Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden diese Sackgassen sofort.
 
 ## 404 Fehler in der KI-Suche ([GEO](/glossar/geo/))
 
@@ -81,7 +81,7 @@ Wer seine technische Basis nicht im Griff hat, wird nicht zitiert.
 
 ## Mein Tacheles-Rat für dich
 
-404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
+404 Fehler sind der stille Killer deiner Conversions. Kontrollier deine Website regelmäßig auf Sackgassen. Nutze 301 Weiterleitungen für gelöschte oder verschobene Inhalte. Sorg für eine saubere technische Basis. Mit Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> behältst du die Kontrolle. Denn wer seine Besucher ins Nichts führt, wird bald selbst im Nichts verschwinden.
 
 ALOHA 🌻
 
@@ -89,7 +89,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Sackgassen auf deiner Website?</h3>
-  <p class="mb-6">Ich finde alle 404-Fehler und leite sie sauber weiter, damit dein Linkjuice nicht verpufft. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysieren wir den Status Quo, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deinen Erfolg in der KI-Suche.</p>
+  <p class="mb-6">Ich finde alle 404-Fehler und leite sie sauber weiter, damit dein Linkjuice nicht verpufft. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysieren wir den Status Quo, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir deinen Erfolg in der KI-Suche.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Hilfe anfordern </a>
 </div>
 

@@ -28,7 +28,7 @@ Die große Frage im <a href="/glossar/geo/">GEO</a>-Zeitalter ist nicht mehr nur
 
 Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Kennst du Jörg Zimmer als SEO-Experten?" Wenn die Antwort passte, hat man sich gefreut. Wenn nicht, wusste man nicht einmal **warum**. Keine Daten, keine Vergleiche, keine Historie.
 
-Genau hier setzt <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> an. Ich nutze es parallel zu <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
+Genau hier setzt <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> an. Ich nutze es parallel zu <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
 
 ## Rankscale im echten Praxis-Test
 
@@ -79,7 +79,7 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du deine KI-Sichtbarkeit kennen?</h3>
-  <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> trackst du deine Reputation in 17 LLMs und mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sicherst du deine Basis-Sichtbarkeit bei Google.</p>
+  <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> trackst du deine Reputation in 17 LLMs und mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sicherst du deine Basis-Sichtbarkeit bei Google.</p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale testen </a>
 </div>
 

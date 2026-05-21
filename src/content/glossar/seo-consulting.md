@@ -26,7 +26,7 @@ Moin!
   <p class="italic text-dark mb-0">"Das Problem ist nicht, dass Google dich hasst. Das Problem ist, dass deine Seite technisch eine reine Katastrophe ist. Räum den Keller auf, bevor du das Dach neu streichst."</p>
 </div>
 
-In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung. Dabei nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> als zentrales Dashboard, um den Fortschritt deiner Strategie in Echtzeit zu überwachen.
+In meiner Arbeit als [SEO Freelancer](/seo-freelancer-berlin/) ist Consulting der Bereich, der den größten ROI liefert. Warum? Weil eine Stunde strategische Beratung mehr bewirken kann als zehn Stunden operative Umsetzung. Dabei nutze ich <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> als zentrales Dashboard, um den Fortschritt deiner Strategie in Echtzeit zu überwachen.
 
 ## Was ein SEO Consultant macht
 
@@ -57,7 +57,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Du brauchst Klarheit statt Aktionismus?</h3>
-  <p class="mb-6">Als SEO Consultant liefere ich dir den strategischen Fahrplan. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für lückenlose Überwachung und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Reputation.</p>
+  <p class="mb-6">Als SEO Consultant liefere ich dir den strategischen Fahrplan. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für lückenlose Überwachung und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Reputation.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Consulting-Gespräch anfragen </a>
 </div>
 

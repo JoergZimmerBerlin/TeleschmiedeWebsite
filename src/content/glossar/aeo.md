@@ -60,7 +60,7 @@ Schreib Sätze, die eine KI wortwörtlich zitieren kann. Klare Definitionen, Zah
 
 ## Jörgs Action-Plan
 
-AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
+AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/?ga=4169588&source=link) für die Themenanalyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
 
 ALOHA! Jörg
 
@@ -68,7 +68,7 @@ ALOHA! Jörg
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für die KI-Antworten?</h3>
-  <p class="mb-6">Ich helfe dir, deinen Content für Answer Engines zu optimieren und deine Sichtbarkeit in ChatGPT & Co. zu steigern. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Vorbereitung, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Erfolgskontrolle.</p>
+  <p class="mb-6">Ich helfe dir, deinen Content für Answer Engines zu optimieren und deine Sichtbarkeit in ChatGPT & Co. zu steigern. <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Vorbereitung, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Erfolgskontrolle.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Strategie anfragen</a>
 </div>
 

@@ -98,7 +98,7 @@ const categories = [
       <!-- Show All Button -->
       {sortedEntries.length > 12 && (
         <div class="text-center mt-12" id="show-all-wrapper">
-          <button id="show-all-btn" class="btn-primary inline-flex items-center gap-2">
+          <button type="button" id="show-all-btn" class="btn-primary inline-flex items-center gap-2">
             Alle {sortedEntries.length} Begriffe anzeigen
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -131,14 +131,18 @@ const categories = [
     let isExpanded = false;
 
     if (showAllBtn) {
-      showAllBtn.addEventListener('click', () => {
+      showAllBtn.onclick = (e) => {
+        e.preventDefault();
         isExpanded = true;
         cards.forEach(card => {
           card.classList.remove('hidden');
           (card as HTMLElement).style.display = 'block';
         });
-        if (showAllWrapper) showAllWrapper.classList.add('hidden');
-      });
+        if (showAllWrapper) {
+          showAllWrapper.classList.add('hidden');
+          showAllWrapper.style.display = 'none';
+        }
+      };
     }
 
     searchInput?.addEventListener('input', (e) => {

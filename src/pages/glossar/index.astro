@@ -4,9 +4,31 @@ import Schema from '../../components/Schema.astro';
 import { getCollection } from 'astro:content';
 
 const glossarEntries = await getCollection('glossar');
-const sortedEntries = glossarEntries.sort((a, b) =>
-  a.data.title.localeCompare(b.data.title)
-);
+
+const featuredIds = [
+  'seo-audit',
+  'keywordrecherche',
+  'e-e-a-t',
+  'core-web-vitals',
+  'geo',
+  'ai-seo',
+  'google-search-console',
+  'sichtbarkeit',
+  'linkbuilding',
+  'local-seo',
+  'rankingfaktoren',
+  '301-vs-302'
+];
+
+const sortedEntries = glossarEntries.sort((a, b) => {
+  const aFeatured = featuredIds.includes(a.id);
+  const bFeatured = featuredIds.includes(b.id);
+  
+  if (aFeatured && !bFeatured) return -1;
+  if (!aFeatured && bFeatured) return 1;
+  
+  return a.data.title.localeCompare(b.data.title);
+});
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 

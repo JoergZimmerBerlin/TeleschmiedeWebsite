@@ -4,7 +4,7 @@ description: "Besuche mich am 8. April beim AI Connect in Berlin! Antigravity, G
 date: "2026-03-15"
 image: "../../assets/images/blog/ai-connect-berlin-ticket.webp"
 image_alt: "Ticket für 1. AI Connect Berlin - Jörg Zimmer ist dabei"
-category: "AI & Innovation"
+category: "Events & Networking"
 tags: ["AI Connect", "Google Antigravity", "Gemini Pro", "Vibe Coding", "Berlin Tech"]
 key_takeaways:
   - "Networking ist das A und O in der KI-Ära: Am 8. April bin ich beim AI Connect im CIC Berlin."

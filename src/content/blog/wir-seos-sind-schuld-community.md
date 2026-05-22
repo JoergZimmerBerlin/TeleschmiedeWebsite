@@ -5,7 +5,7 @@ date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-typen-sind-schuld-das-das-netz-die-activity-7385954808316338176-oSyk"
 image: "../../assets/images/pages/hero-pose.webp"
 image_alt: "Jörg Zimmer vor einer Hecke in Aktion - Warum SEOs Verantwortung übernehmen müssen"
-category: "SEO Strategie"
+category: "Events & Networking"
 tags: []
 key_takeaways:
   - "SEO-Basics (Title, H-Struktur, Sitemaps) sind oft kein Standard, weil wir als Experten den Wert unserer Arbeit nicht laut genug verkaufen."

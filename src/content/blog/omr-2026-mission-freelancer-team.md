@@ -5,7 +5,7 @@ date: "2026-05-06"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K"
 image: "../../assets/images/blog/omr-2026-freelancer-team-live.jpg"
 image_alt: "Das Freelancer Team live auf der OMR 2026 an Stand B6 K12"
-category: "SEO Praxis"
+category: "Events & Networking"
 tags: ["OMR 2026", "Freelancer Team", "Online Marketing", "Networking", "Tacheles"]
 key_takeaways:
   - "Geballte Senior-Expertise: 25 Spezialisten an einem Stand (Halle B6, K12) statt anonymer Großagentur-Strukturen."

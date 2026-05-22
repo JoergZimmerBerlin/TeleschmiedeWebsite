@@ -5,7 +5,7 @@ date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR"
 image: "../../assets/images/blog/linkedin-forum-original.webp"
 image_alt: "Jörg Zimmer beim SEO Stammtisch Berlin - Vortrag über LinkedIn als Forum"
-category: "LinkedIn Marketing"
+category: "Events & Networking"
 tags: []
 key_takeaways:
   - "Dein LinkedIn-Profil ist deine Domain: Optimiere es wie eine Landingpage auf Conversions (Profilaufrufe), nicht auf Likes."

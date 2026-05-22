@@ -5,7 +5,7 @@ date: "2026-05-12"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meine-erste-omr-gleich-mit-eigenem-stand-share-7459530597514817536-o4sO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"
 image: "../../assets/images/blog/omr-freelancer-stand-roi.webp"
 image_alt: "Jörg Zimmer auf der OMR mit dem Freelancer Team"
-category: "SEO Praxis"
+category: "Events & Networking"
 tags: ["OMR", "Freelancer", "Networking", "ROI", "Agentur"]
 key_takeaways:
   - "Ein Messebesuch als Aussteller ist eine komplett andere Welt und erfordert aktives Netzwerken."

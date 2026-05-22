@@ -1,16 +1,14 @@
 ---
 import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
   videoId: string;
   title: string;
+  thumbnail: ImageMetadata;
 }
 
-const { videoId, title } = Astro.props;
-
-// Construct the high-res thumbnail URL 
-// (Note: maxresdefault is usually best, but some videos only have hqdefault)
-const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+const { videoId, title, thumbnail } = Astro.props;
 ---
 
 <div 
@@ -24,7 +22,7 @@ const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
   
 <!-- The static thumbnail (loads fast) -->
 <Image 
-  src={thumbnailUrl} 
+  src={thumbnail} 
   alt={`Vorschau für Video: ${title}`} 
   width={1280}
   height={720}

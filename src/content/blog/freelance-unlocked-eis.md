@@ -5,7 +5,7 @@ date: "2026-05-22"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-m%C3%B6chte-eis-auf-der-freelance-unlocked-activity-7463605041405538304-E9qK"
 image: "../../assets/images/blog/freelance-unlocked-eis.webp"
 image_alt: "Weihnachtsfeier der Freelance Unlocked mit Jörg Zimmer"
-category: "Networking"
+category: "Events & Networking"
 tags: ["Freelance Unlocked", "Networking", "SEO Freelancer", "Berlin"]
 key_takeaways:
   - "Networking ist der persönliche Ausgleich zum digitalen Arbeitsalltag am Bildschirm."

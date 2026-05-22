@@ -5,7 +5,7 @@ date: "2026-04-26"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-gehen-mit-25-leuten-zur-omr-unglaublich-activity-7454131442441252864-6h7i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"
 image: "../../assets/images/blog/freelancer-team-omr.webp"
 image_alt: "3D Illustration von 25 Freelancern am OMR Stand Halle B6 K12"
-category: "SEO Praxis"
+category: "Events & Networking"
 tags: ["OMR", "Freelancer", "Networking", "Online Marketing", "Hamburg"]
 key_takeaways:
   - "25 Expert*innen aus allen Disziplinen des Online Marketings gebündelt an einem Stand."

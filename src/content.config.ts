@@ -45,6 +45,7 @@ const glossar = defineCollection({
     })).optional(),
     tacheles: z.string().optional(),
     robots: z.string().optional(),
+    category: z.string().optional(),
   }),
 });
 

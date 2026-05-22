@@ -22,7 +22,7 @@ faqs:
     answer: "Ganz einfach: Mach auf LinkedIn mit und hinterlasse bei passenden Beiträgen ein Eis-Emoji (🍦)! Zusammen sind wir laut genug für eine eigene Eismaschine."
 ---
 
-👋 **Aloha!** 🌻✌️ Ich bin Jörg Zimmer und lebe in Berlin Spandau. 
+**Aloha!** 🌻✌️ Ich bin Jörg Zimmer und lebe in Berlin Spandau. 
 
 Seit gut 25 Jahren arbeite ich nun schon als SEO Freelancer. Es war und ist eine unglaubliche Reise, auf der ich einen Großteil des Google Universums kennenlernen durfte.
 

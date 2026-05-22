@@ -2,6 +2,7 @@
 title: "SEO-Handwerk: Warum Qualität der USP ist"
 description: "Von 56k Modems zu modernem SEO: Warum Technik-Basics heute wichtiger sind als jedes Hochglanz-Tool. Jörgs persönliche SEO-Biografie. ALOHA! 🌻"
 date: "2026-03-11"
+category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-komme-aus-einfachsten-seo-verhaeltnissen-activity-7278776634860732416-L_oQ"
 image: "../../assets/images/blog/joerg-zimmer-dots-personal.webp"
 image_alt: "Jörg Zimmer (SEO Architekt) vor einer Wand mit bunten Punkten - Fokus auf das Wesentliche"

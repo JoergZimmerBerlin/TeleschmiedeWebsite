@@ -5,7 +5,7 @@ date: "2026-02-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_herzlich-willkommen-im-seo-jahr-2026-p%C3%BCnktlich-activity-7424407144093028352-u44d"
 image: "../../assets/images/blog/seo-missverstaendnisse-2026.webp"
 image_alt: "Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen"
-category: "SEO Strategie"
+category: "SEO Praxis"
 tags: ["E-E-A-T"]
 key_takeaways:
   - "Die drei größten SEO-Irrtümer halten sich seit 20 Jahren: 'Macht der Webdesigner', 'nach dem Relaunch' und 'SEO ist tot'."

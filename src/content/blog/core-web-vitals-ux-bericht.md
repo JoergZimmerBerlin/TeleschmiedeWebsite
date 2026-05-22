@@ -3,6 +3,7 @@ title: "Core Web Vitals: Warum dein UX-Bericht zählt"
 description: "Core Web Vitals Case Study: Von 0 auf 216 gute URLs. Wie Optimierung die organische Performance & UX deiner Website nachhaltig verbessert. ALOHA! 🌻"
 date: "2026-01-05"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_core-web-vitals-ux-bericht-activity-7281315863925700608-P_2C"
+image: "../../assets/images/blog/core-web-vitals-pfeiler.webp"
 image_alt: "Die drei Säulen der Core Web Vitals: LCP, INP und CLS erklärt"
 category: "Tech SEO & Tools"
 tags: ["E-E-A-T"]

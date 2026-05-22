@@ -3,8 +3,8 @@ title: "Brief an Bots & Crawler: SEO-Insights 2026"
 description: "Brief an alle Bots & KI-Agenten: Ohne SEOs hättet ihr keine Alt-Texte oder Sitemaps. Wir füttern die KI mit strukturierten Daten. ALOHA! 🌻"
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_liebe-bots-crawler-und-agenten-dieser-welt-activity-7431342623879217152-qG6A"
-image: "../../assets/images/blog/seo-bots-liebesbrief.webp"
-image_alt: "Infografik: Was SEO-Spezialisten für Bots tun – Alt-Texte, Sitemaps, strukturierte Daten"
+image: "../../assets/images/blog/linkedin-bots-original.webp"
+image_alt: "Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand"
 category: "Technisches SEO"
 tags: []
 key_takeaways:
@@ -22,7 +22,6 @@ Liebe Bots, Crawler und Agenten dieser Welt – setzt euch mal kurz hin. Wir mü
   <p class="italic text-dark mb-0">"Ohne SEO-Expertise wäre das Internet für Bots ein unlesbarer Datenmüllhaufen. Wir sind die Kuratoren der KI-Nahrung."</p>
 </div>
 
-![Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand](../../assets/images/blog/linkedin-bots-original.webp)
 
 Ich weiß, ihr seid beschäftigt. Ihr crawlt gerade 60 Milliarden Seiten, speist 17 verschiedene Sprachmodelle und entscheidet nebenbei, wer bei Google auf Platz 1 landet und wer in der digitalen Versenkung verschwindet. Aber nehmt euch mal zwei Minuten. Das hier ist wichtig.
 

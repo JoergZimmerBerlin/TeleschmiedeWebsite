@@ -108,7 +108,7 @@ const hubs = hubsConfig.map(hub => {
                         src={post.data.image!}
                         alt={post.data.image_alt || post.data.title}
                         width={800}
-                        class="w-full h-full object-cover object-[center_15%] md:aspect-auto aspect-video group-hover:scale-105 transition-transform duration-500"
+                        class="w-full h-full object-cover object-top md:aspect-auto aspect-video group-hover:scale-105 transition-transform duration-500"
                         format="webp"
                         loading="eager"
                         fetchpriority="high"
@@ -149,7 +149,7 @@ const hubs = hubsConfig.map(hub => {
                         src={post.data.image!}
                         alt={post.data.image_alt || post.data.title}
                         width={600}
-                        class="w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-500"
+                        class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                         format="webp"
                         loading="lazy"
                       />

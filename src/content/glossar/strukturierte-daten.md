@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: "Technisches SEO & UX"
 title: 'Strukturierte Daten: AI-Grounding & LLM-Fütterung'
 description: 'Strukturierte Daten (2026): Vom CMS-Plugin zur hochpräzisen Faktenquelle für KI-Modelle. Erfahre alles über AI-Grounding & Content Parity. ALOHA! 🌻'
 date: "2026-03-31"

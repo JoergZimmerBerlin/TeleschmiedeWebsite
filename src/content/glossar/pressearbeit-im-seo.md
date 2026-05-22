@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: "SEO Basics & Onpage"
 title: 'Digital PR: Pressearbeit im SEO für Autorität'
 description: 'Pressearbeit im SEO (Digital PR) stärkt deine Rankings, Autorität und KI-Sichtbarkeit durch gezielte Medienarbeit. Jetzt informieren. ALOHA! 🌻'
 date: "2026-03-10"

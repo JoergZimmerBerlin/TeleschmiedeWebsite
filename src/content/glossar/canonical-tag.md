@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: "SEO Basics & Onpage"
 title: 'Canonical Tag: Duplicate Content sicher vermeiden'
 description: 'Canonical Tag: Der Lebensretter gegen Duplicate Content. Lerne, wie du Google zeigst, welche URL die ''echte'' ist. ALOHA! 🌻'
 date: "2026-03-19"

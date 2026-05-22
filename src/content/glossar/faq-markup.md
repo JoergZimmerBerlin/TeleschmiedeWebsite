@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: "Technisches SEO & UX"
 title: 'FAQ Markup: Datenquelle für RAG & KI-Antworten'
 description: 'FAQ Markup 2026: Von Rich Snippets zur primären Datenquelle für KI-Antworten (RAG). Erfahre alles über FAQPage Schema & GEO. ALOHA! 🌻'
 date: "2026-03-31"

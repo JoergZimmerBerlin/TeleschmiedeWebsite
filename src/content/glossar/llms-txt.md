@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: "SEO Basics & Onpage"
 title: 'LLMs.txt: Die Robots.txt für die KI-Suche'
 description: 'Die llms.txt ist ein neuer Standard zur Steuerung von KI-Crawlern. Sie liefert strukturierte Informationen direkt an Large Language Models.'
 date: "2026-03-10"

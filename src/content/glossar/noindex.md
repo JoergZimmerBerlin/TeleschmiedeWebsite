@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: "SEO Basics & Onpage"
 title: 'Noindex: Seiten von der Suche ausschließen'
 description: 'Noindex Meta-Tag: So kontrollierst du, welche Seiten Google indexiert. Der wichtigste Befehl zum Schutz deines Indexing-Budgets. ALOHA!'
 date: "2026-03-10"

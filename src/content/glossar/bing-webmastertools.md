@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: "E-E-A-T & Offpage"
 title: 'Bing Webmaster Tools: Guide für Microsoft Bing'
 description: 'Die Bing Webmaster Tools sind das Pendant zur Google Search Console für Microsofts Suchmaschine. In der KI-Ära gewinnen sie massiv an Bedeutung.'
 date: "2026-03-10"

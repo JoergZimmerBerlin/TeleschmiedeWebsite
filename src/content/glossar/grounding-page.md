@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: "SEO Basics & Onpage"
 title: 'Grounding Page: Definition und Bedeutung für LLMs'
 description: 'Eine Grounding Page ist der Ankerpunkt für deine KI-Sichtbarkeit. Sie liefert die Fakten, die LLMs für ihre Antworten brauchen.'
 date: "2026-03-10"

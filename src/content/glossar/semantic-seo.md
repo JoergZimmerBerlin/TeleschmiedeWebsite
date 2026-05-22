@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: "AI SEO & Generative Search"
 title: 'Semantic SEO: Themenwelten im KI-Vektorraum'
 description: 'Semantic SEO (2026): Warum Google Konzepte versteht und wie du Themenwelten für KI-Modelle optimierst. Topical Authority als Rankingfaktor. ALOHA! 🌻'
 date: "2026-03-31"

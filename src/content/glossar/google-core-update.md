@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: "AI SEO & Generative Search"
 title: 'Google Core Updates: Auswirkungen und Erholung'
 description: 'Google Core Updates sind massive Änderungen am Suchalgorithmus. Erfahre, wie du sie überstehst und gestärkt daraus hervorgehst.'
 date: "2026-03-10"

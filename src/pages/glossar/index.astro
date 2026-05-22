@@ -120,7 +120,19 @@ const categories = [
       <!-- Show All Button -->
       {sortedEntries.length > 12 && (
         <div class="text-center mt-12" id="show-all-wrapper">
-          <button type="button" id="show-all-btn" class="btn-primary inline-flex items-center gap-2">
+          <button 
+            type="button" 
+            id="show-all-btn" 
+            class="btn-primary inline-flex items-center gap-2"
+            onclick="
+              document.querySelectorAll('.glossar-card').forEach(function(c) {
+                c.classList.remove('hidden');
+                c.style.display = 'block';
+              });
+              document.getElementById('show-all-wrapper').style.display = 'none';
+              window.glossarIsExpanded = true;
+            "
+          >
             Alle {sortedEntries.length} Begriffe anzeigen
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -148,24 +160,10 @@ const categories = [
     const cards = document.querySelectorAll('.glossar-card');
     const noResults = document.getElementById('no-results');
     const showAllBtn = document.getElementById('show-all-btn');
-    const showAllWrapper = document.getElementById('show-all-wrapper');
-    
-    let isExpanded = false;
+    let getIsExpanded = () => window.glossarIsExpanded === true;
 
-    if (showAllBtn) {
-      showAllBtn.onclick = (e) => {
-        e.preventDefault();
-        isExpanded = true;
-        cards.forEach(card => {
-          card.classList.remove('hidden');
-          (card as HTMLElement).style.display = 'block';
-        });
-        if (showAllWrapper) {
-          showAllWrapper.classList.add('hidden');
-          showAllWrapper.style.display = 'none';
-        }
-      };
-    }
+    // The showAllBtn click is now handled inline in the HTML onclick attribute.
+    // We only need to handle the search input here.
 
     searchInput?.addEventListener('input', (e) => {
       const term = (e.target as HTMLInputElement).value.toLowerCase();
@@ -178,16 +176,18 @@ const categories = [
 
         if (term === '') {
           // Reset to initial or expanded state
-          if (!isExpanded && isInitiallyHidden) {
+          if (!getIsExpanded() && isInitiallyHidden) {
             card.classList.add('hidden');
             (card as HTMLElement).style.display = '';
           } else {
             card.classList.remove('hidden');
             (card as HTMLElement).style.display = '';
           }
-          if (!isExpanded && showAllWrapper) showAllWrapper.classList.remove('hidden');
+          const showAllWrapper = document.getElementById('show-all-wrapper');
+          if (!getIsExpanded() && showAllWrapper) showAllWrapper.classList.remove('hidden');
         } else {
           // Search active
+          const showAllWrapper = document.getElementById('show-all-wrapper');
           if (showAllWrapper) showAllWrapper.classList.add('hidden');
           if (title.includes(term) || desc.includes(term)) {
             card.classList.remove('hidden');

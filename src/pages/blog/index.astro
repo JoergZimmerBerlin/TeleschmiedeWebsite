@@ -24,13 +24,22 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const recentPosts = sortedPosts.slice(0, 6);
 
 // Define main Hubs
-const hubs = [
+const hubsConfig = [
   { name: 'SEO Praxis', desc: 'Ehrliche Strategien & Case Studies aus 20 Jahren Berufsalltag.' },
   { name: 'AI SEO', desc: 'Wie KI und LLMs das Search-Game verändern.' },
   { name: 'Technisches SEO', desc: 'Performance, Crawlability und tiefes System-Verständnis.' },
   { name: 'SEO Tools', desc: 'Workflows, API-Hacks und die besten Werkzeuge.' },
   { name: 'Events & Networking', desc: 'Messen wie die OMR, Vorträge und die starke SEO-Community.' }
 ];
+
+const hubs = hubsConfig.map(hub => {
+  const count = sortedPosts.filter(post => {
+    // Falls keine Kategorie gesetzt ist, wandert es im Code als Fallback in 'SEO Praxis'
+    const category = post.data.category || 'SEO Praxis';
+    return category === hub.name;
+  }).length;
+  return { ...hub, count };
+});
 ---
 
 <Layout
@@ -65,7 +74,12 @@ const hubs = [
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-2 group-hover:text-lime-600 transition-colors">{hub.name}</h3>
+              <h3 class="text-xl font-bold mb-2 group-hover:text-lime-600 transition-colors flex items-center justify-between">
+                {hub.name}
+                <span class="text-xs font-bold text-lime-900 bg-lime-accent/30 px-2 py-1 rounded-md">
+                  {hub.count} {hub.count === 1 ? 'Artikel' : 'Artikel'}
+                </span>
+              </h3>
               <p class="text-sm text-gray-muted flex-grow">{hub.desc}</p>
               <div class="mt-4 pt-4 border-t border-gray-50 flex items-center gap-2 text-sm font-bold text-dark group-hover:gap-3 transition-all">
                 Artikel lesen

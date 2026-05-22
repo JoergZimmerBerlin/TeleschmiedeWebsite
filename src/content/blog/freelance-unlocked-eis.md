@@ -1,5 +1,5 @@
 ---
-title: "Eis für die Freelancer Community! 🍦"
+title: "Freelance Unlocked 2026: Ein Eis für die Community!"
 description: "Warum gutes Netzwerken auf der Freelance Unlocked in Berlin wichtig ist – und warum die Community eine Eismaschine braucht."
 date: "2026-05-22"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-m%C3%B6chte-eis-auf-der-freelance-unlocked-activity-7463605041405538304-E9qK"
@@ -8,7 +8,7 @@ image_alt: "Weihnachtsfeier der Freelance Unlocked mit Jörg Zimmer"
 category: "Networking"
 tags: ["Freelance Unlocked", "Networking", "SEO Freelancer", "Berlin"]
 key_takeaways:
-  - "Networking ist der persönliche Ausgleich zum digitalen SEO-Alltag am Bildschirm."
+  - "Networking ist der persönliche Ausgleich zum digitalen Arbeitsalltag am Bildschirm."
   - "Das 'Freelancer Team' zeigt, dass wir als Kollektiv stärker sind als Einzelkämpfer."
   - "Gemeinsame Ziele verbinden: Eine Eismaschine auf Konferenzen ist das beste Networking-Tool!"
 faqs:
@@ -16,6 +16,10 @@ faqs:
     answer: "Das Freelancer Team ist ein freiwilliges Kollektiv von Experten, das fast alles im Online Marketing mit Senior Expertise abdeckt. Niemand muss mehr als Einzelkämpfer durch den Markt ziehen."
   - question: "Gibt es wirklich Eis auf der Freelance Unlocked?"
     answer: "Das ist mein Hauptziel für die Konferenz! Ich kommentiere fleißig und setze mich dafür ein. Wenn wir nur laut genug sind, stellen sie vielleicht tatsächlich eine Eismaschine auf."
+  - question: "Wann und wo findet die Freelance Unlocked 2026 statt?"
+    answer: "Das Event findet am 11. und 12. Juni in Berlin statt – der perfekte Ort für echtes Networking und Austausch unter Kolleg:innen."
+  - question: "Wie kann ich die Eis-Mission unterstützen?"
+    answer: "Ganz einfach: Mach auf LinkedIn mit und hinterlasse bei passenden Beiträgen ein Eis-Emoji (🍦)! Zusammen sind wir laut genug für eine eigene Eismaschine."
 ---
 
 👋 **Aloha!** 🌻✌️ Ich bin Jörg Zimmer und lebe in Berlin Spandau. 
@@ -45,7 +49,7 @@ Wir sind ein freiwilliges Kollektiv, das wir gegründet haben, damit niemand von
 
 Von uns kommen dieses Jahr Andreas Absmeier, Christoph Buder, Jana Berthold, Frederic Wolny, Patrycja Absmeier, Artjom Sajatz-Davydov, Inan Nacar, Michael Kablitz, Peter Bomballa, Niclas Findeis und icke.
 
-**Wir sind die mit den lila T-Shirts!** 👕
+**Wir sind die mit den lila T-Shirts!**
 
 ### Die Eis-Mission auf der Freelance Unlocked
 

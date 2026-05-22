@@ -35,7 +35,7 @@ Insbesondere jene, die hinter der Google Suche, YouTube, Google Maps und in den 
   <p class="italic text-dark mb-0">"Mein Einstiegsangebot ist ein zweistündiger „Website-Roast“, bei dem ich den aktuellen Status einer Domain analysiere. Ich nenne das „SEO Sprechstunde“ – und ja, die kostet Geld. Dafür gibt's das Wissen eines SEO-Dinosauriers."</p>
 </div>
 
-Bock auf echtes [SEO-Consulting](/glossar/seo-beratung/) mit Klartext? Dann bist du bei mir genau richtig. Seit diesem Jahr teile ich auch alles, was ich mit meiner eigenen KI Website, Agenten und AI Sichtbarkeit im Kopf habe.
+Bock auf echtes Klartext-Feedback zu deiner Website? Dann ist meine [SEO Sprechstunde](/seo-sprechstunde/) genau das Richtige für dich. Seit diesem Jahr knöpfen wir uns da übrigens nicht nur klassisches SEO vor, sondern ich teile auch alles, was ich mit meiner eigenen KI Website, Agenten und AI Sichtbarkeit im Kopf habe.
 
 ### Mehr als nur Algorithmen: Menschen und Netzwerken
 

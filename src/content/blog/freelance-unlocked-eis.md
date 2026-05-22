@@ -71,4 +71,9 @@ Hier ein kleiner Auszug, was in den Kommentaren schon abgeht:
 - **Ich selbst dazu:** "Lasst uns zusammen für unser Recht auf Eis kämpfen! Zusammen. Stark. Ice Cream Unlocked."
 
 ---
-*Dieser Beitrag entstand aus diesem [LinkedIn-Beitrag](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-m%C3%B6chte-eis-auf-der-freelance-unlocked-activity-7463605041405538304-E9qK).*
+
+<div class="blog-cta-box">
+  <h3>Diskutiere mit mir auf LinkedIn! 🍦</h3>
+  <p>Dieser Beitrag entstand aus einem LinkedIn-Beitrag. Unterstütze die Eis-Mission und lass uns dort weiterdiskutieren!</p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-m%C3%B6chte-eis-auf-der-freelance-unlocked-activity-7463605041405538304-E9qK" target="_blank" rel="noopener noreferrer">Zum LinkedIn-Beitrag</a>
+</div>

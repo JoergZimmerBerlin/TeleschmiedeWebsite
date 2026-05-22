@@ -4,6 +4,7 @@ import Schema from '../../components/Schema.astro';
 import { Image } from 'astro:assets';
 import { getImage } from 'astro:assets';
 import { getCollection } from 'astro:content';
+import { slugify } from '../../utils/slugify';
 
 // Get all blog posts, sorted by date
 const posts = await getCollection('blog');
@@ -19,29 +20,25 @@ const optimizedFeaturedImage = featuredImage
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// Get all unique categories and tags with counts
-const categoryMap: Record<string, number> = {};
-const tagMap: Record<string, number> = {};
+// Get only the 6 latest posts for the "Frisch aus dem Blog" section
+const recentPosts = sortedPosts.slice(0, 6);
 
-posts.forEach(post => {
-  const cat = post.data.category || 'SEO';
-  categoryMap[cat] = (categoryMap[cat] || 0) + 1;
-  (post.data.tags || []).forEach(tag => {
-    tagMap[tag] = (tagMap[tag] || 0) + 1;
-  });
-});
-
-const sortedCategories = Object.entries(categoryMap).sort((a, b) => b[1] - a[1]);
-const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
+// Define main Hubs
+const hubs = [
+  { name: 'SEO Praxis', desc: 'Ehrliche Strategien & Case Studies aus 20 Jahren Berufsalltag.' },
+  { name: 'AI SEO', desc: 'Wie KI und LLMs das Search-Game verändern.' },
+  { name: 'Technisches SEO', desc: 'Performance, Crawlability und tiefes System-Verständnis.' },
+  { name: 'SEO Tools', desc: 'Workflows, API-Hacks und die besten Werkzeuge.' }
+];
 ---
 
 <Layout
-  title="Blog | Jörg Zimmer - SEO Insights & Strategien"
-  description="Aktuelle Insights zu SEO, SEA und Performance Marketing von Jörg Zimmer."
+  title="Blog | Jörg Zimmer - SEO Insights & Themen-Hubs"
+  description="Aktuelle Insights zu SEO, SEA und Performance Marketing. Stöbere in Themen-Hubs wie AI SEO, SEO Praxis und Technik."
   lcpImage={optimizedFeaturedImage?.src}
 >
   <!-- Hero Section -->
-  <section class="section pt-12 pb-12 bg-white">
+  <section class="section pt-12 pb-8 bg-white">
     <div class="container-narrow">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="subheadline mb-4">Blog</p>
@@ -53,181 +50,128 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
         </p>
       </div>
 
-      <!-- Filter Section -->
-      <div class="blog-filter-wrapper mb-12">
-        <!-- Search Bar -->
-        <div class="search-bar-wrapper mb-5">
-          <div class="search-bar">
-            <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-            <input 
-              type="text" 
-              id="blog-search" 
-              placeholder="Beiträge durchsuchen..." 
-              class="search-input"
-              autocomplete="off"
-            />
-            <button id="search-clear" class="search-clear hidden" aria-label="Suche leeren">
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="18" height="18">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- Category Tabs -->
-        <div class="category-tabs-wrapper mb-4">
-          <div class="category-tabs no-scrollbar" id="category-tabs">
-            <button class="category-tab active" data-category="all">
-              <span class="tab-label">Alle</span>
-              <span class="tab-count">{posts.length}</span>
-            </button>
-            {sortedCategories.map(([cat, count]) => (
-              <button class="category-tab" data-category={cat}>
-                <span class="tab-label">{cat}</span>
-                <span class="tab-count">{count}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <!-- Tag Pills -->
-        <div class="tag-cloud-wrapper" id="tag-cloud-wrapper">
-          <div class="tag-cloud no-scrollbar" id="tag-cloud">
-            {sortedTags.map(([tag, count]) => (
-              <button class="tag-pill" data-tag={tag}>
-                <span class="tag-name">{tag}</span>
-                <span class="tag-badge">{count}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <!-- Result Count -->
-        <div class="result-bar mt-4" id="result-bar">
-          <span class="result-count" id="result-count">{posts.length} Beiträge</span>
-          <button id="reset-all" class="reset-btn hidden">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-            Filter zurücksetzen
-          </button>
+      <!-- Themen-Hubs Section -->
+      <div class="mb-20">
+        <h2 class="text-2xl font-bold mb-6 text-center">Wähle dein Thema:</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {hubs.map(hub => (
+            <a 
+              href={`${baseUrl}/blog/${slugify(hub.name)}/`}
+              class="group relative bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg hover:border-lime-accent transition-all duration-300 flex flex-col h-full"
+            >
+              <div class="w-12 h-12 bg-lime-accent/20 text-lime-900 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2 group-hover:text-lime-600 transition-colors">{hub.name}</h3>
+              <p class="text-sm text-gray-muted flex-grow">{hub.desc}</p>
+              <div class="mt-4 pt-4 border-t border-gray-50 flex items-center gap-2 text-sm font-bold text-dark group-hover:gap-3 transition-all">
+                Artikel lesen
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </a>
+          ))}
         </div>
       </div>
 
-      <!-- Posts Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="posts-grid">
-        {sortedPosts.map((post, index) => (
-          <article 
-            class={`blog-card group ${index === 0 ? 'featured-post md:col-span-2' : ''}`}
-            data-tags={JSON.stringify(post.data.tags || [])}
-            data-category={post.data.category || 'SEO'}
-            data-title={post.data.title.toLowerCase()}
-            data-description={post.data.description.toLowerCase()}
-          >
-            {index === 0 ? (
-              /* Featured Post Layout */
-              <a href={`${baseUrl}/blog/${post.id}/`} class="featured-link flex flex-col lg:flex-row gap-0 bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-sm hover:shadow-lg hover:border-lime-accent transition-all duration-300 group">
-                <div class="lg:w-1/2 overflow-hidden">
-                  {post.data.image && (
-                    <Image
-                      src={post.data.image!}
-                      alt={post.data.image_alt || post.data.title}
-                      width={800}
-                      class="w-full h-full object-cover object-[center_15%] aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
-                      format="webp"
-                      loading="eager"
-                      fetchpriority="high"
-                    />
-                  )}
-                </div>
-                <div class="lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                  <div class="flex items-center gap-3 mb-4">
-                    <span class="px-3 py-1 bg-lime-accent/20 text-dark text-xs font-bold rounded-full uppercase tracking-wider">
-                      {post.data.category || 'Featured'}
-                    </span>
-                    <span class="text-xs text-gray-muted">
-                       {new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
-                    </span>
+      <!-- Recent Posts Section -->
+      <div>
+        <h2 class="text-3xl font-bold mb-8">Frisch aus dem Blog</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {recentPosts.map((post, index) => (
+            <article 
+              class={`bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-lg hover:border-lime-accent transition-all duration-300 flex flex-col h-full group ${index === 0 ? 'md:col-span-2 md:flex-row' : ''}`}
+            >
+              {index === 0 ? (
+                /* Featured Post Layout for the very first item */
+                <a href={`${baseUrl}/blog/${post.id}/`} class="flex flex-col md:flex-row w-full h-full">
+                  <div class="md:w-1/2 overflow-hidden">
+                    {post.data.image && (
+                      <Image
+                        src={post.data.image!}
+                        alt={post.data.image_alt || post.data.title}
+                        width={800}
+                        class="w-full h-full object-cover object-[center_15%] md:aspect-auto aspect-video group-hover:scale-105 transition-transform duration-500"
+                        format="webp"
+                        loading="eager"
+                        fetchpriority="high"
+                      />
+                    )}
                   </div>
-                  <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 group-hover:text-lime-600 transition-colors">
-                    {post.data.title}
-                  </h2>
-                  <p class="text-gray-muted text-lg mb-8 line-clamp-3">
-                    {post.data.description}
-                  </p>
-                  <div class="mt-auto">
-                     <span class="inline-flex items-center gap-2 text-sm font-bold text-dark group-hover:gap-4 transition-all">
-                        Artikel lesen
+                  <div class="md:w-1/2 p-8 flex flex-col justify-center">
+                    <div class="flex items-center gap-3 mb-4">
+                      <span class="px-3 py-1 bg-lime-accent/20 text-dark text-xs font-bold rounded-full uppercase tracking-wider">
+                        {post.data.category || 'SEO'}
+                      </span>
+                      <span class="text-xs text-gray-muted">
+                        {new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+                      </span>
+                    </div>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 group-hover:text-lime-600 transition-colors">
+                      {post.data.title}
+                    </h3>
+                    <p class="text-gray-muted text-lg mb-8 line-clamp-3">
+                      {post.data.description}
+                    </p>
+                    <div class="mt-auto">
+                      <span class="inline-flex items-center gap-2 text-sm font-bold text-dark group-hover:gap-4 transition-all">
+                        Zum Artikel
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                       </span>
+                    </div>
                   </div>
-                </div>
-              </a>
-            ) : (
-              /* Regular Post Layout */
-              <a href={`${baseUrl}/blog/${post.id}/`} class="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-lg hover:border-lime-accent transition-all duration-300 flex flex-col h-full group">
-                {post.data.image && (
-                  <div class="overflow-hidden aspect-video">
-                    <Image
-                      src={post.data.image!}
-                      alt={post.data.image_alt || post.data.title}
-                      width={600}
-                      class="w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-500"
-                      format="webp"
-                      loading="lazy"
-                    />
+                </a>
+              ) : (
+                /* Regular Post Layout */
+                <a href={`${baseUrl}/blog/${post.id}/`} class="flex flex-col h-full">
+                  {post.data.image && (
+                    <div class="overflow-hidden aspect-video">
+                      <Image
+                        src={post.data.image!}
+                        alt={post.data.image_alt || post.data.title}
+                        width={600}
+                        class="w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-500"
+                        format="webp"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  <div class="p-6 md:p-8 flex flex-col flex-grow">
+                    <div class="flex items-center gap-3 mb-3">
+                      <span class="text-xs font-bold text-lime-900 bg-lime-accent/30 px-2 py-0.5 rounded">
+                        {post.data.category || 'SEO'}
+                      </span>
+                      <span class="text-[10px] text-gray-muted">
+                        {new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+                      </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
+                      {post.data.title}
+                    </h3>
+                    <p class="text-gray-muted text-sm mb-6 line-clamp-3 flex-grow">
+                      {post.data.description}
+                    </p>
+                    <div class="mt-auto pt-4 border-t border-gray-50">
+                      <span class="text-xs font-bold text-dark inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                        Mehr erfahren
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
-                )}
-                <div class="p-6 md:p-8 flex flex-col flex-grow">
-                  <div class="flex items-center gap-3 mb-3">
-                    <span class="text-xs font-bold text-lime-900 bg-lime-accent/30 px-2 py-0.5 rounded">
-                      {post.data.category || 'SEO'}
-                    </span>
-                    <span class="text-[10px] text-gray-muted">
-                      {new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
-                    </span>
-                  </div>
-                  <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
-                    {post.data.title}
-                  </h2>
-                  <p class="text-gray-muted text-sm mb-6 line-clamp-3 flex-grow">
-                    {post.data.description}
-                  </p>
-                  <div class="mt-auto pt-4 border-t border-gray-50">
-                    <span class="text-xs font-bold text-dark inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                      Mehr erfahren
-                      <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                      </svg>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            )}
-          </article>
-        ))}
-      </div>
-
-      <!-- No Results State -->
-      <div id="no-results" class="no-results hidden">
-        <div class="no-results-icon">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="48" height="48">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+                </a>
+              )}
+            </article>
+          ))}
         </div>
-        <p class="no-results-title">Keine Beiträge gefunden</p>
-        <p class="no-results-desc">Versuch es mit anderen Filtern oder einem anderen Suchbegriff.</p>
-        <button id="reset-search" class="reset-search-btn">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-          </svg>
-          Alle Beiträge anzeigen
-        </button>
       </div>
+      
     </div>
   </section>
 
@@ -254,532 +198,7 @@ const sortedTags = Object.entries(tagMap).sort((a, b) => b[1] - a[1]);
     </div>
   </section>
   <Schema 
-    title="Blog | Jörg Zimmer - SEO Insights & Strategien"
+    title="Blog | Jörg Zimmer - SEO Insights & Themen-Hubs"
     description="Aktuelle Insights zu SEO, SEA und Performance Marketing von Jörg Zimmer."
   />
 </Layout>
-
-<script>
-  // --- Blog Filter Logic ---
-  const searchInput = document.getElementById('blog-search') as HTMLInputElement;
-  const searchClear = document.getElementById('search-clear');
-  const categoryTabs = document.querySelectorAll('.category-tab');
-  const tagPills = document.querySelectorAll('.tag-pill');
-  const postCards = document.querySelectorAll('.blog-card');
-  const noResults = document.getElementById('no-results');
-  const resultCount = document.getElementById('result-count');
-  const resetAll = document.getElementById('reset-all');
-  const resetSearch = document.getElementById('reset-search');
-  const tagCloudWrapper = document.getElementById('tag-cloud-wrapper');
-
-  let activeCategory = 'all';
-  let activeTags: Set<string> = new Set();
-  let searchTerm = '';
-  let debounceTimer: ReturnType<typeof setTimeout>;
-
-  function filterPosts() {
-    let visibleCount = 0;
-
-    postCards.forEach(card => {
-      const el = card as HTMLElement;
-      const cardTags: string[] = JSON.parse(el.getAttribute('data-tags') || '[]');
-      const cardCategory = el.getAttribute('data-category') || '';
-      const title = el.getAttribute('data-title') || '';
-      const desc = el.getAttribute('data-description') || '';
-
-      const matchesSearch = !searchTerm || title.includes(searchTerm) || desc.includes(searchTerm);
-      const matchesCategory = activeCategory === 'all' || cardCategory === activeCategory;
-      const matchesTags = activeTags.size === 0 || [...activeTags].some(tag => cardTags.includes(tag));
-
-      if (matchesSearch && matchesCategory && matchesTags) {
-        el.classList.remove('card-hidden');
-        el.classList.add('card-visible');
-        visibleCount++;
-      } else {
-        el.classList.add('card-hidden');
-        el.classList.remove('card-visible');
-      }
-    });
-
-    // Update result count
-    if (resultCount) {
-      resultCount.textContent = `${visibleCount} ${visibleCount === 1 ? 'Beitrag' : 'Beiträge'}`;
-    }
-
-    // Show/hide no results
-    if (visibleCount === 0) {
-      noResults?.classList.remove('hidden');
-    } else {
-      noResults?.classList.add('hidden');
-    }
-
-    // Show/hide reset all button
-    const hasFilters = activeCategory !== 'all' || activeTags.size > 0 || searchTerm !== '';
-    if (hasFilters) {
-      resetAll?.classList.remove('hidden');
-    } else {
-      resetAll?.classList.add('hidden');
-    }
-  }
-
-  function updateTagVisibility() {
-    // Show only tags relevant to the active category
-    let relevantTags: Set<string> = new Set();
-
-    postCards.forEach(card => {
-      const el = card as HTMLElement;
-      const cardCategory = el.getAttribute('data-category') || '';
-      const cardTags: string[] = JSON.parse(el.getAttribute('data-tags') || '[]');
-
-      if (activeCategory === 'all' || cardCategory === activeCategory) {
-        cardTags.forEach(tag => relevantTags.add(tag));
-      }
-    });
-
-    let anyVisible = false;
-    tagPills.forEach(pill => {
-      const tag = pill.getAttribute('data-tag') || '';
-      if (relevantTags.has(tag)) {
-        (pill as HTMLElement).classList.remove('tag-hidden');
-        anyVisible = true;
-      } else {
-        (pill as HTMLElement).classList.add('tag-hidden');
-        // If a hidden tag was active, deselect it
-        if (activeTags.has(tag)) {
-          activeTags.delete(tag);
-          pill.classList.remove('active');
-        }
-      }
-    });
-
-    // Show/hide tag cloud wrapper
-    if (tagCloudWrapper) {
-      if (anyVisible) {
-        tagCloudWrapper.classList.remove('tag-cloud-hidden');
-      } else {
-        tagCloudWrapper.classList.add('tag-cloud-hidden');
-      }
-    }
-  }
-
-  function resetFilters() {
-    searchInput.value = '';
-    searchTerm = '';
-    activeCategory = 'all';
-    activeTags.clear();
-    searchClear?.classList.add('hidden');
-
-    categoryTabs.forEach(tab => tab.classList.remove('active'));
-    document.querySelector('[data-category="all"]')?.classList.add('active');
-
-    tagPills.forEach(pill => pill.classList.remove('active'));
-
-    updateTagVisibility();
-    filterPosts();
-  }
-
-  // --- Event Listeners ---
-
-  // Search with debouncing
-  searchInput?.addEventListener('input', (e) => {
-    clearTimeout(debounceTimer);
-    const value = (e.target as HTMLInputElement).value;
-
-    // Show/hide clear button
-    if (value.length > 0) {
-      searchClear?.classList.remove('hidden');
-    } else {
-      searchClear?.classList.add('hidden');
-    }
-
-    debounceTimer = setTimeout(() => {
-      searchTerm = value.toLowerCase();
-      filterPosts();
-    }, 200);
-  });
-
-  // Clear search
-  searchClear?.addEventListener('click', () => {
-    searchInput.value = '';
-    searchTerm = '';
-    searchClear.classList.add('hidden');
-    searchInput.focus();
-    filterPosts();
-  });
-
-  // Category tabs
-  categoryTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      categoryTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      activeCategory = tab.getAttribute('data-category') || 'all';
-
-      // Reset tags when switching category
-      activeTags.clear();
-      tagPills.forEach(pill => pill.classList.remove('active'));
-
-      updateTagVisibility();
-      filterPosts();
-    });
-  });
-
-  // Tag pills (multi-select)
-  tagPills.forEach(pill => {
-    pill.addEventListener('click', () => {
-      const tag = pill.getAttribute('data-tag') || '';
-
-      if (activeTags.has(tag)) {
-        activeTags.delete(tag);
-        pill.classList.remove('active');
-      } else {
-        activeTags.add(tag);
-        pill.classList.add('active');
-      }
-
-      filterPosts();
-    });
-  });
-
-  // Reset buttons
-  resetAll?.addEventListener('click', resetFilters);
-  resetSearch?.addEventListener('click', resetFilters);
-
-  // Initialize tag visibility
-  updateTagVisibility();
-</script>
-
-<style>
-  /* --- Filter Wrapper --- */
-  .blog-filter-wrapper {
-    background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
-    border: 1px solid #e5e5e5;
-    border-radius: 1.25rem;
-    padding: 1.5rem;
-  }
-
-  /* --- Search Bar --- */
-  .search-bar {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
-  .search-icon {
-    position: absolute;
-    left: 0.875rem;
-    width: 1.25rem;
-    height: 1.25rem;
-    color: #767676;
-    pointer-events: none;
-    transition: color 0.2s;
-  }
-
-  .search-input {
-    width: 100%;
-    padding: 0.75rem 2.75rem 0.75rem 2.75rem;
-    border-radius: 0.75rem;
-    border: 1.5px solid #e0e0e0;
-    background: #fff;
-    font-size: 0.95rem;
-    color: #333;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    outline: none;
-  }
-
-  .search-input::placeholder {
-    color: #767676;
-  }
-
-  .search-input:focus {
-    border-color: #D4FF00;
-    box-shadow: 0 0 0 3px rgba(212, 255, 0, 0.2);
-  }
-
-  .search-input:focus ~ .search-icon,
-  .search-input:focus + .search-icon {
-    color: #888;
-  }
-
-  .search-clear {
-    position: absolute;
-    right: 0.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.75rem;
-    height: 1.75rem;
-    border-radius: 50%;
-    border: none;
-    background: #e5e5e5;
-    color: #666;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s;
-  }
-
-  .search-clear.hidden {
-    display: none !important;
-  }
-
-  .search-clear:hover {
-    background: #ddd;
-    color: #333;
-  }
-
-  /* --- Category Tabs --- */
-  .category-tabs-wrapper {
-    overflow: hidden;
-  }
-
-  .category-tabs {
-    display: flex;
-    gap: 0.5rem;
-    overflow-x: auto;
-    padding-bottom: 2px;
-  }
-
-  .category-tab {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.375rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.625rem;
-    border: 1.5px solid #e0e0e0;
-    background: #fff;
-    color: #666;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .category-tab:hover {
-    border-color: #ccc;
-    color: #555;
-    background: #fafafa;
-  }
-
-  .category-tab.active {
-    background: #1A1A1A;
-    color: #fff;
-    border-color: #1A1A1A;
-  }
-
-  .category-tab.active .tab-count {
-    background: rgba(212, 255, 0, 0.3);
-    color: #D4FF00;
-  }
-
-  .tab-count {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.375rem;
-    height: 1.375rem;
-    padding: 0 0.375rem;
-    border-radius: 0.5rem;
-    background: #e5e5e5;
-    color: #666;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    transition: all 0.25s;
-  }
-
-  /* --- Tag Cloud --- */
-  .tag-cloud-wrapper {
-    overflow: visible;
-    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s;
-    opacity: 1;
-  }
-
-  .tag-cloud-wrapper.tag-cloud-hidden {
-    max-height: 0;
-    opacity: 0;
-  }
-
-  .tag-cloud {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.375rem;
-    overflow-x: auto;
-    padding: 2px 0;
-  }
-
-  .tag-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
-    padding: 0.3rem 0.75rem;
-    border-radius: 999px;
-    border: 1px solid #e5e5e5;
-    background: #fff;
-    color: #888;
-    font-size: 0.75rem;
-    font-weight: 500;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .tag-pill:hover {
-    border-color: #D4FF00;
-    color: #555;
-    background: rgba(212, 255, 0, 0.05);
-  }
-
-  .tag-pill.active {
-    background: rgba(212, 255, 0, 0.15);
-    border-color: #D4FF00;
-    color: #1A1A1A;
-  }
-
-  .tag-pill.active .tag-badge {
-    background: #1A1A1A;
-    color: #D4FF00;
-  }
-
-  .tag-pill.tag-hidden {
-    display: none;
-  }
-
-  .tag-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 1.125rem;
-    height: 1.125rem;
-    padding: 0 0.25rem;
-    border-radius: 999px;
-    background: #e5e5e5;
-    color: #666;
-    font-size: 0.625rem;
-    font-weight: 700;
-    transition: all 0.2s;
-  }
-
-  /* --- Result Bar --- */
-  .result-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem;
-  }
-
-  .result-count {
-    font-size: 0.8125rem;
-    font-weight: 600;
-    color: #666;
-    transition: color 0.2s;
-  }
-
-  .reset-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.375rem;
-    padding: 0.3rem 0.75rem;
-    border-radius: 0.5rem;
-    border: none;
-    background: rgba(220, 38, 38, 0.08);
-    color: #dc2626;
-    font-size: 0.75rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .reset-btn.hidden {
-    display: none !important;
-  }
-
-  .reset-btn:hover {
-    background: rgba(220, 38, 38, 0.15);
-  }
-
-  /* --- Card Animations --- */
-  .blog-card {
-    transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1),
-                transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-
-  .blog-card.card-hidden {
-    opacity: 0;
-    transform: scale(0.96) translateY(8px);
-    pointer-events: none;
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-
-  .blog-card.card-visible {
-    animation: cardFadeIn 0.35s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  }
-
-  @keyframes cardFadeIn {
-    from {
-      opacity: 0;
-      transform: scale(0.96) translateY(8px);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1) translateY(0);
-    }
-  }
-
-  /* --- No Results --- */
-  .no-results {
-    text-align: center;
-    padding: 4rem 1rem;
-  }
-
-  .no-results-icon {
-    color: #666;
-    margin-bottom: 1rem;
-  }
-
-  .no-results-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #666;
-    margin-bottom: 0.5rem;
-  }
-
-  .no-results-desc {
-    font-size: 0.95rem;
-    color: #666;
-    margin-bottom: 1.5rem;
-  }
-
-  .reset-search-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.625rem 1.25rem;
-    border-radius: 0.75rem;
-    border: 1.5px solid #D4FF00;
-    background: rgba(212, 255, 0, 0.1);
-    color: #1A1A1A;
-    font-size: 0.875rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .reset-search-btn:hover {
-    background: rgba(212, 255, 0, 0.25);
-  }
-
-  /* --- Scrollbar hide helper --- */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-</style>

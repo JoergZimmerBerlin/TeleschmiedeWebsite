@@ -5,7 +5,7 @@ date: "2025-12-15"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_anfang-des-jahres-ist-eine-gute-zeit-%C3%BCber-activity-7413894079392120832-3qiu"
 image: "../../assets/images/profile/joerg-zimmer-cta.webp"
 image_alt: "SE Ranking AI Tracker - Vergleich der Rankings in KI-Suchmaschinen"
-category: "SEO Tools"
+category: "Tech SEO & Tools"
 tags: ["Case Study", "Tools"]
 key_takeaways:
   - "SE Ranking integriert AI-Tracking nahtlos in sein bestehendes SEO-Ökosystem – alles an einem Ort."

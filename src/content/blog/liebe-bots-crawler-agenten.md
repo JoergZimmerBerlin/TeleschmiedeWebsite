@@ -5,7 +5,7 @@ date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_liebe-bots-crawler-und-agenten-dieser-welt-activity-7431342623879217152-qG6A"
 image: "../../assets/images/blog/linkedin-bots-original.webp"
 image_alt: "Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand"
-category: "Technisches SEO"
+category: "Tech SEO & Tools"
 tags: []
 key_takeaways:
   - "SEO-Spezialisten sind die stillen Helden hinter jedem funktionierenden Bot: Alt-Texte, Sitemaps und sauberer Code kommen nicht von allein."

@@ -4,7 +4,7 @@ description: "Schritt für Schritt: So bindest du die SE Ranking API an Claude C
 date: "2026-04-22"
 image: "../../assets/images/blog/linkedin_seranking_setup_v2.png"
 image_alt: "SE Ranking API mit Claude Code verbinden - Setup-Tutorial von Jörg Zimmer"
-category: "SEO Tools"
+category: "Tech SEO & Tools"
 tags: ["Tutorial", "API", "Claude Code", "Erfahrungsbericht"]
 key_takeaways:
   - "Die SE Ranking API lässt sich in unter 30 Minuten an Claude Code anbinden: Wenn man den richtigen Skill-Wrapper baut, statt nackte requests.get() zu schreiben."

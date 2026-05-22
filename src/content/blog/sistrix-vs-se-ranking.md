@@ -4,7 +4,7 @@ description: "Sistrix vs. SE Ranking: Ein ehrlicher Vergleich aus der Praxis. Lo
 date: "2026-03-06"
 image: "../../assets/images/blog/joerg-und-mitarbeiter.webp"
 image_alt: "Jörg Zimmer und Nico Kavelar von SE Ranking auf der Campixx"
-category: "SEO Tools"
+category: "Tech SEO & Tools"
 tags: ["Erfahrungsbericht", "Vergleich"]
 key_takeaways:
   - "SE Ranking bietet oft mehr Leistungen wie Mitarbeiterplätze und Reporting-Vorlagen schon im günstigeren Core-Tarif als Sistrix im Start-Paket."

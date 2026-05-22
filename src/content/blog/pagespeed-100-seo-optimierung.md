@@ -5,7 +5,7 @@ date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_pagespeed-100-perfekte-performance-activity-7290107283416819712-lP49"
 image: "../../assets/images/blog/pagespeed-tuning-guide.webp"
 image_alt: "PageSpeed 100/100 für die Teleschmiede - Jörg Zimmer optimiert die Performance"
-category: "Technisches SEO"
+category: "Tech SEO & Tools"
 tags: []
 key_takeaways:
   - "Eine 100 im PageSpeed-Index ist kein Selbstzweck, sondern ein Wettbewerbsvorteil."

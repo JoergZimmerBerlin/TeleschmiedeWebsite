@@ -4,7 +4,7 @@ description: "Backlinks, Keyword-Research, AI Search, Website Audit: 6 Endpunkt-
 date: "2026-04-25"
 image: "../../assets/images/blog/seranking-api-kategorien-mindmap.webp"
 image_alt: "SE Ranking API: Die 6 Kategorien als Mindmap Übersicht"
-category: "SEO Tools"
+category: "Tech SEO & Tools"
 tags: ["API", "Endpunkte", "Übersicht", "Kosten"]
 key_takeaways:
   - "Die SE Ranking API gliedert sich in 6 Bereiche: wer nur Rankings tracken will, nutzt 10% davon, wer ernsthaft SEO-automatisieren will, braucht die anderen 90%."

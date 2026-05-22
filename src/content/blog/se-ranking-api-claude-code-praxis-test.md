@@ -4,7 +4,7 @@ description: "Praxis-Test: So nutze ich die SE Ranking API und Claude Code für 
 date: "2026-04-29"
 image: "../../assets/images/blog/seranking-praxistest-hero.webp"
 image_alt: "SE Ranking API Praxis-Test - drei Domains im Vergleich mit Claude Code"
-category: "SEO Tools"
+category: "Tech SEO & Tools"
 tags: ["Case Study", "API", "Keyword-Analyse", "Praxis"]
 related_posts: ["se-ranking-api-claude-code-setup", "se-ranking-api-endpunkte-kompass", "se-ranking-preise"]
 key_takeaways:

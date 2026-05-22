@@ -2,6 +2,7 @@
 title: "GEO Guide: Sichtbarkeit in ChatGPT & Gemini 🌻"
 description: "SEO ist tot? Nein, es entwickelt sich weiter. Erfahre alles über GEO, die 3-Stufen-Pyramide für KI-Sichtbarkeit und die Grounding Page."
 date: "2026-03-27"
+category: "AI SEO"
 image: "../../assets/images/blog/blog-geo-pyramide-3d.png"
 image_alt: "Die GEO-Pyramide: Ein 3-Stufen-Modell für Sichtbarkeit in generativen KIs"
 key_takeaways:

@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'SEO Consulting: Strategische Fachberatung'
 description: 'SEO Consulting ist die strategische Seite der Suchmaschinenoptimierung. Hier geht es nicht um Schrauben drehen, sondern um den Masterplan.'
 date: "2026-03-10"

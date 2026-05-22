@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'PageSpeed: Ladezeit-Optimierung für Google'
 description: 'PageSpeed erklärt: Warum Ladezeit ein kritischer Rankingfaktor für SEO und UX ist und wie du deine Website schneller machst. ALOHA! 🌻'
 date: "2026-03-10"

@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Meta Description: Seitenbeschreibung für Google'
 description: 'Meta Description Optimierung: So schreibst du Texte, die Klicks bringen. Tipps für CTR & Sichtbarkeit in den Suchergebnissen. ALOHA!'
 date: "2026-03-10"

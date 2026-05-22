@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Technisches Schema-Markup: Guide für LLMs & SEO'
 description: 'Schema-Markup 2026: Von Rich Snippets zur AI-Infrastruktur. Erfahre, wie du Entity-Depth und Disambiguierung für Google & LLMs nutzt. ALOHA! 🌻'
 date: "2026-03-31"

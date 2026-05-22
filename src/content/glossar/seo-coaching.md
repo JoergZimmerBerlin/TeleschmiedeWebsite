@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg'
 description: 'SEO Coaching macht dich unabhängig von Agenturen. Lerne die Tools und Strategien, um dein eigenes SEO zu beurteilen und zu steuern.'
 date: "2026-03-10"

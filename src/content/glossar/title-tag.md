@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Title Tag (HTML-Titel): Optimale SEO-Schreibweise'
 description: 'Der Title Tag: Eines der wichtigsten On-Page SEO-Elemente. Tipps zur Optimierung für Google-Rankings und höhere Klickraten. ALOHA! 🌻'
 date: "2026-03-10"

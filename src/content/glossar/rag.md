@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'RAG: Das Gehirn-Doping für deine KI-Inhalte'
 description: 'RAG (Retrieval-Augmented Generation) einfach erklärt: Wie du ChatGPT & Co. mit deinen eigenen Daten fütterst und Halluzinationen verhinderst. ALOHA! 🌻'
 date: "2026-03-19"

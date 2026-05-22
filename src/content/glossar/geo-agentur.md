@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'GEO Agentur (Generative Engine Optimization)'
 description: 'Eine GEO Agentur optimiert deine Sichtbarkeit in KI-Suchmaschinen wie ChatGPT und Perplexity. Erfahre, warum klassisches SEO allein nicht mehr reicht.'
 date: "2026-03-10"

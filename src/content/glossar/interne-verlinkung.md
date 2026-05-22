@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Interne Verlinkung: On-Page Strategien für SEO'
 description: 'Interne Verlinkung im SEO: Steuere den Nutzerfluss und verteile Linkjuice optimal auf deiner Website. Tipps für die perfekte Struktur. ALOHA! 🌻'
 date: "2026-03-10"

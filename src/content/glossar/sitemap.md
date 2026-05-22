@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'Sitemap: XML & HTML Formate für Suchmaschinen'
 description: 'Eine Sitemap ist der Wegweiser für Google. Sie hilft Crawlern, alle wichtigen Seiten deiner Website schnell und effizient zu finden.'
 date: "2026-03-10"

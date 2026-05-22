@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Local SEO: Sichtbarkeit für KI-Agenten & Voice'
 description: 'Local SEO (2026): Von Google Maps zur ''Agentic Search''. Erfahre, wie Siri, Alexa und GPT-Agenten lokale Unternehmen finden. ALOHA! 🌻'
 date: "2026-03-31"

@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'SEO Agentur Berlin: Experten für Ihre Sichtbarkeit'
 description: 'Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit dem Profitability-Audit von SE Ranking machen wir Ergebnisse messbar, während Rankscale uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat.'
 date: "2026-03-10"

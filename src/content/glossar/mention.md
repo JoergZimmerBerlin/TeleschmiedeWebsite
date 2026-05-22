@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Mention (Erwähnung): Definition und SEO-Bedeutung'
 description: 'Eine Mention ist die Erwähnung einer Marke im Netz. Sie dient als indirektes Vertrauenssignal für Google und KI-Modelle. ALOHA! 🌻'
 date: "2026-03-10"

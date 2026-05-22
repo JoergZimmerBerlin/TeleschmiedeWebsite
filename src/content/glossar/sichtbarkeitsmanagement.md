@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Sichtbarkeitsmanagement: Strategie für Experten'
 description: 'Sichtbarkeitsmanagement: Strategische Steuerung deiner digitalen Präsenz in Google, KI-Systemen und auf allen relevanten Plattformen. ALOHA! 🌻'
 date: "2026-03-10"

@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'Generative Engine Optimization (GEO): SEO für KI 2026'
 description: 'GEO (2026): Werde zur unumstößlichen Antwortquelle in ChatGPT, Perplexity & Google AI Overviews. Erfahre alles über RAG, Grounding & AI-Readiness. ALOHA!'
 date: "2026-03-31"

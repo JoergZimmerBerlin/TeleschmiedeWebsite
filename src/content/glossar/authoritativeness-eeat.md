@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Authoritativeness: E-E-A-T Autorität (KI-Reputation)'
 description: 'Authoritativeness 2026: Warum deine digitale Reputation wichtiger ist als jeder Backlink. Wie KIs echte Autorität im Knowledge Graph messen. ALOHA! 🌻'
 date: "2026-03-31"

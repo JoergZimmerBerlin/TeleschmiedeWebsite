@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Entity SEO: Das Wissens-Netzwerk für KIs'
 description: 'Entity SEO (2026): Optimierung für den semantischen Vektorraum. Erfahre, wie du ''Entity Depth'' & Grounding für LLMs nutzt. ALOHA! 🌻'
 date: "2026-03-31"

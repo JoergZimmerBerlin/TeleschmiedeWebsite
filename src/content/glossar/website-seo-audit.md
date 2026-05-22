@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Website SEO Audit: Der komplette Guide zur Website-Analyse'
 description: 'Ein Website SEO Audit ist das Fundament jeder Optimierung. Erfahre, wie du mit Profi-Tools wie SE Ranking über 115 Faktoren analysierst.'
 date: "2026-03-20"

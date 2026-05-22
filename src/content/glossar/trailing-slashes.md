@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'Trailing Slashes: SEO & Duplicate Content'
 description: 'Trailing Slashes im SEO: Warum der Schrägstrich am Ende der URL wichtig ist und wie du Duplicate Content vermeidest. ALOHA! 🌻'
 date: "2026-03-10"

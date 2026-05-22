@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'E-E-A-T (Google Quality Rater Guidelines 2026)'
 description: 'E-E-A-T (2026): Wie KI-Modelle Expertise, Erfahrung, Autorität und Trust technisch validieren. Digitale Reputation für Mensch & Maschine. ALOHA! 🌻'
 date: "2026-03-31"

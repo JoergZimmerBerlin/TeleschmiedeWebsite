@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Suchvolumen (Search Volume): Nachfrage verstehen'
 description: 'Suchvolumen zeigt dir, wie viele Menschen monatlich nach einem Begriff suchen. Ein wichtiger Indikator, aber oft überschätzt.'
 date: "2026-03-10"

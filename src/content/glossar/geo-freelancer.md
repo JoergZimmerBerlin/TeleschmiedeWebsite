@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'GEO Freelancer (Generative Engine Optimization)'
 description: 'Ein GEO Freelancer optimiert dein Ranking in KI-Suchmaschinen. Warum ein spezialisierter Freelancer oft die bessere Wahl als eine Agentur ist.'
 date: "2026-03-10"

@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'Robots.txt: Anweisungen für Suchmaschinen-Crawler'
 description: 'Die robots.txt steuert, welche Crawler, Suchmaschinen und KI-Agenten auf welche Verzeichnisse deiner Website zugreifen dürfen. ALOHA!'
 date: "2026-03-10"

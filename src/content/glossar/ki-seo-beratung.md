@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'KI-SEO Beratung: Agentur für die Antwort-Ära'
 description: 'KI SEO Beratung & Optimierung: Warum klassische Agenturen an ChatGPT & Co. scheitern und warum du echte Senior-Expertise brauchst. ALOHA! 🌻'
 date: "2026-03-19"

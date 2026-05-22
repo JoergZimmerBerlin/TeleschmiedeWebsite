@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Knowledge Graph: Vernetzung von Wissen bei Google'
 description: 'Der Google Knowledge Graph ist eine riesige Datenbank, die Wissen über reale Objekte (Entitäten) und deren Beziehungen untereinander verknüpft.'
 date: "2026-03-10"

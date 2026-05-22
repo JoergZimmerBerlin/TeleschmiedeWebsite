@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Entitäten-Building: Autorität in der KI-Suche'
 description: 'Entitäten-Building ist der systematische Aufbau deiner digitalen Identität als Entität im Knowledge Graph und in KI-Modellen.'
 date: "2026-03-10"

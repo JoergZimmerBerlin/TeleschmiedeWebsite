@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'GEO Optimierung: Währung für KI-Sichtbarkeit'
 description: 'GEO Optimierung (Generative Engine Optimization) einfach erklärt: Wie du in ChatGPT, Perplexity & Gemini zitiert wirst. Inklusive Tracking Tipps. ALOHA! 🌻'
 date: "2026-03-19"

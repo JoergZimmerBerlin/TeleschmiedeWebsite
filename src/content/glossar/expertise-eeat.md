@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Expertise: Fachliche Autorität (E-E-A-T 2026)'
 description: 'Expertise 2026: Wie du dein Fachwissen maschinenlesbar machst. Fach-Profil und Topical Authority als KI-Rankingfaktor. ALOHA! 🌻'
 date: "2026-03-31"

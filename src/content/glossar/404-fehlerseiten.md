@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: '404 Fehlerseiten: Bedeutung und SEO-Optimierung'
 description: 'Eine 404 Fehlerseite erscheint, wenn ein Inhalt nicht gefunden wird. Erfahre, warum das für dein SEO gefährlich ist und wie du es löst.'
 date: "2026-03-10"

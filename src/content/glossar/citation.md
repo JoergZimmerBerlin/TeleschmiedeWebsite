@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Citation (Zitierung): Bedeutung für Local SEO'
 description: 'Citations in der KI-Ära: Warum Markenerwähnungen ohne Link entscheidend dafür sind, ob ChatGPT & Gemini dich als Experten zitieren. ALOHA! 🌻'
 date: "2026-03-10"

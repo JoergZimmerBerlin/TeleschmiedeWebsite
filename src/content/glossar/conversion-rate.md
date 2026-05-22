@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Conversion-Rate-Optimierung (CRO): Mehr Umsatz'
 description: 'Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions.'
 date: "2026-03-10"

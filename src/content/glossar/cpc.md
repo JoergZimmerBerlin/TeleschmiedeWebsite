@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'CPC (Cost per Click): Abrechnung bei Google Ads'
 description: 'CPC gibt an, wie viel du für einen Klick auf eine Werbeanzeige bei Google Ads bezahlst. Ein wichtiger Indikator für Keyword-Wertigkeit.'
 date: "2026-03-10"

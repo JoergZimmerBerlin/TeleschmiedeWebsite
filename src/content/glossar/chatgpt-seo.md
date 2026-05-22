@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'ChatGPT SEO: Strategien für Sichtbarkeit in KI'
 description: 'ChatGPT SEO: Wie du deine Marke in OpenAI''s SearchGPT und ChatGPT sichtbar machst. Alles über Stability, Citations und den RankScale AI Tracker. ALOHA! 🌻'
 date: "2026-03-19"

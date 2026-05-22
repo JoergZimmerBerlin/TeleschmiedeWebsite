@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Linkbuilding: Strategien für Autorität'
 description: 'Linkbuilding 2026: Warum Qualität heute über Quantität siegt. Erfahre, wie du hochwertige Backlinks aufbaust, die deine Autorität stärken. ALOHA! 🌻'
 date: "2026-03-10"

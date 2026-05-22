@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'AI Tracking Tools: Sichtbarkeit in der KI-Suche'
 description: 'AI Tracking Tools messen deine Sichtbarkeit in KI-Antworten von ChatGPT, Perplexity, Gemini und Co. Ohne Messung keine Optimierung.'
 date: "2026-03-10"

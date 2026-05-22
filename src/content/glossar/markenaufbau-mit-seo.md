@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Markenaufbau mit SEO: Strategien für Brand-SEO'
 description: 'Markenaufbau mit SEO: Positioniere deine Marke strategisch bei Google und in der KI-Suche. Branding trifft Performance. ALOHA! 🌻'
 date: "2026-03-10"

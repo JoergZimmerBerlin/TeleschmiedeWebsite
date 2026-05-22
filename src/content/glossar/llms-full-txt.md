@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'LLMs-full.txt: Das Deep-Knowledge-Repository für KIs'
 description: 'Die llms-full.txt ist die detaillierte Erweiterung der llms.txt. Sie liefert Large Language Models alle relevanten Daten für ein tiefes Kontext-Verständnis.'
 date: "2026-04-14"

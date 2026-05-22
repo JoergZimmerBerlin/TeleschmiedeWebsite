@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'Google Search Console: Das wichtigste SEO-Tool'
 description: 'Die Google Search Console ist das wichtigste Werkzeug für jeden Webseitenbetreiber. Hier erfährst du direkt von Google, wie deine Seite performt.'
 date: "2026-03-10"

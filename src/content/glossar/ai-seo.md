@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'AI SEO: Suchmaschinenoptimierung für die KI-Ära'
 description: 'AI SEO verbindet klassische Suchmaschinenoptimierung mit KI-Strategien. Es umfasst SEO, GEO, AEO und LLMO als integrierte Disziplin.'
 date: "2026-03-10"

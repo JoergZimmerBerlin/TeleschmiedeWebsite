@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Keyword Tools: SE Ranking und Alternativen im Test'
 description: 'Ein Keyword Tool hilft dir, Suchbegriffe zu finden, zu analysieren und zu bewerten. Ohne Tool ist modernes SEO unmöglich.'
 date: "2026-03-10"

@@ -1,4 +1,5 @@
 ---
+category: "AI SEO & Generative Search"
 title: 'LLM-Optimization (LLMO): SEO für Sprachmodelle'
 description: 'LLMO optimiert deine Inhalte für ChatGPT, Gemini und Claude. Das Ziel: Von KI-Modellen als verlässliche Quelle erkannt und zitiert werden.'
 date: "2026-03-10"

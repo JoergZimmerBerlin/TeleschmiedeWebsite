@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Keywordrecherche: Die Basis jeder SEO-Strategie'
 description: 'Die Keywordrecherche ist das Fundament jeder SEO-Maßnahme. Erfahre, wie du die Begriffe findest, nach denen deine Kunden wirklich suchen.'
 date: "2026-03-10"

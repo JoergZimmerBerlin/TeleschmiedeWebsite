@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Google Algorithmus: Funktionsweise & Updates'
 description: 'Der Google Algorithmus ist das Herzstück der Suchmaschine. Erfahre, wie er funktioniert, welche Updates ihn formen und warum du ihn verstehen musst.'
 date: "2026-03-10"

@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'Crawler & Search Bots: Die Internet-Arbeiter'
 description: 'Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst.'
 date: "2026-03-10"

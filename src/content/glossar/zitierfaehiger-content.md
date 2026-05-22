@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Zitierfähiger Content: Rankingfaktor in der KI-Ära'
 description: 'Zitierfähiger Content ist Content, den KI-Systeme und Suchmaschinen wortwörtlich als Antwort übernehmen können. Die Grundlage für AEO und GEO.'
 date: "2026-03-10"

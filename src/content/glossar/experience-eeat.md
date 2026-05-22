@@ -1,4 +1,5 @@
 ---
+category: "E-E-A-T & Offpage"
 title: 'Experience: E-E-A-T Erfahrung 2026 (Anti-KI-Signal)'
 description: 'Experience (2026): Warum reale Praxiserfahrung das wichtigste Signal gegen KI-Einheitsbrei ist. Beweise deine Echtheit für Google & LLMs. ALOHA! 🌻'
 date: "2026-03-31"

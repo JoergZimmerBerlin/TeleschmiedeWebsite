@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'Money Keywords: Suchbegriffe mit hoher Conversion'
 description: 'Money Keywords sind Begriffe mit einer klaren Kaufabsicht. Hier erfährst du, wie du die rentabelsten Begriffe für dein Business findest.'
 date: "2026-03-10"

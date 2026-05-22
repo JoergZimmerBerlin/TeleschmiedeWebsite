@@ -1,4 +1,5 @@
 ---
+category: "SEO Basics & Onpage"
 title: 'SEO Audit: Der komplette Guide zur Website-Analyse'
 description: 'Ein SEO Audit ist der Gesundheitscheck für deine Website. Wir decken Fehler auf und bauen die Roadmap für dein Ranking.'
 date: "2026-03-10"

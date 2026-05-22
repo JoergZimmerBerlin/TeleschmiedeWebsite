@@ -1,4 +1,5 @@
 ---
+category: "Technisches SEO & UX"
 title: 'Technisches, Inhaltliches & Strategisches SEO'
 description: 'Die drei Säulen des SEO-Erfolgs. Erfahre, wie technisches Fundament, exzellenter Content und eine smarte Strategie ineinandergreifen.'
 date: "2026-03-10"

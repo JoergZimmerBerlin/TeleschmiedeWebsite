@@ -9,10 +9,18 @@ const sortedEntries = glossarEntries.sort((a, b) =>
 );
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const categories = [
+  { name: 'SEO Basics & Onpage', slug: 'seo-basics-onpage' },
+  { name: 'Technisches SEO & UX', slug: 'technisches-seo-ux' },
+  { name: 'AI SEO & Generative Search', slug: 'ai-seo-generative-search' },
+  { name: 'E-E-A-T & Offpage', slug: 'e-e-a-t-offpage' }
+];
+
 ---
 
 <Layout
-  title="SEO Glossar | Fachbegriffe einfach erklärt"
+  title="Glossar | Fachbegriffe einfach erklärt | Jörg Zimmer"
   description="Lexikon der wichtigsten Fachbegriffe aus SEO, SEA und Online Marketing – verständlich erklärt für Entscheider."
 >
   <!-- Hero Section -->
@@ -21,7 +29,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       <div class="text-center max-w-3xl mx-auto mb-16">
         <p class="subheadline mb-4">Wissen</p>
         <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold leading-normal mb-6">
-          <span class="highlight">SEO Glossar</span>
+          <span class="highlight">Glossar</span>
         </h1>
         <p class="text-lg md:text-xl text-gray-muted">
           Dein Nachschlagewerk für modernes Suchmaschinenmarketing, KI-Suche und technische Optimierung.
@@ -46,6 +54,20 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
       </div>
 
+      
+      <!-- Category Hubs -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
+        {categories.map(cat => {
+          const count = sortedEntries.filter(e => (e.data.category || 'SEO Basics & Onpage') === cat.name).length;
+          return (
+            <a href={`${baseUrl}/glossar/${cat.slug}/`} class="group bg-gray-50 border border-gray-100 rounded-2xl p-6 hover:bg-white hover:border-lime-accent hover:shadow-md transition-all duration-300">
+              <h3 class="font-bold text-lg text-dark mb-2 group-hover:text-lime-600 transition-colors">{cat.name}</h3>
+              <p class="text-sm text-gray-muted">{count} Begriffe</p>
+            </a>
+          );
+        })}
+      </div>
+
       <!-- Entries Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="glossar-grid">
         {sortedEntries.map((entry) => (
@@ -55,6 +77,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
             data-title={entry.data.title.toLowerCase()}
             data-desc={entry.data.description.toLowerCase()}
           >
+            <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics & Onpage'}</span>
             <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
               {entry.data.title}
             </h2>
@@ -79,7 +102,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
   <Schema 
-    title="SEO Glossar | Fachbegriffe einfach erklärt"
+    title="Glossar | Fachbegriffe einfach erklärt | Jörg Zimmer"
     description="Lexikon der wichtigsten Fachbegriffe aus SEO, SEA und Online Marketing – verständlich erklärt für Entscheider."
   />
 </Layout>

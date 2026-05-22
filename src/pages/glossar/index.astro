@@ -70,12 +70,13 @@ const categories = [
 
       <!-- Entries Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="glossar-grid">
-        {sortedEntries.map((entry) => (
+        {sortedEntries.map((entry, index) => (
           <a 
             href={`${baseUrl}/glossar/${entry.id}/`} 
-            class="glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300"
+            class={`glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300 ${index >= 12 ? 'hidden' : ''}`}
             data-title={entry.data.title.toLowerCase()}
             data-desc={entry.data.description.toLowerCase()}
+            data-hidden={index >= 12 ? 'true' : 'false'}
           >
             <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics & Onpage'}</span>
             <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
@@ -93,6 +94,18 @@ const categories = [
           </a>
         ))}
       </div>
+
+      <!-- Show All Button -->
+      {sortedEntries.length > 12 && (
+        <div class="text-center mt-12" id="show-all-wrapper">
+          <button id="show-all-btn" class="btn-primary inline-flex items-center gap-2">
+            Alle {sortedEntries.length} Begriffe anzeigen
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
+      )}
 
       <!-- No Results State -->
       <div id="no-results" class="no-results hidden">
@@ -112,6 +125,21 @@ const categories = [
     const searchInput = document.getElementById('glossar-search') as HTMLInputElement;
     const cards = document.querySelectorAll('.glossar-card');
     const noResults = document.getElementById('no-results');
+    const showAllBtn = document.getElementById('show-all-btn');
+    const showAllWrapper = document.getElementById('show-all-wrapper');
+    
+    let isExpanded = false;
+
+    if (showAllBtn) {
+      showAllBtn.addEventListener('click', () => {
+        isExpanded = true;
+        cards.forEach(card => {
+          card.classList.remove('hidden');
+          (card as HTMLElement).style.display = 'block';
+        });
+        if (showAllWrapper) showAllWrapper.classList.add('hidden');
+      });
+    }
 
     searchInput?.addEventListener('input', (e) => {
       const term = (e.target as HTMLInputElement).value.toLowerCase();
@@ -120,21 +148,40 @@ const categories = [
       cards.forEach(card => {
         const title = card.getAttribute('data-title') || '';
         const desc = card.getAttribute('data-desc') || '';
+        const isInitiallyHidden = card.getAttribute('data-hidden') === 'true';
 
-        if (title.includes(term) || desc.includes(term)) {
-          (card as HTMLElement).style.display = 'block';
-          visibleCount++;
+        if (term === '') {
+          // Reset to initial or expanded state
+          if (!isExpanded && isInitiallyHidden) {
+            card.classList.add('hidden');
+            (card as HTMLElement).style.display = '';
+          } else {
+            card.classList.remove('hidden');
+            (card as HTMLElement).style.display = '';
+          }
+          if (!isExpanded && showAllWrapper) showAllWrapper.classList.remove('hidden');
         } else {
-          (card as HTMLElement).style.display = 'none';
+          // Search active
+          if (showAllWrapper) showAllWrapper.classList.add('hidden');
+          if (title.includes(term) || desc.includes(term)) {
+            card.classList.remove('hidden');
+            (card as HTMLElement).style.display = 'block';
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+            (card as HTMLElement).style.display = 'none';
+          }
         }
       });
 
-      if (noResults) {
+      if (term !== '' && noResults) {
         if (visibleCount === 0) {
           noResults.classList.remove('hidden');
         } else {
           noResults.classList.add('hidden');
         }
+      } else if (noResults) {
+        noResults.classList.add('hidden');
       }
     });
   }

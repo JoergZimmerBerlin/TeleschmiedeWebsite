@@ -26,7 +26,7 @@ faqs:
 
 Seit gut 25 Jahren arbeite ich nun schon als SEO Freelancer. Es war und ist eine unglaubliche Reise, auf der ich einen Großteil des Google Universums kennenlernen durfte.
 
-**Ich liebe es, [Algorithmen](/glossar/google-algorithmus/) zu verstehen und für mich nutzbar zu machen.**
+**Ich liebe es, Algorithmen zu verstehen und für mich nutzbar zu machen.**
 
 Insbesondere jene, die hinter der Google Suche, YouTube, Google Maps und in den letzten Jahren zunehmend auch hinter LinkedIn stecken. Das ist mein tägliches Brot.
 

@@ -1,6 +1,6 @@
 ---
-title: "Vielleicht bin ich gar kein SEO, sondern digitaler Unternehmensberater 🚀"
-description: "Warum sich moderne SEO-Arbeit zur strategischen Unternehmensberatung wandelt, warum SEO nicht tot ist, sondern erwachsen wird und was das für deine Marke bedeutet."
+title: "Digitaler Unternehmensberater statt klassischem SEO"
+description: "Moderne SEO wandelt sich zur strategischen Unternehmensberatung. Erfahre, warum Data & Entity Consulting die neue Zukunft für Marken ist."
 date: "2026-05-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vielleicht-bin-ich-gar-kein-seo-sondern-activity-7466492365160206336-pdAg"
 image: "../../assets/images/blog/digitaler-unternehmensberater.webp"

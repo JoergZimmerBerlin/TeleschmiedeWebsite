@@ -140,7 +140,7 @@ Lass uns ein paar der treffendsten Kommentare betrachten, denn sie zeigen perfek
 
 ---
 
-## Fazit: Warum der Titel eigentlich egal ist
+## Tacheles: Warum der Titel eigentlich egal ist
 
 Ob ich mich nun Senior SEO, Digitaler Architekt, Context Engineer oder Digitaler Unternehmensberater nenne, ändert am Ende des Tages nichts an meiner Arbeit. 
 

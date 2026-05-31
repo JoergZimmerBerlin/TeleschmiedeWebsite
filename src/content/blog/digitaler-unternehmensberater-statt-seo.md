@@ -153,3 +153,11 @@ Wenn du das Gefühl hast, dein aktuelles "SEO" dümpelt nur auf der Oberfläche 
 Ich bringe den Kaffee mit, du die harten Zahlen. Und dann machen wir Unternehmensberatung – auch wenn wir es am Ende vielleicht einfach "gute SEO-Arbeit" nennen.
 
 ALOHA! 🌻✌️
+
+---
+
+<div class="blog-cta-box">
+  <h3>Diskutiere mit mir auf LinkedIn! 🚀</h3>
+  <p>Dieser Beitrag entstand aus einer lebhaften Diskussion auf LinkedIn. Lass uns dort weiterreden und vernetze dich mit mir!</p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vielleicht-bin-ich-gar-kein-seo-sondern-activity-7466492365160206336-pdAg" target="_blank" rel="noopener noreferrer">Zum LinkedIn-Beitrag</a>
+</div>

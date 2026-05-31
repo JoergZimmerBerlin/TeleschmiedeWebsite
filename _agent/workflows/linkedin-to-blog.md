@@ -21,7 +21,7 @@ Each article must follow this frontmatter structure:
 ```yaml
 ---
 title: "SEO-Titel ohne Emoji mit besten Keywords (ca. 50 Zeichen)"
-description: "Punchy summary for SEO (max 160 chars)."
+description: "Frische Zusammenfassung mit Keywords, ohne Emojis (ca. 140 Zeichen)"
 date: "YYYY-MM-DD"
 linkedin_url: "https://www.linkedin.com/posts/..."
 image: "../../assets/images/blog/filename.webp"

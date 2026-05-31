@@ -90,15 +90,14 @@ const categories = [
         })}
       </div>
 
-      <!-- Entries Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="glossar-grid">
-        {sortedEntries.map((entry, index) => (
+      <!-- Featured Entries Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16" id="glossar-grid">
+        {sortedEntries.slice(0, 12).map((entry) => (
           <a 
             href={`${baseUrl}/glossar/${entry.id}/`} 
-            class={`glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300 ${index >= 12 ? 'hidden' : ''}`}
+            class="glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300"
             data-title={entry.data.title.toLowerCase()}
             data-desc={entry.data.description.toLowerCase()}
-            data-hidden={index >= 12 ? 'true' : 'false'}
           >
             <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics & Onpage'}</span>
             <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
@@ -117,29 +116,26 @@ const categories = [
         ))}
       </div>
 
-      <!-- Show All Button -->
-      {sortedEntries.length > 12 && (
-        <div class="text-center mt-12" id="show-all-wrapper">
-          <button 
-            type="button" 
-            id="show-all-btn" 
-            class="btn-primary inline-flex items-center gap-2"
-            onclick="
-              document.querySelectorAll('.glossar-card').forEach(function(c) {
-                c.classList.remove('hidden');
-                c.style.display = 'block';
-              });
-              document.getElementById('show-all-wrapper').style.display = 'none';
-              window.glossarIsExpanded = true;
-            "
-          >
-            Alle {sortedEntries.length} Begriffe anzeigen
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-        </div>
-      )}
+      <!-- All Entries Index (SEO-friendly) -->
+      <div class="mt-16 border-t border-gray-100 pt-12" id="glossar-list-section">
+        <h2 class="text-2xl font-bold mb-8 text-center">Alle {sortedEntries.length} Begriffe im Überblick</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-3">
+          {sortedEntries.map((entry) => (
+            <li 
+              class="glossar-list-item"
+              data-title={entry.data.title.toLowerCase()}
+              data-desc={entry.data.description.toLowerCase()}
+            >
+              <a 
+                href={`${baseUrl}/glossar/${entry.id}/`}
+                class="text-gray-700 hover:text-lime-600 hover:underline transition-colors block text-sm"
+              >
+                {entry.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <!-- No Results State -->
       <div id="no-results" class="no-results hidden">
@@ -158,37 +154,23 @@ const categories = [
   function initGlossarSearch() {
     const searchInput = document.getElementById('glossar-search') as HTMLInputElement;
     const cards = document.querySelectorAll('.glossar-card');
+    const listItems = document.querySelectorAll('.glossar-list-item');
     const noResults = document.getElementById('no-results');
-    const showAllBtn = document.getElementById('show-all-btn');
-    let getIsExpanded = () => window.glossarIsExpanded === true;
-
-    // The showAllBtn click is now handled inline in the HTML onclick attribute.
-    // We only need to handle the search input here.
+    const listSection = document.getElementById('glossar-list-section');
 
     searchInput?.addEventListener('input', (e) => {
       const term = (e.target as HTMLInputElement).value.toLowerCase();
       let visibleCount = 0;
 
+      // Filter featured cards
       cards.forEach(card => {
         const title = card.getAttribute('data-title') || '';
         const desc = card.getAttribute('data-desc') || '';
-        const isInitiallyHidden = card.getAttribute('data-hidden') === 'true';
 
         if (term === '') {
-          // Reset to initial or expanded state
-          if (!getIsExpanded() && isInitiallyHidden) {
-            card.classList.add('hidden');
-            (card as HTMLElement).style.display = '';
-          } else {
-            card.classList.remove('hidden');
-            (card as HTMLElement).style.display = '';
-          }
-          const showAllWrapper = document.getElementById('show-all-wrapper');
-          if (!getIsExpanded() && showAllWrapper) showAllWrapper.classList.remove('hidden');
+          card.classList.remove('hidden');
+          (card as HTMLElement).style.display = '';
         } else {
-          // Search active
-          const showAllWrapper = document.getElementById('show-all-wrapper');
-          if (showAllWrapper) showAllWrapper.classList.add('hidden');
           if (title.includes(term) || desc.includes(term)) {
             card.classList.remove('hidden');
             (card as HTMLElement).style.display = 'block';
@@ -200,14 +182,38 @@ const categories = [
         }
       });
 
+      // Filter list items
+      listItems.forEach(item => {
+        const title = item.getAttribute('data-title') || '';
+        const desc = item.getAttribute('data-desc') || '';
+
+        if (term === '') {
+          item.classList.remove('hidden');
+          (item as HTMLElement).style.display = '';
+        } else {
+          if (title.includes(term) || desc.includes(term)) {
+            item.classList.remove('hidden');
+            (item as HTMLElement).style.display = 'block';
+            visibleCount++;
+          } else {
+            item.classList.add('hidden');
+            (item as HTMLElement).style.display = 'none';
+          }
+        }
+      });
+
+      // Toggle No Results
       if (term !== '' && noResults) {
         if (visibleCount === 0) {
           noResults.classList.remove('hidden');
+          if (listSection) listSection.classList.add('hidden');
         } else {
           noResults.classList.add('hidden');
+          if (listSection) listSection.classList.remove('hidden');
         }
-      } else if (noResults) {
-        noResults.classList.add('hidden');
+      } else {
+        if (noResults) noResults.classList.add('hidden');
+        if (listSection) listSection.classList.remove('hidden');
       }
     });
   }

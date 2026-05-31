@@ -20,7 +20,7 @@ Use this workflow when Jörg provides a LinkedIn URL or a screenshot of a post t
 Each article must follow this frontmatter structure:
 ```yaml
 ---
-title: "Catchy Title with Emoji 🚀"
+title: "SEO-Titel ohne Emoji mit besten Keywords (ca. 50 Zeichen)"
 description: "Punchy summary for SEO (max 160 chars)."
 date: "YYYY-MM-DD"
 linkedin_url: "https://www.linkedin.com/posts/..."

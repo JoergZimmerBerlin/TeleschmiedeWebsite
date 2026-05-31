@@ -108,7 +108,7 @@ Lass uns ein paar der treffendsten Kommentare betrachten, denn sie zeigen perfek
   <p class="italic text-dark mb-0">"Du hast noch nicht verstanden, daß SEO ...fast...mausetot ist. [...] SEOs sind überflüssig und werden nicht mehr gebraucht. Es gibt einen Suchalgorithmus, auf den alle scharf sind und der wirklich ALLES beherrscht, koordiniert und optimiert."</p>
 </div>
 
-Torsten spricht aus, was viele befürchten. Ist SEO tot? Nein. Die alte Art von SEO, das stupide Optimieren für Klickraten, ist in der Tat auf dem Rückzug. Aber das bedeutet nicht, dass wir "überflüssig" werden. Ganz im Gegenteil: Die neuen KI-Suchalgorithmen, die "alles beherrschen", brauchen saubere, strukturierte und absolut konsistente Daten. Wer bereitet diese Daten auf? Wer stellt sicher, dass die KI nicht halluziniert? Genau: Wir. Nur nennen wir es vielleicht bald nicht mehr SEO, sondern Data & Entity Consulting.
+Schönes Bashing und NEIN. Die meisten SEO Spezialisten sind gefragter den je. Mit den KI Modellen kommen neue Wege in den Markt die ebenfalls ordentlich bespielt werden wollen. Das fängt wie immer bei sauberer Technik an, geht über saubere Inhaltsextrahering bis hin zur Steuerung der digitalen Wahrnehmung. Das so aufzubereiten das dort keine Fehler sind bedarf Spezialisten. Die SEO Gilde ist am nähesten dran, weil bereits über Jahre mit Algo und Maschinenverständnis aufgewachsen. Außerdem ist es nicht der eine Algo, sondern ein komplexes System. Die Vorstellung das SEOs nur tricksen ist so ungefähr 2010 gestorben. In den letzten 15 Jahren hat sich das stark gewandelt zu einer Dienstleistung die FÜR und nicht gegen die Anbieter arbeitet. Mit der Ausweitung der LLMs kommen neben der Website noch viel mehr Quellen hinzu. Das spüren alle die plötzlich falsche Informationen in der KI Antwort über ihr Unternehmen sehen. Wie willst du das optimieren ohne eine Spezialisten der das vernünftig analysiert und gegensteuert?
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Christian Gülcan</p>
@@ -122,21 +122,21 @@ Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist
   <p class="italic text-dark mb-0">"Für mich lässt sich das unter 'Context Engineering' zusammenfassen. Engineering finde ich passend, weil es Systematik und Methode ausdrückt. Context ist durchaus wie bei der ISO 9001:2015 als Umfeld zu sehen, in dem sich eine Domain bewegt."</p>
 </div>
 
-Rainer liefert hier mein absolutes Lieblings-Zitat aus dem gesamten Thread. **Context Engineering!** Das trifft den Nagel auf den Kopf. Wir sind Ingenieure des digitalen Kontexts. Wir bauen das Umfeld, in dem Marken von KIs verstanden und empfohlen werden. Das ist tiefgreifende, systematische Arbeit, die exakt beschreibt, wohin unsere Reise geht.
+Grüße an meinen Freund Mister Grandler. Schön das Netzwerk funktioniert. Zu deinem Vorschlag. Das ist bei mir nicht ganz so richtig. Meine Basis ist technisches und agentisches SEO/GEO. Ohne dieses saubere Auslesen kein Context. Nur Inhalt der sauber ins Netz gespült wird kann von Maschinen verwendet werden. Bei Entitäten und Inhalt Optimierung stimmt Context Optimierung. Da ist jede Menge zu tun und Mark baut da super Systeme.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Lars Ouissa</p>
   <p class="italic text-dark mb-0">"Das ist genau der richtige Weg. Alle SEOs, die das nicht tun, haben irgendwann ein riesiges Problem. [...] Vor allem die eigentliche Beratung nehme ich durch das Aufkommen von KI bzw. GEO aktuell selbst auch als viel intensiver wahr."</p>
 </div>
 
-100% Zustimmung. Die Intensität der Beratung ist in den letzten zwei Jahren exponentiell gestiegen. Wo man früher einfach eine Liste mit "Fixes" geschickt hat, moderiert man heute stundenlange Workshops, um Markenarchitektur für die Generative Engine Optimization neu auszurichten.
+Genau meine Gedanken. Das Spielfeld wird zunehmend größer und komplexer. Reines SEO ist gut, es muss aber auch das gesamte Umfeld betrachtet werden. Unser Job wird nicht aussterben. Im Gegenteil. Jetzt kommt noch der Agentic Layer hinzu und alles was AI Sichtbarkeit an Quellen mitbringt. Von Hause ist da nichts so optimiert das man nichts mehr tun müsste. Es fängt auf der AI tauglichen Website an, geht über Bewertungen, Datenbanken bis hin jedem digitalen Abdruck. Das zu analysieren und zu optimieren ist die Aufgabe. Selbst wenn die Suche an sich vielleicht an Gewicht verliert. Die Antworten müssen ja trotzdem irgendwo her kommen.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Thomas Kolb</p>
   <p class="italic text-dark mb-0">"Gerade die Recherche von Konkurrenz und Nachfrage ist doch im Grunde Unternehmensberatung pur, oder? Das mit der Nische, das mit mit Angebot und Nachfrage."</p>
 </div>
 
-Besser hätte ich es nicht zusammenfassen können. Wenn wir Keyword-Recherchen (oder heute Intent-Recherchen) machen, betreiben wir reine Marktforschung. Wir identifizieren Marktlücken, Nachfrage-Peaks und Wettbewerbsvorteile. Dass wir das Ergebnis am Ende in Content gießen, ist nur die Umsetzung der betriebswirtschaftlichen Analyse.
+Voll. Allein eine gut gemachte Suchwortrecherche bietet bereits tiefen Markteinblick. Dann Wettbewerber technisch, inhaltlich und servicemäßig durchzuleuchten geht auch in die Richtung. Potenzial Analysen sowieso. Auf die KI Welt vorbereitet zu sein und mit Nachdruck auf gute Nutzererfahrung hinzuweisen auch. Bewertungen sinnvoll einsammeln und Prozesse dafür zu bauen. Es gibt wirklich viele Beispiele wo SEO schon viel mehr ist.
 
 ---
 

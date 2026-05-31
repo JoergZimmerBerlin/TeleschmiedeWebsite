@@ -108,35 +108,35 @@ Lass uns ein paar der treffendsten Kommentare betrachten, denn sie zeigen perfek
   <p class="italic text-dark mb-0">"Du hast noch nicht verstanden, daß SEO ...fast...mausetot ist. [...] SEOs sind überflüssig und werden nicht mehr gebraucht. Es gibt einen Suchalgorithmus, auf den alle scharf sind und der wirklich ALLES beherrscht, koordiniert und optimiert."</p>
 </div>
 
-**Meine Antwort:** Torsten spricht aus, was viele befürchten. Ist SEO tot? Nein. Die alte Art von SEO, das stupide Optimieren für Klickraten, ist in der Tat auf dem Rückzug. Aber das bedeutet nicht, dass wir "überflüssig" werden. Ganz im Gegenteil: Die neuen KI-Suchalgorithmen, die "alles beherrschen", brauchen saubere, strukturierte und absolut konsistente Daten. Wer bereitet diese Daten auf? Wer stellt sicher, dass die KI nicht halluziniert? Genau: Wir. Nur nennen wir es vielleicht bald nicht mehr SEO, sondern Data & Entity Consulting.
+Torsten spricht aus, was viele befürchten. Ist SEO tot? Nein. Die alte Art von SEO, das stupide Optimieren für Klickraten, ist in der Tat auf dem Rückzug. Aber das bedeutet nicht, dass wir "überflüssig" werden. Ganz im Gegenteil: Die neuen KI-Suchalgorithmen, die "alles beherrschen", brauchen saubere, strukturierte und absolut konsistente Daten. Wer bereitet diese Daten auf? Wer stellt sicher, dass die KI nicht halluziniert? Genau: Wir. Nur nennen wir es vielleicht bald nicht mehr SEO, sondern Data & Entity Consulting.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Christian Gülcan</p>
   <p class="italic text-dark mb-0">"Digitaler Unternehmensberater hat so ein Geschmäckle von 'Digitalisierung' oft inkl. Werbe-Buzz mit Bafa-Combo. [...] Auch der Berater ist zudem immer mehr KI als Wettbewerber zu Unternehmensberatungen."</p>
 </div>
 
-**Meine Antwort:** Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist durch viele Agenturen, die heißes Wasser erfinden und teuer verkaufen, extrem verbrannt. Das "Geschmäckle" ist da. Aber genau deshalb müssen wir den Begriff neu definieren. Echte Beratung ist kein Buzzword-Bingo. Es ist das Ärmelhochkrempeln, in die Google Search Console schauen, Server-Logs analysieren und dem CEO unangenehme Wahrheiten über seinen Tech-Stack sagen. Und ja, KI ist ein Wettbewerber in der Beratung – aber KI hat keine Seniorität in Firmenpolitik und Change Management.
+Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist durch viele Agenturen, die heißes Wasser erfinden und teuer verkaufen, extrem verbrannt. Das "Geschmäckle" ist da. Aber genau deshalb müssen wir den Begriff neu definieren. Echte Beratung ist kein Buzzword-Bingo. Es ist das Ärmelhochkrempeln, in die Google Search Console schauen, Server-Logs analysieren und dem CEO unangenehme Wahrheiten über seinen Tech-Stack sagen. Und ja, KI ist ein Wettbewerber in der Beratung – aber KI hat keine Seniorität in Firmenpolitik und Change Management.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Rainer Tolksdorf</p>
   <p class="italic text-dark mb-0">"Für mich lässt sich das unter 'Context Engineering' zusammenfassen. Engineering finde ich passend, weil es Systematik und Methode ausdrückt. Context ist durchaus wie bei der ISO 9001:2015 als Umfeld zu sehen, in dem sich eine Domain bewegt."</p>
 </div>
 
-**Meine Antwort:** Rainer liefert hier mein absolutes Lieblings-Zitat aus dem gesamten Thread. **Context Engineering!** Das trifft den Nagel auf den Kopf. Wir sind Ingenieure des digitalen Kontexts. Wir bauen das Umfeld, in dem Marken von KIs verstanden und empfohlen werden. Das ist tiefgreifende, systematische Arbeit, die exakt beschreibt, wohin unsere Reise geht.
+Rainer liefert hier mein absolutes Lieblings-Zitat aus dem gesamten Thread. **Context Engineering!** Das trifft den Nagel auf den Kopf. Wir sind Ingenieure des digitalen Kontexts. Wir bauen das Umfeld, in dem Marken von KIs verstanden und empfohlen werden. Das ist tiefgreifende, systematische Arbeit, die exakt beschreibt, wohin unsere Reise geht.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Lars Ouissa</p>
   <p class="italic text-dark mb-0">"Das ist genau der richtige Weg. Alle SEOs, die das nicht tun, haben irgendwann ein riesiges Problem. [...] Vor allem die eigentliche Beratung nehme ich durch das Aufkommen von KI bzw. GEO aktuell selbst auch als viel intensiver wahr."</p>
 </div>
 
-**Meine Antwort:** 100% Zustimmung. Die Intensität der Beratung ist in den letzten zwei Jahren exponentiell gestiegen. Wo man früher einfach eine Liste mit "Fixes" geschickt hat, moderiert man heute stundenlange Workshops, um Markenarchitektur für die Generative Engine Optimization neu auszurichten.
+100% Zustimmung. Die Intensität der Beratung ist in den letzten zwei Jahren exponentiell gestiegen. Wo man früher einfach eine Liste mit "Fixes" geschickt hat, moderiert man heute stundenlange Workshops, um Markenarchitektur für die Generative Engine Optimization neu auszurichten.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Thomas Kolb</p>
   <p class="italic text-dark mb-0">"Gerade die Recherche von Konkurrenz und Nachfrage ist doch im Grunde Unternehmensberatung pur, oder? Das mit der Nische, das mit mit Angebot und Nachfrage."</p>
 </div>
 
-**Meine Antwort:** Besser hätte ich es nicht zusammenfassen können. Wenn wir Keyword-Recherchen (oder heute Intent-Recherchen) machen, betreiben wir reine Marktforschung. Wir identifizieren Marktlücken, Nachfrage-Peaks und Wettbewerbsvorteile. Dass wir das Ergebnis am Ende in Content gießen, ist nur die Umsetzung der betriebswirtschaftlichen Analyse.
+Besser hätte ich es nicht zusammenfassen können. Wenn wir Keyword-Recherchen (oder heute Intent-Recherchen) machen, betreiben wir reine Marktforschung. Wir identifizieren Marktlücken, Nachfrage-Peaks und Wettbewerbsvorteile. Dass wir das Ergebnis am Ende in Content gießen, ist nur die Umsetzung der betriebswirtschaftlichen Analyse.
 
 ---
 

@@ -69,7 +69,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
   - **Meta-Description Regel:** Die Description muss eine frische Zusammenfassung sein, die wichtigsten Keywords enthalten, **ca. 140 Zeichen** lang sein und darf ebenfalls **keine Emojis** beinhalten.
   - **Wichtig:** Die Antworten (`answer`) in den FAQs müssen **zwingend ausführlich sein und immer aus mehreren zusammenhängenden Sätzen bestehen**, um Expertenwissen gut zu vermitteln.
 - **Slug:** Kurz, kleingeschrieben, Trennung durch Bindestriche.
-- **Bilder:** Muss immer auf eine `.webp` Datei in `src/assets/` verweisen.
+- **Bilder:** Muss immer auf eine `.webp` Datei in `src/assets/` verweisen. Bei Blog-Karten oder Teasern (Astro `<Image>`) **immer nur die Breite (`width`) definieren** und auf `height` verzichten, damit das originale Seitenverhältnis beim Rendern erhalten bleibt. Der finale Zuschnitt erfolgt ausschließlich im Browser via CSS (`object-cover object-top`). So wird verhindert, dass bei Personenbildern die Köpfe von der Astro-Automatik abgeschnitten werden.
 
 ---
 

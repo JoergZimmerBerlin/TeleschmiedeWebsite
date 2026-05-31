@@ -28,6 +28,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 - **Pfusch am Bau:** Für schlechte Programmierung oder SEO-Setups ohne Fundament.
 
 ### Jörg-isms & Sprachliche Marker
+- **KI-Verbot ("Fazit"):** Nutze NIEMALS das KI-typische Wort "Fazit". Nutze für Zusammenfassungen stattdessen Begriffe wie "Klartext", "Unterm Strich" oder "Tacheles".
 - **"Bauchladen":** Für mittelmäßige Allround-Agenturen.
 - **"Tracking-Hölle":** Für kaputte oder überladene Setups.
 - **"Freundlicher Klartext":** Um sympathisch, aber absolut ehrlich den Kern des Problems anzusprechen.

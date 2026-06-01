@@ -103,7 +103,7 @@ const categories: Category[] = [
         title: "Freelancer Team Vermittlung",
         price: "0€",
         unit: "Kostenfrei",
-        description: `Du brauchst Experten für Paid Ads, Webdesign, Content oder E-Commerce, hast aber kein eigenes Netzwerk? Ich vermittle dir handverlesene Spezialisten aus dem <a href="${baseUrl}/freelancer-team/" class="font-semibold text-dark underline decoration-lime-accent decoration-2 underline-offset-4 hover:text-lime-600 transition-colors">Freelancer Team</a>. Wir sind alle unabhängig, arbeiten aber als eingespieltes Team zusammen – Inhouse-Feeling ohne Agentur-Overhead.`,
+        description: `Du brauchst Experten für Paid Ads, Webdesign, Content oder E-Commerce, hast aber kein eigenes Netzwerk? Ich vermittle dir handverlesene Spezialisten aus dem <a href="${baseUrl}/freelancer-team/" class="font-semibold text-dark underline decoration-lime-accent decoration-2 underline-offset-4 hover:text-lime-600 transition-colors" title="Freelancer Team">Freelancer Team</a>. Wir sind alle unabhängig, arbeiten aber als eingespieltes Team zusammen – Inhouse-Feeling ohne Agentur-Overhead.`,
         bullets: [
           "Zugriff auf alle Marketing-Disziplinen",
           "Erprobte, hochqualifizierte Experten",
@@ -258,13 +258,12 @@ const allOffers = categories.flatMap(cat => cat.services.map(s => ({
                   </ul>
 
                   {service.link && (
-                    <a 
-                      href={service.link}
+                    <a href={service.link}
                       class:list={[
                         "inline-flex items-center gap-2 font-medium underline underline-offset-4 decoration-2 transition-colors",
                         service.isDark ? "text-lime-400 decoration-lime-400/30 hover:decoration-lime-400" : "text-dark decoration-lime-accent/50 hover:decoration-lime-accent"
                       ]}
-                    >
+                     title={service.linkText}>
                       {service.linkText}
                       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -299,13 +298,13 @@ const allOffers = categories.flatMap(cat => cat.services.map(s => ({
       </div>
 
       <div class="grid md:grid-cols-2 gap-8">
-        <a href={`${baseUrl}/seo-freelancer-berlin/`} class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border border-transparent hover:border-lime-accent group">
+        <a href={`${baseUrl}/seo-freelancer-berlin/`} class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border border-transparent hover:border-lime-accent group" title="SEO Freelancer Profil Mein Fokus auf Strategie, technische Exzellenz und 20+ Jahre Erfahrung in der organischen Suche. Profil ansehen">
           <h3 class="text-2xl font-bold mb-4 group-hover:text-lime-600 transition-colors">SEO Freelancer Profil</h3>
           <p class="text-gray-700 mb-6">Mein Fokus auf Strategie, technische Exzellenz und 20+ Jahre Erfahrung in der organischen Suche.</p>
           <span class="flex items-center gap-2 font-bold underline underline-offset-4 group-hover:text-lime-600 transition-colors">Profil ansehen <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
         </a>
 
-        <a href={`${baseUrl}/google-ads-freelancer-berlin/`} class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border border-transparent hover:border-lime-accent group">
+        <a href={`${baseUrl}/google-ads-freelancer-berlin/`} class="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all border border-transparent hover:border-lime-accent group" title="Google Ads Profil 10 Jahre exklusive SEA-Expertise, ROI-fokussiertes Management und Google Partner Know-how. Profil ansehen">
           <h3 class="text-2xl font-bold mb-4 group-hover:text-lime-600 transition-colors">Google Ads Profil</h3>
           <p class="text-gray-700 mb-6">10 Jahre exklusive SEA-Expertise, ROI-fokussiertes Management und Google Partner Know-how.</p>
           <span class="flex items-center gap-2 font-bold underline underline-offset-4 group-hover:text-lime-600 transition-colors">Profil ansehen <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></span>
@@ -324,7 +323,7 @@ const allOffers = categories.flatMap(cat => cat.services.map(s => ({
         Schreib mir eine Nachricht und wir finden gemeinsam heraus,
         wie ich dir am besten helfen kann. ALOHA! 🌻
       </p>
-      <a href={`${baseUrl}/kontakt/`} class="btn-primary">
+      <a href={`${baseUrl}/kontakt/`} class="btn-primary" title="Unverbindlich anfragen">
         Unverbindlich anfragen
       </a>
     </div>

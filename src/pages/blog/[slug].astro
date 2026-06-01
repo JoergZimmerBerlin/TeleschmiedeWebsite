@@ -153,7 +153,7 @@ if (type === 'post') {
     <section class="section pt-12 pb-12 bg-white">
       <div class="container-narrow">
         <div class="mb-10">
-          <a href={`${baseUrl}/blog/`} class="text-sm font-bold text-gray-muted hover:text-lime-600 transition-colors inline-flex items-center gap-2 mb-6">
+          <a href={`${baseUrl}/blog/`} class="text-sm font-bold text-gray-muted hover:text-lime-600 transition-colors inline-flex items-center gap-2 mb-6" title="Zurück zur Blog-Übersicht">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
@@ -223,15 +223,15 @@ if (type === 'post') {
     <article class="section pt-8 relative">
       <div class="container-narrow">
         <nav class="flex items-center gap-2 text-xs text-gray-muted mb-8" aria-label="Breadcrumb">
-          <a href="/" class="hover:text-dark transition-colors">Home</a>
+          <a href="/" class="hover:text-dark transition-colors" title="Home">Home</a>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-          <a href={`${baseUrl}/blog/`} class="hover:text-dark transition-colors">Blog</a>
+          <a href={`${baseUrl}/blog/`} class="hover:text-dark transition-colors" title="Blog">Blog</a>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
           <span class="text-dark font-medium line-clamp-1 truncate">{post.data.title}</span>
         </nav>
 
         <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
-          <a href={`${baseUrl}/blog/`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors">
+          <a href={`${baseUrl}/blog/`} class="inline-flex items-center gap-2 text-gray-muted hover:text-dark transition-colors" title="Zurück zum Blog">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
             Zurück zum Blog
           </a>
@@ -263,7 +263,7 @@ if (type === 'post') {
                 </div>
             </div>
             {post.data.linkedin_url && (
-              <a href={post.data.linkedin_url} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-lime-700 bg-lime-accent/20 px-4 py-2 rounded-full hover:bg-lime-accent/30 transition-all">
+              <a href={post.data.linkedin_url} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-lime-700 bg-lime-accent/20 px-4 py-2 rounded-full hover:bg-lime-accent/30 transition-all" title="LinkedIn Story">
                 LinkedIn Story
               </a>
             )}
@@ -281,7 +281,7 @@ if (type === 'post') {
                 <ul class="space-y-3">
                   {headings.filter(h => h.depth <= 3).map(heading => (
                     <li class={`${heading.depth === 3 ? 'ml-4' : ''}`}>
-                      <a href={`#${heading.slug}`} class="text-sm text-gray-muted hover:text-lime-600 transition-colors flex items-start gap-2 group">
+                      <a href={`#${heading.slug}`} class="text-sm text-gray-muted hover:text-lime-600 transition-colors flex items-start gap-2 group" title={heading.text}>
                         <span class="w-1 h-1 bg-gray-300 rounded-full mt-2 group-hover:bg-lime-500 transition-colors"></span>
                         <span class="flex-1">{heading.text}</span>
                       </a>
@@ -315,6 +315,9 @@ if (type === 'post') {
               <div class="flex items-center gap-3">
                 <button data-url={`https://teleschmie.de/blog/${post.id}/`} class="copy-link-btn btn-secondary !py-2.5 !px-5 text-sm flex items-center gap-2 group relative">
                   Link kopieren
+                  <span class="copy-feedback absolute -top-10 left-1/2 -translate-x-1/2 bg-[#1a1b1e] text-white text-[10px] font-bold uppercase py-1 px-2 rounded border border-gray-700 opacity-0 transition-opacity whitespace-nowrap pointer-events-none shadow-lg z-10">
+                    Kopiert!
+                  </span>
                 </button>
               </div>
             </div>
@@ -330,7 +333,7 @@ if (type === 'post') {
                 Jörg Zimmer ist SEO- und SEA-Freelancer aus Berlin Spandau mit über 20 Jahren Erfahrung.
               </p>
               <div class="flex flex-wrap justify-center md:justify-start gap-4">
-                <a href={`${baseUrl}/ueber-mich/`} class="text-lime-600 font-bold hover:underline underline-offset-4">Mehr über Jörg erfahren →</a>
+                <a href={`${baseUrl}/ueber-mich/`} class="text-lime-600 font-bold hover:underline underline-offset-4" title="Mehr über Jörg erfahren →">Mehr über Jörg erfahren →</a>
               </div>
             </div>
           </div>

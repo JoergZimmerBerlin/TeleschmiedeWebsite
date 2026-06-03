@@ -15,7 +15,7 @@ faqs:
   - question: "Was hat Ronny A. in der SEO-Sprechstunde konkret mitgenommen?"
     answer: "Ronny hob drei Dinge besonders hervor: die intensive Vorbereitung (Jörg kannte seine Website bereits vor dem Call), die klare Strukturierung der zwei Stunden ohne Zeitverschwendung, und den konkreten Mehrwert durch umsetzbare Erkenntnisse. Er betonte explizit, dass der Preis von 400€ 'völlig gerechtfertigt' sei und die 25-jährige Erfahrung widerspiele. Das sind keine PR-Floskeln – Ronny ist Local Guide mit 182+ Bewertungen und weiß, wie man Qualität beurteilt."
   - question: "Wie läuft die SEO-Sprechstunde genau ab?"
-    answer: "Der Prozess beginnt mit meiner Vorbereitung: Mindestens eine Stunde vor dem Call analysiere ich deine Seite mit Search Console, SISTRIX und einem Quick-Konkurrenzcheck. Im zweistündigen Videocall arbeiten wir per Screen-Sharing gemeinsam durch deine Website – ich zeige dir konkret, was zu ändern ist und warum. Danach bekommst du die vollständige Aufzeichnung, eine KI-gestützte Zusammenfassung und deinen individuellen Maßnahmenplan. Kein abgestaubtes PDF-Template, sondern dein persönlicher Schlachtplan."
+    answer: "Der Prozess beginnt mit meiner Vorbereitung: Ca. 30 Minuten vor dem Call analysiere ich deine Seite mit Search Console, SISTRIX und einem Quick-Konkurrenzcheck. Im zweistündigen Videocall arbeiten wir per Screen-Sharing gemeinsam durch deine Website – ich zeige dir konkret, was zu ändern ist und warum. Danach bekommst du die vollständige Aufzeichnung, eine KI-gestützte Zusammenfassung und deinen individuellen Maßnahmenplan. Kein abgestaubtes PDF-Template, sondern dein persönlicher Schlachtplan."
   - question: "Für wen ist die SEO-Sprechstunde nicht geeignet?"
     answer: "Klare Ansage: Wenn du glaubst, dass ich in 120 Minuten einen SEO-Zauberstab schwinge und du morgen auf Platz 1 bei 'Versicherung Vergleich' stehst, bist du hier falsch. SEO ist Handwerk – ich liefere die Werkzeuge und die Karte, laufen musst du selbst. Die Sprechstunde ist auch nichts für Leute, die danach nichts umsetzen wollen. Wer aber wirklich verstehen will, warum die eigene Seite hinter der Konkurrenz zurückbleibt, und bereit ist, es anzupacken – für den ist es das effektivste Format, das ich kenne."
   - question: "Was kostet die Sprechstunde und warum?"
@@ -48,7 +48,7 @@ Bei mir gibt es kein "Lass mal kurz gucken".
 
 Wenn wir den Call starten, kenne ich deine Seite schon. 
 
-Ich habe bereits 60 Minuten investiert. 
+Ich habe bereits ca. 30 Minuten investiert. 
 
 ### Mein Vorbereitungs-Check:
 

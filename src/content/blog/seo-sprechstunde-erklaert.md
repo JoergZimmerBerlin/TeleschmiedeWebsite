@@ -8,13 +8,13 @@ category: "SEO Praxis"
 tags: ["Sprechstunde"]
 key_takeaways:
   - "Die Sprechstunde ist keine nette Plauderstunde, sondern eine strukturierte Live-Analyse nach dem 80/20-Prinzip."
-  - "Vor dem Call investiere ich mindestens eine Stunde in dein Projekt – bei Minute 1 starten wir direkt im Thema, nicht bei Null."
+  - "Vor dem Call investiere ich ca. 30 Minuten in dein Projekt – bei Minute 1 starten wir direkt im Thema, nicht bei Null."
   - "Du bekommst Aufzeichnung, KI-Zusammenfassung und individuellen Maßnahmenplan – keine generische Checkliste."
 faqs:
   - question: "Was genau macht Jörg in den zwei Stunden der SEO-Sprechstunde?"
     answer: "Ich lege deine Website auf den Grill. Ich prüfe die Kruste (Design und Frontend-Performance), die Textur (Content-Qualität und Informationsarchitektur) und den Garraum (technisches Fundament). Wir arbeiten per Screen-Sharing live zusammen. Du stellst Fragen, ich gebe direkte Antworten. Wir priorisieren nach dem 80/20-Prinzip: Was sind die 20% deiner Probleme, deren Behebung dir 80% des Erfolgs bringt? Kein seitenlanges Audit-PDF, das in der Schublade landet, sondern echte Erkenntnisse, die du am nächsten Tag umsetzen kannst."
   - question: "Wie bereitet sich Jörg vor dem Call vor?"
-    answer: "Ich investiere mindestens eine Stunde (oft mehr) in dein Projekt, bevor wir uns sehen. In dieser Zeit starte ich meine Tools: Google Search Console, SISTRIX, Screaming Frog. Ich schaue mir an, für welche Keywords du bereits rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine technischen Core Web Vitals. Und ich mache einen Quick-Check deiner Konkurrenz. Wenn wir den Call starten, habe ich bereits ein klares Bild im Kopf. Wir fangen nicht bei Null an. Wir steigen direkt bei 100 ein."
+    answer: "Ich investiere ca. 30 Minuten in dein Projekt, bevor wir uns sehen. In dieser Zeit starte ich meine Tools: Google Search Console, SISTRIX, Screaming Frog. Ich schaue mir an, für welche Keywords du bereits rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine technischen Core Web Vitals. Und ich mache einen Quick-Check deiner Konkurrenz. Wenn wir den Call starten, habe ich bereits ein klares Bild im Kopf. Wir fangen nicht bei Null an. Wir steigen direkt bei 100 ein."
   - question: "Was bekommst du nach der Sprechstunde als Ergebnis?"
     answer: "Nach dem Call erhältst du drei Dinge: Erstens, die vollständige Aufzeichnung des Calls, damit du dich voll auf das Gespräch konzentrieren kannst ohne mitschreiben zu müssen. Zweitens, eine KI-gestützte Zusammenfassung der wichtigsten Punkte und Erkenntnisse. Drittens – und das ist der wertvollste Teil – einen individuellen Maßnahmenplan. Kein generisches SEO-Checklisten-Template, das ich für alle ausdrucke, sondern dein spezifischer Schlachtplan: Was du (oder dein Entwickler) als Nächstes konkret tun muss."
   - question: "Für wen ist die SEO-Sprechstunde wirklich geeignet?"
@@ -51,13 +51,13 @@ Die 400 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr d
 
 | Phase | Was passiert | Zeitinvest meinerseits |
 |---|---|---|
-| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | 1-2 Stunden vorab |
+| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | ca. 30 Minuten vorab |
 | **Live-Call** | Screen-Sharing, direkte Analyse, Priorisierung | 120 Minuten |
 | **Nachbereitung** | Aufzeichnung, KI-Zusammenfassung, Maßnahmenplan | 1 Stunde nachher |
 
-### 1. Die stille Stunde vor dem Call
+### 1. Die stille halbe Stunde vor dem Call
 
-Bevor wir uns sehen, sitze ich bereits mindestens eine Stunde an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
+Bevor wir uns sehen, sitze ich bereits ca. 30 Minuten an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
 
 Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
 

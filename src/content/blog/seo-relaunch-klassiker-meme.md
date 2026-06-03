@@ -1,6 +1,6 @@
 ---
 title: "SEO-Relaunch: Warum ohne SEO das Desaster droht"
-description: "Jedes Jahr das gleiche Meme: Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir das Chaos verhindern. ALOHA! 🌻"
+description: "Jedes Jahr das gleiche Meme: Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir das Chaos verhindern."
 date: "2026-03-11"
 category: "SEO Praxis"
 image: "../../assets/images/blog/relaunch-ohne-seo.webp"

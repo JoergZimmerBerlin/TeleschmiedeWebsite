@@ -1,6 +1,6 @@
 ---
 title: "Rankscale: 17 LLMs für 99€ monatlich tracken"
-description: "Rankscale trackt AI-Sichtbarkeit in 17 Sprachmodellen. Mein Test zeigt: Intuitive Bedienung, faire Preise, starke Ergebnisse für GEO. ALOHA! 🌻"
+description: "Rankscale trackt AI-Sichtbarkeit in 17 Sprachmodellen. Mein Test zeigt: Intuitive Bedienung, faire Preise, starke Ergebnisse für GEO."
 date: "2026-02-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-tracking-tool-mega-tool-gefunden-activity-7393993307170897920-zFpw"
 image: "../../assets/images/blog/rankscale-ai-visibility-tracking.webp"

@@ -1,5 +1,5 @@
 ---
-title: "Grounding Page Generator: Dein Schutzschild gegen KI-Halluzinationen 🏗️🚀"
+title: "Grounding Page Generator: Schutzschild gegen KI"
 description: "Warum eine Grounding Page (DE/EN) für dein AI-SEO überlebenswichtig ist und wie du sie mit meinem Generator-Tool in Sekunden baust."
 date: "2026-04-14"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_grounding-page-generator-aus-prompt-erstellen-activity-7445551304749379584-d5LW"

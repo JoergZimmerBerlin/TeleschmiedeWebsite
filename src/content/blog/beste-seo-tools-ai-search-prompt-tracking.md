@@ -1,7 +1,7 @@
 ---
 title: "Beste SEO-Tools für AI Search & Prompt Tracking"
 category: "Tech SEO & Tools"
-description: "Welche SEO-Tools tracken ChatGPT, Perplexity & Co. wirklich? Ein ehrlicher Vergleich von RankScale, SE Ranking und Gratis-Tools für deine AI Visibility. ALOHA! 🌻"
+description: "Welche SEO-Tools tracken ChatGPT, Perplexity & Co. wirklich? Ein ehrlicher Vergleich von RankScale, SE Ranking und Gratis-Tools für deine AI Visibility."
 date: "2026-03-19"
 image: "../../assets/images/blog/blog-ai-search-tools-3d.webp"
 image_alt: "Beste SEO Tools für AI Search 3D Grafik - Dashboard Übersicht für KI-Sichtbarkeit"

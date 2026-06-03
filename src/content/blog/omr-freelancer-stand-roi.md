@@ -1,5 +1,5 @@
 ---
-title: "Meine erste OMR mit eigenem Stand: Lohnt sich das? 🚀"
+title: "Meine erste OMR mit eigenem Stand: Lohnt sich das?"
 description: "Ein ehrlicher Rückblick auf meine erste OMR als Teil des Freelancer Teams. ROI, Networking und warum 1.000€ ein gutes Investment waren."
 date: "2026-05-12"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meine-erste-omr-gleich-mit-eigenem-stand-share-7459530597514817536-o4sO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"

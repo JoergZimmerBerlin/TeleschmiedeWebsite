@@ -1,5 +1,5 @@
 ---
-title: "Wir rocken die OMR: Das Freelancer Team mit 25 Leuten an einem Stand! 🚀"
+title: "Wir rocken die OMR: Das Freelancer Team vor Ort!"
 description: "Unglaublich, aber wahr! Triff unser 25-köpfiges Freelancer Team auf der OMR in Hamburg. Halle B6 K12. Komm vorbei und lass uns quatschen!"
 date: "2026-04-26"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-gehen-mit-25-leuten-zur-omr-unglaublich-activity-7454131442441252864-6h7i?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"

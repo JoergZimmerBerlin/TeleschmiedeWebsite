@@ -5,7 +5,7 @@ date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vibe-coding-consultant-roland-golla-im-video-activity-7473914443111002112-RxMV"
 image: "../../assets/images/blog/campixx-video-roland-golla.webp"
 image_alt: "Roland Golla im Video Studio von Florian Gypser auf der CAMPIXX 2026"
-category: "SEO Praxis"
+category: "Event"
 tags: ["CAMPIXX", "Video Marketing", "Vibe Coding", "Event"]
 key_takeaways:
   - "Auf Konferenzen wie der CAMPIXX sind nicht nur die Vorträge entscheidend, sondern die O-Töne der Teilnehmer."

@@ -5,7 +5,7 @@ date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-sch%C3%B6nste-an-der-campixx-sind-die-gespr%C3%A4che-activity-7473890187715043328-bQ0T"
 image: "../../assets/images/blog/campixx-networking.webp"
 image_alt: "Jörg Zimmer im Gespräch auf der CAMPIXX über Conversion Optimierung"
-category: "SEO Praxis"
+category: "Event"
 tags: ["Conversion Optimierung", "CAMPIXX", "Networking", "SEO"]
 key_takeaways:
   - "Echte Erkenntnisse entstehen auf Events oft auf dem Flur, nicht nur bei den Vorträgen."

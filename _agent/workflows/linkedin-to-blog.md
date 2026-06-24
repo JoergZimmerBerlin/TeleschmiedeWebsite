@@ -53,3 +53,19 @@ faqs:
 - **Reading Time**: Ensure the layout calculates this (Standard: 180 wpm for German).
 - **Internal Links**: Link to at least 2 relevant [Glossary items](/glossar/).
 - **Origin Attribution**: Ensure the slug template renders "Dieser Beitrag entstand aus diesem LinkedIn-Beitrag".
+
+## 6. Social Media Distribution (Auto-Upload)
+- **Condition**: Only execute this phase if the original LinkedIn post contains a **Video**. If it only contains an image/text, skip this phase completely!
+- **Action**: Once the blog post is written and the video is in `public/videos/`, you must immediately execute the `upload.js` script to distribute the video.
+- **Execution**:
+  ```bash
+  cd scripts/social-upload
+  node upload.js \
+    --video="../../public/videos/slug.mp4" \
+    --thumb="../../public/images/slug.webp" \
+    --title="Your SEO Title" \
+    --desc="Short summary." \
+    --tags="Tag1, Tag2, SEO" \
+    --blog="https://teleschmie.de/blog/slug" \
+    --linkedin="https://www.linkedin.com/posts/..."
+  ```

@@ -14,6 +14,15 @@ const description = args.desc || '';
 const tagsStr = args.tags || 'SEO, Marketing';
 const tags = tagsStr.split(',').map(t => t.trim());
 const thumbPath = args.thumb || '';
+const blogUrl = args.blog || '';
+const linkedinUrl = args.linkedin || '';
+
+let finalDescription = description;
+if (blogUrl || linkedinUrl) {
+  finalDescription += '\n\n---\n';
+  if (blogUrl) finalDescription += `📖 Den kompletten Deep-Dive mit allen SEO-Takeaways gibt es auf meinem Blog:\n${blogUrl}\n\n`;
+  if (linkedinUrl) finalDescription += `💬 Diskutier mit mir und anderen Experten unter meinem Original-Beitrag auf LinkedIn:\n${linkedinUrl}\n`;
+}
 
 if (!videoPath || !fs.existsSync(videoPath)) {
   console.error('Fehler: Bitte gib einen gültigen Pfad zum Video an. Beispiel: node upload.js --video="../../public/videos/clip.mp4"');
@@ -40,7 +49,7 @@ async function uploadToYouTube() {
       requestBody: {
         snippet: {
           title,
-          description,
+          description: finalDescription,
           tags,
           categoryId: '27', // Education
           defaultLanguage: 'de',
@@ -100,7 +109,7 @@ async function uploadToMeta() {
     console.log('Lade zu Facebook hoch...');
     const fbRes = await axios.post(`https://graph.facebook.com/v19.0/${pageId}/videos`, {
       title,
-      description,
+      description: finalDescription,
       file_url: publicVideoUrl,
       access_token: pageAccessToken
     });
@@ -113,7 +122,7 @@ async function uploadToMeta() {
       const igRes = await axios.post(`https://graph.facebook.com/v19.0/${igAccountId}/media`, {
         media_type: 'REELS',
         video_url: publicVideoUrl,
-        caption: description,
+        caption: finalDescription,
         access_token: pageAccessToken
       });
       const creationId = igRes.data.id;

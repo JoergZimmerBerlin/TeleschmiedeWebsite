@@ -18,7 +18,7 @@ faqs:
     answer: "Absolut. Gerade erfahrene Teams übersehen oft Details durch Betriebsblindheit. Ich spreche freundlichen Klartext und grille das Setup live. Oft finden wir in 2 Stunden mehr wirksame Hebel als in monatelangen internen Meetings."
   - question: "Was ist der größte Ranking-Killer?"
     answer: "Das Relaunch-Drama ohne Redirect-Mapping. Wer seine alten URLs ins Leere laufen lässt, vernichtet jahrelanges Vertrauen bei Google innerhalb von Tagen. Das ist digitaler Selbstmord auf Raten und leider trauriger Alltag."
-  - question: "Lohnt sich die Investition von 400 € netto?"
+  - question: "Lohnt sich die Investition von 480 € netto?"
     answer: "Wenn man bedenkt, dass ein einziger technischer Fehler (wie ein feststeckendes noindex) den kompletten Umsatz eines Kanals blockieren kann, ist die Sprechstunde die günstigste Versicherung, die man für sein Online-Marketing abschließen kann."
 ---
 

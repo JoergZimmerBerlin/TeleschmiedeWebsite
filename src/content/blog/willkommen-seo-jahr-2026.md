@@ -87,7 +87,7 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
 <strong>Du willst dein SEO 2026 richtig angehen?</strong>
-<p>In meiner SEO-Sprechstunde (120 Minuten, 400€) analysiere ich deine Website live und gebe dir einen konkreten Fahrplan. Kein Blabla, nur Ergebnisse.</p>
+<p>In meiner SEO-Sprechstunde (120 Minuten, 480€) analysiere ich deine Website live und gebe dir einen konkreten Fahrplan. Kein Blabla, nur Ergebnisse.</p>
 <a href="/seo-sprechstunde/">Jetzt Sprechstunde buchen</a>
 </div>
 

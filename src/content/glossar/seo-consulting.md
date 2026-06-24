@@ -15,7 +15,7 @@ faqs:
   - question: 'Was unterscheidet SEO Consulting von SEO Coaching?'
     answer: 'Consulting liefert dir Antworten und Strategien – du bekommst einen fertigen Plan. Coaching bringt dir bei, selbst die richtigen Fragen zu stellen und Antworten zu finden. Consulting ist für Unternehmen, die schnell Ergebnisse brauchen. Coaching ist für alle, die langfristig unabhängig werden wollen. Beides hat seinen Platz, und ich biete beides an.'
   - question: 'Was kostet SEO Consulting?'
-    answer: 'Stundensätze für erfahrene SEO Consultants liegen zwischen 120€ und 250€. Ein strategisches Audit mit Roadmap dauert typischerweise 15-30 Stunden. Das klingt nach viel, aber vergleich es mit einer Agentur, die dir 2.000-5.000€ pro Monat berechnet, ohne dass du weißt, wofür. Beim Consulting ist jede Stunde transparent und der ROI direkt messbar.'
+    answer: 'Stundensätze für erfahrene SEO Consultants liegen zwischen 144€ und 300€. Ein strategisches Audit mit Roadmap dauert typischerweise 15-30 Stunden. Das klingt nach viel, aber vergleich es mit einer Agentur, die dir 2.000-6.000€ pro Monat berechnet, ohne dass du weißt, wofür. Beim Consulting ist jede Stunde transparent und der ROI direkt messbar.'
 ---
 
 Moin!

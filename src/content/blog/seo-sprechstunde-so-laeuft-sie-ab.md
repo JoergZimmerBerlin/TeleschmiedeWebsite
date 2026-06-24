@@ -9,7 +9,7 @@ tags: ["Sprechstunde", "Case Study"]
 key_takeaways:
   - "Die SEO-Sprechstunde ist ein Dialog, keine Vorlesung – du sitzt im Fahrersitz, ich bin der Co-Pilot."
   - "Vorbereitung ist alles: Ich kenne deine Daten bereits, bevor wir uns im Call begrüßen."
-  - "2 Stunden geballtes Wissen für 400€ – kein Abo, keine Bindung, 100% individueller Fokus auf dein Problem."
+  - "2 Stunden geballtes Wissen für 480€ – kein Abo, keine Bindung, 100% individueller Fokus auf dein Problem."
 faqs:
   - question: "Ist die SEO-Sprechstunde ein Verkaufsgespräch für ein größeres Paket?"
     answer: "Ein klares Nein. Die Sprechstunde ist ein abgeschlossenes Produkt. Es geht in diesen zwei Stunden um dich und dein Projekt, nicht um den Verkauf von Folgeleistungen. Natürlich kannst du mich danach für die Umsetzung buchen, aber das ist nicht das Ziel des Calls. Ich will, dass du mit einem Plan aus dem Call gehst, den du theoretisch auch komplett alleine oder mit deiner eigenen Agentur umsetzen kannst. Das ist mein Verständnis von ehrlicher Beratung."
@@ -51,7 +51,7 @@ Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Chec
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"400€ für zwei Stunden klingen für manche viel. Aber was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? In der Sprechstunde kaufst du keine Zeit – du kaufst das Ende deines Blindflugs."</p>
+  <p class="italic text-dark mb-0">"480€ für zwei Stunden klingen für manche viel. Aber was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? In der Sprechstunde kaufst du keine Zeit – du kaufst das Ende deines Blindflugs."</p>
 </div>
 
 ## Schritt 2: Meine Hausaufgaben (Die Vorbereitung)

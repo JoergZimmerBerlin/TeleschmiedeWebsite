@@ -46,7 +46,7 @@ Ein **SEO Profi** oder Freelancer (wie ich ihn verkörpere) bietet dafür maxima
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vorsicht bei Billig-Angeboten</h4>
-  <p class="mb-0 text-sm">SEO braucht Zeit. Wer dir eine 'Flatrate für 199 €' anbietet, kann nur automatisierte Tools drüberlaufen lassen. Echte Ergebnisse erfordern mindestens 10-20 Stunden Experten-Arbeit im Monat.</p>
+  <p class="mb-0 text-sm">SEO braucht Zeit. Wer dir eine 'Flatrate für 239 €' anbietet, kann nur automatisierte Tools drüberlaufen lassen. Echte Ergebnisse erfordern mindestens 10-20 Stunden Experten-Arbeit im Monat.</p>
 </div>
 
 ## Warum der Standort Berlin so besonders ist

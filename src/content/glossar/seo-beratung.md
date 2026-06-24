@@ -11,7 +11,7 @@ key_takeaways:
   - "Transparenz: Gute Beratung arbeitet datenbasiert und liefert messbare Ergebnisse."
 faqs:
   - question: 'Was kostet eine professionelle SEO Beratung?'
-    answer: 'Erfahrungsgemäß liegen die Stundensätze für seriöse SEO-Experten in Deutschland zwischen 120 € und 250 €. Billiganbieter, die pauschale Beratung für ''50 Euro im Monat'' verkaufen, liefern meist nur automatisierte Tool-Reports ohne strategischen Tiefgang. Eine echte Beratung ist ein Investment in deinen digitalen Vertrieb: Ein einzelnes, gut rankendes Money-Keyword kann den ROI der Beratung innerhalb weniger Wochen um ein Vielfaches einspielen.'
+    answer: 'Erfahrungsgemäß liegen die Stundensätze für seriöse SEO-Experten in Deutschland zwischen 144 € und 300 €. Billiganbieter, die pauschale Beratung für ''50 Euro im Monat'' verkaufen, liefern meist nur automatisierte Tool-Reports ohne strategischen Tiefgang. Eine echte Beratung ist ein Investment in deinen digitalen Vertrieb: Ein einzelnes, gut rankendes Money-Keyword kann den ROI der Beratung innerhalb weniger Wochen um ein Vielfaches einspielen.'
   - question: 'Was ist der genaue Unterschied zwischen SEO Beratung und SEO Optimierung?'
     answer: 'SEO Beratung ist die strategische Landkarte: das ''Was'', ''Wann'' und vor allem das ''Warum''. Ein Berater analysiert deine Architektur, deckt Potenziale auf und erstellt einen priorisierten Maßnahmenkatalog (z.B. einen Audit). Die SEO Optimierung ist dann die operative, handwerkliche Umsetzung dieses Plans – das Schreiben der Texte, das Fixen der Technik und der Aufbau von Entitäten. Als Freelancer biete ich ganz bewusst beides an, da eine Strategie ohne Umsetzung wertlos ist.'
   - question: 'Wann brauche ich einen festen SEO Consulting Partner?'

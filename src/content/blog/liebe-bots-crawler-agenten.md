@@ -73,7 +73,7 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
 <strong>Deine Website ist noch nicht bot-freundlich?</strong>
-<p>In meiner SEO-Sprechstunde prüfe ich, ob Bots und KI-Systeme deine Inhalte richtig lesen können. 120 Minuten, 400€, null Bullshit.</p>
+<p>In meiner SEO-Sprechstunde prüfe ich, ob Bots und KI-Systeme deine Inhalte richtig lesen können. 120 Minuten, 480€, null Bullshit.</p>
 <a href="/seo-sprechstunde/">Jetzt Sprechstunde buchen</a>
 </div>
 

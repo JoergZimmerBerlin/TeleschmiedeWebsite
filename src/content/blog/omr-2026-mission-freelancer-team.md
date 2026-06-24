@@ -19,7 +19,7 @@ faqs:
   - question: "Welche Fachbereiche deckt das Team vor Ort ab?"
     answer: "Wir haben das volle Programm am Start. Das Team ist in fünf Spezialeinheiten aufgeteilt: Paid & Performance (Google/Meta Ads), SEO & [GEO](/glossar/geo/) (Organic Growth), E-Commerce (Shopify/Shopware), Technik & KI (WordPress/Automatisierung) sowie Design & Brand Content. Egal wo der Schuh drückt – an unserem Stand sitzt garantiert jemand, der genau dieses Problem schon dutzendfach gelöst hat."
   - question: "Was kostet ein Erstgespräch oder eine Beratung bei dir, Jörg?"
-    answer: "Für alle, die nicht nur schnacken, sondern direkt Ergebnisse sehen wollen, biete ich meinen bewährten 'Website Roast' an – meine [SEO Sprechstunde](/blog/seo-sprechstunde-so-laeuft-sie-ab/). Für 400 € knöpfe ich mir deine Seite zwei Stunden lang vor und lege die Finger in die Wunde. Kein 'hätte, könnte, würde', sondern konkrete To-dos. Auf der OMR können wir natürlich erstmal unverbindlich schauen, ob die Chemie stimmt. ALOHA! 🌻✌️"
+    answer: "Für alle, die nicht nur schnacken, sondern direkt Ergebnisse sehen wollen, biete ich meinen bewährten 'Website Roast' an – meine [SEO Sprechstunde](/blog/seo-sprechstunde-so-laeuft-sie-ab/). Für 480 € knöpfe ich mir deine Seite zwei Stunden lang vor und lege die Finger in die Wunde. Kein 'hätte, könnte, würde', sondern konkrete To-dos. Auf der OMR können wir natürlich erstmal unverbindlich schauen, ob die Chemie stimmt. ALOHA! 🌻✌️"
 ---
 
 # 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026

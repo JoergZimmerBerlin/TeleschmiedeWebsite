@@ -47,7 +47,7 @@ Und ich sage dir ehrlich, ohne Marketing-Sprech und ohne Weichspüler, wo es bre
 
 ## Was du für dein Geld bekommst: Der vollständige Prozess
 
-Die 400 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr drin:
+Die 480 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr drin:
 
 | Phase | Was passiert | Zeitinvest meinerseits |
 |---|---|---|

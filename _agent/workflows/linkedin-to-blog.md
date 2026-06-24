@@ -66,6 +66,6 @@ faqs:
     --title="Your SEO Title" \
     --desc="Short summary." \
     --tags="Tag1, Tag2, SEO" \
-    --blog="https://teleschmie.de/blog/slug" \
+    --blog="https://teleschmie.de/blog/slug/" \
     --linkedin="https://www.linkedin.com/posts/..."
   ```

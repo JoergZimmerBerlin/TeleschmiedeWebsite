@@ -19,8 +19,8 @@ Auf der Campixx 2026 in Berlin gab es eine Session, die wieder einmal bewiesen h
 
 Hier ist der kurze Video-Eindruck aus der Session:
 
-<div class="my-8 rounded-lg overflow-hidden shadow-lg border border-gray-200 bg-gray-900">
-  <video controls class="w-full max-h-[80vh] object-contain" preload="metadata" style="display:block;">
+<div class="my-8 rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-gray-900 transition-all duration-300 hover:shadow-2xl hover:border-lime-500 hover:-translate-y-1">
+  <video controls class="w-full max-h-[80vh] object-contain outline-none" preload="none" poster="/images/blog-ms-clarity-session.webp" style="display:block;">
     <source src="/videos/blog-ms-clarity-session.mp4" type="video/mp4">
     Dein Browser unterstützt das Video-Tag leider nicht.
   </video>

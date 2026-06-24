@@ -26,8 +26,8 @@ Es geht um sogenannte "Chunks" – also Textabschnitte, die in der AI Search (wi
 
 Hier ist das Original-Video von seinem Vortrag:
 
-<div class="my-8 rounded-lg overflow-hidden shadow-lg border border-gray-200 bg-gray-900">
-  <video controls class="w-full max-h-[80vh] object-contain" preload="metadata" style="display:block;">
+<div class="my-8 rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-gray-900 transition-all duration-300 hover:shadow-2xl hover:border-lime-500 hover:-translate-y-1">
+  <video controls class="w-full max-h-[80vh] object-contain outline-none" preload="none" poster="/images/blog-malte-landwehr-ai-search-content-formate-3d.webp" style="display:block;">
     <source src="/videos/malte-landwehr-ai-search.mp4" type="video/mp4">
     Dein Browser unterstützt das Video-Tag leider nicht.
   </video>

@@ -5,7 +5,7 @@ date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/freelancer-team_lila-t-shirts-softeis-und-gute-laune-activity-7472404225340256256-bMYe"
 image: "../../assets/images/blog/freelance-unlocked-lila-tshirts.jpg"
 image_alt: "Freelancer Team in lila T-Shirts an der Softeismaschine in Berlin"
-category: "Freelancing"
+category: "Events & Networking"
 tags: ["Community", "Freelance Unlocked", "Netzwerken", "Event"]
 key_takeaways:
   - "Freelancer müssen keine Einzelkämpfer sein – im Freelancer Team bündeln wir die Expertise von über 100 Spezialisten."

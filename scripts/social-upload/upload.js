@@ -11,6 +11,9 @@ const args = minimist(process.argv.slice(2));
 const videoPath = args.video;
 const title = args.title || 'Neues Video';
 const description = args.desc || '';
+const tagsStr = args.tags || 'SEO, Marketing';
+const tags = tagsStr.split(',').map(t => t.trim());
+const thumbPath = args.thumb || '';
 
 if (!videoPath || !fs.existsSync(videoPath)) {
   console.error('Fehler: Bitte gib einen gültigen Pfad zum Video an. Beispiel: node upload.js --video="../../public/videos/clip.mp4"');
@@ -38,11 +41,15 @@ async function uploadToYouTube() {
         snippet: {
           title,
           description,
-          tags: ['SEO', 'Marketing'],
+          tags,
           categoryId: '27', // Education
+          defaultLanguage: 'de',
+          defaultAudioLanguage: 'de'
         },
         status: {
           privacyStatus: 'public', // Video geht sofort live
+          madeForKids: false,
+          selfDeclaredMadeForKids: false
         },
       },
       media: {
@@ -50,6 +57,18 @@ async function uploadToYouTube() {
       },
     });
     console.log('✅ YouTube Upload erfolgreich! Video ID:', res.data.id);
+
+    // Thumbnail hochladen, falls übergeben
+    if (thumbPath && fs.existsSync(thumbPath)) {
+      console.log('Lade Custom Thumbnail hoch...');
+      await youtube.thumbnails.set({
+        videoId: res.data.id,
+        media: {
+          body: fs.createReadStream(thumbPath)
+        }
+      });
+      console.log('✅ Custom Thumbnail erfolgreich gesetzt!');
+    }
   } catch (error) {
     console.error('❌ Fehler beim YouTube-Upload:', error.message);
   }

@@ -1,5 +1,5 @@
 ---
-title: "GEO und AI Search: Das neue Spiel um die digitale Wahrnehmung"
+title: "GEO & AI Search: Sichtbarkeit völlig neu gedacht"
 description: "Warum LLMs anders ticken als klassische Suchmaschinen und wie Marke, Ruf und tokenfreundlicher Content jetzt über deine Sichtbarkeit entscheiden."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_geo-und-ai-search-sind-ein-ganz-neues-spiel-activity-7473933271655944193-7b6l"
@@ -56,10 +56,10 @@ Wie Sascha Pöschl auf LinkedIn richtig ergänzt: Quellen wie Wikipedia rücken 
 
 Unterm Strich: Vergiss die Abkürzungen. Biete klare Fakten, baue eine echte Marke auf und strukturiere deine Daten so, dass Maschinen sie fehlerfrei auswerten können.
 
-<div class="my-8 p-8 bg-lime-400 text-slate-900 rounded-lg text-center shadow-lg">
+<div class="my-12 bg-lime-accent/5 border-2 border-lime-accent/30 p-8 rounded-3xl text-center shadow-sm">
   <p class="text-xl font-bold mb-4">Wie ist deine Meinung zu GEO und AI Search?</p>
   <p class="mb-6">Die Diskussion dazu läuft bereits intensiv. Komm dazu und teile deine Gedanken mit mir und der Community!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_geo-und-ai-search-sind-ein-ganz-neues-spiel-activity-7473933271655944193-7b6l" target="_blank" rel="noopener noreferrer" class="inline-block px-8 py-3 bg-slate-900 text-lime-400 font-bold rounded-full hover:bg-slate-800 transition-colors">
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_geo-und-ai-search-sind-ein-ganz-neues-spiel-activity-7473933271655944193-7b6l" target="_blank" rel="noopener noreferrer" class="inline-block px-8 py-3 bg-lime-accent text-dark font-bold rounded-full hover:bg-lime-accent/80 hover:scale-105 transition-all">
     💬 Auf LinkedIn mitdiskutieren
   </a>
 </div>

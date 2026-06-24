@@ -1,5 +1,5 @@
 ---
-title: "Nutzerzufriedenheit schlägt puren Traffic: Insights von der CAMPIXX"
+title: "Conversion-Optimierung: Nutzer vor Traffic"
 description: "Warum Conversion Optimierung und Data Mining die wahren Hebel im SEO sind. Jörgs Klartext zur Traffic-Sucht und echten Networking-Insights."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-sch%C3%B6nste-an-der-campixx-sind-die-gespr%C3%A4che-activity-7473890187715043328-bQ0T"

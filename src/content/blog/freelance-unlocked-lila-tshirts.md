@@ -1,5 +1,5 @@
 ---
-title: "Freelancer Team: Geballte SEO Power"
+title: "Freelance Unlocked: Lila T-Shirts, Softeis"
 description: "Ein grandioses Wochenende in Berlin. Warum Freelancer keine Einzelkämpfer sind und wie ein starkes Team aus 100+ Spezialisten echtes Backup bietet."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/freelancer-team_lila-t-shirts-softeis-und-gute-laune-activity-7472404225340256256-bMYe"

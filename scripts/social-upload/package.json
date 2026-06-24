@@ -1,0 +1,13 @@
+{
+  "name": "social-upload",
+  "version": "1.0.0",
+  "description": "Upload videos to YouTube, Facebook, and Instagram",
+  "main": "upload.js",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "googleapis": "^134.0.0",
+    "minimist": "^1.2.8"
+  }
+}

@@ -42,7 +42,7 @@ async function uploadToYouTube() {
           categoryId: '27', // Education
         },
         status: {
-          privacyStatus: 'unlisted', // Für Tests erstmal unlisted
+          privacyStatus: 'public', // Video geht sofort live
         },
       },
       media: {

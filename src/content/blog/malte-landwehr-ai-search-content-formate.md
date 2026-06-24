@@ -1,5 +1,5 @@
 ---
-title: "Content Formate für AI Search: Was wirklich funktioniert (Campixx 2026)"
+title: "AI Search Formate: Best Practices für LLMs"
 description: "Malte Landwehr erklärt auf der Campixx 2026, warum self-contained Chunks und Zusammenfassungen der Schlüssel zur Sichtbarkeit in AI Search und LLMs sind."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_malte-landwehr-%C3%BCber-content-formate-die-in-activity-7473338939441827841-9R-C"

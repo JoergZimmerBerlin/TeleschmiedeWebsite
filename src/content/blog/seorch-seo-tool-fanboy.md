@@ -1,5 +1,5 @@
 ---
-title: "SEORCH: Warum ich absoluter Fanboy dieses SEO-Tools bin"
+title: "SEORCH Tool: Bestes OnPage SEO Werkzeug"
 description: "Auf der Campixx 2026 habe ich endlich Matthias Hotz, den Kopf hinter SEORCH, getroffen. Ein Klartext-Review über Funktionen und warum es mein Favorit ist."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-bin-fanboy-des-seo-tools-seorch-nun-activity-7473363474753019904-HQsc"

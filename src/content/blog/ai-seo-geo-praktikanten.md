@@ -60,7 +60,7 @@ Ein Kommentar blieb mir besonders hängen: *"Früher haben wir Google-Bots manip
 
 ## Mein Rat für Unternehmen und Marketing-Entscheider
 
-Wenn ihr in GEO oder AI-SEO investieren wollt, spart nicht am falschen Ende. Ja, der Experte mit 20 Jahren Erfahrung kostet vielleicht 200€ oder 250€ pro Stunde. Das klingt viel im Vergleich zum Werkstudenten oder dem "KI-Kurs-Absolventen" für 50€. 
+Wenn ihr in GEO oder AI-SEO investieren wollt, spart nicht am falschen Ende. Ja, der Experte mit 20 Jahren Erfahrung kostet vielleicht 240€ oder 300€ pro Stunde. Das klingt viel im Vergleich zum Werkstudenten oder dem "KI-Kurs-Absolventen" für 50€. 
 
 Aber rechnet es mal durch:
 - **Der Anfänger:** Experimentiert 6 Monate, produziert 100 Artikel, die nach dem ersten Update abgestraft werden. Kosten: 10.000€ + massiver Imageschaden + Opportunitätskosten.

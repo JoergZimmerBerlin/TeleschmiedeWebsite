@@ -50,3 +50,9 @@ Am Ende des Tages gilt für mich eine einfache Regel: **Wer Spaß auf Messen hat
 Du suchst Experten, die Bock haben und ihr Handwerk verstehen? Schreib uns oder google uns einfach! Und wenn es um SEO geht: Lass uns in der [SEO-Sprechstunde](/seo-sprechstunde/) über deine Sichtbarkeit quatschen.
 
 Aloha! 🌻✌️
+
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Du suchst geballte Freelancer-Power?</h3>
+  <p class="mb-6">Wir sind über 100 Spezialisten für SEO, SEA, Social Media und mehr. Echtes Backup, keine starren Agentur-Strukturen.</p>
+  <a href="/freelancer-team/" class="btn-primary inline-flex">Lerne das Freelancer Team kennen</a>
+</div>

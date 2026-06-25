@@ -73,3 +73,9 @@ Es war natürlich nicht nur pure Business-Talk. Auf der Campixx darf der Humor n
 Unterm Strich: Wenn du dein SEO-Game ernst nimmst und wissen willst, ob du gerade versuchst, ein Haus auf Sand zu bauen, schnapp dir SEORCH. Und falls du Hilfe bei der Interpretation der Daten brauchst – schreib mir einfach!
 
 ALOHA! 🌻✌️
+
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Probier SEORCH direkt aus!</h3>
+  <p class="mb-6">Kostenlos, pfeilschnell und fokussiert auf die harten Rankingfaktoren. Mach den OnPage-Check für deine Website.</p>
+  <a href="https://seorch.de/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Zum SEORCH SEO Tool</a>
+</div>

@@ -5,7 +5,7 @@ date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_stefan-godulla-auf-der-campixx-2026-in-berlin-activity-7473672260432609280-qH2a"
 image: "../../assets/images/blog/blog-stefan-godulla-campixx.webp"
 image_alt: "Stefan Godulla auf der Campixx 2026"
-category: "Tech SEO & Tools"
+category: "SEO Praxis"
 tags: ["Campixx", "Stefan Godulla", "SEO Strategie", "Unternehmensberatung", "Sichtbarkeit"]
 key_takeaways:
   - "SEO ist längst nicht mehr nur Technik und Content – es wird zunehmend zur echten Unternehmensberatung."

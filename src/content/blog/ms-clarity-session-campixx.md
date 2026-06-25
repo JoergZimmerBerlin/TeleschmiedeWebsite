@@ -57,3 +57,9 @@ Und Thomas selbst hat sich natürlich auch in den Kommentaren gemeldet:
 Fazit: Tracking ohne Analyse ist wertlos. Schaut euch an, was eure User wirklich treiben, beseitigt die Frust-Faktoren und macht den Weg frei für Conversions!
 
 ALOHA! 🌻✌️
+
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Tracking & UX Profis gesucht?</h3>
+  <p class="mb-6">Thomas ist übrigens fester Bestandteil meines Freelancer Teams! Wenn du Unterstützung bei MS Clarity, Tracking oder Conversion-Optimierung brauchst, sind wir als eingespieltes Team an deiner Seite.</p>
+  <a href="/freelancer-team/" class="btn-primary inline-flex">Zum Freelancer Team</a>
+</div>

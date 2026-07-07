@@ -155,13 +155,14 @@ Hier ist ein Beispiel, wie wir eine Entität heute so definieren, dass die KI ke
   "founder": {
     "@id": "https://teleschmie.de/#person"
   },
+  "hasMap": "https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8",
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
     "https://www.xing.com/profile/Joerg_Zimmer6",
     "https://linktr.ee/jorgzimmer",
     "https://www.instagram.com/joerg.zimmer.berlin/",
     "https://www.youtube.com/@Teleschmiede",
-    "https://share.google/FELFkQBL46obhnygq"
+    "https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8"
   ]
 }
 ```

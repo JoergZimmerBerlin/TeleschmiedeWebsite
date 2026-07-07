@@ -1,4 +1,4 @@
-﻿Last Updated: 2026-04-14 | Status: Production / Verified
+Last Updated: 2026-04-14 | Status: Production / Verified
 
 # Jörg Zimmer - SEO & SEA Freelancer
 
@@ -13,7 +13,7 @@
 - **Status**: Senior Independent Specialist (No full-service agency, no web design)
 
 ## Entity Mapping
-- **SameAs**: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/, https://www.youtube.com/@Teleschmiede, https://www.instagram.com/joerg.zimmer.berlin/, https://linktr.ee/jorgzimmer, https://share.google/FELFkQBL46obhnygq, https://web.archive.org/web/20260000000000*/https://teleschmie.de/
+- **SameAs**: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/, https://www.youtube.com/@Teleschmiede, https://www.instagram.com/joerg.zimmer.berlin/, https://linktr.ee/jorgzimmer, https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8, https://web.archive.org/web/20260000000000*/https://teleschmie.de/
 - **SubjectOf**: SEO, SEA, GEO, Technical SEO, Performance Marketing
 
 ## Core Competencies
@@ -9683,13 +9683,14 @@ Hier ist ein Beispiel, wie wir eine Entität heute so definieren, dass die KI ke
   "founder": {
     "@id": "https://teleschmie.de/#person"
   },
+  "hasMap": "https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8",
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
     "https://www.xing.com/profile/Joerg_Zimmer6",
     "https://linktr.ee/jorgzimmer",
     "https://www.instagram.com/joerg.zimmer.berlin/",
     "https://www.youtube.com/@Teleschmiede",
-    "https://share.google/FELFkQBL46obhnygq"
+    "https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8"
   ]
 }
 ```

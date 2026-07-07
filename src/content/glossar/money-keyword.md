@@ -69,7 +69,7 @@ KI-Modelle wie Gemini oder ChatGPT verstehen Kaufabsichten heute extrem präzise
 
 ## Mein Tacheles-Rat für dich
 
-Money Keywords sind der Treibstoff für dein Business. Hör auf, nach Eitelkeits-Metriken zu jagen. Ich nutze die <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Wettbewerbsanalyse von SE Ranking</a>, um genau die Begriffe mit hohem CPC zu finden, die deinen ROI nach oben treiben. Konzentrier dich auf Relevanz und Vertrauen. Denn am Ende des Tages zählt nur, was unten rauskommt.
+Money Keywords sind der Treibstoff für dein Business. Hör auf, nach Eitelkeits-Metriken zu jagen. Ich nutze die <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Wettbewerbsanalyse von SE Ranking</a>, um genau die Begriffe mit hohem CPC zu finden, die deinen ROI nach oben treiben. Konzentrier dich auf Relevanz und Vertrauen. Denn am Ende des Tages zählt nur, was unten rauskommt.
 
 Jörg
 
@@ -77,7 +77,7 @@ Jörg
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Deine Keywords bringen keinen Umsatz?</h3>
-  <p class="mb-6 text-gray-muted">Ich finde deine echten Umsatztreiber mit hohem CPC und klarer Kaufabsicht. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir die Goldstücke, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bauen wir deine KI-Autorität auf.</p>
+  <p class="mb-6 text-gray-muted">Ich finde deine echten Umsatztreiber mit hohem CPC und klarer Kaufabsicht. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> finden wir die Goldstücke, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bauen wir deine KI-Autorität auf.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Money-Keyword Strategie anfragen</a>
 </div>
 

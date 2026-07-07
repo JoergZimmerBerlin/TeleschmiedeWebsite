@@ -15,7 +15,7 @@ faqs:
   - question: 'Was ist der wichtigste Hebel bei der GEO Optimierung?'
     answer: 'Ganz klar: Die <a href="/glossar/zitierfaehiger-content/">Zitierfähigkeit</a>. Deine Inhalte müssen so strukturiert sein, dass eine KI sie leicht extrahieren und als Fakt präsentieren kann. Das erreichen wir durch messerscharfes Chunking, klare <a href="/glossar/h1-h2-h3/">H1-H3 Strukturen</a> und die konsequente Nutzung von <a href="/glossar/strukturierte-daten/">strukturierten Daten</a>. Wenn die KI deinen Text nicht ''versteht'', wird sie dich nicht zitieren. Punkt.'
   - question: 'Welche Tools brauche ich für GEO Monitoring?'
-    answer: 'Für die Strategie und das klassische Fundament nutze ich seit Jahren <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Um aber die spezifische Sichtbarkeit in den KI-Antworten von ChatGPT, Claude und Gemini zu messen, führt kein Weg an <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> vorbei. Nur die Kombination aus beiden Welten gibt dir das volle Bild. Wer nur eines nutzt, sieht nur die halbe Wahrheit.'
+    answer: 'Für die Strategie und das klassische Fundament nutze ich seit Jahren <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Um aber die spezifische Sichtbarkeit in den KI-Antworten von ChatGPT, Claude und Gemini zu messen, führt kein Weg an <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> vorbei. Nur die Kombination aus beiden Welten gibt dir das volle Bild. Wer nur eines nutzt, sieht nur die halbe Wahrheit.'
   - question: 'Wie lange dauert es, bis GEO-Maßnahmen greifen?'
     answer: 'Das ist wie bei der Deutschen Bahn: Manchmal kommt man pünktlich an, meistens braucht es Geduld. Da KIs oft auf gecrawlten Daten basieren, müssen die Änderungen erst indexiert und verarbeitet werden. In der Regel sehen wir erste Effekte in spezialisierten Answer Engines wie Perplexity innerhalb von 2-4 Wochen. Bei den großen Modellen (ChatGPT) kann es bis zum nächsten Knowledge-Update dauern.'
   - question: 'Kann man GEO Optimierung automatisieren?'
@@ -52,7 +52,7 @@ Wer nicht misst, der führt nicht. Wir nutzen modernste Tracking-Tools, um deine
 
 > **Tacheles:** Ich werde oft gefragt, welches Tool das beste ist. Die Antwort: Es gibt nicht 'das eine'. Wer professionell arbeitet, braucht einen Hybrid-Ansatz.
 
-*   **<a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>:** Mein Fels in der Brandung für Keywords, Backlinks und die technische Gesundheit deiner Seite. Ohne ein starkes Google-Ranking wird dich auch keine KI finden.
+*   **<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>:** Mein Fels in der Brandung für Keywords, Backlinks und die technische Gesundheit deiner Seite. Ohne ein starkes Google-Ranking wird dich auch keine KI finden.
 *   **<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>:** Das Radar für die KI-Welt. Hier sehen wir schwarz auf weiß, wie oft deine Marke in ChatGPT oder Perplexity auftaucht und ob du als [Citation](/glossar/citation/) genannt wirst.
 
 Wer am falschen Ende spart und nur mit kostenlosen Tools "rumspielt", der betreibt 'Pfusch am Bau' an seiner eigenen Existenz.
@@ -71,10 +71,10 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine GEO-Strategie startet hier!</h3>
-  <p class="mb-6">Lass uns deine Sichtbarkeit in der KI-Welt auf das nächste Level heben. Mit der Power von <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Performance.</p>
+  <p class="mb-6">Lass uns deine Sichtbarkeit in der KI-Welt auf das nächste Level heben. Mit der Power von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das Fundament und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Performance.</p>
   <div class="flex flex-wrap gap-4">
     <a href="https://rankscale.ai/?via=offer" class="btn-primary inline-flex">Rankscale testen</a>
-    <a href="https://seranking.com/?ga=4169588&source=link" class="btn-secondary inline-flex">SE Ranking sichern</a>
+    <a href="https://seranking.com/de/?ga=4169588&source=link" class="btn-secondary inline-flex">SE Ranking sichern</a>
   </div>
 </div>
 

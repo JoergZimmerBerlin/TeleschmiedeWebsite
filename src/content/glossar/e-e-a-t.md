@@ -80,7 +80,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Expertise wird von KIs ignoriert?</h3>
-  <p class="mb-6">Ich schärfe deine Experten-Signale für Mensch und Maschine. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> prüfen wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
+  <p class="mb-6">Ich schärfe deine Experten-Signale für Mensch und Maschine. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> prüfen wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt E-E-A-T Audit anfragen </a>
 </div>
 

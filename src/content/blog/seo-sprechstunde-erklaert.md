@@ -59,7 +59,7 @@ Die 480 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr d
 
 Bevor wir uns sehen, sitze ich bereits ca. 30 Minuten an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
 
-Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
+Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
 
 ### 2. Der Videocall: Action statt Blabla
 
@@ -88,7 +88,7 @@ Wie mein Kunde Ronny treffend sagte: *"Der Preis ist völlig gerechtfertigt und 
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit, deine Seite auf den Grill zu legen?</h3>
-  <p class="mb-6">Ich finde die Fehler, die dich dein Ranking kosten. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunftssperrspektive bringen wir deine Seite nach vorne.</p>
+  <p class="mb-6">Ich finde die Fehler, die dich dein Ranking kosten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunftssperrspektive bringen wir deine Seite nach vorne.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
 </div>
 

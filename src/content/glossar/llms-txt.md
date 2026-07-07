@@ -75,7 +75,7 @@ Theorie ist gut, Praxis ist besser. Ich lebe, was ich predige. Hier kannst du di
 
 ## Mein Tacheles-Rat für dich
 
-Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
+Die `llms.txt` ist die Visitenkarte deiner Website für die künstliche Intelligenz. Wer heute schon auf diesen Standard setzt, positioniert sich als "AI-ready". Um sicherzustellen, dass die Crawler deine txt-Dateien auch fehlerfrei erreichen, nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> mir zeigt, ob die KI deine Botschaft wirklich verstanden hat. Sei kein passiver Passagier der KI-Revolution – steuere aktiv, was die Maschinen über dich wissen sollen.
 
 ALOHA 🌻 
 

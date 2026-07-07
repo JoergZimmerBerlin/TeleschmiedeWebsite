@@ -47,7 +47,7 @@ Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenhei
 ### Tools beherrschen
 *   Die [Google Search Console](/glossar/google-search-console/) wie ein Profi lesen.
 *   [Bing Webmaster Tools](/glossar/bing-webmastertools/) einrichten und nutzen.
-*   <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder vergleichbare Tools für Keyword-Monitoring.
+*   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder vergleichbare Tools für Keyword-Monitoring.
 
 ### Content-Strategie
 *   [Keywordrecherche](/glossar/keywordrecherche/) mit Suchintention verbinden.
@@ -77,7 +77,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit, SEO selbst zu verstehen?</h3>
-  <p class="mb-6">Ich coache dich an deinen echten Daten. Lerne, wie du <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> wie ein Profi bedienst und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die KI-Suche dominierst.</p>
+  <p class="mb-6">Ich coache dich an deinen echten Daten. Lerne, wie du <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> wie ein Profi bedienst und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die KI-Suche dominierst.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Coaching-Gespräch vereinbaren </a>
 </div>
 

@@ -61,7 +61,7 @@ Wir stehen am Anfang einer neuen Ära. KI-gestützte Tools wie <a href="https://
 
 ## Mein Tacheles-Rat für dich
 
-Ein Keyword Tool verwandelt Raten in Wissen. Aber vergiss niemals: Ein Tool ist nur ein Hammer. Das Haus bauen musst du selbst. Lerne die Daten zu interpretieren, verstehe die psychologische Absicht hinter der Suche und bau darauf deine unschlagbare Sichtbarkeit auf. Nutze <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Datenbasis zu schaffen, aber lass den gesunden Menschenverstand niemals außen vor.
+Ein Keyword Tool verwandelt Raten in Wissen. Aber vergiss niemals: Ein Tool ist nur ein Hammer. Das Haus bauen musst du selbst. Lerne die Daten zu interpretieren, verstehe die psychologische Absicht hinter der Suche und bau darauf deine unschlagbare Sichtbarkeit auf. Nutze <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Datenbasis zu schaffen, aber lass den gesunden Menschenverstand niemals außen vor.
 
 ALOHA! Jörg
 
@@ -69,7 +69,7 @@ ALOHA! Jörg
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Du jagst den falschen Keywords hinterher?</h3>
-  <p class="mb-6 text-gray-muted">Ich unterstütze dich dabei, die echten Goldstücke in deiner Nische zu finden. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> validieren wir die Daten, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
+  <p class="mb-6 text-gray-muted">Ich unterstütze dich dabei, die echten Goldstücke in deiner Nische zu finden. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> validieren wir die Daten, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Analyse anfragen</a>
 </div>
 

@@ -21,7 +21,7 @@ Ein SEO Audit ist wie ein Besuch beim Zahnarzt: Niemand freut sich wirklich drau
   <p class="italic text-dark mb-0">"Ein SEO-Audit ist kein PDF-Friedhof. Wer dir 100 Seiten Fehlermeldungen schickt, ohne zu sagen, was davon deinen Umsatz wirklich deckelt, hat seinen Job nicht gemacht. Mein Audit ist schonungslos, weil er ehrlich ist. Aber er liefert dir den Fahrplan, den du brauchst, um den Wettbewerb zu deklassieren."</p>
 </div>
 
-Warum rankst du nicht auf Platz 1? Warum stagnieren deine Anfragen? Professionelle Analyse-Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> liefern uns dabei die nötige Datengrundlage. Ein Audit liefert die Antwort – keine Vermutungen, sondern harte Fakten.
+Warum rankst du nicht auf Platz 1? Warum stagnieren deine Anfragen? Professionelle Analyse-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> liefern uns dabei die nötige Datengrundlage. Ein Audit liefert die Antwort – keine Vermutungen, sondern harte Fakten.
 
 ## Was beim Audit wirklich auf den Tisch kommt
 

@@ -27,7 +27,7 @@ Jeder Hyperlink von Seite A zu Seite B ist ein hartes Vertrauensvotum. Diese Emp
 
 Stell dir deine Website als ein Netzwerk aus Gefäßen vor. Jedes Gefäß hat eine Menge X an "Saft".
 
-Wenn deine Startseite stark ist (weil z.B. dicke Backlinks darauf zeigen), ist ihr Gefäß randvoll. Setzt du jetzt von der Startseite einen fetten Link auf deinen neuesten Blog-Artikel, fließt dieser Saft dorthin. Der Artikel gewinnt an [Sichtbarkeit](/glossar/sichtbarkeit/). Mit Profitools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> können wir genau diesen Zuwachs messen.
+Wenn deine Startseite stark ist (weil z.B. dicke Backlinks darauf zeigen), ist ihr Gefäß randvoll. Setzt du jetzt von der Startseite einen fetten Link auf deinen neuesten Blog-Artikel, fließt dieser Saft dorthin. Der Artikel gewinnt an [Sichtbarkeit](/glossar/sichtbarkeit/). Mit Profitools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> können wir genau diesen Zuwachs messen.
 
 ![Infografik: Die Verteilung von Signalen](../../assets/images/blog/core-web-vitals-pfeiler.webp)
 

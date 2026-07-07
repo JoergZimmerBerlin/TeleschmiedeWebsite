@@ -63,7 +63,7 @@ In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist d
 
 Technische Exzellenz durch grüne Core Web Vitals ist die Hausaufgabe jeder professionell betriebenen Website.
 Wer hier spart, verliert Nutzer an die Konkurrenz.
-Pack dein Performance-Problem an der Wurzel und sorg für eine reibungslose Experience. Nutze professionelle Monitoring-Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für deine tägliche SEO-Arbeit.
+Pack dein Performance-Problem an der Wurzel und sorg für eine reibungslose Experience. Nutze professionelle Monitoring-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für deine tägliche SEO-Arbeit.
 Deine Nutzer (und Google) werden es dir danken.
 
 ALOHA 🌻 
@@ -72,7 +72,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Rote Balken in der Search Console?</h3>
-  <p class="mb-6">Rote Core Web Vitals killen dein Ranking. Ich zeige dir, wie wir LCP und CLS bändigen. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Stabilität.</p>
+  <p class="mb-6">Rote Core Web Vitals killen dein Ranking. Ich zeige dir, wie wir LCP und CLS bändigen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Stabilität.</p>
   <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt CWV-Check anfragen </a>
 </div>
 

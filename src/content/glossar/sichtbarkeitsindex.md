@@ -15,7 +15,7 @@ faqs:
   - question: 'Warum sinkt mein Index plötzlich trotz mehr SEO Traffic?'
     answer: 'Das ist ein klassisches und oft missverstandenes Phänomen. Der Sichtbarkeitsindex misst deine Rankings für ein vordefiniertes, repräsentatives Keyword-Set (meist 1 Million Keywords). Wenn du Rankings für Suchbegriffe mit extrem hohem Suchvolumen aus diesem Set verlierst (die dir aber ohnehin keine Conversions gebracht haben), sinkt der Index dramatisch. Gleichzeitig gewinnst du vielleicht bei lukrativen Long-Tail-Keywords, die nicht im Set sind – dein relevanter Traffic steigt also, während die Metrik fällt.'
   - question: 'Wie oft wird der SEO Sichtbarkeitsindex aktualisiert?'
-    answer: 'Früher gab es montags das große ''Sistrix-Zittern'', da die Daten nur wöchentlich aktualisiert wurden. Heute berechnen professionelle Tools wie Sistrix oder der <a href="https://seranking.com/?ga=4169588&source=link">Rank-Tracker von SE Ranking</a> die Sichtbarkeit für wichtige Märkte und große Websites täglich neu. Bei massiven Ranking-Schwankungen oder nach einem Google Core Update kannst du die Auswirkungen also mittlerweile fast in Echtzeit verfolgen und entsprechend gegensteuern.'
+    answer: 'Früher gab es montags das große ''Sistrix-Zittern'', da die Daten nur wöchentlich aktualisiert wurden. Heute berechnen professionelle Tools wie Sistrix oder der <a href="https://seranking.com/de/?ga=4169588&source=link">Rank-Tracker von SE Ranking</a> die Sichtbarkeit für wichtige Märkte und große Websites täglich neu. Bei massiven Ranking-Schwankungen oder nach einem Google Core Update kannst du die Auswirkungen also mittlerweile fast in Echtzeit verfolgen und entsprechend gegensteuern.'
 ---
 
 
@@ -29,7 +29,7 @@ Der Sichtbarkeitsindex ist die absolut härteste Währung der SEO-Welt. Keine Li
   <p class="italic text-dark mb-0">"Ob Sistrix oder SE Ranking: Der Index ist dein EKG. Ein steigender Graph zahlt dir noch keine Rechnungen, aber ein massiver Absturz kostet dich dein Business."</p>
 </div>
 
-Was genau wird da eigentlich berechnet? Tools wie Sistrix oder der hervorragende [Sichtbarkeits-Checker von SE Ranking](https://seranking.com/?ga=4169588&source=link) tracken täglich Millionen von Keywords. Aus der Summe deiner Platzierungen, kombiniert mit dem jeweiligen Suchvolumen und der erwarteten Klickwahrscheinlichkeit, berechnet der Algorithmus deinen finalen Indexwert.
+Was genau wird da eigentlich berechnet? Tools wie Sistrix oder der hervorragende [Sichtbarkeits-Checker von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) tracken täglich Millionen von Keywords. Aus der Summe deiner Platzierungen, kombiniert mit dem jeweiligen Suchvolumen und der erwarteten Klickwahrscheinlichkeit, berechnet der Algorithmus deinen finalen Indexwert.
 
 ## Warum der Index die einzig wahre Metrik ist
 
@@ -65,7 +65,7 @@ Im Kontext von [Entity SEO](/glossar/entity-seo/) und GEO spiegelt die Sichtbark
 
 ## Mein Tacheles-Rat für dich
 
-Hör auf, auf Vanity-Metrics zu starren. Der Sichtbarkeitsindex ist dein Fieberthermometer. Nutze <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Ausschläge deiner Konkurrenz zu monitoren. Aber vergiss nie: Am Ende des Tages bringen Rankings kein Geld, sondern nur qualifizierter Traffic, der konvertiert. Baue Autorität auf, dann folgt die Kurve automatisch.
+Hör auf, auf Vanity-Metrics zu starren. Der Sichtbarkeitsindex ist dein Fieberthermometer. Nutze <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Ausschläge deiner Konkurrenz zu monitoren. Aber vergiss nie: Am Ende des Tages bringen Rankings kein Geld, sondern nur qualifizierter Traffic, der konvertiert. Baue Autorität auf, dann folgt die Kurve automatisch.
 
 ALOHA! Jörg
 

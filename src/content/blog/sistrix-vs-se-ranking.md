@@ -21,7 +21,7 @@ faqs:
 
 ALOHA 🌻! 🌻
 
-Ich nutze aktuell beide Tools parallel und vergleiche sie intensiv im Arbeitsalltag. Meine persönliche Perspektive: Langfristig kann <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> wahrscheinlich Sistrix komplett ersetzen – zumindest für meine Arbeitsweise und meine Kundenprojekte. Zusätzlich nutze ich <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um die Sichtbarkeit meiner Kunden in KI-Ergebnissen (GEO) zu tracken, was Sistrix aktuell noch gar nicht abdeckt.
+Ich nutze aktuell beide Tools parallel und vergleiche sie intensiv im Arbeitsalltag. Meine persönliche Perspektive: Langfristig kann <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> wahrscheinlich Sistrix komplett ersetzen – zumindest für meine Arbeitsweise und meine Kundenprojekte. Zusätzlich nutze ich <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um die Sichtbarkeit meiner Kunden in KI-Ergebnissen (GEO) zu tracken, was Sistrix aktuell noch gar nicht abdeckt.
 
 > "Ein Tool ist immer nur so gut wie derjenige, der es bedient. Aber wenn das Tool dir mehr verlässliche Daten für weniger Budget liefert, musst du einfach zweimal hinschauen."
 
@@ -36,7 +36,7 @@ Genau deshalb teile ich heute meine persönlichen Erfahrungen aus der Sicht eine
 
 Erst kürzlich habe ich mich intensiv mit den Entwicklungen der Plattform beschäftigt. Dazu gab es auf der Campixx auch einen spannenden Austausch. Wie ich bereits auf LinkedIn geschrieben habe:
 
-> Das Bild musste noch raus!  & Warum ich [SE Ranking](https://seranking.com/?ga=4169588&source=link) für AI Tracking & SEO nutze?
+> Das Bild musste noch raus!  & Warum ich [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) für AI Tracking & SEO nutze?
 > Bevor das Jahr rum ist (oder die nächste Campixx startet ), hier endlich das Foto mit Nico Kavelar! Hat mich sehr gefreut, dich auf der Campixx getroffen zu haben. Wir haben lange über die Entwicklung von SE Ranking gesprochen. Ich bin ja Fan von effizienten Workflows und da liefert die Suite ordentlich ab.
 > 
 > *[Original auf LinkedIn ansehen](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI)*
@@ -59,7 +59,7 @@ Lass uns Fakten auf den Tisch legen und die beiden Grundversionen vergleichen, d
 
 Sistrix ruft für das Start-Paket mittlerweile rund 119€ im Monat auf. Für Einzelkämpfer ist das absolut in Ordnung und marktüblich. Sobald das Team aber wächst oder man Mandanten eigene Reporting-Zugänge geben möchte, wird es restriktiv und schnell teuer.
 
-**Die Vorteile von [SE Ranking](https://seranking.com/?ga=4169588&source=link) im Core-Plan (bei jährlicher Zahlung ca. 87€ im Monat):**
+**Die Vorteile von [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) im Core-Plan (bei jährlicher Zahlung ca. 87€ im Monat):**
 - **Mehr Mitarbeiterplätze (Seats):** Du kannst deinem Team direkt Zugriff geben, ohne ständig Extra-Gebühren zahlen zu müssen.
 - **Mehr verwaltbare Projekte:** Die Anzahl der Domains im Account ist deutlich flexibler.
 - **Budget-Freundlich:** Da bleibt mehr Budget für aktiven Linkaufbau oder die Content-Kreation übrig.
@@ -76,7 +76,7 @@ Der Core-Zugang reicht für die allermeisten Freelancer und Inhouse-SEOs am Anfa
 
 ## Die Datenlage: Suchvolumen, Rankings und Backlinks
 
-Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiedenen Branchen verglichen. SE Ranking hat dazu auch selbst mal eine Studie veröffentlicht und sich gefragt, ob sie [eine würdige Sistrix Alternative](https://seranking.com/?ga=4169588&source=link) sind. Ob man dem Marketing-Sprech des Herstellers immer blind trauen kann? Weiß ich nicht genau. Deshalb prüfe ich die Daten immer selbst mit echten Rankings meiner Kundenprojekte.
+Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiedenen Branchen verglichen. SE Ranking hat dazu auch selbst mal eine Studie veröffentlicht und sich gefragt, ob sie [eine würdige Sistrix Alternative](https://seranking.com/de/worthy-sistrix-alternative.html?ga=4169588&source=link) sind. Ob man dem Marketing-Sprech des Herstellers immer blind trauen kann? Weiß ich nicht genau. Deshalb prüfe ich die Daten immer selbst mit echten Rankings meiner Kundenprojekte.
 
 ![SE Ranking Datenanalyse und Dashboard Vergleich](../../assets/images/blog/sistrix-vs-seranking-light-de.webp)
 
@@ -118,8 +118,8 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Lust auf mehr AI Visibility und SEO-Power?</h3>
-  <p class="mb-6">Hör auf, zu viel für zu wenig Leistung zu bezahlen. Teste <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein tägliches SEO-Handwerk und nutze <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um die Zukunft der Suche zu dominieren.</p>
-  <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt SE Ranking ausprobieren </a>
+  <p class="mb-6">Hör auf, zu viel für zu wenig Leistung zu bezahlen. Teste <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein tägliches SEO-Handwerk und nutze <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um die Zukunft der Suche zu dominieren.</p>
+  <a href="https://seranking.com/de/subscription.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt SE Ranking ausprobieren </a>
 </div>
 
 ---

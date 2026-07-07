@@ -56,7 +56,7 @@ Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Chec
 
 ## Schritt 2: Meine Hausaufgaben (Die Vorbereitung)
 
-Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, Screaming Frog und natürlich die Google Search Console.
+Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, Screaming Frog und natürlich die Google Search Console.
 
 Ich erstelle mir ein Bild von deiner "digitalen Gesundheit". Gibt es technische Blocker? Ist dein Content gehaltvoll wie ein Berliner Eisbein oder eher dünne Suppe? Ich bereite mich so vor, dass ich im Call keine Zeit mit Suchen verschwenden muss. Wir starten bei Minute 1 direkt mit den harten Fakten.
 
@@ -84,7 +84,7 @@ Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für den SEO-Check?</h3>
-  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
+  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
 </div>
 

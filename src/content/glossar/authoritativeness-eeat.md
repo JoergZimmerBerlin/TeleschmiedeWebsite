@@ -57,7 +57,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine Autorität ist unsichtbar?</h3>
-  <p class="mb-6">Ich zeige dir die schnellsten Wege, deine digitale Reputation für KIs aufzubauen. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir die Sichtbarkeit, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> validieren wir deine KI-Reputation.</p>
+  <p class="mb-6">Ich zeige dir die schnellsten Wege, deine digitale Reputation für KIs aufzubauen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir die Sichtbarkeit, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> validieren wir deine KI-Reputation.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Autoritäts-Check anfragen </a>
 </div>
 

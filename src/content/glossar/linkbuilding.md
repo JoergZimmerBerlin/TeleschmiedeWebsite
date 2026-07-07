@@ -43,7 +43,7 @@ Warum hart verdientes Linkbuilding für dich überlebenswichtig ist:
 2.  **Ranking-Boost:** Ohne starke Backlinks rankst du für umkämpfte Keywords im B2B exakt nirgendwo.
 3.  **Traffic:** Hochwertige Links bringen qualifizierte Nutzer direkt auf deine Money Pages.
 
-Um diesen harten Kampf messbar zu machen, nutze ich <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Dort siehst du schonungslos, welche Backlinks dein Profil stärken und welche giftig sind.
+Um diesen harten Kampf messbar zu machen, nutze ich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Dort siehst du schonungslos, welche Backlinks dein Profil stärken und welche giftig sind.
 
 ## Interne Verlinkung: Der Masterplan für deinen Linkjuice
 

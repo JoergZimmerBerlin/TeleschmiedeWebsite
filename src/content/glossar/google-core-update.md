@@ -77,7 +77,7 @@ Wenn Google dir vertraut, vertrauen dir auch die LLMs.
 
 ## Jörgs Action-Plan
 
-Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> begleiten wir den Sichtbarkeitsverlauf während und nach dem Rollout in Echtzeit. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
+Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> begleiten wir den Sichtbarkeitsverlauf während und nach dem Rollout in Echtzeit. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
 
 ALOHA 🌻 
 
@@ -85,7 +85,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ranking-Absturz nach einem Update?</h3>
-  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Erholung, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Erholung, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen </a>
 </div>
 

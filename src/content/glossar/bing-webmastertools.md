@@ -54,7 +54,7 @@ Die Einrichtung ist in 5 Minuten erledigt, keine Ausreden:
 Statt zu warten, dass der Bing-Crawler deine Änderungen findet, meldest du URLs aktiv über das IndexNow-Protokoll. Die Indexierung passiert oft in Minuten. Google hat derzeit nichts Vergleichbares.
 
 ### Backlink-Profil
-Anders als Google zeigt dir Bing dein vollständiges Backlink-Profil. Welche Domains verlinken auf dich? Wie hat sich dein Profil über die Zeit entwickelt? Wertvolle Daten, die du bei Google nur über <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder andere Tools bekommst.
+Anders als Google zeigt dir Bing dein vollständiges Backlink-Profil. Welche Domains verlinken auf dich? Wie hat sich dein Profil über die Zeit entwickelt? Wertvolle Daten, die du bei Google nur über <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder andere Tools bekommst.
 
 ### SEO-Analyzer
 Ein eingebautes Tool, das deine Seiten auf technische SEO-Probleme scannt: Fehlende Alt-Tags, zu lange Titles, fehlende H1-Tags und mehr. Direkt im Browser, ohne Plugin. Das ist kein "Bauchladen" , sondern echtes Handwerk.

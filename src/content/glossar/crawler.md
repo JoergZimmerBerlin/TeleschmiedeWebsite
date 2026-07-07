@@ -85,7 +85,7 @@ ALOHA! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bot-Traffic richtig verstehen?</h3>
-  <p class="mb-6">Ich zeige dir, wie Googlebot und KI-Crawler deine Seite sehen. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Bot-Aktivität, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
+  <p class="mb-6">Ich zeige dir, wie Googlebot und KI-Crawler deine Seite sehen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Bot-Aktivität, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Reputation.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Crawler-Check anfragen </a>
 </div>
 

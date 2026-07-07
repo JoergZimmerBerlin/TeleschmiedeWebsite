@@ -68,7 +68,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hast du Duplicate Content Probleme?</h3>
-  <p class="mb-6">Deine Rankings treten auf der Stelle, weil Google nicht weiß, welche URL die richtige ist? Ich räume dein technisches Setup auf. Mit Profi-Check in <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> bringen wir deine Autorität auf den Punkt.</p>
+  <p class="mb-6">Deine Rankings treten auf der Stelle, weil Google nicht weiß, welche URL die richtige ist? Ich räume dein technisches Setup auf. Mit Profi-Check in <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> bringen wir deine Autorität auf den Punkt.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Check anfragen </a>
 </div>
 

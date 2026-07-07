@@ -117,7 +117,7 @@ ALOHA 🌻
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für den SEO-Check?</h3>
   <p class="mb-6">Hol dir jetzt die volle Kontrolle über deine Technik. Teste das Website-Audit von SE Ranking 14 Tage lang kostenlos und finde heraus, wo dein Potenzial liegt. Auf der Seite findest du direkt ein Feld für deine Domain!</p>
-  <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Website-Audit kostenlos starten</a>
+  <a href="https://seranking.com/de/website-audit.html?ga=4169588&utm_source=affiliate" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Website-Audit kostenlos starten</a>
 </div>
 
 * [Was ist Technisches SEO?](/glossar/technisches-seo/)

@@ -51,7 +51,7 @@ Je öfter du erwähnt wirst, desto eher begreift Google, dass du eine relevante 
 Wie sorgst du dafür, dass über dich gesprochen wird?
 1.  **PR und Media Relations:** Gastbeiträge auf Fachportalen sind oft wertvoller für die Mention-Bilanz als ein gekaufter Backlink aus einem versteckten Archiv.
 2.  **Social Listening:** Nutze Tools wie Google Alerts oder spezialisierte Brand-Tracker, um sofort zu erfahren, wenn jemand über dich spricht. Trete in den Dialog!
-3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Ich analysiere meine [Visibility-Trends mit SE Ranking](https://seranking.com/?ga=4169588&source=link), um zu sehen, wie meine Reputation im Vergleich zur Konkurrenz wächst. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
+3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Ich analysiere meine [Visibility-Trends mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um zu sehen, wie meine Reputation im Vergleich zur Konkurrenz wächst. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
 
 ## Mentions in der generativen KI-Suche ([GEO](/glossar/geo/))
 

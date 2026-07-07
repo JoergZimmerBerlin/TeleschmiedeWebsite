@@ -54,7 +54,7 @@ Das Featured Snippet (Position 0) ist die Blaupause für die heutigen KI-Antwort
 
 ## Mein Tacheles-Rat für dich
 
-Öffne dein Dashboard bei <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen im Bereich 'AI Overviews', aber niedriger CTR. Überarbeite das Markup, integriere das Rezensions-Schema (`Review`) zur Vertrauensbildung. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir anschließend, ob dein Snippet-Upgrade deine Sichtbarkeit in den KI-Zitaten verbessert.
+Öffne dein Dashboard bei <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder die [Google Search Console](/glossar/google-search-console/) und sortiere nach [CTR](/glossar/ctr/). Finde Seiten mit vielen Impressionen im Bereich 'AI Overviews', aber niedriger CTR. Überarbeite das Markup, integriere das Rezensions-Schema (`Review`) zur Vertrauensbildung. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir anschließend, ob dein Snippet-Upgrade deine Sichtbarkeit in den KI-Zitaten verbessert.
 
 ALOHA 🌻 
 

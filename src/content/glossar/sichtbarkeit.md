@@ -44,7 +44,7 @@ SEO 2026 ist kein Tunnelblick mehr auf eine blaue Link-Liste.
 Echte Sichtbarkeit bedeutet, den gesamten "Suchraum" zu besetzen.
 Hier geht es um die Dominanz deiner [Entität](/glossar/entitaet/) über verschiedene Kanäle hinweg.
 
-*   **Organische Ergebnisse:** Die klassischen Top 10, die immer noch das Fundament bilden. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das tägliche Performance-Tracking.
+*   **Organische Ergebnisse:** Die klassischen Top 10, die immer noch das Fundament bilden. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für das tägliche Performance-Tracking.
 *   **Featured Snippets:** Die "Position Null", die sofort Vertrauen aufbaut.
 *   **Video-Snippets:** Präsenz auf YouTube, die direkt in der Google-Suche ausgespielt wird.
 *   **KI-Antworten (GEO):** Zitiert werden von Large Language Models wie Perplexity oder ChatGPT. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> messen wir diese neue Sichtbarkeit.
@@ -69,7 +69,7 @@ Es bringt dir nichts, für "Was ist SEO" auf Platz 1 zu stehen, wenn du eigentli
 ## Messung: Der Sichtbarkeitsindex als Fieberkurve
 
 Wie finden wir heraus, wie sichtbar du wirklich bist?
-Dafür nutzen wir Tools wie den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) von Sistrix oder Metriken aus <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>.
+Dafür nutzen wir Tools wie den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) von Sistrix oder Metriken aus <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>.
 Dieser Index ist die Fieberkurve deines Projekts.
 Er zeigt nicht nur deine eigenen Leistungen, sondern setzt sie ins Verhältnis zum Wettbewerb.
 
@@ -113,7 +113,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bist du für deine Kunden unsichtbar?</h3>
-  <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dorthin, wo deine Zielgruppe sucht. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Präsenz sichern wir deine Marktanteile.</p>
+  <p class="mb-6">Ich analysiere deine Sichtbarkeitslücken und bringe dich dorthin, wo deine Zielgruppe sucht. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für die KI-Präsenz sichern wir deine Marktanteile.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sichtbarkeits-Check anfragen </a>
 </div>
 

@@ -74,7 +74,7 @@ Wenn du deine Sichtbarkeit wirklich verstehen willst, musst du automatisieren. E
 -   **Link-Tracking**: Welche deiner Seiten werden von der KI als Quellen bevorzugt?
 -   **Wettbewerbs-Analyse**: Wer sind die neuen Player, die du in den klassischen SERPs vielleicht gar nicht auf dem Schirm hattest, die aber in der KI dominieren?
 
-Professionelle Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> ermöglichen es dir, genau diese Daten in dein wöchentliches Reporting zu gießen. Das ist Tacheles-Marketing: Keine Vermutungen, sondern harte Zahlen.
+Professionelle Tools wie <a href="https://seranking.com/de/ki-sichtbarkeit-tools.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> ermöglichen es dir, genau diese Daten in dein wöchentliches Reporting zu gießen. Das ist Tacheles-Marketing: Keine Vermutungen, sondern harte Zahlen.
 
 ## Optimierung: Der Weg zu mehr KI-Präsenz (GEO)
 
@@ -87,12 +87,12 @@ Die KI muss verstehen, wer du bist und was du tust. Nutze [Technisches Schema Ma
 KI-Modelle sind darauf trainiert, vertrauenswürdige Quellen zu bevorzugen. Wenn du über "SEO-Strategie" schreibst, solltest du beweisen, dass du seit 2001 dabei bist (so wie ich). Erwähnungen auf namhaften Portalen, Profile bei LinkedIn und konsistente Daten im Netz sind das Futter für die KI.
 
 ### 3. Informationslücken schließen
-Analysiere die KI-Antworten deiner Wettbewerber. Was sagt die KI über sie, was sie über dich nicht sagt? Fehlen dir Daten, Fallstudien oder klare Definitionen? Nutze den [AI Tracker von SE Ranking](https://seranking.com/?ga=4169588&source=link), um diese Lücken zu identifizieren und gezielt Content nachzulegen.
+Analysiere die KI-Antworten deiner Wettbewerber. Was sagt die KI über sie, was sie über dich nicht sagt? Fehlen dir Daten, Fallstudien oder klare Definitionen? Nutze den [AI Tracker von SE Ranking](https://seranking.com/de/ki-sichtbarkeit-tools.html?ga=4169588&source=link), um diese Lücken zu identifizieren und gezielt Content nachzulegen.
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für die Zukunft der Suche?</h3>
   <p class="mb-6">Hör auf zu raten. Miss deine KI-Sichtbarkeit mit echten Daten. Mit meiner Empfehlung für SE Ranking bekommst du das volle Paket für deine AI Search Optimization – direkt vom Profi.</p>
-  <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt KI-Sichtbarkeit tracken </a>
+  <a href="https://seranking.com/de/ki-sichtbarkeit-tools.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt KI-Sichtbarkeit tracken </a>
 </div>
 
 ## Fazit: Wer jetzt wartet, hat schon verloren

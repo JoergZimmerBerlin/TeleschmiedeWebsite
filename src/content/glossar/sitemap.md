@@ -51,7 +51,7 @@ Selbst wenn dein Link-Geflecht perfekt ist, hilft die Sitemap Google massiv:
 
 ## Monitoring in der Search Console
 
-Es reicht nicht, eine Sitemap zu haben. Du musst sie Google auch geben. Das machst du in der Google Search Console. Wenn Google deine Sitemap nicht kennt, weiß Google nicht, dass es dich gibt. Nutze professionelle Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> um sicherzustellen, dass keine 404-Fehler oder Noindex-Seiten in deiner Sitemap landen. Alles zum perfekten Setup erfährst du in meinem Lese-Tipp unten.
+Es reicht nicht, eine Sitemap zu haben. Du musst sie Google auch geben. Das machst du in der Google Search Console. Wenn Google deine Sitemap nicht kennt, weiß Google nicht, dass es dich gibt. Nutze professionelle Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> um sicherzustellen, dass keine 404-Fehler oder Noindex-Seiten in deiner Sitemap landen. Alles zum perfekten Setup erfährst du in meinem Lese-Tipp unten.
 Dort siehst du auch sofort, ob Google die Sitemap lesen konnte und wie viele URLs daraus indexiert wurden. Wenn du dort Fehler siehst -> Sofort handeln! Das ist Basis-SEO.
 
 ## Sitemaps und die KI-Suche ([GEO](/glossar/geo/))
@@ -78,7 +78,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Probleme mit der Indexierung?</h3>
-  <p class="mb-6">Eine unsaubere Sitemap führt Google in die Irre. Ich optimiere deine Struktur mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und sichere deine KI-Sichtbarkeit über <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.</p>
+  <p class="mb-6">Eine unsaubere Sitemap führt Google in die Irre. Ich optimiere deine Struktur mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und sichere deine KI-Sichtbarkeit über <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sitemap-Optimierung anfragen </a>
 </div>
 

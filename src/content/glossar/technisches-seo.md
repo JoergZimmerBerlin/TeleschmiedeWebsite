@@ -57,7 +57,7 @@ Eine gute **SEO Strategie** stellt sicher, dass wir nicht planlos drauflos optim
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">SEO Pro-Tipp</h4>
-  <p class="mb-0 text-sm">Mach keine halben Sachen. Ein 'bisschen SEO' ist oft verbranntes Geld. Setz auf ein ganzheitliches Konzept, das Technik, Content und Strategie vereint. Nur so baust du nachhaltige Sichtbarkeit auf. Nutze professionelle Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein tägliches Monitoring.
+  <p class="mb-0 text-sm">Mach keine halben Sachen. Ein 'bisschen SEO' ist oft verbranntes Geld. Setz auf ein ganzheitliches Konzept, das Technik, Content und Strategie vereint. Nur so baust du nachhaltige Sichtbarkeit auf. Nutze professionelle Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für dein tägliches Monitoring.
 </div>
 
 ## SEO-Betreuung & Analyse
@@ -76,7 +76,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein technisches Fundament wackelt?</h3>
-  <p class="mb-6">Ich sorge für eine fehlerfreie Basis, die konvertiert. Wir nutzen <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den technischen Check und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Zukunft.</p>
+  <p class="mb-6">Ich sorge für eine fehlerfreie Basis, die konvertiert. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den technischen Check und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Zukunft.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 

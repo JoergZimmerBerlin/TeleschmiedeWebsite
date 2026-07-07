@@ -226,8 +226,8 @@ Das ist der Mehrwert: nicht dass die API dir alles erklärt, sondern dass sie di
 
 Mein Fazit nach diesem Test: <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Max</a> hatte recht. Mit dem richtigen Wrapper ist das ein **Workflow-Beschleuniger** - wobei „Beschleuniger" genau das nüchterne Wort ist, das ich bevorzuge. Kein Hype, keine Revolution. Einfach: schneller bessere Ausgangsdaten. 🌻
 
-Die [SE Ranking API](https://seranking.com/?ga=4169588&source=link) in Kombination mit <a href="https://www.anthropic.com/claude-code" target="_blank" rel="noopener noreferrer">Claude Code</a> liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
+Die [SE Ranking API](https://seranking.com/de/?ga=4169588&source=link) in Kombination mit <a href="https://www.anthropic.com/claude-code" target="_blank" rel="noopener noreferrer">Claude Code</a> liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
 
-Danke an Max und die Crew von <a href="https://polisys.de" target="_blank" rel="noopener noreferrer">poliSYS</a> für den Stups — und an [SE Ranking](https://seranking.com/?ga=4169588&source=link) für die API.
+Danke an Max und die Crew von <a href="https://polisys.de" target="_blank" rel="noopener noreferrer">poliSYS</a> für den Stups — und an [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die API.
 
 Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.

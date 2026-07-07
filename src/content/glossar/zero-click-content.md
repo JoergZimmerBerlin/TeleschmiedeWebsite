@@ -46,7 +46,7 @@ Wenn du die zitierte Quelle bist, gewinnst du etwas Wertvolleres als Klicks: **M
 
 ## Mein Tacheles-Rat für dich
 
-Akzeptiere die Zero-Click Realität und nutze sie strategisch. Nicht jeder Seitenaufruf ist gleich wertvoll – aber jede Quellennennung in einem Featured Snippet oder AI Overview ist Gold für deine Marke. Ich überwache diese Klicks mit den [SERP-Tools von SE Ranking](https://seranking.com/?ga=4169588&source=link) und messe deine KI-Zitate präzise mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.
+Akzeptiere die Zero-Click Realität und nutze sie strategisch. Nicht jeder Seitenaufruf ist gleich wertvoll – aber jede Quellennennung in einem Featured Snippet oder AI Overview ist Gold für deine Marke. Ich überwache diese Klicks mit den [SERP-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und messe deine KI-Zitate präzise mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>.
 
 ALOHA 🌻 
 

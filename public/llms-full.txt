@@ -409,7 +409,7 @@ Schreib Sätze, die eine KI wortwörtlich zitieren kann. Klare Definitionen, Zah
 
 ## Jörgs Action-Plan
 
-AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/?ga=4169588&source=link) für die Themenanalyse und Rankscale für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
+AEO ist kein Sprint, sondern ein strategischer Aufbau von Autorität. Strukturiere deinen Content so, dass KI-Modelle ihn lieben. Ich nutze den [Keyword-Planer von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die Themenanalyse und Rankscale für die Messung deiner KI-Sichtbarkeit. Wer hier heute investiert, sichert sich die Pole-Position in den Suchergebnissen der Zukunft.
 
 ALOHA! Jörg
 
@@ -483,7 +483,7 @@ In meiner täglichen Arbeit als [SEO & GEO Freelancer](https://teleschmie.de/seo
 *   **Content:** Ist er [zitierfähig](https://teleschmie.de/glossar/zitierfaehiger-content/) für KI-Systeme?
 *   **Technik:** Sind [Schema.org](https://teleschmie.de/glossar/technisches-schema-markup/) und [strukturierte Daten](https://teleschmie.de/glossar/strukturierte-daten/) implementiert?
 *   **Entity:** Wird mein Kunde als [Entität](https://teleschmie.de/glossar/entitaeten-building/) erkannt?
-*   **Tracking:** Nutzen wir [AI Tracking Tools](https://teleschmie.de/glossar/ai-tracking-tools/) wie Rankscale neben der [Google Search Console](https://seranking.com/?ga=4169588&source=link).
+*   **Tracking:** Nutzen wir [AI Tracking Tools](https://teleschmie.de/glossar/ai-tracking-tools/) wie Rankscale neben der [Google Search Console](https://seranking.com/de/?ga=4169588&source=link).
 
 ## Dein nächster Schritt
 
@@ -717,7 +717,7 @@ In der KI-Ära ist das noch wichtiger: [LLMs](https://teleschmie.de/glossar/llmo
 
 ## Mein Tacheles-Rat für dich
 
-Google deinen eigenen Namen in Anführungszeichen. Richte Google Alerts ein. Und dann arbeite aktiv daran, mehr Mentions zu generieren – durch [Pressearbeit](https://teleschmie.de/glossar/pressearbeit-im-seo/), Community-Engagement und exzellenten Content. Mit dem [Reputations-Tracking von SE Ranking](https://seranking.com/?ga=4169588&source=link) siehst du sofort, wer dich im Web entdeckt.
+Google deinen eigenen Namen in Anführungszeichen. Richte Google Alerts ein. Und dann arbeite aktiv daran, mehr Mentions zu generieren – durch [Pressearbeit](https://teleschmie.de/glossar/pressearbeit-im-seo/), Community-Engagement und exzellenten Content. Mit dem [Reputations-Tracking von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) siehst du sofort, wer dich im Web entdeckt.
 
 ALOHA 🌻 
 
@@ -961,7 +961,7 @@ Der heilige Gral hierbei sind die **NAP-Daten** (Name, Address, Phone). In meine
 *   **Adresse:** Berlin-Spandau
 *   **Web:** [Jörg Zimmer](https://teleschmie.de)
 
-Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst. Mit dem [Backlink-Checker von SE Ranking](https://seranking.com/?ga=4169588&source=link) analysieren wir gezielt die Erwähnungen deiner Wettbewerber, um deine eigenen Hebel zu finden.
+Diese Daten müssen überall identisch sein – auf meiner Website, auf LinkedIn, im Google Business Profile, bei der IHK, in Podcast-Shownotes und überall sonst. Mit dem [Backlink-Checker von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir gezielt die Erwähnungen deiner Wettbewerber, um deine eigenen Hebel zu finden.
 
 
   Praxisbeispiel: Meine eigene Citation-Strategie
@@ -2189,7 +2189,7 @@ Heute lautet die Frage: Werde ich in der Antwort von ChatGPT, Perplexity oder Go
   "Guck dir mal deinen PageSpeed auf dem Handy an. Wenn der Nutzer dreimal Kaffee kochen kann, bis deine Seite lädt, ist er längst bei der Konkurrenz."
 
 
-Als [GEO Strategist](https://teleschmie.de/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Um dein klassisches SEO-Fundament zu sichern, greife ich auf die [tiefgehenden Audits von SE Ranking](https://seranking.com/?ga=4169588&source=link) zurück, während wir parallel die GEO-Säulen aufbauen.
+Als [GEO Strategist](https://teleschmie.de/blog/rankscale-ai-visibility-tracking-17-llms/) unterstütze ich Unternehmen dabei, diesen Übergang zu meistern. Um dein klassisches SEO-Fundament zu sichern, greife ich auf die [tiefgehenden Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) zurück, während wir parallel die GEO-Säulen aufbauen.
 
 ---
 
@@ -3102,7 +3102,7 @@ Die KI muss verstehen, wer du bist und was du tust. Nutze [Technisches Schema Ma
 KI-Modelle sind darauf trainiert, vertrauenswürdige Quellen zu bevorzugen. Wenn du über "SEO-Strategie" schreibst, solltest du beweisen, dass du seit 2001 dabei bist (so wie ich). Erwähnungen auf namhaften Portalen, Profile bei LinkedIn und konsistente Daten im Netz sind das Futter für die KI.
 
 ### 3. Informationslücken schließen
-Analysiere die KI-Antworten deiner Wettbewerber. Was sagt die KI über sie, was sie über dich nicht sagt? Fehlen dir Daten, Fallstudien oder klare Definitionen? Nutze den [AI Tracker von SE Ranking](https://seranking.com/?ga=4169588&source=link), um diese Lücken zu identifizieren und gezielt Content nachzulegen.
+Analysiere die KI-Antworten deiner Wettbewerber. Was sagt die KI über sie, was sie über dich nicht sagt? Fehlen dir Daten, Fallstudien oder klare Definitionen? Nutze den [AI Tracker von SE Ranking](https://seranking.com/de/ki-sichtbarkeit-tools.html?ga=4169588&source=link), um diese Lücken zu identifizieren und gezielt Content nachzulegen.
 
 
   Bereit für die Zukunft der Suche?
@@ -3732,7 +3732,7 @@ Je öfter du erwähnt wirst, desto eher begreift Google, dass du eine relevante 
 Wie sorgst du dafür, dass über dich gesprochen wird?
 1.  **PR und Media Relations:** Gastbeiträge auf Fachportalen sind oft wertvoller für die Mention-Bilanz als ein gekaufter Backlink aus einem versteckten Archiv.
 2.  **Social Listening:** Nutze Tools wie Google Alerts oder spezialisierte Brand-Tracker, um sofort zu erfahren, wenn jemand über dich spricht. Trete in den Dialog!
-3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Ich analysiere meine [Visibility-Trends mit SE Ranking](https://seranking.com/?ga=4169588&source=link), um zu sehen, wie meine Reputation im Vergleich zur Konkurrenz wächst. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](https://teleschmie.de/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
+3.  **Community Arbeit:** Sei aktiv in Foren oder auf Plattformen wie LinkedIn. Jede Diskussion, in der dein Name fällt, erhöht dein digitales Grundrauschen. Ich analysiere meine [Visibility-Trends mit SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um zu sehen, wie meine Reputation im Vergleich zur Konkurrenz wächst. Wie ich bereits in meinem Artikel "[LinkedIn ist ein Forum](https://teleschmie.de/blog/linkedin-ist-ein-forum-seo/)" beschrieb, ist die Sichtbarkeit dort ein direkter Hebel für deine Marken-Expertise.
 
 ## Mentions in der generativen KI-Suche ([GEO](https://teleschmie.de/glossar/geo/))
 
@@ -3812,7 +3812,7 @@ Noch wichtiger: Für autonome KI-Agenten ist die Meta Description beim initialen
 
 ## Mein Tacheles-Rat für dich
 
-Hör auf, dieses Feld im CMS leer zu lassen. Wer die Meta Description ignoriert, verbrennt wertvollen Traffic. Ich nutze die [Snippet-Analyse von SE Ranking](https://seranking.com/?ga=4169588&source=link), um Klickraten gnadenlos zu überwachen und aus Low-Performern Klick-Magneten zu machen. Schreib knackig, keyword-zentriert und mit einem echten USP – dann klappt's auch mit den Nutzern.
+Hör auf, dieses Feld im CMS leer zu lassen. Wer die Meta Description ignoriert, verbrennt wertvollen Traffic. Ich nutze die [Snippet-Analyse von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um Klickraten gnadenlos zu überwachen und aus Low-Performern Klick-Magneten zu machen. Schreib knackig, keyword-zentriert und mit einem echten USP – dann klappt's auch mit den Nutzern.
 
 ALOHA! Jörg
 
@@ -4030,7 +4030,7 @@ In der generativen KI-Suche ([GEO](https://teleschmie.de/glossar/geo/)) spielt d
 
 ## Mein Tacheles-Rat für dich
 
-PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Wenn deine Ladezeit zu langsam ist, verlierst du nicht nur Rankings bei Google, sondern auch das Vertrauen deiner Nutzer. Ich nutze den [Performance-Audit von SE Ranking](https://seranking.com/?ga=4169588&source=link), um deinen PageSpeed im Vergleich zum Wettbewerb zu benchmarken. Und denk dran: Mobile First ist kein Trend, sondern Gesetz.
+PageSpeed ist die Basis aller digitalen Marketing-Maßnahmen. Ein schneller Shop verkauft mehr, ein schnelles Blog wird mehr gelesen. Die Optimierung der Ladezeit ist keine einmalige Aufgabe, sondern eine Dauerdisziplin. Wenn deine Ladezeit zu langsam ist, verlierst du nicht nur Rankings bei Google, sondern auch das Vertrauen deiner Nutzer. Ich nutze den [Performance-Audit von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deinen PageSpeed im Vergleich zum Wettbewerb zu benchmarken. Und denk dran: Mobile First ist kein Trend, sondern Gesetz.
 
 Denk immer daran: Eine Sekunde Verzögerung kann bis zu 7% Conversion-Rate kosten. Bleib schnell, bleib sichtbar!
 
@@ -4442,7 +4442,7 @@ Ein semantischer Content-Cluster besteht 2026 aus:
 
 ## Jörgs Action-Plan: Semantic Ready
 
-Hör auf, SEO als Liste von Keywords zu sehen. Definiere dein Kernthema und baue ein Wissens-Universum drum herum. Verlinke alles intern. Nutze Schema.org. Mit dem [Topic-Cluster-Tool von SE Ranking](https://seranking.com/?ga=4169588&source=link) behalten wir den Überblick über deine semantische Relevanz. Und mit Rankscale prüfen wir, ob die LLMs deine Themen-Autorität bereits für ihre Antworten nutzen.
+Hör auf, SEO als Liste von Keywords zu sehen. Definiere dein Kernthema und baue ein Wissens-Universum drum herum. Verlinke alles intern. Nutze Schema.org. Mit dem [Topic-Cluster-Tool von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) behalten wir den Überblick über deine semantische Relevanz. Und mit Rankscale prüfen wir, ob die LLMs deine Themen-Autorität bereits für ihre Antworten nutzen.
 
 ALOHA 🌻 
 
@@ -4487,7 +4487,7 @@ Ein **SEO Profi** oder Freelancer (wie ich ihn verkörpere) bietet dafür maxima
 ### Was eine wirklich gute SEO Agentur auszeichnet:
 1.  **Keine Ranking-Garantien:** Wer dir Platz 1 bei Google verspricht, lügt. Google gehört niemandem außer Google. Wir beeinflussen die Wahrscheinlichkeit, aber wir garantieren nicht.
 2.  **Ganzheitliches Marketing:** Sie verstehen, dass SEO nur ein Teil des **SEO Marketing** Mixes ist.
-3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast. In meiner Beratung nutzen wir die [unabhängigen Audits von SE Ranking](https://seranking.com/?ga=4169588&source=link), um die Berichte von Agenturen objektiv gegenprüfen zu können – Vertrauen ist gut, Kontrolle ist SEO.
+3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast. In meiner Beratung nutzen wir die [unabhängigen Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die Berichte von Agenturen objektiv gegenprüfen zu können – Vertrauen ist gut, Kontrolle ist SEO.
 
 
   Vorsicht bei Billig-Angeboten
@@ -4982,7 +4982,7 @@ Der Sichtbarkeitsindex ist die absolut härteste Währung der SEO-Welt. Keine Li
   "Ob Sistrix oder SE Ranking: Der Index ist dein EKG. Ein steigender Graph zahlt dir noch keine Rechnungen, aber ein massiver Absturz kostet dich dein Business."
 
 
-Was genau wird da eigentlich berechnet? Tools wie Sistrix oder der hervorragende [Sichtbarkeits-Checker von SE Ranking](https://seranking.com/?ga=4169588&source=link) tracken täglich Millionen von Keywords. Aus der Summe deiner Platzierungen, kombiniert mit dem jeweiligen Suchvolumen und der erwarteten Klickwahrscheinlichkeit, berechnet der Algorithmus deinen finalen Indexwert.
+Was genau wird da eigentlich berechnet? Tools wie Sistrix oder der hervorragende [Sichtbarkeits-Checker von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) tracken täglich Millionen von Keywords. Aus der Summe deiner Platzierungen, kombiniert mit dem jeweiligen Suchvolumen und der erwarteten Klickwahrscheinlichkeit, berechnet der Algorithmus deinen finalen Indexwert.
 
 ## Warum der Index die einzig wahre Metrik ist
 
@@ -5558,7 +5558,7 @@ Gleichzeitig werden Title Tags immer öfter als "Context Header" für Large Lang
 
 ## Dein nächster Schritt
 
-Das Title Tag ist das Aushängeschild deiner digitalen Präsenz. Es ist der Bruchteil einer Sekunde, in dem ein Nutzer entscheidet: "Klicke ich hier oder beim Wettbewerber?". Mit dem professionellen [SERP-Checker von SE Ranking](https://seranking.com/?ga=4169588&source=link) optimieren wir deine Darstellung auf das Pixel genau, bevor sie live geht. Ein optimierter Title ist kurz, prägnant und markentreu. Vernachlässige dieses kleine HTML-Tag niemals – und mit Rankscale behalten wir im Blick, wie oft deine Titel als verlässliche Antwortquellen in der KI-Welt zitiert werden.
+Das Title Tag ist das Aushängeschild deiner digitalen Präsenz. Es ist der Bruchteil einer Sekunde, in dem ein Nutzer entscheidet: "Klicke ich hier oder beim Wettbewerber?". Mit dem professionellen [SERP-Checker von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) optimieren wir deine Darstellung auf das Pixel genau, bevor sie live geht. Ein optimierter Title ist kurz, prägnant und markentreu. Vernachlässige dieses kleine HTML-Tag niemals – und mit Rankscale behalten wir im Blick, wie oft deine Titel als verlässliche Antwortquellen in der KI-Welt zitiert werden.
 
 ALOHA 🌻 
 
@@ -6204,7 +6204,7 @@ Wenn du die zitierte Quelle bist, gewinnst du etwas Wertvolleres als Klicks: **M
 
 ## Mein Tacheles-Rat für dich
 
-Akzeptiere die Zero-Click Realität und nutze sie strategisch. Nicht jeder Seitenaufruf ist gleich wertvoll – aber jede Quellennennung in einem Featured Snippet oder AI Overview ist Gold für deine Marke. Ich überwache diese Klicks mit den [SERP-Tools von SE Ranking](https://seranking.com/?ga=4169588&source=link) und messe deine KI-Zitate präzise mit Rankscale.
+Akzeptiere die Zero-Click Realität und nutze sie strategisch. Nicht jeder Seitenaufruf ist gleich wertvoll – aber jede Quellennennung in einem Featured Snippet oder AI Overview ist Gold für deine Marke. Ich überwache diese Klicks mit den [SERP-Tools von SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und messe deine KI-Zitate präzise mit Rankscale.
 
 ALOHA 🌻 
 
@@ -6629,7 +6629,7 @@ Genau deshalb teile ich heute meine persönlichen Erfahrungen aus der Sicht eine
 
 Erst kürzlich habe ich mich intensiv mit den Entwicklungen der Plattform beschäftigt. Dazu gab es auf der Campixx auch einen spannenden Austausch. Wie ich bereits auf LinkedIn geschrieben habe:
 
-> Das Bild musste noch raus!  & Warum ich [SE Ranking](https://seranking.com/?ga=4169588&source=link) für AI Tracking & SEO nutze?
+> Das Bild musste noch raus!  & Warum ich [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) für AI Tracking & SEO nutze?
 > Bevor das Jahr rum ist (oder die nächste Campixx startet ), hier endlich das Foto mit Nico Kavelar! Hat mich sehr gefreut, dich auf der Campixx getroffen zu haben. Wir haben lange über die Entwicklung von SE Ranking gesprochen. Ich bin ja Fan von effizienten Workflows und da liefert die Suite ordentlich ab.
 > 
 > *[Original auf LinkedIn ansehen](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI)*
@@ -6652,7 +6652,7 @@ Lass uns Fakten auf den Tisch legen und die beiden Grundversionen vergleichen, d
 
 Sistrix ruft für das Start-Paket mittlerweile rund 119€ im Monat auf. Für Einzelkämpfer ist das absolut in Ordnung und marktüblich. Sobald das Team aber wächst oder man Mandanten eigene Reporting-Zugänge geben möchte, wird es restriktiv und schnell teuer.
 
-**Die Vorteile von [SE Ranking](https://seranking.com/?ga=4169588&source=link) im Core-Plan (bei jährlicher Zahlung ca. 87€ im Monat):**
+**Die Vorteile von [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) im Core-Plan (bei jährlicher Zahlung ca. 87€ im Monat):**
 - **Mehr Mitarbeiterplätze (Seats):** Du kannst deinem Team direkt Zugriff geben, ohne ständig Extra-Gebühren zahlen zu müssen.
 - **Mehr verwaltbare Projekte:** Die Anzahl der Domains im Account ist deutlich flexibler.
 - **Budget-Freundlich:** Da bleibt mehr Budget für aktiven Linkaufbau oder die Content-Kreation übrig.
@@ -6669,7 +6669,7 @@ Der Core-Zugang reicht für die allermeisten Freelancer und Inhouse-SEOs am Anfa
 
 ## Die Datenlage: Suchvolumen, Rankings und Backlinks
 
-Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiedenen Branchen verglichen. SE Ranking hat dazu auch selbst mal eine Studie veröffentlicht und sich gefragt, ob sie [eine würdige Sistrix Alternative](https://seranking.com/?ga=4169588&source=link) sind. Ob man dem Marketing-Sprech des Herstellers immer blind trauen kann? Weiß ich nicht genau. Deshalb prüfe ich die Daten immer selbst mit echten Rankings meiner Kundenprojekte.
+Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiedenen Branchen verglichen. SE Ranking hat dazu auch selbst mal eine Studie veröffentlicht und sich gefragt, ob sie [eine würdige Sistrix Alternative](https://seranking.com/de/worthy-sistrix-alternative.html?ga=4169588&source=link) sind. Ob man dem Marketing-Sprech des Herstellers immer blind trauen kann? Weiß ich nicht genau. Deshalb prüfe ich die Daten immer selbst mit echten Rankings meiner Kundenprojekte.
 
 ![SE Ranking Datenanalyse und Dashboard Vergleich](https://teleschmie.de/assets/images/blog/sistrix-vs-seranking-light-de.webp)
 
@@ -8006,9 +8006,9 @@ Das ist der Mehrwert: nicht dass die API dir alles erklärt, sondern dass sie di
 
 Mein Fazit nach diesem Test: Max hatte recht. Mit dem richtigen Wrapper ist das ein **Workflow-Beschleuniger** - wobei „Beschleuniger" genau das nüchterne Wort ist, das ich bevorzuge. Kein Hype, keine Revolution. Einfach: schneller bessere Ausgangsdaten. 🌻
 
-Die [SE Ranking API](https://seranking.com/?ga=4169588&source=link) in Kombination mit Claude Code liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
+Die [SE Ranking API](https://seranking.com/de/?ga=4169588&source=link) in Kombination mit Claude Code liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
 
-Danke an Max und die Crew von poliSYS für den Stups — und an [SE Ranking](https://seranking.com/?ga=4169588&source=link) für die API.
+Danke an Max und die Crew von poliSYS für den Stups — und an [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die API.
 
 Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.
 
@@ -11157,7 +11157,7 @@ Die Liste der Fehler ist lang, schmerzhaft und vor allem: Sie kostet dich jeden 
 
 ## Der Tacheles-Check: Woran es wirklich hakt
 
-Wenn ich Websites "grille", nutze ich [SE Ranking](https://seranking.com/?ga=4169588&source=link) für die harten Fakten und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Sichtbarkeit. Was wir da finden, ist oft ein digitaler Friedhof der guten Absichten.
+Wenn ich Websites "grille", nutze ich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die harten Fakten und [Rankscale](https://rankscale.ai/?via=offer) für den Blick in die KI-Sichtbarkeit. Was wir da finden, ist oft ein digitaler Friedhof der guten Absichten.
 
 Hier ist die "Hall of Shame" der häufigsten Versäumnisse aus meiner täglichen Praxis:
 
@@ -11202,7 +11202,7 @@ Mein LinkedIn-Post zu diesem Thema hat gezeigt: Das Problem ist systemisch.
 
 Du willst wissen, ob du auch unbewusst in die 80%-Falle getappt bist? 
 
-In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit. Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
+In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit. Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
 
 **Bist du bereit für die Wahrheit?**
 

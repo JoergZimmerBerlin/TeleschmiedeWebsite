@@ -87,7 +87,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Technisches SEO macht dir Kopfschmerzen?</h3>
-  <p class="mb-6">Trailing Slashes oder Redirect-Ketten? Ich bringe deine URLs in Ordnung. Mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Check und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für saubere KI-Referenzen.</p>
+  <p class="mb-6">Trailing Slashes oder Redirect-Ketten? Ich bringe deine URLs in Ordnung. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Check und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für saubere KI-Referenzen.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen </a>
 </div>
 

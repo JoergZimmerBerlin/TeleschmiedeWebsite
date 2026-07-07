@@ -34,7 +34,7 @@ Klingt simpel, ist aber tückisch. "100.000 Suchanfragen pro Monat? Da müssen w
 
 Suchvolumen ist kein Traffic. Es ist nur ein theoretisches Potenzial. Google liefert heute immer häufiger [direkte Antworten in den SERPs](/glossar/knowledge-graph/) (Zero-Click-Search). Das heißt: Die Leute suchen zwar wie verrückt, aber sie klicken niemals auf deine Website, weil sie die Info schon im Snippet bekommen haben.
 
-Zudem ist das Suchvolumen oft eine Schätzung. Tools wie <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> berechnen diese Werte auf Basis riesiger Datenmengen. Nur der Google Keyword Planner sitzt an der Quelle – aber auch dort werden Daten oft in grobe Klassen gruppiert, was die Realität verzerrt.
+Zudem ist das Suchvolumen oft eine Schätzung. Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> berechnen diese Werte auf Basis riesiger Datenmengen. Nur der Google Keyword Planner sitzt an der Quelle – aber auch dort werden Daten oft in grobe Klassen gruppiert, was die Realität verzerrt.
 
 ## Warum "weniger" fast immer "mehr" ist
 
@@ -67,7 +67,7 @@ ALOHA! Jörg
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Jagst du den falschen Zahlen hinterher?</h3>
-  <p class="mb-6 text-gray-muted">Ich analysiere dein Keyword-Set mit <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und finde die Schätze, die wirklich für Conversions sorgen. Lass uns dein SEO profitabel machen.</p>
+  <p class="mb-6 text-gray-muted">Ich analysiere dein Keyword-Set mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und finde die Schätze, die wirklich für Conversions sorgen. Lass uns dein SEO profitabel machen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Potenzial-Audit anfragen</a>
 </div>
 

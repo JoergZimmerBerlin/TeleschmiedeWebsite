@@ -69,7 +69,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Hat ein Google Update dich getroffen?</h3>
-  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich langfristig absichert. <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Datenanalyse, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Prognose deiner KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich langfristig absichert. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Datenanalyse, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Prognose deiner KI-Sichtbarkeit.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Update-Analyse anfragen </a>
 </div>
 

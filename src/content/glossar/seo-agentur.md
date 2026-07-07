@@ -42,7 +42,7 @@ Ein **SEO Profi** oder Freelancer (wie ich ihn verkörpere) bietet dafür maxima
 ### Was eine wirklich gute SEO Agentur auszeichnet:
 1.  **Keine Ranking-Garantien:** Wer dir Platz 1 bei Google verspricht, lügt. Google gehört niemandem außer Google. Wir beeinflussen die Wahrscheinlichkeit, aber wir garantieren nicht.
 2.  **Ganzheitliches Marketing:** Sie verstehen, dass SEO nur ein Teil des **SEO Marketing** Mixes ist.
-3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast. In meiner Beratung nutzen wir die [unabhängigen Audits von SE Ranking](https://seranking.com/?ga=4169588&source=link), um die Berichte von Agenturen objektiv gegenprüfen zu können – Vertrauen ist gut, Kontrolle ist SEO.
+3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast. In meiner Beratung nutzen wir die [unabhängigen Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die Berichte von Agenturen objektiv gegenprüfen zu können – Vertrauen ist gut, Kontrolle ist SEO.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vorsicht bei Billig-Angeboten</h4>
@@ -73,7 +73,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Pfusch am Bau bei deiner SEO Agentur?</h3>
-  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit der <a href="https://seranking.com/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">technischen Analyse von SE Ranking</a> auditieren wir deine Ergebnisse und mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">SGE-Tracking von Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit der <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">technischen Analyse von SE Ranking</a> auditieren wir deine Ergebnisse und mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">SGE-Tracking von Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zweitmeinung anfragen </a>
 </div>
 

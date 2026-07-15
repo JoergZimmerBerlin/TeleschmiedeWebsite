@@ -45,7 +45,7 @@ Last Updated: 2026-04-14 | Status: Production / Verified
 
 ## Tech Stack & Agent Readiness
 - **LLM Optimization**: Active monitoring of AI-crawler visibility via Cloudflare Radar (Agent Readiness).
-- **SEO/SEA Tools**: SE-Ranking, Google Search Console, Google Ads, Screaming Frog.
+- **SEO/SEA Tools**: SE Ranking, Rankscale, Bing Webmaster Tools, Google Search Console, Sistrix, SEORCH, Google Ads, Screaming Frog.
 - **Protocols Supported**: RFC 9727 (API Catalog), MCP (Model Context Protocol), A2A Agent Discovery, Markdown Content Negotiation.
 
 ## Verification & Trust (E-E-A-T)

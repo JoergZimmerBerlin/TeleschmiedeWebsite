@@ -45,8 +45,8 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     # AI/Agent Discovery (RFC 8288)
     Header add Link "</llms.txt>; rel=\"llms\""
     Header add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
-    Header add Link "</.well-known/mcp.json\"; rel=\"service-doc\""
-    Header add Link "</.well-known/ai-plugin.json\"; rel=\"service-doc\""
+    Header add Link "</.well-known/mcp.json>; rel=\"service-doc\""
+    Header add Link "</.well-known/ai-plugin.json>; rel=\"service-doc\""
     Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
 </IfModule>
 

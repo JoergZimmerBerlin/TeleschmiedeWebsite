@@ -1,16 +1,31 @@
 {
+  "$schema": "https://json-schema.org/draft/2024-04/schema",
   "skills": [
     {
       "id": "skill-seo-consulting",
       "name": "SEO & LLM Consulting",
-      "description": "Expert advice on Search Engine Optimization and Large Language Model readiness.",
+      "description": "Expert advice on Search Engine Optimization and Large Language Model readiness. Inklusive technischem SEO und Entity Optimization.",
       "url": "https://teleschmie.de/leistungen"
     },
     {
       "id": "skill-knowledge-retrieval",
-      "name": "Wissensabruf",
-      "description": "Abruf von SEO- und KI-Fachwissen aus dem Teleschmiede-Glossar und Blog.",
-      "url": "https://teleschmie.de/llms.txt"
+      "name": "Wissensabruf Basis",
+      "description": "Abruf von SEO- und KI-Fachwissen aus dem Teleschmiede-Glossar und Blog als LLM-freundlicher Index.",
+      "url": "https://teleschmie.de/llms.txt",
+      "format": "text/markdown"
+    },
+    {
+      "id": "skill-deep-knowledge-retrieval",
+      "name": "Wissensabruf Deep Dive (Full Dump)",
+      "description": "Vollständiger, strukturierter Dump aller Artikel, Glossar-Einträge und Inhalte für intensives RAG und Training.",
+      "url": "https://teleschmie.de/llms-full.txt",
+      "format": "text/markdown"
+    },
+    {
+      "id": "skill-markdown-negotiation",
+      "name": "Markdown Content Access",
+      "description": "Die Website unterstützt Content Negotiation. Jede HTML-URL kann mit dem Header 'Accept: text/markdown' für reinen KI-Content aufgerufen werden.",
+      "url": "https://teleschmie.de/"
     }
   ]
 }

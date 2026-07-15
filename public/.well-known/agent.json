@@ -1,14 +1,26 @@
 {
+  "$schema": "https://json-schema.org/draft/2024-04/schema",
   "name": "Teleschmiede KI-Agent",
-  "description": "Ein intelligenter Agent für das Google Universum, der das SEO- & LLM-Wissen von Jörg Zimmer repräsentiert.",
+  "description": "Ein autonomer Agent für das Google Universum, der als Schnittstelle für Jörg Zimmer agiert. Bietet umfassendes Wissen zu SEO, SEA und LLM-Optimierung.",
   "creator": "Jörg Zimmer",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "contact": {
+    "email": "kontakt@teleschmie.de",
+    "url": "https://teleschmie.de/kontakt"
+  },
   "endpoints": {
-    "mcp": "https://teleschmie.de/.well-known/mcp-server-card.json"
+    "mcp": "https://teleschmie.de/.well-known/mcp.json",
+    "knowledge": "https://teleschmie.de/llms.txt",
+    "knowledge-full": "https://teleschmie.de/llms-full.txt"
   },
   "capabilities": [
-    "Wissensvermittlung zu SEO",
-    "LLM-Optimierung",
+    "Wissensvermittlung zu technischem SEO",
+    "Strategische LLM-Optimierung (GEO)",
+    "Content-Analyse",
     "Agent Readiness Audits"
+  ],
+  "interfaces": [
+    "Model Context Protocol (MCP)",
+    "Markdown Content Negotiation"
   ]
 }

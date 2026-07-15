@@ -1,4 +1,4 @@
-# Agent Authentication
+# auth.md
 
 ## Status: Public Access
 

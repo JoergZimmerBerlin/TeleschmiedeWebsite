@@ -1,4 +1,4 @@
-Last Updated: 2026-04-14 | Status: Production / Verified
+﻿Last Updated: 2026-04-14 | Status: Production / Verified
 
 # Jörg Zimmer - SEO & SEA Freelancer
 
@@ -154,7 +154,9 @@ ALOHA! 🌻✌️
 - Warum wir SEO-Spezialisten zusammenhalten sollten
 - Warum wir SEOs schuld am Internet-Zustand sind
 - SEO 2026: Alte Irrtümer & neue Wahrheiten
+- SEO Unternehmensberatung: Stefan auf der Campixx
 - Sistrix vs. SE Ranking: Welches Tool gewinnt?
+- SEORCH Tool: Bestes OnPage SEO Werkzeug
 - SEO Persönlich: Mein Interview bei SEOpresso
 - SEOpresso Podcast: Meine Empfehlung mit Max Muhr
 - Wie läuft so eine SEO-Sprechstunde genau ab?
@@ -172,33 +174,40 @@ ALOHA! 🌻✌️
 - Rankscale: 17 LLMs für 99€ monatlich tracken
 - Rankscale: Ein AI Visibility Tool für Profis
 - PageSpeed 100/100: So wurde die Website schnell
-- Meine erste OMR mit eigenem Stand: Lohnt sich das? 🚀
-- Mission OMR 2026: Warum 25 Freelancer besser sind als eine Großagentur 🚀
+- Meine erste OMR mit eigenem Stand: Lohnt sich das?
+- Mission OMR 2026: 25 Freelancer vs. Großagentur
+- MS Clarity Session: Nutzerverhalten verstehen
+- AI Search Formate: Best Practices für LLMs
 - Michael Kaufhold im Podcast Interview: SEO tot?
 - LinkedIn: Warum SEOs das Forum nutzen müssen
 - Brief an Bots & Crawler: SEO-Insights 2026
 - Meine SEO-Highlights 2025: Der Jahresrückblick
-- Grounding Page Generator: Dein Schutzschild gegen KI-Halluzinationen 🏗️🚀
+- Grounding Page Generator: Schutzschild gegen KI
 - GSC: Wer ist für die Einrichtung zuständig?
 - Google Ads Support vs. SEO: Die Wahrheit
+- GEO & AI Search: Sichtbarkeit völlig neu gedacht
 - GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
 - GEO Action Plan 2026: Guide zur KI-Sichtbarkeit
-- GEO Guide: Sichtbarkeit in ChatGPT & Gemini 🌻
-- Wir rocken die OMR: Das Freelancer Team mit 25 Leuten an einem Stand! 🚀
-- Freelance Unlocked 2026: Ein Eis für die Freelancer Community! 🍦
+- GEO Guide: Sichtbarkeit in ChatGPT & Gemini
+- Wir rocken die OMR: Das Freelancer Team vor Ort!
+- Freelance Unlocked: Lila T-Shirts + Softeis
+- Freelance Unlocked 2026: Eis für die Community
+- Es ist offiziell: Wir haben Eis auf der Freelance Unlocked
 - SEO-Handwerk: Warum Qualität der USP ist
 - SEO-Qualität: Vom Dönerback bis zum Erfolg
 - Digitaler Unternehmensberater statt SEO
 - Core Web Vitals: Warum dein UX-Bericht zählt
+- Vibe Coding: Echte KI-Workflows mit Roland Golla
 - Braucht SEO einen neuen Namen? Campixx Umfrage
+- Conversion-Optimierung: Nutzer vor Traffic
 - Bist du SEO AI Ready? Podcast mit Antonio Blago
 - Beste SEO-Tools für AI Search & Prompt Tracking
 - GEO & AI-SEO: Warum kein Praktikanten-Job
 - GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
 - AI Crawler, Markdown & Cloudflare: Bot-Optimierung
 - 1. AI Connect Berlin: Vibe Coding & Gemini
-- Wenn AI-Agenten deinen LinkedIn-Feed kapern 
-- Die 80%-Falle: Warum die meisten Websites an den Basics scheitern 🚀
+- Wenn AI-Agenten deinen LinkedIn-Feed kapern
+- Die 80%-Falle: Warum Websites an Basics scheitern
 - 24 Jahre SEO: Warum wir gleiche Fehler machen
 
 ---
@@ -4491,7 +4500,7 @@ Ein **SEO Profi** oder Freelancer (wie ich ihn verkörpere) bietet dafür maxima
 
 
   Vorsicht bei Billig-Angeboten
-  SEO braucht Zeit. Wer dir eine 'Flatrate für 199 €' anbietet, kann nur automatisierte Tools drüberlaufen lassen. Echte Ergebnisse erfordern mindestens 10-20 Stunden Experten-Arbeit im Monat.
+  SEO braucht Zeit. Wer dir eine 'Flatrate für 239 €' anbietet, kann nur automatisierte Tools drüberlaufen lassen. Echte Ergebnisse erfordern mindestens 10-20 Stunden Experten-Arbeit im Monat.
 
 
 ## Warum der Standort Berlin so besonders ist
@@ -6598,7 +6607,7 @@ ALOHA 🌻! 🌻
 
 
 Du willst dein SEO 2026 richtig angehen?
-In meiner SEO-Sprechstunde (120 Minuten, 400€) analysiere ich deine Website live und gebe dir einen konkreten Fahrplan. Kein Blabla, nur Ergebnisse.
+In meiner SEO-Sprechstunde (120 Minuten, 480€) analysiere ich deine Website live und gebe dir einen konkreten Fahrplan. Kein Blabla, nur Ergebnisse.
 Jetzt Sprechstunde buchen
 
 
@@ -6606,6 +6615,47 @@ Jetzt Sprechstunde buchen
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Highlights 2025 - Ein SEO-Jahresrückblick](https://teleschmie.de/blog/highlights-2025-jahresrueckblick/)
 * **Lese-Tipp:** [24 Jahre SEO - und wir machen immer noch die gleichen Fehler](https://teleschmie.de/blog/24-jahre-seo-gleiche-fehler/)
+
+---
+
+### SEO Unternehmensberatung: Stefan auf der Campixx
+
+
+Moin! 🌻
+
+Auf der Campixx 2026 in Berlin gab es einen extrem starken Vortrag von **Stefan Godulla**. Sein Thema bringt es genau auf den Punkt: Die Zeiten, in denen der SEO als einsamer Nerd im Keller saß und Keywords in Meta-Tags gestopft hat, sind lange vorbei. 
+
+**SEO wird zur Unternehmensberatung.**
+
+Hier ist der Video-Mitschnitt aus seiner Session:
+
+
+  
+    
+    Dein Browser unterstützt das Video-Tag leider nicht.
+  
+
+
+## Sichtbarkeit ist ein Teamsport
+
+Stefan hat in seinem Vortrag "Zusammenarbeit im Unternehmen zur gemeinsamen Sichtbarkeit" wunderbar hergeleitet, warum wir Silos aufbrechen müssen. Markenwahrnehmung, Sichtbarkeit und schlussendlich der geschäftliche Erfolg steigen exponentiell, wenn alle Abteilungen mit anpacken.
+
+Ein paar Beispiele aus der Praxis:
+* **Produktmanagement:** Wenn Produkte entwickelt werden, muss von Tag 1 an klar sein, nach was die Nutzer eigentlich suchen.
+* **Unternehmenskommunikation:** Oft werden dicke Magazine oder PR-Artikel geschrieben, die komplett am Suchvolumen und an der KI-Sichtbarkeit vorbeigehen. Wenn hier der SEO/AI-Spezialist frühzeitig involviert wird, landen die Inhalte auch bei der Zielgruppe.
+
+## Feedback von Stefan
+
+Es war klasse, bei dem Vortrag dabei gewesen zu sein. Und das beruht offensichtlich auf Gegenseitigkeit, wie Stefan auf LinkedIn kommentierte:
+
+
+  💬 Stefan Godulla (LinkedIn Insights)
+  "Schön dass Du da warst 😍"
+
+
+Wer seine Website nach vorne bringen will, muss anfangen, die Abteilungen miteinander kommunizieren zu lassen. Nur in einem gemeinsamen Prozess entstehen Inhalte, die rocken.
+
+ALOHA! 🌻✌️
 
 ---
 
@@ -6722,6 +6772,71 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](https://teleschmie.de/blog/se-ranking-ai-tracker/)
 * **Lese-Tipp:** [Warum die interne Verlinkung so wichtig ist](https://teleschmie.de/glossar/interne-verlinkung/)
 * **Lese-Tipp:** [Sichtbarkeit im SEO verstehen](https://teleschmie.de/glossar/sichtbarkeit/)
+
+---
+
+### SEORCH Tool: Bestes OnPage SEO Werkzeug
+
+
+Moin! 🌻
+
+![Jörg Zimmer und Matthias Hotz von SEORCH](https://teleschmie.de/assets/images/blog/blog-seorch-matthias-hotz.webp)
+
+Ich sag es ganz offen: Ich bin ein absoluter Fanboy des SEO Tools **SEORCH**. Wer mich kennt, weiß, dass ich Allergien gegen überladene Bauchladen-Software habe, die dir 100 Metriken anzeigt, wovon 99 völlig wertlos für deinen Umsatz sind. SEORCH ist da anders. Es ist fokussiert, schnell und bringt die Dinge auf den Punkt.
+
+Und nun habe ich endlich den Entwickler dahinter live auf der Campixx getroffen: **Dankeschön Matthias Hotz!**
+
+## Warum SEORCH mein Go-To Tool für OnPage SEO ist
+
+Wenn du dir meine [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) anschaust, geht es immer um das Fundament. Pfusch am Bau verzeiht dir Google nicht. SEORCH ist für mich der digitale TÜV für dieses Fundament. 
+
+**Die wichtigsten Funktionen im Klartext:**
+- **Der OnPage Check:** Du wirfst deine URL und dein Keyword rein und bekommst sofort eine harte Mängelliste. Kein Blabla, sondern klare Ansagen zu Title-Tags, Meta-Descriptions und Überschriften-Strukturen.
+- **WDF*IDF Analyse:** SEORCH zeigt dir semantisch exakt auf, welche Keywords deine Konkurrenz nutzt und wo du thematisch nachbessern musst.
+- **Technisches SEO:** Kaputte Links, fehlende Alt-Tags, fehlerhafte Canonicals – SEORCH findet den Pfusch sofort. Wir übersetzen hier "Canonical fehlt" direkt in "Umsatzverlust".
+
+## Die Community feiert SEORCH
+
+Auf LinkedIn gab es direkt massives Feedback zum Treffen. Das Tool hat einfach eine echte Fangemeinde:
+
+
+  💬 Sebastian Fuhrmann (LinkedIn Insights)
+  "Wie cool, das hätte mich auch sehr interessiert. Einer meiner Lieblings-Tools."
+
+
+
+  💬 Andre Herzog (LinkedIn Insights)
+  "Seorch ist mega. Kenne nichts vergleichbares. Bin allerdings auch nicht Teil der SEO Welt. Zumindest nicht so tief."
+
+
+Sogar Matthias selbst hat sich gemeldet:
+
+
+  💬 Matthias Hotz (LinkedIn Insights)
+  "War super mit dir! Tolle Gespräche und hat mich gefreut dich kennen gelernt zu haben Jörg Zimmer 🌻"
+
+
+Es war natürlich nicht nur pure Business-Talk. Auf der Campixx darf der Humor nicht fehlen:
+
+
+  💬 Paavo Christian Spieker (LinkedIn Insights)
+  "Wenn ich gewusst hätte, dass das ein Styling-Hair-Contest wird, dann wäre ich natürlich auch gekommen 😇"
+
+
+
+  💬 Michael Weckerlin ☮️ (LinkedIn Insights)
+  "wow, Suoer Foto. 👏 Der Fotograf hat es drauf die schönsten Momente einzufangen 📸"
+
+
+Unterm Strich: Wenn du dein SEO-Game ernst nimmst und wissen willst, ob du gerade versuchst, ein Haus auf Sand zu bauen, schnapp dir SEORCH. Und falls du Hilfe bei der Interpretation der Daten brauchst – schreib mir einfach!
+
+ALOHA! 🌻✌️
+
+
+  Probier SEORCH direkt aus!
+  Kostenlos, pfeilschnell und fokussiert auf die harten Rankingfaktoren. Mach den OnPage-Check für deine Website.
+  Zum SEORCH SEO Tool
+
 
 ---
 
@@ -6932,7 +7047,7 @@ Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Chec
 
 
    Jörgs SEO-Klartext (LinkedIn Insights)
-  "400€ für zwei Stunden klingen für manche viel. Aber was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? In der Sprechstunde kaufst du keine Zeit – du kaufst das Ende deines Blindflugs."
+  "480€ für zwei Stunden klingen für manche viel. Aber was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? In der Sprechstunde kaufst du keine Zeit – du kaufst das Ende deines Blindflugs."
 
 
 ## Schritt 2: Meine Hausaufgaben (Die Vorbereitung)
@@ -7005,17 +7120,17 @@ Und ich sage dir ehrlich, ohne Marketing-Sprech und ohne Weichspüler, wo es bre
 
 ## Was du für dein Geld bekommst: Der vollständige Prozess
 
-Die 400 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr drin:
+Die 480 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr drin:
 
 | Phase | Was passiert | Zeitinvest meinerseits |
 |---|---|---|
-| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | 1-2 Stunden vorab |
+| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | ca. 30 Minuten vorab |
 | **Live-Call** | Screen-Sharing, direkte Analyse, Priorisierung | 120 Minuten |
 | **Nachbereitung** | Aufzeichnung, KI-Zusammenfassung, Maßnahmenplan | 1 Stunde nachher |
 
-### 1. Die stille Stunde vor dem Call
+### 1. Die stille halbe Stunde vor dem Call
 
-Bevor wir uns sehen, sitze ich bereits mindestens eine Stunde an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
+Bevor wir uns sehen, sitze ich bereits ca. 30 Minuten an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
 
 Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit SE Ranking analysiere ich deine historischen Daten und mit Rankscale prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
 
@@ -7083,7 +7198,7 @@ Bei mir gibt es kein "Lass mal kurz gucken".
 
 Wenn wir den Call starten, kenne ich deine Seite schon. 
 
-Ich habe bereits 60 Minuten investiert. 
+Ich habe bereits ca. 30 Minuten investiert. 
 
 ### Mein Vorbereitungs-Check:
 
@@ -7098,7 +7213,7 @@ Wir reden ab Minute 1 über deine Performance.
 
 
    Jörgs SEO-Klartext (LinkedIn Insights)
-  "400€ kaufen keine Zeit. Sie kaufen Abkürzungen aus 25 Jahren Erfahrung. 120 Minuten, um Fehler zu vermeiden, die dich Monate und zehntausende Euro kosten könnten."
+  "480€ kaufen keine Zeit. Sie kaufen Abkürzungen aus 25 Jahren Erfahrung. 120 Minuten, um Fehler zu vermeiden, die dich Monate und zehntausende Euro kosten könnten."
 
 
 ## Struktur statt Chaos
@@ -8533,7 +8648,7 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 
 ---
 
-### Meine erste OMR mit eigenem Stand: Lohnt sich das? 🚀
+### Meine erste OMR mit eigenem Stand: Lohnt sich das?
 
 
 Moin! 🌻
@@ -8590,7 +8705,7 @@ ALOHA 🌻✌️
 
 ---
 
-### Mission OMR 2026: Warum 25 Freelancer besser sind als eine Großagentur 🚀
+### Mission OMR 2026: 25 Freelancer vs. Großagentur
 
 
 # 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026
@@ -8682,6 +8797,108 @@ ALOHA! 🌻✌️
 ---
 
 *Dieser Beitrag basiert auf einer lebhaften Diskussion und einem [LinkedIn-Beitrag](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K).*
+
+---
+
+### MS Clarity Session: Nutzerverhalten verstehen
+
+
+Moin! 🌻
+
+Auf der Campixx 2026 in Berlin gab es eine Session, die wieder einmal bewiesen hat: SEO ist nur die halbe Miete. Wenn die Leute auf deiner Seite sind, müssen sie auch klarkommen. 📈 **Thomas Czernik** hat in seinem Vortrag extrem praxisnah gezeigt, wie man mit **MS Clarity** das Nutzerverhalten tiefgehend analysiert.
+
+Hier ist der kurze Video-Eindruck aus der Session:
+
+
+  
+    
+    Dein Browser unterstützt das Video-Tag leider nicht.
+  
+
+
+## Warum du MS Clarity auf dem Schirm haben musst
+
+Wer mich kennt, weiß, dass ich immer sage: Hört auf, im Nebel zu stochern! Wenn deine Conversion-Rate im Keller ist, nützt dir auch Platz 1 bei Google nichts. 
+
+Thomas hat in seiner Session genial dargelegt, welche Funktionen von Microsoft Clarity echte Gamechanger sind:
+
+- **User Session Recordings:** Du schaust den Nutzern buchstäblich über die Schulter. Wo klicken sie? Wo scrollen sie verwirrt hoch und runter? Wo brechen sie den Kaufprozess ab?
+- **Heatmaps:** Wo spielt die Musik auf deiner Seite? Klicken die User auf Elemente, die gar keine Links sind?
+- **Nutzeranalyse:** Harte Daten statt Bauchgefühl. Du erkennst sofort, wo Nutzer Probleme bei der Bedienung haben und kannst gezielt gegensteuern.
+
+Das Tool ist absolut interessant für alle, die ihre Nutzer wirklich glücklicher machen (und nebenbei ihre Umsätze steigern) wollen.
+
+## Feedback aus der Community
+
+Das Feedback auf LinkedIn zeigte direkt, dass das Thema den Nerv trifft:
+
+
+  💬 Johann Alekseenko (LinkedIn Insights)
+  "Klingt spannend 🧐"
+
+
+Und Thomas selbst hat sich natürlich auch in den Kommentaren gemeldet:
+
+
+  💬 📈 Thomas Czernik (LinkedIn Insights)
+  "Hey Jörg Zimmer 🌻, danke dass du in meineM Vortrag warst."
+
+
+Fazit: Tracking ohne Analyse ist wertlos. Schaut euch an, was eure User wirklich treiben, beseitigt die Frust-Faktoren und macht den Weg frei für Conversions!
+
+ALOHA! 🌻✌️
+
+
+  Tracking & UX Profis gesucht?
+  Thomas ist übrigens fester Bestandteil meines Freelancer Teams! Wenn du Unterstützung bei MS Clarity, Tracking oder Conversion-Optimierung brauchst, sind wir als eingespieltes Team an deiner Seite.
+  Zum Freelancer Team
+
+
+---
+
+### AI Search Formate: Best Practices für LLMs
+
+
+Moin! 🌻
+
+![3D Infografik: Content Formate in der KI-Suche](https://teleschmie.de/assets/images/blog/blog-malte-landwehr-ai-search-content-formate-3d.webp)
+
+Auf der Campixx 2026 in Berlin hat Malte Landwehr genau das auf den Punkt gebracht, was ich in meinen SEO-Sprechstunden immer wieder predige: **Wir müssen lernen, für Maschinen zu schreiben, ohne die Menschen zu vergessen.**
+
+Es geht um sogenannte "Chunks" – also Textabschnitte, die in der AI Search (wie bei ChatGPT, Perplexity oder Google AI Overviews) eine deutlich höhere Chance haben, im Grounding-Prozess als Quelle herangezogen zu werden. 
+
+Hier ist das Original-Video von seinem Vortrag:
+
+
+  
+    
+    Dein Browser unterstützt das Video-Tag leider nicht.
+  
+
+
+## Das Erfolgsrezept: Self-contained & Entity-dense
+
+Im Video erklärt Malte extrem gut, worauf es ankommt. Wenn du einen Textabschnitt hast, der **self-contained** (also in sich geschlossen) ist, hat er die besten Karten. 
+
+
+  💬 Malte Landwehr auf der Campixx 2026
+  "Ein guter Chunk referenziert nicht den Satz davor oder danach. Da steht nicht drin: 'Aus diesen Gründen ist der Anbieter besser'. Da werden konkret die Entitäten genannt. Er hat einfache deklarative Aussagen und ist in autoritativer Sprache geschrieben."
+
+
+Hör auf mit Formulierungen wie *"deswegen könnte das die bessere Lösung sein"*. Schreib stattdessen faktische Aussagen. Nenne das Kind (die Entität) beim Namen.
+
+## Warum Zusammenfassungen plötzlich so wichtig sind
+
+Genau aus diesem Grund funktionieren Zusammenfassungen in der AI Search so gut. Eine Zusammenfassung ist von Natur aus:
+1. **Sehr kondensiert**
+2. **Self-contained** (sie steht für sich allein)
+3. **Explizit** (sie benennt die Entitäten direkt)
+
+Wenn du deine Sichtbarkeit in LLMs erhöhen willst, fang an, deine Inhalte in klaren, aussagekräftigen Chunks zu strukturieren. 
+
+Du brauchst Hilfe dabei, deine Website für AI Search fit zu machen? Buch dir eine [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) und wir legen deine Struktur gemeinsam auf den Grill!
+
+Aloha! 🌻✌️
 
 ---
 
@@ -8910,7 +9127,7 @@ ALOHA 🌻! 🌻
 
 
 Deine Website ist noch nicht bot-freundlich?
-In meiner SEO-Sprechstunde prüfe ich, ob Bots und KI-Systeme deine Inhalte richtig lesen können. 120 Minuten, 400€, null Bullshit.
+In meiner SEO-Sprechstunde prüfe ich, ob Bots und KI-Systeme deine Inhalte richtig lesen können. 120 Minuten, 480€, null Bullshit.
 Jetzt Sprechstunde buchen
 
 
@@ -9001,7 +9218,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Grounding Page Generator: Dein Schutzschild gegen KI-Halluzinationen 🏗️🚀
+### Grounding Page Generator: Schutzschild gegen KI
 
 
 Moin! 🌻
@@ -9290,6 +9507,55 @@ ALOHA 🌻! 🌻
 
 ---
 
+### GEO & AI Search: Sichtbarkeit völlig neu gedacht
+
+
+Moin! 🌻
+
+GEO und AI Search sind ein ganz neues Spiel.
+
+Das Internet, wie wir es kennen, ist für Menschen gemacht. Alles da draußen, was in den letzten 30 Jahren entstanden ist – Inhalte mit schickem Design und dem obligatorischen Marketing-Blabla –, ist exakt darauf ausgelegt, menschliche Augen zu fangen.
+
+Aber ein LLM oder KI-[Crawler](https://teleschmie.de/glossar/crawler/) braucht das alles nicht.
+
+Den Marketing-Sprech kreiert sich die Maschine selbst. Das Interface und die Optik baut sie sich selbst. Die User Experience findet heute direkt im Chatfenster statt (Stichwort: [Zero Click Content](https://teleschmie.de/glossar/zero-click-content/)).
+
+### Was KI-Modelle wirklich wollen
+
+Das Einzige, was ein LLM von dir braucht, sind leicht zu extrahierende Fakten. Und einen soliden Ruf sowie eine glasklare Wahrnehmung im digitalen Raum. [Markenaufbau mit SEO](https://teleschmie.de/glossar/markenaufbau-mit-seo/) ist nicht mehr nur ein nettes Add-on, sondern absolute Pflicht.
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "AI Search ist mehr als reines SEO. Die Überschneidung ist riesig, trotzdem ist es ein neues Spiel. Neue Metriken, neue Optimierungen, ähnliches Handwerk."
+  Mein Nachtrag dazu: Technisch ist da gewaltig was Neues am Start – suche mal nach dem AI Readyness Checker von Cloudflare Radar. Da kommen plötzlich Protokolle und Methoden ins Spiel, die mit klassischem SEO nichts mehr zu tun haben.Ich bin mittlerweile stark für einen neuen Namen wie GEO, AI SEO oder AI Visibility. Warum? Weil wir uns unter dem Deckmantel "SEO" bei C-Level-Entscheidern oft schwergetan haben – da waren wir schnell nur die "kleinen Nerds im Hoodie". Ein neuer Name macht den Hoodie-Nerd zum Unternehmensberater. Und nur der kommt an die Budgets, die nötig sind, um dieses umfassende SEO, wie Google es heute fordert, wirklich im Unternehmen durchzuboxen!
+
+
+Wie Torsten Paul Monnard und Sonja Greye in den Kommentaren absolut richtig anmerken: Wer SEO schon immer als sauberes Handwerk für den Nutzer verstanden hat, fängt nicht bei null an. GEO ist vielmehr ein Stresstest dafür, ob deine bisherigen SEO- und Content-Grundlagen wirklich sauber aufgestellt waren.
+
+**Doch hier kommt mein wichtiges "Aber":** Gutes SEO schafft fast alle Grundlagen – aber eben nur *fast* alle. Es kommt ein komplett neuer Layer obendrauf, der im Laufe der Jahre zu einer eigenen Disziplin heranwachsen wird. Da KI-Modelle fundamental anders arbeiten als Google, braucht es andere Tools und neue Maßnahmen. Bereits jetzt lautet meine Taktik in Projekten: Erst spiele ich das klassische SEO durch, und dann mache ich die spezifischen AI-Vorbereitungen. Die Überschneidung ist extrem hoch, aber eben keine 100 %. Es gibt mittlerweile handwerkliche und strategische Maßnahmen, die schlichtweg kein SEO mehr sind.
+
+Hanns Kronenberg bringt die veränderte Optimierungsfrage dabei sehr treffend auf den Punkt: Während die klassische Suche entscheidet, *welche Seiten* ein Nutzer besuchen sollte, fragt das sogenannte *Grounding* der KI, *welche Informationen* ein System verantwortungsvoll nutzen kann, um direkt eine fertige Antwort zu generieren.
+
+### Marke, PR und Ruf: Die neue Dreifaltigkeit
+
+![Generative Engine Optimization (GEO) und AI Search Übersicht](https://teleschmie.de/assets/images/blog/geo-ai-search.webp)
+
+SEO durchzuspielen bringt dich weit. Deine digitale Wahrnehmung zu optimieren, bringt dich weiter.
+
+Wie Sascha Pöschl auf LinkedIn richtig ergänzt: Quellen wie Wikipedia rücken massiv in den Fokus. Die KI nutzt diese validierten Daten. Du brauchst eine starke [Entität](https://teleschmie.de/glossar/entitaet/), konsistente Daten und echtes [E-E-A-T](https://teleschmie.de/glossar/e-e-a-t/). Marke, PR, Ruf und klassisches SEO zusammen sind das, was jetzt zählt.
+
+Unterm Strich: Vergiss die Abkürzungen. Biete klare Fakten, baue eine echte Marke auf und strukturiere deine Daten so, dass Maschinen sie fehlerfrei auswerten können.
+
+ALOHA! 🌻✌️
+
+
+  Wie ist deine Meinung zu GEO und AI Search?
+  Die Diskussion dazu läuft bereits intensiv. Komm dazu und teile deine Gedanken mit mir und der Community!
+  💬 Auf LinkedIn mitdiskutieren
+
+
+---
+
 ### GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
 
 
@@ -9548,7 +9814,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO Guide: Sichtbarkeit in ChatGPT & Gemini 🌻
+### GEO Guide: Sichtbarkeit in ChatGPT & Gemini
 
 
 Moin! 🌻
@@ -9777,7 +10043,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Wir rocken die OMR: Das Freelancer Team mit 25 Leuten an einem Stand! 🚀
+### Wir rocken die OMR: Das Freelancer Team vor Ort!
 
 
 # Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
@@ -9937,7 +10203,51 @@ Hau rein und bis Mai,
 
 ---
 
-### Freelance Unlocked 2026: Ein Eis für die Freelancer Community! 🍦
+### Freelance Unlocked: Lila T-Shirts + Softeis
+
+
+Moin! 🌻 
+
+Lila T-Shirts, Softeis 🍦 und gute Laune. Wir sagen Dankeschön! Das waren zwei wirklich grandiose Tage in Berlin auf der **Freelance Unlocked**. 
+
+Ein riesiges Dankeschön geht an die Organisatoren und an die exali AG für die Unterstützung und das Sponsern der Community Eis-Aktion. Aber vor allem danke an alle Speaker, Networker und die netten Menschen, die wir vor Ort getroffen haben.
+
+Es zeigt sich immer wieder: Freelancer sind einfach tolle Menschen und eine extrem liebenswerte Community.
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Bin jetzt jedes Mal ein bisschen stolzer das lila T-Shirt zu tragen. Es sammeln sich darin Umarmungen, persönliche Gespräche und jede Menge bleibende Erinnerungen. Das war bei der OMR so und nun auch auf dieser Konferenz. Wenn ich mal gute Laune brauche, ziehe ich einfach unser T-Shirt an."
+
+
+## Wer wir sind: Geballte Spezialisten-Power
+
+Auf dem Foto siehst du (von links):
+*Jana Berthold, Niclas Findeis, Melanie Aurich, Michael Kablitz, Frederic Wolny, Sandra Dickmeis, Patrycja Absmeier, Inan Nacar, mich (Jörg Zimmer 🌻), Andreas Absmeier, Christoph Buder, Artjom Sajatz-Davydov, Peter Bomballa*
+
+Wir sind ein freiwilliger Zusammenschluss von **über 100 Freelancern**. Das heißt im Klartext: Wir haben für alles im Marketing mehrere Spezialisten an Bord. Jeder Kanal. Jedes Tool. Immer mit Backup und als extrem eingespieltes Team.
+
+
+  💬 Michael Kablitz (LinkedIn Insights)
+  "War ein super Event und ein noch besseres Team. Wer Freelancer pauschal als Einzelkämpfer abstempelt, hat sowas hier noch nicht erlebt. 🙌"
+
+
+## Spaß auf der Messe = Spaß im Projekt
+
+Am Ende des Tages gilt für mich eine einfache Regel: **Wer Spaß auf Messen hat, hat auch Spaß in Kundenprojekten.** Wenn das Teamgefüge menschlich stimmt, dann laufen auch die Kampagnen, Audits und Relaunches reibungslos.
+
+Du suchst Experten, die Bock haben und ihr Handwerk verstehen? Schreib uns oder google uns einfach! Und wenn es um SEO geht: Lass uns in der [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) über deine Sichtbarkeit quatschen.
+
+Aloha! 🌻✌️
+
+
+  Du suchst geballte Freelancer-Power?
+  Wir sind über 100 Spezialisten für SEO, SEA, Social Media und mehr. Echtes Backup, keine starren Agentur-Strukturen.
+  Lerne das Freelancer Team kennen
+
+
+---
+
+### Freelance Unlocked 2026: Eis für die Community
 
 
 **Aloha!** 🌻✌️ Ich bin Jörg Zimmer und lebe in Berlin Spandau. 
@@ -9993,6 +10303,64 @@ Hier ein kleiner Auszug, was in den Kommentaren schon abgeht:
 
   Diskutiere mit mir auf LinkedIn! 🍦
   Dieser Beitrag entstand aus einem LinkedIn-Beitrag. Unterstütze die Eis-Mission und lass uns dort weiterdiskutieren!
+  Zum LinkedIn-Beitrag
+
+
+---
+
+### Es ist offiziell: Wir haben Eis auf der Freelance Unlocked
+
+
+Moin! 🌻
+
+Es ist offiziell: Ich bin mega glücklich, dass wir nun wirklich Eiscreme 🍦 auf der Freelance Unlocked haben werden.
+
+Dann hat sich die ganze Reise vom Kommentar zur Bewegung und zur Eis Mission gelohnt. Für uns alle.
+
+Danke Freelance Unlocked. Danke an den Sponsor exali AG. Danke an unser Freelancer Team.
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Es zeigt mir persönlich, was man als Team und Community alles erreichen kann."
+
+
+Danke an alle, die mit Kommentaren, Beiträgen und Kommunikation diesen Spaß unterstützen. 
+
+Eis ist einfach ein sehr guter Eisbrecher.
+
+**Zum Hintergrund:**
+Es fing mit einem harmlosen, lustigen Kommentar unter einem der Konferenz-Beiträge der Freelance Unlocked an. Sie sagten, du müsstest ein persönliches Hauptziel für dich festlegen. 
+
+Habe einfach "Kaffee und Eiscreme" geantwortet. 
+
+Darauf ging das alles los. Immer mehr wollten Eiscreme und sind aufgesprungen, um den Wunsch an die Organisatoren zu tragen.
+
+Ich war das nicht allein. Das war eine grandiose Community-Leistung! Besonders von allen, die immer fleißig mit Eiscreme-Smilies 🍦 🍦 🍦 kommentiert haben, und allen, die dieses Thema in ihren eigenen Beiträgen aufgenommen haben. Das hat uns allen massiv [Sichtbarkeit](https://teleschmie.de/glossar/sichtbarkeit/) gebracht.
+
+Selbst T-Shirt-Motive und Videos gab es dazu. Wir haben echt Wellen geschlagen, als wären wir ein geplantes Netz an [Brand Mentions](https://teleschmie.de/glossar/brand-mentions/).
+
+Wir sehen uns an der Eismaschine!
+
+Bist du dabei?
+
+### Eure besten Kommentare (Community Highlights)
+
+Diese Mission wäre ohne euch nicht möglich gewesen. Hier sind 3 wunderbare Reaktionen aus dem Beitrag:
+
+**Karin Spiegl:**
+> *"Mission completed! Jawollo!"*
+
+**Philipp Barthel:**
+> *"Und noch ein Grund mehr zur Vorfreude 🥳"*
+
+**Andrea Lechler:**
+> *"Ein (gaaanz klein wenig) smarte Penetranz führt anscheinend wirklich zum Ziel. Auf viele gemeinsame Eistüten"*
+
+---
+
+
+  Diskutiere mit mir auf LinkedIn! 🍦
+  Dieser Beitrag entstand aus diesem LinkedIn-Beitrag. Unterstütze die Eis-Mission und lass uns dort weiterdiskutieren!
   Zum LinkedIn-Beitrag
 
 
@@ -10420,6 +10788,36 @@ ALOHA 🌻! 🌻
 
 ---
 
+### Vibe Coding: Echte KI-Workflows mit Roland Golla
+
+
+Moin! 🌻
+
+Es gibt Dinge auf SEO-Events, die sind genauso wichtig wie die Sessions selbst: Die Spontan-Interviews auf dem Flur und echte O-Töne.
+
+Auf der [CAMPIXX](https://teleschmie.de/glossar/campixx-berlin/) hatte ich Roland Golla, Vibe Coding Consultant, direkt vor der Linse. Und zwar nicht irgendwo, sondern im Video Studio von Florian Gypser.
+
+Wir haben da Material in die Box gestellt, bei dem ich ehrlich gesagt noch gar nicht genau weiß, wo und wann es am Ende live geht. Aber genau das ist der Punkt: **Einfach mal machen.**
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Hab mich auch in die Box gestellt und würde mich freuen, wenn jemand kommentiert, wo das Material live geht. Immer gut, echte Videoprofis am Start zu haben."
+
+
+### Warum Video-Profis den Unterschied machen
+
+Wie Marco Janck in den Kommentaren treffend anmerkte: Es ist einfach ein massiver Unterschied, ob du ein verwackeltes Handy-Video machst oder echte Video-Profis am Start hast. 
+
+Der Content ist king, klar. Aber wenn das Licht mies ist und der Ton rauscht, scrollt der Nutzer auf LinkedIn gnadenlos weiter. Ein professionelles Setup holt das Maximum aus den 13 Sekunden raus, die wir da eingefangen haben.
+
+Und Roland brachte es auf den Punkt: Auf solchen Events zählt **jede Stimme und jeder O-Ton**. Hier entsteht der wahre [Traffic](https://teleschmie.de/glossar/traffic/) der Köpfe.
+
+Unterm Strich: Schnappt euch auf der nächsten Konferenz die Leute. Stellt sie vor die Kamera, wenn das Setup stimmt, und nehmt die rohen, ungeschönten Insights mit. Nur echter Mehrwert zählt.
+
+ALOHA! 🌻✌️
+
+---
+
 ### Braucht SEO einen neuen Namen? Campixx Umfrage
 
 
@@ -10492,6 +10890,42 @@ ALOHA 🌻! 🌻
   Egal ob SEO, Digital Authority oder Search Everywhere: Am Ende zählen die Daten. Mit SE Ranking haben wir die Basis und mit Rankscale die Zukunft fest im Blick.
   Jetzt Visionen-Check anfragen 
 
+
+---
+
+### Conversion-Optimierung: Nutzer vor Traffic
+
+
+Moin! 🌻
+
+Das Schönste an Branchen-Events wie der [CAMPIXX](https://teleschmie.de/glossar/campixx-berlin/) sind nicht zwingend nur die Slides. Es sind die **Gespräche in den Pausen**. 
+
+30 Minuten zwischen den Vorträgen – genau das ist es, was ein grandioses Networking Event ausmacht.
+
+Nach dem genialen Vortrag von Thomas Czernik über MS Clarity bin ich zusammen mit Markus Baersch direkt in einen richtig tiefen Nerd-Talk über Analytics Tools abgetaucht. Kaffee obendrauf und ab geht die Reise.
+
+Wir reden hier über echte Herausforderungen, echtes Kundenverständnis und tiefe Insights. **Einfach so auf dem Flur.**
+
+Liebe es.
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  "Ich verstehe gar nicht, warum alle immer nur blind mehr Traffic rein kippen wollen, wenn der eigentliche Schlüssel doch in der kompromisslosen Nutzerzufriedenheit liegt."
+
+
+### Die goldene Disziplin der Conversion
+
+Es ist pure Mathematik: Eine Steigerung der [Conversion Rate](https://teleschmie.de/glossar/conversion-rate/) um auch nur 0,xx Prozent hat sofort einen massiv positiven Einfluss auf die Kennzahlen **aller** Kanäle.
+
+Trotzdem starren viele Agenturen nur auf blinde Metriken wie bloßen [Traffic](https://teleschmie.de/glossar/traffic/) oder wahllose Rankings. Das ist Pfusch am Bau. 
+
+**Data Mining und Conversion Optimierung sind die wahren goldenen Disziplinen.**
+
+Wenn die Basis nicht stimmt, bringt es nichts, oben mehr Besucher in den Trichter zu kippen. Wer CEO-Sprache spricht und Budgets rechtfertigen will, der optimiert auf Umsatz – und das geht nur über echte Nutzerzufriedenheit. 
+
+Unterm Strich: Geht auf Events, sprecht mit den Leuten, teilt euer Wissen am Kaffeeautomaten. Und vor allem: Hört auf, blindem Traffic hinterherzujagen. Baut Seiten, die konvertieren.
+
+ALOHA! 🌻✌️
 
 ---
 
@@ -10728,7 +11162,7 @@ Ein Kommentar blieb mir besonders hängen: *"Früher haben wir Google-Bots manip
 
 ## Mein Rat für Unternehmen und Marketing-Entscheider
 
-Wenn ihr in GEO oder AI-SEO investieren wollt, spart nicht am falschen Ende. Ja, der Experte mit 20 Jahren Erfahrung kostet vielleicht 200€ oder 250€ pro Stunde. Das klingt viel im Vergleich zum Werkstudenten oder dem "KI-Kurs-Absolventen" für 50€. 
+Wenn ihr in GEO oder AI-SEO investieren wollt, spart nicht am falschen Ende. Ja, der Experte mit 20 Jahren Erfahrung kostet vielleicht 240€ oder 300€ pro Stunde. Das klingt viel im Vergleich zum Werkstudenten oder dem "KI-Kurs-Absolventen" für 50€. 
 
 Aber rechnet es mal durch:
 - **Der Anfänger:** Experimentiert 6 Monate, produziert 100 Artikel, die nach dem ersten Update abgestraft werden. Kosten: 10.000€ + massiver Imageschaden + Opportunitätskosten.
@@ -10996,7 +11430,7 @@ Kannst du nicht dabei sein? Kein Stress. Lass uns trotzdem in Kontakt bleiben. I
 
 ---
 
-### Wenn AI-Agenten deinen LinkedIn-Feed kapern 
+### Wenn AI-Agenten deinen LinkedIn-Feed kapern
 
 
 Moin! 🌻
@@ -11142,7 +11576,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Die 80%-Falle: Warum die meisten Websites an den Basics scheitern 🚀
+### Die 80%-Falle: Warum Websites an Basics scheitern
 
 
 Moin! 🌻

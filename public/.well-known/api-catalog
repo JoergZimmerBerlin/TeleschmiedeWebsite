@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://teleschmie.de/",
+      "service-doc": [
+        {
+          "href": "https://teleschmie.de/.well-known/ai-plugin.json",
+          "type": "application/json",
+          "title": "Teleschmiede Agent Plugin"
+        },
+        {
+          "href": "https://teleschmie.de/.well-known/mcp-server-card.json",
+          "type": "application/json",
+          "title": "Teleschmiede MCP Server"
+        }
+      ]
+    }
+  ]
+}

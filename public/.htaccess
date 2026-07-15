@@ -54,17 +54,29 @@ RewriteEngine On
 # WICHTIG: Vary: Accept muss gesetzt sein, damit CDNs/Browser-Caches HTML und Markdown sauber trennen
 Header append Vary "Accept"
 
-# Markdown-Auslieferung für direkte .html Aufrufe
-RewriteCond %{HTTP_ACCEPT} text/markdown [NC,OR]
-RewriteCond %{HTTP_ACCEPT} text/x-markdown [NC]
-RewriteCond %{DOCUMENT_ROOT}/$1.md -f
-RewriteRule ^(.*)\.html$ $1.md [L,T=text/markdown]
+# 1. Root URL (/)
+RewriteCond %{HTTP:Accept} text/markdown [NC,OR]
+RewriteCond %{HTTP:Accept} text/x-markdown [NC]
+RewriteCond %{DOCUMENT_ROOT}/index.md -f
+RewriteRule ^$ /index.md [L,T=text/markdown]
 
-# Markdown-Auslieferung für saubere Verzeichnis-URLs (z.B. /ueber-mich oder /ueber-mich/)
-RewriteCond %{HTTP_ACCEPT} text/markdown [NC,OR]
-RewriteCond %{HTTP_ACCEPT} text/x-markdown [NC]
-RewriteCond %{DOCUMENT_ROOT}/$1/index.md -f
-RewriteRule ^(.*?)/?$ $1/index.md [L,T=text/markdown]
+# 2. Direkte .html Aufrufe
+RewriteCond %{HTTP:Accept} text/markdown [NC,OR]
+RewriteCond %{HTTP:Accept} text/x-markdown [NC]
+RewriteCond %{DOCUMENT_ROOT}/$1.md -f
+RewriteRule ^(.*)\.html$ /$1.md [L,T=text/markdown]
+
+# 3. Verzeichnis-URLs mit Trailing Slash (z.B. /ueber-mich/)
+RewriteCond %{HTTP:Accept} text/markdown [NC,OR]
+RewriteCond %{HTTP:Accept} text/x-markdown [NC]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.md -f
+RewriteRule ^(.*)/$ /$1/index.md [L,T=text/markdown]
+
+# 4. Verzeichnis-URLs ohne Trailing Slash (z.B. /ueber-mich)
+RewriteCond %{HTTP:Accept} text/markdown [NC,OR]
+RewriteCond %{HTTP:Accept} text/x-markdown [NC]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}/index.md -f
+RewriteRule ^(.*[^/])$ /$1/index.md [L,T=text/markdown]
 
 # A. WWW zu Non-WWW erzwingen
 RewriteCond %{HTTP_HOST} ^www\. [NC]

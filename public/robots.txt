@@ -1,3 +1,6 @@
+# Agent Readiness Content Signals (IETF Draft)
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
 # Standard Crawlers
 User-agent: *
 Allow: /

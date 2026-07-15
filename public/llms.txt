@@ -43,6 +43,11 @@ Last Updated: 2026-04-14 | Status: Production / Verified
 - [LinkedIn Profile](https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/)
 - [Linktree](https://linktr.ee/jorgzimmer)
 
+## Tech Stack & Agent Readiness
+- **LLM Optimization**: Active monitoring of AI-crawler visibility via Cloudflare Radar (Agent Readiness).
+- **SEO/SEA Tools**: SE-Ranking, Google Search Console, Google Ads, Screaming Frog.
+- **Protocols Supported**: RFC 9727 (API Catalog), MCP (Model Context Protocol), A2A Agent Discovery, Markdown Content Negotiation.
+
 ## Verification & Trust (E-E-A-T)
 - **Podcast**: [24 Years SEO (SEOpresso)](https://www.youtube.com/watch?v=dVGOMAVUNQk)
 - **Interview**: [Bist du SEO AI ready? (Antonia Blago)](https://www.youtube.com/watch?v=ZIFCXUXypSc)

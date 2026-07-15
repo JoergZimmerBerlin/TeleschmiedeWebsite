@@ -5,8 +5,12 @@ ErrorDocument 404 /404.html
 AddDefaultCharset UTF-8
 AddCharset UTF-8 .txt .md .json .html .css .js
 
-<FilesMatch "\.(txt|md)$">
+<FilesMatch "\.txt$">
     ForceType 'text/plain; charset=UTF-8'
+</FilesMatch>
+
+<FilesMatch "\.md$">
+    ForceType 'text/markdown; charset=UTF-8'
 </FilesMatch>
 
 <Files "api-catalog">

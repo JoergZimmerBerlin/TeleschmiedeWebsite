@@ -39,6 +39,11 @@ if (!file_exists('.well-known')) {
     echo "INFO: Verzeichnis '.well-known' existiert bereits.\n";
 }
 
+// Cleanup old uppercase files to prevent Apache mod_speling conflicts
+if (file_exists('.well-known/Auth.md')) @unlink('.well-known/Auth.md');
+if (file_exists('Auth.md')) @unlink('Auth.md');
+if (file_exists('well-known-export/Auth.md')) @unlink('well-known-export/Auth.md');
+
 $wellKnownFiles = ['mcp.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory', 'agent-card.json', 'agent-skills/index.json', 'auth.md'];
 foreach ($wellKnownFiles as $file) {
     $srcFile = 'well-known-export/' . $file;

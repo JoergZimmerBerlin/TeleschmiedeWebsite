@@ -39,7 +39,7 @@ if (!file_exists('.well-known')) {
     echo "INFO: Verzeichnis '.well-known' existiert bereits.\n";
 }
 
-$wellKnownFiles = ['mcp.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory', 'agent.json', 'agent-skills/index.json'];
+$wellKnownFiles = ['mcp.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory', 'agent-card.json', 'agent-skills/index.json', 'Auth.md'];
 foreach ($wellKnownFiles as $file) {
     $srcFile = 'well-known-export/' . $file;
     $destFile = '.well-known/' . $file;

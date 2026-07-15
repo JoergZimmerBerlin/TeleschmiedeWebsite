@@ -9,7 +9,7 @@
           "title": "Teleschmiede Agent Plugin"
         },
         {
-          "href": "https://teleschmie.de/.well-known/mcp-server-card.json",
+          "href": "https://teleschmie.de/.well-known/mcp.json",
           "type": "application/json",
           "title": "Teleschmiede MCP Server"
         }

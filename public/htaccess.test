@@ -50,6 +50,25 @@ AddCharset UTF-8 .txt .md .json .html .css .js
 Options -MultiViews
 RewriteEngine On
 
+# Markdown Content Negotiation für KI-Agenten
+# WICHTIG: Vary: Accept muss gesetzt sein, damit CDNs/Browser-Caches HTML und Markdown sauber trennen
+Header append Vary "Accept"
+
+# Markdown-Auslieferung für .html URLs
+RewriteCond %{HTTP_ACCEPT} text/markdown [NC,OR]
+RewriteCond %{HTTP_ACCEPT} text/x-markdown [NC]
+RewriteCond %{REQUEST_FILENAME} \.html$
+RewriteCond %{REQUEST_FILENAME} (.*)\.html$
+RewriteCond %1.md -f
+RewriteRule ^(.*)\.html$ $1.md [L,T=text/markdown]
+
+# Markdown-Auslieferung für Verzeichnis-URLs (z.B. /ueber-mich/)
+RewriteCond %{HTTP_ACCEPT} text/markdown [NC,OR]
+RewriteCond %{HTTP_ACCEPT} text/x-markdown [NC]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{DOCUMENT_ROOT}/$1/index.md -f
+RewriteRule ^(.*)/?$ $1/index.md [L,T=text/markdown]
+
 # A. WWW zu Non-WWW erzwingen
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^(.*)$ https://teleschmie.de/$1 [L,R=301]

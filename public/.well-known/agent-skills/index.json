@@ -1,0 +1,16 @@
+{
+  "skills": [
+    {
+      "id": "skill-seo-consulting",
+      "name": "SEO & LLM Consulting",
+      "description": "Expert advice on Search Engine Optimization and Large Language Model readiness.",
+      "url": "https://teleschmie.de/leistungen"
+    },
+    {
+      "id": "skill-knowledge-retrieval",
+      "name": "Wissensabruf",
+      "description": "Abruf von SEO- und KI-Fachwissen aus dem Teleschmiede-Glossar und Blog.",
+      "url": "https://teleschmie.de/llms.txt"
+    }
+  ]
+}

@@ -39,10 +39,16 @@ if (!file_exists('.well-known')) {
     echo "INFO: Verzeichnis '.well-known' existiert bereits.\n";
 }
 
-$wellKnownFiles = ['mcp-server-card.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory'];
+$wellKnownFiles = ['mcp-server-card.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory', 'agent.json', 'agent-skills/index.json'];
 foreach ($wellKnownFiles as $file) {
     $srcFile = 'well-known-export/' . $file;
     $destFile = '.well-known/' . $file;
+    
+    $destDir = dirname($destFile);
+    if (!file_exists($destDir)) {
+        mkdir($destDir, 0755, true);
+    }
+
     if (file_exists($srcFile)) {
         if (copy($srcFile, $destFile)) {
             echo "ERFOLG: '$file' wurde in '.well-known' kopiert.\n";

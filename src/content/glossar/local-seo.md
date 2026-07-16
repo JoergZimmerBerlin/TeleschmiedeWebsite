@@ -2,6 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Local SEO: Sichtbarkeit für KI-Agenten & Voice'
 description: 'Local SEO (2026): Von Google Maps zur ''Agentic Search''. Erfahre, wie Siri, Alexa und GPT-Agenten lokale Unternehmen finden. ALOHA! 🌻'
+sameAs: "https://www.wikidata.org/wiki/Q30324357"
 date: "2026-03-31"
 image: "../../assets/images/blog/glossar-local-seo.webp"
 image_alt: "Local SEO 2026 - Sichtbarkeit für KI-Agenten"

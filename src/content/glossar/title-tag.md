@@ -2,6 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Title Tag (HTML-Titel): Optimale SEO-Schreibweise'
 description: 'Der Title Tag: Eines der wichtigsten On-Page SEO-Elemente. Tipps zur Optimierung für Google-Rankings und höhere Klickraten. ALOHA! 🌻'
+sameAs: "https://www.wikidata.org/wiki/Q65032661"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-linking.webp"
 related_terms: ["meta-description", "h1-h2-h3"]

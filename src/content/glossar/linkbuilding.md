@@ -2,6 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Linkbuilding: Strategien für Autorität'
 description: 'Linkbuilding 2026: Warum Qualität heute über Quantität siegt. Erfahre, wie du hochwertige Backlinks aufbaust, die deine Autorität stärken. ALOHA! 🌻'
+sameAs: "https://www.wikidata.org/wiki/Q1569371"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp"
 related_terms: ["linkjuice", "seo-beratung", "entitaet"]

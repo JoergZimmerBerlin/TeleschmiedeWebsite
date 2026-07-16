@@ -2,6 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Crawler & Search Bots: Die Internet-Arbeiter'
 description: 'Crawler sind die Basis für jede Google-Suche. Erfahre, wie Bots deine Website scannen und wie du sie steuerst.'
+sameAs: "https://www.wikidata.org/wiki/Q45842"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"
 image_alt: "Crawler 3D Infografik - Suchmaschinen Bots"

@@ -2,6 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Canonical Tag: Duplicate Content sicher vermeiden'
 description: 'Canonical Tag: Der Lebensretter gegen Duplicate Content. Lerne, wie du Google zeigst, welche URL die ''echte'' ist. ALOHA! 🌻'
+sameAs: "https://www.wikidata.org/wiki/Q105265074"
 date: "2026-03-19"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["technisches-seo", "crawling-vs-indexing", "robots-txt", "trailing-slashes"]

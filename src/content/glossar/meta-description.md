@@ -2,6 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Meta Description: Seitenbeschreibung für Google'
 description: 'Meta Description Optimierung: So schreibst du Texte, die Klicks bringen. Tipps für CTR & Sichtbarkeit in den Suchergebnissen. ALOHA!'
+sameAs: "https://www.wikidata.org/wiki/Q3307180"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["title-tag", "noindex"]

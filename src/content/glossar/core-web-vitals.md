@@ -2,6 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Core Web Vitals (CWV): Guide zur UX-Optimierung'
 description: 'Core Web Vitals erklärt: LCP, INP & CLS. Warum Nutzersignale für dein SEO-Ranking heute wichtiger sind denn je. ALOHA! 🌻'
+sameAs: "https://www.wikidata.org/wiki/Q104618838"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"
 image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren von Google"

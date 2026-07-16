@@ -2,6 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Noindex: Seiten von der Suche ausschließen'
 description: 'Noindex Meta-Tag: So kontrollierst du, welche Seiten Google indexiert. Der wichtigste Befehl zum Schutz deines Indexing-Budgets. ALOHA!'
+sameAs: "https://www.wikidata.org/wiki/Q4045426"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 robots: "index, follow"

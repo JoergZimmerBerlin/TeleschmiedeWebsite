@@ -2,6 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'E-E-A-T (Google Quality Rater Guidelines 2026)'
 description: 'E-E-A-T (2026): Wie KI-Modelle Expertise, Erfahrung, Autorität und Trust technisch validieren. Digitale Reputation für Mensch & Maschine. ALOHA! 🌻'
+sameAs: "https://www.wikidata.org/wiki/Q121693513"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "E-E-A-T 3D Infografik - Vertrauen als Rankingfaktor für KIs"

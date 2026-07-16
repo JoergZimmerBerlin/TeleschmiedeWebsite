@@ -2,6 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Conversion-Rate-Optimierung (CRO): Mehr Umsatz'
 description: 'Warum mehr Besucher nichts bringen, wenn sie nicht kaufen. CRO-Basics und Strategien für bessere Conversions.'
+sameAs: "https://www.wikidata.org/wiki/Q135293"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"
 image_alt: "Conversion Rate 3D Infografik - Marketing Funnel"

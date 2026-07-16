@@ -4,9 +4,29 @@ import Layout from '../layouts/Layout.astro';
 import leistungenHero from '../assets/images/pages/leistungen-hero.webp';
 import { getGitModDate } from '../utils/git-date';
 import Schema from '../components/Schema.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
 
 const lastReviewed = getGitModDate('src/pages/leistungen.astro');
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const faqs = [
+  {
+    question: "Was kostet eine SEO-Betreuung bei dir?",
+    answer: "Mein Basis-Stundensatz liegt bei 240€. Um dir maximale Transparenz zu bieten, arbeite ich am liebsten mit Pauschalpaketen: Die Einstiegs-Sprechstunde kostet 480€, und für die Umsetzung gibt es flexible 10-Stunden Pakete für 1.920€."
+  },
+  {
+    question: "Was ist der beste Einstieg für eine Zusammenarbeit?",
+    answer: "Der beste Start ist fast immer die SEO-Sprechstunde. In diesem 2-stündigen Videocall schauen wir uns deine Website live an, decken die größten Fehler auf und erstellen einen konkreten Maßnahmenplan."
+  },
+  {
+    question: "Bietest du neben SEO auch Google Ads (SEA) an?",
+    answer: "Ja. Ich bin seit über 10 Jahren Google Partner und betreue Google Ads Kampagnen mit einem klaren Fokus auf ROI und Budgeteffizienz. SEO und SEA lassen sich hervorragend kombinieren, um den Traffic zu maximieren."
+  },
+  {
+    question: "Arbeitest du alleine oder als Agentur?",
+    answer: "Ich arbeite als selbstständiger Freelancer und Digitaler Architekt. Für Disziplinen außerhalb meiner Spezialisierung (wie Webdesign, komplexes Tracking oder Social Media) greife ich auf ein erprobtes Freelancer-Netzwerk zurück. So bekommst du Agentur-Power ohne Overhead-Kosten."
+  }
+];
 
 // Data for services
 interface Service {
@@ -313,6 +333,16 @@ const allOffers = categories.flatMap(cat => cat.services.map(s => ({
     </div>
   </section>
 
+  <!-- FAQ Section with Schema inside the Component -->
+  <section class="section bg-white pt-16 pb-24" id="faq">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Häufige Fragen zu meinen Leistungen</h2>
+      </div>
+      <FAQAccordion faqs={faqs} />
+    </div>
+  </section>
+
   <!-- Final CTA -->
   <section class="section bg-dark text-white">
     <div class="container-narrow text-center">
@@ -334,5 +364,6 @@ const allOffers = categories.flatMap(cat => cat.services.map(s => ({
     description="SEO-Checks, Keyword-Analysen, Google Ads Management und Beratung. Entdecke meine Leistungen als SEO-Freelancer in Berlin Spandau."
     lastReviewed={lastReviewed}
     offers={allOffers}
+    faqs={faqs}
   />
 </Layout>

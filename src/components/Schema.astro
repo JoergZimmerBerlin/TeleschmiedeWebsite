@@ -8,7 +8,7 @@ interface Props {
   description?: string;
   lastReviewed?: string;
   url?: string;
-  type?: 'article' | 'glossary' | 'about' | 'default';
+  type?: 'article' | 'glossary' | 'about' | 'software' | 'default';
   image?: string;
   datePublished?: string;
   dateModified?: string;
@@ -120,9 +120,9 @@ const personEntity = {
     { "@type": "Thing", "name": "Content SEO", "sameAs": "https://www.wikidata.org/wiki/Q2916124" },
     { "@type": "Thing", "name": "Local SEO", "sameAs": "https://www.wikidata.org/wiki/Q6664539" },
     { "@type": "Thing", "name": "Sistrix", "sameAs": "https://www.wikidata.org/wiki/Q1956041" },
-    { "@type": "Thing", "name": "SE Ranking" },
-    { "@type": "Thing", "name": "Rankscale" },
-    { "@type": "Thing", "name": "SEORCH" },
+    { "@type": "Thing", "name": "SE Ranking", "sameAs": "https://seranking.com/" },
+    { "@type": "Thing", "name": "Rankscale", "sameAs": "https://rankscale.ai/" },
+    { "@type": "Thing", "name": "SEORCH", "sameAs": "https://seorch.de/" },
     { "@type": "Thing", "name": "Search Engine Advertising", "sameAs": "https://www.wikidata.org/wiki/Q846132" },
     { "@type": "Thing", "name": "Google Ads", "sameAs": "https://www.wikidata.org/wiki/Q271982" },
     { "@type": "Thing", "name": "Performance Marketing", "sameAs": "https://www.wikidata.org/wiki/Q2070665" },
@@ -321,7 +321,11 @@ const graph: any[] = [
     "lastReviewed": lastReviewedISO,
     "isPartOf": { "@id": websiteId },
     "primaryImageOfPage": imageId ? { "@id": imageId } : undefined,
-    "about": type === 'default' ? { "@id": businessId } : undefined
+    "about": type === 'default' ? { "@id": businessId } : undefined,
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", "main p:first-of-type"]
+    }
   },
   {
     "@type": "BreadcrumbList",
@@ -409,6 +413,21 @@ if (type === 'article') {
     "description": description,
     "url": url,
     "mainEntity": mainEntity || { "@id": personId }
+  } as any);
+} else if (type === 'software') {
+  graph.push({
+    "@type": "SoftwareApplication",
+    "name": title,
+    "description": description,
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "url": url,
+    ...(mainEntity || {}),
+    "offers": mainEntity?.offers || {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    }
   } as any);
 }
 

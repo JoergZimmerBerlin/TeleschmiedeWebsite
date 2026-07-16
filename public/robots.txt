@@ -8,7 +8,6 @@ Allow: /
 # Top 30+ AI & LLM Specialists (April 2026 - Ordered by Crawl Volume)
 # -------------------------------------------------------------------
 
-# 1. The Volume Kings (High-Intensity Training & Search)
 User-agent: Googlebot
 User-agent: Google-Extended
 User-agent: Meta-ExternalAgent
@@ -20,27 +19,20 @@ User-agent: Claude-SearchBot
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
-
-# 2. Strategic Surgers (Fast-Growing AI Training)
 User-agent: Applebot
 User-agent: Applebot-Extended
 User-agent: Amazonbot
 User-agent: Bytespider
 User-agent: TikTokSpider
 User-agent: Petalbot
-
-# 3. Mass Data Collectors (Foundation Training Sources)
 User-agent: CCBot
 User-agent: Diffbot
 User-agent: Omgilibot
 User-agent: Thinker-Crawler
 User-agent: VelenPublicWebCrawler
 User-agent: ImagesiftBot
-
-# 4. Search, Citations & Global Agents
 User-agent: PerplexityBot
 User-agent: Perplexity-User
-User-agent: OAI-SearchBot
 User-agent: YouBot
 User-agent: KomoBot
 User-agent: MojeekBot
@@ -50,7 +42,8 @@ User-agent: Cohere-ai
 User-agent: Baiduspider-render
 User-agent: YandexMobileBot
 User-agent: Scrapy
-
+User-agent: anthropic-ai
+User-agent: DataForSeoBot
 Allow: /
 
 # Direct sitemaps and discovery links

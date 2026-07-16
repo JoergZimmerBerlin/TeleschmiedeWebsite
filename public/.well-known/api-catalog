@@ -6,12 +6,12 @@
         {
           "href": "https://teleschmie.de/.well-known/ai-plugin.json",
           "type": "application/json",
-          "title": "Teleschmiede Agent Plugin"
+          "title": "Jörg Zimmer Agent Plugin"
         },
         {
           "href": "https://teleschmie.de/.well-known/mcp.json",
           "type": "application/json",
-          "title": "Teleschmiede MCP Server"
+          "title": "Jörg Zimmer MCP Server"
         }
       ]
     }

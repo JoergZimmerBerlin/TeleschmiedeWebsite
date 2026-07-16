@@ -10,7 +10,7 @@
     {
       "id": "skill-knowledge-retrieval",
       "name": "Wissensabruf Basis",
-      "description": "Abruf von SEO- und KI-Fachwissen aus dem Teleschmiede-Glossar und Blog als LLM-freundlicher Index.",
+      "description": "Abruf von SEO- und KI-Fachwissen aus dem Jörg Zimmer Glossar und Blog als LLM-freundlicher Index.",
       "url": "https://teleschmie.de/llms.txt",
       "format": "text/markdown"
     },

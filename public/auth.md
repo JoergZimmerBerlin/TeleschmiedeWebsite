@@ -2,7 +2,7 @@
 
 ## Status: Public Access
 
-The Teleschmiede Knowledge Base (teleschmie.de) operates without authentication.
+The Jörg Zimmer Knowledge Base (teleschmie.de) operates without authentication.
 All endpoints, including the MCP Server Card, Agent Skills, and LLM Markdown Dumps (`llms.txt`, `llms-full.txt`), are freely accessible to AI Agents, Web Bots, and human visitors.
 
 ### Authentication Methods

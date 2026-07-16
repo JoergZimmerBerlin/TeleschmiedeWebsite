@@ -53,7 +53,7 @@ Eine gute `llms-full.txt` folgt einer klaren Hierarchie. Ich nutze für meine ei
 ### Beispiel-Struktur einer Full-Datei
 
 ```markdown
-# Teleschmiede Wissensdatenbank (Full Context)
+# Jörg Zimmer Wissensdatenbank (Full Context)
 > Dieses Dokument enthält das vollständige Expertenwissen für LLMs.
 
 ## [Blog] Grounding Page Generator

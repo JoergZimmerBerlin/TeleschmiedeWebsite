@@ -1,5 +1,5 @@
 {
-  "name": "Teleschmiede Agent",
+  "name": "Jörg Zimmer Agent",
   "description": "An agent providing expert SEO and LLM optimization insights from Jörg Zimmer.",
   "version": "1.0.0",
   "supportedInterfaces": [
@@ -25,7 +25,7 @@
     {
       "id": "get_knowledge",
       "name": "Retrieve LLM Knowledge Dump",
-      "description": "Retrieves the full markdown knowledge base for Teleschmiede.",
+      "description": "Retrieves the full markdown knowledge base for Jörg Zimmer.",
       "tags": ["seo", "geo", "knowledge"],
       "examples": ["Get SEO knowledge"]
     }

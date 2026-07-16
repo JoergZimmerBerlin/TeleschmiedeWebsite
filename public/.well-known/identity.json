@@ -10,5 +10,10 @@
     "seo-consulting",
     "generative-engine-optimization",
     "knowledge-retrieval"
-  ]
+  ],
+  "integrity_proof": {
+    "signature": "rGvzV0mip/gFBYRJOpxufLbo4c2rU4usAvgZadQyXfw9vTltd7LoMusBJIAzSyS/uytSXsjz1OARPQRzqB7yCQ==",
+    "created": "2026-07-16T11:45:42.391Z",
+    "public_key_ref": "dns:txt:_sovp.teleschmie.de"
+  }
 }

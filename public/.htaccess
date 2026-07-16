@@ -82,7 +82,7 @@ RewriteCond %{HTTP:Accept} text/x-markdown [NC]
 RewriteCond %{REQUEST_URI} !\.md$ [NC]
 RewriteRule ^(.*[^/])$ /$1/index.md [L,T=text/markdown]
 
-# 5. Direkte .md Aufrufe (z.B. /groundingpage-en.md) intern auf /index.md umleiten
+# 5. Direkte .md Aufrufe (Fallback für Crawler/Nutzer)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)\.md$ /$1/index.md [L,T=text/markdown]
 

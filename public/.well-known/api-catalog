@@ -12,6 +12,11 @@
           "href": "https://teleschmie.de/.well-known/mcp.json",
           "type": "application/json",
           "title": "Jörg Zimmer MCP Server"
+        },
+        {
+          "href": "https://teleschmie.de/.well-known/webmcp.json",
+          "type": "application/json",
+          "title": "Jörg Zimmer WebMCP Server"
         }
       ]
     }

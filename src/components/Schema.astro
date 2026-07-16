@@ -16,6 +16,8 @@ interface Props {
 
   offers?: any[];
   mainEntity?: any;
+  sameAs?: string;
+  alternateNames?: string[];
 }
 
 const { 
@@ -29,7 +31,9 @@ const {
   dateModified,
   offers,
   faqs,
-  mainEntity
+  mainEntity,
+  sameAs,
+  alternateNames
 
 } = Astro.props;
 
@@ -387,6 +391,8 @@ if (type === 'article') {
     "description": description,
     "inDefinedTermSet": { "@id": termSetId },
     "url": url,
+    "sameAs": sameAs || undefined,
+    "alternateName": alternateNames && alternateNames.length > 0 ? alternateNames : undefined,
     "image": imageId ? { "@id": imageId } : undefined,
     "mainEntityOfPage": { "@id": url }
   } as any);

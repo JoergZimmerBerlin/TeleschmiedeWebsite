@@ -57,8 +57,7 @@ echo "llms-full.txt updated successfully with absolute URLs and native German ch
 
 # Sync files to .well-known and create aliases
 echo "Synchronizing LLM and Agent files..."
-cp public/llms.txt public/agents.md
 cp public/llms.txt public/.well-known/llms.txt
-cp public/agents.md public/.well-known/agents.md
+cp public/llms.txt public/.well-known/agents.md
 cp public/llms-full.txt public/.well-known/llms-full.txt
 echo "Synchronization complete."

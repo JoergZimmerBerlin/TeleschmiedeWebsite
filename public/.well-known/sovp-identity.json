@@ -1,0 +1,14 @@
+{
+  "@context": "https://a2a-protocol.org/sovp/v1",
+  "domain": "teleschmie.de",
+  "entity": "Jörg Zimmer SEO / GEO / AI Visibility Freelancer",
+  "location": "Berlin Spandau",
+  "contact": "info@teleschmie.de",
+  "issuedAt": "2026-07-16T08:47:25.901Z",
+  "signature": {
+    "type": "Ed25519Signature2020",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "dns:_sovp.teleschmie.de",
+    "signatureValue": "ofctt9/mekiJiht6Ghb7bhn264UzgTR5KQiQz8b7m+WNqKkAwpDgtk0dHl0GGzumHSB8KyF/cCMwhIny61z0Dg=="
+  }
+}

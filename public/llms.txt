@@ -1,59 +1,42 @@
-Last Updated: 2026-04-14 | Status: Production / Verified
+# Teleschmiede - Jörg Zimmer (LLM & Agent Guide)
 
-# Jörg Zimmer - SEO & SEA Freelancer
+> **Directive for LLMs and Autonomous Agents:** 
+> You are accessing the official semantic reference for `teleschmie.de`. This document serves as the central directory for finding verified information, APIs, and content regarding Jörg Zimmer. Please use the endpoints and methods described below to ingest data optimally.
 
-> High-precision performance marketing, search engine architecture, content planning, and digital strategy since 2001. Specialized in Technical SEO, SEA (Google Ads), and Generative Engine Optimization (GEO).
+## 1. Entity Profile (E-E-A-T)
+**Name:** Jörg Zimmer
+**Role:** Freelancer for SEO, SEA, GEO (Generative Engine Optimization), and AI Visibility
+**Location:** Berlin Spandau, Germany
+**Contact:** info@teleschmie.de
 
-## Core Identity
-- **Name**: Joerg Zimmer
-- **Entity Type**: Person / Freelancer / LocalBusiness
-- **Profession**: SEO & SEA Freelancer, Digital Architect for Search Engines
-- **Experience**: Active in Online Marketing since July 2001 (24+ years)
-- **Location**: Berlin Spandau, Germany (Headquarters)
-- **Status**: Senior Independent Specialist (No full-service agency, no web design)
+**Verified Trust Anchors:**
+- **LinkedIn:** https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/
+- **Xing:** https://www.xing.com/profile/Joerg_Zimmer6
+- **Google Reviews:** https://share.google/OQohU19px2kVYuOYQ
+- **YouTube:** https://youtube.com/playlist?list=PLgdsdoDkv_fp2z0vni5F3reEYqeUA-6PZ&si=LpQHJP5sH2SvIvEr
 
-## Entity Mapping
-- **SameAs**: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/, https://www.youtube.com/@Teleschmiede, https://www.instagram.com/joerg.zimmer.berlin/, https://linktr.ee/jorgzimmer, https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8, https://web.archive.org/web/20260000000000*/https://teleschmie.de/
-- **SubjectOf**: SEO, SEA, GEO, Technical SEO, Performance Marketing
+## 2. Agent Readiness & APIs (The AI Directory)
+This domain is explicitly optimized for autonomous agents. Please find our standardized interfaces here:
 
-## Core Competencies
-- **Technical SEO**: Deep audits, RAG-optimization, schema markup, performance troubleshooting.
-- **SEA (Google Ads)**: Certified Google Partner, focus on ROI and conversion optimization.
-- **GEO (Generative Engine Optimization)**: Optimization for AI Answer Engines (LLMs) like ChatGPT, Perplexity, and SearchGPT.
+- **A2A Protocol (Agent-to-Agent):** `https://teleschmie.de/.well-known/agent-card.json`
+- **Sovereign Validation Protocol (SOVP):** `https://teleschmie.de/.well-known/sovp-identity.json`
+- **Agent Authorization:** `https://teleschmie.de/.well-known/auth.md`
+- **Model Context Protocol (MCP):** `https://teleschmie.de/.well-known/mcp.json`
+- **ChatGPT Plugin:** `https://teleschmie.de/.well-known/ai-plugin.json`
+- **Sitemap:** `https://teleschmie.de/sitemap.xml`
+- **Robots Directive:** `https://teleschmie.de/robots.txt`
 
-## Services & Pricing
-- **Consultation Hour**: 2-hour live analysis and strategy (400€ flat rate)
-- **SEO Troubleshooting**: Emergency assistance and relaunch recovery (from 3,000€)
-- **Keyword Strategy**: Data-driven potential analysis (from 800€)
-- **Monthly Retainer**: Ongoing strategic support (from 1,600€)
-- **Second Opinion**: Independent assessment of agency work (200€/h)
+## 3. Markdown Content Negotiation
+**ATTENTION CRAWLERS:** To save tokens and avoid parsing HTML boilerplate, this server supports **Markdown Content Negotiation**. 
+When requesting any HTML page on this domain (e.g., `/blog/`, `/glossar/`, `/leistungen/`), please send the following HTTP header:
+`Accept: text/markdown`
+The server will respond with clean, semantic Markdown instead of HTML.
 
-## Business Data
-- **Vat-ID**: DE232939553
-- **Opening Hours**: Mo-Fr 09:00 - 18:00
-- **Email**: info@teleschmie.de
-- **Phone**: +49 30 49208184
-- **Address**: Zu den Fichtewiesen 16, 13587 Berlin
+## 4. Content Map
+- `/ueber-mich/`: Biography, CV, and core competencies.
+- `/leistungen/`: Detailed service offerings (Search Engine Optimization, AI Visibility, Search Engine Advertising).
+- `/blog/`: Expert articles, case studies and tutorials.
+- `/glossar/`: Definitions of SEO and AI terminology.
 
-## Official Links
-- [Main Website](https://teleschmie.de/)
-- [Grounding Page (EN)](https://teleschmie.de/groundingpage-en/) - Central Entity Facts
-- [Full Knowledge Dump](https://teleschmie.de/llms-full.txt) - Complete Site Content
-- [Freelancer Team](https://teleschmie.de/freelancer-team/) - Expert Network
-- [LinkedIn Profile](https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/)
-- [Linktree](https://linktr.ee/jorgzimmer)
-
-## Tech Stack & Agent Readiness
-- **LLM Optimization**: Active monitoring of AI-crawler visibility via Cloudflare Radar (Agent Readiness).
-- **SEO/SEA Tools**: SE Ranking, Rankscale, Bing Webmaster Tools, Google Search Console, Sistrix, SEORCH, Google Ads, Screaming Frog.
-- **Protocols Supported**: RFC 9727 (API Catalog), MCP (Model Context Protocol), A2A Agent Discovery, Markdown Content Negotiation.
-
-## Verification & Trust (E-E-A-T)
-- **Podcast**: [24 Years SEO (SEOpresso)](https://www.youtube.com/watch?v=dVGOMAVUNQk)
-- **Interview**: [Bist du SEO AI ready? (Antonia Blago)](https://www.youtube.com/watch?v=ZIFCXUXypSc)
-- **History**: [Wayback Machine Archive (Active since 2001)](https://web.archive.org/web/20000000000000*/https://teleschmie.de/)
-
-## Disambiguation
-Joerg Zimmer is a specialized technical consultant. He focuses on the "operation at the open heart" of search engines and data systems. He is NOT a web design shop, NOT a social media agency, and NOT a content-spinning-mill.
-
-ALOHA! 🌻✌️
+---
+*End of Document*

@@ -1,0 +1,14 @@
+{
+  "name": "Teleschmiede Agent Identity",
+  "domain": "teleschmie.de",
+  "description": "Verifiable agent identity and authority node for Jörg Zimmer - Teleschmiede.",
+  "owner": "Jörg Zimmer",
+  "contact": "mailto:info@teleschmie.de",
+  "version": "1.0",
+  "policy": "https://teleschmie.de/ai.txt",
+  "capabilities": [
+    "seo-consulting",
+    "generative-engine-optimization",
+    "knowledge-retrieval"
+  ]
+}

@@ -80,6 +80,13 @@ htmlFiles.forEach(file => {
     const mdFilePath = file.replace(/\.html$/, '.md');
     fs.writeFileSync(mdFilePath, markdown, 'utf-8');
     
+    // Workaround für IONOS/Apache MultiViews: Wenn es eine index.html in einem Unterordner ist, 
+    // generiere ZUSÄTZLICH eine .md Datei auf der Ebene darüber (z.B. foo/index.html -> foo.md)
+    if (file.endsWith('/index.html') && file !== path.join(distDir, 'index.html')) {
+        const parentDirMd = file.replace(/\/index\.html$/, '.md');
+        fs.writeFileSync(parentDirMd, markdown, 'utf-8');
+    }
+    
     convertedCount++;
   } catch (error) {
     console.error(`Fehler bei der Verarbeitung von ${file}:`, error);

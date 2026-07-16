@@ -351,7 +351,19 @@ if (type === 'article') {
 } else if (type === 'glossary') {
   const termId = `${url}#term`;
   const glossaryArticleId = `${url}#article`;
+  const termSetId = `${siteUrl}/glossar/#termset`;
   
+  // The DefinedTermSet represents the entire Glossary, linking all terms directly to Jörg as the author
+  graph.push({
+    "@type": "DefinedTermSet",
+    "@id": termSetId,
+    "name": "Teleschmiede SEO & SEA Glossar",
+    "description": "Experten-Glossar für Suchmaschinenoptimierung und Performance Marketing",
+    "url": `${siteUrl}/glossar/`,
+    "author": { "@id": personId },
+    "publisher": { "@id": businessId }
+  });
+
   // The Article serves as the container for the knowledge, attributing it to the Person
   graph.push({
     "@type": "Article",
@@ -366,13 +378,14 @@ if (type === 'article') {
     "image": imageId ? { "@id": imageId } : undefined
   });
 
-  // The DefinedTerm is the core knowledge piece
+  // The DefinedTerm is the core knowledge piece, nested in the TermSet
   graph.push({
     "@type": "DefinedTerm",
     "@id": termId,
     "name": title,
     "description": description,
-    "inDefinedTermSet": `${siteUrl}/glossar/`,
+    "inDefinedTermSet": { "@id": termSetId },
+    "url": url,
     "image": imageId ? { "@id": imageId } : undefined,
     "mainEntityOfPage": { "@id": url }
   } as any);

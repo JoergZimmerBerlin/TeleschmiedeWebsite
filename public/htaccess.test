@@ -49,6 +49,12 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     Header add Link "</.well-known/mcp.json>; rel=\"service-doc\""
     Header add Link "</.well-known/ai-plugin.json>; rel=\"service-doc\""
     Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
+
+    # CORS for AI/Agent Discovery Files
+    <FilesMatch "^(ai-plugin\.json|mcp\.json|webmcp\.json|agent-card\.json|identity\.json|sovp-identity\.json|auth\.md|api-catalog|http-message-signatures-directory)$">
+        Header set Access-Control-Allow-Origin "*"
+        Header set Access-Control-Allow-Methods "GET, OPTIONS"
+    </FilesMatch>
 </IfModule>
 
 # 3. Redirects & Options

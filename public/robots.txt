@@ -16,6 +16,7 @@ User-agent: FacebookBot
 User-agent: ClaudeBot
 User-agent: Claude-Web
 User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ChatGPT-User

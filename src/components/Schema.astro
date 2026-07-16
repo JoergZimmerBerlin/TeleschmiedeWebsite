@@ -325,8 +325,14 @@ const graph: any[] = [
     "about": type === 'default' ? { "@id": businessId } : undefined,
     "speakable": {
       "@type": "SpeakableSpecification",
+      "xpath": [
+        "/html/head/title",
+        "/html/body//h1",
+        "/html/body//main//p[1]"
+      ],
       "cssSelector": ["h1", "main p:first-of-type"]
-    }
+    },
+    "isAccessibleForFree": true
   },
   {
     "@type": "BreadcrumbList",
@@ -356,7 +362,8 @@ if (type === 'article') {
     "dateModified": dateModifiedISO,
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
-    "mainEntityOfPage": { "@id": url }
+    "mainEntityOfPage": { "@id": url },
+    "isAccessibleForFree": true
   } as any);
 } else if (type === 'glossary') {
   const termId = `${url}#term`;
@@ -385,7 +392,8 @@ if (type === 'article') {
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
-    "image": imageId ? { "@id": imageId } : undefined
+    "image": imageId ? { "@id": imageId } : undefined,
+    "isAccessibleForFree": true
   });
 
   // The DefinedTerm is the core knowledge piece, nested in the TermSet

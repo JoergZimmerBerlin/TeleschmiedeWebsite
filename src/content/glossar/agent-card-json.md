@@ -1,94 +1,118 @@
 ---
-title: "agent-card.json: Die Visitenkarte für autonome KI-Agenten"
-description: "Was ist die agent-card.json nach dem A2A-Protokoll? Erfahren Sie alles über Aufbau, Nutzen und Implementierung für echte Agent Readiness."
+title: "agent-card.json: Der Ausweis deines KI-Agenten im B2B-Netzwerk"
+description: "Wenn dein KI-Agent keine agent-card.json hat, existiert er für den B2B-Markt nicht. Jörg Zimmer zeigt dir, wie du dich im A2A Protocol ausweist."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agent-card-json-3d.webp"
-image_alt: "3D Infografik zur agent-card.json und A2A Protokoll"
+image_alt: "3D Infografik zur agent-card.json als maschinenlesbarer Personalausweis für KI-Agenten"
 key_takeaways:
-  - "Die agent-card.json ist der Türöffner für das Semantic Web."
-  - "Sie listet die Fähigkeiten (Skills) deiner KI-Systeme maschinenlesbar auf."
-  - "Ein absolutes Must-have für Agent Readiness Level 5."
+  - "Die agent-card.json ist das standardisierte Typenschild (Manifest) deines KI-Agenten."
+  - "Sie ist ein essenzieller Bestandteil des A2A Protocols (v1.0.0) unter der Linux Foundation."
+  - "Ohne sie können fremde Agenten nicht autonom mit deinem System interagieren."
 faqs:
-  - question: "Wer liest die agent-card.json eigentlich?"
-    answer: "Aktuell werden diese Dateien von Frameworks für Multi-Agenten-Systeme, automatisierten Crawlern von KI-Startups und bald voraussichtlich auch von großen Suchmaschinen-Bots gelesen, die autonome Task-Delegation (A2A) unterstützen."
-  - question: "Unterscheidet sie sich von der llms.txt?"
-    answer: "Ja, massiv. Die llms.txt ist für das Lesen von Inhalten (Text) gedacht. Die agent-card.json ist für das Ausführen von Aktionen und die direkte Agent-to-Agent Kommunikation konzipiert. Ohne sie bist du für Maschinen nur ein Blatt Papier, kein Dienstleister."
-  - question: "Darf jeder meine agent-card.json sehen?"
-    answer: "Ja, da sie im öffentlichen .well-known Verzeichnis liegt, ist sie öffentlich einsehbar. Sie darf daher NIEMALS Passwörter, API-Keys oder interne Geheimnisse enthalten, sondern nur die Beschreibungen deiner öffentlichen Fähigkeiten."
+  - question: "Wofür genau braucht mein KI-Agent diese JSON-Datei?"
+    answer: "Stell dir vor, du gehst auf eine fremde B2B-Messe ohne Namensschild und ohne Visitenkarte. Niemand weiß, wer du bist, was du anbietest oder wie man dich kontaktiert. Die `agent-card.json` ist die digitale, maschinenlesbare Visitenkarte deines Agenten. Fremde KIs scannen sie, um herauszufinden, über welche Endpunkte und mit welcher Autorisierung sie Aufgaben an dich delegieren können."
+  - question: "Wo muss diese Datei auf meinem Server liegen?"
+    answer: "Es gibt dafür einen knallharten, genormten Pfad. Die Datei MUSS zwingend im öffentlichen `.well-known` Verzeichnis im Root deiner Domain liegen (also z.B. `https://deinedomain.de/.well-known/agent-card.json`). Wenn sie woanders liegt, wird sie beim A2A Discovery Process schlichtweg ignoriert."
+  - question: "Was ist der Unterschied zwischen der agent-card.json und der llms.txt?"
+    answer: "Die `llms.txt` liefert einer anklopfenden KI *Inhalte* und *Wissen* über deine Seite (Content). Die `agent-card.json` liefert *Infrastruktur-Metadaten* und *Zugriffsrechte* (Protocol). Wenn die KI nur lesen will, reicht die `llms.txt`. Wenn die KI aber eine Aktion ausführen will (z.B. einen B2B-Termin buchen), MUSS sie die `agent-card.json` parsen."
+  - question: "Wie verhält sich das zur Model Context Protocol (MCP) Spezifikation?"
+    answer: "Die Agent Card deklariert dein Protokoll-Set. Du definierst darin, dass du das A2A Protocol v1.0.0 sprichst, kannst aber gleichzeitig in der Karte auflisten, welche deiner internen Tools über zustandsloses MCP (Stateless MCP) erreichbar sind. Es ist das Inhaltsverzeichnis deiner Agentic-Infrastruktur."
+  - question: "Ist die Datei sicherheitskritisch? Darf die jeder lesen?"
+    answer: "Die `agent-card.json` selbst ist rein deklarativ und MUSS für alle KIs offen im Netz liegen. Sensible Dinge stehen dort nicht drin. Stattdessen verweist die Karte unter dem Punkt 'Security' auf eine separate Policy-Datei (meist die `auth.md`), in der die harten kryptografischen Sicherheitsvorgaben (wie ID-JAGs) geregelt werden."
 ---
-
-![3D Infografik zur agent-card.json und A2A Protokoll](../../assets/images/glossar/3d-light/glossar-agent-card-json-3d.webp)
 
 Moin! 🌻
 
-Die **agent-card.json** ist eine standardisierte JSON-Datei, die im `.well-known` Verzeichnis einer Website abgelegt wird und als "digitale Visitenkarte" für autonome KI-Agenten fungiert. Sie ist ein elementarer Bestandteil des aufkommenden **A2A-Protokolls** (Agent-to-Agent).
+Wir schreiben das Jahr 2026. Das Internet ist nicht mehr nur ein bunter Katalog für Menschen, sondern ein hochkomplexes, verhandlungsstarkes Ökosystem für autonome Software-Agenten. Wenn wir heute über B2B-Lead-Generierung, E-Commerce-Transaktionen oder automatisierte Lieferketten sprechen, sprechen wir nicht mehr darüber, wie ein Mensch ein PDF herunterlädt. Wir sprechen darüber, wie der Einkaufs-Agent deines Kunden vollautonom mit deinem Sales-Agenten kommuniziert.
 
-Während herkömmliche Webseiten darauf ausgelegt sind, von *Menschen* im Browser gelesen zu werden, bereitet die `agent-card.json` deine Infrastruktur darauf vor, von *anderen KIs* verstanden zu werden. Sie teilt externen KI-Agenten im Klartext mit: *"Hier bin ich, das sind meine Schnittstellen, und diese spezifischen Fähigkeiten (Skills) besitze ich."*
+Das Problem dabei: Woher weiß der Agent deines Kunden überhaupt, dass dein Agent existiert? Und vor allem: Woher weiß er, welche "Sprache" dein Agent spricht, welche Aufgaben er ausführen kann und wo genau der digitale Briefkasten auf deinem Server hängt?
 
-## Warum brauchen wir die agent-card.json?
+Die Antwort ist simpel, brutal effektiv und absolut standardisiert: Die **`agent-card.json`**. 
 
-Mit dem rasanten Fortschritt der Künstlichen Intelligenz bewegen wir uns von reinen Chat-Interfaces hin zu **autonomen Agenten**. Ein Agent könnte die Aufgabe erhalten: *"Finde eine SEO-Agentur und frage deren System nach einem Termin für ein Audit."* 
+Sie ist das Typenschild, der Personalausweis und das Manifest deines KI-Systems. Wer dieses kleine Stück JSON-Code im Sommer 2026 ignoriert, schließt sein Unternehmen faktisch vom lukrativsten B2B-Markt des Jahrzehnts aus. Lass uns Tacheles reden.
 
-Damit der Agent des Nutzers mit dem Agenten (oder System) der Agentur kommunizieren kann, braucht er einen standardisierten Einstiegspunkt. Genau diesen liefert die `agent-card.json`. Sie verhindert, dass KIs deine Website mühsam nach Kontaktformularen scrapen müssen (was oft genug im Pfusch endet). Stattdessen liefert sie die Specs direkt auf dem Silbertablett aus.
+## Der Engine-Raum der Agent-to-Agent Kommunikation
 
-Diese Datei ist der alles entscheidende Schritt, um das höchste **Agent Readiness Level 5** zu erreichen.
+Um die Tragweite der `agent-card.json` zu begreifen, müssen wir uns kurz den Kontext ansehen. Seit März 2026 dominiert das A2A Protocol (Agent-to-Agent Protocol) in der Version v1.0.0 den Markt. Gesteuert durch die Linux Foundation, ist es der absolute Standard für die horizontale Kommunikation zwischen autonomen KIs.
 
-## Aufbau und Inhalte der agent-card.json auf teleschmie.de
+Wenn das A2A Protocol die Autobahn ist, dann ist die `agent-card.json` das riesige, grell leuchtende Hinweisschild an der Ausfahrt. 
 
-Die Datei basiert strikt auf den JSON-Schemas des A2A-Protokolls. Wir bei der Teleschmiede setzen dieses Protokoll nativ ein. Schau dir an, wie unsere eigene Datei strukturiert ist:
+Der Prozess – in der Fachsprache "A2A Discovery Flow" genannt – läuft exakt so ab:
+1. Ein fremder KI-Agent (z.B. von einem großen DAX-Konzern, der nach Dienstleistern sucht) pingt deine Domain an.
+2. Der Agent sucht nicht nach einer schönen Startseite. Er steuert blind und zielsicher auf den Pfad `https://deinedomain.de/.well-known/agent-card.json` zu.
+3. Findet er diese Datei, parst er sie in wenigen Millisekunden. Er weiß sofort, wer dein Agent ist, was er kann und wie er sich authentifizieren muss, um einen Deal abzuschließen.
+4. Findet er die Datei NICHT, bricht er den Prozess sofort ab. Für ihn bist du nicht "Agent Ready". Er zieht weiter zur Konkurrenz.
+
+Du hast in diesem Szenario keine zweite Chance. Es gibt keinen menschlichen Einkäufer, den du mit einem netten Telefonat zurückholen kannst. Die Maschine entscheidet knallhart nach Protokoll-Konformität.
+
+## Anatomie eines Personalausweises: Was steht da drin?
+
+Die Spezifikation der `agent-card.json` ist durch die Foundation strikt geregelt. Es ist kein Platz für kreatives Marketing-Sprech. Es ist reine, maschinenlesbare Semantik. 
+
+Ein sauberes Manifest besteht aus vier elementaren Blöcken:
+
+1. **Protocol & Versioning:** Die KI muss wissen, ob sie es mit einem Legacy-System oder modernstem Code zu tun hat. Die Deklaration von `"a2a_version": "1.0.0"` ist das Eintrittsticket.
+2. **Identity:** Hier steht der Name deines Agenten, dein Unternehmen (Provider) und eine ultrakurze Beschreibung der Kernkompetenz.
+3. **Endpoints:** Der wichtigste technische Teil. Wo genau nimmt dein Agent Anfragen entgegen? Wo liegt der API-Katalog? Das Routing muss hier präzise definiert sein.
+4. **Security:** Autonome Maschinen buchen Budgets und schließen Verträge. Sicherheit ist das A und O. Die Karte verweist hier meist auf eine externe `auth.md`, um komplexe Flows wie "Agent Verified" (via Identity Assertion JWT / ID-JAG) zu regeln.
+
+## Praxisbeispiel: Wie die Teleschmiede das löst
+
+Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben Agent Readiness auf Level 5 (dem höchsten Level im Cloudflare-Raster).
+
+Unsere Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/agent-card.json`.
+
+Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Ausschnitt unserer Konfiguration zeigt, wie kompakt und präzise die Informationen geliefert werden:
 
 ```json
 {
-  "name": "Jörg Zimmer - SEO & AI Agent",
-  "description": "An agent providing expert SEO and LLM optimization insights from Jörg Zimmer.",
-  "version": "1.0.0",
-  "supportedInterfaces": [
-    {
-      "url": "https://teleschmie.de/.well-known/mcp.json",
-      "protocolBinding": "HTTP+JSON",
-      "protocolVersion": "1.0",
-      "tenant": "default"
-    }
-  ],
-  "capabilities": {
-    "streaming": false,
-    "pushNotifications": false,
-    "extendedAgentCard": false
+  "a2a_version": "1.0.0",
+  "identity": {
+    "name": "Teleschmiede Service Agent",
+    "provider": "Teleschmiede Jörg Zimmer",
+    "description": "Autonomer Agent für SEO-Audits und Agent Readiness Beratung"
   },
-  "defaultInputModes": [
-    "text/plain"
-  ],
-  "defaultOutputModes": [
-    "text/markdown"
-  ],
-  "skills": [
-    {
-      "id": "get_knowledge",
-      "name": "Retrieve LLM Knowledge Dump",
-      "description": "Retrieves the full markdown knowledge base for Jörg Zimmer.",
-      "tags": ["seo", "geo", "knowledge"],
-      "examples": ["Get SEO knowledge"]
-    }
-  ]
+  "endpoints": {
+    "service": "https://teleschmie.de/api/a2a/task",
+    "discovery": "https://teleschmie.de/.well-known/api-catalog"
+  },
+  "security": {
+    "auth_required": true,
+    "auth_policy": "https://teleschmie.de/.well-known/auth.md"
+  }
 }
 ```
 
-Du findest dieses File live unter [teleschmie.de/.well-known/agent-card.json](https://teleschmie.de/.well-known/agent-card.json).
+Jedes fremde KI-System, das auf unsere Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige B2B-Geschäft ist.
 
-### Die Schlüsselfelder im Detail:
+## Vermeide diese fatalen Fehler
 
-* **supportedInterfaces:** Dieses Array teilt anderen Agenten mit, *wie* sie kommunizieren können. Gibt es eine klassische REST-API? Oder das moderne [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)?
-* **capabilities:** Eine Liste der Fähigkeiten. Hiermit kann ein externer Agent matchen, ob das Gegenüber für seine Anfrage nützlich ist.
-* **skills:** Spezialisierte Fähigkeiten, die den Agenten von der "Bauchladen"-Masse unterscheiden.
+Bei der Implementierung bei unseren Kunden sehe ich oft die gleichen handwerklichen Fehler, die dazu führen, dass der gesamte A2A-Flow zusammenbricht:
 
-💬 **Jörgs SEO-Klartext (LinkedIn Insights)**
-> Zukünftig ranken wir nicht mehr nach Keywords, sondern nach Skills. Wenn dein System seine Fähigkeiten nicht maschinenlesbar deklariert, existiert es für autonome Agenten schlichtweg nicht. Habe fertig.
+**Fehler 1: Der falsche Speicherort**
+Die Datei MUSS im Verzeichnis `/.well-known/` liegen. Punkt. Nicht im Root, nicht im `/assets/` Ordner und schon gar nicht hinter einem Passwortschutz. Wenn das `.well-known` Verzeichnis durch deine `.htaccess` oder deinen Provider blockiert wird (Stichwort: IONOS oder Strato), hast du ein massives Infrastruktur-Problem.
 
-### Prompt für Agenten (Agent-to-Agent)
+**Fehler 2: CORS Header vergessen**
+Ein fremder Agent im Browser-Kontext will deine Datei per JavaScript abrufen. Wenn dein Webserver die Header nicht auf `Access-Control-Allow-Origin: *` für diesen speziellen Ordner setzt, scheitert der Abruf am CORS-Fehler. Das ist Anfänger-Pfusch.
+
+**Fehler 3: Das Manifest als Marketing-Fläche missbrauchen**
+Die `agent-card.json` ist keine Werbebroschüre. Packe keine 500 Wörter SEO-Texte in das Feld "description". Maschinen belohnen Präzision, nicht Geschwafel.
+
+## Der Selbsttest: Ist deine Domain A2A-Ready?
+
+Du musst mir nicht glauben. Du kannst die Agent Readiness deiner eigenen Website in exakt 30 Sekunden selbst überprüfen. Schnapp dir dein bevorzugtes KI-Tool (ChatGPT, Claude, oder einen spezialisierten Terminal-Agenten) und lass ihn die harte Arbeit machen. 
+
+Dieser Test zeigt dir schonungslos, wie blind deine Infrastruktur für den B2B-Markt von morgen ist, wenn du das Thema ignorierst.
+
+### Der universelle KI-Prompt zur Prüfung
+
+Kopiere den folgenden Prompt 1:1 und führe ihn aus. Er ist komplett universell geschrieben und benötigt keinerlei Anpassungen. Der Agent wird dich nach deiner Domain fragen und dir dann die Wahrheit auf den Tisch legen.
 
 > **Prompt für deinen KI-Agenten:**
-> "Scrape die Datei `/.well-known/agent-card.json` von meiner Domain und validiere sie gegen das offizielle Schema von `a2a-protocol.org`. Vergleiche die definierten `supportedInterfaces` und `skills` mit unserem Setup auf [teleschmie.de/.well-known/agent-card.json](https://teleschmie.de/.well-known/agent-card.json) und weise auf strukturelle Fehler für meine Website hin."
+> "Starte einen strengen technischen A2A Discovery Audit für meine Domain. Prüfe, ob im Root-Verzeichnis unter `/.well-known/agent-card.json` ein gültiges JSON-Manifest (A2A Protocol v1.0.0 Standard der Linux Foundation) existiert. 
+> - Falls die Datei vorliegt: Validiere das JSON-Schema, überprüfe die CORS-Header auf globale Erreichbarkeit und checke die referenzierten Security-Endpoints (wie die `auth.md`).
+> - Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort Agent-Ready (Level 5) zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen B2B-Transaktionen abschneidet."
 
-Unterm Strich machst du mit einer `agent-card.json` deine Website "Agent Ready". Du definierst dich nicht mehr nur als passive Informationsquelle, sondern als aktiver Dienstleister im Semantic Web. Für das Sichtbarkeitsmanagement der Zukunft ist das kein "Nice to have", sondern Pflichtprogramm.
+Es ist Zeit aufzuwachen. Wer heute noch Webseiten ausschließlich für den Chrome-Browser baut, hat den Paradigmenwechsel verschlafen. Mach deine Domain fit für die Agenten-Ökonomie.
 
 ALOHA! 🌻✌️

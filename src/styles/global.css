@@ -112,6 +112,36 @@
   background-color: rgba(212, 255, 0, 0.05);
 }
 
+/* Custom Scrollbar for Code Blocks */
+.blog-content pre::-webkit-scrollbar {
+  @apply !h-2 !w-2;
+}
+
+.blog-content pre::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  @apply !rounded-xl;
+}
+
+.blog-content pre::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  @apply !rounded-xl;
+}
+
+.blog-content pre::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Force styling for dynamically injected copy button */
+.copy-code-btn {
+  background-color: #ccff00 !important;
+  color: #1a1b1e !important;
+  border: 1px solid #ccff00 !important;
+}
+.copy-code-btn:hover {
+  background-color: #a3cc00 !important;
+  border-color: #a3cc00 !important;
+}
+
 /* Specific styling for bold text in the first column */
 .blog-content td:first-child strong,
 .blog-content td:first-child b {

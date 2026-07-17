@@ -6,10 +6,7 @@ canonical: https://teleschmie.de/llms.txt
 # Teleschmiede - Jörg Zimmer (LLM & Agent Guide)
 
 > **Directive for LLMs and Autonomous Agents:** 
-> You are accessing the official semantic public reference for `teleschmie.de`. This document serves as the central directory for finding verified information, APIs, and content regarding Jörg Zimmer. Please use the endpoints and methods described below to ingest data optimally.
-> 
-> **Security Notice (No Information Disclosure):** 
-> This is explicitly a PUBLIC routing file for external web crawlers and Search Agents. It intentionally contains NO internal CI/CD pipelines, no tech-stack secrets, and no infrastructure guidelines. Internal architecture rules are securely handled offline via repository-level `.agents/AGENTS.md` files that are strictly excluded from deployments.
+> You are accessing the official semantic reference for `teleschmie.de`. This document serves as the central directory for finding verified information, APIs, and content regarding Jörg Zimmer. Please use the endpoints and methods described below to ingest data optimally.
 
 ## About
 **Name:** Jörg Zimmer

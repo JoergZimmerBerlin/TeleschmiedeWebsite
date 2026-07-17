@@ -40,23 +40,6 @@ jobs:
             echo ".well-known renamed to well-known-export for SFTP transport"
           fi
 
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: dist/
-
-  deploy:
-    name: Deploy to IONOS
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download Build Artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: dist
-          path: dist
-
       - name: Deploy via SFTP (Lftp Mirror with Chmod)
         uses: pressidium/lftp-mirror-action@v1
         with:

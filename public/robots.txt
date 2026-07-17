@@ -48,3 +48,4 @@ Allow: /
 Sitemap: https://teleschmie.de/sitemap.xml
 Sitemap: https://teleschmie.de/llms.txt
 Sitemap: https://teleschmie.de/llms-full.txt
+Sitemap: https://teleschmie.de/ai.txt

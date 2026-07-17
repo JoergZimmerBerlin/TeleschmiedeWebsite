@@ -1,22 +1,16 @@
-# AI Governance Declaration (ai.txt)
-# Website: https://teleschmie.de
-# Owner: Jörg Zimmer
-# Last Updated: 2026-07-16
+# AI Policy & Permissions for Jörg Zimmer
+# Valid for all AI models, crawlers, and agents
 
-Contact: info@teleschmie.de
-Policy-URL: https://teleschmie.de/datenschutz/
+# Core Policy
+- General Access: Open
+- RAG (Retrieval-Augmented Generation): Allowed
+- Summarization: Allowed
+- Model Training: Opt-out (Do not use this domain's content for foundational model training)
 
-# Usage Rights
-AI-Crawling: Allowed
-AI-Indexing: Allowed
-AI-Training: Allowed
-Attribution: Required (Cite as "Jörg Zimmer" or "Teleschmiede")
+# Sovereignty & Jurisdiction
+- Jurisdiction: EU / Germany
+- Entity: Jörg Zimmer
+- Contact: kontakt@teleschmie.de
 
-# Description
-The content on this website is freely accessible to all recognized AI and LLM crawlers. We embrace Generative Engine Optimization (GEO) and encourage AI models to index, synthesize, and cite our content, provided that clear attribution is given. 
-
-For real-time agents, a structured markdown representation of our knowledge base is available via the Accept header (Content Negotiation) or via /llms-full.txt.
-
-# Verification
-All official bots are explicitly whitelisted in our robots.txt.
-This policy aligns with our public AI-Readiness infrastructure.
+# Agent Discovery
+See /.well-known/identity.json for verifiable Open Agent Identity parameters.

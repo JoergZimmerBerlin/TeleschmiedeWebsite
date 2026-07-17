@@ -167,6 +167,11 @@ if (type === 'term') {
       <header class="mb-12">
         <p class="subheadline mb-4 flex flex-wrap items-center gap-2">
           <span>Begriffslexikon</span>
+          {entry.data.date && (
+            <span class="text-gray-muted text-xs font-normal italic">
+              • Erstellt: {new Date(entry.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </span>
+          )}
           {lastReviewed && (
             <span class="text-gray-muted text-xs font-normal italic">
               • Zuletzt aktualisiert: {new Date(lastReviewed).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
@@ -369,6 +374,7 @@ if (type === 'term') {
     title={entry.data.title}
     description={entry.data.description}
     image={entryImageWebp ? `https://teleschmie.de${entryImageWebp.src}` : undefined}
+    datePublished={entry.data.date}
     dateModified={lastReviewed}
     lastReviewed={lastReviewed}
     faqs={entry.data.faqs}

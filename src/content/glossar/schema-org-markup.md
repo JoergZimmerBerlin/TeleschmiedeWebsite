@@ -47,7 +47,7 @@ Das Problem vieler Agenturen: Sie klatschen ein Plugin drauf, das stupide ein pa
 
 Durch die intensive Nutzung von IDs (`@id`) verknüpfst du Entitäten zu einem logischen Baum. 
 Ein Beispiel, wie das auf `teleschmie.de` aussieht:
-Dieser Blogartikel ist Teil eines Themen-Clusters (`isPartOf`), geschrieben von der `Person` [Jörg Zimmer](/seo-freelancer-berlin/), die wiederum Gründer der `Organization` Teleschmiede ist. Und Jörg Zimmer verknüpfen wir via `sameAs` hart mit seinem LinkedIn-Profil und seinem Wikidata-Eintrag. 
+Dieser Blogartikel ist Teil eines Themen-Clusters (`isPartOf`), geschrieben von der `Person` [Jörg Zimmer](/seo-freelancer-berlin/). Und Jörg Zimmer verknüpfe ich via `sameAs` hart mit seinem LinkedIn-Profil und seinem Wikidata-Eintrag. 
 
 *Das* ist Entity Depth. Dieses dichte Netz aus unwiderlegbaren Fakten ist genau das, was eine KI als "wahre Autorität" wahrnimmt.
 
@@ -66,7 +66,7 @@ Dein Schema-Markup dient hier als "Fakten-Anker". Du lieferst den RAG-Architektu
 
 Schema.org ist 2026 die mit Abstand wichtigste Brücke zwischen deiner Website und der Welt der autonomen KI-Agenten. Es ist die unsichtbare Architektur deines digitalen Erfolgs. Wer lernt, das Schema-Vokabular strategisch zur **Disambiguierung** einzusetzen, baut keine dumme Website mehr, sondern eine unerschütterliche digitale Entität. 
 
-Mit starken Audit-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir deine technische Basis und stellen sicher, dass dein JSON-LD-Markup nicht nur vorhanden, sondern auch verschachtelt und effektiv ist.
+Mit starken Audit-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditiere ich deine technische Basis und stelle sicher, dass dein JSON-LD-Markup nicht nur vorhanden, sondern auch verschachtelt und effektiv ist.
 
 ## Mein Tacheles-Rat für dich
 
@@ -79,7 +79,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für KI-Agenten noch völlig 'stumm'?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditieren wir die Basis, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine gnadenlose KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auditiere ich die Basis, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichere ich deine gnadenlose KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt knallhartes Schema-Audit anfragen </a>
 </div>
 

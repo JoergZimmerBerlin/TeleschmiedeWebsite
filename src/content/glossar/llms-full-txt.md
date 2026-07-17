@@ -25,7 +25,7 @@ Die normale llms.txt ist dein Türöffner. Sie ist der freundliche Handshake. Ab
 Wer vollständige Agent Readiness will, kommt an diesem Deep-Knowledge-Repository nicht vorbei. Lass uns Tacheles reden.
 
 ### Der Unterschied: Inhaltsverzeichnis vs. Bibliothek
-Ich erkläre das meinen Kunden in der Teleschmiede immer so: Stell dir vor, du stehst in einer riesigen Universitätsbibliothek. Die klassische `llms.txt` ist der kleine Lageplan an der Eingangstür. Da steht drauf: "Rechts geht's zur Mathematik, links zur Geschichte." Super praktisch für die schnelle Orientierung. 
+Ich erkläre das meinen Kunden immer so: Stell dir vor, du stehst in einer riesigen Universitätsbibliothek. Die klassische `llms.txt` ist der kleine Lageplan an der Eingangstür. Da steht drauf: "Rechts geht's zur Mathematik, links zur Geschichte." Super praktisch für die schnelle Orientierung. 
 
 Aber die `llms-full.txt`? Das ist die gesamte Bibliothek, komprimiert in ein maschinenlesbares Format, befreit von all dem Staub und den schweren Ledereinbänden. Sie ist das pure, unverdünnte Wissen deiner Domain, aufbereitet für A2A-Protokolle (Agent-to-Agent).
 
@@ -59,7 +59,7 @@ Ich höre es schon wieder in den Facebook-Gruppen der selbsternannten SEO-Gurus:
 
 Wenn du tausende von URLs hast, muss diese Datei dynamisch generiert werden. Sie muss sich in Echtzeit aktualisieren, wenn du einen neuen Artikel publizierst. Deine Server-Architektur muss so aufgebaut sein, dass sie A2A-Protokolle versteht. Die Bots müssen wissen: "Ah, hier ist ein Unternehmen, das 2026 angekommen ist. Hier bekommen wir saubere, strukturierte JSON- oder Markdown-Files geliefert." 
 
-Das ist echtes Engineering. Das ist der Grund, warum wir bei der Teleschmiede Websites nicht mehr für Browser optimieren, sondern von Grund auf als maschinenlesbare Endpunkte konzipieren. 
+Das ist echtes Engineering. Das ist der Grund, warum ich auf teleschmie.de Websites nicht mehr für Browser optimiere, sondern von Grund auf als maschinenlesbare Endpunkte konzipiere. 
 
 ### Tacheles zum Schluss
 Die Schonzeit ist vorbei. Wer im Juli 2026 noch diskutiert, ob er eine `llms-full.txt` braucht, kann auch gleich sein Faxgerät wieder anschließen und hoffen, dass Kunden darüber Bestellungen aufgeben. 
@@ -72,7 +72,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Überfordert von Deep Grounding?</h3>
-  <p class="mb-6">Das ist normal. Den kompletten Content maschinenlesbar aufzubereiten, ist ein dreckiger Job. Wir machen ihn für dich. Wir sorgen für vollständige Agent Readiness, bauen dir astreine A2A-Protokolle und verwandeln deine Domain in ein KI-Wissens-Imperium.</p>
+  <p class="mb-6">Das ist normal. Den kompletten Content maschinenlesbar aufzubereiten, ist ein dreckiger Job. Ich mache ihn für dich. Ich sorge für vollständige Agent Readiness, baue dir astreine A2A-Protokolle und verwandle deine Domain in ein KI-Wissens-Imperium.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">KI-Strategie-Gespräch buchen </a>
 </div>
 

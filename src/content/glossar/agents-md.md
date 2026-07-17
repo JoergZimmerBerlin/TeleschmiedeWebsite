@@ -70,16 +70,16 @@ Es ist sicherheitstechnisch ein absoluter Albtraum, eine unzensierte `AGENTS.md`
 1. **Im Code-Repository (Git):** Hier liegt deine detaillierte, architektur-spezifische `AGENTS.md` für deine Entwickler und internen Coding-Agenten. Diese Datei wird beim Deployment **ignoriert** und geht niemals live!
 2. **Auf dem Live-Server (Website):** Wenn du für externe Web-Crawler und Search Agents Guidelines bereitstellen willst, nutze dafür die dafür vorgesehenen, sicheren öffentlichen Formate wie die [llms.txt](/glossar/llms-txt/) oder die [ai.txt](/glossar/ai-txt/). Solltest du zwingend eine `AGENTS.md` öffentlich hosten wollen, darf diese **ausschließlich** redaktionelle Public-Anweisungen (Tonality, Brand-Guidelines) enthalten – niemals Infrastruktur-Details!
 
-## Praxisbeispiel: So steuern wir Agenten in der Teleschmiede
+## Praxisbeispiel: So steuere ich Agenten auf teleschmie.de
 
-Ich bin ein Fan davon, die Dinge in der Praxis zu zeigen, nicht nur auf PowerPoint-Folien. In der Teleschmiede setzen wir für jeden Kunden und für jedes interne Projekt eigene Agenten ein. Unsere `AGENTS.md` ist der Grund, warum unsere Agenten hochpräzise arbeiten und keinen Bullshit generieren.
+Ich bin ein Fan davon, die Dinge in der Praxis zu zeigen, nicht nur auf PowerPoint-Folien. Auf teleschmie.de setze ich für jeden Kunden und für jedes interne Projekt eigene Agenten ein. Meine `AGENTS.md` ist der Grund, warum meine Agenten hochpräzise arbeiten und keinen Bullshit generieren.
 
-Schau dir unsere Architektur an. Wir nutzen keine doppelten Konfigurationen mehr, wir setzen zu 100% auf den Standard der Agentic AI Foundation.
+Schau dir meine Architektur an. Ich nutze keine doppelten Konfigurationen mehr, ich setze zu 100% auf den Standard der Agentic AI Foundation.
 
-Hier ist ein stark gekürzter Auszug aus einer unserer Live-Dateien:
+Hier ist ein stark gekürzter Auszug aus einer meiner Live-Dateien:
 
 ```markdown
-# AGENTS.md - Teleschmiede Projekt-Leitplanken
+# AGENTS.md - Jörg Zimmer Projekt-Leitplanken
 
 ## 1. Tech-Stack & Architektur
 - Frontend: Astro (Strict Mode). Keine React-Komponenten, es sei denn explizit gefordert.

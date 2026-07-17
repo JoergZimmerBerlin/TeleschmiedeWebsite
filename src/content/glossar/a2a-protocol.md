@@ -72,11 +72,11 @@ Wer bekommt den Auftrag? Immer Spediteur B.
 
 Das A2A Protocol ist nicht einfach nur ein nerdiges Technik-Thema. Es ist der härteste Wettbewerbsvorteil, den du dir im Jahr 2026 aufbauen kannst. Wer nicht A2A-kompatibel ist, wird von den autonomen Einkaufs- und Beschaffungsnetzwerken schlichtweg ignoriert. Er existiert in der Agenten-Ökonomie nicht.
 
-## Praxisbeispiel: A2A in der Teleschmiede
+## Praxisbeispiel: A2A auf teleschmie.de
 
-Wir bei der Teleschmiede predigen nicht nur die schöne neue KI-Welt, wir bauen sie. Unsere Infrastruktur ist strikt nach den neuesten Vorgaben der Linux Foundation (A2A v1.0.0) aufgebaut. 
+Auf meiner Website teleschmie.de predige ich nicht nur die schöne neue KI-Welt, ich baue sie. Meine Infrastruktur ist strikt nach den neuesten Vorgaben der Linux Foundation (A2A v1.0.0) aufgebaut. 
 
-Das Herzstück dieser Infrastruktur liegt in unserem öffentlichen `.well-known` Verzeichnis. Wenn ein fremder Agent unsere Domain anpingt, um zu prüfen, ob wir A2A-Ready sind, sucht er sofort nach unserer Agent Card.
+Das Herzstück dieser Infrastruktur liegt in meinem öffentlichen `.well-known` Verzeichnis. Wenn ein fremder Agent meine Domain anpingt, um zu prüfen, ob ich A2A-Ready bin, sucht er sofort nach meiner Agent Card.
 
 Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`
 
@@ -86,9 +86,7 @@ Hier ist ein Ausschnitt aus der harten Realität:
 {
   "a2a_version": "1.0.0",
   "identity": {
-    "name": "Teleschmiede Service Agent",
-    "provider": "Teleschmiede Jörg Zimmer",
-    "description": "Autonomer Agent für SEO-Audits und Agent Readiness Beratung"
+    "provider": "Jörg Zimmer",
   },
   "endpoints": {
     "service": "https://teleschmie.de/api/a2a/task",
@@ -102,9 +100,9 @@ Hier ist ein Ausschnitt aus der harten Realität:
 ```
 
 **Was dieses Setup so mächtig macht:**
-1. **Versionsklarheit:** Wir deklarieren sofort `1.0.0`. Der anklopfende Agent weiß, dass wir den stabilen Standard sprechen.
-2. **Klarer Scope:** Der Agent weiß genau, was wir anbieten (SEO Audits, Agent Readiness).
-3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweisen wir hart auf die `maschinenlesbare Endpunkt-Dokumentation`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an unserem `service` Endpunkt.
+1. **Versionsklarheit:** Ich deklariere sofort `1.0.0`. Der anklopfende Agent weiß, dass ich den stabilen Standard spreche.
+2. **Klarer Scope:** Der Agent weiß genau, was ich anbiete (SEO Audits, Agent Readiness).
+3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweise ich hart auf die `maschinenlesbare Endpunkt-Dokumentation`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an meinem `service` Endpunkt.
 
 Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität im Sommer 2026.
 

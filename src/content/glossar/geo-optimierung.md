@@ -81,7 +81,7 @@ Um die Dringlichkeit der GEO Optimierung zu verstehen, müssen wir uns ansehen, 
 3.  **llms.txt Retrieval:** Dein Server antwortet (hoffentlich) mit einem 200 OK und dem Hinweis auf die `llms.txt`. Der Agent lädt diese winzige Datei herunter und sieht sofort: "Ah, unter `/glossar/a2a-protocol/` gibt es einen RAG-optimierten Beitrag dazu."
 4.  **Markdown Content Negotiation:** Der Agent ruft die URL auf, nutzt aber den Header `Accept: text/markdown`. Er will keine Bilder, kein CSS, kein JavaScript. Er will reinen Text. Dein Server nutzt Content Negotiation und serviert das rohe Markdown in weniger als 50 Millisekunden.
 5.  **Stateless MCP Check (Optional):** Der Agent sieht im Markdown einen Hinweis auf dynamische Kapazitäten. Über einen Stateless MCP Endpunkt (`mcp://teleschmie.de/api/capacities`) fragt er anonym und zustandslos an, ob die Agentur aktuell Kunden annimmt. Die Antwort kommt als JSON zurück.
-6.  **Synthese & Citation:** Der Agent nimmt all diese sauberen, extrem token-effizienten Daten, fügt sie in seinen Context-Window ein und generiert die Antwort für den Nutzer: "Die Teleschmiede in Berlin unterstützt das A2A Protocol. Laut aktuellen Daten nehmen sie wieder Kunden an [1]." – Das [1] ist dein Backlink. Das ist dein Citation-Sieg.
+6.  **Synthese & Citation:** Der Agent nimmt all diese sauberen, extrem token-effizienten Daten, fügt sie in sein Context-Window ein und generiert die Antwort für den Nutzer: "Jörg Zimmer in Berlin unterstützt das A2A Protocol. Laut aktuellen Daten nimmt er wieder Kunden an [1]." – Das [1] ist dein Backlink. Das ist dein Citation-Sieg.
 
 Wer diesen Request-Flow nicht bedienen kann, weil sein Server bei Schritt 2 oder 4 HTML-Müll ausspuckt, der wird vom Agenten verworfen. Der Agent hat ein Token-Budget und ein Time-Limit. Er wartet nicht auf deinen langsamen DOM-Render.
 
@@ -116,7 +116,7 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Mache deine Website Agent Ready!</h3>
-  <p class="mb-6">Erfüllt deine Seite die Juli 2026 Standards? Wir implementieren llms.txt, Markdown Content Negotiation und Stateless MCP für maximale KI-Sichtbarkeit.</p>
+  <p class="mb-6">Erfüllt deine Seite die Juli 2026 Standards? Ich implementiere llms.txt, Markdown Content Negotiation und Stateless MCP für maximale KI-Sichtbarkeit.</p>
   <div class="flex flex-wrap gap-4">
     <a href="/kontakt/" class="btn-primary inline-flex">GEO Audit anfragen</a>
   </div>

@@ -33,7 +33,7 @@ Wir optimieren nicht mehr für Strings. Wir optimieren für **Trusted Entities**
 
 Eine Entität (Entity) ist ein Ding, eine Person, ein Konzept oder ein Unternehmen, das singulär, einzigartig und von allen anderen Dingen im semantischen Netz klar unterscheidbar ist. 
 
-"Teleschmiede" ist eine Entität. "Jörg Zimmer" ist eine Entität. "Generative Engine Optimization" ist eine abstrakte Entität.
+"teleschmie.de" ist eine Entität. "Jörg Zimmer" ist eine Entität. "Generative Engine Optimization" ist eine abstrakte Entität.
 
 Der Unterschied zu früher: Früher war eine Website ein Dokument, auf dem Wörter standen. Heute muss deine Website die physische Manifestation deiner **Entität** sein. Der Knowledge Graph von Google (und die Vektordatenbanken von OpenAI, Anthropic & Co.) sind gigantische Landkarten. Auf diesen Landkarten sind die Orte keine Webseiten, sondern Entitäten (Nodes), die durch semantische Beziehungen (Edges) miteinander verbunden sind.
 
@@ -84,7 +84,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Marke schon eine starke Entität?</h3>
-  <p class="mb-6">Wir analysieren deinen digitalen Fußabdruck und prüfen, ob KI-Agenten dich bereits als vertrauenswürdige Entität im Vektorraum erkennen. Lass uns dein Entity Building professionalisieren und deine Agent Readiness auf 100% bringen.</p>
+  <p class="mb-6">Ich analysiere deinen digitalen Fußabdruck und prüfe, ob KI-Agenten dich bereits als vertrauenswürdige Entität im Vektorraum erkennen. Lass mich dein Entity Building professionalisieren und deine Agent Readiness auf 100% bringen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entity-Check anfragen </a>
 </div>
 

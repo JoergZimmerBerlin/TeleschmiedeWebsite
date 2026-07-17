@@ -476,11 +476,11 @@ Wer bekommt den Auftrag? Immer Spediteur B.
 
 Das A2A Protocol ist nicht einfach nur ein nerdiges Technik-Thema. Es ist der härteste Wettbewerbsvorteil, den du dir im Jahr 2026 aufbauen kannst. Wer nicht A2A-kompatibel ist, wird von den autonomen Einkaufs- und Beschaffungsnetzwerken schlichtweg ignoriert. Er existiert in der Agenten-Ökonomie nicht.
 
-## Praxisbeispiel: A2A in der Teleschmiede
+## Praxisbeispiel: A2A auf teleschmie.de
 
-Wir bei der Teleschmiede predigen nicht nur die schöne neue KI-Welt, wir bauen sie. Unsere Infrastruktur ist strikt nach den neuesten Vorgaben der Linux Foundation (A2A v1.0.0) aufgebaut. 
+Auf meiner Website teleschmie.de predige ich nicht nur die schöne neue KI-Welt, ich baue sie. Meine Infrastruktur ist strikt nach den neuesten Vorgaben der Linux Foundation (A2A v1.0.0) aufgebaut. 
 
-Das Herzstück dieser Infrastruktur liegt in unserem öffentlichen `.well-known` Verzeichnis. Wenn ein fremder Agent unsere Domain anpingt, um zu prüfen, ob wir A2A-Ready sind, sucht er sofort nach unserer Agent Card.
+Das Herzstück dieser Infrastruktur liegt in meinem öffentlichen `.well-known` Verzeichnis. Wenn ein fremder Agent meine Domain anpingt, um zu prüfen, ob ich A2A-Ready bin, sucht er sofort nach meiner Agent Card.
 
 Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`
 
@@ -490,9 +490,7 @@ Hier ist ein Ausschnitt aus der harten Realität:
 {
   "a2a_version": "1.0.0",
   "identity": {
-    "name": "Teleschmiede Service Agent",
-    "provider": "Teleschmiede Jörg Zimmer",
-    "description": "Autonomer Agent für SEO-Audits und Agent Readiness Beratung"
+    "provider": "Jörg Zimmer",
   },
   "endpoints": {
     "service": "https://teleschmie.de/api/a2a/task",
@@ -506,9 +504,9 @@ Hier ist ein Ausschnitt aus der harten Realität:
 ```
 
 **Was dieses Setup so mächtig macht:**
-1. **Versionsklarheit:** Wir deklarieren sofort `1.0.0`. Der anklopfende Agent weiß, dass wir den stabilen Standard sprechen.
-2. **Klarer Scope:** Der Agent weiß genau, was wir anbieten (SEO Audits, Agent Readiness).
-3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweisen wir hart auf die `maschinenlesbare Endpunkt-Dokumentation`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an unserem `service` Endpunkt.
+1. **Versionsklarheit:** Ich deklariere sofort `1.0.0`. Der anklopfende Agent weiß, dass ich den stabilen Standard spreche.
+2. **Klarer Scope:** Der Agent weiß genau, was ich anbiete (SEO Audits, Agent Readiness).
+3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweise ich hart auf die `maschinenlesbare Endpunkt-Dokumentation`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an meinem `service` Endpunkt.
 
 Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität im Sommer 2026.
 
@@ -689,20 +687,20 @@ Ein sauberes Manifest besteht aus vier elementaren Blöcken:
 3. **Endpoints:** Der wichtigste technische Teil. Wo genau nimmt dein Agent Anfragen entgegen? Wo liegt der API-Katalog? Das Routing muss hier präzise definiert sein.
 4. **Security:** Autonome Maschinen buchen Budgets und schließen Verträge. Sicherheit ist das A und O. Die Karte verweist hier meist auf eine externe `maschinenlesbare Endpunkt-Dokumentation`, um komplexe Flows wie "Agent Verified" (via Identity Assertion JWT / ID-JAG) zu regeln.
 
-## Praxisbeispiel: Wie die Teleschmiede das löst
+## Praxisbeispiel: Wie ich das löse
 
-Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben eine vollständige Agent Readiness (dem höchsten Level im Cloudflare-Raster).
+Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Auf teleschmie.de optimiere ich meine eigene Infrastruktur genauso hart wie die meiner Kunden. Ich betreibe eine vollständige Agent Readiness (dem höchsten Level im Cloudflare-Raster).
 
-Unsere Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`.
+Meine Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`.
 
-Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Ausschnitt unserer Konfiguration zeigt, wie kompakt und präzise die Informationen geliefert werden:
+Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Ausschnitt meiner Konfiguration zeigt, wie kompakt und präzise die Informationen geliefert werden:
 
 ```json
 {
   "a2a_version": "1.0.0",
   "identity": {
-    "name": "Teleschmiede Service Agent",
-    "provider": "Teleschmiede Jörg Zimmer",
+    "name": "Service Agent",
+    "provider": "Jörg Zimmer",
     "description": "Autonomer Agent für SEO-Audits und Agent Readiness Beratung"
   },
   "endpoints": {
@@ -716,11 +714,11 @@ Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Aus
 }
 ```
 
-Jedes fremde KI-System, das auf unsere Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige Geschäft ist.
+Jedes fremde KI-System, das auf meine Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige Geschäft ist.
 
 ## Vermeide diese fatalen Fehler
 
-Bei der Implementierung bei unseren Kunden sehe ich oft die gleichen handwerklichen Fehler, die dazu führen, dass der gesamte A2A-Flow zusammenbricht:
+Bei der Implementierung bei meinen Kunden sehe ich oft die gleichen handwerklichen Fehler, die dazu führen, dass der gesamte A2A-Flow zusammenbricht:
 
 **Fehler 1: Der falsche Speicherort**
 Die Datei MUSS im Verzeichnis `/.well-known/` liegen. Punkt. Nicht im Root, nicht im `/assets/` Ordner und schon gar nicht hinter einem Passwortschutz. Wenn das `.well-known` Verzeichnis durch deine `.htaccess` oder deinen Provider blockiert wird (Stichwort: IONOS oder Strato), hast du ein massives Infrastruktur-Problem.
@@ -791,7 +789,7 @@ Hier beginnt die Profiliga. In dieser Phase unterstützt deine Website Formate, 
 Deine Infrastruktur ist jetzt eine Plattform. Du hast API-Kataloge und [MCP-Server-Definitionen](https://teleschmie.de/glossar/model-context-protocol-mcp/) in deinem `.well-known` Ordner hinterlegt. Ein anklopfender Agent sieht nicht nur Content, sondern er sieht die Werkzeuge (Tools) und Datenbanken, die du für autorisierte Systeme freigibst.
 
 ### Die Königsklasse: Volle Autonomie (Agent-Native)
-Die absolute Spitze! Die Website ist voll an das [A2A-Protokoll](https://teleschmie.de/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `standardisierte Agent-Identity-Schnittstellen` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `maschinenlesbare Endpunkt-Dokumentation` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das bauen wir in der Teleschmiede für unsere Kunden.
+Die absolute Spitze! Die Website ist voll an das [A2A-Protokoll](https://teleschmie.de/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `standardisierte Agent-Identity-Schnittstellen` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `maschinenlesbare Endpunkt-Dokumentation` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das baue ich für meine Kunden.
 
 ## Warum ist die volle Agent-Kompatibilität so überlebenswichtig?
 
@@ -806,14 +804,14 @@ Stell dir vor, du bist ein Dienstleister. Ein potenzieller Kunde nutzt im Juli 2
 
 Dienstleister B bekommt den Auftrag. Dienstleister A hat nicht einmal mitbekommen, dass er überhaupt auf dem Radar war. Das ist die brutale Realität von Agent Readiness.
 
-## Praxisbeispiel: Die Infrastruktur der Teleschmiede
+## Praxisbeispiel: Meine Infrastruktur auf teleschmie.de
 
-Ich rede hier nicht von abstrakten Konzepten. Schau dir unsere eigene Domain an. Die Teleschmiede ist eine Blaupause für Agent Readiness in Deutschland. Wir haben das Fundament so gegossen, dass wir für jedes Agenten-System der Zukunft gerüstet sind.
+Ich rede hier nicht von abstrakten Konzepten. Schau dir meine eigene Domain an. teleschmie.de ist eine Blaupause für Agent Readiness in Deutschland. Ich habe das Fundament so gegossen, dass ich für jedes Agenten-System der Zukunft gerüstet bin.
 
-Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysiere einfach unseren öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
-Dort findest du unsere `standardisierte Agent-Identity-Schnittstellen`, unsere `maschinenlesbare Endpunkt-Dokumentation`, unsere OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
+Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysiere einfach meinen öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
+Dort findest du meine `standardisierte Agent-Identity-Schnittstellen`, meine `maschinenlesbare Endpunkt-Dokumentation`, meine OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
 
-Wir nutzen diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Wir reduzieren Reibungsverluste im Vertrieb auf null, indem wir Maschinen die Vorarbeit leisten lassen, auf die ohnehin kein Mitarbeiter Lust hat.
+Ich nutze diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Ich reduziere Reibungsverluste im Vertrieb auf null, indem ich Maschinen die Vorarbeit leisten lasse, auf die ohnehin kein Mitarbeiter Lust hat.
 
 ## Der gnadenlose Selbsttest für Entscheider
 
@@ -890,16 +888,16 @@ Es ist sicherheitstechnisch ein absoluter Albtraum, eine unzensierte `AGENTS.md`
 1. **Im Code-Repository (Git):** Hier liegt deine detaillierte, architektur-spezifische `AGENTS.md` für deine Entwickler und internen Coding-Agenten. Diese Datei wird beim Deployment **ignoriert** und geht niemals live!
 2. **Auf dem Live-Server (Website):** Wenn du für externe Web-Crawler und Search Agents Guidelines bereitstellen willst, nutze dafür die dafür vorgesehenen, sicheren öffentlichen Formate wie die [llms.txt](https://teleschmie.de/glossar/llms-txt/) oder die [ai.txt](https://teleschmie.de/glossar/ai-txt/). Solltest du zwingend eine `AGENTS.md` öffentlich hosten wollen, darf diese **ausschließlich** redaktionelle Public-Anweisungen (Tonality, Brand-Guidelines) enthalten – niemals Infrastruktur-Details!
 
-## Praxisbeispiel: So steuern wir Agenten in der Teleschmiede
+## Praxisbeispiel: So steuere ich Agenten auf teleschmie.de
 
-Ich bin ein Fan davon, die Dinge in der Praxis zu zeigen, nicht nur auf PowerPoint-Folien. In der Teleschmiede setzen wir für jeden Kunden und für jedes interne Projekt eigene Agenten ein. Unsere `AGENTS.md` ist der Grund, warum unsere Agenten hochpräzise arbeiten und keinen Bullshit generieren.
+Ich bin ein Fan davon, die Dinge in der Praxis zu zeigen, nicht nur auf PowerPoint-Folien. Auf teleschmie.de setze ich für jeden Kunden und für jedes interne Projekt eigene Agenten ein. Meine `AGENTS.md` ist der Grund, warum meine Agenten hochpräzise arbeiten und keinen Bullshit generieren.
 
-Schau dir unsere Architektur an. Wir nutzen keine doppelten Konfigurationen mehr, wir setzen zu 100% auf den Standard der Agentic AI Foundation.
+Schau dir meine Architektur an. Ich nutze keine doppelten Konfigurationen mehr, ich setze zu 100% auf den Standard der Agentic AI Foundation.
 
-Hier ist ein stark gekürzter Auszug aus einer unserer Live-Dateien:
+Hier ist ein stark gekürzter Auszug aus einer meiner Live-Dateien:
 
 ```markdown
-# AGENTS.md - Teleschmiede Projekt-Leitplanken
+# AGENTS.md - Jörg Zimmer Projekt-Leitplanken
 
 ## 1. Tech-Stack & Architektur
 - Frontend: Astro (Strict Mode). Keine React-Komponenten, es sei denn explizit gefordert.
@@ -1000,7 +998,7 @@ Wenn du heute willst, dass dein eigenes KI-Modell auf deine Notion-Datenbank zug
 
 ## Was passiert jetzt mit den alten Dateien?
 
-Wenn ich bei Teleschmiede-Kunden einen Agent Readiness Audit durchführe, sehe ich diese Dateien noch massenhaft auf den Servern liegen. Oftmals von teuren Agenturen im Jahr 2024 für fünfstellige Summen als "KI-Innovation" verkauft und danach nie wieder angefasst.
+Wenn ich bei meinen Kunden einen Agent Readiness Audit durchführe, sehe ich diese Dateien noch massenhaft auf den Servern liegen. Oftmals von teuren Agenturen im Jahr 2024 für fünfstellige Summen als "KI-Innovation" verkauft und danach nie wieder angefasst.
 
 Die Frage lautet immer: *"Herr Zimmer, sollen wir die Datei löschen?"*
 
@@ -1239,7 +1237,6 @@ Warum solltest du sie dann überhaupt anlegen? Aus zwei elementaren Gründen:
 Aktuell (Sommer 2026) führt das European Data Protection Board (EDPB) massive Konsultationen und Prüfungen zum Thema Web-Scraping für Generative AI durch. Im Kern geht es um die Frage: Wann hat ein Website-Betreiber "maschinenlesbar" widersprochen, dass seine Daten für das Training von Modellen genutzt werden dürfen? Die Rechtsprechung, insbesondere in Deutschland und der EU, entwickelt sich rasant in die Richtung, dass ein Opt-Out nach § 44b UrhG zwingend maschinenlesbar erfolgen muss. Die `ai.txt` ist – neben der `robots.txt` – das stärkste juristische Signal, das du senden kannst. Wenn du vor Gericht ziehst, weil ein Milliarden-Konzern deine Daten geklaut hat, ist das Vorhandensein einer `ai.txt` dein bester Beweis für einen proaktiven Widerspruch.
 
 **2. Die Trennung von RAG und Training**
-Die großen, seriösen KI-Anbieter (OpenAI, Anthropic, Google) entwickeln ihre Crawler ständig weiter. Sie verstehen, dass Publisher rebellieren. Wenn du in deiner `robots.txt` den `GPTBot` komplett aussperrst, existierst du für ChatGPT nicht mehr. Wenn ein Kunde fragt "Wer ist die beste SEO-Agentur in Berlin?", wird die Teleschmiede nicht genannt. Das ist fatal. 
 Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fragen eurer Nutzer zu beantworten (RAG), aber ihr dürft sie nicht in eure Basismodelle einbrennen." Auch wenn dieser feine Unterschied technisch von den Crawlern heute noch nicht zu 100% sauber getrennt wird, positionierst du dich als technisch versierter Vorreiter (eine vollständige Agent Readiness).
 
 ## Das "Agent Readiness" Konzept
@@ -1252,15 +1249,15 @@ Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readin
 
 Wenn du als Unternehmen im Unternehmensumfeld sichtbar sein willst, sind die fortgeschrittenen KI-Dateien die absolute Pflicht. Die volle Agent-Kompatibilität ist die Kür, die dir die Leads der Zukunft sichert.
 
-## Praxisbeispiel: Die ai.txt der Teleschmiede
+## Praxisbeispiel: Meine ai.txt auf teleschmie.de
 
-Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Wir bei der Teleschmiede predigen nicht nur Wasser, wir trinken auch Wein. Unsere eigene Infrastruktur ist strikt auf eine vollständige Agent Readiness optimiert.
+Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Ich auf teleschmie.de predige nicht nur Wasser, ich trinke auch Wein. Meine eigene Infrastruktur ist strikt auf eine vollständige Agent Readiness optimiert.
 
-Du kannst unsere Live-Datei jederzeit unter `https://teleschmie.de/ai.txt` einsehen. Sie fungiert als Benchmark für das, was wir auch bei unseren Kunden implementieren.
+Du kannst meine Live-Datei jederzeit unter `https://teleschmie.de/ai.txt` einsehen. Sie fungiert als Benchmark für das, was ich auch bei meinen Kunden implementiere.
 
-### Der Inhalt unserer Live-Datei
+### Der Inhalt meiner Live-Datei
 
-Wir nutzen das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Basis-Informationen zum Autor und Kontakt, gefolgt von den klaren Erlaubnissen (RAG) und den harten Verboten (Training).
+Ich nutze das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Basis-Informationen zum Autor und Kontakt, gefolgt von den klaren Erlaubnissen (RAG) und den harten Verboten (Training).
 
 ```text
 # AI Policy for teleschmie.de
@@ -1289,10 +1286,10 @@ Disallow: Model-Scraping
 ```
 
 **Was passiert hier genau?**
-1. **Klare Kontaktdaten:** Wir zeigen Transparenz. Wenn eine KI-Firma Daten lizensieren will, weiß sie, an wen sie sich wenden muss.
-2. **Die RAG-Freigabe:** Wir sagen explizit "Allow: RAG". Das ist unser SEO-Hebel. Wir wollen, dass Perplexity unsere Artikel liest, wenn ein CMO nach "Beste SEO Strategie 2026" sucht.
-3. **Das Trainings-Verbot:** Hier ziehen wir die rote Linie. "Disallow: Training". Das ist unsere rechtliche Absicherung.
-4. **Cross-Referenzen:** Wir weisen intelligente Agenten direkt auf unsere weiteren Level-5-Dateien hin (`llms.txt` und `standardisierte Agent-Identity-Schnittstellen`). Das ist exzellente Maschinen-Usability.
+1. **Klare Kontaktdaten:** Ich zeige Transparenz. Wenn eine KI-Firma Daten lizensieren will, weiß sie, an wen sie sich wenden muss.
+2. **Die RAG-Freigabe:** Ich sage explizit "Allow: RAG". Das ist mein SEO-Hebel. Ich will, dass Perplexity meine Artikel liest, wenn ein CMO nach "Beste SEO Strategie 2026" sucht.
+3. **Das Trainings-Verbot:** Hier ziehe ich die rote Linie. "Disallow: Training". Das ist meine rechtliche Absicherung.
+4. **Cross-Referenzen:** Ich weise intelligente Agenten direkt auf meine weiteren Level-5-Dateien hin (`llms.txt` und `standardisierte Agent-Identity-Schnittstellen`). Das ist exzellente Maschinen-Usability.
 
 ## Wie überprüfst du deine eigene Seite?
 
@@ -1501,9 +1498,9 @@ Die `maschinenlesbare Endpunkt-Dokumentation` ist der Ort, an dem du deklarierst
 
 ## Praxisbeispiel: Wie sieht das in der Realität aus?
 
-Wir in der Teleschmiede setzen eine vollständige Agent Readiness um. Das bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
+Ich auf teleschmie.de setze eine vollständige Agent Readiness um. Das bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
 
-Wenn du wissen willst, wie wir das für uns selbst gelöst haben, schau dir unsere Datei an: `https://teleschmie.de/.well-known/maschinenlesbare Endpunkt-Dokumentation`.
+Wenn du wissen willst, wie ich das für mich selbst gelöst habe, schau dir meine Datei an: `https://teleschmie.de/.well-known/maschinenlesbare Endpunkt-Dokumentation`.
 Wichtig: Der Name der Datei muss strikt kleingeschrieben werden, und die allererste Zeile MUSS zwingend `# maschinenlesbare Endpunkt-Dokumentation` lauten. Das sind die harten Parser-Regeln der Crawler.
 
 So sieht ein exemplarischer Aufbau einer absolut standardkonformen Datei aus:
@@ -1512,12 +1509,12 @@ So sieht ein exemplarischer Aufbau einer absolut standardkonformen Datei aus:
 # maschinenlesbare Endpunkt-Dokumentation
 
 ## Overview
-This document specifies the authentication protocols required to interact with the Teleschmiede Agent Infrastructure. We support autonomous "Agent Verified" flows for B2B interactions.
+This document specifies the authentication protocols required to interact with the Jörg Zimmer Agent Infrastructure. I support autonomous "Agent Verified" flows for B2B interactions.
 
 ## Supported Flows
 
 ### 1. Agent Verified (ID-JAG)
-We highly recommend the Agent Verified flow for autonomous task execution.
+I highly recommend the Agent Verified flow for autonomous task execution.
 - **Assertion Format:** Identity Assertion JWT (ID-JAG)
 - **Supported Signatures:** Ed25519
 - **Endpoint:** `https://teleschmie.de/api/auth/agent-verify`
@@ -1529,7 +1526,7 @@ For legacy tools that do not support dynamic ID-JAGs, static API keys are availa
 - **Header:** `Authorization: Bearer `
 
 ## OAuth Metadata
-Our standard OAuth 2.0 Authorization Server metadata can be found at:
+My standard OAuth 2.0 Authorization Server metadata can be found at:
 `/.well-known/oauth-authorization-server`
 ```
 
@@ -2109,7 +2106,7 @@ RAG steht für **Retrieval-Augmented Generation**. Wenn du diesen Begriff 2026 n
 
 Das bedeutet ganz simpel: Moderne KI-Systeme raten nicht mehr. Sie halluzinieren nicht mehr wild drauflos, wie sie es noch 2023 getan haben. Wenn ein Nutzer heute eine Frage stellt, durchsucht der autonome KI-Agent in Echtzeit verifizierte Vektordatenbanken und gigantische Suchindizes (wie Bing), holt sich die harten Fakten und generiert exakt daraus die maßgeschneiderte, perfekte Antwort für den User. 
 
-Wenn die KI in dieser generierten Antwort nun sagt: *"Laut Jörg Zimmer von der Teleschmiede ist eine vollständige Agent Readiness zwingend erforderlich, um im AI-SEO zu überleben"*, und dabei einen klickbaren Link zu meiner Seite setzt – dann hat die KI mich **zitiert**. Das ist eine Citation. 
+Wenn die KI in dieser generierten Antwort nun sagt: *"Laut Jörg Zimmer auf teleschmie.de ist eine vollständige Agent Readiness zwingend erforderlich, um im AI-SEO zu überleben"*, und dabei einen klickbaren Link zu meiner Seite setzt – dann hat die KI mich **zitiert**. Das ist eine Citation. 
 
 Es ist der ultimative, unumstößliche Beweis, dass ich nicht nur einfach irgendwo als bedeutungslose Datei im Index vergammle. Es bedeutet, dass das LLM mich aus Millionen von potenziellen Optionen, aus dem gesamten verdammten Internet, als die bestmögliche, vertrauenswürdigste Quelle für diese spezifische Information ausgewählt hat.
 
@@ -2152,7 +2149,7 @@ ALOHA! 🌻
 
 
   Willst du von ChatGPT und Co. zitiert werden?
-  Wir bringen deine Marke genau auf das Level, das KIs für absoluten Trust fordern. Von der vollständigen Agent Readiness über A2A-Protokolle bis zum maximalen, unaufhaltsamen Entity Building. Schluss mit alten SEO-Tricks.
+  Ich bringe deine Marke genau auf das Level, das KIs für absoluten Trust fordern. Von der vollständigen Agent Readiness über A2A-Protokolle bis zum maximalen, unaufhaltsamen Entity Building. Schluss mit alten SEO-Tricks.
   Jetzt KI-Citation Strategie anfragen 
 
 
@@ -2816,7 +2813,7 @@ Wir optimieren nicht mehr für Strings. Wir optimieren für **Trusted Entities**
 
 Eine Entität (Entity) ist ein Ding, eine Person, ein Konzept oder ein Unternehmen, das singulär, einzigartig und von allen anderen Dingen im semantischen Netz klar unterscheidbar ist. 
 
-"Teleschmiede" ist eine Entität. "Jörg Zimmer" ist eine Entität. "Generative Engine Optimization" ist eine abstrakte Entität.
+"teleschmie.de" ist eine Entität. "Jörg Zimmer" ist eine Entität. "Generative Engine Optimization" ist eine abstrakte Entität.
 
 Der Unterschied zu früher: Früher war eine Website ein Dokument, auf dem Wörter standen. Heute muss deine Website die physische Manifestation deiner **Entität** sein. Der Knowledge Graph von Google (und die Vektordatenbanken von OpenAI, Anthropic & Co.) sind gigantische Landkarten. Auf diesen Landkarten sind die Orte keine Webseiten, sondern Entitäten (Nodes), die durch semantische Beziehungen (Edges) miteinander verbunden sind.
 
@@ -2867,7 +2864,7 @@ ALOHA 🌻
 
 
   Ist deine Marke schon eine starke Entität?
-  Wir analysieren deinen digitalen Fußabdruck und prüfen, ob KI-Agenten dich bereits als vertrauenswürdige Entität im Vektorraum erkennen. Lass uns dein Entity Building professionalisieren und deine Agent Readiness auf 100% bringen.
+  Ich analysiere deinen digitalen Fußabdruck und prüfe, ob KI-Agenten dich bereits als vertrauenswürdige Entität im Vektorraum erkennen. Lass mich dein Entity Building professionalisieren und deine Agent Readiness auf 100% bringen.
   Jetzt Entity-Check anfragen 
 
 
@@ -3594,7 +3591,7 @@ Um die Dringlichkeit der GEO Optimierung zu verstehen, müssen wir uns ansehen, 
 3.  **llms.txt Retrieval:** Dein Server antwortet (hoffentlich) mit einem 200 OK und dem Hinweis auf die `llms.txt`. Der Agent lädt diese winzige Datei herunter und sieht sofort: "Ah, unter `/glossar/a2a-protocol/` gibt es einen RAG-optimierten Beitrag dazu."
 4.  **Markdown Content Negotiation:** Der Agent ruft die URL auf, nutzt aber den Header `Accept: text/markdown`. Er will keine Bilder, kein CSS, kein JavaScript. Er will reinen Text. Dein Server nutzt Content Negotiation und serviert das rohe Markdown in weniger als 50 Millisekunden.
 5.  **Stateless MCP Check (Optional):** Der Agent sieht im Markdown einen Hinweis auf dynamische Kapazitäten. Über einen Stateless MCP Endpunkt (`mcp://teleschmie.de/api/capacities`) fragt er anonym und zustandslos an, ob die Agentur aktuell Kunden annimmt. Die Antwort kommt als JSON zurück.
-6.  **Synthese & Citation:** Der Agent nimmt all diese sauberen, extrem token-effizienten Daten, fügt sie in seinen Context-Window ein und generiert die Antwort für den Nutzer: "Die Teleschmiede in Berlin unterstützt das A2A Protocol. Laut aktuellen Daten nehmen sie wieder Kunden an [1]." – Das [1] ist dein Backlink. Das ist dein Citation-Sieg.
+6.  **Synthese & Citation:** Der Agent nimmt all diese sauberen, extrem token-effizienten Daten, fügt sie in sein Context-Window ein und generiert die Antwort für den Nutzer: "Jörg Zimmer in Berlin unterstützt das A2A Protocol. Laut aktuellen Daten nimmt er wieder Kunden an [1]." – Das [1] ist dein Backlink. Das ist dein Citation-Sieg.
 
 Wer diesen Request-Flow nicht bedienen kann, weil sein Server bei Schritt 2 oder 4 HTML-Müll ausspuckt, der wird vom Agenten verworfen. Der Agent hat ein Token-Budget und ein Time-Limit. Er wartet nicht auf deinen langsamen DOM-Render.
 
@@ -3629,7 +3626,7 @@ ALOHA! 🌻✌️
 
 
   Mache deine Website Agent Ready!
-  Erfüllt deine Seite die Juli 2026 Standards? Wir implementieren llms.txt, Markdown Content Negotiation und Stateless MCP für maximale KI-Sichtbarkeit.
+  Erfüllt deine Seite die Juli 2026 Standards? Ich implementiere llms.txt, Markdown Content Negotiation und Stateless MCP für maximale KI-Sichtbarkeit.
   
     GEO Audit anfragen
   
@@ -5513,7 +5510,7 @@ Die normale llms.txt ist dein Türöffner. Sie ist der freundliche Handshake. Ab
 Wer vollständige Agent Readiness will, kommt an diesem Deep-Knowledge-Repository nicht vorbei. Lass uns Tacheles reden.
 
 ### Der Unterschied: Inhaltsverzeichnis vs. Bibliothek
-Ich erkläre das meinen Kunden in der Teleschmiede immer so: Stell dir vor, du stehst in einer riesigen Universitätsbibliothek. Die klassische `llms.txt` ist der kleine Lageplan an der Eingangstür. Da steht drauf: "Rechts geht's zur Mathematik, links zur Geschichte." Super praktisch für die schnelle Orientierung. 
+Ich erkläre das meinen Kunden immer so: Stell dir vor, du stehst in einer riesigen Universitätsbibliothek. Die klassische `llms.txt` ist der kleine Lageplan an der Eingangstür. Da steht drauf: "Rechts geht's zur Mathematik, links zur Geschichte." Super praktisch für die schnelle Orientierung. 
 
 Aber die `llms-full.txt`? Das ist die gesamte Bibliothek, komprimiert in ein maschinenlesbares Format, befreit von all dem Staub und den schweren Ledereinbänden. Sie ist das pure, unverdünnte Wissen deiner Domain, aufbereitet für A2A-Protokolle (Agent-to-Agent).
 
@@ -5547,7 +5544,7 @@ Ich höre es schon wieder in den Facebook-Gruppen der selbsternannten SEO-Gurus:
 
 Wenn du tausende von URLs hast, muss diese Datei dynamisch generiert werden. Sie muss sich in Echtzeit aktualisieren, wenn du einen neuen Artikel publizierst. Deine Server-Architektur muss so aufgebaut sein, dass sie A2A-Protokolle versteht. Die Bots müssen wissen: "Ah, hier ist ein Unternehmen, das 2026 angekommen ist. Hier bekommen wir saubere, strukturierte JSON- oder Markdown-Files geliefert." 
 
-Das ist echtes Engineering. Das ist der Grund, warum wir bei der Teleschmiede Websites nicht mehr für Browser optimieren, sondern von Grund auf als maschinenlesbare Endpunkte konzipieren. 
+Das ist echtes Engineering. Das ist der Grund, warum ich auf teleschmie.de Websites nicht mehr für Browser optimiere, sondern von Grund auf als maschinenlesbare Endpunkte konzipiere. 
 
 ### Tacheles zum Schluss
 Die Schonzeit ist vorbei. Wer im Juli 2026 noch diskutiert, ob er eine `llms-full.txt` braucht, kann auch gleich sein Faxgerät wieder anschließen und hoffen, dass Kunden darüber Bestellungen aufgeben. 
@@ -5560,7 +5557,7 @@ ALOHA 🌻
 
 
   Überfordert von Deep Grounding?
-  Das ist normal. Den kompletten Content maschinenlesbar aufzubereiten, ist ein dreckiger Job. Wir machen ihn für dich. Wir sorgen für vollständige Agent Readiness, bauen dir astreine A2A-Protokolle und verwandeln deine Domain in ein KI-Wissens-Imperium.
+  Das ist normal. Den kompletten Content maschinenlesbar aufzubereiten, ist ein dreckiger Job. Ich mache ihn für dich. Ich sorge für vollständige Agent Readiness, baue dir astreine A2A-Protokolle und verwandle deine Domain in ein KI-Wissens-Imperium.
   KI-Strategie-Gespräch buchen 
 
 
@@ -5602,12 +5599,12 @@ Für ein Large Language Model ist jedes Wort, jedes verdammte Zeichen in deinem 
 Rate mal, welche Quelle das RAG-System bevorzugt? Richtig, die, die seine Ressourcen schont. Wenn du Token sparst, wirst du öfter gecrawlt, besser verstanden und – das ist der absolute Kick – häufiger und präziser zitiert!
 
 ### Wie sieht eine knallharte llms.txt aus?
-Glaubt mir, ich sehe jeden Tag Files, da will ich am liebsten meinen Laptop aus dem Fenster der Teleschmiede werfen. Da wird stumpf das Marketing-Bla-Bla von der Startseite reinkopiert. "Wir sind die innovativsten und leidenschaftlichsten Lösungsanbieter für synergetische Digitalisierung..." Haltet die Klappe!
+Glaubt mir, ich sehe jeden Tag Files, da will ich am liebsten meinen Laptop aus dem Fenster meines Büros werfen. Da wird stumpf das Marketing-Bla-Bla von der Startseite reinkopiert. "Wir sind die innovativsten und leidenschaftlichsten Lösungsanbieter für synergetische Digitalisierung..." Haltet die Klappe!
 
 KIs haben keine Emotionen. KIs wollen Datenpunkte. Ein LLM liest das und denkt sich: "Was für ein irrelevanter Bullshit." 
 
 Der Jörg-Zimmer-Blueprint sieht so aus:
-1. **Fakten-Hammer:** "Teleschmiede. SEO-Agentur. Gegründet 2010. Spezialisiert auf AI-SEO, RAG-Optimierung und vollständige Agent Readiness." Bäm. Das versteht die Maschine.
+1. **Fakten-Hammer:** "Jörg Zimmer. SEO-Freelancer. Spezialisiert auf AI-SEO, RAG-Optimierung und vollständige Agent Readiness." Bäm. Das versteht die Maschine.
 2. **Entitäten-Struktur:** Liste deine Dienstleistungen und Kernkompetenzen als klare Entitäten auf. Mach Bulletpoints.
 3. **Verlinkung auf Deep-Content:** Deine `llms.txt` ist nur der Teaser. Sie muss zwingend auf deine [llms-full.txt](https://teleschmie.de/glossar/llms-full-txt/) verweisen, in der du dein wirkliches Wissen bunkerst. Vergiss dabei bloß nicht die Trailing Slashes bei deinen internen Links! (z.B. `https://teleschmie.de/blog/` und NICHT `https://teleschmie.de/blog`).
 4. **Maschinenlesbare Endpunkte:** Zeig der KI direkt in der Datei, wo sie weitere strukturierte Daten findet. Mach den A2A-Agenten die Navigation so leicht wie möglich.
@@ -5630,7 +5627,7 @@ ALOHA 🌻
 
 
   Schluss mit dem Blindflug im KI-Zeitalter!
-  Du hast keinen Plan, wie man A2A-Protokolle bedient oder maschinenlesbare Endpunkte baut? Dann lass die Profis ran. Wir in der Teleschmiede bauen dir eine Infrastruktur, die vollständige Agent Readiness garantiert. Kein Marketing-Geschwafel, nur pure KI-Sichtbarkeit.
+  Du hast keinen Plan, wie man A2A-Protokolle bedient oder maschinenlesbare Endpunkte baut? Dann lass den Profi ran. Ich baue dir eine Infrastruktur, die vollständige Agent Readiness garantiert. Kein Marketing-Geschwafel, nur pure KI-Sichtbarkeit.
   Jetzt KI-Check anfragen 
 
 
@@ -5774,7 +5771,7 @@ Jetzt kommt der Moment, an dem es für viele Agenturen und Unternehmen schmerzha
 
 Um Content Negotiation in so einem Legacy-System nachzubauen, brauchst du absurde Custom-Lösungen, die das HTML on-the-fly abfangen, durch einen Parser jagen und dann als Markdown ausgeben. Das kostet Unmengen an Server-Leistung und zerschießt dir oft das Caching.
 
-Vollständige Agent Readiness baust du auf modernen Systemen. Bei uns in der Teleschmiede nutzen wir Frameworks wie Astro oder Next.js am Edge. Das ist ein Kinderspiel. Du schreibst eine kleine Middleware, die den Header prüft:
+Vollständige Agent Readiness baust du auf modernen Systemen. Ich nutze Frameworks wie Astro oder Next.js am Edge. Das ist ein Kinderspiel. Du schreibst eine kleine Middleware, die den Header prüft:
 
 ```javascript
 export function onRequest(context) {
@@ -5819,7 +5816,7 @@ ALOHA 🌻✌️
 
 
   Schluss mit dem HTML-Wahnsinn!
-  Deine Server-Architektur blockiert deine KI-Sichtbarkeit? Wir reißen das Ding ein und bauen es richtig auf. Die Teleschmiede implementiert vollständige Agent Readiness mit perfekter Content Negotiation für deine Domain.
+  Deine Server-Architektur blockiert deine KI-Sichtbarkeit? Ich reiße das Ding ein und baue es richtig auf. Ich implementiere vollständige Agent Readiness mit perfekter Content Negotiation für deine Domain.
   Jetzt Architektur-Check anfragen 
 
 
@@ -6669,7 +6666,7 @@ Vergiss das Rauschen. Konzentrier dich auf diese vier massiven Blöcke, die 90% 
 ### 4. Off-Page & Netzwerksignale (Die Bestätigung)
 *   **Mentions & [Citations](https://teleschmie.de/glossar/citation/):** Erwähnungen deiner Marke stärken deine Entität. Wenn du überall positiv erwähnt wirst, steigt dein Sentiment in der KI.
 *   **Kuratierte Backlinks:** Vergiss den Masse-Spam aus indischen Foren. Ein einziger harter, redaktioneller Link von einer echten Branchen-Größe ist der Ritterschlag.
-*   **Brand Searches:** Tippen Nutzer deinen Firmennamen bei Google ein ("Teleschmiede SEO")? Das ist das ultimative Trust-Signal.
+*   **Brand Searches:** Tippen Nutzer deinen Namen bei Google ein ("Jörg Zimmer SEO")? Das ist das ultimative Trust-Signal.
 
 
   ⚠️ Der massivste unterschätzte Hebel: Interne Verlinkung
@@ -6902,7 +6899,7 @@ Das Problem vieler Agenturen: Sie klatschen ein Plugin drauf, das stupide ein pa
 
 Durch die intensive Nutzung von IDs (`@id`) verknüpfst du Entitäten zu einem logischen Baum. 
 Ein Beispiel, wie das auf `teleschmie.de` aussieht:
-Dieser Blogartikel ist Teil eines Themen-Clusters (`isPartOf`), geschrieben von der `Person` [Jörg Zimmer](https://teleschmie.de/seo-freelancer-berlin/), die wiederum Gründer der `Organization` Teleschmiede ist. Und Jörg Zimmer verknüpfen wir via `sameAs` hart mit seinem LinkedIn-Profil und seinem Wikidata-Eintrag. 
+Dieser Blogartikel ist Teil eines Themen-Clusters (`isPartOf`), geschrieben von der `Person` [Jörg Zimmer](https://teleschmie.de/seo-freelancer-berlin/). Und Jörg Zimmer verknüpfe ich via `sameAs` hart mit seinem LinkedIn-Profil und seinem Wikidata-Eintrag. 
 
 *Das* ist Entity Depth. Dieses dichte Netz aus unwiderlegbaren Fakten ist genau das, was eine KI als "wahre Autorität" wahrnimmt.
 
@@ -6921,7 +6918,7 @@ Dein Schema-Markup dient hier als "Fakten-Anker". Du lieferst den RAG-Architektu
 
 Schema.org ist 2026 die mit Abstand wichtigste Brücke zwischen deiner Website und der Welt der autonomen KI-Agenten. Es ist die unsichtbare Architektur deines digitalen Erfolgs. Wer lernt, das Schema-Vokabular strategisch zur **Disambiguierung** einzusetzen, baut keine dumme Website mehr, sondern eine unerschütterliche digitale Entität. 
 
-Mit starken Audit-Tools wie SE Ranking auditieren wir deine technische Basis und stellen sicher, dass dein JSON-LD-Markup nicht nur vorhanden, sondern auch verschachtelt und effektiv ist.
+Mit starken Audit-Tools wie SE Ranking auditiere ich deine technische Basis und stelle sicher, dass dein JSON-LD-Markup nicht nur vorhanden, sondern auch verschachtelt und effektiv ist.
 
 ## Mein Tacheles-Rat für dich
 
@@ -6934,7 +6931,7 @@ ALOHA 🌻
 
 
   Ist deine Website für KI-Agenten noch völlig 'stumm'?
-  Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit SE Ranking auditieren wir die Basis, mit Rankscale sichern wir deine gnadenlose KI-Sichtbarkeit.
+  Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar für KI und Suchmaschinen definiert. Mit SE Ranking auditiere ich die Basis, mit Rankscale sichere ich deine gnadenlose KI-Sichtbarkeit.
   Jetzt knallhartes Schema-Audit anfragen 
 
 
@@ -9287,7 +9284,7 @@ Die größte Angst vieler Unternehmen: "Wenn die Leute die Antwort direkt bei Ch
 Das passiert nur, wenn du deine Marke nicht tief genug in den Kontext injizierst. Du musst aufhören, neutrale Lexikon-Artikel zu schreiben. Webe deine Autorität in die Fakten ein.
 
 Wenn dein Content lautet: *"Die Conversion-Rate steigt durch Agent Readiness um 40%."*, wird die KI genau das ausgeben – ohne dich zu erwähnen.
-Wenn du schreibst: *"Laut den aktuellen A2A-Audits der Teleschmiede führt die Implementierung von Agent Readiness zu einer Steigerung der Conversion-Rate um 40%."*
+Wenn du schreibst: *"Laut den aktuellen A2A-Audits von Jörg Zimmer führt die Implementierung von Agent Readiness zu einer Steigerung der Conversion-Rate um 40%."*
 
 Der Agent wird diesen Satz aufgrund der Dichte und der Beleg-Struktur ("Laut Audits...") komplett in die RAG-Pipeline übernehmen. Bumm. Du bist namentlich in der Zero-Click-Antwort. Das ist hunderte Male wertvoller als ein verlorener Klick auf deiner Website.
 
@@ -10092,7 +10089,7 @@ Björn hat ordentlich aufgefahren:
 - **[Spotify](https://open.spotify.com/episode/2rVaKkqxOdsBDeUC8ZLyt0)** – Mit Video! Falls ihr meine Mimik bei harten Fragen sehen wollt.
 - **[YouTube](https://www.youtube.com/watch?v=dVGOMAVUNQk)** – Ideal zum Mitdiskutieren.
 
-Wer mich wirklich kennenlernen will – den Menschen hinter der Teleschmiede – sollte reinhören. 
+Wer mich wirklich kennenlernen will – den Menschen hinter teleschmie.de – sollte reinhören. 
 
 Es ist kein klassisches "How-to-SEO". 
 
@@ -10102,7 +10099,7 @@ ALOHA 🌻! 🌻
 
 
   Willst du den Menschen hinter den Daten?
-  Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen SE Ranking für die Analyse und Rankscale für deine KI-Sichtbarkeit.
+  Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Ich nutze SE Ranking für die Analyse und Rankscale für deine KI-Sichtbarkeit.
   Jetzt persönliche Beratung anfragen 
 
 
@@ -11687,7 +11684,7 @@ ALOHA 🌻! 🌻
 
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 20 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 
 
-In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der wir gedreht haben, damit diese Seite rennt, als gäbe es kein Morgen.
+In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der ich gedreht habe, damit diese Seite rennt, als gäbe es kein Morgen.
 
 
    Jörgs SEO-Klartext (LinkedIn Insights)
@@ -11719,16 +11716,16 @@ Außerdem: Google liebt Speed. In einer Welt, in der KI-Antworten immer mehr Kli
 
 ## Die Ausgangslage: Content-Recycling mit Hürden
 
-Fast alle Inhalte dieser Website stammen ursprünglich aus meinen LinkedIn-Posts. Das ist strategisches Content-Recycling. Aber LinkedIn liefert uns Bilder und Formate, die für das Web erst mal "schmutzig" sind. 
+Fast alle Inhalte dieser Website stammen ursprünglich aus meinen LinkedIn-Posts. Das ist strategisches Content-Recycling. Aber LinkedIn liefert mir Bilder und Formate, die für das Web erst mal "schmutzig" sind. 
 
-Die Bilder von LinkedIn haben oft Kryptische URLs, die nach ein paar Wochen ablaufen (Hotlinking-Tod!), sie sind meist viel zu groß und haben keine modernen Formate wie WebP. Wenn ich die einfach so übernommen hätte, wäre mein Score direkt auf 60 abgerutscht. Wir mussten also jedes einzelne Element anfassen.
+Die Bilder von LinkedIn haben oft Kryptische URLs, die nach ein paar Wochen ablaufen (Hotlinking-Tod!), sie sind meist viel zu groß und haben keine modernen Formate wie WebP. Wenn ich die einfach so übernommen hätte, wäre mein Score direkt auf 60 abgerutscht. Ich musste also jedes einzelne Element anfassen.
 
 ---
 
 ## SEO Best Practice: Bilder radikal optimieren
 
 ### Lokale Speicherung ist Pflicht
-Wir haben jedes LinkedIn-Bild heruntergeladen und lokal auf den Server gepackt. Das ist Schritt eins für Stabilität. Keine Abhängigkeit von externen CDN-URLs, die kommen und gehen.
+Ich habe jedes LinkedIn-Bild heruntergeladen und lokal auf den Server gepackt. Das ist Schritt eins für Stabilität. Keine Abhängigkeit von externen CDN-URLs, die kommen und gehen.
 
 ### WebP: Das neue Gold der Bildformate
 Jedes Bild wurde in WebP konvertiert. Warum? Weil es bei gleicher Qualität ca. 30% kleiner ist als ein JPG. Kleiner bedeutet schneller. Schneller bedeutet glücklichere Nutzer.
@@ -11751,7 +11748,7 @@ Viele vergessen das Thema Barrierefreiheit. Jedes Bild hat einen individuellen A
 
 ## SEO Best Practice: Die Font-Diät (System-Fonts)
 
-Google Fonts sind schick, ja. Aber sie kosten Zeit. Eine extra DNS-Verbindung, ein extra Request, das Rendern... das sind wertvolle Millisekunden. Wir haben uns für native System-Fonts entschieden.
+Google Fonts sind schick, ja. Aber sie kosten Zeit. Eine extra DNS-Verbindung, ein extra Request, das Rendern... das sind wertvolle Millisekunden. Ich habe mich für native System-Fonts entschieden.
 
 Das heißt: Auf einem Mac siehst du die Apple-Schrift, auf Windows die Microsoft-Schrift. Das Ergebnis ist eine Seite, die Text anzeigt, bevor überhaupt das erste Stylesheet fertig geladen ist. Das nennt man "Zero-Latency-Typography".
 
@@ -11761,7 +11758,7 @@ Das heißt: Auf einem Mac siehst du die Apple-Schrift, auf Windows die Microsoft
 
 Videos sind der Tod jeder Performance – wenn man sie falsch einbettet. Ein normales YouTube-Iframe lädt im Hintergrund hunderte Kilobyte an JavaScript, noch bevor du auf "Play" geklickt hast.
 
-**Unsere Lösung:** Wir laden nur eine "Fassade". Ein kleines Bild mit einem Fake-Play-Button. Erst wenn der Nutzer wirklich klickt, laden wir den schweren YouTube-Player. Der Effekt: Ein Geschwindigkeits-Boost von 40+ Punkten im PageSpeed Score.
+**Meine Lösung:** Ich lade nur eine "Fassade". Ein kleines Bild mit einem Fake-Play-Button. Erst wenn der Nutzer wirklich klickt, lade ich den schweren YouTube-Player. Der Effekt: Ein Geschwindigkeits-Boost von 40+ Punkten im PageSpeed Score.
 
 ---
 
@@ -11771,7 +11768,7 @@ Videos sind der Tod jeder Performance – wenn man sie falsch einbettet. Ein nor
 Ehrlich gesagt: Nein. Google sagt, alles im "grünen Bereich" (über 90) ist erst mal okay. Aber: In hart umkämpften Nischen kann der Speed das Zünglein an der Waage sein. Außerdem sinkt mit jeder Millisekunde Ladezeit deine Conversion-Rate. 100/100 ist also eher eine Investition in deinen Umsatz als nur in SEO.
 
 ### 2. Kann ich das mit WordPress auch schaffen?
-Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was wir hier nutzen) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
+Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was ich hier nutze) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
 
 ![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](https://teleschmie.de/assets/images/blog/astro-vs-wordpress-performance.webp)
 
@@ -11782,7 +11779,7 @@ Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment
 
 ## Das Ergebnis: Ein digitales Rennauto
 
-Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit SE Ranking und prüfen mit Rankscale, wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
+Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit ich diese Ergebnisse halte, auditiere ich die Seite regelmäßig mit SE Ranking und prüfe mit Rankscale, wie die Geschwindigkeit auf meine KI-Präsenz einzahlt.
 
 ## Was kostet so eine High-Performance-Website?
 

@@ -56,7 +56,7 @@ Hier beginnt die Profiliga. In dieser Phase unterstützt deine Website Formate, 
 Deine Infrastruktur ist jetzt eine Plattform. Du hast API-Kataloge und [MCP-Server-Definitionen](/glossar/model-context-protocol-mcp/) in deinem `.well-known` Ordner hinterlegt. Ein anklopfender Agent sieht nicht nur Content, sondern er sieht die Werkzeuge (Tools) und Datenbanken, die du für autorisierte Systeme freigibst.
 
 ### Die Königsklasse: Volle Autonomie (Agent-Native)
-Die absolute Spitze! Die Website ist voll an das [A2A-Protokoll](/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `standardisierte Agent-Identity-Schnittstellen` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `maschinenlesbare Endpunkt-Dokumentation` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das bauen wir in der Teleschmiede für unsere Kunden.
+Die absolute Spitze! Die Website ist voll an das [A2A-Protokoll](/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `standardisierte Agent-Identity-Schnittstellen` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `maschinenlesbare Endpunkt-Dokumentation` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das baue ich für meine Kunden.
 
 ## Warum ist die volle Agent-Kompatibilität so überlebenswichtig?
 
@@ -71,14 +71,14 @@ Stell dir vor, du bist ein Dienstleister. Ein potenzieller Kunde nutzt im Juli 2
 
 Dienstleister B bekommt den Auftrag. Dienstleister A hat nicht einmal mitbekommen, dass er überhaupt auf dem Radar war. Das ist die brutale Realität von Agent Readiness.
 
-## Praxisbeispiel: Die Infrastruktur der Teleschmiede
+## Praxisbeispiel: Meine Infrastruktur auf teleschmie.de
 
-Ich rede hier nicht von abstrakten Konzepten. Schau dir unsere eigene Domain an. Die Teleschmiede ist eine Blaupause für Agent Readiness in Deutschland. Wir haben das Fundament so gegossen, dass wir für jedes Agenten-System der Zukunft gerüstet sind.
+Ich rede hier nicht von abstrakten Konzepten. Schau dir meine eigene Domain an. teleschmie.de ist eine Blaupause für Agent Readiness in Deutschland. Ich habe das Fundament so gegossen, dass ich für jedes Agenten-System der Zukunft gerüstet bin.
 
-Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysiere einfach unseren öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
-Dort findest du unsere `standardisierte Agent-Identity-Schnittstellen`, unsere `maschinenlesbare Endpunkt-Dokumentation`, unsere OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
+Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysiere einfach meinen öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
+Dort findest du meine `standardisierte Agent-Identity-Schnittstellen`, meine `maschinenlesbare Endpunkt-Dokumentation`, meine OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
 
-Wir nutzen diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Wir reduzieren Reibungsverluste im Vertrieb auf null, indem wir Maschinen die Vorarbeit leisten lassen, auf die ohnehin kein Mitarbeiter Lust hat.
+Ich nutze diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Ich reduziere Reibungsverluste im Vertrieb auf null, indem ich Maschinen die Vorarbeit leisten lasse, auf die ohnehin kein Mitarbeiter Lust hat.
 
 ## Der gnadenlose Selbsttest für Entscheider
 

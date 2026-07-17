@@ -61,7 +61,6 @@ Warum solltest du sie dann überhaupt anlegen? Aus zwei elementaren Gründen:
 Aktuell (Sommer 2026) führt das European Data Protection Board (EDPB) massive Konsultationen und Prüfungen zum Thema Web-Scraping für Generative AI durch. Im Kern geht es um die Frage: Wann hat ein Website-Betreiber "maschinenlesbar" widersprochen, dass seine Daten für das Training von Modellen genutzt werden dürfen? Die Rechtsprechung, insbesondere in Deutschland und der EU, entwickelt sich rasant in die Richtung, dass ein Opt-Out nach § 44b UrhG zwingend maschinenlesbar erfolgen muss. Die `ai.txt` ist – neben der `robots.txt` – das stärkste juristische Signal, das du senden kannst. Wenn du vor Gericht ziehst, weil ein Milliarden-Konzern deine Daten geklaut hat, ist das Vorhandensein einer `ai.txt` dein bester Beweis für einen proaktiven Widerspruch.
 
 **2. Die Trennung von RAG und Training**
-Die großen, seriösen KI-Anbieter (OpenAI, Anthropic, Google) entwickeln ihre Crawler ständig weiter. Sie verstehen, dass Publisher rebellieren. Wenn du in deiner `robots.txt` den `GPTBot` komplett aussperrst, existierst du für ChatGPT nicht mehr. Wenn ein Kunde fragt "Wer ist die beste SEO-Agentur in Berlin?", wird die Teleschmiede nicht genannt. Das ist fatal. 
 Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fragen eurer Nutzer zu beantworten (RAG), aber ihr dürft sie nicht in eure Basismodelle einbrennen." Auch wenn dieser feine Unterschied technisch von den Crawlern heute noch nicht zu 100% sauber getrennt wird, positionierst du dich als technisch versierter Vorreiter (eine vollständige Agent Readiness).
 
 ## Das "Agent Readiness" Konzept
@@ -74,15 +73,15 @@ Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readin
 
 Wenn du als Unternehmen im Unternehmensumfeld sichtbar sein willst, sind die fortgeschrittenen KI-Dateien die absolute Pflicht. Die volle Agent-Kompatibilität ist die Kür, die dir die Leads der Zukunft sichert.
 
-## Praxisbeispiel: Die ai.txt der Teleschmiede
+## Praxisbeispiel: Meine ai.txt auf teleschmie.de
 
-Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Wir bei der Teleschmiede predigen nicht nur Wasser, wir trinken auch Wein. Unsere eigene Infrastruktur ist strikt auf eine vollständige Agent Readiness optimiert.
+Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Ich auf teleschmie.de predige nicht nur Wasser, ich trinke auch Wein. Meine eigene Infrastruktur ist strikt auf eine vollständige Agent Readiness optimiert.
 
-Du kannst unsere Live-Datei jederzeit unter `https://teleschmie.de/ai.txt` einsehen. Sie fungiert als Benchmark für das, was wir auch bei unseren Kunden implementieren.
+Du kannst meine Live-Datei jederzeit unter `https://teleschmie.de/ai.txt` einsehen. Sie fungiert als Benchmark für das, was ich auch bei meinen Kunden implementiere.
 
-### Der Inhalt unserer Live-Datei
+### Der Inhalt meiner Live-Datei
 
-Wir nutzen das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Basis-Informationen zum Autor und Kontakt, gefolgt von den klaren Erlaubnissen (RAG) und den harten Verboten (Training).
+Ich nutze das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Basis-Informationen zum Autor und Kontakt, gefolgt von den klaren Erlaubnissen (RAG) und den harten Verboten (Training).
 
 ```text
 # AI Policy for teleschmie.de
@@ -111,10 +110,10 @@ Disallow: Model-Scraping
 ```
 
 **Was passiert hier genau?**
-1. **Klare Kontaktdaten:** Wir zeigen Transparenz. Wenn eine KI-Firma Daten lizensieren will, weiß sie, an wen sie sich wenden muss.
-2. **Die RAG-Freigabe:** Wir sagen explizit "Allow: RAG". Das ist unser SEO-Hebel. Wir wollen, dass Perplexity unsere Artikel liest, wenn ein CMO nach "Beste SEO Strategie 2026" sucht.
-3. **Das Trainings-Verbot:** Hier ziehen wir die rote Linie. "Disallow: Training". Das ist unsere rechtliche Absicherung.
-4. **Cross-Referenzen:** Wir weisen intelligente Agenten direkt auf unsere weiteren Level-5-Dateien hin (`llms.txt` und `standardisierte Agent-Identity-Schnittstellen`). Das ist exzellente Maschinen-Usability.
+1. **Klare Kontaktdaten:** Ich zeige Transparenz. Wenn eine KI-Firma Daten lizensieren will, weiß sie, an wen sie sich wenden muss.
+2. **Die RAG-Freigabe:** Ich sage explizit "Allow: RAG". Das ist mein SEO-Hebel. Ich will, dass Perplexity meine Artikel liest, wenn ein CMO nach "Beste SEO Strategie 2026" sucht.
+3. **Das Trainings-Verbot:** Hier ziehe ich die rote Linie. "Disallow: Training". Das ist meine rechtliche Absicherung.
+4. **Cross-Referenzen:** Ich weise intelligente Agenten direkt auf meine weiteren Level-5-Dateien hin (`llms.txt` und `standardisierte Agent-Identity-Schnittstellen`). Das ist exzellente Maschinen-Usability.
 
 ## Wie überprüfst du deine eigene Seite?
 

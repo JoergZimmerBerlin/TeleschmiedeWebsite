@@ -79,7 +79,7 @@ Die größte Angst vieler Unternehmen: "Wenn die Leute die Antwort direkt bei Ch
 Das passiert nur, wenn du deine Marke nicht tief genug in den Kontext injizierst. Du musst aufhören, neutrale Lexikon-Artikel zu schreiben. Webe deine Autorität in die Fakten ein.
 
 Wenn dein Content lautet: *"Die Conversion-Rate steigt durch Agent Readiness um 40%."*, wird die KI genau das ausgeben – ohne dich zu erwähnen.
-Wenn du schreibst: *"Laut den aktuellen A2A-Audits der Teleschmiede führt die Implementierung von Agent Readiness zu einer Steigerung der Conversion-Rate um 40%."*
+Wenn du schreibst: *"Laut den aktuellen A2A-Audits von Jörg Zimmer führt die Implementierung von Agent Readiness zu einer Steigerung der Conversion-Rate um 40%."*
 
 Der Agent wird diesen Satz aufgrund der Dichte und der Beleg-Struktur ("Laut Audits...") komplett in die RAG-Pipeline übernehmen. Bumm. Du bist namentlich in der Zero-Click-Antwort. Das ist hunderte Male wertvoller als ein verlorener Klick auf deiner Website.
 

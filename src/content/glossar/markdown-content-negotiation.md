@@ -69,7 +69,7 @@ Jetzt kommt der Moment, an dem es für viele Agenturen und Unternehmen schmerzha
 
 Um Content Negotiation in so einem Legacy-System nachzubauen, brauchst du absurde Custom-Lösungen, die das HTML on-the-fly abfangen, durch einen Parser jagen und dann als Markdown ausgeben. Das kostet Unmengen an Server-Leistung und zerschießt dir oft das Caching.
 
-Vollständige Agent Readiness baust du auf modernen Systemen. Bei uns in der Teleschmiede nutzen wir Frameworks wie Astro oder Next.js am Edge. Das ist ein Kinderspiel. Du schreibst eine kleine Middleware, die den Header prüft:
+Vollständige Agent Readiness baust du auf modernen Systemen. Ich nutze Frameworks wie Astro oder Next.js am Edge. Das ist ein Kinderspiel. Du schreibst eine kleine Middleware, die den Header prüft:
 
 ```javascript
 export function onRequest(context) {
@@ -114,7 +114,7 @@ ALOHA 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Schluss mit dem HTML-Wahnsinn!</h3>
-  <p class="mb-6">Deine Server-Architektur blockiert deine KI-Sichtbarkeit? Wir reißen das Ding ein und bauen es richtig auf. Die Teleschmiede implementiert vollständige Agent Readiness mit perfekter Content Negotiation für deine Domain.</p>
+  <p class="mb-6">Deine Server-Architektur blockiert deine KI-Sichtbarkeit? Ich reiße das Ding ein und baue es richtig auf. Ich implementiere vollständige Agent Readiness mit perfekter Content Negotiation für deine Domain.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Architektur-Check anfragen </a>
 </div>
 

@@ -57,20 +57,20 @@ Ein sauberes Manifest besteht aus vier elementaren Blöcken:
 3. **Endpoints:** Der wichtigste technische Teil. Wo genau nimmt dein Agent Anfragen entgegen? Wo liegt der API-Katalog? Das Routing muss hier präzise definiert sein.
 4. **Security:** Autonome Maschinen buchen Budgets und schließen Verträge. Sicherheit ist das A und O. Die Karte verweist hier meist auf eine externe `maschinenlesbare Endpunkt-Dokumentation`, um komplexe Flows wie "Agent Verified" (via Identity Assertion JWT / ID-JAG) zu regeln.
 
-## Praxisbeispiel: Wie die Teleschmiede das löst
+## Praxisbeispiel: Wie ich das löse
 
-Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben eine vollständige Agent Readiness (dem höchsten Level im Cloudflare-Raster).
+Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Auf teleschmie.de optimiere ich meine eigene Infrastruktur genauso hart wie die meiner Kunden. Ich betreibe eine vollständige Agent Readiness (dem höchsten Level im Cloudflare-Raster).
 
-Unsere Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`.
+Meine Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`.
 
-Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Ausschnitt unserer Konfiguration zeigt, wie kompakt und präzise die Informationen geliefert werden:
+Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Ausschnitt meiner Konfiguration zeigt, wie kompakt und präzise die Informationen geliefert werden:
 
 ```json
 {
   "a2a_version": "1.0.0",
   "identity": {
-    "name": "Teleschmiede Service Agent",
-    "provider": "Teleschmiede Jörg Zimmer",
+    "name": "Service Agent",
+    "provider": "Jörg Zimmer",
     "description": "Autonomer Agent für SEO-Audits und Agent Readiness Beratung"
   },
   "endpoints": {
@@ -84,11 +84,11 @@ Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Aus
 }
 ```
 
-Jedes fremde KI-System, das auf unsere Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige Geschäft ist.
+Jedes fremde KI-System, das auf meine Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige Geschäft ist.
 
 ## Vermeide diese fatalen Fehler
 
-Bei der Implementierung bei unseren Kunden sehe ich oft die gleichen handwerklichen Fehler, die dazu führen, dass der gesamte A2A-Flow zusammenbricht:
+Bei der Implementierung bei meinen Kunden sehe ich oft die gleichen handwerklichen Fehler, die dazu führen, dass der gesamte A2A-Flow zusammenbricht:
 
 **Fehler 1: Der falsche Speicherort**
 Die Datei MUSS im Verzeichnis `/.well-known/` liegen. Punkt. Nicht im Root, nicht im `/assets/` Ordner und schon gar nicht hinter einem Passwortschutz. Wenn das `.well-known` Verzeichnis durch deine `.htaccess` oder deinen Provider blockiert wird (Stichwort: IONOS oder Strato), hast du ein massives Infrastruktur-Problem.

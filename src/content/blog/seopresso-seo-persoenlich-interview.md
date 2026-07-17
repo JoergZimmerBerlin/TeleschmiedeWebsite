@@ -15,9 +15,9 @@ faqs:
   - question: "Was ist das Besondere an der Reihe 'SEO Persönlich' beim SEOpresso Podcast?"
     answer: "In diesem Format geht es nicht um die klassischen 'Top 10 Tipps für bessere Rankings'. Björn Darko gräbt tiefer und interviewt die Menschen hinter den Algorithmen. Es geht um Karrierewege, Brüche, Ängste und echte Erfahrungen aus Jahrzehnten im Markt. Es ist fast schon eine kleine Therapiestunde für SEOs, in der wir über Dinge sprechen, die man sonst nur hinter verschlossenen Türen bei einem Bier am SEO-Stammtisch teilt. Kein Hochglanz-Lebenslauf, sondern Tacheles."
   - question: "Warum arbeitet Jörg Zimmer seit 24 Jahren als Freelancer und nicht in einer Agentur?"
-    answer: "Weil Freiheit und der direkte Draht zum Kunden für mich unbezahlbar sind. In 24 Jahren Selbständigkeit lernt man, Verantwortung für jedes Projekt direkt zu übernehmen. Ich brauche keine Tischtennisplatte im Büro, ich brauche Daten, die fließen, und Kunden, die verstehen was wir tun. Agenturen haben ihre Berechtigung, aber für mein Verständnis von Beratung ist der 'Problem-Löser auf Abruf'-Status als Senior Freelancer das ehrlichste Modell."
+    answer: "Weil Freiheit und der direkte Draht zum Kunden für mich unbezahlbar sind. In 24 Jahren Selbständigkeit lernt man, Verantwortung für jedes Projekt direkt zu übernehmen. Ich brauche keine Tischtennisplatte im Büro, ich brauche Daten, die fließen, und Kunden, die verstehen was ich tue. Agenturen haben ihre Berechtigung, aber für mein Verständnis von Beratung ist der 'Problem-Löser auf Abruf'-Status als Senior Freelancer das ehrlichste Modell."
   - question: "Was war Jörgs größte Erkenntnis aus über zwei Jahrzehnten SEO?"
-    answer: "Dass Technik vergänglich ist, aber Prinzipien bleiben. Früher haben wir Keywords im Quellcode versteckt – heute optimieren wir für Entitäten und GEO. Der Kern ist aber immer derselbe: Sei nützlich für den Nutzer und verständlich für die Maschine. Und die wichtigste Fähigkeit ist Kommunikation. Wer nicht erklären kann, warum eine technische Änderung nötig ist, wird scheitern – egal wie gut sein Audit-Tool ist."
+    answer: "Dass Technik vergänglich ist, aber Prinzipien bleiben. Früher habe ich Keywords im Quellcode versteckt – heute optimiere ich für Entitäten und GEO. Der Kern ist aber immer derselbe: Sei nützlich für den Nutzer und verständlich für die Maschine. Und die wichtigste Fähigkeit ist Kommunikation. Wer nicht erklären kann, warum eine technische Änderung nötig ist, wird scheitern – egal wie gut sein Audit-Tool ist."
   - question: "Wie geht Jörg Zimmer mit dem Druck um, wenn ein Relaunch schiefgeht?"
     answer: "Ich sehe mich dann als SEO-Feuerwehr. In dem Interview spreche ich offen darüber: Wenn es brennt, brennt es. Man braucht dann Ruhe, ein klares System und ein starkes Netzwerk. Niemand ist eine Insel. Ich weiß heute genau, wo meine Grenzen liegen und wann ich Spezialisten aus meinem Netzwerk (wie dem Freelancer Team) hinzuziehen muss. Echte Professionalität bedeutet auch, zu wissen, wann man Hilfe braucht."
 ---
@@ -112,7 +112,7 @@ Björn hat ordentlich aufgefahren:
 - **[Spotify](https://open.spotify.com/episode/2rVaKkqxOdsBDeUC8ZLyt0)** – Mit Video! Falls ihr meine Mimik bei harten Fragen sehen wollt.
 - **[YouTube](https://www.youtube.com/watch?v=dVGOMAVUNQk)** – Ideal zum Mitdiskutieren.
 
-Wer mich wirklich kennenlernen will – den Menschen hinter der Teleschmiede – sollte reinhören. 
+Wer mich wirklich kennenlernen will – den Menschen hinter teleschmie.de – sollte reinhören. 
 
 Es ist kein klassisches "How-to-SEO". 
 
@@ -122,7 +122,7 @@ ALOHA 🌻! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du den Menschen hinter den Daten?</h3>
-  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
+  <p class="mb-6">Ich helfe dir, deine SEO-Ziele ohne Umwege zu erreichen. Ich nutze <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen </a>
 </div>
 

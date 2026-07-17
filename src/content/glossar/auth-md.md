@@ -71,9 +71,9 @@ Die `maschinenlesbare Endpunkt-Dokumentation` ist der Ort, an dem du deklarierst
 
 ## Praxisbeispiel: Wie sieht das in der Realität aus?
 
-Wir in der Teleschmiede setzen eine vollständige Agent Readiness um. Das bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
+Ich auf teleschmie.de setze eine vollständige Agent Readiness um. Das bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
 
-Wenn du wissen willst, wie wir das für uns selbst gelöst haben, schau dir unsere Datei an: `https://teleschmie.de/.well-known/maschinenlesbare Endpunkt-Dokumentation`.
+Wenn du wissen willst, wie ich das für mich selbst gelöst habe, schau dir meine Datei an: `https://teleschmie.de/.well-known/maschinenlesbare Endpunkt-Dokumentation`.
 Wichtig: Der Name der Datei muss strikt kleingeschrieben werden, und die allererste Zeile MUSS zwingend `# maschinenlesbare Endpunkt-Dokumentation` lauten. Das sind die harten Parser-Regeln der Crawler.
 
 So sieht ein exemplarischer Aufbau einer absolut standardkonformen Datei aus:
@@ -82,12 +82,12 @@ So sieht ein exemplarischer Aufbau einer absolut standardkonformen Datei aus:
 # maschinenlesbare Endpunkt-Dokumentation
 
 ## Overview
-This document specifies the authentication protocols required to interact with the Teleschmiede Agent Infrastructure. We support autonomous "Agent Verified" flows for B2B interactions.
+This document specifies the authentication protocols required to interact with the Jörg Zimmer Agent Infrastructure. I support autonomous "Agent Verified" flows for B2B interactions.
 
 ## Supported Flows
 
 ### 1. Agent Verified (ID-JAG)
-We highly recommend the Agent Verified flow for autonomous task execution.
+I highly recommend the Agent Verified flow for autonomous task execution.
 - **Assertion Format:** Identity Assertion JWT (ID-JAG)
 - **Supported Signatures:** Ed25519
 - **Endpoint:** `https://teleschmie.de/api/auth/agent-verify`
@@ -99,7 +99,7 @@ For legacy tools that do not support dynamic ID-JAGs, static API keys are availa
 - **Header:** `Authorization: Bearer <token>`
 
 ## OAuth Metadata
-Our standard OAuth 2.0 Authorization Server metadata can be found at:
+My standard OAuth 2.0 Authorization Server metadata can be found at:
 `/.well-known/oauth-authorization-server`
 ```
 

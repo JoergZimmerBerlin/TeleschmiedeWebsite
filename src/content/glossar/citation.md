@@ -35,7 +35,7 @@ RAG steht für **Retrieval-Augmented Generation**. Wenn du diesen Begriff 2026 n
 
 Das bedeutet ganz simpel: Moderne KI-Systeme raten nicht mehr. Sie halluzinieren nicht mehr wild drauflos, wie sie es noch 2023 getan haben. Wenn ein Nutzer heute eine Frage stellt, durchsucht der autonome KI-Agent in Echtzeit verifizierte Vektordatenbanken und gigantische Suchindizes (wie Bing), holt sich die harten Fakten und generiert exakt daraus die maßgeschneiderte, perfekte Antwort für den User. 
 
-Wenn die KI in dieser generierten Antwort nun sagt: *"Laut Jörg Zimmer von der Teleschmiede ist eine vollständige Agent Readiness zwingend erforderlich, um im AI-SEO zu überleben"*, und dabei einen klickbaren Link zu meiner Seite setzt – dann hat die KI mich **zitiert**. Das ist eine Citation. 
+Wenn die KI in dieser generierten Antwort nun sagt: *"Laut Jörg Zimmer auf teleschmie.de ist eine vollständige Agent Readiness zwingend erforderlich, um im AI-SEO zu überleben"*, und dabei einen klickbaren Link zu meiner Seite setzt – dann hat die KI mich **zitiert**. Das ist eine Citation. 
 
 Es ist der ultimative, unumstößliche Beweis, dass ich nicht nur einfach irgendwo als bedeutungslose Datei im Index vergammle. Es bedeutet, dass das LLM mich aus Millionen von potenziellen Optionen, aus dem gesamten verdammten Internet, als die bestmögliche, vertrauenswürdigste Quelle für diese spezifische Information ausgewählt hat.
 
@@ -78,7 +78,7 @@ ALOHA! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du von ChatGPT und Co. zitiert werden?</h3>
-  <p class="mb-6">Wir bringen deine Marke genau auf das Level, das KIs für absoluten Trust fordern. Von der vollständigen Agent Readiness über A2A-Protokolle bis zum maximalen, unaufhaltsamen Entity Building. Schluss mit alten SEO-Tricks.</p>
+  <p class="mb-6">Ich bringe deine Marke genau auf das Level, das KIs für absoluten Trust fordern. Von der vollständigen Agent Readiness über A2A-Protokolle bis zum maximalen, unaufhaltsamen Entity Building. Schluss mit alten SEO-Tricks.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Citation Strategie anfragen </a>
 </div>
 

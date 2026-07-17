@@ -15,7 +15,7 @@ faqs:
   - question: 'Gibt es wirklich noch diese "200 Rankingfaktoren"?'
     answer: 'Ja und nein. Die alten "Checklisten-Faktoren" (Keyword im Title, Keyword-Dichte) sind tot. Die KI-Algorithmen von Google gewichten Faktoren dynamisch je nach Suchintention. Bei medizinischen Suchen wiegt E-E-A-T zu 90%, bei Rezepten vielleicht mehr die User Signals. In meinen Audits konzentriere ich mich auf die Hebel mit dem größten Impact: Entitäts-Stärke, Content-Tiefe und fehlerfreie Technik.'
   - question: 'Sind Social Media und Brand Searches direkte Rankingfaktoren?'
-    answer: 'Früher sagte Google "Nein". 2026 wissen wir: KI-Modelle trainieren auf Basis von Reddit, LinkedIn und Co. Wer dort Autorität besitzt, speist den Knowledge Graph (GEO). Zudem sind Brand Searches ("Teleschmiede SEO Berlin") das stärkste Trust-Signal überhaupt. Es zeigt, dass Nutzer deine Entität gezielt fordern.'
+    answer: 'Früher sagte Google "Nein". 2026 wissen wir: KI-Modelle trainieren auf Basis von Reddit, LinkedIn und Co. Wer dort Autorität besitzt, speist den Knowledge Graph (GEO). Zudem sind Brand Searches ("Jörg Zimmer SEO Berlin") das stärkste Trust-Signal überhaupt. Es zeigt, dass Nutzer deine Entität gezielt fordern.'
 ---
 
 Moin! 🌻
@@ -56,7 +56,7 @@ Vergiss das Rauschen. Konzentrier dich auf diese vier massiven Blöcke, die 90% 
 ### 4. Off-Page & Netzwerksignale (Die Bestätigung)
 *   **Mentions & [Citations](/glossar/citation/):** Erwähnungen deiner Marke stärken deine Entität. Wenn du überall positiv erwähnt wirst, steigt dein Sentiment in der KI.
 *   **Kuratierte Backlinks:** Vergiss den Masse-Spam aus indischen Foren. Ein einziger harter, redaktioneller Link von einer echten Branchen-Größe ist der Ritterschlag.
-*   **Brand Searches:** Tippen Nutzer deinen Firmennamen bei Google ein ("Teleschmiede SEO")? Das ist das ultimative Trust-Signal.
+*   **Brand Searches:** Tippen Nutzer deinen Namen bei Google ein ("Jörg Zimmer SEO")? Das ist das ultimative Trust-Signal.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">⚠️ Der massivste unterschätzte Hebel: Interne Verlinkung</h4>

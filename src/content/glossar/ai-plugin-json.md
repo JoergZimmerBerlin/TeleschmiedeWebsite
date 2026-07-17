@@ -74,7 +74,7 @@ Wenn du heute willst, dass dein eigenes KI-Modell auf deine Notion-Datenbank zug
 
 ## Was passiert jetzt mit den alten Dateien?
 
-Wenn ich bei Teleschmiede-Kunden einen Agent Readiness Audit durchführe, sehe ich diese Dateien noch massenhaft auf den Servern liegen. Oftmals von teuren Agenturen im Jahr 2024 für fünfstellige Summen als "KI-Innovation" verkauft und danach nie wieder angefasst.
+Wenn ich bei meinen Kunden einen Agent Readiness Audit durchführe, sehe ich diese Dateien noch massenhaft auf den Servern liegen. Oftmals von teuren Agenturen im Jahr 2024 für fünfstellige Summen als "KI-Innovation" verkauft und danach nie wieder angefasst.
 
 Die Frage lautet immer: *"Herr Zimmer, sollen wir die Datei löschen?"*
 

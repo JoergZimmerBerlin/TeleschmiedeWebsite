@@ -46,12 +46,12 @@ Für ein Large Language Model ist jedes Wort, jedes verdammte Zeichen in deinem 
 Rate mal, welche Quelle das RAG-System bevorzugt? Richtig, die, die seine Ressourcen schont. Wenn du Token sparst, wirst du öfter gecrawlt, besser verstanden und – das ist der absolute Kick – häufiger und präziser zitiert!
 
 ### Wie sieht eine knallharte llms.txt aus?
-Glaubt mir, ich sehe jeden Tag Files, da will ich am liebsten meinen Laptop aus dem Fenster der Teleschmiede werfen. Da wird stumpf das Marketing-Bla-Bla von der Startseite reinkopiert. "Wir sind die innovativsten und leidenschaftlichsten Lösungsanbieter für synergetische Digitalisierung..." Haltet die Klappe!
+Glaubt mir, ich sehe jeden Tag Files, da will ich am liebsten meinen Laptop aus dem Fenster meines Büros werfen. Da wird stumpf das Marketing-Bla-Bla von der Startseite reinkopiert. "Wir sind die innovativsten und leidenschaftlichsten Lösungsanbieter für synergetische Digitalisierung..." Haltet die Klappe!
 
 KIs haben keine Emotionen. KIs wollen Datenpunkte. Ein LLM liest das und denkt sich: "Was für ein irrelevanter Bullshit." 
 
 Der Jörg-Zimmer-Blueprint sieht so aus:
-1. **Fakten-Hammer:** "Teleschmiede. SEO-Agentur. Gegründet 2010. Spezialisiert auf AI-SEO, RAG-Optimierung und vollständige Agent Readiness." Bäm. Das versteht die Maschine.
+1. **Fakten-Hammer:** "Jörg Zimmer. SEO-Freelancer. Spezialisiert auf AI-SEO, RAG-Optimierung und vollständige Agent Readiness." Bäm. Das versteht die Maschine.
 2. **Entitäten-Struktur:** Liste deine Dienstleistungen und Kernkompetenzen als klare Entitäten auf. Mach Bulletpoints.
 3. **Verlinkung auf Deep-Content:** Deine `llms.txt` ist nur der Teaser. Sie muss zwingend auf deine [llms-full.txt](/glossar/llms-full-txt/) verweisen, in der du dein wirkliches Wissen bunkerst. Vergiss dabei bloß nicht die Trailing Slashes bei deinen internen Links! (z.B. `https://teleschmie.de/blog/` und NICHT `https://teleschmie.de/blog`).
 4. **Maschinenlesbare Endpunkte:** Zeig der KI direkt in der Datei, wo sie weitere strukturierte Daten findet. Mach den A2A-Agenten die Navigation so leicht wie möglich.
@@ -74,7 +74,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Schluss mit dem Blindflug im KI-Zeitalter!</h3>
-  <p class="mb-6">Du hast keinen Plan, wie man A2A-Protokolle bedient oder maschinenlesbare Endpunkte baut? Dann lass die Profis ran. Wir in der Teleschmiede bauen dir eine Infrastruktur, die vollständige Agent Readiness garantiert. Kein Marketing-Geschwafel, nur pure KI-Sichtbarkeit.</p>
+  <p class="mb-6">Du hast keinen Plan, wie man A2A-Protokolle bedient oder maschinenlesbare Endpunkte baut? Dann lass den Profi ran. Ich baue dir eine Infrastruktur, die vollständige Agent Readiness garantiert. Kein Marketing-Geschwafel, nur pure KI-Sichtbarkeit.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Check anfragen </a>
 </div>
 

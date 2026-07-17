@@ -4,7 +4,7 @@ description: "Ein Blick hinter die Kulissen: Welche Optimierungen waren nötig, 
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_pagespeed-100-perfekte-performance-activity-7290107283416819712-lP49"
 image: "../../assets/images/blog/pagespeed-tuning-guide.webp"
-image_alt: "PageSpeed 100/100 für die Teleschmiede - Jörg Zimmer optimiert die Performance"
+image_alt: "PageSpeed 100/100 für teleschmie.de - Jörg Zimmer optimiert die Performance"
 category: "Tech SEO & Tools"
 tags: []
 key_takeaways:
@@ -20,7 +20,7 @@ faqs:
 
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 20 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 
 
-In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der wir gedreht haben, damit diese Seite rennt, als gäbe es kein Morgen.
+In diesem Artikel lege ich die Karten auf den Tisch. Ich zeige dir jede einzelne Schraube, an der ich gedreht habe, damit diese Seite rennt, als gäbe es kein Morgen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -52,16 +52,16 @@ Außerdem: Google liebt Speed. In einer Welt, in der KI-Antworten immer mehr Kli
 
 ## Die Ausgangslage: Content-Recycling mit Hürden
 
-Fast alle Inhalte dieser Website stammen ursprünglich aus meinen LinkedIn-Posts. Das ist strategisches Content-Recycling. Aber LinkedIn liefert uns Bilder und Formate, die für das Web erst mal "schmutzig" sind. 
+Fast alle Inhalte dieser Website stammen ursprünglich aus meinen LinkedIn-Posts. Das ist strategisches Content-Recycling. Aber LinkedIn liefert mir Bilder und Formate, die für das Web erst mal "schmutzig" sind. 
 
-Die Bilder von LinkedIn haben oft Kryptische URLs, die nach ein paar Wochen ablaufen (Hotlinking-Tod!), sie sind meist viel zu groß und haben keine modernen Formate wie WebP. Wenn ich die einfach so übernommen hätte, wäre mein Score direkt auf 60 abgerutscht. Wir mussten also jedes einzelne Element anfassen.
+Die Bilder von LinkedIn haben oft Kryptische URLs, die nach ein paar Wochen ablaufen (Hotlinking-Tod!), sie sind meist viel zu groß und haben keine modernen Formate wie WebP. Wenn ich die einfach so übernommen hätte, wäre mein Score direkt auf 60 abgerutscht. Ich musste also jedes einzelne Element anfassen.
 
 ---
 
 ## SEO Best Practice: Bilder radikal optimieren
 
 ### Lokale Speicherung ist Pflicht
-Wir haben jedes LinkedIn-Bild heruntergeladen und lokal auf den Server gepackt. Das ist Schritt eins für Stabilität. Keine Abhängigkeit von externen CDN-URLs, die kommen und gehen.
+Ich habe jedes LinkedIn-Bild heruntergeladen und lokal auf den Server gepackt. Das ist Schritt eins für Stabilität. Keine Abhängigkeit von externen CDN-URLs, die kommen und gehen.
 
 ### WebP: Das neue Gold der Bildformate
 Jedes Bild wurde in WebP konvertiert. Warum? Weil es bei gleicher Qualität ca. 30% kleiner ist als ein JPG. Kleiner bedeutet schneller. Schneller bedeutet glücklichere Nutzer.
@@ -84,7 +84,7 @@ Viele vergessen das Thema Barrierefreiheit. Jedes Bild hat einen individuellen A
 
 ## SEO Best Practice: Die Font-Diät (System-Fonts)
 
-Google Fonts sind schick, ja. Aber sie kosten Zeit. Eine extra DNS-Verbindung, ein extra Request, das Rendern... das sind wertvolle Millisekunden. Wir haben uns für native System-Fonts entschieden.
+Google Fonts sind schick, ja. Aber sie kosten Zeit. Eine extra DNS-Verbindung, ein extra Request, das Rendern... das sind wertvolle Millisekunden. Ich habe mich für native System-Fonts entschieden.
 
 Das heißt: Auf einem Mac siehst du die Apple-Schrift, auf Windows die Microsoft-Schrift. Das Ergebnis ist eine Seite, die Text anzeigt, bevor überhaupt das erste Stylesheet fertig geladen ist. Das nennt man "Zero-Latency-Typography".
 
@@ -94,7 +94,7 @@ Das heißt: Auf einem Mac siehst du die Apple-Schrift, auf Windows die Microsoft
 
 Videos sind der Tod jeder Performance – wenn man sie falsch einbettet. Ein normales YouTube-Iframe lädt im Hintergrund hunderte Kilobyte an JavaScript, noch bevor du auf "Play" geklickt hast.
 
-**Unsere Lösung:** Wir laden nur eine "Fassade". Ein kleines Bild mit einem Fake-Play-Button. Erst wenn der Nutzer wirklich klickt, laden wir den schweren YouTube-Player. Der Effekt: Ein Geschwindigkeits-Boost von 40+ Punkten im PageSpeed Score.
+**Meine Lösung:** Ich lade nur eine "Fassade". Ein kleines Bild mit einem Fake-Play-Button. Erst wenn der Nutzer wirklich klickt, lade ich den schweren YouTube-Player. Der Effekt: Ein Geschwindigkeits-Boost von 40+ Punkten im PageSpeed Score.
 
 ---
 
@@ -104,7 +104,7 @@ Videos sind der Tod jeder Performance – wenn man sie falsch einbettet. Ein nor
 Ehrlich gesagt: Nein. Google sagt, alles im "grünen Bereich" (über 90) ist erst mal okay. Aber: In hart umkämpften Nischen kann der Speed das Zünglein an der Waage sein. Außerdem sinkt mit jeder Millisekunde Ladezeit deine Conversion-Rate. 100/100 ist also eher eine Investition in deinen Umsatz als nur in SEO.
 
 ### 2. Kann ich das mit WordPress auch schaffen?
-Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was wir hier nutzen) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
+Möglich? Ja. Schwierig? Absolut. WordPress lädt von Haus aus viel Ballast. Du brauchst sehr gute Caching-Plugins, eine radikale Reduzierung der Plugins und meistens ein Custom-Theme. Astro (was ich hier nutze) ist da im Vorteil, weil es standardmäßig gar kein JavaScript an den Browser schickt.
 
 ![Vergleich: WordPress (Schwerfällig) vs. Astro (Minimalistisch & Schnell)](../../assets/images/blog/astro-vs-wordpress-performance.webp)
 
@@ -115,7 +115,7 @@ Konzentriere dich auf den **LCP (Largest Contentful Paint)**. Das ist der Moment
 
 ## Das Ergebnis: Ein digitales Rennauto
 
-Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit wir diese Ergebnisse halten, auditieren wir die Seite regelmäßig mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und prüfen mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie die Geschwindigkeit auf unsere KI-Präsenz einzahlt.
+Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit ich diese Ergebnisse halte, auditiere ich die Seite regelmäßig mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> und prüfe mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie die Geschwindigkeit auf meine KI-Präsenz einzahlt.
 
 ## Was kostet so eine High-Performance-Website?
 

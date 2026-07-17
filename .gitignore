@@ -50,3 +50,6 @@ CLAUDE.md
 claude.md
 _work/
 .claude/
+
+# Google Search Console (Credentials)
+gsc-credentials.json

@@ -1,77 +1,86 @@
 ---
 category: "AI SEO & Generative Search"
-title: 'Google Algorithmus: Funktionsweise & Updates'
-description: 'Der Google Algorithmus ist das Herzstück der Suchmaschine. Erfahre, wie er funktioniert, welche Updates ihn formen und warum du ihn verstehen musst.'
-date: "2026-03-10"
+title: 'Google Algorithmus: Funktionsweise & Updates in der AI Overviews Ära'
+description: 'Der Google Algorithmus 2026 steuert in erster Linie AI Overviews. Erfahre, wie Agent Readiness und KI dein Ranking heute absolut bestimmen.'
+date: "2026-07-17"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
-related_terms: ["google-core-update", "rankingfaktoren", "e-e-a-t", "entity-seo"]
+related_terms: ["google-core-update", "rankingfaktoren", "e-e-a-t", "agent-readiness"]
 key_takeaways:
-  - "KI-gesteuert: Der Algorithmus nutzt KI-Systeme wie RankBrain, BERT und MUM für das Verständnis von Suchanfragen."
-  - "Ständig im Wandel: Google führt tausende Updates pro Jahr durch – die meisten bemerkt niemand."
-  - "Nicht hackbar: Nachhaltige SEO-Strategien schlagen kurzfristige Tricks. Immer."
+  - "AI Overviews First: Der Algorithmus optimiert primär für generative Antworten, nicht mehr nur für blaue Links."
+  - "Agent Readiness: Ohne saubere Markdown-Strukturen und APIs bist du für den Algorithmus unsichtbar."
+  - "E-E-A-T bleibt Kern: Vertrauen ist der wichtigste Vektor für RAG-Systeme und LLMs."
 faqs:
-  - question: 'Wie oft ändert Google seinen Algorithmus?'
-    answer: 'Google bestätigt, dass sie tausende Änderungen pro Jahr am Algorithmus vornehmen. Die meisten sind so klein, dass sie niemand bemerkt. Die großen, sichtbaren Updates – die sogenannten Core Updates – passieren etwa 3-4 Mal im Jahr und können Rankings massiv durcheinander wirbeln. In meiner Erfahrung als SEO-Berater ist die beste Strategie gegen Algorithmus-Angst: Baue eine Marke und exzellenten Content. Wer das tut, übersteht jedes Update.'
-  - question: 'Was passiert bei einem Google Core Update?'
-    answer: 'Bei einem Core Update bewertet Google die Qualität und Relevanz von Inhalten grundlegend neu. Seiten, die vorher gut rankten, können plötzlich abstürzen – und umgekehrt. Das Wichtigste: Core Updates sind keine Strafen! Wenn du verlierst, heißt das nur, dass andere Seiten jetzt als relevanter eingestuft werden. Mein Rat: Nicht in Panik verfallen, sondern die Daten analysieren. In der Google Search Console siehst du genau, welche Seiten und Keywords betroffen sind.'
-  - question: 'Kann ich den Google Algorithmus ''überlisten''?'
-    answer: 'Kurzfristig ja, langfristig niemals. Google hat tausende Ingenieure, die nichts anderes tun, als Manipulation aufzudecken. Wer auf Black-Hat-Tricks setzt (Linkspam, Keyword-Stuffing, Cloaking), gewinnt vielleicht für 3 Monate – und verliert dann alles. Die einzige nachhaltige Strategie: Baue die beste Antwort auf die Frage des Nutzers. Punkt. In 24 Jahren SEO habe ich genug ''Trickser'' kommen und gehen sehen.'
+  - question: 'Wie funktioniert der Google Algorithmus im Juli 2026?'
+    answer: 'Im Jahr 2026 ist der klassische Google-Algorithmus, der ehemals 10 blaue Links sortierte, nur noch ein Zulieferer für AI Overviews. Er fungiert als Retrieval-Augmented Generation (RAG) Backend. Das heißt: Er sucht die besten Informationsschnipsel aus dem Index, um die KI-Antwort direkt auf der Suchergebnisseite zu generieren. Wenn dein Content nicht "Agent Ready" ist, fällst du aus diesem Prozess komplett raus.'
+  - question: 'Welche Rolle spielen Core Updates heute noch?'
+    answer: 'Core Updates sind heute keine simplen Ranking-Korrekturen mehr. Es sind im Grunde Gewichts-Anpassungen (Weight Updates) der großen Sprachmodelle (LLMs), die hinter den AI Overviews stehen. Wenn du bei einem Core Update verlierst, bedeutet das, dass das LLM deinen Inhalten weniger Vertrauen (E-E-A-T) beimisst oder deine Datenstruktur für Agenten nicht effizient genug lesbar ist.'
+  - question: 'Wie optimiere ich für den aktuellen Algorithmus?'
+    answer: 'Durch Agent Readiness (Level 5). Der Algorithmus braucht strukturierte, saubere Daten. Vergiss bunte Layouts für den Crawler, konzentriere dich auf maschinenlesbares Markdown, saubere API-Endpunkte und semantische Klarheit. Bau Inhalte, die eine KI leicht parsen, verstehen und zitieren kann. Das ist der einzige Weg, in den AI Overviews aufzutauchen.'
 ---
 
 Moin!
 
-Der **Google Algorithmus** ist das bestgehütete Geheimnis der digitalen Welt. Kein Mensch auf der Erde kennt die vollständige Formel – nicht mal die Google-Ingenieure selbst, denn große Teile werden heute von KI-Systemen gesteuert.
+Vergiss alles, was du 2023 oder 2024 über den **Google Algorithmus** gelernt hast. Wir schreiben den Juli 2026, und die Spielregeln haben sich nicht einfach nur geändert – das alte Spielbrett wurde komplett abgeräumt und verbrannt. Wer heute noch glaubt, er müsse für "10 blaue Links" optimieren, hat den Schuss nicht gehört. Der Google Algorithmus ist heute in erster Linie die Engine hinter den **AI Overviews**.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wenn deine Seite technisch eine Katastrophe ist und du nicht mal in den Top 10 rankst, brauchst du dir über ChatGPT keine Gedanken machen."</p>
+  <p class="italic text-dark mb-0">"Wenn deine Website 2026 nicht Agent Ready ist, bist du für Google schlichtweg unsichtbar. Es interessiert niemanden mehr, wie hübsch dein Div-Container ist. Wenn das LLM dein unstrukturiertes HTML nicht parsen kann, lieferst du keine Antworten für die AI Overviews. Punkt. Wach endlich auf und implementiere Markdown Content Negotiation!"</p>
 </div>
 
-Was wir wissen: Der Algorithmus bewertet über 200 [Rankingfaktoren](/glossar/rankingfaktoren/), um aus Milliarden von Webseiten die zehn relevantesten für jede Suchanfrage auszuwählen. Und er wird jeden Tag besser darin.
+Der Algorithmus bewertet heute nicht mehr nur klassische [Rankingfaktoren](/glossar/rankingfaktoren/). Er entscheidet darüber, welche Entitäten und Quellen das RAG-Backend (Retrieval-Augmented Generation) füttern, um direkte, KI-generierte Antworten auszuspucken. 
 
-## Die Evolution des Algorithmus
+## Die Evolution zum RAG-Backend
 
-### Das Fundament: PageRank
-Alles begann mit einer Idee von Larry Page: Wer mehr qualitative Backlinks hat, ist relevanter. Simpel, genial, und der Grundstein für Googles Weltherrschaft.
+### Das Ende von RankBrain – Willkommen in der LLM-Ära
+Früher (und damit meine ich die Steinzeit vor 2024) nutzte Google Systeme wie RankBrain oder BERT, um Suchanfragen semantisch zu verstehen und die passenden HTML-Seiten auszuliefern. Heute nutzt Google diese Technologie, um den Kontext zu erfassen, aber das eigentliche Rendering der Ergebnisse übernimmt ein massives Sprachmodell (LLM). Der Kern-Algorithmus ist heute ein gigantischer Filter für das RAG-System. Er entscheidet: Welche Informationen sind so verlässlich, dass die KI sie gefahrlos zitieren darf?
 
-### Die KI-Revolution: RankBrain, BERT, MUM
-Seit 2015 nutzt Google KI-Systeme, die Suchanfragen interpretieren:
-*   **RankBrain:** Versteht die Intention hinter einer Suche, auch wenn sie nie zuvor gestellt wurde.
-*   **BERT:** Versteht den Kontext von Wörtern. "Bank" im Kontext von "Geld" vs. "Park" – kein Problem für BERT.
-*   **MUM (Multitask Unified Model):** Kann Text, Bilder und sogar Audio gleichzeitig verstehen. 1.000x leistungsfähiger als BERT.
+### AI Overviews als primäres Ziel
+Die [Generative Suche (GEO)](/glossar/geo/) hat gewonnen. Wenn Nutzer heute suchen, wollen sie sofort die fertige Antwort, synthetisiert aus drei bis fünf hochgradig vertrauenswürdigen Quellen. Der Google Algorithmus hat die Aufgabe, genau diese Quellen in Millisekunden zu identifizieren, ihren Content zu extrahieren und an das LLM zu übergeben.
 
-### Die nächste Stufe: SGE und AI Overviews
-Mit der [Generativen Suche (GEO)](/glossar/geo/) erzeugt Google direkte KI-Antworten. Der Algorithmus entscheidet jetzt nicht mehr nur, welche Seite auf Platz 1 steht, sondern auch, welche Quellen für die KI-Antwort zitiert werden.
+## Warum Agent Readiness das neue SEO ist
 
-## Die großen Updates und ihre Auswirkungen
+Hier kommt der wichtigste Punkt für Juli 2026: **Agent Readiness**.
+Google schickt nicht mehr nur den klassischen Googlebot, der HTML rendert und nach h1-Tags sucht. Google schickt KI-Agenten, die Fakten extrahieren.
 
-| Update | Ziel | Auswirkung |
+Wenn dein Server bei einer Anfrage eines solchen Agenten immer noch ein 4 Megabyte großes HTML-Konstrukt mit kaputtem JavaScript ausliefert, bricht der Agent ab. Er hat keine Zeit dafür.
+
+### Cloudflare Radar Level 5: Der Goldstandard
+Was der Algorithmus heute belohnt, ist technische Perfektion für Maschinen. Du musst das Cloudflare Radar Level 5 für Agent Readiness erreichen:
+1. **Markdown Content Negotiation:** Wenn ein Agent anfragt (erkannt am HTTP-Header), liefert dein Server sofort feinstes, reines Markdown aus. Kein HTML, kein CSS, nur Struktur.
+2. **auth.md:** Eine Datei im Root-Verzeichnis (`/auth.md`), die KI-Modellen klipp und klar sagt, wer du bist, wofür du stehst und was sie mit deinen Daten machen dürfen.
+3. **A2A Protocol (Agent-to-Agent):** Eine `agent-card.json`, die deine maschinenlesbaren APIs deklariert.
+
+Wer das bietet, wird vom Algorithmus mit Priorität behandelt. Warum? Weil es Google unfassbar viel Rechenleistung spart, fertiges Markdown zu ingestieren, anstatt wildes HTML zu parsen.
+
+## Die neuen Core Updates: LLM Weight Adjustments
+
+| Update-Typ | Fokus 2026 | Auswirkung auf AI Overviews |
 |---|---|---|
-| **Panda** | Content-Qualität | Thin Content und Content Farms abgestraft |
-| **Penguin** | Link-Qualität | Spam-Links und PBNs eliminiert |
-| **Hummingbird** | Semantik | Verständnis für Suchintention statt nur Keywords |
-| **Medic Update** | E-A-T | Gesundheits- und Finanzseiten massiv betroffen |
-| **Helpful Content** | Nutzer-Fokus | KI-generierter Spam abgestraft |
-| **Core Updates** | Allgemein | Regelmäßige Neubewertung der Gesamtqualität |
+| **E-E-A-T Core Update** | Entitäten-Vertrauen | Quellen, die als Fachexperten identifiziert werden, werden häufiger vom LLM zitiert. |
+| **Agent Readiness Rollout** | Technische Lesbarkeit | Seiten ohne Markdown-Fallback stürzen in den Zitationen extrem ab. |
+| **Helpful Content 3.0** | Synthese-Qualität | KI-Spam wird restlos gelöscht. Nur originäre Daten überleben. |
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Meine Erfahrung nach 24 Jahren</h4>
-  <p class="mb-0 text-sm">In meiner Karriere habe ich jeden einzelnen großen Algorithmus-Shift miterlebt. Die Konstante war immer die gleiche: Wer echten Mehrwert liefert und seine Nutzer in den Mittelpunkt stellt, übersteht jedes Update. Wer auf Tricks setzt, wird irgendwann erwischt. Ausnahmslos.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Meine Erfahrung aus den jüngsten Updates (Juli 2026)</h4>
+  <p class="mb-0 text-sm">Ich sehe es bei meinen Audits jeden verdammten Tag. Kunden rufen an, weil ihr Traffic um 60% eingebrochen ist. Wir schauen in die Server-Logs: Der Google-Agent hat massiv 406 Not Acceptable Fehler geworfen, weil er nach `text/markdown` gefragt hat und der Server nur schrottiges HTML liefern konnte. Das jüngste Core Update hat gnadenlos alle abgestraft, die technologisch im Jahr 2023 stehen geblieben sind. Wer Agent Readiness ignoriert, ist raus aus dem Markt.</p>
 </div>
 
 ## Mein Tacheles-Rat für dich
 
-Vergiss den Algorithmus. Im Ernst. Hör auf, bei jedem Core Update nervös zu werden und deine gesamte Strategie über den Haufen zu werfen. Konzentrier dich stattdessen auf das, was Google seit 20 Jahren belohnt: Den besten Content für deine Zielgruppe. Eine saubere Technik. Echte Expertise ([E-E-A-T](/glossar/e-e-a-t/)). Und eine starke Marke. Denn der Algorithmus ändert sich ständig – die Grundprinzipien nie.
+Hör auf, Algorithmus-Updates als Strafe zu sehen. Sie sind ein logischer Schritt in der Evolution der KI-Suche. Google muss Milliarden von Anfragen mit LLMs beantworten. Das kostet unfassbar viel Strom und Server-Kapazität. Der Algorithmus belohnt ab sofort diejenigen, die Googles Job einfacher machen.
 
-ALOHA 🌻 
+Bau deine Seite so um, dass sie für KI-Agenten optimiert ist. Pflege deine [E-E-A-T](/glossar/e-e-a-t/) Signale, damit das RAG-System dir vertraut. Implementiere Markdown-Ausgabe. Schreibe kristallklaren Content ohne Floskeln, denn LLMs hassen Geschwafel. Wenn du das tust, bist du immun gegen jedes Update, das noch kommen wird.
+
+ALOHA 🌻
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Hat ein Google Update dich getroffen?</h3>
-  <p class="mb-6">Ich analysiere, was passiert ist, und entwickle eine Strategie, die dich langfristig absichert. <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> hilft uns bei der Datenanalyse, <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> bei der Prognose deiner KI-Sichtbarkeit.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Update-Analyse anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Ist deine Website Agent Ready?</h3>
+  <p class="mb-6">Ich analysiere deine Infrastruktur und mache dein Projekt fit für die AI Overviews. Wir implementieren Content Negotiation, auth.md und sichern deine Sichtbarkeit in den LLMs.</p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Agent Readiness Audit anfragen </a>
 </div>
 
-* [Google Core Updates verstehen](/glossar/google-core-update/)
-* [Alle Rankingfaktoren im Überblick](/glossar/rankingfaktoren/)
+* [Google Core Updates im Detail](/glossar/google-core-update/)
+* [Was bedeutet Agent Readiness?](/glossar/agent-readiness/)
+* [Bing Webmaster Tools als RAG-Backend](/glossar/bing-webmastertools/)

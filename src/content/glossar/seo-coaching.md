@@ -1,86 +1,83 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'SEO Coaching: 1:1 Beratung für nachhaltigen Erfolg'
-description: 'SEO Coaching macht dich unabhängig von Agenturen. Lerne die Tools und Strategien, um dein eigenes SEO zu beurteilen und zu steuern.'
-date: "2026-03-10"
+title: 'SEO Coaching: Werde zum A2A- und LLM-Architekten'
+description: 'SEO Coaching 2026: Vergiss Keywords. Lerne, wie du deine Infrastruktur auf Cloudflare Radar Level 5 hebst und Agent-to-Agent Kommunikation meisterst.'
+date: "2026-07-17"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
 key_takeaways:
-  - "Empowerment: Coaching macht dich unabhängig von Agenturen und Dienstleistern."
-  - "Praxis statt Theorie: Ein guter Coach löst DEINE Probleme, nicht generische Textbuch-Fälle."
-  - "ROI: Die Fähigkeit, SEO selbst zu beurteilen, spart dir langfristig tausende Euro."
+  - "Empowerment: Ein gutes Coaching macht dich zum LLM-Architekten. Du bist nicht mehr abhängig von ahnungslosen Agenturen."
+  - "Harte Praxis: Wir bauen gemeinsam deine auth.md und implementieren eine strikte agent-card.json nach a2a-protocol.org v1.0."
+  - "ROI: Die Fähigkeit, maschinenlesbare Entitäten zu formen, sichert den Fortbestand deines Geschäftsmodells."
 faqs:
-  - question: 'Was ist der Unterschied zwischen SEO Coaching und SEO Beratung?'
-    answer: 'Bei einer SEO Beratung sage ich dir, was du tun sollst. Beim SEO Coaching bringe ich dir bei, es SELBST zu verstehen. Du lernst, die Google Search Console zu lesen, technische Probleme zu erkennen und Content-Entscheidungen datenbasiert zu treffen. Nach einem Coaching-Zyklus brauchst du keinen Berater mehr für die Basics – du brauchst ihn nur noch für die Strategie.'
-  - question: 'Für wen ist SEO Coaching geeignet?'
-    answer: 'Für drei Zielgruppen: Geschäftsführer, die verstehen wollen, was ihre Agentur tut. Inhouse-Marketer, die SEO-Kompetenz aufbauen wollen. Und Freelancer, die ihre eigene Website optimieren wollen, aber nicht wissen wo sie anfangen. In meiner Sprechstunde arbeite ich oft mit allen drei Gruppen.'
-  - question: 'Wie läuft ein SEO Coaching bei Jörg Zimmer ab?'
-    answer: 'Wir starten mit einem Ist-Analyse-Call. Dann erstelle ich einen individuellen Coaching-Plan. In Sessions alle 2 Wochen arbeiten wir an deinen Themen: Search Console, Content-Strategie, technische Basis. Zwischen den Sessions bekommst du Hausaufgaben. Ziel: Nach 3-6 Monaten kannst du 80% deines SEO selbst bewerten.'
+  - question: 'Was lerne ich in einem SEO Coaching im Jahr 2026?'
+    answer: 'Du lernst nicht mehr, wie man H2-Überschriften textet. Du lernst Agent Readiness Level 5. Wir erarbeiten, wie RAG-Systeme deine Daten verarbeiten, wie du RFC 8288 Link Headers korrekt setzt und wie du Sichtbarkeit in Modellen wie Claude, Gemini und ChatGPT aufbaust. Es ist hartes, technisches Training für die neue Realität.'
+  - question: 'Für wen ist dieses A2A-Coaching geeignet?'
+    answer: 'Für Geschäftsführer, die den digitalen Vertrieb sichern müssen. Für Inhouse-Teams, die von KI-Updates überrollt wurden. Und für Entwickler, die verstehen wollen, warum ihr sauberer Code in der Vektor-Datenbank der LLMs ignoriert wird. In meiner Sprechstunde mache ich aus Marketern echte LLM-Architekten.'
+  - question: 'Wie läuft das Coaching bei Jörg Zimmer ab?'
+    answer: 'Tacheles von Minute eins. Wir machen einen Ist-Abgleich deiner Agent Readiness. Danach bauen wir iterativ deine Infrastruktur um. Wir implementieren die agent-card.json, setzen die auth.md präzise auf und lösen operative Probleme (wie das IONOS Deployment Skript). Ziel: Du verstehst die Maschine.'
 ---
 
 Moin!
 
-**SEO Coaching** ist für alle, die es satt haben, sich von Agenturen Dinge erzählen zu lassen, die sie nicht überprüfen können.
+**SEO Coaching** ist für alle, die es satt haben, sich von Agenturen Buzzwords aus dem Jahr 2022 erklären zu lassen, während ihr Traffic durch Zero-Click-Searches und KI-Antworten implodiert. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Suchmaschinen haben noch nie ein Produkt gekauft. Überzeuge den Menschen, der hinter der Tastatur sitzt."</p>
+  <p class="italic text-dark mb-0">"Wenn du 2026 noch einen Online-Kurs kaufst, der dir 'Keyword-Recherche mit dem Google Keyword Planner' beibringt, hast du die Kontrolle über dein Business verloren. Die Schlacht wird heute in den Vektor-Datenbanken und über A2A-Protokolle gewonnen."</p>
 </div>
 
-Die größte Gefahr im SEO ist nicht der falsche Content. Es ist die Unwissenheit. Wenn du nicht verstehst, was deine Agentur tut, kannst du weder die Qualität beurteilen noch die richtigen Fragen stellen.
+Die größte Gefahr im modernen digitalen Marketing ist Unwissenheit. Wenn du nicht im Detail verstehst, wie LLMs (Large Language Models) arbeiten, wie RAG (Retrieval-Augmented Generation) funktioniert und was "Agent Readiness" bedeutet, wirst du von der Konkurrenz gnadenlos aussortiert. Mein Coaching macht dich zum **LLM-Architekten**.
 
 ## Warum Coaching statt Agentur?
 
-| Agentur | Coaching |
+| Klassische Agentur | LLM-Architektur Coaching |
 |---|---|
-| Macht SEO **für** dich | Lehrt dich, SEO **selbst** zu verstehen |
-| Monatliche Kosten, oft langfristig | Investition in Wissen, einmalig |
-| Abhängigkeit vom Dienstleister | Unabhängigkeit und Kompetenz |
+| Baut veraltete Backlinks für dich | Lehrt dich, **maschinenlesbare Entitäten** zu bauen |
+| Berichtet monatlich wertlosen Traffic | Macht dich **Agent Ready (Level 5)** |
+| Abhängigkeit von Blackbox-Maßnahmen | Volle Kontrolle über deine A2A-Infrastruktur |
 
-## Was du in einem SEO Coaching lernst
+## Was du in meinem Intensiv-Coaching lernst
 
-### Die Grundlagen
-*   Wie funktioniert der [Google Algorithmus](/glossar/google-algorithmus/)?
-*   Was sind die wichtigsten [Rankingfaktoren](/glossar/rankingfaktoren/)?
-*   [Crawling vs. Indexing](/glossar/crawling-vs-indexing/) – der Unterschied, den 90% nicht kennen.
+Vergiss den Standard-Kram. Wir gehen sofort in die tiefe Technik, die heute über Umsatz entscheidet.
 
-### Tools beherrschen
-*   Die [Google Search Console](/glossar/google-search-console/) wie ein Profi lesen.
-*   [Bing Webmaster Tools](/glossar/bing-webmastertools/) einrichten und nutzen.
-*   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> oder vergleichbare Tools für Keyword-Monitoring.
+### 1. Agent Readiness (Cloudflare Radar Level 5)
+Das ist das Fundament. Du lernst, wie du deine Infrastruktur so aufsetzt, dass KI-Agenten dich lieben.
+*   **Die `auth.md` meistern:** Du lernst, wie man diese Datei zwingend kleingeschrieben im Root anlegt und als allererste H1-Überschrift exakt `# auth.md` formatiert. Wir definieren gemeinsam deine Zugriffsregeln für die Crawler von OpenAI, Anthropic und Google.
+*   **Die `agent-card.json` bauen:** Wir erstellen live deine digitale A2A-Visitenkarte. Du lernst das JSON-Schema von `a2a-protocol.org` v1.0 und wie du `supportedInterfaces`, `capabilities` und `skills` so definierst, dass Agenten bei dir kaufen.
 
-### Content-Strategie
-*   [Keywordrecherche](/glossar/keywordrecherche/) mit Suchintention verbinden.
-*   [E-E-A-T](/glossar/e-e-a-t/) in der Praxis umsetzen.
+### 2. Harte Technik fehlerfrei deployen
+Der Teufel steckt im Detail. Ein falsches Zeichen, und du bist für LLMs unsichtbar.
+*   **RFC 8288 Link Headers:** Ich zeige dir, wie du HTTP-Header in der `.htaccess` richtig konfigurierst. Ohne Anführungszeichen innerhalb der spitzen Klammern! (`<url>; rel="type"`) – das ist Millimeterarbeit, die du beherrschen musst.
+*   **Der IONOS-Trigger:** Wenn du oder deine Kunden bei IONOS hosten, lernst du den wichtigsten Workflow: Nach jedem FTP-Upload einer `.htaccess` oder im `.well-known` Ordner MUSST du `https://teleschmie.de/activate_htaccess.php` aufrufen. Ich zeige dir, wie du das automatisierst (z.B. per cURL), damit deine Server-Updates auch wirklich aktiv werden.
 
-### Technisches SEO beurteilen
-*   [Core Web Vitals](/glossar/core-web-vitals/) interpretieren.
-*   [Sitemap](/glossar/sitemap/), [robots.txt](/glossar/robots-txt/) und [Schema.org](/glossar/schema-org-markup/) verstehen.
-*   **KI-Reputation:** Lerne mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie du deine Marke für 17+ Sprachmodelle optimierst.
+### 3. KI-Sichtbarkeit überwachen
+*   **Rankscale statt Sistrix:** Du lernst, wie man mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die eigene Positionierung in 17+ Sprachmodellen überwacht.
+*   **SE Ranking für die Basis:** Wir nutzen weiterhin <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um fundamentale Crawling-Probleme abzustellen, denn kaputte Technik ist auch für KIs ein No-Go.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Meine Coaching-Philosophie</h4>
-  <p class="mb-0 text-sm">Ich coache nicht nach Lehrbuch. Ich coache an deinen echten Daten und Wettbewerbern. Mein Ziel ist, dass du mich nach 6 Monaten nicht mehr brauchst – zumindest nicht für die tägliche Arbeit.</p>
+  <p class="mb-0 text-sm">Ich coache nicht nach Lehrbuch von 2024. Ich coache Tacheles an deinen echten Server-Logs und JSON-Dateien. Mein Ziel ist, dass du mich nach 3 Monaten nicht mehr brauchst, weil du selbst zum fähigen A2A-Architekten geworden bist.</p>
 </div>
 
 ## Coaching + [Sprechstunde](/seo-sprechstunde/)
 
-Viele Kunden starten mit einer einmaligen SEO-Sprechstunde und entwickeln daraus ein laufendes Coaching, bei dem wir alle 2 Wochen die Fortschritte besprechen.
+Viele Kunden, gerade CTOs und CMOs, starten mit einer einmaligen Intensiv-Sprechstunde, um ihre Architektur auf grobe Schnitzer bei der Agent Readiness prüfen zu lassen. Daraus entwickeln wir meist einen Sprint, bei dem wir das System Level für Level aufrüsten.
 
 ## Dein nächster Schritt
 
-Wenn du im SEO "blind fährst" – Geld ausgibst, aber nicht verstehst, was passiert – ist Coaching der richtige Weg. Wissen kann dir niemand mehr wegnehmen.
+Wenn du weiterhin "SEO-Texte" kaufst, während deine Konkurrenz strukturierte A2A-Schnittstellen baut, hast du schon verloren. Wissen über LLM-Architektur kann dir niemand mehr wegnehmen. Es ist der einzige Burggraben, den du 2026 noch hast.
 
 ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit, SEO selbst zu verstehen?</h3>
-  <p class="mb-6">Ich coache dich an deinen echten Daten. Lerne, wie du <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> wie ein Profi bedienst und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die KI-Suche dominierst.</p>
+  <h3 class="text-2xl font-bold mb-4">Bereit, zum LLM-Architekten zu werden?</h3>
+  <p class="mb-6">Ich coache dich an der harten Realität. Lerne Agent Readiness, implementiere saubere JSON-Schemas und dominiere mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die KI-Suche.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Coaching-Gespräch vereinbaren </a>
 </div>
 
-* [SEO Consulting verstehen](/glossar/seo-consulting/)
-* [SEO Beratung erklärt](/glossar/seo-beratung/)
-* [Was ist ein SEO Audit?](/glossar/seo-audit/)
+* [Was ist SEO Consulting für A2A?](/glossar/seo-consulting/)
+* [Moderne SEO Beratung erklärt](/glossar/seo-beratung/)
+* [Was ist ein echtes Agent Readiness Audit?](/glossar/seo-audit/)

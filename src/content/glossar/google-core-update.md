@@ -1,93 +1,81 @@
 ---
 category: "AI SEO & Generative Search"
-title: 'Google Core Updates: Auswirkungen und Erholung'
-description: 'Google Core Updates sind massive Änderungen am Suchalgorithmus. Erfahre, wie du sie überstehst und gestärkt daraus hervorgehst.'
-date: "2026-03-10"
+title: 'Google Core Updates 2026: LLM-Anpassungen & AI Overviews'
+description: 'Google Core Updates sind 2026 keine simplen Ranking-Shifts mehr, sondern massive LLM-Gewichtungsanpassungen. Erfahre, wie du in den AI Overviews überlebst.'
+date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-google-core-update-3d.webp"
-related_terms: ["sichtbarkeitsindex", "e-e-a-t", "seo-audit"]
+related_terms: ["sichtbarkeitsindex", "e-e-a-t", "seo-audit", "agent-readiness"]
 key_takeaways:
-  - "Qualitäts-Zäsur: Core Updates bewerten die gesamte Relevanz und Vertrauenswürdigkeit einer Domain neu."
-  - "E-E-A-T Fokus: Google gewichtet Expertise und echte Erfahrung heute stärker als rein technische SEO-Tricks."
-  - "Keine Panik: Schwankungen während des Rollouts sind normal. Analyse erst nach Abschluss des Updates."
+  - "RAG-Neubewertung: Core Updates bewerten, welche Entitäten das RAG-Backend für AI Overviews füttern dürfen."
+  - "Agent Readiness: Abstürze bei Updates resultieren heute primär aus fehlender Maschinenlesbarkeit (Markdown)."
+  - "E-E-A-T entscheidet: Das LLM zitiert nur Quellen, deren Trust-Signale im Core-Update bestätigt wurden."
 faqs:
-  - question: 'Wie oft rollt Google ein neues Core Update aus?'
-    answer: 'In der Regel erleben wir zwei bis vier große Core Updates pro Jahr. Google kündigt diese meist offiziell über ihren Search Central Account auf X (Twitter) oder LinkedIn an. Der Rollout selbst dauert dann oft zwei bis vier Wochen, in denen die Rankings extrem stark schwanken können. In dieser Zeit gilt für alle meine Kunden: Ruhe bewahren, keine Panik-Änderungen an der Website vornehmen, sondern abwarten, bis sich der Staub gelegt hat.'
-  - question: 'Kann man sich von einem Absturz nach einem Core Update erholen?'
-    answer: 'Ja, aber es ist ein Marathon, kein Sprint. Ein Core Update bestraft selten einen einzelnen technischen Fehler, sondern bewertet die Gesamtqualität deiner Seite auf Basis der E-E-A-T Kriterien neu. Wenn du massiv Traffic verlierst, musst du oft Monate hart arbeiten: Content aufräumen (Content Pruning), Expertise beweisen und die Informationsarchitektur schärfen. Oft siehst du erst beim nächsten oder übernächsten Core Update eine Recovery.'
-  - question: 'Gibt es eine offizielle Liste der Rankingfaktoren, die geändert wurden?'
-    answer: 'Nein, Google kommuniziert nie exakt, an welchen Schrauben gedreht wurde. Das liegt daran, dass der Kernalgorithmus hunderte Signale (und zunehmend massive KI-Modelle) nutzt, um Suchintentionen und Content-Qualität abzugleichen. Statt nach ''dem einen Fehler'' zu suchen, analysiere ich nach einem Update die Gewinner in deiner Nische: Was machen die besser? Meist geht es um überlegene Struktur, tiefere Expertise oder schnellere Antworten auf komplexe Nutzerfragen.'
+  - question: 'Was passiert bei einem Google Core Update im Jahr 2026?'
+    answer: 'Ein Core Update im Jahr 2026 ist im Kern ein Update der Modellgewichte (Weights) der großen Sprachmodelle, die Googles AI Overviews steuern. Es geht nicht mehr um Backlink-Profile oder klassische Onpage-Faktoren, sondern darum, wie das RAG-System (Retrieval-Augmented Generation) Entitäten und Fakten bewertet. Wer nach einem Update verliert, wurde vom LLM als nicht vertrauenswürdig genug für eine Zitation in den KI-Antworten eingestuft.'
+  - question: 'Wie erhole ich mich von einem Core Update Absturz?'
+    answer: 'Der klassische Fix (ein paar Title-Tags ändern) ist komplett tot. Du musst deine Agent Readiness auf Level 5 anheben. Das bedeutet: Biete deinen Content als sauberes Markdown über Content Negotiation an. Erstelle eine auth.md, um KI-Crawlern klare Regeln zu geben. Und vor allem: Liefere tiefe, originäre Expertise (E-E-A-T). Wenn das LLM deine Seite beim nächsten Rollout fehlerfrei parsen und deine Expertise verifizieren kann, kehrst du in die Overviews zurück.'
+  - question: 'Wie lange dauert ein Core Update Rollout?'
+    answer: 'Die Rollouts dauern nach wie vor oft 2 bis 4 Wochen. In dieser Zeit schwanken die Zitationen in den AI Overviews extrem. LLMs halluzinieren teilweise mit neuen Quellen, bis sich die Gewichte eingependelt haben. Ruhe bewahren, Logs analysieren (speziell auf Anfragen von KI-Agenten) und erst nach Abschluss des Rollouts handeln.'
 ---
 
-Ein Google Core Update ist das Erdbeben der SEO-Welt.
-Mehrmals im Jahr zieht Google an den großen Hebeln seiner künstlichen Intelligenz.
-Das Ziel: Die Qualität der Suchergebnisse radikal verbessern.
+Ein Google Core Update war früher wie ein Erdbeben für deine 10 blauen Links. Heute, im Juli 2026, ist es ein Tsunami, der deine gesamte **KI-Sichtbarkeit** neu definiert. Wenn Google an den Hebeln zieht, ändern sie die Gewichte ihrer gigantischen Sprachmodelle (LLMs).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wie schön deine Seite ist, korreliert nicht damit, wie viele Besucher du bekommst."</p>
+  <p class="italic text-dark mb-0">"Dein Sichtbarkeitsindex bei Sistrix interessiert das Google LLM einen feuchten Dreck. Wenn du bei einem Core Update 2026 abstürzt, dann weil dein Content für Maschinen nicht parsebar ist oder du schlichtweg keine echte Autorität bist. Hör auf zu weinen und mach deinen Code Agent Ready!"</p>
 </div>
 
-Danach ist nichts mehr wie vorher.
-Manche Seiten stürzen ab, manche schießen nach oben.
-Aber keine Panik. Ein Update ist keine Strafe.
-Es ist eine Neubewertung der Relevanz.
+Das Ziel der Updates 2026 ist radikal: Die Qualität der **AI Overviews** muss perfekt sein. Das RAG-System (Retrieval-Augmented Generation) darf nicht halluzinieren. Deshalb sind Core Updates jetzt die ultimative Qualitätskontrolle für Agent Readiness und E-E-A-T.
 
-## Was passiert bei einem Core Update?
+## Was passiert bei einem Core Update 2026 wirklich?
 
-Google ändert nicht nur einen kleinen Faktor.
-Es ändert das gesamte Verständnis davon, was eine "gute Website" ist.
-Dabei stehen oft Themen wie [E-E-A-T](/glossar/e-e-a-t/) im Fokus.
+Google ändert nicht einfach ein paar Rankingfaktoren. Sie kalibrieren die Schnittstelle zwischen dem Index und dem LLM. 
+Das RAG-Backend muss in Echtzeit entscheiden, welche Quellen für die Generierung einer Antwort herangezogen werden. 
 
-*   **Experience:** Hast du echte Erfahrung zum Thema?
-*   **Expertise:** Bist du ein anerkannter Fachmann?
-*   **Authoritativeness:** Bist du eine führende Stimme in deiner Nische?
-*   **Trustworthiness:** Kann man dir und deinen Daten vertrauen?
+### Der Filter für KI-Zitationen
+Ein Core Update bewertet deine Domain komplett neu:
+*   **Agent Readiness:** Kann der KI-Agent deinen Content reibungslos als Markdown über Content Negotiation abrufen? (Stichwort: Level 5 Readiness).
+*   **Experience & Expertise (E-E-A-T):** Sind deine Inhalte originär? Oder bist du nur ein weiterer KI-generierter Content-Farm-Klon?
+*   **Strukturelle Integrität:** Hast du eine saubere `auth.md` und `agent-card.json`, die deine Identität für Maschinen zweifelsfrei klärt?
 
-## Die goldene Regel: Nicht sofort reagieren!
+## Die goldene Regel: Fokus auf den Agenten
 
-Wenn ein Update rollt, brennt die Luft auf LinkedIn.
-Überall siehst du Screenshots von fallenden [Sichtbarkeitsindizes](/glossar/sichtbarkeitsindex/).
-Mein Rat als [SEO Freelancer](/seo-freelancer-berlin/): Füße stillhalten.
+Wenn ein Update im Jahr 2026 rollt, brennt die Hütte in den SEO-Foren. Jeder starrt auf seine Klicks. Mein Rat als [SEO Experte](/seo-freelancer-berlin/): Schau nicht auf die Klicks von Menschen, schau in deine Server-Logs!
 
-Ein Core Update dauert oft zwei bis vier Wochen.
-Vorher sind alle Daten nur Rauschen.
-Warte ab, bis der Staub sich gelegt hat.
-Erst dann machen wir eine saubere [Analyse](/glossar/seo-audit/).
+Prüfe, was die Agent-Crawler tun. Werfen sie 406-Fehler, weil sie Markdown verlangen und dein Server nur HTML liefert? Wenn ja, hast du die Ursache für deinen Absturz nach dem Core Update bereits gefunden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Es gibt keinen "Quick Fix"</h4>
-  <p class="mb-0 text-sm">Ein Core Update lässt sich nicht mit ein paar neuen Meta Tags reparieren. Google bewertet die gesamte Qualität deiner Domain neu. Wenn du verloren hast, musst du an die Basis: Content, Struktur und Vertrauen.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Es gibt keinen "Quick Fix" für LLMs</h4>
+  <p class="mb-0 text-sm">Ein LLM vergisst nicht so schnell. Wenn du bei einem Core Update als "unzuverlässige RAG-Quelle" markiert wurdest, brauchst du harte Fakten, um das Gegenteil zu beweisen. Du musst deinen Code säubern, deine API-Endpunkte für Agenten öffnen und echten, unkopierbaren Mehrwert liefern. Erst beim nächsten Update wird das LLM dir vielleicht wieder vertrauen.</p>
 </div>
 
-## So bereitest du dich vor
+## So bereitest du dich vor: Agent Readiness Audit
 
-Du kannst dich nicht vor einem Update verstecken.
-Aber du kannst dein Haus sturmfest machen.
+Du kannst dich nicht vor einem Update verstecken. Aber du kannst deine Infrastruktur unangreifbar machen.
 
-1.  **Content-Hygiene:** Lösche veraltete oder minderwertige Inhalte.
-2.  **Nutzer-Fokus:** Bau keine SEO-Seiten. Bau Seiten für Menschen. ([Usability](/glossar/usability/)).
-3.  **Technische Exzellenz:** Sorge für einen perfekten [PageSpeed](/glossar/pagespeed/) und saubere [Strukturierte Daten](/glossar/strukturierte-daten/).
+1.  **Markdown First:** Richte Content Negotiation ein. Wenn der Header `Accept: text/markdown` kommt, MUSS dein Server sauberes Markdown liefern.
+2.  **Die auth.md Datei:** Das ist 2026 absolute Pflicht. Schreibe in `/auth.md` genau rein, wer die KI trainieren darf und unter welchen Bedingungen dein Content im RAG zitiert werden darf. Muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# auth.md` enthalten.
+3.  **A2A Agent Card:** Implementiere die `agent-card.json` strikt nach dem JSON-Schema von a2a-protocol.org v1.0. 
+4.  **Content-Hygiene:** Lösche KI-Spam. Wenn du ChatGPT nutzt, um 1000 generische Artikel zu bauen, wird das nächste Core Update dich aus dem Index radieren.
 
 ## Core Updates und die KI-Suche ([GEO](/glossar/geo/))
 
-Die neuesten Updates zielen massiv auf KI-generierten Spam ab.
-Google erkennt heute sehr gut, ob ein Text echtes Wissen enthält oder nur aus Worthülsen besteht.
-Für die Sichtbarkeit in [Generative Engines](/glossar/geo/) ist ein überstandenes Core Update wie ein Gütesiegel.
-Wenn Google dir vertraut, vertrauen dir auch die LLMs.
+Wir optimieren heute primär für Generative Engine Optimization (GEO). Ein überstandenes Core Update ist das wichtigste Gütesiegel für deine GEO-Strategie. Wenn das Google-RAG-System dir nach einem Update weiterhin vertraut, wirst du in den AI Overviews extrem dominant platziert. Und genau da passiert 2026 der Traffic – bei den Nutzern, die direkte Antworten auf komplexe Fragen suchen.
 
 ## Jörgs Action-Plan
 
-Hab keine Angst vor Core Updates. Sie sind eine Chance für alle, die wirklich gute Arbeit leisten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> begleiten wir den Sichtbarkeitsverlauf während und nach dem Rollout in Echtzeit. Wenn du konsequent auf Qualität und Erfahrung setzt, wirst du langfristig gewinnen. Bleib ruhig, bleib dran und denk immer an den Nutzer. Denn am Ende optimieren wir für Menschen – nicht für Algorithmen.
+Hab keine Angst vor Core Updates. Sie trennen den Müll von den Diamanten. Mit einem sauberen Agent-Ready Setup und konsequenter Qualität gehörst du zu den Diamanten. Wir begleiten den Rollout in Echtzeit, analysieren deine Server-Logs auf Agent-Anfragen und justieren dein Setup. Bleib ruhig, optimiere für Maschinen und denk immer an den echten Mehrwert. Denn am Ende zitieren auch LLMs am liebsten die Experten.
 
 ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Ranking-Absturz nach einem Update?</h3>
-  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website und erstelle einen Recovery-Plan. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir die Erholung, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Recovery-Audit anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Zitationen in den AI Overviews verloren?</h3>
+  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website, prüfe deine Agent Readiness (Level 5) und baue einen Recovery-Plan für das nächste LLM-Update.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Core-Update-Recovery anfragen </a>
 </div>
 
-* [Was ist der Sichtbarkeitsindex?](/glossar/sichtbarkeitsindex/)
+* [Was ist Agent Readiness?](/glossar/agent-readiness/)
 * [Alles über E-E-A-T](/glossar/e-e-a-t/)
+* [Die Google Search Console im Jahr 2026](/glossar/google-search-console/)

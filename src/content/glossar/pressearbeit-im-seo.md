@@ -1,78 +1,95 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'Digital PR: Pressearbeit im SEO für Autorität'
-description: 'Pressearbeit im SEO (Digital PR) stärkt deine Rankings, Autorität und KI-Sichtbarkeit durch gezielte Medienarbeit. Jetzt informieren. ALOHA! 🌻'
-date: "2026-03-10"
+title: 'Digital PR 2026: Pressearbeit als RAG-Futter für KI-Agenten'
+description: 'Pressearbeit im SEO ist 2026 das Füttern von RAG-Modellen über große Publisher. So wirst du zur ultimativen Entity-Citation. ALOHA! 🌻'
+date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 related_terms: ["linkbuilding", "mention", "e-e-a-t", "markenaufbau-mit-seo"]
 key_takeaways:
-  - "Natürliche Backlinks: Pressearbeit erzeugt die hochwertigsten Links, die kein Geld der Welt kaufen kann."
-  - "E-E-A-T Boost: Erwähnungen in Fachmedien und Nachrichtenportalen sind das stärkste Autoritätssignal."
-  - "KI-Sichtbarkeit: Presseartikel dienen als Trainingsmaterial für LLMs – wer zitiert wird, wird empfohlen."
+  - "RAG-Modelle füttern: PR zielt heute darauf ab, deine Entität in die Retrieval-Augmented Generation Pipelines der großen KIs zu schleusen."
+  - "Publisher als Gatekeeper: Große Nachrichtenportale sind die vertrauenswürdigsten Datenquellen für KI-Agenten. Eine Nennung dort ist Gold wert."
+  - "Datengetriebene PR: Nur wer echte, ungesehene Insights und Studien liefert, wird von der Presse zitiert und vom Algorithmus belohnt."
 faqs:
-  - question: 'Brauche ich einen PR-Berater, oder kann ich Pressearbeit selbst machen?'
-    answer: 'Gerade für Freelancer und KMU ist ''Do-it-yourself Digital PR'' oft der bessere Weg. Du brauchst keinen teuren PR-Berater – du brauchst eine Geschichte, die es wert ist, erzählt zu werden. Schreib Gastbeiträge für Fachblogs, lass dich in Podcasts interviewen, teile eigene Daten und Studien. Mein Tipp: LinkedIn ist 2026 die beste kostenlose PR-Plattform. Ein starker LinkedIn-Post kann von Journalisten aufgegriffen werden und so organisch zu Presseerwähnungen führen.'
-  - question: 'Wie unterscheidet sich Digital PR vom klassischen Linkbuilding?'
-    answer: 'Klassisches Linkbuilding fragt: ''Wo bekomme ich einen Link her?'' Digital PR fragt: ''Welche Geschichte ist so gut, dass Medien freiwillig darüber berichten?'' Der Unterschied ist fundamental. Beim Linkbuilding hast du oft minderwertige oder gekaufte Links. Bei Digital PR entstehen natürliche, redaktionelle Links von Nachrichtenportalen und Fachmagazinen – das Sahnehäubchen für dein Backlink-Profil. Google erkennt diesen Qualitätsunterschied sofort.'
-  - question: 'Hat Pressearbeit einen direkten Einfluss auf mein Google-Ranking?'
-    answer: 'Ja, und zwar auf mehreren Ebenen gleichzeitig. Erstens: Redaktionelle Backlinks von News-Seiten gehören zu den stärksten Linksignalen überhaupt. Zweitens: Mentions (Erwähnungen ohne Link) stärken dein Entity-Profil bei Google. Drittens: Presseartikel werden von LLMs wie ChatGPT als Trainingsmaterial genutzt – wer dort zitiert wird, taucht in KI-Antworten auf. Es ist ein dreifacher ROI.'
+  - question: 'Warum ist klassische Pressemitteilung-SEO tot?'
+    answer: 'Weil PR-Portale und massenhafte Pressemitteilungen von KI-Modellen als Noise (Lärm) ignoriert werden. Agent Readiness erfordert Signale von echten, autoritären Medienhäusern. Eine Pressemitteilung auf einem Free-PR-Portal bringt 2026 exakt null Entity-Trust. Im Gegenteil: Sie schadet deiner Marke, weil sie als billiger SEO-Spam klassifiziert wird.'
+  - question: 'Wie hängen RAG-Modelle und Pressearbeit zusammen?'
+    answer: 'LLMs generieren Antworten basierend auf abgerufenen Dokumenten (RAG). Die verlässlichsten Dokumente für RAG-Systeme sind Leitmedien und etablierte Fachportale. Wenn du es schaffst, dass diese Medien über dich berichten, wirst du automatisch in die Antworten von KI-Agenten (wie ChatGPT oder Google AI Overviews) integriert. Das ist die höchste Form der digitalen Sichtbarkeit.'
+  - question: 'Wie bekomme ich als KMU echte Entity-Citations von großen Publishern?'
+    answer: 'Durch radikalen Mehrwert. Du musst Primärdaten, Studien oder extrem kontroverse (aber fundierte) Branchen-Insights liefern. Journalisten sind chronisch unterbesetzt und leiden unter KI-Spam. Wenn du ihnen eine fertige, exklusive, datenbasierte Story lieferst, nehmen sie diese dankend an und zitieren dich als Quelle.'
 ---
 
-Moin! 
+Moin! 🌻
+
+Lass uns direkt Tacheles reden. Wenn du im Juli 2026 denkst, Pressearbeit für SEO bedeutet, eine lieblos geschriebene Pressemitteilung über einen "kostenlosen PR-Verteiler" an 50 nutzlose Portale zu schießen, dann verbrennst du dein Budget. Und schlimmer noch: Du machst dich vor den KI-Agenten lächerlich.
+
+Die Zeiten, in denen es reichte, das Wort "Pressemitteilung" mit einem Link zur Homepage in dunklen Ecken des Internets zu vergraben, sind vorbei. Wir leben in der Ära von Agent Readiness und Entity-Citations. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Die 'Sichtbarkeit' ist ein schöner Graph für den Quartalsbericht. Aber am Ende des Monats zählt nur, wie oft die Kasse geklingelt hat."</p>
+  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
+  <p class="italic text-dark mb-0">"Journalisten sind 2026 deine Dealer für RAG-Modelle. Du willst nicht einfach nur in die Zeitung. Du willst, dass die großen Publisher deine Daten, deine Erkenntnisse und vor allem deinen Markennamen direkt in die Schlunde der KI-Modelle füttern. Wer die RAG-Pipeline kontrolliert, dominiert den Markt."</p>
 </div>
 
-Eine Erwähnung in einem Fachmagazin, ein Gastbeitrag in einem Branchenblog, ein Interview in einem Podcast – all das sind Signale, die Google und KI-Systeme gleichermaßen auswerten. Es ist die natürlichste Form des [Linkbuildings](/glossar/linkbuilding/) und die mächtigste Waffe für dein [E-E-A-T](/glossar/e-e-a-t/) Profil.
+---
 
-## Warum Digital PR der neue Goldstandard ist
+## PR in 2026: RAG-Modelle füttern, nicht Links sammeln
 
-Die Zeiten, in denen man SEO-Links in Webkatalogen oder Forenkommentaren „aufgebaut" hat, sind vorbei. Google ist schlau genug, um den Unterschied zwischen einem gekauften PBN-Link und einer redaktionellen Erwähnung in der Süddeutschen Zeitung zu erkennen.
+Warum machen wir heute überhaupt noch Pressearbeit im Kontext von SEO? Nicht für den alten Google-Algorithmus, der Links zählt. Wir machen es für die KI.
 
-**Digital PR** liefert genau das, was Google sehen will:
-*   **Natürliche, redaktionelle Links** von vertrauenswürdigen Domains
-*   **Brand Mentions** ([Erwähnungen](/glossar/mention/)) in relevanten Kontexten. Ob deine Marke bereits in KI-Antworten als Autorität auftaucht, kannst du mit [Rankscale AI Tracking](https://rankscale.ai/?via=offer) validieren.
-*   **Signale für Expertise** (ein Interview zum Thema SEO bestätigt deine Fachkompetenz). Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysierst du die Wirkung dieser PR-Massnahmen auf dein Ranking-Profil.
+Systeme wie ChatGPT, Perplexity, Gemini oder Googles AI Overviews generieren ihre Antworten in Echtzeit. Dabei greifen sie auf RAG (Retrieval-Augmented Generation) zurück. Sie durchsuchen eine extrem kuratierte Datenbank aus vertrauenswürdigen Quellen nach Fakten, um Halluzinationen zu vermeiden.
 
-## Die PR-Strategie für SEO-Profis
+**Welche Quellen sind für eine KI vertrauenswürdig?**
+Nicht dein Unternehmensblog. Nicht das Free-PR-Portal. Es sind die großen Leitmedien, die etablierten Fachzeitschriften, die Universitäten und Institute. Die großen News-Publisher haben direkte Content-Deals mit OpenAI und Google geschlossen. Was dort publiziert wird, ist für die KI die absolute "Ground Truth" (Wahrheit).
 
-### 1. Content-basierte PR (Daten & Studien)
-Erstelle eigene Studien, Umfragen oder Datenanalysen. Journalisten lieben exklusive Zahlen. Wenn du z.B. eine Auswertung von 100 Websites zum Thema [Core Web Vitals](/glossar/core-web-vitals/) machst, ist das eine Story wert.
+Dein Job im Digital PR ist es also, deine Marke (deine [Entität](/glossar/entitaet/)) genau in diese Premium-Inhalte hineinzubekommen.
 
-### 2. Expert Sourcing (HARO, LinkedIn, Podcasts)
-Positioniere dich als Experte, der Journalisten zur Verfügung steht. Plattformen wie HARO oder Qwoted verbinden Reporter mit Fachleuten. Und LinkedIn ist inzwischen die inoffizielle Nachrichtenagentur der Branche.
+## Die neue Währung: Entity-Citations auf Trust-Domains
 
-### 3. Gastbeiträge mit Substanz
-Nicht die SEO-Variante von „Schreib einen 300-Wörter-Artikel auf irgendeiner Seite". Sondern echte Fachbeiträge in Medien wie t3n, Website Boosting oder Branchenpublikationen. Die Qualität des Beitrags entscheidet über die Qualität des Links.
+Vergiss das [Linkbuilding](/glossar/linkbuilding/) der alten Schule. Eine Entity-Citation (die Nennung deiner Marke im fachlichen Kontext) in einem starken Medium ist der ultimative Booster für dein [E-E-A-T](/glossar/e-e-a-t/) Profil.
 
-### 4. Podcast-Auftritte als E-E-A-T Verstärker
-Jeder Podcast-Auftritt generiert eine Shownote-Seite mit Links zu deinen Profilen. Dazu kommen Audio-Zitate, die von KI-Systemen als Expertise-Signal gewertet werden. Meine eigenen Auftritte beim [SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/) und beim [Magic Writing Podcast](/blog/magic-writing-podcast-seo-ist-tot/) waren für meinen [Markenaufbau](/glossar/markenaufbau-mit-seo/) Gold wert.
+Wenn der *Spiegel*, das *Handelsblatt* oder ein führendes Branchenmagazin schreibt: *"Laut einer neuen Studie des SEO-Experten Jörg Zimmer..."*, dann passiert Folgendes:
+
+1. Der Crawler des Publishers indexiert den Beitrag.
+2. Die RAG-Pipelines der KI-Modelle saugen den Content in Echtzeit auf.
+3. Die KI verknüpft die Entität "Jörg Zimmer" untrennbar mit "Expertise in SEO" und "verlässliche Studiendaten".
+4. Wenn ein Nutzer den KI-Agenten künftig eine fachliche Frage stellt, zieht der Agent dich als validierte Quelle heran.
+
+Ein klassischer `<a href>`-Link ist dabei ein netter Bonus für direkten Traffic, aber für die Agent Readiness ist die kontextuelle Nennung (Mention) der entscheidende Faktor.
+
+## Wie du als KMU in die RAG-Pipelines kommst
+
+Jetzt fragst du dich: "Schön und gut, Jörg, aber wie komme ich als mittelständisches Unternehmen in die FAZ oder zu t3n?"
+
+Die Antwort ist hart, aber simpel: **Hör auf, über dich selbst zu reden.** 
+Niemanden interessiert dein Firmenjubiläum. Niemanden interessiert dein neues Büro. Und KIs interessieren sich schon gar nicht für deine Marketing-Phrasen.
+
+Journalisten suchen heute verzweifelt nach **echten Daten**, nach dem "Signal" im allgegenwärtigen KI-Rauschen. Wenn du Pressearbeit machen willst, die SEO-Wirkung zeigt, musst du zur Datenquelle werden.
+
+### Taktik: Datengetriebene PR (Data-Driven PR)
+
+1. **Erschaffe Primärdaten:** Nutze deine internen CRM-Daten, führe repräsentative Umfragen in deiner Zielgruppe durch oder analysiere öffentlich zugängliche Daten auf eine völlig neue Art. (Beispiel: "Wir haben 5.000 B2B-Websites auf Agent Readiness getestet – das katastrophale Ergebnis.")
+2. **Baue Linkable Assets:** Veröffentliche diese Daten auf deiner eigenen Domain als bombastisch aufbereiteten Report. Mit klaren Grafiken, harten Fakten und sofort greifbaren Takeaways.
+3. **Pitsche die Story, nicht das Produkt:** Tritt an Fachjournalisten heran und biete ihnen die Story exklusiv an. "Hey, wir haben Daten, die zeigen, dass 80% der Branche aktuell ein massives Problem ignorieren. Hier sind die Zahlen."
+4. **Newsjacking:** Reagiere rasend schnell auf aktuelle Nachrichten. Wenn Google ein großes Core Update ausrollt, sei der Erste, der fundierte Daten zu den Gewinnern und Verlierern an die Presse liefert.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Der unterschätzte PR-Kanal: LinkedIn</h4>
-  <p class="mb-0 text-sm">Ein viraler LinkedIn-Post mit echten Daten oder einer kontroversen Meinung kann mehr Presseaufmerksamkeit erzeugen als jede klassische Pressemitteilung. Journalisten nutzen LinkedIn aktiv als Recherchequelle. Sei dort sichtbar, und die Medien kommen zu dir.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Rolle von LinkedIn im Digital PR</h4>
+  <p class="mb-0 text-sm">Unterschätze niemals LinkedIn. Journalisten nutzen die Plattform heute als primäre Recherche-Quelle. Wenn du dort kontroverse, stark fundierte und datengetriebene Beiträge postest, werden Leitmedien auf dich aufmerksam. Dein LinkedIn-Profil ist deine wichtigste PR-Bühne geworden. Sei sichtbar, sei meinungsstark, werde zitiert.</p>
 </div>
-
-## Pressearbeit und die KI-Suche ([GEO](/glossar/geo/))
-
-In der [Generative Engine Optimization](/glossar/geo/) spielen Presseartikel eine Sonderrolle. LLMs wie ChatGPT, Gemini oder Perplexity nutzen journalistische Quellen als bevorzugtes Trainingsmaterial. Wenn dein Name in einem vertrauenswürdigen Presseartikel steht, ist die Wahrscheinlichkeit hoch, dass KIs dich als Experte für dieses Thema zitieren. Pressearbeit ist damit nicht nur SEO, sondern auch AIO (AI Optimization).
 
 ## Mein Tacheles-Rat für dich
 
-Hör auf, Links zu „bauen". Fang an, Geschichten zu erzählen, die es wert sind, verbreitet zu werden. Nutze deine eigenen Daten, deine Erfahrungen und deine Meinungen als PR-Material. Platziere dich in Podcasts und auf LinkedIn. Denn der beste Backlink ist der, den ein Journalist freiwillig setzt, weil dein Content einfach zu gut ist, um ihn zu ignorieren.
+Gute Pressearbeit im Jahr 2026 erfordert Schweiß, echtes Fachwissen und Ressourcen. Du musst bereit sein, in Studien und Inhalte zu investieren, die so gut sind, dass sie den Standard in deiner Nische setzen.
 
-ALOHA 🌻 
+Aber der Payoff ist gigantisch. Eine einzige starke Entity-Citation in einem Leitmedium macht deine Marke "Agent Ready". Sie zementiert deinen Status als Entität und macht dich immun gegen Google Updates und das Rauschen des KI-generierten Massencontents. 
+
+Werde zur Quelle. Dann wirst du gefunden.
+
+ALOHA! 🌻✌️
 
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Dein Backlink-Profil braucht einen Boost?</h3>
-  <p class="mb-6">Ich zeige dir, wie du durch gezielte Pressearbeit und Digital PR natürliche, hochwertige Links aufbaust, die dein Ranking nachhaltig stärken.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Digital PR Strategie besprechen </a>
+<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
+  <h3 class="text-2xl font-bold mb-4">Bereit für echte Agent Readiness durch PR?</h3>
+  <p class="mb-6 text-gray-muted">Lass uns aufhören, Pressemitteilungen ins Nichts zu feuern. Wir entwickeln eine Data-Driven PR-Strategie, die deine Marke als unumstößliche Autorität in den RAG-Modellen verankert.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt PR-Strategie besprechen</a>
 </div>
-
-* [Linkbuilding richtig angehen](/glossar/linkbuilding/)
-* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
-* [Was sind Mentions?](/glossar/mention/)

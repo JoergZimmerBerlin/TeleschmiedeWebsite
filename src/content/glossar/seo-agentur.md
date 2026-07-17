@@ -1,81 +1,134 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'SEO Agentur Berlin: Experten für Ihre Sichtbarkeit'
-description: 'Wann brauchst du eine SEO Agentur, wann einen Freelancer? Ich helfe dir, die richtige Wahl zu treffen oder deine aktuelle Zusammenarbeit objektiv zu bewerten. Mit dem Profitability-Audit von SE Ranking machen wir Ergebnisse messbar, während Rankscale uns zeigt, ob deine Agentur auch die Zukunft (KI-Sichtbarkeit) auf dem Schirm hat.'
-date: "2026-03-10"
+title: 'SEO Agentur Berlin: Vom Dienstleister zum A2A- und LLM-Architekten'
+description: 'Die klassische SEO Agentur ist tot. Im Juli 2026 entscheiden Agent Readiness, A2A-Protokolle und LLM-Architektur über Sichtbarkeit. Wer heute noch Keyword-Dichte optimiert, verbrennt dein Geld.'
+date: "2026-07-17"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
 key_takeaways:
-  - "Struktur: Agenturen bieten oft ein breites Spektrum von Content bis IT-Support."
-  - "Lokaler Fokus: Eine SEO Agentur Berlin kennt den regionalen Markt und die Wettbewerber vor Ort."
-  - "Synergien: Oft arbeiten SEO SEA Agenturen an der Schnittstelle von organischem und bezahltem Traffic."
+  - "Paradigmenwechsel: Eine moderne SEO Agentur baut keine Backlinks mehr, sondern optimiert für LLMs und Agent Readiness (Level 5)."
+  - "A2A-Fokus: Agent-to-Agent Kommunikation entscheidet darüber, ob KI-Systeme deine Produkte empfehlen und zitieren."
+  - "Tacheles: Wer dir 2026 noch monatliche Keyword-Rankings ohne LLM-Tracking verkauft, zockt dich ab. Es geht um maschinenlesbare Entitäten."
 faqs:
-  - question: 'Wann ist der richtige Zeitpunkt, eine klassische SEO Agentur zu beauftragen?'
-    answer: 'Eine SEO Agentur spielt ihre Stärken aus, wenn du ein massives Projekt mit extrem hohem Umsetzungsbedarf hast. Wenn dein Online-Shop tausende URLs umfasst und du gleichzeitig PR-Outreach, Content-Produktion am Fließband und technische IT-Interventionen brauchst, ist die Manpower einer Agentur sinnvoll. Für strategische Deep-Dives, spezialisiertes Wissen oder direkte 1:1-Betreuung ohne Account-Manager-Ping-Pong bist du bei einem hochspezialisierten SEO Freelancer oft deutlich besser aufgehoben.'
-  - question: 'Wo liegt der genaue Unterschied zwischen Agentur und Freelancer?'
-    answer: 'Agenturen punkten mit Skalierbarkeit, Redundanz (falls jemand krank wird) und einem breiten Team aus Generalisten und Textern. Ein Freelancer wie ich arbeitet hingegen wie ein Skalpell: Maximal fokussiert auf Strategie, schnelle Entscheidungswege und direkten Dialog. Bei mir hast du nicht den ''Junior Consultant'' am Telefon, sondern den Experten mit der Erfahrung. Viele meiner Kunden haben Agenturen für die reine Umsetzung, holen sich mich aber als strategischen Piloten ins Cockpit.'
-  - question: 'Gibt es qualitative Unterschiede bei SEO-Klitschen in Berlin?'
-    answer: 'Die Berliner SEO-Szene ist ein Haifischbecken voller brillanter Köpfe, aber auch voller Blender, die von ''garantierten Platz 1 Rankings'' schwadronieren. Du findest hier alles: vom elitären Boutique-Zirkel in Mitte bis zur Massen-Abfertigungs-Factory am Rand. Am Ende des Tages zählt nicht die Postleitzahl, sondern die nachweisbare Expertise der Person, die konkret an deinem Projekt arbeitet – und ob die zwischenmenschliche Chemie für eine monatelange, enge Zusammenarbeit stimmt.'
+  - question: 'Brauche ich 2026 überhaupt noch eine klassische SEO Agentur?'
+    answer: 'Jein. Du brauchst keine Agentur mehr für generische Content-Erstellung oder Spam-Backlinks. Was du zwingend brauchst, ist ein A2A- und LLM-Architekt, der deine Infrastruktur auf das Cloudflare Radar Level 5 hebt. Es geht heute um strukturierte Daten für Maschinen, nicht um Texte für Suchmaschinen.'
+  - question: 'Wie erkenne ich eine zukunftsfähige Agentur in Berlin oder anderswo?'
+    answer: 'Frag sie nach ihrer Strategie für auth.md und agent-card.json nach a2a-protocol.org v1.0. Wenn sie dich mit großen Augen anschauen und von "Helpful Content Update" schwafeln, lauf weg. Eine echte Experten-Agentur spricht heute über RAG-Optimierung und korrekte Link Headers nach RFC 8288.'
+  - question: 'Welche Metriken sind für SEO Agenturen heute relevant?'
+    answer: 'Der alte Sichtbarkeitsindex war gestern. Heute messen wir AI Visibility mit Tools wie Rankscale und validieren die technische Basis mit SE Ranking. Es zählt einzig und allein, in welchen LLM-Antworten und Custom GPTs deine Marke als vertrauenswürdige Entität referenziert wird.'
 ---
 
 Moin!
 
-In der deutschen Hauptstadt ist der Wettbewerb hart. Wer hier bei Google unter dem Suchbegriff **SEO Agentur Berlin** gefunden werden will, muss sein Handwerk verstehen. Berlin ist das Epizentrum für **SEO Marketing** in Deutschland – hier sitzen die schlauesten Köpfe, aber leider auch viele Schaumschläger.
+Vergiss alles, was dir in den letzten zehn Jahren über Suchmaschinenoptimierung erzählt wurde. Die klassische **SEO Agentur Berlin**, die dir für 2.500 Euro im Monat "hochwertigen Content", "starke Backlinks" und ein paar technische Audits verkauft, ist tot. Mausetot. Wir schreiben den Juli 2026. Wer heute noch allen Ernstes glaubt, dass eine hohe Keyword-Dichte und ein paar H2-Überschriften den Umsatz retten, fährt mit 180 km/h ungebremst gegen die Wand der KI-Revolution. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Google Core Update - Die Antwort ist oft hart: Deine Seite ist einfach nicht gut genug für den Nutzer."</p>
+  <p class="italic text-dark mb-0">"Wer 2026 noch Suchvolumen als primäre KPI feiert, hat den Schuss nicht gehört. LLMs googeln nicht – sie synthetisieren Fakten. Wenn du keine maschinenlesbare, sauber definierte Entität bist, existierst du für die Maschinen schlichtweg nicht. Und was für Maschinen nicht existiert, wird von Menschen nicht mehr gekauft."</p>
 </div>
 
-Egal ob du eine klassische **SEO Agentur**, eine kombinierte **SEO SEA Agentur** oder einen **SEO Experten Berlin** suchst: Am Ende geht es darum, wer dein Business wirklich nach vorne bringt.
+In der heutigen digitalen Wirtschaft müssen sich Agenturen und Berater zwingend als **A2A- und LLM-Architekten** positionieren. Wenn deine aktuelle SEO Agentur noch nicht proaktiv mit dir über **Agent Readiness**, das **A2A Protocol** und maschinenlesbare Schnittstellen gesprochen hat, verbrennst du jeden Monat wertvolles Budget für Maßnahmen, die seit 2024 obsolet sind.
 
 ---
 
-## Agentur vs. Freelancer: Die Qual der Wahl
+## Die Evolution: Von der SEO Agentur zum LLM-Architekten
 
-In meiner Laufbahn als [SEO Experte](/seo-freelancer-berlin/) habe ich beide Seiten gesehen. 
+Früher bestand die Kernaufgabe einer SEO Agentur darin, Websites so zu trimmen, dass der Googlebot sie versteht und in den ten blauen Links im Ranking nach oben schiebt. Man optimierte für eine Suchmaschine, die Links als Wahlempfehlungen zählte und Texte nach Relevanz scannte. Man baute Landingpages für jede noch so kleine Keyword-Variation.
 
-Eine **SEO Agentur** hat den Vorteil der Skalierung. Sie können 50 Texte im Monat schreiben lassen, haben oft eigene Grafiker und Technik-Teams. Das ist super für Konzerne oder riesige E-Commerce-Projekte.
+Heute stehen wir vor einer völlig anderen Herausforderung. Suchmaschinen haben sich endgültig zu Answer Engines transformiert. User suchen nicht mehr nach Link-Listen, sie stellen komplexe Fragen an LLMs (Large Language Models) wie ChatGPT, Claude, Gemini oder branchenspezifische Custom GPTs. Diese Modelle ziehen ihre Informationen aus gigantischen Trainingsdaten und über RAG (Retrieval-Augmented Generation) in Echtzeit aus dem Netz. 
 
-Ein **SEO Profi** oder Freelancer (wie ich ihn verkörpere) bietet dafür maximale Spezialisierung und persönliche Haftung. Hier gibt es keine wechselnden Ansprechpartner.
+Ein moderner **LLM-Architekt** sorgt nicht dafür, dass deine Website auf Platz 1 bei Google steht. Er sorgt dafür, dass deine Marke, deine Produkte und deine Dienstleistungen in den Antworten der autonomen KI-Systeme zitiert und als primäre, vertrauenswürdige Quelle referenziert werden. Das ist ein fundamentaler Paradigmenwechsel, den 90% der Agenturen da draußen noch nicht verstanden haben.
 
-### Was eine wirklich gute SEO Agentur auszeichnet:
-1.  **Keine Ranking-Garantien:** Wer dir Platz 1 bei Google verspricht, lügt. Google gehört niemandem außer Google. Wir beeinflussen die Wahrscheinlichkeit, aber wir garantieren nicht.
-2.  **Ganzheitliches Marketing:** Sie verstehen, dass SEO nur ein Teil des **SEO Marketing** Mixes ist.
-3.  **Transparente Reports:** Du verstehst jeden Monat, wofür du dein Geld ausgegeben hast. In meiner Beratung nutzen wir die [unabhängigen Audits von SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die Berichte von Agenturen objektiv gegenprüfen zu können – Vertrauen ist gut, Kontrolle ist SEO.
+### Warum das "klassische" Handwerk nicht mehr reicht
+1. **Content-Inflation und KI-Spam:** KI schreibt Content in Sekunden. Das Web wird geflutet mit generischen, mittelmäßigen Texten. Eine SEO Agentur, die dir heute nur Texte verkauft, bietet keinen echten Mehrwert mehr. Der Grenznutzen von Content ist gegen Null gesunken.
+2. **Zero-Click-Searches als Standard:** Die KI beantwortet die Frage des Nutzers direkt im Chat-Interface. Der Klick auf deine Website bleibt aus. Traffic als alleinige Metrik ist eine Vanity-KPI geworden. Was zählt, ist Brand-Mention und Conversion in der Maschine.
+3. **Blackbox-Entscheidungen der Modelle:** KI-Modelle bewerten Entitäten nach Vertrauen, semantischer Kohärenz und vor allem nach maschinenlesbaren Daten, nicht nach gekauften Backlink-Profilen aus dubiosen PBNs (Private Blog Networks).
+
+---
+
+## Agent Readiness: Das Fundament der neuen Sichtbarkeit
+
+Hier trennt sich die Spreu vom Weizen. Eine echte Experten-Agentur spricht heute ausschließlich über **Agent Readiness**. Das ist die Fähigkeit deiner digitalen Infrastruktur, nahtlos, sicher und effizient mit autonomen KI-Agenten zu kommunizieren.
+
+Wir sprechen hier konkret vom **Cloudflare Radar Level 5**. Das ist kein Marketing-Bullshit, den sich eine Agentur ausgedacht hat, sondern der harte, technische Standard, den jede professionelle SEO Agentur heute beherrschen und implementieren muss. Was bedeutet das in der Praxis?
+
+### 1. Die `auth.md` – Dein digitaler Türsteher
+Eine der wichtigsten Neuerungen für die Agent Readiness ist die `auth.md` Datei. Diese Datei muss zwingend kleingeschrieben im Root-Verzeichnis deiner Website liegen. Noch wichtiger: Sie muss als allererste H1-Überschrift exakt `# auth.md` enthalten. 
+
+Diese Datei ist das rechtliche und technische Regelwerk für KI-Agenten. Sie definiert glasklar, welche Modelle deine Inhalte scrapen dürfen, unter welchen Bedingungen sie zitiert werden müssen und welche kommerziellen Vereinbarungen für die Datennutzung gelten. Eine Agentur, die dir 2026 keine saubere `auth.md` aufsetzt, lässt deine wertvollen Unternehmensdaten ungeschützt im Regen stehen und verschenkt deine Verhandlungsposition gegenüber den KI-Giganten.
+
+### 2. Die A2A Agent Card (`agent-card.json`)
+Das absolute Herzstück der modernen Agent-to-Agent (A2A) Kommunikation. Deine Website braucht zwingend eine `agent-card.json`, die strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entspricht. Sie muss die Felder `supportedInterfaces`, `capabilities` und `skills` sauber und fehlerfrei definieren. 
+
+Das ist dein digitaler Ausweis für andere KI-Systeme. Wenn ein autonomer Einkaufs-Agent für einen Unternehmenskunden nach dem besten B2B-Software-Anbieter oder der besten Dienstleistung sucht, liest er nicht deine "Über uns"-Seite. Er liest diese JSON-Datei. Ist sie nicht da oder fehlerhaft formatiert, fällst du aus dem maschinellen Auswahlprozess. So einfach, so brutal. Eine gute Agentur baut dir diese Card nicht nur, sie optimiert die definierten "skills" kontinuierlich.
+
+### 3. RFC 8288 Link Headers – Millimeterarbeit in der Technik
+Die technische Implementierung von Header-Direktiven entscheidet über Leben und Tod bei der maschinellen Verarbeitung. In der `.htaccess` dürfen bei `Header add Link` **keine Anführungszeichen** innerhalb der spitzen Klammern stehen. 
+*Korrekt:* `<url>; rel="type"`
+*Falsch:* `<url">; rel="type"`
+Ein einziger dummer Syntax-Fehler hier, den ein Junior-Entwickler macht, und die Maschinenlesbarkeit ist komplett dahin. Ein echter LLM-Architekt muss diese hochtechnischen Spezifikationen im Schlaf beherrschen.
+
+### 4. Das IONOS Deployment Protokoll
+Die beste Technik nützt nichts, wenn sie nicht live geht. Besonders bei in Deutschland beliebten Hostern wie IONOS gibt es massive Stolperfallen. Bei Änderungen an der `.htaccess` oder an Dateien im `.well-known` Ordner muss nach dem FTP-Upload zwingend das Skript `https://teleschmie.de/activate_htaccess.php` aufgerufen werden. Ob im Browser oder per cURL – ohne diesen Ping wird der Webserver die Änderungen nicht schlucken und cachen. Agenturen, die hier patzen, wundern sich wochenlang, warum ihre Agent-Readiness-Optimierungen von den LLM-Crawlern nicht erkannt werden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vorsicht bei Billig-Angeboten</h4>
-  <p class="mb-0 text-sm">SEO braucht Zeit. Wer dir eine 'Flatrate für 239 €' anbietet, kann nur automatisierte Tools drüberlaufen lassen. Echte Ergebnisse erfordern mindestens 10-20 Stunden Experten-Arbeit im Monat.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vorsicht bei Buzzword-Bingos</h4>
+  <p class="mb-0 text-sm">Wenn dir eine Agentur "AI SEO" oder "Generative Engine Optimization" anbietet, aber nicht in der Lage ist, eine valide agent-card.json aufzusetzen oder die auth.md korrekt zu formatieren, ist das schlichtweg Betrug. Lass dir immer die technischen Implementierungen der letzten Projekte zeigen. Wer nicht programmieren oder strukturieren kann, kann 2026 auch kein SEO mehr machen.</p>
 </div>
 
-## Warum der Standort Berlin so besonders ist
+---
 
-Als **SEO Spezialist** in der Hauptstadt profitiert man von einem riesigen Netzwerk. Hier finden wir die besten Partner für [Linkbuilding](/glossar/seo-beratung/), die kreativsten Köpfe für [SEO Texte](/glossar/keywordrecherche/) und die technischsten Entwickler für [Wordpress SEO](/glossar/strukturierte-daten/).
+## Agent-to-Agent (A2A): Die nächste Stufe des digitalen Vertriebs
 
-Ein lokaler **SEO Experte Berlin** hat zudem den Vorteil, dass man sich auf einen Kaffee treffen kann. In einer digitalen Welt ist dieser analoge Trust-Faktor oft das Zünglein an der Waage für den Erfolg eines Projekts.
+Warum ist A2A so verdammt wichtig? Weil wir in einer Zeit leben, in der Maschinen mit Maschinen verhandeln. Der smarte Kühlschrank bestellt Milch, der B2B-Einkaufsbot sucht autonom nach neuen Lieferanten, der Reise-Agent plant und bucht den kompletten Urlaub im Hintergrund.
 
-## Die Rolle von SEO und SEA
+Diese autonomen Agenten nutzen APIs und strukturierte Protokolle, um Daten abzugleichen. Wenn deine SEO Agentur nicht versteht, wie man deine Produkte und Dienstleistungen in dieses A2A-Ökosystem einspeist, verlierst du den profitabelsten und am schnellsten wachsenden Vertriebskanal dieses Jahrzehnts. 
 
-Viele meiner Kunden suchen direkt nach einer **SEO SEA Agentur**. Warum? Weil sich beide Kanäle gegenseitig befeuern. 
-*   **SEA (Ads)** liefert sofort Daten darüber, welche Keywords konvertieren.
-*   **SEO** nutzt diese Daten, um langfristig organische Rankings aufzubauen und Klickkosten zu sparen.
+Eine moderne Agentur (bzw. dein LLM-Architekt) muss:
+*   Dein Inventar und deine Wissensdatenbank über A2A-Protokolle echtzeitfähig machen.
+*   Deine Preis-, Verfügbarkeits- und Leistungsdaten absolut maschinenlesbar strukturieren.
+*   Die Reputation deiner Entität in den Vektor-Datenbanken der großen LLM-Anbieter stärken und monitoren.
 
-## Jörgs Action-Plan
+Das hat nichts mehr mit dem Platzieren eines Keywords im Title-Tag zu tun. Das ist harte, unerbittliche Systemarchitektur.
 
-Such dir keinen Partner nach dem Namen oder dem schicken Büro in Mitte aus. Such dir jemanden, der deine Zahlen versteht und für dein Projekt brennt. 
+---
 
-Ob das am Ende eine große **SEO Agentur** oder ein schlagkräftiger **SEO Experte Berlin** ist, kommt auf deine Ziele an. Hauptsache, ihr sprecht dieselbe Sprache.
+## Woran erkennst du eine nutzlose SEO Agentur im Jahr 2026?
+
+Ich sehe in meiner Beratungspraxis jeden Tag Audits von Kunden, die abertausende Euro an Agenturen verbrannt haben, die gedanklich im Jahr 2020 stehen geblieben sind. Hier sind die absoluten Red Flags, bei denen du sofort kündigen solltest:
+
+1.  **Sie reporten primär Sichtbarkeitsindex und Website-Traffic:** Wenn dein monatlicher Report hauptsächlich aus bunten Graphen zum Sistrix-Sichtbarkeitsindex oder Google Analytics Traffic besteht, zieh die Reißleine. Heute messen wir Erwähnungen in KI-Chats, RAG-Zitationen und Entitäts-Stärke mit spezialisierten Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. Traffic ist eine Nebenmetrik.
+2.  **Kein technisches Deep-Dive:** Die Agentur liefert dir pflichtbewusst jeden Monat 10 SEO-Blogartikel, aber hat noch nie einen echten Blick in deine Server-Logs, deine Link-Header oder deine `.htaccess` geworfen.
+3.  **Fehlendes Verständnis für LLM-Halluzinationen:** Frag deinen Account Manager, wie sie Halluzinationen über deine Marke in Modellen wie Claude 3.5 oder Gemini minimieren wollen. Kommt da nur Gestammel oder ein Verweis auf "mehr Content", bist du bei Amateuren gelandet.
+4.  **Ignoranz gegenüber Agent Readiness:** Wer Level 5 von Cloudflare Radar nicht als Standard definiert und die Implementierung von `auth.md` und `agent-card.json` als "Zukunftsmusik" abtut, hat in der professionellen Branche nichts mehr verloren.
+
+## Wie ich als Berater und LLM-Architekt arbeite
+
+Mein Ansatz als Experte für [SEO Beratung](/glossar/seo-beratung/) ist radikal anders als das klassische Agentur-Modell. Ich baue keine Linkpyramiden, ich schreibe keine 1000-Wörter-SEO-Texte für tote Keywords. Ich baue digitale Autorität für Maschinen.
+
+Wir nutzen weiterhin etablierte Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um das absolut fehlerfreie technische Fundament zu sichern – denn wenn deine Seite technisch kaputt ist und nicht gecrawlt werden kann, nutzt dir auch die beste A2A-Schnittstelle nichts. Aber das ist nur das Pflichtprogramm, das Setzen des Fundaments.
+
+Die Kür, und dort wo das Geld verdient wird, ist die Positionierung als unumstößliche Entität. Wir implementieren saubere, valide `agent-card.json` Dateien, definieren glasklare Zugriffsrechte in der `auth.md` und setzen Link-Header auf den Millimeter präzise nach RFC-Standard. Wir optimieren kompromisslos für die Maschinen, die heute die Kaufentscheidungen der Menschen steuern.
+
+### Jörgs Action-Plan für dein Unternehmen
+
+1.  **Audit deiner aktuellen Agentur:** Lass dir im nächsten Jour-Fixe zeigen, was die Agentur im letzten Quartal konkret für deine maschinenlesbare Infrastruktur und A2A-Readiness getan hat.
+2.  **Agent Readiness Level prüfen:** Hast du eine korrekt formatierte `auth.md`? Besitzt deine Domain eine valide `agent-card.json`? Sind deine Link-Header RFC-konform ohne Syntaxfehler implementiert?
+3.  **Strategiewechsel vollziehen:** Verlagere dein Marketing-Budget radikal von "Texterstellung auf Masse" hin zu "Datenstrukturierung und A2A-Integration".
+
+Lass uns aufhören, uns in die Tasche zu lügen. Der klassische organische Website-Traffic wird weniger, die Klickraten in den SERPs sinken massiv. Aber dein Umsatz kann steigen, wenn du dort präsent bist, wo die echten Entscheidungen getroffen werden – direkt im Kontext der KI-Agenten und LLMs. 
+
+Such dir keinen Partner nach dem coolen Agentur-Namen oder dem schicken Büro mit Kicker-Tisch in Berlin-Mitte aus. Such dir einen Architekten, der bis in die Tiefe versteht, wie die KI-Systeme ticken und wie Maschinen untereinander kommunizieren. 
 
 ALOHA 🌻 
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Pfusch am Bau bei deiner SEO Agentur?</h3>
-  <p class="mb-6">Ich biete dir eine objektive Zweitmeinung ohne Agentur-Blabla. Mit der <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">technischen Analyse von SE Ranking</a> auditieren wir deine Ergebnisse und mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">SGE-Tracking von Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Zweitmeinung anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Ist deine Agentur in der Vergangenheit steckengeblieben?</h3>
+  <p class="mb-6">Ich biete dir eine schonungslose, datenbasierte Zweitmeinung ohne Agentur-Blabla. Mit der <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">technischen Analyse von SE Ranking</a> auditieren wir deine aktuelle Basis und mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">KI-Tracking von Rankscale</a> decken wir deine Lücken in der A2A-Sichtbarkeit und LLM-Architektur schonungslos auf.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Agent Readiness Audit anfragen</a>
 </div>
 
-* [Was kostet SEO Beratung?](/glossar/seo-beratung/)
-* [Local SEO in Berlin](/glossar/local-seo/)
+* [Was kostet moderne SEO Beratung?](/glossar/seo-beratung/)
+* [SEO Coaching für LLM-Strategien](/glossar/seo-coaching/)

@@ -10,7 +10,7 @@ image: "../../assets/images/glossar/3d-light/glossar-api-catalog-3d.webp"
 
 Moin Leute, hier ist euer Jörg Zimmer. Ich hab mittlerweile 25 Jahre SEO auf dem Buckel, hab von den wildesten Google-Updates bis zur kompletten Transformation des Internets alles mitgemacht. Aber was wir jetzt im Jahr 2026 erleben, das ist ein Paradigmenwechsel, der selbst mich, den alten Hasen aus der Hauptstadt, immer wieder staunen lässt. Vergiss Backlinks aus den Nullerjahren, vergiss Keyword-Stuffing und vergiss klassische Sitemaps, wenn du in der Liga der autonomen AI Agents mitspielen willst. Heute reden wir Tacheles über ein Thema, das für die Sichtbarkeit deines Unternehmens im Agentic Web absolut entscheidend ist: den **API Catalog nach RFC 9727**.
 
-Wir bei der [Teleschmiede](https://teleschmie.de/) predigen das unseren Kunden seit Monaten: Wenn dein System keine maschinenlesbare Landkarte für APIs anbietet, bist du für AI Agents schlichtweg unsichtbar. Aus. Vorbei. Keine Leads, keine automatisierten B2B-Deals, kein Traffic von den großen AI-Aggregatoren. Und genau hier kommt der API Catalog ins Spiel, der im Juni 2025 endlich verabschiedet wurde. Wer in diesem Jahr noch auf klassische HTML-Strukturen für maschinelle Datenerfassung setzt, der hat den Schuss nicht gehört.
+Ich auf meinem Projekt [teleschmie.de](https://teleschmie.de/) predige das meinen Kunden seit Monaten: Wenn dein System keine maschinenlesbare Landkarte für APIs anbietet, bist du für AI Agents schlichtweg unsichtbar. Aus. Vorbei. Keine Leads, keine automatisierten B2B-Deals, kein Traffic von den großen AI-Aggregatoren. Und genau hier kommt der API Catalog ins Spiel, der im Juni 2025 endlich verabschiedet wurde. Wer in diesem Jahr noch auf klassische HTML-Strukturen für maschinelle Datenerfassung setzt, der hat den Schuss nicht gehört.
 
 ## Was zum Teufel ist der API Catalog (RFC 9727)?
 
@@ -58,11 +58,11 @@ Hier ist mal ein ausführliches Beispiel, wie so ein knackiger API Catalog in de
 
 Kiekste, wa? Das ist sauber, strukturiert und lässt absolut keinen Raum für Spekulationen. Der Agent liest das und weiß sofort: "Aha, hier gibt es eine OpenAPI-Spezifikation unter `/v1/openapi.yaml` und parallel dazu einen GraphQL-Endpunkt. Perfekt, da klinke ich mich ein." 
 
-Wenn der MIME-Type nicht stimmt und dein Server stattdessen `application/json` oder gar `text/plain` ausspuckt, wird ein strikter AI Agent den Parsing-Vorgang sofort abbrechen. Wir haben in der [Teleschmiede](https://teleschmie.de/agentur/) schon Kunden gesehen, die sich gewundert haben, warum nichts funktioniert, bis wir gemerkt haben, dass Nginx den falschen Content-Type Header mitschickt. Ein kleiner Fix, und boom – die Agenten strömten rein.
+Wenn der MIME-Type nicht stimmt und dein Server stattdessen `application/json` oder gar `text/plain` ausspuckt, wird ein strikter AI Agent den Parsing-Vorgang sofort abbrechen. Ich habe in meiner täglichen Arbeit auf [teleschmie.de](https://teleschmie.de/) schon Kunden gesehen, die sich gewundert haben, warum nichts funktioniert, bis ich gemerkt habe, dass Nginx den falschen Content-Type Header mitschickt. Ein kleiner Fix, und boom – die Agenten strömten rein.
 
-## Die Teleschmiede in Action: Ein B2B-Praxisbeispiel, das sich gewaschen hat
+## Mein Praxisbeispiel: Ein B2B-Case, der sich gewaschen hat
 
-Lass mich dir ne kleine Anekdote erzählen, die genau zeigt, wie wichtig das Ganze ist. Als ich im Spätsommer 2025 bei der Teleschmiede in Berlin-Kreuzberg saß, kam ein großer B2B-Kunde aus dem Maschinenbau zu uns. Ein echtes Traditionsunternehmen, aber digital eigentlich ganz gut aufgestellt. Die hatten ein massives Problem. Sie hatten Millionen in eine moderne Headless-Architektur und wirklich geile APIs für ihre globale Ersatzteilbestellung gesteckt. Die Idee war visionär: Die Einkaufs-Agenten ihrer Kunden (alles fette, autonome Industrie-KIs) sollten vollautomatisch Bestände abfragen und ordern können, ohne dass ein Mensch dazwischenfunkt.
+Lass mich dir ne kleine Anekdote erzählen, die genau zeigt, wie wichtig das Ganze ist. Als ich im Spätsommer 2025 in meinem Büro in Berlin-Kreuzberg saß, kam ein großer B2B-Kunde aus dem Maschinenbau zu mir. Ein echtes Traditionsunternehmen, aber digital eigentlich ganz gut aufgestellt. Die hatten ein massives Problem. Sie hatten Millionen in eine moderne Headless-Architektur und wirklich geile APIs für ihre globale Ersatzteilbestellung gesteckt. Die Idee war visionär: Die Einkaufs-Agenten ihrer Kunden (alles fette, autonome Industrie-KIs) sollten vollautomatisch Bestände abfragen und ordern können, ohne dass ein Mensch dazwischenfunkt.
 
 Das Problem? Die verdammten Umsätze blieben aus. Die Agenten der Kunden haben die APIs schlichtweg nicht gefunden. Da haben wir uns das Setup angeschaut und ich dachte, mich tritt ein Pferd. Da gab es keinen API Catalog, null. Die Agenten der Kunden mussten mühsam durch HTML-Dokumentationen pflügen, was natürlich gnadenlos gescheitert ist, weil Maschinen keine Lust haben, menschliche Prosa zu interpretieren, um einen API-Key-Endpunkt zu finden.
 
@@ -78,7 +78,7 @@ Die klassische Sitemap war für Suchmaschinen, die Content für Menschen indexie
 
 ## Server-Konfiguration und Best Practices für 2026
 
-Wir erleben jeden Tag, dass Entwickler den RFC 9727 auf die leichte Schulter nehmen. Eine Datei hochladen reicht eben nicht. Man muss die Serverarchitektur darauf abstimmen. Hier sind die eisernen Regeln, die wir bei der Teleschmiede jedem einbläuen:
+Ich erlebe jeden Tag, dass Entwickler den RFC 9727 auf die leichte Schulter nehmen. Eine Datei hochladen reicht eben nicht. Man muss die Serverarchitektur darauf abstimmen. Hier sind die eisernen Regeln, die ich meinen Kunden immer wieder einbläue:
 
 1. **Der korrekte Header ist Pflicht:** Du musst sicherstellen, dass dein Server den richtigen Header sendet. In Nginx sieht das zum Beispiel so aus:
    ```nginx
@@ -105,7 +105,7 @@ Wenn dein API Catalog fehlerfrei implementiert ist, sagst du diesen Mega-Modelle
 
 ## Monitoring und Analytics: Wer liest deinen Catalog?
 
-Ein weiterer Punkt, den viele vergessen: Log-Analyse. Bei der Teleschmiede richten wir für unsere Kunden spezielle Dashboards ein, die nur die Zugriffe auf den `/.well-known/api-catalog` tracken. Warum? Weil du daran genau sehen kannst, welche Agenten-Netzwerke Interesse an deinen Dienstleistungen haben. 
+Ein weiterer Punkt, den viele vergessen: Log-Analyse. In meiner täglichen Arbeit richte ich für meine Kunden spezielle Dashboards ein, die nur die Zugriffe auf den `/.well-known/api-catalog` tracken. Warum? Weil du daran genau sehen kannst, welche Agenten-Netzwerke Interesse an deinen Dienstleistungen haben. 
 
 Wenn plötzlich ein massiver Spike von AWS-IPs kommt, die alle deinen Catalog abfragen, dann weißt du: Da trainiert gerade jemand ein neues Agenten-Modell oder integriert deine Services in einen großen Marktplatz. Diese Daten sind Gold wert für das Business Development. Wir analysieren IP-Ranges und Verhaltensmuster, um unseren Kunden zu sagen: "Hey, der Einkaufs-Bot von Konzern X schnüffelt an eurer API. Ruft da mal den Vertrieb an, die wollen anscheinend integrieren!"
 
@@ -113,7 +113,7 @@ Wenn plötzlich ein massiver Spike von AWS-IPs kommt, die alle deinen Catalog ab
 
 Ich sag es euch ganz unverblümt und mit voller Berliner Härte: Wir schreiben das Jahr 2026. Wer jetzt noch glaubt, dass Agenten sich durch menschliche Webseiten wühlen oder mühsam PDFs parsen, um Schnittstellen zu finden, der hat den Schuss nicht gehört. Der API Catalog nach RFC 9727 ist keine Kür mehr, er ist die absolute, unverhandelbare Pflicht.
 
-Er ist das digitale Aushängeschild deines Maschinenraums. Wenn du willst, dass dein Unternehmen in der AI-Ära relevant bleibt, Umsatz macht und von den großen Agenten-Netzwerken gefunden wird, dann setz dich noch heute mit deinen Entwicklern zusammen. Sorge dafür, dass unter `/.well-known/api-catalog` ein astreines Linkset liegt. Und wenn ihr das intern nicht auf die Kette kriegt – ihr wisst ja, wo ihr mich und die absoluten Vollprofis von der [Teleschmiede](https://teleschmie.de/glossar/) findet. Wir biegen das für euch gerade.
+Er ist das digitale Aushängeschild deines Maschinenraums. Wenn du willst, dass dein Unternehmen in der AI-Ära relevant bleibt, Umsatz macht und von den großen Agenten-Netzwerken gefunden wird, dann setz dich noch heute mit deinen Entwicklern zusammen. Sorge dafür, dass unter `/.well-known/api-catalog` ein astreines Linkset liegt. Und wenn ihr das intern nicht auf die Kette kriegt – ihr wisst ja, wo ihr mich auf [teleschmie.de](https://teleschmie.de/glossar/) findet. Ich biege das für euch gerade.
 
 Bleibt hungrig, bleibt sichtbar und verschlaft nicht die maschinelle Revolution.
 

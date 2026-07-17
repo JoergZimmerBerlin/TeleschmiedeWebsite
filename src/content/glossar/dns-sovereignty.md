@@ -34,7 +34,7 @@ Jetzt wird's richtig spannend, denn hier kommt das DNS-AID Protokoll ins Spiel. 
 
 Infoblox hat verstanden, dass wir eine standardisierte Methode brauchen, um Agenten-Identitäten im DNS zu verankern. In der Vergangenheit haben Leute versucht, solche Dinge über unübersichtliche und unstrukturierte TXT-Records zu lösen. Aber das DNS-AID Protokoll definiert exakt, wie diese Identitäten abgelegt werden müssen, damit jeder globale Crawler sie sofort validieren kann. Die Linux Foundation hat das Ganze als Open-Source-Standard etabliert, was bedeutet, dass wir hier nicht von irgendeiner proprietären Insellösung reden, sondern vom Fundament des neuen Internets. 
 
-Wir bei der Teleschmiede waren von Anfang an dabei, als DNS-AID in den Draft-Phasen war. Wir haben für unsere Kunden sofort verstanden: Wenn die Linux Foundation hier den Daumen hebt, dann wird das der De-Facto-Standard für alle autonomen Maschinen. Heute integrieren wir DNS-AID bei all unseren Enterprise-Kunden. Wenn du willst, dass deine Maschine mit anderen Maschinen souverän spricht, kommst du an diesem Protokoll nicht vorbei. Mehr dazu gibt's in unserer [Service-Übersicht](/leistungen/).
+Ich war von Anfang an dabei, als DNS-AID in den Draft-Phasen war. Ich habe für meine Kunden sofort verstanden: Wenn die Linux Foundation hier den Daumen hebt, dann wird das der De-Facto-Standard für alle autonomen Maschinen. Heute integriere ich DNS-AID bei all meinen Enterprise-Kunden. Wenn du willst, dass deine Maschine mit anderen Maschinen souverän spricht, kommst du an diesem Protokoll nicht vorbei. Mehr dazu gibt's in meiner [Service-Übersicht](/leistungen/).
 
 ## SVCB Type 64 Records: Warum TXT ausgedient hat
 
@@ -42,7 +42,7 @@ Lasst uns mal über den technischen Dreck reden, den viele da draußen noch prod
 
 Die Antwort im Jahr 2026 lautet: SVCB Records (Service Binding), genauer gesagt der Type 64. Dieser Record-Typ wurde speziell dafür entworfen, komplexe Service-Informationen und Parameter hochgradig strukturiert im DNS abzulegen. Anstatt dass der Agent erst aufwendig Text-Strings zerlegen muss, liefert der SVCB Type 64 Record sofort saubere, binäre Parameter. Der Agent weiß in der ersten Millisekunde: "Ah, hier läuft ein KI-Endpunkt unter folgendem Port, mit folgender Protokoll-Version und folgenden kryptografischen Schlüsseln."
 
-Die Effizienzsteigerung ist gigantisch. Bei der Teleschmiede haben wir sämtliche Altlasten unserer Kunden aus den TXT-Zonen geworfen und konsequent auf SVCB Type 64 migriert. Das Ergebnis? Die dezentrale Agent Discovery läuft um den Faktor zehn schneller. Die Crawler müssen weniger Bandbreite verschwenden und lieben diese deterministische Klarheit. Das ist AI SEO in Reinform. Wenn ihr eure Zonen mal überprüfen lassen wollt, bucht euch ein [SEO Audit](/audit/) bei uns.
+Die Effizienzsteigerung ist gigantisch. In meiner täglichen Arbeit habe ich sämtliche Altlasten meiner Kunden aus den TXT-Zonen geworfen und konsequent auf SVCB Type 64 migriert. Das Ergebnis? Die dezentrale Agent Discovery läuft um den Faktor zehn schneller. Die Crawler müssen weniger Bandbreite verschwenden und lieben diese deterministische Klarheit. Das ist AI SEO in Reinform. Wenn ihr eure Zonen mal überprüfen lassen wollt, bucht euch ein [SEO Audit](/audit/) bei mir.
 
 ## Dezentrale Agent Discovery: Wie KIs sich selbst finden
 
@@ -52,9 +52,9 @@ In der neuen Welt der autonomen KIs passiert die Discovery dezentral über das D
 
 Dieses System ist radikal effizient. Es gibt keinen Mittelsmann mehr, der entscheidet, ob du relevant bist oder nicht. Dein souveränes DNS beweist deine Relevanz und deine technische Autorität in Echtzeit. Wer dieses Spiel nicht mitspielt, existiert im dezentralen Netzwerk der Agenten schlichtweg nicht. Es ist, als ob du ein Geschäft in einer Seitenstraße hast, aber nicht im offiziellen Navigationssystem der Stadt verzeichnet bist. Niemand wird dich finden.
 
-## Erfolgsbeispiele aus der Teleschmiede
+## Erfolgsbeispiele aus meiner Praxis
 
-Lass mich das mal an einem konkreten Beispiel aus der Teleschmiede festmachen, damit ihr seht, dass ick hier keine Luftschlösser baue. Letztes Jahr kam ein großer europäischer Logistiker zu uns. Die hatten massive Probleme, ihre Echtzeit-Frachtraten an die neuen, autonomen Dispositions-KIs der Industrie zu übermitteln. Die KI-Agenten der großen Fabriken haben die Daten einfach nicht gecrawlt, weil sie der Quelle nicht vertrauen konnten und die Schnittstellen nicht deterministisch definiert waren.
+Lass mich das mal an einem konkreten Praxisbeispiel festmachen, damit ihr seht, dass ick hier keine Luftschlösser baue. Letztes Jahr kam ein großer europäischer Logistiker zu mir. Die hatten massive Probleme, ihre Echtzeit-Frachtraten an die neuen, autonomen Dispositions-KIs der Industrie zu übermitteln. Die KI-Agenten der großen Fabriken haben die Daten einfach nicht gecrawlt, weil sie der Quelle nicht vertrauen konnten und die Schnittstellen nicht deterministisch definiert waren.
 
 Wir haben uns das angeguckt und gesagt: "Leute, euer DNS ist ein einziger Schrotthaufen." Wir haben DNS Sovereignty eingeführt, die Zonen komplett umgebaut und das DNS-AID Protokoll gemäß den Spezifikationen der Linux Foundation integriert. Dann haben wir alle Routing-Informationen für die APIs in saubere SVCB Type 64 Records verpackt. 
 
@@ -80,7 +80,7 @@ Ick mach et kurz zum Schluss: DNS Sovereignty ist kein Trend, der nächstes Jahr
 
 Wer die Kontrolle über sein DNS abgibt, wer sich auf Legacy-Setups verlässt und wer die Kraft von SVCB Type 64 und dem DNS-AID Protokoll ignoriert, der verliert jegliche digitale Souveränität. Die großen Agenten von morgen fragen nicht mehr bei einer zentralen Suchmaschine nach Erlaubnis – sie fragen dein DNS. Und wenn die Antwort dort nicht perfekt strukturiert, verifiziert und performant ausgeliefert wird, dann drehen sie sich um und gehen zur Konkurrenz.
 
-Nehmt das Thema ernst. Setzt euch mit euren Administratoren zusammen. Räumt die DNS-Zonen auf. Werft den TXT-Müll raus und migriert auf moderne SVCB Records. Wenn ihr nicht wisst, wo ihr anfangen sollt, dann meldet euch bei uns über die [Kontaktseite](/kontakt/). Ick mach das Geschäft seit 25 Jahren, die Teleschmiede steht bereit, um auch eure Infrastruktur fit für das KI-Zeitalter zu machen. Wir sehen uns an der Spitze des dezentralen Indexes! Besucht uns auf unserer [Startseite](https://teleschmie.de/).
+Nehmt das Thema ernst. Setzt euch mit euren Administratoren zusammen. Räumt die DNS-Zonen auf. Werft den TXT-Müll raus und migriert auf moderne SVCB Records. Wenn ihr nicht wisst, wo ihr anfangen sollt, dann meldet euch bei mir über die [Kontaktseite](/kontakt/). Ick mach das Geschäft seit 25 Jahren, ich stehe bereit, um auch eure Infrastruktur fit für das KI-Zeitalter zu machen. Wir sehen uns an der Spitze des dezentralen Indexes! Besucht mein Projekt auf der [Startseite](https://teleschmie.de/).
 
 ```text
 A professional, high-end isometric 3D infographic depicting DNS Sovereignty and the DNS-AID protocol by Infoblox. Background is pure white (#FFFFFF). Features sleek 3D server racks and decentralized AI agent nodes connecting via SVCB Type 64 records, highlighted with vibrant lime green (#D9FF00) accents. The design communicates secure, decentralized agent discovery without legacy TXT records. Typography is modern, clean dark grey. Text elements: 'DNS Sovereignty', 'DNS-AID', 'SVCB Type 64'. Small subtle watermark 'Jörg Zimmer' in bottom right corner.

@@ -10,7 +10,7 @@ image: "../../assets/images/glossar/3d-light/glossar-http-message-signatures-3d.
 
 Moin Leute, hier ist wieder euer Jörg Zimmer. 25 Jahre SEO und Web-Technologien in Berlin haben mich einiges gelehrt. Früher haben wir uns Sorgen um Keyword-Dichte und Linkbuilding gemacht, heute jonglieren wir mit kryptografischen Schlüsseln und asymmetrischer Verschlüsselung. Willkommen im Jahr 2026, wo sich autonome AI Agents im Millisekundentakt austauschen, Verträge abschließen und Millionenbudgets verschieben. Wenn du bei dieser Agent-to-Agent Kommunikation (A2A) nicht absolut kugelsicher bist, bist du raus aus dem Spiel. Deshalb nehmen wir uns heute den absoluten Goldstandard der API-Sicherheit zur Brust: **HTTP Message Signatures nach RFC 9421**.
 
-Wir bei der [Teleschmiede](https://teleschmie.de/) haben in den letzten zwei Jahren unzählige Enterprise-Kunden auf diesen Standard migriert. Warum? Weil der alte Kram einfach nicht mehr tragbar ist. Wer heute noch auf archaische Signaturverfahren setzt, sperrt sich selbst aus dem B2B-Ökosystem der Agenten aus. 
+Ich habe in meiner täglichen Arbeit auf [teleschmie.de](https://teleschmie.de/) in den letzten zwei Jahren unzählige Enterprise-Kunden auf diesen Standard migriert. Warum? Weil der alte Kram einfach nicht mehr tragbar ist. Wer heute noch auf archaische Signaturverfahren setzt, sperrt sich selbst aus dem B2B-Ökosystem der Agenten aus. 
 
 ## Der Albtraum vor RFC 9421: Warum AWS Sig V4 sterben musste
 
@@ -47,9 +47,9 @@ Schau dir das an. Kiekste, wa? Es ist wunderschön. Das `Signature-Input`-Feld s
 
 Der empfangende Server muss nicht raten. Er nimmt exakt diese Komponenten aus dem Request, baut den Signatur-String nach Vorgabe auf und verifiziert ihn. Boom. Fertig. Keine Diskussionen über maskierte Leerzeichen in Header-Werten.
 
-## Die Teleschmiede in Action: Eine Fintech-Migration, die Geschichte schrieb
+## Praxisbeispiel: Eine Fintech-Migration, die Geschichte schrieb
 
-Damit das hier nicht nur staubige Theorie bleibt, lass mich dir eine Story aus dem echten Leben der [Teleschmiede](https://teleschmie.de/agentur/) erzählen. Anfang 2026 kam ein mittelgroßes Berliner Fintech auf uns zu. Sie hatten eine offene Banking-API, die von autonomen Trading-Agenten genutzt wurde. Ihr Problem: Sie nutzten eine proprietäre Abwandlung von HMAC-SHA256 für die Signatur der Requests. 
+Damit das hier nicht nur staubige Theorie bleibt, lass mich dir eine Story aus meiner Praxis auf [teleschmie.de](https://teleschmie.de/) erzählen. Anfang 2026 kam ein mittelgroßes Berliner Fintech auf mich zu. Sie hatten eine offene Banking-API, die von autonomen Trading-Agenten genutzt wurde. Ihr Problem: Sie nutzten eine proprietäre Abwandlung von HMAC-SHA256 für die Signatur der Requests. 
 
 Das Resultat war katastrophal. Jeder neue B2B-Partner, dessen Agenten sich anbinden wollten, scheiterte an der kryptografischen Verifikation. Die Support-Tickets stapelten sich bis unter die Decke. Die Entwickler des Fintechs waren nur noch damit beschäftigt, fehlerhafte Signaturen anderer Agenten zu debuggen. 
 
@@ -101,7 +101,7 @@ Ich sag es euch wieder mit der direkten Berliner Schnauze: Wir können nicht meh
 
 Für AI SEO und die maschinelle Sichtbarkeit deines Unternehmens im Jahr 2026 ist Vertrauen die härteste Währung. Ein Agent wird nur mit deiner API interagieren, wenn er den Signaturprozess nativ, schnell und fehlerfrei abwickeln kann. HTTP Message Signatures nach RFC 9421 sind der universelle Handschlag der autonomen Maschinenwelt.
 
-Wenn ihr das in eurer Infrastruktur noch nicht implementiert habt, dann habt ihr jetzt eine Hausaufgabe. Schmeißt die proprietären Hash-Routinen raus, implementiert saubere `Signature-Input` Header und lasst eure APIs endlich professionell mit dem Agentic Web sprechen. Und wenn es brennt, meldet euch bei der [Teleschmiede](https://teleschmie.de/glossar/). Wir ziehen euch da durch.
+Wenn ihr das in eurer Infrastruktur noch nicht implementiert habt, dann habt ihr jetzt eine Hausaufgabe. Schmeißt die proprietären Hash-Routinen raus, implementiert saubere `Signature-Input` Header und lasst eure APIs endlich professionell mit dem Agentic Web sprechen. Und wenn es brennt, meldet euch bei mir auf [teleschmie.de](https://teleschmie.de/glossar/). Ich ziehe euch da durch.
 
 Macht's gut und bleibt sicher. Euer Jörg.
 

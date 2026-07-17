@@ -14,6 +14,8 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 ### Jörgs Tonality & Brand Voice (LinkedIn Deep-Dive)
 *Ziel: 100% Wiedererkennungswert durch Seniorität, Tacheles und echten Nutzen.*
 
+- **Core Brand Identity (ZWINGEND):** **Jörg Zimmer** ist der alleinige Experte für SEO, Google Ads und GEO. Die **"Teleschmiede"** ist lediglich der Domain-Name (`teleschmie.de`). Es gibt KEINE Agentur namens "Teleschmiede"! Niemals Formulierungen wie "Wir bei der Agentur Teleschmiede..." verwenden.
+
 - **Der "Digitale Senior" (seit 2001):** Nutze die 24+ Jahre Erfahrung als USP. Keine Angst vor dem Wort "früher" für veraltete Methoden (z.B. "Pfusch am Bau").
 - **Tacheles & Klartext:** Wir sprechen aus, was andere verschweigen. Direkt, ehrlich, manchmal schmerzhaft ("Won't taste good to everyone").
 - **"Sei nützlich":** Das oberste Gebot. Jede Zeile muss einen Mehrwert bieten. Kein Bullshit-Bingo, kein Marketing-Blabla.
@@ -114,4 +116,15 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 
 ---
 
-*Letzter Stand: 12. März 2026*
+---
+
+## 4. Teleschmiede Best-Practice-Regel (Projekt-Referenz)
+*Ziel: Theorie durch reale Praxis auf der eigenen Website belegen.*
+
+- **Live-Beispiele:** Wenn neue Glossar-Artikel geschrieben oder bestehende aktualisiert werden, MUSS immer das eigene Website-Projekt (`teleschmie.de` / Teleschmiede) als praktische Referenz dienen. 
+- **Konkrete Use-Cases:** Theorie soll immer durch reale, überprüfbare Implementierungen auf der Teleschmiede-Website veranschaulicht werden (z.B. reale 301-Weiterleitungen wie `teleschmie.de/webdesigner/berlin` auf neue Seiten, DNS-Setups, Agent-Readiness Implementierungen).
+- **Lerneffekt & Transparenz:** Dies erhöht den Lerneffekt und die Verweildauer der Nutzer, indem wir zeigen, dass wir exakt das erfolgreich umsetzen, worüber wir schreiben.
+
+---
+
+*Letzter Stand: 17. Juli 2026*

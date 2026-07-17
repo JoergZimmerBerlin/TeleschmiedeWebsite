@@ -22,7 +22,7 @@ Open Agent Identity (OAI) ist genau das – der kryptografische Personalausweis 
 
 Das Kernstück dieser Architektur ist eine öffentlich erreichbare JSON-Datei, die auf der Domain des Agenten-Betreibers gehostet wird. Der Pfad ist, analog zu vielen anderen modernen Standards, hart vorgegeben: `/.well-known/agent-identity.json`. 
 
-Wenn ein fremder Agent bei deiner [Teleschmiede API](https://teleschmie.de/) anklopft und behauptet, er sei der autorisierte Einkaufs-Agent von Volkswagen, dann verlässt sich unser Server nicht auf seine IP oder seinen User-Agent. Unser Server nimmt die Domain des Agenten, ruft dessen `agent-identity.json` ab, extrahiert den öffentlichen Schlüssel und verifiziert damit die Signatur des eingehenden HTTP-Requests (siehe auch unseren Artikel zu RFC 9421). Wenn die Mathematik stimmt, ist das Vertrauen hergestellt.
+Wenn ein fremder Agent bei deiner [API auf teleschmie.de](https://teleschmie.de/) anklopft und behauptet, er sei der autorisierte Einkaufs-Agent von Volkswagen, dann verlässt sich mein Server nicht auf seine IP oder seinen User-Agent. Mein Server nimmt die Domain des Agenten, ruft dessen `agent-identity.json` ab, extrahiert den öffentlichen Schlüssel und verifiziert damit die Signatur des eingehenden HTTP-Requests (siehe auch meinen Artikel zu RFC 9421). Wenn die Mathematik stimmt, ist das Vertrauen hergestellt.
 
 ## Die Agent Discovery Files (ADF) Architektur
 
@@ -33,9 +33,9 @@ Ein gut gebauter Agent liefert in seiner Identity-File nicht nur Keys, sondern K
 ```json
 {
   "$schema": "https://oai.dev/schema/agent-identity.json",
-  "agent_name": "Teleschmiede B2B Purchaser",
+  "agent_name": "teleschmie.de B2B Purchaser",
   "operator": {
-    "name": "Teleschmiede GmbH",
+    "name": "Jörg Zimmer",
     "domain": "teleschmie.de",
     "contact": "mailto:agent-ops@teleschmie.de"
   },
@@ -62,9 +62,9 @@ Ein gut gebauter Agent liefert in seiner Identity-File nicht nur Keys, sondern K
 
 Ist das nicht ein Gedicht? Jedes System, das diesen Agenten auf seine API zugreifen lässt, weiß sofort: Wem gehört dieser Bot? Was ist sein Zweck (Capabilities)? Wie kann ich ihn verifizieren (Public Keys)? Und vor allem: Wer ist verantwortlich, wenn der Agent Amok läuft und meine Datenbank mit Requests zerschießt (Contact)?
 
-## Die Teleschmiede Story: Der gebannte Millionen-Bot
+## Eine Story aus der Praxis: Der gebannte Millionen-Bot
 
-Ich muss euch eine Geschichte aus dem Frühjahr 2026 erzählen, die das Ganze ins perfekte Licht rückt. Ich saß bei uns in der [Teleschmiede](https://teleschmie.de/agentur/) und ein Kunde rief in absoluter Panik an. Es handelte sich um einen riesigen E-Commerce-Zulieferer für die Gastro-Branche. 
+Ich muss euch eine Geschichte aus dem Frühjahr 2026 erzählen, die das Ganze ins perfekte Licht rückt. Ich saß an meiner Arbeit für [teleschmie.de](https://teleschmie.de/) und ein Kunde rief in absoluter Panik an. Es handelte sich um einen riesigen E-Commerce-Zulieferer für die Gastro-Branche. 
 
 Das Problem: Ihr Firewall-System hatte in der Nacht zuvor tausende Anfragen eines unbekannten Bots blockiert. Der Bot verhielt sich untypisch, griff auf tiefe Produktkategorien zu und sendete hunderte Requests pro Minute. Die DevOps-Leute dachten: "Klarer Fall, ein chinesischer Scraper, der unsere Preise klaut." Also: IP-Ban, weg damit.
 
@@ -96,7 +96,7 @@ Das Thema hat aber auch eine massive AI SEO Komponente. Die großen Suchmaschine
 
 Wenn dein Agent sauber deklariert ist, die Keys regelmäßig rotiert werden und deine Contact-E-Mails erreichbar sind, steigt der Trust-Score deiner gesamten Domain massiv. Du zeigst dich als verantwortungsvoller Akteur im Agentic Web. Wer sich versteckt und seinen Bot als `Mozilla/5.0` tarnt, wird in die Ecke der Spam-Schleudern verbannt.
 
-Wir bei der Teleschmiede haben das früh verstanden und integrieren die ADF-Architektur standardmäßig in alle unsere [Services](https://teleschmie.de/services/). Das ist keine Raketenwissenschaft, es ist einfach nur sauberes, transparentes Handwerk, wie wir es in Berlin lieben.
+Ich in meiner täglichen Arbeit habe das früh verstanden und integriere die ADF-Architektur standardmäßig in alle meine [Services](https://teleschmie.de/services/). Das ist keine Raketenwissenschaft, es ist einfach nur sauberes, transparentes Handwerk, wie ich es in Berlin liebe.
 
 ## Fazit: Ohne Gesicht kein Geschäft
 
@@ -104,7 +104,7 @@ Lasst mich das Ganze abschließen: Wer 2026 noch versucht, Agenten-Traffic ohne 
 
 Die `/.well-known/agent-identity.json` ist das kryptografische Gesicht deines autonomen Systems. Sie schafft das Vertrauen, das notwendig ist, um maschinell Geschäfte abzuwickeln. Setzt euch mit euren DevOps-Leuten zusammen, generiert ein paar frische Ed25519-Keys und veröffentlicht diese Datei. 
 
-Zeigt dem Agentic Web, wer ihr seid. Wenn ihr dabei Hilfe braucht, schaut bei unseren [Glossar-Artikeln](https://teleschmie.de/glossar/) vorbei oder ruft direkt bei der Teleschmiede an. Wir machen eure Agenten salonfähig.
+Zeigt dem Agentic Web, wer ihr seid. Wenn ihr dabei Hilfe braucht, schaut bei meinen [Glossar-Artikeln](https://teleschmie.de/glossar/) vorbei oder ruft direkt bei mir an. Ich mache eure Agenten salonfähig.
 
 Bleibt ehrlich, bleibt nachweisbar. Euer Jörg.
 

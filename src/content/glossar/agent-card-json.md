@@ -1,7 +1,7 @@
 ---
 category: "AI SEO & Generative Search"
 title: "agent-card.json: Der Ausweis für KI-Agenten"
-description: "Wenn dein KI-Agent keine agent-card.json hat, existiert er für den B2B-Markt nicht. Jörg Zimmer zeigt dir, wie du dich im A2A Protocol ausweist."
+description: "Wenn dein KI-Agent keine agent-card.json hat, existiert er für den Markt für Unternehmen nicht. Jörg Zimmer zeigt dir, wie du dich im A2A Protocol ausweist."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agent-card-json-3d.webp"
 image_alt: "3D Infografik zur agent-card.json als maschinenlesbarer Personalausweis für KI-Agenten"
@@ -11,7 +11,7 @@ key_takeaways:
   - "Ohne sie können fremde Agenten nicht autonom mit deinem System interagieren."
 faqs:
   - question: "Wofür genau braucht mein KI-Agent diese JSON-Datei?"
-    answer: "Stell dir vor, du gehst auf eine fremde B2B-Messe ohne Namensschild und ohne Visitenkarte. Niemand weiß, wer du bist, was du anbietest oder wie man dich kontaktiert. Die `agent-card.json` ist die digitale, maschinenlesbare Visitenkarte deines Agenten. Fremde KIs scannen sie, um herauszufinden, über welche Endpunkte und mit welcher Autorisierung sie Aufgaben an dich delegieren können."
+    answer: "Stell dir vor, du gehst auf eine fremde Messe ohne Namensschild und ohne Visitenkarte. Niemand weiß, wer du bist, was du anbietest oder wie man dich kontaktiert. Die `agent-card.json` ist die digitale, maschinenlesbare Visitenkarte deines Agenten. Fremde KIs scannen sie, um herauszufinden, über welche Endpunkte und mit welcher Autorisierung sie Aufgaben an dich delegieren können."
   - question: "Wo muss diese Datei auf meinem Server liegen?"
     answer: "Es gibt dafür einen knallharten, genormten Pfad. Die Datei MUSS zwingend im öffentlichen `.well-known` Verzeichnis im Root deiner Domain liegen (also z.B. `https://deinedomain.de/.well-known/agent-card.json`). Wenn sie woanders liegt, wird sie beim A2A Discovery Process schlichtweg ignoriert."
   - question: "Was ist der Unterschied zwischen der agent-card.json und der llms.txt?"
@@ -24,13 +24,13 @@ faqs:
 
 Moin! 🌻
 
-Wir schreiben das Jahr 2026. Das Internet ist nicht mehr nur ein bunter Katalog für Menschen, sondern ein hochkomplexes, verhandlungsstarkes Ökosystem für autonome Software-Agenten. Wenn wir heute über B2B-Lead-Generierung, E-Commerce-Transaktionen oder automatisierte Lieferketten sprechen, sprechen wir nicht mehr darüber, wie ein Mensch ein PDF herunterlädt. Wir sprechen darüber, wie der Einkaufs-Agent deines Kunden vollautonom mit deinem Sales-Agenten kommuniziert.
+Wir schreiben das Jahr 2026. Das Internet ist nicht mehr nur ein bunter Katalog für Menschen, sondern ein hochkomplexes, verhandlungsstarkes Ökosystem für autonome Software-Agenten. Wenn wir heute über Lead-Generierung, E-Commerce-Transaktionen oder automatisierte Lieferketten sprechen, sprechen wir nicht mehr darüber, wie ein Mensch ein PDF herunterlädt. Wir sprechen darüber, wie der Einkaufs-Agent deines Kunden vollautonom mit deinem Sales-Agenten kommuniziert.
 
 Das Problem dabei: Woher weiß der Agent deines Kunden überhaupt, dass dein Agent existiert? Und vor allem: Woher weiß er, welche "Sprache" dein Agent spricht, welche Aufgaben er ausführen kann und wo genau der digitale Briefkasten auf deinem Server hängt?
 
 Die Antwort ist simpel, brutal effektiv und absolut standardisiert: Die **`agent-card.json`**. 
 
-Sie ist das Typenschild, der Personalausweis und das Manifest deines KI-Systems. Wer dieses kleine Stück JSON-Code im Sommer 2026 ignoriert, schließt sein Unternehmen faktisch vom lukrativsten B2B-Markt des Jahrzehnts aus. Lass uns Tacheles reden.
+Sie ist das Typenschild, der Personalausweis und das Manifest deines KI-Systems. Wer dieses kleine Stück JSON-Code im Sommer 2026 ignoriert, schließt sein Unternehmen faktisch vom lukrativsten Markt für Unternehmen des Jahrzehnts aus. Lass uns Tacheles reden.
 
 ## Der Engine-Raum der Agent-to-Agent Kommunikation
 
@@ -59,7 +59,7 @@ Ein sauberes Manifest besteht aus vier elementaren Blöcken:
 
 ## Praxisbeispiel: Wie die Teleschmiede das löst
 
-Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben Agent Readiness auf Level 5 (dem höchsten Level im Cloudflare-Raster).
+Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben eine vollständige Agent Readiness (dem höchsten Level im Cloudflare-Raster).
 
 Unsere Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/agent-card.json`.
 
@@ -84,7 +84,7 @@ Das ist kein Geheimnis, das ist pure Transparenz für das KI-Ökosystem. Ein Aus
 }
 ```
 
-Jedes fremde KI-System, das auf unsere Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige B2B-Geschäft ist.
+Jedes fremde KI-System, das auf unsere Domain trifft, weiß durch diese simplen 15 Zeilen Code sofort, dass es mit einem hochprofessionellen, protokolltreu agierenden Partner zu tun hat. Das schafft "Machine Trust" – das maschinelle Vertrauen, das die Basis für jedes zukünftige Geschäft ist.
 
 ## Vermeide diese fatalen Fehler
 
@@ -103,7 +103,7 @@ Die `agent-card.json` ist keine Werbebroschüre. Packe keine 500 Wörter SEO-Tex
 
 Du musst mir nicht glauben. Du kannst die Agent Readiness deiner eigenen Website in exakt 30 Sekunden selbst überprüfen. Schnapp dir dein bevorzugtes KI-Tool (ChatGPT, Claude, oder einen spezialisierten Terminal-Agenten) und lass ihn die harte Arbeit machen. 
 
-Dieser Test zeigt dir schonungslos, wie blind deine Infrastruktur für den B2B-Markt von morgen ist, wenn du das Thema ignorierst.
+Dieser Test zeigt dir schonungslos, wie blind deine Infrastruktur für den Markt für Unternehmen von morgen ist, wenn du das Thema ignorierst.
 
 ### Der universelle KI-Prompt zur Prüfung
 
@@ -113,7 +113,7 @@ Kopiere den folgenden Prompt 1:1 und führe ihn aus. Er ist komplett universell 
 ```text
 Starte einen strengen technischen A2A Discovery Audit für meine Domain. Prüfe, ob im Root-Verzeichnis unter `/.well-known/agent-card.json` ein gültiges JSON-Manifest (A2A Protocol v1.0.0 Standard der Linux Foundation) existiert. 
 - Falls die Datei vorliegt: Validiere das JSON-Schema, überprüfe die CORS-Header auf globale Erreichbarkeit und checke die referenzierten Security-Endpoints (wie die `auth.md`).
-- Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort Agent-Ready (Level 5) zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen B2B-Transaktionen abschneidet.
+- Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort Agent-Ready (Level 5) zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen geschäftliche Transaktionen abschneidet.
 ```
 
 Es ist Zeit aufzuwachen. Wer heute noch Webseiten ausschließlich für den Chrome-Browser baut, hat den Paradigmenwechsel verschlafen. Mach deine Domain fit für die Agenten-Ökonomie.

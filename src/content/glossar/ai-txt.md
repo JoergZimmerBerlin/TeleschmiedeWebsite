@@ -1,6 +1,6 @@
 ---
 category: "AI SEO & Generative Search"
-title: "ai.txt SEO: Agent Readiness Level 5 erreichen"
+title: "ai.txt SEO: eine vollständige Agent Readiness erreichen"
 description: "Warum eine ai.txt mehr Umsatz als Rankings bringt. Jörg Zimmer erklärt im Klartext, wie du KI-Bots steuerst und deine Website Agent-Ready machst."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp"
@@ -62,7 +62,7 @@ Aktuell (Sommer 2026) führt das European Data Protection Board (EDPB) massive K
 
 **2. Die Trennung von RAG und Training**
 Die großen, seriösen KI-Anbieter (OpenAI, Anthropic, Google) entwickeln ihre Crawler ständig weiter. Sie verstehen, dass Publisher rebellieren. Wenn du in deiner `robots.txt` den `GPTBot` komplett aussperrst, existierst du für ChatGPT nicht mehr. Wenn ein Kunde fragt "Wer ist die beste SEO-Agentur in Berlin?", wird die Teleschmiede nicht genannt. Das ist fatal. 
-Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fragen eurer Nutzer zu beantworten (RAG), aber ihr dürft sie nicht in eure Basismodelle einbrennen." Auch wenn dieser feine Unterschied technisch von den Crawlern heute noch nicht zu 100% sauber getrennt wird, positionierst du dich als technisch versierter Vorreiter (Agent Readiness Level 5).
+Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fragen eurer Nutzer zu beantworten (RAG), aber ihr dürft sie nicht in eure Basismodelle einbrennen." Auch wenn dieser feine Unterschied technisch von den Crawlern heute noch nicht zu 100% sauber getrennt wird, positionierst du dich als technisch versierter Vorreiter (eine vollständige Agent Readiness).
 
 ## Das "Agent Readiness" Konzept
 
@@ -72,11 +72,11 @@ Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readin
 * **Level 3** erfordert bereits explizite KI-Dateien. Wer keine `ai.txt` und keine `llms.txt` hat, bleibt hier hängen.
 * **Level 4 und 5** sind die Königsklasse. Hier sprechen wir über das A2A Protocol, über stateless MCP (Model Context Protocol) und autonome Authentifizierung über `auth.md`. 
 
-Wenn du als Unternehmen im B2B-Umfeld sichtbar sein willst, ist Level 3 die absolute Pflicht. Level 5 ist die Kür, die dir die Leads der Zukunft sichert.
+Wenn du als Unternehmen im Unternehmensumfeld sichtbar sein willst, ist Level 3 die absolute Pflicht. Die volle Agent-Kompatibilität ist die Kür, die dir die Leads der Zukunft sichert.
 
 ## Praxisbeispiel: Die ai.txt der Teleschmiede
 
-Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Wir bei der Teleschmiede predigen nicht nur Wasser, wir trinken auch Wein. Unsere eigene Infrastruktur ist strikt auf Agent Readiness Level 5 optimiert.
+Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Wir bei der Teleschmiede predigen nicht nur Wasser, wir trinken auch Wein. Unsere eigene Infrastruktur ist strikt auf eine vollständige Agent Readiness optimiert.
 
 Du kannst unsere Live-Datei jederzeit unter `https://teleschmie.de/ai.txt` einsehen. Sie fungiert als Benchmark für das, was wir auch bei unseren Kunden implementieren.
 
@@ -86,7 +86,7 @@ Wir nutzen das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Ba
 
 ```text
 # AI Policy for teleschmie.de
-# Agent Readiness Level 5 Configuration
+# eine vollständige Agent Readiness Configuration
 
 Contact: hallo@teleschmie.de
 Author: Jörg Zimmer

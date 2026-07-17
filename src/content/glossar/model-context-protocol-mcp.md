@@ -58,7 +58,7 @@ Wenn der KI-Agent jetzt wissen will: "Wie viel Umsatz hat Kunde XY im letzten Mo
 
 ## Abgrenzung: Warum MCP nicht A2A ist
 
-Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komplett durcheinandergeworfen werden. Wenn du Agent Readiness Level 5 erreichen willst, musst du den Unterschied kennen.
+Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komplett durcheinandergeworfen werden. Wenn du eine vollständige Agent Readiness erreichen willst, musst du den Unterschied kennen.
 
 Stell dir dein Unternehmen als einen hochqualifizierten Arbeiter vor. 
 * Wenn dieser Arbeiter ein internes Werkzeug aus seinem eigenen Werkzeugkoffer nimmt (einen Hammer, eine Bohrmaschine, Zugriff auf deine Firmen-Infrastruktur), dann benutzt er **MCP**. Es ist die *vertikale* Verbindung zwischen "Denker" und "Werkzeug".
@@ -91,7 +91,7 @@ Kopiere dir diesen Textblock und jage ihn in den KI-Agenten deiner Wahl. Der Pro
 Schlüpfe in die Rolle eines Senior System Architects der Agentic AI Foundation. Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand Juli 2026). 
 - Zeige mir konkret auf, an welchen Stellen ich in meinem Unternehmen heute noch mit teuren, hart-kodierten API-Integrationen arbeite, die ich durch standardisierte, zustandslose MCP-Server ersetzen MUSS, um Cloud-Native Skalierbarkeit zu erreichen.
 - Erkläre mir, wie ich meine proprietären Unternehmensdatenbanken über MCP sicher (Security & Authorization nach den neuen Specs) an mein internes LLM anbinde.
-- Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf Cloudflare Agent Readiness Level 5 zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne.
+- Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf das Agent Readiness Reifegradmodell zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne.
 ```
 
 Es gibt keine Zeit mehr für zögerliche Experimente. Die Technologie ist flügge geworden, die Protokolle sind standardisiert. Nutze MCP, reiß die Silos in deinem Unternehmen ein und mach deine Daten agent-ready. Wer seine Gehirne im Dunkeln lässt, hat im KI-Zeitalter keine Chance.

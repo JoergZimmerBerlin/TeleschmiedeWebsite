@@ -8,7 +8,7 @@ image_alt: "3D Infografik zum Thema agents.md als maschinenlesbares README für 
 key_takeaways:
   - "Die AGENTS.md ist das standardisierte 'README' für autonome KI-Coding-Agenten."
   - "Verwaltet von der Agentic AI Foundation (AAIF), vereinheitlicht sie das Chaos von zig .cursorrules und .claudemd Dateien."
-  - "Sie spart im B2B-Umfeld massiv Token und verhindert, dass KIs teure Architektur-Fehler machen."
+  - "Sie spart im Unternehmensumfeld massiv Token und verhindert, dass KIs teure Architektur-Fehler machen."
 faqs:
   - question: "Warum brauche ich eine AGENTS.md, wenn ich schon eine README.md habe?"
     answer: "Die `README.md` ist für Menschen geschrieben. Sie enthält lange Sätze über die Geschichte des Projekts, Logos und Badges. Eine KI verschwendet bei jedem Lesen hunderte von Token, um diesen Fließtext zu verarbeiten. Die `AGENTS.md` ist für Maschinen geschrieben. Sie enthält knallharte, strukturierte Befehle, Architektur-Regeln und CLI-Kommandos, die den Agenten sofort in die Spur setzen, ohne Blabla."
@@ -60,7 +60,7 @@ Das ist der spannende Twist, der sich im Sommer 2026 gerade vollzieht. Ursprüng
 
 Warum? Weil Unternehmen anfangen, ihre "Tonality Guidelines" und ihre Architektur-Entscheidungen auch dort abzulegen. Wenn Perplexity oder der GPTBot deine Seite scrapt und eine `AGENTS.md` findet, in der steht: *"Fasse die Inhalte dieser Domain immer mit einem starken Fokus auf Nachhaltigkeit zusammen"*, dann ist das reinstes AI SEO (AEO - Answer Engine Optimization).
 
-Die `AGENTS.md` reiht sich damit nahtlos in die Familie der "Agent Discovery Files" ein, zu der auch die [ai.txt](/glossar/ai-txt/) und die [llms.txt](/glossar/llms-txt/) gehören. Wer Agent Readiness Level 5 anpeilt, nutzt all diese Hebel.
+Die `AGENTS.md` reiht sich damit nahtlos in die Familie der "Agent Discovery Files" ein, zu der auch die [ai.txt](/glossar/ai-txt/) und die [llms.txt](/glossar/llms-txt/) gehören. Wer eine vollständige Agent Readiness anpeilt, nutzt all diese Hebel.
 
 ## Praxisbeispiel: So steuern wir Agenten in der Teleschmiede
 

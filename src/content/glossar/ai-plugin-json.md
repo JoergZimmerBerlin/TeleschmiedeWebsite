@@ -13,13 +13,13 @@ faqs:
   - question: "Was genau war die ai-plugin.json?"
     answer: "Es war eine proprietäre Manifest-Datei von OpenAI. Wenn du wolltest, dass ChatGPT (damals noch in Version 4) mit deiner API spricht (z.B. um Flüge zu buchen oder das Wetter abzufragen), musstest du diese JSON-Datei in deinem `.well-known` Ordner ablegen. Sie deklarierte den Namen des Plugins, das Logo und zeigte OpenAI den Weg zu deiner OpenAPI-Spezifikation."
   - question: "Warum ist dieses Konzept im Sommer 2026 gescheitert?"
-    answer: "Weil es ein Walled Garden (ein geschlossenes Silo) war. Jedes Unternehmen musste für OpenAI, für Google, für Anthropic und für Microsoft eigene 'Plugins' bauen. Das skaliert im B2B-Markt absolut gar nicht. Unternehmen wollten offene, herstellerunabhängige Standards. Dieser Druck der Industrie führte zur Etablierung des A2A Protocols und des Model Context Protocols (MCP)."
+    answer: "Weil es ein Walled Garden (ein geschlossenes Silo) war. Jedes Unternehmen musste für OpenAI, für Google, für Anthropic und für Microsoft eigene 'Plugins' bauen. Das skaliert im Markt für Unternehmen absolut gar nicht. Unternehmen wollten offene, herstellerunabhängige Standards. Dieser Druck der Industrie führte zur Etablierung des A2A Protocols und des Model Context Protocols (MCP)."
   - question: "Sollte ich meine bestehende ai-plugin.json jetzt einfach löschen?"
     answer: "Nein, nicht sofort löschen. Es gibt immer noch Millionen von Legacy-Bots und veralteten Custom GPTs, die diese Datei lesen, um mit deinem System zu kommunizieren. Aber du solltest auf keinen Fall noch Budget in die Weiterentwicklung dieses Kanals stecken. Der Traffic wird kontinuierlich auf die neuen A2A-Pfade umschwenken. Belasse sie als Fallback im `.well-known` Ordner."
   - question: "Was ist der technische Nachfolger für die Integration meiner APIs?"
     answer: "Das ist zweigeteilt. Wenn du interne Werkzeuge an dein eigenes Unternehmens-LLM anbinden willst, nutzt du das Stateless Model Context Protocol (MCP). Wenn du willst, dass fremde, externe KIs deine Dienste autonom buchen können, nutzt du das A2A Protocol v1.0.0 und deklarierst deine Dienste in der `agent-card.json`."
   - question: "Wie bewertet Cloudflare diese Legacy-Datei beim Agent Readiness Level?"
-    answer: "Im offiziellen Cloudflare Raster bringt dir eine `ai-plugin.json` heute maximal noch Punkte für Level 3. Um auf das ultimative Level 5 (Agent-Native) zu kommen, prüft der Algorithmus zwingend die Existenz der modernen, offenen Standards (wie der Agent Card und der auth.md)."
+    answer: "Im offiziellen Cloudflare Raster bringt dir eine `ai-plugin.json` heute maximal noch Punkte für Level 3. Um auf ein hohes Agent Readiness Level (Agent-Native) zu kommen, prüft der Algorithmus zwingend die Existenz der modernen, offenen Standards (wie der Agent Card und der auth.md)."
 ---
 
 Moin! 🌻
@@ -50,7 +50,7 @@ Das Problem war nicht die Technik. Das Problem war das Geschäftsmodell.
 
 Das Konzept der "Plugins" funktionierte nur, wenn alle Menschen der Welt bereit waren, das Interface von ChatGPT (die OpenAI-Website oder App) als den einzigen Knotenpunkt ihres digitalen Lebens zu nutzen. 
 
-Aber das ist im B2B-Umfeld nie passiert. Unternehmen wollten ihre Daten nicht durch den Flaschenhals von OpenAI pressen. Und vor allem wollten sie nicht für jedes neue KI-Modell ein neues Plugin bauen.
+Aber das ist im Unternehmensumfeld nie passiert. Unternehmen wollten ihre Daten nicht durch den Flaschenhals von OpenAI pressen. Und vor allem wollten sie nicht für jedes neue KI-Modell ein neues Plugin bauen.
 Stell dir das Chaos vor:
 * Du baust ein Plugin für ChatGPT.
 * Du baust eine Extension für Google Gemini.
@@ -82,7 +82,7 @@ Die Frage lautet immer: *"Herr Zimmer, sollen wir die Datei löschen?"*
 
 Warum nicht löschen? Es gibt im Web immer noch eine unfassbare Menge an Legacy-Bots, veralteten Custom GPTs und Hobby-Projekten, die stur nach dieser Datei suchen, wenn sie deine Domain anpingen. Sie kostet dich kein Geld auf dem Server, und sie liefert den Legacy-Bots die OpenAPI-Specs, die sie brauchen. Ein Fallback schadet nie.
 
-Warum das Budget einfrieren? Jeder Euro, den du im Sommer 2026 noch in die Weiterentwicklung von OpenAI-spezifischen Plugins steckst, ist verbranntes Geld. Deine Kunden wollen nicht in ChatGPT wechseln, um bei dir zu kaufen. Deine Kunden haben eigene B2B-Einkaufs-Agenten. Wenn du diese nicht via A2A bedienen kannst, verlierst du den Deal.
+Warum das Budget einfrieren? Jeder Euro, den du im Sommer 2026 noch in die Weiterentwicklung von OpenAI-spezifischen Plugins steckst, ist verbranntes Geld. Deine Kunden wollen nicht in ChatGPT wechseln, um bei dir zu kaufen. Deine Kunden haben eigene Einkaufs-Agenten. Wenn du diese nicht via A2A bedienen kannst, verlierst du den Deal.
 
 ## Die Lektion: Agilität schlägt Hype
 
@@ -103,6 +103,6 @@ Führe einen Legacy-Audit meiner Web-Infrastruktur durch. Prüfe das Root-Verzei
 - Entwirf mir einen Migrationsplan, um diese Legacy-Endpunkte aus dem Plugin-Silo zu befreien und sie nach dem aktuellen Standard vom Juli 2026 in eine offene `agent-card.json` (A2A Protocol) und eine saubere `auth.md` zu überführen, damit mein Unternehmen herstellerunabhängig Agent-Ready (Level 5) wird.
 ```
 
-Lass die Vergangenheit ruhen. Die Plugin-Ära war eine schöne Spielwiese, aber das echte B2B-Geschäft wird jetzt auf offenen Protokollen gemacht.
+Lass die Vergangenheit ruhen. Die Plugin-Ära war eine schöne Spielwiese, aber das echte Geschäft wird jetzt auf offenen Protokollen gemacht.
 
 ALOHA! 🌻✌️

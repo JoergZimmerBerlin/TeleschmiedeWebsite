@@ -1,6 +1,6 @@
 ---
 category: "AI SEO & Generative Search"
-title: "auth.md: Autonome KI B2B-Anmeldung ohne Captcha"
+title: "auth.md: Autonome KI Kunden-Anmeldung ohne Captcha"
 description: "WorkOS und ID-JAGs beenden die Captcha-Hölle für Bots. Jörg Zimmer zeigt, wie die auth.md autonome Agent Verified Flows ermöglicht."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-auth-md-3d.webp"
@@ -8,7 +8,7 @@ image_alt: "3D Infografik zum Thema auth.md und maschinenlesbarer Authentifizier
 key_takeaways:
   - "Die auth.md ist der Standard für maschinenlesbare Autorisierungsrichtlinien."
   - "WorkOS treibt seit Mai 2026 den 'Agent Verified' Flow via Identity Assertion JWT (ID-JAG) massiv voran."
-  - "Damit entfallen für B2B-KIs lästige Captchas und manuelle Registrierungsformulare komplett."
+  - "Damit entfallen für Business-KIs lästige Captchas und manuelle Registrierungsformulare komplett."
 faqs:
   - question: "Warum können sich KI-Agenten nicht einfach wie Menschen über Formulare registrieren?"
     answer: "Weil der gesamte Web-Traffic der letzten 20 Jahre darauf ausgelegt wurde, Bots zu blockieren. Formulare haben Captchas, Double-Opt-In-Mails und komplexe JavaScript-Hürden. Ein autonomer Einkaufs-Agent scheitert daran kläglich. Er braucht einen direkten, maschinenlesbaren Weg, um sich zu verifizieren, und genau den liefert die `auth.md`."
@@ -18,8 +18,8 @@ faqs:
     answer: "Nein, sie ist kein Ersatz, sondern der Wegweiser zu deinen OAuth-Infrastrukturen. Die `auth.md` deklariert lediglich die Spielregeln. Sie sagt dem Agenten: 'Ich unterstütze OAuth, hier ist mein Authorization Server Endpoint, und diese Scopes verlange ich von dir.' Sie setzt auf den etablierten RFC-Standards auf, anstatt das Rad neu zu erfinden."
   - question: "Darf ich in meiner auth.md sensible Passwörter oder API-Keys ablegen?"
     answer: "Ganz klares Nein! Die `auth.md` liegt im öffentlichen `.well-known` Verzeichnis und kann von JEDEM Crawler der Welt gelesen werden. Sie enthält niemals Zugangsdaten. Sie enthält ausschließlich die *Anleitung*, wie ein Agent legitime Zugangsdaten erwerben kann."
-  - question: "Ist Agent Readiness Level 5 ohne auth.md möglich?"
-    answer: "Nein. Cloudflare bewertet Level 5 explizit danach, ob deine Website in der Lage ist, autonome Agenten (z.B. über das A2A Protocol) sicher abzufertigen. Wenn ein fremder Agent vor verschlossenen Türen steht, weil er nicht weiß, wie er sich bei dir anmelden soll, bist du von der Agenten-Ökonomie abgeschnitten."
+  - question: "Ist eine vollständige Agent Readiness ohne auth.md möglich?"
+    answer: "Nein. Cloudflare bewertet die volle Agent-Kompatibilität explizit danach, ob deine Website in der Lage ist, autonome Agenten (z.B. über das A2A Protocol) sicher abzufertigen. Wenn ein fremder Agent vor verschlossenen Türen steht, weil er nicht weiß, wie er sich bei dir anmelden soll, bist du von der Agenten-Ökonomie abgeschnitten."
 ---
 
 Moin! 🌻
@@ -71,7 +71,7 @@ Die `auth.md` ist der Ort, an dem du deklarierst: *"Ich akzeptiere ID-JAGs von d
 
 ## Praxisbeispiel: Wie sieht das in der Realität aus?
 
-Wir in der Teleschmiede setzen Agent Readiness auf Level 5 um. Level 5 bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
+Wir in der Teleschmiede setzen eine vollständige Agent Readiness um. Das bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
 
 Wenn du wissen willst, wie wir das für uns selbst gelöst haben, schau dir unsere Datei an: `https://teleschmie.de/.well-known/auth.md`.
 Wichtig: Der Name der Datei muss strikt kleingeschrieben werden, und die allererste Zeile MUSS zwingend `# auth.md` lauten. Das sind die harten Parser-Regeln der Crawler.
@@ -123,6 +123,6 @@ Führe eine tiefgreifende 'Agent Readiness'-Prüfung für das Thema Authentifizi
 - Erstelle mir auf Basis der Standards vom Juli 2026 (inkl. Fokus auf 'Agent Verified' Flows und ID-JAG) einen vollständigen Architekturentwurf und eine fertige `auth.md`, die zeigt, wie ich eine maschinenlesbare 'zweite Vordertür' für externe KI-Agenten aufbaue.
 ```
 
-Wenn du den B2B-Markt in den nächsten Jahren dominieren willst, musst du aufhören, Maschinen wie lästige Spammer zu behandeln. Rollt den KIs den roten Teppich aus. Wer autonomen Agenten den einfachsten Registrierungs-Flow bietet, gewinnt den Deal. So einfach ist das.
+Wenn du den Markt für Unternehmen in den nächsten Jahren dominieren willst, musst du aufhören, Maschinen wie lästige Spammer zu behandeln. Rollt den KIs den roten Teppich aus. Wer autonomen Agenten den einfachsten Registrierungs-Flow bietet, gewinnt den Deal. So einfach ist das.
 
 ALOHA! 🌻✌️

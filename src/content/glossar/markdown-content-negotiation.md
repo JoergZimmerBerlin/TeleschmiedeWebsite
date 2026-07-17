@@ -62,7 +62,7 @@ Wenn der Crawler auf Domain B (deine Domain) trifft, Content Negotiation durchf�
 
 ## Praxisbeispiel: Content Negotiation in der Teleschmiede
 
-Wir erz채hlen unseren Kunden keine M채rchen, wir bauen das live ein. Die Infrastruktur der Teleschmiede l채uft auf Agent Readiness Level 5. Wir nutzen modernste Edge-Functions, um Anfragen in Millisekunden zu filtern.
+Wir erz채hlen unseren Kunden keine M채rchen, wir bauen das live ein. Die Infrastruktur der Teleschmiede l채uft auf eine vollst채ndige Agent Readiness. Wir nutzen modernste Edge-Functions, um Anfragen in Millisekunden zu filtern.
 
 Wenn du diesen Glossar-Artikel als Mensch im Browser aufrufst (`https://teleschmie.de/glossar/markdown-content-negotiation/`), bekommst du das volle Erlebnis. Ein schickes Dark/Light-Theme, 3D-Infografiken, eine Navigation und ein sauberes Footer-Layout. Der Server liefert dir brav `Content-Type: text/html`.
 
@@ -105,7 +105,7 @@ export function onRequest(context) {
 }
 ```
 
-Das sind 15 Zeilen Code, die den Unterschied ausmachen, ob du im B2B-Markt des Jahres 2026 von autonomen Einkaufs-Agenten verstanden wirst oder nicht.
+Das sind 15 Zeilen Code, die den Unterschied ausmachen, ob du im Markt f체r Unternehmen des Jahres 2026 von autonomen Einkaufs-Agenten verstanden wirst oder nicht.
 
 ## Der Selbsttest: Pr체fe deine eigene Seite
 

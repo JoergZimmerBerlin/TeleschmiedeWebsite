@@ -1,6 +1,6 @@
 ---
 category: "AI SEO & Generative Search"
-title: "A2A Protocol: Autonome KI-Agenten im B2B-Umfeld"
+title: "A2A Protocol: Autonome KI-Agenten im Unternehmensumfeld"
 description: "Vergiss APIs für Menschen. Das A2A Protocol (v1.0.0) ist der Industrie-Standard für Agent-to-Agent Kommunikation. Jörg Zimmer erklärt den Shift."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-a2a-protocol-3d.webp"
@@ -26,7 +26,7 @@ Moin! 🌻
 
 Wir müssen über einen Paradigmenwechsel sprechen, der aktuell das gesamte Fundament des Internets umkrempelt. Wenn wir uns die Web-Entwicklung der letzten zwanzig Jahre ansehen, ging es immer nur um eines: Wie können wir Informationen so aufbereiten, dass *Menschen* sie leichter konsumieren können? Wir haben responsive Designs gebaut, Ladezeiten optimiert und Conversion-Rates poliert. 
 
-Aber das Web, wie wir es kannten, ist tot. Wir befinden uns im Sommer 2026, und der Traffic von Menschen, die auf Bildschirme starren und Knöpfchen drücken, stagniert oder bricht ein. Die neue Währung im B2B-Umfeld heißt **Autonomie**. 
+Aber das Web, wie wir es kannten, ist tot. Wir befinden uns im Sommer 2026, und der Traffic von Menschen, die auf Bildschirme starren und Knöpfchen drücken, stagniert oder bricht ein. Die neue Währung im Unternehmensumfeld heißt **Autonomie**. 
 
 Unternehmen lagern Routineaufgaben zunehmend an autonome KI-Agenten aus. Der Einkäufer sucht nicht mehr manuell nach neuen Lieferanten – er gibt seinem Agenten ein Budget und eine Deadline. Dieser Agent zieht los ins Netz, findet Lieferanten, vergleicht Preise, handelt Verträge aus und bucht das Budget. 
 
@@ -56,13 +56,13 @@ Im aktuellen Hype um autonome Systeme werden zwei Begriffe ständig in einen Top
 * **Das Model Context Protocol (MCP)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juli 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
 * **Das A2A Protocol** hingegen ist die **horizontale** Verbindung. Es kommt genau dann zum Einsatz, wenn dein Agent die sicheren Grenzen deines eigenen Unternehmens verlässt und mit dem Agenten eines völlig fremden Unternehmens kommunizieren muss. 
 
-MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um Agent Readiness Level 5 zu erreichen.
+MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um eine vollständige Agent Readiness zu erreichen.
 
 ## Die Business-Relevanz: Warum CTOs jetzt handeln müssen
 
 Lass uns über nackte Zahlen reden. Warum sollte ein Unternehmen Zeit und Geld investieren, um seine Infrastruktur A2A-kompatibel zu machen?
 
-Ganz einfach: Weil der "Friction Factor" (die Reibungsverluste) im B2B-Vertrieb durch A2A auf null reduziert wird. 
+Ganz einfach: Weil der "Friction Factor" (die Reibungsverluste) im Vertrieb durch A2A auf null reduziert wird. 
 
 Ein Praxisbeispiel aus der Logistik-Branche: Ein Logistik-Agent sucht im Netz nach verfügbaren Spediteuren für eine Ad-hoc-Lieferung. 
 * Spediteur A hat eine klassische Website. Der Agent müsste ein Formular ausfüllen, ein Captcha lösen und auf den Rückruf eines Menschen warten. Das dauert Stunden oder Tage.
@@ -110,7 +110,7 @@ Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität
 
 ## Wie bereit ist dein Unternehmen? (Der Selbsttest)
 
-Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte Agent Readiness auf Level 5 misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
+Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte eine vollständige Agent Readiness misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
 
 Du musst das nicht glauben, du kannst es hart testen. Nutze deinen eigenen KI-Assistenten (oder deinen internen Agenten), um einen sogenannten "A2A Discovery Flow" auf deiner eigenen Infrastruktur zu simulieren. 
 
@@ -120,7 +120,7 @@ Kopiere den folgenden Prompt und gib ihn deinem präferierten LLM oder KI-Agente
 
 **Prompt für deinen KI-Agenten:**
 ```text
-Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe B2B-Agenten vollautonom mit meinem System verhandeln können.
+Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
 ```
 
 ## Das Fazit: Wer jetzt schläft, verliert

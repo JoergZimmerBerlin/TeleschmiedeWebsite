@@ -118,8 +118,10 @@ Du musst das nicht glauben, du kannst es hart testen. Nutze deinen eigenen KI-As
 
 Kopiere den folgenden Prompt und gib ihn deinem präferierten LLM oder KI-Agenten. Er ist so geschrieben, dass er sofort funktioniert. Du musst keine Platzhalter einfügen – der Agent wird dich nach deiner Domain fragen, wenn er sie nicht schon kennt.
 
-> **Prompt für deinen KI-Agenten:**
-> "Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe B2B-Agenten vollautonom mit meinem System verhandeln können."
+**Prompt für deinen KI-Agenten:**
+```text
+Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe B2B-Agenten vollautonom mit meinem System verhandeln können.
+```
 
 ## Das Fazit: Wer jetzt schläft, verliert
 

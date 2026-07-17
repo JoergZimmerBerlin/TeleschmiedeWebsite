@@ -90,11 +90,13 @@ Nutze die KI, um die KI-Tauglichkeit deiner Seite zu prüfen.
 
 Nimm diesen Prompt, kopiere ihn in ChatGPT, Claude, Perplexity oder deinen firmeneigenen Agenten. Erledige das heute noch. Du musst den Text nicht anpassen, die KI wird dich nach deiner Domain fragen.
 
-> **Prompt für deinen KI-Agenten:**
-> "Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach den Cloudflare-Kriterien (Level 0 bis 5) mit Stand Juli 2026. 
-> - Prüfe systematisch das Vorhandensein von `robots.txt`, `ai.txt`, `llms.txt`, `.well-known/agent-card.json` und `.well-known/auth.md`. 
-> - Teste, ob mein Server 'Markdown Content Negotiation' unterstützt.
-> - Liefere mir als CTO einen extrem kritischen Status-Report. Wenn ich auf Level 0 oder 1 stecke, erkläre mir messerscharf, welche konkreten B2B-Umsätze ich durch diese technische Ignoranz in der aktuellen Agenten-Ökonomie an Mitbewerber (die auf Level 5 sind) verliere. Schreibe mir einen priorisierten Maßnahmenplan, um Level 5 zu erreichen."
+**Prompt für deinen KI-Agenten:**
+```text
+Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach den Cloudflare-Kriterien (Level 0 bis 5) mit Stand Juli 2026. 
+- Prüfe systematisch das Vorhandensein von `robots.txt`, `ai.txt`, `llms.txt`, `.well-known/agent-card.json` und `.well-known/auth.md`. 
+- Teste, ob mein Server 'Markdown Content Negotiation' unterstützt.
+- Liefere mir als CTO einen extrem kritischen Status-Report. Wenn ich auf Level 0 oder 1 stecke, erkläre mir messerscharf, welche konkreten B2B-Umsätze ich durch diese technische Ignoranz in der aktuellen Agenten-Ökonomie an Mitbewerber (die auf Level 5 sind) verliere. Schreibe mir einen priorisierten Maßnahmenplan, um Level 5 zu erreichen.
+```
 
 Das Web hat sich verändert. Du kannst entweder weiter H1-Tags für Google optimieren und dich wundern, warum die Leads ausbleiben, oder du richtest deine Architektur radikal auf das Agenten-Zeitalter aus. Die Entscheidung liegt bei dir.
 

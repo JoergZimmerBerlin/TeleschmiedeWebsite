@@ -116,10 +116,12 @@ Mach den Selbsttest. Wenn du deine Architektur für das Jahr 2026 härten willst
 
 Diesen Prompt kannst du in jedes beliebige LLM (wie Claude oder GPT) werfen. Er ist darauf ausgelegt, die Schwachstellen deiner aktuellen Authentifizierungs-Infrastruktur schonungslos aufzudecken.
 
-> **Prompt für deinen KI-Agenten:**
-> "Führe eine tiefgreifende 'Agent Readiness'-Prüfung für das Thema Authentifizierung auf meiner Domain durch. Analysiere, ob eine gültige `auth.md` im `.well-known` Verzeichnis vorliegt. 
-> - Falls nein: Identifiziere in meiner aktuellen Infrastruktur die größten 'Human-in-the-Loop'-Engpässe, die verhindern, dass ein autonomer B2B-Agent eigenständig einen Account anlegt und auf meine APIs zugreift.
-> - Erstelle mir auf Basis der Standards vom Juli 2026 (inkl. Fokus auf 'Agent Verified' Flows und ID-JAG) einen vollständigen Architekturentwurf und eine fertige `auth.md`, die zeigt, wie ich eine maschinenlesbare 'zweite Vordertür' für externe KI-Agenten aufbaue."
+**Prompt für deinen KI-Agenten:**
+```text
+Führe eine tiefgreifende 'Agent Readiness'-Prüfung für das Thema Authentifizierung auf meiner Domain durch. Analysiere, ob eine gültige `auth.md` im `.well-known` Verzeichnis vorliegt. 
+- Falls nein: Identifiziere in meiner aktuellen Infrastruktur die größten 'Human-in-the-Loop'-Engpässe, die verhindern, dass ein autonomer B2B-Agent eigenständig einen Account anlegt und auf meine APIs zugreift.
+- Erstelle mir auf Basis der Standards vom Juli 2026 (inkl. Fokus auf 'Agent Verified' Flows und ID-JAG) einen vollständigen Architekturentwurf und eine fertige `auth.md`, die zeigt, wie ich eine maschinenlesbare 'zweite Vordertür' für externe KI-Agenten aufbaue.
+```
 
 Wenn du den B2B-Markt in den nächsten Jahren dominieren willst, musst du aufhören, Maschinen wie lästige Spammer zu behandeln. Rollt den KIs den roten Teppich aus. Wer autonomen Agenten den einfachsten Registrierungs-Flow bietet, gewinnt den Deal. So einfach ist das.
 

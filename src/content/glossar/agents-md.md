@@ -105,9 +105,11 @@ Mach Schluss mit dem Pfusch am Bau.
 
 Schnapp dir diesen Prompt und lass deinen KI-Assistenten (oder deinen Lead-Entwickler) die Arbeit machen. Dieser Prompt analysiert dein bestehendes Repository und generiert dir auf Basis der Juli 2026 AAIF-Standards eine fehlerfreie Steuerdatei.
 
-> **Prompt für deinen KI-Agenten:**
-> "Analysiere das gesamte Code-Repository dieses Projekts. Identifiziere den verwendeten Tech-Stack, die vorherrschenden Code-Styles, die Architektur-Entscheidungen und die gängigen CLI-Kommandos für Build und Test. 
-> Fasse all diese Informationen zusammen und generiere mir eine absolut standardkonforme `AGENTS.md` (gemäß den Vorgaben der Agentic AI Foundation). Eliminiere jegliche Prosa. Formuliere harte, kondensierte Regeln, die zukünftige KI-Coding-Agenten davon abhalten, Architektur-Fehler zu machen, und die den Token-Verbrauch drastisch minimieren. Prüfe außerdem, ob veraltete Dateien wie `.cursorrules` existieren und schlage deren Löschung vor, sobald die `AGENTS.md` aktiv ist."
+**Prompt für deinen KI-Agenten:**
+```text
+Analysiere das gesamte Code-Repository dieses Projekts. Identifiziere den verwendeten Tech-Stack, die vorherrschenden Code-Styles, die Architektur-Entscheidungen und die gängigen CLI-Kommandos für Build und Test. 
+Fasse all diese Informationen zusammen und generiere mir eine absolut standardkonforme `AGENTS.md` (gemäß den Vorgaben der Agentic AI Foundation). Eliminiere jegliche Prosa. Formuliere harte, kondensierte Regeln, die zukünftige KI-Coding-Agenten davon abhalten, Architektur-Fehler machen, und die den Token-Verbrauch drastisch minimieren. Prüfe außerdem, ob veraltete Dateien wie `.cursorrules` existieren und schlage deren Löschung vor, sobald die `AGENTS.md` aktiv ist.
+```
 
 Hör auf, für Maschinen wie für Menschen zu schreiben. Räum dein Verzeichnis auf, etabliere den Standard und beobachte, wie deine KIs plötzlich um 40% produktiver werden.
 

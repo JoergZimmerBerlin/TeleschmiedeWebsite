@@ -126,8 +126,10 @@ Aber du kannst deinen eigenen KI-Assistenten (sei es Claude, ChatGPT oder einen 
 
 Um dir das Leben extrem einfach zu machen, habe ich dir hier einen universellen Prompt vorbereitet. Kopiere ihn einfach, setze ihn in deine KI ein (oder übergib ihn an deinen autonomen Agenten) und lass die Maschine die Arbeit für dich erledigen. Du musst nicht einmal Platzhalter ausfüllen.
 
-> **Prompt für deinen KI-Agenten:**
-> "Führe eine detaillierte technische Prüfung für meine Website durch. Prüfe als erstes, ob im Root-Verzeichnis meiner Domain eine gültige `ai.txt` Datei existiert. Falls sie existiert, analysiere den Inhalt: Wird sauber zwischen RAG (Erlaubt) und Modell-Training (Verboten) unterschieden? Gibt es gültige Kontaktinformationen? Falls keine `ai.txt` existiert, generiere mir basierend auf den Best Practices des Sommers 2026 einen fertigen, rechtssicheren Entwurf für meine Domain, der mir maximale KI-Sichtbarkeit für Answer Engines garantiert, aber das unlizenzierte Training meiner Daten verbietet."
+**Prompt für deinen KI-Agenten:**
+```text
+Führe eine detaillierte technische Prüfung für meine Website durch. Prüfe als erstes, ob im Root-Verzeichnis meiner Domain eine gültige `ai.txt` Datei existiert. Falls sie existiert, analysiere den Inhalt: Wird sauber zwischen RAG (Erlaubt) und Modell-Training (Verboten) unterschieden? Gibt es gültige Kontaktinformationen? Falls keine `ai.txt` existiert, generiere mir basierend auf den Best Practices des Sommers 2026 einen fertigen, rechtssicheren Entwurf für meine Domain, der mir maximale KI-Sichtbarkeit für Answer Engines garantiert, aber das unlizenzierte Training meiner Daten verbietet.
+```
 
 ## Der fatale Fehler: Die robots.txt vergessen
 

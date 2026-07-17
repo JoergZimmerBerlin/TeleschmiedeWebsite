@@ -115,12 +115,14 @@ Nutze den folgenden Prompt. Du kannst ihn 1:1 kopieren. Dein Agent wird die HTTP
 
 ### Der universelle Test-Prompt
 
-> **Prompt für deinen KI-Agenten:**
-> "Führe einen technischen HTTP-Header-Test für meine Domain durch, um die 'Markdown Content Negotiation' Funktionalität zu prüfen. 
-> Führe zwei separate HTTP-GET-Requests auf die Startseite meiner Domain aus:
-> 1. Request: Nutze einen Standard-Browser User-Agent mit dem Header `Accept: text/html`.
-> 2. Request: Nutze einen typischen LLM-Bot User-Agent (z.B. GPTBot) und den Header `Accept: text/markdown`.
-> Vergleiche die Responses der beiden Requests. Liefere mir einen klaren Report: Erkennt mein Server den Markdown-Header und liefert er aktiv reinen Text anstatt HTML aus? Falls meine Seite durchfällt (immer noch HTML liefert), erkläre mir kurz und präzise, warum mich das bei modernen Agent Readiness Audits sofort Punkte kostet und wie ich das auf meinem Server-Typ beheben kann."
+**Prompt für deinen KI-Agenten:**
+```text
+Führe einen technischen HTTP-Header-Test für meine Domain durch, um die 'Markdown Content Negotiation' Funktionalität zu prüfen. 
+Führe zwei separate HTTP-GET-Requests auf die Startseite meiner Domain aus:
+1. Request: Nutze einen Standard-Browser User-Agent mit dem Header `Accept: text/html`.
+2. Request: Nutze einen typischen LLM-Bot User-Agent (z.B. GPTBot) und den Header `Accept: text/markdown`.
+Vergleiche die Responses der beiden Requests. Liefere mir einen klaren Report: Erkennt mein Server den Markdown-Header und liefert er aktiv reinen Text anstatt HTML aus? Falls meine Seite durchfällt (immer noch HTML liefert), erkläre mir kurz und präzise, warum mich das bei modernen Agent Readiness Audits sofort Punkte kostet und wie ich das auf meinem Server-Typ beheben kann.
+```
 
 Mach es den Maschinen so einfach wie möglich. Sie sind die VIP-Kunden der Zukunft. Wenn sie nach einem Kaffee (Markdown) fragen, serviere ihnen kein 7-Gänge-Menü (HTML), bei dem sie erst das Besteck suchen müssen. Serviere auf dem Silbertablett.
 

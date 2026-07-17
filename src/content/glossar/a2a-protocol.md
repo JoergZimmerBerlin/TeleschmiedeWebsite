@@ -53,7 +53,7 @@ Alles geschieht in Millisekunden. Vollautonom.
 
 Im aktuellen Hype um autonome Systeme werden zwei Begriffe ständig in einen Topf geworfen: Das Model Context Protocol (MCP) und das A2A Protocol. Wer diese beiden Dinge verwechselt, hat die Architektur der neuen KI-Welt nicht verstanden.
 
-* **Das Model Context Protocol (MCP)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juli 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
+* **Das Model Context Protocol (MCP)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juni 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
 * **Das A2A Protocol** hingegen ist die **horizontale** Verbindung. Es kommt genau dann zum Einsatz, wenn dein Agent die sicheren Grenzen deines eigenen Unternehmens verlässt und mit dem Agenten eines völlig fremden Unternehmens kommunizieren muss. 
 
 MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um eine vollständige Agent Readiness zu erreichen.

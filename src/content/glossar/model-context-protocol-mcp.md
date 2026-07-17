@@ -1,19 +1,19 @@
 ---
 category: "AI SEO & Generative Search"
 title: "MCP (Model Context Protocol): KI-Standard (2026)"
-description: "Im Juli 2026 wurde das Model Context Protocol (MCP) stateless. Jörg Zimmer erklärt den massiven Shift und warum Custom-APIs tot sind."
+description: "Im Juni 2026 wurde das Model Context Protocol (MCP) stateless. Jörg Zimmer erklärt den massiven Shift und warum Custom-APIs tot sind."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-model-context-protocol-mcp-3d.webp"
 image_alt: "3D Infografik zum Model Context Protocol (MCP) Standard und zustandslosem Cloud-Routing"
 key_takeaways:
   - "MCP ist der universelle USB-C-Anschluss, der dein KI-Modell mit Tools und Datenbanken verbindet."
-  - "Am 28. Juli 2026 wurde die Architektur komplett zustandslos (stateless) gemacht, um echtes Cloud-Scaling zu ermöglichen."
+  - "Am 28. Juni 2026 wurde die Architektur komplett zustandslos (stateless) gemacht, um echtes Cloud-Scaling zu ermöglichen."
   - "Verwaltet von der Agentic AI Foundation (AAIF), macht MCP klassische, hart-kodierte API-Integrationen obsolet."
 faqs:
   - question: "Was ist der fundamentale Unterschied zwischen MCP und dem A2A Protocol?"
     answer: "Das ist die wichtigste Unterscheidung der modernen Architektur: MCP ist die *vertikale* Verbindung (es verbindet das 'Gehirn' deines Agenten mit seinen eigenen Werkzeugen, z.B. deiner Unternehmensdatenbank). Das A2A Protocol ist die *horizontale* Verbindung (es verbindet deinen fertigen Agenten mit dem fremden Agenten eines anderen Unternehmens)."
-  - question: "Warum war das MCP-Update im Juli 2026 so ein massiver Gamechanger?"
-    answer: "Vor dem 28. Juli 2026 verließ sich MCP stark auf Sessions (`Mcp-Session-Id`). Das war großartig für lokale Entwickler-Laptops, aber ein Albtraum für globale Server-Farmen und Load-Balancer. Mit dem Update wurde MCP *stateless* (zustandslos). Jeder Request bringt jetzt seine eigenen Metadaten mit, was unendliche, Cloud-native Skalierbarkeit für Enterprise-Systeme ermöglicht."
+  - question: "Warum war das MCP-Update im Juni 2026 so ein massiver Gamechanger?"
+    answer: "Vor dem 28. Juni 2026 verließ sich MCP stark auf Sessions (`Mcp-Session-Id`). Das war großartig für lokale Entwickler-Laptops, aber ein Albtraum für globale Server-Farmen und Load-Balancer. Mit dem Update wurde MCP *stateless* (zustandslos). Jeder Request bringt jetzt seine eigenen Metadaten mit, was unendliche, Cloud-native Skalierbarkeit für Enterprise-Systeme ermöglicht."
   - question: "Bedeutet MCP, dass KIs ungehindert auf meine privaten Daten zugreifen?"
     answer: "Absolut nicht. Der MCP-Server, den du (oder dein Administrator) konfigurierst, kontrolliert exakt, auf welche Ordner, welche Datenbanktabellen oder welche APIs das Modell zugreifen darf. Das KI-Modell fragt den Server, und der Server erzwingt die Rechte. Sicherheit ist der Kern des Protokolls."
   - question: "Brauche ich tiefgreifende Programmierkenntnisse, um MCP zu nutzen?"
@@ -30,11 +30,11 @@ Um dieses Problem zu lösen, haben Heerscharen von Entwicklern jahrelang massive
 
 Dann kam das **Model Context Protocol (MCP)**. Ursprünglich von Anthropic ins Leben gerufen, hat sich dieser offene Standard wie ein Lauffeuer ausgebreitet. MCP ist der universelle USB-C-Anschluss für das KI-Zeitalter. Plötzlich brauchte man keine 100 verschiedenen Adapter mehr. Man baute einen einzigen MCP-Server für eine Datenquelle, und JEDES KI-Modell, das MCP verstand, konnte ihn sofort nutzen.
 
-Aber das, was wir bisher kannten, war nur der Prolog. Was im Sommer 2026 passierte, hat die Architektur von KI-Infrastrukturen für immer verändert.
+Aber das, was wir bisher kannten, war nur der Prolog. Was im Frühsommer 2026 passierte, hat die Architektur von KI-Infrastrukturen für immer verändert.
 
-## Der 28. Juli 2026: Der Tag, an dem MCP erwachsen wurde
+## Der 28. Juni 2026: Der Tag, an dem MCP erwachsen wurde
 
-Wenn du dich aktuell mit Agentic AI beschäftigst, musst du verstehen, dass sich die Spielregeln massiv geändert haben. Unter der Schirmherrschaft der *Agentic AI Foundation (AAIF)* – einem Teil der Linux Foundation – wurde am 28. Juli 2026 eine neue, radikal überarbeitete MCP-Spezifikation veröffentlicht.
+Wenn du dich aktuell mit Agentic AI beschäftigst, musst du verstehen, dass sich die Spielregeln massiv geändert haben. Unter der Schirmherrschaft der *Agentic AI Foundation (AAIF)* – einem Teil der Linux Foundation – wurde am 28. Juni 2026 eine neue, radikal überarbeitete MCP-Spezifikation veröffentlicht.
 
 Warum war das nötig? 
 
@@ -42,7 +42,7 @@ Das alte MCP (Pre-2026) war fantastisch für lokale Entwickler. Es basierte auf 
 Das Problem: Wenn du ein Enterprise-Unternehmen bist und Millionen von autonomen Anfragen über Load-Balancer auf globale Server-Farmen verteilen musst, sind "Sessions" dein größter Feind. Server A weiß nicht, was Server B gerade in seiner Session gespeichert hat. Das System bricht unter Last zusammen.
 
 **Die Lösung: Stateless Architecture.**
-Mit dem Juli-Update wurde MCP vollständig *stateless* (zustandslos) auf der Protokollebene. Der zeitraubende Handshake (`initialize`) wurde gekillt. Ab sofort trägt jede einzelne Anfrage (Request) alle notwendigen Metadaten in sich. Load-Balancer können die Anfragen wild auf tausende Server verteilen, und es funktioniert einfach. Cloud-Native KI-Infrastrukturen sind damit endlich Enterprise-Ready.
+Mit dem Juni-Update wurde MCP vollständig *stateless* (zustandslos) auf der Protokollebene. Der zeitraubende Handshake (`initialize`) wurde gekillt. Ab sofort trägt jede einzelne Anfrage (Request) alle notwendigen Metadaten in sich. Load-Balancer können die Anfragen wild auf tausende Server verteilen, und es funktioniert einfach. Cloud-Native KI-Infrastrukturen sind damit endlich Enterprise-Ready.
 
 Zusätzlich wurde ein völlig neues `server/discover` RPC (Remote Procedure Call) eingeführt. KI-Agenten müssen nicht mehr raten, was ein Server kann. Sie pingen ihn an, und der Server spuckt sofort seine Fähigkeiten und Werkzeuge aus. Bam. Erledigt.
 
@@ -70,7 +70,7 @@ Beides ist genial. Beides ist zwingend notwendig. Aber sie lösen grundverschied
 
 Vor dem MCP-Standard haben Unternehmen Unsummen verbrannt, um ihre Daten für LLMs nutzbar zu machen. Jedes RAG-Projekt (Retrieval-Augmented Generation) wurde zu einem Millionengrab voller Custom-Code.
 
-Mit dem neuen, zustandslosen MCP-Standard gibt es keine Ausreden mehr. Die Agentic AI Foundation meldet im Sommer 2026 fast 100 Millionen monatliche Downloads der offiziellen SDKs. Es gibt über 14.000 fertige Open-Source MCP-Server. 
+Mit dem neuen, zustandslosen MCP-Standard gibt es keine Ausreden mehr. Die Agentic AI Foundation meldet im Frühsommer 2026 fast 100 Millionen monatliche Downloads der offiziellen SDKs. Es gibt über 14.000 fertige Open-Source MCP-Server. 
 
 SAP Customer Experience nutzt MCP. Microsoft Scout integriert es. Die ganz großen Player haben verstanden, dass Isolation der Tod der Innovation ist. 
 

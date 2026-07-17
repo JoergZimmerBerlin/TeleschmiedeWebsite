@@ -11,7 +11,7 @@ key_takeaways:
   - "Verwaltet von der Agentic AI Foundation (AAIF), macht MCP klassische, hart-kodierte API-Integrationen obsolet."
 faqs:
   - question: "Was ist der fundamentale Unterschied zwischen MCP und dem A2A Protocol?"
-    answer: "Das ist die wichtigste Unterscheidung der modernen Architektur: MCP ist die *vertikale* Verbindung (es verbindet das "Gehirn" deines Agenten mit seinen eigenen Werkzeugen, z.B. deiner Unternehmensdatenbank). Das A2A Protocol ist die *horizontale* Verbindung (es verbindet deinen fertigen Agenten mit dem fremden Agenten eines anderen Unternehmens)."
+    answer: "Das ist die wichtigste Unterscheidung der modernen Architektur: MCP ist die *vertikale* Verbindung (es verbindet das 'Gehirn' deines Agenten mit seinen eigenen Werkzeugen, z.B. deiner Unternehmensdatenbank). Das A2A Protocol ist die *horizontale* Verbindung (es verbindet deinen fertigen Agenten mit dem fremden Agenten eines anderen Unternehmens)."
   - question: "Warum war das MCP-Update im Juli 2026 so ein massiver Gamechanger?"
     answer: "Vor dem 28. Juli 2026 verließ sich MCP stark auf Sessions (`Mcp-Session-Id`). Das war großartig für lokale Entwickler-Laptops, aber ein Albtraum für globale Server-Farmen und Load-Balancer. Mit dem Update wurde MCP *stateless* (zustandslos). Jeder Request bringt jetzt seine eigenen Metadaten mit, was unendliche, Cloud-native Skalierbarkeit für Enterprise-Systeme ermöglicht."
   - question: "Bedeutet MCP, dass KIs ungehindert auf meine privaten Daten zugreifen?"

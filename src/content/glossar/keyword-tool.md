@@ -1,80 +1,134 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'Keyword Tools: SE Ranking und Alternativen im Test'
-description: 'Ein Keyword Tool hilft dir, Suchbegriffe zu finden, zu analysieren und zu bewerten. Ohne Tool ist modernes SEO unmöglich.'
-date: "2026-03-10"
+title: 'Keyword Tools in 2026: Agent Readiness, Stability und Tacheles'
+description: 'Ein Keyword Tool hilft dir 2026 nicht mehr mit Suchvolumen. Es trackt Stability, Fanout und Agent Readiness. Ohne dieses Mindset bist du für KIs unsichtbar.'
+date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-tool-3d.webp"
-image_alt: "Keyword Tool 3D Infografik - Suchvolumen und Ranking Analyse"
+image_alt: "Keyword Tool 3D Infografik - Agent Readiness und Stability Analyse"
 related_terms: ["keywordrecherche", "keywoerter", "suchvolumen"]
 key_takeaways:
-  - "Datengold: Tools liefern dir Suchvolumen, Konkurrenzstärke und Klickpreise (CPC) auf Knopfdruck."
-  - "Wettbewerbsvorteil: Du siehst genau, für welche Begriffe deine Konkurrenz rankt und wo deine Lücken sind."
-  - "Intent-Check: Moderne Tools helfen dir zu verstehen, ob ein Nutzer kaufen will oder nur Informationen sucht."
+  - "Suchvolumen ist tot: Generative KIs erzeugen einen massiven Fanout. Klassisches Suchvolumen für einzelne Phrasen spielt absolut keine Rolle mehr."
+  - "Stability Tracking: Die einzige Währung ist heute die Stability. Ein modernes Keyword Tool misst, wie stabil du in den KI-Antworten als Entität vertreten bist."
+  - "Agent Readiness: Dein OnPage-Setup entscheidet, ob Maschinen deinen Content verarbeiten. Fehlt die Agent Readiness, bringt dir das beste Tool nichts."
 faqs:
-  - question: 'Gibt es das eine ''beste'' SEO Keyword Tool auf dem Markt?'
-    answer: 'Nein, es gibt nicht DAS eine Wundertool, sondern nur das beste Setup für dein konkretes Budget und Ziel. Kostenlose Tools wie der Google Keyword Planner sind okay für einen allerersten Impuls. Wenn SEO für dich aber ein ernsthafter, umsatztreibender Kanal ist, setze ich auf Enterprise-Lösungen: SE Ranking liefert mir exzellente granulare Keyword-Daten für das Live-Tracking, während Sistrix unschlagbar ist für tiefgehende Wettbewerbsanalysen im DACH-Raum.'
-  - question: 'Sind die Suchvolumen-Daten in diesen Tools zu 100% genau?'
-    answer: 'Auf gar keinen Fall, und wer das blind glaubt, verbrennt viel Geld. Fast alle Drittanbieter Tools basieren auf massiven Hochrechnungen (''Clickstream-Daten''), die bei Nischen-Keywords im B2B extrem schwanken oder verzögert sind. Tools sind ein gigantischer Kompass, aber die absolut einzige verlässliche und exakte Wahrheit über das reale Such- und Klickverhalten auf genau deiner URL findest du ausschließlich in den Leistungsberichten deiner eigenen Google Search Console.'
-  - question: 'Lohnt sich die Investition? Gute Tools kosten schließlich viel Geld.'
-    answer: 'Wer auf professionellem Niveau SEO betreiben will, kommt um bezahlte SaaS-Lösungen nicht herum. Hochwertige Einsteiger-Lizenzen (z.B. bei SE Ranking oder Ahrefs) liegen meist zwischen 50 und 150 Euro im Monat. Betrachte diese Ausgaben nicht als lästiges Software-Abo, sondern als deine wichtigste analytische Versicherung: Diese Kosten machen sich meist schon durch eine einzige vermiedene, monatelange Fehlinvestition in das komplett falsche Keyword bezahlt.'
+  - question: 'Gibt es das eine ''beste'' SEO Keyword Tool für OnPage und Agent Readiness?'
+    answer: 'Im Jahr 2026 lautet die Antwort ganz klar: Wer dir noch nacktes Suchvolumen aus dem Jahr 2024 verkaufen will, zockt dich ab. Du brauchst Tools, die sich auf Agent Readiness, LLM-Visibility und Stability spezialisiert haben. Das traditionelle Rank-Tracking ist tot, weil es keine festen "Ränge" bei dynamischen KI-Antworten mehr gibt. Du misst heute Themen-Autorität und Entitäten-Abdeckung. Tools wie Rankscale haben sich in diese Richtung entwickelt, klassische Legacy-Tools hinken extrem hinterher.'
+  - question: 'Sind die Suchvolumen-Daten in alten Keyword Tools noch irgendwie relevant?'
+    answer: 'Nein, und wer das blind glaubt, verbrennt sein gesamtes SEO-Budget. Der sogenannte Fanout-Effekt bei generativen KIs bedeutet, dass Nutzer hochkomplexe, völlig einzigartige Prompts in die Maschinen tippen. Für diese individuellen Prompts liegt das historische Suchvolumen immer bei null. Ein Tool, das dir "0 Suchvolumen" anzeigt, sagt dir heute nicht, dass kein Interesse besteht, sondern nur, dass sein Legacy-Datenmodell den KI-Wandel nicht erfasst hat.'
+  - question: 'Warum ist OnPage-SEO plötzlich wieder das Wichtigste überhaupt?'
+    answer: 'Weil wir von Menschen auf Maschinen als primäre Konsumenten unseres Contents wechseln. Ein KI-Agent, der für seinen Nutzer recherchiert (A2A), braucht maschinenlesbare Strukturen. Wenn du keine auth.md, keine saubere agent-card.json und keine strikte Markdown-Struktur hast (Cloudflare Level 5), ignoriert der Agent deine Website. Dein Keyword Tool muss dir 2026 also primär sagen, ob deine OnPage-Hausaufgaben in Sachen Agent Readiness gemacht sind.'
 ---
 
 Moin!
 
-Ohne professionelles Keyword Tool bist du im modernen SEO schlichtweg blind. Du rätst, was deine Kunden suchen. Du rätst, was Google über deine Nische denkt. Spoiler-Alarm: In 9 von 10 Fällen wirst du ohne harte Daten komplett falsch liegen.
+Wir schreiben den 17. Juli 2026. Ich sitze hier in Berlin und muss mal wieder Klartext mit dir reden. Wenn du heute noch an klassischen Keyword Tools hängst, die dir Suchvolumen auf die Nachkommastelle genau prognostizieren wollen, dann fliegst du nicht nur blind gegen die Wand – du existierst im modernen Web schlichtweg nicht mehr.
+
+Die Spielregeln haben sich in den letzten drei Jahren fundamental geändert. Das klassische Google, bei dem du zehn blaue Links präsentiert bekamst und ein Keyword Tool dir sagte, wie schwer es ist, auf Platz 3 zu rutschen, ist ein Relikt der Vergangenheit. Wer das noch nicht kapiert hat, wird von der Agent Readiness-Welle einfach weggespült.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Ein SEO-Tool zu besitzen macht dich genauso wenig zum Experten, wie eine teure Kamera dich zum Starfotografen macht. Die Magie liegt nicht in der Software, sondern in der Interpretation der Daten. Wer nur Tabellen liest, wird scheitern. Wer Muster erkennt, gewinnt."</p>
+  <p class="italic text-dark mb-0">"Suchvolumen ist die Metrik der Eitlen und der Ewiggestrigen. Wer im Juli 2026 noch nach '10.000 Suchanfragen' jagt, hat den Fanout-Effekt generativer KIs nicht im Ansatz verstanden. Die Maschinen berechnen Antworten dynamisch und hyper-individuell. Dein OnPage-Setup und dein Tool müssen dir beweisen, dass du die relevanteste Entität bist, nicht ob du ein beliebtes Wort exakt oft genug auf der Seite hast."</p>
 </div>
 
-Ein Keyword Tool zapft die gewaltigen Datenbanken von Google an und liefert dir die Wahrheit in harten Fakten: [Suchvolumen](/glossar/suchvolumen/), Konkurrenzstärke (Keyword Difficulty) und den [CPC](/glossar/cpc/). Es ist dein Auge in der digitalen Welt.
+Ein Keyword Tool der alten Schule zapft veraltete Clickstream-Daten an und suggeriert dir Kontrolle in einer Welt, die sich längst weitergedreht hat. Die Realität da draußen? LLMs (Large Language Models) wie GPT-5, Claude Opus oder die neuen Gemini-Iterationen nutzen dein OnPage-Setup, um Antworten in Echtzeit zusammenzubauen. Dein Tool muss dir zeigen, ob du für diese Maschinen überhaupt existierst.
 
-## Die zwei Welten der Tools: Von Gratis bis High-End
+## Der Paradigmenwechsel: Vom Suchvolumen zum Fanout
 
-In meiner täglichen Arbeit als [SEO-Freelancer in Berlin](/seo-freelancer-berlin/) nutze ich ein Set aus verschiedenen Werkzeugen. Man braucht nicht jedes Tool, aber man braucht das richtige für den Job:
+Lass uns direkt tief reinbohren. Vergiss das traditionelle [Suchvolumen](/glossar/suchvolumen/). In der Welt der generativen KIs passiert etwas, das in der Agenten-Architektur als **Fanout** bezeichnet wird. 
 
-1.  **Kostenlose Basis-Tools (Einstieg):** 
-    *   **Google Keyword Planner:** Eigentlich für Ads gedacht, aber die Mutter aller Datenquellen.
-    *   **Google Trends:** Unschlagbar, um zeitliche Trends und saisonale Hypes zu erkennen.
-    *   **AnswerThePublic:** Der Goldstandard, um Fragen-Keywords und den echten User Intent zu visualisieren.
-2.  **Professionelle All-in-One Suiten (Performance):** 
-    *   **SE Ranking:** Mein absoluter Favorit für das tägliche Rank-Tracking, Keyword-Audits und Wettbewerbs-Analysen.
-    *   **Sistrix:** Das Schwergewicht für den deutschen Markt und die Messung des [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/).
+Früher gab ein Nutzer "SEO Agentur Berlin" in den Suchschlitz ein. Das passierte 2.500 Mal im Monat. Du hast einen Text geschrieben, der "SEO Agentur Berlin" enthielt, hast ein paar Backlinks draufgeballert und zack, warst du auf Seite 1.
 
-## Was ein Keyword Tool wirklich können muss
+Heute fragt ein CEO seinen persönlichen KI-Assistenten: *"Finde mir einen SEO Experten im DACH-Raum, der sich nachweislich mit Cloudflare Agent Readiness Level 5 auskennt, Erfahrung im B2B SaaS hat und dessen Website eine gültige `auth.md` für KI-Crawler bereitstellt. Fasse mir seine Methodik in drei Sätzen zusammen."*
 
-Es reicht heute nicht mehr aus, nur eine Liste von Wörtern auszugeben. Ein echtes Profitool muss die semantischen Zusammenhänge erklären:
+Dieser ultra-spezifische, extrem komplexe Prompt ist ein Schneeflocken-Prompt. Er wurde so noch nie gestellt und wird exakt so auch nie wieder gestellt. Laut jedem klassischen Keyword Tool hat diese Abfrage ein Suchvolumen von exakt *Null*. 
 
-*   **Keyword Difficulty (KD):** Wie schwer ist es wirklich, hier in die Top 3 zu kommen? Lohnt sich der Kampf?
-*   **Intent Erkennung:** Will der Nutzer nur 'gucken' (Informational) oder hat er die Kreditkarte schon in der Hand (Transaktional)?
-*   **Keyword Gap Analyse:** Für welche Begriffe rankt ein Wettbewerber, an die du noch nie gedacht hast? Das ist oft der schnellste Hebel für neuen Traffic.
+Aber dieser eine CEO ist ein potenzieller 50.000-Euro-Lead. 
+
+Der Fanout beschreibt genau dieses Phänomen: Die Anfragen fächern sich in unendlich viele, hochkomplexe Variationen auf, weil die Nutzer verstanden haben, dass sie mit der Maschine wie mit einem intelligenten Analysten sprechen können. Ein Tool, das dir jetzt noch Listen mit "Keywords" ausspuckt, ist völlig wertlos. Es gibt keine Keywords mehr. Es gibt nur noch Konzepte, Entitäten und maschinenlesbare Antworten.
+
+## Stability: Die einzige Währung, die 2026 noch zählt
+
+Was tracken moderne Keyword Tools stattdessen, wenn das Suchvolumen tot ist? Die Antwort lautet: **Stability**.
+
+Stability (Stabilität) bedeutet: Wie beständig ist deine Präsenz als Entität in den Antworten der verschiedenen LLMs, wenn Nutzer tief in deine thematischen Kernbereiche (Entity Cluster) eintauchen? 
+
+Stell dir vor, du bist Experte für "Serverless Datenbanken". Ein modernes Tool testet täglich zehntausende Fanout-Variationen von Prompts rund um dieses Thema bei verschiedenen LLM-Anbietern. Es trackt nicht, ob du auf "Platz 1" stehst, denn es gibt keinen Platz 1. Es misst, in wie viel Prozent der generierten KI-Antworten deine Marke, deine Theorien oder deine spezifischen Lösungsansätze zitiert, erwähnt oder als Grundlage der Antwort genutzt werden.
+
+Ein Dashboard im Jahr 2026 sagt dir: *"Bei 88% aller komplexen KI-Anfragen zum Thema Cloud-Architektur in DACH wirst du als vertrauenswürdige Quelle herangezogen. Deine Stability ist hoch."* 
+
+Das ist der einzige KPI, der heute noch zählt. Wenn OpenAI nächste Woche ein Modell-Update fährt und deine Stability plötzlich auf 12% einbricht, dann brennt die Hütte. Dann weißt du, dass dein OnPage-Setup im neuen Training-Run abgewertet wurde. Und genau dafür brauchst du Tools.
+
+## Agent Readiness: Das neue OnPage-SEO
+
+Warum scheitern so viele etablierte Websites, die früher Millionen von Besuchern hatten, bei der aktuellen KI-Sichtbarkeit massiv? Weil ihr OnPage-SEO komplett auf Menschen und alte, dumme Crawler (Googlebot 2022) ausgerichtet ist, aber eben nicht auf hochintelligente KI-Agenten. 
+
+Hier kommen wir zum Kern: **Agent Readiness**.
+
+Agent Readiness ist kein neues Marketing-Buzzword, mit dem Agenturen ihre Preise rechtfertigen. Es ist ein knallhartes technisches Fundament. Moderne Keyword Tools scannen deine Seite nicht mehr nur nach H1-Tags, Ladezeiten und Keyword-Dichte. Sie prüfen deine Agent Readiness.
+
+Wenn ein KI-Agent im Auftrag eines Nutzers (A2A - Agent-to-Agent oder Human-to-Agent) das Web durchsucht, hat er keine Zeit, sich durch überladene React-Frontend-Applikationen mit drölfzig Pop-ups und Cookie-Bannern zu wühlen. Er will nackte, strukturierte Daten. Er will Markdown. Er will JSON.
+
+Ein modernes OnPage-Audit für Agent Readiness prüft:
+
+1.  **Cloudflare Agent Readiness Level 5:** Erfüllst du die neuesten Standards? Hast du eine sauber konfigurierte `agent-card.json` im Root-Verzeichnis, die dem KI-Crawler genau sagt, welche Capabilities deine Seite bietet? Entspricht sie dem strikten JSON-Schema der `a2a-protocol.org` v1.0?
+2.  **Die `auth.md` Datei:** Diese Datei muss zwingend kleingeschrieben sein und als allererste H1-Überschrift `# auth.md` enthalten. Sie validiert für den KI-Agenten, dass die hier bereitgestellten Informationen autorisiert und aktuell sind. Ohne `auth.md` stuft das LLM deine Seite als "potenziell halluziniert oder veraltet" ein und wirft dich aus den Antworten.
+3.  **Link Headers (RFC 8288):** Maschinen lesen Header, keine bunten Buttons. In deiner `.htaccess` müssen Link-Header absolut fehlerfrei konfiguriert sein (ohne Anführungszeichen innerhalb der spitzen Klammern, z.B. `<url>; rel="type"`). Ein kleiner Syntaxfehler und der Agent bricht den Crawl ab.
+4.  **Markdown Content Negotiation:** Bietest du deine Inhalte nativ in Markdown an, wenn der Accept-Header eines KI-Crawlers danach verlangt?
+
+Wenn dein OnPage-Setup hier versagt, bist du im wahrsten Sinne des Wortes unsichtbar. Die KI ignoriert dich, weil das Parsen deiner wild formatierten HTML-Divs zu teuer und zu fehleranfällig ist. 
+
+## Was ein OnPage-Keyword-Tool 2026 wirklich analysiert
+
+Ein modernes Tool für den SEO-Tagesgebrauch sieht heute aus wie eine Kommandozentrale für Entity-Management und Agenten-Kommunikation. Es zeigt dir nicht: *"Das Wort 'Hundesteuer' hat 15.000 Suchvolumen und KD 42."*
+
+Es zeigt dir vielmehr:
+
+*   **LLM Visibility Score & Stability Tracking:** Eine Heatmap, die dir aufschlüsselt, bei welchen KI-Modellen (Claude, ChatGPT, Perplexity) du als primäre Entität verankert bist und wo deine Präsenz bröckelt.
+*   **Entity Gap Analyse (Fanout-basiert):** Welche thematischen Knotenpunkte und Sub-Entitäten deckt deine Konkurrenz besser ab, sodass die KI sie bei hochkomplexen Fanout-Prompts bevorzugt zitiert? Das Tool liest die Trainingsdaten (soweit verfügbar) und das Output-Verhalten aus.
+*   **Agent Readiness Monitor:** Ein Live-Dashboard, das sofort Alarm schlägt, wenn deine `agent-card.json` offline geht oder die Link-Header in deiner `.htaccess` zerschossen sind.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Warnung vor der Tool-Hörigkeit</h4>
-  <p class="mb-0 text-sm">Verlass dich niemals blind auf die Zahlen eines einzelnen Tools. Die einzige unumstößliche Wahrheit über deinen Traffic steht in deiner eigenen Google Search Console. Nutze Tools zur Entdeckung und Strategie, aber validiere immer mit deinen echten Leistungsdaten.</p>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Illusion der Backlinks</h4>
+  <p class="mb-0 text-sm">Wenn dein Legacy-Tool dir immer noch einredet, du müsstest massiv in Backlinks investieren, um "Keyword Difficulty" zu überwinden, dann bist du im falschen Film. Links sind heute nur noch ein minimales Bestätigungs-Signal. Die primäre Währung für KIs ist inhaltliche Dichte, thematische Autorität in der Tiefe und glasklare, maschinenlesbare Agent Readiness im OnPage-Bereich.</p>
 </div>
 
-## Moderne Tools im Zeitalter von KI
+## Praktische Anwendung: So baust du Sichtbarkeit auf
 
-Wir stehen am Anfang einer neuen Ära. KI-gestützte Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> finden heute semantische Cluster statt einzelner Wörter. Anstatt 50 isolierte Texte zu schreiben, sagt dir das Tool: "Erstelle diesen einen perfekten Guide, der all diese semantisch verknüpften [Entitäten](/glossar/entitaet/) abdeckt." Das spart massiv Zeit und sorgt für maximale Autorität bei Google.
+Lass uns das Ganze an einem konkreten Beispiel durchspielen. Du bist ein B2B-SaaS-Anbieter für HR-Software.
 
-## Mein Tacheles-Rat für dich
+Früher hättest du einen Text geschrieben: "Die 10 besten HR-Tools 2023" und hättest gehofft, dass du für "HR Tool" rankst. 
 
-Ein Keyword Tool verwandelt Raten in Wissen. Aber vergiss niemals: Ein Tool ist nur ein Hammer. Das Haus bauen musst du selbst. Lerne die Daten zu interpretieren, verstehe die psychologische Absicht hinter der Suche und bau darauf deine unschlagbare Sichtbarkeit auf. Nutze <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Datenbasis zu schaffen, aber lass den gesunden Menschenverstand niemals außen vor.
+Heute analysierst du mit deinem Stability-Tool, in welchen semantischen Kontexten die KI-Agenten über HR-Software sprechen. Du stellst fest, dass beim Thema "Automatisierte DSGVO-Löschroutinen im HR" ein massiver Entity Gap herrscht – die KIs haben keine guten Quellen, sie halluzinieren oder weichen aus.
+
+Dein OnPage-Fokus:
+1. Du erstellst extrem dichten, tiefgehenden Content genau zu diesem Knotenpunkt.
+2. Du optimierst die OnPage-Struktur: Klar definierte Fachbegriffe, logische Hierarchien, keine Fluff-Texte.
+3. Du stellst sicher, dass die URL über interne Links (und ja, interne Links enden immer zwingend auf einem Trailing Slash `/`!) perfekt in die Seitenarchitektur eingebunden ist. Beispielsweise von `/hr-software/` auf `/dsgvo-loeschung/`.
+4. Du überarbeitest deine `agent-card.json`, um den KI-Agenten sofort zu signalisieren: *"Achtung, wir haben eine neue Capability im Bereich DSGVO-Wissen bereitgestellt."*
+5. Du aktualisierst die Signatur in der `auth.md`.
+
+Danach beobachtest du über dein Tool, wie die Stability deines Brands bei allen DSGVO-bezogenen Prompts im HR-Kontext massiv nach oben schnellt. Das ist modernes SEO. Das ist Agent Readiness in Aktion.
+
+## Mein Tacheles-Rat für dich im Juli 2026
+
+Ein modernes Tool verwandelt das große KI-Raten in echtes, messbares Wissen. Es ist dein Dashboard für die maschinelle Kommunikation.
+
+Aber vergiss niemals eine goldene Regel: Ein Tool ist nur ein Analyse-Instrument. Es ist der Hammer. Das Haus bauen musst du selbst. Und dieses Haus besteht heute aus exzellentem, radikal tiefgehendem Content und einem OnPage-Setup, das auf maximale Agent Readiness getrimmt ist. 
+
+Hör auf, nach sinnlosen Zahlen wie Suchvolumen zu jagen. Lerne die Stability-Metriken zu interpretieren, verstehe den Fanout-Effekt und richte deine gesamte OnPage-Strategie darauf aus, die verlässlichste Informationsquelle für autonome Agenten zu werden. Nur so gewinnst du das Rennen.
 
 ALOHA! Jörg
 
 ---
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Du jagst den falschen Keywords hinterher?</h3>
-  <p class="mb-6 text-gray-muted">Ich unterstütze dich dabei, die echten Goldstücke in deiner Nische zu finden. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> validieren wir die Daten, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> sichern wir deine KI-Sichtbarkeit.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Keyword-Analyse anfragen</a>
+  <h3 class="text-2xl font-bold mb-4">Deine OnPage-Strategie ist im Jahr 2023 stehen geblieben?</h3>
+  <p class="mb-6 text-gray-muted">Ich unterstütze dich dabei, dein Setup für KI-Agenten und LLMs sichtbar zu machen. Wir ignorieren sinnloses Suchvolumen und fokussieren uns auf harte Stability-Metriken und kompromisslose Agent Readiness.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Sichtbarkeit & Agent Readiness anfragen</a>
 </div>
 
 ### Verwandte Begriffe
-* [Warum die Suchintention zählt](/glossar/keywordrecherche/)
-* [Was ist der CPC?](/glossar/cpc/)
-* [Suchvolumen verstehen](/glossar/suchvolumen/)
-* [Was sind Money Keywords?](/glossar/money-keyword/)
+* [Warum die Suchintention beim Fanout zählt](/glossar/keywordrecherche/)
+* [Was ist der CPC im Agent-to-Agent Traffic noch wert?](/glossar/cpc/)
+* [Suchvolumen verstehen (und vergessen)](/glossar/suchvolumen/)
+* [Was sind Money Keywords in der KI-Ära?](/glossar/money-keyword/)

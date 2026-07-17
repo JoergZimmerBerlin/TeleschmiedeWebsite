@@ -10,5 +10,5 @@
 
 - **STRIKTE BILDGENERIERUNG (BUDGET-SCHUTZ):** 
   - **NIEMALS ENGLISCH:** Infografiken und 3D-Bilder für das Projekt müssen ZWINGEND **deutsche Beschriftungen** haben. Der Prompt muss ausdrücklich fordern: `All text in GERMAN: [dein deutscher Text]`.
-  - **Style-Vorgaben:** Reinweißer Hintergrund (`#FFFFFF`), lime-grüne Akzente (`#D9FF00`) und das Wasserzeichen "Jörg Zimmer" unten rechts sind absolute Pflicht.
+  - **Style-Vorgaben:** Reinweißer Hintergrund (`#FFFFFF`), lime-grüne Akzente (`#D9FF00`) und das Wasserzeichen "Jörg Zimmer" unten rechts sind absolute Pflicht. **Zusätzlich:** Die Infografiken dürfen maximal 3 bis 5 Kernelemente enthalten. Die Schrift muss extrem groß und fett sein, damit sie auch als kleines Vorschaubild (Thumbnail) perfekt lesbar bleibt. Vermeide kleinteilige Details.
   - Generiere NIEMALS ein Bild ohne diese exakten Vorgaben. Das Ignorieren dieser Regel verschwendet aktiv das API-Budget des Nutzers und ist strengstens untersagt!

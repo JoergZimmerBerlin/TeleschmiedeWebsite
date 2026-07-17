@@ -113,7 +113,7 @@ Kopiere den folgenden Prompt 1:1 und führe ihn aus. Er ist komplett universell 
 ```text
 Starte einen strengen technischen A2A Discovery Audit für meine Domain. Prüfe, ob im Root-Verzeichnis unter `/.well-known/agent-card.json` ein gültiges JSON-Manifest (A2A Protocol v1.0.0 Standard der Linux Foundation) existiert. 
 - Falls die Datei vorliegt: Validiere das JSON-Schema, überprüfe die CORS-Header auf globale Erreichbarkeit und checke die referenzierten Security-Endpoints (wie die `auth.md`).
-- Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort Agent-Ready (Level 5) zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen geschäftliche Transaktionen abschneidet.
+- Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort komplett AI-Ready zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen geschäftliche Transaktionen abschneidet.
 ```
 
 Es ist Zeit aufzuwachen. Wer heute noch Webseiten ausschließlich für den Chrome-Browser baut, hat den Paradigmenwechsel verschlafen. Mach deine Domain fit für die Agenten-Ökonomie.

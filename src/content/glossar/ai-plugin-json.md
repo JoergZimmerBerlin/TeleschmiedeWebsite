@@ -100,7 +100,7 @@ Wenn du aufräumen willst, lass deinen KI-Assistenten die Altlasten identifizier
 ```text
 Führe einen Legacy-Audit meiner Web-Infrastruktur durch. Prüfe das Root-Verzeichnis und den `.well-known` Ordner auf veraltete proprietäre KI-Implementierungen wie die `ai-plugin.json` oder verwaiste OpenAPI-Spezifikationen, die primär für ChatGPT Custom GPTs gebaut wurden. 
 - Fasse für mich als CTO zusammen, welche meiner damals entwickelten Endpunkte sich heute für den modernen B2B-Einsatz eignen.
-- Entwirf mir einen Migrationsplan, um diese Legacy-Endpunkte aus dem Plugin-Silo zu befreien und sie nach dem aktuellen Standard vom Juli 2026 in eine offene `agent-card.json` (A2A Protocol) und eine saubere `auth.md` zu überführen, damit mein Unternehmen herstellerunabhängig Agent-Ready (Level 5) wird.
+- Entwirf mir einen Migrationsplan, um diese Legacy-Endpunkte aus dem Plugin-Silo zu befreien und sie nach dem aktuellen Standard vom Juli 2026 in eine offene `agent-card.json` (A2A Protocol) und eine saubere `auth.md` zu überführen, damit mein Unternehmen herstellerunabhängig komplett AI-Ready wird.
 ```
 
 Lass die Vergangenheit ruhen. Die Plugin-Ära war eine schöne Spielwiese, aber das echte Geschäft wird jetzt auf offenen Protokollen gemacht.

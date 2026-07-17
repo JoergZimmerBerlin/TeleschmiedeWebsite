@@ -191,7 +191,7 @@
 
       pre.style.position = 'relative';
       const btn = document.createElement('button');
-      btn.className = 'copy-code-btn absolute top-3 right-3 px-2 py-1 bg-[#1a1b1e]/80 hover:bg-lime-600 text-gray-300 hover:text-white text-[10px] font-bold uppercase rounded border border-gray-700 hover:border-lime-500 transition-all flex items-center gap-1 z-10 backdrop-blur-sm';
+      btn.className = 'copy-code-btn absolute top-3 right-3 px-2 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[10px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 z-10 shadow-md';
       btn.innerHTML = '<svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg> Kopieren für Agent';
       
       btn.addEventListener('click', async () => {

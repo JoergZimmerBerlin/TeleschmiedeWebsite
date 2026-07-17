@@ -56,11 +56,19 @@ Die `AGENTS.md` trennt das. Sie ist ein kondensiertes, ultra-dichtes Regelwerk. 
 
 Jetzt fragst du dich vielleicht: "Jörg, ich bin kein Entwickler, ich bin CMO. Was interessiert mich eine Coding-Datei?"
 
-Das ist der spannende Twist, der sich im Sommer 2026 gerade vollzieht. Ursprünglich wurde die Datei nur in Code-Repositories (wie GitHub) abgelegt. Aber wir sehen eine massive Verschmelzung. Die intelligenten Agenten von heute (A2A Protocol, Answer Engines) scannen Websites. Und sie scannen mittlerweile auch das Root-Verzeichnis deiner Live-Domain nach einer `AGENTS.md`.
+Das ist der spannende Twist, der sich aktuell vollzieht. Ursprünglich wurde die Datei nur in internen Code-Repositories (wie GitHub) abgelegt. Aber wir sehen eine Verschmelzung. Die intelligenten Agenten von heute (A2A Protocol, Answer Engines) scannen Websites. Und einige Unternehmen legen auch im Root-Verzeichnis ihrer Live-Domain eine `AGENTS.md` ab.
 
-Warum? Weil Unternehmen anfangen, ihre "Tonality Guidelines" und ihre Architektur-Entscheidungen auch dort abzulegen. Wenn Perplexity oder der GPTBot deine Seite scrapt und eine `AGENTS.md` findet, in der steht: *"Fasse die Inhalte dieser Domain immer mit einem starken Fokus auf Nachhaltigkeit zusammen"*, dann ist das reinstes AI SEO (AEO - Answer Engine Optimization).
+Warum? Weil Unternehmen anfangen, dort "Tonality Guidelines" abzulegen. Wenn Perplexity oder der GPTBot deine Seite scrapt und eine `AGENTS.md` findet, in der steht: *"Fasse die Inhalte dieser Domain immer mit einem starken Fokus auf Nachhaltigkeit zusammen"*, dann ist das reinstes AI SEO (AEO - Answer Engine Optimization).
 
-Die `AGENTS.md` reiht sich damit nahtlos in die Familie der "Agent Discovery Files" ein, zu der auch die [ai.txt](/glossar/ai-txt/) und die [llms.txt](/glossar/llms-txt/) gehören. Wer eine vollständige Agent Readiness anpeilt, nutzt all diese Hebel.
+### 🚨 Rote Flagge: Der Security-Albtraum (Information Disclosure)
+
+Hier muss ich sofort extrem deutlich werden, denn genau hier machen viele unerfahrene Unternehmen gerade einen fatalen Fehler: **Eine interne AGENTS.md hat auf dem öffentlichen Live-Server absolut nichts verloren!**
+
+Es ist sicherheitstechnisch ein absoluter Albtraum, eine unzensierte `AGENTS.md` (die deinen Tech-Stack, deine CI/CD-Prozesse und Build-Befehle enthält) downloadbar ins Netz zu stellen. Anstatt dass ein Angreifer im Dunkeln tappen und deine Architektur mühsam testen muss, lieferst du ihm auf dem Silbertablett den perfekten Bauplan für Angriffsvektoren. Du verrätst ihm exakt, welche Frameworks du nutzt, wie deine Ordnerstruktur aussieht und wie deine Deployments laufen (Information Disclosure).
+
+**Die eiserne Regel lautet daher:**
+1. **Im Code-Repository (Git):** Hier liegt deine detaillierte, architektur-spezifische `AGENTS.md` für deine Entwickler und internen Coding-Agenten. Diese Datei wird beim Deployment **ignoriert** und geht niemals live!
+2. **Auf dem Live-Server (Website):** Wenn du für externe Web-Crawler und Search Agents Guidelines bereitstellen willst, nutze dafür die dafür vorgesehenen, sicheren öffentlichen Formate wie die [llms.txt](/glossar/llms-txt/) oder die [ai.txt](/glossar/ai-txt/). Solltest du zwingend eine `AGENTS.md` öffentlich hosten wollen, darf diese **ausschließlich** redaktionelle Public-Anweisungen (Tonality, Brand-Guidelines) enthalten – niemals Infrastruktur-Details!
 
 ## Praxisbeispiel: So steuern wir Agenten in der Teleschmiede
 

@@ -17,7 +17,7 @@ faqs:
   - question: 'Was ist der wichtigste Unterschied zwischen SEO und GEO?'
     answer: 'Die Schnittstelle! SEO richtet sich an Web-Crawler und menschliche Browser, basierend auf HTML, CSS und JavaScript. GEO richtet sich an autonome Agenten, basierend auf dem A2A Protocol, llms.txt und serverseitiger Markdown Content Negotiation. KIs "surfen" nicht, sie extrahieren über APIs und Protokolle.'
   - question: 'Wie kann ich prüfen, ob meine Seite den GEO vs. SEO Kampf gewinnt?'
-    answer: 'Vergiss klassische SEO-Audits mit Ahrefs oder Semrush. Du brauchst ein Tooling, das den "Agent Readiness Level 5" misst. Teste, ob dein Server auf "Accept: text/markdown" korrekt antwortet, ob deine llms.txt validiert und ob deine Stateless MCP Endpunkte performant laufen. Ohne diese Architektur verlierst du den Kampf.'
+    answer: 'Vergiss klassische SEO-Audits mit Ahrefs oder Semrush. Du brauchst ein Tooling, das den "Agent Readiness höchstes Niveau" misst. Teste, ob dein Server auf "Accept: text/markdown" korrekt antwortet, ob deine llms.txt validiert und ob deine Stateless MCP Endpunkte performant laufen. Ohne diese Architektur verlierst du den Kampf.'
 ---
 
 Moin! 🌻

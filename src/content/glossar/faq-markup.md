@@ -15,7 +15,7 @@ faqs:
   - question: 'Ist FAQ-Markup 2026 für die traditionellen SERPs noch relevant?'
     answer: 'In den klassischen ''10 blauen Links'' zeigt Google FAQs kaum noch an. Aber das ist irrelevant geworden. Der Kampf findet in der generativen KI-Suche statt (AI Overviews, ChatGPT, Perplexity). Hier ist FAQ-Markup dominanter denn je, da es dir direkte Zitationen und Sichtbarkeit in den KI-Antworten (GEO) sichert.'
   - question: 'Wie verhält sich FAQ-Markup zur Agent Readiness?'
-    answer: 'Wer eine hohe Agent Readiness (z.B. Cloudflare Radar Level 5) anstrebt, muss Informationen perfekt maschinenlesbar ausliefern. Neben der agent-card.json oder der llms.txt ist FAQ-Markup das beste Mittel, um das Fachwissen deiner Entität mundgerecht an autonome KI-Agenten zu verfüttern.'
+    answer: 'Wer eine hohe Agent Readiness (z.B. den höchsten Agent Readiness Standards) anstrebt, muss Informationen perfekt maschinenlesbar ausliefern. Neben der standardisierte Agent-Identity-Schnittstellen oder der llms.txt ist FAQ-Markup das beste Mittel, um das Fachwissen deiner Entität mundgerecht an autonome KI-Agenten zu verfüttern.'
 ---
 
 Moin! 🌻
@@ -43,7 +43,7 @@ Für die KI ist ein FAQ-Schema wie ein verifizierter Notizzettel. Es liefert **H
 ## Agent Readiness & Die neuen Spielregeln
 
 Um im Zeitalter von `llms.txt` und dem A2A-Protokoll (Agent-to-Agent) zu überleben, ist technisches SEO zu Agent Readiness mutiert. 
-Wenn du das Cloudflare Radar Level 5 für deine Seite anstrebst, musst du Bots nicht nur steuern (via korrektem `# auth.md`), sondern sie effizient füttern. Ein Crawler wie der GPTBot hat ein enges "Token-Budget". Er liebt Seiten, die direkt im HTML-Header via sauberen HTTP-Link-Headern auf strukturierte Metadaten verweisen und den Text durch FAQ-JSON-LD vorstrukturieren.
+Wenn du das den höchsten Agent Readiness Standards für deine Seite anstrebst, musst du Bots nicht nur steuern (via korrektem `# maschinenlesbare Endpunkt-Dokumentation`), sondern sie effizient füttern. Ein Crawler wie der GPTBot hat ein enges "Token-Budget". Er liebt Seiten, die direkt im HTML-Header via sauberen HTTP-Link-Headern auf strukturierte Metadaten verweisen und den Text durch FAQ-JSON-LD vorstrukturieren.
 
 ### Die 3 goldenen FAQ-Regeln für 2026
 

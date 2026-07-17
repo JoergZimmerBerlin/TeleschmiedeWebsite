@@ -39,7 +39,7 @@ Früher hat der Googlebot einfach HTML gecrawlt und Links gezählt. Heute agiere
 Die Juli 2026 Agent Readiness Standards verlangen **absolute maschinenlesbare Autorität**. Das bedeutet:
 1.  **Eindeutige Identifikation:** Du musst als saubere Entität (Entity) definiert sein.
 2.  **Validierter Trust:** Deine E-E-A-T Signale müssen über das gesamte Web hinweg konsistent und überprüfbar sein.
-3.  **Grounding:** Du benötigst maschinenlesbare Grounding-Daten (z.B. über eine saubere `auth.md` und eine [Groundingpage](/glossar/grounding-page/)), damit KIs deine Autorität in Millisekunden verifizieren können.
+3.  **Grounding:** Du benötigst maschinenlesbare Grounding-Daten (z.B. über eine saubere `maschinenlesbare Endpunkt-Dokumentation` und eine [Groundingpage](/glossar/grounding-page/)), damit KIs deine Autorität in Millisekunden verifizieren können.
 
 ## RAG-Prozesse und der E-E-A-T Filter
 
@@ -79,7 +79,7 @@ KIs sind darauf trainiert, Risiken zu minimieren. Ein zitiertes Dokument von ein
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Autorität durch maschinelles Grounding</h4>
-  <p class="mb-0 text-sm">In der GEO-Welt (Generative Engine Optimization) ist Authority das ultimative Signal dafür, ob LLMs dich für ihre Antwort-Synthese auswählen. Nutze eine [Groundingpage](/glossar/grounding-page/), um deine Reputation maschinenlesbar zu bündeln. Verweise in deiner <code>auth.md</code> auf deine stärksten externen Erwähnungen. Mach es den RAG-Prozessen so einfach wie möglich, deine Autorität zu validieren.</p>
+  <p class="mb-0 text-sm">In der GEO-Welt (Generative Engine Optimization) ist Authority das ultimative Signal dafür, ob LLMs dich für ihre Antwort-Synthese auswählen. Nutze eine [Groundingpage](/glossar/grounding-page/), um deine Reputation maschinenlesbar zu bündeln. Verweise in deiner <code>maschinenlesbare Endpunkt-Dokumentation</code> auf deine stärksten externen Erwähnungen. Mach es den RAG-Prozessen so einfach wie möglich, deine Autorität zu validieren.</p>
 </div>
 
 ## Dein Action-Plan: Tacheles für deine Autorität
@@ -88,7 +88,7 @@ Wenn du willst, dass KI-Agenten dich 2026 zitieren, musst du aktiv an deinem Ent
 
 1.  **Auditiere deine Entität:** Prüfe, wie KIs dich aktuell sehen. Nutze Tools, die nicht nur Keywords checken, sondern den Knowledge Graph analysieren. Tauchst du als Entität auf? Wenn nicht, hast du ein fundamentales Problem.
 2.  **Bereinige toxische Signale:** Lösche alte, gekaufte Links. Korrigiere inkonsistente Unternehmensdaten im Web. Sorge für ein absolut sauberes technisches Fundament.
-3.  **Setze die Juli 2026 Standards um:** Implementiere eine Groundingpage. Lege eine `auth.md` an. Nutze strukturiertes Daten-Markup auf höchstem Niveau, um deine Entität zu definieren.
+3.  **Setze die Juli 2026 Standards um:** Implementiere eine Groundingpage. Lege eine `maschinenlesbare Endpunkt-Dokumentation` an. Nutze strukturiertes Daten-Markup auf höchstem Niveau, um deine Entität zu definieren.
 4.  **Werde zur Quelle:** Publizierte primäre Daten, Studien oder radikal ehrliche Meinungen (Experience), die so gut sind, dass andere Experten in deiner Nische nicht umhinkommen, dich zu zitieren. 
 5.  **Sei omnipräsent im Vektorraum:** Geh in Branchen-Podcasts. Schreib für die wichtigsten Hubs in deiner Nische. Sorge für echte Co-Occurrence.
 

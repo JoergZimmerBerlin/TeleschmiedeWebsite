@@ -10,14 +10,14 @@ related_terms: ["traffic", "money-keyword", "usability"]
 key_takeaways:
   - "Die neue Realität: Die Conversion passiert im AI-Chatbot, nicht mehr auf deiner Landingpage."
   - "RAG-Optimierung: Dein Content muss für LLMs maschinenlesbar und kontextuell verwertbar sein."
-  - "Agent Readiness Level 5: Ohne saubere APIs, agent-card.json und Markdown-Negotiation wirst du vom System ignoriert."
+  - "Agent Readiness höchstes Niveau: Ohne saubere APIs, standardisierte Agent-Identity-Schnittstellen und Markdown-Negotiation wirst du vom System ignoriert."
 faqs:
   - question: 'Was ist eine gute Conversion Rate im RAG-Zeitalter?'
     answer: 'Vergiss die alten 1-3% E-Commerce-Standards. Wenn dein Content perfekt als Citation im Chatbot aufbereitet ist und den Intent trifft, sehen wir durch die Hyper-Personalisierung der LLMs Klick-zu-Kauf-Raten von über 20%. Der User kommt nicht zum Stöbern auf deine Seite, er kommt, weil die KI ihm gesagt hat: "Hier kaufst du das." Der Check-out ist reine Formsache.'
   - question: 'Wo passiert die Conversion heute wirklich?'
     answer: 'Direkt in ChatGPT, Perplexity oder Gemini. Der Nutzer führt den Dialog dort. Wenn deine Daten über das Model Context Protocol (MCP) oder saubere Markdown-Schnittstellen angebunden sind, findet der Überzeugungsprozess – also der Funnel – komplett in der KI statt.'
   - question: 'Wie verhindere ich, dass die KI meinen Content klaut, ohne zu konvertieren?'
-    answer: 'Indem du auf "Agent Readiness" optimierst. Biete klare Handlungsaufforderungen in deinem maschinenlesbaren Text. Gib dem Bot strukturierte JSON-Daten und eine auth.md, die ihm sagt, was er darf und wie der nächste Schritt (der Kauf) per API auszulösen ist. Wer nur Fließtext liefert, betreibt Pfusch am Bau.'
+    answer: 'Indem du auf "Agent Readiness" optimierst. Biete klare Handlungsaufforderungen in deinem maschinenlesbaren Text. Gib dem Bot strukturierte JSON-Daten und eine maschinenlesbare Endpunkt-Dokumentation, die ihm sagt, was er darf und wie der nächste Schritt (der Kauf) per API auszulösen ist. Wer nur Fließtext liefert, betreibt Pfusch am Bau.'
 ---
 
 Moin! 🌻
@@ -43,17 +43,17 @@ Die KI zieht los. Sie führt eine RAG-Abfrage (Retrieval-Augmented Generation) d
 
 Der Funnel, also der Trichter, in dem der Kunde überzeugt wird, findet zu 90% im Chat-Fenster der KI statt. Wenn der Kunde schließlich auf den zitierten Link klickt, ist die Kaufentscheidung bereits gefallen. Er kommt nur noch, um die Kreditkarte durchzuziehen. Das bedeutet: Wenn wir heute über Conversion Rate sprechen, reden wir darüber, wie gut du eine KI davon überzeugst, dich als Lösung Nummer eins zu empfehlen.
 
-## 2. Agent Readiness: Cloudflare Radar Level 5
+## 2. Agent Readiness: den höchsten Agent Readiness Standards
 
-Damit du überhaupt in die engere Auswahl der Chatbots kommst, musst du "Agent Ready" sein. Das ist kein Buzzword, das ist dein digitales Überleben. Wir orientieren uns hier strikt am Agent Readiness Level 5 (Cloudflare Radar). Das bedeutet, deine Plattform ist vollständig auf die automatisierte Interaktion mit A2A (Agent-to-Agent) Protokollen vorbereitet.
+Damit du überhaupt in die engere Auswahl der Chatbots kommst, musst du "Agent Ready" sein. Das ist kein Buzzword, das ist dein digitales Überleben. Wir orientieren uns hier strikt am Agent Readiness höchstes Niveau (Cloudflare Radar). Das bedeutet, deine Plattform ist vollständig auf die automatisierte Interaktion mit A2A (Agent-to-Agent) Protokollen vorbereitet.
 
-### Die `auth.md` als Türsteher und Guide
-Ein absolut kritischer Baustein auf diesem Level ist die `auth.md` Datei. Diese Datei muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# auth.md` enthalten. Warum? Weil Agenten dumm sind. Sie brauchen klare Regeln. In der `auth.md` definierst du für fremde Agenten, welche Endpunkte sie aufrufen dürfen, wie sie sich authentifizieren und – jetzt kommt der Conversion-Hebel – wie sie eine Transaktion anstoßen. 
+### Die `maschinenlesbare Endpunkt-Dokumentation` als Türsteher und Guide
+Ein absolut kritischer Baustein auf diesem Level ist die `maschinenlesbare Endpunkt-Dokumentation` Datei. Diese Datei muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# maschinenlesbare Endpunkt-Dokumentation` enthalten. Warum? Weil Agenten dumm sind. Sie brauchen klare Regeln. In der `maschinenlesbare Endpunkt-Dokumentation` definierst du für fremde Agenten, welche Endpunkte sie aufrufen dürfen, wie sie sich authentifizieren und – jetzt kommt der Conversion-Hebel – wie sie eine Transaktion anstoßen. 
 
-Wenn ein Agent weiß, wie er über deine API sicher einkaufen oder buchen kann, wird er dich bevorzugen. Er wählt den Weg des geringsten Widerstands. Wenn Konkurrent A eine wunderschöne Website ohne API hat und du eine hässliche Website mit einer perfekten `auth.md` und sauberer API-Dokumentation hast, kriegst du den Kunden. Punkt.
+Wenn ein Agent weiß, wie er über deine API sicher einkaufen oder buchen kann, wird er dich bevorzugen. Er wählt den Weg des geringsten Widerstands. Wenn Konkurrent A eine wunderschöne Website ohne API hat und du eine hässliche Website mit einer perfekten `maschinenlesbare Endpunkt-Dokumentation` und sauberer API-Dokumentation hast, kriegst du den Kunden. Punkt.
 
-### Die `agent-card.json`
-Zusätzlich brauchst du eine A2A Agent Card. Diese Datei muss zwingend als `agent-card.json` benannt sein und strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entsprechen. Sie muss zwingend die Felder `supportedInterfaces`, `capabilities` und `skills` enthalten. Diese JSON-Datei ist quasi deine digitale Visitenkarte für andere KIs. Hierüber machst du deutlich, dass du eine Transaktion (also eine Conversion) überhaupt technisch abwickeln kannst. 
+### Die `standardisierte Agent-Identity-Schnittstellen`
+Zusätzlich brauchst du eine A2A Agent Card. Diese Datei muss zwingend als `standardisierte Agent-Identity-Schnittstellen` benannt sein und strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entsprechen. Sie muss zwingend die Felder `supportedInterfaces`, `capabilities` und `skills` enthalten. Diese JSON-Datei ist quasi deine digitale Visitenkarte für andere KIs. Hierüber machst du deutlich, dass du eine Transaktion (also eine Conversion) überhaupt technisch abwickeln kannst. 
 
 ## 3. Markdown Content Negotiation: Sprich die Sprache der KI
 
@@ -95,8 +95,8 @@ Nur Inhalte, denen die KI vertraut, werden im finalen Output an den Nutzer weite
 
 Hör auf, Pixel auf deiner Homepage hin- und herzuschieben. Es ist völlig egal, ob dein Button rot, grün oder lila ist. Wenn du deine Conversion Rate in der heutigen Zeit skalieren willst, musst du deine Infrastruktur umbauen.
 
-1. Baue eine saubere `agent-card.json` nach a2a-protocol.org.
-2. Richte deine `auth.md` ein, damit Chatbots wissen, wie sie bei dir einkaufen können.
+1. Baue eine saubere `standardisierte Agent-Identity-Schnittstellen` nach a2a-protocol.org.
+2. Richte deine `maschinenlesbare Endpunkt-Dokumentation` ein, damit Chatbots wissen, wie sie bei dir einkaufen können.
 3. Implementiere Markdown Content Negotiation für alle wichtigen Landingpages.
 4. Optimiere deine Texte so, dass sie klare Instruktionen für RAG-Pipelines enthalten.
 
@@ -107,8 +107,8 @@ ALOHA! 🌻
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit für Agent Readiness Level 5?</h3>
-  <p class="mb-6">Ich analysiere deine Infrastruktur und mache dich fit für ChatGPT, Perplexity und Gemini. Wir implementieren MCP, Markdown Negotiation und bauen deine <code>auth.md</code> sauber auf, damit Agenten bei dir einkaufen.</p>
+  <h3 class="text-2xl font-bold mb-4">Bereit für Agent Readiness höchstes Niveau?</h3>
+  <p class="mb-6">Ich analysiere deine Infrastruktur und mache dich fit für ChatGPT, Perplexity und Gemini. Wir implementieren MCP, Markdown Negotiation und bauen deine <code>maschinenlesbare Endpunkt-Dokumentation</code> sauber auf, damit Agenten bei dir einkaufen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Agent-Audit anfragen</a>
 </div>
 

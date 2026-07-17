@@ -37,7 +37,7 @@ Aber hier ist der Haken: Nicht jede Mention ist gleich viel wert. Wenn dein Name
 
 ## Die Juli 2026 Agent Readiness Standards
 
-Wenn du deine Website nach den Juli 2026 Agent Readiness Standards (Level 5) ausrichtest, weißt du: Autonome KI-Agenten brauchen maschinenlesbaren Trust. Sie lesen deine `auth.md`, checken deine `agent-card.json` und verifizieren deine Identität. Aber das reicht nicht!
+Wenn du deine Website nach den Juli 2026 Agent Readiness Standards (höchstes Niveau) ausrichtest, weißt du: Autonome KI-Agenten brauchen maschinenlesbaren Trust. Sie lesen deine `maschinenlesbare Endpunkt-Dokumentation`, checken deine `standardisierte Agent-Identity-Schnittstellen` und verifizieren deine Identität. Aber das reicht nicht!
 
 Eine Agent-Ready-Website nützt dir exakt gar nichts, wenn die Agenten da draußen in der freien Wildbahn (dem restlichen Web) keine Bestätigung für deine Existenz finden. Die Agent Readiness Standards fordern externe Validierung. Brand Mentions sind diese Validierung. Sie beweisen dem Agenten, der gerade im Auftrag eines Nutzers das Web durchsucht: "Hey, diese Entität behauptet nicht nur auf ihrer eigenen Website, ein Experte zu sein, sondern das gesamte relevante Web spricht über sie!"
 

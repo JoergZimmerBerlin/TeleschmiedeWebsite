@@ -40,7 +40,7 @@ Stell dir vor, du baust ein Haus auf einem Sumpf. Egal wie schön die HTML-Fassa
 
 In meiner SEO Sprechstunde kämmen wir deine Seite gemeinsam durch. Dabei konzentriere ich mich auf die vier wichtigsten Hebel:
 
-1.  **Agent Readiness (Der 2026 Standard):** Ist die `/llms.txt` vorhanden? Liefert der Server bei einem Request mit `Accept: text/markdown` sauberes Markdown aus? Sind die A2A-Endpunkte erreichbar und ist die `auth.md` valide?
+1.  **Agent Readiness (Der 2026 Standard):** Ist die `/llms.txt` vorhanden? Liefert der Server bei einem Request mit `Accept: text/markdown` sauberes Markdown aus? Sind die A2A-Endpunkte erreichbar und ist die `maschinenlesbare Endpunkt-Dokumentation` valide?
 2.  **Klassische Technik:** Sind [Crawler](/glossar/crawler/) blockiert? Gibt es [404-Fehlerseiten](/glossar/404-fehlerseiten/)? Funktioniert deine XML-[Sitemap](/glossar/sitemap/)?
 3.  **Content & Entitäten:** Hast du semantisch dichten Content? Fehlen [Strukturierte Daten](/glossar/strukturierte-daten/)? Verstehen die Modelle deine Kern-Entität?
 4.  **Performance:** Wie schnell lädt die Seite? Passen die [Core Web Vitals](/glossar/core-web-vitals/)?
@@ -55,7 +55,7 @@ Lass uns tiefer in die Materie eintauchen. Ein professionelles Audit geht weit �
 Das ist der absolute Kernbereich im Jahr 2026. Wenn Google deine Seite nicht crawlen kann, existierst du nicht. Wenn LLMs deine Seite nicht crawlen können, existierst du morgen nicht mehr.
 *   **llms.txt & llms-full.txt:** Wir prüfen die Existenz und Validität. Diese Dateien sind die neuen Sitemaps für KI. Fehlen sie, ignoriert der Agent deine Seite.
 *   **Markdown Negotiation:** Wir simulieren Agenten-Anfragen (via cURL oder eigenen Skripten). Wenn wir `Accept: text/markdown` anfragen, darf der Server kein HTML mit Headern, Footern und Cookie-Bannern schicken. Er muss den reinen Content als Markdown ausliefern. Wir decken hier jeden Fehler im Setup (z.B. in Cloudflare Workern) schonungslos auf.
-*   **Agent Cards & Auth:** Entspricht deine `agent-card.json` dem offiziellen A2A-Schema? Sind die Endpunkte gesichert?
+*   **Agent Cards & Auth:** Entspricht deine `standardisierte Agent-Identity-Schnittstellen` dem offiziellen A2A-Schema? Sind die Endpunkte gesichert?
 
 ### 2. Indexierbarkeit und Klassisches Crawling
 *   **Robots.txt:** Gibt es versehentliche Blockaden für wichtige KI-Crawler (wie GPTBot, ClaudeBot)? 
@@ -89,7 +89,7 @@ Du musst kein Full-Stack-Entwickler sein, um die Ergebnisse zu verstehen, aber m
 2.  **Header-Inspektion:** Wir prüfen die Server-Antworten. Klappt die Markdown Negotiation? Werden die richtigen `Content-Type` Header zurückgegeben? 
 3.  **Fehler-Report priorisieren:** Wir gehen zuerst die kritischen Fehler an. Das sind meistens Dinge wie Server-Fehler, kaputte Markdown-Exporte oder blockierte KI-Bots. Danach kommen die klassischen Fehler.
 4.  **Core Web Vitals & UX:** Wir prüfen, wie die Seite für Menschen performt. KI-Agenten brauchen kein CSS, Menschen schon.
-5.  **Strategische Roadmap:** Du erhältst kein unlesbares PDF, sondern konkrete Tickets. "Richte Cloudflare Worker für /blog/ ein", "Erstelle agent-card.json in /" usw.
+5.  **Strategische Roadmap:** Du erhältst kein unlesbares PDF, sondern konkrete Tickets. "Richte Cloudflare Worker für /blog/ ein", "Erstelle standardisierte Agent-Identity-Schnittstellen in /" usw.
 
 ---
 

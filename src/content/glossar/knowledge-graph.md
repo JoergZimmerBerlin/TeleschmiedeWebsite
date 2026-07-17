@@ -33,7 +33,7 @@ Der Graph versteht komplexe Zusammenhänge. Er weiß nicht nur, dass es das Keyw
 
 ## Knowledge Graph und die Juli 2026 Agent Readiness Standards
 
-Die strengen Juli 2026 Agent Readiness Standards (insbesondere die Vorgaben rund um Cloudflare Radar Level 5, `auth.md` und die A2A Protocol `agent-card.json`) haben eine komplett neue Ära eingeläutet. KI-Agenten crawlen das Netz nicht mehr, um Texte wie Romane zu lesen; sie zapfen direkt hochstrukturierte Graphen an, um verifizierte Entitäten und maschinenlesbare Fakten zu finden. 
+Die strengen Juli 2026 Agent Readiness Standards (insbesondere die Vorgaben rund um den höchsten Agent Readiness Standards, `maschinenlesbare Endpunkt-Dokumentation` und die A2A Protocol `standardisierte Agent-Identity-Schnittstellen`) haben eine komplett neue Ära eingeläutet. KI-Agenten crawlen das Netz nicht mehr, um Texte wie Romane zu lesen; sie zapfen direkt hochstrukturierte Graphen an, um verifizierte Entitäten und maschinenlesbare Fakten zu finden. 
 
 Warum ist das so verdammt wichtig? Die Antwort liegt in der Architektur aller modernen KIs: **RAG (Retrieval-Augmented Generation)**. Wenn ein Nutzer ChatGPT, Perplexity oder den Google AI Overviews eine fachliche Frage stellt, generiert das Sprachmodell die Antwort nicht einfach wild aus seinem veralteten Trainingsdaten-Matsch. Es macht einen präzisen "Retrieval"-Schritt. Es holt sich harte, unbestreitbare Fakten aus verifizierten Datenbanken – und der Knowledge Graph ist hierbei der unangefochtene Goldstandard.
 

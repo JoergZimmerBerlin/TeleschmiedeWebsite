@@ -15,7 +15,7 @@ faqs:
   - question: 'Was bedeutet Search Query Fanout für meine alten SEO-Texte?'
     answer: 'Dass sie wahrscheinlich massiv an Traffic verlieren. Früher hat ein Text für "Hundefutter" gereicht. Heute fächert die KI die Suchanfrage (Fanout) sofort in "Getreidefreies Hundefutter für Allergiker", "Barfen vs. Trockenfutter" etc. auf. Wenn deine alten Texte diese aufgefächerten Intents nicht in semantischen Clustern abdecken, werden sie von KI-Suchmaschinen in den AI Overviews ignoriert.'
   - question: 'Was ist Agent Readiness und wie hilft mir das bei Keywörtern?'
-    answer: 'Agent Readiness bedeutet, dass deine Website nicht nur für menschliche Browser, sondern für autonome KI-Agenten gebaut ist (Level 5 nach Cloudflare Radar). Keywörter sind dabei nur die Spitze des Eisbergs. Ein KI-Agent sucht nach strukturierten Daten, einer auth.md und maschinenlesbaren APIs. Wenn du ein "Keyword" bedienen willst, musst du es als Entität für diese Agenten greifbar machen.'
+    answer: 'Agent Readiness bedeutet, dass deine Website nicht nur für menschliche Browser, sondern für autonome KI-Agenten gebaut ist (höchstes Niveau nach Cloudflare Radar). Keywörter sind dabei nur die Spitze des Eisbergs. Ein KI-Agent sucht nach strukturierten Daten, einer maschinenlesbare Endpunkt-Dokumentation und maschinenlesbaren APIs. Wenn du ein "Keyword" bedienen willst, musst du es als Entität für diese Agenten greifbar machen.'
 ---
 
 Moin! 🌻
@@ -55,7 +55,7 @@ Der größte Fehler, den Unternehmen heute machen, ist zu glauben, sie würden I
 
 Wenn ein KI-Agent das Web nach dem besten "Steuerberater für Krypto" scannt, sucht er nicht nach Keywords im H1-Tag. Er sucht nach maschinenlesbaren Signalen:
 1.  **Strukturierte Daten (JSON-LD):** Er will die Entitäten glasklar deklariert sehen. Wer bist du? Wo bist du? Welche Services bietest du an?
-2.  **A2A Protokolle:** Hast du eine `agent-card.json` oder eine `auth.md`, die dem Agenten deine Fähigkeiten sofort verständlich macht?
+2.  **A2A Protokolle:** Hast du eine `standardisierte Agent-Identity-Schnittstellen` oder eine `maschinenlesbare Endpunkt-Dokumentation`, die dem Agenten deine Fähigkeiten sofort verständlich macht?
 3.  **Vektor-Distanz:** Wie nah ist dein Text semantisch an dem, was das Trainingsmaterial des Agenten als "Wahrheit" oder "Expertenwissen" abgespeichert hat?
 
 Wenn du deine "Keywörter" nicht Agent-Ready verpackst, bist du für diese neue Generation von Web-Besuchern unsichtbar. Du bist ein analoges Faxgerät in einer digitalen Welt.

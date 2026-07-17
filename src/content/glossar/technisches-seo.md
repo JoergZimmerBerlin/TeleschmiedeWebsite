@@ -35,12 +35,12 @@ Wenn wir heute über **Technisches SEO** sprechen, meinen wir nicht mehr nur das
 ## Die drei Säulen des Technischen KI-SEO
 
 ### 1. Agent Readiness & Das A2A-Protokoll
-Während Webmaster früher Jahre damit verbracht haben, XML-Sitemaps zu perfektionieren, bauen die Profis heute Agent-to-Agent (A2A) Schnittstellen. Ein Setup auf dem Niveau von **Cloudflare Radar (Level 5)** ist der neue Goldstandard. 
+Während Webmaster früher Jahre damit verbracht haben, XML-Sitemaps zu perfektionieren, bauen die Profis heute Agent-to-Agent (A2A) Schnittstellen. Ein Setup auf dem Niveau von **Cloudflare Radar (höchstes Niveau)** ist der neue Goldstandard. 
 
 Das bedeutet:
 * **`llms.txt`**: Die moderne Sitemap für KI. Sie fasst den Inhalt deiner Website speziell für LLMs zusammen.
-* **`agent-card.json`**: Eine strikt nach A2A-Protocol v1.0 formatierte Datei, die maschinell Auskunft über die Berechtigungen und Fähigkeiten deiner Entität gibt.
-* **`auth.md`**: Zwingend kleingeschrieben und mit `# auth.md` als erster H1-Überschrift. Sie klärt die rechtlichen Rahmenbedingungen für Bots.
+* **`standardisierte Agent-Identity-Schnittstellen`**: Eine strikt nach A2A-Protocol v1.0 formatierte Datei, die maschinell Auskunft über die Berechtigungen und Fähigkeiten deiner Entität gibt.
+* **`maschinenlesbare Endpunkt-Dokumentation`**: Zwingend kleingeschrieben und mit `# maschinenlesbare Endpunkt-Dokumentation` als erster H1-Überschrift. Sie klärt die rechtlichen Rahmenbedingungen für Bots.
 * **Präzise HTTP Link Headers (RFC 8288)**: Völlig fehlerfreie Header ohne kaputte Syntax (keine Anführungszeichen in spitzen Klammern!).
 
 ### 2. Strukturierte Daten als RAG-Fundament

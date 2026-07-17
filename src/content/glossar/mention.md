@@ -35,7 +35,7 @@ Warum? Weil wir längst nicht mehr in einer Welt leben, in der Suchmaschinen nur
 
 ## Entity Building unter den Juli 2026 Agent Readiness Standards
 
-Lass uns über die Juli 2026 Standards sprechen. Wir trimmen Webseiten auf Level 5 Readiness, implementieren die `auth.md` und machen alles über das A2A-Protokoll maschinenlesbar. Das ist die Pflicht, quasi die technische Eintrittskarte in das KI-Ökosystem.
+Lass uns über die Juli 2026 Standards sprechen. Wir trimmen Webseiten auf höchstes Niveau Readiness, implementieren die `maschinenlesbare Endpunkt-Dokumentation` und machen alles über das A2A-Protokoll maschinenlesbar. Das ist die Pflicht, quasi die technische Eintrittskarte in das KI-Ökosystem.
 
 Aber die Kür ist das **Entity Building** da draußen in der freien Wildbahn. Ein KI-Agent, der deine Seite besucht, verifiziert deine Identität. Danach gleicht er diese Identität mit dem globalen Knowledge Graph ab. Er stellt die Frage: "Gibt es externe Validierung für diese Entität? Kennt die jemand?" 
 

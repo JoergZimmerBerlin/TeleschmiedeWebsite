@@ -14,7 +14,7 @@ faqs:
   - question: 'Warum sind die Bing Webmaster Tools im Jahr 2026 so massiv wichtig?'
     answer: 'Weil Bing längst nicht mehr "nur" eine Suchmaschine ist. Bing ist das offizielle RAG-Backend (Retrieval-Augmented Generation) für ChatGPT. Wenn ein Nutzer ChatGPT nach aktuellen Informationen fragt, holt sich die KI diese Daten direkt über den Bing-Index. Wer in den Bing Webmaster Tools nicht indexiert ist oder Fehler aufweist, taucht in den Antworten von ChatGPT schlichtweg nicht auf. Wer Bing ignoriert, ignoriert den größten KI-Chatbot der Welt.'
   - question: 'Wie beeinflusst Agent Readiness mein Bing-Ranking für KI?'
-    answer: 'Bing optimiert seinen Index extrem auf maschinenlesbaren Content. Agent Readiness bedeutet hier: Bietest du sauberes Markdown via Content Negotiation an? Hast du eine saubere auth.md Datei? Unterstützt du das A2A-Protokoll? Die Bing Webmaster Tools geben dir 2026 detailliertes Feedback darüber, ob Copilot und ChatGPT-Agenten deinen Content parsen und zitieren können.'
+    answer: 'Bing optimiert seinen Index extrem auf maschinenlesbaren Content. Agent Readiness bedeutet hier: Bietest du sauberes Markdown via Content Negotiation an? Hast du eine saubere maschinenlesbare Endpunkt-Dokumentation Datei? Unterstützt du das A2A-Protokoll? Die Bing Webmaster Tools geben dir 2026 detailliertes Feedback darüber, ob Copilot und ChatGPT-Agenten deinen Content parsen und zitieren können.'
   - question: 'Was ist IndexNow und warum brauche ich es für ChatGPT?'
     answer: 'IndexNow ist der Echtzeit-Ping an Bing. Wenn du einen neuen Artikel veröffentlichst und möchtest, dass ChatGPT ihn in der nächsten Minute zitieren kann, musst du IndexNow nutzen. KI verlangt Echtzeit-Daten. Es gibt keine Zeit mehr, tagelang auf den herkömmlichen Crawler zu warten. IndexNow ist der Fast-Pass in die KI-Gehirne.'
 ---
@@ -43,7 +43,7 @@ Die Bing Webmaster Tools haben sich radikal auf **Generative Engine Optimization
 Vergiss das Warten auf Crawler. IndexNow ist das Protokoll der Stunde. Du meldest neue URLs aktiv, und Minuten später sind sie im Bing-Index – und damit Sekunden später als Zitationsquelle für ChatGPT verfügbar. Für News-Seiten, Blogs und E-Commerce ist das 2026 absolute Pflicht. Wer das nicht nutzt, ist von gestern.
 
 ### Agent Readiness Scanner
-Bing hat längst verstanden, dass LLMs reines Markdown bevorzugen. Die Webmaster Tools prüfen, ob dein Server auf Agent-Anfragen (Content Negotiation mit `Accept: text/markdown`) sauber antwortet. Sie checken, ob deine `auth.md` (zwingend kleingeschrieben, `# auth.md` als H1) vorhanden ist und ob du das A2A-Protokoll via `agent-card.json` unterstützt. Ohne diese Level 5 Readiness sinkt dein Trust-Score für KI-Zitationen massiv.
+Bing hat längst verstanden, dass LLMs reines Markdown bevorzugen. Die Webmaster Tools prüfen, ob dein Server auf Agent-Anfragen (Content Negotiation mit `Accept: text/markdown`) sauber antwortet. Sie checken, ob deine `maschinenlesbare Endpunkt-Dokumentation` (zwingend kleingeschrieben, `# maschinenlesbare Endpunkt-Dokumentation` als H1) vorhanden ist und ob du das A2A-Protokoll via `standardisierte Agent-Identity-Schnittstellen` unterstützt. Ohne diese höchstes Niveau Readiness sinkt dein Trust-Score für KI-Zitationen massiv.
 
 ### SEO-Analyzer für Maschinenlesbarkeit
 Das Tool prüft nicht nur noch fehlende H1-Tags. Es scannt, ob der DOM-Tree zu tief ist, ob JavaScript das Parsing für RAG-Pipelines blockiert und ob die semantische Struktur (JSON-LD) für LLMs logisch ist. Das ist kein "Bauchladen" an Metriken, sondern echtes Handwerk für die Maschinenlesbarkeit.
@@ -75,4 +75,4 @@ ALOHA 🌻! 🌻
 * [Google Search Console verstehen](/glossar/google-search-console/)
 * [Was ist Agent Readiness?](/glossar/agent-readiness/)
 * [Was ist GEO?](/glossar/geo/)
-* [Die Rolle der auth.md](/glossar/agent-readiness/)
+* [Die Rolle der maschinenlesbare Endpunkt-Dokumentation](/glossar/agent-readiness/)

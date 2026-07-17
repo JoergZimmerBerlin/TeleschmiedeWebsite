@@ -16,7 +16,7 @@ faqs:
   - question: 'Warum ist RAG so abhängig von fachlicher Expertise?'
     answer: 'Weil Retrieval-Augmented Generation (RAG) den "Halluzinations-Tod" von KIs verhindern soll. Wenn ein User eine komplexe Fachfrage stellt (z.B. zu medizinischen oder rechtlichen Themen - YMYL), darf die KI nicht raten. Sie muss Experten-Daten in den Prompt ziehen. Dabei wendet sie einen extrem strengen E-E-A-T Filter an. Hat der Autor keine messbare Expertise im Knowledge Graph, wird sein Content vom RAG-Retriever als "unzuverlässig" markiert und schlichtweg ignoriert.'
   - question: 'Wie mache ich meine Expertise maschinenlesbar?'
-    answer: 'Nutze das Entity Building Framework. Deine Expertise muss in Code gegossen werden. Verwende das `knowsAbout` Attribut im Schema.org Profil, verknüpfe dich via `sameAs` mit Fachdatenbanken (Wikidata, ORCID) und stelle eine valide Groundingpage sowie eine agent-card.json zur Verfügung. Die KI muss deine Qualifikationen nicht erst im Fließtext suchen, sie muss sie strukturiert über APIs oder Metadaten abrufen können.'
+    answer: 'Nutze das Entity Building Framework. Deine Expertise muss in Code gegossen werden. Verwende das `knowsAbout` Attribut im Schema.org Profil, verknüpfe dich via `sameAs` mit Fachdatenbanken (Wikidata, ORCID) und stelle eine valide Groundingpage sowie eine standardisierte Agent-Identity-Schnittstellen zur Verfügung. Die KI muss deine Qualifikationen nicht erst im Fließtext suchen, sie muss sie strukturiert über APIs oder Metadaten abrufen können.'
 ---
 
 Moin! 🌻

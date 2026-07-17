@@ -51,7 +51,7 @@ Um überhaupt zu wissen, ob sich auf deiner Website etwas Relevantes geändert h
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die mtime-Logik (Git History) in Perfektion</h4>
-  <p class="mb-0 text-sm">Viele billige CMS-Systeme aktualisieren das Datum der Sitemap bei jedem Server-Neustart oder CSS-Update pauschal auf "heute". Das ist katastrophal! KI-Agenten merken sofort, dass du sie anlügst, wenn sie den Content crawlen und keinen geänderten Text finden. Die Lösung 2026: Nutze strikte Custom Logic, die das exakte Änderungsdatum der Datei ausschließlich aus der Git-History (mtime) zieht. Präzision ist absolute Pflicht, wenn du Cloudflare Radar Agent Readiness Level 5 erreichen willst.</p>
+  <p class="mb-0 text-sm">Viele billige CMS-Systeme aktualisieren das Datum der Sitemap bei jedem Server-Neustart oder CSS-Update pauschal auf "heute". Das ist katastrophal! KI-Agenten merken sofort, dass du sie anlügst, wenn sie den Content crawlen und keinen geänderten Text finden. Die Lösung 2026: Nutze strikte Custom Logic, die das exakte Änderungsdatum der Datei ausschließlich aus der Git-History (mtime) zieht. Präzision ist absolute Pflicht, wenn du Cloudflare Radar Agent Readiness höchstes Niveau erreichen willst.</p>
 </div>
 
 ## Monitoring: Lass die Maschinen nicht blind ins Messer laufen
@@ -61,7 +61,7 @@ Es reicht nicht, eine XML-Sitemap und eine `llms.txt` ins Root-Verzeichnis zu we
 1.  Trage die Sitemap zwingend in die `robots.txt` ein! Und ja, ab 2026 verlinkst du dort auch ganz explizit deine `llms.txt`, damit KI-Agenten sofort den besten Einstiegspunkt finden.
 2.  Die interne Struktur muss sitzen: Interne Links innerhalb der Sitemap und deines gesamten Systems müssen konsequent saubere Trailing Slashes besitzen (z.B. `https://teleschmie.de/kontakt/`), um tödliche Redirect-Ketten zu vermeiden. Jeder Redirect kostet Crawl-Budget!
 3.  Reiche die XML-Sitemap in der Google Search Console ein und überwache sie wöchentlich auf 4xx oder 5xx Fehler.
-4.  Implementiere die `agent-card.json` (A2A Protocol), um deine Schnittstellen offiziell für Maschinen zu deklarieren.
+4.  Implementiere die `standardisierte Agent-Identity-Schnittstellen` (A2A Protocol), um deine Schnittstellen offiziell für Maschinen zu deklarieren.
 
 Eine "aufgeblähte" Sitemap voller URLs, die auf [noindex](/glossar/noindex/) stehen, per `robots.txt` geblockt sind oder einen 404-Status ausgeben, zerstört dein Crawl-Budget völlig. Du schickst den Bibliothekar systematisch in Sackgassen. Er wird dich dafür hassen und ignorieren.
 
@@ -75,7 +75,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Fehlende KI-Sichtbarkeit und kaputte Indexierung?</h3>
-  <p class="mb-6">Ich optimiere deine Backend-Architektur kompromisslos auf Agent Readiness Level 5. Wir bereinigen deine toxischen Sitemaps, etablieren präzise mtime-Logik und implementieren die llms.txt für LLMs.</p>
+  <p class="mb-6">Ich optimiere deine Backend-Architektur kompromisslos auf Agent Readiness höchstes Niveau. Wir bereinigen deine toxischen Sitemaps, etablieren präzise mtime-Logik und implementieren die llms.txt für LLMs.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Sitemap & KI-Architektur anfragen </a>
 </div>
 

@@ -52,7 +52,7 @@ CLS misst die visuelle Stabilität. Wenn Elemente während des Ladens plötzlich
 Für KI-Agenten ist ein hoher CLS jedoch **fatal**. 
 Warum? Wenn ein Agent deine Seite rendert, um den DOM-Tree (Document Object Model) zu analysieren und semantisch wertvolle Chunks für die Vektordatenbank zu erstellen, braucht er einen stabilen Snapshot. Wenn ein verzögert geladenes Cookie-Banner, ein Werbeblock oder ein asynchroner Webfont das Layout nach 500ms massiv verschiebt, zerreißt es die Node-Struktur, die der Agent gerade verarbeitet.
 - **Die Folge:** Der Agent wirft eine `DOMException` oder extrahiert völlig verschachtelten, wertlosen Müll. Deine Rankings in der generativen Suche stürzen ab.
-- **Die Tacheles-Lösung:** Gib jedem verdammten Bild, Video und Ad-Slot feste `width` und `height` Attribute im HTML. Lade Webfonts vor (`preload`) oder nutze System-Fonts. Sorge für eine "Agent Readiness Level 5" Architektur, die absolut stabil rendert.
+- **Die Tacheles-Lösung:** Gib jedem verdammten Bild, Video und Ad-Slot feste `width` und `height` Attribute im HTML. Lade Webfonts vor (`preload`) oder nutze System-Fonts. Sorge für eine "Agent Readiness höchstes Niveau" Architektur, die absolut stabil rendert.
 
 ### 3. Interaction to Next Paint (INP) – Die Blockade im A2A-Commerce
 
@@ -75,12 +75,12 @@ Wenn dein Server in Frankfurt steht, aber der AI-Crawler aus einem Rechenzentrum
 - **Realismus:** Du wirst nie 100% perfekte Werte haben. Das Ziel sind 75% der Sessions im grünen Bereich.
 - **Konkurrenz:** Du musst nicht perfekt sein, du musst nur besser und stabiler sein als die anderen Clowns in deiner Nische.
 
-## Core Web Vitals und Agent Readiness Level 5
+## Core Web Vitals und Agent Readiness höchstes Niveau
 
 Um heute zukunftsfähig zu sein, reicht es nicht, nur die Web Vitals für Menschen zu fixen. Du musst "Agent Ready" werden. 
 Das bedeutet:
 1.  **Markdown Content Negotiation:** Biete Agenten die Möglichkeit, deine Core Web Vitals komplett zu umgehen, indem sie über `Accept: text/markdown` direkt reines, semantisches Markdown anfragen. Das eliminiert LCP, CLS und INP Probleme für Maschinen komplett, da kein Rendering stattfindet.
-2.  **`auth.md` und `agent-card.json`:** Leite Agenten sauber und ohne JavaScript-Hürden zu den relevanten Schnittstellen. 
+2.  **`maschinenlesbare Endpunkt-Dokumentation` und `standardisierte Agent-Identity-Schnittstellen`:** Leite Agenten sauber und ohne JavaScript-Hürden zu den relevanten Schnittstellen. 
 
 Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du deine AI-Sichtbarkeit im Vergleich zu deinen technischen Performance-Werten exakt analysieren. Wer im CrUX-Report rot leuchtet, ist auch bei ChatGPT unsichtbar. So einfach ist das.
 

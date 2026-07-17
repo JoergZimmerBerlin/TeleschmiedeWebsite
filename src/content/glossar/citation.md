@@ -15,7 +15,7 @@ faqs:
   - question: 'Warum zitiert mich die KI nicht, obwohl ich SEO mache?'
     answer: 'Weil dir der Trust fehlt. KIs halluzinieren nicht mehr blind, sie filtern nach E-E-A-T. Wenn du keine massiven, hochwertigen Brand Mentions im Netz hast, hast du keine starke Entität. Ohne Entität gibt es keinen Trust. Ohne Trust gibt es keine Citation.'
   - question: 'Wie werde ich von RAG-Prozessen zitiert?'
-    answer: 'Entity Building ist der einzige Weg. Liefere Agent-Ready-Daten (auth.md etc.), baue durch digitale PR absolute Experten-Mentions auf und positioniere dich so klar, dass das LLM bei deiner Nische mathematisch gezwungen ist, auf dich zurückzugreifen.'
+    answer: 'Entity Building ist der einzige Weg. Liefere Agent-Ready-Daten (maschinenlesbare Endpunkt-Dokumentation etc.), baue durch digitale PR absolute Experten-Mentions auf und positioniere dich so klar, dass das LLM bei deiner Nische mathematisch gezwungen ist, auf dich zurückzugreifen.'
 ---
 
 Moin! 
@@ -33,7 +33,7 @@ Willkommen im Jahr 2026. Unter den **Juli 2026 Agent Readiness Standards** ist d
 
 RAG steht für **Retrieval-Augmented Generation**. Das bedeutet: Moderne KI-Systeme raten nicht mehr. Wenn ein Nutzer eine Frage stellt, durchsucht der Agent in Echtzeit verifizierte Vektordatenbanken und Suchindizes, holt sich die Fakten und generiert daraus die maßgeschneiderte Antwort. 
 
-Wenn die KI in dieser Antwort sagt: *"Laut Jörg Zimmer von der Teleschmiede ist Agent Readiness Level 5 zwingend erforderlich"*, dann hat sie mich **zitiert**. Das ist eine Citation. Es ist der ultimative Beweis, dass ich nicht nur irgendwo im Index als Datei liege, sondern dass die KI mich aus Millionen von Optionen als die bestmögliche Quelle für diese spezifische Information ausgewählt hat.
+Wenn die KI in dieser Antwort sagt: *"Laut Jörg Zimmer von der Teleschmiede ist Agent Readiness höchstes Niveau zwingend erforderlich"*, dann hat sie mich **zitiert**. Das ist eine Citation. Es ist der ultimative Beweis, dass ich nicht nur irgendwo im Index als Datei liege, sondern dass die KI mich aus Millionen von Optionen als die bestmögliche Quelle für diese spezifische Information ausgewählt hat.
 
 Das ist der Jackpot. Denn Nutzer vertrauen den Antworten der KIs blind. Eine Citation bringt dir Sichtbarkeit und Traffic, die mit nichts anderem vergleichbar sind.
 
@@ -58,7 +58,7 @@ Hier ist der alles entscheidende Unterschied, den du begreifen musst, wenn du 20
 
 Um von autonomen Agenten zitiert zu werden, musst du zwei Dinge meistern: Die technische Bereitschaft und die Marken-Dominanz.
 
-1.  **Maschinenlesbarer Trust:** Erfülle die Juli 2026 Agent Readiness Standards bis ins letzte Detail. Implementiere das A2A-Protokoll, stell deine `auth.md` bereit und sorge dafür, dass Agenten deine Entität technisch einwandfrei über standardisierte Schnittstellen identifizieren können.
+1.  **Maschinenlesbarer Trust:** Erfülle die Juli 2026 Agent Readiness Standards bis ins letzte Detail. Implementiere das A2A-Protokoll, stell deine `maschinenlesbare Endpunkt-Dokumentation` bereit und sorge dafür, dass Agenten deine Entität technisch einwandfrei über standardisierte Schnittstellen identifizieren können.
 2.  **Bedingungsloses Entity Building:** Werde zur unumstrittenen Koryphäe in deiner Nische. Mach extreme [Pressearbeit im SEO](/glossar/pressearbeit-im-seo/). Publiziere Content, der so fundiert ist, dass andere Experten dich erwähnen müssen. 
 3.  **Konsistenz ist König:** Wenn deine Entität "wackelt" – weil Daten widersprüchlich sind oder toxische Mentions auftauchen – entzieht dir das RAG-System sofort den Trust. Einmal verbranntes E-E-A-T ist schwer wieder aufzubauen.
 

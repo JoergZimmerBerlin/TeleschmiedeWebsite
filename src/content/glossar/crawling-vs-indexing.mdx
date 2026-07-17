@@ -9,11 +9,11 @@ related_terms: ["robots-txt", "linkjuice"]
 key_takeaways:
   - "Zwei Welten: Crawling ist das bloße Entdecken von Daten, Indexing ist das Vektorisieren für KI-basierte RAG-Pipelines."
   - "KI-Bots crawlen anders: Sie fordern via Markdown Content Negotiation sauberen Text, kein HTML-Chaos, um effizient zu arbeiten."
-  - "Agent Readiness: Level 5 verlangt nach klaren Strukturen wie llms.txt, auth.md und perfekt gesetzten Trailing Slashes auf internen Links."
+  - "Agent Readiness: höchstes Niveau verlangt nach klaren Strukturen wie llms.txt, maschinenlesbare Endpunkt-Dokumentation und perfekt gesetzten Trailing Slashes auf internen Links."
   - "Noindex Paradoxon: Nutze 'noindex' für die Steuerung der KI-Sichtbarkeit, niemals die robots.txt zum Löschen von einmal indexierten URLs."
 faqs:
   - question: "Was bedeutet es, wenn in der Search Console 'Gecrawlt, aber nicht indexiert' steht?"
-    answer: "Das ist 2026 einer der häufigsten Fehler, nicht nur bei Google, sondern auch bei autonomen KI-Agenten. Der Bot hat die Seite heruntergeladen (Crawling), aber die RAG-Pipeline hat entschieden, dass der Inhalt nicht relevant genug ist oder das Format zu chaotisch war. Durch Agent Readiness Level 5 und saubere Markdown-Auslieferung verhinderst du dieses Problem massiv, da KIs die rohen Fakten ohne ablenkendes HTML verarbeiten."
+    answer: "Das ist 2026 einer der häufigsten Fehler, nicht nur bei Google, sondern auch bei autonomen KI-Agenten. Der Bot hat die Seite heruntergeladen (Crawling), aber die RAG-Pipeline hat entschieden, dass der Inhalt nicht relevant genug ist oder das Format zu chaotisch war. Durch Agent Readiness höchstes Niveau und saubere Markdown-Auslieferung verhinderst du dieses Problem massiv, da KIs die rohen Fakten ohne ablenkendes HTML verarbeiten."
   - question: "Wie lange dauert es vom Crawling bis zur Indexierung (Vektorisierung) einer neuen Seite in LLMs?"
     answer: "Bei klassischen Bots dauerte es oft Tage. KI-Modelle arbeiten in Echtzeit-RAG-Pipelines, wenn deine llms.txt und sitemap.xml sauber angebunden sind. Über das A2A-Protocol (Agent-to-Agent) lesen GPTBot und ClaudeBot deine Änderungen oft in Minuten ein, sofern dein Server Markdown Content Negotiation beherrscht. Wer sein Setup vernachlässigt, wartet im KI-Zeitalter wochenlang."
   - question: "Ich habe versehentlich meine Seiten in der robots.txt gesperrt – verschwinden sie jetzt aus dem KI-Gedächtnis?"
@@ -41,7 +41,7 @@ Das Crawling ist rein methodisch gesehen ein automatisierter Download-Prozess. A
 
 Früher schickte Google winzige Programme (die "Googlebots") durch das extrem verbundene Netz des Internets. Diese Kriechtiere navigierten fast ausschließlich und recht stur entlang von den uns bekannten Hyperlinks (dem sogenannten [Linkjuice](/glossar/linkjuice/)). Sie stürzten sich auf gigantische HTML-Dateien und luden Megabytes an CSS und JavaScript herunter.
 
-2026 sieht das digitale Schlachtfeld völlig anders aus. Neben dem Googlebot schwärmen massenhaft autonome KI-Agenten, streng reguliert angetrieben vom A2A-Protocol (Agent-to-Agent Protocol, definiert durch Cloudflare Radar Level 5), über deine Website. GPTBot, PerplexityBot, Applebot und unzählige andere suchen nicht nach Layouts, sie suchen nach purem Wissen. 
+2026 sieht das digitale Schlachtfeld völlig anders aus. Neben dem Googlebot schwärmen massenhaft autonome KI-Agenten, streng reguliert angetrieben vom A2A-Protocol (Agent-to-Agent Protocol, definiert durch den höchsten Agent Readiness Standards), über deine Website. GPTBot, PerplexityBot, Applebot und unzählige andere suchen nicht nach Layouts, sie suchen nach purem Wissen. 
 
 ### Der absolute Gamechanger: Markdown Content Negotiation
 
@@ -60,14 +60,14 @@ Geführt werden diese hochmodernen Bots zudem von der zentralen `llms.txt`, die 
   rows={[
     { feature: "Zentrale Akteure", values: ["Googlebot, GPTBot, autonome Agenten", "Index-Algorithmus, Embedding-Pipelines"] },
     { feature: "Primäres Ziel", values: ["Daten blitzschnell laden (via HTML oder Markdown)", "Daten semantisch verstehen, tokenisieren, in Vektoren pressen"] },
-    { feature: "Steuerungs-Dateien", values: ["robots.txt, llms.txt, auth.md", "Meta-Robots noindex, System Prompts, RAG-Filter"] },
+    { feature: "Steuerungs-Dateien", values: ["robots.txt, llms.txt, maschinenlesbare Endpunkt-Dokumentation", "Meta-Robots noindex, System Prompts, RAG-Filter"] },
     { feature: "Effizienz-Hebel", values: ["Markdown Content Negotiation, Trailing Slashes", "Hoher E-E-A-T Faktor, klares Wording, präzise Fakten"] },
     { feature: "Finales Ergebnis", values: ["Rohdaten im Bot-Cache und Server-Logs", "Semantische Einordnung in der globalen Vektordatenbank"] }
   ]}
 />
 
-Der einzige Mechanismus, der das Crawling einer URL aktiv **vorab** verbieten kann, ist die Domain-weite Steuerungsdatei `robots.txt` sowie im KI-Kontext die extrem wichtige `auth.md`. 
-Zwingend zu beachten: Die Datei muss konsequent kleingeschrieben werden (`auth.md`) und als allererste H1-Überschrift exakt `# auth.md` enthalten, um dem Cloudflare Radar Level 5 Standard zu entsprechen. Sieht der Crawler in der robots.txt ein hartes `Disallow: /geheimes-verzeichnis/`, betritt er diesen Pfad gar nicht erst. Er dreht auf dem Fußabtreter um und speichert keinen Fetzen Code. Mehr dazu im Detail in meinem Fachartikel zur [Robots.txt](/glossar/robots-txt/).
+Der einzige Mechanismus, der das Crawling einer URL aktiv **vorab** verbieten kann, ist die Domain-weite Steuerungsdatei `robots.txt` sowie im KI-Kontext die extrem wichtige `maschinenlesbare Endpunkt-Dokumentation`. 
+Zwingend zu beachten: Die Datei muss konsequent kleingeschrieben werden (`maschinenlesbare Endpunkt-Dokumentation`) und als allererste H1-Überschrift exakt `# maschinenlesbare Endpunkt-Dokumentation` enthalten, um dem den höchsten Agent Readiness Standards Standard zu entsprechen. Sieht der Crawler in der robots.txt ein hartes `Disallow: /geheimes-verzeichnis/`, betritt er diesen Pfad gar nicht erst. Er dreht auf dem Fußabtreter um und speichert keinen Fetzen Code. Mehr dazu im Detail in meinem Fachartikel zur [Robots.txt](/glossar/robots-txt/).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mt-0 mb-2">Crawl-Budget 2026: Der heimliche Killer</h4>
@@ -112,11 +112,11 @@ Man sperrt den Bot rigoros **aus** und friert damit den fehlerhaften Zustand im 
 
 ## Agent Readiness: Der alternativlose Weg in die Zukunft
 
-Wer diese Trennschärfe zwischen Crawlen und Indexieren in der Tiefe begreift, dem gehört das Fundament einer extrem robusten KI-Reputation (GEO - Generative Engine Optimization). Das Ziel im Jahr 2026 lautet kompromisslos: **Agent Readiness Level 5**. 
+Wer diese Trennschärfe zwischen Crawlen und Indexieren in der Tiefe begreift, dem gehört das Fundament einer extrem robusten KI-Reputation (GEO - Generative Engine Optimization). Das Ziel im Jahr 2026 lautet kompromisslos: **Agent Readiness höchstes Niveau**. 
 
-Wir blockieren keine KIs aus irrationaler Angst, wir füttern sie effizient und strategisch! Nutze hochmoderne Dateien wie die `llms.txt`, implementiere die `auth.md` für sichere, verifizierte Agentenzugriffe und baue eine perfekte Markdown-Auslieferung. Achte auf jedes Detail, bis hin zu den zwingend erforderlichen Trailing Slashes bei all deinen internen Verlinkungen (z.B. `https://teleschmie.de/kontakt/`), um Redirects zu killen.
+Wir blockieren keine KIs aus irrationaler Angst, wir füttern sie effizient und strategisch! Nutze hochmoderne Dateien wie die `llms.txt`, implementiere die `maschinenlesbare Endpunkt-Dokumentation` für sichere, verifizierte Agentenzugriffe und baue eine perfekte Markdown-Auslieferung. Achte auf jedes Detail, bis hin zu den zwingend erforderlichen Trailing Slashes bei all deinen internen Verlinkungen (z.B. `https://teleschmie.de/kontakt/`), um Redirects zu killen.
 
-Zusätzlich gehört zu einer vollständigen Agent Readiness eine saubere A2A Agent Card. Sie muss zwingend als `agent-card.json` benannt sein und strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entsprechen, inklusive der kritischen Felder `supportedInterfaces`, `capabilities` und `skills`.
+Zusätzlich gehört zu einer vollständigen Agent Readiness eine saubere A2A Agent Card. Sie muss zwingend als `standardisierte Agent-Identity-Schnittstellen` benannt sein und strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entsprechen, inklusive der kritischen Felder `supportedInterfaces`, `capabilities` und `skills`.
 
 ## Dein nächster Schritt
 
@@ -128,7 +128,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Gecrawlt, aber in der KI unsichtbar?</h3>
-  <p class="mb-6">Ich löse deine härtesten Indexierungs-Blockaden und bereite dein System kompromisslos auf Agent Readiness Level 5 vor. Wir etablieren RAG-freundliche Strukturen und Markdown Content Negotiation, damit LLMs deine Fakten priorisieren.</p>
+  <p class="mb-6">Ich löse deine härtesten Indexierungs-Blockaden und bereite dein System kompromisslos auf Agent Readiness höchstes Niveau vor. Wir etablieren RAG-freundliche Strukturen und Markdown Content Negotiation, damit LLMs deine Fakten priorisieren.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-SEO & KI Audit anfragen </a>
 </div>
 

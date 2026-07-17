@@ -6,7 +6,7 @@ date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-geo-audit-3d.webp"
 image_alt: "GEO Audit 3D Infografik - Analyse der KI-Sichtbarkeit und Agent Readiness"
 key_takeaways:
-  - "Level 5 Agent Readiness: Ein echtes GEO Audit 2026 prüft, ob du den höchsten Standard (A2A Protocol, llms.txt, Stateless MCP) erfüllst oder nur HTML-Müll produzierst."
+  - "höchstes Niveau Agent Readiness: Ein echtes GEO Audit 2026 prüft, ob du den höchsten Standard (A2A Protocol, llms.txt, Stateless MCP) erfüllst oder nur HTML-Müll produzierst."
   - "Markdown Negotiation Test: Wir simulieren Agenten-Zugriffe. Wenn dein Server auf 'Accept: text/markdown' mit einer HTML-Fehlerseite oder Footer-Links antwortet, fällst du durch."
   - "Deterministische Analyse: Schluss mit LLM-Ratespielen. Das RankScale GEO Audit misst knallharte Server-Responses, RAG-Chunk-Qualität und MCP-Endpunkt-Latenzen."
 tacheles: 'Ein klassisches SEO-Audit im Jahr 2026 ist reine Zeitverschwendung, wenn du die Agent Readiness Standards ignorierst. Ein modernes GEO Audit ist kein Beauty-Contest für Title-Tags, sondern ein knallharter Infrastruktur-Stresstest für KI-Agenten. Wer keine llms.txt vorweisen kann und beim A2A-Handshake versagt, ist für die Reasoning Engines der Zukunft schlichtweg tot. Wir testen Fakten, keine Eitelkeiten.'
@@ -32,7 +32,7 @@ Ein modernes **GEO Audit** (Generative Engine Optimization Audit) ist dein Werkz
 
 Ein GEO Audit ist ein technischer Stresstest deiner Website-Infrastruktur aus der exakten Perspektive eines hochintelligenten KI-Agenten. Wir schauen nicht mehr auf Keyword-Dichte oder ob die H1-Überschrift sitzt. Das ist Kindergarten. 
 
-Wir prüfen, ob deine Systeme den **Agent Readiness Level 5** erreichen. Das bedeutet, wir simulieren die Requests, die LLMs (wie GPT-5, Claude 3.5 Sonnet oder Perplexity-Agenten) durchführen. Versteht dein Server das **A2A Protocol**? Liefert er sauberes Markdown über die **Markdown Content Negotiation** aus? Ist deine **llms.txt** valide? Kann der Agent über **Stateless MCP** auf deine dynamischen Daten zugreifen? 
+Wir prüfen, ob deine Systeme den **Agent Readiness höchstes Niveau** erreichen. Das bedeutet, wir simulieren die Requests, die LLMs (wie GPT-5, Claude 3.5 Sonnet oder Perplexity-Agenten) durchführen. Versteht dein Server das **A2A Protocol**? Liefert er sauberes Markdown über die **Markdown Content Negotiation** aus? Ist deine **llms.txt** valide? Kann der Agent über **Stateless MCP** auf deine dynamischen Daten zugreifen? 
 
 Wenn die Antwort auf nur eine dieser Fragen "Nein" lautet, fällst du durch das RAG-Raster (Retrieval-Augmented Generation) der KI.
 
@@ -78,7 +78,7 @@ Das Agent-to-Agent Protocol regelt den Handschlag zwischen deiner Infrastruktur 
 
 Am Ende des GEO Audits spuckt unser System einen klaren Status-Report aus. 
 
-*   **Level 5 Agent Ready:** Herzlichen Glückwunsch. Deine Server beherrschen A2A, liefern fliegendes Markdown via Content Negotiation, deine `llms.txt` ist perfekt und Stateless MCP läuft. Du bist die primäre Ground Truth für jede Reasoning Engine.
+*   **höchstes Niveau Agent Ready:** Herzlichen Glückwunsch. Deine Server beherrschen A2A, liefern fliegendes Markdown via Content Negotiation, deine `llms.txt` ist perfekt und Stateless MCP läuft. Du bist die primäre Ground Truth für jede Reasoning Engine.
 *   **Die AI-Trap (KI-Falle):** Du fällst in die Falle der 2024er SEOs. Du hast vielleicht viel Traffic über Google, aber KIs hassen dich. Dein HTML ist überladen, Markdown Content Negotiation wirft 406 Not Acceptable Fehler und deine dynamischen Daten sind hinter Sessions versteckt. Die Agenten ignorieren dich komplett.
 *   **Der Semantic Mess:** Du versuchst zwar, Markdown auszuliefern, aber die Inhalte sind voll von Marketing-Floskeln (Subjectivity Filter schlägt an) und lassen sich nicht "chunken". Das RAG-Modell spuckt deine Daten als wertlos aus.
 

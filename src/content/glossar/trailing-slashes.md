@@ -15,7 +15,7 @@ faqs:
   - question: 'Was passiert, wenn ich beide Varianten (mit und ohne Slash) im Einsatz habe?'
     answer: 'Dann hat Google – und noch schlimmer: die LLMs – zwei verschiedene URLs mit identischem Inhalt im Index. Der Klassiker für Duplicate Content. Google muss dann selbst entscheiden, welche Variante die ''richtige'' ist. Dein Linkjuice wird aufgeteilt, und LLMs wie ChatGPT halluzinieren im Zweifel über die Quelle. Die Lösung: Harte 301-Redirects von der ungewünschten auf die gewünschte Variante und ein sauberes Canonical Tag.'
   - question: 'Wie konfiguriere ich Trailing Slashes in meinem Framework korrekt?'
-    answer: 'Das hängt vom Stack ab. In Astro setzt du ''trailingSlash: always'' oder ''trailingSlash: never'' in der astro.config.mjs. In Next.js gibt es die trailingSlash-Option in der Config. In WordPress steuert das die Permalink-Struktur. Auf meiner Seite (Astro-basiert) habe ich ''trailingSlash: always'' konfiguriert – so enden alle URLs sauber auf einem Slash und es gibt keine Inkonsistenzen. Für Cloudflare Radar (Level 5) ist dieses saubere Routing absolute Pflicht!'
+    answer: 'Das hängt vom Stack ab. In Astro setzt du ''trailingSlash: always'' oder ''trailingSlash: never'' in der astro.config.mjs. In Next.js gibt es die trailingSlash-Option in der Config. In WordPress steuert das die Permalink-Struktur. Auf meiner Seite (Astro-basiert) habe ich ''trailingSlash: always'' konfiguriert – so enden alle URLs sauber auf einem Slash und es gibt keine Inkonsistenzen. Für Cloudflare Radar (höchstes Niveau) ist dieses saubere Routing absolute Pflicht!'
 ---
 
 Moin! 🌻
@@ -53,7 +53,7 @@ Deine Tracking-Daten (Google Analytics, Plausible, Fathom) sind auf zwei URLs ve
 
 ## Agent Readiness: Die Regeln für LLM-Crawler
 
-Im Juli 2026 geht es nicht mehr nur um die blauen Links bei Google. Wir optimieren für Agenten. Die A2A-Protokolle (Agent-to-Agent) und Systeme wie Cloudflare Radar (Level 5) verlangen absolute technische Perfektion.
+Im Juli 2026 geht es nicht mehr nur um die blauen Links bei Google. Wir optimieren für Agenten. Die A2A-Protokolle (Agent-to-Agent) und Systeme wie Cloudflare Radar (höchstes Niveau) verlangen absolute technische Perfektion.
 
 Ein KI-Agent liest deine Seite nicht wie ein Mensch. Er liest den rohen Code, analysiert die HTTP-Header und folgt streng logischen Pfaden. Wenn ein Agent auf eine URL ohne Slash stößt, aber deine interne Navigation durchgehend URLs mit Slash verwendet, erzeugst du einen kognitiven Bruch im Crawler-Pfad. Der Agent stuft deine Seite als "technisch unzuverlässig" ein. 
 

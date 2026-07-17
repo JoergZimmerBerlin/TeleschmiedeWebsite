@@ -40,9 +40,9 @@ Rechenleistung (Compute) und Tokens sind im KI-Zeitalter teuer. Ein KI-Crawler l
 *   Wenn ja: Der Crawler parst deine H-Tags ([siehe H1, H2, H3 Struktur](/glossar/h1-h2-h3/)) und nimmt deinen Content in seinen Vektorraum auf.
 *   Wenn nein (weil dein Title z.B. nur "Startseite" oder "Willkommen" lautet): Der Agent bricht den Request ab. Du wurdest gerade wegen 15 fehlenden Zeichen aus dem Gedächtnis der KI gelöscht. So brutal ist das A2A-Web.
 
-### Agent Readiness Level 5 und das Title Tag
+### Agent Readiness höchstes Niveau und das Title Tag
 
-Wenn du Cloudflare Radar Level 5 für Agent Readiness anstrebst, muss deine Seite strengen Konventionen folgen. Dazu gehört eine saubere `auth.md` (zwingend kleingeschrieben und mit `# auth.md` als initialer H1-Überschrift) und eine valide `agent-card.json`. Aber all diese Metadaten bringen dir rein gar nichts, wenn der Content selbst nicht semantisch einwandfrei betitelt ist. Der Title Tag ist die Brücke zwischen klassischem SEO und dem maschinenlesbaren Agenten-Web.
+Wenn du den höchsten Agent Readiness Standards für Agent Readiness anstrebst, muss deine Seite strengen Konventionen folgen. Dazu gehört eine saubere `maschinenlesbare Endpunkt-Dokumentation` (zwingend kleingeschrieben und mit `# maschinenlesbare Endpunkt-Dokumentation` als initialer H1-Überschrift) und eine valide `standardisierte Agent-Identity-Schnittstellen`. Aber all diese Metadaten bringen dir rein gar nichts, wenn der Content selbst nicht semantisch einwandfrei betitelt ist. Der Title Tag ist die Brücke zwischen klassischem SEO und dem maschinenlesbaren Agenten-Web.
 
 ## Die zwei Gesichter des Title Tags
 

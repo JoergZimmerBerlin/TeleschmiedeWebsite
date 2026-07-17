@@ -31,12 +31,12 @@ Ein vernünftiger Audit geht weit über oberflächliche Metriken hinaus, die jed
 
 ### 1. Agent Readiness: Das absolute Fundament
 
-Der mit Abstand wichtigste Teil eines SEO Audits im Jahr 2026 ist die Überprüfung der Agent Readiness. Wer Level 5 (Cloudflare Radar Standards) nicht erreicht, wird von den großen LLMs (Large Language Models) schlichtweg ignoriert.
+Der mit Abstand wichtigste Teil eines SEO Audits im Jahr 2026 ist die Überprüfung der Agent Readiness. Wer höchstes Niveau (Cloudflare Radar Standards) nicht erreicht, wird von den großen LLMs (Large Language Models) schlichtweg ignoriert.
 
 *   **Die llms.txt:** Wir prüfen, ob deine `/llms.txt` sauber im Root-Verzeichnis liegt. Ist sie semantisch korrekt aufgebaut? Verlinkt sie auf die richtigen detaillierten Markdown-Dateien? Die `llms.txt` ist das neue Inhaltsverzeichnis für KI-Crawler. Wer sie nicht hat, dessen Inhalte werden von OpenAI, Anthropic und Google oft nur bruchstückhaft verarbeitet.
 *   **Markdown Negotiation:** Wenn ein Agent mit dem Header `Accept: text/markdown` auf deine URL zugreift, was bekommt er? Wir auditieren deine Endpunkte daraufhin, ob sie sauberes, valides Markdown ausliefern. Keine überladenen HTML-DOM-Bäume voller Werbeskripte, sondern pure, strukturierte Informationen. Ein Audit deckt auf, ob deine serverseitige Content Negotiation wirklich funktioniert.
 *   **A2A-Endpunkte (Agent-to-Agent):** Besitzt deine Website standardisierte A2A-Endpunkte? Können andere Agenten via API direkt mit deiner Seite interagieren, Bestände abfragen oder Buchungen vornehmen? Wir prüfen die Authentifizierung und die Dokumentation deiner Agenten-Schnittstellen.
-*   **Auth.md und Agent Cards:** Liegt deine `auth.md` korrekt vor? Entspricht deine `agent-card.json` dem Schema des A2A-Protocols v1.0? Wir validieren die JSON-Strukturen bis ins letzte Detail.
+*   **maschinenlesbare Endpunkt-Dokumentation und Agent Cards:** Liegt deine `maschinenlesbare Endpunkt-Dokumentation` korrekt vor? Entspricht deine `standardisierte Agent-Identity-Schnittstellen` dem Schema des A2A-Protocols v1.0? Wir validieren die JSON-Strukturen bis ins letzte Detail.
 
 ### 2. Technik-Fundament & Core Web Vitals
 
@@ -76,7 +76,7 @@ Wir rufen `/llms.txt` auf. Ist die Datei vorhanden? Ist sie maschinenlesbar? Ver
 Ich sende HTTP-Requests mit unterschiedlichen `Accept`-Headern an deine URLs. Wenn ich `Accept: text/html` sende, erwarte ich deine schöne, schnelle Website. Wenn ich `Accept: text/markdown` sende, erwarte ich sauberes, valides Markdown. Kein HTML, keine Navigation, nur purer Content. Wenn dein Server das nicht sauber trennen kann (z.B. über Cloudflare Workers oder deine Backend-Logik), fällst du im Audit gnadenlos durch.
 
 ### API und A2A-Protokolle
-Wir prüfen deine `agent-card.json`. Sind die Endpunkte erreichbar? Werden die Rate Limits eingehalten? Ist die Dokumentation in der `auth.md` so verständlich, dass ein fremder Agent sie parsen und verstehen kann, um sich bei dir zu authentifizieren? In einer Welt, in der Agenten B2B-Einkäufe selbstständig tätigen, ist dies überlebenswichtig.
+Wir prüfen deine `standardisierte Agent-Identity-Schnittstellen`. Sind die Endpunkte erreichbar? Werden die Rate Limits eingehalten? Ist die Dokumentation in der `maschinenlesbare Endpunkt-Dokumentation` so verständlich, dass ein fremder Agent sie parsen und verstehen kann, um sich bei dir zu authentifizieren? In einer Welt, in der Agenten B2B-Einkäufe selbstständig tätigen, ist dies überlebenswichtig.
 
 ## Wann du zwingend einen Experten-Check brauchst
 

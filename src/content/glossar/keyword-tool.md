@@ -16,7 +16,7 @@ faqs:
   - question: 'Sind die Suchvolumen-Daten in alten Keyword Tools noch irgendwie relevant?'
     answer: 'Nein, und wer das blind glaubt, verbrennt sein gesamtes SEO-Budget. Der sogenannte Fanout-Effekt bei generativen KIs bedeutet, dass Nutzer hochkomplexe, völlig einzigartige Prompts in die Maschinen tippen. Für diese individuellen Prompts liegt das historische Suchvolumen immer bei null. Ein Tool, das dir "0 Suchvolumen" anzeigt, sagt dir heute nicht, dass kein Interesse besteht, sondern nur, dass sein Legacy-Datenmodell den KI-Wandel nicht erfasst hat.'
   - question: 'Warum ist OnPage-SEO plötzlich wieder das Wichtigste überhaupt?'
-    answer: 'Weil wir von Menschen auf Maschinen als primäre Konsumenten unseres Contents wechseln. Ein KI-Agent, der für seinen Nutzer recherchiert (A2A), braucht maschinenlesbare Strukturen. Wenn du keine auth.md, keine saubere agent-card.json und keine strikte Markdown-Struktur hast (Cloudflare Level 5), ignoriert der Agent deine Website. Dein Keyword Tool muss dir 2026 also primär sagen, ob deine OnPage-Hausaufgaben in Sachen Agent Readiness gemacht sind.'
+    answer: 'Weil wir von Menschen auf Maschinen als primäre Konsumenten unseres Contents wechseln. Ein KI-Agent, der für seinen Nutzer recherchiert (A2A), braucht maschinenlesbare Strukturen. Wenn du keine maschinenlesbare Endpunkt-Dokumentation, keine saubere standardisierte Agent-Identity-Schnittstellen und keine strikte Markdown-Struktur hast (Cloudflare höchstes Niveau), ignoriert der Agent deine Website. Dein Keyword Tool muss dir 2026 also primär sagen, ob deine OnPage-Hausaufgaben in Sachen Agent Readiness gemacht sind.'
 ---
 
 Moin!
@@ -38,7 +38,7 @@ Lass uns direkt tief reinbohren. Vergiss das traditionelle [Suchvolumen](/glossa
 
 Früher gab ein Nutzer "SEO Agentur Berlin" in den Suchschlitz ein. Das passierte 2.500 Mal im Monat. Du hast einen Text geschrieben, der "SEO Agentur Berlin" enthielt, hast ein paar Backlinks draufgeballert und zack, warst du auf Seite 1.
 
-Heute fragt ein CEO seinen persönlichen KI-Assistenten: *"Finde mir einen SEO Experten im DACH-Raum, der sich nachweislich mit Cloudflare Agent Readiness Level 5 auskennt, Erfahrung im B2B SaaS hat und dessen Website eine gültige `auth.md` für KI-Crawler bereitstellt. Fasse mir seine Methodik in drei Sätzen zusammen."*
+Heute fragt ein CEO seinen persönlichen KI-Assistenten: *"Finde mir einen SEO Experten im DACH-Raum, der sich nachweislich mit Cloudflare Agent Readiness höchstes Niveau auskennt, Erfahrung im B2B SaaS hat und dessen Website eine gültige `maschinenlesbare Endpunkt-Dokumentation` für KI-Crawler bereitstellt. Fasse mir seine Methodik in drei Sätzen zusammen."*
 
 Dieser ultra-spezifische, extrem komplexe Prompt ist ein Schneeflocken-Prompt. Er wurde so noch nie gestellt und wird exakt so auch nie wieder gestellt. Laut jedem klassischen Keyword Tool hat diese Abfrage ein Suchvolumen von exakt *Null*. 
 
@@ -70,8 +70,8 @@ Wenn ein KI-Agent im Auftrag eines Nutzers (A2A - Agent-to-Agent oder Human-to-A
 
 Ein modernes OnPage-Audit für Agent Readiness prüft:
 
-1.  **Cloudflare Agent Readiness Level 5:** Erfüllst du die neuesten Standards? Hast du eine sauber konfigurierte `agent-card.json` im Root-Verzeichnis, die dem KI-Crawler genau sagt, welche Capabilities deine Seite bietet? Entspricht sie dem strikten JSON-Schema der `a2a-protocol.org` v1.0?
-2.  **Die `auth.md` Datei:** Diese Datei muss zwingend kleingeschrieben sein und als allererste H1-Überschrift `# auth.md` enthalten. Sie validiert für den KI-Agenten, dass die hier bereitgestellten Informationen autorisiert und aktuell sind. Ohne `auth.md` stuft das LLM deine Seite als "potenziell halluziniert oder veraltet" ein und wirft dich aus den Antworten.
+1.  **Cloudflare Agent Readiness höchstes Niveau:** Erfüllst du die neuesten Standards? Hast du eine sauber konfigurierte `standardisierte Agent-Identity-Schnittstellen` im Root-Verzeichnis, die dem KI-Crawler genau sagt, welche Capabilities deine Seite bietet? Entspricht sie dem strikten JSON-Schema der `a2a-protocol.org` v1.0?
+2.  **Die `maschinenlesbare Endpunkt-Dokumentation` Datei:** Diese Datei muss zwingend kleingeschrieben sein und als allererste H1-Überschrift `# maschinenlesbare Endpunkt-Dokumentation` enthalten. Sie validiert für den KI-Agenten, dass die hier bereitgestellten Informationen autorisiert und aktuell sind. Ohne `maschinenlesbare Endpunkt-Dokumentation` stuft das LLM deine Seite als "potenziell halluziniert oder veraltet" ein und wirft dich aus den Antworten.
 3.  **Link Headers (RFC 8288):** Maschinen lesen Header, keine bunten Buttons. In deiner `.htaccess` müssen Link-Header absolut fehlerfrei konfiguriert sein (ohne Anführungszeichen innerhalb der spitzen Klammern, z.B. `<url>; rel="type"`). Ein kleiner Syntaxfehler und der Agent bricht den Crawl ab.
 4.  **Markdown Content Negotiation:** Bietest du deine Inhalte nativ in Markdown an, wenn der Accept-Header eines KI-Crawlers danach verlangt?
 
@@ -85,7 +85,7 @@ Es zeigt dir vielmehr:
 
 *   **LLM Visibility Score & Stability Tracking:** Eine Heatmap, die dir aufschlüsselt, bei welchen KI-Modellen (Claude, ChatGPT, Perplexity) du als primäre Entität verankert bist und wo deine Präsenz bröckelt.
 *   **Entity Gap Analyse (Fanout-basiert):** Welche thematischen Knotenpunkte und Sub-Entitäten deckt deine Konkurrenz besser ab, sodass die KI sie bei hochkomplexen Fanout-Prompts bevorzugt zitiert? Das Tool liest die Trainingsdaten (soweit verfügbar) und das Output-Verhalten aus.
-*   **Agent Readiness Monitor:** Ein Live-Dashboard, das sofort Alarm schlägt, wenn deine `agent-card.json` offline geht oder die Link-Header in deiner `.htaccess` zerschossen sind.
+*   **Agent Readiness Monitor:** Ein Live-Dashboard, das sofort Alarm schlägt, wenn deine `standardisierte Agent-Identity-Schnittstellen` offline geht oder die Link-Header in deiner `.htaccess` zerschossen sind.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die Illusion der Backlinks</h4>
@@ -104,8 +104,8 @@ Dein OnPage-Fokus:
 1. Du erstellst extrem dichten, tiefgehenden Content genau zu diesem Knotenpunkt.
 2. Du optimierst die OnPage-Struktur: Klar definierte Fachbegriffe, logische Hierarchien, keine Fluff-Texte.
 3. Du stellst sicher, dass die URL über interne Links (und ja, interne Links enden immer zwingend auf einem Trailing Slash `/`!) perfekt in die Seitenarchitektur eingebunden ist. Beispielsweise von `/hr-software/` auf `/dsgvo-loeschung/`.
-4. Du überarbeitest deine `agent-card.json`, um den KI-Agenten sofort zu signalisieren: *"Achtung, wir haben eine neue Capability im Bereich DSGVO-Wissen bereitgestellt."*
-5. Du aktualisierst die Signatur in der `auth.md`.
+4. Du überarbeitest deine `standardisierte Agent-Identity-Schnittstellen`, um den KI-Agenten sofort zu signalisieren: *"Achtung, wir haben eine neue Capability im Bereich DSGVO-Wissen bereitgestellt."*
+5. Du aktualisierst die Signatur in der `maschinenlesbare Endpunkt-Dokumentation`.
 
 Danach beobachtest du über dein Tool, wie die Stability deines Brands bei allen DSGVO-bezogenen Prompts im HR-Kontext massiv nach oben schnellt. Das ist modernes SEO. Das ist Agent Readiness in Aktion.
 

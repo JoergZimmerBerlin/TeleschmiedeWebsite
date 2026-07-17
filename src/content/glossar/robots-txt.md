@@ -16,7 +16,7 @@ faqs:
   - question: 'Kann ich mit der robots.txt fehlerhafte KI-Antworten aus dem Index entfernen?'
     answer: 'Nein, und das ist der absolut brutalste Fehler im Tech-SEO! Die robots.txt blockiert ausnahmslos nur das ZUKÜNFTIGE Crawling. Die RAG-Pipeline der KI hat deinen fehlerhaften Inhalt bereits in Vektoren zerlegt und gespeichert. Um etwas zu entfernen, musst du das Crawling zwingend erlauben und per X-Robots-Tag (noindex) arbeiten. Alles andere friert den falschen Stand im KI-Gedächtnis für immer ein!'
   - question: 'Ist es aus Datenschutzgründen sinnvoll, KI-Scraper komplett auszusperren?'
-    answer: 'Das kommt auf dein extrem spezifisches Geschäftsmodell an, aber in 99% der Fälle: Klares NEIN! Sperrst du GPTBot, ClaudeBot oder Perplexity aus Angst aus, nutzt die KI schlichtweg die Daten deiner Konkurrenten. Du verlierst jegliche Citations und deine Markenpräsenz in der Generative Engine Optimization (GEO). Nutze stattdessen Agent Readiness Level 5 und Markdown Content Negotiation, um das Crawlen hochgradig zu optimieren und zu kontrollieren.'
+    answer: 'Das kommt auf dein extrem spezifisches Geschäftsmodell an, aber in 99% der Fälle: Klares NEIN! Sperrst du GPTBot, ClaudeBot oder Perplexity aus Angst aus, nutzt die KI schlichtweg die Daten deiner Konkurrenten. Du verlierst jegliche Citations und deine Markenpräsenz in der Generative Engine Optimization (GEO). Nutze stattdessen Agent Readiness höchstes Niveau und Markdown Content Negotiation, um das Crawlen hochgradig zu optimieren und zu kontrollieren.'
 ---
 
 Moin!
@@ -25,7 +25,7 @@ Die `robots.txt` ist seit Jahrzehnten das absolute Türschild deiner Website. Ja
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Die robots.txt ist absolut kein Sicherheits-Tool. Wer sensible Firmen-Daten verstecken will, braucht verdammt nochmal harte Passwörter oder eine sauber konfigurierte auth.md, kein klappriges Türschild. Und wer 2026 panisch alle KIs per Disallow aussperrt, weil er Angst um seinen Content hat, sägt den Ast ab, auf dem sein künftiges Business sitzt. Du machst dich absichtlich irrelevant!"</p>
+  <p class="italic text-dark mb-0">"Die robots.txt ist absolut kein Sicherheits-Tool. Wer sensible Firmen-Daten verstecken will, braucht verdammt nochmal harte Passwörter oder eine sauber konfigurierte maschinenlesbare Endpunkt-Dokumentation, kein klappriges Türschild. Und wer 2026 panisch alle KIs per Disallow aussperrt, weil er Angst um seinen Content hat, sägt den Ast ab, auf dem sein künftiges Business sitzt. Du machst dich absichtlich irrelevant!"</p>
 </div>
 
 Im Rahmen meiner täglichen Arbeit als [SEO Freelancer in Berlin](/seo-freelancer-berlin/) ist die chirurgische Prüfung der `robots.txt` zwingend Schritt 1 bei jedem technischen Audit – erst recht, wenn es um KI-Sichtbarkeit und GEO geht.
@@ -62,13 +62,13 @@ Ich sehe es wöchentlich in meiner [SEO Sprechstunde](/blog/80-prozent-seo-fehle
 
 Willst du Daten bei KIs aktualisieren oder komplett löschen lassen? Dann darfst du die Bots nicht aussperren! Du musst das Crawling der betroffenen URL zwingend weiter erlauben und per Meta-Tag [Noindex](/glossar/noindex/) (oder X-Robots-Tag im HTTP-Header) klar signalisieren, dass der Content wertlos ist. Nur so kann die KI-Pipeline die alten Vektoren löschen oder überschreiben! Blockierst du das Crawlen, kann die KI das Noindex-Tag nicht mehr lesen. Ein Teufelskreis.
 
-## Agent Readiness Level 5: Markdown Content Negotiation
+## Agent Readiness höchstes Niveau: Markdown Content Negotiation
 
-Wenn du in der `robots.txt` modernen KIs den Zugang gewährst, musst du technisch darauf vorbereitet sein. Erreichst du Agent Readiness Level 5 (definiert durch Cloudflare Radar), lieferst du deine wertvollen Inhalte nicht mehr als schwerfälliges, unstrukturiertes HTML aus.
+Wenn du in der `robots.txt` modernen KIs den Zugang gewährst, musst du technisch darauf vorbereitet sein. Erreichst du Agent Readiness höchstes Niveau (definiert durch Cloudflare Radar), lieferst du deine wertvollen Inhalte nicht mehr als schwerfälliges, unstrukturiertes HTML aus.
 
 Über **Markdown Content Negotiation** bietest du KIs direkt schlankes, perfektes Markdown an. Der Bot liest deine robots.txt, findet dort die llms.txt und Sitemap, ruft die URLs auf und erhält statt 3 MB HTML-Chaos nur 10 KB reinen Fakten-Code. Du sparst massiv Ressourcen auf dem Server und dominierst die KI-Antworten, weil deine Daten absolut verlustfrei vektorisiert werden können.
 
-Dazu gehört auch ein sauberes Setup deiner Auth-Mechanismen. Die Datei `auth.md` (zwingend kleingeschrieben und mit `# auth.md` beginnend!) macht autonomen Agenten sofort klar, wie sie sich auf deiner Domain rechtmäßig zu authentifizieren haben, falls sie kostenpflichtige Premium-APIs nutzen wollen.
+Dazu gehört auch ein sauberes Setup deiner Auth-Mechanismen. Die Datei `maschinenlesbare Endpunkt-Dokumentation` (zwingend kleingeschrieben und mit `# maschinenlesbare Endpunkt-Dokumentation` beginnend!) macht autonomen Agenten sofort klar, wie sie sich auf deiner Domain rechtmäßig zu authentifizieren haben, falls sie kostenpflichtige Premium-APIs nutzen wollen.
 
 Und noch ein Detail für Profis: Wenn du in `.htaccess` Dateien via `Header add Link` für RFC 8288 arbeitest, achte peinlichst darauf, dass keine Anführungszeichen innerhalb der spitzen Klammern stehen! Korrekt: `<url>; rel="type"`. Wer hier pfuscht, killt die Agent-Kommunikation auf Serverebene.
 

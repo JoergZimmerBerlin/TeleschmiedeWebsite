@@ -87,7 +87,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Hast du Duplicate Content Probleme?</h3>
-  <p class="mb-6 text-gray-muted">Deine Rankings treten auf der Stelle? KI-Bots ignorieren dich oder zitieren kaputte URLs? Ich räume dein technisches Setup kompromisslos auf. Wir bringen deine Agent Readiness auf Level 5.</p>
+  <p class="mb-6 text-gray-muted">Deine Rankings treten auf der Stelle? KI-Bots ignorieren dich oder zitieren kaputte URLs? Ich räume dein technisches Setup kompromisslos auf. Wir bringen deine Agent Readiness auf höchstes Niveau.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Technik-Check anfragen</a>
 </div>
 

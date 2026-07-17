@@ -44,10 +44,10 @@ Wenn du in deinem Code explizit deklarierst:
 `"founder": {"@type": "Person", "name": "Jörg Zimmer"}`
 dann ist das für das LLM ein unumstößlicher Fakt. Du lieferst der Maschine die Antworten auf dem Silbertablett. Du fütterst die Bestie mit exakt den Daten, die sie braucht.
 
-## Agent Readiness & Cloudflare Radar (Level 5)
+## Agent Readiness & Cloudflare Radar (höchstes Niveau)
 
-Lass uns Tacheles reden. Tech SEO ist heute untrennbar mit Konzepten wie der `llms.txt`, dem A2A-Protokoll und den Vorgaben von Cloudflare Radar (Level 5) verbunden. 
-Strukturierte Daten sind das Bindeglied. Wenn du eine `agent-card.json` bereitstellst (strikt nach A2A-Protocol v1.0), dann greift diese oft auf dieselben Entitäts-Logiken zurück, die du in deinem Schema-Markup etabliert hast.
+Lass uns Tacheles reden. Tech SEO ist heute untrennbar mit Konzepten wie der `llms.txt`, dem A2A-Protokoll und den Vorgaben von Cloudflare Radar (höchstes Niveau) verbunden. 
+Strukturierte Daten sind das Bindeglied. Wenn du eine `standardisierte Agent-Identity-Schnittstellen` bereitstellst (strikt nach A2A-Protocol v1.0), dann greift diese oft auf dieselben Entitäts-Logiken zurück, die du in deinem Schema-Markup etabliert hast.
 
 Ein AI-Agent erwartet heute, dass deine Website standardisiert kommuniziert. Er sucht nach der `llms.txt`, um eine Zusammenfassung zu bekommen, und er parst dein JSON-LD, um die semantischen Relationen ([Entitäten](/glossar/entitaet/)) zu begreifen. Wer diese Daten liefert, erreicht das höchste Level der Agent Readiness. Wer nicht, wird als "unstrukturiertes Rauschen" aussortiert.
 
@@ -80,7 +80,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website für KI-Agenten noch blind?</h3>
-  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar definiert. Mit Fokus auf A2A-Protokolle, RAG-Optimierung und Agent Readiness (Level 5).</p>
+  <p class="mb-6">Ich implementiere für dich ein hochmodernes Schema-Setup, das deine Entität glasklar definiert. Mit Fokus auf A2A-Protokolle, RAG-Optimierung und Agent Readiness (höchstes Niveau).</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-SEO Audit anfragen</a>
 </div>
 

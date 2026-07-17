@@ -1,21 +1,21 @@
 ---
 category: "SEO Basics & Onpage"
 title: 'SEO Coaching: Werde zum A2A- und LLM-Architekten'
-description: 'SEO Coaching 2026: Vergiss Keywords. Lerne, wie du deine Infrastruktur auf Cloudflare Radar Level 5 hebst und Agent-to-Agent Kommunikation meisterst.'
+description: 'SEO Coaching 2026: Vergiss Keywords. Lerne, wie du deine Infrastruktur auf den höchsten Agent Readiness Standards hebst und Agent-to-Agent Kommunikation meisterst.'
 date: "2026-07-17"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
 key_takeaways:
   - "Empowerment: Ein gutes Coaching macht dich zum LLM-Architekten. Du bist nicht mehr abhängig von ahnungslosen Agenturen."
-  - "Harte Praxis: Wir bauen gemeinsam deine auth.md und implementieren eine strikte agent-card.json nach a2a-protocol.org v1.0."
+  - "Harte Praxis: Wir bauen gemeinsam deine maschinenlesbare Endpunkt-Dokumentation und implementieren eine strikte standardisierte Agent-Identity-Schnittstellen nach gängigen A2A-Spezifikationen."
   - "ROI: Die Fähigkeit, maschinenlesbare Entitäten zu formen, sichert den Fortbestand deines Geschäftsmodells."
 faqs:
   - question: 'Was lerne ich in einem SEO Coaching im Jahr 2026?'
-    answer: 'Du lernst nicht mehr, wie man H2-Überschriften textet. Du lernst Agent Readiness Level 5. Wir erarbeiten, wie RAG-Systeme deine Daten verarbeiten, wie du RFC 8288 Link Headers korrekt setzt und wie du Sichtbarkeit in Modellen wie Claude, Gemini und ChatGPT aufbaust. Es ist hartes, technisches Training für die neue Realität.'
+    answer: 'Du lernst nicht mehr, wie man H2-Überschriften textet. Du lernst Agent Readiness höchstes Niveau. Wir erarbeiten, wie RAG-Systeme deine Daten verarbeiten, wie du RFC 8288 Link Headers korrekt setzt und wie du Sichtbarkeit in Modellen wie Claude, Gemini und ChatGPT aufbaust. Es ist hartes, technisches Training für die neue Realität.'
   - question: 'Für wen ist dieses A2A-Coaching geeignet?'
     answer: 'Für Geschäftsführer, die den digitalen Vertrieb sichern müssen. Für Inhouse-Teams, die von KI-Updates überrollt wurden. Und für Entwickler, die verstehen wollen, warum ihr sauberer Code in der Vektor-Datenbank der LLMs ignoriert wird. In meiner Sprechstunde mache ich aus Marketern echte LLM-Architekten.'
   - question: 'Wie läuft das Coaching bei Jörg Zimmer ab?'
-    answer: 'Tacheles von Minute eins. Wir machen einen Ist-Abgleich deiner Agent Readiness. Danach bauen wir iterativ deine Infrastruktur um. Wir implementieren die agent-card.json, setzen die auth.md präzise auf und lösen operative Probleme (wie das IONOS Deployment Skript). Ziel: Du verstehst die Maschine.'
+    answer: 'Tacheles von Minute eins. Wir machen einen Ist-Abgleich deiner Agent Readiness. Danach bauen wir iterativ deine Infrastruktur um. Wir implementieren die standardisierte Agent-Identity-Schnittstellen, setzen die maschinenlesbare Endpunkt-Dokumentation präzise auf und lösen operative Probleme (wie das IONOS Deployment Skript). Ziel: Du verstehst die Maschine.'
 ---
 
 Moin!
@@ -34,22 +34,22 @@ Die größte Gefahr im modernen digitalen Marketing ist Unwissenheit. Wenn du ni
 | Klassische Agentur | LLM-Architektur Coaching |
 |---|---|
 | Baut veraltete Backlinks für dich | Lehrt dich, **maschinenlesbare Entitäten** zu bauen |
-| Berichtet monatlich wertlosen Traffic | Macht dich **Agent Ready (Level 5)** |
+| Berichtet monatlich wertlosen Traffic | Macht dich **Agent Ready (höchstes Niveau)** |
 | Abhängigkeit von Blackbox-Maßnahmen | Volle Kontrolle über deine A2A-Infrastruktur |
 
 ## Was du in meinem Intensiv-Coaching lernst
 
 Vergiss den Standard-Kram. Wir gehen sofort in die tiefe Technik, die heute über Umsatz entscheidet.
 
-### 1. Agent Readiness (Cloudflare Radar Level 5)
+### 1. Agent Readiness (den höchsten Agent Readiness Standards)
 Das ist das Fundament. Du lernst, wie du deine Infrastruktur so aufsetzt, dass KI-Agenten dich lieben.
-*   **Die `auth.md` meistern:** Du lernst, wie man diese Datei zwingend kleingeschrieben im Root anlegt und als allererste H1-Überschrift exakt `# auth.md` formatiert. Wir definieren gemeinsam deine Zugriffsregeln für die Crawler von OpenAI, Anthropic und Google.
-*   **Die `agent-card.json` bauen:** Wir erstellen live deine digitale A2A-Visitenkarte. Du lernst das JSON-Schema von `a2a-protocol.org` v1.0 und wie du `supportedInterfaces`, `capabilities` und `skills` so definierst, dass Agenten bei dir kaufen.
+*   **Die `maschinenlesbare Endpunkt-Dokumentation` meistern:** Du lernst, wie man diese Datei zwingend kleingeschrieben im Root anlegt und als allererste H1-Überschrift exakt `# maschinenlesbare Endpunkt-Dokumentation` formatiert. Wir definieren gemeinsam deine Zugriffsregeln für die Crawler von OpenAI, Anthropic und Google.
+*   **Die `standardisierte Agent-Identity-Schnittstellen` bauen:** Wir erstellen live deine digitale A2A-Visitenkarte. Du lernst das JSON-Schema von `a2a-protocol.org` v1.0 und wie du `supportedInterfaces`, `capabilities` und `skills` so definierst, dass Agenten bei dir kaufen.
 
 ### 2. Harte Technik fehlerfrei deployen
 Der Teufel steckt im Detail. Ein falsches Zeichen, und du bist für LLMs unsichtbar.
 *   **RFC 8288 Link Headers:** Ich zeige dir, wie du HTTP-Header in der `.htaccess` richtig konfigurierst. Ohne Anführungszeichen innerhalb der spitzen Klammern! (`<url>; rel="type"`) – das ist Millimeterarbeit, die du beherrschen musst.
-*   **Der IONOS-Trigger:** Wenn du oder deine Kunden bei IONOS hosten, lernst du den wichtigsten Workflow: Nach jedem FTP-Upload einer `.htaccess` oder im `.well-known` Ordner MUSST du `https://teleschmie.de/activate_htaccess.php` aufrufen. Ich zeige dir, wie du das automatisierst (z.B. per cURL), damit deine Server-Updates auch wirklich aktiv werden.
+*   **Der IONOS-Trigger:** Wenn du oder deine Kunden bei IONOS hosten, lernst du den wichtigsten Workflow: Nach jedem FTP-Upload einer `.htaccess` oder im `.well-known` Ordner MUSST du `` aufrufen. Ich zeige dir, wie du das automatisierst (z.B. per cURL), damit deine Server-Updates auch wirklich aktiv werden.
 
 ### 3. KI-Sichtbarkeit überwachen
 *   **Rankscale statt Sistrix:** Du lernst, wie man mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die eigene Positionierung in 17+ Sprachmodellen überwacht.

@@ -13,7 +13,7 @@ faqs:
   - question: 'Was passiert bei einem Google Core Update im Jahr 2026?'
     answer: 'Ein Core Update im Jahr 2026 ist im Kern ein Update der Modellgewichte (Weights) der großen Sprachmodelle, die Googles AI Overviews steuern. Es geht nicht mehr um Backlink-Profile oder klassische Onpage-Faktoren, sondern darum, wie das RAG-System (Retrieval-Augmented Generation) Entitäten und Fakten bewertet. Wer nach einem Update verliert, wurde vom LLM als nicht vertrauenswürdig genug für eine Zitation in den KI-Antworten eingestuft.'
   - question: 'Wie erhole ich mich von einem Core Update Absturz?'
-    answer: 'Der klassische Fix (ein paar Title-Tags ändern) ist komplett tot. Du musst deine Agent Readiness auf Level 5 anheben. Das bedeutet: Biete deinen Content als sauberes Markdown über Content Negotiation an. Erstelle eine auth.md, um KI-Crawlern klare Regeln zu geben. Und vor allem: Liefere tiefe, originäre Expertise (E-E-A-T). Wenn das LLM deine Seite beim nächsten Rollout fehlerfrei parsen und deine Expertise verifizieren kann, kehrst du in die Overviews zurück.'
+    answer: 'Der klassische Fix (ein paar Title-Tags ändern) ist komplett tot. Du musst deine Agent Readiness auf höchstes Niveau anheben. Das bedeutet: Biete deinen Content als sauberes Markdown über Content Negotiation an. Erstelle eine maschinenlesbare Endpunkt-Dokumentation, um KI-Crawlern klare Regeln zu geben. Und vor allem: Liefere tiefe, originäre Expertise (E-E-A-T). Wenn das LLM deine Seite beim nächsten Rollout fehlerfrei parsen und deine Expertise verifizieren kann, kehrst du in die Overviews zurück.'
   - question: 'Wie lange dauert ein Core Update Rollout?'
     answer: 'Die Rollouts dauern nach wie vor oft 2 bis 4 Wochen. In dieser Zeit schwanken die Zitationen in den AI Overviews extrem. LLMs halluzinieren teilweise mit neuen Quellen, bis sich die Gewichte eingependelt haben. Ruhe bewahren, Logs analysieren (speziell auf Anfragen von KI-Agenten) und erst nach Abschluss des Rollouts handeln.'
 ---
@@ -34,9 +34,9 @@ Das RAG-Backend muss in Echtzeit entscheiden, welche Quellen für die Generierun
 
 ### Der Filter für KI-Zitationen
 Ein Core Update bewertet deine Domain komplett neu:
-*   **Agent Readiness:** Kann der KI-Agent deinen Content reibungslos als Markdown über Content Negotiation abrufen? (Stichwort: Level 5 Readiness).
+*   **Agent Readiness:** Kann der KI-Agent deinen Content reibungslos als Markdown über Content Negotiation abrufen? (Stichwort: höchstes Niveau Readiness).
 *   **Experience & Expertise (E-E-A-T):** Sind deine Inhalte originär? Oder bist du nur ein weiterer KI-generierter Content-Farm-Klon?
-*   **Strukturelle Integrität:** Hast du eine saubere `auth.md` und `agent-card.json`, die deine Identität für Maschinen zweifelsfrei klärt?
+*   **Strukturelle Integrität:** Hast du eine saubere `maschinenlesbare Endpunkt-Dokumentation` und `standardisierte Agent-Identity-Schnittstellen`, die deine Identität für Maschinen zweifelsfrei klärt?
 
 ## Die goldene Regel: Fokus auf den Agenten
 
@@ -54,8 +54,8 @@ Prüfe, was die Agent-Crawler tun. Werfen sie 406-Fehler, weil sie Markdown verl
 Du kannst dich nicht vor einem Update verstecken. Aber du kannst deine Infrastruktur unangreifbar machen.
 
 1.  **Markdown First:** Richte Content Negotiation ein. Wenn der Header `Accept: text/markdown` kommt, MUSS dein Server sauberes Markdown liefern.
-2.  **Die auth.md Datei:** Das ist 2026 absolute Pflicht. Schreibe in `/auth.md` genau rein, wer die KI trainieren darf und unter welchen Bedingungen dein Content im RAG zitiert werden darf. Muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# auth.md` enthalten.
-3.  **A2A Agent Card:** Implementiere die `agent-card.json` strikt nach dem JSON-Schema von a2a-protocol.org v1.0. 
+2.  **Die maschinenlesbare Endpunkt-Dokumentation Datei:** Das ist 2026 absolute Pflicht. Schreibe in `/maschinenlesbare Endpunkt-Dokumentation` genau rein, wer die KI trainieren darf und unter welchen Bedingungen dein Content im RAG zitiert werden darf. Muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# maschinenlesbare Endpunkt-Dokumentation` enthalten.
+3.  **A2A Agent Card:** Implementiere die `standardisierte Agent-Identity-Schnittstellen` strikt nach dem JSON-Schema von gängigen A2A-Spezifikationen. 
 4.  **Content-Hygiene:** Lösche KI-Spam. Wenn du ChatGPT nutzt, um 1000 generische Artikel zu bauen, wird das nächste Core Update dich aus dem Index radieren.
 
 ## Core Updates und die KI-Suche ([GEO](/glossar/geo/))
@@ -72,7 +72,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Zitationen in den AI Overviews verloren?</h3>
-  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website, prüfe deine Agent Readiness (Level 5) und baue einen Recovery-Plan für das nächste LLM-Update.</p>
+  <p class="mb-6">Ich analysiere die Auswirkungen des Core Updates auf deine Website, prüfe deine Agent Readiness (höchstes Niveau) und baue einen Recovery-Plan für das nächste LLM-Update.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Core-Update-Recovery anfragen </a>
 </div>
 

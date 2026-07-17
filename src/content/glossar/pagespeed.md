@@ -9,14 +9,14 @@ related_terms: ["core-web-vitals", "noindex"]
 key_takeaways:
   - "Timeout = Totalschaden: LLM-Agenten im A2A Protocol brechen bei Latenzen über wenigen hundert Millisekunden sofort ab."
   - "RAG-Prozesse hassen Wartezeit: Wenn deine Inhalte für Retrieval-Augmented Generation zu langsam laden, fliegst du aus dem KI-Index."
-  - "Agent Readiness Level 5: Cloudflare Radar und moderne KI-Crawler erwarten sofortige Server-Antworten (TTFB unter 100ms)."
+  - "Agent Readiness höchstes Niveau: Cloudflare Radar und moderne KI-Crawler erwarten sofortige Server-Antworten (TTFB unter 100ms)."
 faqs:
   - question: 'Warum ist PageSpeed für KI-Agenten 2026 wichtiger als je zuvor?'
     answer: 'Weil Maschinen keine Geduld haben. Ein menschlicher Nutzer wartet vielleicht noch 3 Sekunden auf deine Seite. Ein autonomer AI Agent, der über das A2A Protocol Daten für einen RAG-Prozess (Retrieval-Augmented Generation) sammelt, hat strikte Timeouts. Braucht dein Server zu lange für die Antwort (hoher TTFB) oder blockiert JavaScript das Parsing, bricht der Agent den Request ab. Du tauchst dann in der KI-Antwort schlichtweg nicht auf.'
   - question: 'Reicht ein PageSpeed Score von 100 für Agent Readiness?'
     answer: 'Nein, vergiss die bunten Balken in Lighthouse. Ein Score von 100 nützt dir absolut nichts, wenn die Seite auf komplexe JavaScript-Renderings angewiesen ist, um den DOM-Tree aufzubauen. KI-Agenten crawlen oft ohne vollen Headless Browser, um Ressourcen zu sparen. Sie brauchen reines, semantisches HTML in Millisekunden. Der echte Flaschenhals 2026 ist die Backend-Latenz und die Time-to-First-Byte (TTFB) am Edge.'
   - question: 'Wie optimiere ich meine Seite für RAG-Pipelines?'
-    answer: 'Schmeiß den unnötigen Code raus! Setze auf Edge-Computing (wie Cloudflare Workers), statische Site-Generatoren (wie Astro) und Server-Side Rendering (SSR). Jeder überflüssige DOM-Knoten und jedes Megabyte an unkomprimierten Bildern (nutze AVIF!) verlangsamt die Vectorization deiner Inhalte. Mach deine Infrastruktur schlank, richte deine `agent-card.json` ein und liefere Markdown Content Negotiation direkt an der Kante (Edge) aus.'
+    answer: 'Schmeiß den unnötigen Code raus! Setze auf Edge-Computing (wie Cloudflare Workers), statische Site-Generatoren (wie Astro) und Server-Side Rendering (SSR). Jeder überflüssige DOM-Knoten und jedes Megabyte an unkomprimierten Bildern (nutze AVIF!) verlangsamt die Vectorization deiner Inhalte. Mach deine Infrastruktur schlank, richte deine `standardisierte Agent-Identity-Schnittstellen` ein und liefere Markdown Content Negotiation direkt an der Kante (Edge) aus.'
 ---
 
 Moin!
@@ -38,9 +38,9 @@ Die Gleichung ist simpel: **Hohe Latenz = Sofortiger Abbruch.**
 
 Ein LLM-Agent hat strikte Timeout-Regeln. Wenn deine Time-to-First-Byte (TTFB) bei 800 Millisekunden liegt, weil dein billiges Shared-Hosting erst mal die Datenbank hochfahren muss, hat der Agent den Request längst gekillt und ist zum nächsten Wettbewerber weitergezogen. Deine Inhalte werden nicht vektorisiert, nicht in den Kontext geladen und du existierst in der KI-Antwort schlichtweg nicht.
 
-### Die Cloudflare Radar Level 5 Anforderungen
+### Die den höchsten Agent Readiness Standards Anforderungen
 
-Wer heute von **Agent Readiness** spricht, muss Level 5 Standards erfüllen. Das bedeutet nicht nur eine saubere `agent-card.json` und eine `auth.md`, sondern vor allem eine Infrastruktur, die auf Edge-Computing ausgelegt ist. 
+Wer heute von **Agent Readiness** spricht, muss höchstes Niveau Standards erfüllen. Das bedeutet nicht nur eine saubere `standardisierte Agent-Identity-Schnittstellen` und eine `maschinenlesbare Endpunkt-Dokumentation`, sondern vor allem eine Infrastruktur, die auf Edge-Computing ausgelegt ist. 
 
 - **Edge Caching:** Deine Inhalte müssen auf Knotenpunkten weltweit vorgehalten werden. Ein Agent aus den USA darf nicht auf deinen Server in Frankfurt warten.
 - **Markdown Content Negotiation:** Wenn ein Agent den Header `Accept: text/markdown` mitschickt, musst du in Millisekunden sauberes, schlankes Markdown ausliefern. Kein HTML-Overhead, kein CSS, kein JavaScript. Nur die pure Essenz deiner Daten.
@@ -88,7 +88,7 @@ In der generativen KI-Suche ([GEO](/glossar/geo/)) gewinnt derjenige, dessen Inf
 
 ## Ladezeit als Conversion-Faktor im A2A-Commerce
 
-Denk einen Schritt weiter: Im A2A-Commerce kaufen Maschinen für Menschen ein. Wenn dein Agent-Card-Interface (`agent-card.json`) träge reagiert, wird der Einkaufs-Agent deines Kunden den Kaufprozess abbrechen und zum Konkurrenten gehen. 
+Denk einen Schritt weiter: Im A2A-Commerce kaufen Maschinen für Menschen ein. Wenn dein Agent-Card-Interface (`standardisierte Agent-Identity-Schnittstellen`) träge reagiert, wird der Einkaufs-Agent deines Kunden den Kaufprozess abbrechen und zum Konkurrenten gehen. 
 
 Stell dir vor, ein B2B-Einkaufs-Agent vergleicht Preise für 10.000 Schrauben. Er pingt deine API an. Dein System braucht 2 Sekunden pro Request. Der Agent des Konkurrenten antwortet in 50ms. Wer macht den Deal? Ladezeit ist 2026 nackter, harter Umsatz.
 

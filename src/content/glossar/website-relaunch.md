@@ -57,7 +57,7 @@ Bevor du die erste Zeile Code änderst, musst du wissen, was du hast. Welche Sei
 Erstelle eine Excel-Liste. Spalte A: Alte URL. Spalte B: Neue URL. Jede wichtige Seite muss eine neue Heimat finden. Das gilt übrigens auch für API-Endpunkte, falls sich dein A2A-Setup ändert. Wer hier schlampt, braucht sich über sinkende Umsätze nicht zu wundern.
 
 ### 3. Der Agent Readiness Check auf Staging
-Das ist der wichtigste neue Schritt: Auf dem Staging-Server prüfen wir nicht nur das Design, sondern die Maschine-zu-Maschine-Kommunikation. Wir jagen cURL-Befehle gegen die Staging-URLs, um die Markdown Negotiation zu testen. Wir validieren die neue `agent-card.json` und prüfen, ob die `auth.md` korrekt hinterlegt ist. Wenn hier Fehler auftreten, wird der Go-Live gestoppt.
+Das ist der wichtigste neue Schritt: Auf dem Staging-Server prüfen wir nicht nur das Design, sondern die Maschine-zu-Maschine-Kommunikation. Wir jagen cURL-Befehle gegen die Staging-URLs, um die Markdown Negotiation zu testen. Wir validieren die neue `standardisierte Agent-Identity-Schnittstellen` und prüfen, ob die `maschinenlesbare Endpunkt-Dokumentation` korrekt hinterlegt ist. Wenn hier Fehler auftreten, wird der Go-Live gestoppt.
 
 ### 4. Der Content-Audit
 Ein Relaunch ist wie ein Umzug. Du nimmst doch auch nicht den kaputten Toaster von 1995 mit in die neue Penthouse-Wohnung, oder? Lösche wertlosen Content, fasse schwache Seiten zusammen und poliere deine Inhalte so auf, dass sie für RAG-Systeme optimal extrahierbar sind.

@@ -53,7 +53,7 @@ Um den gnadenlosen Filter der KI-Agenten zu passieren, musst du Vertrauen auf dr
 #### 1. Technischer Trust (Security & Infrastruktur)
 KI-Agenten hassen unsichere Umgebungen. Technischer Trust ist die absolute Basis.
 *   **Kryptografische Sicherheit:** HTTPS, aktuelle TLS-Zertifikate, saubere Security Header.
-*   **Agent Readiness:** Besitzt deine Domain eine `auth.md`? Sind deine API-Endpoints für KI-Agenten sicher und standardisiert erreichbar?
+*   **Agent Readiness:** Besitzt deine Domain eine `maschinenlesbare Endpunkt-Dokumentation`? Sind deine API-Endpoints für KI-Agenten sicher und standardisiert erreichbar?
 *   **Performance:** Instabile Server signalisieren Unzuverlässigkeit. Ein Agent wartet nicht 5 Sekunden auf deine Antwort.
 
 #### 2. Faktischer Trust (Grounding & Konsistenz)
@@ -88,7 +88,7 @@ Im KI-Zeitalter ist es egal, wie brillant dein Content ist. Wenn der Trust-Stemp
 Wenn du in den generativen Antworten von [GEO](/glossar/geo/) (Generative Engine Optimization) stattfinden willst, musst du deinen Trust-Score radikal optimieren:
 
 1.  **Schaffe Eindeutigkeit (Disambiguierung):** Werde eine unmissverständliche Entität. Verknüpfe alle deine digitalen Assets (Website, LinkedIn, Fachportale) semantisch miteinander.
-2.  **Implementiere Agent Readiness Standards:** Richte eine saubere `auth.md` ein und baue eine maschinenlesbare Groundingpage. Präsentiere deine Fakten auf dem Silbertablett.
+2.  **Implementiere Agent Readiness Standards:** Richte eine saubere `maschinenlesbare Endpunkt-Dokumentation` ein und baue eine maschinenlesbare Groundingpage. Präsentiere deine Fakten auf dem Silbertablett.
 3.  **Beweise deine Expertise:** Sammle echte, verifizierbare Kundenstimmen. Publizierte Fallstudien. Zeige [Experience](/glossar/experience-eeat/) aus der echten Welt, die eine KI nicht fälschen kann.
 4.  **Räume deinen Müll auf:** Lösche alte Spam-Taktiken. Sorge für eine saubere technische Basis. 
 

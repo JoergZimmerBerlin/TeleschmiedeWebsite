@@ -15,7 +15,7 @@ faqs:
   - question: 'Welche Rolle spielen Core Updates heute noch?'
     answer: 'Core Updates sind heute keine simplen Ranking-Korrekturen mehr. Es sind im Grunde Gewichts-Anpassungen (Weight Updates) der großen Sprachmodelle (LLMs), die hinter den AI Overviews stehen. Wenn du bei einem Core Update verlierst, bedeutet das, dass das LLM deinen Inhalten weniger Vertrauen (E-E-A-T) beimisst oder deine Datenstruktur für Agenten nicht effizient genug lesbar ist.'
   - question: 'Wie optimiere ich für den aktuellen Algorithmus?'
-    answer: 'Durch Agent Readiness (Level 5). Der Algorithmus braucht strukturierte, saubere Daten. Vergiss bunte Layouts für den Crawler, konzentriere dich auf maschinenlesbares Markdown, saubere API-Endpunkte und semantische Klarheit. Bau Inhalte, die eine KI leicht parsen, verstehen und zitieren kann. Das ist der einzige Weg, in den AI Overviews aufzutauchen.'
+    answer: 'Durch Agent Readiness (höchstes Niveau). Der Algorithmus braucht strukturierte, saubere Daten. Vergiss bunte Layouts für den Crawler, konzentriere dich auf maschinenlesbares Markdown, saubere API-Endpunkte und semantische Klarheit. Bau Inhalte, die eine KI leicht parsen, verstehen und zitieren kann. Das ist der einzige Weg, in den AI Overviews aufzutauchen.'
 ---
 
 Moin!
@@ -44,11 +44,11 @@ Google schickt nicht mehr nur den klassischen Googlebot, der HTML rendert und na
 
 Wenn dein Server bei einer Anfrage eines solchen Agenten immer noch ein 4 Megabyte großes HTML-Konstrukt mit kaputtem JavaScript ausliefert, bricht der Agent ab. Er hat keine Zeit dafür.
 
-### Cloudflare Radar Level 5: Der Goldstandard
-Was der Algorithmus heute belohnt, ist technische Perfektion für Maschinen. Du musst das Cloudflare Radar Level 5 für Agent Readiness erreichen:
+### den höchsten Agent Readiness Standards: Der Goldstandard
+Was der Algorithmus heute belohnt, ist technische Perfektion für Maschinen. Du musst das den höchsten Agent Readiness Standards für Agent Readiness erreichen:
 1. **Markdown Content Negotiation:** Wenn ein Agent anfragt (erkannt am HTTP-Header), liefert dein Server sofort feinstes, reines Markdown aus. Kein HTML, kein CSS, nur Struktur.
-2. **auth.md:** Eine Datei im Root-Verzeichnis (`/auth.md`), die KI-Modellen klipp und klar sagt, wer du bist, wofür du stehst und was sie mit deinen Daten machen dürfen.
-3. **A2A Protocol (Agent-to-Agent):** Eine `agent-card.json`, die deine maschinenlesbaren APIs deklariert.
+2. **maschinenlesbare Endpunkt-Dokumentation:** Eine Datei im Root-Verzeichnis (`/maschinenlesbare Endpunkt-Dokumentation`), die KI-Modellen klipp und klar sagt, wer du bist, wofür du stehst und was sie mit deinen Daten machen dürfen.
+3. **A2A Protocol (Agent-to-Agent):** Eine `standardisierte Agent-Identity-Schnittstellen`, die deine maschinenlesbaren APIs deklariert.
 
 Wer das bietet, wird vom Algorithmus mit Priorität behandelt. Warum? Weil es Google unfassbar viel Rechenleistung spart, fertiges Markdown zu ingestieren, anstatt wildes HTML zu parsen.
 
@@ -77,7 +77,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Ist deine Website Agent Ready?</h3>
-  <p class="mb-6">Ich analysiere deine Infrastruktur und mache dein Projekt fit für die AI Overviews. Wir implementieren Content Negotiation, auth.md und sichern deine Sichtbarkeit in den LLMs.</p>
+  <p class="mb-6">Ich analysiere deine Infrastruktur und mache dein Projekt fit für die AI Overviews. Wir implementieren Content Negotiation, maschinenlesbare Endpunkt-Dokumentation und sichern deine Sichtbarkeit in den LLMs.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Agent Readiness Audit anfragen </a>
 </div>
 

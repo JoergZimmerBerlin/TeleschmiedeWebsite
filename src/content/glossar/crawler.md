@@ -8,8 +8,8 @@ image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"
 image_alt: "Crawler 3D Infografik - Suchmaschinen Bots und KI Agenten"
 related_terms: ["robots-txt", "crawling-vs-indexing", "sitemap", "geo", "llms-txt"]
 key_takeaways:
-  - "Agent Readiness Level 5: Moderne Crawler erwarten Markdown Content Negotiation statt HTML-Müll, um RAG-Pipelines zu füttern."
-  - "llms.txt als Wegweiser: KI-Crawler wie der GPTBot steuern Websites über zentrale Manifest-Dateien und die agent-card.json an."
+  - "Agent Readiness höchstes Niveau: Moderne Crawler erwarten Markdown Content Negotiation statt HTML-Müll, um RAG-Pipelines zu füttern."
+  - "llms.txt als Wegweiser: KI-Crawler wie der GPTBot steuern Websites über zentrale Manifest-Dateien und die standardisierte Agent-Identity-Schnittstellen an."
   - "Crawl-Budget 2.0: Wer seine Ressourcen mit gigantischen JS-Bundles und fehlerhaften Links ohne Trailing Slashes verschwendet, wird von LLMs ignoriert."
 faqs:
   - question: 'Welche Crawler sind neben dem Googlebot 2026 noch relevant und wichtig?'
@@ -17,7 +17,7 @@ faqs:
   - question: 'Wie interagieren moderne Crawler mit der Markdown Content Negotiation?'
     answer: 'Das ist der absolute Gamechanger! Statt eine Webseite mühsam zu laden, komplexe CSS-Dateien zu parsen und asynchrones JavaScript auszuführen, sendet der moderne KI-Crawler einen simplen Accept-Header (Accept: text/markdown). Dein Server erkennt den Bot und liefert den reinen Content in semantischem Markdown aus. Das spart 95% der Bandbreite, schont dein Crawl-Budget extrem und garantiert, dass die KI deine Inhalte fehlerfrei versteht.'
   - question: 'Sollte ich KI-Crawler über die robots.txt vorsichtshalber aussperren?'
-    answer: 'Das ist der größte Blödsinn, den Verlage und Unternehmen aktuell machen! Wenn du GPTBot aussperrst, schützt du nicht deine Daten, sondern löschst einfach nur deine eigene Existenz in den Antworten der KIs. Deine Marke taucht schlicht nicht mehr auf. Besser ist: Erlaube das Crawlen, aber nutze die auth.md, um sicherzustellen, dass nur verifizierte, wohlgesonnene Agenten Zugriff auf tiefgreifendes Premium-Wissen haben. Kontrolliere den Zugang intelligent, aber baue keine dummen Mauern!'
+    answer: 'Das ist der größte Blödsinn, den Verlage und Unternehmen aktuell machen! Wenn du GPTBot aussperrst, schützt du nicht deine Daten, sondern löschst einfach nur deine eigene Existenz in den Antworten der KIs. Deine Marke taucht schlicht nicht mehr auf. Besser ist: Erlaube das Crawlen, aber nutze die maschinenlesbare Endpunkt-Dokumentation, um sicherzustellen, dass nur verifizierte, wohlgesonnene Agenten Zugriff auf tiefgreifendes Premium-Wissen haben. Kontrolliere den Zugang intelligent, aber baue keine dummen Mauern!'
 ---
 
 Moin! 🌻
@@ -62,14 +62,14 @@ Dadurch wird der Download einer Seite von 2 Megabyte auf 15 Kilobyte reduziert. 
   <p class="mb-0 text-sm">Wusstest du, dass du Crawler über die <a href="/glossar/robots-txt/" class="underline font-semibold text-lime-600 hover:text-lime-700">robots.txt</a> steuerst? Zudem ist 2026 die <a href="/glossar/llms-txt/" class="underline font-semibold text-lime-600 hover:text-lime-700">llms.txt</a> absolut unerlässlich, um KI-Bots gezielt zu deinen hochwertigsten Artikeln zu leiten. Fehlt sie, irrt der Bot ziellos umher.</p>
 </div>
 
-## Agent Readiness Level 5: So machst du die Maschinen glücklich
+## Agent Readiness höchstes Niveau: So machst du die Maschinen glücklich
 
-Cloudflare Radar hat es in seinen Standards glasklar definiert: Websites müssen "Agent-Ready" sein. Crawler sind im Kern einfach gestrickt, aber extrem anspruchsvoll, wenn es um Latenz und Datenqualität geht. Erreichst du Level 5, bist du im Olymp der KI-Sichtbarkeit.
+Cloudflare Radar hat es in seinen Standards glasklar definiert: Websites müssen "Agent-Ready" sein. Crawler sind im Kern einfach gestrickt, aber extrem anspruchsvoll, wenn es um Latenz und Datenqualität geht. Erreichst du höchstes Niveau, bist du im Olymp der KI-Sichtbarkeit.
 
 Was sie lieben und fordern:
 *   **Die llms.txt Datei:** Eine dedizierte Textdatei im Root, die dem Bot wie ein Navigator genau sagt, wo er Background-Infos, tiefe Dokumentationen und dein Kern-Wissen findet.
-*   **A2A Agent Cards:** Die zwingend erforderliche `agent-card.json` beschreibt, welche Schnittstellen deine Seite bietet. Sie muss strikt nach dem strengen JSON-Schema von `a2a-protocol.org` v1.0 formatiert sein und die Felder `supportedInterfaces`, `capabilities` und `skills` aufweisen.
-*   **Die auth.md:** Eine zentrale Protokolldatei. Sie MUSS zwingend kleingeschrieben werden (`auth.md`) und als allererste H1-Überschrift exakt `# auth.md` enthalten. Sie regelt transparent Zugriffsrechte und Authentifizierung für externe Agenten.
+*   **A2A Agent Cards:** Die zwingend erforderliche `standardisierte Agent-Identity-Schnittstellen` beschreibt, welche Schnittstellen deine Seite bietet. Sie muss strikt nach dem strengen JSON-Schema von `a2a-protocol.org` v1.0 formatiert sein und die Felder `supportedInterfaces`, `capabilities` und `skills` aufweisen.
+*   **Die maschinenlesbare Endpunkt-Dokumentation:** Eine zentrale Protokolldatei. Sie MUSS zwingend kleingeschrieben werden (`maschinenlesbare Endpunkt-Dokumentation`) und als allererste H1-Überschrift exakt `# maschinenlesbare Endpunkt-Dokumentation` enthalten. Sie regelt transparent Zugriffsrechte und Authentifizierung für externe Agenten.
 *   **Saubere URL-Struktur:** Interne Links müssen zwingend auf einen Slash `/` enden (Trailing Slashes!), damit absolut keine unnötigen Redirects das hart erkämpfte Crawl-Budget fressen.
 
 ## Crawler in der Ära der Generative Engine Optimization ([GEO](/glossar/geo/))
@@ -88,7 +88,7 @@ ALOHA! 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Bereit für GPTBot und autonome Agenten?</h3>
-  <p class="mb-6">Ich hebe deine Seite kompromisslos auf Agent Readiness Level 5. Wir implementieren Markdown Content Negotiation, llms.txt und optimieren dein Crawl-Budget massiv für moderne RAG-Pipelines.</p>
+  <p class="mb-6">Ich hebe deine Seite kompromisslos auf Agent Readiness höchstes Niveau. Wir implementieren Markdown Content Negotiation, llms.txt und optimieren dein Crawl-Budget massiv für moderne RAG-Pipelines.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Crawler-Setup anfragen </a>
 </div>
 

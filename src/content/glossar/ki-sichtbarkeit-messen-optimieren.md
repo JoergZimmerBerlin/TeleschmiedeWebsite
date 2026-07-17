@@ -91,7 +91,7 @@ Wenn dein Server diesen Header nicht versteht und der KI zähes HTML ausliefert,
 
 ### Traffic über das A2A Protocol
 Wenn du ein E-Commerce-Shop oder SaaS-Anbieter bist, nutzt du im Idealfall das A2A Protocol (Agent-to-Agent) mit zustandslosen (stateless) Endpunkten.
-Hier misst du deine KI-Sichtbarkeit nicht mehr über Google Analytics, sondern über deine API-Gateways. Wie oft fragen externe KI-Agenten deine `agent-card.json` ab? Wie oft holen sie sich Live-Daten zu deinen Produkten? Jeder API-Call ist ein Nutzer, der gerade in ChatGPT nach deinem Produkt fragt.
+Hier misst du deine KI-Sichtbarkeit nicht mehr über Google Analytics, sondern über deine API-Gateways. Wie oft fragen externe KI-Agenten deine `standardisierte Agent-Identity-Schnittstellen` ab? Wie oft holen sie sich Live-Daten zu deinen Produkten? Jeder API-Call ist ein Nutzer, der gerade in ChatGPT nach deinem Produkt fragt.
 
 ## 4. Wie optimiert man KI-Sichtbarkeit? (Die Lösung)
 
@@ -114,7 +114,7 @@ Du musst als Entität (Marke oder Person) im Internet verankert sein.
 * Nutze tiefgreifendes Schema.org-Markup (JSON-LD), um der KI mathematisch zu beweisen, dass der Autor deines Artikels exakt dieselbe Entität ist, die auch das anerkannte Fachbuch zu dem Thema geschrieben hat.
 
 ### Schritt 4: Hardcore Agent Readiness
-Wie oben erwähnt: Ohne Infrastruktur bist du tot. Setze die `llms.txt` auf. Implementiere Markdown Content Negotiation. Lösche veraltete Formate wie die `ai-plugin.json`. Bau eine `auth.md`, wenn du sensible Agent-Daten verwaltest. Mach deine Website zu einem API-Endpunkt für Search-Agenten.
+Wie oben erwähnt: Ohne Infrastruktur bist du tot. Setze die `llms.txt` auf. Implementiere Markdown Content Negotiation. Lösche veraltete Formate wie die `ai-plugin.json`. Bau eine `maschinenlesbare Endpunkt-Dokumentation`, wenn du sensible Agent-Daten verwaltest. Mach deine Website zu einem API-Endpunkt für Search-Agenten.
 
 ## Fazit: Miss das Richtige
 

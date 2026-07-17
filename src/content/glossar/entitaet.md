@@ -62,7 +62,7 @@ Das größte Problem beim Entity Building ist die Mehrdeutigkeit (Ambiguität). 
 Wie disambiguierst du dich unter den 2026 Standards?
 *   **Schema.org (JSON-LD):** Du musst der KI exakt sagen, welcher Typ Entität du bist (`@type: "Person"` oder `@type: "Organization"`).
 *   **sameAs Verknüpfungen:** Du verknüpfst deine Entität mit anderen, bereits extrem vertrauenswürdigen Datenbanken. Ein Link zu deinem Wikidata-Eintrag, deinem LinkedIn-Profil oder deinem verifizierten Google Business Profile sagt der KI: "Schau her, ich bin exakt diese Person/Firma, die auch dort gelistet ist."
-*   **Die Groundingpage:** Unter den Agent Readiness Standards ist eine [Groundingpage](/glossar/grounding-page/) Pflicht. Es ist eine maschinenlesbare Seite (verlinkt über eine saubere `auth.md`), auf der alle Fakten deiner Entität strukturiert liegen. Hier beweist du der Maschine deine Expertise und Autorschaft.
+*   **Die Groundingpage:** Unter den Agent Readiness Standards ist eine [Groundingpage](/glossar/grounding-page/) Pflicht. Es ist eine maschinenlesbare Seite (verlinkt über eine saubere `maschinenlesbare Endpunkt-Dokumentation`), auf der alle Fakten deiner Entität strukturiert liegen. Hier beweist du der Maschine deine Expertise und Autorschaft.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vom String zum Agent-Ready Node</h4>

@@ -118,7 +118,7 @@ Wir haben geklärt, dass Plugins tot sind. Aber wie interagiert ChatGPT im B2B-B
 
 Die Antwort, die sich im Juli 2026 etabliert hat, ist das **A2A Protocol** in Kombination mit dem **Stateless Model Context Protocol (MCP)**. 
 
-Wenn du als SaaS-Anbieter oder E-Commerce-Shop willst, dass ChatGPT deine Produkte direkt in den Chat integriert, baust du keine isolierten Plugins mehr. Du hostest eine `agent-card.json` auf deiner Seite. Der Crawler von OpenAI liest diese Karte, versteht deine offenen, zustandslosen Endpunkte und kann in Echtzeit und vollautomatisch mit deinem System kommunizieren. 
+Wenn du als SaaS-Anbieter oder E-Commerce-Shop willst, dass ChatGPT deine Produkte direkt in den Chat integriert, baust du keine isolierten Plugins mehr. Du hostest eine `standardisierte Agent-Identity-Schnittstellen` auf deiner Seite. Der Crawler von OpenAI liest diese Karte, versteht deine offenen, zustandslosen Endpunkte und kann in Echtzeit und vollautomatisch mit deinem System kommunizieren. 
 
 Das ist das absolute Endstadium von ChatGPT SEO. Es ist nicht mehr nur die Optimierung von Texten. Es ist die Bereitstellung von maschinenlesbarer Infrastruktur, die autonome KI-Agenten in die Lage versetzt, auf deinem System zu operieren.
 

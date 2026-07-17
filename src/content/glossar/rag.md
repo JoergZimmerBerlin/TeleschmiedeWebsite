@@ -18,7 +18,7 @@ faqs:
   - question: 'Warum ist RAG für GEO (Generative Engine Optimization) so wichtig?'
     answer: 'In der Welt der Generative Search Engines wie Perplexity oder SearchGPT ist RAG der Standardprozess. Die Suchmaschine ''retrievaled'' (holt) deine Webseite, baut sie in den Prompt ein (''augment'') und generiert dann die Antwort. Wenn dein Content nicht RAG-optimiert ist – also nicht in klaren, semantischen Häppchen (Chunks) vorliegt –, wird die KI deine Seite schlichtweg ignorieren. RAG-Optimierung ist das neue ''Crawlability''.'
   - question: 'Wie funktioniert RAG im Unternehmensumfeld im Juli 2026?'
-    answer: 'Wir haben die Ära der basteligen PDF-Uploads hinter uns gelassen. Heute nutzen Enterprise-Unternehmen das **Stateless Model Context Protocol (MCP)**. Anstatt Daten hart in die KI zu laden, stellt das Unternehmen eine `agent-card.json` (A2A Protocol) bereit. Die KI fragt den Endpunkt in Echtzeit nach Daten (z.B. "Wie viel kostet das grüne Sofa heute?"), holt die Daten (Retrieval) und schreibt erst dann ihre Antwort.'
+    answer: 'Wir haben die Ära der basteligen PDF-Uploads hinter uns gelassen. Heute nutzen Enterprise-Unternehmen das **Stateless Model Context Protocol (MCP)**. Anstatt Daten hart in die KI zu laden, stellt das Unternehmen eine `standardisierte Agent-Identity-Schnittstellen` (A2A Protocol) bereit. Die KI fragt den Endpunkt in Echtzeit nach Daten (z.B. "Wie viel kostet das grüne Sofa heute?"), holt die Daten (Retrieval) und schreibt erst dann ihre Antwort.'
 ---
 
 Moin! 🌻

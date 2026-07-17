@@ -70,7 +70,7 @@ Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readin
 
 * **Die Basics:** Eine saubere `robots.txt` und strukturierte Daten (Schema.org).
 * **Das Fortgeschrittene Level:** Dies erfordert bereits explizite KI-Dateien. Wer keine `ai.txt` und keine `llms.txt` hat, bleibt hier hängen.
-* **Die Königsklasse:** Hier sprechen wir über echte Autonomie durch das A2A Protocol, über stateless MCP (Model Context Protocol) und maschinenlesbare Authentifizierung über `auth.md`. 
+* **Die Königsklasse:** Hier sprechen wir über echte Autonomie durch das A2A Protocol, über stateless MCP (Model Context Protocol) und maschinenlesbare Authentifizierung über `maschinenlesbare Endpunkt-Dokumentation`. 
 
 Wenn du als Unternehmen im Unternehmensumfeld sichtbar sein willst, sind die fortgeschrittenen KI-Dateien die absolute Pflicht. Die volle Agent-Kompatibilität ist die Kür, die dir die Leads der Zukunft sichert.
 
@@ -107,14 +107,14 @@ Disallow: Mining
 Disallow: Model-Scraping
 
 # For more detailed machine-readable context, please fetch our .well-known/llms.txt
-# For A2A interactions, refer to .well-known/agent-card.json
+# For A2A interactions, refer to .well-known/standardisierte Agent-Identity-Schnittstellen
 ```
 
 **Was passiert hier genau?**
 1. **Klare Kontaktdaten:** Wir zeigen Transparenz. Wenn eine KI-Firma Daten lizensieren will, weiß sie, an wen sie sich wenden muss.
 2. **Die RAG-Freigabe:** Wir sagen explizit "Allow: RAG". Das ist unser SEO-Hebel. Wir wollen, dass Perplexity unsere Artikel liest, wenn ein CMO nach "Beste SEO Strategie 2026" sucht.
 3. **Das Trainings-Verbot:** Hier ziehen wir die rote Linie. "Disallow: Training". Das ist unsere rechtliche Absicherung.
-4. **Cross-Referenzen:** Wir weisen intelligente Agenten direkt auf unsere weiteren Level-5-Dateien hin (`llms.txt` und `agent-card.json`). Das ist exzellente Maschinen-Usability.
+4. **Cross-Referenzen:** Wir weisen intelligente Agenten direkt auf unsere weiteren Level-5-Dateien hin (`llms.txt` und `standardisierte Agent-Identity-Schnittstellen`). Das ist exzellente Maschinen-Usability.
 
 ## Wie überprüfst du deine eigene Seite?
 

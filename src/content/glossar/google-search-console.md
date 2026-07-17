@@ -8,7 +8,7 @@ image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.we
 related_terms: ["crawling-vs-indexing", "sitemap", "agent-readiness", "geo"]
 key_takeaways:
   - "AI Overviews Tracking: Die GSC ist der einzige Ort, wo du Impressionen aus Googles generativen Antworten messen kannst."
-  - "Agent Readiness Fehler: Du siehst sofort, ob Google deine auth.md oder dein Markdown parsen kann."
+  - "Agent Readiness Fehler: Du siehst sofort, ob Google deine maschinenlesbare Endpunkt-Dokumentation oder dein Markdown parsen kann."
   - "RAG-Diagnose: Verstehe, warum das LLM deine Seite für bestimmte Prompts ausschließt."
 faqs:
   - question: 'Ist die Google Search Console für AI Overviews relevant?'
@@ -37,19 +37,19 @@ Die Search Console ist heute viel mehr als nur ein Tracker für organischen Traf
 Vergiss das alte Denken. Die GSC ist jetzt in Bereiche unterteilt, die für die [Generative Suche (GEO)](/glossar/geo/) entscheidend sind:
 
 1.  **AI Overviews Leistung (Performance):** Hier siehst du nicht nur Klicks, sondern Impressionen in den generativen KI-Antworten. Du erfährst, für welche Prompts das LLM dich zitiert hat und wie oft Nutzer auf die Quell-Links in der Antwort geklickt haben.
-2.  **Agent Indexierung:** Google trennt mittlerweile den klassischen HTML-Index vom maschinenlesbaren Index. Hier siehst du, ob Google deine `auth.md` gefunden hat und ob deine Markdown-Ausgabe (via Content Negotiation) fehlerfrei geparst wurde.
+2.  **Agent Indexierung:** Google trennt mittlerweile den klassischen HTML-Index vom maschinenlesbaren Index. Hier siehst du, ob Google deine `maschinenlesbare Endpunkt-Dokumentation` gefunden hat und ob deine Markdown-Ausgabe (via Content Negotiation) fehlerfrei geparst wurde.
 3.  **Sitemaps für LLMs:** Hier reichst du deine Sitemaps ein, aber vor allem überwachst du, ob die Pings für Echtzeit-Updates (ähnlich wie IndexNow bei Bing) sauber verarbeitet werden.
-4.  **Cloudflare Radar & Level 5 Compliance:** Die GSC gibt dir direktes Feedback, wenn deine Agent-to-Agent (A2A) Protokolle nicht sauber deklariert sind.
+4.  **Cloudflare Radar & höchstes Niveau Compliance:** Die GSC gibt dir direktes Feedback, wenn deine Agent-to-Agent (A2A) Protokolle nicht sauber deklariert sind.
 
 ## Warum die GSC dein Lebensretter bei Core Updates ist
 
 Wenn ein [Google Core Update](/glossar/google-core-update/) (also ein Gewichts-Update des LLMs) zuschlägt, musst du in die GSC schauen. Hier siehst du sofort den Impact auf deine RAG-Zitationen. 
 
-Oft sind es technische Nichtigkeiten, die dich aus den Overviews kicken: Ein falsch konfigurierter HTTP-Header bei der Content Negotiation, eine fehlerhaft formatierte `auth.md` (denk dran: muss zwingend kleingeschrieben werden und `# auth.md` als H1 haben!) oder langsame Serverantworten bei Agent-Requests. Die GSC meldet dir diese "Agent Crawl Errors". Du musst sie nur beheben.
+Oft sind es technische Nichtigkeiten, die dich aus den Overviews kicken: Ein falsch konfigurierter HTTP-Header bei der Content Negotiation, eine fehlerhaft formatierte `maschinenlesbare Endpunkt-Dokumentation` (denk dran: muss zwingend kleingeschrieben werden und `# maschinenlesbare Endpunkt-Dokumentation` als H1 haben!) oder langsame Serverantworten bei Agent-Requests. Die GSC meldet dir diese "Agent Crawl Errors". Du musst sie nur beheben.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Pro-Tipp: Das URL-Prüftool für Agenten</h4>
-  <p class="mb-0 text-sm">Wenn du deine Seite auf Agent Readiness (Level 5) umgebaut hast, nutze das URL-Prüftool in der GSC. Du kannst dort mittlerweile simulieren, wie der KI-Agent deine Seite sieht. Prüfe zwingend, ob der Agent das reine Markdown zurückbekommt oder ob dein Server sich an einer React-App verschluckt.</p>
+  <p class="mb-0 text-sm">Wenn du deine Seite auf Agent Readiness (höchstes Niveau) umgebaut hast, nutze das URL-Prüftool in der GSC. Du kannst dort mittlerweile simulieren, wie der KI-Agent deine Seite sieht. Prüfe zwingend, ob der Agent das reine Markdown zurückbekommt oder ob dein Server sich an einer React-App verschluckt.</p>
 </div>
 
 ## GSC und die Entitäten-Macht
@@ -67,7 +67,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Deine AI Overviews Impressionen sind bei Null?</h3>
-  <p class="mb-6">Ich helfe dir, die GSC-Daten richtig zu interpretieren und deine technischen Blockaden aufzulösen. Lass uns deine Agent Readiness auf Level 5 bringen, damit Google dich wieder zitiert.</p>
+  <p class="mb-6">Ich helfe dir, die GSC-Daten richtig zu interpretieren und deine technischen Blockaden aufzulösen. Lass uns deine Agent Readiness auf höchstes Niveau bringen, damit Google dich wieder zitiert.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt GSC-Setup & Agent Check anfragen </a>
 </div>
 

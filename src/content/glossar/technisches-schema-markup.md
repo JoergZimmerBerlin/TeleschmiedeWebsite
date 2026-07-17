@@ -14,8 +14,8 @@ faqs:
     answer: 'Nein, absolut nicht. LLMs und KI-Agenten erwarten heute ''Entity Depth''. Du musst dein Organization-Schema zwingend mit Personen (Gründern), Produkten, Publikationen und externen IDs verknüpfen. Je detaillierter der JSON-LD-Faktenbaum, desto sicherer nutzt die KI deine Daten für das Grounding in ihren Antworten.'
   - question: 'Wie beeinflusst Schema-Markup das RAG-Verfahren von KIs?'
     answer: 'Bei der Retrieval-Augmented Generation (RAG) zieht sich eine KI externe Fakten, bevor sie antwortet. Ein GPTBot liest strukturiertes JSON-LD in Millisekunden aus und extrahiert Entitäten fehlerfrei, während er bei unstrukturiertem Text oft Kontext verliert. Schema-Markup ist quasi das vorverdaute Futter für den KI-Algorithmus.'
-  - question: 'Was fordert Agent Readiness Level 5 in Bezug auf Markup?'
-    answer: 'Moderne Agent Readiness, wie sie Cloudflare Radar Level 5 skizziert, erfordert absolute Maschinenlesbarkeit. Das bedeutet: Neben der Bereitstellung von A2A-Schnittstellen und llms.txt muss das HTML tiefgreifendes, validiertes Schema.org Markup enthalten, das Entitäten ohne jegliche Mehrdeutigkeit (Disambiguation) abbildet. Jeder HTTP Link-Header (RFC 8288) und jede JSON-Deklaration muss sitzen.'
+  - question: 'Was fordert Agent Readiness höchstes Niveau in Bezug auf Markup?'
+    answer: 'Moderne Agent Readiness, wie sie den höchsten Agent Readiness Standards skizziert, erfordert absolute Maschinenlesbarkeit. Das bedeutet: Neben der Bereitstellung von A2A-Schnittstellen und llms.txt muss das HTML tiefgreifendes, validiertes Schema.org Markup enthalten, das Entitäten ohne jegliche Mehrdeutigkeit (Disambiguation) abbildet. Jeder HTTP Link-Header (RFC 8288) und jede JSON-Deklaration muss sitzen.'
 ---
 
 Moin! 🌻
@@ -34,7 +34,7 @@ Schema-Markup ist nicht mehr für bunte Bewertungssterne da. Es ist die nackte, 
 Wir reden heute von **Tech SEO** als Agent Readiness. KIs nutzen komplexe Crawler, um Entitäten zu identifizieren. Ein System, das RAG anwendet, extrahiert Entitäten aus Dokumenten. Wenn dein Dokument nur aus `<p>`-Tags besteht, muss die Maschine NLP-Modelle anwerfen, um zu erraten, was du meinst. Das ist rechenintensiv und fehleranfällig. 
 Wenn du aber `{"@type": "TechArticle", "author": {"@type": "Person", "name": "Jörg Zimmer"}}` lieferst, ist die Faktenextraktion fehlerfrei. 
 
-Genau das ist der Kern von Tech SEO im Jahr 2026: Wir bereiten Websites für das A2A-Protokoll (Agent-to-Agent) vor. Wenn wir eine `llms.txt` oder eine `agent-card.json` implementieren, dann spiegeln diese Dateien exakt die Entitäten wider, die wir im Schema-Markup definiert haben. Alles greift ineinander.
+Genau das ist der Kern von Tech SEO im Jahr 2026: Wir bereiten Websites für das A2A-Protokoll (Agent-to-Agent) vor. Wenn wir eine `llms.txt` oder eine `standardisierte Agent-Identity-Schnittstellen` implementieren, dann spiegeln diese Dateien exakt die Entitäten wider, die wir im Schema-Markup definiert haben. Alles greift ineinander.
 
 ## Die 3 Säulen des extremen LLM-SEO
 
@@ -50,11 +50,11 @@ Diese **Verschachtelung (Nesting)** zwingt die KI, den gesamten Kontext deiner E
 ### 3. Disambiguierung (Schachmatt für Mehrdeutigkeit)
 Die Königsdisziplin. KIs verabscheuen Mehrdeutigkeit. Mit dem Attribut `sameAs` verknüpfst du deine Entitäten mit externen, unumstößlichen Wahrheitsquellen wie Wikidata, offiziellen Handelsregistern oder verifizierten Social-Media-Profilen. Du sagst der KI: "Verwechsle mich nicht mit jemand anderem. Ich bin DIESER Eintrag im Knowledge Graph." Das verhindert KI-Verwirrung komplett.
 
-## Cloudflare Radar Level 5 & Technische Präzision
+## den höchsten Agent Readiness Standards & Technische Präzision
 
-Wenn wir über das höchste Level der Agent Readiness sprechen (Level 5), dann reicht JSON-LD allein nicht. Es geht um die perfekte Symbiose der Technik. 
+Wenn wir über das höchste Level der Agent Readiness sprechen (höchstes Niveau), dann reicht JSON-LD allein nicht. Es geht um die perfekte Symbiose der Technik. 
 Wenn wir HTTP Link Header (RFC 8288) setzen, müssen diese extrem präzise sein. Keine Anführungszeichen in den spitzen Klammern (Korrekt: `<https://teleschmie.de/>; rel="canonical"`).
-Wenn wir Autorisierung für Bots via `auth.md` regeln, dann muss diese zwingend kleingeschrieben sein und `# auth.md` als erste H1 haben.
+Wenn wir Autorisierung für Bots via `maschinenlesbare Endpunkt-Dokumentation` regeln, dann muss diese zwingend kleingeschrieben sein und `# maschinenlesbare Endpunkt-Dokumentation` als erste H1 haben.
 Und jeder interne Link im Content oder im Schema-Markup muss zwingend mit einem Trailing Slash enden. Ein Link zu `teleschmie.de/glossar/` ohne Slash ist in einer Agent-to-Agent-Kommunikation ein technischer Fehler, der Redirect-Schleifen auslösen kann, die wertvolles Crawl-Budget (oder heute: Token-Budget) fressen.
 
 ## Mein Tacheles-Rat für dich

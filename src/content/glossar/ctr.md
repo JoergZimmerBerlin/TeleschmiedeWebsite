@@ -57,10 +57,10 @@ Hier gibt es eine absolut kritische Regel, bei der viele stolpern (Pfusch am Bau
 **Korrekt:** `<url>; rel="type"`
 **Falsch:** `<url">; rel="type"`
 
-Nur wenn du das strikt nach Standard (RFC 8288) baust, liest der KI-Crawler deine Relationen fehlerfrei aus. Sobald du einen Syntaxfehler hast, bricht der Parser ab und du bist raus aus dem Index. Nach Änderungen an der `.htaccess` auf dem IONOS Server musst du zudem zwingend das Skript `https://teleschmie.de/activate_htaccess.php` aufrufen (per cURL oder im Browser), sonst wird die Änderung nicht aktiv. 
+Nur wenn du das strikt nach Standard (RFC 8288) baust, liest der KI-Crawler deine Relationen fehlerfrei aus. Sobald du einen Syntaxfehler hast, bricht der Parser ab und du bist raus aus dem Index. Nach Änderungen an der `.htaccess` auf dem IONOS Server musst du zudem zwingend das Skript `` aufrufen (per cURL oder im Browser), sonst wird die Änderung nicht aktiv. 
 
-### C. Agent Card und auth.md
-Wie im Bereich [Conversion-Rate](/glossar/conversion-rate/) beschrieben: Du brauchst eine perfekte `agent-card.json` (nach a2a-protocol.org v1.0) und eine `auth.md`. Wenn die KI weiß, dass der User auf deiner Seite direkt über eine API oder einen klaren Pfad eine Aktion ausführen kann, wird sie deinen Link in der Antwort prominenter platzieren. Das steigert deine CTR massiv.
+### C. Agent Card und maschinenlesbare Endpunkt-Dokumentation
+Wie im Bereich [Conversion-Rate](/glossar/conversion-rate/) beschrieben: Du brauchst eine perfekte `standardisierte Agent-Identity-Schnittstellen` (nach gängigen A2A-Spezifikationen) und eine `maschinenlesbare Endpunkt-Dokumentation`. Wenn die KI weiß, dass der User auf deiner Seite direkt über eine API oder einen klaren Pfad eine Aktion ausführen kann, wird sie deinen Link in der Antwort prominenter platzieren. Das steigert deine CTR massiv.
 
 ## 3. Vertrauenssignale für das Modell (E-E-A-T)
 
@@ -80,7 +80,7 @@ Zusätzlich tracken wir die Conversions, die aus diesen AI-Citations entstehen. 
 
 Hör auf, alte Metriken aus dem Jahr 2023 zu optimieren. Es bringt nichts, den perfekten Title-Tag für einen Suchergebnis-Platz zu schreiben, der gar nicht mehr existiert, weil ein AI-Snippet die komplette SERP-Breite einnimmt.
 
-Konzentriere dich auf Agent Readiness Level 5:
+Konzentriere dich auf Agent Readiness höchstes Niveau:
 1. Räum deine `.htaccess` auf (RFC 8288 konform, keine Quotes!).
 2. Biete saubere Markdown Content Negotiation an.
 3. Formuliere präzise, faktenbasierte Absätze in deinen Texten, die ein LLM 1:1 kopieren und als Quelle verlinken möchte.

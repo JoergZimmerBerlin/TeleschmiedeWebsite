@@ -65,7 +65,7 @@ Was bedeutet das für deine "Keywordrecherche"? Sie wird zur Struktur- und Schni
 Das erfordert:
 1.  **Semantisches Markup:** JSON-LD, strukturierte Daten und glasklares HTML5. Deine Entitäten müssen maschinenlesbar sein.
 2.  **Klare Vektor-Räume:** Deine Inhalte müssen thematisch so scharf abgegrenzt sein, dass sie in der Vector-Database (RAG-Systeme) der LLMs eindeutig zugeordnet werden können.
-3.  **A2A (Agent-to-Agent) Protokolle:** Bereitstellung von `agent-card.json` und `auth.md`, damit externe Agenten sofort wissen, welche Fähigkeiten und Daten deine Seite anbietet.
+3.  **A2A (Agent-to-Agent) Protokolle:** Bereitstellung von `standardisierte Agent-Identity-Schnittstellen` und `maschinenlesbare Endpunkt-Dokumentation`, damit externe Agenten sofort wissen, welche Fähigkeiten und Daten deine Seite anbietet.
 
 Wer OnPage-SEO im Jahr 2026 betreibt, baut APIs für LLMs. Die Keywordrecherche ist der Bauplan dafür.
 

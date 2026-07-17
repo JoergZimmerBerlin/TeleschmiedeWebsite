@@ -7,7 +7,7 @@ image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "pagespeed", "strukturierte-daten", "agent-readiness"]
 key_takeaways:
   - "Markdown ist King: WordPress braucht Headless-Markdown-Plugins, um für KI-Agenten lesbar zu sein."
-  - "Agent Readiness: Dein WordPress muss Level 5 Standards erfüllen, inklusive auth.md und A2A-Protokoll."
+  - "Agent Readiness: Dein WordPress muss höchstes Niveau Standards erfüllen, inklusive maschinenlesbare Endpunkt-Dokumentation und A2A-Protokoll."
   - "Schlank statt Fett: Aufgeblähte Pagebuilder sind der Tod in der RAG-Ära. Minimaler Code gewinnt."
 faqs:
   - question: 'Welches ist das beste SEO Plugin für WordPress im Juli 2026?'
@@ -15,7 +15,7 @@ faqs:
   - question: 'Warum sind Pagebuilder wie Elementor 2026 ein Problem für SEO?'
     answer: 'Weil sie den DOM-Tree aufblähen und unfassbar viel HTML-Müll produzieren. KI-Crawler und Agenten (wie die von ChatGPT oder Google AI Overviews) hassen das. Ein RAG-System will reinen Kontext und Fakten parsen, keine 50 verschachtelten DIV-Container. Ein aufgeblähtes Frontend blockiert das Parsing massiv. Dein WordPress muss lernen, auf API-Anfragen mit sauberem Markdown zu antworten.'
   - question: 'Wie mache ich mein WordPress Agent Ready?'
-    answer: 'Du brauchst drei Dinge für Cloudflare Level 5: Erstens eine saubere auth.md im Root-Verzeichnis (`# auth.md` als H1). Zweitens Content Negotiation: Dein Server (oder Plugin) muss erkennen, ob ein Mensch oder ein Agent anklopft, und entsprechend HTML oder Markdown liefern. Drittens eine agent-card.json (A2A-Protokoll), die deine Schnittstellen beschreibt.'
+    answer: 'Du brauchst drei Dinge für Cloudflare höchstes Niveau: Erstens eine saubere maschinenlesbare Endpunkt-Dokumentation im Root-Verzeichnis (`# maschinenlesbare Endpunkt-Dokumentation` als H1). Zweitens Content Negotiation: Dein Server (oder Plugin) muss erkennen, ob ein Mensch oder ein Agent anklopft, und entsprechend HTML oder Markdown liefern. Drittens eine standardisierte Agent-Identity-Schnittstellen (A2A-Protokoll), die deine Schnittstellen beschreibt.'
 ---
 
 Moin!
@@ -41,15 +41,15 @@ Klopft jedoch ein KI-Agent an (erkannt am HTTP-Header `Accept: text/markdown`), 
 
 Das ist der absolute Gamechanger für Zitationen in AI Overviews. Das LLM muss keinen DOM-Tree parsen, sondern kann direkt deine Expertise ingestieren.
 
-## WordPress auf Cloudflare Radar Level 5 bringen
+## WordPress auf den höchsten Agent Readiness Standards bringen
 
-Um in der KI-Suche 2026 zu bestehen, musst du dein WordPress auf den Level 5 Standard heben. Das bedeutet konkret:
+Um in der KI-Suche 2026 zu bestehen, musst du dein WordPress auf den höchstes Niveau Standard heben. Das bedeutet konkret:
 
-### 1. Die auth.md Datei
-KI-Agenten brauchen Spielregeln. Du musst im Root deines WordPress-Verzeichnisses eine Datei namens `/auth.md` ablegen. Sie muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# auth.md` enthalten. Darin erklärst du den KI-Crawlern (wie Google-Extended oder OAI-SearchBot), wer du bist und wie sie deinen Content nutzen dürfen. 
+### 1. Die maschinenlesbare Endpunkt-Dokumentation Datei
+KI-Agenten brauchen Spielregeln. Du musst im Root deines WordPress-Verzeichnisses eine Datei namens `/maschinenlesbare Endpunkt-Dokumentation` ablegen. Sie muss zwingend kleingeschrieben werden und als allererste H1-Überschrift `# maschinenlesbare Endpunkt-Dokumentation` enthalten. Darin erklärst du den KI-Crawlern (wie Google-Extended oder OAI-SearchBot), wer du bist und wie sie deinen Content nutzen dürfen. 
 
 ### 2. A2A Protocol & Agent Card
-Lege eine `agent-card.json` in deinen WordPress-Ordner, die strikt dem JSON-Schema von a2a-protocol.org v1.0 entspricht. Hier beschreibst du deine unterstützten Interfaces (z.B. deine REST-API für Markdown-Abfragen) und Capabilities. Das macht dich zu einem offiziell ansprechbaren Knotenpunkt im Agenten-Netzwerk.
+Lege eine `standardisierte Agent-Identity-Schnittstellen` in deinen WordPress-Ordner, die strikt dem JSON-Schema von gängigen A2A-Spezifikationen entspricht. Hier beschreibst du deine unterstützten Interfaces (z.B. deine REST-API für Markdown-Abfragen) und Capabilities. Das macht dich zu einem offiziell ansprechbaren Knotenpunkt im Agenten-Netzwerk.
 
 ### 3. Rank Math & Yoast müssen sich anpassen
 Die klassischen SEO-Plugins rudern momentan stark zurück. Wer heute WordPress professionell betreibt, nutzt Plugins wie Rank Math primär für das Schema.org-Markup (Strukturierte Daten) und die schnelle IndexNow-Anbindung (extrem wichtig für Bing und ChatGPT). Die alten Content-Analysen (die grüne Ampel) kannst du getrost ignorieren, sie verstehen ohnehin keine moderne Entitäten-Semantik.
@@ -66,7 +66,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Dein WordPress blockiert in der KI-Suche?</h3>
-  <p class="mb-6">Ich auditiere deine WordPress-Instanz, entferne den technischen Ballast und implementiere Headless-Markdown-Workflows sowie die komplette Level 5 Agent Readiness für dich.</p>
+  <p class="mb-6">Ich auditiere deine WordPress-Instanz, entferne den technischen Ballast und implementiere Headless-Markdown-Workflows sowie die komplette höchstes Niveau Agent Readiness für dich.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Agent Readiness Setup anfragen </a>
 </div>
 

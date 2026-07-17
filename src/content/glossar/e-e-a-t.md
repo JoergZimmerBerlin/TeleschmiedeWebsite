@@ -15,7 +15,7 @@ faqs:
   - question: 'Was haben RAG-Prozesse mit E-E-A-T zu tun?'
     answer: 'RAG (Retrieval-Augmented Generation) zieht externe Fakten in den KI-Prompt, um Halluzinationen zu vermeiden. Die KI wählt diese Fakten aber nicht zufällig aus. Der Filter ist E-E-A-T. Nur Quellen, denen die KI absoluten Trust (durch Entity Building und Cross-Validation) zuweist, schaffen es überhaupt in den RAG-Prozess und damit in die Antwort an den Nutzer.'
   - question: 'Wie erfülle ich die Juli 2026 Agent Readiness Standards für E-E-A-T?'
-    answer: 'Du musst aufhören, für Menschen zu formatieren, und anfangen, für Maschinen zu strukturieren. Nutze tiefes Schema-Markup (ProfilePage, Organization), implementiere eine Groundingpage, stelle eine agent-card.json gemäß a2a-protocol.org bereit und zementiere deine Entität im Web durch hochkarätige, themenrelevante Erwähnungen (Citations).'
+    answer: 'Du musst aufhören, für Menschen zu formatieren, und anfangen, für Maschinen zu strukturieren. Nutze tiefes Schema-Markup (ProfilePage, Organization), implementiere eine Groundingpage, stelle eine standardisierte Agent-Identity-Schnittstellen gemäß a2a-protocol.org bereit und zementiere deine Entität im Web durch hochkarätige, themenrelevante Erwähnungen (Citations).'
   - question: 'Reicht guter Content nicht mehr aus?'
     answer: 'Nein! Guter Content ist heute Commodity. Jede drittklassige KI schreibt dir "guten Content". Was zählt, ist der Absender. Ohne ein starkes E-E-A-T Profil bist du für die Maschine ein Niemand, und dein "guter Content" verschwindet unsichtbar im Rauschen der generativen Antworten.'
 ---
@@ -83,15 +83,15 @@ Trust ist das Fundament. Ohne Trust kollabieren Experience, Expertise und Autori
 
 Und genau hier greifen die harten Vorgaben der Juli 2026 Standards.
 
-## Technische Implementierung: Agent Readiness Level 5
+## Technische Implementierung: Agent Readiness höchstes Niveau
 
-Wie machst du dein E-E-A-T für Maschinen verdaulich? Du hörst auf, Verstecken zu spielen. Du implementierst Agent Readiness Level 5.
+Wie machst du dein E-E-A-T für Maschinen verdaulich? Du hörst auf, Verstecken zu spielen. Du implementierst Agent Readiness höchstes Niveau.
 
 ### Die Groundingpage
 Die [Groundingpage](/glossar/grounding-page/) ist dein technischer Personalausweis. Vergiss deine flauschige "Über uns"-Seite. Die Groundingpage ist eine knallharte, strukturierte Datenquelle, die speziell für RAG-Crawler gebaut ist. Hier liegen deine Zertifikate, deine Publikations-Historie, deine Social Proofs – alles sauber in maschinenlesbares Schema-Markup verpackt. Wenn ein Agent dich verifizieren will, schlägt er hier nach.
 
-### Auth.md und Agent Card
-Zu einem Level-5-Setup gehört zwingend die `auth.md` (als reine, maschinenlesbare Markdown-Datei) und die `agent-card.json` (nach dem a2a-protocol.org Standard). Diese Dateien fungieren als standardisierte Schnittstellen für autonome Agenten. Sie signalisieren: "Ich bin eine verifizierte, offene und kooperative Entität. Hier sind meine Credentials." Wer diese Standards ignoriert, signalisiert der KI, dass er etwas zu verbergen hat.
+### maschinenlesbare Endpunkt-Dokumentation und Agent Card
+Zu einem Level-5-Setup gehört zwingend die `maschinenlesbare Endpunkt-Dokumentation` (als reine, maschinenlesbare Markdown-Datei) und die `standardisierte Agent-Identity-Schnittstellen` (nach dem a2a-protocol.org Standard). Diese Dateien fungieren als standardisierte Schnittstellen für autonome Agenten. Sie signalisieren: "Ich bin eine verifizierte, offene und kooperative Entität. Hier sind meine Credentials." Wer diese Standards ignoriert, signalisiert der KI, dass er etwas zu verbergen hat.
 
 ### Verschachteltes Schema.org
 Wir reden nicht von einem simplen LocalBusiness-Snippet. Wir reden von tief verschachteltem Code. Eine `Article`-Entität, geschrieben von einer `Person`-Entität, die Teil einer `Organization`-Entität ist, verifiziert durch `sameAs`-Links zu Social Profiles und Alumni-Datenbanken. Du webt ein Netz aus Daten, das so engmaschig ist, dass die KI gar nicht anders kann, als deine Relevanz mathematisch zu bestätigen.

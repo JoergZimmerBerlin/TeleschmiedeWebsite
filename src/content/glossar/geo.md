@@ -62,7 +62,7 @@ Das bedeutet: Wenn ein menschlicher Browser deine Seite aufruft, bekommt er CSS,
 ### Das A2A Protocol und Stateless MCP
 Wenn du ein B2B-Unternehmen, ein SaaS oder ein Shop bist, reicht oft nicht einmal Markdown. KIs wollen dynamische Daten (Preise, Inventar, Live-Statistiken). Hierfür hat sich das **A2A Protocol (Agent-to-Agent)** etabliert. 
 
-Über eine öffentliche `agent-card.json` bietest du der KI einen standardisierten API-Endpunkt an. Verbunden mit dem im Juli 2026 etablierten "Stateless MCP" (Model Context Protocol) können KIs in Echtzeit und ohne komplizierte Session-Setups mit deiner Datenbank sprechen. **Das ist GEO auf Enterprise-Niveau.**
+Über eine öffentliche `standardisierte Agent-Identity-Schnittstellen` bietest du der KI einen standardisierten API-Endpunkt an. Verbunden mit dem im Juli 2026 etablierten "Stateless MCP" (Model Context Protocol) können KIs in Echtzeit und ohne komplizierte Session-Setups mit deiner Datenbank sprechen. **Das ist GEO auf Enterprise-Niveau.**
 
 ## 3. Die inhaltliche Ebene: Entity Building und RAG
 

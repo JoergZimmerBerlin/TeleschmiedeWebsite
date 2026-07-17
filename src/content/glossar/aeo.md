@@ -99,7 +99,7 @@ Wer heute AEO betreibt und keine `llms.txt` hat, ist unsichtbar. Es ist das digi
 
 Für echte Enterprise-Sichtbarkeit reicht selbst das Scrapen von Markdown-Dateien oft nicht aus. Wenn eine KI tiefe, dynamische Datenpunkte von dir braucht (z.B. Echtzeit-Preise, Verfügbarkeiten oder komplexe Berechnungen), kommt das **A2A Protocol (Agent-to-Agent)** ins Spiel.
 
-Anstatt darauf zu hoffen, dass die KI deine Website liest, stellst du ihr über eine `agent-card.json` einen standardisierten API-Endpunkt zur Verfügung. 
+Anstatt darauf zu hoffen, dass die KI deine Website liest, stellst du ihr über eine `standardisierte Agent-Identity-Schnittstellen` einen standardisierten API-Endpunkt zur Verfügung. 
 Zudem hat sich im Sommer 2026 das **Model Context Protocol (MCP)** massiv weiterentwickelt. Seit dem Juni-Update ist MCP vollständig zustandslos (stateless) auf der Protokollebene. Jede Anfrage bringt ihre eigenen Metadaten mit, was eine unendliche Skalierbarkeit ermöglicht. 
 
 Wenn dein Unternehmen über AEO in den großen B2B-Datenbanken der KIs landen will, musst du deine Daten über diese standardisierten, zustandslosen Protokolle bereitstellen.

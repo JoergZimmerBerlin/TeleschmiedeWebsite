@@ -7,15 +7,15 @@ image: "../../assets/images/glossar/3d-light/glossar-agent-readiness-level-3d.we
 image_alt: "3D Infografik zum Agent Readiness Reifegrad für Websites"
 key_takeaways:
   - "Agent Readiness ist die neue Metrik, die klassisches SEO im Unternehmenssektor ablöst."
-  - "Eine echte Agent Readiness erfordert volle Autonomie: A2A-Kompatibilität, auth.md und OAuth-geschützte Metadaten."
+  - "Eine echte Agent Readiness erfordert volle Autonomie: A2A-Kompatibilität, maschinenlesbare Endpunkt-Dokumentation und OAuth-geschützte Metadaten."
   - "Wer heute nicht auf KI-Sichtbarkeit optimiert, verliert morgen seine wichtigsten Leads."
 faqs:
   - question: "Was ist Agent Readiness genau?"
     answer: "Es ist ein inoffizieller Branchenstandard und eine diagnostische Metrik, die misst, wie gut eine Website darauf vorbereitet ist, von KI-Agenten maschinenlesbar verstanden und vollautonom bedient zu werden. Es geht nicht um bunte Bilder, sondern um harte, semantische Schnittstellen."
   - question: "Reicht es nicht, wenn meine Website ein gutes Google-Ranking hat?"
-    answer: "Nein. Ein hohes Ranking bei Google hilft Menschen, dich zu finden. Aber im Jahr 2026 delegieren Entscheider in Unternehmen und Endkunden die Suche an autonome Agenten. Diese Agenten klicken nicht auf Google-Links. Sie scrapen APIs, werten `agent-card.json` Dateien aus und prüfen `llms.txt` Dateien. Wenn du dort unsichtbar bist, nutzt dir Platz 1 bei Google absolut gar nichts."
+    answer: "Nein. Ein hohes Ranking bei Google hilft Menschen, dich zu finden. Aber im Jahr 2026 delegieren Entscheider in Unternehmen und Endkunden die Suche an autonome Agenten. Diese Agenten klicken nicht auf Google-Links. Sie scrapen APIs, werten `standardisierte Agent-Identity-Schnittstellen` Dateien aus und prüfen `llms.txt` Dateien. Wenn du dort unsichtbar bist, nutzt dir Platz 1 bei Google absolut gar nichts."
   - question: "Welche Dateien brauche ich, um die volle Agent-Kompatibilität zu erreichen?"
-    answer: "Du benötigst ein sauberes Setup im `.well-known` Verzeichnis. Das Rückgrat bilden die `ai.txt` (für Crawling-Regeln), die `llms.txt` (für Answer Engines), sowie die `agent-card.json` und die `auth.md` (für die A2A-Kommunikation und autonome Authentifizierung). Außerdem müssen deine internen Tools via stateless MCP angebunden sein."
+    answer: "Du benötigst ein sauberes Setup im `.well-known` Verzeichnis. Das Rückgrat bilden die `ai.txt` (für Crawling-Regeln), die `llms.txt` (für Answer Engines), sowie die `standardisierte Agent-Identity-Schnittstellen` und die `maschinenlesbare Endpunkt-Dokumentation` (für die A2A-Kommunikation und autonome Authentifizierung). Außerdem müssen deine internen Tools via stateless MCP angebunden sein."
   - question: "Ist die volle Agent-Kompatibilität für ein kleines Unternehmen überhaupt machbar?"
     answer: "Absolut! Eine echte Agent Readiness erfordert kein millionenschweres IT-Budget. Es erfordert lediglich sauberes, technisches Verständnis moderner Web-Standards. Oft reicht es schon, statische JSON- und Markdown-Dateien im Root-Verzeichnis abzulegen und serverseitig Content Negotiation (Markdown) zu aktivieren, um 95% der Konkurrenz abzuhängen."
   - question: "Wie kann ich meine eigene Agent Readiness heute testen?"
@@ -56,18 +56,18 @@ Hier beginnt die Profiliga. In dieser Phase unterstützt deine Website Formate, 
 Deine Infrastruktur ist jetzt eine Plattform. Du hast API-Kataloge und [MCP-Server-Definitionen](/glossar/model-context-protocol-mcp/) in deinem `.well-known` Ordner hinterlegt. Ein anklopfender Agent sieht nicht nur Content, sondern er sieht die Werkzeuge (Tools) und Datenbanken, die du für autorisierte Systeme freigibst.
 
 ### Die Königsklasse: Volle Autonomie (Agent-Native)
-Die absolute Spitze! Die Website ist voll an das [A2A-Protokoll](/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `agent-card.json` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `auth.md` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das bauen wir in der Teleschmiede für unsere Kunden.
+Die absolute Spitze! Die Website ist voll an das [A2A-Protokoll](/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `standardisierte Agent-Identity-Schnittstellen` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `maschinenlesbare Endpunkt-Dokumentation` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das bauen wir in der Teleschmiede für unsere Kunden.
 
 ## Warum ist die volle Agent-Kompatibilität so überlebenswichtig?
 
-Viele Geschäftsführer, mit denen ich spreche, halten das für Zukunftsmusik. Sie sagen: *"Herr Zimmer, unsere Kunden sind Menschen. Menschen kaufen von Menschen. Warum brauche ich eine auth.md?"*
+Viele Geschäftsführer, mit denen ich spreche, halten das für Zukunftsmusik. Sie sagen: *"Herr Zimmer, unsere Kunden sind Menschen. Menschen kaufen von Menschen. Warum brauche ich eine maschinenlesbare Endpunkt-Dokumentation?"*
 
 Diese Denkweise ist fatal. Ja, am Ende entscheidet oft noch ein Mensch über das finale Budget. Aber der **Research-Prozess** (die Evaluierung) wird bereits heute an Maschinen ausgelagert.
 
 Stell dir vor, du bist ein Dienstleister. Ein potenzieller Kunde nutzt im Juli 2026 seinen KI-Assistenten (der auf Stateless MCP läuft) und sagt: *"Scanne den Markt in DACH nach den 5 besten Anbietern in dieser Nische, prüfe ihre Verfügbarkeit über ihre APIs und buche mir nächste Woche bei den Top 3 einen Discovery-Call."*
 
 * **Dienstleister A (Not Ready):** Die KI muss die Website mühsam parsen, findet keine sauberen Preise, findet kein Kontaktformular, das ohne Captcha auskommt. Die KI bricht ab.
-* **Dienstleister B (Agent-Native):** Die KI pingt die Domain an, liest in Millisekunden die `agent-card.json`, verifiziert sich über die `auth.md`, holt sich via MCP die Kalender-Verfügbarkeit und bucht den Termin. 
+* **Dienstleister B (Agent-Native):** Die KI pingt die Domain an, liest in Millisekunden die `standardisierte Agent-Identity-Schnittstellen`, verifiziert sich über die `maschinenlesbare Endpunkt-Dokumentation`, holt sich via MCP die Kalender-Verfügbarkeit und bucht den Termin. 
 
 Dienstleister B bekommt den Auftrag. Dienstleister A hat nicht einmal mitbekommen, dass er überhaupt auf dem Radar war. Das ist die brutale Realität von Agent Readiness.
 
@@ -76,7 +76,7 @@ Dienstleister B bekommt den Auftrag. Dienstleister A hat nicht einmal mitbekomme
 Ich rede hier nicht von abstrakten Konzepten. Schau dir unsere eigene Domain an. Die Teleschmiede ist eine Blaupause für Agent Readiness in Deutschland. Wir haben das Fundament so gegossen, dass wir für jedes Agenten-System der Zukunft gerüstet sind.
 
 Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysiere einfach unseren öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
-Dort findest du unsere `agent-card.json`, unsere `auth.md`, unsere OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
+Dort findest du unsere `standardisierte Agent-Identity-Schnittstellen`, unsere `maschinenlesbare Endpunkt-Dokumentation`, unsere OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
 
 Wir nutzen diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Wir reduzieren Reibungsverluste im Vertrieb auf null, indem wir Maschinen die Vorarbeit leisten lassen, auf die ohnehin kein Mitarbeiter Lust hat.
 
@@ -93,7 +93,7 @@ Nimm diesen Prompt, kopiere ihn in ChatGPT, Claude, Perplexity oder deinen firme
 **Prompt für deinen KI-Agenten:**
 ```text
 Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach aktuellen Agent Readiness Reifegradmodellen mit Stand Juli 2026. 
-- Prüfe systematisch das Vorhandensein von `robots.txt`, `ai.txt`, `llms.txt`, `.well-known/agent-card.json` und `.well-known/auth.md`. 
+- Prüfe systematisch das Vorhandensein von `robots.txt`, `ai.txt`, `llms.txt`, `.well-known/standardisierte Agent-Identity-Schnittstellen` und `.well-known/maschinenlesbare Endpunkt-Dokumentation`. 
 - Teste, ob mein Server 'Markdown Content Negotiation' unterstützt.
 - Liefere mir einen extrem kritischen Status-Report. Wenn ich schlecht abschneide, erkläre mir messerscharf, welche konkreten Umsätze ich durch diese technische Ignoranz in der aktuellen Agenten-Ökonomie an Mitbewerber (die komplett AI-Ready sind) verliere. Schreibe mir einen priorisierten Maßnahmenplan, um die volle Agent-Kompatibilität zu erreichen.
 ```

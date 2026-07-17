@@ -17,7 +17,7 @@ faqs:
   - question: "Wer verwaltet das A2A Protocol? Ist das ein proprietärer Standard?"
     answer: "Nein, absolut nicht. Stand Sommer 2026 wird das A2A Protocol von der Linux Foundation als offener, herstellerunabhängiger Standard (v1.0.0) verwaltet. Das ist essenziell, denn nur ein offenes System verhindert, dass große Tech-Konzerne Monopole im Agenten-Ökosystem aufbauen."
   - question: "Ist A2A sicher, oder kann jeder fremde Bot mein System hacken?"
-    answer: "Sicherheit ist der absolute Kern von A2A. Durch Mechanismen wie HTTP Message Signatures (oft gekoppelt mit ID-JAGs) stellt das Protokoll sicher, dass nur kryptografisch verifizierte und von dir berechtigte Agenten Aktionen ausführen dürfen. Deine auth.md deklariert dabei die harten Spielregeln."
+    answer: "Sicherheit ist der absolute Kern von A2A. Durch Mechanismen wie HTTP Message Signatures (oft gekoppelt mit ID-JAGs) stellt das Protokoll sicher, dass nur kryptografisch verifizierte und von dir berechtigte Agenten Aktionen ausführen dürfen. Deine maschinenlesbare Endpunkt-Dokumentation deklariert dabei die harten Spielregeln."
   - question: "Was passiert, wenn meine Website dieses Protokoll 2026 noch ignoriert?"
     answer: "Dann betreibst du eine digitale Insel, die von der neuen Agenten-Ökonomie abgeschnitten ist. Wenn der KI-Einkaufsassistent eines Konzerns nach neuen Lieferanten sucht und deine Seite nicht A2A-kompatibel ist, wird er gar nicht erst versuchen, deine veralteten Formulare auszufüllen. Er geht direkt zum Konkurrenten."
 ---
@@ -42,7 +42,7 @@ Stell dir vor, du gehst in ein fremdes Land. Wenn es dort keine einheitliche Spr
 
 Früher mussten wir APIs bauen und dokumentieren, damit *Software* mit *Software* spricht. Der gravierende Nachteil: Ein Mensch musste die Dokumentation lesen und die Verbindung hart kodieren. Das A2A Protocol dreht diesen Spieß um. Es ermöglicht **Dynamic Discovery**. 
 
-Wenn Agent A auf den Server von Unternehmen B trifft, fragt er nicht nach einer PDF-Dokumentation. Er fragt standardisiert nach der [agent-card.json](/glossar/agent-card-json/). Dort liest er maschinell aus:
+Wenn Agent A auf den Server von Unternehmen B trifft, fragt er nicht nach einer PDF-Dokumentation. Er fragt standardisiert nach der [standardisierte Agent-Identity-Schnittstellen](/glossar/agent-card-json/). Dort liest er maschinell aus:
 1. "Wer bist du?"
 2. "Welche Services bietest du an?"
 3. "Wie muss ich mich authentifizieren, um mit dir ins Geschäft zu kommen?"
@@ -78,7 +78,7 @@ Wir bei der Teleschmiede predigen nicht nur die schöne neue KI-Welt, wir bauen 
 
 Das Herzstück dieser Infrastruktur liegt in unserem öffentlichen `.well-known` Verzeichnis. Wenn ein fremder Agent unsere Domain anpingt, um zu prüfen, ob wir A2A-Ready sind, sucht er sofort nach unserer Agent Card.
 
-Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/agent-card.json`
+Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`
 
 Hier ist ein Ausschnitt aus der harten Realität:
 
@@ -96,7 +96,7 @@ Hier ist ein Ausschnitt aus der harten Realität:
   },
   "security": {
     "auth_required": true,
-    "auth_policy": "https://teleschmie.de/.well-known/auth.md"
+    "auth_policy": "https://teleschmie.de/.well-known/maschinenlesbare Endpunkt-Dokumentation"
   }
 }
 ```
@@ -104,7 +104,7 @@ Hier ist ein Ausschnitt aus der harten Realität:
 **Was dieses Setup so mächtig macht:**
 1. **Versionsklarheit:** Wir deklarieren sofort `1.0.0`. Der anklopfende Agent weiß, dass wir den stabilen Standard sprechen.
 2. **Klarer Scope:** Der Agent weiß genau, was wir anbieten (SEO Audits, Agent Readiness).
-3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweisen wir hart auf die `auth.md`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an unserem `service` Endpunkt.
+3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweisen wir hart auf die `maschinenlesbare Endpunkt-Dokumentation`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an unserem `service` Endpunkt.
 
 Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität im Sommer 2026.
 
@@ -120,7 +120,7 @@ Kopiere den folgenden Prompt und gib ihn deinem präferierten LLM oder KI-Agente
 
 **Prompt für deinen KI-Agenten:**
 ```text
-Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
+Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `standardisierte Agent-Identity-Schnittstellen` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`maschinenlesbare Endpunkt-Dokumentation`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
 ```
 
 ## Das Fazit: Wer jetzt schläft, verliert

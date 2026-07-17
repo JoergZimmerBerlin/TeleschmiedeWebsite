@@ -46,9 +46,9 @@ Der Nutzer klickt darauf, weil er der KI vertraut. Der Klick ist extrem hochwert
 
 Das Bidding-System hat sich radikal verändert. Du als Mensch stellst keine manuellen CPC-Gebote mehr ein. Das erledigt dein eigener Werbe-Agent.
 
-Wir sind auf dem Cloudflare Radar Level 5 angekommen. Das bedeutet, wir haben Agent-to-Agent (A2A) Kommunikation. Dein Agent kommuniziert mit dem Ads-Netzwerk-Agenten über APIs und das Model Context Protocol (MCP). Sie verhandeln in Echtzeit darüber, ob der vorliegende Nutzer (inklusive seiner Persona, seinem bisherigen Chat-Verlauf und seiner Bonität) den aufgerufenen Preis wert ist.
+Wir sind auf dem den höchsten Agent Readiness Standards angekommen. Das bedeutet, wir haben Agent-to-Agent (A2A) Kommunikation. Dein Agent kommuniziert mit dem Ads-Netzwerk-Agenten über APIs und das Model Context Protocol (MCP). Sie verhandeln in Echtzeit darüber, ob der vorliegende Nutzer (inklusive seiner Persona, seinem bisherigen Chat-Verlauf und seiner Bonität) den aufgerufenen Preis wert ist.
 
-Das ist Hochfrequenzhandel im Marketing. Wenn du deine Infrastruktur nicht auf diese maschinelle Lesbarkeit und A2A-Kommunikation ausgerichtet hast (Stichwort: `agent-card.json` und `auth.md`), versteht dein Agent nicht mal, was auf deiner Seite passiert. Er bietet blind und verbrennt dein Geld im Minutentakt.
+Das ist Hochfrequenzhandel im Marketing. Wenn du deine Infrastruktur nicht auf diese maschinelle Lesbarkeit und A2A-Kommunikation ausgerichtet hast (Stichwort: `standardisierte Agent-Identity-Schnittstellen` und `maschinenlesbare Endpunkt-Dokumentation`), versteht dein Agent nicht mal, was auf deiner Seite passiert. Er bietet blind und verbrennt dein Geld im Minutentakt.
 
 ## 3. Der CPC als Indikator für den Marktwert
 
@@ -72,7 +72,7 @@ Das macht SEO für Agenten zur rentabelsten Investition deines gesamten Unterneh
 
 Hör auf, sinnlos Geld in überteuerte Klicks zu pumpen, wenn deine organische Basis Schrott ist. Der CPC wird nicht mehr sinken. Er wird weiter steigen, weil die KI den Traffic immer stärker vorqualifiziert.
 
-Nutze die Ads-Daten, um die wertvollsten Nutzer-Intents zu finden. Und dann? Dann gehst du an die Arbeit. Mach deine Seite "Agent Ready". Schreibe deine `auth.md`. Halte das A2A-Protokoll ein. Liefere deine Inhalte im Markdown aus, wenn der Crawler danach fragt. 
+Nutze die Ads-Daten, um die wertvollsten Nutzer-Intents zu finden. Und dann? Dann gehst du an die Arbeit. Mach deine Seite "Agent Ready". Schreibe deine `maschinenlesbare Endpunkt-Dokumentation`. Halte das A2A-Protokoll ein. Liefere deine Inhalte im Markdown aus, wenn der Crawler danach fragt. 
 
 Am Ende gewinnt derjenige, der der Maschine die saubersten Daten liefert. Denn der beste CPC ist der, den du gar nicht erst bezahlen musst.
 

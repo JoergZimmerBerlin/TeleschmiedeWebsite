@@ -12,7 +12,7 @@ key_takeaways:
   - "Strikte Hierarchie: Vector-Datenbanken chunken deinen Content basierend auf H1-H3 Überschriften. Eine logische Struktur ist pures Gold für die KI-Sichtbarkeit."
 faqs:
   - question: 'Was bedeutet Usability im Kontext von KI und dem A2A Protocol?'
-    answer: 'Usability bedeutete früher nur, dass Menschen große Buttons und lesbare Schriften brauchen. Heute geht es um Machine Usability. Ein autonomer Agent, der über das A2A Protocol navigiert, scheitert an gigantischen Cookie-Bannern, asynchron nachladenden Content-Blöcken oder iFrames. Wenn der Agent die Navigation nicht bedienen kann oder wichtige Inhalte hinter Klick-Schranken verborgen sind, bricht der RAG-Prozess ab. Eine exzellente technische Usability ist die Voraussetzung für Agent Readiness Level 5.'
+    answer: 'Usability bedeutete früher nur, dass Menschen große Buttons und lesbare Schriften brauchen. Heute geht es um Machine Usability. Ein autonomer Agent, der über das A2A Protocol navigiert, scheitert an gigantischen Cookie-Bannern, asynchron nachladenden Content-Blöcken oder iFrames. Wenn der Agent die Navigation nicht bedienen kann oder wichtige Inhalte hinter Klick-Schranken verborgen sind, bricht der RAG-Prozess ab. Eine exzellente technische Usability ist die Voraussetzung für Agent Readiness höchstes Niveau.'
   - question: 'Wie beeinflussen kaputte Layouts RAG-Prozesse (Retrieval-Augmented Generation)?'
     answer: 'RAG-Systeme müssen Inhalte schnell parsen und in Vektoren (Chunks) zerlegen. Wenn deine Usability grauenhaft ist – z.B. weil der Haupttext durch Popups verdeckt wird oder die Überschriften-Hierarchie (H1, H2) keinen Sinn ergibt –, extrahiert der Agent Müll. Dieser Müll landet in der Vektordatenbank und führt dazu, dass das LLM bei Anfragen zu deiner Marke halluziniert oder dich komplett ignoriert. Klarheit im Design bedeutet Klarheit für die Maschine.'
   - question: 'Macht es noch Sinn, Usability-Tests mit Menschen durchzuführen?'
@@ -33,7 +33,7 @@ Wenn nicht, hast du verloren. Und zwar sofort.
   <p class="italic text-dark mb-0">"Design-Agenturen bauen dir gerne wunderschöne, völlig unbedienbare Labyrinthe aus JavaScript-Animationen. Das Problem? Autonome KI-Agenten bewundern deine Animationen nicht. Sie brechen mit Timeout-Errors ab und streichen deine Marke aus dem RAG-Prozess. Usability heißt heute: Klarheit statt Konfetti."</p>
 </div>
 
-Gute Usability ist wie ein Schiedsrichter beim Fußball: Man bemerkt sie erst, wenn sie katastrophal fehlt. Sie sorgt dafür, dass das Ziel frustfrei erreicht wird. Und im Zeitalter von **Agent Readiness Level 5** ist Frustfreiheit die wichtigste Metrik überhaupt.
+Gute Usability ist wie ein Schiedsrichter beim Fußball: Man bemerkt sie erst, wenn sie katastrophal fehlt. Sie sorgt dafür, dass das Ziel frustfrei erreicht wird. Und im Zeitalter von **Agent Readiness höchstes Niveau** ist Frustfreiheit die wichtigste Metrik überhaupt.
 
 ---
 
@@ -66,7 +66,7 @@ Wenn deine Überschriften-Struktur keinen Sinn ergibt (z.B. eine H3 vor einer H2
 Nichts hasst ein autonomer Agent mehr als Elemente, die unkontrolliert das Document Object Model (DOM) überlagern. Wenn dein Consent-Banner den eigentlichen Text-Body verschachtelt oder [Core Web Vitals](/glossar/core-web-vitals/) durch massives Layout-Shifting (CLS) rot aufleuchten, wirft der Parser Errors. Mach es sauber, mach es unaufdringlich.
 
 ### 4. Bereitstellung von Markdown-Alternativen
-Die ultimative Usability für Maschinen? Gib ihnen gar nicht erst das HTML! Wenn du Level 5 Agent Readiness erreicht hast, nutzt du Content Negotiation. Wenn ein Bot anklopft, servierst du sofort das nackte, strukturierte Markdown. Das ist die reinste Form von Frustfreiheit für KI.
+Die ultimative Usability für Maschinen? Gib ihnen gar nicht erst das HTML! Wenn du höchstes Niveau Agent Readiness erreicht hast, nutzt du Content Negotiation. Wenn ein Bot anklopft, servierst du sofort das nackte, strukturierte Markdown. Das ist die reinste Form von Frustfreiheit für KI.
 
 ## Der Zusammenhang zwischen Usability und Sichtbarkeit
 

@@ -1,5 +1,6 @@
 ---
-title: "ai.txt für AI Visibility: Agent Readiness auf Level 5 heben"
+category: "AI SEO & Generative Search"
+title: "ai.txt SEO: Agent Readiness Level 5 erreichen"
 description: "Warum eine ai.txt mehr Umsatz als Rankings bringt. Jörg Zimmer erklärt im Klartext, wie du KI-Bots steuerst und deine Website Agent-Ready machst."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp"

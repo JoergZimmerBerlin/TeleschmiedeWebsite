@@ -1,5 +1,6 @@
 ---
-title: "auth.md: Wie sich KIs ohne Captchas im B2B anmelden"
+category: "AI SEO & Generative Search"
+title: "auth.md: Autonome KI B2B-Anmeldung ohne Captcha"
 description: "WorkOS und ID-JAGs beenden die Captcha-Hölle für Bots. Jörg Zimmer zeigt, wie die auth.md autonome Agent Verified Flows ermöglicht."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-auth-md-3d.webp"

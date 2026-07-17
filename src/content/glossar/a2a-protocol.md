@@ -1,5 +1,6 @@
 ---
-title: "A2A Protocol: Wie KI-Agenten im B2B-Umfeld autonom verhandeln"
+category: "AI SEO & Generative Search"
+title: "A2A Protocol: Autonome KI-Agenten im B2B-Umfeld"
 description: "Vergiss APIs für Menschen. Das A2A Protocol (v1.0.0) ist der Industrie-Standard für Agent-to-Agent Kommunikation. Jörg Zimmer erklärt den Shift."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-a2a-protocol-3d.webp"

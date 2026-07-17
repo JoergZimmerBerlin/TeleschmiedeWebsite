@@ -1,5 +1,6 @@
 ---
-title: "ai-plugin.json: Warum ChatGPT Plugins im Sommer 2026 Geschichte sind"
+category: "AI SEO & Generative Search"
+title: "ai-plugin.json: Warum ChatGPT Plugins tot sind"
 description: "Der Untergang der ChatGPT Plugins und der Aufstieg von MCP und A2A. Jörg Zimmer erklärt den Shift weg von der ai-plugin.json hin zur Agent-Autonomie."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-plugin-json-3d.webp"

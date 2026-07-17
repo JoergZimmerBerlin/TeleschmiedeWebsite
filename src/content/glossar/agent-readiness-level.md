@@ -1,5 +1,6 @@
 ---
-title: "Agent Readiness Level: Auf Stufe 5 für autonome KI-Agenten"
+category: "AI SEO & Generative Search"
+title: "Agent Readiness Level: Stufe 5 für autonome KIs"
 description: "Cloudflares isitagentready.com deckt es auf: Die meisten Websites hängen auf Level 0 fest. Jörg Zimmer zeigt den Weg zum Agent Readiness Level 5."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agent-readiness-level-3d.webp"

@@ -1,5 +1,6 @@
 ---
-title: "Markdown Content Negotiation: Wie du KIs den Text auf dem Silbertablett servierst"
+category: "AI SEO & Generative Search"
+title: "Markdown Content Negotiation: KI Token-Ersparnis"
 description: "HTML ist für Bots teuer und nervig. Jörg Zimmer zeigt, wie du durch Markdown Content Negotiation Token-Kosten sparst und auf Agent Readiness Level 3 aufsteigst."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-markdown-content-negotiation-3d.webp"

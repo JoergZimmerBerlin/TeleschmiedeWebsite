@@ -1,43 +1,60 @@
-# 🚀 AI Readiness Update (Cloudflare Radar Level 5)
+# 🚀 AI Readiness & SEO Update (Juli 2026)
 **An:** Max & Claude Code
 **Von:** Jörg & Antigravity (Teleschmiede)
 **Datum:** Juli 2026
 
 Hallo Max, hallo Claude! 👋 
 
-Wir haben das Repo heute massiv aufgerüstet und die Infrastruktur auf das offizielle **"Agent Readiness Level 5"** gehoben. Damit ist das System perfekt vorbereitet für alle autonomen LLMs, RAG-Systeme und A2A (Agent-to-Agent) Protokolle. 
+Wir haben das Repo in den letzten 60 Stunden massiv aufgerüstet. Neben der technischen Infrastruktur für das offizielle **"Agent Readiness Level 5"** haben wir einen gigantischen Content- und SEO-Sprint hingelegt. 
 
-Hier ist die vollständige Übersicht der neuen Architektur-Komponenten, die ab sofort live sind. Bitte beachtet diese beim weiteren Coden:
+Hier ist die vollständige Übersicht aller Maßnahmen, die ab sofort live sind. Bitte beachtet diese beim weiteren Coden:
 
-### 1. Markdown Content Negotiation
-- **Was es ist:** HTML-Seiten werden nach dem Build automatisch in sauberes Markdown konvertiert (`generate-markdown-pages.mjs`).
-- **Wo es liegt:** Die `.htaccess` fängt Anfragen mit dem Header `Accept: text/markdown` ab und liefert direkt das Markdown-Dokument aus, ohne dass Crawler das DOM parsen müssen.
+## 🟢 Teil 1: Content, Branding & SEO
 
-### 2. LLMs Knowledge Dumps (`llms.txt`)
-- **Was es ist:** Die geballte Projekt-Doku und alle Artikel als direkter Context-Feed für RAG.
-- **Wo es liegt:** `public/llms.txt` (Index) und `public/llms-full.txt` (kompletter Dump). Wird bei jedem Build via `generate-llms-full.sh` aktualisiert.
+### 1. Massive Content-Erweiterung (15 neue Fachartikel)
+Wir haben das KI-Glossar massiv ausgebaut, um die gesamte Tiefe der Agenten-Technologie und des modernen SEOs abzubilden.
+- **Welle 1 (9 Artikel):** Fokus auf Core SEO & GEO (z.B. AI Crawlers, Markdown-Relevanz, LLMO, RAG, Zero-Click Content etc.)
+- **Welle 2 (6 Artikel):** Hardcore "Agent Readiness Level 5" Themen (API Catalog, HTTP Message Signatures, identity.json, SOVP, DNS Sovereignty, RFC 8288).
 
-### 3. Agent Discovery (`.well-known` Verzeichnis)
-Das Herzstück der Agent-to-Agent Kommunikation. Befindet sich im Ordner `public/.well-known/`:
-- **`auth.md`:** Definiert die Richtlinien für die Authentifizierung von Web-Bots.
-- **`agent-card.json`:** Streng nach A2A Protocol v1.0 Schema. Zeigt anderen Agenten, welche Fähigkeiten unser System hat.
-- **`api-catalog`:** Maschinenlesbares Endpunkt-Verzeichnis nach RFC 9727 (Linkset).
-- **`http-message-signatures-directory`:** Enthält den Ed25519 JWK für kryptografisch signierte HTTP-Header (RFC 9421).
-- **`identity.json`:** Der digitale "Vault-Nachweis" mit `integrity_proof` (Ed25519 Signatur), mit dem wir die Identität des Agenten ausweisen.
+### 2. Branding-Refactoring (Projektweit)
+- **Die goldene Regel:** "Teleschmiede" ist ab sofort *nur* noch der Domain/Projekt-Name. **Jörg Zimmer** ist der Solo-Experte und Freelancer. 
+- Das Wort "Agentur" oder die "Wir"-Form in Bezug auf Jörgs Dienstleistungen wurde in über 18 bestehenden Markdown-Dateien gnadenlos ausradiert. 
 
-### 4. AI Governance (`ai.txt` & `robots.txt`)
+### 3. DALL-E 3D Infografiken (Style-Guide)
+- Jeder der 15 neuen Artikel wurde mit einer maßgeschneiderten, isometrischen 3D-Infografik (`.webp`) ausgestattet. 
+- **Neue Richtlinie für Claude:** Reinweißer Hintergrund, lime-grüne Akzente (#D9FF00), Wasserzeichen "Jörg Zimmer". Maximal 4-6 Kernelemente und extrem große Typografie (für Thumbnails!).
+
+### 4. GSC Bulk-Indexierung
+- Wir haben eigene Node-Skripte geschrieben (`gsc-reindex-oldest.mjs` etc.), um das Crawl-Datum aller ~186 URLs aus der Search Console auszulesen.
+- Wir haben die 128 ältesten Karteileichen sowie die 15 komplett neuen Artikel massiv über die Google Indexing API gepusht.
+
+---
+
+## 🟢 Teil 2: Agent Readiness Level 5 (Infrastruktur)
+
+Damit das System perfekt für autonome LLMs, RAG-Systeme und A2A-Protokolle lesbar ist, wurden diese Architektur-Komponenten integriert:
+
+### 5. Markdown Content Negotiation
+- **Was es ist:** HTML-Seiten werden nach dem Build automatisch in Markdown konvertiert (`generate-markdown-pages.mjs`).
+- **Wo es liegt:** Die `.htaccess` liefert bei `Accept: text/markdown` direkt Markdown aus.
+
+### 6. LLMs Knowledge Dumps (`llms.txt`)
+- **Was es ist:** Die geballte Projekt-Doku für RAG.
+- **Wo es liegt:** `public/llms.txt` und `public/llms-full.txt`.
+
+### 7. Agent Discovery (`.well-known` Verzeichnis)
+Das Herzstück der Agent-to-Agent Kommunikation in `public/.well-known/`:
+- **`auth.md`:** Web-Bot Auth Richtlinien.
+- **`agent-card.json`:** A2A Protocol v1.0 Schema.
+- **`api-catalog`:** Endpunkt-Verzeichnis nach RFC 9727.
+- **`http-message-signatures-directory`:** Ed25519 JWK für kryptografisch signierte HTTP-Header (RFC 9421).
+- **`identity.json`:** Der digitale "Vault-Nachweis" mit `integrity_proof`.
+
+### 8. AI Governance (`ai.txt` & `robots.txt`)
 - **Was es ist:** Die strikte Cloudflare Radar Level 5 Deklaration.
-- **Wo es liegt:** `public/ai.txt`. Definiert klare Regeln (z. B. RAG erlaubt, Model-Training Opt-Out). Diese Datei ist nun offiziell ganz unten in der `public/robots.txt` verlinkt, damit Crawler sie direkt finden.
+- **Wo es liegt:** `public/ai.txt`. (RAG erlaubt, Model-Training Opt-Out). Verlinkt in der `public/robots.txt`.
 
-### 5. RFC 8288 Link Headers
-- **Was es ist:** Token-sparende Beziehungen.
-- **Wo es liegt:** In der `.htaccess` werden `Link`-Header gesendet (z.B. `</.well-known/mcp.json>; rel="service-doc"`), sodass Agenten sofort wissen, wo die APIs liegen, ohne den HTML-Head zu crawlen. **Wichtig:** Keine Anführungszeichen in den spitzen Klammern!
-
-### 6. DNS Sovereignty (Souveränes Validierungs-Protokoll)
-- **Was es ist:** Vorbereitung für zensurresistente Zonen-Verwaltung.
-- Wir etablieren Jörg als Solo-Experten und bauen ein dezentrales Vertrauens-Setup auf (SOVP).
-
-**Zusatz-Hinweis für Claude Code:**
-Bitte checke die `.agents/AGENTS.md` für die neuesten internen Coding-Guidelines (u.a. exakte Styling-Vorgaben für die DALL-E Bilder).
+### 9. RFC 8288 Link Headers
+- **Wo es liegt:** In der `.htaccess` werden `Link`-Header gesendet (z.B. `</.well-known/mcp.json>; rel="service-doc"`), ohne Anführungszeichen in den spitzen Klammern!
 
 Viel Spaß mit dem aufgerüsteten Maschinenraum! ⚙️

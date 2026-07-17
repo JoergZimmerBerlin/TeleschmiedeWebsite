@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'GEO Audit: Check für deine KI-Sichtbarkeit'
 description: 'GEO Audit nach den Juli 2026 Agent Readiness Standards: So prüfst du llms.txt, Markdown Content Negotiation, Stateless MCP und das A2A Protocol auf Herz und Nieren. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-18"
 image: "../../assets/images/glossar/3d-light/glossar-geo-audit-3d.webp"
 image_alt: "GEO Audit 3D Infografik - Analyse der KI-Sichtbarkeit und Agent Readiness"
 key_takeaways:

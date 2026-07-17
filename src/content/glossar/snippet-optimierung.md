@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Snippet Optimierung: CTR & AI-Visibility 2026'
 description: 'Snippet Optimierung (2026): Von Google Maps zur ''AI Overview''. Erfahre, wie Review-Sterne & Rich Snippets dein Trust-Level für LLMs steigern. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp"
 related_terms: ["ctr", "meta-description", "title-tag", "faq-markup", "geo"]
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Keyword Tools in 2026: Agent Readiness, Stability und Tacheles'
 description: 'Ein Keyword Tool hilft dir 2026 nicht mehr mit Suchvolumen. Es trackt Stability, Fanout und Agent Readiness. Ohne dieses Mindset bist du für KIs unsichtbar.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-tool-3d.webp"
 image_alt: "Keyword Tool 3D Infografik - Agent Readiness und Stability Analyse"
 related_terms: ["keywordrecherche", "keywoerter", "suchvolumen"]

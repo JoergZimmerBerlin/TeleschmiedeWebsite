@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Linkjuice (Linkkraft) 2026: Vertrauensfluss im KI-Zeitalter'
 description: 'Linkjuice 2026 erklärt: Wie sich Ranking-Power durch Entity-Citations und Agent Readiness verteilt. So steuerst du den Trust. ALOHA!'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkjuice-3d.webp"
 image_alt: "Linkjuice (Linkkraft) 3D Infografik"
 related_terms: ["crawling-vs-indexing", "entitaet", "linkbuilding"]

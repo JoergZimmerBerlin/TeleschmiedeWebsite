@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'FAQ Markup: Die ultimative RAG-Datenquelle für LLMs'
 description: 'FAQ Markup 2026: Von Rich Snippets zur primären Datenquelle für KI-Antworten (RAG). Erfahre alles über FAQPage Schema & Agent Readiness. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "strukturierte-daten", "rag", "geo"]
 key_takeaways:

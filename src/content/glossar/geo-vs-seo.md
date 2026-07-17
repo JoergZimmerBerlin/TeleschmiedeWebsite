@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'GEO vs. SEO: Die Zukunft der Suche im KI-Zeitalter'
 description: 'GEO vs. SEO nach den Juli 2026 Agent Readiness Standards: Warum klassisches SEO tot ist und A2A, llms.txt und MCP die neuen Rankingfaktoren sind. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-vs-seo-3d.webp"
 image_alt: "GEO vs. SEO 3D Infografik - Die Evolution der Suche im KI-Zeitalter"
 related_terms: ["geo", "ai-seo", "a2a-protocol", "llms-txt", "markdown-content-negotiation"]

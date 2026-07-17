@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'GEO Freelancer (Generative Engine Optimization)'
 description: 'Ein GEO Freelancer optimiert dein Ranking in KI-Suchmaschinen. Warum ein Spezialist für die Juli 2026 Agent Readiness Standards oft die bessere Wahl als eine Agentur ist.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-freelancer-3d.webp"
 image_alt: "GEO Freelancer 3D Infografik - Individuelle KI-Sichtbarkeits-Strategie"
 related_terms: ["geo", "geo-agentur", "seo-agentur", "entity-seo"]

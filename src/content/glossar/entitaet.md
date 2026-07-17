@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Entität (Entity): Die Basis des modernen SEO'
 description: 'Eine Entität ist 2026 der Grundbaustein der semantischen Suche. KI-Agenten zitieren nur verifizierte Entitäten mit absolutem E-E-A-T Trust. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["knowledge-graph", "geo", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]
 key_takeaways:

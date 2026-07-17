@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Mention (Erwähnung): Definition und KI-Bedeutung'
 description: 'Eine Mention ist der Treibstoff für Entity Building. Im Juli 2026 entscheidet sie über dein E-E-A-T und ob KI-Agenten dich wahrnehmen. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["citation", "entitaet", "e-e-a-t", "brand-mentions"]
 key_takeaways:

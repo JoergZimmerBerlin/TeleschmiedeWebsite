@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Technisches Schema-Markup: KI-Infrastruktur & LLM-SEO (2026)'
 description: 'Schema-Markup 2026: Von Rich Snippets zur harten AI-Infrastruktur für GPTBot & Co. Erfahre, wie Entity-Depth und Disambiguierung Agent Readiness garantieren. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "grounding-page", "entity-seo", "faq-markup", "technisches-seo"]
 key_takeaways:

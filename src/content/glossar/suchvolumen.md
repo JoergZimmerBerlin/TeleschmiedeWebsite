@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Suchvolumen 2026: Die nutzloseste Metrik im Zeitalter der KIs'
 description: 'Suchvolumen ist tot. Im Juli 2026 fächern generative KIs Suchanfragen auf (Fanout). Entdecke, warum Agent Readiness das neue Suchvolumen ist.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp"
 related_terms: ["keywoerter", "keyword-tool", "sichtbarkeit"]
 key_takeaways:

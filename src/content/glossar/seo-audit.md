@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'SEO Audit 2026: Der komplette Guide inkl. Agent Readiness'
 description: 'Ein SEO Audit im Juli 2026 erfordert mehr als Meta-Tags. Wir prüfen Agent Readiness, llms.txt, Markdown Negotiation und A2A-Endpunkte auf Herz und Nieren.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 tacheles: 'Wer heute noch ein 100-seitiges PDF voller H1-Fehler als "Audit" verkauft, betreibt Pfusch am Bau. 2026 reden wir über Agent Readiness: llms.txt, Markdown Negotiation und A2A-Endpunkte. Ein Audit muss schonungslos zeigen, warum Google Gemini und OpenAI deine Seite ignorieren. Alles andere ist Altpapier.'
 related_terms: ["sichtbarkeitsindex", "pagespeed", "interne-verlinkung"]

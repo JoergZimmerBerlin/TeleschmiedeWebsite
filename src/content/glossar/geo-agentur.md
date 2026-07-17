@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'GEO Agentur (Generative Engine Optimization)'
 description: 'Eine GEO Agentur optimiert deine Sichtbarkeit in KI-Suchmaschinen wie ChatGPT und Perplexity nach den Juli 2026 Agent Readiness Standards.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-agentur-3d.webp"
 image_alt: "GEO Agentur 3D Infografik - KI-Sichtbarkeit und SEO"
 related_terms: ["geo", "geo-vs-seo", "entity-seo", "seo-agentur"]

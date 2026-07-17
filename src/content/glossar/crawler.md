@@ -3,7 +3,7 @@ category: "Technisches SEO & UX"
 title: 'Crawler & Search Bots: Die autonomen Agenten des Internets'
 description: 'Crawler sind 2026 weit mehr als der Googlebot. GPTBot, autonome Agenten und RAG-Pipelines dominieren. Erfahre alles über Agent Readiness und Markdown Content Negotiation.'
 sameAs: "https://www.wikidata.org/wiki/Q45842"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"
 image_alt: "Crawler 3D Infografik - Suchmaschinen Bots und KI Agenten"
 related_terms: ["robots-txt", "crawling-vs-indexing", "sitemap", "geo", "llms-txt"]

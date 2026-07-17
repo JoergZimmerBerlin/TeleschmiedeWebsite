@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'Google Core Updates 2026: LLM-Anpassungen & AI Overviews'
 description: 'Google Core Updates sind 2026 keine simplen Ranking-Shifts mehr, sondern massive LLM-Gewichtungsanpassungen. Erfahre, wie du in den AI Overviews überlebst.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-core-update-3d.webp"
 related_terms: ["sichtbarkeitsindex", "e-e-a-t", "seo-audit", "agent-readiness"]
 key_takeaways:

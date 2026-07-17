@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Grounding Page: Der Anker für RAG und Agent Readiness (Juli 2026 Standards)'
 description: 'Vergiss klassische Landingpages. Eine Grounding Page nach dem A2A Protocol und den Juli 2026 Standards liefert Fakten für LLMs und Stateless MCP.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "entitaet", "llms-txt", "a2a-protocol"]
 key_takeaways:

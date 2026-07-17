@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'CPC (Cost per Click): Abrechnung im Zeitalter von AI & Agenten'
 description: 'Der Cost per Click (CPC) bei Google Ads explodiert. Warum Agent-to-Agent Bidding den Markt revolutioniert und wie du dein Budget rettest.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cpc-3d.webp"
 image_alt: "CPC (Cost per Click) 3D Infografik - Marktwert von Keywords"
 related_terms: ["keywoerter", "money-keyword", "conversion-rate"]

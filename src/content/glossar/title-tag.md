@@ -3,7 +3,7 @@ category: "SEO Basics & Onpage"
 title: 'Title Tag (HTML-Titel): Der erste Filter für KI & RAG-Crawler'
 description: 'Der Title Tag im Jahr 2026: Eines der wichtigsten Signale für OnPage SEO und Agent Readiness. Tipps für CTR, LLM-Crawling und Klickraten. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q65032661"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-linking.webp"
 related_terms: ["meta-description", "h1-h2-h3"]
 key_takeaways:

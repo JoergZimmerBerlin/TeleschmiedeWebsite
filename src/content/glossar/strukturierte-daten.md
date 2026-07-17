@@ -3,7 +3,7 @@ category: "Technisches SEO & UX"
 title: 'Strukturierte Daten: AI-Grounding & LLM-Fütterung (2026)'
 description: 'Strukturierte Daten (2026): Vom CMS-Plugin zur hochpräzisen Faktenquelle für KI-Modelle. Erfahre alles über AI-Grounding & Content Parity. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q26813700"
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "grounding-page", "knowledge-graph", "geo"]
 key_takeaways:

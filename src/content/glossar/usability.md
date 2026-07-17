@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Usability 2026: Human & Machine UX im A2A-Zeitalter'
 description: 'Usability im Jahr 2026 bedeutet: Deine Seite muss für Menschen intuitiv und für autonome KI-Agenten perfekt maschinenlesbar sein. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-usability-3d.webp"
 image_alt: "Usability 3D Infografik - User Experience für Menschen und KI-Agenten"
 related_terms: ["pagespeed", "conversion-rate", "traffic", "core-web-vitals"]

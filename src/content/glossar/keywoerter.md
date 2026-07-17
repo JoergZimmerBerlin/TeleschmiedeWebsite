@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Keywörter (Keywords): Von stumpfen Text-Strings zu intelligenten Entitäten'
 description: 'Keywords waren gestern. Im Jahr 2026 sprechen wir über Entitäten, Search Query Fanout und Agent Readiness. So baust du KI-optimierten Content.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"
 related_terms: ["suchvolumen", "keyword-tool", "keywordrecherche"]
 key_takeaways:

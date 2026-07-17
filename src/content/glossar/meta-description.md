@@ -3,7 +3,7 @@ category: "SEO Basics & Onpage"
 title: 'Meta Description 2026: RAG-Context & CTR-Hebel'
 description: 'Meta Description Optimierung für Agent Readiness: So formulierst du Snippets, die Klicks bringen und LLMs den perfekten Kontext liefern. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q3307180"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["title-tag", "noindex"]
 key_takeaways:

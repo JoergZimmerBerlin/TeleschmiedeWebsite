@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Citation (Zitierung): Der Ritterschlag der KI'
 description: 'Citations sind das ultimative Ziel im KI-Zeitalter. Warum RAG-Prozesse nur Entitäten zitieren, denen sie absoluten Trust (E-E-A-T) zuschreiben. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["mention", "entitaet", "markenaufbau-mit-seo", "brand-mentions"]
 key_takeaways:

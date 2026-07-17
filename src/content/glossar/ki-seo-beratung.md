@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'KI-SEO Beratung: Agentur für die Antwort-Ära'
 description: 'KI SEO Beratung nach den Juli 2026 Agent Readiness Standards: Warum klassische SEO-Agenturen scheitern und wie A2A, llms.txt und RAG die Suche dominieren. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-ki-seo-beratung-3d.png"
 image_alt: "KI SEO Beratung 3D Infografik - Agentur, Beratung und Optimierung im Zusammenspiel"
 key_takeaways:

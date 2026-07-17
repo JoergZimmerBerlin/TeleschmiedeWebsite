@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Entity SEO: Das Wissens-Netzwerk für KIs'
 description: 'Entity SEO (2026): Optimierung für den semantischen Vektorraum. Erfahre, wie du ''Entity Depth'' & Grounding für LLMs nutzt. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page"]
 key_takeaways:

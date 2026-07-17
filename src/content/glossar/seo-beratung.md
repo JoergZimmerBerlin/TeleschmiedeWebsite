@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'SEO Beratung & Consulting für A2A und LLM-Architektur'
 description: 'Professionelle SEO Beratung 2026 bedeutet den Umbau deiner Infrastruktur zum A2A- und LLM-Kraftpaket. Wer dir heute noch Meta-Keywords optimiert, raubt dich aus.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-audit", "seo-agentur", "keywordrecherche"]
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Brand Mentions: Markenwähnungen und SEO-Einfluss'
 description: 'Brand Mentions sind das Fundament deiner Entität. Unter den Juli 2026 Agent Readiness Standards entscheiden sie, ob KI dich zitiert.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["mention", "citation", "markenaufbau-mit-seo", "pressearbeit-im-seo"]
 key_takeaways:

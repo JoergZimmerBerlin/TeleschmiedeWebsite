@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'SEO Agentur Berlin: Vom Dienstleister zum A2A- und LLM-Architekten'
 description: 'Die klassische SEO Agentur ist tot. Im Juli 2026 entscheiden Agent Readiness, A2A-Protokolle und LLM-Architektur über Sichtbarkeit. Wer heute noch Keyword-Dichte optimiert, verbrennt dein Geld.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]
 key_takeaways:

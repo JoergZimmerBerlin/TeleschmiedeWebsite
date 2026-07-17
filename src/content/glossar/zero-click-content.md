@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'Zero-Click Content: Die harte Realität der Agent Readiness (Juli 2026)'
 description: 'Klicks waren gestern. Heute geht es um RAG-Injections und Stateless MCP. Wie du in der Zero-Click-Ära als Entität überlebst.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "ctr", "geo", "snippet-optimierung", "a2a-protocol"]
 key_takeaways:

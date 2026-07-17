@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'KI-Sichtbarkeit messen: Der ultimative Guide (Stand Juli 2026)'
 description: 'Wie du deine Präsenz in ChatGPT, AI Overviews & Co. misst und steigerst. Technik, Tools und Tacheles zu Agent Readiness von Jörg Zimmer.'
-date: "2026-07-17"
+date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-messen-optimieren-3d.png"
 image_alt: "KI-Sichtbarkeit messen und optimieren - 3D Infografik"
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Website SEO Audit: Analyse, Tools & Agent Readiness 2026'
 description: 'Ein Website SEO Audit 2026 prüft nicht nur Technik, sondern die volle Agent Readiness. Erfahre, wie du llms.txt und Markdown Negotiation testest.'
-date: "2026-07-17"
+date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"
 image_alt: "Website SEO Audit 3D Infografik - Technische Analyse und Gesundheit-Check"
 related_terms: ["technisches-seo", "crawler", "sichtbarkeit", "pagespeed"]

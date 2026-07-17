@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Expertise 2026: Fachliche Autorität für KI-Agenten'
 description: 'Expertise (E-E-A-T) unter den Juli 2026 Agent Readiness Standards. Wie Entity Sideloading und Topical Authority deinen RAG-Trust sichern. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-expertise-3d.webp"
 image_alt: "Expertise (E-E-A-T) 3D Infografik - Fachliche Autorität in KI-Systemen"
 related_terms: ["e-e-a-t", "experience-eeat", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]

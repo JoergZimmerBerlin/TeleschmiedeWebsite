@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'WordPress SEO 2026: Headless, Markdown & Agent Readiness'
 description: 'WordPress muss sich 2026 massiv anpassen. Erfahre, warum Headless-Markdown-Plugins jetzt absolute Pflicht für Agent Readiness sind.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "pagespeed", "strukturierte-daten", "agent-readiness"]
 key_takeaways:

@@ -3,7 +3,7 @@ category: "Technisches SEO & UX"
 title: 'Sitemap: Die ultimative Architektur für Suchmaschinen & KIs'
 description: 'Eine Sitemap ist 2026 der essenzielle Wegweiser für RAG-Pipelines, LLMs und Google. Optimiere deine XML-Sitemap mit exakter mtime-Logik für maximale Agent Readiness.'
 sameAs: "https://www.wikidata.org/wiki/Q1503327"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.webp"
 image_alt: "Sitemap 3D Infografik - Die Architektur deiner Website für Suchmaschinen und autonome Agenten"
 related_terms: ["crawler", "robots-txt", "crawling-vs-indexing", "llms-txt"]

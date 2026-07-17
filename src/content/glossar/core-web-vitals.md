@@ -3,7 +3,7 @@ category: "Technisches SEO & UX"
 title: 'Core Web Vitals (CWV) 2026: UX & Stabilität für AI Agenten'
 description: 'Core Web Vitals im Zeitalter von RAG und Agent Readiness: Warum LCP, INP & CLS über Leben und Tod deiner KI-Sichtbarkeit entscheiden. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q104618838"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"
 image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren für Google und KI-Agenten"
 related_terms: ["geo", "pagespeed", "usability"]

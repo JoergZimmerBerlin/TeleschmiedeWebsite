@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'GEO Optimierung: Währung für KI-Sichtbarkeit'
 description: 'GEO Optimierung (Generative Engine Optimization) nach den Juli 2026 Agent Readiness Standards: A2A Protocol, llms.txt, MCP und RAG im Tacheles-Check. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-geo-optimierung-3d.png"
 image_alt: "GEO Optimierung 3D Infografik - Radar-Monitoring für KI-Sichtbarkeit und Brand Mentions"
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Robots.txt: Die Steuerzentrale für KI-Bots & Crawler'
 description: 'Die robots.txt steuert 2026 nicht mehr nur Google, sondern entscheidet über deine Sichtbarkeit bei KI-Agenten, GPTBot und RAG-Pipelines. ALOHA!'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.webp"
 image_alt: "robots.txt 3D Infografik - Die Steuerung der Suchmaschinen-Crawler und KIs"
 related_terms: ["crawling-vs-indexing", "geo", "sitemap", "llms-txt"]

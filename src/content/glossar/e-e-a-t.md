@@ -3,7 +3,7 @@ category: "E-E-A-T & Offpage"
 title: 'E-E-A-T 2026: Entity Building für Agent Readiness'
 description: 'E-E-A-T nach den Juli 2026 Agent Readiness Standards. Warum KIs und RAG-Prozesse nur vertrauenswürdige Entitäten zitieren. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q121693513"
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "E-E-A-T 3D Infografik - Vertrauen als Rankingfaktor für KIs"
 related_terms: ["geo", "grounding-page", "technisches-schema-markup", "authoritativeness-eeat"]

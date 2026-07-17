@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'SEO Consulting: Strategische A2A- und LLM-Architektur'
 description: 'SEO Consulting 2026 ist kein Marketing mehr, sondern pure Systemarchitektur. Wir machen dein Unternehmen Agent Ready und etablieren A2A-Schnittstellen für KI-Wachstum.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["seo-beratung", "seo-coaching", "seo-audit"]
 key_takeaways:

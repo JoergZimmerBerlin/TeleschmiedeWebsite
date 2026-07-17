@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Technisches SEO in 2026: Agent Readiness & LLM-Infrastruktur'
 description: 'Die Revolution des Technical SEO. Erfahre, warum Technisches SEO heute Agent Readiness (A2A, llms.txt, Schema) bedeutet und wie du KIs richtig fütterst. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-tech-seo-3d.webp"
 image_alt: "Technisches SEO 3D Infografik - Fundament und Architektur für KI Agenten"
 related_terms: ["seo-audit", "strukturierte-daten", "geo"]

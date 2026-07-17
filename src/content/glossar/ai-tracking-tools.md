@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'AI Tracking Tools: Sichtbarkeit und Agent Readiness messen (Juli 2026)'
 description: 'AI Tracking Tools messen nicht nur Rankings, sondern A2A-Traffic, Stateless MCP-Requests und RAG-Metriken. So misst du deine Agent Readiness.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "llmo", "sichtbarkeitsmanagement", "google-search-console"]
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'Website Relaunch 2026: SEO, Agent Readiness & Rettung vor Pfusch'
 description: 'Website Relaunch 2026: Warum 90% aller Relaunches scheitern und wie du mit Agent Readiness, Redirection-Plänen und A2A-Checks dein Ranking rettest.'
-date: "2026-07-17"
+date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-website-relaunch-3d.png"
 image_alt: "Website Relaunch SEO 3D Infografik - Planung, Migration und Sichtbarkeits-Check"
 key_takeaways:

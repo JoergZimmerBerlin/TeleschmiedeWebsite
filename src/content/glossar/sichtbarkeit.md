@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Sichtbarkeit (Visibility): SEO-Kennzahl für Agent Readiness'
 description: 'Sichtbarkeit im SEO bedeutet Juli 2026: Gefunden werden von KIs. Erfahre, warum Citation-Stability wichtiger ist als theoretischer Traffic.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeit-3d.webp"
 related_terms: ["sichtbarkeitsindex", "geo", "traffic"]
 key_takeaways:

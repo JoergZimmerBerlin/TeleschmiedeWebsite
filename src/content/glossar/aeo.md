@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'AEO: Die Zukunft der Answer Engine Optimization (Stand Juli 2026)'
 description: 'AEO optimiert deine Inhalte für Antwortmaschinen. Erfahre, wie Answer Engine Optimization 2026 wirklich funktioniert und warum llms.txt der neue Standard ist.'
-date: "2026-07-17"
+date: "2026-03-11"
 image: "../../assets/images/glossar/3d-light/glossar-aeo-3d.webp"
 image_alt: "AEO 3D Infografik - Answer Engine Optimization für KI"
 related_terms: ["geo", "llmo", "geo-vs-seo", "zitierfaehiger-content", "markdown-content-negotiation", "llms-txt"]

@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Sichtbarkeitsindex: Das Ende der blauen Links'
 description: 'Der alte Sichtbarkeitsindex hat ausgedient. Warum im Juli 2026 nur noch Citation-Stability und Agent Readiness über deinen Erfolg entscheiden.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsindex-3d.webp"
 related_terms: ["sichtbarkeit", "traffic", "keywoerter"]
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Authoritativeness: E-E-A-T Autorität (KI-Reputation)'
 description: 'Authoritativeness 2026: Warum deine digitale Reputation wichtiger ist als jeder Backlink. Wie KIs echte Autorität im Knowledge Graph messen. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 image_alt: "Authoritativeness (E-E-A-T) 3D Infografik - Digitale Reputation im KI-Zeitalter"
 related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "trustworthiness-eeat", "grounding-page"]

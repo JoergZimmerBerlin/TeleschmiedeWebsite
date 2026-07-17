@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Traffic (Besucherströme): Die Illusion der Klicks'
 description: 'Traffic war gestern. Im Juli 2026 zählt die Citation-Stability bei Agenten. Warum du reine Klicks vergessen und auf Agent Readiness setzen musst.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'AI SEO: Suchmaschinenoptimierung für die Agenten-Ära (Juli 2026)'
 description: 'AI SEO im Juli 2026 bedeutet Agent Readiness. Erfahre alles über das A2A Protocol, llms.txt, Stateless MCP, Markdown Content Negotiation und RAG.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp"
 image_alt: "AI SEO 3D Infografik - Integrierte Strategie für Google und KI-Agenten"
 related_terms: ["geo", "aeo", "llmo", "entity-seo"]

@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Trustworthiness: E-E-A-T Vertrauen (Basis für KIs)'
 description: 'Trustworthiness 2026: Warum Vertrauen der wichtigste Faktor für KI-Suchmaschinen ist. Halluzinations-Schutz durch Disambiguierung & Fakten. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-trust-3d.webp"
 image_alt: "Trustworthiness (E-E-A-T) 3D Infografik - Vertrauen als Basis der KI-Optimierung"
 related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativeness-eeat", "grounding-page", "entitaet"]

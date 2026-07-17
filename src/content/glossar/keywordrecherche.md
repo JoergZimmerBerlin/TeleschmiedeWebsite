@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Keywordrecherche: Die Basis jeder SEO- und AI-Strategie'
 description: 'Die Keywordrecherche im Jahr 2026 dreht sich um Entitäten, Intents und Agent Readiness. Erfahre, warum Keywords tot sind und der Search Query Fanout regiert.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keywordrecherche-3d.webp"
 related_terms: ["keywoerter", "suchvolumen", "keyword-tool"]
 key_takeaways:

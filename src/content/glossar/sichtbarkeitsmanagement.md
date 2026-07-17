@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Sichtbarkeitsmanagement: Agent Readiness für Experten'
 description: 'Sichtbarkeitsmanagement im Juli 2026 bedeutet aktive Steuerung deiner Agent Readiness und Citation-Stability. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsmanagement-3d.webp"
 related_terms: ["sichtbarkeit", "sichtbarkeitsindex", "geo", "entity-seo"]
 key_takeaways:

@@ -2,7 +2,7 @@
 category: "Technisches SEO & UX"
 title: 'PageSpeed 2026: Ladezeit-Optimierung für Agent Readiness & RAG'
 description: 'PageSpeed im Zeitalter des A2A Protocols: Warum Latenz bei RAG-Prozessen zum sofortigen Abbruch führt und wie du deine Seite auf Agent Readiness trimmst. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-pagespeed-3d.webp"
 image_alt: "PageSpeed 3D Infografik - Schnelligkeit für KI-Agenten und RAG"
 related_terms: ["core-web-vitals", "noindex"]

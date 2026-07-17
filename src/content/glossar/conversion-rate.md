@@ -3,7 +3,7 @@ category: "SEO Basics & Onpage"
 title: 'Conversion-Rate-Optimierung (CRO): Mehr Umsatz in der RAG-Ära'
 description: 'Warum Besucher auf der Website irrelevant werden. Die echte Conversion passiert heute im AI-Chatbot (RAG). CRO-Strategien für Agent Readiness.'
 sameAs: "https://www.wikidata.org/wiki/Q135293"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"
 image_alt: "Conversion Rate 3D Infografik - Marketing Funnel"
 related_terms: ["traffic", "money-keyword", "usability"]

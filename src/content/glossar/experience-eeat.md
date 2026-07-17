@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Experience 2026: Reale Erfahrung als hartes Anti-KI-Signal'
 description: 'Experience im Rahmen der Agent Readiness Standards 2026: Warum KIs echte Praxiserfahrung belohnen und wie Entity Building dich unverwechselbar macht. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-experience-3d.webp"
 image_alt: "Experience (E-E-A-T) 3D Infografik - Reale Praxiserfahrung als KI-Bollwerk"
 related_terms: ["e-e-a-t", "expertise-eeat", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]

@@ -3,7 +3,7 @@ category: "Technisches SEO & UX"
 title: 'Google Search Console 2026: Dein Radar für AI Overviews'
 description: 'Die Google Search Console ist 2026 dein unverzichtbares Tool, um Agent Readiness und RAG-Zitationen (AI Overviews) zu tracken.'
 sameAs: "https://www.wikidata.org/wiki/Q328216"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"
 related_terms: ["crawling-vs-indexing", "sitemap", "agent-readiness", "geo"]
 key_takeaways:

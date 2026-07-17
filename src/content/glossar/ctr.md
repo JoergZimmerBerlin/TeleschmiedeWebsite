@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'CTR (Click-Through-Rate): Citations statt blaue Links optimieren'
 description: 'Die Click-Through-Rate (CTR) misst heute keine blauen Google-Links mehr, sondern Citations in AI-Chatbots. So wirst du in RAG-Systemen zitiert und geklickt. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ctr-3d.webp"
 related_terms: ["meta-description", "title-tag", "rankingfaktoren", "conversion-rate"]
 key_takeaways:

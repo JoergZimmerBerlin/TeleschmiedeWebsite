@@ -3,7 +3,7 @@ category: "AI SEO & Generative Search"
 title: 'LLM-Optimization (LLMO): SEO für Sprachmodelle nach den 2026 Agent Readiness Standards'
 description: 'LLMO optimiert deine Inhalte für KI-Agenten, ChatGPT, Gemini und Claude. Fokus auf A2A Protocol, llms.txt, Stateless MCP, Markdown Content Negotiation und RAG.'
 sameAs: "https://www.wikidata.org/wiki/Q134083964"
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.webp"
 image_alt: "LLMO 3D Infografik - Optimierung für Large Language Models"
 related_terms: ["geo", "aeo", "entity-seo", "citation"]

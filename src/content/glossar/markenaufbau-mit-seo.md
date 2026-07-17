@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Markenaufbau mit SEO 2026: Brand als das ultimative OffPage-Signal'
 description: 'Markenaufbau 2026: Warum deine Brand die wichtigste Entität für Agent Readiness und KI-Sichtbarkeit ist. Tacheles von Jörg Zimmer. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entity-seo", "e-e-a-t", "mention", "citation"]
 key_takeaways:

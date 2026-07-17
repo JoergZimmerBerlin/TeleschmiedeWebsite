@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'Google Algorithmus: Funktionsweise & Updates in der AI Overviews Ära'
 description: 'Der Google Algorithmus 2026 steuert in erster Linie AI Overviews. Erfahre, wie Agent Readiness und KI dein Ranking heute absolut bestimmen.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["google-core-update", "rankingfaktoren", "e-e-a-t", "agent-readiness"]
 key_takeaways:

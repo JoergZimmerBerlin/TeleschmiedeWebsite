@@ -2,7 +2,7 @@
 category: "E-E-A-T & Offpage"
 title: 'Zitierfähiger Content: Rankingfaktor #1 im A2A Protocol (Juli 2026)'
 description: 'Warum LLMs deinen Content ignorieren und wie du mit Markdown Content Negotiation und A2A Protocol endlich wieder zitiert wirst.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "geo", "zero-click-content", "faq-markup", "llms-txt"]
 key_takeaways:

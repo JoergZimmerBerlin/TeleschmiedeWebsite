@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Money Keywords in 2026: Conversion durch Agent Readiness und Fanout'
 description: 'Money Keywords sind 2026 keine simplen Suchphrasen mehr, sondern hochkomplexe Fanout-Prompts an KIs. So sicherst du dir die ultimative Conversion.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp"
 image_alt: "Money Keyword 3D Infografik - Agent Readiness und A2A Conversion"
 related_terms: ["keywoerter", "cpc", "conversion-rate"]

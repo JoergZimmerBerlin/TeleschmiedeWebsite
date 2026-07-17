@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'Digital PR 2026: Pressearbeit als RAG-Futter für KI-Agenten'
 description: 'Pressearbeit im SEO ist 2026 das Füttern von RAG-Modellen über große Publisher. So wirst du zur ultimativen Entity-Citation. ALOHA! 🌻'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 related_terms: ["linkbuilding", "mention", "e-e-a-t", "markenaufbau-mit-seo"]
 key_takeaways:

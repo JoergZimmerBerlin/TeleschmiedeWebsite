@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'RAG: Das Gehirn-Doping für deine KI-Inhalte (Stand Juli 2026)'
 description: 'RAG (Retrieval-Augmented Generation) 2026: Wie du KIs über Stateless MCP und A2A mit deinen eigenen Daten fütterst und Halluzinationen verhinderst.'
-date: "2026-07-17"
+date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-rag-3d.png"
 image_alt: "RAG 3D Infografik - Zusammenspiel von Datenquelle, KI-Synthese und Antwort"
 key_takeaways:

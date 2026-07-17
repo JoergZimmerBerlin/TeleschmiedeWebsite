@@ -2,7 +2,7 @@
 category: "SEO Basics & Onpage"
 title: 'SEO Coaching: Werde zum A2A- und LLM-Architekten'
 description: 'SEO Coaching 2026: Vergiss Keywords. Lerne, wie du deine Infrastruktur auf den höchsten Agent Readiness Standards hebst und Agent-to-Agent Kommunikation meisterst.'
-date: "2026-07-17"
+date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
 key_takeaways:

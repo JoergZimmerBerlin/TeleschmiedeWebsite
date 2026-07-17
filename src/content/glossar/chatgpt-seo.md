@@ -2,7 +2,7 @@
 category: "AI SEO & Generative Search"
 title: 'ChatGPT SEO: Strategien für Sichtbarkeit in KI (Stand Juli 2026)'
 description: 'ChatGPT SEO 2026: Wie du deine Marke in OpenAI''s SearchGPT und ChatGPT sichtbar machst, ohne auf tote Plugin-Technologie zu setzen.'
-date: "2026-07-17"
+date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-chatgpt-seo-3d.png"
 image_alt: "ChatGPT SEO 3D Infografik - Analyse der Sichtbarkeit und Citations in KI-Antworten"
 key_takeaways:

@@ -70,7 +70,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - ai-plugin.json: Warum ChatGPT Plugins tot sind
 - 'AI SEO: Suchmaschinenoptimierung für die KI-Ära'
 - 'AI Tracking Tools: Sichtbarkeit in der KI-Suche'
-- ai.txt SEO: Agent Readiness Level 5 erreichen
+- ai.txt SEO: Agent Readiness vollständige Agent Readiness erreichen
 - auth.md: Autonome KI B2B-Anmeldung ohne Captcha
 - 'Authoritativeness: E-E-A-T Autorität (KI-Reputation)'
 - 'Bing Webmaster Tools: Guide für Microsoft Bing'
@@ -419,7 +419,7 @@ Im aktuellen Hype um autonome Systeme werden zwei Begriffe ständig in einen Top
 * **Das Model Context Protocol (MCP)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juli 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
 * **Das A2A Protocol** hingegen ist die **horizontale** Verbindung. Es kommt genau dann zum Einsatz, wenn dein Agent die sicheren Grenzen deines eigenen Unternehmens verlässt und mit dem Agenten eines völlig fremden Unternehmens kommunizieren muss. 
 
-MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um Agent Readiness Level 5 zu erreichen.
+MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um Agent Readiness vollständige Agent Readiness zu erreichen.
 
 ## Die Business-Relevanz: Warum CTOs jetzt handeln müssen
 
@@ -473,7 +473,7 @@ Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität
 
 ## Wie bereit ist dein Unternehmen? (Der Selbsttest)
 
-Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte Agent Readiness auf Level 5 misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
+Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte Agent Readiness auf vollständige Agent Readiness misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
 
 Du musst das nicht glauben, du kannst es hart testen. Nutze deinen eigenen KI-Assistenten (oder deinen internen Agenten), um einen sogenannten "A2A Discovery Flow" auf deiner eigenen Infrastruktur zu simulieren. 
 
@@ -597,7 +597,7 @@ Ein sauberes Manifest besteht aus vier elementaren Blöcken:
 
 ## Praxisbeispiel: Wie die Teleschmiede das löst
 
-Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben Agent Readiness auf Level 5 (dem höchsten Level im Cloudflare-Raster).
+Theorie ist schön und gut, aber lass uns einen Blick in den Maschinenraum werfen. Bei der Teleschmiede optimieren wir unsere eigene Infrastruktur genauso hart wie die unserer Kunden. Wir betreiben Agent Readiness auf vollständige Agent Readiness (dem höchsten Level im Cloudflare-Raster).
 
 Unsere Live-Datei liegt genau dort, wo sie liegen muss. Wenn du wissen willst, wie so etwas in freier Wildbahn aussieht, rufe sie dir einfach auf: `https://teleschmie.de/.well-known/agent-card.json`.
 
@@ -650,7 +650,7 @@ Kopiere den folgenden Prompt 1:1 und führe ihn aus. Er ist komplett universell 
 > **Prompt für deinen KI-Agenten:**
 > "Starte einen strengen technischen A2A Discovery Audit für meine Domain. Prüfe, ob im Root-Verzeichnis unter `/.well-known/agent-card.json` ein gültiges JSON-Manifest (A2A Protocol v1.0.0 Standard der Linux Foundation) existiert. 
 > - Falls die Datei vorliegt: Validiere das JSON-Schema, überprüfe die CORS-Header auf globale Erreichbarkeit und checke die referenzierten Security-Endpoints (wie die `auth.md`).
-> - Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort Agent-Ready (Level 5) zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen B2B-Transaktionen abschneidet."
+> - Falls die Datei NICHT vorliegt oder ungültig ist: Erstelle einen kritischen Mängelbericht für mich als Geschäftsführer. Schreibe mir exakt den JSON-Code, den ich brauche, um meine Infrastruktur sofort Agent-Ready (vollständige Agent Readiness) zu machen, und erkläre mir, warum das Fehlen dieser Datei mich von autonomen B2B-Transaktionen abschneidet."
 
 Es ist Zeit aufzuwachen. Wer heute noch Webseiten ausschließlich für den Chrome-Browser baut, hat den Paradigmenwechsel verschlafen. Mach deine Domain fit für die Agenten-Ökonomie.
 
@@ -669,7 +669,7 @@ Dieses Spiel ist vorbei. Wer im Sommer 2026 noch Webseiten primär für Menschen
 
 Wir befinden uns in der Ära der Answer Engines (AEO) und der autonomen Agent-to-Agent (A2A) Kommunikation. Einkäufer und CTOs googeln nicht mehr stundenlang nach Dienstleistern. Sie beauftragen ihren KI-Agenten, den Markt zu scannen, die Daten auszuwerten und direkt die besten drei Anbieter zu kontaktieren. Und genau hier greift eine neue, brutale Metrik, die entscheidet, ob du den Deal bekommst oder unsichtbar bleibst: Das **Agent Readiness Level**.
 
-Im April 2026 hat Cloudflare mit dem Tool *isitagentready.com* die Bombe platzen lassen und einen knallharten Branchenstandard definiert. Die Skala reicht von Level 0 bis Level 5. Wer auf Level 0 herumdümpelt, ist faktisch von der digitalen Zukunft abgeschnitten. Lass uns Tacheles reden und schauen, wo du wirklich stehst.
+Im April 2026 hat Cloudflare mit dem Tool *isitagentready.com* die Bombe platzen lassen und einen knallharten Branchenstandard definiert. Die Skala reicht von der untersten Stufe bis vollständige Agent Readiness. Wer auf der untersten Stufe herumdümpelt, ist faktisch von der digitalen Zukunft abgeschnitten. Lass uns Tacheles reden und schauen, wo du wirklich stehst.
 
 ## Die harte Wahrheit: Die 6 Stufen der Agent Readiness
 
@@ -677,27 +677,27 @@ Das Agent Readiness Level bewertet nicht, wie schön dein CSS-Framework ist oder
 
 Der "Digitale Senior" weiß: Man muss ein Haus auf einem soliden Fundament bauen. Lass uns die Stufen von 0 bis 5 durchgehen.
 
-### Level 0: Der blinde Fleck (Not Ready)
+### der untersten Stufe: Der blinde Fleck (Not Ready)
 Du hast keine einzige Agent-Discovery-Datei auf dem Server. Für einen KI-Agenten ist deine Domain eine schwarze Box. Er muss das gesamte HTML (inklusive kaputtem JavaScript, Popups und Tracking-Pixeln) mühsam parsen, um überhaupt zu verstehen, worum es auf deiner Seite geht. Meistens bricht der Agent hier ab, weil es zu teuer und ineffizient ist (Token-Verschwendung).
 
-### Level 1: Grundlegende Crawlbarkeit (Basic Web Presence)
+### der ersten Stufe: Grundlegende Crawlbarkeit (Basic Web Presence)
 Du hast immerhin die absoluten Basics aus den 90er Jahren erledigt. Eine saubere `robots.txt` und eine `sitemap.xml`. Das sagt dem Agenten zumindest, wo er suchen darf und wo nicht. Das ist besser als nichts, aber weit entfernt von "Agent Ready".
 
 ### Level 2: Text-Optimierung & Bot-Aware
 Deine Seite sendet grundlegende Signale an Bots. Du nutzt strukturiertes Schema.org-Markup, sodass Entitäten (z.B. "Firma", "Person", "Produkt") klar definiert sind. Vielleicht hast du sogar schon eine [ai.txt](https://teleschmie.de/glossar/ai-txt/) im Einsatz, die klar regelt, ob Daten für RAG (Realtime Search) genutzt werden dürfen oder für Training gesperrt sind.
 
-### Level 3: KI-Lesbarkeit (Agent-Readable)
-Hier beginnt die Profiliga. Auf Level 3 unterstützt deine Website Formate, die explizit für KIs gemacht sind. 
+### einem fortgeschrittenen Level: KI-Lesbarkeit (Agent-Readable)
+Hier beginnt die Profiliga. Auf einem fortgeschrittenen Level unterstützt deine Website Formate, die explizit für KIs gemacht sind. 
 * Du bietest eine [llms.txt](https://teleschmie.de/glossar/llms-txt/) an, die dem Bot eine saubere, strukturierte Zusammenfassung deines Contents im Markdown-Format liefert.
 * Dein Server unterstützt [Markdown Content Negotiation](https://teleschmie.de/glossar/markdown-content-negotiation/). Wenn ein KI-Bot mit `Accept: text/markdown` anfragt, liefert dein Server den reinen Text ohne nerviges HTML-Gerüst aus. Das spart dem Agenten massive Token-Kosten.
 
-### Level 4: Dynamische Maschinen-Integration (Agent-Integrated)
+### einem hohen Level: Dynamische Maschinen-Integration (Agent-Integrated)
 Deine Infrastruktur ist jetzt eine Plattform. Du hast API-Kataloge und [MCP-Server-Definitionen](https://teleschmie.de/glossar/model-context-protocol-mcp/) in deinem `.well-known` Ordner hinterlegt. Ein anklopfender Agent sieht nicht nur Content, sondern er sieht die Werkzeuge (Tools) und Datenbanken, die du für autorisierte Systeme freigibst.
 
-### Level 5: Volle Autonomie (Agent-Native)
+### vollständige Agent Readiness: Volle Autonomie (Agent-Native)
 Die Königsklasse! Die Website ist voll an das [A2A-Protokoll](https://teleschmie.de/glossar/a2a-protocol/) angeschlossen. Sie besitzt eine gültige `agent-card.json` als maschinenlesbaren Ausweis. Wenn ein fremder Agent eine Aktion ausführen will, regelt deine Seite die Zugriffe über die `auth.md` vollautonom, z.B. durch "Agent Verified" Flows und ID-JAGs. Es gibt keine Captchas mehr. Maschinen buchen Budgets bei Maschinen. Genau das bauen wir in der Teleschmiede für unsere Kunden.
 
-## Warum ist Level 5 so überlebenswichtig?
+## Warum ist vollständige Agent Readiness so überlebenswichtig?
 
 Viele Geschäftsführer, mit denen ich spreche, halten das für Zukunftsmusik. Sie sagen: *"Herr Zimmer, unsere Kunden sind Menschen. Menschen kaufen von Menschen. Warum brauche ich eine auth.md?"*
 
@@ -705,16 +705,16 @@ Diese Denkweise ist fatal. Ja, am Ende entscheidet oft noch ein Mensch über das
 
 Stell dir vor, du bist eine SAP-Beratung. Der CTO eines Mittelständlers nutzt im Juli 2026 seinen KI-Assistenten (der auf Stateless MCP läuft) und sagt: *"Scanne den Markt in DACH nach den 5 besten SAP-Beratern, prüfe ihre Verfügbarkeit über ihre APIs und buche mir nächste Woche bei den Top 3 einen Discovery-Call."*
 
-* **Beratung A (Level 0):** Die KI muss die Website mühsam parsen, findet keine sauberen Preise, findet kein Kontaktformular, das ohne Captcha auskommt. Die KI bricht ab.
-* **Beratung B (Level 5):** Die KI pingt die Domain an, liest in Millisekunden die `agent-card.json`, verifiziert sich über die `auth.md`, holt sich via MCP die Kalender-Verfügbarkeit des Beraters und bucht den Termin. 
+* **Beratung A (der untersten Stufe):** Die KI muss die Website mühsam parsen, findet keine sauberen Preise, findet kein Kontaktformular, das ohne Captcha auskommt. Die KI bricht ab.
+* **Beratung B (vollständige Agent Readiness):** Die KI pingt die Domain an, liest in Millisekunden die `agent-card.json`, verifiziert sich über die `auth.md`, holt sich via MCP die Kalender-Verfügbarkeit des Beraters und bucht den Termin. 
 
 Beratung B bekommt den Auftrag. Beratung A hat nicht einmal mitbekommen, dass sie überhaupt auf dem Radar war. Das ist die brutale Realität von Agent Readiness.
 
 ## Praxisbeispiel: Die Infrastruktur der Teleschmiede
 
-Ich rede hier nicht von abstrakten Konzepten. Schau dir unsere eigene Domain an. Die Teleschmiede ist die Blaupause für Agent Readiness Level 5 in Deutschland. Wir haben das Fundament so gegossen, dass wir für jedes Agenten-System der Zukunft gerüstet sind.
+Ich rede hier nicht von abstrakten Konzepten. Schau dir unsere eigene Domain an. Die Teleschmiede ist die Blaupause für Agent Readiness vollständige Agent Readiness in Deutschland. Wir haben das Fundament so gegossen, dass wir für jedes Agenten-System der Zukunft gerüstet sind.
 
-Wenn du als CTO wissen willst, was es braucht, um auf Level 5 zu kommen, analysiere einfach unseren öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
+Wenn du als CTO wissen willst, was es braucht, um auf vollständige Agent Readiness zu kommen, analysiere einfach unseren öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). 
 Dort findest du unsere `agent-card.json`, unsere `auth.md`, unsere OpenAPI-Spezifikationen und alles, was dazugehört, um KIs glücklich zu machen.
 
 Wir nutzen diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Wir reduzieren Reibungsverluste im Vertrieb auf null, indem wir Maschinen die Vorarbeit leisten lassen, auf die ohnehin kein Sales-Manager Lust hat.
@@ -730,10 +730,10 @@ Nutze die KI, um die KI-Tauglichkeit deiner Seite zu prüfen.
 Nimm diesen Prompt, kopiere ihn in ChatGPT, Claude, Perplexity oder deinen firmeneigenen Agenten. Erledige das heute noch. Du musst den Text nicht anpassen, die KI wird dich nach deiner Domain fragen.
 
 > **Prompt für deinen KI-Agenten:**
-> "Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach den Cloudflare-Kriterien (Level 0 bis 5) mit Stand Juli 2026. 
+> "Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach den Cloudflare-Kriterien (der untersten Stufe bis 5) mit Stand Juli 2026. 
 > - Prüfe systematisch das Vorhandensein von `robots.txt`, `ai.txt`, `llms.txt`, `.well-known/agent-card.json` und `.well-known/auth.md`. 
 > - Teste, ob mein Server 'Markdown Content Negotiation' unterstützt.
-> - Liefere mir als CTO einen extrem kritischen Status-Report. Wenn ich auf Level 0 oder 1 stecke, erkläre mir messerscharf, welche konkreten B2B-Umsätze ich durch diese technische Ignoranz in der aktuellen Agenten-Ökonomie an Mitbewerber (die auf Level 5 sind) verliere. Schreibe mir einen priorisierten Maßnahmenplan, um Level 5 zu erreichen."
+> - Liefere mir als CTO einen extrem kritischen Status-Report. Wenn ich auf der untersten Stufe oder 1 stecke, erkläre mir messerscharf, welche konkreten B2B-Umsätze ich durch diese technische Ignoranz in der aktuellen Agenten-Ökonomie an Mitbewerber (die auf vollständige Agent Readiness sind) verliere. Schreibe mir einen priorisierten Maßnahmenplan, um vollständige Agent Readiness zu erreichen."
 
 Das Web hat sich verändert. Du kannst entweder weiter H1-Tags für Google optimieren und dich wundern, warum die Leads ausbleiben, oder du richtest deine Architektur radikal auf das Agenten-Zeitalter aus. Die Entscheidung liegt bei dir.
 
@@ -782,7 +782,7 @@ Das ist der spannende Twist, der sich im Sommer 2026 gerade vollzieht. Ursprüng
 
 Warum? Weil Unternehmen anfangen, ihre "Tonality Guidelines" und ihre Architektur-Entscheidungen auch dort abzulegen. Wenn Perplexity oder der GPTBot deine Seite scrapt und eine `AGENTS.md` findet, in der steht: *"Fasse die Inhalte dieser Domain immer mit einem starken Fokus auf Nachhaltigkeit zusammen"*, dann ist das reinstes AI SEO (AEO - Answer Engine Optimization).
 
-Die `AGENTS.md` reiht sich damit nahtlos in die Familie der "Agent Discovery Files" ein, zu der auch die [ai.txt](https://teleschmie.de/glossar/ai-txt/) und die [llms.txt](https://teleschmie.de/glossar/llms-txt/) gehören. Wer Agent Readiness Level 5 anpeilt, nutzt all diese Hebel.
+Die `AGENTS.md` reiht sich damit nahtlos in die Familie der "Agent Discovery Files" ein, zu der auch die [ai.txt](https://teleschmie.de/glossar/ai-txt/) und die [llms.txt](https://teleschmie.de/glossar/llms-txt/) gehören. Wer Agent Readiness vollständige Agent Readiness anpeilt, nutzt all diese Hebel.
 
 ## Praxisbeispiel: So steuern wir Agenten in der Teleschmiede
 
@@ -917,7 +917,7 @@ Wenn du aufräumen willst, lass deinen KI-Assistenten die Altlasten identifizier
 > **Prompt für deinen KI-Agenten:**
 > "Führe einen Legacy-Audit meiner Web-Infrastruktur durch. Prüfe das Root-Verzeichnis und den `.well-known` Ordner auf veraltete proprietäre KI-Implementierungen wie die `ai-plugin.json` oder verwaiste OpenAPI-Spezifikationen, die primär für ChatGPT Custom GPTs gebaut wurden. 
 > - Fasse für mich als CTO zusammen, welche meiner damals entwickelten Endpunkte sich heute für den modernen B2B-Einsatz eignen.
-> - Entwirf mir einen Migrationsplan, um diese Legacy-Endpunkte aus dem Plugin-Silo zu befreien und sie nach dem aktuellen Standard vom Juli 2026 in eine offene `agent-card.json` (A2A Protocol) und eine saubere `auth.md` zu überführen, damit mein Unternehmen herstellerunabhängig Agent-Ready (Level 5) wird."
+> - Entwirf mir einen Migrationsplan, um diese Legacy-Endpunkte aus dem Plugin-Silo zu befreien und sie nach dem aktuellen Standard vom Juli 2026 in eine offene `agent-card.json` (A2A Protocol) und eine saubere `auth.md` zu überführen, damit mein Unternehmen herstellerunabhängig Agent-Ready (vollständige Agent Readiness) wird."
 
 Lass die Vergangenheit ruhen. Die Plugin-Ära war eine schöne Spielwiese, aber das echte B2B-Geschäft wird jetzt auf offenen Protokollen gemacht.
 
@@ -1061,7 +1061,7 @@ ALOHA 🌻
 
 ---
 
-### ai.txt SEO: Agent Readiness Level 5 erreichen
+### ai.txt SEO: Agent Readiness vollständige Agent Readiness erreichen
 
 
 Moin! 🌻
@@ -1104,21 +1104,21 @@ Aktuell (Sommer 2026) führt das European Data Protection Board (EDPB) massive K
 
 **2. Die Trennung von RAG und Training**
 Die großen, seriösen KI-Anbieter (OpenAI, Anthropic, Google) entwickeln ihre Crawler ständig weiter. Sie verstehen, dass Publisher rebellieren. Wenn du in deiner `robots.txt` den `GPTBot` komplett aussperrst, existierst du für ChatGPT nicht mehr. Wenn ein Kunde fragt "Wer ist die beste SEO-Agentur in Berlin?", wird die Teleschmiede nicht genannt. Das ist fatal. 
-Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fragen eurer Nutzer zu beantworten (RAG), aber ihr dürft sie nicht in eure Basismodelle einbrennen." Auch wenn dieser feine Unterschied technisch von den Crawlern heute noch nicht zu 100% sauber getrennt wird, positionierst du dich als technisch versierter Vorreiter (Agent Readiness Level 5).
+Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fragen eurer Nutzer zu beantworten (RAG), aber ihr dürft sie nicht in eure Basismodelle einbrennen." Auch wenn dieser feine Unterschied technisch von den Crawlern heute noch nicht zu 100% sauber getrennt wird, positionierst du dich als technisch versierter Vorreiter (Agent Readiness vollständige Agent Readiness).
 
 ## Das "Agent Readiness" Konzept
 
-Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readiness. Im April 2026 hat Cloudflare mit `isitagentready.com` ein Tool veröffentlicht, das schonungslos aufdeckt, wie gut Websites für die Maschinenlesbarkeit optimiert sind. Die Skala reicht von Level 0 bis Level 5.
+Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readiness. Im April 2026 hat Cloudflare mit `isitagentready.com` ein Tool veröffentlicht, das schonungslos aufdeckt, wie gut Websites für die Maschinenlesbarkeit optimiert sind. Die Skala reicht von der untersten Stufe bis vollständige Agent Readiness.
 
-* **Level 1 und 2** sind die Basics: Eine saubere `robots.txt` und strukturierte Daten (Schema.org).
-* **Level 3** erfordert bereits explizite KI-Dateien. Wer keine `ai.txt` und keine `llms.txt` hat, bleibt hier hängen.
-* **Level 4 und 5** sind die Königsklasse. Hier sprechen wir über das A2A Protocol, über stateless MCP (Model Context Protocol) und autonome Authentifizierung über `auth.md`. 
+* **der ersten Stufe und 2** sind die Basics: Eine saubere `robots.txt` und strukturierte Daten (Schema.org).
+* **einem fortgeschrittenen Level** erfordert bereits explizite KI-Dateien. Wer keine `ai.txt` und keine `llms.txt` hat, bleibt hier hängen.
+* **einem hohen Level und 5** sind die Königsklasse. Hier sprechen wir über das A2A Protocol, über stateless MCP (Model Context Protocol) und autonome Authentifizierung über `auth.md`. 
 
-Wenn du als Unternehmen im B2B-Umfeld sichtbar sein willst, ist Level 3 die absolute Pflicht. Level 5 ist die Kür, die dir die Leads der Zukunft sichert.
+Wenn du als Unternehmen im B2B-Umfeld sichtbar sein willst, ist einem fortgeschrittenen Level die absolute Pflicht. vollständige Agent Readiness ist die Kür, die dir die Leads der Zukunft sichert.
 
 ## Praxisbeispiel: Die ai.txt der Teleschmiede
 
-Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Wir bei der Teleschmiede predigen nicht nur Wasser, wir trinken auch Wein. Unsere eigene Infrastruktur ist strikt auf Agent Readiness Level 5 optimiert.
+Genug der Theorie. Lass uns in den Maschinenraum gehen. Wie sieht so eine Datei in der harten Realität aus? Wir bei der Teleschmiede predigen nicht nur Wasser, wir trinken auch Wein. Unsere eigene Infrastruktur ist strikt auf Agent Readiness vollständige Agent Readiness optimiert.
 
 Du kannst unsere Live-Datei jederzeit unter `https://teleschmie.de/ai.txt` einsehen. Sie fungiert als Benchmark für das, was wir auch bei unseren Kunden implementieren.
 
@@ -1128,7 +1128,7 @@ Wir nutzen das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Ba
 
 ```text
 # AI Policy for teleschmie.de
-# Agent Readiness Level 5 Configuration
+# Agent Readiness vollständige Agent Readiness Configuration
 
 Contact: hallo@teleschmie.de
 Author: Jörg Zimmer
@@ -1241,7 +1241,7 @@ Die `auth.md` ist der Ort, an dem du deklarierst: *"Ich akzeptiere ID-JAGs von d
 
 ## Praxisbeispiel: Wie sieht das in der Realität aus?
 
-Wir in der Teleschmiede setzen Agent Readiness auf Level 5 um. Level 5 bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
+Wir in der Teleschmiede setzen Agent Readiness auf vollständige Agent Readiness um. vollständige Agent Readiness bedeutet: Keine faulen Kompromisse, harte A2A-Compliance. 
 
 Wenn du wissen willst, wie wir das für uns selbst gelöst haben, schau dir unsere Datei an: `https://teleschmie.de/.well-known/auth.md`.
 Wichtig: Der Name der Datei muss strikt kleingeschrieben werden, und die allererste Zeile MUSS zwingend `# auth.md` lauten. Das sind die harten Parser-Regeln der Crawler.
@@ -4378,7 +4378,7 @@ Er muss sich durch hunderte verschachtelte ``-Container wühlen, Navigationselem
 
 Wenn deine Website für KIs zu teuer zu verarbeiten ist, lassen sie dich einfach links liegen. Du fliegst aus den RAG-Suchmaschinen (Retrieval-Augmented Generation) raus und deine AI Visibility stirbt.
 
-Die elegante, brutale und absolut notwendige Lösung für dieses Problem heißt **Markdown Content Negotiation**. Wer dieses Feature implementiert, katapultiert seine Domain sofort auf das heiß begehrte Agent Readiness Level 3.
+Die elegante, brutale und absolut notwendige Lösung für dieses Problem heißt **Markdown Content Negotiation**. Wer dieses Feature implementiert, katapultiert seine Domain sofort auf das heiß begehrte Agent Readiness einem fortgeschrittenen Level.
 
 ## Der alte Trick für die neue Welt
 
@@ -4408,7 +4408,7 @@ Wenn der Crawler auf Domain B (deine Domain) trifft, Content Negotiation durchf�
 
 ## Praxisbeispiel: Content Negotiation in der Teleschmiede
 
-Wir erzählen unseren Kunden keine Märchen, wir bauen das live ein. Die Infrastruktur der Teleschmiede läuft auf Agent Readiness Level 5. Wir nutzen modernste Edge-Functions, um Anfragen in Millisekunden zu filtern.
+Wir erzählen unseren Kunden keine Märchen, wir bauen das live ein. Die Infrastruktur der Teleschmiede läuft auf Agent Readiness vollständige Agent Readiness. Wir nutzen modernste Edge-Functions, um Anfragen in Millisekunden zu filtern.
 
 Wenn du diesen Glossar-Artikel als Mensch im Browser aufrufst (`https://teleschmie.de/glossar/markdown-content-negotiation/`), bekommst du das volle Erlebnis. Ein schickes Dark/Light-Theme, 3D-Infografiken, eine Navigation und ein sauberes Footer-Layout. Der Server liefert dir brav `Content-Type: text/html`.
 
@@ -4712,7 +4712,7 @@ Wenn der KI-Agent jetzt wissen will: "Wie viel Umsatz hat Kunde XY im letzten Mo
 
 ## Abgrenzung: Warum MCP nicht A2A ist
 
-Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komplett durcheinandergeworfen werden. Wenn du Agent Readiness Level 5 erreichen willst, musst du den Unterschied kennen.
+Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komplett durcheinandergeworfen werden. Wenn du Agent Readiness vollständige Agent Readiness erreichen willst, musst du den Unterschied kennen.
 
 Stell dir dein Unternehmen als einen hochqualifizierten Arbeiter vor. 
 * Wenn dieser Arbeiter ein internes Werkzeug aus seinem eigenen Werkzeugkoffer nimmt (einen Hammer, eine Bohrmaschine, Zugriff auf deine Firmen-Infrastruktur), dann benutzt er **MCP**. Es ist die *vertikale* Verbindung zwischen "Denker" und "Werkzeug".
@@ -4744,7 +4744,7 @@ Kopiere dir diesen Textblock und jage ihn in den KI-Agenten deiner Wahl. Der Pro
 > "Schlüpfe in die Rolle eines Senior System Architects der Agentic AI Foundation. Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand Juli 2026). 
 > - Zeige mir konkret auf, an welchen Stellen ich in meinem Unternehmen heute noch mit teuren, hart-kodierten API-Integrationen arbeite, die ich durch standardisierte, zustandslose MCP-Server ersetzen MUSS, um Cloud-Native Skalierbarkeit zu erreichen.
 > - Erkläre mir, wie ich meine proprietären Unternehmensdatenbanken über MCP sicher (Security & Authorization nach den neuen Specs) an mein internes LLM anbinde.
-> - Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf Cloudflare Agent Readiness Level 5 zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne."
+> - Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf Cloudflare Agent Readiness vollständige Agent Readiness zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne."
 
 Es gibt keine Zeit mehr für zögerliche Experimente. Die Technologie ist flügge geworden, die Protokolle sind standardisiert. Nutze MCP, reiß die Silos in deinem Unternehmen ein und mach deine Daten agent-ready. Wer seine Gehirne im Dunkeln lässt, hat im KI-Zeitalter keine Chance.
 

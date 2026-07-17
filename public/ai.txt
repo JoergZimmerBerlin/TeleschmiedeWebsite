@@ -19,4 +19,4 @@ For real-time agents, a structured markdown representation of our knowledge base
 
 # Verification
 All official bots are explicitly whitelisted in our robots.txt.
-This policy aligns with our public AI-Readiness Level 5 infrastructure.
+This policy aligns with our public AI-Readiness infrastructure.

@@ -66,13 +66,13 @@ Mit der `ai.txt` zeigst du guten Willen: "Ihr dürft meine Inhalte lesen, um Fra
 
 ## Das "Agent Readiness" Konzept
 
-Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readiness. Im April 2026 hat Cloudflare mit `isitagentready.com` ein Tool veröffentlicht, das schonungslos aufdeckt, wie gut Websites für die Maschinenlesbarkeit optimiert sind. Die Skala reicht von Level 0 bis Level 5.
+Wenn wir über die `ai.txt` sprechen, sprechen wir eigentlich über Agent Readiness. In der Branche haben sich inoffizielle Reifegradmodelle etabliert, an denen man sich orientieren kann, um zu prüfen, wie gut Websites für die Maschinenlesbarkeit optimiert sind.
 
-* **Level 1 und 2** sind die Basics: Eine saubere `robots.txt` und strukturierte Daten (Schema.org).
-* **Level 3** erfordert bereits explizite KI-Dateien. Wer keine `ai.txt` und keine `llms.txt` hat, bleibt hier hängen.
-* **Level 4 und 5** sind die Königsklasse. Hier sprechen wir über das A2A Protocol, über stateless MCP (Model Context Protocol) und autonome Authentifizierung über `auth.md`. 
+* **Die Basics:** Eine saubere `robots.txt` und strukturierte Daten (Schema.org).
+* **Das Fortgeschrittene Level:** Dies erfordert bereits explizite KI-Dateien. Wer keine `ai.txt` und keine `llms.txt` hat, bleibt hier hängen.
+* **Die Königsklasse:** Hier sprechen wir über echte Autonomie durch das A2A Protocol, über stateless MCP (Model Context Protocol) und maschinenlesbare Authentifizierung über `auth.md`. 
 
-Wenn du als Unternehmen im Unternehmensumfeld sichtbar sein willst, ist Level 3 die absolute Pflicht. Die volle Agent-Kompatibilität ist die Kür, die dir die Leads der Zukunft sichert.
+Wenn du als Unternehmen im Unternehmensumfeld sichtbar sein willst, sind die fortgeschrittenen KI-Dateien die absolute Pflicht. Die volle Agent-Kompatibilität ist die Kür, die dir die Leads der Zukunft sichert.
 
 ## Praxisbeispiel: Die ai.txt der Teleschmiede
 
@@ -86,7 +86,7 @@ Wir nutzen das Standard-Format, das sich durchgesetzt hat. Es beginnt mit den Ba
 
 ```text
 # AI Policy for teleschmie.de
-# eine vollständige Agent Readiness Configuration
+# Agent Readiness Configuration
 
 Contact: hallo@teleschmie.de
 Author: Jörg Zimmer

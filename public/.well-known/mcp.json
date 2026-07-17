@@ -10,6 +10,7 @@
     "documentationUrl": "https://teleschmie.de/ueber-mich/"
   },
   "capabilities": {
+    "tools": [],
     "resources": [
       {
         "uri": "https://teleschmie.de/llms.txt",

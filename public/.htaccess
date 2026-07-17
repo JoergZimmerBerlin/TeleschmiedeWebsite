@@ -55,6 +55,9 @@ AddCharset UTF-8 .txt .md .json .html .css .js
 Options -MultiViews
 RewriteEngine On
 
+# MCP Endpoint Routing
+RewriteRule ^mcp/?$ /mcp.php [L]
+
 # Markdown Content Negotiation für KI-Agenten
 # WICHTIG: Vary: Accept muss gesetzt sein, damit CDNs/Browser-Caches HTML und Markdown sauber trennen
 Header append Vary "Accept"

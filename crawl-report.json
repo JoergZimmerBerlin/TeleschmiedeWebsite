@@ -1,0 +1,928 @@
+[
+  {
+    "url": "https://teleschmie.de/glossar/model-context-protocol-mcp/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/a2a-protocol/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-card-json/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agents-md/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-plugin-json/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-txt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/markdown-content-negotiation/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/auth-md/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-readiness-level/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T11:59:16Z"
+  },
+  {
+    "url": "https://teleschmie.de/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T11:00:53Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/markenaufbau-mit-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-15T10:48:22Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-15T10:48:21Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-tracking-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-15T10:48:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-stammtisch-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-15T10:48:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-erklaert/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-15T10:46:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-14T21:01:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/freelancer-team/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-14T04:21:35Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-13T09:13:44Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/keywoerter/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-11T14:48:24Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/core-web-vitals-ux-bericht/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-11T08:47:09Z"
+  },
+  {
+    "url": "https://teleschmie.de/groundingpage-en/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T19:17:48Z"
+  },
+  {
+    "url": "https://teleschmie.de/impressum/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T18:21:44Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-praxis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T17:19:39Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-preise/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T09:49:57Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-bewertung-ronny/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T08:32:51Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-so-laeuft-sie-ab/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T09:48:37Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/campixx-seo-agentur-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:16:36Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-seo-ai-seo-llmo-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:16:34Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:16:34Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-agentur/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:16:31Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/80-prozent-seo-fehler-sprechstunde/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:14:54Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/stefan-godulla-campixx/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:12:30Z"
+  },
+  {
+    "url": "https://teleschmie.de/tools/groundingpage-generator/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T18:26:54Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-essentials-ai-tracking-einsteiger/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T11:59:45Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-geo-sichtbarkeit-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T11:59:44Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-ai-tracker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T11:56:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T11:54:38Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T11:54:37Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ms-clarity-session-campixx/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-07T11:52:37Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/sistrix-vs-se-ranking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-03T23:52:51Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/grounding-page-generator-ai-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-03T08:26:41Z"
+  },
+  {
+    "url": "https://teleschmie.de/seo-sprechstunde/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-02T19:51:49Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/website-seo-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-29T20:48:17Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/events-and-networking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-29T14:37:08Z"
+  },
+  {
+    "url": "https://teleschmie.de/ueber-mich/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-29T11:29:53Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/malte-landwehr-ai-search-content-formate/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-29T08:26:57Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-und-ai-search-neues-spiel/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-29T05:30:07Z"
+  },
+  {
+    "url": "https://teleschmie.de/leistungen/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-25T12:47:29Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/campixx-networking-conversion-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-25T12:39:26Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seorch-seo-tool-fanboy/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-25T12:39:25Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/grounding-page/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-06-22T17:23:10Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-22T14:43:38Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-sichtbarkeit-messen-optimieren/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-20T09:45:33Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/knowledge-graph/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-17T23:04:51Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/24-jahre-seo-gleiche-fehler/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-14T20:44:55Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/bist-du-seo-ai-ready-podcast/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-14T20:44:54Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sichtbarkeitsmanagement/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-14T20:42:55Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/generative-engine-optimization-geo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-13T21:13:33Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/pagespeed-100-seo-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-12T15:39:34Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/money-keyword/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-12T14:25:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/pressearbeit-im-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-06-12T06:26:06Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-consulting/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-11T03:33:17Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-api-claude-code-setup/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-11T02:22:51Z"
+  },
+  {
+    "url": "https://teleschmie.de/datenschutz/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-09T09:02:24Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/linkjuice/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-08T12:38:55Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/meta-description/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-07T10:17:27Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rankingfaktoren/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-06T14:25:35Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sichtbarkeitsindex/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-05T18:23:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-api-endpunkte-kompass/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-05T03:27:44Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-action-plan-llm-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-01T09:04:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-agentur/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-01T09:04:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/digitaler-unternehmensberater-statt-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-31T12:43:17Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/willkommen-seo-jahr-2026/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-26T10:30:03Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelancer-team-omr-hamburg/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T07:58:17Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sitemap/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T07:56:51Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-crawler-sind-dumm-markdown/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T07:55:02Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/google-search-console-zustaendigkeit-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T06:26:45Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-vs-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T01:52:32Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-feuerwehr-rettung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T01:34:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/campixx-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T00:04:52Z"
+  },
+  {
+    "url": "https://teleschmie.de/kontakt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-24T23:28:22Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/bing-webmastertools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-24T05:48:38Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ueberstunde-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-24T05:36:15Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-seo-geo-praktikanten/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-24T05:32:34Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/interne-verlinkung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-24T04:32:00Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/tech-seo-and-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T07:42:49Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelance-unlocked-eis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T06:32:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T01:11:04Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-ai-visibility-tracking-17-llms/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-05-23T01:10:51Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-basics-onpage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T00:45:17Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/e-e-a-t-offpage/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-05-23T00:45:16Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/technisches-seo-ux/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T00:45:15Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/h1-h2-h3/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T00:02:57Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/faq-markup/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:59:29Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/expertise-eeat/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:56:14Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/experience-eeat/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:52:53Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/e-e-a-t/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:50:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ctr/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:46:21Z"
+  },
+  {
+    "url": "https://teleschmie.de/groundingpage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T22:40:30Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/omr-freelancer-stand-roi/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T09:41:34Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/google-ads-support-seo-nicht-tot/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-14T20:22:50Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/linkedin-ist-ein-forum-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-14T20:21:56Z"
+  },
+  {
+    "url": "https://teleschmie.de/google-ads-freelancer-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-09T08:34:46Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-freelancer/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-07T06:31:10Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/zitierfaehiger-content/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-07T02:33:53Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/omr-2026-mission-freelancer-team/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-05-06T03:14:16Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/robots-txt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-22T19:30:03Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/local-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-22T19:28:05Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llmo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-22T19:26:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/linkbuilding/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-22T19:26:36Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/snippet-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-21T19:01:29Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/traffic/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-21T19:01:27Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/title-tag/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-21T19:01:26Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-core-update/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-21T18:59:25Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/pagespeed/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-21T18:59:25Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/trailing-slashes/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-19T10:37:45Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/trustworthiness-eeat/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-19T10:37:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/usability/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-19T10:37:39Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/zero-click-content/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-19T10:35:41Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/mention/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-19T10:33:37Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llms-full-txt/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-14T15:15:21Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/wordpress-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-13T09:11:48Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/suchvolumen/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-04-13T09:11:47Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/technisches-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-13T09:09:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-coaching/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-13T09:09:41Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/cpc/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-31T08:53:31Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/crawler/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-31T08:53:31Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/crawling-vs-indexing/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-31T08:53:31Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/technisches-schema-markup/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-31T08:45:12Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llms-txt/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-28T03:00:05Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/404-fehlerseiten/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-28T01:32:31Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-optimierung/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-27T06:03:25Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/brand-mentions/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-25T09:00:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/canonical-tag/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-25T09:00:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/301-vs-302/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-25T09:00:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/authoritativeness-eeat/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-25T09:00:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/strukturierte-daten/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-25T08:58:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/conversion-rate/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-23T12:54:37Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-connect-berlin-networking/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-21T05:12:15Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/keyword-tool/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-20T18:28:40Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entity-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-20T18:26:37Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/keywordrecherche/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-20T18:24:39Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/einfachste-seo-verhaeltnisse/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-19T23:10:38Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-19T17:28:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rag/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-19T17:22:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-seo-beratung/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/website-relaunch/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/chatgpt-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:17Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T03:51:33Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/citation/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-18T14:04:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entitaeten-building/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-18T14:04:42Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-18T14:02:41Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/aeo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-18T14:02:40Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/doenerback-und-motivation/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-17T00:44:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/core-web-vitals/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-15T22:22:20Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entitaet/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-15T11:36:26Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/wir-seos-zusammenhalt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-13T12:55:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/zwei-stunden-seo-potential/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-13T12:55:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-relaunch-klassiker-meme/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-13T12:53:43Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-search-console/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-12T13:28:39Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-algorithmus/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-12T10:45:39Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/schema-org-markup/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-12T02:57:21Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/semantic-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-12T02:57:02Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-beratung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-10T22:28:45Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-03-10T15:44:00Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/liebe-bots-crawler-agenten/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-02-28T23:41:10Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-agent-weihnachtsgruesse-linkedin/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-02-27T19:45:26Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/highlights-2025-jahresrueckblick/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-02-27T19:45:26Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/magic-writing-podcast-seo-ist-tot/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-02-27T19:45:26Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-ai-visibility-tool/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-02-20T00:46:16Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/api-catalog/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/http-message-signatures/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/identity-json/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sovp-protocol/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/dns-sovereignty/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rfc-8288-link-headers/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/blog/campixx-video-roland-golla/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelance-unlocked-eis-erfolgreich/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelance-unlocked-lila-tshirts/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-update-agency-api-chatgpt/",
+    "verdict": "ERROR",
+    "lastCrawlTime": null,
+    "error": "Internal error encountered."
+  },
+  {
+    "url": "https://teleschmie.de/blog/website-seo-audit-vibe-coding/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/blog/wir-seos-sind-schuld-community/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-seo-generative-search/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/glossar/noindex/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  },
+  {
+    "url": "https://teleschmie.de/seo-freelancer-berlin/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null
+  }
+]

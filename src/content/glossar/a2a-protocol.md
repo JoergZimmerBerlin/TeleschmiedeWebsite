@@ -17,7 +17,7 @@ faqs:
   - question: "Wer verwaltet das A2A Protocol? Ist das ein proprietärer Standard?"
     answer: "Nein, absolut nicht. Stand Sommer 2026 wird das A2A Protocol von der Linux Foundation als offener, herstellerunabhängiger Standard (v1.0.0) verwaltet. Das ist essenziell, denn nur ein offenes System verhindert, dass große Tech-Konzerne Monopole im Agenten-Ökosystem aufbauen."
   - question: "Ist A2A sicher, oder kann jeder fremde Bot mein System hacken?"
-    answer: "Sicherheit ist der absolute Kern von A2A. Durch Mechanismen wie HTTP Message Signatures (oft gekoppelt mit ID-JAGs) stellt das Protokoll sicher, dass nur kryptografisch verifizierte und von dir berechtigte Agenten Aktionen ausführen dürfen. Deine maschinenlesbare Endpunkt-Dokumentation deklariert dabei die harten Spielregeln."
+    answer: "Sicherheit ist der absolute Kern von A2A. Durch Mechanismen wie HTTP Message Signatures (oft gekoppelt mit ID-JAGs) stellt das Protokoll sicher, dass nur kryptografisch verifizierte und von dir berechtigte Agenten Aktionen ausführen dürfen. Deine auth.md deklariert dabei die harten Spielregeln."
   - question: "Was passiert, wenn meine Website dieses Protokoll 2026 noch ignoriert?"
     answer: "Dann betreibst du eine digitale Insel, die von der neuen Agenten-Ökonomie abgeschnitten ist. Wenn der KI-Einkaufsassistent eines Konzerns nach neuen Lieferanten sucht und deine Seite nicht A2A-kompatibel ist, wird er gar nicht erst versuchen, deine veralteten Formulare auszufüllen. Er geht direkt zum Konkurrenten."
 ---
@@ -32,7 +32,7 @@ Unternehmen lagern Routineaufgaben zunehmend an autonome KI-Agenten aus. Der Ein
 
 Und genau hier kracht es gewaltig im Gebälk der klassischen IT-Infrastruktur. Wie zum Teufel soll der Agent von Firma A mit dem IT-System von Firma B sprechen, ohne dass ein Entwickler monatelang teuren Pfusch am Bau betreibt, um eine Custom-API zu programmieren? 
 
-Die Antwort auf dieses gigantische Skalierungsproblem ist das **A2A Protocol (Agent-to-Agent Protocol)**. Es ist der absolute Industrie-Standard, der im März 2026 die offizielle Version v1.0.0 erreicht hat und unter dem Dach der Linux Foundation dafür sorgt, dass Maschinen endlich auf Augenhöhe miteinander verhandeln können.
+Die Antwort auf dieses gigantische Skalierungsproblem ist das **A2A Protocol (Agent-to-Agent Protocol)**. Ursprünglich im April 2025 von Google eingeführt, ist es mittlerweile der absolute Industrie-Standard, der im März 2026 die offizielle Version v1.0.0 erreicht hat und unter dem Dach der Linux Foundation dafür sorgt, dass Maschinen endlich auf Augenhöhe miteinander verhandeln können.
 
 ## Was genau ist das A2A Protocol?
 
@@ -42,19 +42,19 @@ Stell dir vor, du gehst in ein fremdes Land. Wenn es dort keine einheitliche Spr
 
 Früher mussten wir APIs bauen und dokumentieren, damit *Software* mit *Software* spricht. Der gravierende Nachteil: Ein Mensch musste die Dokumentation lesen und die Verbindung hart kodieren. Das A2A Protocol dreht diesen Spieß um. Es ermöglicht **Dynamic Discovery**. 
 
-Wenn Agent A auf den Server von Unternehmen B trifft, fragt er nicht nach einer PDF-Dokumentation. Er fragt standardisiert nach der [standardisierte Agent-Identity-Schnittstellen](/glossar/agent-card-json/). Dort liest er maschinell aus:
+Wenn Agent A auf den Server von Unternehmen B trifft, fragt er nicht nach einer PDF-Dokumentation. Er fragt standardisiert nach der [agent-card.json](/glossar/agent-card-json/). Dort liest er maschinell aus:
 1. "Wer bist du?"
 2. "Welche Services bietest du an?"
 3. "Wie muss ich mich authentifizieren, um mit dir ins Geschäft zu kommen?"
 
-Alles geschieht in Millisekunden. Vollautonom.
+Alles geschieht in Millisekunden. Vollautonom. Über standardisierte Web-Technologien wie HTTP, JSON-RPC und Server-Sent Events (SSE).
 
 ## A2A vs. MCP: Schluss mit der Verwirrung
 
 Im aktuellen Hype um autonome Systeme werden zwei Begriffe ständig in einen Topf geworfen: Das Model Context Protocol (MCP) und das A2A Protocol. Wer diese beiden Dinge verwechselt, hat die Architektur der neuen KI-Welt nicht verstanden.
 
 * **Das Model Context Protocol (MCP)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juni 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
-* **Das A2A Protocol** hingegen ist die **horizontale** Verbindung. Es kommt genau dann zum Einsatz, wenn dein Agent die sicheren Grenzen deines eigenen Unternehmens verlässt und mit dem Agenten eines völlig fremden Unternehmens kommunizieren muss. 
+* **Das A2A Protocol** hingegen ist die **horizontale** Verbindung. Es kommt genau dann zum Einsatz, wenn dein Agent die sicheren Grenzen deines eigenen Unternehmens verlässt und mit dem Agenten eines völlig fremden Unternehmens kommunizieren muss. Jeder Agent behält dabei seine eigenen Trust Boundaries und seinen internen State bei.
 
 MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um eine vollständige Agent Readiness zu erreichen.
 
@@ -78,7 +78,7 @@ Auf meiner Website teleschmie.de predige ich nicht nur die schöne neue KI-Welt,
 
 Das Herzstück dieser Infrastruktur liegt in meinem öffentlichen `.well-known` Verzeichnis. Wenn ein fremder Agent meine Domain anpingt, um zu prüfen, ob ich A2A-Ready bin, sucht er sofort nach meiner Agent Card.
 
-Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/standardisierte Agent-Identity-Schnittstellen`
+Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/agent-card.json`
 
 Hier ist ein Ausschnitt aus der harten Realität:
 
@@ -86,7 +86,7 @@ Hier ist ein Ausschnitt aus der harten Realität:
 {
   "a2a_version": "1.0.0",
   "identity": {
-    "provider": "Jörg Zimmer",
+    "provider": "Jörg Zimmer"
   },
   "endpoints": {
     "service": "https://teleschmie.de/api/a2a/task",
@@ -94,7 +94,7 @@ Hier ist ein Ausschnitt aus der harten Realität:
   },
   "security": {
     "auth_required": true,
-    "auth_policy": "https://teleschmie.de/.well-known/maschinenlesbare Endpunkt-Dokumentation"
+    "auth_policy": "https://teleschmie.de/auth.md"
   }
 }
 ```
@@ -102,13 +102,13 @@ Hier ist ein Ausschnitt aus der harten Realität:
 **Was dieses Setup so mächtig macht:**
 1. **Versionsklarheit:** Ich deklariere sofort `1.0.0`. Der anklopfende Agent weiß, dass ich den stabilen Standard spreche.
 2. **Klarer Scope:** Der Agent weiß genau, was ich anbiete (SEO Audits, Agent Readiness).
-3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweise ich hart auf die `maschinenlesbare Endpunkt-Dokumentation`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an meinem `service` Endpunkt.
+3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweise ich hart auf die `auth.md`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an meinem `service` Endpunkt. Die `auth.md` muss zwingend kleingeschrieben werden und die H1-Überschrift `# auth.md` tragen!
 
-Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität im Sommer 2026.
+Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität im Sommer 2026, getragen von Cloud-Giganten wie Microsoft (Azure AI Foundry), AWS und Google Cloud.
 
 ## Wie bereit ist dein Unternehmen? (Der Selbsttest)
 
-Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte eine vollständige Agent Readiness misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
+Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte eine vollständige Agent Readiness (Level 5 auf dem Cloudflare Radar) misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
 
 Du musst das nicht glauben, du kannst es hart testen. Nutze deinen eigenen KI-Assistenten (oder deinen internen Agenten), um einen sogenannten "A2A Discovery Flow" auf deiner eigenen Infrastruktur zu simulieren. 
 
@@ -118,7 +118,7 @@ Kopiere den folgenden Prompt und gib ihn deinem präferierten LLM oder KI-Agente
 
 **Prompt für deinen KI-Agenten:**
 ```text
-Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `standardisierte Agent-Identity-Schnittstellen` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`maschinenlesbare Endpunkt-Dokumentation`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte (inklusive JSON-Manifeste) zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
+Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
 ```
 
 ## Das Fazit: Wer jetzt schläft, verliert

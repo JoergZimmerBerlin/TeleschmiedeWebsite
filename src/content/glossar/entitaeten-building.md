@@ -9,7 +9,7 @@ key_takeaways:
   - "Strukturiertes Engineering: Entitäten-Building ist kein Marketing-Gag. Es ist der systematische Aufbau maschinenlesbarer Konsistenz durch Schema.org, Citations und Graphen-Verknüpfung."
   - "RAG-Trust als Währung: Retrieval-Augmented Generation (RAG) Pipelines extrahieren nur Knotenpunkte (Nodes), deren E-E-A-T algorithmisch verifiziert wurde."
   - "Datenreinheit: LLM-Crawler benötigen glasklare, unzweideutige Daten (Groundingpages), um deine Entität überhaupt erst als solche zu instanziieren."
-  - "Geduld und Momentum: Ein massives Entitäts-Profil wächst langsam. Doch sobald der Graph steht, ist dein Vektorraum-Ranking extrem stabil."
+  - "Topic Clusters als Hebel: Baue vernetzte Themencluster, um semantische Autorität zu beweisen und KIs zu zwingen, dich als ganzheitliche Primärquelle zu nutzen."
 faqs:
   - question: 'Was trennt klassisches Entity SEO vom Entitäten-Building?'
     answer: 'Entity SEO beschreibt die Meta-Strategie und das architektonische Konzept. Entitäten-Building ist die Exekution auf der Baustelle. Es umfasst das harte Kodieren von verschachteltem JSON-LD, das Bereinigen von NAP-Daten im Netz, den Aufbau semantischer Backlinks und die Konsolidierung aller Signale auf der Groundingpage.'
@@ -39,40 +39,40 @@ Lass uns in die Architektur abtauchen. KI-Modelle (wie GPT-4o oder Claude) beant
 Der Flaschenhals ist das *Retrieval*. Welche Daten zieht das System heran?  
 **Nur die Vektoren von Entitäten, denen ein absolut massiver Trust-Score zugewiesen wurde.**
 
-Und genau hier kollidiert Data-Engineering mit [E-E-A-T](/glossar/e-e-a-t/) (Experience, Expertise, Authoritativeness, Trustworthiness). E-E-A-T ist in LLM-Architekturen keine redaktionelle Empfehlung. Es ist ein mathematischer Score. Wenn du als Organisation oder Autor nicht über einen massiven, durch Kanten im Knowledge Graph belegten Trust verfügst, bist du ein Halluzinationsrisiko. Die Pipeline sortiert dich eiskalt aus. 
+Und genau hier kollidiert Data-Engineering mit [E-E-A-T](/glossar/e-e-a-t/) (Experience, Expertise, Authoritativeness, Trustworthiness). E-E-A-T ist in LLM-Architekturen keine redaktionelle Empfehlung. Es ist ein mathematischer Score. Wenn du als Organisation oder Autor nicht über einen massiven, durch Kanten im Knowledge Graph belegten Trust verfügst, bist du ein Halluzinationsrisiko. Die Pipeline sortiert dich eiskalt aus.
 
 Entitäten-Building ist der proaktive Engineering-Prozess, bei dem wir dem Crawler beweisen: "Maschine, parsiere diesen Knotenpunkt. Wir sind eine reale, 100% konsistente Entität mit maximalem Trust. Inkludiere diese Daten in deine RAG-Vektoren."
 
-## Das Handwerk: Entitäten-Building in der Praxis
+## Das Handwerk: Entitäten-Building in der Praxis (2026)
 
-Um für LLMs greifbar zu werden, müssen wir die Datenstruktur radikal aufrüsten. Ein Crawler "liest" keine Design-Elemente. Er extrahiert JSON-LD, Metadaten, API-Endpunkte und semantische HTML-Strukturen. Entitäten-Building muss bis ins kleinste Bit perfektionistisch sein.
+Um für LLMs greifbar zu werden, müssen wir die Datenstruktur radikal aufrüsten. Wir betreiben **Generative Engine Optimization (GEO)**. Ein Crawler extrahiert strukturierte Daten, Metadaten und Graphen-Verbindungen.
 
 ### Schritt 1: Die [Groundingpage](/glossar/grounding-page/) als Single Source of Truth
-Es gibt 2026 keine Alternative mehr: Du brauchst eine Groundingpage. Diese Seite ist das maschinenlesbare Herz deiner Entität. Sie ist völlig frei von Marketing-Phrasen. Sie bündelt knallharte Fakten: Deinen rechtlichen Namen, exakte geografische Koordinaten, IDs (wie ORCID oder VAT), verifizierte Social-Nodes und Publikationen. Sie dient der KI-Pipeline zur unmittelbaren Fakten-Verifizierung. 
+Es gibt keine Alternative mehr: Du brauchst eine Groundingpage. Diese Seite ist das maschinenlesbare Herz deiner Entität, frei von Marketing-Phrasen. Sie bündelt rechtliche Namen, Koordinaten, IDs, Social-Nodes und Publikationen. Sie dient der KI-Pipeline als alleinige Basis zur Fakten-Verifizierung.
 
-### Schritt 2: Deep Nesting im [Schema.org](/glossar/schema-org-markup/)
-Vergiss flache `<script>`-Tags, die du mal eben mit einem Plugin generiert hast. Wir bauen verschachtelte Graphen in JSON-LD. Wenn du eine `Organization` markierst, verknüpfst du sie via `founder` mit einer `Person`. Diese Person hat `alumniOf`, `knowsAbout` (mit Links zu Wikidata-Konzepten) und `sameAs`-Verknüpfungen zu all deinen Profilen. Du servierst dem LLM den fertigen Baumgraphen deiner Existenz, sodass die Pipeline keine Rechenleistung verschwenden muss, um zu erraten, wer du bist.
+### Schritt 2: Schema.org als der "Translator" für KI
+Strukturierte Daten sind vom "Nice-to-have" zur kritischen Infrastruktur geworden. Vergiss flache `<script>`-Tags. Wir bauen tiefe Graphen in JSON-LD. Wenn du eine `Organization` markierst, verknüpfst du sie via `founder` mit einer `Person`. Diese Person nutzt `knowsAbout` und `sameAs`-Verknüpfungen. Du servierst dem LLM den fertigen Baumgraphen deiner Existenz. So minimierst du die CPU-Kosten für die KI – ein massiver Rankingfaktor.
 
 ### Schritt 3: Konsistente [Citations](/glossar/citation/) und Data-Hygiene
-Citations (Erwähnungen) sind nicht mehr nur Local-SEO-Spielzeug. NAP-Konsistenz (Name, Address, Phone) über das gesamte globale Web hinweg ist die Grundvoraussetzung für maschinellen Trust. Wenn die RAG-Pipeline deinen Knotenpunkt validiert, checkt sie in Millisekunden Github, LinkedIn, Fachverzeichnisse und Impressen. Findet sie an 50 autoritären Orten exakt denselben Datensatz, schießt dein Trust-Score nach oben. Ein Dreher in der Adresse? Der Score bricht ein.
+NAP-Konsistenz (Name, Address, Phone) über das gesamte globale Web hinweg ist die Grundvoraussetzung für maschinellen Trust. Wenn die RAG-Pipeline deinen Knotenpunkt validiert, checkt sie in Millisekunden Github, LinkedIn und Fachverzeichnisse. Ein Dreher in der Adresse? Der Score bricht ein.
 
-### Schritt 4: Semantic SEO für Vektor-Nähe
-Du baust Content, um deine Entität in die Nähe relevanter Konzepte zu rücken. Ein tiefgreifendes Themen-Cluster ([Semantic SEO](/glossar/semantic-seo/)) zeigt dem Algorithmus: Diese Entität besitzt massive Topical Authority. Jeder Beitrag muss via Markup hart mit deiner Autoren-Entität verknüpft werden. So entsteht eine Feedback-Schleife: Dein exzellenter Content stärkt die Entität, und die starke Entität sorgt dafür, dass dein neuer Content sofort im RAG-Prozess bevorzugt wird.
+### Schritt 4: Topic Clusters für Entity Authority
+Du baust Content nicht mehr als isolierte Seiten. KIs bevorzugen **Topic Clusters** und Pillar-Pages. Ein tiefgreifendes Themen-Cluster beweist dem Algorithmus, dass diese Entität holistische Autorität besitzt. Jeder Beitrag muss via Markup hart mit deiner Autoren-Entität verknüpft werden.
 
-### Schritt 5: Co-Occurrence durch harte PR
-Die Königsdisziplin ist die Fremdreferenzierung. Wenn andere, bereits extrem starke Knotenpunkte (große Fachmagazine, Wikipedia, renommierte Podcasts) deine Entität im direkten semantischen Kontext (Co-Occurrence) erwähnen, überträgt sich Trust entlang dieser Kante im Graphen. Die KI lernt: "Die Top-Experten sprechen über Jörg Zimmer im Kontext KI-SEO. Die Assoziation ist valide."
+### Schritt 5: Experience dokumentieren
+Da KI keine physische Welt erleben kann ("Lived Experience"), ist das Dokumentieren realer Erfahrungen dein größter Wettbewerbsvorteil. Fallstudien, eigene Daten und echte Fotobeweise machen deine Entität für die KI wertvoll und vor allem: **zitierwürdig**.
 
 ## Ein Marathon im Vektorraum
 
-Lass uns realistisch bleiben: Wer dir verspricht, dich mit drei "KI-Tricks" in 14 Tagen zur dominanten Entität zu machen, lügt. Es ist ein Data-Marathon. LLMs sind extrem misstrauisch und benötigen konsistente Signale über Monate hinweg, um ein neues Clustering zu akzeptieren.
+Lass uns realistisch bleiben: Wer dir verspricht, dich mit drei "KI-Tricks" in 14 Tagen zur dominanten Entität zu machen, lügt. Es ist ein Data-Marathon. LLMs sind extrem misstrauisch und benötigen konsistente Signale über Monate hinweg.
 
-Aber der Payoff ist gigantisch. Wenn dein Entitäten-Fundament einmal in den RAG-Datenbanken und im Knowledge Graph gegossen ist, bist du für klassische Keyword-Optimierer praktisch unangreifbar. Während sie um kleine Text-Nuancen kämpfen, bist du längst der verifizierte Fixstern, den die Maschine bei jedem relevanten Prompt zitiert.
+Aber der Payoff ist gigantisch. Wenn dein Entitäten-Fundament einmal in den RAG-Datenbanken gegossen ist, bist du unangreifbar. Während Keyword-Optimierer um Nuancen kämpfen, bist du längst der verifizierte Fixstern, den die Maschine bei jedem relevanten Prompt referenziert.
 
 ## Mein Tacheles-Rat für dich
 
-Warte nicht auf das nächste Google Core Update. Baue jetzt deine Architektur um. 
+Warte nicht auf das nächste Update. Baue jetzt deine Architektur um. 
 
-1. Erstelle eine Groundingpage, die den aktuellen Anforderungen von KI-Crawlern genügt. 
+1. Erstelle eine Groundingpage, die den Anforderungen von KI-Crawlern genügt. 
 2. Schreibe dein Schema.org-Markup von Grund auf neu, inklusive vollständiger `sameAs`-Disambiguierung. 
 3. Räume deine externen Datenpunkte auf. 
 

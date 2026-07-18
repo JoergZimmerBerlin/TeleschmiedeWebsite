@@ -48,15 +48,15 @@ Ein **Soft-404** ist hingegen die ultimative Kapitulation deines CMS und ein mas
 
 Das ist toxisch! Du lügst den Crawler an. Du sagst: "Hey, hier ist ein gültiges Dokument (200 OK)", aber inhaltlich bietest du nur heiße Luft oder ein irrelevantes Fallback. Suchmaschinen und LLM-Crawler sind heute extrem sensibel auf solche Logikbrüche. Sie stufen diese Seiten in ihren Indizes als "Soft-404" ein und strafen die Domain für mangelnde technische Hygiene ab. Deshalb: Wenn eine Seite tot ist, MUSS sie entweder per [301 Redirect](/glossar/301-vs-302/) weitergeleitet werden oder hart als 404 (oder 410 "Gone") deklariert werden. Niemals ein 200er Status für eine Fehlerseite!
 
-## Wie 404-Sackgassen RAG-Pipelines sabotieren
+## Der KI-Impact 2026: Synthesis Blocking
 
-Wir leben im Jahr 2026. Das klassische "10 blaue Links"-Google existiert noch, aber der Fokus liegt auf autonomen Answer Engines. Diese neuen Systeme hassen 404-Fehler noch mehr als der gute alte Googlebot.
+Wir leben im Jahr 2026. Das klassische "10 blaue Links"-Google existiert noch, aber der Fokus liegt auf autonomen Answer Engines und AI Overviews. Diese neuen Systeme hassen 404-Fehler noch mehr als der gute alte Googlebot.
 
-Warum? Weil KI-Modelle durch RAG (Retrieval-Augmented Generation) arbeiten. Wenn ein LLM eine Frage beantwortet, nutzt es KI-Crawler, um Echtzeit-Fakten abzurufen. Diese Crawler scannen deine strukturierten Daten, deine Markdown-Endpunkte und textuellen Inhalte.
+Warum? Weil KI-Modelle durch RAG (Retrieval-Augmented Generation) arbeiten. Wenn ein LLM eine Frage beantwortet, nutzt es KI-Crawler, um Echtzeit-Fakten abzurufen. Diese Crawler (wie der `GPTBot` oder `ClaudeBot`) scannen deine strukturierten Daten, deine Markdown-Endpunkte und textuellen Inhalte.
 
-Stößt ein KI-Crawler in seiner Pipeline auf einen 404-Fehler, bricht er den RAG-Prozess für diese Quelle rigoros ab. LLMs haben keine Zeit für fehlerhafte Referenzen oder langsame Fehler-Handlings. Sie suchen nach Konsistenz und Vektor-Semantik. Ein 404 ist in ihrem Vektorraum ein schwarzes Loch, ein "Fakten-Loch". 
+Das absolute Grundgesetz 2026 lautet **"Clean Access"**. Wenn ein Crawler eine Seite anfordert und einen 404-Fehler kassiert, scheitert der RAG-Prozess rigoros. LLMs haben keine Zeit für fehlerhafte Referenzen oder langsame Fehler-Handlings. Sie suchen nach Konsistenz und Vektor-Semantik. Ein 404 ist in ihrem Vektorraum ein schwarzes Loch, ein "Fakten-Loch". 
 
-Wenn du beispielsweise ein wichtiges PDF, eine `.md`-Datei oder einen autoritativen Fachartikel löschst, ohne den Router anzupassen, und der Crawler bekommt einen 404er, markiert sein System deine gesamte Entität als "unzuverlässige Datenquelle". Wenn KI-Modelle keine verlässlichen Fakten auf deiner Domain finden, sinkt dein Trust Score und du wirst schlichtweg nicht mehr als Quelle zitiert.
+Noch viel schlimmer: Suchmaschinen nutzen deine Fehler-Rate als Signal für die allgemeine Seitenqualität. Das ist sogenanntes **Quiet SEO**. Übermäßige 404er signalisieren, dass deine Seite ungepflegt ist. Wenn KI-Modelle keine verlässliche Basis auf deiner Domain finden, sinkt dein Trust Score lautlos, und du wirst schlichtweg nicht mehr als Quelle zitiert (Zero-Click-Death).
 
 ## Autoritäts-Vernichtung: Die unsichtbare Blutung
 
@@ -78,7 +78,7 @@ Ein 301-Redirect instruiert den Client, die neue URL aufzurufen. Der entscheiden
 ### Best Practices für das Fixing von 404s:
 1. **Thematische Relevanz ist Pflicht:** Leite eine gelöschte Seite niemals stumpf auf die Startseite um. Das erzeugt sofort einen Soft-404 und frustriert den Nutzer. Die neue Ziel-URL muss inhaltlich so nah wie möglich an der alten URL sein. Wenn ein Produkt ausverkauft ist, leite auf das Nachfolgemodell oder die direkte übergeordnete Produktkategorie um. 
 2. **Interne Links prüfen:** Die wichtigste Regel für saubere Architektur: Deine internen Links müssen zwingend auf `/` enden! Falsche interne Verlinkungen ohne Trailing Slash führen oft zu unnötigen Redirects oder gar 404-Problemen, wenn der Server unsauber konfiguriert ist.
-3. **Regelmäßige Audits:** Nutze Tools wie den *Screaming Frog SEO Spider*. Ich jage den Frog regelmäßig über die Domains meiner Kunden. Er findet defekte interne Links und 404-Statuscodes in Millisekunden, lange bevor KI-Crawler sie überhaupt bemerken. Das ist proaktives [SEO Audit](/glossar/seo-audit/) auf Enterprise-Niveau.
+3. **Regelmäßige Audits:** Nutze Tools wie den *Screaming Frog SEO Spider* in Kombination mit Google Search Console. Ich jage den Frog regelmäßig über die Domains meiner Kunden. Er findet defekte interne Links und 404-Statuscodes in Millisekunden, lange bevor KI-Crawler sie überhaupt bemerken. Das ist proaktives [SEO Audit](/glossar/seo-audit/) auf Enterprise-Niveau.
 
 ## Die intelligente 404-Seite: Wenn der Fehler zur Chance wird
 

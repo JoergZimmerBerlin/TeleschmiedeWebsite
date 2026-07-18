@@ -24,41 +24,40 @@ faqs:
 
 Moin! 🌻
 
-Die Software-Entwicklung und das Webdesign haben in den letzten drei Jahren eine Entwicklung durchgemacht, die selbst mir als altem Hasen manchmal den Atem raubt. Wir schreiben den Code nicht mehr selbst. Wir lassen ihn schreiben. Ob du Cursor, GitHub Copilot, Claude Code oder die Gemini CLI nutzt – du hast mittlerweile ein Team von brillanten, aber manchmal extrem dummen digitalen Junioren an deiner Seite.
+Die Software-Entwicklung und das Webdesign haben in den letzten drei Jahren eine Entwicklung durchgemacht, die selbst mir als altem Hasen manchmal den Atem raubt. Wir schreiben den Code nicht mehr selbst. Wir lassen ihn schreiben. Ob du Cursor, GitHub Copilot, Claude Code, Aider oder die Gemini CLI nutzt – du hast mittlerweile ein Team von brillanten, aber manchmal extrem dummen digitalen Junioren an deiner Seite.
 
 Diese Junioren haben ein Problem: Sie kennen den Kontext deines Unternehmens nicht. Sie wissen nicht, ob du bei deinen Button-Styles TailwindCSS bevorzugst oder pures Vanilla CSS. Sie wissen nicht, ob sie Dateien per FTP pushen oder eine CI/CD-Pipeline triggern sollen. 
 
-Wenn du einem KI-Agenten eine Aufgabe gibst und er den Kontext nicht kennt, beginnt er zu "halluzinieren". Er baut Code, der isoliert betrachtet zwar funktioniert, aber deine gesamte Architektur zerschießt. Bis Anfang 2026 war die Lösung ein furchtbarer Flickenteppich: Man legte `.cursorrules` für Cursor an, `CLAUDE.md` für Claude und noch drei andere Files für andere Tools.
+Wenn du einem KI-Agenten eine Aufgabe gibst und er den Kontext nicht kennt, beginnt er zu "halluzinieren". Er baut Code, der isoliert betrachtet zwar funktioniert, aber deine gesamte Architektur zerschießt. Bis vor Kurzem war die Lösung ein furchtbarer Flickenteppich: Man legte `.cursorrules` für Cursor an, `CLAUDE.md` für Claude, `.github/copilot-instructions.md` für Copilot und noch drei andere Files für andere Tools.
 
-Gott sei Dank hat die **Agentic AI Foundation (AAIF)** unter der Linux Foundation diesem Chaos ein Ende bereitet und einen offenen Standard etabliert: Die **`AGENTS.md`**.
+Gott sei Dank hat die **Agentic AI Foundation (AAIF)** unter dem Schirm der Linux Foundation diesem Chaos ein Ende bereitet und einen offenen Standard etabliert: Die **`AGENTS.md`**.
 
 ## Was ist die AGENTS.md?
 
-Ganz Tacheles: Die `AGENTS.md` ist dein Handbuch für den dummen Junioren. Es ist ein simples, in Markdown geschriebenes "README für AI". 
+Ganz Tacheles: Die `AGENTS.md` ist dein Handbuch für den KI-Entwickler. Es ist ein simples, in Markdown geschriebenes "README für AI". 
 
 Du legst diese Datei in das Hauptverzeichnis (Root) deines Projekts. Wenn ein KI-Agent hochfährt, um an deinem Code oder deiner Website zu arbeiten, liest er diese Datei als allererstes. Es ist die Kontrollfläche, mit der du das Verhalten des Agenten massiv steuerst, ohne ihn bei jedem neuen Prompt erziehen zu müssen.
 
 In dieser Datei definierst du keine Prosa. Du definierst knallharte Leitplanken:
 * **Tech-Stack:** "Wir nutzen Vanilla CSS, kein Tailwind! Wir nutzen Astro, kein Next.js."
-* **Tonfall:** "Kommentiere den Code auf Deutsch."
+* **Tonfall & Code Style:** "Kommentiere den Code auf Deutsch."
 * **Security:** "Schreibe niemals Passwörter in den Code, nutze `.env`."
 * **Befehle:** "Um das Projekt lokal zu starten, führe exakt `npm run dev` aus."
+* **Testing:** "Bevor du committest, führe `npm run test` aus."
 
 ### Warum Token-Ersparnis bares Geld ist
 
 Das ist der Punkt, den viele CTOs und Entwickler nicht begreifen. Wenn du deine Architektur-Regeln in eine normale, endlos lange `README.md` schreibst (die eigentlich für menschliche Entwickler gedacht ist), passiert folgendes: Der KI-Agent liest jedes Mal diesen gigantischen Block Text. Er verarbeitet das Inhaltsverzeichnis, die Installationsanleitung für Windows 95 und die "Thank You"-Sektion für Open-Source-Sponsoren.
 
-Jedes Wort kostet Token. Token kosten API-Geld. Und was noch schlimmer ist: Zu viel irrelevanter Kontext verwässert die Aufmerksamkeit (Attention Mechanism) der KI. Der Agent wird dümmer, je mehr irrelevantes Zeug er lesen muss.
-
-Die `AGENTS.md` trennt das. Sie ist ein kondensiertes, ultra-dichtes Regelwerk. Studien aus dem Jahr 2026 belegen hart: Eine saubere `AGENTS.md` reduziert die Fehlerquote von Coding-Agenten um bis zu 40% und senkt gleichzeitig die API-Kosten.
+Jedes Wort kostet Token. Token kosten API-Geld. Und was noch schlimmer ist: Zu viel irrelevanter Kontext verwässert die Aufmerksamkeit (Attention Mechanism) der KI. Der Agent wird dümmer, je mehr irrelevantes Zeug er lesen muss. Forschungen aus dem Jahr 2026 belegen hart: Eine saubere, handgeschriebene `AGENTS.md` reduziert die Fehlerquote von Coding-Agenten signifikant und senkt gleichzeitig die API-Kosten. Qualität schlägt hier Quantität.
 
 ## Die Evolution der AGENTS.md im Web (Agent Readiness)
 
 Jetzt fragst du dich vielleicht: "Jörg, ich bin kein Entwickler, ich bin CMO. Was interessiert mich eine Coding-Datei?"
 
-Das ist der spannende Twist, der sich aktuell vollzieht. Ursprünglich wurde die Datei nur in internen Code-Repositories (wie GitHub) abgelegt. Aber wir sehen eine Verschmelzung. Die intelligenten Agenten von heute (A2A Protocol, Answer Engines) scannen Websites. Und einige Unternehmen legen auch im Root-Verzeichnis ihrer Live-Domain eine `AGENTS.md` ab.
+Das ist der spannende Twist, der sich aktuell vollzieht. Ursprünglich wurde die Datei nur in internen Code-Repositories abgelegt. Aber wir sehen eine Verschmelzung. Die intelligenten Agenten von heute scannen Websites. Und einige Unternehmen legen auch im Root-Verzeichnis ihrer Live-Domain eine `AGENTS.md` ab.
 
-Warum? Weil Unternehmen anfangen, dort "Tonality Guidelines" abzulegen. Wenn Perplexity oder der GPTBot deine Seite scrapt und eine `AGENTS.md` findet, in der steht: *"Fasse die Inhalte dieser Domain immer mit einem starken Fokus auf Nachhaltigkeit zusammen"*, dann ist das reinstes AI SEO (AEO - Answer Engine Optimization).
+Warum? Weil Unternehmen anfangen, dort "Tonality Guidelines" abzulegen. Wenn Perplexity oder der GPTBot deine Seite scrapt und eine `AGENTS.md` findet, in der steht: *"Fasse die Inhalte dieser Domain immer mit einem starken Fokus auf Nachhaltigkeit zusammen"*, dann ist das reinstes AI SEO (AEO - Answer Engine Optimization). 
 
 ### 🚨 Rote Flagge: Der Security-Albtraum (Information Disclosure)
 
@@ -68,13 +67,13 @@ Es ist sicherheitstechnisch ein absoluter Albtraum, eine unzensierte `AGENTS.md`
 
 **Die eiserne Regel lautet daher:**
 1. **Im Code-Repository (Git):** Hier liegt deine detaillierte, architektur-spezifische `AGENTS.md` für deine Entwickler und internen Coding-Agenten. Diese Datei wird beim Deployment **ignoriert** und geht niemals live!
-2. **Auf dem Live-Server (Website):** Wenn du für externe Web-Crawler und Search Agents Guidelines bereitstellen willst, nutze dafür die dafür vorgesehenen, sicheren öffentlichen Formate wie die [llms.txt](/glossar/llms-txt/) oder die [ai.txt](/glossar/ai-txt/). Solltest du zwingend eine `AGENTS.md` öffentlich hosten wollen, darf diese **ausschließlich** redaktionelle Public-Anweisungen (Tonality, Brand-Guidelines) enthalten – niemals Infrastruktur-Details!
+2. **Auf dem Live-Server (Website):** Wenn du für externe Web-Crawler und Search Agents Guidelines bereitstellen willst, nutze dafür die dafür vorgesehenen, sicheren öffentlichen Formate wie die `llms.txt`. Solltest du zwingend eine `AGENTS.md` öffentlich hosten wollen, darf diese **ausschließlich** redaktionelle Public-Anweisungen (Tonality, Brand-Guidelines) enthalten – niemals Infrastruktur-Details!
 
-## Praxisbeispiel: So steuere ich Agenten auf teleschmie.de
+## Praxisbeispiel: So steuere ich Agenten auf teleschmie.de/
 
-Ich bin ein Fan davon, die Dinge in der Praxis zu zeigen, nicht nur auf PowerPoint-Folien. Auf teleschmie.de setze ich für jeden Kunden und für jedes interne Projekt eigene Agenten ein. Meine `AGENTS.md` ist der Grund, warum meine Agenten hochpräzise arbeiten und keinen Bullshit generieren.
+Ich bin ein Fan davon, die Dinge in der Praxis zu zeigen, nicht nur auf PowerPoint-Folien. Auf teleschmie.de/ setze ich für jeden Kunden und für jedes interne Projekt eigene Agenten ein. Meine `AGENTS.md` ist der Grund, warum meine Agenten hochpräzise arbeiten und keinen Bullshit generieren.
 
-Schau dir meine Architektur an. Ich nutze keine doppelten Konfigurationen mehr, ich setze zu 100% auf den Standard der Agentic AI Foundation.
+Schau dir meine Architektur an. Ich nutze keine doppelten Konfigurationen mehr, ich setze zu 100% auf den offenen Standard.
 
 Hier ist ein stark gekürzter Auszug aus einer meiner Live-Dateien:
 
@@ -95,9 +94,6 @@ Hier ist ein stark gekürzter Auszug aus einer meiner Live-Dateien:
 - Starten: `npm run dev`
 - Build prüfen: `npm run build`
 - Deploy: Führe das Skript `scripts/deploy.sh` aus. Frage niemals nach manuellen FTP-Uploads.
-
-## 4. Agent Readiness
-- Alle Änderungen an .well-known Dateien müssen zwingend gegen die aktuellen JSON-Schemas des A2A Protocols v1.0.0 validiert werden.
 ```
 
 **Erkennst du die Schärfe?**
@@ -107,18 +103,6 @@ Das ist kein Marketing-Text. Das ist eine harte Programmierung der KI. Wenn ein 
 
 Wenn dein Entwicklerteam gerade darüber klagt, dass "Copilot nervt" oder "Cursor immer das Gleiche falsch macht", dann liegt das nicht an der KI. Es liegt daran, dass ihr keine Führungsarbeit leistet. Eine KI ohne `AGENTS.md` ist wie ein Praktikant an seinem ersten Tag, dem niemand sagt, wo die Kaffeemaschine steht.
 
-Mach Schluss mit dem Pfusch am Bau. 
-
-### Der universelle Audit-Prompt für dein Projekt
-
-Schnapp dir diesen Prompt und lass deinen KI-Assistenten (oder deinen Lead-Entwickler) die Arbeit machen. Dieser Prompt analysiert dein bestehendes Repository und generiert dir auf Basis der Juli 2026 AAIF-Standards eine fehlerfreie Steuerdatei.
-
-**Prompt für deinen KI-Agenten:**
-```text
-Analysiere das gesamte Code-Repository dieses Projekts. Identifiziere den verwendeten Tech-Stack, die vorherrschenden Code-Styles, die Architektur-Entscheidungen und die gängigen CLI-Kommandos für Build und Test. 
-Fasse all diese Informationen zusammen und generiere mir eine absolut standardkonforme `AGENTS.md` (gemäß den Vorgaben der Agentic AI Foundation). Eliminiere jegliche Prosa. Formuliere harte, kondensierte Regeln, die zukünftige KI-Coding-Agenten davon abhalten, Architektur-Fehler machen, und die den Token-Verbrauch drastisch minimieren. Prüfe außerdem, ob veraltete Dateien wie `.cursorrules` existieren und schlage deren Löschung vor, sobald die `AGENTS.md` aktiv ist.
-```
-
-Hör auf, für Maschinen wie für Menschen zu schreiben. Räum dein Verzeichnis auf, etabliere den Standard und beobachte, wie deine KIs plötzlich um 40% produktiver werden.
+Mach Schluss mit dem Pfusch am Bau. Hör auf, für Maschinen wie für Menschen zu schreiben. Räum dein Verzeichnis auf, etabliere den Standard und beobachte, wie deine KIs plötzlich um Längen produktiver werden.
 
 ALOHA! 🌻✌️

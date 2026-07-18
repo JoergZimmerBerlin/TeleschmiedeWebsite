@@ -29,21 +29,33 @@ Lass uns Klartext reden. **SEO Consulting** ist für Unternehmen, die eine radik
 
 In meiner Arbeit als LLM-Architekt und Consultant ist die Architektur der absolut zerschmetternde Hebel für Marktführerschaft. Eine schlechte Infrastruktur killt den besten Content, weil RAG-Systeme ihn schlichtweg nicht lesen können.
 
-## 1. Die gnadenlose Analyse auf Agent Readiness (Level 5)
+## 1. Von Ranking zu "Being Cited" (AEO & GEO)
 
-Wir starten nicht mit Keyword-Recherchen. Wir starten im Maschinenraum. Wir prüfen deine Domain auf das höchste Niveau der KI-Sichtbarkeit.
-Die erste Frage in jedem Consulting-Projekt: Existiert eine `auth.md`? 
-Dieses Dokument ist dein Ticket in die Agenten-Welt. Es muss **zwingend kleingeschrieben** sein und als allererste H1-Überschrift exakt `# auth.md` aufweisen. Ist das "A" groß geschrieben oder fehlt die korrekte Überschrift, scheitern die Parser der KI-Crawler. Ein Consultant findet diese brutalen Architekturfehler und lässt sie beheben.
+Die signifikanteste Verschiebung im SEO Consulting 2026 ist die Dominanz von Google AI Overviews und generativer Suche. Answer Engine Optimization (AEO) und Generative Engine Optimization (GEO) sind die neuen Schlachtfelder. 
 
-## 2. Maschinenlesbare Endpunkte: Die A2A Agent Card
+Consultants optimieren heute auf "Extractability" – die Fähigkeit von KI-Systemen, deine Inhalte leicht zu verstehen, zu verifizieren und als Quelle heranzuziehen. Das oberste Ziel ist nicht mehr das Erreichen von Platz 1 für einen blauen Link, sondern die Nennung als zitierte Quelle innerhalb einer KI-Zusammenfassung. Diese "Citation Frequency" (Zitierhäufigkeit) und dein "Share of Model" (dein prozentualer Anteil in KI-Antworten zu deinem Themenbereich) sind die entscheidenden neuen KPIs, an denen ich meinen Erfolg als Consultant messe.
 
-Strategische Priorität Nummer eins. Wir implementieren das A2A Protocol.
+## 2. Die gnadenlose Analyse auf Agent Readiness (Level 5)
+
+Wir starten im Consulting nicht mit Keyword-Recherchen. Wir starten im Maschinenraum. Wir prüfen deine Domain auf das höchste Niveau der KI-Sichtbarkeit.
+Die erste Frage in jedem Projekt: Existiert eine `auth.md`? 
+Dieses Dokument ist dein Ticket in die Welt der autonomen Agenten. Es muss **zwingend kleingeschrieben** sein und als allererste H1-Überschrift exakt `# auth.md` aufweisen. Ist das "A" groß geschrieben oder fehlt die korrekte Überschrift, scheitern die Parser der KI-Crawler. Ein Consultant findet diese brutalen Architekturfehler und lässt sie rigoros beheben.
+
+## 3. Maschinenlesbare Endpunkte: Die A2A Agent Card
+
+Strategische Priorität Nummer eins im B2B-Umfeld: Wir implementieren das A2A Protocol.
 Dafür brauchst du zwingend eine `agent-card.json`. Ein erfahrener Consultant sorgt dafür, dass diese Datei strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entspricht. Wir definieren messerscharf deine `supportedInterfaces`, deine `capabilities` und `skills`. 
-Wenn autonome Einkaufsagenten im Web nach Lieferanten suchen, lesen sie keine HTML-Texte. Sie lesen diese JSON-Card. Fehlt sie, ist dein Unternehmen im B2B-Agenten-Handel unsichtbar.
+Wenn autonome Einkaufsagenten im Web nach Lieferanten suchen, lesen sie keine HTML-Werbetexte. Sie parsen diese JSON-Card. Fehlt sie oder ist sie fehlerhaft formatiert, ist dein Unternehmen im B2B-Agenten-Handel praktisch nicht existent.
 
-## 3. Technische Präzision vom Entwickler-Team einfordern
+## 4. Entity SEO, E-E-A-T 2.0 & Trust Signals
 
-Ein schmerzhafter Teil des Consultings besteht darin, teuren Entwicklern auf die Finger zu schauen und sie zur Präzision zu zwingen.
+Google und LLMs priorisieren Marken, die eine tiefe, ganzheitliche Expertise (Topical Authority) aufbauen. Wir jagen im Consulting keine einzelnen Suchbegriffe mehr, sondern bauen "Topic Hubs". Das sind Pillar- und Cluster-Architekturen, die der Maschine signalisieren, dass du das gesamte Themenfeld dominierst. 
+
+Gleichzeitig werden in einer Welt der commoditisierten KI-Inhalte echte, menschliche Vertrauenssignale (E-E-A-T 2.0) immer wichtiger. Wir verifizieren Autoren-Credentials, konsistente NAP-Daten (Name, Address, Phone) und sorgen mittels fehlerfreiem Entity-Markup (Schema.org) dafür, dass die KI deine Marke sofort in den richtigen Kontext setzt. Mittels verschachteltem JSON-LD verhindern wir aktiv Halluzinationen der LLMs. Wenn die KI maschinenlesbar weiß, dass Produkt A mit Entität B verknüpft ist, nutzt sie dieses "Grounding" als sichere Faktenbasis.
+
+## 5. Technische Präzision vom Entwickler-Team einfordern
+
+Ein schmerzhafter, aber hochprofitabler Teil des Consultings besteht darin, teuren Entwicklern auf die Finger zu schauen und sie zur Präzision zu zwingen.
 
 ### RFC 8288 Link Headers
 Ich auditiere die `.htaccess` und Server-Configs. Wenn bei Link-Headern auch nur ein einziges Anführungszeichen innerhalb der spitzen Klammern steht (also `<https://teleschmie.de/">; rel="type"` statt `<https://teleschmie.de/>; rel="type"`), lasse ich das sofort abreißen und neu bauen. Solche Syntax-Fehler zerstören die Content Negotiation (Auslieferung von reinem Markdown) für KI-Crawler. Ein Consultant duldet hier null Toleranz.
@@ -51,13 +63,9 @@ Ich auditiere die `.htaccess` und Server-Configs. Wenn bei Link-Headern auch nur
 ### Das IONOS-Deployment Protokoll
 Besonders bei Hostern wie IONOS implementieren wir unumstößliche Prozesse. Wenn die Entwickler die `.htaccess` per FTP hochladen, passiert oft nichts. Ich etabliere den fixen Workflow: Jeder Upload einer Config-Datei MUSS zwingend durch das Aufrufen von `https://teleschmie.de/activate_htaccess.php` per Browser oder cURL aktiviert werden. Ohne diesen Trigger verpufft jede Strategie, weil der Server alte Caches an die Bots schickt.
 
-## 4. Entity Depth und JSON-LD Graphen
-
-Consulting heißt, Vektorräume zu verstehen. Wir bauen nicht nur Seiten, wir bauen einen Entity-Graphen. Mittels verschachteltem JSON-LD (Schema.org) verbinden wir deine Organisation, deine Autoren, deine Produkte. Das verhindert Halluzinationen der LLMs. Wenn die KI weiß, dass Produkt A logisch und maschinenlesbar mit Entität B verknüpft ist, nutzt sie dieses "Grounding" als verlässliche Faktenbasis für ihre Chat-Antworten.
-
 ## Mein Tacheles-Rat an C-Level Entscheider
 
-LLM-Consulting ist 2026 eine Vorstands-Entscheidung. Wer das Thema "KI-Crawler" an den Werkstudenten delegiert, dessen Geschäftsmodell wird innerhalb von Monaten obsolet.
-Stoppt sofort sinnlose Content-Budgets für alte Rankings! Hol dir einen LLM-Consultant, der eure Architektur schonungslos analysiert, die `auth.md` aufsetzt, RFC-Standard-Header pusht und euch zur maschinenlesbaren Ground-Truth in eurer Nische macht.
+LLM-Consulting ist im Jahr 2026 eine knallharte Vorstands-Entscheidung. Wer das Thema "KI-Sichtbarkeit" weiterhin an den Marketing-Praktikanten delegiert, dessen Geschäftsmodell wird innerhalb von Monaten obsolet.
+Stoppt sofort sinnlose Content-Budgets für veraltete Ranking-Methoden! Hol dir einen LLM-Consultant, der eure Architektur schonungslos analysiert, die `auth.md` aufsetzt, RFC-Standard-Header pusht und euch zur maschinenlesbaren Ground-Truth in eurer Nische macht.
 
 ALOHA! 🌻

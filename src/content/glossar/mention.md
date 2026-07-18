@@ -1,13 +1,14 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'Mention (Erwähnung): Definition und LLM-Relevanz'
-description: 'Eine Mention ist der Treibstoff für dein Entity-Building. Im Juli 2026 entscheidet sie, ob LLM-Pipelines dich als Autorität validieren. Tacheles. ALOHA! 🌻'
+title: 'Mention (Erwähnung): Definition und LLM-Relevanz 2026'
+description: 'Eine Mention ist der Treibstoff für dein Entity-Building. Im Jahr 2026 entscheidet sie, ob LLM-Pipelines dich als Autorität validieren. Tacheles. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["citation", "entitaet", "e-e-a-t", "brand-mentions"]
 key_takeaways:
   - "Vektor-Treibstoff: Mentions (Erwähnungen ohne Link) bilden die semantischen Kanten in den Knowledge Graphs von Sprachmodellen."
   - "E-E-A-T Signal: LLM-Crawler bewerten die Ko-Okkurrenz (gemeinsames Auftreten) von Marke und Fachthema als harten Trust-Beweis."
+  - "Die Entity-Ära: Eine nackte Mention fungiert 2026 als impliziter Link und starkes Reputations-Signal für AI Overviews."
   - "Validierungs-Loop: Strukturierte Daten auf der eigenen Seite sind wertlos, wenn sie nicht durch externe Mentions auf Trust-Domains validiert werden."
 faqs:
   - question: 'Was ist der Unterschied zwischen Mention und Backlink?'
@@ -22,7 +23,7 @@ Moin!
 
 Jörg Zimmer am Apparat. Wenn wir heute über modernes SEO reden, müssen wir uns dringend den dicken Staub der Nullerjahre von den Schultern klopfen. Eine **Mention** (zu Deutsch: Erwähnung) ist nicht einfach nur ein Trostpreis, wenn das klassische Linkbuilding mal wieder gescheitert ist. Im Gegenteil! 
 
-Unter den knallharten Juli 2026 Standards ist die Mention die absolut härteste, unbestechlichste Währung, wenn es um deine Validierung in KI-gestützten Suchmaschinen geht. Wer das ignoriert, kann seinen digitalen Vertrieb direkt abschalten.
+Unter den knallharten Standards im Jahr 2026 ist die Mention die absolut härteste, unbestechlichste Währung, wenn es um deine Validierung in KI-gestützten Suchmaschinen geht. Wer das ignoriert, kann seinen digitalen Vertrieb direkt abschalten.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
@@ -35,15 +36,15 @@ Eine Mention ist jede textliche Nennung deines Markennamens, deines persönliche
 
 Im Gegensatz zum klassischen HTML-[Backlink](/glossar/linkbuilding/) ist bei einer Mention absolut **kein klickbarer Hyperlink** (kein `<a>`-Tag) notwendig. 
 
-Warum? Weil KI-Crawler heute kein primitives HTML-Parsing mehr betreiben, um Autorität zu vererben. Sie nutzen **NLP (Natural Language Processing)** und komplexe Transformer-Architekturen, um echten Fließtext zu begreifen. 
+Warum? Weil KI-Crawler heute kein primitives HTML-Parsing mehr betreiben, um Autorität zu vererben. In der "Entity Era" 2026 nutzen Suchmaschinen **NLP (Natural Language Processing)** und komplexe Transformer-Architekturen, um echten Fließtext zu begreifen. 
 
-Sie verstehen den Kontext, die Tonalität und die fachliche Tiefe. Sie erkennen dich als vollwertige [Entität](/glossar/entitaet/). Fällt dein Markenname im Satz "Jörg Zimmer hat eine brillante Analyse zu Vektordatenbanken veröffentlicht", bildet das LLM sofort Kanten (Edges) in seinem Knowledge Graph zwischen mir und der Thematik. Der Algorithmus muss nicht erst einem Link folgen, um die Relevanz zu extrahieren.
+Sie verstehen den Kontext, die Tonalität und die fachliche Tiefe. Sie erkennen dich als vollwertige [Entität](/glossar/entitaet/). Fällt dein Markenname im Satz "Jörg Zimmer hat eine brillante Analyse zu Vektordatenbanken veröffentlicht", bildet das LLM sofort Kanten (Edges) in seinem Knowledge Graph zwischen mir und der Thematik. Der Algorithmus muss nicht erst einem Link folgen, um die Relevanz zu extrahieren. Eine solche ungelinkte Mention (unlinked mention) fungiert quasi als impliziter Link und ist ein massives Trust-Signal.
 
-## Mentions als Validierungs-Loop für RAG-Modelle
+## Mentions als Validierungs-Loop für RAG-Modelle und AI Overviews
 
 Lass uns über System-Architektur sprechen. Wir trimmen Webseiten heute maschinenlesbar. Wir implementieren tiefes JSON-LD Schema.org Markup, um den KI-Crawlern unsere Daten auf dem Silbertablett zu servieren. Das ist die absolute Basis-Hygiene.
 
-Aber das, was dich wirklich in die generierten Antworten (AI Overviews) katapultiert, ist das **Entity-Feeding** da draußen im Web.
+Aber das, was dich wirklich in die generierten Antworten (AI Overviews, ChatGPT, Gemini) katapultiert, ist das **Entity-Feeding** da draußen im Web. Aktuelle Daten aus 2026 belegen es gnadenlos: Brand Mentions korrelieren extrem stark mit der Sichtbarkeit in AI Search Environments – oft sogar stärker als klassische Link-Metriken.
 
 Ein KI-Agent liest dein JSON-LD und sagt: "Okay, dieser Anbieter behauptet, der beste SEO in Berlin zu sein." Danach folgt der harte Abgleich: *"Gibt es externe Datenpunkte für diese Behauptung? Bestätigt der restliche Index diese Identität?"*
 
@@ -65,6 +66,11 @@ In der SEO-Szene herrscht massives Bullshit-Bingo. Viele werfen Mentions und Cit
 *   **Die Citation:** Das ist der Daten-Output! Wenn ein Nutzer einen KI-Agenten fragt: *"Wer ist der beste Ansprechpartner für technisches SEO?"* und die KI antwortet: *"Die Agentur Teleschmiede wird oft als Experte genannt"* – DANN hat die KI dich **zitiert** (Citation). 
 
 Die Mention ist der Treibstoff im Latent Space, die Citation ist die finale Conversion im Chatfenster. Ohne Input kein Output.
+
+## Der Strategie-Shift: Umwandlung vs. Nackte Mention
+
+Noch vor wenigen Jahren war es der heilige Gral im SEO, Webmaster anzuschreiben und ungelinkte Mentions in echte Backlinks umzuwandeln. Ist das 2026 noch nötig? 
+Jein. Eine nackte Mention auf einer hochgradig autoritären Seite reicht für das Entity-Building und E-E-A-T vollkommen aus. Dennoch: Die Umwandlung in einen Backlink bringt den doppelten Nutzen – du behältst die Entity-Relevanz und sammelst gleichzeitig klassischen Linkjuice für den traditionellen Crawler. Beides zusammen ist der Jackpot.
 
 ## Trailing Slashes bei der Verlinkung von Erwähnungen
 

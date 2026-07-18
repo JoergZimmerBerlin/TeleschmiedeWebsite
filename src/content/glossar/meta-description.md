@@ -9,12 +9,13 @@ related_terms: ["title-tag", "noindex"]
 key_takeaways:
   - "LLM-Kontextgeber: Die Meta Description liefert autonomen KI-Crawlern den initialen Kontext, bevor sie Ressourcen für das tiefe Parsen des DOM-Trees aufwenden."
   - "Klick-Magnet (CTR): In den klassischen SERPs bleibt die Beschreibung deine absolut wichtigste, kostenlose Anzeigezeile zur Steigerung der Klickrate."
+  - "Intent-Matching für AI Overviews: Wenn AI Overviews die SERPs dominieren, ist dein Snippet der primäre Hebel, um Nutzer zu einem klassischen Klick zu bewegen."
   - "Entitäten-Dichte: Eine starke Beschreibung enthält keine Keyword-Listen, sondern semantisch sauber verknüpfte Entitäten (Subjekt, Prädikat, Objekt)."
 faqs:
   - question: 'Ist die Meta Description heute ein direkter Rankingfaktor?'
     answer: 'Für den Algorithmus: Nein. Aber für LLMs und RAG-Pipelines ist sie ein essenzieller Filter-Faktor. Ist die Beschreibung leer oder fehlerhaft, bricht der Crawler oft ab.'
   - question: 'Warum zeigen Suchmaschinen oft nicht meine eigene Description an?'
-    answer: 'Suchmaschinen überschreiben Snippets dynamisch, wenn deine Description den spezifischen Search Intent der aktuellen Anfrage nicht exakt trifft. Der Algorithmus extrahiert dann einen besser passenden Text-Chunk.'
+    answer: 'Suchmaschinen überschreiben Snippets dynamisch (in 40% bis 70% der Fälle), wenn deine Description den spezifischen Search Intent der aktuellen Anfrage nicht exakt trifft. Der Algorithmus extrahiert dann einen besser passenden Text-Chunk.'
   - question: 'Wie optimiere ich die Meta Description für RAG-Systeme?'
     answer: 'Liefere harte, präzise Fakten und Entitäten. KI-Agenten scannen den <head>-Bereich, um den Vektorraum deiner Seite einzuordnen. Verzichte auf leeres Marketing-Sprech.'
 ---
@@ -40,7 +41,7 @@ Eine strategisch durchdachte Beschreibung pusht deine **Click-Through-Rate (CTR)
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">⚠️ Das gnadenlose Pixel-Limit</h4>
-  <p class="mb-0 text-sm">Maschinen messen in Pixeln, nicht in Buchstaben. Faustregel: 140 bis 155 Zeichen. Alles danach fällt der Schere zum Opfer (Truncation). Dein härtester Fakt und der Handlungsaufruf müssen zwingend in den ersten Satz!</p>
+  <p class="mb-0 text-sm">Maschinen messen in Pixeln, nicht in Buchstaben. Faustregel: 120 bis 155 Zeichen. Alles danach fällt der Schere zum Opfer (Truncation). Dein härtester Fakt und der Handlungsaufruf müssen zwingend in den ersten Satz!</p>
 </div>
 
 ## 2. Meta Descriptions im Zeitalter der LLM-Crawler
@@ -51,6 +52,12 @@ Perfekt. Für autonome LLM-Crawler ist die Meta Description oft der entscheidend
 
 Der Crawler analysiert zuerst den `<head>`. Ist die Description präzise, faktenbasiert und reich an den gesuchten [Entitäten](/glossar/entitaet/), nutzt die KI diesen Textblock als **"Initial-Vektor"**. Sie berechnet in Millisekunden die semantische Nähe zum anfragenden Prompt. Passt es, stuft der Agent deine URL für den ressourcenintensiven Deep-Parse-Vorgang als priorisiert ein. 
 Ist die Description jedoch ein leerer String oder kryptischer Müll, überspringt der Agent die Seite oft schlichtweg (Crawl-Abbruch), um Kapazitäten zu sparen.
+
+## 3. AI Overviews und der Traffic-Schwund
+
+Das Jahr 2026 ist das Jahr der **AI Overviews (AIO)**. Wenn Google eine KI-Antwort direkt oben in die Suchergebnisse packt, sinkt die organische CTR für klassische Blue Links oft massiv ab. 
+
+Warum ist die Meta Description jetzt wichtiger denn je? Weil sie deine letzte Chance ist, den Nutzer aus dem AI Overview zu ziehen! Nutzer, die tiefere Informationen suchen, scrollen an der KI-Antwort vorbei. Wenn sie deinen Link sehen, muss die Meta Description extrem spitzes **Intent-Matching** betreiben. Sie muss dem Nutzer signalisieren: "Hier gibt es den Deep-Dive, den dir die KI da oben nicht geben konnte." Front-loade deinen wichtigsten Wert ("Front-Load Value") und nutze aktive Verben ("Entdecke", "Lerne", "Finde").
 
 ## Der technische Bauplan: Snippets, die knallen
 
@@ -69,7 +76,7 @@ Sag dem menschlichen Nutzer exakt, was er als Nächstes tun soll. "Jetzt kostenl
 
 Du schreibst die perfekte Meta Description und die Suchmaschine ignoriert sie? Willkommen im Technical SEO 2026. 
 
-Moderne Suchmaschinen und RAG-Pipelines schreiben in weit über 70% der Fälle eigene Snippets. Sie extrahieren Textpassagen (Chunks) direkt aus deinem HTML-Body. Das passiert, wenn deine feste Meta Description nicht perfekt zum extrem spitzen Search Intent des aktuellen Nutzers passt. Die KI optimiert das Ausgabenergebnis dynamisch auf Relevanz.
+Moderne Suchmaschinen und RAG-Pipelines schreiben in 40% bis 70% der Fälle eigene Snippets. Sie extrahieren Textpassagen (Chunks) direkt aus deinem HTML-Body. Das passiert, wenn deine feste Meta Description nicht perfekt zum extrem spitzen Search Intent des aktuellen Nutzers passt. Die KI optimiert das Ausgabenergebnis dynamisch auf Relevanz.
 
 Das ist kein Bug, das ist ein Feature. Für stark gesuchte Haupt-Entitäten zieht fast immer deine manuell geschriebene Description. Für Long-Tail-Anfragen dient sie als absolut unverzichtbares Fallback und als initialer semantischer Wegweiser für jeden autonomen Agenten, der den Head-Bereich deiner Seite parst.
 
@@ -95,4 +102,5 @@ ALOHA! Jörg 🌻✌️
 ### Verwandte Begriffe
 * [Wie optimiert man das Title Tag?](/glossar/title-tag/)
 * [Was sind LLMs und RAG-Pipelines?](/glossar/llm/)
+* [Entitäten in der Suchmaschinenoptimierung](/glossar/entitaet/)RAG-Pipelines?](/glossar/llm/)
 * [Entitäten in der Suchmaschinenoptimierung](/glossar/entitaet/)

@@ -8,6 +8,7 @@ image_alt: "3D Infografik zum Model Context Protocol (MCP) Standard und zustands
 key_takeaways:
   - "MCP ist der universelle USB-C-Anschluss, der dein KI-Modell mit Tools und Datenbanken verbindet."
   - "Am 28. Juni 2026 wurde die Architektur komplett zustandslos (stateless) gemacht, um echtes Cloud-Scaling zu ermöglichen."
+  - "MCP SEO: Von Scraping zu strukturiertem Datenzugriff. Wenn deine Produkte nicht per MCP abrufbar sind, bist du im AI-Zeitalter unsichtbar."
   - "Verwaltet von der Agentic AI Foundation (AAIF), macht MCP klassische, hart-kodierte API-Integrationen obsolet."
 faqs:
   - question: "Was ist der fundamentale Unterschied zwischen MCP und dem A2A Protocol?"
@@ -46,6 +47,17 @@ Mit dem Juni-Update wurde MCP vollständig *stateless* (zustandslos) auf der Pro
 
 Zusätzlich wurde ein völlig neues `server/discover` RPC (Remote Procedure Call) eingeführt. KI-Agenten müssen nicht mehr raten, was ein Server kann. Sie pingen ihn an, und der Server spuckt sofort seine Fähigkeiten und Werkzeuge aus. Bam. Erledigt.
 
+## WebMCP und MCP-SEO: Die Zukunft der Sichtbarkeit
+
+Das Thema ist nicht nur für Entwickler hochgradig relevant, sondern auch für Suchmaschinenoptimierung. Willkommen in der Welt des **MCP SEO**. 
+
+SEO entwickelt sich weg vom simplen "Ranken von blauen Links" hin zur KI-getriebenen Synthese. Anstatt dass KI-Agenten mühsam HTML-Seiten scrapen müssen, nutzen sie sogenannte **WebMCPs**. Wenn ein Unternehmen seine Produktdaten, Verfügbarkeiten und Preise strukturiert über einen MCP-Server zur Verfügung stellt, kann ein KI-Assistent direkt und fehlerfrei darauf zugreifen.
+*   **Discoverability:** Sind deine Daten für Agenten lesbar?
+*   **Authority:** Liefert dein Server die hochwertigsten strukturierten Fakten?
+*   **Conversion:** Erlaubt dein MCP-Server dem Agenten, für den Nutzer eine Aktion (z.B. eine Buchung) auszuführen?
+
+Wenn eine KI heute deinen Preis oder deine Verfügbarkeit nicht via MCP abfragen kann, existierst du im maschinellen Transaktions-Layer schlichtweg nicht.
+
 ## Wie funktioniert die Architektur in der Praxis?
 
 Vergiss das theoretische Geschwafel, lass uns Tacheles reden. Das Konzept besteht aus drei Kernkomponenten:
@@ -62,7 +74,7 @@ Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komple
 
 Stell dir dein Unternehmen als einen hochqualifizierten Arbeiter vor. 
 * Wenn dieser Arbeiter ein internes Werkzeug aus seinem eigenen Werkzeugkoffer nimmt (einen Hammer, eine Bohrmaschine, Zugriff auf deine Firmen-Infrastruktur), dann benutzt er **MCP**. Es ist die *vertikale* Verbindung zwischen "Denker" und "Werkzeug".
-* Wenn dieser Arbeiter das Haus verlässt und mit dem Arbeiter einer völlig anderen Firma Verträge aushandelt, dann nutzt er das **A2A Protocol** (Agent-to-Agent). Das ist die *horizontale* Verbindung.
+* Wenn dieser Arbeiter das Haus verlässt und mit dem Arbeiter einer völlig anderen Firma Verträge aushandelt, dann nutzt er das **A2A Protocol** (Agent-to-Agent). Das ist die *horizontale* Verbindung. Dafür benötigst du eine korrekte `agent-card.json` (V1.0) und eine `auth.md` in deinem `.well-known` Ordner.
 
 Beides ist genial. Beides ist zwingend notwendig. Aber sie lösen grundverschiedene Probleme. Die neue Agentic-Architektur nutzt MCP im Backend (um dem eigenen Agenten Macht zu geben) und A2A im Frontend (um mit der Welt zu kommunizieren).
 
@@ -94,6 +106,6 @@ Schlüpfe in die Rolle eines Senior System Architects der Agentic AI Foundation.
 - Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf das Agent Readiness Reifegradmodell zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne.
 ```
 
-Es gibt keine Zeit mehr für zögerliche Experimente. Die Technologie ist flügge geworden, die Protokolle sind standardisiert. Nutze MCP, reiß die Silos in deinem Unternehmen ein und mach deine Daten agent-ready. Wer seine Gehirne im Dunkeln lässt, hat im KI-Zeitalter keine Chance.
+Es gibt keine Zeit mehr für zögerliche Experimente. Die Technologie ist flügge geworden, die Protokolle sind standardisiert. Nutze MCP, reiß die Silos in deinem Unternehmen ein und mach deine Daten agent-ready. Wer seine Gehirne im Dunkeln lässt, hat im KI-Zeitalter keine Chance. Und denke bei allen Routing-Einstellungen daran: Interne Links enden immer auf einem Trailing Slash `/`.
 
 ALOHA! 🌻✌️

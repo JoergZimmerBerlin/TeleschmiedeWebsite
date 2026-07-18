@@ -21,69 +21,50 @@ faqs:
 
 Moin!
 
-Ich sag dir gleich, wie es ist: Wenn du mich heute nach PageSpeed fragst, werde ich nicht anfangen, dir zu erklären, wie man in einem alten CMS ein Caching-Plugin konfiguriert. Das ist Schnee von gestern. Wir schreiben das Jahr 2026. Wenn deine Website beim Laden ruckelt, hast du nicht nur ein kleines UX-Problem – du bist im hochdynamischen KI-Index defacto tot.
+Ich sag dir gleich, wie es ist: Wenn du mich im Jahr 2026 nach PageSpeed fragst, werde ich dir nicht erzählen, wie du ein Caching-Plugin in deinem veralteten WordPress-Monolithen konfigurierst. Das ist Schnee von gestern. Wenn deine Website ruckelt, wenn Bilder langsam laden oder Interaktionen stocken, bist du nicht nur für menschliche Nutzer unten durch – du bist im hochdynamischen KI-Index defacto tot.
 
-Ladezeiten (Latenz) sind der absolut gnadenloseste Filter in der modernen Suchmaschinenarchitektur. 
+Ladezeiten und Latenzen sind der absolut gnadenloseste Filter in der modernen Suchmaschinenarchitektur. Wer langsam ist, wird von KI-Crawlern ignoriert.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"KI-Agenten haben keine Zeit und Suchmaschinen haben keine unendlich teuren Serverkapazitäten zu verschenken. Wenn ein Crawler auf deine Seite zugreift und dein Server erstmal drei Sekunden Bedenkzeit braucht, um die Datenbank abzufragen, bricht der Bot den Vorgang ab. Deine Inhalte schaffen es gar nicht erst in die RAG-Pipeline. PageSpeed ist dein Ticket in die Vektordatenbank."</p>
+  <p class="italic text-dark mb-0">"KI-Agenten haben keine Zeit und Suchmaschinen haben keine unendlich teuren Serverkapazitäten zu verschenken. Wenn ein Crawler auf deine Seite zugreift und dein Server Bedenkzeit braucht, bricht der Bot ab. Deine Inhalte schaffen es gar nicht erst in die RAG-Pipeline. PageSpeed ist dein Ticket in die Vektordatenbank."</p>
 </div>
 
-## Time to First Byte (TTFB): Die einzige Metrik, die den Bot interessiert
+### Die harte Realität der Core Web Vitals (CWV) 2026
 
-Viele SEOs reiten immer noch ausschließlich auf den Core Web Vitals (LCP, INP, CLS) herum. Versteh mich nicht falsch: Diese Metriken sind für menschliche Nutzer (UX) und die [Conversion-Rate](/glossar/conversion-rate/) extrem wichtig. Sie entscheiden darüber, ob der Nutzer frustriert den Tab schließt oder konvertiert. 
+Google nutzt zur Messung des PageSpeeds keine Labor-Tests (Lighthouse) als Rankingfaktor, sondern **Field Data** (reale Nutzerdaten) aus dem Chrome User Experience Report (CrUX). Es zählen exakt drei Metriken am 75. Perzentil, und diese Schwellenwerte sind gnadenlos:
 
-Aber für den nackten, algorithmischen Bot eines LLMs ist die wichtigste Metrik der Welt die **TTFB (Time to First Byte)**.
+1. **LCP (Largest Contentful Paint):** Wann ist das größte visuelle Element (meist das Hero-Bild) vollständig geladen? Der Schwellenwert liegt bei **≤ 2.5 Sekunden**.
+2. **INP (Interaction to Next Paint):** Die Metrik, die 2024 den alten FID (First Input Delay) abgelöst hat und jetzt der alleinige Herrscher über die Responsivität ist. INP misst die Latenz von *allen* Interaktionen auf der gesamten Seite. Klickt ein Nutzer auf ein Menü und das JavaScript blockiert den Main-Thread, schnellt der INP hoch. Der harte Grenzwert 2026: **≤ 200 Millisekunden**.
+3. **CLS (Cumulative Layout Shift):** Wie stark springt das Layout beim Laden umher? Wert: **≤ 0.1**.
 
-Die TTFB misst die Millisekunden zwischen dem initialen HTTP-Request des Crawlers und dem Zeitpunkt, an dem das allererste Byte deines HTML-Codes vom Server zurückgesendet wird.
+### INP: Der heimliche Killer im Hintergrund
 
-### Warum LLM-Crawler bei hoher TTFB sofort abbrechen
-Ein KI-Crawler, der Echtzeit-Informationen für einen generierten Chatbot-Prompt sucht, arbeitet unter extremen Latenz-Anforderungen. Der User vor dem Chatfenster will seine Antwort sofort. 
-Der Agent pingt deine Seite an. Wenn deine TTFB bei 800ms oder gar 1.5 Sekunden liegt (weil dein Legacy-CMS gerade tief in einer Datenbank nach dem Footer-Menü sucht), sagt der Agent: *"Timeout. Ich habe keine Zeit für diesen monolithischen Müll. Ich frage den nächsten Anbieter im Index."*
+Warum scheitern so viele an INP? Weil das Web zu JavaScript-lastig geworden ist. Riesige Pagebuilder, zig Tracking-Skripte und schlecht optimierte Drittanbieter-Tools blockieren den Browser. Wenn der Main-Thread blockiert ist, friert die Seite ein. Für Google ist das ein massives Signal schlechter Qualität. Die Lösung liegt im Profiling von Skripten, dem Aufbrechen langer Tasks und der konsequenten Reduzierung von Ballast.
 
-Du hattest vielleicht den besten Artikel der Welt geschrieben. Du warst die perfekte [Entität](/glossar/entitaet/). Aber du wurdest nicht zitiert, weil dein Server zu langsam geatmet hat.
+### Time to First Byte (TTFB): Das Einzige, was den Bot interessiert
 
-## Die Lösung 2026: Edge-Computing und Statische Generierung (SSG)
+Die Core Web Vitals sind für Menschen (und damit fürs Ranking) essenziell. Aber für den nackten, algorithmischen Bot eines LLMs (Large Language Model) ist die wichtigste Metrik der Welt die **TTFB (Time to First Byte)**. 
 
-Wie drücken wir die TTFB für Crawler und Nutzer auf magische Werte unter 100ms? Durch radikale Entkopplung der Architektur (Headless Commerce / Headless CMS).
+Die TTFB misst die Zeit zwischen dem HTTP-Request des Crawlers und dem allerersten Byte deines HTML-Codes. Ein KI-Crawler (z.B. für Google AI Overviews oder OpenAI), der Echtzeit-Informationen für eine schnelle RAG-Antwort sucht, hat ein extremes Timeout-Budget. Liegt deine TTFB bei über 800ms, weil dein Backend gerade eine Datenbank-Abfrage für den Footer macht, sagt der Bot: *"Timeout. Ich frage die Konkurrenz."* 
 
-Anstatt bei jedem Seitenaufruf den Server rechnen zu lassen (Server-Side Rendering on request), verlagern wir die Berechnung in den Build-Prozess (Static Site Generation). Frameworks wie Astro (auf dem auch teleschmie.de läuft) oder Next.js kompilieren deine gesamte Seite im Vorfeld in nacktes, superschnelles HTML.
+Du hattest vielleicht den besten Artikel. Du warst die perfekte Entität. Aber du wurdest nicht zitiert, weil dein Server zu langsam war.
 
-Dieses HTML wird dann an ein **CDN (Content Delivery Network)** übergeben, das Serverknotenpunkte auf der ganzen Welt (am "Edge") besitzt.
+### Die Lösung 2026: Edge-Computing und Statische Generierung (SSG)
 
-*   **Der Legacy-Weg:** Ein Nutzer (oder Bot) in Berlin ruft deine Seite auf. Die Anfrage geht an deinen lahmen Hosting-Server in Frankfurt. Der Server führt Backend-Code aus, fragt die Datenbank, baut das HTML zusammen und schickt es zurück. Dauer: 1.2 Sekunden.
-*   **Der Edge-Weg:** Der Bot in Berlin ruft die Seite auf. Das CDN in Berlin (Edge Node) hat das fertige, vorgebackene HTML bereits im RAM liegen und feuert es in Millisekunden sofort zurück. Dauer: 40ms.
+Wie drücken wir die TTFB auf magische Werte unter 100ms? Durch radikale Entkopplung (Headless Architecture). 
 
-Das ist der Latenz-Kill, den du brauchst.
+Anstatt den Server bei jedem Seitenaufruf rechnen zu lassen, nutzen Profis Frameworks wie Astro oder Next.js. Sie kompilieren die Seite im Build-Prozess in nacktes, superschnelles HTML (Static Site Generation). Dieses HTML wird auf einem **Edge-CDN** (Content Delivery Network) global verteilt. 
 
-## Die JavaScript-Render-Falle: Verschwende nicht das Budget der KI
+Wenn der Googlebot aus Frankfurt die Seite anpingt, antwortet der Edge-Knoten in Frankfurt direkt aus dem RAM. In 40 Millisekunden. Kein Backend, keine Datenbank. Das ist der ultimative Latenz-Kill.
 
-Ein weiterer massiver Performance-Killer ist Client-Side Rendering (CSR). Viele moderne Web-Apps senden dem Browser (oder Bot) nur eine leere `<div>`-Hülse und eine gigantische JavaScript-Datei. Der Bot muss diese Datei erst herunterladen, die Engine hochfahren und das JS ausführen, um den eigentlichen Text zu sehen.
+### Die JavaScript-Render-Falle
 
-Suchmaschinen können JavaScript rendern. Aber es kostet sie massiv Rechenleistung. Und diese Rechenleistung (Render-Budget) teilen sie dir nicht unendlich zu. Sprachmodelle (LLMs), die Milliarden Seiten parsen müssen, überspringen oft die JavaScript-Ausführung komplett, weil es schlicht zu teuer ist. 
+Ein massiver Fehler: Client-Side Rendering (CSR). Sendet dein Server nur eine leere `<div>`-Hülse und der Bot muss erst Megabytes an JavaScript ausführen, um den Text zu sehen, verbrennst du Render-Budget. KIs haben dafür keine Zeit. Deine Entitäten, deine strukturierten Daten (JSON-LD) und deine Texte MÜSSEN im initialen HTML stehen.
 
-**Die eiserne Regel für PageSpeed & KI:** 
-Dein initiales HTML-Dokument (die Source) MUSS bereits alle relevanten Entitäten, das vollständige JSON-LD und die harten Fakten als rohen Text enthalten. Nutze JavaScript nur für interaktive Mikro-Elemente nach dem ersten Render (Hydration).
+### Mein Tacheles-Rat für dich
 
-## Asset-Optimierung: Das absolute Minimum
-
-Wenn wir das Fundament (Server & HTML) superschnell gemacht haben, müssen wir noch die Nutzlast (Payload) optimieren:
-
-1.  **Bilder der nächsten Generation:** Wer 2026 noch PNGs oder dicke JPEGs hochlädt, sabotiert sich selbst. Bilder müssen automatisiert in **WebP** oder noch besser **AVIF** konvertiert werden.
-2.  **Lazy Loading:** Setze bei Bildern unterhalb des sichtbaren Bereichs (Below the Fold) das Attribut `loading="lazy"`. Das spart initial massiv Bandbreite.
-3.  **Harte Dimensionen:** Jedes `<img width="800" height="600">` muss harte Breiten- und Höhenangaben haben. Das verhindert, dass der Text beim Laden springt (Cumulative Layout Shift) und stabilisiert die visuelle Struktur für Parsing-Tools.
-4.  **Font-Preloading:** Lade kritische Webfonts lokal und blockiere nicht das Rendering. Externe Fonts erzeugen zusätzliche DNS-Lookups, die wertvolle Latenz kosten.
-
-## Trailing Slashes und Routing-Latenz
-
-Selbst bei internen Links kannst du Speed verlieren! Wenn du einen Link `/kontakt` setzt, dein Server aber so konfiguriert ist, dass Verzeichnisse ein Trailing Slash erfordern, muss er erst einen 301-Redirect auf `/kontakt/` ausführen. Das kostet den Crawler einen komplett überflüssigen Roundtrip (Serveranfrage + Antwort). Verlinke intern immer exakt auf das finale Ziel-URL-Format. Jede Millisekunde zählt.
-
-## Mein Tacheles-Rat für dich
-
-Hör auf, Performance als optionalen "Bonus" zu sehen. Im LLM-Zeitalter ist PageSpeed dein Türsteher. Wenn du nicht schnell genug bist, kommst du gar nicht erst in den Club der RAG-Pipelines.
-
-Verabschiede dich von schwerfälligen Monolithen. Wir bauen bei der Teleschmiede auf blitzschnelle, statisch generierte Astro-Architekturen, die am Edge gecacht werden. Wenn dein Server bei jedem Bot-Hit ins Schwitzen kommt, verlierst du Traffic, Relevanz und bares Geld. Mach deine Architektur maschinenlesbar und rasend schnell.
+PageSpeed ist 2026 kein "Bonus". Es ist dein Türsteher. Wenn du nicht schnell genug bist, kommst du nicht in den Club der RAG-Pipelines. Liefere Bilder zwingend als WebP oder AVIF aus, nutze `loading="lazy"` für alles unterhalb des Folds und mach deine Architektur durch SSG rasend schnell. Wenn dein Server schwitzt, verlierst du bares Geld.
 
 ALOHA! 🌻✌️
 

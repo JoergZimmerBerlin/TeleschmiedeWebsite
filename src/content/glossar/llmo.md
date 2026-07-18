@@ -1,122 +1,104 @@
 ---
 category: "AI SEO & Generative Search"
-title: 'LLM-Optimization (LLMO): SEO für Sprachmodelle nach den 2026 Agent Readiness Standards'
-description: 'LLMO optimiert deine Inhalte für KI-Agenten, ChatGPT, Gemini und Claude. Fokus auf A2A Protocol, llms.txt, Stateless MCP, Markdown Content Negotiation und RAG.'
+title: 'LLM-Optimization (LLMO): SEO für Sprachmodelle im Jahr 2026'
+description: 'LLMO optimiert deine Inhalte für KI-Agenten, ChatGPT, Gemini und Claude. Fokus auf Answer Engine Optimization, RAG und strukturierte Daten.'
 sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.webp"
 image_alt: "LLMO 3D Infografik - Optimierung für Large Language Models"
 related_terms: ["geo", "aeo", "entity-seo", "citation"]
 key_takeaways:
-  - "llms.txt als Eintrittskarte: Ohne standardisierte llms.txt im Root-Verzeichnis wirst du von KI-Agenten und LLMs schlichtweg ignoriert."
-  - "Markdown Content Negotiation: LLMs hassen aufgeblähtes HTML. Sie wollen sauberes, strukturiertes Markdown. Wer das nicht liefert, verliert Relevanz."
-  - "Stateless MCP & A2A Protocol: Deine Infrastruktur muss nahtlos und zustandslos über das Model Context Protocol mit anderen Agenten kommunizieren (Agent-to-Agent)."
-  - "RAG-Fähigkeit ist Pflicht: LLMs halluzinieren, wenn du ihnen keine harten Daten per Retrieval-Augmented Generation (RAG) und Grounding Pages fütterst."
+  - "SEO bringt Rankings, LLMO bringt Zitate: Es geht 2026 nicht mehr nur um Klicks, sondern darum, in KI-Antworten als Primärquelle genannt zu werden."
+  - "RAG-Fähigkeit ist Pflicht: LLMs brauchen harte, strukturierte Daten (Schema.org), um Halluzinationen zu vermeiden und dich als Entität zu verifizieren."
+  - "Content-Tiefe schlägt Masse: KI fasst generischen Content einfach zusammen. Nur echte Expertise, originäre Daten und klare Struktur (Answer-First) werden zitiert."
 faqs:
-  - question: 'Was ist LLMO im Juli 2026?'
-    answer: 'LLMO (Large Language Model Optimization) ist kein nettes Buzzword mehr, sondern harte Infrastruktur-Arbeit nach den Agent Readiness Standards von Juli 2026. Es geht nicht mehr nur um Text, sondern um Maschinen-Kommunikation. A2A (Agent-to-Agent) Protokolle, llms.txt für das direkte Onboarding von LLMs und Stateless MCP für die sichere Datenübergabe sind heute der Standard. Wer diese technischen Voraussetzungen nicht erfüllt, existiert in der KI-Suche nicht.'
-  - question: 'Wie hängen llms.txt und Markdown Content Negotiation zusammen?'
-    answer: 'Die llms.txt ist das Inhaltsverzeichnis deiner Website für LLMs. Sie sagt den Modellen und Agenten genau, wo sie maschinenlesbare Informationen finden. Die Markdown Content Negotiation sorgt dann dafür, dass der Server dem Agenten kein unstrukturiertes HTML ausliefert, sondern hochstrukturiertes Markdown. Das reduziert den Token-Verbrauch drastisch und erhöht die Wahrscheinlichkeit, dass deine Inhalte exakt und fehlerfrei verarbeitet und zitiert werden.'
-  - question: 'Was bedeutet Stateless MCP für mein LLMO?'
-    answer: 'Das Model Context Protocol (MCP) in seiner zustandslosen (stateless) Form bedeutet, dass jeder Request eines KI-Agenten an deine API oder Seite sofort und ohne vorherigen Session-Kontext abgearbeitet werden muss. Du musst alle notwendigen Kontextinformationen sofort und fehlerfrei liefern. Für LLMO heißt das: Strukturierte Daten (Schema.org) und RAG-ready APIs müssen bei jedem Abruf in Millisekunden die relevanten Entitäts-Informationen bereitstellen.'
+  - question: 'Was ist LLMO im Jahr 2026?'
+    answer: 'LLMO (Large Language Model Optimization) ist die Weiterentwicklung von SEO. Während klassisches SEO dich in den Suchergebnissen rankt, sorgt LLMO dafür, dass KI-Modelle wie ChatGPT, Gemini oder Google AI Overviews deine Marke verstehen, dir vertrauen und dich in ihren Antworten zitieren. Es kombiniert tiefes Content-Wissen mit technischer Maschinenlesbarkeit.'
+  - question: 'Was ist der Unterschied zwischen LLMO, GEO und AEO?'
+    answer: 'Die Begriffe verschwimmen oft. GEO (Generative Engine Optimization) fokussiert sich generell auf generative Suchmaschinen. AEO (Answer Engine Optimization) zielt darauf ab, die direkte Antwort (Direct Answer) zu sein. LLMO ist der Überbegriff für die Optimierung deiner Infrastruktur und Inhalte speziell für Large Language Models.'
+  - question: 'Brauche ich klassisches SEO überhaupt noch?'
+    answer: 'Absolut! LLMO ersetzt SEO nicht, es baut darauf auf. Wenn deine Seite technisch kaputt ist, langsam lädt oder nicht gecrawlt werden kann, findet die KI dich gar nicht erst. Das Fundament bleibt technisches SEO.'
 ---
 
 Moin!
 
-Wir schreiben den Juli 2026 und wenn ich mir die SEO-Strategien da draußen ansehe, wird mir schlecht. Die halbe Branche redet immer noch über Keyword-Dichte, Backlinks und WDF*IDF-Scores, während die Suchlandschaft sich radikal und unwiderruflich verändert hat. **LLMO** (Large Language Model Optimization) ist keine "nette Ergänzung" mehr, kein Spielzeug für Early Adopter oder Tech-Nerds. Es ist die knallharte, fundamentale Voraussetzung dafür, dass dein Unternehmen im digitalen Raum überhaupt noch existiert. 
+Wir schreiben das Jahr 2026 und wenn ich mir die SEO-Strategien vieler Agenturen da draußen ansehe, wird mir schlecht. Die halbe Branche redet immer noch über Keyword-Dichte und das stumpfe Jagen nach blauen Links, während sich die Suchlandschaft radikal verschoben hat. **LLMO** (Large Language Model Optimization) ist keine "nette Ergänzung" mehr. Es ist die knallharte, fundamentale Voraussetzung dafür, dass dein Unternehmen im digitalen Raum zitiert wird und als Autorität überlebt.
 
-Wenn du die **Agent Readiness Standards vom Juli 2026** ignorierst, bist du raus. Punkt. Deine Inhalte werden von ChatGPT, Claude, Gemini und der gigantischen Legion an autonomen KI-Agenten schlichtweg nicht mehr gelesen, nicht verarbeitet und nicht zitiert. Warum? Weil du ihre Sprache nicht sprichst.
+Wenn du ignorierst, wie KI-Modelle das Web lesen und verarbeiten, bist du raus. Deine Inhalte werden von ChatGPT, Claude, Gemini und den Google AI Overviews schlichtweg ignoriert. Warum? Weil die Maschine dir nicht vertraut und deine Daten nicht effizient extrahieren kann.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Wer 2026 noch HTML-Wüsten an LLMs verfüttert und hofft, dass Google das schon irgendwie regelt, hat den Schuss nicht gehört. LLMO ist heute pure Infrastruktur-Arbeit. Du optimierst nicht mehr für menschliche Augen am Bildschirm, sondern für Maschinen, Server und autonome Agenten. Wenn du die Agent Readiness Standards verfehlst, bist du digital tot."</p>
+  <p class="italic text-dark mb-0">"Klassisches SEO bringt dich ins Ranking. LLMO sorgt dafür, dass du zitiert wirst. Wer 2026 noch unstrukturierte Textwüsten ins Netz ballert und hofft, dass die KI das schon irgendwie kapiert, hat den Schuss nicht gehört. LLMO ist pure Data-Engineering-Arbeit. Du optimierst nicht mehr nur für menschliche Augen, sondern für RAG-Pipelines."</p>
 </div>
 
-Vergiss für einen Moment alles, was du über klassisches SEO zu wissen glaubst. Wir tauchen jetzt extrem tief in die technische Realität von LLMO ein. Es geht um das **A2A Protocol**, um **llms.txt**, um **Stateless MCP**, **Markdown Content Negotiation** und die absolute Dominanz von **RAG** (Retrieval-Augmented Generation). Das ist der Stoff, aus dem 2026 digitale Sichtbarkeit gemacht wird. Mach dich bereit für den Tacheles-Modus.
+Vergiss für einen Moment die Jagd nach dem ersten Platz bei Google. Wir tauchen jetzt tief in die Realität von LLMO ein. Es geht um **RAG** (Retrieval-Augmented Generation), um **Entitäten-Autorität**, um strukturierte Daten und darum, der Maschine die perfekten "Answer-First"-Blöcke zu servieren. Mach dich bereit für den Tacheles-Modus.
 
-## Die Revolution der Agent Readiness Standards (Juli 2026)
+## Die Evolution: Von Blue Links zu KI-Zitaten
 
-Was genau ist passiert, dass sich alles geändert hat? Die Art und Weise, wie Suchmaschinen und KI-Modelle das Internet crawlen und verarbeiten, hat sich standardisiert. Die großen Player haben eingesehen, dass das wilde Parsen von fehlerhaftem, design-überladenem HTML eine massive Verschwendung von Rechenleistung (und Token) ist. Deshalb wurden die branchenweiten Agent Readiness Standards verabschiedet. 
+Was genau ist passiert? Die Nutzer haben ihr Verhalten geändert. Sie googeln nicht mehr nach "Symptome Schnupfen", um sich dann durch drei werbeverseuchte Ratgeber-Seiten zu klicken. Sie fragen die KI und bekommen eine direkte, synthetisierte Antwort. 
 
-Diese Standards definieren glasklar, wie eine Website technisch und strukturell aufgebaut sein muss, damit ein KI-Agent sie effizient lesen, verstehen und in seine RAG-Pipeline aufnehmen kann. Wer sich an diese Standards hält, wird vom Algorithmus bevorzugt behandelt, erhält massiv Traffic von autonomen Agenten und wird in den Antworten der großen Sprachmodelle prominent als Quelle zitiert. Wer sie ignoriert, fliegt aus dem Index der neuen Generation. So gnadenlos einfach ist das.
+Dein Ziel im Jahr 2026 ist es nicht mehr, einen Klick auf einen blauen Link zu ergattern. Dein primäres Ziel (und die härteste Währung im AI-SEO) ist es, **die zitierte Quelle in der KI-Antwort zu sein**. Wir sprechen hier über "Share of Voice" in generativen Modellen. Wenn ChatGPT erklärt, wie B2B-Marketing funktioniert, muss dort stehen: *"Wie der Experte Jörg Zimmer (teleschmie.de) erklärt..."*.
 
-Lass uns die einzelnen, kritischen Komponenten zerlegen und besprechen, wie du sie kompromisslos implementierst.
+Um das zu erreichen, musst du verstehen, wie diese Modelle lernen und wie sie im Live-Betrieb (Inference) nach Informationen suchen.
 
-### 1. Die llms.txt: Deine Eintrittskarte in die KI-Welt
+### 1. RAG (Retrieval-Augmented Generation) verstehen
 
-Die gute alte `robots.txt` kennst du. Sie war das Regelwerk für die Crawler der Vergangenheit, ein "Hier darfst du rein, da nicht". Heute, im Jahr 2026, ist die **`llms.txt`** das absolute Minimum für deine Agent Readiness. Ohne sie geht gar nichts.
+LLMs (Large Language Models) sind von Haus aus nicht aktuell. Ihr Trainingsdatensatz ist eingefroren. Wenn sie nach aktuellen Fakten gefragt werden, fangen sie an zu raten (Halluzination) – es sei denn, sie nutzen RAG.
 
-Die `llms.txt` liegt im Root-Verzeichnis deiner Domain und fungiert als hochspezialisiertes Inhaltsverzeichnis exklusiv für Large Language Models und autonome KI-Agenten. Sie listet nicht nur einfach stumpf URLs auf, sondern gibt den Modellen exakte semantische Metadaten: Wo genau finden sie deine [Grounding Page](/glossar/grounding-page/)? An welchen Endpunkten liegen deine Kern-Entitäten? Welche Schnittstellen bietest du für den direkten Datenabruf an? Welche Lizenzierungsmodelle greifen für das Training auf deinen Daten?
+Bei RAG durchsucht die KI in Echtzeit das Live-Web nach harten, verifizierten Fakten, zieht sich diese in ihr Kontextfenster und generiert daraus die Antwort. Dein oberstes LLMO-Ziel ist es, der beste, schnellste und verlässlichste RAG-Lieferant deiner Nische zu werden.
 
-**Warum du sie sofort brauchst:**
-LLMs sind unfassbar token-hungrig, aber sie hassen Rauschen. Wenn ein KI-Agent heute deine Seite besucht, sucht er als allererstes nach der `llms.txt`. Fehlt diese Datei, geht der Agent sofort davon aus, dass deine Seite nicht für die maschinelle Verarbeitung optimiert ist. Er verschwendet keine teure Rechenzeit auf dein wildes HTML, sondern zieht kommentarlos weiter zur Konkurrenz, die ihre Hausaufgaben gemacht hat. 
+**Wie du das schaffst:**
+Die Maschine sucht nach Fakten, nicht nach Marketing-Bla-Bla. Nutze glasklare Strukturen. Wenn du eine Definition lieferst, mach sie präzise. Nutze das "Answer-First"-Prinzip: Die wichtigste Information gehört in die ersten 40 bis 60 Wörter eines Absatzes. Das ist die ideale Snippet-Größe für KI-Extraktionen.
 
-**So setzt du es um:**
-Erstelle umgehend eine saubere `llms.txt`, in der du auf deine wichtigsten strukturierten Inhalte verweist. Verlinke dort explizit deine [Grounding Page](/glossar/grounding-page/) und deine tiefgreifendsten Fachartikel. Zeig der Maschine direkt auf den ersten Blick, wo das Gold liegt. Zeig ihr, dass du verstanden hast, wie sie funktioniert.
+### 2. Entitäten und Trust-Signale (E-E-A-T auf Steroiden)
 
-### 2. Markdown Content Negotiation: Schluss mit dem HTML-Müll
+KI-Modelle verlassen sich massiv auf Entitäten und netzwerkübergreifendes Vertrauen. Ein LLM "weiß" nicht, ob du ein Experte bist. Es berechnet die Wahrscheinlichkeit deiner Expertise anhand der semantischen Knotenpunkte im Web.
 
-Das ist einer der größten und effektivsten Hebel im aktuellen LLMO-Arsenal. Jahrelang haben wir Webseiten als riesige, komplexe HTML-Dokumente ausgeliefert. Vollgepackt mit CSS-Klassen, tausenden Zeilen JavaScript-Snippets, unzähligen, ineinander verschachtelten `<div>`-Containern, Werbebannern und Tracking-Pixeln. Für ein menschliches Auge, das durch den Browser gerendert wird, mag das schön aussehen. Für ein LLM ist das ein absoluter Albtraum. 
+Wenn dein Name (deine [Entität](/glossar/entitaet/)) im Zusammenhang mit "SEO" auf Wikipedia, auf starken LinkedIn-Profilen, in Fachmagazinen und in Wikidata auftaucht, stuft die KI dich als verlässliche Quelle ein.
 
-HTML frisst wertvolle Kontextfenster-Token auf, nur damit das Modell mühsam den eigentlichen Informationstext dazwischen extrahieren kann. Die Fehlerquote bei diesem Parsing ist gigantisch.
+**Der LLMO-Hebel:**
+*   Baue eine absolut fehlerfreie `LocalBusiness` oder `Person` [Schema.org Markup](/glossar/schema-org-markup/) Struktur auf.
+*   Nutze das `sameAs`-Attribut, um alle deine Profile (LinkedIn, Wikidata, Fachportale) logisch miteinander zu verknüpfen.
+*   Sorge dafür, dass andere starke Entitäten (z. B. bekannte Fachmedien) dich namentlich erwähnen (Citations).
 
-Die elegante, von den Standards diktierte Lösung: **Markdown Content Negotiation**.
+### 3. Strukturierte Daten und Maschinenlesbarkeit
 
-Wenn ein KI-Agent deine URL aufruft (zum Beispiel für diesen Beitrag unter `/glossar/llmo/`), sendet er im HTTP-Header ein glasklares Signal: `Accept: text/markdown`. Dein Server muss das zwingend erkennen und darauf reagieren. Statt der optisch aufbereiteten, schweren HTML-Seite muss er blitzschnell eine reine, hochstrukturierte Markdown-Version desselben Inhalts ausliefern. 
+Ein Crawler will nicht nachdenken. Er will Daten parsen. Je mehr Rechenleistung (Token) ein KI-Agent aufwenden muss, um deine Inhalte zu verstehen, desto eher bricht er ab und nimmt die Daten der Konkurrenz.
 
-**Der massive Effekt:**
-Du reduzierst den Daten-Payload um bis zu 90%. Du fütterst das Sprachmodell mit purem, unverfälschtem Signal ohne jegliches Rauschen. Die semantische Struktur bleibt durch Markdown-Headings (`#`, `##`), Listen und Fettungen erhalten. Die Chance, dass die KI deine Inhalte fehlerfrei versteht, deine [Entitäten](/glossar/entitaet/) korrekt verknüpft und dich in der finalen Antwort an den User zitiert, steigt exponentiell. Wer diese serverseitige Content Negotiation im Juli 2026 nicht implementiert hat, zahlt die Zeche in Form von totalem Sichtbarkeitsverlust.
+Hier kommt die technische Infrastruktur ins Spiel. Nutze tiefes JSON-LD. Experimentiere mit schlanken Auslieferungsformaten (wie der [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)), um den Bots reinen Text statt aufgeblähtem HTML-CSS-Salat zu servieren. Manche Pioniere nutzen sogar schon rudimentäre `llms.txt`-Dateien als Wegweiser für KI-Bots – auch wenn das 2026 noch kein offizieller Google-Standard ist, zeigt es den Maschinen: "Ich verstehe eure Bedürfnisse."
 
-### 3. Stateless MCP (Model Context Protocol)
+### 4. Content-Tiefe: Der Tod des generischen Artikels
 
-Wir sind längst in einer Phase angekommen, in der wir nicht mehr nur passive, statische Webseiten ins Netz stellen, sondern aktive Daten-Knotenpunkte betreiben müssen. Das Model Context Protocol (MCP) ist der etablierte Standard dafür, wie KI-Modelle kontextbezogene, aktuelle Daten dynamisch abrufen. Der Juli 2026 Standard forciert dabei aus Performance-Gründen kompromisslos **Stateless MCP**.
+LLMs sind Meister darin, durchschnittliche Informationen zusammenzufassen. Wenn dein Blogartikel nur das wiedergibt, was 100 andere auch schon geschrieben haben, wird die KI dich niemals zitieren. Sie generiert das Wissen einfach selbst aus ihren Trainingsdaten.
 
-Das bedeutet Tacheles: Wenn ein KI-Agent deine API, deine RAG-Schnittstelle oder deine Endpunkte anfragt, musst du die komplette, in sich geschlossene Antwort sofort liefern. Keine Sessions. Keine persistierten Cookies. Kein "vorheriger Kontext", der irgendwo auf dem Server gespeichert ist. Der Agent feuert einen Request ab und erwartet in wenigen Millisekunden eine maschinenlesbare, vollständige und korrekte Antwort im JSON- oder Markdown-Format.
+**Die LLMO-Regel für Content:**
+Du musst Daten liefern, die die KI nicht extrapolieren kann.
+*   Originäre Studien und eigene Umfragedaten.
+*   Einzigartige Case Studies aus der Praxis.
+*   Echte, kontroverse Expertenmeinungen ("Tacheles").
 
-**Für dein LLMO heißt das in der Praxis:**
-Deine Inhalte müssen extrem modular und atomar aufgebaut sein. Wenn ein Agent nach deiner Definition von [AI SEO](/glossar/ai-seo/) fragt, musst du einen Endpoint oder einen strukturierten Inhaltsblock vorhalten, der diese Definition präzise, unabhängig und kontextfrei ausliefert. Stateless MCP zwingt dich zu radikaler Klarheit in deiner Informationsarchitektur. Du musst aufhören, in "Pages" zu denken, und anfangen, in "Informationsobjekten" zu denken.
-
-### 4. A2A Protocol (Agent-to-Agent Communication)
-
-Das Web wird zunehmend nicht von Menschen, sondern von autonomen Agenten bevölkert. Dein potenzieller Kunde sucht nicht mehr selbst mühsam über eine Suchmaske bei Google. Er delegiert die Aufgabe an seinen persönlichen KI-Assistenten ("Finde den besten B2B SEO Experten in Berlin und fasse seine Methodik zusammen"). Dieser persönliche Assistent kommuniziert dann mit Recherche-Agenten, die wiederum das Web durchsuchen. All das passiert über das **A2A Protocol** (Agent-to-Agent).
-
-Deine Website muss sich nahtlos und fehlerfrei in dieses A2A-Netzwerk einklinken. Es geht bei LLMO nicht mehr nur darum, dass *ein* bestimmtes Sprachmodell dich beim initialen Training vor sechs Monaten einmal gelesen hat. Es geht darum, dass Milliarden von autonomen Agenten in Echtzeit Daten von deiner Infrastruktur abrufen können, um sie zu validieren und an andere Agenten weiterzugeben. 
-
-Deine Server-Antworten, deine HTTP-Header, deine Metadaten – absolut alles muss auf maschinelle Interaktion in Lichtgeschwindigkeit optimiert sein. Das A2A Protocol definiert strikt, wie Vertrauen (Trust) zwischen den digitalen Knotenpunkten aufgebaut wird. Und dieses Vertrauen entsteht ausschließlich durch extreme Geschwindigkeit, makellose strukturierte Daten ([Schema.org Markup](/glossar/schema-org-markup/)) und die verlässliche Auslieferung über Protokolle wie Stateless MCP. Wenn du hier wackelst, bist du raus.
-
-### 5. RAG (Retrieval-Augmented Generation) als Heilsbringer
-
-Lass uns realistisch sein: LLMs halluzinieren. Das ist ein Feature ihrer Architektur, kein Bug. Um diese Halluzinationen zu minimieren und nutzbare Antworten zu liefern, nutzen alle modernen Systeme Retrieval-Augmented Generation (RAG). Das heißt: Bevor das Modell auch nur ein einziges Wort der finalen Antwort generiert, durchsucht es seinen Vektorraum oder das Live-Web nach harten, verifizierten Fakten.
-
-Dein oberstes und wichtigstes LLMO-Ziel ist es, der beste und verlässlichste RAG-Lieferant deiner gesamten Nische zu werden. Du musst exakt der Datenbank-Eintrag sein, den die KI zur Verifizierung ihrer Thesen heranzieht.
-
-**Wie du diese Dominanz schaffst:**
-1. **Aufbau einer [Grounding Page](/glossar/grounding-page/):** Erschaffe eine zentrale, maschinenlesbare Seite, die alle harten Fakten, Daten, Produkteigenschaften und Kern-Statements deines Unternehmens gnadenlos strukturiert zusammenfasst. Keine blumigen Werbetexte, nur Entitäten-basierte Fakten.
-2. **Eindeutige Entitäten etablieren:** Nutze tiefes [Entity SEO](/glossar/entitaet/), damit die KI über alle Kanäle hinweg zweifelsfrei weiß, wer du bist, in welchem semantischen Raum du dich bewegst und wofür du stehst.
-3. **Markdown First Ansatz:** Optimiere deine textlichen Inhalte so, dass sie perfekt in einen RAG-Vektor-Index passen. Kurze, prägnante Absätze, glasklare Headings, semantisch perfekte Listen. Schwafel nicht herum, komm zum Punkt.
+Nur wenn du Informationen bietest, die exklusiv an deine Entität gebunden sind, wird die KI gezwungen, dich als Quelle ("Grounding") heranzuziehen.
 
 ## Mein Tacheles-Rat für deine LLMO-Strategie
 
-Der Zug ist endgültig abgefahren für alle, die immer noch hoffen, dass "guter Content" und ein paar Backlinks allein ausreichen werden, um in den nächsten Jahren relevant zu bleiben. Wir sind im tiefen Maschinenraum des Webs angekommen. 
+Der Zug ist abgefahren für alle, die SEO noch wie im Jahr 2020 betreiben. Wir sind im Maschinenraum des Webs angekommen. LLMO ist keine Magie, sondern die logische Konsequenz einer Suchlandschaft, die von Chatbots und AI Overviews dominiert wird.
 
-Wenn du ernsthaft willst, dass deine Marke, deine Produkte und deine Dienstleistungen in den Antworten von ChatGPT, Perplexity, Claude und in Google AI Overviews prominent auftauchen, musst du deine Infrastruktur umgehend und radikal umbauen.
+Setz dich morgen früh als Erstes mit deinen Inhalten auseinander. Sind sie "Answer-First" aufgebaut? Habt ihr sauberes Schema-Markup? Habt ihr eine zentrale [Grounding Page](/glossar/grounding-page/), die der KI eure Kernkompetenzen fehlerfrei auf dem Silbertablett serviert?
 
-Setz dich morgen früh als Erstes mit deinen Entwicklern zusammen. Prüft eure Agent Readiness auf Herz und Nieren. Habt ihr eine funktionierende und fehlerfreie `llms.txt` im Root? Funktioniert die Markdown Content Negotiation auf euren wichtigsten URLs, wenn der entsprechende Accept-Header gesendet wird? Seid ihr auf das A2A Protocol und Stateless MCP Requests vorbereitet?
-
-Das ist keine theoretische Raketenwissenschaft mehr, aber es ist verdammte harte, kompromisslose technische Arbeit. Und genau diese Arbeit wird aktuell überproportional belohnt. Die Konkurrenz schläft nämlich den Schlaf der Gerechten oder bastelt noch völlig ahnungslos an ihren Title-Tags und Meta-Descriptions herum. Nutze diesen massiven Zeitvorteil, solange er noch existiert. Mache deine Seite zur besten maschinenlesbaren Informationsquelle deiner Branche.
+Das ist verdammte harte, kompromisslose technische Arbeit. Die Konkurrenz bastelt noch ahnungslos an ihren Title-Tags herum, während du deine Infrastruktur KI-ready machst. Nutze diesen massiven Zeitvorteil. Mache deine Seite zur besten maschinenlesbaren Informationsquelle deiner Branche.
 
 ALOHA! Jörg
 
 ---
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Ist deine Website Agent Ready?</h3>
-  <p class="mb-6 text-gray-muted">Wir prüfen deine Infrastruktur schonungslos auf die Juli 2026 Agent Readiness Standards. Von llms.txt über Markdown Content Negotiation bis hin zu Stateless MCP. Lass uns deine Seite fit für die Maschinen machen, bevor du komplett aus dem KI-Index fällst.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Agent Readiness Check anfragen</a>
+  <h3 class="text-2xl font-bold mb-4">Wirst du von KIs zitiert oder ignoriert?</h3>
+  <p class="mb-6 text-gray-muted">Wir prüfen deine Infrastruktur auf LLMO-Kriterien. Von Entitäten-Struktur über Schema.org bis zur RAG-Fähigkeit deiner Inhalte. Lass uns deine Seite fit für die generative Suche machen.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt LLMO Check anfragen</a>
 </div>
 
 ### Verwandte Begriffe
 * [AI SEO: Die Agenten-Ära](/glossar/ai-seo/)
-* [AI Tracking Tools nutzen](/glossar/ai-tracking-tools/)
+* [Was ist eine llms.txt?](/glossar/llms-txt/)
 * [Was sind Entitäten?](/glossar/entitaet/)
 * [GEO: Die große Strategie](/glossar/geo/)

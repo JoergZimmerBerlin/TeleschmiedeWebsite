@@ -11,6 +11,7 @@ import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.web
 import logoImage from '../../assets/images/logo-teleschmiede.webp';
 import { getGitModDate } from '../../utils/git-date';
 import Schema from '../../components/Schema.astro';
+import RelatedLinks from '../../components/RelatedLinks.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -66,7 +67,7 @@ if (type === 'category') {
 // ==========================================
 // POST LOGIC
 // ==========================================
-let lastReviewed, Content, headings, logoWebp, postImageWebp, readingTime, finalRelatedPosts, relatedGlossaryTerms, tachelesQuote;
+let lastReviewed, Content, headings, logoWebp, postImageWebp, readingTime, relatedGlossaryTerms, tachelesQuote;
 
 if (type === 'post') {
   lastReviewed = getGitModDate(`src/content/blog/${post.id}`);
@@ -339,26 +340,7 @@ if (type === 'post') {
           </div>
         </footer>
 
-        {finalRelatedPosts.length > 0 && (
-          <div class="mt-20 pt-12 border-t border-gray-100">
-            <h3 class="text-2xl font-bold mb-8">Das könnte dich auch interessieren</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {finalRelatedPosts.map(p => (
-                <a href={`${baseUrl}/blog/${p.id}/`} class="group block bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all">
-                  <div class="aspect-video overflow-hidden">
-                    {p.data.image && (
-                      <Image src={p.data.image} alt={p.data.image_alt || p.data.title} width={600} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" format="webp" loading="lazy" />
-                    )}
-                  </div>
-                  <div class="p-4">
-                    <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-2 inline-block">{p.data.category || 'SEO'}</span>
-                    <h4 class="font-bold text-sm line-clamp-2 group-hover:text-lime-600 transition-colors">{p.data.title}</h4>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
+        <RelatedLinks currentId={post.id} currentTitle={post.data.title} currentTags={post.data.tags || []} />
       </div>
     </article>
 

@@ -9,6 +9,7 @@ import FAQAccordion from '../../components/FAQAccordion.astro';
 import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
 import { getGitModDate } from '../../utils/git-date';
 import Schema from '../../components/Schema.astro';
+import RelatedLinks from '../../components/RelatedLinks.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossar');
@@ -41,8 +42,6 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const allEntries = await getCollection('glossar');
 
 let Content, headings, lastReviewed, readingTime, entryImageWebp;
-let relatedTerms = [];
-let relatedBlogPosts = [];
 
 if (type === 'term') {
   lastReviewed = getGitModDate(`src/content/glossar/${entry.id}`);
@@ -56,41 +55,6 @@ if (type === 'term') {
 
   const wordCount = (entry.body || '').split(/\s+/).length;
   readingTime = Math.ceil(wordCount / 180);
-
-  const manualRelatedTerms = allEntries.filter((e) => entry.data.related_terms?.includes(e.id));
-  relatedTerms = manualRelatedTerms.length >= 3
-    ? manualRelatedTerms
-    : [
-        ...manualRelatedTerms,
-        ...allEntries
-          .filter(e => e.id !== entry.id && !manualRelatedTerms.find(m => m.id === e.id))
-          .filter(e => (e.data.category || 'SEO Basics & Onpage') === (entry.data.category || 'SEO Basics & Onpage')) // STRICT CATEGORY MATCH
-          .map(e => {
-            let score = 0;
-            const titleWords = entry.data.title.toLowerCase().split(/\W+/).filter(w => w.length > 3);
-            const otherTitle = e.data.title.toLowerCase();
-            if (titleWords.some(w => otherTitle.includes(w))) score += 5;
-            return { ...e, score };
-          })
-          .sort((a, b) => b.score - a.score)
-          .slice(0, 3 - manualRelatedTerms.length)
-      ];
-
-  const allBlogPosts = await getCollection('blog');
-  relatedBlogPosts = allBlogPosts
-    .filter(post => {
-      const entryTitle = entry.data.title.split('(')[0].trim().toLowerCase();
-      const postText = (post.data.title + ' ' + (post.data.description || '') + ' ' + (post.data.tags || []).join(' ')).toLowerCase().replace(/-/g, ' ');
-      if (postText.includes(entryTitle)) return true;
-      const keywords = entryTitle.split(/\s+/).filter(k => k.length > 3);
-      if (keywords.length > 0) {
-        const matchCount = keywords.filter(k => postText.includes(k)).length;
-        if (matchCount >= Math.ceil(keywords.length / 2)) return true;
-      }
-      return post.data.tags?.some(tag => entryTitle.includes(tag.toLowerCase()));
-    })
-    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-    .slice(0, 3);
 }
 ---
 
@@ -281,6 +245,7 @@ if (type === 'term') {
             <p class="text-gray-muted mb-6">Folge mir auf LinkedIn für tägliche SEO-Nuggets und diskutiere mit anderen Experten.</p>
             <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex" title="LinkedIn-Profil besuchen →">LinkedIn-Profil besuchen →</a>
           </div>
+          <RelatedLinks currentId={entry.id} currentTitle={entry.data.title} currentTags={entry.data.tags || []} />
         </div>
       </div>
 

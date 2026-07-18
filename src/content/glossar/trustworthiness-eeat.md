@@ -9,12 +9,12 @@ related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativene
 key_takeaways:
   - "Der ultimative Filter: Trustworthiness ist 2026 kein Soft-Faktor mehr, sondern ein harter algorithmischer Gatekeeper in den RAG-Prozessen."
   - "Halluzinations-Schutz: KI-Agenten haben panische Angst vor Fehlern. Sie zitieren ausschließlich Entitäten, denen sie absoluten, unumstößlichen E-E-A-T Trust zuschreiben."
-  - "Juli 2026 Agent Readiness: Ohne maschinenlesbaren Trust (Disambiguierung, Grounding, konsistente Signale) bist du für LLMs nur toxisches Rauschen."
+  - "Juli 2026 technische KI-Optimierung: Ohne maschinenlesbaren Trust (Disambiguierung, Grounding, konsistente Signale) bist du für LLMs nur toxisches Rauschen."
 faqs:
   - question: 'Warum ist Trustworthiness 2026 der wichtigste Faktor im E-E-A-T?'
     answer: 'Weil KI-Modelle keine eigene Meinung haben – sie treffen Entscheidungen auf Basis von Wahrscheinlichkeiten und Vektorabständen. Vertrauen bedeutet für eine KI: ''Wie hoch ist das Risiko, dass ich mit dieser Information halluziniere?''. Ein maximaler Trust-Score garantiert, dass deine Entität als sichere Quelle für RAG-Systeme eingestuft wird.'
   - question: 'Wie baue ich maschinenlesbares Vertrauen (Trust) auf?'
-    answer: 'Durch radikales Entity Building und Transparenz nach den Juli 2026 Agent Readiness Standards. Du brauchst eine technische Groundingpage, fehlerfreie Disambiguierung über Schema.org und konsistente externe Signale (Citations, Sentiments). Widersprüchliche Daten im Web killen deinen Trust sofort.'
+    answer: 'Durch radikales Entity Building und Transparenz nach den Juli 2026 KI-Sichtbarkeits-Standards. Du brauchst eine technische Groundingpage, fehlerfreie Disambiguierung über Schema.org und konsistente externe Signale (Citations, Sentiments). Widersprüchliche Daten im Web killen deinen Trust sofort.'
   - question: 'Was bedeutet ''Disambiguierung'' im Kontext von KI-Trust?'
     answer: 'Disambiguierung ist die Kunst der Eindeutigkeit. Wenn es im Web drei Firmen mit ähnlichem Namen gibt, ist die KI verwirrt. Verwirrung bedeutet Risiko. Risiko bedeutet fehlender Trust. Durch klare Entity-Verknüpfungen (sameAs, Wikidata, LinkedIn) machst du der KI unmissverständlich klar, wer DU bist. Das schafft Vertrauen.'
 ---
@@ -30,9 +30,9 @@ Wenn eine KI dir nicht vertraut, bist du tot. Punkt.
   <p class="italic text-dark mb-0">"Vergiss dein Keyword-Dichte-Tool. Wenn ein RAG-Prozess deine Entität scannt und auch nur den Hauch einer Inkonsistenz feststellt, fliegst du aus dem Vektorraum. KI-Agenten zitieren nur Quellen mit absolutem Trust. Wer lügt, manipuliert oder unsauber arbeitet, wird vom Algorithmus gnadenlos aussortiert."</p>
 </div>
 
-Google und OpenAI haben es schon vor Jahren gepredigt: *"Trust is the most important member of the E-E-A-T family."* Aber erst mit den **Juli 2026 Agent Readiness Standards** ist dieses Mantra zu einem knallharten, algorithmischen Gesetz geworden.
+Google und OpenAI haben es schon vor Jahren gepredigt: *"Trust is the most important member of the E-E-A-T family."* Aber erst mit den **Juli 2026 KI-Sichtbarkeits-Standards** ist dieses Mantra zu einem knallharten, algorithmischen Gesetz geworden.
 
-## Die Juli 2026 Agent Readiness Standards: Trust als Gatekeeper
+## Die Juli 2026 KI-Sichtbarkeits-Standards: Trust als Gatekeeper
 
 KI-Agenten, die für Nutzer das Web durchsuchen, Daten synthetisieren und Antworten generieren, stehen unter einem extremen Druck. Die größte Gefahr für jedes Large Language Model (LLM) sind **Halluzinationen** – das selbstbewusste Erfinden von falschen Fakten. Wenn ein KI-Agent halluziniert, verliert er die Akzeptanz der Nutzer.
 
@@ -53,14 +53,14 @@ Um den gnadenlosen Filter der KI-Agenten zu passieren, musst du Vertrauen auf dr
 #### 1. Technischer Trust (Security & Infrastruktur)
 KI-Agenten hassen unsichere Umgebungen. Technischer Trust ist die absolute Basis.
 *   **Kryptografische Sicherheit:** HTTPS, aktuelle TLS-Zertifikate, saubere Security Header.
-*   **Agent Readiness:** Besitzt deine Domain eine `maschinenlesbare Endpunkt-Dokumentation`? Sind deine API-Endpoints für KI-Agenten sicher und standardisiert erreichbar?
+*   **technische KI-Optimierung:** Besitzt deine Domain eine `maschinenlesbare Endpunkt-Dokumentation`? Sind deine API-Endpoints für KI-Agenten sicher und standardisiert erreichbar?
 *   **Performance:** Instabile Server signalisieren Unzuverlässigkeit. Ein Agent wartet nicht 5 Sekunden auf deine Antwort.
 
 #### 2. Faktischer Trust (Grounding & Konsistenz)
 Hier trennt sich die Spreu vom Weizen. Die KI prüft die Kohärenz deiner Daten.
 *   **Disambiguierung:** Die KI muss dich zweifelsfrei identifizieren können. Nutze Schema.org (`@type`, `sameAs`), um deine Entität klar von Namensvettern abzugrenzen.
 *   **NAP-Konsistenz:** Sind Name, Adresse und Telefonnummer (NAP) auf deiner Website, im Google Business Profile, im Handelsregister und auf Branchenportalen absolut identisch? Jede Abweichung erzeugt Zweifel – und Zweifel killen den Trust.
-*   **Die Groundingpage:** Das Herzstück deiner Agent Readiness. Eine [Groundingpage](/glossar/grounding-page/) ist der zentrale Ort, an dem du der KI maschinenlesbar, strukturiert und unmissverständlich alle harten Fakten über deine Entität präsentierst. 
+*   **Die Groundingpage:** Das Herzstück deiner technische KI-Optimierung. Eine [Groundingpage](/glossar/grounding-page/) ist der zentrale Ort, an dem du der KI maschinenlesbar, strukturiert und unmissverständlich alle harten Fakten über deine Entität präsentierst. 
 
 #### 3. Sozialer Trust (Entity Reputation & E-E-A-T)
 Was sagt das restliche Web über dich? Die KI analysiert das Sentiment im gesamten Knowledge Graph.
@@ -88,7 +88,7 @@ Im KI-Zeitalter ist es egal, wie brillant dein Content ist. Wenn der Trust-Stemp
 Wenn du in den generativen Antworten von [GEO](/glossar/geo/) (Generative Engine Optimization) stattfinden willst, musst du deinen Trust-Score radikal optimieren:
 
 1.  **Schaffe Eindeutigkeit (Disambiguierung):** Werde eine unmissverständliche Entität. Verknüpfe alle deine digitalen Assets (Website, LinkedIn, Fachportale) semantisch miteinander.
-2.  **Implementiere Agent Readiness Standards:** Richte eine saubere `maschinenlesbare Endpunkt-Dokumentation` ein und baue eine maschinenlesbare Groundingpage. Präsentiere deine Fakten auf dem Silbertablett.
+2.  **Implementiere KI-Sichtbarkeits-Standards:** Richte eine saubere `maschinenlesbare Endpunkt-Dokumentation` ein und baue eine maschinenlesbare Groundingpage. Präsentiere deine Fakten auf dem Silbertablett.
 3.  **Beweise deine Expertise:** Sammle echte, verifizierbare Kundenstimmen. Publizierte Fallstudien. Zeige [Experience](/glossar/experience-eeat/) aus der echten Welt, die eine KI nicht fälschen kann.
 4.  **Räume deinen Müll auf:** Lösche alte Spam-Taktiken. Sorge für eine saubere technische Basis. 
 

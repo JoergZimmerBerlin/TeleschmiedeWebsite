@@ -7,7 +7,7 @@ image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["technisches-seo", "crawling-vs-indexing", "robots-txt", "sitemap"]
 key_takeaways:
   - "Duplicate Content Gefahr: /seite und /seite/ sind für Google und LLM-Agents zwei verschiedene URLs – ohne hartes Routing gibt es Chaos in der Matrix."
-  - "Agent Readiness: GPTBot und ClaudeBot verzeihen keine schlampigen Redirects. Eine unsaubere Slash-Strategie killt deine Zitate in ChatGPT."
+  - "technische KI-Optimierung: GPTBot und ClaudeBot verzeihen keine schlampigen Redirects. Eine unsaubere Slash-Strategie killt deine Zitate in ChatGPT."
   - "Konsistenz ist King: Egal ob mit oder ohne Slash – entscheide dich für EINE Variante und setze sie konsequent um. Keine halben Sachen!"
 faqs:
   - question: 'Ist es besser, URLs mit oder ohne Trailing Slash zu verwenden?'
@@ -22,7 +22,7 @@ Moin! 🌻
 
 Klingt nach einem nerdigen Detail aus den frühen 2000ern, oder? Ein kleiner, unscheinbarer Schrägstrich am Ende der URL. Aber lass mich dir Tacheles reden: Dieses vermeintliche "Nerd-Detail" ist im Jahr 2026 der Unterschied zwischen einem sauberen [technischen SEO](/glossar/technisches-seo/) und einem katastrophalen Duplicate-Content-Desaster, das dich nicht nur in der Google-Suche, sondern vor allem in den Antworten von KI-Agenten massiv Reichweite kostet.
 
-Wir leben in einer Zeit, in der AI-Agents (wie GPTBot, ClaudeBot oder Perplexity) das Netz crawlen. Diese Biester sind hungrig, aggressiv und dümmer als man denkt, wenn es um technisches Routing geht. Sie verzeihen keine Fehler. Wenn dein Routing unsauber ist, zerschießt du dir deine sogenannte **Agent Readiness**.
+Wir leben in einer Zeit, in der AI-Agents (wie GPTBot, ClaudeBot oder Perplexity) das Netz crawlen. Diese Biester sind hungrig, aggressiv und dümmer als man denkt, wenn es um technisches Routing geht. Sie verzeihen keine Fehler. Wenn dein Routing unsauber ist, zerschießt du dir deine sogenannte **technische KI-Optimierung**.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -43,7 +43,7 @@ Früher haben wir uns nur Sorgen um Google gemacht. Heute crawlen Armeen von LLM
 Google indexiert möglicherweise beide Versionen. Dein Content existiert doppelt im Index. Google ist mittlerweile relativ gut darin, das zu erkennen und eine Version auszuwählen (oft dank eines [Canonical Tags](/glossar/canonical-tag/)), aber du zwingst den Googlebot dazu, unnötig Rechenleistung zu verbrauchen. Du verschwendest dein Crawl-Budget für heiße Luft.
 
 ### 2. Kontext-Kollaps bei LLM-Crawlern (Die neue Gefahr)
-KI-Crawler wie der GPTBot oder der Perplexity-Bot arbeiten anders als Google. Sie lesen Text und füttern Vektordatenbanken für Retrieval-Augmented Generation (RAG). Wenn sie denselben Artikel unter zwei verschiedenen URLs finden (einmal mit, einmal ohne Slash), behandeln sie ihn oft als zwei separate Dokumente. Was passiert? Die Vektor-Repräsentation deines Contents verwässert. Die KI "denkt", es gäbe konkurrierende Informationen oder duplizierte Quellen. Im schlimmsten Fall halluziniert die KI, wenn sie dich als Quelle zitieren soll, weil die URL-Struktur inkonsistent ist. Deine Agent Readiness sinkt gegen Null.
+KI-Crawler wie der GPTBot oder der Perplexity-Bot arbeiten anders als Google. Sie lesen Text und füttern Vektordatenbanken für Retrieval-Augmented Generation (RAG). Wenn sie denselben Artikel unter zwei verschiedenen URLs finden (einmal mit, einmal ohne Slash), behandeln sie ihn oft als zwei separate Dokumente. Was passiert? Die Vektor-Repräsentation deines Contents verwässert. Die KI "denkt", es gäbe konkurrierende Informationen oder duplizierte Quellen. Im schlimmsten Fall halluziniert die KI, wenn sie dich als Quelle zitieren soll, weil die URL-Struktur inkonsistent ist. Deine technische KI-Optimierung sinkt gegen Null.
 
 ### 3. Linkjuice-Split und Broken Citations
 Wenn andere Websites auf dich verlinken, tun sie das selten konsistent. Der eine Blogger verlinkt auf `/seite`, der andere auf `/seite/`. Wenn du keinen harten 301-Redirect hast, verteilt sich dein mühsam aufgebauter [Linkjuice](/glossar/linkjuice/) auf zwei URLs. Noch schlimmer: Wenn ChatGPT oder Claude dich zitieren wollen, wissen sie nicht, welche URL die "offizielle" ist. Die Citation wird wackelig, Nutzer klicken auf kaputte oder zirkuläre Links.
@@ -51,9 +51,9 @@ Wenn andere Websites auf dich verlinken, tun sie das selten konsistent. Der eine
 ### 4. Analytics-Chaos und Tracking-Albtraum
 Deine Tracking-Daten (Google Analytics, Plausible, Fathom) sind auf zwei URLs verteilt. Du guckst in dein Dashboard und wunderst dich, warum ein Artikel scheinbar schlecht performt, bis du merkst, dass sich die Zugriffe auf `/artikel` und `/artikel/` aufteilen. Das verfälscht jede vernünftige Datenanalyse.
 
-## Agent Readiness: Die Regeln für LLM-Crawler
+## technische KI-Optimierung: Die Regeln für LLM-Crawler
 
-Im Juli 2026 geht es nicht mehr nur um die blauen Links bei Google. Wir optimieren für Agenten. Die A2A-Protokolle (Agent-to-Agent) und Systeme wie Cloudflare Radar (höchstes Niveau) verlangen absolute technische Perfektion.
+Im Juli 2026 geht es nicht mehr nur um die blauen Links bei Google. Wir optimieren für Agenten. Die KI-Crawler-Protokolle (Agent-to-Agent) und Systeme wie Cloudflare Radar (höchstes Niveau) verlangen absolute technische Perfektion.
 
 Ein KI-Agent liest deine Seite nicht wie ein Mensch. Er liest den rohen Code, analysiert die HTTP-Header und folgt streng logischen Pfaden. Wenn ein Agent auf eine URL ohne Slash stößt, aber deine interne Navigation durchgehend URLs mit Slash verwendet, erzeugst du einen kognitiven Bruch im Crawler-Pfad. Der Agent stuft deine Seite als "technisch unzuverlässig" ein. 
 
@@ -140,7 +140,7 @@ ALOHA 🌻
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
   <h3 class="text-2xl font-bold mb-4">Technisches SEO macht dir Kopfschmerzen?</h3>
-  <p class="mb-6 text-gray-muted">Trailing Slashes, Redirect-Ketten oder Agent Readiness Probleme? Ich bringe deine URLs und deinen Code in Ordnung. Mit gnadenlosem Fokus auf Tech SEO, AI-Visibility und sauberen Traffic.</p>
+  <p class="mb-6 text-gray-muted">Trailing Slashes, Redirect-Ketten oder technische KI-Optimierung Probleme? Ich bringe deine URLs und deinen Code in Ordnung. Mit gnadenlosem Fokus auf Tech SEO, AI-Visibility und sauberen Traffic.</p>
   <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Technik-Audit anfragen</a>
 </div>
 

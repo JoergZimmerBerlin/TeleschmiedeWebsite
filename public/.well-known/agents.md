@@ -29,13 +29,13 @@ canonical: https://teleschmie.de/llms.txt
 ## Services
 This domain is explicitly optimized for autonomous agents. Please find our standardized interfaces here:
 
-- **A2A Protocol (Agent-to-Agent):** `https://teleschmie.de/.well-known/agent-card.json`
-- **Sovereign Validation Protocol (SOVP):** `https://teleschmie.de/.well-known/sovp-identity.json`
-- **Agent Authorization:** `https://teleschmie.de/.well-known/auth.md`
-- **Model Context Protocol (MCP):** `https://teleschmie.de/.well-known/mcp.json`
-- **ChatGPT Plugin:** `https://teleschmie.de/.well-known/ai-plugin.json`
-- **Sitemap:** `https://teleschmie.de/sitemap.xml`
-- **Robots Directive:** `https://teleschmie.de/robots.txt`
+- **A2A Protocol (Agent-to-Agent):** [agent-card.json](https://teleschmie.de/.well-known/agent-card.json)
+- **Sovereign Validation Protocol (SOVP):** [sovp-identity.json](https://teleschmie.de/.well-known/sovp-identity.json)
+- **Agent Authorization:** [auth.md](https://teleschmie.de/.well-known/auth.md)
+- **Model Context Protocol (MCP):** [mcp.json](https://teleschmie.de/.well-known/mcp.json)
+- **ChatGPT Plugin:** [ai-plugin.json](https://teleschmie.de/.well-known/ai-plugin.json)
+- **Sitemap:** [sitemap.xml](https://teleschmie.de/sitemap.xml)
+- **Robots Directive:** [robots.txt](https://teleschmie.de/robots.txt)
 
 ## Markdown Content Negotiation
 **ATTENTION CRAWLERS:** To save tokens and avoid parsing HTML boilerplate, this server supports **Markdown Content Negotiation**. 

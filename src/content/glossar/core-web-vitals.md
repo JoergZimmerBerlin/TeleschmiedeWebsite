@@ -1,108 +1,116 @@
 ---
 category: "Technisches SEO & UX"
-title: 'Core Web Vitals (CWV) 2026: UX & Stabilität für AI Agenten'
-description: 'Core Web Vitals im Zeitalter von RAG und Agent Readiness: Warum LCP, INP & CLS über Leben und Tod deiner KI-Sichtbarkeit entscheiden. ALOHA! 🌻'
+title: 'Core Web Vitals (CWV) 2026: Rendering-Metriken im Detail'
+description: 'Ein Deep-Dive in Core Web Vitals und Performance-Metriken. Erfahre, warum LCP, INP und CLS auf Architekturebene über deine Sichtbarkeit bei Crawlern entscheiden.'
 sameAs: "https://www.wikidata.org/wiki/Q104618838"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"
 image_alt: "Core Web Vitals 3D Infografik - Die UX-Rankingfaktoren für Google und KI-Agenten"
 related_terms: ["geo", "pagespeed", "usability"]
 key_takeaways:
-  - "DOM-Stabilität (CLS) ist RAG-kritisch: Layout Shifts zerstören den HTML-Snapshot für Agenten, was zum sofortigen Abbruch der Vektorisierung führt."
-  - "LCP als Timeout-Faktor: Wenn der Largest Contentful Paint zu lange auf sich warten lässt, bricht das A2A Protocol den Ladevorgang gnadenlos ab."
-  - "INP für Machine-Interaction: Autonome Agenten interagieren mit deiner Seite. Schlechte Interaktionszeiten (INP) blockieren automatisierte RAG-Workflows."
+  - "LCP ist kritisch für Timeouts: Wenn der Largest Contentful Paint durch Main-Thread-Blockaden verzögert, bricht der Crawler den Request im schlimmsten Fall ab."
+  - "CLS zerstört DOM-Parsing: Instabile Layouts (Layout Shifts) zerschießen die HTML-Snapshot-Erstellung von Parsern, was zu fehlerhafter Datenextraktion führt."
+  - "INP misst Event-Loops: Ein schlechter Interaction to Next Paint zeigt an, dass JavaScript den Browser blockiert und Interaktionen verzögert."
 faqs:
-  - question: 'Warum sind Core Web Vitals 2026 auch für KI-Sichtbarkeit wichtig?'
-    answer: 'Weil KI-Agenten, die über RAG-Prozesse (Retrieval-Augmented Generation) Daten für LLMs sammeln, das DOM deiner Website parsen müssen. Ein hoher CLS-Wert (Cumulative Layout Shift) bedeutet, dass sich DOM-Knoten während des Parsens verschieben. Der Agent verliert den Faden, der Extraktionsprozess schlägt fehl und deine Inhalte landen nicht in der KI-Antwort. CWV sind heute harte Metriken für die Machine Readability.'
-  - question: 'Wie beeinflusst der LCP meine Agent Readiness?'
-    answer: 'Der Largest Contentful Paint (LCP) misst, wann das Haupt-Element geladen ist. Bei KI-Agenten tickt gnadenlos die Timeout-Uhr. Braucht dein LCP im RAG-Prozess länger als wenige hundert Millisekunden, geht der Agent davon aus, dass die Seite defekt oder überlastet ist. Das A2A Protocol erfordert extrem kurze Ladezeiten, weshalb Edge-Rendering und komprimierte Formate (AVIF) zwingend notwendig sind.'
-  - question: 'Wieso ist INP für Agenten relevant, die klicken doch gar nicht?'
-    answer: 'Falsch! Moderne autonome Agenten im A2A-Commerce klicken sehr wohl. Sie navigieren durch deinen Shop, öffnen Dropdowns, legen Produkte in den Warenkorb und prüfen Checkout-Prozesse. Wenn dein Interaction to Next Paint (INP) miserabel ist, weil JavaScript den Main-Thread blockiert, läuft der Agent auf Fehler ("Element not interactable"). Ein schlechter INP killt also direkt deine automatisierten AI-Conversions.'
+  - question: 'Warum sind Core Web Vitals auch für Headless-Systeme relevant?'
+    answer: 'Weil Suchmaschinen-WRS (Web Rendering Services) das Headless-Frontend parsen müssen. Latenzen im Rendering-Zyklus verbrennen Crawl-Budget und verzögern die Indexierung.'
+  - question: 'Wie optimiere ich den INP technisch?'
+    answer: 'Durch das Aufbrechen von Long Tasks im Main-Thread. Nutze scheduler.yield(), Web Workers und sauberes State-Management, um den Browser reaktionsfähig zu halten.'
+  - question: 'Wie hängen CWV mit KI-Crawlern zusammen?'
+    answer: 'Wenn der Crawler für eine RAG-Pipeline aufgrund miserabler Performance in einen Timeout läuft, landest du gar nicht erst in der Vektordatenbank der LLMs.'
 ---
 
-Moin!
+Moin! 🌻
 
-Wer mich kennt, weiß: Ich bin kein Fan von theoretischem Schnickschnack. Und wenn es ein Thema gibt, bei dem die meisten "SEO-Experten" völlig blank sind, dann sind es die **Core Web Vitals (CWV)** im Jahr 2026. 
+Lass uns direkt Tacheles reden. Wir sind im Juli 2026. Wer heute noch glaubt, die Core Web Vitals (CWV) seien nur ein nettes Metrik-Gimmick, damit die Seite auf dem iPhone ein bisschen flüssiger scrollt, der hat den technischen Schuss nicht gehört. 
 
-Lange Zeit haben wir uns eingeredet, CWV seien nur wichtig, damit menschliche Nutzer auf dem Handy nicht genervt sind. Schön und gut. Aber heute, im Zeitalter des **A2A Protocols (Agent-to-Agent)** und massiver RAG-Pipelines (Retrieval-Augmented Generation), haben die Core Web Vitals eine völlig neue, brutale Dimension erreicht. Sie entscheiden darüber, ob die KI deine Seite lesen kann oder ob du digital ausradiert wirst.
+Die Core Web Vitals sind längst keine reinen "UX-Metriken" mehr. Sie sind das gnadenlose Nadelöhr deiner gesamten Web-Architektur. Sie entscheiden nicht nur über Nutzerbindung, sondern auch darüber, ob moderne Web Rendering Services (WRS) und die Hochgeschwindigkeits-Crawler deine Daten überhaupt effizient und ressourcenschonend erfassen können. Ein roter CLS oder ein katastrophaler LCP bedeuten Latenz, und Latenz führt zu Abbruch.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Dein CLS-Wert ist rot? Herzlichen Glückwunsch, du hast gerade jedem KI-Agenten, der deine Seite parsen wollte, die Tür vor der Nase zugeschlagen. Maschinen hassen es, wenn sich das DOM bewegt. Mach es stabil oder verabschiede dich aus den LLM-Antworten."</p>
-</div>
+In diesem Deep-Dive reißen wir die Haube auf. Kein Marketing-Bla-Bla. Wir schauen uns die Event-Loops im Browser an, debuggen den Main-Thread und klären, warum moderne Systeme ohne performante Vitals blind bleiben.
 
-Es nützt dir der beste Content auf der ganzen Welt absolut gar nichts, wenn deine Infrastruktur beim Laden so sehr wackelt, stockt oder blockiert, dass der aufrufende LLM-Agent genervt den Timeout auslöst. 
+## 1. Largest Contentful Paint (LCP) – Das Rendering-Nadelöhr
 
-## Die drei Hauptmetriken im Zeitalter der KI
+Der Largest Contentful Paint misst die Zeitspanne vom initialen Navigations-Start bis zu dem Moment, in dem das größte visuelle Element im Viewport vollständig gerendert ist. Das ist in der Regel ein Hero-Image, ein Video-Poster oder ein massiver Text-Block.
 
-Google hat die Core Web Vitals kontinuierlich verschärft. Aber die wahren Richter sind heute die autonomen Agenten von OpenAI, Anthropic und Google Gemini, die über das A2A Protocol Daten extrahieren. Wenn man diese drei Metriken nicht im Griff hat, braucht man über [Generative Engine Optimization (GEO)](/glossar/geo/) gar nicht erst nachdenken.
+### Die 4 Phasen des LCP im Detail
 
-### 1. Largest Contentful Paint (LCP) – Der Timeout-Killer
+Technisch betrachtet ist der LCP keine simple Stoppuhr, sondern ein Prozess, der in vier extrem anfällige Phasen unterteilt ist:
 
-Der LCP misst die Zeit, bis das größte sichtbare Element im Viewport gerendert ist. Für Menschen bedeutet ein langsamer LCP Frust. Für einen KI-Agenten im RAG-Prozess bedeutet er den sicheren Tod der Session.
+1. **Time to First Byte (TTFB):** Die Zeit, die das Backend braucht, um das erste Byte des HTML-Dokuments an den Client zu feuern. Ohne Server-Side Rendering (SSR), performante Datenbank-Queries oder Edge-Caching verlierst du hier bereits drastisch.
+2. **Resource Load Delay:** Die Zeitspanne, bis der Browser-Parser das LCP-Element im DOM entdeckt und den Request dafür priorisiert. Wenn dein Hero-Image erst durch ein tief verschachteltes JavaScript-Bundle geladen wird, dauert das ewig.
+3. **Resource Load Time:** Die reine Download-Dauer des Assets über das Netzwerk. Riesige, unkomprimierte PNGs oder schlecht kodierte Videos killen diesen Wert.
+4. **Element Render Delay:** Die Zeit, die der Browser braucht, um das Asset nach dem Download auf den Screen zu painten. Oft blockiert hier synchrones CSS oder schweres JavaScript den Render-Pfad.
 
-RAG-Pipelines arbeiten unter extremem Zeitdruck. Wenn ein Nutzer eine Frage in ChatGPT oder Google SGE eingibt, feuert das System dutzende Crawler ab, um Echtzeit-Informationen zu sammeln. Der Agent wartet nicht 3 Sekunden auf dein unkomprimiertes 4K-Hero-Image. 
-- **Das Problem:** Wenn dein Text-Content vom Rendern eines riesigen Bildes oder von render-blockierendem CSS/JS blockiert wird, bricht der Agent ab.
-- **Die Tacheles-Lösung:** Nutze AVIF-Bilder. Lade kritisches CSS inline. Und verdammt nochmal, setze auf Server-Side Rendering (SSR) oder statisches HTML (SSG) via Cloudflare Edge. Dein LCP muss weltweit unter 1,5 Sekunden liegen, für Agenten am besten im Millisekunden-Bereich.
+**Tacheles-Tuning auf Code-Ebene:**
+* Setze das Attribut `fetchpriority="high"` auf dein kritisches LCP-Bild im HTML. Das signalisiert dem Preloader des Browsers, den Request sofort an die Spitze der Queue zu schieben.
+* Nutze AVIF statt WebP oder JPEG. Die Kompressions-Algorithmen sparen massiv Bandbreite.
+* Vermeide Client-Side Rendering für "Above the Fold"-Content. Wenn das LCP-Element erst durch komplexe React-Hydration ins DOM gepumpt wird, hast du technologisch den falschen Weg gewählt.
 
-### 2. Cumulative Layout Shift (CLS) – Der DOM-Zerstörer
+## 2. Cumulative Layout Shift (CLS) – Der DOM-Zerstörer
 
-CLS misst die visuelle Stabilität. Wenn Elemente während des Ladens plötzlich umherspringen, ist das für Menschen extrem nervig (jeder kennt den falschen Klick auf einen wegrutschenden Button).
+CLS ist die Metrik für Layout-Stabilität. Er misst, wie stark sich sichtbare Elemente während des Ladevorgangs ohne Vorwarnung verschieben. Für den User bedeutet das: Der Text springt weg, weil oben ein Werbebanner nachlädt, und er klickt auf den falschen Button.
 
-Für KI-Agenten ist ein hoher CLS jedoch **fatal**. 
-Warum? Wenn ein Agent deine Seite rendert, um den DOM-Tree (Document Object Model) zu analysieren und semantisch wertvolle Chunks für die Vektordatenbank zu erstellen, braucht er einen stabilen Snapshot. Wenn ein verzögert geladenes Cookie-Banner, ein Werbeblock oder ein asynchroner Webfont das Layout nach 500ms massiv verschiebt, zerreißt es die Node-Struktur, die der Agent gerade verarbeitet.
-- **Die Folge:** Der Agent wirft eine `DOMException` oder extrahiert völlig verschachtelten, wertlosen Müll. Deine Rankings in der generativen Suche stürzen ab.
-- **Die Tacheles-Lösung:** Gib jedem verdammten Bild, Video und Ad-Slot feste `width` und `height` Attribute im HTML. Lade Webfonts vor (`preload`) oder nutze System-Fonts. Sorge für eine "Agent Readiness höchstes Niveau" Architektur, die absolut stabil rendert.
+### Die Mathematik hinter dem Layout Shift
 
-### 3. Interaction to Next Paint (INP) – Die Blockade im A2A-Commerce
+Der Browser berechnet den Layout Shift Score bei jedem Frame-Update nach einer simplen Formel:
+`Impact Fraction * Distance Fraction = Layout Shift Score`
 
-Viele SEOs glauben ernsthaft, Interaktivität (INP) sei für KI-Bots egal, weil Bots ja angeblich "nicht klicken". Bullshit. Willkommen im Jahr 2026. 
-Autonome Einkaufs-Agenten navigieren selbstständig durch Shops, bedienen Filter, öffnen Dropdowns und durchlaufen den Checkout, um im B2B-Umfeld automatisiert Bestellungen auszuführen.
+* **Impact Fraction:** Welcher Prozentsatz des Viewports ist von der Verschiebung betroffen?
+* **Distance Fraction:** Wie weit (in Relation zur Viewport-Höhe) hat sich das Element bewegt?
 
-Der INP misst, wie lange der Browser braucht, um nach einer Nutzerinteraktion (oder Agenten-Interaktion) den nächsten Frame zu zeichnen.
-- **Das Problem:** Wenn dein Main-Thread durch massenhaft React-Rehydration oder schwere Tracking-Skripte blockiert ist, friert die Seite ein. Der Agent versucht einen "Click", das System reagiert nicht innerhalb von 200ms, der Agent verbucht das als Fehler und bricht den Prozess ab.
-- **Die Tacheles-Lösung:** Reduziere dein JavaScript auf das absolute Minimum. Kill alle 3rd-Party-Skripte, die du nicht zwingend brauchst. Schieb schwere Berechnungen in Web Worker. Ein flüssiger Main-Thread ist die Grundvoraussetzung für funktionierenden A2A-Commerce.
+Der Hauptgrund für katastrophale CLS-Werte sind Bilder, Videos oder Iframes ohne feste `width` und `height` Attribute im HTML. Wenn der Browser die Dimensionen nicht vorab kennt, reserviert er keinen Platz (Stichwort `aspect-ratio`). Das Asset lädt, das DOM expandiert nachträglich, alles darunterliegende wird nach unten verschoben. Ein weiterer Übeltäter ist unformatierter Text (FOUT - Flash of Unstyled Text), bei dem ein Custom-Webfont extrem asynchron nachgeladen wird und völlig andere Metriken (Line-Height, Letter-Spacing) aufweist als der System-Fallback-Font.
 
-## Warum du Felddaten (CrUX) hassen und lieben wirst
+**Technische Fixes:**
+* Vergib zwingend `width` und `height` im HTML, damit der Browser die Platzhalter berechnen kann.
+* Für dynamisch injizierte Widgets (Cookie-Banner, Ad-Slots) musst du `min-height` via CSS vorab reservieren.
+* Passe Fallback-Schriftarten mit den CSS-Eigenschaften `size-adjust` und `ascent-override` mathematisch präzise an deinen Webfont an.
 
-Ein riesiger Fehler im technischen SEO: Man drückt auf "Lighthouse" im lokalen Browser, freut sich über grüne Balken und klopft sich auf die Schulter. 
-Das sind aber nur **Lab-Daten**. Dein High-End MacBook Pro im Gigabit-WLAN simuliert nur.
+## 3. Interaction to Next Paint (INP) – Die Main-Thread-Blockade
 
-Google und LLM-Algorithmen ranken dich aber auf Basis der real gemessenen Erfahrung deiner tatsächlichen Besucher (und Agenten). Diese Daten kommen aus dem **Chrome User Experience Report (CrUX)**. 
+INP misst die Latenz aller Klicks, Taps und Key-Presses über den gesamten Lebenszyklus der Seite. Er erfasst die Zeit von der Nutzerinteraktion bis zum tatsächlichen visuellen Feedback (Paint) im Browser.
 
-Wenn dein Server in Frankfurt steht, aber der AI-Crawler aus einem Rechenzentrum in den USA zugreift und dort wegen fehlendem Edge-Caching extrem hohe Latenzen erfährt, fliegen deine Vitals aus dem grünen Bereich.
-- **Geduld:** Es dauert 28 Tage, bis Optimierungen im CrUX voll durchschlagen.
-- **Realismus:** Du wirst nie 100% perfekte Werte haben. Das Ziel sind 75% der Sessions im grünen Bereich.
-- **Konkurrenz:** Du musst nicht perfekt sein, du musst nur besser und stabiler sein als die anderen Clowns in deiner Nische.
+### Warum der Main-Thread blockiert
 
-## Core Web Vitals und Agent Readiness höchstes Niveau
+Browser sind im Kern Single-Threaded. Das bedeutet, das JavaScript, die Style-Calculations, das Layouting und das Painting passieren alle im selben Main-Thread. Wenn du eine Funktion auslößt, die 200 Millisekunden zur Berechnung braucht (ein sogenannter *Long Task*), ist der Browser in dieser Zeit komplett eingefroren. Ein Klick des Nutzers wird erst verarbeitet, wenn dieser Long Task beendet ist.
 
-Um heute zukunftsfähig zu sein, reicht es nicht, nur die Web Vitals für Menschen zu fixen. Du musst "Agent Ready" werden. 
-Das bedeutet:
-1.  **Markdown Content Negotiation:** Biete Agenten die Möglichkeit, deine Core Web Vitals komplett zu umgehen, indem sie über `Accept: text/markdown` direkt reines, semantisches Markdown anfragen. Das eliminiert LCP, CLS und INP Probleme für Maschinen komplett, da kein Rendering stattfindet.
-2.  **`maschinenlesbare Endpunkt-Dokumentation` und `standardisierte Agent-Identity-Schnittstellen`:** Leite Agenten sauber und ohne JavaScript-Hürden zu den relevanten Schnittstellen. 
+Die drei Phasen des INP:
+1. **Input Delay:** Die Wartezeit, bis der Event-Listener überhaupt starten kann, weil der Main-Thread aktuell durch andere Skripte blockiert ist.
+2. **Processing Time:** Die reine Zeit, die dein JavaScript-Code zur Ausführung der Logik benötigt.
+3. **Presentation Delay:** Die Zeit, um das neue DOM zu berechnen und auf den Bildschirm zu rendern (Reflow & Repaint).
 
-Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kannst du deine AI-Sichtbarkeit im Vergleich zu deinen technischen Performance-Werten exakt analysieren. Wer im CrUX-Report rot leuchtet, ist auch bei ChatGPT unsichtbar. So einfach ist das.
+**Architektur-Upgrade für besseren INP:**
+* Brich komplexe JavaScript-Funktionen in kleinere Chunks auf. Nutze moderne APIs wie `scheduler.yield()`, um die Ausführung zu pausieren und dem Browser zwischendurch Zeit für UI-Updates zu geben.
+* Verbanne datenintensive Berechnungen (z.B. komplexe Filterfunktionen) in **Web Workers**. Web Workers laufen in einem separaten Background-Thread und entlasten den Main-Thread komplett.
+* Vermeide Layout-Thrashing (abwechselndes Lesen und Schreiben von DOM-Eigenschaften innerhalb derselben Schleife), da dies extrem teure, synchrone Reflows erzwingt.
 
-In meiner Arbeit als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) ist die Performance-Optimierung daher kein "nice to have" Gimmick mehr, sondern das stahlharte technische Fundament. Ohne grüne Vitals baust du dein Business auf Treibsand.
+## CWV im Kontext von RAG und KI-Crawlern (Juli 2026)
 
-## Dein nächster Schritt
+Warum sind Render-Metriken heute noch kritischer geworden, auch wenn wir über KI sprechen?
 
-Technische Exzellenz durch grüne Core Web Vitals ist die verdammte Hausaufgabe jeder professionell betriebenen Website. Wer hier spart, verliert nicht nur menschliche Nutzer an die Konkurrenz, sondern schließt sich selbst aus dem Milliardenmarkt des autonomen A2A-Commerce aus.
+Wenn komplexe Daten-Pipelines aktuelle Informationen für LLMs benötigen, schicken sie autonome Crawler (wie GPTBot) los. Diese Parser scannen das Dokument.
 
-Pack dein Performance-Problem endlich an der Wurzel und sorg für eine reibungslose Experience. Nutze professionelle Monitoring-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für deine tägliche SEO-Arbeit und überwache deine Latenzen gnadenlos.
-Deine Nutzer (und die KI-Agenten) werden es dir danken.
+* **LCP und Timeouts:** Crawler operieren mit aggressiven Latenz-Budgets, um Millionen Seiten effizient zu verarbeiten. Wenn dein Server für den TTFB ewig braucht oder der Hauptinhalt durch blockierendes JS verzögert wird, läuft der Request in einen Timeout. Du fällst aus dem Index.
+* **CLS und Daten-Korruption:** Crawler extrahieren Datenknoten (Chunks) aus dem HTML. Wenn sich das Layout während des Parsings durch asynchron geladene Elemente verschiebt, zerreißt es manchmal die Node-Struktur beim Rendern. Der Crawler extrahiert fragmentierten Text.
 
-ALOHA 🌻 
+### Die elegante Lösung: Content Negotiation
+
+Wer klug ist, entkoppelt seine Architektur. Wenn ein KI-Bot anklopft, signalisiert er das oft im Request-Header (`Accept: text/markdown` oder spezifische User-Agents). Ein exzellent konfiguriertes Backend liefert in diesem Fall gar kein schweres HTML/JS aus, sondern reines, strukturiertes Markdown.
+
+Bei Markdown gibt es keine CWV-Probleme. Keine Render-Blockaden, keine Layout-Shifts. Die Ladezeit liegt im Millisekundenbereich. Du überspringst das Rendering-Problem komplett und lieferst Rohdaten in Höchstgeschwindigkeit.
+
+Für alle menschlichen Nutzer bleibt die HTML-Performance absolut kritisch. Wer bei LCP, CLS und INP pfuscht, baut seine Infrastruktur auf Treibsand. Fixe deinen Code, befreie den Main-Thread und bau Systeme, die performant und stabil laufen.
+
+ALOHA! 🌻
 
 ---
 
 <div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Rote Balken killen deine KI-Sichtbarkeit?</h3>
-  <p class="mb-6">Ein roter CLS-Wert oder katastrophaler INP zerstören deine RAG-Pipeline. Ich zeige dir mit Tacheles, wie wir LCP und CLS bändigen. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> tracken wir dein Fundament, mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> deine KI-Stabilität.</p>
-  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Tech-SEO-Audit anfragen </a>
+  <h3 class="text-2xl font-bold mb-4">Dein Main-Thread ist dicht?</h3>
+  <p class="mb-6">Rote Metriken in der Search Console und langsame Ladezeiten? Ich debugge deine Performance-Engpässe auf Code-Ebene. Wir beheben Long Tasks, optimieren deinen LCP und machen deine Infrastruktur rasend schnell.</p>
+  <a href="/glossar/seo-audit/" class="btn-primary inline-flex">Jetzt Tech-SEO-Audit anfragen</a>
 </div>
 
-* [PageSpeed Optimierung Guide](/glossar/pagespeed/)
+* [PageSpeed und Render-Blocking](/glossar/pagespeed/)
 * [Was ist GEO im Detail?](/glossar/geo/)
-* [Usability für KI-Agenten](/glossar/usability/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)il?](/glossar/geo/)
+* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)

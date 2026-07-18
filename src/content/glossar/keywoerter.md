@@ -1,104 +1,112 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'Keywörter (Keywords): Von stumpfen Text-Strings zu intelligenten Entitäten'
-description: 'Keywords waren gestern. Im Jahr 2026 sprechen wir über Entitäten, Search Query Fanout und Agent Readiness. So baust du KI-optimierten Content.'
+title: 'Keywörter (Keywords): Von Text-Strings zu semantischen Vektoren'
+description: 'Keywords 2026: Warum das Zählen von Zeichenketten tot ist und wie du durch Vektoren, Entitäten und Search Query Fanout echte Relevanz aufbaust.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"
 related_terms: ["suchvolumen", "keyword-tool", "keywordrecherche"]
 key_takeaways:
-  - "Vom String zur Entität: Ein Keyword ist nur ein Wort. Eine Entität ist ein Konzept mit Eigenschaften und Beziehungen. KI-Modelle suchen Entitäten."
-  - "Search Query Fanout: Ein einzelnes Keyword explodiert in den KI-Antworten in hunderte spezialisierte Mikro-Intents. Du musst den gesamten Baum bedienen."
-  - "Agent Readiness: Deine Keywörter müssen in maschinenlesbaren Strukturen (JSON-LD, Agent-Cards) eingebettet sein, damit autonome KI-Agenten sie verarbeiten können."
+  - "Strings sind tot: Suchmaschinen und LLMs verarbeiten keine isolierten Wörter mehr, sondern semantische Vektoren und Entitäten."
+  - "TF-IDF und WDF*IDF als Basis: Verstehe die mathematische Relevanz von Begriffen im Korpus, statt stumpf Fokus-Keywords zu spammen."
+  - "Search Query Fanout: Antizipiere, wie KI-Modelle einfache Suchanfragen in komplexe, hochspezifische Mikro-Intents auffächern."
 faqs:
   - question: 'Haben klassische Keywords in der SEO-Welt 2026 überhaupt noch Relevanz?'
-    answer: 'Als starre Textbausteine: Nein. Keyword-Stuffing ist tiefstes Mittelalter. Aber als Ankerpunkte für Entitäten und als Startpunkt für den Search Query Fanout sind sie unverzichtbar. Sie fungieren heute als Signalfackeln, die Google, Perplexity und autonomen LLM-Agenten den dahinterliegenden Suchintent (die Absicht des Nutzers) verraten. Ein Begriff zeigt den Weg, aber am Ende rankt die Seite, die den thematischen Kontext als maschinenlesbare Entität am besten bedient.'
-  - question: 'Was bedeutet Search Query Fanout für meine alten SEO-Texte?'
-    answer: 'Dass sie wahrscheinlich massiv an Traffic verlieren. Früher hat ein Text für "Hundefutter" gereicht. Heute fächert die KI die Suchanfrage (Fanout) sofort in "Getreidefreies Hundefutter für Allergiker", "Barfen vs. Trockenfutter" etc. auf. Wenn deine alten Texte diese aufgefächerten Intents nicht in semantischen Clustern abdecken, werden sie von KI-Suchmaschinen in den AI Overviews ignoriert.'
-  - question: 'Was ist Agent Readiness und wie hilft mir das bei Keywörtern?'
-    answer: 'Agent Readiness bedeutet, dass deine Website nicht nur für menschliche Browser, sondern für autonome KI-Agenten gebaut ist (höchstes Niveau nach Cloudflare Radar). Keywörter sind dabei nur die Spitze des Eisbergs. Ein KI-Agent sucht nach strukturierten Daten, einer maschinenlesbare Endpunkt-Dokumentation und maschinenlesbaren APIs. Wenn du ein "Keyword" bedienen willst, musst du es als Entität für diese Agenten greifbar machen.'
+    answer: 'Als starre Textbausteine: Nein. Keyword-Stuffing ist längst Geschichte. Aber als Ankerpunkte für Entitäten und als Startpunkt für den Search Query Fanout sind sie unverzichtbar. Sie fungieren als Signalfackeln, die den Algorithmen und LLMs den dahinterliegenden Suchintent verraten.'
+  - question: 'Was ist der Search Query Fanout?'
+    answer: 'Früher hat ein Text für ein generisches Keyword gereicht. Heute fächert die KI die Suchanfrage (Fanout) sofort in hochspezifische Intents auf. Eine generische Suche nach "Hundefutter" wird zu "Getreidefreies Hundefutter für Allergiker". Deine Inhalte müssen diesen Baum semantisch abdecken.'
+  - question: 'Wie optimiere ich meine Texte heute technisch sauber?'
+    answer: 'Durch den Aufbau eines semantischen Netzwerks. Nutze klare Hierarchien, decke Co-Occurrences (Begriffe, die im gleichen Kontext häufig auftreten) ab und strukturiere Daten so, dass sie für KI-Agenten und Vektordatenbanken optimal greifbar sind.'
 ---
 
 Moin! 🌻
 
-Reden wir Klartext. Wer im Juli 2026 noch Artikel schreibt, nur um ein "Keyword" in bestimmten Prozentzahlen im Text unterzubringen, der hat den Schuss nicht gehört. Wir leben in einer Welt von generativer KI, von Large Language Models (LLMs) und autonomen Agenten. Wer heute noch stur Keywörter zählt, wird von der KI nicht nur ignoriert, sondern aktiv abgestraft.
+Reden wir Klartext. Wer im Jahr 2026 noch Texte schreibt, um ein "Keyword" in bestimmten Prozentzahlen (Keyword-Density) im Text unterzubringen, betreibt SEO auf dem Niveau von 2012. Das ist nicht nur ineffizient, es ist für deine Sichtbarkeit schlichtweg toxisch. Wir leben in einer Welt von Natural Language Processing (NLP), Vektordatenbanken und autonomen KI-Agenten. Wer heute noch stur Buchstabenfolgen in H1-Überschriften quetscht, hat die fundamentale Architektur moderner Informationsbeschaffung nicht verstanden.
+
+Ein Keyword ist heute kein plumpes Text-Match mehr. Es ist ein Vektor im semantischen Raum. Wir optimieren nicht mehr für dumme Zeichenketten (Strings). Wir optimieren für Dinge, Konzepte und deren mathematische Beziehungen zueinander. Wir optimieren für RAG-Pipelines.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wer nur sinnlos Keywords in Texte ballert, ist längst von der KI ersetzt worden. Wer hingegen Entitäten versteht, den Search Query Fanout dominiert und seine Website Agent-Ready macht, der baut einen Burggraben, den keine billige Content-KI jemals überwinden kann."</p>
+  <p class="italic text-dark mb-0">"Wer nur sinnlos Keywords in Texte ballert, wird von modernen Algorithmen als Spam klassifiziert. Wer hingegen die semantischen Vektoren versteht und den Search Query Fanout dominiert, baut einen Architektur-Burggraben auf, den keine oberflächliche Content-KI jemals überwinden kann."</p>
 </div>
 
-Ein Keyword ist heute kein plumpes Text-Match mehr. Es ist der Startpunkt einer gigantischen semantischen Explosion. Wir optimieren nicht mehr für dumme Zeichenketten. Wir optimieren für Entitäten und KI-Vektorräume.
+## Die Evolution: Vom String zum Vektor
 
-## Die Evolution: Vom Keyword zur Entität
+Um zu verstehen, wie wir heute arbeiten, müssen wir kurz in den Maschinenraum der Suchalgorithmen blicken.
 
-Lange Zeit dachten SEOs und Texter: Wenn ich "Gartenschlauch" 15 Mal in den Text schreibe, weiß Google, worum es geht. Das war die Ära der Strings (Zeichenketten).
+Lange Zeit dachten SEOs und Texter: Wenn ich "Gartenschlauch" 15 Mal in den Text schreibe, weiß der Crawler, worum es geht. Die Algorithmen nutzten damals primär *Lexical Matching* – sie suchten nach der exakten Zeichenkette. Das funktionierte, war aber extrem anfällig für Manipulation.
 
-Heute sind wir in der Ära der Dinge ([Entitäten](/glossar/entitaet/)). Eine Suchmaschine wie Google (gestützt durch KI wie Gemini) oder Perplexity liest das Wort "Gartenschlauch" nicht als Wort. Sie erkennt die Entität "Schlauchsystem", ordnet sie der Über-Entität "Gartenbewässerung" zu und erwartet sofort Beziehungen zu anderen Entitäten wie "Wasserdruck", "Anschlüsse", "Material" (z.B. PVC oder Gummi) und "Länge".
+Heute nutzen Google und alle modernen KI-Systeme (wie GPT-4 oder Claude) *Semantic Matching* und *Vector Embeddings*. Ein Wort wird in einen hochdimensionalen Raum übersetzt. Die KI liest "Gartenschlauch" und aktiviert sofort ein Netzwerk an verwandten Konzepten: Wasserdruck, Gardena, PVC, Rasensprenger, Zoll-Anschlüsse. 
 
-Fehlen diese semantischen Nachbarn in deinem Text, ist dein Content in den Augen der KI wertlos. Ein modernes "Keyword" ist also nichts anderes als das Zentrum eines semantischen Netzwerks. Wenn du ein Keyword targeten willst, musst du das gesamte Netzwerk abbilden.
+Wenn du das Keyword "Gartenschlauch" nutzt, aber diese semantischen Nachbarn (Co-Occurrences) in deinem Text komplett fehlen, erkennt die Maschine sofort: Dieser Text hat keine inhaltliche Tiefe. Es ist oberflächlicher Spam. Die algorithmische Konfidenz sinkt, dein Ranking kollabiert und KI-Agenten ignorieren dich. 
 
-## Willkommen im Search Query Fanout
+Die Konsequenz: Arbeite nicht mit Keyword-Listen, sondern mit Entitäten-Graphen. Jeder Text muss eine logische, maschinenlesbare Matrix aus zusammengehörigen Konzepten sein.
 
-Das zweite massive Paradigma im Jahr 2026 ist der **Search Query Fanout**. Früher gab es ein Keyword und eine Suchergebnisseite. Sehr linear.
+### WDF*IDF: Die Mathematik der Relevanz
+Auch wenn der Begriff WDF*IDF (Within Document Frequency * Inverse Document Frequency) schon älter ist, die Mathematik dahinter ist das Fundament der modernen Text-Architektur. Es berechnet nicht, wie oft dein Haupt-Keyword vorkommt, sondern wie sich alle Wörter deines Textes im Verhältnis zu allen anderen Dokumenten im Web verhalten.
+Es geht darum, die *Proof-Keywords* und *Terme* zu verwenden, die ein echter Experte bei diesem Thema zwingend nutzen würde. Ein Fachartikel über "SEO" *muss* Begriffe wie "Crawling", "Indexierung", "Algorithmus" und "Backlinks" enthalten, um im Vektorraum algorithmische Relevanz zu erzielen. Moderne Tools werten dies in Echtzeit gegen die Top-Rankings der RAG-Modelle aus.
 
-Heute gibt ein Nutzer (oder sein KI-Assistent) einen Begriff ein, und die Suchmaschine fächert diese einzelne Anfrage sofort auf (Fanout). Eine generische Suche nach "SEO Strategie" wird von der generativen Engine in Echtzeit zerlegt in:
+## Der Search Query Fanout: Das Ende der eindimensionalen Suche
+
+Das zweite massive Paradigma der KI-Ära ist der **Search Query Fanout**. Früher gab es ein Keyword und eine Suchergebnisseite. Sehr linear. Ein Problem, eine Liste.
+
+Heute gibt ein Nutzer einen Begriff in ein LLM ein, und die Suchmaschine fächert diese einzelne Anfrage sofort auf (Fanout). Das ist besonders bei generativen KI-Antworten (AI Overviews) essenziell. 
+Eine Suche nach "SEO Strategie" wird von der Engine in Echtzeit in messerscharfe Micro-Intents zerlegt:
 *   "SEO Strategien für B2B SaaS"
-*   "Die Rolle von Entitäten in der SEO"
-*   "KI und GEO Strategien 2026"
+*   "Die Rolle von technischer Architektur in der SEO"
 *   "Local SEO vs. International SEO"
 
-Die Suchmaschine baut eine multidimensionale Antwort-Matrix. Dein einzelnes, stumpfes Fokus-Keyword ist völlig nutzlos, wenn dein Content nicht tief genug ist, um in diesen aufgefächerten Ästen (Intents) stattzufinden. Wer OnPage-SEO betreibt, muss den Fanout antizipieren und seine Texte in modularen, hochspezifischen Content-Blöcken aufbauen.
+Die KI baut eine multidimensionale Antwort-Matrix. Dein einzelnes Fokus-Keyword ist nutzlos, wenn dein Content nicht tief genug strukturiert ist, um diese aufgefächerten Äste (Intents) abzudecken. Du musst deinen Text in granularen, messerscharf fokussierten Modulen (Sections) aufbauen, die jeweils exakt einen dieser Micro-Intents bedienen und für RAG-Modelle (Retrieval-Augmented Generation) perfekt extrahierbar sind. Jeder Abschnitt muss als eigenständiges Micro-Dokument im Vektorraum existieren können.
 
-## Agent Readiness: So lesen KIs deine "Keywords"
+## Intent-Kategorisierung: Die wahre Architektur
 
-Der größte Fehler, den Unternehmen heute machen, ist zu glauben, sie würden Inhalte nur für Menschen schreiben. Falsch. Ein gewaltiger Teil deines Traffics – und deiner potenziellen Leads – wird im Jahr 2026 von autonomen KI-Agenten gefiltert, gesucht und bewertet. Das ist das Prinzip der **Agent Readiness**.
+In der Praxis strukturieren wir Keywords und Themen knallhart nach ihrem Suchintent (User Intent). Wenn du den Intent verfehlst, kannst du das beste Semantic Matching der Welt haben – du wirst gnadenlos scheitern.
 
-Wenn ein KI-Agent das Web nach dem besten "Steuerberater für Krypto" scannt, sucht er nicht nach Keywords im H1-Tag. Er sucht nach maschinenlesbaren Signalen:
-1.  **Strukturierte Daten (JSON-LD):** Er will die Entitäten glasklar deklariert sehen. Wer bist du? Wo bist du? Welche Services bietest du an?
-2.  **A2A Protokolle:** Hast du eine `standardisierte Agent-Identity-Schnittstellen` oder eine `maschinenlesbare Endpunkt-Dokumentation`, die dem Agenten deine Fähigkeiten sofort verständlich macht?
-3.  **Vektor-Distanz:** Wie nah ist dein Text semantisch an dem, was das Trainingsmaterial des Agenten als "Wahrheit" oder "Expertenwissen" abgespeichert hat?
+1. **Informational (Informationsgetrieben):** Der Nutzer sucht nach Antworten. "Wie funktioniert ein Algorithmus?" Hier brauchst du tiefgreifende Fachartikel, Definitionen, Tabellen und klare Strukturen (z.B. ein sauberes FAQ-Schema.org). KIs lieben Fakten.
+2. **Navigational (Navigationsgetrieben):** Der Nutzer will zu einer spezifischen Seite. "Teleschmiede Login". Hier zählt nur die exakte Brand-Zuordnung und technische Eindeutigkeit.
+3. **Commercial Investigation (Kaufvorbereitend):** "Beste SEO Tools 2026". Der Nutzer vergleicht. Hier brauchst du harte Fakten, Gegenüberstellungen, Pros/Cons und neutrale Analysen. Vermeide Marketing-Fluff.
+4. **Transactional (Transaktionsgetrieben / Money Keywords):** "SEO Audit kaufen Berlin". Der Nutzer hat die Kreditkarte in der Hand. Hier brauchst du Landingpages, die blitzschnell konvertieren, klare Call-to-Actions und massive Trust-Elemente. Keine 3000-Wörter-Romane!
 
-Wenn du deine "Keywörter" nicht Agent-Ready verpackst, bist du für diese neue Generation von Web-Besuchern unsichtbar. Du bist ein analoges Faxgerät in einer digitalen Welt.
+Die größte Todsünde im modernen OnPage-SEO ist die **Intent-Dissonanz**. Du versuchst, einen transaktionalen Begriff ("Schuhe kaufen") mit einem informationalen Lexikon-Artikel abzufangen. Der Algorithmus sieht, dass die Nutzer abspringen (Pogo-Sticking), weil sie kaufen, nicht lesen wollen. Game over.
 
-## Kategorisierung im Fanout-Zeitalter
+## Keyword-Kannibalisierung vs. Intent-Kannibalisierung
 
-Nicht jede Entität bringt dir Umsatz. In meiner Praxis als [SEO Freelancer](/seo-freelancer-berlin/) und AIO-Berater strukturieren wir Themen knallhart nach ihrem Intent-Potenzial:
+Früher sprach man von Keyword-Kannibalisierung, wenn zwei Seiten auf dasselbe Wort optimiert waren. Heute sprechen wir von **Intent-Kannibalisierung**. 
+Wenn du fünf Unterseiten hast, die alle denselben semantischen Intent bedienen (z.B. "SEO Kosten", "SEO Preise", "Was kostet SEO"), machst du den Crawler wahnsinnig. Die Systeme wissen nicht, welche URL die kanonische Wahrheit (Ground Truth) darstellt und de-indexieren im Zweifel alle, um Duplikate im Vektorraum zu vermeiden.
 
-1.  **Das Entitäten-Zentrum (Ehemals Short-Tail):** Ein generischer Begriff (z.B. "SEO"). Hat unfassbar viel [Suchvolumen](/glossar/suchvolumen/), bringt dir aber allein gar nichts. Es dient nur als Gravitationszentrum für dein Themen-Cluster.
-2.  **Die Fanout-Äste (Ehemals Mid-Tail):** Der Intent wird klarer (z.B. "SEO Freelancer Berlin"). Hier beginnt die KI, spezifische Empfehlungen auszusprechen. Wer hier Autorität aufbaut, zieht hochqualifizierten Traffic in die RAG-Systeme der LLMs.
-3.  **Die Mikro-Intents (Ehemals Long-Tail):** Ganze Sätze, komplexe Fragen oder extrem spitze Phrasen (z.B. "Was kostet ein Agent-Ready SEO Audit für B2B SaaS?"). Hier liegt das verdammte Gold. Das Volumen ist gering, aber die [Conversion Rate](/glossar/conversion-rate/) geht durch die Decke, weil KI-Agenten diese spezifischen Antworten lieben und direkt an ihre Nutzer durchreichen.
+**Best Practice:** Bündle identische Intents auf einer einzigen, extrem starken Pillar-Page. Nutze 301-Redirects, um veraltete, redundante Seiten auf diesen neuen Hub umzuleiten. Bündle deine Kraft in einem massiven Knotenpunkt, statt sie zu zerstreuen!
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">⚠️ Profi-Tipp: Intent-Kannibalisierung killt Rankings</h4>
-  <p class="mb-0 text-sm">Früher sprach man von Keyword-Kannibalisierung. Heute ist es Intent-Kannibalisierung. Wenn du fünf Unterseiten hast, die alle dieselbe semantische Entität (denselben Intent) bedienen, machst du die KI wahnsinnig. Sie weiß nicht, welche Seite die kanonische Wahrheit ist, und ignoriert im Zweifel alle. Bündle verwandte Intents in umfassenden Hubs und verlinke sie logisch.</p>
-</div>
+## Keywords im Kontext der Juli 2026 AI-Modelle (LLM-Pipelines)
 
-## GEO (Generative Engine Optimization) und das Ende des "Blindflugs"
+Wie verarbeiten Large Language Models (LLMs) deine Keywords? Sie nutzen Tokenization. Dein gesamter Text wird in Token (Wortfragmente) zerlegt und in riesigen, 10.000-dimensionalen Vektorräumen verortet.
 
-Viele Unternehmen betreiben "Hope-based SEO". Sie schreiben Texte voller Keywords und hoffen auf Traffic. Das funktioniert 2026 nicht mehr.
+Um in den KI-Zusammenfassungen (AI Overviews) zitiert zu werden, musst du zwingend für die RAG-Pipelines optimieren. Das bedeutet:
+- **Klarheit vor Poesie:** Verschachtelte Sätze und blumige Metaphern sind für Parser schwer zu verarbeiten. Formuliere präzise, deterministisch und direkt.
+- **Fakten-Dichte maximieren:** LLMs extrahieren harte Fakten. Nutze Tabellen, Bulletpoints, strukturierte Listen und klare Definitionen. Je mehr Fakten pro Token, desto besser dein Score.
+- **Entitäten-Fokus:** Verbinde dein Thema deutlich mit bekannten Entitäten, die bereits im Knowledge Graph verankert sind. Zeig der Maschine den Kontext.
 
-Um in den KI-Zusammenfassungen (AI Overviews) aufzutauchen, brauchst du [GEO](/glossar/geo/). Das bedeutet, du musst deinen Content so strukturieren, dass er als perfekte Zitatquelle für LLMs dient. Du schreibst Absätze, die eigenständig als Fakt (Entität) bestehen können. Du nutzt Listen, Tabellen und klare Definitionen, die ein LLM problemlos extrahieren und referenzieren kann. Das "Keyword" ist dabei nur das unsichtbare Bindeglied.
+Das Keyword ist dabei nur das unsichtbare Bindeglied, der initiale Ankerpunkt für die Maschine, um den Startpunkt der Vektorberechnung festzulegen. Ein gut gewähltes Keyword ist der Trigger, der das LLM dazu bringt, deine tiefen, strukturierten Daten überhaupt erst abzurufen.
 
 ## Mein Tacheles-Rat für dich
 
-Vergiss das Wort "Keyword". Streich es aus deinem Vokabular. Denke in Entitäten. Denke in maschinenlesbaren Konzepten. Denke an den Search Query Fanout und bereite deine Website auf autonome KI-Agenten vor.
+Vergiss das antiquierte Konzept des "Keywords" als isolierte Buchstabenfolge. Denke in Entitäten, in Vektoren und vor allem in kristallklaren User Intents. 
 
-Schreib für Menschen, aber servier der Maschine saubere, unmissverständliche semantische Signale. Nur wer die Sprache der LLMs spricht, wird in den AI Overviews zitiert und empfohlen. 
+Hör auf, deinen Redakteuren Checklisten zu geben, in denen steht: "Bitte das Keyword 'Schraubenzieher' 12 Mal im Text verwenden." Das ist absurd und schadet deiner Sichtbarkeit. 
+Schreib exzellenten Content für Menschen, aber strukturiere ihn kompromisslos für die Maschine. Nutze semantische Tiefe, decke alle Co-Occurrences ab und bau Inhalte, die so präzise und fachlich fundiert sind, dass sowohl Google als auch KI-Agenten gar nicht anders können, als dich als primäre Quelle (Citation) zu zitieren.
 
-Hör auf, Buchstaben zu zählen. Fang an, Bedeutung zu schaffen.
+Wer die Sprache der Algorithmen (Semantik und Vektoren) spricht, wird das nächste Jahrzehnt in der Suche dominieren.
 
 ALOHA! 🌻✌️
 
 ---
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Zählst du noch Keywords oder dominierst du schon Entitäten?</h3>
-  <p class="mb-6 text-gray-muted">Wer 2026 noch klassisches Keyword-SEO betreibt, verliert seine Sichtbarkeit an KI-Systeme. Ich analysiere dein Setup und mache deinen Content Agent-Ready für die Ära des Search Query Fanouts.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt KI-Sichtbarkeit prüfen</a>
+  <h3 class="text-2xl font-bold mb-4">Zählst du noch Buchstaben oder rankst du schon?</h3>
+  <p class="mb-6 text-gray-muted">Wer 2026 noch klassisches Keyword-SEO betreibt, verliert seine Sichtbarkeit komplett. Ich analysiere dein Setup und baue mit dir eine maschinenlesbare Architektur auf Basis von Entitäten und echtem Intent-Matching.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt semantisches Audit anfragen</a>
 </div>
 
 ### Verwandte Begriffe
-* [Keywordrecherche in Zeiten von KI](/glossar/keywordrecherche/)
-* [Agent Readiness & A2A](/glossar/agent-readiness/)
+* [Keywordrecherche in der Praxis](/glossar/keywordrecherche/)
+* [Was sind Money Keywords?](/glossar/money-keyword/)
 * [Was sind Entitäten?](/glossar/entitaet/)
-* [Suchvolumen (Search Volume) heute](/glossar/suchvolumen/)
+* [Suchvolumen: Relevanz in der modernen Suche](/glossar/suchvolumen/)

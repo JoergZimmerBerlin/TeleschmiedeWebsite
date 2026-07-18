@@ -1,105 +1,99 @@
 ---
 category: "SEO Basics & Onpage"
-title: 'Money Keywords in 2026: Conversion durch Agent Readiness und Fanout'
-description: 'Money Keywords sind 2026 keine simplen Suchphrasen mehr, sondern hochkomplexe Fanout-Prompts an KIs. So sicherst du dir die ultimative Conversion.'
+title: 'Money Keywords in 2026: Von Suchphrasen zu LLM-Prompts'
+description: 'Money Keywords sind 2026 keine simplen Suchphrasen mehr, sondern komplexe Fanout-Prompts an KIs. So sicherst du dir die harte Conversion im RAG-Zeitalter. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp"
-image_alt: "Money Keyword 3D Infografik - Agent Readiness und A2A Conversion"
+image_alt: "Money Keyword 3D Infografik - Conversion und KI-Crawler"
 related_terms: ["keywoerter", "cpc", "conversion-rate"]
 key_takeaways:
-  - "Kaufabsicht der Agenten: Das klassische Money Keyword ist tot. Heute drückt sich die Transaktionsabsicht in hyper-spezifischen Fanout-Prompts an LLMs aus."
-  - "A2A Commerce: Wenn KIs für Menschen einkaufen, entscheiden nicht bunte Buttons, sondern strukturierte Daten (standardisierte Agent-Identity-Schnittstellen) über den Abschluss."
-  - "Stability schlägt Suchvolumen: Die lukrativsten Conversions generierst du dort, wo dein historisches Suchvolumen null ist, deine Stability in KI-Antworten aber bei 100% liegt."
+  - "Intention statt Suchvolumen: Das klassische Money Keyword ist tot. Heute drückt sich Transaktionsabsicht in hyper-spezifischen Fanout-Prompts an LLMs aus."
+  - "Strukturierte Conversion: Wenn KI-Agenten für Nutzer evaluieren, entscheiden maschinenlesbare Daten (JSON-LD, Schema.org) über den Abschluss."
+  - "Zero-Volume Dominanz: Die lukrativsten Conversions generierst du dort, wo historisches Suchvolumen null ist, deine semantische Relevanz in LLMs aber bei 100% liegt."
 faqs:
   - question: 'Was ist 2026 der genaue Unterschied zwischen Info- und Money-Keywords?'
-    answer: 'In der Welt der generativen KIs verschwimmt diese Grenze. Ein Nutzer lernt nicht mehr passiv (Info-Keyword) und sucht dann einen Shop (Money-Keyword). Er führt einen Dialog mit seinem KI-Agenten, der oft nahtlos von Recherche in Transaktion übergeht ("Erkläre mir Cloudflare höchstes Niveau und buche mir direkt den besten Experten in Berlin dafür."). Ein Money-Keyword in 2026 ist jeder Moment, in dem deine OnPage-Agent-Readiness ausreicht, damit der KI-Agent autonom eine Handlung (Buchung, Kauf, Lead) bei dir auslösen kann.'
-  - question: 'Warum ist das monatliche Suchvolumen bei Money-Keywords jetzt komplett irrelevant?'
-    answer: 'Weil Traffic nicht gleich Umsatz ist – und im Zeitalter des Fanouts existiert klassisches Suchvolumen schlichtweg nicht mehr. Nutzer formulieren extrem individuelle Prompts. Ein Fanout-Prompt mit "0 Suchvolumen" ("Finde eine B2B-Agentur für KI-Sichtbarkeit, die A2A-Protokolle beherrscht") ist in Wahrheit dein wertvollstes Money Keyword. Deine Conversion-Rate bei diesen hochspezifischen Agenten-Anfragen ist gigantisch, sofern deine Entitäts-Stability hoch ist.'
-  - question: 'Wie finde und bediene ich die besten Money Keywords im KI-Zeitalter?'
-    answer: 'Verlass dich nicht auf Legacy-Tools, die dir historische Suchphrasen zeigen. Die wahren Money Keywords findest du, indem du deine eigenen Use-Cases tiefgehend analysierst. Welche Probleme löst du? Dann optimierst du dein OnPage-SEO radikal auf Agent Readiness: Saubere `maschinenlesbare Endpunkt-Dokumentation`, fehlerfreie Link-Header in der `.htaccess` und eine perfekte `standardisierte Agent-Identity-Schnittstellen`. Du musst der KI beweisen, dass du die sicherste, autorisierteste Entität für genau diese Transaktion bist.'
+    answer: 'In der Welt generativer KIs verschwimmt die Grenze völlig. Ein Nutzer führt einen iterativen Dialog mit einem LLM, der nahtlos von Recherche ("Wie funktioniert X?") in Transaktion ("Wer in Berlin kann das für mich umsetzen?") übergeht. Ein Money Keyword ist heute jeder semantische Vektor, bei dem deine technische Architektur ausreicht, damit der Agent dich als finale Lösung präsentiert.'
+  - question: 'Warum ist monatliches Suchvolumen für Money Keywords irrelevant geworden?'
+    answer: 'Weil Traffic nicht gleich Umsatz ist – und im Zeitalter des LLM-Fanouts existiert klassisches Suchvolumen für Transaktionen oft nicht mehr. Nutzer formulieren extrem spitze Prompts ("Finde eine B2B-Agentur für SEO-Migrationen in Berlin, die auf Headless Commerce spezialisiert ist"). Dieser Zero-Volume-Prompt ist dein mächtigstes Money Keyword. Die Conversion-Rate ist gigantisch, sofern deine Seite technisch darauf vorbereitet ist.'
+  - question: 'Wie bediene ich Money Keywords im KI-Zeitalter?'
+    answer: 'Vergiss Legacy-Keyword-Tools. Analysiere stattdessen harte Use-Cases und transaktionale Entitäten. Optimiere radikal auf maschinenlesbare Strukturen: Exzellentes JSON-LD, perfekte Taxonomien, semantisch logischer DOM-Aufbau und API-ähnliche Produktdaten-Bereitstellung. Du musst beweisen, dass du die sicherste, logischste Entität für genau diese Transaktion bist.'
 ---
 
 ![Money Keyword 3D Infografik](../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp)
 
 Moin!
 
-Wir schreiben den Juli 2026 und ich räume heute mit einem der größten Mythen der letzten SEO-Jahre auf. Wenn du das Wort "Money Keyword" hörst, denkst du wahrscheinlich an generische Phrasen wie "Schuhe kaufen online" oder "SEO Freelancer Berlin beauftragen", die man mit genug Backlinks auf Platz 1 prügeln muss. 
+Wir schreiben den Juli 2026 und ich räume heute mit einem der hartnäckigsten SEO-Mythen auf. Wenn du das Wort "Money Keyword" hörst, denkst du wahrscheinlich sofort an platte Phrasen wie "Schuhe kaufen online" oder "SEO Agentur Berlin beauftragen", in die man Tausende Euro für Backlinks pumpt, um auf Platz 1 zu ranken. 
 
-Wach auf. Das klassische Money Keyword ist tot. Beerdigt von autonomen KI-Agenten und dem Fanout-Effekt generativer LLMs. Wer heute noch auf Suchvolumen schielt, um "kaufstarke" Begriffe zu identifizieren, versteht nicht, wie Transaktionen im modernen Web ablaufen.
+Wach auf. Das klassische Money Keyword ist tot. Beerdigt von autonomen KI-Agenten und den komplexen Dialog-Pipelines generativer Sprachmodelle (LLMs). Wer heute noch auf Suchvolumen in alten Tools schielt, um "kaufstarke" Begriffe zu identifizieren, hat die Architektur des modernen Internets nicht verstanden.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Ein Money-Keyword ist heute keine Phrase mehr, die ein Mensch in einen Suchschlitz tippt. Es ist der Moment maximaler Relevanz in einem KI-Dialog. Wer draußen 'Gratis-Infos' schreit, bekommt nicht mal mehr Touristen, weil die KI das wegfiltert. Wer sein OnPage-Setup so auf Agent Readiness trimmt, dass die KI ihm blind vertraut, bekommt Kunden. SEO ist 2026 kein Beliebtheitswettbewerb um Suchvolumen, sondern ein Maschinen-Audit um Vertrauen und Stability."</p>
+  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
+  <p class="italic text-dark mb-0">"Ein Money Keyword ist heute keine Phrase mehr, die ein Nutzer in einen Suchschlitz tippt. Es ist der exakte Vektor maximaler Transaktions-Relevanz in einem KI-Dialog. Wer seine Seitenarchitektur so strukturiert, dass KI-Crawler blind darauf vertrauen können, bekommt den Lead. SEO ist kein Beliebtheitswettbewerb um Suchvolumen mehr, sondern ein maschinenlesbares Audit um Vertrauen und Faktendichte."</p>
 </div>
 
-Ein klassisches Beispiel aus der alten Zeit:
-*   "Was ist SEO?" -> **Informations-Keyword.** (Viel Traffic, null Umsatz).
+## Vom Keyword zum Fanout-Prompt
+
+Ein klassisches Beispiel aus der alten SEO-Welt:
+*   "Was ist SEO?" -> **Informations-Keyword.** (Viel Traffic, mieser Umsatz).
 *   "SEO Freelancer Berlin buchen" -> **Money Keyword.** (Wenig Traffic, maximaler Umsatz).
 
-Und heute? Heute existieren diese starren Kategorien nicht mehr. 
+Heute existieren diese starren Kategorien im RAG-Zeitalter (Retrieval-Augmented Generation) nicht mehr in dieser binären Form. 
 
-## Der Fanout-Effekt und das Ende des traditionellen Money Keywords
+Lass uns über den **Fanout-Effekt** sprechen. Wenn Menschen mit LLMs interagieren, nutzen sie keine abgehackten Zwei-Wort-Phrasen mehr. Sie formulieren komplexe, iterative Prompts mit enormem Kontext, die tiefgreifende Intentionen offenbaren. 
 
-Lass uns über den Fanout sprechen. Wenn Menschen mit ChatGPT, Claude oder Gemini interagieren, nutzen sie keine Keywords. Sie nutzen komplexe, iterative Prompts. 
+Ein Geschäftsführer tippt nicht mehr "SEO Agentur buchen". Er schreibt einem KI-Agenten: *"Mein B2B-SaaS-Startup braucht dringend eine Überholung der technischen Architektur. Wir migrieren auf ein Headless-System und brauchen fehlerfreies Routing und JSON-LD. Wer ist im DACH-Raum der Spezialist dafür und hat Referenzen im Enterprise-Bereich?"*
 
-Ein CEO tippt nicht "SEO Agentur buchen". Er schreibt: *"Mein SaaS-Startup braucht dringend eine OnPage-Überholung für KI-Sichtbarkeit. Wir müssen die Cloudflare Agent Readiness höchstes Niveau Standards erfüllen, insbesondere die korrekte Einbindung der `maschinenlesbare Endpunkt-Dokumentation`. Wer ist im DACH-Raum der absolute Spezialist dafür und hat Kapazitäten für Q3?"*
+Dieser Prompt hat in jedem klassischen Keyword-Tool ein historisches Suchvolumen von absolut null. Null! Und doch ist dieser Fanout-Prompt das mächtigste Money Keyword, das du dir vorstellen kannst. Der Lead dahinter ist sofort zehntausende Euro wert.
 
-Dieser Prompt hat in jedem klassischen Keyword-Tool ein historisches Suchvolumen von absolut null. Und doch ist dieser Fanout-Prompt das mächtigste Money Keyword, das du dir vorstellen kannst. Der Lead ist sofort zehntausende Euro wert.
+Die Illusion der Legacy-SEO-Berater ist es, zu glauben, man müsse für generische Begriffe ranken. Die Realität 2026 ist gnadenlos: Die lukrativsten Conversions passieren exakt dort, wo das Suchvolumen null ist, aber deine semantische Relevanz in den Vektordatenbanken der KIs bei nahezu 100% liegt.
 
-Die Illusion der Legacy-SEO-Berater ist es, zu glauben, man müsse für Begriffe mit hohem Suchvolumen ranken, um Geld zu verdienen. Die Realität 2026: Die lukrativsten Transaktionen (Money Keywords) passieren exakt dort, wo das klassische Suchvolumen bei Null liegt, aber deine Stability in den KI-Antworten bei 100% steht.
+## Die technische Infrastruktur für KI-Conversions
 
-## Agent Readiness: Das OnPage-Fundament für KI-Conversions
+Wenn du willst, dass KIs dich als die absolut beste Lösung für ein komplexes Problem vorschlagen (und damit deinen Traffic in echten Cash verwandeln), reicht kein hübsches CSS und kein seichtes Content-Marketing aus 2020. 
 
-Wenn du willst, dass KIs dich als die beste Lösung für ein Problem vorschlagen (also als Antwort auf einen Money-Prompt), dann reicht kein hübsches Design und kein "08/15"-Content. 
+Deine Conversion hängt heute massiv von der technischen Tiefe deines OnPage-Setups ab. Wenn ein KI-Crawler das Web nach Lösungen für einen Nutzer-Prompt scannt, prüft er nackte, strukturierte Daten. Er liest keine Werbeversprechen. Er parst deinen Code.
 
-Deine Conversion hängt heute massiv von deinem technischen OnPage-Setup ab. Wir nennen das **Agent Readiness**.
+Willst du bei Money-Prompts abkassieren? Dann brauchst du zwingend diese technische Basis:
 
-Wenn ein Agent-to-Agent (A2A) Protokoll eine Transaktion anbahnt – weil der Nutzer der KI gesagt hat "Finde und buche den besten Dienstleister" –, dann prüft der Crawler der KI nicht, ob dein Button rot oder grün ist. Er prüft nackte, maschinenlesbare Fakten.
+1.  **Exzellentes Schema.org / JSON-LD:** Du bist ein Dienstleister? Dann nutze das `Service`- oder `LocalBusiness`-Schema. Du verkaufst Produkte? Nutze `Product` mit exakten `offers`, `price` und `availability`. KI-Agenten müssen deine Transaktionsbereitschaft maschinenlesbar parsen können. Wenn du deine Preise nur als Plaintext im `<div>` versteckst, bist du für den Agenten im Transaktions-Kontext nicht existent.
+2.  **Klare API-ähnliche Informationsarchitektur:** Organisiere deine Inhalte logisch. Nutze saubere HTML5-Tags (`<article>`, `<section>`, `<aside>`). Baue Tabellen für Spezifikationen. KIs lieben strukturierte Daten-Arrays, weil sie den Parsing-Aufwand reduzieren und relationale Verbindungen aufzeigen.
+3.  **Fehlerfreies Routing und Trailing Slashes:** Ein KI-Crawler hasst Inkonsequenz. Interne Links auf Verzeichnisse (wie `/leistungen/`) müssen zwingend auf einem Trailing Slash `/` enden. Das spart Crawl-Ressourcen und signalisiert höchste technische Hygiene. Fehlerhafte Canonical-Tags oder wirre Redirect-Ketten signalisieren der KI eine fragile Infrastruktur und stufen deine Lösung als instabil ab.
+4.  **Die Eliminierung von Thin Content:** Jede Unterseite, die keinen knallharten Mehrwert liefert, verwässert deine Relevanz für das eigentliche Money Keyword. Nutze rigoros `noindex` für Paginierungen oder irrelevante Tag-Archive, um das Crawl-Budget der KI-Agenten gezielt auf deine primären Conversion-Seiten zu lenken.
 
-Willst du bei Money-Prompts abkassieren? Dann brauchst du diese OnPage-Pflichten:
+## Entitäten-Dichte schlägt Keyword-Dichte
 
-1.  **Die `standardisierte Agent-Identity-Schnittstellen`:** Sie muss als `standardisierte Agent-Identity-Schnittstellen` im Root liegen und strikt dem JSON-Schema von `a2a-protocol.org` v1.0 entsprechen. Hier deklarierst du deine `supportedInterfaces` und `capabilities`. Ohne diese Karte weiß der Agent nicht, dass man bei dir überhaupt etwas "kaufen" oder "buchen" kann. Du bist dann eine reine Info-Seite und wirst bei Transaktions-Prompts ignoriert.
-2.  **Die `maschinenlesbare Endpunkt-Dokumentation`:** Das Siegel des Vertrauens. Zwingend kleingeschrieben (`maschinenlesbare Endpunkt-Dokumentation`), mit `# maschinenlesbare Endpunkt-Dokumentation` als erster H1-Überschrift. Die KI muss verifizieren, dass deine Angebote, Preise und Capabilities echt und von dir signiert sind. Ohne `maschinenlesbare Endpunkt-Dokumentation` keine Conversion durch Maschinen.
-3.  **Makellose Link-Headers:** In der `.htaccess` dürfen bei `Header add Link` keine Anführungszeichen innerhalb der spitzen Klammern stehen (`<url>; rel="type"`). Machst du hier einen Fehler, crasht der A2A-Handshake und der Lead geht zur Konkurrenz.
-4.  **Konsequente Interne Verlinkung:** Ein KI-Crawler hasst Inkonsequenz. Interne Links auf Verzeichnisse (wie `/leistungen/`) müssen zwingend auf einem Trailing Slash `/` enden. Das spart Crawl-Ressourcen und signalisiert absolute OnPage-Hygiene.
+Früher hieß es: Optimiere den Text auf das Keyword und sorge für 2% Keyword-Dichte. Heute heißt es: Maximiere die Relevanz deiner [Entität](/glossar/entitaet/) im gesamten Vektorraum. 
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die harte Realität des A2A Commerce</h4>
-  <p class="mb-0 text-sm">Glaube nicht, dass du Money-Prompts "mal eben so" besetzen kannst, indem du ein paar Buzzwords einfügst. Die KIs sind unbestechlich. Hier gewinnt nur, wer das meiste maschinell verifizierbare Vertrauen (E-E-A-T) und die absolut fehlerfreieste technische Agent Readiness-Basis mitbringt. Wer beim den höchsten Agent Readiness Standards durchfällt, macht keinen Umsatz mehr.</p>
-</div>
+Du musst für die LLMs die unumstrittenste Entität in deiner Nische werden. Wenn der Prompt Themen wie "Headless SEO", "Next.js Migration" oder "JavaScript Crawling" enthält, muss die KI sofort mathematische Vektoren zu deiner Domain ziehen. Wie erreichst du das technisch?
 
-## Optimierung für maximale Stability
+1.  **Semantische Tiefe:** Liefere harte Fakten. Erkläre Konzepte bis auf die Code-Ebene. Nutze die Fachsprache (Ko-Okkurrenz), die ein LLM als Token für Expertenwissen wertet. 
+2.  **Kontextuelle Verlinkung:** Baue harte interne Content-Silos. Verlinke deine Money-Pages aus hochspezifischen Fachartikeln heraus mit hartem Anchor-Text. Ein Link von einem `/blog/` auf ein `/leistungen/` Verzeichnis ist der Pfad, dem der Crawler zur Transaktion folgt.
+3.  **Externe Validierung:** Eine technisch perfekte Seite ist wertlos, wenn niemand im KI-Silo darüber spricht. Sammle [Mentions](/glossar/mention/) (Erwähnungen ohne Link) in renommierten Fachmedien, um der KI externe Validierung für deine Entität zu liefern. Das schließt den Kreis.
 
-Früher hieß es: Optimiere für Keywords. Heute heißt es: Optimiere für Stability in deinem Entity-Cluster. 
+In meiner Strategieberatung als SEO-Experte ist das Etablieren dieser maschinenlesbaren Autorität der absolute Kern. Wir bauen das technische Fundament, das KIs überzeugt – denn sie sind heute die Gatekeeper zu den Kreditkarten deiner Kunden.
 
-Du musst für die LLMs die klarste und unumstrittenste Entität in deiner Nische werden. Wenn es um "Cloudflare Agent Readiness" geht, muss die KI sofort an deinen Namen denken. Wie erreichst du diese Stability?
+## Mein Tacheles-Rat für dich
 
-1.  **Informationelle Dichte:** Schreib keinen Fluff. Liefere tiefe, semantisch verknüpfte Informationen, die kein anderer hat.
-2.  **Struktur:** Nutze Markdown Content Negotiation. Biete der Maschine den Inhalt genau in dem Format an, das sie am effizientesten verarbeiten kann.
-3.  **Klare APIs/Interfaces:** Mach es der Maschine so einfach wie möglich, die Transaktion (das eigentliche "Money" im Keyword) durchzuführen. Ein Formular ist gut, eine über die `standardisierte Agent-Identity-Schnittstellen` deklarierte A2A-Buchungsschnittstelle ist ein Gamechanger.
+Money Keywords im Sinne von "Dinge, die Leute massenhaft in Suchschlitze tippen" sind Geschichte. Der wahre Treibstoff für dein Business ist heute die zielgenaue Auslieferung deiner Entität durch autonome KI-Pipelines.
 
-In meiner Strategieberatung als SEO-Experte in Berlin ist das Etablieren dieser maschinenlesbaren Autorität der erste Schritt. Wir bauen das technische OnPage-Fundament, das die KIs überzeugt – denn sie sind heute die Gatekeeper zu den Kreditkarten deiner Kunden.
+Hör auf, nach Eitelkeits-Metriken und fiktivem Suchvolumen in alten Tools zu jagen. Konzentriere dich auf kompromisslose technische Relevanz. Richte dein HTML so ein, dass es wie eine gut dokumentierte API gelesen werden kann. Pflege dein JSON-LD, als würde dein Leben davon abhängen.
 
-## Mein Tacheles-Rat für dich im Juli 2026
+Die wertvollsten Transaktionen des Jahres 2026 passieren bei hochkomplexen Zero-Volume-Prompts. Sei die technisch perfekte Antwort, wenn die Maschine danach sucht. Am Ende des Tages zählt nur die harte Conversion.
 
-Money Keywords im Sinne von "Dinge, die Leute in Suchschlitze tippen" sind Geschichte. Der Treibstoff für dein Business ist heute die Empfehlung durch autonome Agenten.
-
-Hör auf, nach Eitelkeits-Metriken und fiktiven Suchvolumen in alten Tools zu jagen. Konzentrier dich auf kompromisslose Relevanz und technisches Vertrauen. Richte dein OnPage-SEO auf Agent Readiness höchstes Niveau aus. Implementiere deine `maschinenlesbare Endpunkt-Dokumentation` und `standardisierte Agent-Identity-Schnittstellen` fehlerfrei. Verbanne fehlende Trailing Slashes.
-
-Die lukrativsten Conversions des Jahres 2026 passieren bei Zero-Volume-Prompts. Sei die Antwort, wenn die Maschine danach sucht. Denn am Ende des Tages zählt nur, was unten rauskommt.
-
-ALOHA! Jörg
+ALOHA! Jörg 🌻✌️
 
 ---
 
 <div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Deine Website konvertiert keine KI-Leads?</h3>
-  <p class="mb-6 text-gray-muted">Ich finde deine echten Umsatztreiber im Fanout-Zeitalter. Wir auditieren dein OnPage-Setup, etablieren Cloudflare Agent Readiness höchstes Niveau und bauen deine KI-Autorität mit messbarer Stability auf.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Agent Readiness Strategie anfragen</a>
+  <h3 class="text-2xl font-bold mb-4">Deine Website generiert keine KI-getriebenen Leads?</h3>
+  <p class="mb-6 text-gray-muted">Ich finde deine echten Umsatztreiber im Fanout-Zeitalter. Wir auditieren dein technisches OnPage-Setup, reparieren dein JSON-LD und bauen deine Entität für LLMs messbar auf.</p>
+  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen</a>
 </div>
 
 ### Verwandte Begriffe
-* [Warum traditionelle Keywörter im Fanout sterben](/glossar/keywoerter/)
-* [Suchvolumen (Search Volume) vergessen](/glossar/suchvolumen/)
-* [Was ist der CPC im A2A Commerce?](/glossar/cpc/)
+* [Die Bedeutung von Entitäten für LLMs](/glossar/entitaet/)
+* [Crawling vs. Indexing radikal verstehen](/glossar/crawling-vs-indexing/)
+* [Mentions als Trust-Signal](/glossar/mention/)
+* [Conversion Rate Optimierung für KIs](/glossar/conversion-rate/)lossar/cpc/)
 * [Conversion Rate Optimierung für Maschinen](/glossar/conversion-rate/)

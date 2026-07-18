@@ -1,22 +1,22 @@
 ---
 category: "Technisches SEO & UX"
-title: 'Website SEO Audit: Analyse, Tools & Agent Readiness 2026'
-description: 'Ein Website SEO Audit 2026 prüft nicht nur Technik, sondern die volle Agent Readiness. Erfahre, wie du llms.txt und Markdown Negotiation testest.'
+title: 'Website SEO Audit: Analyse, Tools & technische KI-Optimierung 2026'
+description: 'Ein Website SEO Audit 2026 prüft nicht nur Technik, sondern die volle technische KI-Optimierung. Erfahre, wie du llms.txt und Markdown Negotiation testest.'
 date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"
 image_alt: "Website SEO Audit 3D Infografik - Technische Analyse und Gesundheit-Check"
 related_terms: ["technisches-seo", "crawler", "sichtbarkeit", "pagespeed"]
 key_takeaways:
-  - "SEO-Gesundheitscheck 2026: Ein Audit deckt kritische Fehler in Technik, Agent Readiness und Performance auf, bevor sie Rankings kosten."
-  - "Fokus Agent Readiness: Neben den klassischen 115+ Parametern prüfen wir massiv auf llms.txt, A2A-Endpunkte und Content Negotiation."
+  - "SEO-Gesundheitscheck 2026: Ein Audit deckt kritische Fehler in Technik, technische KI-Optimierung und Performance auf, bevor sie Rankings kosten."
+  - "Fokus technische KI-Optimierung: Neben den klassischen 115+ Parametern prüfen wir massiv auf llms.txt, KI-Crawler-Endpunkte und Content Negotiation."
   - "Priorisierung ist alles: Ein technisches Audit sortiert Probleme nach ihrer Auswirkung. Markdown-Verfügbarkeit für LLMs hat heute höchste Priorität."
 faqs:
   - question: 'Was prüft ein Website-Audit im Jahr 2026?'
-    answer: 'Neben klassischen Faktoren wie Indexierbarkeit, PageSpeed und Core Web Vitals prüfen wir 2026 massiv die "Agent Readiness". Das umfasst die Bereitstellung einer validen llms.txt, die korrekte Funktion der Markdown Negotiation via Accept-Header und die Erreichbarkeit von A2A-Endpunkten (Agent-to-Agent).'
+    answer: 'Neben klassischen Faktoren wie Indexierbarkeit, PageSpeed und Core Web Vitals prüfen wir 2026 massiv die "technische KI-Optimierung". Das umfasst die Bereitstellung einer validen llms.txt, die korrekte Funktion der Markdown Negotiation via Accept-Header und die Erreichbarkeit von KI-Crawler-Endpunkten (Agent-to-Agent).'
   - question: 'Kann ich ein Website-Audit kostenlos durchführen?'
-    answer: 'Für einen ersten schnellen Technik-Check gibt es kostenlose Versionen klassischer Tools. Für einen vollständigen Agent Readiness Check benötigst du jedoch spezialisierte API-Tests (z.B. via cURL oder Postman), um die Markdown Negotiation zu prüfen. Ich empfehle professionelle Setups, um sowohl die klassische als auch die KI-Crawler-Sichtbarkeit zu validieren.'
+    answer: 'Für einen ersten schnellen Technik-Check gibt es kostenlose Versionen klassischer Tools. Für einen vollständigen technische KI-Optimierung Check benötigst du jedoch spezialisierte API-Tests (z.B. via cURL oder Postman), um die Markdown Negotiation zu prüfen. Ich empfehle professionelle Setups, um sowohl die klassische als auch die KI-Crawler-Sichtbarkeit zu validieren.'
   - question: 'Wie oft sollte ich ein technisches SEO-Audit durchführen?'
-    answer: 'Für kleinere Webseiten reicht ein großes Audit pro Quartal. Bei dynamischen Projekten, besonders im Bereich A2A-Schnittstellen und Agent Readiness, empfehle ich monatliche oder sogar wöchentliche automatisierte Checks, um Regressionen sofort zu erkennen.'
+    answer: 'Für kleinere Webseiten reicht ein großes Audit pro Quartal. Bei dynamischen Projekten, besonders im Bereich KI-Crawler-Schnittstellen und technische KI-Optimierung, empfehle ich monatliche oder sogar wöchentliche automatisierte Checks, um Regressionen sofort zu erkennen.'
 ---
 
 Moin! 
@@ -27,7 +27,7 @@ In meiner täglichen Arbeit als [SEO-Freelancer in Berlin](/seo-freelancer-berli
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Ein Audit ohne anschließende Umsetzung ist nur eine teure Liste von Problemen. Die wahre Magie passiert in der Priorisierung: Was bringt den größten Hebel? Heute sind es nicht die 500 fehlenden Meta-Descriptions. Der größte Hebel 2026 ist Agent Readiness. Wenn deine Markdown Negotiation kaputt ist, existierst du für KI schlichtweg nicht. Punkt."</p>
+  <p class="italic text-dark mb-0">"Ein Audit ohne anschließende Umsetzung ist nur eine teure Liste von Problemen. Die wahre Magie passiert in der Priorisierung: Was bringt den größten Hebel? Heute sind es nicht die 500 fehlenden Meta-Descriptions. Der größte Hebel 2026 ist technische KI-Optimierung. Wenn deine Markdown Negotiation kaputt ist, existierst du für KI schlichtweg nicht. Punkt."</p>
 </div>
 
 ---
@@ -40,7 +40,7 @@ Stell dir vor, du baust ein Haus auf einem Sumpf. Egal wie schön die HTML-Fassa
 
 In meiner SEO Sprechstunde kämmen wir deine Seite gemeinsam durch. Dabei konzentriere ich mich auf die vier wichtigsten Hebel:
 
-1.  **Agent Readiness (Der 2026 Standard):** Ist die `/llms.txt` vorhanden? Liefert der Server bei einem Request mit `Accept: text/markdown` sauberes Markdown aus? Sind die A2A-Endpunkte erreichbar und ist die `maschinenlesbare Endpunkt-Dokumentation` valide?
+1.  **technische KI-Optimierung (Der 2026 Standard):** Ist die `/llms.txt` vorhanden? Liefert der Server bei einem Request mit `Accept: text/markdown` sauberes Markdown aus? Sind die KI-Crawler-Endpunkte erreichbar und ist die `maschinenlesbare Endpunkt-Dokumentation` valide?
 2.  **Klassische Technik:** Sind [Crawler](/glossar/crawler/) blockiert? Gibt es [404-Fehlerseiten](/glossar/404-fehlerseiten/)? Funktioniert deine XML-[Sitemap](/glossar/sitemap/)?
 3.  **Content & Entitäten:** Hast du semantisch dichten Content? Fehlen [Strukturierte Daten](/glossar/strukturierte-daten/)? Verstehen die Modelle deine Kern-Entität?
 4.  **Performance:** Wie schnell lädt die Seite? Passen die [Core Web Vitals](/glossar/core-web-vitals/)?
@@ -51,11 +51,11 @@ In meiner SEO Sprechstunde kämmen wir deine Seite gemeinsam durch. Dabei konzen
 
 Lass uns tiefer in die Materie eintauchen. Ein professionelles Audit geht weit über "hast du eine H1?" hinaus. Hier sind die Bereiche, die wir genau unter die Lupe nehmen.
 
-### 1. Agent Readiness und A2A-Kompatibilität
+### 1. technische KI-Optimierung und KI-Crawler-Kompatibilität
 Das ist der absolute Kernbereich im Jahr 2026. Wenn Google deine Seite nicht crawlen kann, existierst du nicht. Wenn LLMs deine Seite nicht crawlen können, existierst du morgen nicht mehr.
 *   **llms.txt & llms-full.txt:** Wir prüfen die Existenz und Validität. Diese Dateien sind die neuen Sitemaps für KI. Fehlen sie, ignoriert der Agent deine Seite.
 *   **Markdown Negotiation:** Wir simulieren Agenten-Anfragen (via cURL oder eigenen Skripten). Wenn wir `Accept: text/markdown` anfragen, darf der Server kein HTML mit Headern, Footern und Cookie-Bannern schicken. Er muss den reinen Content als Markdown ausliefern. Wir decken hier jeden Fehler im Setup (z.B. in Cloudflare Workern) schonungslos auf.
-*   **Agent Cards & Auth:** Entspricht deine `standardisierte Agent-Identity-Schnittstellen` dem offiziellen A2A-Schema? Sind die Endpunkte gesichert?
+*   **Agent Cards & Auth:** Entspricht deine `standardisierte Agent-Identity-Schnittstellen` dem offiziellen KI-Crawler-Schema? Sind die Endpunkte gesichert?
 
 ### 2. Indexierbarkeit und Klassisches Crawling
 *   **Robots.txt:** Gibt es versehentliche Blockaden für wichtige KI-Crawler (wie GPTBot, ClaudeBot)? 
@@ -75,7 +75,7 @@ Google liebt Geschwindigkeit. Auch 2026 ist ein extrem schneller Seitenaufbau Pf
 *   **CLS (Cumulative Layout Shift):** Wackeln Elemente beim Laden hin und her?
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Profi-Tipp: Automatisiertes Monitoring für Agent Readiness</h4>
+  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Profi-Tipp: Automatisiertes Monitoring für technische KI-Optimierung</h4>
   <p class="mb-0 text-sm">Ein Audit ist keine Einmal-Aktion. Du solltest Monitoring-Skripte laufen lassen, die täglich deine llms.txt und die Markdown-Endpunkte anpingen. Wenn ein Dev aus Versehen die Content-Negotiation-Logik überschreibt, bekommst du sofort einen Alert. Das ist deine digitale Versicherung gegen KI-Traffic-Verluste durch menschliche Fehler.</p>
 </div>
 
@@ -95,7 +95,7 @@ Du musst kein Full-Stack-Entwickler sein, um die Ergebnisse zu verstehen, aber m
 
 ## Mein Tacheles-Rat für dich
 
-Hör auf zu raten und basiere deine Entscheidungen auf harten Fakten. Ein **Website SEO Audit**, das auf Agent Readiness ausgelegt ist, gibt dir die Roadmap, die du für echtes Wachstum im KI-Zeitalter brauchst. Wenn du es richtig machst, findest du Fehler, die dich seit Monaten wertvolle Erwähnungen in KI-Zusammenfassungen und damit bares Geld kosten. 
+Hör auf zu raten und basiere deine Entscheidungen auf harten Fakten. Ein **Website SEO Audit**, das auf technische KI-Optimierung ausgelegt ist, gibt dir die Roadmap, die du für echtes Wachstum im KI-Zeitalter brauchst. Wenn du es richtig machst, findest du Fehler, die dich seit Monaten wertvolle Erwähnungen in KI-Zusammenfassungen und damit bares Geld kosten. 
 
 Ich nutze eine Kombination aus klassischen Profi-Tools und eigenen Agent-Readiness-Skripten, um deine Seite auf Herz und Nieren zu prüfen. Keine Ausreden, keine Kosmetik. Wir machen deine Seite fit für die Zukunft.
 

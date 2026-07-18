@@ -47,8 +47,8 @@ if (fs.existsSync(sitemapPath)) {
 const urls = Array.from(urlsToInspect);
 console.log(`Starte Crawl-Analyse für ${urls.length} URLs...`);
 
-const BATCH_SIZE = 10;
-const DELAY_MS = 500;
+const BATCH_SIZE = 5;
+const DELAY_MS = 2000;
 
 async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));

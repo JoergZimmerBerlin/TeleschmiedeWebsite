@@ -100,7 +100,7 @@ const personEntity = {
   "familyName": "Zimmer",
   "jobTitle": "SEO & SEA Freelancer / Digitaler Architekt",
   "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO & SEA Freelancer mit über 24 Jahren Erfahrung.",
-  "image": `${siteUrl}/assets/images/profile/joerg-zimmer-portrait.webp`,
+  "image": `${siteUrl}/images/profile/joerg-zimmer-portrait.jpg`,
   "url": `${siteUrl}/ueber-mich/`,
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
@@ -332,11 +332,6 @@ const graph: any[] = [
     "about": type === 'default' ? { "@id": businessId } : undefined,
     "speakable": {
       "@type": "SpeakableSpecification",
-      "xpath": [
-        "/html/head/title",
-        "/html/body//h1",
-        "/html/body//main//p[1]"
-      ],
       "cssSelector": ["h1", "main p:first-of-type"]
     },
     "isAccessibleForFree": true

@@ -24,7 +24,7 @@ git push origin main
 // turbo
 5. Wait for the server to build and go live.
 ```bash
-node scripts/wait-for-live.mjs https://teleschmie.de
+rm -f dist/build.txt && node scripts/wait-for-live.mjs https://teleschmie.de
 ```
 // turbo
 6. Push updated URLs to Google Search Console.

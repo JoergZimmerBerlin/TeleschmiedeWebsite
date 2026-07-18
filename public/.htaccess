@@ -105,6 +105,10 @@ Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-a
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 Redirect 301 /webdesigner-programmierer-berlin-spandau.html https://teleschmie.de/ueber-mich/
 
+# D. Doppelte Slashes bereinigen (// -> /)
+RewriteCond %{THE_REQUEST} \s[^?]*//
+RewriteRule ^(.*)$ /$1 [R=301,L]
+
 
 # 4. Kompression (Speed-Boost für SEO)
 <IfModule mod_deflate.c>

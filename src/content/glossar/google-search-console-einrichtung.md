@@ -5,6 +5,17 @@ date: "2026-07-18"
 author: "Jörg Zimmer"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"
 tags: ["SEO", "Google Search Console", "Tracking", "Analytics", "Technisches SEO"]
+faqs:
+  - question: 'Was ist der Unterschied zwischen Domain-Property und URL-Präfix?'
+    answer: 'Die Domain-Property misst den gesamten Traffic deiner Domain (inklusive `www`, ohne `www`, `http`, `https` und allen Subdomains). Beim URL-Präfix musst du jede Version (z.B. `https://www.teleschmie.de/`) einzeln anlegen und verifizieren. Die Domain-Property ist immer die sauberere, professionellere Lösung.'
+  - question: 'Mein Hoster sagt, der TXT-Eintrag sei ungültig – was nun?'
+    answer: 'Manche Hoster erwarten, dass du den `google-site-verification`-Code in Anführungszeichen setzt (z.B. `"google-site-verification=XYZ123"`). Probier das aus, meistens löst das den Fehler direkt.'
+  - question: 'Muss ich den TXT-Eintrag nach der Verifizierung wieder löschen?'
+    answer: 'Nein! Um Himmels willen, lass den DNS-Eintrag unangetastet. Wenn du ihn löschst, merkt Google das irgendwann bei einer Routineprüfung und entzieht dir sofort wieder den Zugriff auf deine GSC-Daten.'
+  - question: 'Kostet die Google Search Console wirklich gar nichts?'
+    answer: 'Ja, 100% kostenlos. Im Gegensatz zu teuren Keyword-Tools bekommst du hier die verifizierten Klick-Daten direkt von der Quelle, ohne auch nur einen Cent zu bezahlen.'
+  - question: 'Warum sehe ich nach der Einrichtung noch keine Daten?'
+    answer: 'Google sammelt die Daten nicht rückwirkend in voller Tiefe für nicht-verifizierte Konten. Sobald du das Tool einrichtest, füllt sich das Dashboard in der Regel nach 24 bis 48 Stunden mit den ersten Metriken. Geduld ist hier eine Tugend.'
 ---
 
 # Google Search Console einrichten: Der Tacheles-Guide zur Domain-Property
@@ -72,27 +83,8 @@ Sobald die Konfetti-Animation kam und du drin bist, brauche ich Zugriff auf die 
 1. Klicke in der GSC unten links auf **Einstellungen** (das kleine Zahnrad).
 2. Gehe auf **Nutzer und Berechtigungen**.
 3. Klicke oben rechts auf den blauen Button **Nutzer hinzufügen**.
-4. Trage meine E-Mail-Adresse ein.
+4. Trage meine E-Mail-Adresse info@teleschmie.de ein.
 5. Setze die Berechtigung auf **Eingeschränkt** oder **Voll** (je nachdem, ob ich auch Einstellungen ändern soll).
 6. Klicke auf **Hinzufügen**. 
 
 Boom! Das war’s. Du hast deine Hausaufgaben gemacht.
-
----
-
-## FAQs – Häufig gestellte Fragen zur GSC-Einrichtung
-
-**1. Was ist der Unterschied zwischen Domain-Property und URL-Präfix?**
-Die Domain-Property misst den gesamten Traffic deiner Domain (inklusive `www`, ohne `www`, `http`, `https` und allen Subdomains). Beim URL-Präfix musst du jede Version (z.B. `https://www.teleschmie.de/`) einzeln anlegen und verifizieren. Die Domain-Property ist immer die sauberere, professionellere Lösung.
-
-**2. Mein Hoster sagt, der TXT-Eintrag sei ungültig – was nun?**
-Manche Hoster erwarten, dass du den `google-site-verification`-Code in Anführungszeichen setzt (z.B. `"google-site-verification=XYZ123"`). Probier das aus, meistens löst das den Fehler direkt.
-
-**3. Muss ich den TXT-Eintrag nach der Verifizierung wieder löschen?**
-Nein! Um Himmels willen, lass den DNS-Eintrag unangetastet. Wenn du ihn löschst, merkt Google das irgendwann bei einer Routineprüfung und entzieht dir sofort wieder den Zugriff auf deine GSC-Daten.
-
-**4. Kostet die Google Search Console wirklich gar nichts?**
-Ja, 100% kostenlos. Im Gegensatz zu teuren Keyword-Tools bekommst du hier die verifizierten Klick-Daten direkt von der Quelle, ohne auch nur einen Cent zu bezahlen. 
-
-**5. Warum sehe ich nach der Einrichtung noch keine Daten?**
-Google sammelt die Daten nicht rückwirkend in voller Tiefe für nicht-verifizierte Konten. Sobald du das Tool einrichtest, füllt sich das Dashboard in der Regel nach 24 bis 48 Stunden mit den ersten Metriken. Geduld ist hier eine Tugend.

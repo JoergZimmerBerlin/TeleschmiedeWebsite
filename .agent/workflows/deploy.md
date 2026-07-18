@@ -12,13 +12,24 @@ This workflow automates the process of pushing changes to production.
 git commit -m "Deployment: [description of changes]"
 ```
 // turbo
-3. Push the changes to the main branch.
+3. Prepare GSC URLs.
+```bash
+node scripts/gsc-auto-push.mjs --prepare
+```
+// turbo
+4. Push the changes to the main branch.
 ```bash
 git push origin main
 ```
-4. Push updated URLs to Google Search Console
+// turbo
+5. Wait for the server to build and go live.
 ```bash
-node scripts/gsc-auto-push.mjs
+node scripts/wait-for-live.mjs https://teleschmie.de
+```
+// turbo
+6. Push updated URLs to Google Search Console.
+```bash
+node scripts/gsc-auto-push.mjs --execute
 ```
 
 **WICHTIG (IONOS Hosting):**

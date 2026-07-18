@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentId: string;
+  currentTitle: string;
+  currentTags?: string[];
+}
+
+const { currentId, currentTitle, currentTags = [] } = Astro.props;
+
+const allBlog = await getCollection('blog');
+const allGlossar = await getCollection('glossar');
+
+const allContent = [
+  ...allBlog.map(p => ({ ...p, type: 'blog' })),
+  ...allGlossar.map(p => ({ ...p, type: 'glossar' }))
+];
+
+// Eigene Seite ausschließen
+const others = allContent.filter(p => p.id !== currentId);
+
+// Algorithmus zur Berechnung der Ähnlichkeit
+const scored = others.map(p => {
+  let score = 0;
+  
+  // 1. Tag Match (sehr stark)
+  const pTags = p.data.tags || [];
+  const commonTags = pTags.filter((t: string) => currentTags.includes(t));
+  score += commonTags.length * 10;
+  
+  // 2. Title Word Match
+  const currentWords = currentTitle.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+  const pWords = p.data.title.toLowerCase().split(/\s+/);
+  
+  currentWords.forEach(w => {
+    if (pWords.includes(w)) score += 2;
+  });
+  
+  // Tie-Breaker: Zufälliger Bonus damit Artikel ohne Tags trotzdem rotieren
+  if (score === 0) {
+      score += Math.random();
+  }
+
+  return { ...p, score };
+});
+
+// Top 3 extrahieren
+scored.sort((a, b) => b.score - a.score);
+const top3 = scored.slice(0, 3);
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+{top3.length > 0 && (
+  <div class="mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl not-prose">
+    <h3 class="text-xl font-bold mb-6 text-dark flex items-center gap-2">
+      <svg class="w-6 h-6 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+      Verwandte Themen & Artikel
+    </h3>
+    <ul class="flex flex-col gap-4 m-0 p-0 list-none">
+      {top3.map(item => (
+        <li class="group m-0 p-0">
+          <a href={`${baseUrl}/${item.type}/${item.id}/`} class="flex items-center gap-4 bg-white p-4 rounded-xl border border-gray-100 hover:border-lime-accent hover:shadow-sm transition-all no-underline">
+            <div class="w-10 h-10 rounded-full bg-lime-accent/10 flex items-center justify-center flex-shrink-0 group-hover:bg-lime-accent/20 transition-colors">
+              {item.type === 'glossar' ? (
+                <span class="font-bold text-lime-700 text-xs">A-Z</span>
+              ) : (
+                <svg class="w-5 h-5 text-lime-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+              )}
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-bold text-gray-muted uppercase tracking-wider block mb-1">
+                {item.type === 'glossar' ? 'Glossar' : 'Blog'}
+              </span>
+              <span class="font-bold text-dark group-hover:text-lime-600 transition-colors line-clamp-2">
+                {item.data.title}
+              </span>
+            </div>
+            <div class="text-lime-600 opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}

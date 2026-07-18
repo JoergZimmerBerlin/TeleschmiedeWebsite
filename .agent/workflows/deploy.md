@@ -16,7 +16,10 @@ git commit -m "Deployment: [description of changes]"
 ```bash
 git push origin main
 ```
+4. Push updated URLs to Google Search Console
+```bash
+node scripts/gsc-auto-push.mjs
+```
 
 **WICHTIG (IONOS Hosting):**
 Beachte bei Problemen mit Redirects oder fehlender `.htaccess` unbedingt den [IONOS Standard](file:///.agent/ionos-standard.md). Das Deployment nutzt einen PHP-Aktivator, um Protokollsperren zu umgehen.
-

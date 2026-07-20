@@ -187,20 +187,6 @@ if (type === 'term') {
             </nav>
           )}
 
-          {relatedTerms.length > 0 && (
-            <div class="hidden lg:block p-6 bg-gray-50 border border-gray-100 rounded-3xl">
-              <h3 class="text-lg font-bold mb-4">Verwandte Begriffe</h3>
-              <div class="flex flex-col gap-2">
-                {relatedTerms.map((t) => (
-                  <a href={`${baseUrl}/glossar/${t.id}/`} 
-                    class="text-sm text-gray-muted hover:text-lime-600 transition-colors"
-                   title={t.data.title}>
-                    {t.data.title}
-                  </a>
-                ))}
-              </div>
-            </div>
-          )}
         </aside>
 
         <!-- Main Content -->
@@ -223,21 +209,6 @@ if (type === 'term') {
             <Content />
             {entry.data.faqs && <FAQAccordion faqs={entry.data.faqs} />}
 
-            <!-- Mobile Related Terms -->
-            {relatedTerms.length > 0 && (
-              <div class="lg:hidden mt-12 p-6 bg-gray-50 border border-gray-100 rounded-3xl text-left">
-                <h3 class="text-lg font-bold mb-4 !mt-0 !mb-4 border-none !pb-0">Verwandte Begriffe</h3>
-                <div class="flex flex-col gap-2">
-                  {relatedTerms.map((t) => (
-                    <a href={`${baseUrl}/glossar/${t.id}/`} 
-                      class="text-sm text-gray-muted hover:text-lime-600 transition-colors"
-                     title={t.data.title}>
-                      {t.data.title}
-                    </a>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
           <!-- CTA -->
           <div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
@@ -245,53 +216,11 @@ if (type === 'term') {
             <p class="text-gray-muted mb-6">Folge mir auf LinkedIn für tägliche SEO-Nuggets und diskutiere mit anderen Experten.</p>
             <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex" title="LinkedIn-Profil besuchen →">LinkedIn-Profil besuchen →</a>
           </div>
-          <RelatedLinks currentId={entry.id} currentTitle={entry.data.title} currentTags={entry.data.tags || []} />
+          <RelatedLinks currentId={entry.id} currentTitle={entry.data.title} currentTags={entry.data.category ? [entry.data.category] : []} />
         </div>
       </div>
 
-      <!-- Related Terms (Bottom) -->
-      {relatedTerms.length > 0 && (
-        <div class="mt-16 pt-12 border-t border-gray-100">
-          <h2 class="text-2xl font-bold mb-8">Verwandte Begriffe</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {relatedTerms.map(t => (
-              <a href={`${baseUrl}/glossar/${t.id}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all">
-                <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">
-                  Glossar
-                </span>
-                <h4 class="font-bold text-lg mb-2 group-hover:text-lime-600 transition-colors">
-                  {t.data.title}
-                </h4>
-                <p class="text-sm text-gray-muted line-clamp-2">
-                  {t.data.description}
-                </p>
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
 
-      <!-- Related Blog Posts (Cross-Linking) -->
-      {relatedBlogPosts.length > 0 && (
-        <div class="mt-16 pt-12 border-t border-gray-100 pb-20">
-          <h2 class="text-2xl font-bold mb-8">Passende Blog-Beiträge</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {relatedBlogPosts.map(post => (
-              <a href={`${baseUrl}/blog/${post.id}/`} class="group block bg-gray-50 border border-gray-100 rounded-xl p-6 hover:shadow-md transition-all">
-                <span class="text-[10px] font-bold text-dark bg-gray-200 px-2 py-0.5 rounded uppercase mb-3 inline-block">
-                  Blog
-                </span>
-                <h4 class="font-bold text-lg mb-2 group-hover:text-lime-600 transition-colors line-clamp-2">
-                  {post.data.title}
-                </h4>
-                <p class="text-sm text-gray-muted line-clamp-2">
-                  {post.data.description}
-                </p>
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
 
 
 

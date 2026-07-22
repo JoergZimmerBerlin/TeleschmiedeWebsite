@@ -17,6 +17,8 @@
 {
   "agent_auth": {
     "skill": "https://teleschmie.de/auth.md",
+    "register_uri": "https://teleschmie.de/kontakt/",
+    "registration_endpoint": "https://teleschmie.de/kontakt/",
     "identity_endpoint": "https://teleschmie.de/kontakt/",
     "claim_endpoint": "https://teleschmie.de/kontakt/",
     "events_endpoint": "https://teleschmie.de/kontakt/",
@@ -24,6 +26,21 @@
       "anonymous",
       "identity_assertion",
       "service_auth"
+    ],
+    "supported_identity_types": [
+      "anonymous",
+      "identity_assertion",
+      "service_auth"
+    ],
+    "credential_types": [
+      "none",
+      "anonymous"
+    ],
+    "registration_methods": [
+      "Auth.md",
+      "auth.md",
+      "public_open",
+      "none"
     ],
     "identity_assertion": {
       "assertion_types_supported": [

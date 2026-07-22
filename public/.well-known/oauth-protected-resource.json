@@ -2,9 +2,13 @@
   "resource": "https://teleschmie.de/",
   "resource_name": "Jörg Zimmer - SEO, SEA & AI Visibility Knowledge Base",
   "resource_documentation": "https://teleschmie.de/auth.md",
-  "authorization_servers": [],
+  "authorization_servers": [
+    "https://teleschmie.de/"
+  ],
   "scopes_supported": [
     "public:read"
   ],
-  "bearer_methods_supported": []
+  "bearer_methods_supported": [
+    "header"
+  ]
 }

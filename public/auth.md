@@ -7,11 +7,18 @@
 - Supported Identity Types: Autonomous AI Agents, LLM Crawlers, Web Bots, RAG Systems
 - Allowed Scopes: public:read, knowledge:search, mcp:access
 
+## Registration Flow
+
+1. **Discovery:** Agents fetch OAuth metadata from `https://teleschmie.de/.well-known/oauth-protected-resource` and `https://teleschmie.de/.well-known/oauth-authorization-server`.
+2. **Identification:** Agents present self-identified User-Agent metadata or A2A Protocol identity (`agent-card.json`).
+3. **Access:** Public access is granted automatically without mandatory token exchanges for scope `public:read`.
+4. **Registration Contact:** For elevated API access or custom MCP integrations, contact `info@teleschmie.de` or visit `https://teleschmie.de/kontakt/`.
+
 ## Authentication
 
 - Auth Type: Public / Unauthenticated
 - Bearer Token Required: No
-- OAuth / OIDC Server: Not required for public knowledge endpoints
+- OAuth / OIDC Server: https://teleschmie.de/.well-known/oauth-authorization-server
 - OAuth Protected Resource Metadata: https://teleschmie.de/.well-known/oauth-protected-resource
 
 ## Capabilities & Access Policy

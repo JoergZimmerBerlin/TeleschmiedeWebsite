@@ -3,7 +3,7 @@ category: "SEO Strategie & Content"
 title: "Topical Authority 2026: Die Königsdisziplin im KI & RAG Zeitalter"
 description: "Topical Authority entscheidet, ob LLMs, ChatGPT und Google deine Marke als führende Expertenquelle wahrnehmen und zitieren."
 date: "2026-07-22"
-image: "../../assets/images/glossar/3d-light/glossar-e-e-a-t-3d.webp"
+image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "Topical Authority 3D Infografik - SEO Strategie"
 related_terms: ["e-e-a-t", "information-gain", "interne-verlinkung"]
 key_takeaways:
@@ -29,7 +29,7 @@ Egal ob Google AI Overviews, Perplexity oder ChatGPT – moderne Antwort-Engines
 
 Besitzt deine Plattform die notwendige Tiefe und Expertise, um als unumstrittener Experte zu einem Fachthema zu gelten? Oder betreibst du einen sprachlichen Bauchladen, der von allem ein bisschen, aber nichts richtig versteht?
 
-![Topical Authority 3D Infografik](../../assets/images/glossar/3d-light/glossar-e-e-a-t-3d.webp)
+![Topical Authority 3D Infografik](../../assets/images/glossar/3d-light/glossar-eeat-3d.webp)
 
 ## Was ist Topical Authority genau?
 

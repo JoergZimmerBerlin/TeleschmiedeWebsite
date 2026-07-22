@@ -48,6 +48,8 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 ### Redaktionelle Richtlinien (Blog & Glossar)
 *Ziel: Die absolut beste, nutzerfreundlichste und technisch perfekteste Quelle zum jeweiligen Thema zu sein.*
 
+- **MANDATORY WEB RESEARCH (Juli 2026):** Bevor ein Glossar- oder Blog-Artikel geschrieben oder aktualisiert wird, MUSS zwingend das Internet (Web-Search Tools) durchsucht werden. KI-Trainingsdaten sind veraltet. Die Artikel müssen zwingend den tagesaktuellen Stand aus **Juli 2026** (bzw. dem aktuellen Tagesdatum) widerspiegeln.
+
 ### Artikel-Struktur & Länge (Bis zu 1.500 Wörter)
 - **Länge:** Blog-Artikel und Glossar-Beiträge sollen ausführlich sein (bis zu 1.500 Wörter), solange der Inhalt fesselnd, tiefgründig und exzellent bleibt.
 - **Zwingende Layout-Elemente (Immer erforderlich):**

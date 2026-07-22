@@ -27,9 +27,8 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     Header always set X-XSS-Protection "1; mode=block"
     Header always set X-Permitted-Cross-Domain-Policies "none"
     
-    # HSTS (1 Jahr + Preload)
-    # Wir nutzen 'set' statt 'always set' für HSTS, da IONOS 'always' bei 200 OK oft verschluckt.
-    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    # HSTS (2 Jahre + Preload - Bonus für Mozilla Observatory 120/100)
+    Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
     
     # Modern Isolation Policies
     Header always set Cross-Origin-Embedder-Policy "unsafe-none"
@@ -39,8 +38,8 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     # Permissions-Policy
     Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
     
-    # Content-Security-Policy (Standardisierte Absicherung)
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
+    # Content-Security-Policy (Standardisierte Absicherung & Observatory 120/100 Bonus)
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests;"
     
     # AI/Agent Discovery (RFC 8288)
     Header add Link "</llms.txt>; rel=\"llms\""

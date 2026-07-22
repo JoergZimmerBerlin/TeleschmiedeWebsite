@@ -1,0 +1,10 @@
+{
+  "resource": "https://teleschmie.de/",
+  "resource_name": "Jörg Zimmer - SEO, SEA & AI Visibility Knowledge Base",
+  "resource_documentation": "https://teleschmie.de/auth.md",
+  "authorization_servers": [],
+  "scopes_supported": [
+    "public:read"
+  ],
+  "bearer_methods_supported": []
+}

@@ -42,12 +42,12 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     # Content-Security-Policy (Standardisierte Absicherung)
     Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.google-analytics.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; upgrade-insecure-requests;"
     
-    # AI/Agent Discovery (RFC 8288)
-    Header add Link "</llms.txt>; rel=\"llms\""
-    Header add Link "</llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
-    Header add Link "</.well-known/webmcp.json>; rel=\"service-doc\""
-    Header add Link "</.well-known/mcp.json>; rel=\"service-doc\""
-    Header add Link "</.well-known/ai-plugin.json>; rel=\"service-doc\""
+    # AI/Agent Discovery (RFC 8288 IANA Standard)
+    Header add Link "<https://teleschmie.de/ueber-mich/>; rel=\"author\""
+    Header add Link "<https://teleschmie.de/seo-sprechstunde/>; rel=\"service-doc\""
+    Header add Link "<https://teleschmie.de/llms.txt>; rel=\"describedby\""
+    Header add Link "<https://teleschmie.de/llms-full.txt>; rel=\"alternate\"; type=\"text/markdown\""
+    Header add Link "<https://teleschmie.de/.well-known/agent-card.json>; rel=\"service-desc\"; type=\"application/json\""
     Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
 </IfModule>
 

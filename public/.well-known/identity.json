@@ -1,19 +1,15 @@
 {
-  "name": "Jörg Zimmer - SEO & AI Agent",
+  "name": "Jörg Zimmer - SEO, SEA & AI Visibility Expert",
   "domain": "teleschmie.de",
-  "description": "Verifiable agent identity and authority node for Jörg Zimmer - Teleschmiede.",
+  "description": "Verifiable agent identity and authority node for Jörg Zimmer (Freelancer, Berlin-Spandau). Specialist in Search Engine Optimization, Generative Engine Optimization (GEO), and Agentic AI Web Systems.",
   "owner": "Jörg Zimmer",
   "contact": "mailto:info@teleschmie.de",
   "version": "1.0",
-  "policy": "https://teleschmie.de/ai.txt",
+  "policy": "https://teleschmie.de/auth.md",
   "capabilities": [
     "seo-consulting",
     "generative-engine-optimization",
+    "agent-readiness-level-5",
     "knowledge-retrieval"
-  ],
-  "integrity_proof": {
-    "signature": "rGvzV0mip/gFBYRJOpxufLbo4c2rU4usAvgZadQyXfw9vTltd7LoMusBJIAzSyS/uytSXsjz1OARPQRzqB7yCQ==",
-    "created": "2026-07-16T11:45:42.391Z",
-    "public_key_ref": "dns:txt:_sovp.teleschmie.de"
-  }
+  ]
 }

@@ -4,9 +4,9 @@
       "anchor": "https://teleschmie.de/",
       "service-doc": [
         {
-          "href": "https://teleschmie.de/.well-known/ai-plugin.json",
+          "href": "https://teleschmie.de/.well-known/agent-card.json",
           "type": "application/json",
-          "title": "Jörg Zimmer Agent Plugin"
+          "title": "Jörg Zimmer A2A Agent Card"
         },
         {
           "href": "https://teleschmie.de/.well-known/mcp.json",
@@ -14,9 +14,9 @@
           "title": "Jörg Zimmer MCP Server"
         },
         {
-          "href": "https://teleschmie.de/.well-known/webmcp.json",
+          "href": "https://teleschmie.de/.well-known/ai-plugin.json",
           "type": "application/json",
-          "title": "Jörg Zimmer WebMCP Server"
+          "title": "Jörg Zimmer Agent Plugin"
         }
       ]
     }

@@ -100,6 +100,7 @@ const displayDescription = truncate(description, 150);
     <meta name="webmcp-server" content={`${siteUrl}/.well-known/mcp.json`} />
     
     <!-- WebMCP Client Tools Registration (Cloudflare Agent Readiness) -->
+    <script src={`${baseUrl}/js/webmcp.js`} defer></script>
     <script is:inline>
       (function() {
         if (!navigator.modelContext) {

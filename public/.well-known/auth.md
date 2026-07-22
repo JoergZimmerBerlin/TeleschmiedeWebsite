@@ -19,6 +19,8 @@
     "status": "public_open",
     "skill": "https://teleschmie.de/auth.md",
     "registration_methods": [
+      "Auth.md",
+      "auth.md",
       "public_open",
       "none",
       "contact"

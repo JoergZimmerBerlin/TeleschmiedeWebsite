@@ -1,0 +1,62 @@
+{
+  "issuer": "https://teleschmie.de",
+  "authorization_endpoint": "https://teleschmie.de/kontakt/",
+  "registration_endpoint": "https://teleschmie.de/kontakt/",
+  "token_endpoint": "https://teleschmie.de/auth.md",
+  "grant_types_supported": [
+    "implicit",
+    "none"
+  ],
+  "response_types_supported": [
+    "token"
+  ],
+  "scopes_supported": [
+    "public:read"
+  ],
+  "agent_auth": {
+    "skill": "https://teleschmie.de/auth.md",
+    "register_uri": "https://teleschmie.de/kontakt/",
+    "registration_endpoint": "https://teleschmie.de/kontakt/",
+    "identity_endpoint": "https://teleschmie.de/kontakt/",
+    "claim_endpoint": "https://teleschmie.de/kontakt/",
+    "events_endpoint": "https://teleschmie.de/kontakt/",
+    "identity_types_supported": [
+      "anonymous",
+      "identity_assertion",
+      "service_auth"
+    ],
+    "supported_identity_types": [
+      "anonymous",
+      "identity_assertion",
+      "service_auth"
+    ],
+    "credential_types": [
+      "none",
+      "anonymous"
+    ],
+    "registration_methods": [
+      "Auth.md",
+      "auth.md",
+      "public_open",
+      "none"
+    ],
+    "anonymous": {
+      "credential_types_supported": [
+        "none",
+        "anonymous"
+      ],
+      "claim_uri": "https://teleschmie.de/kontakt/"
+    },
+    "identity_assertion": {
+      "credential_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag"
+      ],
+      "assertion_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag"
+      ]
+    },
+    "events_supported": [
+      "https://schemas.workos.com/events/agent/auth/identity/assertion/revoked"
+    ]
+  }
+}

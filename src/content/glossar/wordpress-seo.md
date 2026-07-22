@@ -89,6 +89,6 @@ ALOHA 🌻
 </div>
 
 ### Wichtige Links für Gewinner
-* [Was ist diese technische KI-Optimierung überhaupt?](/glossar/agent-readiness/)
+* [Was ist diese technische KI-Optimierung überhaupt?](/glossar/agent-readiness-level/)
 * [Bing Webmaster Tools als RAG-Backend](/glossar/bing-webmastertools/)
 * [Die Google Search Console im harten KI-Zeitalter](/glossar/google-search-console/)

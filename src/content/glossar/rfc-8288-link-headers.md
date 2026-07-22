@@ -26,7 +26,7 @@ Lass uns das mal in Euro und Cent ausdrücken, denn am Ende des Tages geht es im
 
 Stell dir vor, du bist ein autonomer Agent von Perplexity oder Google, der den Auftrag hat, 10.000 Produktseiten zu scannen. Wenn du das über das klassische DOM machst, musst du Megabyte an HTML, CSS und wildem JavaScript runterladen. Du musst das komplette DOM aufbauen, das JS in einem Headless-Browser ausführen, das Rendering abwarten und dann den Baum durchforsten. Für eine KI, die in Millisekunden Zero-Click-Searches bedienen soll, ist das ein wirtschaftlicher Albtraum.
 
-Nutzt die Domain jedoch saubere HTTP Header-Links nach RFC 8288, ändert sich alles. Der Agent macht einen extrem leichtgewichtigen HEAD-Request. Der Server schickt ein paar Kilobyte an Headern zurück. In diesen Headern stehen, sauber formatiert, alle relevanten Links. Der Agent hat alle Navigationsinformationen, ohne das DOM auch nur angerührt zu haben. Die Tokenkosten für den Crawl sinken drastisch! Und rate mal, welche Seiten die KI als vertrauenswürdig einstuft? Richtig. Die mit den sauberen Headern. Mehr dazu in unserer [KI SEO Beratung](/beratung/).
+Nutzt die Domain jedoch saubere HTTP Header-Links nach RFC 8288, ändert sich alles. Der Agent macht einen extrem leichtgewichtigen HEAD-Request. Der Server schickt ein paar Kilobyte an Headern zurück. In diesen Headern stehen, sauber formatiert, alle relevanten Links. Der Agent hat alle Navigationsinformationen, ohne das DOM auch nur angerührt zu haben. Die Tokenkosten für den Crawl sinken drastisch! Und rate mal, welche Seiten die KI als vertrauenswürdig einstuft? Richtig. Die mit den sauberen Headern. Mehr dazu unter [Über mich & SEO-Leistungen](/ueber-mich/).
 
 ## Link Relations: Die Semantik der Maschinen (Agent Readiness)
 
@@ -51,13 +51,13 @@ Wenn ihr Anführungszeichen in die spitzen Klammern ballert, zerschießt ihr den
 So sieht das korrekt aus, schreibt euch das hinter die Ohren:
 `KORREKT: Header add Link "<https://teleschmie.de/api/>; rel=\"api-catalog\"; type=\"application/json\""`
 
-Das ist das kleine 1x1 der Server-Administration für 2026. Wenn ihr Änderungen per FTP hochladet, müsst ihr danach zwingend das Skript `https://teleschmie.de/activate_htaccess.php` aufrufen, damit es greift! Wenn eure Entwickler da überfordert sind, schickt sie zu uns oder bucht unser [Tech-Audit](/audit/).
+Das ist das kleine 1x1 der Server-Administration für 2026. Wenn ihr Änderungen per FTP hochladet, müsst ihr danach zwingend das Skript `https://teleschmie.de/activate_htaccess.php` aufrufen, damit es greift! Wenn eure Entwickler da überfordert sind, schickt sie zu uns oder bucht direkt meine [SEO-Sprechstunde](/seo-sprechstunde/).
 
 ## Die unbedingte Notwendigkeit von Trailing Slashes
 
 Und wo wir gerade bei den Basics sind, die erstaunlich viele immer noch falsch machen: Achtet auf die verdammten Trailing Slashes! Interne Links müssen zwingend auf einem `/` enden. Ein Link auf `https://teleschmie.de/blog/` ist technisch gesehen ein völlig anderer Endpunkt als ohne Slash. 
 
-Wenn ihr die Slashes in euren Link-Headern weglasst, zwingt ihr den Agenten beim Aufruf in einen serverseitigen Redirect (301 oder 308). Was bedeutet das? Richtig, es kostet wieder Rechenleistung, es kostet Zeit, es kostet Token. Die KI Navigation wird durch unnötige Redirect-Chains ausgebremst. Also: Saubere Syntax, nackte URLs in den spitzen Klammern, Trailing Slashes dran. Lest euch unsere [Case Studies](/case-studies/) durch!
+Wenn ihr die Slashes in euren Link-Headern weglasst, zwingt ihr den Agenten beim Aufruf in einen serverseitigen Redirect (301 oder 308). Was bedeutet das? Richtig, es kostet wieder Rechenleistung, es kostet Zeit, es kostet Token. Die KI Navigation wird durch unnötige Redirect-Chains ausgebremst. Also: Saubere Syntax, nackte URLs in den spitzen Klammern, Trailing Slashes dran. Erfahrt mehr in den [Kunden-Bewertungen zur SEO-Sprechstunde](/blog/seo-sprechstunde-bewertung-ronny/).
 
 ## Hreflang und PDFs: Ein Spezialfall für Link Headers
 
@@ -68,7 +68,7 @@ Achtet aber darauf, euch zu entscheiden: Nutzt entweder HTML-Tags oder HTTP-Head
 
 Das bringt mich zu einem enorm wichtigen strategischen Punkt: HTTP-Header sind das neue Gold im Agentic SEO. Die Suchmaschinenbetreiber von heute hassen nichts mehr als unstrukturierte, schwer zu parsende Datenhaufen. Wenn ihr eure Seite über RFC 8288 komplett maschinenlesbar strukturiert, sendet ihr ein massives Autoritätssignal. Ihr ruft der KI zu: "Wir haben unsere Infrastruktur im Griff!"
 
-Während die Konkurrenz sich abmüht, interne HTML-Linktexte zu optimieren, legt ihr die echten architektonischen Zusammenhänge in den Netzwerk-Layer. Lest dazu auch unsere detaillierten [Strategie-Guides](/strategie/).
+Während die Konkurrenz sich abmüht, interne HTML-Linktexte zu optimieren, legt ihr die echten architektonischen Zusammenhänge in den Netzwerk-Layer. Hier könnt ihr direkt meine [SEO-Sprechstunde buchen](/seo-sprechstunde/) oder euch in den [LLMs.txt Leitfaden](/glossar/llms-txt/) einlesen.
 
 ## Fazit: Räumt eure verdammten Header auf!
 

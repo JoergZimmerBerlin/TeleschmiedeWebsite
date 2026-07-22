@@ -1,18 +1,43 @@
 [
   {
+    "url": "https://teleschmie.de/glossar/google-core-update/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-20T19:27:37Z"
+  },
+  {
     "url": "https://teleschmie.de/glossar/schema-org-markup/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-18T11:20:57Z"
+    "lastCrawlTime": "2026-07-20T11:23:59Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/conversion-rate/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-07-19T13:31:16Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-essentials-ai-tracking-einsteiger/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-19T03:54:07Z"
+  },
+  {
+    "url": "https://teleschmie.de/groundingpage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-19T01:53:33Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/title-tag/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-18T20:22:16Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-search-console-einrichtung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-18T14:03:54Z"
   },
   {
     "url": "https://teleschmie.de/glossar/rfc-8288-link-headers/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-07-17T22:05:24Z"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/http-message-signatures/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T22:05:23Z"
   },
   {
     "url": "https://teleschmie.de/glossar/identity-json/",
@@ -55,6 +80,11 @@
     "lastCrawlTime": "2026-07-17T14:06:19Z"
   },
   {
+    "url": "https://teleschmie.de/glossar/ai-plugin-json/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z"
+  },
+  {
     "url": "https://teleschmie.de/glossar/ai-txt/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-07-17T14:06:19Z"
@@ -75,9 +105,14 @@
     "lastCrawlTime": "2026-07-17T11:59:16Z"
   },
   {
-    "url": "https://teleschmie.de/",
+    "url": "https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T11:00:53Z"
+    "lastCrawlTime": "2026-07-15T23:06:07Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/markenaufbau-mit-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-15T10:48:22Z"
   },
   {
     "url": "https://teleschmie.de/glossar/geo-audit/",
@@ -93,11 +128,6 @@
     "url": "https://teleschmie.de/glossar/seo-stammtisch-berlin/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-07-15T10:48:18Z"
-  },
-  {
-    "url": "https://teleschmie.de/blog/seo-sprechstunde-erklaert/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-07-15T10:46:18Z"
   },
   {
     "url": "https://teleschmie.de/blog/ai-seo/",
@@ -120,9 +150,9 @@
     "lastCrawlTime": "2026-07-11T14:48:24Z"
   },
   {
-    "url": "https://teleschmie.de/groundingpage-en/",
+    "url": "https://teleschmie.de/blog/core-web-vitals-ux-bericht/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-10T19:17:48Z"
+    "lastCrawlTime": "2026-07-11T08:47:09Z"
   },
   {
     "url": "https://teleschmie.de/impressum/",
@@ -170,6 +200,11 @@
     "lastCrawlTime": "2026-07-09T08:16:31Z"
   },
   {
+    "url": "https://teleschmie.de/blog/80-prozent-seo-fehler-sprechstunde/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:14:54Z"
+  },
+  {
     "url": "https://teleschmie.de/blog/stefan-godulla-campixx/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-07-09T08:12:30Z"
@@ -178,11 +213,6 @@
     "url": "https://teleschmie.de/tools/groundingpage-generator/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-07-07T18:26:54Z"
-  },
-  {
-    "url": "https://teleschmie.de/blog/rankscale-essentials-ai-tracking-einsteiger/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-07-07T11:59:45Z"
   },
   {
     "url": "https://teleschmie.de/blog/ai-geo-sichtbarkeit-umfrage/",
@@ -198,11 +228,6 @@
     "url": "https://teleschmie.de/blog/se-ranking-ai-tracker/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-07-07T11:56:43Z"
-  },
-  {
-    "url": "https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-07-07T11:54:38Z"
   },
   {
     "url": "https://teleschmie.de/blog/ms-clarity-session-campixx/",
@@ -255,6 +280,11 @@
     "lastCrawlTime": "2026-06-25T12:47:29Z"
   },
   {
+    "url": "https://teleschmie.de/blog/campixx-networking-conversion-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-25T12:39:26Z"
+  },
+  {
     "url": "https://teleschmie.de/blog/seorch-seo-tool-fanboy/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-06-25T12:39:25Z"
@@ -290,8 +320,13 @@
     "lastCrawlTime": "2026-06-14T20:44:54Z"
   },
   {
-    "url": "https://teleschmie.de/blog/generative-engine-optimization-geo/",
+    "url": "https://teleschmie.de/glossar/sichtbarkeitsmanagement/",
     "verdict": "PASS",
+    "lastCrawlTime": "2026-06-14T20:42:55Z"
+  },
+  {
+    "url": "https://teleschmie.de/blog/generative-engine-optimization-geo/",
+    "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-06-13T21:13:33Z"
   },
   {
@@ -391,7 +426,7 @@
   },
   {
     "url": "https://teleschmie.de/glossar/geo-vs-seo/",
-    "verdict": "PASS",
+    "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-05-25T01:52:32Z"
   },
   {
@@ -413,11 +448,6 @@
     "url": "https://teleschmie.de/glossar/bing-webmastertools/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-05-24T05:48:38Z"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/ueberstunde-berlin/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-05-24T05:36:15Z"
   },
   {
     "url": "https://teleschmie.de/blog/ai-seo-geo-praktikanten/",
@@ -450,6 +480,11 @@
     "lastCrawlTime": "2026-05-23T01:10:51Z"
   },
   {
+    "url": "https://teleschmie.de/glossar/seo-basics-onpage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T00:45:17Z"
+  },
+  {
     "url": "https://teleschmie.de/glossar/e-e-a-t-offpage/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-05-23T00:45:16Z"
@@ -458,6 +493,16 @@
     "url": "https://teleschmie.de/glossar/technisches-seo-ux/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-05-23T00:45:15Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/h1-h2-h3/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T00:02:57Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/faq-markup/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:59:29Z"
   },
   {
     "url": "https://teleschmie.de/glossar/expertise-eeat/",
@@ -480,11 +525,6 @@
     "lastCrawlTime": "2026-05-22T23:46:21Z"
   },
   {
-    "url": "https://teleschmie.de/groundingpage/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-05-22T22:40:30Z"
-  },
-  {
     "url": "https://teleschmie.de/blog/omr-freelancer-stand-roi/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-05-22T09:41:34Z"
@@ -496,7 +536,7 @@
   },
   {
     "url": "https://teleschmie.de/blog/linkedin-ist-ein-forum-seo/",
-    "verdict": "PASS",
+    "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-05-14T20:21:56Z"
   },
   {
@@ -548,16 +588,6 @@
     "url": "https://teleschmie.de/glossar/traffic/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-04-21T19:01:27Z"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/title-tag/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-04-21T19:01:26Z"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/google-core-update/",
-    "verdict": "NEUTRAL",
-    "lastCrawlTime": "2026-04-21T18:59:25Z"
   },
   {
     "url": "https://teleschmie.de/glossar/pagespeed/",
@@ -615,12 +645,12 @@
     "lastCrawlTime": "2026-04-13T09:09:41Z"
   },
   {
-    "url": "https://teleschmie.de/glossar/cpc/",
-    "verdict": "PASS",
+    "url": "https://teleschmie.de/glossar/crawler/",
+    "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-31T08:53:31Z"
   },
   {
-    "url": "https://teleschmie.de/glossar/crawler/",
+    "url": "https://teleschmie.de/glossar/crawling-vs-indexing/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-31T08:53:31Z"
   },
@@ -635,11 +665,6 @@
     "lastCrawlTime": "2026-03-28T03:00:05Z"
   },
   {
-    "url": "https://teleschmie.de/glossar/404-fehlerseiten/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-03-28T01:32:31Z"
-  },
-  {
     "url": "https://teleschmie.de/glossar/geo-optimierung/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-27T06:03:25Z"
@@ -650,12 +675,12 @@
     "lastCrawlTime": "2026-03-25T09:00:20Z"
   },
   {
-    "url": "https://teleschmie.de/glossar/301-vs-302/",
+    "url": "https://teleschmie.de/glossar/canonical-tag/",
     "verdict": "NEUTRAL",
-    "lastCrawlTime": "2026-03-25T09:00:19Z"
+    "lastCrawlTime": "2026-03-25T09:00:20Z"
   },
   {
-    "url": "https://teleschmie.de/glossar/authoritativeness-eeat/",
+    "url": "https://teleschmie.de/glossar/301-vs-302/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-25T09:00:19Z"
   },
@@ -663,11 +688,6 @@
     "url": "https://teleschmie.de/glossar/strukturierte-daten/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-25T08:58:19Z"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/conversion-rate/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-03-23T12:54:37Z"
   },
   {
     "url": "https://teleschmie.de/blog/ai-connect-berlin-networking/",
@@ -678,6 +698,11 @@
     "url": "https://teleschmie.de/glossar/keyword-tool/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-20T18:28:40Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entity-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-20T18:26:37Z"
   },
   {
     "url": "https://teleschmie.de/glossar/keywordrecherche/",
@@ -698,6 +723,21 @@
     "url": "https://teleschmie.de/glossar/rag/",
     "verdict": "PASS",
     "lastCrawlTime": "2026-03-19T17:22:19Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-seo-beratung/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/website-relaunch/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:18Z"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/chatgpt-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:17Z"
   },
   {
     "url": "https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/",
@@ -756,7 +796,7 @@
   },
   {
     "url": "https://teleschmie.de/glossar/google-search-console/",
-    "verdict": "PASS",
+    "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-12T13:28:39Z"
   },
   {
@@ -771,13 +811,8 @@
   },
   {
     "url": "https://teleschmie.de/glossar/seo-beratung/",
-    "verdict": "PASS",
+    "verdict": "NEUTRAL",
     "lastCrawlTime": "2026-03-10T22:28:45Z"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/seo-audit/",
-    "verdict": "PASS",
-    "lastCrawlTime": "2026-03-10T15:44:00Z"
   },
   {
     "url": "https://teleschmie.de/blog/liebe-bots-crawler-agenten/",
@@ -800,18 +835,13 @@
     "lastCrawlTime": "2026-02-27T19:45:26Z"
   },
   {
-    "url": "https://teleschmie.de/blog/rankscale-ai-visibility-tool/",
-    "verdict": "NEUTRAL",
-    "lastCrawlTime": "2026-02-20T00:46:16Z"
-  },
-  {
-    "url": "https://teleschmie.de/blog/80-prozent-seo-fehler-sprechstunde/",
+    "url": "https://teleschmie.de/glossar/http-message-signatures/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
   },
   {
-    "url": "https://teleschmie.de/blog/campixx-networking-conversion-optimierung/",
+    "url": "https://teleschmie.de/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
@@ -820,12 +850,6 @@
     "url": "https://teleschmie.de/blog/campixx-video-roland-golla/",
     "verdict": "NEUTRAL",
     "lastCrawlTime": null
-  },
-  {
-    "url": "https://teleschmie.de/blog/core-web-vitals-ux-bericht/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
   },
   {
     "url": "https://teleschmie.de/blog/freelance-unlocked-eis-erfolgreich/",
@@ -838,7 +862,19 @@
     "lastCrawlTime": null
   },
   {
+    "url": "https://teleschmie.de/blog/rankscale-ai-visibility-tool/",
+    "verdict": "ERROR",
+    "lastCrawlTime": null,
+    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
+  },
+  {
     "url": "https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/",
+    "verdict": "ERROR",
+    "lastCrawlTime": null,
+    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-erklaert/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
@@ -854,7 +890,7 @@
     "lastCrawlTime": null
   },
   {
-    "url": "https://teleschmie.de/glossar/ai-plugin-json/",
+    "url": "https://teleschmie.de/glossar/404-fehlerseiten/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
@@ -865,54 +901,13 @@
     "lastCrawlTime": null
   },
   {
-    "url": "https://teleschmie.de/glossar/canonical-tag/",
+    "url": "https://teleschmie.de/glossar/authoritativeness-eeat/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
   },
   {
-    "url": "https://teleschmie.de/glossar/chatgpt-seo/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/crawling-vs-indexing/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/entity-seo/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/faq-markup/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/google-search-console-einrichtung/",
-    "verdict": "NEUTRAL",
-    "lastCrawlTime": null
-  },
-  {
-    "url": "https://teleschmie.de/glossar/h1-h2-h3/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/ki-seo-beratung/",
-    "verdict": "ERROR",
-    "lastCrawlTime": null,
-    "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
-  },
-  {
-    "url": "https://teleschmie.de/glossar/markenaufbau-mit-seo/",
+    "url": "https://teleschmie.de/glossar/cpc/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
@@ -923,19 +918,19 @@
     "lastCrawlTime": null
   },
   {
-    "url": "https://teleschmie.de/glossar/seo-basics-onpage/",
+    "url": "https://teleschmie.de/glossar/seo-audit/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
   },
   {
-    "url": "https://teleschmie.de/glossar/sichtbarkeitsmanagement/",
+    "url": "https://teleschmie.de/glossar/ueberstunde-berlin/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"
   },
   {
-    "url": "https://teleschmie.de/glossar/website-relaunch/",
+    "url": "https://teleschmie.de/groundingpage-en/",
     "verdict": "ERROR",
     "lastCrawlTime": null,
     "error": "Backend error: net/http: cannot rewind body after connection loss (tunnel searchconsole.googleapis.com:443)\n"

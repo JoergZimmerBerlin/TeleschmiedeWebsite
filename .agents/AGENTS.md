@@ -17,3 +17,10 @@
   - Sobald ein neuer Blog- oder Glossar-Artikel geschrieben oder überarbeitet wird, müssen zwingend **mindestens 3 In-Text-Links** zu bestehenden Artikeln der Website eingefügt werden.
   - Der Anker-Text (Linktext) muss thematisch passen und idealerweise exakt der H1-Überschrift oder dem Meta-Title der Ziel-URL entsprechen.
   - Diese Regel verhindert die Entstehung von Orphan Pages und sichert eine tiefe Crawlability.
+  - **STRIKTE EXISTENZ-PRÜFUNG:** Es darf ZWINGEND NUR auf interne URLs verlinkt werden, deren Zieldatei/Route tatsächlich im Projekt existiert. Erfundene Links auf nicht-existierende Pfade sind strengstens untersagt!
+
+- **SE Ranking Daten-Abfrage (Standard & Backup):**
+  - **Standardweg (MCP):** Alle Datenabfragen zu SE Ranking (Keywords, Backlinks, Audits, Competitors, AI Search etc.) müssen ZWINGEND primär über die nativen MCP-Tools (`se-ranking/...`) ausgeführt werden.
+  - **Backupweg (REST-API):** Die Skripte `scripts/se_ranking_fetch.py` und `scripts/se_ranking_teleschmie.py` im Projektordner dienen ausschließlich als Fallback, falls der MCP-Server temporär unerreichbar ist.
+
+

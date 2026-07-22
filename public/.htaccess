@@ -21,6 +21,10 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     ForceType 'application/json; charset=UTF-8'
 </Files>
 
+<Files "oauth-authorization-server">
+    ForceType 'application/json; charset=UTF-8'
+</Files>
+
 # 2. Security Headers (Best-in-Class A+ Härtung)
 # Hinweis: Wir nutzen 'always set' für maximale Abdeckung, aber 'set' für CSP zur Kompatibilität.
 <IfModule mod_headers.c>

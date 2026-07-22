@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+
+# Concurrency Control: Prevents parallel SFTP collisions on IONOS by cancelling superseded runs
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Build
@@ -48,7 +54,7 @@ jobs:
           pass: ${{ secrets.FTP_PASSWORD }}
           localDir: './dist'
           remoteDir: '.'
-          options: '--verbose --parallel=10 --delete'
+          options: '--verbose --parallel=4 --delete'
 
       - name: Activate .htaccess (PHP-Aktivator)
         run: |

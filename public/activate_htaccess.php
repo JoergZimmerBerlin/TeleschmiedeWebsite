@@ -44,7 +44,7 @@ if (file_exists('.well-known/Auth.md')) @unlink('.well-known/Auth.md');
 if (file_exists('Auth.md')) @unlink('Auth.md');
 if (file_exists('well-known-export/Auth.md')) @unlink('well-known-export/Auth.md');
 
-$wellKnownFiles = ['webmcp.json', 'mcp.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory', 'agent-card.json', 'agent-skills/index.json', 'auth.md', 'sovp-identity.json', 'identity.json', 'oauth-protected-resource', 'oauth-protected-resource.json', 'oauth-authorization-server', 'oauth-authorization-server.json'];
+$wellKnownFiles = ['webmcp.json', 'mcp.json', 'ai-plugin.json', 'api-catalog', 'http-message-signatures-directory', 'agent-card.json', 'agent-skills/index.json', 'auth.md', 'sovp-identity.json', 'identity.json', 'oauth-protected-resource', 'oauth-protected-resource.json', 'oauth-authorization-server', 'oauth-authorization-server.json', 'openid-configuration', 'openid-configuration.json'];
 foreach ($wellKnownFiles as $file) {
     $srcFile = 'well-known-export/' . $file;
     $destFile = '.well-known/' . $file;

@@ -16,25 +16,22 @@
 ```json
 {
   "agent_auth": {
-    "status": "public_open",
     "skill": "https://teleschmie.de/auth.md",
-    "registration_methods": [
-      "Auth.md",
-      "auth.md",
-      "public_open",
-      "none",
-      "contact"
+    "identity_endpoint": "https://teleschmie.de/kontakt/",
+    "claim_endpoint": "https://teleschmie.de/kontakt/",
+    "events_endpoint": "https://teleschmie.de/kontakt/",
+    "identity_types_supported": [
+      "anonymous",
+      "identity_assertion",
+      "service_auth"
     ],
-    "registration_endpoint": "https://teleschmie.de/kontakt/",
-    "register_uri": "https://teleschmie.de/kontakt/",
-    "supported_identity_types": [
-      "ai_agent",
-      "web_bot",
-      "llm_crawler"
-    ],
-    "credential_types": [
-      "none",
-      "anonymous"
+    "identity_assertion": {
+      "assertion_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag"
+      ]
+    },
+    "events_supported": [
+      "https://schemas.workos.com/events/agent/auth/identity/assertion/revoked"
     ],
     "authorization_server": "https://teleschmie.de/.well-known/oauth-authorization-server",
     "scopes_supported": [
@@ -44,14 +41,24 @@
 }
 ```
 
-## Registration Flow
+## Step 1 — Discover
+Discovery is two hops.
+1. Fetch the Protected Resource Metadata: `GET /.well-known/oauth-protected-resource`
+2. Fetch the Authorization Server metadata: `GET /.well-known/oauth-authorization-server`
 
-To register an autonomous AI agent for public access on Jörg Zimmer Knowledge Base (teleschmie.de):
+## Step 2 — Pick a method
+Use this decision tree:
+1. **identity_assertion + id-jag**
+2. **service_auth**
+3. **anonymous**
 
-1. **Endpoint Discovery:** Query OAuth metadata from https://teleschmie.de/.well-known/oauth-protected-resource and https://teleschmie.de/.well-known/oauth-authorization-server.
-2. **Client Identification:** Provide Agent User-Agent header or A2A Protocol identity (`agent-card.json`).
-3. **Authorization:** No token exchange required for scope `public:read`. Access status is `public_open`.
-4. **Registration Request:** For elevated API scopes or custom integrations, submit registration to `https://teleschmie.de/kontakt/` or `mailto:info@teleschmie.de`.
+## Step 3 — Register
+### identity_assertion + id-jag
+Mint the assertion with aud = the resource from the PRM.
+### service_auth
+Claim ceremony required.
+### anonymous
+Claim ceremony optional.
 
 ## Authentication
 

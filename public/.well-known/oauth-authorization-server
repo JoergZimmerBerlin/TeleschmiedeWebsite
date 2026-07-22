@@ -14,26 +14,22 @@
     "public:read"
   ],
   "agent_auth": {
-    "status": "public_open",
     "skill": "https://teleschmie.de/auth.md",
-    "registration_methods": [
-      "Auth.md",
-      "auth.md",
-      "public_open",
-      "none",
-      "contact"
+    "identity_endpoint": "https://teleschmie.de/kontakt/",
+    "claim_endpoint": "https://teleschmie.de/kontakt/",
+    "events_endpoint": "https://teleschmie.de/kontakt/",
+    "identity_types_supported": [
+      "anonymous",
+      "identity_assertion",
+      "service_auth"
     ],
-    "registration_endpoint": "https://teleschmie.de/kontakt/",
-    "register_uri": "https://teleschmie.de/kontakt/",
-    "registration_url": "https://teleschmie.de/kontakt/",
-    "supported_identity_types": [
-      "ai_agent",
-      "web_bot",
-      "llm_crawler"
-    ],
-    "credential_types": [
-      "none",
-      "anonymous"
+    "identity_assertion": {
+      "assertion_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag"
+      ]
+    },
+    "events_supported": [
+      "https://schemas.workos.com/events/agent/auth/identity/assertion/revoked"
     ]
   }
 }

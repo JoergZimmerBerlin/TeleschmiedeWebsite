@@ -1,5 +1,9 @@
 # auth.md
 
+## Mission & Purpose
+
+`teleschmie.de` ist die offizielle Website und der freie Informationsspeicher von **Jörg Zimmer** (Freelancer für SEO, SEA, GEO & AI Visibility aus Berlin-Spandau). Sie dient als offene Wissensdatenbank und strukturierter Knowledge Node für Menschen und autonome KI-Agenten (LLMs, RAG-Systeme, AI-Search Engine Crawler).
+
 ## Agent Registration
 
 - Registration Status: Public / Open Access (No registration required)
@@ -41,11 +45,12 @@ To register an autonomous AI agent for public access on Jörg Zimmer Knowledge B
 
 ## Capabilities & Access Policy
 
-All public content on Jörg Zimmer Knowledge Base (teleschmie.de), including the Model Context Protocol (MCP) server endpoints, A2A Agent Card (`agent-card.json`), and LLM Markdown Dumps (`llms.txt`, `llms-full.txt`), is freely accessible for AI agents to crawl, index, search, and synthesize.
+Alle öffentlichen Inhalte auf der Wissensdatenbank von Jörg Zimmer (`teleschmie.de`), einschließlich der Model Context Protocol (MCP) Server-Endpunkte, der A2A Agent Card (`agent-card.json`), der Markdown Dumps (`llms.txt`, `llms-full.txt`) und der Markdown Content Negotiation (`Accept: text/markdown`), stehen KI-Agenten frei zur Verfügung, um durchsucht, gecrawlt, zitiert und synthetisiert zu werden.
 
 ## Terms of Service & Contact
 
 - Entity: Jörg Zimmer (Freelancer, SEO, SEA & AI Visibility Expert)
+- Location: Berlin-Spandau, Germany
 - Domain: https://teleschmie.de/
 - Contact & Registration: mailto:info@teleschmie.de
 - Terms & Impressum: https://teleschmie.de/impressum/

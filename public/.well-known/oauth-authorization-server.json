@@ -1,5 +1,5 @@
 {
-  "issuer": "https://teleschmie.de/",
+  "issuer": "https://teleschmie.de",
   "authorization_endpoint": "https://teleschmie.de/kontakt/",
   "registration_endpoint": "https://teleschmie.de/kontakt/",
   "token_endpoint": "https://teleschmie.de/auth.md",
@@ -16,8 +16,14 @@
   "agent_auth": {
     "status": "public_open",
     "skill": "https://teleschmie.de/auth.md",
+    "registration_methods": [
+      "public_open",
+      "none",
+      "contact"
+    ],
     "registration_endpoint": "https://teleschmie.de/kontakt/",
     "register_uri": "https://teleschmie.de/kontakt/",
+    "registration_url": "https://teleschmie.de/kontakt/",
     "supported_identity_types": [
       "ai_agent",
       "web_bot",

@@ -42,7 +42,17 @@
       "public_open",
       "none"
     ],
+    "anonymous": {
+      "credential_types_supported": [
+        "none",
+        "anonymous"
+      ],
+      "claim_uri": "https://teleschmie.de/kontakt/"
+    },
     "identity_assertion": {
+      "credential_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag"
+      ],
       "assertion_types_supported": [
         "urn:ietf:params:oauth:token-type:id-jag"
       ]

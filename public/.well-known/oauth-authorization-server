@@ -15,6 +15,7 @@
   ],
   "agent_auth": {
     "status": "public_open",
+    "skill": "https://teleschmie.de/auth.md",
     "registration_endpoint": "https://teleschmie.de/kontakt/",
     "register_uri": "https://teleschmie.de/kontakt/",
     "supported_identity_types": [

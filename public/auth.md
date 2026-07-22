@@ -13,6 +13,7 @@
 {
   "agent_auth": {
     "status": "public_open",
+    "skill": "https://teleschmie.de/auth.md",
     "registration_endpoint": "https://teleschmie.de/kontakt/",
     "authorization_server": "https://teleschmie.de/.well-known/oauth-authorization-server",
     "scopes_supported": [

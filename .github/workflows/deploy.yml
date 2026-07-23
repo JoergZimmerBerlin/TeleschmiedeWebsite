@@ -56,11 +56,11 @@ jobs:
           remoteDir: '.'
           options: '--verbose --parallel=4 --delete'
 
-      - name: Activate .htaccess (PHP-Aktivator)
+      - name: Trigger IONOS .htaccess Activation
         run: |
           sleep 5
-          curl -s https://teleschmie.de/activate_htaccess.php
-          echo "Activation script triggered."
+          curl -s "https://teleschmie.de/activate_htaccess.php?token=teleschmiede_deploy_2026"
+          echo "Activation script called."
 
       - name: Final Verification
         run: echo "Deployment complete for Build $(cat dist/build.txt)"

@@ -114,5 +114,42 @@ if (mode === '--execute') {
     }
   }
 
-  pushToGSC();
+  async function pushToBingIndexNow() {
+    console.log(`\n🚀 [IndexNow Auto-Push] Sende ${urlsToPush.length} URLs an Bing (IndexNow)...`);
+    const payload = {
+      host: "teleschmie.de",
+      key: "b0664caa2c95554fd86ef4e236fb1b82",
+      keyLocation: "https://teleschmie.de/b0664caa2c95554fd86ef4e236fb1b82.txt",
+      urlList: urlsToPush
+    };
+
+    try {
+      const response = await fetch("https://api.indexnow.org/indexnow", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        body: JSON.stringify(payload)
+      });
+      
+      if (response.ok) {
+        console.log(`   ✅ Erfolgreich an IndexNow (Bing etc.) gesendet (HTTP ${response.status})`);
+      } else if (response.status === 429) {
+        console.warn(`   ⚠️ Rate Limit erreicht (HTTP 429). Bitte warte etwas.`);
+      } else {
+        console.error(`   ❌ Fehler beim Senden an IndexNow (HTTP ${response.status})`);
+        const text = await response.text();
+        console.error(`      Details: ${text}`);
+      }
+    } catch (err) {
+      console.error('❌ IndexNow Netzwerkfehler:', err.message);
+    }
+  }
+
+  async function runAll() {
+    await pushToGSC();
+    await pushToBingIndexNow();
+  }
+
+  runAll();
 }

@@ -53,3 +53,6 @@ _work/
 
 # Google Search Console (Credentials)
 gsc-credentials.json
+
+# Bing Webmaster API (Credentials)
+bing-credentials.json

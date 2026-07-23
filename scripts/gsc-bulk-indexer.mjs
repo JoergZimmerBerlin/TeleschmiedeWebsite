@@ -20,6 +20,13 @@ if (!fs.existsSync(sitemapPath)) {
 
 const key = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
 
+const bingKeyPath = path.join(__dirname, '..', 'bing-credentials.json');
+if (!fs.existsSync(bingKeyPath)) {
+  console.error('❌ Fehler: bing-credentials.json nicht gefunden.');
+  process.exit(1);
+}
+const bingKey = JSON.parse(fs.readFileSync(bingKeyPath, 'utf8')).BING_WEBMASTER_API_KEY;
+
 // Wir brauchen BEIDE Scopes: Webmasters für den Check, Indexing für den Push
 const auth = new google.auth.GoogleAuth({
   keyFile: keyPath,
@@ -48,6 +55,7 @@ async function runBulkIndexer() {
 
     let unindexedCount = 0;
     let successCount = 0;
+    const indexNowUrls = [];
 
     for (let i = 0; i < urls.length; i++) {
       const url = urls[i];
@@ -69,34 +77,88 @@ async function runBulkIndexer() {
         
         if (verdict !== 'PASS') {
           unindexedCount++;
-          console.log(`   ❌ Nicht im Index (${result.indexStatusResult.coverageState}). Pushe zur Indexing API...`);
+          console.log(`   ❌ [Google] Nicht im Index (${result.indexStatusResult.coverageState}). Pushe zur Indexing API...`);
           
           try {
             await indexing.urlNotifications.publish({
               requestBody: { url: url, type: 'URL_UPDATED' },
             });
-            console.log(`   ✅ Erfolgreich gepusht!`);
+            console.log(`   ✅ [Google] Erfolgreich gepusht!`);
             successCount++;
           } catch (pushErr) {
-            console.error(`   ⚠️ Push fehlgeschlagen:`, pushErr.message);
+            console.error(`   ⚠️ [Google] Push fehlgeschlagen:`, pushErr.message);
           }
         } else {
-          console.log(`   ✅ Bereits indexiert.`);
+          console.log(`   ✅ [Google] Bereits indexiert.`);
         }
 
       } catch (checkErr) {
-        console.error(`   ⚠️ Check fehlgeschlagen:`, checkErr.message);
+        console.error(`   ⚠️ [Google] Check fehlgeschlagen:`, checkErr.message);
+      }
+
+      // --- Bing Check ---
+      try {
+        const bingApiUrl = `https://ssl.bing.com/webmaster/api.svc/json/GetUrlInfo?siteUrl=https://teleschmie.de/&url=${url}&apikey=${bingKey}`;
+        const bingRes = await fetch(bingApiUrl);
+        if (bingRes.ok) {
+          const bingData = await bingRes.json();
+          const lastCrawled = bingData?.d?.LastCrawledDate;
+          
+          if (lastCrawled === "/Date(-62135568000000-0800)/" || !lastCrawled) {
+            console.log(`   ❌ [Bing] Nie gecrawlt. Merke für IndexNow vor...`);
+            indexNowUrls.push(url);
+          } else {
+            // Optional: Datum lesbar machen für den Log
+            const timestamp = parseInt(lastCrawled.match(/\\/Date\\((-?\\d+)[-\\+]\\d+\\)\\//)?.[1] || 0);
+            const dateStr = timestamp > 0 ? new Date(timestamp).toLocaleDateString() : "Unbekannt";
+            console.log(`   ✅ [Bing] Bereits gecrawlt (Zuletzt: ${dateStr}).`);
+          }
+        } else {
+          console.error(`   ⚠️ [Bing] Check API Fehler (HTTP ${bingRes.status})`);
+        }
+      } catch (bingErr) {
+        console.error(`   ⚠️ [Bing] Check fehlgeschlagen:`, bingErr.message);
       }
 
       // 1.5 Sekunden Pause um GSC Rate Limits zu respektieren (QPS Limit)
       await delay(1500);
     }
 
+    // --- IndexNow Batch Push ---
+    if (indexNowUrls.length > 0) {
+      console.log(`\n🚀 [IndexNow Bulk-Push] Sende ${indexNowUrls.length} fehlende URLs gebündelt an Bing...`);
+      const payload = {
+        host: "teleschmie.de",
+        key: "b0664caa2c95554fd86ef4e236fb1b82",
+        keyLocation: "https://teleschmie.de/b0664caa2c95554fd86ef4e236fb1b82.txt",
+        urlList: indexNowUrls
+      };
+
+      try {
+        const response = await fetch("https://api.indexnow.org/indexnow", {
+          method: "POST",
+          headers: { "Content-Type": "application/json; charset=utf-8" },
+          body: JSON.stringify(payload)
+        });
+        
+        if (response.ok) {
+          console.log(`   ✅ Alle ${indexNowUrls.length} URLs erfolgreich an IndexNow gesendet (HTTP ${response.status})`);
+        } else if (response.status === 429) {
+          console.warn(`   ⚠️ IndexNow Rate Limit erreicht (HTTP 429).`);
+        } else {
+          console.error(`   ❌ Fehler beim Senden an IndexNow (HTTP ${response.status})`);
+        }
+      } catch (err) {
+        console.error('❌ IndexNow Netzwerkfehler:', err.message);
+      }
+    }
+
     console.log('\n=========================================');
     console.log(`🎉 FERTIG!`);
     console.log(`Gescannt: ${urls.length} URLs`);
-    console.log(`Davon nicht indexiert: ${unindexedCount}`);
-    console.log(`Erfolgreich zur Indexierung gepusht: ${successCount}`);
+    console.log(`Davon nicht in GSC: ${unindexedCount}`);
+    console.log(`Davon an GSC gepusht: ${successCount}`);
+    console.log(`An IndexNow gesendet: ${indexNowUrls.length}`);
     console.log('=========================================\n');
 
   } catch (error) {

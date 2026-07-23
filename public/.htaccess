@@ -62,6 +62,12 @@ AddCharset UTF-8 .txt .md .json .html .css .js
 Options -MultiViews
 RewriteEngine On
 
+# Sicherheit: Blockiere alle versteckten Dateien/Verzeichnisse außer .well-known
+# Matcht alle Pfade, die mit einem Punkt beginnen (nach dem Slash)
+RewriteCond %{REQUEST_URI} ^/(.*/)?\. [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/ [NC]
+RewriteRule ^(.*)$ - [F,L]
+
 # MCP Endpoint Routing
 RewriteRule ^mcp/?$ /mcp.php [L]
 

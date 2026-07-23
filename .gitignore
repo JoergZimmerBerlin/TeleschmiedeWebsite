@@ -10,6 +10,7 @@ Website-Vide-Coding/
 .env.local
 .env.*.local
 config/.env
+scripts/social-upload/.env
 
 # IDE
 .vscode/

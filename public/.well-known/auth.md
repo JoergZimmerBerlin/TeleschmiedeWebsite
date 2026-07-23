@@ -21,6 +21,7 @@
     "registration_endpoint": "https://teleschmie.de/kontakt/",
     "identity_endpoint": "https://teleschmie.de/kontakt/",
     "claim_endpoint": "https://teleschmie.de/kontakt/",
+    "claim_uri": "https://teleschmie.de/kontakt/",
     "events_endpoint": "https://teleschmie.de/kontakt/",
     "identity_types_supported": [
       "anonymous",

@@ -6,13 +6,14 @@
  */
 
 header('Content-Type: text/plain; charset=UTF-8');
-echo "--- IONOS htaccess AKTIVATOR ---\n";
 
 $secret_token = 'teleschmiede_deploy_2026';
 if (!isset($_GET['token']) || $_GET['token'] !== $secret_token) {
     http_response_code(403);
     die("FEHLER: Unautorisierter Zugriff. Ungueltiges oder fehlendes Token.\n");
 }
+
+echo "--- IONOS htaccess AKTIVATOR ---\n";
 
 $source = 'htaccess.test';
 $target = '.htaccess';

@@ -109,7 +109,7 @@ async function runBulkIndexer() {
             indexNowUrls.push(url);
           } else {
             // Optional: Datum lesbar machen für den Log
-            const timestamp = parseInt(lastCrawled.match(/\\/Date\\((-?\\d+)[-\\+]\\d+\\)\\//)?.[1] || 0);
+            const timestamp = parseInt(lastCrawled.match(new RegExp("\\\\/Date\\\\((-?\\\\d+)[-+]\\\\d+\\\\)\\\\/"))?.[1] || 0);
             const dateStr = timestamp > 0 ? new Date(timestamp).toLocaleDateString() : "Unbekannt";
             console.log(`   ✅ [Bing] Bereits gecrawlt (Zuletzt: ${dateStr}).`);
           }

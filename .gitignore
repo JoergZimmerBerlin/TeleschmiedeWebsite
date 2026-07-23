@@ -56,3 +56,6 @@ gsc-credentials.json
 
 # Bing Webmaster API (Credentials)
 bing-credentials.json
+
+# SE Ranking (Credentials)
+se-ranking-credentials.json

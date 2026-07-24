@@ -126,5 +126,5 @@ ALOHA 🌻! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [25 Jahre SEO: Die immer gleichen Fehler](/blog/25-jahre-seo-gleiche-fehler/)
+* **Lese-Tipp:** [25 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
 * **Lese-Tipp:** [SEO-Sprechstunde: So läuft der Prozess ab](/blog/seo-sprechstunde-so-laeuft-sie-ab/)

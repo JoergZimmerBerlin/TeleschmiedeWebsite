@@ -92,4 +92,4 @@ SEO und SEA sind Werkzeuge. Kraftvoll, wenn man sie beherrscht. Zerstörerisch f
 
 ALOHA 🌻! 🌻
 * **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/)
-* **Lese-Tipp:** [25 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/25-jahre-seo-gleiche-fehler/)
+* **Lese-Tipp:** [25 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

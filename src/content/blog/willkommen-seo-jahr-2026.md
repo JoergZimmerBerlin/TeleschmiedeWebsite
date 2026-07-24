@@ -94,4 +94,4 @@ ALOHA 🌻! 🌻
 ### Weiterführende Artikel für Strategen
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Highlights 2025 - Ein SEO-Jahresrückblick](/blog/highlights-2025-jahresrueckblick/)
-* **Lese-Tipp:** [25 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/25-jahre-seo-gleiche-fehler/)
+* **Lese-Tipp:** [25 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)

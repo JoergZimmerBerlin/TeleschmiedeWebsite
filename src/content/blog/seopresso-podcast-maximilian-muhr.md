@@ -27,7 +27,7 @@ So beginnt eine wirklich gute Podcast-Folge: Unerwartete Einblicke, echte Mensch
 
 ## Warum du diese Folge unbedingt hören solltest
 
-**Maximilian D. Muhr** erzählt im SEOpresso Podcast von Björn Darko Dinge, die ich trotz meiner 24 Jahre in der Branche noch nicht wusste. Er ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat – und manchmal auch vor dem Sinken bewahrt hat.
+**Maximilian D. Muhr** erzählt im SEOpresso Podcast von Björn Darko Dinge, die ich trotz meiner 25 Jahre in der Branche noch nicht wusste. Er ist kein klassischer "Agentur-Schnacker". Er ist ein Praktiker, der die ganz großen Schiffe gesteuert hat – und manchmal auch vor dem Sinken bewahrt hat.
 
 Was mich an seinem Interview besonders beeindruckt hat:
 
@@ -47,7 +47,7 @@ Von Chuck-Norris-Witzen bis zum Managing Director bei poliSYS – dieser Weg ist
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten, in denen ich an deinem Dokument sitze. Er bezahlt für die 24 Jahre, die ich gebraucht habe, um dieses Dokument in 60 Minuten so präzise zu erstellen, dass es den Relaunch rettet. Das ist der fundamentale Unterschied zwischen Zeit-Verkäufer und Experten."</p>
+  <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten, in denen ich an deinem Dokument sitze. Er bezahlt für die 25 Jahre, die ich gebraucht habe, um dieses Dokument in 60 Minuten so präzise zu erstellen, dass es den Relaunch rettet. Das ist der fundamentale Unterschied zwischen Zeit-Verkäufer und Experten."</p>
 </div>
 
 ## Die Key-Themen der Folge

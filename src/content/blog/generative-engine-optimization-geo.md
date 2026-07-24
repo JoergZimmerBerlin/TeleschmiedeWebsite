@@ -25,7 +25,7 @@ related_posts:
 
 Moin! 🌻
 
-Seit über 24 Jahren bin ich jetzt im Geschäft. Ich habe den Aufstieg von Google miterlebt, den Untergang von Altavista und die wilden Zeiten, als man mit weißem Text auf weißem Hintergrund noch Rankings "ergaunern" konnte. Wenn ich mir heute die SEO-Landschaft ansehe, fühle ich mich oft wie ein Statiker, der einen modernen Wolkenkratzer begutachtet, während die Bewohner im Keller noch mit Kerzenlicht nach Keywords suchen.
+Seit über 25 Jahren bin ich jetzt im Geschäft. Ich habe den Aufstieg von Google miterlebt, den Untergang von Altavista und die wilden Zeiten, als man mit weißem Text auf weißem Hintergrund noch Rankings "ergaunern" konnte. Wenn ich mir heute die SEO-Landschaft ansehe, fühle ich mich oft wie ein Statiker, der einen modernen Wolkenkratzer begutachtet, während die Bewohner im Keller noch mit Kerzenlicht nach Keywords suchen.
 
 Lass uns Tacheles reden: **Die Ära des klassischen Keyword-Bashings ist vorbei.** Wer heute noch versucht, mit "10 Tipps für [Keyword]" auf Seite 1 zu kommen, hat den Knall nicht gehört. Wir befinden uns mitten im größten Shift seit der Erfindung des PageRank-Algorithmus. Willkommen in der Welt von [**Generative Engine Optimization (GEO)**](/glossar/geo/).
 
@@ -82,7 +82,7 @@ GEO-Content muss **zitierfähig** sein. Das bedeutet: Klare Fakten, keine Füllw
 
 Wer glaubt, dass GEO nur auf der eigenen Website stattfindet, hat das Konzept Groundingpage nicht verstanden. KIs grounden ihr Wissen nicht nur auf deiner URL. Sie sind wie ein extrem gewissenhafter Bibliothekar, der jede Quelle doppelt und dreifach prüft. 
 
-Wenn ich in meinen über 24 Jahren eines gelernt habe, dann das: **Vertrauen ist die einzige Währung, die morgen noch zählt.** In der AI-Ära nennen wir das "E-E-A-T auf Steroiden". Die KI schaut sich an:
+Wenn ich in meinen über 25 Jahren eines gelernt habe, dann das: **Vertrauen ist die einzige Währung, die morgen noch zählt.** In der AI-Ära nennen wir das "E-E-A-T auf Steroiden". Die KI schaut sich an:
 - Was wird auf LinkedIn über dich geschrieben? (LinkedIn-Forum-Logik).
 - Bist du in relevanten Fachmedien als Experte gelistet?
 - Gibt es echte Nutzer-Bewertungen auf Drittplattformen?
@@ -225,7 +225,7 @@ Jetzt haben wir genug philosophiert. Zeit für Taten. Hier sind die 5 Schritte, 
 
 ## Metriken für die AI-Era: Abschied von reinen Klickzahlen
 
-In meiner 24-jährigen Laufbahn war "Traffic" immer die heilige Kuh. Im GEO-Zeitalter müssen wir umdenken. Wenn die KI deine Antwort liefert, klickt vielleicht niemand mehr auf deine Seite. Ist das schlecht? 
+In meiner 25-jährigen Laufbahn war "Traffic" immer die heilige Kuh. Im GEO-Zeitalter müssen wir umdenken. Wenn die KI deine Antwort liefert, klickt vielleicht niemand mehr auf deine Seite. Ist das schlecht? 
 Nein, solange die **Transaktion** stattfindet.
 
 Wir tracken heute:

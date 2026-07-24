@@ -15,7 +15,7 @@ faqs:
   - question: "War 2025 das Jahr von AI-SEO?"
     answer: "Absolut. Es war der Wendepunkt, an dem wir aufgehört haben über Prompt-Engineering zu reden und angefangen haben, echte Sichtbarkeit in LLMs messbar zu machen. Wer 2025 verschlafen hat, hat heute eine enorme Lernkurve vor sich."
   - question: "Warum regst du dich über Stundensätze auf?"
-    answer: "Weil Erfahrung eine Währung ist. Ein Experte mit 20 Jahren Erfahrung löst ein Problem in zwei Stunden, für das ein Junior zwei Wochen braucht. Wenn der Experte dann nur 70€ nimmt, entwertet er das gesamte Berufsfeld."
+    answer: "Weil Erfahrung eine Währung ist. Ein Experte mit 25 Jahren Erfahrung löst ein Problem in zwei Stunden, für das ein Junior zwei Wochen braucht. Wenn der Experte dann nur 70€ nimmt, entwertet er das gesamte Berufsfeld."
   - question: "Was ist dein wichtigster Tipp für 2026?"
     answer: "Vernetzung. Die Algorithmen ändern sich zu schnell für Einzelkämpfer. Wir brauchen den Austausch in Masterminds und auf Stammtischen, um am Ball zu bleiben."
 ---
@@ -37,7 +37,7 @@ Hier sind meine persönlichen LinkedIn-Highlights – die Posts, die die Gemüte
 
 Das war der Moment, in dem ich mir keine Freunde in der "Billig-Schiene" gemacht habe. Ich hab mich beschwert. Laut. Deutlich. Und ja, auch ein bisschen emotional. Warum? Weil SEO-Freelancer, die für 50€ oder 70€ pro Stunde arbeiten, sich selbst und die gesamte Branche unter Wert verkaufen. 
 
-Wer 20 Jahre Erfahrung hat, wer hunderte Relaunches begleitet hat, wer technische Audits im Schlaf macht – der darf nicht zum Preis eines Fliesenlegers (nichts gegen Fliesenleger!) arbeiten. Die Diskussion war lebhaft, um es vorsichtig auszudrücken. Aber am Ende blieb hängen: Qualität hat ihren Preis. Und wer billig kauft, kauft meistens zweimal (oder verliert seine Rankings).
+Wer 25 Jahre Erfahrung hat, wer hunderte Relaunches begleitet hat, wer technische Audits im Schlaf macht – der darf nicht zum Preis eines Fliesenlegers (nichts gegen Fliesenleger!) arbeiten. Die Diskussion war lebhaft, um es vorsichtig auszudrücken. Aber am Ende blieb hängen: Qualität hat ihren Preis. Und wer billig kauft, kauft meistens zweimal (oder verliert seine Rankings).
 
 ### 2. Der Aufstieg des AI-Trackings: Rankscale im Fokus
 
@@ -55,7 +55,7 @@ Ein Relaunch ohne SEO ist wie ein Hausbau ohne Architekt: Man merkt erst am Ende
 
 Vielleicht mein wichtigster Post 2025. Ich hab mal die Hosen runtergelassen und über meinen Weg in diese schräge Internet-Welt geschrieben. Ohne glitzerndes Studium an einer Elite-Uni, ohne den klassischen Agentur-Background als Junior-Trainee. 
 
-Einfach reingefallen, hängengeblieben, Blut geleckt und seit über 24 Jahren dabei. Die Resonanz war überwältigend. Es zeigte mir: Die Leute wollen keine polierten Lebensläufe. Sie wollen Menschen mit Ecken, Kanten und echter Leidenschaft für das Handwerk.
+Einfach reingefallen, hängengeblieben, Blut geleckt und seit über 25 Jahren dabei. Die Resonanz war überwältigend. Es zeigte mir: Die Leute wollen keine polierten Lebensläufe. Sie wollen Menschen mit Ecken, Kanten und echter Leidenschaft für das Handwerk.
 
 ### 5. Die SEO-Feuerwehr: Wenn die Panik regiert
 
@@ -67,7 +67,7 @@ Solche Momente sind das Salz in der Suppe. Es ist der Beweis, dass Erfahrung dur
 
 In einer Branche, die oft von Egos und "Ich weiß es besser"-Attitüden geprägt ist, habe ich einen Aufruf gewagt: Mehr Zusammenarbeit, mehr Austausch, weniger Missgunst. Wir kämpfen alle gegen die gleichen Algorithmen, nicht gegeneinander.
 
-Die Rückmeldungen von Kollegen waren großartig. Es entstanden neue Stammtische, kleine Mastermind-Gruppen und ein Spirit, den ich so in über 20 Jahren selten erlebt habe. Das macht Mut für die Zukunft.
+Die Rückmeldungen von Kollegen waren großartig. Es entstanden neue Stammtische, kleine Mastermind-Gruppen und ein Spirit, den ich so in über 25 Jahren selten erlebt habe. Das macht Mut für die Zukunft.
 
 ### 7. Der Döner-Post: Prioritäten setzen
 

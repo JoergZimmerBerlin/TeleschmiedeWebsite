@@ -15,7 +15,7 @@ faqs:
   - question: 'Können das nicht die normalen Webcrawler auch so lesen?'
     answer: 'Absolut. Der Googlebot und der GPTBot parsen täglich Millionen von HTML-Seiten. Der Vorteil der Markdown-basierten TXT-Dateien liegt lediglich in der Token-Ersparnis für den Bot. Es ist eine Höflichkeit, kein Ranking-Faktor.'
   - question: 'Sollte ich meinen gesamten Content in die llms-full.txt packen?'
-    answer: 'Nein, nutze deinen gesunden Menschenverstand. LLMs haben zwar große Kontextfenster, aber Relevanz schlägt immer noch Masse. Kuratiere deine wichtigsten harten Fakten und Definitionen, anstatt deinen Müll der letzten 20 Jahre hochzuladen.'
+    answer: 'Nein, nutze deinen gesunden Menschenverstand. LLMs haben zwar große Kontextfenster, aber Relevanz schlägt immer noch Masse. Kuratiere deine wichtigsten harten Fakten und Definitionen, anstatt deinen Müll der letzten 25 Jahre hochzuladen.'
 ---
 
 Moin zusammen! Jörg Zimmer hier. 

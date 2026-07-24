@@ -1,6 +1,6 @@
 ---
 title: "SEO Persönlich: Mein Interview bei SEOpresso"
-description: "Interview über meine Anfänge, 24 Jahre Selbständigkeit und warum Kommunikation im SEO heute wichtiger ist als jedes Tool. Mit Björn Darko."
+description: "Interview über meine Anfänge, 25 Jahre Selbständigkeit und warum Kommunikation im SEO heute wichtiger ist als jedes Tool. Mit Björn Darko."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/bj%C3%B6rn-darko_bj%C3%B6rn-darko-joerg-zimmer-seo-persoenlich-activity-7289547115112222720-Y6eW"
 image: "../../assets/images/blog/seopresso-interview.webp"
@@ -8,14 +8,14 @@ image_alt: "SEOPRESSO Interview: Jörg Zimmer ganz persönlich im Gespräch mit 
 category: "SEO Praxis"
 tags: ["Interview & Podcast"]
 key_takeaways:
-  - "24 Jahre Freelancing ohne Agentur-Background – Neugier und echte Daten zählen mehr als polierte Lebensläufe."
+  - "25 Jahre Freelancing ohne Agentur-Background – Neugier und echte Daten zählen mehr als polierte Lebensläufe."
   - "SEO ist heute zu 80% Kommunikation: Du musst zwischen Kunden, Entwicklern und Google übersetzen können."
   - "Echte Profis kennen ihre Grenzen und nutzen Netzwerke wie das Freelancer Team für hochspezialisierte Themen."
 faqs:
   - question: "Was ist das Besondere an der Reihe 'SEO Persönlich' beim SEOpresso Podcast?"
     answer: "In diesem Format geht es nicht um die klassischen 'Top 10 Tipps für bessere Rankings'. Björn Darko gräbt tiefer und interviewt die Menschen hinter den Algorithmen. Es geht um Karrierewege, Brüche, Ängste und echte Erfahrungen aus Jahrzehnten im Markt. Es ist fast schon eine kleine Therapiestunde für SEOs, in der wir über Dinge sprechen, die man sonst nur hinter verschlossenen Türen bei einem Bier am SEO-Stammtisch teilt. Kein Hochglanz-Lebenslauf, sondern Tacheles."
-  - question: "Warum arbeitet Jörg Zimmer seit 24 Jahren als Freelancer und nicht in einer Agentur?"
-    answer: "Weil Freiheit und der direkte Draht zum Kunden für mich unbezahlbar sind. In 24 Jahren Selbständigkeit lernt man, Verantwortung für jedes Projekt direkt zu übernehmen. Ich brauche keine Tischtennisplatte im Büro, ich brauche Daten, die fließen, und Kunden, die verstehen was ich tue. Agenturen haben ihre Berechtigung, aber für mein Verständnis von Beratung ist der 'Problem-Löser auf Abruf'-Status als Senior Freelancer das ehrlichste Modell."
+  - question: "Warum arbeitet Jörg Zimmer seit 25 Jahren als Freelancer und nicht in einer Agentur?"
+    answer: "Weil Freiheit und der direkte Draht zum Kunden für mich unbezahlbar sind. In 25 Jahren Selbständigkeit lernt man, Verantwortung für jedes Projekt direkt zu übernehmen. Ich brauche keine Tischtennisplatte im Büro, ich brauche Daten, die fließen, und Kunden, die verstehen was ich tue. Agenturen haben ihre Berechtigung, aber für mein Verständnis von Beratung ist der 'Problem-Löser auf Abruf'-Status als Senior Freelancer das ehrlichste Modell."
   - question: "Was war Jörgs größte Erkenntnis aus über zwei Jahrzehnten SEO?"
     answer: "Dass Technik vergänglich ist, aber Prinzipien bleiben. Früher habe ich Keywords im Quellcode versteckt – heute optimiere ich für Entitäten und GEO. Der Kern ist aber immer derselbe: Sei nützlich für den Nutzer und verständlich für die Maschine. Und die wichtigste Fähigkeit ist Kommunikation. Wer nicht erklären kann, warum eine technische Änderung nötig ist, wird scheitern – egal wie gut sein Audit-Tool ist."
   - question: "Wie geht Jörg Zimmer mit dem Druck um, wenn ein Relaunch schiefgeht?"
@@ -28,7 +28,7 @@ Ein persönliches Interview über meine Anfänge.
 
 Über Rückschläge. 
 
-Und über die Tatsache, dass ich seit 24 Jahren als SEO-Freelancer überlebe. 
+Und über die Tatsache, dass ich seit 25 Jahren als SEO-Freelancer überlebe. 
 
 Wer mich kennt, weiß: Ich mag keine Hochglanz-Lebensläufe. 
 
@@ -80,7 +80,7 @@ Punkt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten im Call. Er bezahlt für die 24 Jahre, die ich gebraucht habe, um in diesen 60 Minuten dein Projekt zu retten."</p>
+  <p class="italic text-dark mb-0">"Wer Expertise einkauft, bezahlt nicht für die 60 Minuten im Call. Er bezahlt für die 25 Jahre, die ich gebraucht habe, um in diesen 60 Minuten dein Projekt zu retten."</p>
 </div>
 
 ## "Die SEO-Hotline wird glühen"
@@ -126,5 +126,5 @@ ALOHA 🌻! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt persönliche Beratung anfragen </a>
 </div>
 
-* **Lese-Tipp:** [24 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
+* **Lese-Tipp:** [25 Jahre SEO: Die immer gleichen Fehler](/blog/25-jahre-seo-gleiche-fehler/)
 * **Lese-Tipp:** [SEO-Sprechstunde: So läuft der Prozess ab](/blog/seo-sprechstunde-so-laeuft-sie-ab/)

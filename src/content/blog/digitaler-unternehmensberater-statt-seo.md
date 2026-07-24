@@ -15,7 +15,7 @@ faqs:
   - question: "Ist SEO wirklich 'mausetot' und wird durch KI komplett abgelöst?"
     answer: "Nein, SEO ist nicht tot, es hat sich nur transformiert. Was stirbt, ist das blinde Jagen nach Keywords und Traffic ohne Conversion-Hintergrund. Die Grundlagen der Auffindbarkeit – saubere Technik, klare Informationsarchitektur und Entitäts-Aufbau – sind für KI-Systeme (GEO) heute noch wichtiger als für die klassische Google-Suche. KIs sind wie anspruchsvolle Crawler, die noch schneller abbrechen, wenn das Fundament nicht stimmt. Wer SEO beherrscht, hat das Rüstzeug für die KI-Zukunft."
   - question: "Hat der Begriff 'Digitaler Unternehmensberater' nicht ein negatives Buzzword-Geschmäckle?"
-    answer: "Absolut, der Begriff wird oft von Leuten missbraucht, die 'Digitalisierung' nur verkaufen wollen, ohne in die Tiefe zu gehen. Aber wenn man sich ansieht, was ich täglich tue – Konkurrenzanalysen, Systemarchitektur, ROI-Fokus, Teambuilding und Change Management –, dann ist das exakt das, was Unternehmensberater machen. Nur eben mit einem messbaren, digitalen Fokus und 24 Jahren Hands-on-Erfahrung statt grauer Theorie."
+    answer: "Absolut, der Begriff wird oft von Leuten missbraucht, die 'Digitalisierung' nur verkaufen wollen, ohne in die Tiefe zu gehen. Aber wenn man sich ansieht, was ich täglich tue – Konkurrenzanalysen, Systemarchitektur, ROI-Fokus, Teambuilding und Change Management –, dann ist das exakt das, was Unternehmensberater machen. Nur eben mit einem messbaren, digitalen Fokus und 25 Jahren Hands-on-Erfahrung statt grauer Theorie."
   - question: "Ist 'Context Engineering' nicht der treffendere Begriff für moderne SEO?"
     answer: "Ein fantastischer Begriff! 'Engineering' drückt die Systematik und Methode aus, die wir brauchen. 'Context' beschreibt das Umfeld, in dem sich eine Domain und eine Marke bewegen. Genau darum geht es: Wir bauen systematisch den Kontext auf, den Suchmaschinen und KIs brauchen, um eine Marke als verlässliche Antwort zu verstehen. Vielleicht schreibe ich das bald auf meine Visitenkarte."
   - question: "Merkst du, dass Kunden dich anders wahrnehmen, wenn du dich Berater statt SEO nennst?"
@@ -73,7 +73,7 @@ Eine der häufigsten Anfragen, die ich mittlerweile bekomme, ist die Bitte um ei
 
 Hier trete ich als neutraler Gutachter auf. Ich analysiere die Ergebnisse, decke [klassische SEO-Relaunch-Fehler](/blog/seo-relaunch-klassiker-meme/) auf und zeige, wo Budgets verbrannt werden. Das erfordert ein extremes Maß an Seniorität. Man muss nicht nur die technischen Details verstehen, sondern auch die politischen Befindlichkeiten innerhalb eines Unternehmens und zwischen Unternehmen und Agentur navigieren.
 
-Auditing und Qualitätssicherung auf diesem Level sind typische Disziplinen von großen Beratungsfirmen (den bekannten Big Four), die dafür Heerscharen von Junior-Consultants schicken. Ich mache das als Freelancer mit der Erfahrung von 24 Jahren – agiler, direkter und meistens schmerzhafter, weil ich kein Blatt vor den Mund nehme. Tacheles eben.
+Auditing und Qualitätssicherung auf diesem Level sind typische Disziplinen von großen Beratungsfirmen (den bekannten Big Four), die dafür Heerscharen von Junior-Consultants schicken. Ich mache das als Freelancer mit der Erfahrung von 25 Jahren – agiler, direkter und meistens schmerzhafter, weil ich kein Blatt vor den Mund nehme. Tacheles eben.
 
 ---
 

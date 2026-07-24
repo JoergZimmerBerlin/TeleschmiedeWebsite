@@ -22,7 +22,7 @@ faqs:
 
 Moin! 🌻
 
-Machen wir uns nichts vor: Die Welt der Suche hat sich in den letzten Monaten radikaler verändert als in den letzten 20 Jahren davor. Wer heute bei Google nach einer Lösung sucht, bekommt oft gar keine Liste mit zehn blauen Links mehr zu sehen. Stattdessen erscheint ein präziser, zusammengefasster Text – die **Answer Engine**.
+Machen wir uns nichts vor: Die Welt der Suche hat sich in den letzten Monaten radikaler verändert als in den letzten 25 Jahren davor. Wer heute bei Google nach einer Lösung sucht, bekommt oft gar keine Liste mit zehn blauen Links mehr zu sehen. Stattdessen erscheint ein präziser, zusammengefasster Text – die **Answer Engine**.
 
 "Jörg, wie schaffe ich es, dass mein Name in dieser Antwort steht?"
 

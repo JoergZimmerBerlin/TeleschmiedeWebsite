@@ -28,7 +28,7 @@ Moin! 🌻
 
 Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, SE Ranking sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
 
-Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig. Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 24 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und SE Ranking ist aktuell einer der Player, der den Markt ordentlich aufmischt.
+Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig. Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 25 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und SE Ranking ist aktuell einer der Player, der den Markt ordentlich aufmischt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -108,7 +108,7 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 
 ### Tacheles am Ende
 
-Meine persönliche Empfehlung nach 24 Jahren im Business:
+Meine persönliche Empfehlung nach 25 Jahren im Business:
 *   Bist du **Einzelkämpfer, Affiliate-Marketer oder Inhouse-Optimierer** für eine Marke? Start mit **Core**. Die Ersparnis gegenüber anderen Tools ist massiv, ohne dass du auf Qualität verzichtest.
 *   Betreust du **eine wachsende Anzahl an Kunden** oder brauchst du **API-Zugriff** für eigene Dashboards und automatisierte Reports? Dann ist **Growth** dein Tarif. Die historischen Daten allein sind den Aufpreis für professionelles Reporting wert.
 

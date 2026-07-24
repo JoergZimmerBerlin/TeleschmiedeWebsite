@@ -1,21 +1,21 @@
 ---
-title: "24 Jahre SEO: Warum wir gleiche Fehler machen"
+title: "25 Jahre SEO: Warum wir gleiche Fehler machen"
 description: "Ein ehrlicher Blick auf die Fehler, die ich seit über zwei Jahrzehnten immer wieder sehe."
 date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_24-jahre-seo-gleiche-fehler-activity-7286645315112111104-5Y7_"
 image: "../../assets/images/profile/joerg-zimmer-portrait.webp"
-image_alt: "Jörg Zimmer - 24 Jahre SEO-Erfahrung und die gleichen Fehler"
+image_alt: "Jörg Zimmer - 25 Jahre SEO-Erfahrung und die gleichen Fehler"
 category: "SEO Praxis"
 tags: ["E-E-A-T", "Sprechstunde"]
 key_takeaways:
-  - "Keyword-Stuffing, technische Ignoranz und Ungeduld sind seit 20 Jahren die gleichen SEO-Fehler – nur die Verpackung ändert sich."
+  - "Keyword-Stuffing, technische Ignoranz und Ungeduld sind seit 25 Jahren die gleichen SEO-Fehler – nur die Verpackung ändert sich."
   - "SEO ist zu 80% Psychologie: Wir lieben Abkürzungen, aber die Grundlagen (Technik, Content, Geduld) sind unkaputtbar."
   - "Tools sind wie Hämmer – ohne zu wissen, wo der Nagel ist, haut man sich nur auf den Daumen."
 ---
 
 Moin! 🌻
 
-Ich mache jetzt seit über 24 Jahren SEO. 
+Ich mache jetzt seit über 25 Jahren SEO. 
 
 Wenn ich das laut sage, fühle ich mich wie ein digitaler Dinosaurier. 
 

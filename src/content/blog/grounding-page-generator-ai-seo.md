@@ -27,7 +27,7 @@ related_posts:
 
 Moin! 🌻
 
-Seit über 24 Jahren bin ich jetzt im SEO-Geschäft. Ich habe miterlebt, wie wir Links getauscht haben als wären es Panini-Bilder, wie wir Texte für den Googlebot "getuned" haben und wie wir schließlich gelernt haben, dass der Nutzer (und nicht der Algorithmus) im Mittelpunkt steht. Aber was wir gerade erleben, ist kein einfacher Trend mehr. Es ist der größte Abriss und Neubau des digitalen Fundaments, den ich je gesehen habe.
+Seit über 25 Jahren bin ich jetzt im SEO-Geschäft. Ich habe miterlebt, wie wir Links getauscht haben als wären es Panini-Bilder, wie wir Texte für den Googlebot "getuned" haben und wie wir schließlich gelernt haben, dass der Nutzer (und nicht der Algorithmus) im Mittelpunkt steht. Aber was wir gerade erleben, ist kein einfacher Trend mehr. Es ist der größte Abriss und Neubau des digitalen Fundaments, den ich je gesehen habe.
 
 Lass uns Tacheles reden: **Wir befinden uns in der Ära der Generative Engine Optimization (GEO).** Wer heute noch glaubt, dass eine nette Website und ein paar Keywords reichen, um 2026 noch stattzufinden, der betreibt gefährlichen **Pfusch am Bau**.
 
@@ -120,7 +120,7 @@ Hör auf zu warten. Der GEO-Express (nicht zu verwechseln mit der Deutschen Bahn
 
 ## Fazit: Sei nützlich oder verschwinde
 
-In über 24 Jahren habe ich eines gelernt: Qualität setzt sich am Ende immer durch. In der AI-Ära bedeutet Qualität vor allem **Verlässlichkeit**. Wenn du für eine KI keine verlässliche Quelle bist, bist du irrelevant. So einfach und so hart ist das.
+In über 25 Jahren habe ich eines gelernt: Qualität setzt sich am Ende immer durch. In der AI-Ära bedeutet Qualität vor allem **Verlässlichkeit**. Wenn du für eine KI keine verlässliche Quelle bist, bist du irrelevant. So einfach und so hart ist das.
 
 Die Grounding Page ist kein "Nice-to-have" für SEO-Nerds. Sie ist das neue Standard-Bauteil für jedes Unternehmen, das morgen noch online gefunden (und empfohlen!) werden möchte.
 

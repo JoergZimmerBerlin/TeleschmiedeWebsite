@@ -11,7 +11,7 @@ key_takeaways:
   - "Ohne saubere Authentifizierung für Bots erreichst du niemals Agent Readiness Level 5."
 faqs:
   - question: "Warum können sich KI-Agenten nicht einfach wie Menschen registrieren?"
-    answer: "Weil das Web der letzten 20 Jahre darauf ausgelegt wurde, Bots zu blockieren (Captchas, Double-Opt-In). Ein autonomer Agent scheitert daran. Er braucht auth.md, um zu verstehen, wie er sich per OAuth legitimiert."
+    answer: "Weil das Web der letzten 25 Jahre darauf ausgelegt wurde, Bots zu blockieren (Captchas, Double-Opt-In). Ein autonomer Agent scheitert daran. Er braucht auth.md, um zu verstehen, wie er sich per OAuth legitimiert."
   - question: "Ist auth.md ein Ersatz für OAuth?"
     answer: "Nein, es ist der Wegweiser ZU deiner OAuth-Infrastruktur. Es erklärt dem Agenten in Markdown-Form, welche Scopes und Endpunkte genutzt werden müssen."
   - question: "Darf ich Passwörter in die auth.md schreiben?"

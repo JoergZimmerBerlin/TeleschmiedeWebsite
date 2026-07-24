@@ -25,7 +25,7 @@ Ich nutze aktuell beide Tools parallel und vergleiche sie intensiv im Arbeitsall
 
 > "Ein Tool ist immer nur so gut wie derjenige, der es bedient. Aber wenn das Tool dir mehr verlässliche Daten für weniger Budget liefert, musst du einfach zweimal hinschauen."
 
-Genau deshalb teile ich heute meine persönlichen Erfahrungen aus der Sicht eines SEOs mit 20 Jahren Berufserfahrung. Kein Buzzword-Bingo, keine theoretischen Datenblätter, sondern ehrliche Praxis-Erkenntnisse aus dem echten Leben.
+Genau deshalb teile ich heute meine persönlichen Erfahrungen aus der Sicht eines SEOs mit 25 Jahren Berufserfahrung. Kein Buzzword-Bingo, keine theoretischen Datenblätter, sondern ehrliche Praxis-Erkenntnisse aus dem echten Leben.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>

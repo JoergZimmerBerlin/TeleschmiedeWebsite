@@ -1,6 +1,6 @@
 ---
 title: "Bist du SEO AI Ready? Podcast mit Antonio Blago"
-description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 20 Jahren SEO & Google Ads - ehrlich, ohne Buzzword-Bingo."
+description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 25 Jahren SEO & Google Ads - ehrlich, ohne Buzzword-Bingo."
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/antonioblago_bist-du-seo-ai-ready-alle-reden-%C3%BCber-ai-activity-7363117745070112768-BRRj"
 image: "../../assets/images/blog/ai-ready-podcast.webp"
@@ -20,7 +20,7 @@ key_takeaways:
   <p class="italic text-dark mb-0">"Digitaler Erfolg ist kein Sprint, sondern ein strategischer Dauerlauf. Wer heute die Weichen stellt, kontrolliert morgen die KI-Sichtbarkeit."</p>
 </div>
 
-## 20 Jahre im Geschäft – Ein Blick zurück in die Zukunft
+## 25 Jahre im Geschäft – Ein Blick zurück in die Zukunft
 
 Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten. Aber im Kern geht es immer noch darum: Relevanz schaffen und diese sichtbar machen.
 
@@ -63,10 +63,10 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
 
 ---
 
-*PS: Jedes Mal, wenn ich "komplex" sage, einen Shot! Wer hat mitgezählt? Bei 20 Jahren Erfahrung wird die Welt eben nicht einfacher, sondern facettenreicher.*
+*PS: Jedes Mal, wenn ich "komplex" sage, einen Shot! Wer hat mitgezählt? Bei 25 Jahren Erfahrung wird die Welt eben nicht einfacher, sondern facettenreicher.*
 
 **Die Folge findet ihr hier:**
-- auf YouTube (inklusive Zeitstempel für die ungeduldigen): [Zum Video: Klartext aus 20 Jahren SEO & Google Ads](https://youtu.be/pJFZzv5LEvk)
+- auf YouTube (inklusive Zeitstempel für die ungeduldigen): [Zum Video: Klartext aus 25 Jahren SEO & Google Ads](https://youtu.be/pJFZzv5LEvk)
 - und natürlich auf Spotify für unterwegs.
 
 ### Weiterführende Artikel

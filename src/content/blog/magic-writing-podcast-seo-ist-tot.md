@@ -55,7 +55,7 @@ Michael Kaufhold hat im Magic Writing Podcast sehr schön herausgearbeitet, dass
 
 ## Das Problem mit den Totgesagten
 
-Ich höre seit über 20 Jahren, dass SEO tot ist. Und trotzdem:
+Ich höre seit über 25 Jahren, dass SEO tot ist. Und trotzdem:
 - **Marktanteil:** Google beherrscht immer noch über 90% des Marktes.
 - **Traffic-Qualität:** Organischer Traffic ist nach wie vor einer der wertvollsten Besucherströme, weil der Nutzer aktiv nach einer Lösung sucht. Er ist "warm", wenn er bei dir landet.
 - **Fundamental-Prinzip:** Wer gefunden werden will, muss verstehen wie Suche funktioniert. Das gilt auch für Amazon, TikTok oder YouTube. Überall ist Suche, überall ist SEO.

@@ -20,7 +20,7 @@ faqs:
 
 Moin! 🌻
 
-Lass uns den theoretischen Bullshit beiseite räumen. Seit über 20 Jahren diskutiert die SEO-Branche in Foren über mystische Listen mit "200 geheimen Rankingfaktoren". Leute verkaufen dir heute noch Checklisten, in denen steht, dass das Keyword exakt 3,4 % der Textmasse ausmachen muss und am besten fett gedruckt in der H2 steht. 
+Lass uns den theoretischen Bullshit beiseite räumen. Seit über 25 Jahren diskutiert die SEO-Branche in Foren über mystische Listen mit "200 geheimen Rankingfaktoren". Leute verkaufen dir heute noch Checklisten, in denen steht, dass das Keyword exakt 3,4 % der Textmasse ausmachen muss und am besten fett gedruckt in der H2 steht. 
 
 Wir schreiben das Jahr 2026. Große Sprachmodelle (LLMs), RAG-Pipelines und die Integration von KI in die Suchergebnisse (Google AI Overviews) haben das Spielfeld rasiert. Google nutzt massive Deep-Learning-Algorithmen, um Relevanz dynamisch zu bewerten. Wer SEO noch nach Checklisten aus dem Jahr 2019 betreibt, kann sein Budget gleich verbrennen. 
 

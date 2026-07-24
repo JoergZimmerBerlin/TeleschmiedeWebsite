@@ -44,7 +44,7 @@ Nano Banana ist für mich das Sinnbild für die Verschmelzung von Song-Erstellun
 Das ist das Thema, das mich gerade am meisten triggert. **Vibe Coding** mit Google Antigravity und Cloud Code fühlt sich weniger nach klassischem Programmieren und mehr nach "Dirigieren" oder "Kuratieren" an. Die Barriere zwischen Idee und funktionierendem Code schmilzt weg. Das verändert nicht nur, *was* wir bauen, sondern *wie* wir überhaupt denken.
 
 ## Lass uns in Berlin fachsimpeln!
-Egal ob du SEO-Experte, Entwickler, Marketer oder einfach nur KI-begeistert bist – lass uns quatschen! Ich bin ein "Digitaler Dinosaurier", der seit über 20 Jahren im Tech-Business ist, aber ich war selten so neugierig auf die Zukunft wie heute.
+Egal ob du SEO-Experte, Entwickler, Marketer oder einfach nur KI-begeistert bist – lass uns quatschen! Ich bin ein "Digitaler Dinosaurier", der seit über 25 Jahren im Tech-Business ist, aber ich war selten so neugierig auf die Zukunft wie heute.
 
 Wenn du Lust hast, über LLM-Architekturen, **[GEO (Generative Engine Optimization)](/blog/ai-seo-geo-praktikanten/)** oder einfach nur die beste Pizza in Kreuzberg zu quatschen – sprich mich an! Ich freue mich auf neue Gesichter und spannende Perspektiven.
 

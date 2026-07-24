@@ -98,7 +98,7 @@ Wissen wird mehr, wenn man es teilt.
 
 ## Vernetzung ist eine Superkraft
 
-Wer 24 Jahre im Markt ist, weiß: 
+Wer 25 Jahre im Markt ist, weiß: 
 
 Die besten Projekte kommen über Vertrauen. 
 

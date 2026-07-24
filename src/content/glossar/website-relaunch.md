@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: 'Website Relaunch 2026: SEO, technische KI-Optimierung & Rettung vor Pfusch'
 description: 'Website Relaunch 2026: Warum 90% aller Relaunches scheitern und wie du mit technische KI-Optimierung, Redirection-Plänen und KI-Crawler-Checks dein Ranking rettest.'
 date: "2026-03-19"

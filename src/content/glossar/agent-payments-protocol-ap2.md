@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Agent Payments Protocol (AP2) | KI-Zahlungen verstehen"
 description: "Was ist das Agent Payments Protocol (AP2)? Jörg Zimmer erklärt den Standard für sichere KI-Zahlungen, Mandates und die Agent Economy (Stand Juli 2026)."
 date: "2026-07-22"

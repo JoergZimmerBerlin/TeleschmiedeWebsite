@@ -1,5 +1,5 @@
 ---
-category: 'Onpage Optimierung'
+category: 'SEO Basics & Onpage'
 title: 'Snippet Optimierung 2026: AI Overviews & Agent-Sichtbarkeit'
 description: 'Snippet Optimierung (2026): Von Google Maps zur KI-Zitation. Erfahre, wie Schema-Markup, auth.md und RFC 8288 deinen Trust-Level für LLMs steigern. ALOHA! 🌻'
 date: "2026-03-31"

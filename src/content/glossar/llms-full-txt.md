@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'LLMs-full.txt: Was steckt hinter dem Deep-Knowledge-Trend?'
 description: 'Die llms-full.txt wird in der Szene oft als fette Daten-Pipeline gehandelt. Doch Vorsicht: Es ist kein Google-Standard, sondern ein spannendes Experiment für Nischen-Bots.'
 date: "2026-04-14"

@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "auth.md: Autonome KI Kunden-Anmeldung ohne Captcha"
 description: "WorkOS und Cloudflare beenden die Captcha-Hölle für Bots. Jörg Zimmer zeigt, wie auth.md Agent Readiness Level 5 ermöglicht."
 date: "2026-03-17"

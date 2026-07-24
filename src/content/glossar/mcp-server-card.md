@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: MCP Server Card
 description: Alles über das Model Context Protocol Server Discovery, JSON Metadata und wie Agenten Tools in der Praxis erkennen. Klartext von Jörg Zimmer.
 date: "2026-07-22"

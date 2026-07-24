@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'Sichtbarkeitsmanagement 2026: RAG-Steuerung für Agenten'
 description: 'Sichtbarkeitsmanagement im Juli 2026 bedeutet aktive Steuerung deiner RAG-Präsenz, auth.md Architektur und Citation-Stability. ALOHA! 🌻'
 date: "2026-03-10"

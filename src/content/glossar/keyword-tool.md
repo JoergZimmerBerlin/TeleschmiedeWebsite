@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'Keyword Tools in 2026: Von Suchvolumen zu AI Discovery'
 description: 'Ein Keyword Tool liefert 2026 keine simplen Volumina mehr. Es geht um Intent-Analyse, Entity Tracking und LLM-Visibility. Tacheles und technische Tiefe.'
 date: "2026-07-18"

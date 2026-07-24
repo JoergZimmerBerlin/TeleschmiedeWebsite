@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: 'Technisches Schema-Markup: KI-Infrastruktur & LLM-SEO (2026)'
 description: 'Schema-Markup 2026: Vergiss Rich Snippets. Ich zeige dir, wie du harte AI-Infrastruktur baust, Entity-Depth nutzt und durch maschinenlesbare Endpunkte brillierst. Tacheles.'
 date: "2026-03-31"

@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'GEO Optimierung: Die Währung für RAG-Sichtbarkeit'
 description: 'GEO Optimierung (Generative Engine Optimization) 2026: Content Negotiation, llms.txt, API-Endpunkte und RAG-Chunking im Tacheles-Check. ALOHA! 🌻'
 date: "2026-03-19"

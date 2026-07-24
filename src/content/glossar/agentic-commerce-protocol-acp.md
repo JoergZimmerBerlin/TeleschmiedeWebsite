@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Agentic Commerce Protocol (ACP): Wenn KIs für dich einkaufen"
 description: "Was ist das Agentic Commerce Protocol (ACP)? Wie AI-Agenten mit Shops verhandeln, kaufen und den Checkout revolutionieren. Klartext von Jörg Zimmer."
 date: "2026-07-22"

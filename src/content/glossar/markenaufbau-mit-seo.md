@@ -1,5 +1,5 @@
 ---
-category: 'Content Marketing'
+category: 'SEO Basics & Onpage'
 title: 'Markenaufbau mit SEO 2026: Brand-Entitäten als zentrales RAG-Signal'
 description: 'Markenaufbau 2026: Wie du deine Brand technisch als Entität etablierst und LLMs dazu bringst, dich als Autorität zu zitieren. Tacheles von Jörg Zimmer. ALOHA! 🌻'
 date: "2026-03-10"

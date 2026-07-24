@@ -1,5 +1,5 @@
 ---
-category: 'E-E-A-T'
+category: 'E-E-A-T & Offpage'
 title: 'Entität (Entity): Die architektonische Basis für LLM-Pipelines'
 description: 'Entitäten sind 2026 der Grundbaustein der KI-Suche. Wie LLMs im Knowledge Graph navigieren und warum lose Strings wertlos sind. ALOHA! 🌻'
 date: "2026-03-10"

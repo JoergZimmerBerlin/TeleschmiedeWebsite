@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "agents.md: Das offene README für KI-Agenten"
 description: "Wie du mit einer simplen agents.md Token sparst und KI-Tools wie Cursor kontrollierst. Jörg Zimmer über den Standard der Agentic AI Foundation."
 date: "2026-07-17"

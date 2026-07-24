@@ -1,5 +1,5 @@
 ---
-category: 'E-E-A-T'
+category: 'E-E-A-T & Offpage'
 title: 'Authoritativeness: E-E-A-T Autorität im KI-Zeitalter'
 description: 'Authoritativeness 2026: Zero-Click Searches und RAG. Warum deine digitale Reputation wichtiger ist als jeder Backlink. ALOHA! 🌻'
 date: "2026-03-31"

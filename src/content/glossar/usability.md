@@ -1,5 +1,5 @@
 ---
-category: 'Onpage Optimierung'
+category: 'SEO Basics & Onpage'
 title: 'Usability 2026: Human & Machine UX im KI-Crawler-Zeitalter'
 description: 'Usability im Jahr 2026 bedeutet: Deine Seite muss für Menschen intuitiv und für autonome KI-Agenten perfekt maschinenlesbar sein. ALOHA! 🌻'
 date: "2026-03-10"

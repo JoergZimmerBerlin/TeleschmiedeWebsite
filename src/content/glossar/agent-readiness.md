@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Agent Readiness 2026: Websites für autonome KI-Agenten optimieren"
 description: "Agent Readiness beschreibt den Reifegrad einer Website für die maschinelle Interaktion mit autonomen KI-Agenten, LLMs und WebMCP."
 date: "2026-07-22"

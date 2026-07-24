@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: "XML-Sitemap 2026: Die Navigations-Zentrale für KI & Bots"
 description: "Eine fehlerfreie XML-Sitemap ist das Inhaltsverzeichnis deiner Website. Erfahre, wie du Sitemaps für Google und autonome KI-Agenten optimierst."
 date: "2026-07-22"

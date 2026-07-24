@@ -1,5 +1,5 @@
 ---
-category: 'Onpage Optimierung'
+category: 'SEO Basics & Onpage'
 title: 'ChatGPT SEO 2026: Wie du in der Zero-Click-Reality rankst'
 description: 'ChatGPT SEO (GEO) ist die Kunst, in den Antworten von LLMs zitiert zu werden. Lerne die technischen Hebel für SearchGPT und Answer Engines kennen. ALOHA! 🌻'
 date: "2026-03-24"

@@ -1,5 +1,5 @@
 ---
-category: 'SEO Grundlagen'
+category: 'SEO Basics & Onpage'
 title: 'SEO Beratung & Consulting für KI-Crawler und LLM-Architektur'
 description: 'Professionelle SEO Beratung bedeutet im Juli 2026 den Umbau deiner Infrastruktur zur LLM-Datenquelle. Wer dir heute noch Keyword-Dichte optimiert, raubt dich aus. Tacheles!'
 date: "2026-03-10"

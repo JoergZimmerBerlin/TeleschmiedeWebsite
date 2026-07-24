@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'CPC (Cost per Click) 2026: Agentic RTB und Vector-Bidding'
 description: 'Der Cost per Click (CPC) im Wandel: Wie Agentic Real-Time Bidding und First-Price-Auktionen den Bidding-Markt 2026 dominieren.'
 date: "2026-07-18"

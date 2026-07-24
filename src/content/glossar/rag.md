@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'RAG: Das Gehirn-Doping für deine KI-Inhalte (Stand Juli 2026)'
 description: 'RAG (Retrieval-Augmented Generation) 2026: Wie du KIs über API-Schnittstellen und KI-Crawler mit deinen eigenen Daten fütterst und Halluzinationen verhinderst.'
 date: "2026-03-19"

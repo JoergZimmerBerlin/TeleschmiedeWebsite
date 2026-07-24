@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'Suchvolumen 2026: Die nutzloseste Metrik im Zeitalter der KIs'
 description: 'Suchvolumen ist tot. Im Juli 2026 fächern generative KIs Suchanfragen auf (Fanout). Entdecke, warum technische KI-Optimierung das neue Suchvolumen ist.'
 date: "2026-03-10"

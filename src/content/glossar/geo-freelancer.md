@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'GEO Freelancer: Dein Data-Engineer für LLM-Pipelines'
 description: 'Ein GEO Freelancer optimiert Server und Datenstrukturen für KI-Crawler. Warum du 2026 für RAG-Pipelines einen Spezialisten brauchst. ALOHA! 🌻'
 date: "2026-03-10"

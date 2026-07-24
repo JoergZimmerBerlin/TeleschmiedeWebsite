@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Agent Readiness: Die Metrik für autonome KIs"
 description: "Tools wie isitagentready.com decken es auf: Die meisten Websites hängen in der Vergangenheit fest. Jörg Zimmer zeigt den Weg zur vollständigen Agent Readiness."
 date: "2026-07-17"

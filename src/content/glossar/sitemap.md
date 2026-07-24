@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: 'Sitemap 2026: Die Architektur für RAG-Pipelines & KIs'
 description: 'Eine Sitemap ist im Juli 2026 der essenzielle Wegweiser für RAG. Optimiere deine XML mit echter mtime-Logik und verlinke maschinenlesbare Endpunkte. Tacheles!'
 sameAs: "https://www.wikidata.org/wiki/Q1503327"

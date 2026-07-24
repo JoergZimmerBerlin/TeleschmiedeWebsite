@@ -1,5 +1,5 @@
 ---
-category: 'SEO Grundlagen'
+category: 'SEO Basics & Onpage'
 title: 'SEO Agentur Berlin: Vom Dienstleister zum KI-Crawler- und LLM-Architekten'
 description: 'Die klassische SEO Agentur ist tot. Im Juli 2026 entscheiden RAG-Optimierung, KI-Crawler und LLM-Architektur über deine Sichtbarkeit. Tacheles!'
 date: "2026-07-18"

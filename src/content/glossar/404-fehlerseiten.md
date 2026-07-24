@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: '404 Fehlerseiten: Wie Sackgassen 2026 dein KI-SEO zerstören'
 description: 'Eine 404 Fehlerseite erscheint, wenn ein Inhalt nicht gefunden wird. Erfahre, warum das im Zeitalter der KI-Pipelines toxisch für dein Ranking ist. ALOHA! 🌻'
 date: "2026-03-10"

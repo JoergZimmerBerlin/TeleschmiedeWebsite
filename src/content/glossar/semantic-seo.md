@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'Semantic SEO 2026: Themenwelten im KI-Vektorraum beherrschen'
 description: 'Semantic SEO im Zeitalter von AI: Warum LLMs Konzepte in Vektorräumen verarbeiten und wie du Themenwelten für KI-Modelle optimierst. Topical Authority als Waffe. ALOHA! 🌻'
 date: "2026-07-18"

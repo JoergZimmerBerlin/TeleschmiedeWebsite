@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Markdown Content Negotiation: Agent Experience Optimization 2026"
 description: "Dein HTML ist ein Albtraum für Crawler. Jörg Zimmer erklärt, wie Markdown Content Negotiation Serverkosten drückt und deine Agent Experience Optimization (AEO) pusht."
 date: "2026-07-17"

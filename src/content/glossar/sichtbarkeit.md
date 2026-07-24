@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'Sichtbarkeit (Visibility): KI-Crawler, RAG und Citation-Stability'
 description: 'Sichtbarkeit im SEO bedeutet Juli 2026: Von KIs gefunden werden. Erfahre, warum Citation-Stability durch auth.md und RFC 8288 relevanter ist als Klicks.'
 date: "2026-03-10"

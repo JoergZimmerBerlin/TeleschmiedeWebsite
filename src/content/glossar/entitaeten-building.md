@@ -1,5 +1,5 @@
 ---
-category: 'E-E-A-T'
+category: 'E-E-A-T & Offpage'
 title: 'Entitäten-Building: Vektoren-Autorität in der LLM-Suche'
 description: 'Entitäten-Building 2026 ist radikales Data-Engineering. So verankerst du deine Identität unzerstörbar im Knowledge Graph und in RAG-Pipelines. ALOHA! 🌻'
 date: "2026-03-10"

@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'Traffic (Besucherströme): Die Illusion der Klicks'
 description: 'Traffic war gestern. Im Jahr 2026 zählt die Citation-Stability bei Agenten. Warum du reine Klicks vergessen und auf technische KI-Optimierung setzen musst.'
 date: "2026-03-10"

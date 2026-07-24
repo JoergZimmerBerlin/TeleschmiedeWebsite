@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Web Bot Auth: Kryptografische Identität für KI-Agenten"
 description: "Vergiss User-Agents und nackte IPs. Web Bot Auth ist der neue IETF-Standard für kryptografisch sichere Bot-Identitäten. Tacheles zur Agenten-Verifizierung 2026."
 date: "2026-07-22"

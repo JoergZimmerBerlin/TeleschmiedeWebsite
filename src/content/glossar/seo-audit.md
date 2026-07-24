@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'SEO Audit 2026: Der komplette Guide inkl. RAG-Check & KI-Readiness'
 description: 'Ein SEO Audit im Juli 2026 erfordert harte Technik. Wir prüfen deine Domain auf LLM-Lesbarkeit, llms.txt, Markdown Negotiation und RAG-Pipelines.'
 date: "2026-03-10"

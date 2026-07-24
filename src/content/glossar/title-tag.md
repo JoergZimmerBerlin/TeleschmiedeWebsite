@@ -1,5 +1,5 @@
 ---
-category: 'Onpage Optimierung'
+category: 'SEO Basics & Onpage'
 title: 'Title Tag (HTML-Titel): Der erste Filter für KI & RAG-Crawler'
 description: 'Der Title Tag im Jahr 2026: Eines der wichtigsten Signale für OnPage SEO und technische KI-Optimierung. Tipps für CTR, LLM-Crawling und Klickraten. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q65032661"

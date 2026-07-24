@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "ai-plugin.json: Warum ChatGPT Plugins tot sind"
 description: "Der Untergang der ChatGPT Plugins und der Aufstieg von GPT Actions und offenen Standards. Jörg Zimmer erklärt den Shift weg von der ai-plugin.json."
 date: "2026-07-17"

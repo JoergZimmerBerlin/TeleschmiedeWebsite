@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: 'Noindex: Seiten radikal von der KI-Suche ausschließen'
 description: 'Noindex Meta-Tag: So kontrollierst du technisch gnadenlos, welche Seiten KI-Crawler indexieren dürfen. Der Wächter deines Crawl-Budgets. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q4045426"

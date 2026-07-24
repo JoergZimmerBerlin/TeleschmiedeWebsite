@@ -1,7 +1,7 @@
 ---
 title: "HTTP Message Signatures (RFC 9421): Kugelsichere A2A-Kommunikation 2026"
 description: "Warum RFC 9421 in 2026 der Goldstandard ist und wie HTTP Message Signatures die B2B-API- und Agent-to-Agent Kommunikation revolutionieren."
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-http-message-signatures-3d.webp"
 ---

@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'Conversion-Rate-Optimierung (CRO) 2026: Architektur, KI-Traffic und Event-Tracking'
 description: 'Warum die klassische Conversion auf der Landingpage komplexer geworden ist. Ein Deep-Dive in serverseitiges Tracking, AI Search Cannibalization und API-Schnittstellen.'
 sameAs: "https://www.wikidata.org/wiki/Q135293"

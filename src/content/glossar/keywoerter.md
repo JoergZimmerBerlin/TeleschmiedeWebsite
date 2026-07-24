@@ -1,5 +1,5 @@
 ---
-category: 'Onpage Optimierung'
+category: 'SEO Basics & Onpage'
 title: 'Keywords 2026: Von Text-Strings zu semantischen Entitäten'
 description: 'Keywords 2026: Warum exaktes Suchvolumen irrelevant wird und wie du durch User Intent und Topical Authority echte Relevanz aufbaust. ALOHA! 🌻'
 date: "2026-07-18"

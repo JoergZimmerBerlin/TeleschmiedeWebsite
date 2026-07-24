@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'GEO vs. SEO: Der Architektur-Shift im LLM-Zeitalter'
 description: 'GEO vs. SEO im Juli 2026: Warum HTML-basiertes SEO stirbt und Markdown Negotiation in LLM-Pipelines die neue Sichtbarkeit definiert. ALOHA! 🌻'
 date: "2026-03-10"

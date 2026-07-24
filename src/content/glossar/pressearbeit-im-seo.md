@@ -1,5 +1,5 @@
 ---
-category: 'Content Marketing'
+category: 'SEO Basics & Onpage'
 title: 'Pressearbeit im SEO 2026: Digital-PR als RAG-Trust-Signal'
 description: 'Digital-PR ist 2026 keine schnöde Linkbeschaffung mehr, sondern radikales Entity-Feeding für LLMs. So baust du messbaren Trust auf. ALOHA! 🌻'
 date: "2026-03-10"

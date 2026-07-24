@@ -1,5 +1,5 @@
 ---
-category: 'SEO Grundlagen'
+category: 'SEO Basics & Onpage'
 title: 'Die Überstunde Berlin: Networking-Event für die Digitalszene'
 description: 'Die Überstunde ist das After-Work-Event in Berlin für Macher und Kreative. Ein Ort für entspanntes Networking fernab von steifen Visitenkarten-Partys.'
 date: "2026-03-10"

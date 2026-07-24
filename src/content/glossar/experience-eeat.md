@@ -1,5 +1,5 @@
 ---
-category: 'E-E-A-T'
+category: 'E-E-A-T & Offpage'
 title: 'Experience 2026: Praxiserfahrung als Vektor-Metrik gegen LLM-Halluzinationen'
 description: 'Experience im Juli 2026: Warum RAG-Pipelines echte Praxiserfahrung belohnen und wie Entity Building dich unverwechselbar macht. ALOHA! 🌻'
 date: "2026-03-31"

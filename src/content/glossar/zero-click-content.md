@@ -1,5 +1,5 @@
 ---
-category: 'Onpage Optimierung'
+category: 'SEO Basics & Onpage'
 title: 'Zero-Click Content: Die harte Realität der technische KI-Optimierung (Juli 2026)'
 description: 'Klicks waren gestern. Heute geht es um RAG-Injections und schnelle API-Antworten. Wie du in der Zero-Click-Ära als Entität überlebst.'
 date: "2026-03-10"

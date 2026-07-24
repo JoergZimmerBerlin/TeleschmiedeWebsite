@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: 'FAQ Markup: High-Confidence Datenquelle für RAG-Pipelines'
 description: 'FAQ Markup im Juli 2026: Warum FAQ-Schema (JSON-LD) die sauberste und verlustfreieste Schnittstelle für LLMs und AI-Agents ist. ALOHA! 🌻'
 date: "2026-03-31"

@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: 'LLM-Optimization (LLMO): SEO für Sprachmodelle im Jahr 2026'
 description: 'LLMO optimiert deine Inhalte für KI-Agenten, ChatGPT, Gemini und Claude. Fokus auf Answer Engine Optimization, RAG und strukturierte Daten.'
 sameAs: "https://www.wikidata.org/wiki/Q134083964"

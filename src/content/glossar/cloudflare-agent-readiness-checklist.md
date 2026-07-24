@@ -1,5 +1,5 @@
 ---
-category: 'KI SEO & AI Search'
+category: 'AI SEO & Generative Search'
 title: "Cloudflare Agent Readiness Checklist: Der ultimative Guide"
 description: "Alle Punkte der Cloudflare Radar Agent Readiness Checklist im Detail erklärt. Optimiere deine Website für autonome KI-Agenten, Crawler und Protokolle."
 date: "2026-07-22"

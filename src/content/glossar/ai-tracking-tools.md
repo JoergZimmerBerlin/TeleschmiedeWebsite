@@ -1,5 +1,5 @@
 ---
-category: 'SEO Analyse & Tracking'
+category: 'Technisches SEO & UX'
 title: 'AI Tracking Tools: Sichtbarkeit und Agent Readiness messen (Juli 2026)'
 description: 'AI Tracking Tools messen nicht nur Rankings, sondern Share of Model, RAG-Hitrates und Zitationen. So misst du deine echte KI-Sichtbarkeit.'
 date: "2026-03-10"

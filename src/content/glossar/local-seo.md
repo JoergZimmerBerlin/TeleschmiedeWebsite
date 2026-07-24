@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'Local SEO'
 title: 'Local SEO 2026: Sichtbarkeit im KI-Such-Battleground'
 description: 'Local SEO im Zeitalter generativer KI: Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz, Review Velocity und Google AI Overviews. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q30324357"

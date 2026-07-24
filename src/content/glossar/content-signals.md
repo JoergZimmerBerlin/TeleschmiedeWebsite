@@ -1,4 +1,5 @@
 ---
+category: 'Content Marketing'
 title: "Content-Signale & KI-Präferenzen: Wie du AI-Crawlern Tacheles redest"
 description: "Wie du mit Content-Signalen, HTTP-Headern und klaren KI-Präferenzen in 2026 die Kontrolle über deinen Content behältst. Tacheles zu robots.txt und Agent-Readiness."
 date: "2026-07-22"

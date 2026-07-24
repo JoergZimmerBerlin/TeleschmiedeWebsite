@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'Onpage Optimierung'
 title: 'Keywordrecherche: Die semantische Basis jeder SEO-Strategie'
 description: 'Die Keywordrecherche im Jahr 2026 dreht sich um Entitäten, Intents und Themen-Cluster. Erfahre, warum der Search Query Fanout alles verändert.'
 date: "2026-07-18"

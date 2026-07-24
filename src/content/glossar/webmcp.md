@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "WebMCP (Web Model Context Protocol): Das Frontend-Update für AI"
 description: "WebMCP macht Websites zu KI-fähigen Schnittstellen. Wie das Web Model Context Protocol funktioniert und warum es Screen Scraping ablöst."
 date: "2026-07-22"

@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'Core Web Vitals (CWV) 2026: Rendering-Metriken im Detail'
 description: 'Ein Deep-Dive in Core Web Vitals und Performance-Metriken. Erfahre, warum LCP, INP und CLS auf Architekturebene über deine Sichtbarkeit bei Crawlern entscheiden.'
 sameAs: "https://www.wikidata.org/wiki/Q104618838"

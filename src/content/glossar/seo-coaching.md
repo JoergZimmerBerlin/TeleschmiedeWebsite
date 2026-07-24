@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'SEO Grundlagen'
 title: 'SEO Coaching 2026: Werde zum autonomen LLM-Architekten'
 description: 'SEO Coaching im Juli 2026: Vergiss Keywords. Lerne in meinem Hardcore-Coaching, wie du RAG-Pipelines, auth.md und KI-Crawler meisterst. Tacheles!'
 date: "2026-03-10"

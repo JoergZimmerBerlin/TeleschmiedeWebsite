@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'Offpage SEO & Linkbuilding'
 title: 'Brand Mentions in 2026: Warum KIs Links ignorieren und Entitäten lieben'
 description: 'Brand Mentions (Markenerwähnungen) sind der Kern für AI Visibility und Entity SEO. Wie Answer Engines deine Marke im Knowledge Graph verankern.'
 date: "2026-03-01"

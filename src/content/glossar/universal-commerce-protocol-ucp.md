@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "Universal Commerce Protocol (UCP): Der Standard für Agenten-Commerce"
 description: "Was ist das Universal Commerce Protocol (UCP)? Warum dieser neue E-Commerce-Standard die Art, wie KI-Agenten für uns einkaufen, revolutioniert."
 date: "2026-07-22"

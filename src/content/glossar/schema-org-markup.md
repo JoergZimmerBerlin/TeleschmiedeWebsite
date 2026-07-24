@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'Schema.org Markup: Die harte Fakten-Wissensbasis für KIs'
 description: 'Schema.org ist 2026 mehr als nur SEO – es ist das globale Vokabular für LLMs. Erfahre alles über Entity Depth & Grounding. ALOHA! 🌻'
 date: "2026-07-18"

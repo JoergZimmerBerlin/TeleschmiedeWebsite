@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'E-E-A-T'
 title: 'Entity SEO: Die Vektorraum-Architektur für KI-Crawler'
 description: 'Entity SEO (2026): Optimiere nicht für Keywords, sondern für den Vektorraum. Erfahre, wie du Entity Depth und RAG-Trust aufbaust. ALOHA! 🌻'
 date: "2026-03-31"

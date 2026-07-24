@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'Technisches SEO in 2026: technische KI-Optimierung & LLM-Infrastruktur'
 description: 'Die Revolution des Technical SEO. Warum Technisches SEO heute vollständige technische KI-Optimierung, maschinenlesbare Endpunkte und KI-Crawler-Protokolle bedeutet. Klartext!'
 date: "2026-03-10"

@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "OAuth/OIDC Discovery für KI-Agenten: Das fehlende Puzzleteil"
 description: "So funktioniert OAuth/OIDC Discovery für autonome KI-Agenten. Lerne, wie du mit der oauth-authorization-server Datei deine Agent Readiness sicherstellst."
 date: "2026-07-22"

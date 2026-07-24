@@ -1,4 +1,5 @@
 ---
+category: 'SEO Analyse & Tracking'
 title: "Google Search Console einrichten: Domain-Property & DNS Verifizierung (Anleitung)"
 description: "ALOHA! So richtest du die Google Search Console über die Domain-Property ein (kostenlos!). Schritt-für-Schritt Anleitung inkl. DNS-Verifizierung und Rechtevergabe für dein SEO-Team."
 date: "2026-07-18"

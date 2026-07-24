@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'SEO Grundlagen'
 title: 'KI-SEO Beratung: Agentur für die Antwort-Ära (2026)'
 description: 'KI SEO Beratung nach den Juli 2026 KI-Sichtbarkeits-Standards: Warum klassische SEO-Agenturen scheitern und wie RAG die Suche dominiert. ALOHA! 🌻'
 date: "2026-03-19"

@@ -1,5 +1,5 @@
 ---
-category: "Performance & Analyse"
+category: 'Onpage Optimierung'
 title: 'Click-Through-Rate (CTR): Interaktionsmetriken im AI-Zeitalter'
 description: 'Die CTR (Click-Through-Rate) hat sich von der simplen Suchergebnis-Metrik zur entscheidenden Interaktions-Kennzahl in RAG-Pipelines und KI-Interfaces entwickelt.'
 date: "2026-03-10"

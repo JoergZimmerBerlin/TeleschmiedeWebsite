@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'KI SEO & AI Search'
 title: 'Google Algorithmus: Der Filter für Generative Engine Optimization (GEO) 2026'
 description: 'Der Google Algorithmus 2026 ist kein dummer Crawler mehr, sondern der Türsteher für AI Overviews und RAG. Tacheles: E-E-A-T, Information Gain und echte Sichtbarkeit.'
 date: "2026-03-10"

@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'KI SEO & AI Search'
 title: 'Grounding Page: Der Maschinen-Anker für AI SEO 2026'
 description: 'Vergiss reine Marketing-Landingpages. Eine Grounding Page liefert harten, maschinenlesbaren Fakten-Treibstoff für RAG-Systeme und AI Overviews.'
 date: "2026-03-10"

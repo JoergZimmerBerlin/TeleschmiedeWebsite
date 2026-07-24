@@ -1,7 +1,7 @@
 ---
 title: "Identity JSON (JSON-LD): Das maschinenlesbare Gesicht deiner Marke"
 description: "Wie Identity JSON (JSON-LD) 2026 funktioniert und warum strukturierte Entitäts-Daten für AI Overviews und SEO Pflicht sind."
-category: "AI SEO"
+category: 'KI SEO & AI Search'
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-identity-json-3d.webp"
 faqs:

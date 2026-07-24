@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "OAuth Protected Resource im A2A-Zeitalter (2026)"
 description: "Was ist eine OAuth Protected Resource? Wie Agenten via Protected Resource Metadata (RFC 9728) auf APIs zugreifen und warum das für deine KI-Strategie wichtig ist."
 date: "2026-07-22"

@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'KI SEO & AI Search'
 title: 'Google Core Updates 2026: Der Qualitätshammer für AI Overviews'
 description: 'Google Core Updates 2026 sind hochfrequente Erdbeben. Es geht um Information Gain, E-E-A-T und echten Mehrwert. Jörg Zimmer redet Tacheles. ALOHA! 🌻'
 date: "2026-03-10"

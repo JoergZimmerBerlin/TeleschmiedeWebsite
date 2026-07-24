@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'SEO Grundlagen'
 title: 'AEO: Die Zukunft der Answer Engine Optimization (Stand Juli 2026)'
 description: 'AEO optimiert deine Inhalte für Antwortmaschinen. Erfahre, wie Answer Engine Optimization technisch funktioniert und LLMs deine Daten verarbeiten.'
 date: "2026-03-11"

@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'SEO Analyse & Tracking'
 title: 'Website SEO Audit: Analyse, Tools & technische KI-Optimierung 2026'
 description: 'Ein Website SEO Audit 2026 prüft nicht nur Technik, sondern die volle technische KI-Optimierung. Erfahre, wie du llms.txt und Markdown Negotiation testest.'
 date: "2026-03-20"

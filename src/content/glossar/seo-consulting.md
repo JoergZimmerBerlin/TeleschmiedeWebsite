@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'SEO Grundlagen'
 title: 'SEO Consulting 2026: Strategische KI-Architektur für Unternehmen'
 description: 'SEO Consulting im Juli 2026 ist pure Systemarchitektur. Wir etablieren maschinenlesbare Endpunkte, auth.md und RFC 8288 für knallhartes KI-Wachstum.'
 date: "2026-03-10"

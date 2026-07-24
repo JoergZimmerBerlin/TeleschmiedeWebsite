@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'KI SEO & AI Search'
 title: 'GEO Agentur (Generative Engine Optimization)'
 description: 'Eine GEO Agentur optimiert deine Infrastruktur für KI-Systeme wie ChatGPT, Perplexity und LLM-Pipelines nach modernsten Standards. ALOHA! 🌻'
 date: "2026-03-10"

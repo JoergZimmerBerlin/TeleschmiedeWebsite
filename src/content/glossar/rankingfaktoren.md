@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'SEO Grundlagen'
 title: 'SEO Rankingfaktoren 2026: Was Google und KIs wirklich bewerten'
 description: 'Rankingfaktoren 2026: Die harten Kriterien für Google und Generative Engines. Was über Seite 1 und KI-Zitierungen entscheidet. ALOHA! 🌻'
 date: "2026-03-10"

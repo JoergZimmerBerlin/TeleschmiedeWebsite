@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'Strukturierte Daten 2026: AI-Grounding & LLM-Fütterung'
 description: 'Strukturierte Daten im Juli 2026: Vergiss Rich Snippets. So machst du deine Seite durch harte KI-Crawler-Protokolle, JSON-LD und RAG maschinenlesbar. Tacheles!'
 sameAs: "https://www.wikidata.org/wiki/Q26813700"

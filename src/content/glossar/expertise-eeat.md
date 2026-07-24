@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'E-E-A-T'
 title: 'Expertise 2026: Thematische Vektortiefe für LLM-Crawler'
 description: 'Expertise (E-E-A-T) unter KI-Sichtbarkeits-Standards 2026: Wie Entity Sideloading und Topical Authority deinen RAG-Trust sichern. ALOHA! 🌻'
 date: "2026-03-31"

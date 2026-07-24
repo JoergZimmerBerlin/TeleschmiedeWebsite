@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'Robots.txt: Die Steuerzentrale für KI-Bots & Crawler'
 description: 'Die robots.txt steuert 2026 nicht mehr nur Google, sondern entscheidet über deine Sichtbarkeit bei KI-Agenten, GPTBot und RAG-Pipelines. ALOHA!'
 date: "2026-07-18"

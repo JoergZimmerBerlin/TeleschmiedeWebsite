@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'SEO Analyse & Tracking'
 title: 'Bing Webmaster Tools (BWT): Warum sie 2026 Pflicht für KI-SEO sind'
 description: 'Die Bing Webmaster Tools liefern über den AI Performance Report die wichtigsten Insights für Microsoft Copilot. Jörg Zimmer erklärt die BWT.'
 date: "2026-03-22"

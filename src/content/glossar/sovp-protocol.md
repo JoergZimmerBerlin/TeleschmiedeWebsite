@@ -1,7 +1,7 @@
 ---
 title: "SOVP Protocol (Sovereign Validation Protocol): Determinismus in der KI-Infrastruktur"
 description: "Allet, wat de über dit Sovereign Validation Protocol (SOVP), Infrastruktur Zertifikate, Determinismus und Litzki Systems LLC wissen musst. Tacheles von Jörg Zimmer."
-category: "AI SEO"
+category: 'KI SEO & AI Search'
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-sovp-protocol-3d.webp"
 ---

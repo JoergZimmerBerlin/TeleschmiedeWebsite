@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'KI SEO & AI Search'
 title: "A2A Protocol: Autonome KI-Agenten im Unternehmensumfeld"
 description: "Vergiss APIs für Menschen. Das A2A Protocol (v1.0.0) ist der Industrie-Standard für Agent-to-Agent Kommunikation. Jörg Zimmer erklärt den Shift."
 date: "2026-07-17"

@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'DNS Sovereignty: Warum dein Nameserver über Crawler-Sichtbarkeit entscheidet'
 description: 'DNS Sovereignty ist die Grundlage für Latenz und Crawlbarkeit. Erfahre, warum langsame Nameserver deine Indexierung und Daten-Verfügbarkeit zerstören.'
 date: "2026-03-10"

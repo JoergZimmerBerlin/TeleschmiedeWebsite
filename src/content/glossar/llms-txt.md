@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'KI SEO & AI Search'
 title: 'LLMs.txt: Der Community-Standard für KI-Crawler 2026'
 description: 'Die llms.txt ist ein spannendes Experiment für KI-Crawler. Jörg Zimmer klärt auf, was dran ist am Hype und warum es kein offizieller Google-Rankingfaktor ist.'
 date: "2026-03-10"

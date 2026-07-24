@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'Offpage SEO & Linkbuilding'
 title: 'Mention (Erwähnung): Definition und LLM-Relevanz 2026'
 description: 'Eine Mention ist der Treibstoff für dein Entity-Building. Im Jahr 2026 entscheidet sie, ob LLM-Pipelines dich als Autorität validieren. Tacheles. ALOHA! 🌻'
 date: "2026-03-10"

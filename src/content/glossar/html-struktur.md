@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: "Semantische HTML-Struktur 2026: Die Basis für KI-Crawler & RAG"
 description: "Eine saubere semantische HTML-Struktur ist im KI-Zeitalter der wichtigste Faktor für fehlerfreies Parsing durch LLMs, KI-Agents und Google."
 date: "2026-07-22"

@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "Agent Skills: Der modulare Werkzeugkasten für KI-Agenten"
 description: "Erfahre, wie Agent Skills in 2026 KI-Agenten durch modulare Fähigkeiten und Tools wie MCP extrem mächtig machen. Tacheles von Jörg Zimmer."
 date: "2026-07-22"

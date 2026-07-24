@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'Offpage SEO & Linkbuilding'
 title: 'Linkjuice (Linkkraft) 2026: Vom PageRank zum Entity-Trust'
 description: 'Linkjuice 2026 erklärt: Wie sich Ranking-Power durch Entity-Citations verteilt. Lerne, wie KI-Modelle Vertrauensflüsse werten. ALOHA!'
 date: "2026-03-10"

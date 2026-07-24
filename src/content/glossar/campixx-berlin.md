@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'SEO Grundlagen'
 title: 'Campixx Berlin 2026: Die legendäre SEO-Konferenz im KI-Zeitalter'
 description: 'Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻'
 date: "2026-03-31"

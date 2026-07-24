@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'SEO Grundlagen'
 title: 'SEO Stammtisch Berlin: Netzwerken Hauptstadt'
 description: 'Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf Augenhöhe.'
 date: "2026-03-10"

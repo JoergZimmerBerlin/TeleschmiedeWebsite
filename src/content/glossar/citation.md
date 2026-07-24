@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'Offpage SEO & Linkbuilding'
 title: 'Citation (Zitierung): Technische Struktur und Entity-Resolution in 2026'
 description: 'Ein tiefer technischer Einblick in digitale Citations. Erfahre, wie strukturierte Verweise funktionieren und warum LLMs Zitationen zur Verifizierung nutzen.'
 date: "2026-03-10"

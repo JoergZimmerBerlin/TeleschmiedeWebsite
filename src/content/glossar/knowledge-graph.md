@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'KI SEO & AI Search'
 title: 'Knowledge Graph: Das Gehirn der generativen Suche (2026)'
 description: 'Der Knowledge Graph ist 2026 die Ground Truth für KI-Systeme. Lerne, wie du deine Entität aufbaust und von LLMs zitiert wirst. Tacheles und Tiefe. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q648625"

@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "DNS-AID: Das Telefonbuch für KI-Agenten"
 description: "Erfahre, wie DNS-AID als Telefonbuch für autonome KI-Agenten fungiert und warum es die nächste Stufe der Agent Readiness darstellt."
 date: "2026-07-22"

@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'SEO Analyse & Tracking'
 title: 'KI-Sichtbarkeit messen: Der ultimative Guide (Stand Juli 2026)'
 description: 'Wie du deine Präsenz in ChatGPT, AI Overviews & Co. misst und steigerst. Technik, Tools und Tacheles zu Agent Readiness von Jörg Zimmer.'
 date: "2026-03-20"

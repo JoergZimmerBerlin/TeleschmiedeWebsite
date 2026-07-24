@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "x402 Protokoll (HTTP Payments): Agent-Native Commerce für KI"
 description: "Was ist das x402 Protokoll? Wie HTTP Payments den Agenten-Handel und Maschine-zu-Maschine-Transaktionen (M2M) revolutionieren. Klartext zur Zukunft des E-Commerce."
 date: "2026-07-22"

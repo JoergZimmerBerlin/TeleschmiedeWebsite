@@ -19,10 +19,15 @@ export async function getStaticPaths() {
   }));
 
   const categories = [
-    { name: 'SEO Basics & Onpage', slug: 'seo-basics-onpage', desc: 'Grundlagen, Keyword-Strategien und Onpage-Optimierung für nachhaltigen SEO-Erfolg.' },
-    { name: 'Technisches SEO & UX', slug: 'technisches-seo-ux', desc: 'Crawling, Indexierung, PageSpeed und Core Web Vitals für eine technisch fehlerfreie Website.' },
-    { name: 'AI SEO & Generative Search', slug: 'ai-seo-generative-search', desc: 'GEO, AIO, LLMs und die Zukunft der KI-gestützten Suchmaschinen.' },
-    { name: 'E-E-A-T & Offpage', slug: 'e-e-a-t-offpage', desc: 'Autorität, Trust, Entitäten, Backlinks und nachhaltiger Markenaufbau.' }
+    { name: 'Content Marketing', slug: 'content-marketing', desc: 'Content-Strategien, Textoptimierung und wertvolle Inhalte für Rankings.' },
+    { name: 'Local SEO', slug: 'local-seo', desc: 'Lokale Suchmaschinenoptimierung, Google Unternehmensprofil und Geo-Relevanz.' },
+    { name: 'KI SEO & AI Search', slug: 'ki-seo-ai-search', desc: 'GEO, AIO, LLMs und die Zukunft der KI-gestützten Suchmaschinen.' },
+    { name: 'Offpage SEO & Linkbuilding', slug: 'offpage-seo-linkbuilding', desc: 'Backlinks, Erwähnungen, Citations und Offpage-Signale für mehr Trust.' },
+    { name: 'SEO Analyse & Tracking', slug: 'seo-analyse-tracking', desc: 'Tools, Metriken, Sichtbarkeit und Web Analytics für Data-Driven SEO.' },
+    { name: 'Technisches SEO', slug: 'technisches-seo', desc: 'Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur.' },
+    { name: 'E-E-A-T', slug: 'e-e-a-t', desc: 'Experience, Expertise, Authoritativeness und Trust für nachhaltigen Erfolg.' },
+    { name: 'SEO Grundlagen', slug: 'seo-grundlagen', desc: 'Die absoluten Basics: Was ist SEO, wie funktionieren Suchmaschinen und erste Schritte.' },
+    { name: 'Onpage Optimierung', slug: 'onpage-optimierung', desc: 'Keywords, Headlines, Meta-Tags und alles, was direkt auf der Seite passiert.' }
   ];
 
   const categoryPaths = categories.map(cat => ({
@@ -79,7 +84,7 @@ if (type === 'term') {
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {allEntries
-            .filter(e => (e.data.category || 'SEO Basics & Onpage') === categoryName)
+            .filter(e => (e.data.category || 'SEO Basics') === categoryName)
             .sort((a, b) => a.data.title.localeCompare(b.data.title))
             .map(t => (
               <a href={`${baseUrl}/glossar/${t.id}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-lime-accent transition-all duration-300">

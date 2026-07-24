@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'E-E-A-T'
 title: 'E-E-A-T 2026: Die harte Währung für LLM-Pipelines und RAG-Systeme'
 description: 'E-E-A-T ist 2026 der kompromisslose technische Filter für KI-Crawler. Warum RAG-Prozesse nur noch harte, verifizierte Entitäten zitieren. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q121693513"

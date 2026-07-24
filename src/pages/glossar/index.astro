@@ -33,10 +33,15 @@ const sortedEntries = glossarEntries.sort((a, b) => {
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const categories = [
-  { name: 'SEO Basics & Onpage', slug: 'seo-basics-onpage' },
-  { name: 'Technisches SEO & UX', slug: 'technisches-seo-ux' },
-  { name: 'AI SEO & Generative Search', slug: 'ai-seo-generative-search' },
-  { name: 'E-E-A-T & Offpage', slug: 'e-e-a-t-offpage' }
+  { name: 'Content Marketing', slug: 'content-marketing' },
+  { name: 'Local SEO', slug: 'local-seo' },
+  { name: 'KI SEO & AI Search', slug: 'ki-seo-ai-search' },
+  { name: 'Offpage SEO & Linkbuilding', slug: 'offpage-seo-linkbuilding' },
+  { name: 'SEO Analyse & Tracking', slug: 'seo-analyse-tracking' },
+  { name: 'Technisches SEO', slug: 'technisches-seo' },
+  { name: 'E-E-A-T', slug: 'e-e-a-t' },
+  { name: 'SEO Grundlagen', slug: 'seo-grundlagen' },
+  { name: 'Onpage Optimierung', slug: 'onpage-optimierung' }
 ];
 
 ---
@@ -77,14 +82,14 @@ const categories = [
       </div>
 
       
-      <!-- Category Hubs -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
+      <!-- Category Boards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
         {categories.map(cat => {
-          const count = sortedEntries.filter(e => (e.data.category || 'SEO Basics & Onpage') === cat.name).length;
+          const count = sortedEntries.filter(e => (e.data.category || 'SEO Basics') === cat.name).length;
           return (
-            <a href={`${baseUrl}/glossar/${cat.slug}/`} title={cat.name} class="group bg-gray-50 border border-gray-100 rounded-2xl p-6 hover:bg-white hover:border-lime-accent hover:shadow-md transition-all duration-300">
-              <h3 class="font-bold text-lg text-dark mb-2 group-hover:text-lime-600 transition-colors">{cat.name}</h3>
-              <p class="text-sm text-gray-muted">{count} Begriffe</p>
+            <a href={`${baseUrl}/glossar/${cat.slug}/`} title={cat.name} class="group bg-white border border-gray-200 rounded-xl p-5 hover:border-lime-accent hover:shadow-sm transition-all flex items-center justify-between">
+              <h3 class="font-bold text-sm text-dark group-hover:text-lime-600 transition-colors line-clamp-1 pr-2">{cat.name}</h3>
+              <span class="text-xs font-semibold text-gray-500 bg-gray-100 px-2.5 py-1 rounded-full group-hover:bg-lime-accent/20 group-hover:text-lime-700 transition-colors">{count}</span>
             </a>
           );
         })}
@@ -100,7 +105,7 @@ const categories = [
             data-title={entry.data.title.toLowerCase()}
             data-desc={entry.data.description.toLowerCase()}
           >
-            <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics & Onpage'}</span>
+            <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics'}</span>
             <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
               {entry.data.title}
             </h2>
@@ -117,27 +122,7 @@ const categories = [
         ))}
       </div>
 
-      <!-- All Entries Index (SEO-friendly) -->
-      <div class="mt-16 border-t border-gray-100 pt-12" id="glossar-list-section">
-        <h2 class="text-2xl font-bold mb-8 text-center">Alle {sortedEntries.length} Begriffe im Überblick</h2>
-        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-3">
-          {sortedEntries.map((entry) => (
-            <li 
-              class="glossar-list-item"
-              data-title={entry.data.title.toLowerCase()}
-              data-desc={entry.data.description.toLowerCase()}
-            >
-              <a 
-                href={`${baseUrl}/glossar/${entry.id}/`}
-                title={entry.data.title}
-                class="text-gray-700 hover:text-lime-600 hover:underline transition-colors block text-sm"
-              >
-                {entry.data.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+
 
       <!-- No Results State -->
       <div id="no-results" class="no-results hidden">
@@ -156,9 +141,7 @@ const categories = [
   function initGlossarSearch() {
     const searchInput = document.getElementById('glossar-search') as HTMLInputElement;
     const cards = document.querySelectorAll('.glossar-card');
-    const listItems = document.querySelectorAll('.glossar-list-item');
     const noResults = document.getElementById('no-results');
-    const listSection = document.getElementById('glossar-list-section');
 
     searchInput?.addEventListener('input', (e) => {
       const term = (e.target as HTMLInputElement).value.toLowerCase();
@@ -171,35 +154,15 @@ const categories = [
 
         if (term === '') {
           card.classList.remove('hidden');
-          (card as HTMLElement).style.display = '';
+          card.style.display = '';
         } else {
           if (title.includes(term) || desc.includes(term)) {
             card.classList.remove('hidden');
-            (card as HTMLElement).style.display = 'block';
+            card.style.display = 'block';
             visibleCount++;
           } else {
             card.classList.add('hidden');
-            (card as HTMLElement).style.display = 'none';
-          }
-        }
-      });
-
-      // Filter list items
-      listItems.forEach(item => {
-        const title = item.getAttribute('data-title') || '';
-        const desc = item.getAttribute('data-desc') || '';
-
-        if (term === '') {
-          item.classList.remove('hidden');
-          (item as HTMLElement).style.display = '';
-        } else {
-          if (title.includes(term) || desc.includes(term)) {
-            item.classList.remove('hidden');
-            (item as HTMLElement).style.display = 'block';
-            visibleCount++;
-          } else {
-            item.classList.add('hidden');
-            (item as HTMLElement).style.display = 'none';
+            card.style.display = 'none';
           }
         }
       });
@@ -208,14 +171,11 @@ const categories = [
       if (term !== '' && noResults) {
         if (visibleCount === 0) {
           noResults.classList.remove('hidden');
-          if (listSection) listSection.classList.add('hidden');
         } else {
           noResults.classList.add('hidden');
-          if (listSection) listSection.classList.remove('hidden');
         }
       } else {
         if (noResults) noResults.classList.add('hidden');
-        if (listSection) listSection.classList.remove('hidden');
       }
     });
   }

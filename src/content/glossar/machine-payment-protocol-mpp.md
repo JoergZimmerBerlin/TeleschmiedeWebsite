@@ -1,4 +1,5 @@
 ---
+category: 'KI SEO & AI Search'
 title: "Machine Payment Protocol (MPP) – KI bezahlt selbst"
 description: "Was ist das Machine Payment Protocol? Wie KI-Agenten über M2M-Netzwerke, HTTP 402 und KI-Wallets autonom Mikrotransaktionen durchführen."
 date: "2026-07-22"

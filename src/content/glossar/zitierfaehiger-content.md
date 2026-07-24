@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'Content Marketing'
 title: 'Zitierfähiger Content: Rankingfaktor #1 im KI-Crawler Protocol (Juli 2026)'
 description: 'Warum LLMs deinen Content ignorieren und wie du mit strukturierte Datenaufbereitung für KIs und KI-Crawler Protocol endlich wieder zitiert wirst.'
 date: "2026-03-10"

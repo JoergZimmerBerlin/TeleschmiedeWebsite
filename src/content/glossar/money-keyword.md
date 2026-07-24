@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'Onpage Optimierung'
 title: 'Money Keywords in 2026: Von Suchphrasen zu LLM-Prompts'
 description: 'Money Keywords sind 2026 keine simplen Suchphrasen mehr, sondern komplexe Fanout-Prompts an KIs. So sicherst du dir die harte Conversion im RAG-Zeitalter. ALOHA! 🌻'
 date: "2026-03-10"

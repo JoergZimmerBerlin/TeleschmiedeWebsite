@@ -1,5 +1,5 @@
 ---
-category: "E-E-A-T & Offpage"
+category: 'Offpage SEO & Linkbuilding'
 title: 'Linkbuilding 2026: Von Backlinks zu Entity-Citations'
 description: 'Vergiss klassisches Linkbuilding. Im Juli 2026 sprechen wir über Entity-Citations, RAG-Modelle und maschinelles Vertrauen. So dominierst du die KI-Suche. ALOHA! 🌻'
 sameAs: "https://www.wikidata.org/wiki/Q1569371"

@@ -1,5 +1,5 @@
 ---
-category: "SEO Basics & Onpage"
+category: 'SEO Analyse & Tracking'
 title: 'Sichtbarkeitsindex 2026: Das Ende der blauen Links'
 description: 'Der alte Sichtbarkeitsindex hat ausgedient. Warum im Juli 2026 nur noch Citation-Stability, auth.md und maschinenlesbare Architektur zählen.'
 date: "2026-03-10"

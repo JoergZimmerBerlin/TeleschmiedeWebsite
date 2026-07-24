@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'SEO Analyse & Tracking'
 title: 'Google Search Console: Dein Radar für organische Sichtbarkeit & Crawling'
 description: 'Die Google Search Console ist dein unverzichtbares Tool, um Indexierung, Crawl-Fehler und Keyword-Daten zu tracken. Ohne GSC fliegst du im Blindflug. Tacheles!'
 sameAs: "https://www.wikidata.org/wiki/Q328216"

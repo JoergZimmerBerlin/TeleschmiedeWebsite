@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'KI SEO & AI Search'
 title: "ai.txt SEO: eine vollständige Agent Readiness erreichen"
 description: "Warum eine ai.txt mehr Umsatz als Rankings bringt. Jörg Zimmer erklärt im Klartext, wie du KI-Bots steuerst und deine Website Agent-Ready machst."
 date: "2026-03-15"

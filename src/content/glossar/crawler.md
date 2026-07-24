@@ -1,5 +1,5 @@
 ---
-category: "Technisches SEO & UX"
+category: 'Technisches SEO'
 title: 'Crawler & Search Bots 2026: RAG-Pipelines und llms.txt'
 description: 'Crawler haben sich von simplen Indexierungs-Skripten zu autonomen Daten-Agents entwickelt. Erfahre, wie Bots arbeiten und wie du dein Crawl-Budget optimierst.'
 sameAs: "https://www.wikidata.org/wiki/Q45842"

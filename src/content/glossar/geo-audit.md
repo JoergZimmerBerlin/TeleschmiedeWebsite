@@ -1,5 +1,5 @@
 ---
-category: "AI SEO & Generative Search"
+category: 'KI SEO & AI Search'
 title: 'GEO Audit: Der Stresstest für deine KI-Sichtbarkeit'
 description: 'Ein GEO Audit prüft deine Infrastruktur für LLM-Pipelines: Markdown Negotiation, RAG-Readiness und Crawler-Protokolle im Tacheles-Check. ALOHA! 🌻'
 date: "2026-03-18"

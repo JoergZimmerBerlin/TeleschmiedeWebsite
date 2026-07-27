@@ -12,16 +12,18 @@ function loadGlossary() {
   
   for (const file of files) {
     const content = fs.readFileSync(path.join(GLOSSAR_DIR, file), 'utf-8');
-    const titleMatch = content.match(/title:\s*"(.*?)"/);
-    const descMatch = content.match(/description:\s*"(.*?)"/);
+    const titleMatch = content.match(/title:\s*['"](.*?)['"]/);
+    const descMatch = content.match(/description:\s*['"](.*?)['"]/);
     const slug = file.replace(/\.mdx?$/, '');
     
     if (titleMatch) {
+      const catMatch = content.match(/category:\s*['"](.*?)['"]/);
       terms.push({
         title: titleMatch[1],
         description: descMatch ? descMatch[1] : '',
         slug: slug,
-        type: 'glossar'
+        type: 'glossar',
+        category: catMatch ? catMatch[1] : 'Glossar'
       });
     }
   }
@@ -35,16 +37,18 @@ function loadBlog() {
   
   for (const file of files) {
     const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');
-    const titleMatch = content.match(/title:\s*"(.*?)"/);
-    const descMatch = content.match(/description:\s*"(.*?)"/);
+    const titleMatch = content.match(/title:\s*['"](.*?)['"]/);
+    const descMatch = content.match(/description:\s*['"](.*?)['"]/);
     const slug = file.replace(/\.mdx?$/, '');
     
     if (titleMatch) {
+      const catMatch = content.match(/category:\s*['"](.*?)['"]/);
       posts.push({
         title: titleMatch[1].replace(/[:"]/g, ''), // Clean title for matching
         description: descMatch ? descMatch[1] : '',
         slug: slug,
-        type: 'blog'
+        type: 'blog',
+        category: catMatch ? catMatch[1] : 'Blog'
       });
     }
   }
@@ -52,7 +56,7 @@ function loadBlog() {
 }
 
 // 3. Process HTML Files
-function processDirectory(dir, allTerms) {
+function processDirectory(dir, allTerms, ringTerms) {
   const items = fs.readdirSync(dir);
   
   for (const item of items) {
@@ -60,16 +64,20 @@ function processDirectory(dir, allTerms) {
     const stat = fs.statSync(fullPath);
     
     if (stat.isDirectory()) {
-      processDirectory(fullPath, allTerms);
+      processDirectory(fullPath, allTerms, ringTerms);
     } else if (item.endsWith('.html')) {
-      linkHtml(fullPath, allTerms);
+      linkHtml(fullPath, allTerms, ringTerms);
     }
   }
 }
 
-function linkHtml(filePath, allTerms) {
+function linkHtml(filePath, allTerms, ringTerms) {
   const absolutePath = path.resolve(filePath);
-  const currentFileName = path.basename(filePath, '.html');
+  // Get the parent directory name, which is the actual slug for Astro's index.html files
+  let currentSlug = path.basename(filePath, '.html');
+  if (currentSlug === 'index') {
+    currentSlug = path.basename(path.dirname(filePath));
+  }
   
   let html = fs.readFileSync(filePath, 'utf-8');
   
@@ -98,7 +106,7 @@ function linkHtml(filePath, allTerms) {
   
   for (const term of allTerms) {
     // Skip if it's the current page
-    if (currentFileName === term.slug) continue;
+    if (currentSlug === term.slug) continue;
     if (filePath.includes(`/${term.type}/${term.slug}/`)) continue;
     
     // Exact title match (case insensitive)
@@ -114,6 +122,9 @@ function linkHtml(filePath, allTerms) {
   const linkedTerms = new Set(); // Link each term only ONCE per page for better UX
 
   content = content.replace(unifiedRegex, (match, p1, offset) => {
+    // Limit in-text links to maximum 5 per page
+    if (matchesCount >= 5) return match;
+
     const term = glossaryMap.get(match.toLowerCase());
     if (!term || linkedTerms.has(term.slug)) return match;
 
@@ -144,11 +155,35 @@ function linkHtml(filePath, allTerms) {
         return `<a href="/blog/${term.slug}/" class="internal-blog-link text-lime-600 underline decoration-lime-300 font-medium">${match}</a>`;
     }
   });
+  
+  // Add Guaranteed Ring-Topology Links (Verwandte Themen)
+  const currentIndex = ringTerms.findIndex(t => t.slug === currentSlug);
+  if (currentIndex !== -1) {
+    let relatedHtml = `
+      <div class="mt-12 p-6 bg-gray-50 border border-gray-100 rounded-2xl">
+        <h3 class="text-xl font-bold mb-4">Weitere spannende Themen</h3>
+        <ul class="space-y-2">
+    `;
+    
+    // Pick 5 highly relevant items (next in category-sorted ring)
+    for (let i = 1; i <= 5; i++) {
+      const nextIndex = (currentIndex + i) % ringTerms.length;
+      const t = ringTerms[nextIndex];
+      const url = t.type === 'glossar' ? `/glossar/${t.slug}/` : `/blog/${t.slug}/`;
+      relatedHtml += `<li><a href="${url}" class="text-lime-700 hover:text-lime-900 font-medium underline decoration-lime-300">${t.title}</a></li>`;
+    }
+    
+    relatedHtml += `
+        </ul>
+      </div>
+    `;
+    content = content + relatedHtml;
+  }
 
   if (content !== originalContent) {
     const newHtml = html.substring(0, startTagEnd + 1) + content + html.substring(endDivIdx);
     fs.writeFileSync(filePath, newHtml);
-    console.log(`✅ Linked ${matchesCount} items in: ${filePath}`);
+    console.log(`✅ Linked ${matchesCount} text items & 5 related topics in: ${filePath}`);
   }
 }
 
@@ -156,11 +191,18 @@ console.log('🚀 Starting Intelligent Cross-Linking (Blog & Glossar)...');
 const glossary = loadGlossary();
 const blog = loadBlog();
 const allTerms = [...glossary, ...blog].sort((a, b) => b.title.length - a.title.length);
+// Sort ring mathematically by category first, then slug, ensuring "next items" are highly relevant
+const ringTerms = [...glossary, ...blog].sort((a, b) => {
+  if (a.category !== b.category) {
+    return a.category.localeCompare(b.category);
+  }
+  return a.slug.localeCompare(b.slug);
+});
 
 console.log(`📚 Loaded ${glossary.length} glossary terms and ${blog.length} blog posts.`);
 
 if (fs.existsSync(DIST_DIR)) {
-  processDirectory(DIST_DIR, allTerms);
+  processDirectory(DIST_DIR, allTerms, ringTerms);
   console.log('✨ Cross-Linking Complete!');
 } else {
   console.error('❌ dist directory not found. Run build first.');

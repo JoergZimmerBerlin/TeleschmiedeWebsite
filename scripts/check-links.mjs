@@ -1,139 +1,168 @@
-#!/usr/bin/env node
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-/**
- * Post-Deploy Link-Check (Optimized & Parallel)
- *
- * Crawlt die Live-Site, extrahiert alle internen Links und prueft HTTP-Status.
- * 
- * Verbesserungen:
- * - Paralleles Crawling (Concurrency: 15)
- * - Korrekte Behandlung von Absolute/Relative Links
- * - Robuste URL-Erkennung
- */
+const DIST_DIR = './dist';
 
-import { readFileSync } from "fs";
-import { resolve } from "path";
-
-// ---------------------------------------------------------------------------
-// Konfiguration & Domain
-// ---------------------------------------------------------------------------
-
-const CONCURRENCY = 15;
-const TIMEOUT_MS = 20_000;
-
-function getSiteUrl() {
-  const url = process.env.SITE_URL || "https://teleschmie.de";
-  return url.replace(/\/+$/, "");
-}
-
-async function fetchInternal(url) {
-  try {
-    const controller = new AbortController();
-    const id = setTimeout(() => controller.abort(), TIMEOUT_MS);
-    const res = await fetch(url, { signal: controller.signal });
-    clearTimeout(id);
-    
-    if (res.ok && res.headers.get("content-type")?.includes("text/html")) {
-      return { ok: true, status: res.status, url, html: await res.text() };
+function getHtmlFiles(dir) {
+  let results = [];
+  const list = fs.readdirSync(dir);
+  list.forEach(file => {
+    const fullPath = path.join(dir, file);
+    const stat = fs.statSync(fullPath);
+    if (stat && stat.isDirectory()) {
+      results = results.concat(getHtmlFiles(fullPath));
+    } else if (file.endsWith('.html')) {
+      results.push(fullPath);
     }
-    return { ok: res.ok, status: res.status, url };
-  } catch (error) {
-    return { ok: false, error: error.message, url };
-  }
+  });
+  return results;
 }
 
-function extractLinks(html, siteUrl) {
-  const links = new Set();
+function extractInternalLinks(html) {
+  const links = [];
   const regex = /href=["']([^"'\s#]+?)["']/g;
   let match;
   while ((match = regex.exec(html)) !== null) {
-    let href = match[1];
-    
-    // Normalize relative links
-    if (href.startsWith("/") && !href.startsWith("//")) {
-      href = siteUrl + href;
-    }
-    
-    // Only check internal links
-    if (href.startsWith(siteUrl)) {
-      // Normalize: ensure trailing slash ONLY for routes, NOT for assets
-      const isAsset = /\.(webp|png|jpg|jpeg|svg|pdf|css|js|woff2?|ico|xml|txt)$/i.test(href);
-      const normalized = isAsset ? href.replace(/\/+$/, "") : (href.replace(/\/+$/, "") + "/");
-      links.add(normalized);
+    const href = match[1];
+    // Nur interne Links prüfen (starten mit /)
+    if (href.startsWith('/') && !href.startsWith('//')) {
+      links.push(href);
     }
   }
-  return Array.from(links);
+  return links;
 }
 
-// ---------------------------------------------------------------------------
-// Engine
-// ---------------------------------------------------------------------------
-
-async function main() {
-  const siteUrl = getSiteUrl();
-  console.log(`\n🚀 Starte optimierten Link-Check fuer: ${siteUrl}`);
-
-  const visited = new Set();
-  const queue = [siteUrl + "/"];
-  const results = [];
-  let activeWorkers = 0;
-
-  async function processNext() {
-    if (queue.length === 0) return;
-    
-    const url = queue.shift();
-    if (visited.has(url)) return;
-    
-    visited.add(url);
-    activeWorkers++;
-
-    const displayUrl = url.replace(siteUrl, "") || "/";
-    const res = await fetchInternal(url);
-    
-    console.log(`${res.ok ? "✅" : "❌"} ${displayUrl}${res.ok ? "" : ` (${res.status || res.error})`}`);
-    results.push(res);
-
-    if (res.ok && res.html) {
-      const found = extractLinks(res.html, siteUrl);
-      for (const link of found) {
-        if (!visited.has(link)) {
-          queue.push(link);
-        }
-      }
-    }
-
-    activeWorkers--;
-    // Trigger next batch
-    fillPool();
-  }
-
-  function fillPool() {
-    while (activeWorkers < CONCURRENCY && queue.length > 0) {
-      processNext();
-    }
-  }
-
-  // Initial fill
-  fillPool();
-
-  // Wait for all workers and queue to clear
-  while (activeWorkers > 0 || queue.length > 0) {
-    await new Promise(r => setTimeout(r, 500));
-  }
-
-  // --- Report ---
-  const fails = results.filter(r => !r.ok);
-  console.log("\n" + "─".repeat(60));
-  console.log(`Check beendet: ${results.length} URLs geprueft, ${fails.length} Fehler.`);
-  console.log("─".repeat(60));
-
-  if (fails.length > 0) {
-    console.error("\nGEFUNDENE FEHLER:");
-    fails.forEach(f => console.error(`  [${f.status || "ERR"}] ${f.url}`));
+function checkLinks() {
+  console.log('🧪 Starting Local Link Validation in /dist...');
+  
+  if (!fs.existsSync(DIST_DIR)) {
+    console.error('❌ Error: dist directory not found. Run build first.');
     process.exit(1);
   }
 
-  console.log("\n✅ Alle internen Links und Assets sind erreichbar.\n");
+  const htmlFiles = getHtmlFiles(DIST_DIR);
+  let totalLinks = 0;
+  let brokenLinksCount = 0;
+  const brokenLinks = [];
+  
+  // Map to track incoming links for each valid file
+  // Key: absolute path to local dist file, Value: Set of source files
+  const incomingLinks = new Map();
+
+  for (const file of htmlFiles) {
+    if (!incomingLinks.has(file)) {
+      incomingLinks.set(file, new Set());
+    }
+    
+    const content = fs.readFileSync(file, 'utf-8');
+    const links = extractInternalLinks(content);
+    
+    for (const link of links) {
+      totalLinks++;
+      
+      // Clean URL: remove query params and hashes
+      let cleanPath = link.split('?')[0].split('#')[0];
+      
+      // Map absolute path to local dist file
+      let targetPath;
+      if (cleanPath === '/' || cleanPath === '') {
+        targetPath = path.join(DIST_DIR, 'index.html');
+      } else {
+        // Remove leading slash for local mapping
+        const relativePath = cleanPath.substring(1);
+        
+        // Verschiedene Pfad-Varianten prüfen
+        const variants = [
+            path.join(DIST_DIR, relativePath, 'index.html'), // Directory (z.B. /blog/) -> /blog/index.html
+            path.join(DIST_DIR, relativePath.endsWith('/') ? relativePath + 'index.html' : relativePath + '/index.html'),
+            path.join(DIST_DIR, relativePath) // Exakt (z.B. assets/...)
+        ];
+        
+        targetPath = variants.find(v => {
+          try {
+            return fs.statSync(v).isFile();
+          } catch (e) {
+            return false;
+          }
+        });
+      }
+
+      if (!targetPath || !fs.existsSync(targetPath)) {
+        brokenLinksCount++;
+        brokenLinks.push({
+          source: file,
+          target: link
+        });
+      } else {
+        // Record the valid incoming link
+        if (!incomingLinks.has(targetPath)) {
+          incomingLinks.set(targetPath, new Set());
+        }
+        incomingLinks.get(targetPath).add(file);
+      }
+    }
+  }
+
+  console.log(`📊 Validated ${totalLinks} internal links across ${htmlFiles.length} files.`);
+  
+  let hasErrors = false;
+
+  if (brokenLinksCount > 0) {
+    hasErrors = true;
+    console.error(`\n❌ Found ${brokenLinksCount} broken internal links (404-Fehler):`);
+    const grouped = brokenLinks.reduce((acc, curr) => {
+        if (!acc[curr.source]) acc[curr.source] = [];
+        acc[curr.source].push(curr.target);
+        return acc;
+    }, {});
+
+    for (const [source, targets] of Object.entries(grouped)) {
+        console.error(`  In ${source.replace(DIST_DIR, '')}:`);
+        targets.forEach(t => console.error(`    - "${t}"`));
+    }
+  } else {
+    console.log('✅ Keine 404-Fehler: Alle verlinkten Seiten existieren!');
+  }
+  
+  // Check for the 3-links rule for Content pages (Blog and Glossar)
+  let underlinkedCount = 0;
+  console.log('\n🔍 Checking "Minimum 3 Internal Links" rule for Blog & Glossar...');
+  
+  for (const [targetFile, sources] of incomingLinks.entries()) {
+    const isContentPage = targetFile.includes('/blog/') || targetFile.includes('/glossar/');
+    const isPagination = targetFile.match(/\/[0-9]+\/index\.html$/); // Ignore pagination pages like /blog/2/
+    
+    if (isContentPage && !isPagination) {
+      // Ignore Astro Redirect Pages
+      const html = fs.readFileSync(targetFile, 'utf-8');
+      if (html.includes('<meta http-equiv="refresh"')) {
+          continue; // Skip redirect pages
+      }
+
+      if (sources.size < 3) {
+        hasErrors = true;
+        underlinkedCount++;
+        console.log(`  ⚠️ Zu wenig interne Links (${sources.size}/3): ${targetFile}`);
+        
+        // Print the sources for debugging
+        const sourceList = Array.from(sources).join(', ');
+        console.log(`     Verlinkt von: ${sourceList || 'Niemandem'}`);
+      }
+    }
+  }
+  
+  if (underlinkedCount > 0) {
+    console.error(`\n❌ ${underlinkedCount} Seiten haben weniger als 3 eingehende Links!`);
+  } else {
+    console.log('✅ Alle Blog- und Glossarseiten sind mindestens 3x intern verlinkt!');
+  }
+
+  if (hasErrors) {
+    process.exit(1);
+  } else {
+    console.log('\n🎉 Perfekt! Das Projekt erfüllt alle strengen SEO-Link-Regeln.\n');
+  }
 }
 
-main();
+checkLinks();

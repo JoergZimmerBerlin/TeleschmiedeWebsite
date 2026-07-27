@@ -4108,7 +4108,7 @@ Deshalb ist die GSC deine Single Source of Truth. Wenn ein externes Tool sagt "D
 
 ## Mein Tacheles-Rat für dich
 
-Die Google Search Console ist der Dreh- und Angelpunkt für dein technisches SEO. Sie kostet keinen Cent, ist aber das einzige Tool, das dir ehrlich sagt, ob du für Googles Crawler existierst. 
+Die Google Search Console ist der Dreh- und Angelpunkt für dein technisches SEO. (Und falls du dich fragst, [wer eigentlich für die Einrichtung zuständig ist](https://teleschmie.de/blog/google-search-console-zustaendigkeit-umfrage/), lies dir meine Umfrage dazu durch). Sie kostet keinen Cent, ist aber das einzige Tool, das dir ehrlich sagt, ob du für Googles Crawler existierst. 
 
 Richte deine Dashboards auf fallende CTRs und steigende Indexierungsfehler aus. Wer seine First-Party-Daten aus der GSC kennt, wer seine Core Web Vitals im Griff hat und Ladezeiten optimiert, hat das Fundament gelegt. Wer die Basics ignoriert, dem hilft auch der beste KI-Hype nicht.
 
@@ -4990,7 +4990,7 @@ ALOHA! Jörg
 ### Verwandte Begriffe
 * [RAG: Die Technik hinter den KI-Antworten](https://teleschmie.de/glossar/rag/)
 * [Die Bedeutung von Entitäten](https://teleschmie.de/glossar/entitaet/)
-* [Was sind LLMs wirklich?](https://teleschmie.de/glossar/llm/)
+* [Was sind LLMs wirklich?](https://teleschmie.de/glossar/llms-txt/)
 
 ---
 
@@ -6121,8 +6121,7 @@ ALOHA! Jörg 🌻✌️
 
 ### Verwandte Begriffe
 * [Wie optimiert man das Title Tag?](https://teleschmie.de/glossar/title-tag/)
-* [Was sind LLMs und RAG-Pipelines?](https://teleschmie.de/glossar/llm/)
-* [Entitäten in der Suchmaschinenoptimierung](https://teleschmie.de/glossar/entitaet/)RAG-Pipelines?](https://teleschmie.de/glossar/llm/)
+* [Was sind LLMs und RAG-Pipelines?](https://teleschmie.de/glossar/llms-txt/)
 * [Entitäten in der Suchmaschinenoptimierung](https://teleschmie.de/glossar/entitaet/)
 
 ---
@@ -10559,7 +10558,7 @@ Warum? Weil es exakt die bittere Realität in so unfassbar vielen Agenturen und 
 
 ## Der "Zauberspruch"-Trick: Ein Klassiker des Grauens
 
-Das Szenario, das in meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) auf dem Tisch landet, ist fast immer identisch: Ein Unternehmen investiert 20.000 €, 50.000 € oder mehr in ein neues Web-Design. Die Agentur freut sich über den Dribbble-würdigen Look. Die Geschäftsführung klopft sich am Launch-Tag feierlich auf die Schultern.
+Das Szenario, das in meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) auf dem Tisch landet (hier erfährst du, was wir [in zwei Stunden für ein SEO-Potential](https://teleschmie.de/blog/zwei-stunden-seo-potential/) entfalten), ist fast immer identisch: Ein Unternehmen investiert 20.000 €, 50.000 € oder mehr in ein neues Web-Design. Die Agentur freut sich über den Dribbble-würdigen Look. Die Geschäftsführung klopft sich am Launch-Tag feierlich auf die Schultern.
 
 Und dann, zwei Wochen nach Launch, wenn die Umsatzkurve ins Bodenlose sinkt, kommt der panische Anruf:
 
@@ -10659,7 +10658,7 @@ Alle Standard-Verdächtigen waren raus.
 
 Das hieß: Das Problem liegt im Code.
 
-In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) grille ich Websites. Mit SE Ranking für die Daten-Analyse und Rankscale für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
+In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) grille ich Websites und decke massives [Potential in nur zwei Stunden](https://teleschmie.de/blog/zwei-stunden-seo-potential/) auf. Mit SE Ranking für die Daten-Analyse und Rankscale für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ## Der Täter: Drittanbieter-Scripte
 
@@ -13937,7 +13936,7 @@ Schönes Bashing und NEIN. Die meisten SEO Spezialisten sind gefragter den je. M
   "Digitaler Unternehmensberater hat so ein Geschmäckle von 'Digitalisierung' oft inkl. Werbe-Buzz mit Bafa-Combo. [...] Auch der Berater ist zudem immer mehr KI als Wettbewerber zu Unternehmensberatungen."
 
 
-Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist durch viele Agenturen, die heißes Wasser erfinden und teuer verkaufen, extrem verbrannt. Das "Geschmäckle" ist da. Aber genau deshalb müssen wir den Begriff neu definieren. Echte Beratung ist kein Buzzword-Bingo. Es ist das Ärmelhochkrempeln, in die Google Search Console schauen, Server-Logs analysieren und dem CEO unangenehme Wahrheiten über seinen Tech-Stack sagen. Und ja, KI ist ein Wettbewerber in der Beratung – aber KI hat keine Seniorität in Firmenpolitik und Change Management.
+Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist durch viele Agenturen, die heißes Wasser erfinden und teuer verkaufen, extrem verbrannt. Das "Geschmäckle" ist da. Aber genau deshalb müssen wir den Begriff neu definieren. Echte Beratung ist kein Buzzword-Bingo. Es ist das Ärmelhochkrempeln, in die [Google Search Console schauen](https://teleschmie.de/blog/google-search-console-zustaendigkeit-umfrage/), Server-Logs analysieren und dem CEO unangenehme Wahrheiten über seinen Tech-Stack sagen. Und ja, KI ist ein Wettbewerber in der Beratung – aber KI hat keine Seniorität in Firmenpolitik und Change Management.
 
 
   💬 Kommentar von Rainer Tolksdorf
@@ -14926,7 +14925,7 @@ Mein LinkedIn-Post zu diesem Thema hat gezeigt: Das Problem ist systemisch.
 
 Du willst wissen, ob du auch unbewusst in die 80%-Falle getappt bist? 
 
-In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit. Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
+In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit (siehe auch meine Case Study zu [zwei Stunden SEO-Potential](https://teleschmie.de/blog/zwei-stunden-seo-potential/)). Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
 
 **Bist du bereit für die Wahrheit?**
 

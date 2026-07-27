@@ -58,7 +58,10 @@ async function check() {
         console.log(`[${i}/${MAX_ATTEMPTS}] Prüfe Site-Status: ${url}...`);
         const res = await fetch(url, { method: 'HEAD' });
         if (res.ok) {
-          console.log("✅ Site ist live!");
+          console.log(`⚠️ Kein lokales build.txt zum Abgleich vorhanden.`);
+          console.log(`⏳ Warte zur Sicherheit 5 Minuten, damit das Deployment auf IONOS sicher abgeschlossen ist...`);
+          await new Promise(r => setTimeout(r, 300000)); // 5 Minuten Fallback-Timer
+          console.log("✅ 5 Minuten Wartezeit abgelaufen. Site sollte live sein!");
           process.exit(0);
         }
       }

@@ -23,7 +23,7 @@ Moin! 🌻
 
 Die Click-Through-Rate (CTR) war über ein Jahrzehnt lang der unangefochtene heilige Gral der Meta-Title-Optimierer. Wir saßen in Dashboards und haben Emojis in Snippets gebastelt, die Länge der Description auf das Zeichen genau beschnitten, alles in der Hoffnung, den Link auf Position 3 attraktiver zu machen als den auf Position 2. 
 
-Willkommen im Jahr 2026. Das klassische Suchfenster mit zehn einfachen blauen Links ist zunehmend ein Relikt. Wer heute noch versucht, seine [SEO](/glossar/seo/)-Strategie stur über die klassische SERP-CTR zu validieren, optimiert für ein Spielfeld, dessen Regeln sich komplett gedreht haben.
+Willkommen im Jahr 2026. Das klassische Suchfenster mit zehn einfachen blauen Links ist zunehmend ein Relikt. Wer heute noch versucht, seine [SEO](/seo-freelancer-berlin/)-Strategie stur über die klassische SERP-CTR zu validieren, optimiert für ein Spielfeld, dessen Regeln sich komplett gedreht haben.
 
 Die Click-Through-Rate ist heute eine der komplexesten und mehrdimensionalsten Interaktionsmetriken überhaupt. Wir sprechen nicht mehr nur über herkömmliche Suchmaschinen, sondern über RAG-Pipelines (Retrieval-Augmented Generation), AI Overviews und intelligente Agenten, die den Traffic radikal filtern und lenken.
 

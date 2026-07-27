@@ -74,7 +74,7 @@ Auf unserer Plattform [teleschmie.de/](/ueber-mich/) setzen wir exakt dieses Pri
 
 Jeder Glossar-Beitrag ist ein Mosaikstein unseres Gesamtwissens:
 * Vertiefe deine Expertise mit [E-E-A-T](/glossar/e-e-a-t/).
-* Biete eigenen Mehrwert durch [Information Gain](/glossar/information-gain/).
+* Biete eigenen Mehrwert durch Information Gain.
 * Verbinde deine Inhalte über [interne Verlinkung](/glossar/interne-verlinkung/).
 
 ## Unterm Strich

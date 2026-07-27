@@ -74,7 +74,7 @@ Google verhandelt Canonicals. Der Googlebot analysiert mehrere Schichten:
 ### 3. Absolute URLs sind nicht verhandelbar
 
 Verwende niemals relative URLs im Canonical! 
-**Falsch (Tödlich):** `<link rel="canonical" href="/blog/artikel/" />`
+**Falsch (Tödlich):** `<link rel="canonical" href="https://beispiel.de/blog/artikel/" />`
 **Richtig (Sicher):** `<link rel="canonical" href="https://teleschmie.de/blog/artikel/" />`
 
 Relative URLs führen, besonders bei fehlerhaften Server-Routings oder unsicheren Verbindungen, zu unendlichen Loops oder falschen Protokollen. Nutze immer absolute URLs inklusive `https://`.

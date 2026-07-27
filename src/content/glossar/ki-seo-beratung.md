@@ -101,4 +101,4 @@ ALOHA! Jörg
 ### Verwandte Begriffe
 * [RAG: Die Technik hinter den KI-Antworten](/glossar/rag/)
 * [Die Bedeutung von Entitäten](/glossar/entitaet/)
-* [Was sind LLMs wirklich?](/glossar/llm/)
+* [Was sind LLMs wirklich?](/glossar/llms/)

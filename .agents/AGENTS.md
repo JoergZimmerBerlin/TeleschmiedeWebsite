@@ -23,4 +23,6 @@
   - **Standardweg (MCP):** Alle Datenabfragen zu SE Ranking (Keywords, Backlinks, Audits, Competitors, AI Search etc.) müssen ZWINGEND primär über die nativen MCP-Tools (`se-ranking/...`) ausgeführt werden.
   - **Backupweg (REST-API):** Die Skripte `scripts/se_ranking_fetch.py` und `scripts/se_ranking_teleschmie.py` im Projektordner dienen ausschließlich als Fallback, falls der MCP-Server temporär unerreichbar ist.
 
-
+- **Terminal & Sandbox Ausführung (Bypass Sandbox):**
+  - Führe alle Terminal-Kommandos (`run_command`) STRIKT im sicheren Sandbox-Modus aus (`BypassSandbox: false`), wann immer es möglich ist.
+  - Wenn die Sandbox aktiv ist, wird der Nutzer nicht durch lästige Bestätigungs-Popups gestört. Die Sandbox zu umgehen (Bypass) führt zu einem harten, vom System erzwungenen Sicherheits-Popup, das den Nutzer aus dem Workflow reißt. Vermeide das zwingend, es sei denn, es ist für Netzwerkzugriffe zwingend nötig.

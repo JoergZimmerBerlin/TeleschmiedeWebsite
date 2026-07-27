@@ -67,7 +67,7 @@ Deshalb ist die GSC deine Single Source of Truth. Wenn ein externes Tool sagt "D
 
 ## Mein Tacheles-Rat für dich
 
-Die Google Search Console ist der Dreh- und Angelpunkt für dein technisches SEO. Sie kostet keinen Cent, ist aber das einzige Tool, das dir ehrlich sagt, ob du für Googles Crawler existierst. 
+Die Google Search Console ist der Dreh- und Angelpunkt für dein technisches SEO. (Und falls du dich fragst, [wer eigentlich für die Einrichtung zuständig ist](/blog/google-search-console-zustaendigkeit-umfrage/), lies dir meine Umfrage dazu durch). Sie kostet keinen Cent, ist aber das einzige Tool, das dir ehrlich sagt, ob du für Googles Crawler existierst. 
 
 Richte deine Dashboards auf fallende CTRs und steigende Indexierungsfehler aus. Wer seine First-Party-Daten aus der GSC kennt, wer seine Core Web Vitals im Griff hat und Ladezeiten optimiert, hat das Fundament gelegt. Wer die Basics ignoriert, dem hilft auch der beste KI-Hype nicht.
 

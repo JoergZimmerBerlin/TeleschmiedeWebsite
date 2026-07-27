@@ -58,7 +58,7 @@ Alle Standard-Verdächtigen waren raus.
 
 Das hieß: Das Problem liegt im Code.
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten-Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) grille ich Websites und decke massives [Potential in nur zwei Stunden](/blog/zwei-stunden-seo-potential/) auf. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Daten-Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für den Blick in die KI-Zukunft decken wir Fehler auf, die dich sonst Jahre an Sichtbarkeit kosten.
 
 ## Der Täter: Drittanbieter-Scripte
 

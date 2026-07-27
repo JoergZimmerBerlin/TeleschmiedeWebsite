@@ -96,25 +96,26 @@ async function runBulkIndexer() {
         console.error(`   ⚠️ [Google] Check fehlgeschlagen:`, checkErr.message);
       }
 
-      // --- Bing Check ---
+      // --- Bing Check via Python ---
       try {
         const bingApiUrl = `https://ssl.bing.com/webmaster/api.svc/json/GetUrlInfo?siteUrl=https://teleschmie.de/&url=${url}&apikey=${bingKey}`;
-        const bingRes = await fetch(bingApiUrl);
-        if (bingRes.ok) {
-          const bingData = await bingRes.json();
-          const lastCrawled = bingData?.d?.LastCrawledDate;
+        const { execFileSync } = await import('child_process');
+        const output = execFileSync('python3', [path.join(__dirname, 'bing_check.py'), bingApiUrl], { encoding: 'utf-8' });
+        
+        const bingData = JSON.parse(output);
+        if (bingData && bingData.d) {
+          const lastCrawled = bingData.d.LastCrawledDate;
           
           if (lastCrawled === "/Date(-62135568000000-0800)/" || !lastCrawled) {
             console.log(`   ❌ [Bing] Nie gecrawlt. Merke für IndexNow vor...`);
             indexNowUrls.push(url);
           } else {
-            // Optional: Datum lesbar machen für den Log
             const timestamp = parseInt(lastCrawled.match(new RegExp("\\\\/Date\\\\((-?\\\\d+)[-+]\\\\d+\\\\)\\\\/"))?.[1] || 0);
             const dateStr = timestamp > 0 ? new Date(timestamp).toLocaleDateString() : "Unbekannt";
             console.log(`   ✅ [Bing] Bereits gecrawlt (Zuletzt: ${dateStr}).`);
           }
         } else {
-          console.error(`   ⚠️ [Bing] Check API Fehler (HTTP ${bingRes.status})`);
+          console.error(`   ⚠️ [Bing] Check API Fehler oder Fetch failed`);
         }
       } catch (bingErr) {
         console.error(`   ⚠️ [Bing] Check fehlgeschlagen:`, bingErr.message);
@@ -124,7 +125,7 @@ async function runBulkIndexer() {
       await delay(1500);
     }
 
-    // --- IndexNow Batch Push ---
+    // --- IndexNow Batch Push via Python ---
     if (indexNowUrls.length > 0) {
       console.log(`\n🚀 [IndexNow Bulk-Push] Sende ${indexNowUrls.length} fehlende URLs gebündelt an Bing...`);
       const payload = {
@@ -135,18 +136,16 @@ async function runBulkIndexer() {
       };
 
       try {
-        const response = await fetch("https://api.indexnow.org/indexnow", {
-          method: "POST",
-          headers: { "Content-Type": "application/json; charset=utf-8" },
-          body: JSON.stringify(payload)
-        });
+        const payloadStr = JSON.stringify(payload);
+        const { execFileSync } = await import('child_process');
+        const status = execFileSync('python3', [path.join(__dirname, 'indexnow_push.py'), payloadStr], { encoding: 'utf-8' }).trim();
         
-        if (response.ok) {
-          console.log(`   ✅ Alle ${indexNowUrls.length} URLs erfolgreich an IndexNow gesendet (HTTP ${response.status})`);
-        } else if (response.status === 429) {
+        if (status === '200') {
+          console.log(`   ✅ Alle ${indexNowUrls.length} URLs erfolgreich an IndexNow gesendet (HTTP 200)`);
+        } else if (status === '429') {
           console.warn(`   ⚠️ IndexNow Rate Limit erreicht (HTTP 429).`);
         } else {
-          console.error(`   ❌ Fehler beim Senden an IndexNow (HTTP ${response.status})`);
+          console.error(`   ❌ Fehler beim Senden an IndexNow (HTTP ${status})`);
         }
       } catch (err) {
         console.error('❌ IndexNow Netzwerkfehler:', err.message);

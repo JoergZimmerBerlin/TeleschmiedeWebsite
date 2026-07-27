@@ -115,7 +115,7 @@ Schönes Bashing und NEIN. Die meisten SEO Spezialisten sind gefragter den je. M
   <p class="italic text-dark mb-0">"Digitaler Unternehmensberater hat so ein Geschmäckle von 'Digitalisierung' oft inkl. Werbe-Buzz mit Bafa-Combo. [...] Auch der Berater ist zudem immer mehr KI als Wettbewerber zu Unternehmensberatungen."</p>
 </div>
 
-Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist durch viele Agenturen, die heißes Wasser erfinden und teuer verkaufen, extrem verbrannt. Das "Geschmäckle" ist da. Aber genau deshalb müssen wir den Begriff neu definieren. Echte Beratung ist kein Buzzword-Bingo. Es ist das Ärmelhochkrempeln, in die Google Search Console schauen, Server-Logs analysieren und dem CEO unangenehme Wahrheiten über seinen Tech-Stack sagen. Und ja, KI ist ein Wettbewerber in der Beratung – aber KI hat keine Seniorität in Firmenpolitik und Change Management.
+Christian hat einen absolut validen Punkt. Der Begriff "Unternehmensberater" ist durch viele Agenturen, die heißes Wasser erfinden und teuer verkaufen, extrem verbrannt. Das "Geschmäckle" ist da. Aber genau deshalb müssen wir den Begriff neu definieren. Echte Beratung ist kein Buzzword-Bingo. Es ist das Ärmelhochkrempeln, in die [Google Search Console schauen](/blog/google-search-console-zustaendigkeit-umfrage/), Server-Logs analysieren und dem CEO unangenehme Wahrheiten über seinen Tech-Stack sagen. Und ja, KI ist ein Wettbewerber in der Beratung – aber KI hat keine Seniorität in Firmenpolitik und Change Management.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Rainer Tolksdorf</p>

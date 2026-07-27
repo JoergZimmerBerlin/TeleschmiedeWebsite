@@ -79,7 +79,7 @@ Mein LinkedIn-Post zu diesem Thema hat gezeigt: Das Problem ist systemisch.
 
 Du willst wissen, ob du auch unbewusst in die 80%-Falle getappt bist? 
 
-In meiner [SEO-Sprechstunde](/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit. Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
+In meiner [SEO-Sprechstunde](/seo-sprechstunde/) nehmen wir uns 120 Minuten Zeit (siehe auch meine Case Study zu [zwei Stunden SEO-Potential](/blog/zwei-stunden-seo-potential/)). Kein Marketingboxen, kein PDF-Friedhof. Nur Live-Analyse, Tacheles und sofort umsetzbare Lösungen. Wir nutzen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für den Status Quo und prüfen mit [Rankscale](https://rankscale.ai/?via=offer), wie fit deine Seite für die Zukunft der Suche ist.
 
 **Bist du bereit für die Wahrheit?**
 

@@ -7,7 +7,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 <footer class="bg-gray-50 border-t border-gray-100">
   <div class="max-w-6xl mx-auto px-6 py-12">
-    <div class="grid md:grid-cols-3 gap-8">
+    <div class="grid md:grid-cols-4 gap-8">
       <!-- Brand -->
       <div>
         <a href={`${baseUrl}/`} class="flex items-center gap-2.5" title="TELESCHMIE.DE">
@@ -31,7 +31,22 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
         </p>
       </div>
 
-      <!-- Links -->
+        <p class="font-semibold text-dark mb-3">Kategorien & Wissen</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href={`${baseUrl}/blog/`} class="text-dark font-bold hover:text-lime-600 transition-colors" title="Blog">Zum SEO Blog</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/blog/seo-praxis/`} class="text-gray-muted hover:text-dark transition-colors" title="SEO Praxis">SEO Praxis</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/blog/ai-seo/`} class="text-gray-muted hover:text-dark transition-colors" title="AI SEO">AI & Agentic SEO</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/blog/events-and-networking/`} class="text-gray-muted hover:text-dark transition-colors" title="Events & Networking">Events & Networking</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/blog/tech-seo-and-tools/`} class="text-gray-muted hover:text-dark transition-colors" title="Tech SEO & Tools">Tech SEO & Tools</a></li>
+          <li class="mt-4"><a href={`${baseUrl}/glossar/`} class="text-dark font-bold hover:text-lime-600 transition-colors" title="Glossar">Zum SEO Glossar</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/glossar/seo-basics-onpage/`} class="text-gray-muted hover:text-dark transition-colors" title="SEO Basics & Onpage">SEO Basics & Onpage</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/glossar/technisches-seo-ux/`} class="text-gray-muted hover:text-dark transition-colors" title="Technisches SEO & UX">Technisches SEO & UX</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/glossar/ai-seo-generative-search/`} class="text-gray-muted hover:text-dark transition-colors" title="AI SEO & Generative Search">AI SEO & Generative Search</a></li>
+          <li class="pl-3 border-l border-gray-200"><a href={`${baseUrl}/glossar/e-e-a-t-offpage/`} class="text-gray-muted hover:text-dark transition-colors" title="E-E-A-T & Offpage">E-E-A-T & Offpage</a></li>
+        </ul>
+      </div>
+
+      <!-- Navigation -->
       <div>
         <p class="font-semibold text-dark mb-3">Navigation</p>
         <ul class="space-y-2 text-sm">
@@ -41,10 +56,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
           <li><a href={`${baseUrl}/ueber-mich/`} class="text-gray-muted hover:text-dark transition-colors" title="Über mich">Über mich</a></li>
           <li><a href={`${baseUrl}/leistungen/`} class="text-gray-muted hover:text-dark transition-colors" title="Leistungen">Leistungen</a></li>
           <li><a href={`${baseUrl}/freelancer-team/`} class="text-gray-muted hover:text-dark transition-colors" title="Freelancer Team">Freelancer Team</a></li>
-          <li><a href={`${baseUrl}/blog/`} class="text-gray-muted hover:text-dark transition-colors" title="Blog">Blog</a></li>
-          <li><a href={`${baseUrl}/glossar/`} class="text-gray-muted hover:text-dark transition-colors" title="Glossar">Glossar</a></li>
         </ul>
-      </div>
 
       <!-- Contact -->
       <div>

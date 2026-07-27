@@ -101,6 +101,5 @@ ALOHA! Jörg 🌻✌️
 
 ### Verwandte Begriffe
 * [Wie optimiert man das Title Tag?](/glossar/title-tag/)
-* [Was sind LLMs und RAG-Pipelines?](/glossar/llm/)
-* [Entitäten in der Suchmaschinenoptimierung](/glossar/entitaet/)RAG-Pipelines?](/glossar/llm/)
+* [Was sind LLMs und RAG-Pipelines?](/glossar/llms/)
 * [Entitäten in der Suchmaschinenoptimierung](/glossar/entitaet/)

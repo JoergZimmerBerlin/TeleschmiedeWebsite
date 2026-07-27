@@ -17,7 +17,7 @@ faqs:
   - question: "Was ist der allerhäufigste Fehler beim Relaunch?"
     answer: "Fehlende 301-Redirects – mit großem Abstand. Wer beim Relaunch alte URLs einfach löscht oder umbenennt, ohne einen permanenten Redirect auf die neuen Seiten zu setzen, vernichtet in wenigen Stunden hart erkämpfte Linkjuice und Google-Autorität, die über Jahre aufgebaut wurde. Der organische Traffic bricht ein, Google verliert das interne Linking im Index und der Nutzer landet auf Fehlerseiten. Das ist digitales Harakiri."
   - question: "Wie kann ich meinen nächsten Relaunch SEO-sicher machen?"
-    answer: "Mit drei klaren Schritten: Erstens, den SEO von Tag 1 an einbinden (nicht erst am Ende). Zweitens, einen vollständigen URL-Mapping-Plan erstellen, bevor irgend etwas live geht. Drittens, nach dem Launch die ersten 48 Stunden intensiv mit der Google Search Console beobachten – neue Crawl-Fehler, Indexierungsprobleme und Sichtbarkeitsveränderungen zeigen sich sofort. Wer diesen Rahmen einhält, rettet sein SEO-Fundament durch den Relaunch."
+    answer: "Mit drei klaren Schritten: Erstens, den SEO von Tag 1 an einbinden (nicht erst am Ende). Zweitens, einen vollständigen URL-Mapping-Plan erstellen, bevor irgend etwas live geht. Drittens, nach dem Launch die ersten 48 Stunden intensiv mit der Google Search Console beobachten (vorausgesetzt, es ist klar, [wer für die Einrichtung zuständig ist](/blog/google-search-console-zustaendigkeit-umfrage/)) – neue Crawl-Fehler, Indexierungsprobleme und Sichtbarkeitsveränderungen zeigen sich sofort. Wer diesen Rahmen einhält, rettet sein SEO-Fundament durch den Relaunch."
 ---
 
 Moin! 🌻
@@ -32,7 +32,7 @@ Warum? Weil es exakt die bittere Realität in so unfassbar vielen Agenturen und 
 
 ## Der "Zauberspruch"-Trick: Ein Klassiker des Grauens
 
-Das Szenario, das in meiner [SEO-Sprechstunde](/seo-sprechstunde/) auf dem Tisch landet, ist fast immer identisch: Ein Unternehmen investiert 20.000 €, 50.000 € oder mehr in ein neues Web-Design. Die Agentur freut sich über den Dribbble-würdigen Look. Die Geschäftsführung klopft sich am Launch-Tag feierlich auf die Schultern.
+Das Szenario, das in meiner [SEO-Sprechstunde](/seo-sprechstunde/) auf dem Tisch landet (hier erfährst du, was wir [in zwei Stunden für ein SEO-Potential](/blog/zwei-stunden-seo-potential/) entfalten), ist fast immer identisch: Ein Unternehmen investiert 20.000 €, 50.000 € oder mehr in ein neues Web-Design. Die Agentur freut sich über den Dribbble-würdigen Look. Die Geschäftsführung klopft sich am Launch-Tag feierlich auf die Schultern.
 
 Und dann, zwei Wochen nach Launch, wenn die Umsatzkurve ins Bodenlose sinkt, kommt der panische Anruf:
 

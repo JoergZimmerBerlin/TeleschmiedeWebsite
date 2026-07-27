@@ -51,13 +51,13 @@ Die 480 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr d
 
 | Phase | Was passiert | Zeitinvest meinerseits |
 |---|---|---|
-| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | ca. 30 Minuten vorab |
+| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | 20 Minuten vorher |
 | **Live-Call** | Screen-Sharing, direkte Analyse, Priorisierung | 120 Minuten |
-| **Nachbereitung** | Aufzeichnung, KI-Zusammenfassung, Maßnahmenplan | 1 Stunde nachher |
+| **Nachbereitung** | Aufzeichnung, KI-Zusammenfassung, Maßnahmenplan | 20 Minuten für die Nachbereitung |
 
-### 1. Die stille halbe Stunde vor dem Call
+### 1. Die 20 Minuten vor dem Call
 
-Bevor wir uns sehen, sitze ich bereits ca. 30 Minuten an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
+Bevor wir uns sehen, sitze ich bereits 20 Minuten an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
 
 Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
 
@@ -78,7 +78,7 @@ Nach dem Call bekommst du:
 - **Die KI-Zusammenfassung** – ein schnelles Protokoll der wichtigsten Punkte
 - **Der Maßnahmenplan** – dein individueller Schlachtplan, keine Standard-Checkliste
 
-## Reden wir über die 400 Euro
+## Reden wir über die 480 Euro
 
 Ja, das ist ein Batzen Geld. Aber frag dich: Was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? Was kostet es, wenn du eine Agentur monatlich für Standard-Reports bezahlst?
 

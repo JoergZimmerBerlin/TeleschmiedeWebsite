@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Google Search Console einrichten: Domain-Property & DNS Verifizierung (Anleitung)"
-description: "ALOHA! So richtest du die Google Search Console über die Domain-Property ein (kostenlos!). Schritt-für-Schritt Anleitung inkl. DNS-Verifizierung und Rechtevergabe für dein SEO-Team."
+title: "Google Search Console: Schnelle Einrichtung"
+description: "Die Google Search Console ist Pflicht. Richte deine Domain-Property via DNS ein und hol dir die volle Kontrolle über deine Sichtbarkeit."
 date: "2026-07-18"
 author: "Jörg Zimmer"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"

@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'LLMs.txt: Der Community-Standard für KI-Crawler 2026'
-description: 'Die llms.txt ist ein spannendes Experiment für KI-Crawler. Jörg Zimmer klärt auf, was dran ist am Hype und warum es kein offizieller Google-Rankingfaktor ist.'
+title: "llms.txt: Der Community-Standard für Crawler"
+description: "Die llms.txt ist ein wichtiges Signal für KI-Crawler. Was am Hype dran ist und wie du sie technisch sauber für LLMs implementierst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llms-txt-3d.webp"
 related_terms: ["llms-full-txt", "robots-txt", "geo", "entitaet"]

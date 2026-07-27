@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Canonical Tag 2026: So verhinderst du KI-Content-Kannibalismus'
-description: 'Das Canonical Tag ist dein wichtigster Schutz vor Duplicate Content. Erfahre, wie du damit LLMs und Crawler auf die Originalquelle zwingst.'
+title: "Canonical Tag: Schluss mit Duplicate Content"
+description: "Das Canonical Tag ist dein harter Schutzschild. Zwinge LLMs und Crawler auf die Originalquelle und beende den Content-Kannibalismus."
 date: "2026-03-08"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"
 image_alt: "Canonical Tag 3D Infografik - Technisches SEO"

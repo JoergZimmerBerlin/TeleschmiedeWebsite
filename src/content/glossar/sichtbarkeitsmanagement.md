@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Sichtbarkeitsmanagement 2026: RAG-Steuerung für Agenten'
-description: 'Sichtbarkeitsmanagement im Juli 2026 bedeutet aktive Steuerung deiner RAG-Präsenz, auth.md Architektur und Citation-Stability. ALOHA! 🌻'
+title: "Sichtbarkeitsmanagement: RAG-Steuerung"
+description: "Sichtbarkeitsmanagement heißt heute RAG-Präsenz steuern. Kontrolliere deine Citation-Stability und setze auf saubere auth.md Architektur."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsmanagement-3d.webp"
 related_terms: ["sichtbarkeit", "sichtbarkeitsindex", "geo", "entity-seo"]

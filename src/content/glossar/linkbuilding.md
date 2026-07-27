@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Linkbuilding 2026: Von Backlinks zu Entity-Citations'
-description: 'Vergiss klassisches Linkbuilding. Im Juli 2026 sprechen wir über Entity-Citations, RAG-Modelle und maschinelles Vertrauen. So dominierst du die KI-Suche. ALOHA! 🌻'
+title: 'Linkbuilding: Der Weg zu echten Entity-Citations'
+description: 'Klassisches Linkbuilding ist tot. Baue jetzt maschinelles Vertrauen durch Entity-Citations auf, um RAG-Modelle strategisch zu dominieren.'
 sameAs: "https://www.wikidata.org/wiki/Q1569371"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp"

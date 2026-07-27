@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Semantische HTML-Struktur 2026: Die Basis für KI-Crawler & RAG"
-description: "Eine saubere semantische HTML-Struktur ist im KI-Zeitalter der wichtigste Faktor für fehlerfreies Parsing durch LLMs, KI-Agents und Google."
+title: "HTML-Struktur: Semantik für KI-Crawler & RAG"
+description: "Eine saubere HTML-Struktur ist im KI-Zeitalter Pflicht. Der wichtigste Faktor für fehlerfreies Parsing durch LLMs und Agents. Klartext."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-model-context-protocol-mcp-3d.webp"
 image_alt: "Semantische HTML-Struktur 3D Infografik - Technisches SEO"

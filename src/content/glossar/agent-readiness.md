@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agent Readiness 2026: Websites für autonome KI-Agenten optimieren"
-description: "Agent Readiness beschreibt den Reifegrad einer Website für die maschinelle Interaktion mit autonomen KI-Agenten, LLMs und WebMCP."
+title: "Agent Readiness: Optimierung für KI-Agenten"
+description: "Agent Readiness ist Pflicht. Wenn deine Website für autonome Agenten nicht lesbar ist, verlierst du Traffic. Optimiere für WebMCP."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-agent-readiness-level-3d.webp"
 image_alt: "Agent Readiness 3D Infografik - Agentic AI"

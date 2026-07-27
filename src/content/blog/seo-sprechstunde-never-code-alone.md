@@ -1,6 +1,6 @@
 ---
-title: "Live SEO-Audit: Vibe Coding, GEO & echte Sichtbarkeit im Test"
-description: "Ein exklusiver Einblick in eine echte SEO-Sprechstunde mit Roland Golla von Never Code Alone. Wie man klassischen Info-Traffic in echtes Business verwandelt."
+title: "SEO Sprechstunde: Vibe Coding & Sichtbarkeit"
+description: "Klartext aus der SEO Sprechstunde mit Roland Golla. So verwandelst du reinen Info-Traffic in echtes Business. Schluss mit Theorie!"
 date: "2026-07-27"
 image: "../../assets/images/blog/seo-sprechstunde-never-code-alone.webp"
 image_alt: "SEO Sprechstunde mit Never Code Alone"
@@ -71,6 +71,8 @@ Bei Roland starteten wir genau diesen Prozess – live auf YouTube.
 
 ## 4. Live-Analyse Teil 1: Die Macht der Historie
 
+![SISTRIX und SEO-Tools Analyse](../../assets/images/blog/sistrix-vs-seranking-light-de.webp)
+
 Wir starteten die Analyse in SISTRIX. Der erste Blick auf den Sichtbarkeitsindex von `nevercodealone.de` zeigte eine extrem steile Kurve nach oben. Ein Wachstum von satten 68 %. 
 
 Das Wichtigste dabei: Rolands Domain existiert seit 2016/2017. **Das ist ein massiver Vorteil.** Eine lange Domain-Historie, die nicht durch Abstrafungen belastet ist, ist wie ein guter Wein. Google liebt Beständigkeit. Neue Domains müssen sich durch die Sandbox kämpfen und Vertrauen aufbauen. Wer seit fast zehn Jahren konstant guten Content liefert, bekommt einen Vertrauensvorschuss.
@@ -94,7 +96,10 @@ Google ordnet deine Domain Clustern (Themengebieten) zu. Wenn du als spezialisie
 
 Die Konsequenz? Wenn du dann mit deinen harten Kernprodukten (bei Roland: PHP-Seminare, Vibe-Coding-Consulting) punkten willst, fehlst du in dem entsprechenden transaktionalen Experten-Cluster. 
 
-**Der SEO-Klartext-Rat:** Schiele nicht blind auf das Suchvolumen. Suche dir Begriffe, die exakt in deiner Bubble liegen. Lieber 50 Klicks im Monat von IT-Leitern, die Vibe Coding suchen, als 5.000 Klicks von Teenagern, deren iPhone kaputt ist.
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2"> 💡 Der SEO-Klartext-Rat</p>
+  <p class="italic text-dark mb-0">Schiele nicht blind auf das Suchvolumen. Suche dir Begriffe, die exakt in deiner Bubble liegen. Lieber 50 Klicks im Monat von IT-Leitern, die Vibe Coding suchen, als 5.000 Klicks von Teenagern, deren iPhone kaputt ist.</p>
+</div>
 
 ---
 
@@ -129,6 +134,8 @@ Das bedeutet für Roland: Weg von den generischen AI-News, rein in tiefgehenden 
 
 ## 8. Die Google Search Console: Deine Gesundheitsakte
 
+![Google Search Console 3D Infografik](../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp)
+
 Ein elementarer Baustein jeder Sprechstunde ist der Blick in die Google Search Console. 
 
 Ich sage es in aller Deutlichkeit: Wer eine Website betreibt und keine Google Search Console angelegt hat, fliegt blind im Nebel ohne Instrumente. Es ist das mächtigste, kostenlose Diagnose-Werkzeug, das Google dir direkt zur Verfügung stellt.
@@ -149,18 +156,18 @@ Die drei Kernaufgaben für Roland (und für dich, wenn du ähnliche Probleme has
 2. **Entitäten stärken:** Bring deine neuen Kernthemen (Vibe Coding) durch gezielte, interne Strukturierung so prominent nach vorne, dass Google deinen thematischen Shift versteht.
 3. **Hausaufgaben erledigen:** Meta-Titles anpassen, Indexierung in der Search Console überwachen und Info-Traffic-Leichen aussortieren oder zumindest in den Newsletter leiten.
 
-Wenn du jetzt denkst: *"Verdammt, das brauche ich auch für meine Seite!"* – dann zögere nicht. Keine langweiligen PDFs, keine Phrasen, sondern direktes Hands-on. 
-
-👉 **[Hier kannst du deine persönliche SEO-Sprechstunde anfragen](/kontakt/)**. 
-
-Wir legen dein Projekt gemeinsam auf den Grill. Wir finden heraus, warum die Konkurrenz oben steht und wo deine versteckten Umsatz-Hebel liegen.
+<div class="blog-cta-box">
+  <h3 class="text-2xl font-bold mb-4">Bereit, dein Projekt auf den Grill zu legen?</h3>
+  <p class="mb-6">Wenn du jetzt denkst: <em>"Verdammt, das brauche ich auch für meine Seite!"</em> – dann zögere nicht. Keine langweiligen PDFs, keine Phrasen, sondern direktes Hands-on. Wir finden heraus, warum die Konkurrenz oben steht und wo deine versteckten Umsatz-Hebel liegen.</p>
+  <a href="https://teleschmie.de/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt SEO-Sprechstunde anfragen</a>
+</div>
 
 ALOHA! 🌻✌️
 
 ---
 
-### Die komplette Session im Video
-*Hier kannst du dir den kompletten Mitschnitt der Live-Analyse ansehen.*
+### Die komplette Session im Video & Rolands Zusammenfassung
+*Hier kannst du dir den kompletten Mitschnitt der Live-Analyse ansehen. Wenn du noch mehr Insights aus Rolands Perspektive lesen möchtest, schau dir unbedingt seine ausführliche [Zusammenfassung der SEO-Sprechstunde auf dem Never Code Alone Blog](https://blog.nevercodealone.de/seo-sprechstunde-live-was-suchmaschinenoptimierer-joerg-zimmer-ueber-rankings-geo-und-technische-fehler-verraet/) an.*
 
 <div class="video-container my-8">
   <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/tD7cXuVcRPA" title="SEO Sprechstunde mit Jörg Zimmer & Never Code Alone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

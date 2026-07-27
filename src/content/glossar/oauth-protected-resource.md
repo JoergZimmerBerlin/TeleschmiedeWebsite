@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "OAuth Protected Resource im A2A-Zeitalter (2026)"
-description: "Was ist eine OAuth Protected Resource? Wie Agenten via Protected Resource Metadata (RFC 9728) auf APIs zugreifen und warum das für deine KI-Strategie wichtig ist."
+title: "OAuth Protected Resource im A2A-Zeitalter"
+description: "Sichere APIs sind ein Muss. Eine OAuth Protected Resource regelt Agenten-Zugriffe knallhart. Ohne saubere Rechtevergabe riskierst du alles."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-oauth-protected-resource-3d.webp"
 image_alt: "3D Infografik zu OAuth Protected Resource mit Token Validierung und Agenten-Zugriff"

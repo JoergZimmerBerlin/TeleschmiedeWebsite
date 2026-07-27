@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Usability 2026: Human & Machine UX im KI-Crawler-Zeitalter'
-description: 'Usability im Jahr 2026 bedeutet: Deine Seite muss für Menschen intuitiv und für autonome KI-Agenten perfekt maschinenlesbar sein. ALOHA! 🌻'
+title: 'Usability: Perfekte UX für Menschen und Maschinen'
+description: 'Usability bedeutet heute: Deine Website muss für menschliche Besucher intuitiv und für KI-Agenten kompromisslos maschinenlesbar sein.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-usability-3d.webp"
 image_alt: "Usability 3D Infografik - User Experience für Menschen und KI-Agenten"

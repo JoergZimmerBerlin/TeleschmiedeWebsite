@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agent Readiness: Die Metrik für autonome KIs"
-description: "Tools wie isitagentready.com decken es auf: Die meisten Websites hängen in der Vergangenheit fest. Jörg Zimmer zeigt den Weg zur vollständigen Agent Readiness."
+title: "Agent Readiness Level: Metrik für autonome KIs"
+description: "Agent Readiness Level deckt auf: Die meisten Websites sind völlig veraltet. Jörg Zimmer zeigt den Weg zur vollständigen KI-Kompatibilität."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agent-readiness-level-3d.webp"
 image_alt: "3D Infografik zum Agent Readiness Reifegrad für Websites"

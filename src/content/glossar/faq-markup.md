@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'FAQ Markup: High-Confidence Datenquelle für RAG-Pipelines'
-description: 'FAQ Markup im Juli 2026: Warum FAQ-Schema (JSON-LD) die sauberste und verlustfreieste Schnittstelle für LLMs und AI-Agents ist. ALOHA! 🌻'
+title: 'FAQ Markup: Harte Daten für deine RAG-Pipeline'
+description: 'FAQ Markup ist kein Spielzeug mehr. Nutze JSON-LD als knallharte Schnittstelle für LLMs und KI-Agenten, um verlustfrei Daten zu liefern.'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "strukturierte-daten", "rag", "geo"]

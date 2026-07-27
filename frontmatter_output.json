@@ -1,0 +1,90 @@
+{
+  "src/content/blog/beste-seo-tools-ai-search-prompt-tracking.md": {
+    "title": "Beste SEO-Tools für AI Search & Prompt Tracking",
+    "description": "Welche SEO-Tools tracken ChatGPT, Perplexity & Co. wirklich? Ein ehrlicher Vergleich von RankScale, SE Ranking und Gratis-Tools für deine AI Visibility."
+  },
+  "src/content/blog/seorch-seo-tool-fanboy.md": {
+    "title": "SEORCH Tool: Bestes OnPage SEO Werkzeug",
+    "description": "Auf der Campixx 2026 habe ich endlich Matthias Hotz, den Kopf hinter SEORCH, getroffen. Ein Klartext-Review über Funktionen und warum es mein Favorit ist."
+  },
+  "src/content/glossar/agent-payments-protocol-ap2.md": {
+    "title": "Agent Payments Protocol (AP2) | KI-Zahlungen verstehen",
+    "description": "Was ist das Agent Payments Protocol (AP2)? Jörg Zimmer erklärt den Standard für sichere KI-Zahlungen, Mandates und die Agent Economy (Stand Juli 2026)."
+  },
+  "src/content/glossar/ai-seo.md": {
+    "title": "AI SEO: Suchmaschinenoptimierung für die Agenten-Ära (Juli 2026)",
+    "description": "AI SEO im Juli 2026 bedeutet Agent Readiness. Erfahre alles über das A2A Protocol, llms.txt, Stateless MCP, Markdown Content Negotiation und RAG."
+  },
+  "src/content/glossar/bing-webmastertools.md": {
+    "title": "Bing Webmaster Tools (BWT): Warum sie 2026 Pflicht für KI-SEO sind",
+    "description": "Die Bing Webmaster Tools liefern über den AI Performance Report die wichtigsten Insights für Microsoft Copilot. Jörg Zimmer erklärt die BWT."
+  },
+  "src/content/glossar/citation.md": {
+    "title": "Citation (Zitierung): Technische Struktur und Entity-Resolution in 2026",
+    "description": "Ein tiefer technischer Einblick in digitale Citations. Erfahre, wie strukturierte Verweise funktionieren und warum LLMs Zitationen zur Verifizierung nutzen."
+  },
+  "src/content/glossar/cpc.md": {
+    "title": "CPC (Cost per Click) 2026: Agentic RTB und Vector-Bidding",
+    "description": "Der Cost per Click (CPC) im Wandel: Wie Agentic Real-Time Bidding und First-Price-Auktionen den Bidding-Markt 2026 dominieren."
+  },
+  "src/content/glossar/entitaet.md": {
+    "title": "Entität (Entity): Die architektonische Basis für LLM-Pipelines",
+    "description": "Entitäten sind 2026 der Grundbaustein der KI-Suche. Wie LLMs im Knowledge Graph navigieren und warum lose Strings wertlos sind. ALOHA! 🌻"
+  },
+  "src/content/glossar/faq-markup.md": {
+    "title": "FAQ Markup: High-Confidence Datenquelle für RAG-Pipelines",
+    "description": "FAQ Markup im Juli 2026: Warum FAQ-Schema (JSON-LD) die sauberste und verlustfreieste Schnittstelle für LLMs und AI-Agents ist. ALOHA! 🌻"
+  },
+  "src/content/glossar/google-algorithmus.md": {
+    "title": "Google Algorithmus: Der Filter für Generative Engine Optimization (GEO) 2026",
+    "description": "Der Google Algorithmus 2026 ist kein dummer Crawler mehr, sondern der Türsteher für AI Overviews und RAG. Tacheles: E-E-A-T, Information Gain und echte Sichtbarkeit."
+  },
+  "src/content/glossar/h1-h2-h3.md": {
+    "title": "Überschriften (H1-H3): Die architektonischen Signposts für KI und UX 2026",
+    "description": "Überschriften (H1-H3) strukturieren Texte für Nutzer und KI-Systeme. Erfahre, warum sie 2026 kritisch für AI Summaries und RAG-Chunks sind. ALOHA! 🌻"
+  },
+  "src/content/glossar/keyword-tool.md": {
+    "title": "Keyword Tools in 2026: Von Suchvolumen zu AI Discovery",
+    "description": "Ein Keyword Tool liefert 2026 keine simplen Volumina mehr. Es geht um Intent-Analyse, Entity Tracking und LLM-Visibility. Tacheles und technische Tiefe."
+  },
+  "src/content/glossar/linkbuilding.md": {
+    "title": "Linkbuilding 2026: Von Backlinks zu Entity-Citations",
+    "description": "Vergiss klassisches Linkbuilding. Im Juli 2026 sprechen wir über Entity-Citations, RAG-Modelle und maschinelles Vertrauen. So dominierst du die KI-Suche. ALOHA! 🌻"
+  },
+  "src/content/glossar/local-seo.md": {
+    "title": "Local SEO 2026: Sichtbarkeit im KI-Such-Battleground",
+    "description": "Local SEO im Zeitalter generativer KI: Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz, Review Velocity und Google AI Overviews. ALOHA! 🌻"
+  },
+  "src/content/glossar/noindex.md": {
+    "title": "Noindex: Seiten radikal von der KI-Suche ausschließen",
+    "description": "Noindex Meta-Tag: So kontrollierst du technisch gnadenlos, welche Seiten KI-Crawler indexieren dürfen. Der Wächter deines Crawl-Budgets. ALOHA! 🌻"
+  },
+  "src/content/glossar/rag.md": {
+    "title": "RAG: Das Gehirn-Doping für deine KI-Inhalte (Stand Juli 2026)",
+    "description": "RAG (Retrieval-Augmented Generation) 2026: Wie du KIs über API-Schnittstellen und KI-Crawler mit deinen eigenen Daten fütterst und Halluzinationen verhinderst."
+  },
+  "src/content/glossar/semantic-seo.md": {
+    "title": "Semantic SEO 2026: Themenwelten im KI-Vektorraum beherrschen",
+    "description": "Semantic SEO im Zeitalter von AI: Warum LLMs Konzepte in Vektorräumen verarbeiten und wie du Themenwelten für KI-Modelle optimierst. Topical Authority als Waffe. ALOHA! 🌻"
+  },
+  "src/content/glossar/seo-consulting.md": {
+    "title": "SEO Consulting 2026: Strategische KI-Architektur für Unternehmen",
+    "description": "SEO Consulting im Juli 2026 ist pure Systemarchitektur. Wir etablieren maschinenlesbare Endpunkte, auth.md und RFC 8288 für knallhartes KI-Wachstum."
+  },
+  "src/content/glossar/sovp-protocol.md": {
+    "title": "SOVP Protocol (Sovereign Validation Protocol): Determinismus in der KI-Infrastruktur",
+    "description": "Allet, wat de über dit Sovereign Validation Protocol (SOVP), Infrastruktur Zertifikate, Determinismus und Litzki Systems LLC wissen musst. Tacheles von Jörg Zimmer."
+  },
+  "src/content/glossar/title-tag.md": {
+    "title": "Title Tag (HTML-Titel): Der erste Filter für KI & RAG-Crawler",
+    "description": "Der Title Tag im Jahr 2026: Eines der wichtigsten Signale für OnPage SEO und technische KI-Optimierung. Tipps für CTR, LLM-Crawling und Klickraten. ALOHA! 🌻"
+  },
+  "src/content/glossar/usability.md": {
+    "title": "Usability 2026: Human & Machine UX im KI-Crawler-Zeitalter",
+    "description": "Usability im Jahr 2026 bedeutet: Deine Seite muss für Menschen intuitiv und für autonome KI-Agenten perfekt maschinenlesbar sein. ALOHA! 🌻"
+  },
+  "src/content/glossar/wordpress-seo.md": {
+    "title": "WordPress SEO 2026: Headless, Markdown & technische KI-Optimierung",
+    "description": "WordPress muss sich 2026 massiv anpassen. Warum Headless-Markdown, KI-Crawler-Protokolle und maschinenlesbare Endpunkte heute absolute Pflicht für technische KI-Optimierung sind."
+  }
+}

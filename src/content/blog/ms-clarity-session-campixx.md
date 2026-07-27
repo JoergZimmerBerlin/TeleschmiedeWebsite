@@ -1,6 +1,6 @@
 ---
-title: "MS Clarity Session: Nutzerverhalten verstehen"
-description: "Auf der Campixx 2026 hat Thomas Czernik gezeigt, wie man mit MS Clarity Usability-Probleme auf der Website per Heatmaps und Session Recordings gnadenlos aufdeckt."
+title: "MS Clarity: Nutzerverhalten hart analysieren"
+description: "Mach Schluss mit Raten. Nutze MS Clarity für Heatmaps und Session Recordings, um echte Usability-Probleme deiner User sofort aufzudecken."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ms-clarity-session-auf-der-campixx-2026-in-activity-7473374131850510337-e5RN"
 image: "../../assets/images/blog/blog-ms-clarity-session.webp"

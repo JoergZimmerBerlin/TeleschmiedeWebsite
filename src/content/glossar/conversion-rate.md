@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Conversion-Rate-Optimierung (CRO) 2026: Architektur, KI-Traffic und Event-Tracking'
-description: 'Warum die klassische Conversion auf der Landingpage komplexer geworden ist. Ein Deep-Dive in serverseitiges Tracking, AI Search Cannibalization und API-Schnittstellen.'
+title: "Conversion Rate: Harte Optimierung für AI"
+description: "Vergiss einfache Klicks. Die Conversion Rate von heute erfordert hartes serverseitiges Tracking und Architektur-Wissen. Klartext pur."
 sameAs: "https://www.wikidata.org/wiki/Q135293"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"

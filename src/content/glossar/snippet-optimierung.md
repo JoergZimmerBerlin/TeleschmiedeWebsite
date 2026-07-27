@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Snippet Optimierung 2026: AI Overviews & Agent-Sichtbarkeit'
-description: 'Snippet Optimierung (2026): Von Google Maps zur KI-Zitation. Erfahre, wie Schema-Markup, auth.md und RFC 8288 deinen Trust-Level für LLMs steigern. ALOHA! 🌻'
+title: "Snippet Optimierung: Agent-Sichtbarkeit pur"
+description: "Snippet Optimierung 2026: Von Maps zur KI-Zitation. Steigere deinen Trust für LLMs massiv durch Schema-Markup und saubere Technik."
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp"
 related_terms: ["ctr", "meta-description", "title-tag", "faq-markup", "geo"]

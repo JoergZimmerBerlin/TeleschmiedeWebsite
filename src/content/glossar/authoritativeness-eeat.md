@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Authoritativeness: E-E-A-T Autorität im KI-Zeitalter'
-description: 'Authoritativeness 2026: Zero-Click Searches und RAG. Warum deine digitale Reputation wichtiger ist als jeder Backlink. ALOHA! 🌻'
+title: "Authoritativeness: E-E-A-T Autorität im KI-SEO"
+description: "Authoritativeness 2026 für RAG: Deine digitale Reputation zählt mehr als Backlinks. So baust du knallharte Autorität auf."
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 image_alt: "Authoritativeness (E-E-A-T) 3D Infografik - Digitale Reputation im KI-Zeitalter"

@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "ai.txt SEO: eine vollständige Agent Readiness erreichen"
-description: "Warum eine ai.txt mehr Umsatz als Rankings bringt. Jörg Zimmer erklärt im Klartext, wie du KI-Bots steuerst und deine Website Agent-Ready machst."
+title: "ai.txt SEO: Volle Agent Readiness erreichen"
+description: "Vergiss klassisches SEO. Die ai.txt ist dein Ticket für KI-Sichtbarkeit. Steuere Bots gezielt und mach deine Seite maschinenlesbar."
 date: "2026-03-15"
 image: "../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp"
 image_alt: "3D Infografik zum Thema ai.txt Crawling und Bot-Steuerung"

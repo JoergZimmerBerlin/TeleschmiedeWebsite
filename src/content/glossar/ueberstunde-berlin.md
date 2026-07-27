@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Die Überstunde Berlin: Networking-Event für die Digitalszene'
-description: 'Die Überstunde ist das After-Work-Event in Berlin für Macher und Kreative. Ein Ort für entspanntes Networking fernab von steifen Visitenkarten-Partys.'
+title: "Überstunde Berlin: Harte Fakten zum Network-Event"
+description: "Die Überstunde Berlin ist der Ort für echtes Networking ohne steife Visitenkarten-Shows. Triff Macher der Digitalszene und rede Tacheles."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-stammtisch-berlin", "campixx-berlin", "local-seo"]

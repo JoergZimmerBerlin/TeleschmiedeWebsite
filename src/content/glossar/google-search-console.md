@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Google Search Console: Dein Radar für organische Sichtbarkeit & Crawling'
-description: 'Die Google Search Console ist dein unverzichtbares Tool, um Indexierung, Crawl-Fehler und Keyword-Daten zu tracken. Ohne GSC fliegst du im Blindflug. Tacheles!'
+title: "Google Search Console: Radar für Sichtbarkeit"
+description: "Nutze die Google Search Console für echtes Index-Tracking. Ohne harte GSC-Daten fliegst du im Blindflug. Zeit für ungeschönten Klartext."
 sameAs: "https://www.wikidata.org/wiki/Q328216"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"

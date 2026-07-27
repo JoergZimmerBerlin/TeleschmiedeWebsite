@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'SEO Beratung & Consulting für KI-Crawler und LLM-Architektur'
-description: 'Professionelle SEO Beratung bedeutet im Juli 2026 den Umbau deiner Infrastruktur zur LLM-Datenquelle. Wer dir heute noch Keyword-Dichte optimiert, raubt dich aus. Tacheles!'
+title: "SEO Beratung: Umbau für harte LLM-Architekturen"
+description: "Echte SEO Beratung baut deine Infrastruktur zur gnadenlosen LLM-Datenquelle um. Keyword-Dichte war gestern. Harter Tacheles von Jörg."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-audit", "seo-agentur", "keywordrecherche"]

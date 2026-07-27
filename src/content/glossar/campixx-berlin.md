@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Campixx Berlin 2026: Die legendäre SEO-Konferenz im KI-Zeitalter'
-description: 'Campixx Berlin: Das Klassentreffen der SEO-Szene. Networking, Insights und Tacheles im Van der Valk Hotel. Jörg ist dabei! ALOHA! 🌻'
+title: "Campixx Berlin: SEO-Konferenz im KI-Zeitalter"
+description: "Die Campixx Berlin ist das Networking-Event der SEO-Szene. Hol dir Insights, sprich Tacheles und bereite dich auf die KI-Zukunft vor."
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/campixx-berlin.webp"
 related_terms: ["seo-stammtisch-berlin", "ueberstunde-berlin", "e-e-a-t"]

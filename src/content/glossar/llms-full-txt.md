@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'LLMs-full.txt: Was steckt hinter dem Deep-Knowledge-Trend?'
-description: 'Die llms-full.txt wird in der Szene oft als fette Daten-Pipeline gehandelt. Doch Vorsicht: Es ist kein Google-Standard, sondern ein spannendes Experiment für Nischen-Bots.'
+title: "LLMs-full.txt: Die harte Wahrheit zum KI-Trend"
+description: "LLMs-full.txt ist kein offizieller Google-Standard, sondern ein wildes Experiment. Tacheles: Lohnt sich die fette Daten-Pipeline wirklich?"
 date: "2026-04-14"
 image: "../../assets/images/glossar/3d-light/glossar-llms-full-txt-3d.png"
 related_terms: ["llms-txt", "grounding-page", "geo"]

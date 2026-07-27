@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Local SEO 2026: Sichtbarkeit im KI-Such-Battleground'
-description: 'Local SEO im Zeitalter generativer KI: Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz, Review Velocity und Google AI Overviews. ALOHA! 🌻'
+title: 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten'
+description: 'Sichere dir lokale Relevanz im Zeitalter der KI. Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz und dominanten Google AI Overviews.'
 sameAs: "https://www.wikidata.org/wiki/Q30324357"
 date: "2026-03-31"
 image: "../../assets/images/blog/glossar-local-seo.webp"

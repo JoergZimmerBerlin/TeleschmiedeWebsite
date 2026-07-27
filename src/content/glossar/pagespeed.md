@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'PageSpeed 2026: Latenz als härtester Ranking-Killer'
-description: 'PageSpeed ist mehr als Core Web Vitals. Im LLM-Zeitalter führt langsame Time-to-First-Byte zu sofortigem Crawl-Abbruch. Tacheles zur Latenz. ALOHA! 🌻'
+title: "PageSpeed: Latenz ist der harte Ranking-Killer"
+description: "PageSpeed ist mehr als Vitals. Langsame Time-to-First-Byte führt sofort zum Crawl-Abbruch. Harter Klartext zur Latenz-Optimierung."
 sameAs: "https://www.wikidata.org/wiki/Q1056586"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

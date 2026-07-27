@@ -1,6 +1,6 @@
 ---
-title: "SEORCH Tool: Bestes OnPage SEO Werkzeug"
-description: "Auf der Campixx 2026 habe ich endlich Matthias Hotz, den Kopf hinter SEORCH, getroffen. Ein Klartext-Review über Funktionen und warum es mein Favorit ist."
+title: 'SEORCH Tool: Dein kostenloses OnPage SEO Werkzeug'
+description: 'Vergiss teure Suiten. Das SEORCH Tool liefert knallharte OnPage-Daten ohne Bullshit. Klartext über Funktionen und echten Mehrwert für SEOs.'
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-bin-fanboy-des-seo-tools-seorch-nun-activity-7473363474753019904-HQsc"
 image: "../../assets/images/blog/blog-seorch-matthias-hotz.webp"

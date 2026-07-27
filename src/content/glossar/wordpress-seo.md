@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'WordPress SEO 2026: Headless, Markdown & technische KI-Optimierung'
-description: 'WordPress muss sich 2026 massiv anpassen. Warum Headless-Markdown, KI-Crawler-Protokolle und maschinenlesbare Endpunkte heute absolute Pflicht für technische KI-Optimierung sind.'
+title: 'WordPress SEO: Markdown & technische KI-Updates'
+description: 'WordPress muss sich radikal wandeln. Headless-Markdown und saubere Endpunkte sind heute absolute Pflicht für ernsthafte KI-Optimierung.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "pagespeed", "strukturierte-daten", "agent-readiness"]

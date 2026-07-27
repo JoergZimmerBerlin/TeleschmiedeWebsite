@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agentic Resource Discovery: ai-catalog.json als neuer Standard"
-description: "Erfahre von Jörg Zimmer, warum Agentic Resource Discovery (ARD) und die ai-catalog.json im Jahr 2026 unverzichtbar für AI SEO und Agent Readiness sind."
+title: "Agentic Resource Discovery: Der harte Standard"
+description: "Ohne Agentic Resource Discovery und ai-catalog.json bist du in 2026 unsichtbar. Erfahre von Jörg Zimmer die harte Wahrheit für AI SEO."
 date: "2026-03-16"
 image: "../../assets/images/glossar/3d-light/glossar-api-catalog-3d.webp"
 key_takeaways:

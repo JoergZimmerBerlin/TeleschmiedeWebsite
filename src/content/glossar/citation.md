@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Citation (Zitierung): Technische Struktur und Entity-Resolution in 2026'
-description: 'Ein tiefer technischer Einblick in digitale Citations. Erfahre, wie strukturierte Verweise funktionieren und warum LLMs Zitationen zur Verifizierung nutzen.'
+title: 'Citation: Struktur und Entity-Resolution erklärt'
+description: 'Ohne saubere Citation bist du für KI unsichtbar. Wie LLMs Zitationen zur Verifizierung nutzen und warum klassische Links an Macht verlieren.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 image_alt: "Citations 3D Infografik - Lokales SEO und Entity Resolution"

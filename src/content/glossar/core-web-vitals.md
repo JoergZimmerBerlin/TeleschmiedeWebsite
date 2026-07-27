@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Core Web Vitals (CWV) 2026: Rendering-Metriken im Detail'
-description: 'Ein Deep-Dive in Core Web Vitals und Performance-Metriken. Erfahre, warum LCP, INP und CLS auf Architekturebene über deine Sichtbarkeit bei Crawlern entscheiden.'
+title: "Core Web Vitals: Rendering-Metriken im Detail"
+description: "Core Web Vitals gnadenlos optimiert: Warum LCP, INP und CLS auf Architekturebene deine Crawler-Sichtbarkeit diktieren."
 sameAs: "https://www.wikidata.org/wiki/Q104618838"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-cwv-3d.webp"

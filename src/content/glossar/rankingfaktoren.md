@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'SEO Rankingfaktoren 2026: Was Google und KIs wirklich bewerten'
-description: 'Rankingfaktoren 2026: Die harten Kriterien für Google und Generative Engines. Was über Seite 1 und KI-Zitierungen entscheidet. ALOHA! 🌻'
+title: "Rankingfaktoren: Was KIs wirklich bewerten"
+description: "Rankingfaktoren ungeschönt: Die harten Kriterien für Generative Engines. Tacheles darüber, was über Seite 1 und KI-Zitierungen entscheidet."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp"
 related_terms: ["e-e-a-t", "core-web-vitals", "google-algorithmus", "technisches-seo"]

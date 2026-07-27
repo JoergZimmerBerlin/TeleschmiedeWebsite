@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Content-Signale & KI-Präferenzen: Wie du AI-Crawlern Tacheles redest"
-description: "Wie du mit Content-Signalen, HTTP-Headern und klaren KI-Präferenzen in 2026 die Kontrolle über deinen Content behältst. Tacheles zu robots.txt und Agent-Readiness."
+title: "Content-Signale: Klare Regeln für AI-Crawler"
+description: "Mit klaren Content-Signalen steuerst du KI-Bots präzise. Wer seine HTTP-Header und robots.txt vernachlässigt, verliert die Kontrolle."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-content-signals-3d.webp"
 image_alt: "3D Infografik Content-Signale, AI-Präferenzen, HTTP-Header"

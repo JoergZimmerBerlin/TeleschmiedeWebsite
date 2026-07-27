@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agent Skills: Der modulare Werkzeugkasten für KI-Agenten"
-description: "Erfahre, wie Agent Skills in 2026 KI-Agenten durch modulare Fähigkeiten und Tools wie MCP extrem mächtig machen. Tacheles von Jörg Zimmer."
+title: "Agent Skills: KI-Agenten extrem aufrüsten"
+description: "Mach deine KI-Agenten durch modulare Agent Skills und Tools mächtig. Keine Spielereien, harte Praxis und Tacheles von Jörg Zimmer."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-agent-skills-3d.webp"
 image_alt: "Agent-Skills, Skill-Index, Tool-Ausführung"

@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'GEO Audit: Der Stresstest für deine KI-Sichtbarkeit'
-description: 'Ein GEO Audit prüft deine Infrastruktur für LLM-Pipelines: Markdown Negotiation, RAG-Readiness und Crawler-Protokolle im Tacheles-Check. ALOHA! 🌻'
+title: "GEO Audit: Stresstest für KI-Sichtbarkeit"
+description: "Ein GEO Audit prüft deine Infrastruktur für LLM-Pipelines. Klartext zu Markdown Negotiation, RAG-Readiness und harten Crawler-Protokollen."
 date: "2026-03-18"
 image: "../../assets/images/glossar/3d-light/glossar-geo-audit-3d.webp"
 image_alt: "GEO Audit 3D Infografik - Analyse der KI-Sichtbarkeit und Server-Optimierung"

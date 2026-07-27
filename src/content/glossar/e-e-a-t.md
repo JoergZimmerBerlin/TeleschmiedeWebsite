@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'E-E-A-T 2026: Die harte Währung für LLM-Pipelines und RAG-Systeme'
-description: 'E-E-A-T ist 2026 der kompromisslose technische Filter für KI-Crawler. Warum RAG-Prozesse nur noch harte, verifizierte Entitäten zitieren. ALOHA! 🌻'
+title: "E-E-A-T: Harte Währung für RAG-Systeme"
+description: "E-E-A-T ist 2026 der kompromisslose technische Filter für Crawler. RAG-Prozesse zitieren nur noch harte, verifizierte Entitäten."
 sameAs: "https://www.wikidata.org/wiki/Q121693513"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"

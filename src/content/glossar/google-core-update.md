@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'Google Core Updates 2026: Der Qualitätshammer für AI Overviews'
-description: 'Google Core Updates 2026 sind hochfrequente Erdbeben. Es geht um Information Gain, E-E-A-T und echten Mehrwert. Jörg Zimmer redet Tacheles. ALOHA! 🌻'
+title: "Google Core Update: Qualitätshammer für AI"
+description: "Ein Google Core Update ist ein Erdbeben für deine Sichtbarkeit. Es geht um echten Mehrwert und E-E-A-T. Jörg Zimmer redet Tacheles."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-core-update-3d.webp"
 related_terms: ["sichtbarkeitsindex", "e-e-a-t", "seo-audit", "rag"]

@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Noindex: Seiten radikal von der KI-Suche ausschließen'
-description: 'Noindex Meta-Tag: So kontrollierst du technisch gnadenlos, welche Seiten KI-Crawler indexieren dürfen. Der Wächter deines Crawl-Budgets. ALOHA! 🌻'
+title: 'Noindex: Seiten gnadenlos von der KI ausschließen'
+description: 'Kontrolliere dein Crawl-Budget mit dem Noindex Meta-Tag. So verbietest du KI-Crawlern radikal und technisch sauber den Zugriff auf Inhalte.'
 sameAs: "https://www.wikidata.org/wiki/Q4045426"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'DNS Sovereignty: Warum dein Nameserver über Crawler-Sichtbarkeit entscheidet'
-description: 'DNS Sovereignty ist die Grundlage für Latenz und Crawlbarkeit. Erfahre, warum langsame Nameserver deine Indexierung und Daten-Verfügbarkeit zerstören.'
+title: "DNS Sovereignty: Dein Nameserver entscheidet"
+description: "Langsame DNS-Server zerstören deine Indexierung. Hol dir DNS Sovereignty, senke die Latenz und sichere dir echte Crawl-Sichtbarkeit."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-dns-sovereignty-3d.webp"
 image_alt: "DNS Sovereignty 3D Infografik - Netzwerk und Latenz"

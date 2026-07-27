@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Entity SEO: Die Vektorraum-Architektur für KI-Crawler'
-description: 'Entity SEO (2026): Optimiere nicht für Keywords, sondern für den Vektorraum. Erfahre, wie du Entity Depth und RAG-Trust aufbaust. ALOHA! 🌻'
+title: "Entity SEO: Vektorraum-Ranking für KI-Crawler"
+description: "Keywords waren gestern. Entity SEO baut echten RAG-Trust auf. Optimiere deinen Content für den Vektorraum und werde zur Autorität."
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page"]

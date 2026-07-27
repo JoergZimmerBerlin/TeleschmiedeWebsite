@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Technisches SEO in 2026: technische KI-Optimierung & LLM-Infrastruktur'
-description: 'Die Revolution des Technical SEO. Warum Technisches SEO heute vollständige technische KI-Optimierung, maschinenlesbare Endpunkte und KI-Crawler-Protokolle bedeutet. Klartext!'
+title: "Technisches SEO: LLM-Infrastruktur & KI-SEO"
+description: "Technisches SEO bedeutet heute kompromisslose KI-Optimierung. Maschinenlesbare Endpunkte und saubere Crawler-Protokolle sind Pflicht."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-tech-seo-3d.webp"
 image_alt: "Technisches SEO 3D Infografik - Fundament und Architektur für KI Agenten"

@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Zitierfähiger Content: Rankingfaktor #1 im KI-Crawler Protocol (Juli 2026)'
-description: 'Warum LLMs deinen Content ignorieren und wie du mit strukturierte Datenaufbereitung für KIs und KI-Crawler Protocol endlich wieder zitiert wirst.'
+title: "Zitierfähiger Content: Rankingfaktor #1 für KI"
+description: "Zitierfähiger Content ist Pflicht. Erfahre, wie du Daten für KIs knallhart strukturierst, um endlich wieder verlässlich zitiert zu werden."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "geo", "zero-click-content", "faq-markup", "llms-txt"]

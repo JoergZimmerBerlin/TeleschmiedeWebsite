@@ -1,6 +1,6 @@
 ---
-title: "Es ist offiziell: Wir haben Eis auf der Freelance Unlocked"
-description: "Die Mission Eiscreme ist erfolgreich! Wie aus einem LinkedIn-Kommentar eine Eismaschine für die Freelance Unlocked Konferenz wurde."
+title: "Freelance Unlocked: Erfolgreiche Eiscreme-Aktion"
+description: "Freelance Unlocked Eiscreme-Aktion war ein voller Erfolg. Vom LinkedIn-Kommentar zur echten Eismaschine – so geht Netzwerken mit Tacheles."
 date: "2026-06-14"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_es-ist-offiziell-ich-bin-mega-gl%C3%BCcklich-activity-7470433708538363905-JmKG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"
 image: "../../assets/images/blog/freelance-unlocked-eiscreme.webp"

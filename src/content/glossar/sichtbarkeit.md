@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Sichtbarkeit (Visibility): KI-Crawler, RAG und Citation-Stability'
-description: 'Sichtbarkeit im SEO bedeutet Juli 2026: Von KIs gefunden werden. Erfahre, warum Citation-Stability durch auth.md und RFC 8288 relevanter ist als Klicks.'
+title: "Sichtbarkeit: KI-Crawler & Citation-Stability"
+description: "Sichtbarkeit bedeutet heute: Von KIs gefunden werden. Warum Citation-Stability durch auth.md relevanter ist als Klicks. Klartext pur."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeit-3d.webp"
 related_terms: ["sichtbarkeitsindex", "geo", "traffic"]

@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "WebMCP (Web Model Context Protocol): Das Frontend-Update für AI"
-description: "WebMCP macht Websites zu KI-fähigen Schnittstellen. Wie das Web Model Context Protocol funktioniert und warum es Screen Scraping ablöst."
+title: "WebMCP: Das KI-Update für Schnittstellen"
+description: "WebMCP macht Schluss mit Scraping. Liefere KIs direkt sauberen Kontext. Wer WebMCP ignoriert, bleibt für moderne Agenten unsichtbar."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-webmcp-3d.webp"
 image_alt: "3D Infografik zu WebMCP, HTTP-Integration und Cloud-APIs"

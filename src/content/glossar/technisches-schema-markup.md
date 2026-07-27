@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Technisches Schema-Markup: KI-Infrastruktur & LLM-SEO (2026)'
-description: 'Schema-Markup 2026: Vergiss Rich Snippets. Ich zeige dir, wie du harte AI-Infrastruktur baust, Entity-Depth nutzt und durch maschinenlesbare Endpunkte brillierst. Tacheles.'
+title: "Technisches Schema-Markup: Pure KI-Infrastruktur"
+description: "Technisches Schema-Markup baut harte Endpunkte. Nutze Entity-Depth für Agenten und vergiss alberne Snippets. Zeit für echten Klartext."
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "grounding-page", "entity-seo", "faq-markup", "technisches-seo"]

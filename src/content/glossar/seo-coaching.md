@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'SEO Coaching 2026: Werde zum autonomen LLM-Architekten'
-description: 'SEO Coaching im Juli 2026: Vergiss Keywords. Lerne in meinem Hardcore-Coaching, wie du RAG-Pipelines, auth.md und KI-Crawler meisterst. Tacheles!'
+title: "SEO Coaching: Werde zum LLM-Architekten"
+description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pipelines, auth.md und KI-Crawler gnadenlos für dich nutzt."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]

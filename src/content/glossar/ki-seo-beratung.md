@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'KI-SEO Beratung: Agentur für die Antwort-Ära (2026)'
-description: 'KI SEO Beratung nach den Juli 2026 KI-Sichtbarkeits-Standards: Warum klassische SEO-Agenturen scheitern und wie RAG die Suche dominiert. ALOHA! 🌻'
+title: "KI-SEO Beratung: Agentur für die Antwort-Ära"
+description: "Klassisches SEO ist tot. Eine echte KI-SEO Beratung trimmt deine Seite auf RAG-Dominanz. Wer nicht für KI optimiert, fliegt raus."
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-ki-seo-beratung-3d.png"
 image_alt: "KI SEO Beratung 3D Infografik - Agentur, Beratung und Optimierung im Zusammenspiel"

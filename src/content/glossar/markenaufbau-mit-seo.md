@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Markenaufbau mit SEO 2026: Brand-Entitäten als zentrales RAG-Signal'
-description: 'Markenaufbau 2026: Wie du deine Brand technisch als Entität etablierst und LLMs dazu bringst, dich als Autorität zu zitieren. Tacheles von Jörg Zimmer. ALOHA! 🌻'
+title: "Markenaufbau mit SEO: Brand-Entitäten als RAG"
+description: "Vergiss billige Tricks. Markenaufbau mit SEO verankert dich als Entität. Zwinge LLMs dazu, dich als unumstrittene Autorität zu zitieren."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entity-seo", "e-e-a-t", "mention", "citation"]

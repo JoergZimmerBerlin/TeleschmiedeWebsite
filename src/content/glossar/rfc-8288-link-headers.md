@@ -1,6 +1,6 @@
 ---
-title: "RFC 8288 Link Headers: Wie KIs durch dein HTTP navigieren"
-description: "Web Linking nach RFC 8288, HTTP Header und die Zukunft der KI Navigation. Jörg Zimmer erklärt, warum HTML-Links bald zweitrangig sind und wie du deine Header sauber konfigurierst."
+title: "RFC 8288 Link Headers: HTTP für KI-Crawler"
+description: "HTML-Links reichen nicht mehr. RFC 8288 Link Headers steuern KIs tief in deiner Struktur. Konfiguriere deine HTTP-Responses sauber."
 category: 'Technisches SEO & UX'
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-rfc-8288-link-headers-3d.webp"

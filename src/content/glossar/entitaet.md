@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Entität (Entity): Die architektonische Basis für LLM-Pipelines'
-description: 'Entitäten sind 2026 der Grundbaustein der KI-Suche. Wie LLMs im Knowledge Graph navigieren und warum lose Strings wertlos sind. ALOHA! 🌻'
+title: 'Entität: Das Fundament jeder modernen LLM-Pipeline'
+description: 'Lose Text-Strings sind tot. Eine Entität ist heute der Grundbaustein für die KI-Suche. Wie LLMs im Knowledge Graph navigieren und ranken.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["knowledge-graph", "geo", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]

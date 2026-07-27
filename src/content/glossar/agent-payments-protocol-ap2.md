@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agent Payments Protocol (AP2) | KI-Zahlungen verstehen"
-description: "Was ist das Agent Payments Protocol (AP2)? Jörg Zimmer erklärt den Standard für sichere KI-Zahlungen, Mandates und die Agent Economy (Stand Juli 2026)."
+title: 'Agent Payments Protocol: KI-Zahlungen erklärt'
+description: 'Das Agent Payments Protocol (AP2) ist der neue Standard für autonome KI-Zahlungen. So funktioniert die Agent Economy ohne Mittelsmann.'
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-agent-payments-protocol-ap2-3d.webp"
 image_alt: "Agent Payments Protocol AP2, Wallet Transactions, Smart Contracts - 3D Infografik"

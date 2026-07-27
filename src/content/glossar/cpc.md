@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'CPC (Cost per Click) 2026: Agentic RTB und Vector-Bidding'
-description: 'Der Cost per Click (CPC) im Wandel: Wie Agentic Real-Time Bidding und First-Price-Auktionen den Bidding-Markt 2026 dominieren.'
+title: 'CPC: Cost per Click & Agentic Real-Time Bidding'
+description: 'Der CPC wandelt sich radikal. Verstehe Cost per Click in Zeiten von KI, Vector-Bidding und autonomen Agenten. Echtes Tacheles für Ads.'
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-cpc-3d.webp"
 image_alt: "CPC (Cost per Click) 3D Infografik - Marktwert von Keywords"

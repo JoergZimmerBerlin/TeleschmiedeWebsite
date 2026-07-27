@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Sitemap 2026: Die Architektur für RAG-Pipelines & KIs'
-description: 'Eine Sitemap ist im Juli 2026 der essenzielle Wegweiser für RAG. Optimiere deine XML mit echter mtime-Logik und verlinke maschinenlesbare Endpunkte. Tacheles!'
+title: "Sitemap: Echte Architektur für RAG-Pipelines"
+description: "Eine Sitemap ist der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik. Keine faulen Kompromisse."
 sameAs: "https://www.wikidata.org/wiki/Q1503327"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.webp"

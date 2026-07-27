@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Click-Through-Rate (CTR): Interaktionsmetriken im AI-Zeitalter'
-description: 'Die CTR (Click-Through-Rate) hat sich von der simplen Suchergebnis-Metrik zur entscheidenden Interaktions-Kennzahl in RAG-Pipelines und KI-Interfaces entwickelt.'
+title: "Click-Through-Rate: Interaktionen im AI-Web"
+description: "Die Click-Through-Rate ist mehr als Klicks. In RAG-Pipelines entscheidet die Interaktion über deine Relevanz. Optimiere jetzt."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ctr-3d.webp"
 image_alt: "Click-Through-Rate (CTR) 3D Infografik - Nutzerinteraktion"

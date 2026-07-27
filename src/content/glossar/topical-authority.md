@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: "Topical Authority 2026: Die Königsdisziplin im KI & RAG Zeitalter"
-description: "Topical Authority entscheidet, ob LLMs, ChatGPT und Google deine Marke als führende Expertenquelle wahrnehmen und zitieren."
+title: "Topical Authority: Königsdisziplin KI-Zeitalter"
+description: "Topical Authority entscheidet gnadenlos, ob LLMs, ChatGPT und Google deine Marke als echte Expertenquelle wahrnehmen und zitieren. Tacheles."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-eeat-3d.webp"
 image_alt: "Topical Authority 3D Infografik - SEO Strategie"

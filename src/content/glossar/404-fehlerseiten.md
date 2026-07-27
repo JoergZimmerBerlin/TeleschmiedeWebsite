@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: '404 Fehlerseiten: Wie Sackgassen 2026 dein KI-SEO zerstören'
-description: 'Eine 404 Fehlerseite erscheint, wenn ein Inhalt nicht gefunden wird. Erfahre, warum das im Zeitalter der KI-Pipelines toxisch für dein Ranking ist. ALOHA! 🌻'
+title: "404 Fehlerseiten: Wie sie KI-SEO zerstören"
+description: "404 Fehlerseiten sind tödlich für KI-Crawler. Wenn dein Content nicht erreichbar ist, stirbt dein Ranking. Mach Schluss mit toten Links."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-404-3d.webp"
 image_alt: "404 Fehlerseite 3D Infografik - Technisches SEO Standard"

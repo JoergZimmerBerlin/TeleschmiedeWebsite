@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Keywords 2026: Von Text-Strings zu semantischen Entitäten'
-description: 'Keywords 2026: Warum exaktes Suchvolumen irrelevant wird und wie du durch User Intent und Topical Authority echte Relevanz aufbaust. ALOHA! 🌻'
+title: "Keywords: Semantische Entitäten statt Strings"
+description: "Keywords 2026: Exaktes Suchvolumen ist tot. Baue echte Relevanz für KI durch User Intent und radikale Topical Authority auf."
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"
 related_terms: ["suchvolumen", "keyword-tool", "keywordrecherche"]

@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Crawler & Search Bots 2026: RAG-Pipelines und llms.txt'
-description: 'Crawler haben sich von simplen Indexierungs-Skripten zu autonomen Daten-Agents entwickelt. Erfahre, wie Bots arbeiten und wie du dein Crawl-Budget optimierst.'
+title: "Crawler: Bots, RAG-Pipelines und llms.txt"
+description: "Crawler sind heute autonome Daten-Agents. Vergiss simple Skripte. Erfahre im Klartext, wie Bots ticken und du dein Crawl-Budget optimierst."
 sameAs: "https://www.wikidata.org/wiki/Q45842"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-crawler-3d.webp"

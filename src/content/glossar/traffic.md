@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Traffic (Besucherströme): Die Illusion der Klicks'
-description: 'Traffic war gestern. Im Jahr 2026 zählt die Citation-Stability bei Agenten. Warum du reine Klicks vergessen und auf technische KI-Optimierung setzen musst.'
+title: "Traffic: Die Illusion der Klicks und Besucher"
+description: "Vergiss reinen Traffic. Bei Agenten zählt nur Citation-Stability. Fokussiere dich auf technische Exzellenz statt hohlen Klicks nachzujagen."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]

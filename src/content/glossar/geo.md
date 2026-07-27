@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'Generative Engine Optimization (GEO): SEO für KI (Stand Juli 2026)'
-description: 'GEO (2026): Werde zur unumstößlichen Antwortquelle in ChatGPT, Perplexity & Google AI Overviews. Erfahre alles über A2A, Agent Readiness und llms.txt.'
+title: "GEO: Generative Engine Optimization für KI"
+description: "GEO bedeutet Tacheles für die KI-Suche. Werde zur verlässlichen Antwortquelle in ChatGPT und Co. mit Agent Readiness und llms.txt."
 date: "2026-03-31"
 related_terms: ["llm", "rag", "entity-seo", "agent-readiness-level", "a2a-protocol", "llms-txt", "aeo"]
 key_takeaways:

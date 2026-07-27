@@ -1,6 +1,6 @@
 ---
-title: "HTTP Message Signatures (RFC 9421): Kugelsichere A2A-Kommunikation 2026"
-description: "Warum RFC 9421 in 2026 der Goldstandard ist und wie HTTP Message Signatures die B2B-API- und Agent-to-Agent Kommunikation revolutionieren."
+title: "HTTP Message Signatures: Sichere A2A-APIs"
+description: "Sichere deine A2A-Kommunikation. HTTP Message Signatures sind der Goldstandard für Agenten-APIs. Mach dein System endlich kugelsicher."
 category: 'AI SEO & Generative Search'
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-http-message-signatures-3d.webp"

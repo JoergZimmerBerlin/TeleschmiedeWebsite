@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agentic Commerce Protocol (ACP): Wenn KIs für dich einkaufen"
-description: "Was ist das Agentic Commerce Protocol (ACP)? Wie AI-Agenten mit Shops verhandeln, kaufen und den Checkout revolutionieren. Klartext von Jörg Zimmer."
+title: "Agentic Commerce Protocol: KIs kaufen für dich"
+description: "Was das Agentic Commerce Protocol (ACP) bedeutet. Wie AI-Agenten mit Shops verhandeln und den Checkout revolutionieren. Klartext."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-agentic-commerce-protocol-acp-3d.webp"
 image_alt: "3D Infografik zum Agentic Commerce Protocol (ACP) mit B2B-Verhandlungen und Auto-Checkout"

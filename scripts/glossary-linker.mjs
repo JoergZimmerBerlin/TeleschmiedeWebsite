@@ -92,11 +92,25 @@ function linkHtml(filePath, allTerms, ringTerms) {
   const startTagEnd = html.indexOf('>', startIdx);
   if (startTagEnd === -1) return;
   
-  let endDivIdx = html.indexOf('</div> </div> </div>', startTagEnd); 
-  if (endDivIdx === -1) {
-    endDivIdx = html.indexOf('</div>', startTagEnd);
+  // Find the matching closing </div> by tracking depth
+  let depth = 1;
+  let currentIdx = startTagEnd + 1;
+  while (depth > 0 && currentIdx < html.length) {
+    const nextOpen = html.indexOf('<div', currentIdx);
+    const nextClose = html.indexOf('</div', currentIdx);
+    if (nextClose === -1) break;
+    
+    if (nextOpen !== -1 && nextOpen < nextClose) {
+      depth++;
+      currentIdx = nextOpen + 4;
+    } else {
+      depth--;
+      currentIdx = nextClose + 6;
+    }
   }
-  if (endDivIdx === -1) return;
+  
+  const endDivIdx = currentIdx - 6;
+  if (endDivIdx <= startTagEnd) return;
 
   let content = html.substring(startTagEnd + 1, endDivIdx);
   const originalContent = content;

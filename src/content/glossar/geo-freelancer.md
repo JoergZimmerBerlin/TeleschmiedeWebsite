@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'GEO Freelancer: Dein Data-Engineer für LLM-Pipelines'
-description: 'Ein GEO Freelancer optimiert Server und Datenstrukturen für KI-Crawler. Warum du 2026 für RAG-Pipelines einen Spezialisten brauchst. ALOHA! 🌻'
+title: "GEO Freelancer: Data-Engineers für KI-Suchen"
+description: "Ein GEO Freelancer baut deine RAG-Pipelines. KI-Crawler brauchen perfekt strukturierte Daten. Setze auf Experten für deinen Code."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-freelancer-3d.webp"
 image_alt: "GEO Freelancer 3D Infografik - Individuelle KI-Sichtbarkeits-Strategie"

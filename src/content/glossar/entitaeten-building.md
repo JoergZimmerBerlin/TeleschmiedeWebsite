@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Entitäten-Building: Vektoren-Autorität in der LLM-Suche'
-description: 'Entitäten-Building 2026 ist radikales Data-Engineering. So verankerst du deine Identität unzerstörbar im Knowledge Graph und in RAG-Pipelines. ALOHA! 🌻'
+title: "Entitäten-Building: Autorität in der LLM-Suche"
+description: "Entitäten-Building ist hartes Data-Engineering. So verankerst du deine Identität unzerstörbar im Knowledge Graph und RAG-Pipelines."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "entity-seo", "grounding-page", "citation"]

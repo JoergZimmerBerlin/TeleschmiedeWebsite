@@ -1,0 +1,3816 @@
+[[{'duration': 4.36,
+   'start': 4.012,
+   'text': 'Hallo Freunde der Software Entertainments\xa0\n'
+           'und herzlich willkommen bei Never Code\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 8.372,
+   'text': 'Alone. Heute zu einer Live-Session zum\xa0\n'
+           'Thema SEO-Suchmaschinenoptimierung.\xa0\xa0'},
+  {'duration': 4.52,
+   'start': 15.892,
+   'text': 'Da sind wir in der Sprechstunde bei\xa0\n'
+           'Jörg Zimmer. Herzlich willkommen,\xa0\xa0'},
+  {'duration': 8.56,
+   'start': 20.412,
+   'text': 'Jörg. Hallo Roland, vielen Dank, dass ich da\xa0\n'
+           'sein darf. Jörg, du machst SEO. Woher kommst du,\xa0\xa0'},
+  {'duration': 8.56,
+   'start': 28.972,
+   'text': 'und wieso kannst du das eigentlich?\xa0\n'
+           'Ich wohne jetzt in Berlin-Spandau,\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 37.532,
+   'text': 'und SEO hat mich in den Anfängen des Internets\xa0\n'
+           'sehr fasziniert. Als das alles losging,\xa0\xa0'},
+  {'duration': 4.76,
+   'start': 45.572,
+   'text': 'habe ich ein paar eigene Seiten gemacht und bin\xa0\n'
+           'mittlerweile wirklich schon fünfundzwanzig Jahre\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 50.332,
+   'text': 'dabei. Das ist so mein Hintergrund, ich mache\xa0\n'
+           'das seit fünfundzwanzig Jahren freiberuflich.\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 62.332,
+   'text': 'Das ist sehr gut. Jetzt gibt es ja aktuell das\xa0\n'
+           'Thema KI, die angeblich alle ersetzt. Wie siehst\xa0\xa0'},
+  {'duration': 6.36,
+   'start': 70.452,
+   'text': 'du diesen wilden Trend? Wird Google überhaupt noch\xa0\n'
+           'benutzt? Was hältst du von den ganzen Headlines,\xa0\xa0'},
+  {'duration': 11.44,
+   'start': 76.812,
+   'text': 'die uns hier in der Branche über den Weg laufen?\xa0\n'
+           'Das ist ein gutes Thema und sehr spannend. Das\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 88.252,
+   'text': 'führt wahrscheinlich zu einem größeren Umbau im\xa0\n'
+           'gesamten Internet, und im Moment ist das leider\xa0\xa0'},
+  {'duration': 7.08,
+   'start': 95.772,
+   'text': 'noch sehr hyplastisch getrieben. Das scheint\xa0\n'
+           'mir aber doch ein bisschen ein architektonischer\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 103.572,
+   'text': 'Umbau zu werden, weil die KI-Suchsysteme und die\xa0\n'
+           'KI-Modelle grundsätzlich anders arbeiten, als wir\xa0\xa0'},
+  {'duration': 7.0,
+   'start': 111.852,
+   'text': 'das aus der klassischen Suchmaschinenoptimierung\xa0\n'
+           'kennen. Das Web war ja für Menschen gemacht,\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 118.852,
+   'text': 'oder ist immer noch für Menschen gemacht. Die\xa0\n'
+           'brauchen eine Webseite mit HTML und Design und\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 125.972,
+   'text': 'diesen ganzen Kram. Das bräuchte der KI-Crawler so\xa0\n'
+           'nicht, der ist eigentlich nur daran interessiert,\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 133.092,
+   'text': 'so schnell wie möglich Fakten zu extrahieren. Das\xa0\n'
+           'sind meiner Meinung nach zwei unterschiedliche\xa0\xa0'},
+  {'duration': 9.2,
+   'start': 140.132,
+   'text': 'Welten, auch wenn sich das Handwerkszeug, um beide\xa0\n'
+           'zu optimieren, sehr ähnelt. Die Stichworte da sind\xa0\xa0'},
+  {'duration': 9.64,
+   'start': 149.332,
+   'text': 'ja GEO und SEO, und ich habe zumindest auf der\xa0\n'
+           'CampX, wo wir ja auch zusammen unterwegs waren,\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 158.972,
+   'text': 'wahrgenommen, dass man sagt, gutes SEO ist\xa0\n'
+           'dann auch gut für künstliche Intelligenz\xa0\xa0'},
+  {'duration': 6.92,
+   'start': 169.172,
+   'text': 'und ChatGPT und alle anderen. Manchmal kommt\xa0\n'
+           'mir das aber auch so vor, als wären das SEOs,\xa0\xa0'},
+  {'duration': 5.68,
+   'start': 176.092,
+   'text': 'die irgendwie in ihrer Arbeit steckengeblieben\xa0\n'
+           'sind und gar nicht die neuen Prinzipien verstehen,\xa0\xa0'},
+  {'duration': 17.28,
+   'start': 181.772,
+   'text': 'die GEO braucht. Wie ist da deine Meinung? Einfach\xa0\n'
+           'gutes SEO, und alles wird gut? Das Thema ist groß.\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 199.612,
+   'text': 'Ich hatte ja schon gesagt, die Überschneidungen\xa0\n'
+           'sind sehr groß, aber eine reine Webseite wird\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 206.772,
+   'text': 'wahrscheinlich im GEO-Game nicht ausreichen.\xa0\n'
+           'Du musst SEO machen, du musst natürlich deine\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 215.852,
+   'text': 'ganzen Punkte durchspielen, du musst freundlich\xa0\n'
+           'sein, technisch gut aufgestellt sein, du musst\xa0\xa0'},
+  {'duration': 10.64,
+   'start': 223.092,
+   'text': 'Inhalte mit passendem Kontext und auch Keywords\xa0\n'
+           'bereitstellen. Du musst also erst mal dein\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 237.532,
+   'text': 'SEO-Game durchspielen, um dann danach zu sagen,\xa0\n'
+           'okay, jetzt machen wir noch den weiteren Baustein,\xa0\xa0'},
+  {'duration': 11.56,
+   'start': 245.292,
+   'text': 'wo wir in Richtung KI-Modelle optimieren. Aber\xa0\n'
+           'bitte erst mal die SEO-Hausaufgaben machen.'},
+  {'duration': 4.08,
+   'start': 257.812,
+   'text': 'Ich hoffe, du hörst mich noch, gerade ist\xa0\n'
+           'nämlich meine Kamera weggegangen, aber das\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 261.892,
+   'text': 'soll nicht so tragisch sein, alles ist hier echt\xa0\n'
+           'und live. Was hast du uns denn mitgebracht? Wir\xa0\xa0'},
+  {'duration': 5.96,
+   'start': 270.012,
+   'text': 'gehen heute in die SEO-Sprechstunde. Wie\xa0\n'
+           'kommt es zu dem Namen, und was verbirgt\xa0\xa0'},
+  {'duration': 9.72,
+   'start': 275.972,
+   'text': 'sich dahinter? Die SEO-Sprechstunde ist so mein\xa0\n'
+           'Einstiegsprodukt. Das ist daraus entstanden, dass\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 285.692,
+   'text': 'ich gern Webseiten durchröste. Ah, da bist\xa0\n'
+           'du wieder, sehr schön. Also, ich röste\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 292.812,
+   'text': 'gerne Webseiten durch und finde dann relativ\xa0\n'
+           'schnell Webseiten mit der Erfahrung heraus,\xa0\xa0'},
+  {'duration': 9.12,
+   'start': 301.412,
+   'text': 'finde ich relativ schnell ein paar Stellschrauben,\xa0\n'
+           'und die gebe ich dann an den Kunden weiter,\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 310.532,
+   'text': 'ohne ihn gleich in einen Monatsvertrag zu binden\xa0\n'
+           'oder ihm ein Riesenpaket anzubieten. Dafür hat\xa0\xa0'},
+  {'duration': 6.32,
+   'start': 319.412,
+   'text': 'sich dann diese SEO-Sprechstunde entwickelt.\xa0\n'
+           'Da können Leute mit ihrer Domain reinkommen,\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 325.732,
+   'text': 'die ich dann kurz durchscanne, dann gehen\xa0\n'
+           'wir in einen zweistündigen Videocall\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 332.972,
+   'text': 'und besprechen zusammen mit dem Kunden, was\xa0\n'
+           'sein Setup ist und, aus der Ist-Analyse heraus,\xa0\xa0'},
+  {'duration': 6.72,
+   'start': 340.452,
+   'text': 'was für ihn die größten Hebel wären. Man kann ja\xa0\n'
+           'immer hundert Sachen analysieren, aber vielleicht\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 347.172,
+   'text': 'sind nur drei wichtig, und die arbeite ich dann\xa0\n'
+           'in so einer Sprechstunde heraus, protokolliere das\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 358.012,
+   'text': 'mit einer Aufzeichnung, und die Leute bekommen\xa0\n'
+           'am Ende erst mal die Sicht eines Fachmanns,\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 365.532,
+   'text': 'sie bekommen die Aufzeichnung, und sie bekommen\xa0\n'
+           'im Nachgang auch noch die Einschätzung:\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 371.012,
+   'text': 'Jetzt würde ich strategisch aus deiner Sicht\xa0\n'
+           'und in deinem Setup diese drei bis fünf Punkte\xa0\xa0'},
+  {'duration': 8.36,
+   'start': 377.892,
+   'text': 'angehen. Drei bis fünf Punkte klingt jetzt nicht\xa0\n'
+           'nach so viel. Schaust du denn dann nach, ob sich\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 386.252,
+   'text': 'das auch positiv entwickelt, ob das alles richtig\xa0\n'
+           'gemacht worden ist, und wertest im Nachgang auch\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 395.332,
+   'text': 'die Zahlen aus, ob man besser geworden ist? Wenn\xa0\n'
+           'der Kunde noch mal in die Sprechstunde kommt,\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 402.492,
+   'text': 'dann schon. Das ist jetzt kein Mandat für die\xa0\n'
+           'Ewigkeit, die Sprechstunde ist ein kleines,\xa0\xa0'},
+  {'duration': 8.44,
+   'start': 408.212,
+   'text': 'abgeschlossenes, bezahltes Produkt, meine Energie\xa0\n'
+           'muss ja auch ausgeglichen werden. Im Nachgang\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 416.652,
+   'text': 'kommen viele Leute später wieder, die brauchen\xa0\n'
+           'meistens ein bisschen, um die Tipps umzusetzen.\xa0\xa0'},
+  {'duration': 5.84,
+   'start': 426.812,
+   'text': 'Teilweise geht es darum, technische Infrastruktur\xa0\n'
+           'glattzuziehen, das kann dauern, je nachdem,\xa0\xa0'},
+  {'duration': 8.2,
+   'start': 432.652,
+   'text': 'wie gut jemand aufgestellt ist. Manchmal ist es\xa0\n'
+           'inhaltlich, manchmal sind es auch andere Signale\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 440.852,
+   'text': 'aus dem eigenen Universum. Das braucht meist ein\xa0\n'
+           'bisschen beim Kunden, aber ich bin gut bewertet,\xa0\xa0'},
+  {'duration': 5.36,
+   'start': 448.412,
+   'text': 'sagen wir es mal so, die Leute kommen gern wieder.\xa0\n'
+           'Ich habe auch Leute, die kommen einmal im Jahr,\xa0\xa0'},
+  {'duration': 6.84,
+   'start': 453.772,
+   'text': 'die machen bei mir so eine Art TÜV, und dann\xa0\n'
+           'sagen sie: Guck mal, Jörg, wir haben das in der\xa0\xa0'},
+  {'duration': 11.04,
+   'start': 460.612,
+   'text': 'Zeit schon umgesetzt, aber wir hätten noch\xa0\n'
+           'eine tiefere Frage zu einem anderen Thema.\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 471.652,
+   'text': 'Ist da eine Hands-on-Beratung möglich? Die\xa0\n'
+           'Frage war eigentlich, ob du das aus Interesse\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 480.332,
+   'text': 'machst oder ob es die Intention ist, dass man dann\xa0\n'
+           'vielleicht keine zweistündige SEO-Sprechstunde\xa0\xa0'},
+  {'duration': 7.92,
+   'start': 487.132,
+   'text': 'mehr braucht, sondern so einen Check-up bekommt,\xa0\n'
+           'der in einer halben Stunde oder Stunde läuft.\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 495.052,
+   'text': 'Also dass die SEO-Sprechstunde vielleicht ein\xa0\n'
+           'Eingangsprodukt zu einer Beratungsleistung ist,\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 501.612,
+   'text': 'die quartalsweise stattfindet. Muss ich gucken,\xa0\n'
+           'vielleicht wollen die Leute das, wir sind jetzt\xa0\xa0'},
+  {'duration': 7.08,
+   'start': 510.972,
+   'text': 'hier live auf deinem Kanal, da müssen mich die\xa0\n'
+           'Leute mal fragen, vielleicht entwickle ich daraus\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 518.612,
+   'text': 'etwas. Das ist aber immer so eine\xa0\n'
+           'Sache: Du kannst viel analysieren,\xa0\xa0'},
+  {'duration': 7.32,
+   'start': 527.972,
+   'text': 'du bekommst aus den automatischen Scannern\xa0\n'
+           'auch ohne Probleme eine Hundert-Punkte-Liste.\xa0\xa0'},
+  {'duration': 8.0,
+   'start': 535.292,
+   'text': 'Aber welche der hundert Punkte sind wirklich\xa0\n'
+           'für dich relevant, oder wo sagt nur das Tool,\xa0\xa0'},
+  {'duration': 7.8,
+   'start': 543.292,
+   'text': 'dass es einen Fehler sieht, obwohl es vielleicht\xa0\n'
+           'gar kein Fehler in deinem Setup ist, und es bedarf\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 551.092,
+   'text': 'der Interpretation. Wir reden hier viel über\xa0\n'
+           'Dateninterpretation und auch ein bisschen\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 555.772,
+   'text': 'Erfahrung. Ich kann dir bei vielen Sachen aus\xa0\n'
+           'der Erfahrung heraus sagen: Das habe ich schon\xa0\xa0'},
+  {'duration': 5.28,
+   'start': 561.972,
+   'text': 'in zehn Projekten so gesehen, und das bringt was,\xa0\n'
+           'oder das habe ich schon in zehn Projekten gesehen,\xa0\xa0'},
+  {'duration': 4.52,
+   'start': 567.252,
+   'text': 'und die Energie ist verschwendet. Das\xa0\n'
+           'ist so eine Sache, ich weiß nicht,\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 571.772,
+   'text': 'ob man das automatisieren könnte, die\xa0\n'
+           'Interpretation ist ein bisschen die Arbeit dabei.'},
+  {'duration': 12.96,
+   'start': 580.612,
+   'text': 'Alles klar, dann würde ich sagen, sollen wir\xa0\n'
+           'starten? Ja, gern. Wir machen ja eine richtige\xa0\xa0'},
+  {'duration': 5.12,
+   'start': 593.572,
+   'text': 'Sprechstunde, und die läuft dann immer so ab: Ich\xa0\n'
+           'habe die Seite vorher gescannt, ich habe jetzt in\xa0\xa0'},
+  {'duration': 10.0,
+   'start': 598.692,
+   'text': 'deinem Fall nevercodealone.de gescannt. Du\xa0\n'
+           'hattest mir im Vorfeld keine spezifischen\xa0\xa0'},
+  {'duration': 7.92,
+   'start': 608.692,
+   'text': 'Fragen geschickt, deswegen würde ich jetzt\xa0\n'
+           'den Grundcheckup machen. Der geht dann in die\xa0\xa0'},
+  {'duration': 6.4,
+   'start': 616.612,
+   'text': 'Richtung, dass wir uns erst mal kurz vorstellen.\xa0\n'
+           'Jetzt habe ich mich schon vorgestellt, jetzt wäre\xa0\xa0'},
+  {'duration': 5.88,
+   'start': 623.012,
+   'text': 'es schön, wenn du dich auch kurz vorstellst und\xa0\n'
+           'mir dein Setup ein bisschen erklärst. Wo sind\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 628.892,
+   'text': 'denn deine Wünsche, wie kann ich dir am besten\xa0\n'
+           'helfen? Du hast ja vielleicht Ziele mit der\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 635.572,
+   'text': 'Domain oder auch Geschäftsziele, die du erreichen\xa0\n'
+           'willst, da können wir auch gern etwas globaler und\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 642.132,
+   'text': 'strategischer werden. Also, dass du kurz sagst:\xa0\n'
+           'Okay, ich bin so aufgestellt, das bin ich, und ich\xa0\xa0'},
+  {'duration': 10.88,
+   'start': 649.732,
+   'text': 'hätte den Wunsch. Dann würde ich danach mit dem\xa0\n'
+           'normalen technischen Check anfangen. Die Scanner,\xa0\xa0'},
+  {'duration': 5.64,
+   'start': 660.612,
+   'text': 'die ich schon im Vorfeld laufen lasse, gehen\xa0\n'
+           'wir gemeinsam durch, das ist eine Live-Analyse,\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 666.252,
+   'text': 'das heißt, du siehst dann auch meinen\xa0\n'
+           'Bildschirm, du siehst, was das Tool ausspuckt,\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 673.052,
+   'text': 'ob wir es für wichtig erachten oder nicht, wir\xa0\n'
+           'können darüber sprechen, du kannst Fragen stellen:\xa0\xa0'},
+  {'duration': 9.4,
+   'start': 678.772,
+   'text': 'Jörg, wie löse ich das, oder ist das wichtig? Dann\xa0\n'
+           'ein technischer Check, ein bisschen inhaltlicher\xa0\xa0'},
+  {'duration': 5.92,
+   'start': 688.172,
+   'text': 'Check, wo es dann auch darum geht, ob du schon\xa0\n'
+           'deine Zielgruppe mit den Suchwörtern triffst, die\xa0\xa0'},
+  {'duration': 4.0,
+   'start': 694.092,
+   'text': 'für dich Sinn machen. Auf Suchwörtern gefunden\xa0\n'
+           'zu werden ist immer schön, aber die müssen\xa0\xa0'},
+  {'duration': 6.4,
+   'start': 698.092,
+   'text': 'ja irgendwann auch umwandeln, das nenne ich\xa0\n'
+           'Geldwerte-Suchwörter oder goldene Suchwörter. Dass\xa0\xa0'},
+  {'duration': 5.28,
+   'start': 704.492,
+   'text': 'man dann guckt, triffst du die schon, kennst du\xa0\n'
+           'die schon, und wenn ja, können wir sie vielleicht\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 709.772,
+   'text': 'noch etwas stärken auf einer Unterseite oder in\xa0\n'
+           'deinem Konstrukt. Und der dritte Part, wenn wir\xa0\xa0'},
+  {'duration': 5.44,
+   'start': 717.292,
+   'text': 'uns dann eingegroovt haben, so nach einer Stunde,\xa0\n'
+           'anderthalb Stunden vielleicht, dann würde ich\xa0\xa0'},
+  {'duration': 7.88,
+   'start': 722.732,
+   'text': 'zum Schluss immer noch eine kleine strategische\xa0\n'
+           'Beratung liefern, wo wir offen sprechen und sagen:\xa0\xa0'},
+  {'duration': 10.16,
+   'start': 730.612,
+   'text': 'Okay, jetzt kenne ich das Setup, jetzt weiß ich,\xa0\n'
+           'wie du dastehst, dann gucken wir mal etwas größer,\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 740.772,
+   'text': 'was dir noch guttun könnte, und sprechen ein\xa0\n'
+           'bisschen strategisch, wenn du einverstanden bist.\xa0\xa0'},
+  {'duration': 4.12,
+   'start': 748.612,
+   'text': 'Gerne, ich finde das alles sehr spannend, und ich\xa0\n'
+           'finde es auch toll, dass du das mit uns machst.'},
+  {'duration': 7.52,
+   'start': 752.732,
+   'text': 'Ich bin Roland von Never Code Alone. Wir\xa0\n'
+           'machen hier seit ungefähr fünfundzwanzig\xa0\xa0'},
+  {'duration': 9.16,
+   'start': 760.252,
+   'text': 'Jahren das Thema Softwarequalität und\xa0\n'
+           'Continuous Integration. Das sind Pipelines,\xa0\xa0'},
+  {'duration': 8.36,
+   'start': 769.412,
+   'text': 'also dass Web-Development-Aufgaben,\xa0\n'
+           'die wir alle so machen, automatisiert\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 777.772,
+   'text': 'getestet und ausgerollt werden, damit man\xa0\n'
+           'zuverlässige Webseiten nach vorne bringt\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 783.492,
+   'text': 'und nicht jedes Mal merkt, irgendwas ist kaputt\xa0\n'
+           'und muss das noch mal machen. Wir haben einen\xa0\xa0'},
+  {'duration': 9.76,
+   'start': 789.012,
+   'text': 'starken Hintergrund im Bereich E-Commerce und\xa0\n'
+           'haben sehr viel mit PHP gemacht, kommen also\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 798.772,
+   'text': 'aus dem Bereich PHP-Refactoring und Updates.\xa0\n'
+           'Danach hat sich bei mir im Leben das Thema\xa0\xa0'},
+  {'duration': 4.88,
+   'start': 806.532,
+   'text': 'barrierefreies Webdesign sehr stark fokussiert,\xa0\n'
+           'ich bin davon immer noch sehr begeistert,\xa0\xa0'},
+  {'duration': 13.48,
+   'start': 812.372,
+   'text': 'habe da Quick Wins in Webseiten reingebracht\xa0\n'
+           'und das Thema entsprechend fokussiert. Und jetzt\xa0\xa0'},
+  {'duration': 7.28,
+   'start': 825.852,
+   'text': 'als neuestes Thema ist tatsächlich Vibe Coding\xa0\n'
+           'dazugekommen. Das ist einfach eine spektakuläre\xa0\xa0'},
+  {'duration': 6.64,
+   'start': 833.132,
+   'text': 'Sache, bei der natürlich auch Softwarequalität\xa0\n'
+           'und automatisierte Tests gebraucht werden,\xa0\xa0'},
+  {'duration': 7.88,
+   'start': 839.772,
+   'text': 'denn die KI macht manchmal Sachen kaputt, und\xa0\n'
+           'dann wäre es natürlich schön, das rauszufinden,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 847.652,
+   'text': 'bevor es bei irgendwelchen Kunden sichtbar\xa0\n'
+           'wird. Das stresst dann immer, und ich versuche\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 854.172,
+   'text': 'jetzt aktuell, Kurse für Kunden anzubieten, die\xa0\n'
+           'begeisterte Vibe-Coder sind, damit sie besser\xa0\xa0'},
+  {'duration': 9.2,
+   'start': 862.412,
+   'text': 'arbeiten. Ich als Profi-Entwickler arbeite ja auch\xa0\n'
+           'viel damit, das nennt sich dann Agentic Coding:\xa0\xa0'},
+  {'duration': 11.32,
+   'start': 871.612,
+   'text': 'Wenn man der bessere Vibe-Coder ist, ist man\xa0\n'
+           'ein Agentic-Coding-Mensch, und dieses Buzzword\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 883.532,
+   'text': 'macht derzeit auch die Runde. Vibe Coding\xa0\n'
+           'ist im Profibereich ein bisschen befleckt,\xa0\xa0'},
+  {'duration': 5.0,
+   'start': 891.052,
+   'text': 'für mich ist es ein wenig dasselbe, ich muss\xa0\n'
+           'jetzt nicht auf die feinen Unterschiede eingehen,\xa0\xa0'},
+  {'duration': 6.4,
+   'start': 896.052,
+   'text': 'die sich die Community ausgedacht hat,\xa0\n'
+           'aber letztlich ist es für mich, glaube ich,\xa0\xa0'},
+  {'duration': 8.8,
+   'start': 902.452,
+   'text': 'dieses Vibe-Coding-Startsein. Das ist immer\xa0\n'
+           'das Erstaunliche, ich denke mir natürlich aus,\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 911.252,
+   'text': 'was Leute suchen, und optimiere meine Seite\xa0\n'
+           'darauf, weil ich keine Suchmaschinen-Tools habe,\xa0\xa0'},
+  {'duration': 8.36,
+   'start': 920.612,
+   'text': 'die mir zeigen, was das Suchvolumen ist und wo\xa0\n'
+           'das Interesse der Community tatsächlich liegt.\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 937.332,
+   'text': 'Okay, also du kommst eigentlich aus der\xa0\n'
+           'Softwareentwicklung, hast viel mit PHP gearbeitet,\xa0\xa0'},
+  {'duration': 10.64,
+   'start': 946.212,
+   'text': 'hast das für Kunden angeboten und hast dann die\xa0\n'
+           'Brücke über barrierefreie Webseiten geschlagen und\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 956.852,
+   'text': 'bist dann später beim Vibe-Coding-Consulting\xa0\n'
+           'gelandet, so habe ich das jetzt rausgehört.\xa0\xa0'},
+  {'duration': 11.88,
+   'start': 963.972,
+   'text': 'Du machst Vibe-Coding-Consulting. Genau, wo\xa0\n'
+           'du also deine eigene Bubble upgradest. Never\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 975.852,
+   'text': 'Code Alone steht ja als Name deiner Domain da,\xa0\n'
+           'das heißt also, du nimmst die Leute in einen\xa0\xa0'},
+  {'duration': 5.96,
+   'start': 982.092,
+   'text': 'Eins-zu-Eins-Call oder machst du Gruppencalls?\xa0\n'
+           'Das sind jetzt kleine Gruppenschulungen. Im\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 988.052,
+   'text': 'Grunde genommen sind Vibe-Coder jetzt nicht\xa0\n'
+           'so meine Bubble, sondern das sind Leute,\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 994.292,
+   'text': 'die mich bisher nicht kennen, und diese Leute\xa0\n'
+           'stoßen an eine Grenze. Wir haben damit angefangen,\xa0\xa0'},
+  {'duration': 4.48,
+   'start': 1002.332,
+   'text': 'das läuft nicht so richtig, die würden das gerne\xa0\n'
+           'besser machen, die brauchen ein bisschen Hilfe,\xa0\xa0'},
+  {'duration': 5.92,
+   'start': 1006.812,
+   'text': 'die würden gerne mal einen Profi fragen. Das ist\xa0\n'
+           'so, als hätte ich jetzt einen Vibe-SEO-Profi,\xa0\xa0'},
+  {'duration': 5.4,
+   'start': 1013.372,
+   'text': 'der mit SEO-Optimierung angefangen hat und\xa0\n'
+           'jetzt sagt, ich brauche mal so einen Jörg, der\xa0\xa0'},
+  {'duration': 6.0,
+   'start': 1018.772,
+   'text': 'mir zeigt, wie das alles richtig funktioniert,\xa0\n'
+           'welche Tools das sind, wie er damit arbeitet,\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 1024.772,
+   'text': 'und dieses Wissen gebe ich dann entsprechend gerne\xa0\n'
+           'weiter. Ich sehe, dass jetzt ein großer Bedarf da\xa0\xa0'},
+  {'duration': 7.64,
+   'start': 1032.372,
+   'text': 'ist, der auf der anderen Seite aber nicht richtig\xa0\n'
+           'bedient wird, also von der bisherigen Agenturwelt,\xa0\xa0'},
+  {'duration': 3.122,
+   'start': 1040.572,
+   'text': 'aus der ich komme, und die Leute stehen sehr\xa0\n'
+           'allein da, und es sind auch viele Schaderpläne\xa0\xa0'},
+  {'duration': 15.238,
+   'start': 1043.694,
+   'text': 'unterwegs, die das schnelle Geschäft sehen und\xa0\n'
+           'Leuten viel zu komplizierte Kurse aufhalsen. Bei\xa0\xa0'},
+  {'duration': 10.04,
+   'start': 1058.932,
+   'text': 'mir geht es darum, dass du hands-on bist, im\xa0\n'
+           'Austausch eins zu eins zeigst, wie du bisher\xa0\xa0'},
+  {'duration': 9.68,
+   'start': 1068.972,
+   'text': 'arbeitest, ich zeige, wie ich arbeite, und dann\xa0\n'
+           'versuche ich, ein paar Quick Wins in die tägliche\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 1078.652,
+   'text': 'Arbeit reinzubringen, was auch schnell geht, damit\xa0\n'
+           'deine Vibe-Coding-Projekte deutlich besser werden.\xa0\xa0'},
+  {'duration': 4.8,
+   'start': 1089.332,
+   'text': 'Also bietest du auch eine Zweitmeinung an,\xa0\n'
+           'du machst ja ein ähnliches Spiel wie ich,\xa0\xa0'},
+  {'duration': 5.76,
+   'start': 1094.132,
+   'text': 'du könntest ja auch eine Vibe-Coding-Sprechstunde\xa0\n'
+           'anbieten. Auf jeden Fall, habe ich da am\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 1099.892,
+   'text': 'Wochenende intensiv drüber nachgedacht, ich finde\xa0\n'
+           'das auch sehr verständlich. Okay, das heißt also,\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 1111.412,
+   'text': 'die Leute, die du ansprichst, sollen bei dir... Wo\xa0\n'
+           'liegt denn der Revenue für dich? Wir suchen jetzt\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 1120.372,
+   'text': 'nach Leuten, die Vibe-Coding-Kurse suchen oder\xa0\n'
+           'eine Vibe-Coding-Schulung brauchen. Das würde ich\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 1125.892,
+   'text': 'sagen, fokussieren wir uns mal darauf. Oder Leute,\xa0\n'
+           'die jetzt schon jahrelang mit PHP arbeiten, da\xa0\xa0'},
+  {'duration': 15.64,
+   'start': 1132.332,
+   'text': 'kenne ich auch einige Größen, PHP war ja die große\xa0\n'
+           'Infrastruktur, suchst du auch Leute, die aus der\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 1147.972,
+   'text': 'PHP-Welt kommen und bei dir eine Zweitmeinung\xa0\n'
+           'wollen, die also ein zweites Auge auf diese\xa0\xa0'},
+  {'duration': 7.8,
+   'start': 1155.812,
+   'text': 'alte Welt ohne Vibe-Coding haben wollen? Bei PHP\xa0\n'
+           'bin ich tatsächlich in der Community sehr bekannt,\xa0\xa0'},
+  {'duration': 5.84,
+   'start': 1163.612,
+   'text': 'und auf der anderen Seite ranken wir da auch\xa0\n'
+           'schon sehr gut, weil wir gefühlte fünfzehn Jahre\xa0\xa0'},
+  {'duration': 12.44,
+   'start': 1169.452,
+   'text': 'Vorsprung haben. Mir geht es aktuell darum, dieses\xa0\n'
+           'Vibe-Coding-Consulting-und-Training-Paket nach\xa0\xa0'},
+  {'duration': 9.76,
+   'start': 1181.892,
+   'text': 'vorne zu bringen. Ich glaube, Vibe-Coding-Hilfe\xa0\n'
+           'ist auch etwas, das Leute suchen, aber lass uns\xa0\xa0'},
+  {'duration': 4.44,
+   'start': 1192.172,
+   'text': 'heute den Fokus daraufsetzen. Okay,\xa0\n'
+           'dann gucken wir in die Richtung,\xa0\xa0'},
+  {'duration': 6.84,
+   'start': 1196.612,
+   'text': 'müssen wir erst mal sehen. Erst mal schön,\xa0\n'
+           'dass du das anbietest, da gebe ich dir recht,\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 1204.092,
+   'text': 'am Markt wird viel gehypt, und dann kommen Leute,\xa0\n'
+           'die seit einem Jahr mit ihrem Agenten irgendwas\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 1211.252,
+   'text': 'raushauen und plötzlich sagen, jetzt mache ich\xa0\n'
+           'daraus einen Kurs. Wenn denen aber diese zehn\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 1217.452,
+   'text': 'Jahre praktische Erfahrung im Maschinenraum\xa0\n'
+           'fehlen, finde ich es viel charmanter,\xa0\xa0'},
+  {'duration': 13.52,
+   'start': 1224.932,
+   'text': 'wenn jemand aus einem Feld kommt und sagt,\xa0\n'
+           'jetzt beschleunige ich das oder multipliziere\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 1238.452,
+   'text': 'das mit meiner Erfahrung. Du musst ja immer noch\xa0\n'
+           'verstehen, was er dir da ausspuckt. Du wirst das\xa0\xa0'},
+  {'duration': 8.64,
+   'start': 1245.932,
+   'text': 'auch kennen: Wenn du ihm sagst, mach mal das\xa0\n'
+           'Projekt schön, dann sagt er dir nach drei Minuten,\xa0\xa0'},
+  {'duration': 4.16,
+   'start': 1254.572,
+   'text': 'super, wir haben es auf hundertzwanzig Prozent\xa0\n'
+           'gedrückt, und du guckst in den Code und denkst,\xa0\xa0'},
+  {'duration': 10.68,
+   'start': 1258.732,
+   'text': 'oh mein Gott. Das ist beim SEO wahrscheinlich\xa0\n'
+           'auch so. Wilde Zeiten sind das, wirklich wild,\xa0\xa0'},
+  {'duration': 10.72,
+   'start': 1269.412,
+   'text': 'was da draußen passiert, an SaaS-Services aus\xa0\n'
+           'dem Nichts von Nicht-Programmierern entsteht,\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 1280.132,
+   'text': 'die wahrscheinlich auch allerhand SEO-Tools bauen,\xa0\n'
+           'hier laufen andere Tools über den Weg, wie zum\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 1288.252,
+   'text': 'Beispiel Chatbot-Systeme oder sowas. Das ist schon\xa0\n'
+           'wild, aber natürlich, du hast vollkommen recht,\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 1295.052,
+   'text': 'mich ärgert es, wenn Leute aus dem gefühlten\xa0\n'
+           'Nichts kommen und bei den Begrifflichkeiten,\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 1303.332,
+   'text': 'bei denen ich gern oben wäre, bei Google an\xa0\n'
+           'mir vorbeiziehen, und ich diese Seiten sehe\xa0\xa0'},
+  {'duration': 10.24,
+   'start': 1311.732,
+   'text': 'und mir denke, die sind doch nicht cool, warum\xa0\n'
+           'ist der eigentlich vor mir? Okay, dann tun wir\xa0\xa0'},
+  {'duration': 6.64,
+   'start': 1323.372,
+   'text': 'der Welt was Gutes, wenn hier zwei Experten in\xa0\n'
+           'Richtung Vibe-Coding gehen. Ich finde es auch\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 1330.012,
+   'text': 'sehr spannend, ich mag Vibe-Coding sehr, ich\xa0\n'
+           'freue mich auch auf die Kunden, ich hatte auch\xa0\xa0'},
+  {'duration': 9.72,
+   'start': 1337.772,
+   'text': 'schon agentische Kunden. Es kam schon mal jemand\xa0\n'
+           'in die Sprechstunde, der hatte ein volles Projekt,\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 1349.252,
+   'text': 'hatte eine Community, und aus der Community heraus\xa0\n'
+           'einen vollen Dump gebaut mit dreißigtausend URLs,\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 1358.092,
+   'text': 'die sollten dann auch alle gut ranken. Meine\xa0\n'
+           'Aufgabe war da nicht, den Menschen zu beraten,\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 1365.812,
+   'text': 'sondern eigentlich seinen Agenten zu beraten,\xa0\n'
+           'also eine Art Sprechstunde zu machen,\xa0\xa0'},
+  {'duration': 7.68,
+   'start': 1371.052,
+   'text': 'bei der herauskommt, welche Punkte ich seinem\xa0\n'
+           'Agenten ins Kontextfenster geben könnte. Das war\xa0\xa0'},
+  {'duration': 6.64,
+   'start': 1378.732,
+   'text': 'sehr spannend, und das ist mega stark, weil die\xa0\n'
+           'Meldung danach war: Vierundzwanzig Stunden später\xa0\xa0'},
+  {'duration': 4.96,
+   'start': 1385.372,
+   'text': 'habe ich alles gefixt, was du mir geschickt\xa0\n'
+           'hast, und mein Agent hat aber auch zwei, drei\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 1390.332,
+   'text': 'Sachen abgelehnt, weil er mein Setup besser kennt\xa0\n'
+           'als du. Und ich dachte, cool, ja, hat was gefixt.'},
+  {'duration': 6.6,
+   'start': 1398.372,
+   'text': 'Okay, dann würde ich starten, Roland, wenn du\xa0\n'
+           'einverstanden bist. Ich habe jetzt verstanden,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 1404.972,
+   'text': 'dass wir in Richtung Vibe-Coding-Consulting,\xa0\n'
+           'Vibe-Coding-Kurse gehen, dass du da ein bisschen\xa0\xa0'},
+  {'duration': 3.72,
+   'start': 1413.212,
+   'text': 'mehr Zuspruch geben willst. Deine\xa0\n'
+           'Seite rankt ja auch schon ganz gut.\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 1418.772,
+   'text': 'Das will ich doch hoffen. Willst du es mal\xa0\n'
+           'richtig sehen? Die ist AI-only, das kommt in\xa0\xa0'},
+  {'duration': 9.28,
+   'start': 1428.212,
+   'text': 'eurer Bubble auch verhalten an, aber sie generiert\xa0\n'
+           'sich derzeit noch direkt aus Claude heraus, wird\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 1437.492,
+   'text': 'aber jetzt Richtung China verändert, generiert\xa0\n'
+           'und aktualisiert sich aber trotz allem selbst.\xa0\xa0'},
+  {'duration': 5.0,
+   'start': 1445.532,
+   'text': 'Das ist natürlich schon spannend. Ich habe auch\xa0\n'
+           'schon zwei Tipps von dir im Vorfeld umgesetzt,\xa0\xa0'},
+  {'duration': 4.72,
+   'start': 1450.532,
+   'text': 'vielleicht findest du die auch. Und dann\xa0\n'
+           'würde ich jetzt hier deinen Bildschirm teilen,\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 1455.252,
+   'text': 'oder? Ja, gern, mach mal. Dann würde ich nämlich\xa0\n'
+           'anfangen, wie besprochen. Wir gucken erst mal den\xa0\xa0'},
+  {'duration': 8.8,
+   'start': 1463.012,
+   'text': 'Ist-Zustand an, weil noch ist ja unser Stream\xa0\n'
+           'hier geteilt. Gib mir mal den Bildschirm raus,\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 1471.812,
+   'text': 'dass ich anfangen kann, meinen Bildschirm zu\xa0\n'
+           'teilen. Okay, guck mal, kommt das an hier? Ja,\xa0\xa0'},
+  {'duration': 9.52,
+   'start': 1479.292,
+   'text': 'ist auch von der Schriftgröße groß genug, würde\xa0\n'
+           'ich sagen. Okay, dann fange ich mal an. Ich habe\xa0\xa0'},
+  {'duration': 11.16,
+   'start': 1488.812,
+   'text': 'deine Domain hier in mehrere Tools reingeladen,\xa0\n'
+           'wir fangen mal an, wir gucken erst mal, ich nehme\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 1499.972,
+   'text': 'gern Sistrix, das ist ein bezahltes SEO-Tool,\xa0\n'
+           'das kann dir einen schönen Überblick liefern,\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 1506.532,
+   'text': 'auch in die Vergangenheit. Wir können mal gucken,\xa0\n'
+           'hier kommen viele technische Daten, hier geht\xa0\xa0'},
+  {'duration': 7.72,
+   'start': 1513.212,
+   'text': 'irgendwie stark was nach oben, du bekommst\xa0\n'
+           'einen Sichtbarkeitsindex, der jetzt hier schon\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 1520.932,
+   'text': 'um achtundsechzig Prozent gestiegen ist. Hier\xa0\n'
+           'kommen einige Sachen, aber was für die meisten\xa0\xa0'},
+  {'duration': 10.16,
+   'start': 1528.412,
+   'text': 'Leute eigentlich verständlich ist, ist so etwas\xa0\n'
+           'wie dieser Graph hier. Man sieht, es geht sehr\xa0\xa0'},
+  {'duration': 4.64,
+   'start': 1538.572,
+   'text': 'schön nach oben, hier unten sind Jahreszahlen,\xa0\n'
+           'wir haben zweitausendsechsundzwanzig,\xa0\xa0'},
+  {'duration': 8.72,
+   'start': 1544.252,
+   'text': 'das hier ist vierundzwanzig, einundzwanzig,\xa0\n'
+           'neunzehn, achtzehn. Also Glückwunsch, du bist\xa0\xa0'},
+  {'duration': 8.8,
+   'start': 1552.972,
+   'text': 'seit zweitausendsechzehn, Ende zweitausendsechzehn\xa0\n'
+           'oder Anfang zweitausendsiebzehn ist deine Domain\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 1561.772,
+   'text': 'am Start. Ja, seitdem gibt es Never Code Alone.\xa0\n'
+           'Wunderbar, also das ist schon mal ein Pluspunkt,\xa0\xa0'},
+  {'duration': 11.92,
+   'start': 1570.012,
+   'text': 'lange Domain-History ist eine gute Sache. Und\xa0\n'
+           'hier hast du schon ein paar Sachen angestoßen,\xa0\xa0'},
+  {'duration': 11.68,
+   'start': 1581.932,
+   'text': 'weil die Sichtbarkeit sich aus den\xa0\n'
+           'Suchwörtern berechnet, für die du rankst,\xa0\xa0'},
+  {'duration': 7.32,
+   'start': 1593.612,
+   'text': 'dabei zählt auch mit, auf welchen Positionen\xa0\n'
+           'du rankst und wie intensiv und wie geldwert\xa0\xa0'},
+  {'duration': 8.76,
+   'start': 1600.932,
+   'text': 'diese Suchwörter sind. Wenn du für ein Suchwort\xa0\n'
+           'rankst, das tausendmal im Monat gesucht wird,\xa0\xa0'},
+  {'duration': 5.6,
+   'start': 1610.732,
+   'text': 'aber vielleicht nur ein Infosuchwort ist, dann\xa0\n'
+           'zählt das hier nicht so stark in den Graphen rein.\xa0\xa0'},
+  {'duration': 7.88,
+   'start': 1616.332,
+   'text': 'Wenn du für ein Suchwort rankst, das tausendmal\xa0\n'
+           'gesucht wird, aber am Markt Geld wert ist,\xa0\xa0'},
+  {'duration': 11.2,
+   'start': 1624.212,
+   'text': 'weil viele danach suchen oder man wirklich etwas\xa0\n'
+           'kaufen kann, Kaufintention, dann zählt das höher\xa0\xa0'},
+  {'duration': 12.52,
+   'start': 1635.412,
+   'text': 'mit rein. Aber es geht extrem nach oben bei dir,\xa0\n'
+           'das ist schön, das kann man erst mal feststellen,\xa0\xa0'},
+  {'duration': 9.56,
+   'start': 1647.932,
+   'text': 'es läuft. Und ist wahrscheinlich auch noch nicht\xa0\n'
+           'zu Ende, weil ich manchmal, wenn ich Screenshots\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 1657.492,
+   'text': 'von Kollegen aus deiner Bubble sehe, sehe, dass\xa0\n'
+           'da deutlich mehr Traffic und deutlich höhere\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 1664.092,
+   'text': 'Zahlen sind, auch beim täglichen Traffic.\xa0\n'
+           'Ich glaube, Never Code Alone hat aktuell so\xa0\xa0'},
+  {'duration': 9.52,
+   'start': 1672.212,
+   'text': 'sechshundert, siebenhundert User pro Tag, und\xa0\n'
+           'ich glaube, dass eine Zahl von zweitausend,\xa0\xa0'},
+  {'duration': 10.48,
+   'start': 1681.732,
+   'text': 'dreitausend irgendwie mal Ziel sein sollte.\xa0\n'
+           'Lass uns gucken, auf welchen Suchwörtern,\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 1693.812,
+   'text': 'da fange ich jetzt mal mit der wirklichen\xa0\n'
+           'SEO-Beratung an. Suchwörter sind immer schön,\xa0\xa0'},
+  {'duration': 12.28,
+   'start': 1700.612,
+   'text': 'wir sehen hier auch welche. Ich scrolle mal ein\xa0\n'
+           'Stückchen runter. Hier denkt das Tool, du stehst\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 1712.892,
+   'text': 'für diese interessanten Suchwörter, so denkt es,\xa0\n'
+           'du stehst auf diesen Positionen, und nehmen wir\xa0\xa0'},
+  {'duration': 11.36,
+   'start': 1719.492,
+   'text': 'mal das erste, das ist Hugging. Bei Hugging stehst\xa0\n'
+           'du auf Platz drei in der Google-Suche. Hugging hat\xa0\xa0'},
+  {'duration': 10.28,
+   'start': 1730.852,
+   'text': 'selbst ein Suchvolumen von elftausendsiebenhundert\xa0\n'
+           'im Monat, er modelliert daraus, dass du eventuell\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 1741.132,
+   'text': 'tausendeinhundertsechzig Klicks bekommst, weil du\xa0\n'
+           'auf Platz drei stehst, und du rankst mit deiner\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 1749.732,
+   'text': 'Unterseite aus dem Glossar, da ist KI-Tools,\xa0\n'
+           'sechsundzwanzig, Hugging Face, Open Source,\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 1757.572,
+   'text': 'KI-Modell-Hub, Transformers. Das ist deine\xa0\n'
+           'Unterseite. So, nur mal zu dieser Übersicht.\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 1764.612,
+   'text': 'Jetzt ist die Frage natürlich, wie wertvoll ist\xa0\n'
+           'es, für Hugging oben zu stehen? Im optimalen\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 1772.172,
+   'text': 'Fall wäre Hugging Face natürlich cool, Hugging\xa0\n'
+           'klingt ja mehr nach einer Partner-Community, das\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 1781.252,
+   'text': 'ist insofern ein bisschen falsch, aber ich wüsste\xa0\n'
+           'jetzt auch nicht, wie man das korrigieren kann,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 1788.132,
+   'text': 'weil ja auf jeden Fall Hugging Face drinsteht.\xa0\n'
+           'Aber gut, dann bin ich auf dem Ranking schon\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 1794.652,
+   'text': 'mal. Okay, also das ist nur, was er hier\xa0\n'
+           'denkt. Bei deiner Unterseite gibt es jetzt\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 1800.372,
+   'text': 'mehrere Möglichkeiten. Vielleicht machen wir das\xa0\n'
+           'mal exemplarisch an dieser ersten Zeile durch,\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 1807.332,
+   'text': 'weil das für die anderen hier unten dann auch\xa0\n'
+           'mit zählt, nur dass du das erst mal verstehst,\xa0\xa0'},
+  {'duration': 9.12,
+   'start': 1812.852,
+   'text': 'und deine Leute, die dir gerade zuschauen, auch\xa0\n'
+           'verstehen, was das hier überhaupt ist. Du sagst\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 1821.972,
+   'text': 'jetzt, Hugging allein ist nicht so wertvoll,\xa0\n'
+           'sehe ich auch so. Da können wir mal gucken,\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 1832.012,
+   'text': 'gehen wir mal rein, machen wir das erste, dann\xa0\n'
+           'siehst du, das kann auch eine Keyword-Analyse\xa0\xa0'},
+  {'duration': 8.0,
+   'start': 1840.332,
+   'text': 'machen. Da sagt er also, okay, jetzt sehen wir\xa0\n'
+           'den Überblick, was ist denn dieses Hugging als\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 1848.332,
+   'text': 'Keyword? Wir sind jetzt aus deiner Domain-Ansicht\xa0\n'
+           'in die Keyword-Ansicht gegangen, und da sagt er:\xa0\xa0'},
+  {'duration': 9.68,
+   'start': 1855.692,
+   'text': 'zwölftausendsiebenhundert im Monat wird das\xa0\n'
+           'gesucht, der Durchschnitt ist etwas kleiner,\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 1865.372,
+   'text': 'aber beim Keyword scheint der\xa0\n'
+           'Suchtrend eher nach oben zu gehen.\xa0\xa0'},
+  {'duration': 13.64,
+   'start': 1876.372,
+   'text': 'Es ist aber eine reine Informationssuche, also\xa0\n'
+           'Knowledge, da wollen sich die Leute informieren,\xa0\xa0'},
+  {'duration': 8.2,
+   'start': 1890.012,
+   'text': 'ich weiß auch nicht, woher Hugging so eingegeben\xa0\n'
+           'wird, aber dann siehst du in der Übersicht auch,\xa0\xa0'},
+  {'duration': 6.92,
+   'start': 1898.212,
+   'text': 'das finde ich noch spannend, das nehme ich immer\xa0\n'
+           'mit rein, das wäre der Gegenwert, den Leute in\xa0\xa0'},
+  {'duration': 10.32,
+   'start': 1905.132,
+   'text': 'Google Ads dafür ausgeben und dann klicken. Genau,\xa0\n'
+           'das wäre der Cost per Click. Das würde heißen,\xa0\xa0'},
+  {'duration': 9.28,
+   'start': 1915.452,
+   'text': 'um einen Klick bei Hugging einzukaufen,\xa0\n'
+           'gibt der Markt zwei Euro zwanzig aus.\xa0\xa0'},
+  {'duration': 11.6,
+   'start': 1926.012,
+   'text': 'Meistens machen das die Smart-Bidding-Algorithmen\xa0\n'
+           'in den Google-Ads-Konten, aber die tun das nur,\xa0\xa0'},
+  {'duration': 5.36,
+   'start': 1937.612,
+   'text': 'wenn man sinnvolles Conversion-Tracking\xa0\n'
+           'eingerichtet hat. Also, der Markt denkt,\xa0\xa0'},
+  {'duration': 7.2,
+   'start': 1942.972,
+   'text': 'man kann mit Hugging Geld machen, und gibt zwei\xa0\n'
+           'Euro zwanzig in Google Ads aus. Aber wie gesagt,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 1950.172,
+   'text': 'das ist Google Ads, und spannend wird es hier\xa0\n'
+           'unten, da kommen noch ein paar interessante\xa0\xa0'},
+  {'duration': 12.88,
+   'start': 1956.692,
+   'text': 'Sachen: Was ist Hugging Face? Hugging Face ist das\xa0\n'
+           'GitHub für KI-Modelle. Wenn Open-Source-Modelle\xa0\xa0'},
+  {'duration': 9.24,
+   'start': 1969.572,
+   'text': 'veröffentlicht werden, das nennt sich Open Weight,\xa0\n'
+           'ChatGPT und was wir hier so, Table-Five und\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 1978.812,
+   'text': 'solche Dinge, das sind Modelle von den bekannten\xa0\n'
+           'amerikanischen Anbietern, das sind Closed-Modelle.\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 1986.652,
+   'text': 'Die kannst du niemals in eine eigene Infrastruktur\xa0\n'
+           'nehmen, und es ist auch nicht bekannt, mit welchen\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 1993.332,
+   'text': 'Daten die trainiert worden sind, sondern wir haben\xa0\n'
+           'ein Abo, das wir bezahlen, und damit haben wir\xa0\xa0'},
+  {'duration': 11.96,
+   'start': 2000.772,
+   'text': 'Zugriff auf diese Modelle und deren Leistung. Bei\xa0\n'
+           'Hugging Face werden alle öffentlichen KI-Modelle\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 2014.092,
+   'text': 'veröffentlicht, zum Beispiel Kimi K2, das\xa0\n'
+           'aktuell das stärkste von den Parametern her und\xa0\xa0'},
+  {'duration': 10.12,
+   'start': 2021.212,
+   'text': 'mit Trainingsdaten aus China ist, das ist absolut\xa0\n'
+           'gleichwertig mit den Top-Modellen aus den USA. Die\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 2031.332,
+   'text': 'laufen vielleicht ein bisschen unterm Radar, aber\xa0\n'
+           'im Grunde genommen könnte man die lokal betreiben,\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 2037.532,
+   'text': 'wenn man wirklich dicke Rechenleistung hat, auf\xa0\n'
+           'dem Laptop kann man die nicht einfach so laufen\xa0\xa0'},
+  {'duration': 7.96,
+   'start': 2044.972,
+   'text': 'lassen, dann geht der kaputt. Aber das könnte\xa0\n'
+           'man theoretisch machen. Relevant daran ist,\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 2053.932,
+   'text': 'dass man sieht, mit welchen Daten die trainiert\xa0\n'
+           'worden sind, und man kleinere Modelle davon auch\xa0\xa0'},
+  {'duration': 7.08,
+   'start': 2063.652,
+   'text': 'kostenlos in der eigenen Infrastruktur nutzen\xa0\n'
+           'kann. Das wäre bei Anthropic oder OpenAI nicht\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 2070.732,
+   'text': 'möglich, wobei mittlerweile auch alle einzelne\xa0\n'
+           'Modelle veröffentlicht haben. Da gibt es nicht\xa0\xa0'},
+  {'duration': 6.32,
+   'start': 2077.172,
+   'text': 'nur Coding-Modelle, sondern auch Videomodelle,\xa0\n'
+           'Text-to-Speech-Modelle, und alles, was es in\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 2083.492,
+   'text': 'der Welt der künstlichen Intelligenz gibt, gibt\xa0\n'
+           'es in diesem Paralleluniversum praktisch auch.'},
+  {'duration': 10.88,
+   'start': 2089.732,
+   'text': 'Okay, harte Frage: Machst du damit Geld?\xa0\n'
+           'Ich glaube, dass ich aktuell über Social\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 2100.612,
+   'text': 'Media mein Geld mache und das auch schon\xa0\n'
+           'immer über YouTube gemacht habe. Ich habe\xa0\xa0'},
+  {'duration': 6.12,
+   'start': 2108.132,
+   'text': 'auf meiner Seite ein Kontaktformular, das möchte\xa0\n'
+           'ich noch mal neu machen, weil es sich noch nicht\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 2114.252,
+   'text': 'richtig konvertiert. Im Grunde genommen hole ich\xa0\n'
+           'darüber aber Traffic rein, und ich glaube, wenn\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 2122.492,
+   'text': 'sich jemand für chinesische Modelle interessiert,\xa0\n'
+           'dann möchte er auch digitale Souveränität haben,\xa0\xa0'},
+  {'duration': 5.64,
+   'start': 2133.572,
+   'text': 'legt Wert auf Datenschutz und möchte Dinge in\xa0\n'
+           'die eigene Infrastruktur bringen. Und wenn der\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 2139.212,
+   'text': 'bei mir danach sucht, seine Antwort findet, und\xa0\n'
+           'ich ihm sage, wenn du das betreiben möchtest oder\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 2147.492,
+   'text': 'wissen möchtest, welches Modell du für deinen Use\xa0\n'
+           'Case brauchst, dann kommen daraus auch Kunden,\xa0\xa0'},
+  {'duration': 12.04,
+   'start': 2156.612,
+   'text': 'aber dafür braucht man mehr als sechshundert\xa0\n'
+           'User am Tag. Es ist erst mal toll, dass du bei\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 2168.652,
+   'text': 'einem großen Suchwort aus deiner Bubble stehst,\xa0\n'
+           'das verstehe ich auch, das passt, du bringst\xa0\xa0'},
+  {'duration': 8.68,
+   'start': 2177.052,
+   'text': 'dich hier auf den Schirm, das ist gut. Und du\xa0\n'
+           'scheinst dann auf diesem einen Suchwort plus\xa0\xa0'},
+  {'duration': 8.72,
+   'start': 2185.732,
+   'text': 'die anderen, die auch kommen, genügend Traffic\xa0\n'
+           'reinzubekommen, und das wäre dann die Frage,\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 2194.452,
+   'text': 'ob du diesen Info-Traffic irgendwie noch verwerten\xa0\n'
+           'könntest, vielleicht schreiben die sich in den\xa0\xa0'},
+  {'duration': 9.24,
+   'start': 2203.532,
+   'text': 'Newsletter ein. Das ist ein frischer Artikel, sagt\xa0\n'
+           'er hier, ah, er aktualisiert, okay, verstehe. Gut,\xa0\xa0'},
+  {'duration': 6.72,
+   'start': 2213.492,
+   'text': 'hier kommt dann dein AI-Only-Content, und\xa0\n'
+           'der rankt, das kann man auch feststellen,\xa0\xa0'},
+  {'duration': 8.84,
+   'start': 2221.612,
+   'text': 'auch durch dich, er hat mittlerweile eine\xa0\n'
+           'Tabelle und noch ein Bildchen und ein Zitat, und\xa0\xa0'},
+  {'duration': 10.4,
+   'start': 2232.172,
+   'text': 'das ist einfach Content, der vor allem unten noch\xa0\n'
+           'sehr gute FAQs hat, und der rankt. Ja, wir hatten\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 2242.572,
+   'text': 'ja im April schon mal gesprochen, wo ich gesagt\xa0\n'
+           'hatte, tolle Sache, aber wenn es textlastig wird,\xa0\xa0'},
+  {'duration': 5.16,
+   'start': 2252.012,
+   'text': 'könnte man da vielleicht noch was rausholen. Aber\xa0\n'
+           'es funktioniert erst mal, alles, was funktioniert,\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 2257.172,
+   'text': 'würde ich gar nicht infrage stellen, nehmen wir\xa0\n'
+           'einfach mit, passt schon. Ich wollte nur noch mal\xa0\xa0'},
+  {'duration': 5.64,
+   'start': 2262.692,
+   'text': 'verstehen, wie die Leute hier abgeholt werden, die\xa0\n'
+           'bekommen im Grunde genommen im zweiten Abschnitt,\xa0\xa0'},
+  {'duration': 7.4,
+   'start': 2268.332,
+   'text': 'im ersten Abschnitt steht ja ihre Antwort. Wenn\xa0\n'
+           'du ein bisschen weiter nach oben gehst, generell\xa0\xa0'},
+  {'duration': 11.24,
+   'start': 2275.732,
+   'text': 'steht überall, dass Never Code Alone dabei\xa0\n'
+           'hilft, wenn du noch mal weiter nach oben gehst,\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 2288.212,
+   'text': 'da steht, was ist Hugging Face, und darunter\xa0\n'
+           'der Abschnitt, wie wird Hugging Face bei Never\xa0\xa0'},
+  {'duration': 15.88,
+   'start': 2295.012,
+   'text': 'Code Alone verwendet. Okay, könnte ich jetzt auch\xa0\n'
+           'die Unterseite noch durchröstet? Ich wollte erst\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 2312.132,
+   'text': 'mal bei der Übersicht weitermachen, wie ist denn\xa0\n'
+           'die Übersicht: Das Tool sagt, du stehst auf drei,\xa0\xa0'},
+  {'duration': 5.44,
+   'start': 2322.532,
+   'text': 'könnte man jetzt auch im Inkognito-Browser gucken,\xa0\n'
+           'Hugging eingeben, und schauen, ob das stimmt,\xa0\xa0'},
+  {'duration': 4.24,
+   'start': 2327.972,
+   'text': 'vertrauen wir dem jetzt erst mal, wir müssen\xa0\n'
+           'Zeit sparen, wir wollen noch was machen. Also,\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 2332.212,
+   'text': 'Suchwort Hugging, du stehst auf drei, wunderbar,\xa0\n'
+           'bekommst tausend Klicks rein, das ist, was wir in\xa0\xa0'},
+  {'duration': 4.24,
+   'start': 2341.652,
+   'text': 'der Übersicht gesehen haben: Hugging, du stehst\xa0\n'
+           'auf drei, tausend Klicks kommen rein, Suchvolumen\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 2345.892,
+   'text': 'ist so und so, und es ist deine Unterseite. Jetzt\xa0\n'
+           'haben wir Hugging angeschaut und finden es gut,\xa0\xa0'},
+  {'duration': 5.92,
+   'start': 2354.132,
+   'text': 'kannst du auch gucken, was würde denn nur\xa0\n'
+           'deine Unterseite alles anziehen? Das wäre\xa0\xa0'},
+  {'duration': 5.96,
+   'start': 2361.012,
+   'text': 'die Unterseitenanalyse, da sagt er nämlich, diese\xa0\n'
+           'einzelne Unterseite, hoffen wir mal, dass hier\xa0\xa0'},
+  {'duration': 5.8,
+   'start': 2366.972,
+   'text': 'auch irgendwann Hugging Face dabei ist. Okay,\xa0\n'
+           'genau, also diese einzelne Unterseite, sagt das\xa0\xa0'},
+  {'duration': 6.48,
+   'start': 2372.772,
+   'text': 'Tool zumindest, okay, Hugging ist das größte Wort,\xa0\n'
+           'wird auch noch mal gesucht, Hugging Face Bedeutung\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 2379.252,
+   'text': 'wird nur zwanzigmal im Monat gesucht, und Hugging\xa0\n'
+           'Face Model Hub und so weiter, ist diese Woche\xa0\xa0'},
+  {'duration': 12.0,
+   'start': 2388.292,
+   'text': 'neu auf Platz fünfzehn eingestiegen. Das zu der\xa0\n'
+           'Unterseite, zumindest aus dem Tool hier. In der\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 2400.292,
+   'text': 'Search Console sieht man zu der Unterseite\xa0\n'
+           'wahrscheinlich noch etwas tiefere Daten,\xa0\xa0'},
+  {'duration': 10.8,
+   'start': 2405.772,
+   'text': 'weil wir hier über das Tool von außen draufgucken.\xa0\n'
+           'Was man auch sehen kann, das finde ich spannend,\xa0\xa0'},
+  {'duration': 11.16,
+   'start': 2416.572,
+   'text': 'wenn man in die Analyse geht, kann man auch eine\xa0\n'
+           'History sehen. Die History ist dann, wie rankst\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 2427.732,
+   'text': 'du zu dem Suchwort, wie rankt deine Domain zu dem\xa0\n'
+           'Suchwort, und das ist wirklich erst Ende Juni auf\xa0\xa0'},
+  {'duration': 5.12,
+   'start': 2436.012,
+   'text': 'Platz drei eingestiegen. Gerade reingekommen.\xa0\n'
+           'Und auf drei eingestiegen zu sein, ist erst mal\xa0\xa0'},
+  {'duration': 4.64,
+   'start': 2441.132,
+   'text': 'Glückwunsch, und du stehst auch stabil auf\xa0\n'
+           'drei die ganzen Wochen. Das ist jetzt eine\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 2445.772,
+   'text': 'Wochenanalyse. Meistens hat man einen kleinen\xa0\n'
+           'Auf- und Abtrend, und die meisten steigen mit\xa0\xa0'},
+  {'duration': 7.2,
+   'start': 2452.932,
+   'text': 'ihren Suchwörtern eigentlich auf Positionen von\xa0\n'
+           'fünfzig bis achtzig ein und kämpfen sich dann\xa0\xa0'},
+  {'duration': 4.64,
+   'start': 2460.132,
+   'text': 'Woche für Woche hoch, um irgendwann auf die drei\xa0\n'
+           'zu kommen. Du bist gleich auf drei eingestiegen,\xa0\xa0'},
+  {'duration': 10.36,
+   'start': 2464.772,
+   'text': 'Glückwunsch. Ja, sehr schön. Und das ist dann die\xa0\n'
+           'Unterseite dazu, das kannst du weniger steuern,\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 2475.732,
+   'text': 'klar wäre Hugging Face wahrscheinlich besser, wenn\xa0\n'
+           'wir das überhaupt als goldwertes Suchwort haben\xa0\xa0'},
+  {'duration': 13.44,
+   'start': 2481.772,
+   'text': 'wollen. Wir gucken lieber zu den Suchwörtern, die\xa0\n'
+           'wir gleich noch für dich analysieren. Aber das zu\xa0\xa0'},
+  {'duration': 11.48,
+   'start': 2495.212,
+   'text': 'dieser Liste hier, das geht gut. Logseq ist auch\xa0\n'
+           'neu eingestiegen, scheint auch ein großes Suchwort\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 2506.692,
+   'text': 'zu sein. ComfyUI, das kenne ich, das ist auch\xa0\n'
+           'ein Modell für KI-Bilder, genau, für Bilder und\xa0\xa0'},
+  {'duration': 11.08,
+   'start': 2514.972,
+   'text': 'Videos. Ein Kollege von mir, Georg Neumann, Grüße\xa0\n'
+           'an Georg, der ist KI-Bildgenerierungsspezialist,\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 2526.852,
+   'text': 'der hat mich mit dem Suchwort sogar schon mal\xa0\n'
+           'konfrontiert. Da bist du auch neu eingestiegen,\xa0\xa0'},
+  {'duration': 6.72,
+   'start': 2532.892,
+   'text': 'alles gut, also das funktioniert, dein Info-Game\xa0\n'
+           'funktioniert glaube ich hervorragend. Da braucht\xa0\xa0'},
+  {'duration': 5.04,
+   'start': 2539.612,
+   'text': 'man glaube ich gar nicht groß einzugehen, wer\xa0\n'
+           'hier auf drei einsteigt und dann stabil dasteht\xa0\xa0'},
+  {'duration': 6.64,
+   'start': 2544.652,
+   'text': 'mit AI-Only-Content, alles cool. Wir müssen die\xa0\n'
+           'Suchwörter finden, die du brauchst, und das bei\xa0\xa0'},
+  {'duration': 10.08,
+   'start': 2551.292,
+   'text': 'denen machen. Das ist es. Weil hier iPhone erkennt\xa0\n'
+           'SIM nicht, das war ein... Das ist auch im Blog,\xa0\xa0'},
+  {'duration': 8.72,
+   'start': 2561.372,
+   'text': 'glaube ich, auf blog.nevercodealone.de. Das war\xa0\n'
+           'eine Zeit lang, dass ich geguckt habe, was in den\xa0\xa0'},
+  {'duration': 10.56,
+   'start': 2570.092,
+   'text': 'Google Trends technisch gesucht wird, und dann im\xa0\n'
+           'Grunde genommen einen AI-generierten Content zu\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 2580.652,
+   'text': 'dem Thema veröffentlicht habe, und damit direkt\xa0\n'
+           'aus den Google Trends nach vorne gegangen bin,\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 2589.172,
+   'text': 'was insgesamt in Kombination mit einem Short und\xa0\n'
+           'einem Backlink von YouTube echt gut geklappt hat.\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 2597.892,
+   'text': 'Es ging mir eine Zeit lang einfach darum, Traffic\xa0\n'
+           'zu haben, weil ich mir dachte, wenn du gar keinen\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 2608.092,
+   'text': 'Traffic hast, brauchst du auf jeden Fall Traffic,\xa0\n'
+           'um die Marke nach vorne zu bringen und einfach\xa0\xa0'},
+  {'duration': 7.28,
+   'start': 2615.572,
+   'text': 'gesehen zu werden, wie Bushaltestellen, dass\xa0\n'
+           'man einfach im Netz gesehen wird. Aber dann\xa0\xa0'},
+  {'duration': 8.64,
+   'start': 2622.852,
+   'text': 'hast du einen Haufen Mitreisende, die aber alle\xa0\n'
+           'nicht für dich bezahlen. Bei den Suchwörtern,\xa0\xa0'},
+  {'duration': 9.96,
+   'start': 2631.492,
+   'text': 'die aus der Bubble kommen oder in Richtung\xa0\n'
+           'Vibe-Coding oder PHP-Refactoring einzahlen,\xa0\xa0'},
+  {'duration': 5.16,
+   'start': 2641.452,
+   'text': 'würde ich das total cool finden, jetzt hast du\xa0\n'
+           'das schon produziert, aber du machst ja nichts\xa0\xa0'},
+  {'duration': 6.48,
+   'start': 2646.612,
+   'text': 'mit iPhones. Aber ich glaube, wer ein iPhone hat,\xa0\n'
+           'ist gar nicht so weit vom Vibe-Coding weg. Ja,\xa0\xa0'},
+  {'duration': 11.12,
+   'start': 2653.612,
+   'text': 'ein iPhone ist ja auch nicht weit vom auf dem\xa0\n'
+           'Mars fliegen weg. Kurzer Hinweis, das könnte\xa0\xa0'},
+  {'duration': 12.52,
+   'start': 2666.772,
+   'text': 'diese ganze Geschichte verwässern, weil du musst\xa0\n'
+           'deine Domain in irgendeinen Cluster reinschieben,\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 2680.532,
+   'text': 'zu irgendeinem Topic musst du stehen. Und wenn\xa0\n'
+           'du immer nur Info-Content spielst, der gar nichts\xa0\xa0'},
+  {'duration': 6.36,
+   'start': 2688.012,
+   'text': 'damit zu tun hat, dann watscht dich das irgendwann\xa0\n'
+           'als reine Infoseite ab. Und schlimm wäre es,\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 2694.372,
+   'text': 'wenn das jetzt alles in Richtung iPhone wandert,\xa0\n'
+           'oder Samsung-Sicherheitslücke oder solcher Kram.\xa0\xa0'},
+  {'duration': 6.08,
+   'start': 2706.812,
+   'text': 'Das Cluster, in dem du dich bewegst, muss\xa0\n'
+           'konsistent sein zu dem, was du dahinter anbietest,\xa0\xa0'},
+  {'duration': 10.64,
+   'start': 2712.892,
+   'text': 'dann wird es auch authentisch. Also, würde man\xa0\n'
+           'sagen, knall die mal weg? Das würde ich jetzt\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 2723.532,
+   'text': 'nicht gleich sagen, wenn wir jetzt drei Minuten\xa0\n'
+           'draufgeguckt haben, würde ich das nicht machen,\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 2729.572,
+   'text': 'du hast Traffic drauf, ich wollte dir nur für die\xa0\n'
+           'Zukunft den Tipp geben: Versuch nicht, ein neues\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 2736.132,
+   'text': 'Wikipedia zu werden, weil das dir eventuell sogar\xa0\n'
+           'hinten raus schaden könnte. Traffic an sich ist\xa0\xa0'},
+  {'duration': 7.92,
+   'start': 2744.452,
+   'text': 'schön, jeder Traffic kann dich zum nächsten\xa0\n'
+           'Share bringen, dir einen Backlink bringen,\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 2752.372,
+   'text': 'dich irgendwie wahrnehmen lassen. Aber ich hatte\xa0\n'
+           'mal einen Online-Shop, der hatte auch so gedacht,\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 2760.372,
+   'text': 'Standard-SEO-Tipp, wenn du ein Online-Shop bist\xa0\n'
+           'und eigentlich ein Produkt verkaufen willst,\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 2769.812,
+   'text': 'und dann kommt dein SEO auf die Idee, wir machen\xa0\n'
+           'mal ein FAQ oder ein Glossar mit tausend Artikeln\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 2776.572,
+   'text': 'über irgendwas, dann kann es sein, dass sich dein\xa0\n'
+           'transaktionaler Fokus, ich verkaufe Produkte,\xa0\xa0'},
+  {'duration': 4.76,
+   'start': 2784.012,
+   'text': 'ich bin ein Online-Shop, ich habe Bewertungen\xa0\n'
+           'und Zahlungsmethoden und Rückgabe, verwässert,\xa0\xa0'},
+  {'duration': 15.04,
+   'start': 2789.932,
+   'text': 'und dann bespielst du deine Produktdetailseiten\xa0\n'
+           'und schleuderst plötzlich tausend Unterseiten\xa0\xa0'},
+  {'duration': 8.84,
+   'start': 2804.972,
+   'text': 'Glossar raus über Gott und die Welt, über Disney\xa0\n'
+           'und Müsli und iPhone, und hast es nicht gesehen.\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 2813.812,
+   'text': 'Das ist keine Strategie, das kann auch nach\xa0\n'
+           'hinten losgehen. Das mag im ersten Jahr vielleicht\xa0\xa0'},
+  {'duration': 8.76,
+   'start': 2822.412,
+   'text': 'funktionieren, aber plötzlich, wenn Google die\xa0\n'
+           'Domain als Info-Schleuder abtut, ranken deine\xa0\xa0'},
+  {'duration': 4.8,
+   'start': 2831.172,
+   'text': 'Produkte plötzlich nicht mehr, weil du dich nicht\xa0\n'
+           'darauf konzentriert hast, deine Kunden glücklich\xa0\xa0'},
+  {'duration': 10.44,
+   'start': 2835.972,
+   'text': 'zu machen, die bei dir einen Checkout ausführen.\xa0\n'
+           'Das muss man mit Bedacht sehen. Deshalb nur für\xa0\xa0'},
+  {'duration': 8.92,
+   'start': 2846.412,
+   'text': 'die Zukunft: Wenn du dieses Spiel spielst, dann\xa0\n'
+           'such dir über Google Trends oder über SEO-Tools\xa0\xa0'},
+  {'duration': 15.72,
+   'start': 2855.892,
+   'text': 'Suchwörter raus, die wirklich eng an deiner\xa0\n'
+           'Bubble dran sind. Hier kommt noch was, Neowimper,\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 2876.852,
+   'text': 'du schaffst es tatsächlich, dass du dir ein Wort\xa0\n'
+           'ausdenken kannst und es wahrscheinlich in die\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 2882.372,
+   'text': 'Top zehn oder sogar in die Top eins schaffst. Da\xa0\n'
+           'muss man sagen, dass diese, zum Beispiel PHPUnit\xa0\xa0'},
+  {'duration': 7.28,
+   'start': 2888.572,
+   'text': 'und generell diese PHP-Tools, dazu gibt es nicht\xa0\n'
+           'wirklich SEO-Content, das ist nicht so wie die\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 2895.852,
+   'text': 'SEO-Bubble, sondern die Developer-Bubble,\xa0\n'
+           'die hat halt Dokumentationen und gar nicht\xa0\xa0'},
+  {'duration': 8.84,
+   'start': 2903.412,
+   'text': 'so viele Webseiten, und hat auch eher einen\xa0\n'
+           'technisch nüchternen Fokus, und da sind das schon\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 2912.252,
+   'text': 'Low-Hanging-Fruits. Wir haben auf jeden Fall ein\xa0\n'
+           'PHP-Glossar auf der Seite, bei dem wir die ganzen\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 2920.652,
+   'text': 'PHP-Analyse-Tools vorstellen, und wer nach diesen\xa0\n'
+           'PHP-Analyse-Tools sucht, hat schon Interesse,\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 2928.972,
+   'text': 'seine PHP-Applikation nach vorne zu bringen und\xa0\n'
+           'zu monitoren, und insofern ist es gut, wenn er\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 2936.812,
+   'text': 'danach sucht, dann bei uns landet, und wir ihm\xa0\n'
+           'sagen, wir helfen dir auch bei deinem PHP-Update.\xa0\xa0'},
+  {'duration': 3.84,
+   'start': 2945.892,
+   'text': 'Da gehe ich voll mit, bei iPhone gehe ich nicht\xa0\n'
+           'mit, bei Samsung gehe ich nicht mit, aber alles,\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 2949.732,
+   'text': 'was Entwicklung ist, gern. Da gibt es auch viel\xa0\n'
+           'nur englische Dokumentation, genau, die kann man\xa0\xa0'},
+  {'duration': 8.68,
+   'start': 2956.492,
+   'text': 'auch gut auf Deutsch ranken lassen, und genauso\xa0\n'
+           'ist es im Grunde mit den ganzen KI-Modellen,\xa0\xa0'},
+  {'duration': 8.68,
+   'start': 2965.172,
+   'text': 'die sind jetzt auch nicht im Fokus, vielleicht\xa0\n'
+           'nimmt der Rest sie nach der Sendung mehr in\xa0\xa0'},
+  {'duration': 8.36,
+   'start': 2973.852,
+   'text': 'den Fokus, aber trotz alledem sind die bisher\xa0\n'
+           'noch nicht im Fokus, sind auch sehr technisch.\xa0\xa0'},
+  {'duration': 10.72,
+   'start': 2983.772,
+   'text': 'Wir haben unseren quasi Standard, OpenAI und\xa0\n'
+           'Anthropic mit Claude und GLM und links und rechts,\xa0\xa0'},
+  {'duration': 11.12,
+   'start': 2994.492,
+   'text': 'das wächst sehr stark gerade, und da habe ich\xa0\n'
+           'gefühlt meinen initialen Vorsprung. Finde ich gut,\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 3005.612,
+   'text': 'du tust was Gutes für die deutsche Coding-Szene,\xa0\n'
+           'die Informationen auch schon auf Deutsch zur\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 3013.372,
+   'text': 'Verfügung zu stellen, und es funktioniert ja,\xa0\n'
+           'dein Trust ist so groß, dass Google denkt,\xa0\xa0'},
+  {'duration': 8.2,
+   'start': 3021.932,
+   'text': 'wenn der was aussagt, dann ranken wir das. Du\xa0\n'
+           'hast aber gesagt, du willst Vibe-Coding-Kurse\xa0\xa0'},
+  {'duration': 6.32,
+   'start': 3030.132,
+   'text': 'oder Training oder Hilfe, genau, vom Vibe-Coding\xa0\n'
+           'stand da ja gar nichts drin. Bei uns gibt es\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 3036.452,
+   'text': 'einfach diesen Bereich Vibe-Coding, der ist super\xa0\n'
+           'groß, den wir auf der Seite aufgebaut haben,\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 3042.492,
+   'text': 'sowohl als Glossar als auch führende KI-Tools und\xa0\n'
+           'wie man besseres Vibe-Coding macht, und alles,\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 3051.852,
+   'text': 'was da im Kontext ist, haben wir in letzter\xa0\n'
+           'Zeit sehr intensiv nach vorne gebracht.'},
+  {'duration': 5.6,
+   'start': 3060.812,
+   'text': 'Wir gucken, das war jetzt das exemplarische\xa0\n'
+           'Beispiel nur für ein Keyword. Er sagt hier,\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 3068.212,
+   'text': 'du rankst für viertausenddreihundertvierundvierzig\xa0\n'
+           'Keywords, viertausend Keywords, davon die meisten\xa0\xa0'},
+  {'duration': 6.0,
+   'start': 3076.812,
+   'text': 'aus Deutschland, man sieht auch, dein deutscher\xa0\n'
+           'Content kommt hier an, man kann das auch für\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 3082.812,
+   'text': 'alle Länder sehen, man kann auch Suchvolumen aus\xa0\n'
+           'anderen Ländern sehen, man sieht, dass dein Blog\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 3089.252,
+   'text': 'immer noch viel dabei ist. Was wir jetzt mal\xa0\n'
+           'machen, wir müssen das etwas schneller machen,\xa0\xa0'},
+  {'duration': 10.08,
+   'start': 3096.612,
+   'text': 'entschuldige, ich gucke mal, was von den\xa0\n'
+           'viertausend Wörtern eigentlich cool ist.\xa0\xa0'},
+  {'duration': 9.12,
+   'start': 3107.292,
+   'text': 'Dann kann man sich diese ganze Keyword-Liste auch\xa0\n'
+           'anzeigen lassen, das war jetzt nur der Überblick,\xa0\xa0'},
+  {'duration': 7.64,
+   'start': 3116.412,
+   'text': 'jetzt tauchen wir etwas tiefer ein, in\xa0\n'
+           'Deutschland sind das hier wieder deine Rankings,\xa0\xa0'},
+  {'duration': 7.96,
+   'start': 3124.052,
+   'text': 'die Liste haben wir erklärt. Eigentlich ist cool,\xa0\n'
+           'Suchvolumen kann man hier auch mal gucken, wo ist\xa0\xa0'},
+  {'duration': 10.12,
+   'start': 3132.012,
+   'text': 'denn hier das höchste Suchvolumen? Da sagt er zum\xa0\n'
+           'Beispiel Groovy, Groovy Shell Scripting Teil eins,\xa0\xa0'},
+  {'duration': 9.48,
+   'start': 3142.132,
+   'text': 'wunderbar, Groovy geht richtig ab, das Suchwort\xa0\n'
+           'Groovy hat vierundzwanzigtausend Suchvolumen\xa0\xa0'},
+  {'duration': 8.0,
+   'start': 3151.612,
+   'text': 'pro Monat, du stehst noch auf Platz dreißig,\xa0\n'
+           'bist aber diese Woche frisch eingestiegen. So,\xa0\xa0'},
+  {'duration': 7.4,
+   'start': 3161.172,
+   'text': 'haben wir schon gehabt, vierzehntausend und so\xa0\n'
+           'weiter, das wäre die Auflistung nach Suchvolumen\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 3168.572,
+   'text': 'aus deinem aktuellen Stand, kommen hier noch\xa0\n'
+           'einige dazu, dann sieht man, ach ja, hier\xa0\xa0'},
+  {'duration': 6.48,
+   'start': 3175.692,
+   'text': 'einfache Sprache, das hast du mit barrierefrei\xa0\n'
+           'gesagt, viertausend Wörter sind hier natürlich,\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 3182.172,
+   'text': 'Cloud Act auch interessant. Das sind erst mal\xa0\n'
+           'die Suchvolumen, jetzt gucken wir aber das andere\xa0\xa0'},
+  {'duration': 10.96,
+   'start': 3190.332,
+   'text': 'Ding, was ist denn hier was wert, der CPC, gucken\xa0\n'
+           'wir mal, da kommen nämlich, wo ich schon denke,\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 3201.292,
+   'text': 'guck mal, das sind geldwerte Suchwörter, auch wenn\xa0\n'
+           'die nur ein Zehner-Suchvolumen im Monat haben.\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 3210.252,
+   'text': 'PHP-Schulung stehst du im Moment auf Platz neun,\xa0\n'
+           'du bist besser geworden, und deine Unterseite ist\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 3216.772,
+   'text': 'das PHP-Training. Genau, dann können wir noch\xa0\n'
+           'mal gucken, seit wann gibt es die, und wie hat\xa0\xa0'},
+  {'duration': 9.92,
+   'start': 3223.732,
+   'text': 'sie sich entwickelt, hier ist so ein Chart, man\xa0\n'
+           'steigt tief unten ein, wandert dann hoch, tut dann\xa0\xa0'},
+  {'duration': 10.92,
+   'start': 3233.652,
+   'text': 'lange Zeit nichts, hier gab es ein Core-Update\xa0\n'
+           'von Google, aber jetzt hast du es, Glückwunsch,\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 3244.572,
+   'text': 'in die Top zehn geschafft, und wenn ich das\xa0\n'
+           'positiv interpretiere, will Google deine Domain zu\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 3251.532,
+   'text': 'dem Suchwort nach oben schieben. Das ist\xa0\n'
+           'auch Geld wert, das wollte ich sagen,\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 3259.492,
+   'text': 'das sind die geldwerten Suchwörter, die du\xa0\n'
+           'jetzt schon anziehst. Da könnte man überlegen,\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 3264.812,
+   'text': 'PHP-Training heißt die Seite, jetzt gehe ich mal\xa0\n'
+           'rein. Die fängt an mit PHP-Schulungen für Symfony,\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 3273.212,
+   'text': 'Testing, Sicherheit, Workshops und so weiter.\xa0\n'
+           'Hier sehe ich oft, hier ist irgendwie immer\xa0\xa0'},
+  {'duration': 15.28,
+   'start': 3279.452,
+   'text': 'was mit einem Bindestrich unterwegs, da würde\xa0\n'
+           'ich vielleicht noch mal humanisieren. Was ist\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 3294.732,
+   'text': 'wichtig an so einer Unterseite? Erst mal,\xa0\n'
+           'dass sie da ist, sie ist zweitausendzwanzig\xa0\xa0'},
+  {'duration': 15.52,
+   'start': 3301.612,
+   'text': 'aktualisiert, wunderbar. Jetzt kommen wir zu einem\xa0\n'
+           'Allgemeintipp anhand deiner praktischen Beispiele:\xa0\xa0'},
+  {'duration': 11.08,
+   'start': 3317.132,
+   'text': 'Die wichtigsten Sachen für ein Unterseiten-Ranking\xa0\n'
+           'sind: Bin ich indexiert, und wenn ich jetzt Site\xa0\xa0'},
+  {'duration': 15.36,
+   'start': 3328.212,
+   'text': 'nevercodealone eintippe, sehe ich, wie die\xa0\n'
+           'Seite von außen aussieht. Du hast deine Brand,\xa0\xa0'},
+  {'duration': 8.76,
+   'start': 3343.572,
+   'text': 'du hast die Unterseite, und hier kommt eigentlich\xa0\n'
+           'das klickbare Element, dein Title-Tag. Wenn du gar\xa0\xa0'},
+  {'duration': 6.64,
+   'start': 3352.332,
+   'text': 'keine Zeit hast für SEO-Optimierung, optimiere\xa0\n'
+           'wenigstens dein Title-Tag, weil da sollte dein\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 3358.972,
+   'text': 'Suchwort drinstehen. Und wir hatten uns gemerkt,\xa0\n'
+           'das Suchwort war PHP-Schulung, richtig? Wir kommen\xa0\xa0'},
+  {'duration': 6.16,
+   'start': 3368.332,
+   'text': 'ja von hier, PHP Schulungen. Angenommen, wir\xa0\n'
+           'finden das toll, aber wir sehen jetzt von außen,\xa0\xa0'},
+  {'duration': 7.2,
+   'start': 3375.132,
+   'text': 'hier steht PHP Training drin, und dann steht für\xa0\n'
+           'das Symfony-Framework und Testing, abgeschnitten,\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 3382.332,
+   'text': 'weil zu lang. Title-Tag-Optimierung bis\xa0\n'
+           'fünfundfünfzig Zeichen, fünfzig, fünfundfünfzig\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 3390.612,
+   'text': 'Zeichen sind okay, Google kann das mittlerweile\xa0\n'
+           'auch selbst modellieren. Aber wenn hier die\xa0\xa0'},
+  {'duration': 9.96,
+   'start': 3397.132,
+   'text': 'Schulung prominenter drin wäre, könnte man auch\xa0\n'
+           'sagen, PHP-Training und Schulung, würde das Wort\xa0\xa0'},
+  {'duration': 4.24,
+   'start': 3407.092,
+   'text': 'Schulung schon mal reinbringen, ich weiß nicht,\xa0\n'
+           'wie sinnvoll das ist, das ist natürlich die Frage,\xa0\xa0'},
+  {'duration': 7.88,
+   'start': 3411.332,
+   'text': 'was mehr gesucht wird, Training oder Schulung,\xa0\n'
+           'kann man gleich gucken. Ich wollte nur sagen,\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 3419.212,
+   'text': 'der wichtigste Punkt, den du optimieren solltest,\xa0\n'
+           'ist eigentlich das, was du von außen siehst. Sorge\xa0\xa0'},
+  {'duration': 5.8,
+   'start': 3425.252,
+   'text': 'dafür, dass du ein Icon machst, pack deine Marke\xa0\n'
+           'rein, und das kannst du seitenweit optimieren,\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 3431.972,
+   'text': 'und die Meta Description wäre auch so ein Ding,\xa0\n'
+           'hier hast du hundertfünfzig Zeichen Platz,\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 3440.252,
+   'text': 'steht auch keine Schulung drin, das wäre die\xa0\n'
+           'erste Idee, vielleicht bringen wir hier auch\xa0\xa0'},
+  {'duration': 9.64,
+   'start': 3445.732,
+   'text': 'die Schulung rein, das wäre so ein Ding. Was noch?\xa0\n'
+           'Der Title-Tag ist das, was oben im Browser steht,\xa0\xa0'},
+  {'duration': 9.44,
+   'start': 3455.372,
+   'text': 'was die Leute draußen sehen, die Description ist\xa0\n'
+           'auch das Ding. Dann kommt schon der dritte Tipp:\xa0\xa0'},
+  {'duration': 5.08,
+   'start': 3466.452,
+   'text': 'deine Überschrift, du hast hier eine\xa0\n'
+           'ausgewiesene Überschrift, hoffe ich mal,\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 3472.372,
+   'text': 'die höchstwahrscheinlich eine H1 ist, und in der\xa0\n'
+           'Überschrift dein Suchwort unterzubringen, macht\xa0\xa0'},
+  {'duration': 8.36,
+   'start': 3481.252,
+   'text': 'durchaus Sinn. Was ist denn das? Ach, das ist\xa0\n'
+           'auch nur eine Übersichtsseite, okay, dann haben\xa0\xa0'},
+  {'duration': 9.8,
+   'start': 3489.612,
+   'text': 'wir hier eigentlich sehr schmalen Content, der nur\xa0\n'
+           'auf eine Brückenseite leitet. Können wir noch mal\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 3499.412,
+   'text': 'gucken, ob das nicht vielleicht länger ist. Ich\xa0\n'
+           'habe hier noch so ein schönes Browser-Add-on,\xa0\xa0'},
+  {'duration': 9.16,
+   'start': 3507.012,
+   'text': 'das schmeiße ich mal an, weil das für mich eine\xa0\n'
+           'schöne Übersicht bringt. Dein Title ist voll\xa0\xa0'},
+  {'duration': 9.48,
+   'start': 3516.172,
+   'text': 'ausgeschrieben so, und deine Description ist\xa0\n'
+           'voll ausgeschrieben, du hast die zwei Sachen\xa0\xa0'},
+  {'duration': 7.08,
+   'start': 3525.652,
+   'text': 'und lieferst vierhundertfünfundsiebzig Wörter,\xa0\n'
+           'du stehst auf Index, haben wir auch gesehen,\xa0\xa0'},
+  {'duration': 10.92,
+   'start': 3533.812,
+   'text': 'und du hast eine H1 und zehn H2, die kommen\xa0\n'
+           'wahrscheinlich aus den Artikeln. Das ist die H1,\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 3544.732,
+   'text': 'und das sind die H2. Wenn man generell ein\xa0\n'
+           'Suchwort hat, dann packt man das in den Title,\xa0\xa0'},
+  {'duration': 9.04,
+   'start': 3554.092,
+   'text': 'in die Description, in die H1, und liefert\xa0\n'
+           'Mehrwert-Content, den ich hier so noch nicht\xa0\xa0'},
+  {'duration': 7.68,
+   'start': 3563.132,
+   'text': 'groß erkenne, weil das eine Brückenseite ist.\xa0\n'
+           'Die Frage ist, gibt es zu den PHP-Schulungen\xa0\xa0'},
+  {'duration': 12.6,
+   'start': 3570.812,
+   'text': 'noch eine tiefere Unterseite? Es gibt ja das\xa0\n'
+           'PHP-Consulting oben, den ersten Punkt. Genau,\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 3583.412,
+   'text': 'das heißt aber eben Consulting. Und wenn man jetzt\xa0\n'
+           'guckt, was wird man hier suchen, die Schulung,\xa0\xa0'},
+  {'duration': 7.64,
+   'start': 3592.972,
+   'text': 'jetzt kommt die Schulung nicht drin vor, wenn\xa0\n'
+           'ich die Seite nach den vorhandenen Wörtern im\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 3600.612,
+   'text': 'sichtbaren Text durchscanne. Aber im Ranking\xa0\n'
+           'ist noch die Seite, die zu der Führung gehört,\xa0\xa0'},
+  {'duration': 13.52,
+   'start': 3606.092,
+   'text': 'PHP-Training, hier leitest du noch mal auf deine\xa0\n'
+           'Trainingsseite, okay, wäre ja schon mal was.\xa0\xa0'},
+  {'duration': 9.84,
+   'start': 3619.612,
+   'text': 'Die ist aber ausführlicher, total, die ist fein,\xa0\n'
+           'hat ein bisschen Overload beim internen Linking,\xa0\xa0'},
+  {'duration': 13.6,
+   'start': 3629.452,
+   'text': 'aber whatever, so läuft das ab. Die hat\xa0\n'
+           'aber schon etwas mehr als die, die wir\xa0\xa0'},
+  {'duration': 11.0,
+   'start': 3643.052,
+   'text': 'gerade angeschaut haben. Deine PHP-Training-Seite\xa0\n'
+           'könnte vielleicht etwas mehr Inhalt gebrauchen.\xa0\xa0'},
+  {'duration': 6.32,
+   'start': 3654.812,
+   'text': 'Warum die jetzt als Brückenseite dient, weiß\xa0\n'
+           'ich noch nicht ganz genau. Aber wenn wir\xa0\xa0'},
+  {'duration': 4.6,
+   'start': 3661.692,
+   'text': 'zurückgehen zu unserem eigentlichen Ziel, wir\xa0\n'
+           'wollten für die PHP-Schulung unterwegs sein,\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 3666.972,
+   'text': 'könnte man überlegen, packe ich die\xa0\n'
+           'Schulung in das PHP-Training mit rein,\xa0\xa0'},
+  {'duration': 11.04,
+   'start': 3671.652,
+   'text': 'oder erfinde ich sogar eine eigene Seite\xa0\n'
+           'dafür. Das wäre jetzt die Kurzanalyse dazu,\xa0\xa0'},
+  {'duration': 4.24,
+   'start': 3684.172,
+   'text': 'dass man auf jeden Fall alle geldwerten\xa0\n'
+           'Suchwörter sucht, und Geldwert sehe ich hier,\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 3688.412,
+   'text': 'weil es am Markt Leute gibt, die für den Klick\xa0\n'
+           'furchtbar viel Geld ausgeben wollen. PHP-Experten\xa0\xa0'},
+  {'duration': 9.96,
+   'start': 3695.012,
+   'text': 'und so weiter, Kurse, PHP-Kurse liefert er auch\xa0\n'
+           'ab, auch interessant. Also, er findet auf deinem\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 3704.972,
+   'text': 'ganzen Universum scheinbar nichts Besseres als\xa0\n'
+           'das PHP-Training, und der Schnellschuss wäre,\xa0\xa0'},
+  {'duration': 8.36,
+   'start': 3711.412,
+   'text': 'du boostest einfach das PHP-Training, machst\xa0\n'
+           'hier all das, was wir gerade gesehen haben,\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 3719.772,
+   'text': 'du baust etwas Inhalt hier rein, sagst auf der\xa0\n'
+           'Seite auch mal, dass es hier um Training geht.\xa0\xa0'},
+  {'duration': 9.28,
+   'start': 3729.372,
+   'text': 'Das kommt hier siebenmal vor, aber immer aus\xa0\n'
+           'deinen Unterseiten, Schulung ist auch drin,\xa0\xa0'},
+  {'duration': 10.24,
+   'start': 3738.652,
+   'text': 'alles über die, ah, okay, ich verstehe,\xa0\n'
+           'hier kommt Tagesschulung, Tagesschulung,\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 3748.892,
+   'text': 'PHP-Schulung-Code, das ist noch mal eine Ramkotz.\xa0\n'
+           'PHP-Schulung, hier hast du schon einiges gegeben.\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 3764.212,
+   'text': 'Ich war beim Schnellschuss stehen geblieben:\xa0\n'
+           'Versucht doch einfach etwas Inhalt reinzumachen\xa0\xa0'},
+  {'duration': 11.8,
+   'start': 3770.892,
+   'text': 'und nehmt ein paar Sachen auf wie Kurse,\xa0\n'
+           'Training, Schulung, Webinar oder was weiß ich,\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 3782.692,
+   'text': 'so etwas in die Richtung, Weiterbildung\xa0\n'
+           'liefert er auch ab, siehst du das? Alles\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 3790.852,
+   'text': 'auf deiner PHP-Training-Seite, das heißt, er mag\xa0\n'
+           'die, obwohl sie eigentlich optimierungswürdig ist,\xa0\xa0'},
+  {'duration': 13.92,
+   'start': 3796.052,
+   'text': 'schon krass. Also, schreibst du vielleicht mit?\xa0\n'
+           'Die Schulung würde ich da reinnehmen wollen.\xa0\xa0'},
+  {'duration': 5.68,
+   'start': 3810.732,
+   'text': 'Jetzt könnte man noch den Schritt machen, dass\xa0\n'
+           'man nur deine Unterseite anguckt, wo du jetzt\xa0\xa0'},
+  {'duration': 9.2,
+   'start': 3816.412,
+   'text': 'schon rankst, jetzt ist nur die Übersicht deiner\xa0\n'
+           'einzelnen Unterseite, und für die Suchwörter\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 3825.612,
+   'text': 'versucht er dich schon dort abzuliefern.\xa0\n'
+           'Workshop und andere sind alles Suchwörter,\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 3833.652,
+   'text': 'die haben zwar nur geringes Suchvolumen,\xa0\n'
+           'PHP-Kurse siebzig Suchvolumen, PHP-Seminare,\xa0\xa0'},
+  {'duration': 6.16,
+   'start': 3844.772,
+   'text': 'ein Zehner-Suchvolumen. Aber ich kann dir sagen,\xa0\n'
+           'wie gesagt, wir haben es gesehen, das reicht\xa0\xa0'},
+  {'duration': 9.56,
+   'start': 3850.932,
+   'text': 'manchmal. Ich mache auch viel B2B-Kram, in B2B\xa0\n'
+           'hast du oft Suchwörter, die null Volumen haben,\xa0\xa0'},
+  {'duration': 6.64,
+   'start': 3860.492,
+   'text': 'weil es einfach zu wenig am Markt gesucht wird,\xa0\n'
+           'und die Tools das manchmal nicht abdecken oder\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 3867.132,
+   'text': 'der Markt wirklich nicht so oft danach sucht.\xa0\n'
+           'Aber ich habe auch Kunden, bei denen reicht es,\xa0\xa0'},
+  {'duration': 4.88,
+   'start': 3872.612,
+   'text': 'wenn das zwei Leute im Monat suchen oder drei\xa0\n'
+           'Leute im Monat suchen, und einer von denen\xa0\xa0'},
+  {'duration': 4.8,
+   'start': 3877.492,
+   'text': 'würde sich bei ihnen melden, weil hinter\xa0\n'
+           'solchen Suchwörtern auch richtig Umsatz\xa0\xa0'},
+  {'duration': 6.48,
+   'start': 3882.292,
+   'text': 'liegen kann. Also nicht täuschen lassen, nicht\xa0\n'
+           'nur auf Suchvolumen schielen, sondern auch gucken,\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 3888.772,
+   'text': 'was der Wert dahinter tatsächlich ausmachen würde,\xa0\n'
+           'wenn ich es schaffe, dazu zu ranken. Also das mal\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 3895.012,
+   'text': 'als Kurzidee, die Weiterbildung, Workshops und\xa0\n'
+           'so weiter. Du könntest aber, wenn du es richtig\xa0\xa0'},
+  {'duration': 4.88,
+   'start': 3901.812,
+   'text': 'anstellst, das wollte ich noch kurz ausführen:\xa0\n'
+           'Wir haben festgestellt, du hast diese Seite,\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 3906.692,
+   'text': 'und du müsstest sie krampfhaft aufdröseln.\xa0\n'
+           'Der clevere Weg wäre eigentlich zu sagen,\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 3914.692,
+   'text': 'wir stellen die PHP-Training-Seite wirklich nur\xa0\n'
+           'auf das PHP-Training ab und erfinden für den\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 3922.212,
+   'text': 'Workshop vielleicht eine eigene Unterseite, oder\xa0\n'
+           'für die PHP-Kurse auch eine eigene Unterseite,\xa0\xa0'},
+  {'duration': 5.68,
+   'start': 3928.652,
+   'text': 'oder für die Seminare auch eine eigene Unterseite,\xa0\n'
+           'für den Lehrgang und so weiter. Je nachdem, du\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 3934.332,
+   'text': 'bist ja jetzt agentisch unterwegs, da ist man ein\xa0\n'
+           'bisschen unlimitiert, aber ich sage mal, drei bis\xa0\xa0'},
+  {'duration': 4.28,
+   'start': 3942.932,
+   'text': 'fünf in die Richtung würde ich schon machen. Da\xa0\n'
+           'schreien jetzt alle draußen am Markt nur Duplicate\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 3947.212,
+   'text': 'Content, ich habe da meine eigene Meinung\xa0\n'
+           'dazu, ich sehe das nicht als Problem an,\xa0\xa0'},
+  {'duration': 10.12,
+   'start': 3954.172,
+   'text': 'weil Duplicate Content erst dann entstehen\xa0\n'
+           'würde, wenn du wirklich für all das rankst,\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 3964.292,
+   'text': 'dann könntest du noch mal überlegen. Viele machen\xa0\n'
+           'sich über Duplicate Content Gedanken und haben gar\xa0\xa0'},
+  {'duration': 5.92,
+   'start': 3969.492,
+   'text': 'keine Kannibalisierung in ihrem Setup, weil\xa0\n'
+           'sie einfach gar nicht für irgendwas ranken,\xa0\xa0'},
+  {'duration': 9.92,
+   'start': 3976.972,
+   'text': 'da sind Gedankenspiele und Interpretationen total\xa0\n'
+           'falsch gelaufen. Grundsätzliche Regel: Wenn das\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 3986.892,
+   'text': 'Suchwort groß und teuer ist, dann brauchst du\xa0\n'
+           'eine eigene Unterseite. Es kann natürlich sein,\xa0\xa0'},
+  {'duration': 12.84,
+   'start': 3994.732,
+   'text': 'dass die PHP-Kurse sehr wertvoll sind, und dass\xa0\n'
+           'ich auf der ersten Seite hier sehe, was war es,\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 4007.572,
+   'text': 'wie teuer war es, zehn Euro achtzig,\xa0\n'
+           'das würden andere in Ads dafür ausgeben,\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 4012.812,
+   'text': 'das ist schon eine halbe Du-Action, da wird\xa0\n'
+           'sowas gemacht, das macht Sinn, da oben zu stehen,\xa0\xa0'},
+  {'duration': 6.72,
+   'start': 4020.372,
+   'text': 'wenn man PHP-Kurse hat. Und dann kommen\xa0\n'
+           'die, die haben sich dann auch irgendwie,\xa0\xa0'},
+  {'duration': 7.32,
+   'start': 4027.092,
+   'text': 'guck mal, es gibt sogar Leute, die haben eigene\xa0\n'
+           'Domains dafür rausgehauen, die Fernuni Hagen ist\xa0\xa0'},
+  {'duration': 6.28,
+   'start': 4034.412,
+   'text': 'hier auch dabei mit der Weiterbildung. Es kann\xa0\n'
+           'natürlich sein, dass, wenn der Wettbewerb hier\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 4040.692,
+   'text': 'extrem hoch ist, du mit einer Mischmasch-Seite\xa0\n'
+           'nicht durchkommst, deshalb der Hinweis:\xa0\xa0'},
+  {'duration': 9.88,
+   'start': 4047.932,
+   'text': 'Bei extrem geldwerten Suchvolumen gern auch\xa0\n'
+           'eine richtig detaillierte Unterseite raushauen.'},
+  {'duration': 3.8,
+   'start': 4059.212,
+   'text': 'So, jetzt gucken wir mal, wir wollten ja\xa0\n'
+           'eigentlich in Richtung Vibe-Coding gehen. Jetzt\xa0\xa0'},
+  {'duration': 11.96,
+   'start': 4063.012,
+   'text': 'suchen wir mal deine viertausend Wörter durch, in\xa0\n'
+           'Richtung Vibe, stehst du da auch irgendwo oben? Es\xa0\xa0'},
+  {'duration': 5.88,
+   'start': 4074.972,
+   'text': 'wird hier fast schon eine Sistrix-Werbung, also\xa0\n'
+           'würde ich das gar nicht so machen, Johannes,\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 4080.852,
+   'text': 'falls du das Video siehst, Johannes ist der\xa0\n'
+           'Entwickler von Sistrix, ich habe was gut bei dir,\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 4087.052,
+   'text': 'guck mal, wie oft hier dein Logo schon\xa0\n'
+           'erscheint. Aber jetzt noch mal, es ist\xa0\xa0'},
+  {'duration': 10.32,
+   'start': 4092.532,
+   'text': 'einfach und optisch okay. Für Vibe, also Keyword\xa0\n'
+           'enthält Vibe, haben wir aus deinem Wortwolkensalat\xa0\xa0'},
+  {'duration': 11.12,
+   'start': 4103.572,
+   'text': 'eigentlich nur diese zwei im Angebot, was mich\xa0\n'
+           'etwas wundert. Du stehst für nichts oben, außer\xa0\xa0'},
+  {'duration': 8.92,
+   'start': 4114.692,
+   'text': 'für Vibe Code und negatives Vibe vom Localhost.\xa0\n'
+           'Das negative Vibe vom Localhost ist natürlich so\xa0\xa0'},
+  {'duration': 10.68,
+   'start': 4123.612,
+   'text': 'eine Sache. Wir haben dieses Vibe-Coding schon\xa0\n'
+           'überall in den URLs drin, wie du siehst, wenn\xa0\xa0'},
+  {'duration': 10.36,
+   'start': 4134.292,
+   'text': 'ich mir eine der Seiten anschaue, es sind einfach\xa0\n'
+           'extrem viele Seiten. Wenn ich nach Coding suche,\xa0\xa0'},
+  {'duration': 9.28,
+   'start': 4144.652,
+   'text': 'Coding-Tools, PHP-Coding, okay, also hat er den\xa0\n'
+           'Switch bei dir noch gar nicht geschafft. Du kommst\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 4153.932,
+   'text': 'aus dem PHP-Bereich, deine Entität ist eventuell\xa0\n'
+           'damit auch verknüpft, und du rankst zu Artikeln,\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 4160.972,
+   'text': 'die vielleicht auch etwas älter sind, aber zu\xa0\n'
+           'Vibe-Coding finden wir dich hier gar nicht,\xa0\xa0'},
+  {'duration': 4.91,
+   'start': 4168.452,
+   'text': 'wobei ich für Vibe-Coding immer wieder gefunden\xa0\n'
+           'werde, das sehe ich in meinem Matomo, dem einzigen\xa0\xa0'},
+  {'duration': 11.97,
+   'start': 4173.362,
+   'text': 'Tool, das ich habe, dass ich da Traffic bekomme\xa0\n'
+           'zu dem Artikel, zu den Themen. Haben wir da was\xa0\xa0'},
+  {'duration': 9.96,
+   'start': 4185.332,
+   'text': 'falsch eingestellt? Fehler sitzt immer vierzig\xa0\n'
+           'Zentimeter vor dem Bildschirm. Nein, nein,\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 4196.532,
+   'text': 'ich sage jetzt, ich bin der Fehler. Gucken wir\xa0\n'
+           'mal, was bei Consulting geht, da hast du auch kein\xa0\xa0'},
+  {'duration': 3.2,
+   'start': 4201.212,
+   'text': 'Ranking, zumindest nach dem Tool, wir können ja\xa0\n'
+           'mal in die Google Search Console gucken, du hast\xa0\xa0'},
+  {'duration': 14.48,
+   'start': 4204.412,
+   'text': 'mir Zugang gegeben. Aber stehst du für irgendwas\xa0\n'
+           'mit Seminar oben? PHP-Seminare haben wir schon\xa0\xa0'},
+  {'duration': 8.08,
+   'start': 4218.892,
+   'text': 'gesehen, aber Vibe-Coding-Seminare stehst du noch\xa0\n'
+           'nicht oben, was haben wir hier noch im Angebot,\xa0\xa0'},
+  {'duration': 7.2,
+   'start': 4226.972,
+   'text': 'Training war dabei. Also, das hat er noch nicht so\xa0\n'
+           'richtig gefressen, müssen wir ihm wahrscheinlich\xa0\xa0'},
+  {'duration': 13.96,
+   'start': 4234.172,
+   'text': 'noch mal beibringen. Aber es ist schon eine gute\xa0\n'
+           'Erkenntnis, dass das deutlich besser werden kann.\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 4250.572,
+   'text': 'Hier sieht man erst mal nichts in Richtung\xa0\n'
+           'Vibe-Coding, du hast gesagt, es gibt eine Menge,\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 4257.012,
+   'text': 'dann gucken wir mal, Vibe-Coding, hier geht\xa0\n'
+           'was los, KI-gestützte Softwareentwicklung mit\xa0\xa0'},
+  {'duration': 37.0,
+   'start': 4263.252,
+   'text': 'Vibe-Coding, gucken wir mal die rein,\xa0\n'
+           'Coding, KI-gestützt und so weiter. Ah,\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 4305.612,
+   'text': 'das zieht er sich aus diesen Unterseiten, diese\xa0\n'
+           'Überschriften, hier ist wieder sehr textlastig,\xa0\xa0'},
+  {'duration': 8.84,
+   'start': 4312.572,
+   'text': 'fühlst du gerade auch, denke ich mal wieder. Aber\xa0\n'
+           'warum gibt es hier gar nichts? Jetzt fangen wir\xa0\xa0'},
+  {'duration': 9.28,
+   'start': 4321.412,
+   'text': 'mal an, es wird ein bisschen spannend, du\xa0\n'
+           'hast mir Zugang zur Search Console gegeben.\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 4331.892,
+   'text': 'Und jetzt kommt ein kurzer Werbeblock für\xa0\n'
+           'die Google Search Console. Also Leute,\xa0\xa0'},
+  {'duration': 12.04,
+   'start': 4337.932,
+   'text': 'wer im SEO-Bereich oder im AI-Optimierungsbereich\xa0\n'
+           'oder als Marketing-Dienstleister unterwegs ist,\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 4349.972,
+   'text': 'jeder braucht eine Google Search Console, weil\xa0\n'
+           'es ein kostenloses Gesundheitstool ist, das\xa0\xa0'},
+  {'duration': 10.28,
+   'start': 4355.492,
+   'text': 'dir die Insights deiner Domain direkt\xa0\n'
+           'aus dem Google-Universum präsentiert,\xa0\xa0'},
+  {'duration': 5.88,
+   'start': 4365.772,
+   'text': 'ein besseres SEO-Tool, das kostenlos ist,\xa0\n'
+           'kannst du dir gar nicht wünschen. Du müsstest\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 4371.652,
+   'text': 'es nur mit deiner Domain-Property connecten,\xa0\n'
+           'und dann bekommst du tolle Auswertungen, die\xa0\xa0'},
+  {'duration': 6.28,
+   'start': 4381.572,
+   'text': 'dir eventuell die Augen öffnen. Wir haben übrigens\xa0\n'
+           'mittlerweile fünfzig Zuschauer, wenn ihr Fragen\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 4387.852,
+   'text': 'habt, schreibt sie in den Chat, ich nehme das\xa0\n'
+           'gerne mit auf, welche Tools ihr nutzt und was\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 4396.812,
+   'text': 'ihr hier kennt. Ich hatte immer das Gefühl, dass\xa0\n'
+           'die ganzen SEO-Tools auf den Daten der Google\xa0\xa0'},
+  {'duration': 9.92,
+   'start': 4404.252,
+   'text': 'Search Console oder vielleicht Google Analytics\xa0\n'
+           'beruhen und das einfach nur besser darstellen.\xa0\xa0'},
+  {'duration': 11.08,
+   'start': 4415.652,
+   'text': 'Die Tools sind natürlich von außen, der\xa0\n'
+           'Vorteil ist, ich kann jede Domain eintippen,\xa0\xa0'},
+  {'duration': 17.88,
+   'start': 4426.732,
+   'text': 'auch die deines Wettbewerbers, ich komme an\xa0\n'
+           'alle Domain-Daten von nahezu allen Domains\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 4444.612,
+   'text': 'dran. Wie gesagt, ich habe einfach im Tool von\xa0\n'
+           'Sistrix oder SE Ranking oder wie sie alle heißen,\xa0\xa0'},
+  {'duration': 10.56,
+   'start': 4453.092,
+   'text': 'Ahrefs, Semrush und so weiter, kann ich jede\xa0\n'
+           'Domain analysieren, auch jedes Keyword. Bei\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 4463.652,
+   'text': 'der Google Search Console bekomme ich natürlich,\xa0\n'
+           'richtiger Hinweis, nur Daten aus deiner Domain,\xa0\xa0'},
+  {'duration': 8.08,
+   'start': 4470.612,
+   'text': 'aber dafür ein bisschen tieferes Wissen, weil\xa0\n'
+           'es von Google kommt, es ist kostenlos, du loggst\xa0\xa0'},
+  {'duration': 10.52,
+   'start': 4478.692,
+   'text': 'dich mit deinem Google-Profil ein und siehst,\xa0\n'
+           'was Google mit deiner Seite macht. Hier in dem\xa0\xa0'},
+  {'duration': 8.92,
+   'start': 4489.212,
+   'text': 'Screenshot sehen wir, wie oft der Google-Crawler\xa0\n'
+           'bei dir vorbeikommt. Solche Daten würdest du im\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 4498.132,
+   'text': 'SEO-Tool nicht sehen, weil die das gar nicht\xa0\n'
+           'haben. Und die Search Console hat Funktionen\xa0\xa0'},
+  {'duration': 5.16,
+   'start': 4506.652,
+   'text': 'wie hier, das sollte eigentlich jeder Webdesigner\xa0\n'
+           'mitmachen, meiner Meinung nach: Wenn jemand eine\xa0\xa0'},
+  {'duration': 11.16,
+   'start': 4511.812,
+   'text': 'neue Domain oder einen Relaunch macht, sollte man\xa0\n'
+           'immer seine Sitemap, sein Inhaltsverzeichnis der\xa0\xa0'},
+  {'duration': 7.2,
+   'start': 4522.972,
+   'text': 'ganzen Instanz dorthin geben, das ist wie beim\xa0\n'
+           'Buch ein Inhaltsverzeichnis. Das gebe ich rein,\xa0\xa0'},
+  {'duration': 8.84,
+   'start': 4530.172,
+   'text': 'das hast du gemacht, du sendest fünfhundert\xa0\n'
+           'Unterseiten, erkannte Unterseiten, fünfhundert\xa0\xa0'},
+  {'duration': 7.96,
+   'start': 4539.012,
+   'text': 'Unterseiten sendest du aus deiner normalen Domain,\xa0\n'
+           'und dann sendest du noch mal aus deiner Subdomain\xa0\xa0'},
+  {'duration': 11.0,
+   'start': 4546.972,
+   'text': 'blog achthundert Seiten. Das ist toll, weil ich\xa0\n'
+           'dem Crawler das Inhaltsverzeichnis gebe, und wenn\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 4557.972,
+   'text': 'ich es sauber und spamfrei bespiele, dann kann\xa0\n'
+           'Google mir irgendwann vertrauen, und angenommen,\xa0\xa0'},
+  {'duration': 7.8,
+   'start': 4565.572,
+   'text': 'du würdest jetzt nach unserem Hinweis deine\xa0\n'
+           'PHP-Training-Seite aktualisieren, dann sendest du\xa0\xa0'},
+  {'duration': 10.28,
+   'start': 4573.372,
+   'text': 'meistens auch ein Aktualisierungsdatum mit, gucken\xa0\n'
+           'wir mal, ja, tust du, so sieht die Sitemap aus,\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 4583.652,
+   'text': 'für alle sehr kryptisch, für alle, die jetzt zum\xa0\n'
+           'ersten Mal zuschauen, aber da sind alle URLs drin,\xa0\xa0'},
+  {'duration': 5.88,
+   'start': 4590.412,
+   'text': 'und wenn man es sauber macht, sendet man auch\xa0\n'
+           'ein Last Modified, also letzte Veränderung.\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 4596.292,
+   'text': 'Und wenn du jetzt etwas an deiner Unterseite\xa0\n'
+           'änderst, und er dir das Vertrauen schenkt,\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 4604.412,
+   'text': 'könnte er diesen Ping, den wir automatisiert über\xa0\n'
+           'die Sitemap senden, nutzen und sagen, dann komme\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 4611.012,
+   'text': 'ich vielleicht noch mal vorbei und aktualisiere\xa0\n'
+           'das. Auch schön für Leute, die vielleicht ein\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 4619.292,
+   'text': 'Problem haben mit: Von meinen tausend Unterseiten\xa0\n'
+           'sind nicht alle im Index, welche sind denn nicht\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 4624.532,
+   'text': 'im Index? Sitemap einreichen ist der erste\xa0\n'
+           'Schritt bei jeder Domain, und Google Search\xa0\xa0'},
+  {'duration': 5.0,
+   'start': 4631.692,
+   'text': 'Console anlegen ist auch Pflichtprogramm.\xa0\n'
+           'Wenn Leute in meine Sprechstunde kommen und\xa0\xa0'},
+  {'duration': 5.88,
+   'start': 4636.692,
+   'text': 'noch nie von der Google Search Console gehört\xa0\n'
+           'haben, dann weiß ich ungefähr, dass die keine\xa0\xa0'},
+  {'duration': 8.96,
+   'start': 4642.572,
+   'text': 'Kontrolle über ihr Asset haben, keine Kontrolle\xa0\n'
+           'über die Sichtbarkeit, brauchten es vielleicht\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 4651.532,
+   'text': 'nicht, aber irgendjemand hat es sträflich\xa0\n'
+           'vernachlässigt, das Ding anzulegen. Wie gesagt,\xa0\xa0'},
+  {'duration': 9.12,
+   'start': 4658.332,
+   'text': 'hier Sitemap einreichen, dann siehst du unter dem\xa0\n'
+           'Punkt Seiten, ganz wichtig, was ist indexiert?\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 4669.652,
+   'text': 'Bei dir sind tausenddreihundert Seiten\xa0\n'
+           'aktuell indexiert, hier gab es mal einen\xa0\xa0'},
+  {'duration': 9.92,
+   'start': 4676.172,
+   'text': 'Boost auf eintausendneunhundertachtzig Seiten\xa0\n'
+           'indexiert und danach wieder weg. Könnte man jetzt\xa0\xa0'},
+  {'duration': 9.2,
+   'start': 4686.092,
+   'text': 'auch mal aufnehmen, warum ist da so ein Boost\xa0\n'
+           'passiert, müsste man forensisch rangehen, gucken,\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 4695.292,
+   'text': 'war das am neunten Juni, ich glaube, das war\xa0\n'
+           'englischsprachiger Content, der dann abgeschaltet\xa0\xa0'},
+  {'duration': 6.36,
+   'start': 4704.412,
+   'text': 'wurde. Ich weiß nicht exakt, aber ich\xa0\n'
+           'habe mich auf jeden Fall entschieden,\xa0\xa0'},
+  {'duration': 5.32,
+   'start': 4713.732,
+   'text': 'allen englischsprachigen Content abzuschalten,\xa0\n'
+           'weil ich glaube, dass man mittlerweile im Browser\xa0\xa0'},
+  {'duration': 6.92,
+   'start': 4719.052,
+   'text': 'das direkt in seine Sprache übersetzt bekommt,\xa0\n'
+           'und es ist mir zu viel Aufwand, das nachzupflegen,\xa0\xa0'},
+  {'duration': 9.56,
+   'start': 4725.972,
+   'text': 'Aktualisierungen nachzuhalten und mitzuziehen\xa0\n'
+           'in Zeiten von KI und Realtime Translation,\xa0\xa0'},
+  {'duration': 5.96,
+   'start': 4736.972,
+   'text': 'obwohl immer noch gesagt wird, Mehrsprachigkeit\xa0\n'
+           'ist ein wichtiges Feature, das angefragt wird,\xa0\xa0'},
+  {'duration': 11.6,
+   'start': 4742.932,
+   'text': 'zumindest bei Content-Management-Systemen.\xa0\n'
+           'Ich habe die alle abgeschaltet, weil sie so\xa0\xa0'},
+  {'duration': 5.64,
+   'start': 4754.532,
+   'text': 'unaktualisiert waren, wir haben viel gemacht bei\xa0\n'
+           'Never Code Alone, neue Content-Typen hinzugefügt,\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 4760.172,
+   'text': 'automatisiertes Content-Marketing eingeschaltet,\xa0\n'
+           'und da hatte ich kein Interesse, noch Englisch\xa0\xa0'},
+  {'duration': 13.56,
+   'start': 4767.052,
+   'text': 'mitzuziehen. Denke, es ist was anderes, aber gut,\xa0\n'
+           'das jetzt erforschen wollen? Brauchen wir nicht,\xa0\xa0'},
+  {'duration': 5.6,
+   'start': 4780.612,
+   'text': 'wir wollen ja unser Vibe-Coding nach vorne\xa0\n'
+           'bringen. Also, danke für den Hinweis,\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 4786.212,
+   'text': 'dass du das umgeschaltet hast, aber hier ist ja\xa0\n'
+           'irgendwas passiert, er hat für kurze Zeit einfach\xa0\xa0'},
+  {'duration': 6.16,
+   'start': 4793.732,
+   'text': 'mal sechshundert Unterseiten mehr indexiert\xa0\n'
+           'und danach festgestellt, ah nee, doch nicht,\xa0\xa0'},
+  {'duration': 5.04,
+   'start': 4799.892,
+   'text': 'und das Level ist aber ungefähr gleich, wir sind\xa0\n'
+           'bei tausendzweihundert indexierten Seiten. Wie\xa0\xa0'},
+  {'duration': 9.0,
+   'start': 4804.932,
+   'text': 'gesagt, das ist erst mal wichtig, was viele Leute\xa0\n'
+           'machen, sie produzieren Inhalte und sagen dann,\xa0\xa0'},
+  {'duration': 4.24,
+   'start': 4814.812,
+   'text': 'ich habe den Blogartikel rausgehauen, und dann\xa0\n'
+           'gucke ich mir das an, und der Blogartikel ist ein\xa0\xa0'},
+  {'duration': 4.76,
+   'start': 4819.052,
+   'text': 'Jahr lang nicht indexiert, das heißt, er\xa0\n'
+           'war ein Jahr lang überhaupt nicht sichtbar,\xa0\xa0'},
+  {'duration': 11.28,
+   'start': 4823.812,
+   'text': 'und das ist kein Ausnahmeproblem, indexiert zu\xa0\n'
+           'werden ist heute erst die erste Hauptdisziplin.\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 4837.452,
+   'text': 'SEO fängt an bei: Ich werde erst mal indexiert.\xa0\n'
+           'Das heißt, du musst erst mal sicherstellen,\xa0\xa0'},
+  {'duration': 7.64,
+   'start': 4842.652,
+   'text': 'dass alle deine Seiten so im Index sind, wie du\xa0\n'
+           'es haben möchtest. Hier unten kommen Hinweise,\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 4851.572,
+   'text': 'wo er sagt, und da scheitern dann viele dran, die\xa0\n'
+           'scrollen vielleicht nicht bis hier runter, aber es\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 4857.812,
+   'text': 'ist ein hervorragender Überblick, wie gesund ist\xa0\n'
+           'deine Seite. Was hat er für ein Problemchen? Hier\xa0\xa0'},
+  {'duration': 6.36,
+   'start': 4867.172,
+   'text': 'unten kommen diese zwei, ich mache mal die ganze\xa0\n'
+           'History auf, die ganze Liste hier sind dreizehn\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 4873.532,
+   'text': 'Sachen, hier unten kommen aber diese zwei Sachen:\xa0\n'
+           'gecrawlt, zurzeit nicht indexiert, und gefunden,\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 4880.412,
+   'text': 'zurzeit nicht indexiert. Und wenn hier eine\xa0\n'
+           'Kurve hoch oder runter geht und du damit nicht\xa0\xa0'},
+  {'duration': 5.56,
+   'start': 4887.972,
+   'text': 'einverstanden bist, solltest du dir das unbedingt\xa0\n'
+           'angucken, und dann solltest du mit deinem\xa0\xa0'},
+  {'duration': 9.76,
+   'start': 4893.532,
+   'text': 'Entwickler oder Webdesigner oder mit dir selbst\xa0\n'
+           'oder deinem Agenten gucken, was er dir sagen will.\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 4903.292,
+   'text': 'Weil er dir viele Sachen sagt, zum Beispiel,\xa0\n'
+           'die bei einem Relaunch immer kaputtgehen.\xa0\xa0'},
+  {'duration': 4.64,
+   'start': 4913.972,
+   'text': 'Ich muss die Zuschauer kurz nutzen, du sagst,\xa0\n'
+           'fünfzig Leute sind da, was passiert bei einem\xa0\xa0'},
+  {'duration': 10.84,
+   'start': 4918.612,
+   'text': 'Relaunch? Warum scheitern so viele Relaunches?\xa0\n'
+           'Ob ein Relaunch nötig ist, ist eine andere Frage,\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 4929.452,
+   'text': 'aber bei einem Relaunch passiert ganz oft das\xa0\n'
+           'Abschneiden deiner bisherigen URL-Struktur.\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 4938.772,
+   'text': 'Du hast deine Domain, nevercodealone.de, schön und\xa0\n'
+           'gut, dann hast du dahinter die ganzen Pfade, dein\xa0\xa0'},
+  {'duration': 12.0,
+   'start': 4946.932,
+   'text': 'Spinnennetz, slash de, php, slash de, consulting,\xa0\n'
+           'und so weiter, du hast dein ganzes Spinnennetz\xa0\xa0'},
+  {'duration': 7.0,
+   'start': 4958.932,
+   'text': 'an URLs, das du installiert hast, im Universum\xa0\n'
+           'schon mal rausgedrückt hast. Jetzt kommt so eine\xa0\xa0'},
+  {'duration': 9.68,
+   'start': 4965.932,
+   'text': 'hochbezahlte Relaunch-Agentur, und was machen die?\xa0\n'
+           'Die schneiden meistens unbewusst dein vorhandenes\xa0\xa0'},
+  {'duration': 10.64,
+   'start': 4975.612,
+   'text': 'Spinnennetz weg und zeigen dir danach eine neue,\xa0\n'
+           'schön gestaltete Domain mit ein bisschen Design,\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 4986.252,
+   'text': 'haben aber vergessen, dass die Spinne ja irgendwo\xa0\n'
+           'schon mal zehn Jahre eine URL kannte, die sie dann\xa0\xa0'},
+  {'duration': 4.8,
+   'start': 4997.612,
+   'text': 'in eine Fehlerseite laufen lassen, weil sie die\xa0\n'
+           'Struktur nicht umgezogen haben. Das ist ein ganz\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 5002.412,
+   'text': 'einfacher Hack, den der Markt seit zwanzig Jahren\xa0\n'
+           'nicht verstanden hat: Bei einem Relaunch unbedingt\xa0\xa0'},
+  {'duration': 12.12,
+   'start': 5010.732,
+   'text': 'jede URL auf die nächstfolgende passende per\xa0\n'
+           'dauerhafter Weiterleitung weiterleiten. Dann\xa0\xa0'},
+  {'duration': 4.92,
+   'start': 5022.852,
+   'text': 'könnte der Relaunch auch nicht nach hinten\xa0\n'
+           'losgehen. Und wir SEOs sind seit Jahren im\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 5027.772,
+   'text': 'Geschäft, weil Leute relaunchen und vergessen,\xa0\n'
+           'ihre URL-Struktur umzuziehen. Also, goldene Regel\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 5037.972,
+   'text': 'bei einem Umzug: Lass deine URL-Struktur gleich,\xa0\n'
+           'wäre die erste goldene Regel, und wenn du deine\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 5044.532,
+   'text': 'URL-Struktur ändern musst, dann bitte leite\xa0\n'
+           'sie auch weiter. Ich hatte sogar Riesenfirmen,\xa0\xa0'},
+  {'duration': 5.76,
+   'start': 5050.012,
+   'text': 'die das auch nicht hingekriegt haben, und wenn du\xa0\n'
+           'es verkackt hast, dann sagt dir die Google Search\xa0\xa0'},
+  {'duration': 8.64,
+   'start': 5055.772,
+   'text': 'Console, ich laufe auf ganz vielen Seiten auf\xa0\n'
+           '404. Jetzt war kurz der Einsprung dazu, bei wie\xa0\xa0'},
+  {'duration': 13.68,
+   'start': 5064.412,
+   'text': 'vielen Seiten stolpert denn unser Crawler oder\xa0\n'
+           'auch Menschen, hier kommen Pfade zum Vorschein,\xa0\xa0'},
+  {'duration': 7.92,
+   'start': 5078.092,
+   'text': 'die heißen slash en influencer db slash em hall\xa0\n'
+           'of fame und so weiter, wenn ich die jetzt aufrufe,\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 5086.692,
+   'text': 'existieren die nicht, richtig, not found? Genau.\xa0\n'
+           'Die würde ich hübscher machen, ja, auf jeden Fall,\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 5094.132,
+   'text': 'kleiner Seitentipp am Rande, 404-Seiten existieren\xa0\n'
+           'und sind auch so weit okay, nicht alles muss ewig\xa0\xa0'},
+  {'duration': 4.84,
+   'start': 5101.892,
+   'text': 'existieren, auch wenn es sollte, aber sowas kann\xa0\n'
+           'man extrem hübsch machen. Ja, die ist im alten\xa0\xa0'},
+  {'duration': 5.56,
+   'start': 5106.732,
+   'text': 'Layout, sieht ziemlich zerschossen aus, und das\xa0\n'
+           'ist ein bisschen schlechtes Image für das Ding,\xa0\xa0'},
+  {'duration': 14.28,
+   'start': 5113.812,
+   'text': 'also 404 produziert dieser Pfad, der Influencer\xa0\n'
+           'Hub. Gibt es einen Nachfolger? Nein. Hall of Fame\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 5128.092,
+   'text': 'gibt es auch nichts oder was? Hier kommt\xa0\n'
+           'noch etwas, die Bounce spielt auch mit,\xa0\xa0'},
+  {'duration': 12.24,
+   'start': 5135.452,
+   'text': 'weil da das DE-Segment fehlt, also da fehlt\xa0\n'
+           'praktisch der Slash hinter der Domain,\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 5149.492,
+   'text': 'habe ich in meinem Pre-Scan schon gesehen, führe\xa0\n'
+           'ich dich gleich hin. Was machst du denn jetzt mit\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 5157.532,
+   'text': 'dem englischen Content, willst du den nicht mehr\xa0\n'
+           'bespielen? Genau, der ist raus, und damit ist es\xa0\xa0'},
+  {'duration': 9.12,
+   'start': 5165.572,
+   'text': 'eigentlich auch richtig. Ich glaube, dass ein paar\xa0\n'
+           'Pfade fälschlicherweise noch in der Sitemap XML\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 5174.692,
+   'text': 'drin sind, ich hatte auf jeden Fall gesehen, dass\xa0\n'
+           'Pfade in der Sitemap XML drin sind, die es nicht\xa0\xa0'},
+  {'duration': 6.24,
+   'start': 5181.572,
+   'text': 'mehr gibt, und daher kommt wahrscheinlich der\xa0\n'
+           'Fehler, dass die URL noch in der Sitemap steht\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 5187.812,
+   'text': 'und dann gesagt wird, die ist 404. Und wenn ich\xa0\n'
+           'die in der Sitemap entferne, räume ich auch die\xa0\xa0'},
+  {'duration': 8.48,
+   'start': 5195.052,
+   'text': 'Fehler auf. Wunderbarer Hinweis. Du sendest deine\xa0\n'
+           'Sitemaps, hatten wir schon geguckt unter Sitemap,\xa0\xa0'},
+  {'duration': 13.12,
+   'start': 5203.532,
+   'text': 'und hier oben bei dieser Funktion kann man sagen,\xa0\n'
+           'prüft doch mal, was ich sende, alle bekannten\xa0\xa0'},
+  {'duration': 5.16,
+   'start': 5216.652,
+   'text': 'Seiten, und dann kann man hier nochmal filtern,\xa0\n'
+           'alle, die ich einreiche, alle, die ich nicht\xa0\xa0'},
+  {'duration': 5.44,
+   'start': 5221.812,
+   'text': 'einreiche, alle, die ich aus dem Blog einreiche,\xa0\n'
+           'oder alle, die ich aus der Sitemap einreiche. Und\xa0\xa0'},
+  {'duration': 5.68,
+   'start': 5227.252,
+   'text': 'wenn du sagst, du sendest die eventuell noch, die\xa0\n'
+           'Sitemap müsste natürlich sauber sein, und dann\xa0\xa0'},
+  {'duration': 9.68,
+   'start': 5232.932,
+   'text': 'kannst du hier mal gucken, jetzt sehen wir diese\xa0\n'
+           'Übersicht zugeschnitten, oh, okay, das heißt,\xa0\xa0'},
+  {'duration': 8.68,
+   'start': 5242.612,
+   'text': 'du sendest die nicht, da ist nämlich der Fehler\xa0\n'
+           'raus. Es sind aber Seiten fälschlicherweise in der\xa0\xa0'},
+  {'duration': 11.72,
+   'start': 5251.292,
+   'text': 'Sitemap XML drin, welche? Alles, was du sendest,\xa0\n'
+           'sind auf jeden Fall welche ohne DE-Segment drin.\xa0\xa0'},
+  {'duration': 10.68,
+   'start': 5264.172,
+   'text': 'Letztes Mal, als wir gesprochen hatten, hatte ich\xa0\n'
+           'die Sitemap einmal auch mit einer KI analysiert,\xa0\xa0'},
+  {'duration': 9.24,
+   'start': 5274.852,
+   'text': 'ob es Seiten ohne Language Segment gibt, und da\xa0\n'
+           'sind auf jeden Fall einige drin. Okay, dann ist\xa0\xa0'},
+  {'duration': 15.48,
+   'start': 5284.092,
+   'text': 'das jetzt der Punkt, aber wenn du sagst, das ist\xa0\n'
+           'gar nicht die Lösung. Naja, also, sauberer erster\xa0\xa0'},
+  {'duration': 10.32,
+   'start': 5299.572,
+   'text': 'Punkt: Indexierung herstellen, erste Regel im\xa0\n'
+           'SEO Fight Club, Indexierung herstellen. Wie macht\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 5309.892,
+   'text': 'man das? Man ist so freundlich und sauber, dass\xa0\n'
+           'man den Google-Crawler nicht unbedingt im Kreis\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 5317.452,
+   'text': 'herumführt, sondern es ihm so auf dem Tablett\xa0\n'
+           'serviert, dass er Vertrauen fasst und sagt,\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 5325.612,
+   'text': 'ja, okay, da schaue ich öfter mal vorbei, so\xa0\n'
+           'ein Crawler und eine Webseite werden über die\xa0\xa0'},
+  {'duration': 12.56,
+   'start': 5331.332,
+   'text': 'Jahre auch Freunde oder Feinde. Wenn man immer\xa0\n'
+           'blockt und sein Asset nicht sauber dahin schiebt,\xa0\xa0'},
+  {'duration': 4.2,
+   'start': 5343.892,
+   'text': 'das ist nicht so schlimm, es gibt überall\xa0\n'
+           'mal Fehler, gerade wenn man was ändert,\xa0\xa0'},
+  {'duration': 10.12,
+   'start': 5351.412,
+   'text': 'aber wenigstens dieses Fundament, die technische\xa0\n'
+           'Optimierung, muss erst mal sauber sein.'},
+  {'duration': 10.48,
+   'start': 5361.532,
+   'text': 'Wie gesagt, hier diese ganzen Dinge gerne\xa0\n'
+           'durchgucken. Ich bin ja auch zwanzig Jahre\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 5372.012,
+   'text': 'im Game, früher war das anders, da war Google\xa0\n'
+           'so aggressiv, die haben dir alles gecrawlt,\xa0\xa0'},
+  {'duration': 9.56,
+   'start': 5381.372,
+   'text': 'die wollten unbedingt jedes kleinste, sie wollten\xa0\n'
+           'das ganze Internet runterladen, das war ja so die\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 5390.932,
+   'text': 'Idee des Algorithmus dahinter, sie wollten auf\xa0\n'
+           'jeden Fall das Internet komplett tief ausleuchten.\xa0\xa0'},
+  {'duration': 6.48,
+   'start': 5398.772,
+   'text': 'Jetzt ist aber Google und das Internet in\xa0\n'
+           'den letzten zwanzig Jahren massiv gewachsen,\xa0\xa0'},
+  {'duration': 7.64,
+   'start': 5405.252,
+   'text': 'und die Rechenkapazitäten, um irgendwelchen\xa0\n'
+           'Schrott zu inhalieren, wollen sie Schritt für\xa0\xa0'},
+  {'duration': 5.04,
+   'start': 5412.892,
+   'text': 'Schritt abschalten, da habe ich so ein bisschen\xa0\n'
+           'das Gefühl. Und dann gibt es diese zwei Hinweise,\xa0\xa0'},
+  {'duration': 6.4,
+   'start': 5418.572,
+   'text': 'Google sagt sogar, wir haben dich gecrawlt,\xa0\n'
+           'aber nicht indexiert, und da musst du gucken,\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 5424.972,
+   'text': 'das sollte jeder, der eine Google Search\xa0\n'
+           'Console hat, mal gucken, welche Seiten sind das,\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 5431.652,
+   'text': 'hier wächst das sogar bei dir, das könnte\xa0\n'
+           'AI-Slop-Content sein, der als solcher\xa0\xa0'},
+  {'duration': 10.28,
+   'start': 5438.332,
+   'text': 'identifiziert wird, vielleicht, aber wir sehen\xa0\n'
+           'auch, dass das Language-Segment fehlt. Hier sehen\xa0\xa0'},
+  {'duration': 11.88,
+   'start': 5448.612,
+   'text': 'wir das sehr schön, es gibt beide, die sind beide\xa0\n'
+           'nicht drin, das ist die gleiche URL, siehst du,\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 5460.492,
+   'text': 'das ist der Pfad hier und das ist der Pfad hier,\xa0\n'
+           'das eine mit DE und das andere ohne DE, genau,\xa0\xa0'},
+  {'duration': 10.36,
+   'start': 5467.972,
+   'text': 'hat er beide nicht indexiert, okay, aber er war\xa0\n'
+           'da, das heißt, er hat diese Pfade gefunden. Die\xa0\xa0'},
+  {'duration': 6.36,
+   'start': 5478.332,
+   'text': 'Frage ist an der Stelle für mich, wie findet\xa0\n'
+           'er so einen alten Pfad ohne den DE-Slash?\xa0\xa0'},
+  {'duration': 11.48,
+   'start': 5485.972,
+   'text': 'Wie gesagt, das kann durch eine falsche Sitemap\xa0\n'
+           'XML sein, theoretisch könntest du den Link\xa0\xa0'},
+  {'duration': 3.56,
+   'start': 5499.252,
+   'text': 'in die Zwischenablage nehmen\xa0\n'
+           'und in der Sitemap XML suchen,\xa0\xa0'},
+  {'duration': 9.32,
+   'start': 5502.812,
+   'text': 'du wirst ihn da wahrscheinlich drin finden,\xa0\n'
+           'beide, den zweiten, der hat kein DE-Segment,\xa0\xa0'},
+  {'duration': 6.32,
+   'start': 5512.732,
+   'text': 'wenn der da drin ist, dann ist das das\xa0\n'
+           'Problem. Ich kann den auch hier untersuchen,\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 5519.612,
+   'text': 'noch ein kleiner Hinweis, hier kann man kopieren,\xa0\n'
+           'ich könnte die aufrufen oder untersuchen, und dann\xa0\xa0'},
+  {'duration': 11.04,
+   'start': 5527.732,
+   'text': 'gucken wir, Daten aus dem Google-Index, und dann\xa0\n'
+           'siehst du hier die verweisenden Seiten. Ah, okay,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 5540.252,
+   'text': 'das heißt, das ist auch im CMS irgendwo,\xa0\n'
+           'es kommt also, guck mal, die Pfade hier,\xa0\xa0'},
+  {'duration': 9.56,
+   'start': 5546.772,
+   'text': 'das sind deine harten Draußenpfade, und du hast\xa0\n'
+           'wahrscheinlich intern auf den alten Pfad ohne\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 5556.332,
+   'text': 'den DE-Ordner verlinkt. Deine Seite hat gerade\xa0\n'
+           'einen Verarbeitungsfehler, warum auch immer,\xa0\xa0'},
+  {'duration': 9.0,
+   'start': 5565.052,
+   'text': 'müsste man vielleicht später noch mal\xa0\n'
+           'gucken. Wann war er da? Elfter Siebte,\xa0\xa0'},
+  {'duration': 8.44,
+   'start': 5576.532,
+   'text': 'vom Nutzer angegebene kanonische URL, du gibst die\xa0\n'
+           'kanonische URL auch richtig an, also den Ursprung,\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 5586.932,
+   'text': 'dann macht er halt den Hinweis, das stimmt\xa0\n'
+           'hier nicht mit der von mir gefundenen überein,\xa0\xa0'},
+  {'duration': 10.0,
+   'start': 5593.612,
+   'text': 'und das könnte natürlich ein starker Grund sein,\xa0\n'
+           'warum er das nicht indexiert. Und jetzt gucken wir\xa0\xa0'},
+  {'duration': 6.92,
+   'start': 5603.612,
+   'text': 'uns mal die echte an und untersuchen die auch\xa0\n'
+           'mal, die müsste eigentlich im Index sein, aber\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 5610.532,
+   'text': 'die ist im Index, ah, okay, habe ich dir schnell\xa0\n'
+           'gemacht, Roland, unter uns. Dann gucken wir mal,\xa0\xa0'},
+  {'duration': 5.84,
+   'start': 5618.132,
+   'text': 'wann der da war, achtzehnter Siebte, da war\xa0\n'
+           'der Google-Crawler da und hat festgestellt,\xa0\xa0'},
+  {'duration': 10.6,
+   'start': 5623.972,
+   'text': 'ich vertraue dir jetzt, es kann durchaus sein,\xa0\n'
+           'dass sich das jetzt einspielt, der kommt je nach\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 5634.572,
+   'text': 'Domain, du hast das vielleicht mit diesen alten\xa0\n'
+           'Links, da müsste ich die Seiten noch mal angucken.\xa0\xa0'},
+  {'duration': 15.56,
+   'start': 5641.012,
+   'text': 'Ich gebe dir, wir sind ja in der SEO-Sprechstunde,\xa0\n'
+           'ich gebe dir auch noch ein Tool an die Hand,\xa0\xa0'},
+  {'duration': 14.08,
+   'start': 5656.572,
+   'text': 'wo du das erkennst, jetzt noch mal Grüße an meinen\xa0\n'
+           'Kollegen vom Sorge-Team, das ist Matthias Hotz,\xa0\xa0'},
+  {'duration': 6.8,
+   'start': 5670.652,
+   'text': 'den ich sehr schätze, der hat, das ist kostenlos\xa0\n'
+           'übrigens, ein eigenes SEO-Tool, auch für alle,\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 5677.452,
+   'text': 'die keine bezahlten SEO-Tools haben, sind hier\xa0\n'
+           'sehr glücklich mit so einem Sorge, ich nehme das\xa0\xa0'},
+  {'duration': 7.76,
+   'start': 5684.212,
+   'text': 'gern in meiner Sprechstunde, den habe ich auch auf\xa0\n'
+           'der CampX getroffen, da haben wir uns gefreut. Was\xa0\xa0'},
+  {'duration': 5.8,
+   'start': 5691.972,
+   'text': 'habe ich gemacht? Ich habe deine Domain auch hier\xa0\n'
+           'durchgescannt, und wir waren jetzt gerade dabei,\xa0\xa0'},
+  {'duration': 5.08,
+   'start': 5700.412,
+   'text': 'ich habe hier den Deep-Crawl gemacht, den\xa0\n'
+           'SEO-Crawl, guck mal, hier könntest du sogar\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 5705.492,
+   'text': 'Suchvolumen analysieren, und das macht er alles\xa0\n'
+           'for free. Für die Leute, die ohne Geld ins\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 5712.532,
+   'text': 'SEO-Game einsteigen, bitte hier an Sorge gehen,\xa0\n'
+           'das ist ein wunderschönes Tool, ich nehme es gern,\xa0\xa0'},
+  {'duration': 11.08,
+   'start': 5720.572,
+   'text': 'weil ich auf einer Seite eine richtige Übersicht\xa0\n'
+           'bekomme, wie steht es da drum. Hier sieht man\xa0\xa0'},
+  {'duration': 5.64,
+   'start': 5731.652,
+   'text': 'dieses Spinnennetz, das in der Mitte ist\xa0\n'
+           'deine Domain, das sind die ganzen internen\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 5737.292,
+   'text': 'Verlinkungspunkte, von dort aus weiterverlinken,\xa0\n'
+           'tiefer, tiefer, das sind die ganzen Ebenen,\xa0\xa0'},
+  {'duration': 5.64,
+   'start': 5742.532,
+   'text': 'das kann man sogar anklicken und ein bisschen\xa0\n'
+           'rumspielen, wunderschön. Aber dann sieht man,\xa0\xa0'},
+  {'duration': 3.64,
+   'start': 5748.892,
+   'text': 'was so ist, er macht hier blaue und rote Punkte,\xa0\n'
+           'und dann gucken wir mal, was sind blaue und rote\xa0\xa0'},
+  {'duration': 14.8,
+   'start': 5752.532,
+   'text': 'Punkte, weil von den tausendzweihundert Seiten,\xa0\n'
+           'die er rausgejodelt hat, senden fünfhundert nur\xa0\xa0'},
+  {'duration': 10.92,
+   'start': 5767.332,
+   'text': 'einen Status okay, aber sechshundert senden\xa0\n'
+           'Status 301, das ist ein blaues Problem,\xa0\xa0'},
+  {'duration': 13.88,
+   'start': 5778.252,
+   'text': 'zum roten Problem kommen wir noch, aber bei dem\xa0\n'
+           'blauen Problem hast du scheinbar intern in deiner\xa0\xa0'},
+  {'duration': 6.84,
+   'start': 5792.132,
+   'text': 'Seite einen großen Anteil verlinkt, das ist eine\xa0\n'
+           'große Zahl, dann kannst du auf View gehen, und\xa0\xa0'},
+  {'duration': 11.84,
+   'start': 5798.972,
+   'text': 'dann gucken wir, was er da meint. Die Sortierung\xa0\n'
+           'müsste meiner Meinung nach anders sein, Matthias,\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 5810.812,
+   'text': 'wenn du zuguckst, auch Werbung für dich, aber ich\xa0\n'
+           'wünschte mir, dass dieses Link Found hier, er hat\xa0\xa0'},
+  {'duration': 8.48,
+   'start': 5819.092,
+   'text': 'das auf der Unterseite PHP-Glossar, du erkennst,\xa0\n'
+           'dass das ohne den Slash ist, aber du bist gar\xa0\xa0'},
+  {'duration': 12.92,
+   'start': 5827.572,
+   'text': 'nicht aufgerufen, da auf dieser Unterseite findet\xa0\n'
+           'er diesen internen Link, der dann irgendwie\xa0\xa0'},
+  {'duration': 10.36,
+   'start': 5841.492,
+   'text': 'weiterleitet, das soll man mal verstehen, ach,\xa0\n'
+           'das ist ein Bild. Bei der ist es einfacher,\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 5851.852,
+   'text': 'wir nehmen mal die zweite Zeile, hier, Link Found\xa0\n'
+           'On, und da ist ein aktuelles Netz, slash de,\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 5860.732,
+   'text': 'glossar, ki-tools, pricing, agent und so weiter,\xa0\n'
+           'und auf dieser Unterseite findet er eine URL,\xa0\xa0'},
+  {'duration': 9.56,
+   'start': 5869.812,
+   'text': 'diese hier, ohne den Parameter, und die\xa0\n'
+           'leitet aber dann weiter auf den Parameter,\xa0\xa0'},
+  {'duration': 13.2,
+   'start': 5880.652,
+   'text': 'verstehst du? Wir machen mal den Live-Check,\xa0\n'
+           'also auf der Unterseite, die schon ein DE hat,\xa0\xa0'},
+  {'duration': 11.96,
+   'start': 5893.852,
+   'text': 'sendest du hier ohne DE, mal gucken, was ist\xa0\n'
+           'das, Glossar, KI-Tools, Open Design Source,\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 5908.092,
+   'text': 'ein Link zu Open Design, jetzt gucken wir mal\xa0\n'
+           'nach Open Design, machen wir es mal händisch, ups,\xa0\xa0'},
+  {'duration': 10.52,
+   'start': 5913.292,
+   'text': 'kein Lesezeichen, sondern ein Scan der Seite,\xa0\n'
+           'Open Design, wahrscheinlich hier, und jetzt,\xa0\xa0'},
+  {'duration': 11.48,
+   'start': 5927.212,
+   'text': 'ich sehe es hier schon, das sind auf jeden Fall\xa0\n'
+           'technische Probleme. Du sagst, die Seite gibt es,\xa0\xa0'},
+  {'duration': 9.88,
+   'start': 5938.692,
+   'text': 'sie ist auch indexiert, aber hier auf dem Pfad\xa0\n'
+           'sagst du ihm, damit es auch die anderen sehen,\xa0\xa0'},
+  {'duration': 4.72,
+   'start': 5948.572,
+   'text': 'ich habe jetzt den internen Link rauskopiert,\xa0\n'
+           'und wenn ich den in meinem Browserfenster öffne,\xa0\xa0'},
+  {'duration': 11.76,
+   'start': 5953.292,
+   'text': 'sagst du hier, und da fehlt eben der DE-Pfad.\xa0\n'
+           'Verrückt, aber auch gut, schöner Fehler, hätte ich\xa0\xa0'},
+  {'duration': 10.12,
+   'start': 5965.052,
+   'text': 'die Hand ins Feuer gelegt, dass das richtig ist,\xa0\n'
+           'ist nicht schlimm, das passiert. Aber du weißt,\xa0\xa0'},
+  {'duration': 5.76,
+   'start': 5977.572,
+   'text': 'als Mensch werde ich weitergeleitet, ein\xa0\n'
+           'Glück, als Crawler sehe ich aber hier, dass\xa0\xa0'},
+  {'duration': 11.56,
+   'start': 5983.332,
+   'text': 'er mich intern dauerhaft weiterleiten will, eine\xa0\n'
+           'Weiterleitung könnte mich ja auch auf Spam-Content\xa0\xa0'},
+  {'duration': 10.04,
+   'start': 5994.892,
+   'text': 'leiten oder auf nicht korrekt von mir indexierte\xa0\n'
+           'Inhalte, ich folge dem mal, aber so hochwertig ist\xa0\xa0'},
+  {'duration': 7.72,
+   'start': 6004.932,
+   'text': 'das nicht. Aber das passiert intern bei dir auf\xa0\n'
+           'sechshundert Unterseiten, deswegen bekommst du\xa0\xa0'},
+  {'duration': 13.16,
+   'start': 6012.652,
+   'text': 'nicht tausendzweihundertmal okay, sondern eben so.\xa0\n'
+           'Und das ist ein schöner Fehler, weil du hingehen\xa0\xa0'},
+  {'duration': 4.48,
+   'start': 6025.812,
+   'text': 'und sagen kannst, okay, dann ziehe ich mir mal\xa0\n'
+           'diese Liste, die kannst du dir exportieren,\xa0\xa0'},
+  {'duration': 5.44,
+   'start': 6030.292,
+   'text': 'erst mal guckst du sie dir auf Sinnhaftigkeit an,\xa0\n'
+           'mit deinem Verständnis, schaffst du das, aber das\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 6035.732,
+   'text': 'zieht sich wahrscheinlich durch, immer wieder, und\xa0\n'
+           'dann ist da immer ein schöner Schritt zu sagen:\xa0\xa0'},
+  {'duration': 8.68,
+   'start': 6044.252,
+   'text': 'Das kann auch sein, dass, wenn ich diese Fehler\xa0\n'
+           'abstelle, vielleicht diese Vibe-Coding-Inhalte\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 6052.932,
+   'text': 'auch mal Berücksichtigung finden, und Google eben\xa0\n'
+           'sagt, ich habe schon tausend Seiten im Index,\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 6063.452,
+   'text': 'hier läuft mir zu viel, es gibt ja irgendwie\xa0\n'
+           'so ein Limit, was indexiert wird, oder er sagt,\xa0\xa0'},
+  {'duration': 7.72,
+   'start': 6070.892,
+   'text': 'bring den Rest mal in Ordnung, und dann gucke ich,\xa0\n'
+           'dass du mehr Kapazität bekommst. Das ist genau der\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 6078.612,
+   'text': 'richtige Ansatz, je sauberer dein Setup, desto\xa0\n'
+           'besser deine Indexierung, und bei internen Links\xa0\xa0'},
+  {'duration': 14.08,
+   'start': 6086.772,
+   'text': 'kann ich dir sogar sagen, interne Links vererben\xa0\n'
+           'auch den Link Juice, Google will ja wissen,\xa0\xa0'},
+  {'duration': 9.68,
+   'start': 6100.852,
+   'text': 'was finde ich auf dieser Unterseite. Hier sagst du\xa0\n'
+           'Claude Code, hier sagst du das und das, natürlich\xa0\xa0'},
+  {'duration': 9.32,
+   'start': 6110.532,
+   'text': 'kann das helfen, hier stehen ja Begriffe drauf,\xa0\n'
+           'Vibe-Coding, Einstieg in KI-gestützte Systeme,\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 6119.852,
+   'text': 'das ist ja auch alles Related Content. Wenn der\xa0\n'
+           'das auch hier, das ist übrigens das gleiche Ding,\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 6127.652,
+   'text': 'ich sehe es unten in meinem Browser auch, da fehlt\xa0\n'
+           'auch der DE-Pfad, vielleicht ist es das schon, oh,\xa0\xa0'},
+  {'duration': 7.68,
+   'start': 6133.692,
+   'text': 'Astro, ah, Astro, schön, aber hier, wenn du das\xa0\n'
+           'Vibe-Coding lernst, springt er erst auf diese\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 6141.372,
+   'text': 'Un-DE-Pfad-Nummer und springt dann von dir mit 301\xa0\n'
+           'rum, das ist halt irgendwie im Laufe des Bauens\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 6149.772,
+   'text': 'passiert, aber ja. Die hier sofort stärken mit dem\xa0\n'
+           'Fix interne Verlinkung. Wir waren ja vorhin bei\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 6158.172,
+   'text': 'den fünf wichtigsten Sachen im SEO-Game, es gibt\xa0\n'
+           'vielleicht hundert oder zweihundert, welche sind\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 6165.412,
+   'text': 'aber wirklich wichtig? Wir haben etwas Wichtiges\xa0\n'
+           'gefunden, weil interne Verlinkung wie ein interner\xa0\xa0'},
+  {'duration': 7.0,
+   'start': 6174.012,
+   'text': 'Backlink ist, den solltest du pflegen, solltest\xa0\n'
+           'du einfach machen, weil das vererbt Google,\xa0\xa0'},
+  {'duration': 9.2,
+   'start': 6182.892,
+   'text': 'vielleicht ist es das schon, kann man nie so genau\xa0\n'
+           'sagen. Wenn du nur indexiert bist, dann kannst du\xa0\xa0'},
+  {'duration': 6.0,
+   'start': 6192.092,
+   'text': 'sagen, wenn ich nur indexiert bin, kriege ich auch\xa0\n'
+           'keine Rankings, kann man an dieser Einzelmaßnahme,\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 6198.092,
+   'text': 'hatte ich auch schon, feststellen, okay, das war\xa0\n'
+           'dein Hauptfehler. Aber meistens ist es ein Pulk an\xa0\xa0'},
+  {'duration': 9.84,
+   'start': 6204.532,
+   'text': 'Fehlern oder ein Pulk an Vertrauenssignalen, das\xa0\n'
+           'ist eine größere Liste und mehrere Algorithmen,\xa0\xa0'},
+  {'duration': 11.72,
+   'start': 6214.372,
+   'text': 'versuch es im Pulk sauber zu spielen. Okay,\xa0\n'
+           'aber ja, würde ich bei dir auf Prio hochlegen,\xa0\xa0'},
+  {'duration': 7.4,
+   'start': 6226.092,
+   'text': 'und in meiner Vorbereitung ist das einer\xa0\n'
+           'der ersten Punkte. Jetzt muss man gucken,\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 6233.492,
+   'text': 'du hast ein Hreflang ohne Selbstverweis, gucken\xa0\n'
+           'wir mal, das kommt hier, glaube ich, auch noch in\xa0\xa0'},
+  {'duration': 6.28,
+   'start': 6239.012,
+   'text': 'der Liste, hier, Hreflang und es wird sogar ein\xa0\n'
+           'roter Fehler, Hreflang und Selbstverweis, okay,\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 6245.292,
+   'text': 'selbstverweist, okay, aber kennst du dich mit\xa0\n'
+           'Hreflang auch aus? Nein. Du hast eine Multi-,\xa0\xa0'},
+  {'duration': 11.44,
+   'start': 6253.452,
+   'text': 'ja, jetzt nicht mehr, aber doch, es gibt die\xa0\n'
+           'EN-Fahne komplett nicht mehr? Ja, die sind weg.\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 6264.892,
+   'text': 'Really? Ja. Darf ich dir dann eigentlich meinen\xa0\n'
+           'Master-Tipp geben, den ich dir schon anfangs\xa0\xa0'},
+  {'duration': 9.48,
+   'start': 6273.212,
+   'text': 'in unserer Kennenlernphase geben wollte? Da\xa0\n'
+           'war irgendwas mit diesem Canonical, guck mal,\xa0\xa0'},
+  {'duration': 5.56,
+   'start': 6282.692,
+   'text': 'wenn ich jetzt Never Code Alone aufrufe als meine\xa0\n'
+           'Adresse, dann bekomme ich auch einen Redirect,\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 6289.532,
+   'text': 'und der springt als allererstes in\xa0\n'
+           'deinen DE-Pfad, das ist ein Sprung,\xa0\xa0'},
+  {'duration': 6.88,
+   'start': 6296.892,
+   'text': 'und das ist noch ein Standard-SEO-Fehler.\xa0\n'
+           'Wir wollten das so machen, aber was passiert\xa0\xa0'},
+  {'duration': 9.32,
+   'start': 6303.772,
+   'text': 'technisch gesehen? Deine Domainauflösung hat im\xa0\n'
+           'Standard eine Weiterleitung, richtig, das ist wie,\xa0\xa0'},
+  {'duration': 9.32,
+   'start': 6313.092,
+   'text': 'die ist dauerhaft umgezogen. Wenn ich jetzt so\xa0\n'
+           'einen Statuscode-Checker anschmeiße, kenne ich den\xa0\xa0'},
+  {'duration': 4.2,
+   'start': 6322.412,
+   'text': 'Entwickler dahinter nicht, deshalb kann ich keine\xa0\n'
+           'Grüße geben, aber den nehme ich auch sehr gern,\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 6326.612,
+   'text': 'ich nehme hier Never Code Alone und mache\xa0\n'
+           'mal einen Canonical Domain Check mit dir.\xa0\xa0'},
+  {'duration': 16.52,
+   'start': 6334.092,
+   'text': 'Da müsste eigentlich, es gibt immer vier Varianten\xa0\n'
+           'deiner Domain, ohne HTTPS, mit www, mit S und www,\xa0\xa0'},
+  {'duration': 7.96,
+   'start': 6350.612,
+   'text': 'und du spielst deine Variante mit S und ohne,\xa0\n'
+           'völlig okay, jeder entscheidet sich für eine,\xa0\xa0'},
+  {'duration': 5.88,
+   'start': 6358.572,
+   'text': 'aber alle anderen drei sollten dann sauber\xa0\n'
+           'weiterleiten. Hier haben wir noch eine temporäre\xa0\xa0'},
+  {'duration': 10.6,
+   'start': 6364.452,
+   'text': 'Umleitung zwischengeschoben, die 301er sind hier\xa0\n'
+           'so weit richtig, sind aber dann eben auch doppelt,\xa0\xa0'},
+  {'duration': 3.84,
+   'start': 6376.372,
+   'text': 'und das wollte ich dir eigentlich\xa0\n'
+           'sagen, hier könnte man auch reingehen,\xa0\xa0'},
+  {'duration': 6.16,
+   'start': 6380.212,
+   'text': 'Domain-Status, Überprüfung, Auslieferung\xa0\n'
+           'des Contents, und bei dir passiert das,\xa0\xa0'},
+  {'duration': 9.24,
+   'start': 6387.332,
+   'text': 'deine Domain will aufgelöst werden, sagt aber, ich\xa0\n'
+           'mache nur 301 in den Pfad DE, geht das besser? Ja.\xa0\xa0'},
+  {'duration': 5.08,
+   'start': 6397.372,
+   'text': 'Ich hatte schon eine Beratung dazu, wenn ich\xa0\n'
+           'das insgesamt wegnehme. Ja, dann zerstörst du\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 6402.452,
+   'text': 'wieder deine Rankings. Total, genau, und da\xa0\n'
+           'müssen wir jetzt wirklich tiefer nachdenken,\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 6409.012,
+   'text': 'jetzt sind unsere zwei Stunden schon fast rum, wir\xa0\n'
+           'wissen immer noch nicht, wie wir mit Vibe-Coding\xa0\xa0'},
+  {'duration': 11.6,
+   'start': 6413.692,
+   'text': 'ranken. Echtes Consulting hier, man kommt wegen\xa0\n'
+           'einem Problem und geht mit mehreren Problemen,\xa0\xa0'},
+  {'duration': 11.92,
+   'start': 6425.292,
+   'text': 'die nichts mit dem ursprünglichen Problem zu tun\xa0\n'
+           'haben. Wir wollten Lösungen haben, es ist extrem\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 6437.212,
+   'text': 'abzuwägen, das schieben wir jetzt nicht in drei\xa0\n'
+           'Minuten durch, da musst du noch mal nachdenken,\xa0\xa0'},
+  {'duration': 13.52,
+   'start': 6442.452,
+   'text': 'ich muss auch noch mal nachdenken, wie viel\xa0\n'
+           'Ranking gibt es auf dem... Ich hätte natürlich,\xa0\xa0'},
+  {'duration': 12.24,
+   'start': 6455.972,
+   'text': 'ich möchte nur kurz sagen, bitte, Leute, macht mal\xa0\n'
+           'so einen Check, guckt euch das an, das ist okay,\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 6468.212,
+   'text': 'aber es ist wieder eine Weiterleitung, und guckt,\xa0\n'
+           'wie viele Weiterleitungen du produzierst. Du\xa0\xa0'},
+  {'duration': 5.08,
+   'start': 6473.452,
+   'text': 'produzierst hier eine Weiterleitung schon\xa0\n'
+           'auf deinem Gesamtcontent in den Pfad DE,\xa0\xa0'},
+  {'duration': 5.52,
+   'start': 6478.532,
+   'text': 'den du gar nicht mehr bräuchtest, dann produzierst\xa0\n'
+           'du in deinem Content noch interne Weiterleitungen.\xa0\xa0'},
+  {'duration': 9.8,
+   'start': 6484.052,
+   'text': 'Das war die größte Entscheidung, die Seite jemals\xa0\n'
+           'mehrsprachig gemacht zu haben. Wenn Auflösung,\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 6493.852,
+   'text': 'ich hatte die Beratung schon, dann müsste ich\xa0\n'
+           'aber auch, dann kommst du noch mal wieder,\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 6501.852,
+   'text': 'aber das muss man wirklich abschätzen, das\xa0\n'
+           'ist eine architektonische Entscheidung.\xa0\xa0'},
+  {'duration': 5.56,
+   'start': 6507.052,
+   'text': 'Das Schönste wäre natürlich, wenn sich die\xa0\n'
+           'Domain auflöst und dort sofort Inhalt liefert,\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 6512.612,
+   'text': 'das ist jetzt der Hinweis. Ob ich bei dir das\xa0\n'
+           'jetzt sofort abschneiden will, weiß ich noch\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 6518.092,
+   'text': 'nicht, muss man eine Plus-Minus-Liste machen,\xa0\n'
+           'auch Aufwand und Rankingzerstörung abwägen.\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 6526.492,
+   'text': 'Und wenn man Rankings zerstören möchte, dann musst\xa0\n'
+           'du wieder weiterleiten, du müsstest alle Pfade,\xa0\xa0'},
+  {'duration': 9.76,
+   'start': 6534.532,
+   'text': 'die du schon ins Ranking gebracht hast, alle\xa0\n'
+           'wieder weiterleiten, und da weiß ich nicht,\xa0\xa0'},
+  {'duration': 4.64,
+   'start': 6544.292,
+   'text': 'ob das dann so ist. Man muss auch mal in\xa0\n'
+           'die nächsten fünf Jahre gucken, du bist\xa0\xa0'},
+  {'duration': 7.6,
+   'start': 6548.932,
+   'text': 'eine DE-Domain, macht man sowas, weiß ich nicht,\xa0\n'
+           'vielleicht wird es ja auch wieder irgendwann im\xa0\xa0'},
+  {'duration': 4.96,
+   'start': 6556.532,
+   'text': 'Leben mehrsprachig. Richtig, vielleicht wird es\xa0\n'
+           'auch wieder mehrsprachig, und im ersten Rutsch,\xa0\xa0'},
+  {'duration': 4.52,
+   'start': 6561.492,
+   'text': 'muss ich dir ehrlich sagen, mein Gefühl sagt\xa0\n'
+           'gerade, lass es erst mal so. Ich wollte nur den\xa0\xa0'},
+  {'duration': 5.96,
+   'start': 6566.012,
+   'text': 'Hinweis dalassen, das passiert hier, aber verstehe\xa0\n'
+           'auch bitte den armen Crawler, der sagt, ich werde\xa0\xa0'},
+  {'duration': 5.32,
+   'start': 6571.972,
+   'text': 'weitergeleitet, und dann werde ich intern noch mal\xa0\n'
+           'weitergeleitet, und dann findet er irgendwann eine\xa0\xa0'},
+  {'duration': 7.0,
+   'start': 6577.292,
+   'text': 'Vibe-Coding-Unterseite, die aber hinter der\xa0\n'
+           'dritten Weiterleitung ist. Total, macht Sinn,\xa0\xa0'},
+  {'duration': 10.4,
+   'start': 6584.292,
+   'text': 'oder? Also, dann räume ich erst mal auf, und\xa0\n'
+           'wenn ich das aufgeräumt habe, man sieht ja,\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 6594.692,
+   'text': 'dass der Crawler recht regelmäßig vorbeikommt,\xa0\n'
+           'wird er das dann auch schnell verstehen.'},
+  {'duration': 6.76,
+   'start': 6603.212,
+   'text': 'Noch mal kurz zum SEO allgemein:\xa0\n'
+           'Jedes Ranking hängt an der URL,\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 6613.692,
+   'text': 'das Wichtige ist deine URL, die kommt aus\xa0\n'
+           'deiner Domain und ist Teil deiner Domain,\xa0\xa0'},
+  {'duration': 5.84,
+   'start': 6621.052,
+   'text': 'aber das Ranking passiert auf der Unter-URL, hier\xa0\n'
+           'ist das Ranking, du rankst ja nicht mit deiner\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 6626.892,
+   'text': 'Startseite, die Startseite ist meist nur eine\xa0\n'
+           'Brückenseite, die etwas durchleiten soll, aber\xa0\xa0'},
+  {'duration': 11.08,
+   'start': 6632.092,
+   'text': 'Rankings passieren auf URL-Ebene, und deswegen\xa0\n'
+           'ist die URL-Ebene wichtig, und da muss man gucken,\xa0\xa0'},
+  {'duration': 6.0,
+   'start': 6643.172,
+   'text': 'dass man diese URL-Strukturen halbwegs sauber\xa0\n'
+           'spielt. Hier kommen auch noch ein paar alte,\xa0\xa0'},
+  {'duration': 5.12,
+   'start': 6649.172,
+   'text': 'da müsste man mal gegenüberstellen, wie viel\xa0\n'
+           'von den alten Pfaden und wie viel von den neuen\xa0\xa0'},
+  {'duration': 9.92,
+   'start': 6654.292,
+   'text': 'Pfaden. Und wenn du hier sagst, PHPUnit, du willst\xa0\n'
+           'diesen Info-Content mitnehmen, PHPUnit-Testing,\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 6664.212,
+   'text': 'okay, aber da müsste man wirklich noch mal\xa0\n'
+           'reingehen, welche URL-Pfade sind schützenswert,\xa0\xa0'},
+  {'duration': 10.04,
+   'start': 6672.052,
+   'text': 'und was würde das ausmachen. Noch mal, eine URL\xa0\n'
+           'produziert dein Ranking, und die Nutzersignale,\xa0\xa0'},
+  {'duration': 6.36,
+   'start': 6682.092,
+   'text': 'die du darauf produzierst, sind es. Google\xa0\n'
+           'hat im letzten Leak gesagt, dass es bis zu\xa0\xa0'},
+  {'duration': 12.08,
+   'start': 6688.452,
+   'text': 'drei bis zehn Monate dauern kann, bis eine URL\xa0\n'
+           'die volle Beachtung bekommt. Drei bis zehn Monate,\xa0\xa0'},
+  {'duration': 5.0,
+   'start': 6700.532,
+   'text': 'indexiert zu werden ist der erste Schritt,\xa0\n'
+           'das sind dann bis zu zwölf Monate, weil das\xa0\xa0'},
+  {'duration': 6.48,
+   'start': 6705.532,
+   'text': 'Jahr zwölf Monate hat, aber weil sie festgestellt\xa0\n'
+           'haben, dass Feiertage wie Ostern oder Pfingsten\xa0\xa0'},
+  {'duration': 7.32,
+   'start': 6712.652,
+   'text': 'nicht immer am gleichen Tag im Jahr sind, das\xa0\n'
+           'ist auch verschoben, deshalb gibt es diese aus\xa0\xa0'},
+  {'duration': 5.36,
+   'start': 6719.972,
+   'text': 'dem Google-Leak extrahierte Erkenntnis, die wir\xa0\n'
+           'SEOs schon seit zwanzig Jahren gedacht haben,\xa0\xa0'},
+  {'duration': 4.88,
+   'start': 6725.332,
+   'text': 'die aber im Google-Leak vor ein, zwei Jahren\xa0\n'
+           'tatsächlich bestätigt wurde: Bis zu dreizehn\xa0\xa0'},
+  {'duration': 7.4,
+   'start': 6730.212,
+   'text': 'Monate kann es dauern, bis deine Unter-URL das\xa0\n'
+           'volle Ranking hat, weil Google Nutzersignale mit\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 6737.612,
+   'text': 'reinsaugt. Technisch schön zu sein, inhaltlich\xa0\n'
+           'schön zu sein, Autorität, Entität, alles schön,\xa0\xa0'},
+  {'duration': 9.6,
+   'start': 6747.212,
+   'text': 'aber am Ende muss jemand, der einen Suchbegriff\xa0\n'
+           'eingibt, auf der Seite bleiben. Also eingeben und\xa0\xa0'},
+  {'duration': 5.04,
+   'start': 6756.812,
+   'text': 'hier bleiben, wenn ich nur Schrott liefere,\xa0\n'
+           'scheinst du das nicht zu tun, sonst wärst du\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 6761.852,
+   'text': 'nicht in den Top zehn. Aber wenn die Verweildauer\xa0\n'
+           'etwas überdurchschnittlich zum Markt ist, dann\xa0\xa0'},
+  {'duration': 8.24,
+   'start': 6771.852,
+   'text': 'ist das fein, aber das scheint anzukommen, und\xa0\n'
+           'vielleicht ist das genau das, was die Zielgruppe\xa0\xa0'},
+  {'duration': 7.44,
+   'start': 6780.092,
+   'text': 'braucht, vielleicht ist die Zielgruppe so\xa0\n'
+           'unterwegs, dass sie sagt, dem vertraue ich hier,\xa0\xa0'},
+  {'duration': 9.0,
+   'start': 6787.532,
+   'text': 'dem vertraue ich auch diese lange Liste, die hier\xa0\n'
+           'unten kommt. Aber Nutzersignale, ich bin jetzt\xa0\xa0'},
+  {'duration': 7.72,
+   'start': 6796.532,
+   'text': 'hier im Google Chrome, und alle denken immer,\xa0\n'
+           'ich brauche Monster-Inhalt und Monster-Backlinks,\xa0\xa0'},
+  {'duration': 5.6,
+   'start': 6804.252,
+   'text': 'und ich sage dann, aber ganz ehrlich, du brauchst\xa0\n'
+           'auch gute Nutzersignale. Jemand, der nach ComfyUI\xa0\xa0'},
+  {'duration': 6.84,
+   'start': 6809.852,
+   'text': 'sucht, muss auf so einer Seite die maximale\xa0\n'
+           'Nutzererfahrung erfahren, das ist offizieller\xa0\xa0'},
+  {'duration': 7.12,
+   'start': 6816.692,
+   'text': 'Google-Sprech seit fünfzehn Jahren, maximale\xa0\n'
+           'Nutzererfahrung, die Frage ist, ist das hier\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 6823.812,
+   'text': 'maximale Nutzererfahrung, vielleicht, vielleicht\xa0\n'
+           'auch nicht, wenn das der beste deutsche Inhalt\xa0\xa0'},
+  {'duration': 6.44,
+   'start': 6830.572,
+   'text': 'ist, dann ist das der beste deutsche Inhalt. Du\xa0\n'
+           'stehst ja auf acht, alles schön, dann sind die\xa0\xa0'},
+  {'duration': 6.04,
+   'start': 6837.012,
+   'text': 'anderen sieben davor vielleicht nur ein Ticken\xa0\n'
+           'besser. Aber Nutzersignale werden über dreizehn\xa0\xa0'},
+  {'duration': 6.56,
+   'start': 6843.052,
+   'text': 'Monate gesammelt, laut Google-Leak inoffiziell\xa0\n'
+           'herausgefunden, das heißt, wenn wir jetzt was\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 6849.612,
+   'text': 'ändern, ist es das wert, dann machen wir das\xa0\n'
+           'erst mal nicht. Okay, wir sind schon ganz schön\xa0\xa0'},
+  {'duration': 8.8,
+   'start': 6859.812,
+   'text': 'weit vorwärtsgekommen, ich gebe dir diesen Crawl\xa0\n'
+           'hier mit, das ist jetzt der, es sind noch ein paar\xa0\xa0'},
+  {'duration': 10.04,
+   'start': 6868.612,
+   'text': 'andere Sachen. Was Code ist, gehe ich irgendwie\xa0\n'
+           'an, hier neunzehntausend paar, die gleich sind,\xa0\xa0'},
+  {'duration': 7.4,
+   'start': 6879.372,
+   'text': 'geiler Fehler, du hast neunzehntausend, die\xa0\n'
+           'spiegeln sich dann wahrscheinlich auf jeder\xa0\xa0'},
+  {'duration': 16.52,
+   'start': 6886.772,
+   'text': 'Unterseite. Lass uns sprechen, okay, und hier\xa0\n'
+           'AI-Testing, okay, dann ist das irgendwie so, es\xa0\xa0'},
+  {'duration': 8.56,
+   'start': 6903.292,
+   'text': 'ist ein Tool, immer noch, muss man das hier alles,\xa0\n'
+           'ich würde sagen technische Infrastruktur, das ist\xa0\xa0'},
+  {'duration': 10.24,
+   'start': 6911.852,
+   'text': 'der Content-Sektor, kann man gucken, manche\xa0\n'
+           'sagen, dass für KI-Extraktionen H2 wichtig sind,\xa0\xa0'},
+  {'duration': 6.4,
+   'start': 6922.892,
+   'text': 'aber wir hatten so ein "Lass uns sprechen" als\xa0\n'
+           'H2, die würde ich nicht als H2 deklarieren,\xa0\xa0'},
+  {'duration': 11.36,
+   'start': 6929.292,
+   'text': 'das stimmt, gleiches Spiel wieder, nur\xa0\n'
+           'wichtige Sachen als H2. Ich würde meinen,\xa0\xa0'},
+  {'duration': 6.08,
+   'start': 6940.652,
+   'text': 'wir sind mit der internen Verlinkung schon\xa0\n'
+           'gut am Start, die Hreflangs würde ich noch um\xa0\xa0'},
+  {'duration': 8.76,
+   'start': 6946.732,
+   'text': 'Selbstverweis auffüllen, das ist, obwohl du hast\xa0\n'
+           'jetzt wieder, ah, das ist trickreich, trotzdem,\xa0\xa0'},
+  {'duration': 8.76,
+   'start': 6955.492,
+   'text': 'in die Hreflangs gehört rein, dass man sich auch\xa0\n'
+           'selbst referenziert, diese DE-Seite sollte sich\xa0\xa0'},
+  {'duration': 6.112,
+   'start': 6964.252,
+   'text': 'selbst referenzieren, müsstest du mal nach\xa0\n'
+           'Hreflang Best Practice nachgucken, da gibt\xa0\xa0'},
+  {'duration': 7.168,
+   'start': 6970.364,
+   'text': 'es immer drei Sachen, meine deutsche, meine\xa0\n'
+           'englische, oder meine Hreflang selbst, die\xa0\xa0'},
+  {'duration': 5.24,
+   'start': 6977.532,
+   'text': 'Sprachen selbst, hier findest du meine englische,\xa0\n'
+           'hier meine deutsche, und das bin ich, fehlt da\xa0\xa0'},
+  {'duration': 5.8,
+   'start': 6982.772,
+   'text': 'gerade noch drin. Ob es jetzt monsterkritisch ist,\xa0\n'
+           'weiß ich nicht, warum es nicht bei allen kommt,\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 6988.572,
+   'text': 'weiß ich auch nicht, ich würde globale Probleme\xa0\n'
+           'immer zuerst angehen, globale Probleme sind das,\xa0\xa0'},
+  {'duration': 9.6,
+   'start': 6996.852,
+   'text': 'was du infrastrukturtechnisch liefern\xa0\n'
+           'und leisten kannst, und dann runtergehen,\xa0\xa0'},
+  {'duration': 7.0,
+   'start': 7006.452,
+   'text': 'die mittleren Probleme angehen, wenn\xa0\n'
+           'hier etwas ist, du bekommst ja den Scan.'},
+  {'duration': 16.6,
+   'start': 7013.452,
+   'text': 'So, was haben wir noch? Oh, bei dir ist was\xa0\n'
+           'laut im Hintergrund, hast du noch eine Frage,\xa0\xa0'},
+  {'duration': 18.12,
+   'start': 7030.052,
+   'text': 'Roland, oder bist du gar nicht mehr da? Okay.\xa0\n'
+           'Ja, war gerade ein Verbindungsproblem. Die,\xa0\xa0'},
+  {'duration': 17.72,
+   'start': 7048.172,
+   'text': 'was ich vorhin eigentlich machen wollte, aber\xa0\n'
+           'schnell genug bist du oder? Okay, Roland,\xa0\xa0'},
+  {'duration': 9.4,
+   'start': 7065.892,
+   'text': 'bist du noch da? Ja. Okay, ich bin jetzt mal kurz\xa0\n'
+           'von der technischen Sache weggegangen in Richtung\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 7075.292,
+   'text': 'Benutzer, Nutzererfahrung, und da gibt es ja den\xa0\n'
+           'PageSpeed-Insights-Test, den auch alle kennen. Die\xa0\xa0'},
+  {'duration': 4.84,
+   'start': 7082.452,
+   'text': 'Seite ist ja zu schnell für den User, die sagen,\xa0\n'
+           'ich soll einen Loading Spinner einbauen, damit die\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 7087.292,
+   'text': 'Seite lädt, weil sie den Wechsel auf dem Handy\xa0\n'
+           'sonst nicht merken, ich werde da Fade-Effekte,\xa0\xa0'},
+  {'duration': 10.2,
+   'start': 7094.652,
+   'text': 'eine Überblendung reinmachen, aber die Seite ist\xa0\n'
+           'schon schnell, er hatte aber auf dem Mobiltelefon\xa0\xa0'},
+  {'duration': 8.0,
+   'start': 7106.652,
+   'text': 'kurz ein Problem, und auf dem Computer geht es\xa0\n'
+           'besser, das war, glaube ich, mein Server mal,\xa0\xa0'},
+  {'duration': 4.76,
+   'start': 7115.772,
+   'text': 'der Computer-Wert war schon immer nicht so\xa0\n'
+           'schön. Also, ich bin jetzt noch mal kurz in\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 7120.532,
+   'text': 'der Google Search Console beim Thema globaler\xa0\n'
+           'PageSpeed. Es gibt den PageSpeed-Insights-Test,\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 7129.052,
+   'text': 'den man unter PageSpeed Insights kostenlos, ich\xa0\n'
+           'verstehe gar nicht, warum ich das sage, kostenlos\xa0\xa0'},
+  {'duration': 7.72,
+   'start': 7135.812,
+   'text': 'machen kann. Das ist ja der Redirect wieder,\xa0\n'
+           'dann... Das ist aber nur ein Laborwert. Okay,\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 7143.532,
+   'text': 'aber das ist jetzt die Seite, die eigentlich\xa0\n'
+           'redirected, eigentlich müsstest du ja noch auf\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 7148.212,
+   'text': 'slash de gehen, nee, ich nehme jetzt seine,\xa0\n'
+           'bei den Redirects, das Thema haben wir jetzt\xa0\xa0'},
+  {'duration': 6.32,
+   'start': 7154.812,
+   'text': 'erst mal ab, ach so, warte, stimmt, hier, ja, da\xa0\n'
+           'auch wieder redirected, aber er macht das schon,\xa0\xa0'},
+  {'duration': 11.6,
+   'start': 7161.652,
+   'text': 'ah, okay, Ergebnisse für slash de, okay, er\xa0\n'
+           'redirected den Kram, okay, Laborwerte, aber besser\xa0\xa0'},
+  {'duration': 7.96,
+   'start': 7173.252,
+   'text': 'als gar kein Wert. PageSpeed Insights ist der\xa0\n'
+           'PageSpeed-Test deiner Seite, bringt dir hier auch\xa0\xa0'},
+  {'duration': 7.48,
+   'start': 7181.212,
+   'text': 'ein paar interessante Informationen, für Mobile\xa0\n'
+           'oder Computer. Okay, das ist auch interessant,\xa0\xa0'},
+  {'duration': 12.24,
+   'start': 7188.692,
+   'text': 'dass dein Computer-Wert eigentlich gut ist, aber\xa0\n'
+           'hier in den Core Web Vitals, dem wichtigeren Wert,\xa0\xa0'},
+  {'duration': 9.52,
+   'start': 7200.932,
+   'text': 'die Core Web Vitals in der Google Search Console\xa0\n'
+           'sind echte Nutzerwerte, weil die kommen aus\xa0\xa0'},
+  {'duration': 6.96,
+   'start': 7210.452,
+   'text': 'dem UX-Bericht von Chrome, diese Daten stammen\xa0\n'
+           'aus dem Bericht zur Nutzererfahrung in Chrome,\xa0\xa0'},
+  {'duration': 4.68,
+   'start': 7217.412,
+   'text': 'sie spiegeln die tatsächlichen Nutzerdaten deiner\xa0\n'
+           'Webseite von Nutzern auf der ganzen Welt wider.\xa0\xa0'},
+  {'duration': 8.16,
+   'start': 7222.092,
+   'text': 'Das sind also reale Werte, wie lange das bei den\xa0\n'
+           'Leuten da draußen dauert, und da, grün ist grün,\xa0\xa0'},
+  {'duration': 5.0,
+   'start': 7230.252,
+   'text': 'kurzer Abschwung zu irgendwas, warum, weiß ich\xa0\n'
+           'jetzt nicht, müsste man auch wieder auf die Liste\xa0\xa0'},
+  {'duration': 6.2,
+   'start': 7235.252,
+   'text': 'legen, will ich es erforschen oder warte ich, bis\xa0\n'
+           'es sich von allein heilt. Das hier unten würde ich\xa0\xa0'},
+  {'duration': 10.28,
+   'start': 7241.452,
+   'text': 'heilen wollen, das sind deine Computerwerte\xa0\n'
+           'in real, du kannst hier reingehen und sagen,\xa0\xa0'},
+  {'duration': 7.8,
+   'start': 7251.732,
+   'text': 'was ist das Problem, warum bist du nicht grün,\xa0\n'
+           'es gibt grüne, aber nur siebenundvierzig Prozent,\xa0\xa0'},
+  {'duration': 12.48,
+   'start': 7259.532,
+   'text': 'welche sind hier optimierungswürdig, und dann sagt\xa0\n'
+           'er, es gibt einen CLS-Fehler auf dem Computer, den\xa0\xa0'},
+  {'duration': 9.72,
+   'start': 7272.012,
+   'text': 'könnte man wahrscheinlich auch mit einem Schlag\xa0\n'
+           'global erledigen, was sagst du. Das heißt also,\xa0\xa0'},
+  {'duration': 8.8,
+   'start': 7281.732,
+   'text': 'überall passiert auf der Ausspielung\xa0\n'
+           'vom Computer irgend so ein Fehlerchen,\xa0\xa0'},
+  {'duration': 27.16,
+   'start': 7292.252,
+   'text': 'interessanterweise liefert das externe\xa0\n'
+           'Modul hier diesen Bericht gar nicht,\xa0\xa0'},
+  {'duration': 13.8,
+   'start': 7319.412,
+   'text': 'das ist natürlich ein toller Vorführeffekt, da\xa0\n'
+           'müssen wir was Besseres finden. Er findet das auf\xa0\xa0'},
+  {'duration': 9.64,
+   'start': 7333.212,
+   'text': 'den Seiten, musst du die Gruppen mal durchgehen,\xa0\n'
+           'aber ich denke, es ist ein globales Problem,\xa0\xa0'},
+  {'duration': 12.64,
+   'start': 7343.412,
+   'text': 'Optimierung erforderlich und so weiter. Du bist\xa0\n'
+           'auch ein bisschen barrierefrei unterwegs, besser,\xa0\xa0'},
+  {'duration': 12.56,
+   'start': 7356.052,
+   'text': 'aber schon recht barrierearm, wie wir alle wissen,\xa0\n'
+           'kann man es nie allen recht machen, man versucht,\xa0\xa0'},
+  {'duration': 9.16,
+   'start': 7368.612,
+   'text': 'das Beste zu geben. Wäre es schöner gewesen,\xa0\n'
+           'wenn PageSpeed mir das hier ausgeliefert hätte,\xa0\xa0'},
+  {'duration': 11.4,
+   'start': 7377.772,
+   'text': 'dann könnte ich reingucken, was hast du für ein\xa0\n'
+           'Problem, und er sagt hier unten, wie schön ist\xa0\xa0'},
+  {'duration': 7.32,
+   'start': 7389.172,
+   'text': 'das, Anfragen zum Blockieren des Renderings, das\xa0\n'
+           'kann ich sogar noch ausklappen, und da sagt er,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 7397.092,
+   'text': 'Anfragen zum Blockieren des Renderings der\xa0\n'
+           'Seite, was den LCP verzögern kann. Okay,\xa0\xa0'},
+  {'duration': 11.44,
+   'start': 7403.612,
+   'text': 'das ist jetzt der LCP, und dann sagt er, guck mal,\xa0\n'
+           'hier werden Skripte geladen, ein Klaro-Mem-CSS,\xa0\xa0'},
+  {'duration': 13.04,
+   'start': 7417.932,
+   'text': 'das ist mein Cookie-Consent-Banner, vielleicht\xa0\n'
+           'muss der mal eine Pflege bekommen, Klaro-Custom\xa0\xa0'},
+  {'duration': 7.52,
+   'start': 7430.972,
+   'text': 'hat irgendeine Verzögerung, und dann noch\xa0\n'
+           'eine Website, Tralala Bild-Website-CSS,\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 7440.412,
+   'text': 'da können wir auf jeden Fall noch was machen.\xa0\n'
+           'Das werde ich auch fleißig auf YouTube machen\xa0\xa0'},
+  {'duration': 8.12,
+   'start': 7447.012,
+   'text': 'und als Tutorials veröffentlichen. Und\xa0\n'
+           'da natürlich immer auf Jörg hinweisen,\xa0\xa0'},
+  {'duration': 6.16,
+   'start': 7455.132,
+   'text': 'auf Jörg hinweisen, und immer bekommt er in der\xa0\n'
+           'Description einen Backlink. Jörg Zimmer, hallo,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 7461.972,
+   'text': 'ich bin Suchmaschinenoptimierer aus Leidenschaft,\xa0\n'
+           'ich mache das schon eine ganze Weile, bin jetzt\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 7468.492,
+   'text': 'voll dabei, auch in Richtung KI-SEO-Optimierung\xa0\n'
+           'zu gehen, das nennt man manchmal AI Search,\xa0\xa0'},
+  {'duration': 8.6,
+   'start': 7477.372,
+   'text': 'manchmal GEO. Da drücke ich dann mein\xa0\n'
+           'handwerkliches Wissen aus dem SEO obendrauf,\xa0\xa0'},
+  {'duration': 10.92,
+   'start': 7487.612,
+   'text': 'liebend gern für agentisches SEO oder auch für GEO\xa0\n'
+           'könnt ihr dann auch kommen, aber bitte erst mal\xa0\xa0'},
+  {'duration': 8.32,
+   'start': 7498.532,
+   'text': 'vorher das SEO alleine durchspielen, weil das GEO\xa0\n'
+           'machen wir dann hinten drauf als extra Baustein.'},
+  {'duration': 4.2,
+   'start': 7507.812,
+   'text': 'Ja, du Roland, ich weiß nicht, wir sind glaube ich\xa0\n'
+           'schon über die Zeit. Ja, wir sind durch, ich habe\xa0\xa0'},
+  {'duration': 5.04,
+   'start': 7512.012,
+   'text': 'auf jeden Fall eine Liste voll, ich habe Dinge,\xa0\n'
+           'die ich tun kann, ich kann das Teilen auch mal\xa0\xa0'},
+  {'duration': 10.96,
+   'start': 7517.052,
+   'text': 'beenden. Ja, teile mal. Und vielen Dank erst mal\xa0\n'
+           'für dieses hervorragende Feedback, den Einblick in\xa0\xa0'},
+  {'duration': 7.64,
+   'start': 7528.012,
+   'text': 'die Tools, wie ein Profi arbeitet, das ist immer\xa0\n'
+           'schön, da sind viele Dinge, die ich mitnehmen kann\xa0\xa0'},
+  {'duration': 8.4,
+   'start': 7535.652,
+   'text': 'und über die ich mich freue und die ich angehen\xa0\n'
+           'werde. Und wie gesagt, ich werde das machen,\xa0\xa0'},
+  {'duration': 8.08,
+   'start': 7544.052,
+   'text': 'ich werde das hier auf YouTube veröffentlichen,\xa0\n'
+           'ich werde da heute auch direkt einen nach vorne\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 7552.132,
+   'text': 'priorisieren, und freue mich darüber und\xa0\n'
+           'finde deine SEO-Sprechstunde wirklich toll,\xa0\xa0'},
+  {'duration': 7.04,
+   'start': 7561.332,
+   'text': 'das ist etwas, das jeder buchen und mit dir\xa0\n'
+           'machen sollte. Ich bin schon gut gebucht,\xa0\xa0'},
+  {'duration': 7.36,
+   'start': 7568.372,
+   'text': 'das ist fein, ich habe eine eigene, ihr\xa0\n'
+           'könnt mich gern suchen, Jörg Zimmer SEO,\xa0\xa0'},
+  {'duration': 9.04,
+   'start': 7575.732,
+   'text': 'ich habe eine eigene Vorzeigedomain aufgebaut,\xa0\n'
+           'da spiele ich ähnlich wie du, was ich lerne,\xa0\xa0'},
+  {'duration': 7.56,
+   'start': 7584.772,
+   'text': 'packe ich hinten ins Glossar. Hochinteressant.\xa0\n'
+           'Gab es denn, wir sind live gewesen,\xa0\xa0'},
+  {'duration': 5.68,
+   'start': 7592.332,
+   'text': 'vierundsechzig Zuschauer insgesamt, gab es\xa0\n'
+           'jetzt keine weiteren Nachfragen? Ich glaube,\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 7598.012,
+   'text': 'bei dir ist einfach auch sehr viel neues Wissen,\xa0\n'
+           'und die Leute sind glücklich mit uns in der\xa0\xa0'},
+  {'duration': 10.16,
+   'start': 7607.092,
+   'text': 'Kommunikation. Roland, vielen Dank, dass ich die\xa0\n'
+           'Chance hatte, hier zu deiner Audience zu sprechen,\xa0\xa0'},
+  {'duration': 5.2,
+   'start': 7617.932,
+   'text': 'dass ich überhaupt mal die Chance hatte, meine\xa0\n'
+           'Sprechstunde ein bisschen live zu präsentieren.\xa0\xa0'},
+  {'duration': 6.92,
+   'start': 7625.372,
+   'text': 'Das kommt immer auf den Einzelfall an, das hatte\xa0\n'
+           'ich ja im Vorfeld gesagt, jeder kommt mit einem\xa0\xa0'},
+  {'duration': 7.08,
+   'start': 7632.292,
+   'text': 'unterschiedlichen Setup, nicht jeder kommt mit\xa0\n'
+           'einer tausend Unterseiten großen Domain daher,\xa0\xa0'},
+  {'duration': 4.6,
+   'start': 7639.372,
+   'text': 'nicht jeder kommt mit technischem Verständnis\xa0\n'
+           'daher, manche wollen einfach nur Leads haben\xa0\xa0'},
+  {'duration': 5.4,
+   'start': 7643.972,
+   'text': 'und haben fünf bis zehn Unterseiten, und\xa0\n'
+           'dann muss man trotzdem erst mal gucken,\xa0\xa0'},
+  {'duration': 8.04,
+   'start': 7649.372,
+   'text': 'bist du indexiert, hast du eine Unterseite für\xa0\n'
+           'dein Hauptkeyword oder deine Hauptkeywörter,\xa0\xa0'},
+  {'duration': 8.64,
+   'start': 7657.412,
+   'text': 'was sind deine Hauptkeywörter. Bei dir würde ich,\xa0\n'
+           'wir hatten es vorhin schon kurz, wir haben es beim\xa0\xa0'},
+  {'duration': 7.84,
+   'start': 7666.052,
+   'text': 'PHP leider durchgespielt, weil das Gespräch uns so\xa0\n'
+           'geführt hat. Ich glaube, für Vibe-Coding bringen\xa0\xa0'},
+  {'duration': 11.88,
+   'start': 7673.892,
+   'text': 'wir dich auch dahin, aber das Spiel ist das\xa0\n'
+           'gleiche, du müsstest dann für Vibe-Coding-Kurse,\xa0\xa0'},
+  {'duration': 11.48,
+   'start': 7685.772,
+   'text': 'Vibe-Coding-Training, dafür bin ich zumindest\xa0\n'
+           'schon auf der Bahn. Ich hoffe, dass dann mit\xa0\xa0'},
+  {'duration': 10.04,
+   'start': 7697.252,
+   'text': 'besserem SEO diese ganzen Vibe-Coding-Seiten,\xa0\n'
+           'dass einfach mehr Seiten indexiert werden.'},
+  {'duration': 7.52,
+   'start': 7709.252,
+   'text': 'Bau doch mal, wir könnten noch kurz, ich würde das\xa0\n'
+           'jetzt bonusmäßig hinten dranhängen, ich sagte ja,\xa0\xa0'},
+  {'duration': 7.16,
+   'start': 7716.772,
+   'text': 'zum Schluss gibt es immer noch eine\xa0\n'
+           'Strategieberatung, ich würde an deiner Stelle,\xa0\xa0'},
+  {'duration': 10.72,
+   'start': 7724.812,
+   'text': 'wir kennen uns ja auch, ich würde echt überlegen,\xa0\n'
+           'ob du nicht Produkt-Unterseiten, sondern richtige\xa0\xa0'},
+  {'duration': 9.32,
+   'start': 7735.532,
+   'text': 'Lead-Landingpages baust, wo du wirklich sagst,\xa0\n'
+           'du hast da schon ein bisschen angefangen, aber\xa0\xa0'},
+  {'duration': 8.84,
+   'start': 7744.852,
+   'text': 'so eine richtige Landingpage sieht für mich ein\xa0\n'
+           'bisschen anders aus. Vielleicht gehst du da mit,\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 7753.692,
+   'text': 'ich bringe dir mal die Idee in den Raum: Wäre es\xa0\n'
+           'nicht schön für dich und die Kunden, wenn du eine\xa0\xa0'},
+  {'duration': 7.8,
+   'start': 7762.572,
+   'text': 'Unterseite oder vielleicht mehrere hättest,\xa0\n'
+           'die wirklich in Richtung Vibe-Coding-Kurs,\xa0\xa0'},
+  {'duration': 9.64,
+   'start': 7770.372,
+   'text': 'Vibe-Coding-Seminar, Vibe-Coding-Training oder\xa0\n'
+           'Workshop gehen. Nehmen wir das mal als großen\xa0\xa0'},
+  {'duration': 9.08,
+   'start': 7780.012,
+   'text': 'Block, eine schöne Seite, die aufgebaut ist\xa0\n'
+           'wie eine Landingpage. Es spricht viel für das\xa0\xa0'},
+  {'duration': 12.08,
+   'start': 7789.092,
+   'text': 'AIDA-Prinzip, Attention, Information, Desire,\xa0\n'
+           'Action. Oben ballerst du die Überschrift raus,\xa0\xa0'},
+  {'duration': 5.44,
+   'start': 7801.172,
+   'text': 'dass die Leute sich hier wiederfinden,\xa0\n'
+           'Vibe-Coding-Workshop und so weiter, du bringst\xa0\xa0'},
+  {'duration': 6.92,
+   'start': 7806.612,
+   'text': 'ein bisschen Information im ersten Abschnitt mit,\xa0\n'
+           'wir bringen Seminare, Trainings und so weiter,\xa0\xa0'},
+  {'duration': 9.2,
+   'start': 7813.532,
+   'text': 'weil dann vielleicht dieses Desire entsteht, du\xa0\n'
+           'hast auch festgestellt, dass du in deinem Code\xa0\xa0'},
+  {'duration': 9.48,
+   'start': 7822.732,
+   'text': 'gern mal ein zweites Auge brauchst, oder kommst\xa0\n'
+           'an einer Stelle nicht weiter, oder möchtest\xa0\xa0'},
+  {'duration': 5.92,
+   'start': 7832.212,
+   'text': 'ein Produkt fertigstellen, möchtest aber zur\xa0\n'
+           'Sicherheit, weil es ein wichtiger Kunde ist, noch\xa0\xa0'},
+  {'duration': 10.12,
+   'start': 7838.132,
+   'text': 'mal ein Auge draufhaben, diesen Wunsch dann unten\xa0\n'
+           'formulieren, wo du sagst, das kenne ich genau,\xa0\xa0'},
+  {'duration': 6.76,
+   'start': 7848.252,
+   'text': 'das weiß ich, und dann unten die Action. So eine\xa0\n'
+           'Landingpage würde meiner Meinung nach auch direkt\xa0\xa0'},
+  {'duration': 7.24,
+   'start': 7855.012,
+   'text': 'unten mit einem Formular enden, an deiner Stelle\xa0\n'
+           'würde ich sagen, wenn du dann Bock drauf hast,\xa0\xa0'},
+  {'duration': 8.88,
+   'start': 7862.812,
+   'text': 'hast du hier den seichten Weg. Du folgst uns auf\xa0\n'
+           'Social, du bringst viele Videos raus auf allen\xa0\xa0'},
+  {'duration': 9.36,
+   'start': 7871.692,
+   'text': 'Kanälen, dann wäre die leichte Soft-Conversion\xa0\n'
+           'irgendetwas wie Folgen oder Newsletter abonnieren,\xa0\xa0'},
+  {'duration': 12.04,
+   'start': 7881.052,
+   'text': 'er connectet sich erst mal mit dir, und die harte\xa0\n'
+           'Conversion wäre, er füllt das Formular aus, oder\xa0\xa0'},
+  {'duration': 7.68,
+   'start': 7893.092,
+   'text': 'sieht sogar unten eine Liste mit, du machst ein\xa0\n'
+           'monatliches Training, der nächste Workshop ist am,\xa0\xa0'},
+  {'duration': 8.28,
+   'start': 7900.772,
+   'text': 'online, offline, irgendwie so, dass er dann auch\xa0\n'
+           'direkt unten auf der Landingpage auschecken kann.\xa0\xa0'},
+  {'duration': 5.16,
+   'start': 7911.652,
+   'text': 'Wir können jetzt, ich will kein weiteres Fass\xa0\n'
+           'aufmachen, aber im Grunde genommen habe ich die\xa0\xa0'},
+  {'duration': 12.04,
+   'start': 7916.812,
+   'text': 'Vibe-Coding-Training-Seite schon so aufgebaut, und\xa0\n'
+           'da lass uns das auf jeden Fall noch mal angucken.\xa0\xa0'},
+  {'duration': 5.72,
+   'start': 7931.892,
+   'text': 'Also, das wäre so, da macht man auch Leute\xa0\n'
+           'glücklich, das Content-Universum ist schön,\xa0\xa0'},
+  {'duration': 6.72,
+   'start': 7937.612,
+   'text': 'das muss natürlich auch immer unten eine CTA haben\xa0\n'
+           'auf diese Landingpages, wo du dein Geld machst,\xa0\xa0'},
+  {'duration': 6.4,
+   'start': 7945.572,
+   'text': 'Webinar, Seminar, was auch immer, das muss\xa0\n'
+           'irgendwie einzahlen, dass du nicht nur den\xa0\xa0'},
+  {'duration': 5.48,
+   'start': 7951.972,
+   'text': 'Info-Content spielst, sondern die Leute auch den\xa0\n'
+           'zweiten wichtigen Klick in deiner Domain machen,\xa0\xa0'},
+  {'duration': 6.52,
+   'start': 7957.452,
+   'text': 'auf dein Angebot, dann macht es Sinn. Den hast du,\xa0\n'
+           'soweit ich gesehen habe, stimmt, du hast da aber\xa0\xa0'},
+  {'duration': 12.24,
+   'start': 7963.972,
+   'text': 'das Formular. Ich würde dir zu diesen Landingpages\xa0\n'
+           'raten, dass du mal alles, was du anbietest,\xa0\xa0'},
+  {'duration': 14.08,
+   'start': 7976.212,
+   'text': 'auf der Unterseite darstellst, zu den Kursen in\xa0\n'
+           'die Richtung gehst, und die sollten dann, wenn sie\xa0\xa0'},
+  {'duration': 6.6,
+   'start': 7990.292,
+   'text': 'gut verlinkt sind und mit guten Suchwörtern an den\xa0\n'
+           'richtigen Stellen versehen, auch rechnen. Alles\xa0\xa0'},
+  {'duration': 5.28,
+   'start': 7996.892,
+   'text': 'klar, lasst uns das in Zukunft wieder anschauen,\xa0\n'
+           'ich würde sagen, wir verabschieden uns erst mal\xa0\xa0'},
+  {'duration': 8.52,
+   'start': 8002.172,
+   'text': 'von den Leuten, und bei Fragen nehmt mit Jörg\xa0\n'
+           'Kontakt auf, der ist über LinkedIn zu finden\xa0\xa0'},
+  {'duration': 6.0,
+   'start': 8010.692,
+   'text': 'und auf allen anderen Kanälen auch, das ist hier\xa0\n'
+           'unten alles verlinkt. Und damit würde ich sagen,\xa0\xa0'},
+  {'duration': 6.68,
+   'start': 8016.692,
+   'text': 'sind hier noch mal zwei Videos, und wir sind erst\xa0\n'
+           'mal raus. Bis dann, tschüss, tschüss, dankeschön.'}]]

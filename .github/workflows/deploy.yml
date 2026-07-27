@@ -54,7 +54,7 @@ jobs:
           pass: ${{ secrets.FTP_PASSWORD }}
           localDir: './dist'
           remoteDir: '.'
-          options: '--verbose --parallel=4 --delete'
+          options: '--verbose --parallel=4 --delete --exclude videos/'
 
       - name: Trigger IONOS .htaccess Activation
         run: |

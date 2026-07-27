@@ -1,9 +1,9 @@
-# Cloudflare Agent Readiness & Content Signals (contentsignals.org)
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
-
 # Standard Crawlers
 User-agent: *
 Allow: /
+
+# Cloudflare Agent Readiness & Content Signals (contentsignals.org)
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 
 # Top 30+ AI & LLM Specialists (April 2026 - Ordered by Crawl Volume)
 # -------------------------------------------------------------------

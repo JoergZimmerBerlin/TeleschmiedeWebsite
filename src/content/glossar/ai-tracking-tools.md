@@ -65,7 +65,7 @@ Wer sich 2026 bei der Budget-Vergabe und Strategieplanung ausschließlich auf di
 
 ## Mein Tacheles Setup für echtes Tracking
 
-In meiner täglichen Arbeit nutze ich eine kompromisslose Kombination aus tiefgreifender Logfile-Analyse (um die harten technischen Zugriffe auf `llms.txt` und Markdown-Endpunkte in Echtzeit zu sehen) und spezialisierter Premium-Software (wie Rankscale) für die externe Überwachung der Zitationen. 
+In meiner täglichen Arbeit nutze ich eine kompromisslose Kombination aus tiefgreifender Logfile-Analyse (um die harten technischen Zugriffe auf `llms.txt` und Markdown-Endpunkte in Echtzeit zu sehen) und spezialisierter Premium-Software (wie [Rankscale](https://rankscale.ai/?via=offer)) für die externe Überwachung der Zitationen. 
 
 Der Prozess ist immer der gleiche: Sobald wir die Website eines Kunden radikal für die KI umgebaut haben, schlägt das Tracking an. Wir sehen live in den eigenen Logs, wie die Crawler im Minutentakt verarbeiten. Und wir sehen in den AI Tracking Dashboards, wie sich der Share of Model wenige Wochen später massiv nach oben bewegt, weil die RAG-Pipelines der Modelle endlich verlässliche Daten finden, denen sie vertrauen können.
 

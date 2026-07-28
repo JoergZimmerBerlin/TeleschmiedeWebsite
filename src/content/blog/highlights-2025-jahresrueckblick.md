@@ -39,7 +39,7 @@ Das war der Moment, in dem ich mir keine Freunde in der "Billig-Schiene" gemacht
 
 Wer 25 Jahre Erfahrung hat, wer hunderte Relaunches begleitet hat, wer technische Audits im Schlaf macht – der darf nicht zum Preis eines Fliesenlegers (nichts gegen Fliesenleger!) arbeiten. Die Diskussion war lebhaft, um es vorsichtig auszudrücken. Aber am Ende blieb hängen: Qualität hat ihren Preis. Und wer billig kauft, kauft meistens zweimal (oder verliert seine Rankings).
 
-### 2. Der Aufstieg des AI-Trackings: Rankscale im Fokus
+### 2. Der Aufstieg des AI-Trackings: [Rankscale](https://rankscale.ai/?via=offer) im Fokus
 
 2025 war das Jahr, in dem wir aufhören mussten, nur klassische Rankings zu zählen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> kam einer der ersten Tracker auf den Markt, der wirklich ernsthaft die Sichtbarkeit in 17 verschiedenen LLMs (Large Language Models) gemessen hat. 
 

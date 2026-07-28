@@ -45,7 +45,7 @@ Je nach Intensität und Projekt: jede Woche, jeden Monat oder wie es mir passt.
 
 Immer mit Vergleich und Historie. Spart mir 'ne Menge Zeit und finde ich clever.
 
-Für alle ohne SE Ranking Account ist das ebenfalls für 14 Tage kostenlos möglich. Hier ist mein Partner-Link zum Website Audit Check: [SE Ranking Testen](https://seranking.com/de/website-audit.html?ga=4169588&source=link)
+Für alle ohne [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Account ist das ebenfalls für 14 Tage kostenlos möglich. Hier ist mein Partner-Link zum Website Audit Check: [SE Ranking Testen](https://seranking.com/de/website-audit.html?ga=4169588&source=link)
 
 Wie trackst du die Gesundheit deiner Websiten?
 

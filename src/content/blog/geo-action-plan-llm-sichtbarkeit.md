@@ -67,7 +67,7 @@ Nimm dir eine Stunde Zeit und stelle den KIs spezifische Fragen zu deinem Fachge
 - "Was kannst du mir über [Deine Brand/Deinen Namen] sagen?"
 
 #### Die Daten-Variante (Scalable Audit)
-Wenn du es professioneller willst, nutze Tools wie <a href="/blog/rankscale-ai-visibility-tool/">Rankscale</a> oder den AI Tracker von SE Ranking. 
+Wenn du es professioneller willst, nutze Tools wie <a href="/blog/rankscale-ai-visibility-tool/">Rankscale</a> oder den AI Tracker von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). 
 
 **Worauf du achten musst:**
 - **Mentions:** Fällt dein Name überhaupt?
@@ -171,7 +171,7 @@ ALOHA! 🌻✌️
 
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du dein echtes KI-Ranking wissen?</h3>
-  <p class="mb-6 opacity-90">Hör auf zu raten. Mit dem **Rankscale Page Audit** siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten. Das ist der ultimative Tacheles-Check für dein Business.</p>
+  <p class="mb-6 opacity-90">Hör auf zu raten. Mit dem **[Rankscale](https://rankscale.ai/?via=offer) Page Audit** siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten. Das ist der ultimative Tacheles-Check für dein Business.</p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Rankscale Page Audit 🌻</a>
 </div>
 

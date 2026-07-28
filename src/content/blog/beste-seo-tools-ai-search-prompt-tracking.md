@@ -37,34 +37,34 @@ Die meisten großen SEO-Suiten (ihr kennt sie alle: Sistrix, Semrush, Ahrefs) wu
 
 Wer heute "AI-SEO" oder <a href="/glossar/geo/">GEO (Generative Engine Optimization)</a> betreiben will, muss verstehen, wie die KI seinen Content verarbeitet. Und genau hier trennt sich die Spreu vom Weizen.
 
-## 1. RankScale: Der Laser-Fokus auf AI Visibility
+## 1. [Rankscale](https://rankscale.ai/?via=offer): Der Laser-Fokus auf AI Visibility
 
-Wenn wir über echtes Prompt-Tracking sprechen, ist **RankScale** momentan das Maß der Dinge. Warum? Weil sie nicht versuchen, alles ein bisschen zu können, sondern sich voll auf die Messung von KI-Sichtbarkeit konzentrieren.
+Wenn wir über echtes Prompt-Tracking sprechen, ist **[Rankscale](https://rankscale.ai/?via=offer)** momentan das Maß der Dinge. Warum? Weil sie nicht versuchen, alles ein bisschen zu können, sondern sich voll auf die Messung von KI-Sichtbarkeit konzentrieren.
 
-### Was RankScale kann (und warum du es brauchst)
+### Was [Rankscale](https://rankscale.ai/?via=offer) kann (und warum du es brauchst)
 
 Das Herzstück ist der **Cite-Tracker**. Das Tool stellt hunderten von KI-Modellen (ChatGPT, Perplexity, Gemini, Claude, SearchGPT etc.) gezielte Fragen zu deiner Branche und deinen Keywords. Es analysiert dann in Echtzeit:
 - Wird deine Website als Quelle genannt?
 - In welchem Kontext wird deine Marke erwähnt?
 - Welche Wettbewerber werden stattdessen zitiert?
 
-Ein weiteres Highlight ist das **RAG-Ready Audit**. Es zeigt dir, ob dein Content für den <a href="/glossar/rag/">Retrieval-Augmented Generation (RAG)</a> Prozess geeignet ist. Wenn die KI deinen Text nicht "versteht", kann sie ihn auch nicht zitieren. RankScale liefert freundlichen Klartext und zeigt dir, wo du semantisch nachbessern musst.
+Ein weiteres Highlight ist das **RAG-Ready Audit**. Es zeigt dir, ob dein Content für den <a href="/glossar/rag/">Retrieval-Augmented Generation (RAG)</a> Prozess geeignet ist. Wenn die KI deinen Text nicht "versteht", kann sie ihn auch nicht zitieren. [Rankscale](https://rankscale.ai/?via=offer) liefert freundlichen Klartext und zeigt dir, wo du semantisch nachbessern musst.
 
 - **Vorteil:** Unschlagbar präzise bei KI-Mentions und Zitaten.
 - **Nachteil:** Kein klassisches All-in-One SEO Tool (ersetzt kein Backlink-Audit).
 - **Kosten:** Es gibt verschiedene Pakete, Einsteiger-Lizenz startet moderat für den gebotenen Tiefgang.
 
-👉 **Hier geht's direkt zu RankScale:** <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">RankScale testen und KI-Sichtbarkeit messen</a>
+👉 **Hier geht's direkt zu [Rankscale](https://rankscale.ai/?via=offer):** <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">RankScale testen und KI-Sichtbarkeit messen</a>
 
-## 2. SE Ranking: Das solide Fundament für alles
+## 2. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link): Das solide Fundament für alles
 
-Bevor du über Prompts und Zitate nachdenkst, muss dein technisches Gerüst stehen. Pfusch am Bau rächt sich hier sofort. **SE Ranking** ist mein "Daily Driver" für das klassische Handwerk.
+Bevor du über Prompts und Zitate nachdenkst, muss dein technisches Gerüst stehen. Pfusch am Bau rächt sich hier sofort. **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)** ist mein "Daily Driver" für das klassische Handwerk.
 
-### Warum SE Ranking für KI-SEO wichtig ist
+### Warum [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für KI-SEO wichtig ist
 
-Damit ChatGPT oder ein anderer Agent deine Seite als Quelle nutzt, muss er sie erst einmal finden und verarbeiten können. SE Ranking liefert hierfür den besten **Website Audit** im Preis-Leistungs-Verhältnis. Es findet kaputte <a href="/glossar/canonical-tag/">Canonical Tags</a>, 404-Fehler oder fehlende Schema-Markups schneller, als du "Senior" sagen kannst.
+Damit ChatGPT oder ein anderer Agent deine Seite als Quelle nutzt, muss er sie erst einmal finden und verarbeiten können. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) liefert hierfür den besten **Website Audit** im Preis-Leistungs-Verhältnis. Es findet kaputte <a href="/glossar/canonical-tag/">Canonical Tags</a>, 404-Fehler oder fehlende Schema-Markups schneller, als du "Senior" sagen kannst.
 
-Zusätzlich bietet SE Ranking mittlerweile erste KI-Funktionen im Content Editor an, die dir helfen, die semantische Dichte deiner Texte zu erhöhen. Das ist die absolute Basis für jede KI-Strategie.
+Zusätzlich bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) mittlerweile erste KI-Funktionen im Content Editor an, die dir helfen, die semantische Dichte deiner Texte zu erhöhen. Das ist die absolute Basis für jede KI-Strategie.
 
 - **Vorteil:** Extrem benutzerfreundlich, wahnsinnig gute Datenqualität beim Rank-Tracking.
 - **Nachteil:** Fokus liegt noch stärker auf klassischen Suchmaschinen (Google).
@@ -96,16 +96,16 @@ Hier ist die Übersicht, damit du nicht den Überblick verlierst (wer CEO-Sprach
 
 | Tool | Fokus | Hauptfunktion für KI | Preisklasse | Empfehlung |
 | :--- | :--- | :--- | :--- | :--- |
-| **RankScale** | AI Visibility | Cite-Tracker & Prompt Tracking | Mittel | Für Fortgeschrittene & GEO-Strategen |
-| **SE Ranking** | All-in-One SEO | Audit & Keyword Tracking | Günstig-Mittel | Mein Tipp für die tägliche Arbeit |
+| **[Rankscale](https://rankscale.ai/?via=offer)** | AI Visibility | Cite-Tracker & Prompt Tracking | Mittel | Für Fortgeschrittene & GEO-Strategen |
+| **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)** | All-in-One SEO | Audit & Keyword Tracking | Günstig-Mittel | Mein Tipp für die tägliche Arbeit |
 | **Search Console** | Indexierung | Google AI Overviews | Gratis | Zwingend für jeden Webmaster |
 | **SEORCH** | OnPage Check | Technische Basisprüfung | Gratis | Super für den schnellen Check zwischendurch |
 
 ## Checkliste: So wählst du dein Tool-Set
 
 1. **Definiere dein Ziel:** Willst du nur bei Google ranken oder willst du in den KI-Antworten als Experte auftauchen?
-2. **Prüfe dein Fundament:** Ist deine Seite technisch sauber? Wenn nein -> **SE Ranking** oder **SEORCH** nutzen.
-3. **Gehe in den Angriff:** Willst du wissen, was ChatGPT, Perplexity und Claude über dich schreiben? Dann brauchst du **RankScale**.
+2. **Prüfe dein Fundament:** Ist deine Seite technisch sauber? Wenn nein -> **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)** oder **SEORCH** nutzen.
+3. **Gehe in den Angriff:** Willst du wissen, was ChatGPT, Perplexity und Claude über dich schreiben? Dann brauchst du **[Rankscale](https://rankscale.ai/?via=offer)**.
 4. **Monitoring:** Verlass dich nicht auf einmalige Checks. KI-Modelle werden ständig geupdatet. Ein wöchentliches Tracking ist Pflicht.
 
 ## Warum "Habe fertig" nicht mehr reicht

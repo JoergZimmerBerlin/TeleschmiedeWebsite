@@ -81,7 +81,7 @@ Diese Jungs bauen nicht nur schöne Seiten, sie bauen Verkaufsmaschinen.
 
 ### Technik, WordPress, KI und Projektpraxis: Das Rückgrat
 
-Das Backend muss stabil sein. Wenn die Technik hakt, bringt dir das beste Marketing nichts. Wir haben Leute am Start, die sich tief in WordPress eingraben, moderne KI-Lösungen implementieren, API-Schnittstellen wie die SE Ranking API anbinden und dafür sorgen, dass Projekte nicht nur auf dem Papier existieren, sondern auch erfolgreich in der Praxis umgesetzt werden.
+Das Backend muss stabil sein. Wenn die Technik hakt, bringt dir das beste Marketing nichts. Wir haben Leute am Start, die sich tief in WordPress eingraben, moderne KI-Lösungen implementieren, API-Schnittstellen wie die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API anbinden und dafür sorgen, dass Projekte nicht nur auf dem Papier existieren, sondern auch erfolgreich in der Praxis umgesetzt werden.
 
 Unsere Technik- und Projekt-Cracks:
 - **Silvio Endruhn**

@@ -5,31 +5,11 @@ description: Commits and pushes changes to the main branch to trigger the automa
 // turbo-all
 This workflow automates the process of pushing changes to production.
 
-1. Ensure all relevant files are staged.
-// turbo
-2. Commit the changes.
+1. Das Deployment erfordert Netzwerkzugriff (GitHub, IONOS, Google Search Console). Du **MUSST zwingend** `BypassSandbox: true` verwenden, wenn du das Deployment-Skript ausführst! Ansonsten friert der Vorgang stumm ein.
+
+2. Führe das zentrale Deployment-Skript aus und übergib eine passende Commit-Message:
 ```bash
-git commit -m "Deployment: [description of changes]"
-```
-// turbo
-3. Prepare GSC URLs.
-```bash
-node scripts/gsc-auto-push.mjs --prepare
-```
-// turbo
-4. Push the changes to the main branch.
-```bash
-git push origin main
-```
-// turbo
-5. Wait for the server to build and go live.
-```bash
-rm -f dist/build.txt && node scripts/wait-for-live.mjs https://teleschmie.de
-```
-// turbo
-6. Push updated URLs to Google Search Console.
-```bash
-node scripts/gsc-auto-push.mjs --execute
+bash scripts/deploy.sh "Deployment: [kurze Beschreibung der Änderungen]"
 ```
 
 **WICHTIG (IONOS Hosting):**

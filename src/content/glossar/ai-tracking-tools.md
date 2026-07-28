@@ -42,7 +42,7 @@ Ein modernes AI Tracking Tool simuliert diese Prompts. Es geht nicht mehr primä
 Vergiss klassische Keyword-Rankings. Die sind bestenfalls noch ein Indikator von gestern. Hier sind die echten KPIs (Key Performance Indicators), auf die wir heute schauen:
 
 #### 1. Share of Model (SoM)
-Das ist der "Share of Voice" der KI-Ära. Share of Model (SoM) berechnet den Prozentsatz, wie oft deine Marke von einem KI-Modell empfohlen oder erwähnt wird, wenn Nutzer branchenrelevante Fragen stellen. Wenn dein SoM sinkt, bist du im Informations-Ökosystem unsichtbar. Tools wie <a href="https://rankscale.ai/" target="_blank" rel="noopener noreferrer">Rankscale.ai</a> und <a href="https://shareofmodel.ai/" target="_blank" rel="noopener noreferrer">Shareofmodel.ai</a> haben diese Metrik standardisiert.
+Das ist der "Share of Voice" der KI-Ära. Share of Model (SoM) berechnet den Prozentsatz, wie oft deine Marke von einem KI-Modell empfohlen oder erwähnt wird, wenn Nutzer branchenrelevante Fragen stellen. Wenn dein SoM sinkt, bist du im Informations-Ökosystem unsichtbar. Tools wie [Rankscale.ai](https://rankscale.ai/?via=offer) und <a href="https://shareofmodel.ai/" target="_blank" rel="noopener noreferrer">Shareofmodel.ai</a> haben diese Metrik standardisiert.
 
 #### 2. RAG-Hitrate und Zitationen
 Wenn ein Modell via RAG das Web durchsucht: Wirst du als harte Quelle (Citation) in den Fußnoten der KI verlinkt? KI-Tracking Tools feuern tausende Prompts ab und messen präzise, ob deine aufbereiteten Daten von den RAG-Pipelines geschluckt werden. Eine hohe Hitrate bedeutet, deine Agent Readiness Architektur funktioniert.

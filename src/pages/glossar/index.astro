@@ -61,18 +61,23 @@ const categories = [
       <!-- Search Bar -->
       <div class="blog-filter-wrapper mb-12">
         <div class="search-bar-wrapper mb-2">
-          <div class="search-bar">
-            <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-            <input 
-              type="text" 
-              id="glossar-search" 
-              placeholder="Begriff suchen (z.B. Core Web Vitals)..." 
-              class="search-input"
-              autocomplete="off"
-            />
-          </div>
+          <form class="search-bar" id="glossar-search-form">
+            <div class="relative w-full flex items-center">
+              <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input 
+                type="search" 
+                id="glossar-search" 
+                placeholder="Begriff suchen (z.B. Core Web Vitals)..." 
+                class="search-input"
+                autocomplete="off"
+              />
+            </div>
+            <button type="submit" class="search-btn bg-lime-accent text-dark font-bold px-4 py-3 md:px-6 rounded-xl hover:bg-[#c2e600] transition-colors ml-3 shadow-sm whitespace-nowrap">
+              Suchen
+            </button>
+          </form>
         </div>
       </div>
 
@@ -143,70 +148,82 @@ const categories = [
   />
 </Layout>
 
-<script>
-  function initGlossarSearch() {
-    const searchInput = document.getElementById('glossar-search') as HTMLInputElement;
+<script is:inline>
+  function doGlossarSearch() {
+    const searchInput = document.getElementById('glossar-search');
+    if (!searchInput) return;
+    
+    const term = searchInput.value.toLowerCase();
     const cards = document.querySelectorAll('.glossar-card');
     const allLinks = document.querySelectorAll('.all-glossar-link');
     const noResults = document.getElementById('no-results');
     const featuredTitle = document.getElementById('featured-title');
     const allEntriesList = document.getElementById('all-entries-list');
+    
+    let visibleCount = 0;
 
-    searchInput?.addEventListener('input', (e) => {
-      const term = (e.target as HTMLInputElement).value.toLowerCase();
-      let visibleCount = 0;
+    cards.forEach(card => {
+      const title = card.getAttribute('data-title') || '';
+      const desc = card.getAttribute('data-desc') || '';
 
-      // Filter featured cards
-      cards.forEach(card => {
-        const title = card.getAttribute('data-title') || '';
-        const desc = card.getAttribute('data-desc') || '';
-
-        if (term === '') {
-          card.classList.remove('hidden');
-          card.style.display = '';
-        } else {
-          if (title.includes(term) || desc.includes(term)) {
-            card.classList.remove('hidden');
-            card.style.display = 'block';
-            visibleCount++;
-          } else {
-            card.classList.add('hidden');
-            card.style.display = 'none';
-          }
-        }
-      });
-
-      // Filter all links
-      allLinks.forEach(link => {
-        const title = link.getAttribute('data-title') || '';
-        if (term === '') {
-          link.classList.remove('hidden');
-        } else {
-          if (title.includes(term)) {
-            link.classList.remove('hidden');
-            visibleCount++;
-          } else {
-            link.classList.add('hidden');
-          }
-        }
-      });
-
-      // Toggle No Results and section titles
-      if (term !== '') {
-        if (featuredTitle) featuredTitle.classList.add('hidden');
-        if (visibleCount === 0) {
-          if (noResults) noResults.classList.remove('hidden');
-          if (allEntriesList) allEntriesList.classList.add('hidden');
-        } else {
-          if (noResults) noResults.classList.add('hidden');
-          if (allEntriesList) allEntriesList.classList.remove('hidden');
-        }
+      if (term === '') {
+        card.classList.remove('hidden');
+        card.style.display = '';
       } else {
-        if (featuredTitle) featuredTitle.classList.remove('hidden');
+        if (title.includes(term) || desc.includes(term)) {
+          card.classList.remove('hidden');
+          card.style.display = 'block';
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+          card.style.display = 'none';
+        }
+      }
+    });
+
+    allLinks.forEach(link => {
+      const title = link.getAttribute('data-title') || '';
+      if (term === '') {
+        link.classList.remove('hidden');
+      } else {
+        if (title.includes(term)) {
+          link.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          link.classList.add('hidden');
+        }
+      }
+    });
+
+    if (term !== '') {
+      if (featuredTitle) featuredTitle.classList.add('hidden');
+      if (visibleCount === 0) {
+        if (noResults) noResults.classList.remove('hidden');
+        if (allEntriesList) allEntriesList.classList.add('hidden');
+      } else {
         if (noResults) noResults.classList.add('hidden');
         if (allEntriesList) allEntriesList.classList.remove('hidden');
       }
-    });
+    } else {
+      if (featuredTitle) featuredTitle.classList.remove('hidden');
+      if (noResults) noResults.classList.add('hidden');
+      if (allEntriesList) allEntriesList.classList.remove('hidden');
+    }
+  }
+
+  function initGlossarSearch() {
+    const searchInput = document.getElementById('glossar-search');
+    const searchForm = document.getElementById('glossar-search-form');
+    
+    if (searchInput) {
+      searchInput.addEventListener('input', doGlossarSearch);
+    }
+    if (searchForm) {
+      searchForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        doGlossarSearch();
+      });
+    }
   }
 
   if (document.readyState === 'loading') {
@@ -227,6 +244,7 @@ const categories = [
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .search-icon {
     position: absolute;

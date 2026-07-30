@@ -35,7 +35,7 @@ Die Rede ist von [Rankscale](https://rankscale.ai/?via=offer) aus Österreich. I
 
 ![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](../../assets/images/blog/llm-universum-tracking.webp)
 
-### AI Visibility: Warum [Rankscale](https://rankscale.ai/?via=offer)?
+### AI Visibility: Warum Rankscale?
 
 In einer Welt, in der Nutzer immer seltener auf blaue Links klicken und immer öfter direkt Antworten von KIs wie Perplexity, ChatGPT oder Claude erhalten, wird das Messen der „AI Visibility“ zur Überlebensfrage für SEOs. Bisher war das ein stochern im Nebel. Man hat mal hier gefragt, mal da geschaut.
 
@@ -54,7 +54,7 @@ Was mir besonders gut gefallen hat, sind die verschiedenen Analyse-Layer:
 
 99€ für 17 LLMs klingt erst mal nach viel, aber wer schon mal versucht hat, diese Daten manuell zu sammeln oder teure Enterprise-Lösungen anzufragen, weiß: Das ist ein Schnäppchen. Man merkt, dass das Team aus Österreich selbst aus der Praxis kommt und ein Tool gebaut hat, das funktional ist, ohne unnötigen Schnickschnack.
 
-### Wie ich [Rankscale](https://rankscale.ai/?via=offer) in der Praxis nutze
+### Wie ich Rankscale in der Praxis nutze
 
 Für meine Kundenprojekte nutze ich [Rankscale](https://rankscale.ai/?via=offer) vor allem, um den Erfolg von Content-Kampagnen zu messen. Wenn wir einen großen Leitartikel veröffentlichen, wollen wir wissen: Schlägt sich das in den KI-Antworten nieder? Werden wir als Quelle zitiert?
 
@@ -78,7 +78,7 @@ Das war mein ehrlicher Erfahrungsbericht. Keine bezahlte Werbung, sondern echte 
 
 <div class="blog-cta-box">
   <h3>Lust auf mehr AI Visibility?</h3>
-  <p>Wenn du [Rankscale](https://rankscale.ai/?via=offer) selbst testen willst, kannst du hier direkt loslegen:</p>
+  <p>Wenn du <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> selbst testen willst, kannst du hier direkt loslegen:</p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
     [Rankscale](https://rankscale.ai/?via=offer) ausprobieren 
   </a>

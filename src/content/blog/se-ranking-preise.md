@@ -78,7 +78,7 @@ Was diesen Tarif wirklich abhebt, sind die **historischen Daten**. Du kannst Tre
 
 ---
 
-## Warum [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) preislich die Nase vorn hat
+## Warum SE Ranking preislich die Nase vorn hat
 
 Was [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) so attraktiv macht, ist die Flexibilität. Brauchst du mehr Kapazität? Du kannst jederzeit flexibel erweitern, ohne direkt in den nächsten vierstelligen Agentur-Tarif springen zu müssen. In einer Welt, in der Budgets oft kurzfristig angepasst werden, ist das ein riesiger Vorteil.
 
@@ -95,7 +95,7 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 Über meinen Affiliate-Link bekommst du eine **kostenlose Testphase von 14 Tagen**. Das Beste daran: Du musst **keine Kreditkarte** hinterlegen. Kein fieses "Ups, ich hab vergessen zu kündigen"-Abo. Nach 14 Tagen läuft der Test einfach aus, es sei denn, du bist so überzeugt wie ich und willst weitermachen.
 
 <div class="blog-cta-box">
-  <h3>Jetzt [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) 14 Tage kostenlos testen</h3>
+  <h3>Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> 14 Tage kostenlos testen</h3>
   <p>Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.</p>
   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
     Kostenlos Testen starten 

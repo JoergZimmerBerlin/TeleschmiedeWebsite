@@ -78,17 +78,17 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
 
 <div class="blog-cta-box">
   <h3>Lust auf mehr AI Visibility?</h3>
-  <p>Wenn du [Rankscale](https://rankscale.ai/?via=offer) selbst testen willst, kannst du hier direkt loslegen:</p>
+  <p>Wenn du <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> selbst testen willst, kannst du hier direkt loslegen:</p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    [Rankscale](https://rankscale.ai/?via=offer) ausprobieren 
+    Rankscale ausprobieren 
   </a>
 </div>
 
 <div class="blog-cta-box">
-  <h3>Lust auf den [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracker?</h3>
+  <h3>Lust auf den <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> AI Tracker?</h3>
   <p>Wenn du die KI-Sichtbarkeit deiner Projekte mit einem etablierten Tool messen willst, kannst du hier direkt loslegen:</p>
   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracker testen 
+    SE Ranking AI Tracker testen 
   </a>
 </div>
 

@@ -30,7 +30,7 @@ Bisher war das ein totaler Blindflug. Man hat ab und zu mal ChatGPT gefragt: "Ke
 
 Genau hier setzt <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> an. Ich nutze es parallel zu <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um sowohl klassische Rankings als auch moderne KI-Antworten im Blick zu behalten.
 
-## [Rankscale](https://rankscale.ai/?via=offer) im echten Praxis-Test
+## Rankscale im echten Praxis-Test
 
 Ich habe mir das Tool aus Österreich über mehrere Wochen hinweg genau angeschaut und meine eigene Domain sowie die Projekte einiger Kunden durch die Mangel gedreht. Was das Tool wirklich liefert:
 
@@ -80,7 +80,7 @@ ALOHA 🌻! 🌻
 <div class="blog-cta-box">
   <h3 class="text-2xl font-bold mb-4">Willst du deine KI-Sichtbarkeit kennen?</h3>
   <p class="mb-6">Hör auf zu raten und fange an zu messen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> trackst du deine Reputation in 17 LLMs und mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> sicherst du deine Basis-Sichtbarkeit bei Google.</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt [Rankscale](https://rankscale.ai/?via=offer) testen </a>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt Rankscale testen </a>
 </div>
 
 * **Lese-Tipp:** [Was ist eigentlich GEO?](/glossar/geo/)

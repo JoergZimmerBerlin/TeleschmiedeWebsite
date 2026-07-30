@@ -39,7 +39,7 @@ Und ich dachte mir: *Das kann ich mit <a href="https://seranking.com/de/?ga=4169
 
 Deshalb gibt es diesen Artikel. Ein Setup-Tutorial, bei dem das **Daily-Credit-Limit von Minute 1 dabei ist** - nicht nachträglich.
 
-## Warum [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API + Claude Code
+## Warum SE Ranking API + Claude Code
 
 [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) kenne ich aus der täglichen Arbeit als extrem verlässliche SEO API. Sichtbarkeits-Index, Keyword-Research, Backlink-Profile: Das All-in-One-Werkzeug, das ich seit Jahren für meine Kunden nutze. Claude Code wiederum ist seit ein paar Monaten mein zweiter Schreibtisch: kein Dashboard-Klick, sondern echte Skripte, die bleiben. Einmal geschrieben, immer reproduzierbar.
 
@@ -57,7 +57,7 @@ Persönliches Versprechen: Ich zeige dir genau den Weg, den ich gegangen bin - i
 
 ## Schritt 1: API-Key holen
 
-*(Falls du noch keinen Account hast: <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Hier registrieren für einen [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Account inkl. API-Zugang</a>)*
+*(Falls du noch keinen Account hast: <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Hier registrieren für einen SE Ranking Account inkl. API-Zugang</a>)*
 
 Der Startpunkt ist denkbar einfach, aber extrem wichtig. Log dich in dein [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Dashboard ein, klick oben auf dein Profil und navigiere zu **Admin → API**. Hier findest du die Verwaltungsebene für deinen programmatischen Zugriff. Mit einem Klick auf "API-Schlüssel generieren" erzeugst du deinen persönlichen Token.
 

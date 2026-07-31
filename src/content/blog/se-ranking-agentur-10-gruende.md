@@ -16,7 +16,9 @@ Moin! 🌻
 
 ![Original LinkedIn Post](../../assets/images/blog/linkedin-10-gruende.webp)
 
-Wenn du als Freelancer oder in einer SEO-Agentur arbeitest, kennst du das Problem: Zu viele Tools und zu viel Chaos bei den Workflows. Das Preis-Leistungs-Verhältnis muss einfach stimmen. Genau dazu habe ich auf LinkedIn diesen Klartext-Beitrag geteilt:
+Wenn du als Freelancer oder in einer SEO-Agentur arbeitest, kennst du das Problem: Zu viele Tools und zu viel Chaos bei den Workflows. Das Preis-Leistungs-Verhältnis muss einfach stimmen. 
+
+*Diese Diskussion wurde von mir auf LinkedIn am 09.07.2026 gestartet:*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -100,3 +102,10 @@ Wer über meinen Partner Link abschließt, bekommt 2 Stunden Support von mir on 
 [SE Ranking ansehen](https://lnkd.in/d8sW4sHm) *(Affiliate)*
 
 ALOHA! 🌻✌️
+
+<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_10-gr%C3%BCnde-warum-jede-seo-agentur-%C3%BCber-se-activity-7480863323878715393-gP3s" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>

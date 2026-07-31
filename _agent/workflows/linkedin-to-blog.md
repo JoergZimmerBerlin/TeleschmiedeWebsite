@@ -56,8 +56,14 @@ faqs:
 Der Blog lebt vom Tacheles-Austausch. Der originale LinkedIn-Post ist IMMER die Basis des Artikels.
 - **STRIKTE REGEL 1**: Der originale LinkedIn-Text (also Jörgs kompletter Beitrag inklusive aller Listen/Stichpunkte) MUSS in voller Länge als Herzstück in den Artikel übernommen werden. Nicht nur der erste Satz!
 - **STRIKTE REGEL 2**: Wenn LinkedIn-Kommentare existieren, MÜSSEN diese im Artikel aufgegriffen werden. Du darfst NIEMALS Kommentare, Fragen oder Namen frei erfinden, abändern oder paraphrasieren! Nutze **IMMER den 1:1 exakten Original-Wortlaut** aus dem echten LinkedIn-Post.
-- Nutze das folgende visuelle HTML-Element, um *jeden* originalen Kommentar und *jede* originale Jörg-Antwort hervorzuheben:
 
+### 5.1 Visueller Aufbau (Zwingende Elemente)
+**1. Datums-Kontext vor dem Jörg-Post:**
+Vor dem allerersten Zitat (dem LinkedIn-Post) MUSS zwingend dieser Satz stehen (Datum aus dem Post ziehen!):
+`*Diese Diskussion wurde von mir auf LinkedIn am [DD.MM.YYYY] gestartet:*`
+
+**2. Zitat-Box für den Post und die Kommentare:**
+Nutze das folgende visuelle HTML-Element, um *jeden* originalen Kommentar und *jede* originale Jörg-Antwort (und den Hauptpost) hervorzuheben:
 ```html
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 [Echter Name des Kommentators] (LinkedIn Kommentar)</p>
@@ -67,6 +73,17 @@ Der Blog lebt vom Tacheles-Austausch. Der originale LinkedIn-Post ist IMMER die 
 </div>
 ```
 *Tipp: Du musst dir vor dem Schreiben zwingend den rohen Content der LinkedIn-URL ziehen (`read_url_content`), um die echten Texte aus den JSON-Daten lesen zu können! Rate niemals!*
+
+**3. Call-to-Action (CTA) am Ende:**
+Ganz am Ende des Artikels, NACH der Verabschiedung ("ALOHA! 🌻✌️"), MUSS zwingend diese CTA-Box eingefügt werden, die direkt zum originalen LinkedIn-Post verlinkt:
+```html
+<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="[ORIGINALE-LINKEDIN-URL-HIER-EINSETZEN]" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>
+```
 
 ## 6. Metadata & Verification
 - **Reading Time**: Ensure the layout calculates this (Standard: 180 wpm for German).

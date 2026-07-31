@@ -15,6 +15,8 @@ key_takeaways:
 
 Moin! 🌻
 
+*Diese Diskussion wurde von mir auf LinkedIn am 08.07.2026 gestartet:*
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <div class="italic text-dark mb-0">
@@ -68,3 +70,10 @@ Hier ist mein Partner-Link direkt zur Unterseite mit allen Infos:
 [SE Ranking ChatGPT App ansehen](https://seranking.com/de/mcp.html?ga=4169588&source=link) *(Affiliate)*
 
 ALOHA! 🌻✌️
+
+<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_chatgpt-mit-profi-seo-daten-nutzen-1-klick-activity-7480493369710764033-2GZt" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>

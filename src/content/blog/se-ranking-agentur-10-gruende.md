@@ -99,7 +99,7 @@ Und wie Dominik Breitbach in den Kommentaren bestätigte:
 Falls du unsicher bist, wirf einen Blick auf meinen Vergleich: [Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/).
 
 Wer über meinen Partner Link abschließt, bekommt 2 Stunden Support von mir on top:  
-[SE Ranking ansehen](https://lnkd.in/d8sW4sHm) *(Affiliate)*
+[SE Ranking ansehen](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) *(Affiliate)*
 
 ALOHA! 🌻✌️
 

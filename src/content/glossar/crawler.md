@@ -87,7 +87,7 @@ Die Lösung ist **strukturierte Datenaufbereitung**:
 
 ## Mein Rat für dich
 
-Räume deine Architektur auf. Behebe deine Redirect-Chains. Setze deine Trailing Slashes richtig (z. B. auf `[Crawling verstehen](/glossar/crawling-vs-indexing/)`). Kontrolliere Spider-Traps rigoros über die `robots.txt`. Und wenn du technologisch vorne mitspielen willst: Liefere deine Inhalte sauber aus, wenn der Crawler via Header danach fragt. Wenn der Crawler sich bei dir wohlfühlt und latenzfrei an Daten kommt, dominierst du die Sichtbarkeit – egal ob bei Google oder in der nächsten KI-Antwortmaschine.
+Räume deine Architektur auf. Behebe deine Redirect-Chains. Setze deine Trailing Slashes richtig (z. B. auf `Crawling verstehen`). Kontrolliere Spider-Traps rigoros über die `robots.txt`. Und wenn du technologisch vorne mitspielen willst: Liefere deine Inhalte sauber aus, wenn der Crawler via Header danach fragt. Wenn der Crawler sich bei dir wohlfühlt und latenzfrei an Daten kommt, dominierst du die Sichtbarkeit – egal ob bei Google oder in der nächsten KI-Antwortmaschine.
 
 ALOHA! 🌻
 

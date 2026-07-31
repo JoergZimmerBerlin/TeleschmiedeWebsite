@@ -34,11 +34,11 @@ Unter den knallharten Standards im Jahr 2026 ist die Mention die absolut härtes
 
 Eine Mention ist jede textliche Nennung deines Markennamens, deines persönlichen Namens (als Experte) oder deines Produkts im digitalen Raum. Das kann ein gut recherchierter Leitartikel sein, ein viraler Beitrag auf LinkedIn, eine Podcast-Shownote oder eine Diskussion in einem Fachforum. 
 
-Im Gegensatz zum klassischen HTML-[Backlink](/glossar/linkbuilding/) ist bei einer Mention absolut **kein klickbarer Hyperlink** (kein `<a>`-Tag) notwendig. 
+Im Gegensatz zum klassischen HTML-Backlink ist bei einer Mention absolut **kein klickbarer Hyperlink** (kein `<a>`-Tag) notwendig. 
 
 Warum? Weil KI-Crawler heute kein primitives HTML-Parsing mehr betreiben, um Autorität zu vererben. In der "Entity Era" 2026 nutzen Suchmaschinen **NLP (Natural Language Processing)** und komplexe Transformer-Architekturen, um echten Fließtext zu begreifen. 
 
-Sie verstehen den Kontext, die Tonalität und die fachliche Tiefe. Sie erkennen dich als vollwertige [Entität](/glossar/entitaet/). Fällt dein Markenname im Satz "Jörg Zimmer hat eine brillante Analyse zu Vektordatenbanken veröffentlicht", bildet das LLM sofort Kanten (Edges) in seinem Knowledge Graph zwischen mir und der Thematik. Der Algorithmus muss nicht erst einem Link folgen, um die Relevanz zu extrahieren. Eine solche ungelinkte Mention (unlinked mention) fungiert quasi als impliziter Link und ist ein massives Trust-Signal.
+Sie verstehen den Kontext, die Tonalität und die fachliche Tiefe. Sie erkennen dich als vollwertige Entität. Fällt dein Markenname im Satz "Jörg Zimmer hat eine brillante Analyse zu Vektordatenbanken veröffentlicht", bildet das LLM sofort Kanten (Edges) in seinem Knowledge Graph zwischen mir und der Thematik. Der Algorithmus muss nicht erst einem Link folgen, um die Relevanz zu extrahieren. Eine solche ungelinkte Mention (unlinked mention) fungiert quasi als impliziter Link und ist ein massives Trust-Signal.
 
 ## Mentions als Validierungs-Loop für RAG-Modelle und AI Overviews
 
@@ -80,7 +80,7 @@ Wenn du auf deiner Website stolz deine Presse-Mentions zeigst (z.B. in einem "Be
 
 Du willst in KI-Suchen als Lösung zitiert werden? Dann hör auf, Linkprofile in obskuren Tools zu vergleichen, und mach Dinge, über die man spricht! 
 
-Teile harte Primärdaten. Liefere repräsentative Studien. Geh in Fach-Podcasts. Schreibe unbequeme Gastbeiträge. Nutze radikale [Pressearbeit im SEO](/glossar/pressearbeit-im-seo/), um High-Trust Mentions bei den großen Verlagen zu triggern. Denn genau diese Verlage sind die lizenzierten primären Datenlieferanten für OpenAI, Anthropic und Google.
+Teile harte Primärdaten. Liefere repräsentative Studien. Geh in Fach-Podcasts. Schreibe unbequeme Gastbeiträge. Nutze radikale Pressearbeit im SEO, um High-Trust Mentions bei den großen Verlagen zu triggern. Denn genau diese Verlage sind die lizenzierten primären Datenlieferanten für OpenAI, Anthropic und Google.
 
 Wer im Jahr 2026 keine Erwähnungen (Mentions) im Netz generiert, existiert im Latent Space der Modelle schlichtweg nicht. Werde zur unumgänglichen Entität.
 

@@ -24,7 +24,7 @@ Moin! 🌻
 
 Stell dir das World Wide Web als ein riesiges neuronales Netz vor. Wenn du im Jahr 2026 noch glaubst, dass "Linkbuilding" bedeutet, in irgendwelchen obskuren Foren `<a href>`-Tags zu platzieren oder billige Gastartikel für 50 Euro bei SEO-Agenturen einzukaufen, dann hast du den Einschlag nicht gehört.
 
-Das Spiel hat sich radikal gedreht. Wir sprechen in der professionellen Optimierung nicht mehr über simple Backlinks. Wir sprechen über **Entity-Citations**, über RAG-Modelle (Retrieval-Augmented Generation) und darüber, wie du als verifizierte [Entität](/glossar/entitaet/) in die Parameter der KI-Agenten kommst.
+Das Spiel hat sich radikal gedreht. Wir sprechen in der professionellen Optimierung nicht mehr über simple Backlinks. Wir sprechen über **Entity-Citations**, über RAG-Modelle (Retrieval-Augmented Generation) und darüber, wie du als verifizierte Entität in die Parameter der KI-Agenten kommst.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
@@ -53,7 +53,7 @@ Es braucht nicht einmal mehr zwingend einen Hyperlink! Wenn ein Leitmedium schre
 
 Dein OffPage-Profil ist heute identisch mit deinem Marken-Profil. Wenn deine Marke nicht gesucht wird (Branded Search), wenn du keine echten, unstrukturierten Erwähnungen (Unstructured Citations) auf News-Portalen oder in Podcasts erzeugst, dann sind all deine gesetzten Backlinks für die KI verdächtig. 
 
-LLMs nutzen [E-E-A-T](/glossar/e-e-a-t/) Faktoren als primäre Filter für ihre Ausgaben. Eine KI empfiehlt ihren Nutzern keinen Müll. Ergo: Sie empfiehlt nur Entitäten, die durch Entity-Citations über jeden Zweifel erhaben sind.
+LLMs nutzen E-E-A-T Faktoren als primäre Filter für ihre Ausgaben. Eine KI empfiehlt ihren Nutzern keinen Müll. Ergo: Sie empfiehlt nur Entitäten, die durch Entity-Citations über jeden Zweifel erhaben sind.
 
 ## RAG-Modelle füttern: Die Königsdisziplin im OffPage-SEO
 

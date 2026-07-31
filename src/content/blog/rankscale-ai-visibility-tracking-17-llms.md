@@ -80,7 +80,7 @@ Das war mein ehrlicher Erfahrungsbericht. Keine bezahlte Werbung, sondern echte 
   <h3>Lust auf mehr AI Visibility?</h3>
   <p>Wenn du <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> selbst testen willst, kannst du hier direkt loslegen:</p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    [Rankscale](https://rankscale.ai/?via=offer) ausprobieren 
+    Rankscale ausprobieren 
   </a>
 </div>
 

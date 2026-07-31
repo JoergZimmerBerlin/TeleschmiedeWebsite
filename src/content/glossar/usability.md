@@ -69,7 +69,7 @@ Nutze echtes semantisches HTML (`<nav>`, `<main>`, `<article>`, `<aside>`). Ein 
 
 ### 2. Logische Hierarchie für Vektordatenbanken
 RAG-Systeme lesen nicht einfach deinen Text von oben nach unten durch wie ein Romanleser. Sie "chunken" ihn. Sie zerlegen die Seite in kleine, logische Blöcke und legen sie in Vector-Databases ab.
-Wie macht die KI das? Sie orientiert sich strikt an deinen [H1, H2 und H3 Überschriften](/glossar/h1-h2-h3/). 
+Wie macht die KI das? Sie orientiert sich strikt an deinen H1, H2 und H3 Überschriften. 
 Wenn deine Überschriften-Struktur keinen logischen Sinn ergibt (z. B. eine H3 vor einer H2, "weil das im Design halt besser aussah"), zerreißt du den Kontext für das LLM. Das System halluziniert dann im schlimmsten Fall, weil es den Zusammenhang deiner Fakten völlig falsch verknüpft.
 
 ### 3. Popups und Layout-Shifts sind Todsünden
@@ -81,7 +81,7 @@ Die ultimative Usability für Maschinen? Gib ihnen gar nicht erst das aufgebläh
 ## Der Zusammenhang zwischen Usability und Sichtbarkeit
 
 Wer sich auf deiner Seite nicht zurechtfindet, springt ab. Das ist ein negatives Signal für das klassische SEO und killt deine Rankings bei Google.
-Wer deine Seite maschinell nicht parsen kann, wird dich niemals als Quelle zitieren. Das ist das endgültige Ende deiner Sichtbarkeit in der KI-Suche ([Generative Engine Optimization](/glossar/geo/)).
+Wer deine Seite maschinell nicht parsen kann, wird dich niemals als Quelle zitieren. Das ist das endgültige Ende deiner Sichtbarkeit in der KI-Suche (Generative Engine Optimization).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Don't make me (or my Agent) think!</h4>
@@ -94,7 +94,7 @@ Eine blitzsaubere Sitemap.xml und klare interne Verlinkung (immer mit Trailing S
 
 Viele Firmen verbrennen abertausende Euro für völlig überladene "Redesigns", bei denen hippe Design-Agenturen wunderschöne, aber absolut unbedienbare Code-Monster erschaffen. Am Ende wundern sich die Geschäftsführer über abstürzende Conversion Rates und das absolute Fehlen von Erwähnungen bei ChatGPT oder Perplexity.
 
-Hör auf, deine Nutzer – ob aus Fleisch oder aus Silizium – zu quälen. Mach die Wege kurz, die Struktur knallhart semantisch und die Ladezeiten ([PageSpeed](/glossar/pagespeed/)) brutal schnell. Dann danken sie es dir mit massiven Citations in KI-Antworten und echtem, messbarem Umsatz. Denn eine Seite, die weder Mensch noch Maschine ohne Frust versteht, wird 2026 schlichtweg ausradiert.
+Hör auf, deine Nutzer – ob aus Fleisch oder aus Silizium – zu quälen. Mach die Wege kurz, die Struktur knallhart semantisch und die Ladezeiten (PageSpeed) brutal schnell. Dann danken sie es dir mit massiven Citations in KI-Antworten und echtem, messbarem Umsatz. Denn eine Seite, die weder Mensch noch Maschine ohne Frust versteht, wird 2026 schlichtweg ausradiert.
 
 ALOHA! 🌻 
 

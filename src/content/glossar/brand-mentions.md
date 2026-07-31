@@ -54,7 +54,7 @@ Brand Mentions haben jedoch eine unerbittliche Seite, die im KI-Zeitalter gnaden
 
 Jedes LLM, das auf das Web zugreift und Antworten generiert, führt bei der RAG-Abfrage im Hintergrund eine **Sentiment-Analyse** durch. Die KI bewertet den emotionalen Tonfall (Positiv, Neutral, Negativ) des gesamten Kontextes, der deine Marke umgibt. 
 
-*   **Positives oder Neutrales Sentiment:** "Die Agentur hat unsere Performance massiv gesteigert." -> Dein [E-E-A-T](/glossar/e-e-a-t/) Trust-Score steigt. Die KI kategorisiert dich als hilfreiche, vertrauenswürdige Entität.
+*   **Positives oder Neutrales Sentiment:** "Die Agentur hat unsere Performance massiv gesteigert." -> Dein E-E-A-T Trust-Score steigt. Die KI kategorisiert dich als hilfreiche, vertrauenswürdige Entität.
 *   **Negatives Sentiment (Toxisch):** "Der Service war eine Katastrophe, reine Abzocke und fachlich inkompetent." -> Die KI markiert deine Entität sofort als hochgradig unzuverlässig (Low Trust).
 
 Wenn ein Nutzer in Zukunft Perplexity oder Google AI Overviews fragt: *"Welche SEO-Agentur in Berlin ist technisch wirklich führend?"*, prüft die RAG-Pipeline das durchschnittliche Sentiment aller Mentions im Vektorraum. Hast du miese Bewertungen auf Trustpilot, wütende Foren-Beiträge oder kritische Presseberichte im Index, sortiert dich der LLM-Algorithmus schlichtweg aus. Du fällst durch den Trust-Filter. Dein Ranking bricht ein, und keine Answer Engine wird dich jemals als Quelle empfehlen.
@@ -65,7 +65,7 @@ Du kannst Brand Mentions nicht im 10er-Pack bei Fiverr einkaufen. Du musst sie d
 
 1.  **Werde die absolute Primärquelle (Data-Driven Content):** LLMs und Journalisten lieben rohe, harte und exklusive Daten. Veröffentliche originäre Branchenstudien, fundierte Statistiken oder entwickle Open-Source-Tools. Wenn andere Blogger, Fachmedien oder KIs über das Thema schreiben, *müssen* sie dich zwangsläufig als Quelle zitieren. Das ist der stärkste Hebel für organische Erwähnungen.
 2.  **Polarisiere mit echter Expertise:** Niemand zitiert weichgespülten Einheitsbrei oder generischen KI-Content. Vertritt harte, datenbasierte Meinungen in deiner Nische. "Tacheles" funktioniert, weil es Diskussionen anregt und zitiert wird. Zeige klare Kante bei Fachthemen.
-3.  **News-Jacking und Schnelligkeit:** Wenn ein disruptives Ereignis in deiner Branche passiert (z.B. ein massives Google Core Update, ein neues Framework), sei der verdammte Erste, der eine glasklare, technische Analyse dazu publiziert. Nutze dafür optimal strukturierte [Grounding-Pages](/glossar/grounding-page/), die von Systemen leicht gecrawlt werden können.
+3.  **News-Jacking und Schnelligkeit:** Wenn ein disruptives Ereignis in deiner Branche passiert (z.B. ein massives Google Core Update, ein neues Framework), sei der verdammte Erste, der eine glasklare, technische Analyse dazu publiziert. Nutze dafür optimal strukturierte Grounding-Pages, die von Systemen leicht gecrawlt werden können.
 4.  **Aktives Reputationsmanagement:** Überwache deine Mentions gnadenlos. Tools zur Brand-Mention-Überwachung sind Pflicht. Reagiere auf negative Erwähnungen professionell und löse Probleme, bevor sie einen toxischen Fußabdruck im Knowledge Graph hinterlassen. Dein Ziel ist ein Sentiment-Verhältnis von mindestens 80% positiv oder neutral.
 
 ## Fazit: Entitäten-Aufbau statt Link-Jagd

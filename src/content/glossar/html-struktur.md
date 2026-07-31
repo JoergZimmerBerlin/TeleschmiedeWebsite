@@ -29,7 +29,7 @@ In den letzten zwanzig Jahren haben sich Frontend-Entwickler oft damit begnügt,
 
 Die primären Konsumenten deines Content sind längst keine menschlichen Augen mehr, die träge durch einen Browser scrollen. Es sind hochgeschwindigkeitscrawlende KI-Agenten, RAG-Pipelines (Retrieval-Augmented Generation) von ChatGPT, Perplexity und Google AI Overviews. Und diese Systeme haben eines gemeinsam: **Sie hassen Latenz und sie hassen unnötige Tokenkosten.** Eine saubere, semantische HTML-Struktur ist das schärfste Schwert, das du besitzt, um deinen Content fehlerfrei in die Wissensgraphen der KI-Giganten zu diktieren.
 
-![Semantische HTML-Struktur 3D Infografik](../../assets/images/glossar/3d-light/glossar-model-context-protocol-mcp-3d.webp)
+!Semantische HTML-Struktur 3D Infografik
 
 ## Was bedeutet "Semantische HTML-Struktur" überhaupt?
 

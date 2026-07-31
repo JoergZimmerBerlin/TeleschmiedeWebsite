@@ -96,7 +96,7 @@ ALOHA 🌻! 🌻
   <h3>Werde jetzt zum AI Visibility Profi!</h3>
   <p>Hol dir das <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> Essentials-Paket für nur 17 € im Monat (Jahresabo) und starte dein Tracking noch heute.</p>
   <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Jetzt [Rankscale](https://rankscale.ai/?via=offer) testen 
+    Jetzt Rankscale testen 
   </a>
 </div>
 

@@ -64,13 +64,13 @@ Willst du bei Money-Prompts abkassieren? Dann brauchst du zwingend diese technis
 
 ## Entitäten-Dichte schlägt Keyword-Dichte
 
-Früher hieß es: Optimiere den Text auf das Keyword und sorge für 2% Keyword-Dichte. Heute heißt es: Maximiere die Relevanz deiner [Entität](/glossar/entitaet/) im gesamten Vektorraum. 
+Früher hieß es: Optimiere den Text auf das Keyword und sorge für 2% Keyword-Dichte. Heute heißt es: Maximiere die Relevanz deiner Entität im gesamten Vektorraum. 
 
 Du musst für die LLMs die unumstrittenste Entität in deiner Nische werden. Wenn der Prompt Themen wie "Headless SEO", "Next.js Migration" oder "JavaScript Crawling" enthält, muss die KI sofort mathematische Vektoren zu deiner Domain ziehen. Wie erreichst du das technisch?
 
 1.  **Semantische Tiefe (Topic Cluster):** Liefere harte Fakten. Erkläre Konzepte bis auf die Code-Ebene. Baue sogenannte Pillar Pages auf, die dein Hauptthema komplett abdecken, und stütze sie mit hochspezifischen Cluster-Seiten. Nutze die Fachsprache (Ko-Okkurrenz), die ein LLM als Token für Expertenwissen wertet. 
 2.  **Kontextuelle Verlinkung:** Baue harte interne Content-Silos. Verlinke deine Money-Pages aus hochspezifischen Fachartikeln heraus mit hartem Anchor-Text. Ein Link von einem `/blog/` auf ein `/leistungen/` Verzeichnis ist der Pfad, dem der Crawler zur Transaktion folgt.
-3.  **Externe Validierung:** Eine technisch perfekte Seite ist wertlos, wenn niemand im KI-Silo darüber spricht. Sammle [Mentions](/glossar/mention/) (Erwähnungen ohne Link) in renommierten Fachmedien, um der KI externe Validierung für deine Entität zu liefern. Präsentiere dich über Omnichannel (YouTube, LinkedIn) als absolute E-E-A-T Autorität.
+3.  **Externe Validierung:** Eine technisch perfekte Seite ist wertlos, wenn niemand im KI-Silo darüber spricht. Sammle Mentions (Erwähnungen ohne Link) in renommierten Fachmedien, um der KI externe Validierung für deine Entität zu liefern. Präsentiere dich über Omnichannel (YouTube, LinkedIn) als absolute E-E-A-T Autorität.
 
 In meiner Strategieberatung als SEO-Experte ist das Etablieren dieser maschinenlesbaren Autorität der absolute Kern. Wir bauen das technische Fundament, das KIs überzeugt – denn sie sind heute die Gatekeeper zu den Kreditkarten deiner Kunden.
 

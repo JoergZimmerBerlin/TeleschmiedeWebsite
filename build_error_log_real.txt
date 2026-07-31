@@ -1,0 +1,36 @@
+
+> teleschmie-de@1.0.0 prebuild
+> node scripts/check-assets.mjs && date +%s > public/build.txt
+
+🚀 Starting Pre-build Asset Check...
+✅ All assets verified!
+
+> teleschmie-de@1.0.0 build
+> bash scripts/generate-llms-full.sh && astro build && node scripts/glossary-linker.mjs && node scripts/generate-markdown-pages.mjs && npm run analyze-logs
+
+llms-full.txt updated successfully with absolute URLs and native German character support (UTF-8).
+Synchronizing LLM and Agent files...
+Synchronization complete.
+16:11:51 [content] Syncing content
+[InvalidContentEntryDataError] blog → se-ranking-agentur-10-gruende data does not match collection schema.
+
+  **: [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "date"
+    ],
+    "message": "date: Required"
+  }
+]
+
+  Hint:
+    See https://docs.astro.build/en/guides/content-collections/ for more information on content schemas.
+  Error reference:
+    https://docs.astro.build/en/reference/errors/invalid-content-entry-data-error/
+  Location:
+    /Users/jorti/Documents/Antigravity/src/content/blog/se-ranking-agentur-10-gruende.md:0:0
+  Stack trace:
+    at getEntryData (/Users/jorti/Documents/Antigravity/node_modules/astro/dist/content/utils.js:123:16)
+    at async eval (/Users/jorti/Documents/Antigravity/node_modules/astro/dist/content/loaders/glob.js:211:13)

@@ -1,7 +1,7 @@
 ---
 title: "10 Gründe für SE Ranking in deiner SEO-Agentur"
 description: "SE Ranking bietet Agenturen und Freelancern starke Funktionen, von KI-Sichtbarkeit bis White-Label-Reporting, um Workflows zu optimieren."
-pubDate: 2026-07-31
+date: "2026-07-31"
 author: "Jörg Zimmer"
 image: "../../assets/images/blog/se-ranking-10-gruende.webp"
 image_alt: "10 Gründe für den Einsatz von SE Ranking in einer SEO-Agentur"

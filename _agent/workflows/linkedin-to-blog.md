@@ -38,10 +38,11 @@ faqs:
 ```
 
 ## 4. Writing Style Guidelines
+- **Länge & Authentizität**: Der fertige Artikel sollte kurz und knackig sein (ca. 1000-1500 Zeichen). Nutze zwingend die **echten, authentischen Originaltexte** von Jörg sowie die **Original-Kommentare** der User aus dem LinkedIn-Post. Lasse die Kommentare natürlich in den fließenden Text einfließen.
 - **LinkedIn Flow**: Short paragraphs, often single sentences.
 - **Dynamic Formatting**: Use bold text for emphasis.
 - **Direct Address**: Use "Moin! 🌻" or "Aloha! 🌻✌️".
-- **Quotes**: Use the custom blockquote-styled `<div>` for LinkedIn-specific quotes:
+- **Quotes**: Use the custom blockquote-styled `<div>` for LinkedIn-specific quotes (both for Jörg and the commenters):
   ```html
   <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
     <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>

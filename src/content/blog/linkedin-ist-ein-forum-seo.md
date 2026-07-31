@@ -19,8 +19,6 @@ Letzte Woche auf dem SEO Stammtisch Berlin (Grüße an Carsten Appel!) habe ich 
 
 Wer LinkedIn wie Google SEO begreift, gewinnt das Spiel. Wer hier nur "Social Media" macht und auf Likes hofft, verbrennt sinnlos Zeit.
 
-![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](../../assets/images/blog/linkedin-forum-original.webp)
-
 Lass uns mal Tacheles reden. Warum verpuffen inhaltlich geniale SEO-Beiträge oft im digitalen Nirvana, während andere mit Halbwissen hunderte Kommentare einsammeln? Weil die meisten das System nicht verstanden haben. Hier sind die Learnings aus dem Vortrag und – was noch viel wertvoller ist – aus der fetten Diskussion danach in den Kommentaren.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">

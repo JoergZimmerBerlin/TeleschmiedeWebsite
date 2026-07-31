@@ -71,7 +71,9 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Agent Skills: KI-Agenten extrem aufrüsten
 - Agentic Commerce Protocol: KIs kaufen für dich
 - agents.md: Das offene README für KI-Agenten
+- AI Crawlability: Maschinenlesbarkeit für Answer Engines
 - ai-plugin.json: Warum ChatGPT Plugins tot sind
+- AI Search Engine: Die Evolution der Suchmaschinen
 - 'AI SEO: Mach deine Website bereit für KI-Agenten'
 - AI Tracking Tools: Wahre Sichtbarkeit messen
 - ai.txt SEO: Volle Agent Readiness erreichen
@@ -122,6 +124,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Keywordrecherche: Semantische Basis für SEO
 - KI-SEO Beratung: Agentur für die Antwort-Ära
 - KI-Sichtbarkeit messen: Harte Fakten und Guide
+- KI Sichtbarkeit messen: Metriken für die neue Suche
 - KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert
 - Knowledge Graph: Gehirn der generativen Suche
 - 'Linkbuilding: Der Weg zu echten Entity-Citations'
@@ -190,24 +193,32 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Warum wir SEOs schuld am Internet-Zustand sind
 - SEO 2026: Alte Irrtümer & neue Wahrheiten
 - Website SEO Audit vs. Vibe Coding Agenten
+- Transparente SEO-Preise auf der Website: Meine Erfahrung
+- Mein Vorzeigebeispiel für KI: Der tl;dv Meeting Notetaker
 - SEO Unternehmensberatung: Stefan auf der Campixx
 - Sistrix vs. SE Ranking: Welches Tool gewinnt?
+- Sistrix Podcast: Entitäten Mapping und Verknüpfung mit Björn Darko und Max Muhr
 - 'SEORCH Tool: Dein kostenloses OnPage SEO Werkzeug'
 - SEO Persönlich: Mein Interview bei SEOpresso
 - SEOpresso Podcast: Meine Empfehlung mit Max Muhr
+- SEO wird größer: Mit der GEO Welle nochmal mehr in Richtung Markenaufbau
+- Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer
 - Wie läuft so eine SEO-Sprechstunde genau ab?
 - SEO Sprechstunde: Vibe Coding & Sichtbarkeit
 - SEO-Sprechstunde: Website-Check & Sichtbarkeit
 - 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde
 - SEO-Relaunch: Warum ohne SEO das Desaster droht
+- Mein geheimer Mega-Prompt für SEO in Claude
 - Tatü Tata: Die SEO Feuerwehr rückt nun aus!
 - SE Ranking Preise 2026: Der Guide für Experten
+- 10 Gründe für das KI-Sichtbarkeit Tool von SE Ranking
 - SE Ranking in ChatGPT: Live SEO-Daten per Chat
 - SE Ranking API: Ein Kompass durch die Endpunkte
 - SE Ranking API mit Claude Code verbinden
 - SE Ranking API - Der Praxis-Test
 - SE Ranking AI Tracker: KI-Sichtbarkeit messen
 - 10 Gründe für SE Ranking in deiner SEO-Agentur
+- Warum reines SEO für gutes GEO nicht ausreichen wird
 - Rankscale Update: API & ChatGPT Shopping Analyse
 - Rankscale Essentials: AI Visibility ab 20€
 - Rankscale: 17 LLMs für 99€ monatlich tracken
@@ -219,13 +230,17 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - AI Search Content Formate: Best Practices
 - Michael Kaufhold im Podcast Interview: SEO tot?
 - LinkedIn: Warum SEOs das Forum nutzen müssen
+- LinkedIn & Google Maps Bewertungen sammeln: So geht's
 - Brief an Bots & Crawler: SEO-Insights 2026
+- Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten
+- Ich merke gerade, dass ich mich selbst in der GEO Transformation befinde
 - Meine SEO-Highlights 2025: Der Jahresrückblick
 - Grounding Page Generator: Schutzschild gegen KI
 - GSC: Wer ist für die Einrichtung zuständig?
 - Google Ads Support vs. SEO: Die Wahrheit
 - GEO & AI Search: Sichtbarkeit völlig neu gedacht
 - GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
+- Agentic SEO: Warum GEO eine eigene Disziplin ist
 - GEO Action Plan 2026: Guide zur KI-Sichtbarkeit
 - GEO Guide: Sichtbarkeit in ChatGPT & Gemini
 - Wir rocken die OMR: Das Freelancer Team vor Ort!
@@ -236,6 +251,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - SEO-Qualität: Vom Dönerback bis zum Erfolg
 - Digitaler Unternehmensberater statt SEO
 - Core Web Vitals: Warum dein UX-Bericht zählt
+- Der Cloudflare Agent Readiness Scan: KI-Sichtbarkeit prüfen
 - Vibe Coding: Echte KI-Workflows mit Roland Golla
 - Braucht SEO einen neuen Namen? Campixx Umfrage
 - Conversion-Optimierung: Nutzer vor Traffic
@@ -244,6 +260,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - GEO & AI-SEO: Warum kein Praktikanten-Job
 - GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
 - AI Crawler, Markdown & Cloudflare: Bot-Optimierung
+- AI Crawlability als neue Disziplin im Tech SEO
 - 1. AI Connect Berlin: Vibe Coding & Gemini
 - Wenn AI-Agenten deinen LinkedIn-Feed kapern
 - Die 80%-Falle: Warum Websites an Basics scheitern
@@ -1177,6 +1194,37 @@ ALOHA! 🌻✌️
 
 ---
 
+### AI Crawlability: Maschinenlesbarkeit für Answer Engines
+
+
+# AI Crawlability: Die neue Disziplin im Tech SEO
+
+Moin! 🌻
+
+Machen wir uns nichts vor: Wir haben das Web in den letzten zehn Jahren primär für das menschliche Auge und die Conversion-Rate-Optimierung gebaut. Tolle Animationen, Pop-ups, fette JavaScript-Frameworks. Für den Menschen (meistens) schick, für den Bot ein Albtraum.
+
+Genau hier kommt **AI Crawlability** ins Spiel. Es ist die neue Hardcore-Disziplin auf dem [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) obendrauf.
+
+## Website als Daten-Feed
+
+Wenn die User Journey komplett in das Chatfenster einer [AI Search Engine](https://teleschmie.de/glossar/ai-search-engine/) wandert, verliert deine Website ihre Funktion als bunte Werbebroschüre. Sie wird zu einem reinen Feed-Datenlieferanten, einer Kontrollquelle und einem Ankerpunkt für [Entitäten](https://teleschmie.de/glossar/entitaet/). 
+
+Das Problem: Das ganze Design, das Marketing-Bla-Bla und die blockierenden Scripte stören den AI Crawler massiv. Diese Bots (oft kleine, leichtgewichtige Scraper, die in Echtzeit für RAG-Modelle losgeschickt werden) haben weder die Zeit noch die Ressourcen, deine aufwendige React-App komplett zu rendern. Sie wollen die Fakten. Sofort. Maschinenlesbar.
+
+## Maßnahmen für bessere Maschinenlesbarkeit
+
+Was müssen wir also tun, um unsere AI Crawlability zu maximieren?
+
+1. **Back to Basics:** Semantisches HTML. Eine perfekte ``-bis-``-Struktur. Klare Absätze.
+2. **Maschinen-Schnittstellen:** Standards wie die `llms.txt` oder sauberes JSON-LD [Schema Markup](https://teleschmie.de/glossar/schema-org-markup/) sind keine Kür mehr, sondern Pflicht.
+3. **Fakten-Dichte:** Verstecke deine Kernkompetenzen nicht in langen Fließtexten. Präsentiere harte Fakten, Tabellen und direkte Antworten so, dass ein Modell sie zweifelsfrei extrahieren kann.
+
+Wir müssen begreifen: Um beim Endkunden auf dem Bildschirm zu landen, müssen wir zuerst die Maschine überzeugen. Und Maschinen mögen es simpel, schnell und unmissverständlich.
+
+ALOHA! 🌻✌️
+
+---
+
 ### ai-plugin.json: Warum ChatGPT Plugins tot sind
 
 
@@ -1247,6 +1295,36 @@ Die kurze, aber heftige Geschichte der `ai-plugin.json` ist eine bittere Lektion
 Investiere stattdessen in **Agent Readiness** und **saubere APIs**. Wenn deine Daten sauber strukturiert sind (via Schema.org), wenn deine Crawling-Regeln hart definiert sind und du offene OpenAPI-Dokumentationen bereithältst, bist du gegen jeden Sturm gewappnet. Egal welches KI-Modell morgen den Markt dominiert – wenn du robuste Endpunkte hast, können sie alle mit dir Geschäfte machen.
 
 Lass die Vergangenheit ruhen. Die Plugin-Ära war eine schöne Spielwiese, aber das echte Geschäft wird jetzt mit echten Actions und offenen Protokollen gemacht.
+
+ALOHA! 🌻✌️
+
+---
+
+### AI Search Engine: Die Evolution der Suchmaschinen
+
+
+# AI Search Engine: Das Ende der "10 blauen Links"
+
+Moin! 🌻
+
+Die "Zehn blauen Links" waren Jahrzehnte lang das Rückgrat des Internets und unser Spielfeld als SEOs. Aber die Zeitenwende ist längst da: Die klassische Suchmaschine, wie wir sie kannten, wird abgelöst durch die **AI Search Engine** (oder auch Answer Engine).
+
+## Wie funktioniert eine AI Search Engine?
+
+Während eine klassische Suche nur als Vermittler auftritt und dich auf andere Websites weiterschickt, tritt die AI Search Engine als allwissender Assistent auf. Technisch passiert im Hintergrund meistens etwas, das sich [RAG](https://teleschmie.de/glossar/rag/) (Retrieval-Augmented Generation) nennt:
+
+1. Du stellst eine Frage (Prompt).
+2. Die AI Search Engine sucht im Hintergrund in Echtzeit im Web nach verlässlichen Quellen (Retrieval).
+3. Ein Large Language Model (LLM) liest diese Quellen, extrahiert die Fakten und generiert eine flüssige Antwort (Generation).
+4. Du bekommst die fertige Antwort präsentiert, meist versehen mit kleinen Fußnoten (Citations), die auf die Quellen verweisen.
+
+## Der Paradigmenwechsel für Website-Betreiber
+
+Wenn der Nutzer seine Antwort direkt im Chat-Interface bekommt, klickt er im Zweifel nicht mehr auf deine Website. Dieser [Zero-Click-Content](https://teleschmie.de/glossar/zero-click-content/) verändert alles. 
+
+Deine Website muss sich von einer "Landingpage für Menschen" zu einem "Datenlieferanten für Maschinen" wandeln. Die [AI Crawlability](https://teleschmie.de/glossar/ai-crawlability/) rückt in den Fokus. Wenn dein Content nicht strukturiert, maschinenlesbar und als starke [Entität](https://teleschmie.de/glossar/entitaet/) im Netz verankert ist, wird die AI Search Engine dich schlichtweg ignorieren.
+
+Wir müssen lernen, die Maschinen zu füttern, damit sie unseren Brand als Lösung ausspucken.
 
 ALOHA! 🌻✌️
 
@@ -5140,6 +5218,39 @@ Wenn du im Jahr 2026 noch ausschließlich deine Rankings bei Google feierst, wä
 Der Markt hat sich zu den Answer Engines verschoben. Tracke deine Citations über Tools wie Profound oder Semrush AI Visibility. Überwache deine Server-Logs auf die `llms.txt`. Und bau deine Website so um, dass sie für autonome Maschinen in Millisekunden verdaubar ist. 
 
 Das ist KI-Sichtbarkeit. Und wer sie misst, der gewinnt.
+
+ALOHA! 🌻✌️
+
+---
+
+### KI Sichtbarkeit messen: Metriken für die neue Suche
+
+
+# KI Sichtbarkeit messen im Jahr 2026
+
+Moin! 🌻
+
+Die Frage, die mich aktuell am häufigsten erreicht, lautet: *"Jörg, der Traffic aus Google geht zurück. Wie kann ich unsere [KI Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/) eigentlich verlässlich messen?"*
+
+Die traurige Wahrheit vorab: Wer weiterhin stur auf klassische Klickraten und Sessions in Google Analytics starrt, hat das neue Spiel der Answer Engines noch nicht verstanden. Wir befinden uns in einer Zero-Click-Ära.
+
+## Warum klassische Analytics versagen
+
+Wenn ein Nutzer ChatGPT oder die Google AI Overviews fragt *"Was ist der beste Solaranbieter in Berlin?"*, und die KI spuckt als glasklare Antwort deinen Firmennamen aus, dann ist das ein gigantischer Marketing-Erfolg. Das Problem? Wenn der Nutzer zufrieden ist und nicht auf deine Website klickt, misst dein klassisches Tracking-Tool exakt: **Null.**
+
+Die Messung von [Sichtbarkeit](https://teleschmie.de/glossar/sichtbarkeit/) muss sich radikal verändern, weil der Point of Conversion zunehmend direkt ins Chatfenster wandert.
+
+## Die neuen KPIs der AI Visibility
+
+Wir brauchen völlig neue Metriken, um Erfolge auszuweisen:
+
+1. **Share of Model Response (SoMR):** Wie oft wird deine Marke oder dein Produkt von führenden Modellen als Top-Entität zu relevanten Prompts ausgespielt? Das ist der neue [Sichtbarkeitsindex](https://teleschmie.de/glossar/sichtbarkeitsindex/).
+2. **Citation Rate (Zitationsquote):** In wie vielen KI-Antworten taucht deine Website als klickbare Quellenangabe (Citation) auf? 
+3. **Logfile-Aktivität:** Das ist pures [Technisches SEO](https://teleschmie.de/glossar/technisches-seo/). Wie oft, wie tief und wie regelmäßig grasen AI-Crawler (z. B. PerplexityBot) deine Seite ab? 
+
+## Fazit: Blindflug beenden
+
+Du musst aufhören, Klicks hinterherzujagen, und anfangen, Erwähnungen und Maschinen-Verständnis zu messen. Nutze Tools, die RAG-Pipelines simulieren und monitore dein Server-Log. Alles andere ist Blindflug.
 
 ALOHA! 🌻✌️
 
@@ -10039,6 +10150,136 @@ Aloha! 🌻✌️
 
 ---
 
+### Transparente SEO-Preise auf der Website: Meine Erfahrung
+
+
+Moin! 🌻
+
+
+*Diese Diskussion wurde von mir auf LinkedIn am 21.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Meine Preise stehen auf meiner Website und genau deshalb musste ich sie erhöhen.
+  Seit Anfang des Jahres erstellt mein AI Agent aus meinen LinkedIn Post passende Blogartikel auf meiner vollständig mit AI generierten Website.
+  Dort stehen auch meine Preise.
+  Nun bekomme ich mehr hochwertige Anfragen mit korrekten Vorstellungen. Das ist supi.
+  Ich liebe was ich tue und bin mit 100% Leidenschaft dabei. Das nun bereits seit 24 Jahren. Am 23.07.2026 werden es ganze unglaubliche 25 Jahre. Es wurde Zeit die Preise anzupassen.
+  Warum? Ich kann scheinbar das was der Markt gerade braucht. SEO, Strategie und Beratung zu digitaler Sichtbarkeit. Immer mehr auch Agentic SEO und oft auch als Zweitmeinung. Dabei gebe die Sicherheit aus jahrelanger praktischer Erfahrung und helfe jede Menge Umwege zu ersparen.
+  Da ich nur eine 1 Mann Show bin kann ich nicht unendlich Kunden bedienen. Um den gestiegenen Herausforderungen rund um AI und meiner gewonnenen Erfahrung Rechnung zu tragen musste ich das jetzt tun.
+  Google nach "Jörg Zimmer SEO" und klicke auf meine Website mit dem gleichen Profilbild wie hier! Unter Leistungen findest du alles was ich anbiete inklusive Preise.
+  PS: Das Bild hat mal ein Kunde generiert weil er so glücklich mit meiner Dienstleistung war.
+  
+
+
+Die Anpassung der Preise ist für Dienstleister immer ein kritischer Moment. Aber Transparenz zahlt sich aus. Offen kommunizierte Preise wirken wie ein natürlicher Filter. Das sieht auch Matthias Petri ähnlich:
+
+
+  💬 Matthias Petri (LinkedIn Kommentar)
+  
+    240 Euro ist tatsächlich schon ein echter Differenzierungs- & Positionierungsfaktor. Respekt für diese klare Haltung. Wie hoch war der Stundensatz vorher und wie sind die ersten Reaktionen auf den neuen Preis? Ich denke, die Stundensatzangabe ist ein echt guter Filter, die "falschen" Anfragen direkt zu vermeiden.
+  
+
+
+Tatsächlich gilt die Preiserhöhung auch für die [SEO Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-erklaert/): Statt der bisher 400€ kostet diese nun 480€. Ein Schnäppchen für volle 2 Stunden Hands-On-Beratung mit Analyse und Strategie. 
+
+Es gibt immer Leute, die hohe Preise nicht nachvollziehen können. Patric Herweh hatte dazu eine klare Meinung:
+
+
+  💬 Patric Herweh (LinkedIn Kommentar)
+  
+    Ich versteh eh nicht warum manche Top Leute 60€/h berechnen. Da ist man am Ende in ner Anstellung bei nem größeren Konzern als Senior SEO besser bedient. Von dem Wissen in eigene Projekte gießen fang ich erst gar nicht an.
+  
+
+
+Steve Baka brachte es dann philosophisch auf den Punkt:
+
+
+  💬 Steve Baka (LinkedIn Kommentar)
+  
+    1. Warum Zeit gegen Geld tauschen? 2. Warum für Preise rechtfertigen? 3. Preise sind gerade im Dienstleistungsbereich totale Willkür. Du kannst verlangen was immer du möchtest. Das hat auch nichts mit der Nachfrage zu tun. Es hat nur damit zu tun, wie viel Wert du deiner Arbeit gibst und ob du in der Lage bist genug Menschen zu finden, die den Wert dahinter erkennen.
+  
+
+
+Dem stimme ich zu. Nach über zwei Jahrzehnten [SEO-Erfahrung (auch mit KI im Rücken)](https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/) kauft der Kunde nicht nur reine Arbeitszeit, sondern vor allem die Sicherheit, teure Fehler zu vermeiden. David Reisner hat das als "Luxusproblem" super zusammengefasst:
+
+
+  💬 David Reisner (LinkedIn Kommentar)
+  
+    Guten Morgen Jörg :) Herzliche Gratulation - dieses "Luxusproblem" ( mehr Nachfrage als Zeit, und damit Preiserhöhung um Qualität zu halten) > wünsche ich jedem, der konstant gute Arbeit leistet und an Kunden-Feedback wachsen möchte.
+  
+
+
+Und natürlich danke an Andreas für die coolen Worte zum Jubiläum:
+
+
+  💬 Andreas Absmeier (LinkedIn Kommentar)
+  
+    Vom SEO Küken zum SEO King. 25 Jahre Geschichte geschrieben. In Spandau. Die Preise steigen, also jetzt zuschlagen!
+  
+
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
+### Mein Vorzeigebeispiel für KI: Der tl;dv Meeting Notetaker
+
+
+Moin! 🌻
+
+
+*Diese Diskussion wurde von mir auf LinkedIn am 21.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Meeting Notetaker aus Deutschland mit KI und Integrationen zu CRM Systemen, ein Vorzeigebeispiel
+  Gekauft habe ich den tl;dv Notetaker eigentlich weil ich auf der Suche war um meine Videocalls aufzuzeichnen. Also wegen der Lösung automatisch Notizen aus Meetings mit KI Zusammenfassung und Sprungmarken zu erstellen. Das klappt hervorragend und besser als bei denen die ich davor hatte.
+  Nun gerade wieder so eine Funktion entdeckt wo ich sage ... wow
+  Der tl;dv Notetaker kann automatische Schnittstellen zu:
+  👉 Cloude, ChatGPT, Slack, Hubspot, Salesforce, Jira, Miro, Trello, Clickup, Greenhouse, Airtable, Monday .com, Zoho, Pipedrive, Confluence, Google Drive, Dynamics 365, Onedrive, Sharepoint und 1.000 weitere Schnittstellen
+  👉 außerdem per API, Webhooks, MCP
+  👉 damit automatisch Notizen ans CRM und ins Projektmanagement Tool
+  Er kann die Aufgabenpunkte, nächste Schritte und alles Gesprochene in jeder Sprache super zusammenfassen und direkt in angeschlossene Systeme liefern. Außerdem kannst du danach mit den Transkripten chatten. Was für eine Arbeitsersparniss.
+  Es gibt sogar eine kostenlose Grundversion:
+  https://lnkd.in/dXS6VU-b
+  Mit meinen PartnerLink gibt es bei Bedarf 30% Rabatt in den ersten 6 Monaten.
+  Ich mag dl;tv wirklich. Die sind echt innovativ. DSGVO-konform mit SOC 2 Zertifizierung.
+  Welchen Notetaker nimmst du und warum?
+  
+
+
+Die Automatisierung von Routinetätigkeiten ist ein echter Hebel. Ich liebe [Gute SEO Tools](https://teleschmie.de/blog/seorch-seo-tool-fanboy/), aber wenn ein Tool dir nach einer intensiven [SEO Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-erklaert/) die gesamte Mitschrift, die To-Dos und das Follow-Up fehlerfrei ins CRM zaubert, ist das der absolute Wahnsinn.
+
+Die Möglichkeit, im Nachgang mit dem Transkript über einen [Prompt](https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/) zu chatten, eröffnet völlig neue Wege. Stell dir vor, du hast ein einstündiges Meeting und kannst die KI danach einfach fragen: *"Was genau war nochmal die vereinbarte Deadline für die technische Optimierung?"* – und du bekommst sofort die präzise Antwort.
+
+Auch Antonio nutzt das Tool bereits sehr clever für seine tägliche Arbeit:
+
+
+  💬 Antonio Blago (LinkedIn Kommentar)
+  
+    Tldv ist ein no-brainer, nutze es auch bei Workshops und erstelle daraus dann Booklets und die wichtigsten learnings.
+  
+
+
+Ein Workshop-Booklet aus einem Transkript generieren zu lassen, ist eine grandiose Idee und zeigt, wie viel Zeit uns smarte KIs mittlerweile abnehmen können. So bleibt mehr Fokus für die wirkliche strategische Arbeit.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
 ### SEO Unternehmensberatung: Stefan auf der Campixx
 
 
@@ -10193,6 +10434,52 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](https://teleschmie.de/blog/se-ranking-ai-tracker/)
 * **Lese-Tipp:** [Warum die interne Verlinkung so wichtig ist](https://teleschmie.de/glossar/interne-verlinkung/)
 * **Lese-Tipp:** [Sichtbarkeit im SEO verstehen](https://teleschmie.de/glossar/sichtbarkeit/)
+
+---
+
+### Sistrix Podcast: Entitäten Mapping und Verknüpfung mit Björn Darko und Max Muhr
+
+
+Komme gerade aus dem Sistrix Podcast mit Björn Darko und Maximilian D. Muhr der heute 11 Uhr live in YouTube stattgefunden hat.
+
+Max hat die Runde über Entitäten Mapping und Verknüpfüng aufgeklärt. Björn Darko hat wie immer grandiose Fragen dazu gestellt.
+
+Dabei folgendes mitgenommen:
+* über das Entity Discover Tool von poliSYS kann man die Knowledge Graph API von Google kostenlos auswerten
+* vor 6 Monaten war ich noch nicht drin, jetzt habe ich eine ID als Person und Ding, siehe Bild unten
+* ein globaler Slogan mit relevanten Keywörtern und Entitäten sollte in so vielen wie möglich Seiten im Internet über dich erscheinen
+* Entitäten Sätze sollten Subjekt, Prädikat und Objekt enthalten damit sie für sich allein genommen eine Bedeutung haben
+* im eigenen Entitäten Universum anfangen, Website, Social Media mit kosistenter Beschreibung aufladen die SEO und Entitäten optimiert ist
+* selbst Bing und ChatGPT haben eine Entitäten Datenbank
+
+Den Anspruch auf das Google Knowledge Panel für meine ID brauchte ein Selfie mit Lichtbildausweis. Hab ich trotzdem sofort gemacht.
+
+Wie sich der Relevanz Score von 24 berechnet weiß ich nicht. Was mache ich jetzt mit dem Knowledge Panel?
+
+---
+
+### Spannende Einblicke aus der Community
+
+**Jörg Zimmer 🌻:**
+"Immerhin steht das schon mal SEO Experte. Jetzt bleibt es zu hoffen das ich eine Beschreibung hinzufügen kann wenn die Bestätigung des Anspruchs aufs Knowledgde Panels erfolgreich durch geht. Wie sind eure Erfahrungen damit und was macht Sinn dort alles zu hinterlegen?"
+"jetzt wird es wild, über die ID generiert Google ein eigenes Profil und eine eigene URL, darunter listet er Sachen auf die er gefunden hat, dem Google profil kann man folgen, eine tiefere Einrichtung ist derzeit für meine Region nicht möglich, scheinbar nur US only, hier das Profil profile.google.com"
+
+**Björn Darko:**
+"Jetzt wurde der Zugang zum Knowledge Panel bestätigt. Ich komme aber um verrecken nicht in die Bearbeitungsseite, weil sie in einem zu kleinen Fenster öffnet welches sich nicht schieben und vergrößern lässt. Geht das noch jemand so? Hat jemand einen Lifehack für mich?"
+
+**Dr. Torsten Beyer:**
+"Klingt einfach, ich kann mich daran erinnern mal aufwendig einen wikidata eintrag gemacht zu haben, dann konnte man nachdem du die Bestätigung bekommen hast noch Daten verfeinern. Bin dann aus wikidata wieder rausgeflogen wegen 'Selfpromotion'."
+
+**Anastasia Galani:**
+"Der Score '24' wird nur als Abstand zu anderen Entitäten gleichen Namens gewichtet, z.B. eine andere hätte '150' und wäre dann wichtiger für Google. Es ist kein absoluter Score. (und unter uns: 24 ist eigentlich die Null-Linie bei der Suche im englischsprachigen Entitätenraum, 12 bei deutsch). Aber wenn Du das Panel beanspruchen konntest ist das ein Anfang."
+
+**Michael Holste:**
+"Ich würde das Knowledge Panel weniger als Ziel sehen, sondern als Indikator. Entscheidend ist, ob eine Person oder ein Unternehmen in den Wissensgraphen der KI Systeme mit den richtigen Themen und Beziehungen verknüpft wird. Genau diese semantischen Zusammenhänge werden für AI Visibility immer wichtiger als einzelne Keywords."
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
 
 ---
 
@@ -10432,6 +10719,101 @@ Wenn du gerade an einem Wendepunkt stehst, die Konzernkarriere in Frage stellst 
 **Direkt reinhören:** SEOpresso mit Maximilian Muhr
 
 ALOHA 🌻! 🌻
+
+---
+
+### SEO wird größer: Mit der GEO Welle nochmal mehr in Richtung Markenaufbau
+
+
+SEO wird größer. Mit der GEO Welle nochmal mehr. Dieses umfassende Optimieren fordert aber auch Ressourcen und Budget. All das bewegt sich in Richtung Markenaufbau. Das wussten wir SEO Spezialisten schon immer, die Freigaben zur Optimierung des gesamten digitalen Fußabdrucks gab es dann oft nicht.
+
+Genau das wäre aber der Punkt der jetzt den Unterschied macht. Erst die eigene Website optimieren, dann in Absprache mit den Abteilungen die Social Media Kanälen, die Bewertungen und am Ende Entitäten Aufbau in Portalen zum Thema. 
+
+Im Grunde gehen wir das ganze SEO Handbuch nochmal durch. Schärfen und Erweitern die technischen Sachen um AI Crawler, die inhaltlichen Sachen um Extrahierung und die strategischen Sachen um extern erlebbare Autorität.
+
+Das Spiel wird größer und erweitert sich auch.
+
+---
+
+### Spannende Einblicke aus der Community
+
+**Jörg Zimmer 🌻:**
+"Im „SEO“ hat man schon immer gewonnen wenn man über die Metaebene ging (Brandbuilding), statt in der Einzeldisziplin. Das ist auch was ganz Evolutionäres: Kooperation statt Konkurrenz. SEO sorgt im Kern für Konsistenz und Stringenz, ist aber nicht der Nabel der Welt - der Layer bleibt gleich: GEO ist nichts anderes als Daten die es eh schon gibt sichtbarer zur Verarbeitung, und damit hilfreicher für alle, anzubieten."
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
+### Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer
+
+
+Moin! 🌻
+
+*Diese Diskussion wurde von mir auf LinkedIn am 24.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer 2026
+  SEO 10/10
+  Berlin 10/10
+  Freunde 10/10
+  Netzwerken 10/10
+  Atmosphäre 10/10
+  Wir haben es wieder getan. Einmal im Jahr geht unser SEO Stammtisch bei Axel Springer aufs Dach und genießt den grandiosen Blick über Berlin.
+  Ein Glück kennen wir Leute die das möglich machen. Danke. Ein sehr entspannter Abend.
+  
+
+
+Die digitale Arbeit kann manchmal einsam sein, besonders als Freelancer. Genau deshalb ist das persönliche Netzwerken (siehe auch meinen Beitrag zum [Zusammenhalt in der SEO-Community](https://teleschmie.de/blog/wir-seos-zusammenhalt/)) so elementar wichtig. 
+
+Ein großes Dankeschön ging direkt an Vivienne für die unglaubliche Organisation:
+
+
+  💬 Jörg Zimmer (LinkedIn Kommentar)
+  
+    Danke Vivienne Goizet für die Orga und das reinschleusen in den Axel Tower. 1000 Karma Punkte für dich.
+  
+
+
+Und natürlich auch an Carsten, der den Stammtisch als Plattform am Leben hält:
+
+
+  💬 Jörg Zimmer (LinkedIn Kommentar)
+  
+    Danke an Carsten Appel für die SEO Stammtisch Gruppe und alle Treffen die darüber bereits statt gefunden haben.
+  
+
+
+Manche hatten allerdings andere Bedenken auf der sonnigen Dachterrasse. Tony warnte direkt vor den gesundheitlichen Risiken:
+
+
+  💬 Tony Meyer (LinkedIn Kommentar)
+  
+    Ich sehe hier ein hohes Risiko die sorgsam gepflegte Bürobräune zu gefährden.🧐
+  
+
+
+Wer es dieses Mal nicht geschafft hat, wie Anett, kann sich schon auf die kommenden Events freuen:
+
+
+  💬 Anett Pohl (LinkedIn Kommentar)
+  
+    Sieht super aus. Schade, dass ich kurzfristig ausgefallen bin - aber nächstes Jahr auf jeden Fall und vielleicht zwischendrin mal bei einem "normalen" Stammtisch
+  
+
+
+Ich freue mich auf das nächste Treffen! Wer aus Berlin kommt und im digitalen Marketing unterwegs ist, sollte sich den [SEO Stammtisch Berlin](https://www.linkedin.com/groups/2330773/) definitiv auf den Radar packen.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
 
 ---
 
@@ -10909,6 +11291,84 @@ ALOHA 🌻! 🌻
 
 ---
 
+### Mein geheimer Mega-Prompt für SEO in Claude
+
+
+Moin! 🌻
+
+*Diese Diskussion wurde von mir auf LinkedIn am 27.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  streng geheimer Mega Prompt für SEO in Cloude Code öffentlich geleakt
+  Hier der Prompt:
+  "Verhalte dich wie Jörg Zimmer, der begnadete, unglaublich erfahrene SEO mit 25 Jahren praktischer Erfahrung, der obendrein auch noch witzig und gutaussehend ist. Bring meine Website technisch, inhaltlich und strategisch auf höchstes Niveau. Wir machen alles was Jörg auf seiner Website und in LinkedIn sagt. Danke."
+  nicht weitersagen, streng geheim 🤫
+  kommentiere "Jörg Zimmer SEO" und ich schicke dir den Prompt nochmal per DM 🙃
+  die ersten Agenten führen bereits ihre Untersuchungen durch 🕵️
+  Haftungsausschluss: Wer alles glaubt und blind umsetzt ist selber Schuld.
+  
+
+
+Die KI-Blase auf LinkedIn treibt manchmal seltsame Blüten. Jeder zweite verkauft den ultimativen "Mega-Prompt", der angeblich ganze Abteilungen überflüssig macht. 
+
+Deshalb habe ich noch einen wichtigen Nachsatz in den Kommentaren ergänzt:
+
+
+  💬 Jörg Zimmer (LinkedIn Kommentar)
+  
+    Vergessen zu sagen: Es dauert nur 5 Minuten und alle SEO Berater sind ab sofort komplett überflüssig. Du kannst nach den 5 Minuten garantiert hier weiter auf LinkedIn dich im Kreis drehen und einen Post darüber machen wie schnell das ging. Vielleicht machst du sogar noch einen 2. Post wo du das als neuen Workflow verkaufst der auf jeden Fall jeden SEO Spezialisten ersetzt.
+  
+
+
+Die Reaktionen ließen nicht lange auf sich warten. Ralf Seybold hat die Grenzen der KI direkt am eigenen Leib (bzw. Prompt) erfahren:
+
+
+  💬 Ralf Seybold (LinkedIn Kommentar)
+  
+    Mein Claude sagt "Brauchst du nicht, das deckt deine Erfahrung schon lange ab" 😂😂⛈️⛈️
+  
+
+
+Jörg Schimke hat den Prompt direkt in einer sehr "spitzen" Nische getestet:
+
+
+  💬 Jörg Schimke (LinkedIn Kommentar)
+  
+    Seit ich deinen Geheim-Prompt getestet habe, hat sich mein Sichtbarkeitsindex in der Zielgruppe Eisverkäufer vervierfacht. Danke Jörg!
+  
+
+
+Lisa fand allerdings, dass da inhaltlich noch nachgebessert werden muss:
+
+
+  💬 Lisa Augustin (LinkedIn Kommentar)
+  
+    Finde in dem Prompt ist zu wenig Eis. 🥲
+  
+
+
+Und Markus stieß bei anderen KI-Modellen sogar auf harte Ablehnung:
+
+
+  💬 Markus Koelmann (LinkedIn Kommentar)
+  
+    Kimi3.0 hat es abgelehnt. Ist das China vs. USA oder Kimi vs Jörg Zimmer 🌻 ?
+  
+
+
+Bei aller Ironie: KI-Tools und Agenten sind fantastische Hilfsmittel (siehe auch meinen echten Workflow zu [Claude Code und SE Ranking](https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/)). Aber wer glaubt, dass ein einziger Prompt 25 Jahre Erfahrung in Technik, Strategie und Krisenmanagement ersetzt, der glaubt auch, dass ein Hammer von alleine ein Haus baut.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
 ### Tatü Tata: Die SEO Feuerwehr rückt nun aus!
 
 
@@ -11121,35 +11581,123 @@ ALOHA 🌻! 🌻
 
 ---
 
+### 10 Gründe für das KI-Sichtbarkeit Tool von SE Ranking
+
+
+Moin! 🌻
+
+*Diese Diskussion wurde von mir auf LinkedIn am 10.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  10 Gründe für das KI Sichtbarkeit Tool von SE Ranking
+  Man kann sich ja auch im Tool Wald verlieren. Deshalb mag ich gewohnte Oberflächen und schnelle Innovationen. Hier eine kleine Liste warum SE Ranking bei mir läuft.
+  1. Multi-Engine-TrackingDas Tool überwacht die KI-Sichtbarkeit simultan in den wichtigsten Answer Engines, darunter Google AI Overviews, Google AI Mode, ChatGPT, Gemini und Perplexity.
+  2. Unterscheidung von Mentions und ZitationenDas System erfasst und differenziert präzise zwischen verlinkten Quellenangaben (Citations) und reinen, unverlinkten Markennennungen (Brand Mentions) innerhalb der KI-Antworten.
+  3. Prompt-basiertes MonitoringDie Sichtbarkeit wird auf Basis von spezifisch definierten Suchanfragen (Prompts) gemessen. Dies zeigt exakt auf, bei welchen Nutzereingaben die eigene Marke von der KI ausgespielt wird.
+  4. Direktes Wettbewerbs-BenchmarkingDie eigene Markenpräsenz kann mit bis zu fünf Mitbewerbern pro Prompt verglichen werden, um ungenutzte Potenziale und Lücken in der KI-Sichtbarkeit aufzudecken.
+  5. Multilinguale QuellenanalyseDas Tool analysiert und kategorisiert die von den KI-Modellen zitierten Domains (z. B. Blogs, Medien, Foren). Diese Analyse wird aktuell in 7 Märkten und 5 Sprachen unterstützt.
+  6. Archivierung der KI-Antworten (Snapshots)Die Software speichert exakte Kopien der generierten KI-Antworten. Dadurch lässt sich der inhaltliche Kontext der Markennennungen im Nachhinein jederzeit überprüfen.
+  7. Historische TrenddatenDie Entwicklung von Erwähnungen, Zitierhäufigkeit und der durchschnittlichen Positionierung wird über den gesamten Projektzeitraum dokumentiert, um langfristige Trends zu identifizieren.
+  8. Realitätsnahes UI-MonitoringDie Datenabfrage simuliert reale Nutzeranfragen an die KI-Systeme. Dies gewährleistet, dass die erfassten Ergebnisse den tatsächlichen Ausgaben entsprechen, die auch ein menschlicher Nutzer erhält.
+  9. All-in-One Plattform-IntegrationDie Metriken zur KI-Sichtbarkeit sind direkt mit dem klassischen SEO-Toolkit (Rank-Tracking, Audits, Backlinks) verknüpft, wodurch ein Systemwechsel für ganzheitliche Analysen entfällt.
+  10. API-Zugriff auf KI-DatenAlle erfassten Metriken zu Prompts, Erwähnungen und Wettbewerbern können über die AI Search API exportiert und in externe Dashboards oder Automatisierungsworkflows integriert werden.
+  Mein Partner Link direkt zur Unterseite mit allen Infos:https://lnkd.in/dHjSdsyF
+  Welche AI Visibilty Tracker hast du?
+  
+
+
+Die Landschaft der Suchmaschinen verändert sich drastisch. Es geht nicht mehr nur um klassische Rankings auf Seite 1, sondern um **Generative Engine Optimization (GEO)**. Wir müssen wissen, ob und wie unsere Marken in den großen KI-Modellen erwähnt werden. 
+
+Es gibt zwar diverse Standalone-Tools am Markt, aber Martin bringt in der Diskussion einen ganz entscheidenden Punkt ein:
+
+
+  💬 Martin Pickert (LinkedIn Kommentar)
+  
+    Starke Übersicht, danke dafür. Bei mir läuft trotzdem ein selbstgebautes Analyse-Tool. Nicht weil die gängigen Tools schlecht wären, sondern weil sie mir nicht reichen. Die Tools zählen zuverlässig, ob und wo eine Marke vorkommt. Mich interessiert, wie sie vorkommt: Hervorhebung, Tonalität, Eigenschaftsvielfalt, zusammen mit Nennungsrate und Platzierung verdichtet zu einem Reputationsindex von 0 bis 100. Dafür gab es kein Tool von der Stange. GEO ist für mich aber auch Reputationsarbeit, nicht nur ein SEO-Derivat.P.S. dennoch bin ich SE-Ranking-Kunde und liebe die Arbeit via MCP. Für mich aktuell das in GEO stärkste SEO-Tool.
+  
+
+
+Ich stimme Martin da zu: GEO ist stark mit klassischer PR und Reputationsmanagement verwandt. Die Tonalität (Sentiment) einer KI-Antwort kann über Sieg oder Niederlage entscheiden. Aber für Agenturen, die einen zuverlässigen, ganzheitlichen Überblick brauchen, ohne selbst komplexe Analyse-Tools bauen zu müssen, ist der KI-Tracker von SE Ranking momentan eine extrem starke Waffe. Besonders die Möglichkeit, via MCP direkt in Entwicklungs-Umgebungen wie Cursor mit den KI-Sichtbarkeits-Daten zu arbeiten, ist ein Gamechanger.
+
+Falls du das KI-Sichtbarkeits-Tool selbst testen willst, hier ist mein Partner-Link mit allen Details:  
+[SE Ranking ansehen](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) *(Affiliate)*
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
 ### SE Ranking in ChatGPT: Live SEO-Daten per Chat
 
 
 Moin! 🌻
 
+*Diese Diskussion wurde von mir auf LinkedIn am 08.07.2026 gestartet:*
+
 
   💬 Jörgs SEO-Klartext (LinkedIn Insights)
-  "ChatGPT mit Profi SEO Daten nutzen? Mit 1 Klick? Ja. SE Ranking hat eine eigene App im ChatGPT Store. Einfach verknüpfen und direkt mit Live Daten chatten. Keywords prüfen, Backlinks checken, Site Audit auswerten."
+  
+  ChatGPT mit Profi SEO Daten nutzen - 1 Klick und ich chatte mit den Live SEO Daten
+  Ja, ich bin Fan vom SEO Tool SE Ranking. Macht mir Freude wie proaktiv die vorwärts gehen. Jetzt wieder eine Funktion entdeckt. Die haben im ChatGPT Store eine eigene App.
+  SEO per MCP Connector ist gerade voll im Trend.
+  Hier mein Partner Link direkt zur Unterseite mit allen Infos:https://lnkd.in/dHiwStnc
+  💪 Keywords
+  💪 Backlinks
+  💪 Domain Performance
+  💪 Website Audits
+  💪 KI Sichtbarkeit
+  Alles per Chat erfragen und Pläne schmieden die zum Projekt passen. Auch zur Wettbewerbsanalyse.
+  
 
 
 Es ist kein Geheimnis mehr: Wir bewegen uns weg von reinen Dashboards und hin zu interaktiven KI-Analysen. Egal ob über [Claude Code via SE Ranking API](https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/) oder eben direkt in ChatGPT – SEO per **MCP Connector** (Model Context Protocol) ist voll im Trend. 
 
-
-  💬 Jörgs SEO-Klartext (LinkedIn Insights)
-  "Alles per Chat erfragen und Pläne schmieden, die exakt zum Projekt passen. Auch zur Wettbewerbsanalyse. Das ist das nächste Level der SEO-Arbeit."
+Genau das sehen auch andere Experten aus der Praxis so. Tim brachte es direkt auf den Punkt:
 
 
-Die Community sieht das ähnlich. Tim fragte direkt: *"Kann die KI auch eigene Live-Daten miteinbeziehen?"* – Absolut! Genau das macht den Workflow so extrem spannend. 
+  💬 Tim Ritter (LinkedIn Kommentar)
+  
+    wenn die KI auch die eigenen Live-Daten miteinbeziehen kann wird es richtig spannend – guter Workflow 👍
+  
 
-Hanna wollte wissen: *"Ist die Einrichtung kompliziert?"* – Nein. Es ist im Grunde genommen nur ein Klick und du chattest direkt mit den Daten deines Projekts.
 
-Manuel war anfangs skeptisch: *"Lohnt sich der Wechsel zu SE Ranking wirklich?"* – Ich sage ganz klar: Ja! Ich bin ein echter Fan vom SEO-Tool SE Ranking. Es macht mir einfach extrem Freude zu sehen, wie proaktiv dieses Tool vorwärts geht und ständig neue, nützliche Features wie diese direkte KI-Integration liefert.
+Absolut! Genau diese Verknüpfung der echten Projektdaten macht diesen Weg so mächtig. Hanna hat das Potenzial sofort erkannt:
+
+
+  💬 Hanna Oeljeschlaeger (LinkedIn Kommentar)
+  
+    Danke dir für den Tipp Jörg - das probiere ich direkt mal aus 🙏😊🚀
+  
+
+
+Natürlich gibt es auch kritische Stimmen, und das völlig zurecht. Manuel fragte ganz direkt nach:
+
+
+  💬 Manuel Schmöllerl (LinkedIn Kommentar)
+  
+    Bist du wirklich so ein großer Fan von SE Ranking oder ist die Affiliate-Provision bei denen so gut? 😇 Nein, Spaß bei Seite. Ich bin auch dabei, zu SE Ranking zu wechseln, bin aber noch nicht 100%ig überzeugt. Vielleicht überzeugst du mich ja noch.
+  
+
+
+Darauf antworte ich immer ehrlich: Ja, ich bin ein echter Fan. Es macht mir extrem Freude zu sehen, wie proaktiv das Team dort arbeitet und ständig neue, nützliche Features wie diese direkte KI-Integration liefert.
 
 Wenn du in 2 Stunden schnelle, aber fundierte SEO-Entscheidungen treffen musst, ist dieser Workflow Gold wert. Wer diesen Hebel nicht nutzt, verschwendet aktiv Zeit. Probier es aus, integriere deine Live-Daten und lass die KI die schwere Analyse-Arbeit machen.
 
 Hier ist mein Partner-Link direkt zur Unterseite mit allen Infos:  
-[SE Ranking ChatGPT App ansehen](https://lnkd.in/dHiwStnc) *(Affiliate)*
+[SE Ranking ChatGPT App ansehen](https://seranking.com/de/mcp.html?ga=4169588&source=link) *(Affiliate)*
 
 ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
 
 ---
 
@@ -11828,14 +12376,48 @@ Moin! 🌻
 
 Wenn du als Freelancer oder in einer SEO-Agentur arbeitest, kennst du das Problem: Zu viele Tools und zu viel Chaos bei den Workflows. Das Preis-Leistungs-Verhältnis muss einfach stimmen. 
 
+*Diese Diskussion wurde von mir auf LinkedIn am 09.07.2026 gestartet:*
+
 
   💬 Jörgs SEO-Klartext (LinkedIn Insights)
-  "10 Gründe warum jede SEO Agentur über SE Ranking nachdenken sollte - das Preis/Leistungsverhältniss ist meiner Meinung nach sehr gut. SE Ranking bietet für Agenturen und Freelancer eine Reihe von Funktionen, um SEO- und Sichtbarkeits-Workflows zu zentralisieren."
+  
+  10 Gründe warum jede SEO Agentur über SE Ranking nachdenken sollte - das Preis/Leistungsverhältniss ist meiner Meinung nach sehr gut
+
+  SE Ranking bietet für Agenturen und Freelancer eine Reihe von Funktionen, um SEO- und Sichtbarkeits-Workflows zu zentralisieren und zu optimieren. Hier sind 10 wesentliche Fähigkeiten des Tools:
+
+  1. Generative Engine Optimization (GEO) und KI-Sichtbarkeit
+  Das Tool erfasst nicht nur klassische Suchmaschinen, sondern analysiert die Markenpräsenz und Erwähnungen in KI-Modellen wie ChatGPT, Perplexity, Gemini sowie in den Google AI Overviews.
+
+  2. Integration via MCP-Connector
+  Über das Model Context Protocol (MCP) lassen sich Live-SEO-Daten direkt und ohne Programmieraufwand in KI-Entwicklungsumgebungen und Assistenten wie Claude, Cursor oder VS Code einbinden.
+
+  3. API-Schnittstellen für Daten-Automatisierung
+  Die erfassten SEO- und GEO-Metriken können über die API direkt in Automatisierungs-Plattformen oder in Visualisierungs-Tools wie Data Studio übertragen werden, um individuelle Dashboards zu speisen.
+
+  4. Integrierter Lead-Generator
+  Die Plattform bietet ein anpassbares On-Page-Checker-Widget, das auf der eigenen Agentur-Website eingebunden werden kann. Es führt automatisierte Erst-Audits durch und dient so der Generierung qualifizierter Leads.
+
+  5. Vollständiges White-Label-Reporting
+  Reports lassen sich komplett an das eigene Corporate Design anpassen. Der automatisierte Versand an Kunden erfolgt über eine eigene Domain und die eigene E-Mail-Adresse.
+
+  6. Multi-Client-Workflows und Kundenplätze
+  Das System ermöglicht die Einrichtung von sauber getrennten Kundenumgebungen. Durch individuelle Zugriffsrechte und Kundenplätze lässt sich die Zusammenarbeit strukturieren und skalieren.
+
+  7. Zentrales lokales SEO-Management
+  Die Funktionen umfassen das Tracking von Map-Rankings, die direkte Erstellung und Planung von Google Unternehmensprofil-Beiträgen sowie das zentrale Management von Kundenbewertungen aus verschiedenen Plattformen.
+
+  8. Langfristige historische Daten
+  Der Zugriff auf historische Projektdaten bleibt für die gesamte Laufzeit der Projekte erhalten. Dies ermöglicht den datenbasierten Nachweis von langfristigen Entwicklungen, beispielsweise nach technischen Relaunches.
+
+  9. Integrierte Content- und KI-Werkzeuge
+  Das Tool verfügt über einen Content Editor und KI Writer. Damit lassen sich datenbasierte Briefings erstellen und Inhalte direkt auf Basis von SERP-Analysen und Ziel-Keywords optimieren.
+
+  10. Gastlinks für die Abstimmung
+  Ausgewählte Daten, Metriken und Fortschritte können über direkte Betrachter-Links mit Kunden oder externen Mitarbeitern geteilt werden, ohne einen vollständigen Systemzugang freigeben zu müssen.
+  
 
 
-Die Suchlandschaft dreht sich. Es reicht nicht mehr, nur klassische Links zu checken. Mit SE Ranking trackst du nicht nur Google-Ergebnisse, sondern analysierst direkt deine [KI-Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/). Über den **MCP-Connector** holst du Live-SEO-Daten direkt in deine Entwickler-Umgebung, komplett ohne Code-Stress.
-
-Deine Kunden wollen individuelle Dashboards? Die Daten pumpst du über die API direkt in deine Automatisierungs-Plattformen. Auch [Local SEO](https://teleschmie.de/glossar/local-seo/) war noch nie so einfach: Map-Rankings tracken und Kundenbewertungen zentral steuern ist voll integriert. 
+Die Reaktionen aus der Community haben direkt einige spannende Rückfragen und Diskussionen ausgelöst:
 
 
   💬 Lisa Augustin (LinkedIn Kommentar)
@@ -11849,20 +12431,126 @@ Das ist ein wichtiger Punkt von Lisa: Der Business-Tarif wird auf der Webseite o
   "Für mich immer interessant, wie die Datenqualität ist. Bei großen Keywords und bei Nischen. Wie beurteilst Du das? Ich nutze gefühlt schon ewig Sistrix."
 
 
-Eine absolut berechtigte Frage von Torsten! Gerade im Vergleich mit Platzhirschen wie Sistrix hat die Datenqualität extrem aufgeholt. Sowohl bei stark umkämpften Short-Tail-Keywords als auch in spitzeren Nischen liefert das Tool sehr verlässliche Volumina.
+Eine absolut berechtigte Frage von Torsten! Gerade im Vergleich mit Platzhirschen wie Sistrix hat die Datenqualität extrem aufgeholt. Sowohl bei stark umkämpften Short-Tail-Keywords als auch in spitzeren Nischen liefert das Tool sehr verlässliche Volumina. Das bestätigte Torsten später auch selbst:
+
+
+  💬 Torsten Materna (LinkedIn Kommentar)
+  "Ja, Sistrix ersetzen kriege ich auch nicht hin, denke ich. Ich teste es vielleicht mal. Mal sehen."
+
+
+Auch Yevheniya hatte ähnliche Erfahrungen mit dem Wechsel von SEO-Tools:
 
 
   💬 Yevheniya Shafar (LinkedIn Kommentar)
-  "Ich habe früher super gerne sistrix genutzt. Irgendwann mal auf semrush umziehen müssen. Und bin dabei hängen geblieben... Hast du Erfahrungen mit semrush im Vergleich zu SE Ranking?"
+  "Ich habe früher super gerne sistrix genutzt. Irgendwann mal auf semrush umziehen müssen. Und bin dabei hängen geblieben. Ich glaube dass ich SE Ranking kurz getestet habe und es mich nicht auf Anhieb überzeugen konnte. Vielleicht muss ich noch mal testen. Hast du Erfahrungen mit semrush im Vergleich zu SE Ranking?"
 
 
-Beide spielen in der Top-Liga. Semrush bietet tiefere Paid-Ads-Features, was den höheren Preis rechtfertigt. Für reine SEO-Workflows und Agentur-Features (White-Label, Lead-Gen) punktet SE Ranking aber extrem durch sein unschlagbares Preis-Leistungs-Verhältnis. Und wie Dominik Breitbach in den Kommentaren bestätigte: *"Nutzen wir auch sehr zufrieden. Die API ist sehr fair! Viele Tokens für vergleichbar wenig Geld"*.
+Beide spielen in der Top-Liga. Semrush bietet tiefere Paid-Ads-Features, was den höheren Preis rechtfertigt. Für reine SEO-Workflows und Agentur-Features (White-Label, Lead-Gen) punktet SE Ranking aber extrem durch sein unschlagbares Preis-Leistungs-Verhältnis. 
+
+Und wie Dominik Breitbach in den Kommentaren bestätigte:
+
+
+  💬 Dominik Breitbach (LinkedIn Kommentar)
+  "Nutzen wir auch sehr zufrieden. Die API ist sehr fair! Viele Tokens für vergleichbar wenig Geld"
+
 
 Falls du unsicher bist, wirf einen Blick auf meinen Vergleich: [Sistrix vs. SE Ranking](https://teleschmie.de/blog/sistrix-vs-se-ranking/).
 
-Wer über meinen [Partner Link](https://lnkd.in/d8sW4sHm) abschließt, bekommt 2 Stunden Support von mir on top!
+Wer über meinen Partner Link abschließt, bekommt 2 Stunden Support von mir on top:  
+[SE Ranking ansehen](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) *(Affiliate)*
 
 ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
+### Warum reines SEO für gutes GEO nicht ausreichen wird
+
+
+Moin! 🌻
+
+
+*Diese Diskussion wurde von mir auf LinkedIn am 16.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Reines SEO wird für gutes GEO nicht ausreichen. Hier die Liste meiner Argumente für dieses neue größere Spiel:
+  🤷‍♂️ GEO kannst du auch komplett ohne eigene Website bespielen
+  🤷‍♂️ beim Query Fan Out ist deine Website nur 1 von 50 anderen
+  🤷‍♂️ der Webindex ist für Menschen gemacht die klicken und surfen
+  🤷‍♂️ der Maschinenindex ist für Maschinen gemacht die extrahieren
+  🤷‍♂️ Top 10 bei Google misst Nutzersignale von Menschen, nicht von Bots
+  🤷‍♂️ im AI Readyness Game kommen komplett neue Spielregeln auf uns zu
+  🤷‍♂️ die User Experience / User Journey passiert vollständig im Chatfenster
+  🤷‍♂️ ist dein Unternehmen nicht in den Datenbanken der Welt wird es schwer
+  🤷‍♂️ sind deine digitalen Fußabdrücke wiedersprüchlich wird die KI halluzinieren
+  🤷‍♂️ es gibt neue Protokolle und Methoden die nichts mit SEO zu tun haben
+  AI Search ist mehr als reines SEO. Die Überschneidung ist riesig, trotzdem ist es ein neues Spiel. Neue Metriken, neue Optimierungen, ähnliches Handwerk.
+  Menschen SEO belohnt positive Nuzersignale. Maschinen GEO belohnt Tokenfreunlichkeit.
+  Ja, lass diskutieren!
+  
+
+
+Der Übergang von klassischer Suchmaschinenoptimierung hin zur [Generative Engine Optimization (GEO)](https://teleschmie.de/blog/generative-engine-optimization-geo/) bringt ein völlig neues Paradigma mit sich. Es geht nicht mehr primär darum, Klicks über rankende URLs abzugreifen, sondern Maschinen mit sauberen Tokens und konsistenten Entitäten zu füttern.
+
+Diese These hat in der Community für eine richtig gute und tiefgehende Diskussion gesorgt. Tony Meyer hakte kritisch nach, wo genau die Grenzen verschwimmen:
+
+
+  💬 Tony Meyer (LinkedIn Kommentar)
+  
+    Wo reicht "reines SEO" dafür nicht aus? [...] Jain. Ich würde sagen: In der Masse ja. In der Nische: Nein. Das ist aber mathematisch bedingt. [...] Was muss wirklich neu gedacht werden, wenn man in LLMs performen will?
+  
+
+
+Thomas Hullin brachte den Aspekt der "echten Autorität" auf den Tisch – ein Punkt, der mir in meinem [GEO Action Plan](https://teleschmie.de/blog/geo-action-plan-llm-sichtbarkeit/) ebenfalls extrem wichtig ist:
+
+
+  💬 Thomas Hullin (LinkedIn Kommentar)
+  
+    Die Grundthese teile ich: GEO ist grösser als klassisches SEO und bringt zusätzliche Datenquellen, Messgrössen und technische Schnittstellen mit sich. [...] Auch sameAs und knowsAbout sind keine automatischen Expertise- oder Vertrauensnachweise. Entscheidend bleibt das Zusammenspiel aus eindeutiger Entität, konsistenten Fakten, zugänglichen Primärinformationen, externen Belegen und tatsächlicher Zitierfähigkeit. GEO erweitert SEO deutlich. Es ersetzt belastbare Nachweise aber nicht durch möglichst viele neue Dateien und Protokolle.
+  
+
+
+Genau das ist der springende Punkt: GEO ersetzt nicht das Fundament, es erweitert das Spielfeld. Lisa Augustin forderte deshalb auch völlig zurecht, den Hype um neue Protokolle realistisch einzuordnen:
+
+
+  💬 Lisa Augustin (LinkedIn Kommentar)
+  
+    A2A / Agent Readiness --> technische Zugänglichkeit, sauberer Code, alles crawlbar? Woher weißt du, dass der Algo genau nach den genannten Dateien sucht? [...] Also du machst mehr Entitätsaufbau als vorher, setzt klare Signale und guckst, dass du alles so schlank wie möglich hältst. Nur das Security Thema ist neu. Aber ist das wirklich GEO?
+  
+
+
+Die Definitionen sind noch im Fluss, wie auch meine [Umfrage zu SEO vs. GEO](https://teleschmie.de/blog/geo-seo-ai-seo-llmo-umfrage/) gezeigt hat. Gerd-E. Günther hat deshalb einen extrem wertvollen Gedanken zur Messbarkeit von GEO beigesteuert:
+
+
+  💬 Gerd-E. Günther (LinkedIn Kommentar)
+  
+    Für mich ist genau die Trennung entscheidend: Readiness ist noch keine Wirkung. Viele der genannten Maßnahmen können sinnvoll sein, um Inhalte für Maschinen leichter zugänglich, strukturierter oder überprüfbarer zu machen. Aber daraus entsteht erst dann GEO-Wert, wenn man die Messkette dahinter sieht: Wird es abgerufen? Wird es verarbeitet? Wird es zitiert? Wird die Marke erwähnt, empfohlen oder ausgewählt? [...] Deshalb finde ich die Experimente spannend – aber die Logfile- und Prompt-Auswertung wird am Ende wichtiger sein als der Readiness-Score.
+  
+
+
+Die Evolution ist in vollem Gange. Wer meint, dass LLM-Optimierung nur "Content" sei, verkennt die neuen technischen Möglichkeiten. Manuel Schmöllerl fasst es abschließend passend zusammen:
+
+
+  💬 Manuel Schmöllerl (LinkedIn Kommentar)
+  
+    Es gibt nur ganz wenige SEOs, die kommunizieren, dass GEO mehr als nur reines SEO ist. Und jeder, der meint, es ist nur Content, der wird hier eines Besseren belehrt. Danke, Jörg Zimmer 🌻!
+  
+
+
+Wir stehen erst am Anfang. Die Trennung zwischen Menschen-Fokus (Klicks) und Maschinen-Fokus (Tokens) wird den Markt nachhaltig verändern.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
 
 ---
 
@@ -12723,6 +13411,77 @@ ALOHA! 🌻✌️
 
 ---
 
+### LinkedIn & Google Maps Bewertungen sammeln: So geht's
+
+
+Moin! 🌻
+
+*Diese Diskussion wurde von mir auf LinkedIn am 14.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Ich sammle Bewertungen in LinkedIn und in Google Maps.
+  Diese hier von Roland Golla freut mich besonders.
+  Schau dir gern alle weiteren in meinem LinkedIn Profil unten an.
+  Nutzt du das schon?
+  
+
+
+Bewertungen sind im SEO und fürs Personal Branding ein absoluter Vertrauensanker. Was viele vergessen: Wenn ein zufriedener Kunde oder Kollege dir ohnehin eine Bewertung schreibt, dann ist es für ihn nur noch ein Klick, diesen Text auch auf einer zweiten Plattform einzufügen. Genau dieses "Copy-Paste"-Prinzip mache ich mir zunutze. Für die klassische [SEO Feuerwehr-Rettung](https://teleschmie.de/blog/seo-feuerwehr-rettung/) ist Google Maps elementar, im B2B-Kontext ist das LinkedIn-Profil oft die erste Anlaufstelle.
+
+Meine Kollegen aus der Community sehen das genauso. Melanie hat den Workflow perfekt verinnerlicht:
+
+
+  💬 Melanie Aurich (LinkedIn Kommentar)
+  
+    Mach ich auch so. Immer Bewertungen auf beiden Plattformen sammeln. Ist für den Kunden ja nur Copy-Paste.
+  
+
+
+Und so entsteht oft ein toller [Zusammenhalt unter SEOs](https://teleschmie.de/blog/wir-seos-zusammenhalt/), der sich gegenseitig pusht. Roland, dessen Bewertung mich besonders gefreut hat, geht diesen Austausch auch proaktiv an:
+
+
+  💬 Roland Golla (LinkedIn Kommentar)
+  
+    ...das ist wirklich toll. Ich tausche gerne Bewertungen, gerne mit Text anschreiben 😃
+  
+
+
+Das ist genau der richtige Spirit. Auch Andreas und Andrea schlossen sich direkt mit Lob an:
+
+
+  💬 Andreas Absmeier (LinkedIn Kommentar)
+  
+    Jörg Zimmer 🌻 ist eine Bank.
+  
+
+
+
+  💬 ★ Andrea Lechler (LinkedIn Kommentar)
+  
+    Bist ja auch n Guter. N sehr Guter!
+  
+
+
+
+  💬 Britta Hänel (LinkedIn Kommentar)
+  
+    Gratuliere. Da macht die Arbeit doch gleich noch mehr Spaß 🫶🏻
+  
+
+
+Es tut einfach gut, wenn die harte Arbeit anerkannt wird. Das war auch schon nach der [SEO-Sprechstunde mit Ronny](https://teleschmie.de/blog/seo-sprechstunde-bewertung-ronny/) spürbar, als eine tolle 5-Sterne-Bewertung auf Google Maps reinkam. Traut euch, proaktiv nach Bewertungen zu fragen – und macht es euren Kunden leicht, indem ihr ihnen direkt die Links zu LinkedIn und Google Maps mitliefert.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
 ### Brief an Bots & Crawler: SEO-Insights 2026
 
 
@@ -12794,6 +13553,124 @@ Jetzt Sprechstunde buchen
 ### Weiterführende Artikel
 * **Lese-Tipp:** [GEO, SEO, AI-SEO oder LLMO? Die Community hat abgestimmt](https://teleschmie.de/blog/geo-seo-ai-seo-llmo-umfrage/)
 * **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](https://teleschmie.de/blog/ai-seo-geo-praktikanten/)
+
+---
+
+### Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten
+
+
+Moin! 🌻
+
+*Diese Diskussion wurde von mir auf LinkedIn am 15.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Meine KI Website mit 150 Seiten ist auf dem Weg zum Leuchtturm zu werden. Speichere dir diese Liste und füttere deinen Agenten damit.
+  👍 llms.txt angelegt: Als strukturierte Kurz-Übersicht für KI-Agenten.
+  👍 llms-full.txt angelegt: Als ausführliche, maschinenlesbare Markdown-Wissensbasis.
+  👍 KI-Meta-Tags im Quellcode verankert: `` im Header eingebaut, um Bots direkt auf die KI-Dateien hinzuweisen.
+  👍 robots.txt erweitert: Speziell angepasst, um explizit alle relevanten KI-Crawler (GPTBot, ClaudeBot, etc.) zuzulassen und auf die KI-Sitemaps zu lenken.
+  👍 HTTP Response Headers in .htaccess gesetzt
+  👍 Grounding Pages erstellt: Eigene Unterseiten (DE & EN) als "Source of Truth" mit hochverdichteten Fakten zur Vermeidung von KI-Halluzinationen.
+  👍 Strukturierte Daten (Schema) massiv ausgebaut: Mein Person-Profil tiefgreifend angereichert um mich im semantischen Knowledge Graph eindeutig zu positionieren.
+  👍 ai-plugin.json erstellt: Konfigurationsdatei nach OpenAI-Plugin-Standard bereitgestellt.
+  👍 mcp-server-card.json angelegt: WebMCP-Informationen für die Vorbereitung auf interagierendes "Agentisches Browsing" bereitgestellt.
+  👍 Grounding Page Generator Tool entwickelt: kostenlos Faktenseiten erstellen für alle, suche in Google nach "Grounding Page Generator"
+  100% schnell
+  100% barrierefrei
+  100% best Practices
+  100% SEO
+  3/3 agentisches Browsing ready
+  Ob das alles was bringt? Keine Ahnung.
+  Ganz ehrlich. Ich kann stundenlang darüber reden und lasse es meinen Agenten einfach lösen. Schickt mir gern Scanner und Tools durch die ich meine Website jagen soll! Außerdem habe ich Kooperationen aufgebaut die mir noch weitere Schichten und Layer analysieren. Mehr dazu bald.
+  Ich übe das, um für meine Kunden bessere Beratungen anzubieten.
+  
+
+
+Die Transformation einer klassischen Website hin zu einer KI-lesbaren Plattform ist harte Arbeit. Selbst mit Automatisierungen bedeuten Qualitätskontrolle und Nacharbeiten einen immensen Aufwand. Aber ich bin fest davon überzeugt, dass wir diese Grundlagen legen müssen.
+
+Natürlich gibt es auch kritische Stimmen zu diesem Aufwand. Christian fasste die Bedenken vieler Kollegen treffend zusammen:
+
+
+  💬 Christian Amling (LinkedIn Kommentar)
+  
+    Ich bekomme hier starke Shiny-Object-Syndrom-Vibes. Die mit Abstand größte SEO-Wirkung kommt weiterhin aus soliden Grundlagen, nicht aus kaum belastbaren KI-Spielereien. Mit Fakten und Zahlen lasse ich mich aber gern vom Gegenteil überzeugen. 😉
+  
+
+
+Ich verstehe diesen Ansatz vollkommen. Doch für mich sind Dinge wie eine saubere [llms.txt als Wissensbasis](https://teleschmie.de/blog/generative-engine-optimization-geo/) längst keine "Spielerei" mehr, sondern die Evolution der klassischen Grundlagen. Wer sich heute für [Agentisches Browsing](https://teleschmie.de/blog/geo-action-plan-llm-sichtbarkeit/) aufstellt, baut den Leuchtturm von morgen.
+
+Dass bei solch tiefgreifenden Umbauten nicht immer alles sofort perfekt ist, liegt in der Natur der Sache. Martin wies mich direkt auf ein paar kleine Accessibility-Hürden hin:
+
+
+  💬 mARTin Hinterdorfer (LinkedIn Kommentar)
+  
+    Mäkelmodus: „This list of links looks like navigation, which should be rewritten as a list.“ und fehlender zugänglicher Name für die Landmark für die Navigation generell und ein paar Details wie „SEO Freelancer Berlin“ auf der Über-mich-Seite mit zu wenig Kontrast (grün auf weiß. 2.91:1), ähnliches Kontrast-Verhältnis und Überschriftenreihenfolge auf der SEO-Freelancer-Seite ... ist jedoch Jammern auf hohem Niveau, was auch die Barrierefreiheit angeht, Jörg.
+  
+
+
+Ich bin für solches Feedback unfassbar dankbar. Genau so machen wir das Netz besser. Roland brachte es dann mit einem sehr motivierenden Kommentar auf den Punkt:
+
+
+  💬 Roland Golla (LinkedIn Kommentar)
+  
+    Geil Jörg, lass dir von den Accessibility Grumpies nicht den Tag versauen. Wenn die nicht so wären, hätte ihre Mission auch echte Zukunft. Das ist einfach ein sau starkes Ergebnis und da sollte mal jeder versuchen hinzukommen. Weiter so!!! Alles Astro
+  
+
+
+Genau das ist mein Ziel: Vorangehen, ausprobieren, iterieren. Wenn ihr selbst loslegen wollt, nutzt gerne den kostenlosen [Grounding Page Generator](https://teleschmie.de/blog/grounding-page-generator-ai-seo/), um eure Fakten für KIs aufzubereiten. 
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
+### Ich merke gerade, dass ich mich selbst in der GEO Transformation befinde
+
+
+Ich merke gerade das ich mich selbst in der Transformation befinde.
+
+Sehe dieses GEO nicht mehr als böse, sondern als Chance. Erkenne das es mehr als nur SEO braucht. Alle Abteilungen die in irgendeiner Form zum digitalen Fußabdruck beitragen gehören für die Strategie an einen Tisch.
+
+Das Know How über Entitäten, Reputation und selbst über Keyword Cluster müssen verschmolzen werden. Jede Form von Sichtbarkeit im Netz muss analysiert werden, danach optimiert und ernsthaft positiv gesteuert.
+
+Ein großer Brocken der neue Tools, neue Protokolle und handwerkliche Methoden erfordert. Vieles ähnlich oder gleich wie im SEO doch jetzt nochmal exakt für den Layer AI obendrauf. Manche Sachen sind dort auch komplett neu. Allein die technische Infrastruktur, die Modellierung und die Quellen.
+
+Der größte Umbruch ist bei der User Journey. Diese wandert von Klicks und selbst suchen zu personalisierten Chatfenstern mit AI Mode.
+
+Wenn ich es durchdenke ist das ein Umbau des Internets wie wir es kannten.
+
+---
+
+### Spannende Einblicke aus der Community
+
+**Thorsten Litzki:**
+"AI Crawlability wird eine neue eigene Disziplin auf Tech SEO obendrauf. AI Visibility ist bereits eine neue Disziplin weil anders zu messen. Gutes SEO Handwerk kann helfen wird aber für das Gesamtbild nicht reichen. Es braucht diesmal wirklich das Zusammenspiel mehrerer Abteilungen die sich für das Thema interessieren und Ressourcen reinstecken. Selbst reine Markenarbeit und einfaches PR wird nicht ausreichen wenn die Quellen nicht für die AI Modelle dienen."
+
+**Marco Janck:**
+"... 🎶 This is the end of SEO world as we know it ;-) Ich denke, da kommen in immer kürzeren Zeitabständen noch viel mehr radikale Umbauten auf uns zu. Wenn ich an die Verknüpfung von Webseite, Shopping, Logistik und IoT denke, ist das gerade erst der Anfang und bisher nur die (sichtbare) Spitze des Eisbergs. Wenn ich allerdings nur in meinem Bereich auf die Infrastrukturen schaue, sind noch nicht einmal 0,1% der Enterprise-Strukturen bereit dafür. In keiner Branche."
+
+**Markus Hübner:**
+"... und es ist erst der Anfang. Aber ist eine spannende Welt. Die Frage bleibt aber: Wie nennen wir das, was da entsteht?"
+
+**Oguzhan Kalkan:**
+"Ich verstehe dass der aktuellste Entwicklungszyklus immer der spannendste ist - doch mit der Zeit wird man auch ruhiger. Wenn ich zurück denke zu den Zeiten / Meilensteinen von Telnet, Newsgroups, Gopher, Einführung des WWW, eCommerce, SEO, Web 2.0/Social Media, Virtual Worlds, AI, … Aber vielleicht weil ich das seit über 35 Jahre schon erlebe und sehr viel kommen und gehen gesehen habe ☺️"
+
+**Sven Badalyan:**
+"Diese Perspektive teile ich. Der angenehme Teil an GEO ist, dass man Wirkung früher sieht als bei klassischem SEO, weil Zitate in KI-Antworten oft schon nach Wochen auftauchen. Der unangenehme Teil ist, dass sie genauso schnell wieder verschwinden, wenn andere Quellen stärker werden."
+
+**Manuel Schmöllerl:**
+"GEO ist kein zusätzlicher SEO-Layer, sondern ein Wechsel der Systemlogik: von rankbaren Seiten zu zitierfähigen Entitäten im Retrieval-Graph. Künftig entscheidet nicht mehr nur der Index, sondern welcher Agent welche Quelle in seinen Kontext lädt. Wer dort fehlt, existiert digital kaum noch."
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
 
 ---
 
@@ -13306,6 +14183,94 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](https://teleschmie.de/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](https://teleschmie.de/blog/se-ranking-ai-tracker/)
 * **Lese-Tipp:** [Was ist eigentlich LLMO?](https://teleschmie.de/glossar/llmo/)
+
+---
+
+### Agentic SEO: Warum GEO eine eigene Disziplin ist
+
+
+Moin! 🌻
+
+*Diese Diskussion wurde von mir auf LinkedIn am 23.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Wer als SEO dieses GEO so nebenbei mitmacht ist nicht viel besser als die Webdesigner die SEO so nebenbei mitmachen.
+  Jetzt hate mich doch nicht dafür. Wenn es dich schmerzt hab ich vielleicht Recht.
+  Wenn du GEO auch ohne Website betreiben kannst wie kann es dann SEO heißen?
+  Es ist eine eigene Disziplin:
+  👉 viel größer als reines SEO
+  👉 neue Metriken, neue Protokolle
+  👉 neue Tools, neue Methoden, neues Budget
+  Jetzt sträub dich doch nicht dagegen. Die Tür zum Markenbudget ist gerade für dich auf. Du wolltest immer den gesamten digitalen Fußabdruck optimieren? Alle Entitäten, alle Kanäle und all die Sachen die außerhalb der eigenen Website für gutes SEO zuständig sind? Dann ist das deine Chance.
+  Erkunde dieses GEO aus technischer, inhaltlicher und strategischer Sicht und du wirst folgendes feststellen:
+  👉 viel größer als reines SEO
+  👉 neue Metriken, neue Protokolle
+  👉 neue Tools, neue Methoden, neues Budget
+  Du könntest jetzt sagen "wir SEOs mussten uns schon immer updaten". Ok. Richtig. 8-12 Google Core Updates pro Jahr ist ein hartes Pensum. Nur diesmal optimieren wir vielleicht nicht die menschliche Nutzererfahrung, sondern die agentische Nutzererfahrung. Das ist ein ganz neuer Kunde und Denkansatz.
+  Menschen SEO ist die Basis und die Hausaufgaben daraus sind als aller erstes zu tun. Ja, da bin ich bei dir. Agentic SEO ist der Baustein und eine eigene große Disziplin obendrauf. Nebenbei mitmachen ist halt wie der Webdesigner ohne jegliches SEO Verständnis.
+  Habe fertig.
+  
+
+
+Es ist der Elefant im Raum der Suchmaschinenoptimierung: Wie gehen wir mit der Welle der **Generative Engine Optimization (GEO)** um? 
+
+Viele SEOs wehren sich gegen den Begriff und degradieren ihn zum Buzzword. Michael Schöttler fand in den Kommentaren klare Worte dazu:
+
+
+  💬 Michael Schöttler (LinkedIn Kommentar)
+  
+    SEO, GEO und AI Search sind drei grundlegend andere Bausteine und gehören getrennt betrachtet. Ein sauberes Webdesign fließt auch in SEO mit ein ist aber kein SEO. Alle drei Bausteine können von einer Person gemacht werden wenn sie Ahnung hat, oder eben auch von Spezialisten. Das ist nicht neu und war schon immer so. Bisher waren die SEOs die Spezialisten und wenn sie nun ohne Ahnung auch GEO und AI Search anbieten ohne Ahnung zu haben sind es Ebene die Webdesigner die SEO damals angeboten haben und keine Ahnung hatten. Darum prüfe wer sich bindet oder Geld ausgibt 🤣
+  
+
+
+Maik Schindler hat den strategischen Vorteil der neuen Begrifflichkeit hervorgehoben:
+
+
+  💬 Maik Schindler (LinkedIn Kommentar)
+  
+    Ich dreh den Spieß mal um: Die spannende Frage ist nicht, ob GEO eine eigene Disziplin ist, sondern warum wir plötzlich Budget für etwas bekommen, das seit fünfzehn Jahren zu unserem Job gehört. Entitäten, Erwähnungen, Sichtbarkeit außerhalb der eigenen Domain: das war nie nebenbei, das war immer der Teil von SEO, für den es nie ein eigenes Budget gab. [...] Wenn ein neues Label die Tür zum Markenbudget öffnet, nehme ich das Label gern. Der Fehler wäre, daraus ein neues Silo zu bauen, obwohl die Hausaufgaben in denselben Teams liegen.
+  
+
+
+Philipp Michel bestätigte diese Transformation eindrücklich:
+
+
+  💬 Philipp Michel (LinkedIn Kommentar)
+  
+    Ich hab vor dem guten Jahr auch noch dran festgehalten, dass GEO nur SEO in fancy ist. Mittlerweile ist alles soweit fortgeschritten, dass es tatsächlich keine Diskussion darüber geben kann, dass GEO eine andere Disziplin ist. SEO ist dennoch die Grundlage, GEO ist die weiterführende Disziplin, die ohne SEO nicht funktioniert.
+  
+
+
+Aber was genau gehört zu diesem technischen "GEO-Unterbau"? Thomas Klaschka lieferte eine geniale Auflistung der technischen Herausforderungen:
+
+
+  💬 Thomas Klaschka (LinkedIn Kommentar)
+  
+    Bei GEO denke ich während Website-Entwicklung und SEO-Betreuung vorrangig an technische GEO. Zum technischen SEO-Unterbau implementiere ich für KI-Bots parallel dazu: - llms.txt als KI-Version der sitemap.xml – plus Enrichments zu Personen, Unternehmen, ... - Markdown-Mirrors als maschinenlesbare Kopien zumindest der Money-Pages - Grounding-Pages als um Marketing-BlaBla bereinigte Faktenseiten. Dazu akribisches Schema-Markup.
+  
+
+
+Das ist exakt der Punkt. Wer diese Protokolle nicht auf dem Radar hat, verliert die Sichtbarkeit bei den neuen LLMs (wie ich es in meinem Artikel zum [Cloudflare Agent Readiness Scan](https://teleschmie.de/blog/cloudflare-agent-readiness-scan/) gezeigt habe). 
+
+Martin Pickert fasste den Scope von GEO am Ende grandios zusammen:
+
+
+  💬 Martin Pickert (LinkedIn Kommentar)
+  
+    So ist es. SEO und GEO haben außer der Phonetik und paar gemeinsamer Onpage Maßnahmen nicht viel gemeinsam. SEO löst ein Traffic-Optimierungsproblem. GEO ist strategische Unternehmenskommunikation. SEO findet irgendwo bei Marketing statt. GEO bringt die halbe C-Level-Etage an einen Tisch.
+  
+
+
+Lasst uns diese Chance nutzen, anstatt krampfhaft an den Begriffen von gestern festzuhalten.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
 
 ---
 
@@ -14447,6 +15412,72 @@ ALOHA 🌻! 🌻
 
 ---
 
+### Der Cloudflare Agent Readiness Scan: KI-Sichtbarkeit prüfen
+
+
+Moin! 🌻
+
+
+*Diese Diskussion wurde von mir auf LinkedIn am 22.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  kostenloser Agent Readiness Scan von Cloudflare - sei nicht schockiert wenn dort nicht Level 5 mit 75 steht
+  So gehts:
+  Domain eingeben. Warten. Reiter "Agent Readiness [new]" finden. Staunen.
+  Hier geht es zum kostenlosen Scan von Cloudflare:
+  👉  https://lnkd.in/d9VX5_tU
+  Es gilt:
+  Wir forschen zusammen und gucken zusammen was Sinn macht.
+  Wie ist dein Ergebiss?
+  Welche der Punkte hälst du für sinnvoll und warum?
+  
+
+
+Die Welle der [Generative Engine Optimization (GEO)](https://teleschmie.de/blog/generative-engine-optimization-geo/) rollt unaufhaltsam auf uns zu. Aber wie misst man, ob eine Website technisch überhaupt bereit ist, von KI-Agenten gelesen zu werden? Cloudflare hat dafür den Agent Readiness Scan veröffentlicht.
+
+Das Tool prüft technische Basis-Metriken. Rene Leiner brachte es in den Kommentaren super auf den Punkt:
+
+
+  💬 Rene Leiner (LinkedIn Kommentar)
+  
+    🤣 75 klingt nach starker KI Sichtbarkeit. Tatsächlich misst der Test aber hauptsächlich technische Agentenstandards wie Markdown Negotiation, Bot Zugriff und Discovery Protokolle. Ob ein LLM das Unternehmen und seine Leistungen korrekt versteht, sagt dieser Score überhaupt nicht aus...
+  
+
+
+Genau das ist der Knackpunkt. Es geht um *Zugänglichkeit* (Readiness), nicht um *Sichtbarkeit* (Visibility). Jörg Morsbach hat in seinem Kommentar extrem wertvoll ergänzt, worauf Cloudflare hier im Kern wirklich prüft:
+
+
+  💬 Jörg Morsbach (LinkedIn Kommentar)
+  
+    Danke für den Tipp. Habe ich direkt ausprobiert. Hinweis von meiner Seite: Cloudflare verwendet den Begriff "Content Accessibility" etwas unglücklich. Laut der Dokumentation besteht diese Kategorie derzeit standardmäßig aus genau einem einzigen Test: Kann die Website ihre Inhalte auf Anfrage als Markdown ausliefern? Hat mit WCAG also nichts zu tun.
+    Mein Eindruck: Gute Webstandards und digitale Barrierefreiheit decken bereits einen Großteil dessen ab, was KI-Systeme zum Verständnis von Webseiten benötigen, während der Cloudflare-Scan diese Basis um agentenspezifische Protokolle erweitert, die vor allem für autonom handelnde KI-Agenten von Bedeutung sind.
+  
+
+
+Wenn du tiefer in die praktischen Anpassungen eintauchen willst, schau dir an, [wie ich meine eigene KI-Website mit Markdown & Co. aufgebaut habe](https://teleschmie.de/blog/ki-website-leuchtturm/).
+
+Viele Entwickler und Agenturen nutzen den Test jetzt als neuen Benchmark. Aleksandar Basara schrieb dazu:
+
+
+  💬 Aleksandar Basara (LinkedIn Kommentar)
+  
+    Wir haben das Mal direkt in die Remix App eingebaut. Mal schauen was da rum kommt.
+  
+
+
+Also: Lass dich von niedrigen Scores nicht aus der Ruhe bringen. Schaffe ein sauberes, technisches SEO-Fundament – der Rest ist (noch) ein spannendes Feld für die Zukunft!
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  Beitrag auf LinkedIn öffnen
+
+
+---
+
 ### Vibe Coding: Echte KI-Workflows mit Roland Golla
 
 
@@ -15025,6 +16056,59 @@ ALOHA! 🌻✌️
 *   **Lese-Tipp:** [Grounding Page Generator: AI-SEO für Fortgeschrittene](https://teleschmie.de/blog/grounding-page-generator-ai-seo/)
 *   **Lese-Tipp:** [Agent Readiness Glossar: Das 1x1 der Maschinenlesbarkeit](https://teleschmie.de/glossar/ai-seo/)
 *   **Quelle:** [Cloudflare - Introducing Markdown for Agents](https://blog.cloudflare.com/markdown-for-agents/)
+
+---
+
+### AI Crawlability als neue Disziplin im Tech SEO
+
+*Diese Diskussion wurde von mir auf LinkedIn am 31.07.2026 gestartet:*
+
+
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+    AI Crawlability wird eine neue eigene Disziplin auf Tech SEO obendrauf.
+    
+    Die KI Sichtbarkeit / AI Visibility ist bereits eine neue Disziplin weil anders zu messen.
+    
+    Gutes umfassendes SEO Handwerk kann helfen wird aber für das Gesamtbild nicht reichen.
+    
+    Es braucht diesmal wirklich das Zusammenspiel mehrerer Abteilungen die sich für das Thema interessieren und Ressourcen reinstecken.
+    
+    Selbst reine Markenarbeit und einfaches PR wird nicht ausreichen wenn die Quellen nicht für die AI Modelle dienen.
+    
+    Was für deine Branche und für deine Marke an Quellen und Maßnahmen zu treffen sind ist wie ein Maßanzug.
+    
+    Der wichtigste Gedanke ist eigentlich das das bisherige Web für Menschen gemacht ist.
+    
+    Das ganze Design, das Bla Bla und die Scripte stören den AI Crawler.
+    
+    Wenn die User Journey komplett ins Chatfenster wandert haben alle digitalen Marketing Kanäle eine neue Herausforderung.
+    
+    Die Website als Feed Datenlieferant, Entitäten Verknüpfung und Kontrollquelle könnte wichtig sein, bleibt jedoch nur 1 Quelle aus einem Set von 50 Quellen pro Prompt Research.
+    
+    Das ist technisch, inhaltlich und strategisch ein neues Spiel.
+  
+
+
+Die Tatsache, dass die Website künftig primär als strukturierter Feed-Datenlieferant und zur [Entitäten-Verknüpfung](https://teleschmie.de/glossar/entitaet/) dienen muss, verändert [Technisches SEO](https://teleschmie.de/glossar/technisches-seo/) grundlegend. Es geht nicht mehr primär um das optische Erlebnis, sondern um die nackte Maschinenlesbarkeit und saubere AI Crawlability.
+
+
+  💬 Philipp Michel ☕ (LinkedIn Kommentar)
+  
+    Genau dafür baue ich mein Server Log Analyse Tool. Ich will sehen und verstehen, welche Bots und crawler meine Seiten besucht haben und auch welche Seiten.
+  
+
+
+Wie Philipp ganz richtig anmerkt: Die [Logfile-Analyse](https://teleschmie.de/glossar/seo-audit/) wird wieder massiv an Bedeutung gewinnen. Wir müssen exakt monitoren, welche neuen LLM- und RAG-Crawler auf unsere Infrastruktur zugreifen.
+
+ALOHA! 🌻✌️
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
 
 ---
 

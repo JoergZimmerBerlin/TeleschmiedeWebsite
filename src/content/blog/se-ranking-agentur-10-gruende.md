@@ -14,6 +14,8 @@ key_takeaways:
 
 Moin! 🌻
 
+![Original LinkedIn Post](../../assets/images/blog/linkedin-10-gruende.webp)
+
 Wenn du als Freelancer oder in einer SEO-Agentur arbeitest, kennst du das Problem: Zu viele Tools und zu viel Chaos bei den Workflows. Das Preis-Leistungs-Verhältnis muss einfach stimmen. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">

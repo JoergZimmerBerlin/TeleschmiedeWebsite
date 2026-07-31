@@ -15,8 +15,6 @@ key_takeaways:
 
 Moin! 🌻
 
-![SE Ranking ChatGPT App](../../assets/images/blog/se-ranking-chatgpt.webp)
-
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
   <p class="italic text-dark mb-0">"ChatGPT mit Profi SEO Daten nutzen? Mit 1 Klick? Ja. SE Ranking hat eine eigene App im ChatGPT Store. Einfach verknüpfen und direkt mit Live Daten chatten. Keywords prüfen, Backlinks checken, Site Audit auswerten."</p>

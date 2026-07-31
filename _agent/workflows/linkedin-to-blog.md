@@ -10,7 +10,7 @@ Use this workflow when Jörg provides a LinkedIn URL or a screenshot of a post t
 - **Original URL**: Always secure the `linkedin_url` for attribution.
 - **Content**: Copy the post text. Pay attention to the "Tacheles" tone (direct, punchy, personal).
 - **Comments**: Scan the comments for common questions or controversial takes. Use these for the **FAQ section** and **Key Takeaways**.
-- **Media**: Download the main visual. If it's a poll, use the result as an infographic.
+- **Media**: Generiere immer eine 3D-Infografik nach den strikten Vorgaben (weiß/lime-grün). **Zusätzlich** musst du das originale Bild aus dem LinkedIn-Post (sofern vorhanden) herunterladen, in `.webp` umwandeln und ebenfalls in den Blogbeitrag einbauen.
 
 ## 2. Technical Preparation
 - **Image Conversion**: Convert all images to `.webp` format and save them in `src/assets/images/blog/`.

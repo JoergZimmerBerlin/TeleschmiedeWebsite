@@ -5,10 +5,10 @@ on:
     branches:
       - main
 
-# Concurrency Control: Prevents parallel SFTP collisions on IONOS by cancelling superseded runs
+# Concurrency Control: Prevents parallel SFTP collisions by queuing (not cancelling) incoming runs
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:

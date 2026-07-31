@@ -28,8 +28,8 @@ Dieser Workflow wird ausgelöst, wenn Jörg eine LinkedIn-URL einreicht. Es hand
 Jeder Blogartikel (`src/content/blog/`) bekommt diese Frontmatter:
 ```yaml
 ---
-title: "SEO-Titel ohne Emoji mit besten Keywords (ca. 50 Zeichen)"
-description: "Frische Zusammenfassung mit Keywords, ohne Emojis (ca. 140 Zeichen)"
+title: "[Keyword ganz vorne]: Restlicher SEO-Titel ohne Emojis (MAX. 50-55 Zeichen!)"
+description: "[Keyword weit vorne] Frische Zusammenfassung ohne Emojis (MAX. 140-150 Zeichen!)"
 date: "YYYY-MM-DD"
 linkedin_url: "https://www.linkedin.com/posts/..."
 image: "../../assets/images/blog/filename.webp"

@@ -69,8 +69,8 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 
 ### Metadaten & SEO
 - **Frontmatter:** Jeder Artikel benötigt `title`, `description`, `date` (als String in Anführungszeichen!), `image` (relativer Pfad zu assets), `image_alt`, `key_takeaways` (exakt 3) und `faqs` (3-4). 
-  - **Title-Tag Regel:** Der Titel muss SEO-optimiert sein (beste Suchwörter integrieren), optimalerweise um die **50 Zeichen** lang sein und darf **NIEMALS Emojis** enthalten.
-  - **Meta-Description Regel:** Die Description muss eine frische Zusammenfassung sein, die wichtigsten Keywords enthalten, **ca. 140 Zeichen** lang sein und darf ebenfalls **keine Emojis** beinhalten.
+  - **Title-Tag Regel (STRIKT):** Das **Keyword muss IMMER ganz vorne** stehen! Der Titel darf **maximal 50 bis 55 Zeichen** lang sein, um ein Abschneiden (Truncation) in den Google SERPs zwingend zu verhindern. Er darf **NIEMALS Emojis** enthalten.
+  - **Meta-Description Regel (STRIKT):** Das **Haupt-Keyword muss zwingend weit vorne** stehen! Die Description darf **maximal 140 bis 150 Zeichen** lang sein, um auch hier ein Abschneiden in den SERPs absolut zu vermeiden. Keine Emojis!
   - **Wichtig:** Die Antworten (`answer`) in den FAQs müssen **zwingend ausführlich sein und immer aus mehreren zusammenhängenden Sätzen bestehen**, um Expertenwissen gut zu vermitteln.
 - **Slug:** Kurz, kleingeschrieben, Trennung durch Bindestriche.
 - **Bilder:** Muss immer auf eine `.webp` Datei in `src/assets/` verweisen. Bei Blog-Karten oder Teasern (Astro `<Image>`) **immer nur die Breite (`width`) definieren** und auf `height` verzichten, damit das originale Seitenverhältnis beim Rendern erhalten bleibt. Der finale Zuschnitt erfolgt ausschließlich im Browser via CSS (`object-cover object-top`). So wird verhindert, dass bei Personenbildern die Köpfe von der Astro-Automatik abgeschnitten werden.

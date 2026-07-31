@@ -256,6 +256,15 @@
     }
   }
 
+  function initExternalLinks() {
+    document.querySelectorAll('a[href^="http"]').forEach(link => {
+      if (link.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  }
+
   // Initialization
   refreshMetrics();
   initTables();
@@ -264,10 +273,12 @@
     document.addEventListener('DOMContentLoaded', () => {
       initGlossaryTooltips();
       initCopyButtons();
+      initExternalLinks();
     });
   } else {
     initGlossaryTooltips();
     initCopyButtons();
+    initExternalLinks();
   }
 
   window.addEventListener('scroll', requestTick, { passive: true });

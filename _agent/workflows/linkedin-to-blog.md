@@ -17,6 +17,8 @@ Use this workflow when Jörg provides a LinkedIn URL or a screenshot of a post t
 - **File Naming**: Use a descriptive slug (e.g., `seo-feuerwehr-rettung.md`).
 
 ## 3. Article Structure (Astro Content)
+**WICHTIG (Keine doppelten Bilder):** Das in der Frontmatter unter `image:` verlinkte Hauptbild (die generierte 3D-Infografik) wird vom Astro-Template **automatisch** ganz oben auf der Seite als Hero-Bild gerendert. Füge dieses Bild **NIEMALS** manuell per `![Alt](...)` in den Markdown-Text (Body) ein, da es sonst doppelt erscheint! Nur das *originale LinkedIn-Bild* darf (sofern vorhanden) manuell im Textfluss platziert werden.
+
 Each article must follow this frontmatter structure:
 ```yaml
 ---

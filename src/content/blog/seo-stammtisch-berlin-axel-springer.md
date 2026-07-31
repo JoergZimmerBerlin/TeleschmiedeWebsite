@@ -3,7 +3,7 @@ title: "Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer"
 description: "Netzwerken über den Dächern von Berlin. Einmal im Jahr trifft sich der SEO Stammtisch Berlin in einzigartiger Atmosphäre beim Axel Springer Verlag."
 date: "2026-07-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_der-seo-stammtisch-berlin-auf-der-dachterrasse-activity-7486177778133028865-Mco2"
-image: "../../assets/images/blog/linkedin-stammtisch-berlin.webp"
+image: "../../assets/images/blog/linkedin-stammtisch-berlin.jpg"
 image_alt: "SEO Stammtisch Berlin Axel Springer"
 category: "Community & Events"
 tags: ["SEO Stammtisch", "Berlin", "Netzwerken", "Community", "Event"]

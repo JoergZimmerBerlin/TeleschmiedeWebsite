@@ -54,9 +54,7 @@ Ein Workshop-Booklet aus einem Transkript generieren zu lassen, ist eine grandio
 
 ALOHA! 🌻✌️
 
-<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meeting-notetaker-aus-deutschland-mit-ki-activity-7485338844217864192-Zp7p" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
-    Beitrag auf LinkedIn öffnen
-  </a>
+<div class="blog-cta-box">
+  <h3>💬 Jetzt an der Diskussion teilnehmen!</h3>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meeting-notetaker-aus-deutschland-mit-ki-activity-7485338844217864192-Zp7p" target="_blank" rel="noopener noreferrer">Beitrag auf LinkedIn öffnen</a>
 </div>

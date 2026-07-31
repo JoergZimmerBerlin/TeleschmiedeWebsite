@@ -74,9 +74,7 @@ Es tut einfach gut, wenn die harte Arbeit anerkannt wird. Das war auch schon nac
 
 ALOHA! 🌻✌️
 
-<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-sammle-bewertungen-in-linkedin-und-in-activity-7482743013061017600-R_rG" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
-    Beitrag auf LinkedIn öffnen
-  </a>
+<div class="blog-cta-box">
+  <h3>💬 Jetzt an der Diskussion teilnehmen!</h3>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-sammle-bewertungen-in-linkedin-und-in-activity-7482743013061017600-R_rG" target="_blank" rel="noopener noreferrer">Beitrag auf LinkedIn öffnen</a>
 </div>

@@ -75,7 +75,7 @@ Schau dir am besten direkt die [verschiedenen Pakete in der Übersicht](https://
 
 <div class="my-12 text-center">
   <a href="https://rankscale.ai/pricing?via=offer" target="_blank" class="inline-block bg-lime-accent text-dark font-bold py-5 px-10 rounded-full hover:bg-lime-400 transition-all hover:scale-105 shadow-xl shadow-lime-accent/30 no-underline">
-     [Rankscale](https://rankscale.ai/?via=offer) Test-Account & Preise sichern 
+     Rankscale Test-Account & Preise sichern 
   </a>
 </div>
 

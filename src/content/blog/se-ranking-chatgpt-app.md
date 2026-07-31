@@ -5,7 +5,7 @@ date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_chatgpt-mit-profi-seo-daten-nutzen-1-klick-activity-7480493369710764033-2GZt"
 image: "../../assets/images/blog/se-ranking-chatgpt.webp"
 image_alt: "SE Ranking ChatGPT MCP Connector Live Daten Infografik"
-category: "SEO Praxis"
+category: "Tech SEO & Tools"
 tags: ["SE Ranking", "ChatGPT", "KI SEO", "MCP", "Workflow"]
 key_takeaways:
   - "Live SEO-Daten wie Keywords, Backlinks und Audits direkt in ChatGPT analysieren."

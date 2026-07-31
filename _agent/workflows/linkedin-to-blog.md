@@ -34,7 +34,7 @@ date: "YYYY-MM-DD"
 linkedin_url: "https://www.linkedin.com/posts/..."
 image: "../../assets/images/blog/filename.webp"
 image_alt: "Descriptive alt text"
-category: "SEO Praxis" (Erlaubt sind NUR exakt: "SEO Praxis", "AI SEO", "KI & SEO", "Events & Networking", "Tech SEO & Tools", "Agentur & Tools")
+category: "SEO Praxis" (WÄHLE EINE AUS DIESER LISTE: "SEO Praxis", "Tech SEO & Tools", "AI SEO", "Events & Networking" - basierend auf dem Thema!)
 tags: ["Tag1", "Tag2"]
 key_takeaways:
   - "Insight 1"

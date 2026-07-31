@@ -26,3 +26,12 @@
 - **Terminal & Sandbox Ausführung (Bypass Sandbox):**
   - Führe alle Terminal-Kommandos (`run_command`) STRIKT im sicheren Sandbox-Modus aus (`BypassSandbox: false`), wann immer es möglich ist.
   - Wenn die Sandbox aktiv ist, wird der Nutzer nicht durch lästige Bestätigungs-Popups gestört. Die Sandbox zu umgehen (Bypass) führt zu einem harten, vom System erzwungenen Sicherheits-Popup, das den Nutzer aus dem Workflow reißt. Vermeide das zwingend, es sei denn, es ist für Netzwerkzugriffe zwingend nötig.
+
+- **Kategorie-Zuweisung für Blogartikel:**
+  - Neue Blogartikel dürfen NIEMALS pauschal in die Kategorie "SEO Praxis" geworfen werden.
+  - Prüfe JEDES MAL den Inhalt des Artikels und wähle die am besten passende Kategorie aus dem offiziellen Katalog:
+    - **SEO Praxis** (für Fallstudien, generelle Strategien, Anleitungen)
+    - **Tech SEO & Tools** (für Software, Tools wie SE Ranking, Sistrix, Page Speed, Coding)
+    - **AI SEO** (für KI-Themen, AEO, ChatGPT, Claude, Agenten)
+    - **Events & Networking** (für Konferenzen, OMR, Campixx, Meetups)
+  - Vermeide Wildwuchs (z.B. "Agentur & Tools" oder "KI & SEO"). Nutze nur diese festgelegten Standards!

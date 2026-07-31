@@ -15,7 +15,6 @@ key_takeaways:
 
 Moin! 🌻
 
-![Original LinkedIn Post](../../assets/images/blog/linkedin-transparente-preise.webp)
 
 *Diese Diskussion wurde von mir auf LinkedIn am 21.07.2026 gestartet:*
 

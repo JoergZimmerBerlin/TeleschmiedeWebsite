@@ -15,7 +15,6 @@ key_takeaways:
 
 Moin! 🌻
 
-![Original LinkedIn Post](../../assets/images/blog/linkedin-cloudflare.webp)
 
 *Diese Diskussion wurde von mir auf LinkedIn am 22.07.2026 gestartet:*
 

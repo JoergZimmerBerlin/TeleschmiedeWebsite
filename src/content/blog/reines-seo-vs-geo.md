@@ -15,7 +15,6 @@ key_takeaways:
 
 Moin! 🌻
 
-![Original LinkedIn Post](../../assets/images/blog/linkedin-reines-seo-vs-geo.webp)
 
 *Diese Diskussion wurde von mir auf LinkedIn am 16.07.2026 gestartet:*
 

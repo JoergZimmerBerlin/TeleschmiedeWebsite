@@ -10,14 +10,16 @@ Use this workflow when Jörg provides a LinkedIn URL or a screenshot of a post t
 - **Original URL**: Always secure the `linkedin_url` for attribution.
 - **Content**: Copy the post text. Pay attention to the "Tacheles" tone (direct, punchy, personal).
 - **Comments**: Scan the comments for common questions or controversial takes. Use these for the **FAQ section** and **Key Takeaways**.
-- **Media**: Generiere immer eine 3D-Infografik nach den strikten Vorgaben (weiß/lime-grün). **Zusätzlich** musst du das originale Bild aus dem LinkedIn-Post (sofern vorhanden) herunterladen, in `.webp` umwandeln und ebenfalls in den Blogbeitrag einbauen.
+- **Media**: **NEUE BILDREGEL:** Prüfe zwingend, ob der LinkedIn-Post ein eigenes, echtes Bild enthält. 
+  - **WENN JA:** Lade dieses originale Bild herunter, konvertiere es in `.webp` und nutze es als **Haupt-Hero-Bild** (`image:` im Frontmatter). 
+  - **WENN NEIN:** Nur wenn der Post *kein* Bild enthält (z.B. nur reiner Text), dann generiere eine 3D-Infografik nach den strikten Vorgaben (weiß/lime-grün) und nutze diese als Hauptbild.
 
 ## 2. Technical Preparation
 - **Image Conversion**: Convert all images to `.webp` format and save them in `src/assets/images/blog/`.
 - **File Naming**: Use a descriptive slug (e.g., `seo-feuerwehr-rettung.md`).
 
 ## 3. Article Structure (Astro Content)
-**WICHTIG (Keine doppelten Bilder):** Das in der Frontmatter unter `image:` verlinkte Hauptbild (die generierte 3D-Infografik) wird vom Astro-Template **automatisch** ganz oben auf der Seite als Hero-Bild gerendert. Füge dieses Bild **NIEMALS** manuell per `![Alt](...)` in den Markdown-Text (Body) ein, da es sonst doppelt erscheint! Nur das *originale LinkedIn-Bild* darf (sofern vorhanden) manuell im Textfluss platziert werden.
+**WICHTIG:** Das in der Frontmatter unter `image:` verlinkte Hauptbild wird vom Astro-Template **automatisch** ganz oben auf der Seite als Hero-Bild gerendert. Füge dieses Bild **NIEMALS** manuell per `![Alt](...)` in den Markdown-Text (Body) ein, da es sonst doppelt erscheint! Wir nutzen immer nur EIN zentrales Bild pro Post (entweder das Originale oder das Generierte).
 
 Each article must follow this frontmatter structure:
 ```yaml

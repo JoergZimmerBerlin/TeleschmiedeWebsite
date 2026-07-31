@@ -124,7 +124,6 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Keywordrecherche: Semantische Basis für SEO
 - KI-SEO Beratung: Agentur für die Antwort-Ära
 - KI-Sichtbarkeit messen: Harte Fakten und Guide
-- KI Sichtbarkeit messen: Metriken für die neue Suche
 - KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert
 - Knowledge Graph: Gehirn der generativen Suche
 - 'Linkbuilding: Der Weg zu echten Entity-Citations'
@@ -233,7 +232,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - LinkedIn & Google Maps Bewertungen sammeln: So geht's
 - Brief an Bots & Crawler: SEO-Insights 2026
 - Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten
-- Ich merke gerade, dass ich mich selbst in der GEO Transformation befinde
+- GEO Transformation: Die neue SEO-Disziplin der AI Search
 - Meine SEO-Highlights 2025: Der Jahresrückblick
 - Grounding Page Generator: Schutzschild gegen KI
 - GSC: Wer ist für die Einrichtung zuständig?
@@ -1028,8 +1027,6 @@ ALOHA! 🌻✌️
 
 Moin! 🌻
 
-![Agent-Skills, Skill-Index, Tool-Ausführung](https://teleschmie.de/assets/images/glossar/3d-light/glossar-agent-skills-3d.webp)
-
 Erinnerst du dich an die Zeiten, als wir versucht haben, KI-Modellen mit endlos langen und verschachtelten System-Prompts zu erklären, wie sie einen Job machen sollen? Das war digitaler Pfusch am Bau. Im Jahr 2026 haben wir kapiert: Wer eine Allround-KI baut, bekommt am Ende einen Bauchladen, der alles ein bisschen, aber nichts richtig kann. Die Lösung? **Agent Skills**.
 
 ## Was genau sind Agent Skills?
@@ -1201,27 +1198,50 @@ ALOHA! 🌻✌️
 
 Moin! 🌻
 
-Machen wir uns nichts vor: Wir haben das Web in den letzten zehn Jahren primär für das menschliche Auge und die Conversion-Rate-Optimierung gebaut. Tolle Animationen, Pop-ups, fette JavaScript-Frameworks. Für den Menschen (meistens) schick, für den Bot ein Albtraum.
+Machen wir uns nichts vor: Wir haben das Web in den letzten zehn Jahren primär für das menschliche Auge und die Conversion-Rate-Optimierung gebaut. Tolle Animationen, nervige Pop-ups, fette JavaScript-Frameworks. Für den Menschen mag das (meistens) schick aussehen, aber für den Bot ist es ein absoluter Albtraum.
 
-Genau hier kommt **AI Crawlability** ins Spiel. Es ist die neue Hardcore-Disziplin auf dem [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) obendrauf.
+Genau hier kommt **AI Crawlability** ins Spiel. Es ist die neue Hardcore-Disziplin auf dem [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) obendrauf. Im Jahr 2026 kämpfen wir nicht mehr nur um "Rankings" (die blauen Links), sondern um **"Selection"** – die Auswahl als zitierte Quelle (Share of Model). Und wer hier Pfusch am Bau betreibt, verschwindet in der Bedeutungslosigkeit.
 
-## Website als Daten-Feed
+## 1. Was ist AI Crawlability eigentlich?
 
-Wenn die User Journey komplett in das Chatfenster einer [AI Search Engine](https://teleschmie.de/glossar/ai-search-engine/) wandert, verliert deine Website ihre Funktion als bunte Werbebroschüre. Sie wird zu einem reinen Feed-Datenlieferanten, einer Kontrollquelle und einem Ankerpunkt für [Entitäten](https://teleschmie.de/glossar/entitaet/). 
+Unter AI Crawlability verstehen wir die Fähigkeit einer Website, von LLMs (Large Language Models), RAG-Systemen (Retrieval-Augmented Generation) und KI-Agenten schnell, fehlerfrei und semantisch korrekt ausgelesen zu werden. 
 
-Das Problem: Das ganze Design, das Marketing-Bla-Bla und die blockierenden Scripte stören den AI Crawler massiv. Diese Bots (oft kleine, leichtgewichtige Scraper, die in Echtzeit für RAG-Modelle losgeschickt werden) haben weder die Zeit noch die Ressourcen, deine aufwendige React-App komplett zu rendern. Sie wollen die Fakten. Sofort. Maschinenlesbar.
+Während der klassische Googlebot noch versucht, deine komplette JavaScript-basierte React-App mühsam zu rendern, um ein visuelles Abbild zu generieren, arbeiten KI-Scraper radikaler: Sie wollen keine bunten Bilder. Sie wollen die nackten Fakten. Und wenn sie diese Fakten nicht innerhalb von Millisekunden im rohen, semantischen HTML finden, brechen sie den Crawl ab. Du wirst als Quelle schlichtweg ignoriert.
 
-## Maßnahmen für bessere Maschinenlesbarkeit
+## 2. Die robots.txt Strategie 2026: Blocken oder nicht?
 
-Was müssen wir also tun, um unsere AI Crawlability zu maximieren?
+Der größte Fehler, den viele Website-Betreiber (und leider auch viele "Bauchladen-Agenturen") aktuell machen, ist das blinde Blockieren von KI-Bots per `robots.txt`. Sie lesen von Datenklau und sperren panisch alles aus. Wer bei der AI Crawlability punkten will, muss jedoch dringend differenzieren:
 
-1. **Back to Basics:** Semantisches HTML. Eine perfekte ``-bis-``-Struktur. Klare Absätze.
-2. **Maschinen-Schnittstellen:** Standards wie die `llms.txt` oder sauberes JSON-LD [Schema Markup](https://teleschmie.de/glossar/schema-org-markup/) sind keine Kür mehr, sondern Pflicht.
-3. **Fakten-Dichte:** Verstecke deine Kernkompetenzen nicht in langen Fließtexten. Präsentiere harte Fakten, Tabellen und direkte Antworten so, dass ein Modell sie zweifelsfrei extrahieren kann.
+| Bot-Typ | Bekannte User-Agents | Funktion | SEO-Empfehlung (2026) |
+| :--- | :--- | :--- | :--- |
+| **Training Crawler** | `GPTBot`, `ClaudeBot`, `Anthropic-ai`, `CCBot` | Diese Bots scrapen das halbe Netz, um die Trainingsdaten für zukünftige KI-Modelle zu sammeln. Sie geben keine direkten Quellen an. | **Blockieren (optional).** Wenn du deinen Content vor dem reinen "Datenklau" für Modelltraining schützen willst, sperre sie aus. |
+| **Retrieval & Search Crawler** | `OAI-SearchBot`, `PerplexityBot`, `GoogleOther` | Diese Bots durchsuchen das Netz *in Echtzeit*, um aktuelle Nutzeranfragen im Chatfenster zu beantworten. Sie verlinken dich als Quelle! | **Zwingend erlauben!** Blockierst du diese, machst du deine Marke in der [AI Search Engine](https://teleschmie.de/glossar/ai-search-engine/) de facto unsichtbar. Du schneidest dir Traffic und Markenbekanntheit selbst ab. |
 
-Wir müssen begreifen: Um beim Endkunden auf dem Bildschirm zu landen, müssen wir zuerst die Maschine überzeugen. Und Maschinen mögen es simpel, schnell und unmissverständlich.
+## 3. Query Fan-out und die Fakten-Dichte
 
-ALOHA! 🌻✌️
+KIs suchen anders als Menschen. Wenn ein Mensch nach "Bester SEO Freelancer Berlin" googelt, tippt er das genau so ein. Eine KI hingegen betreibt oft **Query Fan-out**. Sie zerlegt eine komplexe Nutzerfrage im Hintergrund in dutzende kleine Suchanfragen: 
+- "Wer ist SEO Freelancer in Berlin?"
+- "Welche Referenzen hat Jörg Zimmer?"
+- "Hat er Ahnung von GEO und AI Search?"
+
+Um hier bei jeder Sub-Abfrage extrahiert zu werden, brauchst du harte, saubere Fakten. "Schreibe für Kleinkinder, betrunkene Erwachsene und LLMs" – präsentiere harte Fakten, Tabellen und direkte Antworten so, dass ein RAG-Modell sie zweifelsfrei extrahieren kann, ohne zwischen Marketing-Blabla raten zu müssen.
+
+## 4. Konkrete Maßnahmen für maximale Maschinenlesbarkeit
+
+Was müssen wir also tun, um unsere AI Crawlability ans Limit zu bringen? Hier ist der Klartext-Maßnahmenplan:
+
+1. **Back to Basics (Semantic HTML):** Moderne KI-Bots führen, wie oben erwähnt, oft gar kein aufwendiges JavaScript-Rendering mehr durch. Du brauchst reines, semantisches HTML. Eine perfekte ``-bis-``-Struktur ist absolute Pflicht. Wenn deine Navigation nur aus verschachtelten ``-Containern besteht, hast du verloren.
+2. **Maschinen-Schnittstellen (`llms.txt`):** Stelle KI-Agenten eine dedizierte `llms.txt` Datei im Root-Verzeichnis zur Verfügung (ähnlich der `robots.txt`). Darin listest du in Markdown-Format sauber strukturiert auf, wo die Maschine welche Fakten über dein Unternehmen findet.
+3. **Exzessives Schema Markup:** Nutze [strukturierte Daten](https://teleschmie.de/glossar/strukturierte-daten/) (`JSON-LD`) wie `FAQPage`, `Article`, `Organization` und `Person` exzessiv. Biete dem Bot klare Entitäten-Zuordnungen, damit er die semantischen Zusammenhänge versteht, ohne den Text lesen zu müssen.
+4. **Verzicht auf Ladehemmungen:** Lazy Loading von zentralen Content-Elementen ist Gift für AI Crawler. Die wichtigsten Antworten müssen initial im DOM vorhanden sein.
+
+## 5. Unterm Strich (Freundlicher Klartext)
+
+Wir müssen begreifen: Um beim Endkunden auf dem Bildschirm (oder im Chat-Interface) zu landen, müssen wir im Jahr 2026 zuerst die Maschine restlos überzeugen. Und Maschinen mögen es simpel, rasend schnell und inhaltlich unmissverständlich. 
+
+Wer seine Hausaufgaben im Technischen SEO macht und seine AI Crawlability auf 100% bringt, wird von den LLMs belohnt. Wer sich weiterhin nur auf schöne Frontend-Frameworks verlässt, fliegt aus dem Zitations-Index.
+
+Habe fertig. ALOHA! 🌻✌️
 
 ---
 
@@ -1307,26 +1327,63 @@ ALOHA! 🌻✌️
 
 Moin! 🌻
 
-Die "Zehn blauen Links" waren Jahrzehnte lang das Rückgrat des Internets und unser Spielfeld als SEOs. Aber die Zeitenwende ist längst da: Die klassische Suchmaschine, wie wir sie kannten, wird abgelöst durch die **AI Search Engine** (oder auch Answer Engine).
+Die "Zehn blauen Links" (Ten Blue Links) waren jahrzehntelang das unangefochtene Rückgrat des Internets. Sie waren unser Spielfeld als SEOs, auf dem wir um Platzierungen gekämpft haben. Aber machen wir uns nichts vor: Die Zeitenwende ist längst da. Die klassische Suchmaschine, wie wir sie kannten, wird rasant abgelöst durch die **AI Search Engine** (oder auch Answer Engine). Und wer jetzt noch klassisches Keyword-Bingo spielt, betreibt Pfusch am Bau.
 
-## Wie funktioniert eine AI Search Engine?
+## 1. Was genau ist eine AI Search Engine?
 
-Während eine klassische Suche nur als Vermittler auftritt und dich auf andere Websites weiterschickt, tritt die AI Search Engine als allwissender Assistent auf. Technisch passiert im Hintergrund meistens etwas, das sich [RAG](https://teleschmie.de/glossar/rag/) (Retrieval-Augmented Generation) nennt:
+Während eine klassische Suchmaschine (wie das Google von 2015) primär als Vermittler auftritt und dich auf andere Websites weiterschickt, tritt die AI Search Engine als allwissender Assistent auf. Du stellst eine Frage, und die Maschine liefert dir eine komplett ausformulierte, synthetisierte Antwort – ohne dass du jemals eine Zielseite betreten musst.
 
-1. Du stellst eine Frage (Prompt).
-2. Die AI Search Engine sucht im Hintergrund in Echtzeit im Web nach verlässlichen Quellen (Retrieval).
-3. Ein Large Language Model (LLM) liest diese Quellen, extrahiert die Fakten und generiert eine flüssige Antwort (Generation).
-4. Du bekommst die fertige Antwort präsentiert, meist versehen mit kleinen Fußnoten (Citations), die auf die Quellen verweisen.
+Technisch passiert im Hintergrund meistens etwas, das sich **RAG (Retrieval-Augmented Generation)** nennt:
+1. **Der Prompt:** Du stellst eine Frage in natürlicher Sprache.
+2. **Retrieval (Suche):** Die AI Search Engine sucht im Hintergrund in Echtzeit im Web nach verlässlichen Quellen, um die Frage zu beantworten.
+3. **Generation (Synthese):** Ein Large Language Model (LLM) liest diese Quellen, extrahiert die relevanten Fakten und generiert eine flüssige, auf den Kontext abgestimmte Antwort.
+4. **Citation (Zitation):** Du bekommst die fertige Antwort präsentiert, meist versehen mit kleinen Fußnoten oder Quell-Links (Citations), die auf die Urheber der Fakten verweisen.
 
-## Der Paradigmenwechsel für Website-Betreiber
+### Die wichtigsten Player auf dem Markt (Stand 2026)
 
-Wenn der Nutzer seine Antwort direkt im Chat-Interface bekommt, klickt er im Zweifel nicht mehr auf deine Website. Dieser [Zero-Click-Content](https://teleschmie.de/glossar/zero-click-content/) verändert alles. 
+Der Markt für AI Search ist hart umkämpft. Hier sind die Systeme, die aktuell die User Journey dominieren:
 
-Deine Website muss sich von einer "Landingpage für Menschen" zu einem "Datenlieferanten für Maschinen" wandeln. Die [AI Crawlability](https://teleschmie.de/glossar/ai-crawlability/) rückt in den Fokus. Wenn dein Content nicht strukturiert, maschinenlesbar und als starke [Entität](https://teleschmie.de/glossar/entitaet/) im Netz verankert ist, wird die AI Search Engine dich schlichtweg ignorieren.
+| AI Search Engine | Kern-Fokus & Technologie | SEO-Relevanz |
+| :--- | :--- | :--- |
+| **Google AI Overviews (SGE)** | Integriert LLM-Antworten direkt über den organischen SERPs. Basiert auf Googles Gemini-Modellen. | **Massiv.** Hier nicht als Quelle aufzutauchen, bedeutet den direkten Verlust von Top-of-Funnel Traffic. |
+| **Perplexity AI** | Die reinrassigste Answer Engine. Keine klassische SERP, nur Chats und tiefgründige Zitationen. | **Hoch.** Extrem beliebt bei Power-Usern und B2B-Recherchen. Nutzt starke RAG-Pipelines. |
+| **ChatGPT Search (OpenAI)** | OpenAIs direkter Angriff auf Google. Integriert Live-Websuche in den ChatGPT-Dialog. | **Hoch.** Millionen Nutzer verwenden ChatGPT bereits als primäre Suchmaschine für komplexe Fragen. |
+| **Microsoft Copilot / Bing AI** | Tiefe Integration in Windows und den Edge-Browser. Basiert auf OpenAI-Technologie. | **Moderat bis Hoch.** Stark im Corporate-Umfeld verankert. |
 
-Wir müssen lernen, die Maschinen zu füttern, damit sie unseren Brand als Lösung ausspucken.
+## 2. Der Paradigmenwechsel für Website-Betreiber
 
-ALOHA! 🌻✌️
+Wenn der Nutzer seine Antwort direkt im Chat-Interface bekommt, klickt er im Zweifel nicht mehr auf deine Website. Dieser [Zero-Click-Content](https://teleschmie.de/glossar/zero-click-content/) verändert alles, was wir über Traffic und Conversion-Raten zu wissen glaubten. 
+
+Deine Website muss sich von einer reinen "Landingpage für Menschen" zu einem strukturierten "Datenlieferanten für Maschinen" wandeln. Die [AI Crawlability](https://teleschmie.de/glossar/ai-crawlability/) rückt massiv in den Fokus. Wenn dein Content nicht extrem strukturiert, maschinenlesbar und als starke [Entität](https://teleschmie.de/glossar/entitaet/) im Netz verankert ist, wird die AI Search Engine dich schlichtweg ignorieren.
+
+Wir müssen lernen, die Maschinen zu füttern, damit sie unsere Brand als ultimative Lösung ausspucken. "Der Goldfisch auf Espresso" (die Aufmerksamkeitsspanne des modernen Nutzers) will keine 2.000-Wörter-Artikel mehr durcharbeiten – er will die Antwort sofort von der KI.
+
+## 3. AEO und GEO: Die neuen SEO-Disziplinen
+
+Da Rankings als alleinige Vanity-Metrik ausdienen, haben sich zwei neue Disziplinen gebildet, um in AI Search Engines stattzufinden:
+
+### Answer Engine Optimization (AEO)
+AEO konzentriert sich darauf, konkrete Fragen so präzise und strukturiert wie möglich zu beantworten.
+- **Fokus:** Direkte, unmissverständliche Antworten in den ersten Sätzen eines Absatzes.
+- **Formate:** FAQ-Bereiche, Definitionen, Tabellen und Schritt-für-Schritt-Anleitungen.
+- **Ziel:** Als *die* verlässlichste Quelle für eine spezifische Fakten-Abfrage herangezogen und zitiert zu werden.
+
+### Generative Engine Optimization (GEO)
+GEO geht noch tiefer. Hierbei geht es darum, die inhaltliche Tiefe, den Tonfall und die Semantik so zu optimieren, dass LLMs die Marke nicht nur zitieren, sondern im generierten Text als Autorität *empfehlen*.
+- **Fokus:** E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) auf Steroiden. KI-Modelle suchen nach primären Datenquellen, Original-Forschung und tiefem Expertenwissen, das sie nirgendwo anders finden.
+- **Metriken:** Wir messen hier den **Share of Model** (Wie oft taucht die Brand in den Trainingsdaten auf?) und die **Citation Frequency** (Wie oft wird die Brand in Live-Antworten zitiert?).
+
+## 4. Tacheles: Ist klassisches SEO jetzt tot?
+
+Nein. Wer das behauptet, redet Unsinn. Aber die Spielregeln haben sich radikal verschoben.
+
+KI-Modelle halluzinieren, wenn sie keine verlässlichen Fakten haben. Die Suchmaschinenbetreiber (Google, Bing, OpenAI) sind zwingend darauf angewiesen, ihre generierten Antworten durch echte, hochwertige Websites zu "grounden" (Grounding). Das bedeutet: Die klassischen Ranking-Faktoren wie Backlinks, technische Sauberkeit, saubere Canonical-Tags und hohe redaktionelle Qualität sind **wichtiger denn je**. Sie sind das Eintrittsticket, um überhaupt in den RAG-Index einer AI Search Engine aufgenommen zu werden.
+
+Wer weiterhin "Döner-SEO" betreibt (billigen Content in Masse produziert) oder seine Nutzer in die Tracking-Hölle schickt, wird von den KIs gnadenlos aussortiert. Wer CEO-Sprache spricht, echten Mehrwert liefert und technologisch ein einwandfreies Fundament (z.B. mittels [strukturierter Daten](https://teleschmie.de/glossar/strukturierte-daten/)) bereitstellt, wird belohnt.
+
+**Fazit in freundlichem Klartext:** Hört auf, für Keywords zu optimieren. Optimiert für Antworten, Entitäten und maschinenlesbares Expertenwissen. 
+
+Habe fertig. ALOHA! 🌻✌️
 
 ---
 
@@ -5218,39 +5275,6 @@ Wenn du im Jahr 2026 noch ausschließlich deine Rankings bei Google feierst, wä
 Der Markt hat sich zu den Answer Engines verschoben. Tracke deine Citations über Tools wie Profound oder Semrush AI Visibility. Überwache deine Server-Logs auf die `llms.txt`. Und bau deine Website so um, dass sie für autonome Maschinen in Millisekunden verdaubar ist. 
 
 Das ist KI-Sichtbarkeit. Und wer sie misst, der gewinnt.
-
-ALOHA! 🌻✌️
-
----
-
-### KI Sichtbarkeit messen: Metriken für die neue Suche
-
-
-# KI Sichtbarkeit messen im Jahr 2026
-
-Moin! 🌻
-
-Die Frage, die mich aktuell am häufigsten erreicht, lautet: *"Jörg, der Traffic aus Google geht zurück. Wie kann ich unsere [KI Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/) eigentlich verlässlich messen?"*
-
-Die traurige Wahrheit vorab: Wer weiterhin stur auf klassische Klickraten und Sessions in Google Analytics starrt, hat das neue Spiel der Answer Engines noch nicht verstanden. Wir befinden uns in einer Zero-Click-Ära.
-
-## Warum klassische Analytics versagen
-
-Wenn ein Nutzer ChatGPT oder die Google AI Overviews fragt *"Was ist der beste Solaranbieter in Berlin?"*, und die KI spuckt als glasklare Antwort deinen Firmennamen aus, dann ist das ein gigantischer Marketing-Erfolg. Das Problem? Wenn der Nutzer zufrieden ist und nicht auf deine Website klickt, misst dein klassisches Tracking-Tool exakt: **Null.**
-
-Die Messung von [Sichtbarkeit](https://teleschmie.de/glossar/sichtbarkeit/) muss sich radikal verändern, weil der Point of Conversion zunehmend direkt ins Chatfenster wandert.
-
-## Die neuen KPIs der AI Visibility
-
-Wir brauchen völlig neue Metriken, um Erfolge auszuweisen:
-
-1. **Share of Model Response (SoMR):** Wie oft wird deine Marke oder dein Produkt von führenden Modellen als Top-Entität zu relevanten Prompts ausgespielt? Das ist der neue [Sichtbarkeitsindex](https://teleschmie.de/glossar/sichtbarkeitsindex/).
-2. **Citation Rate (Zitationsquote):** In wie vielen KI-Antworten taucht deine Website als klickbare Quellenangabe (Citation) auf? 
-3. **Logfile-Aktivität:** Das ist pures [Technisches SEO](https://teleschmie.de/glossar/technisches-seo/). Wie oft, wie tief und wie regelmäßig grasen AI-Crawler (z. B. PerplexityBot) deine Seite ab? 
-
-## Fazit: Blindflug beenden
-
-Du musst aufhören, Klicks hinterherzujagen, und anfangen, Erwähnungen und Maschinen-Verständnis zu messen. Nutze Tools, die RAG-Pipelines simulieren und monitore dein Server-Log. Alles andere ist Blindflug.
 
 ALOHA! 🌻✌️
 
@@ -10440,47 +10464,6 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 ### Sistrix Podcast: Entitäten Mapping und Verknüpfung mit Björn Darko und Max Muhr
 
 
-Komme gerade aus dem Sistrix Podcast mit Björn Darko und Maximilian D. Muhr der heute 11 Uhr live in YouTube stattgefunden hat.
-
-Max hat die Runde über Entitäten Mapping und Verknüpfüng aufgeklärt. Björn Darko hat wie immer grandiose Fragen dazu gestellt.
-
-Dabei folgendes mitgenommen:
-* über das Entity Discover Tool von poliSYS kann man die Knowledge Graph API von Google kostenlos auswerten
-* vor 6 Monaten war ich noch nicht drin, jetzt habe ich eine ID als Person und Ding, siehe Bild unten
-* ein globaler Slogan mit relevanten Keywörtern und Entitäten sollte in so vielen wie möglich Seiten im Internet über dich erscheinen
-* Entitäten Sätze sollten Subjekt, Prädikat und Objekt enthalten damit sie für sich allein genommen eine Bedeutung haben
-* im eigenen Entitäten Universum anfangen, Website, Social Media mit kosistenter Beschreibung aufladen die SEO und Entitäten optimiert ist
-* selbst Bing und ChatGPT haben eine Entitäten Datenbank
-
-Den Anspruch auf das Google Knowledge Panel für meine ID brauchte ein Selfie mit Lichtbildausweis. Hab ich trotzdem sofort gemacht.
-
-Wie sich der Relevanz Score von 24 berechnet weiß ich nicht. Was mache ich jetzt mit dem Knowledge Panel?
-
----
-
-### Spannende Einblicke aus der Community
-
-**Jörg Zimmer 🌻:**
-"Immerhin steht das schon mal SEO Experte. Jetzt bleibt es zu hoffen das ich eine Beschreibung hinzufügen kann wenn die Bestätigung des Anspruchs aufs Knowledgde Panels erfolgreich durch geht. Wie sind eure Erfahrungen damit und was macht Sinn dort alles zu hinterlegen?"
-"jetzt wird es wild, über die ID generiert Google ein eigenes Profil und eine eigene URL, darunter listet er Sachen auf die er gefunden hat, dem Google profil kann man folgen, eine tiefere Einrichtung ist derzeit für meine Region nicht möglich, scheinbar nur US only, hier das Profil profile.google.com"
-
-**Björn Darko:**
-"Jetzt wurde der Zugang zum Knowledge Panel bestätigt. Ich komme aber um verrecken nicht in die Bearbeitungsseite, weil sie in einem zu kleinen Fenster öffnet welches sich nicht schieben und vergrößern lässt. Geht das noch jemand so? Hat jemand einen Lifehack für mich?"
-
-**Dr. Torsten Beyer:**
-"Klingt einfach, ich kann mich daran erinnern mal aufwendig einen wikidata eintrag gemacht zu haben, dann konnte man nachdem du die Bestätigung bekommen hast noch Daten verfeinern. Bin dann aus wikidata wieder rausgeflogen wegen 'Selfpromotion'."
-
-**Anastasia Galani:**
-"Der Score '24' wird nur als Abstand zu anderen Entitäten gleichen Namens gewichtet, z.B. eine andere hätte '150' und wäre dann wichtiger für Google. Es ist kein absoluter Score. (und unter uns: 24 ist eigentlich die Null-Linie bei der Suche im englischsprachigen Entitätenraum, 12 bei deutsch). Aber wenn Du das Panel beanspruchen konntest ist das ein Anfang."
-
-**Michael Holste:**
-"Ich würde das Knowledge Panel weniger als Ziel sehen, sondern als Indikator. Entscheidend ist, ob eine Person oder ein Unternehmen in den Wissensgraphen der KI Systeme mit den richtigen Themen und Beziehungen verknüpft wird. Genau diese semantischen Zusammenhänge werden für AI Visibility immer wichtiger als einzelne Keywords."
-
-
-  💬 Jetzt an der Diskussion teilnehmen!
-  Beitrag auf LinkedIn öffnen
-
-
 ---
 
 ### 'SEORCH Tool: Dein kostenloses OnPage SEO Werkzeug'
@@ -12372,8 +12355,6 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
 
 Moin! 🌻
 
-![Original LinkedIn Post](https://teleschmie.de/assets/images/blog/linkedin-10-gruende.webp)
-
 Wenn du als Freelancer oder in einer SEO-Agentur arbeitest, kennst du das Problem: Zu viele Tools und zu viel Chaos bei den Workflows. Das Preis-Leistungs-Verhältnis muss einfach stimmen. 
 
 *Diese Diskussion wurde von mir auf LinkedIn am 09.07.2026 gestartet:*
@@ -13327,8 +13308,6 @@ Letzte Woche auf dem SEO Stammtisch Berlin (Grüße an Carsten Appel!) habe ich 
 
 Wer LinkedIn wie Google SEO begreift, gewinnt das Spiel. Wer hier nur "Social Media" macht und auf Likes hofft, verbrennt sinnlos Zeit.
 
-![Jörg Zimmer beim SEO Stammtisch Berlin - LinkedIn als Forum](https://teleschmie.de/assets/images/blog/linkedin-forum-original.webp)
-
 Lass uns mal Tacheles reden. Warum verpuffen inhaltlich geniale SEO-Beiträge oft im digitalen Nirvana, während andere mit Halbwissen hunderte Kommentare einsammeln? Weil die meisten das System nicht verstanden haben. Hier sind die Learnings aus dem Vortrag und – was noch viel wertvoller ist – aus der fetten Diskussion danach in den Kommentaren.
 
 
@@ -13630,42 +13609,84 @@ ALOHA! 🌻✌️
 
 ---
 
-### Ich merke gerade, dass ich mich selbst in der GEO Transformation befinde
+### GEO Transformation: Die neue SEO-Disziplin der AI Search
 
 
-Ich merke gerade das ich mich selbst in der Transformation befinde.
+Moin! 🌻
 
-Sehe dieses GEO nicht mehr als böse, sondern als Chance. Erkenne das es mehr als nur SEO braucht. Alle Abteilungen die in irgendeiner Form zum digitalen Fußabdruck beitragen gehören für die Strategie an einen Tisch.
+*Diese Diskussion wurde von mir auf LinkedIn am 31.07.2026 gestartet:*
 
-Das Know How über Entitäten, Reputation und selbst über Keyword Cluster müssen verschmolzen werden. Jede Form von Sichtbarkeit im Netz muss analysiert werden, danach optimiert und ernsthaft positiv gesteuert.
 
-Ein großer Brocken der neue Tools, neue Protokolle und handwerkliche Methoden erfordert. Vieles ähnlich oder gleich wie im SEO doch jetzt nochmal exakt für den Layer AI obendrauf. Manche Sachen sind dort auch komplett neu. Allein die technische Infrastruktur, die Modellierung und die Quellen.
+  💬 Jörgs SEO-Klartext (LinkedIn Insights)
+  
+  Ich merke gerade das ich mich selbst in der Transformation befinde.
+  Sehe dieses GEO nicht mehr als böse, sondern als Chance. Erkenne das es mehr als nur SEO braucht. Alle Abteilungen die in irgendeiner Form zum digitalen Fußabdruck beitragen gehören für die Strategie an einen Tisch.
+  Das Know How über Entitäten, Reputation und selbst über Keyword Cluster müssen verschmolzen werden. Jede Form von Sichtbarkeit im Netz muss analysiert werden, danach optimiert und ernsthaft positiv gesteuert.
+  Ein großer Brocken der neue Tools, neue Protokolle und handwerkliche Methoden erfordert. Vieles ähnlich oder gleich wie im SEO doch jetzt nochmal exakt für den Layer AI obendrauf. Manche Sachen sind dort auch komplett neu. Allein die technische Infrastruktur, die Modellierung und die Quellen.
+  Der größte Umbruch ist bei der User Journey. Diese wandert von Klicks und selbst suchen zu personalisierten Chatfenstern mit AI Mode.
+  Wenn ich es durchdenke ist das ein Umbau des Internets wie wir es kannten.
+  
 
-Der größte Umbruch ist bei der User Journey. Diese wandert von Klicks und selbst suchen zu personalisierten Chatfenstern mit AI Mode.
 
-Wenn ich es durchdenke ist das ein Umbau des Internets wie wir es kannten.
+Der Umbruch ist gewaltig. Es geht nicht mehr nur um klassische Rankings. [Generative Engine Optimization](https://teleschmie.de/blog/generative-engine-optimization-geo/) (GEO) ist eine völlig eigene Disziplin geworden.
 
----
+Das sah Thorsten Litzki ganz ähnlich:
 
-### Spannende Einblicke aus der Community
 
-**Thorsten Litzki:**
-"AI Crawlability wird eine neue eigene Disziplin auf Tech SEO obendrauf. AI Visibility ist bereits eine neue Disziplin weil anders zu messen. Gutes SEO Handwerk kann helfen wird aber für das Gesamtbild nicht reichen. Es braucht diesmal wirklich das Zusammenspiel mehrerer Abteilungen die sich für das Thema interessieren und Ressourcen reinstecken. Selbst reine Markenarbeit und einfaches PR wird nicht ausreichen wenn die Quellen nicht für die AI Modelle dienen."
+  💬 Thorsten Litzki (LinkedIn Kommentar)
+  
+    "AI Crawlability wird eine neue eigene Disziplin auf Tech SEO obendrauf. AI Visibility ist bereits eine neue Disziplin weil anders zu messen. Gutes SEO Handwerk kann helfen wird aber für das Gesamtbild nicht reichen. Es braucht diesmal wirklich das Zusammenspiel mehrerer Abteilungen die sich für das Thema interessieren und Ressourcen reinstecken. Selbst reine Markenarbeit und einfaches PR wird nicht ausreichen wenn die Quellen nicht für die AI Modelle dienen."
+  
 
-**Marco Janck:**
-"... 🎶 This is the end of SEO world as we know it ;-) Ich denke, da kommen in immer kürzeren Zeitabständen noch viel mehr radikale Umbauten auf uns zu. Wenn ich an die Verknüpfung von Webseite, Shopping, Logistik und IoT denke, ist das gerade erst der Anfang und bisher nur die (sichtbare) Spitze des Eisbergs. Wenn ich allerdings nur in meinem Bereich auf die Infrastrukturen schaue, sind noch nicht einmal 0,1% der Enterprise-Strukturen bereit dafür. In keiner Branche."
 
-**Markus Hübner:**
-"... und es ist erst der Anfang. Aber ist eine spannende Welt. Die Frage bleibt aber: Wie nennen wir das, was da entsteht?"
+Marco Janck brachte es dann gewohnt radikal auf den Punkt:
 
-**Oguzhan Kalkan:**
-"Ich verstehe dass der aktuellste Entwicklungszyklus immer der spannendste ist - doch mit der Zeit wird man auch ruhiger. Wenn ich zurück denke zu den Zeiten / Meilensteinen von Telnet, Newsgroups, Gopher, Einführung des WWW, eCommerce, SEO, Web 2.0/Social Media, Virtual Worlds, AI, … Aber vielleicht weil ich das seit über 35 Jahre schon erlebe und sehr viel kommen und gehen gesehen habe ☺️"
 
-**Sven Badalyan:**
-"Diese Perspektive teile ich. Der angenehme Teil an GEO ist, dass man Wirkung früher sieht als bei klassischem SEO, weil Zitate in KI-Antworten oft schon nach Wochen auftauchen. Der unangenehme Teil ist, dass sie genauso schnell wieder verschwinden, wenn andere Quellen stärker werden."
+  💬 Marco Janck (LinkedIn Kommentar)
+  
+    "... 🎶 This is the end of SEO world as we know it ;-) Ich denke, da kommen in immer kürzeren Zeitabständen noch viel mehr radikale Umbauten auf uns zu. Wenn ich an die Verknüpfung von Webseite, Shopping, Logistik und IoT denke, ist das gerade erst der Anfang und bisher nur die (sichtbare) Spitze des Eisbergs. Wenn ich allerdings nur in meinem Bereich auf die Infrastrukturen schaue, sind noch nicht einmal 0,1% der Enterprise-Strukturen bereit dafür. In keiner Branche."
+  
 
-**Manuel Schmöllerl:**
-"GEO ist kein zusätzlicher SEO-Layer, sondern ein Wechsel der Systemlogik: von rankbaren Seiten zu zitierfähigen Entitäten im Retrieval-Graph. Künftig entscheidet nicht mehr nur der Index, sondern welcher Agent welche Quelle in seinen Kontext lädt. Wer dort fehlt, existiert digital kaum noch."
+
+Aber wie Markus Hübner richtig anmerkte, stellt sich eine fundamentale Frage für uns alle:
+
+
+  💬 Markus Hübner (LinkedIn Kommentar)
+  
+    "... und es ist erst der Anfang. Aber ist eine spannende Welt. Die Frage bleibt aber: Wie nennen wir das, was da entsteht?"
+  
+
+
+Oguzhan Kalkan sah die Sache etwas entspannter. Wer schon lange dabei ist, kennt diese extremen Wellen:
+
+
+  💬 Oguzhan Kalkan (LinkedIn Kommentar)
+  
+    "Ich verstehe dass der aktuellste Entwicklungszyklus immer der spannendste ist - doch mit der Zeit wird man auch ruhiger. Wenn ich zurück denke zu den Zeiten / Meilensteinen von Telnet, Newsgroups, Gopher, Einführung des WWW, eCommerce, SEO, Web 2.0/Social Media, Virtual Worlds, AI, … Aber vielleicht weil ich das seit über 35 Jahre schon erlebe und sehr viel kommen und gehen gesehen habe ☺️"
+  
+
+
+Sven Badalyan sprach zudem einen entscheidenden, taktischen Vorteil von KI an, der vielen oft nicht bewusst ist:
+
+
+  💬 Sven Badalyan (LinkedIn Kommentar)
+  
+    "Diese Perspektive teile ich. Der angenehme Teil an GEO ist, dass man Wirkung früher sieht als bei klassischem SEO, weil Zitate in KI-Antworten oft schon nach Wochen auftauchen. Der unangenehme Teil ist, dass sie genauso schnell wieder verschwinden, wenn andere Quellen stärker werden."
+  
+
+
+Manuel Schmöllerl brachte das neue System dann perfekt auf den Punkt. Es geht nicht mehr um Rankings, es geht um das [Aufbauen von Entitäten](https://teleschmie.de/glossar/entitaeten-building/):
+
+
+  💬 Manuel Schmöllerl (LinkedIn Kommentar)
+  
+    "GEO ist kein zusätzlicher SEO-Layer, sondern ein Wechsel der Systemlogik: von rankbaren Seiten zu zitierfähigen Entitäten im Retrieval-Graph. Künftig entscheidet nicht mehr nur der Index, sondern welcher Agent welche Quelle in seinen Kontext lädt. Wer dort fehlt, existiert digital kaum noch."
+  
+
+
+Wer Hilfe bei diesem Systemwechsel braucht, kann sich jederzeit in meiner [SEO Sprechstunde](https://teleschmie.de/seo-sprechstunde-berlin/) melden. Wir schauen uns genau an, ob deine Entität bereit für die AI Overviews ist.
+
+ALOHA! 🌻✌️
 
 
   💬 Jetzt an der Diskussion teilnehmen!

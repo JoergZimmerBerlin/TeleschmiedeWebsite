@@ -104,6 +104,26 @@ export const GET = async () => {
   </url>`;
   }
 
+  // 7. Blog Categories
+  const blogCategories = ['seo-praxis', 'ai-seo', 'tech-seo-tools', 'events-networking'];
+  for (const cat of blogCategories) {
+    urls += `
+  <url>
+    <loc>${baseUrl}/blog/${cat}/</loc>
+    <lastmod>${getLastMod(path.join(process.cwd(), 'src/pages/blog/[slug].astro'))}</lastmod>
+  </url>`;
+  }
+
+  // 8. Glossar Categories
+  const glossarCategories = ['seo-basics-onpage', 'technisches-seo-ux', 'ai-seo-generative-search', 'e-e-a-t-offpage'];
+  for (const cat of glossarCategories) {
+    urls += `
+  <url>
+    <loc>${baseUrl}/glossar/${cat}/</loc>
+    <lastmod>${getLastMod(path.join(process.cwd(), 'src/pages/glossar/[slug].astro'))}</lastmod>
+  </url>`;
+  }
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls}

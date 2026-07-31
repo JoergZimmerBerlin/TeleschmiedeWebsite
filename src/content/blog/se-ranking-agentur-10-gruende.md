@@ -27,6 +27,8 @@ Die Suchlandschaft dreht sich. Es reicht nicht mehr, nur klassische Links zu che
 
 Deine Kunden wollen individuelle Dashboards? Die Daten pumpst du über die API direkt in deine Automatisierungs-Plattformen. Auch [Local SEO](/glossar/local-seo/) war noch nie so einfach: Map-Rankings tracken und Kundenbewertungen zentral steuern ist voll integriert. 
 
+Es gab auch direkt spannende Rückfragen aus der Community:
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Lisa Augustin (LinkedIn Kommentar)</p>
   <p class="italic text-dark mb-0">"Den Business Tarif find ich auf deren Website nicht :-("</p>
@@ -43,13 +45,21 @@ Eine absolut berechtigte Frage von Torsten! Gerade im Vergleich mit Platzhirsche
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Yevheniya Shafar (LinkedIn Kommentar)</p>
-  <p class="italic text-dark mb-0">"Ich habe früher super gerne sistrix genutzt. Irgendwann mal auf semrush umziehen müssen. Und bin dabei hängen geblieben... Hast du Erfahrungen mit semrush im Vergleich zu SE Ranking?"</p>
+  <p class="italic text-dark mb-0">"Ich habe früher super gerne sistrix genutzt. Irgendwann mal auf semrush umziehen müssen. Und bin dabei hängen geblieben. Ich glaube dass ich SE Ranking kurz getestet habe und es mich nicht auf Anhieb überzeugen konnte. Vielleicht muss ich noch mal testen. Hast du Erfahrungen mit semrush im Vergleich zu SE Ranking?"</p>
 </div>
 
-Beide spielen in der Top-Liga. Semrush bietet tiefere Paid-Ads-Features, was den höheren Preis rechtfertigt. Für reine SEO-Workflows und Agentur-Features (White-Label, Lead-Gen) punktet SE Ranking aber extrem durch sein unschlagbares Preis-Leistungs-Verhältnis. Und wie Dominik Breitbach in den Kommentaren bestätigte: *"Nutzen wir auch sehr zufrieden. Die API ist sehr fair! Viele Tokens für vergleichbar wenig Geld"*.
+Beide spielen in der Top-Liga. Semrush bietet tiefere Paid-Ads-Features, was den höheren Preis rechtfertigt. Für reine SEO-Workflows und Agentur-Features (White-Label, Lead-Gen) punktet SE Ranking aber extrem durch sein unschlagbares Preis-Leistungs-Verhältnis. 
+
+Und wie Dominik Breitbach in den Kommentaren bestätigte:
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
+  <p class="font-bold text-lime-600 mb-2">💬 Dominik Breitbach (LinkedIn Kommentar)</p>
+  <p class="italic text-dark mb-0">"Nutzen wir auch sehr zufrieden. Die API ist sehr fair! Viele Tokens für vergleichbar wenig Geld"</p>
+</div>
 
 Falls du unsicher bist, wirf einen Blick auf meinen Vergleich: [Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/).
 
-Wer über meinen [Partner Link](https://lnkd.in/d8sW4sHm) abschließt, bekommt 2 Stunden Support von mir on top!
+Wer über meinen Partner Link abschließt, bekommt 2 Stunden Support von mir on top:  
+[SE Ranking ansehen](https://lnkd.in/d8sW4sHm) *(Affiliate)*
 
 ALOHA! 🌻✌️

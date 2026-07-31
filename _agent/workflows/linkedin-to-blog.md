@@ -53,17 +53,20 @@ faqs:
   ```
 
 ## 5. Authentizität: Zwingend Echte LinkedIn-Kommentare nutzen (Keine Erfindungen!)
-Der Blog lebt vom Tacheles-Austausch. Wenn LinkedIn-Kommentare existieren, MÜSSEN diese im Artikel aufgegriffen werden.
-- **STRIKTE REGEL**: Du darfst NIEMALS Kommentare, Fragen oder Namen frei erfinden, abändern oder paraphrasieren! Nutze **IMMER den 1:1 exakten Original-Wortlaut** aus dem echten LinkedIn-Post.
+Der Blog lebt vom Tacheles-Austausch. Der originale LinkedIn-Post ist IMMER die Basis des Artikels.
+- **STRIKTE REGEL 1**: Der originale LinkedIn-Text (also Jörgs kompletter Beitrag inklusive aller Listen/Stichpunkte) MUSS in voller Länge als Herzstück in den Artikel übernommen werden. Nicht nur der erste Satz!
+- **STRIKTE REGEL 2**: Wenn LinkedIn-Kommentare existieren, MÜSSEN diese im Artikel aufgegriffen werden. Du darfst NIEMALS Kommentare, Fragen oder Namen frei erfinden, abändern oder paraphrasieren! Nutze **IMMER den 1:1 exakten Original-Wortlaut** aus dem echten LinkedIn-Post.
 - Nutze das folgende visuelle HTML-Element, um *jeden* originalen Kommentar und *jede* originale Jörg-Antwort hervorzuheben:
 
 ```html
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 [Echter Name des Kommentators] (LinkedIn Kommentar)</p>
-  <p class="italic text-dark mb-0">"[Exakter, unveränderter Original-Text]"</p>
+  <div class="italic text-dark mb-0">
+    <p>[Exakter, unveränderter Original-Text, gerne auch mehrzeilig]</p>
+  </div>
 </div>
 ```
-*Tipp: Du musst dir vor dem Schreiben zwingend den rohen Content der LinkedIn-URL ziehen (`read_url_content`), um die echten Kommentare aus den JSON-Daten lesen zu können! Rate niemals!*
+*Tipp: Du musst dir vor dem Schreiben zwingend den rohen Content der LinkedIn-URL ziehen (`read_url_content`), um die echten Texte aus den JSON-Daten lesen zu können! Rate niemals!*
 
 ## 6. Metadata & Verification
 - **Reading Time**: Ensure the layout calculates this (Standard: 180 wpm for German).

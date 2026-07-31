@@ -24,21 +24,21 @@ Moin! 🌻
 
 Machen wir uns nichts vor: Wir haben das Web in den letzten zehn Jahren primär für das menschliche Auge und die Conversion-Rate-Optimierung gebaut. Tolle Animationen, Pop-ups, fette JavaScript-Frameworks. Für den Menschen (meistens) schick, für den Bot ein Albtraum.
 
-Genau hier kommt **AI Crawlability** ins Spiel. Es ist die neue Hardcore-Disziplin auf dem [Technischen SEO](/glossar/technisches-seo/) obendrauf.
+Genau hier kommt **AI Crawlability** ins Spiel. Es ist die neue Hardcore-Disziplin auf dem [Technischen SEO](/glossar/technisches-seo/) obendrauf. Im Jahr 2026 kämpfen wir nicht mehr nur um "Rankings" (die blauen Links), sondern um **"Selection"** – die Auswahl als zitierte Quelle (Share of Model).
 
-## Website als Daten-Feed
+## robots.txt Strategie 2026: Blocken oder nicht?
 
-Wenn die User Journey komplett in das Chatfenster einer [AI Search Engine](/glossar/ai-search-engine/) wandert, verliert deine Website ihre Funktion als bunte Werbebroschüre. Sie wird zu einem reinen Feed-Datenlieferanten, einer Kontrollquelle und einem Ankerpunkt für [Entitäten](/glossar/entitaet/). 
-
-Das Problem: Das ganze Design, das Marketing-Bla-Bla und die blockierenden Scripte stören den AI Crawler massiv. Diese Bots (oft kleine, leichtgewichtige Scraper, die in Echtzeit für RAG-Modelle losgeschickt werden) haben weder die Zeit noch die Ressourcen, deine aufwendige React-App komplett zu rendern. Sie wollen die Fakten. Sofort. Maschinenlesbar.
+Der größte Fehler, den viele Website-Betreiber aktuell machen, ist das blinde Blockieren von KI-Bots per `robots.txt`. Wer bei der AI Crawlability punkten will, muss differenzieren:
+- **Training Crawler (z.B. GPTBot, ClaudeBot):** Diese Bots scrapen deine Daten, um ihre KI-Modelle zu trainieren, oft ohne direkte Quellenangabe. Diese darfst du guten Gewissens blocken, wenn du deinen Content schützen willst.
+- **Retrieval & Search Crawler (z.B. OAI-SearchBot, PerplexityBot):** Diese Bots durchsuchen das Netz *in Echtzeit*, um aktuelle Nutzeranfragen zu beantworten und verlinken dich als Quelle! Blockierst du diese, machst du deine Marke in der [AI Search Engine](/glossar/ai-search-engine/) de facto unsichtbar.
 
 ## Maßnahmen für bessere Maschinenlesbarkeit
 
-Was müssen wir also tun, um unsere AI Crawlability zu maximieren?
+Was müssen wir also tun, um unsere AI Crawlability zu maximieren? AI-Systeme nutzen häufig "Query Fan-out" (eine Nutzerfrage wird in dutzende kleine Suchanfragen zerlegt). Um hier extrahiert zu werden, brauchst du harte, saubere Fakten.
 
-1. **Back to Basics:** Semantisches HTML. Eine perfekte `<h1>`-bis-`<h3>`-Struktur. Klare Absätze.
-2. **Maschinen-Schnittstellen:** Standards wie die `llms.txt` oder sauberes JSON-LD [Schema Markup](/glossar/schema-org-markup/) sind keine Kür mehr, sondern Pflicht.
-3. **Fakten-Dichte:** Verstecke deine Kernkompetenzen nicht in langen Fließtexten. Präsentiere harte Fakten, Tabellen und direkte Antworten so, dass ein Modell sie zweifelsfrei extrahieren kann.
+1. **Back to Basics (Semantic HTML):** Moderne KI-Bots führen oft gar kein aufwendiges JavaScript-Rendering mehr durch (im Gegensatz zum klassischen Googlebot). Sie brauchen reines, semantisches HTML. Eine perfekte `<h1>`-bis-`<h3>`-Struktur ist Pflicht.
+2. **Maschinen-Schnittstellen & Schema:** Nutze [strukturierte Daten](/glossar/strukturierte-daten/) wie `FAQPage` oder `Article` exzessiv. Biete dem Bot klare Entitäten-Zuordnungen, damit er die semantischen Zusammenhänge versteht.
+3. **Fakten-Dichte statt Bla-Bla:** Verstecke deine Kernkompetenzen nicht in langen Fließtexten. "Schreibe für Kleinkinder, betrunkene Erwachsene und LLMs" – präsentiere harte Fakten, Tabellen und direkte Antworten so, dass ein RAG-Modell (Retrieval-Augmented Generation) sie zweifelsfrei extrahieren kann.
 
 Wir müssen begreifen: Um beim Endkunden auf dem Bildschirm zu landen, müssen wir zuerst die Maschine überzeugen. Und Maschinen mögen es simpel, schnell und unmissverständlich.
 

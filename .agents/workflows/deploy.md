@@ -2,8 +2,10 @@
 description: Commits and pushes changes to the main branch to trigger the automatic deployment to Ionos.
 ---
 
-// turbo-all
-This workflow automates the process of pushing changes to production.
+# [LOCKED] Automatisches Deployment (Finger weg von Git!)
+
+This workflow automates the process of pushing changes to production. 
+**STRIKTE REGEL:** Führe NIEMALS eigene `git add`, `git commit` oder `git push` Befehle aus! Das führt zu Konflikten.
 
 1. Das Deployment erfordert Netzwerkzugriff (GitHub, IONOS, Google Search Console). Du **MUSST zwingend** `BypassSandbox: true` verwenden, wenn du das Deployment-Skript ausführst! Ansonsten friert der Vorgang stumm ein.
 

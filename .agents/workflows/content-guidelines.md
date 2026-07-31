@@ -95,7 +95,8 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
    - **Dateiformat:** Alle Bilder **zwingend in WebP** umwandeln (Standard für Pagespeed).
    - **Speicherort:** Glossar-Bilder → `src/assets/images/glossar/3d-light/`.
    - **Benennung:** Nutze das Schema `glossar-[slug]-3d.webp`.
-   - **Integration:** Update frontmatter `image` & `image_alt`. Füge die Grafik als 100% Breite (`![Alt-Text](../../pfad)`) direkt am Anfang des Fließtextes ein.
+   - **Integration:** Trage den Pfad zum Bild *ausschließlich* in den Frontmatter-Block (`image:` & `image_alt:`) ein.
+   - **STRIKTE ANTI-DOPPEL-REGEL:** Das Astro-Template rendert das Bild aus der Frontmatter bereits automatisch ganz oben auf der Seite! Füge das Bild **NIEMALS** manuell per Markdown (`![Alt-Text](...)`) in den Fließtext ein. Das führt zu doppelten Bildern auf der Website!
 
 - **Einmaligkeit:** Jedes Glossar-Thema benötigt eine **eigene, themenspezifische** Infografik. Keine geteilten "Theme-Bilder" mehr.
 

@@ -6,6 +6,8 @@ description: Die vollautomatische "Content-Fabrik" (LinkedIn zu Blog + Glossar-E
 
 Dieser Workflow wird ausgelöst, wenn Jörg eine LinkedIn-URL einreicht. Es handelt sich um einen geschlossenen End-to-End-Prozess, der ZWINGEND in genau dieser Reihenfolge abgearbeitet werden muss.
 
+**STRIKTE BATCHING-REGEL:** Werden mehrere URLs eingereicht, dürfen NIEMALS mehr als 3 Artikel gleichzeitig ("Blind-Batching") verarbeitet werden. Du baust ein Task-Board auf (`task.md`) und arbeitest sie strikt sequenziell oder in max. 3er-Blöcken ab. Jeder Block muss erst Phase 7 (Quality Gate) passieren, bevor der nächste begonnen wird!
+
 ## Phase 1: Content Extraction (LinkedIn -> Blog)
 1. **Original URL & Text sichern**: Lade den rohen Content der URL via `read_url_content` (oder per Skript/Embed), um an die *echten* JSON-Daten und Texte zu kommen. Rate niemals!
 2. **Content & Comments analysieren**: Scan the comments for common questions or controversial takes. Use these for the **FAQ section** and **Key Takeaways** im Frontmatter.
@@ -71,17 +73,10 @@ faqs:
 - **Affiliate-Links**: Sobald Tools wie "SE Ranking" im Text erwähnt werden, MUSS zwingend ein Affiliate-Link gesetzt werden (z. B. `[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)`).
 - **Sprechstunde**: Sobald Begriffe wie "Sprechstunde", "Beratung" oder "Termin" fallen, MUSS zwingend ein interner Link zur SEO-Sprechstunde gesetzt werden.
 
-## Phase 4: Glossar-Erweiterung (SE Ranking & Web-Recherche)
-Sobald der Blogartikel steht, beginnt der Glossar-Loop:
-1. **SE Ranking Recherche**: Nutze das SE Ranking MCP Tool (z.B. `DATA_getRelatedKeywords`), um basierend auf dem Blog-Thema 3 bis 5 semantisch verwandte Keywords zu finden (Filter: Deutschland, Suchvolumen >= 10).
-2. **Anti-Duplikat-Regel (STRIKT)**: Prüfe via `list_dir` in `src/content/glossar/`, ob das Thema schon existiert.
-   - **Falls existent**: Erweitere/optimiere den bestehenden Artikel (keinen neuen anlegen!).
-   - **Falls neu**: Erstelle einen neuen Glossar-Artikel.
-3. **Faktische Erstellung & Bild**: 
-   - Führe zwingend eine **Web-Recherche** aus (`search_web`), um aktuelle, echte Fakten zu sammeln.
-   - Es darf in Glossar-Artikeln **kein Handel simuliert werden** (keine erfundenen kommerziellen Angebote).
-   - Generiere für *jeden* neuen Glossar-Artikel ein eigenes 3D-Thumbnail (weiß/lime-grün, DEUTSCHER Text) und speichere es im `.webp` Format ab.
-4. **Blogartikel aktualisieren**: Gehe nach der Erstellung der neuen Glossar-Artikel zurück in deinen neuen Blogartikel und verlinke die neu geschriebenen Glossar-Begriffe dort direkt im Text!
+## Phase 4: Glossar-Erweiterung (Zwangsauslagerung)
+Sobald der Blogartikel steht, beginnt der Glossar-Loop. Da die Glossar-Erstellung ein eigener, hochkomplexer Prozess ist, wurde er strikt ausgelagert.
+1. **Zwangstrigger**: Starte ZWINGEND den dedizierten Workflow unter `.agents/workflows/create-glossar.md`.
+2. **Blogartikel aktualisieren**: Kehre nach dem Durchlaufen des Glossar-Workflows in deinen neuen Blogartikel zurück und verlinke die neu geschriebenen Glossar-Begriffe dort direkt im Text!
 
 ## Phase 5: Social Media Distribution (Auto-Upload)
 **ACHTUNG: Dieser Schritt darf niemals übersprungen werden, falls ein Video vorhanden ist!**
@@ -100,8 +95,19 @@ Sobald der Blogartikel steht, beginnt der Glossar-Loop:
     --linkedin="https://www.linkedin.com/posts/..."
   ```
 
-## Phase 6: Reporting an den Nutzer
-Sobald alles erledigt und via `npm run build` (lokal) fehlerfrei geprüft ist, lieferst du Jörg einen exakten Statusbericht in kurzer Listenform:
-1. Bestätigung: "Der Blogartikel ist jetzt live." (Oder lokal bereit zum Deploy).
-2. Liste der erstellten/aktualisierten Glossar-Artikel: "Dazu habe ich 3-5 Glossar-Artikel produziert, die wir bislang noch nicht hatten, mit folgendem Suchvolumen: [Liste der Keywords + Volumen]".
-3. Kurze Erklärung: Erkläre abschließend in 2-3 Sätzen, was du genau gemacht hast.
+## Phase 7: Quality Gate Audit (Skript)
+**STRIKTE REGEL:** Bevor auch nur ein einziger Deployment-Prozess angedacht wird, MUSST du das Quality-Gate-Skript ausführen!
+1. Führe aus: `node scripts/quality-gate.cjs /pfad/zum/artikel.md`
+2. Das Skript prüft hart auf Längen (Title/Desc), Emojis, korrekte Kategorien, Dummy-Bilder und max. 8 Links.
+3. Wenn das Skript einen `FEHLER` wirft, brichst du sofort ab, korrigierst die Markdown-Datei und startest das Skript erneut.
+4. Erst wenn das Skript `PASS` meldet, darf der Artikel live gehen!
+
+## Phase 8: Reporting an den Nutzer
+Sobald alles erledigt und via `npm run build` (lokal) fehlerfrei geprüft ist (inkl. Quality Gate!), lieferst du Jörg einen **Tacheles-Statusbericht**:
+1. Bestätigung: "Der Blogartikel ist jetzt lokal bereit."
+2. Liste der erstellten Glossar-Artikel (mit Suchvolumen).
+3. **Audit-Ergebnis**: Was hat das Quality-Gate gesagt? Welche Title-Länge hat der Artikel? Wie viele Links? (Sei transparent!).
+
+## [LOCKED] Phase 9: Workflow Orchestrierung (Deploy)
+**STRIKTE REGEL:** Sobald du den Tacheles-Statusbericht abgeliefert hast und Jörg keine Korrekturen wünscht, startest du **AUTOMATISCH** den Deployment-Prozess.
+Dazu rufst du den Workflow `.agents/workflows/deploy.md` auf. Erfinde NIEMALS eigene `git add` oder `git push` Befehle in der Konsole, sondern halte dich exakt an den dortigen Prozess!

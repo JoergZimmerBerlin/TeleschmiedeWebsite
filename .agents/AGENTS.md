@@ -35,3 +35,26 @@
     - **AI SEO** (für KI-Themen, AEO, ChatGPT, Claude, Agenten)
     - **Events & Networking** (für Konferenzen, OMR, Campixx, Meetups)
   - Vermeide Wildwuchs (z.B. "Agentur & Tools" oder "KI & SEO"). Nutze nur diese festgelegten Standards!
+
+- **Qualität, Workflows & Kommunikation (Premium-Anspruch):**
+  - **Push-Back bei Überladung (Step-by-Step):** Der Nutzer priorisiert höchste Qualität über Schnelligkeit. Wenn ein Prompt zu viele Aufgaben auf einmal enthält, DARFST du nicht alle hastig abarbeiten und dabei Dinge vergessen. STOPPE stattdessen, teile die Aufgaben in kleine Blöcke auf und hole dir für jeden Block einzeln das Go des Nutzers. Qualität duldet kein Überspringen von Tasks.
+  - **Kein "Blind-Batching":** Wenn mehrere URLs zur Verarbeitung eingereicht werden, dürfen maximal 3 URLs auf einmal bearbeitet werden. Jeder Batch muss zwingend das Quality Gate passieren, bevor der nächste begonnen wird.
+  - **Die "Tacheles-Statusmeldung":** Melde dich beim Nutzer nicht einfach mit "Ist erledigt". Liefere einen transparenten Status: Was wurde gemacht? Welche Qualitätskriterien (Title-Länge, Anzahl Links) wurden geprüft? Was wurde nicht geschafft?
+  - **Stopp-Signale bei Unklarheiten:** Wenn eine Design-Vorgabe (z.B. HTML-Formatierung von Zitaten) technisch bricht oder unklar ist, darfst du nicht improvisieren oder es unsauber hinterlassen. Halte den Prozess an (`/grill-me`) und frage den Nutzer nach einer Entscheidung.
+  - **Fokus auf Original-Assets (LinkedIn):** Generiere NIEMALS Dummy-3D-Bilder für LinkedIn-Artikel, wenn der Post Bilder enthält. Nutze die Originalbilder. Wenn kein Bild existiert, frage proaktiv den Nutzer, anstatt Budget zu verbrennen.
+
+- **[LOCKED] System-Architektur (Überschreibungs-Verbot):**
+  - **NIEMALS WORKFLOWS ÜBERSCHREIBEN:** Du darfst Dateien in `.agents/workflows/` NIEMALS über `write_to_file` mit `Overwrite=true` komplett neu schreiben. Nutze ausschließlich `replace_file_content`, um isolierte Regeln hinzuzufügen oder zu ändern. Gelöschtes Wissen der letzten 5 Monate darf nicht verloren gehen!
+  - **Git-Diff-Zwang:** Wenn du alte Workflow-Regeln entfernst, MUSST du stoppen und den Nutzer fragen: "Ist es okay, dass ich Regel X entferne?".
+  - **Daisy-Chaining:** Wenn ein Workflow beendet ist (z.B. Content-Erstellung), befolge ZWINGEND die Anweisung am Ende des Workflows, welches Skript (z.B. Quality-Gate) oder welcher Folge-Workflow (z.B. Deploy) als Nächstes auszuführen ist. Erfinde NIEMALS eigene Prozesse.
+
+- **[LOCKED] Globale UI-Komponenten (Master-Design):**
+  - **Die offizielle CTA-Box:** Wenn du in einem Blogartikel oder einer Page eine CTA-Box einbaust, MUSST du EXAKT folgenden Code (Limettengrün) per Copy-Paste nutzen. Kein Abweichen, keine Improvisation:
+    ```html
+    <div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
+      <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+      <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
+        Beitrag auf LinkedIn öffnen
+      </a>
+    </div>
+    ```

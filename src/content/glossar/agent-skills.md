@@ -20,8 +20,6 @@ faqs:
 
 Moin! 🌻
 
-![Agent-Skills, Skill-Index, Tool-Ausführung](../../assets/images/glossar/3d-light/glossar-agent-skills-3d.webp)
-
 Erinnerst du dich an die Zeiten, als wir versucht haben, KI-Modellen mit endlos langen und verschachtelten System-Prompts zu erklären, wie sie einen Job machen sollen? Das war digitaler Pfusch am Bau. Im Jahr 2026 haben wir kapiert: Wer eine Allround-KI baut, bekommt am Ende einen Bauchladen, der alles ein bisschen, aber nichts richtig kann. Die Lösung? **Agent Skills**.
 
 ## Was genau sind Agent Skills?

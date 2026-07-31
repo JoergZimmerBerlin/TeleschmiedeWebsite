@@ -66,7 +66,8 @@ faqs:
 ## Phase 3: Metadata, Verification & Verlinkungs-Regeln
 - **Reading Time**: Ensure the layout calculates this (Standard: 180 wpm for German).
 - **Origin Attribution**: Ensure the slug template renders "Dieser Beitrag entstand aus diesem LinkedIn-Beitrag".
-- **Mindest-Inlinks**: Jeder Artikel (Blog & Glossar) MUSS zwingend mind. 3 interne Links zu bestehenden Beiträgen (z.B. Glossar-Items) enthalten.
+- **Interne Verlinkung (Max. 8)**: Jeder Blogartikel MUSS zwingend mind. 3, aber **maximal 8** interne Links enthalten. Überlade den Text nicht mit Links!
+- **Prio-Backlinks für neues Glossar**: Wenn du in Phase 4 neue Glossar-Artikel erstellst, haben diese oberste Priorität. Du MUSST sie zwingend nachträglich in den Blogartikel verlinken.
 - **Affiliate-Links**: Sobald Tools wie "SE Ranking" im Text erwähnt werden, MUSS zwingend ein Affiliate-Link gesetzt werden (z. B. `[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)`).
 - **Sprechstunde**: Sobald Begriffe wie "Sprechstunde", "Beratung" oder "Termin" fallen, MUSS zwingend ein interner Link zur SEO-Sprechstunde gesetzt werden.
 
@@ -80,6 +81,7 @@ Sobald der Blogartikel steht, beginnt der Glossar-Loop:
    - Führe zwingend eine **Web-Recherche** aus (`search_web`), um aktuelle, echte Fakten zu sammeln.
    - Es darf in Glossar-Artikeln **kein Handel simuliert werden** (keine erfundenen kommerziellen Angebote).
    - Generiere für *jeden* neuen Glossar-Artikel ein eigenes 3D-Thumbnail (weiß/lime-grün, DEUTSCHER Text) und speichere es im `.webp` Format ab.
+4. **Blogartikel aktualisieren**: Gehe nach der Erstellung der neuen Glossar-Artikel zurück in deinen neuen Blogartikel und verlinke die neu geschriebenen Glossar-Begriffe dort direkt im Text!
 
 ## Phase 5: Social Media Distribution (Auto-Upload)
 **ACHTUNG: Dieser Schritt darf niemals übersprungen werden, falls ein Video vorhanden ist!**

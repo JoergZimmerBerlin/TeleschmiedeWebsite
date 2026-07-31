@@ -11,19 +11,19 @@ key_takeaways:
 faqs:
   - question: "Was ist der Unterschied zwischen SEO und GEO?"
     answer: "Klassisches SEO optimiert für das Ranking in den organischen Suchergebnissen, um Klicks auf die eigene Website zu generieren (die 'blauen Links'). GEO (Generative Engine Optimization) hingegen fokussiert sich darauf, in den direkt generierten Antworten von KI-Suchmaschinen wie ChatGPT oder Perplexity als vertrauenswürdige Quelle zitiert zu werden."
-  - question: "Wie kann ich meine KI-Sichtbarkeit verbessern?"
-    answer: "Der wichtigste Hebel ist der Aufbau einer starken thematischen Autorität (Topical Authority). Deine Marke muss konsequent im Kontext deines Fachgebiets im Netz auftauchen (Co-Occurrence). Zudem helfen strukturierte Daten, klare Content-Strukturen und originelle, nicht-kopierte Inhalte dabei, von LLMs leichter als Expertenquelle identifiziert zu werden."
+  - question: "Wie kann ich meine KI-Sichtbarkeit messen und verbessern?"
+    answer: "Der wichtigste Hebel ist der Aufbau einer starken thematischen Autorität (Topical Authority). Deine Marke muss konsequent im Kontext deines Fachgebiets im Netz auftauchen (Co-Occurrence). Zudem helfen strukturierte Daten, klare Content-Strukturen und originelle, nicht-kopierte Inhalte dabei, von LLMs leichter als Expertenquelle identifiziert zu werden. Um deine KI-Sichtbarkeit zu messen, nutzt du spezielle GEO Tools wie Rankscale oder SE Ranking."
   - question: "Warum verliere ich Traffic durch KI-Suchmaschinen?"
     answer: "Durch Zero Click Content und direkte KI-Antworten (wie Google AI Overviews) erhalten Nutzer ihre Antworten, ohne auf externe Links klicken zu müssen. Wenn dein Traffic sinkt, musst du deine Strategie von reiner Klick-Generierung hin zur Markenpräsenz und Lead-Generierung durch KI-Sichtbarkeit verschieben."
 ---
 
 Moin! 🌻
 
-Vergiss für einen Moment die klassischen "blauen Links" und das ewige Schielen auf Platz 1 bei Google. Wir stehen inmitten der größten Verschiebung im Suchverhalten seit der Erfindung der Suchmaschine: **KI Sichtbarkeit** (auch bekannt als Generative Engine Optimization oder GEO). Wenn deine Zielgruppe heute ChatGPT, Perplexity oder die Google AI Overviews nach Lösungen fragt, bist du dann die Quelle, die zitiert wird? Oder füttert die KI ihre Nutzer mit dem Wissen der Konkurrenz?
+Vergiss für einen Moment die klassischen "blauen Links" und das ewige Schielen auf Platz 1 bei Google. Wir stehen inmitten der größten Verschiebung im Suchverhalten seit der Erfindung der Suchmaschine: **KI Sichtbarkeit** (auch bekannt als Generative Engine Optimization, GEO oder AI Engine Optimization). Wenn deine Zielgruppe heute ChatGPT, Perplexity oder die Google AI Overviews nach Lösungen fragt, bist du dann die Quelle, die zitiert wird? Oder füttert die KI ihre Nutzer mit dem Wissen der Konkurrenz?
 
 ![KI Sichtbarkeit und Generative Engine Optimization](../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-3d.webp)
 
-## Was ist KI Sichtbarkeit überhaupt?
+## Was bedeutet GEO und was ist KI Sichtbarkeit?
 
 KI Sichtbarkeit beschreibt, wie stark deine Marke, deine Produkte oder deine Inhalte von generativen KI-Modellen (Large Language Models wie GPT-4 oder Claude) wahrgenommen und in deren Antworten zitiert werden.
 

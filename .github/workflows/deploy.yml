@@ -33,6 +33,7 @@ jobs:
         run: npm run build
         env:
           DEPLOY_TARGET: ionos
+          ASTRO_TELEMETRY_DISABLED: 1
 
       - name: Verify Build Artifacts
         run: |

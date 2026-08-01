@@ -1,0 +1,52 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import Schema from '../../components/Schema.astro';
+
+const allEntries = await getCollection('glossar');
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Layout title="Technisches SEO & UX | Jörg Zimmer (2026)" description="Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)">
+  <section class="section pt-12 pb-12 bg-white">
+    <div class="container-narrow">
+      <div class="mb-10">
+        <a href={`${baseUrl}/glossar/`} class="text-sm font-bold text-gray-muted hover:text-lime-600 transition-colors inline-flex items-center gap-2 mb-6" title="Zurück zur Übersicht (2026)">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Zurück zur Übersicht
+        </a>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+          Technisches SEO & UX
+        </h1>
+        <p class="text-lg text-gray-muted max-w-3xl">
+          Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {allEntries
+          .filter(e => (e.data.category || 'SEO Basics & Onpage') === 'Technisches SEO & UX')
+          .sort((a, b) => a.data.title.localeCompare(b.data.title))
+          .map(t => (
+            <a href={`${baseUrl}/glossar/${t.id}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-lime-accent transition-all duration-300">
+              <h2 class="text-lg font-bold mb-2 group-hover:text-lime-600 transition-colors">
+                {t.data.title}
+              </h2>
+              <p class="text-gray-muted text-sm line-clamp-3 mb-4">
+                {t.data.description}
+              </p>
+              <div class="text-xs font-bold text-dark inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                Zum Eintrag
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </div>
+            </a>
+          ))}
+      </div>
+    </div>
+  </section>
+  <Schema title="Technisches SEO & UX | Jörg Zimmer" description="Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)" />
+</Layout>

@@ -17,7 +17,8 @@ Dieser Workflow ist zuständig für die Erstellung neuer und die Erweiterung bes
 1. **Tiefenrecherche im Web (ZWINGEND)**: Führe ZWINGEND eine ausführliche Web-Recherche aus (`search_web`), um aktuelle, echte Fakten zum Begriff zu sammeln. KI-Wissen oder "Konserven-Content" ist strengstens verboten! Der Beitrag muss semantisch sinnvoll, hochaktuell und absolut nützlich wie ein echtes Fach-Glossar sein.
 2. **Keine Halluzinationen / Kein simulierter Handel**: Es dürfen **keine** kommerziellen Angebote, Preise oder Dienstleistungen erfunden werden. Keine Ausnahmen.
 3. **Länge & Struktur**: Der Glossar-Artikel MUSS in der Regel eine Länge von **1.000 bis 1.500 Wörtern** erreichen (ausführlich, tiefgründig, mit FAQs).
-4. **Globale Guidelines**: Befolge beim Schreiben ZWINGEND alle weiteren Format- und Tonalitätsvorgaben aus der Hauptdatei `.agents/workflows/content-guidelines.md` (z.B. Key Takeaways im Frontmatter, Tacheles-Ton).
+4. **Kategorien (STRIKT)**: Jeder Glossar-Artikel MUSS in der Frontmatter zwingend eine dieser exakten Kategorien zugewiesen bekommen: `"SEO Basics & Onpage"`, `"Technisches SEO & UX"`, `"AI SEO & Generative Search"`, `"E-E-A-T & Offpage"`.
+5. **Globale Guidelines**: Befolge beim Schreiben ZWINGEND alle weiteren Format- und Tonalitätsvorgaben aus der Hauptdatei `.agents/workflows/content-guidelines.md` (z.B. Key Takeaways im Frontmatter, Tacheles-Ton).
 
 ## 3. Visuelles Setup (3D-Infografik)
 1. Generiere für *jeden* neuen Glossar-Artikel zwingend ein eigenes 3D-Thumbnail.

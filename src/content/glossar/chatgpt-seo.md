@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "ChatGPT SEO: Ranken in der Zero-Click-Reality"
-description: "ChatGPT SEO und GEO: Die Kunst, von LLMs zitiert zu werden. Nutze diese technischen Hebel für SearchGPT und Answer Engines."
+title: "ChatGPT SEO: Ranken in der Zero-Click-Reality (2026)"
+description: "ChatGPT SEO und GEO: Die Kunst, von LLMs zitiert zu werden. Nutze diese technischen Hebel für SearchGPT und Answer Engines. (2026)"
 date: "2026-03-24"
 image: "../../assets/images/glossar/3d-light/glossar-chatgpt-seo-3d.png"
 image_alt: "ChatGPT SEO 3D Infografik - Optimierung für Answer Engines"

@@ -96,26 +96,29 @@ async function runBulkIndexer() {
         console.error(`   ⚠️ [Google] Check fehlgeschlagen:`, checkErr.message);
       }
 
-      // --- Bing Check via Python ---
+      // --- Bing Check via Node Fetch ---
       try {
         const bingApiUrl = `https://ssl.bing.com/webmaster/api.svc/json/GetUrlInfo?siteUrl=https://teleschmie.de/&url=${url}&apikey=${bingKey}`;
-        const { execFileSync } = await import('child_process');
-        const output = execFileSync('python3', [path.join(__dirname, 'bing_check.py'), bingApiUrl], { encoding: 'utf-8' });
+        const bingRes = await fetch(bingApiUrl);
         
-        const bingData = JSON.parse(output);
-        if (bingData && bingData.d) {
-          const lastCrawled = bingData.d.LastCrawledDate;
-          
-          if (lastCrawled === "/Date(-62135568000000-0800)/" || !lastCrawled) {
-            console.log(`   ❌ [Bing] Nie gecrawlt. Merke für IndexNow vor...`);
-            indexNowUrls.push(url);
-          } else {
-            const timestamp = parseInt(lastCrawled.match(new RegExp("\\\\/Date\\\\((-?\\\\d+)[-+]\\\\d+\\\\)\\\\/"))?.[1] || 0);
-            const dateStr = timestamp > 0 ? new Date(timestamp).toLocaleDateString() : "Unbekannt";
-            console.log(`   ✅ [Bing] Bereits gecrawlt (Zuletzt: ${dateStr}).`);
-          }
+        if (!bingRes.ok) {
+           console.error(`   ⚠️ [Bing] Check API HTTP Fehler: ${bingRes.status}`);
         } else {
-          console.error(`   ⚠️ [Bing] Check API Fehler oder Fetch failed`);
+           const bingData = await bingRes.json();
+           if (bingData && bingData.d) {
+             const lastCrawled = bingData.d.LastCrawledDate;
+             
+             if (lastCrawled === "/Date(-62135568000000-0800)/" || !lastCrawled) {
+               console.log(`   ❌ [Bing] Nie gecrawlt. Merke für IndexNow vor...`);
+               indexNowUrls.push(url);
+             } else {
+               const timestamp = parseInt(lastCrawled.match(new RegExp("\\\\/Date\\\\((-?\\\\d+)[-+]\\\\d+\\\\)\\\\/"))?.[1] || 0);
+               const dateStr = timestamp > 0 ? new Date(timestamp).toLocaleDateString() : "Unbekannt";
+               console.log(`   ✅ [Bing] Bereits gecrawlt (Zuletzt: ${dateStr}).`);
+             }
+           } else {
+             console.error(`   ⚠️ [Bing] Check API unerwartetes Datenformat`);
+           }
         }
       } catch (bingErr) {
         console.error(`   ⚠️ [Bing] Check fehlgeschlagen:`, bingErr.message);
@@ -137,8 +140,14 @@ async function runBulkIndexer() {
 
       try {
         const payloadStr = JSON.stringify(payload);
-        const { execFileSync } = await import('child_process');
-        const status = execFileSync('python3', [path.join(__dirname, 'indexnow_push.py'), payloadStr], { encoding: 'utf-8' }).trim();
+        const indexNowRes = await fetch('https://api.indexnow.org/IndexNow', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json; charset=utf-8',
+          },
+          body: payloadStr
+        });
+        const status = indexNowRes.status.toString();
         
         if (status === '200') {
           console.log(`   ✅ Alle ${indexNowUrls.length} URLs erfolgreich an IndexNow gesendet (HTTP 200)`);

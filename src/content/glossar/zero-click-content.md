@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Zero-Click Content: Überleben als harte Entität"
-description: "Klicks sind tot. RAG-Injections und direkte API-Antworten definieren Zero-Click Content. Optimiere hart für KIs und werde zur Autorität."
+title: "Zero-Click Content: Überleben als harte Entität (2026)"
+description: "Klicks sind tot. RAG-Injections und direkte API-Antworten definieren Zero-Click Content. Optimiere hart für KIs und werde zur Autorität. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "ctr", "geo", "snippet-optimierung", "a2a-protocol"]

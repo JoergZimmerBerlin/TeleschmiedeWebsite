@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'RAG: Das echte Gehirn-Doping für KI-Inhalte'
-description: 'Mit Retrieval-Augmented Generation (RAG) fütterst du KI-Crawler gezielt mit eigenen Daten und verhinderst Halluzinationen. Echtes Tacheles.'
+title: 'RAG: Das echte Gehirn-Doping für KI-Inhalte (2026)'
+description: 'Mit Retrieval-Augmented Generation (RAG) fütterst du KI-Crawler gezielt mit eigenen Daten und verhinderst Halluzinationen. Echtes Tacheles. (2026)'
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-rag-3d.png"
 image_alt: "RAG 3D Infografik - Zusammenspiel von Datenquelle, KI-Synthese und Antwort"

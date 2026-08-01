@@ -1,6 +1,6 @@
 ---
-title: "Agentic SEO: Warum GEO eine eigene Disziplin ist"
-description: "Wer Generative Engine Optimization (GEO) nur nebenbei als klassisches SEO betreibt, verpasst den Paradigmenwechsel. Warum KI-Sichtbarkeit ein eigenes Budget erfordert."
+title: "Agentic SEO: Warum GEO eine eigene Disziplin ist (2026)"
+description: "Wer Generative Engine Optimization (GEO) nur nebenbei als klassisches SEO betreibt, verpasst den Paradigmenwechsel. Warum KI-Sichtbarkeit ... (2026)"
 date: "2026-07-23"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3"
 image: "../../assets/images/blog/geo_nebenbei.jpg"

@@ -1,6 +1,6 @@
 ---
-title: 'SEORCH Tool: Dein kostenloses OnPage SEO Werkzeug'
-description: 'Vergiss teure Suiten. Das SEORCH Tool liefert knallharte OnPage-Daten ohne Bullshit. Klartext über Funktionen und echten Mehrwert für SEOs.'
+title: 'SEORCH Tool: Dein kostenloses OnPage SEO ... (2026)'
+description: 'Vergiss teure Suiten. Das SEORCH Tool liefert knallharte OnPage-Daten ohne Bullshit. Klartext über Funktionen und echten Mehrwert für SEOs. (2026)'
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-bin-fanboy-des-seo-tools-seorch-nun-activity-7473363474753019904-HQsc"
 image: "../../assets/images/blog/blog-seorch-matthias-hotz.webp"

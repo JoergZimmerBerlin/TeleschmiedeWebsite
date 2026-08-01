@@ -1,6 +1,6 @@
 ---
-title: "GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024"
-description: "Eine LinkedIn-Umfrage zeigt: Die Branche ist sich beim Namen für KI-Optimierung nicht einig."
+title: "GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024 (2026)"
+description: "Eine LinkedIn-Umfrage zeigt: Die Branche ist sich beim Namen für KI-Optimierung nicht einig. (2026)"
 date: "2026-01-07"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_sichtbarkeit-in-kimodellen-optimieren-wie-activity-7413982211118596096-wRny"
 image: "../../assets/images/blog/infografik_seo_namen_umfrage.webp"

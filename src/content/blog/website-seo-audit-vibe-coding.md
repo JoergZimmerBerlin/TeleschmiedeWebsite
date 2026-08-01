@@ -1,6 +1,6 @@
 ---
-title: "Website SEO Audit vs. Vibe Coding Agenten"
-description: "Warum Vibe Coding Agenten bei der SEO-Optimierung oft falsch liegen und wie du die Website-Gesundheit mit SE Ranking richtig trackst."
+title: "Website SEO Audit vs. Vibe Coding Agenten (2026)"
+description: "Warum Vibe Coding Agenten bei der SEO-Optimierung oft falsch liegen und wie du die Website-Gesundheit mit SE Ranking richtig trackst. (2026)"
 date: "2026-07-15"
 linkedin_url: "https://www.linkedin.com/embed/feed/update/urn:li:share:7480185980520390659"
 image: "../../assets/images/blog/website-seo-audit-vibe-coding.webp"

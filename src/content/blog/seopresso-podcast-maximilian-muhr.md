@@ -1,6 +1,6 @@
 ---
-title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
-description: "Maximilian Muhr im SEOpresso Podcast: Einblicke in 15+ Jahre SEO, Burnout-Erfahrungen und die Zukunft der Entitäten-Optimierung."
+title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr (2026)"
+description: "Maximilian Muhr im SEOpresso Podcast: Einblicke in 15+ Jahre SEO, Burnout-Erfahrungen und die Zukunft der Entitäten-Optimierung. (2026)"
 date: "2026-01-28"
 image: "../../assets/images/blog/seopresso-max-muhr.webp"
 image_alt: "SEOPRESSO Podcast Interview mit Maximilian Muhr"

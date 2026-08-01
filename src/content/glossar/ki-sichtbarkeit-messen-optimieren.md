@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "KI-Sichtbarkeit messen: Harte Fakten und Guide"
-description: "Steigere deine Präsenz in ChatGPT und Co. Harte Technik, Tools und Tacheles zu Agent Readiness und echter KI-Sichtbarkeit. Los geht's!"
+title: "KI-Sichtbarkeit messen: Harte Fakten und Guide (2026)"
+description: "Steigere deine Präsenz in ChatGPT und Co. Harte Technik, Tools und Tacheles zu Agent Readiness und echter KI-Sichtbarkeit. Los geht's! (2026)"
 date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-messen-optimieren-3d.png"
 image_alt: "KI-Sichtbarkeit messen und optimieren - 3D Infografik"

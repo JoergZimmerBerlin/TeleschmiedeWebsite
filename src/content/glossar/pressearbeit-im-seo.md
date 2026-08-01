@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Pressearbeit im SEO: Digital-PR für RAG-Trust"
-description: "Pressearbeit im SEO ist keine billige Linkbeschaffung mehr, sondern radikales Entity-Feeding für LLMs. Baue messbaren Trust auf."
+title: "Pressearbeit im SEO: Digital-PR für RAG-Trust (2026)"
+description: "Pressearbeit im SEO ist keine billige Linkbeschaffung mehr, sondern radikales Entity-Feeding für LLMs. Baue messbaren Trust auf. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 image_alt: "Pressearbeit 3D Infografik - Digital PR und LLM Trust"

@@ -1,6 +1,6 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Keywords: Semantische Entitäten statt Strings"
+title: "Keywords: Semantische Entitäten statt Strings (2026)"
 description: "Keywords 2026: Exaktes Suchvolumen ist tot. Baue echte Relevanz für KI durch User Intent und radikale Topical Authority auf."
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"

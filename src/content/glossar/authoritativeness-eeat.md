@@ -1,6 +1,6 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: "Authoritativeness: E-E-A-T Autorität im KI-SEO"
+title: "Authoritativeness: E-E-A-T Autorität im KI-SEO (2026)"
 description: "Authoritativeness 2026 für RAG: Deine digitale Reputation zählt mehr als Backlinks. So baust du knallharte Autorität auf."
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"

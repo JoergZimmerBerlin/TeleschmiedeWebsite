@@ -1,6 +1,6 @@
 ---
-title: "Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten"
-description: "Wie ich meine Website (150 Seiten) komplett für KI-Agenten, Crawler und LLMs optimiert habe – von llms.txt bis Grounding Pages."
+title: "Meine KI-Website: Auf dem Weg zum ... (2026)"
+description: "Wie ich meine Website (150 Seiten) komplett für KI-Agenten, Crawler und LLMs optimiert habe – von llms.txt bis Grounding Pages. (2026)"
 date: "2026-07-15"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meine-ki-website-mit-150-seiten-ist-auf-dem-activity-7482814694571966465-3wDm"
 image: "../../assets/images/blog/ki-website-leuchtturm.webp"

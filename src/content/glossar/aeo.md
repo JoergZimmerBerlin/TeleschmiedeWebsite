@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "AEO: Zukunft der Answer Engine Optimization"
-description: "AEO für Antwortmaschinen: Wie Answer Engine Optimization technisch funktioniert und LLMs deine Daten verarbeiten. Tacheles ohne Bullshit."
+title: "AEO: Zukunft der Answer Engine Optimization (2026)"
+description: "AEO für Antwortmaschinen: Wie Answer Engine Optimization technisch funktioniert und LLMs deine Daten verarbeiten. Tacheles ohne Bullshit. (2026)"
 date: "2026-03-11"
 image: "../../assets/images/glossar/3d-light/glossar-aeo-3d.webp"
 image_alt: "AEO 3D Infografik - Answer Engine Optimization für KI"

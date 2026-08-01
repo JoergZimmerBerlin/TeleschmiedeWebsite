@@ -1,6 +1,6 @@
 ---
-title: "GEO Tool: Software für messbare KI-Sichtbarkeit"
-description: "Welches GEO Tool ist das beste? Wie du mit Software wie Rankscale und SE Ranking deine Sichtbarkeit in ChatGPT, Perplexity & Co. misst."
+title: "GEO Tool: Software für messbare KI-Sichtbarkeit (2026)"
+description: "Welches GEO Tool ist das beste? Wie du mit Software wie Rankscale und SE Ranking deine Sichtbarkeit in ChatGPT, Perplexity & Co. misst. (2026)"
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-geo-tool-3d.webp"
 image_alt: "GEO Tool, Rankscale und SE Ranking - Isometrische 3D Grafik"

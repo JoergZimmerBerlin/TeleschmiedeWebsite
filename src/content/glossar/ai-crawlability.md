@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO'
-title: "AI Crawlability: Maschinenlesbarkeit für Answer Engines"
-description: "Warum gutes Webdesign Bots stört. AI Crawlability ist die neue technische SEO Disziplin, um RAG-Modelle und KI-Scraper optimal zu füttern."
+title: "AI Crawlability: Maschinenlesbarkeit für ... (2026)"
+description: "Warum gutes Webdesign Bots stört. AI Crawlability ist die neue technische SEO Disziplin, um RAG-Modelle und KI-Scraper optimal zu füttern. (2026)"
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-ai-crawlability-3d.webp"
 image_alt: "3D Infografik zum Thema AI Crawlability"

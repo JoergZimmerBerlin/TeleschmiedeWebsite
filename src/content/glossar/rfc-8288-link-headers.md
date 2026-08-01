@@ -1,6 +1,6 @@
 ---
-title: "RFC 8288 Link Headers: HTTP für KI-Crawler"
-description: "HTML-Links reichen nicht mehr. RFC 8288 Link Headers steuern KIs tief in deiner Struktur. Konfiguriere deine HTTP-Responses sauber."
+title: "RFC 8288 Link Headers: HTTP für KI-Crawler (2026)"
+description: "HTML-Links reichen nicht mehr. RFC 8288 Link Headers steuern KIs tief in deiner Struktur. Konfiguriere deine HTTP-Responses sauber. (2026)"
 category: 'Technisches SEO & UX'
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-rfc-8288-link-headers-3d.webp"

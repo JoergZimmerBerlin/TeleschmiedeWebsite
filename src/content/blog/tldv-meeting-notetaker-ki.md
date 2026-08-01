@@ -1,6 +1,6 @@
 ---
-title: "Mein Vorzeigebeispiel für KI: Der tl;dv Meeting Notetaker"
-description: "Wie der tl;dv Notetaker aus Deutschland dank KI und über 1.000 CRM-Integrationen meine Meetings und Videocalls revolutioniert."
+title: "Mein Vorzeigebeispiel für KI: Der tl;dv ... (2026)"
+description: "Wie der tl;dv Notetaker aus Deutschland dank KI und über 1.000 CRM-Integrationen meine Meetings und Videocalls revolutioniert. (2026)"
 date: "2026-07-21"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meeting-notetaker-aus-deutschland-mit-ki-activity-7485338844217864192-Zp7p"
 image: "../../assets/images/blog/tldv-meeting-notetaker-ki.webp"

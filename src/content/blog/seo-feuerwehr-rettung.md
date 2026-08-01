@@ -1,6 +1,6 @@
 ---
-title: "Tatü Tata: Die SEO Feuerwehr rückt nun aus!"
-description: "Sichtbarkeitseinbruch von 3,5 auf 1,3 Punkte per Nacht. Wie technische Fehler einen Shop killen – und warum dein Netzwerk im Notfall alles ist."
+title: "Tatü Tata: Die SEO Feuerwehr rückt nun aus! (2026)"
+description: "Sichtbarkeitseinbruch von 3,5 auf 1,3 Punkte per Nacht. Wie technische Fehler einen Shop killen – und warum dein Netzwerk im Notfall alles ist. (2026)"
 date: "2026-03-11"
 category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_tatue-tata-die-seo-feuerwehr-ist-da-activity-7272895244342525952-V4_P"

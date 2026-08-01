@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "agent-card.json: Der Ausweis für KI-Agenten"
-description: "Wenn dein KI-Agent keine agent-card.json hat, existiert er für den B2B-Markt nicht. Jörg Zimmer zeigt dir, wie du dich im A2A Protocol ausweist."
+title: "agent-card.json: Der Ausweis für KI-Agenten (2026)"
+description: "Wenn dein KI-Agent keine agent-card.json hat, existiert er für den B2B-Markt nicht. Jörg Zimmer zeigt dir, wie du dich im A2A Protocol ... (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agent-card-json-3d.webp"
 image_alt: "3D Infografik zur agent-card.json als maschinenlesbarer Personalausweis für KI-Agenten"

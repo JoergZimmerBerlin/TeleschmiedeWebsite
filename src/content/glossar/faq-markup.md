@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'FAQ Markup: Harte Daten für deine RAG-Pipeline'
-description: 'FAQ Markup ist kein Spielzeug mehr. Nutze JSON-LD als knallharte Schnittstelle für LLMs und KI-Agenten, um verlustfrei Daten zu liefern.'
+title: 'FAQ Markup: Harte Daten für deine RAG-Pipeline (2026)'
+description: 'FAQ Markup ist kein Spielzeug mehr. Nutze JSON-LD als knallharte Schnittstelle für LLMs und KI-Agenten, um verlustfrei Daten zu liefern. (2026)'
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "strukturierte-daten", "rag", "geo"]

@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "A2A Protocol: Standard für KI-Agenten"
-description: "Vergiss APIs für Menschen. Das A2A Protocol ist der Industrie-Standard für Agent-to-Agent Kommunikation. Jörg Zimmer redet Tacheles."
+title: "A2A Protocol: Standard für KI-Agenten (2026)"
+description: "Vergiss APIs für Menschen. Das A2A Protocol ist der Industrie-Standard für Agent-to-Agent Kommunikation. Jörg Zimmer redet Tacheles. (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-a2a-protocol-3d.webp"
 image_alt: "3D Infografik zur Agent-to-Agent Kommunikation und dem A2A Protokoll"

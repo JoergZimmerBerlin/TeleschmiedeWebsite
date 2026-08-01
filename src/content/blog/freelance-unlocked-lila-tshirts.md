@@ -1,6 +1,6 @@
 ---
-title: "Freelance Unlocked: Lila T-Shirts + Softeis"
-description: "Ein grandioses Wochenende in Berlin. Warum Freelancer keine Einzelkämpfer sind und wie ein starkes Team aus 100+ Spezialisten echtes Backup bietet."
+title: "Freelance Unlocked: Lila T-Shirts + Softeis (2026)"
+description: "Ein grandioses Wochenende in Berlin. Warum Freelancer keine Einzelkämpfer sind und wie ein starkes Team aus 100+ Spezialisten echtes ... (2026)"
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/freelancer-team_lila-t-shirts-softeis-und-gute-laune-activity-7472404225340256256-bMYe"
 image: "../../assets/images/blog/freelance-unlocked-lila-tshirts.jpg"

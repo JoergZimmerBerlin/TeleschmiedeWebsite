@@ -1,6 +1,6 @@
 ---
-title: "Bist du SEO AI Ready? Podcast mit Antonio Blago"
-description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 25 Jahren SEO & Google Ads - ehrlich, ohne Buzzword-Bingo."
+title: "Bist du SEO AI Ready? Podcast mit Antonio Blago (2026)"
+description: "Im Podcast mit Antonio Blago sprechen wir Klartext aus 25 Jahren SEO & Google Ads - ehrlich, ohne Buzzword-Bingo. (2026)"
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/antonioblago_bist-du-seo-ai-ready-alle-reden-%C3%BCber-ai-activity-7363117745070112768-BRRj"
 image: "../../assets/images/blog/ai-ready-podcast.webp"

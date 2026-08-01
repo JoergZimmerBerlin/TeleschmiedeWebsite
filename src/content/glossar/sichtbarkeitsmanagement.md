@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Sichtbarkeitsmanagement: RAG-Steuerung"
-description: "Sichtbarkeitsmanagement heißt heute RAG-Präsenz steuern. Kontrolliere deine Citation-Stability und setze auf saubere auth.md Architektur."
+title: "Sichtbarkeitsmanagement: RAG-Steuerung (2026)"
+description: "Sichtbarkeitsmanagement heißt heute RAG-Präsenz steuern. Kontrolliere deine Citation-Stability und setze auf saubere auth.md Architektur. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsmanagement-3d.webp"
 related_terms: ["sichtbarkeit", "sichtbarkeitsindex", "geo", "entity-seo"]

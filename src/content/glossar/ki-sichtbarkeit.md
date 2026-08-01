@@ -1,6 +1,6 @@
 ---
-title: "KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert"
-description: "Warum klassisches SEO nicht mehr reicht: Wie du mit Generative Engine Optimization (GEO) deine Sichtbarkeit in KI-Antworten sicherst."
+title: "KI Sichtbarkeit: So wirst du in ChatGPT & ... (2026)"
+description: "Warum klassisches SEO nicht mehr reicht: Wie du mit Generative Engine Optimization (GEO) deine Sichtbarkeit in KI-Antworten sicherst. (2026)"
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-3d.webp"
 image_alt: "KI Sichtbarkeit und Generative Engine Optimization - Isometrische 3D Grafik"

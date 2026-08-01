@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Grounding Page: Der Maschinen-Anker für AI SEO"
-description: "Eine Grounding Page liefert harten, maschinenlesbaren Fakten-Treibstoff für RAG-Systeme. Vergiss reine Marketing-Landingpages."
+title: "Grounding Page: Der Maschinen-Anker für AI SEO (2026)"
+description: "Eine Grounding Page liefert harten, maschinenlesbaren Fakten-Treibstoff für RAG-Systeme. Vergiss reine Marketing-Landingpages. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "entitaet", "google-algorithmus", "rag"]

@@ -1,6 +1,6 @@
 ---
-title: "Warum reines SEO für gutes GEO nicht ausreichen wird"
-description: "AI Search ist mehr als klassisches SEO. Warum Generative Engine Optimization (GEO) ein neues Spiel mit neuen Regeln, Metriken und Optimierungen ist."
+title: "Warum reines SEO für gutes GEO nicht ... (2026)"
+description: "AI Search ist mehr als klassisches SEO. Warum Generative Engine Optimization (GEO) ein neues Spiel mit neuen Regeln, Metriken und ... (2026)"
 date: "2026-07-16"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_reines-seo-wird-f%C3%BCr-gutes-geo-nicht-ausreichen-activity-7483458287833837569-R6x8"
 image: "../../assets/images/blog/reines-seo-vs-geo.webp"

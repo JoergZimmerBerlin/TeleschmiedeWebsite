@@ -1,6 +1,6 @@
 ---
-title: "Michael Kaufhold im Podcast Interview: SEO tot?"
-description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SEO, Google und warum Zielgruppenverständnis so unterschätzt wird."
+title: "Michael Kaufhold im Podcast Interview: SEO tot? (2026)"
+description: "Im Magic Writing Podcast spreche ich mit Michael Kaufhold über SEO, Google und warum Zielgruppenverständnis so unterschätzt wird. (2026)"
 date: "2026-01-28"
 linkedin_url: "https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk"
 image: "../../assets/images/blog/magic-writing-podcast.webp"

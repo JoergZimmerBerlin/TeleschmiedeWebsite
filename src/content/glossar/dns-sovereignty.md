@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "DNS Sovereignty: Dein Nameserver entscheidet"
-description: "Langsame DNS-Server zerstören deine Indexierung. Hol dir DNS Sovereignty, senke die Latenz und sichere dir echte Crawl-Sichtbarkeit."
+title: "DNS Sovereignty: Dein Nameserver entscheidet (2026)"
+description: "Langsame DNS-Server zerstören deine Indexierung. Hol dir DNS Sovereignty, senke die Latenz und sichere dir echte Crawl-Sichtbarkeit. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-dns-sovereignty-3d.webp"
 image_alt: "DNS Sovereignty 3D Infografik - Netzwerk und Latenz"

@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Google Search Console: Radar für Sichtbarkeit"
-description: "Nutze die Google Search Console für echtes Index-Tracking. Ohne harte GSC-Daten fliegst du im Blindflug. Zeit für ungeschönten Klartext."
+title: "Google Search Console: Radar für Sichtbarkeit (2026)"
+description: "Nutze die Google Search Console für echtes Index-Tracking. Ohne harte GSC-Daten fliegst du im Blindflug. Zeit für ungeschönten Klartext. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q328216"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"

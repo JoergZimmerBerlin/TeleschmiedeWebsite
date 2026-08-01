@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Suchvolumen: Nutzlose Metrik im KI-Zeitalter"
-description: "Suchvolumen ist Vergangenheit. Generative KIs verändern alles. Setze auf harte technische Optimierung statt dich auf tote Zahlen zu stützen."
+title: "Suchvolumen: Nutzlose Metrik im KI-Zeitalter (2026)"
+description: "Suchvolumen ist Vergangenheit. Generative KIs verändern alles. Setze auf harte technische Optimierung statt dich auf tote Zahlen zu stützen. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp"
 related_terms: ["keywoerter", "keyword-tool", "sichtbarkeit"]

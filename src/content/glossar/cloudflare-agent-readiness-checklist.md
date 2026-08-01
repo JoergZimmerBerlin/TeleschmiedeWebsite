@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Cloudflare Agent Readiness Checklist: Der Guide"
-description: "Die Cloudflare Agent Readiness Checklist im Klartext. Optimiere deine Website knallhart für autonome KI-Agenten, Crawler und Protokolle."
+title: "Cloudflare Agent Readiness Checklist: Der Guide (2026)"
+description: "Die Cloudflare Agent Readiness Checklist im Klartext. Optimiere deine Website knallhart für autonome KI-Agenten, Crawler und Protokolle. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-cloudflare-agent-readiness-checklist-3d.webp"
 image_alt: "3D-Infografik einer Cloudflare Agent Readiness Checkliste mit KI-Agenten"

@@ -1,7 +1,7 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Robots.txt: Hartes Limit für KI-Bots und Crawler"
-description: "Die robots.txt entscheidet heute eiskalt über deine Sichtbarkeit bei GPTBot und RAG-Pipelines. Übernimm endlich die harte Kontrolle."
+title: "Robots.txt: Hartes Limit für KI-Bots und Crawler (2026)"
+description: "Die robots.txt entscheidet heute eiskalt über deine Sichtbarkeit bei GPTBot und RAG-Pipelines. Übernimm endlich die harte Kontrolle. (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-robots-txt-3d.webp"
 image_alt: "robots.txt 3D Infografik - Die Steuerung der Suchmaschinen-Crawler und KIs"

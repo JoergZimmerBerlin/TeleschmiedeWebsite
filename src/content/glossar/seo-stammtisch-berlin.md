@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'SEO Stammtisch Berlin: Netzwerken Hauptstadt'
-description: 'Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf Augenhöhe.'
+title: 'SEO Stammtisch Berlin: Netzwerken Hauptstadt (2026)'
+description: 'Der SEO Stammtisch Berlin ist die Institution für Vernetzung in der Hauptstadt. Hier trifft sich die Szene zum ehrlichen Austausch auf ... (2026)'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/seostammtisch_photo_1_1773173770837.webp"
 related_terms: ["campixx-berlin", "ueberstunde-berlin", "sichtbarkeit"]

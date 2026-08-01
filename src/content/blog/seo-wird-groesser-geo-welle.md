@@ -1,6 +1,6 @@
 ---
-title: "SEO wird größer: Mit der GEO Welle nochmal mehr in Richtung Markenaufbau"
-description: "SEO bewegt sich immer mehr in Richtung Markenaufbau und GEO. Warum die Optimierung des gesamten digitalen Fußabdrucks jetzt den Unterschied macht."
+title: "SEO wird größer: Mit der GEO Welle nochmal ... (2026)"
+description: "SEO bewegt sich immer mehr in Richtung Markenaufbau und GEO. Warum die Optimierung des gesamten digitalen Fußabdrucks jetzt den ... (2026)"
 date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_seo-wird-gr%C3%B6%C3%9Fer-mit-der-geo-welle-nochmal-activity-7488159673163104256-cBMC"
 image: "../../assets/images/blog/seo_wird_groesser.jpg"

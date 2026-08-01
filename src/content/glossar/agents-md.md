@@ -1,8 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "agents.md: Das offene README für KI-Agenten"
-meta_title: "agents.md: Das offene README für KI-Agenten (2026)"
-description: "Wie du mit einer simplen agents.md Token sparst und KI-Tools wie Cursor kontrollierst. Jörg Zimmer über den Standard der Agentic AI Foundation."
+meta_title: "agents.md: Offenes README für Agenten (2026)"
+description: "Wie du mit einer simplen agents.md Token sparst und KI-Tools wie Cursor kontrollierst. Jörg Zimmer über den Standard der Agentic AI Foundati… (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agents-md-3d.webp"
 image_alt: "3D Infografik zum Thema agents.md als maschinenlesbares README für Code- und Web-Projekte"

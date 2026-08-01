@@ -1,6 +1,6 @@
 ---
 title: "Sistrix Podcast: Entitäten Mapping mit Björn Darko"
-meta_title: "Entitäten Mapping: Sistrix Podcast Insights (2026)"
+meta_title: "Entitäten Mapping: Sistrix Insights (2026)"
 meta_description: "Entitäten Mapping im Sistrix Podcast mit Björn Darko und Max Muhr. So helfen Knowledge Graph API und Entitäten beim Aufbau von SEO-Relevanz. (2026)"
 date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_komme-gerade-aus-dem-sistrix-podcast-mit-activity-7487830961796050946-qKcE"

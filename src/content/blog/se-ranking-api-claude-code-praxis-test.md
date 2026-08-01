@@ -1,7 +1,7 @@
 ---
 title: "SE Ranking API - Der Praxis-Test"
 meta_title: "SE Ranking API - Der Praxis-Test (2026)"
-description: "Praxis-Test: So nutze ich die SE Ranking API und Claude Code für SEO-Analysen. Alle Infos zu Kosten, Credits und Endpunkten für deine Domains."
+description: "Praxis-Test: So nutze ich die SE Ranking API und Claude Code für SEO-Analysen. Alle Infos zu Kosten, Credits und Endpunkten für deine Domains. (2026)"
 date: "2026-04-29"
 image: "../../assets/images/blog/seranking-praxistest-hero.webp"
 image_alt: "SE Ranking API Praxis-Test - drei Domains im Vergleich mit Claude Code"

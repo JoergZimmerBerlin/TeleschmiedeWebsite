@@ -1,7 +1,7 @@
 ---
 title: "SE Ranking API: Ein Kompass durch die Endpunkte"
 meta_title: "SE Ranking API: Endpunkte im Überblick (2026)"
-meta_description: "SE Ranking API: Der Kompass für Backlinks, Keyword-Research und AI Search. Entdecke alle 6 Endpunkt-Kategorien inklusive Kosten und Beispielen. (2026)"
+meta_description: "SE Ranking API: Kompass für Backlinks, Keyword-Research und AI Search. Entdecke alle 6 Endpunkt-Kategorien inkl. Kosten und Beispielen. (2026)"
 date: "2026-04-25"
 image: "../../assets/images/blog/seranking-api-kategorien-mindmap.webp"
 image_alt: "SE Ranking API: Die 6 Kategorien als Mindmap Übersicht"

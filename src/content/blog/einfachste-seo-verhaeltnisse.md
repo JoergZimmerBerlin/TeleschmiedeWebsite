@@ -1,7 +1,7 @@
 ---
 title: "SEO-Handwerk: Warum Qualität der USP ist"
 meta_title: "SEO-Handwerk: Warum Qualität der USP ist (2026)"
-description: "Von 56k Modems zu modernem SEO: Warum Technik-Basics heute wichtiger sind als jedes Hochglanz-Tool. Jörgs persönliche SEO-Biografie."
+description: "Von 56k Modems zu modernem SEO: Warum Technik-Basics heute wichtiger sind als jedes Hochglanz-Tool. Jörgs persönliche SEO-Biografie. (2026)"
 date: "2026-03-11"
 category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-komme-aus-einfachsten-seo-verhaeltnissen-activity-7278776634860732416-L_oQ"

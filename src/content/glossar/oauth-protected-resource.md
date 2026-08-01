@@ -2,7 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "OAuth Protected Resource im A2A-Zeitalter"
 meta_title: "OAuth Protected Resource im A2A-Zeitalter (2026)"
-description: "Sichere APIs sind ein Muss. Eine OAuth Protected Resource regelt Agenten-Zugriffe knallhart. Ohne saubere Rechtevergabe riskierst du alles."
+description: "Sichere APIs sind ein Muss. Eine OAuth Protected Resource regelt Agenten-Zugriffe knallhart. Ohne saubere Rechtevergabe riskierst du alles. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-oauth-protected-resource-3d.webp"
 image_alt: "3D Infografik zu OAuth Protected Resource mit Token Validierung und Agenten-Zugriff"

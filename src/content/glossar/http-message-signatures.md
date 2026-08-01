@@ -1,7 +1,7 @@
 ---
 title: "HTTP Message Signatures: Sichere A2A-APIs"
 meta_title: "HTTP Message Signatures: Sichere A2A-APIs (2026)"
-description: "Sichere deine A2A-Kommunikation. HTTP Message Signatures sind der Goldstandard für Agenten-APIs. Mach dein System endlich kugelsicher."
+description: "Sichere deine A2A-Kommunikation. HTTP Message Signatures sind der Goldstandard für Agenten-APIs. Mach dein System endlich kugelsicher. (2026)"
 category: 'AI SEO & Generative Search'
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-http-message-signatures-3d.webp"

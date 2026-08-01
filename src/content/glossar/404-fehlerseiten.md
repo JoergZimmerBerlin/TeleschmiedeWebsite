@@ -2,7 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "404 Fehlerseiten: Wie sie KI-SEO zerstören"
 meta_title: "404 Fehlerseiten: Wie sie KI-SEO zerstören (2026)"
-description: "404 Fehlerseiten sind tödlich für KI-Crawler. Wenn dein Content nicht erreichbar ist, stirbt dein Ranking. Mach Schluss mit toten Links."
+description: "404 Fehlerseiten sind tödlich für KI-Crawler. Wenn dein Content nicht erreichbar ist, stirbt dein Ranking. Mach Schluss mit toten Links. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-404-3d.webp"
 image_alt: "404 Fehlerseite 3D Infografik - Technisches SEO Standard"

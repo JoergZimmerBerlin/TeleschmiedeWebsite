@@ -1,7 +1,7 @@
 ---
 title: "Digitaler Unternehmensberater statt SEO"
 meta_title: "Digitaler Unternehmensberater statt SEO (2026)"
-description: "Moderne SEO wandelt sich zur strategischen Unternehmensberatung. Erfahre, warum Data & Entity Consulting die neue Zukunft für Marken ist."
+description: "Moderne SEO wandelt sich zur strategischen Unternehmensberatung. Erfahre, warum Data & Entity Consulting die neue Zukunft für Marken ist. (2026)"
 date: "2026-05-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vielleicht-bin-ich-gar-kein-seo-sondern-activity-7466492365160206336-pdAg"
 image: "../../assets/images/blog/digitaler-unternehmensberater.webp"

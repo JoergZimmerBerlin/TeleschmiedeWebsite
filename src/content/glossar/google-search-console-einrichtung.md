@@ -2,7 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Google Search Console: Schnelle Einrichtung"
 meta_title: "Google Search Console: Schnelle Einrichtung (2026)"
-description: "Die Google Search Console ist Pflicht. Richte deine Domain-Property via DNS ein und hol dir die volle Kontrolle über deine Sichtbarkeit."
+description: "Die Google Search Console ist Pflicht. Richte deine Domain-Property via DNS ein und hol dir die volle Kontrolle über deine Sichtbarkeit. (2026)"
 date: "2026-07-18"
 author: "Jörg Zimmer"
 image: "../../assets/images/glossar/3d-light/glossar-google-search-console-3d.webp"

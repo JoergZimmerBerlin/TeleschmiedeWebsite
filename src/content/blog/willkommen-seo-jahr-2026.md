@@ -1,7 +1,7 @@
 ---
 title: "SEO 2026: Alte Irrtümer & neue Wahrheiten"
 meta_title: "SEO 2026: Alte Irrtümer & neue Wahrheiten (2026)"
-description: "Auch 2026 wird SEO oft falsch verstanden. Relaunchs ohne Weiterleitungen und SEO-ist-tot-Rufe – es ändert sich wenig. Oder doch?"
+description: "Auch 2026 wird SEO oft falsch verstanden. Relaunchs ohne Weiterleitungen und SEO-ist-tot-Rufe – es ändert sich wenig. Oder doch? (2026)"
 date: "2026-02-28"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_herzlich-willkommen-im-seo-jahr-2026-p%C3%BCnktlich-activity-7424407144093028352-u44d"
 image: "../../assets/images/blog/seo-missverstaendnisse-2026.webp"

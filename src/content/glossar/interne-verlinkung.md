@@ -1,7 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
 title: 'Interne Verlinkung 2026: Dein Entity Graph für KIs'
-description: 'Interne Verlinkung 2026: Baue deinen eigenen Entity Graph für KIs, steuere den Crawler-Flow und maximiere AI Overviews Citations. ALOHA! 🌻'
+meta_title: "Interne Verlinkung 2026: Dein Entity Gra… (2026)"
+description: "Interne Verlinkung 2026: Baue deinen eigenen Entity Graph für KIs, steuere den Crawler-Flow und maximiere AI Overviews Citations. ALOHA! (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-interne-verlinkung-3d.webp"
 related_terms: ["linkjuice", "crawling-vs-indexing", "geo"]

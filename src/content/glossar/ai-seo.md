@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: 'AI SEO: Mach deine Website bereit für KI-Agenten'
-description: 'Schluss mit 10 blauen Links. AI SEO bedeutet Agent Readiness, RAG und maschinenlesbare Inhalte. Optimiere jetzt für die KI-Infrastruktur.'
+meta_title: "AI SEO: Mach deine Website bereit für KI… (2026)"
+description: "Schluss mit 10 blauen Links. AI SEO bedeutet Agent Readiness, RAG und maschinenlesbare Inhalte. Optimiere jetzt für die KI-Infrastruktur. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ai-seo-3d.webp"
 image_alt: "AI SEO 3D Infografik - Integrierte Strategie für Google und KI-Agenten"

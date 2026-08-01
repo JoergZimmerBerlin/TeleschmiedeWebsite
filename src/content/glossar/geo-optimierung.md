@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: 'GEO Optimierung: Die Währung für RAG-Sichtbarkeit'
-description: 'GEO Optimierung (Generative Engine Optimization) 2026: Content Negotiation, llms.txt, API-Endpunkte und RAG-Chunking im Tacheles-Check. ALOHA! 🌻'
+meta_title: "GEO Optimierung: Die Währung für RAG-Sic… (2026)"
+description: "GEO Optimierung (Generative Engine Optimization) 2026: Content Negotiation, llms.txt, API-Endpunkte und RAG-Chunking im Tacheles-Check. ALOHA! (2026)"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-geo-optimierung-3d.png"
 image_alt: "GEO Optimierung 3D Infografik - Radar-Monitoring für KI-Sichtbarkeit und Brand Mentions"

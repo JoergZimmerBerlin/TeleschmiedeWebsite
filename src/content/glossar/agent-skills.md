@@ -2,7 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "Agent Skills: KI-Agenten extrem aufrüsten"
 meta_title: "Agent Skills: KI-Agenten extrem aufrüsten (2026)"
-description: "Mach deine KI-Agenten durch modulare Agent Skills und Tools mächtig. Keine Spielereien, harte Praxis und Tacheles von Jörg Zimmer."
+description: "Mach deine KI-Agenten durch modulare Agent Skills und Tools mächtig. Keine Spielereien, harte Praxis und Tacheles von Jörg Zimmer. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-agent-skills-3d.webp"
 image_alt: "Agent-Skills, Skill-Index, Tool-Ausführung"

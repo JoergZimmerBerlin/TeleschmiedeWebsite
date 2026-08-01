@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
 title: 'CPC: Cost per Click & Agentic Real-Time Bidding'
-description: 'Der CPC wandelt sich radikal. Verstehe Cost per Click in Zeiten von KI, Vector-Bidding und autonomen Agenten. Echtes Tacheles für Ads.'
+meta_title: "CPC: Cost per Click & Agentic Real-Time … (2026)"
+description: "Der CPC wandelt sich radikal. Verstehe Cost per Click in Zeiten von KI, Vector-Bidding und autonomen Agenten. Echtes Tacheles für Ads. (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-cpc-3d.webp"
 image_alt: "CPC (Cost per Click) 3D Infografik - Marktwert von Keywords"

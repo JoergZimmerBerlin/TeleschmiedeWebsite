@@ -1,7 +1,8 @@
 ---
 category: 'E-E-A-T & Offpage'
 title: 'Entität: Das Fundament jeder modernen LLM-Pipeline'
-description: 'Lose Text-Strings sind tot. Eine Entität ist heute der Grundbaustein für die KI-Suche. Wie LLMs im Knowledge Graph navigieren und ranken.'
+meta_title: "Entität: Das Fundament jeder modernen LL… (2026)"
+description: "Lose Text-Strings sind tot. Eine Entität ist heute der Grundbaustein für die KI-Suche. Wie LLMs im Knowledge Graph navigieren und ranken. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["knowledge-graph", "geo", "authoritativeness-eeat", "trustworthiness-eeat", "grounding-page"]

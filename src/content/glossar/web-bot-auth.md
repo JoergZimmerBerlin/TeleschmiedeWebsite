@@ -2,7 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "Web Bot Auth: Identität für KI-Agenten"
 meta_title: "Web Bot Auth: Identität für KI-Agenten (2026)"
-description: "Vergiss User-Agents. Web Bot Auth ist der neue Standard für sichere Bot-Identitäten. Tacheles zur Agenten-Verifizierung ohne Kompromisse."
+description: "Vergiss User-Agents. Web Bot Auth ist der neue Standard für sichere Bot-Identitäten. Tacheles zur Agenten-Verifizierung ohne Kompromisse. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-web-bot-auth-3d.webp"
 image_alt: "3D-Infografik: Bot-Authentifizierung, Reverse-DNS und Agenten-Verifizierung"

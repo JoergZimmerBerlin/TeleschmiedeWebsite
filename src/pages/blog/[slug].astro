@@ -52,15 +52,15 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 // ==========================================
 let categoryDescription = '';
 if (type === 'category') {
-  categoryDescription = `Alle Artikel zum Thema ${categoryName} von Jörg Zimmer.`;
+  categoryDescription = `Alle Artikel zum Thema ${categoryName} von Jörg Zimmer. (2026)`;
   if (categoryName === 'AI SEO') {
-    categoryDescription = 'Entdecke, wie Künstliche Intelligenz, ChatGPT und LLMs die Google-Suche revolutionieren. Lerne alles über GEO (Generative Engine Optimization) und KI-gestützte Content-Strategien.';
+    categoryDescription = 'Entdecke, wie KI, ChatGPT und LLMs die Google-Suche revolutionieren. Alles über GEO (Generative Engine Optimization). (2026)';
   } else if (categoryName === 'Tech SEO & Tools') {
-    categoryDescription = 'Das Fundament für maximale Sichtbarkeit: Optimiere Core Web Vitals, Crawlability und nutze die besten SEO-Tools für tiefe Daten-Analysen und Automatisierungen.';
+    categoryDescription = 'Das Fundament für maximale Sichtbarkeit: Optimiere Core Web Vitals, Crawlability und nutze die besten SEO-Tools für tiefe Daten-Analysen. (2026)';
   } else if (categoryName === 'SEO Praxis') {
-    categoryDescription = 'Tiefgründige Case Studies, bewährte SEO-Strategien und ehrliche Insights aus über 25 Jahren Berufsalltag im Performance Marketing. Echtes Wissen für dein Google Ranking.';
+    categoryDescription = 'Tiefgründige Case Studies, bewährte SEO-Strategien und ehrliche Insights aus 25 Jahren Performance Marketing. Echtes Wissen fürs Ranking. (2026)';
   } else if (categoryName === 'Events & Networking') {
-    categoryDescription = 'Rückblicke auf die besten SEO-Konferenzen (OMR, Campixx), spannende Vorträge und wertvoller Austausch innerhalb der starken digitalen SEO-Community.';
+    categoryDescription = 'Rückblicke auf die besten SEO-Konferenzen (OMR, Campixx), spannende Vorträge und wertvoller Austausch innerhalb der starken SEO-Community. (2026)';
   }
 }
 
@@ -103,7 +103,7 @@ if (type === 'post') {
 ---
 
 {type === 'category' ? (
-  <Layout title={`${categoryName} | Jörg Zimmer`} description={categoryDescription}>
+  <Layout title={`${categoryName} | Jörg Zimmer (2026)`} description={categoryDescription}>
     <section class="section pt-12 pb-12 bg-white">
       <div class="container-narrow">
         <div class="mb-10">

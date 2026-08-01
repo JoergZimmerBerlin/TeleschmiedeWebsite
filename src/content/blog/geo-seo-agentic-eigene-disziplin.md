@@ -5,7 +5,7 @@ date: "2026-07-23"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3"
 image: "../../assets/images/blog/geo_nebenbei.jpg"
 image_alt: "Agentic SEO Infografik"
-category: "KI & SEO"
+category: "AI SEO"
 tags: ["GEO", "Agentic SEO", "KI-Sichtbarkeit", "Strategie", "Budgets"]
 key_takeaways:
   - "Agentic SEO optimiert für die agentische Nutzererfahrung, nicht nur für die menschliche."

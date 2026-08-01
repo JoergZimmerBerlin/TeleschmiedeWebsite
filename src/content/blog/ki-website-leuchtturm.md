@@ -5,7 +5,7 @@ date: "2026-07-15"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meine-ki-website-mit-150-seiten-ist-auf-dem-activity-7482814694571966465-3wDm"
 image: "../../assets/images/blog/ki-website-leuchtturm.webp"
 image_alt: "Website als KI Leuchtturm Infografik"
-category: "KI & SEO"
+category: "AI SEO"
 tags: ["LLMs", "Agentisches Browsing", "Grounding Pages", "llms.txt", "KI Optimierung"]
 key_takeaways:
   - "Eine Website für KI-Agenten benötigt neue Standards: llms.txt, KI-Meta-Tags und MCP-Karten."

@@ -1,0 +1,2 @@
+INVALID: src/content/glossar/geo-tool.md -> MISSING
+INVALID: src/content/glossar/ki-sichtbarkeit.md -> MISSING

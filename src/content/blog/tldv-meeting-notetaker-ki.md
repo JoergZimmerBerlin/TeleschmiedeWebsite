@@ -5,7 +5,7 @@ date: "2026-07-21"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meeting-notetaker-aus-deutschland-mit-ki-activity-7485338844217864192-Zp7p"
 image: "../../assets/images/blog/tldv-meeting-notetaker-ki.webp"
 image_alt: "tl;dv KI Notetaker Infografik"
-category: "KI & SEO"
+category: "AI SEO"
 tags: ["Notetaker", "tl;dv", "Künstliche Intelligenz", "CRM Integration", "Produktivität"]
 key_takeaways:
   - "tl;dv erstellt automatische Notizen, Zusammenfassungen und Sprungmarken für Videocalls."

@@ -5,7 +5,7 @@ date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-merke-gerade-das-ich-mich-selbst-in-der-activity-7488355090479759360-cq2b"
 image: "../../assets/images/blog/geo_transformation.jpg"
 image_alt: "Die GEO Transformation"
-category: "KI & SEO"
+category: "AI SEO"
 tags: ["GEO", "Transformation", "AI Visibility", "Generative Engine Optimization", "User Journey"]
 key_takeaways:
   - "GEO ist nicht böse, sondern eine riesige Chance, wenn man interdisziplinär arbeitet."

@@ -5,7 +5,7 @@ date: "2026-07-22"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_kostenloser-agent-readiness-scan-von-cloudflare-activity-7485746310445350912-g1NS"
 image: "../../assets/images/blog/cloudflare-agent-readiness-scan.webp"
 image_alt: "Cloudflare Agent Readiness Scan Infografik"
-category: "KI & SEO"
+category: "AI SEO"
 tags: ["Cloudflare", "Agent Readiness", "KI-Sichtbarkeit", "LLM", "Markdown"]
 key_takeaways:
   - "Der Cloudflare Agent Readiness Scan testet technische Standards wie Markdown Negotiation und Bot-Zugriff."

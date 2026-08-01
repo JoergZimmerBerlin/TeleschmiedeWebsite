@@ -1,5 +1,5 @@
 ---
-category: 'Technisches SEO'
+category: 'Technisches SEO & UX'
 title: "AI Crawlability: Maschinenlesbarkeit für ... (2026)"
 description: "Warum gutes Webdesign Bots stört. AI Crawlability ist die neue technische SEO Disziplin, um RAG-Modelle und KI-Scraper optimal zu füttern. (2026)"
 date: "2026-07-31"

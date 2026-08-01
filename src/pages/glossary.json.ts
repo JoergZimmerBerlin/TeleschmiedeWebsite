@@ -5,7 +5,7 @@ export async function GET() {
   const manifest = glossarEntries.map(entry => ({
     title: entry.data.title,
     id: entry.id,
-    description: entry.data.description,
+    description: entry.data.meta_description || entry.data.description,
   }));
 
   return new Response(JSON.stringify(manifest), {

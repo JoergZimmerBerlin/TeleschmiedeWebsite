@@ -104,14 +104,14 @@ const categories = [
             title={entry.data.title}
             class="glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300"
             data-title={entry.data.title.toLowerCase()}
-            data-desc={entry.data.description.toLowerCase()}
+            data-desc={(entry.data.meta_description || entry.data.description || '').toLowerCase()}
           >
             <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics & Onpage'}</span>
             <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
               {entry.data.title}
             </h2>
             <p class="text-sm text-gray-muted line-clamp-3">
-              {entry.data.description}
+              {entry.data.meta_description || entry.data.description}
             </p>
             <div class="mt-4 pt-4 border-t border-gray-50 text-xs font-bold text-dark inline-flex items-center gap-1 group-hover:gap-2 transition-all">
               Erklärung lesen

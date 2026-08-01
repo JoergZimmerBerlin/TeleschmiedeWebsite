@@ -1,8 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "Knowledge Graph: Gehirn der generativen Suche"
-meta_title: "Knowledge Graph: Gehirn der generativen Suche (2026)"
-description: "Der Knowledge Graph ist die harte Ground Truth für KI-Systeme. Lerne Tacheles, wie du als Entität aufgebaut und von LLMs zitiert wirst."
+meta_title: "Knowledge Graph: Hirn der Suche (2026)"
+meta_description: "Knowledge Graph verknüpft Entitäten. Verankere deine Marke im semantischen Netz, um als unumstößliche Autorität von der KI erkannt zu werden. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q648625"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

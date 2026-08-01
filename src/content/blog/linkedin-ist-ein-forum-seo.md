@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn: Warum SEOs das Forum nutzen müssen"
-meta_title: "LinkedIn: Warum SEOs das Forum nutzen müssen (2026)"
-description: "LinkedIn für SEO-Profis: Von Profil-Optimierung als Landingpage bis zum Algorithmus-Hacking durch echte Diskussionen."
+meta_title: "LinkedIn SEO: Das Experten-Forum nutzen (2026)"
+meta_description: "LinkedIn SEO: Verwandle dein Profil in eine starke Landingpage. Lerne durch echte Diskussionen das Algorithmus-Hacking für maximale Reichweite. (2026)"
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR"
 image: "../../assets/images/blog/linkedin-forum-original.webp"

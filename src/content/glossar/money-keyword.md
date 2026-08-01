@@ -1,8 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
 title: "Money Keywords: Harte LLM-Prompts statt Phrasen"
-meta_title: "Money Keywords: Harte LLM-Prompts statt Phrasen (2026)"
-description: "Money Keywords sind komplexe Fanout-Prompts für KIs. So sicherst du dir die direkte Conversion im RAG-Zeitalter ohne Umwege."
+meta_title: "Money Keywords: Für LLMs optimieren (2026)"
+meta_description: "Money Keywords für KI anpassen. So baust du harte Prompts und semantische Relevanz auf, um in RAG-Pipelines direkt konvertiert zu werden. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-money-keyword-3d.webp"
 image_alt: "Money Keyword 3D Infografik - Conversion und KI-Crawler"

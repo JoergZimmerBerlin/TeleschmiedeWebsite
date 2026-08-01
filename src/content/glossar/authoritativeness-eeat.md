@@ -1,8 +1,8 @@
 ---
 category: 'E-E-A-T & Offpage'
 title: "Authoritativeness: E-E-A-T Autorität im KI-SEO"
-meta_title: "Authoritativeness: E-E-A-T Autorität im KI-SEO (2026)"
-description: "Authoritativeness 2026 für RAG: Deine digitale Reputation zählt mehr als Backlinks. So baust du knallharte Autorität auf."
+meta_title: "Authoritativeness: Trust für KI (2026)"
+meta_description: "Authoritativeness entscheidet im E-E-A-T. Baue eine starke Reputation auf, damit LLMs dich als verlässliche und relevante Quelle zitieren. (2026)"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"
 image_alt: "Authoritativeness (E-E-A-T) 3D Infografik - Digitale Reputation im KI-Zeitalter"

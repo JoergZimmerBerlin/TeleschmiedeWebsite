@@ -1,8 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
 title: "XML-Sitemap: Die Zentrale für KI und Crawler"
-meta_title: "XML-Sitemap: Die Zentrale für KI und Crawler (2026)"
-description: "Deine XML-Sitemap ist das Inhaltsverzeichnis für Agenten. Halte sie fehlerfrei und technisch perfekt, sonst ignorieren KIs deine Seite."
+meta_title: "XML-Sitemap: Basis für KI-Crawler (2026)"
+meta_description: "XML-Sitemap liefert Struktur. Füttere Bots und Agenten mit aktuellen URLs und stelle sicher, dass neue Inhalte direkt indexiert werden. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp"
 image_alt: "XML Sitemap 3D Infografik - Technisches SEO"

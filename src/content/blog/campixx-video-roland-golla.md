@@ -1,7 +1,7 @@
 ---
 title: "Vibe Coding: Echte KI-Workflows mit Roland Golla"
-meta_title: "Vibe Coding: Echte KI-Workflows mit Roland Golla (2026)"
-description: "Hinter den Kulissen der CAMPIXX: Warum echte Video-Profis und O-Töne auf Events unverzichtbar sind. Ein Blick ins Studio von Florian Gypser."
+meta_title: "Vibe Coding mit Roland Golla auf CAMPIXX (2026)"
+description: "Vibe Coding und O-Töne auf der CAMPIXX. Warum Video-Profis wie Florian Gypser und Interviews mit Roland Golla für SEO-Events so wichtig sind. (2026)"
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vibe-coding-consultant-roland-golla-im-video-activity-7473914443111002112-RxMV"
 image: "../../assets/images/blog/campixx-video-roland-golla.webp"

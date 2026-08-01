@@ -1,8 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "AI Search Engine: Die Evolution der Suchmaschinen"
-meta_title: "AI Search Engines: Evolution der Suchmaschinen (2026)"
-description: "Was ist eine AI Search Engine? Wie Answer Engines (wie Perplexity oder ChatGPT) die klassische Google-Suche ablösen und SEO für immer verändern."
+meta_title: "AI Search Engines: Evolution (2026)"
+meta_description: "AI Search Engines: Wie Answer Engines wie Perplexity oder ChatGPT die klassische Suche ablösen und SEO für immer verändern. (2026)"
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-ai-search-engine-3d.webp"
 image_alt: "3D Infografik zum Thema AI Search Engine"

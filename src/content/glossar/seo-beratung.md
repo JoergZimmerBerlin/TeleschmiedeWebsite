@@ -1,8 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
 title: "SEO Beratung: Umbau für harte LLM-Architekturen"
-meta_title: "SEO Beratung: Umbau für harte LLM-Architekturen (2026)"
-description: "Echte SEO Beratung baut deine Infrastruktur zur gnadenlosen LLM-Datenquelle um. Keyword-Dichte war gestern. Harter Tacheles von Jörg."
+meta_title: "SEO Beratung: Fokus auf KI & GEO (2026)"
+meta_description: "SEO Beratung für das KI-Zeitalter. Wir optimieren deine Website für Answer Engines, Agent Readiness und zukunftssichere Sichtbarkeit. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-audit", "seo-agentur", "keywordrecherche"]

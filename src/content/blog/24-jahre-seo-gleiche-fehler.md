@@ -1,7 +1,7 @@
 ---
 title: "25 Jahre SEO: Warum wir gleiche Fehler machen"
-meta_title: "25 Jahre SEO: Warum wir gleiche Fehler machen (2026)"
-description: "Ein ehrlicher Blick auf die Fehler, die ich seit über zwei Jahrzehnten immer wieder sehe."
+meta_title: "25 Jahre SEO Erfahrung: Die gleichen Fehler (2026)"
+description: "25 Jahre SEO: Keyword-Stuffing, technische Ignoranz und Ungeduld. Ein ehrlicher Blick auf die häufigsten SEO-Fehler der letzten Jahre. (2026)"
 date: "2026-01-18"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_24-jahre-seo-gleiche-fehler-activity-7286645315112111104-5Y7_"
 image: "../../assets/images/profile/joerg-zimmer-portrait.webp"

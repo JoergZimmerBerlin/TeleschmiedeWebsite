@@ -1,8 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "LLM-Optimization (LLMO): SEO für Sprachmodelle"
-meta_title: "LLM-Optimization (LLMO): SEO für Sprachmodelle (2026)"
-description: "LLM-Optimization (LLMO) ist dein Weg in ChatGPT und Co. Trimme deine Datenstruktur auf RAG und dominiere die KI-Antworten."
+meta_title: "LLMO: Neues SEO für Large Language Models (2026)"
+meta_description: "LLM-Optimization (LLMO) macht deine Seite KI-ready. Warum RAG-Fähigkeit, strukturierte Daten und Content-Tiefe für LLM Zitate wichtig sind. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llmo-3d.webp"

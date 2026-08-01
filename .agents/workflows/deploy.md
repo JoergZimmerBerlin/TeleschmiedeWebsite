@@ -14,5 +14,10 @@ This workflow automates the process of pushing changes to production.
 bash scripts/deploy.sh "Deployment: [kurze Beschreibung der Änderungen]"
 ```
 
+Das Skript erledigt folgende Schritte vollautomatisch:
+- **Pre-Commit Quality Gate:** Prüft alle geänderten Markdown-Dateien via `scripts/quality-gate.cjs` auf SEO-Limits (50 Zeichen `meta_title`, 150 Zeichen `meta_description`, (2026) Endung, keine Emojis). Bei Fehlern bricht das Deployment ab.
+- **Git Push & IONOS Deployment:** Pusht die Änderungen und wartet auf den Live-Gang.
+- **APIs triggern:** Reicht die geänderten URLs via GSC Indexing API und Bing IndexNow API ein (beides in `scripts/gsc-auto-push.mjs`).
+
 **WICHTIG (IONOS Hosting):**
 Beachte bei Problemen mit Redirects oder fehlender `.htaccess` unbedingt den [IONOS Standard](file:///.agent/ionos-standard.md). Das Deployment nutzt einen PHP-Aktivator, um Protokollsperren zu umgehen.

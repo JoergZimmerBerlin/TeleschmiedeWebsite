@@ -1,7 +1,7 @@
 ---
 title: "GEO Action Plan 2026: Guide zur KI-Sichtbarkeit"
-meta_title: "GEO Action Plan 2026: Guide zur KI-Sichtbarkeit (2026)"
-description: "Vom Status Quo zum Re-Tracking: Mein 6-Schritte-Plan für Sichtbarkeit in ChatGPT & Co. Tacheles von Jörg Zimmer."
+meta_title: "GEO Action Plan: Guide zur KI-Sichtbarkeit (2026)"
+meta_description: "Vom Status Quo zum Re-Tracking: Mein 6-Schritte-Plan für Sichtbarkeit in ChatGPT, Gemini & AI Search. Tacheles von Experte Jörg Zimmer. (2026)"
 date: "2026-03-25"
 linkedin_url: ""
 image: "../../assets/images/blog/geo-action-plan-llm-sichtbarkeit.webp"

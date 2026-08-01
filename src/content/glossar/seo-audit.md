@@ -1,8 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
 title: "SEO Audit: Der Guide inkl. KI-Readiness Check"
-meta_title: "SEO Audit: Der Guide inkl. KI-Readiness Check (2026)"
-description: "Dein SEO Audit braucht harte Technik. Wir analysieren deine Domain auf RAG-Tauglichkeit und Markdown-Strukturen. Halbe Sachen zählen nicht."
+meta_title: "SEO Audit: KI-Readiness Check (2026)"
+meta_description: "SEO Audit: Wir analysieren deine Domain auf RAG-Tauglichkeit und Markdown-Strukturen. Halbe Sachen zählen nicht im KI-Zeitalter. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 tacheles: 'Wer heute noch ein 100-seitiges PDF voller fehlender H1-Tags als "Audit" verkauft, betreibt Pfusch am Bau. 2026 reden wir über Vektor-Sichtbarkeit: llms.txt, Markdown Negotiation und Schema-Graphen. Ein Audit muss schonungslos zeigen, warum Google Gemini und OpenAI deine Seite ignorieren.'

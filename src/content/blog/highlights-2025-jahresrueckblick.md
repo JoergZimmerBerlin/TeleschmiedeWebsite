@@ -1,7 +1,7 @@
 ---
 title: "Meine SEO-Highlights 2025: Der Jahresrückblick"
-meta_title: "Meine SEO-Highlights 2025: Der Jahresrückblick (2026)"
-description: "Ein Jahr voller LinkedIn-Posts, Diskussionen und hoffentlich dem einen oder anderen Lacher."
+meta_title: "SEO Highlights: Mein Jahresrückblick (2026)"
+meta_description: "SEO Highlights: Ein Jahr voller starker LinkedIn-Posts, hitziger Diskussionen und echtem Tacheles. Mein ganz persönlicher Jahresrückblick. (2026)"
 date: "2025-12-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_highlights-2025-seo-rückblick-activity-7278772863925700608-P_2C"
 image: "../../assets/images/profile/website-boosting-rucksack.webp"

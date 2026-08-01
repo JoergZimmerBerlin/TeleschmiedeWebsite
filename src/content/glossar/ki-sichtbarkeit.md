@@ -1,7 +1,7 @@
 ---
 title: "KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert"
-meta_title: "KI Sichtbarkeit: In ChatGPT & Co. zitiert werden (2026)"
-description: "Warum klassisches SEO nicht mehr reicht: Wie du mit Generative Engine Optimization (GEO) deine Sichtbarkeit in KI-Antworten sicherst."
+meta_title: "KI Sichtbarkeit: RAG maximieren (2026)"
+meta_description: "KI Sichtbarkeit gezielt erhöhen. Steigere deine Präsenz in ChatGPT und Perplexity durch smarte Content-Strukturierung und Entity SEO. (2026)"
 category: 'AI SEO & Generative Search'
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-3d.webp"

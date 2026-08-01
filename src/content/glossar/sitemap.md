@@ -1,8 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
 title: "Sitemap: Echte Architektur für RAG-Pipelines"
-meta_title: "Sitemap: Echte Architektur für RAG-Pipelines (2026)"
-description: "Eine Sitemap ist der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik. Keine faulen Kompromisse."
+meta_title: "Sitemap: Architektur für RAG (2026)"
+meta_description: "Sitemap: Der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik ohne irgendwelche Kompromisse. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q1503327"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.webp"

@@ -1,8 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
 title: "Zitierfähiger Content: Rankingfaktor #1 für KI"
-meta_title: "Zitierfähiger Content: Rankingfaktor #1 für KI (2026)"
-description: "Zitierfähiger Content ist Pflicht. Erfahre, wie du Daten für KIs knallhart strukturierst, um endlich wieder verlässlich zitiert zu werden."
+meta_title: "Zitierfähiger Content: Rankingfaktor für KI (2026)"
+description: "Zitierfähiger Content ist Pflicht. So schreibst du maschinenlesbare, strukturierte Fakten, die Agenten in LLMs und KI-Antworten nutzen. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "geo", "zero-click-content", "faq-markup", "llms-txt"]

@@ -1,7 +1,7 @@
 ---
 title: "SEO-Sprechstunde: Website-Check & Sichtbarkeit"
-meta_title: "SEO-Sprechstunde: Website-Check & Sichtbarkeit (2026)"
-description: "Was passiert in einer 2-stündigen SEO-Sprechstunde mit Jörg Zimmer? Der Prozess, der Mehrwert und für wen das Format wirklich passt."
+meta_title: "SEO-Sprechstunde: Check & Sichtbarkeit (2026)"
+meta_description: "SEO-Sprechstunde: Was bringt der Website-Check mit Jörg Zimmer? Entdecke den Prozess, den echten Mehrwert und für wen das Format optimal ist. (2026)"
 date: "2026-01-03"
 image: "../../assets/images/profile/katze-seo-hoodie.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Die Grill-Analyse"

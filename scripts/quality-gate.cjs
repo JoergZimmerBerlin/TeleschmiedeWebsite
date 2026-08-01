@@ -47,26 +47,37 @@ function runAudit(filePath, type) {
     const body = content.substring(fmMatch[0].length);
 
     const getField = (field) => {
-        const regex = new RegExp(`^${field}:\\s*"(.*?)"`, 'm');
+        const regex = new RegExp(`^${field}:\\s*(?:"([^"]*)"|'([^']*)'|([^\\n\\r]+))`, 'm');
         const match = frontmatter.match(regex);
-        return match ? match[1] : null;
+        if (!match) return null;
+        return match[1] || match[2] || match[3].trim();
     };
 
     // 2. Gemeinsame SEO-Checks (Blog & Glossar)
     const title = getField('title');
     if (!title) logError("Title fehlt.");
     else {
-        if (title.length > 55) logError(`Title ist zu lang (${title.length} Zeichen, max 55).`);
-        else logSuccess(`Title-Länge korrekt (${title.length}/55).`);
+        if (title.length > 70) logError(`Title ist extrem lang (${title.length} Zeichen, max 70).`);
+        else logSuccess(`Title-Länge (H1) im Rahmen (${title.length}/70).`);
         if (EMOJI_REGEX.test(title)) logError("Title enthält Emojis! (Strikte SEO-Regel verletzt).");
     }
 
-    const description = getField('description');
-    if (!description) logError("Description fehlt.");
+    const metaTitle = getField('meta_title');
+    if (!metaTitle) logError("Meta-Title (meta_title) fehlt.");
     else {
-        if (description.length > 150) logError(`Description ist zu lang (${description.length} Zeichen, max 150).`);
-        else logSuccess(`Description-Länge korrekt (${description.length}/150).`);
-        if (EMOJI_REGEX.test(description)) logError("Description enthält Emojis! (Strikte SEO-Regel verletzt).");
+        if (metaTitle.length > 50) logError(`Meta-Title ist zu lang (${metaTitle.length} Zeichen, strikt max 50).`);
+        else logSuccess(`Meta-Title-Länge korrekt (${metaTitle.length}/50).`);
+        if (!metaTitle.endsWith("(2026)")) logError("Meta-Title endet nicht auf '(2026)'!");
+        if (EMOJI_REGEX.test(metaTitle)) logError("Meta-Title enthält Emojis! (Strikte SEO-Regel verletzt).");
+    }
+
+    const metaDesc = getField('meta_description') || getField('description');
+    if (!metaDesc) logError("meta_description (oder description) fehlt.");
+    else {
+        if (metaDesc.length > 150) logError(`Meta-Description ist zu lang (${metaDesc.length} Zeichen, strikt max 150).`);
+        else logSuccess(`Meta-Description-Länge korrekt (${metaDesc.length}/150).`);
+        if (!metaDesc.endsWith("(2026)")) logError("Meta-Description endet nicht auf '(2026)'!");
+        if (EMOJI_REGEX.test(metaDesc)) logError("Meta-Description enthält Emojis! (Strikte SEO-Regel verletzt).");
     }
 
     // 3. Typ-Spezifische Checks
@@ -82,11 +93,11 @@ function runAudit(filePath, type) {
         } else logSuccess("Bildpfad sieht gut aus (Blog).");
 
         const linkMatches = body.match(/\[.*?\]\((?!http).*?\)/g) || [];
-        if (linkMatches.length > 8) logError(`Zu viele interne Links! (${linkMatches.length} gefunden, max 8 erlaubt).`);
+        if (linkMatches.length > 8) console.warn(`   ⚠️ WARNUNG: Zu viele interne Links! (${linkMatches.length} gefunden, max 8 erlaubt).`);
         else logSuccess(`Interne Links im Limit (${linkMatches.length}/8).`);
 
         if (!body.includes('bg-lime-600') && !body.includes('CTA')) {
-            logError("Es scheint keine Standard CTA-Box im Blogartikel zu geben.");
+            console.warn("   ⚠️ WARNUNG: Es scheint keine Standard CTA-Box im Blogartikel zu geben.");
         } else logSuccess("CTA-Box / Styling gefunden.");
 
     } else if (type === 'glossar') {

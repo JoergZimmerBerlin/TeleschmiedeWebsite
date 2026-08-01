@@ -1,7 +1,7 @@
 ---
 title: "SEO-Relaunch: Warum ohne SEO das Desaster droht"
-meta_title: "SEO-Relaunch: Warum ohne SEO das Desaster droht (2026)"
-description: "Jedes Jahr das gleiche Meme: Warum Unternehmen immer noch teure Webseiten ohne SEO launchen – und wie wir das Chaos verhindern."
+meta_title: "Website Relaunch ohne SEO: Teurer Fehler (2026)"
+meta_description: "Der klassische Website-Relaunch ohne SEO: Warum 301-Redirects, Architektur und frühzeitige Einbindung von Experten so enorm wichtig sind. (2026)"
 date: "2026-03-11"
 category: "SEO Praxis"
 image: "../../assets/images/blog/relaunch-ohne-seo.webp"

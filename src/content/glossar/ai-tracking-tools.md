@@ -1,8 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
 title: "AI Tracking Tools: Wahre Sichtbarkeit messen"
-meta_title: "AI Tracking Tools: Wahre Sichtbarkeit messen (2026)"
-description: "AI Tracking Tools messen nicht nur Rankings, sondern RAG-Hitrates und Share of Model. Klartext: So misst du deine echte KI-Sichtbarkeit."
+meta_title: "AI Tracking Tools: KPIs messen (2026)"
+meta_description: "AI Tracking Tools für präzise Daten. Analysiere RAG-Hitrates, messe echten Bot-Traffic und optimiere deine Agent Readiness kontinuierlich. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"
 related_terms: ["geo", "llmo", "sichtbarkeitsmanagement", "google-search-console"]

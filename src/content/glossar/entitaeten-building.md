@@ -1,8 +1,8 @@
 ---
 category: 'E-E-A-T & Offpage'
 title: "Entitäten-Building: Autorität in der LLM-Suche"
-meta_title: "Entitäten-Building: Autorität in der LLM-Suche (2026)"
-description: "Entitäten-Building ist hartes Data-Engineering. So verankerst du deine Identität unzerstörbar im Knowledge Graph und RAG-Pipelines."
+meta_title: "Entitäten-Building für LLMs (2026)"
+meta_description: "Entitäten-Building: Hartes Data-Engineering. Verankere deine Identität unzerstörbar im Knowledge Graph und in RAG-Pipelines. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "entity-seo", "grounding-page", "citation"]

@@ -1,8 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "GEO vs SEO: Architektur-Shift in LLM-Pipelines"
-meta_title: "GEO vs SEO: Architektur-Shift in LLM-Pipelines (2026)"
-description: "GEO vs SEO im Reality Check: HTML-SEO stirbt. Markdown in LLM-Pipelines definiert jetzt Sichtbarkeit. Jörg redet Tacheles zur Technik."
+meta_title: "GEO vs SEO: Architektur-Shift (2026)"
+meta_description: "GEO vs SEO: HTML-SEO stirbt. Markdown in LLM-Pipelines definiert jetzt Sichtbarkeit. Jörg redet Tacheles zur neuen Architektur. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-vs-seo-3d.webp"
 image_alt: "GEO vs. SEO 3D Infografik - Die Evolution der Suche im KI-Zeitalter"

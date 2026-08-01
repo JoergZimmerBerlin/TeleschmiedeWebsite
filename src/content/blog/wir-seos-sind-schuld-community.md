@@ -1,7 +1,7 @@
 ---
 title: "Warum wir SEOs schuld am Internet-Zustand sind"
-meta_title: "Warum wir SEOs schuld am Internet-Zustand sind (2026)"
-description: "Warum der SEO-Branche oft Basics fehlen und wie wir durch eine starke Community die Sichtbarkeit unserer Disziplin erhöhen."
+meta_title: "SEO Community: Wir sind schuld am Netz (2026)"
+meta_description: "SEO Community: Warum der Branche Basics fehlen. Erfahre, wie wir durch echten Zusammenhalt unsere Disziplin endlich nachhaltig verbessern. (2026)"
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-typen-sind-schuld-das-das-netz-die-activity-7385954808316338176-oSyk"
 image: "../../assets/images/pages/hero-pose.webp"

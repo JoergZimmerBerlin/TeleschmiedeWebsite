@@ -1,7 +1,7 @@
 ---
 title: "Core Web Vitals: Warum dein UX-Bericht zählt"
-meta_title: "Core Web Vitals: Warum dein UX-Bericht zählt (2026)"
-description: "Core Web Vitals Case Study: Von 0 auf 216 gute URLs. Wie Optimierung die organische Performance & UX deiner Website nachhaltig verbessert."
+meta_title: "Core Web Vitals: UX-Bericht Optimierung (2026)"
+meta_description: "Core Web Vitals: Verbessere deine UX und organische Performance nachhaltig. Die Case Study zeigt den Weg von 0 auf 216 gute URLs in der Praxis. (2026)"
 date: "2026-01-05"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_core-web-vitals-ux-bericht-activity-7281315863925700608-P_2C"
 image: "../../assets/images/blog/core-web-vitals-pfeiler.webp"

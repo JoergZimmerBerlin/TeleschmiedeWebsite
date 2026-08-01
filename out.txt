@@ -1,0 +1,81 @@
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/money-keyword.md ===
+meta_title: "Money Keywords: Harte LLM-Prompts statt Phrasen (2026)"
+description: "Money Keywords sind komplexe Fanout-Prompts für KIs. So sicherst du dir die direkte Conversion im RAG-Zeitalter ohne Umwege."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/canonical-tag.md ===
+meta_title: "Canonical Tag: Schluss mit Duplicate Content (2026)"
+description: "Das Canonical Tag ist dein harter Schutzschild. Zwinge LLMs und Crawler auf die Originalquelle und beende den Content-Kannibalismus."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/geo-tool.md ===
+meta_title: "GEO Tool: Software für messbare KI-Sichtbarkeit (2026)"
+description: "Welches GEO Tool ist das beste? Wie du mit Software wie Rankscale und SE Ranking deine Sichtbarkeit in ChatGPT, Perplexity & Co. misst."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/xml-sitemap.md ===
+meta_title: "XML-Sitemap: Die Zentrale für KI und Crawler (2026)"
+description: "Deine XML-Sitemap ist das Inhaltsverzeichnis für Agenten. Halte sie fehlerfrei und technisch perfekt, sonst ignorieren KIs deine Seite."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/schema-org-markup.md ===
+meta_title: "Schema.org Markup: Fakten-Wissensbasis für KIs (2026)"
+description: "Schema.org Markup ist das globale Vokabular für LLMs. Verstehe Entity Depth und liefere der KI knallharte, strukturierte Fakten."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/seo-beratung.md ===
+meta_title: "SEO Beratung: Umbau für harte LLM-Architekturen (2026)"
+description: "Echte SEO Beratung baut deine Infrastruktur zur gnadenlosen LLM-Datenquelle um. Keyword-Dichte war gestern. Harter Tacheles von Jörg."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/llms-txt.md ===
+meta_title: "llms.txt: Der Community-Standard für Crawler (2026)"
+description: "Die llms.txt ist ein wichtiges Signal für KI-Crawler. Was am Hype dran ist und wie du sie technisch sauber für LLMs implementierst."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/authoritativeness-eeat.md ===
+meta_title: "Authoritativeness: E-E-A-T Autorität im KI-SEO (2026)"
+description: "Authoritativeness 2026 für RAG: Deine digitale Reputation zählt mehr als Backlinks. So baust du knallharte Autorität auf."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/keywoerter.md ===
+meta_title: "Keywords: Semantische Entitäten statt Strings (2026)"
+description: "Keywords 2026: Exaktes Suchvolumen ist tot. Baue echte Relevanz für KI durch User Intent und radikale Topical Authority auf."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/robots-txt.md ===
+meta_title: "Robots.txt: Hartes Limit für KI-Bots und Crawler (2026)"
+description: "Die robots.txt entscheidet heute eiskalt über deine Sichtbarkeit bei GPTBot und RAG-Pipelines. Übernimm endlich die harte Kontrolle."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/seo-agentur.md ===
+meta_title: "SEO Agentur: Vom Dienstleister zum KI-Architekt (2026)"
+description: "Die klassische SEO Agentur ist tot. Heute entscheiden RAG-Optimierung, KI-Crawler und LLM-Architektur über deine Sichtbarkeit. Tacheles!"
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/agentic-commerce-protocol-acp.md ===
+meta_title: "Agentic Commerce Protocol: KIs kaufen für dich (2026)"
+description: "Was das Agentic Commerce Protocol (ACP) bedeutet. Wie AI-Agenten mit Shops verhandeln und den Checkout revolutionieren. Klartext."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/topical-authority.md ===
+meta_title: "Topical Authority: Königsdisziplin KI-Zeitalter (2026)"
+description: "Topical Authority entscheidet gnadenlos, ob LLMs, ChatGPT und Google deine Marke als echte Expertenquelle wahrnehmen und zitieren. Tacheles."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/content-signals.md ===
+meta_title: "Content-Signale: Klare Regeln für AI-Crawler (2026)"
+description: "Mit klaren Content-Signalen steuerst du KI-Bots präzise. Wer seine HTTP-Header und robots.txt vernachlässigt, verliert die Kontrolle."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/technisches-schema-markup.md ===
+meta_title: "Technisches Schema-Markup: Pure KI-Infrastruktur (2026)"
+description: "Technisches Schema-Markup baut harte Endpunkte. Nutze Entity-Depth für Agenten und vergiss alberne Snippets. Zeit für echten Klartext."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/llms-full-txt.md ===
+meta_title: "LLMs-full.txt: Die harte Wahrheit zum KI-Trend (2026)"
+description: "LLMs-full.txt ist kein offizieller Google-Standard, sondern ein wildes Experiment. Tacheles: Lohnt sich die fette Daten-Pipeline wirklich?"
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/knowledge-graph.md ===
+meta_title: "Knowledge Graph: Gehirn der generativen Suche (2026)"
+description: "Der Knowledge Graph ist die harte Ground Truth für KI-Systeme. Lerne Tacheles, wie du als Entität aufgebaut und von LLMs zitiert wirst."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/agent-readiness-level.md ===
+meta_title: "Agent Readiness Level: Metrik für autonome KIs (2026)"
+description: "Agent Readiness Level deckt auf: Die meisten Websites sind völlig veraltet. Jörg Zimmer zeigt den Weg zur vollständigen KI-Kompatibilität."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/grounding-page.md ===
+meta_title: "Grounding Page: Der Maschinen-Anker für AI SEO (2026)"
+description: "Eine Grounding Page liefert harten, maschinenlesbaren Fakten-Treibstoff für RAG-Systeme. Vergiss reine Marketing-Landingpages."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/sichtbarkeit.md ===
+meta_title: "Sichtbarkeit: KI-Crawler & Citation-Stability (2026)"
+description: "Sichtbarkeit bedeutet heute: Von KIs gefunden werden. Warum Citation-Stability durch auth.md relevanter ist als Klicks. Klartext pur."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/strukturierte-daten.md ===
+meta_title: "Strukturierte Daten: Grounding & LLM-Fütterung (2026)"
+description: "Strukturierte Daten im Klartext: Vergiss Rich Snippets. Mach deine Seite durch harte KI-Protokolle, JSON-LD und RAG maschinenlesbar."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/ai-tracking-tools.md ===
+meta_title: "AI Tracking Tools: Wahre Sichtbarkeit messen (2026)"
+description: "AI Tracking Tools messen nicht nur Rankings, sondern RAG-Hitrates und Share of Model. Klartext: So misst du deine echte KI-Sichtbarkeit."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/ueberstunde-berlin.md ===
+meta_title: "Überstunde Berlin: Fakten zum Networking-Event (2026)"
+description: "Die Überstunde Berlin ist der Ort für echtes Networking ohne steife Visitenkarten-Shows. Triff Macher der Digitalszene und rede Tacheles."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/suchvolumen.md ===
+meta_title: "Suchvolumen: Nutzlose Metrik im KI-Zeitalter (2026)"
+description: "Suchvolumen ist Vergangenheit. Generative KIs verändern alles. Setze auf harte technische Optimierung statt dich auf tote Zahlen zu stützen."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/ki-sichtbarkeit.md ===
+meta_title: "KI Sichtbarkeit: In ChatGPT & Co. zitiert werden (2026)"
+description: "Warum klassisches SEO nicht mehr reicht: Wie du mit Generative Engine Optimization (GEO) deine Sichtbarkeit in KI-Antworten sicherst."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/oauth-oidc-discovery.md ===
+meta_title: "OAuth/OIDC Discovery: Puzzleteil für Agenten (2026)"
+description: "So funktioniert OAuth/OIDC Discovery für autonome KI-Agenten. Lerne im Klartext, wie du mit der Konfiguration Agent Readiness sicherstellst."
+=== /Users/jorti/Documents/Antigravity/src/content/glossar/chatgpt-seo.md ===
+meta_title: "ChatGPT SEO: Ranken in der Zero-Click-Reality (2026)"
+description: "ChatGPT SEO und GEO: Die Kunst, von LLMs zitiert zu werden. Nutze diese technischen Hebel für SearchGPT und Answer Engines."

@@ -6,6 +6,8 @@ const blog = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
+    meta_title: z.string().optional(),
+    meta_description: z.string().optional(),
     date: z.string(),
     linkedin_url: z.string().optional(),
     image: image().optional(),
@@ -34,6 +36,8 @@ const glossar = defineCollection({
   schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
+    meta_title: z.string().optional(),
+    meta_description: z.string().optional(),
     date: z.string(),
     image: image().optional(),
     image_alt: z.string().optional(),

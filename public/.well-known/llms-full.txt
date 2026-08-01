@@ -60,216 +60,216 @@ The server will respond with clean, semantic Markdown instead of HTML.
 
 ### Glossary
 
-- 301 vs. 302 Redirects: Der KI-Deep-Dive (2026)
-- 404 Fehlerseiten: Wie sie KI-SEO zerstören (2026)
-- A2A Protocol: Standard für KI-Agenten (2026)
-- AEO: Zukunft der Answer Engine Optimization (2026)
-- agent-card.json: Der Ausweis für KI-Agenten (2026)
-- 'Agent Payments Protocol: KI-Zahlungen erklärt (2026)'
-- Agent Readiness Level: Metrik für autonome KIs (2026)
-- Agent Readiness: Optimierung für KI-Agenten (2026)
-- Agent Skills: KI-Agenten extrem aufrüsten (2026)
-- Agentic Commerce Protocol: KIs kaufen für dich (2026)
-- agents.md: Das offene README für KI-Agenten (2026)
-- AI Crawlability: Maschinenlesbarkeit für ... (2026)
-- ai-plugin.json: Warum ChatGPT Plugins tot sind (2026)
-- AI Search Engine: Die Evolution der ... (2026)
-- 'AI SEO: Mach deine Website bereit für KI-Agenten (2026)'
-- AI Tracking Tools: Wahre Sichtbarkeit messen (2026)
-- ai.txt SEO: Volle Agent Readiness erreichen (2026)
-- Agentic Resource Discovery: Der harte Standard (2026)
-- auth.md: Autonome KI Kunden-Anmeldung ohne ... (2026)
-- Authoritativeness: E-E-A-T Autorität im KI-SEO (2026)
-- 'Bing Webmaster Tools: Absolute Pflicht für ... (2026)'
-- Brand Mentions: Warum KI Entitäten liebt (2026)
-- Campixx Berlin: SEO-Konferenz im KI-Zeitalter (2026)
-- Canonical Tag: Schluss mit Duplicate Content (2026)
-- ChatGPT SEO: Ranken in der Zero-Click-Reality (2026)
-- 'Citation: Struktur und Entity-Resolution erklärt (2026)'
-- Cloudflare Agent Readiness Checklist: Der Guide (2026)
-- Content-Signale: Klare Regeln für AI-Crawler (2026)
-- Conversion Rate: Harte Optimierung für AI (2026)
-- Core Web Vitals: Rendering-Metriken im Detail (2026)
-- 'CPC: Cost per Click & Agentic Real-Time Bidding (2026)'
-- Crawler: Bots, RAG-Pipelines und llms.txt (2026)
-- Click-Through-Rate: Interaktionen im AI-Web (2026)
-- DNS-AID: Das Telefonbuch für KI-Agenten (2026)
-- DNS Sovereignty: Dein Nameserver entscheidet (2026)
-- E-E-A-T: Harte Währung für RAG-Systeme (2026)
-- 'Entität: Das Fundament jeder modernen ... (2026)'
-- Entitäten-Building: Autorität in der LLM-Suche (2026)
-- Entity SEO: Vektorraum-Ranking für KI-Crawler (2026)
-- Experience: Praxiserfahrung schlägt KI-Müll (2026)
-- Expertise: Thematische Vektortiefe für Crawler (2026)
-- 'FAQ Markup: Harte Daten für deine RAG-Pipeline (2026)'
-- 'GEO Agentur (Generative Engine Optimization) (2026)'
-- GEO Audit: Stresstest für KI-Sichtbarkeit (2026)
-- GEO Freelancer: Data-Engineers für KI-Suchen (2026)
-- 'GEO Optimierung: Die Währung für ... (2026)'
-- GEO Tool: Software für messbare KI-Sichtbarkeit (2026)
-- GEO vs SEO: Architektur-Shift in LLM-Pipelines (2026)
-- GEO: Generative Engine Optimization für KI (2026)
-- 'Google Algorithmus: Der Wächter der KI-Overviews (2026)'
-- Google Core Update: Qualitätshammer für AI (2026)
-- Google Search Console: Schnelle Einrichtung (2026)
-- Google Search Console: Radar für Sichtbarkeit (2026)
-- Grounding Page: Der Maschinen-Anker für AI SEO (2026)
-- 'Überschriften (H1-H3): Klare Signale für die KI (2026)'
-- HTML-Struktur: Semantik für KI-Crawler & RAG (2026)
-- HTTP Message Signatures: Sichere A2A-APIs (2026)
-- Identity JSON: Das Gesicht deiner Entität (2026)
+- 301 vs. 302 Redirects: Der KI-Deep-Dive
+- 404 Fehlerseiten: Wie sie KI-SEO zerstören
+- A2A Protocol: Standard für KI-Agenten
+- AEO: Zukunft der Answer Engine Optimization
+- agent-card.json: Der Ausweis für KI-Agenten
+- 'Agent Payments Protocol: KI-Zahlungen erklärt'
+- Agent Readiness Level: Metrik für autonome KIs
+- Agent Readiness: Optimierung für KI-Agenten
+- Agent Skills: KI-Agenten extrem aufrüsten
+- Agentic Commerce Protocol: KIs kaufen für dich
+- agents.md: Das offene README für KI-Agenten
+- AI Crawlability: Maschinenlesbarkeit für Answer Engines
+- ai-plugin.json: Warum ChatGPT Plugins tot sind
+- AI Search Engine: Die Evolution der Suchmaschinen
+- 'AI SEO: Mach deine Website bereit für KI-Agenten'
+- AI Tracking Tools: Wahre Sichtbarkeit messen
+- ai.txt SEO: Volle Agent Readiness erreichen
+- Agentic Resource Discovery: Der harte Standard
+- auth.md: Autonome KI Kunden-Anmeldung ohne Captcha
+- Authoritativeness: E-E-A-T Autorität im KI-SEO
+- 'Bing Webmaster Tools: Absolute Pflicht für KI-SEO'
+- Brand Mentions: Warum KI Entitäten liebt
+- Campixx Berlin: SEO-Konferenz im KI-Zeitalter
+- Canonical Tag: Schluss mit Duplicate Content
+- ChatGPT SEO: Ranken in der Zero-Click-Reality
+- 'Citation: Struktur und Entity-Resolution erklärt'
+- Cloudflare Agent Readiness Checklist: Der Guide
+- Content-Signale: Klare Regeln für AI-Crawler
+- Conversion Rate: Harte Optimierung für AI
+- Core Web Vitals: Rendering-Metriken im Detail
+- 'CPC: Cost per Click & Agentic Real-Time Bidding'
+- Crawler: Bots, RAG-Pipelines und llms.txt
+- Click-Through-Rate: Interaktionen im AI-Web
+- DNS-AID: Das Telefonbuch für KI-Agenten
+- DNS Sovereignty: Dein Nameserver entscheidet
+- E-E-A-T: Harte Währung für RAG-Systeme
+- 'Entität: Das Fundament jeder modernen LLM-Pipeline'
+- Entitäten-Building: Autorität in der LLM-Suche
+- Entity SEO: Vektorraum-Ranking für KI-Crawler
+- Experience: Praxiserfahrung schlägt KI-Müll
+- Expertise: Thematische Vektortiefe für Crawler
+- 'FAQ Markup: Harte Daten für deine RAG-Pipeline'
+- 'GEO Agentur (Generative Engine Optimization)'
+- GEO Audit: Stresstest für KI-Sichtbarkeit
+- GEO Freelancer: Data-Engineers für KI-Suchen
+- 'GEO Optimierung: Die Währung für RAG-Sichtbarkeit'
+- GEO Tool: Software für messbare KI-Sichtbarkeit
+- GEO vs SEO: Architektur-Shift in LLM-Pipelines
+- GEO: Generative Engine Optimization für KI
+- 'Google Algorithmus: Der Wächter der KI-Overviews'
+- Google Core Update: Qualitätshammer für AI
+- Google Search Console: Schnelle Einrichtung
+- Google Search Console: Radar für Sichtbarkeit
+- Grounding Page: Der Maschinen-Anker für AI SEO
+- 'Überschriften (H1-H3): Klare Signale für die KI'
+- HTML-Struktur: Semantik für KI-Crawler & RAG
+- HTTP Message Signatures: Sichere A2A-APIs
+- Identity JSON: Das Gesicht deiner Entität
 - 'Interne Verlinkung 2026: Dein Entity Graph für KIs'
-- Keywords: Semantische Entitäten statt Strings (2026)
-- 'Keyword Tools: Von simplem Volumen zu AI ... (2026)'
-- Keywordrecherche: Semantische Basis für SEO (2026)
-- KI-SEO Beratung: Agentur für die Antwort-Ära (2026)
-- KI-Sichtbarkeit messen: Harte Fakten und Guide (2026)
-- KI Sichtbarkeit: So wirst du in ChatGPT & ... (2026)
-- Knowledge Graph: Gehirn der generativen Suche (2026)
-- 'Linkbuilding: Der Weg zu echten Entity-Citations (2026)'
-- Linkjuice: Vom PageRank zum Entity-Trust (2026)
-- LLM-Optimization (LLMO): SEO für Sprachmodelle (2026)
-- LLMs-full.txt: Die harte Wahrheit zum KI-Trend (2026)
-- llms.txt: Der Community-Standard für Crawler (2026)
-- 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten (2026)'
-- Machine Payment Protocol (MPP) – KI bezahlt ... (2026)
-- Markdown Content Negotiation: AEO Optimierung (2026)
-- Markenaufbau mit SEO: Brand-Entitäten als RAG (2026)
+- Keywords: Semantische Entitäten statt Strings
+- 'Keyword Tools: Von simplem Volumen zu AI Discovery'
+- Keywordrecherche: Semantische Basis für SEO
+- KI-SEO Beratung: Agentur für die Antwort-Ära
+- KI-Sichtbarkeit messen: Harte Fakten und Guide
+- KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert
+- Knowledge Graph: Gehirn der generativen Suche
+- 'Linkbuilding: Der Weg zu echten Entity-Citations'
+- Linkjuice: Vom PageRank zum Entity-Trust
+- LLM-Optimization (LLMO): SEO für Sprachmodelle
+- LLMs-full.txt: Die harte Wahrheit zum KI-Trend
+- llms.txt: Der Community-Standard für Crawler
+- 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten'
+- Machine Payment Protocol (MPP) – KI bezahlt selbst
+- Markdown Content Negotiation: AEO Optimierung
+- Markenaufbau mit SEO: Brand-Entitäten als RAG
 - MCP Server Card
-- Mention: Relevanz in LLM-Pipelines aufbauen (2026)
+- Mention: Relevanz in LLM-Pipelines aufbauen
 - 'Meta Description 2026: Vektor-Kontext & CTR-Hebel'
 - MCP (Model Context Protocol): KI-Standard (2026)
-- Money Keywords: Harte LLM-Prompts statt Phrasen (2026)
-- 'Noindex: Seiten gnadenlos von der KI ... (2026)'
-- OAuth/OIDC Discovery: Puzzleteil für Agenten (2026)
-- OAuth Protected Resource im A2A-Zeitalter (2026)
-- PageSpeed: Latenz ist der harte Ranking-Killer (2026)
-- Pressearbeit im SEO: Digital-PR für RAG-Trust (2026)
-- 'RAG: Das echte Gehirn-Doping für KI-Inhalte (2026)'
-- Rankingfaktoren: Was KIs wirklich bewerten (2026)
-- RFC 8288 Link Headers: HTTP für KI-Crawler (2026)
-- Robots.txt: Hartes Limit für KI-Bots und Crawler (2026)
-- Schema.org Markup: Fakten-Wissensbasis für KIs (2026)
-- 'Semantic SEO: Themenwelten im Vektorraum steuern (2026)'
-- SEO Agentur: Vom Dienstleister zum KI-Architekt (2026)
-- SEO Audit: Der Guide inkl. KI-Readiness Check (2026)
-- SEO Beratung: Umbau für harte LLM-Architekturen (2026)
-- SEO Coaching: Werde zum LLM-Architekten (2026)
-- 'SEO Consulting: Strategische Architektur für KIs (2026)'
-- 'SEO Stammtisch Berlin: Netzwerken Hauptstadt (2026)'
-- Sichtbarkeit: KI-Crawler & Citation-Stability (2026)
+- Money Keywords: Harte LLM-Prompts statt Phrasen
+- 'Noindex: Seiten gnadenlos von der KI ausschließen'
+- OAuth/OIDC Discovery: Puzzleteil für Agenten
+- OAuth Protected Resource im A2A-Zeitalter
+- PageSpeed: Latenz ist der harte Ranking-Killer
+- Pressearbeit im SEO: Digital-PR für RAG-Trust
+- 'RAG: Das echte Gehirn-Doping für KI-Inhalte'
+- Rankingfaktoren: Was KIs wirklich bewerten
+- RFC 8288 Link Headers: HTTP für KI-Crawler
+- Robots.txt: Hartes Limit für KI-Bots und Crawler
+- Schema.org Markup: Fakten-Wissensbasis für KIs
+- 'Semantic SEO: Themenwelten im Vektorraum steuern'
+- SEO Agentur: Vom Dienstleister zum KI-Architekt
+- SEO Audit: Der Guide inkl. KI-Readiness Check
+- SEO Beratung: Umbau für harte LLM-Architekturen
+- SEO Coaching: Werde zum LLM-Architekten
+- 'SEO Consulting: Strategische Architektur für KIs'
+- 'SEO Stammtisch Berlin: Netzwerken Hauptstadt'
+- Sichtbarkeit: KI-Crawler & Citation-Stability
 - 'Sichtbarkeitsindex 2026: Das Ende der blauen Links'
-- Sichtbarkeitsmanagement: RAG-Steuerung (2026)
-- Sitemap: Echte Architektur für RAG-Pipelines (2026)
-- Snippet Optimierung: Agent-Sichtbarkeit pur (2026)
-- 'SOVP Protocol: Determinismus in ... (2026)'
-- Strukturierte Daten: Grounding & LLM-Fütterung (2026)
-- Suchvolumen: Nutzlose Metrik im KI-Zeitalter (2026)
-- Technisches Schema-Markup: Pure KI-Infrastruktur (2026)
-- Technisches SEO: LLM-Infrastruktur & KI-SEO (2026)
-- 'Title Tag: Der entscheidende Filter für ... (2026)'
-- Topical Authority: Königsdisziplin KI-Zeitalter (2026)
-- Traffic: Die Illusion der Klicks und Besucher (2026)
-- 'Trailing Slashes: SEO & Duplicate Content (2026)'
-- 'Trustworthiness: E-E-A-T Vertrauen (Basis ... (2026)'
-- Überstunde Berlin: Harte Fakten zum ... (2026)
-- Universal Commerce Protocol: Agenten-Commerce (2026)
-- 'Usability: Perfekte UX für Menschen und ... (2026)'
-- Web Bot Auth: Identität für KI-Agenten (2026)
-- WebMCP: Das KI-Update für Schnittstellen (2026)
-- Website Relaunch: Rettung vor hartem Pfusch (2026)
-- Website SEO Audit: Volle KI-Optimierung (2026)
-- 'WordPress SEO: Markdown & technische KI-Updates (2026)'
-- x402 Protokoll: Agent-Native Commerce für KI (2026)
-- XML-Sitemap: Die Zentrale für KI und Crawler (2026)
-- Zero-Click Content: Überleben als harte Entität (2026)
-- Zitierfähiger Content: Rankingfaktor #1 für KI (2026)
+- Sichtbarkeitsmanagement: RAG-Steuerung
+- Sitemap: Echte Architektur für RAG-Pipelines
+- Snippet Optimierung: Agent-Sichtbarkeit pur
+- 'SOVP Protocol: Determinismus in KI-Infrastrukturen'
+- Strukturierte Daten: Grounding & LLM-Fütterung
+- Suchvolumen: Nutzlose Metrik im KI-Zeitalter
+- Technisches Schema-Markup: Pure KI-Infrastruktur
+- Technisches SEO: LLM-Infrastruktur & KI-SEO
+- 'Title Tag: Der entscheidende Filter für KI-Crawler'
+- Topical Authority: Königsdisziplin KI-Zeitalter
+- Traffic: Die Illusion der Klicks und Besucher
+- 'Trailing Slashes: SEO & Duplicate Content'
+- 'Trustworthiness: E-E-A-T Vertrauen (Basis für KIs)'
+- Überstunde Berlin: Harte Fakten zum Network-Event
+- Universal Commerce Protocol: Agenten-Commerce
+- 'Usability: Perfekte UX für Menschen und Maschinen'
+- Web Bot Auth: Identität für KI-Agenten
+- WebMCP: Das KI-Update für Schnittstellen
+- Website Relaunch: Rettung vor hartem Pfusch
+- Website SEO Audit: Volle KI-Optimierung
+- 'WordPress SEO: Markdown & technische KI-Updates'
+- x402 Protokoll: Agent-Native Commerce für KI
+- XML-Sitemap: Die Zentrale für KI und Crawler
+- Zero-Click Content: Überleben als harte Entität
+- Zitierfähiger Content: Rankingfaktor #1 für KI
 
 ### Blog Articles
 
-- 2h SEO-Sprechstunde: Was ist wirklich möglich? (2026)
-- Warum wir SEO-Spezialisten zusammenhalten ... (2026)
-- Warum wir SEOs schuld am Internet-Zustand sind (2026)
+- 2h SEO-Sprechstunde: Was ist wirklich möglich?
+- Warum wir SEO-Spezialisten zusammenhalten sollten
+- Warum wir SEOs schuld am Internet-Zustand sind
 - SEO 2026: Alte Irrtümer & neue Wahrheiten
-- Website SEO Audit vs. Vibe Coding Agenten (2026)
-- Transparente SEO-Preise auf der Website ... (2026)
-- Mein Vorzeigebeispiel für KI: Der tl;dv ... (2026)
-- SEO Unternehmensberatung: Stefan auf der Campixx (2026)
-- Sistrix vs. SE Ranking: Welches Tool gewinnt? (2026)
-- Sistrix Podcast: Entitäten Mapping und ... (2026)
-- 'SEORCH Tool: Dein kostenloses OnPage SEO ... (2026)'
-- SEO Persönlich: Mein Interview bei SEOpresso (2026)
-- SEOpresso Podcast: Meine Empfehlung mit Max Muhr (2026)
-- SEO wird größer: Mit der GEO Welle nochmal ... (2026)
-- Der SEO Stammtisch Berlin auf der ... (2026)
-- Wie läuft so eine SEO-Sprechstunde genau ab? (2026)
-- SEO Sprechstunde: Vibe Coding & Sichtbarkeit (2026)
-- SEO-Sprechstunde: Website-Check & Sichtbarkeit (2026)
-- 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde (2026)
-- SEO-Relaunch: Warum ohne SEO das Desaster droht (2026)
-- Mein geheimer Mega-Prompt für SEO in Claude (2026)
-- Tatü Tata: Die SEO Feuerwehr rückt nun aus! (2026)
+- Website SEO Audit vs. Vibe Coding Agenten
+- Transparente SEO-Preise auf der Website: Meine Erfahrung
+- Mein Vorzeigebeispiel für KI: Der tl;dv Meeting Notetaker
+- SEO Unternehmensberatung: Stefan auf der Campixx
+- Sistrix vs. SE Ranking: Welches Tool gewinnt?
+- Sistrix Podcast: Entitäten Mapping mit Björn Darko
+- 'SEORCH Tool: Dein kostenloses OnPage SEO Werkzeug'
+- SEO Persönlich: Mein Interview bei SEOpresso
+- SEOpresso Podcast: Meine Empfehlung mit Max Muhr
+- SEO wird größer: GEO Welle für den Markenaufbau nutzen
+- Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer
+- Wie läuft so eine SEO-Sprechstunde genau ab?
+- SEO Sprechstunde: Vibe Coding & Sichtbarkeit
+- SEO-Sprechstunde: Website-Check & Sichtbarkeit
+- 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde
+- SEO-Relaunch: Warum ohne SEO das Desaster droht
+- Mein geheimer Mega-Prompt für SEO in Claude
+- Tatü Tata: Die SEO Feuerwehr rückt nun aus!
 - SE Ranking Preise 2026: Der Guide für Experten
-- 10 Gründe für das KI-Sichtbarkeit Tool von ... (2026)
-- SE Ranking in ChatGPT: Live SEO-Daten per Chat (2026)
-- SE Ranking API: Ein Kompass durch die Endpunkte (2026)
-- SE Ranking API mit Claude Code verbinden (2026)
-- SE Ranking API - Der Praxis-Test (2026)
-- SE Ranking AI Tracker: KI-Sichtbarkeit messen (2026)
-- 10 Gründe für SE Ranking in deiner SEO-Agentur (2026)
-- Warum reines SEO für gutes GEO nicht ... (2026)
-- Rankscale Update: API & ChatGPT Shopping Analyse (2026)
-- Rankscale Essentials: AI Visibility ab 20€ (2026)
-- Rankscale: 17 LLMs für 99€ monatlich tracken (2026)
-- Rankscale: Ein AI Visibility Tool für Profis (2026)
-- PageSpeed 100/100: So wurde die Website schnell (2026)
-- Meine erste OMR mit eigenem Stand: Lohnt ... (2026)
+- 10 Gründe für das KI-Sichtbarkeit Tool von SE Ranking
+- SE Ranking in ChatGPT: Live SEO-Daten per Chat
+- SE Ranking API: Ein Kompass durch die Endpunkte
+- SE Ranking API mit Claude Code verbinden
+- SE Ranking API - Der Praxis-Test
+- SE Ranking AI Tracker: KI-Sichtbarkeit messen
+- 10 Gründe für SE Ranking in deiner SEO-Agentur
+- Warum reines SEO für gutes GEO nicht ausreichen wird
+- Rankscale Update: API & ChatGPT Shopping Analyse
+- Rankscale Essentials: AI Visibility ab 20€
+- Rankscale: 17 LLMs für 99€ monatlich tracken
+- Rankscale: Ein AI Visibility Tool für Profis
+- PageSpeed 100/100: So wurde die Website schnell
+- Meine erste OMR mit eigenem Stand: Lohnt sich das?
 - Mission OMR 2026: 25 Freelancer vs. Großagentur
-- MS Clarity: Nutzerverhalten hart analysieren (2026)
-- AI Search Content Formate: Best Practices (2026)
-- Michael Kaufhold im Podcast Interview: SEO tot? (2026)
-- LinkedIn: Warum SEOs das Forum nutzen müssen (2026)
-- LinkedIn & Google Maps Bewertungen sammeln ... (2026)
+- MS Clarity: Nutzerverhalten hart analysieren
+- AI Search Content Formate: Best Practices
+- Michael Kaufhold im Podcast Interview: SEO tot?
+- LinkedIn: Warum SEOs das Forum nutzen müssen
+- LinkedIn & Google Maps Bewertungen sammeln: So geht's
 - Brief an Bots & Crawler: SEO-Insights 2026
-- Meine KI-Website: Auf dem Weg zum ... (2026)
-- GEO Transformation: Die neue SEO-Disziplin ... (2026)
-- Meine SEO-Highlights 2025: Der Jahresrückblick (2026)
-- Grounding Page Generator: Schutzschild gegen KI (2026)
-- GSC: Wer ist für die Einrichtung zuständig? (2026)
-- Google Ads Support vs. SEO: Die Wahrheit (2026)
-- GEO & AI Search: Sichtbarkeit völlig neu gedacht (2026)
-- GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024 (2026)
-- Agentic SEO: Warum GEO eine eigene Disziplin ist (2026)
+- Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten
+- GEO Transformation: Die neue SEO-Disziplin der AI Search
+- Meine SEO-Highlights 2025: Der Jahresrückblick
+- Grounding Page Generator: Schutzschild gegen KI
+- GSC: Wer ist für die Einrichtung zuständig?
+- Google Ads Support vs. SEO: Die Wahrheit
+- GEO & AI Search: Sichtbarkeit völlig neu gedacht
+- GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
+- Agentic SEO: Warum GEO eine eigene Disziplin ist
 - GEO Action Plan 2026: Guide zur KI-Sichtbarkeit
-- GEO Guide: Sichtbarkeit in ChatGPT & Gemini (2026)
-- Wir rocken die OMR: Das Freelancer Team vor Ort! (2026)
-- Freelance Unlocked: Lila T-Shirts + Softeis (2026)
+- GEO Guide: Sichtbarkeit in ChatGPT & Gemini
+- Wir rocken die OMR: Das Freelancer Team vor Ort!
+- Freelance Unlocked: Lila T-Shirts + Softeis
 - Freelance Unlocked 2026: Eis für die Community
-- Freelance Unlocked: Erfolgreiche Eiscreme-Aktion (2026)
-- SEO-Handwerk: Warum Qualität der USP ist (2026)
-- SEO-Qualität: Vom Dönerback bis zum Erfolg (2026)
-- Digitaler Unternehmensberater statt SEO (2026)
-- Core Web Vitals: Warum dein UX-Bericht zählt (2026)
-- Der Cloudflare Agent Readiness Scan ... (2026)
-- Vibe Coding: Echte KI-Workflows mit Roland Golla (2026)
-- Braucht SEO einen neuen Namen? Campixx Umfrage (2026)
-- Conversion-Optimierung: Nutzer vor Traffic (2026)
-- Bist du SEO AI Ready? Podcast mit Antonio Blago (2026)
-- 'SEO-Tools: AI Search & Prompt Tracking im Test (2026)'
-- GEO & AI-SEO: Warum kein Praktikanten-Job (2026)
-- GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit (2026)
-- AI Crawler, Markdown & Cloudflare ... (2026)
-- AI Crawlability als neue Disziplin im Tech SEO (2026)
-- 1. AI Connect Berlin: Vibe Coding & Gemini (2026)
-- Wenn AI-Agenten deinen LinkedIn-Feed kapern (2026)
-- Die 80%-Falle: Warum Websites an Basics ... (2026)
-- 25 Jahre SEO: Warum wir gleiche Fehler machen (2026)
+- Freelance Unlocked: Erfolgreiche Eiscreme-Aktion
+- SEO-Handwerk: Warum Qualität der USP ist
+- SEO-Qualität: Vom Dönerback bis zum Erfolg
+- Digitaler Unternehmensberater statt SEO
+- Core Web Vitals: Warum dein UX-Bericht zählt
+- Der Cloudflare Agent Readiness Scan: KI-Sichtbarkeit prüfen
+- Vibe Coding: Echte KI-Workflows mit Roland Golla
+- Braucht SEO einen neuen Namen? Campixx Umfrage
+- Conversion-Optimierung: Nutzer vor Traffic
+- Bist du SEO AI Ready? Podcast mit Antonio Blago
+- 'SEO-Tools: AI Search & Prompt Tracking im Test'
+- GEO & AI-SEO: Warum kein Praktikanten-Job
+- GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
+- AI Crawler, Markdown & Cloudflare: Bot-Optimierung
+- AI Crawlability als neue Disziplin im Tech SEO
+- 1. AI Connect Berlin: Vibe Coding & Gemini
+- Wenn AI-Agenten deinen LinkedIn-Feed kapern
+- Die 80%-Falle: Warum Websites an Basics scheitern
+- 25 Jahre SEO: Warum wir gleiche Fehler machen
 
 ---
 
 ## GLOSSARY
 
-### 301 vs. 302 Redirects: Der KI-Deep-Dive (2026)
+### 301 vs. 302 Redirects: Der KI-Deep-Dive
 
 
 Moin! 🌻
@@ -408,7 +408,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 404 Fehlerseiten: Wie sie KI-SEO zerstören (2026)
+### 404 Fehlerseiten: Wie sie KI-SEO zerstören
 
 
 Moin! 🌻
@@ -508,7 +508,7 @@ ALOHA 🌻
 
 ---
 
-### A2A Protocol: Standard für KI-Agenten (2026)
+### A2A Protocol: Standard für KI-Agenten
 
 
 Moin! 🌻
@@ -620,7 +620,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### AEO: Zukunft der Answer Engine Optimization (2026)
+### AEO: Zukunft der Answer Engine Optimization
 
 
 Moin! 🌻
@@ -723,7 +723,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### agent-card.json: Der Ausweis für KI-Agenten (2026)
+### agent-card.json: Der Ausweis für KI-Agenten
 
 
 Moin! 🌻
@@ -829,7 +829,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 'Agent Payments Protocol: KI-Zahlungen erklärt (2026)'
+### 'Agent Payments Protocol: KI-Zahlungen erklärt'
 
 
 ![Agent Payments Protocol AP2, Wallet Transactions, Smart Contracts - 3D Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-agent-payments-protocol-ap2-3d.webp)
@@ -880,7 +880,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Agent Readiness Level: Metrik für autonome KIs (2026)
+### Agent Readiness Level: Metrik für autonome KIs
 
 
 Moin! 🌻
@@ -957,7 +957,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Agent Readiness: Optimierung für KI-Agenten (2026)
+### Agent Readiness: Optimierung für KI-Agenten
 
 
 Moin! 🌻
@@ -1022,7 +1022,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Agent Skills: KI-Agenten extrem aufrüsten (2026)
+### Agent Skills: KI-Agenten extrem aufrüsten
 
 
 Moin! 🌻
@@ -1068,7 +1068,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Agentic Commerce Protocol: KIs kaufen für dich (2026)
+### Agentic Commerce Protocol: KIs kaufen für dich
 
 
 Moin! 🌻
@@ -1101,7 +1101,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### agents.md: Das offene README für KI-Agenten (2026)
+### agents.md: Das offene README für KI-Agenten
 
 
 Moin! 🌻
@@ -1191,7 +1191,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### AI Crawlability: Maschinenlesbarkeit für ... (2026)
+### AI Crawlability: Maschinenlesbarkeit für Answer Engines
 
 
 # AI Crawlability: Die neue Disziplin im Tech SEO
@@ -1245,7 +1245,7 @@ Habe fertig. ALOHA! 🌻✌️
 
 ---
 
-### ai-plugin.json: Warum ChatGPT Plugins tot sind (2026)
+### ai-plugin.json: Warum ChatGPT Plugins tot sind
 
 
 Moin! 🌻
@@ -1320,7 +1320,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### AI Search Engine: Die Evolution der ... (2026)
+### AI Search Engine: Die Evolution der Suchmaschinen
 
 
 # AI Search Engine: Das Ende der "10 blauen Links"
@@ -1387,7 +1387,7 @@ Habe fertig. ALOHA! 🌻✌️
 
 ---
 
-### 'AI SEO: Mach deine Website bereit für KI-Agenten (2026)'
+### 'AI SEO: Mach deine Website bereit für KI-Agenten'
 
 
 Moin! 🌻
@@ -1463,7 +1463,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### AI Tracking Tools: Wahre Sichtbarkeit messen (2026)
+### AI Tracking Tools: Wahre Sichtbarkeit messen
 
 
 Moin! 🌻
@@ -1537,7 +1537,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### ai.txt SEO: Volle Agent Readiness erreichen (2026)
+### ai.txt SEO: Volle Agent Readiness erreichen
 
 
 # ai.txt, robots.txt & llms.txt: Bot-Steuerung 2026
@@ -1575,7 +1575,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Agentic Resource Discovery: Der harte Standard (2026)
+### Agentic Resource Discovery: Der harte Standard
 
 
 # Agentic Resource Discovery: Die ai-catalog.json
@@ -1615,7 +1615,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### auth.md: Autonome KI Kunden-Anmeldung ohne ... (2026)
+### auth.md: Autonome KI Kunden-Anmeldung ohne Captcha
 
 
 # auth.md
@@ -1654,7 +1654,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Authoritativeness: E-E-A-T Autorität im KI-SEO (2026)
+### Authoritativeness: E-E-A-T Autorität im KI-SEO
 
 
 # Authoritativeness (E-E-A-T) 2026
@@ -1697,7 +1697,7 @@ ALOHA 🌻
 
 ---
 
-### 'Bing Webmaster Tools: Absolute Pflicht für ... (2026)'
+### 'Bing Webmaster Tools: Absolute Pflicht für KI-SEO'
 
 
 # Bing Webmaster Tools (BWT) im KI-Zeitalter
@@ -1737,7 +1737,7 @@ ALOHA! 🌻
 
 ---
 
-### Brand Mentions: Warum KI Entitäten liebt (2026)
+### Brand Mentions: Warum KI Entitäten liebt
 
 
 Moin! 🌻
@@ -1810,7 +1810,7 @@ ALOHA! 🌻
 
 ---
 
-### Campixx Berlin: SEO-Konferenz im KI-Zeitalter (2026)
+### Campixx Berlin: SEO-Konferenz im KI-Zeitalter
 
 
 Moin! 🌻
@@ -1884,7 +1884,7 @@ ALOHA! 🌻
 
 ---
 
-### Canonical Tag: Schluss mit Duplicate Content (2026)
+### Canonical Tag: Schluss mit Duplicate Content
 
 
 Moin! 🌻
@@ -1977,7 +1977,7 @@ ALOHA! 🌻
 
 ---
 
-### ChatGPT SEO: Ranken in der Zero-Click-Reality (2026)
+### ChatGPT SEO: Ranken in der Zero-Click-Reality
 
 
 Moin! 🌻
@@ -2068,7 +2068,7 @@ ALOHA! 🌻
 
 ---
 
-### 'Citation: Struktur und Entity-Resolution erklärt (2026)'
+### 'Citation: Struktur und Entity-Resolution erklärt'
 
 
 Moin! 🌻
@@ -2184,7 +2184,7 @@ ALOHA! 🌻
 
 ---
 
-### Cloudflare Agent Readiness Checklist: Der Guide (2026)
+### Cloudflare Agent Readiness Checklist: Der Guide
 
 
 Moin! 🌻
@@ -2251,7 +2251,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Content-Signale: Klare Regeln für AI-Crawler (2026)
+### Content-Signale: Klare Regeln für AI-Crawler
 
 
 Moin! 🌻
@@ -2301,7 +2301,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Conversion Rate: Harte Optimierung für AI (2026)
+### Conversion Rate: Harte Optimierung für AI
 
 
 Moin! 🌻
@@ -2382,7 +2382,7 @@ ALOHA! 🌻
 
 ---
 
-### Core Web Vitals: Rendering-Metriken im Detail (2026)
+### Core Web Vitals: Rendering-Metriken im Detail
 
 
 Moin! 🌻
@@ -2471,7 +2471,7 @@ ALOHA! 🌻
 
 ---
 
-### 'CPC: Cost per Click & Agentic Real-Time Bidding (2026)'
+### 'CPC: Cost per Click & Agentic Real-Time Bidding'
 
 
 Moin! 🌻
@@ -2546,7 +2546,7 @@ ALOHA! 🌻
 
 ---
 
-### Crawler: Bots, RAG-Pipelines und llms.txt (2026)
+### Crawler: Bots, RAG-Pipelines und llms.txt
 
 
 Moin! 🌻
@@ -2634,7 +2634,7 @@ ALOHA! 🌻
 
 ---
 
-### Click-Through-Rate: Interaktionen im AI-Web (2026)
+### Click-Through-Rate: Interaktionen im AI-Web
 
 
 Moin! 🌻
@@ -2719,7 +2719,7 @@ ALOHA! 🌻
 
 ---
 
-### DNS-AID: Das Telefonbuch für KI-Agenten (2026)
+### DNS-AID: Das Telefonbuch für KI-Agenten
 
 
 Moin! 🌻
@@ -2773,7 +2773,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### DNS Sovereignty: Dein Nameserver entscheidet (2026)
+### DNS Sovereignty: Dein Nameserver entscheidet
 
 
 Moin! 🌻
@@ -2847,7 +2847,7 @@ ALOHA! 🌻
 
 ---
 
-### E-E-A-T: Harte Währung für RAG-Systeme (2026)
+### E-E-A-T: Harte Währung für RAG-Systeme
 
 
 Moin! 🌻
@@ -2949,7 +2949,7 @@ ALOHA 🌻
 
 ---
 
-### 'Entität: Das Fundament jeder modernen ... (2026)'
+### 'Entität: Das Fundament jeder modernen LLM-Pipeline'
 
 
 Moin!
@@ -3037,7 +3037,7 @@ ALOHA 🌻
 
 ---
 
-### Entitäten-Building: Autorität in der LLM-Suche (2026)
+### Entitäten-Building: Autorität in der LLM-Suche
 
 
 Moin!
@@ -3115,7 +3115,7 @@ ALOHA 🌻
 
 ---
 
-### Entity SEO: Vektorraum-Ranking für KI-Crawler (2026)
+### Entity SEO: Vektorraum-Ranking für KI-Crawler
 
 
 Moin!
@@ -3187,7 +3187,7 @@ ALOHA 🌻
 
 ---
 
-### Experience: Praxiserfahrung schlägt KI-Müll (2026)
+### Experience: Praxiserfahrung schlägt KI-Müll
 
 
 Moin! 🌻
@@ -3260,7 +3260,7 @@ ALOHA 🌻✌️
 
 ---
 
-### Expertise: Thematische Vektortiefe für Crawler (2026)
+### Expertise: Thematische Vektortiefe für Crawler
 
 
 Moin! 🌻
@@ -3339,7 +3339,7 @@ ALOHA 🌻✌️
 
 ---
 
-### 'FAQ Markup: Harte Daten für deine RAG-Pipeline (2026)'
+### 'FAQ Markup: Harte Daten für deine RAG-Pipeline'
 
 
 Moin! 🌻
@@ -3406,7 +3406,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 'GEO Agentur (Generative Engine Optimization) (2026)'
+### 'GEO Agentur (Generative Engine Optimization)'
 
 
 Moin!
@@ -3500,7 +3500,7 @@ ALOHA 🌻
 
 ---
 
-### GEO Audit: Stresstest für KI-Sichtbarkeit (2026)
+### GEO Audit: Stresstest für KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -3588,7 +3588,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO Freelancer: Data-Engineers für KI-Suchen (2026)
+### GEO Freelancer: Data-Engineers für KI-Suchen
 
 
 Moin! 🌻
@@ -3664,7 +3664,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 'GEO Optimierung: Die Währung für ... (2026)'
+### 'GEO Optimierung: Die Währung für RAG-Sichtbarkeit'
 
 
 Moin! 🌻
@@ -3757,7 +3757,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO Tool: Software für messbare KI-Sichtbarkeit (2026)
+### GEO Tool: Software für messbare KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -3820,7 +3820,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO vs SEO: Architektur-Shift in LLM-Pipelines (2026)
+### GEO vs SEO: Architektur-Shift in LLM-Pipelines
 
 
 Moin! 🌻
@@ -3908,7 +3908,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO: Generative Engine Optimization für KI (2026)
+### GEO: Generative Engine Optimization für KI
 
 
 Moin! 🌻
@@ -4022,7 +4022,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 'Google Algorithmus: Der Wächter der KI-Overviews (2026)'
+### 'Google Algorithmus: Der Wächter der KI-Overviews'
 
 
 Moin! Jörg Zimmer hier aus Berlin. 
@@ -4107,7 +4107,7 @@ ALOHA 🌻
 
 ---
 
-### Google Core Update: Qualitätshammer für AI (2026)
+### Google Core Update: Qualitätshammer für AI
 
 
 Moin! 
@@ -4185,7 +4185,7 @@ ALOHA 🌻
 
 ---
 
-### Google Search Console: Schnelle Einrichtung (2026)
+### Google Search Console: Schnelle Einrichtung
 
 
 # Google Search Console einrichten: Der Tacheles-Guide zur Domain-Property
@@ -4261,7 +4261,7 @@ Boom! Das war’s. Du hast deine Hausaufgaben gemacht.
 
 ---
 
-### Google Search Console: Radar für Sichtbarkeit (2026)
+### Google Search Console: Radar für Sichtbarkeit
 
 
 Moin! 🌻
@@ -4331,7 +4331,7 @@ ALOHA 🌻
 
 ---
 
-### Grounding Page: Der Maschinen-Anker für AI SEO (2026)
+### Grounding Page: Der Maschinen-Anker für AI SEO
 
 
 Moin!
@@ -4410,7 +4410,7 @@ ALOHA 🌻
 
 ---
 
-### 'Überschriften (H1-H3): Klare Signale für die KI (2026)'
+### 'Überschriften (H1-H3): Klare Signale für die KI'
 
 
 Moin! 🌻
@@ -4520,7 +4520,7 @@ ALOHA! Jörg 🌻✌️
 
 ---
 
-### HTML-Struktur: Semantik für KI-Crawler & RAG (2026)
+### HTML-Struktur: Semantik für KI-Crawler & RAG
 
 
 Moin! 🌻
@@ -4589,7 +4589,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### HTTP Message Signatures: Sichere A2A-APIs (2026)
+### HTTP Message Signatures: Sichere A2A-APIs
 
 
 # HTTP Message Signatures (RFC 9421): Sicherheit für Agent-to-Agent Kommunikation
@@ -4663,7 +4663,7 @@ DALL-E Prompt: All text in GERMAN: "RFC 9421 SICHERHEIT". A highly futuristic, g
 
 ---
 
-### Identity JSON: Das Gesicht deiner Entität (2026)
+### Identity JSON: Das Gesicht deiner Entität
 
 
 # Identity JSON (JSON-LD): Das maschinenlesbare Gesicht deiner Marke
@@ -4838,7 +4838,7 @@ DALL-E Prompt: All text in GERMAN: "INTERNE VERLINKUNG 2026". A highly futuristi
 
 ---
 
-### Keywords: Semantische Entitäten statt Strings (2026)
+### Keywords: Semantische Entitäten statt Strings
 
 
 # Keywords 2026: Von Text-Strings zu semantischen Entitäten
@@ -4919,7 +4919,7 @@ DALL-E Prompt: All text in GERMAN: "KEYWORDS 2026". A highly futuristic, glowing
 
 ---
 
-### 'Keyword Tools: Von simplem Volumen zu AI ... (2026)'
+### 'Keyword Tools: Von simplem Volumen zu AI Discovery'
 
 
 # Keyword Tools in 2026: Von Suchvolumen zu AI Discovery
@@ -5013,7 +5013,7 @@ DALL-E Prompt: All text in GERMAN: "KEYWORD TOOLS 2026". A highly futuristic, gl
 
 ---
 
-### Keywordrecherche: Semantische Basis für SEO (2026)
+### Keywordrecherche: Semantische Basis für SEO
 
 
 # Keywordrecherche: Die semantische Basis jeder SEO-Strategie
@@ -5112,7 +5112,7 @@ DALL-E Prompt: All text in GERMAN: "KEYWORD RECHERCHE 2026". A highly futuristic
 
 ---
 
-### KI-SEO Beratung: Agentur für die Antwort-Ära (2026)
+### KI-SEO Beratung: Agentur für die Antwort-Ära
 
 
 Moin! 🌻
@@ -5197,7 +5197,7 @@ ALOHA! Jörg
 
 ---
 
-### KI-Sichtbarkeit messen: Harte Fakten und Guide (2026)
+### KI-Sichtbarkeit messen: Harte Fakten und Guide
 
 
 Moin! 🌻
@@ -5280,7 +5280,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### KI Sichtbarkeit: So wirst du in ChatGPT & ... (2026)
+### KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert
 
 
 Moin! 🌻
@@ -5344,7 +5344,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Knowledge Graph: Gehirn der generativen Suche (2026)
+### Knowledge Graph: Gehirn der generativen Suche
 
 
 Moin! 🌻
@@ -5422,7 +5422,7 @@ ALOHA! Jörg
 
 ---
 
-### 'Linkbuilding: Der Weg zu echten Entity-Citations (2026)'
+### 'Linkbuilding: Der Weg zu echten Entity-Citations'
 
 
 Moin! 🌻
@@ -5497,7 +5497,7 @@ ALOHA! Jörg 🌻✌️
 
 ---
 
-### Linkjuice: Vom PageRank zum Entity-Trust (2026)
+### Linkjuice: Vom PageRank zum Entity-Trust
 
 
 Moin! 🌻
@@ -5597,7 +5597,7 @@ ALOHA! Jörg 🌻✌️
 
 ---
 
-### LLM-Optimization (LLMO): SEO für Sprachmodelle (2026)
+### LLM-Optimization (LLMO): SEO für Sprachmodelle
 
 
 Moin!
@@ -5685,7 +5685,7 @@ ALOHA! Jörg
 
 ---
 
-### LLMs-full.txt: Die harte Wahrheit zum KI-Trend (2026)
+### LLMs-full.txt: Die harte Wahrheit zum KI-Trend
 
 
 Moin zusammen! Jörg Zimmer hier. 
@@ -5755,7 +5755,7 @@ ALOHA 🌻
 
 ---
 
-### llms.txt: Der Community-Standard für Crawler (2026)
+### llms.txt: Der Community-Standard für Crawler
 
 
 Moin! Jörg hier. 
@@ -5830,7 +5830,7 @@ ALOHA 🌻
 
 ---
 
-### 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten (2026)'
+### 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten'
 
 
 Moin! 🌻
@@ -5912,7 +5912,7 @@ ALOHA! Jörg
 
 ---
 
-### Machine Payment Protocol (MPP) – KI bezahlt ... (2026)
+### Machine Payment Protocol (MPP) – KI bezahlt selbst
 
 
 Moin! 🌻
@@ -5980,7 +5980,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Markdown Content Negotiation: AEO Optimierung (2026)
+### Markdown Content Negotiation: AEO Optimierung
 
 
 Moin! Jörg Zimmer hier. 
@@ -6084,7 +6084,7 @@ ALOHA 🌻✌️
 
 ---
 
-### Markenaufbau mit SEO: Brand-Entitäten als RAG (2026)
+### Markenaufbau mit SEO: Brand-Entitäten als RAG
 
 
 Moin! 🌻
@@ -6218,7 +6218,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Mention: Relevanz in LLM-Pipelines aufbauen (2026)
+### Mention: Relevanz in LLM-Pipelines aufbauen
 
 
 Moin!
@@ -6485,7 +6485,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Money Keywords: Harte LLM-Prompts statt Phrasen (2026)
+### Money Keywords: Harte LLM-Prompts statt Phrasen
 
 
 ![Money Keyword 3D Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-money-keyword-3d.webp)
@@ -6568,7 +6568,7 @@ ALOHA! Jörg 🌻✌️
 
 ---
 
-### 'Noindex: Seiten gnadenlos von der KI ... (2026)'
+### 'Noindex: Seiten gnadenlos von der KI ausschließen'
 
 
 Moin! 🌻
@@ -6651,7 +6651,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### OAuth/OIDC Discovery: Puzzleteil für Agenten (2026)
+### OAuth/OIDC Discovery: Puzzleteil für Agenten
 
 
 Moin! 🌻
@@ -6714,7 +6714,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### OAuth Protected Resource im A2A-Zeitalter (2026)
+### OAuth Protected Resource im A2A-Zeitalter
 
 
 Moin! 🌻
@@ -6762,7 +6762,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### PageSpeed: Latenz ist der harte Ranking-Killer (2026)
+### PageSpeed: Latenz ist der harte Ranking-Killer
 
 
 Moin!
@@ -6829,7 +6829,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Pressearbeit im SEO: Digital-PR für RAG-Trust (2026)
+### Pressearbeit im SEO: Digital-PR für RAG-Trust
 
 
 ![Pressearbeit 3D Infografik](https://teleschmie.de/assets/images/glossar/3d-light/glossar-mention-3d.webp)
@@ -6901,7 +6901,7 @@ ALOHA! Jörg 🌻✌️
 
 ---
 
-### 'RAG: Das echte Gehirn-Doping für KI-Inhalte (2026)'
+### 'RAG: Das echte Gehirn-Doping für KI-Inhalte'
 
 
 Moin! 🌻
@@ -6959,7 +6959,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Rankingfaktoren: Was KIs wirklich bewerten (2026)
+### Rankingfaktoren: Was KIs wirklich bewerten
 
 
 Moin! 🌻
@@ -7032,7 +7032,7 @@ ALOHA! Jörg 🌻✌️
 
 ---
 
-### RFC 8288 Link Headers: HTTP für KI-Crawler (2026)
+### RFC 8288 Link Headers: HTTP für KI-Crawler
 
 
 # RFC 8288 Link Headers und die Revolution der KI Navigation
@@ -7113,7 +7113,7 @@ All text in GERMAN: RFC 8288 Link Headers. A cutting-edge, isometric 3D infograp
 
 ---
 
-### Robots.txt: Hartes Limit für KI-Bots und Crawler (2026)
+### Robots.txt: Hartes Limit für KI-Bots und Crawler
 
 
 Moin!
@@ -7219,7 +7219,7 @@ ALOHA! Jörg
 
 ---
 
-### Schema.org Markup: Fakten-Wissensbasis für KIs (2026)
+### Schema.org Markup: Fakten-Wissensbasis für KIs
 
 
 Moin! 🌻
@@ -7316,7 +7316,7 @@ All text in GERMAN: Schema.org Markup. A cutting-edge, isometric 3D infographic 
 
 ---
 
-### 'Semantic SEO: Themenwelten im Vektorraum steuern (2026)'
+### 'Semantic SEO: Themenwelten im Vektorraum steuern'
 
 
 Moin! 🌻
@@ -7401,7 +7401,7 @@ All text in GERMAN: Semantic SEO 2026. A cutting-edge, isometric 3D infographic 
 
 ---
 
-### SEO Agentur: Vom Dienstleister zum KI-Architekt (2026)
+### SEO Agentur: Vom Dienstleister zum KI-Architekt
 
 
 Moin!
@@ -7476,7 +7476,7 @@ All text in GERMAN: LLM Architekt SEO. A cutting-edge, isometric 3D infographic 
 
 ---
 
-### SEO Audit: Der Guide inkl. KI-Readiness Check (2026)
+### SEO Audit: Der Guide inkl. KI-Readiness Check
 
 
 Moin!
@@ -7558,7 +7558,7 @@ ALOHA! Jörg
 
 ---
 
-### SEO Beratung: Umbau für harte LLM-Architekturen (2026)
+### SEO Beratung: Umbau für harte LLM-Architekturen
 
 
 Moin!
@@ -7628,7 +7628,7 @@ ALOHA! 🌻
 
 ---
 
-### SEO Coaching: Werde zum LLM-Architekten (2026)
+### SEO Coaching: Werde zum LLM-Architekten
 
 
 Moin!
@@ -7694,7 +7694,7 @@ ALOHA! 🌻
 
 ---
 
-### 'SEO Consulting: Strategische Architektur für KIs (2026)'
+### 'SEO Consulting: Strategische Architektur für KIs'
 
 
 Moin!
@@ -7751,7 +7751,7 @@ ALOHA! 🌻
 
 ---
 
-### 'SEO Stammtisch Berlin: Netzwerken Hauptstadt (2026)'
+### 'SEO Stammtisch Berlin: Netzwerken Hauptstadt'
 
 
 Moin!
@@ -7828,7 +7828,7 @@ ALOHA 🌻
 
 ---
 
-### Sichtbarkeit: KI-Crawler & Citation-Stability (2026)
+### Sichtbarkeit: KI-Crawler & Citation-Stability
 
 
 Moin! 🌻
@@ -7971,7 +7971,7 @@ ALOHA! 🌻
 
 ---
 
-### Sichtbarkeitsmanagement: RAG-Steuerung (2026)
+### Sichtbarkeitsmanagement: RAG-Steuerung
 
 
 Moin!
@@ -8044,7 +8044,7 @@ ALOHA! 🌻
 
 ---
 
-### Sitemap: Echte Architektur für RAG-Pipelines (2026)
+### Sitemap: Echte Architektur für RAG-Pipelines
 
 
 Moin!
@@ -8108,7 +8108,7 @@ ALOHA! 🌻
 
 ---
 
-### Snippet Optimierung: Agent-Sichtbarkeit pur (2026)
+### Snippet Optimierung: Agent-Sichtbarkeit pur
 
 
 Moin! 🌻
@@ -8180,7 +8180,7 @@ ALOHA! 🌻
 
 ---
 
-### 'SOVP Protocol: Determinismus in ... (2026)'
+### 'SOVP Protocol: Determinismus in KI-Infrastrukturen'
 
 
 Moin! 🌻
@@ -8245,7 +8245,7 @@ All text in GERMAN: [SOVP, Determinismus, RFC 8785, Sicherheit, Litzki Systems].
 
 ---
 
-### Strukturierte Daten: Grounding & LLM-Fütterung (2026)
+### Strukturierte Daten: Grounding & LLM-Fütterung
 
 
 Moin! 🌻
@@ -8298,7 +8298,7 @@ ALOHA! 🌻
 
 ---
 
-### Suchvolumen: Nutzlose Metrik im KI-Zeitalter (2026)
+### Suchvolumen: Nutzlose Metrik im KI-Zeitalter
 
 
 Moin! 🌻
@@ -8368,7 +8368,7 @@ ALOHA! 🌻 Jörg
 
 ---
 
-### Technisches Schema-Markup: Pure KI-Infrastruktur (2026)
+### Technisches Schema-Markup: Pure KI-Infrastruktur
 
 
 Moin! 🌻
@@ -8435,7 +8435,7 @@ ALOHA 🌻
 
 ---
 
-### Technisches SEO: LLM-Infrastruktur & KI-SEO (2026)
+### Technisches SEO: LLM-Infrastruktur & KI-SEO
 
 
 Moin! 🌻
@@ -8507,7 +8507,7 @@ ALOHA 🌻
 
 ---
 
-### 'Title Tag: Der entscheidende Filter für ... (2026)'
+### 'Title Tag: Der entscheidende Filter für KI-Crawler'
 
 
 Moin!
@@ -8606,7 +8606,7 @@ ALOHA! Jörg 🌻
 
 ---
 
-### Topical Authority: Königsdisziplin KI-Zeitalter (2026)
+### Topical Authority: Königsdisziplin KI-Zeitalter
 
 
 Moin! 🌻
@@ -8675,7 +8675,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Traffic: Die Illusion der Klicks und Besucher (2026)
+### Traffic: Die Illusion der Klicks und Besucher
 
 
 Moin!
@@ -8753,7 +8753,7 @@ ALOHA! Jörg 🌻
 
 ---
 
-### 'Trailing Slashes: SEO & Duplicate Content (2026)'
+### 'Trailing Slashes: SEO & Duplicate Content'
 
 
 Moin! 🌻
@@ -8862,7 +8862,7 @@ ALOHA 🌻
 
 ---
 
-### 'Trustworthiness: E-E-A-T Vertrauen (Basis ... (2026)'
+### 'Trustworthiness: E-E-A-T Vertrauen (Basis für KIs)'
 
 
 Moin!
@@ -8952,7 +8952,7 @@ ALOHA 🌻
 
 ---
 
-### Überstunde Berlin: Harte Fakten zum ... (2026)
+### Überstunde Berlin: Harte Fakten zum Network-Event
 
 
 Moin!
@@ -9023,7 +9023,7 @@ ALOHA 🌻
 
 ---
 
-### Universal Commerce Protocol: Agenten-Commerce (2026)
+### Universal Commerce Protocol: Agenten-Commerce
 
 
 ![3D Infografik zum Universal Commerce Protocol (UCP), Agenten-Commerce und KI-Verhandlungen](https://teleschmie.de/assets/images/glossar/3d-light/glossar-universal-commerce-protocol-ucp-3d.webp)
@@ -9078,7 +9078,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 'Usability: Perfekte UX für Menschen und ... (2026)'
+### 'Usability: Perfekte UX für Menschen und Maschinen'
 
 
 ![Usability 3D Infografik: User Experience für Mensch und Maschine optimieren](https://teleschmie.de/assets/images/glossar/3d-light/glossar-usability-3d.webp)
@@ -9174,7 +9174,7 @@ ALOHA! 🌻
 
 ---
 
-### Web Bot Auth: Identität für KI-Agenten (2026)
+### Web Bot Auth: Identität für KI-Agenten
 
 
 ![3D-Infografik: Bot-Authentifizierung, Reverse-DNS und Agenten-Verifizierung](https://teleschmie.de/assets/images/glossar/3d-light/glossar-web-bot-auth-3d.webp)
@@ -9231,7 +9231,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### WebMCP: Das KI-Update für Schnittstellen (2026)
+### WebMCP: Das KI-Update für Schnittstellen
 
 
 Moin! 🌻
@@ -9267,7 +9267,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Website Relaunch: Rettung vor hartem Pfusch (2026)
+### Website Relaunch: Rettung vor hartem Pfusch
 
 
 Moin! 🌻
@@ -9356,7 +9356,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Website SEO Audit: Volle KI-Optimierung (2026)
+### Website SEO Audit: Volle KI-Optimierung
 
 
 Moin! 🌻
@@ -9453,7 +9453,7 @@ ALOHA 🌻
 
 ---
 
-### 'WordPress SEO: Markdown & technische KI-Updates (2026)'
+### 'WordPress SEO: Markdown & technische KI-Updates'
 
 
 Moin! 🌻
@@ -9533,7 +9533,7 @@ ALOHA 🌻
 
 ---
 
-### x402 Protokoll: Agent-Native Commerce für KI (2026)
+### x402 Protokoll: Agent-Native Commerce für KI
 
 Moin! 🌻
 
@@ -9569,7 +9569,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### XML-Sitemap: Die Zentrale für KI und Crawler (2026)
+### XML-Sitemap: Die Zentrale für KI und Crawler
 
 
 Moin! 🌻
@@ -9631,7 +9631,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Zero-Click Content: Überleben als harte Entität (2026)
+### Zero-Click Content: Überleben als harte Entität
 
 
 Moin!
@@ -9709,7 +9709,7 @@ ALOHA 🌻
 
 ---
 
-### Zitierfähiger Content: Rankingfaktor #1 für KI (2026)
+### Zitierfähiger Content: Rankingfaktor #1 für KI
 
 
 Moin!
@@ -9806,7 +9806,7 @@ ALOHA 🌻
 
 ## BLOG ARTICLES
 
-### 2h SEO-Sprechstunde: Was ist wirklich möglich? (2026)
+### 2h SEO-Sprechstunde: Was ist wirklich möglich?
 
 
 Moin! 🌻
@@ -9856,7 +9856,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Warum wir SEO-Spezialisten zusammenhalten ... (2026)
+### Warum wir SEO-Spezialisten zusammenhalten sollten
 
 
 Moin! 🌻
@@ -9965,7 +9965,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Warum wir SEOs schuld am Internet-Zustand sind (2026)
+### Warum wir SEOs schuld am Internet-Zustand sind
 
 
 Moin! 🌻
@@ -10136,7 +10136,7 @@ Jetzt Sprechstunde buchen
 
 ---
 
-### Website SEO Audit vs. Vibe Coding Agenten (2026)
+### Website SEO Audit vs. Vibe Coding Agenten
 
 
 Moin! 🌻
@@ -10174,7 +10174,7 @@ Aloha! 🌻✌️
 
 ---
 
-### Transparente SEO-Preise auf der Website ... (2026)
+### Transparente SEO-Preise auf der Website: Meine Erfahrung
 
 
 Moin! 🌻
@@ -10253,7 +10253,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Mein Vorzeigebeispiel für KI: Der tl;dv ... (2026)
+### Mein Vorzeigebeispiel für KI: Der tl;dv Meeting Notetaker
 
 
 Moin! 🌻
@@ -10304,7 +10304,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SEO Unternehmensberatung: Stefan auf der Campixx (2026)
+### SEO Unternehmensberatung: Stefan auf der Campixx
 
 
 Moin! 🌻
@@ -10345,7 +10345,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Sistrix vs. SE Ranking: Welches Tool gewinnt? (2026)
+### Sistrix vs. SE Ranking: Welches Tool gewinnt?
 
 
 ALOHA 🌻! 🌻
@@ -10461,12 +10461,12 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 
 ---
 
-### Sistrix Podcast: Entitäten Mapping und ... (2026)
+### Sistrix Podcast: Entitäten Mapping mit Björn Darko
 
 
 ---
 
-### 'SEORCH Tool: Dein kostenloses OnPage SEO ... (2026)'
+### 'SEORCH Tool: Dein kostenloses OnPage SEO Werkzeug'
 
 
 Moin! 🌻
@@ -10531,7 +10531,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SEO Persönlich: Mein Interview bei SEOpresso (2026)
+### SEO Persönlich: Mein Interview bei SEOpresso
 
 
 Moin! 🌻
@@ -10643,7 +10643,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SEOpresso Podcast: Meine Empfehlung mit Max Muhr (2026)
+### SEOpresso Podcast: Meine Empfehlung mit Max Muhr
 
 
 Moin! 🌻
@@ -10705,7 +10705,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SEO wird größer: Mit der GEO Welle nochmal ... (2026)
+### SEO wird größer: GEO Welle für den Markenaufbau nutzen
 
 
 SEO wird größer. Mit der GEO Welle nochmal mehr. Dieses umfassende Optimieren fordert aber auch Ressourcen und Budget. All das bewegt sich in Richtung Markenaufbau. Das wussten wir SEO Spezialisten schon immer, die Freigaben zur Optimierung des gesamten digitalen Fußabdrucks gab es dann oft nicht.
@@ -10730,7 +10730,7 @@ Das Spiel wird größer und erweitert sich auch.
 
 ---
 
-### Der SEO Stammtisch Berlin auf der ... (2026)
+### Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer
 
 
 Moin! 🌻
@@ -10800,7 +10800,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Wie läuft so eine SEO-Sprechstunde genau ab? (2026)
+### Wie läuft so eine SEO-Sprechstunde genau ab?
 
 
 Moin! 🌻
@@ -10877,7 +10877,7 @@ ALOHA 🌻!
 
 ---
 
-### SEO Sprechstunde: Vibe Coding & Sichtbarkeit (2026)
+### SEO Sprechstunde: Vibe Coding & Sichtbarkeit
 
 
 Moin! 🌻
@@ -11036,7 +11036,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SEO-Sprechstunde: Website-Check & Sichtbarkeit (2026)
+### SEO-Sprechstunde: Website-Check & Sichtbarkeit
 
 
 Moin! 🌻
@@ -11114,7 +11114,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde (2026)
+### 5 Sterne: Kunden-Feedback zur SEO-Sprechstunde
 
 
 Moin! 🌻
@@ -11199,7 +11199,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SEO-Relaunch: Warum ohne SEO das Desaster droht (2026)
+### SEO-Relaunch: Warum ohne SEO das Desaster droht
 
 
 Moin! 🌻
@@ -11274,7 +11274,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Mein geheimer Mega-Prompt für SEO in Claude (2026)
+### Mein geheimer Mega-Prompt für SEO in Claude
 
 
 Moin! 🌻
@@ -11352,7 +11352,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Tatü Tata: Die SEO Feuerwehr rückt nun aus! (2026)
+### Tatü Tata: Die SEO Feuerwehr rückt nun aus!
 
 
 Moin! 🌻
@@ -11564,7 +11564,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### 10 Gründe für das KI-Sichtbarkeit Tool von ... (2026)
+### 10 Gründe für das KI-Sichtbarkeit Tool von SE Ranking
 
 
 Moin! 🌻
@@ -11616,7 +11616,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SE Ranking in ChatGPT: Live SEO-Daten per Chat (2026)
+### SE Ranking in ChatGPT: Live SEO-Daten per Chat
 
 
 Moin! 🌻
@@ -11684,7 +11684,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### SE Ranking API: Ein Kompass durch die Endpunkte (2026)
+### SE Ranking API: Ein Kompass durch die Endpunkte
 
 
 ALOHA 🌻!
@@ -11876,7 +11876,7 @@ Bis dahin: Baut euer Daily-Limit, fangt mit `discover-brand` an, lasst die Leade
 
 ---
 
-### SE Ranking API mit Claude Code verbinden (2026)
+### SE Ranking API mit Claude Code verbinden
 
 
 Moin! 🌻
@@ -12059,7 +12059,7 @@ Spart euch den 10k-Schock. Baut das Limit jetzt. ALOHA! 🌻
 
 ---
 
-### SE Ranking API - Der Praxis-Test (2026)
+### SE Ranking API - Der Praxis-Test
 
 
 Moin! 🌻
@@ -12272,7 +12272,7 @@ Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.
 
 ---
 
-### SE Ranking AI Tracker: KI-Sichtbarkeit messen (2026)
+### SE Ranking AI Tracker: KI-Sichtbarkeit messen
 
 
 Moin! 🌻
@@ -12350,7 +12350,7 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
 
 ---
 
-### 10 Gründe für SE Ranking in deiner SEO-Agentur (2026)
+### 10 Gründe für SE Ranking in deiner SEO-Agentur
 
 
 Moin! 🌻
@@ -12449,7 +12449,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Warum reines SEO für gutes GEO nicht ... (2026)
+### Warum reines SEO für gutes GEO nicht ausreichen wird
 
 
 Moin! 🌻
@@ -12535,7 +12535,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Rankscale Update: API & ChatGPT Shopping Analyse (2026)
+### Rankscale Update: API & ChatGPT Shopping Analyse
 
 
 Moin! 🌻
@@ -12604,7 +12604,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale Essentials: AI Visibility ab 20€ (2026)
+### Rankscale Essentials: AI Visibility ab 20€
 
 
 Moin! 🌻
@@ -12705,7 +12705,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale: 17 LLMs für 99€ monatlich tracken (2026)
+### Rankscale: 17 LLMs für 99€ monatlich tracken
 
 
 Moin! 🌻
@@ -12782,7 +12782,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Rankscale: Ein AI Visibility Tool für Profis (2026)
+### Rankscale: Ein AI Visibility Tool für Profis
 
 
 Moin! 🌻
@@ -12851,7 +12851,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### PageSpeed 100/100: So wurde die Website schnell (2026)
+### PageSpeed 100/100: So wurde die Website schnell
 
 
 Diese Website hat einen **PageSpeed Score von 100/100** – und zwar nicht nur auf dem schicken Desktop-Monitor mit Glasfaser-Anschluss, sondern auch auf Mobile. Das ist kein Zufall, kein Glück und auch kein "Voodoo"-Plugin, das alles magisch löst. Es ist das Ergebnis von über 25 Jahren Erfahrung und der radikalen Entscheidung, Performance über alles zu stellen. 
@@ -12976,7 +12976,7 @@ Es ist wie beim Autokauf: Ein Standard-Modell ist günstig, aber wenn du Perform
 
 ---
 
-### Meine erste OMR mit eigenem Stand: Lohnt ... (2026)
+### Meine erste OMR mit eigenem Stand: Lohnt sich das?
 
 
 Moin! 🌻
@@ -13128,7 +13128,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### MS Clarity: Nutzerverhalten hart analysieren (2026)
+### MS Clarity: Nutzerverhalten hart analysieren
 
 
 Moin! 🌻
@@ -13184,7 +13184,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### AI Search Content Formate: Best Practices (2026)
+### AI Search Content Formate: Best Practices
 
 
 Moin! 🌻
@@ -13230,7 +13230,7 @@ Aloha! 🌻✌️
 
 ---
 
-### Michael Kaufhold im Podcast Interview: SEO tot? (2026)
+### Michael Kaufhold im Podcast Interview: SEO tot?
 
 
 "SEO ist tot" – sagen sie und schreiben dann krampfhaft für den Algorithmus, damit sie überhaupt noch jemand im digitalen Nirvana wahrnimmt. Es ist die ewige Schlagzeile unserer Branche. Ein Evergreen, der pünktlich zu jedem größeren Google-Update oder jeder neuen Technologie-Welle (wie aktuell KI) aus der Mottenkiste geholt wird.
@@ -13299,7 +13299,7 @@ Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. 
 
 ---
 
-### LinkedIn: Warum SEOs das Forum nutzen müssen (2026)
+### LinkedIn: Warum SEOs das Forum nutzen müssen
 
 
 Moin! 🌻
@@ -13390,7 +13390,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### LinkedIn & Google Maps Bewertungen sammeln ... (2026)
+### LinkedIn & Google Maps Bewertungen sammeln: So geht's
 
 
 Moin! 🌻
@@ -13535,7 +13535,7 @@ Jetzt Sprechstunde buchen
 
 ---
 
-### Meine KI-Website: Auf dem Weg zum ... (2026)
+### Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten
 
 
 Moin! 🌻
@@ -13609,7 +13609,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO Transformation: Die neue SEO-Disziplin ... (2026)
+### GEO Transformation: Die neue SEO-Disziplin der AI Search
 
 
 Moin! 🌻
@@ -13695,7 +13695,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Meine SEO-Highlights 2025: Der Jahresrückblick (2026)
+### Meine SEO-Highlights 2025: Der Jahresrückblick
 
 
 Moin! 🌻
@@ -13775,7 +13775,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Grounding Page Generator: Schutzschild gegen KI (2026)
+### Grounding Page Generator: Schutzschild gegen KI
 
 
 Moin! 🌻
@@ -13887,7 +13887,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GSC: Wer ist für die Einrichtung zuständig? (2026)
+### GSC: Wer ist für die Einrichtung zuständig?
 
 
 Moin! 🌻
@@ -13978,7 +13978,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Google Ads Support vs. SEO: Die Wahrheit (2026)
+### Google Ads Support vs. SEO: Die Wahrheit
 
 
 Zwei Aussagen, die ich in fast jedem Erstgespräch machen muss – und sie lösen meistens erst mal ungläubiges Staunen oder nervöses Herzklopfen aus. Weil sie an den Grundfesten dessen rütteln, was viele Marketing-Abteilungen über Jahre als "Wahrheit" verkauft bekommen haben. 
@@ -14064,7 +14064,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### GEO & AI Search: Sichtbarkeit völlig neu gedacht (2026)
+### GEO & AI Search: Sichtbarkeit völlig neu gedacht
 
 
 Moin! 🌻
@@ -14113,7 +14113,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024 (2026)
+### GEO, SEO & AI-SEO: Umfrage-Ergebnisse 2024
 
 
 Sichtbarkeit in KI-Modellen optimieren – das ist das neue große Thema, das gerade durch alle SEO-Foren und LinkedIn-Timelines geistert. Aber wie nennen wir das eigentlich? Haben wir uns schon auf einen Standard geeinigt oder werfen wir einfach nur mit neuen Buzzwords um uns, um auf Partys cooler zu wirken? (Wobei, SEOs auf Partys... lassen wir das Thema.)
@@ -14207,7 +14207,7 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
 
 ---
 
-### Agentic SEO: Warum GEO eine eigene Disziplin ist (2026)
+### Agentic SEO: Warum GEO eine eigene Disziplin ist
 
 
 Moin! 🌻
@@ -14459,7 +14459,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO Guide: Sichtbarkeit in ChatGPT & Gemini (2026)
+### GEO Guide: Sichtbarkeit in ChatGPT & Gemini
 
 
 Moin! 🌻
@@ -14688,7 +14688,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Wir rocken die OMR: Das Freelancer Team vor Ort! (2026)
+### Wir rocken die OMR: Das Freelancer Team vor Ort!
 
 
 # Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
@@ -14848,7 +14848,7 @@ Hau rein und bis Mai,
 
 ---
 
-### Freelance Unlocked: Lila T-Shirts + Softeis (2026)
+### Freelance Unlocked: Lila T-Shirts + Softeis
 
 
 Moin! 🌻 
@@ -14953,7 +14953,7 @@ Hier ein kleiner Auszug, was in den Kommentaren schon abgeht:
 
 ---
 
-### Freelance Unlocked: Erfolgreiche Eiscreme-Aktion (2026)
+### Freelance Unlocked: Erfolgreiche Eiscreme-Aktion
 
 
 Moin! 🌻
@@ -15011,7 +15011,7 @@ Diese Mission wäre ohne euch nicht möglich gewesen. Hier sind 3 wunderbare Rea
 
 ---
 
-### SEO-Handwerk: Warum Qualität der USP ist (2026)
+### SEO-Handwerk: Warum Qualität der USP ist
 
 
 Moin! 🌻
@@ -15124,7 +15124,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### SEO-Qualität: Vom Dönerback bis zum Erfolg (2026)
+### SEO-Qualität: Vom Dönerback bis zum Erfolg
 
 
 Moin! 🌻
@@ -15198,7 +15198,7 @@ ALOHA 🌻!
 
 ---
 
-### Digitaler Unternehmensberater statt SEO (2026)
+### Digitaler Unternehmensberater statt SEO
 
 
 Moin! 🌻
@@ -15341,7 +15341,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Core Web Vitals: Warum dein UX-Bericht zählt (2026)
+### Core Web Vitals: Warum dein UX-Bericht zählt
 
 
 Moin! 🌻
@@ -15433,7 +15433,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Der Cloudflare Agent Readiness Scan ... (2026)
+### Der Cloudflare Agent Readiness Scan: KI-Sichtbarkeit prüfen
 
 
 Moin! 🌻
@@ -15499,7 +15499,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Vibe Coding: Echte KI-Workflows mit Roland Golla (2026)
+### Vibe Coding: Echte KI-Workflows mit Roland Golla
 
 
 Moin! 🌻
@@ -15529,7 +15529,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Braucht SEO einen neuen Namen? Campixx Umfrage (2026)
+### Braucht SEO einen neuen Namen? Campixx Umfrage
 
 
 Moin! 🌻
@@ -15604,7 +15604,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Conversion-Optimierung: Nutzer vor Traffic (2026)
+### Conversion-Optimierung: Nutzer vor Traffic
 
 
 Moin! 🌻
@@ -15640,7 +15640,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### Bist du SEO AI Ready? Podcast mit Antonio Blago (2026)
+### Bist du SEO AI Ready? Podcast mit Antonio Blago
 
 
 **Antonio Blago** hat mich eingeladen und was soll ich sagen? In einer Branche, die vor oberflächlichem Geplänkel nur so strotzt, war dieses Gespräch eine echte Wohltat. Antonio stellt nicht nur gute Fragen – er besitzt die seltene Gabe, wirklich zuzuhören und Raum für Antworten zu lassen, die über die üblichen Marketing-Phrasen hinausgehen. Das Ergebnis? Ein Podcast, der kein Buzzword-Bingo ist, sondern ein ehrlicher Schlagabtausch über den Status Quo von SEO, Google Ads und der Frage, wo wir in zwei Jahren stehen werden.
@@ -15705,7 +15705,7 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
 
 ---
 
-### 'SEO-Tools: AI Search & Prompt Tracking im Test (2026)'
+### 'SEO-Tools: AI Search & Prompt Tracking im Test'
 
 
 Moin! 🌻
@@ -15823,7 +15823,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### GEO & AI-SEO: Warum kein Praktikanten-Job (2026)
+### GEO & AI-SEO: Warum kein Praktikanten-Job
 
 
 Die SEO-Welt hat mal wieder neue Abkürzungen: **GEO** (Generative Engine Optimization), **AIO** (AI Optimization), **AI-SEO**. Klingt alles fancy, fast schon futuristisch, aber was steckt wirklich dahinter? Ist es nur alter Wein in neuen Schläuchen oder befinden wir uns wirklich in einer tektonischen Verschiebung der digitalen Sichtbarkeit?
@@ -15900,7 +15900,7 @@ Investiert in Wissen, investiert in Tiefe und bleibt neugierig. Aber lasst die F
 
 ---
 
-### GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit (2026)
+### GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit
 
 
 Moin! 🌻
@@ -15966,7 +15966,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### AI Crawler, Markdown & Cloudflare ... (2026)
+### AI Crawler, Markdown & Cloudflare: Bot-Optimierung
 
 
 Moin! 🌻
@@ -16080,7 +16080,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### AI Crawlability als neue Disziplin im Tech SEO (2026)
+### AI Crawlability als neue Disziplin im Tech SEO
 
 *Diese Diskussion wurde von mir auf LinkedIn am 31.07.2026 gestartet:*
 
@@ -16133,7 +16133,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 1. AI Connect Berlin: Vibe Coding & Gemini (2026)
+### 1. AI Connect Berlin: Vibe Coding & Gemini
 
 
 ALOHA! 🌻
@@ -16194,7 +16194,7 @@ Kannst du nicht dabei sein? Kein Stress. Lass uns trotzdem in Kontakt bleiben. I
 
 ---
 
-### Wenn AI-Agenten deinen LinkedIn-Feed kapern (2026)
+### Wenn AI-Agenten deinen LinkedIn-Feed kapern
 
 
 Moin! 🌻
@@ -16340,7 +16340,7 @@ ALOHA 🌻! 🌻
 
 ---
 
-### Die 80%-Falle: Warum Websites an Basics ... (2026)
+### Die 80%-Falle: Warum Websites an Basics scheitern
 
 
 Moin! 🌻
@@ -16423,7 +16423,7 @@ ALOHA! 🌻✌️
 
 ---
 
-### 25 Jahre SEO: Warum wir gleiche Fehler machen (2026)
+### 25 Jahre SEO: Warum wir gleiche Fehler machen
 
 
 Moin! 🌻

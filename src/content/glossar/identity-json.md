@@ -12,7 +12,7 @@ faqs:
     answer: 'Moderne KIs wie Google AI Overviews nutzen strukturierte Daten als "Source of Truth", um Fakten zu verifizieren und vertrauenswürdige Quellen in generativen Antworten zu zitieren.'
 ---
 
-# Identity JSON (JSON-LD): Das maschinenlesbare Gesicht deiner Marke
+## Identity JSON (JSON-LD): Das maschinenlesbare Gesicht deiner Marke
 
 Moin! 🌻
 
@@ -83,7 +83,7 @@ ALOHA! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt JSON-Audit anfragen</a>
 </div>
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Entitäten in der KI-Suche](/glossar/entitaet/)
 * [Was bedeutet Topical Authority?](/glossar/topical-authority/)
 * [E-E-A-T und Trust-Signale 2026](/glossar/e-e-a-t/)

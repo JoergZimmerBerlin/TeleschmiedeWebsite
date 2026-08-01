@@ -20,7 +20,7 @@ faqs:
     answer: 'Fokussiere dich auf E-E-A-T (Erfahrung, Expertise, Autorität, Vertrauen). Strukturiere deine Inhalte maschinenlesbar mit klaren Überschriften und Schema-Markup, um KI-Crawlern die Verarbeitung zu erleichtern.'
 ---
 
-# Keywords 2026: Von Text-Strings zu semantischen Entitäten
+## Keywords 2026: Von Text-Strings zu semantischen Entitäten
 
 Moin! 🌻
 
@@ -87,7 +87,7 @@ ALOHA! 🌻✌️
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt semantisches Audit anfragen</a>
 </div>
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Keywordrecherche in der Praxis](/glossar/keywordrecherche/)
 * [Topical Authority verstehen](/glossar/topical-authority/)
 * [Was sind Entitäten?](/glossar/entitaet/)

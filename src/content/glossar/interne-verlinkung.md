@@ -19,7 +19,7 @@ faqs:
     answer: 'Nutze immer präzise Fokus-Keywords und exakte Bezeichnungen, niemals generischen Müll wie "hier klicken". Der Ankertext gibt der KI den Kontext der Zielseite vor. Achte dabei auf einen natürlichen Lesefluss und vermeide maschinelles Keyword-Stuffing.'
 ---
 
-# Interne Verlinkung: Dein eigener Entity Graph für KIs
+## Interne Verlinkung: Dein eigener Entity Graph für KIs
 
 Moin! 🌻
 
@@ -92,7 +92,7 @@ ALOHA! 🌻
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Architektur-Audit anfragen</a>
 </div>
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Was ist eigentlich Linkjuice?](/glossar/linkjuice/)
 * [Crawling vs. Indexing im Detail verstehen](/glossar/crawling-vs-indexing/)
 * [Topical Authority aufbauen](/glossar/topical-authority/)

@@ -20,7 +20,7 @@ faqs:
     answer: 'Eindeutig die "Grounding Queries" im AI Performance Report. Du siehst exakt, welche internen Suchbegriffe der Copilot nutzt, um deine Inhalte abzurufen.'
 ---
 
-# Bing Webmaster Tools (BWT) im KI-Zeitalter
+## Bing Webmaster Tools (BWT) im KI-Zeitalter
 
 Moin! 🌻
 
@@ -28,7 +28,7 @@ Lass uns einen Mythos zerstören, der sich hartnäckig hält: "Bing nutzt doch e
 
 Die **Bing Webmaster Tools (BWT)** sind nicht länger das ungeliebte Stiefkind. Sie sind dein wichtigstes Dashboard für das Microsoft/OpenAI-Ökosystem. Wenn du in Copilot und den Echtzeit-Antworten von ChatGPT Search gefunden werden willst, führt kein Weg an Bing vorbei.
 
-## Der AI Performance Report: Deine Goldmine
+### Der AI Performance Report: Deine Goldmine
 
 Während andere Systeme ihre KI-Daten künstlich verschleiern, hat Microsoft im Juni 2026 den **AI Performance Report** massiv ausgebaut. Das Dashboard zeigt dir jetzt schwarz auf weiß, wie oft dein Content in KI-generierten Antworten zitiert wird. 
 
@@ -39,13 +39,13 @@ Du bekommst glasklare Insights zu:
 
 Der absolute Killer sind die **Grounding Queries**. Du siehst exakt die internen Suchanfragen, die Copilot absetzt, um seine RAG-Pipeline mit deinen Fakten zu füttern. Optimiere deine Inhalte genau auf diese Prompts, und deine Sichtbarkeit explodiert.
 
-## IndexNow: Echtzeit-Futter für die KIs
+### IndexNow: Echtzeit-Futter für die KIs
 
 Wenn sich Preise oder Spezifikationen ändern, darf die KI keinen Müll halluzinieren. Sie braucht frische Fakten. Wer 2026 noch passiv auf den Crawler wartet und auf XML-Sitemaps hofft, verliert.
 
 Mit dem **IndexNow**-Protokoll pushst du Updates über einen simplen API-Ping direkt in den Bing-Index. Die RAG-Pipelines haben Sekunden später die neuesten Daten. Egal ob WordPress-Plugin oder Custom Node.js-Webhook in deiner CI/CD: Richte IndexNow ein. Es ist im Agentic Web unverhandelbar.
 
-## Fazit: Blindflug beenden
+### Fazit: Blindflug beenden
 
 Die Google Search Console ist Pflicht, aber die BWT sind die Kür für Generative Engine Optimization (GEO). Wer den Microsoft-Traffic kampflos der Konkurrenz überlässt, handelt fahrlässig. Verbinde deine Domain, aktiviere IndexNow und werte die Copilot-Insights aus. So baut man KI-Sichtbarkeit!
 

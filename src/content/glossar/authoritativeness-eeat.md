@@ -19,19 +19,19 @@ faqs:
     answer: 'Vergiss klassisches Linkbuilding. Baue Entity SEO auf: Erwähnungen in Leitmedien und konsistente semantische Verknüpfungen (Schema.org).'
 ---
 
-# Authoritativeness (E-E-A-T) 2026
+## Authoritativeness (E-E-A-T) 2026
 
 Moin! 🌻
 
 Lass uns direkt Tacheles reden. Wer heute noch glaubt, er könne mit ein paar gekauften Backlinks seine Autorität im Netz pushen, hat die Kontrolle über sein SEO-Leben verloren. Das alte Spielfeld wurde planiert. Wir leben 2026 in der Ära der **Zero-Click-Searches** und der **Citation Economy**.
 
-## Die harte Realität: Zero-Click Searches
+### Die harte Realität: Zero-Click Searches
 
 Lass dir das auf der Zunge zergehen: Stand Anfang 2026 enden satte **68 % der Suchen (auf Mobile sogar 77 %)** ohne einen einzigen Klick auf eine externe Website. Google AI Overviews, Perplexity und ChatGPT beantworten Fragen direkt. 
 
 Erfolg misst sich nicht länger an reinen Besucherzahlen. Erfolg misst sich an "Share of Model" und Markensichtbarkeit durch **Citations** (Zitierungen) in den KI-Antworten. Genau deshalb ist **Authoritativeness** – das zweite "A" in E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) – die wichtigste Metrik deines Lebens. Wenn KI-Modelle dir nicht vertrauen, wirst du nicht zitiert.
 
-## RAG und der gnadenlose E-E-A-T Filter
+### RAG und der gnadenlose E-E-A-T Filter
 
 Moderne Answer Engines basieren auf der Architektur der **Retrieval-Augmented Generation (RAG)**. Das Modell saugt in Echtzeit Informationen aus dem Web, um aktuelle und faktisch korrekte Antworten zu generieren. 
 
@@ -42,7 +42,7 @@ Aber LLMs haben panische Angst vor Halluzinationen. Um sich zu schützen, nutzen
 
 Fällst du durch diesen Filter, ignorieren die LLMs deinen Content rigoros.
 
-## Von Links zu Entity SEO
+### Von Links zu Entity SEO
 
 In 2026 ist Autorität kein PageRank-Score mehr. Es ist ein mathematischer Vektor in einem semantischen Raum. 
 Um Authoritativeness aufzubauen, musst du radikales **Entity Building** betreiben:

@@ -24,7 +24,7 @@ faqs:
     answer: "Für alle, die nicht nur schnacken, sondern direkt Ergebnisse sehen wollen, biete ich meinen bewährten 'Website Roast' an – meine [SEO Sprechstunde](/blog/seo-sprechstunde-so-laeuft-sie-ab/). Für 480 € knöpfe ich mir deine Seite zwei Stunden lang vor und lege die Finger in die Wunde. Kein 'hätte, könnte, würde', sondern konkrete To-dos. Auf der OMR können wir natürlich erstmal unverbindlich schauen, ob die Chemie stimmt. ALOHA! 🌻✌️"
 ---
 
-# 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026
+## 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026
 
 Moin! 🌻
 

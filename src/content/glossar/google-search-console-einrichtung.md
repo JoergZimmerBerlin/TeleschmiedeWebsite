@@ -20,7 +20,7 @@ faqs:
     answer: 'Google sammelt die Daten nicht rückwirkend in voller Tiefe für nicht-verifizierte Konten. Sobald du das Tool einrichtest, füllt sich das Dashboard in der Regel nach 24 bis 48 Stunden mit den ersten Metriken. Geduld ist hier eine Tugend.'
 ---
 
-# Google Search Console einrichten: Der Tacheles-Guide zur Domain-Property
+## Google Search Console einrichten: Der Tacheles-Guide zur Domain-Property
 
 ALOHA! 🌻 Wenn du im SEO-Bereich auch nur einen Blumentopf gewinnen willst, brauchst du die **Google Search Console (GSC)**. Lass uns gar nicht lange drumherum reden: Das Ding ist dein direkter Draht zu Google. Hier erfährst du, ob deine Seite indexiert wird, welche Fehler Google beim Crawlen findet, wie deine Core Web Vitals (CWV) aussehen und – ganz wichtig – für welche Suchbegriffe (Keywords) du tatsächlich gefunden wirst. 
 
@@ -30,7 +30,7 @@ Du brauchst dafür kein teures Agentur-Abo, sondern einfach nur ein ganz normale
 
 Warum schreibe ich diesen Guide? Weil ich von meinen Kunden *immer* als Erstes Zugriff auf diese Daten brauche. Ohne die GSC fliegen wir im Blindflug. Wenn wir zusammenarbeiten wollen, richte das bitte vorher ein und gib mir Zugriff. Wie das geht, erkläre ich dir jetzt Schritt für Schritt – und zwar so, dass es auch ohne Informatik-Studium klappt.
 
-## Warum die GSC für jede Marketing-Abteilung Gold wert ist
+### Warum die GSC für jede Marketing-Abteilung Gold wert ist
 
 Bevor wir in die Technik springen (keine Sorge, das tut nicht weh), lass uns kurz klären, *warum* du das hier überhaupt machst:
 
@@ -43,27 +43,27 @@ Damit ist die GSC nicht nur für SEOs wichtig, sondern für Content-Marketer, UX
 
 ---
 
-## Schritt-für-Schritt Anleitung: Einrichtung via Domain-Property (DNS)
+### Schritt-für-Schritt Anleitung: Einrichtung via Domain-Property (DNS)
 
 Es gibt zwei Wege, die GSC einzurichten: *URL-Präfix* und *Domain-Property*. Wir machen hier keine halben Sachen, deshalb zeige ich dir die **Domain-Property**. Warum? Weil sie *alle* Subdomains (wie `www.`, `blog.`), HTTP und HTTPS direkt in einem Rutsch abdeckt. Kein nerviges Anlegen von 4 verschiedenen Properties mehr.
 
-### Schritt 1: Bei Google Search Console anmelden
+#### Schritt 1: Bei Google Search Console anmelden
 1. Gehe auf die offizielle Seite: `search.google.com/search-console/about`.
 2. Klicke auf „Jetzt starten“ und logge dich mit deinem Google-Konto ein.
 
-### Schritt 2: Die Domain-Property hinzufügen
+#### Schritt 2: Die Domain-Property hinzufügen
 1. Im Dropdown-Menü (oben links) klickst du auf **Property hinzufügen**.
 2. Wähle im Pop-up-Fenster auf der linken Seite die Option **Domain** (nicht URL-Präfix).
 3. Gib deine nackte Domain ein (z.B. `teleschmie.de` oder `deine-domain.com` – ohne `https://` oder `www.`).
 4. Klicke auf **Weiter**.
 
-### Schritt 3: Den TXT-Eintrag für den DNS-Server kopieren
+#### Schritt 3: Den TXT-Eintrag für den DNS-Server kopieren
 Jetzt wird es kurz technisch, aber bleib bei mir: Google generiert dir nun einen kryptischen Text-Code (einen sogenannten TXT-Eintrag). Der sieht ungefähr so aus:
 `google-site-verification=XYZ123...`
 
 Klicke daneben auf den Button **Kopieren**.
 
-### Schritt 4: Den DNS-Eintrag bei deinem Hoster hinterlegen
+#### Schritt 4: Den DNS-Eintrag bei deinem Hoster hinterlegen
 Jetzt musst du dich bei dem Anbieter einloggen, wo deine Domain liegt (z.B. IONOS, Strato, All-Inkl, netcup).
 1. Suche in deinem Kunden-Dashboard nach **DNS-Einstellungen** oder **Domain-Verwaltung**.
 2. Klicke auf **Neuen DNS-Eintrag hinzufügen** (oder ähnlich).
@@ -72,13 +72,13 @@ Jetzt musst du dich bei dem Anbieter einloggen, wo deine Domain liegt (z.B. IONO
 5. Bei Wert/Ziel fügst du den kopierten Code (`google-site-verification=...`) aus Schritt 3 ein.
 6. Speichern.
 
-### Schritt 5: Verifizierung abschließen
+#### Schritt 5: Verifizierung abschließen
 Gehe zurück in den Tab mit der Google Search Console und klicke unten rechts auf **Bestätigen**.
 *Tipp aus der Praxis:* Manchmal dauert es ein paar Minuten (selten bis zu 24 Stunden), bis das DNS-Update weltweit registriert ist. Wenn es direkt beim ersten Mal rot aufleuchtet und fehlschlägt – atme durch, trink einen Kaffee und klicke in 10 Minuten nochmal auf „Bestätigen“.
 
 ---
 
-## WICHTIG: Mich als Nutzer hinzufügen
+### WICHTIG: Mich als Nutzer hinzufügen
 
 Sobald die Konfetti-Animation kam und du drin bist, brauche ich Zugriff auf die Daten, um dir bei deinem SEO-Setup den Hintern zu retten. So fügst du mich (oder dein Marketing-Team) hinzu:
 

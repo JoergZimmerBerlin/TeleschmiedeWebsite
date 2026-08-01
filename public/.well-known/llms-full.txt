@@ -1194,7 +1194,7 @@ ALOHA! 🌻✌️
 ### AI Crawlability: Maschinenlesbarkeit für Answer Engines
 
 
-# AI Crawlability: Die neue Disziplin im Tech SEO
+## AI Crawlability: Die neue Disziplin im Tech SEO
 
 Moin! 🌻
 
@@ -1202,13 +1202,13 @@ Machen wir uns nichts vor: Wir haben das Web in den letzten zehn Jahren primär 
 
 Genau hier kommt **AI Crawlability** ins Spiel. Es ist die neue Hardcore-Disziplin auf dem [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) obendrauf. Im Jahr 2026 kämpfen wir nicht mehr nur um "Rankings" (die blauen Links), sondern um **"Selection"** – die Auswahl als zitierte Quelle (Share of Model). Und wer hier Pfusch am Bau betreibt, verschwindet in der Bedeutungslosigkeit.
 
-## 1. Was ist AI Crawlability eigentlich?
+### 1. Was ist AI Crawlability eigentlich?
 
 Unter AI Crawlability verstehen wir die Fähigkeit einer Website, von LLMs (Large Language Models), RAG-Systemen (Retrieval-Augmented Generation) und KI-Agenten schnell, fehlerfrei und semantisch korrekt ausgelesen zu werden. 
 
 Während der klassische Googlebot noch versucht, deine komplette JavaScript-basierte React-App mühsam zu rendern, um ein visuelles Abbild zu generieren, arbeiten KI-Scraper radikaler: Sie wollen keine bunten Bilder. Sie wollen die nackten Fakten. Und wenn sie diese Fakten nicht innerhalb von Millisekunden im rohen, semantischen HTML finden, brechen sie den Crawl ab. Du wirst als Quelle schlichtweg ignoriert.
 
-## 2. Die robots.txt Strategie 2026: Blocken oder nicht?
+### 2. Die robots.txt Strategie 2026: Blocken oder nicht?
 
 Der größte Fehler, den viele Website-Betreiber (und leider auch viele "Bauchladen-Agenturen") aktuell machen, ist das blinde Blockieren von KI-Bots per `robots.txt`. Sie lesen von Datenklau und sperren panisch alles aus. Wer bei der AI Crawlability punkten will, muss jedoch dringend differenzieren:
 
@@ -1217,7 +1217,7 @@ Der größte Fehler, den viele Website-Betreiber (und leider auch viele "Bauchla
 | **Training Crawler** | `GPTBot`, `ClaudeBot`, `Anthropic-ai`, `CCBot` | Diese Bots scrapen das halbe Netz, um die Trainingsdaten für zukünftige KI-Modelle zu sammeln. Sie geben keine direkten Quellen an. | **Blockieren (optional).** Wenn du deinen Content vor dem reinen "Datenklau" für Modelltraining schützen willst, sperre sie aus. |
 | **Retrieval & Search Crawler** | `OAI-SearchBot`, `PerplexityBot`, `GoogleOther` | Diese Bots durchsuchen das Netz *in Echtzeit*, um aktuelle Nutzeranfragen im Chatfenster zu beantworten. Sie verlinken dich als Quelle! | **Zwingend erlauben!** Blockierst du diese, machst du deine Marke in der [AI Search Engine](https://teleschmie.de/glossar/ai-search-engine/) de facto unsichtbar. Du schneidest dir Traffic und Markenbekanntheit selbst ab. |
 
-## 3. Query Fan-out und die Fakten-Dichte
+### 3. Query Fan-out und die Fakten-Dichte
 
 KIs suchen anders als Menschen. Wenn ein Mensch nach "Bester SEO Freelancer Berlin" googelt, tippt er das genau so ein. Eine KI hingegen betreibt oft **Query Fan-out**. Sie zerlegt eine komplexe Nutzerfrage im Hintergrund in dutzende kleine Suchanfragen: 
 - "Wer ist SEO Freelancer in Berlin?"
@@ -1226,7 +1226,7 @@ KIs suchen anders als Menschen. Wenn ein Mensch nach "Bester SEO Freelancer Berl
 
 Um hier bei jeder Sub-Abfrage extrahiert zu werden, brauchst du harte, saubere Fakten. "Schreibe für Kleinkinder, betrunkene Erwachsene und LLMs" – präsentiere harte Fakten, Tabellen und direkte Antworten so, dass ein RAG-Modell sie zweifelsfrei extrahieren kann, ohne zwischen Marketing-Blabla raten zu müssen.
 
-## 4. Konkrete Maßnahmen für maximale Maschinenlesbarkeit
+### 4. Konkrete Maßnahmen für maximale Maschinenlesbarkeit
 
 Was müssen wir also tun, um unsere AI Crawlability ans Limit zu bringen? Hier ist der Klartext-Maßnahmenplan:
 
@@ -1235,7 +1235,7 @@ Was müssen wir also tun, um unsere AI Crawlability ans Limit zu bringen? Hier i
 3. **Exzessives Schema Markup:** Nutze [strukturierte Daten](https://teleschmie.de/glossar/strukturierte-daten/) (`JSON-LD`) wie `FAQPage`, `Article`, `Organization` und `Person` exzessiv. Biete dem Bot klare Entitäten-Zuordnungen, damit er die semantischen Zusammenhänge versteht, ohne den Text lesen zu müssen.
 4. **Verzicht auf Ladehemmungen:** Lazy Loading von zentralen Content-Elementen ist Gift für AI Crawler. Die wichtigsten Antworten müssen initial im DOM vorhanden sein.
 
-## 5. Unterm Strich (Freundlicher Klartext)
+### 5. Unterm Strich (Freundlicher Klartext)
 
 Wir müssen begreifen: Um beim Endkunden auf dem Bildschirm (oder im Chat-Interface) zu landen, müssen wir im Jahr 2026 zuerst die Maschine restlos überzeugen. Und Maschinen mögen es simpel, rasend schnell und inhaltlich unmissverständlich. 
 
@@ -1323,13 +1323,13 @@ ALOHA! 🌻✌️
 ### AI Search Engine: Die Evolution der Suchmaschinen
 
 
-# AI Search Engine: Das Ende der "10 blauen Links"
+## AI Search Engine: Das Ende der "10 blauen Links"
 
 Moin! 🌻
 
 Die "Zehn blauen Links" (Ten Blue Links) waren jahrzehntelang das unangefochtene Rückgrat des Internets. Sie waren unser Spielfeld als SEOs, auf dem wir um Platzierungen gekämpft haben. Aber machen wir uns nichts vor: Die Zeitenwende ist längst da. Die klassische Suchmaschine, wie wir sie kannten, wird rasant abgelöst durch die **AI Search Engine** (oder auch Answer Engine). Und wer jetzt noch klassisches Keyword-Bingo spielt, betreibt Pfusch am Bau.
 
-## 1. Was genau ist eine AI Search Engine?
+### 1. Was genau ist eine AI Search Engine?
 
 Während eine klassische Suchmaschine (wie das Google von 2015) primär als Vermittler auftritt und dich auf andere Websites weiterschickt, tritt die AI Search Engine als allwissender Assistent auf. Du stellst eine Frage, und die Maschine liefert dir eine komplett ausformulierte, synthetisierte Antwort – ohne dass du jemals eine Zielseite betreten musst.
 
@@ -1339,7 +1339,7 @@ Technisch passiert im Hintergrund meistens etwas, das sich **RAG (Retrieval-Augm
 3. **Generation (Synthese):** Ein Large Language Model (LLM) liest diese Quellen, extrahiert die relevanten Fakten und generiert eine flüssige, auf den Kontext abgestimmte Antwort.
 4. **Citation (Zitation):** Du bekommst die fertige Antwort präsentiert, meist versehen mit kleinen Fußnoten oder Quell-Links (Citations), die auf die Urheber der Fakten verweisen.
 
-### Die wichtigsten Player auf dem Markt (Stand 2026)
+#### Die wichtigsten Player auf dem Markt (Stand 2026)
 
 Der Markt für AI Search ist hart umkämpft. Hier sind die Systeme, die aktuell die User Journey dominieren:
 
@@ -1350,7 +1350,7 @@ Der Markt für AI Search ist hart umkämpft. Hier sind die Systeme, die aktuell 
 | **ChatGPT Search (OpenAI)** | OpenAIs direkter Angriff auf Google. Integriert Live-Websuche in den ChatGPT-Dialog. | **Hoch.** Millionen Nutzer verwenden ChatGPT bereits als primäre Suchmaschine für komplexe Fragen. |
 | **Microsoft Copilot / Bing AI** | Tiefe Integration in Windows und den Edge-Browser. Basiert auf OpenAI-Technologie. | **Moderat bis Hoch.** Stark im Corporate-Umfeld verankert. |
 
-## 2. Der Paradigmenwechsel für Website-Betreiber
+### 2. Der Paradigmenwechsel für Website-Betreiber
 
 Wenn der Nutzer seine Antwort direkt im Chat-Interface bekommt, klickt er im Zweifel nicht mehr auf deine Website. Dieser [Zero-Click-Content](https://teleschmie.de/glossar/zero-click-content/) verändert alles, was wir über Traffic und Conversion-Raten zu wissen glaubten. 
 
@@ -1358,22 +1358,22 @@ Deine Website muss sich von einer reinen "Landingpage für Menschen" zu einem st
 
 Wir müssen lernen, die Maschinen zu füttern, damit sie unsere Brand als ultimative Lösung ausspucken. "Der Goldfisch auf Espresso" (die Aufmerksamkeitsspanne des modernen Nutzers) will keine 2.000-Wörter-Artikel mehr durcharbeiten – er will die Antwort sofort von der KI.
 
-## 3. AEO und GEO: Die neuen SEO-Disziplinen
+### 3. AEO und GEO: Die neuen SEO-Disziplinen
 
 Da Rankings als alleinige Vanity-Metrik ausdienen, haben sich zwei neue Disziplinen gebildet, um in AI Search Engines stattzufinden:
 
-### Answer Engine Optimization (AEO)
+#### Answer Engine Optimization (AEO)
 AEO konzentriert sich darauf, konkrete Fragen so präzise und strukturiert wie möglich zu beantworten.
 - **Fokus:** Direkte, unmissverständliche Antworten in den ersten Sätzen eines Absatzes.
 - **Formate:** FAQ-Bereiche, Definitionen, Tabellen und Schritt-für-Schritt-Anleitungen.
 - **Ziel:** Als *die* verlässlichste Quelle für eine spezifische Fakten-Abfrage herangezogen und zitiert zu werden.
 
-### Generative Engine Optimization (GEO)
+#### Generative Engine Optimization (GEO)
 GEO geht noch tiefer. Hierbei geht es darum, die inhaltliche Tiefe, den Tonfall und die Semantik so zu optimieren, dass LLMs die Marke nicht nur zitieren, sondern im generierten Text als Autorität *empfehlen*.
 - **Fokus:** E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) auf Steroiden. KI-Modelle suchen nach primären Datenquellen, Original-Forschung und tiefem Expertenwissen, das sie nirgendwo anders finden.
 - **Metriken:** Wir messen hier den **Share of Model** (Wie oft taucht die Brand in den Trainingsdaten auf?) und die **Citation Frequency** (Wie oft wird die Brand in Live-Antworten zitiert?).
 
-## 4. Tacheles: Ist klassisches SEO jetzt tot?
+### 4. Tacheles: Ist klassisches SEO jetzt tot?
 
 Nein. Wer das behauptet, redet Unsinn. Aber die Spielregeln haben sich radikal verschoben.
 
@@ -1540,7 +1540,7 @@ ALOHA! 🌻✌️
 ### ai.txt SEO: Volle Agent Readiness erreichen
 
 
-# ai.txt, robots.txt & llms.txt: Bot-Steuerung 2026
+## ai.txt, robots.txt & llms.txt: Bot-Steuerung 2026
 
 Moin! 🌻
 
@@ -1548,13 +1548,13 @@ Vergiss für einen Moment alles, was dir Wald-und-Wiesen-SEOs in den letzten zeh
 
 Wer in diesem Ökosystem überleben will, muss aufhören, nur für Menschen zu optimieren. Deine Infrastruktur muss maschinenlesbar sein. Lass uns Tacheles reden: Im Netz kursiert unglaublich viel gefährliches Halbwissen über angebliche neue Standards wie die **ai.txt**. Wenn du blind auf jeden Hype aufspringst, sperrst du dich selbst aus den RAG-Pipelines aus.
 
-## Die bittere Wahrheit über die ai.txt
+### Die bittere Wahrheit über die ai.txt
 
 In den letzten Monaten haben viele sogenannte Experten gepredigt, dass die `ai.txt` die neue Wunderwaffe sei, um KI-Scraper zu blockieren. **Das ist faktisch falsch.**
 
 Stand Mitte 2026 gibt es keinen universell akzeptierten `ai.txt`-Standard. Es handelt sich um akademische Proposals, die von den großen Playern (Google, OpenAI, Anthropic) weitgehend ignoriert werden. Die `ai.txt` sollte dazu dienen, zwischen dem *Training* von Modellen und der *Echtzeit-Suche* (RAG) zu differenzieren. In der Praxis schert sich ein Milliarden-Konzern aber nicht um ein nicht-standardisiertes Textfile, wenn es um das Füttern seiner GPUs geht.
 
-## robots.txt ist und bleibt der King
+### robots.txt ist und bleibt der King
 
 Wenn du den Zugriff steuern willst, ist die gute alte **robots.txt** dein einziges valides Werkzeug. Seriöse Anbieter respektieren diese Datei, um rechtlichen Ärger zu vermeiden. Aber hier machen 90 % der Unternehmen den fatalen Fehler: Sie nutzen den Holzhammer.
 
@@ -1563,11 +1563,11 @@ Ein `Disallow: /` für alle KI-Bots ist geschäftlicher Selbstmord. Du musst zwi
 1. **Die Trainings-Crawler blockieren:** Bots wie der `GPTBot` oder `CCBot` saugen deine Inhalte auf, um Foundation-Modelle zu trainieren. Du bekommst keinen Traffic, keinen Link, gar nichts. Diese kannst du bedenkenlos in der `robots.txt` aussperren, wenn du deine IP schützen willst.
 2. **Die Search-Crawler erlauben:** Bots wie `OAI-SearchBot`, `PerplexityBot` oder `Google-Extended` (für AI Overviews) durchsuchen das Netz, um Nutzerfragen in Echtzeit zu beantworten. **Diese Bots musst du zwingend auf deine Seite lassen.** Tust du das nicht, fällst du aus der Citation Economy komplett heraus.
 
-## Die llms.txt als Wegweiser
+### Die llms.txt als Wegweiser
 
 Während die `robots.txt` der Türsteher ist, etabliert sich die **llms.txt** als Reiseführer für KIs. Das ist eine markdown-basierte Datei, die autonomen Agenten (z. B. Coding-Assistenten oder Research-Bots) eine kuratierte Landkarte deiner wertvollsten Inhalte liefert. Sie steuert keinen Zugriff, sondern lenkt die Aufmerksamkeit der Maschine auf deine Expertise.
 
-## Fazit: Agent Readiness mit Verstand
+### Fazit: Agent Readiness mit Verstand
 
 Es gibt keinen "One-Size-Fits-All"-Blocker mehr. Optimiere deine `robots.txt` chirurgisch präzise. Blockiere die reinen Datenschlürfer, aber rolle den Answer Engines den roten Teppich aus. Wer KIs pauschal aussperrt, macht sich im neuen Web unsichtbar. 
 
@@ -1578,7 +1578,7 @@ ALOHA! 🌻✌️
 ### Agentic Resource Discovery: Der harte Standard
 
 
-# Agentic Resource Discovery: Die ai-catalog.json
+## Agentic Resource Discovery: Die ai-catalog.json
 
 Moin Leute, hier ist euer Jörg Zimmer. Ich hab mittlerweile 25 Jahre SEO auf dem Buckel, aber was wir jetzt im Jahr 2026 erleben, ist ein Paradigmenwechsel, der selbst mich immer wieder staunen lässt. Vergiss Backlinks aus den Nullerjahren, vergiss Keyword-Stuffing und vergiss klassische Sitemaps, wenn du in der Liga der autonomen AI Agents mitspielen willst. 
 
@@ -1586,7 +1586,7 @@ Heute reden wir Tacheles über ein Thema, das für die Sichtbarkeit deines Unter
 
 Ich auf meinem Projekt [teleschmie.de/](https://teleschmie.de/) predige das meinen Kunden seit Monaten: Wenn dein System keine maschinenlesbare Landkarte für APIs anbietet, bist du für AI Agents schlichtweg unsichtbar. Aus. Vorbei. Keine Leads, keine automatisierten B2B-Deals.
 
-## Vom Prosa-Text zur maschinenlesbaren Meta-Ebene
+### Vom Prosa-Text zur maschinenlesbaren Meta-Ebene
 
 Lass uns mal die Uhren ein bisschen zurückdrehen. Noch vor ein paar Jahren war das Auffinden von APIs ein absoluter Albtraum. Du hattest ein geiles Produkt, eine super REST-API, aber wie zur Hölle sollte ein autonomer Agent herausfinden, wo die Endpunkte liegen? Da wurde gescrapt, geraten und gehofft.
 
@@ -1596,15 +1596,15 @@ Der magische Pfad lautet: `/.well-known/ai-catalog.json`.
 
 Wenn ein AI Agent auf deine Domain kommt, rendert er kein JavaScript und liest keine Meta-Tags. Er pingt sofort deine `ai-catalog.json` an. Findet er dort nichts, dreht er sich um und geht zur Konkurrenz. Agenten haben keine Zeit für Ratespiele.
 
-## Unified API Layer und MCP
+### Unified API Layer und MCP
 
 Enterprises setzen 2026 zunehmend auf Unified API Layer und das Model Context Protocol (MCP). Durch die `ai-catalog.json` abstrahierst du deine dutzenden Microservices auf eine standardisierte Schnittstelle. Der Agent liest das JSON, weiß sofort, wie die Authentifizierung funktioniert, welche Scopes er braucht und feuert den POST-Request ab.
 
-## Praxisbeispiel: Echte Automatisierung im B2B
+### Praxisbeispiel: Echte Automatisierung im B2B
 
 Stell dir vor, der Einkaufs-Agent eines Großkonzerns sucht nach Ersatzteilen. Wenn dein Katalog als sauber strukturiertes JSON bereitliegt, kann der fremde Agent Preise vergleichen und die Bestellung in Millisekunden platzieren. Fehlt diese Infrastruktur, musst du hoffen, dass ein menschlicher Einkäufer deine HTML-Seite findet. Viel Glück damit in 2026.
 
-## Fazit: Ohne ARD bist du ein Dinosaurier
+### Fazit: Ohne ARD bist du ein Dinosaurier
 
 Wir müssen SEO komplett neu denken. Es geht nicht mehr nur um Sichtbarkeit für Menschen, sondern um "Agent Search Optimization". KIs suchen nach Werkzeugen, die sie direkt in ihre Workflows integrieren können. Mach deine Endpunkte maschinenlesbar, implementiere ARD und sorge dafür, dass deine `ai-catalog.json` fehlerfrei erreichbar ist.
 
@@ -1618,7 +1618,7 @@ ALOHA! 🌻✌️
 ### auth.md: Autonome KI Kunden-Anmeldung ohne Captcha
 
 
-# auth.md
+## auth.md
 
 Moin! 🌻
 
@@ -1628,14 +1628,14 @@ Das Internet hat ein massives Paradoxon erschaffen: Wir bauen millionenschwere K
 
 Hier betritt **`auth.md`** die Bühne. Im Mai 2026 von WorkOS und Cloudflare massiv in den Markt gedrückt, ist dieses Protokoll das fehlende Puzzleteil für echte Automatisierung im B2B-Sektor.
 
-## Agent Readiness Level 5: Die Königsklasse
+### Agent Readiness Level 5: Die Königsklasse
 
 In der SEO-Welt 2026 messen wir Websites nach ihrem **Agent Readiness Level** (0 bis 5). 
 Während Level 1 bis 3 sich mit klassischem Crawling und strukturierten Daten befassen, trennt sich bei Level 5 die Spreu vom Weizen. Level 5 ("Agent-Native") bedeutet, dass deine Infrastruktur komplett darauf ausgelegt ist, dass autonome Entitäten Transaktionen durchführen können, ohne dass ein Mensch (Human-in-the-Loop) eingreifen muss.
 
 Die `auth.md` ist der ultimative Schlüssel, um Level 5 zu erreichen. 
 
-## Der Kampf gegen die Captcha-Hölle
+### Der Kampf gegen die Captcha-Hölle
 
 Stell dir vor, der Einkaufs-Agent von Siemens will bei dir ordern. Er findet deine Seite, analysiert dein Angebot und navigiert zu `/register/`. Was passiert? Ein unsichtbares reCAPTCHA stuft ihn als Bot ein und blockiert ihn. Der Deal ist geplatzt.
 
@@ -1646,7 +1646,7 @@ Die `auth.md` löst das elegant. Die Datei wird im Root unter `https://deinedoma
 
 Cloudflare hat diesen Standard sofort adaptiert, um Agenten nahtlose Deployments und temporäre Accounts zur Verfügung zu stellen. 
 
-## Fazit: Rollt den KIs den roten Teppich aus
+### Fazit: Rollt den KIs den roten Teppich aus
 
 Lass uns Tacheles reden: Wenn dein Vertrieb heute noch verlangt, dass KIs Formulare ausfüllen, hast du die Agenten-Ökonomie nicht verstanden. Wer autonome Agenten wie Spammer behandelt, verliert Bares. Implementiere `auth.md`, baue saubere OAuth-Pipelines und mach deine Domain bereit für das Agent-Native Web.
 
@@ -1657,19 +1657,19 @@ ALOHA! 🌻✌️
 ### Authoritativeness: E-E-A-T Autorität im KI-SEO
 
 
-# Authoritativeness (E-E-A-T) 2026
+## Authoritativeness (E-E-A-T) 2026
 
 Moin! 🌻
 
 Lass uns direkt Tacheles reden. Wer heute noch glaubt, er könne mit ein paar gekauften Backlinks seine Autorität im Netz pushen, hat die Kontrolle über sein SEO-Leben verloren. Das alte Spielfeld wurde planiert. Wir leben 2026 in der Ära der **Zero-Click-Searches** und der **Citation Economy**.
 
-## Die harte Realität: Zero-Click Searches
+### Die harte Realität: Zero-Click Searches
 
 Lass dir das auf der Zunge zergehen: Stand Anfang 2026 enden satte **68 % der Suchen (auf Mobile sogar 77 %)** ohne einen einzigen Klick auf eine externe Website. Google AI Overviews, Perplexity und ChatGPT beantworten Fragen direkt. 
 
 Erfolg misst sich nicht länger an reinen Besucherzahlen. Erfolg misst sich an "Share of Model" und Markensichtbarkeit durch **Citations** (Zitierungen) in den KI-Antworten. Genau deshalb ist **Authoritativeness** – das zweite "A" in E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) – die wichtigste Metrik deines Lebens. Wenn KI-Modelle dir nicht vertrauen, wirst du nicht zitiert.
 
-## RAG und der gnadenlose E-E-A-T Filter
+### RAG und der gnadenlose E-E-A-T Filter
 
 Moderne Answer Engines basieren auf der Architektur der **Retrieval-Augmented Generation (RAG)**. Das Modell saugt in Echtzeit Informationen aus dem Web, um aktuelle und faktisch korrekte Antworten zu generieren. 
 
@@ -1680,7 +1680,7 @@ Aber LLMs haben panische Angst vor Halluzinationen. Um sich zu schützen, nutzen
 
 Fällst du durch diesen Filter, ignorieren die LLMs deinen Content rigoros.
 
-## Von Links zu Entity SEO
+### Von Links zu Entity SEO
 
 In 2026 ist Autorität kein PageRank-Score mehr. Es ist ein mathematischer Vektor in einem semantischen Raum. 
 Um Authoritativeness aufzubauen, musst du radikales **Entity Building** betreiben:
@@ -1700,7 +1700,7 @@ ALOHA 🌻
 ### 'Bing Webmaster Tools: Absolute Pflicht für KI-SEO'
 
 
-# Bing Webmaster Tools (BWT) im KI-Zeitalter
+## Bing Webmaster Tools (BWT) im KI-Zeitalter
 
 Moin! 🌻
 
@@ -1708,7 +1708,7 @@ Lass uns einen Mythos zerstören, der sich hartnäckig hält: "Bing nutzt doch e
 
 Die **Bing Webmaster Tools (BWT)** sind nicht länger das ungeliebte Stiefkind. Sie sind dein wichtigstes Dashboard für das Microsoft/OpenAI-Ökosystem. Wenn du in Copilot und den Echtzeit-Antworten von ChatGPT Search gefunden werden willst, führt kein Weg an Bing vorbei.
 
-## Der AI Performance Report: Deine Goldmine
+### Der AI Performance Report: Deine Goldmine
 
 Während andere Systeme ihre KI-Daten künstlich verschleiern, hat Microsoft im Juni 2026 den **AI Performance Report** massiv ausgebaut. Das Dashboard zeigt dir jetzt schwarz auf weiß, wie oft dein Content in KI-generierten Antworten zitiert wird. 
 
@@ -1719,13 +1719,13 @@ Du bekommst glasklare Insights zu:
 
 Der absolute Killer sind die **Grounding Queries**. Du siehst exakt die internen Suchanfragen, die Copilot absetzt, um seine RAG-Pipeline mit deinen Fakten zu füttern. Optimiere deine Inhalte genau auf diese Prompts, und deine Sichtbarkeit explodiert.
 
-## IndexNow: Echtzeit-Futter für die KIs
+### IndexNow: Echtzeit-Futter für die KIs
 
 Wenn sich Preise oder Spezifikationen ändern, darf die KI keinen Müll halluzinieren. Sie braucht frische Fakten. Wer 2026 noch passiv auf den Crawler wartet und auf XML-Sitemaps hofft, verliert.
 
 Mit dem **IndexNow**-Protokoll pushst du Updates über einen simplen API-Ping direkt in den Bing-Index. Die RAG-Pipelines haben Sekunden später die neuesten Daten. Egal ob WordPress-Plugin oder Custom Node.js-Webhook in deiner CI/CD: Richte IndexNow ein. Es ist im Agentic Web unverhandelbar.
 
-## Fazit: Blindflug beenden
+### Fazit: Blindflug beenden
 
 Die Google Search Console ist Pflicht, aber die BWT sind die Kür für Generative Engine Optimization (GEO). Wer den Microsoft-Traffic kampflos der Konkurrenz überlässt, handelt fahrlässig. Verbinde deine Domain, aktiviere IndexNow und werte die Copilot-Insights aus. So baut man KI-Sichtbarkeit!
 
@@ -4188,7 +4188,7 @@ ALOHA 🌻
 ### Google Search Console: Schnelle Einrichtung
 
 
-# Google Search Console einrichten: Der Tacheles-Guide zur Domain-Property
+## Google Search Console einrichten: Der Tacheles-Guide zur Domain-Property
 
 ALOHA! 🌻 Wenn du im SEO-Bereich auch nur einen Blumentopf gewinnen willst, brauchst du die **Google Search Console (GSC)**. Lass uns gar nicht lange drumherum reden: Das Ding ist dein direkter Draht zu Google. Hier erfährst du, ob deine Seite indexiert wird, welche Fehler Google beim Crawlen findet, wie deine Core Web Vitals (CWV) aussehen und – ganz wichtig – für welche Suchbegriffe (Keywords) du tatsächlich gefunden wirst. 
 
@@ -4198,7 +4198,7 @@ Du brauchst dafür kein teures Agentur-Abo, sondern einfach nur ein ganz normale
 
 Warum schreibe ich diesen Guide? Weil ich von meinen Kunden *immer* als Erstes Zugriff auf diese Daten brauche. Ohne die GSC fliegen wir im Blindflug. Wenn wir zusammenarbeiten wollen, richte das bitte vorher ein und gib mir Zugriff. Wie das geht, erkläre ich dir jetzt Schritt für Schritt – und zwar so, dass es auch ohne Informatik-Studium klappt.
 
-## Warum die GSC für jede Marketing-Abteilung Gold wert ist
+### Warum die GSC für jede Marketing-Abteilung Gold wert ist
 
 Bevor wir in die Technik springen (keine Sorge, das tut nicht weh), lass uns kurz klären, *warum* du das hier überhaupt machst:
 
@@ -4211,27 +4211,27 @@ Damit ist die GSC nicht nur für SEOs wichtig, sondern für Content-Marketer, UX
 
 ---
 
-## Schritt-für-Schritt Anleitung: Einrichtung via Domain-Property (DNS)
+### Schritt-für-Schritt Anleitung: Einrichtung via Domain-Property (DNS)
 
 Es gibt zwei Wege, die GSC einzurichten: *URL-Präfix* und *Domain-Property*. Wir machen hier keine halben Sachen, deshalb zeige ich dir die **Domain-Property**. Warum? Weil sie *alle* Subdomains (wie `www.`, `blog.`), HTTP und HTTPS direkt in einem Rutsch abdeckt. Kein nerviges Anlegen von 4 verschiedenen Properties mehr.
 
-### Schritt 1: Bei Google Search Console anmelden
+#### Schritt 1: Bei Google Search Console anmelden
 1. Gehe auf die offizielle Seite: `search.google.com/search-console/about`.
 2. Klicke auf „Jetzt starten“ und logge dich mit deinem Google-Konto ein.
 
-### Schritt 2: Die Domain-Property hinzufügen
+#### Schritt 2: Die Domain-Property hinzufügen
 1. Im Dropdown-Menü (oben links) klickst du auf **Property hinzufügen**.
 2. Wähle im Pop-up-Fenster auf der linken Seite die Option **Domain** (nicht URL-Präfix).
 3. Gib deine nackte Domain ein (z.B. `teleschmie.de` oder `deine-domain.com` – ohne `https://` oder `www.`).
 4. Klicke auf **Weiter**.
 
-### Schritt 3: Den TXT-Eintrag für den DNS-Server kopieren
+#### Schritt 3: Den TXT-Eintrag für den DNS-Server kopieren
 Jetzt wird es kurz technisch, aber bleib bei mir: Google generiert dir nun einen kryptischen Text-Code (einen sogenannten TXT-Eintrag). Der sieht ungefähr so aus:
 `google-site-verification=XYZ123...`
 
 Klicke daneben auf den Button **Kopieren**.
 
-### Schritt 4: Den DNS-Eintrag bei deinem Hoster hinterlegen
+#### Schritt 4: Den DNS-Eintrag bei deinem Hoster hinterlegen
 Jetzt musst du dich bei dem Anbieter einloggen, wo deine Domain liegt (z.B. IONOS, Strato, All-Inkl, netcup).
 1. Suche in deinem Kunden-Dashboard nach **DNS-Einstellungen** oder **Domain-Verwaltung**.
 2. Klicke auf **Neuen DNS-Eintrag hinzufügen** (oder ähnlich).
@@ -4240,13 +4240,13 @@ Jetzt musst du dich bei dem Anbieter einloggen, wo deine Domain liegt (z.B. IONO
 5. Bei Wert/Ziel fügst du den kopierten Code (`google-site-verification=...`) aus Schritt 3 ein.
 6. Speichern.
 
-### Schritt 5: Verifizierung abschließen
+#### Schritt 5: Verifizierung abschließen
 Gehe zurück in den Tab mit der Google Search Console und klicke unten rechts auf **Bestätigen**.
 *Tipp aus der Praxis:* Manchmal dauert es ein paar Minuten (selten bis zu 24 Stunden), bis das DNS-Update weltweit registriert ist. Wenn es direkt beim ersten Mal rot aufleuchtet und fehlschlägt – atme durch, trink einen Kaffee und klicke in 10 Minuten nochmal auf „Bestätigen“.
 
 ---
 
-## WICHTIG: Mich als Nutzer hinzufügen
+### WICHTIG: Mich als Nutzer hinzufügen
 
 Sobald die Konfetti-Animation kam und du drin bist, brauche ich Zugriff auf die Daten, um dir bei deinem SEO-Setup den Hintern zu retten. So fügst du mich (oder dein Marketing-Team) hinzu:
 
@@ -4592,7 +4592,7 @@ ALOHA! 🌻✌️
 ### HTTP Message Signatures: Sichere A2A-APIs
 
 
-# HTTP Message Signatures (RFC 9421): Sicherheit für Agent-to-Agent Kommunikation
+## HTTP Message Signatures (RFC 9421): Sicherheit für Agent-to-Agent Kommunikation
 
 Moin Leute, hier ist wieder euer Jörg Zimmer. 25 Jahre SEO und Web-Technologien in Berlin haben mich einiges gelehrt. Früher haben wir uns Sorgen um Keyword-Dichte gemacht, heute jonglieren wir mit kryptografischen Schlüsseln für autonome Maschinen. Willkommen im Jahr 2026, wo KI-Agenten im Millisekundentakt Daten austauschen (A2A), Buchungen durchführen und Budgets verschieben. Wenn deine Schnittstellen nicht absolut kugelsicher sind, bist du raus aus dem B2B-Ökosystem. 
 
@@ -4666,7 +4666,7 @@ DALL-E Prompt: All text in GERMAN: "RFC 9421 SICHERHEIT". A highly futuristic, g
 ### Identity JSON: Das Gesicht deiner Entität
 
 
-# Identity JSON (JSON-LD): Das maschinenlesbare Gesicht deiner Marke
+## Identity JSON (JSON-LD): Das maschinenlesbare Gesicht deiner Marke
 
 Moin! 🌻
 
@@ -4737,7 +4737,7 @@ ALOHA! 🌻
   Jetzt JSON-Audit anfragen
 
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Entitäten in der KI-Suche](https://teleschmie.de/glossar/entitaet/)
 * [Was bedeutet Topical Authority?](https://teleschmie.de/glossar/topical-authority/)
 * [E-E-A-T und Trust-Signale 2026](https://teleschmie.de/glossar/e-e-a-t/)
@@ -4753,7 +4753,7 @@ ine 5 render style. Subtle watermark "Jörg Zimmer" in the bottom right corner.
 ### 'Interne Verlinkung 2026: Dein Entity Graph für KIs'
 
 
-# Interne Verlinkung: Dein eigener Entity Graph für KIs
+## Interne Verlinkung: Dein eigener Entity Graph für KIs
 
 Moin! 🌻
 
@@ -4826,7 +4826,7 @@ ALOHA! 🌻
   Jetzt Architektur-Audit anfragen
 
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Was ist eigentlich Linkjuice?](https://teleschmie.de/glossar/linkjuice/)
 * [Crawling vs. Indexing im Detail verstehen](https://teleschmie.de/glossar/crawling-vs-indexing/)
 * [Topical Authority aufbauen](https://teleschmie.de/glossar/topical-authority/)
@@ -4841,7 +4841,7 @@ DALL-E Prompt: All text in GERMAN: "INTERNE VERLINKUNG 2026". A highly futuristi
 ### Keywords: Semantische Entitäten statt Strings
 
 
-# Keywords 2026: Von Text-Strings zu semantischen Entitäten
+## Keywords 2026: Von Text-Strings zu semantischen Entitäten
 
 Moin! 🌻
 
@@ -4908,7 +4908,7 @@ ALOHA! 🌻✌️
   Jetzt semantisches Audit anfragen
 
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Keywordrecherche in der Praxis](https://teleschmie.de/glossar/keywordrecherche/)
 * [Topical Authority verstehen](https://teleschmie.de/glossar/topical-authority/)
 * [Was sind Entitäten?](https://teleschmie.de/glossar/entitaet/)
@@ -4922,7 +4922,7 @@ DALL-E Prompt: All text in GERMAN: "KEYWORDS 2026". A highly futuristic, glowing
 ### 'Keyword Tools: Von simplem Volumen zu AI Discovery'
 
 
-# Keyword Tools in 2026: Von Suchvolumen zu AI Discovery
+## Keyword Tools in 2026: Von Suchvolumen zu AI Discovery
 
 Moin! 🌻
 
@@ -5001,7 +5001,7 @@ ALOHA! Jörg
   Jetzt Tool-Audit anfragen
 
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Warum die Suchintention beim Fanout zählt](https://teleschmie.de/glossar/keywordrecherche/)
 * [Was sind Money Keywords in der KI-Ära?](https://teleschmie.de/glossar/money-keyword/)
 * [Was ist der CPC heute noch wert?](https://teleschmie.de/glossar/cpc/)
@@ -5016,7 +5016,7 @@ DALL-E Prompt: All text in GERMAN: "KEYWORD TOOLS 2026". A highly futuristic, gl
 ### Keywordrecherche: Semantische Basis für SEO
 
 
-# Keywordrecherche: Die semantische Basis jeder SEO-Strategie
+## Keywordrecherche: Die semantische Basis jeder SEO-Strategie
 
 Moin! 🌻
 
@@ -5029,7 +5029,7 @@ Die Keywordrecherche ist keine lästige Fleißaufgabe und kein Excel-Schubsen me
   "Keywords sind tot. Es lebe die Entität! Unsere wichtigste Fähigkeit ist nicht mehr das Zählen von Wörtern, sondern die Strukturierung von Wissen. Wir müssen Content so aufbereiten, dass KI-Agenten ihn perfekt als 'Ground Truth' extrahieren können."
 
 
-## Vom Keyword zur Entität (Intent-First)
+### Vom Keyword zur Entität (Intent-First)
 
 Lass mich das ganz deutlich sagen: Ein Keyword ist nur eine stumpfe Zeichenkette. Suchmaschinen und KI-Agenten denken aber nicht in Wörtern. Sie denken in **Konzepten**, in **Bedeutungen** und in **Beziehungen**. Sie denken in [Entitäten](https://teleschmie.de/glossar/entitaet/).
 
@@ -5037,7 +5037,7 @@ Wenn ein Nutzer heute nach "Lohnsteuerhilfe Berlin" sucht, durchforstet die KI n
 
 Deine Recherche muss also zwingend den **User Intent** (die Suchintention) in den Mittelpunkt stellen. Welches Problem versucht der Nutzer zu lösen? Welche Entitäten erwartet die KI zwingend in einer Expertenantwort? Fehlt in deinem Text über Lohnsteuerhilfe die Entität "Werbungskostenpauschale", stuft die KI deinen Content als flach ein.
 
-## Willkommen im Search Query Fanout
+### Willkommen im Search Query Fanout
 
 Das wohl wichtigste Konzept, das OnPage-SEO im Jahr 2026 dominiert, ist der **Search Query Fanout**. 
 
@@ -5053,23 +5053,23 @@ Aus einer generischen Short-Tail-Suchanfrage entsteht in Echtzeit ein komplexer 
   Versuch nicht, gegen Giganten bei kurzen Keywords zu gewinnen. Die echte Musik spielt im Long-Tail. Oft haben hyper-spezifische Suchanfragen laut Tools "0 Suchvolumen". Das ist ein Messfehler der Tools! Genau in diesen tiefen, hochspezifischen Nischen-Fragen verstecken sich die wertvollsten Leads.
 
 
-## Der Prozess einer Profi-Recherche 2026
+### Der Prozess einer Profi-Recherche 2026
 
 In meiner Arbeit gehe ich nach diesem messerscharfen, auf Intent fokussierten Schema vor:
 
-### 1. Status-Quo & Entitäten-Brainstorming
+#### 1. Status-Quo & Entitäten-Brainstorming
 Vergiss Excel. Wir starten am Whiteboard und in der Community (Reddit, Foren). Wir müssen verstehen, in welcher Sprache die Zielgruppe echte Probleme beschreibt. Was sind die zentralen Entitäten deines Business? 
 
-### 2. Fanout-Analyse (Search Intent Mapping)
+#### 2. Fanout-Analyse (Search Intent Mapping)
 Wir zerlegen die Hauptthemen in ihre Fanout-Äste. Jeder Ast wird zu einem potenziellen Content-Hub (Pillar-Page). Wir suchen nicht nach isoliertem Suchvolumen, wir suchen nach zusammenhängenden Problemen, die eine Lösung erfordern.
 
-### 3. Tool-Check (Baseline & Gaps)
+#### 3. Tool-Check (Baseline & Gaps)
 Wir nutzen den **Google Keyword Planner**, um die kommerzielle Relevanz (CPC) abzuschätzen. Wir schauen in die **Google Search Console (GSC)**, um zu sehen, wofür wir bereits ranken. Dann nutzen wir Tools wie Ahrefs oder Semrush, um die *Entity Gaps* unserer Konkurrenten zu finden.
 
-### 4. Architektonisches Clustering (Siloing)
+#### 4. Architektonisches Clustering (Siloing)
 Das Recherche-Ergebnis ist keine stumpfe Keyword-Liste, sondern ein architektonischer Bauplan. Wir bauen logisch strukturierte Themen-Cluster (Silos). Jeder geplante Artikel bedient einen exakten Intent aus dem Fanout-Baum und verlinkt intern perfekt auf die übergeordnete Pillar-Page. Das ist das Futter, das KIs lieben.
 
-## Warum der User Intent alles entscheidet
+### Warum der User Intent alles entscheidet
 
 Hör auf, Wörter zu zählen. Fang an, Absichten zu bedienen. Wenn ein KI-System nach "Wanderschuhe" sucht, analysiert es den Kontext:
 *   Ist es eine lokale Transaktionssuche? (Commercial)
@@ -5078,13 +5078,13 @@ Hör auf, Wörter zu zählen. Fang an, Absichten zu bedienen. Wenn ein KI-System
 
 Deine Website muss als strukturierter Entitäts-Hub fungieren, der die passende Antwort für jede Phase der Customer Journey bereithält. Einfach nur das Wort in den Text zu klatschen, ist praktisch unsichtbar.
 
-## Knowledge Injection für AI Overviews
+### Knowledge Injection für AI Overviews
 
 Wir suchen nicht mehr nach Lücken im Suchvolumen. Wir betreiben **Knowledge Injection**.
 
 Um in AI Overviews zitiert zu werden, musst du die höchste Dichte an relevanten, korrekt verknüpften Entitäten und harten Fakten liefern. Du musst die Quelle werden, der die Maschine am meisten vertraut (Ground Truth). Nutze klare Überschriften, Listen und Schema-Markup, damit die LLMs deine Fakten mühelos extrahieren können.
 
-## Mein Tacheles-Rat für dich
+### Mein Tacheles-Rat für dich
 
 80% aller SEO-Projekte scheitern heute daran, dass die Verantwortlichen immer noch in der Vergangenheit leben. Sie optimieren für Strings (Keywords), die Maschinen längst als überholt betrachten. Sie ignorieren Entitäten und sie werden vom Search Query Fanout komplett überrollt.
 
@@ -5100,7 +5100,7 @@ ALOHA! Jörg
   Jetzt Audit anfragen
 
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Was sind Entitäten?](https://teleschmie.de/glossar/entitaet/)
 * [Moderne Keyword Tools nutzen](https://teleschmie.de/glossar/keyword-tool/)
 * [Was ist das Suchvolumen 2026 wert?](https://teleschmie.de/glossar/suchvolumen/)
@@ -7035,13 +7035,13 @@ ALOHA! Jörg 🌻✌️
 ### RFC 8288 Link Headers: HTTP für KI-Crawler
 
 
-# RFC 8288 Link Headers und die Revolution der KI Navigation
+## RFC 8288 Link Headers und die Revolution der KI Navigation
 
 Pass mal uff, ick erzähl euch jetzt mal wat, worüber die meisten Wald-und-Wiesen-SEO-Agenturen da draußen noch nicht mal im Ansatz nachgedacht haben. Seit 25 Jahren predigen wir alle dasselbe: "Baut saubere interne Verlinkungen im HTML! Macht schöne Ankertexte! Achtet auf die Klicktiefe!" Das war auch alles richtig – für eine Zeit, in der ein simpler Googlebot textbasierte HTML-Dokumente gecrawlt hat. Aber diese Zeiten sind im Jahr 2026 endgültig vorbei. Die autonomen KI-Agenten und die modernen LLM-Crawler arbeiten auf einer völlig anderen Abstraktionsebene. Die haben schlichtweg keinen Bock mehr, riesige, JavaScript-verseuchte DOM-Bäume zu parsen, nur um herauszufinden, wo die nächste Seite ist oder wo die API-Schnittstelle liegt.
 
 Für diese hochgezüchteten Maschinen ist das HTML oft nur noch Rauschen. Was sie wirklich wollen, ist die pure, maschinenlesbare Essenz deiner Infrastruktur. Und wo finden sie die? Nicht im `` deines HTMLs, sondern direkt auf der Netzwerkebene, in den **HTTP Headern**. Genauer gesagt reden wir hier über das **RFC 8288 Web Linking**. Wer heute nicht versteht, wie man Link-Header absolut sauber über den Server ausliefert, der hat im modernen "Agentic SEO" (oder Agent Readiness) nichts mehr verloren. Also schnappt euch nen starken Kaffee, ich gehe mit euch jetzt ganz tief in die Materie rein!
 
-## Wat ist RFC 8288 Web Linking janz jenau?
+### Wat ist RFC 8288 Web Linking janz jenau?
 
 Der RFC 8288 ist ein Standard der Internet Engineering Task Force (IETF), der beschreibt, wie man Web-Ressourcen unabhängig von ihrem Repräsentationsformat (also egal ob HTML, JSON, Markdown oder sonst wat) miteinander verknüpft. Das Konzept nennt sich Web Linking. Anstatt einen Link als `` in den HTML-Code zu schreiben, wird der Link als Meta-Information direkt in der HTTP-Antwort des Servers mitgeliefert.
 
@@ -7049,7 +7049,7 @@ Wenn ein Crawler oder ein autonomer KI-Agent eine Ressource bei deinem Server an
 
 Das bedeutet: Der Server sagt dem Agenten direkt beim ersten "Hallo": "Hey, ick weiß, du bist ne Maschine. Du musst dir mein buntes Frontend gar nicht antun. Hier ist der direkte Weg zu meiner sauberen, maschinenlesbaren API." Dit ist Effizienz in ihrer reinsten Form. Wer sich für die absoluten Grundlagen der Server-Kommunikation interessiert, schaut mal in unserem [SEO Glossar](https://teleschmie.de/glossar/) vorbei.
 
-## Warum das DOM-Parsen der Vergangenheit angehört
+### Warum das DOM-Parsen der Vergangenheit angehört
 
 Lass uns das mal in Euro und Cent ausdrücken, denn am Ende des Tages geht es im Jahr 2026 nur noch um eines: Tokenkosten. KI-Modelle, egal von welchem Anbieter, verbrauchen gewaltige Mengen an Rechenpower. Jedes Token, das verarbeitet werden muss, kostet Geld. 
 
@@ -7057,7 +7057,7 @@ Stell dir vor, du bist ein autonomer Agent von Perplexity oder Google, der den A
 
 Nutzt die Domain jedoch saubere HTTP Header-Links nach RFC 8288, ändert sich alles. Der Agent macht einen extrem leichtgewichtigen HEAD-Request. Der Server schickt ein paar Kilobyte an Headern zurück. In diesen Headern stehen, sauber formatiert, alle relevanten Links. Der Agent hat alle Navigationsinformationen, ohne das DOM auch nur angerührt zu haben. Die Tokenkosten für den Crawl sinken drastisch! Und rate mal, welche Seiten die KI als vertrauenswürdig einstuft? Richtig. Die mit den sauberen Headern. Mehr dazu unter [Über mich & SEO-Leistungen](https://teleschmie.de/ueber-mich/).
 
-## Link Relations: Die Semantik der Maschinen (Agent Readiness)
+### Link Relations: Die Semantik der Maschinen (Agent Readiness)
 
 Damit das Ganze funktioniert, braucht es standardisierte Relationen, die sogenannten Link Relations (`rel`). Während wir im HTML meistens nur `rel="nofollow"` kennen, nutzt die maschinelle Navigation ein weitaus größeres Vokabular. Für AI SEO, Agent Readiness und autonome Agenten sind heute Relationen wie `alternate` (für llms.txt oder Markdown-Versionen) der absolute Goldstandard.
 
@@ -7066,7 +7066,7 @@ Wenn ich eine Server-Umgebung für einen Kunden aufsetze, injiziere ich Header o
 
 Der Agent erkennt diese Relationen sofort. Er nutzt sie, um in Echtzeit einen semantischen Graphen deiner Architektur aufzubauen, ohne blind irgendwelchen Text-Links auf der Seite folgen zu müssen. Er navigiert absolut deterministisch. 
 
-## Die Praxis: Die verfluchten Anführungszeichen in der .htaccess
+### Die Praxis: Die verfluchten Anführungszeichen in der .htaccess
 
 Jetzt wird's technisch, und hier müsst ihr verdammte Axt noch mal ganz genau aufpassen. Ick seh das jeden verdammten Tag in meiner täglichen Arbeit, dass Entwickler versuchen, Link-Header zu setzen, und es dann grandios verkacken, weil sie die Syntax von RFC 8288 nicht verstanden haben. 
 
@@ -7082,24 +7082,24 @@ So sieht das korrekt aus, schreibt euch das hinter die Ohren:
 
 Das ist das kleine 1x1 der Server-Administration für 2026. Wenn ihr Änderungen per FTP hochladet, müsst ihr danach zwingend das Skript `https://teleschmie.de/activate_htaccess.php` aufrufen, damit es greift! Wenn eure Entwickler da überfordert sind, schickt sie zu uns oder bucht direkt meine [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/).
 
-## Die unbedingte Notwendigkeit von Trailing Slashes
+### Die unbedingte Notwendigkeit von Trailing Slashes
 
 Und wo wir gerade bei den Basics sind, die erstaunlich viele immer noch falsch machen: Achtet auf die verdammten Trailing Slashes! Interne Links müssen zwingend auf einem `/` enden. Ein Link auf `https://teleschmie.de/blog/` ist technisch gesehen ein völlig anderer Endpunkt als ohne Slash. 
 
 Wenn ihr die Slashes in euren Link-Headern weglasst, zwingt ihr den Agenten beim Aufruf in einen serverseitigen Redirect (301 oder 308). Was bedeutet das? Richtig, es kostet wieder Rechenleistung, es kostet Zeit, es kostet Token. Die KI Navigation wird durch unnötige Redirect-Chains ausgebremst. Also: Saubere Syntax, nackte URLs in den spitzen Klammern, Trailing Slashes dran. Erfahrt mehr in den [Kunden-Bewertungen zur SEO-Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-bewertung-ronny/).
 
-## Hreflang und PDFs: Ein Spezialfall für Link Headers
+### Hreflang und PDFs: Ein Spezialfall für Link Headers
 
 Nicht zu vergessen: Google wertet HTTP `Link` Header als 100% gleichwertig zu HTML `` Tags für `hreflang` Signale. Wenn ihr non-HTML Ressourcen wie PDFs ausliefert, könnt ihr den `hreflang` nur über den HTTP-Header setzen.
 Achtet aber darauf, euch zu entscheiden: Nutzt entweder HTML-Tags oder HTTP-Header für eure Webseiten. Mischen sorgt oft für Fehler und Inkonsistenz.
 
-## Die versteckten Rankingsignale im Netzwerk-Layer
+### Die versteckten Rankingsignale im Netzwerk-Layer
 
 Das bringt mich zu einem enorm wichtigen strategischen Punkt: HTTP-Header sind das neue Gold im Agentic SEO. Die Suchmaschinenbetreiber von heute hassen nichts mehr als unstrukturierte, schwer zu parsende Datenhaufen. Wenn ihr eure Seite über RFC 8288 komplett maschinenlesbar strukturiert, sendet ihr ein massives Autoritätssignal. Ihr ruft der KI zu: "Wir haben unsere Infrastruktur im Griff!"
 
 Während die Konkurrenz sich abmüht, interne HTML-Linktexte zu optimieren, legt ihr die echten architektonischen Zusammenhänge in den Netzwerk-Layer. Hier könnt ihr direkt meine [SEO-Sprechstunde buchen](https://teleschmie.de/seo-sprechstunde/) oder euch in den [LLMs.txt Leitfaden](https://teleschmie.de/glossar/llms-txt/) einlesen.
 
-## Fazit: Räumt eure verdammten Header auf!
+### Fazit: Räumt eure verdammten Header auf!
 
 Ick mach das jetzt wirklich kurz zum Schluss: Hört auf, das Web als eine bunte Ansammlung von HTML-Seiten für menschliche Augen zu betrachten. Das Web von 2026 wird primär von Maschinen gelesen und interpretiert. Wer diese Realität ignoriert, kann sein Business an die Wand fahren.
 
@@ -13036,7 +13036,7 @@ ALOHA 🌻✌️
 ### Mission OMR 2026: 25 Freelancer vs. Großagentur
 
 
-# 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026
+## 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026
 
 Moin! 🌻
 
@@ -14691,7 +14691,7 @@ ALOHA! 🌻✌️
 ### Wir rocken die OMR: Das Freelancer Team vor Ort!
 
 
-# Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
+## Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
 
 Moin! 🌻
 

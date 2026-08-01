@@ -20,7 +20,7 @@ faqs:
     answer: 'Weil die Maschinenlesbarkeit deiner Website entscheidet, ob du gecrawlt wirst. Wenn dein Tool nicht erkennt, dass dein DOM zu komplex für KI-Parser ist, bringt dir der beste Text nichts.'
 ---
 
-# Keyword Tools in 2026: Von Suchvolumen zu AI Discovery
+## Keyword Tools in 2026: Von Suchvolumen zu AI Discovery
 
 Moin! 🌻
 
@@ -99,7 +99,7 @@ ALOHA! Jörg
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tool-Audit anfragen</a>
 </div>
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Warum die Suchintention beim Fanout zählt](/glossar/keywordrecherche/)
 * [Was sind Money Keywords in der KI-Ära?](/glossar/money-keyword/)
 * [Was ist der CPC heute noch wert?](/glossar/cpc/)

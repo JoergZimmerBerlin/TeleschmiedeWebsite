@@ -19,7 +19,7 @@ faqs:
     answer: 'Als Baseline für kommerzielles Potenzial: Ja. Für eine tiefgreifende Content-Strategie: Nein. Du musst GSC, Trends und Tools für Entity-Gap-Analysen (wie Ahrefs) kombinieren, um den Kontext zu verstehen.'
 ---
 
-# Keywordrecherche: Die semantische Basis jeder SEO-Strategie
+## Keywordrecherche: Die semantische Basis jeder SEO-Strategie
 
 Moin! 🌻
 
@@ -32,7 +32,7 @@ Die Keywordrecherche ist keine lästige Fleißaufgabe und kein Excel-Schubsen me
   <p class="italic text-dark mb-0">"Keywords sind tot. Es lebe die Entität! Unsere wichtigste Fähigkeit ist nicht mehr das Zählen von Wörtern, sondern die Strukturierung von Wissen. Wir müssen Content so aufbereiten, dass KI-Agenten ihn perfekt als 'Ground Truth' extrahieren können."</p>
 </div>
 
-## Vom Keyword zur Entität (Intent-First)
+### Vom Keyword zur Entität (Intent-First)
 
 Lass mich das ganz deutlich sagen: Ein Keyword ist nur eine stumpfe Zeichenkette. Suchmaschinen und KI-Agenten denken aber nicht in Wörtern. Sie denken in **Konzepten**, in **Bedeutungen** und in **Beziehungen**. Sie denken in [Entitäten](/glossar/entitaet/).
 
@@ -40,7 +40,7 @@ Wenn ein Nutzer heute nach "Lohnsteuerhilfe Berlin" sucht, durchforstet die KI n
 
 Deine Recherche muss also zwingend den **User Intent** (die Suchintention) in den Mittelpunkt stellen. Welches Problem versucht der Nutzer zu lösen? Welche Entitäten erwartet die KI zwingend in einer Expertenantwort? Fehlt in deinem Text über Lohnsteuerhilfe die Entität "Werbungskostenpauschale", stuft die KI deinen Content als flach ein.
 
-## Willkommen im Search Query Fanout
+### Willkommen im Search Query Fanout
 
 Das wohl wichtigste Konzept, das OnPage-SEO im Jahr 2026 dominiert, ist der **Search Query Fanout**. 
 
@@ -56,23 +56,23 @@ Aus einer generischen Short-Tail-Suchanfrage entsteht in Echtzeit ein komplexer 
   <p class="mb-0 text-sm">Versuch nicht, gegen Giganten bei kurzen Keywords zu gewinnen. Die echte Musik spielt im Long-Tail. Oft haben hyper-spezifische Suchanfragen laut Tools "0 Suchvolumen". Das ist ein Messfehler der Tools! Genau in diesen tiefen, hochspezifischen Nischen-Fragen verstecken sich die wertvollsten Leads.</p>
 </div>
 
-## Der Prozess einer Profi-Recherche 2026
+### Der Prozess einer Profi-Recherche 2026
 
 In meiner Arbeit gehe ich nach diesem messerscharfen, auf Intent fokussierten Schema vor:
 
-### 1. Status-Quo & Entitäten-Brainstorming
+#### 1. Status-Quo & Entitäten-Brainstorming
 Vergiss Excel. Wir starten am Whiteboard und in der Community (Reddit, Foren). Wir müssen verstehen, in welcher Sprache die Zielgruppe echte Probleme beschreibt. Was sind die zentralen Entitäten deines Business? 
 
-### 2. Fanout-Analyse (Search Intent Mapping)
+#### 2. Fanout-Analyse (Search Intent Mapping)
 Wir zerlegen die Hauptthemen in ihre Fanout-Äste. Jeder Ast wird zu einem potenziellen Content-Hub (Pillar-Page). Wir suchen nicht nach isoliertem Suchvolumen, wir suchen nach zusammenhängenden Problemen, die eine Lösung erfordern.
 
-### 3. Tool-Check (Baseline & Gaps)
+#### 3. Tool-Check (Baseline & Gaps)
 Wir nutzen den **Google Keyword Planner**, um die kommerzielle Relevanz (CPC) abzuschätzen. Wir schauen in die **Google Search Console (GSC)**, um zu sehen, wofür wir bereits ranken. Dann nutzen wir Tools wie Ahrefs oder Semrush, um die *Entity Gaps* unserer Konkurrenten zu finden.
 
-### 4. Architektonisches Clustering (Siloing)
+#### 4. Architektonisches Clustering (Siloing)
 Das Recherche-Ergebnis ist keine stumpfe Keyword-Liste, sondern ein architektonischer Bauplan. Wir bauen logisch strukturierte Themen-Cluster (Silos). Jeder geplante Artikel bedient einen exakten Intent aus dem Fanout-Baum und verlinkt intern perfekt auf die übergeordnete Pillar-Page. Das ist das Futter, das KIs lieben.
 
-## Warum der User Intent alles entscheidet
+### Warum der User Intent alles entscheidet
 
 Hör auf, Wörter zu zählen. Fang an, Absichten zu bedienen. Wenn ein KI-System nach "Wanderschuhe" sucht, analysiert es den Kontext:
 *   Ist es eine lokale Transaktionssuche? (Commercial)
@@ -81,13 +81,13 @@ Hör auf, Wörter zu zählen. Fang an, Absichten zu bedienen. Wenn ein KI-System
 
 Deine Website muss als strukturierter Entitäts-Hub fungieren, der die passende Antwort für jede Phase der Customer Journey bereithält. Einfach nur das Wort in den Text zu klatschen, ist praktisch unsichtbar.
 
-## Knowledge Injection für AI Overviews
+### Knowledge Injection für AI Overviews
 
 Wir suchen nicht mehr nach Lücken im Suchvolumen. Wir betreiben **Knowledge Injection**.
 
 Um in AI Overviews zitiert zu werden, musst du die höchste Dichte an relevanten, korrekt verknüpften Entitäten und harten Fakten liefern. Du musst die Quelle werden, der die Maschine am meisten vertraut (Ground Truth). Nutze klare Überschriften, Listen und Schema-Markup, damit die LLMs deine Fakten mühelos extrahieren können.
 
-## Mein Tacheles-Rat für dich
+### Mein Tacheles-Rat für dich
 
 80% aller SEO-Projekte scheitern heute daran, dass die Verantwortlichen immer noch in der Vergangenheit leben. Sie optimieren für Strings (Keywords), die Maschinen längst als überholt betrachten. Sie ignorieren Entitäten und sie werden vom Search Query Fanout komplett überrollt.
 
@@ -103,7 +103,7 @@ ALOHA! Jörg
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Audit anfragen</a>
 </div>
 
-### Verwandte Begriffe
+## Verwandte Begriffe
 * [Was sind Entitäten?](/glossar/entitaet/)
 * [Moderne Keyword Tools nutzen](/glossar/keyword-tool/)
 * [Was ist das Suchvolumen 2026 wert?](/glossar/suchvolumen/)

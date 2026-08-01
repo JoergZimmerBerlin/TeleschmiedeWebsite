@@ -25,7 +25,7 @@ faqs:
     answer: "Aloha! 🌻✌️ Komm einfach vorbei! Wir freuen uns über jeden Besuch. Egal ob du ein konkretes Projekt hast, nach Kooperationspartnern suchst oder einfach nur Hallo sagen willst. Natürlich kannst du mir auch vorab eine PM auf LinkedIn schreiben, damit wir sicherstellen, dass wir uns nicht verpassen. Aber spontan ist immer gut!"
 ---
 
-# Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
+## Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
 
 Moin! 🌻
 

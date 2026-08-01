@@ -7,7 +7,7 @@ date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-http-message-signatures-3d.webp"
 ---
 
-# HTTP Message Signatures (RFC 9421): Sicherheit für Agent-to-Agent Kommunikation
+## HTTP Message Signatures (RFC 9421): Sicherheit für Agent-to-Agent Kommunikation
 
 Moin Leute, hier ist wieder euer Jörg Zimmer. 25 Jahre SEO und Web-Technologien in Berlin haben mich einiges gelehrt. Früher haben wir uns Sorgen um Keyword-Dichte gemacht, heute jonglieren wir mit kryptografischen Schlüsseln für autonome Maschinen. Willkommen im Jahr 2026, wo KI-Agenten im Millisekundentakt Daten austauschen (A2A), Buchungen durchführen und Budgets verschieben. Wenn deine Schnittstellen nicht absolut kugelsicher sind, bist du raus aus dem B2B-Ökosystem. 
 

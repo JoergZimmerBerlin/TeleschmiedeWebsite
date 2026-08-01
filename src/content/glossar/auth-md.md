@@ -19,7 +19,7 @@ faqs:
     answer: "Niemals! Die Datei liegt öffentlich im .well-known/ Verzeichnis und enthält nur die Anleitung zur legitimen Token-Erstellung, keine Credentials."
 ---
 
-# auth.md
+## auth.md
 
 Moin! 🌻
 
@@ -29,14 +29,14 @@ Das Internet hat ein massives Paradoxon erschaffen: Wir bauen millionenschwere K
 
 Hier betritt **`auth.md`** die Bühne. Im Mai 2026 von WorkOS und Cloudflare massiv in den Markt gedrückt, ist dieses Protokoll das fehlende Puzzleteil für echte Automatisierung im B2B-Sektor.
 
-## Agent Readiness Level 5: Die Königsklasse
+### Agent Readiness Level 5: Die Königsklasse
 
 In der SEO-Welt 2026 messen wir Websites nach ihrem **Agent Readiness Level** (0 bis 5). 
 Während Level 1 bis 3 sich mit klassischem Crawling und strukturierten Daten befassen, trennt sich bei Level 5 die Spreu vom Weizen. Level 5 ("Agent-Native") bedeutet, dass deine Infrastruktur komplett darauf ausgelegt ist, dass autonome Entitäten Transaktionen durchführen können, ohne dass ein Mensch (Human-in-the-Loop) eingreifen muss.
 
 Die `auth.md` ist der ultimative Schlüssel, um Level 5 zu erreichen. 
 
-## Der Kampf gegen die Captcha-Hölle
+### Der Kampf gegen die Captcha-Hölle
 
 Stell dir vor, der Einkaufs-Agent von Siemens will bei dir ordern. Er findet deine Seite, analysiert dein Angebot und navigiert zu `/register/`. Was passiert? Ein unsichtbares reCAPTCHA stuft ihn als Bot ein und blockiert ihn. Der Deal ist geplatzt.
 
@@ -47,7 +47,7 @@ Die `auth.md` löst das elegant. Die Datei wird im Root unter `https://deinedoma
 
 Cloudflare hat diesen Standard sofort adaptiert, um Agenten nahtlose Deployments und temporäre Accounts zur Verfügung zu stellen. 
 
-## Fazit: Rollt den KIs den roten Teppich aus
+### Fazit: Rollt den KIs den roten Teppich aus
 
 Lass uns Tacheles reden: Wenn dein Vertrieb heute noch verlangt, dass KIs Formulare ausfüllen, hast du die Agenten-Ökonomie nicht verstanden. Wer autonome Agenten wie Spammer behandelt, verliert Bares. Implementiere `auth.md`, baue saubere OAuth-Pipelines und mach deine Domain bereit für das Agent-Native Web.
 

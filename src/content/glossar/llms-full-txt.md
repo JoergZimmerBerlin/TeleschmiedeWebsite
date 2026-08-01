@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "LLMs-full.txt: Die harte Wahrheit zum KI-Trend"
 meta_title: "llms-full.txt: Komplette Daten (2026)"
+description: "llms-full.txt für vollen Zugriff. Füttere RAG-Pipelines mit ungekürzten Inhalten und sichere dir maximale Präsenz in Answer Engines direkt. (2026)"
 meta_description: "llms-full.txt für vollen Zugriff. Füttere RAG-Pipelines mit ungekürzten Inhalten und sichere dir maximale Präsenz in Answer Engines direkt. (2026)"
 date: "2026-04-14"
 image: "../../assets/images/glossar/3d-light/glossar-llms-full-txt-3d.png"

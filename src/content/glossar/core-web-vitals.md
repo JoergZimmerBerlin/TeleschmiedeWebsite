@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Core Web Vitals: Rendering-Metriken im Detail"
 meta_title: "Core Web Vitals für Crawler (2026)"
+description: "Core Web Vitals: Warum LCP, INP und CLS auf Architekturebene deine Crawler-Sichtbarkeit diktieren. Kompromisslose Optimierung. (2026)"
 meta_description: "Core Web Vitals: Warum LCP, INP und CLS auf Architekturebene deine Crawler-Sichtbarkeit diktieren. Kompromisslose Optimierung. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q104618838"
 date: "2026-07-18"

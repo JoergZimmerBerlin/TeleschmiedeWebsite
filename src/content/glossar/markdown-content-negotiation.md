@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "Markdown Content Negotiation: AEO Optimierung"
 meta_title: "Markdown Content Negotiation (2026)"
+description: "Markdown Content Negotiation: Dein HTML ist ein Crawler-Albtraum. Wie du Serverkosten drückst und AEO maximal pushst. (2026)"
 meta_description: "Markdown Content Negotiation: Dein HTML ist ein Crawler-Albtraum. Wie du Serverkosten drückst und AEO maximal pushst. (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-markdown-content-negotiation-3d.webp"

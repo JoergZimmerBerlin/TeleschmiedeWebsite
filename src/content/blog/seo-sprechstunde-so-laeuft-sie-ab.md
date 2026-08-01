@@ -1,6 +1,7 @@
 ---
 title: "Wie läuft so eine SEO-Sprechstunde genau ab?"
 meta_title: "SEO-Sprechstunde: So läuft der Check ab (2026)"
+description: "SEO-Sprechstunde: Vom Videocall bis zum Maßnahmenplan. Erhalte echte Insights in den Prozess und die fundierte Live-Analyse deiner Website. (2026)"
 meta_description: "SEO-Sprechstunde: Vom Videocall bis zum Maßnahmenplan. Erhalte echte Insights in den Prozess und die fundierte Live-Analyse deiner Website. (2026)"
 date: "2026-01-28"
 image: "../../assets/images/blog/seo-sprechstunde.webp"

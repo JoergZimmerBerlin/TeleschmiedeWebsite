@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "Grounding Page: Der Maschinen-Anker für AI SEO"
 meta_title: "Grounding Page: Dein KI-Anker (2026)"
+description: "Grounding Page sichert deine KI-Präsenz. Biete LLMs und RAG-Pipelines eine verlässliche Quelle zur Verifizierung von Fakten und Daten. (2026)"
 meta_description: "Grounding Page sichert deine KI-Präsenz. Biete LLMs und RAG-Pipelines eine verlässliche Quelle zur Verifizierung von Fakten und Daten. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-ai-geo.webp"

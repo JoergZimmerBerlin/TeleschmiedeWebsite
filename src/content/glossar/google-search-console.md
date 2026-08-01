@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Google Search Console: Radar für Sichtbarkeit"
 meta_title: "Google Search Console Radar (2026)"
+description: "Google Search Console: Nutze das Radar für echtes Index-Tracking. Ohne harte GSC-Daten fliegst du im absoluten Blindflug. (2026)"
 meta_description: "Google Search Console: Nutze das Radar für echtes Index-Tracking. Ohne harte GSC-Daten fliegst du im absoluten Blindflug. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q328216"
 date: "2026-03-10"

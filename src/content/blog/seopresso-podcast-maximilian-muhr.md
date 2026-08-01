@@ -1,6 +1,7 @@
 ---
 title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
 meta_title: "SEOpresso Podcast: Max Muhr im Talk (2026)"
+description: "SEOpresso Podcast: Max Muhr teilt 15 Jahre Erfahrung. Höre Insights zu Entitäten-Optimierung, Burnout und echte Tacheles-Tipps für Experten. (2026)"
 meta_description: "SEOpresso Podcast: Max Muhr teilt 15 Jahre Erfahrung. Höre Insights zu Entitäten-Optimierung, Burnout und echte Tacheles-Tipps für Experten. (2026)"
 date: "2026-01-28"
 image: "../../assets/images/blog/seopresso-max-muhr.webp"

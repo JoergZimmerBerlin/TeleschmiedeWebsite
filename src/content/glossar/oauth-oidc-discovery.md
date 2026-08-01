@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "OAuth/OIDC Discovery: Puzzleteil für Agenten"
 meta_title: "OAuth/OIDC Discovery für Agents (2026)"
+description: "OAuth/OIDC Discovery ist essenziell für KI. Ermögliche Agenten sichere, autonome Authentifizierung und skaliere so deine B2B-Prozesse stark. (2026)"
 meta_description: "OAuth/OIDC Discovery ist essenziell für KI. Ermögliche Agenten sichere, autonome Authentifizierung und skaliere so deine B2B-Prozesse stark. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-oauth-oidc-discovery-3d.webp"

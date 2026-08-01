@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "llms.txt: Der Community-Standard für Crawler"
 meta_title: "llms.txt: Bot-Zugriff definieren (2026)"
+description: "llms.txt regelt den KI-Zugriff. Definiere klare Regeln für Crawler, schütze deine Daten und steuere RAG-Pipelines absolut verlässlich. (2026)"
 meta_description: "llms.txt regelt den KI-Zugriff. Definiere klare Regeln für Crawler, schütze deine Daten und steuere RAG-Pipelines absolut verlässlich. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llms-txt-3d.webp"

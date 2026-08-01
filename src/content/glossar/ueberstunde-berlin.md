@@ -2,6 +2,7 @@
 category: 'SEO Basics & Onpage'
 title: "Überstunde Berlin: Harte Fakten zum Network-Event"
 meta_title: "Überstunde Berlin: SEO Network (2026)"
+description: "Überstunde Berlin: Das SEO Networking-Event. Tausch dich über KI, GEO und Agent Readiness aus und bau echte Verbindungen in der Szene auf. (2026)"
 meta_description: "Überstunde Berlin: Das SEO Networking-Event. Tausch dich über KI, GEO und Agent Readiness aus und bau echte Verbindungen in der Szene auf. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

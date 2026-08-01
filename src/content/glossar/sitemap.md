@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Sitemap: Echte Architektur für RAG-Pipelines"
 meta_title: "Sitemap: Architektur für RAG (2026)"
+description: "Sitemap: Der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik ohne irgendwelche Kompromisse. (2026)"
 meta_description: "Sitemap: Der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik ohne irgendwelche Kompromisse. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q1503327"
 date: "2026-03-10"

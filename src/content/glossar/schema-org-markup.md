@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Schema.org Markup: Fakten-Wissensbasis für KIs"
 meta_title: "Schema.org Markup: Daten für RAG (2026)"
+description: "Schema.org Markup liefert Struktur. Mach deine Entitäten für LLMs lesbar und steigere die Autorität in modernen Antwortmaschinen massiv. (2026)"
 meta_description: "Schema.org Markup liefert Struktur. Mach deine Entitäten für LLMs lesbar und steigere die Autorität in modernen Antwortmaschinen massiv. (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"

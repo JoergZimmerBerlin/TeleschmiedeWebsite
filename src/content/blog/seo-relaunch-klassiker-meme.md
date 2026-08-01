@@ -1,6 +1,7 @@
 ---
 title: "SEO-Relaunch: Warum ohne SEO das Desaster droht"
 meta_title: "Website Relaunch ohne SEO: Teurer Fehler (2026)"
+description: "Der klassische Website-Relaunch ohne SEO: Warum 301-Redirects, Architektur und frühzeitige Einbindung von Experten so enorm wichtig sind. (2026)"
 meta_description: "Der klassische Website-Relaunch ohne SEO: Warum 301-Redirects, Architektur und frühzeitige Einbindung von Experten so enorm wichtig sind. (2026)"
 date: "2026-03-11"
 category: "SEO Praxis"

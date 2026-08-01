@@ -2,6 +2,7 @@
 category: "AI SEO & Generative Search"
 title: "Agent Readiness Level: Metrik für autonome KIs"
 meta_title: "Agent Readiness Level optimieren (2026)"
+description: "Agent Readiness Level messen und optimieren. Mach deine Seite fit für autonome KI-Agenten, verbessere maschinenlesbare Daten und APIs. (2026)"
 meta_description: "Agent Readiness Level messen und optimieren. Mach deine Seite fit für autonome KI-Agenten, verbessere maschinenlesbare Daten und APIs. (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-agent-readiness-level-3d.webp"

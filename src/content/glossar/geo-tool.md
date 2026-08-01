@@ -1,6 +1,7 @@
 ---
 title: "GEO Tool: Software für messbare KI-Sichtbarkeit"
 meta_title: "GEO Tool: KI-Sichtbarkeit messen (2026)"
+description: "GEO Tool im Einsatz. Optimiere deine Auffindbarkeit in Answer Engines wie Perplexity. Messe und skaliere echte KI-Sichtbarkeit effektiv. (2026)"
 meta_description: "GEO Tool im Einsatz. Optimiere deine Auffindbarkeit in Answer Engines wie Perplexity. Messe und skaliere echte KI-Sichtbarkeit effektiv. (2026)"
 category: 'AI SEO & Generative Search'
 date: "2026-07-31"

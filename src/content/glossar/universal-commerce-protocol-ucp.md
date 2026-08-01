@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "Universal Commerce Protocol: Agenten-Commerce"
 meta_title: "UCP: KI Agenten Commerce Guide (2026)"
+description: "Universal Commerce Protocol (UCP): Wie dieser neue Standard die Art, wie KI-Agenten einkaufen, komplett revolutioniert. (2026)"
 meta_description: "Universal Commerce Protocol (UCP): Wie dieser neue Standard die Art, wie KI-Agenten einkaufen, komplett revolutioniert. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-universal-commerce-protocol-ucp-3d.webp"

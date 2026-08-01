@@ -1,6 +1,7 @@
 ---
 title: "SEO Unternehmensberatung: Stefan auf der Campixx"
 meta_title: "SEO Unternehmensberatung: Campixx Talk (2026)"
+description: "SEO Unternehmensberatung: Stefan Godulla auf der Campixx. Warum Silos zwischen den Abteilungen endlich fallen müssen für nachhaltigen Erfolg. (2026)"
 meta_description: "SEO Unternehmensberatung: Stefan Godulla auf der Campixx. Warum Silos zwischen den Abteilungen endlich fallen müssen für nachhaltigen Erfolg. (2026)"
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_stefan-godulla-auf-der-campixx-2026-in-berlin-activity-7473672260432609280-qH2a"

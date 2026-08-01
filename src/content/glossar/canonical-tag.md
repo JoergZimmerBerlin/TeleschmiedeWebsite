@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Canonical Tag: Schluss mit Duplicate Content"
 meta_title: "Canonical Tag: Duplikate vermeiden (2026)"
+description: "Canonical Tag schützt vor Duplicate Content. Zeige KI-Crawlern die Originalquelle und steuere deinen Linkjuice ohne Verluste gezielt. (2026)"
 meta_description: "Canonical Tag schützt vor Duplicate Content. Zeige KI-Crawlern die Originalquelle und steuere deinen Linkjuice ohne Verluste gezielt. (2026)"
 date: "2026-03-08"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"

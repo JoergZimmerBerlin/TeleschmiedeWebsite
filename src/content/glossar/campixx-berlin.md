@@ -2,6 +2,7 @@
 category: 'SEO Basics & Onpage'
 title: "Campixx Berlin: SEO-Konferenz im KI-Zeitalter"
 meta_title: "Campixx Berlin: SEO-Konferenz (2026)"
+description: "Campixx Berlin: Das Networking-Event der SEO-Szene. Hol dir Insights, sprich Tacheles und bereite dich auf die KI-Zukunft vor. (2026)"
 meta_description: "Campixx Berlin: Das Networking-Event der SEO-Szene. Hol dir Insights, sprich Tacheles und bereite dich auf die KI-Zukunft vor. (2026)"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/campixx-berlin.webp"

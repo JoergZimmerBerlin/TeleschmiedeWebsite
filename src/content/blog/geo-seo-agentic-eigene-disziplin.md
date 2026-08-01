@@ -1,6 +1,7 @@
 ---
 title: "Agentic SEO: Warum GEO eine eigene Disziplin ist"
 meta_title: "Agentic SEO: GEO als eigene Disziplin (2026)"
+description: "Agentic SEO: Verstehe den Paradigmenwechsel. Warum Generative Engine Optimization nicht nur nebenbei läuft und ein eigenes Budget erfordert. (2026)"
 meta_description: "Agentic SEO: Verstehe den Paradigmenwechsel. Warum Generative Engine Optimization nicht nur nebenbei läuft und ein eigenes Budget erfordert. (2026)"
 date: "2026-07-23"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3"

@@ -2,6 +2,7 @@
 category: 'E-E-A-T & Offpage'
 title: "Authoritativeness: E-E-A-T Autorität im KI-SEO"
 meta_title: "Authoritativeness: Trust für KI (2026)"
+description: "Authoritativeness entscheidet im E-E-A-T. Baue eine starke Reputation auf, damit LLMs dich als verlässliche und relevante Quelle zitieren. (2026)"
 meta_description: "Authoritativeness entscheidet im E-E-A-T. Baue eine starke Reputation auf, damit LLMs dich als verlässliche und relevante Quelle zitieren. (2026)"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-authority-3d.webp"

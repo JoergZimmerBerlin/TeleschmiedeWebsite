@@ -1,6 +1,7 @@
 ---
 title: "PageSpeed 100/100: So wurde die Website schnell"
 meta_title: "PageSpeed: So wird die Website schnell (2026)"
+description: "PageSpeed: Perfekter Score von 100/100 für deine Website. Erfahre im Detail, welche Optimierungen nötig sind, um Ladezeiten extrem zu senken. (2026)"
 meta_description: "PageSpeed: Perfekter Score von 100/100 für deine Website. Erfahre im Detail, welche Optimierungen nötig sind, um Ladezeiten extrem zu senken. (2026)"
 date: "2026-01-29"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_pagespeed-100-perfekte-performance-activity-7290107283416819712-lP49"

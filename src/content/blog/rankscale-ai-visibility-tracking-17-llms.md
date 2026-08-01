@@ -1,6 +1,7 @@
 ---
 title: "Rankscale: 17 LLMs für 99€ monatlich tracken"
 meta_title: "Rankscale: 17 LLMs effizient tracken (2026)"
+description: "Rankscale: Das AI-Visibility Tool im Praxistest. Tracke 17 Sprachmodelle effizient, nutze das intuitive Dashboard und steigere deine GEO. (2026)"
 meta_description: "Rankscale: Das AI-Visibility Tool im Praxistest. Tracke 17 Sprachmodelle effizient, nutze das intuitive Dashboard und steigere deine GEO. (2026)"
 date: "2026-02-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-tracking-tool-mega-tool-gefunden-activity-7393993307170897920-zFpw"

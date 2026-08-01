@@ -1,6 +1,7 @@
 ---
 title: "SEO-Sprechstunde: Website-Check & Sichtbarkeit"
 meta_title: "SEO-Sprechstunde: Check & Sichtbarkeit (2026)"
+description: "SEO-Sprechstunde: Was bringt der Website-Check mit Jörg Zimmer? Entdecke den Prozess, den echten Mehrwert und für wen das Format optimal ist. (2026)"
 meta_description: "SEO-Sprechstunde: Was bringt der Website-Check mit Jörg Zimmer? Entdecke den Prozess, den echten Mehrwert und für wen das Format optimal ist. (2026)"
 date: "2026-01-03"
 image: "../../assets/images/profile/katze-seo-hoodie.webp"

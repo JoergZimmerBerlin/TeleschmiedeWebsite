@@ -103,8 +103,8 @@ const categories = [
             href={`${baseUrl}/glossar/${entry.id}/`} 
             title={entry.data.title}
             class="glossar-card group block bg-white border border-gray-100 rounded-xl p-6 hover:border-lime-accent hover:shadow-md transition-all duration-300"
-            data-title={entry.data.title.toLowerCase()}
-            data-desc={(entry.data.meta_description || entry.data.description || '').toLowerCase()}
+            data-title={(entry.data.title || '').toLowerCase()}
+            data-desc={((entry.data.meta_description || '') + ' ' + (entry.data.description || '')).toLowerCase()}
           >
             <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">{entry.data.category || 'SEO Basics & Onpage'}</span>
             <h2 class="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
@@ -128,7 +128,7 @@ const categories = [
         <h2 class="text-3xl font-bold mb-8">Alle Glossar-Einträge (A-Z)</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-8">
           {glossarEntries.sort((a,b) => a.data.title.localeCompare(b.data.title)).map(entry => (
-            <a href={`${baseUrl}/glossar/${entry.id}/`} title={entry.data.title} class="all-glossar-link block text-sm text-gray-muted hover:text-lime-600 hover:underline underline-offset-4 transition-all" data-title={entry.data.title.toLowerCase()}>
+            <a href={`${baseUrl}/glossar/${entry.id}/`} title={entry.data.title} class="all-glossar-link block text-sm text-gray-muted hover:text-lime-600 hover:underline underline-offset-4 transition-all" data-title={(entry.data.title || '').toLowerCase()}>
               {entry.data.title}
             </a>
           ))}

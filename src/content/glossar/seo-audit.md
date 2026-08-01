@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "SEO Audit: Der Guide inkl. KI-Readiness Check"
 meta_title: "SEO Audit: KI-Readiness Check (2026)"
+description: "SEO Audit: Wir analysieren deine Domain auf RAG-Tauglichkeit und Markdown-Strukturen. Halbe Sachen zählen nicht im KI-Zeitalter. (2026)"
 meta_description: "SEO Audit: Wir analysieren deine Domain auf RAG-Tauglichkeit und Markdown-Strukturen. Halbe Sachen zählen nicht im KI-Zeitalter. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

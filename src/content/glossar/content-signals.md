@@ -2,6 +2,7 @@
 category: 'SEO Basics & Onpage'
 title: "Content-Signale: Klare Regeln für AI-Crawler"
 meta_title: "Content-Signale: Crawler führen (2026)"
+description: "Content-Signale steuern KI-Bots präzise. Optimiere HTML-Tags, Header und Metadaten, um maximale Relevanz für alle Suchsysteme zu erzielen. (2026)"
 meta_description: "Content-Signale steuern KI-Bots präzise. Optimiere HTML-Tags, Header und Metadaten, um maximale Relevanz für alle Suchsysteme zu erzielen. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-content-signals-3d.webp"

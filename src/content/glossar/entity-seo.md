@@ -2,6 +2,7 @@
 category: 'E-E-A-T & Offpage'
 title: "Entity SEO: Vektorraum-Ranking für KI-Crawler"
 meta_title: "Entity SEO: Vektorraum-Ranking (2026)"
+description: "Entity SEO: Keywords waren gestern. Baue echten RAG-Trust auf, optimiere deinen Content für den Vektorraum und werde Autorität. (2026)"
 meta_description: "Entity SEO: Keywords waren gestern. Baue echten RAG-Trust auf, optimiere deinen Content für den Vektorraum und werde Autorität. (2026)"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

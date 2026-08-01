@@ -1,6 +1,7 @@
 ---
 title: "KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert"
 meta_title: "KI Sichtbarkeit: RAG maximieren (2026)"
+description: "KI Sichtbarkeit gezielt erhöhen. Steigere deine Präsenz in ChatGPT und Perplexity durch smarte Content-Strukturierung und Entity SEO. (2026)"
 meta_description: "KI Sichtbarkeit gezielt erhöhen. Steigere deine Präsenz in ChatGPT und Perplexity durch smarte Content-Strukturierung und Entity SEO. (2026)"
 category: 'AI SEO & Generative Search'
 date: "2026-07-31"

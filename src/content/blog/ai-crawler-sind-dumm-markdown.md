@@ -1,6 +1,7 @@
 ---
 title: "AI Crawler, Markdown & Cloudflare: Bot-Optimierung"
 meta_title: "AI Crawler: Bot-Optimierung mit Cloudflare (2026)"
+description: "AI Crawler: So verhinderst du, dass Bots an HTML scheitern. Nutze Cloudflares Markdown for Agents, um 80% Token zu sparen und SEO zu pushen. (2026)"
 meta_description: "AI Crawler: So verhinderst du, dass Bots an HTML scheitern. Nutze Cloudflares Markdown for Agents, um 80% Token zu sparen und SEO zu pushen. (2026)"
 date: "2026-04-18"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawler-sind-dumm-sie-k%C3%B6nnen-oft-keine-activity-7450640002549526528-dIpv"

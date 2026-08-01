@@ -2,6 +2,7 @@
 category: 'Technisches SEO & UX'
 title: "Suchvolumen: Nutzlose Metrik im KI-Zeitalter"
 meta_title: "Suchvolumen: Metrik im Wandel (2026)"
+description: "Suchvolumen verliert an Bedeutung. Verstehe, warum KI-Zitationen und RAG-Präsenz heute wertvoller sind als klassische Suchanfragen. (2026)"
 meta_description: "Suchvolumen verliert an Bedeutung. Verstehe, warum KI-Zitationen und RAG-Präsenz heute wertvoller sind als klassische Suchanfragen. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-suchvolumen-3d.webp"

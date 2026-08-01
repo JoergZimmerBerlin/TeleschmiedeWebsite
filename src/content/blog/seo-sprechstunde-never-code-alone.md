@@ -1,6 +1,7 @@
 ---
 title: "SEO Sprechstunde: Vibe Coding & Sichtbarkeit"
 meta_title: "SEO Sprechstunde: Vibe Coding & Tipps (2026)"
+description: "SEO Sprechstunde: Tacheles mit Roland Golla. Lerne, wie du Info-Traffic in Business verwandelst und deine Sichtbarkeit nachhaltig steigerst. (2026)"
 meta_description: "SEO Sprechstunde: Tacheles mit Roland Golla. Lerne, wie du Info-Traffic in Business verwandelst und deine Sichtbarkeit nachhaltig steigerst. (2026)"
 date: "2026-07-27"
 image: "../../assets/images/blog/seo-sprechstunde-never-code-alone.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Die 80%-Falle: Warum Websites an Basics scheitern"
 meta_title: "SEO Fehler: Warum Websites scheitern (2026)"
+description: "SEO Fehler: Entkomme der 80%-Falle. Erfahre, an welchen Basics die meisten Websites scheitern und wie du diese Probleme endlich richtig löst. (2026)"
 meta_description: "SEO Fehler: Entkomme der 80%-Falle. Erfahre, an welchen Basics die meisten Websites scheitern und wie du diese Probleme endlich richtig löst. (2026)"
 date: "2026-04-16"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_in-80-aller-seo-sprechstunden-entdecke-activity-7366897094021791744-trk9"

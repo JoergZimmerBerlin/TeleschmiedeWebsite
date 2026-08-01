@@ -2,6 +2,7 @@
 category: 'AI SEO & Generative Search'
 title: "GEO Freelancer: Data-Engineers für KI-Suchen"
 meta_title: "GEO Freelancer: Data-Engineers für KI (2026)"
+description: "GEO Freelancer optimieren für KI-Pipelines. Entdecke, wie Content Negotiation, RAG-Chunks und tiefes Entity Building dein Agenten-SEO pusht. (2026)"
 meta_description: "GEO Freelancer optimieren für KI-Pipelines. Entdecke, wie Content Negotiation, RAG-Chunks und tiefes Entity Building dein Agenten-SEO pusht. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-freelancer-3d.webp"

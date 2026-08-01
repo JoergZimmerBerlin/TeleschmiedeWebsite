@@ -25,7 +25,7 @@
 
 - **Terminal & Sandbox Ausführung (Bypass Sandbox):**
   - Führe alle Terminal-Kommandos (`run_command`) STRIKT im sicheren Sandbox-Modus aus (`BypassSandbox: false`), wann immer es möglich ist.
-  - Wenn die Sandbox aktiv ist, wird der Nutzer nicht durch lästige Bestätigungs-Popups gestört. Die Sandbox zu umgehen (Bypass) führt zu einem harten, vom System erzwungenen Sicherheits-Popup, das den Nutzer aus dem Workflow reißt. Vermeide das zwingend, es sei denn, es ist für Netzwerkzugriffe zwingend nötig.
+  - Wenn die Sandbox aktiv ist, wird der Nutzer nicht durch lästige Bestätigungs-Popups gestört. Die Sandbox zu umgehen (Bypass) führt zu einem harten, vom System erzwungenen Sicherheits-Popup, das den Nutzer aus dem Workflow reißt. Vermeide das zwingend, es sei denn, es ist für Netzwerkzugriffe zwingend nötig. **WICHTIGE AUSNAHME:** Der Deployment-Prozess (`scripts/deploy.sh`) feuert zwingend Netzwerk-Requests gegen GitHub, IONOS, IndexNow und die Google Search Console API. Das Deploy-Skript MUSS deshalb IMMER mit `BypassSandbox: true` gestartet werden, andernfalls schlagen die APIs fehl!
 
 - **Kategorie-Zuweisung für Blogartikel:**
   - Neue Blogartikel dürfen NIEMALS pauschal in die Kategorie "SEO Praxis" geworfen werden.

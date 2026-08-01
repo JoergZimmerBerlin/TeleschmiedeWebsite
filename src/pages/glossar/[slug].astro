@@ -18,26 +18,10 @@ export async function getStaticPaths() {
     props: { entry, type: 'term' },
   }));
 
-  const categories = [
-    { name: 'SEO Basics & Onpage', slug: 'seo-basics-onpage', desc: 'Die absoluten Basics: Was ist SEO, wie funktionieren Suchmaschinen und erste Schritte. (2026)' },
-    { name: 'Technisches SEO & UX', slug: 'technisches-seo-ux', desc: 'Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)' },
-    { name: 'AI SEO & Generative Search', slug: 'ai-seo-generative-search', desc: 'GEO, AIO, LLMs und die Zukunft der KI-gestützten Suchmaschinen. (2026)' },
-    { name: 'E-E-A-T & Offpage', slug: 'e-e-a-t-offpage', desc: 'Experience, Expertise, Authoritativeness, Trust und Linkbuilding. (2026)' }
-  ];
-
-  const categoryPaths = categories.map(cat => ({
-    params: { slug: cat.slug },
-    props: { 
-      type: 'category', 
-      categoryName: cat.name,
-      categoryDescription: cat.desc
-    },
-  }));
-
-  return [...entryPaths, ...categoryPaths];
+  return entryPaths;
 }
 
-const { entry, type, categoryName, categoryDescription } = Astro.props;
+const { entry, type } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const allEntries = await getCollection('glossar');
 
@@ -58,48 +42,7 @@ if (type === 'term') {
 }
 ---
 
-{type === 'category' ? (
-  <Layout title={`${categoryName} | Jörg Zimmer (2026)`} description={categoryDescription}>
-    <section class="section pt-12 pb-12 bg-white">
-      <div class="container-narrow">
-        <div class="mb-10">
-          <a href={`${baseUrl}/glossar/`} class="text-sm font-bold text-gray-muted hover:text-lime-600 transition-colors inline-flex items-center gap-2 mb-6" title="Zurück zur Übersicht (2026)">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Zurück zur Übersicht
-          </a>
-          <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
-            {categoryName}
-          </h1>
-          <p class="text-lg text-gray-muted max-w-3xl">
-            {categoryDescription}
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {allEntries
-            .filter(e => (e.data.category || 'SEO Basics & Onpage') === categoryName)
-            .sort((a, b) => a.data.title.localeCompare(b.data.title))
-            .map(t => (
-              <a href={`${baseUrl}/glossar/${t.id}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-lime-accent transition-all duration-300">
-                <span class="text-[10px] font-bold text-lime-700 bg-lime-accent/20 px-2 py-0.5 rounded uppercase mb-3 inline-block">
-                  Glossar
-                </span>
-                <h2 class="font-bold text-lg mb-2 group-hover:text-lime-600 transition-colors">
-                  {t.data.title}
-                </h2>
-                <p class="text-sm text-gray-muted line-clamp-2">
-                  {t.data.description}
-                </p>
-              </a>
-          ))}
-        </div>
-      </div>
-    </section>
-    <Schema title={`${categoryName} | Jörg Zimmer`} description={categoryDescription} />
-  </Layout>
-) : (
+(
 <Layout
   title={entry.data.title}
   description={entry.data.description}
@@ -283,4 +226,4 @@ if (type === 'term') {
 
 
 
-)}
+)

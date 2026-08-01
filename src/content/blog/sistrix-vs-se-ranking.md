@@ -1,6 +1,7 @@
 ---
-title: "Sistrix vs. SE Ranking: Welches Tool gewinnt? (2026)"
-description: "Sistrix vs. SE Ranking: Ein ehrlicher Vergleich aus der Praxis. Lohnt sich der Wechsel? Vorteile, Nachteile und die beste Wahl für SEOs. (2026)"
+title: "Sistrix vs. SE Ranking: Welches Tool gewinnt?"
+meta_title: "Sistrix vs. SE Ranking: Welches Tool gewinnt? (2026)"
+description: "Sistrix vs. SE Ranking: Ein ehrlicher Vergleich aus der Praxis. Lohnt sich der Wechsel? Vorteile, Nachteile und die beste Wahl für SEOs."
 date: "2026-03-06"
 image: "../../assets/images/blog/joerg-und-mitarbeiter.webp"
 image_alt: "Jörg Zimmer und Nico Kavelar von SE Ranking auf der Campixx"

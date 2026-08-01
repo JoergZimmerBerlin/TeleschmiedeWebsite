@@ -1,6 +1,7 @@
 ---
-title: "AI Search Content Formate: Best Practices (2026)"
-description: "Malte Landwehr zeigt, warum self-contained Chunks und Zusammenfassungen für AI Search Content Formate essenziell sind. Klartext für LLMs. (2026)"
+title: "AI Search Content Formate: Best Practices"
+meta_title: "AI Search Content Formate: Best Practices (2026)"
+description: "Malte Landwehr zeigt, warum self-contained Chunks und Zusammenfassungen für AI Search Content Formate essenziell sind. Klartext für LLMs."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_malte-landwehr-%C3%BCber-content-formate-die-in-activity-7473338939441827841-9R-C"
 image: "../../assets/images/blog/blog-malte-landwehr-ai-search-content-formate-3d.webp"

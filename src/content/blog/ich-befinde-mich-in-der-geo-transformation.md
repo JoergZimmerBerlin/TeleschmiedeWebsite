@@ -1,6 +1,7 @@
 ---
-title: "GEO Transformation: Die neue SEO-Disziplin ... (2026)"
-description: "GEO Transformation im SEO: Warum AI Crawlability eine neue Disziplin wird und sich die User Journey durch AI Search radikal verändert. (2026)"
+title: "GEO Transformation: Die neue SEO-Disziplin der AI Search"
+meta_title: "GEO Transformation: SEO-Disziplin der AI Search (2026)"
+description: "GEO Transformation im SEO: Warum AI Crawlability eine neue Disziplin wird und sich die User Journey durch AI Search radikal verändert."
 date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-merke-gerade-das-ich-mich-selbst-in-der-activity-7488355090479759360-cq2b"
 image: "../../assets/images/blog/geo_transformation.jpg"

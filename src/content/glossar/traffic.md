@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Traffic: Die Illusion der Klicks und Besucher (2026)"
-description: "Vergiss reinen Traffic. Bei Agenten zählt nur Citation-Stability. Fokussiere dich auf technische Exzellenz statt hohlen Klicks nachzujagen. (2026)"
+title: "Traffic: Die Illusion der Klicks und Besucher"
+meta_title: "Traffic: Die Illusion der Klicks und Besucher (2026)"
+description: "Vergiss reinen Traffic. Bei Agenten zählt nur Citation-Stability. Fokussiere dich auf technische Exzellenz statt hohlen Klicks nachzujagen."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]

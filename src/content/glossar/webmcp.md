@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "WebMCP: Das KI-Update für Schnittstellen (2026)"
-description: "WebMCP macht Schluss mit Scraping. Liefere KIs direkt sauberen Kontext. Wer WebMCP ignoriert, bleibt für moderne Agenten unsichtbar. (2026)"
+title: "WebMCP: Das KI-Update für Schnittstellen"
+meta_title: "WebMCP: Das KI-Update für Schnittstellen (2026)"
+description: "WebMCP macht Schluss mit Scraping. Liefere KIs direkt sauberen Kontext. Wer WebMCP ignoriert, bleibt für moderne Agenten unsichtbar."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-webmcp-3d.webp"
 image_alt: "3D Infografik zu WebMCP, HTTP-Integration und Cloud-APIs"

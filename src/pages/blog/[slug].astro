@@ -68,8 +68,8 @@ if (type === 'post') {
 
 (
   <Layout
-    title={post.data.title}
-    description={post.data.description}
+    title={post.data.meta_title || post.data.title}
+    description={post.data.meta_description || post.data.description}
     ogImage={postImageWebp?.src || (post.data.image as any)?.src}
     lcpImage={postImageWebp?.src}
   >
@@ -206,8 +206,8 @@ if (type === 'post') {
 
     <Schema 
       type="article"
-      title={post.data.title}
-      description={post.data.description}
+      title={post.data.meta_title || post.data.title}
+      description={post.data.meta_description || post.data.description}
       image={postImageWebp ? `https://teleschmie.de${postImageWebp.src}` : undefined}
       datePublished={post.data.date}
       dateModified={lastReviewed}

@@ -1,6 +1,7 @@
 ---
 title: "Freelance Unlocked 2026: Eis für die Community"
-description: "Warum gutes Netzwerken auf der Freelance Unlocked in Berlin wichtig ist – und warum die Community eine Eismaschine braucht. (2026)"
+meta_title: "Freelance Unlocked 2026: Eis für die Community (2026)"
+description: "Warum gutes Netzwerken auf der Freelance Unlocked in Berlin wichtig ist – und warum die Community eine Eismaschine braucht."
 date: "2026-05-22"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-m%C3%B6chte-eis-auf-der-freelance-unlocked-activity-7463605041405538304-E9qK"
 image: "../../assets/images/blog/freelance-unlocked-eis.webp"

@@ -1,6 +1,6 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Trailing Slashes: SEO & Duplicate Content (2026)'
+title: 'Trailing Slashes: SEO & Duplicate Content'
 description: 'Trailing Slashes im SEO & für AI-Agents: Warum der Schrägstrich am Ende der URL 2026 über Leben und Tod deiner Rankings entscheidet. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

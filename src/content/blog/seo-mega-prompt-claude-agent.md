@@ -1,6 +1,7 @@
 ---
-title: "Mein geheimer Mega-Prompt für SEO in Claude (2026)"
-description: "Wie ein einziger Prompt in Claude Code angeblich einen SEO-Experten mit 25 Jahren Erfahrung ersetzt – und warum Humor in der KI-Welt ... (2026)"
+title: "Mein geheimer Mega-Prompt für SEO in Claude"
+meta_title: "Mein geheimer Mega-Prompt für SEO in Claude (2026)"
+description: "Wie ein einziger Prompt in Claude Code angeblich einen SEO-Experten mit 25 Jahren Erfahrung ersetzt – und warum Humor in der KI-Welt wichtig ist."
 date: "2026-07-27"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_streng-geheimer-mega-prompt-f%C3%BCr-seo-in-cloude-activity-7487166476894978048-8iUX"
 image: "../../assets/images/blog/mega_prompt_claude.jpg"

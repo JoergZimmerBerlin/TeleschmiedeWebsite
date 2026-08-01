@@ -1,7 +1,8 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: "Brand Mentions: Warum KI Entitäten liebt (2026)"
-description: "Brand Mentions sind der Kern für AI Visibility. Schluss mit Link-Spam – so verankern Answer Engines deine Marke fest im Knowledge Graph. (2026)"
+title: "Brand Mentions: Warum KI Entitäten liebt"
+meta_title: "Brand Mentions: Warum KI Entitäten liebt (2026)"
+description: "Brand Mentions sind der Kern für AI Visibility. Schluss mit Link-Spam – so verankern Answer Engines deine Marke fest im Knowledge Graph."
 date: "2026-03-01"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 image_alt: "Brand Mentions 3D Infografik - Semantische Verknüpfungen für KI"

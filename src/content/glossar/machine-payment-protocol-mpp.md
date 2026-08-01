@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Machine Payment Protocol (MPP) – KI bezahlt ... (2026)"
-description: "Was ist das Machine Payment Protocol? Wie KI-Agenten über M2M-Netzwerke, HTTP 402 und KI-Wallets autonom Mikrotransaktionen durchführen. (2026)"
+title: "Machine Payment Protocol (MPP) – KI bezahlt selbst"
+meta_title: "Machine Payment Protocol: Wenn KI selbst bezahlt (2026)"
+description: "Was ist das Machine Payment Protocol? Wie KI-Agenten über M2M-Netzwerke, HTTP 402 und KI-Wallets autonom Mikrotransaktionen durchführen."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-machine-payment-protocol-mpp-3d.webp"
 image_alt: "3D Infografik zum Machine Payment Protocol mit KI-Wallets und Mikrotransaktionen"

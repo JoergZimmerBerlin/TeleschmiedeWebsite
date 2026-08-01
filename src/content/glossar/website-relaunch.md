@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Website Relaunch: Rettung vor hartem Pfusch (2026)"
-description: "Verhindere das SEO-Desaster. Beim Website Relaunch brauchst du gnadenlose technische KI-Optimierung und harte Redirects. Tacheles pur. (2026)"
+title: "Website Relaunch: Rettung vor hartem Pfusch"
+meta_title: "Website Relaunch: Rettung vor hartem Pfusch (2026)"
+description: "Verhindere das SEO-Desaster. Beim Website Relaunch brauchst du gnadenlose technische KI-Optimierung und harte Redirects. Tacheles pur."
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-website-relaunch-3d.png"
 image_alt: "Website Relaunch SEO 3D Infografik - Planung, Migration und Sichtbarkeits-Check"

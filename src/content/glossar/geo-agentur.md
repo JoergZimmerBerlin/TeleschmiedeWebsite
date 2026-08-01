@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'GEO Agentur (Generative Engine Optimization) (2026)'
-description: 'Eine GEO Agentur optimiert deine Infrastruktur für KI-Systeme wie ChatGPT, Perplexity und LLM-Pipelines nach modernsten Standards. ALOHA! 🌻 (2026)'
+title: 'GEO Agentur (Generative Engine Optimization)'
+description: 'Eine GEO Agentur optimiert deine Infrastruktur für KI-Systeme wie ChatGPT, Perplexity und LLM-Pipelines nach modernsten Standards. ALOHA! 🌻'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-agentur-3d.webp"
 image_alt: "GEO Agentur 3D Infografik - KI-Sichtbarkeit und SEO"

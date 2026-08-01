@@ -1,7 +1,8 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: "Expertise: Thematische Vektortiefe für Crawler (2026)"
-description: "Expertise für KI-Standards: Wie Entity Sideloading und kompromisslose Topical Authority deinen RAG-Trust sichern. (2026)"
+title: "Expertise: Thematische Vektortiefe für Crawler"
+meta_title: "Expertise: Thematische Vektortiefe für Crawler (2026)"
+description: "Expertise für KI-Standards: Wie Entity Sideloading und kompromisslose Topical Authority deinen RAG-Trust sichern."
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-expertise-3d.webp"
 image_alt: "Expertise (E-E-A-T) 3D Infografik - Fachliche Autorität in KI-Systemen"

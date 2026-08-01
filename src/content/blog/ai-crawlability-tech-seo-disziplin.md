@@ -1,6 +1,7 @@
 ---
-title: "AI Crawlability als neue Disziplin im Tech SEO (2026)"
-description: "AI Crawlability wird eine neue eigene Disziplin auf Tech SEO obendrauf. Die Website wird 1 von 50 Quellen pro Prompt. (2026)"
+title: "AI Crawlability als neue Disziplin im Tech SEO"
+meta_title: "AI Crawlability als neue Disziplin im Tech SEO (2026)"
+description: "AI Crawlability wird eine neue eigene Disziplin auf Tech SEO obendrauf. Die Website wird 1 von 50 Quellen pro Prompt."
 date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawlability-wird-eine-neue-eigene-disziplin-share-7488978330965164034-wz5s/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"
 image: "../../assets/images/blog/ai-crawlability-tech-seo-disziplin.webp"

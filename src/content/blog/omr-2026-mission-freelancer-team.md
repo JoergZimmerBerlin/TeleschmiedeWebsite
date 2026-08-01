@@ -1,5 +1,6 @@
 ---
 title: "Mission OMR 2026: 25 Freelancer vs. Großagentur"
+meta_title: "Mission OMR 2026: 25 Freelancer vs. Großagentur (2026)"
 description: "25 Experten, ein Stand, eine Mission. Warum das Freelancer Team auf der OMR 2026 das alte Agentur-Modell alt aussehen lässt. Tacheles aus Halle B6!"
 date: "2026-05-06"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K"

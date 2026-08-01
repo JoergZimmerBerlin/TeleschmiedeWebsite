@@ -1,6 +1,7 @@
 ---
-title: "Rankscale: Ein AI Visibility Tool für Profis (2026)"
-description: "Tool-Test: Sieh wie sichtbar du in ChatGPT, Perplexity und 15 weiteren KI-Modellen bist. Jörgs ehrlicher Praxis-Test nach mehreren Wochen. (2026)"
+title: "Rankscale: Ein AI Visibility Tool für Profis"
+meta_title: "Rankscale: Ein AI Visibility Tool für Profis (2026)"
+description: "Tool-Test: Sieh wie sichtbar du in ChatGPT, Perplexity und 15 weiteren KI-Modellen bist. Jörgs ehrlicher Praxis-Test nach mehreren Wochen."
 date: "2026-01-19"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-ai-visibility-tool-rankscale-hat-einen-activity-7418685351940022272-7Z27"
 image: "../../assets/images/blog/rankscale-ai-visibility-tracking.webp"

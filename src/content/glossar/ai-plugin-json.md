@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "ai-plugin.json: Warum ChatGPT Plugins tot sind (2026)"
-description: "Der Untergang der ChatGPT Plugins und der Aufstieg von GPT Actions und offenen Standards. Jörg Zimmer erklärt den Shift weg von der ... (2026)"
+title: "ai-plugin.json: Warum ChatGPT Plugins tot sind"
+meta_title: "ai-plugin.json: Warum ChatGPT Plugins tot sind (2026)"
+description: "Der Untergang der ChatGPT Plugins und der Aufstieg von GPT Actions und offenen Standards. Jörg Zimmer erklärt den Shift weg von der ai-plugin.json."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-plugin-json-3d.webp"
 image_alt: "3D Infografik zum Thema ai-plugin.json und der Evolution hin zu modernen Schnittstellen"

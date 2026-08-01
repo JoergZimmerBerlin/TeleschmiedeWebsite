@@ -1,6 +1,7 @@
 ---
-title: "Wie läuft so eine SEO-Sprechstunde genau ab? (2026)"
-description: "SEO-Sprechstunde Ablauf: Vom Videocall bis zum Maßnahmenplan. Erfahre, wie der Prozess & die Live-Analyse im Detail aussehen. Jörgs Einblick. (2026)"
+title: "Wie läuft so eine SEO-Sprechstunde genau ab?"
+meta_title: "Wie läuft so eine SEO-Sprechstunde genau ab? (2026)"
+description: "SEO-Sprechstunde Ablauf: Vom Videocall bis zum Maßnahmenplan. Erfahre, wie der Prozess & die Live-Analyse im Detail aussehen. Jörgs Einblick."
 date: "2026-01-28"
 image: "../../assets/images/blog/seo-sprechstunde.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Prozess und Ablauf erklärt"

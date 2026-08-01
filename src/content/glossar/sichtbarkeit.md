@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Sichtbarkeit: KI-Crawler & Citation-Stability (2026)"
-description: "Sichtbarkeit bedeutet heute: Von KIs gefunden werden. Warum Citation-Stability durch auth.md relevanter ist als Klicks. Klartext pur. (2026)"
+title: "Sichtbarkeit: KI-Crawler & Citation-Stability"
+meta_title: "Sichtbarkeit: KI-Crawler & Citation-Stability (2026)"
+description: "Sichtbarkeit bedeutet heute: Von KIs gefunden werden. Warum Citation-Stability durch auth.md relevanter ist als Klicks. Klartext pur."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeit-3d.webp"
 related_terms: ["sichtbarkeitsindex", "geo", "traffic"]

@@ -1,6 +1,7 @@
 ---
-title: "SE Ranking AI Tracker: KI-Sichtbarkeit messen (2026)"
-description: "Ein weiteres Tool für AI Visibility Tracking - diesmal von einem etablierten SEO-Tool-Anbieter. (2026)"
+title: "SE Ranking AI Tracker: KI-Sichtbarkeit messen"
+meta_title: "SE Ranking AI Tracker: KI-Sichtbarkeit messen (2026)"
+description: "Ein weiteres Tool für AI Visibility Tracking - diesmal von einem etablierten SEO-Tool-Anbieter."
 date: "2025-12-15"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_anfang-des-jahres-ist-eine-gute-zeit-%C3%BCber-activity-7413894079392120832-3qiu"
 image: "../../assets/images/profile/joerg-zimmer-cta.webp"

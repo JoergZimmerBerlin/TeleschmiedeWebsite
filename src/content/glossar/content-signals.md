@@ -1,7 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Content-Signale: Klare Regeln für AI-Crawler (2026)"
-description: "Mit klaren Content-Signalen steuerst du KI-Bots präzise. Wer seine HTTP-Header und robots.txt vernachlässigt, verliert die Kontrolle. (2026)"
+title: "Content-Signale: Klare Regeln für AI-Crawler"
+meta_title: "Content-Signale: Klare Regeln für AI-Crawler (2026)"
+description: "Mit klaren Content-Signalen steuerst du KI-Bots präzise. Wer seine HTTP-Header und robots.txt vernachlässigt, verliert die Kontrolle."
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-content-signals-3d.webp"
 image_alt: "3D Infografik Content-Signale, AI-Präferenzen, HTTP-Header"

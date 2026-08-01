@@ -1,7 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "SEO Agentur: Vom Dienstleister zum KI-Architekt (2026)"
-description: "Die klassische SEO Agentur ist tot. Heute entscheiden RAG-Optimierung, KI-Crawler und LLM-Architektur über deine Sichtbarkeit. Tacheles! (2026)"
+title: "SEO Agentur: Vom Dienstleister zum KI-Architekt"
+meta_title: "SEO Agentur: Vom Dienstleister zum KI-Architekt (2026)"
+description: "Die klassische SEO Agentur ist tot. Heute entscheiden RAG-Optimierung, KI-Crawler und LLM-Architektur über deine Sichtbarkeit. Tacheles!"
 date: "2026-07-18"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
 related_terms: ["seo-beratung", "local-seo", "seo-audit"]

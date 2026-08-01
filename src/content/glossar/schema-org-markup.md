@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Schema.org Markup: Fakten-Wissensbasis für KIs (2026)"
-description: "Schema.org Markup ist das globale Vokabular für LLMs. Verstehe Entity Depth und liefere der KI knallharte, strukturierte Fakten. (2026)"
+title: "Schema.org Markup: Fakten-Wissensbasis für KIs"
+meta_title: "Schema.org Markup: Fakten-Wissensbasis für KIs (2026)"
+description: "Schema.org Markup ist das globale Vokabular für LLMs. Verstehe Entity Depth und liefere der KI knallharte, strukturierte Fakten."
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"
 image_alt: "Schema.org Markup 3D Infografik - Wissensbasis für KIs"

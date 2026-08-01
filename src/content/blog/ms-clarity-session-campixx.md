@@ -1,6 +1,7 @@
 ---
-title: "MS Clarity: Nutzerverhalten hart analysieren (2026)"
-description: "Mach Schluss mit Raten. Nutze MS Clarity für Heatmaps und Session Recordings, um echte Usability-Probleme deiner User sofort aufzudecken. (2026)"
+title: "MS Clarity: Nutzerverhalten hart analysieren"
+meta_title: "MS Clarity: Nutzerverhalten hart analysieren (2026)"
+description: "Mach Schluss mit Raten. Nutze MS Clarity für Heatmaps und Session Recordings, um echte Usability-Probleme deiner User sofort aufzudecken."
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ms-clarity-session-auf-der-campixx-2026-in-activity-7473374131850510337-e5RN"
 image: "../../assets/images/blog/blog-ms-clarity-session.webp"

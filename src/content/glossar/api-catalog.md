@@ -1,6 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Agentic Resource Discovery: Der harte Standard (2026)"
+title: "Agentic Resource Discovery: Der harte Standard"
+meta_title: "Agentic Resource Discovery: Der harte Standard (2026)"
 description: "Ohne Agentic Resource Discovery und ai-catalog.json bist du in 2026 unsichtbar. Erfahre von Jörg Zimmer die harte Wahrheit für AI SEO."
 date: "2026-03-16"
 image: "../../assets/images/glossar/3d-light/glossar-api-catalog-3d.webp"

@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "Markdown Content Negotiation: AEO Optimierung (2026)"
-description: "Dein HTML ist ein Albtraum für Crawler. Jörg Zimmer erklärt Tacheles, wie Markdown Content Negotiation Serverkosten drückt und AEO pusht. (2026)"
+title: "Markdown Content Negotiation: AEO Optimierung"
+meta_title: "Markdown Content Negotiation: AEO Optimierung (2026)"
+description: "Dein HTML ist ein Albtraum für Crawler. Jörg Zimmer erklärt Tacheles, wie Markdown Content Negotiation Serverkosten drückt und AEO pusht."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-markdown-content-negotiation-3d.webp"
 image_alt: "3D Infografik zum Thema Markdown Content Negotiation auf HTTP-Ebene"

@@ -1,6 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "MCP (Model Context Protocol): KI-Standard (2026)"
+meta_title: "MCP (Model Context Protocol): KI-Standard (2026) (2026)"
 description: "Im Juni 2026 wurde das Model Context Protocol (MCP) stateless. Jörg Zimmer erklärt den massiven Shift und warum Custom-APIs tot sind."
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-model-context-protocol-mcp-3d.webp"

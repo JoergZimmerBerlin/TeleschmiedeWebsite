@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Canonical Tag: Schluss mit Duplicate Content (2026)"
-description: "Das Canonical Tag ist dein harter Schutzschild. Zwinge LLMs und Crawler auf die Originalquelle und beende den Content-Kannibalismus. (2026)"
+title: "Canonical Tag: Schluss mit Duplicate Content"
+meta_title: "Canonical Tag: Schluss mit Duplicate Content (2026)"
+description: "Das Canonical Tag ist dein harter Schutzschild. Zwinge LLMs und Crawler auf die Originalquelle und beende den Content-Kannibalismus."
 date: "2026-03-08"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"
 image_alt: "Canonical Tag 3D Infografik - Technisches SEO"

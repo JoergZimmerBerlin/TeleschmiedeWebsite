@@ -1,7 +1,7 @@
 ---
 category: 'AI SEO & Generative Search'
-title: 'Google Algorithmus: Der Wächter der KI-Overviews (2026)'
-description: 'Der Google Algorithmus ist heute Türsteher für AI Overviews und RAG. Tacheles: Ohne E-E-A-T und echten Information Gain fliegst du raus. (2026)'
+title: 'Google Algorithmus: Der Wächter der KI-Overviews'
+description: 'Der Google Algorithmus ist heute Türsteher für AI Overviews und RAG. Tacheles: Ohne E-E-A-T und echten Information Gain fliegst du raus.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["google-core-update", "rankingfaktoren", "e-e-a-t", "rag"]

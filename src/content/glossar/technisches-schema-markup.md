@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Technisches Schema-Markup: Pure KI-Infrastruktur (2026)"
-description: "Technisches Schema-Markup baut harte Endpunkte. Nutze Entity-Depth für Agenten und vergiss alberne Snippets. Zeit für echten Klartext. (2026)"
+title: "Technisches Schema-Markup: Pure KI-Infrastruktur"
+meta_title: "Technisches Schema-Markup: Pure KI-Infrastruktur (2026)"
+description: "Technisches Schema-Markup baut harte Endpunkte. Nutze Entity-Depth für Agenten und vergiss alberne Snippets. Zeit für echten Klartext."
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["schema-org-markup", "grounding-page", "entity-seo", "faq-markup", "technisches-seo"]

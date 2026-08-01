@@ -1,6 +1,7 @@
 ---
-title: "GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit (2026)"
-description: "Die große Umfrage zur Zukunft der Suche. Warum GEO der neue Standard wird und was über 110 Experten dazu denken. Mit Jörgs ehrlichem ... (2026)"
+title: "GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit"
+meta_title: "GEO, AI-SEO or LLMO? Name für KI-Sichtbarkeit (2026)"
+description: "Die große Umfrage zur Zukunft der Suche. Warum GEO der neue Standard wird und was über 110 Experten dazu denken. Mit Jörgs ehrlichem Tacheles-Check."
 date: "2026-03-11"
 category: "AI SEO"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-ergebnis-sichtbarkeit-in-ki-modellen-activity-7266714545100021760-7p-J"

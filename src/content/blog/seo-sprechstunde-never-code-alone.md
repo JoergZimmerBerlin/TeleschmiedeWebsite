@@ -1,6 +1,7 @@
 ---
-title: "SEO Sprechstunde: Vibe Coding & Sichtbarkeit (2026)"
-description: "Klartext aus der SEO Sprechstunde mit Roland Golla. So verwandelst du reinen Info-Traffic in echtes Business. Schluss mit Theorie! (2026)"
+title: "SEO Sprechstunde: Vibe Coding & Sichtbarkeit"
+meta_title: "SEO Sprechstunde: Vibe Coding & Sichtbarkeit (2026)"
+description: "Klartext aus der SEO Sprechstunde mit Roland Golla. So verwandelst du reinen Info-Traffic in echtes Business. Schluss mit Theorie!"
 date: "2026-07-27"
 image: "../../assets/images/blog/seo-sprechstunde-never-code-alone.webp"
 image_alt: "SEO Sprechstunde mit Never Code Alone"

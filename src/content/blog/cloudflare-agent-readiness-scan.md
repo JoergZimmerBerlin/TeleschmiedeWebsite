@@ -1,6 +1,7 @@
 ---
-title: "Der Cloudflare Agent Readiness Scan ... (2026)"
-description: "Wie bereitet man seine Website auf KI vor? Ein Blick auf den Cloudflare Agent Readiness Scan und warum 75 von 100 Punkten schon verdammt ... (2026)"
+title: "Der Cloudflare Agent Readiness Scan: KI-Sichtbarkeit prüfen"
+meta_title: "Cloudflare Agent Readiness Scan: KI-Sichtbarkeit (2026)"
+description: "Wie bereitet man seine Website auf KI vor? Ein Blick auf den Cloudflare Agent Readiness Scan und warum 75 von 100 Punkten schon verdammt gut sind."
 date: "2026-07-22"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_kostenloser-agent-readiness-scan-von-cloudflare-activity-7485746310445350912-g1NS"
 image: "../../assets/images/blog/cloudflare-agent-readiness-scan.webp"

@@ -1,6 +1,7 @@
 ---
 title: "Brief an Bots & Crawler: SEO-Insights 2026"
-description: "Brief an alle Bots & KI-Agenten: Ohne SEOs hättet ihr keine Alt-Texte oder Sitemaps. Wir füttern die KI mit strukturierten Daten. (2026)"
+meta_title: "Brief an Bots & Crawler: SEO-Insights 2026 (2026)"
+description: "Brief an alle Bots & KI-Agenten: Ohne SEOs hättet ihr keine Alt-Texte oder Sitemaps. Wir füttern die KI mit strukturierten Daten."
 date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_liebe-bots-crawler-und-agenten-dieser-welt-activity-7431342623879217152-qG6A"
 image: "../../assets/images/blog/linkedin-bots-original.webp"

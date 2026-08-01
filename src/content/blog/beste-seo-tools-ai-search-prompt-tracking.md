@@ -1,7 +1,7 @@
 ---
-title: 'SEO-Tools: AI Search & Prompt Tracking im Test (2026)'
+title: 'SEO-Tools: AI Search & Prompt Tracking im Test'
 category: "Tech SEO & Tools"
-description: 'Schluss mit Blindflug! Welche SEO-Tools tracken AI Search, ChatGPT und Perplexity wirklich? Tacheles-Vergleich für deine KI-Sichtbarkeit. (2026)'
+description: 'Schluss mit Blindflug! Welche SEO-Tools tracken AI Search, ChatGPT und Perplexity wirklich? Tacheles-Vergleich für deine KI-Sichtbarkeit.'
 date: "2026-03-19"
 image: "../../assets/images/blog/blog-ai-search-tools-3d.webp"
 image_alt: "Beste SEO Tools für AI Search 3D Grafik - Dashboard Übersicht für KI-Sichtbarkeit"

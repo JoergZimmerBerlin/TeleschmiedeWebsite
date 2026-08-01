@@ -1,7 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Überstunde Berlin: Harte Fakten zum ... (2026)"
-description: "Die Überstunde Berlin ist der Ort für echtes Networking ohne steife Visitenkarten-Shows. Triff Macher der Digitalszene und rede Tacheles. (2026)"
+title: "Überstunde Berlin: Harte Fakten zum Network-Event"
+meta_title: "Überstunde Berlin: Fakten zum Networking-Event (2026)"
+description: "Die Überstunde Berlin ist der Ort für echtes Networking ohne steife Visitenkarten-Shows. Triff Macher der Digitalszene und rede Tacheles."
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-stammtisch-berlin", "campixx-berlin", "local-seo"]

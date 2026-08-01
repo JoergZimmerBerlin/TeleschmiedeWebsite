@@ -1,7 +1,8 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "llms.txt: Der Community-Standard für Crawler (2026)"
-description: "Die llms.txt ist ein wichtiges Signal für KI-Crawler. Was am Hype dran ist und wie du sie technisch sauber für LLMs implementierst. (2026)"
+title: "llms.txt: Der Community-Standard für Crawler"
+meta_title: "llms.txt: Der Community-Standard für Crawler (2026)"
+description: "Die llms.txt ist ein wichtiges Signal für KI-Crawler. Was am Hype dran ist und wie du sie technisch sauber für LLMs implementierst."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-llms-txt-3d.webp"
 related_terms: ["llms-full-txt", "robots-txt", "geo", "entitaet"]

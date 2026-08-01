@@ -1,7 +1,8 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "Click-Through-Rate: Interaktionen im AI-Web (2026)"
-description: "Die Click-Through-Rate ist mehr als Klicks. In RAG-Pipelines entscheidet die Interaktion über deine Relevanz. Optimiere jetzt. (2026)"
+title: "Click-Through-Rate: Interaktionen im AI-Web"
+meta_title: "Click-Through-Rate: Interaktionen im AI-Web (2026)"
+description: "Die Click-Through-Rate ist mehr als Klicks. In RAG-Pipelines entscheidet die Interaktion über deine Relevanz. Optimiere jetzt."
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-ctr-3d.webp"
 image_alt: "Click-Through-Rate (CTR) 3D Infografik - Nutzerinteraktion"

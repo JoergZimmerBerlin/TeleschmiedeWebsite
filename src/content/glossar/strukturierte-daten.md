@@ -1,7 +1,8 @@
 ---
 category: 'Technisches SEO & UX'
-title: "Strukturierte Daten: Grounding & LLM-Fütterung (2026)"
-description: "Strukturierte Daten im Klartext: Vergiss Rich Snippets. Mach deine Seite durch harte KI-Protokolle, JSON-LD und RAG maschinenlesbar. (2026)"
+title: "Strukturierte Daten: Grounding & LLM-Fütterung"
+meta_title: "Strukturierte Daten: Grounding & LLM-Fütterung (2026)"
+description: "Strukturierte Daten im Klartext: Vergiss Rich Snippets. Mach deine Seite durch harte KI-Protokolle, JSON-LD und RAG maschinenlesbar."
 sameAs: "https://www.wikidata.org/wiki/Q26813700"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

@@ -1,6 +1,7 @@
 ---
-title: "Transparente SEO-Preise auf der Website ... (2026)"
-description: "Warum ich meine SEO-Preise öffentlich auf der Website zeige, was das für die Kundenqualität bedeutet und warum ich die Stundensätze erhöht ... (2026)"
+title: "Transparente SEO-Preise auf der Website: Meine Erfahrung"
+meta_title: "Transparente SEO-Preise auf der Website (2026)"
+description: "Warum ich meine SEO-Preise öffentlich auf der Website zeige, was das für die Kundenqualität bedeutet und warum ich die Stundensätze erhöht habe."
 date: "2026-07-21"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meine-preise-stehen-auf-meiner-website-und-activity-7485382306719776768-ZR-p"
 image: "../../assets/images/blog/transparente-seo-preise-erfahrung.webp"

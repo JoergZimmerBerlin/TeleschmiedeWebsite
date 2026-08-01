@@ -1,6 +1,7 @@
 ---
-title: "Sistrix Podcast: Entitäten Mapping und ... (2026)"
-description: "Insights aus dem Sistrix Podcast: Entitäten Mapping, Knowledge Graph API und wie man sich im Entitäten-Universum von Google und ChatGPT ... (2026)"
+title: "Sistrix Podcast: Entitäten Mapping und Verknüpfung mit Björn Darko und Max Muhr"
+meta_title: "Sistrix Podcast: Entitäten Mapping & Verknüpfung (2026)"
+description: "Insights aus dem Sistrix Podcast: Entitäten Mapping, Knowledge Graph API und wie man sich im Entitäten-Universum von Google und ChatGPT richtig positioniert."
 date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_komme-gerade-aus-dem-sistrix-podcast-mit-activity-7487830961796050946-qKcE"
 image: "../../assets/images/blog/linkedin-sistrix-podcast.jpg"

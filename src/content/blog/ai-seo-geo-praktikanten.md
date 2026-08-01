@@ -1,6 +1,7 @@
 ---
-title: "GEO & AI-SEO: Warum kein Praktikanten-Job (2026)"
-description: "Die neuen Buzzwords der SEO-Branche erklärt - und warum das Thema zu komplex für Anfänger ist. (2026)"
+title: "GEO & AI-SEO: Warum kein Praktikanten-Job"
+meta_title: "GEO & AI-SEO: Warum kein Praktikanten-Job (2026)"
+description: "Die neuen Buzzwords der SEO-Branche erklärt - und warum das Thema zu komplex für Anfänger ist."
 date: "2026-01-23"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_die-seo-welt-hat-mal-wieder-neue-abkurzungen-activity-7288118086085611520-7G8Q"
 image: "../../assets/images/profile/website-boosting-magazin.webp"

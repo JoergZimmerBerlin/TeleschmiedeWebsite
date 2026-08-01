@@ -1,6 +1,7 @@
 ---
-title: "2h SEO-Sprechstunde: Was ist wirklich möglich? (2026)"
-description: "Können 2 Stunden SEO-Beratung wirklich den Unterschied machen? Ein Case Study über Indexierung, schnelle Fixes und enorme Sichtbarkeit. (2026)"
+title: "2h SEO-Sprechstunde: Was ist wirklich möglich?"
+meta_title: "2h SEO-Sprechstunde: Was ist wirklich möglich? (2026)"
+description: "Können 2 Stunden SEO-Beratung wirklich den Unterschied machen? Ein Case Study über Indexierung, schnelle Fixes und enorme Sichtbarkeit."
 date: "2026-03-11"
 category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_was-kann-man-in-2-stunden-seo-schon-erreichen-activity-7274003504106090496-e2hS"

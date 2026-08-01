@@ -1,6 +1,7 @@
 ---
-title: "SE Ranking in ChatGPT: Live SEO-Daten per Chat (2026)"
-description: "ChatGPT mit SE Ranking Live-Daten verknüpfen. So analysierst du Keywords, Backlinks und KI-Sichtbarkeit direkt im Chat per MCP Connector. (2026)"
+title: "SE Ranking in ChatGPT: Live SEO-Daten per Chat"
+meta_title: "SE Ranking in ChatGPT: Live SEO-Daten per Chat (2026)"
+description: "ChatGPT mit SE Ranking Live-Daten verknüpfen. So analysierst du Keywords, Backlinks und KI-Sichtbarkeit direkt im Chat per MCP Connector."
 date: "2026-07-31"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_chatgpt-mit-profi-seo-daten-nutzen-1-klick-activity-7480493369710764033-2GZt"
 image: "../../assets/images/blog/se-ranking-chatgpt.webp"

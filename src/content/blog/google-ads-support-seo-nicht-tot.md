@@ -1,6 +1,7 @@
 ---
-title: "Google Ads Support vs. SEO: Die Wahrheit (2026)"
-description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google. (2026)"
+title: "Google Ads Support vs. SEO: Die Wahrheit"
+meta_title: "Google Ads Support vs. SEO: Die Wahrheit (2026)"
+description: "Zwei unbequeme Wahrheiten aus 20+ Jahren Erfahrung mit Google."
 date: "2026-01-20"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_warum-google-ads-support-nicht-dein-freund-activity-7287019183416819712-lP49"
 image: "../../assets/images/pages/kontakt-hero.webp"

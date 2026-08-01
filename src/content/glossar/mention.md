@@ -1,7 +1,8 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: "Mention: Relevanz in LLM-Pipelines aufbauen (2026)"
-description: "Eine Mention ist der harte Treibstoff für dein Entity-Building. Ohne echte Erwähnungen ignorieren KIs deine Autorität völlig. Tacheles! (2026)"
+title: "Mention: Relevanz in LLM-Pipelines aufbauen"
+meta_title: "Mention: Relevanz in LLM-Pipelines aufbauen (2026)"
+description: "Eine Mention ist der harte Treibstoff für dein Entity-Building. Ohne echte Erwähnungen ignorieren KIs deine Autorität völlig. Tacheles!"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 related_terms: ["citation", "entitaet", "e-e-a-t", "brand-mentions"]

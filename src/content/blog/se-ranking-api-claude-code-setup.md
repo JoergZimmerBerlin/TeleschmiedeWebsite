@@ -1,6 +1,7 @@
 ---
-title: "SE Ranking API mit Claude Code verbinden (2026)"
-description: "Schritt für Schritt: So bindest du die SE Ranking API an Claude Code an - inkl. Daily-Limit gegen Credit-Verbrauch. Praxis-Tutorial mit ... (2026)"
+title: "SE Ranking API mit Claude Code verbinden"
+meta_title: "SE Ranking API mit Claude Code verbinden (2026)"
+description: "Schritt für Schritt: So bindest du die SE Ranking API an Claude Code an - inkl. Daily-Limit gegen Credit-Verbrauch. Praxis-Tutorial mit Screenshots."
 date: "2026-04-22"
 image: "../../assets/images/blog/linkedin_seranking_setup_v2.png"
 image_alt: "SE Ranking API mit Claude Code verbinden - Setup-Tutorial von Jörg Zimmer"

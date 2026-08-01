@@ -1,7 +1,7 @@
 ---
 category: 'E-E-A-T & Offpage'
-title: 'Citation: Struktur und Entity-Resolution erklärt (2026)'
-description: 'Ohne saubere Citation bist du für KI unsichtbar. Wie LLMs Zitationen zur Verifizierung nutzen und warum klassische Links an Macht verlieren. (2026)'
+title: 'Citation: Struktur und Entity-Resolution erklärt'
+description: 'Ohne saubere Citation bist du für KI unsichtbar. Wie LLMs Zitationen zur Verifizierung nutzen und warum klassische Links an Macht verlieren.'
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 image_alt: "Citations 3D Infografik - Lokales SEO und Entity Resolution"

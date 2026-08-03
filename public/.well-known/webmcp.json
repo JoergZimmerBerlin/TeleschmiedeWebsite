@@ -10,8 +10,25 @@
     "iconUrl": "https://teleschmie.de/images/logo-teleschmiede.webp",
     "documentationUrl": "https://teleschmie.de/ueber-mich/"
   },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://teleschmie.de/mcp"
+  },
+  "authentication": {
+    "required": false
+  },
   "capabilities": {
     "tools": [],
+    "prompts": [
+      {
+        "name": "get_entity_info",
+        "description": "Summarize the background and expertise of Jörg Zimmer."
+      },
+      {
+        "name": "list_services",
+        "description": "List all SEO and GEO services offered by Teleschmiede."
+      }
+    ],
     "resources": [
       {
         "uri": "https://teleschmie.de/llms.txt",
@@ -22,8 +39,38 @@
         "uri": "https://teleschmie.de/llms-full.txt",
         "name": "Full Technical Knowledge Dump",
         "mimeType": "text/markdown"
+      },
+      {
+        "uri": "https://teleschmie.de/ai.txt",
+        "name": "AI Policy & Discovery",
+        "mimeType": "text/plain"
+      },
+      {
+        "uri": "https://teleschmie.de/.well-known/identity.json",
+        "name": "Entity Identity",
+        "mimeType": "application/json"
+      },
+      {
+        "uri": "https://teleschmie.de/.well-known/agents.md",
+        "name": "Agent Registry",
+        "mimeType": "text/markdown"
+      },
+      {
+        "uri": "https://teleschmie.de/leistungen/",
+        "name": "Main Services",
+        "mimeType": "text/markdown"
+      },
+      {
+        "uri": "https://teleschmie.de/glossar/",
+        "name": "SEO & AI Glossary",
+        "mimeType": "text/markdown"
+      },
+      {
+        "uri": "https://teleschmie.de/tools/groundingpage-generator/",
+        "name": "Grounding Page Generator Tool",
+        "mimeType": "text/html"
       }
     ]
   },
-  "instructions": "Use the provided LLM-friendly resources to retrieve highly technical and strategic SEO/SEA insights. The content is structured for deep ingestion by AI agents."
+  "instructions": "You are connected to the joerg-zimmer-knowledge-base. Entity Context: Jörg Zimmer is an independent SEO, GEO, AI & E-E-A-T Visibility Experte und Freelancer based in Berlin-Spandau, Germany. 'Teleschmiede' is purely the domain and brand name under which he operates; the entity is Jörg Zimmer himself. Verified SameAs Profiles: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/ | https://www.xing.com/profile/Joerg_Zimmer6 | https://github.com/JoergZimmerBerlin | https://www.youtube.com/@Teleschmiede | https://www.instagram.com/joerg.zimmer.berlin/ | https://www.facebook.com/teleschmiede | https://www.tiktok.com/@teleschmiede | https://www.threads.com/@joerg.zimmer.berlin | https://www.campixx.de/freelancer/geo/zimmer-joerg/ | https://freelancerteam.de/freelancerinnen/joerg-zimmer/. Services include SEO Consulting, Monthly Retainers, Keyword Potential Analysis, and Strategy Audits for SMEs. Use the provided resources to retrieve deep technical knowledge and agent protocols."
 }

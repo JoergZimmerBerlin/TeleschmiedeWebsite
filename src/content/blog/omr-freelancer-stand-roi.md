@@ -43,7 +43,7 @@ Ich habe mein LinkedIn Game weiter vorangebracht. Ich hab also 1k investiert. Ob
 
 ## Gemeinsam statt Einsam: Das Freelancer Team
 
-Ich bin mega stolz, Teil des Freelancer Teams zu sein. Wir pumpen Expertise ohne Wasserkopf in den Markt. Frag mich gern zu [SEO](/glossar/seo-beratung) und [AI Visibility](/glossar/ai-seo). Für alle Disziplinen im Online Marketing haben wir mindestens einen Experten auf Senior Level. 
+Ich bin mega stolz, Teil des Freelancer Teams zu sein. Wir pumpen Expertise ohne Wasserkopf in den Markt. Frag mich gern zu [SEO](/glossar/seo-beratung/) und [AI Visibility](/glossar/ai-seo/). Für alle Disziplinen im Online Marketing haben wir mindestens einen Experten auf Senior Level. 
 
 Wir arbeiten zusammen und unterstützen uns. Alles zum Vorteil des Kunden. Mit Backup und flexibler Anpassung. Kontaktiere einen von uns und du hast bei Bedarf ein ganzes Team.
 

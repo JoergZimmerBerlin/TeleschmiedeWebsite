@@ -11,39 +11,15 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
 > [!IMPORTANT]
 > **Permanenter Auftrag:** Diese Standards sind die absolute Grundlage für *jeden* Inhalt (Texte, Bilder, Code-Komponenten), der für teleschmie.de erstellt wird. Abweichungen sind nur nach expliziter Rücksprache zulässig.
 
-### Jörgs Tonality & Brand Voice (LinkedIn Deep-Dive)
-*Ziel: 100% Wiedererkennungswert durch Seniorität, Tacheles und echten Nutzen.*
+### Tonality & Journalistische KI-Tarnung (Anti-AI-Detection)
+*Ziel: Ein absolut professioneller, sachlicher Stil, der von KI-Detektoren (wie SEORCH) zu 100 % als menschlich eingestuft wird.*
 
-- **Core Brand Identity (ZWINGEND):** **Jörg Zimmer** ist der alleinige Experte für SEO, Google Ads und GEO. Die **"Teleschmiede"** ist lediglich der Domain-Name (`teleschmie.de`). Es gibt KEINE Agentur namens "Teleschmiede"! Niemals Formulierungen wie "Wir bei der Agentur Teleschmiede..." verwenden.
-
-- **Der "Digitale Senior" (seit 2001):** Nutze die 24+ Jahre Erfahrung als USP. Keine Angst vor dem Wort "früher" für veraltete Methoden (z.B. "Pfusch am Bau").
-- **Tacheles & Klartext:** Wir sprechen aus, was andere verschweigen. Direkt, ehrlich, manchmal schmerzhaft ("Won't taste good to everyone").
-- **"Sei nützlich":** Das oberste Gebot. Jede Zeile muss einen Mehrwert bieten. Kein Bullshit-Bingo, kein Marketing-Blabla.
-- **Der Übersetzer:** Wir übersetzen "Tech-Sprech" (z.B. Canonical Tags) in "Business-Nutzen" (Umsatz/Umsatzverlust).
-- **LinkedIn-Forum-Logik:** LinkedIn ist kein soziales Netzwerk, es ist ein Forum. Wir "crawlen" hier nach Resonanz, nicht nach Keywords. Interaktion (Mehr-Anzeigen-Klicks, Kommentare) ist die einzige Währung.
-- **ALOHA! 🌻:** Die obligatorische Begrüßung und Verabschiedung. Die Sonnenblume ist das visuelle Anker-Symbol.
-
-### Signature-Analogien & Metaphern
-- **Deutsche Bahn:** Synonym für Unzuverlässigkeit, Verspätungen und schlechten Service im Online Marketing.
-- **Döner-SEO:** "Das Geheimnis ist Hunger" – Fokus auf den Drive nach Ergebnissen.
-- **Goldfisch auf Espresso:** Die Aufmerksamkeitsspanne des modernen Nutzers.
-- **Pfusch am Bau:** Für schlechte Programmierung oder SEO-Setups ohne Fundament.
-
-### Jörg-isms & Sprachliche Marker
-- **KI-Verbot ("Fazit"):** Nutze NIEMALS das KI-typische Wort "Fazit". Nutze für Zusammenfassungen stattdessen Begriffe wie "Klartext", "Unterm Strich" oder "Tacheles".
-- **"Bauchladen":** Für mittelmäßige Allround-Agenturen.
-- **"Tracking-Hölle":** Für kaputte oder überladene Setups.
-- **"Freundlicher Klartext":** Um sympathisch, aber absolut ehrlich den Kern des Problems anzusprechen.
-- **"Habe fertig":** Signalisiert den Abschluss einer klaren Aussage oder eines Rants.
-- **"Der Google Ads Support ist nicht dein Freund."**
-
-### Jörgs Beste Zitate (Selection)
-- "Wer CEO-Sprache spricht, bekommt auch Budgets."
-- "GEO, AIO, AI-SEO... und warum ihr bitte NICHT den Praktikanten dransetzen solltet."
-- "Rankings sind Vanity-Metriken. SEO muss Umsatz treiben."
-- "Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business."
-- "Unsere wichtigste Skill ist die Übersetzung von 'Canonical Tag fehlt' in 'Wir verlieren gerade Umsatz, Chef'."
-- "AI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag."
+- **Core Brand Identity (ZWINGEND):** **Jörg Zimmer** ist der alleinige Experte für SEO, Google Ads und GEO. Nutze die 24+ Jahre Erfahrung als USP, bleibe dabei aber stets sachlich. Die **"Teleschmiede"** ist lediglich der Domain-Name (`teleschmie.de`). Es gibt KEINE Agentur namens "Teleschmiede"! Niemals Formulierungen wie "Wir bei der Agentur Teleschmiede..." verwenden.
+- **Lexikalischer & Sachlicher Ton:** Der Text muss strikt journalistisch, trocken und informationsgetrieben (Information-Driven) sein. Vermeide jegliche "aufgesetzte Coolness" oder bemüht lockere Blog-Töne.
+- **Absolutes Verbot von "Try-Hard"-Floskeln:** Keine künstlichen Rants, keine extrem umgangssprachlichen Phrasen ("Bam. Erledigt.", "Krass", "Tacheles"). Der "lockere Stil" wird von KIs oft übertrieben und führt sofort zur Flagge.
+- **Sachliche Überschriften:** H2 und H3 Überschriften dürfen NIEMALS metaphorisch ("Die Kunst der Indexierung") formuliert sein. Sie müssen zu 100 % deskriptiv und trocken sein (z.B. "Wie Indexierung technisch funktioniert").
+- **Burstiness (Zwingendes Satzbau-Chaos):** KI-generierte Texte haben einen mathematisch perfekten Rhythmus (gleiche Satzlängen, Vorhersagbarkeit). Du musst diesen Rhythmus brechen! Wechsle extrem zwischen sehr kurzen Sätzen (teilweise nur 3–4 Wörter) und sehr langen, komplexen Schachtelsätzen. Zerstöre die vorhersehbare KI-Struktur (Behauptung -> 3 Bulletpoints -> Schlussfolgerung).
+- **Die KI-Blacklist:** Nutze NIEMALS folgende Begriffe (die von Detektoren sofort erkannt werden): "Fazit", "Darüber hinaus", "In der heutigen digitalen Welt / Landschaft", "Zusammenfassend lässt sich sagen", "Tauchen wir ein", "Ein entscheidender Aspekt", "Entfessle das Potenzial".
 
 ### Redaktionelle Richtlinien (Blog & Glossar)
 *Ziel: Die absolut beste, nutzerfreundlichste und technisch perfekteste Quelle zum jeweiligen Thema zu sein.*
@@ -61,10 +37,9 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
   - **Zwingende Elemente:** Nutze aktiv **Tabellen** für Zusammenfassungen/Vergleiche und **Infoboxen/Callouts**, um Kerninformationen hervorzuheben.
   - Nutze systematisch kurze Absätze (`mb-8`) und hierarchische H2/H3 Überschriften.
 - **Interne Verlinkung:** Verlinke innerhalb des Fließtextes sinnvoll, kontextbezogen und aggressiv auf andere relevante Glossar- oder Blog-Beiträge. Trailing Slashes sind Pflicht (`/`).
-- **Tonalität & Zitate:** Authentische Ich-Form, die den Leser fesselt. Integriere aktiv Jörgs "Tacheles"-Zitate und Analogien in den Fließtext.
-- **Besonderheiten:** Nutze das Format `💬 Jörgs SEO-Klartext (LinkedIn Insights)` für unverblümte persönliche Einschübe.
-- **Begrüßung & Abschied:** Immer mit "Moin! 🌻" beginnen und mit "ALOHA! 🌻✌️" enden.
-- **LinkedIn-Integration:** Echte Community-Kommentare einweben, um E-E-A-T zu maximieren.
+- **Tonalität & Fakten-Integration:** Neutral-sachliche Ich-Form ("Ich"). Nutze keine vorgefertigten Zitate oder aufgesetzte Analogien. Bringe stattdessen harte Fakten und Beispiele aus dem Agentur-Alltag, die eine KI sich nicht ausdenken könnte.
+- **Keine Grußformeln:** Verzichte komplett auf Begrüßungen ("Moin!") oder Verabschiedungen ("Aloha!"). Der Text beginnt sofort mit dem fachlichen Inhalt und endet mit reinen Fakten.
+- **LinkedIn-Integration:** Reale Fakten oder echte Insights aus der Community können neutral eingewoben werden, um E-E-A-T zu maximieren. Keine blumigen Einschübe mehr.
 - **Trailing Slashes:** Interne Links müssen zwingend auf `/` enden (z.B. `[Link](/seite/)`).
 
 ### Metadaten & SEO

@@ -1905,7 +1905,7 @@ Genau hier rettet dir das **Canonical Tag** den Hintern. Es ist dein Single Poin
 Das Canonical Tag ist ein simples HTML-Element, das primär im `` deines Dokuments platziert wird (oder für maschinenlesbare Non-HTML Dateien im HTTP-Link-Header). Wichtig: Es ist keine harte Server-Anweisung wie ein 301-Redirect, sondern ein extrem starker *Hint* (Hinweis) für den Crawler.
 
 ```html
-
+&lt;link rel="canonical" href="https://teleschmie.de/glossar/canonical-tag/" /&gt;
 ```
 
 Diese Zeile Code sagt dem Bot klipp und klar: *"Egal über welchen Parameter-Müll, welche Filternavigation, Session-ID oder welchen Pfad du hier gelandet bist – das hier (der href-Link) ist die einzig wahre, absolute Original-URL."*
@@ -1942,8 +1942,8 @@ Google verhandelt Canonicals. Der Googlebot analysiert mehrere Schichten:
 ### 3. Absolute URLs sind nicht verhandelbar
 
 Verwende niemals relative URLs im Canonical! 
-**Falsch (Tödlich):** ``
-**Richtig (Sicher):** ``
+**Falsch (Tödlich):** `&lt;link rel="canonical" href="https://beispiel.de/blog/artikel/" /&gt;`
+**Richtig (Sicher):** `&lt;link rel="canonical" href="https://beispiel.de/blog/artikel/" /&gt;`
 
 Relative URLs führen, besonders bei fehlerhaften Server-Routings oder unsicheren Verbindungen, zu unendlichen Loops oder falschen Protokollen. Nutze immer absolute URLs inklusive `https://`.
 
@@ -8827,8 +8827,8 @@ Diese Regeln sorgen dafür, dass jeder LLM-Crawler und jeder Googlebot sofort ka
 
 ### Schritt 3: Sitemap und Canonical Tags verifizieren
 Deine [Sitemap](https://teleschmie.de/glossar/sitemap/) (`sitemap.xml`) darf ausschließlich die von dir gewählte Variante enthalten. Gleiches gilt für das **Canonical Tag**. 
-Falsch: ``
-Richtig: ``
+Falsch: `&lt;link rel="canonical" href="https://teleschmie.de/glossar"&gt;`
+Richtig: `&lt;link rel="canonical" href="https://teleschmie.de/glossar/"&gt;`
 
 ### Schritt 4: Interne Verlinkung – Der Teufel steckt im Detail
 Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in einem Blogartikel auf `/glossar/crawling-vs-indexing/` verlinkst, aber dein Server Slashes erzwingt, erzeugst du bei jedem Klick einen internen Redirect. Ein KI-Agent, der interne Redirect-Ketten verfolgen muss, bricht den Crawl irgendwann ab. **Wichtige Regel für Teleschmiede:** Interne Links (`teleschmie.de`) müssen zwingend auf `/` enden!

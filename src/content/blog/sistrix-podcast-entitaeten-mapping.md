@@ -36,7 +36,7 @@ key_takeaways:
   </div>
 </div>
 
-In den Kommentaren entstand direkt eine spannende Diskussion darüber, was dieses [Knowledge Panel](/glossar/google-knowledge-panel/) eigentlich bedeutet:
+In den Kommentaren entstand direkt eine spannende Diskussion darüber, was dieses [Knowledge Panel](/glossar/knowledge-graph/) eigentlich bedeutet:
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörg Zimmer (LinkedIn Kommentar)</p>

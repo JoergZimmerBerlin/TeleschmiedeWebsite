@@ -87,7 +87,7 @@ Manuel Schmöllerl brachte das neue System dann perfekt auf den Punkt. Es geht n
   </div>
 </div>
 
-Wer Hilfe bei diesem Systemwechsel braucht, kann sich jederzeit in meiner [SEO Sprechstunde](/seo-sprechstunde-berlin/) melden. Wir schauen uns genau an, ob deine Entität bereit für die AI Overviews ist.
+Wer Hilfe bei diesem Systemwechsel braucht, kann sich jederzeit in meiner [SEO Sprechstunde](/seo-sprechstunde/) melden. Wir schauen uns genau an, ob deine Entität bereit für die AI Overviews ist.
 
 ALOHA! 🌻✌️
 

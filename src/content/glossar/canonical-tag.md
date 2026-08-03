@@ -14,7 +14,7 @@ key_takeaways:
   - "Kein strikter Befehl, sondern ein Hint: Google verhandelt Canonicals. Senden deine internen Links andere Signale, wird dein Canonical ignoriert."
 faqs:
   - question: 'Was ist ein Canonical Tag?'
-    answer: 'Ein HTML-Element (<link rel="canonical" href="..." />) im Head-Bereich oder im HTTP-Header. Es signalisiert Suchmaschinen die absolut bevorzugte Master-URL für ein Dokument.'
+    answer: 'Ein HTML-Element (<link rel="canonical" href="https://teleschmie.de/" />) im Head-Bereich oder im HTTP-Header. Es signalisiert Suchmaschinen die absolut bevorzugte Master-URL für ein Dokument.'
   - question: 'Warum ignorieren Google und LLMs manchmal mein Canonical Tag?'
     answer: 'Weil ein Canonical nur ein Hinweis (Hint) ist, kein Befehl. Wenn sich Original und Duplikat zu stark unterscheiden oder deine XML-Sitemap und internen Links auf andere URLs zeigen, stuft der Algorithmus dein Canonical als fehlerhaft ein.'
   - question: 'Sollte jede Seite ein selbstreferenzierendes Canonical haben?'

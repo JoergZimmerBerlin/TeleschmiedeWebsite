@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/check-assets.mjs && date +%s > public/build.txt",
-    "build": "bash scripts/generate-llms-full.sh && astro build && node scripts/glossary-linker.mjs && node scripts/generate-markdown-pages.mjs && npm run analyze-logs",
+    "build": "bash scripts/generate-llms-full.sh && astro build && node scripts/minify-js.mjs && node scripts/glossary-linker.mjs && node scripts/generate-markdown-pages.mjs && npm run analyze-logs",
     "build:verify": "npm run build && node scripts/check-links.mjs",
     "preview": "astro preview",
     "lint": "astro check",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
+    "terser": "^5.49.0",
     "turndown": "^7.2.4",
     "turndown-plugin-gfm": "^1.0.2",
     "typescript": "^5.9.3",

@@ -56,6 +56,7 @@ const displayDescription = truncate(description, 160);
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{displayTitle}</title>
     <meta name="description" content={displayDescription} />
 
     <!-- DNS Prefetch (Early Discovery) -->
@@ -100,12 +101,10 @@ const displayDescription = truncate(description, 160);
     <meta name="webmcp-server" content={`${siteUrl}/.well-known/mcp.json`} />
     
     <!-- WebMCP Client Tools Registration (Cloudflare Agent Readiness) -->
-    <script src="../js/webmcp.js"></script>
+    <script src="/js/webmcp.js" is:inline></script>
 
     <!-- Theme color -->
     <meta name="theme-color" content="#D4FF00" />
-
-    <title>{displayTitle}</title>
   </head>
   <body class="min-h-screen flex flex-col bg-white">
     <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-[10000] focus:p-4 focus:bg-white focus:text-dark">Zum Hauptinhalt springen</a>
@@ -121,6 +120,6 @@ const displayDescription = truncate(description, 160);
 
     <Footer />
 
-    <script src="../js/site-scripts.js"></script>
+    <script src="/js/site-scripts.js" is:inline></script>
   </body>
 </html>

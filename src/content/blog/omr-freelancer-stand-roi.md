@@ -2,6 +2,7 @@
 title: "Meine erste OMR mit eigenem Stand: Lohnt sich das?"
 meta_title: "OMR Hamburg: Lohnt sich ein eigener Stand? (2026)"
 description: "OMR Hamburg als Freelancer Team Aussteller: Ein ehrlicher Rückblick über ROI, Networking, Kosten und warum sich die Messe gelohnt hat. (2026)"
+meta_description: "OMR Hamburg als Freelancer Team Aussteller: Ein ehrlicher Rückblick über ROI, Networking, Kosten und warum sich die Messe gelohnt hat. (2026)"
 date: "2026-05-12"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_meine-erste-omr-gleich-mit-eigenem-stand-share-7459530597514817536-o4sO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQdMuYBHR-eSucFKv63wjXNHfs3eLpPKlI"
 image: "../../assets/images/blog/omr-freelancer-stand-roi.webp"

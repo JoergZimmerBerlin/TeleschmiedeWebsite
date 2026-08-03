@@ -1,8 +1,9 @@
 ---
 category: 'SEO Basics & Onpage'
 title: 'SEO Consulting: Strategische Architektur für KIs'
-meta_title: "SEO Consulting: Strategische Architektur… (2026)"
+meta_title: "SEO Consulting: Architektur für Agenten (2026)"
 description: "SEO Consulting bedeutet heute knallharte Systemarchitektur. Etabliere auth.md und maschinenlesbare Endpunkte für aggressives KI-Wachstum. (2026)"
+meta_description: "SEO Consulting bedeutet heute knallharte Systemarchitektur. Etabliere auth.md und maschinenlesbare Endpunkte für aggressives KI-Wachstum. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["seo-beratung", "seo-coaching", "seo-audit"]

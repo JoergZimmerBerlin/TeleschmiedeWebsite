@@ -3,6 +3,7 @@ category: 'AI SEO & Generative Search'
 title: "ai.txt SEO: Volle Agent Readiness erreichen"
 meta_title: "ai.txt SEO: Volle Agent Readiness erreichen (2026)"
 description: "Vergiss klassisches SEO. Die ai.txt ist dein Ticket für KI-Sichtbarkeit. Steuere Bots gezielt und mach deine Seite maschinenlesbar. (2026)"
+meta_description: "Vergiss klassisches SEO. Die ai.txt ist dein Ticket für KI-Sichtbarkeit. Steuere Bots gezielt und mach deine Seite maschinenlesbar. (2026)"
 date: "2026-03-15"
 image: "../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp"
 image_alt: "3D Infografik zum Thema ai.txt Crawling und Bot-Steuerung"

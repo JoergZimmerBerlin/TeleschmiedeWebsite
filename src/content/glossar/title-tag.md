@@ -1,8 +1,9 @@
 ---
 category: 'SEO Basics & Onpage'
 title: 'Title Tag: Der entscheidende Filter für KI-Crawler'
-meta_title: "Title Tag: Der entscheidende Filter für … (2026)"
+meta_title: "Title Tag: Der KI-Crawler Filter (2026)"
 description: "Der Title Tag bleibt auch für KI eines der stärksten Signale. Optimiere harte HTML-Titel für maximales LLM-Crawling und CTR ohne Bullshit. (2026)"
+meta_description: "Der Title Tag bleibt auch für KI eines der stärksten Signale. Optimiere harte HTML-Titel für maximales LLM-Crawling und CTR ohne Bullshit. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q65032661"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-linking.webp"

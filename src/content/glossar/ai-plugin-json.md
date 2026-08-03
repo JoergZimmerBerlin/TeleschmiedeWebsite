@@ -3,6 +3,7 @@ category: 'AI SEO & Generative Search'
 title: "ai-plugin.json: Warum ChatGPT Plugins tot sind"
 meta_title: "ai-plugin.json: Das Ende der Chat Plugins (2026)"
 description: "Die ai-plugin.json ist tot. Warum der Hype um ChatGPT Plugins vorbei ist und wie LLMs heute mit GPT Actions und offenen Standards arbeiten. (2026)"
+meta_description: "Die ai-plugin.json ist tot. Warum der Hype um ChatGPT Plugins vorbei ist und wie LLMs heute mit GPT Actions und offenen Standards arbeiten. (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-plugin-json-3d.webp"
 image_alt: "3D Infografik zum Thema ai-plugin.json und der Evolution hin zu modernen Schnittstellen"

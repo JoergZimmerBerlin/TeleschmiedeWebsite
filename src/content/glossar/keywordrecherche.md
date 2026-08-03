@@ -3,6 +3,7 @@ category: 'SEO Basics & Onpage'
 title: "Keywordrecherche: Semantische Basis für SEO"
 meta_title: "Keywordrecherche: Die semantische Basis (2026)"
 description: "Keywordrecherche dreht sich heute um Entitäten, Intents und Themen-Cluster. Erfahre im Tacheles-Modus, warum der Fanout alles verändert. (2026)"
+meta_description: "Keywordrecherche dreht sich heute um Entitäten, Intents und Themen-Cluster. Erfahre im Tacheles-Modus, warum der Fanout alles verändert. (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-keywordrecherche-3d.webp"
 related_terms: ["keywoerter", "suchvolumen", "keyword-tool"]

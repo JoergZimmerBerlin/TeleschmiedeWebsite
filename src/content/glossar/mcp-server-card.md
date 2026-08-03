@@ -3,6 +3,7 @@ category: 'AI SEO & Generative Search'
 title: MCP Server Card
 meta_title: "MCP Server Card (2026)"
 description: "Alles über das Model Context Protocol Server Discovery, JSON Metadata und wie Agenten Tools in der Praxis erkennen. Klartext von Jörg Zimmer. (2026)"
+meta_description: "Alles über das Model Context Protocol Server Discovery, JSON Metadata und wie Agenten Tools in der Praxis erkennen. Klartext von Jörg Zimmer. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-mcp-server-card-3d.webp"
 image_alt: "MCP Server Card Infografik mit Jörg Zimmer Wasserzeichen"

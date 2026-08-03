@@ -1,8 +1,9 @@
 ---
 category: 'E-E-A-T & Offpage'
 title: 'Linkbuilding: Der Weg zu echten Entity-Citations'
-meta_title: "Linkbuilding: Der Weg zu echten Entity-C… (2026)"
+meta_title: "Linkbuilding: Auf dem Weg zu Citations (2026)"
 description: "Klassisches Linkbuilding ist tot. Baue jetzt maschinelles Vertrauen durch Entity-Citations auf, um RAG-Modelle strategisch zu dominieren. (2026)"
+meta_description: "Klassisches Linkbuilding ist tot. Baue jetzt maschinelles Vertrauen durch Entity-Citations auf, um RAG-Modelle strategisch zu dominieren. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q1569371"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp"

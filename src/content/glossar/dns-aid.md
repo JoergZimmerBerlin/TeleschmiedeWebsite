@@ -3,6 +3,7 @@ category: 'AI SEO & Generative Search'
 title: "DNS-AID: Das Telefonbuch für KI-Agenten"
 meta_title: "DNS-AID: Das Telefonbuch für KI-Agenten (2026)"
 description: "Erfahre, wie DNS-AID als Telefonbuch für autonome KI-Agenten fungiert und warum es die nächste Stufe der Agent Readiness darstellt. (2026)"
+meta_description: "Erfahre, wie DNS-AID als Telefonbuch für autonome KI-Agenten fungiert und warum es die nächste Stufe der Agent Readiness darstellt. (2026)"
 date: "2026-07-22"
 image: "../../assets/images/glossar/3d-light/glossar-dns-aid-3d.webp"
 image_alt: "3D-Infografik zu DNS-AID und Agent-Discovery"

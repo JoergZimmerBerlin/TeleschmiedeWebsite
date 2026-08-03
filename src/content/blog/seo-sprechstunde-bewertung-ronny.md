@@ -2,6 +2,7 @@
 title: "5 Sterne: Kunden-Feedback zur SEO-Sprechstunde"
 meta_title: "5 Sterne: Feedback zur SEO-Sprechstunde (2026)"
 description: "Kunden-Feedback zur SEO-Sprechstunde: Ronny A. bewertet den intensiven Prozess von Vorbereitung bis zum Maßnahmenplan mit 5 Sternen. (2026)"
+meta_description: "Kunden-Feedback zur SEO-Sprechstunde: Ronny A. bewertet den intensiven Prozess von Vorbereitung bis zum Maßnahmenplan mit 5 Sternen. (2026)"
 date: "2026-01-27"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_einmal-website-sichtbarkeit-auf-den-grill-activity-7411702493564473344-TD6t"
 image: "../../assets/images/blog/seo-sprechstunde-prozess.webp"

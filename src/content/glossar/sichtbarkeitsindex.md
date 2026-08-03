@@ -1,8 +1,9 @@
 ---
 category: 'Technisches SEO & UX'
 title: 'Sichtbarkeitsindex 2026: Das Ende der blauen Links'
-meta_title: "Sichtbarkeitsindex 2026: Das Ende der bl… (2026)"
+meta_title: "Sichtbarkeitsindex 2026: Keine blauen Links (2026)"
 description: "Der alte Sichtbarkeitsindex hat ausgedient. Warum im Juli 2026 nur noch Citation-Stability, auth.md und maschinenlesbare Architektur zählen. (2026)"
+meta_description: "Der alte Sichtbarkeitsindex hat ausgedient. Warum im Juli 2026 nur noch Citation-Stability, auth.md und maschinenlesbare Architektur zählen. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsindex-3d.webp"
 related_terms: ["sichtbarkeit", "traffic", "keywoerter"]

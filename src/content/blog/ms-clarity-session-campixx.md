@@ -2,6 +2,7 @@
 title: "MS Clarity: Nutzerverhalten hart analysieren"
 meta_title: "MS Clarity: Nutzerverhalten analysieren (2026)"
 description: "MS Clarity Session auf der Campixx: Thomas Czernik zeigt, wie Heatmaps und Session Recordings helfen, echte UX-Probleme der Nutzer zu lösen. (2026)"
+meta_description: "MS Clarity Session auf der Campixx: Thomas Czernik zeigt, wie Heatmaps und Session Recordings helfen, echte UX-Probleme der Nutzer zu lösen. (2026)"
 date: "2026-06-24"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ms-clarity-session-auf-der-campixx-2026-in-activity-7473374131850510337-e5RN"
 image: "../../assets/images/blog/blog-ms-clarity-session.webp"

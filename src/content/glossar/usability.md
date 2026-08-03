@@ -1,8 +1,9 @@
 ---
 category: 'SEO Basics & Onpage'
 title: 'Usability: Perfekte UX für Menschen und Maschinen'
-meta_title: "Usability: Perfekte UX für Menschen und … (2026)"
+meta_title: "Usability: Perfekte UX für Menschen & KI (2026)"
 description: "Usability bedeutet heute: Deine Website muss für menschliche Besucher intuitiv und für KI-Agenten kompromisslos maschinenlesbar sein. (2026)"
+meta_description: "Usability bedeutet heute: Deine Website muss für menschliche Besucher intuitiv und für KI-Agenten kompromisslos maschinenlesbar sein. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-usability-3d.webp"
 image_alt: "Usability 3D Infografik - User Experience für Menschen und KI-Agenten"

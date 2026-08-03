@@ -3,6 +3,7 @@ category: 'AI SEO & Generative Search'
 title: "GEO: Generative Engine Optimization für KI"
 meta_title: "GEO: Generative Engine Optimization für KI (2026)"
 description: "GEO bedeutet Tacheles für die KI-Suche. Werde zur verlässlichen Antwortquelle in ChatGPT und Co. mit Agent Readiness und llms.txt. (2026)"
+meta_description: "GEO bedeutet Tacheles für die KI-Suche. Werde zur verlässlichen Antwortquelle in ChatGPT und Co. mit Agent Readiness und llms.txt. (2026)"
 date: "2026-03-31"
 related_terms: ["llm", "rag", "entity-seo", "agent-readiness-level", "a2a-protocol", "llms-txt", "aeo"]
 key_takeaways:

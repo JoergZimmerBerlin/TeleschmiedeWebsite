@@ -1,8 +1,9 @@
 ---
 category: 'SEO Basics & Onpage'
 title: 'Meta Description 2026: Vektor-Kontext & CTR-Hebel'
-meta_title: "Meta Description 2026: Vektor-Kontext & … (2026)"
-description: "Meta Description Optimierung für KI-Crawler: So formulierst du Snippets, die CTR maximieren und LLMs den perfekten Einstiegs-Vektor liefern.… (2026)"
+meta_title: "Meta Description 2026: Vektor-Kontext (2026)"
+description: "Meta Description Optimierung für KI-Crawler: So formulierst du Snippets, die CTR maximieren und LLMs den perfekten Einstiegs-Vektor liefern. (2026)"
+meta_description: "Meta Description Optimierung für KI-Crawler: So formulierst du Snippets, die CTR maximieren und LLMs den perfekten Einstiegs-Vektor liefern. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q3307180"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"

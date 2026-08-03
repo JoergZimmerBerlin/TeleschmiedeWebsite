@@ -3,6 +3,7 @@ category: 'Technisches SEO & UX'
 title: "Conversion Rate: Harte Optimierung für AI"
 meta_title: "Conversion Rate: Harte Optimierung für AI (2026)"
 description: "Vergiss einfache Klicks. Die Conversion Rate von heute erfordert hartes serverseitiges Tracking und Architektur-Wissen. Klartext pur. (2026)"
+meta_description: "Vergiss einfache Klicks. Die Conversion Rate von heute erfordert hartes serverseitiges Tracking und Architektur-Wissen. Klartext pur. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q135293"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-conversion-3d.webp"

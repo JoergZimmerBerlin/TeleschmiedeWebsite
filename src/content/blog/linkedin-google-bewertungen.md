@@ -1,7 +1,8 @@
 ---
 title: "LinkedIn & Google Maps Bewertungen sammeln: So geht's"
 meta_title: "LinkedIn & Google Maps Bewertungen sammeln (2026)"
-description: "Kundenbewertungen sind Gold wert. Warum es sich lohnt, Bewertungen parallel auf LinkedIn und Google Maps einzuholen – und wie der Netzwerk-A… (2026)"
+description: "Kundenbewertungen sind Gold wert. Warum es sich lohnt, Bewertungen parallel auf LinkedIn und Google Maps zu sammeln und so Trust aufzubauen. (2026)"
+meta_description: "Kundenbewertungen sind Gold wert. Warum es sich lohnt, Bewertungen parallel auf LinkedIn und Google Maps zu sammeln und so Trust aufzubauen. (2026)"
 date: "2026-07-14"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-sammle-bewertungen-in-linkedin-und-in-activity-7482743013061017600-R_rG"
 image: "../../assets/images/blog/linkedin-google-bewertungen.webp"

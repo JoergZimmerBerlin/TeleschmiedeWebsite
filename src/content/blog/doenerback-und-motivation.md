@@ -2,6 +2,7 @@
 title: "SEO-Qualität: Vom Dönerback bis zum Erfolg"
 meta_title: "SEO-Qualität: Vom Dönerback zum Erfolg (2026)"
 description: "Vom Rewe-Kühlschrank zur Grüne Woche. Produktqualität, die Döner-Revolution und was Performance Marketing damit zu tun hat. Jörg klärt auf. (2026)"
+meta_description: "Vom Rewe-Kühlschrank zur Grüne Woche. Produktqualität, die Döner-Revolution und was Performance Marketing damit zu tun hat. Jörg klärt auf. (2026)"
 date: "2026-03-11"
 category: "Events & Networking"
 image: "../../assets/images/blog/linkedin_doenerback.webp"

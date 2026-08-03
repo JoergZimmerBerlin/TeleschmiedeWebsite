@@ -3,6 +3,7 @@ category: 'Technisches SEO & UX'
 title: "Traffic: Die Illusion der Klicks und Besucher"
 meta_title: "Traffic: Die Illusion der Klicks und Visits (2026)"
 description: "Vergiss klassischen Traffic. In Zeiten von RAG und Zero-Click Search zählt nur noch maschinenlesbare Citation-Stability in LLM-Antworten. (2026)"
+meta_description: "Vergiss klassischen Traffic. In Zeiten von RAG und Zero-Click Search zählt nur noch maschinenlesbare Citation-Stability in LLM-Antworten. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-traffic-3d.webp"
 related_terms: ["sichtbarkeit", "suchvolumen", "conversion-rate"]

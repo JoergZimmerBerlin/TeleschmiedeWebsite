@@ -3,6 +3,7 @@ category: 'AI SEO & Generative Search'
 title: "auth.md: Autonome KI Kunden-Anmeldung ohne Captcha"
 meta_title: "auth.md: Autonome KI-Anmeldung ohne Captcha (2026)"
 description: "WorkOS und Cloudflare beenden die Captcha-Hölle für Bots. Jörg Zimmer zeigt, wie auth.md Agent Readiness Level 5 ermöglicht. (2026)"
+meta_description: "WorkOS und Cloudflare beenden die Captcha-Hölle für Bots. Jörg Zimmer zeigt, wie auth.md Agent Readiness Level 5 ermöglicht. (2026)"
 date: "2026-03-17"
 image: "../../assets/images/glossar/3d-light/glossar-auth-md-3d.webp"
 image_alt: "3D Infografik zum Thema auth.md und maschinenlesbarer Authentifizierung für Agenten"

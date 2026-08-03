@@ -3,6 +3,7 @@ category: 'Technisches SEO & UX'
 title: "Website SEO Audit: Volle KI-Optimierung"
 meta_title: "Website SEO Audit: Volle KI-Optimierung (2026)"
 description: "Ein Website SEO Audit prüft nicht nur Technik, sondern die volle KI-Readiness. So testest du llms.txt und Markdown Negotiation hart. (2026)"
+meta_description: "Ein Website SEO Audit prüft nicht nur Technik, sondern die volle KI-Readiness. So testest du llms.txt und Markdown Negotiation hart. (2026)"
 date: "2026-03-20"
 image: "../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp"
 image_alt: "Website SEO Audit 3D Infografik - Technische Analyse und Gesundheit-Check"

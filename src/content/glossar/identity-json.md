@@ -2,6 +2,7 @@
 title: "Identity JSON: Das Gesicht deiner Entität"
 meta_title: "Identity JSON: Das Gesicht deiner Entität (2026)"
 description: "Identity JSON (JSON-LD) ist pure Pflicht. Präsentiere KI-Agenten harte Fakten und baue strukturierte Entitäts-Daten ohne Kompromisse. (2026)"
+meta_description: "Identity JSON (JSON-LD) ist pure Pflicht. Präsentiere KI-Agenten harte Fakten und baue strukturierte Entitäts-Daten ohne Kompromisse. (2026)"
 category: 'AI SEO & Generative Search'
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-identity-json-3d.webp"

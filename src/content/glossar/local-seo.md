@@ -1,8 +1,9 @@
 ---
 category: 'SEO Basics & Onpage'
 title: 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten'
-meta_title: "Local SEO: Sichtbarkeit im Kampf der KI-… (2026)"
+meta_title: "Local SEO: Sichtbarkeit und KI-Agenten (2026)"
 description: "Sichere dir lokale Relevanz im Zeitalter der KI. Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz und dominanten Google AI Overviews. (2026)"
+meta_description: "Sichere dir lokale Relevanz im Zeitalter der KI. Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz und dominanten Google AI Overviews. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q30324357"
 date: "2026-03-31"
 image: "../../assets/images/blog/glossar-local-seo.webp"

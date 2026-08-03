@@ -2,6 +2,7 @@
 title: "2h SEO-Sprechstunde: Was ist wirklich möglich?"
 meta_title: "2h SEO-Sprechstunde: Was ist möglich? (2026)"
 description: "2h SEO-Sprechstunde Case Study: Wie Indexierung, schnelle technische Fixes und lokale Keywords in kurzer Zeit mehr Sichtbarkeit bringen. (2026)"
+meta_description: "2h SEO-Sprechstunde Case Study: Wie Indexierung, schnelle technische Fixes und lokale Keywords in kurzer Zeit mehr Sichtbarkeit bringen. (2026)"
 date: "2026-03-11"
 category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_was-kann-man-in-2-stunden-seo-schon-erreichen-activity-7274003504106090496-e2hS"

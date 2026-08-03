@@ -51,9 +51,9 @@
 - **[LOCKED] Globale UI-Komponenten (Master-Design):**
   - **Die offizielle CTA-Box:** Wenn du in einem Blogartikel oder einer Page eine CTA-Box einbaust, MUSST du EXAKT folgenden Code (Limettengrün) per Copy-Paste nutzen. Kein Abweichen, keine Improvisation:
     ```html
-    <div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
+    <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
       <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-      <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
+      <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
         Beitrag auf LinkedIn öffnen
       </a>
     </div>

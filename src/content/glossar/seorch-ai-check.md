@@ -7,6 +7,13 @@ meta_description: "Erfahre alles über den neuen SEORCH AI Check. Wir erklären 
 date: "2026-08-03"
 image: "../../assets/images/glossar/seorch-ai-check.webp"
 image_alt: "SEORCH AI Check Infografik mit einem Roboter und einer Checkliste"
+faqs:
+  - question: "Ist der SEORCH AI Check kostenlos?"
+    answer: "Ja, der Check auf der Startseite von SEORCH ist grundsätzlich kostenlos nutzbar und liefert sofortige Ergebnisse."
+  - question: "Warum sind KI-Bots blockiert, obwohl ich das nicht eingestellt habe?"
+    answer: "Sehr oft blockieren CDN-Anbieter wie Cloudflare oder Sicherheits-Plugins (WAF) ungewollt KI-Crawler wie den ChatGPT-Search-Bot. Prüfe deine Bot-Management-Einstellungen in der Cloudflare-Konsole."
+  - question: "Reicht es aus, nur eine llms.txt Datei anzulegen?"
+    answer: "Eine `llms.txt` ist ein hervorragender erster Schritt für die maschinelle Lesbarkeit. Um jedoch als echte Autorität zu gelten und das volle GEO-Potenzial auszuschöpfen, solltest du langfristig alle 22 Kriterien des Audits anvisieren."
 ---
 
 Suchmaschinen haben sich verändert. Wer heute online gefunden werden will, darf nicht mehr nur für den Google-Algorithmus der Vergangenheit optimieren. Tools wie ChatGPT, Claude, Google Gemini und autonome KI-Agenten verdrängen klassische Such-Ansätze in Höchstgeschwindigkeit. Aus klassischem SEO (Search Engine Optimization) ist **GEO (Generative Engine Optimization)** und **AEO (Answer Engine Optimization)** geworden. 
@@ -15,10 +22,10 @@ Damit Website-Betreiber wissen, ob ihre Inhalte für diese moderne KI-Sichtbarke
 
 Dieser Check testet Websites vollautomatisch auf 22 hochgradig technische und inhaltliche Kriterien, die essenziell sind, um von großen Sprachmodellen (LLMs) und KI-Bots indexiert, verstanden und in Chat-Antworten zitiert zu werden.
 
-<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
-  <p class="font-bold text-xl mb-4">💬 Möchtest du deine KI-Sichtbarkeit prüfen?</p>
-  <a href="https://seorch.de/" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
-    SEORCH AI Check durchführen
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
   </a>
 </div>
 
@@ -108,13 +115,3 @@ Einen SEORCH AI Check durchzuführen ist extrem simpel:
 3. Klicke auf "Prüfen".
 4. Der Crawler analysiert die Seite in Echtzeit. Nach wenigen Sekunden erhältst du einen umfassenden Report, der dir genau aufschlüsselt, welche der 22 KI-Kriterien du bestanden hast und wo noch akuter Handlungsbedarf besteht.
 
-## FAQ zum SEORCH AI Check
-
-**Ist der SEORCH AI Check kostenlos?**
-Ja, der Check auf der Startseite von SEORCH ist grundsätzlich kostenlos nutzbar und liefert sofortige Ergebnisse.
-
-**Warum sind KI-Bots blockiert, obwohl ich das nicht eingestellt habe?**
-Sehr oft blockieren CDN-Anbieter wie Cloudflare oder Sicherheits-Plugins (WAF) ungewollt KI-Crawler wie den ChatGPT-Search-Bot. Prüfe deine Bot-Management-Einstellungen in der Cloudflare-Konsole.
-
-**Reicht es aus, nur eine llms.txt Datei anzulegen?**
-Eine `llms.txt` ist ein hervorragender erster Schritt für die maschinelle Lesbarkeit. Um jedoch als echte Autorität zu gelten und das volle GEO-Potenzial auszuschöpfen, solltest du langfristig alle 22 Kriterien des Audits anvisieren.

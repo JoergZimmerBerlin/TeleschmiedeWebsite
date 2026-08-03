@@ -186,10 +186,7 @@
   @apply !mb-4;
 }
 
-/* Pseudo-headings: Paragraphs containing ONLY bold text */
-.blog-content p > strong:first-child:only-child {
-  @apply !block !mt-12 !mb-4 !text-dark !text-lg;
-}
+
 
 /* --- Responsive Table Optimization --- */
 @media (max-width: 768px) {

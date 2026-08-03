@@ -24,6 +24,7 @@ const { videoId, title, thumbnail } = Astro.props;
 <Image 
   src={thumbnail} 
   alt={`Vorschau für Video: ${title}`} 
+  title={`Video Vorschau: ${title}`}
   width={1280}
   height={720}
   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

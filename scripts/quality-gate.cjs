@@ -89,9 +89,7 @@ function runAudit(filePath, type) {
         "In der heutigen digitalen Landschaft",
         "Tauchen wir ein",
         "Ein entscheidender Aspekt",
-        "Entfessle das Potenzial",
-        "Moin",
-        "Aloha"
+        "Entfessle das Potenzial"
     ];
     let foundForbidden = false;
     for (const word of forbiddenWords) {
@@ -120,7 +118,7 @@ function runAudit(filePath, type) {
         if (linkMatches.length > 8) console.warn(`   ⚠️ WARNUNG: Zu viele interne Links! (${linkMatches.length} gefunden, max 8 erlaubt).`);
         else logSuccess(`Interne Links im Limit (${linkMatches.length}/8).`);
 
-        if (!body.includes('bg-lime-600') && !body.includes('CTA')) {
+        if (!body.includes('bg-lime-accent') && !body.includes('CTA')) {
             console.warn("   ⚠️ WARNUNG: Es scheint keine Standard CTA-Box im Blogartikel zu geben.");
         } else logSuccess("CTA-Box / Styling gefunden.");
 

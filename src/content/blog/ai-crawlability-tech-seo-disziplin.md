@@ -61,9 +61,9 @@ Wie Philipp ganz richtig anmerkt: Die [Logfile-Analyse](/glossar/seo-audit/) wir
 
 ALOHA! 🌻✌️
 
-<div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawlability-wird-eine-neue-eigene-disziplin-share-7488978330965164034-wz5s" target="_blank" rel="noopener noreferrer" class="inline-block bg-white text-lime-600 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors">
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawlability-wird-eine-neue-eigene-disziplin-share-7488978330965164034-wz5s" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

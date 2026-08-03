@@ -14,7 +14,7 @@ key_takeaways:
   - "Kein strikter Befehl, sondern ein Hint: Google verhandelt Canonicals. Senden deine internen Links andere Signale, wird dein Canonical ignoriert."
 faqs:
   - question: 'Was ist ein Canonical Tag?'
-    answer: 'Ein HTML-Element (<link rel="canonical" href="https://teleschmie.de/" />) im Head-Bereich oder im HTTP-Header. Es signalisiert Suchmaschinen die absolut bevorzugte Master-URL für ein Dokument.'
+    answer: 'Ein HTML-Element (&lt;link rel="canonical" href="https://teleschmie.de/" /&gt;) im Head-Bereich oder im HTTP-Header. Es signalisiert Suchmaschinen die absolut bevorzugte Master-URL für ein Dokument.'
   - question: 'Warum ignorieren Google und LLMs manchmal mein Canonical Tag?'
     answer: 'Weil ein Canonical nur ein Hinweis (Hint) ist, kein Befehl. Wenn sich Original und Duplikat zu stark unterscheiden oder deine XML-Sitemap und internen Links auf andere URLs zeigen, stuft der Algorithmus dein Canonical als fehlerhaft ein.'
   - question: 'Sollte jede Seite ein selbstreferenzierendes Canonical haben?'
@@ -39,7 +39,7 @@ Genau hier rettet dir das **Canonical Tag** den Hintern. Es ist dein Single Poin
 Das Canonical Tag ist ein simples HTML-Element, das primär im `<head>` deines Dokuments platziert wird (oder für maschinenlesbare Non-HTML Dateien im HTTP-Link-Header). Wichtig: Es ist keine harte Server-Anweisung wie ein 301-Redirect, sondern ein extrem starker *Hint* (Hinweis) für den Crawler.
 
 ```html
-<link rel="canonical" href="https://teleschmie.de/glossar/canonical-tag/" />
+&lt;link rel="canonical" href="https://teleschmie.de/glossar/canonical-tag/" /&gt;
 ```
 
 Diese Zeile Code sagt dem Bot klipp und klar: *"Egal über welchen Parameter-Müll, welche Filternavigation, Session-ID oder welchen Pfad du hier gelandet bist – das hier (der href-Link) ist die einzig wahre, absolute Original-URL."*
@@ -76,8 +76,8 @@ Google verhandelt Canonicals. Der Googlebot analysiert mehrere Schichten:
 ### 3. Absolute URLs sind nicht verhandelbar
 
 Verwende niemals relative URLs im Canonical! 
-**Falsch (Tödlich):** `<link rel="canonical" href="https://beispiel.de/blog/artikel/" />`
-**Richtig (Sicher):** `<link rel="canonical" href="https://beispiel.de/blog/artikel/" />`
+**Falsch (Tödlich):** `&lt;link rel="canonical" href="https://beispiel.de/blog/artikel/" /&gt;`
+**Richtig (Sicher):** `&lt;link rel="canonical" href="https://beispiel.de/blog/artikel/" /&gt;`
 
 Relative URLs führen, besonders bei fehlerhaften Server-Routings oder unsicheren Verbindungen, zu unendlichen Loops oder falschen Protokollen. Nutze immer absolute URLs inklusive `https://`.
 

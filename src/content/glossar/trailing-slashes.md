@@ -91,8 +91,8 @@ Diese Regeln sorgen dafür, dass jeder LLM-Crawler und jeder Googlebot sofort ka
 
 ### Schritt 3: Sitemap und Canonical Tags verifizieren
 Deine [Sitemap](/glossar/sitemap/) (`sitemap.xml`) darf ausschließlich die von dir gewählte Variante enthalten. Gleiches gilt für das **Canonical Tag**. 
-Falsch: `<link rel="canonical" href="https://teleschmie.de/glossar">`
-Richtig: `<link rel="canonical" href="https://teleschmie.de/glossar/">`
+Falsch: `&lt;link rel="canonical" href="https://teleschmie.de/glossar"&gt;`
+Richtig: `&lt;link rel="canonical" href="https://teleschmie.de/glossar/"&gt;`
 
 ### Schritt 4: Interne Verlinkung – Der Teufel steckt im Detail
 Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in einem Blogartikel auf `/glossar/crawling-vs-indexing/` verlinkst, aber dein Server Slashes erzwingt, erzeugst du bei jedem Klick einen internen Redirect. Ein KI-Agent, der interne Redirect-Ketten verfolgen muss, bricht den Crawl irgendwann ab. **Wichtige Regel für Teleschmiede:** Interne Links (`teleschmie.de`) müssen zwingend auf `/` enden!

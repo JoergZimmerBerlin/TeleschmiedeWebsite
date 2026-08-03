@@ -16,11 +16,9 @@ faqs:
     answer: "Eine `llms.txt` ist ein hervorragender erster Schritt für die maschinelle Lesbarkeit. Um jedoch als echte Autorität zu gelten und das volle GEO-Potenzial auszuschöpfen, solltest du langfristig alle 22 Kriterien des Audits anvisieren."
 ---
 
-Suchmaschinen haben sich verändert. Wer heute online gefunden werden will, darf nicht mehr nur für den Google-Algorithmus der Vergangenheit optimieren. Tools wie ChatGPT, Claude, Google Gemini und autonome KI-Agenten verdrängen klassische Such-Ansätze in Höchstgeschwindigkeit. Aus klassischem SEO (Search Engine Optimization) ist **GEO (Generative Engine Optimization)** und **AEO (Answer Engine Optimization)** geworden. 
+Das renommierte SEO-Tool **SEORCH** hat sein Angebot um einen brandneuen, revolutionären Audit erweitert: den **SEORCH AI Check**.
 
-Damit Website-Betreiber wissen, ob ihre Inhalte für diese moderne KI-Sichtbarkeit gerüstet sind, hat das renommierte SEO-Tool **SEORCH** sein Angebot um einen brandneuen, revolutionären Audit erweitert: den **SEORCH AI Check**.
-
-Dieser Check testet Websites vollautomatisch auf 22 hochgradig technische und inhaltliche Kriterien, die essenziell sind, um von großen Sprachmodellen (LLMs) und KI-Bots indexiert, verstanden und in Chat-Antworten zitiert zu werden.
+Dieser Check testet Websites vollautomatisch auf 22 hochgradig technische und inhaltliche Kriterien, die essenziell sind, um von autonomen KI-Agenten und großen Sprachmodellen (LLMs) indexiert, verstanden und in Chat-Antworten zitiert zu werden.
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>

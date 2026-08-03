@@ -80,6 +80,30 @@ function runAudit(filePath, type) {
         if (EMOJI_REGEX.test(metaDesc)) logError("Meta-Description enthält Emojis! (Strikte SEO-Regel verletzt).");
     }
 
+    // 2b. Anti-KI-Detection Checks (Blacklist)
+    const forbiddenWords = [
+        "Fazit",
+        "Darüber hinaus",
+        "Zusammenfassend lässt sich sagen",
+        "In der heutigen digitalen Welt",
+        "In der heutigen digitalen Landschaft",
+        "Tauchen wir ein",
+        "Ein entscheidender Aspekt",
+        "Entfessle das Potenzial",
+        "Moin",
+        "Aloha"
+    ];
+    let foundForbidden = false;
+    for (const word of forbiddenWords) {
+        if (body.toLowerCase().includes(word.toLowerCase())) {
+            logError(`Verbotenes KI-Wort (oder Grußformel) gefunden: "${word}"`);
+            foundForbidden = true;
+        }
+    }
+    if (!foundForbidden) {
+        logSuccess("Keine KI-typischen Floskeln oder verbotenen Grußformeln gefunden.");
+    }
+
     // 3. Typ-Spezifische Checks
     if (type === 'blog') {
         const category = getField('category');

@@ -32,10 +32,13 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
   - **Key Facts / Wichtigste Erkenntnisse:** Müssen immer ganz oben im Artikel als `key_takeaways` (Frontmatter) definiert werden.
   - **Inhaltsverzeichnis (Table of Contents):** Wird automatisch aus H2/H3 generiert, sofern diese sauber formatiert sind.
   - **Verwandte Artikel / Lese-Tipps:** Am Ende des Artikels (und ggf. in der Sidebar) müssen immer zwingend verwandte Themen (`related_posts` / `related_terms`) angeteasert werden.
-- **Visuelle Auflockerung:**
-  - Die Struktur muss **maximal nutzerfreundlich** sein (NIEMALS Textwände!).
-  - **Zwingende Elemente:** Nutze aktiv **Tabellen** für Zusammenfassungen/Vergleiche und **Infoboxen/Callouts**, um Kerninformationen hervorzuheben.
-  - Nutze systematisch kurze Absätze (`mb-8`) und hierarchische H2/H3 Überschriften.
+- **Visuelle Auflockerung & Pflicht-Elemente (Kampf den Textwüsten):**
+  - Die Struktur muss **maximal nutzerfreundlich** sein (NIEMALS Textwände!). Jeder Abschnitt muss visuell gebrochen werden.
+  - **Einleitung (Intro-Absatz):** Jeder Artikel MUSS vor der ersten H2-Überschrift zwingend einen Einleitungs-Absatz haben, der den Kontext setzt. Springe nie sofort in eine H2.
+  - **Textauszeichnung:** Verwende zwingend **Fettungen (`**`)** für Kernaussagen und *Kursive (`*`)* für subtile Betonungen, um den Textfluss optisch zu steuern.
+  - **Tabellen & Aufzählungen:** Nutze zwingend **Tabellen** für Zusammenfassungen/Vergleiche und **Aufzählungen/Listen** (Bullet Points) für Folgen oder Prozesse. Ein Artikel ohne Liste ist unvollständig!
+  - **Zitate:** Verwende Blockzitate (`>`), aber **nur für echte, faktische Aussagen** (z.B. offizielle Google-Statements oder echte Nutzer-Kommentare).
+  - **Infoboxen & Absatzstruktur:** Nutze Callouts für Warnungen/Tipps und halte Absätze systematisch kurz (`mb-8`).
 - **Interne Verlinkung:** Verlinke innerhalb des Fließtextes sinnvoll, kontextbezogen und aggressiv auf andere relevante Glossar- oder Blog-Beiträge. Trailing Slashes sind Pflicht (`/`).
 - **Tonalität & Fakten-Integration:** Neutral-sachliche Ich-Form ("Ich"). Nutze keine vorgefertigten Zitate oder aufgesetzte Analogien. Bringe stattdessen harte Fakten und Beispiele aus dem Agentur-Alltag, die eine KI sich nicht ausdenken könnte.
 - **Keine Grußformeln:** Verzichte komplett auf Begrüßungen ("Moin!") oder Verabschiedungen ("Aloha!"). Der Text beginnt sofort mit dem fachlichen Inhalt und endet mit reinen Fakten.

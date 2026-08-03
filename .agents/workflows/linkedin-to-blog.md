@@ -25,7 +25,7 @@ Dieser Workflow wird ausgelöst, wenn Jörg eine LinkedIn-URL einreicht. Es hand
 - **Länge**: Der fertige Artikel sollte kurz und knackig sein (ca. 1000-1500 Zeichen).
 - **LinkedIn Flow**: Short paragraphs, often single sentences.
 - **Dynamic Formatting**: Use bold text for emphasis.
-- **Direct Address**: Use "Moin! 🌻" or "Aloha! 🌻✌️".
+- **Direct Address**: Keine Floskeln, kein "Moin", kein "Aloha"! Der Ton ist streng neutral, journalistisch und nutzt extreme Satzlängenvarianz (Burstiness) nach den neuen Anti-KI-Regeln.
 
 Jeder Blogartikel (`src/content/blog/`) bekommt diese Frontmatter:
 ```yaml
@@ -55,7 +55,7 @@ faqs:
      <div class="italic text-dark mb-0"><p>[Exakter Original-Text]</p></div>
    </div>
    ```
-3. **CTA-Box (Ganz am Ende):** Nach der Verabschiedung ("ALOHA! 🌻✌️") MUSS zwingend diese CTA-Box eingefügt werden:
+3. **CTA-Box (Ganz am Ende):** Ganz am Ende des Artikels (ohne Grußformel) MUSS zwingend diese CTA-Box eingefügt werden:
    ```html
    <div class="my-8 bg-lime-600 text-white p-6 rounded-lg text-center">
      <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>

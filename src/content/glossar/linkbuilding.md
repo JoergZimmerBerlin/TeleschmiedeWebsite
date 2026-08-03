@@ -15,7 +15,7 @@ key_takeaways:
   - "Brand ist das neue OffPage: Unstrukturierte Erwähnungen (Citations) auf starken Trust-Domains sind wertvoller als hunderte Gastbeiträge."
 faqs:
   - question: 'Was ist der Unterschied zwischen einem Backlink und einer Entity-Citation?'
-    answer: 'Ein klassischer Backlink ist eine rein technische Hyperlink-Verbindung (<a href>). Eine Entity-Citation im Jahr 2026 bedeutet, dass KI-Systeme deine Marke oder dein Produkt in einem hochrelevanten Kontext erkennen und semantisch verknüpfen – oft sogar ohne klickbaren Link. Die Maschine versteht die fachliche Empfehlung auf Entitätsebene.'
+    answer: 'Ein klassischer Backlink ist eine rein technische Hyperlink-Verbindung (&lt;a href&gt;). Eine Entity-Citation im Jahr 2026 bedeutet, dass KI-Systeme deine Marke oder dein Produkt in einem hochrelevanten Kontext erkennen und semantisch verknüpfen – oft sogar ohne klickbaren Link. Die Maschine versteht die fachliche Empfehlung auf Entitätsebene.'
   - question: 'Sollte ich 2026 noch klassische Backlinks kaufen?'
     answer: 'Nein. Gekaufte Links in minderwertigen Netzwerken triggern die Spam-Filter und entwerten deine Domain in den Augen von Suchmaschinen und LLMs komplett. Der Fokus liegt zu 100% auf OffPage-Branding und echter digitaler PR. Du investierst in Inhalte, die von RAG-Modellen großer Publisher absorbiert werden.'
   - question: 'Wie beeinflusst das KI-Zeitalter mein Linkbuilding?'

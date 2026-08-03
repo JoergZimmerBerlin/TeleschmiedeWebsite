@@ -14,7 +14,7 @@ key_takeaways:
   - "Validierungs-Loop: Strukturierte Daten auf der eigenen Seite sind wertlos, wenn sie nicht durch externe Mentions auf Trust-Domains validiert werden."
 faqs:
   - question: 'Was ist der Unterschied zwischen Mention und Backlink?'
-    answer: 'Ein Backlink ist ein physisches HTML-Attribut (<a href>). Eine Mention ist die reine Nennung deines Namens oder deiner Marke im Text. Moderne NLP-Algorithmen werten die Mention im semantischen Kontext oft stärker als einen nackten Link ohne Textbezug.'
+    answer: 'Ein Backlink ist ein physisches HTML-Attribut (&lt;a href&gt;). Eine Mention ist die reine Nennung deines Namens oder deiner Marke im Text. Moderne NLP-Algorithmen werten die Mention im semantischen Kontext oft stärker als einen nackten Link ohne Textbezug.'
   - question: 'Zählen Social Media Mentions für LLMs?'
     answer: 'Absolut. Besonders auf Business-Netzwerken wie LinkedIn. Wenn dort Branchen-Akteure über dich sprechen, wird die semantische Nähe (Ko-Okkurrenz) und das Sentiment registriert. Das ist elementares Entity-Feeding.'
   - question: 'Wie hängen Mentions mit RAG-Systemen zusammen?'

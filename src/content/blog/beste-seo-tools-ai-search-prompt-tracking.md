@@ -56,7 +56,7 @@ Ein weiteres Highlight ist das **RAG-Ready Audit**. Es zeigt dir, ob dein Conten
 - **Nachteil:** Kein klassisches All-in-One SEO Tool (ersetzt kein Backlink-Audit).
 - **Kosten:** Es gibt verschiedene Pakete, Einsteiger-Lizenz startet moderat für den gebotenen Tiefgang.
 
-👉 **Hier geht's direkt zu [Rankscale](https://rankscale.ai/?via=offer):** <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">RankScale testen und KI-Sichtbarkeit messen</a>
+👉 **Hier geht's direkt zu <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>:** <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">RankScale testen und KI-Sichtbarkeit messen</a>
 
 ## 2. SE Ranking: Das solide Fundament für alles
 

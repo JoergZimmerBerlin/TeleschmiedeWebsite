@@ -34,7 +34,7 @@ Hier sind die wichtigsten Neuerungen, die du jetzt auf dem Schirm haben musst:
 Bisher gab es oft ein "Entweder-Oder" zwischen dem Pro-Paket und den großen Enterprise-Lösungen. Der neue **Growth-Plan** (den [Rankscale](https://rankscale.ai/?via=offer) manchmal auch noch Agency nennt) schließt genau diese Lücke. Er ist perfekt für Teams, die mehrere Kunden betreuen und Features brauchen, die bisher nur den ganz Großen vorbehalten waren. 
 
 <div class="my-10 text-center">
-  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" class="inline-block bg-lime-accent text-dark font-bold py-4 px-8 rounded-full hover:bg-lime-400 transition-colors shadow-lg shadow-lime- accent/20 no-underline shadow-lime-accent/20">
+  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="inline-block bg-lime-accent text-dark font-bold py-4 px-8 rounded-full hover:bg-lime-400 transition-colors shadow-lg shadow-lime- accent/20 no-underline shadow-lime-accent/20">
      Jetzt Growth-Preise checken 
   </a>
 </div>
@@ -76,7 +76,7 @@ Du entscheidest, wie tief du in den Kaninchenbau abtauchst.
 Schau dir am besten direkt die [verschiedenen Pakete in der Übersicht](https://rankscale.ai/pricing?via=offer) an.
 
 <div class="my-12 text-center">
-  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" class="inline-block bg-lime-accent text-dark font-bold py-5 px-10 rounded-full hover:bg-lime-400 transition-all hover:scale-105 shadow-xl shadow-lime-accent/30 no-underline">
+  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="inline-block bg-lime-accent text-dark font-bold py-5 px-10 rounded-full hover:bg-lime-400 transition-all hover:scale-105 shadow-xl shadow-lime-accent/30 no-underline">
      Rankscale Test-Account & Preise sichern 
   </a>
 </div>

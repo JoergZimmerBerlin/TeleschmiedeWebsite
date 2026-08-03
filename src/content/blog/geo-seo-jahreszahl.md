@@ -2,7 +2,7 @@
 title: "GEO vs. SEO: Jahreszahl 2026 im Title Tag für AI Search"
 meta_title: "GEO vs. SEO: Query Fan-Outs (2026)"
 description: "Experiment zur Generative Engine Optimization (GEO): Wie man KI-Systeme über Query Fan-Outs und die Jahreszahl im Title Tag steuert. (2026)"
-date: "2026-08-03"
+date: "2026-08-01"
 linkedin_url: "https://lnkd.in/p/dQk3ieAF"
 image: "../../assets/images/blog/geo-seo-jahreszahl.webp"
 image_alt: "3D Infografik zum Thema GEO vs. SEO mit Jahreszahl 2026 und KI-Gehirn"
@@ -19,7 +19,7 @@ faqs:
     answer: "Entscheidend sind Metriken wie Crawl-Frequenz durch AI-Bots, Erwähnungen (Citations) in KI-Antworten und veränderte Antwortrollen in Systemen wie ChatGPT oder Perplexity."
 ---
 
-*Diese Diskussion wurde von mir auf LinkedIn am 03.08.2026 gestartet:*
+*Diese Diskussion wurde von mir auf LinkedIn am 01.08.2026 gestartet:*
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörg Zimmer (LinkedIn Insights/Kommentar)</p>

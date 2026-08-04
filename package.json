@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
+    "puppeteer": "^25.4.0",
     "terser": "^5.49.0",
     "turndown": "^7.2.4",
     "turndown-plugin-gfm": "^1.0.2",

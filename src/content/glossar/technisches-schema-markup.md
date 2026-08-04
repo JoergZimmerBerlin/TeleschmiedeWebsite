@@ -56,9 +56,4 @@ Ein simples `Organization`-Snippet auf der Startseite reicht nicht mehr aus, um 
 
 Diese Vernetzungstiefe (Entity Depth) signalisiert der Maschine maximale "Topical Authority". Je präziser der Entity-Graph aufgebaut ist, desto vertrauenswürdiger wird die Quelle vom Algorithmus bewertet. Durch die strikte Nutzung der Eigenschaft `sameAs` wird jede Mehrdeutigkeit ausgeschlossen, indem die lokale Entität fest mit globalen Registern wie Wikidata oder dem Handelsregister verknüpft wird.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joergzimmerberlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
-  </a>
-</div>
+

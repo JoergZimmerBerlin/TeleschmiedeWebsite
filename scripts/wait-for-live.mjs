@@ -55,14 +55,38 @@ async function check() {
           console.log(`❌ build.txt noch nicht erreichbar (${res.status}).`);
         }
       } else {
-        console.log(`[${i}/${MAX_ATTEMPTS}] Prüfe Site-Status: ${url}...`);
-        const res = await fetch(url, { method: 'HEAD' });
-        if (res.ok) {
-          console.log(`⚠️ Kein lokales build.txt zum Abgleich vorhanden.`);
-          console.log(`⏳ Warte zur Sicherheit 5 Minuten, damit das Deployment auf IONOS sicher abgeschlossen ist...`);
-          await new Promise(r => setTimeout(r, 300000)); // 5 Minuten Fallback-Timer
-          console.log("✅ 5 Minuten Wartezeit abgelaufen. Site sollte live sein!");
-          process.exit(0);
+        console.log(`[${i}/${MAX_ATTEMPTS}] Prüfe GitHub Actions Status...`);
+        // Abfrage der öffentlichen GitHub API für den Status des letzten Workflows auf 'main'
+        const ghRes = await fetch("https://api.github.com/repos/JoergZimmerBerlin/TeleschmiedeWebsite/actions/runs?branch=main&per_page=1", { cache: 'no-store' });
+        if (ghRes.ok) {
+          const data = await ghRes.json();
+          if (data.workflow_runs && data.workflow_runs.length > 0) {
+            const run = data.workflow_runs[0];
+            if (run.status === 'completed') {
+              if (run.conclusion === 'success') {
+                console.log("✅ GitHub Action (Build & Deploy) erfolgreich abgeschlossen!");
+                // Gib IONOS noch kurz Zeit zum Synchronisieren, dann melde Erfolg
+                console.log("⏳ Warte noch 30 Sekunden auf IONOS-Sync...");
+                await new Promise(r => setTimeout(r, 30000));
+                console.log("✅ Site ist live!");
+                process.exit(0);
+              } else {
+                console.error(`❌ GitHub Action ist fehlgeschlagen! (Conclusion: ${run.conclusion})`);
+                console.error(`🔗 Details: ${run.html_url}`);
+                process.exit(1);
+              }
+            } else {
+              console.log(`⏳ GitHub Action läuft noch (Status: ${run.status})...`);
+            }
+          }
+        } else {
+           console.log(`⚠️ GitHub API Limit erreicht oder nicht erreichbar. Prüfe stattdessen URL Status: ${url}`);
+           const res = await fetch(url, { method: 'HEAD' });
+           if (res.ok) {
+             console.log(`⏳ Fallback: Warte zur Sicherheit 5 Minuten, da GitHub API nicht antwortet...`);
+             await new Promise(r => setTimeout(r, 300000));
+             process.exit(0);
+           }
         }
       }
     } catch (err) {

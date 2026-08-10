@@ -71,10 +71,16 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Agent Skills: KI-Agenten extrem aufrüsten
 - Agentic Commerce Protocol: KIs kaufen für dich
 - agents.md: Das offene README für KI-Agenten
+- AI Citation Analysis: Verlinkungen und Zitationen in KIs
+- AI Competitor Analysis: Konkurrenzanalyse in KI Suchmaschinen
 - AI Crawlability: Maschinenlesbarkeit für Answer Engines
 - ai-plugin.json: Warum ChatGPT Plugins tot sind
+- AI Prompt Research: Echte Nutzeranfragen entschlüsseln
+- AI Rank Tracker: Tracke deine Sichtbarkeit in der KI-Suche
 - AI Search Engine: Die Evolution der Suchmaschinen
+- AI Sentiment Analysis: Wie KIs über deine Marke sprechen
 - 'AI SEO: Mach deine Website bereit für KI-Agenten'
+- AI Shopping Analysis: Produkte in ChatGPT & KI-Suchen
 - AI Tracking Tools: Wahre Sichtbarkeit messen
 - ai.txt SEO: Volle Agent Readiness erreichen
 - AI Visibility Audit (AEO & GEO Audit)
@@ -85,6 +91,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Authoritativeness: E-E-A-T Autorität im KI-SEO
 - 'Bing Webmaster Tools: Absolute Pflicht für KI-SEO'
 - Brand Mentions: Warum KI Entitäten liebt
+- Brand Visibility Dashboard: KI-Sichtbarkeit auf einen Blick
 - Campixx Berlin: SEO-Konferenz im KI-Zeitalter
 - Canonical Tag: Schluss mit Duplicate Content
 - ChatGPT SEO: Ranken in der Zero-Click-Reality
@@ -114,6 +121,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - GEO Audit: Stresstest für KI-Sichtbarkeit
 - GEO Freelancer: Data-Engineers für KI-Suchen
 - 'GEO Optimierung: Die Währung für RAG-Sichtbarkeit'
+- GEO Page Audit: Optimiere Seiten für AI Crawlability
 - GEO Tool: Software für messbare KI-Sichtbarkeit
 - GEO vs SEO: Architektur-Shift in LLM-Pipelines
 - GEO: Generative Engine Optimization für KI
@@ -1212,6 +1220,84 @@ ALOHA! 🌻✌️
 
 ---
 
+### AI Citation Analysis: Verlinkungen und Zitationen in KIs
+
+
+## Die Evolution der Backlinks im KI-Zeitalter
+
+Im klassischen SEO waren Backlinks die wichtigste Währung. In der Welt von Perplexity, ChatGPT und Claude gibt es ein neues Paradigma: **Zitationen (Citations)**. Wenn eine KI (Answer Engine) eine komplexe Frage beantwortet, nutzt sie RAG (Retrieval-Augmented Generation), um Quellen aus dem Netz abzurufen und diese in der Antwort zu verlinken. 
+
+Wer bei diesen Zitationen leer ausgeht, verliert massiv an Sichtbarkeit. Eine professionelle **AI Citation Analysis** hilft dir, dieses neue Ökosystem zu entschlüsseln und zu dominieren.
+
+## Was trackt die Citation & Pattern Analysis von Rankscale?
+
+Rankscale nutzt maßgeschneiderte Promptsets, um echte Nutzeranfragen in über 17+ Modellen zu simulieren. Die Plattform liefert dir konkrete, messbare Zitations-Metriken:
+
+1. **Citation Volume:** Wie oft wird deine Marke insgesamt als Quelle herangezogen?
+2. **Citation Attribution:** Ist es ein echter, anklickbarer Quellenlink oder nur eine reine Erwähnung der Domain?
+3. **Sentiment Context:** In welcher Stimmung (Vibe) wurde die Zitation eingebettet? ([AI Sentiment Analysis](https://teleschmie.de/glossar/ai-sentiment-analysis/))
+
+Besonders wertvoll ist die **Category Distribution Over Time**. Hier siehst du, ob die KI für deine Zielthemen eher redaktionelle Artikel, Produktdaten oder Support-Foren zitiert. Verändert sich der Trend im Laufe des Monats, kannst du deine Content-Strategie sofort anpassen.
+
+## Wettbewerbsanalyse der Zitationen
+
+Es ist extrem frustrierend, wenn deine eigenen Inhalte unsichtbar bleiben, während der Konkurrent in der KI zitiert wird. Die Citation Analysis liefert dir handfeste Leaderboards:
+- **Top 20 Citations by Domain:** Ein direktes Ranking der Domains, die die meisten Zitationen für ein Thema gewinnen.
+- **Brand Share Across Metrics:** Vergleiche deinen Anteil am Zitations-Kuchen direkt mit Wettbewerbern – aufgeteilt in Mentions, Unique URLs und Unique Domains.
+
+Durch diese Daten kannst du nachvollziehen, wie die Anbieter (laut den Dokumentationen von OpenAI oder Anthropic) ihre Quellen referenzieren, und dein [GEO Page Audit](https://teleschmie.de/glossar/geo-page-audit/) entsprechend nachbessern.
+
+> [!TIP]
+> **Dominier den Citation Share**
+> Lerne aus den Daten: Vergleiche, warum deine Konkurrenten zitiert werden, und adaptiere ihre Strategie.
+> 👉 **[Jetzt Rankscale Citation Tracking testen](https://rankscale.ai/features/ai-citation-tracking?via=offer)**
+
+
+  🚀 Gewinne mehr Zitationen in ChatGPT!
+  
+    Zur Citation Analysis von Rankscale
+  
+
+
+---
+
+### AI Competitor Analysis: Konkurrenzanalyse in KI Suchmaschinen
+
+
+## Der Kampf um den Share of Voice in der KI
+
+In der klassischen Google-Suche konnten zehn verschiedene Websites auf der ersten Seite Traffic abgreifen. In der Welt der generativen KIs, bei denen oft nur noch eine bis drei Marken als direkte Empfehlung in der synthetisierten Antwort auftauchen, ist Sichtbarkeit ein brutales Nullsummenspiel.
+
+Wer hier gewinnen will, darf nicht im Blindflug agieren. Die **AI Competitor Intelligence** von Rankscale gibt dir die genauen Daten, um deine Konkurrenten zu benchmarken, zu vergleichen und letztendlich zu übertreffen.
+
+## So deckt Rankscale den Wettbewerb auf
+
+Während ein [Brand Visibility Dashboard](https://teleschmie.de/glossar/brand-visibility-dashboard/) deine eigenen Erfolge misst, richtet die Competitor Analysis den Blick schonungslos auf den Feind. Sie liefert drei entscheidende **Key Capabilities**:
+
+1. **Auto-Detected Competitors:** Rankscale erkennt automatisch, welche Marken zusammen mit deiner in KI-Suchergebnissen auftauchen. Du musst nicht mehr raten – die Daten zeigen dir unmissverständlich, wer *wirklich* um die KI-Sichtbarkeit in deiner Nische kämpft.
+2. **Side-by-Side Comparison:** Du kannst deine Marke und deine Konkurrenten nebeneinanderlegen. Vergleiche [Zitationen (Citation Share)](https://teleschmie.de/glossar/ai-citation-analysis/), Visibility-Scores und Sentiment über mehr als 17 verschiedene Modelle hinweg. Du siehst sofort, welche Engine (z.B. ChatGPT) dich bevorzugt und welche (z.B. Gemini) dem Gegner den Vorzug gibt.
+3. **Strategic Gap Analysis:** Finde die Lücken. Rankscale hebt Suchbegriffe und Engines hervor, bei denen die Konkurrenz dominiert und du komplett fehlst. Jeder dieser Gaps ist eine klare, handlungsorientierte Möglichkeit, neuen Content zu schaffen und KI-Marktanteile zurückzuerobern.
+
+## Priorisieren nach Impact
+
+Es reicht nicht aus, Lücken nur zu finden. Die Rankscale Competitor Analysis zeigt dir, welche dieser Gaps das höchste Suchvolumen (basierend auf [Prompt Research](https://teleschmie.de/glossar/ai-prompt-research/)) und das größte Sichtbarkeits-Potenzial aufweisen. 
+
+So kann sich dein Team auf die Maßnahmen konzentrieren, die wirklich den "Needle" bewegen. Zudem trackt das System die Wettbewerbstrends über die Zeit, sodass du sofort merkst, wenn ein Konkurrent aufholt. Natürlich lassen sich all diese Konkurrenz-Daten für Pitch-Termine, Strategiemeetings oder Kunden-Reportings sauber exportieren.
+
+> [!TIP]
+> **Wer dominiert deine Nische in ChatGPT?**
+> Finde heraus, ob die KI dich oder deine Wettbewerber empfiehlt – und vor allem: Warum!
+> 👉 **[Jetzt Competitor Analysis mit Rankscale testen](https://rankscale.ai/features/ai-competitor-analysis?via=offer)**
+
+
+  🚀 Optimiere jetzt deine KI-Sichtbarkeit!
+  
+    Jetzt Competitor Analysis testen
+  
+
+
+---
+
 ### AI Crawlability: Maschinenlesbarkeit für Answer Engines
 
 
@@ -1341,6 +1427,85 @@ ALOHA! 🌻✌️
 
 ---
 
+### AI Prompt Research: Echte Nutzeranfragen entschlüsseln
+
+
+## Der blinde Fleck der KI-Optimierung
+
+Im traditionellen SEO haben wir Tools wie den Google Keyword Planner, um das Suchvolumen und die Intention der Nutzer exakt zu bestimmen. In der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-optimierung/) gab es diesen Luxus lange nicht. Niemand wusste genau, welche *Prompts* (Eingaben) die Nutzer tatsächlich in ChatGPT, Claude oder Gemini tippen. 
+
+Mit **AI Prompt Research** wird dieser blinde Fleck beseitigt. Es macht die echten Gesprächsverläufe, Rahmenbedingungen und Fragepfade der Nutzer sichtbar.
+
+## Prompt Decoding: Wissenschaftlich verifiziert
+
+Rankscale lizenziert exklusiv die Methodik des **Prompt Decoding**. Dies ist nicht einfach nur geratenes Keyword-Research für KI, sondern ein wissenschaftlich reproduziertes Verfahren.
+
+Besonders bemerkenswert: Die Cluster und zentralen Nutzungszwecke, die durch Prompt Decoding im April 2025 veröffentlicht wurden, wurden Monate später durch eine offizielle OpenAI/Harvard-Studie (NBER Working Paper 34255) unabhängig validiert und waren teilweise wortgleich.
+
+**Die Basis der Daten:**
+Rankscale nutzt keine Tracking-Tools, um echte Nutzer auszuspionieren (absolut datenschutzkonform). Stattdessen nutzt das Tool modellinterne Simulationen (semantische Rekonstruktion), um die Wahrscheinlichkeit eines Prompts innerhalb der erlernten Datenverteilung des LLMs zu schätzen. Das Resultat ist das **Prompt Search Volume** – das LLM-Äquivalent zum klassischen Suchvolumen.
+
+## Kernfunktionen der Prompt Research
+
+Das Tool bietet drei elementare Einblicke für deine Content-Strategie:
+
+1. **Intents:** Du erhältst die stärksten Intentionen und Cluster für dein Segment. Du verstehst endlich, *was* die Nutzer die KI über deinen Markt fragen.
+2. **Prompts:** Du siehst die Kern-Prompts inklusive ihrer Trends im Zeitverlauf. Du erkennst, welche Fragen die KI-Konversationen in deiner Nische antreiben.
+3. **Entity Impression Share:** Du misst, wie oft deine [Marke (Brand Mentions)](https://teleschmie.de/glossar/brand-mentions/) im Verhältnis zur Konkurrenz in den generierten Antworten vorkommt.
+
+Da die Methodik modellübergreifend konsistent ist (getestet in ChatGPT und Gemini), bist du mit deiner [KI-Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/) nicht an einen einzelnen Anbieter gefesselt.
+
+> [!TIP]
+> **Finde heraus, was Nutzer wirklich fragen**
+> Ohne verlässliche Prompt-Daten optimierst du im Blindflug. Lerne die echten KI-Nutzer-Intentionen kennen.
+> 👉 **[Jetzt Prompt Research von Rankscale testen](https://rankscale.ai/features/prompt-research?via=offer)**
+
+
+  🚀 Entschlüssle die Prompts deiner Kunden!
+  
+    Zum Prompt Decoding Tool
+  
+
+
+---
+
+### AI Rank Tracker: Tracke deine Sichtbarkeit in der KI-Suche
+
+
+## Was ist ein AI Rank Tracker?
+
+Ein **AI Rank Tracker** ist das wichtigste Kontrollinstrument für [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-optimierung/). Anstatt Positionen in klassischen Suchergebnissen zu messen, überwacht ein AI Rank Tracker, ob und wie oft deine Marke in den generierten Antworten von KI-Suchmaschinen (Answer Engines) auftaucht.
+
+Moderne Tools wie **Rankscale** tracken deine [KI-Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/) über mehr als 17 verschiedene Modelle hinweg – darunter ChatGPT, Perplexity, Google AI Mode und Claude.
+
+## Die Kernfunktionen von Rankscale
+
+Ein leistungsstarker AI Rank Tracker bietet mehr als nur einen simplen Abgleich von Erwähnungen. Rankscale liefert folgende **Key Capabilities**:
+
+1. **Real-time Analytics:** Live-Updates und umfassende Performance-Metriken über alle relevanten KI-Engines hinweg. Du siehst sofort, wo deine Marke an Sichtbarkeit gewinnt.
+2. **Stability Analysis:** KI-Modelle halluzinieren oder verändern ihre Antworten. Die integrierte Stabilitätsanalyse bewertet die Volatilität deiner Suchbegriffe. So weißt du genau, auf welche Rankings du dich verlassen kannst.
+3. **Multi-Engine Focus:** Eine zentrale Plattform für alle wichtigen Player (ChatGPT, Claude, Google AI Mode).
+
+## Warum manuelles Tracking nicht mehr funktioniert
+
+Viele Marketer versuchen noch immer, ihre [Brand Mentions](https://teleschmie.de/glossar/brand-mentions/) durch manuelle Prompts zu überprüfen. Das ist nicht nur fehleranfällig, sondern auch nicht skalierbar. 
+
+Rankscale automatisiert diesen Prozess. Du sparst Stunden an manueller Recherche und kannst datengetriebene Entscheidungen treffen. Durch die Identifikation von "High-Value Opportunities" – also Suchbegriffen, die besonders viel KI-Traffic generieren – lassen sich die Customer Acquisition Costs (CAC) drastisch senken. Zudem behältst du den Wettbewerb stets im Auge und erkennst Lücken, bevor deine Konkurrenz es tut.
+
+> [!TIP]
+> **Tracke jetzt deine AI Search Visibility**
+> Beende das Rätselraten und überwache deine Zitationen und Mentions mit echten Daten.
+> 👉 **[Jetzt den Rankscale AI Rank Tracker testen](https://rankscale.ai/features/ai-rank-tracker?via=offer)**
+
+
+  🚀 Tracke jetzt deine KI-Rankings!
+  
+    Jetzt Rankscale kostenlos testen
+  
+
+
+---
+
 ### AI Search Engine: Die Evolution der Suchmaschinen
 
 
@@ -1405,6 +1570,45 @@ Wer weiterhin "Döner-SEO" betreibt (billigen Content in Masse produziert) oder 
 **Fazit in freundlichem Klartext:** Hört auf, für Keywords zu optimieren. Optimiert für Antworten, Entitäten und maschinenlesbares Expertenwissen. 
 
 Habe fertig. ALOHA! 🌻✌️
+
+---
+
+### AI Sentiment Analysis: Wie KIs über deine Marke sprechen
+
+
+## KI-Stimmung entscheidet über deinen Erfolg
+
+In der Ära der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-optimierung/) reicht es nicht mehr aus, nur erwähnt zu werden ([Brand Mentions](https://teleschmie.de/glossar/brand-mentions/)). Wenn ChatGPT oder Gemini nach einer Produktempfehlung gefragt werden, synthetisieren sie aus tausenden Quellen eine Antwort. Diese Antwort hat immer eine Tonalität.
+
+Wenn die KI dein Produkt nennt, aber hinzufügt: *"Ist zwar bekannt, aber der Kundenservice gilt als schlecht"*, ist das katastrophal für deine Conversion-Rate. Genau hier setzt die **AI Sentiment Analysis** an.
+
+## Die Brand Perception Engine von Rankscale
+
+Rankscale nutzt eine spezialisierte **Brand Perception Engine**, um das Sentiment über 17+ AI-Engines hinweg zu extrahieren. Sie zeigt dir exakt, welche Geschichte (Story) die KI über dich erzählt – sodass du negatives Framing korrigieren kannst, bevor es dich Kunden kostet.
+
+Die Methodik basiert auf drei Säulen:
+
+1. **Per-brand Grouping:** Das Tool sammelt alle Keyword-Assoziationen und gruppiert sie pro Marke. So siehst du im direkten Vergleich, wie die LLMs deine Marke im Gegensatz zu deinen Wettbewerbern beschreiben.
+2. **Sentiment Radar:** Deine Markenwahrnehmung wird auf einem Radar visualisiert, basierend auf den fünf dominierenden Keywords in jeder Kategorie (positiv, neutral, negativ). Das macht deine Brand-Identity sofort greifbar.
+3. **Keyword Extraction:** Rankscale identifiziert die exakten Beschreibungen der KI. Es findet "Citation Kings" und einzigartige Deskriptoren wie *"science explainers"* oder *"unmatched organic discovery"*. 
+
+## Sentiment in Strategie verwandeln
+
+Die Daten aus der AI Sentiment Analysis sind kein reines Vanity-Metric, sondern harte Handlungsanweisungen für dein PR-, Content- und Brand-Team. 
+
+Wenn du das Sentiment mit einem [AI Rank Tracker](https://teleschmie.de/glossar/ai-rank-tracker/) kombinierst, siehst du die direkte Korrelation zwischen einer positiven Stimmungsbewertung und einer höheren Positionierung (Sichtbarkeit) in den KI-Antworten. Du erkennst sofort, ob eine Marketing-Kampagne auch wirklich in das "Gedächtnis" der großen Sprachmodelle vorgedrungen ist.
+
+> [!TIP]
+> **Kontrolliere deine Markenwahrnehmung**
+> Überlasse es nicht dem Zufall, wie KI-Modelle über dich sprechen. Mache dein Sentiment messbar.
+> 👉 **[Jetzt Rankscale Sentiment Analysis testen](https://rankscale.ai/features/ai-sentiment-analysis?via=offer)**
+
+
+  🚀 Prüfe das KI-Sentiment zu deiner Marke!
+  
+    Zur AI Sentiment Analysis
+  
+
 
 ---
 
@@ -1481,6 +1685,45 @@ ALOHA! 🌻✌️
 * [GEO: Generative Engine Optimization](https://teleschmie.de/glossar/geo/)
 * [AEO: Answer Engine Optimization](https://teleschmie.de/glossar/aeo/)
 * [AI Tracking Tools richtig nutzen](https://teleschmie.de/glossar/ai-tracking-tools/)
+
+---
+
+### AI Shopping Analysis: Produkte in ChatGPT & KI-Suchen
+
+
+## AI Commerce: Der neue Weg der Produktsuche
+
+Während sich ein klassischer [AI Rank Tracker](https://teleschmie.de/glossar/ai-rank-tracker/) auf alle Arten von [Brand Mentions](https://teleschmie.de/glossar/brand-mentions/) konzentriert, benötigt der E-Commerce spezialisierte Werkzeuge. Nutzer fragen KIs heute gezielt nach Produkttests, Deals und direkten Kaufempfehlungen.
+
+Die **AI Commerce & Shopping Analysis** von Rankscale setzt genau hier an. Sie ist explizit auf die kaufbereite Phase fokussiert: Wer wird von der KI empfohlen, wenn der Nutzer fragt *"Wo kann ich Produkt XY kaufen?"*.
+
+## Sichtbarkeit in ChatGPT Shopping & Google AI Mode
+
+Das Modul überwacht die nativen Shopping-Oberflächen der KI-Modelle. Dazu gehören unter anderem **ChatGPT Shopping**, **Google AI Mode Shopping** und **Bing Copilot Shopping**. 
+
+**Das Besondere an der Shopping Analysis:**
+- **Produkte & Platzierungen:** Du siehst genau, welche deiner Produkte im Katalog von der KI vorgeschlagen werden und wo Lücken bestehen.
+- **Brands & Merchants kombiniert:** Wenn du eine Herstellermarke bist, möchtest du wissen, auf welche Shops die KI verlinkt. Rankscale zeigt dir, ob deine Produkte bei deinen bevorzugten Retail-Partnern empfohlen werden oder ob Konkurrenten den Platz einnehmen.
+- **Wettbewerbs-Benchmarking:** Vergleiche deine AI-Shopping-Sichtbarkeit direkt mit deinen Konkurrenten anhand denselben Prompt-Sets.
+
+## Sponsored Ads in KI-Antworten tracken
+
+Ein gewaltiger Shift im KI-Markt ist die Einführung von bezahlten Werbeanzeigen innerhalb generierter Antworten. ChatGPT, Google AI Mode und AI Overviews mischen zunehmend gesponserte Placements unter die organischen Produktempfehlungen.
+
+Für das E-Commerce-Team bedeutet das: Paid-Placements dürfen kein blinder Fleck sein. Rankscale erfasst diese **Sponsored Ads** in den KI-Shopping-Antworten. 
+Du profitierst von einem Advertiser-Leaderboard (Owned-Ad KPIs), siehst den Split nach Suchmaschine und Prompt, und erhältst sogar Links zu "Sample ad evidence" – echten Beispielanzeigen inklusive Branding und Ziel-URL für die Qualitätssicherung.
+
+> [!TIP]
+> **Werde in KI-Shopping-Beratern empfohlen**
+> Wenn Nutzer die KI fragen, was sie kaufen sollen, musst du auf Platz 1 sein. Überwache organische Tipps und Paid Ads.
+> 👉 **[Jetzt Rankscale Shopping Analysis testen](https://rankscale.ai/features/shopping-analysis?via=offer)**
+
+
+  🚀 Maximiere deine E-Commerce Umsätze!
+  
+    Zur AI Shopping Analysis
+  
+
 
 ---
 
@@ -2053,6 +2296,49 @@ ALOHA! 🌻
 * [Authoritativeness (E-E-A-T Autorität)](https://teleschmie.de/glossar/authoritativeness-eeat/)
 * [Trustworthiness (E-E-A-T Vertrauen)](https://teleschmie.de/glossar/trustworthiness-eeat/)
 * [Wie funktioniert Generative Engine Optimization?](https://teleschmie.de/glossar/geo/)
+
+---
+
+### Brand Visibility Dashboard: KI-Sichtbarkeit auf einen Blick
+
+
+## Die Kommandozentrale für das KI-Zeitalter
+
+Im klassischen [SEO](https://teleschmie.de/glossar/seo/) war das Dashboard der Wahl meist eine Kombination aus Google Analytics und der Google Search Console. Mit dem Wandel hin zu Answer Engines (ChatGPT, Perplexity) verlieren diese Tools an Aussagekraft. Um diesen Paradigmenwechsel steuerbar zu machen, benötigen moderne Marketer ein dediziertes **Brand Visibility Dashboard**.
+
+Es ist die zentrale Kommandozentrale für alle Disziplinen der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-optimierung/).
+
+## Unified Multi-Brand View: Alles im Blick
+
+Das Herzstück von Tools wie Rankscale ist die Fähigkeit, Daten aus über 17+ KI-Engines (inklusive Meta AI, Gemini, Claude und ChatGPT) in einer einzigen Ansicht zu konsolidieren. 
+
+Besonders für Agenturen, Franchise-Netzwerke oder Unternehmen mit mehreren Produkten ist die **Multi-Brand-Unterstützung** elementar. Anstatt sich in dutzende verschiedene Tools einzuloggen, legst du alle deine Marken (und die deiner Konkurrenten) in einem Dashboard an. Du vergleichst die [KI-Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/) direkt nebeneinander und erkennst sofort, welche Marke bei der KI am besten abschneidet.
+
+## Real-Time Brand Intelligence
+
+Das Dashboard liefert Live-Updates darüber, wie KI-Engines deine Marke erwähnen und beschreiben. Du erkennst in Echtzeit Veränderungen in folgenden Metriken:
+- **Visibility Scores:** Wie sichtbar bist du für deine wichtigsten Suchbegriffe? ([AI Rank Tracker](https://teleschmie.de/glossar/ai-rank-tracker/))
+- **Citation Share:** Wie oft wirst du im Vergleich zur Konkurrenz zitiert? ([AI Citation Analysis](https://teleschmie.de/glossar/ai-citation-analysis/))
+- **Mention Counts:** Die reine Anzahl an Erwähnungen deiner Marke.
+- **Sentiment:** Die Tonalität der KI-Antworten.
+
+## Schluss mit der manuellen Recherche
+
+Wer seine [Brand Mentions](https://teleschmie.de/glossar/brand-mentions/) manuell trackt, verschwendet wertvolle Ressourcen. Das Dashboard automatisiert die Überwachung komplett. Alle gesammelten Daten, Diagramme und Metriken lassen sich per Knopfdruck als **Exportable Reports** herunterladen. Das spart Stunden an manueller Arbeit und liefert sofort präsentationsfertige Dokumente für Board-Meetings oder Kunden.
+
+Da das Dashboard speziell für die **Team Collaboration** entwickelt wurde, haben alle Stakeholder (vom SEO-Manager bis zum CMO) Zugriff auf dieselbe, unverfälschte Datenbasis. 
+
+> [!TIP]
+> **Behalte die Kontrolle über deine Marke**
+> Blindflug war gestern. Führe alle Daten zu ChatGPT, Perplexity und Google AI in einem zentralen Dashboard zusammen.
+> 👉 **[Jetzt das Rankscale Dashboard testen](https://rankscale.ai/features/brand-visibility-dashboard?via=offer)**
+
+
+  🚀 Optimiere jetzt deine KI-Sichtbarkeit!
+  
+    Zum Brand Visibility Dashboard
+  
+
 
 ---
 
@@ -4340,6 +4626,54 @@ ALOHA! 🌻✌️
 * [LLMs & Markdown Content Negotiation](https://teleschmie.de/glossar/markdown-content-negotiation/)
 * [RAG: Retrieval-Augmented Generation](https://teleschmie.de/glossar/rag/)
 * [GEO Audit: Der Stresstest](https://teleschmie.de/glossar/geo-audit/)
+
+---
+
+### GEO Page Audit: Optimiere Seiten für AI Crawlability
+
+
+## Die Grundlage der Maschinenlesbarkeit
+
+Bevor du mit einem [AI Rank Tracker](https://teleschmie.de/glossar/ai-rank-tracker/) Erfolge messen kannst, muss deine Website überhaupt erst für Künstliche Intelligenz erfassbar sein. Hier setzt das **GEO Page Audit** an. Es verbindet klassische SEO-Tugenden mit den neuen technischen Anforderungen der [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-optimierung/).
+
+Rankscale nutzt für sein Page Audit einen deterministischen, regelbasierten Ansatz (ohne fehleranfällige LLMs im Audit-Engine), der blitzschnell harte Fakten liefert.
+
+## Seiten-Klassifizierung und Logik-Tore
+
+Nicht jede Seite wird nach denselben Kriterien bewertet. Rankscale klassifiziert jede URL vor der Prüfung in einen von 8 Seitentypen:
+- **YMYL (Your Money Your Life):** Striktere Anforderungen an Autorität (E-E-A-T).
+- **Local Business:** Fokus auf NAP-Konsistenz und Geo-Signale.
+- **E-Commerce:** Produkt-Schema, Preise und Reviews im Fokus.
+- Weitere Typen wie SaaS, News, FAQ und Entity Root.
+
+Dadurch wird beispielsweise eine lokale Klempner-Seite nicht dafür bestraft, dass ihr akademische Zitationen fehlen.
+
+## Die 6 wichtigsten Audit-Metriken
+
+Das Audit prüft alle wesentlichen Metriken für Human Trust und AI Citation:
+
+1. **AI Crawlability:** Verhindert deine `robots.txt`, dass KIs deine Seite lesen? Rankscale verteilt harte Penalties für jeden blockierten KI-Bot (z.B. GPTBot, PerplexityBot).
+2. **Subjectivity Filter:** KIs hassen unkonkrete Werbung. Der Filter bestraft vage Floskeln (wie "cutting-edge" oder "world-class") basierend auf ihrer Fluff-Dichte.
+3. **Contextual Autonomy:** Sind deine Absätze eigenständig verständlich? Das Audit prüft Themenkonsistenz und unabhängige Pronomen (sodass RAG-Systeme den Absatz isoliert als Antwort extrahieren können).
+4. **Schema Alignment:** Es gibt eine Strafe, wenn dein verstecktes Schema-Markup nicht mit dem sichtbaren Text übereinstimmt.
+5. **E-E-A-T:** Überprüfung von Credentials, Zertifizierungen, Interessenkonflikten und visueller Verifizierung.
+6. **Human Trust:** Klassische SEO-Faktoren und interne Verlinkungen.
+
+## Finde die Balance (Perfect Mix Auditor)
+
+Das Ziel ist nicht, die Seite nur noch für Bots zu schreiben. Rankscale zeigt dir, ob deine Seite überoptimiert ist (sogenannte "AI-Traps") oder als "Hidden Gem" gilt. Die Empfehlungen sind klar priorisiert, sodass du Crawlability- und Schema-Lücken beheben kannst, bevor sie deine [KI-Sichtbarkeit](https://teleschmie.de/glossar/ki-sichtbarkeit/) beschädigen.
+
+> [!TIP]
+> **Fix Before You Publish**
+> Führe das Audit durch, bevor du neuen Content veröffentlichst, um von Anfang an perfekte AI-Crawlability zu sichern.
+> 👉 **[Jetzt Rankscale Page Audit testen](https://rankscale.ai/features/page-audit?via=offer)**
+
+
+  🚀 Optimiere deine Seiten für KI!
+  
+    Zum Page Audit von Rankscale
+  
+
 
 ---
 

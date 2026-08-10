@@ -58,3 +58,4 @@
       </a>
     </div>
     ```
+    **HINWEIS:** Wenn es keinen spezifischen LinkedIn-Beitragslink gibt, ersetze `[ZIEL-URL]` immer mit der allgemeinen Profil-URL des Nutzers: `https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/`

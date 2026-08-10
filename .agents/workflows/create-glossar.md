@@ -19,6 +19,16 @@ Dieser Workflow ist zuständig für die Erstellung neuer und die Erweiterung bes
 3. **Länge & Struktur**: Der Glossar-Artikel MUSS in der Regel eine Länge von **1.000 bis 1.500 Wörtern** erreichen (ausführlich, tiefgründig, mit FAQs).
 4. **Kategorien (STRIKT)**: Jeder Glossar-Artikel MUSS in der Frontmatter zwingend eine dieser exakten Kategorien zugewiesen bekommen: `"SEO Basics & Onpage"`, `"Technisches SEO & UX"`, `"AI SEO & Generative Search"`, `"E-E-A-T & Offpage"`.
 5. **Globale Guidelines**: Befolge beim Schreiben ZWINGEND alle weiteren Format- und Tonalitätsvorgaben aus der Hauptdatei `.agents/workflows/content-guidelines.md` (z.B. Key Takeaways im Frontmatter, streng journalistischer Anti-KI-Stil, KEINE KI-Floskeln).
+6. **Affiliate-Links (ZWINGEND)**: Wenn Tools wie "Rankscale" oder "SE Ranking" im Text vorkommen, MUSST du via `grep_search` in bestehenden Blog-Artikeln nach den exakten Affiliate-Links des Nutzers suchen und diese exakt so in den neuen Text einbauen.
+
+## 2.5 STRIKTER PRE-FLIGHT-CHECK VOR DEM SCHREIBEN
+**AGENTEN-REGEL:** Du DARFST den Artikel erst via `write_to_file` auf der Festplatte speichern, wenn du intern folgende Checkliste validiert hast:
+1. Wurde `search_web` für aktuelle Fakten wirklich aufgerufen?
+2. Sind Affiliate-Links (falls Tools erwähnt werden) korrekt via `grep_search` verifiziert und eingebaut?
+3. Ist der Textumfang massiv genug (> 1.000 Wörter)?
+4. Sind 3-5 ausführliche FAQs in der Frontmatter hinterlegt (für das automatische Astro HTML5-Rendering)?
+5. Wurden Text-Auflockerungen (Tabellen, Quotes, Bold, Bulletpoints) und die grüne LinkedIn-CTA-Box genutzt?
+Wenn ein Punkt fehlt, MUSS der Text im Speicher vor dem Schreiben korrigiert werden!
 
 ## 3. Visuelles Setup (3D-Infografik)
 1. Generiere für *jeden* neuen Glossar-Artikel zwingend ein eigenes 3D-Thumbnail.

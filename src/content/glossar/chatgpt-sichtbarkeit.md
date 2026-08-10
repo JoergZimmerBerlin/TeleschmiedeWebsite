@@ -26,7 +26,7 @@ Wenn wir an Suchmaschinenoptimierung denken, denken wir automatisch an Google. �
 
 Entscheider, Entwickler und Manager googeln nicht mehr nach *"Was ist die beste CRM Software für den Mittelstand?"*, um sich dann mühsam durch fünf werbeverseuchte Blogartikel zu klicken. Sie geben diesen Prompt in ChatGPT ein und erwarten eine synthetisierte, sofort nutzbare Antwort. 
 
-Wenn deine Software, deine Agentur oder deine Dienstleistung in dieser generierten Antwort fehlt, existierst du für diesen Nutzer nicht. Deine klassische Sichtbarkeit bei Google mag hervorragend sein, aber deine **ChatGPT Sichtbarkeit** liegt bei null. Diesen blinden Fleck zu beheben, ist die Kernaufgabe der \u003ca href="/glossar/geo-optimierung/"\u003eGEO Optimierung\u003c/a\u003e.
+Wenn deine Software, deine Agentur oder deine Dienstleistung in dieser generierten Antwort fehlt, existierst du für diesen Nutzer nicht. Deine klassische Sichtbarkeit bei Google mag hervorragend sein, aber deine **ChatGPT Sichtbarkeit** liegt bei null. Diesen blinden Fleck zu beheben, ist die Kernaufgabe der [GEO Optimierung](/glossar/geo-optimierung/).
 
 ## Die Metriken der KI: Citations vs. Rankings
 
@@ -35,10 +35,10 @@ Um den Erfolg in ChatGPT messbar zu machen, müssen wir uns von der klassischen 
 Wir unterscheiden bei der Messung primär zwischen zwei Formen der Sichtbarkeit:
 
 ### 1. Brand Mentions (Die Markenerwähnung)
-Hierbei erwähnt ChatGPT deinen Unternehmensnamen im Fließtext. *"Neben Salesforce und HubSpot wird im deutschen Markt häufig auch Pipedrive genutzt."* Das Modell verlinkt nicht zwangsläufig auf deine Website, aber es hat dich als relevante **Entität** im Kontext der Suchanfrage verstanden. \u003ca href="/glossar/brand-mentions/"\u003eBrand Mentions\u003c/a\u003e sind ein starkes Signal für Brand Awareness, generieren aber keinen direkten Klick-Traffic (Zero-Click).
+Hierbei erwähnt ChatGPT deinen Unternehmensnamen im Fließtext. *"Neben Salesforce und HubSpot wird im deutschen Markt häufig auch Pipedrive genutzt."* Das Modell verlinkt nicht zwangsläufig auf deine Website, aber es hat dich als relevante **Entität** im Kontext der Suchanfrage verstanden. [Brand Mentions](/glossar/brand-mentions/) sind ein starkes Signal für Brand Awareness, generieren aber keinen direkten Klick-Traffic (Zero-Click).
 
 ### 2. Citations (Die Zitation mit Link)
-Das ist der Heilige Gral der \u003ca href="/glossar/llmo/"\u003eLLMO (Large Language Model Optimization)\u003c/a\u003e. Wenn ChatGPT das Live-Web durchsucht, greift es auf Quellen zurück, um Fakten zu belegen. Wenn dein Artikel die beste, strukturierteste Antwort liefert, baut die KI eine Fußnote [1] in ihren Text ein, die direkt auf deine URL verlinkt. Dies ist der neue Kanal für hochqualifizierten Referral-Traffic.
+Das ist der Heilige Gral der [LLMO (Large Language Model Optimization)](/glossar/llmo/). Wenn ChatGPT das Live-Web durchsucht, greift es auf Quellen zurück, um Fakten zu belegen. Wenn dein Artikel die beste, strukturierteste Antwort liefert, baut die KI eine Fußnote [1] in ihren Text ein, die direkt auf deine URL verlinkt. Dies ist der neue Kanal für hochqualifizierten Referral-Traffic.
 
 ## 3 Schritte: Wie du deine ChatGPT Sichtbarkeit misst
 
@@ -74,7 +74,7 @@ Sichtbarkeit in Sprachmodellen ist kein Hype mehr, sondern eine geschäftskritis
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-berlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+  <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

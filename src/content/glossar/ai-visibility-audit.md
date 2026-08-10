@@ -22,7 +22,7 @@ faqs:
 
 ## Warum das klassische SEO Audit ausgedient hat
 
-Jahrelang war der Ablauf in Agenturen identisch: Ein potenzieller Kunde klopft an, man lässt einen Crawler wie Screaming Frog über die Domain laufen, exportiert hunderte Fehler (fehlende Alt-Texte, 404-Fehler, zu lange Title-Tags) und präsentiert ein 50-seitiges PDF. Das klassische <a href="/glossar/seo-audit/">SEO Audit</a> war geboren. 
+Jahrelang war der Ablauf in Agenturen identisch: Ein potenzieller Kunde klopft an, man lässt einen Crawler wie Screaming Frog über die Domain laufen, exportiert hunderte Fehler (fehlende Alt-Texte, 404-Fehler, zu lange Title-Tags) und präsentiert ein 50-seitiges PDF. Das klassische [SEO Audit](/glossar/seo-audit/) war geboren. 
 
 Doch seit dem Aufstieg von Answer Engines wie Perplexity, ChatGPT (Search) und Google AI Overviews greift dieser Ansatz schlichtweg zu kurz. Wenn dein Kunde im B2B-Umfeld agiert und seine Käufer komplexe Fragen an KI-Systeme stellen, hilft es wenig, wenn die Meta-Description auf den Buchstaben genau 155 Zeichen lang ist. 
 
@@ -41,14 +41,14 @@ Ein AI Audit beantwortet drei fundamentale Fragen:
 
 ## Der 3-Phasen-Prozess eines AI Visibility Audits
 
-Ein professionelles AI Audit für B2B-Kunden ist kein Knopfdruck-Report. Es erfordert eine methodische Herangehensweise, die menschliche Analytik mit modernen Tool-Daten verbindet. Ich strukturiere diese Audits (siehe auch meinen Beitrag zum <a href="/glossar/geo-audit/">GEO Audit</a>) in der Regel in drei Phasen.
+Ein professionelles AI Audit für B2B-Kunden ist kein Knopfdruck-Report. Es erfordert eine methodische Herangehensweise, die menschliche Analytik mit modernen Tool-Daten verbindet. Ich strukturiere diese Audits (siehe auch meinen Beitrag zum [GEO Audit](/glossar/geo-audit/)) in der Regel in drei Phasen.
 
 ### Phase 1: Strategisches Prompt-Mapping & Baseline
 
 Bevor wir tief in den Quellcode eintauchen, müssen wir die strategische Ausgangslage (die Baseline) definieren. Bei Google haben wir Keywords recherchiert, bei KI-Systemen mappen wir Prompts.
 
 - **Identifikation von Core-Prompts:** Welche Fragen stellen deine Kunden, bevor sie kaufen? (Beispiel B2B-Software: *"Was sind die Nachteile von SAP gegenüber Salesforce für mittelständische Logistikunternehmen?"*). Wir definieren ein Set von 20 bis 30 geschäftskritischen Prompts.
-- **Baseline-Tracking:** Wir nutzen spezielle <a href="/glossar/ai-tracking-tools/">AI Tracking Tools</a>, um den aktuellen Status Quo zu messen. Taucht deine Marke in den Antworten auf? Wenn ja, in welchem Kontext (Sentiment)? 
+- **Baseline-Tracking:** Wir nutzen spezielle [AI Tracking Tools](/glossar/ai-tracking-tools/), um den aktuellen Status Quo zu messen. Taucht deine Marke in den Antworten auf? Wenn ja, in welchem Kontext (Sentiment)? 
 - **Tool-Empfehlung:** Für das exakte Monitoring dieser KI-Erwähnungen nutze ich **[Rankscale](https://rankscale.ai/?via=offer)**, das sich komplett auf die Auswertung von LLMs spezialisiert hat. Um dies mit traditionellen Suchdaten abzugleichen, eignet sich hervorragend der AI Tracker von **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**.
 
 ### Phase 2: Die technische Crawlability für KIs
@@ -56,7 +56,7 @@ Bevor wir tief in den Quellcode eintauchen, müssen wir die strategische Ausgang
 KI-Crawler sind teilweise dümmer (oder pragmatischer) als der Googlebot. Sie rendern selten komplexe JavaScript-Frameworks und haben wenig Geduld für verworrene DOM-Strukturen.
 
 - **Robots.txt & Bot-Ausschluss:** Blockierst du unbewusst KI-Crawler? Viele Unternehmen haben aus Panik vor Datendiebstahl rigoros alle LLM-Bots per `robots.txt` gesperrt. Das ist ein fataler Fehler, wenn man Sichtbarkeit in Answer Engines anstrebt. Ein Audit prüft diese Direktiven.
-- **Maschinenlesbare Formate:** Bietest du deine Inhalte maschinengerecht an? Ein heißes Thema ist hier die <a href="/glossar/llms-txt/">llms.txt Datei</a>, ein neuer Standard, der es KI-Systemen extrem erleichtert, die wichtigsten Inhalte deiner Domain ohne störendes Design-Markup zu konsumieren.
+- **Maschinenlesbare Formate:** Bietest du deine Inhalte maschinengerecht an? Ein heißes Thema ist hier die [llms.txt Datei](/glossar/llms-txt/), ein neuer Standard, der es KI-Systemen extrem erleichtert, die wichtigsten Inhalte deiner Domain ohne störendes Design-Markup zu konsumieren.
 - **Strukturierte Daten (Schema.org):** KIs benötigen Kontext. Ein AI Audit prüft, ob du lokales Business-Markup, FAQ-Markup oder Artikel-Markup fehlerfrei implementiert hast. Je mehr strukturierte Daten (Entities) du lieferst, desto höher wird die "Entity Confidence" der KI.
 
 ### Phase 3: Content-Architektur & Zitierfähigkeit
@@ -83,7 +83,7 @@ Ein AI Visibility Audit ist kein Ersatz für ein technisches Onpage-Audit, sonde
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-berlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+  <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

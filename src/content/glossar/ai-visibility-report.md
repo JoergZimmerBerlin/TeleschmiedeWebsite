@@ -32,7 +32,7 @@ Wir befinden uns in einer Transition, in der Nutzer (insbesondere im B2B-Researc
 
 Ein AI Visibility Report (KI-Sichtbarkeitsbericht) ist ein Dashboard oder ein Dokument, das aufschlüsselt, wie stark, wie oft und in welchem Kontext deine Marke in den Antworten von Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews auftaucht.
 
-Während ein <a href="/glossar/ai-visibility-audit/">AI Visibility Audit</a> der einmalige Gesundheitscheck deiner Website ist, der technische Fehler für KIs aufdeckt, ist der Report das kontinuierliche EKG, das deine Sichtbarkeit über die Zeit misst.
+Während ein [AI Visibility Audit](/glossar/ai-visibility-audit/) der einmalige Gesundheitscheck deiner Website ist, der technische Fehler für KIs aufdeckt, ist der Report das kontinuierliche EKG, das deine Sichtbarkeit über die Zeit misst.
 
 ## Die 4 Core-KPIs für dein AI Dashboard
 
@@ -60,9 +60,9 @@ Ein moderner Report liest diesen Kontext aus und stuft die Erwähnung ein. So wi
 
 Die manuelle Eingabe von 30 Prompts in fünf verschiedene KIs jeden Monat ist zeitaufwendig und skaliert nicht. Zum Glück hat der Markt hier schnell reagiert. 
 
-Moderne <a href="/glossar/seo-visibility-tools/">SEO Visibility Tools</a> bieten mittlerweile spezialisierte Dashboards an:
+Moderne [SEO Visibility Tools](/glossar/seo-visibility-tools/) bieten mittlerweile spezialisierte Dashboards an:
 
-1. **[Rankscale](https://rankscale.ai/?via=offer):** Mein Favorit für dediziertes LLM-Tracking. Rankscale ist darauf spezialisiert (wie in meinem \u003ca href="/blog/rankscale-ai-visibility-tool/"\u003eRankscale-Test\u003c/a\u003e beschrieben), Prompts automatisiert gegen Modelle wie GPT-4, Claude und Perplexity zu feuern und dir genau diese KPIs (SoV, Sentiment, Citations) als fertiges Dashboard auszuspucken.
+1. **[Rankscale](https://rankscale.ai/?via=offer):** Mein Favorit für dediziertes LLM-Tracking. Rankscale ist darauf spezialisiert (wie in meinem [Rankscale-Test](/blog/rankscale-ai-visibility-tool/) beschrieben), Prompts automatisiert gegen Modelle wie GPT-4, Claude und Perplexity zu feuern und dir genau diese KPIs (SoV, Sentiment, Citations) als fertiges Dashboard auszuspucken.
 2. **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracker:** Wenn du deine traditionellen Rankings (Google) und deine KI-Sichtbarkeit nicht in zwei verschiedenen Tools haben willst, bietet SE Ranking mittlerweile einen nativ integrierten AI Tracker. Perfekt für Agenturen, die ihren Kunden weiterhin einen All-in-One-Report schicken wollen.
 
 ## Zero-Click-Attribution: Der Elefant im Raum
@@ -79,7 +79,7 @@ Die Suchmaschine der Zukunft ist eine Antwortmaschine. Ein AI Visibility Report 
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-berlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+  <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

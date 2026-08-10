@@ -1597,7 +1597,7 @@ ALOHA! 🌻✌️
 
 ## Warum das klassische SEO Audit ausgedient hat
 
-Jahrelang war der Ablauf in Agenturen identisch: Ein potenzieller Kunde klopft an, man lässt einen Crawler wie Screaming Frog über die Domain laufen, exportiert hunderte Fehler (fehlende Alt-Texte, 404-Fehler, zu lange Title-Tags) und präsentiert ein 50-seitiges PDF. Das klassische SEO Audit war geboren. 
+Jahrelang war der Ablauf in Agenturen identisch: Ein potenzieller Kunde klopft an, man lässt einen Crawler wie Screaming Frog über die Domain laufen, exportiert hunderte Fehler (fehlende Alt-Texte, 404-Fehler, zu lange Title-Tags) und präsentiert ein 50-seitiges PDF. Das klassische [SEO Audit](https://teleschmie.de/glossar/seo-audit/) war geboren. 
 
 Doch seit dem Aufstieg von Answer Engines wie Perplexity, ChatGPT (Search) und Google AI Overviews greift dieser Ansatz schlichtweg zu kurz. Wenn dein Kunde im B2B-Umfeld agiert und seine Käufer komplexe Fragen an KI-Systeme stellen, hilft es wenig, wenn die Meta-Description auf den Buchstaben genau 155 Zeichen lang ist. 
 
@@ -1616,14 +1616,14 @@ Ein AI Audit beantwortet drei fundamentale Fragen:
 
 ## Der 3-Phasen-Prozess eines AI Visibility Audits
 
-Ein professionelles AI Audit für B2B-Kunden ist kein Knopfdruck-Report. Es erfordert eine methodische Herangehensweise, die menschliche Analytik mit modernen Tool-Daten verbindet. Ich strukturiere diese Audits (siehe auch meinen Beitrag zum GEO Audit) in der Regel in drei Phasen.
+Ein professionelles AI Audit für B2B-Kunden ist kein Knopfdruck-Report. Es erfordert eine methodische Herangehensweise, die menschliche Analytik mit modernen Tool-Daten verbindet. Ich strukturiere diese Audits (siehe auch meinen Beitrag zum [GEO Audit](https://teleschmie.de/glossar/geo-audit/)) in der Regel in drei Phasen.
 
 ### Phase 1: Strategisches Prompt-Mapping & Baseline
 
 Bevor wir tief in den Quellcode eintauchen, müssen wir die strategische Ausgangslage (die Baseline) definieren. Bei Google haben wir Keywords recherchiert, bei KI-Systemen mappen wir Prompts.
 
 - **Identifikation von Core-Prompts:** Welche Fragen stellen deine Kunden, bevor sie kaufen? (Beispiel B2B-Software: *"Was sind die Nachteile von SAP gegenüber Salesforce für mittelständische Logistikunternehmen?"*). Wir definieren ein Set von 20 bis 30 geschäftskritischen Prompts.
-- **Baseline-Tracking:** Wir nutzen spezielle AI Tracking Tools, um den aktuellen Status Quo zu messen. Taucht deine Marke in den Antworten auf? Wenn ja, in welchem Kontext (Sentiment)? 
+- **Baseline-Tracking:** Wir nutzen spezielle [AI Tracking Tools](https://teleschmie.de/glossar/ai-tracking-tools/), um den aktuellen Status Quo zu messen. Taucht deine Marke in den Antworten auf? Wenn ja, in welchem Kontext (Sentiment)? 
 - **Tool-Empfehlung:** Für das exakte Monitoring dieser KI-Erwähnungen nutze ich **[Rankscale](https://rankscale.ai/?via=offer)**, das sich komplett auf die Auswertung von LLMs spezialisiert hat. Um dies mit traditionellen Suchdaten abzugleichen, eignet sich hervorragend der AI Tracker von **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**.
 
 ### Phase 2: Die technische Crawlability für KIs
@@ -1631,7 +1631,7 @@ Bevor wir tief in den Quellcode eintauchen, müssen wir die strategische Ausgang
 KI-Crawler sind teilweise dümmer (oder pragmatischer) als der Googlebot. Sie rendern selten komplexe JavaScript-Frameworks und haben wenig Geduld für verworrene DOM-Strukturen.
 
 - **Robots.txt & Bot-Ausschluss:** Blockierst du unbewusst KI-Crawler? Viele Unternehmen haben aus Panik vor Datendiebstahl rigoros alle LLM-Bots per `robots.txt` gesperrt. Das ist ein fataler Fehler, wenn man Sichtbarkeit in Answer Engines anstrebt. Ein Audit prüft diese Direktiven.
-- **Maschinenlesbare Formate:** Bietest du deine Inhalte maschinengerecht an? Ein heißes Thema ist hier die llms.txt Datei, ein neuer Standard, der es KI-Systemen extrem erleichtert, die wichtigsten Inhalte deiner Domain ohne störendes Design-Markup zu konsumieren.
+- **Maschinenlesbare Formate:** Bietest du deine Inhalte maschinengerecht an? Ein heißes Thema ist hier die [llms.txt Datei](https://teleschmie.de/glossar/llms-txt/), ein neuer Standard, der es KI-Systemen extrem erleichtert, die wichtigsten Inhalte deiner Domain ohne störendes Design-Markup zu konsumieren.
 - **Strukturierte Daten (Schema.org):** KIs benötigen Kontext. Ein AI Audit prüft, ob du lokales Business-Markup, FAQ-Markup oder Artikel-Markup fehlerfrei implementiert hast. Je mehr strukturierte Daten (Entities) du lieferst, desto höher wird die "Entity Confidence" der KI.
 
 ### Phase 3: Content-Architektur & Zitierfähigkeit
@@ -1682,7 +1682,7 @@ Wir befinden uns in einer Transition, in der Nutzer (insbesondere im B2B-Researc
 
 Ein AI Visibility Report (KI-Sichtbarkeitsbericht) ist ein Dashboard oder ein Dokument, das aufschlüsselt, wie stark, wie oft und in welchem Kontext deine Marke in den Antworten von Large Language Models (LLMs) wie ChatGPT, Perplexity, Claude oder Google AI Overviews auftaucht.
 
-Während ein AI Visibility Audit der einmalige Gesundheitscheck deiner Website ist, der technische Fehler für KIs aufdeckt, ist der Report das kontinuierliche EKG, das deine Sichtbarkeit über die Zeit misst.
+Während ein [AI Visibility Audit](https://teleschmie.de/glossar/ai-visibility-audit/) der einmalige Gesundheitscheck deiner Website ist, der technische Fehler für KIs aufdeckt, ist der Report das kontinuierliche EKG, das deine Sichtbarkeit über die Zeit misst.
 
 ## Die 4 Core-KPIs für dein AI Dashboard
 
@@ -1710,9 +1710,9 @@ Ein moderner Report liest diesen Kontext aus und stuft die Erwähnung ein. So wi
 
 Die manuelle Eingabe von 30 Prompts in fünf verschiedene KIs jeden Monat ist zeitaufwendig und skaliert nicht. Zum Glück hat der Markt hier schnell reagiert. 
 
-Moderne SEO Visibility Tools bieten mittlerweile spezialisierte Dashboards an:
+Moderne [SEO Visibility Tools](https://teleschmie.de/glossar/seo-visibility-tools/) bieten mittlerweile spezialisierte Dashboards an:
 
-1. **[Rankscale](https://rankscale.ai/?via=offer):** Mein Favorit für dediziertes LLM-Tracking. Rankscale ist darauf spezialisiert (wie in meinem \u003ca href="/blog/rankscale-ai-visibility-tool/"\u003eRankscale-Test\u003c/a\u003e beschrieben), Prompts automatisiert gegen Modelle wie GPT-4, Claude und Perplexity zu feuern und dir genau diese KPIs (SoV, Sentiment, Citations) als fertiges Dashboard auszuspucken.
+1. **[Rankscale](https://rankscale.ai/?via=offer):** Mein Favorit für dediziertes LLM-Tracking. Rankscale ist darauf spezialisiert (wie in meinem [Rankscale-Test](https://teleschmie.de/blog/rankscale-ai-visibility-tool/) beschrieben), Prompts automatisiert gegen Modelle wie GPT-4, Claude und Perplexity zu feuern und dir genau diese KPIs (SoV, Sentiment, Citations) als fertiges Dashboard auszuspucken.
 2. **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracker:** Wenn du deine traditionellen Rankings (Google) und deine KI-Sichtbarkeit nicht in zwei verschiedenen Tools haben willst, bietet SE Ranking mittlerweile einen nativ integrierten AI Tracker. Perfekt für Agenturen, die ihren Kunden weiterhin einen All-in-One-Report schicken wollen.
 
 ## Zero-Click-Attribution: Der Elefant im Raum
@@ -2240,7 +2240,7 @@ Wenn wir an Suchmaschinenoptimierung denken, denken wir automatisch an Google. �
 
 Entscheider, Entwickler und Manager googeln nicht mehr nach *"Was ist die beste CRM Software für den Mittelstand?"*, um sich dann mühsam durch fünf werbeverseuchte Blogartikel zu klicken. Sie geben diesen Prompt in ChatGPT ein und erwarten eine synthetisierte, sofort nutzbare Antwort. 
 
-Wenn deine Software, deine Agentur oder deine Dienstleistung in dieser generierten Antwort fehlt, existierst du für diesen Nutzer nicht. Deine klassische Sichtbarkeit bei Google mag hervorragend sein, aber deine **ChatGPT Sichtbarkeit** liegt bei null. Diesen blinden Fleck zu beheben, ist die Kernaufgabe der \u003ca href="/glossar/geo-optimierung/"\u003eGEO Optimierung\u003c/a\u003e.
+Wenn deine Software, deine Agentur oder deine Dienstleistung in dieser generierten Antwort fehlt, existierst du für diesen Nutzer nicht. Deine klassische Sichtbarkeit bei Google mag hervorragend sein, aber deine **ChatGPT Sichtbarkeit** liegt bei null. Diesen blinden Fleck zu beheben, ist die Kernaufgabe der [GEO Optimierung](https://teleschmie.de/glossar/geo-optimierung/).
 
 ## Die Metriken der KI: Citations vs. Rankings
 
@@ -2249,10 +2249,10 @@ Um den Erfolg in ChatGPT messbar zu machen, müssen wir uns von der klassischen 
 Wir unterscheiden bei der Messung primär zwischen zwei Formen der Sichtbarkeit:
 
 ### 1. Brand Mentions (Die Markenerwähnung)
-Hierbei erwähnt ChatGPT deinen Unternehmensnamen im Fließtext. *"Neben Salesforce und HubSpot wird im deutschen Markt häufig auch Pipedrive genutzt."* Das Modell verlinkt nicht zwangsläufig auf deine Website, aber es hat dich als relevante **Entität** im Kontext der Suchanfrage verstanden. \u003ca href="/glossar/brand-mentions/"\u003eBrand Mentions\u003c/a\u003e sind ein starkes Signal für Brand Awareness, generieren aber keinen direkten Klick-Traffic (Zero-Click).
+Hierbei erwähnt ChatGPT deinen Unternehmensnamen im Fließtext. *"Neben Salesforce und HubSpot wird im deutschen Markt häufig auch Pipedrive genutzt."* Das Modell verlinkt nicht zwangsläufig auf deine Website, aber es hat dich als relevante **Entität** im Kontext der Suchanfrage verstanden. [Brand Mentions](https://teleschmie.de/glossar/brand-mentions/) sind ein starkes Signal für Brand Awareness, generieren aber keinen direkten Klick-Traffic (Zero-Click).
 
 ### 2. Citations (Die Zitation mit Link)
-Das ist der Heilige Gral der \u003ca href="/glossar/llmo/"\u003eLLMO (Large Language Model Optimization)\u003c/a\u003e. Wenn ChatGPT das Live-Web durchsucht, greift es auf Quellen zurück, um Fakten zu belegen. Wenn dein Artikel die beste, strukturierteste Antwort liefert, baut die KI eine Fußnote [1] in ihren Text ein, die direkt auf deine URL verlinkt. Dies ist der neue Kanal für hochqualifizierten Referral-Traffic.
+Das ist der Heilige Gral der [LLMO (Large Language Model Optimization)](https://teleschmie.de/glossar/llmo/). Wenn ChatGPT das Live-Web durchsucht, greift es auf Quellen zurück, um Fakten zu belegen. Wenn dein Artikel die beste, strukturierteste Antwort liefert, baut die KI eine Fußnote [1] in ihren Text ein, die direkt auf deine URL verlinkt. Dies ist der neue Kanal für hochqualifizierten Referral-Traffic.
 
 ## 3 Schritte: Wie du deine ChatGPT Sichtbarkeit misst
 
@@ -5196,7 +5196,7 @@ ine 5 render style. Subtle watermark "Jörg Zimmer" in the bottom right corner.
 
 Für über 20 Jahre war die Formel des digitalen Marketings simpel: Optimiere für Keywords, baue Backlinks auf, ranke auf Position 1 bei Google und sammle Klicks ein. Wer auf Seite 2 stand, war unsichtbar. 
 
-Doch die rasante Entwicklung von Answer Engines (wie Perplexity, ChatGPT Search und Google AI Overviews) hat die \u003ca href="/glossar/seo/"\u003eklassische Suchmaschinenoptimierung (SEO)\u003c/a\u003e grundlegend verändert. Nutzer wollen sich nicht mehr durch zehn blaue Links klicken. Sie wollen sofortige, fertig verarbeitete Antworten. 
+Doch die rasante Entwicklung von Answer Engines (wie Perplexity, ChatGPT Search und Google AI Overviews) hat die [klassische Suchmaschinenoptimierung (SEO)](https://teleschmie.de/glossar/seo/) grundlegend verändert. Nutzer wollen sich nicht mehr durch zehn blaue Links klicken. Sie wollen sofortige, fertig verarbeitete Antworten. 
 
 Das neue Ziel lautet: **In KI Antworten erscheinen**. 
 
@@ -5216,8 +5216,8 @@ Dazu gehört:
 - **Micro-Formatting:** Nutze Aufzählungszeichen, saubere H2- und H3-Tags und einfache Tabellen, um Datenpunkte isolierbar zu machen.
 
 ### 3. GEO (Generative Engine Optimization) – Die Autorität
-\u003ca href="/glossar/geo-optimierung/"\u003eGEO\u003c/a\u003e ist die Königsdisziplin. Während AEO sich auf einfache Faktenabfragen konzentriert, geht es bei GEO um komplexe, mehrschichtige Prompts ("Vergleiche Tool A mit Tool B unter Berücksichtigung von Kosten und Skalierbarkeit"). 
-Hier musst du als unangefochtener Experte für eine bestimmte Nische (Topical Authority) auftreten. Die KI muss in ihren Trainingsdaten und in Echtzeit-Suchen immer wieder auf deine \u003ca href="/glossar/brand-mentions/"\u003eBrand Mentions\u003c/a\u003e in Verbindung mit dem Fachthema stoßen.
+[GEO](https://teleschmie.de/glossar/geo-optimierung/) ist die Königsdisziplin. Während AEO sich auf einfache Faktenabfragen konzentriert, geht es bei GEO um komplexe, mehrschichtige Prompts ("Vergleiche Tool A mit Tool B unter Berücksichtigung von Kosten und Skalierbarkeit"). 
+Hier musst du als unangefochtener Experte für eine bestimmte Nische (Topical Authority) auftreten. Die KI muss in ihren Trainingsdaten und in Echtzeit-Suchen immer wieder auf deine [Brand Mentions](https://teleschmie.de/glossar/brand-mentions/) in Verbindung mit dem Fachthema stoßen.
 
 ## Die 5-Schritte-Strategie für KI-Citations
 
@@ -5778,17 +5778,17 @@ ALOHA! Jörg
 
 ## Der Wandel im B2B-Entscheidungsprozess
 
-Der B2B-Einkaufsprozess (Buyer's Journey) war schon immer komplexer als im B2C. Wenn ein Unternehmen eine neue ERP-Software sucht, eine Produktionsanlage plant oder eine spezialisierte \u003ca href="/glossar/seo-agentur/"\u003eSEO-Agentur\u003c/a\u003e beauftragen will, wird nicht impulsiv gekauft. Es wird recherchiert, verglichen und evaluiert.
+Der B2B-Einkaufsprozess (Buyer's Journey) war schon immer komplexer als im B2C. Wenn ein Unternehmen eine neue ERP-Software sucht, eine Produktionsanlage plant oder eine spezialisierte [SEO-Agentur](https://teleschmie.de/glossar/seo-agentur/) beauftragen will, wird nicht impulsiv gekauft. Es wird recherchiert, verglichen und evaluiert.
 
 Bis vor kurzem fand diese Recherche primär über klassische Suchmaschinen statt. Man suchte nach "ERP System Mittelstand", klickte sich durch fünf verschiedene Anbieter-Websites, las Whitepaper und erstellte eine Shortlist.
 
 Heute beginnt dieser Prozess immer häufiger mit einem komplexen Prompt in einer Answer Engine: *"Vergleiche die drei besten ERP-Systeme für ein deutsches mittelständisches Fertigungsunternehmen mit 500 Mitarbeitern unter Berücksichtigung von DSGVO-Konformität und SAP-Schnittstellen."*
 
-Die KI liefert eine sofortige, aggregierte Antwort. Wenn dein B2B-Unternehmen in dieser Antwort nicht als Top-Anbieter genannt wird, stehst du nicht auf der Shortlist. Deine klassische \u003ca href="/glossar/sichtbarkeit/"\u003eSichtbarkeit\u003c/a\u003e auf Google ist in diesem Moment wertlos.
+Die KI liefert eine sofortige, aggregierte Antwort. Wenn dein B2B-Unternehmen in dieser Antwort nicht als Top-Anbieter genannt wird, stehst du nicht auf der Shortlist. Deine klassische [Sichtbarkeit](https://teleschmie.de/glossar/sichtbarkeit/) auf Google ist in diesem Moment wertlos.
 
 ## Die Säulen der KI-Sichtbarkeit im B2B
 
-Die Optimierung für Sprachmodelle, oft als AEO (Answer Engine Optimization) oder \u003ca href="/glossar/llmo/"\u003eLLMO\u003c/a\u003e bezeichnet, unterscheidet sich stark von der klassischen Suchmaschinenoptimierung. KIs ranken keine Webseiten, sie synthetisieren Wissen.
+Die Optimierung für Sprachmodelle, oft als AEO (Answer Engine Optimization) oder [LLMO](https://teleschmie.de/glossar/llmo/) bezeichnet, unterscheidet sich stark von der klassischen Suchmaschinenoptimierung. KIs ranken keine Webseiten, sie synthetisieren Wissen.
 
 Um als B2B-Unternehmen in diese Synthese aufgenommen zu werden, musst du auf drei Ebenen überzeugen:
 
@@ -7474,7 +7474,7 @@ ALOHA! 🌻✌️
 
 Noch vor wenigen Jahren war die Welt der Suchmaschinenoptimierung relativ einfach gestrickt: Du hast einen Text geschrieben, Backlinks aufgebaut und gehofft, dass Google dich auf Seite 1 platziert. Die Messung des Erfolgs erfolgte über klassische Tools, die dir einen aggregierten Sichtbarkeitsindex lieferten. Doch mit dem rasanten Aufstieg von Answer Engines wie **Perplexity AI** hat sich das Konzept der Sichtbarkeit grundlegend verschoben. 
 
-Heute sprechen wir von **Perplexity Sichtbarkeit** (oder im breiteren Kontext von AI SEO). Hier geht es nicht mehr darum, wer in einer Liste von zehn blauen Links ganz oben steht. Es geht darum, wer als vertrauenswürdige **Quelle (Citation)** herangezogen wird, um die Antwort einer Künstlichen Intelligenz zu untermauern. Wenn dein Unternehmen im B2B-Umfeld tätig ist und potenzielle Kunden Perplexity für ihre Marktrecherche nutzen, ist es existenziell wichtig, in genau diesen generierten Antworten aufzutauchen.
+Heute sprechen wir von **Perplexity Sichtbarkeit** (oder im breiteren Kontext von [AI SEO](https://teleschmie.de/glossar/ai-seo/)). Hier geht es nicht mehr darum, wer in einer Liste von zehn blauen Links ganz oben steht. Es geht darum, wer als vertrauenswürdige **Quelle (Citation)** herangezogen wird, um die Antwort einer Künstlichen Intelligenz zu untermauern. Wenn dein Unternehmen im B2B-Umfeld tätig ist und potenzielle Kunden Perplexity für ihre Marktrecherche nutzen, ist es existenziell wichtig, in genau diesen generierten Antworten aufzutauchen.
 
 ## Was genau ist Perplexity Sichtbarkeit?
 
@@ -7484,7 +7484,7 @@ Wenn ein Nutzer fragt: *"Welches sind die besten SEO-Agenturen für technische A
 
 ### Citations vs. Rankings
 
-Um LLMO (Large Language Model Optimization) wirklich zu verstehen, müssen wir uns von der Idee der Positionen verabschieden. Bei Google war Position 1 das ultimative Ziel. Bei Perplexity gibt es keine Position 1. Es gibt nur: **Bist du Teil der Antwort oder nicht?**
+Um [LLMO (Large Language Model Optimization)](https://teleschmie.de/glossar/llmo/) wirklich zu verstehen, müssen wir uns von der Idee der Positionen verabschieden. Bei Google war Position 1 das ultimative Ziel. Bei Perplexity gibt es keine Position 1. Es gibt nur: **Bist du Teil der Antwort oder nicht?**
 
 - **Google-Ranking:** Relativ statisch, basiert auf Indexierung, Backlinks und Pagerank. Der User muss selbst entscheiden, welchen Link er klickt.
 - **Perplexity-Citation:** Hochdynamisch, kontextgetrieben. Die KI synthetisiert Fakten aus mehreren Quellen und nutzt deine Website als Beweisstück für ihre Behauptung.
@@ -7497,7 +7497,7 @@ Da es keine offizielle "Perplexity Search Console" gibt, in der du dich einfach 
 
 Klassische SEO-Tools stoßen bei der Abfrage von KI-Modellen an ihre Grenzen, da sie für das Crawlen von Google SERPs (Search Engine Result Pages) gebaut wurden. Wenn du systematisch verfolgen willst, wie oft Perplexity deine Marke empfiehlt, brauchst du dedizierte Software. 
 
-Hier kommen moderne SEO Visibility Tools ins Spiel, die speziell für generative Engines entwickelt wurden. 
+Hier kommen moderne [SEO Visibility Tools](https://teleschmie.de/glossar/seo-visibility-tools/) ins Spiel, die speziell für generative Engines entwickelt wurden. 
 
 Ein Vorreiter in diesem Bereich ist beispielsweise **[Rankscale](https://rankscale.ai/?via=offer)**. Dieses Tool erlaubt es dir, Hunderte von Prompts zu definieren und regelmäßig zu prüfen, ob deine Domain in den Ausgaben von Modellen wie Perplexity, Claude oder ChatGPT als Quelle genannt wird. Es liefert dir konkrete Metriken zum sogenannten "Share of Voice" in der KI.
 

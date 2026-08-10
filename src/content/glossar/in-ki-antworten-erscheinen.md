@@ -24,7 +24,7 @@ faqs:
 
 Für über 20 Jahre war die Formel des digitalen Marketings simpel: Optimiere für Keywords, baue Backlinks auf, ranke auf Position 1 bei Google und sammle Klicks ein. Wer auf Seite 2 stand, war unsichtbar. 
 
-Doch die rasante Entwicklung von Answer Engines (wie Perplexity, ChatGPT Search und Google AI Overviews) hat die \u003ca href="/glossar/seo/"\u003eklassische Suchmaschinenoptimierung (SEO)\u003c/a\u003e grundlegend verändert. Nutzer wollen sich nicht mehr durch zehn blaue Links klicken. Sie wollen sofortige, fertig verarbeitete Antworten. 
+Doch die rasante Entwicklung von Answer Engines (wie Perplexity, ChatGPT Search und Google AI Overviews) hat die [klassische Suchmaschinenoptimierung (SEO)](/glossar/seo/) grundlegend verändert. Nutzer wollen sich nicht mehr durch zehn blaue Links klicken. Sie wollen sofortige, fertig verarbeitete Antworten. 
 
 Das neue Ziel lautet: **In KI Antworten erscheinen**. 
 
@@ -44,8 +44,8 @@ Dazu gehört:
 - **Micro-Formatting:** Nutze Aufzählungszeichen, saubere H2- und H3-Tags und einfache Tabellen, um Datenpunkte isolierbar zu machen.
 
 ### 3. GEO (Generative Engine Optimization) – Die Autorität
-\u003ca href="/glossar/geo-optimierung/"\u003eGEO\u003c/a\u003e ist die Königsdisziplin. Während AEO sich auf einfache Faktenabfragen konzentriert, geht es bei GEO um komplexe, mehrschichtige Prompts ("Vergleiche Tool A mit Tool B unter Berücksichtigung von Kosten und Skalierbarkeit"). 
-Hier musst du als unangefochtener Experte für eine bestimmte Nische (Topical Authority) auftreten. Die KI muss in ihren Trainingsdaten und in Echtzeit-Suchen immer wieder auf deine \u003ca href="/glossar/brand-mentions/"\u003eBrand Mentions\u003c/a\u003e in Verbindung mit dem Fachthema stoßen.
+[GEO](/glossar/geo-optimierung/) ist die Königsdisziplin. Während AEO sich auf einfache Faktenabfragen konzentriert, geht es bei GEO um komplexe, mehrschichtige Prompts ("Vergleiche Tool A mit Tool B unter Berücksichtigung von Kosten und Skalierbarkeit"). 
+Hier musst du als unangefochtener Experte für eine bestimmte Nische (Topical Authority) auftreten. Die KI muss in ihren Trainingsdaten und in Echtzeit-Suchen immer wieder auf deine [Brand Mentions](/glossar/brand-mentions/) in Verbindung mit dem Fachthema stoßen.
 
 ## Die 5-Schritte-Strategie für KI-Citations
 
@@ -77,7 +77,7 @@ Der Kampf um Traffic wandelt sich zum Kampf um Zitationen. In KI Antworten zu er
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-berlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+  <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

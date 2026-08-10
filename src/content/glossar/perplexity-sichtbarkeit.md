@@ -24,7 +24,7 @@ faqs:
 
 Noch vor wenigen Jahren war die Welt der Suchmaschinenoptimierung relativ einfach gestrickt: Du hast einen Text geschrieben, Backlinks aufgebaut und gehofft, dass Google dich auf Seite 1 platziert. Die Messung des Erfolgs erfolgte über klassische Tools, die dir einen aggregierten Sichtbarkeitsindex lieferten. Doch mit dem rasanten Aufstieg von Answer Engines wie **Perplexity AI** hat sich das Konzept der Sichtbarkeit grundlegend verschoben. 
 
-Heute sprechen wir von **Perplexity Sichtbarkeit** (oder im breiteren Kontext von <a href="/glossar/ai-seo/">AI SEO</a>). Hier geht es nicht mehr darum, wer in einer Liste von zehn blauen Links ganz oben steht. Es geht darum, wer als vertrauenswürdige **Quelle (Citation)** herangezogen wird, um die Antwort einer Künstlichen Intelligenz zu untermauern. Wenn dein Unternehmen im B2B-Umfeld tätig ist und potenzielle Kunden Perplexity für ihre Marktrecherche nutzen, ist es existenziell wichtig, in genau diesen generierten Antworten aufzutauchen.
+Heute sprechen wir von **Perplexity Sichtbarkeit** (oder im breiteren Kontext von [AI SEO](/glossar/ai-seo/)). Hier geht es nicht mehr darum, wer in einer Liste von zehn blauen Links ganz oben steht. Es geht darum, wer als vertrauenswürdige **Quelle (Citation)** herangezogen wird, um die Antwort einer Künstlichen Intelligenz zu untermauern. Wenn dein Unternehmen im B2B-Umfeld tätig ist und potenzielle Kunden Perplexity für ihre Marktrecherche nutzen, ist es existenziell wichtig, in genau diesen generierten Antworten aufzutauchen.
 
 ## Was genau ist Perplexity Sichtbarkeit?
 
@@ -34,7 +34,7 @@ Wenn ein Nutzer fragt: *"Welches sind die besten SEO-Agenturen für technische A
 
 ### Citations vs. Rankings
 
-Um <a href="/glossar/llmo/">LLMO (Large Language Model Optimization)</a> wirklich zu verstehen, müssen wir uns von der Idee der Positionen verabschieden. Bei Google war Position 1 das ultimative Ziel. Bei Perplexity gibt es keine Position 1. Es gibt nur: **Bist du Teil der Antwort oder nicht?**
+Um [LLMO (Large Language Model Optimization)](/glossar/llmo/) wirklich zu verstehen, müssen wir uns von der Idee der Positionen verabschieden. Bei Google war Position 1 das ultimative Ziel. Bei Perplexity gibt es keine Position 1. Es gibt nur: **Bist du Teil der Antwort oder nicht?**
 
 - **Google-Ranking:** Relativ statisch, basiert auf Indexierung, Backlinks und Pagerank. Der User muss selbst entscheiden, welchen Link er klickt.
 - **Perplexity-Citation:** Hochdynamisch, kontextgetrieben. Die KI synthetisiert Fakten aus mehreren Quellen und nutzt deine Website als Beweisstück für ihre Behauptung.
@@ -47,7 +47,7 @@ Da es keine offizielle "Perplexity Search Console" gibt, in der du dich einfach 
 
 Klassische SEO-Tools stoßen bei der Abfrage von KI-Modellen an ihre Grenzen, da sie für das Crawlen von Google SERPs (Search Engine Result Pages) gebaut wurden. Wenn du systematisch verfolgen willst, wie oft Perplexity deine Marke empfiehlt, brauchst du dedizierte Software. 
 
-Hier kommen moderne <a href="/glossar/seo-visibility-tools/">SEO Visibility Tools</a> ins Spiel, die speziell für generative Engines entwickelt wurden. 
+Hier kommen moderne [SEO Visibility Tools](/glossar/seo-visibility-tools/) ins Spiel, die speziell für generative Engines entwickelt wurden. 
 
 Ein Vorreiter in diesem Bereich ist beispielsweise **[Rankscale](https://rankscale.ai/?via=offer)**. Dieses Tool erlaubt es dir, Hunderte von Prompts zu definieren und regelmäßig zu prüfen, ob deine Domain in den Ausgaben von Modellen wie Perplexity, Claude oder ChatGPT als Quelle genannt wird. Es liefert dir konkrete Metriken zum sogenannten "Share of Voice" in der KI.
 
@@ -82,7 +82,7 @@ Die Jagd nach der Perplexity Sichtbarkeit erfordert Geduld. Es ist ein fortlaufe
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-berlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+  <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

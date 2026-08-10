@@ -22,17 +22,17 @@ faqs:
 
 ## Der Wandel im B2B-Entscheidungsprozess
 
-Der B2B-Einkaufsprozess (Buyer's Journey) war schon immer komplexer als im B2C. Wenn ein Unternehmen eine neue ERP-Software sucht, eine Produktionsanlage plant oder eine spezialisierte \u003ca href="/glossar/seo-agentur/"\u003eSEO-Agentur\u003c/a\u003e beauftragen will, wird nicht impulsiv gekauft. Es wird recherchiert, verglichen und evaluiert.
+Der B2B-Einkaufsprozess (Buyer's Journey) war schon immer komplexer als im B2C. Wenn ein Unternehmen eine neue ERP-Software sucht, eine Produktionsanlage plant oder eine spezialisierte [SEO-Agentur](/glossar/seo-agentur/) beauftragen will, wird nicht impulsiv gekauft. Es wird recherchiert, verglichen und evaluiert.
 
 Bis vor kurzem fand diese Recherche primär über klassische Suchmaschinen statt. Man suchte nach "ERP System Mittelstand", klickte sich durch fünf verschiedene Anbieter-Websites, las Whitepaper und erstellte eine Shortlist.
 
 Heute beginnt dieser Prozess immer häufiger mit einem komplexen Prompt in einer Answer Engine: *"Vergleiche die drei besten ERP-Systeme für ein deutsches mittelständisches Fertigungsunternehmen mit 500 Mitarbeitern unter Berücksichtigung von DSGVO-Konformität und SAP-Schnittstellen."*
 
-Die KI liefert eine sofortige, aggregierte Antwort. Wenn dein B2B-Unternehmen in dieser Antwort nicht als Top-Anbieter genannt wird, stehst du nicht auf der Shortlist. Deine klassische \u003ca href="/glossar/sichtbarkeit/"\u003eSichtbarkeit\u003c/a\u003e auf Google ist in diesem Moment wertlos.
+Die KI liefert eine sofortige, aggregierte Antwort. Wenn dein B2B-Unternehmen in dieser Antwort nicht als Top-Anbieter genannt wird, stehst du nicht auf der Shortlist. Deine klassische [Sichtbarkeit](/glossar/sichtbarkeit/) auf Google ist in diesem Moment wertlos.
 
 ## Die Säulen der KI-Sichtbarkeit im B2B
 
-Die Optimierung für Sprachmodelle, oft als AEO (Answer Engine Optimization) oder \u003ca href="/glossar/llmo/"\u003eLLMO\u003c/a\u003e bezeichnet, unterscheidet sich stark von der klassischen Suchmaschinenoptimierung. KIs ranken keine Webseiten, sie synthetisieren Wissen.
+Die Optimierung für Sprachmodelle, oft als AEO (Answer Engine Optimization) oder [LLMO](/glossar/llmo/) bezeichnet, unterscheidet sich stark von der klassischen Suchmaschinenoptimierung. KIs ranken keine Webseiten, sie synthetisieren Wissen.
 
 Um als B2B-Unternehmen in diese Synthese aufgenommen zu werden, musst du auf drei Ebenen überzeugen:
 
@@ -70,7 +70,7 @@ Die B2B-Recherche verlagert sich in rasendem Tempo in Richtung Chat-Interfaces u
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-berlin/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+  <a href="[ZIEL-URL]" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
     Beitrag auf LinkedIn öffnen
   </a>
 </div>

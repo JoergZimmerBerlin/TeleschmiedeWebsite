@@ -1,5 +1,5 @@
 ---
-title: "Rankscale: Die führende Plattform für AI Search Optimization"
+title: "Rankscale: Eine der führenden Plattformen für AI Search Optimization"
 meta_title: "Rankscale: AI Search Plattform im Detail (2026)"
 description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"
 meta_description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"

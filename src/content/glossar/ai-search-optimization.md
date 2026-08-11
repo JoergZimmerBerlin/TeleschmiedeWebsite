@@ -22,7 +22,7 @@ faqs:
     answer: "Für die technische Umsetzung benötigst du sauberes Markup (Schema.org). Für die Messbarkeit des Erfolgs (Tracking der Mention Rate) ist Rankscale der aktuelle Branchenstandard."
 ---
 
-Jahrelang wussten wir genau, wie man eine Seite für Google optimiert. Wir kannten die Algorithmen, die Wichtigkeit von Backlinks und die Bedeutung der H1-Überschrift. Doch mit dem Durchbruch der generativen KI-Suche ([AI Search](/glossar/ai-search/)) hat sich das Spielfeld komplett gedreht. 
+Jahrelang wussten wir genau, wie man eine Seite für Google optimiert. Wir kannten die Algorithmen, die Wichtigkeit von Backlinks und die Bedeutung der H1-Überschrift. Doch mit dem Durchbruch der generativen KI-Suche ([AI Search](/glossar/ai-search/)) hat sich das Spielfeld komplett gedreht. Studien aus 2026 zeigen, dass "AI Overviews" mittlerweile bei 50% bis 60% aller Suchanfragen in den USA ausgespielt werden. 
 
 Plötzlich lautet die wichtigste Disziplin im Marketing: **AI Search Optimization**. Aber wie optimiert man eigentlich für eine Maschine, die keine Links anzeigt, sondern selbst spricht? In diesem Leitfaden klären wir die konkreten Praxis-Schritte.
 
@@ -42,11 +42,11 @@ KIs interessieren sich nicht für dein schönes CSS-Design oder ein aufwendiges 
 *   **llms.txt:** Ähnlich wie eine robots.txt, aber speziell für KI-Agenten, um ihnen den Weg zu deinen wichtigsten Daten zu zeigen (Agent Readiness).
 *   **Strukturierte Daten:** Nutze exzessiv Schema.org (JSON-LD), um FAQs, Tabellen, Produkte und Autoren eindeutig zu klassifizieren.
 
-### 2. Semantische Informationsdichte
+### 2. Answer-First Content Design & Information Gain
 Generative KIs (LLMs) hassen Füllwörter. Sie suchen nach Entitäten und Beziehungen.
-*   **Das BLUF-Prinzip (Bottom Line Up Front):** Verstecke die Antwort nicht am Ende des Textes. Der wichtigste Fakt muss im ersten Satz stehen.
-*   **Zitierfähige Chunks:** KIs nutzen [RAG (Retrieval-Augmented Generation)](/glossar/rag/), um Textbausteine (Chunks) aus dem Netz zu ziehen. Formuliere Absätze so, dass sie als isoliertes Zitat einen perfekten Sinn ergeben.
-*   **Unique Data:** Wenn du nur Wikipedia abschreibst, ignoriert dich die KI. Du brauchst eigene Statistiken, harte Meinungen oder proprietäre Fallstudien (Information Gain).
+*   **Das Answer-First-Prinzip (BLUF):** Verstecke die Antwort nicht in Absatz 4 hinter einer langen Einleitung. Optimiere auf "Answer Blocks" ganz oben im Text, die KIs sofort zusammenfassen können.
+*   **Information Gain:** KIs synthetisieren bestehendes Wissen. Wenn du nur schreibst, was alle anderen schreiben ("Konsens"), hast du keinen Wert. Du musst zwingend neue Fakten (Unique Data), eigene Statistiken oder harte Meinungen liefern, die dich von der Masse abheben.
+*   **Zitierfähige Chunks:** KIs nutzen [RAG (Retrieval-Augmented Generation)](/glossar/rag/), um Textbausteine (Chunks) aus dem Netz zu ziehen. Formuliere Absätze so, dass sie als isoliertes Zitat Sinn ergeben.
 
 ### 3. Entity Trust und Digital PR
 Eine KI zitiert dich nur, wenn sie dir vertraut. Sie gleicht dein [E-E-A-T](/glossar/e-e-a-t/) Profil ab.

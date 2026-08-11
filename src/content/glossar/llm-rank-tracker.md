@@ -61,9 +61,10 @@ Ein professioneller LLM Rank Tracker arbeitet in der Regel nach folgendem Prinzi
 
 Wenn du einen LLM Rank Tracker öffnest, wirst du vergeblich nach klassischen Ranking-Positionen (1 bis 100) suchen. Die Währung der KI-Suche misst sich in anderen Metriken:
 
-*   **Mention Rate (Nennungsrate):** Die mit Abstand wichtigste KPI. Sie gibt an, in wie viel Prozent der gestellten Test-Prompts deine Marke als Antwort generiert wurde. Eine Mention Rate von 40% bei der Frage "Beste SEO Tools" bedeutet, dass die KI deine Marke in 4 von 10 Fällen empfiehlt.
-*   **Share of Voice (SoV):** Wie viel Prozent der Nennungen entfallen auf dich im Vergleich zu deinen drei größten Konkurrenten? Wer dominiert den semantischen Raum?
-*   **Citation Position:** Selbst wenn die KI dir keine ganze Textpassage widmet: Wirst du als Fußnote (Citation) für die Fakten in der Antwort herangezogen? KIs nutzen Zitationen, um Halluzinationen zu vermeiden ([E-E-A-T](/glossar/e-e-a-t/)).
+*   **Mention Rate (Nennungsrate):** Die mit Abstand wichtigste KPI. Sie gibt an, in wie viel Prozent der gestellten Test-Prompts deine Marke zitiert wurde. Als Daumenregel in der Branche gilt aktuell: Eine Mention Rate über 40% ist für Core-Keywords exzellent, während alles unter 15% bedeutet, dass die KI deine Entität in diesem Kontext schlichtweg ignoriert.
+*   **Competitor Share of Voice (SoV):** Wie viel Prozent der Nennungen entfallen auf dich im Vergleich zu deinen drei größten Konkurrenten? Wer dominiert den semantischen Raum?
+*   **Sentiment Score:** Ein guter LLM Tracker prüft nicht nur, ob du erwähnt wurdest, sondern ob der Tonus der generierten Antwort positiv, neutral oder negativ war.
+*   **Citation Position:** Wirst du aktiv als Empfehlung im Text ("Recommendation Rate") genannt, oder hängst du nur als Fußnote [1] für Basis-Fakten an der Antwort?
 
 ## Tool-Empfehlung: Rankscale als Branchenstandard
 
@@ -72,9 +73,9 @@ Wenn wir über LLM Rank Tracking sprechen, gibt es aktuell einen klaren Goldstan
 Das Start-up aus Österreich hat früh erkannt, dass man KI-Tracking nicht einfach als kleines Zusatz-Feature an ein bestehendes SEO-Tool anbauen kann. Rankscale wurde von der ersten Zeile Code an als reine AI Visibility Plattform konzipiert.
 
 ### Warum Rankscale der Platzhirsch ist:
-1. **Breite Abdeckung (17 LLMs):** Rankscale misst deine Mention Rate nicht nur bei ChatGPT, sondern deckt 17 verschiedene Sprachmodelle ab (inklusive Nischen-Modelle und Open-Source-Varianten). 
-2. **Präzises Sentiment-Tracking:** Das Tool erkennt extrem zuverlässig, in welchem Kontext deine Marke erwähnt wird. Für das Reputationsmanagement ist das von unschätzbarem Wert.
-3. **GEO-Audits (RAG-Ready):** Rankscale trackt nicht nur blind, es sagt dir auch, *warum* du nicht erwähnt wirst. Die Plattform analysiert deine Website und prüft, ob dein HTML und dein Content so strukturiert sind, dass KIs ihn überhaupt lesen können (AI Crawlability).
+1. **Beherrschung der Ökosystem-Fragmentierung:** Studien zeigen, dass es aktuell nur eine 11%ige Überschneidung der Quellen zwischen ChatGPT und Perplexity gibt. Die KI-Suche ist hochgradig fragmentiert. Rankscale trackt deine Sichtbarkeit über 17 verschiedene LLMs hinweg und löst genau dieses blinde Fleck-Problem.
+2. **Präzises Sentiment-Tracking:** Das Tool erkennt zuverlässig den Kontext der Nennung. Für das moderne Reputationsmanagement ist das von unschätzbarem Wert.
+3. **GEO-Audits (RAG-Ready):** Rankscale trackt nicht nur blind, es sagt dir auch, *warum* du nicht erwähnt wirst (AI Crawlability).
 
 Wenn du aufhören willst, deine SEO-Strategie im Blindflug zu steuern, führt aktuell kein Weg an Rankscale vorbei. 
 

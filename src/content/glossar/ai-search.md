@@ -17,7 +17,7 @@ faqs:
   - question: "Was ist der Unterschied zwischen AI Search und klassischer Suche?"
     answer: "Klassische Suchmaschinen liefern eine Liste von blauen Links (SERPs), durch die sich der Nutzer selbst klicken muss, um die Antwort zu finden. AI Search-Systeme wie Perplexity oder ChatGPT generieren stattdessen eine direkte, ausformuliere Antwort und fügen die Webseiten, aus denen sie die Informationen bezogen haben, lediglich als kleine Fußnoten oder Zitate (Citations) an."
   - question: "Warum sinkt der Traffic durch AI Search?"
-    answer: "Da die KI-Modelle die Fragen der Nutzer bereits vollständig auf der Ergebnisseite beantworten (sogenannte Zero-Click-Search), entfällt für den Nutzer in vielen Fällen die Notwendigkeit, überhaupt noch auf eine externe Webseite zu klicken. Der verbleibende Traffic wird seltener, ist dafür aber oft tiefer im Funnel und qualifizierter."
+    answer: "Seit Systeme wie ChatGPT, Perplexity, Claude und insbesondere die *Google AI Overviews* den Massenmarkt dominieren, wollen Nutzer keine Linklisten mehr. Sie wollen direkte Antworten. Sofort. Synthetisiert. Die harten Zahlen bestätigen diesen Shift: Rund 37% der Konsumenten starten ihre Suchen mittlerweile direkt in AI-Tools, statt klassische Suchmaschinen aufzurufen. Im Zuge dessen haben Zero-Click-Searches einen globalen Anteil von 68% erreicht – im spezifischen 'AI Mode' von Google enden sogar 93% der Suchen ohne Klick. Für Publisher bedeutet das oft organische Traffic-Einbrüche von über 50%. Gleichzeitig ist der direkte Referral-Traffic aus AI-Systemen um 527% explodiert."
   - question: "Wie optimiere ich meine Website für AI Search?"
     answer: "Die proaktive Optimierung für KI-Systeme nennt man Generative Engine Optimization (GEO). Wichtig sind hierbei eine extrem klare semantische Struktur, technische Perfektion (damit KI-Crawler die Seite mühelos auslesen können), starke Markenautorität (E-E-A-T) und das Liefern von echtem Expertenwissen statt generischer Floskeln."
 ---
@@ -38,7 +38,14 @@ Die Verschiebung ist subtil, aber für Website-Betreiber gewaltig: Der Nutzer mu
 
 Um zu verstehen, wie man für AI Search optimiert, muss man die grundlegende Mechanik dieser Systeme kennen. Die meisten modernen KI-Suchmaschinen basieren auf einem Architektur-Prinzip namens **RAG (Retrieval-Augmented Generation)**.
 
-Dieses System schließt die Lücke zwischen dem statischen Wissen eines KI-Modells (das irgendwann in der Vergangenheit trainiert wurde) und der Notwendigkeit für hochaktuelle, faktenbasierte Live-Informationen aus dem Internet. Der Prozess läuft in drei Phasen ab:
+Dieses System schließt die 
+
+### 2. Markdown Content Negotiation
+Wenn die KI sich entscheidet, eine deiner Seiten zu crawlen (weil sie durch die `llms.txt` darauf aufmerksam wurde), erwartet sie maximale Token-Effizienz. GEO-Profis nutzen heute **Markdown Content Negotiation**. 
+
+Das bedeutet: Wenn ein menschlicher Browser deine Seite aufruft, bekommt er CSS, Bilder und JavaScript. Wenn der GPTBot oder ein Perplexity-Agent deine Seite aufruft (erkennbar am Header `Accept: text/markdown`), liefert dein Server sofort reines Markdown aus. Kein Menü, kein Footer. Nur die pure Information. Diese Effizienz ist ein zentraler Rankingfaktor, da sie die Latenz und Kosten für die LLMs drastisch senkt.
+
+Lücke zwischen dem statischen Wissen eines KI-Modells (das irgendwann in der Vergangenheit trainiert wurde) und der Notwendigkeit für hochaktuelle, faktenbasierte Live-Informationen aus dem Internet. Der Prozess läuft in drei Phasen ab:
 
 1. **Retrieval (Abruf):** Wenn ein Nutzer eine Frage stellt, das System im Hintergrund traditionelle Suchabfragen an einen Suchindex (wie Google oder Bing). Es holt sich blitzschnell die aktuellsten und relevantesten Snippets und Webseiten-Inhalte aus dem Netz.
 2. **Augmentation (Anreicherung):** Diese abgerufenen Roh-Fakten (der "Kontext") werden nun mit der ursprünglichen Frage des Nutzers kombiniert. Das KI-Modell bekommt quasi den Befehl: "Beantworte die Frage des Nutzers, aber nutze dafür *ausschließlich* die Fakten, die ich dir gerade aus dem Web geholt habe." (Diesen Vorgang nennt man auch Grounding).

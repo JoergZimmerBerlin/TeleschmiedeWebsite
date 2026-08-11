@@ -38,9 +38,9 @@ Um die Tragweite von KI SEO zu verstehen, müssen wir uns ansehen, wie sich die 
 
 Hier ist der direkte Vergleich der beiden Welten:
 
-### 1. Das Primärziel: Klicks vs. Erwähnungen (Zitate)
+### 1. Das Primärziel: Klicks vs. "Share of Model"
 *   **Traditionell:** Du wolltest auf Position 1 stehen, damit der Nutzer deine Website klickt und dort Traffic erzeugt.
-*   **KI SEO:** Die Maschine beantwortet die Frage des Nutzers direkt. Dein Ziel ist es nicht primär, dass der Nutzer klickt, sondern dass die KI deine Marke als **Quelle (Citation)** für ihre Antwort nutzt. Der Fokus verschiebt sich von "Click-Through-Rate" auf "Mention Rate".
+*   **KI SEO:** Dein Ziel ist es nicht primär, dass der Nutzer klickt, sondern dass die KI deine Marke als **Quelle (Citation)** nutzt. Der Fokus verschiebt sich von der "Click-Through-Rate" (CTR) auf den **Share of Model** (die Häufigkeit, mit der deine Marke im generierten Text auftaucht).
 
 ### 2. Die Fokus-Metrik: Keywords vs. Entitäten
 *   **Traditionell:** Alles drehte sich um das exakte Suchvolumen von Keywords ("Zahnarzt Berlin Mitte").
@@ -70,8 +70,8 @@ Wie setzt du dieses Wissen nun in der Praxis um?
 ### 1. Schreibe für die Antwort, nicht für den Klick
 Formuliere präzise, faktenbasierte Absätze, die sich perfekt als Zitat eignen. Vermeide lange Marketing-Einleitungen. Wenn du eine Frage in einem Blog-Artikel beantwortest, tue das direkt im ersten Satz nach der Überschrift.
 
-### 2. Werde eine unübersehbare Entität
-Baue Digital PR auf. Sorge dafür, dass deine Marke in Foren (wie Reddit), Fachmagazinen und auf Bewertungsportalen positiv besprochen wird. KI-Modelle durchsuchen diese nutzergenerierten Plattformen extrem intensiv nach "echten" Meinungen.
+### 2. Werde eine unübersehbare Entität (Earned Media)
+Baue Digital PR auf. Neue Daten aus 2026 beweisen: **84% aller KI-Zitationen stammen aus Earned Media**, nicht von den eigenen Unternehmens-Websites. Sorge dafür, dass deine Marke in Foren, Fachmagazinen und auf Bewertungsportalen positiv besprochen wird. KI-Modelle durchsuchen diese Drittquellen extrem intensiv nach "echten" Entitäts-Beweisen, um ihre eigenen Halluzinationen zu minimieren.
 
 ### 3. Mach deine Erfahrungen sichtbar
 KI kann Fakten generieren, aber keine Erfahrungen machen. Sätze wie *"In unseren Tests haben wir festgestellt..."* oder *"Nach der Analyse von 100 Kundenprojekten zeigt sich..."* sind Gold wert. Sie signalisieren dem LLM, dass hier originäres Wissen vorliegt, das es unbedingt als Quelle heranziehen sollte.

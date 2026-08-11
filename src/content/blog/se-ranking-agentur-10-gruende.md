@@ -6,7 +6,7 @@ meta_description: "SE Ranking: Optimiere Agentur-Workflows. Nutze starke Funktio
 category: "Tech SEO & Tools"
 date: "2026-07-31"
 author: "Jörg Zimmer"
-image: "../../assets/images/blog/linkedin-10-gruende.webp"
+image: "../../assets/images/blog/se_ranking_agentur_infografik_3d.jpg"
 image_alt: "10 Gründe für den Einsatz von SE Ranking in einer SEO-Agentur"
 tags: ["SEO Tools", "Agentur", "SE Ranking", "KI-Sichtbarkeit", "Local SEO"]
 key_takeaways:

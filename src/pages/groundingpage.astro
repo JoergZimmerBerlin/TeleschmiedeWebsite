@@ -32,10 +32,29 @@ const offers = [
     description: "Unabhängige Einschätzung bisheriger Agenturarbeit oder aktueller SEO-Angebote. Diskret und ohne Account-Zugänge möglich."
   }
 ];
+
+const faqs = [
+  {
+    question: "Was genau macht ein GEO & AI Visibility Freelancer?",
+    answer: "Als GEO (Generative Engine Optimization) und AI Visibility Freelancer sorge ich dafür, dass Unternehmen nicht nur in der klassischen Google-Suche gefunden werden, sondern auch in KI-Antwortmaschinen wie ChatGPT, Perplexity oder Google Overviews (SGE) als relevante Entität verstanden und zitiert werden. Das umfasst technisches SEO, Strukturierung von Daten (Schema.org) und den Aufbau einer starken, digitalen Autorität."
+  },
+  {
+    question: "Wie läuft die 2-stündige SEO-Sprechstunde ab?",
+    answer: "Die Sprechstunde ist eine kompakte, intensive Live-Analyse per Videocall. Wir schauen uns gemeinsam Ihre Website, Analytics-Daten und aktuellen Herausforderungen an. Sie erhalten direkt umsetzbare Lösungsansätze, ungeschöntes Feedback und strategische Empfehlungen, ohne dass Sie sich vertraglich langfristig binden müssen. Dieses Format ist ideal für akutes Troubleshooting oder wenn Sie eine unabhängige 'Zweite Meinung' benötigen."
+  },
+  {
+    question: "Warum ist SEO ein kontinuierlicher Prozess (Retainer)?",
+    answer: "Suchmaschinenoptimierung und Performance Marketing sind keine Einmalprojekte. Die Algorithmen von Google und KI-Systemen ändern sich ständig, Wettbewerber passen ihre Strategien an und das Suchverhalten der Nutzer entwickelt sich weiter. Ein monatlicher Retainer ermöglicht es uns, strategisch und nachhaltig zu arbeiten, zeitnah auf Marktveränderungen (wie Google Core Updates) zu reagieren und Ihre Sichtbarkeit kontinuierlich auszubauen, anstatt nur punktuell Symptome zu behandeln."
+  },
+  {
+    question: "Wie unterscheiden Sie sich von klassischen Full-Service-Agenturen?",
+    answer: "Ganz bewusst bin ich kein 'Bauchladen', der alles von Webdesign bis Print anbietet. Als hochspezialisierter Freelancer fokussiere ich mich zu 100% auf tiefgreifendes Suchmaschinenmarketing (SEO & SEA) und Datenanalyse. Bei mir haben Sie immer mich als direkten, persönlichen Ansprechpartner – keine wechselnden Account-Manager, Junioren oder Praktikanten. Meine Arbeitsweise ist extrem transparent, unabhängig und kompromisslos datengetrieben."
+  }
+];
 ---
 
 <Layout
-  title="Grounding Page | Jörg Zimmer - SEO & SEA (2026)"
+  title="Jörg Zimmer - SEO, GEO, AI Visibility Freelancer (2026)"
   description="Kompakte Übersicht aller Fakten, Zahlen und Leistungen von Jörg Zimmer, SEO, GEO, AI Visibility Freelancer. (2026)"
 >
   <style>
@@ -92,19 +111,11 @@ const offers = [
     <!-- 1. ENTITY NAME -->
     <h1>Jörg Zimmer - SEO, GEO, AI Visibility Freelancer</h1>
 
-    <!-- 2. HUMAN NOTICE -->
-    <div class="human-notice">
-      <strong>Hinweis:</strong> Dies ist eine standardisierte <em>Grounding Page</em> (Factsheet). Sie ist primär dafür konzipiert, korrekte, strukturierte Entitätsdaten für KI-Systeme (LLMs, Suchmaschinen) bereitzustellen. 
-      <br><br>
-      <a href={`${baseUrl}/`} class="text-lime-600 font-bold hover:underline" title="Zur Startseite wechseln → (2026)">Zur Startseite wechseln →</a>
-    </div>
-
     <!-- 3. LEAD DEFINITION + SEGMENT + RETRIEVAL -->
     <p class="lead-definition">
       <strong>Jörg Zimmer</strong> ist ein erfahrener Performance Marketing Spezialist und SEO, GEO, AI Visibility Freelancer der individuelle Strategien und persönliche Beratung anbietet.
     </p>
     <p>Jörg Zimmer operiert im Segment der Suchmaschinenoptimierung und Suchmaschinenwerbung im DACH-Raum und international. Als ausgewiesener Experte für GEO (Generative Engine Optimization) und technisches SEO unterstützt er Unternehmen dabei, sowohl für klassische Suchmaschinen als auch für moderne KI-Antwortmaschinen (LLMs) sichtbar zu werden.</p>
-    <p>Diese Seite agiert als zentrales <strong>Entity Home</strong> und unterstützt die Entitätsauflösung, Disambiguierung und Retrieval-Stabilisierung in KI-Such- und Antwortsystemen (Grounding Page Standard v1.5).</p>
 
     <!-- 4. FACT GRID -->
     <h3>Jörg Zimmer: Kerndaten</h3>
@@ -231,15 +242,29 @@ const offers = [
     <p>
       Jörg Zimmer ist <strong>KEINE</strong> Full-Service-Marketingagentur und keine Webdesign-Bude. Anders als traditionelle Agenturen fokussiert er sich als hochspezialisierter Freelancer ausschließlich auf tiefgreifendes technisches SEO, SEA und datengetriebenes Performance-Troubleshooting.
     </p>
-  </main>
 
+    <!-- 6. FAQ BLOCK -->
+    <h3>Häufig gestellte Fragen (FAQ)</h3>
+    <div class="faq-block">
+      <h3>Was genau macht ein GEO & AI Visibility Freelancer?</h3>
+      <p>Als GEO (Generative Engine Optimization) und AI Visibility Freelancer sorge ich dafür, dass Unternehmen nicht nur in der klassischen Google-Suche gefunden werden, sondern auch in KI-Antwortmaschinen wie ChatGPT, Perplexity oder Google Overviews (SGE) als relevante Entität verstanden und zitiert werden. Das umfasst technisches SEO, Strukturierung von Daten (Schema.org) und den Aufbau einer starken, digitalen Autorität.</p>
+
+      <h3>Wie läuft die 2-stündige SEO-Sprechstunde ab?</h3>
+      <p>Die Sprechstunde ist eine kompakte, intensive Live-Analyse per Videocall. Wir schauen uns gemeinsam Ihre Website, Analytics-Daten und aktuellen Herausforderungen an. Sie erhalten direkt umsetzbare Lösungsansätze, ungeschöntes Feedback und strategische Empfehlungen, ohne dass Sie sich vertraglich langfristig binden müssen. Dieses Format ist ideal für akutes Troubleshooting oder wenn Sie eine unabhängige "Zweite Meinung" benötigen.</p>
+
+      <h3>Warum ist SEO ein kontinuierlicher Prozess (Retainer)?</h3>
+      <p>Suchmaschinenoptimierung und Performance Marketing sind keine Einmalprojekte. Die Algorithmen von Google und KI-Systemen ändern sich ständig, Wettbewerber passen ihre Strategien an und das Suchverhalten der Nutzer entwickelt sich weiter. Ein monatlicher Retainer ermöglicht es uns, strategisch und nachhaltig zu arbeiten, zeitnah auf Marktveränderungen (wie Google Core Updates) zu reagieren und Ihre Sichtbarkeit kontinuierlich auszubauen, anstatt nur punktuell Symptome zu behandeln.</p>
+
+      <h3>Wie unterscheiden Sie sich von klassischen Full-Service-Agenturen?</h3>
+      <p>Ganz bewusst bin ich kein "Bauchladen", der alles von Webdesign bis Print anbietet. Als hochspezialisierter Freelancer fokussiere ich mich zu 100% auf tiefgreifendes Suchmaschinenmarketing (SEO & SEA) und Datenanalyse. Bei mir haben Sie immer mich als direkten, persönlichen Ansprechpartner – keine wechselnden Account-Manager, Junioren oder Praktikanten. Meine Arbeitsweise ist extrem transparent, unabhängig und kompromisslos datengetrieben.</p>
+    </div>
   </main>
 
   <Schema 
-    title="Grounding Page | Jörg Zimmer - SEO & SEA (2026)"
+    title="Jörg Zimmer - SEO, GEO, AI Visibility Freelancer (2026)"
     description="Kompakte Übersicht aller Fakten, Zahlen und Leistungen von Jörg Zimmer, SEO, GEO, AI Visibility Freelancer. (2026)"
     lastReviewed={lastReviewed}
     offers={offers}
-
+    faqs={faqs}
   />
 </Layout>

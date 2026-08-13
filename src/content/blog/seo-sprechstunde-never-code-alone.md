@@ -172,5 +172,30 @@ ALOHA! 🌻✌️
 *Hier kannst du dir den kompletten Mitschnitt der Live-Analyse ansehen. Wenn du noch mehr Insights aus Rolands Perspektive lesen möchtest, schau dir unbedingt seine ausführliche [Zusammenfassung der SEO-Sprechstunde auf dem Never Code Alone Blog](https://blog.nevercodealone.de/seo-sprechstunde-live-was-suchmaschinenoptimierer-joerg-zimmer-ueber-rankings-geo-und-technische-fehler-verraet/) an.*
 
 <div class="video-container my-8">
-  <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/tD7cXuVcRPA" title="SEO Sprechstunde mit Jörg Zimmer & Never Code Alone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div 
+    class="youtube-facade-container relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl bg-gray-900 group cursor-pointer" 
+    data-video-id="tD7cXuVcRPA" 
+    data-title="SEO Sprechstunde mit Jörg Zimmer & Never Code Alone"
+    role="button"
+    tabindex="0"
+    aria-label="Video abspielen: SEO Sprechstunde mit Jörg Zimmer & Never Code Alone"
+  >
+    <img 
+      src="https://i.ytimg.com/vi/tD7cXuVcRPA/maxresdefault.jpg"
+      alt="Vorschau für Video: SEO Sprechstunde mit Jörg Zimmer & Never Code Alone" 
+      title="Video Vorschau: SEO Sprechstunde mit Jörg Zimmer & Never Code Alone"
+      width="1280"
+      height="720"
+      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+      loading="lazy"
+    />
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="w-16 h-16 md:w-20 md:h-20 bg-lime-accent text-dark rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110 z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 md:w-10 md:h-10 ml-1">
+          <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <script src="/js/youtube-facade.js" defer></script>
 </div>

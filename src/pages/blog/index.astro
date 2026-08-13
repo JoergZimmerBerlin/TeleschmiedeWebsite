@@ -151,7 +151,7 @@ const hubs = hubsConfig.map(hub => {
                         width={600}
                         class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                         format="webp"
-                        loading="lazy"
+                        loading={index < 4 ? "eager" : "lazy"}
                       />
                     </div>
                   )}

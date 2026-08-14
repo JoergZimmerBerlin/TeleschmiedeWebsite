@@ -13762,12 +13762,12 @@ Damit du direkt siehst, welches Tool in dein Budget und zu deinen Anforderungen 
 | Platz | Tool | Fokus | Besonderheit | Preis ab (ca.) |
 |:---|:---|:---|:---|:---|
 | **1** | **Rankscale** | Spezialist (LLM Tracking) | Trackt über 17+ LLMs extrem detailliert inkl. Sentiment. | 84 € / Monat |
-| **2** | **SE Ranking** | All-in-One SEO | Kombiniert starkes klassisches SEO mit dediziertem AI-Tracker. | 55 € / Monat |
+| **2** | **SE Ranking** | All-in-One SEO | Kombiniert starkes klassisches SEO mit dediziertem AI-Tracker. | 87 € / Monat |
 | **3** | **Profound** | Enterprise AEO | Unicorn aus NY. Bietet autonome "Profound Agents" für Content. | 99 $ / Monat |
 | **4** | **Finseo** | Bot-Analytics | Starkes deutsches Tool. Fokus auf Bot Traffic & Query Fan-Outs. | 189 € / Monat |
 | **5** | **Sistrix AI** | Enterprise SEO | Integriert "AI Overviews" und "Citations" nahtlos in reguläre Pläne. | 119 € / Monat |
 | **6** | **Otterly AI** | Crawlability | Österreichisches Tool mit extrem starkem AI Crawlability-Audit. | 29 $ / Monat |
-| **7** | **Peec AI** | RAG & Audit | Berliner Lösung, stark in Prompt Monitoring und RAG-Readiness. | 49 € / Monat |
+| **7** | **Peec AI** | RAG & Audit | Berliner Lösung, stark in Prompt Monitoring und RAG-Readiness. | 85 $ / Monat |
 | **8** | **Bing Webmaster** | Basis (Microsoft) | Liefert Basisdaten zur Sichtbarkeit im hauseigenen Copilot. | Kostenlos |
 | **9** | **Google Search Console**| Basis (Google) | Erlaubt Filterung auf Google AI Overviews, aber sehr limitiert. | Kostenlos |
 

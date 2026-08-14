@@ -96,6 +96,11 @@
   background: #1a1a1a;
 }
 
+.blog-content th strong,
+.blog-content th b {
+  @apply !text-white;
+}
+
 .blog-content td {
   @apply !px-6 !py-4 !text-gray-text !border-b !border-gray-50 !transition-colors;
 }

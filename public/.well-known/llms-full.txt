@@ -121,6 +121,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Experience: Praxiserfahrung schlägt KI-Müll
 - Expertise: Thematische Vektortiefe für Crawler
 - 'FAQ Markup: Harte Daten für deine RAG-Pipeline'
+- Finseo Übersicht: Die mächtige Plattform für AI Visibility
 - 'GEO Agentur (Generative Engine Optimization)'
 - GEO Audit: Stresstest für KI-Sichtbarkeit
 - GEO Freelancer: Data-Engineers für KI-Suchen
@@ -171,9 +172,12 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - 'Noindex: Seiten gnadenlos von der KI ausschließen'
 - OAuth/OIDC Discovery: Puzzleteil für Agenten
 - OAuth Protected Resource im A2A-Zeitalter
+- Otterly AI Übersicht: Die Plattform für Generative Engine Optimization
 - PageSpeed: Latenz ist der harte Ranking-Killer
+- Peec AI Übersicht: Die Plattform für AI Search Analytics
 - Perplexity Sichtbarkeit messen (Citations & Tracking)
 - Pressearbeit im SEO: Digital-PR für RAG-Trust
+- Profound Übersicht: Das Milliarden-Dollar Unicorn der AI Search
 - Query Fan-Out in der AI Search: Wie KI-Agenten Suchanfragen zerlegen
 - 'RAG: Das echte Gehirn-Doping für KI-Inhalte'
 - Rankingfaktoren: Was KIs wirklich bewerten
@@ -195,6 +199,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Sichtbarkeit: KI-Crawler & Citation-Stability
 - 'Sichtbarkeitsindex 2026: Das Ende der blauen Links'
 - Sichtbarkeitsmanagement: RAG-Steuerung
+- Sistrix AI Übersicht: Der SEO-Dinosaurier rüstet auf
 - Sitemap: Echte Architektur für RAG-Pipelines
 - Snippet Optimierung: Agent-Sichtbarkeit pur
 - 'SOVP Protocol: Determinismus in KI-Infrastrukturen'
@@ -232,6 +237,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - SEO 2026: Alte Irrtümer & neue Wahrheiten
 - Website SEO Audit vs. Vibe Coding Agenten
 - Transparente SEO-Preise auf der Website: Meine Erfahrung
+- Die Top 9 AI Visibility & Tracking Tools im Vergleich
 - Mein Vorzeigebeispiel für KI: Der tl;dv Meeting Notetaker
 - SEO Unternehmensberatung: Stefan auf der Campixx
 - Sistrix vs. SE Ranking: Welches Tool gewinnt?
@@ -4937,6 +4943,97 @@ ALOHA! 🌻✌️
 
 ---
 
+### Finseo Übersicht: Die mächtige Plattform für AI Visibility
+
+
+Der Kampf um die Sichtbarkeit hat sich verlagert. Milliarden von Nutzern überspringen klassische Suchmaschinen und stellen ihre Fragen direkt an KI-Modelle. Für Marken bedeutet das: Wer in den Antworten von ChatGPT, Perplexity oder Claude nicht zitiert wird, existiert im digitalen Bewusstsein der neuen Generation schlichtweg nicht mehr.
+
+Aus genau diesem Schmerz heraus entstand **Finseo**. Die Plattform hat sich rasant als das führende deutsche Werkzeug für AI Search Monitoring etabliert. Der Ursprung des Startups mit Sitz in Gaildorf (Baden-Württemberg) liegt in der perfekten Verschmelzung von Technologie und tiefem SEO-Verständnis. Gegründet wurde die Finseo GmbH von David Mühlenweg (CEO), der als technischer Visionär die initiale Software-Architektur entwarf, und Maurice Marinelli (CMO). Marinelli, der bereits die sehr erfolgreiche SEO-Agentur "findling" aufgebaut hat, brachte die harten Praxis-Anforderungen aus dem Agentur-Alltag mit ein. Diese Kombination aus echtem Bootstrapping, Software-Expertise und tiefem Marketing-Wissen macht die Plattform heute so extrem praxistauglich. Renommierte Marken wie Kellogg's, Panasonic, Würth und Raiffeisen vertrauen bereits auf die Infrastruktur aus Süddeutschland.
+
+In diesem ultimativen Übersichtsartikel zerlegen wir die Finseo-Plattform in ihre Einzelteile. Wir betrachten die Kernfunktionen für sauberes [ai search monitoring](https://teleschmie.de/glossar/ki-sichtbarkeit/), analysieren den technischen Unterbau und bewerten die transparente Preisstruktur für Marken und Agenturen.
+
+## Die Kernfunktionen von Finseo
+
+Finseo verlässt sich nicht auf oberflächliches Scraping, sondern positioniert sich als ganzheitliche Schnittstelle zwischen KI-Erwähnungen und echtem Unternehmensumsatz (Attribution). Die Plattform deckt den gesamten Workflow der [Generative Engine Optimization](https://teleschmie.de/glossar/geo-tool/) ab.
+
+### 1. AI Visibility Tracking & Competitor Rankings
+Das Herzstück der Software ist das vollautomatische Monitoring. Finseo trackt die Sichtbarkeit auf allen relevanten Plattformen: ChatGPT, Anthropic Claude, Perplexity, Google Gemini und dem Google AI Mode. 
+- **Zitations-Tracking:** Die Software prüft exakt, ob und in welchem Kontext deine Domain als Quelle herangezogen wird.
+- **Wettbewerbsanalyse:** In übersichtlichen Dashboards siehst du deinen *Share of AI Voice* direkt im Vergleich zu deinen stärksten Konkurrenten. Du erkennst sofort, ob ChatGPT bei der Frage "Beste Laufschuhe 2026" Nike oder Adidas bevorzugt.
+- **Sentiment & Produkte:** Das Tool extrahiert nicht nur reine Links, sondern identifiziert konkrete Produkte und Preise, die von der KI empfohlen werden.
+
+### 2. Prompt Research
+Die herkömmliche Keyword-Recherche ist in der generativen Suche nutzlos. Nutzer tippen keine zwei Wörter mehr ein, sie diktieren ganze Szenarien in ihr Smartphone.
+Mit dem Prompt Research Modul deckt Finseo auf, welche spezifischen Fragen und Konversationen Nutzer im Kontext deiner Industrie starten. Aus diesen komplexen Datensätzen generiert das Tool klare Empfehlungen, welche redaktionellen Inhalte (Expert-Reviews, Comparisons) noch fehlen, um den KI-Algorithmus zu überzeugen.
+
+### 3. Bot Traffic & Crawler Analytics
+Ein Feature, das Finseo massiv von der Konkurrenz abhebt. Bevor eine KI dich zitieren kann, muss sie deinen Content lesen. Doch KI-Crawler (wie der `GPTBot` oder der `ClaudeBot`) verhalten sich völlig anders als der statische Googlebot.
+Finseo misst präzise, wann, wie oft und wie tief diese Bots deine Server crawlen. Du erkennst sofort, ob deine Firewall (WAF) die KIs versehentlich blockiert oder ob spezifische Artikel (z.B. der neue Pricing-Guide) erfolgreich ingestiert wurden. Ein extrem mächtiges Feature für technische SEO-Audits.
+
+### 4. Query Fan-Out Analysis
+Wenn ein Nutzer eine KI nach dem "besten CRM für kleine Handwerksbetriebe" fragt, greift das LLM im Hintergrund oft auf mehrere Unter-Anfragen zurück. Es sucht nach "CRM Handwerk", liest Bewertungen auf G2 und vergleicht Preislisten. 
+Finseo visualisiert diese Dekonstruktion (Fan-Out). Die Plattform zeigt dir, auf welche Teilbereiche die KI intern zurückgreift, um die finale Antwort zu formen. Wer diese Architektur versteht, kann seine Website exakt auf die Informationsbedürfnisse der Maschinen zuschneiden.
+
+### 5. Report Builder & API-Integrationen
+Die Daten müssen aus dem Silo raus. Finseo liefert einen starken White-Label Report Builder, mit dem Inhouse-Teams oder Agenturen auf Knopfdruck beeindruckende PDF-Reports im eigenen Design generieren können.
+Noch spannender ist die Konnektivität: Die Plattform bietet über 40 native Integrationen. Darunter CRM-Systeme wie Salesforce und HubSpot, E-Commerce-Plattformen wie Shopify, sowie direkte Anbindungen an Google Analytics. Damit schließt Finseo die Lücke zwischen einer bloßen Erwähnung im Chatbot und echtem, messbaren Umsatz (Attribution).
+
+## Abgrenzung: Finseo vs. klassische SEO-Tools
+
+Warum benötigen Marketing-Teams plötzlich ein zweites Tool neben ihrem etablierten Rank-Tracker? Die Antwort liegt in der Architektur der Suchsysteme.
+
+| Metrik / Fokus | Klassische Rank-Tracker | Finseo (AI Visibility) |
+| :--- | :--- | :--- |
+| **Output** | Statische Listen (SERPs) | Synthetisierte, dynamische Antworten |
+| **Erfolgsmetrik** | Position (1-10) & Klickrate | Zitationen & Share of AI Voice |
+| **Tracking-Ansatz** | Simuliertes Browser-Scraping | Konversations- und Agenten-Tracking |
+| **Wettbewerb** | Direkte Domain-Konkurrenten | Auch Plattformen (Reddit, Quora, G2) |
+| **Zentrales Element** | Backlinks & OnPage-Dichte | RAG-Quellen & Crawler-Logfiles |
+
+Herkömmliche [seo visibility tools](https://teleschmie.de/glossar/se-ranking/) messen das alte Paradigma der blauen Links. Finseo misst den neuen Standard: Wie Maschinen über Marken denken und sprechen.
+
+## Transparente Preismodelle (Stand 2026)
+
+Finseo liefert ein klares, auf Wachstum ausgelegtes Pricing. Ein massiver Pluspunkt: **In jedem Plan sind unbegrenzte Team-Seats enthalten.** Niemand muss Lizenzen teilen, das gesamte Marketing-Team kann parallel in der Plattform arbeiten. 
+
+### 1. Business Plan (ab 189 € / Monat)
+Der ideale Einstieg für spezialisierte Teams und ambitionierte Marken.
+- **Kosten:** Ab 189 € pro Monat.
+- **Leistungsumfang:** Tracking von 100 Prompts, 9.000 AI-Antworten pro Monat, 1 Workspace (Project).
+- **Inklusive:** 7.500 Content-Optimierungs-Credits, Crawlability-Checks für 500 Seiten.
+- **Integrationen:** Voller Zugriff auf alle 40+ Integrationen, den Report Builder sowie die Public REST API und den MCP-Server.
+
+### 2. Growth Plan (ab 350 € / Monat)
+Entwickelt für skalierende Teams und Agenturen mit mehreren Kunden.
+- **Leistungsumfang:** Tracking von 350 Prompts, 31.500 AI-Antworten pro Monat, 3 Workspaces.
+- **Volumen:** 30.000 Credits, Crawlability-Checks für 1.500 Seiten.
+- **Support:** Bevorzugter Support inklusive eines dedizierten Slack-Channels.
+
+### 3. Enterprise (Custom Pricing)
+Für globale Marken und Konzerne mit maximalen Ansprüchen.
+- **Leistungsumfang:** Ab 700 Prompts (bis Custom), unlimitierte Workspaces, 50.000+ Credits.
+- **Service:** Eigene Strategie-Meetings (2x im Jahr), Custom Contracts (SLA, DPA) und Invoice Billing Workflow.
+
+### 4. Managed Service (Done-for-you)
+Die Besonderheit von Finseo. Wem die Inhouse-Ressourcen fehlen, der bucht nicht nur die Software, sondern direkt das Experten-Team dahinter.
+- **Leistungsumfang:** Monatliche Strategie-Meetings, Setup durch Experten, dedizierter Success Manager.
+- **Umsetzung:** Das Finseo-Team übernimmt die Content-Produktion und das Community-Management (z. B. auf Reddit), um die KI-Sichtbarkeit aktiv und messbar zu steigern.
+
+## Abschließende Bewertung: Das deutsche Radar für die KI-Suche
+
+Die generative KI hat die Spielregeln des Marketings auf den Kopf gestellt. Die Frage ist nicht mehr, ob man für LLMs optimiert, sondern wie schnell man damit anfängt, bevor die Konkurrenz den Raum besetzt.
+
+**Finseo** liefert nicht nur die harte Datengrundlage, um diesen Raum messbar zu machen, sondern bringt auch die Werkzeuge mit, um ihn aktiv zu erobern. Das Startup aus Gaildorf punktet massiv durch seine tiefe Bot-Analyse, die genialen Query Fan-Outs und den gnadenlosen Fokus auf Attribution. Wer als Marketing-Verantwortlicher heute beweisen muss, wie viel Umsatz eine ChatGPT-Erwähnung bringt, kommt an der Infrastruktur von Finseo kaum vorbei. Es ist die Brücke zwischen der neuen KI-Suche und dem echten Unternehmenserfolg.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+---
+
 ### 'GEO Agentur (Generative Engine Optimization)'
 
 
@@ -8909,6 +9006,115 @@ ALOHA! 🌻✌️
 
 ---
 
+### Otterly AI Übersicht: Die Plattform für Generative Engine Optimization
+
+
+Der fundamentale Wandel der Suchmaschinen-Landschaft erzwingt völlig neue Werkzeuge. Nutzer stellen komplexe, dialogbasierte Fragen an künstliche Intelligenzen und erwarten präzise Antworten. Wer als Marke in diesen Antworten nicht zitiert wird, verliert massiv an Relevanz. Klassische Rank-Tracker greifen hier ins Leere. 
+
+Hier tritt **Otterly AI** auf den Plan. Die Plattform hat sich in Rekordzeit als eine der stärksten europäischen Lösungen für AI Search Analytics etabliert. Das Bootstrapped-Startup aus Österreich – mit Sitz im niederösterreichischen Persenbeug – wurde erst 2024 gegründet, bringt aber geballte Tech-Erfahrung mit. Hinter Otterly AI stehen die drei österreichischen Startup-Veteranen Thomas Peham (CEO), Josef Trauner (CPO) und Klaus-M. Schremser (CRO). Die Gründer haben zuvor bereits extrem erfolgreiche Software-Schmieden wie Usersnap (erfolgreicher Exit im Jahr 2023) aufgebaut oder bei Playern wie Storyblok das Wachstum auf C-Level-Ebene verantwortet. Dieses tiefe Verständnis für B2B-Softwarearchitektur und Skalierbarkeit spürt man in jedem Modul von Otterly.
+
+In diesem umfangreichen Übersichtsartikel sezieren wir die gesamte Plattform. Wir beleuchten die Funktionen für das [ai search monitoring](https://teleschmie.de/glossar/ki-sichtbarkeit/), analysieren den technischen Unterbau und bewerten die hochtransparente Preisstruktur für Inhouse-Marketer und große Agenturen.
+
+## Die Kernfunktionen von Otterly AI
+
+Otterly positioniert sich bewusst als *Content Intelligence Platform for AI Search*. Es reicht heute nicht mehr aus, nur zu wissen, *dass* man erwähnt wurde. Man muss verstehen, *warum* die KI die eigene Marke ignoriert hat und den Wettbewerb bevorzugt. Die Plattform deckt den kompletten Workflow von der initialen Recherche bis zur technischen Content-Optimierung ab.
+
+### 1. AI Prompt Research
+[Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-tool/) beginnt nicht bei klassischen Short-Tail-Keywords, sondern bei tiefen, absichtsbasierten Prompts.
+Im Prompt-Research-Modul hilft Otterly dabei, exakte Intent-Patterns zu identifizieren. Welche Fragen stellen Nutzer an ChatGPT, bevor sie eine CRM-Software kaufen? Welche Vergleiche fordert die Zielgruppe bei Perplexity an? 
+Das Tool deckt diese Themen auf und generiert daraus direkt verfolgbare Prompt-Listen. Es wandelt das blinde Raten der Marketing-Teams in eine saubere, datengetriebene Strategie um.
+
+### 2. AI Search Analytics & Tracking
+Das unangefochtene Herzstück der Software ist das Tracking-Dashboard. Es beantwortet schonungslos die wichtigste Frage im modernen Marketing: **Zitiert die KI meine Website oder empfiehlt sie durchweg meine Konkurrenz?**
+
+Die Plattform simuliert täglich hunderte Anfragen auf den führenden Engines (ChatGPT, Google AI Overviews, Perplexity, Copilot, Gemini, Claude) und extrahiert die Ergebnisse.
+- **Brand Coverage & Share of AI Voice:** Du siehst deinen prozentualen Marktanteil im Vergleich zu deinen fünf stärksten Wettbewerbern.
+- **Sentiment-Analyse:** Das Tool misst, ob die KIs positiv, neutral oder extrem kritisch über dein Produkt berichten.
+- **Citation Tracking:** Es wird exakt geprüft, welche URLs deiner Domain als direkte, klickbare Quelle herangezogen werden.
+
+### 3. Content Audit & Crawlability Checks
+Eine der häufigsten Fehlerquellen in der generativen Suche ist die rein technische Blockade. KI-Crawler wie der `OAI-SearchBot` (OpenAI) oder der `ClaudeBot` agieren anders als der klassische Googlebot. Blockiert deine Firewall (WAF) diese Bots versehentlich, bist du für die KIs schlichtweg unsichtbar.
+
+Otterly AI liefert einen knallharten Content-Audit. Es prüft die Crawlability deiner Domain aus der spezifischen Sicht dieser LLM-Bots. Das System deckt auf, warum KIs deinen Content ignorieren. Es generiert auf Basis der Fehler konkrete Content-Briefings, um unsichtbare Seiten in hochgradig zitierfähige AI-Quellen zu transformieren. Ein unverzichtbares Werkzeug für jedes saubere [ai visibility audit](https://teleschmie.de/glossar/ai-visibility-tools/).
+
+### 4. Agent Analytics
+Dieses Feature unterscheidet Otterly radikal von simplen Scraping-Tools. Mit den Agent Analytics bietet die Plattform eine tiefe Analyse-Schicht, die explizit darauf ausgelegt ist, das Verhalten von autonomen KI-Agenten zu messen. Wenn Agenten das Web durchsuchen, um für Unternehmen automatisiert Recherchen durchzuführen, hinterlassen sie völlig neue Datenspuren. Otterly verarbeitet hier (je nach Plan) Millionen von Events pro Monat, um diese neuartige Traffic-Quelle messbar zu machen.
+
+### 5. ChatGPT Ads Tracking
+Die Monetarisierung von KI-Suchen schreitet voran. Mit dem ChatGPT Ads Tracking liefert Otterly ein extrem wertvolles Modul für Performance-Marketer. Es überwacht, wann, wie oft und in welchem Kontext Werbeeinblendungen in den Chat-Verläufen generiert werden. Dadurch lässt sich präzise ableiten, wie hart der werbliche Wettbewerb auf spezifische Brand-Prompts bereits geworden ist.
+
+### 6. MCP & API-Zugriff
+Für Enterprise-Teams und Entwickler öffnet Otterly seine Plattform. Der volle API-Zugang erlaubt es, Brand-Reports und Citation-Daten direkt in eigene interne Data-Warehouses zu kippen. Zusätzlich liefert Otterly nativen Zugriff auf das Model Context Protocol (MCP), was die nahtlose Integration in moderne, agentische Workflows und IDEs ermöglicht.
+
+## Abgrenzung: Otterly AI vs. herkömmliche SEO-Tools
+
+Viele Marketer fragen sich: "Warum reicht mein klassischer Rank-Tracker nicht mehr aus?" Die Architektur der Suchsysteme hat sich fundamental gewandelt.
+
+| Metrik / Konzept | Klassisches SEO (Rank-Tracker) | AI Search Monitoring (Otterly AI) |
+| :--- | :--- | :--- |
+| **Zielgröße** | Statische Rankings (Top 10 Links) | Zitationen, Erwähnungen & Sentiment |
+| **Input-Format** | Kurze, isolierte Suchbegriffe | Komplexe Konversations-Prompts |
+| **Nutzer-Intent** | Navigation & Informationssuche | Direkte, aggregierte Antworten |
+| **Erfolgskennzahl** | Klickrate (CTR) & Traffic | Share of AI Voice (Marktanteil) |
+| **Wettbewerb** | Andere Domains auf der SERP | LLMs, Agenten & Wettbewerber |
+
+Herkömmliche [seo visibility tools](https://teleschmie.de/glossar/se-ranking/) rüsten zwar vereinzelt nach, aber eine exklusive, dedizierte Architektur wie Otterly AI liefert tiefere, rein auf LLMs zugeschnittene Metriken. Es misst nicht die reine Position einer URL auf einer statischen Liste, sondern den dynamischen Raum der generativen Antwort.
+
+## Transparente Preismodelle (Stand 2026)
+
+Otterly AI wählt einen extrem fairen, modularen Pricing-Ansatz. Ein massiver Vorteil der Plattform: **Es gibt in keinem einzigen Plan eine Limitierung der Nutzeranzahl (Seats).** Du kannst dein gesamtes Marketing-Team ohne absurde Aufpreise in die Plattform holen. 
+
+Zudem bietet Otterly eine **14-tägige, kostenlose Testversion** (Free Trial) an, für die nicht einmal eine Kreditkarte hinterlegt werden muss.
+
+### 1. Lite Plan ($29 / Monat)
+Perfekt für Solo-Marketer, Nischen-Brands und kleine Teams.
+- **Kosten:** $29 pro Monat ($25 bei jährlicher Zahlung).
+- **Leistungsumfang:** Tracking von 15 komplexen Search Prompts auf 4 Kern-Engines (ChatGPT, Google AI Overviews, Perplexity, Copilot). Tägliche Updates.
+- **Audit-Limit:** 1.000 GEO URL-Audits pro Monat. 3 automatisierte Recommendations pro Woche.
+
+### 2. Standard Plan ($189 / Monat)
+Der Sweet-Spot für KMUs und spezialisierte Marketing-Teams.
+- **Kosten:** $189 pro Monat ($160 bei jährlicher Zahlung).
+- **Leistungsumfang:** 100 Search Prompts, unlimitierte Workspaces, unlimitierte Recommendations. 
+- **Zusatz-Features:** ChatGPT Ads Tracking, API-Zugriff (2.000 Requests), MCP-Zugriff (2.000 Requests) und massive 200.000 Agent Analytics Events.
+- **Integration:** Voller Google Looker Studio Connector. 5.000 GEO URL-Audits.
+
+### 3. Premium Plan ($489 / Monat)
+Entwickelt für mittelständische Unternehmen und extrem datenhungrige Agenturen.
+- **Kosten:** $489 pro Monat ($422 bei jährlicher Zahlung).
+- **Leistungsumfang:** 400 Search Prompts.
+- **Volumen:** 10.000 GEO URL-Audits, 5.000 API/MCP-Requests und unglaubliche 1 Million Agent Analytics Events pro Monat. Personal Onboarding Session inklusive.
+
+### 4. Enterprise (Custom ab $1.000 / Monat)
+Für globale Brands und massive Konzern-Strukturen.
+- **Leistungsumfang:** Maßgeschneiderte Prompt-Limits, Single Sign-On (SSO), Custom Payment Terms und vierteljährliche GEO Health Checks mit einem dedizierten Customer Success Manager.
+
+**Flexible Add-ons:** Wem die Prompts ausgehen, der bucht einfach Pakete hinzu (z. B. 100 Extra-Prompts für $99/Monat). Auch spezialisierte Engines wie Google AI Mode, Gemini oder Claude lassen sich modular gegen einen geringen Aufpreis in die kleinen Pläne hinzubuchen.
+
+## Das Agency-Partnerprogramm
+
+Otterly AI hat verstanden, dass Agenturen der größte Multiplikator im Markt sind. Mit dem Partnerprogramm (verfügbar ab dem Standard-Plan) liefert das österreichische Startup extrem starke B2B-Werkzeuge:
+- **Unlimitierte Workspaces:** Vollständige Trennung von Mandanten-Daten.
+- **Pitch Workspaces:** Die Möglichkeit, schnelle Audits für potenzielle Neukunden zu generieren, bevor der Vertrag unterschrieben ist. Eine massive Waffe im Vertrieb.
+- **White-Labeling:** Eigene Reports via Looker Studio im Design der Agentur.
+
+## Abschließende Bewertung
+
+Die Zeiten, in denen SEO bedeutete, zehn blaue Links zu manipulieren, sind vorbei. Die neue, extrem umkämpfte Frontlinie im Marketing ist die Frage: Wer kontrolliert die generative Antwort?
+
+**Otterly AI** liefert das exakte Radar für diesen neuen Markt. Es transformiert das schwammige Bauchgefühl ("Wir haben guten Content, die KI wird uns schon finden") in harte, unbestechliche Kennzahlen. Die Plattform aus Österreich glänzt durch eine extrem saubere Architektur, einen starken technischen Hintergrund der Gründer und ein absolut transparentes Preismodell, das aggressiv nach oben skaliert, ohne kleine Teams auszusperren.
+
+Die Investition in ein solches, hochspezialisiertes Tracking-Tool ist längst keine Nischen-Spielerei mehr. Wer den Share of AI Voice heute misst und systematisch optimiert, baut einen tiefen, digitalen Burggraben für die nächsten Jahre. Otterly AI ist dafür eines der mächtigsten Werkzeuge auf dem europäischen Markt.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+---
+
 ### PageSpeed: Latenz ist der harte Ranking-Killer
 
 
@@ -8973,6 +9179,124 @@ ALOHA! 🌻✌️
 * [Crawling vs. Indexing radikal verstehen](https://teleschmie.de/glossar/crawling-vs-indexing/)
 * [Das Canonical Tag: Dein technisches Schutzschild](https://teleschmie.de/glossar/canonical-tag/)
 * [Trailing Slashes für fehlerfreies Routing](https://teleschmie.de/glossar/trailing-slashes/)
+
+---
+
+### Peec AI Übersicht: Die Plattform für AI Search Analytics
+
+
+Der fundamentale Wandel der organischen Suche ist längst keine ferne Zukunftsmusik mehr. Er passiert exakt jetzt. Nutzer tippen keine isolierten, rudimentären Suchbegriffe mehr in eine Suchleiste ein, um sich dann mühsam durch zehn werbeverseuchte Links zu wühlen. Sie stellen hochkomplexe, extrem spezifische Fragen direkt an ChatGPT, Perplexity oder die Google AI Overviews (SGE) und erwarten sofort eine aggregierte, fertige Antwort. Wer in diesen generierten Antworten nicht zitiert wird, existiert in der kritischen Entscheidungsfindung der Zielgruppe schlichtweg nicht. 
+
+Genau diese gigantische Lücke in der Messbarkeit schließt Peec AI. 
+
+**Peec AI** (peec.ai) ist eine kompromisslose, hochspezialisierte Plattform für AI Search Analytics. Sie trackt, analysiert und optimiert die Sichtbarkeit von Marken in generativen Suchmaschinen mit analytischer Präzision. Während klassische [seo visibility tools](https://teleschmie.de/glossar/se-ranking/) traditionell starke Allrounder für organische Google-Rankings bleiben, bohrt sich Peec AI chirurgisch präzise in die Blackbox der Large Language Models (LLMs). In diesem monumentalen Übersichtsartikel zerlegen wir die Plattform in alle ihre Einzelteile. Wir analysieren das Feature-Set, bewerten die technischen Audits, vergleichen den Paradigmenwechsel mit dem klassischen SEO und beleuchten die extrem transparente Preisstruktur für Brands und Agenturen im Detail.
+
+## Die Kernfunktionen von Peec AI im Detail
+
+Ein echtes, hochperformantes [ai visibility tool](https://teleschmie.de/glossar/ai-visibility-tools/) muss heute weit mehr leisten, als nur einfache, statische Chat-Verläufe in ein Excel-Dokument zu exportieren. Die verlässliche Messbarkeit von KI-Antworten erfordert eine granulare Auswertung auf Prompt-Ebene, gepaart mit einer massiven Rechenleistung im Hintergrund. Peec AI liefert hierfür ein brachiales Arsenal an Werkzeugen.
+
+### 1. AI Visibility & Citation Tracking
+Das unangefochtene Herzstück der Software ist das Visibility-Modul. Es beantwortet schonungslos die zentrale Frage: **Wird meine Marke von der KI empfohlen – oder empfiehlt sie durchweg meine Konkurrenz?**
+
+Die Plattform misst den sogenannten *Share of Voice*. Du siehst exakt, wie hoch der prozentuale Anteil deiner Nennungen im Vergleich zum gesamten simulierten Suchvolumen deiner Branche ist. Dies ist der härteste KPI im Zeitalter der LLMs.
+
+- **Tiefe Quellen-Analyse:** Das System trackt nicht nur die plumpe Nennung im generierten Text, sondern analysiert die harten Zitationen (Citations). Verlinkt Perplexity tatsächlich auf deine Landingpage? Nutzt ChatGPT deine Domain als primäre, vertrauenswürdige Quelle? Welcher Satz aus deinem Content wurde vom Modell extrahiert?
+- **Intelligente Sentiment-Analyse:** Eine Erwähnung ist komplett nutzlos (und im schlimmsten Fall geschäftsschädigend), wenn die KI negativ über das Produkt spricht. Peec AI bewertet das Sentiment (positiv, neutral, negativ) jeder einzelnen Nennung vollautomatisch. So weißt du, ob ein Modell dich als "Marktführer" oder als "veraltete, überteuerte Lösung" brandmarkt.
+
+### 2. Prompt Monitoring
+Klassisches SEO nutzt Suchvolumina. [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo-tool/) nutzt Prompts.
+Im Prompt Monitoring legst du exakte, ausformulierte Nutzerfragen an, die tief im Funnel liegen. Zum Beispiel: *"Vergleiche die Softwarelösung A mit der Softwarelösung B hinsichtlich der europäischen Datenschutzkonformität und der Preisstruktur für Teams über 50 Personen"*. Peec AI simuliert diese komplexen Abfragen periodisch über verschiedene KI-Engines hinweg.
+
+Du erhältst lückenlose historische Verlaufsdaten. Fällt deine Marke nach einem Core-Update plötzlich aus den Empfehlungen von Claude heraus, schlägt das System Alarm. Die gesammelten Daten helfen dir extrem gezielt dabei, deinen Content exakt so umzuschreiben, dass die KIs dich wieder als dominierende Autorität einstufen. Dieses Reverse-Engineering der KI-Antworten ist pures Gold für Content-Strategen.
+
+### 3. Gnadenloses Competitor Benchmarking
+SEO ist und bleibt ein brutaler Verdrängungswettbewerb. Das gilt zu 100 Prozent auch für das [ai visibility tracking](https://teleschmie.de/glossar/ki-sichtbarkeit/).
+Die Plattform erlaubt den direkten, ungeschönten Abgleich mit deinen härtesten Wettbewerbern auf exakt derselben Datengrundlage.
+
+- **Marktanteils-Analyse:** Wer dominiert die Antworten zu den lukrativsten kommerziellen Prompts?
+- **Informationsquellen-Mapping:** Welche Informationsquellen (z. B. Wikipedia, G2, OMR Reviews, Fachmagazine, Foren) nutzt die KI primär, um den Konkurrenten zu empfehlen? Dieses Wissen erlaubt es dir, PR-Kampagnen extrem zielgerichtet genau auf diesen Drittplattformen zu platzieren.
+- **Blind-Spot-Erkennung:** Wo liegen thematische Lücken (Blind Spots) beim Wettbewerb, die du mit extrem tiefgründigen, eigenen Inhalten (z. B. in Form einer [Grounding Page](https://teleschmie.de/glossar/grounding-page/)) füllen kannst?
+
+### 4. AI Shopping Tracking & Product Visibility
+Für E-Commerce-Brands hat sich das Spielfeld im letzten Jahr radikal verschoben. KIs generieren heute proaktiv visuelle Produkt-Karussells und knallharte Preisvergleiche direkt im Chatfenster des Nutzers. Ein Klick auf die Website findet oft gar nicht mehr statt.
+
+Peec AI überwacht diese brandneuen, dynamischen Shopping-Integrationen akribisch. Das Tool trackt, ob deine Produkte überhaupt in den visuellen Empfehlungen auftauchen, ob die angezeigten Preise (und Rabattaktionen) korrekt gezogen werden und wie die KI die Produktspezifikationen im Vergleich zur Konkurrenz darstellt. Wer im [ai search visibility](https://teleschmie.de/glossar/ki-sichtbarkeit/) Game für E-Commerce heute noch gewinnen will, kommt an diesem speziellen E-Commerce-Modul schlichtweg nicht mehr vorbei. Es entscheidet über direkten Umsatz.
+
+### 5. Crawlability Checks & Bot-Audits
+KI-Bots verhalten sich fundamental anders als der klassische, alteingesessene Googlebot. OpenAI, Anthropic und Perplexity nutzen völlig eigene, extrem aggressive Crawler (z. B. `OAI-SearchBot`, `ClaudeBot`, `PerplexityBot`), um das Web in Echtzeit zu durchsuchen und ihre Modelle mit frischen Daten zu füttern (RAG - Retrieval-Augmented Generation).
+
+Wenn deine `robots.txt` oder deine serverseitige Web Application Firewall (WAF) diese Bots versehentlich (oder durch alte Security-Regeln) blockiert, bist du für die Modelle unsichtbar. Deine Marke existiert in der KI-Welt dann schlichtweg nicht. Peec AI bringt ein tiefgreifendes, technisches Audit-Tool mit, das deine gesamte Domain gegen über 40 spezifische AI-Bots auf Herz und Nieren testet. 
+
+Es simuliert Zugriffe aus verschiedenen Rechenzentren. Es prüft HTTP-Statuscodes. Es deckt erbarmungslos auf, ob serverseitiges Rendering (SSR) bei JavaScript-lastigen Seiten korrekt konfiguriert ist, damit LLMs die Text-Inhalte überhaupt parsen können. Ein absolutes, essenzielles Basis-Werkzeug für jedes ernstzunehmende [ai visibility audit](https://teleschmie.de/glossar/ai-visibility-tools/).
+
+## Peec AI vs. klassisches SEO: Der radikale Paradigmenwechsel
+
+Viele Entscheider stellen sich die berechtigte Frage: "Warum reicht mein herkömmliches SEO-Tool, für das ich jeden Monat Hunderte Euro zahle, nicht mehr aus?" Die ehrliche Antwort liegt in der völlig anderen Architektur der modernen Suchsysteme. Wir vergleichen Äpfel mit Flugzeugen.
+
+| Metrik / Konzept | Klassisches SEO (Rank-Tracker) | Generative AI Search (Peec AI) |
+| :--- | :--- | :--- |
+| **Zielgröße** | Rankings (Top 10 blaue Links) | Zitationen & Textuelle Nennungen |
+| **Input-Format** | Short-Tail Keywords ("SEO Agentur Berlin") | Komplexe Konversations-Prompts |
+| **Nutzer-Intent** | Navigation & Suche nach Quellen | Direkte Antwort & Synthese im Chat |
+| **Erfolgskennzahl** | Klickrate (CTR) & Organischer Traffic | Share of Voice (Marktanteil) & Sentiment |
+| **Wettbewerb** | Andere Domains auf der SERP | Die KI selbst (Zero-Click-Content) |
+
+Die Metriken sind schlicht nicht kompatibel. Wer ernsthaft versucht, seine moderne KI-Sichtbarkeit mit einem Rank-Tracker aus dem Jahr 2015 zu messen, wird kläglich scheitern und in völliger Dunkelheit tappen. Moderne, ganzheitliche Plattformen wie [SE Ranking](https://teleschmie.de/glossar/se-ranking/) rüsten zwar mittlerweile mit eigenen AI-Modulen nach, aber eine exklusive, hochspezialisierte Architektur wie die von Peec AI liefert oft tiefere, rein auf LLMs und GEO zugeschnittene Insights, ohne Kompromisse bei Altlasten machen zu müssen.
+
+## Preise und Paket-Struktur (Stand 2026)
+
+Herausragende Technologie hat ihren Preis, aber Peec AI wählt hier einen extrem fairen, skalierbaren Ansatz. Peec AI strukturiert seine Kosten primär nach der Zielgruppe: **Brands** (Inhouse-Teams, Solo-Selbstständige) und **Agencies** (SEO-Dienstleister, PR-Agenturen). Die exakten Konditionen schwanken leicht durch saisonale Angebote, doch die Kernarchitektur der Pakete hat sich im Markt etabliert.
+
+Eine massive Stärke der Plattform, die man extrem lobend hervorheben muss: Sie limitiert in den meisten Plänen **nicht** die Anzahl der aktiven Nutzer (Seats). Das ist ein radikaler, kundenfreundlicher Vorteil gegenüber vielen Legacy-Tools, die für jeden weiteren Account absurde Summen verlangen.
+
+### 1. Der Starter Plan (Brand Focus)
+Perfekt für Einzelunternehmen, kleine Nischen-Brands oder Inhouse-SEOs, die den sprichwörtlichen Fuß in die Tür der KI-Optimierung bekommen wollen, ohne direkt ein gigantisches Budget freizugeben.
+- **Typische Kosten:** ca. $85 – $100 pro Monat.
+- **Leistungsumfang:** Basis-Tracking einer definierten, begrenzten Anzahl von Prompts und den wichtigsten Kern-Wettbewerbern.
+- **Fokus:** Tägliches Monitoring der wichtigsten Brand-Keywords in ChatGPT und Google AI Overviews. Ideal, um erste Daten für das C-Level zu sammeln.
+
+### 2. Der Pro Plan (Growth Focus)
+Ausgelegt auf ehrgeizige Performance-Marketing-Teams, die tiefgehende Analysen fahren und Content-Strategien streng datengetrieben anpassen müssen.
+- **Typische Kosten:** ca. $200 – $250 pro Monat.
+- **Leistungsumfang:** Deutlich erhöhtes Prompt-Limit, volles Shopping-Tracking-Modul und tiefergehende API-Exporte für interne Dashboards (z. B. via Looker Studio oder PowerBI).
+- **Fokus:** Harte Skalierung von GEO-Strategien über Hunderte von extrem spitzen Long-Tail-Anfragen.
+
+### 3. Enterprise / Agency Pläne
+Für große Agenturen, die Dutzende von Mandanten betreuen, White-Label-Reporting benötigen und riesige Datenmengen verarbeiten, beginnt das Pricing naturgemäß in höheren Sphären.
+- **Typische Kosten:** ab $400+ pro Monat (stark modular anpassbar je nach Prompt-Volumen).
+- **Leistungsumfang:** Unlimitierte Seats, gigantische Prompt-Volumina, absolute Mandanten-Trennung (Workspaces), ein dedizierter Customer Success Manager, bevorzugter Support und unlimitierte API-Zugriffe für Custom Dashboards.
+- **Fokus:** Bereitstellung einer B2B-Infrastruktur für Agenturen, die KI-Sichtbarkeit als neue, extrem hochpreisige Dienstleistung (Retainer) an ihre Endkunden verkaufen.
+
+Die Plattform bietet klassischerweise eine **7-Tage-Testversion** an. Ein harter, schonungsloser Testlauf mit echten, schmutzigen Daten aus dem eigenen Geschäftsfeld ist meiner Meinung nach absolute Pflicht, bevor man Budgets freigibt und sich längerfristig bindet.
+
+## Für wen ist Peec AI ein absolutes Muss?
+
+Müssen wir alle in Panik verfallen und sofort KI-Tools buchen? Nein. Nicht jedes Unternehmen benötigt heute schon ein dediziertes KI-Tracking. Wer lokale, sehr banale Dienstleistungen anbietet ("Schlüsseldienst Bottrop" oder "Pizzeria um die Ecke"), für den bleiben Google Maps und starkes Local SEO vorerst der wichtigste Hebel.
+
+Peec AI entfaltet seine rohe Gewalt und seinen wahren ROI bei hochgradig erklärungsbedürftigen B2B-Softwareprodukten (SaaS), im margenstarken, kompetitiven E-Commerce und im Affiliate-Marketing. Wenn die Zielgruppe intensiv recherchiert, tagelang vergleicht und KIs als persönliche Berater nutzt, ist der Blindflug brandgefährlich. Wer hier seine Nennungen und das Sentiment nicht präzise misst, überlässt den Wettbewerbern völlig kampflos das lukrativste Feld der nächsten Dekade. 
+
+## Alternativen zu Peec AI
+
+Wer nach alternativen Systemen sucht, sollte sich genau ansehen, wo der Fokus der jeweiligen Software liegt.
+Viele traditionelle Plattformen bauen das Feature an, sind aber historisch in der alten Welt verwurzelt.
+- **SE Ranking (SE Visible):** Wie bereits erwähnt, bietet [SE Ranking](https://teleschmie.de/glossar/se-ranking/) ein exzellentes, voll integriertes KI-Modul (SE Visible) an. Wer ohnehin ein All-in-One-Tool für Backlinks, Audits und klassische Rankings sucht, findet hier oft das perfekte Kombi-Paket zu einem extrem starken Preis-Leistungs-Verhältnis.
+- **Rankscale:** Ein direkter, sehr aggressiver Mitbewerber auf dem reinen AI-Tracking-Markt. Der Fokus von Rankscale liegt oft auf einer extrem sauberen API-Architektur für Entwickler.
+- Andere Agentur-Software-Lösungen integrieren zunehmend ähnliche Share-of-Voice-Metriken, oft aber (Stand 2026) noch sehr rudimentär und ohne die tiefen Crawler-Audits, die Peec AI bietet.
+
+## Abschließende Bewertung
+
+Die reine Textgenerierung durch künstliche Intelligenz ist mittlerweile ein gelöstes, fast schon banales Problem geworden. Die neue, extrem umkämpfte Frontlinie im digitalen Marketing ist die Distribution. Wer kontrolliert die Antworten? 
+
+**Peec AI** liefert exakt das nötige Radar für diesen völlig neuen Kriegsschauplatz. Es transformiert das bisher extrem schwammige, unsichere Bauchgefühl ("Ich glaube, ChatGPT mag unsere Marke eigentlich ganz gern") in harte, unbestechliche, board-room-taugliche Kennzahlen. 
+
+Die Plattform zwingt Marketer dazu, radikal umzudenken. Weg vom blinden, massenhaften Linkbuilding, hin zu echten Content-Signalen, exzellenten Experten-Interviews und extrem starkem E-E-A-T. Wer den Share of Voice in generativen Systemen heute erobert und verteidigt, baut einen gigantischen digitalen Burggraben auf, der in den nächsten Jahren extrem schwer zu überwinden sein wird. Die Investition in ein solches, hochspezialisiertes Tool ist daher bei Weitem nicht nur eine lästige Budgetfrage für das Marketing-Team, sondern eine absolut kritische, strategische Wette auf die Zukunft der Informationsbeschaffung.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
 
 ---
 
@@ -9119,6 +9443,98 @@ ALOHA! Jörg 🌻✌️
 * [Markenaufbau im KI-Zeitalter](https://teleschmie.de/glossar/markenaufbau-mit-seo/)
 * [Das Canonical Tag richtig einsetzen](https://teleschmie.de/glossar/canonical-tag/)
 * [Die Gefahr hinter Noindex](https://teleschmie.de/glossar/noindex/)
+
+---
+
+### Profound Übersicht: Das Milliarden-Dollar Unicorn der AI Search
+
+
+Der Wandel der digitalen Suche vollzieht sich in atemberaubender Geschwindigkeit. Über 100 Millionen Menschen nutzen täglich Künstliche Intelligenz, um Produkte zu entdecken, Vergleiche zu ziehen und Kaufentscheidungen zu treffen. Marken, die in diesen KI-generierten Antworten nicht vorkommen, verlieren rasant an Marktanteilen.
+
+Aus dem Herzen von New York City formte sich genau für dieses Problem eine der extremsten Erfolgsgeschichten der letzten Jahre: **Profound** (`tryprofound.com`). Gegründet erst im August 2024 von James Cadwallader (CEO) und Dylan Babbs (CTO), legte das Startup ein Wachstum hin, das selbst im Silicon Valley für Aufsehen sorgte. Getrieben von massiven Venture-Capital-Investitionen durchbrechen die Amerikaner bereits im Frühjahr 2026 die magische Bewertungsgrenze von 1 Milliarde US-Dollar (Unicorn-Status). Profound weigert sich, ein bloßer "Rank-Tracker" zu sein. Die Plattform prägt den Begriff der [Answer Engine Optimization (AEO)](https://teleschmie.de/glossar/geo-tool/) radikal neu und versteht sich als "Full Stack Marketing Platform" für den KI-Sektor.
+
+In diesem tiefgehenden Übersichtsartikel dekonstruieren wir die Milliarden-Dollar-Plattform. Wir analysieren die Module vom klassischen [ai search monitoring](https://teleschmie.de/glossar/ki-sichtbarkeit/) bis hin zu den autonomen KI-Agenten und bewerten die amerikanische Preisstruktur.
+
+## Die Kernfunktionen von Profound
+
+Die Architektur von Profound ist kompromisslos auf Enterprise-Skalierung ausgelegt. Die Plattform trackt, analysiert und – das ist der massive Unterschied zur Konkurrenz – baut den Content zur Behebung der Lücken oft gleich selbst.
+
+### 1. Answer Engine Insights
+Das Basis-Dashboard von Profound überwacht die Sichtbarkeit der eigenen Marke über das gesamte Spektrum der Answer Engines. Je nach Plan trackt die Plattform bis zu neun (!) verschiedene Modelle simultan: ChatGPT, Perplexity, Google AI Overviews, Google Gemini, Microsoft Copilot, Grok, DeepSeek und Anthropic Claude.
+- **Brand Sentiment & Citations:** Du erkennst in Echtzeit, ob die KI-Modelle deine Marke positiv empfehlen oder kritisieren.
+- **Competitor Rankings:** Wer dominiert den Share of Voice? Profound zeigt präzise, an welche Konkurrenten die KI wertvollen Traffic weiterleitet.
+
+### 2. Prompt Volumes
+Eines der größten Probleme im KI-Marketing ist das blinde Raten. Niemand wusste bislang genau, wie oft Nutzer eine bestimmte Frage an ChatGPT stellen.
+Mit dem Feature "Prompt Volumes" bricht Profound diese Blackbox auf. Das System zeigt, was Millionen von Menschen die KIs fragen, und verknüpft diese Konversationen mit harten, datengestützten Volumen-Metriken. So können Marketing-Teams ihre Strategie nicht mehr nach Bauchgefühl, sondern nach echter Nachfrage ausrichten.
+
+### 3. Profound Agents & Sheets
+Hier zeigt das Unicorn seine wahre Macht. Ein Agent bei Profound ist ein autonomer, digitaler Mitarbeiter (Worker), der eine spezifische Funktion übernimmt.
+Ein Praxisbeispiel: Der "AEO-Optimierte FAQ Generator". Du gibst dem Agenten die URL deiner Landingpage und den Kern-Suchbegriff (z.B. "Best Running Shoes"). Der Agent durchforstet Perplexity, analysiert die dort gestellten Fragen der Nutzer, gleicht sie mit deiner Website ab und generiert vollautomatisch einen perfekten FAQ-Bereich, der exakt auf die Informationsbedürfnisse der KI zugeschnitten ist.
+Mit "Profound Sheets" lassen sich diese Agenten auf hunderte URLs gleichzeitig skalieren. Es ist Content-Produktion auf Steroiden.
+
+### 4. ChatGPT Shopping & Agent Analytics
+Die Monetarisierung von ChatGPT schreitet extrem voran. Für E-Commerce-Brands bietet Profound ein exklusives (Enterprise) Modul: Das Tracking der direkten Produkt- und Preisempfehlungen innerhalb der ChatGPT-Shopping-Oberfläche.
+Zusätzlich liefert das Modul "Agent Analytics" tiefe Einblicke, wie und wann die Bot-Crawler der großen Modelle (z.B. der GPTBot) die eigene Server-Infrastruktur durchsuchen.
+
+### 5. Das Aim-Modul
+"Aim" ist die strategische Kommandozentrale. Das System analysiert Millionen von Datenpunkten und präsentiert dem Marketing-Team jede Woche die Aufgaben mit dem höchsten Impact. "Ergänze FAQ-Schema auf /pricing" oder "Sorge für eine Erwähnung auf g2.com, da dies die Hauptquelle für Perplexity in deiner Nische ist." 
+
+## Abgrenzung: Profound vs. klassische SEO-Infrastruktur
+
+Warum verlagern globale Marken ihr Budget massiv in Plattformen wie Profound?
+
+| Metrik / Paradigma | Traditionelles SEO | Profound (Full Stack AEO) |
+| :--- | :--- | :--- |
+| **Erfolgsfaktor** | Position in den SERPs (1-10) | Nennung und Sentiment im direkten Chat |
+| **Suchanfrage** | Kurze, fragmentierte Keywords | Lange, interaktive Konversations-Prompts |
+| **Workflow** | Tracking -> Manuelles Briefing -> Texten | Tracking -> Autonome Agenten -> Generierung |
+| **Sichtbarkeit** | Fokus auf den Googlebot | Abdeckung von bis zu 9 autonomen LLM-Systemen |
+| **Traffic-Wert** | Hoch | Extrem hoch (Nutzer stehen kurz vor der Conversion) |
+
+Während klassische [seo visibility tools](https://teleschmie.de/glossar/se-ranking/) den Status quo der blauen Links vermessen, agiert Profound proaktiv in der neuen Konversations-Ära.
+
+## Die Preisstruktur (Stand 2026)
+
+Profound fokussiert sich klar auf ambitionierte Teams und Enterprise-Kunden. Die Abrechnung erfolgt über eine Kombination aus getrackten Prompts und "Credits", welche für den Einsatz der autonomen Agenten benötigt werden.
+
+### 1. Starter Plan ($99 / Monat)
+Der Einstieg in die Welt von Profound.
+- **Kosten:** $99 pro Monat (jährliche Abrechnung, 2 Monate gratis).
+- **Leistungsumfang:** 50 getrackte Prompts, ausschließlich auf **ChatGPT**.
+- **Kapazität:** 1.500 analysierte KI-Antworten pro Monat.
+- **Ressourcen:** 100 Agenten-Credits pro Monat und 1 Team-Seat.
+- **Zielgruppe:** Sehr kleine Unternehmen, die erste Gehversuche im ChatGPT-Monitoring unternehmen wollen.
+
+### 2. Growth Plan ($399 / Monat)
+Der beliebteste Plan für skalierende Content- und AEO-Teams.
+- **Kosten:** $399 pro Monat.
+- **Leistungsumfang:** 100 getrackte Prompts auf 3 Engines (**ChatGPT, Perplexity, Google AI Overviews**).
+- **Kapazität:** 9.000 analysierte KI-Antworten pro Monat.
+- **Ressourcen:** 400 Agenten-Credits pro Monat, 3 Team-Seats.
+- **Bonus:** Enthält das mächtige "Prompt Volumes"-Feature.
+
+### 3. Enterprise (Custom Pricing)
+Maßgeschneiderte Pakete für globale Agenturen und Konzerne.
+- **Leistungsumfang:** Tracking auf bis zu 9 Answer Engines (inkl. Gemini, Copilot, Grok, Claude, DeepSeek).
+- **Kapazität:** Custom Limits für Prompts und analysierte Antworten.
+- **Exklusive Features:** ChatGPT Shopping-Tracking, Aim (Task-Priorisierung), API-Zugriff, SSO/SAML und dedizierter Slack-Support.
+- **Integrationen:** Tiefe System-Integrationen (AWS, Cloudflare, Fastly, Google Analytics).
+
+## Abschließende Bewertung: Die Milliarden-Wette auf Agenten
+
+Die rasante Bewertung von 1 Milliarde US-Dollar innerhalb von nicht einmal zwei Jahren kommt nicht von ungefähr. Die Gründer James Cadwallader und Dylan Babbs haben verstanden, dass die Zukunft des Marketings nicht im reinen *Messen* von KI-Daten liegt, sondern im proaktiven *Handeln*.
+
+**Profound** ist keine einfache Analytics-Software, es ist ein komplettes Marketing-Betriebssystem für die Ära der generativen Suche. Die Kombination aus extrem tiefen Zitations-Daten (inklusive echter Prompt-Suchvolumina) und den autonomen "Profound Agents", die den nötigen Content zur Lückenfüllung direkt mitschreiben, ist in dieser Form einmalig auf dem Markt. 
+
+Für kleine Solo-Marketer mag der Starter-Plan durch die reine Limitierung auf ChatGPT etwas starr wirken. Doch für wachsende Brands und globale Enterprise-Unternehmen ist Profound aktuell eine der schärfsten Waffen im globalen Wettlauf um die KI-Sichtbarkeit. Wer hier nicht frühzeitig investiert, überlässt den direktesten Zugang zum Endkunden schlichtweg der Konkurrenz.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
 
 ---
 
@@ -10863,6 +11279,68 @@ Hast du eine valide `agent-card.json`? Stimmen deine RFC 8288 Link-Header? Gibt 
 Wenn du bei diesen Begriffen nur Bahnhof verstehst, betreibst du kein Sichtbarkeitsmanagement. Reiß das Ruder rum, bevor die Agenten dich aus ihren Trainingsdaten streichen.
 
 ALOHA! 🌻
+
+---
+
+### Sistrix AI Übersicht: Der SEO-Dinosaurier rüstet auf
+
+
+Der digitale Suchmarkt befindet sich in einem tektonischen Wandel. Doch während jeden Monat neue, KI-fokussierte Startups aus dem Boden schießen, beweist ein etablierter Dinosaurier aus dem Rheinland, dass man den Anschluss nicht verpasst hat. **Sistrix**, der absolute Branchenstandard für klassische Suchmaschinenoptimierung im DACH-Raum, hat sein Werkzeugkasten drastisch erweitert.
+
+Die Geschichte der Plattform ist tief in der deutschen SEO-DNA verwurzelt. Gegründet von Johannes Beus in Bonn, revolutionierte das Unternehmen vor über 15 Jahren den Markt mit der Erfindung des *Sichtbarkeitsindex*. Was damals der Goldstandard für das Ranking in den zehn blauen Links von Google war, wird nun konsequent auf die Ära der Sprachmodelle und Answer Engines portiert. Sistrix wählt dabei einen extrem kundenfreundlichen Weg: Statt teurer Zusatzmodule baut das Team die neuen KI-Metriken nahtlos in die bestehende Infrastruktur ein.
+
+In dieser Übersicht analysieren wir, welche Funktionen Sistrix für das [ai search monitoring](https://teleschmie.de/glossar/ki-sichtbarkeit/) bereithält und wie sich die rheinische Lösung gegen reine AEO-Plattformen schlägt.
+
+## Die Kernfunktionen von Sistrix AI
+
+Die Entwickler in Bonn haben verstanden, dass die klassische organische Suche nicht verschwindet, sondern sich mit generativen KI-Antworten vermischt. Genau an dieser Schnittstelle setzen die neuen Features an.
+
+### 1. AI Mentions & Citations
+Wenn ChatGPT oder Perplexity eine Antwort generieren, greifen sie auf externe Quellen zurück. Das Feature *Mentions & Citations* trackt exakt diese Nennungen.
+Du siehst nicht nur, *dass* deine Marke erwähnt wurde, sondern auch, welche spezifischen URLs als autoritäre Quelle (Citation) herangezogen wurden. Diese Source Analysis ist entscheidend, um zu verstehen, welche Inhalte von den Algorithmen der großen Sprachmodelle (LLMs) als vertrauenswürdig eingestuft werden.
+
+### 2. Google AI Overviews (AIO) Tracking
+Googles "AI Overviews" schieben sich bei vielen informativen Suchanfragen direkt über die klassischen Suchergebnisse und saugen massiv Traffic ab. Sistrix hat diese Bedrohung direkt in seine stärkste Waffe – die gigantische Keyword-Datenbank – integriert.
+In den bekannten Ranking-Tabellen gibt es nun spezielle Filter. Ein kleines blaues KI-Icon zeigt sofort an, welche deiner rankenden Keywords ein AI Overview triggern. Dies ermöglicht eine präzise Risiko- und Chancen-Analyse für das eigene Keyword-Portfolio.
+
+### 3. Competitive Benchmarking
+Der Sichtbarkeitsindex wurde groß, weil man sich mit einem Klick mit jedem Mitbewerber vergleichen konnte. Diese Logik überträgt Sistrix auf die künstliche Intelligenz. Das Tool ermöglicht es, die eigene KI-Sichtbarkeit direkt gegen die Konkurrenz zu benchmarken. Wer wird in den KI-Antworten häufiger empfohlen? Wer liefert die zitierten Fakten? Die Antworten liegen nun direkt im Sistrix-Dashboard.
+
+### 4. Contextual Understanding (Sentiment)
+Die Nennung einer Marke ist nur die halbe Miete. Sistrix wertet den Kontext der KI-Antworten aus. Wird dein Produkt als "beste Lösung auf dem Markt" empfohlen, oder taucht es im Rahmen einer kritischen Antwort zu Sicherheitsproblemen auf? Das Tracking des Sentiments hilft PR- und Marketing-Teams, die narrative Deutungshoheit innerhalb der KI-Blackbox zu behalten.
+
+## Die Preisstruktur: Das faire Bonner Modell
+
+Während amerikanische AEO-Startups oft komplexe Preismodelle mit "Prompt-Credits" und extremen Monatsgebühren aufrufen, bleibt Sistrix seiner transparenten und fairen Preispolitik treu. **Alle AI Visibility Features sind fester Bestandteil der Standard-Pläne.**
+
+Es gibt keine versteckten Add-ons. Wer Sistrix bereits nutzt, hat automatisch Zugriff auf die neuen KI-Werkzeuge.
+- **Start (119 € / Monat):** Der Einstieg für Freelancer und kleine Teams. Voller Zugriff auf SEO, Links und die neuen AI-Daten in einem Projekt.
+- **Plus (249 € / Monat):** Für Mittelständler und kleine Agenturen. Erweiterte Limits und tiefere historische Daten.
+- **Professional (399 € / Monat):** Für etablierte Teams mit komplexeren Anforderungen und API-Bedarf.
+- **Enterprise (899 € / Monat):** Für große Konzerne und globale Agenturen, die massive Datenmengen verarbeiten müssen.
+
+*(Alle Preise verstehen sich zzgl. der gesetzlichen Mehrwertsteuer).*
+
+## Abgrenzung: Sistrix vs. reine AEO-Plattformen
+
+Ist Sistrix nun der direkte Konkurrent zu Plattformen wie Profound, Finseo oder Otterly? Die Antwort ist ein klares Jein.
+
+Sistrix operiert aus der Position eines ganzheitlichen [seo visibility tools](https://teleschmie.de/glossar/seo-visibility-tools/). Der große Vorteil ist die zentrale Datenhaltung: SEO-Teams müssen nicht zwischen fünf verschiedenen Tools springen. Die KI-Metriken ergänzen die organischen Rankings, die Backlinks und die Onpage-Daten perfekt. Wer SEO strategisch und ganzheitlich betrachtet, wird die nahtlose Integration in Bonn lieben.
+
+Reine AEO-Plattformen hingegen gehen oft einen Schritt weiter in die Automatisierung (z.B. durch KI-Agenten, die direkt optimierten Content generieren) oder fokussieren sich extrem auf sehr nischige Prompt-Volumina.
+
+## Abschließende Bewertung: Die Evolution des Sichtbarkeitsindex
+
+Johannes Beus und sein Team haben bewiesen, dass sie Marktentwicklungen nicht nur beobachten, sondern aktiv gestalten können. Anstatt in Panik vor den generativen Sprachmodellen zu verfallen, hat Sistrix genau die Werkzeuge geliefert, die SEO-Manager jetzt dringend brauchen, um den ROI ihrer Content-Maßnahmen weiterhin messbar zu machen.
+
+Die Integration der KI-Sichtbarkeit in das Kernprodukt ohne Aufpreis ist ein starkes Signal an den Markt. Sistrix bleibt damit das Schweizer Taschenmesser für alle, die in Google – egal ob klassisch oder generativ – gefunden werden wollen.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
 
 ---
 
@@ -13264,6 +13742,110 @@ ALOHA! 🌻✌️
 
   💬 Jetzt an der Diskussion teilnehmen!
   Beitrag auf LinkedIn öffnen
+
+
+---
+
+### Die Top 9 AI Visibility & Tracking Tools im Vergleich
+
+
+Der digitale Suchmarkt hat sich gedreht. Während wir uns jahrelang den Kopf darüber zerbrochen haben, wie wir auf Platz 1 bei Google kommen, stellt die Zielgruppe ihre komplexen Fragen heute direkt an **ChatGPT**, **Perplexity** oder **Claude**. 
+
+Die neue, viel existenziellere Frage lautet: Wird deine Marke in diesen generativen KI-Antworten als Experte zitiert oder empfiehlt der Algorithmus gnadenlos deinen härtesten Konkurrenten? Wer das nicht messen kann, betreibt reinsten Blindflug. 
+
+Aus diesem Grund habe ich den Markt für euch sondiert. Hier ist die ultimative Übersicht der **Top 9 AI Visibility & Tracking Tools**, die eure Sichtbarkeit in der künstlichen Intelligenz messbar machen.
+
+## Die Top 9 AI Visibility Tools im Direktvergleich
+
+Damit du direkt siehst, welches Tool in dein Budget und zu deinen Anforderungen passt, habe ich die harten Fakten in einer Tabelle aggregiert:
+
+| Platz | Tool | Fokus | Besonderheit | Preis ab (ca.) |
+|:---|:---|:---|:---|:---|
+| **1** | **Rankscale** | Spezialist (LLM Tracking) | Trackt über 17+ LLMs extrem detailliert inkl. Sentiment. | 84 € / Monat |
+| **2** | **SE Ranking** | All-in-One SEO | Kombiniert starkes klassisches SEO mit dediziertem AI-Tracker. | 55 € / Monat |
+| **3** | **Profound** | Enterprise AEO | Unicorn aus NY. Bietet autonome "Profound Agents" für Content. | 99 $ / Monat |
+| **4** | **Finseo** | Bot-Analytics | Starkes deutsches Tool. Fokus auf Bot Traffic & Query Fan-Outs. | 189 € / Monat |
+| **5** | **Sistrix AI** | Enterprise SEO | Integriert "AI Overviews" und "Citations" nahtlos in reguläre Pläne. | 119 € / Monat |
+| **6** | **Otterly AI** | Crawlability | Österreichisches Tool mit extrem starkem AI Crawlability-Audit. | 29 $ / Monat |
+| **7** | **Peec AI** | RAG & Audit | Berliner Lösung, stark in Prompt Monitoring und RAG-Readiness. | 49 € / Monat |
+| **8** | **Bing Webmaster** | Basis (Microsoft) | Liefert Basisdaten zur Sichtbarkeit im hauseigenen Copilot. | Kostenlos |
+| **9** | **Google Search Console**| Basis (Google) | Erlaubt Filterung auf Google AI Overviews, aber sehr limitiert. | Kostenlos |
+
+---
+
+## 1. Rankscale: Der LLM-Spezialist aus Österreich
+
+Wenn du wissen willst, was künstliche Intelligenz wirklich über dich denkt, ist **Rankscale** die unangefochtene Benchmark. Die Plattform trackt nicht nur ein oder zwei Modelle, sondern feuert deine Prompts systematisch gegen **17+ verschiedene LLMs** (darunter ChatGPT, Claude, Gemini und Perplexity). 
+Der absolute Game-Changer ist die Sentiment-Analyse: Das Tool sagt dir nicht nur, *ob* du erwähnt wirst, sondern auch, *wie* (Experten-Empfehlung vs. negativer Kontext).
+
+👉 **[Rankscale hier testen](https://rankscale.ai/?via=offer)** *(Affiliate)*  
+👉 **[Deep-Dive: Mein Praxis-Test zu Rankscale](https://teleschmie.de/blog/rankscale-ai-visibility-tool/)**
+
+## 2. SE Ranking: Die All-in-One SEO-Macht
+
+Wer keine Lust hat, für Rank-Tracking, Backlink-Audits und AI-Sichtbarkeit drei verschiedene Tools zu bezahlen, wird **SE Ranking** lieben. Die Software ist eine der mächtigsten All-in-One-Suiten auf dem Markt und hat rechtzeitig den Sprung in die KI-Ära geschafft. Mit dem dedizierten AI Tracker ("SE Visible") überwachst du deine Brand-Citations in generativen Antworten, ohne deine gewohnte SEO-Umgebung verlassen zu müssen.
+
+👉 **[Zum SE Ranking AI Tracker](https://seranking.com/de/ai-search-tracking.html?ga=4169588&source=link)** *(Affiliate)*  
+👉 **[Deep-Dive: SE Ranking im Detail](https://teleschmie.de/glossar/se-ranking/)**
+
+## 3. Profound: Das Enterprise Unicorn aus New York
+
+Profound ist kein einfaches Tool, sondern eine 1-Milliarde-Dollar schwere Wette auf die Zukunft der Suche. Die Plattform bietet tiefe "Answer Engine Insights" und zeigt echte Prompt-Suchvolumina an. Die wahre Stärke liegt jedoch in den autonomen **Profound Agents**: Diese KI-Arbeiter analysieren Lücken in der KI-Sichtbarkeit und generieren vollautomatisch AEO-optimierte FAQs für deine Landingpages.
+
+👉 **[Deep-Dive: Profound Übersicht](https://teleschmie.de/glossar/profound/)**
+
+## 4. Finseo: Deutsche Ingenieurskunst für Bot-Traffic
+
+Das deutsche Startup aus Gaildorf wählt einen hochtechnischen Ansatz. Finseo glänzt durch extrem tiefes Bot Traffic Monitoring. Du siehst in Echtzeit, wann der GPTBot oder ClaudeBot deine Server crawlt. Mit dem "Query Fan-Out" Feature zeigt dir Finseo zudem, welche verwandten Fragen die KIs auslösen, wenn ein Nutzer nach deiner Kern-Dienstleistung sucht.
+
+👉 **[Deep-Dive: Finseo Übersicht](https://teleschmie.de/glossar/finseo/)**
+
+## 5. Sistrix AI: Der Dinosaurier rüstet auf
+
+Sistrix, der Erfinder des Sichtbarkeitsindex, hat sich klug positioniert. Anstatt teure Zusatzmodule zu verkaufen, integrieren die Bonner ihre neuen AI-Features (Google AI Overviews Tracking, AI Mentions und Source Citations) **ohne Aufpreis** in die regulären SEO-Pläne (ab 119 Euro). Perfekt für alle Agenturen, die ohnehin auf Sistrix schwören und ihr Reporting nun um KI-Metriken anreichern müssen.
+
+👉 **[Deep-Dive: Sistrix AI Übersicht](https://teleschmie.de/glossar/sistrix-ai/)**
+
+## 6. Otterly AI: Der Crawlability-Experte
+
+Ein weiteres spannendes Tool aus Österreich. Otterly AI legt seinen Fokus stark auf die technische Erreichbarkeit deiner Inhalte für KIs (Crawlability). Wenn deine Inhalte von den RAG-Systemen (Retrieval-Augmented Generation) der Sprachmodelle nicht sauber ausgelesen werden können, hilft dir das beste SEO nichts. Otterly deckt genau diese technischen Lücken schonungslos auf.
+
+👉 **[Deep-Dive: Otterly AI Übersicht](https://teleschmie.de/glossar/otterly-ai/)**
+
+## 7. Peec AI: Prompt Monitoring aus Berlin
+
+Peec AI aus Berlin hat verstanden, dass User in KIs keine plumpen Keywords mehr eingeben. Das Tool fokussiert sich massiv auf **Prompt Monitoring**. Du hinterlegst komplexe, stark ausformulierte Suchanfragen (Prompts) und das System überwacht kontinuierlich, ob deine Marke in den fließenden Antworten von ChatGPT und Co. als Lösungsträger zitiert wird.
+
+👉 **[Deep-Dive: Peec AI Übersicht](https://teleschmie.de/glossar/peec-ai/)**
+
+## 8. Bing Webmaster Tools: Der Copilot-Einblick
+
+Microsofts Webmaster Tools werden oft belächelt, doch sie bieten einen massiven, kostenlosen Vorteil: Im Reporting-Dashboard findest du dedizierte Metriken, wie oft deine Seite im Microsoft Copilot (ehemals Bing Chat) als Quelle zitiert wurde und wie viele Klicks daraus resultierten. Ein absolutes Muss für jedes Basis-Setup.
+
+👉 **[Deep-Dive: Bing Webmaster Tools](https://teleschmie.de/glossar/bing-webmastertools/)**
+
+## 9. Google Search Console: Generative Reports
+
+Auf dem letzten Platz, aber dennoch unverzichtbar, landet die klassische Google Search Console. Google integriert langsam, aber sicher spezielle Filter für seine "AI Overviews". Zwar sind die Daten bei Weitem nicht so tiefgreifend und granular wie bei Spezial-Tools, aber es ist der offizielle Datenstrom direkt aus dem Mountain View Hauptquartier – und er kostet keinen Cent.
+
+👉 **[Deep-Dive: Google Search Console](https://teleschmie.de/glossar/google-search-console/)**
+
+---
+
+## Abschließende Bewertung: Welches Tool ist das richtige?
+
+Die Auswahl des passenden Tools entscheidet maßgeblich darüber, wie erfolgreich du deine Marke in der KI-Ära positionierst.
+
+**Meine klare Empfehlung:**
+Wenn du auf der Suche nach einer potenten **All-in-One Kompaktlösung** bist, bei der du klassisches SEO (Rankings, Backlinks, Audits) und modernes KI-Tracking unter einem Dach vereinen möchtest, dann ist **[SE Ranking](https://seranking.com/de/ai-search-tracking.html?ga=4169588&source=link)** *(Affiliate)* der absolute Preis-Leistungs-Sieger. Du sparst dir den Wildwuchs an Software-Abos und hast alles an einem Ort.
+
+Bist du jedoch ein **absoluter Spezialist**, eine PR-Agentur oder eine Enterprise-Marke, für die klassisches SEO bereits abgehakt ist, und du willst zu 100 % in die Tiefe der generativen Sprachmodelle (LLMs) eintauchen? Dann kommst du an **[Rankscale](https://rankscale.ai/?via=offer)** *(Affiliate)* nicht vorbei. Die Sentiment-Analyse über mehr als 17 verschiedene Modelle hinweg ist der aktuell schärfste Kompass im Blindflug der KI-Sichtbarkeit.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
 
 
 ---

@@ -26,11 +26,13 @@ Der fundamentale Wandel der Suchmaschinen-Landschaft erzwingt völlig neue Werkz
 
 Hier tritt **Otterly AI** auf den Plan. Die Plattform hat sich in Rekordzeit als eine der stärksten europäischen Lösungen für AI Search Analytics etabliert. Das Bootstrapped-Startup aus Österreich – mit Sitz im niederösterreichischen Persenbeug – wurde erst 2024 gegründet, bringt aber geballte Tech-Erfahrung mit. Hinter Otterly AI stehen die drei österreichischen Startup-Veteranen Thomas Peham (CEO), Josef Trauner (CPO) und Klaus-M. Schremser (CRO). Die Gründer haben zuvor bereits extrem erfolgreiche Software-Schmieden wie Usersnap (erfolgreicher Exit im Jahr 2023) aufgebaut oder bei Playern wie Storyblok das Wachstum auf C-Level-Ebene verantwortet. Dieses tiefe Verständnis für B2B-Softwarearchitektur und Skalierbarkeit spürt man in jedem Modul von Otterly.
 
-In diesem umfangreichen Übersichtsartikel sezieren wir die gesamte Plattform. Wir beleuchten die Funktionen für das [ai search monitoring](/glossar/ki-sichtbarkeit/), analysieren den technischen Unterbau und bewerten die hochtransparente Preisstruktur für Inhouse-Marketer und große Agenturen.
+In diesem umfangreichen Übersichtsartikel sezieren wir die gesamte Plattform. Wir beleuchten die Funktionen für das [AI Search Monitoring](/glossar/ki-sichtbarkeit/), analysieren den technischen Unterbau und bewerten die hochtransparente Preisstruktur für Inhouse-Marketer und große Agenturen.
 
 ## Die Kernfunktionen von Otterly AI
 
 Otterly positioniert sich bewusst als *Content Intelligence Platform for AI Search*. Es reicht heute nicht mehr aus, nur zu wissen, *dass* man erwähnt wurde. Man muss verstehen, *warum* die KI die eigene Marke ignoriert hat und den Wettbewerb bevorzugt. Die Plattform deckt den kompletten Workflow von der initialen Recherche bis zur technischen Content-Optimierung ab.
+
+![Otterly AI Crawlability Audit und Blocker Erkennung](../../assets/images/glossar/infografiken/otterly_audit.webp)
 
 ### 1. AI Prompt Research
 [Generative Engine Optimization (GEO)](/glossar/geo-tool/) beginnt nicht bei klassischen Short-Tail-Keywords, sondern bei tiefen, absichtsbasierten Prompts.
@@ -48,7 +50,7 @@ Die Plattform simuliert täglich hunderte Anfragen auf den führenden Engines (C
 ### 3. Content Audit & Crawlability Checks
 Eine der häufigsten Fehlerquellen in der generativen Suche ist die rein technische Blockade. KI-Crawler wie der `OAI-SearchBot` (OpenAI) oder der `ClaudeBot` agieren anders als der klassische Googlebot. Blockiert deine Firewall (WAF) diese Bots versehentlich, bist du für die KIs schlichtweg unsichtbar.
 
-Otterly AI liefert einen knallharten Content-Audit. Es prüft die Crawlability deiner Domain aus der spezifischen Sicht dieser LLM-Bots. Das System deckt auf, warum KIs deinen Content ignorieren. Es generiert auf Basis der Fehler konkrete Content-Briefings, um unsichtbare Seiten in hochgradig zitierfähige AI-Quellen zu transformieren. Ein unverzichtbares Werkzeug für jedes saubere [ai visibility audit](/glossar/ai-visibility-tools/).
+Otterly AI liefert einen knallharten Content-Audit. Es prüft die Crawlability deiner Domain aus der spezifischen Sicht dieser LLM-Bots. Das System deckt auf, warum KIs deinen Content ignorieren. Es generiert auf Basis der Fehler konkrete Content-Briefings, um unsichtbare Seiten in hochgradig zitierfähige AI-Quellen zu transformieren. Ein unverzichtbares Werkzeug für jedes saubere [AI Visibility Audit](/glossar/ai-visibility-tools/).
 
 ### 4. Agent Analytics
 Dieses Feature unterscheidet Otterly radikal von simplen Scraping-Tools. Mit den Agent Analytics bietet die Plattform eine tiefe Analyse-Schicht, die explizit darauf ausgelegt ist, das Verhalten von autonomen KI-Agenten zu messen. Wenn Agenten das Web durchsuchen, um für Unternehmen automatisiert Recherchen durchzuführen, hinterlassen sie völlig neue Datenspuren. Otterly verarbeitet hier (je nach Plan) Millionen von Events pro Monat, um diese neuartige Traffic-Quelle messbar zu machen.
@@ -71,7 +73,7 @@ Viele Marketer fragen sich: "Warum reicht mein klassischer Rank-Tracker nicht me
 | **Erfolgskennzahl** | Klickrate (CTR) & Traffic | Share of AI Voice (Marktanteil) |
 | **Wettbewerb** | Andere Domains auf der SERP | LLMs, Agenten & Wettbewerber |
 
-Herkömmliche [seo visibility tools](/glossar/se-ranking/) rüsten zwar vereinzelt nach, aber eine exklusive, dedizierte Architektur wie Otterly AI liefert tiefere, rein auf LLMs zugeschnittene Metriken. Es misst nicht die reine Position einer URL auf einer statischen Liste, sondern den dynamischen Raum der generativen Antwort.
+Herkömmliche [SEO Visibility Tools](/glossar/se-ranking/) rüsten zwar vereinzelt nach, aber eine exklusive, dedizierte Architektur wie Otterly AI liefert tiefere, rein auf LLMs zugeschnittene Metriken. Es misst nicht die reine Position einer URL auf einer statischen Liste, sondern den dynamischen Raum der generativen Antwort.
 
 ## Transparente Preismodelle (Stand 2026)
 

@@ -26,7 +26,7 @@ Der Wandel der digitalen Suche vollzieht sich in atemberaubender Geschwindigkeit
 
 Aus dem Herzen von New York City formte sich genau für dieses Problem eine der extremsten Erfolgsgeschichten der letzten Jahre: **Profound** (`tryprofound.com`). Gegründet erst im August 2024 von James Cadwallader (CEO) und Dylan Babbs (CTO), legte das Startup ein Wachstum hin, das selbst im Silicon Valley für Aufsehen sorgte. Getrieben von massiven Venture-Capital-Investitionen durchbrechen die Amerikaner bereits im Frühjahr 2026 die magische Bewertungsgrenze von 1 Milliarde US-Dollar (Unicorn-Status). Profound weigert sich, ein bloßer "Rank-Tracker" zu sein. Die Plattform prägt den Begriff der [Answer Engine Optimization (AEO)](/glossar/geo-tool/) radikal neu und versteht sich als "Full Stack Marketing Platform" für den KI-Sektor.
 
-In diesem tiefgehenden Übersichtsartikel dekonstruieren wir die Milliarden-Dollar-Plattform. Wir analysieren die Module vom klassischen [ai search monitoring](/glossar/ki-sichtbarkeit/) bis hin zu den autonomen KI-Agenten und bewerten die amerikanische Preisstruktur.
+In diesem tiefgehenden Übersichtsartikel dekonstruieren wir die Milliarden-Dollar-Plattform. Wir analysieren die Module vom klassischen [AI Search Monitoring](/glossar/ki-sichtbarkeit/) bis hin zu den autonomen KI-Agenten und bewerten die amerikanische Preisstruktur.
 
 ## Die Kernfunktionen von Profound
 
@@ -42,6 +42,9 @@ Eines der größten Probleme im KI-Marketing ist das blinde Raten. Niemand wusst
 Mit dem Feature "Prompt Volumes" bricht Profound diese Blackbox auf. Das System zeigt, was Millionen von Menschen die KIs fragen, und verknüpft diese Konversationen mit harten, datengestützten Volumen-Metriken. So können Marketing-Teams ihre Strategie nicht mehr nach Bauchgefühl, sondern nach echter Nachfrage ausrichten.
 
 ### 3. Profound Agents & Sheets
+
+![Profound AI Agents und Content Generation](../../assets/images/glossar/infografiken/profound_agents.webp)
+
 Hier zeigt das Unicorn seine wahre Macht. Ein Agent bei Profound ist ein autonomer, digitaler Mitarbeiter (Worker), der eine spezifische Funktion übernimmt.
 Ein Praxisbeispiel: Der "AEO-Optimierte FAQ Generator". Du gibst dem Agenten die URL deiner Landingpage und den Kern-Suchbegriff (z.B. "Best Running Shoes"). Der Agent durchforstet Perplexity, analysiert die dort gestellten Fragen der Nutzer, gleicht sie mit deiner Website ab und generiert vollautomatisch einen perfekten FAQ-Bereich, der exakt auf die Informationsbedürfnisse der KI zugeschnitten ist.
 Mit "Profound Sheets" lassen sich diese Agenten auf hunderte URLs gleichzeitig skalieren. Es ist Content-Produktion auf Steroiden.
@@ -65,7 +68,7 @@ Warum verlagern globale Marken ihr Budget massiv in Plattformen wie Profound?
 | **Sichtbarkeit** | Fokus auf den Googlebot | Abdeckung von bis zu 9 autonomen LLM-Systemen |
 | **Traffic-Wert** | Hoch | Extrem hoch (Nutzer stehen kurz vor der Conversion) |
 
-Während klassische [seo visibility tools](/glossar/se-ranking/) den Status quo der blauen Links vermessen, agiert Profound proaktiv in der neuen Konversations-Ära.
+Während klassische [SEO Visibility Tools](/glossar/se-ranking/) den Status quo der blauen Links vermessen, agiert Profound proaktiv in der neuen Konversations-Ära.
 
 ## Die Preisstruktur (Stand 2026)
 

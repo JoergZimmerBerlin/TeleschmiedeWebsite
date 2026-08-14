@@ -26,11 +26,13 @@ Der digitale Suchmarkt befindet sich in einem tektonischen Wandel. Doch während
 
 Die Geschichte der Plattform ist tief in der deutschen SEO-DNA verwurzelt. Gegründet von Johannes Beus in Bonn, revolutionierte das Unternehmen vor über 15 Jahren den Markt mit der Erfindung des *Sichtbarkeitsindex*. Was damals der Goldstandard für das Ranking in den zehn blauen Links von Google war, wird nun konsequent auf die Ära der Sprachmodelle und Answer Engines portiert. Sistrix wählt dabei einen extrem kundenfreundlichen Weg: Statt teurer Zusatzmodule baut das Team die neuen KI-Metriken nahtlos in die bestehende Infrastruktur ein.
 
-In dieser Übersicht analysieren wir, welche Funktionen Sistrix für das [ai search monitoring](/glossar/ki-sichtbarkeit/) bereithält und wie sich die rheinische Lösung gegen reine AEO-Plattformen schlägt.
+In dieser Übersicht analysieren wir, welche Funktionen Sistrix für das [AI Search Monitoring](/glossar/ki-sichtbarkeit/) bereithält und wie sich die rheinische Lösung gegen reine AEO-Plattformen schlägt.
 
 ## Die Kernfunktionen von Sistrix AI
 
 Die Entwickler in Bonn haben verstanden, dass die klassische organische Suche nicht verschwindet, sondern sich mit generativen KI-Antworten vermischt. Genau an dieser Schnittstelle setzen die neuen Features an.
+
+![Sistrix AI Funktionen: Overviews Tracking und Mentions](../../assets/images/glossar/infografiken/sistrix_ai.webp)
 
 ### 1. AI Mentions & Citations
 Wenn ChatGPT oder Perplexity eine Antwort generieren, greifen sie auf externe Quellen zurück. Das Feature *Mentions & Citations* trackt exakt diese Nennungen.
@@ -62,7 +64,7 @@ Es gibt keine versteckten Add-ons. Wer Sistrix bereits nutzt, hat automatisch Zu
 
 Ist Sistrix nun der direkte Konkurrent zu Plattformen wie Profound, Finseo oder Otterly? Die Antwort ist ein klares Jein.
 
-Sistrix operiert aus der Position eines ganzheitlichen [seo visibility tools](/glossar/seo-visibility-tools/). Der große Vorteil ist die zentrale Datenhaltung: SEO-Teams müssen nicht zwischen fünf verschiedenen Tools springen. Die KI-Metriken ergänzen die organischen Rankings, die Backlinks und die Onpage-Daten perfekt. Wer SEO strategisch und ganzheitlich betrachtet, wird die nahtlose Integration in Bonn lieben.
+Sistrix operiert aus der Position eines ganzheitlichen [SEO Visibility Tools](/glossar/seo-visibility-tools/). Der große Vorteil ist die zentrale Datenhaltung: SEO-Teams müssen nicht zwischen fünf verschiedenen Tools springen. Die KI-Metriken ergänzen die organischen Rankings, die Backlinks und die Onpage-Daten perfekt. Wer SEO strategisch und ganzheitlich betrachtet, wird die nahtlose Integration in Bonn lieben.
 
 Reine AEO-Plattformen hingegen gehen oft einen Schritt weiter in die Automatisierung (z.B. durch KI-Agenten, die direkt optimierten Content generieren) oder fokussieren sich extrem auf sehr nischige Prompt-Volumina.
 

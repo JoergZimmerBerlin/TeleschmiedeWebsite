@@ -26,11 +26,11 @@ Der fundamentale Wandel der organischen Suche ist längst keine ferne Zukunftsmu
 
 Genau diese gigantische Lücke in der Messbarkeit schließt Peec AI. 
 
-**Peec AI** (peec.ai) ist eine kompromisslose, hochspezialisierte Plattform für AI Search Analytics. Sie trackt, analysiert und optimiert die Sichtbarkeit von Marken in generativen Suchmaschinen mit analytischer Präzision. Während klassische [seo visibility tools](/glossar/se-ranking/) traditionell starke Allrounder für organische Google-Rankings bleiben, bohrt sich Peec AI chirurgisch präzise in die Blackbox der Large Language Models (LLMs). In diesem monumentalen Übersichtsartikel zerlegen wir die Plattform in alle ihre Einzelteile. Wir analysieren das Feature-Set, bewerten die technischen Audits, vergleichen den Paradigmenwechsel mit dem klassischen SEO und beleuchten die extrem transparente Preisstruktur für Brands und Agenturen im Detail.
+**Peec AI** (peec.ai) ist eine kompromisslose, hochspezialisierte Plattform für AI Search Analytics. Sie trackt, analysiert und optimiert die Sichtbarkeit von Marken in generativen Suchmaschinen mit analytischer Präzision. Während klassische [SEO Visibility Tools](/glossar/se-ranking/) traditionell starke Allrounder für organische Google-Rankings bleiben, bohrt sich Peec AI chirurgisch präzise in die Blackbox der Large Language Models (LLMs). In diesem monumentalen Übersichtsartikel zerlegen wir die Plattform in alle ihre Einzelteile. Wir analysieren das Feature-Set, bewerten die technischen Audits, vergleichen den Paradigmenwechsel mit dem klassischen SEO und beleuchten die extrem transparente Preisstruktur für Brands und Agenturen im Detail.
 
 ## Die Kernfunktionen von Peec AI im Detail
 
-Ein echtes, hochperformantes [ai visibility tool](/glossar/ai-visibility-tools/) muss heute weit mehr leisten, als nur einfache, statische Chat-Verläufe in ein Excel-Dokument zu exportieren. Die verlässliche Messbarkeit von KI-Antworten erfordert eine granulare Auswertung auf Prompt-Ebene, gepaart mit einer massiven Rechenleistung im Hintergrund. Peec AI liefert hierfür ein brachiales Arsenal an Werkzeugen.
+Ein echtes, hochperformantes [AI Visibility Tool](/glossar/ai-visibility-tools/) muss heute weit mehr leisten, als nur einfache, statische Chat-Verläufe in ein Excel-Dokument zu exportieren. Die verlässliche Messbarkeit von KI-Antworten erfordert eine granulare Auswertung auf Prompt-Ebene, gepaart mit einer massiven Rechenleistung im Hintergrund. Peec AI liefert hierfür ein brachiales Arsenal an Werkzeugen.
 
 ### 1. AI Visibility & Citation Tracking
 Das unangefochtene Herzstück der Software ist das Visibility-Modul. Es beantwortet schonungslos die zentrale Frage: **Wird meine Marke von der KI empfohlen – oder empfiehlt sie durchweg meine Konkurrenz?**
@@ -41,13 +41,16 @@ Die Plattform misst den sogenannten *Share of Voice*. Du siehst exakt, wie hoch 
 - **Intelligente Sentiment-Analyse:** Eine Erwähnung ist komplett nutzlos (und im schlimmsten Fall geschäftsschädigend), wenn die KI negativ über das Produkt spricht. Peec AI bewertet das Sentiment (positiv, neutral, negativ) jeder einzelnen Nennung vollautomatisch. So weißt du, ob ein Modell dich als "Marktführer" oder als "veraltete, überteuerte Lösung" brandmarkt.
 
 ### 2. Prompt Monitoring
+
+![Peec AI Prompt Monitoring](../../assets/images/glossar/infografiken/peec_prompt.webp)
+
 Klassisches SEO nutzt Suchvolumina. [Generative Engine Optimization (GEO)](/glossar/geo-tool/) nutzt Prompts.
 Im Prompt Monitoring legst du exakte, ausformulierte Nutzerfragen an, die tief im Funnel liegen. Zum Beispiel: *"Vergleiche die Softwarelösung A mit der Softwarelösung B hinsichtlich der europäischen Datenschutzkonformität und der Preisstruktur für Teams über 50 Personen"*. Peec AI simuliert diese komplexen Abfragen periodisch über verschiedene KI-Engines hinweg.
 
 Du erhältst lückenlose historische Verlaufsdaten. Fällt deine Marke nach einem Core-Update plötzlich aus den Empfehlungen von Claude heraus, schlägt das System Alarm. Die gesammelten Daten helfen dir extrem gezielt dabei, deinen Content exakt so umzuschreiben, dass die KIs dich wieder als dominierende Autorität einstufen. Dieses Reverse-Engineering der KI-Antworten ist pures Gold für Content-Strategen.
 
 ### 3. Gnadenloses Competitor Benchmarking
-SEO ist und bleibt ein brutaler Verdrängungswettbewerb. Das gilt zu 100 Prozent auch für das [ai visibility tracking](/glossar/ki-sichtbarkeit/).
+SEO ist und bleibt ein brutaler Verdrängungswettbewerb. Das gilt zu 100 Prozent auch für das [AI Visibility Tracking](/glossar/ki-sichtbarkeit/).
 Die Plattform erlaubt den direkten, ungeschönten Abgleich mit deinen härtesten Wettbewerbern auf exakt derselben Datengrundlage.
 
 - **Marktanteils-Analyse:** Wer dominiert die Antworten zu den lukrativsten kommerziellen Prompts?
@@ -57,14 +60,14 @@ Die Plattform erlaubt den direkten, ungeschönten Abgleich mit deinen härtesten
 ### 4. AI Shopping Tracking & Product Visibility
 Für E-Commerce-Brands hat sich das Spielfeld im letzten Jahr radikal verschoben. KIs generieren heute proaktiv visuelle Produkt-Karussells und knallharte Preisvergleiche direkt im Chatfenster des Nutzers. Ein Klick auf die Website findet oft gar nicht mehr statt.
 
-Peec AI überwacht diese brandneuen, dynamischen Shopping-Integrationen akribisch. Das Tool trackt, ob deine Produkte überhaupt in den visuellen Empfehlungen auftauchen, ob die angezeigten Preise (und Rabattaktionen) korrekt gezogen werden und wie die KI die Produktspezifikationen im Vergleich zur Konkurrenz darstellt. Wer im [ai search visibility](/glossar/ki-sichtbarkeit/) Game für E-Commerce heute noch gewinnen will, kommt an diesem speziellen E-Commerce-Modul schlichtweg nicht mehr vorbei. Es entscheidet über direkten Umsatz.
+Peec AI überwacht diese brandneuen, dynamischen Shopping-Integrationen akribisch. Das Tool trackt, ob deine Produkte überhaupt in den visuellen Empfehlungen auftauchen, ob die angezeigten Preise (und Rabattaktionen) korrekt gezogen werden und wie die KI die Produktspezifikationen im Vergleich zur Konkurrenz darstellt. Wer im [AI Search Visibility](/glossar/ki-sichtbarkeit/) Game für E-Commerce heute noch gewinnen will, kommt an diesem speziellen E-Commerce-Modul schlichtweg nicht mehr vorbei. Es entscheidet über direkten Umsatz.
 
 ### 5. Crawlability Checks & Bot-Audits
 KI-Bots verhalten sich fundamental anders als der klassische, alteingesessene Googlebot. OpenAI, Anthropic und Perplexity nutzen völlig eigene, extrem aggressive Crawler (z. B. `OAI-SearchBot`, `ClaudeBot`, `PerplexityBot`), um das Web in Echtzeit zu durchsuchen und ihre Modelle mit frischen Daten zu füttern (RAG - Retrieval-Augmented Generation).
 
 Wenn deine `robots.txt` oder deine serverseitige Web Application Firewall (WAF) diese Bots versehentlich (oder durch alte Security-Regeln) blockiert, bist du für die Modelle unsichtbar. Deine Marke existiert in der KI-Welt dann schlichtweg nicht. Peec AI bringt ein tiefgreifendes, technisches Audit-Tool mit, das deine gesamte Domain gegen über 40 spezifische AI-Bots auf Herz und Nieren testet. 
 
-Es simuliert Zugriffe aus verschiedenen Rechenzentren. Es prüft HTTP-Statuscodes. Es deckt erbarmungslos auf, ob serverseitiges Rendering (SSR) bei JavaScript-lastigen Seiten korrekt konfiguriert ist, damit LLMs die Text-Inhalte überhaupt parsen können. Ein absolutes, essenzielles Basis-Werkzeug für jedes ernstzunehmende [ai visibility audit](/glossar/ai-visibility-tools/).
+Es simuliert Zugriffe aus verschiedenen Rechenzentren. Es prüft HTTP-Statuscodes. Es deckt erbarmungslos auf, ob serverseitiges Rendering (SSR) bei JavaScript-lastigen Seiten korrekt konfiguriert ist, damit LLMs die Text-Inhalte überhaupt parsen können. Ein absolutes, essenzielles Basis-Werkzeug für jedes ernstzunehmende [AI Visibility Audit](/glossar/ai-visibility-tools/).
 
 ## Peec AI vs. klassisches SEO: Der radikale Paradigmenwechsel
 

@@ -113,3 +113,6 @@ Einen SEORCH AI Check durchzuführen ist extrem simpel:
 3. Klicke auf "Prüfen".
 4. Der Crawler analysiert die Seite in Echtzeit. Nach wenigen Sekunden erhältst du einen umfassenden Report, der dir genau aufschlüsselt, welche der 22 KI-Kriterien du bestanden hast und wo noch akuter Handlungsbedarf besteht.
 
+> [!NOTE]
+> **Community-Feedback & Weiterentwicklung:** Aktuell liefert SEORCH die Ergebnisse (auf Wunsch) als klassisches PDF. Innerhalb der SEO-Community wird jedoch bereits der Ruf nach einem nativen Markdown-Export (`.md`) laut, um die Audit-Ergebnisse ohne Reibungsverluste direkt an KI-Agenten oder LLMs zur automatisierten Optimierung übergeben zu können. Es bleibt spannend, wie sich das Tool in Zukunft entwickelt!
+

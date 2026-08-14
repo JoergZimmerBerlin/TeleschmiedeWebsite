@@ -17,6 +17,10 @@ faqs:
     answer: "Laut Expertenmeinungen gibt es für reine Textinhalte meist keine strenge Kennzeichnungspflicht, solange du die redaktionelle Verantwortung übernimmst und keine Täuschung vorliegt."
   - question: "Ist ein Hinweis bei KI-Bildern notwendig?"
     answer: "Besonders bei hyperrealistischen Bildern oder Deepfakes ist eine Kennzeichnung durch den EU AI Act vorgeschrieben. Bei harmlosen Infografiken reicht oft Transparenz."
+  - question: "Ist Automatisierung durch Agenten strafbar oder kennzeichnungspflichtig?"
+    answer: "Nein. Der Grad der Automatisierung durch KI-Agenten ist nicht das Problem. Die gesetzliche Grenze liegt beim Täuschungsrisiko (Deepfakes, erfundene Evidenz)."
+  - question: "Hat KI-Content negative Auswirkungen auf das SEO Ranking?"
+    answer: "Solange der Inhalt hochwertig, nutzerzentriert und hilfreich ist, wertet Google ihn nicht ab. Entscheidend ist das E-E-A-T Profil, nicht ob der Text getippt oder generiert wurde."
 ---
 
 *Diese Diskussion wurde von mir auf LinkedIn am 04.08.2026 gestartet:*
@@ -86,7 +90,7 @@ Angst vor Abmahnungen ist der falsche Treiber für Innovation.
 
 Wer seine [Agent Readiness](/glossar/agent-readiness/) ernst nimmt und [KI-Content](/glossar/ki-content/) strategisch einsetzt, muss sich nicht verstecken. Letztlich entscheidet das [E-E-A-T](/glossar/e-e-a-t/) Profil über den wahren Wert des Contents, nicht die Frage, ob eine Tastatur oder ein Agent den Text getippt hat.
 
-Diskutiert dieses Thema gerne weiter oder bucht euch direkt eine [SEO Sprechstunde](/sprechstunde/) für individuelle Analysen.
+Diskutiert dieses Thema gerne weiter oder bucht euch direkt eine [SEO Sprechstunde](/seo-sprechstunde/) für individuelle Analysen.
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>

@@ -47,3 +47,13 @@ YouTube nutzt modernste [KI-Systeme](/glossar/ki-seo/), um den Ton, das Bildmate
 - Nutze Kapitel (Timestamps), um das Video strukturierter zu machen.
 - Vermeide Keyword-Stuffing in Tags; konzentriere dich auf die Video-Beschreibung.
 - Verlinke deinen YouTube Kanal sauber mit allen deinen anderen Assets, um [Local SEO](/glossar/local-seo/) und Entity Building zu betreiben.
+
+## Transkripte als Hebel für AI-Crawler (Praxistipp von Jörg Zimmer)
+
+Ein oft unterschätzter Aspekt im modernen YouTube SEO und der generellen [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/) ist die Auslesbarkeit von Inhalten durch KI-Systeme (LLMs) und AI-Crawler (wie GPTBot oder ClaudeBot). Diese Crawler können Videos meist nicht visuell „rendern“ oder ansehen, aber es ist extrem ressourcenschonend und leicht für sie, das maschinengenerierte oder manuell hochgeladene Text-Transkript eines Videos zu parsen.
+
+Deshalb sind Video-Interviews und Video-Podcasts aktuell ein absoluter Hebel für Autorität und Sichtbarkeit in der generativen Suche. 
+
+> [!TIP]
+> **Praxistipp von Jörg Zimmer:** 
+> Geh in einen Podcast oder führe Video-Interviews und sorge aktiv dafür, dass das Transkript deiner Videos deinen Namen und den klaren Kontext zu deiner Marke sowie deinen Diensten enthält! Sprich deinen Namen und deine Expertise laut aus, damit es im Transkript landet. Die Crawler lesen diese Texte aus und verknüpfen deine gesprochenen Worte direkt mit deiner Entität in ihrem Trainingsdatensatz.

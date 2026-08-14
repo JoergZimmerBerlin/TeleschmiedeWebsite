@@ -12,6 +12,15 @@ key_takeaways:
   - "YouTube bietet die Möglichkeit, bis zu 14 Links im Kanal zu hinterlegen."
   - "Diese Verlinkungen helfen Google, deine Entität und deinen Knowledge Graph zu stärken."
   - "Auch in Google Maps und anderen Social Kanälen sollten alle Profile konsistent verlinkt werden."
+faqs:
+  - question: "Warum sollte ich Links in meinem YouTube Kanal hinterlegen?"
+    answer: "YouTube gehört zu Google. Hinterlegte Links fungieren als starkes Signal für die Suchmaschine, um deine verschiedenen digitalen Profile (Website, Social Media, etc.) einer eindeutigen Entität zuzuordnen."
+  - question: "Wie viele Links kann ich bei YouTube maximal eintragen?"
+    answer: "Du kannst aktuell bis zu 14 externe Links in deinem YouTube-Kanalprofil hinterlegen."
+  - question: "Bringt das Hinterlegen von Links auf YouTube direkte SEO-Vorteile?"
+    answer: "Es ist ein Baustein für das Entity Building. Es stärkt deinen Knowledge Graph und kann somit indirekt deine Relevanz und Sichtbarkeit bei markenbezogenen Suchanfragen verbessern."
+  - question: "Sollte ich auch auf Google Maps Links setzen?"
+    answer: "Unbedingt! Konsistente Verlinkungen über alle Google-Dienste (wie YouTube und Google Unternehmensprofile) hinweg sind essenziell für lokales SEO und den Aufbau von digitalem Vertrauen."
 ---
 
 *Dieser Quicktipp wurde von mir am 12.08.2026 auf LinkedIn geteilt:*
@@ -49,7 +58,7 @@ Ein hervorragender Zusatz-Tipp! Neben klassischen Profilen kann hier auch direkt
 
 Natürlich gab es auch ein paar Schmunzler in den Kommentaren, wie etwa von Britta Behrens ("Super Tipp, aber XING? Seriously???"), aber hey – am Ende des Tages zählt jeder verifizierte Link-Knotenpunkt in der Matrix von Google. Je dichter das Netz, desto klarer die Entität.
 
-Vergiss also nicht: Trag alle wichtigen Links ein. Mach das bei YouTube, bei Google Unternehmensprofile und überall sonst, wo dir digitale Flächen gehören. Wenn du dabei Hilfe brauchst, melde dich einfach in der [SEO Sprechstunde](/sprechstunde/).
+Vergiss also nicht: Trag alle wichtigen Links ein. Mach das bei YouTube, bei Google Unternehmensprofile und überall sonst, wo dir digitale Flächen gehören. Wenn du dabei Hilfe brauchst, melde dich einfach in der [SEO Sprechstunde](/seo-sprechstunde/).
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>

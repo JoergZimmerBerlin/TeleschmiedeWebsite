@@ -106,21 +106,13 @@ const videoItemList = {
         "embedUrl": `https://www.youtube.com/embed/${video.id}`,
         "url": `https://www.youtube.com/watch?v=${video.id}`,
         "actor": [
-          {
-            "@type": "Person",
-            "name": "Jörg Zimmer",
-            "url": "https://teleschmie.de/"
-          }
+          { "@id": "https://teleschmie.de/#person" }
         ],
         "creator": {
           "@type": "Person",
           "name": video.host
         },
-        "about": {
-          "@type": "Person",
-          "name": "Jörg Zimmer",
-          "url": "https://teleschmie.de/"
-        }
+        "about": { "@id": "https://teleschmie.de/#person" }
       }
     };
   })

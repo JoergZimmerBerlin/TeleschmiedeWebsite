@@ -37,6 +37,7 @@
   - Vermeide Wildwuchs (z.B. "Agentur & Tools" oder "KI & SEO"). Nutze nur diese festgelegten Standards!
 
 - **Qualität, Workflows & Kommunikation (Premium-Anspruch):**
+  - **Ressourcen-Management (Daemons & Tasks):** Laufende Hintergrundprozesse (Dev-Server, Log-Trailer, Skripte), die mit `IsDaemon: true` gestartet wurden, MÜSSEN am Ende eines Tasks autonom und ungefragt via `manage_task` (kill) beendet werden. Der Rechner des Nutzers darf nicht unnötig belastet werden. Keine Hintergrund-Prozesse als Karteileichen hinterlassen!
   - **Webrecherche-Pflicht für Glossar (Zero-Hallucination):** Vor dem Schreiben JEDES einzelnen Glossar-Artikels MUSS zwingend und ohne jede Ausnahme eine eigenständige, aktive Webrecherche (`search_web`) zum spezifischen Thema durchgeführt werden. Es darf sich NIEMALS nur auf internes KI-Modellwissen oder vorherige Batch-Suchen verlassen werden. Keine Umwege, keine Ausnahmen!
   - **Push-Back bei Überladung (Step-by-Step):** Der Nutzer priorisiert höchste Qualität über Schnelligkeit. Wenn ein Prompt zu viele Aufgaben auf einmal enthält, DARFST du nicht alle hastig abarbeiten und dabei Dinge vergessen. STOPPE stattdessen, teile die Aufgaben in kleine Blöcke auf und hole dir für jeden Block einzeln das Go des Nutzers. Qualität duldet kein Überspringen von Tasks.
   - **Kein "Blind-Batching":** Wenn mehrere URLs zur Verarbeitung eingereicht werden, dürfen maximal 3 URLs auf einmal bearbeitet werden. Jeder Batch muss zwingend das Quality Gate passieren, bevor der nächste begonnen wird.

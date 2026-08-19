@@ -21,3 +21,9 @@ Das Skript erledigt folgende Schritte vollautomatisch:
 
 **WICHTIG (IONOS Hosting):**
 Beachte bei Problemen mit Redirects oder fehlender `.htaccess` unbedingt den [IONOS Standard](file:///.agent/ionos-standard.md). Das Deployment nutzt einen PHP-Aktivator, um Protokollsperren zu umgehen.
+
+**STRIKTE KOMMUNIKATIONS-REGEL (KEIN LÜGEN):**
+Das Deployment-Skript durchläuft oft API-Limit-Warteschleifen (z. B. 5 Minuten Wartezeit bei GitHub). 
+1. Beende die Bearbeitung des Tasks NICHT und melde dem Nutzer NIEMALS vorschnell, dass das Deployment live ist!
+2. Wenn das Deployment fehlgeschlagen ist, musst du den Fehler sofort und ehrlich kommunizieren. Verkaufe niemals einen Abbruch als Erfolg!
+3. Gib dem Nutzer beim Abschluss **IMMER den konkreten Git-Status / GitHub-Status als Beweis** mit (z.B. den letzten Commit Hash oder die Statusmeldung der GitHub Action aus dem Log). Produziere deine Statusmeldung **ausschließlich** basierend auf echten Git/GitHub-Rückmeldungen, nicht auf Annahmen. Nur wenn GitHub meldet, dass es gebaut ist, ist es gebaut!

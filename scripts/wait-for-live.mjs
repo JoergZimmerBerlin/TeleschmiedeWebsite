@@ -23,10 +23,14 @@ try {
   console.log("⚠️ Kein lokales build.txt gefunden. Prüfe nur auf Erreichbarkeit.");
 }
 
-const MAX_ATTEMPTS = 45;
-const DELAY = 10000; // 10s -> max 7.5 Minuten
+const MAX_ATTEMPTS = 20; // 20 * 30s = 10 Minuten Polling
+const DELAY = 30000; // 30s Abstand zwischen den Pings
+const INITIAL_WAIT = 240000; // 4 Minuten initiale Wartezeit
 
 async function check() {
+  console.log("⏳ Starte initiale 4-Minuten-Wartezeit, um GitHub Actions Zeit zum Bauen zu geben...");
+  await new Promise(r => setTimeout(r, INITIAL_WAIT));
+
   const buildUrl = `${url}/build.txt`;
   
   for (let i = 1; i <= MAX_ATTEMPTS; i++) {
@@ -94,8 +98,8 @@ async function check() {
            console.log(`⚠️ GitHub API Limit erreicht oder nicht erreichbar. Prüfe stattdessen URL Status: ${url}`);
            const res = await fetch(url, { method: 'HEAD' });
            if (res.ok) {
-             console.log(`⏳ Fallback: Warte zur Sicherheit 5 Minuten, da GitHub API nicht antwortet...`);
-             await new Promise(r => setTimeout(r, 300000));
+             console.log(`⏳ Fallback: Warte zur Sicherheit 15 Minuten, da GitHub API nicht antwortet...`);
+             await new Promise(r => setTimeout(r, 900000));
              process.exit(0);
            }
         }

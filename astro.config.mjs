@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 // Automatische Erkennung: GitHub Pages vs Produktion
@@ -15,7 +14,6 @@ export default defineConfig({
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
   integrations: [
-    sitemap(),
     mdx()
   ],
   vite: {

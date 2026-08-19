@@ -146,12 +146,7 @@ const videoItemList = {
     <div class="container-narrow">
       <div class="space-y-16">
         {videos.map(video => (
-          <article class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-gray-100 relative overflow-hidden" itemscope itemtype="https://schema.org/VideoObject">
-            <meta itemprop="name" content={video.title} />
-            <meta itemprop="description" content={video.description} />
-            <meta itemprop="uploadDate" content={video.date} />
-            <meta itemprop="embedUrl" content={`https://www.youtube.com/embed/${video.id}`} />
-            
+          <article class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-gray-100 relative overflow-hidden">
             <!-- Date Badge -->
             <div class="absolute top-0 right-0 bg-lime-100 text-lime-800 text-xs font-bold px-4 py-2 rounded-bl-2xl z-10">
               {new Date(video.date).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -191,7 +186,7 @@ const videoItemList = {
                   </span>
                 </summary>
                 <div class="p-5 pt-0 text-gray-muted text-sm leading-relaxed border-t border-gray-100 bg-gray-50/50">
-                  <div class="pt-4 max-h-96 overflow-y-auto pr-4 custom-scrollbar whitespace-pre-wrap" itemprop="transcript" set:html={formatDescription(getTranscript(video.id), video.id)}>
+                  <div class="pt-4 max-h-96 overflow-y-auto pr-4 custom-scrollbar whitespace-pre-wrap" set:html={formatDescription(getTranscript(video.id), video.id)}>
                   </div>
                 </div>
               </details>

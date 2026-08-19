@@ -1,0 +1,13 @@
+Heute wird es technisch und strategisch: In diesem Livestream-Format begrüßt Roland Golla Jörg Zimmer zu einer ausführlichen SEO-Sprechstunde. 
+
+Wir schauen uns aktuelle SEO-Herausforderungen an, geben Einblicke in echte Anwendungsfälle und beantworten Fragen direkt aus dem Chat. Ob technisches SEO, Suchmaschinen-Strategien oder allgemeine Fragen zur Sichtbarkeit – hier wird Klartext geredet.
+
+**⏱️ Timestamps (Kapitel):**
+00:00:00 SEO-Experte Jörg Zimmer im Talk zu KI und Google
+00:03:29 GEO versus SEO: Wie KI-Suchsysteme wirklich ticken
+00:07:21 Die SEO-Sprechstunde: Ablauf und Nutzen erklärt
+00:26:20 Live SEO-Analyse: Sistrix Sichtbarkeitsindex im Check
+00:33:18 Hugging Face: Keyword-Analyse, Suchvolumen und CPC
+00:52:39 PHP-Training-Seite: Title-Tag und Meta-Description optimieren
+01:13:33 Google Search Console: Sitemap, Indexierung und 404-Fehler
+01:54:34 Core Web Vitals: PageSpeed Insights und CLS-Fehler fixen

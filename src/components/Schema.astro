@@ -8,7 +8,7 @@ interface Props {
   description?: string;
   lastReviewed?: string;
   url?: string;
-  type?: 'article' | 'glossary' | 'about' | 'software' | 'default';
+  type?: 'article' | 'glossary' | 'about' | 'software' | 'videos' | 'default';
   image?: string;
   datePublished?: string;
   dateModified?: string;
@@ -400,6 +400,14 @@ if (type === 'article') {
       "priceCurrency": "EUR"
     }
   } as any);
+} else if (type === 'videos') {
+  const webPage = graph.find(e => e["@type"] === "WebPage");
+  if (webPage) {
+    webPage["@type"] = ["WebPage", "CollectionPage"];
+    if (mainEntity) {
+      webPage.mainEntity = mainEntity;
+    }
+  }
 }
 
 // Add FAQ if provided

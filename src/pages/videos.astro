@@ -102,7 +102,7 @@ const videoItemList = {
         "name": video.title,
         "description": cleanText.length > 8000 ? cleanText.substring(0, 7997) + '...' : cleanText,
         "thumbnailUrl": `${siteUrl}${video.thumbnail.src}`,
-        "uploadDate": video.date,
+        "uploadDate": `${video.date}T12:00:00+02:00`,
         "embedUrl": `https://www.youtube.com/embed/${video.id}`,
         "url": `https://www.youtube.com/watch?v=${video.id}`,
         "actor": [

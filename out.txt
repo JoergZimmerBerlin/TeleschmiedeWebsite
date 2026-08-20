@@ -1,33 +1,30 @@
-
-🔍 Starte Quality-Gate für: src/content/glossar/share-of-voice.md (Typ: glossar)
-   ✅ PASS: Title-Länge (H1) im Rahmen (23/70).
-   ❌ FEHLER: Meta-Title ist zu lang (51 Zeichen, strikt max 50).
-   ✅ PASS: Meta-Description-Länge korrekt (146/150).
-   ✅ PASS: Keine KI-typischen Floskeln oder verbotenen Grußformeln gefunden.
-   ✅ PASS: Glossar-Kategorie valide (E-E-A-T & Offpage).
-   ✅ PASS: Glossar-Struktur wirkt valide.
-
-🚨 QUALITÄTS-CHECK FEHLGESCHLAGEN für share-of-voice.md. Bitte beheben!
-
-
-🔍 Starte Quality-Gate für: src/content/glossar/promptset.md (Typ: glossar)
-   ✅ PASS: Title-Länge (H1) im Rahmen (22/70).
-   ✅ PASS: Meta-Title-Länge korrekt (50/50).
-   ✅ PASS: Meta-Description-Länge korrekt (146/150).
-   ✅ PASS: Keine KI-typischen Floskeln oder verbotenen Grußformeln gefunden.
-   ✅ PASS: Glossar-Kategorie valide (AI SEO & Generative Search).
-   ✅ PASS: Glossar-Struktur wirkt valide.
-
-🎉 QUALITÄTS-CHECK BESTANDEN für promptset.md.
-
-
-🔍 Starte Quality-Gate für: src/content/glossar/brand-share.md (Typ: glossar)
-   ✅ PASS: Title-Länge (H1) im Rahmen (20/70).
-   ✅ PASS: Meta-Title-Länge korrekt (45/50).
-   ✅ PASS: Meta-Description-Länge korrekt (144/150).
-   ✅ PASS: Keine KI-typischen Floskeln oder verbotenen Grußformeln gefunden.
-   ✅ PASS: Glossar-Kategorie valide (E-E-A-T & Offpage).
-   ✅ PASS: Glossar-Struktur wirkt valide.
-
-🎉 QUALITÄTS-CHECK BESTANDEN für brand-share.md.
-
+- **Generative Engine Optimization** (Häufigkeit: 103x)
+- **Large Language Models** (Häufigkeit: 43x)
+- **Answer Engines** (Häufigkeit: 42x)
+- **Information Gain** (Häufigkeit: 39x)
+- **Content Negotiation** (Häufigkeit: 29x)
+- **Ground Truth** (Häufigkeit: 28x)
+- **Rank Tracker** (Häufigkeit: 27x)
+- **Model Context Protocol** (Häufigkeit: 23x)
+- **Answer Engine Optimization** (Häufigkeit: 18x)
+- **Trailing Slash** (Häufigkeit: 18x)
+- **Entity Depth** (Häufigkeit: 18x)
+- **Interne Links** (Häufigkeit: 16x)
+- **Visibility Tools** (Häufigkeit: 16x)
+- **Entity Building** (Häufigkeit: 15x)
+- **Google Analytics** (Häufigkeit: 13x)
+- **Answer Engine** (Häufigkeit: 13x)
+- **Link Headers** (Häufigkeit: 13x)
+- **Single Source** (Häufigkeit: 12x)
+- **Search Console** (Häufigkeit: 12x)
+- **Google Gemini** (Häufigkeit: 11x)
+- **Large Language Model** (Häufigkeit: 11x)
+- **Largest Contentful Paint** (Häufigkeit: 11x)
+- **Best Practices** (Häufigkeit: 11x)
+- **Search Engine** (Häufigkeit: 11x)
+- **Sentiment Analysis** (Häufigkeit: 10x)
+- **Grounding Pages** (Häufigkeit: 10x)
+- **Citation Frequency** (Häufigkeit: 10x)
+- **Jetzt Tech** (Häufigkeit: 10x)
+- **Diese Datei** (Häufigkeit: 10x)
+- **Core Updates** (Häufigkeit: 10x)

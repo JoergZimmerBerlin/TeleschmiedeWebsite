@@ -89,6 +89,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - ai.txt SEO: Volle Agent Readiness erreichen
 - AI Visibility Audit (AEO & GEO Audit)
 - AI Visibility Report (KPIs & B2B Dashboard)
+- Was ist der AI Visibility Score?
 - AI Visibility Tools im Vergleich (Rankscale vs SE Ranking)
 - Was ist AI Visibility?
 - Agentic Resource Discovery: Der harte Standard
@@ -102,6 +103,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Canonical Tag: Schluss mit Duplicate Content
 - ChatGPT SEO: Ranken in der Zero-Click-Reality
 - ChatGPT Sichtbarkeit messen & optimieren (Zero-Click SEO)
+- Was ist Citation Frequency in der AI SEO?
 - 'Citation: Struktur und Entity-Resolution erklärt'
 - Client-Side Rendering (CSR): Die größte SEO-Falle der Webentwicklung?
 - Cloudflare Agent Readiness Checklist: Der Guide
@@ -201,6 +203,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - SEO Visibility Tools vs. AI Visibility Tools
 - SEORCH AI Check: 22 Kriterien für GEO & KI-Agents
 - Server-Side Rendering (SSR): Der Turbo für SEO & KI-Crawlability
+- Share of Model: Die neue SEO-Metrik für KIs
 - Was ist Share of Voice?
 - Sichtbarkeit: KI-Crawler & Citation-Stability
 - 'Sichtbarkeitsindex 2026: Das Ende der blauen Links'
@@ -2612,6 +2615,47 @@ Wer im B2B-Segment aufhört, blind nach Suchvolumen zu jagen, und stattdessen an
 
 ---
 
+### Was ist der AI Visibility Score?
+
+
+Während das klassische SEO früher davon besessen war, auf Platz 1 bei Google zu stehen, fragt die Branche heute: **„Wie hoch ist unser AI Visibility Score?“** 
+
+Da Nutzer immer häufiger auf das Klicken von Links verzichten und direkt die fertig zusammengefassten Antworten von KIs wie ChatGPT, Claude oder Google AI Overviews lesen, hat sich die Art und Weise der Erfolgsmessung radikal verändert. 
+
+## Was misst der AI Visibility Score?
+
+Der **AI Visibility Score** ist eine zusammengesetzte Metrik, die aufzeigt, wie stark, positiv und autoritär ein Unternehmen oder Produkt im "Wissen" von Large Language Models verankert ist. 
+
+Im Gegensatz zum [Share of Model](https://teleschmie.de/glossar/share-of-model/), der oft nur den reinen Prozent-Anteil der Erwähnungen misst, fließen in den ganzheitlichen AI Score meist **drei Dimensionen** ein:
+
+1. **Mention Frequency (Häufigkeit):** Wie oft taucht die Marke bei 50 relevanten Prompts in der generierten Antwort auf?
+2. **Prominenz & Placement:** Wird die Marke als erste Empfehlung ganz oben genannt oder nur als nebensächliche Randnotiz am Ende des Textes erwähnt?
+3. **Sentiment & Kontext:** Spricht die KI positiv oder wertfrei über das Angebot?
+
+## Der Weg zum perfekten Score
+
+Ein hoher Score entsteht nicht durch das blinde Einfügen von Keywords. KI-Modelle bewerten die **[Topical Authority](https://teleschmie.de/glossar/topical-authority/)** und die Konsistenz einer [Entität](https://teleschmie.de/glossar/entitaet/) im gesamten Web.
+
+Die [Generative Engine Optimization](https://teleschmie.de/glossar/geo-optimierung/) (GEO) ist der strategische Hebel, um den Score zu pushen. Das bedeutet:
+- Publikation von einzigartigen Fakten (Information Gain).
+- Maschinenlesbare Strukturen (wie Schema.org oder llms.txt).
+- Aufbau von qualitativ hochwertigen Citations in Fachmedien, die von KI-Crawlern als vertrauenswürdige Trainingsdaten genutzt werden.
+
+## So misst du deine Performance
+
+Da das manuelle Eingeben von Prompts nicht skalierbar ist, greifen Marketer auf dedizierte [AI Visibility Tools](https://teleschmie.de/glossar/ai-visibility-tools/) zurück, die die APIs der KIs anzapfen. 
+
+Wenn du deinen eigenen Score professionell überwachen möchtest, empfehle ich den aktuellen Branchenführer [Rankscale](https://rankscale.ai/?via=offer), der sich rein auf diese Metrik spezialisiert hat. Alternativ bietet die beliebte All-in-One-Lösung [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) inzwischen ebenfalls hochpräzise Module an, um deine Sichtbarkeits-Metriken über verschiedene Plattformen hinweg in einem zentralen Dashboard auszuwerten.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+---
+
 ### AI Visibility Tools im Vergleich (Rankscale vs SE Ranking)
 
 
@@ -3422,6 +3466,43 @@ Sichtbarkeit in Sprachmodellen ist kein Hype mehr, sondern eine geschäftskritis
 
 
 Beginne damit, deine wichtigsten Prompts zu definieren. Nutze spezialisierte Tracker wie [Rankscale](https://rankscale.ai/?via=offer) oder die KI-Features von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um einen Nullmesswert zu generieren, und passe deine Content-Architektur systematisch an die Bedürfnisse von Answer Engines an. Der First-Mover-Advantage in der KI-Suche wird in den nächsten zwei Jahren verteilt – sei dabei.
+
+---
+
+### Was ist Citation Frequency in der AI SEO?
+
+
+Während die traditionelle Suchmaschinenoptimierung den Fokus auf Rankings, Klicks und organischen Traffic legt, verschiebt sich die Messung in der Welt der Large Language Models (LLMs) auf eine völlig neue Kernmetrik: Die **Citation Frequency** (Zitierhäufigkeit).
+
+Wer im Zeitalter der [AI Search](https://teleschmie.de/glossar/ai-search/) bestehen will, muss nicht mehr "ranken", sondern **zitiert werden**.
+
+## Die Währung der Answer Engines
+
+KI-Systeme wie ChatGPT (mit SearchGPT), Perplexity oder Google Gemini aggregieren Fakten aus dem Netz und generieren daraus fließende Antworten. Um Halluzinationen zu vermeiden und Vertrauen aufzubauen, verlinken sie ihre Aussagen mit Fußnoten – den sogenannten Citations.
+
+Die **Citation Frequency** quantifiziert, wie oft deine [Entität](https://teleschmie.de/glossar/entitaet/) oder Domain bei branchenspezifischen Prompts als solche Quelle herangezogen wird. Sie ist der direkteste Beweis für deine "AI Authority". Wenn ein Sprachmodell deine Inhalte oft genug als vertrauenswürdig einstuft, steigt parallel auch dein [Share of Model](https://teleschmie.de/glossar/share-of-model/).
+
+## Klicks vs. Extractability
+
+Beim klassischen SEO war die Click-Through-Rate (CTR) entscheidend. In der [Generative Engine Optimization](https://teleschmie.de/glossar/geo-optimierung/) (GEO) geht es hingegen um **Extractability** (Extrahierbarkeit). 
+
+Ein Sprachmodell zitiert Seiten besonders häufig, die:
+1. **Answer-First strukturiert sind:** Die Kerninformation steht komprimiert im ersten Absatz (BLUF-Prinzip).
+2. **Datendicht sind:** Fakten, Statistiken und exakte Definitionen werden von KIs bevorzugt herangezogen, da sie als "Ground Truth" dienen.
+3. **Starkes E-E-A-T aufweisen:** Domains mit hoher technischer Autorität und exzellenten Backlinks werden von den Retrieval-Systemen der KI priorisiert.
+
+## Wie misst man die Citation Frequency?
+
+Die manuelle Eingabe von Prompts ist fehleranfällig und nicht skalierbar. Da die Ausgabe einer KI probabilistisch ist, muss die Frequenz über hunderte von Anfragen gemessen werden.
+
+Hierfür nutzt die Branche [AI Visibility Tools](https://teleschmie.de/glossar/ai-visibility-tools/). Wenn du eine spezialisierte Lösung suchst, die primär auf die Auswertung von LLM-Zitationen und Share of Voice ausgelegt ist, empfiehlt sich [Rankscale](https://rankscale.ai/?via=offer). Für Agenturen und Marketer, die eine umfassende Suite bevorzugen, bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) inzwischen ebenfalls sehr potente Tracking-Module an, um die Citation Frequency in ChatGPT und AI Overviews automatisiert zu überwachen.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
 
 ---
 
@@ -11358,6 +11439,47 @@ Nichts ist perfekt. SSR bringt zwei signifikante Herausforderungen mit sich:
 Server-Side Rendering (und sein naher Verwandter SSG) sind im professionellen [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) nicht verhandelbar. Wer auf rein clientseitiges Rendering setzt, baut absichtlich massive Hürden für den Googlebot, für Applebot und für sämtliche KI-Scraper auf. 
 
 Willst du in traditionellen Suchmaschinen ranken und als vertrauenswürdige [Entität](https://teleschmie.de/glossar/entitaet/) von generativen KIs zitiert werden? Dann sorge dafür, dass dein Server das HTML kocht, bevor es serviert wird.
+
+---
+
+### Share of Model: Die neue SEO-Metrik für KIs
+
+
+Mit dem rasanten Aufstieg von ChatGPT, Perplexity und Google AI Overviews verliert der traditionelle organische Traffic zunehmend an Vorhersagekraft. Wenn ein Nutzer nicht mehr auf einen Link klickt, sondern eine direkte, synthetisierte Antwort liest, braucht das digitale Marketing neue Messgrößen. 
+
+Genau hier betritt der **Share of Model (SoM)** die Bühne – die vermutlich wichtigste KPI der Ära der Answer Engines.
+
+## Vom Share of Voice zum Share of Model
+
+Im klassischen Suchmaschinenmarketing war der *Share of Voice* der Goldstandard. Er gab an, wie viel Platz deine Marke auf der Google-Ergebnisseite (SERP) im Vergleich zur Konkurrenz einnahm.
+
+Der **Share of Model** überträgt dieses Konzept auf Large Language Models (LLMs). Er misst nicht, wie oft du verlinkt bist, sondern **wie tief deine Marke als Lösung im 'Gedächtnis' der KI verankert ist**. Wenn ein Nutzer die KI nach den "besten Anbietern für Cloud-Security" fragt, bist du entweder Teil der ausgegebenen Antwort (Sichtbarkeit) oder du existierst für diesen Nutzer in diesem Moment schlichtweg nicht.
+
+## Wie wird der Share of Model gemessen?
+
+Da KI-Antworten dynamisch und personalisiert sind, gibt es keine absolute, unumstößliche Zahl. Die Berechnung erfolgt stattdessen über statistische Annäherung:
+
+1. **Der Golden Prompt Set:** Zunächst definiert man einen Korb aus 20 bis 100 hochrelevanten Fragen, die potenzielle Kunden in der Entscheidungsphase stellen würden.
+2. **Automatisierte Abfrage:** Diese Prompts werden in regelmäßigen Abständen über [AI Visibility Tools](https://teleschmie.de/glossar/ai-visibility-tools/) an die verschiedenen Sprachmodelle gesendet.
+3. **Die Formel:** *(Anzahl der Erwähnungen deiner Marke / Gesamtzahl der analysierten Antworten) × 100*
+
+### Die besten Tools für das Tracking
+
+Um diese Daten skalierbar und verlässlich zu erheben, setzen Profis auf automatisierte [LLM Rank Tracker](https://teleschmie.de/glossar/llm-rank-tracker/). 
+Besonders bewährt hat sich hier [Rankscale](https://rankscale.ai/?via=offer), ein Tool, das explizit für das Tracking von Share of Model und Citation-Frequency gebaut wurde. Wenn du bereits eine größere All-in-One-Infrastruktur nutzt, bietet auch [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) inzwischen extrem starke Module, um deine Präsenz in AI Overviews und ChatGPT zu überwachen.
+
+## Wie optimiert man für den Share of Model?
+
+Das gezielte Verbessern dieser Metrik nennt man [Generative Engine Optimization](https://teleschmie.de/glossar/geo-optimierung/) (GEO). 
+
+Im Gegensatz zu klassischen Google Ads lässt sich der Share of Model nicht einfach kaufen. Er muss durch den Aufbau einer starken digitalen Autorität verdient werden. Die KI muss deine Marke auf unzähligen, vertrauenswürdigen Drittseiten (Foren, PR-Artikel, Fachmagazine) als unangefochtenen Experten für dein Thema identifizieren. Nur so wirst du Teil der generierten Wahrheit.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
 
 ---
 

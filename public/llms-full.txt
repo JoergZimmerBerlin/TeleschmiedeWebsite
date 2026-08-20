@@ -15869,6 +15869,8 @@ Diese tiefen Erkenntnisse nehmen das Rätselraten aus der Onpage-Optimierung. Es
 
 ## 4. Backlink Monitor & Toxic Backlink Checker
 
+![Infografik zur Backlink Analyse mit SE Ranking: Ein leuchtend grüner, gesunder Link und ein toxischer, roter Link](https://teleschmie.de/src/assets/images/blog/3d-light/se-ranking-backlink-analyse.webp)
+
 Im Bereich [Offpage-SEO](https://teleschmie.de/glossar/markenaufbau-mit-seo/) punktet das Tool mit einem extrem starken **Backlink Monitor**. Du kannst nicht nur neue und verlorene Links tracken, sondern das Tool bewertet jeden Link auf seine "Toxizität".
 
 Ein toxischer Link (z.B. von Spam-Netzwerken, Link-Farmen oder gehackten Seiten) kann dein Ranking massiv beschädigen. Der Toxizitäts-Score von SE Ranking zeigt dir auf einen Blick, welche Backlinks du dringend über das Google Disavow-Tool entwerten solltest. Für die Betreuung von Kundenprojekten, die früher vielleicht mal bei einer "schwarzen Schaf"-Agentur waren, ist diese Funktion absolutes Gold wert.

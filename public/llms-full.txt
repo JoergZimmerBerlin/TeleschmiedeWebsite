@@ -90,11 +90,13 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - AI Visibility Audit (AEO & GEO Audit)
 - AI Visibility Report (KPIs & B2B Dashboard)
 - AI Visibility Tools im Vergleich (Rankscale vs SE Ranking)
+- Was ist AI Visibility?
 - Agentic Resource Discovery: Der harte Standard
 - auth.md: Autonome KI Kunden-Anmeldung ohne Captcha
 - Authoritativeness: E-E-A-T Autorität im KI-SEO
 - 'Bing Webmaster Tools: Absolute Pflicht für KI-SEO'
 - Brand Mentions: Warum KI Entitäten liebt
+- Was ist Brand Share?
 - Brand Visibility Dashboard: KI-Sichtbarkeit auf einen Blick
 - Campixx Berlin: SEO-Konferenz im KI-Zeitalter
 - Canonical Tag: Schluss mit Duplicate Content
@@ -179,6 +181,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - Perplexity Sichtbarkeit messen (Citations & Tracking)
 - Pressearbeit im SEO: Digital-PR für RAG-Trust
 - Profound Übersicht: Das Milliarden-Dollar Unicorn der AI Search
+- Was ist ein Promptset?
 - Query Fan-Out in der AI Search: Wie KI-Agenten Suchanfragen zerlegen
 - 'RAG: Das echte Gehirn-Doping für KI-Inhalte'
 - Rankingfaktoren: Was KIs wirklich bewerten
@@ -198,6 +201,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - SEO Visibility Tools vs. AI Visibility Tools
 - SEORCH AI Check: 22 Kriterien für GEO & KI-Agents
 - Server-Side Rendering (SSR): Der Turbo für SEO & KI-Crawlability
+- Was ist Share of Voice?
 - Sichtbarkeit: KI-Crawler & Citation-Stability
 - 'Sichtbarkeitsindex 2026: Das Ende der blauen Links'
 - Sichtbarkeitsmanagement: RAG-Steuerung
@@ -2686,6 +2690,65 @@ Ob du dich für die Speziallösung oder das All-in-One-Paket entscheidest: Der E
 
 ---
 
+### Was ist AI Visibility?
+
+
+Die digitale Suche durchlebt den fundamentalsten Wandel seit der Erfindung des PageRanks. Nutzer tippen ihre Fragen nicht mehr nur in den Suchschlitz von Google ein, um sich mühsam durch zehn blaue Links zu klicken. Sie befragen **Large Language Models (LLMs)** wie ChatGPT, Claude oder Perplexity und erhalten sofortige, synthetisierte Antworten. In diesem neuen Ökosystem reicht es nicht mehr, auf Platz 1 zu ranken. Die neue Währung für Marken und Unternehmen lautet **AI Visibility** (auf Deutsch: KI-Sichtbarkeit). 
+
+## Was bedeutet AI Visibility genau?
+
+AI Visibility beschreibt den Grad, in dem eine Entität (eine Marke, ein Produkt oder eine Person) in den generierten Antworten von KI-gestützten Suchmaschinen (Answer Engines) und Chatbots **zitiert, empfohlen oder als vertrauenswürdige Quelle herangezogen wird**. 
+
+Während das klassische Search Engine Optimization (SEO) die Sichtbarkeit in Suchmaschinen-Ergebnisseiten (SERPs) optimiert, fokussiert sich die Optimierung der AI Visibility auf die Repräsentation im sogenannten **"Zero-Click"**-Umfeld. Der Nutzer verlässt die Plattform der KI oft nicht mehr, weil seine Frage bereits vollständig beantwortet wurde.
+
+> [!IMPORTANT]
+> **Zero-Click Reality:** Wenn ein KI-Modell die Frage eines Nutzers nach der "besten CRM-Software" direkt beantwortet und dein Unternehmen dort nicht zitiert wird, existierst du für diesen Nutzer nicht. Die KI agiert als Gatekeeper.
+
+## Klassisches SEO vs. AI Search Visibility
+
+Die Unterscheidung zwischen der klassischen organischen Sichtbarkeit und der Präsenz in KI-Antworten ist essenziell für moderne Marketing-Entscheider. Ein Unternehmen kann bei Google dominieren und dennoch in ChatGPT völlig unsichtbar sein.
+
+| Eigenschaft | Klassisches SEO (Google Search) | AI Visibility (LLMs & Answer Engines) |
+| :--- | :--- | :--- |
+| **Primäres Ziel** | Hohe Rankings & Click-Through-Rate (CTR) | Erwähnung, Empfehlung & **Answer Ownership** |
+| **Nutzerreise** | Suche → Klick auf Link → Lesen auf der Website | Frage → Direkte Antwort in der KI-Oberfläche lesen |
+| **Erfolgsmetriken** | Organischer Traffic, Keyword-Rankings, Backlinks | Citation Rate (Zitierhäufigkeit), Sentiment, Share of Voice |
+| **Optimierungsfokus** | Keyword-Dichte, Title-Tags, Backlink-Profil | Entitäts-Autorität, E-E-A-T, Informations-Extrahierbarkeit |
+
+## Wie lässt sich die KI-Sichtbarkeit messen?
+
+Das größte Problem für Marketer ist die Messbarkeit. Klassische SEO-Tools und Google Analytics sind oft blind für den Traffic und die Markenpräsenz, die innerhalb geschlossener LLM-Systeme entstehen. Um **AI Visibility Tracking** professionell zu betreiben, bedarf es spezialisierter Software.
+
+### Das spezialisierte AI Visibility Tool
+
+Für den tiefgehenden Einstieg in das sogenannte Prompt-Tracking haben sich dedizierte Plattformen etabliert. Ein herausragendes Beispiel hierfür ist [Rankscale](https://rankscale.ai/?via=offer). Dieses **AI Visibility Tool** fokussiert sich exklusiv darauf, wie oft und in welchem Kontext deine Marke in Modellen wie GPT-4, Claude oder Google Gemini auftaucht. Es simuliert hunderte von Nutzeranfragen (Prompts) und wertet aus, ob die KI dein Unternehmen neutral, positiv oder als Branchenführer zitiert.
+
+### Die Evolution der SEO Visibility Tools
+
+Gleichzeitig rüsten die großen Suite-Anbieter auf. Ein klassisches **SEO Visibility Tool** wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat die Zeichen der Zeit erkannt und bietet mittlerweile ein eigenes Modul für das AI-Tracking an. Der Vorteil: Du kannst deine traditionellen Google-Rankings direkt mit deiner Performance in AI Overviews und KI-Suchmaschinen vergleichen. 
+
+Wer heute professionelle **AI Visibility Beratung** sucht, sollte immer darauf achten, dass der Berater mit echten, messbaren Daten aus diesen Plattformen arbeitet. Ohne Tracking ist AI-Sichtbarkeit reines Rätselraten.
+
+## 4 Strategien für eine bessere AI Visibility
+
+Die aktive Beeinflussung von KI-Modellen wird als [Generative Engine Optimization (GEO)](https://teleschmie.de/glossar/geo/) bezeichnet. Um von KI-Systemen als Quelle akzeptiert zu werden, müssen vier fundamentale Pfeiler aufgebaut werden:
+
+- **E-E-A-T bedingungslos stärken:** KI-Systeme suchen nach Erfahrung (Experience), Expertise, Autorität (Authoritativeness) und Vertrauenswürdigkeit (Trustworthiness). Autorenprofile, offizielle Zertifizierungen und transparente Quellenangaben sind zwingend erforderlich, um als vertrauenswürdige Entität eingestuft zu werden.
+- **Ein AI Visibility Audit durchführen:** Bevor neue Inhalte erstellt werden, MUSS das technische Fundament stimmen. Ein **AI Visibility Audit** prüft, ob moderne Crawler (wie der ChatGPT-UserBot) deine Website überhaupt technisch auslesen können (Crawlability) und ob semantisches HTML genutzt wird, um die Informationen maschinenlesbar zu strukturieren (Extractability).
+- **Die Macht der Co-Citations nutzen:** LLMs lernen aus dem gesamten Internet. Wenn dein Unternehmen regelmäßig in vertrauenswürdigen Branchenmagazinen, Podcasts oder auf Bewertungsplattformen im direkten Kontext deiner Dienstleistung erwähnt wird (Co-Citation), verknüpft die KI diese Signale.
+- **Fokus auf "Decision Content":** KI wird oft für komplexe Entscheidungsfindungen genutzt. Erstelle tiefe Vergleichs-Artikel, detaillierte FAQs und klare "How-to"-Anleitungen. Vermeide generisches Marketing-Bla-Bla (Blandification), das von KI-Modellen oft ignoriert wird, und liefere stattdessen messbare Fakten und originäre Daten.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+Die Investition in AI Visibility ist heute kein Experiment mehr, sondern die zwingende Absicherung der digitalen Existenz für das Jahr 2026 und zukünftige Jahre.
+
+---
+
 ### Agentic Resource Discovery: Der harte Standard
 
 
@@ -2918,6 +2981,54 @@ ALOHA! 🌻
 * [Authoritativeness (E-E-A-T Autorität)](https://teleschmie.de/glossar/authoritativeness-eeat/)
 * [Trustworthiness (E-E-A-T Vertrauen)](https://teleschmie.de/glossar/trustworthiness-eeat/)
 * [Wie funktioniert Generative Engine Optimization?](https://teleschmie.de/glossar/geo/)
+
+---
+
+### Was ist Brand Share?
+
+
+Der Begriff **Brand Share** (zu Deutsch: Markenanteil) ist in der Welt des Marketings und der Suchmaschinenoptimierung (SEO) allgegenwärtig, sorgt aber häufig für massive Verwirrung. Um datengetriebene Entscheidungen treffen zu können, ist es entscheidend, die traditionelle betriebswirtschaftliche Bedeutung sauber von modernen digitalen Such-Metriken abzugrenzen.
+
+## Die klassische Definition: Umsatz und Verkäufe
+
+Im traditionellen Marketing- und Management-Umfeld ist der Brand Share im Grunde ein Synonym für den **Marktanteil**. Er beschreibt den prozentualen Anteil, den eine einzelne Marke an den gesamten Verkäufen oder dem Gesamtumsatz innerhalb einer definierten Produktkategorie erwirtschaftet. 
+
+- **Die Formel:** (Verkäufe der Marke / Gesamte Verkäufe der Kategorie) × 100
+- **Die Natur der Metrik:** Der Brand Share ist ein klassischer *Lagging Indicator* (nachlaufender Indikator). Er zeigt dir an, was in der Vergangenheit passiert ist und wer am Ende des Quartals das meiste Geld verdient hat. Er sagt jedoch wenig darüber aus, wo das Interesse der Konsumenten in der Zukunft liegt.
+
+## Brand Share vs. Share of Search (Die SEO-Perspektive)
+
+Wenn SEO-Experten oder Digital-Marketer heute über "Brand Share" diskutieren, meinen sie fast immer den **Share of Search**. Dies ist die weitaus spannendere und handlungsrelevantere Kennzahl für die digitale Strategie.
+
+Der **Share of Search** misst nicht die Verkäufe, sondern die **Nutzer-Nachfrage**. Er berechnet, wie viel Prozent des gesamten [Suchvolumens](https://teleschmie.de/glossar/suchvolumen/) für Markennamen in einer Kategorie auf dein Unternehmen entfallen. 
+
+> [!IMPORTANT]
+> **Der Blick in die Kristallkugel:** Studien von renommierten Analysten haben immer wieder belegt, dass der Share of Search ein extrem präziser Frühindikator (Leading Indicator) für den zukünftigen finanziellen Brand Share ist. Wenn Menschen heute verstärkt nach deiner Marke suchen, wirst du morgen mehr verkaufen.
+
+## Die drei Säulen der Markenmessung
+
+Um nicht im Begriffschaos zu versinken, solltest du diese drei Metriken strikt trennen:
+
+| Kennzahl | Fokusbereich | Was wird gemessen? |
+| :--- | :--- | :--- |
+| **Brand Share** | Finanzen / Umsatz | Anteil an tatsächlichen Verkäufen in einer Nische. |
+| **Share of Search** | Nutzer-Interesse / SEO | Anteil an den Markensuchanfragen (Brand Demand). |
+| **Share of Voice** | Media / Werbung | Anteil an der Sichtbarkeit (Ads, PR, Rankings) im Vergleich zum Wettbewerb. |
+
+## Die Bedeutung für die Generative KI (GEO)
+
+Mit dem Aufstieg von KI-Suchmaschinen rückt die reine Markenbekanntheit wieder extrem in den Fokus. Wenn ein Nutzer ChatGPT bittet, die "beste CRM-Lösung" zu empfehlen, greift das Modell nicht auf Echtzeit-Ranking-Daten zurück. Es greift auf das kollektive Wissen in seinen Trainingsdaten zurück. 
+
+Marken, die einen hohen **Share of Search** aufweisen – nach denen also aktiv und organisch gesucht wird –, haben ihre [Entität](https://teleschmie.de/glossar/entitaet/) (Entity) tief im Netz verankert. Solche Autoritäten werden von KI-Systemen als vertrauenswürdig (Trust) eingestuft und folglich weitaus häufiger in den synthetisierten Antworten zitiert. Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) können helfen, die reine Such-Performance zu tracken, während Plattformen wie [Rankscale](https://rankscale.ai/?via=offer) messen, wie sich diese Präsenz in die Antworten der KI übersetzt.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+Egal ob klassischer Brand Share oder digitaler Share of Search: Die stetige Investition in die eigene Marke bleibt der stärkste Schutzwall gegen unvorhersehbare Google-Core-Updates und den Wandel hin zu Answer Engines.
 
 ---
 
@@ -9612,6 +9723,54 @@ Für kleine Solo-Marketer mag der Starter-Plan durch die reine Limitierung auf C
 
 ---
 
+### Was ist ein Promptset?
+
+
+Der Begriff **Promptset** (manchmal auch Prompt Set) hat in den letzten Jahren rasant an Bedeutung gewonnen, da sich die digitale Suche von der simplen Keyword-Eingabe hin zu natürlichen, konversationellen Dialogen verschoben hat. Je nach Kontext – ob im strategischen Marketing oder in der technischen KI-Entwicklung – erfüllt ein Promptset unterschiedliche, aber essenzielle Aufgaben.
+
+## Das Promptset in der Generative Engine Optimization (GEO)
+
+In der Welt der Suchmaschinenoptimierung (SEO) war die Keyword-Liste über Jahrzehnte das heilige Dokument. Mit dem Aufstieg von Answer Engines wie ChatGPT, Perplexity oder den Google AI Overviews funktioniert dieses Paradigma nicht mehr. Hier kommt das Promptset ins Spiel.
+
+Ein **Promptset im SEO-Kontext** ist eine sorgfältig kuratierte Sammlung von voll ausformulierten Fragen, Anweisungen und Suchintentionen, die potenzielle Kunden an ein [KI-Modell](https://teleschmie.de/glossar/ai-search-engine/) richten könnten. 
+
+Anstatt zu tracken, auf welchem Platz die eigene Website für den Begriff "ERP System" rankt, definiert ein B2B-Unternehmen ein Promptset, das Fragen enthält wie:
+- *"Welche ERP-Systeme eignen sich am besten für den deutschen Mittelstand im Maschinenbau?"*
+- *"Vergleiche die Vor- und Nachteile von Anbieter A und Anbieter B."*
+
+### Tracking der AI Visibility
+
+Das Promptset ist das Fundament, um die **AI Visibility (KI-Sichtbarkeit)** messbar zu machen. Unternehmen speisen ihr Set regelmäßig in spezialisierte Plattformen wie [Rankscale](https://rankscale.ai/?via=offer) ein. Das Tool feuert diese komplexen Prompts automatisiert gegen Modelle wie GPT-4, Claude oder Gemini und wertet aus, ob das eigene Unternehmen zitiert, empfohlen oder als negatives Beispiel herangezogen wird.
+
+Ohne ein sauber definiertes Promptset ist ein konsistentes Tracking der KI-Präsenz schlichtweg unmöglich.
+
+> [!IMPORTANT]
+> **Kontext über Keywords:** Ein gutes Promptset deckt die gesamte Customer Journey ab. Es testet nicht nur, ob eine Marke bei Kaufentscheidungen (Bottom of Funnel) genannt wird, sondern auch, ob sie in informationalen Ratschlägen (Top of Funnel) als Autorität gilt.
+
+## Das Promptset in der technischen KI-Forschung
+
+Abseits des Marketings hat das Promptset in der Data Science und der Evaluierung von Large Language Models (LLMs) eine sehr technische Bedeutung. Hier spricht man oft von einem **Prompt Dataset**.
+
+Forscher und Entwickler nutzen massive Datensätze von Prompts, um das Verhalten von LLMs zu testen. Ein zentrales Phänomen ist hierbei die sogenannte **Prompt Sensitivity** (Prompt-Sensibilität). Modelle reagieren oft völlig unterschiedlich, wenn ein Satz nur minimal umformuliert wird oder ein Satzzeichen fehlt. 
+
+| Kontext | Primärer Zweck | Fokus der Analyse |
+| :--- | :--- | :--- |
+| **AI SEO & Marketing** | Messung der Marken-Sichtbarkeit in Antworten. | Brand Mentions, Zitate, Share of Voice |
+| **KI Forschung & Devs** | Stresstest von Modell-Zuverlässigkeit. | Prompt-Sensibilität, Halluzinations-Raten |
+
+Ein technisches Promptset dient als Benchmark. Es stellt sicher, dass ein Modell konsistente, ethisch korrekte und faktisch richtige Antworten liefert, unabhängig davon, wie genau ein Nutzer seine Eingabe phrasiert.
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+Ob als Test-Datensatz für Entwickler oder als moderne Keyword-Liste für Marketer: Das Promptset ist das Werkzeug, um die Blackbox der KI-Systeme zu evaluieren und strukturiert greifbar zu machen.
+
+---
+
 ### Query Fan-Out in der AI Search: Wie KI-Agenten Suchanfragen zerlegen
 
 
@@ -11198,6 +11357,56 @@ Nichts ist perfekt. SSR bringt zwei signifikante Herausforderungen mit sich:
 Server-Side Rendering (und sein naher Verwandter SSG) sind im professionellen [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) nicht verhandelbar. Wer auf rein clientseitiges Rendering setzt, baut absichtlich massive Hürden für den Googlebot, für Applebot und für sämtliche KI-Scraper auf. 
 
 Willst du in traditionellen Suchmaschinen ranken und als vertrauenswürdige [Entität](https://teleschmie.de/glossar/entitaet/) von generativen KIs zitiert werden? Dann sorge dafür, dass dein Server das HTML kocht, bevor es serviert wird.
+
+---
+
+### Was ist Share of Voice?
+
+
+Der **Share of Voice (SOV)** ist eine der wichtigsten und ältesten Kennzahlen im Marketing. Übersetzt bedeutet der Begriff so viel wie "Stimmanteil" und beschreibt, wie viel Prozent der gesamten Sichtbarkeit oder Konversation in einem spezifischen Markt auf deine Marke entfallen, verglichen mit deinen Mitbewerbern. 
+
+Wer den größten Share of Voice besitzt, dominiert die Wahrnehmung der Zielgruppe. Es ist der digitale Beweis dafür, wer in einer Branche "den Ton angibt".
+
+## Vom Werbebudget zur digitalen Präsenz
+
+Ursprünglich stammt das Konzept aus der klassischen Werbung. Dort definierte der Share of Voice schlicht den Anteil einer Marke an den gesamten Werbeausgaben (Ad Spend) in einer Kategorie. 
+
+Heute hat sich die Metrik massiv weiterentwickelt. In einer fragmentierten digitalen Welt, in der Kunden über dutzende Touchpoints interagieren, ist der SOV zu einer ganzheitlichen Kennzahl (Omnichannel-Metrik) geworden. Er misst heute:
+
+- **Social Media SOV:** Wie oft wird dein Unternehmen im Vergleich zu Konkurrenten auf Plattformen wie LinkedIn erwähnt?
+- **PR & Media SOV:** Wie häufig taucht dein Markenname in Fachartikeln, Blogs und Nachrichten auf?
+- **SEO SOV (Search Visibility):** Welchen prozentualen Anteil am organischen Traffic für relevante Non-Brand-Keywords kannst du für dich verbuchen?
+
+> [!IMPORTANT]
+> **Der Leading Indicator:** Studien zeigen konsistent, dass der Share of Voice ein Frühindikator für wirtschaftlichen Erfolg ist. Ein Unternehmen, dessen SOV höher ist als sein tatsächlicher Marktanteil (Share of Market), wird in der Regel wachsen.
+
+## Share of Voice im Kontext von SEO messen
+
+Im Bereich der Suchmaschinenoptimierung (SEO) wird der Begriff oft synonym mit der **organischen Sichtbarkeit** verwendet. Um deinen SEO Share of Voice zu berechnen, analysierst du ein repräsentatives Set an branchenrelevanten Keywords.
+
+Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) bieten hierfür dedizierte Metriken an. Du gibst deine wichtigsten [Keywords](https://teleschmie.de/glossar/keywoerter/) ein, und das Tool berechnet auf Basis deiner Rankings und der geschätzten Klickraten (CTR), welchen prozentualen Anteil am gesamten Suchtraffic du im Vergleich zu deinen direkten Konkurrenten abschöpfst.
+
+| Metrik | Anwendungsbereich | Was wird gemessen? |
+| :--- | :--- | :--- |
+| **Paid SOV** | SEA / Ads | Anteil an den gesamten Werbeeinblendungen (Impressions) |
+| **SEO SOV** | Organische Suche | Anteil am potenziellen Traffic für generische [Keywords](https://teleschmie.de/glossar/keywoerter/) |
+| **Social SOV** | [Social Media](https://teleschmie.de/glossar/sichtbarkeit/) | Anzahl der Brand Mentions im Vergleich zu Wettbewerbern |
+| **Share of Search** | Brand Demand | Anteil der Suchanfragen nach dem eigenen Markennamen |
+
+## Warum der SOV für strategische Entscheidungen unverzichtbar ist
+
+Die isolierte Betrachtung von Traffic-Zahlen kann trügerisch sein. Wenn dein organischer Traffic um 10 % steigt, klingt das zunächst positiv. Wenn der gesamte Markt im gleichen Zeitraum jedoch um 30 % gewachsen ist, hast du de facto **Share of Voice verloren**, weil deine Konkurrenten schneller gewachsen sind.
+
+Ein kontinuierliches Tracking des SOV deckt genau diese blinden Flecke auf. Es zeigt dir auf, ob du in deiner Nische wirklich als Autorität wahrgenommen wirst oder ob du Gefahr läufst, im Grundrauschen des Internets unterzugehen. 
+
+
+  💬 Jetzt an der Diskussion teilnehmen!
+  
+    Beitrag auf LinkedIn öffnen
+  
+
+
+Wer seinen Share of Voice kennt, kann Marketing-Budgets fundiert rechtfertigen, Schwächen in der Markenstrategie identifizieren und proaktiv auf aggressive Vorstöße der Konkurrenz reagieren.
 
 ---
 

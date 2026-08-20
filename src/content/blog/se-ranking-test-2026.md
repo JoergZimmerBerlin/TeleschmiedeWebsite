@@ -63,7 +63,7 @@ Diese tiefen Erkenntnisse nehmen das Rätselraten aus der Onpage-Optimierung. Es
 
 ## 4. Backlink Monitor & Toxic Backlink Checker
 
-![Infografik zur Backlink Analyse mit SE Ranking: Ein leuchtend grüner, gesunder Link und ein toxischer, roter Link](/src/assets/images/blog/3d-light/se-ranking-backlink-analyse.webp)
+![Infografik zur Backlink Analyse mit SE Ranking: Ein leuchtend grüner, gesunder Link und ein toxischer, roter Link](../../assets/images/blog/3d-light/se-ranking-backlink-analyse.webp)
 
 Im Bereich Offpage-SEO punktet das Tool mit einem extrem starken **Backlink Monitor**. Du kannst nicht nur neue und verlorene Links tracken, sondern das Tool bewertet jeden Link auf seine "Toxizität".
 

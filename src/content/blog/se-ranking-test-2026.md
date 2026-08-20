@@ -39,6 +39,8 @@ Hier spielt das Website Audit von SE Ranking seine ganze Stärke aus. Ich schät
 
 ## 2. Der Keyword Rank Tracker: Eine echte Datenbank
 
+![Infografik zum SE Ranking Keyword Rank Tracker mit Top 100 Analyse und goldenem Pokal](../../assets/images/blog/3d-light/se-ranking-top-100-rank-tracker.webp)
+
 Ein Ranking-Checker ist nur so gut wie seine Datenbank und seine Tiefe. Meine SE Ranking Erfahrung hier: Die Keyword-Datenbank ist massiv und extrem präzise für den deutschen Markt (D-A-CH).
 
 Was ich SE Ranking hier hoch anrechne: Während einige Konkurrenz-Tools (wie z.B. im [Sistrix vs SE Ranking](/blog/sistrix-vs-se-ranking/) Vergleich) angefangen haben, nur noch die Top 50 oder Top 20 Suchergebnisse zu tracken, **trackt SE Ranking weiterhin gnadenlos die vollen Top 100**. 
@@ -62,8 +64,6 @@ Diese tiefen Erkenntnisse nehmen das Rätselraten aus der Onpage-Optimierung. Es
 👉 **[On-Page SEO Checker jetzt kostenlos testen](https://seranking.com/de/onpage-analyse.html?ga=4169588&source=link)**
 
 ## 4. Backlink Monitor & Toxic Backlink Checker
-
-![Infografik zur Backlink Analyse mit SE Ranking: Ein leuchtend grüner, gesunder Link und ein toxischer, roter Link](../../assets/images/blog/3d-light/se-ranking-backlink-analyse.webp)
 
 Im Bereich Offpage-SEO punktet das Tool mit einem extrem starken **Backlink Monitor**. Du kannst nicht nur neue und verlorene Links tracken, sondern das Tool bewertet jeden Link auf seine "Toxizität".
 

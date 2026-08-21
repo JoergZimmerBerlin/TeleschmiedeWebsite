@@ -128,9 +128,34 @@ function runAudit(filePath, type) {
         else if (!VALID_CATEGORIES_GLOSSAR.includes(category)) logError(`Ungültige Glossar-Kategorie: "${category}". Erlaubt: ${VALID_CATEGORIES_GLOSSAR.join(', ')}`);
         else logSuccess(`Glossar-Kategorie valide (${category}).`);
 
-        if (!body.includes('##') && body.length < 1500) {
-            logError("Glossar-Artikel wirkt zu kurz oder hat keine tiefgehende Struktur (H2). Web-Recherche vergessen?");
-        } else logSuccess("Glossar-Struktur wirkt valide.");
+        // Check FAQs
+        if (!frontmatter.includes('faqs:')) {
+            logError("Glossar-Artikel MUSS 3-5 FAQs in der Frontmatter haben (faqs:).");
+        } else {
+            logSuccess("FAQs in Frontmatter gefunden.");
+        }
+
+        // Check Key Takeaways
+        if (!frontmatter.includes('key_takeaways:')) {
+            logError("Glossar-Artikel MUSS Key Takeaways in der Frontmatter haben (key_takeaways:).");
+        } else {
+            logSuccess("Key Takeaways in Frontmatter gefunden.");
+        }
+
+        // Check for images in body
+        if (body.match(/!\[.*?\]\(.*?\)/)) {
+            logError("Glossar-Artikel darf KEINE Bilder im Fließtext enthalten (werden automatisch gerendert).");
+        } else {
+            logSuccess("Keine Bilder im Markdown-Fließtext gefunden.");
+        }
+
+        // Check Word Count (must be >= 1000)
+        const wordCount = body.split(/\s+/).filter(w => w.length > 0).length;
+        if (wordCount < 1000) {
+            logError(`Glossar-Artikel ist zu kurz! Hat nur ${wordCount} Wörter, laut Workflow MÜSSEN es > 1.000 sein.`);
+        } else {
+            logSuccess(`Glossar-Artikel hat valide Wortzahl (${wordCount} Wörter).`);
+        }
     }
 
     if (hasErrors) {

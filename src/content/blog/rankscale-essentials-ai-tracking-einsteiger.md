@@ -8,7 +8,7 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/rankscale-essentials-hero.webp"
 image_alt: "Rankscale AI Visibility Tracking Dashboard - Essentials für 20 Euro"
 category: "AI SEO"
-tags: ["Case Study", "Tools"]
+tags: ["Case Study", "Tools", "Rankscale"]
 key_takeaways:
   - "Rankscale Essentials bietet AI Visibility Tracking ab 17€/Monat – der perfekte Einstieg ins KI-Monitoring."
   - "Über 17 LLMs gleichzeitig tracken: Jede KI tickt anders und bewertet deine Marke unterschiedlich."

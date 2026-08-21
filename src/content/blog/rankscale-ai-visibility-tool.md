@@ -8,7 +8,7 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/rankscale-ai-visibility-tracking.webp"
 image_alt: "Rankscale AI Visibility Tracker – KI-Sichtbarkeit in 17 LLMs messen"
 category: "AI SEO"
-tags: ["Case Study", "Tools"]
+tags: ["Case Study", "Tools", "Rankscale"]
 key_takeaways:
   - "Rankscale trackt Sichtbarkeit in 17 verschiedenen LLMs – jedes Modell bewertet deine Marke unterschiedlich, dein Blindflug hat ein Ende."
   - "Die Sentiment-Analyse zeigt, ob KIs dich als Experten empfehlen oder in negativem Kontext erwähnen – das ist der echte Game-Changer."

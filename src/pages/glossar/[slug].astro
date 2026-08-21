@@ -162,7 +162,7 @@ if (type === 'term') {
             <p class="text-gray-muted mb-6">Folge mir auf LinkedIn für tägliche SEO-Nuggets und diskutiere mit anderen Experten.</p>
             <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex" title="LinkedIn-Profil besuchen → (2026)">LinkedIn-Profil besuchen →</a>
           </div>
-          <RelatedLinks currentId={entry.id} currentTitle={entry.data.title} currentTags={entry.data.category ? [entry.data.category] : []} />
+          <RelatedLinks currentId={entry.id} currentTitle={entry.data.title} currentTags={[entry.data.category, ...(entry.data.tags || [])].filter(Boolean)} />
         </div>
       </div>
 

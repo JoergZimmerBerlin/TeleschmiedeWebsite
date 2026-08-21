@@ -4,6 +4,8 @@ meta_title: "Rankscale: AI Search Plattform im Detail (2026)"
 description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"
 meta_description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"
 category: "AI SEO & Generative Search"
+tags:
+  - "Rankscale"
 date: "2026-08-11"
 thumbnail: "../../assets/images/rankscale_uebersicht_3d_1786399794342.jpg"
 key_takeaways:

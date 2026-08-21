@@ -8,7 +8,7 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/rankscale-ai-visibility-tracking.webp"
 image_alt: "Rankscale AI Tracking: 17 LLMs im Test"
 category: "AI SEO"
-tags: ["Case Study", "Tools"]
+tags: ["Case Study", "Tools", "Rankscale"]
 key_takeaways:
   - "Rankscale trackt 17 Sprachmodelle gleichzeitig – Domain eingeben, Topic Cluster wählen, fertig."
   - "Marken-Tracking, Sentiment-Analyse und Wettbewerbsvergleich über alle LLMs liefern Reporting auf neuem Level."

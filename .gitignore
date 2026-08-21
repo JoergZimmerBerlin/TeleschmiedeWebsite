@@ -66,3 +66,4 @@ public/_videos_backup/
 
 # Indexing Secrets
 .indexing-config.json
+public/*.txt

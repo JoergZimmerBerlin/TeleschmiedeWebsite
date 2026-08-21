@@ -10547,7 +10547,7 @@ Der Fokus liegt hier nicht auf abstrakten Marken-Erwähnungen, sondern auf harte
 ### Sponsored Ads Überwachung
 Ein massiver Hebel ist das Tracking von bezahlten Platzierungen in KI-Antworten. Da Google AI Overviews und ChatGPT zunehmend Sponsored Ads in die Antworten mischen, liefert Rankscale hier volle Transparenz. Das System trackt, welche Werbetreibenden (Advertiser) für die lukrativsten Shopping-Prompts Anzeigen schalten. Anhand von Leaderboards können Performance-Marketing-Teams ihre eigenen Paid-Kampagnen präzise aussteuern und strategische Lücken der Mitbewerber ausnutzen.
 
-👉 **Mehr Details:** [Alles zur AI Shopping Analysis lesen](https://teleschmie.de/glossar/shopping-analysis/)
+👉 **Mehr Details:** [Alles zur AI Shopping Analysis lesen](https://teleschmie.de/glossar/ai-shopping-analysis/)
 
 👉 **Direkt zum Tool:** [AI Shopping Analysis auf Rankscale testen](https://rankscale.ai/features/shopping-analysis?via=offer)
 

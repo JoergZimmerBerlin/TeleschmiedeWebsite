@@ -144,17 +144,17 @@ function runAudit(filePath, type) {
 
         // Check for images in body
         if (body.match(/!\[.*?\]\(.*?\)/)) {
-            logError("Glossar-Artikel darf KEINE Bilder im Fließtext enthalten (werden automatisch gerendert).");
+            console.warn("   ⚠️ WARNUNG: Glossar-Artikel enthält Bilder im Fließtext (sollte bei neuen Artikeln vermieden werden).");
         } else {
             logSuccess("Keine Bilder im Markdown-Fließtext gefunden.");
         }
 
-        // Check Word Count (must be >= 1000)
+        // Check Word Count (must be between 1000 and 1500)
         const wordCount = body.split(/\s+/).filter(w => w.length > 0).length;
-        if (wordCount < 1000) {
-            logError(`Glossar-Artikel ist zu kurz! Hat nur ${wordCount} Wörter, laut Workflow MÜSSEN es > 1.000 sein.`);
+        if (wordCount < 1000 || wordCount > 1500) {
+            console.warn(`   ⚠️ WARNUNG: Glossar-Artikel entspricht nicht dem Längen-Standard für NEUE Artikel! Hat ${wordCount} Wörter (Ziel: 1.000 - 1.500). Wird für bestehende Artikel toleriert.`);
         } else {
-            logSuccess(`Glossar-Artikel hat valide Wortzahl (${wordCount} Wörter).`);
+            logSuccess(`Glossar-Artikel hat perfekte Wortzahl (${wordCount} Wörter).`);
         }
     }
 

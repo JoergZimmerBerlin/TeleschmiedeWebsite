@@ -63,3 +63,6 @@ se-ranking-credentials.json
 
 # Video Backup (bereits auf dem Webserver, nicht im Build)
 public/_videos_backup/
+
+# Indexing Secrets
+.indexing-config.json

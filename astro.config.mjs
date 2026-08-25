@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import tailwindcss from '@tailwindcss/vite';
+import remarkGithubAlerts from 'remark-github-alerts';
 
 // Automatische Erkennung: GitHub Pages vs Produktion
 // DEPLOY_TARGET=ionos wird in deploy.yml gesetzt, damit der IONOS-Build
@@ -13,6 +14,9 @@ export default defineConfig({
     : 'https://teleschmie.de',
   base: isGitHubPages ? '/TeleschmiedeWebsite' : '',
   trailingSlash: 'always',
+  markdown: {
+    remarkPlugins: [remarkGithubAlerts]
+  },
   integrations: [
     mdx()
   ],

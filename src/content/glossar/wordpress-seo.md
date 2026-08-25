@@ -12,7 +12,7 @@ key_takeaways:
   - "Vollständige technische KI-Optimierung: Dein WordPress-Setup muss maschinenlesbare Endpunkte und saubere KI-Crawler-Protokolle bereitstellen. Sonst wirst du ignoriert."
   - "Schlank statt Fett: Aufgeblähte, fette Pagebuilder sind der sichere Tod in der RAG-Ära. Minimaler Code und brutale Perfomance gewinnen."
 faqs:
-  - question: 'Welches ist das beste SEO Plugin für WordPress im Juli 2026?'
+  - question: 'Welches ist das beste SEO Plugin für WordPress im 2026?'
     answer: 'Vergiss die albernen Ampel-Systeme von gestern. Im Jahr 2026 zählt nur vollständige technische KI-Optimierung. Das einzig wahre Setup ist ein Headless-Markdown-Plugin, das deinen Content dynamisch als reines, sauberes Markdown über KI-Crawler-Protokolle ausspielt, sobald ein KI-Agent danach verlangt. Die alten Platzhirsche hängen meilenweit hinterher.'
   - question: 'Warum sind Pagebuilder wie Elementor 2026 ein gewaltiges Problem?'
     answer: 'Weil sie den DOM-Tree extrem aufblähen und unfassbar viel nutzlosen HTML-Müll produzieren! KI-Crawler und LLMs hassen diesen Müll abgrundtief. Ein RAG-System will reinen Kontext und harte Fakten parsen, keine 50 ineinander verschachtelten DIV-Container für einen Button. Dein WordPress muss lernen, auf API-Anfragen nur mit sauberem Markdown zu antworten.'

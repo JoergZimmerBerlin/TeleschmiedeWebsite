@@ -20,7 +20,7 @@ faqs:
     answer: 'Nein, es ist eine Vanity-Metrik. KIs interessieren sich nicht für Platz 3. Entweder du bist die primäre Ground-Truth für eine Lösung – dann wirst du im RAG-Prozess zitiert – oder du bist es nicht. Dazwischen gibt es nichts mehr.'
 ---
 
-Lass uns ohne Umschweife Tacheles reden. Sichtbarkeit ist das ultimative Ziel, aber alles, was du in den letzten 15 Jahren unter diesem Begriff gelernt hast, kannst du im Juli 2026 in die Tonne treten. Wir haben uns jahrelang an zehn blauen Links abgearbeitet. Wir haben Title-Tags optimiert und uns vor Tools gesetzt, um bei jedem kleinen Ausschlag nach oben zu jubeln. Heute ist das geschäftsschädigend. Wir reden nicht mehr über Suchmaschinen-Rankings. Wir reden über den "AI Share of Voice", RAG-Pipelines und über Generative Engine Optimization (GEO).
+Lass uns ohne Umschweife Tacheles reden. Sichtbarkeit ist das ultimative Ziel, aber alles, was du in den letzten 15 Jahren unter diesem Begriff gelernt hast, kannst du im 2026 in die Tonne treten. Wir haben uns jahrelang an zehn blauen Links abgearbeitet. Wir haben Title-Tags optimiert und uns vor Tools gesetzt, um bei jedem kleinen Ausschlag nach oben zu jubeln. Heute ist das geschäftsschädigend. Wir reden nicht mehr über Suchmaschinen-Rankings. Wir reden über den "AI Share of Voice", RAG-Pipelines und über Generative Engine Optimization (GEO).
 
 ## 1. Zero-Click und der "AI Share of Voice" (AI SoV)
 

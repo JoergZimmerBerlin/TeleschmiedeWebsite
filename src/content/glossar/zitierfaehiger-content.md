@@ -13,7 +13,7 @@ key_takeaways:
   - "KI-Crawler Protocol: Strukturiere Sätze so, dass Agent-to-Agent Kommunikation sie als verifizierte Fakten für RAG nutzen kann."
   - "llms.txt als Wegweiser: Ohne sauberes Routing in der llms.txt finden Agenten deinen zitierfähigen Content erst gar nicht."
 faqs:
-  - question: 'Was macht Content nach den Juli 2026 Standards wirklich zitierfähig?'
+  - question: 'Was macht Content nach den 2026 Standards wirklich zitierfähig?'
     answer: 'Maschinenlesbarkeit und Fakten-Dichte. Wenn dein Content über schnelle API-Antworten abgerufen wird, bleiben nur Text und Struktur übrig. Zitierfähig ist, was als klar definierter Key-Value-Pair oder als Markdown-Tabelle funktioniert. Fließtext voller Adjektive wird von RAG-Systemen sofort aussortiert.'
   - question: 'Warum ist strukturierte Datenaufbereitung für KIs so wichtig für Zitate?'
     answer: 'Weil moderne LLMs und KI-Agenten keine HTML-DOM-Bäume mehr rendern wollen. Sie fordern via HTTP-Header direkt Markdown an. Wenn dein Server das nicht liefert, fliegst du aus dem RAG-Index. Wer Markdown liefert, wird zitiert.'
@@ -23,7 +23,7 @@ faqs:
 
 Moin!
 
-Vergiss das abgedroschene Mantra "Content is King". Das war in den 2010er Jahren relevant. Im Juli 2026, mitten in der gnadenlosen Ära der technischen KI-Optimierung und der **Generative Engine Optimization (GEO)**, lautet die unerbittliche Wahrheit: **Zitierfähiger Content ist der Imperator.** 
+Vergiss das abgedroschene Mantra "Content is King". Das war in den 2010er Jahren relevant. Im 2026, mitten in der gnadenlosen Ära der technischen KI-Optimierung und der **Generative Engine Optimization (GEO)**, lautet die unerbittliche Wahrheit: **Zitierfähiger Content ist der Imperator.** 
 
 Wenn dein Text von den Agenten nicht in Echtzeit verstanden, extrahiert und in eine KI-Antwort (AI Overview) injiziert werden kann, ist er absolut wertloser Datenmüll. Wenn Google Gemini, Perplexity oder Claude eine Frage des Nutzers beantworten, suchen sie nicht nach "schön geschriebenen" Texten mit zwanzig Adjektiven. Sie suchen nach knallharten, verifizierbaren Fakten, die sie über das **KI-Crawler Protocol (Agent-to-Agent Protocol)** durch ihre RAG-Pipelines (Retrieval-Augmented Generation) jagen können. 
 
@@ -34,7 +34,7 @@ Gehörst du zu den zitierten Quellen oder stirbt deine Website den leisen, unsic
   <p class="italic text-dark mb-0">"Niemand interessiert sich für deine Meinungsvielfalt. KI-Modelle wollen Definitionen. KI-Modelle wollen verifizierbare Daten, basierend auf E-E-A-T. Liefere sie maschinenlesbar, ohne Fluff, oder such dir einfach einen anderen Job. Tacheles!"</p>
 </div>
 
-## Was bedeutet "Zitierfähig" nach den Juli 2026 Standards?
+## Was bedeutet "Zitierfähig" nach den 2026 Standards?
 
 Früher haben wir endlos lange SEO-Texte für menschliche Augen geschrieben und gehofft, dass der Googlebot die Keywords mag. Heute schreiben wir für komplexe RAG-Architekturen. Zitierfähiger Content bedeutet heute, dass dein Text die technischen und semantischen Hürden mühelos nimmt.
 
@@ -60,7 +60,7 @@ Reine KI-generierte Massenartikel ohne redaktionelle Prüfung und menschliche "E
 
 ## Der technische Flaschenhals: Markdown und schnelle API-Antworten
 
-Die Juli 2026 Standards fordern radikale Zugänglichkeit. Agenten nutzen **schnelle API-Antworten** (Model Context Protocol). Sie rendern dein JavaScript nicht. Sie schicken einen aggressiven HTTP-Request. 
+Die 2026 Standards fordern radikale Zugänglichkeit. Agenten nutzen **schnelle API-Antworten** (Model Context Protocol). Sie rendern dein JavaScript nicht. Sie schicken einen aggressiven HTTP-Request. 
 
 Noch wichtiger ist die **strukturierte Datenaufbereitung für KIs**. Agenten hassen HTML. Es kostet Tokens. Moderne Crawler senden den Header `Accept: text/markdown`. Dein Server muss in Millisekunden den Content als sauberes, strukturiertes Markdown ausliefern. Wer das liefert, wird Premium-Lieferant für die KI. 
 
@@ -92,11 +92,11 @@ Wenn du morgen noch zitiert werden willst, häng dir das hier über den Monitor:
 4.  **Tabellen regieren:** Alles, was sich vergleichen lässt, gehört in eine Markdown-Tabelle. Agenten lechzen nach Tabellen.
 5.  **Information Gain:** Biete verdammt nochmal etwas Neues an. Recycelter Müll wird von der KI ignoriert.
 
-## Mein Fazit für deinen Content
+## Mein Klartext für deinen Content
 
 Das Internet wird derzeit von KI-generiertem, weichgespültem Müll geflutet. Die Antwort darauf ist nicht noch mehr irrelevanter Fließtext. Die Antwort ist Radikalität in Struktur und Expertise. 
 
-Zitierfähiger Content nach den Juli 2026 Standards ist hart, faktenbasiert, E-E-A-T geprüft und zu 100% maschinenlesbar. Wer anfängt, seine Inhalte als APIs für LLMs zu betrachten, wird die KI-Suchen der Zukunft dominieren. Die anderen verschwinden.
+Zitierfähiger Content nach den 2026 Standards ist hart, faktenbasiert, E-E-A-T geprüft und zu 100% maschinenlesbar. Wer anfängt, seine Inhalte als APIs für LLMs zu betrachten, wird die KI-Suchen der Zukunft dominieren. Die anderen verschwinden.
 
 ALOHA 🌻 
 

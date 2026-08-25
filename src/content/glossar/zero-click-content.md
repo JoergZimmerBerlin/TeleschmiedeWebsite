@@ -8,7 +8,7 @@ date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["aeo", "ctr", "geo", "snippet-optimierung", "a2a-protocol"]
 key_takeaways:
-  - "Zero-Click ist endgültig: Im Juli 2026 laufen Suchanfragen über Agenten (schnelle API-Antworten), nicht über Browser."
+  - "Zero-Click ist endgültig: Im 2026 laufen Suchanfragen über Agenten (schnelle API-Antworten), nicht über Browser."
   - "Dein neues Ziel ist RAG-Injection: Wenn Nutzer nicht mehr klicken, musst du Teil des Retrieval-Augmented Generation Prozesses der LLMs werden."
   - "Die llms.txt steuert den Zero-Click-Traffic: Sie ist der einzige Weg, Agenten gezielt mit deinen Antworten zu füttern."
   - "KI-Crawler Protocol statt B2C: Optimiere für Agent-to-Agent Kommunikation. Wenn Agenten dir vertrauen, taucht deine Marke in der finalen Antwort auf."
@@ -23,7 +23,7 @@ faqs:
 
 Moin!
 
-Hör auf zu heulen, nur weil deine Search Console traurig aussieht. Dein Traffic bricht ein? Deine Click-Through-Rate (CTR) nähert sich gefährlich der Nulllinie? Willkommen in der knallharten Realität vom Juli 2026. **Zero-Click Content** ist nicht mehr die schmerzhafte Ausnahme, er ist der absolute, nicht diskutierbare Standard. 
+Hör auf zu heulen, nur weil deine Search Console traurig aussieht. Dein Traffic bricht ein? Deine Click-Through-Rate (CTR) nähert sich gefährlich der Nulllinie? Willkommen in der knallharten Realität vom 2026. **Zero-Click Content** ist nicht mehr die schmerzhafte Ausnahme, er ist der absolute, nicht diskutierbare Standard. 
 
 Die aktuellen Zahlen lügen nicht: **Rund 68% aller Google-Suchen enden heute komplett ohne einen einzigen Klick** auf eine externe Webseite. Auf mobilen Endgeräten liegt diese Quote sogar bei fast 77%. Die Ära, in der Nutzer eine Suchmaschine öffneten, zehn blaue Links sahen und auf deine sorgfältig gebaute Landingpage klickten, ist vorbei. Tot. Beerdigt. Heute delegieren Nutzer ihre Fragen an KI-Agenten und AI Overviews (AIO). Diese Systeme liefern die Antwort direkt im Interface. Der Nutzer hat absolut keinen Grund mehr, deine Website im Browser aufzurufen.
 
@@ -54,7 +54,7 @@ Und hier kommt das **Citation-Paradoxon** ins Spiel: Studien aus dem Jahr 2026 z
 
 Wie sorgst du dafür, dass die Agenten genau deinen Content nehmen? Indem du die "Häppchen-Taktik" anwendest. 
 
-Agenten hassen riesige, unstrukturierte Textblöcke. Liefere die wichtigste Antwort direkt am Anfang deines Artikels in präzisen **40 bis 60 Wörtern**. Nutze Markdown-Tabellen für Daten, Aufzählungen und klare Definitionen. Die Juli 2026 Standards fordern **strukturierte Datenaufbereitung für KIs**. 
+Agenten hassen riesige, unstrukturierte Textblöcke. Liefere die wichtigste Antwort direkt am Anfang deines Artikels in präzisen **40 bis 60 Wörtern**. Nutze Markdown-Tabellen für Daten, Aufzählungen und klare Definitionen. Die 2026 Standards fordern **strukturierte Datenaufbereitung für KIs**. 
 
 Wenn der Crawler des Agenten anklopft (`Accept: text/markdown`), muss dein Server sofort die reine, unformatierte Faktenlage als sauberes Markdown ausspucken. Wer HTML liefert, wird übersprungen. Wer Markdown liefert, wird zur Quelle. 
 

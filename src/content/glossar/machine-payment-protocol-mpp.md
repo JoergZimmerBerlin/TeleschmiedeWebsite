@@ -26,7 +26,7 @@ Moin! 🌻
 
 Lass uns direkt Klartext reden. Jahrelang haben wir unsere E-Commerce-Systeme darauf getrimmt, Menschen durch den Checkout zu prügeln. Wir haben Buttons optimiert, Ladezeiten gesenkt und Vertrauenssiegel poliert. Und jetzt? Jetzt kommt die KI und wischt das alles vom Tisch. Wenn du glaubst, ein autonomer Agent klickt sich durch dein liebevoll gestaltetes PayPal-Formular, dann glaubst du auch, dass die Deutsche Bahn morgen pünktlich fährt. 
 
-Die Realität im Juli 2026 heißt **Machine Payment Protocol (MPP)**. KI-Agenten kaufen nicht mehr wie Menschen ein. Sie verhandeln über APIs und zahlen in Echtzeit – und zwar Beträge, bei denen eine normale Banklösung lachend den Raum verlässt.
+Die Realität im 2026 heißt **Machine Payment Protocol (MPP)**. KI-Agenten kaufen nicht mehr wie Menschen ein. Sie verhandeln über APIs und zahlen in Echtzeit – und zwar Beträge, bei denen eine normale Banklösung lachend den Raum verlässt.
 
 ## Die Evolution der Bezahlung: Wenn Agenten shoppen gehen
 

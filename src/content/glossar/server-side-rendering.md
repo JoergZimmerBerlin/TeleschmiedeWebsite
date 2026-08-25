@@ -94,7 +94,7 @@ Nichts ist perfekt. SSR bringt zwei signifikante Herausforderungen mit sich:
 1. **Serverlast (Kosten):** Dein Server muss bei jedem Klick Rechenleistung erbringen. Bei 10.000 gleichzeitigen Besuchern glühen die Prozessoren. Ohne ein starkes [Content Delivery Network (CDN)](#) stürzt die Seite ab.
 2. **Time to First Byte (TTFB):** Weil der Server erst kurz arbeiten muss, bevor er das HTML sendet, dauert die allererste Antwort des Servers minimal länger als bei reinen statischen Dateien.
 
-## Fazit: Ohne SSR kein Top-Level SEO
+## Klartext: Ohne SSR kein Top-Level SEO
 
 Server-Side Rendering (und sein naher Verwandter SSG) sind im professionellen [Technischen SEO](/glossar/technisches-seo/) nicht verhandelbar. Wer auf rein clientseitiges Rendering setzt, baut absichtlich massive Hürden für den Googlebot, für Applebot und für sämtliche KI-Scraper auf. 
 

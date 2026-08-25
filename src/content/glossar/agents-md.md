@@ -14,7 +14,7 @@ key_takeaways:
 faqs:
   - question: "Warum brauche ich eine AGENTS.md, wenn ich schon eine README.md habe?"
     answer: "Die `README.md` ist für Menschen geschrieben. Sie enthält lange Sätze über die Geschichte des Projekts, Logos und Badges. Eine KI verschwendet bei jedem Lesen hunderte von Token, um diesen Fließtext zu verarbeiten. Die `AGENTS.md` ist für Maschinen geschrieben. Sie enthält knallharte, strukturierte Befehle, Architektur-Regeln und CLI-Kommandos, die den Agenten sofort in die Spur setzen, ohne Blabla."
-  - question: "Welche Tools unterstützen die AGENTS.md im Juli 2026?"
+  - question: "Welche Tools unterstützen die AGENTS.md im 2026?"
     answer: "Nahezu alle großen Player. Da die Agentic AI Foundation (AAIF) das Format standardisiert hat, greifen Tools wie Cursor, Claude Code, GitHub Copilot und die Gemini CLI nativ darauf zu. Früher brauchte man für jedes Tool eine eigene Config-Datei (`.cursorrules`, `CLAUDE.md`). Heute reicht eine einzige `AGENTS.md` im Root-Verzeichnis, um sie alle zu steuern."
   - question: "Kann ich mehrere AGENTS.md Dateien in einem Projekt haben?"
     answer: "Ja, das ist sogar Best Practice in großen Monorepos. Du legst eine globale `AGENTS.md` ins Hauptverzeichnis (für generelle Architektur-Regeln wie CI/CD). Wenn du dann einen Unterordner für dein Frontend (z.B. React) hast, legst du dort eine weitere `AGENTS.md` hinein, die spezifische React-Regeln enthält. Der Agent liest immer die Regeln, die der Datei, die er gerade bearbeitet, am nächsten sind."

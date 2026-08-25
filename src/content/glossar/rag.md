@@ -9,7 +9,7 @@ image: "../../assets/images/glossar/3d-light/glossar-rag-3d.png"
 image_alt: "RAG 3D Infografik - Zusammenspiel von Datenquelle, KI-Synthese und Antwort"
 key_takeaways:
   - "Fakten-Anker: RAG erlaubt es LLMs, auf externe, verifizierte Datenquellen zuzugreifen, statt nur auf dem (oft veralteten) Trainingswissen zu basieren."
-  - "Echtzeit-Retrieval: Im Juli 2026 läuft RAG primär über direkte API-Datenabrufe, anstatt nur PDFs hochzuladen."
+  - "Echtzeit-Retrieval: Im 2026 läuft RAG primär über direkte API-Datenabrufe, anstatt nur PDFs hochzuladen."
   - "Halluzinations-Killer: Durch den Abruf echter Dokumente vor der Antwort-Generierung wird das Risiko von KI-erfundenen Fakten radikal gesenkt."
   - "Source of Truth: RAG ist der einzige Weg, ChatGPT sicher auf internen Daten, dynamischen Preisen oder aktuellen Website-Inhalten antworten zu lassen."
 tacheles: 'Wer glaubt, dass ChatGPT von Haus aus alles weiß, baut auf Sand. Ohne RAG ist ein LLM nur ein hoch eloquenter Schwätzer. Wer heute nicht versteht, wie er seine Daten als Anker in RAG-Pipelines einspeist, fliegt aus den KI-Antworten.'
@@ -19,7 +19,7 @@ faqs:
     answer: 'Stell dir Fine-Tuning wie das Auswendiglernen eines ganzen Buches für eine Prüfung vor – extrem aufwendig, teuer (GPU-Kosten) und das Wissen ist danach starr. RAG hingegen ist so, als ob die KI ein Open-Book-Examen schreibt: Sie hat Zugriff auf eine Bibliothek (deine Vektordatenbank) und schlägt bei jeder Frage blitzschnell nach. Für 99% aller Anwendungsfälle ist RAG die bessere und flexiblere Wahl.'
   - question: 'Warum ist RAG für Suchmaschinenoptimierung wichtig?'
     answer: 'In der Welt der Generative Search Engines wie Perplexity oder SearchGPT ist RAG der Standardprozess. Die Suchmaschine crawlt (retrievaled) deine Webseite, baut sie in den Prompt ein (augment) und generiert dann die Antwort. Ist dein Content nicht in klaren, semantischen Chunks formatiert, fällst du durchs Raster.'
-  - question: 'Wie funktioniert RAG im Juli 2026?'
+  - question: 'Wie funktioniert RAG im 2026?'
     answer: 'Wir haben die Ära der basteligen PDF-Uploads hinter uns. Unternehmen stellen strukturierte Endpunkte bereit. KI-Crawler pingen diese an (z.B. "Wie viel kostet das Sofa heute?"), holen den Datenpunkt und schreiben erst dann ihre Antwort.'
 ---
 

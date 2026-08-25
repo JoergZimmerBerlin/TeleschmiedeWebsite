@@ -23,7 +23,7 @@ faqs:
 ---
 
 
-Lass uns Tacheles reden. Vergiss alles, was du in den letzten zehn Jahren über Conversion-Rate-Optimierung (CRO) gelernt hast. Wer heute, im Juli 2026, noch glaubt, dass CRO primär bedeutet, einen Call-to-Action-Button von Blau auf Grün zu ändern oder ein Formularfeld auszublenden, der betreibt strategischen Pfusch am Bau. Es gibt keine "Standard-Conversion-Rate" mehr. Die goldene Regel von 2,35 % über alle Industrien hinweg ist ein Mythos aus der Vergangenheit.
+Lass uns Tacheles reden. Vergiss alles, was du in den letzten zehn Jahren über Conversion-Rate-Optimierung (CRO) gelernt hast. Wer heute, im 2026, noch glaubt, dass CRO primär bedeutet, einen Call-to-Action-Button von Blau auf Grün zu ändern oder ein Formularfeld auszublenden, der betreibt strategischen Pfusch am Bau. Es gibt keine "Standard-Conversion-Rate" mehr. Die goldene Regel von 2,35 % über alle Industrien hinweg ist ein Mythos aus der Vergangenheit.
 
 Die Realität sieht völlig anders aus: Die Suchlandschaft wurde durch AI Overviews und RAG-Systeme (Retrieval-Augmented Generation) massiv fragmentiert. Wir sprechen hier von der sogenannten *AI Search Cannibalization*. KI-Antwortmaschinen beantworten den Top-of-Funnel-Traffic (die simplen Informationsfragen) direkt in der Suche. Das bedeutet: Zero-Click-Searches dominieren. Der Traffic, der es heute noch organisch auf deine Seite schafft, ist extrem hochqualifiziert. Dieser Traffic verzeiht jedoch keine Fehler. Wenn deine Architektur hinkt, springt dieser Nutzer gnadenlos ab. 
 

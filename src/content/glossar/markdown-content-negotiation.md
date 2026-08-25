@@ -17,14 +17,14 @@ faqs:
   - question: "Ist das nicht Cloaking und wird von Google abgestraft?"
     answer: "Ganz klares Nein. Beim Cloaking zeigst du der Suchmaschine *andere Inhalte* als dem Nutzer, um zu manipulieren. Bei der Content Negotiation lieferst du *denselben Inhalt* lediglich in dem Format aus, das der Client (der Bot) explizit im HTTP-Header angefordert hat. Das ist Web-Standard (RFC 7231)."
   - question: "Lohnt sich das überhaupt schon?"
-    answer: "Es ist aktuell (Juli 2026) eine 'Best-Effort'-Optimierung. Große Frameworks und Plattformen bieten zunehmend nativen Support dafür. Es ist besonders wertvoll für Seiten mit viel Dokumentation, auf die spezialisierte Coding-Bots zugreifen."
+    answer: "Es ist aktuell (2026) eine 'Best-Effort'-Optimierung. Große Frameworks und Plattformen bieten zunehmend nativen Support dafür. Es ist besonders wertvoll für Seiten mit viel Dokumentation, auf die spezialisierte Coding-Bots zugreifen."
 ---
 
 Moin! Jörg Zimmer hier. 
 
 25 Jahre hänge ich jetzt in diesem SEO- und Webentwicklungs-Business fest. Wir haben das Web von nackten Textwüsten zu blinkenden Flash-Monstern und wieder zurück zu überladenen JavaScript-SPAs (Single Page Applications) getrieben. Wir Webentwickler haben eine absolute Meisterleistung darin vollbracht, Dinge unfassbar kompliziert, langsam und teuer zu machen. 
 
-Für einen Menschen, der mit einem fetten Mac im Chrome-Browser surft, sieht das Endergebnis super aus. Aber im Juli 2026 haben wir ein neues, massives Thema auf dem Tisch: Die **Agent Experience Optimization (AEO)**. Immer mehr Traffic kommt nicht von menschlichen Browsern, sondern von autonomen KI-Agenten, RAG-Crawlern (Retrieval-Augmented Generation) und spezialisierten Bots. 
+Für einen Menschen, der mit einem fetten Mac im Chrome-Browser surft, sieht das Endergebnis super aus. Aber im 2026 haben wir ein neues, massives Thema auf dem Tisch: Die **Agent Experience Optimization (AEO)**. Immer mehr Traffic kommt nicht von menschlichen Browsern, sondern von autonomen KI-Agenten, RAG-Crawlern (Retrieval-Augmented Generation) und spezialisierten Bots. 
 
 Und diese Maschinen hassen dein wunderschönes HTML. Sie hassen es abgrundtief.
 
@@ -98,7 +98,7 @@ export function onRequest(context) {
 }
 ```
 
-### Fazit
+### Klartext
 
 Die KIs sind mittlerweile extrem wichtige Besucher deiner Website. Sie lesen anders als Menschen und haben andere Bedürfnisse. 
 

@@ -48,7 +48,7 @@ Die `auth.md` löst das elegant. Die Datei wird im Root unter `https://deinedoma
 
 Cloudflare hat diesen Standard sofort adaptiert, um Agenten nahtlose Deployments und temporäre Accounts zur Verfügung zu stellen. 
 
-### Fazit: Rollt den KIs den roten Teppich aus
+### Klartext: Rollt den KIs den roten Teppich aus
 
 Lass uns Tacheles reden: Wenn dein Vertrieb heute noch verlangt, dass KIs Formulare ausfüllen, hast du die Agenten-Ökonomie nicht verstanden. Wer autonome Agenten wie Spammer behandelt, verliert Bares. Implementiere `auth.md`, baue saubere OAuth-Pipelines und mach deine Domain bereit für das Agent-Native Web.
 

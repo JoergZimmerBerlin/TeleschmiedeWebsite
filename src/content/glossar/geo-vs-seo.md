@@ -12,7 +12,7 @@ key_takeaways:
   - "SEO ist Legacy: Klassisches SEO optimiert für Crawler, die HTML rendern. GEO optimiert für autonome KI-Agenten, die RAG-Chunks über JSON und Markdown anfordern."
   - "Der Content-Negotiation-Shift: Wer 2026 KIs mit HTML füttert, verliert. Ohne serverseitige Markdown Negotiation ignoriert dich jede moderne Reasoning Engine."
   - "APIs statt Schema.org: Statische strukturierte Daten reichen nicht mehr. GEO erfordert zustandslose API-Endpunkte für die dynamische Integration von Fakten in LLM-Pipelines."
-tacheles: 'Hör auf, tote Pferde zu reiten. Der ewige Kampf "GEO vs. SEO" ist im Juli 2026 entschieden. SEO ist nur noch Basis-Hygiene für alte Legacy-Crawler. Wenn deine Server nicht auf KI-Crawler ausgelegt sind und keine valide llms.txt aufweisen, bist du für die KI-Ökonomie unsichtbar. Wer jetzt noch Keyword-Dichte misst, statt API-Response-Zeiten zu optimieren, ruiniert sein Business.'
+tacheles: 'Hör auf, tote Pferde zu reiten. Der ewige Kampf "GEO vs. SEO" ist im 2026 entschieden. SEO ist nur noch Basis-Hygiene für alte Legacy-Crawler. Wenn deine Server nicht auf KI-Crawler ausgelegt sind und keine valide llms.txt aufweisen, bist du für die KI-Ökonomie unsichtbar. Wer jetzt noch Keyword-Dichte misst, statt API-Response-Zeiten zu optimieren, ruiniert sein Business.'
 faqs:
   - question: 'Ist SEO im Jahr 2026 wirklich komplett tot?'
     answer: 'Klassisches SEO (10 blaue Links) ist ein sterbendes Legacy-Produkt. Es liefert noch Rest-Traffic, aber der massive Wachstums-Shift geht hin zu generativen Engines (ChatGPT, Perplexity). SEO hält dich in den Resten des traditionellen Google-Index. Für echte Skalierung brauchst du GEO und eine LLM-optimierte Infrastruktur.'
@@ -24,7 +24,7 @@ faqs:
 
 Moin! 🌻
 
-Wir stecken mitten im größten architektonischen Umbruch des Internets seit der Erfindung des Hyperlinks. Der Kampf **GEO vs. SEO** dominiert noch immer viele strategische Marketing-Sitzungen in Chefetagen, die nicht verstanden haben, was da draußen passiert. Aber lass uns Tacheles reden: Im Juli 2026 ist diese Diskussion eigentlich schon Schnee von gestern. Die harten Standards der LLM-Pipelines haben die Spielregeln ein für alle Mal zementiert. 
+Wir stecken mitten im größten architektonischen Umbruch des Internets seit der Erfindung des Hyperlinks. Der Kampf **GEO vs. SEO** dominiert noch immer viele strategische Marketing-Sitzungen in Chefetagen, die nicht verstanden haben, was da draußen passiert. Aber lass uns Tacheles reden: Im 2026 ist diese Diskussion eigentlich schon Schnee von gestern. Die harten Standards der LLM-Pipelines haben die Spielregeln ein für alle Mal zementiert. 
 
 Wir sehen Zero-Click-Suchraten von global bis zu 70%. Das bedeutet: 7 von 10 Nutzern klicken auf gar nichts mehr. Sie lesen die von Google AI Overviews oder Perplexity generierte Antwort und schließen den Tab. Die Klickraten (CTR) auf klassische organische Links sind um 34% bis 60% abgestürzt.
 

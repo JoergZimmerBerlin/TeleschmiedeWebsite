@@ -76,7 +76,7 @@ Die `robots.txt` ist wie ein Schild an deiner Tür: "Bitte nicht eintreten". Ein
 ### 3. Log-Files analysieren
 Überprüfe regelmäßig die Protokolle (Logs) deiner WAF. Filtere nach `403 Forbidden` oder `Captcha Served` Statuscodes. Prüfe, ob in diesen geblockten Anfragen der User-Agent von wichtigen Suchmaschinen auftaucht. Wenn ja, hast du eine "False Positive" Blockade, die dein SEO aktiv sabotiert.
 
-## Fazit: Die WAF ist Chefsache
+## Klartext: Die WAF ist Chefsache
 
 Eine Web Application Firewall ist unverzichtbar. Aber wer sie einfach einschaltet und "vergisst", betreibt SEO-Roulette.
 

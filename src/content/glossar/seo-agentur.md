@@ -22,7 +22,7 @@ faqs:
 
 Moin!
 
-Vergiss alles, was dir in den letzten zehn Jahren über Suchmaschinenoptimierung erzählt wurde. Die klassische **SEO Agentur Berlin**, die dir für 2.500 Euro im Monat "hochwertigen Content", "starke Backlinks" und ein paar technische Audits verkauft, ist tot. Mausetot. Wir schreiben den Juli 2026. Wer heute noch allen Ernstes glaubt, dass eine hohe Keyword-Dichte und ein paar H2-Überschriften den Umsatz retten, fährt mit 180 km/h ungebremst gegen die Wand der generativen KI.
+Vergiss alles, was dir in den letzten zehn Jahren über Suchmaschinenoptimierung erzählt wurde. Die klassische **SEO Agentur Berlin**, die dir für 2.500 Euro im Monat "hochwertigen Content", "starke Backlinks" und ein paar technische Audits verkauft, ist tot. Mausetot. Wir schreiben den 2026. Wer heute noch allen Ernstes glaubt, dass eine hohe Keyword-Dichte und ein paar H2-Überschriften den Umsatz retten, fährt mit 180 km/h ungebremst gegen die Wand der generativen KI.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext</p>

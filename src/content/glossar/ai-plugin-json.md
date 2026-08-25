@@ -8,7 +8,7 @@ date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-plugin-json-3d.webp"
 image_alt: "3D Infografik zum Thema ai-plugin.json und der Evolution hin zu modernen Schnittstellen"
 key_takeaways:
-  - "Die ai-plugin.json war 2023 der Hype, ist aber Stand Juli 2026 eine offiziell abgekündigte Legacy-Technologie."
+  - "Die ai-plugin.json war 2023 der Hype, ist aber Stand 2026 eine offiziell abgekündigte Legacy-Technologie."
   - "Starre Plugin-Silos wurden durch OpenAI GPT Actions, Structured Outputs und offene Standards ersetzt."
   - "Wer heute noch Plugins für ChatGPT baut, investiert in eine tote Plattformökonomie."
 faqs:
@@ -62,7 +62,7 @@ Es verschlingt Millionen-Budgets und führt zu nichts.
 
 ## Der Paradigmenwechsel 2026: GPT Actions, Structured Outputs und Offene Standards
 
-Die Industrie hat den Weg der Agilität gewählt. Heute (Juli 2026) redet niemand mehr von der `ai-plugin.json`. 
+Die Industrie hat den Weg der Agilität gewählt. Heute (2026) redet niemand mehr von der `ai-plugin.json`. 
 
 **Der Ersatz im OpenAI-Ökosystem:**
 Wer heute tief mit OpenAI integrieren will, nutzt GPT Actions oder greift direkt über die API auf mächtige Features wie **Structured Outputs** oder die **Responses API** zurück. Diese erlauben es Entwicklern, exakt strukturierte Daten (JSON) von Modellen zurückzubekommen, ohne sich auf wackelige Prompt-Hacks oder alte Plugin-Manifeste verlassen zu müssen.

@@ -11,7 +11,7 @@ related_terms: ["e-e-a-t", "experience-eeat", "expertise-eeat", "authoritativene
 key_takeaways:
   - "Der ultimative Filter: Trustworthiness ist 2026 kein Soft-Faktor mehr, sondern ein harter algorithmischer Gatekeeper in den RAG-Prozessen."
   - "Information Gain: Einzigartige, menschliche Einblicke und Fakten sind das, was dich vor der Austauschbarkeit durch LLMs bewahrt."
-  - "Juli 2026 technische KI-Optimierung: Ohne maschinenlesbaren Trust (Disambiguierung, konsistente Signale) bist du für LLMs nur toxisches Rauschen."
+  - "2026 technische KI-Optimierung: Ohne maschinenlesbaren Trust (Disambiguierung, konsistente Signale) bist du für LLMs nur toxisches Rauschen."
 faqs:
   - question: 'Warum ist Trustworthiness 2026 der wichtigste Faktor im E-E-A-T?'
     answer: 'Weil KI-Modelle keine eigene Meinung haben – sie treffen Entscheidungen auf Basis von Wahrscheinlichkeiten. Vertrauen bedeutet für eine KI: ''Wie hoch ist das Risiko, dass ich mit dieser Information halluziniere?''. Ein maximaler Trust-Score garantiert, dass deine Entität als sichere Quelle für RAG-Systeme eingestuft wird.'

@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Wer im Juli 2026 immer noch glaubt, Strukturierte Daten (JSON-LD) seien nur dafür da, um mickrige gelbe Bewertungssternchen in den Suchergebnissen abzugreifen, der hat den Schuss nicht gehört. Vergiss die alten SEO-Märchen. Strukturierte Daten sind heute die nackte Existenzgrundlage deiner Website im KI-Vektorraum. Sie sind das absolut nicht verhandelbare Kernstück deiner Generative Engine Optimization (GEO).
+Wer im 2026 immer noch glaubt, Strukturierte Daten (JSON-LD) seien nur dafür da, um mickrige gelbe Bewertungssternchen in den Suchergebnissen abzugreifen, der hat den Schuss nicht gehört. Vergiss die alten SEO-Märchen. Strukturierte Daten sind heute die nackte Existenzgrundlage deiner Website im KI-Vektorraum. Sie sind das absolut nicht verhandelbare Kernstück deiner Generative Engine Optimization (GEO).
 
 Autonome KI-Agenten, von ChatGPT über Google Gemini bis hin zu Perplexity, lesen deine Website nicht wie ein Mensch, der sich am schönen Design erfreut. Sie suchen nach maschinenlesbaren Mustern, um Datenpakete für **RAG (Retrieval-Augmented Generation)** zu extrahieren. Genau hier entscheidet sich alles.
 

@@ -24,7 +24,7 @@ faqs:
 
 Moin! 🌻
 
-Wir schreiben den Juli 2026 und ich mache es radikal kurz: Wenn du glaubst, dass digitale Sichtbarkeit noch irgendetwas mit H1-Tags, Keyword-Dichte oder dem simplen Einbauen eines FAQ-Plugins zu tun hat, dann hast du den massiven System-Crash des Internets verschlafen. Willkommen in der knallharten Realität der **GEO Optimierung** (Generative Engine Optimization) – und zwar exklusiv auf der Ebene der Server-Architektur.
+Wir schreiben den 2026 und ich mache es radikal kurz: Wenn du glaubst, dass digitale Sichtbarkeit noch irgendetwas mit H1-Tags, Keyword-Dichte oder dem simplen Einbauen eines FAQ-Plugins zu tun hat, dann hast du den massiven System-Crash des Internets verschlafen. Willkommen in der knallharten Realität der **GEO Optimierung** (Generative Engine Optimization) – und zwar exklusiv auf der Ebene der Server-Architektur.
 
 Die Fakten liegen auf dem Tisch: Zero-Click-Searches dominieren mit 60% bis 70% den weltweiten Suchmarkt. Wenn Google AI Overviews triggern, brechen die Klickraten (CTR) der organischen Links um 34% bis 60% ein. Die User wollen keine Links mehr, sie wollen synthetisierte Antworten direkt in der Suchmaschine. Wer hier noch für menschliche Klicks auf blaue Links optimiert, reitet ein totes Pferd.
 
@@ -84,7 +84,7 @@ Was passiert technisch im Hintergrund, wenn ein User heute fragt: *"Welche Berli
 4.  **Retrieval:** Dein optimierter Server liefert pures Markdown in 40ms. Der Agent extrahiert den RAG-Chunk fehlerfrei.
 5.  **Synthese & Citation:** Das LLM injiziert deinen perfekten Chunk in den Kontext und generiert dem User die Antwort: *"Jörg Zimmer aus Berlin implementiert serverseitige Content Negotiation für LLMs [1]."* – Das `[1]` ist dein Citation-Sieg. Du bist zur Ground Truth geworden.
 
-## Fazit: Werde zur verlustfreien Datenquelle
+## Klartext: Werde zur verlustfreien Datenquelle
 
 GEO Optimierung ist tiefes Data-Engineering. Wer glaubt, er könne den massiven KI-Umbruch mit ein paar neuen Keywords, generischen Texten und hübschen Bildern aussitzen, dessen System crasht still und leise im Hintergrund. Die Nutzer suchen nicht mehr nach URLs, sie fordern direkt Fakten. 
 

@@ -24,7 +24,7 @@ Moin!
 
 Lass uns über **Sichtbarkeitsmanagement** sprechen. Wenn du das Wort hörst, denkst du wahrscheinlich an ein Marketing-Lehrbuch aus 2018. Eine Zeit, in der Agenturen teure Retainer verkauft haben, um ein paar Keywords in Tools zu verschieben. Ja, das war es mal.
 
-Aber wach auf: Im Juli 2026 steckt hinter diesem Begriff die überlebenswichtigste Entscheidung deines Business: *Bist du für KI-Agenten maschinenlesbar, oder überlässt du das Feld kampflos der Konkurrenz?* Sichtbarkeitsmanagement ist heute eine Disziplin der Generative Engine Optimization (GEO).
+Aber wach auf: Im 2026 steckt hinter diesem Begriff die überlebenswichtigste Entscheidung deines Business: *Bist du für KI-Agenten maschinenlesbar, oder überlässt du das Feld kampflos der Konkurrenz?* Sichtbarkeitsmanagement ist heute eine Disziplin der Generative Engine Optimization (GEO).
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext</p>
@@ -37,7 +37,7 @@ Sichtbarkeit passiert nicht durch Zufall. Sie ist das Resultat von Architektur u
 
 Früher haben wir Google-Rankings in einem Dashboard getrackt und monatlich einen Bericht geschrieben. Du hast dich über grüne Pfeile gefreut und gehofft, dass der Traffic konvertiert.
 
-Im Juli 2026 sieht die Realität radikal anders aus:
+Im 2026 sieht die Realität radikal anders aus:
 
 *   **Der Paradigmenwechsel (Von Rankings zu Antworten):** Der menschliche Nutzer sucht oft nicht mehr selbst. Er delegiert an KI-Crawler. Oder die Suchmaschine generiert direkt eine Antwort via Google AI Overviews (Zero-Click-Search).
 *   **Search Everywhere:** Sichtbarkeit entsteht nicht mehr nur in Google. Sie entsteht dort, wo Nutzer Entscheidungen treffen – auf Social Media, in Communities wie Reddit oder durch Chatbots. Das alles wird von KI aggregiert.

@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Wir schreiben den Juli 2026. Das Netz erstickt in künstlich generierten, glattgebügelten Textwüsten. Jeder feuert sekündlich Artikel ab, die alle exakt die gleichen generischen Phrasen wiederkäuen. In diesem apokalyptischen Grundrauschen gibt es für OpenAI, Google und Perplexity nur noch eine einzige Methode, nicht im eigenen synthetischen Müll zu ertrinken: **Der gnadenlose Vektor-Filter nach echter, menschlicher Experience.**
+Wir schreiben den 2026. Das Netz erstickt in künstlich generierten, glattgebügelten Textwüsten. Jeder feuert sekündlich Artikel ab, die alle exakt die gleichen generischen Phrasen wiederkäuen. In diesem apokalyptischen Grundrauschen gibt es für OpenAI, Google und Perplexity nur noch eine einzige Methode, nicht im eigenen synthetischen Müll zu ertrinken: **Der gnadenlose Vektor-Filter nach echter, menschlicher Experience.**
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext</p>

@@ -36,9 +36,9 @@ Das Konzept ist simpel: Du legst eine Datei namens `llms.txt` in das Hauptverzei
 
 Die Theorie dahinter: Wenn ein autonomer KI-Crawler auf deine Seite kommt, schaut er nach dieser Datei, freut sich über das aufbereitete Markdown, spart massiv Rechenleistung (Tokens) und nimmt dich bevorzugt in seinen RAG-Index (Retrieval-Augmented Generation) auf.
 
-### Der harte Faktencheck im Juli 2026
+### Der harte Faktencheck im 2026
 
-Klingt genial, oder? Ist es auch – in der Theorie. Die Realität im Juli 2026 sieht aber anders aus:
+Klingt genial, oder? Ist es auch – in der Theorie. Die Realität im 2026 sieht aber anders aus:
 
 1. **Keine offizielle Adoption:** Weder OpenAI, noch Anthropic, noch Google haben die `llms.txt` zu einem offiziellen Standard gemacht. 
 2. **Google hat abgewunken:** Google hat öffentlich klargestellt, dass sie diese Datei **nicht** für das Ranking oder Indexing in der Google-Suche oder in den AI Overviews verwenden. Du kriegst keinen Ranking-Boost, Punkt.

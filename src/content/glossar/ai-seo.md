@@ -14,8 +14,8 @@ key_takeaways:
   - "Markdown statt HTML: Durch Markdown Content Negotiation reduzierst du Token-Overhead und machst deinen Content LLM-kompatibel."
   - "RAG schlägt Keywords: Wer KI-Agenten keine strukturierten Daten per Retrieval-Augmented Generation bereitstellt, verliert die Sichtbarkeit."
 faqs:
-  - question: 'Was ist der Unterschied zwischen AI SEO 2025 und AI SEO heute (Juli 2026)?'
-    answer: '2025 ging es noch darum, Texte etwas "KI-freundlicher" zu schreiben und vielleicht ein paar Keywords anzupassen. Im Juli 2026 ist das Geschichte. Heute ist AI SEO reine Infrastruktur-Optimierung. Es geht um harte technische Standards: Hast du eine llms.txt? Liefert dein Server Markdown via Content Negotiation aus? Ist deine API kompatibel mit Stateless MCP? Wenn nicht, bist du für moderne KI-Agenten und Suchmaschinen wie Perplexity oder AI Overviews de facto unsichtbar.'
+  - question: 'Was ist der Unterschied zwischen AI SEO 2025 und AI SEO heute (2026)?'
+    answer: '2025 ging es noch darum, Texte etwas "KI-freundlicher" zu schreiben und vielleicht ein paar Keywords anzupassen. Im 2026 ist das Geschichte. Heute ist AI SEO reine Infrastruktur-Optimierung. Es geht um harte technische Standards: Hast du eine llms.txt? Liefert dein Server Markdown via Content Negotiation aus? Ist deine API kompatibel mit Stateless MCP? Wenn nicht, bist du für moderne KI-Agenten und Suchmaschinen wie Perplexity oder AI Overviews de facto unsichtbar.'
   - question: 'Warum ist das A2A Protocol für AI SEO so kritisch?'
     answer: 'Suchen werden heute nicht mehr nur von Menschen per Tastatur in eine Maske getippt, sondern von autonomen KI-Agenten ausgeführt, die im Hintergrund das Web nach den präzisesten Antworten durchforsten. Das A2A (Agent-to-Agent) Protokoll definiert, wie diese Agenten miteinander und mit den Servern deiner Website kommunizieren. Deine Infrastruktur muss dieses Protokoll nativ unterstützen, um als verlässliche Quelle (Node) im digitalen Netzwerk akzeptiert und zitiert zu werden.'
   - question: 'Wie setze ich RAG für meine Website im Rahmen von AI SEO um?'
@@ -31,7 +31,7 @@ Wer 2026 von Suchmaschinenoptimierung spricht, meint in der Realität die Optimi
   <p class="italic text-dark mb-0">"Dein Content kann inhaltlich noch so brillant und rhetorisch meisterhaft geschrieben sein – wenn er nicht über saubere Protokolle abrufbar ist und bei einem KI-Request als aufgeblähtes, unformatiertes HTML anstatt als sauberes, token-effizientes Markdown ausgeliefert wird, existiert er für die moderne Suche schlichtweg nicht. Wir optimieren für Maschinen. Wir füttern Algorithmen. Punkt."</p>
 </div>
 
-AI SEO ist heute das strategische und vor allem technische Dach über allem, was online passiert. Es verbindet die alten Tugenden der Informationsarchitektur mit den radikal neuen, unnachgiebigen Anforderungen der KI-Ökosysteme wie ChatGPT Search, Perplexity und Google AI Overviews. Lass uns in die Details gehen, warum die Standards vom Juli 2026 alles, was wir bisher gemacht haben, auf den Kopf stellen.
+AI SEO ist heute das strategische und vor allem technische Dach über allem, was online passiert. Es verbindet die alten Tugenden der Informationsarchitektur mit den radikal neuen, unnachgiebigen Anforderungen der KI-Ökosysteme wie ChatGPT Search, Perplexity und Google AI Overviews. Lass uns in die Details gehen, warum die Standards vom 2026 alles, was wir bisher gemacht haben, auf den Kopf stellen.
 
 ## Die vier unverrückbaren Säulen des modernen AI SEO
 

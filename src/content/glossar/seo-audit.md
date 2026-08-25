@@ -7,6 +7,13 @@ meta_description: "SEO Audit: Wir analysieren deine Domain auf RAG-Tauglichkeit 
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 tacheles: 'Wer heute noch ein 100-seitiges PDF voller fehlender H1-Tags als "Audit" verkauft, betreibt Pfusch am Bau. 2026 reden wir über Vektor-Sichtbarkeit: llms.txt, Markdown Negotiation und Schema-Graphen. Ein Audit muss schonungslos zeigen, warum Google Gemini und OpenAI deine Seite ignorieren.'
+faqs:
+  - question: 'Was ist ein SEO Audit im Jahr 2026?'
+    answer: 'Ein SEO Audit im Jahr 2026 geht weit über alte Checklisten hinaus. Neben klassischen Onpage-Faktoren wird vor allem die Agent Readiness geprüft: Kann ein KI-Crawler deine Seite fehlerfrei auslesen? Gibt es eine llms.txt und valides Markdown?'
+  - question: 'Wie lange dauert ein tiefgehendes SEO Audit?'
+    answer: 'Ein professionelles, technisches SEO Audit nimmt meist ein bis zwei Wochen in Anspruch, abhängig von der Größe der Domain und der Komplexität des Frontends (z.B. CSR oder SSR).'
+  - question: 'Warum reicht ein automatisiertes Tool-Audit nicht aus?'
+    answer: 'Standard-Tools finden nur generische Fehler. Die eigentlichen strategischen Bremsen, wie falsche interne Verlinkungs-Logik, fehlerhaftes RAG-Markup oder schlechtes JavaScript-Rendering, erkennt nur ein erfahrener Experte.'
 related_terms: ["sichtbarkeitsindex", "pagespeed", "interne-verlinkung"]
 key_takeaways:
   - "Der moderne SEO Audit deckt nicht nur klassische HTTP-Fehler auf, sondern prüft massiv die technische Lesbarkeit für KI-Pipelines."
@@ -16,7 +23,7 @@ key_takeaways:
 
 Moin!
 
-Ein SEO Audit ist wie ein Besuch beim Zahnarzt: Niemand freut sich wirklich drauf, aber hinterher bist du heilfroh, wenn die schmerzhaften Löcher gestopft sind. Doch vergiss alles, was du bis 2024 über SEO-Audits wusstest. Wir schreiben den Juli 2026. Es reicht bei Weitem nicht mehr aus, nur den alten Googlebot zufriedenzustellen. Wir leben in der Ära der LLMs (Large Language Models) und autonomen KI-Agenten. Wenn diese Systeme deine Website nicht nativ auslesen, tokenisieren und strukturieren können, bist du für die Welt von morgen praktisch unsichtbar. 
+Ein SEO Audit ist wie ein Besuch beim Zahnarzt: Niemand freut sich wirklich drauf, aber hinterher bist du heilfroh, wenn die schmerzhaften Löcher gestopft sind. Doch vergiss alles, was du bis 2024 über SEO-Audits wusstest. Wir schreiben den 2026. Es reicht bei Weitem nicht mehr aus, nur den alten Googlebot zufriedenzustellen. Wir leben in der Ära der LLMs (Large Language Models) und autonomen KI-Agenten. Wenn diese Systeme deine Website nicht nativ auslesen, tokenisieren und strukturieren können, bist du für die Welt von morgen praktisch unsichtbar. 
 
 Ein professionelles Audit im Jahr 2026 ist die schonungslose Bestandsaufnahme deiner gesamten digitalen Architektur. Wir nehmen alles genau unter die Lupe: Klassische Technik, Content-Topologie und – als absoluten Gamechanger – deine Kompatibilität mit KI-Crawlern. Wir reden hier nicht mehr über reine Rankings, wir reden über "Citation Frequency" und "Answerability". Die Frage ist nicht mehr nur, ob du auf Platz 1 stehst, sondern ob ChatGPT, Google Gemini und Perplexity dich als vertrauenswürdige Quelle zitieren.
 
@@ -25,7 +32,7 @@ Ein professionelles Audit im Jahr 2026 ist die schonungslose Bestandsaufnahme de
   <p class="italic text-dark mb-0">"Ein SEO-Audit ist kein PDF-Friedhof aus einem 08/15-SaaS-Tool. Wer dir heute 100 Seiten Fehlermeldungen schickt, ohne ein Wort darüber zu verlieren, ob deine Seite für RAG-Systeme lesbar ist, zockt dich ab. Mein Audit testet die llms.txt, das Markdown und das Entity-Markup. Wir klären, warum dich ChatGPT nicht als Quelle zitiert."</p>
 </div>
 
-In diesem Deep-Dive-Fachartikel zerlegen wir die Anatomie eines echten Audits im Juli 2026. Tacheles.
+In diesem Deep-Dive-Fachartikel zerlegen wir die Anatomie eines echten Audits im 2026. Tacheles.
 
 ## 1. Von Rankings zu Citations: Der Paradigmenwechsel 2026
 

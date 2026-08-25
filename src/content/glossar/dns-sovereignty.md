@@ -67,7 +67,7 @@ Zudem nutzen externe Systeme primär TXT-Records, um Autorität zu validieren:
 
 Wenn du keinen programmatischen API-Zugriff auf deine Zonen hast und auf Support-Tickets warten musst, hast du deine technologische Souveränität abgegeben.
 
-## Tacheles-Fazit
+## Tacheles-Klartext
 
 Das DNS ist nicht einfach nur das langweilige "Telefonbuch des Internets". Es ist die Pforte zu deiner gesamten digitalen Infrastruktur. 
 

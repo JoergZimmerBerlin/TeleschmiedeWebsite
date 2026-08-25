@@ -98,11 +98,11 @@ Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen
 
 ### Der universelle Prompt für dein Audit
 
-Kopiere dir diesen Textblock und jage ihn in den KI-Agenten deiner Wahl. Der Prompt ist so formuliert, dass die KI alle schweren konzeptionellen und technischen Prüfungen für dich durchführt, basierend auf dem neuesten Stand vom Juli 2026. Du musst keine Firmennamen eintragen – die KI fragt dich nach deinem Setup, wenn sie Input braucht.
+Kopiere dir diesen Textblock und jage ihn in den KI-Agenten deiner Wahl. Der Prompt ist so formuliert, dass die KI alle schweren konzeptionellen und technischen Prüfungen für dich durchführt, basierend auf dem neuesten Stand vom 2026. Du musst keine Firmennamen eintragen – die KI fragt dich nach deinem Setup, wenn sie Input braucht.
 
 **Prompt für deinen KI-Agenten:**
 ```text
-Schlüpfe in die Rolle eines Senior System Architects der Agentic AI Foundation. Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand Juli 2026). 
+Schlüpfe in die Rolle eines Senior System Architects der Agentic AI Foundation. Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand 2026). 
 - Zeige mir konkret auf, an welchen Stellen ich in meinem Unternehmen heute noch mit teuren, hart-kodierten API-Integrationen arbeite, die ich durch standardisierte, zustandslose MCP-Server ersetzen MUSS, um Cloud-Native Skalierbarkeit zu erreichen.
 - Erkläre mir, wie ich meine proprietären Unternehmensdatenbanken über MCP sicher (Security & Authorization nach den neuen Specs) an mein internes LLM anbinde.
 - Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf das Agent Readiness Reifegradmodell zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne.

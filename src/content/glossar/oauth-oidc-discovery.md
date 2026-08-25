@@ -65,7 +65,7 @@ Wenn ein Scanner wie Cloudflare Radar (CanAgentUse) deine Seite prüft, schaut e
 💬 **Jörgs SEO-Klartext (LinkedIn Insights)**
 > "Wer seine /.well-known/ Endpunkte heute nicht pflegt, hat morgen keine AI-Sichtbarkeit. Es ist wie früher bei der [auth.md](/glossar/auth-md/) oder robots.txt – wenn du dem Crawler die Tür vor der Nase zuschlägst, darfst du dich nicht wundern, wenn der Umsatz draußen bleibt. Habe fertig."
 
-## Fazit? Nennen wir es Tacheles
+## Klartext? Nennen wir es Tacheles
 
 Unterm Strich: OAuth/OIDC Discovery ist keine Spielerei für Tech-Nerds, sondern harte Business-Realität. Wenn du möchtest, dass Agenten in deinem Namen (oder im Namen deiner Nutzer) Tickets buchen, Daten analysieren oder Käufe tätigen, musst du ihnen eine genormte Haustür bauen. 
 

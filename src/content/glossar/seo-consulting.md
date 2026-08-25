@@ -22,7 +22,7 @@ faqs:
 
 Moin!
 
-Lass uns Klartext reden. **SEO Consulting** ist für Unternehmen, die eine radikale Operation am offenen Herzen ihrer Systemarchitektur brauchen. Wer im Juli 2026 noch glaubt, Sichtbarkeit ließe sich durch das Einkaufen von Links oder generischen Blog-Artikeln regeln, fährt mit dem Pferdefuhrwerk auf der Autobahn der generativen KI.
+Lass uns Klartext reden. **SEO Consulting** ist für Unternehmen, die eine radikale Operation am offenen Herzen ihrer Systemarchitektur brauchen. Wer im 2026 noch glaubt, Sichtbarkeit ließe sich durch das Einkaufen von Links oder generischen Blog-Artikeln regeln, fährt mit dem Pferdefuhrwerk auf der Autobahn der generativen KI.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext</p>

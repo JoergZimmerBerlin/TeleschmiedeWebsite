@@ -47,7 +47,7 @@ Ein `Disallow: /` für alle KI-Bots ist geschäftlicher Selbstmord. Du musst zwi
 
 Während die `robots.txt` der Türsteher ist, etabliert sich die **llms.txt** als Reiseführer für KIs. Das ist eine markdown-basierte Datei, die autonomen Agenten (z. B. Coding-Assistenten oder Research-Bots) eine kuratierte Landkarte deiner wertvollsten Inhalte liefert. Sie steuert keinen Zugriff, sondern lenkt die Aufmerksamkeit der Maschine auf deine Expertise.
 
-### Fazit: Agent Readiness mit Verstand
+### Klartext: Agent Readiness mit Verstand
 
 Es gibt keinen "One-Size-Fits-All"-Blocker mehr. Optimiere deine `robots.txt` chirurgisch präzise. Blockiere die reinen Datenschlürfer, aber rolle den Answer Engines den roten Teppich aus. Wer KIs pauschal aussperrt, macht sich im neuen Web unsichtbar. 
 

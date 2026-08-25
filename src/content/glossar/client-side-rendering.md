@@ -82,7 +82,7 @@ In modernen Architekturen (Next.js, Nuxt.js, Astro) nutzen wir hybride Ansätze.
 * **Komplexe Web-Apps:** Ein Browser-basiertes Schnittprogramm oder Canva leben von Client-Side-Performance.
 * **Filter und Suchfunktionen:** Wenn du in einem Shop auf "Preis absteigend" klickst, ist CSR perfekt, um die Liste blitzschnell im Browser neu zu sortieren, ohne den Server neu zu fragen.
 
-## Fazit: Die goldene Regel für 2026
+## Klartext: Die goldene Regel für 2026
 
 Merk dir für deine Webentwicklung folgenden Grundsatz: **Jeder Inhalt, der neuen organischen [Traffic](/glossar/traffic/) über Suchmaschinen oder KI-Systeme generieren soll, darf niemals exklusiv per CSR ausgeliefert werden.**
 

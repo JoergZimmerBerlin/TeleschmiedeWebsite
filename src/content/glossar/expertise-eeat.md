@@ -23,7 +23,7 @@ faqs:
 
 Moin! 🌻
 
-Halt dich fest, es wird technisch. Wenn du glaubst, dass du im Juli 2026 noch mit "10 schnellen Tipps für besseres Marketing" in den KI-Zusammenfassungen von Google AI Overviews oder in den Antworten von ChatGPT landest, hast du die grundlegende Architektur moderner Suchsysteme nicht begriffen. Die Zeit des oberflächlichen Generalisten-Geschwurbels ist mathematisch beendet. 
+Halt dich fest, es wird technisch. Wenn du glaubst, dass du im 2026 noch mit "10 schnellen Tipps für besseres Marketing" in den KI-Zusammenfassungen von Google AI Overviews oder in den Antworten von ChatGPT landest, hast du die grundlegende Architektur moderner Suchsysteme nicht begriffen. Die Zeit des oberflächlichen Generalisten-Geschwurbels ist mathematisch beendet. 
 
 Autonome Agenten haben ein systemkritisches Problem: Generischen Bullshit. Jeder Bot kann heute Milliarden Parameter abrufen, um perfekte, grammatikalisch korrekte Sätze zu formen. Was die Maschine aber nicht von allein generieren kann, ist echte, strukturierte, in einem Knowledge Graph verankerte **Expertise**.
 

@@ -14,7 +14,7 @@ key_takeaways:
   - "Information Gain & E-E-A-T: Ein KI-Text rankt nur dann, wenn ein Mensch echte Erfahrungen, eigene Daten oder neue Blickwinkel hinzugefügt hat, die die KI nicht aus dem Internet kopieren konnte."
 faqs:
   - question: 'Kann Google zu 100 % erkennen, ob ein Text von einer KI geschrieben wurde?'
-    answer: 'Ja und Nein. Google nutzt Algorithmen, um Vorhersagbarkeitsmuster zu erkennen. Tools zur KI-Erkennung sind jedoch oft fehlerhaft (False Positives). Für Google ist es letztlich egal, WER den Text geschrieben hat. Die viel wichtigere Frage ist: Hat der Text einen echten Mehrwert oder ist er nur das aufgewärmte Fazit von 10 anderen Websites?'
+    answer: 'Ja und Nein. Google nutzt Algorithmen, um Vorhersagbarkeitsmuster zu erkennen. Tools zur KI-Erkennung sind jedoch oft fehlerhaft (False Positives). Für Google ist es letztlich egal, WER den Text geschrieben hat. Die viel wichtigere Frage ist: Hat der Text einen echten Mehrwert oder ist er nur das aufgewärmte Klartext von 10 anderen Websites?'
   - question: 'Darf ich ChatGPT nutzen, um meine Blogartikel zu schreiben?'
     answer: 'Als Assistent: Ja. Als alleiniger Autor: Nein. Nutze KI für Strukturen, Brainstorming und um erste Entwürfe zu schreiben. Wenn du den Text danach aber nicht massiv bearbeitest (Tacheles redest, Praxis-Beispiele hinzufügst, Emotionen reinbringst), wird er in der grauen Masse untergehen.'
   - question: 'Was sind typische KI-Wörter, die man vermeiden sollte?'
@@ -76,7 +76,7 @@ So sieht der perfekte Workflow aus:
 3.  **Die "Human Injection" (Der Magic Touch):** Jetzt kommst DU. Streiche alle widerlichen KI-Floskeln ("In der heutigen schnelllebigen Welt..."). Füge deine eigenen Statistiken ein. Berichte von einem echten Fehler, den du gestern im Projekt gemacht hast. Formuliere die [Meta-Description](/glossar/meta-description/) provokanter. Bring eine starke Meinung rein.
 4.  **Formatting:** KI-Texte sind oft Bleiwüsten. Nutze das [Markdown Content Negotiation](/glossar/markdown-content-negotiation/) Format, arbeite mit Tabellen, Checklisten und echten 3D-Infografiken.
 
-## Fazit: Die Angst ist unbegründet
+## Klartext: Die Angst ist unbegründet
 
 Hör auf, dich vor AI-Detektoren zu fürchten. Fokussiere dich auf den Mehrwert. 
 

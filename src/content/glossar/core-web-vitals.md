@@ -22,7 +22,7 @@ faqs:
     answer: 'Wenn der Crawler für eine RAG-Pipeline aufgrund miserabler Performance in einen Timeout läuft, landest du gar nicht erst in der Vektordatenbank der LLMs.'
 ---
 
-Lass uns direkt Tacheles reden. Wir sind im Juli 2026. Wer heute noch glaubt, die Core Web Vitals (CWV) seien nur ein nettes Metrik-Gimmick für grüne Balken im Lighthouse-Report, der hat den technischen Schuss nicht gehört. 
+Lass uns direkt Tacheles reden. Wir sind im 2026. Wer heute noch glaubt, die Core Web Vitals (CWV) seien nur ein nettes Metrik-Gimmick für grüne Balken im Lighthouse-Report, der hat den technischen Schuss nicht gehört. 
 
 Die Core Web Vitals sind längst keine reinen "UX-Metriken" mehr. Sie sind das gnadenlose Nadelöhr deiner gesamten Web-Architektur und fungieren als harter Tie-Breaker in den Ranking-Systemen. Sie entscheiden nicht nur über Nutzerbindung, sondern auch darüber, ob moderne Web Rendering Services (WRS) und die Hochgeschwindigkeits-Crawler der KI-Agents deine Daten überhaupt effizient und ressourcenschonend erfassen können. Ein roter CLS oder ein katastrophaler LCP bedeuten Latenz, und Latenz führt zu Timeout und Abbruch.
 

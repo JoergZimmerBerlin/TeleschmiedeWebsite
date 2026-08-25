@@ -12,7 +12,7 @@ key_takeaways:
   - "llms.txt Monitoring: Ein modernes Tracking überwacht präzise, wie oft KI-Agenten deine llms.txt crawlen und parsen."
   - "Google Search Console reicht nicht mehr: Die GSC ist blind für Antworten von ChatGPT oder Perplexity."
 faqs:
-  - question: 'Welche Metriken tracken moderne AI Tracking Tools im Juli 2026?'
+  - question: 'Welche Metriken tracken moderne AI Tracking Tools im 2026?'
     answer: 'Vergiss Position 1-10 in den klassischen SERPs. Heute trackst du primär deine echte Sichtbarkeit in den Ausgaben von KI-Modellen: Wirst du in den Antworten von ChatGPT, Perplexity oder Claude zitiert? Wie hoch ist deine Zitationsrate (RAG-Hitrate)? Wie hoch ist dein Share of Model? Diese Metriken entscheiden über deine echte Reichweite.'
   - question: 'Wie messe ich den Erfolg meiner Agent Readiness Strategie?'
     answer: 'Hier musst du unterscheiden: Die technische Agent Readiness (z.B. llms.txt Abrufe) misst du intern über deine eigenen Server-Logs. Die tatsächliche Sichtbarkeit – also ob die Modelle deine Daten auch für ihre Antworten nutzen – misst du über spezialisierte AI Tracking Tools. Sie simulieren Suchanfragen und analysieren die KI-Antworten auf Marken-Erwähnungen und Zitationen.'
@@ -39,7 +39,7 @@ Klassisches Tracking maß Klicks, Impressionen und Google-Positionen. AI Trackin
 
 Ein modernes AI Tracking Tool simuliert diese Prompts. Es geht nicht mehr primär um den Nutzer, der auf ein Suchergebnis klickt, sondern um die Frage: Wie oft und in welchem Kontext wirst du von einer KI als vertrauenswürdige Quelle herangezogen?
 
-### Was wir im Juli 2026 wirklich tracken
+### Was wir im 2026 wirklich tracken
 
 Vergiss klassische Keyword-Rankings. Die sind bestenfalls noch ein Indikator von gestern. Hier sind die echten KPIs (Key Performance Indicators), auf die wir heute schauen:
 

@@ -22,7 +22,7 @@ faqs:
 
 Moin! 🌻
 
-Hier ist der freundliche Klartext zur neuesten Entwicklung im KI-Sektor: **WebMCP**. Seit wir 2024 die ersten Schritte des Model Context Protocols gesehen haben, war klar, dass das Frontend nicht unangetastet bleiben würde. Jetzt, im Juli 2026, reden wir über das Web Model Context Protocol – und warum es die Art und Weise verändert, wie unsere Seiten mit KI interagieren.
+Hier ist der freundliche Klartext zur neuesten Entwicklung im KI-Sektor: **WebMCP**. Seit wir 2024 die ersten Schritte des Model Context Protocols gesehen haben, war klar, dass das Frontend nicht unangetastet bleiben würde. Jetzt, im 2026, reden wir über das Web Model Context Protocol – und warum es die Art und Weise verändert, wie unsere Seiten mit KI interagieren.
 
 ![WebMCP Architektur und Funktionsweise](../../assets/images/glossar/3d-light/glossar-webmcp-3d.webp)
 

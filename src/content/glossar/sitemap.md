@@ -24,7 +24,7 @@ faqs:
 
 Moin!
 
-Lass uns direkt einsteigen. Eine **Sitemap** war in der SEO-Steinzeit die banale Inhaltsangabe deiner Website. Ohne sie musste sich der behäbige Googlebot mühsam von Link zu Link hangeln. Doch was wir im Juli 2026 erleben, reißt die Bedeutung der Sitemap komplett aus den Fugen: Wir sind in der Ära der Agent Readiness. 
+Lass uns direkt einsteigen. Eine **Sitemap** war in der SEO-Steinzeit die banale Inhaltsangabe deiner Website. Ohne sie musste sich der behäbige Googlebot mühsam von Link zu Link hangeln. Doch was wir im 2026 erleben, reißt die Bedeutung der Sitemap komplett aus den Fugen: Wir sind in der Ära der Agent Readiness. 
 
 Sitemaps garantieren dir heute zwar nicht magisch bessere Rankings, aber sie sind das absolute Fundament, um von AI-Crawlern (wie Google-Extended, GPTBot oder ClaudeBot) effizient verarbeitet zu werden.
 

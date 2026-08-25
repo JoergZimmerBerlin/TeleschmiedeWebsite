@@ -12,7 +12,7 @@ key_takeaways:
   - "Answer Engine Optimization (AEO): Content muss so strukturiert sein, dass KIs ihn als verifizierte Faktenbasis extrahieren können."
   - "KPI-Shift: Es geht 2026 nicht um Klicks (Zero-Click-Searches), sondern um Citation Share und Share of Model."
   - "Seniorität zählt: KI-Strategie ist Chefsache. Wer die Architektur von Vektordatenbanken und LLMs nicht versteht, zerstört deine Sichtbarkeit."
-tacheles: 'Die meisten Agenturen verkaufen euch "KI SEO", indem sie einen Werkstudenten vor ChatGPT setzen. Das ist unterlassene Hilfeleistung. Echte KI SEO Beratung im Juli 2026 bedeutet: Server für optimale LLM-Lesbarkeit umbauen und extrem schnelle, maschinenlesbare Antworten bereitstellen. Wer heute noch auf pure Keywords starrt, hat den Wandel komplett verschlafen.'
+tacheles: 'Die meisten Agenturen verkaufen euch "KI SEO", indem sie einen Werkstudenten vor ChatGPT setzen. Das ist unterlassene Hilfeleistung. Echte KI SEO Beratung im 2026 bedeutet: Server für optimale LLM-Lesbarkeit umbauen und extrem schnelle, maschinenlesbare Antworten bereitstellen. Wer heute noch auf pure Keywords starrt, hat den Wandel komplett verschlafen.'
 related_terms: ["ai-seo", "geo-agentur", "seo-beratung", "seo-consulting", "entitaet"]
 faqs:
   - question: 'Was unterscheidet eine moderne KI SEO Beratung von klassischem SEO?'
@@ -22,7 +22,7 @@ faqs:
   - question: 'Wie sieht eine typische Optimierung für KI-Systeme aus?'
     answer: 'Der Prozess beginnt mit einem RAG-Audit: Wie sehen KIs deine Daten aktuell? Dann optimieren wir die Informationsarchitektur: Umstellung auf semantisch perfekte Strukturen (Answer-First Architecture), Siloing und das Aufbereiten deiner Fakten für verlustfreies Vektor-Embedding. Abschließend etablieren wir ein Monitoring mit Tools wie Rankscale oder Profound.'
   - question: 'Warum sollte ich einen Freelancer für KI SEO wählen statt einer Agentur?'
-    answer: 'Große Agenturen skalieren oft über Junior-Mitarbeiter. Bei mir (Jörg Zimmer) bekommst du über zwei Jahrzehnte SEO-Erfahrung kombiniert mit tiefstem technischen Verständnis für die Juli 2026 Standards. KI-Sichtbarkeit ist harte Architektur-Arbeit, keine Copywriting-Aufgabe.'
+    answer: 'Große Agenturen skalieren oft über Junior-Mitarbeiter. Bei mir (Jörg Zimmer) bekommst du über zwei Jahrzehnte SEO-Erfahrung kombiniert mit tiefstem technischen Verständnis für die 2026 Standards. KI-Sichtbarkeit ist harte Architektur-Arbeit, keine Copywriting-Aufgabe.'
 ---
 
 Moin! 🌻
@@ -39,7 +39,7 @@ Wenn deine Website diesen Agenten nur schwerfälliges HTML mit 5MB JavaScript un
 
 Hier greift eine moderne **KI SEO Beratung**. Sie transformiert dein Unternehmen von einer mensch-zentrierten "Website" zu einer maschinenlesbaren **Entität**. Deine Domain wird zu einer API für LLM-Pipelines, aus der KI-Crawler Fakten ohne Render-Overhead abrufen können.
 
-### Die Juli 2026 Standards: Was wir wirklich tun
+### Die 2026 Standards: Was wir wirklich tun
 
 Vergiss das Gequatsche über Keyword-Density und WDF*IDF-Balkendiagramme, die grüne Häkchen in irgendwelchen Plugins auslösen. Wenn wir heute über KI-SEO sprechen, sprechen wir über diese vier zentralen Säulen der maschinellen Optimierung:
 

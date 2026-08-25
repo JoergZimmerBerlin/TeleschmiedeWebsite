@@ -74,7 +74,7 @@ Der Königsweg: Wenn Agenten auf deiner Seite im Auftrag des Nutzers einkaufen o
 - **Agentic Commerce Protocol (ACP):** Spezifisches Framework für autonome B2B- und B2C-Verhandlungen. ([ACP](/glossar/agentic-commerce-protocol-acp/))
 - **Agent Payments Protocol (AP2):** Ein offenes Netzwerkprotokoll zur Abwicklung von Wallet-basierten Transaktionen. ([AP2](/glossar/agent-payments-protocol-ap2/))
 
-## Fazit? Nennen wir es Tacheles
+## Klartext? Nennen wir es Tacheles
 
 Die Liste sieht auf den ersten Blick überwältigend aus. Aber das ist exakt der Burggraben, den du dir jetzt bauen kannst! Wer diese Checkliste abarbeitet und seine Seite für Agenten öffnet, während die Konkurrenz noch über Meta-Keywords diskutiert, hat den [Agent Readiness](/glossar/agent-readiness/) Krieg bereits gewonnen.
 

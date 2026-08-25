@@ -22,7 +22,7 @@ faqs:
 
 Moin!
 
-Lass uns nicht um den heißen Brei herumreden. **SEO Coaching** ist für alle, die es endgültig satt haben, sich von Agenturen und Möchtegern-Gurus Buzzwords aus dem Jahr 2022 erklären zu lassen. Während du lernst, wie man die "perfekte H2" schreibt, bricht dein Traffic durch Zero-Click-Searches und omnipräsente KI-Antworten in sich zusammen. Wenn du im Juli 2026 immer noch denkst, ein Coaching bedeutet, dass wir uns gemeinsam deine Keyword-Dichte in WordPress anschauen, dann bist du hier völlig falsch.
+Lass uns nicht um den heißen Brei herumreden. **SEO Coaching** ist für alle, die es endgültig satt haben, sich von Agenturen und Möchtegern-Gurus Buzzwords aus dem Jahr 2022 erklären zu lassen. Während du lernst, wie man die "perfekte H2" schreibt, bricht dein Traffic durch Zero-Click-Searches und omnipräsente KI-Antworten in sich zusammen. Wenn du im 2026 immer noch denkst, ein Coaching bedeutet, dass wir uns gemeinsam deine Keyword-Dichte in WordPress anschauen, dann bist du hier völlig falsch.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (25 Jahre Praxis)</p>
@@ -46,7 +46,7 @@ Ganz einfach: Agenturen wollen dich abhängig machen. Sie schicken dir monatlich
 
 ## 3. Was du in meinem Intensiv-Coaching wirklich lernst
 
-Vergiss den Standard-Kram. Wir gehen sofort in die harte Technik, die im Juli 2026 über KI-Sichtbarkeit entscheidet. Ein hybrider KI-Mensch-Workflow steht im Fokus. Du nutzt KI-Tools für das Intent-Clustering, bringst aber die menschliche "Lived Experience" ein, die KI nicht replizieren kann.
+Vergiss den Standard-Kram. Wir gehen sofort in die harte Technik, die im 2026 über KI-Sichtbarkeit entscheidet. Ein hybrider KI-Mensch-Workflow steht im Fokus. Du nutzt KI-Tools für das Intent-Clustering, bringst aber die menschliche "Lived Experience" ein, die KI nicht replizieren kann.
 
 ### Das Fundament: Cloudflare Radar (Level 5) und die auth.md
 Das wichtigste Setup für Agent Readiness: Deine `auth.md`. Das ist nicht einfach eine Textdatei. Im Coaching lernst du, dass diese Datei **zwingend kleingeschrieben** sein muss und als allererste H1-Überschrift exakt `# auth.md` enthalten muss. Die autonomen Parser suchen exakt nach diesem Muster. Fehlt der Hashtag oder ist das "A" groß, bricht die Kommunikation ab. Das ist die Art von Millimeterarbeit, die ich dir beibringe.

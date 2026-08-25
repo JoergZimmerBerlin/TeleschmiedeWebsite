@@ -123,7 +123,7 @@ Kopiere den folgenden Prompt und gib ihn deinem präferierten LLM oder KI-Agente
 Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
 ```
 
-## Das Fazit: Wer jetzt schläft, verliert
+## Das Klartext: Wer jetzt schläft, verliert
 
 Das A2A Protocol ist der unsichtbare Klebstoff, der die neue KI-Ökonomie zusammenhält. Während sich die Konkurrenz noch darüber streitet, ob sie einen Chatbot auf ihre Startseite packen soll, bauen smarte Unternehmen eine Infrastruktur, die im Hintergrund vollautonom Verträge abschließt. 
 

@@ -57,7 +57,7 @@ Wenn ich Grounding Pages für Konzerne oder smarte Mittelständler aufbaue, folg
 3. **Semantisches HTML & Listen:** Nutze semantisch sauberes HTML. `<dl>` (Description Lists) mit `<dt>` und `<dd>` sind Gold wert. LLMs lieben Key-Value Pairs. `**Gründungsjahr:** 2018`. `**Spezialisierung:** RAG-SEO`. Das ist maschinenlesbares Futter.
 4. **Tabellarische Fakten:** Preislisten, technische Spezifikationen, Leistungsdaten – alles, was sich tabellarisch darstellen lässt, MUSS in eine Tabelle. Tabellen verringern KI-Halluzinationen auf null.
 5. **Strukturierte Daten (JSON-LD):** Eine Grounding Page ohne Schema.org-Markup ist wie ein Auto ohne Motor. Deklariere Organisation, Gründer, Kontaktadressen und SameAs-Links (Wikidata, LinkedIn) explizit im Code.
-6. **"Last Verified" Datum:** Gib der KI ein klares Signal der Aktualität. Ein "Letztes Update: 17. Juli 2026" zeigt dem Crawler, dass die Daten frisch sind.
+6. **"Last Verified" Datum:** Gib der KI ein klares Signal der Aktualität. Ein "Letztes Update: 17. 2026" zeigt dem Crawler, dass die Daten frisch sind.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dringender Hinweis: Erreichbarkeit für Bots</h4>

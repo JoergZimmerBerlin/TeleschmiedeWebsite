@@ -67,7 +67,7 @@ Viele Geschäftsführer, mit denen ich spreche, halten das für Zukunftsmusik. S
 
 Diese Denkweise ist fatal. Ja, am Ende entscheidet oft noch ein Mensch über das finale Budget. Aber der **Research-Prozess** (die Evaluierung) wird bereits heute an Maschinen ausgelagert.
 
-Stell dir vor, du bist ein Dienstleister. Ein potenzieller Kunde nutzt im Juli 2026 seinen KI-Assistenten und sagt: *"Scanne den Markt in DACH nach den 5 besten Anbietern in dieser Nische, prüfe ihre Verfügbarkeit über ihre APIs und buche mir nächste Woche bei den Top 3 einen Discovery-Call."*
+Stell dir vor, du bist ein Dienstleister. Ein potenzieller Kunde nutzt im 2026 seinen KI-Assistenten und sagt: *"Scanne den Markt in DACH nach den 5 besten Anbietern in dieser Nische, prüfe ihre Verfügbarkeit über ihre APIs und buche mir nächste Woche bei den Top 3 einen Discovery-Call."*
 
 * **Dienstleister A (ARL-1):** Die KI muss die Website mühsam parsen, findet keine sauberen Preise, findet kein Kontaktformular, das ohne Captcha auskommt. Die KI bricht ab.
 * **Dienstleister B (ARL-5):** Die KI pingt die Domain an, liest in Millisekunden die Endpunkte, verifiziert sich, holt sich via MCP die Kalender-Verfügbarkeit und bucht den Termin. 
@@ -86,7 +86,7 @@ Genug geredet. Es ist Zeit, dass du die Hosen herunterlässt und prüfst, wie Ag
 
 **Prompt für deinen KI-Agenten:**
 ```text
-Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach dem 7-stufigen Agent Readiness Level (ARL) Framework mit Stand Juli 2026. 
+Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach dem 7-stufigen Agent Readiness Level (ARL) Framework mit Stand 2026. 
 - Prüfe systematisch das Vorhandensein von API-Katalogen, `.well-known/agent-card.json`, `llms.txt` und anderen maschinenlesbaren Endpunkten.
 - Teste, ob mein Server 'Markdown Content Negotiation' unterstützt.
 - Liefere mir einen extrem kritischen Status-Report. Wenn ich schlecht abschneide, erkläre mir messerscharf, welche konkreten Umsätze ich durch diese technische Ignoranz an Mitbewerber verliere. Schreibe mir einen priorisierten Maßnahmenplan, um mindestens ARL-4 zu erreichen.

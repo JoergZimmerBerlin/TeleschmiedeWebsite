@@ -20,8 +20,6 @@ faqs:
     answer: 'Weil LLMs Halluzinationen vermeiden müssen. Gibt es fünf verschiedene "Müller GmbHs", ist die KI unsicher. Unsicherheit senkt den Trust-Score sofort auf null. Durch Disambiguierung mittels `sameAs`-Links zu Wikidata oder LinkedIn zwingst du die KI, dich exakt zuzuordnen.'
 ---
 
-Moin!
-
 Ich mach's kurz und schmerzlos: Wenn du 2026 deine SEO-Ressourcen immer noch in Keyword-Dichte-Checks und TF-IDF-Tools versenkst, verbrennst du hartes Geld. Der Paradigmenwechsel "Things, not Strings" wurde schon vor über einem Jahrzehnt ausgerufen. Heute, in der Ära massiver LLM-Pipelines, GraphRAG und generativer Suchmaschinen, ist dieses Prinzip das unumstößliche Gesetz der digitalen Physik.
 
 Wir optimieren nicht mehr für Strings (Zeichenketten). Wir optimieren für **Trusted Entities**. 
@@ -60,45 +58,48 @@ Das größte Hindernis beim Entity Building ist die Ambiguität (Mehrdeutigkeit)
 **Disambiguierung** bedeutet, der Maschine diese Verwirrung auf Code-Ebene zu nehmen. Verwirrung bedeutet für ein LLM immer Risiko, und Risiko führt zum Drop-out aus der Retrieval-Pipeline. 
 
 Wie disambiguierst du deine Entität unter den Architektur-Standards von 2026?
-*   **Strukturiertes JSON-LD:** Du deklarierst präzise, welcher Typ du bist (`@type: "Person"`). Du definierst exakte Beziehungen.
-*   **sameAs-Graphen:** Du spannst ein Netz aus `sameAs`-Verknüpfungen. Du verlinkst auf deinen Wikidata-Eintrag und auf dein verifiziertes LinkedIn-Profil. Du zwingst den Crawler zur Erkenntnis: "Diese URL und dieser Wikidata-Knoten sind exakt dasselbe logische Objekt."
-*   **Die Groundingpage:** Als Single Source of Truth bündelst du auf einer [Groundingpage](/glossar/grounding-page/) alle harten Fakten, 100% ausgelegt auf die Parseability durch KIs.
-*   **Multimodalität:** Da RAG-Systeme heute multimodal sind, sicherst du ab, dass wichtige Fakten in deinen Bildern und Diagrammen via Metadaten klar mit deiner Entität verknüpft sind.
+*   **Strukturiertes JSON-LD (Deeply Nested):** Du deklarierst präzise, welcher Typ du bist (`@type: "Organization"`). Du definierst exakte Beziehungen bis in die tiefsten Ebenen deines Codes.
+*   **sameAs-Graphen:** Du spannst ein Netz aus `sameAs`-Verknüpfungen auf Drittplattformen wie Wikidata, Branchenverzeichnissen und verifizierten Social-Profilen (z.B. LinkedIn).
+*   **Die `llms.txt` Datei:** Du bietest KI-Crawlern proaktiv eine `llms.txt` im Root-Verzeichnis an, die deine Entitäts-Kerndaten maschinenlesbar, Markdown-basiert und ohne Marketing-Sprech bündelt.
+*   **Die [Groundingpage](/glossar/grounding-page/):** Als Single Source of Truth auf deiner Website bündelst du alle harten Fakten.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Vom simplen String zum Trusted Node</h4>
-  <p class="mb-0 text-sm">Die Evolution ist klar: Du startest als unbekannte Textkette. Durch technisches SEO formst du eine maschinenlesbare Hülle. Der finale Schritt: Durch massiven Aufbau von <a href="/glossar/e-e-a-t/" class="underline font-semibold text-lime-600 hover:text-lime-700">E-E-A-T Signalen</a> wirst du zum <strong>Trusted Node</strong> – einer Entität, die im Graphen so dicht vernetzt ist, dass KIs dich zitieren <em>müssen</em>.</p>
-</div>
+### KPIs 2026: Von Klicks zu Citation Share
 
-## Jörgs Tacheles-Plan: Entitäten in den Knowledge Graph zimmern
+| Metrik | SEO-Ziel (bis 2023) | Entity-Ziel für LLMs (2026) |
+| :--- | :--- | :--- |
+| **Erfolgsmessung** | Klicks und "10 Blue Links" Rankings | **Citation Share** & Share of Model |
+| **Technik-Fokus** | H1, Keyword-Dichte, Title-Tags | Knowledge Graphs, `llms.txt`, JSON-LD |
+| **Inhalts-Strategie** | Fließtext für Crawler (Masse) | Informations-Extraktion, GraphRAG-Readiness |
+| **Autorität** | Backlink-Profil (Domain Authority) | Konsens-Validierung durch Drittquellen |
+
+## Aus der Praxis: Meine persönliche Erfahrung
+
+In den letzten Monaten kamen extrem viele Unternehmen zu mir, deren organischer Traffic förmlich über Nacht durch Google AI Overviews kannibalisiert wurde. Sie wollten "die Rankings zurückholen". Das ist der falsche Ansatz. Bei einem großen Kunden haben wir stattdessen die KPIs auf "Citation Share" umgestellt. Wir haben aufgehört, Landingpages für Menschen zu texten, und haben stattdessen eine `llms.txt` sowie knallharte Grounding Pages implementiert.
+
+> "Du rankst heute nicht mehr mit Wörtern, du wirst zitiert, weil dein Entity-Graph mathematisch wasserdicht ist."
+
+Wir bereinigten den Wikidata-Eintrag, synchronisierten die `sameAs`-Attribute in allen JSON-LDs und eliminierten widersprüchliche NAP-Daten (Name, Address, Phone) aus alten Branchenbüchern. Das Ergebnis nach 4 Wochen? Der herkömmliche Klick-Traffic blieb niedrig, aber der Kunde tauchte plötzlich in 85% aller relevanten Perplexity- und ChatGPT-Antworten als primäre und verifizierte Quelle auf. Das ist der neue Traffic-Funnel.
+
+## Zusammenfassung: Entitäten in den Knowledge Graph zimmern
 
 Entity Building ist kein Growth-Hack. Es ist hartes Data-Engineering. 
 
 1.  **Definiere deine Cluster-Grenzen:** Du bist nicht Experte für "Marketing", sondern der Node für "B2B SaaS Performance Marketing". Je schärfer die Grenze, desto leichter das Clustering.
 2.  **Sichere die Datenkonsistenz:** Dein Name, deine Kontaktdaten (NAP) müssen global bitgenau identisch sein. Inkonsistenzen zerstören den Graphen.
 3.  **Hol dir kontextuelle Citations:** Eine ungelinkte Erwähnung (Citation) im direkten semantischen Kontext eines Fachmagazins trainiert das Sprachmodell, deine Entität mit dem Fachgebiet zu verschmelzen (Co-Occurrence).
-4.  **Neue Metriken adaptieren:** Vergiss isoliertes Suchvolumen. Tracke ab heute deine "Citation Frequency" und den "Share of Model".
+4.  **Neue Metriken adaptieren:** Vergiss isoliertes Suchvolumen. Tracke ab heute deine Citation Frequency.
 
 Werde zur zentralen Entität, der die Maschinen bedingungslos vertrauen. Nur das sichert dir Sichtbarkeit in einer KI-dominierten Infrastruktur.
 
-ALOHA 🌻 
+---
 
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Ist deine Marke nur ein String im Rauschen?</h3>
-  <p class="mb-6 text-gray-muted">Ich durchleuchte deinen digitalen Fußabdruck und analysiere, ob LLMs dich bereits als verknüpfte Entität erkennen. Lass mich deine technische Architektur auf Enterprise-Niveau heben.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entity-Check anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
 
 * [Trustworthiness: Das Fundament des maschinellen Vertrauens](/glossar/trustworthiness-eeat/)
-* [Authoritativeness: Kanten im Knowledge Graph aufbauen](/glossar/authoritativeness-eeat/)
-* [Expertise & Experience: Die Fakten](/glossar/expertise-eeat/)
 * [Groundingpage Standard: Die Datenzentrale](/glossar/grounding-page/)
 * [GEO: Generative Engine Optimization](/glossar/geo/)
-
----
-
-<div class="mt-20 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">LinkedIn von Jörg Zimmer folgen</h3>
-  <p class="text-gray-muted mb-6">Täglich harte SEO-Technik, LLM-Analysen und kein Bullshit. Diskutiere mit echten Profis.</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Jetzt auf LinkedIn folgen</a>
-</div>

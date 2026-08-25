@@ -20,7 +20,6 @@ faqs:
     answer: 'Durch Generative Engine Optimization (GEO). Baue echte Expertise auf, liefere Information Gain, nutze Grounding Pages für RAG-Systeme und etabliere deine Marke plattformübergreifend. Mach deine Daten für Maschinen lesbar.'
 ---
 
-Moin! Jörg Zimmer hier aus Berlin. 
 
 Lass uns mal echtes Tacheles reden. Ich bin jetzt seit verdammten 25 Jahren im SEO-Geschäft. Ich habe gesehen, wie man Seiten mit weißem Text auf weißem Grund hochgerankt hat. Ich habe gigantische PBNs hochgezogen, Pinguin- und Panda-Updates überlebt. Wir haben WDF*IDF-Mumpitz durchgemacht und über die optimale Pixel-Länge von Meta-Descriptions diskutiert. 
 
@@ -72,12 +71,24 @@ Ein [Google Core Update](/glossar/google-core-update/) kalibriert heute, wie sta
 *   Dein Content wurde als niedrigschwelliger KI-Spam geflaggt.
 *   Deine E-E-A-T-Signale sind zu schwach für das aktuelle Vertrauens-Threshold.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Meine harte Erfahrung aus den jüngsten Updates (2026)</h4>
-  <p class="mb-0 text-sm">Kunden rufen mich panisch an, weil ihr Traffic um 80% eingebrochen ist. "Jörg, wir haben alles nach SEO-Checkliste gemacht!" Ja, nach einer Checkliste von 2022! Wir schauen in die Daten: Die Seiten, die abgestürzt sind, boten null Eigenleistung. Es waren reine Aggregator-Inhalte oder seelenlose Ratgeber. Die Gewinner der Updates 2026 sind spezialisierte "Ziel"-Websites, Foren mit echter User-Interaktion und Brands mit starker Topical Authority. Friss oder stirb.</p>
-</div>
+### Rankingfaktoren: Damals vs. KI-Ära
 
-## Mein Tacheles-Rat für dich
+| Faktor | Klassisches Google (bis 2023) | KI-Suche & RAG (2026) |
+| :--- | :--- | :--- |
+| **Inhalt** | Keywords, Wortanzahl, WDF*IDF | Information Gain, E-E-A-T, Entitäten |
+| **Technik** | H1-Tags, Meta-Descriptions | JSON-LD, Strukturierte Daten, RAG-Fähigkeit |
+| **Links** | Domain Authority, Ankertexte | Citations, Brand Mentions, Knowledge Graph |
+| **Ziel** | Ranking in den Top 10 | Zitierung in der AI Overview (Ground Truth) |
+
+## Aus der Praxis: Meine persönliche Erfahrung
+
+Kunden rufen mich oft panisch an, weil ihr Traffic nach einem Core Update um 80% eingebrochen ist. "Jörg, wir haben alles nach SEO-Checkliste gemacht!" Ja, nach einer Checkliste von 2022! Wir schauen tief in die Daten und die Logs: Die Seiten, die abgestürzt sind, boten null Eigenleistung. Es waren reine Aggregator-Inhalte oder seelenlose Ratgeber. 
+
+> "Wer den Google-Algorithmus 2026 verstehen will, muss aufhören, Texte für Menschen zu simulieren, und anfangen, echtes Wissen für Maschinen zu strukturieren."
+
+Die Gewinner der Updates 2026 sind spezialisierte "Ziel"-Websites, Foren mit echter User-Interaktion und Brands mit starker Topical Authority. Bei einem SaaS-Kunden haben wir den gesamten Content radikal auf E-E-A-T und maschinenlesbare Struktur umgestellt. Plötzlich war der Traffic-Einbruch gestoppt und die Domain wurde als primäre Quelle in Perplexity und Google AI Overviews genannt. Friss oder stirb.
+
+## Zusammenfassung: Mach es richtig oder lass es
 
 Algorithmus-Updates sind keine Strafe Gottes. Sie sind der logische Schritt in der Evolution der KI-Suche. Google muss Milliarden von Anfragen mit teuren Modellen beantworten und dabei Halluzinationen vermeiden. Der Algorithmus belohnt ab sofort die Domains, die verlässliche, einzigartige und hervorragend strukturierte Daten liefern.
 
@@ -85,17 +96,16 @@ Hör auf, für veraltete Rankingfaktoren zu optimieren. Baue eine echte Marke au
 
 Wenn du diesen Weg konsequent gehst, bist du immun gegen jedes Update. Das ist SEO im Jahr 2026. Hart, inhaltlich tief und gnadenlos qualitativ. 
 
-ALOHA 🌻
-
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Fällst du durch den RAG-Filter?</h3>
-  <p class="mb-6">Lass uns nicht fackeln. Ich analysiere deine Website auf E-E-A-T, Information Gain und AI Readiness. Wir sichern deine Citations in den AI Overviews. Tacheles. Berlin-Style.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Audit anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
 
 * [Google Core Updates verstehen](/glossar/google-core-update/)
-* [Alles über E-E-A-T](/glossar/e-e-a-t/)
+* [Alles über E-E-A-T](/glossar/trustworthiness-eeat/)
 * [Die Rolle der Grounding Pages](/glossar/grounding-page/)
 * [RAG Pipelines verstehen](/glossar/rag/)

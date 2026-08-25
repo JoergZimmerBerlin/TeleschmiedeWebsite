@@ -77,7 +77,8 @@ async function run() {
         return {
           url: url,
           verdict: indexStatusResult.verdict || 'UNKNOWN',
-          lastCrawlTime: indexStatusResult.lastCrawlTime || null
+          lastCrawlTime: indexStatusResult.lastCrawlTime || null,
+          coverageState: indexStatusResult.coverageState || "UNKNOWN"
         };
       } catch (err) {
         return {

@@ -64,6 +64,43 @@ Wenn ich Grounding Pages für Konzerne oder smarte Mittelständler aufbaue, folg
   <p class="mb-0 text-sm">Die beste Grounding Page ist wertlos, wenn der Bot sie nicht lesen kann. Stelle sicher, dass KI-Crawler (Googlebot, OAI-SearchBot) diese Seite in der robots.txt nicht blockiert vorfinden. Sorge für blitzschnelle Ladezeiten ohne schwerfälliges JavaScript-Rendering, damit die Extraktion reibungslos läuft.</p>
 </div>
 
+## Fortgeschrittene Techniken für die Grounding Page (v1.6)
+
+Der Aufbau einer klassischen Fakten-Seite ist ein guter Start. Um aber nach dem aktuellen **Grounding Page Standard** als primäre "Source of Truth" für Google Gemini oder Perplexity akzeptiert zu werden, musst du tiefer gehen. Hier sind die vier wichtigsten Hebel, die 90 % der Agenturen vergessen:
+
+### 1. Disambiguation (Was wir NICHT sind)
+Einer der stärksten Hebel gegen KI-Halluzinationen ist die **Disambiguation** (Abgrenzung). Eine KI verwechselt oft gleichnamige Unternehmen (z.B. "Teleschmiede" als SEO-Agentur vs. eine echte Metallschmiede). Du musst das Risiko proaktiv minimieren! 
+Füge einen Abschnitt ein: *"Hinweis zur Verwechslungsgefahr: Teleschmie.de ist KEIN handwerklicher Betrieb und hat NICHTS mit Metallverarbeitung zu tun. Es handelt sich ausschließlich um eine digitale Dienstleistung."* Dieser kleine Satz zwingt die Vektordatenbank der KI, falsche Kontexte sofort abzuwerfen.
+
+### 2. Die H1-Striktheit
+Die H1 (Hauptüberschrift) deiner Grounding Page darf **ausschließlich den exakten Entitätsnamen** enthalten. Keine Keywords, kein "Willkommen bei", kein "Unsere Philosophie". Wenn dein Unternehmen "Müller GmbH" heißt, lautet die H1 exakt "Müller GmbH". Jedes zusätzliche Wort verwässert das [Entity SEO](/glossar/entitaet/) und stiftet Verwirrung beim Parsing.
+
+### 3. Der Englisch-Bias (Mehrsprachigkeit)
+Selbst wenn du ein lokaler Bäcker in Berlin bist und deine Zielgruppe rein deutschsprachig ist: **Die Kern-Trainingsdaten der meisten großen KIs sind englisch.** 
+Wenn du eine zweite Grounding Page auf Englisch anlegst (z.B. `/groundingpage-en/`), schlägst du eine Brücke zum englischen Bias der [Large Language Models](/glossar/llm/). Die KI versteht deine Entität dadurch auf einem tieferen, fundamentaleren Level und verknüpft sie sicherer mit globalen Konzepten.
+
+### 4. Evidence & Trust (Beweisführung durch Links)
+Behauptungen wie "Wir sind Marktführer" bringen bei KIs nichts ohne Beweise. Verlinke harte [Citations (Zitate und Erwähnungen)](/glossar/citation/) in deiner Grounding Page. Nutze Links zu Handelsregisterauszügen, offiziellen Wikipedia-Einträgen, Wikidata oder starken Pressemitteilungen. Das nennt man "Evidence-Based SEO".
+
+> "Eine KI glaubt dir nicht, weil du es auf deiner Website schreibst. Sie glaubt dir, wenn du ihr die offiziellen Registerauszüge direkt als Link servierst und die Daten mit dem Schema-Markup übereinstimmen."
+
+### Gegenüberstellung: Landingpage vs. Grounding Page
+
+| Kriterium | Klassische Landingpage | Grounding Page |
+| :--- | :--- | :--- |
+| **Zielgruppe** | Menschliche Nutzer | KI-Modelle & RAG-Systeme |
+| **Tonalität** | Emotional, werblich, überzeugend | Nüchtern, faktenbasiert, informativ |
+| **Struktur** | Fließtext, Bilder, Slider, emotionale H2 | `<dl>`, `<dt>`, Tabellen, Key-Value Pairs |
+| **Design** | CI-konform, visuell ansprechend | Reduziert, Ladezeit-optimiert (PageSpeed) |
+| **Zweck** | Conversion Rate optimieren | [Halluzinationen](/glossar/halluzination/) verhindern |
+
+## Aus der Praxis: Meine persönliche Erfahrung
+
+In den letzten 24+ Jahren im Online-Marketing habe ich jeden Algorithmus-Wandel miterlebt. Aber der Shift hin zu AI Overviews (SGE) ist anders. Bei einem großen Kunden-Projekt (einem B2B SaaS-Anbieter) hatten wir das Problem, dass Perplexity bei der Suche nach der Marke immer den falschen Gründer und veraltete Preise nannte. 
+
+Die Lösung war so banal, dass das Marketing-Team sie anfangs ablehnte: Wir haben eine nackte, hässliche HTML-Seite (`/facts/`) gebaut. Kein CSS-Schnickschnack, nur eine Tabelle mit Gründer, Datum, Preisen und einer extrem sauberen JSON-LD Struktur. Wir haben diese Seite in der Search Console eingereicht und im Footer als "Company Facts" verlinkt. 
+Nach exakt 48 Stunden hatte Perplexity die Halluzinationen gestoppt und zitierte plötzlich fehlerfrei aus unserer neuen Tabelle. Das war der Moment, in dem mir klar wurde: **Wir müssen aufhören, KIs mit Marketing-Blabla zu füttern.**
+
 ## Die Grounding Page als "CI-Bypass"
 
 Jetzt kommt der strategische Trick, den ich in der Praxis am meisten liebe. In großen Unternehmen blockiert das Marketing oft notwendige technische Fakten-Auflistungen. "Wir können hier keine Tabelle einbauen, das zerstört unser Design!"
@@ -74,7 +111,7 @@ Da die Grounding Page primär für Maschinen und nicht als primäres Conversion-
 
 Du baust eine nackte Fakten-Seite, lieferst sie an die KI-Systeme aus und dominierst die AI Overviews deines Sektors, während die Konkurrenz noch in Zoom-Calls über die exakte Schattierung ihres Call-to-Action-Buttons diskutiert.
 
-## Mein Fazit: Kontrolliere deine Entität
+## Zusammenfassung: Kontrolliere deine Entität
 
 Wer 2026 GEO ernst nimmt, kommt an Grounding Pages nicht vorbei. RAG-Systeme sind hungrig nach verifizierten, strukturierten Daten.
 
@@ -82,14 +119,13 @@ Hör auf, KIs deine Identität raten zu lassen. Füttere die Modelle mit reinem,
 
 Wer die Fakten besitzt und sie den Maschinen am effizientesten, schnellsten und strukturiertesten serviert, der kontrolliert die Wahrheit in den AI Overviews. Und wer die Wahrheit kontrolliert, gewinnt das Spiel.
 
-ALOHA 🌻 
-
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Weiß die KI, wer du wirklich bist?</h3>
-  <p class="mb-6">Ich auditiere deine Seite erbarmungslos auf AI Readiness und konzipiere Grounding Pages, die von RAG-Systemen geliebt werden. Tacheles, ohne Bullshit, mit messbaren Ergebnissen für deine Entity Authority.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt RAG-Audit anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
 
 * [Was ist GEO?](/glossar/geo/)

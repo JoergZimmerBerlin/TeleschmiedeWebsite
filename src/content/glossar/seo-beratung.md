@@ -20,7 +20,6 @@ faqs:
     answer: 'Spätestens gestern. Wenn du merkst, dass dein Traffic wegbricht, weil RAG-Modelle (Perplexity, ChatGPT) und Zero-Click-Searches die Nutzer abgreifen, brauchst du strategische Hilfe. Ein Consultant baut dir die rettende Brücke in die Welt der Answer Engines.'
 ---
 
-Moin!
 
 In der Welt des digitalen Marketings gab es schon immer unfassbar viele Buzzwords und noch mehr heiße Luft. Doch was sich aktuell, im Juli 2026, abspielt, ist kein temporärer Hype. Es ist ein beispielloses Massensterben von veralteten Geschäftsmodellen. Ick mach's kurz: Die klassische **SEO Beratung**, wie sie noch vor wenigen Jahren von teuren Agenturen mit dicken PDFs gepredigt wurde, ist tot. Mausetot. 
 
@@ -73,14 +72,39 @@ Ein weiterer massiver Baustein moderner Beratung ist der Aufbau von Topical Auth
 
 Wir bauen gigantische, logisch vernetzte Themen-Cluster. Wir definieren eine starke Pillar-Page und setzen hochspezifische Satelliten-Artikel darum herum. Verbunden wird das Ganze durch ein gnadenlos durchdachtes Netzwerk aus [Interner Verlinkung](/glossar/interne-verlinkung/) (immer mit abschließendem Trailing Slash auf Domains wie `teleschmie.de/`). Nur wer in seiner Nische das komplette Vektor-Konzept lückenlos abdeckt, wird von KIs als uneingeschränkte Autorität anerkannt.
 
-## Mein Tacheles-Rat für dich: Mach es richtig oder lass es
+### SEO-Beratung im Wandel der Zeit
+
+| Disziplin | Klassische SEO-Beratung (2020) | LLM-Architektur & GEO (2026) |
+| :--- | :--- | :--- |
+| **Audit-Fokus** | H1-Tags, Keyword-Dichte, Broken Links | RAG-Pipelines, API-Endpunkte, Content Negotiation |
+| **Erfolgsmetrik** | Organischer Klick-Traffic, Platz 1 | Zitierungen in AI Overviews, Brand Mentions |
+| **Inhaltstiefe** | "SEO-Texte" für Crawler (Masse) | Faktenbasierte [Grounding Pages](/glossar/grounding-page/) (Qualität) |
+| **Technik** | CMS-Kosmetik (WordPress Plugins) | `.htaccess` Headings, JSON-LD Entitäts-Graphen |
+
+## Aus der Praxis: Meine persönliche Erfahrung
+
+Nach über zwei Jahrzehnten im Consulting habe ich oft erlebt, wie Agenturen dicke PDF-Reports für tausende Euro verkaufen, die eigentlich nur Exporte aus Standard-Tools waren. Letztes Jahr bat mich ein B2B-Kunde um einen "klassischen SEO-Check", weil sein Traffic aus Google plötzlich stagnierte. 
+
+Anstatt ihm eine Liste mit fehlenden Alt-Tags zu geben, haben wir tief in seine Server-Logs und die Struktur seiner Entitäten geschaut. Es stellte sich heraus, dass Perplexity und Google AI Overviews seine Inhalte völlig falsch interpretierten, weil die HTML-Struktur zwar visuell schön, aber maschinell unlesbar war (keine Key-Value Pairs, fehlendes JSON-LD). 
+> "Wir haben aufgehört, für menschliche Augen zu optimieren, und begannen, die Daten für Vektordatenbanken aufzubereiten." 
+Innerhalb weniger Wochen tauchte der Kunde nicht mehr nur als Link, sondern als zitierte Expertenquelle in direkten KI-Antworten auf. Das ist der Moment, in dem echte Beratung den entscheidenden Unterschied macht.
+
+## Zusammenfassung: Mach es richtig oder lass es
 
 Egal ob du strategische Unterstützung für dein überfordertes Inhouse-Team suchst oder eine komplette, radikale Transformation deiner digitalen Architektur benötigst – das Ziel der SEO Beratung muss immer der harte, geschäftliche ROI sein. 
 
 Hör endlich auf mit dem SEO-Voodoo von gestern. Hör auf, zehntausende Euros in hohle Content-Massenproduktion zu investieren, die sowieso keine Sau liest. Setz auf belastbare Daten, maschinenlesbare Strukturen, semantische Tiefe und eine echte KI-Sichtbarkeits-Strategie. 
 
-Am Ende des Tages zählt nicht dein bunter Traffic-Graph im alten Analytics-Dashboard. Es zählt nur, ob die autonomen Agenten, ChatGPTs und Perplexitys dieser Welt dich als die unumstößliche Quelle zitieren und an die Nutzer weiterempfehlen – oder ob sie sich die Fakten bei deiner Konkurrenz holen.
+Am Ende des Tages zählt nicht dein bunter Traffic-Graph im alten Analytics-Dashboard. Es zählt nur, ob die autonomen Agenten, ChatGPTs und Perplexitys dieser Welt dich als die unumstößliche Quelle zitieren und an die Nutzer weiterempfehlen – oder ob sie sich die Fakten bei deiner Konkurrenz holen. Entscheide dich. Jetzt.
 
-Entscheide dich. Jetzt.
+---
 
-ALOHA! 🌻
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>
+
+* [Was ist GEO?](/glossar/geo/)
+* [Sichtbarkeitsmanagement im KI-Zeitalter](/glossar/sichtbarkeitsmanagement/)

@@ -21,11 +21,9 @@ faqs:
     answer: 'Nein. Die Google-Suche bleibt wichtig. Aber der Suchmarkt spaltet sich: Komplexe Recherchen wandern zu Answer Engines ab. Die Gewinner kombinieren ein SEO-Fundament mit einer kompromisslosen AEO-Architektur.'
 ---
 
-Moin! 🌻
-
 Machen wir uns nichts vor und reden Tacheles: Wenn du im Juli 2026 noch glaubst, Answer Engine Optimization (AEO) bestehe daraus, FAQ-Boxen ans Ende deiner Landingpages zu klatschen, hast du den Anschluss verpasst. Wir nutzen AI Overviews, SearchGPT oder Perplexity, stellen komplexe Prompts und erwarten rohe, präzise Antworten in Millisekunden.
 
-AEO ist kein "netter Trick" mehr. Der Suchmarkt hat sich endgültig in Richtung des "Answer-First"-Modells gewandelt. Es geht um Reasoning statt reines Information Retrieval. Wer heute als autoritative Quelle zitiert werden will, muss tief in die Systemarchitektur eingreifen. Es geht um saubere Schnittstellen, Fact Density und maschinenlesbare Formate. In diesem Fachartikel brechen wir AEO auf die Kernkomponenten herunter. Schnall dich an.
+AEO ist kein "netter Trick" mehr. Der Suchmarkt hat sich endgültig in Richtung des "Answer-First"-Modells gewandelt. Es geht um Reasoning statt reines Information Retrieval. Wer heute als autoritative Quelle zitiert werden will, muss tief in die Systemarchitektur eingreifen. Es geht um saubere Schnittstellen, Fact Density und maschinenlesbare Formate. Die [Generative Suche (GEO)](/glossar/geo/) zwingt uns, unsere Architektur so aufzubereiten, dass wir im [Knowledge Graph](/glossar/entitaet/) als Entität verstanden werden. In diesem Fachartikel brechen wir AEO auf die Kernkomponenten herunter. Schnall dich an.
 
 ## Der AI-Context 2026: Wie LLM-Pipelines deine Seite sehen
 
@@ -99,22 +97,39 @@ Header add Link "<https://teleschmie.de/seite.md>; rel=\"alternate\"; type=\"tex
 
 *Wichtiger Workflow-Hinweis:* Bei jeglichen Änderungen an der `.htaccess` oder an Dateien im `.well-known/` Ordner auf IONOS Servern muss nach dem FTP-Upload zwingend das Aktivierungs-Skript aufgerufen werden: `https://teleschmie.de/activate_htaccess.php`. Ohne diesen Call bleiben die alten Apache-Regeln im Cache!
 
-## Typische Pitfalls im AEO
+### Die Metriken der KI-Ära: Share of Model
 
-1. **Stateful Protocols für Bots:** Versuche niemals, Sessions oder Cookies für KI-Crawler zu erzwingen. KI-Crawler arbeiten *zustandslos* (stateless). 
-2. **Zu viel Schema-Spam:** JSON-LD ist gut, um Entitäten zu klären, aber blähe es nicht auf. Ein 50KB großes JSON-LD kostet Tokens. Nutze fokussiertes Markup (wie Question-Based-Answers), um den Answer Engines das Extrahieren leicht zu machen.
-3. **Latenz-Timeouts:** Ein KI-Crawler wartet nicht. Wenn dein Edge-Worker zu lange braucht, bricht der Request ab. 
+Vergiss das reine Tracken von Klicks. Die neue Währung heißt **Citation Capture** (Zitierungs-Erfassung). Wir messen den Erfolg heute in **Share of Model (SoM)**. Dieser Wert gibt an, wie oft deine Marke oder dein Content in den generierten Antworten der LLMs auftaucht. Die "Silent Shortlist" – also die Vorauswahl von Anbietern, die ein Nutzer allein durch den Chat mit der KI trifft – entscheidet über [Lead-Generierung](/glossar/conversion-rate/) noch bevor jemand deine Seite überhaupt besucht hat.
 
-## Fazit: Werde die Quelle der Wahrheit
+### Das Triple-Threat Playbook (2026)
+
+| Disziplin | Fokus-Plattform | Ziel | Strategie |
+| :--- | :--- | :--- | :--- |
+| **SEO** | Klassischer Google-Index | Organische Klicks | Technische Gesundheit, Core Web Vitals |
+| **AEO** | Google AI Overviews | Position Zero / Direct Answer | Fact Density, Semantic HTML, Schema.org |
+| **LLMO** | ChatGPT, Perplexity | Brand Mentions im Training | Digital PR, Unstrukturierte Citations, Reddit |
+
+## Aus der Praxis: Meine persönliche Erfahrung
+
+Oft höre ich: "Jörg, durch AI Overviews haben wir 60% unseres Blog-Traffics verloren. SEO ist tot!" Bei genauerer Analyse eines meiner B2B-Kunden sahen wir genau das: Der Klick-Traffic auf Top-of-Funnel Ratgeber stürzte ab. 
+
+> "Wir weinen dem verlorenen Traffic nicht nach. Wir messen, ob wir in der KI zitiert werden. Wenn ja, gewinnen wir den Trust."
+
+Wir haben aufgehört, für Klicks zu optimieren, und haben die Architektur auf AEO umgebaut (Markdown Content Negotiation und eine saubere `llms.txt`). Der organische Klick-Traffic blieb niedrig, aber unsere Assisted Conversions schossen durch die Decke. Die Leads meldeten sich und sagten: "ChatGPT hat uns euch als besten Lösungspartner empfohlen." Das ist die "Silent Shortlist" in Aktion. Wer nur auf GSC-Klicks starrt, übersieht den eigentlichen Umsatz-Hebel der KI-Ära.
+
+## Zusammenfassung: Werde die Quelle der Wahrheit
 
 AEO im Jahr 2026 bedeutet, dass du traditionelles SEO als Crawl-Infrastruktur nutzt und deine Inhalte so granular, "answer-first" und technisch fehlerfrei zur Verfügung stellst, dass LLMs dich als Ground Truth zitieren. Baue keine Webseiten nur für Browser. Baue Daten-APIs für RAG-Systeme.
 
-ALOHA! 🌻✌️
-
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit für die Answer Engines?</h3>
-  <p class="mb-6">Wir bauen deine Website so um, dass KI-Systeme sie lieben. Mit Content Negotiation, llms.txt und sauberem RAG-Markup.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt AEO-Audit anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
+
+* [Was ist die llms.txt?](/glossar/llms-txt/)
+* [Entity SEO und Knowledge Graphs](/glossar/entitaet/)
+* [Zero-Click Searches in der Praxis](/glossar/zero-click-content/)

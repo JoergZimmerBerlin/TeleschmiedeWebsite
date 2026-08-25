@@ -24,86 +24,59 @@ faqs:
     answer: 'Wer direkt am Live-System fummelt, spielt Russisch Roulette. Ein Staging-System ist deine Sandbox. Hier testen wir, ob die interne Verlinkung passt, ob die `llms.txt` sauber generiert wird und ob die Content Negotiation bei `Accept: text/markdown` funktioniert. Erst wenn alles "Green Flags" zeigt, gehen wir live.'
 ---
 
-Moin! 🌻
-
 Lass uns direkt Tacheles reden: Ein Website-Relaunch wird in den meisten Unternehmen noch immer wie eine neue Kaffeemaschine behandelt – man sucht sich etwas Schickes aus, drückt blind auf den Knopf und hofft, dass es schmeckt. Aber in der Realität schmeckt es meistens nach verbrannter Erde. Die Enttäuschung ist grenzenlos, wenn zwei Wochen nach dem Go-Live die Kurve in der Google Search Console (und den KI-Referral-Logs) aussieht wie ein ungebremster Sturzflug.
 
-Als jemand, der das Internet quasi mit erfunden hat, habe ich hunderte Relaunches gesehen. Im Jahr 2026 ist die Gefahr eines kolossalen Scheiterns größer denn je. Die gute Nachricht: Ein Relaunch ist eine riesige Chance, dich komplett als "Agent Ready" zu positionieren und deine Autorität auszubauen. Die schlechte Nachricht: Wenn du die neuen KI-Standards und E-E-A-T-Anforderungen ignorierst, ist der Relaunch die größte Gefahr für deine bisherige Arbeit. Wir machen jetzt endgültig Schluss mit dem "Pfusch am Bau".
+Als jemand, der das Internet quasi mit erfunden hat, habe ich hunderte Relaunches gesehen. Im Jahr 2026 ist die Gefahr eines kolossalen Scheiterns größer denn je. Die gute Nachricht: Ein Relaunch ist eine riesige Chance, dich komplett als "Agent Ready" zu positionieren und deine Autorität auszubauen. Wir machen jetzt endgültig Schluss mit dem "Pfusch am Bau".
 
 ## Was ist ein Website-Relaunch 2026 wirklich?
 
-Ein Relaunch ist weit mehr als nur ein neues, hübsches Design mit ein paar netten Animationen. Es ist eine fundamentale Änderung an der technischen Struktur, der URL-Logik und der Art und Weise, wie autonome Systeme mit deinen Daten interagieren. 
+Ein Relaunch ist weit mehr als nur ein neues, hübsches Design. Es ist eine fundamentale Änderung an der technischen Struktur, der URL-Logik und der Art und Weise, wie autonome Systeme mit deinen Daten interagieren. SEO ist beim Relaunch 2026 nicht mehr nur "Ranking-Optimierung", sondern "Antwort-Optimierung" (GEO/AEO).
 
-Aus der Brille von Google und den großen LLMs (Large Language Models) ist ein Relaunch ein massiver, riskanter Vertrauens-Test. Die Maschinen kennen deine alten Pfade, deine `llms.txt` und vor allem deine etablierten Entitäten. Wenn du diese Infrastruktur änderst, ohne digitale Wegweiser (301-Redirects) zu hinterlassen, verlieren sie schlichtweg die Orientierung. Dein Vertrauen wird auf null zurückgesetzt. In einer Ära, in der Autorität (E-E-A-T) der wichtigste Rankingfaktor überhaupt ist, ist dieser Vertrauensbruch fatal.
+Aus der Brille von Google und den großen LLMs ist ein Relaunch ein massiver Vertrauens-Test. Wenn du deine Infrastruktur änderst, ohne digitale Wegweiser (301-Redirects) zu hinterlassen, verlierst du deine mühsam aufgebaute E-E-A-T (Erfahrung, Expertise, Autorität, Vertrauen) sofort.
 
-## Die 5 apokalyptischen Reiter des Relaunch-Fails 2026
+### Klassische vs. KI-Agenten Relaunch-Faktoren
 
-Wenn ein Relaunch heute in die "Tracking-Hölle" führt, liegt es fast immer an diesen fatalen, vermeidbaren Fehlern:
+| Relaunch-Fokus | Klassisches SEO | KI-SEO / AI-Readiness (2026) |
+| :--- | :--- | :--- |
+| **Content-Format** | Lange SEO-Texte, Keyword-Stuffing | "Atomic Answers" (40-60 Wörter), RAG-Futter |
+| **Technik-KPIs** | Ladezeit (LCP, CLS) | Interaktion (INP) & saubere JSON-LD Strukturen |
+| **Erreichbarkeit** | Crawler wie der Googlebot | KI-Agenten, A2A-Protokolle, Markdown Negotiation |
+| **Risiko** | Rankingeinbruch in 10 blauen Links | Kompletter Verlust der "Share of Model"-Zitate |
 
-1.  **Fehlende URL-Map und 301-Redirects:** Das ist der ewige Klassiker und absolute Todsünde. URLs ändern sich (neue Slug-Struktur, neues Verzeichnis), aber die alten Adressen laufen ins Leere (404-Fehler). Dein gesamter [Linkjuice](/glossar/linkjuice/) und deine mühsam aufgebaute Autorität verdampfen im digitalen Nirwana.
-2.  **Verlust der technischen KI-Optimierung:** Auf dem alten System lief die Markdown Negotiation perfekt. Das neue System (oder der hippe neue Frontend-Server) ignoriert den `Accept: text/markdown` Header und wirft den KI-Bots riesige, unlesbare HTML-Blobs entgegen. Folge: KI-Traffic und Erwähnungen in RAG-Systemen brechen um 100% ein.
-3.  **llms.txt komplett vergessen:** Die neue Seite ist live, sieht fantastisch aus, aber die `/llms.txt` wurde beim Deployment nicht mit auf den Produktivserver kopiert. Die KI findet ihr Inhaltsverzeichnis nicht mehr und ignoriert dich.
-4.  **Noindex auf Produktiv belassen:** Ein absoluter Anfängerfehler, der erstaunlich oft passiert: Man vergisst, das `noindex` vom Staging-System beim Livegang zu entfernen. Herzlichen Glückwunsch, du hast dich gerade selbst aus dem Internet gelöscht.
-5.  **Technischer Rückschritt bei Core Web Vitals:** Das neue CMS ist zwar optisch ein "Highlight", aber lädt langsamer als eine Dampflokomotive. Die [Core Web Vitals](/glossar/core-web-vitals/) (insbesondere INP und LCP) krachen in den Keller. Google bestraft das sofort mit einem Sichtbarkeitsverlust.
+## Die 4 Phasen eines sicheren Website-Relaunches
 
----
+Ein Relaunch ohne Plan kostet oft 30–50 % der organischen Sichtbarkeit. Hier ist der Schlachtplan:
 
-## E-E-A-T & KI-Readiness: Die Pflichtfaktoren 2026
+1.  **Strategische Vorbereitung (URL-Mapping):** Bevor auch nur ein Pixel designt wird, musst du eine URL-Map erstellen. Alte URLs müssen zwingend per 301-Redirect auf neue, inhaltlich identische URLs umleiten. Das ist das absolute Herzstück der Migration.
+2.  **Entwicklung & Staging:** Das ist deine Sandbox. Auf dem Staging-Server prüfen wir nicht nur das Design, sondern die "Maschine-zu-Maschine-Kommunikation". Wir validieren die neuen KI-Endpunkte und prüfen, ob die `llms.txt` sauber generiert wird.
+3.  **Der Go-Live Tag:** Niemals am Freitagnachmittag! DNS-Umstellung durchführen, Live-Test aller Redirects und sofortiges Einreichen der neuen XML-Sitemap in der [Google Search Console](/glossar/google-search-console/). Ganz wichtig: Vergiss nicht, das `noindex` vom Staging-System zu entfernen!
+4.  **Monitoring & E-E-A-T 2.0:** Nach dem Launch überwachen wir täglich das Crawling. Gleichzeitig müssen die Autoren-Profile (Bios) live sein, um E-E-A-T 2.0 (menschliche Erfahrung) für KI-Modelle nachzuweisen.
 
-Im Jahr 2026 geht es beim Relaunch nicht nur um das Verschieben von URLs. Google und KI-Agenten bewerten deine Seite nach "Information Gain" (Informationsvorsprung) und strengen E-E-A-T Richtlinien.
+## Aus der Praxis: Meine persönliche Erfahrung
 
-Wenn du alte Inhalte einfach 1:1 kopierst, verpasst du die größte Chance. Nutze den Relaunch für ein **Content-Audit**:
-- **Behalten & Verbessern:** Welche Seiten ranken gut? Aktualisiere sie mit frischen Daten von 2026, neuen Screenshots und klaren Autoren-Profilen. Zeige echte Expertise!
-- **Konsolidieren:** Hast du drei schwache Artikel zum selben Thema? Fasse sie zu einem epischen Deep-Dive zusammen, der von KI-Agenten als "beste Quelle" (Single Source of Truth) zitiert werden kann.
-- **Löschen:** Trenne dich von Thin-Content. Dünne, nutzlose Seiten ziehen die Domain-Autorität für die Crawler nur nach unten.
+Einer meiner Kunden kam 2025 mit einer brandneuen, super schicken Single-Page-Application zu mir – leider erst *nach* dem Livegang. Die betreuende Webagentur hatte SEO komplett ignoriert. Keine Redirects, keine strukturierte Daten, und die [Core Web Vitals](/glossar/core-web-vitals/) (speziell der INP) waren miserabel, da das JavaScript den Browser blockierte.
 
-Außerdem ist **Schema-Markup** (Strukturierte Daten) heute wichtiger denn je. Es ist die Brücke, um LLMs klar zu signalisieren, welche Entität (Person, Organisation, lokales Geschäft) hier spricht. Wenn du beim Relaunch dein Schema zerschießt, verliert die KI den Kontext zu deiner Marke.
+Das Ergebnis war ein sofortiger Traffic-Absturz um 70%. Für ChatGPT und Perplexity existierte das Unternehmen praktisch nicht mehr, da die RAG-Pipelines das JavaScript nicht schnell genug rendern konnten. Wir mussten in wochenlanger Notfall-Arbeit ("Feuerwehr-SEO") eine Server-Side-Rendering Lösung aufbauen und Hunderte 301-Redirects manuell aus den alten Logfiles rekonstruieren. Hätten sie mich *vor* dem Relaunch hinzugezogen, wäre dieser katastrophale Sichtbarkeitsverlust vermieden worden.
 
----
+> Ein Website-Relaunch ohne strikte SEO-Begleitung ist wie ein Hausbau ohne Statiker. Wenn das Fundament bröckelt, nützt dir auch die schönste Fassade nichts.
 
-## Jörgs Relaunch-Checkliste 2026 (technische KI-Optimierung Edition)
+## Zusammenfassung
 
-Damit du nicht in die Relaunch-Falle tappst und deinen Traffic vernichtest, hier meine unverzichtbaren, knallharten Schritte für einen erfolgreichen Livegang im KI-Zeitalter:
+Ein Relaunch ist niemals ein Projekt für den Freitagnachmittag bei einem Bier. Es ist eine massive strategische Weichenstellung. Wer die Hausaufgaben macht – Technik-Check, sauberer Redirect-Plan, Implementierung der Markdown Content Negotiation –, der wird mit einem massiven Boost in der Sichtbarkeit bei Mensch und Maschine belohnt.
 
-### 1. Der Status Quo Bericht (Die Baseline)
-Bevor du auch nur eine einzige Zeile Code auf der neuen Seite änderst, musst du wissen, was du aktuell hast. Welche Seiten bringen den meisten Traffic? Wie oft pingen KI-Agenten deine Endpunkte an? Wer keinen Nullpunkt (Baseline) hat, kann nach dem Relaunch keinen Erfolg messen. Nutze Tools wie die Google Search Console und professionelle Suites für ein komplettes Back-up deiner Daten.
-
-### 2. Die Redirect-Map (Das absolute Herzstück)
-Erstelle eine kompromisslose Excel-Liste. Spalte A: Alte URL. Spalte B: Neue URL. Jede wichtige Seite muss eine neue Heimat finden. Das gilt ausdrücklich auch für API-Endpunkte, falls sich dein KI-Crawler-Setup ändert. Wer hier schlampt, begeht digitalen Selbstmord. Keine Ausreden.
-
-### 3. Der technische KI-Optimierung Check auf Staging
-Das ist der entscheidende neue Schritt 2026: Auf dem Staging-Server prüfen wir nicht nur das Design, sondern die "Maschine-zu-Maschine-Kommunikation". Wir jagen cURL-Befehle gegen die Staging-URLs, um die Markdown Negotiation zu testen. Wir validieren die neuen Endpunkte und prüfen, ob die maschinenlesbare Dokumentation (wie die `llms.txt`) korrekt hinterlegt ist. Wenn hier Fehler auftreten, wird der Go-Live bedingungslos gestoppt.
-
-### 4. Search Console Monitoring ab Tag 1
-Der Relaunch endet nicht mit dem Drücken des Live-Buttons. Sobald die Seite online ist, wird die neue Sitemap sofort in die Google Search Console hochgeladen. In den folgenden 2 bis 4 Wochen gilt Alarmstufe Rot: Die Indexierungs- und Crawling-Berichte müssen täglich auf 404-Fehler und Redirect-Ketten überprüft werden, um sofort eingreifen zu können.
+Warte nicht, bis der Traffic-Graph nach unten zeigt, weil dein neues CMS die KI aussperrt. Sei proaktiv. Mach es von Anfang an richtig und vermeide den Pfusch am Bau.
 
 ---
 
-## Jörgs SEO-Klartext: "Habe fertig mit Pfusch"
-
-> **Tacheles:** Schmeißt die Agenturen hochkant raus, die euch leichtfertig erzählen, dass SEO und technische KI-Optimierung beim Relaunch 'schon irgendwie automatisch' passieren. Das ist glatt gelogen. SEO ist beim Relaunch die wichtigste Abteilung überhaupt. Wer das Design über die maschinelle Lesbarkeit stellt, baut im Jahr 2026 keinen modernen Marktplatz, sondern einen unsichtbaren Bauchladen mitten in der Wüste.
-
-Ein Relaunch ist der Moment der Wahrheit. Hier zeigt sich, ob du ein echter Profi bist oder nur ein Glücksritter. Die KIs (ChatGPT, Perplexity & Co.) und die Suchmaschinen-Bots schauen beim Neu-Crawlen ganz genau hin. Wenn deine interne Verlinkung, dein E-E-A-T oder deine `llms.txt` im Eimer sind, versteht die Reasoning Engine deine Entitäten nicht mehr. Der Schaden ist dann oft irreparabel und kostet dich Monate an mühsam aufgebauter Autorität.
-
-## Das ALOHA-Resümee: Relaunch ist kein Projekt, sondern ein Prozess
-
-Ein Relaunch ist niemals ein Projekt für den Freitagnachmittag bei einem Bier. Es ist eine massive strategische Weichenstellung. Wer die Hausaufgaben macht – Technik-Check, sauberer Redirect-Plan, Implementierung der technischen KI-Optimierung –, der wird mit einem massiven Boost in der Sichtbarkeit bei Mensch und Maschine belohnt.
-
-Warte nicht, bis der Traffic-Graph nach unten zeigt, weil dein neues, hippes CMS die KI aussperrt. Sei proaktiv. Mach es von Anfang an verdammt nochmal richtig. Vermeide den Pfusch am Bau.
-
-ALOHA! 🌻✌️
-
----
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Relaunch geplant? Keine Panik!</h3>
-  <p class="mb-6">Lass uns gemeinsam sicherstellen, dass dein Relaunch ein voller Erfolg wird. Ich begleite dich bei der SEO-Migration, sichere deine hart erarbeiteten KI-Rankings und lege den Finger in jede Wunde, bevor sie weh tut. Sicherer Livegang garantiert. Tacheles statt Agentur-Sprech.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Relaunch-Begleitung anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
 
 ### Verwandte Begriffe & Leseempfehlungen
 * [Was ist ein SEO-Audit?](/glossar/seo-audit/)
 * [Technisches SEO verstehen](/glossar/technisches-seo/)
-* [Google Search Console Guide](/glossar/google-search-console/)
-* [Pagespeed optimieren](/glossar/pagespeed/)
-* [Sichtbarkeitsmanagement](/glossar/sichtbarkeitsmanagement/)
+* [Sichtbarkeitsmanagement für KIs](/glossar/sichtbarkeitsmanagement/)
+* [Entity SEO richtig nutzen](/glossar/entity-seo/)

@@ -21,7 +21,6 @@ faqs:
     answer: 'Nein. Citations machen nur noch ca. 6-7% der lokalen Rankingfaktoren aus. Der Fokus liegt auf Trust-Building durch wenige, aber hochgradig autoritäre Verzeichnisse (Google Business, Apple Maps, Bing Places).'
 ---
 
-Moin! 🌻
 
 Lass uns direkt Tacheles reden. Wenn wir heute, im Jahr 2026, über Citations (Zitierungen) sprechen, dann meine ich verdammt nochmal nicht, dass du einem ahnungslosen Freelancer auf Fiverr einen Fünfziger in die Hand drückst, damit er dein Unternehmen in 500 toxische, tote Webkataloge einträgt. Dieser Schwachsinn hat schon vor zehn Jahren nicht funktioniert und ruiniert heute im schlimmsten Fall deine gesamte digitale Trust-Basis.
 
@@ -104,7 +103,20 @@ Eine Erwähnung in einem hoch-autoritativen Fachartikel (eine starke [Brand Ment
 
 KI-Modelle benötigen eine *Ground Truth*, um Halluzinationen zu vermeiden. Wenn 50 starke Quellen übereinstimmend belegen, dass du in Berlin sitzt und SEO machst, übernimmt das LLM diesen Fakt als gesichert. Fehlt diese konsistente Citation-Basis, fällst du durchs Raster.
 
-## Fazit: Dein Action-Plan für das Backend
+### Strukturierte vs. Unstrukturierte Citations
+
+| Citation-Typ | Quelle (Beispiel) | Wert für KI (2026) | Risiko bei Fehlern |
+| :--- | :--- | :--- | :--- |
+| **Strukturiert (Tier-1)** | Google Business, Apple Maps | Extrem hoch (Core Trust) | Fatal (zerstört Entity Graph) |
+| **Strukturiert (Low-Tier)** | Spam-Branchenbücher, Fiverr-Listen | Null bis Negativ | Spam-Penalty Gefahr |
+| **Unstrukturiert** | Presseartikel, Lokal-Blogs, IHK | Sehr hoch (E-E-A-T, Mentions) | Gering |
+
+## Aus der Praxis: Meine persönliche Erfahrung
+
+In über 24 Jahren als SEO habe ich schon viele Hypes kommen und gehen sehen. Früher haben wir automatisiert tausende Branchenbucheinträge generiert, um Google Maps zu dominieren. Bei einem Anwalts-Kunden hatten wir kürzlich genau diesen Legacy-Müll aufzuräumen. Die Kanzlei war auf dutzenden veralteten Portalen mit einer alten Telefonnummer gelistet. 
+Moderne LLMs wie ChatGPT griffen in Tests immer wieder auf diese alten Daten zurück (Entity-Split). Erst als wir radikal alle Low-Tier Profile löschten, die Tier-1 Profile bereinigten und das JSON-LD Schema auf der Website perfekt mit dem Google Business Profile (sameAs) synchronisierten, stabilisierten sich die KI-Antworten. Die Lektion: Weniger, aber absolut korrekte Datenpunkte sind heute zehntausendmal mehr wert als Masse.
+
+## Zusammenfassung: Dein Action-Plan für das Backend
 
 Vergiss Masse, fokussiere dich auf Daten-Integrität:
 
@@ -114,20 +126,16 @@ Vergiss Masse, fokussiere dich auf Daten-Integrität:
 
 Wir bauen hier Architektur für KIs, nicht für Menschen. Räum dein Fundament auf, oder bleib ein unbestätigter Geist in der Vektor-Matrix.
 
-ALOHA! 🌻 
-
 ---
 
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Zersplittert deine digitale Identität?</h3>
-  <p class="mb-6">Wenn dein Entitäten-Graph aussieht wie ein Trümmerfeld aus alten Adressen und toten Links, finden dich weder klassische Algorithmen noch moderne LLMs. Ich räume dein technisches Fundament auf und konsolidiere deine Citations auf höchstem Niveau.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-Audit anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
 
 * [Was sind Mentions?](/glossar/mention/)
 * [Markenaufbau mit SEO für Entitäten](/glossar/markenaufbau-mit-seo/)
-* [Die Rolle von E-E-A-T](/glossar/e-e-a-t/)div>
-
-* [Was sind Mentions?](/glossar/mention/)
-* [Markenaufbau mit SEO für Entitäten](/glossar/markenaufbau-mit-seo/)
+* [Die Rolle von E-E-A-T](/glossar/trustworthiness-eeat/)
 

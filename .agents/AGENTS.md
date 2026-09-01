@@ -19,9 +19,10 @@
   - Diese Regel verhindert die Entstehung von Orphan Pages und sichert eine tiefe Crawlability.
   - **STRIKTE EXISTENZ-PRÜFUNG:** Es darf ZWINGEND NUR auf interne URLs verlinkt werden, deren Zieldatei/Route tatsächlich im Projekt existiert. Erfundene Links auf nicht-existierende Pfade sind strengstens untersagt!
 
-- **SE Ranking Daten-Abfrage (Standard & Backup):**
+- **SE Ranking Daten-Abfrage & MCP Konfiguration:**
   - **Standardweg (MCP):** Alle Datenabfragen zu SE Ranking (Keywords, Backlinks, Audits, Competitors, AI Search etc.) müssen ZWINGEND primär über die nativen MCP-Tools (`se-ranking/...`) ausgeführt werden.
-  - **Backupweg (REST-API):** Die Skripte `scripts/se_ranking_fetch.py` und `scripts/se_ranking_teleschmie.py` im Projektordner dienen ausschließlich als Fallback, falls der MCP-Server temporär unerreichbar ist.
+  - **[LOCKED] MCP Konfiguration:** Der SE Ranking MCP-Server ist **global** in `~/.gemini/config/mcp_config.json` verankert (mit fixem Auth-Token im Environment), damit er in *allen* Projekten sofort ohne erneute Autorisierung zur Verfügung steht. Lokale Workspace-Plugins für SE Ranking sind nicht nötig.
+  - **Backupweg (REST-API):** Fallback-Skripte für die REST-API werden nur noch auf expliziten Wunsch neu generiert (alte Skripte wurden archiviert/gelöscht).
 
 - **Terminal & Sandbox Ausführung (Bypass Sandbox):**
   - Führe alle Terminal-Kommandos (`run_command`) STRIKT im sicheren Sandbox-Modus aus (`BypassSandbox: false`), wann immer es möglich ist.

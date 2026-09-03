@@ -43,13 +43,31 @@ function loadBlog() {
     
     if (titleMatch) {
       const catMatch = content.match(/category:\s*['"](.*?)['"]/);
+      const cleanTitle = titleMatch[1].replace(/[:"]/g, '').trim();
       posts.push({
-        title: titleMatch[1].replace(/[:"]/g, ''), // Clean title for matching
+        title: cleanTitle,
         description: descMatch ? descMatch[1] : '',
         slug: slug,
         type: 'blog',
         category: catMatch ? catMatch[1] : 'Blog'
       });
+
+      // Auch prägnante Untertitel / Phrasen vor oder nach Doppelpunkt aufnehmen (mind. 10 Zeichen)
+      if (titleMatch[1].includes(':')) {
+        const parts = titleMatch[1].split(':');
+        for (const p of parts) {
+          const trimmed = p.replace(/["]/g, '').trim();
+          if (trimmed.length >= 10 && trimmed.length < cleanTitle.length) {
+            posts.push({
+              title: trimmed,
+              description: descMatch ? descMatch[1] : '',
+              slug: slug,
+              type: 'blog',
+              category: catMatch ? catMatch[1] : 'Blog'
+            });
+          }
+        }
+      }
     }
   }
   return posts;
@@ -136,8 +154,8 @@ function linkHtml(filePath, allTerms, ringTerms) {
   const linkedTerms = new Set(); // Link each term only ONCE per page for better UX
 
   content = content.replace(unifiedRegex, (match, p1, offset) => {
-    // Limit in-text links to maximum 5 per page
-    if (matchesCount >= 5) return match;
+    // Limit in-text links to maximum 7 per page
+    if (matchesCount >= 7) return match;
 
     const term = glossaryMap.get(match.toLowerCase());
     if (!term || linkedTerms.has(term.slug)) return match;
@@ -179,12 +197,17 @@ function linkHtml(filePath, allTerms, ringTerms) {
         <ul class="space-y-2">
     `;
     
-    // Pick 5 highly relevant items (next in category-sorted ring)
-    for (let i = 1; i <= 5; i++) {
-      const nextIndex = (currentIndex + i) % ringTerms.length;
+    // Pick 7 distinct, highly relevant items (next in category-sorted ring)
+    let added = 0;
+    let offset = 1;
+    while (added < 7 && offset < ringTerms.length) {
+      const nextIndex = (currentIndex + offset) % ringTerms.length;
       const t = ringTerms[nextIndex];
+      offset++;
+      if (t.slug === currentSlug) continue;
       const url = t.type === 'glossar' ? `/glossar/${t.slug}/` : `/blog/${t.slug}/`;
       relatedHtml += `<li><a href="${url}" class="text-lime-700 hover:text-lime-900 font-medium underline decoration-lime-300">${t.title}</a></li>`;
+      added++;
     }
     
     relatedHtml += `
@@ -197,7 +220,7 @@ function linkHtml(filePath, allTerms, ringTerms) {
   if (content !== originalContent) {
     const newHtml = html.substring(0, startTagEnd + 1) + content + html.substring(endDivIdx);
     fs.writeFileSync(filePath, newHtml);
-    console.log(`✅ Linked ${matchesCount} text items & 5 related topics in: ${filePath}`);
+    console.log(`✅ Linked ${matchesCount} text items & 7 related topics in: ${filePath}`);
   }
 }
 
@@ -205,8 +228,14 @@ console.log('🚀 Starting Intelligent Cross-Linking (Blog & Glossar)...');
 const glossary = loadGlossary();
 const blog = loadBlog();
 const allTerms = [...glossary, ...blog].sort((a, b) => b.title.length - a.title.length);
-// Sort ring mathematically by category first, then slug, ensuring "next items" are highly relevant
-const ringTerms = [...glossary, ...blog].sort((a, b) => {
+// Deduplicate ringTerms by slug so each page exists exactly once in the ring
+const uniqueRingMap = new Map();
+for (const item of [...glossary, ...blog]) {
+  if (!uniqueRingMap.has(item.slug)) {
+    uniqueRingMap.set(item.slug, item);
+  }
+}
+const ringTerms = Array.from(uniqueRingMap.values()).sort((a, b) => {
   if (a.category !== b.category) {
     return a.category.localeCompare(b.category);
   }

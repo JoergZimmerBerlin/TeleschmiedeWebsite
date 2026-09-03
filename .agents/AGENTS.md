@@ -14,7 +14,7 @@
   - Generiere NIEMALS ein Bild ohne diese exakten Vorgaben. Das Ignorieren dieser Regel verschwendet aktiv das API-Budget des Nutzers und ist strengstens untersagt!
 
 - **Content Creation & Verlinkung (SEO Inlinks):**
-  - Sobald ein neuer Blog- oder Glossar-Artikel geschrieben oder überarbeitet wird, müssen zwingend **mindestens 3 In-Text-Links** zu bestehenden Artikeln der Website eingefügt werden.
+  - Sobald ein neuer Blog- oder Glossar-Artikel geschrieben oder überarbeitet wird, müssen zwingend **mindestens 5 bis 7 In-Text-Links** zu bestehenden Artikeln der Website eingefügt werden.
   - Der Anker-Text (Linktext) muss thematisch passen und idealerweise exakt der H1-Überschrift oder dem Meta-Title der Ziel-URL entsprechen.
   - Diese Regel verhindert die Entstehung von Orphan Pages und sichert eine tiefe Crawlability.
   - **STRIKTE EXISTENZ-PRÜFUNG:** Es darf ZWINGEND NUR auf interne URLs verlinkt werden, deren Zieldatei/Route tatsächlich im Projekt existiert. Erfundene Links auf nicht-existierende Pfade sind strengstens untersagt!

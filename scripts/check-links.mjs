@@ -125,9 +125,9 @@ function checkLinks() {
     console.log('✅ Keine 404-Fehler: Alle verlinkten Seiten existieren!');
   }
   
-  // Check for the 3-links rule for Content pages (Blog and Glossar)
+  // Check for the 7-links rule for Content pages (Blog and Glossar)
   let underlinkedCount = 0;
-  console.log('\n🔍 Checking "Minimum 3 Internal Links" rule for Blog & Glossar...');
+  console.log('\n🔍 Checking "Minimum 7 Internal Links" rule for Blog & Glossar...');
   
   for (const [targetFile, sources] of incomingLinks.entries()) {
     const isContentPage = targetFile.includes('/blog/') || targetFile.includes('/glossar/');
@@ -140,10 +140,10 @@ function checkLinks() {
           continue; // Skip redirect pages
       }
 
-      if (sources.size < 3) {
+      if (sources.size < 7) {
         hasErrors = true;
         underlinkedCount++;
-        console.log(`  ⚠️ Zu wenig interne Links (${sources.size}/3): ${targetFile}`);
+        console.log(`  ⚠️ Zu wenig interne Links (${sources.size}/7): ${targetFile}`);
         
         // Print the sources for debugging
         const sourceList = Array.from(sources).join(', ');
@@ -153,9 +153,9 @@ function checkLinks() {
   }
   
   if (underlinkedCount > 0) {
-    console.error(`\n❌ ${underlinkedCount} Seiten haben weniger als 3 eingehende Links!`);
+    console.error(`\n❌ ${underlinkedCount} Seiten haben weniger als 7 eingehende Links!`);
   } else {
-    console.log('✅ Alle Blog- und Glossarseiten sind mindestens 3x intern verlinkt!');
+    console.log('✅ Alle Blog- und Glossarseiten sind mindestens 7x intern verlinkt!');
   }
 
   if (hasErrors) {

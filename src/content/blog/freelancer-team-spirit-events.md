@@ -34,6 +34,8 @@ Der Spirit der Selbstständigkeit ist einzigartig.
 
 Jeder [Freelancer](/glossar/freelancing/) kämpft an seiner eigenen Front. Doch wenn sich diese Energie bündelt, entsteht etwas Gewaltiges. Genau das passiert im Freelancer Team. 
 
+![Das Freelancer Team in lila T-Shirts beim Überstunde Afterwork Event in Berlin](../../assets/images/blog/freelancer-team-spirit-original.webp)
+
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Sebastian Thönnes (LinkedIn Insights/Kommentar)</p>
   <div class="italic text-dark mb-0"><p>Was ich an der zusammenarbeit mit anderen Freelancern besonders mag, ist die neue Sichtweise, die in die Projekte gebracht wird und das Vertrauen was ich in der Zusammenarbeit entgegen bringe (wenn unsere Zusammenarbeit bereits gefestigt ist). Du weißt einfach: das läuft!</p></div>

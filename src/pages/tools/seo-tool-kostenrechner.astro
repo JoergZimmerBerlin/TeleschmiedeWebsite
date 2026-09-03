@@ -1,0 +1,575 @@
+---
+import { Image, getImage } from 'astro:assets';
+import Layout from '../../layouts/Layout.astro';
+import Schema from '../../components/Schema.astro';
+import SEOToolCostCalculator from '../../components/SEOToolCostCalculator.astro';
+import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
+import heroImage from '../../assets/images/blog/se-ranking-core-vs-growth.webp';
+import { getGitModDate } from '../../utils/git-date';
+
+const lastReviewed = getGitModDate('src/pages/tools/seo-tool-kostenrechner.astro') || '2026-09-03';
+const optimizedOgImage = await getImage({ src: heroImage, format: 'webp', width: 1200, height: 630 });
+
+const pageTitle = "SEO-Tool Kostenrechner: Top 8 Tools im Vergleich (2026)";
+const pageDescription = "Interaktiver Kosten- & Ersparnis-Rechner für Agenturen & SEO-Manager: Vergleiche SE Ranking, Sistrix, Semrush & Co. Berechne deine Ersparnis ohne versteckte Seat-Kosten.";
+
+// Structured FAQ Data for Schema.org
+const faqItems = [
+  {
+    question: "Welches SE Ranking Paket eignet sich am besten für SEO-Agenturen?",
+    answer: "Für Agenturen und wachsende Marketing-Teams ist das 'Growth'-Paket (188 €/Monat bei jährlicher Zahlung) der ideale Sweet Spot. Es enthält bereits 3 Manager-Plätze, 30 Kundenprojekte, 5.000 täglich getrackte Keywords in den vollen Top 100, 2 Millionen Seiten Crawl-Volumen pro Monat, unbegrenzte passwortfreie Guest-Links für Kunden sowie 100.000 API-Credits und den offiziellen MCP-Server-Zugriff."
+  },
+  {
+    question: "Wie funktioniert der kostenlose Migrationsservice von SE Ranking?",
+    answer: "Beim Abschluss eines beliebigen Jahresabonnements bietet SE Ranking einen kostenlosen Concierge-Umzugsservice an. Ein dedizierter Support-Spezialist übernimmt den Export und verlustfreien Re-Import deiner bestehenden Keyword-Listen, Ranking-Historien, Tags und Projekt-Setups aus Tools wie Sistrix, Semrush oder Ahrefs."
+  },
+  {
+    question: "Warum werden Tools wie Semrush und Ahrefs bei Agenturen so schnell teuer?",
+    answer: "Weil die Standard-Tarife (Semrush Pro/Guru oder Ahrefs Lite/Standard) jeweils nur genau EINEN einzigen Nutzer-Account enthalten. Jeder zusätzliche Mitarbeiter schlägt bei Semrush Guru mit saftigen 80 $/Monat und bei Ahrefs Standard mit 60 $/Monat zu Buche. Ein 4-köpfiges Team zahlt bei Semrush Guru somit allein für zusätzliche Zugänge über 2.800 $ extra pro Jahr."
+  },
+  {
+    question: "Was unterscheidet die Guest-Links von SE Ranking von normalen Nutzer-Accounts?",
+    answer: "Guest-Links (Gast-Zugänge) sind interaktive, passwortfreie Live-Links für Kunden. Deine Kunden können damit das Ranking-Dashboard und Berichte im Browser in Echtzeit einsehen, ohne sich einloggen zu müssen und ohne dass sie versehentlich Projekt-Einstellungen verändern können. Im Growth-Paket sind diese Links unbegrenzt und ohne zusätzliche Seat-Gebühren enthalten."
+  },
+  {
+    question: "Wie binde ich den SE Ranking MCP-Server an Claude Code oder Claude Desktop an?",
+    answer: "Anthropic's Model Context Protocol (MCP) wird von SE Ranking nativ unterstützt. Über die offizielle Schnittstellen-URL https://api.seranking.com/mcp und deinen API-Schlüssel kannst du Claude Desktop oder Claude Code direkt mit Live-Ranking-Daten, Domain-Audits und Wettbewerbs-Analysen füttern – ganz ohne manuelle CSV-Exporte."
+  },
+  {
+    question: "Wie erhalte ich den exklusiven 15 % Rabattcode für Neukunden?",
+    answer: "Für Leser von teleschmie.de habe ich direkt mit dem SE Ranking Team einen exklusiven 15 % Rabattcode auf alle Jahres- und Monatspakete ausgehandelt. Um diesen vor automatisierten Gutschein-Bots zu schützen, vergebe ich ihn persönlich: Schreib mich einfach kurz auf LinkedIn an – ich schicke dir den Gutscheincode direkt durch."
+  }
+];
+
+const webAppSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "SEO-Tool Kostenrechner 2026",
+  "url": "https://teleschmie.de/tools/seo-tool-kostenrechner/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires JavaScript. Requires HTML5.",
+  "description": pageDescription,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Jörg Zimmer",
+    "url": "https://teleschmie.de/ueber-mich/"
+  }
+};
+---
+
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+  ogImage={optimizedOgImage.src}
+  maxTitleLength={70}
+>
+  <Schema item={webAppSchema} />
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="bg-gray-100 py-3 border-b border-gray-200 text-sm" aria-label="Breadcrumb">
+    <div class="container mx-auto px-4 max-w-5xl flex items-center gap-2 text-gray-600">
+      <a href="https://teleschmie.de/" class="hover:text-dark transition-colors">Home</a>
+      <span>/</span>
+      <span class="text-gray-400">Tools</span>
+      <span>/</span>
+      <span class="text-dark font-medium">SEO-Tool Kostenrechner</span>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <section class="pt-12 pb-6 bg-gradient-to-b from-gray-50 to-white">
+    <div class="container mx-auto px-4 max-w-5xl text-center">
+      <!-- Verified Date Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-lime-accent/20 border border-lime-500/30 text-xs md:text-sm font-bold text-dark mb-6 shadow-sm">
+        <span>📅 Stand: 3. September 2026</span>
+        <span class="text-lime-700">•</span>
+        <span>Redaktionell doppelt geprüft & verifiziert</span>
+      </div>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-dark font-headings tracking-tight leading-tight mb-6">
+        SEO-Tool Kostenrechner 2026:<br />
+        <span class="text-lime-600">Schluss mit der Seat-Falle im Team</span>
+      </h1>
+
+      <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-4">
+        Viele SEO-Suiten locken mit scheinbar bezahlbaren Einstiegstarifen. Doch sobald eine Agentur oder ein Marketing-Team wächst, schlagen <strong>Zusatznutzer-Gebühren von bis zu 80 $/Monat pro Sitz</strong> und künstliche Keyword-Caps gnadenlos zu Buche.
+      </p>
+
+      <p class="text-sm md:text-base text-gray-500 max-w-2xl mx-auto">
+        Mit diesem interaktiven Rechner ermittelst du auf Basis echter Datenpunkte (Stand September 2026), was dein Setup bei den 8 führenden Tools in Deutschland wirklich kostet – und wie viel Budget du mit <a href="https://seranking.com/de/?ga=4169588&source=kostenrechner" target="_blank" rel="noopener noreferrer" class="font-bold text-dark underline hover:text-lime-600">SE Ranking</a> jedes Jahr sparst.
+      </p>
+    </div>
+  </section>
+
+  <!-- THE INTERACTIVE CALCULATOR (ABOVE THE FOLD) -->
+  <section class="pb-12 bg-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <SEOToolCostCalculator />
+    </div>
+  </section>
+
+  <!-- DEEP-DIVE: DIE KLAPPMAPPE (8 TOOLS IM DETAIL) -->
+  <section class="py-12 bg-gray-50 border-t border-gray-200">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold font-headings text-dark mb-4">
+          Die große Klappmappe: Alle 8 Tools im Detail-Check
+        </h2>
+        <p class="text-gray-600 text-lg max-w-3xl mx-auto">
+          Klicke auf ein Tool, um das vollständige Datenblatt mit offiziellen Tarifen 2026, versteckten Kostenfallen und dem direkten Duell gegen SE Ranking aufzuklappen.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <!-- 1. SE Ranking -->
+        <details class="group bg-white border-2 border-lime-500/40 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg" open>
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none bg-gradient-to-r from-lime-50/50 to-white">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-dark text-lime-accent flex items-center justify-center font-bold text-lg">1</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">SE Ranking – Der All-in-One Benchmark & Preis-Leistungs-Sieger</h3>
+                <p class="text-sm text-lime-700 font-semibold">Growth-Tarif ab 188 €/Monat • 3 Manager-Plätze inklusive • Volle Top 100 Tiefe</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Einstieg (Core):</strong> 87,20 €/Mo (jährl.) / 109 € mtl.</div>
+              <div><strong>Agentur-Tarif (Growth):</strong> 188,00 €/Mo (jährl.) / 235 € mtl.</div>
+              <div><strong>Zusatz-Seats:</strong> ab 16 $ (~15 €) / Monat</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Warum SE Ranking für Teams gewinnt:</h4>
+            <p>
+              SE Ranking bietet im <strong>Growth-Tarif</strong> das unschlagbarste Gesamtpaket für Agenturen und Inhouse-SEOs im D-A-CH-Raum: 5.000 täglich überprüfte Keywords (ohne künstliche Kappung bei Platz 20 oder 50, sondern die vollen <strong>Top 100</strong>), 2 Millionen Seiten Website-Audit pro Monat und unbegrenzte Kunden-Gastlinks (Guest-Links).
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+              <div class="bg-green-50 p-4 rounded-xl border border-green-200">
+                <p class="font-bold text-green-900 mb-1">✅ Die großen Stärken:</p>
+                <ul class="text-sm text-green-800 space-y-1 list-disc list-inside">
+                  <li>3 vollwertige Team-Plätze im Growth-Tarif bereits inklusive</li>
+                  <li>Unbegrenzte, passwortfreie Kunden-Gastlinks</li>
+                  <li>Nativer Looker Studio Connector & White-Label PDF-Reports</li>
+                  <li>Offizieller <strong>MCP-Server</strong> (Claude Code / Desktop) & ChatGPT App</li>
+                  <li>Kostenloser Datenumzugsservice bei Jahresabos</li>
+                </ul>
+              </div>
+              <div class="bg-blue-50 p-4 rounded-xl border border-blue-200">
+                <p class="font-bold text-blue-900 mb-1">🔍 Jörgs Praxiserfahrung:</p>
+                <p class="text-sm text-blue-800">
+                  „Ich nutze SE Ranking als mein tägliches Haupt-Werkzeug. Allein der Wegfall von teuren Drittanbieter-Connectors für Looker Studio und die Möglichkeit, per API für 59 Cent drei komplette Audits zu ziehen, spart meiner Agentur vierstellige Beträge pro Jahr.“
+                </p>
+              </div>
+            </div>
+            <div class="pt-2">
+              <a href="https://seranking.com/de/?ga=4169588&source=kostenrechner" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-dark text-lime-accent font-bold py-2.5 px-6 rounded-xl hover:bg-black transition-colors text-sm">
+                <span>SE Ranking 14 Tage unverbindlich testen</span> ➔
+              </a>
+            </div>
+          </div>
+        </details>
+
+        <!-- 2. SISTRIX -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">2</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">SISTRIX – Der Bonner Vorstands-Standard</h3>
+                <p class="text-sm text-gray-500">START ab 119 € • Plus 239 € • Professional 419 € • Premium 799 € pro Monat</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>START:</strong> 119 €/Mo (1 Profil, stark limitiert)</div>
+              <div><strong>Plus:</strong> 239 €/Mo (bis 3 Profile)</div>
+              <div><strong>Professional:</strong> 419 €/Mo (bis 6 Profile, API)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Stärken vs. Schwächen im Agentur-Alltag:</h4>
+            <p>
+              Der Sistrix-Sichtbarkeitsindex ist in deutschen Konzernetagen und Vorständen eine anerkannte Währung. Wenn ein Kunde explizit diesen Graphen verlangt, kommt man an Sistrix kaum vorbei. 
+            </p>
+            <p>
+              <strong>Der Haken:</strong> Für echte Agenturarbeit (mehr als 3 Monate Historie, API-Zugriff, Content-Tools) reicht das START-Paket für 119 € hinten und vorne nicht aus. Agenturen müssen zwingend auf <strong>Professional (419 €/Monat = 5.028 €/Jahr)</strong> upgraden. Zudem verlangt Sistrix für jeden Nutzer ein namentlich verifiziertes Firmenprofil – passwortfreie Kunden-Links ohne extra Login gibt es nicht.
+            </p>
+            <div class="p-4 bg-amber-50 rounded-xl border border-amber-200 text-sm text-amber-900">
+              <strong>Ersparnis beim Wechsel zu SE Ranking Growth:</strong> Satte <strong>2.772 € pro Jahr</strong> bei vergleichbarer Datenqualität und deutlich moderneren KI-Schnittstellen.
+            </div>
+          </div>
+        </details>
+
+        <!-- 3. Semrush -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">3</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">Semrush – Der internationale Gigant mit teurer Seat-Falle</h3>
+                <p class="text-sm text-gray-500">Pro 139,95 $ • Guru 249,95 $ • Business 499,95 $ • Zusatznutzer bis zu 100 $/Monat</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Pro:</strong> 139,95 $/Mo (1 Nutzer, +45 $/Sitz)</div>
+              <div><strong>Guru:</strong> 249,95 $/Mo (1 Nutzer, +80 $/Sitz)</div>
+              <div><strong>Business:</strong> 499,95 $/Mo (1 Nutzer, +100 $/Sitz)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Die Kostenfalle bei wachsenden Teams:</h4>
+            <p>
+              Semrush punktet mit einer gigantischen Feature-Vielfalt (SEO, SEA, Social, PR). Doch das Preismodell bestraft Teamarbeit drakonisch: <strong>In allen Tarifen ist immer nur genau EIN einziger Nutzer inklusive!</strong>
+            </p>
+            <p>
+              Willst du deinen Mitarbeitern im beliebten Guru-Tarif eigene Zugänge geben, kostet jeder zusätzliche Platz <strong>80 $/Monat extra</strong>. Bei 4 Teammitgliedern explodieren die Kosten von 249,95 $ auf <strong>489,95 $/Monat (~5.880 $/Jahr)</strong>. Dazu kommen enge Projektlimits: Guru deckt nur 15 Projekte und 1.500 Keywords ab. Wer 25 Kunden betreut, muss in den Business-Tarif für 499,95 $/Monat flüchten.
+            </p>
+            <div class="p-4 bg-amber-50 rounded-xl border border-amber-200 text-sm text-amber-900">
+              <strong>Ersparnis beim Wechsel zu SE Ranking Growth:</strong> Mindestens <strong>2.264 € bis über 3.600 € pro Jahr</strong>, da bei SE Ranking 3 Sitze und 30 Projekte direkt inklusive sind.
+            </div>
+          </div>
+        </details>
+
+        <!-- 4. Ahrefs -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">4</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">Ahrefs – Der Backlink-König mit gefürchtetem Credits-System</h3>
+                <p class="text-sm text-gray-500">Lite 129 $ • Standard 249 $ • Advanced 449 $ • Kein kostenloser Test</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Lite:</strong> 129 $/Mo (1 Nutzer, +40 $/Sitz)</div>
+              <div><strong>Standard:</strong> 249 $/Mo (1 Nutzer, +60 $/Sitz)</div>
+              <div><strong>Advanced:</strong> 449 $/Mo (1 Nutzer, +80 $/Sitz)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Warum viele SEOs mit Ahrefs hadern:</h4>
+            <p>
+              Der Site Explorer von Ahrefs ist für die Offpage- und Backlink-Analyse legendär. Doch das 2022 eingeführte und bis heute beibehaltene <strong>Credits-System</strong> frustriert viele Nutzer: Nahezu jeder Klick, jeder Filterwechsel und jeder Report frisst Kontingente auf.
+            </p>
+            <p>
+              Auch hier gilt: Nur 1 Nutzer inklusive. Zusatznutzer kosten im Standard-Plan 60 $/Monat extra. Zudem gibt es <strong>keine kostenlose Testphase</strong> – wer reinschauen will, muss direkt zahlen.
+            </p>
+            <div class="p-4 bg-amber-50 rounded-xl border border-amber-200 text-sm text-amber-900">
+              <strong>SE Ranking Vorteil:</strong> Planbare Kosten ohne Credit-Angst bei jedem Klick, 14 Tage kostenlos testen ohne Kreditkarte und ein vollwertiger Backlink-Monitor mit Toxic-Score inklusive.
+            </div>
+          </div>
+        </details>
+
+        <!-- 5. Seobility -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">5</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">Seobility – Der Nürnberger Liebling für KMU & Einsteiger</h3>
+                <p class="text-sm text-gray-500">Basis 0 € • Premium 49,90 € • Agency 179,90 € pro Monat</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Basis:</strong> 0 € (1 Projekt, 10 Keywords)</div>
+              <div><strong>Premium:</strong> 49,90 €/Mo (3 Projekte, 300 KW)</div>
+              <div><strong>Agency:</strong> 179,90 €/Mo (15 Projekte, 1.500 KW)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Solide Onpage-Basis mit klarem Limit:</h4>
+            <p>
+              Seobility ist ein sympathisches, in Deutschland entwickeltes Werkzeug mit hervorragendem deutschsprachigen Support und starkem Onpage-Crawler. Für Solopreneure und kleinere Websites ist das Premium-Paket für 49,90 € eine Empfehlung wert.
+            </p>
+            <p>
+              <strong>Der Haken für Agenturen:</strong> Der Agency-Tarif ist auf <strong>15 Projekte und 1.500 Keywords</strong> gedeckelt. Sobald du als Agentur wächst, 25 Kunden betreust oder tiefe Keyword-Cluster tracken willst, ist das Kontingent rasch erschöpft. Zudem fehlen moderne Entwickler-Schnittstellen (wie ein MCP-Server für KI-Agenten).
+            </p>
+            <div class="p-4 bg-gray-100 rounded-xl text-sm text-gray-800">
+              <strong>SE Ranking Vergleich:</strong> Für nur ca. 8 € Aufpreis pro Monat bietet SE Ranking Growth mehr als das <strong>Dreifache an Keywords (5.000 vs. 1.500)</strong>, doppelt so viele Projekte (30 vs. 15) und 20-faches Crawl-Volumen (2 Mio. vs. 100.000 Seiten).
+            </div>
+          </div>
+        </details>
+
+        <!-- 6. XOVI -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">6</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">XOVI – Das Kölner All-in-One Urgestein</h3>
+                <p class="text-sm text-gray-500">Pro 99 € • Business 149 € • Enterprise 499 € pro Monat</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Pro:</strong> 99,00 €/Mo (1 Vollzugriff)</div>
+              <div><strong>Business:</strong> 149,00 €/Mo (3 Voll- + 3 Lese-Zugänge)</div>
+              <div><strong>Enterprise:</strong> 499,00 €/Mo (10 Voll- + 30 Lese-Zugänge)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Transparente Pauschalpreise, aber technologischer Stillstand:</h4>
+            <p>
+              XOVI war vor 10–15 Jahren der Standard in zahllosen deutschen Agenturen. Das Preismodell ist transparent: Es gibt keine versteckten Modul-Aufschläge, und der Business-Tarif für 149 € bringt direkt Multi-User-Möglichkeiten mit.
+            </p>
+            <p>
+              <strong>Der Haken:</strong> Keyword-Abfragen sind auf ein <strong>wöchentliches Kontingent</strong> limitiert (3.500 Anfragen/Woche im Business-Tarif) statt täglicher Live-Abfragen. Technologisch hat das Tool den Anschluss an die KI- und Automatisierungs-Revolution (MCP-Protokoll, Claude Code, Vibe Coding) weitgehend verpasst.
+            </p>
+          </div>
+        </details>
+
+        <!-- 7. Mangools -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">7</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">Mangools (KWFinder) – Der schlanke Keyword- & SERP-Stack</h3>
+                <p class="text-sm text-gray-500">Entry 29 $ • Basic 49 $ • Premium 69 $ • Agency 129 $ pro Monat</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Basic:</strong> ~29,90 $/Mo (jährl.) (1 Nutzer, 200 KW)</div>
+              <div><strong>Premium:</strong> ~44,90 $/Mo (jährl.) (3 Nutzer, 700 KW)</div>
+              <div><strong>Agency:</strong> ~89,90 $/Mo (jährl.) (5 Nutzer, 1.500 KW)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Schicke Benutzeroberfläche, aber begrenzte Tiefe:</h4>
+            <p>
+              Mangools überzeugt durch ein extrem intuitives, farbenfrohes Design. KWFinder und SERPWatcher machen Spaß und liefern für Content-Ideen schnelle Ergebnisse. Der Agency-Tarif bietet bereits 5 Nutzerplätze.
+            </p>
+            <p>
+              <strong>Der Haken:</strong> Alle Limits (z. B. 1.500 getrackte Keywords) werden über das gesamte Team geteilt. Für tiefgehendes technisches SEO, 200k-Seiten-Audits oder professionelle Kunden-Gastzugänge fehlt dem Stack das Fundament einer Enterprise-Suite.
+            </p>
+          </div>
+        </details>
+
+        <!-- 8. Ubersuggest -->
+        <details class="group bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm transition-all open:shadow-lg">
+          <summary class="flex items-center justify-between p-6 cursor-pointer list-none hover:bg-gray-50">
+            <div class="flex items-center gap-4">
+              <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">8</span>
+              <div>
+                <h3 class="text-xl font-bold text-dark">Ubersuggest – Der bekannte Budget-Einstieg für Marketing-Manager</h3>
+                <p class="text-sm text-gray-500">Individual ab 12–29 € • Business ab 20–49 € • Enterprise ab 40–99 € pro Monat</p>
+              </div>
+            </div>
+            <span class="transform transition-transform duration-200 group-open:rotate-180 text-dark font-bold text-xl">▼</span>
+          </summary>
+          <div class="p-6 md:p-8 pt-2 border-t border-gray-100 text-gray-700 space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
+              <div><strong>Individual:</strong> 12–29 €/Mo (1 Projekt)</div>
+              <div><strong>Business:</strong> 20–49 €/Mo (bis 7 Projekte)</div>
+              <div><strong>Enterprise:</strong> 40–99 €/Mo (mehrere Projekte & Nutzer)</div>
+            </div>
+            <h4 class="font-bold text-dark text-base">Warum günstig bei Mandantenprojekten teuer wird:</h4>
+            <p>
+              Dank Neil Patels Marketing-Präsenz ist Ubersuggest fast jedem Marketing-Manager ein Begriff. Die Lifetime-Optionen und niedrigen Einstiegspreise wirken verlockend.
+            </p>
+            <p>
+              <strong>Der Haken:</strong> Für professionelle Agenturen und anspruchsvolle SEO-Manager sind die Daten oft zu ungenau und stark limitiert (teilweise nur 300 Keywords pro Projekt). Der Crawler ist langsam, historische Daten fehlen weitgehend und komplexe Mandanten-Setups lassen sich nicht abbilden. Wer von Ubersuggest zu SE Ranking wechselt, merkt sofort den qualitativen Unterschied zwischen einem „Einsteiger-Tool“ und einer echten All-in-One Plattform.
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENTUR-SCHMERZPUNKTE & WIE SE RANKING SIE LÖST -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <div class="text-center mb-14">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold font-headings text-dark mb-4">
+          Die 4 großen Agentur-Schmerzpunkte:<br />
+          <span class="text-lime-600">Warum der Tool-Wechsel heute kinderleicht ist</span>
+        </h2>
+        <p class="text-gray-600 text-lg max-w-3xl mx-auto">
+          Die Angst vor Datenverlust oder wochenlanger Einarbeitung hält viele Teams in überteuerten Altverträgen gefangen. So löst SE Ranking diese Hürden in der Praxis auf:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Schmerzpunkt 1: Migration -->
+        <div class="p-8 rounded-3xl bg-gray-50 border border-gray-200/80 hover:border-lime-500/40 transition-all hover:shadow-md">
+          <div class="w-12 h-12 rounded-2xl bg-dark text-lime-accent flex items-center justify-center font-bold text-2xl mb-6">
+            1
+          </div>
+          <h3 class="text-2xl font-bold text-dark mb-3">
+            Schmerzpunkt 1: „Wir verlieren unsere Ranking-Historie!“
+          </h3>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Niemand will 5 Jahre historische Tracking-Daten aus Sistrix oder Semrush wegwerfen. Die Angst vor dem „blinden Fleck“ nach dem Umzug ist real.
+          </p>
+          <div class="p-4 bg-white rounded-2xl border border-gray-200 text-sm text-gray-800">
+            <strong class="text-lime-700 block mb-1">✅ Die SE Ranking Lösung:</strong>
+            Bei Abschluss eines Jahresabos übernimmt das Support-Team den <strong>kompletten Datenumzug kostenlos</strong>. Keyword-Listen, historische Rankings, Tags und Projektstrukturen werden verlustfrei per CSV/API migriert.
+          </div>
+        </div>
+
+        <!-- Schmerzpunkt 2: Onboarding & Team -->
+        <div class="p-8 rounded-3xl bg-gray-50 border border-gray-200/80 hover:border-lime-500/40 transition-all hover:shadow-md">
+          <div class="w-12 h-12 rounded-2xl bg-dark text-lime-accent flex items-center justify-center font-bold text-2xl mb-6">
+            2
+          </div>
+          <h3 class="text-2xl font-bold text-dark mb-3">
+            Schmerzpunkt 2: „Mitarbeiter müssen sich neu einarbeiten“
+          </h3>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Komplexe Dashboards führen zu Frust. Wenn Mitarbeiter 20 Klicks brauchen, um eine URL zu analysieren, sinkt die Akzeptanz im Team sofort.
+          </p>
+          <div class="p-4 bg-white rounded-2xl border border-gray-200 text-sm text-gray-800">
+            <strong class="text-lime-700 block mb-1">✅ Die SE Ranking Lösung:</strong>
+            Aufgeräumte, blitzschnelle Oberfläche auf Deutsch. Genial für Kunden: Über <strong>passwortfreie Guest-Links</strong> sehen Kunden ihr Dashboard live im Browser – ohne Login-Chaos und ohne Gefahr, Einstellungen zu verändern.
+          </div>
+        </div>
+
+        <!-- Schmerzpunkt 3: Reporting -->
+        <div class="p-8 rounded-3xl bg-gray-50 border border-gray-200/80 hover:border-lime-500/40 transition-all hover:shadow-md">
+          <div class="w-12 h-12 rounded-2xl bg-dark text-lime-accent flex items-center justify-center font-bold text-2xl mb-6">
+            3
+          </div>
+          <h3 class="text-2xl font-bold text-dark mb-3">
+            Schmerzpunkt 3: Das monatliche Reporting-Hamsterrad
+          </h3>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Am Monatsanfang stundenlang Screenshots kopieren, PDFs formatieren und Daten in Excel-Tabellen schieben frisst wertvolle Agentur-Arbeitszeit.
+          </p>
+          <div class="p-4 bg-white rounded-2xl border border-gray-200 text-sm text-gray-800">
+            <strong class="text-lime-700 block mb-1">✅ Die SE Ranking Lösung:</strong>
+            Vollautomatischer Report-Builder mit eigenem Agentur-Branding (White-Label) als PDF sowie ein <strong>nativer Looker Studio Connector</strong> bereits ab dem Core-Tarif (spart teure Drittanbieter wie Supermetrics).
+          </div>
+        </div>
+
+        <!-- Schmerzpunkt 4: KI & Vibe Coding -->
+        <div class="p-8 rounded-3xl bg-gray-50 border border-gray-200/80 hover:border-lime-500/40 transition-all hover:shadow-md">
+          <div class="w-12 h-12 rounded-2xl bg-dark text-lime-accent flex items-center justify-center font-bold text-2xl mb-6">
+            4
+          </div>
+          <h3 class="text-2xl font-bold text-dark mb-3">
+            Schmerzpunkt 4: Veraltete Tools ohne KI- und MCP-Schnittstellen
+          </h3>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Viele etablierte Plattformen ruhen sich auf alten Erfolgen aus und bieten weder zeitgemäße API-Preise noch Anschlüsse für moderne KI-Coding-Agenten.
+          </p>
+          <div class="p-4 bg-white rounded-2xl border border-gray-200 text-sm text-gray-800">
+            <strong class="text-lime-700 block mb-1">✅ Die SE Ranking Lösung:</strong>
+            Offizieller <strong>Model Context Protocol (MCP) Server</strong> (<code class="bg-gray-100 px-1 py-0.5 rounded text-xs">api.seranking.com/mcp</code>) für Claude Code und Desktop, ChatGPT App im GPT Store und günstige API-Credits für Python-Skripte.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHOR & TACHELES-SECTION (JÖRG ZIMMER) -->
+  <section class="py-12 bg-gray-50 border-t border-gray-200">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-gray-200 flex flex-col md:flex-row items-center gap-8">
+        <div class="w-32 h-32 md:w-40 md:h-40 flex-shrink-0 rounded-2xl overflow-hidden border-2 border-lime-400 shadow-md">
+          <Image 
+            src={portraitImage} 
+            alt="Jörg Zimmer – Senior SEO Freelancer Berlin Spandau" 
+            class="w-full h-full object-cover"
+            width={320}
+            height={320}
+          />
+        </div>
+        <div class="space-y-3 text-center md:text-left">
+          <div class="inline-block bg-dark text-lime-accent text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+            Jörgs Tacheles-Ecke
+          </div>
+          <h3 class="text-2xl font-bold text-dark font-headings">
+            „Tools sind Werkzeuge – keine Statussymbole.“
+          </h3>
+          <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+            In über 25 Jahren als SEO-Berater habe ich so ziemlich jedes Tool auf dem Markt auf Herz und Nieren geprüft. Was mich bei SE Ranking überzeugt, ist die schonungslose Ehrlichkeit: Du bezahlst für echte Leistung, echte Top-100-Daten und moderne Schnittstellen – statt für aufgeblähte Manager-Sitze und künstliche Kontingent-Korsetts.
+          </p>
+          <p class="text-xs text-gray-500">
+            Lies dazu auch meine detaillierten Praxis-Tests:
+            <a href="https://teleschmie.de/blog/se-ranking-test-2026/" class="text-dark font-bold underline hover:text-lime-600">Großer SE Ranking Test 2026</a> • 
+            <a href="https://teleschmie.de/blog/sistrix-vs-se-ranking/" class="text-dark font-bold underline hover:text-lime-600">Sistrix vs. SE Ranking</a> • 
+            <a href="https://teleschmie.de/blog/se-ranking-preise/" class="text-dark font-bold underline hover:text-lime-600">Tarife & Preise</a> • 
+            <a href="https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/" class="text-dark font-bold underline hover:text-lime-600">API mit Claude Code</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFICIAL CTA BOX (STRICT COMPONENT FROM AGENTS.MD) -->
+  <div class="container mx-auto px-4 max-w-4xl">
+    <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+      <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+        Beitrag auf LinkedIn öffnen
+      </a>
+    </div>
+  </div>
+
+  <!-- FAQ ACCORDION SECTION -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="text-2xl md:text-3xl font-bold mb-8 flex items-center gap-3 text-dark font-headings">
+        <span class="w-10 h-10 bg-dark text-lime-accent flex items-center justify-center rounded-xl text-lg">?</span>
+        Häufige Fragen zu den SEO-Tool Kosten & SE Ranking
+      </div>
+
+      <div class="space-y-4">
+        {faqItems.map((faq) => (
+          <details class="group bg-gray-50 border border-gray-200 rounded-2xl overflow-hidden transition-all duration-200 open:bg-white open:shadow-md">
+            <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+              <span class="font-bold text-dark pr-8 text-base md:text-lg">{faq.question}</span>
+              <span class="relative flex-shrink-0 w-6 h-6 transform transition-transform duration-200 group-open:rotate-45">
+                <span class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-500 -translate-y-1/2 rounded-full"></span>
+                <span class="absolute top-0 left-1/2 w-0.5 h-full bg-gray-500 -translate-x-1/2 rounded-full"></span>
+              </span>
+            </summary>
+            <div class="px-6 pb-6 text-gray-600 leading-relaxed text-sm md:text-base border-t border-gray-100 pt-4">
+              {faq.answer}
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Final Sticky / Bottom Action -->
+  <section class="py-12 bg-dark text-white text-center">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 font-headings">
+        Bereit für maximale SEO-Power ohne Seat-Kostenfalle?
+      </h2>
+      <p class="text-gray-300 text-lg mb-8">
+        Teste SE Ranking jetzt 14 Tage unverbindlich im vollen Funktionsumfang. Bei Gefallen sicherst du dir 20 % Rabatt im Jahresabo plus meinen exklusiven 15 % Neukunden-Voucher.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a 
+          href="https://seranking.com/de/?ga=4169588&source=kostenrechner" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="bg-lime-accent text-dark font-extrabold py-3.5 px-8 rounded-2xl hover:bg-lime-400 transition-all text-base shadow-lg"
+        >
+          SE Ranking 14 Tage kostenlos testen ➔
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="bg-white/10 text-white font-bold py-3.5 px-8 rounded-2xl hover:bg-white/20 transition-all text-base border border-white/15"
+        >
+          15% Rabattcode auf LinkedIn anfragen
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

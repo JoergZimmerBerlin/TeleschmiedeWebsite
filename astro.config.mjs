@@ -46,7 +46,8 @@ export default defineConfig({
   output: 'static',
   build: {
     assets: 'assets',
-    concurrency: 10,
+    // CI-sicherer Standard: Lokal 10 Threads für Speed, auf GitHub Actions 4 Threads (verhindert OOM-Crashes bei 500+ Bildern)
+    concurrency: process.env.GITHUB_ACTIONS === 'true' ? 4 : 10,
     inlineStylesheets: 'never'
   }
 });

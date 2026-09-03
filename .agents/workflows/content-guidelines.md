@@ -37,7 +37,7 @@ Dieses Dokument ist die einzige Quelle der Wahrheit (Single Source of Truth) fü
   - **Einleitung (Intro-Absatz):** Jeder Artikel MUSS vor der ersten H2-Überschrift zwingend einen Einleitungs-Absatz haben, der den Kontext setzt. Springe nie sofort in eine H2.
   - **Textauszeichnung:** Verwende zwingend **Fettungen (`**`)** für Kernaussagen und *Kursive (`*`)* für subtile Betonungen, um den Textfluss optisch zu steuern.
   - **Tabellen & Aufzählungen:** Nutze zwingend **Tabellen** für Zusammenfassungen/Vergleiche und **Aufzählungen/Listen** (Bullet Points) für Folgen oder Prozesse. Ein Artikel ohne Liste ist unvollständig!
-  - **Zitate:** Verwende Blockzitate (`>`), aber **nur für echte, faktische Aussagen** (z.B. offizielle Google-Statements oder echte Nutzer-Kommentare).
+  - **Zitate & E-E-A-T Boxen:** Verwende Blockzitate (`>`) für offizielle Zitate (z.B. Google-Statements, RFCs) und nutze die dedizierte **E-E-A-T Praxis-Box** mit authentischen Zitaten aus `src/data/joerg-quotes.json` inklusive Backlink zum originalen LinkedIn-Beitrag.
   - **Infoboxen & Absatzstruktur:** Nutze Callouts für Warnungen/Tipps und halte Absätze systematisch kurz (`mb-8`).
 - **Interne Verlinkung:** Verlinke innerhalb des Fließtextes sinnvoll, kontextbezogen und aggressiv auf andere relevante Glossar- oder Blog-Beiträge. Trailing Slashes sind Pflicht (`/`).
 - **Tonalität & Fakten-Integration:** Neutral-sachliche Ich-Form ("Ich"). Nutze keine vorgefertigten Zitate oder aufgesetzte Analogien. Bringe stattdessen harte Fakten und Beispiele aus dem Agentur-Alltag, die eine KI sich nicht ausdenken könnte.

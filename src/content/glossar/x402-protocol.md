@@ -34,7 +34,7 @@ Der Kern des Protokolls basiert auf der Aktivierung des offiziellen, aber lange 
 
 Der Bezahlvorgang läuft in vier hochoptimierten Schritten auf Netzwerkebene ab:
 
-1.  **Initialer API-Aufruf:** Der KI-Agent fordert eine geschützte Ressource per GET- oder POST-Request an (z. B. `https://api.teleschmie.de/v1/deep-seo-audit`).
+1.  **Initialer API-Aufruf:** Der KI-Agent fordert eine geschützte Ressource per GET- oder POST-Request an (z. B. `https://api.deinedomain.de/v1/protected-data`).
 2.  **402 Payment Required Response:** Der Server blockiert den Zugriff mit dem Status `402` und liefert im Header `X-Payment-Required` die exakten Zahlungskonditionen mit (Ziel-Wallet, geforderter Betrag, Währung, Token-Netzwerk).
 3.  **Kryptografische Signatur:** Die integrierte Wallet des Agenten prüft die Kosten gegen das vom Nutzer freigegebene Budget. Bei Freigabe signiert der Agent die Mikrotransaktion und sendet die Anfrage erneut – diesmal mit dem Header `X-Payment-Authorization`.
 4.  **Instant Settlement & Datenauslieferung:** Der Server validiert den kryptografischen Beleg in Millisekunden, zieht den Betrag ein und liefert die angeforderten Nutzdaten mit dem Status `200 OK` aus.
@@ -69,14 +69,14 @@ X-Payment-Required: {
 }
 
 {
-  "error": "Payment required to access SEO Analysis endpoint."
+  "error": "Payment required to access protected API endpoint."
 }
 ```
 
 ### 2. Client-Request mit Zahlungsnachweis
 ```http
-GET /v1/deep-seo-audit?domain=example.com HTTP/1.1
-Host: api.teleschmie.de
+GET /v1/protected-data?query=test HTTP/1.1
+Host: api.deinedomain.de
 X-Payment-Authorization: {
   "txHash": "0x4a8f...91c2",
   "payer": "0x39D...A11",

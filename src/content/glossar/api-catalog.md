@@ -62,24 +62,24 @@ Das folgende Beispiel zeigt eine produktionsreife `ai-catalog.json` für eine mo
 {
   "specVersion": "1.0",
   "host": {
-    "name": "Teleschmiede Berlin",
-    "url": "https://teleschmie.de",
-    "description": "Premium SEO, SEA & AI Visibility Beratung für B2B-Unternehmen."
+    "name": "Dein Unternehmensname",
+    "url": "https://deinedomain.de",
+    "description": "Anbieter digitaler Dienstleistungen, strukturierter Daten und KI-Schnittstellen."
   },
   "entries": [
     {
-      "id": "urn:ai:teleschmie.de:mcp:seo-audit",
+      "id": "urn:ai:deinedomain.de:mcp:analyse-service",
       "type": "mcp-server",
-      "name": "SEO Audit Assistant",
-      "description": "Analysiert Onpage- und Entitäts-Faktoren für Webseiten.",
-      "url": "https://teleschmie.de/.well-known/mcp/server-card.json"
+      "name": "Analysis Assistant",
+      "description": "Liefert strukturierte Onpage- und Entitäts-Faktoren für Kundenanfragen.",
+      "url": "https://deinedomain.de/.well-known/mcp/server-card.json"
     },
     {
-      "id": "urn:ai:teleschmie.de:api:budget-rechner",
+      "id": "urn:ai:deinedomain.de:api:produkt-katalog",
       "type": "openapi",
-      "name": "Tool Budget Calculator API",
-      "description": "Liefert strukturierte Daten zur Berechnung von SEO-Tool-Investitionen.",
-      "url": "https://teleschmie.de/api/v1/tools/openapi.json"
+      "name": "Product Catalog API",
+      "description": "Liefert maschinenlesbare Schnittstellen zur Preis- und Produktabfrage.",
+      "url": "https://deinedomain.de/api/v1/products/openapi.json"
     }
   ]
 }
@@ -88,7 +88,8 @@ Das folgende Beispiel zeigt eine produktionsreife `ai-catalog.json` für eine mo
 Ergänzend signalisiert der Server über den HTTP-Header nach [RFC 8288](/glossar/rfc-8288-link-headers/) das Vorhandensein des Katalogs:
 
 ```http
-Link: <https://teleschmie.de/.well-known/ai-catalog.json>; rel="service-desc"; type="application/json"
+# HTTP-Header (Domain anpassen)
+Link: <https://deinedomain.de/.well-known/ai-catalog.json>; rel="service-desc"; type="application/json"
 ```
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
@@ -119,10 +120,11 @@ Bei der Bereitstellung von ARD-Manifesten schleichen sich in Entwicklungsabteilu
 
 ### Terminal-Praxis: Validierung der ai-catalog.json mit curl und jq
 
-Entwickler können die syntaktische und strukturelle Korrektheit ihres Katalogs über einen einfachen Befehl überprüfen:
+Entwickler können die syntaktische und strukturelle Korrektheit ihres Katalogs über einen einfachen Befehl überprüfen (ersetze die Domain durch deine eigene URL):
 
 ```bash
-curl -s https://teleschmie.de/.well-known/ai-catalog.json | jq '{
+# Validierung des ai-catalog.json Endpunkts
+curl -s https://deinedomain.de/.well-known/ai-catalog.json | jq '{
   spec: .specVersion,
   anbieter: .host.name,
   anzahl_services: (.entries | length)

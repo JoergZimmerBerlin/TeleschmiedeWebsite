@@ -63,7 +63,7 @@ MPP-Challenge: {
   "sessionId": "mpp_sess_99a8bc72",
   "price": "0.0005",
   "currency": "EUR",
-  "recipient": "acct_teleschmie_stripe",
+  "recipient": "acct_merchant_stripe_id",
   "supportedMethods": ["card_token", "usdc_base"]
 }
 
@@ -74,8 +74,8 @@ MPP-Challenge: {
 
 ### 2. Autorisierter Folge-Request des Agenten
 ```http
-GET /v1/market-intelligence?query=berlin HTTP/1.1
-Host: api.teleschmie.de
+GET /v1/market-data?query=example HTTP/1.1
+Host: api.deinedomain.de
 MPP-Authorization: {
   "version": "1.0",
   "sessionId": "mpp_sess_99a8bc72",
@@ -114,11 +114,11 @@ Ein wesentlicher Vorzug des Machine Payments Protocol gegenüber reinen Blockcha
 
 ### Terminal-Simulation: Den MPP-Handshake im Terminal testen
 
-Entwickler können die Reaktion ihrer Schnittstelle auf maschinelle Zahlungsanfragen einfach per curl nachvollziehen:
+Entwickler können die Reaktion ihrer Schnittstelle auf maschinelle Zahlungsanfragen einfach per curl nachvollziehen (Domain anpassen):
 
 ```bash
 # 1. Challenge anfordern
-curl -I https://teleschmie.de/api/v1/agent-endpoint
+curl -I https://deinedomain.de/api/v1/agent-endpoint
 
 # 2. Antwort analysieren (Erwartet: HTTP/1.1 402 mit MPP-Challenge Header)
 # HTTP/1.1 402 Payment Required

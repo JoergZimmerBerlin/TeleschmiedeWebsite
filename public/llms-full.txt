@@ -1117,12 +1117,12 @@ Der folgende JSON-Auszug demonstriert, wie ein KI-Agent eine autorisierte Bestel
 ```json
 {
   "protocolVersion": "2026-03-01",
-  "merchantId": "acct_teleschmie_de_8829",
+  "merchantId": "acct_merchant_example_123",
   "order": {
     "currency": "eur",
     "items": [
       {
-        "sku": "SEO-AUDIT-PREMIUM-2026",
+        "sku": "PRODUKT-ARTIKEL-100",
         "quantity": 1,
         "unitPriceCents": 149000
       }
@@ -2542,8 +2542,8 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-# Verweis auf Sitemaps und Agent-Wegweiser
-Sitemap: https://teleschmie.de/sitemap-index.xml
+# Verweis auf Sitemaps und Agent-Wegweiser (Domain anpassen)
+Sitemap: https://deinedomain.de/sitemap-index.xml
 ```
 
 Durch diese Konfiguration bleiben Webinhalte für die organische [Indexierung](https://teleschmie.de/glossar/crawling-vs-indexing/) und für Zitationen in modernen Chat-Schnittstellen verfügbar, während das ungefragte Absaugen für reine Modell-Trainingsdaten unterbunden wird.
@@ -2576,14 +2576,14 @@ Neben den statischen Textdateien entscheidet das Verhalten des Webservers maßge
 
 ### Schnelltest: Validierung der Bot-Regeln im Terminal
 
-Website-Betreiber können die Reaktion ihres Servers auf unterschiedliche User-Agents in Sekundenschnelle per curl simulieren:
+Website-Betreiber können die Reaktion ihres Servers auf unterschiedliche User-Agents in Sekundenschnelle per curl simulieren (ersetze `https://deinedomain.de/` durch deine eigene Webadresse):
 
 ```bash
-# Test mit dem OAI-SearchBot User-Agent
-curl -I -A "Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)" https://teleschmie.de/
+# Test mit dem OAI-SearchBot User-Agent (Echtzeit-Suche)
+curl -I -A "Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)" https://deinedomain.de/
 
-# Test mit dem GPTBot User-Agent
-curl -I -A "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)" https://teleschmie.de/
+# Test mit dem GPTBot User-Agent (Modelltraining)
+curl -I -A "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)" https://deinedomain.de/
 ```
 
 Wird der SearchBot mit HTTP 200 beantwortet, während der Trainings-Bot an der WAF oder robots.txt abgewiesen wird, ist die Schutzkonfiguration exakt wie gewünscht aktiv.
@@ -2995,24 +2995,24 @@ Das folgende Beispiel zeigt eine produktionsreife `ai-catalog.json` für eine mo
 {
   "specVersion": "1.0",
   "host": {
-    "name": "Teleschmiede Berlin",
-    "url": "https://teleschmie.de",
-    "description": "Premium SEO, SEA & AI Visibility Beratung für B2B-Unternehmen."
+    "name": "Dein Unternehmensname",
+    "url": "https://deinedomain.de",
+    "description": "Anbieter digitaler Dienstleistungen, strukturierter Daten und KI-Schnittstellen."
   },
   "entries": [
     {
-      "id": "urn:ai:teleschmie.de:mcp:seo-audit",
+      "id": "urn:ai:deinedomain.de:mcp:analyse-service",
       "type": "mcp-server",
-      "name": "SEO Audit Assistant",
-      "description": "Analysiert Onpage- und Entitäts-Faktoren für Webseiten.",
-      "url": "https://teleschmie.de/.well-known/mcp/server-card.json"
+      "name": "Analysis Assistant",
+      "description": "Liefert strukturierte Onpage- und Entitäts-Faktoren für Kundenanfragen.",
+      "url": "https://deinedomain.de/.well-known/mcp/server-card.json"
     },
     {
-      "id": "urn:ai:teleschmie.de:api:budget-rechner",
+      "id": "urn:ai:deinedomain.de:api:produkt-katalog",
       "type": "openapi",
-      "name": "Tool Budget Calculator API",
-      "description": "Liefert strukturierte Daten zur Berechnung von SEO-Tool-Investitionen.",
-      "url": "https://teleschmie.de/api/v1/tools/openapi.json"
+      "name": "Product Catalog API",
+      "description": "Liefert maschinenlesbare Schnittstellen zur Preis- und Produktabfrage.",
+      "url": "https://deinedomain.de/api/v1/products/openapi.json"
     }
   ]
 }
@@ -3021,6 +3021,7 @@ Das folgende Beispiel zeigt eine produktionsreife `ai-catalog.json` für eine mo
 Ergänzend signalisiert der Server über den HTTP-Header nach [RFC 8288](https://teleschmie.de/glossar/rfc-8288-link-headers/) das Vorhandensein des Katalogs:
 
 ```http
+# HTTP-Header (Domain anpassen)
 Link: ; rel="service-desc"; type="application/json"
 ```
 
@@ -3052,10 +3053,11 @@ Bei der Bereitstellung von ARD-Manifesten schleichen sich in Entwicklungsabteilu
 
 ### Terminal-Praxis: Validierung der ai-catalog.json mit curl und jq
 
-Entwickler können die syntaktische und strukturelle Korrektheit ihres Katalogs über einen einfachen Befehl überprüfen:
+Entwickler können die syntaktische und strukturelle Korrektheit ihres Katalogs über einen einfachen Befehl überprüfen (ersetze die Domain durch deine eigene URL):
 
 ```bash
-curl -s https://teleschmie.de/.well-known/ai-catalog.json | jq '{
+# Validierung des ai-catalog.json Endpunkts
+curl -s https://deinedomain.de/.well-known/ai-catalog.json | jq '{
   spec: .specVersion,
   anbieter: .host.name,
   anzahl_services: (.entries | length)
@@ -3116,8 +3118,8 @@ Eine normgerechte `auth.md` kombiniert strukturierte YAML-Frontmatter mit klaren
 ```markdown
 ---
 version: "1.0"
-authorization_server: "https://auth.teleschmie.de"
-registration_endpoint: "https://api.teleschmie.de/agent/register"
+authorization_server: "https://auth.deinedomain.de"
+registration_endpoint: "https://api.deinedomain.de/agent/register"
 scopes_supported:
   - name: "read:articles"
     description: "Vollständiger Lesezugriff auf Markdown-Content"
@@ -3130,7 +3132,7 @@ token_endpoint_auth_methods:
 
 # auth.md: Autorisierungs-Richtlinie für KI-Agenten
 
-Willkommen auf teleschmie.de. Diese Schnittstelle erlaubt autonomen KI-Agenten die standardisierte Kontaktaufnahme und Datenabfrage im Namen verifizierter Auftraggeber.
+Willkommen auf unserer Domain. Diese Schnittstelle erlaubt autonomen KI-Agenten die standardisierte Kontaktaufnahme und Datenabfrage im Namen verifizierter Auftraggeber.
 
 ## Registrierungs-Workflow
 1. Sende einen POST-Request mit deinen Agent-Attestation-Daten an `/agent/register`.
@@ -3141,6 +3143,7 @@ Willkommen auf teleschmie.de. Diese Schnittstelle erlaubt autonomen KI-Agenten d
 Ergänzend dazu muss der Webserver (z. B. via Nginx oder Apache `.htaccess`) den passenden Link-Header nach [RFC 8288](https://teleschmie.de/glossar/rfc-8288-link-headers/) ausliefern:
 
 ```http
+# HTTP-Header (z. B. in .htaccess oder Nginx)
 Link: ; rel="authorization-policy"; type="text/markdown"
 ```
 
@@ -3177,13 +3180,15 @@ Web-Dienste, die `auth.md` implementieren, nutzen in der Regel ein dreistufiges 
 Website-Betreiber können ihre eigene `auth.md` und die zugehörigen Header-Verknüpfungen in Sekundenschnelle per curl überprüfen:
 
 ```bash
-curl -I https://teleschmie.de/.well-known/auth.md
+# Teste die Erreichbarkeit der Richtlinie (Domain anpassen)
+curl -I https://deinedomain.de/.well-known/auth.md
 ```
 
 Die Antwort muss zwingend den Status `200 OK` sowie den korrekten MIME-Type `text/markdown` oder `text/plain` zurückgeben. Anschließend prüft ein zweiter Request gegen die API, ob der `WWW-Authenticate`-Header die Metadaten-URL korrekt übermittelt:
 
 ```bash
-curl -I -H "Accept: application/json" https://teleschmie.de/api/protected-resource
+# Teste den Schutz der API-Ressource (Domain anpassen)
+curl -I -H "Accept: application/json" https://deinedomain.de/api/protected-resource
 ```
 
 ## Bedeutung für das Agent Readiness Level 5
@@ -3232,26 +3237,25 @@ Um Suchmaschinen und AI-Crawlern unmissverständlich zu belegen, wer hinter eine
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://teleschmie.de/#person",
-  "name": "Jörg Zimmer",
-  "jobTitle": "Senior SEO & AI Visibility Freelancer",
-  "description": "Algorithmus-Experte mit 25 Jahren Praxiserfahrung in technischem SEO, GEO und KI-Sichtbarkeit.",
-  "url": "https://teleschmie.de/ueber-mich/",
+  "@id": "https://deinedomain.de/#autor",
+  "name": "Dein Expertenname",
+  "jobTitle": "Senior Fachexperte & Fachautor",
+  "description": "Experte mit langjähriger Praxiserfahrung und nachweisbaren Branchen-Publikationen.",
+  "url": "https://deinedomain.de/ueber-uns/autor/",
   "sameAs": [
-    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.wikidata.org/wiki/Q180711",
-    "https://github.com/JoergZimmerBerlin"
+    "https://www.linkedin.com/in/dein-profil/",
+    "https://www.wikidata.org/wiki/Q12345",
+    "https://github.com/dein-account"
   ],
   "knowsAbout": [
-    "Technical SEO",
-    "Generative Engine Optimization",
-    "Search Engine Advertising",
-    "Knowledge Graphs"
+    "Hauptdisziplin",
+    "Spezialbereich",
+    "Branchenthema"
   ]
 }
 ```
 
-Durch diese Auszeichnung muss die Suchmaschine nicht raten, wer den Artikel verfasst hat, sondern verknüpft die Inhalte direkt mit der real existierenden Experten-Entität.
+Durch diese Auszeichnung muss die Suchmaschine nicht raten, wer den Artikel verfasst hat, sondern verknüpft die Inhalte direkt mit der real existierenden Experten-Entität. Ersetze die URLs und Bezeichnungen einfach mit den Daten deiner eigenen Autoren-Profile.
 
 
   💡 Jörg Zimmer aus der SEO-Praxis:
@@ -9360,7 +9364,7 @@ MPP-Challenge: {
   "sessionId": "mpp_sess_99a8bc72",
   "price": "0.0005",
   "currency": "EUR",
-  "recipient": "acct_teleschmie_stripe",
+  "recipient": "acct_merchant_stripe_id",
   "supportedMethods": ["card_token", "usdc_base"]
 }
 
@@ -9371,8 +9375,8 @@ MPP-Challenge: {
 
 ### 2. Autorisierter Folge-Request des Agenten
 ```http
-GET /v1/market-intelligence?query=berlin HTTP/1.1
-Host: api.teleschmie.de
+GET /v1/market-data?query=example HTTP/1.1
+Host: api.deinedomain.de
 MPP-Authorization: {
   "version": "1.0",
   "sessionId": "mpp_sess_99a8bc72",
@@ -9411,11 +9415,11 @@ Ein wesentlicher Vorzug des Machine Payments Protocol gegenüber reinen Blockcha
 
 ### Terminal-Simulation: Den MPP-Handshake im Terminal testen
 
-Entwickler können die Reaktion ihrer Schnittstelle auf maschinelle Zahlungsanfragen einfach per curl nachvollziehen:
+Entwickler können die Reaktion ihrer Schnittstelle auf maschinelle Zahlungsanfragen einfach per curl nachvollziehen (Domain anpassen):
 
 ```bash
 # 1. Challenge anfordern
-curl -I https://teleschmie.de/api/v1/agent-endpoint
+curl -I https://deinedomain.de/api/v1/agent-endpoint
 
 # 2. Antwort analysieren (Erwartet: HTTP/1.1 402 mit MPP-Challenge Header)
 # HTTP/1.1 402 Payment Required
@@ -10144,10 +10148,10 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
 
 ```json
 {
-  "issuer": "https://teleschmie.de",
-  "authorization_endpoint": "https://auth.teleschmie.de/oauth/authorize",
-  "token_endpoint": "https://auth.teleschmie.de/oauth/token",
-  "jwks_uri": "https://auth.teleschmie.de/.well-known/jwks.json",
+  "issuer": "https://deinedomain.de",
+  "authorization_endpoint": "https://auth.deinedomain.de/oauth/authorize",
+  "token_endpoint": "https://auth.deinedomain.de/oauth/token",
+  "jwks_uri": "https://auth.deinedomain.de/.well-known/jwks.json",
   "response_types_supported": ["code", "token"],
   "grant_types_supported": [
     "authorization_code",
@@ -10159,7 +10163,7 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
     "client_secret_post"
   ],
   "agent_auth": {
-    "policy_document": "https://teleschmie.de/.well-known/auth.md",
+    "policy_document": "https://deinedomain.de/.well-known/auth.md",
     "supported_flows": ["agent_verified", "user_claimed"],
     "ephemeral_tokens_allowed": true,
     "default_ttl_seconds": 3600
@@ -10167,7 +10171,7 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
 }
 ```
 
-Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, dass die Domain flüchtige Ephemeral-Tokens für 60 Minuten ausstellt und Richtliniendetails in der [auth.md](https://teleschmie.de/glossar/auth-md/) hinterlegt sind.
+Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, dass die Domain flüchtige Ephemeral-Tokens für 60 Minuten ausstellt und Richtliniendetails in der [auth.md](https://teleschmie.de/glossar/auth-md/) hinterlegt sind. Passe die Domains einfach an deine eigene Infrastruktur an.
 
 
   💡 Jörg Zimmer aus der SEO-Praxis:
@@ -10183,7 +10187,7 @@ Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, da
 
 In der Praxis scheitert die maschinelle Anbindung häufig an kleinen, aber folgenschweren Konfigurationsmängeln:
 
-1. **Diskrepanz zwischen Issuer und Host-URL:** Laut RFC 8414 muss der `issuer`-Wert exakt mit der Domain übereinstimmen, über die das Dokument aufgerufen wird. Leitet `https://teleschmie.de/.well-known/oauth-authorization-server` unbemerkt auf eine Subdomain weiter, bricht die Validierung aus Sicherheitsgründen ab.
+1. **Diskrepanz zwischen Issuer und Host-URL:** Laut RFC 8414 muss der `issuer`-Wert exakt mit der Domain übereinstimmen, über die das Dokument aufgerufen wird. Leitet `https://deinedomain.de/.well-known/oauth-authorization-server` unbemerkt auf eine Subdomain weiter, bricht die Validierung aus Sicherheitsgründen ab.
 2. **Fehlerhafter CORS-Header:** Wenn Web-Agenten aus dem Browser-Kontext heraus auf die Discovery-Metadaten zugreifen (z. B. via WebMCP), blockiert der Browser die Abfrage, sofern kein `Access-Control-Allow-Origin: *` ausgeliefert wird.
 3. **Mangelnde Verknüpfung zu Protected Resource Metadata:** Wenn geschützte APIs den `WWW-Authenticate`-Header nach [OAuth Protected Resource](https://teleschmie.de/glossar/oauth-protected-resource/) nicht mitsenden, erfährt der Agent nie von der Existenz der Discovery-Datei.
 
@@ -10200,7 +10204,8 @@ Ein elementarer Bestandteil moderner Discovery-Dokumente ist die Eigenschaft `jw
 Entwickler und Systemadministratoren können die Korrektheit ihres Endpunkts in Sekundenschnelle über das Terminal überprüfen:
 
 ```bash
-curl -s https://teleschmie.de/.well-known/oauth-authorization-server | jq '{
+# Überprüfung des Discovery-Endpunkts (Domain anpassen)
+curl -s https://deinedomain.de/.well-known/oauth-authorization-server | jq '{
   issuer: .issuer,
   token_endpoint: .token_endpoint,
   agent_policy: .agent_auth.policy_document
@@ -13562,19 +13567,19 @@ Um Suchmaschinen und KI-Agenten die semantische Hierarchie eines Wissensfeldes m
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://teleschmie.de/glossar/topical-authority/#webpage",
-      "url": "https://teleschmie.de/glossar/topical-authority/",
-      "name": "Topical Authority Definition & Strategie",
+      "@id": "https://deinedomain.de/themenfeld/hauptartikel/#webpage",
+      "url": "https://deinedomain.de/themenfeld/hauptartikel/",
+      "name": "Themenbereich Definition & Strategie",
       "isPartOf": {
         "@type": "WebSite",
-        "@id": "https://teleschmie.de/#website",
-        "name": "Teleschmiede",
-        "url": "https://teleschmie.de/"
+        "@id": "https://deinedomain.de/#website",
+        "name": "Dein Fachportal / Unternehmensname",
+        "url": "https://deinedomain.de/"
       },
       "about": [
         {
           "@type": "Thing",
-          "name": "Search Engine Optimization",
+          "name": "Suchmaschinenoptimierung",
           "sameAs": "https://de.wikipedia.org/wiki/Suchmaschinenoptimierung"
         },
         {
@@ -14706,7 +14711,7 @@ Der Kern des Protokolls basiert auf der Aktivierung des offiziellen, aber lange 
 
 Der Bezahlvorgang läuft in vier hochoptimierten Schritten auf Netzwerkebene ab:
 
-1.  **Initialer API-Aufruf:** Der KI-Agent fordert eine geschützte Ressource per GET- oder POST-Request an (z. B. `https://api.teleschmie.de/v1/deep-seo-audit`).
+1.  **Initialer API-Aufruf:** Der KI-Agent fordert eine geschützte Ressource per GET- oder POST-Request an (z. B. `https://api.deinedomain.de/v1/protected-data`).
 2.  **402 Payment Required Response:** Der Server blockiert den Zugriff mit dem Status `402` und liefert im Header `X-Payment-Required` die exakten Zahlungskonditionen mit (Ziel-Wallet, geforderter Betrag, Währung, Token-Netzwerk).
 3.  **Kryptografische Signatur:** Die integrierte Wallet des Agenten prüft die Kosten gegen das vom Nutzer freigegebene Budget. Bei Freigabe signiert der Agent die Mikrotransaktion und sendet die Anfrage erneut – diesmal mit dem Header `X-Payment-Authorization`.
 4.  **Instant Settlement & Datenauslieferung:** Der Server validiert den kryptografischen Beleg in Millisekunden, zieht den Betrag ein und liefert die angeforderten Nutzdaten mit dem Status `200 OK` aus.
@@ -14741,14 +14746,14 @@ X-Payment-Required: {
 }
 
 {
-  "error": "Payment required to access SEO Analysis endpoint."
+  "error": "Payment required to access protected API endpoint."
 }
 ```
 
 ### 2. Client-Request mit Zahlungsnachweis
 ```http
-GET /v1/deep-seo-audit?domain=example.com HTTP/1.1
-Host: api.teleschmie.de
+GET /v1/protected-data?query=test HTTP/1.1
+Host: api.deinedomain.de
 X-Payment-Authorization: {
   "txHash": "0x4a8f...91c2",
   "payer": "0x39D...A11",

@@ -62,19 +62,19 @@ Um Suchmaschinen und KI-Agenten die semantische Hierarchie eines Wissensfeldes m
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://teleschmie.de/glossar/topical-authority/#webpage",
-      "url": "https://teleschmie.de/glossar/topical-authority/",
-      "name": "Topical Authority Definition & Strategie",
+      "@id": "https://deinedomain.de/themenfeld/hauptartikel/#webpage",
+      "url": "https://deinedomain.de/themenfeld/hauptartikel/",
+      "name": "Themenbereich Definition & Strategie",
       "isPartOf": {
         "@type": "WebSite",
-        "@id": "https://teleschmie.de/#website",
-        "name": "Teleschmiede",
-        "url": "https://teleschmie.de/"
+        "@id": "https://deinedomain.de/#website",
+        "name": "Dein Fachportal / Unternehmensname",
+        "url": "https://deinedomain.de/"
       },
       "about": [
         {
           "@type": "Thing",
-          "name": "Search Engine Optimization",
+          "name": "Suchmaschinenoptimierung",
           "sameAs": "https://de.wikipedia.org/wiki/Suchmaschinenoptimierung"
         },
         {

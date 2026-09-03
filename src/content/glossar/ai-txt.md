@@ -80,8 +80,8 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-# Verweis auf Sitemaps und Agent-Wegweiser
-Sitemap: https://teleschmie.de/sitemap-index.xml
+# Verweis auf Sitemaps und Agent-Wegweiser (Domain anpassen)
+Sitemap: https://deinedomain.de/sitemap-index.xml
 ```
 
 Durch diese Konfiguration bleiben Webinhalte für die organische [Indexierung](/glossar/crawling-vs-indexing/) und für Zitationen in modernen Chat-Schnittstellen verfügbar, während das ungefragte Absaugen für reine Modell-Trainingsdaten unterbunden wird.
@@ -114,14 +114,14 @@ Neben den statischen Textdateien entscheidet das Verhalten des Webservers maßge
 
 ### Schnelltest: Validierung der Bot-Regeln im Terminal
 
-Website-Betreiber können die Reaktion ihres Servers auf unterschiedliche User-Agents in Sekundenschnelle per curl simulieren:
+Website-Betreiber können die Reaktion ihres Servers auf unterschiedliche User-Agents in Sekundenschnelle per curl simulieren (ersetze `https://deinedomain.de/` durch deine eigene Webadresse):
 
 ```bash
-# Test mit dem OAI-SearchBot User-Agent
-curl -I -A "Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)" https://teleschmie.de/
+# Test mit dem OAI-SearchBot User-Agent (Echtzeit-Suche)
+curl -I -A "Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)" https://deinedomain.de/
 
-# Test mit dem GPTBot User-Agent
-curl -I -A "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)" https://teleschmie.de/
+# Test mit dem GPTBot User-Agent (Modelltraining)
+curl -I -A "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)" https://deinedomain.de/
 ```
 
 Wird der SearchBot mit HTTP 200 beantwortet, während der Trainings-Bot an der WAF oder robots.txt abgewiesen wird, ist die Schutzkonfiguration exakt wie gewünscht aktiv.

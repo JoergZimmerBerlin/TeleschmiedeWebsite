@@ -60,10 +60,10 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
 
 ```json
 {
-  "issuer": "https://teleschmie.de",
-  "authorization_endpoint": "https://auth.teleschmie.de/oauth/authorize",
-  "token_endpoint": "https://auth.teleschmie.de/oauth/token",
-  "jwks_uri": "https://auth.teleschmie.de/.well-known/jwks.json",
+  "issuer": "https://deinedomain.de",
+  "authorization_endpoint": "https://auth.deinedomain.de/oauth/authorize",
+  "token_endpoint": "https://auth.deinedomain.de/oauth/token",
+  "jwks_uri": "https://auth.deinedomain.de/.well-known/jwks.json",
   "response_types_supported": ["code", "token"],
   "grant_types_supported": [
     "authorization_code",
@@ -75,7 +75,7 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
     "client_secret_post"
   ],
   "agent_auth": {
-    "policy_document": "https://teleschmie.de/.well-known/auth.md",
+    "policy_document": "https://deinedomain.de/.well-known/auth.md",
     "supported_flows": ["agent_verified", "user_claimed"],
     "ephemeral_tokens_allowed": true,
     "default_ttl_seconds": 3600
@@ -83,7 +83,7 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
 }
 ```
 
-Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, dass die Domain flüchtige Ephemeral-Tokens für 60 Minuten ausstellt und Richtliniendetails in der [auth.md](/glossar/auth-md/) hinterlegt sind.
+Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, dass die Domain flüchtige Ephemeral-Tokens für 60 Minuten ausstellt und Richtliniendetails in der [auth.md](/glossar/auth-md/) hinterlegt sind. Passe die Domains einfach an deine eigene Infrastruktur an.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
   <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
@@ -99,7 +99,7 @@ Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, da
 
 In der Praxis scheitert die maschinelle Anbindung häufig an kleinen, aber folgenschweren Konfigurationsmängeln:
 
-1. **Diskrepanz zwischen Issuer und Host-URL:** Laut RFC 8414 muss der `issuer`-Wert exakt mit der Domain übereinstimmen, über die das Dokument aufgerufen wird. Leitet `https://teleschmie.de/.well-known/oauth-authorization-server` unbemerkt auf eine Subdomain weiter, bricht die Validierung aus Sicherheitsgründen ab.
+1. **Diskrepanz zwischen Issuer und Host-URL:** Laut RFC 8414 muss der `issuer`-Wert exakt mit der Domain übereinstimmen, über die das Dokument aufgerufen wird. Leitet `https://deinedomain.de/.well-known/oauth-authorization-server` unbemerkt auf eine Subdomain weiter, bricht die Validierung aus Sicherheitsgründen ab.
 2. **Fehlerhafter CORS-Header:** Wenn Web-Agenten aus dem Browser-Kontext heraus auf die Discovery-Metadaten zugreifen (z. B. via WebMCP), blockiert der Browser die Abfrage, sofern kein `Access-Control-Allow-Origin: *` ausgeliefert wird.
 3. **Mangelnde Verknüpfung zu Protected Resource Metadata:** Wenn geschützte APIs den `WWW-Authenticate`-Header nach [OAuth Protected Resource](/glossar/oauth-protected-resource/) nicht mitsenden, erfährt der Agent nie von der Existenz der Discovery-Datei.
 
@@ -116,7 +116,8 @@ Ein elementarer Bestandteil moderner Discovery-Dokumente ist die Eigenschaft `jw
 Entwickler und Systemadministratoren können die Korrektheit ihres Endpunkts in Sekundenschnelle über das Terminal überprüfen:
 
 ```bash
-curl -s https://teleschmie.de/.well-known/oauth-authorization-server | jq '{
+# Überprüfung des Discovery-Endpunkts (Domain anpassen)
+curl -s https://deinedomain.de/.well-known/oauth-authorization-server | jq '{
   issuer: .issuer,
   token_endpoint: .token_endpoint,
   agent_policy: .agent_auth.policy_document

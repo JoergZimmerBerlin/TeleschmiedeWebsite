@@ -57,26 +57,25 @@ Um Suchmaschinen und AI-Crawlern unmissverständlich zu belegen, wer hinter eine
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://teleschmie.de/#person",
-  "name": "Jörg Zimmer",
-  "jobTitle": "Senior SEO & AI Visibility Freelancer",
-  "description": "Algorithmus-Experte mit 25 Jahren Praxiserfahrung in technischem SEO, GEO und KI-Sichtbarkeit.",
-  "url": "https://teleschmie.de/ueber-mich/",
+  "@id": "https://deinedomain.de/#autor",
+  "name": "Dein Expertenname",
+  "jobTitle": "Senior Fachexperte & Fachautor",
+  "description": "Experte mit langjähriger Praxiserfahrung und nachweisbaren Branchen-Publikationen.",
+  "url": "https://deinedomain.de/ueber-uns/autor/",
   "sameAs": [
-    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.wikidata.org/wiki/Q180711",
-    "https://github.com/JoergZimmerBerlin"
+    "https://www.linkedin.com/in/dein-profil/",
+    "https://www.wikidata.org/wiki/Q12345",
+    "https://github.com/dein-account"
   ],
   "knowsAbout": [
-    "Technical SEO",
-    "Generative Engine Optimization",
-    "Search Engine Advertising",
-    "Knowledge Graphs"
+    "Hauptdisziplin",
+    "Spezialbereich",
+    "Branchenthema"
   ]
 }
 ```
 
-Durch diese Auszeichnung muss die Suchmaschine nicht raten, wer den Artikel verfasst hat, sondern verknüpft die Inhalte direkt mit der real existierenden Experten-Entität.
+Durch diese Auszeichnung muss die Suchmaschine nicht raten, wer den Artikel verfasst hat, sondern verknüpft die Inhalte direkt mit der real existierenden Experten-Entität. Ersetze die URLs und Bezeichnungen einfach mit den Daten deiner eigenen Autoren-Profile.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
   <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>

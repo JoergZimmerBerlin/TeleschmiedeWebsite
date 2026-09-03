@@ -21,7 +21,7 @@ Dieser Workflow ist zuständig für die Erstellung neuer und die Erweiterung bes
 3. **Länge & High-Premium Tiefe**: Der Glossar-Artikel MUSS eine Länge von **1.000 bis 1.500 Wörtern** erreichen. Reine kurze Begriffsdefinitionen sind verboten!
 4. **Zwingende Content-Elemente für maximale Nutzerfreundlichkeit:**
    - **Vergleichs- oder Kriterien-Tabelle (PFLICHT)**: Mindestens eine strukturierte Markdown-Tabelle (z.B. *„Kriterien-Vergleich“*, *„Do's & Don'ts“*, *„Status-Codes / Parameter im Überblick“*).
-   - **Echtes Code- / Konfigurations-Snippet (PFLICHT bei Tech-Themen)**: Konkrete, copy-paste-fähige Code-Blöcke (z.B. JSON-LD Schema, `.htaccess`, Nginx, HTTP Link-Header, curl-Befehle).
+   - **Echtes Code- / Konfigurations-Snippet (PFLICHT bei Tech-Themen)**: Konkrete, copy-paste-fähige Code-Blöcke (z.B. JSON-LD Schema, `.htaccess`, Nginx, HTTP Link-Header, curl-Befehle). **STRIKT UNIVERSAL**: Snippets müssen für externe Leser sofort in eigenen Projekten einsetzbar sein. Niemals eigene Setups wie `teleschmie.de` hardcoden; nutze stattdessen Standard-Platzhalter wie `https://deinedomain.de` oder `acct_merchant_123` mit Hinweisen.
    - **Die 3 häufigsten Praxis-Fehler (PFLICHT)**: Ein eigener Abschnitt mit ungeschminkter Praxiserfahrung aus 25 Jahren SEO.
    - **E-E-A-T Zitat-Box aus Jörgs LinkedIn-Archiv (PFLICHT)**: Suche via `view_file` in `src/data/joerg-quotes.json` nach einem thematisch passenden Zitat von Jörg Zimmer und baue es als formatierte Box mit Original-LinkedIn-Link ein:
      ```html

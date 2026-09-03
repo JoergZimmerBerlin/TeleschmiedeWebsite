@@ -59,12 +59,12 @@ Der folgende JSON-Auszug demonstriert, wie ein KI-Agent eine autorisierte Bestel
 ```json
 {
   "protocolVersion": "2026-03-01",
-  "merchantId": "acct_teleschmie_de_8829",
+  "merchantId": "acct_merchant_example_123",
   "order": {
     "currency": "eur",
     "items": [
       {
-        "sku": "SEO-AUDIT-PREMIUM-2026",
+        "sku": "PRODUKT-ARTIKEL-100",
         "quantity": 1,
         "unitPriceCents": 149000
       }

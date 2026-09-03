@@ -63,8 +63,8 @@ Eine normgerechte `auth.md` kombiniert strukturierte YAML-Frontmatter mit klaren
 ```markdown
 ---
 version: "1.0"
-authorization_server: "https://auth.teleschmie.de"
-registration_endpoint: "https://api.teleschmie.de/agent/register"
+authorization_server: "https://auth.deinedomain.de"
+registration_endpoint: "https://api.deinedomain.de/agent/register"
 scopes_supported:
   - name: "read:articles"
     description: "Vollständiger Lesezugriff auf Markdown-Content"
@@ -77,7 +77,7 @@ token_endpoint_auth_methods:
 
 # auth.md: Autorisierungs-Richtlinie für KI-Agenten
 
-Willkommen auf teleschmie.de. Diese Schnittstelle erlaubt autonomen KI-Agenten die standardisierte Kontaktaufnahme und Datenabfrage im Namen verifizierter Auftraggeber.
+Willkommen auf unserer Domain. Diese Schnittstelle erlaubt autonomen KI-Agenten die standardisierte Kontaktaufnahme und Datenabfrage im Namen verifizierter Auftraggeber.
 
 ## Registrierungs-Workflow
 1. Sende einen POST-Request mit deinen Agent-Attestation-Daten an `/agent/register`.
@@ -88,7 +88,8 @@ Willkommen auf teleschmie.de. Diese Schnittstelle erlaubt autonomen KI-Agenten d
 Ergänzend dazu muss der Webserver (z. B. via Nginx oder Apache `.htaccess`) den passenden Link-Header nach [RFC 8288](/glossar/rfc-8288-link-headers/) ausliefern:
 
 ```http
-Link: <https://teleschmie.de/.well-known/auth.md>; rel="authorization-policy"; type="text/markdown"
+# HTTP-Header (z. B. in .htaccess oder Nginx)
+Link: <https://deinedomain.de/.well-known/auth.md>; rel="authorization-policy"; type="text/markdown"
 ```
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
@@ -124,13 +125,15 @@ Web-Dienste, die `auth.md` implementieren, nutzen in der Regel ein dreistufiges 
 Website-Betreiber können ihre eigene `auth.md` und die zugehörigen Header-Verknüpfungen in Sekundenschnelle per curl überprüfen:
 
 ```bash
-curl -I https://teleschmie.de/.well-known/auth.md
+# Teste die Erreichbarkeit der Richtlinie (Domain anpassen)
+curl -I https://deinedomain.de/.well-known/auth.md
 ```
 
 Die Antwort muss zwingend den Status `200 OK` sowie den korrekten MIME-Type `text/markdown` oder `text/plain` zurückgeben. Anschließend prüft ein zweiter Request gegen die API, ob der `WWW-Authenticate`-Header die Metadaten-URL korrekt übermittelt:
 
 ```bash
-curl -I -H "Accept: application/json" https://teleschmie.de/api/protected-resource
+# Teste den Schutz der API-Ressource (Domain anpassen)
+curl -I -H "Accept: application/json" https://deinedomain.de/api/protected-resource
 ```
 
 ## Bedeutung für das Agent Readiness Level 5

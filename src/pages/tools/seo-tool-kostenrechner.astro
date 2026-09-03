@@ -11,7 +11,7 @@ const lastReviewed = getGitModDate('src/pages/tools/seo-tool-kostenrechner.astro
 const optimizedOgImage = await getImage({ src: heroImage, format: 'webp', width: 1200, height: 630 });
 
 const pageTitle = "SEO-Tool Kostenrechner: Top 8 Tools im Vergleich (2026)";
-const pageDescription = "Interaktiver Kosten- & Ersparnis-Rechner für Agenturen & SEO-Manager: Vergleiche SE Ranking, Sistrix, Semrush & Co. Berechne deine Ersparnis ohne versteckte Seat-Kosten.";
+const pageDescription = "SEO-Tool Kostenrechner: Vergleiche Sistrix, Semrush, Ahrefs & SE Ranking. Berechne deine Ersparnis ohne teure Mitarbeiter-Sitze – live! (2026)";
 
 // Structured FAQ Data for Schema.org
 const faqItems = [
@@ -29,7 +29,7 @@ const faqItems = [
   },
   {
     question: "Was unterscheidet die Guest-Links von SE Ranking von normalen Nutzer-Accounts?",
-    answer: "Guest-Links (Gast-Zugänge) sind interaktive, passwortfreie Live-Links für Kunden. Deine Kunden können damit das Ranking-Dashboard und Berichte im Browser in Echtzeit einsehen, ohne sich einloggen zu müssen und ohne dass sie versehentlich Projekt-Einstellungen verändern können. Im Growth-Paket sind diese Links unbegrenzt und ohne zusätzliche Seat-Gebühren enthalten."
+    answer: "Guest-Links (Gast-Zugänge) sind interaktive, passwortfreie Live-Links für Kunden. Deine Kunden können damit das Ranking-Dashboard und Berichte im Browser in Echtzeit einsehen, ohne sich einloggen zu müssen und ohne dass sie versehentlich Projekt-Einstellungen verändern können. Im Growth-Paket sind diese Links unbegrenzt und ohne zusätzliche Gebühren für Mitarbeiter-Sitze enthalten."
   },
   {
     question: "Wie binde ich den SE Ranking MCP-Server an Claude Code oder Claude Desktop an?",
@@ -94,7 +94,7 @@ const webAppSchema = {
 
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-dark font-headings tracking-tight leading-tight mb-6">
         SEO-Tool Kostenrechner 2026:<br />
-        <span class="text-lime-600">Schluss mit der Seat-Falle im Team</span>
+        <span class="text-lime-600">Schluss mit teuren Mitarbeiter-Sitzen</span>
       </h1>
 
       <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-4">
@@ -143,7 +143,7 @@ const webAppSchema = {
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-gray-50 p-4 rounded-xl text-sm">
               <div><strong>Einstieg (Core):</strong> 87,20 €/Mo (jährl.) / 109 € mtl.</div>
               <div><strong>Agentur-Tarif (Growth):</strong> 188,00 €/Mo (jährl.) / 235 € mtl.</div>
-              <div><strong>Zusatz-Seats:</strong> ab 16 $ (~15 €) / Monat</div>
+              <div><strong>Zusätzliche Mitarbeiter-Sitze:</strong> ab 16 $ (~15 €) / Monat</div>
             </div>
             <h4 class="font-bold text-dark text-base">Warum SE Ranking für Teams gewinnt:</h4>
             <p>
@@ -212,7 +212,7 @@ const webAppSchema = {
             <div class="flex items-center gap-4">
               <span class="w-10 h-10 rounded-xl bg-gray-100 text-gray-800 flex items-center justify-center font-bold text-lg">3</span>
               <div>
-                <h3 class="text-xl font-bold text-dark">Semrush – Der internationale Gigant mit teurer Seat-Falle</h3>
+                <h3 class="text-xl font-bold text-dark">Semrush – Der internationale Gigant mit teuren Mitarbeiter-Sitzen</h3>
                 <p class="text-sm text-gray-500">Pro 139,95 $ • Guru 249,95 $ • Business 499,95 $ • Zusatznutzer bis zu 100 $/Monat</p>
               </div>
             </div>
@@ -494,24 +494,78 @@ const webAppSchema = {
           <p class="text-gray-600 text-sm md:text-base leading-relaxed">
             In über 25 Jahren als SEO-Berater habe ich so ziemlich jedes Tool auf dem Markt auf Herz und Nieren geprüft. Was mich bei SE Ranking überzeugt, ist die schonungslose Ehrlichkeit: Du bezahlst für echte Leistung, echte Top-100-Daten und moderne Schnittstellen – statt für aufgeblähte Manager-Sitze und künstliche Kontingent-Korsetts.
           </p>
-          <p class="text-xs text-gray-500">
-            Lies dazu auch meine detaillierten Praxis-Tests:
-            <a href="https://teleschmie.de/blog/se-ranking-test-2026/" class="text-dark font-bold underline hover:text-lime-600">Großer SE Ranking Test 2026</a> • 
-            <a href="https://teleschmie.de/blog/sistrix-vs-se-ranking/" class="text-dark font-bold underline hover:text-lime-600">Sistrix vs. SE Ranking</a> • 
-            <a href="https://teleschmie.de/blog/se-ranking-preise/" class="text-dark font-bold underline hover:text-lime-600">Tarife & Preise</a> • 
-            <a href="https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/" class="text-dark font-bold underline hover:text-lime-600">API mit Claude Code</a>
-          </p>
+          <div class="pt-4 border-t border-gray-200/80">
+            <p class="font-bold text-dark text-base mb-3">
+              📖 Meine detaillierten Praxis-Tests & Deep-Dives:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <a 
+                href="https://teleschmie.de/blog/se-ranking-test-2026/" 
+                class="group p-3.5 rounded-2xl bg-white border border-gray-200 hover:border-lime-500 hover:shadow-md transition-all block"
+              >
+                <div class="font-bold text-dark group-hover:text-lime-700 text-sm flex items-center justify-between">
+                  <span>📄 Großer SE Ranking Test 2026</span>
+                  <span class="text-gray-400 group-hover:text-dark transition-transform group-hover:translate-x-0.5">➔</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-1 leading-relaxed">
+                  Mein ausführlicher Dauertest: Alle Funktionen, Keyword-Limits und Erfahrungen aus 25 Jahren SEO-Praxis.
+                </p>
+              </a>
+
+              <a 
+                href="https://teleschmie.de/blog/sistrix-vs-se-ranking/" 
+                class="group p-3.5 rounded-2xl bg-white border border-gray-200 hover:border-lime-500 hover:shadow-md transition-all block"
+              >
+                <div class="font-bold text-dark group-hover:text-lime-700 text-sm flex items-center justify-between">
+                  <span>⚔️ Sistrix vs. SE Ranking</span>
+                  <span class="text-gray-400 group-hover:text-dark transition-transform group-hover:translate-x-0.5">➔</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-1 leading-relaxed">
+                  Der direkte Tool-Vergleich: Welches System liefert für Agenturen und KMU im D-A-CH-Markt mehr ROI?
+                </p>
+              </a>
+
+              <a 
+                href="https://teleschmie.de/blog/se-ranking-preise/" 
+                class="group p-3.5 rounded-2xl bg-white border border-gray-200 hover:border-lime-500 hover:shadow-md transition-all block"
+              >
+                <div class="font-bold text-dark group-hover:text-lime-700 text-sm flex items-center justify-between">
+                  <span>💰 SE Ranking Tarife & Preise</span>
+                  <span class="text-gray-400 group-hover:text-dark transition-transform group-hover:translate-x-0.5">➔</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-1 leading-relaxed">
+                  Alle Pakete (Core, Growth, Pro), Rabatt-Staffeln, Mitarbeiter-Sitze und mein exklusiver 15 % Gutschein-Deal.
+                </p>
+              </a>
+
+              <a 
+                href="https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/" 
+                class="group p-3.5 rounded-2xl bg-white border border-gray-200 hover:border-lime-500 hover:shadow-md transition-all block"
+              >
+                <div class="font-bold text-dark group-hover:text-lime-700 text-sm flex items-center justify-between">
+                  <span>🤖 SE Ranking mit API zu Claude Code</span>
+                  <span class="text-gray-400 group-hover:text-dark transition-transform group-hover:translate-x-0.5">➔</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-1 leading-relaxed">
+                  Praxis-Anleitung: Live-Ranking-Daten via offiziellem MCP-Server direkt mit Claude Desktop & Claude Code nutzen.
+                </p>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- OFFICIAL CTA BOX (STRICT COMPONENT FROM AGENTS.MD) -->
+  <!-- EXKLUSIVER SE RANKING RABATTCODE CTA -->
   <div class="container mx-auto px-4 max-w-4xl">
     <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-      <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+      <p class="font-bold text-xl mb-2">🎟️ Exklusiven 15 % SE Ranking Rabattcode sichern?</p>
+      <p class="text-sm font-medium mb-4 max-w-xl mx-auto text-dark/90">
+        Als offizieller SE Ranking Partner habe ich einen exklusiven Agentur-Rabattcode für mein Netzwerk. Schreib mir einfach eine kurze Nachricht auf LinkedIn – ich schicke dir den 15 % Gutscheincode gerne persönlich zu!
+      </p>
       <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-        Beitrag auf LinkedIn öffnen
+        15 % Rabattcode auf LinkedIn anfragen
       </a>
     </div>
   </div>
@@ -547,7 +601,7 @@ const webAppSchema = {
   <section class="py-12 bg-dark text-white text-center">
     <div class="container mx-auto px-4 max-w-3xl">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 font-headings">
-        Bereit für maximale SEO-Power ohne Seat-Kostenfalle?
+        Bereit für maximale SEO-Power ohne teure Mitarbeiter-Sitze?
       </h2>
       <p class="text-gray-300 text-lg mb-8">
         Teste SE Ranking jetzt 14 Tage unverbindlich im vollen Funktionsumfang. Bei Gefallen sicherst du dir 20 % Rabatt im Jahresabo plus meinen exklusiven 15 % Neukunden-Voucher.

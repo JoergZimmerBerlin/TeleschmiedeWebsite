@@ -68,7 +68,7 @@ Für Fragen, Feature Wünsche usw. gerne melden.</p></div>
 
 Ich habe das Tool für euch übrigens direkt in meinem [Glossar-Artikel zum SEORCH AI Check](/glossar/seorch-ai-check/) tiefgreifend analysiert. Schaut da unbedingt rein, wenn ihr die genauen Metriken verstehen wollt.
 
-Wer Unterstützung bei der AI Readiness benötigt, kann sich gerne in meiner [SEO Sprechstunde](/sprechstunde/) melden.
+Wer Unterstützung bei der AI Readiness benötigt, kann sich gerne in meiner [SEO Sprechstunde](/seo-sprechstunde/) melden.
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>

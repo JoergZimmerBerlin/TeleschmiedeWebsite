@@ -34,9 +34,9 @@ Der Mythos hält sich hartnäckig, aber professionelles [Social Media Community 
 
 Angeblich bringen Unternehmensseiten auf LinkedIn keine Reichweite mehr. **Post & Pray** ist die Standardstrategie vieler Unternehmen. Das Ergebnis? Gähnende Leere.
 
-Aber das Problem ist nicht die Plattform. Das Problem ist die fehlende Menschlichkeit. Wenn du [LinkedIn als Forum](/linkedin-ist-ein-forum-seo/) betrachtest, ändert sich alles. Du musst mit den Leuten reden.
+Aber das Problem ist nicht die Plattform. Das Problem ist die fehlende Menschlichkeit. Wenn du [LinkedIn als Forum](/blog/linkedin-ist-ein-forum-seo/) betrachtest, ändert sich alles. Du musst mit den Leuten reden.
 
-Genau das haben wir mit dem Freelancer Team gemacht. Wir haben echte [Community](/wir-seos-sind-schuld-community/) aufgebaut. Und plötzlich explodieren die Zahlen. 
+Genau das haben wir mit dem Freelancer Team gemacht. Wir haben echte [Community](/blog/wir-seos-sind-schuld-community/) aufgebaut. Und plötzlich explodieren die Zahlen. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörg Zimmer (LinkedIn Insights/Kommentar)</p>
@@ -50,7 +50,7 @@ Die Algorithmen belohnen echte Interaktion. Wer nur sendet, wird ignoriert. Wer 
   <div class="italic text-dark mb-0"><p>Iss ja auch so. Keine Sau interessiert sich für ein Unternehmen, das tot wirkt. Das Freelancer Team allerdings wirkt sehr lebendig. SEHR.</p></div>
 </div>
 
-Ein totes Schaufenster zieht keine Kunden an. Du musst die Tür aufmachen, Hallo sagen und ins Gespräch kommen. In meiner [SEO-Sprechstunde](/seo-sprechstunde-so-laeuft-sie-ab/) erkläre ich immer wieder, dass auch klassisches SEO immer mehr von Nutzersignalen und Engagement abhängt.
+Ein totes Schaufenster zieht keine Kunden an. Du musst die Tür aufmachen, Hallo sagen und ins Gespräch kommen. In meiner [SEO-Sprechstunde](/blog/seo-sprechstunde-so-laeuft-sie-ab/) erkläre ich immer wieder, dass auch klassisches SEO immer mehr von Nutzersignalen und Engagement abhängt.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Sybille Kunzelmann (LinkedIn Insights/Kommentar)</p>

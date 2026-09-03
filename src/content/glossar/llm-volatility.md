@@ -9,7 +9,7 @@ lastUpdated: "2026-08-21"
 image: "/src/assets/images/glossar/3d-light/glossar-llm-volatility-3d.webp"
 imageAlt: "3D Icon eines Roboters vor einem schwankenden Chart, der die LLM Volatilität symbolisiert"
 tags: ["AI SEO", "Generative Engine Optimization", "KI Metriken", "LLM Volatility", "KI Halluzinationen"]
-relatedPosts: ["ai-visibility-tools", "brand-sentiment", "large-language-models"]
+relatedPosts: ["ai-visibility-tools", "brand-sentiment", "llm-optimization"]
 faqs:
   - question: "Was bedeutet LLM Volatility?"
     answer: "LLM Volatility (Volatilität) beschreibt die natürliche Schwankung und Instabilität von Antworten, die ein KI-Sprachmodell (Large Language Model) auf exakt denselben Prompt gibt."
@@ -21,13 +21,13 @@ key_takeaways:
   - "Nutze Tools wie Bing Webmaster, um echte maschinelle Queries zu analysieren und Content darauf auszurichten."
 ---
 
-In der klassischen Google-Suche (SEO) waren wir es gewohnt, dass Rankings relativ stabil sind. Wenn du heute auf Platz 1 stehst, stehst du morgen mit hoher Wahrscheinlichkeit noch immer dort. In der Welt der [Generative Engine Optimization (GEO)](/glossar/generative-engine-optimization/) und der KI-Agenten gilt dieses Gesetz nicht mehr. Hier regiert die **LLM Volatility**.
+In der klassischen Google-Suche (SEO) waren wir es gewohnt, dass Rankings relativ stabil sind. Wenn du heute auf Platz 1 stehst, stehst du morgen mit hoher Wahrscheinlichkeit noch immer dort. In der Welt der [Generative Engine Optimization (GEO)](/glossar/geo/) und der KI-Agenten gilt dieses Gesetz nicht mehr. Hier regiert die **LLM Volatility**.
 
 LLM Volatility (zu Deutsch: Antwort-Volatilität oder Stabilität) misst die Fluktuation von KI-Antworten. Sie ist der Grund, warum du dich bei KI-Suchmaschinen nicht auf einen einzigen manuellen Test-Prompt verlassen darfst.
 
 ## Warum schwanken KI-Antworten so stark?
 
-[Large Language Models](/glossar/large-language-models/) wie ChatGPT, Claude oder Perplexity sind nicht deterministisch. Sie greifen nicht starr auf eine Datenbank zurück, sondern berechnen für jedes Wort probabilistisch das wahrscheinlichste Folgewort. Das Modell hat eine sogenannte "Temperatur" (Kreativitäts-Faktor). 
+[Large Language Models](/glossar/llm-optimization/) wie ChatGPT, Claude oder Perplexity sind nicht deterministisch. Sie greifen nicht starr auf eine Datenbank zurück, sondern berechnen für jedes Wort probabilistisch das wahrscheinlichste Folgewort. Das Modell hat eine sogenannte "Temperatur" (Kreativitäts-Faktor). 
 
 Wenn du denselben Prompt (*"Welches ist die beste SEO-Agentur in Berlin?"*) zehnmal hintereinander in einem neuen Chatfenster eingibst, wirst du höchstwahrscheinlich verschiedene Antworten erhalten. Einmal wirst du als Nummer 1 empfohlen, beim nächsten Mal tauchst du nur als Alternative auf, und beim dritten Mal fehlst du komplett.
 

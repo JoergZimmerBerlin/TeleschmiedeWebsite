@@ -32,7 +32,7 @@ faqs:
 
 Der Spirit der Selbstständigkeit ist einzigartig. 
 
-Jeder [Freelancer](/freelancing/) kämpft an seiner eigenen Front. Doch wenn sich diese Energie bündelt, entsteht etwas Gewaltiges. Genau das passiert im Freelancer Team. 
+Jeder [Freelancer](/glossar/freelancing/) kämpft an seiner eigenen Front. Doch wenn sich diese Energie bündelt, entsteht etwas Gewaltiges. Genau das passiert im Freelancer Team. 
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Sebastian Thönnes (LinkedIn Insights/Kommentar)</p>
@@ -41,7 +41,7 @@ Jeder [Freelancer](/freelancing/) kämpft an seiner eigenen Front. Doch wenn sic
 
 Vertrauen ist die absolute Basis. Wir kennen uns. Wir schätzen uns. Wir wissen, wer in welchem Fachgebiet der absolute Nerd ist. Diese geballte Kompetenz spüren auch die Kunden, für die wir gemeinsam Lösungen erarbeiten. Wenn ein Projekt hakt, haben wir auf dem kurzen Dienstweg direkt die passende Expertise parat.
 
-Und wir sind laut. Sehr laut sogar. Wer schon mal auf der [OMR](/omr-freelancer-stand-roi/) oder der [Freelance Unlocked](/freelance-unlocked-lila-tshirts/) war, kommt an den lila T-Shirts nicht vorbei.
+Und wir sind laut. Sehr laut sogar. Wer schon mal auf der [OMR](/blog/omr-freelancer-stand-roi/) oder der [Freelance Unlocked](/blog/freelance-unlocked-lila-tshirts/) war, kommt an den lila T-Shirts nicht vorbei.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Melanie Aurich (LinkedIn Insights/Kommentar)</p>
@@ -53,7 +53,7 @@ Und wir sind laut. Sehr laut sogar. Wer schon mal auf der [OMR](/omr-freelancer-
   <div class="italic text-dark mb-0"><p>Spaß ist genau das Stichwort. Denke, darauf kommt es für uns alle am meisten drauf an. Wir haben viel Power im Team. Bin echt froh, Teil davon zu sein! 💜</p></div>
 </div>
 
-Der Spaß am gemeinsamen Business verbindet uns. Wir sind nicht nur Kollegen auf Zeit, wir sind eine echte [Community](/wir-seos-sind-schuld-community/). Man feiert gemeinsam Erfolge, trinkt zusammen ein Bier und hilft sich bei fachlichen Problemen.
+Der Spaß am gemeinsamen Business verbindet uns. Wir sind nicht nur Kollegen auf Zeit, wir sind eine echte [Community](/blog/wir-seos-sind-schuld-community/). Man feiert gemeinsam Erfolge, trinkt zusammen ein Bier und hilft sich bei fachlichen Problemen.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Jörg Zimmer (LinkedIn Insights/Kommentar)</p>
@@ -67,7 +67,7 @@ Der Spaß am gemeinsamen Business verbindet uns. Wir sind nicht nur Kollegen auf
 
 Wer Teil der lila Bewegung werden will, muss fachlich und menschlich passen. Die Hürden sind hoch, aber das Ergebnis ist ein Experten-Netzwerk, das seinesgleichen sucht.
 
-Brauchst du Unterstützung bei einem komplexen Projekt? In meiner [SEO-Sprechstunde](/seo-sprechstunde-so-laeuft-sie-ab/) analysieren wir deinen Fall und ich hole exakt die Freelancer ins Boot, die du für deinen Erfolg brauchst.
+Brauchst du Unterstützung bei einem komplexen Projekt? In meiner [SEO-Sprechstunde](/blog/seo-sprechstunde-so-laeuft-sie-ab/) analysieren wir deinen Fall und ich hole exakt die Freelancer ins Boot, die du für deinen Erfolg brauchst.
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
   <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>

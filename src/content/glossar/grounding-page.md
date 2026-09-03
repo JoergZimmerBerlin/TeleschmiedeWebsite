@@ -77,7 +77,7 @@ Die H1 (Hauptüberschrift) deiner Grounding Page darf **ausschließlich den exak
 
 ### 3. Der Englisch-Bias (Mehrsprachigkeit)
 Selbst wenn du ein lokaler Bäcker in Berlin bist und deine Zielgruppe rein deutschsprachig ist: **Die Kern-Trainingsdaten der meisten großen KIs sind englisch.** 
-Wenn du eine zweite Grounding Page auf Englisch anlegst (z.B. `/groundingpage-en/`), schlägst du eine Brücke zum englischen Bias der [Large Language Models](/glossar/llm/). Die KI versteht deine Entität dadurch auf einem tieferen, fundamentaleren Level und verknüpft sie sicherer mit globalen Konzepten.
+Wenn du eine zweite Grounding Page auf Englisch anlegst (z.B. `/groundingpage-en/`), schlägst du eine Brücke zum englischen Bias der [Large Language Models](/glossar/llm-optimization/). Die KI versteht deine Entität dadurch auf einem tieferen, fundamentaleren Level und verknüpft sie sicherer mit globalen Konzepten.
 
 ### 4. Evidence & Trust (Beweisführung durch Links)
 Behauptungen wie "Wir sind Marktführer" bringen bei KIs nichts ohne Beweise. Verlinke harte [Citations (Zitate und Erwähnungen)](/glossar/citation/) in deiner Grounding Page. Nutze Links zu Handelsregisterauszügen, offiziellen Wikipedia-Einträgen, Wikidata oder starken Pressemitteilungen. Das nennt man "Evidence-Based SEO".
@@ -92,7 +92,7 @@ Behauptungen wie "Wir sind Marktführer" bringen bei KIs nichts ohne Beweise. Ve
 | **Tonalität** | Emotional, werblich, überzeugend | Nüchtern, faktenbasiert, informativ |
 | **Struktur** | Fließtext, Bilder, Slider, emotionale H2 | `<dl>`, `<dt>`, Tabellen, Key-Value Pairs |
 | **Design** | CI-konform, visuell ansprechend | Reduziert, Ladezeit-optimiert (PageSpeed) |
-| **Zweck** | Conversion Rate optimieren | [Halluzinationen](/glossar/halluzination/) verhindern |
+| **Zweck** | Conversion Rate optimieren | [KI-Halluzinationen verhindern](/glossar/in-ki-antworten-erscheinen/) |
 
 ## Aus der Praxis: Meine persönliche Erfahrung
 

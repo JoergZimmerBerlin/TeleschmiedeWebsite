@@ -24,7 +24,7 @@ faqs:
 
 Für über 20 Jahre war die Formel des digitalen Marketings simpel: Optimiere für Keywords, baue Backlinks auf, ranke auf Position 1 bei Google und sammle Klicks ein. Wer auf Seite 2 stand, war unsichtbar. 
 
-Doch die rasante Entwicklung von Answer Engines (wie Perplexity, ChatGPT Search und Google AI Overviews) hat die [klassische Suchmaschinenoptimierung (SEO)](/glossar/seo/) grundlegend verändert. Nutzer wollen sich nicht mehr durch zehn blaue Links klicken. Sie wollen sofortige, fertig verarbeitete Antworten. 
+Doch die rasante Entwicklung von Answer Engines (wie Perplexity, ChatGPT Search und Google AI Overviews) hat die [klassische Suchmaschinenoptimierung (SEO)](/glossar/technisches-seo/) grundlegend verändert. Nutzer wollen sich nicht mehr durch zehn blaue Links klicken. Sie wollen sofortige, fertig verarbeitete Antworten. 
 
 Das neue Ziel lautet: **In KI Antworten erscheinen**. 
 

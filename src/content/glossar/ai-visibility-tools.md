@@ -22,7 +22,7 @@ faqs:
 
 ## Die Evolution des Rank-Trackings
 
-In der klassischen [Suchmaschinenoptimierung (SEO)](/glossar/seo/) war die Metrik des Erfolgs simpel: Position 1 bis 10. Tools wie Sistrix, Ahrefs oder Semrush crawlen die Google-Suchergebnisseiten (SERPs) und zeigen an, auf welchem Platz deine URL für ein bestimmtes Keyword steht.
+In der klassischen [Suchmaschinenoptimierung (SEO)](/glossar/technisches-seo/) war die Metrik des Erfolgs simpel: Position 1 bis 10. Tools wie Sistrix, Ahrefs oder Semrush crawlen die Google-Suchergebnisseiten (SERPs) und zeigen an, auf welchem Platz deine URL für ein bestimmtes Keyword steht.
 
 Mit dem Aufstieg von Answer Engines (wie ChatGPT, Perplexity, Claude und Google AI Overviews) hat sich das Paradigma grundlegend verschoben. Nutzer suchen nicht mehr nach Links, sie suchen nach Antworten. Wenn ein Nutzer fragt: *"Welche CRM-Software eignet sich am besten für deutsche Handwerksbetriebe?"*, generiert die KI eine individuelle Antwort. 
 

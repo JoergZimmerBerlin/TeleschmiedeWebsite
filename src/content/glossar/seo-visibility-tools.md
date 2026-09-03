@@ -20,7 +20,7 @@ faqs:
     answer: Aktuell gibt es nicht das eine perfekte Tool, da der Markt sich extrem schnell entwickelt und ständig neue LLMs auf den Markt drängen. Rankscale hat sich jedoch als sehr solider und extrem innovativer Vorreiter etabliert, um KI-Antworten strukturiert zu tracken und Entitäten zu analysieren. Aber auch etablierte Player wie SE Ranking ziehen massiv nach und bieten mittlerweile dedizierte Dashboards, um AI Overviews (SGE) und die Sichtbarkeit in generativen Suchmaschinen auszuwerten.
 ---
 
-Die Landschaft der Suchmaschinenoptimierung spaltet sich im Jahr 2026 massiv auf. Auf der einen Seite steht die klassische Google-Suche mit ihren über Jahrzehnte etablierten Ranking-Faktoren und KPIs. Auf der anderen Seite wächst die tägliche Nutzung von generativen KI-Assistenten in einem rasanten Tempo, das selbst Branchenkenner überrascht. Dieser strukturelle Wandel zwingt uns dazu, unsere etablierten Messmethoden fundamental zu überdenken. Ein bloßer Blick auf den traditionellen [Sichtbarkeitsindex](/sichtbarkeitsindex/) liefert heute nur noch die halbe Wahrheit. Wer seine SEO-Budgets intelligent allozieren und vor der Geschäftsführung rechtfertigen will, muss exakt verstehen, wo und wie die eigene Marke im Netz empfohlen wird. Das wirft unweigerlich die essenzielle Frage nach dem richtigen Tool-Stack auf: **Wann brauche ich SEO Visibility Tools und wann AI Visibility Tools?**
+Die Landschaft der Suchmaschinenoptimierung spaltet sich im Jahr 2026 massiv auf. Auf der einen Seite steht die klassische Google-Suche mit ihren über Jahrzehnte etablierten Ranking-Faktoren und KPIs. Auf der anderen Seite wächst die tägliche Nutzung von generativen KI-Assistenten in einem rasanten Tempo, das selbst Branchenkenner überrascht. Dieser strukturelle Wandel zwingt uns dazu, unsere etablierten Messmethoden fundamental zu überdenken. Ein bloßer Blick auf den traditionellen [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) liefert heute nur noch die halbe Wahrheit. Wer seine SEO-Budgets intelligent allozieren und vor der Geschäftsführung rechtfertigen will, muss exakt verstehen, wo und wie die eigene Marke im Netz empfohlen wird. Das wirft unweigerlich die essenzielle Frage nach dem richtigen Tool-Stack auf: **Wann brauche ich SEO Visibility Tools und wann AI Visibility Tools?**
 
 ## Die fundamentale Krise klassischer SEO Visibility Tools
 
@@ -32,7 +32,7 @@ Der Mechanismus ist robust. Er hat nur einen massiven Haken, der uns heute einho
 
 Noch schlimmer: Du erfährst nicht, ob deine Software in der Antwort der KI empfohlen wurde. 
 
-Die reine [KI-Sichtbarkeit](/ki-sichtbarkeit/) wird von traditionellen Metriken schlichtweg nicht erfasst. Das ist kein Fehler der Tools an sich. Sie wurden für eine Welt gebaut, die aus 10 blauen Links und klaren Suchvolumina bestand. In einer Zero-Click-Realität, in der KIs die Antworten direkt synthetisieren, greifen diese Werkzeuge jedoch ins Leere.
+Die reine [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/) wird von traditionellen Metriken schlichtweg nicht erfasst. Das ist kein Fehler der Tools an sich. Sie wurden für eine Welt gebaut, die aus 10 blauen Links und klaren Suchvolumina bestand. In einer Zero-Click-Realität, in der KIs die Antworten direkt synthetisieren, greifen diese Werkzeuge jedoch ins Leere.
 
 ## Der Aufstieg der AI Visibility Tools (GEO & AEO)
 
@@ -47,7 +47,7 @@ Dabei stehen völlig neue Metriken im Fokus:
 - **Semantic Completeness:** Deckt dein bereitgestellter Content alle Facetten ab, die eine KI benötigt, um eine umfassende Antwort zu generieren?
 - **Share of Voice (LLM):** Wie oft wird deine Lösung im Vergleich zu deinen härtesten Konkurrenten als Top-Empfehlung genannt?
 
-Diese Werkzeuge revolutionieren das [AI Tracking](/ai-tracking-tools/), weil sie den Fokus weg von isolierten Keywords hin zu echten Entitäten verlagern.
+Diese Werkzeuge revolutionieren das [AI Tracking](/glossar/ai-tracking-tools/), weil sie den Fokus weg von isolierten Keywords hin zu echten Entitäten verlagern.
 
 ## Der direkte Vergleich: SEO vs. AI Metriken
 
@@ -72,10 +72,10 @@ In der Praxis haben sich in den letzten Monaten zwei Systeme besonders hervorget
 Ein prominentes Beispiel aus meinem Agentur-Alltag ist <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>. Wir nutzen dieses extrem fokussierte Werkzeug aus Österreich, um für Kunden messbar zu machen, in welchen LLMs sie als Entität bereits verankert sind. Rankscale trackt parallel bis zu 17 verschiedene Sprachmodelle. Das Tracking geht hier komplett weg vom reinen Suchvolumen hin zur tatsächlichen Relevanz innerhalb eines KI-Dialogs. 
 
 > [!TIP]
-> **Praxis-Tipp:** Nutze Rankscale, wenn dein primäres Ziel ist, die reine Markenbekanntheit und Erwähnung in geschlossenen Ökosystemen wie ChatGPT zu überprüfen, in die Google Analytics keinen Einblick hat. Weitere Details findest du in meinem Testbericht zum [Rankscale](/rankscale-ai-visibility-tool/).
+> **Praxis-Tipp:** Nutze Rankscale, wenn dein primäres Ziel ist, die reine Markenbekanntheit und Erwähnung in geschlossenen Ökosystemen wie ChatGPT zu überprüfen, in die Google Analytics keinen Einblick hat. Weitere Details findest du in meinem Testbericht zum [Rankscale](/blog/rankscale-ai-visibility-tool/).
 
 ### SE Ranking: Die Brücke zwischen den Welten
-Wer nicht zwingend ein isoliertes Standalone-Tool sucht, sondern das Beste aus beiden Welten vereinen möchte, sollte einen Blick auf den <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> AI Tracker werfen. SE Ranking war schon immer ein grundsolides, klassisches SEO-Tool. Die Integration ihres AI Trackers ermöglicht es nun, traditionelle Rankings nahtlos mit den neuen Google AI Overviews (SGE) abzugleichen. Du behältst deine Google-Traffic-Ströme im Blick und siehst gleichzeitig, ob du in den generierten Zusammenfassungen vorkommst. Das ist für Inhouse-Teams oft die effizienteste Lösung. Auch hierzu habe ich die Details im Artikel über den [SE Ranking AI Tracker](/se-ranking-ai-tracker/) dokumentiert.
+Wer nicht zwingend ein isoliertes Standalone-Tool sucht, sondern das Beste aus beiden Welten vereinen möchte, sollte einen Blick auf den <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> AI Tracker werfen. SE Ranking war schon immer ein grundsolides, klassisches SEO-Tool. Die Integration ihres AI Trackers ermöglicht es nun, traditionelle Rankings nahtlos mit den neuen Google AI Overviews (SGE) abzugleichen. Du behältst deine Google-Traffic-Ströme im Blick und siehst gleichzeitig, ob du in den generierten Zusammenfassungen vorkommst. Das ist für Inhouse-Teams oft die effizienteste Lösung. Auch hierzu habe ich die Details im Artikel über den [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/) dokumentiert.
 
 ## Was brauchst du wirklich im Tech-Stack?
 

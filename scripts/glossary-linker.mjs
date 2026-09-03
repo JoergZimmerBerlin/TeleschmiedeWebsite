@@ -8,7 +8,7 @@ const DIST_DIR = './dist';
 // 1. Load Glossary Terms
 function loadGlossary() {
   const terms = [];
-  const files = fs.readdirSync(GLOSSAR_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const files = fs.readdirSync(GLOSSAR_DIR).filter(f => (f.endsWith('.md') || f.endsWith('.mdx')) && !f.startsWith('_'));
   
   for (const file of files) {
     const content = fs.readFileSync(path.join(GLOSSAR_DIR, file), 'utf-8');
@@ -33,7 +33,7 @@ function loadGlossary() {
 // 2. Load Blog Posts
 function loadBlog() {
   const posts = [];
-  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+  const files = fs.readdirSync(BLOG_DIR).filter(f => (f.endsWith('.md') || f.endsWith('.mdx')) && !f.startsWith('_'));
   
   for (const file of files) {
     const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');

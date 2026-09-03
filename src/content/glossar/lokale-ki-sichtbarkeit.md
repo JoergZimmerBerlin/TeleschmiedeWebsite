@@ -22,7 +22,7 @@ faqs:
 
 ## Der Wandel im Local SEO
 
-Für lokale Dienstleister, Handwerker, Kanzleien und Gastronomen war das Ziel der letzten Jahre klar definiert: Ein Platz im "Local Pack" (den Google Maps Einträgen direkt in der klassischen Suche). Wer sein [Google Business Profile](/glossar/seo/) sauber pflegte, generierte konstant Neukunden.
+Für lokale Dienstleister, Handwerker, Kanzleien und Gastronomen war das Ziel der letzten Jahre klar definiert: Ein Platz im "Local Pack" (den Google Maps Einträgen direkt in der klassischen Suche). Wer sein [Google Business Profile](/glossar/local-seo/) sauber pflegte, generierte konstant Neukunden.
 
 Mit der rasanten Verbreitung von Large Language Models (LLMs) hat sich das Suchverhalten radikal geändert. Nutzer tippen nicht mehr nur "Elektriker Berlin", sondern fragen ChatGPT: *"Welcher Elektriker in Berlin-Spandau hat Notdienst, ist gut bewertet und akzeptiert Kartenzahlung?"*
 

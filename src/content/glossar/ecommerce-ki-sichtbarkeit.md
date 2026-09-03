@@ -22,7 +22,7 @@ faqs:
 
 ## Die Krise der Kategorie-Seiten im E-Commerce
 
-Das traditionelle [SEO für Online-Shops](/glossar/seo/) folgt seit über einem Jahrzehnt einem eisernen Gesetz: **Kategorie-Seiten ziehen den Traffic, Produktseiten machen den Sale.** 
+Das traditionelle [SEO für Online-Shops](/glossar/technisches-seo/) folgt seit über einem Jahrzehnt einem eisernen Gesetz: **Kategorie-Seiten ziehen den Traffic, Produktseiten machen den Sale.** 
 
 Shopbetreiber haben Millionenbudgets investiert, um Seiten wie *"Herren Laufschuhe kaufen"* auf Platz 1 bei Google zu bringen. Doch mit dem Aufkommen generativer KI-Suche (Answer Engines wie ChatGPT, Perplexity oder Google AI Overviews) bricht dieses Modell auf.
 

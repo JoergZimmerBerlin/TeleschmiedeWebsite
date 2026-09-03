@@ -95,7 +95,7 @@ if (type === 'post') {
           </div>
         </div>
 
-        <header class="mb-12 max-w-4xl">
+        <header class="mb-12 w-full">
           <p class="subheadline mb-4 flex flex-wrap items-center gap-x-3 gap-y-1">
             <span>{new Date(post.data.date).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
             {lastReviewed && new Date(lastReviewed).getTime() > new Date(post.data.date).getTime() + 86400000 && (

@@ -97,7 +97,7 @@ Link: <https://deinedomain.de/.well-known/ai-catalog.json>; rel="service-desc"; 
   <blockquote class="italic text-dark mb-3">
     „Stelle sicher, dass SEO nahtlos mit anderen Abteilungen wie Marketing, Content-Erstellung und Entwicklung zusammenarbeitet.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7099038863783784448" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7099038863783784448" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

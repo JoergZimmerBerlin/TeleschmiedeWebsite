@@ -88,7 +88,7 @@ Nach dem Absenden bestätigt die API den Empfang mit dem HTTP-Statuscode `200 OK
   <blockquote class="italic text-dark mb-3">
     „An erster Stelle steht für mich persönlich immer die saubere technische Indexierung. Ohne Indexierung keine Rankings, keine Ergebnisse.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7090285441437851648" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7090285441437851648" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

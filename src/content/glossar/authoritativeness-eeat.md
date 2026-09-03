@@ -82,7 +82,7 @@ Durch diese Auszeichnung muss die Suchmaschine nicht raten, wer den Artikel verf
   <blockquote class="italic text-dark mb-3">
     „Gerade das ganze Vertrauensthema zur Domain und zum Topic. Wie oft nach deiner Marke oder deiner URL gesucht wird. Wie du sonst so im Internet und Social Media erscheinst. Das bezahlter Traffic in das Ranking einfließen kann. Die Reputation deiner Marke mit einfließt usw. Das alles macht SEO zum Teil des Markenaufbaus.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

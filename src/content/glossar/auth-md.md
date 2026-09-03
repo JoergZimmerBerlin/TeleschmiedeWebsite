@@ -97,7 +97,7 @@ Link: <https://deinedomain.de/.well-known/auth.md>; rel="authorization-policy"; 
   <blockquote class="italic text-dark mb-3">
     „SEOs sind die Schnittstelle, um das Web ein Stück besser zu machen.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

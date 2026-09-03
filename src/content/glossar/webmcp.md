@@ -83,7 +83,7 @@ Wenn ein KI-Assistent (wie Google Gemini in Chrome oder Microsoft Copilot in Edg
   <blockquote class="italic text-dark mb-3">
     „Das grundsätzliche Problem ist die unsichtbare Welt hinter der Website. Ob eine Website gut oder schlecht ist. Gut oder schlecht programmiert. Schnell oder langsam. Selbst das Prüfen, ob sie gut oder schlecht rankt, ist von außen schwer zu beurteilen.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7083056707148374016" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7083056707148374016" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

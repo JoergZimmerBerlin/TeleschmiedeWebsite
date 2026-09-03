@@ -91,7 +91,7 @@ Da das Shared Payment Token fest an die `merchantId` und einen maximalen Cent-Be
   <blockquote class="italic text-dark mb-3">
     „Traffic ist erst mal nur eine Zahl. Entscheidend ist, was du daraus machst.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

@@ -90,7 +90,7 @@ Durch diese Konfiguration erkennt das MCP-Framework oder der KI-Agent sofort, da
   <blockquote class="italic text-dark mb-3">
     „Developer und SEOs MÜSSEN zusammen arbeiten! Gerade wenn es um Relaunch geht. Da wirst als SEO nach dem Live Gang hinzugeholt und sollst dann erklären, warum du beispielsweise die Struktur anders aufgesetzt hättest...“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6979120413486280706" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6979120413486280706" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

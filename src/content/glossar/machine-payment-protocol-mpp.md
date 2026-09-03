@@ -91,7 +91,7 @@ Da Stripe die Abrechnung direkt im Backend verbucht, landet das Geld ohne Umwege
   <blockquote class="italic text-dark mb-3">
     „Umsatz wird dann gemacht wenn alles gut zusammenpasst. Vom Klick der Anzeige, über die Landingpage bis hin zum Checkout.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

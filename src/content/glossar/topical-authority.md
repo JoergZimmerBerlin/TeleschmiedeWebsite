@@ -95,7 +95,7 @@ Durch diese explizite Verknüpfung im JSON-LD verstehen Crawler exakt, in welche
   <blockquote class="italic text-dark mb-3">
     „Vergiss Spam und irgendwelche Abkürzungen, die nichts zur Qualität deiner Seite beitragen.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109464410510741504" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109464410510741504" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

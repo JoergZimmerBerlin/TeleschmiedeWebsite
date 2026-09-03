@@ -91,7 +91,7 @@ Nach Eingang prüft der Webserver die Blockchain-Gültigkeit über einen lokalen
   <blockquote class="italic text-dark mb-3">
     „Schon immer waren Webseiten für mich virtuelle Verkäufer, die 24 Stunden am Tag verfügbar sind.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6969239987783401472" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6969239987783401472" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

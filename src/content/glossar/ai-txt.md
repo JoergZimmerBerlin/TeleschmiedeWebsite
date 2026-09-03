@@ -91,7 +91,7 @@ Durch diese Konfiguration bleiben Webinhalte für die organische [Indexierung](/
   <blockquote class="italic text-dark mb-3">
     „An 1. Stelle steht immer die saubere Indizierung. Ja, das ist langweiliges technisches SEO, es ist aber die Grundlage für alles andere.“
   </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109866854751330304" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-lime-700 hover:underline">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109866854751330304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
     ↗ Zur Diskussion auf LinkedIn
   </a>
 </div>

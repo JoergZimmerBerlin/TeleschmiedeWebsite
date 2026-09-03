@@ -9,19 +9,13 @@
   <div class="absolute -bottom-32 -right-32 w-72 h-72 bg-lime-accent/10 rounded-full blur-[100px] pointer-events-none"></div>
 
   <div class="relative z-10 max-w-5xl mx-auto">
-    <!-- Header -->
-    <div class="text-center mb-8">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 text-xs md:text-sm font-semibold text-lime-accent mb-4">
-        <span>📅 Stand: 3. September 2026</span>
-        <span class="text-gray-400">•</span>
-        <span class="text-gray-200">Offizielle Tarife & Mitarbeiter-Sitze geprüft</span>
+    <!-- Compact Calculator Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-white/10">
+      <div class="flex items-center gap-2.5">
+        <span class="w-8 h-8 rounded-xl bg-lime-accent text-dark flex items-center justify-center font-bold text-base">🎛️</span>
+        <h2 class="text-xl md:text-2xl font-bold text-white font-headings">Dein Team-Setup konfigurieren:</h2>
       </div>
-      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold font-headings tracking-tight text-white mb-3">
-        SEO-Tool Kosten- & Ersparnis-Rechner
-      </h2>
-      <p class="text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
-        Schluss mit versteckten Aufpreisen für Mitarbeiter-Sitze und Modul-Dschungel: Berechne die echten jährlichen Gesamtkosten für dein Team im direkten Vergleich.
-      </p>
+      <span class="text-xs text-lime-accent/80 font-medium">⚡ Live-Vergleich aller 8 SEO-Suiten</span>
     </div>
 
     <!-- Sliders Grid -->
@@ -134,7 +128,15 @@
               <td class="py-4 px-4" id="seranking-seats-label">3 Manager-Sitze inkl.</td>
               <td class="py-4 px-4 text-right text-lime-accent font-mono text-lg" id="cost-seranking">2.256 €</td>
               <td class="py-4 px-4 text-right">
-                <span class="inline-block bg-lime-accent text-dark text-xs px-2.5 py-1 rounded-full font-bold">Referenz</span>
+                <a 
+                  href="https://seranking.com/de/subscription.html?ga=4169588&source=kostenrechner" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="inline-flex items-center gap-1 bg-lime-accent text-dark text-xs font-extrabold px-3 py-1.5 rounded-full hover:bg-white hover:scale-105 transition-all shadow-sm cursor-pointer"
+                  title="Offizielle Tarife & Preise von SE Ranking ansehen"
+                >
+                  <span>Referenz (Preise ➔)</span>
+                </a>
               </td>
             </tr>
 

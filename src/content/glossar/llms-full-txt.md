@@ -28,9 +28,57 @@ Mit dem Aufkommen autonomer Programmier-Agenten wie Cursor oder Claude Code und 
 
 Als Ergänzung zur kompakteren [llms.txt](/glossar/llms-txt/) entstand die Spezifikation der **llms-full.txt**. Während die Index-Variante als schlankes Inhaltsverzeichnis dient, stellt die Volltext-Version das gebündelte, pure Fachwissen einer Plattform in einer einzigen Markdown-Datei bereit. Doch in der Marketing-Welt kursieren gefährliche Mythen: Viele Agenturen verkaufen die Datei als Wundermittel für automatische Spitzenplatzierungen in Suchmaschinen. Eine nüchterne technische Einordnung zeigt, was die Datei tatsächlich leistet und wo ihre Grenzen liegen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Die llms-full.txt ist ein fantastisches Werkzeug für Software-Entwickler und RAG-Pipelines, aber kein Freifahrtschein für nachlässige Web-Architektur. Wer glaubt, man könne eine unstrukturierte Website einfach mit einer Textdatei heilen, verkennt die Realität der Suchmaschinen. Echte KI-Sichtbarkeit entsteht durch fundierte Entitäten, starke Zitate und saubere technische Basisarbeit auf jeder einzelnen Unterseite.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-mono uppercase tracking-wider bg-lime-accent/30 text-dark px-2.5 py-1 rounded-full font-bold">
+      30-Sekunden Inhaber-Check
+    </span>
+  </div>
+  <h3 class="text-lg md:text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">
+    Jörgs Praxistipp aus der SEO-Sprechstunde
+  </h3>
+  <p class="text-neutral-700 text-sm md:text-base leading-relaxed mb-4">
+    Kippe niemals unbedacht deine gesamte Website in eine einzige gigantische llms-full.txt. Wenn Entwickler tausende Zeilen Boilerplate, Impressum und veraltete Blogartikel ungefiltert zusammenkopieren, überschreitest du die Token-Grenzen der Agenten und erzeugst semantisches Rauschen. Konzentriere dich stattdessen auf hochrelevante Dokumentation, API-Referenzen und Kernleistungen – jeweils flankiert von klaren kanonischen URLs.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/20">
+    <p class="text-xs font-bold text-neutral-500 uppercase tracking-wider mb-1">
+      Kontrollfrage an deine Webagentur oder dein Inhouse-Team:
+    </p>
+    <p class="text-sm font-semibold text-dark italic mb-0">
+      „Generieren wir unsere llms-full.txt automatisiert im Build-Prozess und verlinken darin jeden Wissensblock mit einer eindeutigen kanonischen URL samt Trailing Slash?“
+    </p>
+  </div>
+</div>
+
 ## 1. Was ist die llms-full.txt und wie funktioniert sie?
 
-Die Initiative für strukturierte Textdateien geht auf Jeremy Howard zurück, der im Spätsommer 2024 vorschlug, Websites mit maschinenlesbaren Markdown-Pendants auszustatten. Die Grundüberlegung ist simpel: Statt einen KI-Agenten über dutzende Unterseiten crawlen zu lassen, kann dieser mit einem einzigen HTTP-Get-Request (`https://deinedomain.de/llms-full.txt`) die gesamte Dokumentation in sein Kontextfenster laden.
+Die Initiative für strukturierte Textdateien geht auf Jeremy Howard zurück, der im Spätsommer 2024 vorschlug, Websites mit maschinenlesbaren Markdown-Pendants auszustatten. Die Grundüberlegung ist simpel: Statt einen KI-Agenten über dutzende Unterseiten crawlen zu lassen, kann dieser mit einem einzigen HTTP-Get-Request (`https://teleschmie.de/llms-full.txt`) die gesamte Dokumentation in sein Kontextfenster laden.
 
 Die Datei verzichtet auf jegliches visuelles Styling und konzentriert sich ausschließlich auf hierarchische Überschriften, semantische Listen, Code-Snippets und prägnanten Fließtext. 
 
@@ -60,33 +108,33 @@ Eine ähnliche Ressourceneffizienz lässt sich auch dynamisch über [Markdown Co
 Eine professionell aufgesetzte Datei folgt strikten redaktionellen und semantischen Kriterien. Das folgende neutrale Beispiel verdeutlicht die empfohlene Struktur:
 
 ```markdown
-# Fachdokumentation und Wissensbasis der DeineDomain GmbH
+# Fachdokumentation und Wissensbasis der Teleschmiede
 
 > Vollständige Referenz für Entwickler, Schnittstellen und strategische Methodiken.
-> Letzte Aktualisierung: 14. April 2026. Offizielle URL: https://deinedomain.de/
+> Letzte Aktualisierung: 14. April 2026. Offizielle URL: https://teleschmie.de/
 
 ## 1. Technologische Grundlagen
 
 ### Semantisches Dokumenten-Parsing
 Das Parsen von Inhalten erfordert klare hierarchische Abstufungen. Unsere Plattform setzt 
 konsequent auf HTML5-Standards und strukturierte Auszeichnungen.
-Quelle: https://deinedomain.de/glossar/html-struktur/
+Quelle: https://teleschmie.de/glossar/html-struktur/
 
 ### Konfiguration von Schnittstellen
 Alle Endpunkte erfordern HTTPS und kryptografische Validierung via RFC 9421.
 Beispielhafter Authentifizierungsaufruf:
 ```bash
-curl -X GET "https://api.deinedomain.de/v1/data" \
+curl -X GET "https://api.teleschmie.de/v1/data" \
   -H "Signature-Input: sig1=(\"@method\" \"@target-uri\")"
 ```
-Quelle: https://deinedomain.de/glossar/http-message-signatures/
+Quelle: https://teleschmie.de/glossar/http-message-signatures/
 
 ## 2. Strategische Beratungsfelder
 
 ### Generative Engine Optimization (GEO)
 Die Optimierung für KI-Antwortmaschinen erfordert konsistente Entitätsdaten und 
 widerspruchsfreie Zitationsquellen im Web Graph.
-Quelle: https://deinedomain.de/glossar/geo/
+Quelle: https://teleschmie.de/glossar/geo/
 ```
 
 Jeder Inhaltsabschnitt enthält eine eindeutige kanonische Quellenangabe mit sauberem Trailing Slash. Dadurch weiß ein KI-Agent bei der Antwortgenerierung exakt, welche Webadresse als Referenzlink an den menschlichen Nutzer ausgegeben werden muss.
@@ -99,22 +147,48 @@ In der Praxis führt die unüberlegte Implementierung häufig zu negativen Begle
 2. **Fehlende Quellen-URLs:** Werden Textblöcke ohne Bezug zur Original-URL eingebunden, kann das Sprachmodell den Inhalt zwar erfassen, aber in seinen Antworten keinen klickbaren Quellverweis erzeugen. Der Referral-Traffic geht vollständig verloren.
 3. **Vernachlässigung des HTML-Fundaments:** Der fatale Glaube, eine Textdatei mache Onpage-Optimierung überflüssig. Googlebot und Web-Crawler durchsuchen primär den regulären Webauftritt. Ohne saubere [HTML-Struktur](/glossar/html-struktur/) scheitert die reguläre Indexierung weiterhin.
 
-<div class="bg-white border-l-4 border-lime-500 p-4 rounded-r-lg shadow-sm my-6">
-  <p class="font-bold text-dark mb-1">Jörg Zimmer aus der SEO-Praxis:</p>
-  <p class="text-gray-700 italic mb-2">„Die llms-full.txt ist ein fantastisches Werkzeug für Software-Entwickler und technische Dokumentationen, aber kein Freifahrtschein für nachlässige SEO. Wer glaubt, man könne eine unstrukturierte Website einfach mit einer Textdatei heilen, verkennt die Realität der Suchmaschinen. Echte KI-Sichtbarkeit entsteht durch fundierte Entitäten, starke Zitate und saubere technische Basisarbeit auf jeder einzelnen Unterseite.“</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">↗ Zur Diskussion auf LinkedIn</a>
-</div>
-
 ## 5. Strategischer Ausblick für B2A-Sichtbarkeit
 
 Die Datei stellt einen wichtigen Zwischenschritt in der Evolution hin zum autonomen Agenten-Web dar. Während Google AI Overviews und klassische Suchsysteme weiterhin HTML bevorzugen, greifen unternehmensinterne LLM-Agenten bevorzugt auf kuratierte Markdown-Ressourcen zurück. Eine gezielt aufgesetzte Textbasis schützt vor Fehlinterpretationen und stärkt das Deep Grounding auf einer etablierten [Grounding Page](/glossar/grounding-page/).
 
 Für die ganzheitliche Überwachung deiner Onpage-Strukturen und technischen Fehlerquellen empfiehlt sich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Die Plattform prüft die Konsistenz deiner internen Verlinkung und Metadaten. Um zu analysieren, wie Sprachmodelle und Chatbots deine Inhalte in Antworten wiedergeben, liefert [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Monitoring-Funktionen zur Zitationsanalyse im Bereich [AI SEO](/glossar/ai-seo/).
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierter Build-Generator für llms-full.txt</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Fullstack Node.js Developer.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes Skript, das während des Static-Site-Builds alle kuratierten Wissensseiten extrahiert und zu einer schlanken /llms-full.txt zusammenfasst.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ol class="list-decimal pl-4 space-y-1 text-gray-300">
+      <li>Parse alle Markdown-Dateien aus dem Content-Verzeichnis und filtere unwichtige Seiten (z.B. Impressum, Danke-Pages) heraus.</li>
+      <li>Formatiere jeden Abschnitt mit eindeutiger H2/H3-Hierarchie, Kurzzusammenfassung und kanonischer Quellen-URL.</li>
+      <li>Stelle sicher, dass alle internen Verweise und Quellen-URLs strikt auf Trailing Slashes (/) validiert werden.</li>
+      <li>Speichere das Ergebnis im dist- bzw. public-Ordner als /llms-full.txt und validiere die Token-Größe.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 

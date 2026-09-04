@@ -39,6 +39,19 @@ if (type === 'term') {
 
   const wordCount = (entry.body || '').split(/\s+/).length;
   readingTime = Math.ceil(wordCount / 180);
+
+  var extractedQuote = entry.data.tacheles;
+  if (!extractedQuote && entry.body) {
+    const blockquoteMatch = entry.body.match(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/i);
+    if (blockquoteMatch) {
+      extractedQuote = blockquoteMatch[1].replace(/<[^>]*>?/gm, '').replace(/^[„"']|[“"']$/g, '').trim();
+    } else {
+      const jzMatch = entry.body.match(/<p class="[^"]*italic[^"]*"[^>]*>([\s\S]*?)<\/p>/i);
+      if (jzMatch) {
+        extractedQuote = jzMatch[1].replace(/<[^>]*>?/gm, '').replace(/^[„"']|[“"']$/g, '').trim();
+      }
+    }
+  }
 }
 ---
 
@@ -219,6 +232,7 @@ if (type === 'term') {
     faqs={entry.data.faqs}
     sameAs={entry.data.sameAs}
     alternateNames={entry.data.synonyms}
+    quote={extractedQuote}
     url={`https://teleschmie.de/glossar/${entry.id}/`}
   />
 </Layout>

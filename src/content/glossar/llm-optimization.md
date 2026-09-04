@@ -29,6 +29,47 @@ Die **LLM Optimization (LLMO)** ist die ingenieurmäßige Disziplin innerhalb de
 
 Im Jahr 2026 hat sich der Diskurs über KI-Sichtbarkeit professionalisiert. Einfaches „Prompt Engineering“ oder oberflächliches Hinzufügen von FAQ-Listen reicht im Enterprise-Segment längst nicht mehr aus. Wenn KI-Assistenten wie ChatGPT Search, Perplexity, Claude oder Gemini das Web scannen, bewerten deren interne Orchestratoren Webseiten nach Latenz, Token-Effizienz, Parsing-Genauigkeit und semantischer Eindeutigkeit. Wer seine Daten im DOM-Dschungel überladener JavaScript-Frameworks versteckt, wird von agentischen Scraping-Pipelines schlichtweg übersprungen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Im KI-Zeitalter müssen wir Websites nicht mehr nur als bunte Broschüren für das menschliche Auge verstehen, sondern als deterministische Daten-APIs für Maschinen. Wer die technische Brücke zwischen seinen Unternehmensdaten und den weltweiten Sprachmodellen baut, dominiert die Zitationen. Wer die Maschine zwingt, sich durch JavaScript-Müll zu quälen, wird schlichtweg vergessen.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="bg-lime-accent text-dark text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h4 class="font-bold text-dark text-base md:text-lg mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  <p class="text-dark/80 text-sm leading-relaxed mb-4">
+    Richte serverseitiges Content Negotiation für Markdown ein. Wenn ein KI-Bot mit dem Header 'Accept: text/markdown' anfragt, liefere reinen Markdown-Text statt eines aufgeblähten HTML-DOMs. Das spart dem LLM-Betreiber 80 % der Token-Parsing-Kosten und erhöht die Wahrscheinlichkeit drastisch, dass deine Seite vollständig und verlustfrei gecrawlt wird.
+  </p>
+  <div class="pt-3 border-t border-lime-accent/20">
+    <p class="text-xs text-dark/70 font-medium italic mb-0">
+      <strong>Kontrollfrage an deine Webagentur:</strong> „Haben wir auf unserem Webserver bereits Markdown Content Negotiation oder eine validierte llms.txt für KI-Crawler aktiv geschaltet?“
+    </p>
+  </div>
+</div>
+
 ## Die zwei Dimensionen der LLM Optimization
 
 In der modernen Praxis des Jahres 2026 unterscheidet man zwei komplementäre Stoßrichtungen:
@@ -80,7 +121,7 @@ export async function handleAgentRequest(request) {
   const wantsMarkdown = acceptHeader.includes("text/markdown");
 
   if (isAiAgent || wantsMarkdown) {
-    const markdownContent = await fetchCleanMarkdown("https://deinedomain.de/content/doc.md");
+    const markdownContent = await fetchCleanMarkdown("https://teleschmie.de/content/doc.md");
     return new Response(markdownContent, {
       status: 200,
       headers: {
@@ -96,16 +137,6 @@ export async function handleAgentRequest(request) {
 }
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Im KI-Zeitalter müssen wir Websites nicht mehr nur als bunte Broschüren für das menschliche Auge verstehen, sondern als deterministische Daten-APIs für Maschinen. Wer die technische Brücke zwischen seinen Unternehmensdaten und den weltweiten Sprachmodellen baut, dominiert die Zitationen. Wer die Maschine zwingt, sich durch JavaScript-Müll zu quälen, wird schlichtweg vergessen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Monitoring: Messung des Share of Model
 
 Da klassische Analyse-Suiten wie Google Analytics den Zugriff von RAG-Pipelines nicht abbilden können, bedarf es spezialisierter Messwerkzeuge. Das führende Instrument zur Validierung Ihrer LLMO-Architektur ist [Rankscale](https://rankscale.ai/?via=offer). Die Software testet Ihre Kern-Prompts automatisiert über dutzende Sprachmodelle hinweg und misst die tatsächliche Zitationshäufigkeit (*Mention Rate*).
@@ -118,16 +149,46 @@ Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit gene
 2. **Statische Fehler in der llms.txt nicht korrigieren:** Verwaiste Links oder veraltete Pfade in der `llms.txt` frustrieren automatisierte Agenten. Der KI-Crawler bricht die Erkundung ab und stuft die Domain im Vertrauensscore herab.
 3. **Mangelhafte Trennung von Geschäftslogik und Rohdaten:** Wer KI-Agenten zwingt, strukturierte Fakten aus werblichen Floskeln herauszulesen, verliert Zitationen an Mitbewerber, die atomare Datenblöcke im JSON- oder Markdown-Format bereitstellen.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Content Negotiation für Markdown auf deiner Server-Infrastruktur zu implementieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Markdown Content Negotiation & LLM Caching Layer</p>
+    <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Cloudflare- & Fullstack-Web-Architect.</p>
+    <p><strong>Aufgabe:</strong> Implementiere serverseitiges Markdown Content Negotiation für https://teleschmie.de/ zur Reduktion von LLM-Token-Parsing-Kosten.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Prüfe eingehende Anfragen auf den Header 'Accept: text/markdown' oder bekannte AI-User-Agents (GPTBot, ClaudeBot, PerplexityBot).</p>
+    <p>2. Liefere bei positivem Match die bereinigte Markdown-Version mit dem Response-Header 'Content-Type: text/markdown; charset=utf-8'.</p>
+    <p>3. Setze 'Vary: Accept, User-Agent' im Header, um CDN-Caching-Kollisionen zwischen HTML und Markdown zu verhindern.</p>
+    <p>4. Validiere die Auslieferung mit einem cURL-Befehl gegen den Server.</p>
+  </div>
+</div>
+
 ## Strategischer Ausblick: Das Zeitalter der Autonomous Agents
 
 Die Zukunft gehört der nahtlosen Agent-to-Agent-Kommunikation. Durch das Zusammenspiel von [Agent Readiness](/glossar/agent-readiness/), dem Model Context Protocol (MCP) und präziser LLM Optimization sichern sich zukunftsorientierte Unternehmen die führende Position in den Answer Engines von morgen.
 
 Einen detaillierten Marktüberblick über moderne Tools zur Überwachung Ihrer generativen Markenpräsenz bietet unser Leitfaden über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die erforderlichen Investitionen für eine vollständige LLMO-Infrastrukturtransformation können Sie mit unserem interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) transparent kalkulieren.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
@@ -137,3 +198,5 @@ Einen detaillierten Marktüberblick über moderne Tools zur Überwachung Ihrer g
 * [Was ist Agent Readiness?](/glossar/agent-readiness/)
 * [LLM Rank Tracker im Praxis-Test](/glossar/llm-rank-tracker/)
 * [Was ist AI Search?](/glossar/ai-search/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)
+* [KI-Sichtbarkeit im Detail](/glossar/ki-sichtbarkeit/)

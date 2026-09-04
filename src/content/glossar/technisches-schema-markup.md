@@ -25,6 +25,50 @@ Das technische Schema-Markup hat sich von einer rein kosmetischen Onpage-Maßnah
 
 Wer seine Webseiten lediglich mit unstrukturiertem Fließtext ausstattet, zwingt Algorithmen zu fehleranfälligen Wahrscheinlichkeitsberechnungen. Technisches Schema-Markup hingegen transformiert unstrukturierte HTML-Seiten in deterministische Wissensgraphen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Du musst zu den Top 10 in deiner Branche gehören und das technisch und inhaltlich beweisen. Im Zeitalter von GraphRAG und KI-Agenten reicht es nicht mehr aus, nur schöne Texte zu schreiben. Du musst deine Entitäten und Geschäftsbeziehungen maschinenlesbar im Schema-Graphen deklarieren, damit Sprachmodelle deine Marke als unverrückbaren Faktenanker akzeptieren.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="my-8 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent/40 text-neutral-900 px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <h3 class="text-lg font-bold text-neutral-900 mb-0 !mt-0 !pb-0 !border-none">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  </div>
+  <p class="text-neutral-800 text-sm leading-relaxed mb-4">
+    Ein fataler Fehler in vielen Enterprise-Setups: Das SEO-Team bindet JSON-LD über den Google Tag Manager (GTM) ein. Viele KI-Crawl-Bots führen clientseitiges JavaScript aus Kostengründen überhaupt nicht aus – deine mühsam gebauten Schemata verpuffen ungesehen! Sorge dafür, dass strukturierte Daten zwingend serverseitig gerendert (SSR) direkt im ersten HTML-Paket ausgeliefert werden.
+  </p>
+  <div class="bg-white/80 p-4 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
+    <p class="font-bold text-neutral-900 mb-1">🔍 Dein 30-Sekunden-Check im Quelltext (ohne IT-Wissen):</p>
+    <p class="mb-2">1. Deaktiviere im Browser JavaScript (z. B. über DevTools) und lade deine Website neu.</p>
+    <p class="mb-2">2. Durchsuche den Quelltext nach <code>application/ld+json</code>. Ist das Schema-Tag sichtbar, lieferst du es serverseitig sauber aus. Fehlt es, ist es per Tag Manager injiziert und für viele KI-Bots unsichtbar!</p>
+    <p class="mb-0">3. <strong>Deine Kontrollfrage an die Webagentur:</strong> <em>„Wird unser Schema.org Markup per Server-Side-Rendering (SSR) direkt im initialen HTML-Dokument gerendert oder clientseitig per Tag Manager geladen?“</em></p>
+  </div>
+</div>
+
+---
+
 ## Was ist technisches Schema-Markup und wie funktioniert es?
 
 Technisches Schema-Markup bezeichnet die standardisierte Auszeichnung von Webseiten-Inhalten mithilfe des offenen Vokabulars von Schema.org im Datenformat JSON-LD (JavaScript Object Notation for Linked Data). Entwickler binden diesen maschinenlesbaren Codeblock im `<head>` oder am Ende des `<body>` einer HTML-Seite ein.
@@ -64,44 +108,44 @@ Das folgende produktionsreife JSON-LD-Beispiel demonstriert die relationale Verk
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://deinedomain.de/#website",
-      "url": "https://deinedomain.de/",
-      "name": "Dein Portalname",
+      "@id": "https://teleschmie.de/#website",
+      "url": "https://teleschmie.de/",
+      "name": "Teleschmiede",
       "publisher": {
-        "@id": "https://deinedomain.de/#organization"
+        "@id": "https://teleschmie.de/#organization"
       },
       "inLanguage": "de-DE"
     },
     {
       "@type": "Organization",
-      "@id": "https://deinedomain.de/#organization",
-      "name": "Dein Unternehmensname",
-      "url": "https://deinedomain.de/",
-      "logo": "https://deinedomain.de/assets/logo.png",
+      "@id": "https://teleschmie.de/#organization",
+      "name": "Teleschmiede",
+      "url": "https://teleschmie.de/",
+      "logo": "https://teleschmie.de/assets/logo.png",
       "sameAs": [
         "https://www.wikidata.org/wiki/Q12345",
-        "https://www.linkedin.com/company/dein-unternehmen/",
-        "https://github.com/dein-unternehmen"
+        "https://www.linkedin.com/company/teleschmiede/",
+        "https://github.com/teleschmiede"
       ]
     },
     {
       "@type": "Person",
-      "@id": "https://deinedomain.de/#author",
-      "name": "Expertenname",
-      "jobTitle": "Senior Berater & Fachautor",
+      "@id": "https://teleschmie.de/#author",
+      "name": "Jörg Zimmer",
+      "jobTitle": "Senior SEO & AI Search Consultant",
       "worksFor": {
-        "@id": "https://deinedomain.de/#organization"
+        "@id": "https://teleschmie.de/#organization"
       },
       "sameAs": [
-        "https://www.linkedin.com/in/experten-profil/"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://deinedomain.de/#core-service",
+      "@id": "https://teleschmie.de/#core-service",
       "name": "B2B Technologieberatung",
       "provider": {
-        "@id": "https://deinedomain.de/#organization"
+        "@id": "https://teleschmie.de/#organization"
       },
       "areaServed": "DE",
       "description": "Strukturierte Systemoptimierung und semantische Datenintegration."
@@ -112,15 +156,7 @@ Das folgende produktionsreife JSON-LD-Beispiel demonstriert die relationale Verk
 
 Durch diese saubere Referenzierung über `@id` versteht der Ranking-Algorithmus fehlerfrei, dass der Autor Teil des Unternehmens ist und die Organisation spezifische Dienstleistungen anbietet.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Du musst zu den Top 10 in deiner Branche gehören und das technisch und inhaltlich beweisen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7113862535262392320" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
+---
 
 ## Die 3 häufigsten Fehler bei technischem Schema-Markup
 
@@ -142,8 +178,8 @@ Ein zentraler technischer Streitpunkt zwischen SEO-Teams und Web-Entwicklern bet
 Um fehlerhaftes Markup vor dem Go-Live abzufangen, sollten Entwicklerteams automatisierte Validierungsschritte in ihre CI/CD-Pipelines integrieren:
 
 ```bash
-# Prüfung der JSON-LD Syntax im Terminal (Domain anpassen)
-curl -s https://deinedomain.de/ | \
+# Prüfung der JSON-LD Syntax im Terminal
+curl -s https://teleschmie.de/ | \
   sed -n '/<script type="application\/ld+json">/,/<\/script>/p' | \
   sed 's/<[^>]*>//g' | \
   jq . > /dev/null && echo "✅ JSON-LD Syntax ist fehlerfrei!"
@@ -151,10 +187,61 @@ curl -s https://deinedomain.de/ | \
 
 Schlägt der `jq`-Befehl fehl, bricht der Build-Prozess ab, bevor beschädigte Schemas die Domain im Ranking beschädigen.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit für SSR-Schema-Markup und JSON-LD Syntaxvalidierung auszuführen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Technisches Schema-Markup & Graph-Validierung durchführen</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Architect & Linked Data Specialist.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das JSON-LD Schema-Markup auf fehlerfreie relationale Verknüpfungen, SSR-Auslieferung und Content Parity.</p>
+    <p><strong>Anforderungen:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Validiere alle @id-Referenzen auf Konsistenz innerhalb des @graph-Containers.</li>
+      <li>Prüfe, ob Pflichtfelder für Organization, Person und WebSite vollständig hinterlegt sind.</li>
+      <li>Stelle sicher, dass alle internen Verweise zwingend mit einem abschließenden Trailing Slash (/) versehen sind.</li>
+      <li>Erstelle einen Linter-Testbefehl für den CI/CD-Prozess zur Verhinderung fehlerhafter Deployments.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Liefere den bereinigten JSON-LD Codeblock inklusive CI/CD-Testskript.</p>
+  </div>
+</div>
+
+---
+
 ## Die Rolle von Schema-Markup für Grounding Pages und RAG-Pipelines
 
 In modernen RAG-Architekturen greifen Sprachmodelle gezielt auf dedizierte [Grounding Pages](/glossar/grounding-page/) zurück, um fundierte Antworten zu generieren. Liegt auf diesen Seiten ein präzises [FAQ-Markup](/glossar/faq-markup/) oder `HowTo`-Schema vor, muss das Sprachmodell keine ungenauen Vektor-Approximationen berechnen. Es kann die im Schema formulierten Frage-Antwort-Paare direkt als Zitatbaustein in generative Übersichten übernehmen.
 
 In Verbindung mit fortschrittlicher [Entity SEO](/glossar/entity-seo/) transformiert technisches Schema-Markup passive Webseiten in autoritative Datenknoten. Wie führende Plattformen strukturierte Daten zur Steigerung ihrer KI-Sichtbarkeit einsetzen, analysieren wir im [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die damit verbundenen Software- und Validierungskosten lassen sich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) betriebswirtschaftlich berechnen. Wer heute in saubere maschinenlesbare Graphen investiert, legt das Fundament für nachhaltigen Markenerfolg in der KI-Suche.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Einträge
+* [Schema.org Markup: Semantisches Web](/glossar/schema-org-markup/)
+* [Grounding Page für KI-Modelle](/glossar/grounding-page/)
+* [Entity SEO: Entitäten im Fokus](/glossar/entity-seo/)
+* [FAQ Markup für Rich Results nutzen](/glossar/faq-markup/)
+* [Technisches SEO: Das technische Fundament](/glossar/technisches-seo/)
+* [Strukturierte Daten: Entitäten für Maschinen](/glossar/strukturierte-daten/)
+* [Knowledge Graph: Entitäten verstehen](/glossar/knowledge-graph/)
 
 

@@ -24,24 +24,34 @@ faqs:
     answer: "Du kannst offizielle Diagnose-Tools wie das Cloudflare Radar (URL Scanner) nutzen, oder du nutzt einfach deinen eigenen KI-Assistenten. Wenn du einem Agenten den Befehl gibst, deine Agent Readiness zu prüfen, wird er die fehlenden Standard-Dateien schonungslos aufdecken."
 ---
 
-Moin! 🌻
-
-Die SEO-Branche der letzten zwanzig Jahre war ein ziemlich durchschaubares Spiel: Du baust eine Website, optimierst die H1-Überschriften, jagst die Ladezeiten (Core Web Vitals) in den grünen Bereich, kaufst dir ein paar Backlinks und hoffst, dass Google dich auf Seite 1 platziert, damit ein Mensch auf dein Suchergebnis klickt.
+Die SEO-Branche der letzten zwanzig Jahre war ein ziemlich durchschaubares Spiel: Du baust eine Website, optimierst die H1-Überschriften, jagst die Ladezeiten ([Core Web Vitals](/glossar/core-web-vitals/)) in den grünen Bereich, kaufst dir ein paar Backlinks und hoffst, dass Google dich auf Seite 1 platziert, damit ein Mensch auf dein Suchergebnis klickt.
 
 Dieses Spiel ist vorbei. Wer im Sommer 2026 noch Webseiten primär für Menschen optimiert, betreibt aktive Unternehmensgefährdung. 
 
-Wir befinden uns in der Ära der Answer Engines (AEO) und der autonomen Agent-to-Agent (A2A) Kommunikation. Einkäufer und Konsumenten googeln nicht mehr stundenlang nach Dienstleistern. Sie beauftragen ihren KI-Agenten, den Markt zu scannen, die Daten auszuwerten und direkt die besten drei Anbieter zu kontaktieren. Und genau hier greift eine neue, brutale Metrik, die entscheidet, ob du den Deal bekommst oder unsichtbar bleibst: Die **Agent Readiness**.
+<figure class="my-10 bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-sm flex flex-col md:flex-row items-center gap-6">
+  <img src="/assets/images/profile/joerg-zimmer-portrait.webp" alt="Jörg Zimmer" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-2 border-lime-accent flex-shrink-0" />
+  <div>
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      „Wer im Jahr 2026 noch Webseiten primär für menschliche Klicks baut, betreibt aktive Unternehmensgefährdung. Wenn autonome KI-Agenten deine Schnittstellen nicht in Millisekunden auslesen können, existierst du im Evaluierungsprozess schlichtweg nicht mehr.“
+    </blockquote>
+    <figcaption class="text-sm font-bold text-gray-500 not-italic">
+      Jörg Zimmer, <cite class="font-normal text-gray-400">Senior SEO & AI Search Consultant</cite>
+    </figcaption>
+  </div>
+</figure>
+
+Wir befinden uns in der Ära der Answer Engines (AEO) und der autonomen Agent-to-Agent ([A2A Protocol](/glossar/a2a-protocol/)) Kommunikation. Einkäufer und Konsumenten googeln nicht mehr stundenlang nach Dienstleistern. Sie beauftragen ihren KI-Agenten, den Markt zu scannen, die Daten auszuwerten und direkt die besten drei Anbieter zu kontaktieren. Und genau hier greift eine neue, fundamentale Metrik, die entscheidet, ob du den Deal bekommst oder unsichtbar bleibst: Die **Agent Readiness**.
 
 Wer heute die Kriterien nicht erfüllt, ist faktisch von der digitalen Zukunft abgeschnitten. Lass uns Tacheles reden und schauen, wo du wirklich stehst.
 
 ## Die harte Wahrheit: Das Agent Readiness Level (ARL) Framework
 
-Agent Readiness bewertet nicht, wie schön dein CSS-Framework ist oder ob dein Firmenvideo tolle Drohnenaufnahmen hat. Es bewertet einzig und allein die maschinenlesbare Infrastruktur für KI-Bots.
+Agent Readiness bewertet nicht, wie schön dein CSS-Framework ist oder ob dein Firmenvideo tolle Drohnenaufnahmen hat. Es bewertet einzig und allein die maschinenlesbare Infrastruktur für KI-Bots und Answer Engines.
 
-In der Branche hat sich ein 7-stufiges Reifegradmodell etabliert, das Agent Readiness Level (ARL). Der "Digitale Senior" weiß: Man muss ein Haus auf einem soliden Fundament bauen. Lass uns die Entwicklungsstufen durchgehen:
+In der Branche hat sich ein 7-stufiges Reifegradmodell etabliert, das Agent Readiness Level (ARL), das sich nahtlos mit den Diagnosestandards von Cloudflare Radar und Initiativen wie *isitagentready.com* deckt:
 
 ### ARL-0: Dark (Der blinde Fleck)
-Du hast keine Webpräsenz oder verhinderst jegliches maschinelles Auslesen. Für einen KI-Agenten ist dein Unternehmen eine schwarze Box. Er muss das gesamte HTML (inklusive kaputtem JavaScript, Popups und Tracking-Pixeln) mühsam parsen, um überhaupt zu verstehen, worum es auf deiner Seite geht. Meistens bricht der Agent hier ab, weil es zu teuer und ineffizient ist (Token-Verschwendung).
+Du hast keine Webpräsenz oder verhinderst jegliches maschinelles Auslesen. Für einen KI-Agenten ist dein Unternehmen eine schwarze Box. Er muss das gesamte HTML (inklusive blockierendem JavaScript, Popups und Tracking-Pixeln) mühsam parsen, um überhaupt zu verstehen, worum es auf deiner Seite geht. Meistens bricht der Agent hier ab, weil es zu teuer und ineffizient ist (Token-Verschwendung).
 
 ### ARL-1: Static (Grundlegende Crawlbarkeit)
 Du hast immerhin die absoluten Basics aus den 90er Jahren erledigt. Eine Website existiert, es gibt eine saubere `robots.txt` und eine `sitemap.xml`. Das sagt dem Agenten zumindest, wo er suchen darf und wo nicht. Das ist besser als nichts, aber weit entfernt von "Agent Ready". Du wirst höchstens in oberflächlichen Verzeichnissen gelistet.
@@ -50,16 +60,32 @@ Du hast immerhin die absoluten Basics aus den 90er Jahren erledigt. Eine Website
 Deine Seite sendet grundlegende Signale an Bots. Du nutzt tiefgreifendes, strukturiertes Schema.org-Markup, sodass Entitäten (z.B. "Firma", "Person", "Produkt") klar definiert sind. KIs können Preise und Verfügbarkeiten rudimentär auslesen, ohne HTML zu scrapen.
 
 ### ARL-3: Accessible (API-Ready)
-Hier beginnt die Profiliga. Du hast funktionale, dokumentierte API-Endpunkte. Ein KI-Agent kann nicht nur lesen, sondern über standardisierte REST oder GraphQL Schnittstellen Daten strukturiert abrufen. Du bietest vielleicht eine `llms.txt` an, die dem Bot eine saubere, strukturierte Zusammenfassung im Markdown-Format liefert.
+Hier beginnt die Profiliga. Du hast funktionale, dokumentierte API-Endpunkte. Ein KI-Agent kann nicht nur lesen, sondern über standardisierte REST- oder GraphQL-Schnittstellen Daten strukturiert abrufen. Du bietest eine [llms.txt](/glossar/llms-txt/) an, die dem Bot eine saubere, strukturierte Zusammenfassung im Markdown-Format liefert.
 
 ### ARL-4: Integrated (KI-Lesbarkeit & Content Negotiation)
-In dieser Phase unterstützt deine Website Formate und Protokolle, die explizit für KIs gemacht sind. Dein Server unterstützt Markdown Content Negotiation. Wenn ein KI-Bot mit `Accept: text/markdown` anfragt, liefert dein Server den reinen Text ohne nerviges HTML-Gerüst aus. Das spart dem Agenten massive Token-Kosten. Außerdem hast du `agent-card.json` oder MCP-Server (Model Context Protocol) Endpunkte im `.well-known` Ordner hinterlegt. Ein anklopfender Agent sieht nicht nur Content, sondern auch die Werkzeuge (Tools).
+In dieser Phase unterstützt deine Website Formate und Protokolle, die explizit für KIs gemacht sind. Dein Server unterstützt [Markdown Content Negotiation](/glossar/markdown-content-negotiation/). Wenn ein KI-Bot mit `Accept: text/markdown` anfragt, liefert dein Server den reinen Text ohne nerviges HTML-Gerüst aus. Das spart dem Agenten massive Token-Kosten. Außerdem hast du die [`agent-card.json`](/glossar/agent-card-json/) oder [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/) Endpunkte im `.well-known` Ordner hinterlegt. Ein anklopfender Agent sieht nicht nur Content, sondern auch die Werkzeuge (Tools).
 
 ### ARL-5: Autonomous (Dynamische Maschinen-Integration)
-Die absolute Spitze für die meisten Unternehmen! Die Website ist voll autonom. KI-Agenten können ohne menschliches Eingreifen komplette Workflows (z.B. Buchungen, Käufe, Terminvereinbarungen) abschließen. Die Authentifizierung läuft nahtlos, es gibt keine nervigen Captchas für verifizierte Agenten, und Systeme regeln den Zugang dynamisch.
+Die absolute Spitze für moderne Unternehmen! Die Website ist voll autonom. KI-Agenten können ohne menschliches Eingreifen komplette Workflows (z. B. Buchungen, Käufe, Terminvereinbarungen) abschließen. Die Authentifizierung läuft nahtlos über [auth.md](/glossar/auth-md/), es gibt keine blockierenden Captchas für verifizierte Agenten, und Systeme regeln den Zugang dynamisch.
 
 ### ARL-6: Interoperable (Das Ökosystem)
-Dein Unternehmen agiert aktiv in komplexen, verteilten Multi-Agenten-Systemen. Deine Agenten verhandeln Preise, Konditionen und Lieferzeiten in Echtzeit mit den Agenten anderer Unternehmen über Agenten-Protokolle. Maschinen buchen Budgets bei Maschinen. Genau das baue ich für meine Kunden.
+Dein Unternehmen agiert aktiv in komplexen, verteilten Multi-Agenten-Systemen. Deine Agenten verhandeln Preise, Konditionen und Lieferzeiten in Echtzeit mit den Agenten anderer Unternehmen über das [A2A-Protokoll](/glossar/a2a-protocol/). Maschinen buchen Budgets bei Maschinen.
+
+<div class="my-8 p-6 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 shadow-sm not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wide">30-Sekunden Inhaber-Check</span>
+    <strong class="text-lg text-dark">Jörgs Praxistipp aus der SEO-Sprechstunde</strong>
+  </div>
+  <p class="text-dark/90 text-sm leading-relaxed mb-4">
+    Teste deine Domain sofort auf <code>isitagentready.com</code> oder im Cloudflare Radar URL Scanner: Welche Punktzahl erreicht deine Website in den Kategorien Discoverability, Content Accessibility und Protocol Discovery? Fehlen <code>llms.txt</code> oder <code>agent-card.json</code>, stufen moderne Answer Engines deine Domain als unvorbereitet ein.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <p class="text-xs font-bold text-dark/70 uppercase tracking-wider mb-1">Kontrollfrage für deine Webagentur oder dein Entwickler-Team:</p>
+    <p class="text-sm font-semibold text-dark italic">
+      "Welches Agent Readiness Level (ARL 1 bis 5) erreicht unsere Infrastruktur im Cloudflare Radar Scanner, und welche Protokolle (Markdown Negotiation, A2A, MCP) sind bereits scharf geschaltet?"
+    </p>
+  </div>
+</div>
 
 ## Warum ist Agent Readiness so überlebenswichtig?
 
@@ -80,18 +106,36 @@ Ich rede hier nicht von abstrakten Konzepten. Schau dir meine eigene Domain an. 
 
 Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysiere einfach meinen öffentlichen `.well-known` Ordner (`https://teleschmie.de/.well-known/`). Dort findest du die nötigen Dateien, um KIs glücklich zu machen. Ich nutze diese Architektur nicht nur, um gut auszusehen, sondern weil es **effizient** ist. Ich reduziere Reibungsverluste im Vertrieb auf null, indem ich Maschinen die Vorarbeit leisten lasse, auf die ohnehin kein Mitarbeiter Lust hat.
 
-## Der gnadenlose Selbsttest für Entscheider
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
+  <div class="flex items-center gap-2 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wide">Copy & Paste Task</span>
+    <strong class="text-white text-lg">Agent Readiness Level (ARL) Audit für Cursor, Claude Code oder Antigravity</strong>
+  </div>
+  <p class="text-gray-300 text-sm mb-4">
+    Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine Webpräsenz auf das Agent Readiness Level nach Cloudflare Radar Standard zu auditieren:
+  </p>
+  <div class="bg-black/50 p-4 rounded-xl font-mono text-xs text-lime-accent overflow-x-auto border border-white/10 leading-relaxed">
+    <p class="text-gray-400 mb-2"># Rolle: AI Architecture & Agent Readiness Auditor</p>
+    <p class="text-white font-semibold mb-2">Task: Führe einen vollständigen Agent Readiness Audit (ARL 0 bis 6) für die Ziel-URL durch.</p>
+    <p class="text-gray-300 mb-1">Anforderungen:</p>
+    <p class="text-gray-300">1. Prüfe die Existenz und Validität von <code>/.well-known/agent-card.json</code>, <code>/llms.txt</code> und <code>/auth.md</code>.</p>
+    <p class="text-gray-300">2. Teste die serverseitige Markdown Content Negotiation mit <code>Accept: text/markdown</code> und prüfe den Header <code>Vary: Accept</code>.</p>
+    <p class="text-gray-300">3. Analysiere die <code>robots.txt</code> auf Freigaben für Zitations-Bots (OAI-SearchBot, PerplexityBot, Claude-SearchBot).</p>
+    <p class="text-gray-300">4. Ermittle das aktuelle Agent Readiness Level und erstelle einen priorisierten Maßnahmenplan für Level 5 (Autonomous).</p>
+    <p class="text-lime-accent mt-2">Output: Audit-Scorecard mit konkreten Nginx/Apache-Konfigurations-Snippets zur Schließung von Lücken.</p>
+  </div>
+</div>
 
-Genug geredet. Es ist Zeit, dass du die Hosen herunterlässt und prüfst, wie Agent Ready dein Unternehmen wirklich ist. Vergiss teure SEO-Audits von Agenturen, die dir für 5000 Euro einen PDF-Report mit Ladezeiten generieren. Nutze die KI, um die KI-Tauglichkeit deiner Seite zu prüfen.
-
-**Prompt für deinen KI-Agenten:**
-```text
-Führe ein ungeschöntes 'Agent Readiness Audit' für meine Domain durch. Bewerte meine Infrastruktur nach dem 7-stufigen Agent Readiness Level (ARL) Framework mit Stand 2026. 
-- Prüfe systematisch das Vorhandensein von API-Katalogen, `.well-known/agent-card.json`, `llms.txt` und anderen maschinenlesbaren Endpunkten.
-- Teste, ob mein Server 'Markdown Content Negotiation' unterstützt.
-- Liefere mir einen extrem kritischen Status-Report. Wenn ich schlecht abschneide, erkläre mir messerscharf, welche konkreten Umsätze ich durch diese technische Ignoranz an Mitbewerber verliere. Schreibe mir einen priorisierten Maßnahmenplan, um mindestens ARL-4 zu erreichen.
-```
+## Der strategische Ausblick für Entscheider
 
 Das Web hat sich verändert. Du kannst entweder weiter H1-Tags für Google optimieren und dich wundern, warum die Leads ausbleiben, oder du richtest deine Architektur radikal auf das Agenten-Zeitalter aus. Die Entscheidung liegt bei dir.
 
-ALOHA! 🌻✌️
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
+    Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
+  </a>
+</div>

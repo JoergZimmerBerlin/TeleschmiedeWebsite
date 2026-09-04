@@ -5,7 +5,7 @@ meta_title: "Google Core Update: KI-Qualitätshammer (2026)"
 description: "Ein Google Core Update ist ein Erdbeben für deine Sichtbarkeit. Es geht um echten Mehrwert und E-E-A-T. Jörg Zimmer redet Tacheles. (2026)"
 meta_description: "Ein Google Core Update ist ein Erdbeben für deine Sichtbarkeit. Es geht um echten Mehrwert und E-E-A-T. Jörg Zimmer redet Tacheles. (2026)"
 date: "2026-03-10"
-image: src/assets/images/glossar/3d-light/glossar-google-core-update-3d.webp
+image: "../../assets/images/glossar/3d-light/glossar-google-core-update-3d.webp"
 image_alt: "Google Core Update Rankingfaktoren und KI-Qualität"
 key_takeaways:
   - "Google Core Updates kalibrieren die Bewertungsmaßstäbe für E-E-A-T, Information Gain und Suchintention domainweit neu."
@@ -27,18 +27,47 @@ Ein Google Core Update war früher wie ein mittelschweres Beben in den Suchergeb
 
 Die Dynamik und Frequenz der Algorithmus-Updates haben eine neue Dimension erreicht. Google testet und verfeinert seine Ranking-Systeme kontinuierlich. Dabei steht das ehemals separate Helpful Content System nicht mehr isoliert da, sondern ist als permanenter Kernbestandteil im Ranking-Algorithmus verankert. Eine Domain wird ganzheitlich auf ihren Nutzen für reale Menschen abgeklopft. Wenn ein Großteil deiner Unterseiten aus dünnen, generischen Zusammenfassungen besteht, zieht diese negative Qualitätsbewertung die gesamte Domain nach unten.
 
-<div class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl">
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
-    <div class="w-12 h-12 rounded-full bg-lime-accent flex items-center justify-center font-bold text-dark text-xl">JZ</div>
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
     <div>
-      <h4 class="font-bold text-base text-dark">Jörg Zimmer</h4>
-      <p class="text-xs text-neutral-600">Senior SEO & AI Search Consultant</p>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
     </div>
   </div>
-  <p class="text-neutral-700 italic text-sm mb-3">
-    "Historische Sichtbarkeitswerte aus der Vergangenheit beeindrucken den heutigen Algorithmus nicht im Geringsten. Wenn eine Domain bei einem Core Update abstürzt, liegt es fast ausnahmslos an austauschbarem Content ohne echten Information Gain. Google belohnt nicht die Masse an Text, sondern nachweisbare Praxiserfahrung und glasklare Mehrwerte."
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Historische Sichtbarkeitswerte aus der Vergangenheit beeindrucken den heutigen Algorithmus nicht im Geringsten. Wenn eine Domain bei einem Core Update abstürzt, liegt es fast ausnahmslos an austauschbarem Content ohne echten Information Gain. Google belohnt nicht die Masse an Text, sondern nachweisbare Praxiserfahrung und glasklare Mehrwerte.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Kein blinder Aktionismus nach dem Update-Rollout</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-4">
+    Mache nach einem Core Update keinen vorschnellen Kahlschlag: Vergleiche in der Search Console exakt die betroffenen URLs der letzten 28 Tage vor und nach dem Rollout. Trenne Seiten mit echten Ranking-Verlusten von reinem CTR-Verlust durch vorgeschaltete Google AI Overviews. Lösche niemals panisch Inhalte, sondern konsolidiere redundante Themen.
   </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/20">
+    <p class="text-xs font-semibold text-dark mb-1">Kontrollfrage an deine Webagentur / Entwickler:</p>
+    <p class="text-xs text-neutral-600 italic mb-0">
+      „Basiert unsere Content-Strategie auf originärem Information Gain und verifizierten Autoren-Entitäten oder fassen wir lediglich bestehende Suchergebnisse der Konkurrenz zusammen?“
+    </p>
+  </div>
 </div>
 
 ## Was Google bei einem Core Update wirklich bewertet
@@ -71,14 +100,14 @@ Trifft ein Core Update deine Website, gilt vor allem eine Devise: Vermeide impul
   "author": {
     "@type": "Person",
     "name": "Experten-Autor",
-    "url": "https://deinedomain.de/autoren/profil/"
+    "url": "https://teleschmie.de/autoren/profil/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Deine Marke",
-    "url": "https://deinedomain.de/"
+    "url": "https://teleschmie.de/"
   },
-  "mainEntityOfPage": "https://deinedomain.de/leitfaden/"
+  "mainEntityOfPage": "https://teleschmie.de/leitfaden/"
 }
 ```
 
@@ -90,7 +119,7 @@ Nutze die Google Search Console, um die betroffenen Verzeichnisse zu identifizie
 
 ### Schritt 2: Wettbewerbsvergleich mit Profi-Tools
 
-Analysiere den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) und die Keyword-Historie mit professionellen Suiten wie **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**. Vergleiche die Gewinner-URLs deiner Konkurrenten: Welche Content-Formate nutzen sie? Gibt es dort interaktive Tools, Rechner oder Originalzitate? Wenn du zusätzlich prüfen willst, wie sich das Update auf deine Markenerwähnungen in KI-Antworten auswirkt, liefert **[Rankscale](https://rankscale.ai/?via=offer)** verlässliche Daten zur generativen Sichtbarkeit über mehrere LLM-Modelle hinweg.
+Analysiere den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) und die Keyword-Historie mit professionellen Suiten wie [SE Ranking](/glossar/se-ranking/). Vergleiche die Gewinner-URLs deiner Konkurrenten: Welche Content-Formate nutzen sie? Gibt es dort interaktive Tools, Rechner oder Originalzitate? Wenn du zusätzlich prüfen willst, wie sich das Update auf deine Markenerwähnungen in KI-Antworten auswirkt, liefert [Rankscale](/glossar/rankscale/) verlässliche Daten zur generativen Sichtbarkeit über mehrere LLM-Modelle hinweg.
 
 ### Schritt 3: Inhaltsüberarbeitung und radikales Pruning
 
@@ -100,9 +129,33 @@ Sobald die Analyse abgeschlossen ist, erstellst du einen priorisierten Aktionspl
 
 Viele Website-Betreiber verschlimmern ihren Ranking-Verlust durch unüberlegte Reaktionen nach einem Update:
 
-1. **Panische Änderungen während des Rollouts:** Wer mitten im zweiwöchigen Rollout URLs umleitet, Texte löscht oder die Seitenarchitektur umbaut, stiftet Verwirrung bei den Crawlern. Warte stets ab, bis das Update von Google offiziell als beendet deklariert wurde.
+1. **Panische Änderungen während des Rollouts:** Wer mitten im mehrwöchigen Rollout URLs umleitet, Texte löscht oder die Seitenarchitektur umbaut, stiftet Verwirrung bei den Crawlern. Warte stets ab, bis das Update von Google offiziell als beendet deklariert wurde.
 2. **Kosmetische Keyword-Korrekturen:** Der Austausch von ein paar H2-Überschriften oder das Neuschreiben von Meta-Descriptions ändert nichts an einem Core-Update-Verlust. Die Ursache liegt in der mangelnden Informationstiefe und Glaubwürdigkeit des Inhalts.
 3. **Ignorieren von Thin Content:** Viele Betreiber trauen sich nicht, alte, nicht-performante Artikel zu löschen. Doch genau diese minderwertigen Inhalte belasten die Qualitätsmetriken deiner Domain. Ein radikaler Content-Pruning-Prozess ist oft die wirksamste Maßnahme.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Assistenten (Cursor, Claude, Antigravity), um die Gewinner- und Verlierer-URLs nach einem Google Core Update datenbasiert zu auditieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Google Core Update Impact Analyse & Pruning Triage</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior SEO Data Analyst & Core Update Recovery Spezialist.</p>
+    <p><strong>Aufgabe:</strong> Analysiere den exportierten Google Search Console Datensatz (28 Tage Vorher vs. Nachher) und erstelle einen priorisierten Recovery-Plan.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Filtere URLs mit mehr als 30 % Klick- und Positionsverlust heraus und gruppiere sie nach Content-Typ (Ratgeber, Kategorie, Produktseite).</p>
+    <p>2. Erstelle eine Pruning-Matrix: Konsolidieren (Merge via 301), Löschen (410 Gone für Zombie-Pages) oder Tiefensanierung (Information Gain & Original-Daten hinzufügen).</p>
+    <p>3. Identifiziere Kannibalisierungseffekte, bei denen mehrere URLs um denselben Suchbegriff konkurrieren.</p>
+    <p>4. Stelle sicher, dass interne Links mit Trailing Slash (/) versehen sind.</p>
+    <p>5. Liefere eine priorisierte CSV-Tabelle und einen strategischen Sanierungsbericht.</p>
+  </div>
+</div>
 
 ## Core Updates als Sprungbrett für Generative Engine Optimization
 
@@ -110,11 +163,28 @@ Ein Core Update ist keine Katastrophe, sondern eine Marktbereinigung. Wer sauber
 
 Ergänzend dazu helfen strukturierte [Grounding Pages](/glossar/grounding-page/) und ein regelmäßiges [SEO-Audit](/glossar/seo-audit/), um strukturelle Schwachstellen frühzeitig aufzudecken, bevor das nächste Update anrollt. Wer den [Google Algorithmus](/glossar/google-algorithmus/) versteht und konsequent Mehrwert liefert, gewinnt langfristig die Spitzenpositionen.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+Konzentriere dich auf Substanz statt auf Abkürzungen. Bereinige Altlasten, investiere in erstklassige Autoren und liefere deinen Lesern Daten und Erkenntnisse, die sie nirgendwo sonst finden. Das ist der einzig dauerhafte Schutz vor Ranking-Einbrüchen bei zukünftigen Google Core Updates.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-Konzentriere dich auf Substanz statt auf Abkürzungen. Bereinige Altlasten, investiere in erstklassige Autoren und liefere deinen Lesern Daten und Erkenntnisse, die sie nirgendwo sonst finden. Das ist der einzig dauerhafte Schutz vor Ranking-Einbrüchen bei zukünftigen Google Core Updates.
+### Verwandte Glossar-Begriffe
+* [E-E-A-T Richtlinien im Detail](/glossar/e-e-a-t/)
+* [Sichtbarkeitsindex verstehen](/glossar/sichtbarkeitsindex/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)
+* [Generative Engine Optimization](/glossar/geo-optimierung/)
+* [Grounding Pages als Wahrheitsanker](/glossar/grounding-page/)
+* [SEO-Audit für technische Hygiene](/glossar/seo-audit/)
+* [Google Algorithmus Funktionsweise](/glossar/google-algorithmus/)
+

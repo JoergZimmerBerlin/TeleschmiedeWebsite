@@ -21,9 +21,37 @@ faqs:
     answer: "Sie filtert gezielt Prompts heraus, bei denen Mitbewerber von KIs empfohlen und verlinkt werden, deine Marke jedoch fehlt. Diese Lücken liefern eine priorisierte To-do-Liste für deine Content-Strategie."
 ---
 
-In der traditionellen Google-Suche war die Wettbewerbsanalyse ein vertrauter, weitgehend transparenter Prozess: Man gab ein Fokus-Keyword in die Suchmaske ein, analysierte die zehn blauen Links auf Seite 1 und wusste exakt, wer die organischen Spitzenplätze belegt. SEO-Tools lieferten verlässliche Ranglisten für jedes beliebige Suchvolumen.
+In der traditionellen Google-Suche war die Wettbewerbsanalyse ein vertrauter, weitgehend transparenter Prozess: Man gab ein Fokus-Keyword in die Suchmaske ein, analysierte die zehn blauen Links auf Seite 1 und wusste exakt, wer die organischen Spitzenplätze belegt. Klassische SEO-Tools lieferten verlässliche Ranglisten für jedes beliebige Suchvolumen.
 
-Im Zeitalter der [GEO-Optimierung](/glossar/geo-optimierung/) ist diese statische Klarheit verloren gegangen. Large Language Models wie ChatGPT, Claude oder Google AI Overviews generieren individuelle, synthetisierte Direktenantworten. Sie listen keine zehn Links mehr auf, sondern empfehlen häufig nur noch ein bis drei ausgewählte Anbieter. Dein schärfster Konkurrent in der klassischen Websuche ist in Answer Engines oft gar nicht präsent – stattdessen dominieren völlig andere Akteure die generierten Antworten. Eine professionelle **AI Competitor Analysis** bringt Transparenz in diesen fragmentierten Markt.
+Im Zeitalter der [GEO-Optimierung](/glossar/geo-optimierung/) ist diese statische Klarheit verloren gegangen. Generative Sprachmodelle wie ChatGPT, Claude, Perplexity oder Google AI Overviews generieren individuelle, synthetisierte Direktenantworten. Sie listen keine zehn Links mehr auf, sondern empfehlen häufig nur noch ein bis drei ausgewählte Anbieter. Dein schärfster Konkurrent in der klassischen Websuche ist in Answer Engines oft gar nicht präsent – stattdessen dominieren völlig andere Akteure die generierten Antworten. Eine professionelle **AI Competitor Analysis** bringt Transparenz in diesen fragmentierten Markt.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
+  <img 
+    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+    alt="Jörg Zimmer" 
+    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
+    loading="lazy"
+    width="96"
+    height="96"
+  />
+  <div class="flex-1 text-center md:text-left">
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      "Wer heute nur die Konkurrenz in den klassischen Google-Suchergebnissen im Auge behält, verliert den Markt an agile Wettbewerber, die in ChatGPT und Perplexity die Spitzenplätze besetzen. Eine datenbasierte AI Competitor Analysis zeigt dir ungeschönt, wer dir in den Köpfen der Sprachmodelle den Rang abläuft. Wer versteht, welche semantischen Entitäten und Primärdaten KIs dazu bewegen, die Konkurrenz als Standardlösung zu empfehlen, kann gezielt gegensteuern und die eigene Antwort-Hoheit zurückerobern."
+    </blockquote>
+    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
+      <div>
+        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
+        <span class="hidden md:inline"> | </span>
+        <span>Senior SEO & AI Search Consultant</span>
+      </div>
+      <cite>
+        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+          LinkedIn Profil &rsaquo;
+        </a>
+      </cite>
+    </figcaption>
+  </div>
+</figure>
 
 ## Der Paradigmenwechsel: Klassische SERP-Analyse versus AI-Benchmarking
 
@@ -36,6 +64,7 @@ Die Mechanismen der Konkurrenzbeobachtung haben sich grundlegend gewandelt:
 | **Konkurrenz-Definition** | Bekannte Wettbewerber aus der gleichen Branche | Auto-Detected Competitors (von der KI bevorzugte Entitäten) |
 | **Qualitative Bewertung** | Title- und Snippet-Vergleich | Deep NLP Sentiment-Analyse (Lob vs. Vorbehalte) |
 | **Optimierungsfokus** | Keyword-Rankings & Backlink-Abgleich | Strategic Gap Analysis & Prompt-basierte Citations |
+| **Technischer Hebel** | HTML-DOM, Backlink-Profile | [Entity SEO](/glossar/entity-seo/), RAG-Chunking, Schema-Graphen |
 
 ## Auto-Detection: Die wahren Rivalen im KI-Ökosystem aufdecken
 
@@ -44,6 +73,20 @@ Der erste Schritt einer fundierten KI-Wettbewerbsanalyse besteht darin, vorgefas
 * **Identifikation von Ko-Nennungen:** Das System erfasst, welche Marken und Domains in synthetisierten Antworten regelmäßig neben oder anstelle der eigenen Marke empfohlen werden.
 * **Überraschende Marktteilnehmer:** Häufig stellt sich heraus, dass Fachforen, spezialisierte Vergleichsportale oder agile Nischen-Dienstleister den Großteil der Zitationen auf sich vereinen, während etablierte Konzerne unsichtbar bleiben.
 * **Datenbasierte Klarheit:** Statt auf Vermutungen zu vertrauen, erhalten Marketing-Teams eine empirische Übersicht aller realen Mitbewerber um den generativen Share of Voice.
+
+<div class="my-8 bg-white border border-neutral-200 rounded-2xl p-6 shadow-sm">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider">Praxistipp aus der SEO-Sprechstunde</span>
+    <span class="text-xs text-neutral-600 font-bold">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Öffne ChatGPT und gib folgenden Prompt ein: <em>„Nenne mir die 3 besten Alternativen zu [Dein Unternehmensname] für [Dein Hauptanwendungsfall] und vergleiche Stärken und Schwächen.“</em> Analysiere die Antwort: Welche Mitbewerber nennt die KI als Erste und welches Sentiment (z. B. „etabliert, aber teuer“ vs. „innovativ und schnell“) ordnet sie deiner Marke zu?
+  </p>
+  <div class="bg-neutral-50 p-4 rounded-xl border border-neutral-200 text-xs text-neutral-700">
+    <strong class="text-dark block mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</strong>
+    „Analysieren wir systematisch die Content-Strukturen jener Mitbewerber, die in ChatGPT und Perplexity als Primärquellen zitiert werden, und adaptieren wir deren Tabellen-, FAQ- und Schema-Formate?“
+  </div>
+</div>
 
 ## Das AI Competitive Intelligence Dashboard
 
@@ -67,6 +110,27 @@ Reine Kennzahlen entfalten erst dann geschäftlichen Nutzen, wenn daraus konkret
 * **Citation Reverse Engineering:** Wird ein Konkurrent von Modellen wie Perplexity oder Claude kontinuierlich zitiert, zerlegt das Analysewerkzeug die referenzierte Zielseite: Welche Tabellenstrukturen, FAQ-Blöcke oder Entitätsbeziehungen nutzt der Mitbewerber? Dies ermöglicht es dem SEO-Team, überlegene Inhaltsformate (10x Content) zu konzipieren, die den Algorithmus zum Wechsel der primären Quelle bewegen.
 * **Impact-basierte Priorisierung:** Nicht jede Lücke muss sofort geschlossen werden. Das Tool bewertet das geschäftliche Potenzial und priorisiert jene Fragestellungen, die den größten Einfluss auf Anfragen und Umsatz versprechen.
 * **Kontinuierliches Trend-Tracking:** Da Modelle fortlaufend nachtrainiert werden, überwachen Tracker die Entwicklung im Zeitverlauf. So wird sofort sichtbar, wenn ein Mitbewerber an Boden gewinnt oder eigene Content-Maßnahmen den Vorsprung ausbauen.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-2.5 py-0.5 rounded-full uppercase tracking-wider">Copy & Paste Task</span>
+    <span class="text-xs text-neutral-400">Prompt für KI-Coding-Assistenten</span>
+  </div>
+  <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
+    Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Competitor-Vergleich zu programmieren:
+  </p>
+  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein hochspezialisierter Competitive-Intelligence-Analyst für Generative AI.
+Führe einen Wettbewerbsvergleich zwischen unserer Marke [Brand A] und den Mitbewerbern [Brand B, Brand C] durch:
+1. Erstelle ein Set von 15 kaufentscheidenden B2B-Suchprompts für unser Marktsegment.
+2. Simuliere die Antwortgenerierung in Perplexity und ChatGPT Search.
+3. Berechne für jede Marke:
+   - Mention Rate (%) im Textkörper
+   - Citation Rate (%) in den Quellenangaben
+   - Sentiment Score (Positiv, Neutral, Negativ)
+   - Extrahiere die zitierten Zielseiten der Gewinner-Domains
+4. Erstelle eine Gap-Matrix mit Handlungsempfehlungen (P0: Kritische Lücken, P1: Quick Wins, P2: Langfristige Optimierungen).
+Gib die Ergebnisse als saubere Markdown-Tabelle aus.</code></pre>
+</div>
 
 ## Technische Integration: Automatisierter Wettbewerbsabgleich per API
 
@@ -109,24 +173,13 @@ Die systematische Beobachtung der Konkurrenz in generativen Suchsystemen ist der
 
 Durch den kontinuierlichen Abgleich der eigenen Sichtbarkeit mit den dynamischen Veränderungen im Vektorraum sichern sich Unternehmen die Pole-Position in ihrer Branche. Wer aufhört, bloße Keyword-Positionen zu vergleichen, und stattdessen die Mechanismen generativer Zitationen beherrscht, verwandelt Mitbewerberdaten in nachhaltiges Unternehmenswachstum.
 
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-start gap-4">
-    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
-      💡
-    </div>
-    <div>
-      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über AI Competitor Intelligence</h3>
-      <p class="text-gray-600 text-sm italic mb-2">
-        „Wer heute nur die Konkurrenz bei Google im Auge behält, verliert den Markt an Unternehmen, die in ChatGPT und Perplexity die Spitzenplätze besetzen. Eine datenbasierte AI Competitor Analysis zeigt dir ungeschönt, wer dir in den Köpfen der Sprachmodelle den Rang abläuft.“
-      </p>
-      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
-    </div>
-  </div>
-</div>
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
     Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
   </a>
 </div>
+

@@ -26,7 +26,49 @@ faqs:
 
 Im Zeitalter generativer Sprachmodelle wird das Internet täglich mit Millionen synthetisch erzeugter Fachartikel geflutet. Da Large Language Models vorhandenes Webwissen in Sekundenschnelle paraphrasieren können, ist theoretische Textqualität zu einer beliebig austauschbaren Ware geworden. Suchmaschinen wie Google und moderne Answer Engines stehen vor der Herausforderung, wertvolle Originalbeiträge von automatisiertem Einheitsbrei zu trennen.
 
-Die wirksamste Antwort der Suchalgorithmen auf diese Content-Inflation ist das erweiterte Framework [E-E-A-T](/glossar/e-e-a-t/). Während Expertise, Autorität und Vertrauenswürdigkeit seit Jahren etabliert sind, bildet das vorangestellte **E für Experience (First-Hand Experience)** den härtesten Filter für Relevanz. Nur wer nachweisbar belegt, dass er ein Problem in der physischen oder digitalen Realität selbst gelöst hat, erzeugt den notwendigen **Information Gain**, um von Suchmaschinen und RAG-Pipelines als zitierfähige Primärquelle belohnt zu werden.
+Die wirksamste Antwort der Suchalgorithmen auf diese Content-Inflation ist das erweiterte Framework [E-E-A-T](/glossar/e-e-a-t/). Während Expertise, Autorität und Vertrauenswürdigkeit seit Jahren etabliert sind, bildet das vorangestellte **E für Experience (First-Hand Experience)** den härtesten Filter für Relevanz. Nur wer nachweisbar belegt, dass er ein Problem in der physischen oder digitalen Realität selbst gelöst hat, erzeugt den notwendigen [Information Gain](/glossar/zitierfaehiger-content/), um von Suchmaschinen und RAG-Pipelines als zitierfähige Primärquelle belohnt zu werden.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Eine KI kann dir in zehn Sekunden einen fehlerfreien Fachtext schreiben, aber sie hat noch nie eine Domain aus einer manuellen Google-Abstrafung gerettet oder nachts um drei einen gecrashten Webserver wiederbelebt. Genau dieser Schmutz der Praxis – die realen Fehler, die unerwarteten Hürden und die echten Zahlen – ist der letzte unkopierbare Wettbewerbsvorteil. Wer seine Praxiserfahrung versteckt, wird im KI-Zeitalter gnadenlos durch generischen Durchschnitt ersetzt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+    <h3 class="text-base md:text-lg font-bold text-dark m-0">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Verbanne generische Stock-Bilder aus deinen Leistungsseiten und Fachartikeln. Ersetze sie durch ungeschönte Screenshots aus deinen echten Kundenprojekten, Messdaten mit Vorher-Nachher-Werten und authentische Fotos aus dem Arbeitsalltag. Das beweist Algorithmen und Besuchern sofort, dass hier echte Erfahrung am Werk ist.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <strong class="text-xs font-bold text-neutral-800 uppercase tracking-wide block mb-1">Deine Kontrollfrage an die Webagentur / das Redaktionsteam:</strong>
+    <p class="text-xs text-neutral-700 m-0 italic">
+      „Können Besucher und Suchmaschinen-Crawler in jedem unserer Key-Artikel innerhalb von 3 Sekunden anhand originärer Daten, Screenshots oder Praxisbeispiele erkennen, dass wir das Thema selbst eigenhändig umgesetzt haben?“
+    </p>
+  </div>
+</div>
 
 ## 1. Was unterscheidet Experience von theoretischer Expertise?
 
@@ -65,37 +107,59 @@ Damit Suchmaschinen-Bots die Praxiserfahrung eines Autors zweifelsfrei einer rea
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Case Study: Memory-Leak-Beseitigung in Node.js Microservices",
+  "headline": "Case Study: Core Web Vitals Optimierung in modernen Single Page Apps",
   "inLanguage": "de-DE",
-  "mainEntityOfPage": "https://deinedomain.de/case-studies/memory-leak-optimierung/",
+  "mainEntityOfPage": "https://teleschmie.de/case-studies/core-web-vitals-optimierung/",
   "author": {
     "@type": "Person",
-    "name": "Expertenname",
-    "jobTitle": "Senior Technical Consultant",
-    "url": "https://deinedomain.de/ueber-uns/expertenname/",
+    "name": "Jörg Zimmer",
+    "jobTitle": "Senior Technical SEO & AI Search Consultant",
+    "url": "https://teleschmie.de/ueber-uns/joerg-zimmer/",
     "sameAs": [
-      "https://www.wikidata.org/wiki/Q12345678",
-      "https://www.linkedin.com/in/expertenname/",
-      "https://github.com/expertenname"
+      "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+      "https://github.com/JoergZimmerBerlin"
     ],
     "hasCredential": [
       {
         "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "degree",
-        "name": "M.Sc. Praktische Informatik"
+        "credentialCategory": "certification",
+        "name": "Senior Technical SEO & AI Search Consultant"
       }
     ]
   },
   "publisher": {
     "@type": "Organization",
-    "name": "DeineDomain GmbH",
-    "url": "https://deinedomain.de/"
+    "name": "Teleschmiede",
+    "url": "https://teleschmie.de/"
   }
 }
 </script>
 ```
 
 Über die Verknüpfung von `sameAs`-Attributen mit autoritativen Plattformen (LinkedIn, GitHub, Branchenverzeichnissen) verifizierst du die Identität des Autors. Die Maschine erkennt: Hier schreibt kein anonymer KI-Prompt, sondern ein nachweisbarer Praktiker.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um strukturierte First-Hand Experience Signale und maschinenlesbare Autorenschaften zu implementieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org Experience & Author Verification Injection</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Knowledge Graph Architect.</p>
+    <p><strong>Aufgabe:</strong> Erweitere die Artikel-Templates um semantisch präzises JSON-LD Markup nach Schema.org, um First-Hand Experience und Autorenschaft maschinenlesbar mit dem Knowledge Graph zu verknüpfen.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Injiziere in Blog- und Case-Study-Templates ein verschachteltes TechArticle- oder Article-Schema mit author-Objekt vom Typ Person.</p>
+    <p>2. Ergänze die Attribute sameAs (verifizierte Profile wie LinkedIn, GitHub, Wikidata), jobTitle, knowsAbout und hasCredential.</p>
+    <p>3. Verknüpfe Fallstudien-Abschnitte mit mentions- und about-Entitäten für getestete Tools oder Technologien.</p>
+    <p>4. Validierung: Prüfe das generierte Markup über den Google Rich Results Test und stelle sicher, dass keine Syntaxfehler oder fehlenden Pflichtfelder vorliegen.</p>
+  </div>
+</div>
 
 ## 4. Typische Praxisfehler bei der Experience-Darstellung
 
@@ -105,12 +169,6 @@ Viele Unternehmen scheitern daran, ihre tatsächliche Praxiserfahrung wirkungsvo
 2. **Weichgespülte Erfolgsmeldungen ohne Tiefgang:** Fallstudien, die ausschließlich den triumphalen Erfolg preisen, aber die aufgetretenen Schwierigkeiten und Fehlversuche verschweigen, wirken unglaubwürdig. Suchmodelle suchen gezielt nach Edge-Cases und Lösungsdetails.
 3. **Fehlende Autorenprofile und unklare Verantwortlichkeiten:** Artikel, die unter Sammelbegriffen wie „Redaktion“ oder „Gastautor“ veröffentlicht werden, können im Knowledge Graph keiner spezifischen [Entität](/glossar/entitaet/) zugeordnet werden. Das Potenzial für [Trustworthiness (E-E-A-T)](/glossar/trustworthiness-eeat/) bleibt ungenutzt.
 
-<div class="bg-white border-l-4 border-lime-500 p-4 rounded-r-lg shadow-sm my-6">
-  <p class="font-bold text-dark mb-1">Jörg Zimmer aus der SEO-Praxis:</p>
-  <p class="text-gray-700 italic mb-2">„Eine KI kann dir in zehn Sekunden einen fehlerfreien Fachtext schreiben, aber sie hat noch nie eine Domain aus einer manuellen Google-Abstrafung gerettet oder nachts um drei einen gecrashten Webserver wiederbelebt. Genau dieser Schmutz der Praxis – die realen Fehler, die unerwarteten Hürden und die echten Zahlen – ist der letzte unkopierbare Wettbewerbsvorteil. Wer seine Praxiserfahrung versteckt, wird im KI-Zeitalter gnadenlos durch generischen Durchschnitt ersetzt.“</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">↗ Zur Diskussion auf LinkedIn</a>
-</div>
-
 ## 5. Strategische Verankerung im Knowledge Graph
 
 Der systematische Nachweis von Praxiserfahrung ist der nachhaltigste Hebel, um deine [Topical Authority](/glossar/topical-authority/) auszubauen. Indem du deine praktischen Projekte auf einer klar deklarierten [Grounding Page](/glossar/grounding-page/) bündelst und systematisch mit externen Nachweisen verknüpfst, schaffst du eine verifizierbare Faktenbasis.
@@ -119,10 +177,17 @@ Ergänzend zur praktischen Erfahrung stärken die Dimensionen [Expertise (E-E-A-
 
 Zur Überprüfung deiner organischen Rankings und der Sichtbarkeitsentwicklung nach der Veröffentlichung praxisnaher Inhalte bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) verlässliche Rank-Tracking- und SERP-Analyse-Tools. Um zu kontrollieren, wie stark deine persönlichen Erfahrungen und Fallstudien in den Antworten generativer Sprachmodelle zitiert werden, liefert die Analyseplattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Einblicke in deine KI-Zitationswerte und semantischen Marktanteile.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
@@ -134,3 +199,4 @@ Zur Überprüfung deiner organischen Rankings und der Sichtbarkeitsentwicklung n
 * [Grounding Page: Faktische Verankerung für Sprachmodelle](/glossar/grounding-page/)
 * [Entität: Bedeutung im semantischen Knowledge Graph](/glossar/entitaet/)
 * [Topical Authority: Themenführerschaft gezielt aufbauen](/glossar/topical-authority/)
+

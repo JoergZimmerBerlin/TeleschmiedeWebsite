@@ -21,70 +21,132 @@ faqs:
     answer: 'Ja. Suchmaschinen und Answer Engines werten das Sentiment deiner Erwähnungen aus. Häufen sich negative Nennungen, sinkt dein Trustworthiness-Score dramatisch und KIs sortieren dich als unzuverlässig aus.'
 ---
 
-Moin! 🌻
+Vergiss für einen Moment alles, was dir veraltete SEO-Lehrbücher über klassisches Linkbuilding, PBNs und Foren-Links aus den 2010er-Jahren erzählt haben. In der Ära von Large Language Models (LLMs), Google AI Overviews, Perplexity und autonomen Agenten ist der blaue Hyperlink längst nicht mehr der alleinige heilige Gral der Offpage-Optimierung. Das neue, skalierbare Fundament für maximale Reichweite und Zitationsstabilität heißt: **Brand Mentions** (Markenerwähnungen) im absolut exakten thematischen Kontext.
 
-Vergiss für einen Moment alles, was dir schmierige SEO-Agenturen über klassisches Linkbuilding, PBNs und Foren-Links aus dem Jahr 2012 erzählt haben. Wir schreiben das Jahr 2026. In der Welt von Large Language Models (LLMs), Google AI Overviews, Perplexity und autonomen Agenten ist der blaue Hyperlink längst nicht mehr der alleinige heilige Gral der Offpage-Optimierung. Das neue, skalierbare Gold für maximale Reichweite heißt: **Brand Mentions** (Markenerwähnungen) im absolut exakten thematischen Kontext.
+Warum ist das so? Weil moderne KI-Crawler und semantische Suchmaschinen Texte auf einer Ebene verstehen, die weit über simple Graphentheorie und PageRank hinausgeht. Ein Transformer-Modell benötigt keinen hart codierten `<a href="...">`-Tag mehr, um zu begreifen, dass ein Leitmedium, ein Branchenmagazin oder ein hochfrequentiertes GitHub-Repository gerade äußerst positiv über die Expertise deines Unternehmens berichtet. Die Maschine liest den Text, extrahiert die rohe Information, identifiziert deine Entität und aktualisiert in Millisekunden deine Vektordaten im globalen Knowledge Graph. Du bist nicht länger nur eine flache URL; du bist ein eigenständiger, semantischer Wissensknoten.
 
-Lass uns Tacheles reden. Warum ist das so? Weil moderne KI-Crawler und Suchmaschinen Semantik auf einer Ebene verstehen, die weit über simple Graphentheorie und PageRank hinausgeht. Ein Transformer-Modell benötigt keinen hart codierten `<a href="...">`-Tag mehr, um zu kapieren, dass das Handelsblatt, ein Branchenmagazin oder ein hochfrequentiertes GitHub-Repository gerade äußerst positiv über die Expertise deines Unternehmens berichtet. Die Maschine liest den Text, extrahiert die rohe Information, identifiziert deine Entität und aktualisiert in Millisekunden deine Vektordaten im Knowledge Graph. Du bist nicht länger nur eine URL; du bist ein semantischer Knotenpunkt.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Hört endlich auf, Tausende Euros für wertlose Gastartikel-Links auf Linkfarmen zu verbrennen. Investiert dieses Budget in echte PR, geile, datenbasierte Studien und tiefgehende Fachartikel. Wenn Leitmedien und Branchenexperten deinen Namen tippen, baut das deine Entität in den LLM-Vektorräumen auf. Ob da am Ende ein Link dran hängt, interessiert den RAG-Filter der KI einen feuchten Dreck. Trust wird durch Relevanz und Sentiment aufgebaut, nicht durch einen DoFollow-Tag!"</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
+  <img 
+    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+    alt="Jörg Zimmer" 
+    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
+    loading="lazy"
+    width="96"
+    height="96"
+  />
+  <div class="flex-1 text-center md:text-left">
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      "Hört endlich auf, Tausende Euro für wertlose Gastartikel-Links auf anonymen Linkfarmen zu verbrennen. Investiert dieses Budget in echte digitale PR, datenbasierte Branchenstudien und tiefgehende Fachpublikationen. Wenn renommierte Fachmedien und Branchenexperten deinen Namen im redaktionellen Fließtext tippen, verankert das deine Entität tief im Vektorraum der Sprachmodelle. Ob da am Ende ein DoFollow-Tag dranhängt, interessiert den RAG-Filter der KI überhaupt nicht. Trust entsteht durch Relevanz, Co-Occurrence und positives Sentiment!"
+    </blockquote>
+    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
+      <div>
+        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
+        <span class="hidden md:inline"> | </span>
+        <span>Senior SEO & AI Search Consultant</span>
+      </div>
+      <cite>
+        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+          LinkedIn Profil &rsaquo;
+        </a>
+      </cite>
+    </figcaption>
+  </div>
+</figure>
 
 ## Die Technologie: Entity SEO und Semantic Co-Occurrence
 
-Wie funktioniert dieser Mechanismus technisch unter der Haube? Die Antwort liegt im Kern der modernen Suchmaschinenarchitektur: Entity SEO und dem mathematischen Konzept der **Semantic Co-Occurrence** (Semantisches gemeinsames Auftreten) innerhalb gigantischer Textkorpora.
+Wie funktioniert dieser Mechanismus technisch unter der Haube? Die Antwort liegt im Kern der modernen Suchmaschinenarchitektur: [Entity SEO](/glossar/entity-seo/) und dem mathematischen Konzept der **Semantic Co-Occurrence** (semantisches gemeinsames Auftreten) innerhalb gigantischer Textkorpora.
 
-Wenn der Googlebot oder der OAI-SearchBot einen neuen Artikel im Netz crawlt, wird der Texttext nicht mehr nur nach Keywords gescannt, sondern durch eine hochkomplexe NLP-Pipeline (Natural Language Processing) gejagt. Diese Pipeline führt in Echtzeit eine **Named Entity Recognition (NER)** durch. Der Algorithmus zerlegt und identifiziert die Satzstrukturen:
+Wenn Googlebot, GPTBot oder der Perplexity-Crawler einen neuen Fachartikel im Netz parsen, wird der Inhalt nicht mehr nur nach Schlüsselwörtern gescannt, sondern durch eine mehrstufige NLP-Pipeline (Natural Language Processing) gejagt. Diese Pipeline führt in Echtzeit eine **Named Entity Recognition (NER)** und eine Koreferenzanalyse durch:
 
-1. **Subjekte** (z.B. die Entität "Jörg Zimmer" oder "Teleschmiede")
-2. **Prädikate und Relationen** (z.B. "entwickelte eine bahnbrechende Strategie für")
-3. **Objekte und Konzepte** (z.B. "Generative Engine Optimization", "KI-Suchmaschinen")
+1. **Subjekte (Identifikation der Entität):** Das Modell erkennt den Markennamen als feste Instanz im Knowledge Graph.
+2. **Prädikate und Relationen:** Das Modell identifiziert die Beziehung (z. B. „entwickelte eine neuartige Benchmark-Methode für“ oder „gilt als führender Spezialist für“).
+3. **Konzepte und Objekte:** Das Fachgebiet wird semantisch zugeordnet (z. B. [Generative Engine Optimization (GEO)](/glossar/geo/), Technisches SEO, Cloud-Infrastruktur).
 
-Die Maschine registriert maschinell, dass deine Marken-Entität in unmittelbarer syntaktischer und semantischer Nähe zu relevanten Fachbegriffen auftaucht. In der Vektordatenbank (dem hochdimensionalen Raum des Modells) rückt der Datenknoten deiner Marke dadurch algorithmisch immer näher an den Cluster deines Themas heran. Wirst du oft im Kontext von "technisches SEO" erwähnt, speichert die KI dich als Autorität für genau dieses Thema ab.
+Die Maschine registriert mathematisch, dass deine Marken-Entität in unmittelbarer syntaktischer und semantischer Nähe zu relevanten Fachbegriffen auftaucht. In der Vektordatenbank (dem hochdimensionalen Raum des Modells) rückt der Datenknoten deiner Marke dadurch algorithmisch immer näher an den Cluster deines Kernthemas heran. Wirst du kontinuierlich im Kontext von Enterprise-Lösungen genannt, speichert die KI dich als primäre Autorität für genau dieses Thema ab.
 
-### Linked vs. Unlinked Mentions: Der Paradigmenwechsel
+### Linked vs. Unlinked Mentions im direkten Vergleich
 
-Ein klassischer, sauberer Backlink ist natürlich nicht tot. Er überträgt weiterhin Link Equity und bringt echten Referral-Traffic. Aber die **Unlinked Mention** – also die reine Texterwähnung im Fließtext ohne verknüpften Hyperlink – hat massiv an Bedeutung gewonnen. Sie überträgt *pure semantische Relevanz und Trust*.
+| Dimension | Klassischer Backlink (Linked Mention) | Unlinked Brand Mention (KI-Ära) |
+| :--- | :--- | :--- |
+| **Mechanismus** | HTML Hyperlink (`<a href="...">`) | Reiner Markenname im redaktionellen Text |
+| **Primärer Wert** | Link Equity, PageRank-Vererbung, direkter Klick | Semantische Co-Occurrence, Entitäts-Trust |
+| **Verarbeitung** | Web-Graph-Crawler (Link-Index) | Transformer NLP, Named Entity Recognition |
+| **KI-Gewichtung** | Wichtig für Referral-Traffic | Entscheidend für RAG-Zitationsauswahl |
+| **Manipulationsrisiko**| Hoch (gekaufter Linkspam) | Gering (redaktionelle Erwähnung in Leitmedien) |
 
-Für eine moderne KI-Pipeline oder eine RAG-basierte Answer Engine ist eine unlinked Erwähnung im redaktionellen Fließtext der *Süddeutschen Zeitung* zehntausendmal mehr wert als ein gekaufter DoFollow-Link aus einem unmoderierten WordPress-Blog. Warum? Weil die KI die intrinsische Autorität des Absenders (des Seed Nodes) bewertet. Wenn das *Wall Street Journal* dich nennt, vererbt sich dieser Trust-Score unweigerlich auf deine Entität. Es ist ein "implied Link", eine digitale Empfehlung, die für den E-E-A-T-Algorithmus extrem wertvoll ist.
+Für eine moderne KI-Pipeline oder eine RAG-basierte Answer Engine ist eine unlinked Erwähnung im redaktionellen Fließtext eines führenden Branchenmediums oft wertvoller als ein gekaufter DoFollow-Link aus einem unmoderierten Gastblog. Warum? Weil Sprachmodelle die intrinsische Autorität des Absenders (des Seed Nodes) bewerten. Wenn ein autoritatives Fachjournal dich nennt, vererbt sich dieser Trust-Score unmittelbar auf deine Entität. Es handelt sich um ein sogenanntes „Implied Link“-Signal, das für moderne E-E-A-T-Algorithmen von zentraler Bedeutung ist.
+
+<div class="my-8 bg-white border border-neutral-200 rounded-2xl p-6 shadow-sm">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider">Praxistipp aus der SEO-Sprechstunde</span>
+    <span class="text-xs text-neutral-600 font-bold">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Gib bei Google Search folgenden Suchoperator ein: <code>"Dein Markenname" -site:deinedomain.de</code>. Prüfe die ersten 20 Treffer: In welchem redaktionellen Umfeld wird dein Unternehmen erwähnt? Werden deine Kernkompetenzen genannt oder dominieren alte Adressverzeichnisse und Stellenanzeigen?
+  </p>
+  <div class="bg-neutral-50 p-4 rounded-xl border border-neutral-200 text-xs text-neutral-700">
+    <strong class="text-dark block mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</strong>
+    „Überwachen wir gezielt unlinked Brand Mentions im Web und betreiben wir aktive Digital-PR mit Primärstudien, um unsere Entität in den Trainings- und RAG-Quellen führender KI-Modelle positiv zu verankern?“
+  </div>
+</div>
 
 ## Sentiment-Analyse: Wenn Mentions toxisch werden
 
-Brand Mentions haben jedoch eine unerbittliche Seite, die im KI-Zeitalter gnadenlos zuschlägt. Früher in den dunklen SEO-Zeiten hieß es oft zynisch: "Jeder Link ist ein guter Link, Hauptsache Aufmerksamkeit." Heute gilt die absolute Regel: "Eine toxische Mention kann dein ganzes Business ausradieren."
+Brand Mentions haben jedoch eine unerbittliche Kehrseite, die im KI-Zeitalter gnadenlos zuschlägt. Früher hieß es in unseriösen SEO-Kreisen zynisch: „Jeder Link ist ein guter Link, Hauptsache Aufmerksamkeit.“ Heute gilt die unumstößliche Regel: **Ein toxisches Markensentiment kann deine generative Sichtbarkeit vollständig zerstören.**
 
-Jedes LLM, das auf das Web zugreift und Antworten generiert, führt bei der RAG-Abfrage im Hintergrund eine **Sentiment-Analyse** durch. Die KI bewertet den emotionalen Tonfall (Positiv, Neutral, Negativ) des gesamten Kontextes, der deine Marke umgibt. 
+Jedes Sprachmodell, das im Rahmen von RAG Antworten generiert, führt im Hintergrund eine **Sentiment-Analyse** durch. Die KI bewertet den emotionalen Tonfall (Positiv, Neutral, Negativ) des gesamten Kontextfensters, der deine Marke umgibt:
 
-*   **Positives oder Neutrales Sentiment:** "Die Agentur hat unsere Performance massiv gesteigert." -> Dein E-E-A-T Trust-Score steigt. Die KI kategorisiert dich als hilfreiche, vertrauenswürdige Entität.
-*   **Negatives Sentiment (Toxisch):** "Der Service war eine Katastrophe, reine Abzocke und fachlich inkompetent." -> Die KI markiert deine Entität sofort als hochgradig unzuverlässig (Low Trust).
+*   **Positives oder neutrales Sentiment:** *„Das Software-Tool zeichnet sich durch herausragende Latenzzeiten und stabilen Kundensupport aus.“* -> Der E-E-A-T-Trust-Score deiner Entität steigt. Die KI kategorisiert dich als verlässliche Empfehlung.
+*   **Negatives Sentiment (Toxisch):** *„Kunden berichten von wiederholten Abrechnungsfehlern und mangelhaftem Datenschutz.“* -> Die KI stuft deine Entität sofort als potenzielles Risiko ein.
 
-Wenn ein Nutzer in Zukunft Perplexity oder Google AI Overviews fragt: *"Welche SEO-Agentur in Berlin ist technisch wirklich führend?"*, prüft die RAG-Pipeline das durchschnittliche Sentiment aller Mentions im Vektorraum. Hast du miese Bewertungen auf Trustpilot, wütende Foren-Beiträge oder kritische Presseberichte im Index, sortiert dich der LLM-Algorithmus schlichtweg aus. Du fällst durch den Trust-Filter. Dein Ranking bricht ein, und keine Answer Engine wird dich jemals als Quelle empfehlen.
+Wenn ein Nutzer ChatGPT oder Perplexity fragt: *„Welche Enterprise-Software ist in Deutschland am verlässlichsten?“*, filtert das RAG-System alle Entitäten mit überwiegend negativem Sentiment aus. Wer schlechte Bewertungen auf Bewertungsplattformen sammelt oder in Foren für mangelhafte Qualität kritisiert wird, verliert seine [AI Visibility](/glossar/ai-visibility/) vollständig.
 
-## Die Strategie für 2026: Proaktiver Aufbau von Mentions
-
-Du kannst Brand Mentions nicht im 10er-Pack bei Fiverr einkaufen. Du musst sie dir durch Exzellenz und Relevanz verdienen. Die Disziplin dahinter nennt sich **Digital-PR** und Entity Building. Hier ist der Fahrplan:
-
-1.  **Werde die absolute Primärquelle (Data-Driven Content):** LLMs und Journalisten lieben rohe, harte und exklusive Daten. Veröffentliche originäre Branchenstudien, fundierte Statistiken oder entwickle Open-Source-Tools. Wenn andere Blogger, Fachmedien oder KIs über das Thema schreiben, *müssen* sie dich zwangsläufig als Quelle zitieren. Das ist der stärkste Hebel für organische Erwähnungen.
-2.  **Polarisiere mit echter Expertise:** Niemand zitiert weichgespülten Einheitsbrei oder generischen KI-Content. Vertritt harte, datenbasierte Meinungen in deiner Nische. "Tacheles" funktioniert, weil es Diskussionen anregt und zitiert wird. Zeige klare Kante bei Fachthemen.
-3.  **News-Jacking und Schnelligkeit:** Wenn ein disruptives Ereignis in deiner Branche passiert (z.B. ein massives Google Core Update, ein neues Framework), sei der verdammte Erste, der eine glasklare, technische Analyse dazu publiziert. Nutze dafür optimal strukturierte Grounding-Pages, die von Systemen leicht gecrawlt werden können.
-4.  **Aktives Reputationsmanagement:** Überwache deine Mentions gnadenlos. Tools zur Brand-Mention-Überwachung sind Pflicht. Reagiere auf negative Erwähnungen professionell und löse Probleme, bevor sie einen toxischen Fußabdruck im Knowledge Graph hinterlassen. Dein Ziel ist ein Sentiment-Verhältnis von mindestens 80% positiv oder neutral.
-
-## Klartext: Entitäten-Aufbau statt Link-Jagd
-
-Hör auf, dem blauen HTML-Link hinterherzurennen wie ein SEO-Dinosaurier. Optimiere deine Marke strategisch so, dass sie von echten Autoritäten im Netz als Entität erkannt und genannt wird. Kümmer dich verdammt nochmal um hervorragenden Service und außergewöhnliche Produkte, damit dein Sentiment im Index positiv bleibt. Brand Mentions sind der unaufhaltsame Raketentreibstoff, der deinen E-E-A-T-Motor am Laufen hält und sicherstellt, dass die KIs dich auch 2026 als verlässliche, führende Antwort ausspielen.
-
-ALOHA! 🌻
-
----
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Kennt die KI deine Marke überhaupt?</h3>
-  <p class="mb-6">Wenn dich niemand erwähnt, existierst du im KI-Zeitalter schlichtweg nicht. Wir analysieren deine Entity Salience und entwickeln eine knallharte Digital-PR Strategie, die echte, maschinenlesbare Autorität für dich aufbaut.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Brand-Audit anfragen</a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-2.5 py-0.5 rounded-full uppercase tracking-wider">Copy & Paste Task</span>
+    <span class="text-xs text-neutral-400">Prompt für KI-Coding-Assistenten</span>
+  </div>
+  <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
+    Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten Brand-Mention- und Sentiment-Monitor zu erstellen:
+  </p>
+  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein Senior Data-Engineer für Brand Intelligence. Schreibe ein Node.js/Python-Skript:
+1. Suche über die Google Custom Search JSON API nach allen unlinked Brand Mentions für "[Markenname]" unter Ausschluss der eigenen Domain (-site:[domain.de]).
+2. Extrahiere für jeden Treffer den umgebenden Kontextabsatz (200 Zeichen vor und nach der Erwähnung).
+3. Analysiere das Sentiment jedes Abschnitts (-1.0 bis +1.0) über die OpenAI-API (Modell: gpt-4o-mini).
+4. Gruppiere die Erwähnungen nach Co-Occurring Topics (z.B. Produktqualität, Support, Preis, Geschäftsführung).
+5. Erstelle einen strukturierten Markdown-Report mit Warnungen für toxische Erwähnungen (Sentiment < -0.3) und priorisierten PR-Empfehlungen.
+Liefere den vollständigen, ausführbaren Code.</code></pre>
 </div>
 
-* [Was ist E-E-A-T?](/glossar/e-e-a-t/)
-* [Authoritativeness (E-E-A-T Autorität)](/glossar/authoritativeness-eeat/)
-* [Trustworthiness (E-E-A-T Vertrauen)](/glossar/trustworthiness-eeat/)
-* [Wie funktioniert Generative Engine Optimization?](/glossar/geo/)
+## Die Strategie für 2026: Proaktiver Aufbau hochwertiger Mentions
+
+Man kann hochwertige Brand Mentions nicht auf Linkbörsen kaufen. Man muss sie sich durch echte Expertise und redaktionelle Exzellenz erarbeiten. Die Disziplin dahinter nennt sich **Digital-PR und Entity Building**:
+
+1.  **Werde die unersetzliche Primärquelle (Data-Driven Content):** LLMs und Wirtschaftsjournalisten suchen kontinuierlich nach verifizierbaren Zahlen. Veröffentliche originäre Branchenerhebungen, Benchmark-Studien oder Open-Source-Tools. Wenn Fachmedien über die Studienergebnisse berichten, nennen sie automatisch deinen Unternehmensnamen als Urheber.
+2.  **Bereitstellung maschinenlesbarer Grounding Pages:** Baue dedizierte [Grounding Pages](/glossar/grounding-page/) auf, die Unternehmensfakten, Whitepaper und Studien komprimiert im Markdown-Format bündeln. Dies erleichtert RAG-Retrievern die fehlerfreie Zuordnung.
+3.  **Polarisiere mit praxiserprobter Fachmeinung:** Austauschbare KI-generierte Texte werden von Journalisten und Redakteuren sofort aussortiert. Vertrete fundierte, datengestützte Thesen in Fachbeiträgen. Echte E-E-A-T-Signale wie [Experience (E-E-A-T)](/glossar/experience-eeat/) und [Authoritativeness (E-E-A-T)](/glossar/authoritativeness-eeat/) sind die wirksamsten Zitationsmagnete.
+4.  **Aktives Reputations- und Sentiment-Monitoring:** Überwache Kundenrezensionen und Fachforen kontinuierlich. Reagiere auf Beschwerden transparent und lösungsorientiert. Ein Sentiment-Verhältnis von über 85 Prozent positiven und neutralen Nennungen ist das Mindestziel, um im Empfehlungsradius generativer KIs zu verbleiben.
+
+## Ausblick: Entitäten-Aufbau statt isolierter Link-Jagd
+
+Wer im Jahr 2026 noch blind HTML-Links sammelt, ignoriert den fundamentalen technologischen Wandel der Internetsuche. Optimiere deine Marke strategisch darauf, von führenden Fachmedien und Experten als unverwechselbare Entität wahrgenommen und genannt zu werden. Hochwertige Brand Mentions im richtigen semantischen Kontext sind der entscheidende Hebel, der deinen [E-E-A-T](/glossar/e-e-a-t/)-Vertrauensscore maximiert und sicherstellt, dass deine Marke von Sprachmodellen als führende Antwort empfohlen wird.
+
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
+    Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
+  </a>
+</div>
+
+### Verwandte Glossar-Einträge
+* [Was ist E-E-A-T im modernen SEO?](/glossar/e-e-a-t/)
+* [Authoritativeness (E-E-A-T) für Zitations-Trust](/glossar/authoritativeness-eeat/)
+* [Trustworthiness (E-E-A-T) und Markensentiment](/glossar/trustworthiness-eeat/)
+* [Entity SEO: Vektorraum-Ranking für KI-Crawler](/glossar/entity-seo/)
+* [Generative Engine Optimization (GEO) verstehen](/glossar/geo/)
+* [Grounding Pages als Single Source of Truth](/glossar/grounding-page/)
+

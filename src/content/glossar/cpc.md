@@ -28,6 +28,46 @@ Der **Cost per Click (CPC)** ist eine der zentralen Kennzahlen des digitalen Per
 
 Werbeplätze werden heute über hochkomplexe Echtzeit-Auktionen vergeben, in denen künstliche Intelligenzen innerhalb von Millisekunden gegeneinander bieten. Gleichzeitig verändern generative Antwortsysteme wie Google AI Overviews das Layout der Suchergebnisseiten radikal: Da einfache Fragen direkt im Browser beantwortet werden, schrumpft die Klickfläche für klassische Links. Auf den verbleibenden Werbeplätzen tobt ein intensiver Verdrängungswettbewerb, der den CPC in vielen Branchen zweistellig in die Höhe treibt.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Viele Unternehmen trennen SEO und Google Ads noch immer strikt voneinander – das ist im Zeitalter generativer Suchmaschinen wirtschaftlicher Wahnsinn. Wer seine Landingpages technisch nicht im Griff hat und Core Web Vitals ignoriert, zahlt über den Quality Score jeden Tag eine verdeckte Strafgebühr in Form eskalierender CPCs. Schneller Code und semantische Relevanz sind die schärfsten Waffen, um Klickkosten nachhaltig zu drücken.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-dark text-white px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <p class="text-neutral-800 text-sm md:text-base leading-relaxed mb-3">
+    <strong>Die Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</strong><br>
+    <em>„Überwachen wir in Google Ads den Qualitätsfaktor (Quality Score) unserer Top-Keywords gezielt auf Landingpage-Nutzererfahrung und Ladezeiten, und speisen wir saubere First-Party-Conversion-Werte für Target-ROAS-Smart-Bidding ein, anstatt Gebote bei sinkenden Klicks blind nach oben zu schrauben?“</em>
+  </p>
+  <p class="text-xs text-neutral-600 mb-0">
+    Hintergrund: Ein Qualitätsfaktor von 9 oder 10 halbiert deinen effektiven Klickpreis gegenüber Mitbewerbern mit schwacher Landingpage-Performance und schützt dein Werbebudget vor der aktuellen CPC-Inflation.
+  </p>
+</div>
+
 ## 1. Die Auktionsmechanik: Vom Vickrey-Modell zu First-Price und Bid Shading
 
 Historisch basierte der Suchmaschinen-Werbemarkt auf dem sogenannten Zweitpreis-Auktionsmodell (Vickrey-Auktion): Der Höchstbietende gewann die Anzeigenplatzierung, zahlte jedoch lediglich den Betrag des zweithöchsten Gebots plus einen Cent. Dieses System bot einen natürlichen Schutz vor Überbietung.
@@ -72,7 +112,7 @@ function trackTransactionConversion(orderData) {
       value: orderData.totalValue,
       currency: 'EUR',
       customer_tier: orderData.isHighLifetimeValue ? 'enterprise' : 'standard',
-      landing_page_source: 'https://deinedomain.de/lp/enterprise-solution/'
+      landing_page_source: 'https://teleschmie.de/lp/enterprise-solution/'
     },
     user_data: {
       hashed_email: orderData.hashedEmail,
@@ -93,10 +133,27 @@ In Performance-Marketing-Audits zeigen sich regelmäßig dieselben teuren Versä
 2. **Ignorieren der Landingpage-Performance:** Die Formel für den Ad Rank lautet `Max-CPC × Quality Score`. Vernachlässigst du Ladezeiten und Nutzersignale, stürzt der Qualitätsfaktor ab. Du musst den doppelten oder dreifachen CPC bezahlen, um dieselbe Anzeigenposition zu halten.
 3. **Festhalten an reinen Klick-Zielen statt Grenzertrags-Bidding:** Wer Kampagnen nach wie vor auf maximale Klickzahlen statt auf qualifizierte Leads optimiert, zahlt für Streuverluste, die moderne Answer Engines ohnehin filtern.
 
-<div class="bg-white border-l-4 border-lime-500 p-4 rounded-r-lg shadow-sm my-6">
-  <p class="font-bold text-dark mb-1">Jörg Zimmer aus der SEO-Praxis:</p>
-  <p class="text-gray-700 italic mb-2">„Viele Unternehmen trennen SEO und Google Ads noch immer strikt voneinander. Das ist im Jahr 2026 wirtschaftlicher Wahnsinn. Wer seine Landingpages technisch nicht im Griff hat und Core Web Vitals ignoriert, zahlt über den Quality Score jeden Tag eine verdeckte Strafgebühr in Form von eskalierenden CPCs. Schneller Code und semantische Relevanz sind die schärfsten Waffen, um Klickkosten nachhaltig zu drücken.“</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">↗ Zur Diskussion auf LinkedIn</a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Landingpage-Quality-Scores zu sichern und CPC-senkende Performance-Maßnahmen umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Google Ads Landing Page Experience & Quality Score Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Paid Media Architect.</p>
+    <p><strong>Aufgabe:</strong> Optimiere die Zielseiten bezahlter Suchkampagnen, um den Google Ads Quality Score zu maximieren und den effektiven CPC zu senken.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Performance: Minimiere den Largest Contentful Paint (LCP < 2,0s) auf allen bezahlten Landingpages durch Hero-Asset Preloading und CSS-Inlining.</p>
+    <p>2. Semantische Relevanz: Gleiche H1, Meta-Daten und Fließtext exakt mit den gebuchten Anzeigentexten und Suchbegriffen ab.</p>
+    <p>3. Tracking: Implementiere datenschutzkonformes Enhanced Conversion Tracking mit serverseitiger First-Party-Hashing-Übergabe.</p>
+    <p>4. Validierung: Prüfe den Google Ads Quality Score Bericht und stelle sicher, dass die 'Nutzererfahrung mit der Landingpage' mindestens als 'Durchschnittlich' oder 'Überdurchschnittlich' eingestuft ist.</p>
+  </div>
 </div>
 
 ## 5. Synergien zwischen SEA und generativer Suchoptimierung
@@ -107,14 +164,22 @@ Eine starke organische [Topical Authority](/glossar/topical-authority/) in Kombi
 
 Zur kontinuierlichen Analyse profitabler Keyword-Kombinationen, historischer CPC-Trends und technischer Onpage-Fehler liefert [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ein unersetzliches Werkzeugset. Um parallel zu prüfen, wie stark deine Marke bereits ohne bezahlte Anzeigen in generativen Antworten empfohlen wird, bietet die Plattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Monitoring-Lösungen für zukunftssichere Marken.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-### Verwandte Glossar-Einträge
+## Verwandte Glossar-Begriffe
+
 * [Money Keywords: Kommerzielle Kernbegriffe strategisch nutzen](/glossar/money-keyword/)
 * [Conversion Rate: Klicks in messbaren Geschäftserfolg wandeln](/glossar/conversion-rate/)
 * [Click-Through Rate (CTR): Klickraten gezielt steigern](/glossar/ctr/)

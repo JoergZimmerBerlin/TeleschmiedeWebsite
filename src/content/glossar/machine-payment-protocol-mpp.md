@@ -26,6 +26,54 @@ Der traditionelle Online-Handel und die klassische Zahlungsabwicklung wurden üb
 
 Im Jahr 2026 bricht diese Infrastruktur unter den Anforderungen der Agent Economy zusammen. Autonome Software-Agenten, die im Auftrag von B2B-Konzernen oder Privatnutzern handeln, agieren in Frequenzen von Millisekunden. Sie rufen hochspezialisierte APIs ab, mieten flüchtige Headless-Browser-Sessions für Recherchen oder kaufen tagesaktuelle Marktdaten ein. Ein Agent besitzt jedoch weder einen Personalausweis für KYC-Prüfungen noch kann er auf eine SMS-TAN warten. Um diese Reibungsverluste zu eliminieren und den ersten universellen Zahlungs-Layer für autonome Systeme zu schaffen, wurde das **Machine Payments Protocol (MPP)** entwickelt.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Umsatz wird dann gemacht, wenn alle Rädchen perfekt ineinandergreifen – vom Klick in der KI-Suche über die maschinenlesbare Landingpage bis hin zum reibungslosen M2M-Checkout. Autonome KI-Agenten tippen keine Kreditkartennummern ab. Wer maschinelle Zahlungen via HTTP 402 ignoriert, sperrt die solventesten Käufer der nächsten Dekade schlichtweg aus.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Beitrag auf LinkedIn ansehen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-mono uppercase tracking-wider bg-lime-accent/30 text-dark px-2.5 py-1 rounded-full font-bold">
+      30-Sekunden Inhaber-Check
+    </span>
+  </div>
+  <h3 class="text-lg md:text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">
+    Jörgs Praxistipp aus der SEO-Sprechstunde
+  </h3>
+  <p class="text-neutral-700 text-sm md:text-base leading-relaxed mb-4">
+    Rechne bei M2M-Zahlungen niemals jeden einzelnen API-Call isoliert über Kreditkarten ab. Wenn ein Agent hunderte Token pro Sekunde anfragt, ruinieren fixe Mindestgebühren deine Marge. Nutze stattdessen das Session-Pooling des Machine Payments Protocol, um Mikrotransaktionen serverseitig zu sammeln und gebündelt abzuwickeln.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/20">
+    <p class="text-xs font-bold text-neutral-500 uppercase tracking-wider mb-1">
+      Kontrollfrage an deine Webagentur oder dein Inhouse-Team:
+    </p>
+    <p class="text-sm font-semibold text-dark italic mb-0">
+      „Unterstützt unsere API-Architektur den Statuscode HTTP 402 mit standardisierten MPP-Challenge-Headern für programmatische Session-Abrechnungen?“
+    </p>
+  </div>
+</div>
+
 ## Was ist das Machine Payments Protocol und wie funktioniert der Session-Flow?
 
 Das Machine Payments Protocol (MPP) wurde im März 2026 von Stripe in Kooperation mit Tempo als herstellerunabhängiger Standard publiziert. Ziel des Protokolls ist es, Bezahlvorgänge direkt in das Transportprotokoll des Internets (HTTP) einzubetten, anstatt sie auf externe Web-Checkout-Seiten auszulagern.
@@ -75,7 +123,7 @@ MPP-Challenge: {
 ### 2. Autorisierter Folge-Request des Agenten
 ```http
 GET /v1/market-data?query=example HTTP/1.1
-Host: api.deinedomain.de
+Host: api.teleschmie.de
 MPP-Authorization: {
   "version": "1.0",
   "sessionId": "mpp_sess_99a8bc72",
@@ -85,16 +133,6 @@ MPP-Authorization: {
 ```
 
 Da Stripe die Abrechnung direkt im Backend verbucht, landet das Geld ohne Umwege auf dem regulären Geschäftskonto des Unternehmens – vollkommen steuer- und buchhaltungskonform.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Umsatz wird dann gemacht wenn alles gut zusammenpasst. Vom Klick der Anzeige, über die Landingpage bis hin zum Checkout.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
 
 ## Die 3 häufigsten Fehler beim Aufbau von MPP-Gateways
 
@@ -118,7 +156,7 @@ Entwickler können die Reaktion ihrer Schnittstelle auf maschinelle Zahlungsanfr
 
 ```bash
 # 1. Challenge anfordern
-curl -I https://deinedomain.de/api/v1/agent-endpoint
+curl -I https://teleschmie.de/api/v1/agent-endpoint
 
 # 2. Antwort analysieren (Erwartet: HTTP/1.1 402 mit MPP-Challenge Header)
 # HTTP/1.1 402 Payment Required
@@ -132,3 +170,50 @@ Reagiert der Server mit der validen Challenge, ist die Schnittstelle optimal fü
 Das Machine Payments Protocol schließt die fundamentale Lücke zwischen unbezahltem Datenzugriff und automatisiertem Handel. In Kombination mit dem [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/) für komplexe Warenkörbe, dem [x402-Protokoll](/glossar/x402-protocol/) für Blockchain-Abrechnungen und dem [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/) erreichen Webangebote das höchste [Agent Readiness Level](/glossar/agent-readiness-level/) 5. Wer seine Monetarisierungs-Strategie heute um M2M-Fähigkeiten erweitert, partizipiert direkt an den rasant wachsenden Transaktionsvolumina der autonomen Agenten-Ökonomie.
 
 Wer seine Marken-Sichtbarkeit und die Performance seiner maschinenlesbaren Schnittstellen in generativen Suchmaschinen fortlaufend überwachen möchte, nutzt spezialisierte Suiten aus unserem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Sämtliche Budgets für API-Gateways, Payment-Infrastrukturen und Agent-Tooling lassen sich verlässlich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) planen.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: MPP HTTP 402 Challenge-Response Middleware</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener API Architect & Payment Systems Engineer.</p>
+    <p><strong>Aufgabe:</strong> Implementiere eine Node.js/TypeScript-Middleware für kostenpflichtige API-Endpunkte nach der Machine Payments Protocol (MPP) Spezifikation.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ol class="list-decimal pl-4 space-y-1 text-gray-300">
+      <li>Fange unautorisierte Requests ab und antworte mit Statuscode HTTP 402 Payment Required.</li>
+      <li>Setze den Header 'MPP-Challenge' mit Session-ID, Preis pro Call, Währung und akzeptierten Payment-Rails.</li>
+      <li>Verifiziere im Folge-Request den Header 'MPP-Authorization' kryptografisch und gib die Nutzdaten mit Status 200 frei.</li>
+      <li>Stelle sicher, dass alle internen URLs im API-Routing strikt auf Trailing Slashes (/) enden.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/)
+* [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/)
+* [x402 Protokoll für KI-Zahlungen](/glossar/x402-protocol/)
+* [Agent Readiness Level](/glossar/agent-readiness-level/)
+* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
+* [auth.md für KI-Agenten](/glossar/auth-md/)

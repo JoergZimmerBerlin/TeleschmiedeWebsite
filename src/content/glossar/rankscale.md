@@ -25,6 +25,48 @@ Die Transformation der klassischen Suchmaschine hin zu **generativen KI-Antworte
 
 ![Rankscale Kernfunktionen - Übersicht der Module](../../assets/images/glossar/3d-light/rankscale_infografik_1.jpg)
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer im KI-Zeitalter versucht, die Sichtbarkeit seiner Marke mit herkömmlichen Keyword-Rankern zu steuern, schaut durch ein verkehrtes Fernglas. Sprachmodelle verhalten sich probabilistisch – Antworten variieren von Prompt zu Prompt. Rankscale ist eine der führenden Plattformen, die diese Volatilität über 17+ Engines statistisch erfasst und verlässliche Zitationsdaten liefert. Für professionelle GEO-Kampagnen ist dieses Werkzeug eine unverzichtbare Datenbasis.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="my-8 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent/30 text-lime-950 px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Nutze das Test-Feature im <strong>GEO Page Audit</strong> von Rankscale für deine wichtigste Produkt- oder Landingpage. Achte besonders auf den <em>Subjectivity Filter</em> und den <em>Contextual Autonomy Score</em>: Werden deine Textabschnitte von der Engine als autark und zitierfähig eingestuft oder dominiert austauschbarer Werbetext?
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40 text-xs text-neutral-800 space-y-2">
+    <p class="font-bold text-lime-900 mb-1">🔍 Dein 30-Sekunden-Check für Rankscale & AI-Audits:</p>
+    <p class="mb-1">1. Führe einen Test-Audit über eine zentrale URL aus und prüfe, ob Zitate autark extrahierbar sind.</p>
+    <p class="mb-1">2. Kontrolliere, ob Crawler wie GPTBot und Perplexity ungehindert Zugriff auf die Kerninhalte haben.</p>
+    <p class="mb-0 font-semibold text-lime-950"><strong>Kontrollfrage an deine Agentur:</strong> <em>„Überwachen wir bereits regelmäßig die Zitationsstabilität unserer Kernmarken in ChatGPT, Claude und Perplexity mit Rankscale, um algorithmische Volatilität von echten Reichweitenverlusten zu unterscheiden?“</em></p>
+  </div>
+</div>
+
 ## 1. AI Rank Tracker: Die Basis der KI-Sichtbarkeit
 
 Der Einstieg in die KI-Optimierung beginnt mit der lückenlosen Überwachung der eigenen Markenpräsenz. Manuelle Stichproben in ChatGPT sind weder skalierbar noch repräsentativ. Der AI Rank Tracker von Rankscale automatisiert diesen Prozess vollständig und erhebt Sichtbarkeitsdaten über mehr als **17 verschiedene AI Engines**.
@@ -154,13 +196,54 @@ Um blinden Aktionismus zu vermeiden, nutzt die Plattform eine **Impact-basierte 
 
 👉 **Direkt zum Tool:** [AI Competitor Analysis auf Rankscale testen](https://rankscale.ai/features/ai-competitor-analysis?via=offer)
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Rankscale GEO Audit CI/CD Integration</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior DevSecOps- und SEO-Automation-Engineer.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes CI/CD-Workflow-Skript zur kontinuierlichen Überprüfung von Rankscale GEO Page Audits.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Trigger bei Pull-Requests gegen den main-Branch, wenn Templates oder Markdown-Inhalte geändert wurden.</li>
+      <li>Sende geänderte Staging-URLs an die Rankscale Page-Audit-API zur Extraktion relevanter Scores.</li>
+      <li>Prüfe Schema Engine (JSON-LD), AI Crawlability, Subjectivity Score und Contextual Autonomy.</li>
+      <li>Blockiere den Merge bei Scores unter 85/100 und erstelle einen tabellarischen Audit-Report im PR-Kommentar.</li>
+    </ul>
+  </div>
+</div>
+
 ---
 
 Die Analyse und Steuerung der eigenen Sichtbarkeit in LLMs ist längst keine optionale Zukunftsdisziplin mehr, sondern geschäftskritische Realität. Wer diese Entwicklung ignoriert, überlässt seine Reputation und seinen Traffic vollständig dem Wettbewerb und unkontrollierten Algorithmen.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Hol dir die Kontrolle über deine KI-Sichtbarkeit!</p>
-  <a href="https://rankscale.ai?via=offer" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Rankscale Plattform jetzt testen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
+
+### Verwandte Glossar-Einträge
+* [AI Search Optimization (GEO)](/glossar/ai-search-optimization/)
+* [AI Visibility Tools](/glossar/ai-visibility-tools/)
+* [AI Citation Analysis](/glossar/ai-citation-analysis/)
+* [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/)
+* [GEO Page Audit](/glossar/geo-page-audit/)
+* [AI Crawlability im Detail](/glossar/ai-crawlability/)
+* [Perplexity Sichtbarkeit optimieren](/glossar/perplexity-sichtbarkeit/)

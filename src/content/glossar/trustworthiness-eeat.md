@@ -26,6 +26,51 @@ In einer Ära automatisierter Textproduktion und generativer Antwortmaschinen is
 
 Google hat in den Search Quality Rater Guidelines unmissverständlich klargestellt: *„Trust is the most important member of the E-E-A-T family.“* Während [Experience (E-E-A-T)](/glossar/experience-eeat/), [Expertise (E-E-A-T)](/glossar/expertise-eeat/) und [Authoritativeness (E-E-A-T)](/glossar/authoritativeness-eeat/) wertvolle Bausteine liefern, bildet Trustworthiness das unverzichtbare Zentrum. Fehlt das Vertrauen, kollabiert das gesamte E-E-A-T-Gebilde. Für moderne Sprachmodelle und Retrieval-Augmented-Generation-Pipelines (RAG) fungiert Vertrauenswürdigkeit als kompromissloser Sicherheitsfilter gegen Halluzinationen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Vertrauen ist die härteste Währung im Netz. Wenn eine KI deine Marke nicht als absolut zuverlässige Entität einstuft, existierst du in synthetisierten Antworten schlichtweg nicht. Du kannst noch so viel Content publizieren: Wenn der Urheber anonym bleibt, das Impressum unsauber ist und keine SameAs-Verknüpfungen existieren, sortiert dich der Halluzinationsfilter gnadenlos aus.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-dark text-white tracking-wide uppercase">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600 font-medium">Praxistipp</span>
+  </div>
+  <h4 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    In fast jedem Audit für B2B-Websites finde ich anonyme Blogartikel mit dem Autorenkürzel „Admin“ oder „Redaktionsteam“. Das ist ein absoluter Vertrauens-Killer für Google und KI-Answer-Engines! Wenn Google nicht verifizieren kann, welcher Mensch aus Fleisch und Blut für die inhaltliche Richtigkeit haftet, stuft der Algorithmus die Seite sofort als potenziell unzuverlässig ein. Hinterlege für jeden Artikel einen echten Autor mit Foto, Biografie und verlinktem LinkedIn-Profil.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <p class="text-xs font-bold text-dark uppercase tracking-wider mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</p>
+    <p class="text-xs text-neutral-600 italic mb-0">
+      „Sind unsere Autoren- und Unternehmensprofile im Schema.org JSON-LD als eindeutige Person- und Organization-Entitäten mit sameAs-Links zu LinkedIn und Wikidata verknüpft?“
+    </p>
+  </div>
+</div>
+
+---
+
 ## Die E-E-A-T-Architektur: Trustworthiness als Kernkomponente
 
 Um die herausragende Stellung von Trustworthiness zu verstehen, lohnt eine Analyse der funktionalen Beziehungen innerhalb des [E-E-A-T](/glossar/e-e-a-t/)-Rahmenwerks:
@@ -85,13 +130,13 @@ Mit der Flut synthetisch generierter Texte gewinnt die Nachverfolgbarkeit von In
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://deinedomain.de/#author",
+  "@id": "https://teleschmie.de/#author",
   "name": "Jörg Zimmer",
   "jobTitle": "Senior SEO & GEO Consultant",
   "worksFor": {
     "@type": "Organization",
     "name": "Teleschmiede",
-    "url": "https://deinedomain.de/"
+    "url": "https://teleschmie.de/"
   },
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
@@ -118,24 +163,49 @@ In der Praxis stoßen wir fortlaufend auf Versäumnisse, die das Vertrauen von S
 
 Trustworthiness ist keine einmalige Marketingmaßnahme, sondern die dauerhafte Verpflichtung zu höchster Qualität und Transparenz. Wer seine Inhalte sorgfältig prüft, Autorenprofile nachvollziehbar belegt und seine technische Infrastruktur auf dem neuesten Stand hält, sichert sich das Vertrauen menschlicher Leser und etabliert seine Marke als unverzichtbare Informationsquelle für moderne Answer Engines.
 
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-start gap-4">
-    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
-      💡
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
     </div>
-    <div>
-      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über Trustworthiness im KI-Zeitalter</h3>
-      <p class="text-gray-600 text-sm italic mb-2">
-        „Vertrauen ist die härteste Währung im Netz. Wenn eine KI deine Marke nicht als absolut zuverlässige Quelle einstuft, wirst du in synthetisierten Antworten schlichtweg nicht existieren. E-E-A-T ist kein theoretisches Konzept, sondern der entscheidende Filter für deine digitale Zukunft.“
-      </p>
-      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
-    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Trustworthiness- & E-E-A-T-Audit deiner Website durchzuführen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: E-E-A-T Trustworthiness & Schema Disambiguation Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO & Knowledge Graph Architect.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das Autorensystem und die strukturierten Vertrauensdaten der Website auf E-E-A-T-Konformität und Disambiguierung.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Prüfe sämtliche Blog- und Ratgeber-Templates auf das Vorhandensein semantischer Autorenboxen mit Person-Markup.</p>
+    <p>2. Erstelle ein valides Schema.org JSON-LD Snippet mit sameAs-Verknüpfungen (LinkedIn, Wikidata, Google Scholar) für alle Fachautoren.</p>
+    <p>3. Verifiziere die NAP-Konsistenz (Name, Address, Phone) zwischen Impressum, Footer und LocalBusiness-Markup.</p>
+    <p>4. Stelle sicher, dass alle internen Verlinkungen zwingend mit einem Slash (/) enden, um Crawl-Verluste zu verhindern.</p>
   </div>
 </div>
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
+
+### Verwandte Glossar-Einträge
+* [E-E-A-T im Überblick](/glossar/e-e-a-t/)
+* [Experience (E-E-A-T): Praktische Erfahrung](/glossar/experience-eeat/)
+* [Expertise (E-E-A-T): Fachliche Qualifikation](/glossar/expertise-eeat/)
+* [Authoritativeness (E-E-A-T): Branchen-Autorität](/glossar/authoritativeness-eeat/)
+* [Was ist eine Entität im Semantic Web?](/glossar/entitaet/)
+* [Grounding Pages als Single Source of Truth](/glossar/grounding-page/)
+* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
+

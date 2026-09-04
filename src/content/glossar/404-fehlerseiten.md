@@ -100,6 +100,48 @@ Zahlreiche Content-Management-Systeme zeigen optisch eine Fehlerseite an, senden
 ### Fehler 3: Blockieren von 404-URLs in der robots.txt
 Wer versucht, Fehlerseiten durch ein `Disallow` in der robots.txt vor Suchmaschinen zu verbergen, verhindert, dass der Crawler den Statuscode 404 ausliest. Die URL bleibt als unschönes Fragment im Index hängen.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-lime-accent text-2xl">💡</span>
+    <p class="font-bold text-lg text-lime-accent mb-0">Jörgs Praxistipp aus der SEO-Sprechstunde</p>
+  </div>
+  <p class="text-gray-200 text-sm leading-relaxed mb-4">
+    In meiner SEO-Sprechstunde erlebe ich bei Inhabern regelmäßig zwei Extreme: Entweder totale Panik wegen 5 harmlosen 404-Fehlern in der Search Console – oder das Gegenteil: Nach einem Sortimentswechsel werden 2.000 alte Produkt-URLs einfach gelöscht und totlaufen gelassen. Google straft eine Domain nicht ab, nur weil ein altes Produkt nicht mehr existiert. Tödlich für den Umsatz ist es aber, wenn dieses Produkt wertvolle externe Backlinks von Magazinen oder Blogs hatte – denn diese Ranking-Power verpufft an der 404-Mauer!
+  </p>
+  <div class="bg-black/40 p-4 rounded-xl border border-white/10 text-xs text-gray-300">
+    <p class="font-bold text-lime-accent mb-1">🔍 Dein 60-Sekunden-Check in der Google Search Console (für Inhaber & Marketing-Teams):</p>
+    <p class="mb-2">1. Öffne die <strong>Google Search Console</strong> und klicke links auf <strong>Seiten</strong> (unter Indexierung).</p>
+    <p class="mb-2">2. Scrolle zu den Ursachen und klicke auf <strong>„Nicht gefunden (404)“</strong>. Schau dir die Liste der URLs an: Sind dort alte Bestseller oder ehemals stark besuchte Ratgeber dabei?</p>
+    <p class="mb-0">3. <strong>Deine Anweisung an die Agentur:</strong> <em>„Leitet diese 10 bis 20 wichtigsten URLs per 301-Redirect gezielt auf den direkten Nachfolger oder die übergeordnete Kategorie um – aber leitet sie niemals pauschal alle auf die Startseite um (Soft-404-Gefahr)!“</em></p>
+  </div>
+</div>
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes 404-Audit und Redirect-Mapping für tote URLs durchzuführen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: 404-Audit & Backlink-Preservation-Mapping erstellen</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Auditor & Fullstack Engineer.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die Liste defekter 404-URLs und erstelle ein automatisiertes 301-Mapping auf semantisch passende Zielseiten.</p>
+    <p><strong>Anforderungen:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Matche tote URLs auf Basis von Slug-Ähnlichkeit mit existierenden aktiven Zielseiten (keine pauschale Startseiten-Umleitung!).</li>
+      <li>Erstelle die Webserver-Direktiven (Apache RewriteRule oder Nginx rewrite) mit Status 301.</li>
+      <li>Kennzeichne dauerhaft gelöschte URLs ohne Nachfolger mit HTTP Status 410 Gone.</li>
+      <li>Stelle sicher, dass alle Redirect-Ziele einen konsistenten Trailing Slash (/) aufweisen.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Liefere die Server-Konfigurationsdatei und eine tabellarische Zuordnung.</p>
+  </div>
+</div>
+
 ## Schritt-für-Schritt: 404-Fehler systematisch auditieren und beheben
 
 Ein professioneller Bereinigungsprozess defekter URLs gliedert sich in vier klare Arbeitsschritte:
@@ -117,23 +159,39 @@ Ein professioneller Bereinigungsprozess defekter URLs gliedert sich in vier klar
 
 404-Fehlerseiten sind keine Katastrophe, solange sie aktiv überwacht und gesteuert werden. Wer gelöschte Inhalte mit passenden Nachfolgern per 301 weiterleitet, dauerhaft entfernte Seiten mit Status 410 markiert und interne Links sauber pflegt, sichert sein Crawl-Budget und stärkt seine digitale Autorität nachhaltig.
 
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-center gap-3 mb-3">
-    <span class="text-2xl">💡</span>
-    <strong class="text-lg text-dark">Jörg Zimmer aus der SEO-Praxis:</strong>
+<figure class="my-10 bg-white/80 border border-gray-200/80 rounded-2xl p-6 shadow-sm flex flex-col md:flex-row items-center md:items-start gap-5 not-prose">
+  <img 
+    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+    alt="Jörg Zimmer" 
+    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent flex-shrink-0 shadow-sm"
+    loading="lazy"
+    width="96"
+    height="96"
+  />
+  <div class="text-center md:text-left flex-1">
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+      "Viele Unternehmen träumen von komplexen KI-Strategien, während ihre Serverlogs vor 404-Fehlern überquellen. Wer Tausende tote URLs im System verrotten lässt, verschwendet wertvolles Crawl-Budget und riskiert, dass RAG-Pipelines die Domain wegen fehlerhafter Frische-Signale aus den Antwortquellen werfen. Saubere Fehlerbehandlung ist das Fundament jeder funktionierenden Web-Architektur."
+    </blockquote>
+    <figcaption class="mt-2 text-sm text-gray-600 font-medium">
+      <strong class="text-dark font-semibold">Jörg Zimmer</strong> – Senior SEO & GEO Berater, Berlin · <cite class="not-italic"><a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-dark hover:text-black underline font-semibold">LinkedIn Insights</a></cite>
+    </figcaption>
   </div>
-  <p class="text-gray-700 italic mb-2">
-    "Viele Unternehmen träumen von komplexen KI-Strategien, während ihre Serverlogs vor 404-Fehlern aus dem Jahr 2023 überquellen. Wer Tausende tote URLs im System verrotten lässt, verschwendet wertvolles Crawl-Budget und riskiert, dass RAG-Pipelines die Domain wegen fehlerhafter Frische-Signale aus den Antwortquellen werfen. Saubere Fehlerbehandlung ist das Fundament jeder funktionierenden Web-Architektur."
-  </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    [↗ Zur Diskussion auf LinkedIn]
+</figure>
+
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
+    Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
   </a>
 </div>
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
-  </a>
-</div>
+### Verwandte Begriffe
+* [301 vs. 302 Redirects](/glossar/301-vs-302/)
+* [Canonical Tag Optimierung](/glossar/canonical-tag/)
+* [Technisches SEO & UX](/glossar/technisches-seo/)
+* [SEO Audit für Unternehmen](/glossar/seo-audit/)
+* [robots.txt im technischen SEO](/glossar/robots-txt/)
 

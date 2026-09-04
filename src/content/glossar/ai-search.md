@@ -26,88 +26,154 @@ Das Zeitalter der „Zehn blauen Links“ geht unweigerlich zu Ende. Jahrelang b
 
 In diesem Deep-Dive klären wir, was hinter dem Begriff AI Search (im Deutschen oft als *KI-Suche* bezeichnet) steckt, wie die Technologie im Hintergrund funktioniert und warum sich klassisches [Suchmaschinenmarketing (SEO)](/glossar/seo-beratung/) radikal anpassen muss, um nicht in der Unsichtbarkeit zu verschwinden.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „AI Search bedeutet nicht das Ende von SEO, sondern das Ende von inhaltsleeren Klickfallen. Wenn 90 % der informationsgetriebenen Suchen in Zero-Click-Antworten enden, zählt nur noch eins: Wie stark ist dein Information Gain und wirst du von der KI als primäre Vertrauensquelle zitiert? Der Traffic aus KI-Zitationen ist zwar volumenmäßig kleiner, konvertiert dafür aber bis zu viermal besser.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Was ist AI Search? (Definition)
 
 **AI Search** beschreibt den Einsatz von generativer Künstlicher Intelligenz, um Suchanfragen von Nutzern nicht mehr mit einer reinen Liste von Weblinks zu beantworten, sondern mit einer direkt generierten, zusammenhängenden Textantwort.
 
 Während eine traditionelle Suchmaschine als "Wegweiser" fungiert, agiert eine AI Search Engine als "Antwortmaschine" (Answer Engine). Sie versteht die Intention hinter komplexen, oft im Dialogformat (Conversational Search) gestellten Fragen, durchsucht das Web in Echtzeit nach relevanten Fakten, synthetisiert diese Informationen und präsentiert dem Nutzer eine fertige Lösung. Webseiten, die als Quellen dienten, werden dabei meist nur noch als Fußnoten, Zitate (Citations) oder kleine Kacheln am Rande der Antwort eingeblendet.
 
-Die Verschiebung ist subtil, aber für Website-Betreiber gewaltig: Der Nutzer muss die Suchmaschine nicht mehr verlassen, um sein Informationsbedürfnis zu befriedigen.
+Die Verschiebung ist subtil, aber für Website-Betreiber gewaltig: Der Nutzer muss die Suchmaschine nicht mehr zwingend verlassen, um sein Informationsbedürfnis zu befriedigen.
 
 ## Wie funktioniert AI Search technisch?
 
-Um zu verstehen, wie man für AI Search optimiert, muss man die grundlegende Mechanik dieser Systeme kennen. Die meisten modernen KI-Suchmaschinen basieren auf einem Architektur-Prinzip namens **RAG (Retrieval-Augmented Generation)**.
+Um zu verstehen, wie man für AI Search optimiert, muss man die grundlegende Mechanik dieser Systeme kennen. Die meisten modernen KI-Suchmaschinen basieren auf einem Architektur-Prinzip namens **RAG (Retrieval-Augmented Generation)**. Dieses System schließt die Lücke zwischen dem statischen Trainingswissen eines Sprachmodells und der Anforderung an hochaktuelle, verifizierte Live-Informationen aus dem Internet.
 
-Dieses System schließt die 
+Der Prozess läuft in drei Kernphasen ab:
 
-### 2. Markdown Content Negotiation
-Wenn die KI sich entscheidet, eine deiner Seiten zu crawlen (weil sie durch die `llms.txt` darauf aufmerksam wurde), erwartet sie maximale Token-Effizienz. GEO-Profis nutzen heute **Markdown Content Negotiation**. 
+1. **Retrieval (Abruf):** Wenn ein Nutzer eine Frage stellt, führt das System im Hintergrund parallele Suchabfragen an einen Suchindex aus. Es ruft blitzschnell die relevantesten Text-Chunks und Webseiten-Inhalte ab.
+2. **Augmentation (Anreicherung):** Diese abgerufenen Roh-Fakten (der Kontext) werden mit der ursprünglichen Frage des Nutzers kombiniert. Das KI-Modell erhält die Arbeitsanweisung, die Antwort ausschließlich auf Basis der verifizierten Fakten zu formulieren (Grounding).
+3. **Generation (Erzeugung):** Das LLM synthetisiert aus diesem Kontext eine flüssige, natürliche Antwort und versieht die Kernaussagen mit Referenzen zu den Primärquellen.
 
-Das bedeutet: Wenn ein menschlicher Browser deine Seite aufruft, bekommt er CSS, Bilder und JavaScript. Wenn der GPTBot oder ein Perplexity-Agent deine Seite aufruft (erkennbar am Header `Accept: text/markdown`), liefert dein Server sofort reines Markdown aus. Kein Menü, kein Footer. Nur die pure Information. Diese Effizienz ist ein zentraler Rankingfaktor, da sie die Latenz und Kosten für die LLMs drastisch senkt.
-
-Lücke zwischen dem statischen Wissen eines KI-Modells (das irgendwann in der Vergangenheit trainiert wurde) und der Notwendigkeit für hochaktuelle, faktenbasierte Live-Informationen aus dem Internet. Der Prozess läuft in drei Phasen ab:
-
-1. **Retrieval (Abruf):** Wenn ein Nutzer eine Frage stellt, das System im Hintergrund traditionelle Suchabfragen an einen Suchindex (wie Google oder Bing). Es holt sich blitzschnell die aktuellsten und relevantesten Snippets und Webseiten-Inhalte aus dem Netz.
-2. **Augmentation (Anreicherung):** Diese abgerufenen Roh-Fakten (der "Kontext") werden nun mit der ursprünglichen Frage des Nutzers kombiniert. Das KI-Modell bekommt quasi den Befehl: "Beantworte die Frage des Nutzers, aber nutze dafür *ausschließlich* die Fakten, die ich dir gerade aus dem Web geholt habe." (Diesen Vorgang nennt man auch Grounding).
-3. **Generation (Erzeugung):** Das LLM formuliert aus diesem angereicherten Kontext eine flüssige, natürliche und leicht verständliche Antwort und referenziert die Webseiten, aus denen es die Fakten extrahiert hat.
-
-Nur Webseiten, die im ersten Schritt (Retrieval) von der Maschine gefunden und im zweiten Schritt als "vertrauenswürdig" genug eingestuft werden, haben die Chance, im dritten Schritt in der Antwort der KI als Quelle zitiert zu werden.
+### Markdown Content Negotiation
+Wenn KI-Crawler wie GPTBot oder PerplexityBot eine Webseite abrufen, erwarten sie maximale Token-Effizienz. Moderne Webseiten unterstützen daher **Markdown Content Negotiation**: Erkennt der Server den Header `Accept: text/markdown`, liefert er unmittelbar semantisch reines Markdown statt schwerem HTML- und JavaScript-Code aus. Dies reduziert Latenz und Kosten der KI-Modelle signifikant und steigert die Wahrscheinlichkeit einer Zitation.
 
 ## Die wichtigsten Player im Markt der KI-Suche
 
-Der Markt der AI Search ist hochdynamisch und entwickelt sich fast wöchentlich weiter. Aktuell dominieren vor allem drei große Strömungen das Spielfeld:
+Der Markt der AI Search ist hochdynamisch und entwickelt sich rasant weiter. Aktuell dominieren vor allem drei große Systeme:
 
 ### 1. Perplexity AI
-Perplexity gilt als der Vorreiter und aktuell reinste Form der AI Search. Es ist keine klassische Suchmaschine mit angeschlossener KI, sondern wurde von Grund auf als Answer Engine konzipiert. Nutzer schätzen Perplexity vor allem für tiefgreifende Recherchen, da die Plattform ihre Quellen (Citations) extrem transparent und prominent verlinkt. Wer als Unternehmen bei Fachfragen von Perplexity zitiert wird, gewinnt enorme Autorität.
+Perplexity gilt als Vorreiter der reinen Answer Engines. Es wurde von Grund auf dafür konzipiert, komplexe Recherchen mit präzisen Inline-Fußnoten zu beantworten. Wer als Unternehmen bei Fachfragen von Perplexity zitiert wird, gewinnt enorme Autorität bei professionellen Rechercheuren.
 
-### 2. ChatGPT (SearchGPT)
-Mit der Integration einer direkten Websuche hat OpenAI sein Sprachmodell ChatGPT von einem reinen Chatbot zu einer ernstzunehmenden AI Search Alternative ausgebaut. Da Millionen von Nutzern ChatGPT bereits als täglichen Begleiter für Code, Text und Analysen nutzen, verlagert sich auch die reine Informationssuche zunehmend in dieses geschlossene Ökosystem. Wer hier nicht als Marke oder Tool empfohlen wird, existiert für eine riesige Zielgruppe schlichtweg nicht.
+### 2. ChatGPT Search
+Mit der direkten Websuche hat OpenAI sein Sprachmodell ChatGPT zu einer vollwertigen AI Search Engine ausgebaut. Da Millionen Nutzer ChatGPT als tägliches Produktivitätswerkzeug einsetzen, verlagert sich die kommerzielle Recherche zunehmend in dieses geschlossene Ökosystem.
 
-### 3. Google AI Overviews (SGE)
-Google, der unangefochtene Marktführer der klassischen Suche, reagiert mit den AI Overviews (früher Search Generative Experience, SGE). Hierbei generiert Google oberhalb der traditionellen organischen Suchergebnisse einen KI-gestützten Antwortblock. Das Perfide für Publisher: Die AI Overviews beantworten die Frage oft so vollumfänglich, dass der Nutzer gar nicht mehr nach unten zu den regulären Links scrollt.
+### 3. Google AI Overviews
+Google reagiert auf den Wandel mit generativen Antwortblöcken oberhalb der traditionellen Suchergebnisse. Da diese Blöcke viele Fragen unmittelbar beantworten, entsteht der Effekt des [Zero-Click Content](/glossar/zero-click-content/), bei dem organische Klicks zu klassischen Websites zurückgehen.
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg md:text-xl font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Analysiere deine Google Search Console nicht mehr nur nach Klicks, sondern vergleiche Impressionen und Klickraten bei transaktionsnahen Suchbegriffen. Wenn die Impressionen steigen, aber die Klicks sinken, dominiert dort ein AI Overview. Stelle deine Seiten sofort auf BLUF-Faktenblöcke und Markdown-Lieferung um, um zumindest als Top-Zitationsquelle in der Quellenleiste verankert zu bleiben.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3 mt-3">
+    <p class="text-xs font-semibold text-neutral-600 mb-0">
+      Kontrollfrage an deine Webagentur: „Unterstützt unsere Webpräsenz Markdown Content Negotiation für KI-User-Agents wie PerplexityBot und GPTBot, um Token-Budgets bei RAG-Crawlern zu minimieren?“
+    </p>
+  </div>
+</div>
 
 ## Auswirkungen auf klassisches SEO
 
-Der Aufstieg der AI Search sorgt in der SEO-Branche für erhebliche tektonische Verschiebungen. Die Zeiten, in denen man mit einem 3.000 Wörter langen, SEO-optimierten aber inhaltlich flachen Text (sogenanntem "SEO-Spam") Traffic abgreifen konnte, sind vorbei.
+Der Aufstieg der AI Search sorgt in der Suchmaschinenoptimierung für grundlegende Verschiebungen:
 
-*   **Der Aufstieg der Zero-Click-Searches:** Da Antworten direkt generiert werden, klicken immer weniger Nutzer auf externe Links. Die Click-Through-Rate (CTR) bei informativen Standard-Suchen (z.B. "Wie koche ich Eier?", "Wann öffnet der Baumarkt?") tendiert zunehmend gegen null.
-*   **Traffic-Verlust vs. Traffic-Qualität:** Websites werden signifikant an "Drive-by-Traffic" (Nutzer, die nur kurz eine Info suchen und sofort wieder verschwinden) verlieren. Der Traffic, der aus KI-Suchen tatsächlich noch auf die Website durchklickt, ist jedoch oft wesentlich qualifizierter, da der Nutzer tiefere Details oder einen kommerziellen Abschluss sucht.
-*   **Das Ende von 08/15-Inhalten:** KI-Modelle können mittelmäßigen Content in Millisekunden selbst generieren. Wenn deine Website nur Informationen zusammenfasst, die es ohnehin schon tausendfach im Netz gibt, hast du für eine AI Search Engine keinen Mehrwert.
+* **Der Aufstieg der Zero-Click-Searches:** Da Antworten direkt generiert werden, klicken immer weniger Nutzer auf externe Links. Bei rein informativen Suchanfragen sinkt die CTR spürbar.
+* **Traffic-Verlust vs. Traffic-Qualität:** Zwar verlieren Seiten an oberflächlichem Klickvolumen, doch Besucher, die über KI-Zitate auf eine Website gelangen, weisen oft deutlich höhere Conversion-Raten auf.
+* **Das Ende von oberflächlichem Fülltext:** KI-Modelle fassen Standardwissen eigenständig zusammen. Nur Inhalte mit hohem Information Gain und originären Daten werden als Primärquelle herangezogen.
 
 ## Wie optimiert man für AI Search? (Die Entstehung von GEO)
 
-Um in der Welt der KI-Suche sichtbar zu bleiben, hat sich eine völlig neue Disziplin entwickelt: Die [Generative Engine Optimization (GEO)](/glossar/geo/). GEO löst klassisches SEO nicht ab, sondern baut darauf auf. Während SEO die Webseite für den Google-Algorithmus optimiert, optimiert GEO die Marke und den Content für das Training und das Retrieval von Sprachmodellen.
+Um in der Welt der KI-Suche sichtbar zu bleiben, hat sich die Disziplin [Generative Engine Optimization (GEO)](/glossar/geo/) herausgebildet. Sie baut auf traditionellen SEO-Standards auf und erweitert diese um spezifische Kriterien:
 
-Die zentralen Säulen der AI Search Optimierung sind:
+1. **Radikaler Fokus auf E-E-A-T und Markenautorität:** Sprachmodelle bevorzugen Quellen mit nachgewiesener Expertise. [E-E-A-T](/glossar/e-e-a-t/) schützt Modelle vor Halluzinationen und sichert die Zitation.
+2. **Semantische Präzision:** Klare Überschriften, Definitionslisten und [Strukturierte Daten](/glossar/strukturierte-daten/) erleichtern RAG-Systemen die Faktenextraktion.
+3. **Information Gain:** Eigene Studien, reale Praxisfälle und empirische Kennzahlen liefern der KI Gründe, eine Domain namentlich hervorzuheben.
 
-### 1. Radikaler Fokus auf E-E-A-T und Markenautorität
-KI-Systeme halluzinieren, wenn sie keine gesicherten Fakten haben. Um das zu vermeiden, sie darauf programmiert, Informationen von hochgradig vertrauenswürdigen Quellen zu priorisieren. [E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)](/glossar/e-e-a-t/) ist nicht mehr nur ein Rankingfaktor für Google, sondern das Überlebenselixier in der KI-Suche. Eine starke Marke, PR-Erwähnungen auf Fachportalen und nachweisbare echte Erfahrung (Experience) sind durch nichts zu ersetzen.
-
-### 2. Semantische Präzision und technische Makellosigkeit
-Damit ein KI-Modell deine Inhalte im RAG-Prozess schnell erfassen und verwerten kann, muss der Content technisch perfekt aufbereitet sein. [Strukturierte Daten (Schema.org)](/glossar/strukturierte-daten/), sauberes HTML, klare Überschriften-Hierarchien und kurze, extrem präzise Sätze helfen der Maschine, Fakten fehlerfrei zu extrahieren.
-
-### 3. Informationsgewinn (Information Gain)
-Deine Website muss etwas bieten, das die KI nicht aus ihrem eigenen Trainingsdatenbestand weiß. Das können exklusive Studiendaten, tiefes Praxiswissen, Live-Daten, einzigartige Fallstudien oder unkonventionelle Meinungen sein. Nur wer einzigartige Fakten liefert, wird auch zitiert.
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Webanwendung für AI Search Engines und RAG-Retrieval technisch zu rüsten:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: RAG-Optimierung und Server-Architektur für AI Search</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Systems Engineer.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das Webprojekt auf Crawlbarkeit für AI-Search-Bots und richte serverseitiges Rendering sowie semantische Faktenanker ein.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Prüfe die <code>robots.txt</code> und stelle sicher, dass <code>PerplexityBot</code>, <code>OAI-SearchBot</code> und <code>ClaudeBot</code> ungehinderten Lesezugriff auf Fachinhalte haben.</p>
+    <p>2. Implementiere HTTP Content Negotiation, um bei <code>Accept: text/markdown</code> schlankes, semantisches Markdown ohne Layout-Ballast auszuliefern.</p>
+    <p>3. Ergänze strukturierte Daten via JSON-LD (Typ <code>Article</code>, <code>FAQPage</code> oder <code>TechArticle</code>) inklusive eindeutiger Entitäten-Verweise.</p>
+    <p>4. Stelle sicher, dass die wichtigsten Kernaussagen und Definitionen in den ersten 50 Wörtern jedes Textabschnitts (BLUF) platziert sind.</p>
+  </div>
+</div>
 
 ## Erfolgsmessung: Wie tracke ich meine KI-Sichtbarkeit?
 
-Der größte Fehler, den viele Unternehmen aktuell machen, ist der Glaube, sie seien in der KI-Suche präsent, nur weil sie bei Google auf Platz 1 stehen. Das ist ein fataler Trugschluss. LLMs werten Quellen fundamental anders aus als der traditionelle PageRank-Algorithmus.
+Der größte Fehler besteht in der Annahme, ein gutes Ranking bei Google garantiere Präsenz in Sprachmodellen. LLMs werten Quellen fundamental anders aus als der traditionelle Googlebot.
 
-Um zu wissen, wo du wirklich stehst, musst du deine Sichtbarkeit messen. Hierfür brauchst du neue Werkzeuge:
+Um die Sichtbarkeit systematisch zu erfassen, empfiehlt sich eine zweistufige Tool-Strategie:
+* Für das Onpage-Fundament, Core Web Vitals und das Monitoring in Google AI Overviews bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) eine bewährte All-in-One-Suite.
+* Zur Messung von Zitationsquoten in ChatGPT, Claude und Perplexity kommt die Spezialplattform [Rankscale](https://rankscale.ai/?via=offer) zum Einsatz, die systematisch Prompts testet und den Share of Model ermittelt.
 
-Für das solide technische SEO-Fundament und das klassische Google-Tracking nutze ich seit Jahren erfolgreich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>. Es sorgt dafür, dass die Basis (Crawlability, Onpage-Struktur) perfekt ist.
+## Zusammenfassung: Symbiose statt Verdrängung
 
-Um aber die echte AI Search Visibility zu tracken, brauchst du dedizierte KI-Tracker wie **[Rankscale](/glossar/rankscale/)**. Dieses Tool simuliert tausende Prompts quer durch 17 verschiedene LLMs (von GPT-4 über Claude bis Perplexity) und misst exakt, ob, wie oft und in welchem Kontext deine Marke als Quelle zitiert wird. 
+AI Search ist nicht das Ende von SEO, sondern seine logische Weiterentwicklung. Die Mechanik verschiebt sich von reiner Klick-Generierung hin zum Aufbau zitierfähiger Fachautorität. Wer verifizierte Fakten liefert und seine technische Infrastruktur auf maschinenlesbare Standards trimmt, behauptet auch im Zeitalter generativer Antworten seine Marktstellung.
 
-Wer heute nicht misst, wie ihn die KIs sehen, operiert im völligen Blindflug. <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Hier kannst du Rankscale testen und deine KI-Sichtbarkeit analysieren</a>.
-
-## Zusammenfassung: Symbiose statt Untergang
-
-AI Search ist nicht das Ende von SEO, es ist seine Evolution. Die Mechanik ändert sich von "Optimiere für Klicks" hin zu "Optimiere für Erwähnungen und Autorität". Wer sich darauf einlässt, exzellenten und einzigartigen Content zu produzieren und seine technische Infrastruktur auf Maschinenlesbarkeit ausrichtet, wird in der KI-Suche als unverzichtbare Quelle hervorgehen.
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
+
+### Verwandte Glossar-Begriffe
+* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
+* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)
+* [RAG: Retrieval-Augmented Generation im Detail](/glossar/rag/)
+* [AI Search Engine: Die Evolution der Suchmaschinen](/glossar/ai-search-engine/)
+* [AI Search Optimization: Praxis-Guide für GEO](/glossar/ai-search-optimization/)
+* [LLM Rank Tracker im Vergleich](/glossar/llm-rank-tracker/)
+* [Zero-Click Content: Sichtbarkeit ohne Klick-Traffic](/glossar/zero-click-content/)
+* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)
+* [E-E-A-T: Vertrauen für Sprachmodelle](/glossar/e-e-a-t/)
+

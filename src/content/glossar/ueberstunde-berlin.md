@@ -27,6 +27,49 @@ Die **Überstunde Berlin** ist eine etablierte Veranstaltungs- und Community-Pla
 
 Im Jahr 2026 hat dieser persönliche Austausch eine ungeahnte strategische Dimension erlangt. Während digitale Marketing-Disziplinen zunehmend von autonomen Algorithmen, RAG-Pipelines und generativer KI dominiert werden, droht vielen Marktteilnehmern der Verlust des realen Kundenkontakts. Eine fachliche Spezialisierung auf Code-Ebene ist wertlos, wenn man die tatsächlichen Schmerzpunkte und strategischen Zielsetzungen moderner Unternehmenslenker aus den Augen verliert. Die Überstunde fungiert hier als lebendiges Korrektiv: Sie holt Digital-Experten aus der Filterblase heraus und verankert digitales Wissen im realen Wirtschaftsleben.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ein technischer SEO-Audit, der als 100-seitiges PDF in einer Schublade verstaubt, bringt keinem Unternehmen auch nur einen einzigen Euro Umsatz. Wer als Berater erfolgreich sein will, muss verstehen, wie Geschäftsführer denken und wo der Schuh wirklich drückt. Das lernt man nicht vor dem Monitor, sondern beim echten, ungefilterten Austausch auf Veranstaltungen wie der Überstunde Berlin.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörgs Beitrag auf LinkedIn ansehen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-dark text-white tracking-wide uppercase">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600 font-medium">Praxistipp</span>
+  </div>
+  <h4 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Viele Agenturen und Freelancer verstecken sich hinter Zahlen, Dashboards und automatisierten Reports. Aber Kunden kaufen keine Klicks, sie kaufen Vertrauen und Umsatzwachstum. Nutze lokale Netzwerk-Events gezielt: Frage drei Unternehmer an einem Abend, was ihre größte Hürde im aktuellen Quartal ist. Die Antworten liefern dir genau die Hook, die du für deinen nächsten hochkonvertierenden Leitfaden oder Pitch brauchst.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <p class="text-xs font-bold text-dark uppercase tracking-wider mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</p>
+    <p class="text-xs text-neutral-600 italic mb-0">
+      „Verbinden wir unsere digitalen SEO- und Content-Aktivitäten mit realen regionalen Events und Thought-Leadership-Beiträgen auf LinkedIn, um die Personen- und Marken-Entität im Knowledge Graph unanfechtbar zu machen?“
+    </p>
+  </div>
+</div>
+
 ## Warum persönliches Networking für moderne [E-E-A-T](/glossar/e-e-a-t/) Strategien unverzichtbar ist
 
 Google bewertet Websites und Fachautoren nach den Kriterien Experience (Erfahrung), Expertise, Authoritativeness (Autorität) und Trustworthiness (Vertrauenswürdigkeit). Doch wie entsteht echte Autorität im semantischen Web?
@@ -73,22 +116,12 @@ Für Event-Veranstalter und Partnerunternehmen ist es essenziell, Networking-Ter
   "organizer": {
     "@type": "Organization",
     "name": "Business Network Berlin",
-    "url": "https://deinedomain.de/"
+    "url": "https://teleschmie.de/"
   },
   "description": "Monatliches Afterwork-Treffen für Unternehmer, Entwickler und Marketer zum Austausch über KI, Technologie und digitales Wachstum."
 }
 </script>
 ```
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Ein technischer SEO-Audit, der als 100-seitiges PDF in einer Schublade verstaubt, bringt keinem Unternehmen auch nur einen einzigen Euro Umsatz. Wer als Berater erfolgreich sein will, muss verstehen, wie Geschäftsführer denken und wo der Schuh wirklich drückt. Das lernt man nicht vor dem Monitor, sondern beim echten, ungefilterten Austausch auf Veranstaltungen wie der Überstunde Berlin.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
 
 ## Lokale Verwurzelung als Hebel für [Local SEO](/glossar/local-seo/)
 
@@ -118,16 +151,48 @@ Im Jahr 2026 gilt mehr denn je: Die stärkste digitale Marketingstrategie baut a
 
 Wer seine Markenpräsenz in der Region stärken und seine digitale Sichtbarkeit strategisch ausbauen möchte, findet in unserem Leitfaden über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) wertvolle Werkzeuge zur Erfolgsmessung. Die Budgetierung begleitender SEO- und Markenaufbaumaßnahmen lässt sich bequem mit dem [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) durchführen.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Schema.org BusinessEvent-Daten für deine Events oder Partnerschaften semantisch sauber zu generieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org Event-Markup & Local-Entity Generator</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO & Structured Data Specialist.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein vollständiges Schema.org JSON-LD Markup für ein regionales Business- oder Networking-Event.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Erzeuge ein valides `BusinessEvent` mit Feldern `name`, `startDate`, `endDate`, `eventAttendanceMode` und `eventStatus`.</p>
+    <p>2. Binde die Location mit `Place`, vollständiger `PostalAddress` und Geo-Koordinaten ein.</p>
+    <p>3. Verknüpfe den Veranstalter (`organizer`) als `Organization` mit existierenden Social-Profilen via `sameAs`.</p>
+    <p>4. Validiere das JSON-LD gegen die aktuellen Google Richtlinien für strukturierte Daten.</p>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-### Verwandte Glossar-Begriffe
+### Verwandte Glossar-Einträge
 * [Local SEO für regionale Unternehmen](/glossar/local-seo/)
-* [E-E-A-T: Vertrauen und Autorität aufbauen](/glossar/e-e-a-t/)
-* [Was sind Citations und Co-Occurrences?](/glossar/citation/)
-* [SEO-Audit: Technische und inhaltliche Bestandsaufnahme](/glossar/seo-audit/)
-* [Entitäten im Semantic Web](/glossar/entitaet/)
+* [E-E-A-T im KI-Zeitalter](/glossar/e-e-a-t/)
+* [Citations und Co-Occurrences im Semantic Web](/glossar/citation/)
+* [SEO-Audit: Technische & inhaltliche Bestandsaufnahme](/glossar/seo-audit/)
+* [Entitäten im Knowledge Graph](/glossar/entitaet/)
+* [Trustworthiness (E-E-A-T)](/glossar/trustworthiness-eeat/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)

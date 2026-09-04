@@ -27,6 +27,48 @@ Eine **XML-Sitemap** ist eine maschinenlesbare Datei im XML-Format, die Suchmasc
 
 Wenn autonome Agenten, Web-Scraper und Suchmaschinen-Spider täglich Milliarden von Dokumenten erfassen müssen, entscheidet die Qualität der Navigationssignale über die Sichtbarkeit. Eine saubere Sitemap-Architektur stellt sicher, dass neu veröffentlichte oder aktualisierte Inhalte ohne Verzögerung gecrawlt werden, anstatt im Rauschen veralteter URL-Strukturen unterzugehen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „An 1. Stelle steht immer die saubere Indizierung. Ja, das ist trockenes technisches SEO, aber das Fundament für jedes spätere Ranking. Wenn deine XML-Sitemap mit 301-Weiterleitungen und 404-Leichen verseucht ist, glaubt dir Google kein einziges Relevanz-Signal mehr. Halte dein URL-Inventar lupenrein.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Sitemap-Hygiene & Indexierungsstatus</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-800 leading-relaxed mb-4">
+    Öffne in der Google Search Console den Bericht „Sitemaps“ und klicke auf „Seitenindexierung anzeigen“. Vergleiche die Anzahl der eingereichten mit den tatsächlich indexierten Seiten: Weichen mehr als 15 % voneinander ab, speist deine Sitemap minderwertige Tag-Archive, Paginierungen oder Weiterleitungen ein, die Google algorithmisch entwertet.
+  </p>
+  <div class="p-3 bg-white/80 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
+    <strong>Kontrollfrage an deine Webagentur oder IT-Abteilung:</strong> „Ist unsere XML-Sitemap so konfiguriert, dass sie ausschließlich kanonische 200-OK-Inhalte führt und Thin-Content wie Paginierungs- und Tag-Seiten strikt ausgeschlossen sind?“
+  </div>
+</div>
+
+![XML Sitemap 3D Infografik - Technisches SEO](../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp)
+
 ## Die vier fundamentalen Säulen der Sitemap-Hygiene
 
 Eine XML-Sitemap ist kein vollständiges Logbuch aller jemals vom Server erzeugten Pfade, sondern eine exklusive Positivliste der wertvollsten Seiten eines Webauftritts. Wer minderwertige oder fehlerhafte URLs in seine Sitemap einspeist, signalisiert Suchmaschinen Inkompetenz und verschwendet wertvolle Server-Ressourcen:
@@ -56,15 +98,15 @@ Große Webauftritte, E-Commerce-Shops oder inhaltsstarke Fachportale sollten nie
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://deinedomain.de/sitemap-pages.xml</loc>
+    <loc>https://teleschmie.de/sitemap-pages.xml</loc>
     <lastmod>2026-08-10T14:20:00+02:00</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://deinedomain.de/sitemap-blog.xml</loc>
+    <loc>https://teleschmie.de/sitemap-blog.xml</loc>
     <lastmod>2026-08-14T09:15:00+02:00</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://deinedomain.de/sitemap-glossar.xml</loc>
+    <loc>https://teleschmie.de/sitemap-glossar.xml</loc>
     <lastmod>2026-08-14T11:45:00+02:00</lastmod>
   </sitemap>
 </sitemapindex>
@@ -87,10 +129,10 @@ Für international agierende Websites ist die XML-Sitemap die mit Abstand robust
 
 ```xml
 <url>
-  <loc>https://deinedomain.de/fachartikel/</loc>
-  <xhtml:link rel="alternate" hreflang="de" href="https://deinedomain.de/fachartikel/"/>
-  <xhtml:link rel="alternate" hreflang="en" href="https://deinedomain.de/en/article/"/>
-  <xhtml:link rel="alternate" hreflang="x-default" href="https://deinedomain.de/fachartikel/"/>
+  <loc>https://teleschmie.de/fachartikel/</loc>
+  <xhtml:link rel="alternate" hreflang="de" href="https://teleschmie.de/fachartikel/"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://teleschmie.de/en/article/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://teleschmie.de/fachartikel/"/>
   <lastmod>2026-08-14T08:00:00+02:00</lastmod>
 </url>
 ```
@@ -115,29 +157,19 @@ Das folgende Code-Beispiel zeigt den korrekten, validen Aufbau einer Teil-Sitema
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://deinedomain.de/</loc>
+    <loc>https://teleschmie.de/</loc>
     <lastmod>2026-08-14T08:00:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://deinedomain.de/technisches-seo/</loc>
+    <loc>https://teleschmie.de/technisches-seo/</loc>
     <lastmod>2026-08-12T16:30:00+02:00</lastmod>
   </url>
   <url>
-    <loc>https://deinedomain.de/ueber-uns/</loc>
+    <loc>https://teleschmie.de/ueber-uns/</loc>
     <lastmod>2026-07-20T10:15:00+02:00</lastmod>
   </url>
 </urlset>
 ```
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „An 1. Stelle steht immer die saubere Indizierung. Ja, das ist langweiliges technisches SEO, es ist aber die Grundlage für alles andere.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7039604214313971712" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
 
 ## Die 3 häufigsten Fehler bei der XML-Sitemap-Pflege
 
@@ -145,9 +177,57 @@ Das folgende Code-Beispiel zeigt den korrekten, validen Aufbau einer Teil-Sitema
 2. **Künstliche Massenaktualisierung des lastmod-Tags:** Wer das `lastmod`-Datum pauschal bei jedem Deployment aktualisiert, zerstört ein unersetzliches Steuerungssignal. Google ignoriert manipulierte Datumsangaben vollständig.
 3. **Diskrepanz zwischen XML-Sitemap und `robots.txt`:** Häufig wird eine Sitemap in der Search Console eingereicht, während die darin enthaltenen Verzeichnisse per `Disallow`-Direktive in der `robots.txt` gesperrt sind. Dieser Widerspruch führt zu Crawling-Blockaden und fehlerhafter Indexierung.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um die XML-Sitemaps deines Webprojekts auf Statuscodes, Canonicals und Datums-Integrität zu auditieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: XML-Sitemap Validierung &amp; lastmod-Integritätsprüfung</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer &amp; DevOps Spezialist.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe die XML-Sitemaps und Sitemap-Indexe des Projekts auf Statuscode-Reinheit, Canonical-Übereinstimmung und saubere Zeitstempel.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Scanne alle URLs in der sitemap.xml bzw. den Teil-Sitemaps und prüfe, dass jede URL mit HTTP 200 ohne Redirects antwortet.</p>
+    <p>2. Gleiche ab, ob jede gelistete URL ein identisches selbstreferenzierendes Canonical Tag im HTML aufweist.</p>
+    <p>3. Verifiziere das lastmod-Datum: Stelle sicher, dass Zeitstempel auf echten Git-Logs oder CMS-Aktualisierungen basieren.</p>
+    <p>4. Filtere Noindex-Seiten, Tag-Archive und Paginierungen zuverlässig aus dem Sitemap-Generator heraus.</p>
+    <p>5. Validierung: Generiere einen Prüfbericht und verifiziere, dass Googlebot eine fehlerfreie XML-Struktur vorfindet.</p>
+  </div>
+</div>
+
 ## Strategische Integration im Zeitalter generativer KI
 
-Im modernen Webauftritt existiert die XML-Sitemap nicht mehr isoliert. Für eine ganzheitliche Bot-Führung sollte sie zwingend in der `robots.txt` über die Direktive `Sitemap: https://deinedomain.de/sitemap_index.xml` referenziert werden. Parallel dazu etablieren sich komplementäre Formate wie [ai.txt](/glossar/ai-txt/) oder semantische Markdown-Verzeichnisse (`llms.txt`), die autonomen KI-Agenten eine noch ressourcenschonendere Orientierung ermöglichen.
+Im modernen Webauftritt existiert die XML-Sitemap nicht mehr isoliert. Für eine ganzheitliche Bot-Führung sollte sie zwingend in der `robots.txt` über die Direktive `Sitemap: https://teleschmie.de/sitemap_index.xml` referenziert werden. Parallel dazu etablieren sich komplementäre Formate wie [ai.txt](/glossar/ai-txt/) oder semantische Markdown-Verzeichnisse (`llms.txt`), die autonomen KI-Agenten eine noch ressourcenschonendere Orientierung ermöglichen.
 
 Wie Sie die Crawling-Effizienz und Serverauslastung Ihrer Website professionell überwachen, erfahren Sie in unserem Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Mögliche Einsparpotenziale bei Hosting- und Toolkosten lassen sich zudem transparent mit dem interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) berechnen.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Einträge
+* [Two-Wave Indexing im Detail](/glossar/two-wave-indexing/)
+* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
+* [Google Search Console: Fehler erkennen](/glossar/google-search-console/)
+* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
+* [Canonical Tag richtig einsetzen](/glossar/canonical-tag/)
+* [ai.txt für maschinenlesbare Inhalte](/glossar/ai-txt/)
+* [Robots.txt verstehen](/glossar/robots-txt/)
+* [Website Relaunch ohne Ranking-Verluste](/glossar/website-relaunch/)
 

@@ -26,6 +26,32 @@ Die Transformation des Webs von rein menschlichen Interaktionen hin zu maschinel
 
 Im Zeitalter autonomer Software-Agenten ist dieser langsame, manuelle Prozess ein massiver geschäftlicher Engpass. Ein B2B-Einkaufsagent oder ein automatisierter Analyse-Bot kann keine unübersichtlichen PDF-Handbücher studieren oder sich durch unstrukturierte API-Portale navigieren. Er benötigt eine standardisierte, dezentrale Landkarte, die ihm in Sekundenbruchteilen mitteilt: Welche Schnittstellen bietet diese Domain an? Welche Autorisierungs-Methoden werden vorausgesetzt? Und wie lässt sich ein konkreter Geschäftsvorgang ohne menschliche Intervention abschließen? Die Antwort der Technologiebranche auf diese Herausforderung lautet **Agentic Resource Discovery (ARD)** mit der zentralen Manifest-Datei **`ai-catalog.json`**.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Agentic Resource Discovery ist für KI-Agenten genau das, was die sitemap.xml und robots.txt für Google-Crawler waren. Wer seine Schnittstellen und MCP-Server nicht sauber über eine standardisierte ai-catalog.json publiziert, bleibt für autonome Einkaufs- und Recherche-Agenten unsichtbar – völlig egal, wie gut die eigene REST-API dokumentiert ist.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Was ist Agentic Resource Discovery und wie funktioniert die ai-catalog.json?
 
 Agentic Resource Discovery (ARD) ist ein offener Standard, der von führenden Cloud- und KI-Pionieren im Rahmen einer Arbeitsgruppe der Linux Foundation definiert wurde. Das Protokoll löst das Problem des isolierten Entdeckens von Schnittstellen im Web.
@@ -54,6 +80,23 @@ Die fundamentale Differenz zwischen Mensch-orientierter und Agent-nativer Schnit
 
 ## Praxis-Beispiel: Aufbau einer normgerechten ai-catalog.json
 
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="px-3 py-1 bg-lime-accent/30 text-dark font-mono text-xs font-bold rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-bold text-neutral-600 uppercase tracking-wider">Praxis-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-4">
+    Prüfen Sie mit einem einzigen cURL-Befehl, ob Ihre Domain bereits Agent-Ready ist: Wenn <code>curl -I https://teleschmie.de/.well-known/ai-catalog.json</code> keinen Status 200 liefert und der Link-Header fehlt, können autonome KI-Agenten Ihre Produkte und Dienstleistungen nicht direkt buchen oder anfragen.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3">
+    <p class="text-xs text-neutral-600 font-semibold mb-1">Frage an Ihre Webagentur oder Ihr Inhouse-Team:</p>
+    <p class="text-xs text-neutral-800 italic">
+      „Haben wir unter <code>/.well-known/ai-catalog.json</code> bereits ein standardisiertes ARD-Manifest für autonome KI-Agenten hinterlegt und senden wir den entsprechenden RFC 8288 Link-Header auf allen HTTP-Antworten?“
+    </p>
+  </div>
+</div>
+
 Jede Ressource in einer ARD-Datei wird über einen eindeutigen Uniform Resource Name (URN) identifiziert und folgt der strikten *Value-or-Reference*-Konvention: Ein Eintrag verweist entweder per `url` auf eine externe Spezifikation oder bettet die Schemadaten per `data` direkt ein.
 
 Das folgende Beispiel zeigt eine produktionsreife `ai-catalog.json` für eine moderne Web-Domain:
@@ -63,23 +106,23 @@ Das folgende Beispiel zeigt eine produktionsreife `ai-catalog.json` für eine mo
   "specVersion": "1.0",
   "host": {
     "name": "Dein Unternehmensname",
-    "url": "https://deinedomain.de",
+    "url": "https://teleschmie.de",
     "description": "Anbieter digitaler Dienstleistungen, strukturierter Daten und KI-Schnittstellen."
   },
   "entries": [
     {
-      "id": "urn:ai:deinedomain.de:mcp:analyse-service",
+      "id": "urn:ai:teleschmie.de:mcp:analyse-service",
       "type": "mcp-server",
       "name": "Analysis Assistant",
       "description": "Liefert strukturierte Onpage- und Entitäts-Faktoren für Kundenanfragen.",
-      "url": "https://deinedomain.de/.well-known/mcp/server-card.json"
+      "url": "https://teleschmie.de/.well-known/mcp/server-card.json"
     },
     {
-      "id": "urn:ai:deinedomain.de:api:produkt-katalog",
+      "id": "urn:ai:teleschmie.de:api:produkt-katalog",
       "type": "openapi",
       "name": "Product Catalog API",
       "description": "Liefert maschinenlesbare Schnittstellen zur Preis- und Produktabfrage.",
-      "url": "https://deinedomain.de/api/v1/products/openapi.json"
+      "url": "https://teleschmie.de/api/v1/products/openapi.json"
     }
   ]
 }
@@ -89,17 +132,29 @@ Ergänzend signalisiert der Server über den HTTP-Header nach [RFC 8288](/glossa
 
 ```http
 # HTTP-Header (Domain anpassen)
-Link: <https://deinedomain.de/.well-known/ai-catalog.json>; rel="service-desc"; type="application/json"
+Link: <https://teleschmie.de/.well-known/ai-catalog.json>; rel="service-desc"; type="application/json"
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Stelle sicher, dass SEO nahtlos mit anderen Abteilungen wie Marketing, Content-Erstellung und Entwicklung zusammenarbeitet.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7099038863783784448" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides ARD-Manifest für deine Web-Domain zu generieren und zu konfigurieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: ARD ai-catalog.json Manifest-Generierung</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior Web Architect & AI Systems Specialist.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein valides <code>/.well-known/ai-catalog.json</code> Manifest gemäß ARD-Spezifikation v1.0 und passe die Server-Header an.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Definiere <code>specVersion: "1.0"</code>, <code>host</code>-Metadaten und <code>entries</code> mit eindeutigen URNs für alle MCP- und REST-Schnittstellen.</p>
+    <p>2. Achte strikt auf die Value-or-Reference-Regel (niemals <code>url</code> und <code>data</code> im selben Eintrag).</p>
+    <p>3. Konfiguriere den Apache/Nginx Link-Header nach RFC 8288: <code>Link: &lt;https://teleschmie.de/.well-known/ai-catalog.json&gt;; rel="service-desc"; type="application/json"</code>.</p>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler bei der Implementierung eines API-Catalogs
@@ -124,7 +179,7 @@ Entwickler können die syntaktische und strukturelle Korrektheit ihres Katalogs 
 
 ```bash
 # Validierung des ai-catalog.json Endpunkts
-curl -s https://deinedomain.de/.well-known/ai-catalog.json | jq '{
+curl -s https://teleschmie.de/.well-known/ai-catalog.json | jq '{
   spec: .specVersion,
   anbieter: .host.name,
   anzahl_services: (.entries | length)
@@ -138,3 +193,24 @@ Gibt die Konsole die erwartete Spezifikations-Version und die Anzahl der deklari
 Die Bereitstellung eines validen API-Catalogs in Kombination mit der [MCP Server Card](/glossar/mcp-server-card/) ist das Herzstück des [Agent Readiness Level](/glossar/agent-readiness-level/) 5. Websites, die diese Infrastruktur etablieren, ermöglichen autonomen Beschaffungs- und Einkaufsagenten das friktionslose Platzieren von Aufträgen und sichern sich die Marktführerschaft im Machine-to-Machine-Commerce. 
 
 Unternehmen, die ihre Sichtbarkeit im neuen Agenten-Ökosystem systematisch nachverfolgen wollen, greifen auf etablierte Plattformen aus unserem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) zurück. Zur exakten Budgetierung technischer Entwicklungs- und Softwarekosten dient der interaktive [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/). Wer seine Schnittstellen frühzeitig für KI-Agenten öffnet, verhindert teure Insellösungen, sichert die Auffindbarkeit seiner Daten und baut nachhaltige Marktrelevanz auf.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
+* [MCP Server Card im Detail](/glossar/mcp-server-card/)
+* [Agent Readiness Level Stufe 5](/glossar/agent-readiness-level/)
+* [auth.md Sicherheits-Standard](/glossar/auth-md/)
+* [RFC 8288 Link Headers](/glossar/rfc-8288-link-headers/)

@@ -24,9 +24,50 @@ In der Software- und Websuche des Jahres 2026 vollzieht sich der Übergang von i
 
 Um jedoch zu verhindern, dass Entwickler und KI-Clients jede Schnittstelle manuell in lokalen Konfigurationsdateien verdrahten müssen, definiert das Protokoll einen standardisierten Entdeckungsmechanismus: die **MCP Server Card** (auch als `mcp.json` Manifest bekannt).
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „SEOs sind die Schnittstelle, um das Web ein Stück besser zu machen – im KI-Zeitalter gilt das für maschinenlesbare Schnittstellen wie MCP erst recht. Wer Agenten wie Cursor oder Claude den automatischen Zugriff verwehrt, wird von den Programmierern und Entwicklern von morgen nicht mehr gefunden.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+    <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  </div>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Prüfe mit einem schnellen Terminal-Aufruf, ob deine Domain unter <code>/.well-known/mcp.json</code> erreichbar ist und offene CORS-Header (<code>Access-Control-Allow-Origin: *</code>) mitsendet. Wenn Web-basierte Agenten wie Claude im Browser oder Cursor deine Schnittstellen nicht im ersten Anlauf parsen können, bricht der Discovery-Flow sofort ab – noch bevor auch nur ein einziges Tool ausgeführt wurde.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3">
+    <p class="text-xs md:text-sm font-semibold text-neutral-800 mb-0">
+      <strong>Kontrollfrage an deine Webagentur oder IT:</strong> „Haben wir für unsere APIs und Datenbestände bereits eine validierte <code>mcp.json</code> unter <code>/.well-known/</code> bereitgestellt, inklusive offener CORS-Header für Web-Agenten?“
+    </p>
+  </div>
+</div>
+
 ## Was ist eine MCP Server Card?
 
-Eine MCP Server Card ist ein maschinenlesbares Metadaten-Dokument im JSON-Format, das einen MCP-Server und seine Fähigkeiten umfassend beschreibt. Ähnlich wie eine `robots.txt` traditionellen Suchmaschinen-Crawlern mitteilt, welche Seiten gecrawlt werden dürfen, signalisiert die Server Card anfragenden KI-Assistenten (wie Claude, Cursor oder dezentralen Autonomous Agents), welche Funktionen auf dem Host verfügbar sind.
+Eine MCP Server Card ist ein maschinenlesbares Metadaten-Dokument im JSON-Format, das einen MCP-Server und seine Fähigkeiten umfassend beschreibt. Ähnlich wie eine [robots.txt](/glossar/robots-txt/) traditionellen Suchmaschinen-Crawlern mitteilt, welche Seiten gecrawlt werden dürfen, signalisiert die Server Card anfragenden KI-Assistenten (wie Claude, Cursor oder dezentralen Autonomous Agents), welche Funktionen auf dem Host verfügbar sind.
 
 Die Server Card erfüllt drei unverzichtbare Kernaufgaben:
 
@@ -63,7 +104,7 @@ Die Einführung automatisierter Server Cards markiert den Schritt von starren En
 Die Standardisierung von MCP-Discovery-Dateien hat eine rasante Evolution durchlaufen. Entwickler sollten die beiden maßgeblichen Spezifikations-Entwürfe kennen:
 
 *   **SEP-1649 (Server Card Entwurf):** Führte den dedizierten Pfad `/.well-known/mcp/server-card.json` ein. Dieser Standard wird von vielen etablierten Tool-Verzeichnissen und Frameworks aus der ersten Jahreshälfte 2025/2026 verwendet.
-*   **SEP-2127 (Canonical mcp.json):** Die neuere Spezifikation der MCP Working Group empfiehlt den schlankeren Pfad `/.well-known/mcp.json`. Er vereinheitlicht die Nomenklatur analog zu `ai-plugin.json` oder `security.txt`.
+*   **SEP-2127 (Canonical mcp.json):** Die neuere Spezifikation der MCP Working Group empfiehlt den schlankeren Pfad `/.well-known/mcp.json`. Er vereinheitlicht die Nomenklatur analog zu `ai-plugin.json` oder [llms.txt](/glossar/llms-txt/).
 
 In Produktivumgebungen empfiehlt sich ein Dual-Stack-Ansatz: Das Manifest wird unter `/.well-known/mcp.json` bereitgestellt, während `/.well-known/mcp/server-card.json` als HTTP-Redirect (301) oder synchronisierte Datei vorgehalten wird.
 
@@ -77,11 +118,11 @@ Das folgende JSON-Dokument demonstriert den standardkonformen Aufbau eines unive
   "name": "Unternehmens-Analyse-Server",
   "version": "1.2.0",
   "description": "Stellt Analyse-Tools und Entitäts-Abfragen für B2B-Projekte bereit.",
-  "homepage": "https://deinedomain.de",
+  "homepage": "https://teleschmie.de",
   "transport": {
     "type": "sse",
-    "endpoint": "https://api.deinedomain.de/mcp/sse",
-    "messageEndpoint": "https://api.deinedomain.de/mcp/messages"
+    "endpoint": "https://api.teleschmie.de/mcp/sse",
+    "messageEndpoint": "https://api.teleschmie.de/mcp/messages"
   },
   "capabilities": {
     "tools": true,
@@ -117,16 +158,6 @@ Access-Control-Allow-Methods: GET, OPTIONS
 Cache-Control: public, max-age=3600
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „SEOs sind die Schnittstelle, um das Web ein Stück besser zu machen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Die 3 häufigsten Fehler bei der Bereitstellung von MCP Server Cards
 
 In der Praxis verhindern häufig kleine Implementierungsfehler die erfolgreiche Tool-Discovery:
@@ -141,7 +172,7 @@ Systemadministratoren können die fehlerfreie Auslieferung des Manifests direkt 
 
 ```bash
 # Validierung des Manifests im Terminal (Domain anpassen)
-curl -s -H "Accept: application/json" https://deinedomain.de/.well-known/mcp.json | jq '{
+curl -s -H "Accept: application/json" https://teleschmie.de/.well-known/mcp.json | jq '{
   name: .name,
   transport: .transport.type,
   tools: [.tools[].name]
@@ -155,3 +186,47 @@ Gibt der Befehl die Werkzeuge und den Transport-Typ sauber formatiert aus, steht
 Die MCP Server Card bildet zusammen mit der [agent-card.json](/glossar/agent-card-json/) und dem [A2A-Protocol](/glossar/a2a-protocol/) den Kern für fortgeschrittene [Agent Readiness](/glossar/agent-readiness/). Während die Agent Card die Identität des Akteurs beschreibt, stellt die Server Card die konkreten Werkzeuge zur Verfügung.
 
 Wie sich fortschrittliche Plattformen im Zeitalter generativer KI positionieren, veranschaulicht unser [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die damit verbundenen Infrastrukturkosten lassen sich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) betriebswirtschaftlich berechnen. Wer heute standardisierte MCP-Schnittstellen bereitstellt, erschließt sich die rasant wachsende Zielgruppe autonomer Software-Agenten.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die MCP Server Card für deine Domain automatisiert zu generieren und zu validieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: MCP Server Card Generierung & Validierung</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Systems Architect.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein standardkonformes MCP Server Discovery Manifest unter <code>public/.well-known/mcp.json</code> (sowie einen Symlink oder Redirect von <code>/.well-known/mcp/server-card.json</code>) und konfiguriere die Webserver-Header für CORS.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Erzeuge die Datei <code>public/.well-known/mcp.json</code> mit Schema <code>https://modelcontextprotocol.io/schemas/server-card-v1.json</code>, aktuellem Versionsstand, Transport-Definition (SSE oder HTTP) und allen aktiven Tools inklusive JSON Schema für die Parameter.</p>
+    <p>2. Konfiguriere in der Webserver-Konfiguration (.htaccess / Nginx) für Pfade unter <code>/.well-known/mcp*</code> die Header: <code>Access-Control-Allow-Origin "*"</code>, <code>Access-Control-Allow-Methods "GET, OPTIONS"</code> und <code>Content-Type "application/json; charset=utf-8"</code>.</p>
+    <p>3. Führe im Terminal <code>curl -I https://teleschmie.de/.well-known/mcp.json</code> aus und verifiziere Status 200 sowie die CORS-Header. Validiere die Syntax anschließend mit <code>jq . public/.well-known/mcp.json</code>.</p>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
+* [WebMCP](/glossar/webmcp/)
+* [Agent Card (agent-card.json)](/glossar/agent-card-json/)
+* [A2A-Protokoll](/glossar/a2a-protocol/)
+* [Agent Readiness](/glossar/agent-readiness/)
+* [Auth.md](/glossar/auth-md/)

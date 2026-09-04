@@ -28,6 +28,50 @@ Der digitale Suchmarkt befindet sich in einem tektonischen Wandel. Während in k
 
 Die Geschichte der Plattform ist tief in der deutschen SEO-DNA verwurzelt. Gegründet von Johannes Beus in Bonn, revolutionierte das Unternehmen vor über 15 Jahren den Markt mit der Erfindung des [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/). Was damals der Goldstandard für das Ranking in den zehn blauen Links von Google war, wird nun konsequent auf die Ära der Sprachmodelle, RAG-Systeme und Answer Engines portiert. Sistrix wählt dabei einen bemerkenswert kundenfreundlichen Weg: Statt teurer Zusatzmodule baut das Team die neuen KI-Metriken nahtlos in die bestehende Infrastruktur ein.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Sistrix hat mit der Integration der AI Overviews genau den richtigen Nerv getroffen. Wer SEO betreibt, darf klassische Rankings und KI-Antworten nicht als getrennte Silos betrachten. Sie beeinflussen sich gegenseitig. Wenn du in den SERPs siehst, dass dein bestes Geld-Keyword plötzlich von einer KI-Box überdeckt wird, musst du deine Content-Strategie in Echtzeit anpassen. Werkzeuge wie Sistrix und SE Ranking liefern dafür das unbestechliche Zahlenmaterial.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="my-8 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent/40 text-neutral-900 px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <h3 class="text-lg font-bold text-neutral-900 mb-0 !mt-0 !pb-0 !border-none">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  </div>
+  <p class="text-neutral-800 text-sm leading-relaxed mb-4">
+    In der Praxis sehe ich es immer wieder: Ein Shopbetreiber freut sich über Position 1 bei Sistrix, wundert sich aber über 40 % Klick-Einbruch auf seiner wichtigsten Geld-URL. Ein Blick in die SERP zeigt: Google hat ein riesiges AI Overview über die organischen Links geklatscht. Wer diesen Wandel verschläft, verliert massiv Umsatz. Nutze die KI-Filter in Sistrix, um deine rentabelsten Suchbegriffe sofort auf AIO-Präsenz abzuklopfen und deinen Content als zitierfähige Antwortquelle aufzubauen!
+  </p>
+  <div class="bg-white/80 p-4 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
+    <p class="font-bold text-neutral-900 mb-1">🔍 Dein 30-Sekunden-Check im Sistrix-Dashboard (ohne IT-Wissen):</p>
+    <p class="mb-2">1. Öffne <strong>Sistrix</strong>, gehe auf deine Domain und filtere deine Top-20 Keyword-Rankings nach dem Feature-Filter <em>AI Overviews</em>.</p>
+    <p class="mb-2">2. Prüfe, bei wie vielen dieser Keywords deine Website bereits als Zitationslink im KI-Block auftaucht.</p>
+    <p class="mb-0">3. <strong>Deine Kontrollfrage an die SEO-Agentur:</strong> <em>„Welche unserer Top-Umsatz-Keywords lösen Google AI Overviews aus, und mit welchen konkreten Inhalten stellen wir sicher, dass unsere Domain dort als Primärquelle zitiert wird?“</em></p>
+  </div>
+</div>
+
+---
+
 ## 1. Die Kernfunktionen von Sistrix AI im Überblick
 
 Die Entwickler in Bonn haben früh erkannt, dass die klassische organische Suche nicht über Nacht verschwindet, sondern sich mit generativen KI-Antworten vermischt. Genau an dieser Schnittstelle setzen die neuen Features an:
@@ -71,10 +115,10 @@ Um sicherzustellen, dass sowohl traditionelle Such-Spider als auch moderne KI-Mo
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "DeineDomain Monitoring Tool",
+  "name": "Teleschmiede Monitoring Tool",
   "operatingSystem": "All",
   "applicationCategory": "BusinessApplication",
-  "url": "https://deinedomain.de/tools/ai-monitoring/",
+  "url": "https://teleschmie.de/tools/ai-monitoring/",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
@@ -91,6 +135,34 @@ Um sicherzustellen, dass sowohl traditionelle Such-Spider als auch moderne KI-Mo
 
 Durch strukturierte Produktdaten ermöglichst du Analyseplattformen, Preise, Softwarekategorien und Kundenbewertungen fehlerfrei auszulesen und in vergleichenden Benchmarks darzustellen.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit für AI-Overview-Präsenz und strukturierte Schema-Daten durchzuführen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: AI-Overview & Citation-Readiness Audit ausführen</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & AI Search Optimization Engineer.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die wichtigsten Landingpages auf ihre Extrahierbarkeit für KI-Antworten und validiere die Schema-Auszeichnung.</p>
+    <p><strong>Anforderungen:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Prüfe die ersten 200 Wörter jedes Artikels auf prägnante Definitionssätze (Answer-First-Prinzip).</li>
+      <li>Validieren Sie das Schema.org JSON-LD Markup auf Vollständigkeit und Fehlerfreiheit im Google Rich Results Test.</li>
+      <li>Stelle sicher, dass alle internen Verlinkungen zwingend mit einem abschließenden Trailing Slash (/) enden.</li>
+      <li>Erstelle eine Übersicht von FAQ-Kandidaten, die gezielt für Google AI Overviews optimiert werden können.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Liefere eine priorisierte Checkliste mit konkreten Anpassungen für die Redaktion.</p>
+  </div>
+</div>
+
+---
+
 ## 4. Typische Praxisfehler beim Einsatz von KI-Monitoring-Tools
 
 In der operativen Anwendung von Sistrix AI zeigen sich regelmäßig klassische Fehlinterpretationen:
@@ -99,11 +171,7 @@ In der operativen Anwendung von Sistrix AI zeigen sich regelmäßig klassische F
 2. **Ignorieren der Quellfluktuation:** Ein einmaliges Erscheinen in einer KI-Antwort bedeutet noch keine stabile Sichtbarkeit. Ohne kontinuierliches Tracking des Citation Drifts wiegt man sich in falscher Sicherheit.
 3. **Vernachlässigung des traditionellen SEO-Fundaments:** Viele Teams vernachlässigen Onpage-Basics und Backlinks, sobald sie mit KI-Tools experimentieren. Doch Sprachmodelle ziehen ihre Datenbasis nach wie vor aus autoritativen, technisch sauberen Domains.
 
-<div class="bg-white border-l-4 border-lime-500 p-4 rounded-r-lg shadow-sm my-6">
-  <p class="font-bold text-dark mb-1">Jörg Zimmer aus der SEO-Praxis:</p>
-  <p class="text-gray-700 italic mb-2">„Sistrix hat mit der Integration der AI Overviews genau den richtigen Nerv getroffen. Wer SEO betreibt, darf klassische Rankings und KI-Antworten nicht als getrennte Silos betrachten. Sie beeinflussen sich gegenseitig. Wenn du in den SERPs siehst, dass dein bestes Geld-Keyword plötzlich von einer KI-Box überdeckt wird, musst du deine Content-Strategie in Echtzeit anpassen. Werkzeuge wie Sistrix und SE Ranking liefern dafür das unbestechliche Zahlenmaterial.“</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">↗ Zur Diskussion auf LinkedIn</a>
-</div>
+---
 
 ## 5. Strategische Tool-Kombination für maximale Marktdurchdringung
 
@@ -111,10 +179,17 @@ Die Erweiterung von Sistrix beweist eindrucksvoll, dass etablierte Branchenführ
 
 Für die kontinuierliche Onpage-Überwachung, Backlink-Audits und tiefes Rank-Tracking zu einem exzellenten Preis-Leistungs-Verhältnis ist [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) die ideale Plattform innerhalb moderner [SEO Visibility Tools](/glossar/seo-visibility-tools/). Geht es im nächsten Schritt darum, den genauen Marktanteil der eigenen Marke in ungebundenen Konversationen großer Sprachmodelle zu analysieren, liefert die Plattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Einblicke in modernen [GEO](/glossar/geo/)- und [AEO](/glossar/aeo/)-Kampagnen.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 

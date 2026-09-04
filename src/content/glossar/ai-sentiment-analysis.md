@@ -27,19 +27,28 @@ Wenn moderne Nutzer Kaufentscheidungen treffen, verlassen sie sich immer seltene
 
 Viel entscheidender für den unternehmerischen Erfolg ist die qualitative Frage: *In welchem Tonfall spricht die künstliche Intelligenz über deine Angebote?* Es hilft deinem Business wenig, wenn ChatGPT deinen Namen bei jeder zweiten Anfrage nennt, im selben Satz jedoch vor undurchsichtigen Vertragsklauseln, überforderten Support-Mitarbeitern oder instabilen Schnittstellen warnt. Ein solches negatives Framing in generierten Texten vernichtet das Vertrauen potenzieller Kunden in Sekundenschnelle und führt zu dramatischen Umsatzeinbußen. Hier setzt die **AI Sentiment Analysis** an.
 
-<div class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl">
-  <div class="flex items-center gap-4 mb-4">
-    <div class="w-12 h-12 rounded-full bg-lime-accent flex items-center justify-center font-bold text-dark text-xl">JZ</div>
-    <div>
-      <h4 class="font-bold text-base text-dark">Jörg Zimmer</h4>
-      <p class="text-xs text-neutral-600">Senior SEO & AI Search Consultant</p>
+<figure class="my-10 bg-white border border-gray-200/80 rounded-2xl p-6 md:p-8 shadow-sm not-prose">
+  <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+    <div class="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0 border-2 border-lime-accent shadow-md">
+      <img 
+        src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+        alt="Jörg Zimmer Porträt" 
+        class="w-full h-full object-cover"
+        loading="lazy"
+        width="96"
+        height="96"
+      />
+    </div>
+    <div class="space-y-3 text-center md:text-left">
+      <blockquote class="text-base md:text-lg text-dark leading-relaxed italic">
+        "Sichtbarkeit in Sprachmodellen ist zweischneidig. Wer nur darauf optimiert, dass die KI den Firmennamen ausspuckt, erlebt oft ein böses Erwachen. Wenn das Sprachmodell deine Entität mit negativen Assoziationen verknüpft, fungiert jede Nennung als Anti-Werbung. Die gezielte Analyse des Marken-Sentiments ist deshalb die unverzichtbare Ergänzung für jedes moderne Reputationsmanagement."
+      </blockquote>
+      <figcaption class="text-sm text-gray-500 font-medium">
+        — <cite class="not-italic font-semibold text-dark">Jörg Zimmer</cite>, Senior SEO & AI Consultant
+      </figcaption>
     </div>
   </div>
-  <p class="text-neutral-700 italic text-sm mb-3">
-    "Sichtbarkeit in Sprachmodellen ist zweischneidig. Wer nur darauf optimiert, dass die KI den Firmennamen ausspuckt, erlebt oft ein böses Erwachen. Wenn das Sprachmodell deine Entität mit negativen Assoziationen verknüpft, fungiert jede Nennung als Anti-Werbung. Die gezielte Analyse des Marken-Sentiments ist deshalb die unverzichtbare Ergänzung für jedes moderne Reputationsmanagement."
-  </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
-</div>
+</figure>
 
 ## Methodik: Wie KI-Sentiment-Analysen technisch funktionieren
 
@@ -95,7 +104,7 @@ Du erkennst auf einen Blick:
 - In welchen Bereichen wird dein Produkt als überlegen hervorgehoben?
 - Wo existiert eine Wissenslücke, die zu unzutreffenden negativen Bewertungen führt?
 
-In Kombination mit einem übergeordneten [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/) und detaillierten Analysen aus einem monatlichen [AI Visibility Report](/glossar/ai-visibility-report/) erhalten Führungskräfte eine lückenlose Entscheidungsgrundlage. Wer zusätzlich seine organischen Rankings im Auge behalten möchte, nutzt ergänzend **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**, um klassische SERP-Daten mit KI-Trends abzugleichen.
+In Kombination mit einem übergeordneten [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/) und detaillierten Analysen aus einem monatlichen [AI Visibility Report](/glossar/ai-visibility-report/) erhalten Führungskräfte eine lückenlose Entscheidungsgrundlage. Wer zusätzlich seine organischen Rankings im Auge behalten möchte, nutzt ergänzend [SE Ranking](/glossar/se-ranking/), um klassische SERP-Daten mit KI-Trends abzugleichen.
 
 ## Die 3 häufigsten Fehler bei der KI-Stimmungsanalyse
 
@@ -104,6 +113,19 @@ Unternehmen begehen bei der Reputationsüberwachung in Sprachmodellen regelmäß
 1. **Reine Fokussierung auf Erwähnungsmengen:** Ein Anstieg der Mentions wird oft fälschlicherweise als Erfolg verbucht. Wenn der Zuwachs jedoch aus kritischen Diskussionen über Support-Probleme resultiert, schadet die erhöhte Sichtbarkeit dem Geschäft.
 2. **Ignorieren von Zero-Click-Effekten:** Da Nutzer in LLMs selten auf Links klicken ([Zero-Click-Content](/glossar/zero-click-content/)), prägt die synthetisierte Textantwort das Markenbild vollständig. Wer die Tonalität nicht misst, verliert die Kontrolle über seine Markenwahrnehmung.
 3. **Mangelnde Gegensteuerung bei negativem Framing:** Werden falsche Aussagen der KI einfach hingenommen, verfestigen sich diese im Vektorraum. Unternehmen müssen gezielt durch verifizierte Fallstudien, E-E-A-T-Signale und PR-Präsenz gegensteuern.
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-accent p-6 rounded-r-2xl">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="bg-lime-accent text-dark text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="font-bold text-dark mb-1">Jörgs Praxistipp aus der SEO-Sprechstunde</p>
+  <p class="text-dark/80 text-sm leading-relaxed mb-3">
+    Teste das Sentiment deiner Marke in Perplexity oder ChatGPT mit dem Prompt: „Welche Kritikpunkte und Schwächen werden von Kunden an [Dein Firmenname] geäußert?“. Analysiere die zitierten Quellen: Beruft sich die KI auf veraltete Forenbeiträge von vor fünf Jahren? Dann benötigst du frischen, verifizierten Content und strukturierte Richtigstellungen auf deiner Domain.
+  </p>
+  <p class="text-xs text-dark/60 font-medium italic">
+    <strong>Kontrollfrage an deine Webagentur:</strong> „Monitoren wir neben der reinen Erwähnungsquote auch das comparative Sentiment und die Deskriptoren unserer Marke in führenden Sprachmodellen?“
+  </p>
+</div>
 
 ## Integration in das Reputationsmanagement und Krisen-PR
 
@@ -117,11 +139,45 @@ Die Ergebnisse einer AI Sentiment Analysis liefern die perfekte Blaupause für d
 
 Erstelle beispielsweise dedizierte Vergleichstabellen und FAQ-Module, die häufige Falschannahmen aufgreifen und durch verifizierte Kundenstimmen entkräften. Wenn ein Sprachmodell beim nächsten Crawl auf diese klaren, strukturierten Richtigstellungen stößt, fließen die korrigierten Datenpunkte direkt in die probabilistische Antwortgenerierung ein. So wandelst du ein negatives Framing schrittweise in eine überzeugende Empfehlung um.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Copy & Paste Task</span>
+    <span class="text-xs text-gray-400">AI Brand Perception & Sentiment Specialist</span>
+  </div>
+  <p class="font-bold text-white text-base mb-2">Automatisierter LLM Sentiment & Descriptor Extractor</p>
+  <p class="text-sm text-gray-300 leading-relaxed mb-4">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten (Cursor, Claude, Antigravity), um ein automatisiertes Sentiment-Audit für deine Marken-Erwähnungen aufzusetzen:
+  </p>
+  <div class="bg-black/50 p-4 rounded-xl text-xs text-gray-200 font-mono space-y-2 border border-white/5">
+    <p class="text-lime-accent font-semibold">// Rolle & Kontext</p>
+    <p>Du bist ein NLP & Brand Reputation Specialist. Erstelle ein Skript zur automatisierten Extraktion von Markensentiment und qualitativen Deskriptoren aus LLM-Antworten.</p>
+    <p class="text-lime-accent font-semibold pt-1">// Anforderungen</p>
+    <p>1. Sende 15 Vergleichs-Prompts unserer Branche an Claude 3.5 Sonnet und OpenAI GPT-4o und fange die Textantworten ab.</p>
+    <p>2. Führe ein feingranulares Sentiment-Parsing durch: Klassifiziere Absätze, in denen unsere Marke vorkommt, in Positiv / Neutral / Negativ.</p>
+    <p>3. Extrahiere alle assoziierten Adjektive und Phrasen (Deskriptoren wie 'zuverlässig', 'teuer', 'innovativ', 'kompliziert') und bilde ein Häufigkeits-Ranking.</p>
+    <p>4. Stelle das Ergebnis als JSON-Struktur mit 'Net Sentiment Score' (-100 bis +100) und Keyword-Cloud-Daten bereit.</p>
+    <p class="text-lime-accent font-semibold pt-1">// Output</p>
+    <p>Ausführbares Skript mit strukturierter Datenablage und visueller CLI-Tabelle.</p>
+  </div>
+</div>
+
+Schütze deine Marke vor unkontrolliertem KI-Framing. Nutze spezialisierte Analyse-Werkzeuge wie [Rankscale](/glossar/rankscale/) und [SE Ranking](/glossar/se-ranking/), um die Tonalität deiner Nennungen in Echtzeit zu überwachen. Nur wer versteht, wie Algorithmen über das eigene Unternehmen urteilen, kann seine Position als vertrauenswürdiger Branchenführer nachhaltig ausbauen.
+
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
     Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
   </a>
 </div>
 
-Schütze deine Marke vor unkontrolliertem KI-Framing. Nutze spezialisierte Analyse-Werkzeuge wie [Rankscale](https://rankscale.ai/features/ai-sentiment-analysis?via=offer) und [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um die Tonalität deiner Nennungen in Echtzeit zu überwachen. Nur wer versteht, wie Algorithmen über das eigene Unternehmen urteilen, kann seine Position als vertrauenswürdiger Branchenführer nachhaltig ausbauen.
+### Verwandte Glossar-Begriffe
+* [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/)
+* [AI Visibility Report analysieren](/glossar/ai-visibility-report/)
+* [Zero-Click-Content Strategien](/glossar/zero-click-content/)
+* [ChatGPT Sichtbarkeit optimieren](/glossar/chatgpt-sichtbarkeit/)
+* [Rankscale Tool Review](/glossar/rankscale/)
+* [SE Ranking Suite im Test](/glossar/se-ranking/)
+* [Brand Mentions und Reputation](/glossar/brand-mentions/)

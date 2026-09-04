@@ -41,6 +41,34 @@ Wir vergleichen die absoluten Platzhirsche unter den kostenpflichtigen Tools –
 
 Lass uns in die Tiefe gehen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
+  <img 
+    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+    alt="Jörg Zimmer" 
+    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
+    loading="lazy"
+    width="96"
+    height="96"
+  />
+  <div class="flex-1 text-center md:text-left">
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      "Wer im Jahr 2026 ausschließlich auf traditionelle Keyword-Rankings blickt, steuert sein Unternehmen im Blindflug. Wenn B2B-Kunden ihre Kaufentscheidungen in ChatGPT, Claude oder Perplexity treffen, ist dein Platz in der Zehn-blaue-Links-Liste völlig nebensächlich. Entscheidend ist, ob die KI deine Marke als Benchmark empfiehlt oder ob du in der algorithmischen Unsichtbarkeit verschwindest. Ein verlässlicher AI Tracker ist deshalb kein Luxus-Spielzeug, sondern das wichtigste Frühwarnsystem für deine digitale Marktposition."
+    </blockquote>
+    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
+      <div>
+        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
+        <span class="hidden md:inline"> | </span>
+        <span>Senior SEO & AI Search Consultant</span>
+      </div>
+      <cite>
+        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+          LinkedIn Profil &rsaquo;
+        </a>
+      </cite>
+    </figcaption>
+  </div>
+</figure>
+
 ---
 
 ## 1. Von SEO zu GEO: Warum du dein Tracking-Mindset ändern musst
@@ -65,6 +93,20 @@ Der Share of Voice misst deinen Marktanteil innerhalb der KI-Antworten im direkt
 
 Um diese gigantische Menge an dynamischen Daten zu erfassen, simulieren professionelle Tracker täglich Tausende von User-Prompts an die verschiedenen APIs der LLMs, werten die Antworten linguistisch aus und gießen sie in übersichtliche Dashboards.
 
+<div class="my-8 bg-white border border-neutral-200 rounded-2xl p-6 shadow-sm">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider">Praxistipp aus der SEO-Sprechstunde</span>
+    <span class="text-xs text-neutral-600 font-bold">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Logge dich in die Bing Webmaster Tools ein und navigiere zum Tab <strong>AI Performance</strong>. Prüfe die Liste der generierten <strong>Grounding Queries</strong>. Du siehst sofort schwarz auf weiß, mit welchen maschinellen internen Suchbefehlen Microsoft Copilot deine Seiten abfragt, um RAG-Antworten zu generieren. Wenn diese Queries deine Kernleistungen nicht treffen, fehlen auf deinen Seiten semantische Faktenanker.
+  </p>
+  <div class="bg-neutral-50 p-4 rounded-xl border border-neutral-200 text-xs text-neutral-700">
+    <strong class="text-dark block mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</strong>
+    „Überwachen wir neben klassischen Google-Keyword-Rankings bereits unseren Share of Voice und Zitationsstatus in ChatGPT, Perplexity und Google AI Overviews über ein automatisiertes Prompt-Tracking-Tool?“
+  </div>
+</div>
+
 Schauen wir uns an, welche Tools das am besten machen.
 
 ---
@@ -80,6 +122,25 @@ Um dir direkt einen Überblick zu verschaffen, findest du hier die wichtigste Ve
 | **Einstiegspreis** | Micro ab ca. 20€ / Pro 99$ | **In Core-Plänen integriert** (ab ca. 103€) | **In Suite integriert** (ab ca. 149€/Modul) | Lite **29$** / Standard 189$ | Starter 95$ / Pro 245$ |
 | **Besonderheit** | Extrem tiefes Volatilitäts-Tracking | Keine Paywall, klassisches SEO inklusive | Massiver AIO-Filter, KI-Sichtbarkeitsindex | Integrierte GEO Audit Engine (20 Faktoren) | Starkes 'Actions'-Modul für direkte To-Dos |
 | **Sentiment-Analyse**| Ja | Ja | Ja | Ja | **Sehr detailliert** |
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-2.5 py-0.5 rounded-full uppercase tracking-wider">Copy & Paste Task</span>
+    <span class="text-xs text-neutral-400">Prompt für KI-Coding-Assistenten</span>
+  </div>
+  <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
+    Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten Multi-LLM-Tracking-Benchmark für dein Unternehmen zu programmieren:
+  </p>
+  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein Senior AI-Search-Engineer. Schreibe ein modulares Node.js/Python-Skript für ein automatisiertes AI-Tracking:
+1. Definiere ein Array aus 15 transaktionalen und informationalen B2B-Prompts für unsere Branche.
+2. Sende diese Prompts automatisiert über die APIs von OpenAI (GPT-4o), Anthropic (Claude 3.5 Sonnet) und Perplexity (Sonar-Medium).
+3. Analysiere die zurückgegebenen Antworttexte linguistisch auf:
+   - Mentions: Wird unser Markenname namentlich genannt?
+   - Citations: Ist unsere Domain in den Quellen-Links (Referrals) enthalten?
+   - Competitor Mentions: Welche 3 Hauptkonkurrenten werden stattdessen genannt?
+   - Sentiment-Score (-1 bis +1): Wie positiv/neutral/negativ wird unsere Lösung dargestellt?
+4. Berechne den Share of Voice (SoV) und exportiere die Ergebnisse als strukturierte JSON- und CSV-Reports für Looker Studio.</code></pre>
+</div>
 
 Wir unterteilen den restlichen Guide nun in zwei große Blöcke: **Kategorie A** (Die kostenpflichtigen Profi-Tools) und **Kategorie B** (Die kostenlosen Boardmittel der Suchmaschinen).
 
@@ -221,9 +282,12 @@ Die Landschaft der AI Tracker ist erwachsen geworden. Wir haben heute hochprofes
 
 Egal für welchen Weg du dich entscheidest: Der wichtigste Schritt ist, überhaupt mit dem Tracking anzufangen. Wer heute nicht misst, was ChatGPT, Perplexity und die AI Overviews über seine Marke ausgeben, der existiert in der Suchlandschaft von morgen schlichtweg nicht mehr.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
     Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
   </a>
 </div>

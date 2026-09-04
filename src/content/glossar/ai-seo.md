@@ -22,79 +22,144 @@ faqs:
     answer: 'RAG (Retrieval-Augmented Generation) bedeutet, dass KI-Modelle Fakten in Echtzeit aus verlässlichen Quellen ziehen, bevor sie antworten. Dafür brauchst du extrem saubere, entitätenbasierte Strukturen (Schema.org), eine Grounding Page, die alle Kernfakten maschinenlesbar bündelt, und am besten eine Schnittstelle, die via Stateless MCP angebunden ist. Die KI muss deine Fakten verlustfrei und in Millisekunden extrahieren können, um sie in ihren Antworten zu nutzen.'
 ---
 
-Vergiss das "SEO" der Vergangenheit. Das Zeitalter, in dem wir mühsam für zehn blaue Links, Suchvolumen-Tabellen und menschliche Klicks auf Ergebnisseiten optimiert haben, liegt endgültig und unwiderruflich hinter uns. Die Volatilität ist durch ständige "Model Swaps" (wenn Suchmaschinen unangekündigt ihr Sprachmodell im Hintergrund austauschen) extrem hoch. Wir schreiben den Sommer 2026, und **AI SEO** ist kein bloßes Buzzword mehr, das sich schicke Agenturen für ihren nächsten Pitch auf die Fahne schreiben. Es ist eine knallharte, hochtechnische und kompromisslose Disziplin, die vollständig durch die neuen **Agent Readiness Standards** definiert wird. 
+Vergiss das "SEO" der Vergangenheit. Das Zeitalter, in dem wir mühsam für zehn blaue Links, Suchvolumen-Tabellen und menschliche Klicks auf Ergebnisseiten optimiert haben, liegt endgültig und unwiderruflich hinter uns. Die Volatilität ist durch ständige "Model Swaps" (wenn Suchmaschinen unangekündigt ihr Sprachmodell im Hintergrund austauschen) extrem hoch. Wir schreiben das Jahr 2026, und **AI SEO** ist kein bloßes Buzzword mehr, das sich schicke Agenturen für ihren nächsten Pitch auf die Fahne schreiben. Es ist eine hochtechnische und kompromisslose Disziplin, die vollständig durch moderne [Agent Readiness](/glossar/agent-readiness/) Standards definiert wird. 
 
-Wer 2026 von Suchmaschinenoptimierung spricht, meint in der Realität die Optimierung für autonome, maschinelle Systeme und RAG (Retrieval-Augmented Generation). Wenn mich heute jemand auf einer Konferenz fragt, was ich den ganzen Tag als SEO-Experte eigentlich mache, lautet meine Tacheles-Antwort: Ich baue digitale Infrastrukturen, die von KI-Agenten, Large Language Models (LLMs) und maschinellen A2A-Netzwerken verstanden, verarbeitet und in Millisekunden zitiert werden.
+Wer heute von Suchmaschinenoptimierung spricht, meint in der Realität die Optimierung für autonome maschinelle Systeme, [A2A Protocol](/glossar/a2a-protocol/) Netzwerke und [RAG](/glossar/rag/) (Retrieval-Augmented Generation). Wenn mich heute jemand auf einer Konferenz fragt, was ich als Senior SEO & AI Search Consultant eigentlich mache, lautet meine klare Antwort: Ich baue digitale Infrastrukturen, die von KI-Agenten, Large Language Models (LLMs) und maschinellen Suchsystemen verstanden, verarbeitet und in Millisekunden zitiert werden.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Dein Content kann inhaltlich noch so brillant und rhetorisch meisterhaft geschrieben sein – wenn er nicht über saubere Protokolle abrufbar ist und bei einem KI-Request als aufgeblähtes, unformatiertes HTML anstatt als sauberes, token-effizientes Markdown ausgeliefert wird, existiert er für die moderne Suche schlichtweg nicht. Wir optimieren für Maschinen. Wir füttern Algorithmen. Punkt."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Dein Content kann redaktionell noch so brillant geschrieben sein – wenn er bei einem KI-Request als aufgeblähtes HTML statt als schlankes, token-effizientes Markdown ausgeliefert wird und keine sauberen Protokolle wie A2A oder MCP bedient, existiert er für autonome Agenten schlichtweg nicht. AI SEO bedeutet: Wir optimieren nicht mehr für Klicks, sondern füttern maschinelle Entscheidungsnetzwerke mit unumstößlicher Ground Truth.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
-AI SEO ist heute das strategische und vor allem technische Dach über allem, was online passiert. Es verbindet die alten Tugenden der Informationsarchitektur mit den radikal neuen, unnachgiebigen Anforderungen der KI-Ökosysteme wie ChatGPT Search, Perplexity und Google AI Overviews. Lass uns in die Details gehen, warum die Standards vom 2026 alles, was wir bisher gemacht haben, auf den Kopf stellen.
+AI SEO ist heute das strategische und vor allem technische Dach über allem, was online passiert. Es verbindet die klassischen Tugenden der Informationsarchitektur mit den radikal neuen Anforderungen der KI-Ökosysteme wie ChatGPT Search, Perplexity und Google AI Overviews.
 
 ## Die vier unverrückbaren Säulen des modernen AI SEO
 
-Wir haben keine Zeit mehr für Bullshit-Metriken und Ratespielchen. AI SEO stützt sich heute auf fundamentale technologische Pfeiler. Wer auch nur einen davon vernachlässigt, verliert massiv an digitaler Sichtbarkeit (Share of Model) und überlässt der Konkurrenz kampflos das Feld.
+AI SEO stützt sich auf fundamentale technologische Pfeiler. Wer auch nur einen davon vernachlässigt, verliert massiv an digitaler Sichtbarkeit und überlässt der Konkurrenz kampflos das Feld:
 
 ### 1. RAG-Dominanz sichern
-Stell dir eine entscheidende Frage: Warum durchsuchen KI-Modelle heutzutage überhaupt live das Web? Die Antwort: Weil sie ihre gefürchteten Halluzinationen minimieren müssen. Sie nutzen komplexe RAG-Pipelines (Retrieval-Augmented Generation), um sich verifizierte, aktuelle Fakten in Echtzeit zu beschaffen, bevor sie auch nur eine Silbe ihrer Antwort an den menschlichen Nutzer ausspielen.
+Warum durchsuchen KI-Modelle heutzutage live das Web? Weil sie Halluzinationen minimieren müssen. Sie nutzen komplexe RAG-Pipelines (Retrieval-Augmented Generation), um sich verifizierte, aktuelle Fakten in Echtzeit zu beschaffen, bevor sie eine Antwort an den Nutzer ausspielen.
 
-Dein primärer AI SEO Job ist es, der beste, schnellste und zuverlässigste RAG-Lieferant deiner Nische zu werden. Du musst deine Daten so strukturieren, redaktionell aufbereiten und über die `llms.txt` deklarieren, dass die Algorithmen gar nicht anders können, als dich als unumstrittene, primäre Quelle zu zitieren. Dafür brauchst du tiefes Entity SEO und ein gnadenlos konsistentes Schema.org Markup.
+Dein primärer AI SEO Job ist es, der verlässlichste RAG-Lieferant deiner Branche zu werden. Du musst deine Daten so strukturieren und redaktionell aufbereiten, dass Algorithmen deine Domain als primäre Quelle heranziehen. Dafür brauchst du tiefes [Entity SEO](/glossar/entity-seo/) und ein lückenloses [Schema Markup](/glossar/schema-org-markup/).
 
-### 2. Markdown Content Negotiation: Der Tod des HTML
-Ich kann es nicht oft genug betonen: LLMs und KI-Agenten hassen HTML abgrundtief. HTML ist ausschließlich für Browser und menschliche Augen gemacht. Es ist voll von Design-Code, überflüssigen Attributen und Skripten, die für eine Maschine pures Rauschen darstellen und extrem wertvolle Token im Context Window des Modells verschwenden.
+### 2. Markdown Content Negotiation: Der Tod des HTML-Ballasts
+LLMs und KI-Agenten verarbeiten unstrukturiertes HTML nur unter hohem Rechenaufwand. HTML ist für Browser gestaltet und enthält Design-Code, Skripte und Styling, die wertvolle Tokens im Context Window verschwenden.
 
-Ein Standard für AI SEO ist **Markdown Content Negotiation**. Wenn ein KI-Agent eine URL aufruft, signalisiert er oft über HTTP-Header, dass er maschinenlesbaren Text bevorzugt (`Accept: text/markdown`). Ein professionelles AI SEO Setup fängt diesen Request ab und liefert sofort eine perfekt strukturierte, rohe Markdown-Version der Seite aus. Keine komplexen Navigationsmenüs, keine Pop-ups. Nur die reinen Fakten. Das macht deine Inhalte zum bevorzugten Futter.
+Ein Standard für AI SEO ist **Markdown Content Negotiation**. Wenn ein KI-Agent eine URL aufruft, signalisiert er über HTTP-Header (`Accept: text/markdown`), dass er maschinenlesbaren Text bevorzugt. Ein professionelles Setup fängt diesen Request ab und liefert sofort eine semantisch strukturierte Markdown-Version der Seite aus. Keine Menüs, keine Popups – nur die pure Faktenbasis.
 
 ### 3. Agent Readiness und Protokolle (A2A, MCP)
-Suchen werden nicht mehr nur in Google getippt. Sie werden von persönlichen KI-Agenten ausgeführt, die im Hintergrund das Web durchforsten. Diese Agenten nutzen APIs und Agent-to-Agent (A2A) Protokolle oder das Model Context Protocol (MCP). 
+Suchen werden nicht mehr nur in Google eingetippt. Sie werden von autonomen Agenten ausgeführt, die im Hintergrund das Web durchforsten. Diese Agenten nutzen APIs, das [A2A Protocol](/glossar/a2a-protocol/) oder das Model Context Protocol (MCP). 
 
-Deine Domain muss ein aktiver Knotenpunkt im Netzwerk sein. AI SEO bedeutet, Endpunkte so zu konfigurieren, dass sie maschinelles Vertrauen ausstrahlen. Wenn deine Infrastruktur stottert oder veraltete Formate schickt, bricht der Agent ab und nimmt die Daten der Konkurrenz. Jede URL muss als isoliertes, in sich schlüssiges Datenpaket funktionieren.
+Deine Domain muss ein aktiver Knotenpunkt im Agenten-Netzwerk sein. AI SEO bedeutet, Endpunkte und Manifestdateien wie `agent-card.json` so zu konfigurieren, dass sie maschinelles Vertrauen ausstrahlen.
 
-### 4. Share of Model (SoM) als echte KPI
-Vergiss das Keyword-Volumen. Die Metriken der Zukunft heißen **Share of Model (SoM)** und **Citation Frequency**. Wie oft wirst du in KI-Antworten zitiert? Wie hoch ist deine RAG-Hitrate im Zeitalter der "Zero-Click Dominance"? Ohne Share of Model verlierst du jeglichen Zugang zu den modernen Nutzern, die keine Links mehr anklicken, sondern direkt Antworten in der KI-Maske lesen.
+### 4. Share of Model (SoM) als echte Erfolgsmetrik
+Die Metriken der Zukunft heißen [Share of Model (SoM)](/glossar/share-of-model/) und [Citation Frequency](/glossar/citation-frequency/). Wie oft wirst du in generativen Antworten zitiert? Wie hoch ist deine Präsenz bei Zero-Click-Suchen? Ohne Share of Model verliert ein Unternehmen den Anschluss an Kunden, die direkte Antworten in KI-Masken konsumieren.
 
-### Klassisches SEO vs. AI SEO 2026
+### Klassisches SEO vs. AI SEO
 
-| Faktor | Klassisches SEO (Vergangenheit) | AI SEO (2026) |
+| Faktor | Klassisches SEO (Vergangenheit) | AI SEO (Gegenwart & Zukunft) |
 | :--- | :--- | :--- |
 | **Zielgruppe** | Menschliche Leser, Browser | Autonome Agenten, LLM-Pipelines |
 | **Primäre KPI** | Organischer Traffic (Klicks) | Citation Share, Share of Model |
-| **Wichtigstes Format** | Langes, formatiertes HTML | Maschinenlesbares Markdown, JSON |
-| **Erfolgsfaktor** | Backlink-Masse (Domain Authority) | Verifizierbarkeit (E-E-A-T), Grounding |
+| **Wichtigstes Format** | Langes, formatiertes HTML | Maschinenlesbares Markdown, JSON-LD |
+| **Erfolgsfaktor** | Backlink-Masse (Domain Authority) | Verifizierbarkeit ([E-E-A-T](/glossar/e-e-a-t/)), Grounding |
+| **Optimierungsdisziplin** | Keyword-Optimierung | [GEO](/glossar/geo/) & [AEO](/glossar/aeo/) |
 
-## Warum "klassisches" SEO tot ist (und warum das gut ist)
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg md:text-xl font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Prüfe mit einem cURL-Befehl im Terminal, wie dein Server auf den Header <code>Accept: text/markdown</code> reagiert: Liefert er eine saubere, lesbare Markdown-Struktur oder 2 Megabyte unstrukturierten HTML- und Script-Code? Wenn dein Server kein Markdown ausgibt, verbrennen KI-Agenten ihr gesamtes Kontext-Budget an deinem Design-Overhead und brechen das Crawling vorzeitig ab.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3 mt-3">
+    <p class="text-xs font-semibold text-neutral-600 mb-0">
+      Kontrollfrage an deine Webagentur: „Unterstützt unsere Webpräsenz den Cloudflare Agent Readiness Level 5 Standard inklusive llms.txt, Markdown Content Negotiation und MCP-Server-Karten?“
+    </p>
+  </div>
+</div>
 
-Technische Sauberkeit und Crawlability sind nach wie vor wichtig. Aber der Hebel hat sich verschoben. 
-*   Wer heute noch mühsam Keywords in H2-Überschriften zählt, ignoriert völlig, dass eine moderne KI Konzepte und Entitäten semantisch versteht.
-*   Wer krampfhaft auf Time-on-Site optimiert, ignoriert, dass KI-Agenten deine Seite in 12 Millisekunden scannen, die Daten ziehen und wieder verschwinden.
+## Warum klassisches SEO transformiert werden muss
 
-## Aus der Praxis: Meine persönliche Erfahrung
+Technische Sauberkeit und Crawlability bleiben unverzichtbare Voraussetzungen. Aber die Hebelwirkung hat sich verlagert:
+* Wer heute noch isoliert Keywords in H2-Überschriften zählt, ignoriert, dass moderne KIs semantische Konzepte und Entitäten ganzheitlich interpretieren.
+* Wer ausschließlich auf Verweildauer optimiert, übersieht, dass KI-Agenten eine Seite in wenigen Millisekunden scannen, relevante Datenpunkte extrahieren und sofort weiterziehen.
 
-Einer meiner Kunden war anfangs völlig perplex: "Jörg, wir bauen jetzt eine Datei, die `llms.txt` heißt, und schicken rohes Markdown an Bots? Niemand sieht das!" Genau das ist der Denkfehler, den 2026 viele machen. Die menschlichen User sehen es nicht direkt, aber sie sehen das Resultat. 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um das Fundament für Agent Readiness und AI SEO auf deinem Webserver zu etablieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Agent Readiness Level 5 Infrastruktur-Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener AI SEO Architect & Agent Readiness Engineer.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das Projekt auf volle Kompatibilität mit KI-Agenten und RAG-Retrievern gemäß Level-5-Spezifikationen.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Erstelle oder aktualisiere die <code>/llms.txt</code> im Root-Verzeichnis mit präzisen Markdown-Verweisen auf alle Cornerstone-Inhalte.</p>
+    <p>2. Konfiguriere Content Negotiation (z.B. in der <code>.htaccess</code> oder Middleware), sodass Anfragen mit <code>Accept: text/markdown</code> rohe Markdown-Dateien ausliefern.</p>
+    <p>3. Überprüfe die <code>agent-card.json</code> im Verzeichnis <code>/.well-known/</code> auf Konformität mit dem A2A-Protocol (v1.0).</p>
+    <p>4. Stelle sicher, dass die <code>robots.txt</code> KI-Crawlern (PerplexityBot, GPTBot, ClaudeBot) expliziten Zugriff gewährt und keine clientseitigen Hydration-Abhängigkeiten bestehen.</p>
+  </div>
+</div>
 
-Als wir bei dem Kunden das A2A Protocol und die Content Negotiation scharfgeschaltet hatten, passierte wochenlang scheinbar nichts im klassischen Google Analytics. Aber als wir begannen, die Brand Mentions in ChatGPT und Perplexity zu tracken, schoss die "Citation Frequency" durch die Decke. Die KIs nutzten die aufbereiteten Fakten als verlässliche Ground Truth, weil sie im Gegensatz zum verwaschenen HTML der Konkurrenz eindeutig parsen konnten. Das Resultat: Ein spürbarer Anstieg hochqualifizierter Inbound-Leads, die von der KI an uns verwiesen wurden.
+## Zusammenfassung: Der konkrete AI SEO Action Plan
 
-## Zusammenfassung: Dein gnadenloser AI SEO Action Plan
+1. **llms.txt etablieren:** Lege eine standardkonforme `llms.txt` im Root-Verzeichnis deiner Domain an, die KI-Modellen eine saubere Inhaltsübersicht bietet.
+2. **Markdown Content Negotiation schalten:** Richte Serverregeln ein, um auf `Accept: text/markdown` blitzschnell formatfreies Markdown auszugeben.
+3. **Grounding Page aufbauen:** Erstelle eine zentrale Fakten-Seite, die Unternehmensdaten, Kennzahlen und Kernangebote maschinenlesbar bündelt.
+4. **Fokus auf RAG und Zitationen:** Strukturiere Fachartikel nach dem BLUF-Prinzip und nutze spezialisierte [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://rankscale.ai/?via=offer) oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deinen Share of Model verlässlich zu überwachen.
 
-1. **Implementiere sofort eine llms.txt:** Leg noch heute eine standardkonforme `llms.txt` ins Root-Verzeichnis deiner Domain. 
-2. **Aktiviere Markdown Content Negotiation:** Lass deinen Server auf `Accept: text/markdown` hören und baue eine Pipeline.
-3. **Baue deine Grounding Page:** Kreiere eine zentrale URL, die alle deine nackten Unternehmensfakten maschinenlesbar bereitstellt.
-4. **Voller Fokus auf RAG:** Optimiere deine Fachtexte für die hochpräzise Datenextraktion durch KI-Algorithmen.
-
-Mach deine Hausaufgaben. Werde Agent Ready. Die KI wartet nicht auf Nachzügler. 
-
----
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-* [LLMO: SEO für Sprachmodelle](/glossar/llmo/)
-* [GEO: Generative Engine Optimization](/glossar/geo/)
-* [AEO: Answer Engine Optimization](/glossar/aeo/)
-* [AI Tracking Tools richtig nutzen](/glossar/ai-tracking-tools/)
+### Verwandte Glossar-Begriffe
+* [Agent Readiness: Der Standard für autonome KI-Agenten](/glossar/agent-readiness/)
+* [A2A Protocol: Kommunikation zwischen autonomen Agenten](/glossar/a2a-protocol/)
+* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
+* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)
+* [LLMO: Optimierung für Large Language Models](/glossar/llmo/)
+* [Entity SEO: Entitätenbasierte Suchmaschinenoptimierung](/glossar/entity-seo/)
+* [RAG: Retrieval-Augmented Generation im Detail](/glossar/rag/)
+* [Share of Model (SoM): Die neue Reichweitenmetrik](/glossar/share-of-model/)
+* [Citation Frequency: Zitationshäufigkeit in Sprachmodellen](/glossar/citation-frequency/)
+* [AI Tracking Tools: Messung der Modell-Präsenz](/glossar/ai-tracking-tools/)
+

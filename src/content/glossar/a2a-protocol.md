@@ -24,17 +24,27 @@ faqs:
     answer: "Dann betreibst du eine digitale Insel, die von der neuen Agenten-Ökonomie abgeschnitten ist. Wenn der KI-Einkaufsassistent eines Konzerns nach neuen Lieferanten sucht und deine Seite nicht A2A-kompatibel ist, wird er gar nicht erst versuchen, deine veralteten Formulare auszufüllen. Er geht direkt zum Konkurrenten."
 ---
 
-Moin! 🌻
-
 Wir müssen über einen Paradigmenwechsel sprechen, der aktuell das gesamte Fundament des Internets umkrempelt. Wenn wir uns die Web-Entwicklung der letzten zwanzig Jahre ansehen, ging es immer nur um eines: Wie können wir Informationen so aufbereiten, dass *Menschen* sie leichter konsumieren können? Wir haben responsive Designs gebaut, Ladezeiten optimiert und Conversion-Rates poliert. 
 
 Aber das Web, wie wir es kannten, ist tot. Wir befinden uns im Sommer 2026, und der Traffic von Menschen, die auf Bildschirme starren und Knöpfchen drücken, stagniert oder bricht ein. Die neue Währung im Unternehmensumfeld heißt **Autonomie**. 
+
+<figure class="my-10 bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-sm flex flex-col md:flex-row items-center gap-6">
+  <img src="/assets/images/profile/joerg-zimmer-portrait.webp" alt="Jörg Zimmer" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-2 border-lime-accent flex-shrink-0" />
+  <div>
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      „Während der Mittelstand noch diskutiert, ob man einen bunten Chatbot auf die Website klatschen soll, verhandeln autonome Agenten bereits Milliardenbudgets im Hintergrund. Wer das A2A-Protokoll ignoriert, schließt seine Website schlichtweg vom globalen B2B-Handel der Zukunft aus.“
+    </blockquote>
+    <figcaption class="text-sm font-bold text-gray-500 not-italic">
+      Jörg Zimmer, <cite class="font-normal text-gray-400">Senior SEO & AI Search Consultant</cite>
+    </figcaption>
+  </div>
+</figure>
 
 Unternehmen lagern Routineaufgaben zunehmend an autonome KI-Agenten aus. Der Einkäufer sucht nicht mehr manuell nach neuen Lieferanten – er gibt seinem Agenten ein Budget und eine Deadline. Dieser Agent zieht los ins Netz, findet Lieferanten, vergleicht Preise, handelt Verträge aus und bucht das Budget. 
 
 Und genau hier kracht es gewaltig im Gebälk der klassischen IT-Infrastruktur. Wie zum Teufel soll der Agent von Firma A mit dem IT-System von Firma B sprechen, ohne dass ein Entwickler monatelang teuren Pfusch am Bau betreibt, um eine Custom-API zu programmieren? 
 
-Die Antwort auf dieses gigantische Skalierungsproblem ist das **A2A Protocol (Agent-to-Agent Protocol)**. Ursprünglich im April 2025 von Google eingeführt, ist es mittlerweile der absolute Industrie-Standard, der im März 2026 die offizielle Version v1.0.0 erreicht hat und unter dem Dach der Linux Foundation dafür sorgt, dass Maschinen endlich auf Augenhöhe miteinander verhandeln können.
+Die Antwort auf dieses gigantische Skalierungsproblem ist das **A2A Protocol (Agent-to-Agent Protocol)**. Ursprünglich im April 2025 von Google eingeführt, ist es mittlerweile der absolute Industrie-Standard, der im März 2026 die offizielle Version v1.0.0 erreicht hat und unter dem Dach der Linux Foundation (Agentic AI Foundation, AAIF) dafür sorgt, dass Maschinen endlich auf Augenhöhe miteinander verhandeln können.
 
 ## Was genau ist das A2A Protocol?
 
@@ -55,10 +65,26 @@ Alles geschieht in Millisekunden. Vollautonom. Über standardisierte Web-Technol
 
 Im aktuellen Hype um autonome Systeme werden zwei Begriffe ständig in einen Topf geworfen: Das Model Context Protocol (MCP) und das A2A Protocol. Wer diese beiden Dinge verwechselt, hat die Architektur der neuen KI-Welt nicht verstanden.
 
-* **Das Model Context Protocol (MCP)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juni 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
+* **Das [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)** ist die **vertikale** Verbindung. Es ist das Kabel zwischen dem Gehirn (dem KI-Modell) und seinen eigenen Werkzeugen. Wenn dein firmeninterner Agent auf deine eigene Notion-Datenbank oder dein lokales Dateisystem zugreifen soll, nutzt er MCP. Seit Juni 2026 ist dieser Standard zustandslos (stateless) und dominiert die internen Cloud-Deployments.
 * **Das A2A Protocol** hingegen ist die **horizontale** Verbindung. Es kommt genau dann zum Einsatz, wenn dein Agent die sicheren Grenzen deines eigenen Unternehmens verlässt und mit dem Agenten eines völlig fremden Unternehmens kommunizieren muss. Jeder Agent behält dabei seine eigenen Trust Boundaries und seinen internen State bei.
 
-MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um eine vollständige Agent Readiness zu erreichen.
+MCP ist für die Navigation im eigenen Haus. A2A ist für die Diplomatie auf dem internationalen Parkett. Beides ist zwingend erforderlich, um eine vollständige [Agent Readiness](/glossar/agent-readiness/) zu erreichen.
+
+<div class="my-8 p-6 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 shadow-sm not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wide">30-Sekunden Inhaber-Check</span>
+    <strong class="text-lg text-dark">Jörgs Praxistipp aus der SEO-Sprechstunde</strong>
+  </div>
+  <p class="text-dark/90 text-sm leading-relaxed mb-4">
+    Prüfe per Browser oder cURL, ob deine Domain unter <code>/.well-known/agent-card.json</code> eine valide Agent Card nach A2A v1.0.0 bereitstellt. Wenn dieser Pfad einen 404-Fehler wirft, können autonome Einkaufsagenten deine Services nicht automatisiert erkennen. Eine standardkonforme Agent Card ist heute die elektronische Visitenkarte im Agentic Web.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <p class="text-xs font-bold text-dark/70 uppercase tracking-wider mb-1">Kontrollfrage für deine Webagentur oder dein Entwickler-Team:</p>
+    <p class="text-sm font-semibold text-dark italic">
+      "Haben wir eine standardkonforme agent-card.json und auth.md nach den Spezifikationen der Linux Foundation (A2A Protocol v1.0.0) hinterlegt, damit externe KI-Agenten unsere Angebote maschinell anfragen können?"
+    </p>
+  </div>
+</div>
 
 ## Die Business-Relevanz: Warum CTOs jetzt handeln müssen
 
@@ -82,7 +108,7 @@ Das Herzstück dieser Infrastruktur liegt in meinem öffentlichen `.well-known` 
 
 Du kannst dir das Setup live ansehen unter: `https://teleschmie.de/.well-known/agent-card.json`
 
-Hier ist ein Ausschnitt aus der harten Realität:
+Hier ist ein Ausschnitt aus der Realität:
 
 ```json
 {
@@ -104,29 +130,46 @@ Hier ist ein Ausschnitt aus der harten Realität:
 **Was dieses Setup so mächtig macht:**
 1. **Versionsklarheit:** Ich deklariere sofort `1.0.0`. Der anklopfende Agent weiß, dass ich den stabilen Standard spreche.
 2. **Klarer Scope:** Der Agent weiß genau, was ich anbiete (SEO Audits, Agent Readiness).
-3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweise ich hart auf die `auth.md`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an meinem `service` Endpunkt. Die `auth.md` muss zwingend kleingeschrieben werden und die H1-Überschrift `# auth.md` tragen!
+3. **Automatisierte Sicherheit:** Anstatt eine Custom-API-Key-Mail zu schreiben, verweise ich hart auf die `auth.md`. Der fremde Agent liest diese Datei, generiert seinen Identity Assertion Token (ID-JAG) und authentifiziert sich vollautomatisch an meinem `service` Endpunkt. Die [auth.md](/glossar/auth-md/) muss zwingend kleingeschrieben werden und die H1-Überschrift `# auth.md` tragen!
 
 Das ist kein Zukunftsszenario aus einem Sci-Fi-Film. Das ist operative Realität im Sommer 2026, getragen von Cloud-Giganten wie Microsoft (Azure AI Foundry), AWS und Google Cloud.
 
 ## Wie bereit ist dein Unternehmen? (Der Selbsttest)
 
-Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte eine vollständige Agent Readiness (Level 5 auf dem Cloudflare Radar) misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
+Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugin auf eine WordPress-Seite klatschen. Das ist Bauernfängerei. Echte eine vollständige [Agent Readiness](/glossar/agent-readiness/) (Level 5 auf dem Cloudflare Radar) misst sich daran, ob dein System das A2A Protocol nativ unterstützt.
 
-Du musst das nicht glauben, du kannst es hart testen. Nutze deinen eigenen KI-Assistenten (oder deinen internen Agenten), um einen sogenannten "A2A Discovery Flow" auf deiner eigenen Infrastruktur zu simulieren. 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
+  <div class="flex items-center gap-2 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wide">Copy & Paste Task</span>
+    <strong class="text-white text-lg">A2A Discovery Flow & Agent Card Audit für Cursor, Claude Code oder Antigravity</strong>
+  </div>
+  <p class="text-gray-300 text-sm mb-4">
+    Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine Domain auf A2A-Kompatibilität und Agent Card Validität zu prüfen:
+  </p>
+  <div class="bg-black/50 p-4 rounded-xl font-mono text-xs text-lime-accent overflow-x-auto border border-white/10 leading-relaxed">
+    <p class="text-gray-400 mb-2"># Rolle: Distributed Systems & Agentic Web Architect</p>
+    <p class="text-white font-semibold mb-2">Task: Führe einen A2A Discovery Flow durch und validiere die .well-known/agent-card.json sowie auth.md nach Linux Foundation Standard.</p>
+    <p class="text-gray-300 mb-1">Anforderungen:</p>
+    <p class="text-gray-300">1. Prüfe die Erreichbarkeit und Schema-Validität von <code>/.well-known/agent-card.json</code> gegen das offizielle A2A v1.0 Schema.</p>
+    <p class="text-gray-300">2. Validiere, dass <code>auth.md</code> kleingeschrieben ist und als erste H1-Überschrift <code># auth.md</code> enthält.</p>
+    <p class="text-gray-300">3. Überprüfe die RFC 8288 Link-Header auf korrekte Syntax (keine Anführungszeichen in spitzen Klammern).</p>
+    <p class="text-gray-300">4. Simuliere einen maschinellen Handshake mit JSON-RPC 2.0 / SSE.</p>
+    <p class="text-lime-accent mt-2">Output: Gap-Report mit konkreten Korrekturanweisungen für Nginx/Apache und bereinigter agent-card.json.</p>
+  </div>
+</div>
 
-### Der universelle Prompt für deinen Agenten
-
-Kopiere den folgenden Prompt und gib ihn deinem präferierten LLM oder KI-Agenten. Er ist so geschrieben, dass er sofort funktioniert. Du musst keine Platzhalter einfügen – der Agent wird dich nach deiner Domain fragen, wenn er sie nicht schon kennt.
-
-**Prompt für deinen KI-Agenten:**
-```text
-Initiiere einen tiefgreifenden A2A Discovery Flow für meine Domain. Prüfe, ob im öffentlichen `.well-known` Verzeichnis eine standardkonforme `agent-card.json` (A2A v1.0.0) vorliegt. Falls ja, validiere die deklarierten Endpunkte, die Auth-Policy (`auth.md`) und die kryptografische Sicherheit. Falls meine Domain nicht A2A-Ready ist, erstelle einen kritischen Gap-Report. Erkläre mir als Geschäftsführer detailliert, welche technischen Schritte zwingend notwendig sind, um meine Infrastruktur vollständig kompatibel mit dem A2A Protocol der Linux Foundation zu machen, damit externe autonome Agenten (egal ob für Unternehmen oder Endkunden) vollautonom mit meinem System verhandeln können.
-```
-
-## Das Klartext: Wer jetzt schläft, verliert
+## Der strategische Ausblick: Wer jetzt schläft, verliert
 
 Das A2A Protocol ist der unsichtbare Klebstoff, der die neue KI-Ökonomie zusammenhält. Während sich die Konkurrenz noch darüber streitet, ob sie einen Chatbot auf ihre Startseite packen soll, bauen smarte Unternehmen eine Infrastruktur, die im Hintergrund vollautonom Verträge abschließt. 
 
 Die Standards sind definiert, die Werkzeuge sind da. Das A2A Protocol hat Version 1.0.0 erreicht. Die Zeit der Experimente ist vorbei – jetzt geht es an die Skalierung. Mache deine Domain Agent-Ready.
 
-ALOHA! 🌻✌️
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
+    Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
+  </a>
+</div>

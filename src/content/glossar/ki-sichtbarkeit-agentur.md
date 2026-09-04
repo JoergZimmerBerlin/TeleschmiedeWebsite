@@ -27,6 +27,48 @@ Eine **KI Sichtbarkeit Agentur** (auch als AEO- oder GEO-Agentur bezeichnet) ist
 
 Während der traditionelle Auftrag an eine Online-Marketing-Agentur lautete: *„Optimiert unsere Seite für Keyword X, damit wir mehr organische Klicks bekommen“*, erfordert die generative Informationsbeschaffung eine fundamentale Neuorientierung. Nutzer tippen keine isolierten Suchphrasen mehr ein; sie führen Konversationen, fordern Vergleiche an und verlangen handlungsfertige Empfehlungen. Wer in diesen multimodalen Antworträumen nicht als maßgebliche [Entität](/glossar/entitaet/) verankert ist, verliert schlagartig den Erstkontakt zu seiner Zielgruppe.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer eine SEO-Agentur noch danach bezahlt, wie viele Keywords sie in den Top 10 platziert, wirft sein Budget aus dem Fenster. Wenn dein B2B-Kunde bei Perplexity fragt: ‚Welche Software löst mein Problem?‘, zählt nur eine einzige Zahl: Dein Citation Share in den Antworten. Echte KI-Sichtbarkeit ist das Fundament moderner B2B-Abschlüsse.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2 py-0.5 rounded">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Agenturen verkaufen gerne bunte Dashboards mit 50 Vanity-Metriken. Doch im B2B-Segment gilt 2026: Wenn Entscheidungsträger KI-gestützt recherchieren und deine Marke in keiner Shortlist auftaucht, bist du aus dem Pitch raus, bevor er überhaupt begonnen hat. Fordere von deiner Agentur ein klares Zitations-Tracking!
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/20">
+    <p class="text-xs font-semibold text-neutral-500 uppercase tracking-wide mb-1">🔍 Dein 30-Sekunden-Agentur-Check:</p>
+    <p class="text-sm text-neutral-800 mb-2">1. Frage deine bisherige Agentur: „Überwachen wir bereits unseren Share of Model und unsere Zitationsfrequenz in ChatGPT, Perplexity und Google AI Overviews?“</p>
+    <p class="text-sm text-neutral-800 mb-2">2. Wenn die Antwort lautet „Google ist das Einzige, was zählt“, fehlt der Agentur die strategische Weitsicht für moderne Beschaffungsprozesse.</p>
+    <p class="text-sm text-neutral-800 font-medium mb-0">3. <strong>Deine Kontrollfrage:</strong> <em>„Welche konkreten technischen Maßnahmen setzen wir um, damit RAG-Retriever unsere Fallstudien und Produktdaten als verifizierte Faktenquelle nutzen?“</em></p>
+  </div>
+</div>
+
 ## Der Paradigmenwechsel: Von SEO zu AEO und GEO
 
 Um die Arbeitsweise einer spezialisierten Agentur zu verstehen, muss zwischen drei eng verzahnten Disziplinen unterschieden werden:
@@ -77,7 +119,7 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
   "@context": "https://schema.org",
   "@type": "AssessmentEvaluation",
   "name": "Audit-Kriterienkatalog für KI-Sichtbarkeit und AEO-Beratung",
-  "auditScope": "https://deinedomain.de",
+  "auditScope": "https://teleschmie.de",
   "evaluationMetrics": [
     {
       "category": "Technisches Fundament",
@@ -110,14 +152,30 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
 }
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Lasst uns gemeinsam dafür sorgen, dass SEO nicht nur als nachträgliche Optimierung betrachtet wird, sondern als integraler Bestandteil der Website-Planung.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7064573888449392640" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: KI-Sichtbarkeit & Entity-Audit durchführen</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AEO Engineer & Brand Knowledge Graph Consultant.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das Webprojekt auf Crawlbarkeit für KI-Agenten und optimiere das semantische Entity-Markup.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Validiere in der robots.txt, dass Bots wie GPTBot, PerplexityBot und ClaudeBot Zugriff auf relevante Pfade haben.</li>
+      <li>Prüfe die Existenz und Vollständigkeit von <code>auth.md</code> und <code>llms.txt</code>.</li>
+      <li>Erstelle ein validiertes JSON-LD Schema.org Markup für Organization und Service mit verifizierten Wikidata-sameAs-Links.</li>
+      <li>Kontrolliere, dass alle internen Verlinkungen konsistent auf einen Trailing Slash (/) enden.</li>
+      <li>Liefere einen strukturierten Markdown-Report der AI-Readiness.</li>
+    </ul>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler bei der Auswahl einer KI-Agentur
@@ -131,4 +189,28 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
 Insbesondere für Anbieter im [B2B-Sektor](/glossar/ki-sichtbarkeit-b2b/) ist die Zusammenarbeit mit einer versierten AEO-Beratung geschäftskritisch. Einkäufer und Entscheidungsträger nutzen generative Assistenten zunehmend für Marktüberblicke und Software-Vorselektionen. 
 
 Wer nicht in den Antworten von Perplexity oder ChatGPT auftaucht, existiert für moderne Beschaffungsprozesse schlicht nicht mehr. Welche Analysewerkzeuge Agenturen und Inhouse-Teams bei dieser Transformation unterstützen, erfahren Sie in unserem Marktvergleich der [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Anfallende Beratungs- und Softwarekosten lassen sich vorab detailliert im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) durchkalkulieren.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [KI Sichtbarkeit im B2B](/glossar/ki-sichtbarkeit-b2b/)
+* [Share of Model verstehen](/glossar/share-of-model/)
+* [KI SEO Beratung im Detail](/glossar/ki-seo-beratung/)
+* [Technisches SEO meistern](/glossar/technisches-seo/)
+* [Technisches Schema Markup](/glossar/technisches-schema-markup/)
+* [Auth.md für Agenten](/glossar/auth-md/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)
+* [Entitäten im semantischen Web](/glossar/entitaet/)
 

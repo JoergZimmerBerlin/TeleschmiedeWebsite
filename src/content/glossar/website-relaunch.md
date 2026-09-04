@@ -27,6 +27,48 @@ Ein Website-Relaunch wird in vielen Unternehmen noch immer wie die Anschaffung e
 
 Im Jahr 2026 ist die Gefahr eines folgenschweren Scheiterns größer denn je. Ein Relaunch betrifft heute nicht mehr nur die bekannten zehn blauen Links in der Google-Suche. Er entscheidet darüber, ob Ihre Domain als maschinenlesbarer Datenknotenpunkt in generativen KI-Modellen verankert bleibt. Wer den Systemwechsel ohne rigorose technische Begleitung durchführt, riskiert den Verlust jahrelang aufgebauter digitaler Vermögenswerte.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ein Website-Relaunch ohne SEO-Begleitung ist wie ein Hausbau ohne Statiker: Sieht am Anfang schick aus, bricht aber beim ersten Windstoß zusammen. Wenn Agenturen das neue Design feiern, während hunderte historische URLs im 404-Nirvana landen, vernichtet das den Unternehmenswert von Jahren in wenigen Tagen.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Relaunch-Sicherheit & Traffic-Schutz</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-800 leading-relaxed mb-4">
+    Verhindere um jeden Preis die berüchtigte „Noindex-Falle“. Beim Go-Live wird das Noindex-Meta-Tag auf dem Staging-Server allzu oft vergessen und wandert mit auf die Live-Domain. Prüfe am Go-Live-Tag unmittelbar nach der DNS-Umstellung den Quelltext deiner wichtigsten Einstiegsseiten.
+  </p>
+  <div class="p-3 bg-white/80 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
+    <strong>Kontrollfrage an deine Webagentur oder IT-Abteilung:</strong> „Haben wir ein lückenloses 1:1-URL-Mapping aller historischen URLs auf die neuen Ziel-URLs via 301-Redirects erstellt, und wurde sichergestellt, dass kein pauschaler Catch-All-Redirect auf die Startseite geschaltet wird?“
+  </div>
+</div>
+
+![Website Relaunch SEO 3D Infografik - Planung, Migration und Sichtbarkeits-Check](../../assets/images/glossar/3d-light/glossar-website-relaunch-3d.png)
+
 ## Was bedeutet ein Relaunch im Zeitalter generativer KIs?
 
 Ein Relaunch ist weit mehr als eine optische Auffrischung des User Interfaces. Er stellt einen tiefen Eingriff in die technische Informationsarchitektur, die URL-Taxonomie und die semantische Datenstruktur dar. Suchmaschinen und KI-Agenten bewerten eine Website primär nach ihrer thematischen Autorität ([Topical Authority](/glossar/topical-authority/)) und der Stabilität ihrer [Entitäten](/glossar/entity-seo/).
@@ -70,7 +112,7 @@ In den ersten 30 Tagen nach dem Livegang ist ein tägliches Monitoring der Serve
 Das folgende Beispiel zeigt ein performantes Nginx-Mapping zur sauberen Weiterleitung alter Pfade sowie ein kurzes Test-Skript zur automatisierten Validierung im Terminal:
 
 ```nginx
-# Nginx-Konfiguration: 301-Mapping auf https://deinedomain.de/
+# Nginx-Konfiguration: 301-Mapping auf https://teleschmie.de/
 
 map $request_uri $new_uri {
     default "";
@@ -80,11 +122,11 @@ map $request_uri $new_uri {
 }
 
 server {
-    server_name deinedomain.de;
+    server_name teleschmie.de;
 
     # Exakte 301-Weiterleitung ausführen, falls in der Map hinterlegt
     if ($new_uri != "") {
-        return 301 https://deinedomain.de$new_uri;
+        return 301 https://teleschmie.de$new_uri;
     }
 
     location / {
@@ -97,21 +139,11 @@ Mit einem einfachen cURL-Befehl prüfen Sie vorab, ob der Server den korrekten H
 
 ```bash
 # Terminal-Test: HTTP-Statuscode und Location-Header prüfen
-curl -I https://deinedomain.de/alter-bereich/leistung-a/
+curl -I https://teleschmie.de/alter-bereich/leistung-a/
 # Erwartete Ausgabe:
 # HTTP/2 301
-# location: https://deinedomain.de/leistungen/leistung-a/
+# location: https://teleschmie.de/leistungen/leistung-a/
 ```
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Ein Website-Relaunch ohne SEO-Begleitung ist wie ein Hausbau ohne Statiker. Wenn das Fundament bröckelt, nützt Ihnen auch die schönste Fassade nichts. Der häufigste Fehler, den ich bei verunglückten Projekten sehe: Die Agentur feiert das bunte Design, während im Hintergrund hunderte historische URLs ins digitale Nirvana laufen. Wer 301-Redirects vernachlässigt, vernichtet den Unternehmenswert von Jahren in wenigen Sekunden.“
-  </blockquote>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
 
 ## Die 3 häufigsten Fehler beim Website-Relaunch
 
@@ -125,18 +157,50 @@ Ein erfolgreicher Relaunch schützt nicht nur den Status quo, sondern eröffnet 
 
 Planen Sie im Vorfeld ein professionelles [SEO-Audit](/glossar/seo-audit/) ein, um sämtliche Risikofaktoren systematisch zu erfassen. Einen fundierten Marktüberblick über Überwachungswerkzeuge finden Sie im Bericht über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die anfallenden Kosten für Relaunch-Audits und Monitoring können Sie transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Relaunch-Weiterleitungsmatrix automatisiert zu erstellen und auf HTTP-Statuscodes zu validieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: 301-Redirect-Map Generator & Statuscode-Validator</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Consultant und Webserver-Administrator.</p>
+    <p><strong>Aufgabe:</strong> Erstelle aus zwei CSV-Dateien (alte Live-URLs und neue Ziel-URLs) eine saubere Nginx- bzw. Apache-.htaccess-Redirect-Map mit HTTP 301-Statuscodes. Schreibe zusätzlich ein Validierungs-Skript in Node.js oder Bash, das jeden alten Pfad abfragt und prüft, ob die Ziel-URL ohne Redirect-Ketten erreichbar ist.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Analysiere das URL-Matching und bilde alte Pfade 1:1 auf die passendsten neuen URLs ab (keine pauschalen Startseiten-Redirects).</p>
+    <p>2. Generiere die Server-Konfigurationsdatei (Nginx map-Block oder Apache RewriteRule) mit striktem Trailing Slash am Ende jedes Pfades.</p>
+    <p>3. Erstelle ein automatisches Audit-Skript mit cURL, das HTTP-Statuscodes (301) und Location-Header testet und Redirect-Loops sofort meldet.</p>
+    <p>4. Validierung: Prüfe, dass 100 % der Test-URLs HTTP 301 liefern und die finale Zielseite mit HTTP 200 antwortet.</p>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-### Verwandte Glossar-Begriffe
+### Verwandte Glossar-Einträge
 * [SEO-Audit zur Schwachstellenanalyse](/glossar/seo-audit/)
 * [Technisches SEO für moderne Websites](/glossar/technisches-seo/)
 * [301 vs. 302 Weiterleitungen im Detail](/glossar/301-vs-302/)
 * [Core Web Vitals und User Experience](/glossar/core-web-vitals/)
 * [Entity SEO für semantische Autorität](/glossar/entity-seo/)
 * [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)
+* [Google Search Console: Indexierungsberichte](/glossar/google-search-console/)
 

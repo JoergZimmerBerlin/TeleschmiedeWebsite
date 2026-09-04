@@ -21,13 +21,49 @@ faqs:
     answer: 'Google (und zunehmend auch andere AI-Engines) überschreibt deinen Title Tag dynamisch, wenn er die Suchintention verfehlt, mit Keywords vollgestopft ist oder nicht zur H1 der Seite passt. Ein sauber strukturierter Title, der mit der H1-Überschrift und dem Content übereinstimmt, verhindert diese algorithmische Einmischung meist zuverlässig.'
 ---
 
-Moin!
-
 Das Title Tag (in der SEO-Szene oft fälschlicherweise als "Meta Title" bezeichnet) ist ein simples HTML-Element im Kopfbereich (`<head>`) einer Website. Es bestimmt den Text, der in den Registerkarten des Webbrowsers steht, beim Setzen von Lesezeichen vorgeschlagen wird und – das ist der absolute Gamechanger – als die große, blaue, anklickbare Überschrift in den Suchmaschinenergebnissen (SERPs) sowie als Citation in AI Overviews (AIO) erscheint.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Du kannst Millionen in Off-Page-SEO versenken – wenn dein Title Tag aussieht wie Kraut und Rüben, klickt kein Mensch auf dein Snippet und kein KI-Agent zitiert dich. Der Title ist dein allererstes Versprechen an die Welt. Bau ihn so, dass er knallt."</p>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Backlinks kaufen? Viel Spaß beim Russisch Roulette mit deinem Business. Du kannst Millionen in Off-Page-SEO versenken – wenn dein Title Tag aussieht wie Kraut und Rüben, klickt kein Mensch auf dein Snippet und kein KI-Agent zitiert dich. Der Title ist dein allererstes Versprechen an die Welt. Bau ihn so, dass er knallt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-dark text-white tracking-wide uppercase">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600 font-medium">Praxistipp</span>
+  </div>
+  <h4 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    In meinen SEO-Sprechstunden sehe ich regelmäßig dasselbe Versäumnis: Ein Unternehmen rankt mit einer wichtigen Unterseite auf Position 3 oder 4 bei Google, bekommt aber kaum Klicks. Warum? Der Title Tag lautet banal „Leistungen – Über uns – Ihr Experte für...“. Völlig austauschbar, null Klickanreiz. Wenn du auf Seite 1 stehst, aber niemand klickt, verschenkst du bares Geld. Formuliere das konkrete Kundenproblem und den direkten Mehrwert in die ersten 45 Zeichen – und setze deine Marke mit Trennstrich ans Ende.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <p class="text-xs font-bold text-dark uppercase tracking-wider mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</p>
+    <p class="text-xs text-neutral-600 italic mb-0">
+      „Liegen unsere Hauptkeywords in allen Title-Tags in den ersten 50 Zeichen, stimmt der Title exakt mit der H1 überein und prüfen wir regelmäßig in der Search Console Seiten mit hoher Impression-Zahl und niedriger CTR auf Snippet-Optimierung?“
+    </p>
+  </div>
 </div>
 
 Aus einer nüchternen, technischen Sicht ist das Title Tag der wohl mit Abstand stärkste On-Page Hebel, um Google, Bing und autonomen RAG-Agenten mitzuteilen, wofür eine spezifische URL ranken soll. In meiner täglichen, unerbittlichen Praxis als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) und als Consultant für technische KI-Optimierung ist die Optimierung dieser mickrigen 50 bis 60 Zeichen oft der Hebel mit dem höchsten ROI (Return on Investment) überhaupt. Ein kleines Tag, massive Auswirkungen.
@@ -94,23 +130,55 @@ Jede einzelne verdammte URL deiner Website muss ein absolut einzigartiges Title 
 ### 4. Nutze Aktualität (Freshness)
 Wenn es thematisch passt, baue das aktuelle Jahr (z.B. "2026") oder Klammern wie "[Update]" in den Title ein. Das signalisiert KIs und Nutzern, dass die Informationen verifiziert und auf dem neuesten Stand sind. Gerade für RAG-Systeme ist Temporalität ein massiver Trust-Faktor.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Title Tags automatisiert auf CTR, Pixel-Länge und semantische Konsistenz zu prüfen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Title-Tag & Query-Contract Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO Engineer & Frontend Architect.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe alle Seitenvorlagen, Markdown-Dateien oder Routen in diesem Projekt auf die Qualität und semantische Konsistenz der Title-Tags.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Extrahiere für jede Route das Title-Tag, die Hauptüberschrift (H1) und die Meta-Description.</p>
+    <p>2. Prüfe die Zeichen- und Pixellänge des Title-Tags (Desktop ca. 580px / 50-60 Zeichen; Mobil ca. 540px).</p>
+    <p>3. Query-Contract Check: Liegt das Fokus-Keyword im Title ganz vorne und stimmt es mit der H1 überein?</p>
+    <p>4. Einzigartigkeit: Stelle sicher, dass kein Title-Tag im gesamten Projekt doppelt vorkommt.</p>
+    <p>5. Branding: Überprüfe, ob am Ende ein einheitlicher Brand-Suffix mit Trennzeichen angehängt ist.</p>
+  </div>
+</div>
+
 ## Mein Tacheles-Rat für dich
 
 Das Title Tag ist das digitale Aushängeschild deines Unternehmens. Es ist genau dieser Bruchteil einer Millisekunde, in dem ein menschlicher Nutzer oder ein KI-Agent entscheidet: "Klicke ich hier oder gehe ich zum Wettbewerber?". 
 
 Lass dieses Feld in deinem CMS niemals leer oder vom System automatisch mit Müll befüllen. Optimiere deine Darstellung auf das Pixel genau, bevor sie live geht. Ein meisterhaft optimierter Title ist kurz, extrem prägnant, entitäten-fokussiert und absolut markentreu. Wenn du diesen Bereich schleifen lässt, brauchst du dich über mangelnden Traffic und ignorante RAG-Systeme nicht zu wundern.
 
-ALOHA! Jörg 🌻
-
----
-
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Sehen deine Title Tags aus wie Spam aus dem Jahr 2010?</h3>
-  <p class="mb-6 text-gray-muted">Ich optimiere deine Title-Tags für maximale Klickraten, technische KI-Optimierung und ein knallhartes Ranking. Lass uns dein SERP-Erscheinungsbild professionalisieren, bevor es die Konkurrenz tut.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt On-Page-Audit anfragen</a>
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
 
-### Verwandte Begriffe
-* [Wie schreibt man Meta Descriptions für RAG?](/glossar/meta-description/)
+### Verwandte Glossar-Einträge
+* [Wie schreibt man Meta Descriptions?](/glossar/meta-description/)
+* [Klickrate (CTR) im SEO optimieren](/glossar/ctr/)
+* [Snippet-Optimierung für Google](/glossar/snippet-optimierung/)
 * [Die Semantik von H1-H3 Überschriften](/glossar/h1-h2-h3/)
 * [Was ist Generative Engine Optimization?](/glossar/geo/)
+* [Topical Authority im Semantic Web](/glossar/topical-authority/)
+* [Suchvolumen analysieren](/glossar/suchvolumen/)

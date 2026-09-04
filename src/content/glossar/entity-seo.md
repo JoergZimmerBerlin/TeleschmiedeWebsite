@@ -27,6 +27,46 @@ Lass uns direkt zur Sache kommen: **Entity SEO** markiert den definitiven Paradi
 
 In der modernen Praxis des Entity SEO geht es primär um eine zentrale Fragestellung: Wie präzise, widerspruchsfrei und autoritär können Sie Ihre Marke, Ihre Produkte und Ihre Experten als eindeutige [Entitäten](/glossar/entitaet/) im globalen [Knowledge Graph](/glossar/knowledge-graph/) verankern, und wie hoch fällt der mathematische Vertrauens-Score aus, den KI-Algorithmen Ihren Daten zuweisen?
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer im Jahr 2026 noch isolierte Wörter zählt, baut Luftschlösser im Vektorraum. Wir optimieren keine Textwüsten mehr, sondern konstruieren relationale Wissensknoten und injizieren mathematische Trust-Signale. Eine Entität ohne maschinenlesbares E-E-A-T und saubere sameAs-Referenzen auf Wikidata existiert für moderne RAG-Pipelines schlichtweg nicht. Modellieren Sie Ihren Wissensgraphen konsistent, dann zitiert Sie die KI automatisch als verifizierte Autorität.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-dark text-white px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Schema-Graph auf @id und Wikidata sameAs prüfen</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-3">
+    Kopieren Sie den Quellcode Ihrer Startseite in den Schema Markup Validator. Prüfen Sie, ob Ihre <code>Organization</code> über eine feste <code>@id</code> verfügt und mit externen Wissensquellen wie Wikidata oder LinkedIn über <code>sameAs</code> verknüpft ist. Fehlen diese Verknüpfungen, kann kein KI-Modell Ihre Marke zweifelsfrei identifizieren.
+  </p>
+  <div class="bg-white/80 rounded-xl p-3 border border-lime-accent/40 text-xs text-neutral-800 font-medium">
+    <strong>Kontrollfrage an Ihre IT / Webagentur:</strong> „Haben wir unsere Unternehmens- und Autoren-Entitäten in einem zusammenhängenden Schema.org-Graphen über @id, knowsAbout und sameAs mit autoritativen Wikidata-Einträgen verknüpft, um Verwechslungen im Vektorraum auszuschließen?“
+  </div>
+</div>
+
 ## Der Vektorraum und die Mechanik von GraphRAG
 
 Um Entity SEO technisch zu beherrschen, müssen wir verstehen, wie generative Answer Engines wie Google AI Overviews, Perplexity oder ChatGPT Search unter der Haube arbeiten. Sprachmodelle verarbeiten Informationen nicht als Wörter, sondern als hochdimensionale Vektoren (*Embeddings*). Semantisch verwandte Begriffe, Organisationen und Konzepte liegen in diesem mathematischen Raum nah beieinander.
@@ -67,10 +107,10 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://deinedomain.de/#organization",
-      "name": "Musterfirma Digitalberatung GmbH",
-      "url": "https://deinedomain.de/",
-      "logo": "https://deinedomain.de/assets/logo.webp",
+      "@id": "https://teleschmie.de/#organization",
+      "name": "Teleschmiede",
+      "url": "https://teleschmie.de/",
+      "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
         "https://www.wikidata.org/wiki/Q00000000",
         "https://www.linkedin.com/company/musterfirma-digital/"
@@ -90,11 +130,11 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
     },
     {
       "@type": "Person",
-      "@id": "https://deinedomain.de/#expert-jzimmer",
+      "@id": "https://teleschmie.de/#expert-jzimmer",
       "name": "Jörg Zimmer",
       "jobTitle": "Senior SEO & AI Search Consultant",
       "worksFor": {
-        "@id": "https://deinedomain.de/#organization"
+        "@id": "https://teleschmie.de/#organization"
       },
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
@@ -105,22 +145,34 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
 </script>
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Wer im Jahr 2026 noch Wörter zählt, baut Luftschlösser. Wir optimieren keine Textwüsten mehr, wir konstruieren strukturierte Datenknoten und injizieren mathematische Trust-Signale. Eine Entität ohne maschinenlesbares E-E-A-T und saubere sameAs-Referenzen existiert für moderne RAG-Pipelines schlichtweg nicht. Bauen Sie Ihren Wissensgraphen sauber auf, dann zitiert Sie die KI automatisch.“
-  </blockquote>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Topologische Vektordistanz: Cosine Similarity im semantischen Raum
 
 Um zu verstehen, warum Entity SEO funktioniert, lohnt ein Blick in die mathematische Repräsentation moderner Sprachmodelle:
 Embedding-Modelle (wie OpenAIs `text-embedding-3-large` oder Googles Gemini-Vektoren) wandeln Textdokumente und Entitäten in hochdimensionale Vektoren mit tausenden Koordinaten um. Die semantische Verwandtschaft zweier Entitäten wird über die **Cosine Similarity** (Kosinus-Ähnlichkeit) berechnet.
 
 Liegt der Vektor Ihrer Marke (z. B. als Dienstleister für B2B-SEO) mathematisch nahe am Vektor von Themen wie „Enterprise SEO“, „Generative Engine Optimization“ oder „Technischer Relaunch“, ordnet die KI Ihre Domain automatisch als logische Zitationsquelle ein. Fehlen diese semantischen Kanten oder wird Ihr Unternehmen im Web vor allem mit unspezifischem Marketing-Jargon beschrieben, driftet der Vektor ab. Die KI sieht keine thematische Nähe und bevorzugt Mitbewerber, deren semantischer Fußabdruck enger am Suchkonzept liegt.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen vollständigen, verschachtelten Entity-Knowledge-Graph für dein Webprojekt zu generieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Graph &amp; Knowledge Graph Generation</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior Semantic-Web- und Schema.org-Ingenieur.</p>
+    <p><strong>Aufgabe:</strong> Erstelle für unsere Domain teleschmie.de einen vollständigen JSON-LD Knowledge Graph mit verschachtelten Entitäten.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Definiere Organization mit fester @id (URI: https://teleschmie.de/#organization), Name, Logo und Kontaktdaten.</p>
+    <p>2. Integriere ein umfassendes sameAs-Array (Wikidata, LinkedIn, Branchenverzeichnisse) und knowsAbout-Array mit Wikipedia-Entitäten.</p>
+    <p>3. Verknüpfe Person-Entität (@id: https://teleschmie.de/#author) über worksFor und validiere mit dem Schema Markup Validator.</p>
+  </div>
+</div>
 
 ## Der vierstufige Entity-Audit-Workflow
 
@@ -143,19 +195,29 @@ Entity SEO bildet das unverzichtbare Fundament der Generative Engine Optimizatio
 
 Einen detaillierten Überblick über Software zur Messung Ihrer Entitätspräsenz finden Sie in unserem Bericht über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die Investitionskosten für semantische Modellierung und technische Graphen können Sie transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-### Verwandte Glossar-Begriffe
-* [Was ist eine Entität im semantischen Web?](/glossar/entitaet/)
-* [Knowledge Graph für KI-Suchmaschinen](/glossar/knowledge-graph/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Grounding Pages als Single Source of Truth](/glossar/grounding-page/)
-* [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [E-E-A-T Prinzipien für maximale Glaubwürdigkeit](/glossar/experience-eeat/)
+## Verwandte Glossar-Begriffe
+
+- [Was ist eine Entität im semantischen Web?](/glossar/entitaet/)
+- [Entitäten-Building](/glossar/entitaeten-building/)
+- [Knowledge Graph für KI-Suchmaschinen](/glossar/knowledge-graph/)
+- [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
+- [Groundingpage als Single Source of Truth](/glossar/grounding-page/)
+- [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
+- [Topical Authority aufbauen](/glossar/topical-authority/)
+- [E-E-A-T Prinzipien](/glossar/e-e-a-t/)
+
 

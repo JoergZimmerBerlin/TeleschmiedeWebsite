@@ -27,6 +27,46 @@ Die **E-Commerce KI-Sichtbarkeit** bezeichnet die gezielte Optimierung von Onlin
 
 Wenn ein Kunde eine komplexe Anfrage formuliert – beispielsweise *„Finde einen ergonomischen Bürostuhl für Personen über 1,90 Meter mit verstellbarer Lordosenstütze unter 500 Euro“* –, blendet das System keine Liste aus zehn Kategorieseiten ein. Die KI filtert das Web in Echtzeit, gleicht Spezifikationen ab und präsentiert eine präzise Shortlist von drei konkreten Modellen inklusive Begründung, Preis und Shop-Link. Wer in dieser Vorauswahl nicht existiert, scheidet aus dem Kaufprozess vollständig aus.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Gutes SEO erhöht den Return on Investment über alle Kanäle. Ein Online-Shop wird heute nicht mehr über bunte Teaserbilder von ChatGPT empfohlen, sondern über knallharte Attribut-Tiefe im Schema-Markup und synchrone Feeds. Wer Kategorieseiten pflegt, aber Produktdaten stiefmütterlich behandelt, verliert den Funnel-Skip an die Konkurrenz.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-dark text-white px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Synchronität von Merchant Center Feed und Schema-Markup prüfen</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-3">
+    Diskrepanzen zwischen den im Google Merchant Center gemeldeten Preisen oder Lagerbeständen und dem tatsächlichen JSON-LD auf der Produktdetailseite führen zum sofortigen Ausschluss aus Google AI Overviews und Gemini-Kaufempfehlungen. Stellen Sie sicher, dass Bestände und Preise in Echtzeit synchronisiert sind.
+  </p>
+  <div class="bg-white/80 rounded-xl p-3 border border-lime-accent/40 text-xs text-neutral-800 font-medium">
+    <strong>Kontrollfrage an Ihre IT / Webagentur:</strong> „Werden unsere Produktdaten (Preise, Verfügbarkeit InStock, GTIN, Rückgaberichtlinien) serverseitig als valides Schema.org JSON-LD gerendert und stimmt dieser Datensatz zu 100 % mit unserem Google Shopping Feed überein?“
+  </div>
+</div>
+
 ## Das Ende der Kategorieseiten-Dominanz
 
 Über mehr als zwei Jahrzehnte galt im [Technischen SEO für Online-Shops](/glossar/technisches-seo/) eine unumstößliche Grundregel: *Kategorieseiten fangen den massenhaften generischen Suchtraffic ab, Produktdetailseiten (PDPs) konvertieren den Besucher.* 
@@ -77,8 +117,8 @@ Das folgende JSON-LD-Beispiel veranschaulicht ein lückenlos optimiertes Produkt
   "@type": "Product",
   "name": "Ergonomischer Bürostuhl ErgoPro X",
   "image": [
-    "https://deinedomain.de/assets/buerostuhl-front.webp",
-    "https://deinedomain.de/assets/buerostuhl-side.webp"
+    "https://teleschmie.de/assets/buerostuhl-front.webp",
+    "https://teleschmie.de/assets/buerostuhl-side.webp"
   ],
   "description": "Ergonomischer Bürostuhl mit 4D-Armlehnen, synchroner Mechanik und anpassbarer Lordosenstütze. Entwickelt für langes Sitzen bis 130 kg Körpergewicht.",
   "sku": "CHAIR-EPX-2026",
@@ -105,7 +145,7 @@ Das folgende JSON-LD-Beispiel veranschaulicht ein lückenlos optimiertes Produkt
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://deinedomain.de/produkte/ergopro-x/",
+    "url": "https://teleschmie.de/produkte/ergopro-x/",
     "priceCurrency": "EUR",
     "price": "449.00",
     "priceValidUntil": "2026-12-31",
@@ -124,14 +164,26 @@ Das folgende JSON-LD-Beispiel veranschaulicht ein lückenlos optimiertes Produkt
 </script>
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Gutes SEO erhöht den Return of Investment von allen Kanälen. Eine saubere Seite wird nicht nur besser gefunden. Wenn man nützliche Informationen bereit stellt, die Ladezeiten optimiert und die Nutzerwege besonders auf Smartphone immer wieder verbessert dann geht die Conversionrate hoch.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein Shop-Template automatisiert mit vollständigen Product-Schema-Attributen für ChatGPT Shopping und Google AI Overviews auszustatten:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Product Schema &amp; Shopping Graph Alignment</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener E-Commerce SEO Architect und Schema.org Spezialist.</p>
+    <p><strong>Aufgabe:</strong> Erweitere das Produktdetailseiten-Template um ein lückenloses JSON-LD Schema mit Product, Offer, AggregateRating und MerchantReturnPolicy.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Binde GTIN13, SKU, Markenname und hochauflösende Bild-URLs server-side gerendert in das HTML ein.</p>
+    <p>2. Deklariere Offer mit InStock/OutOfStock-Dynamik, EUR-Preis und ISO-Rückgaberichtlinien.</p>
+    <p>3. Validiere die Ausgabe mit dem Google Rich Results Test auf Vollständigkeit der Händler-Eintrag-Attribute.</p>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler im E-Commerce KI-Marketing
@@ -145,4 +197,29 @@ Das folgende JSON-LD-Beispiel veranschaulicht ein lückenlos optimiertes Produkt
 Die Zukunft des E-Commerce verlagert sich zunehmend auf autonome Protokolle. Standards wie das [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/) und das [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/) ermöglichen es KI-Agenten, nicht nur Produkte zu finden, sondern den gesamten Checkout automatisiert abzuschließen.
 
 Wer heute seine [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/) systematisch aufbaut und dafür sorgt, dass seine Angebote verlässlich [in KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/), sichert sich die Marktanteile der kommenden Dekade. Welche Monitoring-Lösungen Sie beim Tracking von E-Commerce-Zitationen unterstützen, zeigt unser Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Anfallende Investitionskosten für Shop-Restrukturierungen und Feed-Automation lassen sich transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+## Verwandte Glossar-Begriffe
+
+- [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/)
+- [In KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/)
+- [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/)
+- [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/)
+- [Technisches Schema Markup](/glossar/technisches-schema-markup/)
+- [Conversion Rate](/glossar/conversion-rate/)
+- [Technisches SEO](/glossar/technisches-seo/)
+
 

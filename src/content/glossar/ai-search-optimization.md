@@ -29,6 +29,32 @@ Die **AI Search Optimization** (in der Fachwelt auch als Generative Engine Optim
 
 Im Jahr 2026 hat sich die Art und Weise, wie Menschen im Internet nach Lösungen suchen, fundamental gewandelt. Studien belegen, dass Google AI Overviews mittlerweile bei über 50 Prozent aller kommerziellen und informationellen Suchanfragen ausgespielt werden. Gleichzeitig nutzen Millionen Wissensarbeiter und Entscheidungsträger dialogbasierte Answer Engines für ihre tägliche Recherche. Wer in diesem Umfeld rein auf traditionelle Rankings und Zehn-Link-SERPs setzt, verliert den Anschluss an die wichtigste Traffic- und Reputationsquelle der modernen Wirtschaft.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Klassisches SEO sorgt dafür, dass die Suchmaschine deine URL in eine Trefferliste einordnet. AI Search Optimization sorgt dafür, dass das Sprachmodell versteht, warum dein Unternehmen die fachlich überlegene Empfehlung ist. Wer heute noch auf Klicks hofft, statt seine Inhalte als zitierfähige Faktenbasis für RAG-Pipelines aufzubereiten, wird in den KI-Antworten der Zukunft unsichtbar bleiben.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Vom Link-Ranking zur KI-Synthese
 
 Im klassischen SEO ging es primär darum, Algorithmen durch Keyword-Dichte, Snippet-Optimierung und Backlinks zu signalisieren, dass eine Seite auf Platz 1 gehört. Der Nutzer klickte auf den Link und konsumierte den Inhalt auf der Zielseite.
@@ -57,7 +83,7 @@ Um in generativen KI-Modellen verlässlich als Quelle herangezogen zu werden, m�
 KI-Crawler wie GPTBot, PerplexityBot oder ClaudeBot haben begrenzte Rechenbudgets. Wer Bots zwingt, clientseitiges JavaScript aufwendig zu rendern, riskiert den Abbruch der Indexierung:
 * **Server-Side Rendering:** Stellen Sie sicher, dass alle relevanten Inhalte im statischen HTML verfügbar sind.
 * **Markdown Content Negotiation:** Bieten Sie KI-Bots über den HTTP-Header `Accept: text/markdown` direkte Markdown-Versionen an. Das spart Tokens und beschleunigt die Aufnahme in Vektordatenbanken.
-* **Lückenloses Schema-Markup:** Strukturieren Sie Entitäten, Produkte, Organisationen und FAQs nach dem Standard von Schema.org im JSON-LD Format.
+* **Lückenloses Schema-Markup:** Strukturieren Sie Entitäten, Produkte, Organisationen und FAQs nach dem Standard von [Strukturierte Daten](/glossar/strukturierte-daten/) im JSON-LD Format.
 
 ### 2. Answer-First-Content und Information Gain
 Generative Modelle hassen Füllwörter und ausschweifende Einleitungen:
@@ -68,9 +94,24 @@ Generative Modelle hassen Füllwörter und ausschweifende Einleitungen:
 ### 3. Entitäten-Autorität und digitales Vertrauen ([E-E-A-T](/glossar/e-e-a-t/))
 Sprachmodelle besitzen interne Vertrauensmetriken. Sie ziehen Quellen vor, deren Autoren und Herausgeber im Knowledge Graph als Experten etabliert sind. Verknüpfen Sie Autorenprofile mit anerkannten Branchenprofilen und fördern Sie Erwähnungen in unabhängigen Fachmedien und Diskussionsforen.
 
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg md:text-xl font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Baue sogenannte „Citation Capsules“ in deine Fachartikel ein: Kurze Textpassagen von 40 bis 60 Wörtern, die eine glasklare Kernaussage, eine konkrete Zahl oder Statistik und die Nennung deiner Marke enthalten. Sprachmodelle wie ChatGPT und Perplexity bevorzugen exakt diese kompakten Sinneinheiten, um sie wortgetreu als Zitat in ihre Antwortbausteine zu übernehmen.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3 mt-3">
+    <p class="text-xs font-semibold text-neutral-600 mb-0">
+      Kontrollfrage an deine Webagentur: „Liefern unsere Fachartikel mindestens 3 bis 5 zitierfähige Faktenkapseln mit hohem Information Gain, die ein LLM nicht bereits in seinen Trainingsdaten vorfindet?“
+    </p>
+  </div>
+</div>
+
 ## Universelles JSON-LD Snippet: AI-Search-optimiertes Artikel-Markup
 
-Das folgende neutrale Schema demonstriert, wie Fachinhalte für RAG-Systeme maschinenlesbar deklariert werden:
+Das folgende Schema demonstriert, wie Fachinhalte für RAG-Systeme maschinenlesbar deklariert werden:
 
 ```html
 <script type="application/ld+json">
@@ -78,18 +119,18 @@ Das folgende neutrale Schema demonstriert, wie Fachinhalte für RAG-Systeme masc
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Leitfaden zur AI Search Optimization",
-  "url": "https://deinedomain.de/glossar/ai-search-optimization/",
+  "url": "https://teleschmie.de/glossar/ai-search-optimization/",
   "datePublished": "2026-08-11T09:00:00+02:00",
   "author": {
     "@type": "Person",
     "name": "Jörg Zimmer",
-    "jobTitle": "SEO & GEO Berater",
-    "url": "https://deinedomain.de/ueber-uns/"
+    "jobTitle": "Senior SEO & AI Search Consultant",
+    "url": "https://teleschmie.de/ueber-mich/"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Fachportal für AI Search",
-    "url": "https://deinedomain.de/"
+    "name": "Teleschmiede",
+    "url": "https://teleschmie.de/"
   },
   "about": [
     {
@@ -99,21 +140,35 @@ Das folgende neutrale Schema demonstriert, wie Fachinhalte für RAG-Systeme masc
     },
     {
       "@type": "Thing",
-      "name": "Retrieval-Augmented Generation"
+      "name": "Retrieval-Augmented Generation",
+      "sameAs": "https://de.wikipedia.org/wiki/Retrieval_Augmented_Generation"
     }
   ]
 }
 </script>
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Klassisches SEO sorgt dafür, dass die Suchmaschine deine URL in eine Liste einordnet. AI Search Optimization sorgt dafür, dass das Sprachmodell versteht, warum dein Unternehmen die fachlich überlegene Empfehlung ist. Wer heute noch auf Klicks hofft, statt seine Inhalte als zitierfähige Faktenbasis für RAG-Pipelines aufzubereiten, wird in den KI-Antworten der Zukunft unsichtbar bleiben.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um bestehende Artikel strukturell auf Information Gain und GEO-Extraktionsfähigkeit zu trimmen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Generative Engine Optimization (GEO) Content Refactoring</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener AI Search Optimization Engineer und GEO-Spezialist.</p>
+    <p><strong>Aufgabe:</strong> Überarbeite den übergebenen HTML/Markdown-Content so, dass er von RAG-Retrievern (Perplexity, ChatGPT Search, Gemini) als autoritative Primärquelle indexiert und zitiert wird.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Formuliere für jede H2-Sektion ein BLUF-Statement (Bottom Line Up Front) mit maximal 50 Wörtern.</p>
+    <p>2. Identifiziere vergleichende Argumente und überführe sie in präzise Markdown- oder HTML-Tabellen.</p>
+    <p>3. Integriere mindestens zwei 40-60 Wörter lange Citation Capsules mit harten Zahlen und Markennennung.</p>
+    <p>4. Validiere das Schema.org-Markup auf Entitätenverknüpfungen (about/mentions mit Wikipedia/Wikidata URLs) und prüfe, dass keine clientseitigen Render-Hürden bestehen.</p>
+  </div>
 </div>
 
 ## Monitoring: Messung von Mention Rate und KI-Sichtbarkeit
@@ -134,10 +189,17 @@ AI Search Optimization ist kein kurzlebiger Trend, sondern das Fundament digital
 
 Einen detaillierten Marktüberblick über führende Tracking- und Analyse-Tools finden Sie in unserem Bericht über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Um das erforderliche Budget für Ihre GEO-Transformation exakt zu kalkulieren, nutzen Sie unseren interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/).
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
@@ -147,3 +209,4 @@ Einen detaillierten Marktüberblick über führende Tracking- und Analyse-Tools 
 * [RAG: Retrieval-Augmented Generation](/glossar/rag/)
 * [LLM Rank Tracker im Vergleich](/glossar/llm-rank-tracker/)
 * [E-E-A-T: Vertrauen für Sprachmodelle](/glossar/e-e-a-t/)
+* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)

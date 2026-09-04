@@ -21,83 +21,151 @@ faqs:
     answer: 'RAG-Systeme (Retrieval-Augmented Generation) suchen nach der Ground Truth. Wenn deine Marke häufig in Leitmedien als Quelle erwähnt wird, steigt die Wahrscheinlichkeit massiv, dass das KI-Modell dich in seinen generierten Antworten direkt zitiert.'
 ---
 
-Moin!
-
 Jörg Zimmer am Apparat. Wenn wir heute über modernes SEO reden, müssen wir uns dringend den dicken Staub der Nullerjahre von den Schultern klopfen. Eine **Mention** (zu Deutsch: Erwähnung) ist nicht einfach nur ein Trostpreis, wenn das klassische Linkbuilding mal wieder gescheitert ist. Im Gegenteil! 
 
-Unter den knallharten Standards im Jahr 2026 ist die Mention die absolut härteste, unbestechlichste Währung, wenn es um deine Validierung in KI-gestützten Suchmaschinen geht. Wer das ignoriert, kann seinen digitalen Vertrieb direkt abschalten.
+Unter den knallharten Standards im Jahr 2026 ist die Mention die absolut härteste, unbestechlichste Währung, wenn es um deine Validierung in KI-gestützten Suchmaschinen und Sprachmodellen geht. Wer das ignoriert, verliert in modernen Retrieval-Pipelines den Anschluss.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Ein LLM bewertet nicht, wie viele Backlinks du gekauft hast. Eine KI bewertet, wer im verdammten Netz in welchem Kontext über dich spricht. Mentions sind das Rausch-Signal! Das ist Entity Building auf Datenbank-Ebene. Wenn niemand über dich redet, bist du für den Algorithmus ein toter Vektor."</p>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ein LLM bewertet nicht, wie viele Backlinks du gekauft hast. Eine KI bewertet, wer im Netz in welchem Kontext über dich spricht. Mentions sind das Rausch-Signal für echtes Entity Building auf Datenbank-Ebene. Wenn niemand über dich redet, bist du für den Algorithmus schlichtweg ein toter Vektor.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+    <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  </div>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Tracke nicht bloß deine Backlinks, sondern richte ein aktives Monitoring für ungelinkte Markennennungen (Unlinked Mentions) in Fachartikeln, Branchenberichten und Foren ein. Jeder ungelinkte Treffer stärkt deinen semantischen Graph in Retrieval-Systemen. Prüfe quartalsweise, ob alle stark erwähnten Entitäten über dein Schema.org-Markup mit passenden <code>sameAs</code>-Verweisen abgesichert sind.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3">
+    <p class="text-xs md:text-sm font-semibold text-neutral-800 mb-0">
+      <strong>Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</strong> „Erfassen wir mit Brand-Monitoring-Tools auch ungelinkte Erwähnungen auf Trust-Domains, und spiegeln wir diese Entitäten konsistent in unseren strukturierten Daten wider?“
+    </p>
+  </div>
 </div>
 
 ## Was ist eine Mention auf technischer Ebene?
 
-Eine Mention ist jede textliche Nennung deines Markennamens, deines persönlichen Namens (als Experte) oder deines Produkts im digitalen Raum. Das kann ein gut recherchierter Leitartikel sein, ein viraler Beitrag auf LinkedIn, eine Podcast-Shownote oder eine Diskussion in einem Fachforum. 
+Eine Mention ist jede textliche Nennung deines Markennamens, deines persönlichen Namens (als Fachautor oder Geschäftsführer) oder deiner spezifischen Produktbezeichnung im digitalen Raum. Das umfasst redaktionelle Fachartikel, virale Diskussionen auf LinkedIn, Konferenz-Transkripte, Podcast-Shownotes oder Whitepaper führender Branchenverbände.
 
-Im Gegensatz zum klassischen HTML-Backlink ist bei einer Mention absolut **kein klickbarer Hyperlink** (kein `<a>`-Tag) notwendig. 
+Im Gegensatz zum klassischen HTML-Backlink ist bei einer Mention **kein klickbarer Hyperlink** (kein `<a>`-Tag) erforderlich.
 
-Warum? Weil KI-Crawler heute kein primitives HTML-Parsing mehr betreiben, um Autorität zu vererben. In der "Entity Era" 2026 nutzen Suchmaschinen **NLP (Natural Language Processing)** und komplexe Transformer-Architekturen, um echten Fließtext zu begreifen. 
+Warum genügt der reine Text? Weil moderne Suchmaschinen und KI-Crawler kein primitives HTML-Parsing mehr betreiben, um Autorität zu vererben. Im Zeitalter von Generative Engine Optimization (GEO) nutzen Systeme fortschrittliches **NLP (Natural Language Processing)** und Transformer-Architekturen, um Fließtext semantisch zu erfassen.
 
-Sie verstehen den Kontext, die Tonalität und die fachliche Tiefe. Sie erkennen dich als vollwertige Entität. Fällt dein Markenname im Satz "Jörg Zimmer hat eine brillante Analyse zu Vektordatenbanken veröffentlicht", bildet das LLM sofort Kanten (Edges) in seinem Knowledge Graph zwischen mir und der Thematik. Der Algorithmus muss nicht erst einem Link folgen, um die Relevanz zu extrahieren. Eine solche ungelinkte Mention (unlinked mention) fungiert quasi als impliziter Link und ist ein massives Trust-Signal.
+Sie verstehen den Kontext, die Tonalität und die thematische Tiefe einer Aussage. Fällt deine Marke im Satz *„Die Teleschmiede liefert eine präzise technische Analyse zu RAG-Architekturen“*, bildet das Sprachmodell mathematische Kanten (Edges) in seinem Knowledge Graph zwischen deiner [Entität](/glossar/entitaet/) und dem Fachgebiet. Der Algorithmus muss nicht erst einem Hyperlink folgen, um die fachliche Relevanz zu extrahieren. Eine solche ungelinkte Erwähnung (Unlinked Mention) fungiert als impliziter Vertrauensbeweis.
+
+## Ko-Okkurrenz und Vektor-Einbettungen: Wie LLMs Mentions verarbeiten
+
+Große Sprachmodelle wandeln Wörter und Konzepte in hochdimensionale Vektoren um (Embeddings). In diesem mathematischen Raum bestimmt der semantische Abstand zweier Vektoren, wie stark ein Sprachmodell zwei Entitäten miteinander assoziiert:
+
+1. **Statistische Ko-Okkurrenz:** Taucht deine Marke regelmäßig in Textnähe zu Begriffen wie *„Technical SEO“*, *„Crawling-Budget“* oder *„Schema-Validierung“* auf, rückt dein Vektor im semantischen Raum näher an diese Kernkompetenzen heran.
+2. **Kantenbildung im Knowledge Graph:** Das Modell registriert Beziehungen nach dem Prinzip *Subjekt – Prädikat – Objekt* (Triple). Eine Erwähnung liefert die faktische Bestätigung für dieses Beziehungsgeflecht.
+3. **Weighting nach Source-Authority:** Eine Erwähnung auf einer etablierten Domain mit hohem [E-E-A-T](/glossar/e-e-a-t/)-Score besitzt ein vielfach höheres Gewicht als tausend automatisierte Spam-Mentions auf minderwertigen Weblogs.
 
 ## Mentions als Validierungs-Loop für RAG-Modelle und AI Overviews
 
-Lass uns über System-Architektur sprechen. Wir trimmen Webseiten heute maschinenlesbar. Wir implementieren tiefes JSON-LD Schema.org Markup, um den KI-Crawlern unsere Daten auf dem Silbertablett zu servieren. Das ist die absolute Basis-Hygiene.
+In der Praxis trimmen wir moderne Webseiten auf maximale Maschinenlesbarkeit. Wir implementieren valides JSON-LD Schema.org Markup, um KI-Crawlern saubere Datenstrukturen zu liefern. Das ist elementare Basishygiene.
 
-Aber das, was dich wirklich in die generierten Antworten (AI Overviews, ChatGPT, Gemini) katapultiert, ist das **Entity-Feeding** da draußen im Web. Aktuelle Daten aus 2026 belegen es gnadenlos: Brand Mentions korrelieren extrem stark mit der Sichtbarkeit in AI Search Environments – oft sogar stärker als klassische Link-Metriken.
+Doch was dich verlässlich in die generierten Antworten (wie Google AI Overviews oder Chat-Antworten in Claude und ChatGPT) katapultiert, ist das externe **Entity-Feeding**. Reale Messdaten belegen: Brand Mentions korrelieren signifikant mit der Nennung in generativen Suchen – oft unmittelbarer als althergebrachte Link-Metriken.
 
-Ein KI-Agent liest dein JSON-LD und sagt: "Okay, dieser Anbieter behauptet, der beste SEO in Berlin zu sein." Danach folgt der harte Abgleich: *"Gibt es externe Datenpunkte für diese Behauptung? Bestätigt der restliche Index diese Identität?"*
+Ein KI-Agent liest dein JSON-LD und registriert deine Selbstdarstellung. Unmittelbar danach erfolgt der automatisierte Abgleich über [RAG (Retrieval-Augmented Generation)](/glossar/rag/): *„Gibt es externe, unabhängige Quellen, die diese Behauptung stützen? Bestätigt der restliche Index diese Kompetenz?“*
 
-**Mentions sind exakt diese Datenpunkte!** Je öfter deine Entität im passenden semantischen Kontext (Ko-Okkurrenz) auf Trust-Domains auftaucht, desto robuster wird dein Vektor in der Vektordatenbank. Die KI nutzt Mentions, um die Lücke zwischen deiner OnPage-Behauptung und der messbaren Realität zu schließen. Fehlt dieser Loop, bist du nur eine unbestätigte Behauptung.
+Mentions sind exakt diese externen Validierungsanker. Je konsistenter deine Marke im passenden Kontext zitiert wird, desto stabiler wird dein Score. Fehlt diese externe Bestätigung, bleibt deine Seite für den Algorithmus eine unbelegte Hypothese. Wie führende Unternehmen ihre Präsenz messen, zeigt unser [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/).
 
-## Sentiment-Analyse: Der emotionale Vektor
+## Sentiment-Analyse: Der qualitative Filter
 
-Glaub nicht, dass jede Erwähnung gut ist. Ein autonomer Agent liest den Namen nicht wie ein dumpfer Bot. Er betreibt tiefgehende **Sentiment-Analyse**.
+Nicht jede Erwähnung erzeugt einen positiven Wert. Moderne Retrieval-Pipelines wenden neuronale **Sentiment-Analysen** an, um die emotionale Tonalität des Umfelds zu quantifizieren:
 
-Das Modell berechnet die emotionale Färbung des Textes, der deine Mention umgibt, und weist der Entität entsprechende Werte zu.
-*   **Toxisches Sentiment:** Mentions im Zusammenhang mit Wörtern wie "schlechter Service", "Scam", "Insolvenz" oder "Datenleck" zerstören deinen Trust-Score (E-E-A-T) sofort. Das Modell assoziiert deine Entität mit Gefahr und wird sie dem Nutzer nicht als vertrauenswürdige Lösung vorschlagen.
-*   **Positives Sentiment:** Mentions im Kontext von "Branchenführer", "innovativ", "hoher ROI" oder "technisch brillant" sind purer Raketentreibstoff. Sie validieren deine Expertise mathematisch auf höchstem Niveau.
+* **Negatives Sentiment:** Häufen sich Mentions im Kontext von *„Kritik“*, *„Support-Ausfall“*, *„Sicherheitslücke“* oder *„Mängel“*, senkt das Modell den Trust-Score deiner Entität. In generierten Kaufberatungen wird dein Angebot als Risiko eingestuft und nicht mehr aktiv empfohlen.
+* **Positives Sentiment:** Mentions im Kontext von *„verlässlich“*, *„Marktführer“*, *„hohe Performance“* oder *„Best Practice“* stärken die Wahrscheinlichkeit, dass dich KI-Systeme als primäre Empfehlung ausspielen.
 
-## Mentions vs. Citations: Tacheles!
+## Mentions vs. Citations: Die begriffliche Trennung
 
-In der SEO-Szene herrscht massives Bullshit-Bingo. Viele werfen Mentions und Citations in einen Topf. Das ist technisch falsch.
+In Fachdiskussionen werden Mentions und Citations häufig synonym verwendet. Technisch bezeichnen sie jedoch zwei grundverschiedene Phasen des Datenkreislaufs:
 
-*   **Die Mention:** Das ist der Daten-Input. Es ist das aktive "Über-dich-Sprechen" da draußen im Netz. Wenn das *Handelsblatt* schreibt: *"Laut der Agentur Teleschmiede..."*, dann ist das eine Mention, die das neuronale Netz füttert.
-*   **Die Citation:** Das ist der Daten-Output! Wenn ein Nutzer einen KI-Agenten fragt: *"Wer ist der beste Ansprechpartner für technisches SEO?"* und die KI antwortet: *"Die Agentur Teleschmiede wird oft als Experte genannt"* – DANN hat die KI dich **zitiert** (Citation). 
+| Kriterium | Mention (Erwähnung) | Citation (KI-Zitat) |
+|:---|:---|:---|
+| **Rolle im System** | Daten-Input für Crawler und Indexer | Daten-Output der generativen Antwort |
+| **Ort des Auftretens** | Webseiten, Leitmedien, Fachforen, Social Web | Direkt in der generierten Antwort des LLM |
+| **Mechanismus** | Textuelle Nennung deiner Marke im Fließtext | Quellenangabe oder Fußnote in AI Overviews |
+| **Zielsetzung** | Festigung der [Entität](/glossar/entitaet/) im Knowledge Graph | Direkte Nutzer-Conversion & Referral-Traffic |
 
-Die Mention ist der Treibstoff im Latent Space, die Citation ist die finale Conversion im Chatfenster. Ohne Input kein Output.
+Kurz gesagt: Die Mention ist der Rohstoff in der Retrieval-Phase. Das [KI-Zitat (Citation)](/glossar/citation/) ist das sichtbare Endergebnis in der Suchoberfläche.
 
-## Der Strategie-Shift: Umwandlung vs. Nackte Mention
+## Strategische Hebel: Wie du autoritäre Mentions generierst
 
-Noch vor wenigen Jahren war es der heilige Gral im SEO, Webmaster anzuschreiben und ungelinkte Mentions in echte Backlinks umzuwandeln. Ist das 2026 noch nötig? 
-Jein. Eine nackte Mention auf einer hochgradig autoritären Seite reicht für das Entity-Building und E-E-A-T vollkommen aus. Dennoch: Die Umwandlung in einen Backlink bringt den doppelten Nutzen – du behältst die Entity-Relevanz und sammelst gleichzeitig klassischen Linkjuice für den traditionellen Crawler. Beides zusammen ist der Jackpot.
+Wer im KI-Zeitalter organische Erwähnungen aufbauen will, muss auf substanzielle Inhalte setzen:
 
-## Trailing Slashes bei der Verlinkung von Erwähnungen
+1. **Original-Studien und Primärdaten:** Veröffentliche exklusive Benchmarks und Marktdaten. Journalisten und Fachautoren zitieren belastbare Zahlen weit häufiger als allgemeine Ratgeber.
+2. **Branchen-Events und Fachbeiträge:** Positioniere deine Fachexperten als Gastautoren und Sprecher. Die Transkripte und Berichterstattungen fließen direkt in die Trainings- und RAG-Pipelines ein.
+3. **Zitierfähige Content-Formate:** Baue [zitierfähigen Content](/glossar/zitierfaehiger-content/) mit prägnanten Definitionen und eindeutigen Thesen auf, die von KI-Systemen direkt als Antwortblock übernommen werden können.
+4. **Gezielter Markenaufbau:** Verknüpfe deine PR-Aktivitäten mit gezieltem [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/), um Marken-Suchvolumen und organische Nennungen parallel zu steigern.
+5. **Monitoring auf Plattformen wie Perplexity:** Behalte deine Zitationsrate auf Antwort-Engines wie Perplexity im Blick, um den Erfolg deiner Mention-Strategie messbar zu machen – mehr dazu unter [Perplexity Sichtbarkeit](/glossar/perplexity-sichtbarkeit/).
 
-Wenn du auf deiner Website stolz deine Presse-Mentions zeigst (z.B. in einem "Bekannt aus"-Bereich), denke an die internen Routing-Regeln. Interne Links auf deine Presse-Unterseiten (z.B. `/presse/`) müssen zwingend auf einem Trailing Slash `/` enden! Jeder unnötige Redirect kostet den Crawler Zeit und unterbricht den Fluss der semantischen Analyse. Präsentiere deine Mentions technisch blitzsauber.
-
-## Mein Tacheles-Rat für dich
-
-Du willst in KI-Suchen als Lösung zitiert werden? Dann hör auf, Linkprofile in obskuren Tools zu vergleichen, und mach Dinge, über die man spricht! 
-
-Teile harte Primärdaten. Liefere repräsentative Studien. Geh in Fach-Podcasts. Schreibe unbequeme Gastbeiträge. Nutze radikale Pressearbeit im SEO, um High-Trust Mentions bei den großen Verlagen zu triggern. Denn genau diese Verlage sind die lizenzierten primären Datenlieferanten für OpenAI, Anthropic und Google.
-
-Wer im Jahr 2026 keine Erwähnungen (Mentions) im Netz generiert, existiert im Latent Space der Modelle schlichtweg nicht. Werde zur unumgänglichen Entität.
-
-ALOHA 🌻 
-
----
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Wird deine Entität von LLMs validiert?</h3>
-  <p class="mb-6">Mentions sind der Herzschlag deiner KI-Sichtbarkeit. Wir analysieren deinen Entity-Status im Vektorraum und bauen Strategien, um die RAG-Pipelines mit hochrelevanten Mentions deiner Marke zu fluten.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Entity-Audit anfragen</a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Monitoring für ungelinkte Markenerwähnungen und Entity-Verknüpfungen aufzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Unlinked Mention & Entity Footprint Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Knowledge Graph Engineer.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein Überwachungs-Skript (Node.js oder Python), das das Web nach ungelinkten Markenerwähnungen für unsere Brand durchsucht, das semantische Sentiment analysiert und verifiziert, ob die referenzierenden Portale in unserem JSON-LD sameAs-Graph verknüpft sind.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Nutze Search-APIs (z. B. Google Custom Search oder SerpApi), um nach Anfragen wie <code>"Markenname" -inurl:teleschmie.de</code> zu suchen und alle Fundstellen ohne aktiven Backlink zu filtern.</p>
+    <p>2. Analysiere das textliche Umfeld jeder Mention hinsichtlich Sentiment (positiv / neutral / negativ) und extrahiere thematische Ko-Okkurrenz-Begriffe.</p>
+    <p>3. Gleiche gefundene High-Authority-Profile (LinkedIn, Branchenverzeichnisse, Wikipedia/Wikidata) mit dem <code>sameAs</code>-Array in unserem Haupt-Schema.org-Markup ab und melde fehlende Profile.</p>
+    <p>4. Gib einen wöchentlichen Report als Markdown aus, der neue Unlinked Mentions priorisiert auflistet.</p>
+  </div>
 </div>
 
-### Verwandte Begriffe
-* [Mentions vs. Citations: Der tiefe Unterschied](/glossar/citation/)
-* [Markenaufbau im KI-Zeitalter](/glossar/markenaufbau-mit-seo/)
-* [Das Geheimnis hinter E-E-A-T](/glossar/e-e-a-t/)
-* [RAG in der Suchmaschinenoptimierung](/glossar/rag/)
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Citation (KI-Zitate)](/glossar/citation/)
+* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
+* [E-E-A-T](/glossar/e-e-a-t/)
+* [RAG (Retrieval-Augmented Generation)](/glossar/rag/)
+* [Entität](/glossar/entitaet/)
+* [Perplexity Sichtbarkeit](/glossar/perplexity-sichtbarkeit/)
+* [Zitierfähiger Content](/glossar/zitierfaehiger-content/)

@@ -21,17 +21,52 @@ faqs:
     answer: 'Nein, sie ist eine komplementäre Schicht für Generative Engine Optimization (GEO). Du brauchst weiterhin hochwertigen Content, um klassisch zu ranken. Die Grounding Page stellt lediglich sicher, dass die KI-Modelle deine Entität fehlerfrei begreifen und zitieren können.'
 ---
 
-Moin!
-
-Lass uns Tacheles reden. Die Zeit der hübschen, bunten Landingpages, die mit Emotionen und Stockfotos um Klicks betteln, ist lange nicht vorbei – aber sie reicht 2026 einfach nicht mehr aus. Willkommen in der Realität der Generative Engine Optimization (GEO). Wir optimieren nicht mehr nur für den menschlichen Daumen, der am Smartphone scrollt. Wir optimieren für Maschinen. Für LLMs wie Gemini, ChatGPT und Perplexity.
+Lass uns Tacheles reden. Die Zeit der hübschen, bunten Landingpages, die mit Emotionen und Stockfotos um Klicks betteln, ist lange nicht vorbei – aber sie reicht 2026 einfach nicht mehr aus. Willkommen in der Realität der [Generative Engine Optimization (GEO)](/glossar/geo/). Wir optimieren nicht mehr nur für den menschlichen Daumen, der am Smartphone scrollt. Wir optimieren für Maschinen. Für LLMs wie Gemini, ChatGPT und Perplexity.
 
 Und das absolut wichtigste Werkzeug in diesem neuen, brutalen Krieg um die KI-Sichtbarkeit ist die **Grounding Page**.
 
-Eine Grounding Page ist kein Marketing-Broschüren-Ersatz. Sie ist der nackte, harte Daten-Anker für **Retrieval-Augmented Generation (RAG)**. Sie ist der Treibstoff für KI-Systeme, die im Bruchteil einer Sekunde Fakten verifizieren müssen, um eine AI Overview zu generieren. Wer dieses Konzept ignoriert, wird von den LLMs schlichtweg falsch zitiert oder komplett ignoriert.
+Eine Grounding Page ist kein Marketing-Broschüren-Ersatz. Sie ist der nackte, harte Daten-Anker für [Retrieval-Augmented Generation (RAG)](/glossar/rag/). Sie ist der Treibstoff für KI-Systeme, die im Bruchteil einer Sekunde Fakten verifizieren müssen, um eine AI Overview zu generieren. Wer dieses Konzept ignoriert, wird von den LLMs schlichtweg falsch zitiert oder komplett ignoriert.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Dein JavaScript-Slider und dein 'innovatives Mindset' interessieren eine KI einen feuchten Dreck. Wenn ein LLM nicht in Millisekunden versteht, was dein Unternehmen macht, wo es sitzt und was es kostet, erfindet es Fakten (Halluzination) oder ignoriert dich. Bau verdammt nochmal eine maschinenlesbare Grounding Page. Punkt."</p>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Dein JavaScript-Slider und dein 'innovatives Mindset' interessieren eine KI einen feuchten Dreck. Wenn ein LLM nicht in Millisekunden versteht, was dein Unternehmen macht, wo es sitzt und was es kostet, erfindet es Fakten oder ignoriert dich schlichtweg. Bau verdammt nochmal eine maschinenlesbare Grounding Page. Punkt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2 py-0.5 rounded">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Frag Perplexity oder ChatGPT Search: „Wer ist [Dein Firmenname] und was kostet das Kernangebot?“. Wenn die Antwort veraltete Preise, erfundene Mitarbeiterzahlen oder peinliche Verwechslungen mit fremden Branchen ausspuckt, fehlt deiner Domain ein verifizierter Maschinen-Anker. Ein LLM liest nicht deine 20 Werbe-Unterseiten durch – es braucht eine einzige, unmissverständliche Source of Truth.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/20">
+    <p class="text-xs font-semibold text-neutral-500 uppercase tracking-wide mb-1">🔍 Dein 30-Sekunden-Check für KI-Fakten-Grounding:</p>
+    <p class="text-sm text-neutral-800 mb-2">1. Prüfe, ob deine Domain eine dezidierte Fakten-Seite besitzt (z. B. <code>/ueber-uns-fakten/</code> oder <code>/about-facts/</code>), die schlankes HTML ohne JavaScript-Zwang nutzt.</p>
+    <p class="text-sm text-neutral-800 mb-2">2. Enthält diese Seite tabellarische Daten, ein valides <code>Schema.org/Organization</code>-Markup und eine klare Disambiguation („Was wir NICHT sind“)?</p>
+    <p class="text-sm text-neutral-800 font-medium mb-0">3. <strong>Deine Kontrollfrage an die Webagentur:</strong> <em>„Haben wir eine maschinenlesbare Grounding Page mit strukturierten Key-Value-Daten im Footer verlinkt, damit LLM-Crawler bei RAG-Anfragen unsere offiziellen Fakten extrahieren?“</em></p>
+  </div>
 </div>
 
 ## Was ist eine Grounding Page im Jahr 2026?
@@ -61,7 +96,7 @@ Wenn ich Grounding Pages für Konzerne oder smarte Mittelständler aufbaue, folg
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Dringender Hinweis: Erreichbarkeit für Bots</h4>
-  <p class="mb-0 text-sm">Die beste Grounding Page ist wertlos, wenn der Bot sie nicht lesen kann. Stelle sicher, dass KI-Crawler (Googlebot, OAI-SearchBot) diese Seite in der robots.txt nicht blockiert vorfinden. Sorge für blitzschnelle Ladezeiten ohne schwerfälliges JavaScript-Rendering, damit die Extraktion reibungslos läuft.</p>
+  <p class="mb-0 text-sm">Die beste Grounding Page ist wertlos, wenn der Bot sie nicht lesen kann. Stelle sicher, dass KI-Crawler (Googlebot, OAI-SearchBot) diese Seite in der [robots.txt](/glossar/robots-txt/) nicht blockiert vorfinden. Sorge für blitzschnelle Ladezeiten ohne schwerfälliges JavaScript-Rendering, damit die Extraktion reibungslos läuft.</p>
 </div>
 
 ## Fortgeschrittene Techniken für die Grounding Page (v1.6)
@@ -111,6 +146,32 @@ Da die Grounding Page primär für Maschinen und nicht als primäres Conversion-
 
 Du baust eine nackte Fakten-Seite, lieferst sie an die KI-Systeme aus und dominierst die AI Overviews deines Sektors, während die Konkurrenz noch in Zoom-Calls über die exakte Schattierung ihres Call-to-Action-Buttons diskutiert.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardisierte Grounding Page mit semantischem HTML und Schema.org-Markup für dein Webprojekt zu generieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: High-Authority Grounding Page Boilerplate Generator</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Engineer.</p>
+    <p><strong>Aufgabe:</strong> Erstelle das semantische HTML- und JSON-LD-Gerüst für eine dezidierte Grounding Page unter /facts/ zur Optimierung von RAG-Pipelines und KI-Zitationen.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Verwende eine strikte H1 mit exaktem Entitätsnamen ohne Marketingfloskeln.</li>
+      <li>Integriere eine Disambiguation-Sektion zur Abgrenzung homonymer Branchenbegriffe.</li>
+      <li>Strukturiere Unternehmensdaten in semantischen Description-Listen (&lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;) und HTML-Tabellen.</li>
+      <li>Erstelle ein valides Schema.org Organization- & AboutPage-JSON-LD mit SameAs-Verknüpfungen (Wikidata, LinkedIn).</li>
+      <li>Stelle sicher, dass alle internen URLs konsistent auf Trailing Slashes (/) enden.</li>
+    </ul>
+  </div>
+</div>
+
 ## Zusammenfassung: Kontrolliere deine Entität
 
 Wer 2026 GEO ernst nimmt, kommt an Grounding Pages nicht vorbei. RAG-Systeme sind hungrig nach verifizierten, strukturierten Daten.
@@ -119,14 +180,25 @@ Hör auf, KIs deine Identität raten zu lassen. Füttere die Modelle mit reinem,
 
 Wer die Fakten besitzt und sie den Maschinen am effizientesten, schnellsten und strukturiertesten serviert, der kontrolliert die Wahrheit in den AI Overviews. Und wer die Wahrheit kontrolliert, gewinnt das Spiel.
 
----
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-* [Was ist GEO?](/glossar/geo/)
-* [Entity SEO für LLMs](/glossar/google-algorithmus/)
+### Verwandte Glossar-Begriffe
+* [Generative Engine Optimization (GEO)](/glossar/geo/)
+* [Retrieval-Augmented Generation (RAG)](/glossar/rag/)
+* [Entitäten im KI-Zeitalter verstehen](/glossar/entitaet/)
+* [Large Language Model Optimization](/glossar/llm-optimization/)
+* [Citations und Web-Zitate](/glossar/citation/)
+* [In KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/)
+* [Robots.txt für Crawler steuern](/glossar/robots-txt/)

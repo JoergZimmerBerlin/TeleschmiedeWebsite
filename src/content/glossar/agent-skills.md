@@ -24,6 +24,32 @@ In den Anfangsjahren generativer Sprachmodelle dominierten endlose System-Prompt
 
 Im Jahr 2026 hat sich die Architektur moderner Softwaresysteme grundlegend gewandelt: vom starren Prompt Engineering hin zur modularen **Agent Orchestration**. Der moderne Industriestandard hierfür lautet **Agent Skills**.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Monolithische 5.000-Token-Systemprompts sind das Relikt einer unreifen KI-Ära. Wer heute professionelle Coding- oder SEO-Agenten baut, nutzt modulare Agent Skills mit Progressive Disclosure: Nur wenn der Task es erfordert, wird die SKILL.md geladen. Das spart massive Token-Kosten, eliminiert Halluzinationen und sichert deterministische Spitzenqualität.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Was ist ein Agent Skill? Die SKILL.md Spezifikation
 
 Ein Agent Skill ist eine portable, maschinenlesbare und gleichzeitig für Menschen verständliche Fähigkeit, die ein KI-Agent nach dem Prinzip *„Write once, run anywhere“* dynamisch erlernen kann. 
@@ -97,14 +123,23 @@ Dieser Skill leitet den Agenten an, wie ein valider Link-Check auf einer Web-Dom
 4. **Report erstellen:** Fasse alle gefundenen Link-Probleme in einer Markdown-Tabelle zusammen.
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Es gibt tausende SEO Tools, die die Arbeit der Suchmaschinenoptimierer nicht überflüssig machen. Sie zeigen dir nur die Möglichkeiten und erleichtern das Leben.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7055143807113129984" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose">
+  <div class="flex items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-700 text-2xl">💡</span>
+      <h4 class="font-bold text-lg text-dark mb-0">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+    </div>
+    <span class="text-xs bg-lime-accent/30 text-dark px-2.5 py-1 rounded-full font-mono font-bold">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Wenn Entwicklungsteams oder Inhouse-SEO-Abteilungen KI-Agenten konfigurieren, stopfen sie häufig alle Projektanweisungen in eine riesige globale Regeldatei. Das Ergebnis: Das Modell vergisst nach drei Prompts die Hälfte der Regeln oder wendet SEO-Vorgaben fälschlicherweise auf Unit-Tests an. Prüfe in deinem Repository, ob Verhaltensregeln modular als <code>SKILL.md</code> strukturiert sind und die <code>allowed-tools</code> strikt beschränkt sind.
+  </p>
+  <div class="bg-white/80 p-4 rounded-xl border border-lime-accent/30 text-xs text-neutral-800 space-y-2">
+    <p class="font-bold text-dark mb-1">🔍 Dein 30-Sekunden-Check im Browser (ohne Programmierkenntnisse):</p>
+    <p class="mb-1">1. Öffne dein Projekt-Repository (z. B. auf GitHub oder in Cursor) und suche nach dem Ordner <code>skills/</code> oder <code>.agents/skills/</code>.</p>
+    <p class="mb-1">2. Besitzt jede Teilaufgabe (z. B. <code>broken-links</code>, <code>schema-markup</code>) eine eigene <code>SKILL.md</code> mit eindeutigem YAML-Frontmatter?</p>
+    <p class="mb-0">3. <strong>Deine Kontrollfrage an die Webagentur:</strong> <em>„Nutzt unsere Agenten-Infrastruktur das Progressive-Disclosure-Muster mit isolierten SKILL.md-Manifesten oder belasten wir das Kontextfenster mit monolithischen Dauer-Prompts?“</em></p>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler bei der Implementierung von Agent Skills
@@ -125,9 +160,58 @@ In größeren Organisationen und Entwicklungsteams dürfen Agent Skills nicht un
 
 Durch diese Professionalisierung wandeln sich Agent Skills von experimentellen Prompt-Snippets zu stabilen, auditierbaren Software-Artefakten.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen neuen modularen Agent Skill nach modernstem 2026-Standard zu generieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Create Modular Agent Skill (SKILL.md)</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Agentic AI System Architect & Software Engineer.</p>
+    <p><strong>Aufgabe:</strong> Erstelle einen neuen modularen Agent Skill für eine spezifische SEO- oder Coding-Aufgabe (z. B. <code>schema-markup-validator</code>).</p>
+    <p><strong>Anforderungen:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Erstelle das Verzeichnis <code>skills/[skill-name]/</code> mit der zentralen Datei <code>SKILL.md</code>.</li>
+      <li>Definiere ein präzises YAML-Frontmatter mit <code>name</code>, <code>description</code>, <code>version</code> und restriktiven <code>allowed-tools</code>.</li>
+      <li>Formuliere die Handlungsanweisungen nach dem Progressive-Disclosure-Prinzip: Kurze Zusammenfassung für den Index, exakte Schrittfolge im Hauptteil.</li>
+      <li>Füge Verifikationsschritte und Testkriterien hinzu, die der Agent vor Abschluss prüfen muss.</li>
+      <li>Stelle sicher, dass alle internen Verweise mit Trailing Slash (/) versehen sind.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Validiere die fertige <code>SKILL.md</code> und gib den vollständigen Dateipfad aus.</p>
+  </div>
+</div>
+
 ## Strategische Einordnung im Zeitalter autonomer Systeme
 
 Agent Skills sind der Schlüssel zur Skalierung generativer KI in anspruchsvollen Geschäftsprozessen. Sie verwandeln unberechenbare Sprachmodelle in spezialisierte, verlässliche digitale Fachkräfte. Im Zusammenspiel mit einer durchdachten [Agent Readiness](/glossar/agent-readiness/) und präzisen [Grounding-Queries](/glossar/grounding-queries/) stellen Unternehmen sicher, dass ihre Software-Agenten geschäftskritische Prozesse fehlerfrei automatisieren.
 
 Einen detaillierten Überblick über Software zur Messung und Orchestrierung moderner KI-Systeme finden Sie in unserem Vergleich der [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die Wirtschaftlichkeit automatisierter Entwicklungs- und Analyse-Pipelines können Sie transparent in unserem [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
+* [MCP Server Card erklärt](/glossar/mcp-server-card/)
+* [Agent Readiness für autonome KIs](/glossar/agent-readiness/)
+* [A2A Protocol im Detail](/glossar/a2a-protocol/)
+* [auth.md für KI-Agenten](/glossar/auth-md/)
+* [llms.txt: Maschinenlesbares Web-Inhaltsverzeichnis](/glossar/llms-txt/)
 

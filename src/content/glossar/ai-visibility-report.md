@@ -4,7 +4,7 @@ meta_title: "AI Visibility Report: KPIs (2026)"
 description: "Wie sieht ein moderner AI Visibility Report aus? Alles über Share of Voice, Brand Presence und Citation Rate in Answer Engines für B2B. (2026)"
 meta_description: "Wie sieht ein moderner AI Visibility Report aus? Alles über Share of Voice, Brand Presence und Citation Rate in Answer Engines für B2B. (2026)"
 date: "2026-08-10"
-image: src/assets/images/glossar/3d-light/ai-visibility-report-3d.webp
+image: "../../assets/images/glossar/3d-light/ai-visibility-report-3d.webp"
 image_alt: "AI Visibility Report KPIs B2B"
 category: "AI SEO & Generative Search"
 key_takeaways:
@@ -24,6 +24,32 @@ faqs:
 Wenn Marketing-Teams am Monatsende ihren Stakeholdern klassische SEO-Berichte präsentieren, wiederholt sich oft dasselbe Dilemma: Die Kurven für Impressionen in der Search Console zeigen nach oben, doch die Geschäftsführung fragt zu Recht: *„Wenn wir ChatGPT oder Perplexity nach den führenden Anbietern unserer Branche fragen, taucht nur unser Hauptmitbewerber auf. Welchen geschäftlichen Wert hat unsere bisherige Suchmaschinenoptimierung dann noch?“*
 
 Traditionelle SEO-Reports erzählen im Jahr 2026 nur noch die halbe Wahrheit. In einer Zeit, in der B2B-Entscheider und Konsumenten vermehrt konversationelle Direktenantworten nutzen, benötigen Unternehmen einen fundierten **AI Visibility Report**. Er transformiert die generative Markenpräsenz in belastbare, für das Management verständliche Kennzahlen.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Klassische SEO-Reports mit 100-Keyword-Tabellen spiegeln die Realität moderner Beschaffungsprozesse nicht mehr wider. Wenn der Vorstand fragt, warum Leads sinken, während Google-Klicks stabil sind, brauchst du einen AI Visibility Report. Er zeigt schonungslos, wie oft deine Marke in ChatGPT, Perplexity und Google AI Overviews empfohlen wird und welchen Share of Model du gegen Mitbewerber verteidigst.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Der Vergleich: Klassischer SEO-Report versus AI Visibility Report
 
@@ -45,13 +71,28 @@ Ein praxistauglicher AI Visibility Report konzentriert sich auf vier handlungsre
 Diese Kennzahl beziffert den Prozentsatz aller getesteten Core-Prompts, in deren Antworttext die eigene Marke genannt wird. Sie fungiert als generative Entsprechung der klassischen Impression – mit dem entscheidenden Unterschied, dass die Marke aktiv in die sprachliche Argumentation des Modells eingebunden ist.
 
 ### 2. Citation Frequency & Badge Rank (Zitierrate)
-Entscheidend ist, ob das Sprachmodell eine formale Quelle mit Hyperlink ausgibt. In Answer Engines wie Perplexity fungieren Zitationen als Vertrauensbeweis. Der Report dokumentiert nicht nur die Zitationshäufigkeit, sondern auch die Position: Eine Verlinkung als Erstquelle im ersten Satz generiert signifikant mehr Beachtung als eine Sammelreferenz am Ende des Textes.
+Entscheidend ist, ob das Sprachmodell eine formale Quelle mit Hyperlink ausgibt. In Answer Engines wie Perplexity fungieren Zitationen als Vertrauensbeweis. Der Report dokumentiert nicht nur die [Citation Frequency](/glossar/citation-frequency/), sondern auch die Position: Eine Verlinkung als Erstquelle im ersten Satz generiert signifikant mehr Beachtung als eine Sammelreferenz am Ende des Textes.
 
-### 3. Share of Voice (SoV) im Wettbewerbsvergleich
-Sprachmodelle nennen selten nur einen Anbieter. Der Share of Voice misst, wie häufig die eigene Marke im Vergleich zu direkten Konkurrenten empfohlen wird. Nennen Modelle bei Branchenfragen im Schnitt vier Tools und ist das eigene darunter, liegt der relative SoV bei 25%. Verschiebungen dieser Kennzahl zeigen Marktanteilsgewinne frühzeitig an.
+### 3. Share of Voice (SoV) und Share of Model (SoM) im Wettbewerbsvergleich
+Sprachmodelle nennen selten nur einen Anbieter. Der [Share of Voice](/glossar/share-of-voice/) und [Share of Model](/glossar/share-of-model/) messen, wie häufig die eigene Marke im Vergleich zu direkten Konkurrenten empfohlen wird. Nennen Modelle bei Branchenfragen im Schnitt vier Tools und ist das eigene darunter, liegt der relative Anteil bei 25%. Verschiebungen dieser Kennzahl zeigen Marktanteilsgewinne frühzeitig an.
 
 ### 4. Sentiment- und Kontextanalyse
 Suchergebnisseites Links sind neutral, KI-Antworten jedoch nicht. Der Report wertet aus, mit welchen Attributen die Marke assoziiert wird: Wird sie als „technologischer Marktführer“ gelobt oder als „wartungsintensiv“ eingestuft? Das Reporting wird so zum operativen Frühwarnsystem für das digitale Reputationsmanagement.
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg md:text-xl font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Achte im monatlichen Report auf den sogenannten „Trust Gap“: Wenn deine Mention Rate hoch ist (die KI kennt deine Marke), deine Citation Rate aber gegen null tendiert (die KI verlinkt deine Website nicht als Beweisquelle), leidet dein Content an fehlendem Information Gain. Die Lösung: Eigene Studien, empirische Benchmarks und Autoren-Zitate einbauen, die das LLM als Primärbeleg heranziehen muss.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3 mt-3">
+    <p class="text-xs font-semibold text-neutral-600 mb-0">
+      Kontrollfrage an deine Webagentur: „Weist unser Monats-Reporting neben Klicks und Impressionen auch die Citation Rate, den Share of Model und das Sentiment über verschiedene KI-Engines hinweg aus?“
+    </p>
+  </div>
+</div>
 
 ## Die Multi-Persona-Testmatrix und Citation Gap Analysis
 
@@ -63,9 +104,9 @@ Um belastbare Ergebnisse zu erzielen, arbeiten professionelle Reports mit einer 
 
 ## Software-Lösungen für professionelles KI-Reporting
 
-Für das fortlaufende Monitoring stehen leistungsfähige [SEO-Visibility-Tools](/glossar/seo-visibility-tools/) bereit, die manuelle Testaufwände vollständig automatisieren:
+Für das fortlaufende Monitoring stehen spezialisierte [SEO-Visibility-Tools](/glossar/seo-visibility-tools/) bereit, die manuelle Testaufwände vollständig automatisieren:
 
-* **[Rankscale](https://rankscale.ai/?via=offer):** Die führende Standalone-Plattform für Generative Engine Optimization. Rankscale feuert Prompts vollautomatisch gegen mehr als 17 Sprachmodelle ab und generiert exportierbare, präsentationsfertige Dashboards für C-Level-Meetings (siehe auch unseren ausführlichen [Rankscale-Test](/blog/rankscale-ai-visibility-tool/)).
+* **[Rankscale](https://rankscale.ai/?via=offer):** Die führende Standalone-Plattform für Generative Engine Optimization. Rankscale feuert Prompts vollautomatisch gegen mehr als 17 Sprachmodelle ab und generiert exportierbare Dashboards für C-Level-Meetings (siehe auch unseren ausführlichen [Rankscale-Test](/blog/rankscale-ai-visibility-tool/)).
 * **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracker:** Wer klassische organische Platzierungen, Backlink-Audits und KI-Metriken in einer gemeinsamen Oberfläche konsolidieren will, nutzt das integrierte KI-Tracking von [SE Ranking](/glossar/se-ranking/).
 
 ## Zero-Click-Attribution: Den Wert für Stakeholder belegen
@@ -74,26 +115,28 @@ Ein zentrales Thema bei der Vorstellung eines AI Visibility Reports ist die Attr
 
 Um den tatsächlichen Beitrag nachzuweisen, empfiehlt sich die Ergänzung von Kontaktformularen um eine qualitative Freitextabfrage („Wie sind Sie auf uns aufmerksam geworden?“). Die Auswertung zeigt regelmäßig, dass Answer Engines als mächtiger Beschleuniger im Entscheidungsprozess wirken.
 
-## Technische Implementierung: Export von Reporting-Daten per Webhook
-
-Zur nahtlosen Einbindung in Agentur-Workflows lassen sich Kennzahlen automatisierter [AI-Tracking-Tools](/glossar/ai-tracking-tools/) per Webhook abrufen:
-
-```javascript
-// Beispiel: Webhook-Handler zur Speicherung monatlicher KI-Report-KPIs
-app.post("/webhooks/ai-visibility-report", async (req, res) => {
-  const { brand, reportDate, shareOfVoice, citationRate, sentimentScore } = req.body;
-  
-  await database.saveReportMetrics({
-    brandName: brand,
-    period: reportDate,
-    sovPercentage: shareOfVoice,
-    citations: citationRate,
-    sentiment: sentimentScore
-  });
-  
-  res.status(200).send({ status: "Report-Daten erfolgreich archiviert" });
-});
-```
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript für die Aggregation und Auswertung von AI-Visibility-Report-Daten einzurichten:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: AI Visibility Reporting Aggregator</p>
+    <p><strong>Rolle:</strong> Du bist ein Senior Data Analyst & Reporting Automation Engineer.</p>
+    <p><strong>Aufgabe:</strong> Baue ein Auswertungsskript, das monatliche LLM-Antwort-Rohdaten auswertet und einen tabellarischen KPI-Bericht (Share of Model, Citation Rate, Sentiment) generiert.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Parse ein JSON-Array mit simulierten Prompt-Ergebnissen (Modell, Prompt, Antworttext, Zitationslinks).</p>
+    <p>2. Berechne: <code>Presence Rate</code> (Erwähnung der Marke), <code>Citation Rate</code> (Link zur Domain vorhanden) und <code>Competitive Share of Model</code>.</p>
+    <p>3. Identifiziere den „Trust Gap“ (Differenz zwischen Presence Rate und Citation Rate) und markiere Ausreißer.</p>
+    <p>4. Exportiere eine kompakte Markdown-Zusammenfassung mit Management-Summary und Handlungsempfehlungen.</p>
+  </div>
+</div>
 
 ## Die 3 häufigsten Fehler beim Erstellen von AI Visibility Reports
 
@@ -103,28 +146,31 @@ In der Praxis führen methodische Mängel häufig zu irreführenden Auswertungen
 2. **Ignorieren negativer Sentiment-Trends:** Ein hoher Erwähnungsanteil ist wertlos, wenn Modelle das Produkt im gleichen Atemzug als fehleranfällig einstufen. Sentiment-Metriken müssen zwingend priorisiert werden.
 3. **Mangelhafte Verknüpfung zu [Brand Mentions](/glossar/brand-mentions/):** Ein Report deckt Lücken auf. Werden aus den Berichten keine Maßnahmen zur Stärkung der Marken-Entität im Webnetzwerk abgeleitet, bleibt das Reporting wirkungslos.
 
-## Fundament für die strategische Ausrichtung
+## Zusammenfassung: Fundament für die strategische Ausrichtung
 
 Ein fundierter AI Visibility Report schließt die Lücke zwischen technischer Suchmaschinenoptimierung und moderner Markenführung. In Verbindung mit einem periodischen [AI-Visibility-Audit](/glossar/ai-visibility-audit/) und sauberem [Technischem SEO](/glossar/technisches-seo/) erhalten Unternehmen die notwendige Entscheidungsgrundlage, um ihre Marktposition in generativen Auskunftssystemen langfristig zu behaupten.
 
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-start gap-4">
-    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
-      💡
-    </div>
-    <div>
-      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über modernes KI-Reporting</h3>
-      <p class="text-gray-600 text-sm italic mb-2">
-        „Klassische SEO-Reports mit Ranking-Tabellen spiegeln die Realität moderner Beschaffungsprozesse nicht mehr wider. Wer Entscheidungsträger überzeugen will, muss den Share of Voice in Sprachmodellen quantifizieren und Zitationsanteile transparent nachweisen.“
-      </p>
-      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
-    </div>
-  </div>
-</div>
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
+
+### Verwandte Glossar-Begriffe
+* [AI Visibility Audit: Das systematische Prüfverfahren](/glossar/ai-visibility-audit/)
+* [AI Tracking Tools: Wahre Sichtbarkeit messen](/glossar/ai-tracking-tools/)
+* [Share of Voice: Marktanteile in der Kommunikation](/glossar/share-of-voice/)
+* [Share of Model: Die neue generative Reichweitenmetrik](/glossar/share-of-model/)
+* [Citation Frequency: Zitationshäufigkeit in Sprachmodellen](/glossar/citation-frequency/)
+* [Brand Mentions: Markennennungen in Sprachmodellen](/glossar/brand-mentions/)
+* [SEO Visibility Tools: Software zur Sichtbarkeitsanalyse](/glossar/seo-visibility-tools/)
+* [Technisches SEO: Grundlagen für Crawling und Rendering](/glossar/technisches-seo/)
+

@@ -25,13 +25,52 @@ faqs:
     answer: "Für die Kommunikation *zwischen* Maschinen und KI-Modellen: Definitiv ja. REST-APIs waren für starre Software gedacht, bei der Entwickler Wochen brauchten, um Dokumentationen zu lesen. MCP ermöglicht dynamische 'Discovery': Die KI verbindet sich, ruft das neue `server/discover` RPC auf, versteht sofort, welche Werkzeuge der Server hat, und nutzt sie."
 ---
 
-Moin! 🌻
-
 Die Welt der Künstlichen Intelligenz hat ein gigantisches Skalierungsproblem gehabt. Wir hatten diese unfassbar mächtigen "Gehirne" (Large Language Models wie Claude, GPT oder Llama) – aber diese Gehirne saßen in einem dunklen Raum fest. Sie wussten alles über die Welt bis zu ihrem Trainings-Cutoff, aber sie wussten absolut nichts über dein Unternehmen. Sie hatten keinen Zugriff auf deine interne Notion-Datenbank, sie kannten deinen Slack-Verlauf nicht und sie konnten nicht in dein CRM schauen.
 
 Um dieses Problem zu lösen, haben Heerscharen von Entwicklern jahrelang massiven Pfusch am Bau betrieben. Sie haben für jedes LLM, für jede Datenbank und für jedes Tool individuelle, starr kodierte API-Brücken gebaut. Ein unwartbarer Spaghetticode-Albtraum. 
 
 Dann kam das **Model Context Protocol (MCP)**. Ursprünglich von Anthropic ins Leben gerufen, hat sich dieser offene Standard wie ein Lauffeuer ausgebreitet. MCP ist der universelle USB-C-Anschluss für das KI-Zeitalter. Plötzlich brauchte man keine 100 verschiedenen Adapter mehr. Man baute einen einzigen MCP-Server für eine Datenquelle, und JEDES KI-Modell, das MCP verstand, konnte ihn sofort nutzen.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „MCP ist der universelle USB-C-Stecker für das KI-Zeitalter. Wer 2026 noch für jedes Tool teure, proprietäre REST-Schnittstellen bastelt, verbrennt sinnlos Entwicklerbudget. Wenn dein System kein MCP versteht, bleibt dein Content im maschinellen Datenraum schlichtweg stumm.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+    <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  </div>
+  <p class="text-sm md:text-base text-neutral-700 leading-relaxed mb-4">
+    Prüfe, ob deine APIs und Produktdatenbanken bereits über einen standardisierten MCP-Server erreichbar sind. Während klassische REST-Schnittstellen manuelle Dokumentationslektüre und Custom-Wrapper erfordern, erlaubt MCP autonome Tool-Discovery (<code>server/discover</code>) und sofortiges Function Calling für Agenten. Wer heute maschinenlesbare Schnittstellen anbietet, sichert sich den direkten Einstieg in autonome Transaktionen.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3">
+    <p class="text-xs md:text-sm font-semibold text-neutral-800 mb-0">
+      <strong>Kontrollfrage an deine Webagentur oder IT:</strong> „Bieten wir für unsere Produktdaten oder Services bereits einen standardkonformen MCP-Server an, damit KI-Agenten wie Claude oder Cursor unsere Daten direkt im transaktionalen Layer konsumieren können?“
+    </p>
+  </div>
+</div>
 
 Aber das, was wir bisher kannten, war nur der Prolog. Was im Frühsommer 2026 passierte, hat die Architektur von KI-Infrastrukturen für immer verändert.
 
@@ -53,7 +92,7 @@ Zusätzlich wurde ein völlig neues `server/discover` RPC (Remote Procedure Call
 
 Das Thema ist nicht nur für Entwickler hochgradig relevant, sondern auch für Suchmaschinenoptimierung. Willkommen in der Welt des **MCP SEO**. 
 
-SEO entwickelt sich weg vom simplen "Ranken von blauen Links" hin zur KI-getriebenen Synthese. Anstatt dass KI-Agenten mühsam HTML-Seiten scrapen müssen, nutzen sie sogenannte **WebMCPs**. Wenn ein Unternehmen seine Produktdaten, Verfügbarkeiten und Preise strukturiert über einen MCP-Server zur Verfügung stellt, kann ein KI-Assistent direkt und fehlerfrei darauf zugreifen.
+SEO entwickelt sich weg vom simplen "Ranken von blauen Links" hin zur KI-getriebenen Synthese. Anstatt dass KI-Agenten mühsam HTML-Seiten scrapen müssen, nutzen sie sogenannte [WebMCP](/glossar/webmcp/)-Schnittstellen. Wenn ein Unternehmen seine Produktdaten, Verfügbarkeiten und Preise strukturiert über eine [MCP Server Card](/glossar/mcp-server-card/) zur Verfügung stellt, kann ein KI-Assistent direkt und fehlerfrei darauf zugreifen.
 *   **Discoverability:** Sind deine Daten für Agenten lesbar?
 *   **Authority:** Liefert dein Server die hochwertigsten strukturierten Fakten?
 *   **Conversion:** Erlaubt dein MCP-Server dem Agenten, für den Nutzer eine Aktion (z.B. eine Buchung) auszuführen?
@@ -72,17 +111,17 @@ Wenn der KI-Agent jetzt wissen will: "Wie viel Umsatz hat Kunde XY im letzten Mo
 
 ## Abgrenzung: Warum MCP nicht A2A ist
 
-Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komplett durcheinandergeworfen werden. Wenn du eine vollständige Agent Readiness erreichen willst, musst du den Unterschied kennen.
+Ich predige das in meinen Audits immer wieder, weil die Buzzwords aktuell komplett durcheinandergeworfen werden. Wenn du eine vollständige [Agent Readiness](/glossar/agent-readiness-level/) erreichen willst, musst du den Unterschied kennen.
 
 Stell dir dein Unternehmen als einen hochqualifizierten Arbeiter vor. 
 * Wenn dieser Arbeiter ein internes Werkzeug aus seinem eigenen Werkzeugkoffer nimmt (einen Hammer, eine Bohrmaschine, Zugriff auf deine Firmen-Infrastruktur), dann benutzt er **MCP**. Es ist die *vertikale* Verbindung zwischen "Denker" und "Werkzeug".
-* Wenn dieser Arbeiter das Haus verlässt und mit dem Arbeiter einer völlig anderen Firma Verträge aushandelt, dann nutzt er das **A2A Protocol** (Agent-to-Agent). Das ist die *horizontale* Verbindung. Dafür benötigst du eine korrekte `agent-card.json` (V1.0) und eine `auth.md` in deinem `.well-known` Ordner.
+* Wenn dieser Arbeiter das Haus verlässt und mit dem Arbeiter einer völlig anderen Firma Verträge aushandelt, dann nutzt er das [A2A-Protokoll](/glossar/a2a-protocol/) (Agent-to-Agent). Das ist die *horizontale* Verbindung. Dafür benötigst du eine korrekte [`agent-card.json`](/glossar/agent-card-json/) (V1.0) und eine [auth.md](/glossar/auth-md/) in deinem `.well-known` Ordner.
 
 Beides ist genial. Beides ist zwingend notwendig. Aber sie lösen grundverschiedene Probleme. Die neue Agentic-Architektur nutzt MCP im Backend (um dem eigenen Agenten Macht zu geben) und A2A im Frontend (um mit der Welt zu kommunizieren).
 
 ## Die Business-Perspektive: Keine Ausreden mehr
 
-Vor dem MCP-Standard haben Unternehmen Unsummen verbrannt, um ihre Daten für LLMs nutzbar zu machen. Jedes RAG-Projekt (Retrieval-Augmented Generation) wurde zu einem Millionengrab voller Custom-Code.
+Vor dem MCP-Standard haben Unternehmen Unsummen verbrannt, um ihre Daten für LLMs nutzbar zu machen. Jedes [RAG (Retrieval-Augmented Generation)](/glossar/rag/)-Projekt wurde zu einem Millionengrab voller Custom-Code.
 
 Mit dem neuen, zustandslosen MCP-Standard gibt es keine Ausreden mehr. Die Agentic AI Foundation meldet im Frühsommer 2026 fast 100 Millionen monatliche Downloads der offiziellen SDKs. Es gibt über 14.000 fertige Open-Source MCP-Server. 
 
@@ -96,18 +135,50 @@ Es ist leicht, über die großen Enterprise-Player zu reden. Aber was bedeutet d
 
 Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen. Nutze deinen eigenen KI-Assistenten, um deine Architektur gnadenlos auditieren zu lassen. Das ist der effizienteste Weg, die Schwachstellen in deinem System zu finden.
 
-### Der universelle Prompt für dein Audit
-
-Kopiere dir diesen Textblock und jage ihn in den KI-Agenten deiner Wahl. Der Prompt ist so formuliert, dass die KI alle schweren konzeptionellen und technischen Prüfungen für dich durchführt, basierend auf dem neuesten Stand vom 2026. Du musst keine Firmennamen eintragen – die KI fragt dich nach deinem Setup, wenn sie Input braucht.
-
-**Prompt für deinen KI-Agenten:**
-```text
-Schlüpfe in die Rolle eines Senior System Architects der Agentic AI Foundation. Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand 2026). 
-- Zeige mir konkret auf, an welchen Stellen ich in meinem Unternehmen heute noch mit teuren, hart-kodierten API-Integrationen arbeite, die ich durch standardisierte, zustandslose MCP-Server ersetzen MUSS, um Cloud-Native Skalierbarkeit zu erreichen.
-- Erkläre mir, wie ich meine proprietären Unternehmensdatenbanken über MCP sicher (Security & Authorization nach den neuen Specs) an mein internes LLM anbinde.
-- Liefere mir abschließend einen klaren Maßnahmenkatalog, um auf das Agent Readiness Reifegradmodell zu kommen, indem ich MCP (für interne Tools) und A2A (für externe Interaktion) architektonisch sauber trenne.
-```
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein bestehendes IT- und Web-Setup auf den modernen, zustandslosen MCP-Standard auditieren zu lassen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Stateless MCP Architecture & Tool Integration Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Senior System Architect der Agentic AI Foundation und Technical SEO Engineer.</p>
+    <p><strong>Aufgabe:</strong> Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand 2026).</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Identifiziere alle internen APIs und Datenbank-Endpunkte, die aktuell noch über starre REST-Wrapper laufen und ersetze sie durch zustandslose MCP-Ressourcen.</p>
+    <p>2. Konfiguriere ein standardkonformes Discovery-Manifest unter <code>/.well-known/mcp.json</code> mit Tool-Definitionen, Input-Schemas und offenen CORS-Headern.</p>
+    <p>3. Trenne interne Werkzeugaufrufe (MCP) architektonisch sauber von externer Agenten-Interaktion (A2A-Protokoll via <code>agent-card.json</code>).</p>
+    <p>4. Validiere die Server-Endpunkte mit <code>curl -s -H "Accept: application/json" https://teleschmie.de/.well-known/mcp.json</code> und teste die Function-Calling-Pfade.</p>
+  </div>
+</div>
 
 Es gibt keine Zeit mehr für zögerliche Experimente. Die Technologie ist flügge geworden, die Protokolle sind standardisiert. Nutze MCP, reiß die Silos in deinem Unternehmen ein und mach deine Daten agent-ready. Wer seine Gehirne im Dunkeln lässt, hat im KI-Zeitalter keine Chance. Und denke bei allen Routing-Einstellungen daran: Interne Links enden immer auf einem Trailing Slash `/`.
 
-ALOHA! 🌻✌️
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [MCP Server Card](/glossar/mcp-server-card/)
+* [WebMCP](/glossar/webmcp/)
+* [Agent Readiness Level](/glossar/agent-readiness-level/)
+* [A2A-Protokoll](/glossar/a2a-protocol/)
+* [Agent Card (agent-card.json)](/glossar/agent-card-json/)
+* [Auth.md](/glossar/auth-md/)
+* [RAG (Retrieval-Augmented Generation)](/glossar/rag/)

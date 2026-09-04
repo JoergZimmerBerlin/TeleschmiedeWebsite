@@ -23,11 +23,39 @@ faqs:
     answer: "Für grundlegende Prüfungen steht ein kostenloser AI Visibility Checker bereit. Für fortlaufendes Monitoring, historische Zeitreihen und Mitbewerber-Benchmarking im Brand Radar ist ein kostenpflichtiger Plan bzw. ein entsprechendes Add-on erforderlich."
 ---
 
-Lange Zeit galt der Blick in das organische Backlink-Profil und die Keyword-Positionen auf Seite 1 als das unangefochtene Nonplusultra der Suchmaschinenoptimierung. Doch die Spielregeln haben sich dramatisch verschoben: Wenn Entscheider und Konsumenten heute nach Produktempfehlungen, Softwarevergleichen oder Dienstleistern suchen, tippen sie ihre Fragen immer seltener in das klassische Google-Suchfeld ein, sondern nutzen konversationelle Chatbots.
+Lange Zeit galt der Blick in das organische Backlink-Profil und die Keyword-Positionen auf Seite 1 als das unangefochtene Nonplusultra der Suchmaschinenoptimierung. Doch die Spielregeln haben sich dramatisch verschoben: Wenn Entscheider und Konsumenten heute nach Produktempfehlungen, Softwarevergleichen oder Dienstleistern suchen, tippen sie ihre Fragen immer seltener in das klassische Google-Suchfeld ein, sondern nutzen konversationelle Chatbots und Answer Engines.
 
-Für Marken entsteht dadurch ein massiver blinder Fleck: Wer in den synthetisierten Antworten führender Sprachmodellen (LLMs) nicht auftaucht, existiert für eine rasant wachsende Käuferschicht schlichtweg nicht mehr.
+Für Marken entsteht dadurch ein massiver blinder Fleck: Wer in den synthetisierten Antworten führender Sprachmodelle (LLMs) nicht auftaucht, existiert für eine rasant wachsende Käuferschicht schlichtweg nicht mehr.
 
 **Ahrefs**, einer der globalen Marktführer für SEO-Infrastruktur mit Sitz in Singapur, hat diese Marktentwicklung frühzeitig adressiert. Mit dem Launch des **Ahrefs Brand Radar** bindet das Unternehmen das [KI-Sichtbarkeits-Monitoring](/glossar/ki-sichtbarkeit/) nahtlos an seine gigantischen Datenbestände an. In diesem Fachbeitrag untersuchen wir die Funktionsweise des Moduls, beleuchten den Nutzen sogenannter *Search-backed Prompts* und vergleichen die Lösung mit Alternativen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer).
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
+  <img 
+    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+    alt="Jörg Zimmer" 
+    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
+    loading="lazy"
+    width="96"
+    height="96"
+  />
+  <div class="flex-1 text-center md:text-left">
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      "Ahrefs hat mit dem Brand Radar ein entscheidendes Problem gelöst: Die Verknüpfung von realem Suchvolumen mit KI-Prompts. Es nützt Ihnen gar nichts, wenn ChatGPT Sie bei einer theoretischen Frage nennt, die im echten Leben kein einziger Kunde stellt. Die Kunst im Jahr 2026 besteht darin, bei jenen Prompts ganz oben zu stehen, hinter denen echte Kaufabsicht und hohe Budgets stecken."
+    </blockquote>
+    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
+      <div>
+        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
+        <span class="hidden md:inline"> | </span>
+        <span>Senior SEO & AI Search Consultant</span>
+      </div>
+      <cite>
+        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+          LinkedIn Profil &rsaquo;
+        </a>
+      </cite>
+    </figcaption>
+  </div>
+</figure>
 
 ## Die Kernfunktionen des Ahrefs AI Visibility Trackings
 
@@ -45,6 +73,20 @@ Woher weiß Perplexity oder ChatGPT überhaupt, dass Ihre Marke existiert? Die *
 ### 4. Share of Voice & Competitive Benchmarking
 Wie viel Raum nimmt Ihr Unternehmen im Vergleich zu Ihren drei bis fünf schärfsten Konkurrenten in den Antworten ein? Ahrefs quantifiziert den *AI Share of Voice* und visualisiert Zitationslücken (*Visibility Gaps*). Sie sehen sofort, bei welchen lukrativen Prompts Ihre Wettbewerber empfohlen werden, während Ihre Domain leer ausgeht.
 
+<div class="my-8 bg-white border border-neutral-200 rounded-2xl p-6 shadow-sm">
+  <div class="flex items-center gap-3 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wider">Praxistipp aus der SEO-Sprechstunde</span>
+    <span class="text-xs text-neutral-600 font-bold">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Prüfe im Ahrefs Brand Radar oder im kostenlosen AI Visibility Checker die <strong>Top Cited Sources</strong> für dein wichtigstes Branchen-Keyword. Häufig stammen über 60 Prozent der Zitationen nicht von Unternehmensseiten, sondern von Reddit-Threads, Vergleichsportalen oder YouTube-Transkripten. Das zeigt dir sofort, wo du deine Markenpräsenz aufbauen musst.
+  </p>
+  <div class="bg-neutral-50 p-4 rounded-xl border border-neutral-200 text-xs text-neutral-700">
+    <strong class="text-dark block mb-1">Kontrollfrage an deine Webagentur oder dein Inhouse-Team:</strong>
+    „Überwachen wir im Ahrefs Brand Radar oder einem vergleichbaren Tool gezielt die externen Quellen, die ChatGPT und Perplexity für unsere Branche heranziehen, und betreiben wir dort proaktive PR?“
+  </div>
+</div>
+
 ## Plattformvergleich: Ahrefs vs. SE Ranking vs. Rankscale
 
 Je nach Budget, Zielsetzung und Inhouse-Kompetenz bieten unterschiedliche Plattformen spezifische Stärken für das generative Monitoring:
@@ -57,9 +99,26 @@ Je nach Budget, Zielsetzung und Inhouse-Kompetenz bieten unterschiedliche Plattf
 | **Preisstruktur** | Enterprise-Preise (zusätzlich zum Ahrefs-Abo) | Sehr attraktives Preis-Leistungs-Verhältnis | Faires Credit-Modell für zielgerichtete Prompt-Abfragen |
 | **Ideale Zielgruppe** | Große Inhouse-Teams mit bestehendem Ahrefs-Stack | Agenturen, KMU & ganzheitliche SEO-Manager | Spezialisierte GEO-Teams & B2B-Tech-Unternehmen |
 
-## Universelles Code-Beispiel: Automatisierte Zitations- und Quellanalyse
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-2.5 py-0.5 rounded-full uppercase tracking-wider">Copy & Paste Task</span>
+    <span class="text-xs text-neutral-400">Prompt für KI-Coding-Assistenten</span>
+  </div>
+  <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
+    Nutze dieses Skript-Template für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um die von KI-Modellen zitierten Quellen programmatisch zu überwachen:
+  </p>
+  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein Senior SEO-Data-Engineer. Schreibe ein Python-Skript zur Analyse von KI-Zitationsquellen:
+1. Nimm eine Liste von 10 kaufrelevanten B2B-Suchprompts entgegen.
+2. Frage für jeden Prompt die Perplexity- und OpenAI-Search-APIs ab.
+3. Extrahiere alle zitierten URLs aus den Antwortobjekten und aggregiere die Top-Domains (Domain Leaderboard).
+4. Vergleiche, ob unsere Domain [deinedomain.de] unter den Top-3-Zitationen auftaucht.
+5. Exportiere die Ergebnisse als strukturierte CSV-Tabelle mit Spalten: Prompt, Engine, Brand_Cited (True/False), Top_Domain, Source_URL.
+Liefere den sauberen Python-Code mit Fehlerbehandlung für API-Rate-Limits.</code></pre>
+</div>
 
-Das folgende neutrale Python-Skript veranschaulicht, wie Teams die von Sprachmodellen herangezogenen Zitationsquellen über eine standardisierte API abfragen und aufbereiten können:
+## Technisches Code-Beispiel: Automatisierte Zitations- und Quellanalyse
+
+Das folgende Python-Skript veranschaulicht, wie Teams die von Sprachmodellen herangezogenen Zitationsquellen über eine standardisierte Schnittstelle abfragen und aufbereiten können:
 
 ```python
 import requests
@@ -96,16 +155,6 @@ except requests.exceptions.RequestException as error:
     print(f"Fehler beim Abruf der Zitationsdaten: {error}")
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Ahrefs hat mit dem Brand Radar ein entscheidendes Problem gelöst: Die Verknüpfung von realem Suchvolumen mit KI-Prompts. Es nützt Ihnen gar nichts, wenn ChatGPT Sie bei einer theoretischen Frage nennt, die im echten Leben kein einziger Kunde stellt. Die Kunst im Jahr 2026 besteht darin, bei jenen Prompts ganz oben zu stehen, hinter denen echte Kaufabsicht und hohe Budgets stecken.“
-  </blockquote>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Die 3 häufigsten Fehler beim Tracking mit Ahrefs Brand Radar
 
 1. **Blindes Verlassen auf historische Keyword-Daten:** Ein Keyword mit hohem Suchvolumen führt nicht automatisch zu identischen Prompts in Chat-Systemen. Nutzen Sie Custom Prompts, um das tatsächliche Konversationsverhalten Ihrer Zielgruppe abzubilden.
@@ -114,14 +163,17 @@ except requests.exceptions.RequestException as error:
 
 ## Strategische Einordnung für zukunftssichere Marken
 
-Die Einführung des Brand Radars unterstreicht, dass KI-Sichtbarkeit kein flüchtiges Mo-dethema ist, sondern der neue strategische Maßstab für Reichweite und Vertrauen. Unternehmen, die organische Rankings und KI-Overviews parallel überwachen, sichern sich die Deutungshoheit in ihren Zielmärkten.
+Die Einführung des Brand Radars unterstreicht, dass KI-Sichtbarkeit kein flüchtiges Modethema ist, sondern der neue strategische Maßstab für Reichweite und Vertrauen. Unternehmen, die organische Rankings und KI-Overviews parallel überwachen, sichern sich die Deutungshoheit in ihren Zielmärkten.
 
 Einen Marktüberblick über ergänzende Werkzeuge bietet unser Fachbericht über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die monatlichen Investitionskosten für Tools und Monitoring-Lizenzen können Sie im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) transparent kalkulieren.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
     Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
   </a>
 </div>
 

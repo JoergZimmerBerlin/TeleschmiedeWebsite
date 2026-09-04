@@ -50,10 +50,11 @@ Dieser Workflow ist zuständig für die Erstellung neuer und die Erweiterung bes
 7. Wurden Text-Auflockerungen (Bold, Bulletpoints) und die grüne LinkedIn-CTA-Box genutzt?
 Wenn ein Punkt fehlt, MUSS der Text im Speicher vor dem Schreiben korrigiert werden!
 
-## 3. Visuelles Setup (3D-Infografik)
-1. Generiere für *jeden* neuen Glossar-Artikel zwingend ein eigenes 3D-Thumbnail.
-2. **Design-Regel**: Reinweißer Hintergrund, lime-grüne Akzente, Beschriftungen zwingend auf **DEUTSCH**, Wasserzeichen "Jörg Zimmer" unten rechts.
-3. Speichere das Bild im `.webp` Format ab und trage es *nur* in die Frontmatter ein. Das Bild darf **NIEMALS** per Markdown in den Textfluss (`![Alt](...)`) eingefügt werden, da Astro es ohnehin automatisch rendert (Vermeidung von Doppel-Bildern).
+## 3. Visuelles Setup (3D-Infografiken, Screenshots & Fotos)
+1. **Thumbnail (Frontmatter):** Generiere für neue Glossar-Artikel das 3D-Thumbnail und trage es in die Frontmatter (`image:`) ein. (Dieses Titelbild nicht redundant ganz oben als erstes Bild doppelt in den Fließtext einfügen, da Astro es automatisch als Hero rendert).
+2. **Infografiken im Fließtext (ERWÜNSCHT zur Visualisierung):** Wenn Bilder, Schemata oder Infografiken zur Veranschaulichung komplexer Zusammenhänge (z.B. Systemarchitekturen, Workflows, Datenflüsse) nützlich sind, kreieren wir diese gezielt und binden sie in den Fließtext ein.
+   - **Design-Regel**: Reinweißer Hintergrund, lime-grüne Akzente, Beschriftungen zwingend auf **DEUTSCH**, Wasserzeichen "Jörg Zimmer" unten rechts.
+3. **Echte Fotos & Tool-Screenshots (STRIKTER ERHALT):** Reale UI-Screenshots (z.B. SE Ranking, Rankscale, Search Console) und echte Fotos werten den Artikel massiv auf und bleiben ZWINGEND im Fließtext erhalten. Sie dürfen niemals entfernt oder gekürzt werden.
 
 ## 4. Rückgabe & Verlinkung (Daisy-Chaining)
 1. **Wenn als Sub-Routine gestartet:** Gehe nach der Erstellung der neuen Glossar-Artikel zurück in den Ursprungs-Artikel (z.B. Blog) und verlinke die neu geschriebenen Glossar-Begriffe dort direkt im Fließtext.

@@ -25,13 +25,51 @@ faqs:
     answer: 'Ja! Du kannst das Audit-Tool auch auf die Domains deiner Konkurrenten loslassen, um deren technische Schwächen zu finden und dir so einen Ranking-Vorteil zu verschaffen.'
 ---
 
-Moin! 🌻
-
 Wenn du im heutigen SEO-Alltag ernsthaft erfolgreich sein willst, brauchst du ein massives, absolut fehlerfreies technisches Fundament. Du kannst den besten Content der Welt schreiben und die genialsten Backlinks aufbauen – wenn deine Seite unter der Haube technische Fehler aufweist, die das Crawling oder die Indexierung blockieren, verpuffen deine gesamten SEO-Bemühungen. Genau hier kommt ein tiefgreifendes **Website SEO Audit** ins Spiel. 
 
-In meiner täglichen Arbeit als [SEO-Freelancer in Berlin](/seo-freelancer-berlin/) verlasse ich mich für diese kritische Aufgabe auf eine ganz spezifische Lösung: Das **Website Audit von SE Ranking**. In diesem extrem ausführlichen Guide zeige ich dir exakt, warum ich dieses Tool nutze, wie du damit die verborgenen technischen Baustellen deiner Domain aufdeckst und wie du die Ergebnisse in messbaren Traffic verwandelst. Egal ob du eine kleine Nischenseite oder einen gigantischen E-Commerce-Shop betreust: Die Kontrolle über die Technik ist der allererste Schritt zu mehr Sichtbarkeit. Falls du noch nach dem richtigen Setup suchst, lies gerne meinen [SE Ranking Test 2026](/blog/se-ranking-test-2026/), wo ich das Tool-Ökosystem genauer beleuchte.
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ein Website-Audit ist kein PDF-Friedhof für die Schublade. Es ist der digitale TÜV für dein gesamtes Geschäftsmodell. Wer technische Fehler ignoriert, verbrennt jeden Tag bares Geld und wird von Suchmaschinen und KI-Agenten gnadenlos abgestraft.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
----
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Audit-Hygiene & Crawl-Tiefe</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-800 leading-relaxed mb-4">
+    Verlasse dich nie auf oberflächliche Health Scores von 95 %+, wenn deine wichtigsten Konversionsseiten nicht gecrawlt werden können. Prüfe im ersten Schritt die Crawl-Tiefe und die Disallow-Direktiven in der robots.txt: Liegen deine umsatzstärksten Leistungsseiten in Ebene 4 oder tiefer, verhungern sie beim Crawling trotz scheinbar grünem Gesamt-Audit.
+  </p>
+  <div class="p-3 bg-white/80 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
+    <strong>Kontrollfrage an deine Webagentur oder IT-Abteilung:</strong> „Werden bei unserem monatlichen SEO-Crawl verwaiste Seiten (Orphan Pages) und JavaScript-generierte DOM-Links mitgerendert oder prüft ihr nur statisches HTML?“
+  </div>
+</div>
+
+![Website SEO Audit 3D Infografik - Technische Analyse und Gesundheit-Check mit SE Ranking](../../assets/images/glossar/3d-light/glossar-seo-audit-3d.webp)
+
+In meiner täglichen Arbeit als [SEO-Freelancer in Berlin](/seo-freelancer-berlin/) verlasse ich mich für diese kritische Aufgabe auf eine ganz spezifische Lösung: Das **Website Audit von SE Ranking**. In diesem ausführlichen Guide zeige ich dir exakt, warum ich dieses Tool nutze, wie du damit die verborgenen technischen Baustellen deiner Domain aufdeckst und wie du die Ergebnisse in messbaren Traffic verwandelst. Egal ob du eine kleine Nischenseite oder einen gigantischen E-Commerce-Shop betreust: Die Kontrolle über die Technik ist der allererste Schritt zu mehr Sichtbarkeit. Falls du noch nach dem richtigen Setup suchst, lies gerne meinen [SE Ranking Test 2026](/blog/se-ranking-test-2026/), wo ich das Tool-Ökosystem genauer beleuchte.
 
 ## Warum jedes SEO-Projekt mit einem Website Audit beginnen MUSS
 
@@ -40,8 +78,6 @@ Stell dir vor, du baust ein millionenschweres Hochhaus auf einem schlammigen Sum
 Ein Website Audit prüft heute nicht mehr nur, ob der Googlebot deine Seiten irgendwie finden kann. Es prüft gnadenlos, ob Suchmaschinen und moderne KI-Systeme deine Daten so sauber und strukturiert erhalten, dass sie diese als zitierfähigen Fakt ranken können. Wenn eine URL aufgrund eines falschen Canonical-Tags ignoriert wird, nützt dir das beste Webdesign der Welt rein gar nichts.
 
 Das SE Ranking Website Audit nimmt dir genau diese Sorge ab. Es fungiert als dein digitaler TÜV-Prüfer, der sich durch jede einzelne Zeile Code, jeden internen Link und jedes Bild gräbt, um sicherzustellen, dass deine Website zu 100 % konform mit den aktuellen Richtlinien von Google und Bing ist.
-
----
 
 ## Was ist das SE Ranking Website Audit Tool?
 
@@ -55,8 +91,6 @@ Eines der größten Highlights des Tools ist die extreme Flexibilität in den **
 - **Benutzerdefinierte Regeln erstellen:** Du kannst gezielte Regeln festlegen, um spezifische SEO-Insights für deine Strategie zu filtern.
 - **Einzelne Seiten prüfen:** Du musst nicht immer die ganze Domain scannen. Du kannst das Audit auf einzelne URLs beschränken, um isolierte Landingpages einem schnellen Check zu unterziehen.
 - **Audit-Parameter filtern:** Dir sind aktuell nur Core Web Vitals wichtig? Dann wähle die spezifischen Audit-Kategorien aus, die für dich im Moment die größte Relevanz haben.
-
----
 
 ## Die 6 Hauptkategorien des SE Ranking Audits im Detail
 
@@ -94,8 +128,6 @@ Die Verlinkung ist die Architektur deiner Seite. Ohne saubere Links fließt kein
 - **Fehlende ALT-Attribute:** Bilder ohne Alt-Text sind für Suchmaschinen unsichtbar.
 - **Hreflang-Konflikte:** Für internationale Seiten ist Hreflang der Endgegner. Das Audit deckt hier jeden kleinsten Fehler sicher auf.
 
----
-
 ## Das Herzstück: Der Website Health Score
 
 Wenn du das Dashboard des SE Ranking Website Audits öffnest, springt dir zuerst eine große Zahl ins Auge: Der **Health Score**. Dieser Wert von 0 bis 100 ist eine geniale Metrik, um den Gesamtzustand deiner Domain auf einen Blick zu erfassen.
@@ -105,8 +137,6 @@ Wenn du das Dashboard des SE Ranking Website Audits öffnest, springt dir zuerst
 - **Unter 70:** Kritisch. Hier brennt es an mehreren Ecken und Enden.
 
 Der Health Score ist besonders in der Kommunikation wertvoll. SE Ranking berechnet diesen Score dynamisch basierend auf der Schwere und Anzahl der gefundenen Fehler.
-
----
 
 ## Fehler-Priorisierung: So gehst du strukturiert vor (Triage)
 
@@ -120,8 +150,6 @@ Diese Probleme hindern deine Seite daran, ihr volles Potenzial auszuschöpfen (z
 
 ### 🔵 Notices (Hinweise)
 Hinweise sind Best-Practice-Empfehlungen (z. B. Thin Content, sehr lange URLs).
-
----
 
 ## Automatisierung, Mitbewerber-Audits und Agentur-Features
 
@@ -139,7 +167,28 @@ Egal wie groß deine Seite ist, das Tool skaliert mit: Im Essential-Tarif scanns
 **White-Label für Agenturen:**
 Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports für Kunden, die auf dein Corporate Design abgestimmt sind.
 
----
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten (Cursor, Claude, Antigravity), um die kritischen Audit-Fehler deiner Website automatisiert zu isolieren und strukturierte Fixes zu implementieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Technischer Website-Audit Crawler-Fix &amp; Triage</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer und Web-Performance-Spezialist.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die exportierten Fehler unseres Website-Audits (z. B. aus SE Ranking) und behebe systematisch die kritischen technischen Mängel im Codebase.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Identifiziere alle 4xx- und 5xx-Statuscodes sowie Redirect-Ketten (> 1 Hop) und erstelle eine saubere 301-Rewrite-Map für .htaccess / Nginx.</p>
+    <p>2. Finde alle internen Links ohne Trailing Slash auf Verzeichnisebene und ersetze sie direkt im Quellcode durch kanonische Pfade mit abschließendem Slash.</p>
+    <p>3. Überprüfe alle Canonical-Tags und Meta-Robots-Angaben auf Selbstreferenz und Inkonsistenzen (kein noindex auf kanonisierten Zielen).</p>
+    <p>4. Validierung: Führe einen Curl-Check durch und stelle sicher, dass alle internen URLs mit HTTP 200 ohne Redirect-Umwege antworten.</p>
+  </div>
+</div>
 
 ## Ohne Audit kein SEO-Wachstum
 
@@ -147,10 +196,26 @@ Ein Website SEO Audit mit SE Ranking ist absolut essenziell, um im kompetitiven 
 
 Hol dir die Kontrolle über deinen Code zurück und baue ein Fundament, das jedem Algorithmus-Update standhält. Du kannst das Website-Audit von SE Ranking übrigens mit der 14-tägigen Testversion komplett **kostenlos** ausprobieren.
 
-ALOHA 🌻 
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit für ein fehlerfreies SEO-Fundament?</h3>
-  <p class="mb-6">Hol dir jetzt die volle Kontrolle über deine Technik. Starte dein kompromissloses Website-Audit und decke in wenigen Minuten auf, was dich bisher Rankings und Traffic gekostet hat.</p>
-  <a href="https://seranking.com/de/website-audit.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">SE Ranking Website Audit kostenlos testen</a>
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
+
+### Verwandte Glossar-Einträge
+* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
+* [Website Relaunch ohne Ranking-Verluste](/glossar/website-relaunch/)
+* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
+* [Core Web Vitals: LCP, INP und CLS](/glossar/core-web-vitals/)
+* [PageSpeed: Ladezeiten nachhaltig optimieren](/glossar/pagespeed/)
+* [Google Search Console: Fehler erkennen](/glossar/google-search-console/)
+* [Web Application Firewall (WAF): Schutz vs. SEO](/glossar/web-application-firewall/)
+* [SE Ranking im umfassenden Test](/glossar/se-ranking/)

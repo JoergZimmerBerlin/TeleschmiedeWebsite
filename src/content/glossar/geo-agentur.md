@@ -3,9 +3,8 @@ category: "AI SEO & Generative Search"
 title: "GEO Agentur (Generative Engine Optimization)"
 meta_title: "GEO Agentur: KI-Sichtbarkeit (2026)"
 description: "Eine GEO Agentur optimiert deine Infrastruktur für KI-Systeme wie ChatGPT, Perplexity und LLM-Pipelines nach modernsten Standards. (2026)"
-meta_description: "Eine GEO Agentur optimiert deine Infrastruktur für KI-Systeme wie ChatGPT, Perplexity und LLM-Pipelines nach modernsten Standards. (2026)"
 date: "2026-03-10"
-image: src/assets/images/glossar/3d-light/glossar-geo-agentur-3d.webp
+image: "../../assets/images/glossar/3d-light/glossar-geo-agentur-3d.webp"
 image_alt: "GEO Agentur 3D Infografik - KI-Sichtbarkeit und SEO"
 key_takeaways:
   - "Eine GEO Agentur optimiert Web-Infrastrukturen gezielt für generative Answer Engines und RAG-Pipelines."
@@ -27,18 +26,46 @@ Unternehmen, die ihr digitales Marketing ausschließlich auf das klassische Rank
 
 Wenn ein B2B-Käufer einen detaillierten Prompt formuliert, um die passenden Softwareanbieter für sein Unternehmen zu evaluieren, greifen Sprachmodelle in Millisekunden auf das Live-Web zu. Fehlt deine Website in dieser synthetisierten Vorauswahl, bist du für den Interessenten unsichtbar. Eine spezialisierte **GEO Agentur** (Generative Engine Optimization) schließt genau diese Lücke. Sie transformiert traditionelle Internetauftritte in hochgradig maschinenlesbare Wissensdatenbanken, die von autonomen KI-Agenten verlässlich als Primärquelle zitiert werden.
 
-<div class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl">
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
-    <div class="w-12 h-12 rounded-full bg-lime-accent flex items-center justify-center font-bold text-dark text-xl">JZ</div>
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
     <div>
-      <h4 class="font-bold text-base text-dark">Jörg Zimmer</h4>
-      <p class="text-xs text-neutral-600">Senior SEO & AI Search Consultant</p>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
     </div>
   </div>
-  <p class="text-neutral-700 italic text-sm mb-3">
-    "Vergesst das bloße Schreiben langer Fließtexte für den Browser. Ein Large Language Model benötigt strukturierte Fakten, unmissverständliche Entitäten und minimale Latenzen. Wenn dein Server einem RAG-Crawler nicht sofort schlanken, semantisch dichten Code liefert, zitiert die KI die Konkurrenz. Eine professionelle GEO Agentur arbeitet an der Daten-Pipeline, nicht an Kosmetik."
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Vergesst das bloße Schreiben langer Fließtexte für den Browser. Ein Large Language Model benötigt strukturierte Fakten, unmissverständliche Entitäten und minimale Latenzen. Wenn dein Server einem RAG-Crawler nicht sofort schlanken, semantisch dichten Code liefert, zitiert die KI die Konkurrenz. Eine professionelle GEO Agentur arbeitet an der Daten-Pipeline, nicht an Kosmetik.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-bold text-xs px-2.5 py-1 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+    <h3 class="text-base md:text-lg font-bold text-dark m-0">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  </div>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Wenn dir eine Agentur anbietet, deine Website „fit für KI-Suche“ zu machen, lass dir nicht einfach neue Blogtexte verkaufen. In 8 von 10 Audits sehe ich, dass die Agentur noch nicht einmal weiß, ob der eigene Webserver KI-Bots wie GPTBot oder PerplexityBot blockiert oder ob RAG-Crawler durch clientseitiges JavaScript ausgesperrt werden. Eine echte GEO-Agentur fängt immer am Server und an den strukturierten Entitäten an – nicht im WordPress-Editor.
   </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <strong class="text-xs font-bold text-neutral-800 uppercase tracking-wide block mb-1">Deine Kontrollfrage an die GEO-Agentur:</strong>
+    <p class="text-xs text-neutral-700 m-0 italic">
+      „Mit welchen spezialisierten Monitoring-Tools tracken Sie unseren AI Share of Voice über ChatGPT, Perplexity und Google AI Overviews hinweg, und welche serverseitigen Datenendpunkte (z.B. llms.txt) richten Sie für uns ein?“
+    </p>
+  </div>
 </div>
 
 ## Was eine GEO Agentur im Detail leistet
@@ -77,8 +104,8 @@ Das Fundament jeder GEO-Betreuung ist die Bereitstellung valider strukturierter 
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "GEO Beratung Digital",
-  "url": "https://deinedomain.de/",
+  "name": "Teleschmiede",
+  "url": "https://teleschmie.de/",
   "serviceType": "Generative Engine Optimization",
   "areaServed": "DE, AT, CH",
   "knowsAbout": [
@@ -87,12 +114,39 @@ Das Fundament jeder GEO-Betreuung ist die Bereitstellung valider strukturierter 
     "Entity SEO"
   ],
   "sameAs": [
-    "https://www.linkedin.com/company/geo-beratung/"
+    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
   ]
 }
 ```
 
 Durch solche konsistenten Angaben wird sichergestellt, dass Sprachmodelle dein Angebot ohne semantische Verzerrungen erfassen und in themenspezifischen Prompts als verifizierter Anbieter ausspielen.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten (Cursor, Claude Code, Antigravity, ChatGPT), um für Kunden-Websites einen fehlerfreien, universellen Schema-Markup-Graphen für GEO und Rich Results zu generieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Universellen Schema-Markup-Graphen für Kunden-Domain erstellen</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Semantic Web Architect.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die Kunden-Website und erstelle einen vernetzten Schema.org JSON-LD Graphen (@graph) für die Root-Page und Unterseiten.</p>
+    <p><strong>Anforderungen:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Verknüpfe <code>Organization</code> bzw. <code>ProfessionalService</code> mit einer eindeutigen Entity-ID (z. B. <code>https://domain.de/#organization</code>).</li>
+      <li>Erstelle die Entität <code>Person</code> für den Gründer/Geschäftsführer mit <code>sameAs</code>-Profilen (LinkedIn, Wikipedia, Wikidata, Campixx).</li>
+      <li>Definiere <code>knowsAbout</code>-Entitäten mit passenden Wikidata-URIs für die Kernkompetenzen.</li>
+      <li>Binde <code>WebSite</code>, <code>WebPage</code> und eine lückenlose <code>BreadcrumbList</code> in den gleichen Graphen ein.</li>
+      <li>Stelle sicher, dass Trailing Slashes in allen internen URLs konsistent vorhanden sind.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Liefere das fertige JSON-LD Script inklusive Test-Anweisung für den Google Rich Results Test.</p>
+  </div>
+</div>
 
 ## Der typische Ablauf eines Agentur-Projekts
 
@@ -121,11 +175,19 @@ Ein fundierter Monatsbericht einer GEO Agentur liefert Stakeholdern klare Antwor
 
 Dadurch wird Suchmaschinenberatung von einer reinen Marketing-Disziplin zu einem integralen Bestandteil der modernen IT- und Vertriebs-Infrastruktur. Unternehmen gewinnen die Gewissheit, dass ihre USPs in den Entscheidungsprozessen der generativen KIs optimal vertreten sind.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
 Investiere in die Zukunft deiner digitalen Sichtbarkeit. Eine kompetente GEO Agentur bereitet deine Infrastruktur auf die Anforderungen autonomer Agenten vor und sichert deinem Unternehmen die Spitzenposition in den Entscheidungsprozessen der generativen Ära.
+

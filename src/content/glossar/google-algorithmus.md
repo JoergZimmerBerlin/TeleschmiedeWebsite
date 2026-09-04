@@ -21,91 +21,165 @@ faqs:
 ---
 
 
-Lass uns mal echtes Tacheles reden. Ich bin jetzt seit verdammten 25 Jahren im SEO-Geschäft. Ich habe gesehen, wie man Seiten mit weißem Text auf weißem Grund hochgerankt hat. Ich habe gigantische PBNs hochgezogen, Pinguin- und Panda-Updates überlebt. Wir haben WDF*IDF-Mumpitz durchgemacht und über die optimale Pixel-Länge von Meta-Descriptions diskutiert. 
+Lass uns mal echtes Tacheles reden. Ich bin jetzt seit über 25 Jahren im SEO-Geschäft. Ich habe miterlebt, wie man Seiten mit weißem Text auf weißem Grund an die Spitze geschoben hat, habe PBN-Wellen, Google Florida, Panda und Penguin durchgestanden. Wir haben uns die Köpfe über WDF*IDF-Formeln heißgeredet und um einzelne Pixel in Meta-Descriptions gefeilscht.
 
-Aber das, was wir 2026 erleben, ist kein weiteres "Update" oder ein bisschen Feintuning. Die Zeiten, in denen du für "10 blaue Links" optimierst, sind vorbei. Wenn du heute noch glaubst, du könntest mit mittelmäßigem Content und ein paar gekauften Links den Google Algorithmus austricksen, dann hast du den Schuss nicht gehört. Der Algorithmus ist im Jahr 2026 in erster Linie der Filter, der Retriever, das verfluchte Herzstück hinter den **AI Overviews** und generativen Antworten.
+Aber das, was wir 2026 erleben, ist kein gewöhnliches Google-Update und kein harmloses Feintuning. Die Ära, in der wir Webseiten für eine Liste aus „10 blauen Links“ optimiert haben, ist endgültig Geschichte. Wenn du heute noch glaubst, du könntest mit oberflächlichem SEO-Content, Keyword-Stuffing und ein paar hastig eingekauften Backlinks den Google Algorithmus überlisten, hast du den fundamentalen Wandel verpasst. Der Google Algorithmus agiert heute primär als intelligenter Türsteher und Retriever für generative Antwortsysteme wie die **Google AI Overviews** und multimodale Sprachmodelle.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs Berliner SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Es interessiert niemanden mehr, wie oft dein Keyword im Text steht. Wenn dein Content keinen echten Information Gain liefert und deine Entität kein Vertrauen (E-E-A-T) ausstrahlt, bist du für die AI Overviews unsichtbar. Punkt. Wach auf, denk in Generative Engine Optimization (GEO) und liefere maschinenlesbare Fakten. Hört auf zu flennen und fangt an, echte Expertise aufzubauen."</p>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Der Google-Algorithmus ist heute kein Zähler für Keyword-Dichten mehr, sondern ein gnadenloser Retriever für RAG-Pipelines. Wer keinen originären Information Gain liefert und im Knowledge Graph keine vertrauenswürdige Entität darstellt, existiert für die AI Overviews schlicht nicht. Punkt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Warum stabile Impressionen bei einbrechenden Klicks ein Alarmzeichen sind</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-4">
+    Nach großen Google Updates sehe ich oft dasselbe Phänomen: Die Impressionen in der Search Console bleiben scheinbar stabil, aber die organischen Klicks brechen um 40% ein. Der Grund: Google spielt für deine Kernbegriffe eine AI Overview aus und zitiert die Konkurrenz. Wer nur lexikalisches Allgemeinwissen ohne echten Information Gain bietet, wird vom Algorithmus links liegen gelassen.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/20">
+    <p class="text-xs font-semibold text-dark mb-1">Kontrollfrage an deine Content-Agentur / Redaktion:</p>
+    <p class="text-xs text-neutral-600 italic mb-0">
+      „Welche originären Unternehmensdaten, eigenen Messwerte oder konkreten Praxiserfahrungen enthält dieser Artikel, die in keinem der anderen Top-5-Suchergebnisse stehen?“
+    </p>
+  </div>
 </div>
 
-Der Algorithmus bewertet heute nicht mehr nur isolierte HTML-Seiten. Er entscheidet knallhart, welche Entitäten und Knotenpunkte die großen Sprachmodelle (LLMs) überhaupt füttern dürfen. Wer keinen echten Mehrwert liefert, fliegt raus. 
+Der Algorithmus bewertet Webseiten nicht mehr als isolierte HTML-Dateien. Er zerlegt Dokumente in semantische Einheiten (Chunks), prüft deren Wahrheitsgehalt gegen den globalen Knowledge Graph und entscheidet in Sekundenbruchteilen, welche Quellen als verlässliche Faktenbasis in den Antwort-Prompt eines LLMs übergeben werden dürfen.
 
-## Die Evolution vom 10-Blue-Links-Katalog zum RAG-Retriever
+## 1. Die Evolution vom Link-Verzeichnis zum RAG-Retriever
 
-### Das Ende der Dinosaurier – Willkommen in der LLM-Ära
+Um die Funktionsweise des modernen Algorithmus zu begreifen, muss man verstehen, wie Google Suchanfragen verarbeitet:
 
-Früher nutzte Google Systeme wie RankBrain, um Suchanfragen semantisch zu matchen und HTML-Seiten aufzulisten. Heute übernimmt das Rendering der Suchergebnisse zunehmend ein massives Sprachmodell. Der klassische Algorithmus hat jetzt den Job des Retrievers in der **Retrieval-Augmented Generation (RAG)** Pipeline. 
+Früher nutzten Systeme wie Hummingbird oder RankBrain statistische Modelle, um eingegebene Suchbegriffe mit indexierten Dokumenten abzugleichen. Das Ranking spiegelte wider, welches Dokument die höchste Keyword-Übereinstimmung und die stärksten PageRank-Signale aufwies.
 
-Er ist der Türsteher. Er entscheidet in Millisekunden, welche Fakten so verlässlich, strukturiert und nutzerzentriert sind, dass die KI sie gefahrlos in den Prompt ziehen darf, um eine AI Overview zu generieren. Wenn dein Content nur Wikipedia umschreibt oder synthetischer KI-Müll ohne eigene Substanz ist, kommst du nicht rein. Keine Diskussion.
+Heute bildet der Algorithmus die Retriever-Stufe in einer hochentwickelten **Retrieval-Augmented Generation (RAG)** Architektur. Das bedeutet:
 
-### AI Overviews als Endgegner
+1. **Query Fan-Out:** Die Suchanfrage des Nutzers wird in mehrere semantische Teilfragen zerlegt.
+2. **Dense Vector Retrieval:** Der Algorithmus durchsucht den Index nach Textbausteinen mit der höchsten semantischen Relevanz und prüft gleichzeitig das hinterlegte [E-E-A-T](/glossar/e-e-a-t/).
+3. **Information Gain Scoring:** Textabschnitte, die lediglich bereits bekannte Fakten wiederholen, werden verworfen. Nur Absätze mit neuartigem Informationsgehalt (Information Gain) passieren den Filter.
+4. **LLM-Synthese:** Die ausgewählten Chunks werden an das generative Sprachmodell übergeben, das daraus die Google AI Overview generiert und die klickbaren Zitate (Citations) platziert.
 
-Die [Generative Suche (GEO)](/glossar/geo/) dominiert die Landschaft 2026. Nutzer fordern synthetisierte Antworten aus hochgradig vertrauenswürdigen Quellen, ohne auf ewig ladende Seiten voller Banner klicken zu müssen. 
+Wer in diesem Prozess als Quelle zitiert werden will, muss zwingend die Kriterien der [GEO Optimierung](/glossar/geo-optimierung/) erfüllen: Schnelligkeit, maschinenlesbare Klarheit und unverwechselbare inhaltliche Substanz.
 
-Wir reden nicht mehr über den ersten Platz bei den blauen Links. Wir kämpfen um die **Citation** (Zitierung) im RAG-Prompt! Wer zitiert wird, ist die Ground Truth. Wer fehlt, existiert in der KI-Ökonomie schlichtweg nicht. Und genau hier setzt der moderne Google-Algorithmus an.
-
-## Die neuen Ranking-Säulen: Was 2026 wirklich zählt
-
-Was der Algorithmus heute belohnt, ist eine Mischung aus technischer Perfektion, unantastbarer Expertise und echtem Mehrwert. Hier sind die Faktoren, die 2026 über Leben und Tod entscheiden:
-
-### 1. E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
-Dies ist und bleibt das absolute Fundament. Der Algorithmus sucht nach mathematisch verifizierbarer Expertise. Die Zeiten anonymer Nischen-Blogs sind vorbei. Google bewertet, ob deine Entität im Knowledge Graph einen echten "Trust-Score" hat. Hast du echte, persönliche Erfahrungen (Experience) in deinem Bereich? Wirst du von anderen vertrauenswürdigen Marken zitiert? Wenn nicht, bist du für die RAG-Pipeline uninteressant.
-
-### 2. Information Gain und echte Substanz
-Das ist der Killer für 90% aller KI-generierten Massentexte. Der Algorithmus belohnt Seiten, die einen tatsächlichen *Information Gain* bieten. Bringst du neue Daten, eine einzigartige Perspektive oder eine tiefe Expertenmeinung auf den Tisch, die der Rest des Internets noch nicht hat? Wenn du nur denselben Brei wie die Top 10 wiederkäust, stürzt du ab. Google will Vielfalt und echten menschlichen Mehrwert.
-
-### 3. Search Intent (Suchintention) in Perfektion
-Die exakte Erfüllung des Nutzerbedürfnisses ist kritischer denn je. Google misst haargenau, wie schnell und umfassend ein Nutzer auf deiner Seite zufrieden gestellt wird. Wenn jemand eine schnelle Definition sucht, gib ihm eine knallharte, strukturierte Tabelle. Sucht jemand eine tiefe Analyse, liefere einen 3.000-Wörter-Fachartikel ohne Blabla.
-
-### 4. Technische Struktur und Maschinenlesbarkeit
-Google schickt effizienzgetriebene KI-Agenten, die Fakten extrahieren wollen. Ein sauberes technisches Fundament (Core Web Vitals) ist die Pflicht. Die Kür ist die Strukturierung: Nutze semantisches HTML (H1-H3 Hierarchien), Schema.org (JSON-LD) und baue klare [Grounding Pages](/glossar/grounding-page/) auf. Wenn dein Content für Crawler und LLMs leicht parsebar ist, reduzierst du die Token-Kosten und erhöhst deine Chancen auf Zitationen massiv.
-
-## Die Update-Flut 2026: Ein gnadenloses Aussortieren
-
-Das Jahr 2026 ist durch eine extrem hohe Taktung an Algorithmus-Updates gekennzeichnet. Von den Discover Core Updates im Februar über massive Broad Core Updates im März und Mai bis hin zu kontinuierlichen Spam-Updates. Was lernen wir daraus?
-
-Ein [Google Core Update](/glossar/google-core-update/) kalibriert heute, wie stark bestimmten Entitäten in der RAG-Pipeline vertraut wird. Es sind Anpassungen der Modellgewichte. Wenn du bei einem Core Update abstürzt, bedeutet das in der Regel:
-*   Du hast keinen ausreichenden Information Gain geliefert.
-*   Dein Content wurde als niedrigschwelliger KI-Spam geflaggt.
-*   Deine E-E-A-T-Signale sind zu schwach für das aktuelle Vertrauens-Threshold.
-
-### Rankingfaktoren: Damals vs. KI-Ära
-
-| Faktor | Klassisches Google (bis 2023) | KI-Suche & RAG (2026) |
+| Dimension | Klassischer Algorithmus (bis 2023) | Moderner KI-Algorithmus (2026) |
 | :--- | :--- | :--- |
-| **Inhalt** | Keywords, Wortanzahl, WDF*IDF | Information Gain, E-E-A-T, Entitäten |
-| **Technik** | H1-Tags, Meta-Descriptions | JSON-LD, Strukturierte Daten, RAG-Fähigkeit |
-| **Links** | Domain Authority, Ankertexte | Citations, Brand Mentions, Knowledge Graph |
-| **Ziel** | Ranking in den Top 10 | Zitierung in der AI Overview (Ground Truth) |
+| **Hauptaufgabe** | Sortierung von 10 blauen Links | Retriever für RAG & AI Overviews |
+| **Primäres Kriterium** | Keyword-Match & PageRank | Information Gain & semantische Entitäts-Autorität |
+| **Verarbeitungseinheit** | Vollständiges HTML-Dokument | Semantische Chunks & Wissensknoten |
+| **Inhaltsbewertung** | Textlänge & WDF*IDF-Häufigkeit | Echte Praxiserfahrung & mathematisch verifizierbare Fakten |
+| **Zielgröße** | Organische Klickrate auf Position 1 | Zitationsanteil (Citation Share) in der Answer Engine |
 
-## Aus der Praxis: Meine persönliche Erfahrung
+## 2. Information Gain: Der Todesstoß für synthetischen KI-Müll
 
-Kunden rufen mich oft panisch an, weil ihr Traffic nach einem Core Update um 80% eingebrochen ist. "Jörg, wir haben alles nach SEO-Checkliste gemacht!" Ja, nach einer Checkliste von 2022! Wir schauen tief in die Daten und die Logs: Die Seiten, die abgestürzt sind, boten null Eigenleistung. Es waren reine Aggregator-Inhalte oder seelenlose Ratgeber. 
+Der gravierendste Fehler vieler Webmaster in den vergangenen Jahren war der massenhafte Einsatz generativer KI zur Erstellung austauschbarer SEO-Texte. Wer bestehende Google-Ergebnisse scrapt, durch ein LLM umschreiben lässt und wieder veröffentlicht, baut das perfekte Futter für Googles Spam-Klassifikatoren.
 
-> "Wer den Google-Algorithmus 2026 verstehen will, muss aufhören, Texte für Menschen zu simulieren, und anfangen, echtes Wissen für Maschinen zu strukturieren."
+Der Google Algorithmus belohnt Seiten nach dem **Information Gain Patent**:
+Wenn ein Nutzer drei Artikel zu einem Thema gelesen hat, ermittelt der Algorithmus, welchen Mehrwert ein viertes Dokument bietet. Enthält das vierte Dokument 95 % identische Aussagen, wird es für diesen Nutzer und in aggregierten Rankings abgewertet. Bringt das Dokument jedoch:
+- eigene Messdaten oder Fallstudien,
+- konkrete Preisspannen aus realen Projekten,
+- ungeschminkte Praxiserfahrungen mit Vor- und Nachteilen,
+- oder klare Gegenpositionen zum Konsens,
 
-Die Gewinner der Updates 2026 sind spezialisierte "Ziel"-Websites, Foren mit echter User-Interaktion und Brands mit starker Topical Authority. Bei einem SaaS-Kunden haben wir den gesamten Content radikal auf E-E-A-T und maschinenlesbare Struktur umgestellt. Plötzlich war der Traffic-Einbruch gestoppt und die Domain wurde als primäre Quelle in Perplexity und Google AI Overviews genannt. Friss oder stirb.
+stufen die Bewertungsmodelle den Information Gain als extrem hoch ein. Genau diese Absätze zieht der Algorithmus bevorzugt in die AI Overviews.
 
-## Zusammenfassung: Mach es richtig oder lass es
+## 3. Die Rolle von Core Updates: Neukalibrierung der Vertrauensgewichte
 
-Algorithmus-Updates sind keine Strafe Gottes. Sie sind der logische Schritt in der Evolution der KI-Suche. Google muss Milliarden von Anfragen mit teuren Modellen beantworten und dabei Halluzinationen vermeiden. Der Algorithmus belohnt ab sofort die Domains, die verlässliche, einzigartige und hervorragend strukturierte Daten liefern.
+Ein [Google Core Update](/glossar/google-core-update/) ist kein manueller Filter, der einzelne Webmaster bestraft. Es ist eine umfassende Neukalibrierung der Machine-Learning-Gewichte im neuronalen Kern des Algorithmus.
 
-Hör auf, für veraltete Rankingfaktoren zu optimieren. Baue eine echte Marke auf. Werde zur unumstrittenen Entität in deiner Nische. Schreibe kristallklaren Content mit echtem Information Gain, denn LLMs hassen Geschwafel. Strukturiere deine Daten maschinenlesbar. 
+Wenn Google ein Core Update ausrollt, passieren im Wesentlichen drei Dinge:
+1. **Neubewertung der Entitäten:** Der Trust-Score von Marken im Knowledge Graph wird aktualisiert. Wer über externe Fachzitate, verifizierte Autorenprofile und echte Brand Mentions verfügt, gewinnt an [Topical Authority](/glossar/topical-authority/).
+2. **Spam- und Helpful-Content-Filterung:** Seiten mit hoher Absprungrate und Anzeichen von „Search Engine First Content“ (Inhalte, die nur für Suchmaschinen statt für Menschen geschrieben wurden) werden rigoros herabgestuft.
+3. **Anpassung der Retrieval-Schwellenwerte:** Für sicherheits- und gesundheitsrelevante Themen (YMYL) zieht Google die Hürden für Quellenzitate in RAG-Systemen nochmals deutlich an.
 
-Wenn du diesen Weg konsequent gehst, bist du immun gegen jedes Update. Das ist SEO im Jahr 2026. Hart, inhaltlich tief und gnadenlos qualitativ. 
+Wer nach einem Update Traffic verliert, sollte nicht hektisch Meta-Tags austauschen. Die einzig nachhaltige Strategie besteht darin, die fachliche Tiefe zu erhöhen, klare [Rankingfaktoren](/glossar/rankingfaktoren/) zu berücksichtigen und die eigene Website durch eine strukturierte [Grounding Page](/glossar/grounding-page/) für RAG-Systeme maschinenlesbar aufzubereiten.
 
----
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um bestehende Artikel auf Information-Gain-Lücken und RAG-Retrieval-Tauglichkeit zu überprüfen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Information Gain & RAG-Retrieval Audit durchführen</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter SEO Information Architect & RAG Optimization Engineer.</p>
+    <p><strong>Aufgabe:</strong> Analysiere den beigefügten Markdown-Artikel auf semantische Redundanzen und optimiere ihn gezielt für das RAG-Retrieval von Google AI Overviews.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Identifiziere generische Textblöcke, die lediglich lexikalisches Allgemeinwissen wiedergeben, und kürze sie prägnant zusammen.</p>
+    <p>2. Formuliere für jeden H2-Abschnitt einen Answer-First-Kernsatz (maximal 40 Wörter), der die zentrale Frage direkt und zitierfähig beantwortet.</p>
+    <p>3. Integriere mindestens 2 strukturierte Vergleichstabellen oder Checklisten, die maschinell ohne Fließtext-Overhead geparst werden können.</p>
+    <p>4. Erstelle ein valides Schema.org JSON-LD Snippet (WebPage mit speaksAbout und knowsAbout Relationen), um die behandelten Entitäten eindeutig zu deklarieren.</p>
+    <p>5. Prüfe, ob alle internen Verlinkungen mit einem konsistenten Trailing Slash (/) versehen sind.</p>
+  </div>
+</div>
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+## 4. Die wichtigsten Säulen für algorithmische Stabilität
+
+Wer im Zeitalter generativer Sprachmodelle unabhängig von einzelnen Algorithmus-Anpassungen bleiben will, muss seine Webpräsenz auf drei unverrückbare Pfeiler stellen:
+
+### 1. Echte Autoren-Expertise (E-E-A-T)
+Anonyme Ratgeberartikel ohne nachweisbare Autoren-Expertise sind für Google wertlos. Verknüpfe jeden Fachartikel über strukturierte Autoren-Daten mit verifizierten Profilen (LinkedIn, Branchenpublikationen, Vorträge). Mache deutlich, wer für den Inhalt bürgt und auf welche praktischen Erfahrungswerte zurückgegriffen wird.
+
+### 2. Answer-First-Content-Architektur
+LLM-Crawler wollen keine ausschweifenden Einleitungen lesen, bevor die eigentliche Antwort folgt. Platziere die Kernbotschaft direkt unter der jeweiligen H2-Überschrift. Wenn ein Nutzer nach einer Definition oder einem Prozess fragt, liefere das Ergebnis im ersten Absatz und vertiefe die Details im Anschluss.
+
+### 3. Technische Crawlbarkeit und Latenz
+Ein noch so brillanter Text verpufft, wenn der Webserver Latenzprobleme hat oder Client-Side-Rendering das Auslesen von Texten blockiert. Die Bereitstellung von sauberem Server-HTML, optimierten Ladezeiten und fehlerfreien XML-Sitemaps ist die Grundvoraussetzung, damit der RAG-Retriever deine Inhalte überhaupt in sein Indexierungs-Budget aufnimmt.
+
+## Strategische Ausrichtung für die generative Suche
+
+Der Google Algorithmus ist kein Feind, den man austricksen muss. Er ist ein hochentwickelter Filter, der das Web nach den verlässlichsten, nützlichsten und am besten strukturierten Informationen durchforstet, um teure Modell-Halluzinationen zu verhindern.
+
+Wer aufhört, Texte für veraltete Keyword-Metriken zu schreiben, und stattdessen echten Information Gain mit maschinenlesbarer Struktur liefert, macht seine Website immun gegen algorithmische Schwankungen. Baue eine starke Marke auf, liefere Daten aus erster Hand und etabliere dein Unternehmen als führende Entität in deiner Branche.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-* [Google Core Updates verstehen](/glossar/google-core-update/)
-* [Alles über E-E-A-T](/glossar/trustworthiness-eeat/)
-* [Die Rolle der Grounding Pages](/glossar/grounding-page/)
-* [RAG Pipelines verstehen](/glossar/rag/)
+### Verwandte Glossar-Einträge
+* [Google Core Update: Mechanismen und Entitäts-Neubewertung](/glossar/google-core-update/)
+* [Rankingfaktoren: Was im KI-Zeitalter wirklich zählt](/glossar/rankingfaktoren/)
+* [E-E-A-T: Vertrauen und Autorität im Knowledge Graph aufbauen](/glossar/e-e-a-t/)
+* [RAG Pipelines: Wie generative Antwortsysteme Webdaten abrufen](/glossar/rag/)
+* [Generative Engine Optimization (GEO): Sichtbarkeit in AI Overviews](/glossar/geo-optimierung/)
+* [Topical Authority: Themenführerschaft statt Keyword-Jagd](/glossar/topical-authority/)
+* [Grounding Page: Das maschinenlesbare Fundament für LLMs](/glossar/grounding-page/)
+

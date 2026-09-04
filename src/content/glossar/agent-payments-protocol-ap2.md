@@ -102,14 +102,32 @@ Eine der größten Hürden für autonome Transaktionen war bisher das Risiko man
 
 AP2 verhindert derartige Angriffe durch die strikte Trennung von Sprachmodell und Autorisierungs-Ebene. Das Sprachmodell des Agenten besitzt zu keinem Zeitpunkt direkte Ausführungsrechte für das Bankkonto. Es kann lediglich vordefinierte Mandates anfordern. Weicht die angeforderte Transaktion auch nur um einen Cent von den im Intent Mandate signierten Bedingungen ab, wird der Bezahlvorgang auf Gateway-Ebene hart abgelehnt.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Eine Conversion sagt mehr als tausend Worte. Bei all den Kennzahlen, Klicks und Rankings geht es am Ende nur darum mehr Conversions zu erzielen. Nur dann macht dein Traffic Sinn.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7029859987283664898" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<figure class="my-10 bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-sm flex flex-col md:flex-row items-center gap-6">
+  <img src="/assets/images/profile/joerg-zimmer-portrait.webp" alt="Jörg Zimmer" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-2 border-lime-accent flex-shrink-0" />
+  <div>
+    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
+      „Eine Conversion sagt mehr als tausend Worte. Bei all den Kennzahlen, Klicks und Rankings geht es am Ende nur darum, mehr qualifizierte Abschlüsse zu erzielen. Wenn im Jahr 2026 autonome Agenten die Kaufentscheidungen treffen, entscheidet deine AP2-Schnittstelle darüber, ob der Warenkorb bezahlt wird oder die Maschine zum Mitbewerber abwandert.“
+    </blockquote>
+    <figcaption class="text-sm font-bold text-gray-500 not-italic">
+      Jörg Zimmer, <cite class="font-normal text-gray-400">Senior SEO & AI Search Consultant</cite>
+    </figcaption>
+  </div>
+</figure>
+
+<div class="my-8 p-6 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 shadow-sm not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wide">30-Sekunden Inhaber-Check</span>
+    <strong class="text-lg text-dark">Jörgs Praxistipp aus der SEO-Sprechstunde</strong>
+  </div>
+  <p class="text-dark/90 text-sm leading-relaxed mb-4">
+    Prüfe deinen Onlineshop auf Human-Not-Present (HNP) Barrieren: Blockiert dein Checkout-Prozess unbemerkt maschinelle Anfragen durch Captchas, Cookie-Overlays oder Session-Zwang? Wenn ein Einkaufsagent dein Angebot im RAG-Check auswählt, aber beim Checkout an einer statischen 3D-Secure-Schranke scheitert, bricht die Transaktion ab. Bereite dein Shopsystem frühzeitig auf FIDO-AP2-Mandate vor.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40">
+    <p class="text-xs font-bold text-dark/70 uppercase tracking-wider mb-1">Kontrollfrage für deinen E-Commerce-Leiter oder Payment-Provider:</p>
+    <p class="text-sm font-semibold text-dark italic">
+      "Unterstützt unser Zahlungs-Gateway bereits die FIDO AP2 v0.2 Spezifikation für kryptografisch signierte Cart- und Payment-Mandate, damit autonome KI-Agenten Einkäufe ohne manuellen Klick bei uns abwickeln können?"
+    </p>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler bei der AP2-Implementierung
@@ -120,7 +138,37 @@ AP2 verhindert derartige Angriffe durch die strikte Trennung von Sprachmodell un
 
 ## Strategische Bedeutung für E-Commerce und Agent Readiness
 
-Das Agent Payments Protocol ist die logische monetäre Vollendung moderner [Agent Readiness](/glossar/agent-readiness/). Während Protokolle wie [x402](/glossar/x402-protocol/) und [Machine Payment Protocol (MPP)](/glossar/machine-payment-protocol-mpp/) die Abrechnung von API-Calls auf Micro-Payment-Ebene steuern, deckt AP2 vollwertige Handels- und B2B-Transaktionen ab.
+Das Agent Payments Protocol ist die logische monetäre Vollendung moderner [Agent Readiness](/glossar/agent-readiness/). Während Protokolle wie das [A2A-Protocol](/glossar/a2a-protocol/) die Agent-zu-Agent-Kommunikation steuern, deckt AP2 vollwertige Handels- und B2B-Transaktionen ab.
 
 Online-Händler, die ihre IT-Infrastruktur frühzeitig für AP2 rüsten, sichern sich den entscheidenden Wettbewerbsvorteil, wenn Konsumenten Kaufentscheidungen zunehmend an autonome Agenten delegieren. Wie Sie die Sichtbarkeit Ihrer Angebote in KI-gestützten Shopping-Systemen kontinuierlich analysieren, zeigt unser Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Anfallende Investitionskosten für Schnittstellen-Entwicklungen lassen sich zudem präzise im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) bewerten.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
+  <div class="flex items-center gap-2 mb-4">
+    <span class="bg-lime-accent text-dark font-black text-xs px-3 py-1 rounded-full uppercase tracking-wide">Copy & Paste Task</span>
+    <strong class="text-white text-lg">AP2 Mandate & HNP-Checkout Audit für Cursor, Claude Code oder Antigravity</strong>
+  </div>
+  <p class="text-gray-300 text-sm mb-4">
+    Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine E-Commerce-Endpunkte auf AP2-Konformität und Verifiable Intent zu auditieren:
+  </p>
+  <div class="bg-black/50 p-4 rounded-xl font-mono text-xs text-lime-accent overflow-x-auto border border-white/10 leading-relaxed">
+    <p class="text-gray-400 mb-2"># Rolle: FinTech Protocol & Autonomous Commerce Engineer</p>
+    <p class="text-white font-semibold mb-2">Task: Führe einen technischen Audit der Zahlungs- und Warenkorb-APIs auf Konformität mit dem Agent Payments Protocol (AP2 v0.2) durch.</p>
+    <p class="text-gray-300 mb-1">Anforderungen:</p>
+    <p class="text-gray-300">1. Prüfe, ob Warenkorb-Daten als signiertes Cart Mandate mit Ed25519-Signatur und Zeitstempel serialisiert werden können.</p>
+    <p class="text-gray-300">2. Implementiere die Validierungslogik für eingehende Intent Mandates (Budget-Ceilings, Merchant-Whitelist, Ablaufdatum).</p>
+    <p class="text-gray-300">3. Stelle sicher, dass keine privaten Zahlungsdaten im LLM-Kontextfenster persistiert werden (Zero-Knowledge / Hardware Enclave).</p>
+    <p class="text-gray-300">4. Dokumentiere die maschinenlesbare Schnittstelle in der <code>/.well-known/agent-card.json</code>.</p>
+    <p class="text-lime-accent mt-2">Output: Architektur-Diagramm des Mandate-Flows und Mock-Testskript zur Verifikation signierter Payloads.</p>
+  </div>
+</div>
+
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
+    Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
+  </a>
+</div>
 

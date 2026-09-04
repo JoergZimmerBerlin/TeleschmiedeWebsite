@@ -28,6 +28,45 @@ In der schnelllebigen Digitalwirtschaft verleitet der hohe Grad an Automatisieru
 
 Während die Suchlandschaft durch generative Sprachmodelle, AI Overviews und verändertes Nutzerverhalten grundlegend transformiert wird, hat sich auch die Vernetzung in der Hauptstadt weiterentwickelt. Aus einem ehemals starren Monats-Treffen ist ein agiles, dezentrales Netzwerk entstanden. Formate wie der **Berlin SEO & Content Club (BSCC)** oder das morgendliche **Rise & Rank** Frühstück bringen Inhouse-Verantwortliche großer Brands, Agentur-Spezialisten und selbstständige Berater zusammen, um abseits von Marketingfloskeln über reale Ranking-Herausforderungen zu sprechen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „SEO passiert nicht im Elfenbeinturm und ganz sicher nicht allein vor dem Monitor. Auf dem Berliner Stammtisch und den Meetups sitzen die Leute, die seit 15 oder 20 Jahren denselben Algorithmus-Wahnsinn durchmachen wie ich. Wenn du dort bei einem Feierabendbier mit Kollegen darüber sprichst, wie ein Core Update die Sichtbarkeit zerlegt hat, bekommst du ehrliche Antworten ohne Agentur-Geschwurbel.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600 font-medium">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <p class="text-dark font-semibold text-base mb-3">
+    Nutze lokale Meetups als ungefiltertes Frühwarnsystem für Algorithmus-Veränderungen.
+  </p>
+  <p class="text-neutral-700 text-sm mb-0">
+    <strong>Kontrollfrage an dein Inhouse-Team oder deine Agentur:</strong> „Nimmt unser SEO-Lead regelmäßig an Berliner Fach-Meetups oder Mastermind-Runden teil, um Core Updates und KI-Verschiebungen im direkten Peer-Austausch zu validieren, bevor sie offiziell in Leitfäden stehen?“
+  </p>
+</div>
+
 ## 1. Die Berliner Meetup-Landschaft: Formate und Initiativen
 
 Im Jahr 2026 stützt sich die Berliner SEO-Szene auf mehrere etablierte Säulen, die unterschiedliche Schwerpunkte bedienen:
@@ -85,7 +124,7 @@ Um lokale Stammtische, Vorträge oder Frühstücks-Meetups maschinenlesbar im We
   "organizer": {
     "@type": "Organization",
     "name": "DeineDomain Community Initiativen",
-    "url": "https://deinedomain.de/"
+    "url": "https://teleschmie.de/"
   },
   "isAccessibleForFree": true,
   "description": "Informelles Treffen von Suchmaschinenoptimierern und Content-Strategen zum Austausch über RAG-Pipelines und Core Updates."
@@ -103,10 +142,27 @@ Wer zum ersten Mal an einem spezialisierten Stammtisch teilnimmt, tritt gelegent
 2. **Verschweigen von Misserfolgen:** Wer sich als unfehlbarer Experte inszeniert, verpasst den eigentlichen Nutzen. Die wertvollsten Fachgespräche entstehen, wenn man offen über fehlgeschlagene Relaunches oder unerwartete Ranking-Verluste spricht.
 3. **Mangelnde Kontinuität:** Ein einmaliger Besuch bringt selten nachhaltigen Ertrag. Vertrauen und tiefe fachliche Verbindungen entstehen durch regelmäßige Präsenz und das Teilen von Zwischenständen eigener Experimente.
 
-<div class="bg-white border-l-4 border-lime-500 p-4 rounded-r-lg shadow-sm my-6">
-  <p class="font-bold text-dark mb-1">Jörg Zimmer aus der SEO-Praxis:</p>
-  <p class="text-gray-700 italic mb-2">„SEO passiert nicht im Elfenbeinturm und ganz sicher nicht allein vor dem Monitor. Auf dem Berliner Stammtisch und den Meetups sitzen die Leute, die seit 15 oder 20 Jahren denselben Algorithmus-Wahnsinn durchmachen wie ich. Wenn du dort bei einem Feierabendbier mit Kollegen darüber sprichst, wie ein Core Update die [Sichtbarkeit](/glossar/sichtbarkeit/) zerlegt hat, bekommst du ehrliche Antworten ohne Agentur-Geschwurbel. Wer in unserer Branche isoliert bleibt, verliert den Anschluss.“</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">↗ Zur Diskussion auf LinkedIn</a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um lokale Community-Events und Meetups mit validem Schema.org Event-Markup auszuzeichnen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org Event & Local Community Markup Generator</p>
+    <p><strong>Rolle:</strong> Du bist ein Technical SEO Engineer und Experte für strukturierte Daten nach Schema.org.</p>
+    <p><strong>Aufgabe:</strong> Erstelle eine modulare TypeScript-Komponente zur Generierung von standardkonformem JSON-LD für Offline-Events und lokale Fach-Meetups.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Deklariere das Event-Objekt mit <code>@type: "Event"</code>, <code>eventAttendanceMode: "OfflineEventAttendanceMode"</code> und <code>eventStatus: "EventScheduled"</code>.</p>
+    <p>2. Strukturiere Ort und Veranstalter präzise über verschachtelte Entitäten mit vollständiger <code>addressLocality: "Berlin"</code>, <code>postalCode</code> und <code>organizer</code>.</p>
+    <p>3. Integriere <code>isAccessibleForFree: true</code> und binde ein Ticket- / RSVP-Link-Schema (offers) ein.</p>
+    <p>4. Validiere das generierte Markup gegen den Google Test für Rich Results und stelle sicher, dass keine Pflichtfelder fehlen.</p>
+  </div>
 </div>
 
 ## 5. Strategische Einbindung in den eigenen Workflow
@@ -115,10 +171,17 @@ Der regelmäßige Austausch mit Kollegen schützt vor teuren Fehlentscheidungen 
 
 Zur verlässlichen Messung und Analyse deiner Onpage-Strukturen, Backlink-Entwicklungen und SERP-Positionen empfiehlt sich der Einsatz von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Um gleichzeitig zu überprüfen, wie effektiv die diskutierten Optimierungsansätze in den Zitationsmustern moderner Antwortmaschinen greifen, bietet die Plattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Einblicke in deine KI-Sichtbarkeit.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der Berliner SEO-Szene auf LinkedIn über Meetups, Fachkonferenzen und Netzwerken in der Hauptstadt.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
@@ -129,3 +192,4 @@ Zur verlässlichen Messung und Analyse deiner Onpage-Strukturen, Backlink-Entwic
 * [Experience (E-E-A-T): Praxiserfahrung als Qualitätsmerkmal](/glossar/experience-eeat/)
 * [Google Search Console: Das fundamentale Analysetool](/glossar/google-search-console/)
 * [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
+* [SEO-Beratung im KI-Zeitalter](/glossar/seo-beratung/)

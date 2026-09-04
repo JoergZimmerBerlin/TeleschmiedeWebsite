@@ -28,6 +28,48 @@ Das Konzept der Websuche hat im Jahr 2026 eine historische Transformation durchl
 
 Dieser Prozess beschreibt die Fähigkeit eines großen Sprachmodells (Large Language Model, LLM), einen einzelnen, oft vielschichtigen Nutzerprompt in Sekundenbruchteilen in ein ganzes Bündel spezialisierter, parallel ausgeführter Teilabfragen (*Sub-Queries*) zu zerlegen. Erst die Zusammenführung dieser verteilten Rechercheergebnisse ermöglicht es dem System, fundierte, halluzinationsfreie Antworten mit präzisen Quellenbelegen (*Citations*) zu synthetisieren.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Im Zeitalter des Query Fan-Outs ist das klassische Suchvolumen als alleinige Steuerungsgröße tot. KI-Agenten stellen im Hintergrund dutzende Teilfragen, die kein Mensch jemals in ein Suchfeld getippt hätte. Wer seine Inhalte nicht so strukturiert, dass sie die verästelten Sub-Queries moderner Multi-Hop-Pipelines deterministisch bedienen, existiert für Antwortmaschinen schlichtweg nicht.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="my-8 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent/30 text-lime-950 px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Gib dein wichtigstes Produkt- oder Servicethema in Perplexity oder ChatGPT Search ein und schaue in den Recherche-Modus: Welche 5 bis 10 Sub-Queries hat die KI automatisch generiert? Wenn deine Website nur die oberflächliche Hauptfrage berührt, aber keine konkreten Antworten auf Kosten, Fallstricke oder technische Voraussetzungen liefert, zieht der Algorithmus deine Mitbewerber als Zitatquelle heran.
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40 text-xs text-neutral-800 space-y-2">
+    <p class="font-bold text-lime-900 mb-1">🔍 Schneller Check für dein Inhalts-Audit:</p>
+    <p class="mb-1">1. Prüfe die logischen Verzweigungen deines Themas: Regulatorik, Schnittstellen, typische Fehler und Kostenvergleiche.</p>
+    <p class="mb-1">2. Verwende die „One Idea per Paragraph“-Regel, damit einzelne Faktenblöcke isoliert als Zitat extrahierbar sind.</p>
+    <p class="mb-0 font-semibold text-lime-950"><strong>Kontrollfrage an deine Agentur:</strong> <em>„Planen wir unsere Inhaltsstruktur entlang der 20 bis 30 logischen Sub-Queries von Answer Engines, und optimieren wir Absätze gezielt auf atomare Extrahierbarkeit?“</em></p>
+  </div>
+</div>
+
 ## Wie funktioniert der Query Fan-Out in modernen RAG-Architekturen?
 
 In traditionellen RAG-Systemen (*Retrieval-Augmented Generation*) wurde eine Nutzeranfrage eins zu eins in einen Vektor umgewandelt und das ähnlichste Textsegment aus einer Datenbank abgerufen. In modernen Produktionsumgebungen des Jahres 2026 gilt dieser naive Ansatz als veraltet.
@@ -106,9 +148,9 @@ class QueryFanOutEngine:
     def execute_parallel_retrieval(self, sub_queries: List[str]) -> dict:
         retrieval_results = {}
         for query in sub_queries:
-            # Führe Suche über deinedomain.de Index aus
+            # Führe Suche über teleschmie.de Index aus
             results = self.search_api.query(
-                endpoint="https://deinedomain.de/api/search",
+                endpoint="https://teleschmie.de/api/search",
                 query_string=query,
                 limit=3
             )
@@ -116,23 +158,13 @@ class QueryFanOutEngine:
         return retrieval_results
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Im Zeitalter des Query Fan-Outs ist das klassische Suchvolumen als alleinige Steuerungsgröße tot. KI-Agenten stellen Fragen, die kein Mensch jemals in ein Suchfeld getippt hätte. Wer seine Inhalte nicht so strukturiert, dass sie die verästelten Teilfragen moderner Multi-Hop-Pipelines deterministisch beantworten, existiert für Antwortmaschinen schlichtweg nicht.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Konsequenzen für die [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
 
 Die Existenz des Query Fan-Outs zwingt SEO-Strategen zu einem radikalen Umdenken im Content-Design:
 
 * **Topical Authority schlägt Einzelseiten:** Wenn ein KI-Agent feststellt, dass eine Domain Antworten auf drei oder vier Sub-Queries liefert, wird diese Quelle im Reranking massiv bevorzugt. Die [Keywordrecherche](/glossar/keywordrecherche/) muss daher vollständige Wissenscluster statt isolierter Begriffe modellieren.
-* **Atomare Informationsblöcke:** Antworten müssen so formuliert sein, dass sie isoliert extrahierbar sind. Kurze Absätze, präzise Definitionsblöcke und [strukturierte Daten](/glossar/strukturierte-daten/) senken den Parsing-Aufwand neuronaler Netze.
-* **Fakten-Grounding und Zitierbarkeit:** Modelle suchen gezielt nach belegbaren Zahlen, Studien und eindeutigen Aussagen, um ihre Thesen im Syntheseschritt zu stützen. Vage Marketing-Floskeln werden im Reranking aussortiert.
+* **Die „One Idea per Paragraph“-Regel:** Antworten müssen so formuliert sein, dass sie isoliert extrahierbar sind. Kurze Absätze (40 bis 70 Wörter), präzise Definitionsblöcke und [strukturierte Daten](/glossar/strukturierte-daten/) senken den Parsing-Aufwand neuronaler Netze. Details dazu im Leitfaden für [zitierfähigen Content](/glossar/zitierfaehiger-content/).
+* **Fakten-Grounding und Zitierbarkeit:** Modelle suchen gezielt nach belegbaren Zahlen, Studien und eindeutigen Aussagen, um ihre Thesen im Syntheseschritt zu stützen. Vage Marketing-Floskeln werden im Reranking aussortiert. Auch [Zero-Click Content](/glossar/zero-click-content/) profitiert direkt von hoher Faktendichte.
 
 ## Die 3 häufigsten Fehler beim Query Fan-Out
 
@@ -146,10 +178,43 @@ Der Query Fan-Out beweist, dass moderne Suchsysteme nicht mehr passive Index-Kat
 
 Einen detaillierten Marktüberblick über spezialisierte Analyse-Tools zur Messung Ihrer Markenpräsenz in generativen Modellen finden Sie im Leitfaden über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die anfallenden Aufwände für moderne RAG- und GEO-Audits können Sie vorab transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Query Fan-Out & Sub-Query Decomposition Mapping</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AI Search Architect & Semantic Content Engineer.</p>
+    <p><strong>Aufgabe:</strong> Generiere einen vollständigen Query-Fan-Out-Baum (Multi-Query Decomposition) für die Ziel-URL und identifiziere fehlende Faktenanker.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Sub-Query-Zerlegung: Analysiere das Hauptthema und erstelle 15 bis 25 atomare Sub-Queries (Definition, Regulierung, technische Architektur, Kosten, Fallstricke).</li>
+      <li>Coverage-Audit: Gleiche bestehenden Content mit den Sub-Queries ab und markiere unbeantwortete Teilfragen.</li>
+      <li>Chunk-Optimierung: Erstelle für jede Lücke einen prägnanten 50-Wort-Chunk im 'Answer-First'-Format inklusive harter Entitäten.</li>
+      <li>Schema & Trailing Slashes: Zeichne FAQPage-Strukturen aus und stelle sicher, dass alle internen URLs auf <code>/</code> enden.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Liefere eine Sub-Query-Matrix mit Deckungsgrad-Analyse und fertigen Text-Chunks zur direkten CMS-Integration.</p>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
@@ -159,3 +224,5 @@ Einen detaillierten Marktüberblick über spezialisierte Analyse-Tools zur Messu
 * [Moderne Keywordrecherche](/glossar/keywordrecherche/)
 * [Was ist eine Entität im SEO?](/glossar/entitaet/)
 * [Strukturierte Daten für KI-Systeme](/glossar/strukturierte-daten/)
+* [Zitierfähiger Content im Überblick](/glossar/zitierfaehiger-content/)
+* [Zero-Click Content Optimierung](/glossar/zero-click-content/)

@@ -26,11 +26,53 @@ Jahrzehntelang verließ sich die Web-Industrie auf das Prinzip des guten Glauben
 
 Die zukunftssichere Antwort der Internet Engineering Task Force (IETF) und von Infrastruktur-Riesen wie Cloudflare und Google lautet **Web Bot Auth**.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „User-Agent-Strings sind im Zeitalter generativer Scraper wertlos – jeder Anfänger kann 'Googlebot' fälschen. Wer heute noch versucht, KI-Agenten über statische IP-Listen zu managen, verliert entweder Serverressourcen an illegitime Datendiebe oder sperrt wertvolle Such-Agenten versehentlich aus. Web Bot Auth und RFC 9421 bringen endlich kryptografische Gewissheit.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">KI-Bot-Verifizierung & Sicherheit</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-800 leading-relaxed mb-4">
+    Überprüfe, ob deine Web-Infrastruktur oder dein CDN bereits HTTP Message Signatures (RFC 9421) an der Edge validieren kann. Führende Provider wie Cloudflare unterstützen die Signaturprüfung bereits im Verified-Bots-Programm, sodass legitime KI-Agenten auch bei rotierenden IP-Adressen sofort als vertrauenswürdig erkannt werden.
+  </p>
+  <div class="p-3 bg-white/80 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
+    <strong>Kontrollfrage an deine Webagentur oder IT-Abteilung:</strong> „Haben wir unsere Bot-Erkennung auf kryptografische Signaturprüfung (RFC 9421 / Web Bot Auth) vorbereitet, damit Such-Agenten von OpenAI, Google und Anthropic nicht an statischen IP-Blockaden scheitern?“
+  </div>
+</div>
+
+![3D-Infografik: Bot-Authentifizierung, Reverse-DNS und Agenten-Verifizierung](../../assets/images/glossar/3d-light/glossar-web-bot-auth-3d.webp)
+
 ## Was ist Web Bot Auth?
 
 Web Bot Auth ist ein kryptografisches Authentifizierungs-Framework für automatisierte HTTP-Clients. Anstatt bloße Behauptungen im Header aufzustellen, signiert der anfragende Bot wesentliche Bestandteile seines HTTP-Requests mit einem privaten kryptografischen Schlüssel (typischerweise Ed25519).
 
-Die technische Grundlage bildet der Standard **RFC 9421 (HTTP Message Signatures)**. Beim Eintreffen des Requests liest der Webserver oder die Edge-WAF (Web Application Firewall) die Signatur aus und gleicht sie mit dem öffentlich publizierten Schlüsselbund (**JSON Web Key Set / JWKS**) des jeweiligen Bot-Betreibers ab.
+Die technische Grundlage bildet der Standard **RFC 9421 (HTTP Message Signatures)**. Beim Eintreffen des Requests liest der Webserver oder die Edge-WAF ([Web Application Firewall](/glossar/web-application-firewall/)) die Signatur aus und gleicht sie mit dem öffentlich publizierten Schlüsselbund (**JSON Web Key Set / JWKS**) des jeweiligen Bot-Betreibers ab.
 
 Stimmt die mathematische Signatur, ist zweifelsfrei bewiesen:
 1.  **Authentizität:** Der Request stammt tatsächlich von der deklarierten Organisation (z. B. Google, OpenAI oder Anthropic).
@@ -57,7 +99,7 @@ Web Bot Auth löst all diese Probleme: Die Signatur reist direkt im HTTP-Request
 | **Latenz-Overhead** | 0 ms | 50 – 200 ms (DNS-Roundtrips) | **< 1 ms (Lokale Schlüsselprüfung)** |
 | **Cloud-Skalierbarkeit**| Hoch | Mangelhaft bei dynamischen IPs | **Perfekt über CDN & Edge-WAFs** |
 | **Schlüssel-Verteilung** | Entfällt | DNS-Zonendateien | **JWKS via `/.well-known/jwks.json`** |
-| **Rechte-Steuerung** | Unstrukturiert | Grobmaschig nach Hostname | **Feingranular mit [Content-Signalen](/glossar/content-signals/)** |
+| **Rechte-Steuerung** | Unstrukturiert | Grobmaschig nach Hostname | **Feingranular mit [Content Signals](/glossar/content-signals/)** |
 
 ## Die Anatomie eines RFC 9421 Bot-Requests
 
@@ -65,7 +107,7 @@ Ein standardkonformer Request unter Web Bot Auth enthält spezifische Signatur-H
 
 ```http
 GET /artikel/kuenstliche-intelligenz HTTP/1.1
-Host: deinedomain.de
+Host: teleschmie.de
 User-Agent: Mozilla/5.0 (compatible; CertifiedAiBot/1.0; +https://aibot.example/info)
 Date: Fri, 04 Sep 2026 01:20:00 GMT
 Signature-Input: sig1=("@method" "@target-uri" "@authority" "date");keyid="aibot-key-2026-01";alg="ed25519";created=1788475200
@@ -109,7 +151,7 @@ export function verifyBotRequest(signatureBase, signatureBase64, publicKeyPem) {
 }
 
 // Beispiel-Aufruf (neutrales Setup)
-const sampleSignatureBase = '"@method": GET\n"@target-uri": https://deinedomain.de/\n"date": Fri, 04 Sep 2026 01:20:00 GMT';
+const sampleSignatureBase = '"@method": GET\n"@target-uri": https://teleschmie.de/\n"date": Fri, 04 Sep 2026 01:20:00 GMT';
 console.log('Validierungs-Funktion für Web Bot Auth bereit.');
 ```
 
@@ -123,16 +165,6 @@ Für die praktische Umsetzung im Proxy oder Application Gateway müssen drei zen
 
 Im Gegensatz zu Legacy-Methoden wie Reverse DNS (FCrDNS), die pro Request bis zu zwei langsame DNS-Lookups erforderten und moderne Anycast-IP-Pools von Cloud-Anbietern überforderten, erfolgt die Auswertung von RFC 9421 lokal auf Serverebene innerhalb von wenigen Mikrosekunden.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Das grundsätzliche Problem ist die unsichtbare Welt hinter der Website. Ob eine Website gut oder schlecht ist. Gut oder schlecht programmiert. Schnell oder langsam. Selbst das Prüfen, ob sie gut oder schlecht rankt, ist von außen schwer zu beurteilen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7083056707148374016" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Die 3 häufigsten Fehler bei der Bot-Verifizierung
 
 In der Praxis führen Fehlkonfigurationen oft zur unbeabsichtigten Selbstsperre oder zu massiven Performance-Einbußen:
@@ -143,7 +175,55 @@ In der Praxis führen Fehlkonfigurationen oft zur unbeabsichtigten Selbstsperre 
 
 ## Strategische Bedeutung für Agent Readiness
 
-Web Bot Auth bildet das sicherheitstechnische Rückgrat moderner [Agent Readiness](/glossar/agent-readiness/). Erst wenn zweifelsfrei feststeht, welche Identität hinter einer Maschinen-Anfrage steht, können nachgelagerte Schnittstellen wie [RFC 8288 Link-Header](/glossar/rfc-8288-link-headers/), [DNS-AID](/glossar/dns-aid/) und [auth.md](/glossar/auth-md/) risikolos geöffnet werden. Im Zusammenspiel mit dem [A2A-Protocol](/glossar/a2a-protocol/) entsteht ein transparentes Ökosystem, in dem verifizierte Agenten autonom geschäftliche Mehrwerte stiften, ohne die IT-Infrastruktur zu gefährden.
+Web Bot Auth bildet das sicherheitstechnische Rückgrat moderner [Agent Readiness](/glossar/agent-readiness/). Erst wenn zweifelsfrei feststeht, welche Identität hinter einer Maschinen-Anfrage steht, können nachgelagerte Schnittstellen wie [RFC 8288 Link-Header](/glossar/rfc-8288-link-headers/), [DNS-AID](/glossar/dns-aid/) und [auth.md](/glossar/auth-md/) risikolos geöffnet werden. Im Zusammenspiel mit dem [A2A Protocol](/glossar/a2a-protocol/) entsteht ein transparentes Ökosystem, in dem verifizierte Agenten autonom geschäftliche Mehrwerte stiften, ohne die IT-Infrastruktur zu gefährden.
 
 Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwerten, erfahren Sie in unserem Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die Kosten für Edge-Sicherheit und Bot-Management lassen sich präzise im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme RFC-9421-Signaturvalidierung für eingehende Bot-Requests zu implementieren:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: RFC 9421 HTTP Message Signature Middleware</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Web-Security-Architekt und Node.js/Edge-Worker-Entwickler.</p>
+    <p><strong>Aufgabe:</strong> Entwickle eine Middleware für unseren Webserver (oder Cloudflare Worker), die eingehende Requests automatisierter Agenten auf RFC 9421 HTTP Message Signatures prüft. Validiere die Header 'Signature-Input' und 'Signature' gegen öffentlich hinterlegte JWKS-Schlüsselbunde der Bot-Betreiber.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Parse den 'Signature-Input'-Header und extrahiere die deklarierten Komponenten (@method, @target-uri, @authority, date), keyid und alg (z. B. ed25519).</p>
+    <p>2. Konstruiere den kanonischen Signatur-Basistext gemäß RFC 9421 und prüfe die Zeitstempel-Toleranz (Clock-Skew max. +/- 300 Sekunden).</p>
+    <p>3. Lade den passenden öffentlichen Ed25519-Schlüssel aus dem serverseitigen LRU-Cache (mit automatischem Refresh bei Cache-Miss gegen das verifizierte JWKS-Verzeichnis).</p>
+    <p>4. Führe die kryptografische Verifikation durch: Bei gültiger Signatur wird der Request mit dem internen Kontext 'is_verified_bot = true' markiert und an die Anwendung durchgereicht; bei gefälschter Signatur erfolgt ein HTTP 403 Forbidden.</p>
+    <p>5. Validierung: Erstelle Unit-Tests mit synthetischen Signaturen und verifiziere, dass Anfragen ohne Signatur bei normalen Usern nicht blockiert werden.</p>
+  </div>
+</div>
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Einträge
+* [Agent Readiness für KI-Suchsysteme](/glossar/agent-readiness/)
+* [RFC 8288 Link-Header im technischen SEO](/glossar/rfc-8288-link-headers/)
+* [DNS-AID: Agent Identity Discovery](/glossar/dns-aid/)
+* [auth.md für KI-Agenten](/glossar/auth-md/)
+* [A2A Protocol: Agent-to-Agent Kommunikation](/glossar/a2a-protocol/)
+* [Web Application Firewall (WAF): Schutz vs. SEO](/glossar/web-application-firewall/)
+* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
+* [Content Signals für generative KI-Modelle](/glossar/content-signals/)
 

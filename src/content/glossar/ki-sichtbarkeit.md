@@ -27,6 +27,47 @@ faqs:
 
 Im Jahr 2026 hat sich die digitale Informationsbeschaffung grundlegend gewandelt: Anstatt isolierte Suchbegriffe in Suchmaschinen einzugeben und sich mühsam durch Ergebnislisten zu klicken, führen Nutzer fortlaufende Dialoge mit multimodalen KI-Assistenten. Für Unternehmen bedeutet dieser Wandel, dass das bloße Erreichen von Position 1 bei Google nicht mehr ausreicht. Wer in den direkten Antworten der KIs nicht als maßgebliche [Entität](/glossar/entitaet/) existiert, verliert den Zugriff auf die wertvollsten Touchpoints der modernen Customer Journey.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „SEO ist digitaler Markenaufbau. Kaufentscheidungen fallen heute in den Antworten der Sprachmodelle. Wer nicht als vertrauenswürdige Entität im semantischen Graph der KIs verankert ist, verliert seine Zielgruppe in der Zero-Click-Welt. In diesem Spiel geht es darum, deine Marke für KI-Systeme unübersehbar und zitierfähig zu machen.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="bg-lime-accent text-dark text-xs font-bold px-2.5 py-0.5 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h4 class="font-bold text-dark text-base md:text-lg mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h4>
+  <p class="text-dark/80 text-sm leading-relaxed mb-4">
+    Konzentriere deine GEO-Bemühungen nicht nur auf die eigene Domain. Large Language Models validieren deine Glaubwürdigkeit über Co-Occurrence auf maßgeblichen Branchenportalen, OMR Reviews, GitHub oder Fachmedien. Sorge dafür, dass dein Markenname im selben semantischen Vektor-Cluster wie die anerkannten Marktführer deiner Nische genannt wird.
+  </p>
+  <div class="pt-3 border-t border-lime-accent/20">
+    <p class="text-xs text-dark/70 font-medium italic mb-0">
+      <strong>Kontrollfrage an deine Webagentur:</strong> „Haben wir ein systematisches Entitäten- und Zitations-Monitoring aufgesetzt, um unseren Share of Model in ChatGPT und Perplexity monatlich zu tracken?“
+    </p>
+  </div>
+</div>
+
 ## Der fundamentale Wandel: Vom Klick-Traffic zur Antwort-Dominanz
 
 Über zwei Jahrzehnte hinweg basierte das Geschäftsmodell der Suchmaschinenoptimierung auf einem einfachen Tauschgeschäft: Google lieferte ein Verzeichnis von Links, der Nutzer klickte, und die Zielseite monetarisierte den Besucher. Im Zeitalter von [Zero Click Content](/glossar/zero-click-content/) bricht dieser Zyklus:
@@ -78,7 +119,7 @@ Diese Besucher zeichnen sich typischerweise durch eine überdurchschnittlich hoh
 | **Erfolgsmetrik** | Keyword-Position (1–100), CTR | Share of Model, Zitationsfrequenz, Sentiment |
 | **Datenbasis** | Google Web-Index & PageRank | Vektor-Embeddings, LLM-Trainingskorpus & RAG |
 | **Nutzerabsicht** | Stichwortsuche (Keywords) | Problemorientierte Prompts & Dialoge |
-| **Ergebnisformat** | Blaue Links & strukturierte Snippets | Ausformulierter, zusammenfassender Fließtext |
+| **Ergebnisformat** | Blaue Links & strukturierte Snippets | Ausformulierter, synthetisierter Fließtext |
 | **Qualitätsnachweis** | Backlinks & Ladezeiten | [E-E-A-T](/glossar/e-e-a-t/), Konsens im Netz & Entitäts-Signale |
 
 ## Universelle Datenpipeline: Berechnung von Share of Model & Citation Rate
@@ -127,25 +168,61 @@ if __name__ == "__main__":
     print("KI-Sichtbarkeits-Ergebnis:", metrics)
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „SEO ist Markenaufbau. Vergiss alles, was du glaubst, über SEO zu wissen. In diesem Spiel geht darum, eine Marke sichtbar zu machen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7097940119357112320" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
-</div>
-
 ## Die 3 häufigsten Fehler beim Aufbau von KI-Sichtbarkeit
 
 1. **Reine Textmassen ohne originäre Daten publizieren:** KI-Modelle fassen bestehende Webinhalte mühelos zusammen. Wer generische Ratgebertexte veröffentlicht, liefert der KI keinen Grund für ein Zitat. Zitiert werden exklusive Studien, eigene Branchenumfragen und konkrete Zahlen.
 2. **Entitäten nicht maschinenlesbar verknüpfen:** Wenn Firmenname, Geschäftsführer, Produkte und Domain auf unterschiedlichen Kanälen uneinheitlich bezeichnet werden, scheitert die Entitäts-Erkennung im Wissensgraphen. Das Potenzial verpufft in isolierten Datenfragmenten.
 3. **Klassisches SEO als veraltet abtun:** Generative Antwort-Engines wie Perplexity oder Google AI Overviews greifen im RAG-Schritt auf reguläre Suchmaschinen-Indizes zurück. Eine technisch mangelhafte Website ohne saubere Crawlbarkeit wird von KI-Crawlern ignoriert.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Zitationsfähigkeit deiner Web-Architektur systematisch zu prüfen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: RAG-Optimierungs-Audit & Entity Co-Occurrence Check</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Specialist.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe die Domain https://teleschmie.de/ auf ihre Zitationsfähigkeit in Retrieval-Augmented Generation (RAG) Systemen.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Prüfe die robots.txt auf vollständige Freigabe für relevante KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).</p>
+    <p>2. Validiere das Schema.org-Markup auf https://teleschmie.de/ bezüglich Organization, Person (Jörg Zimmer), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.</p>
+    <p>3. Analysiere bestehende Content-Cluster nach dem 'Answer-First'-Prinzip (prägnante BLUF-Definitionen in den ersten 300 Zeichen).</p>
+    <p>4. Erstelle einen Optimierungsplan zur Erhöhung der Zitationsrate in LLM-Antworten.</p>
+  </div>
+</div>
+
 ## Strategische Einordnung & Monitoring-Setup
 
 KI-Sichtbarkeit ist kein kurzlebiger Hype, sondern das dominierende Paradigma für Markenführung im modernen Web. Wer frühzeitig in strukturierte Daten, semantische Entitätsverknüpfungen und unbestechliche Themenautorität investiert, sichert sich eine dauerhafte Präsenz in den Köpfen der Sprachmodelle.
 
 Welche Softwarelösungen Sie beim kontinuierlichen Monitoring von KI-Erwähnungen unterstützen, erfahren Sie in unserem Marktüberblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Anfallende Softwarekosten und Beratungsinvestitionen lassen sich zudem transparent mit dem interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) veranschlagen.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7097940119357112320" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Generative Engine Optimization (GEO)](/glossar/geo/)
+* [Share of Model im KI-Zeitalter](/glossar/share-of-model/)
+* [Promptsets für das LLM-Tracking](/glossar/promptset/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)
+* [Zero Click Content verstehen](/glossar/zero-click-content/)
+* [Entitäten im semantischen Web](/glossar/entitaet/)
+* [E-E-A-T für generative KIs](/glossar/e-e-a-t/)
 

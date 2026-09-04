@@ -33,6 +33,7 @@ interface Props {
   mainEntity?: any;
   sameAs?: string;
   alternateNames?: string[];
+  quote?: string;
 }
 
 const { 
@@ -48,8 +49,8 @@ const {
   faqs,
   mainEntity,
   sameAs,
-  alternateNames
-
+  alternateNames,
+  quote
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
@@ -443,6 +444,27 @@ if (faqs && faqs.length > 0) {
       }
     }))
   } as any);
+}
+
+// Add Quotation to graph if quote is provided
+if (quote) {
+  const quotationId = `${url}#quotation`;
+  graph.push({
+    "@type": "Quotation",
+    "@id": quotationId,
+    "name": `Experten-Zitat von Jörg Zimmer: ${title}`,
+    "text": cleanText(quote),
+    "creator": { "@id": personId },
+    "spokenByCharacter": { "@id": personId },
+    "isPartOf": { "@id": url }
+  } as any);
+
+  // Link to Article or BlogPosting if present
+  const contentNode = graph.find(e => e["@type"] === "Article" || e["@type"] === "BlogPosting");
+  if (contentNode) {
+    if (!contentNode.hasPart) contentNode.hasPart = [];
+    contentNode.hasPart.push({ "@id": quotationId });
+  }
 }
 
 // Wrap in context

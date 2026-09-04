@@ -24,6 +24,29 @@ Während die traditionelle Suchmaschinenoptimierung den Fokus auf Rankings, Klic
 
 Wer im Zeitalter der [AI Search](/glossar/ai-search/) bestehen will, muss nicht mehr "ranken", sondern **zitiert werden**.
 
+<figure class="my-10 bg-white border border-gray-200/80 rounded-2xl p-6 md:p-8 shadow-sm not-prose">
+  <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+    <div class="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0 border-2 border-lime-accent shadow-md">
+      <img 
+        src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+        alt="Jörg Zimmer Porträt" 
+        class="w-full h-full object-cover"
+        loading="lazy"
+        width="96"
+        height="96"
+      />
+    </div>
+    <div class="space-y-3 text-center md:text-left">
+      <blockquote class="text-base md:text-lg text-dark leading-relaxed italic">
+        "In der Ära der Answer Engines ist die Citation Frequency die neue Leitwährung. Rankings auf Seite 1 interessieren niemanden mehr, wenn 60 % der Nutzer die Antwort direkt im KI-Chat konsumieren. Wer dort nicht als zitierte Quelle auftaucht, findet im Entscheidungsprozess schlicht nicht statt."
+      </blockquote>
+      <figcaption class="text-sm text-gray-500 font-medium">
+        — <cite class="not-italic font-semibold text-dark">Jörg Zimmer</cite>, Senior SEO & AI Consultant
+      </figcaption>
+    </div>
+  </div>
+</figure>
+
 ## Die Währung der Answer Engines
 
 KI-Systeme wie ChatGPT (mit SearchGPT), Perplexity oder Google Gemini aggregieren Fakten aus dem Netz und generieren daraus fließende Antworten. Um Halluzinationen zu vermeiden und Vertrauen aufzubauen, verlinken sie ihre Aussagen mit Fußnoten – den sogenannten Citations.
@@ -43,7 +66,7 @@ Ein Sprachmodell zitiert Seiten besonders häufig, die:
 
 Die manuelle Eingabe von Prompts ist fehleranfällig und nicht skalierbar. Da die Ausgabe einer KI probabilistisch ist, muss die Frequenz über hunderte von Anfragen gemessen werden.
 
-Hierfür nutzt die Branche [AI Visibility Tools](/glossar/ai-visibility-tools/). Wenn du eine spezialisierte Lösung suchst, die primär auf die Auswertung von LLM-Zitationen und Share of Voice ausgelegt ist, empfiehlt sich [Rankscale](https://rankscale.ai/?via=offer). Für Agenturen und Marketer, die eine umfassende Suite bevorzugen, bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) inzwischen ebenfalls sehr potente Tracking-Module an, um die Citation Frequency in ChatGPT und AI Overviews automatisiert zu überwachen.
+Hierfür nutzt die Branche [AI Visibility Tools](/glossar/ai-visibility-tools/). Wenn du eine spezialisierte Lösung suchst, die primär auf die Auswertung von LLM-Zitationen und Share of Voice ausgelegt ist, empfiehlt sich [Rankscale](/glossar/rankscale/). Für Agenturen und Marketer, die eine umfassende Suite bevorzugen, bietet [SE Ranking](/glossar/se-ranking/) inzwischen ebenfalls sehr potente Tracking-Module an, um die Citation Frequency in ChatGPT und AI Overviews automatisiert zu überwachen.
 
 
 ## Der Praxis-Deep-Dive für 2026: Strategien, Case Studies und Checklisten
@@ -78,7 +101,18 @@ Wenn du sicherstellen willst, dass dein Unternehmen in den Antworten der zukünf
 
 Durch diese Maßnahmen transformierst du deine Website von einer reinen Online-Broschüre in einen unverzichtbaren Datenknotenpunkt für moderne KI-Systeme.
 
-
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-accent p-6 rounded-r-2xl">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="bg-lime-accent text-dark text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">30-Sekunden Inhaber-Check</span>
+  </div>
+  <p class="font-bold text-dark mb-1">Jörgs Praxistipp aus der SEO-Sprechstunde</p>
+  <p class="text-dark/80 text-sm leading-relaxed mb-3">
+    Versteife dich nicht allein auf Onpage-Texte: Über 80 % der Zitationen in KI-Overviews stammen aus Earned Media, verifizierten Branchenberichten und Co-Occurrences auf Drittplattformen wie Reddit, YouTube oder Fachportalen. Baue gezielt digitale Brand Mentions auf, um deine Zitierhäufigkeit in LLMs zu multiplizieren.
+  </p>
+  <p class="text-xs text-dark/60 font-medium italic">
+    <strong>Kontrollfrage an deine Webagentur:</strong> „Messen wir mit spezialisierten Tools kontinuierlich unsere Citation Frequency und unseren Share of Model über die wichtigsten Answer Engines hinweg?“
+  </p>
+</div>
 
 ### Die psychologische Komponente der KI-Sichtbarkeit
 
@@ -86,10 +120,43 @@ Neben den harten technischen Metriken und der reinen maschinellen Auslesbarkeit 
 
 Dieses Phänomen führt dazu, dass Traffic, der über KI-Sichtbarkeit generiert wird, in der Praxis oft signifikant höhere Conversion-Raten aufweist als herkömmlicher Google-Traffic. Es ist ein Vertrauensvorschuss, der durch maschinelle Objektivität suggeriert wird. Daher ist die Investition in saubere Entitäten, starke Co-Occurrence und exzellente Grounding-Strukturen weit mehr als nur technisches SEO – es ist digitales Marken-Gold im Zeitalter der Automatisierung.
 
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="bg-lime-accent text-dark text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Copy & Paste Task</span>
+    <span class="text-xs text-gray-400">AEO & Citation Analytics Agent</span>
+  </div>
+  <p class="font-bold text-white text-base mb-2">Multi-Model Citation Frequency Tracker & Benchmarking</p>
+  <p class="text-sm text-gray-300 leading-relaxed mb-4">
+    Nutze diesen Prompt für deinen Coding-Agenten (Cursor, Claude, Antigravity), um ein automatisiertes Skript zur Messung deiner Zitierhäufigkeit in LLM-Antworten aufzusetzen:
+  </p>
+  <div class="bg-black/50 p-4 rounded-xl text-xs text-gray-200 font-mono space-y-2 border border-white/5">
+    <p class="text-lime-accent font-semibold">// Rolle & Kontext</p>
+    <p>Du bist ein AI SEO Analytics Specialist. Erstelle ein Node.js- / Python-Skript, das automatisiert die Citation Frequency für ein Prompt-Cluster abfragt und auswertet.</p>
+    <p class="text-lime-accent font-semibold pt-1">// Anforderungen</p>
+    <p>1. Lade eine Liste von 25 kaufentscheidenden Zielgruppen-Prompts und sende sie an Perplexity (Sonar API) sowie OpenAI (Search API).</p>
+    <p>2. Prüfe alle zurückgegebenen Quellen-URLs auf Übereinstimmung mit unserer Domain und den wichtigsten Wettbewerbern.</p>
+    <p>3. Berechne die absolute Citation Frequency sowie den relativen Share of Model (SoM) pro Modell.</p>
+    <p>4. Speichere die Historie in einer SQLite-Datenbank und erstelle einen wöchentlichen HTML-Report mit Trend-Indikatoren.</p>
+    <p class="text-lime-accent font-semibold pt-1">// Output</p>
+    <p>Ausführbares Skript mit Umgebungsvariablen für API-Keys und übersichtlicher CLI-Ausgabe.</p>
+  </div>
+</div>
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+<div class="my-8 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <p class="font-bold text-xl mb-4">Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2">
     Beitrag auf LinkedIn öffnen
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+    </svg>
   </a>
 </div>
+
+### Verwandte Glossar-Begriffe
+* [Share of Model (SoM) verstehen](/glossar/share-of-model/)
+* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
+* [AI Search Funktionsweise](/glossar/ai-search/)
+* [Rankscale Tool Review](/glossar/rankscale/)
+* [SE Ranking im umfassenden Test](/glossar/se-ranking/)
+* [Brand Mentions und Co-Occurrences](/glossar/brand-mentions/)
+* [Zitierfähiger Content im KI-Zeitalter](/glossar/zitierfaehiger-content/)

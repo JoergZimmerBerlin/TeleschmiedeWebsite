@@ -27,18 +27,43 @@ In der modernen Web-Architektur entscheidet die Art und Weise der Inhaltsauslief
 
 Hier setzt **Server-Side Rendering (SSR)** an. Es bildet die technologische Speerspitze für [Technisches SEO](/glossar/technisches-seo/) und eine exzellente [Usability](/glossar/usability/). Indem der Webserver das vollständige HTML-Dokument vor der Auslieferung dynamisch generiert, erhalten Suchmaschinen-Bots, KI-Crawler und Endnutzer in Bruchteilen einer Sekunde den fertigen Payload. Dies eliminiert Wartezeiten, schützt wertvolles Crawl-Budget und sichert die unmittelbare Indexierung geschäftskritischer Inhalte.
 
-<div class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl">
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
-    <div class="w-12 h-12 rounded-full bg-lime-accent flex items-center justify-center font-bold text-dark text-xl">JZ</div>
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
     <div>
-      <h4 class="font-bold text-base text-dark">Jörg Zimmer</h4>
-      <p class="text-xs text-neutral-600">Senior SEO & AI Search Consultant</p>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
     </div>
   </div>
-  <p class="text-neutral-700 italic text-sm mb-3">
-    "Wer im Zeitalter generativer KI-Suche immer noch leere JavaScript-Hüllen an Crawler ausliefert, sabotiert seine eigene Sichtbarkeit. Weder der Googlebot noch autonome RAG-Crawler warten darauf, dass komplexe Client-Skripte ausgeführt werden. Wenn dein Server nicht sofort semantisch sauberes HTML liefert, existiert dein Content für die Maschinen schlichtweg nicht."
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer im Zeitalter generativer KI-Suche immer noch leere JavaScript-Hüllen an Crawler ausliefert, sabotiert seine eigene Sichtbarkeit. Weder der Googlebot noch autonome RAG-Crawler warten darauf, dass komplexe Client-Skripte ausgeführt werden. Wenn dein Server nicht sofort semantisch sauberes HTML liefert, existiert dein Content für die Maschinen schlichtweg nicht.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-2">
+    <span class="text-xs font-bold uppercase tracking-wider bg-lime-accent text-dark px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs text-neutral-600 font-medium">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <p class="text-dark font-semibold text-base mb-3">
+    Prüfe mit curl, ob dein Hauptinhalt ohne JavaScript im initialen HTML vorhanden ist.
   </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
+  <p class="text-neutral-700 text-sm mb-0">
+    <strong>Kontrollfrage an deine Webagentur:</strong> „Liefert unser Server bei einem einfachen <code>curl -s https://teleschmie.de/ | grep -i 'h1'</code> sofort die vollständigen Überschriften und Texte aus, oder benötigen wir JavaScript, damit überhaupt Content erscheint?“
+  </p>
 </div>
 
 ## Wie Server-Side Rendering technisch funktioniert
@@ -82,7 +107,7 @@ app.get('/produkte/:id', async (req, res) => {
   const htmlPayload = renderTemplate('produkt-detail', {
     titel: produkt.name,
     preis: produkt.preis,
-    kanonisch: `https://deinedomain.de/produkte/${produkt.id}/`
+    kanonisch: `https://teleschmie.de/produkte/${produkt.id}/`
   });
   
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
@@ -91,6 +116,31 @@ app.get('/produkte/:id', async (req, res) => {
 ```
 
 Dieser Code stellt sicher, dass Crawler keine asynchronen Datenabrufe im Browser abwarten müssen, sondern alle Entitätsattribute direkt beim ersten HTTP-Status-200 vorfinden.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Server-Side Rendering und statische HTML-Auslieferung in deinem Webprojekt auf Render-Blockaden zu überprüfen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: SSR- & Hydration-Audit für Webseiten durchführen</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Fullstack-Entwickler & Technical SEO Auditor.</p>
+    <p><strong>Aufgabe:</strong> Untersuche die vorliegende Frontend-Architektur auf Client-Side-Rendering-Fallen und Hydration Mismatches.</p>
+    <p><strong>Anforderungen:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Prüfe, ob Hauptüberschriften (&lt;h1&gt;), Leistungsbeschreibungen und Navigationselemente bereits im initialen Server-HTML enthalten sind.</li>
+      <li>Identifiziere clientseitige &lt;div onClick&gt;-Events und refaktoriere sie zu validen semantischen HTML-Ankern (&lt;a href="..."&gt;) mit abschließendem Trailing Slash.</li>
+      <li>Analysiere Time-to-First-Byte (TTFB) und schlage gezielte Edge-Caching-Header (Cache-Control: s-maxage) vor.</li>
+    </ul>
+    <p class="pt-1"><strong>Output:</strong> Liefere einen strukturierten Refactoring-Plan mit konkreten Code-Diffs für die serverseitige Template-Generierung.</p>
+  </div>
+</div>
 
 ## GEO und RAG: Warum SSR für autonome Agenten überlebenswichtig ist
 
@@ -114,11 +164,27 @@ Die kontinuierliche Überwachung serverseitiger Auslieferungszeiten ist für den
 
 Wenn du zusätzlich prüfen möchtest, ob deine SSR-generierten Inhalte von modernen Sprachmodellen korrekt erfasst und zitiert werden, liefert **[Rankscale](https://rankscale.ai/?via=offer)** präzise Auswertungen deiner KI-Zitationsraten.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+Mache Server-Side Rendering zum Herzstück deiner technischen Onpage-Strategie. Bereite deine Daten so auf, dass Mensch und Maschine gleichermaßen in Millisekunden bedient werden, und sichere dir so nachhaltige Spitzenpositionen in der klassischen wie auch der generativen Suche.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über Server-Side Rendering und KI-Crawlability.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-Mache Server-Side Rendering zum Herzstück deiner technischen Onpage-Strategie. Bereite deine Daten so auf, dass Mensch und Maschine gleichermaßen in Millisekunden bedient werden, und sichere dir so nachhaltige Spitzenpositionen in der klassischen wie auch der generativen Suche.
+### Verwandte Glossar-Einträge
+* [Two-Wave Indexing im Detail](/glossar/two-wave-indexing/)
+* [PageSpeed Optimierung für RAG](/glossar/pagespeed/)
+* [Technisches SEO im Detail](/glossar/technisches-seo/)
+* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
+* [Entität in der semantischen Suche](/glossar/entitaet/)
+* [Core Web Vitals optimieren](/glossar/core-web-vitals/)
+* [Usability für Mensch und Maschine](/glossar/usability/)

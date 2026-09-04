@@ -25,6 +25,48 @@ Seit mehr als zwei Jahrzehnten diskutiert die SEO-Branche über mystische Listen
 
 Moderne Suchmaschinen und Large Language Models analysieren Webinhalte nicht mehr als isolierte Aneinanderreihung von Zeichenketten, sondern transformieren Sprache in semantische Vektoren. Wer heute nachhaltige Platzierungen anstrebt, muss verstehen, wie Relevanz, Vertrauen und technische Plattformgüte ineinandergreifen.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer heute noch nach der einen magischen 200-Faktoren-Checkliste sucht, hat moderne Suchmaschinen nicht verstanden. Google und KI-Engines bewerten Relevanz situativ. Entscheidend ist nicht, ob ein Keyword fett markiert ist, sondern ob deine Entität echtes Vertrauen genießt, du echten Information Gain lieferst und deine Plattform technisch makellos antwortet.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="my-8 bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-xs uppercase tracking-wider font-bold bg-lime-accent/30 text-lime-950 px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-neutral-700 text-sm leading-relaxed mb-4">
+    Ein fataler Irrtum, den Agenturen Inhabern gerne verkaufen: <em>„Wir optimieren jetzt die 200 geheimen Google-Rankingfaktoren für euch!“</em> Das klingt nach Magie, ist in der Realität aber reines Blendwerk. Google und moderne Antwortmaschinen bewerten Relevanz heute situativ. Was nützt dir die perfekte Keyword-Dichte oder ein gekaufter Backlink, wenn der Nutzer deine Seite nach zwei Sekunden frustriert verlässt, weil er die gesuchte Antwort nicht findet? Der mit Abstand mächtigste Rankinghebel ist die kompromisslose Erfüllung der Suchintention kombiniert mit makelloser mobiler Ladezeit!
+  </p>
+  <div class="bg-white/80 rounded-xl p-4 border border-lime-accent/40 text-xs text-neutral-800 space-y-2">
+    <p class="font-bold text-lime-900 mb-1">🔍 Dein 30-Sekunden-Check in der Google Search Console:</p>
+    <p class="mb-1">1. Öffne die <strong>Google Search Console</strong> und filtere unter <em>Leistung</em> nach Suchanfragen mit durchschnittlicher Position zwischen 4 und 10 (Low-Hanging Fruits).</p>
+    <p class="mb-1">2. Vergleiche deine Landingpage mit Platz 1: Fehlen konkrete Preisspannen, Tabellen oder direkte Antworten im ersten Absatz?</p>
+    <p class="mb-0 font-semibold text-lime-950"><strong>Kontrollfrage an deine Agentur:</strong> <em>„Welche konkreten Information-Gain-Signale und echten Nutzer-Mehrwerte fügen wir unseren Seiten auf Position 4 bis 10 hinzu, um in die Top 3 vorzudringen?“</em></p>
+  </div>
+</div>
+
 ## Die Evolution der Ranking-Paradigmen
 
 Um die heutigen Rankingfaktoren richtig einzuordnen, lohnt ein direkter Vergleich zwischen den historischen Kriterien und den modernen Bewertungsmustern intelligenter Systeme:
@@ -91,7 +133,7 @@ Ein sauber implementiertes Schema.org-Markup hilft Suchmaschinen und generativen
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Rankingfaktoren im Überblick",
-  "url": "https://deinedomain.de/rankingfaktoren/",
+  "url": "https://teleschmie.de/glossar/rankingfaktoren/",
   "inLanguage": "de-DE",
   "author": {
     "@type": "Person",
@@ -101,11 +143,11 @@ Ein sauber implementiertes Schema.org-Markup hilft Suchmaschinen und generativen
   "publisher": {
     "@type": "Organization",
     "name": "Teleschmiede",
-    "url": "https://deinedomain.de/"
+    "url": "https://teleschmie.de/"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://deinedomain.de/rankingfaktoren/"
+    "@id": "https://teleschmie.de/glossar/rankingfaktoren/"
   }
 }
 </script>
@@ -119,28 +161,54 @@ Im Rahmen technischer Analysen begegnen uns regelmäßig Fehlannahmen, die erheb
 2. **Vernachlässigung der internen Linkarchitektur:** Wertvolle Linkkraft versickert häufig auf Nebenseiten, weil Hauptthemen nicht gezielt intern verlinkt werden oder fehlerhafte Pfade ohne Schrägstrich das Routing belasten.
 3. **Mangelnde Performance-Optimierung bei Mobilgeräten:** Während die Desktop-Version im Test überzeugt, brechen mobile Ladezeiten durch unkomprimierte Skripte ein. Google bewertet Websites ausschließlich auf Basis des Mobile-First-Index.
 
-## Strategische Ausrichtung in der Praxis
-
-Wer im heutigen Wettbewerb Spitzenpositionen besetzen will, führt regelmäßig ein ganzheitliches [SEO-Audit](/glossar/seo-audit/) durch. Nachhaltiges Ranking basiert nicht auf kurzfristigen Tricks, sondern auf der perfekten Symbiose aus menschlicher Fachkompetenz, technischer Performance und semantisch strukturierter Informationsarchitektur.
-
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-start gap-4">
-    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
-      💡
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
     </div>
-    <div>
-      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über moderne Ranking-Signale</h3>
-      <p class="text-gray-600 text-sm italic mb-2">
-        „Wer heute noch nach der einen magischen Checkliste sucht, hat die Funktionsweise moderner Sprachmodelle nicht verstanden. Google und KI-Engines bewerten Relevanz situativ. Entscheidend ist, ob deine Entität für ein Thema echtes Vertrauen genießt und ob deine Plattform technisch makellos liefert.“
-      </p>
-      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
-    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Technisches Ranking-Faktoren & Information-Gain Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener SEO Architect & Information Gain Analyst.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe alle zentralen Landingpages auf die wichtigsten technischen und inhaltlichen Ranking-Signale für Google und KI-Overviews.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <ul class="list-disc pl-4 space-y-1 text-gray-300">
+      <li>Core Web Vitals Check: Validiere LCP-, CLS- und INP-Konfigurationen in den Vorlagen (z. B. Lazy Loading, Bilddimensionen).</li>
+      <li>Information Gain: Prüfe Inhaltsblöcke stichprobenartig auf Einzigartigkeit – enthält die Seite eigene Daten, Zitate, Vergleiche oder Tabellen?</li>
+      <li>Strukturierte Daten: Stelle sicher, dass jede Seite ein passendes Schema.org Markup (<code>TechArticle</code>, <code>Product</code>, <code>Service</code> oder <code>LocalBusiness</code>) mit validen Entitäts-IDs enthält.</li>
+      <li>E-E-A-T Verankerung: Prüfe, ob Autoren-Boxen mit echten Personen, Berufserfahrung und LinkedIn-Profilen im Quelltext semantisch hinterlegt sind.</li>
+    </ul>
   </div>
 </div>
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+## Strategische Ausrichtung in der Praxis
+
+Wer im heutigen Wettbewerb Spitzenpositionen besetzen will, führt regelmäßig ein ganzheitliches [SEO-Audit](/glossar/seo-audit/) durch. Nachhaltiges Ranking basiert nicht auf kurzfristigen Tricks, sondern auf der perfekten Symbiose aus menschlicher Fachkompetenz, technischer Performance und semantisch strukturierter Informationsarchitektur. Als erfahrener [SEO Freelancer für Berlin](/seo-freelancer-berlin/) begleite ich Unternehmen dabei, diese Rankingfaktoren pragmatisch und umsatzorientiert in die Praxis zu überführen.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
+
+### Verwandte Glossar-Einträge
+* [E-E-A-T: Das Qualitätsfundament](/glossar/e-e-a-t/)
+* [Core Web Vitals & PageSpeed](/glossar/core-web-vitals/)
+* [Google Algorithmus Updates](/glossar/google-algorithmus/)
+* [Technisches SEO im Detail](/glossar/technisches-seo/)
+* [Topical Authority aufbauen](/glossar/topical-authority/)
+* [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)
+* [Strukturierte Daten für KI-Suchmaschinen](/glossar/strukturierte-daten/)

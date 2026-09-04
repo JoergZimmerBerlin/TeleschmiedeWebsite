@@ -28,6 +28,46 @@ In den Anfangsjahren der Suchmaschinenoptimierung dominierten Textketten (String
 
 Hier setzt das **Entitäten-Building** an. Es beschreibt das handwerkliche und datentechnische Fundament, um ein Unternehmen, eine Person oder ein Produkt als eindeutig identifizierbares Objekt ([Entität](/glossar/entitaet/)) in globalen Knowledge Graphen und neuronalen Vektorräumen zu verankern. Ohne ein stabiles Entitäten-Fundament bleibt eine Domain für moderne RAG-Pipelines (Retrieval-Augmented Generation) unsichtbar, da Algorithmen nicht verifizieren können, wer hinter den Inhalten steht und welche Glaubwürdigkeit der Quelle gebührt.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer im KI-Zeitalter nur auf Keywords optimiert, baut sein Haus auf Sand. Große Sprachmodelle und moderne RAG-Pipelines verlangen harte, verifizierbare Entitäts-Knotenpunkte. Wenn du im Knowledge Graph nicht als eindeutige Identität existierst, wirst du in generativen Antworten schlichtweg weggefiltert. Entitäten-Building ist deine digitale Lebensversicherung.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="text-xs font-bold uppercase tracking-wider bg-dark text-white px-2.5 py-1 rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-semibold text-neutral-600">Jörgs Praxistipp aus der SEO-Sprechstunde</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Bidirektionale sameAs- und Wikidata-Verknüpfung prüfen</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-3">
+    Ein häufiger Denkfehler beim Entitäten-Building: Webmaster verlinken im Schema-Markup zwar auf ein Wikidata-Item oder LinkedIn-Profil, vergessen jedoch den Rückkanal. Eine Entität wird von Algorithmen erst dann als verifiziert eingestuft, wenn die externe Quelle (z. B. Wikidata-Property P856) explizit auf die kanonische Domain zurückverweist.
+  </p>
+  <div class="bg-white/80 rounded-xl p-3 border border-lime-accent/40 text-xs text-neutral-800 font-medium">
+    <strong>Kontrollfrage an Ihre IT / Webagentur:</strong> „Sind unsere Schema.org-Entitäten über @id und sameAs mit unseren maßgeblichen Branchenprofilen verknüpft und verweisen diese Profile mit Backlinks exakt auf unsere kanonische Haupt-URL zurück?“
+  </div>
+</div>
+
 ## Die Evolution der Suchmaschinen: Von Keywords zu Wissensknoten
 
 Um die Tragweite des Entitäten-Buildings zu begreifen, lohnt ein Blick auf die technologische Entwicklung des Webs:
@@ -67,23 +107,23 @@ Die Bereitstellung maschinenlesbarer Daten erfolgt über verschachtelte JSON-LD-
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://deinedomain.de/#organization",
-      "name": "Muster Innovations GmbH",
-      "url": "https://deinedomain.de/",
-      "logo": "https://deinedomain.de/assets/logo.png",
+      "@id": "https://teleschmie.de/#organization",
+      "name": "Teleschmiede",
+      "url": "https://teleschmie.de/",
+      "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
         "https://www.wikidata.org/wiki/Q98765432",
-        "https://www.linkedin.com/company/muster-innovations/",
-        "https://www.crunchbase.com/organization/muster-innovations"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://www.crunchbase.com/organization/teleschmiede"
       ],
       "founder": {
         "@type": "Person",
-        "@id": "https://deinedomain.de/#founder",
-        "name": "Erika Mustermann",
-        "jobTitle": "Geschäftsführerin & Software-Architektin",
+        "@id": "https://teleschmie.de/#founder",
+        "name": "Jörg Zimmer",
+        "jobTitle": "Senior SEO & AI Search Consultant",
         "sameAs": [
           "https://www.wikidata.org/wiki/Q12345678",
-          "https://www.linkedin.com/in/erika-mustermann/"
+          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
         ],
         "knowsAbout": [
           "https://www.wikidata.org/wiki/Q184199",
@@ -97,6 +137,28 @@ Die Bereitstellung maschinenlesbarer Daten erfolgt über verschachtelte JSON-LD-
 ```
 
 Durch die Vergabe fester IDs (`@id`) und die Verlinkung auf globale Wikidata-Konzepte wird der Rechenaufwand für KI-Parser minimiert, wodurch die Entität unmittelbar in den globalen Knowledge Graph aufgenommen werden kann.
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript zur Validierung von Entitäts-IDs über die Google Knowledge Graph Search API und Schema.org zu erstellen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Graph &amp; Knowledge Graph API Audit</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Semantic Web Architect und Python/Node.js Developer.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Skript, das die Brand-Entität über die Google Knowledge Graph Search API abfragt, den resultierenden resultScore auswertet und die bidirektionale sameAs-Konsistenz mit unserer Groundingpage validiert.</p>
+    <p><strong>Schritte &amp; Validierung:</strong></p>
+    <p>1. Frage den Knowledge Graph für Teleschmiede ab und extrahiere @id, types und description.</p>
+    <p>2. Gleiche gefundene Identifier mit den sameAs-Einträgen im JSON-LD-Graph von teleschmie.de ab.</p>
+    <p>3. Gib eine strukturierte Tabelle der verifizierten Kanten und fehlenden Verknüpfungen aus.</p>
+  </div>
+</div>
 
 ## Typische Praxisfehler beim Entitäten-Building
 
@@ -126,23 +188,28 @@ Für Unternehmen, die ihre Entitäts-Autorität von Grund auf etablieren wollen,
 
 Entitäten-Building ist kein einmaliges Projekt, sondern ein strategischer Dauerprozess. Wer seine digitale Identität heute strukturiert, maschinenlesbar und konsistent im Web verankert, sichert sich eine dauerhafte Präsenz in den KI-generierten Suchsystemen der Zukunft.
 
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-center gap-3 mb-3">
-    <span class="text-2xl">💡</span>
-    <strong class="text-lg text-dark">Jörg Zimmer aus der SEO-Praxis:</strong>
-  </div>
-  <p class="text-gray-700 italic mb-2">
-    "Wer im KI-Zeitalter nur auf Keywords optimiert, baut sein Haus auf Sand. Große Sprachmodelle und moderne RAG-Pipelines verlangen harte, verifizierbare Entitäts-Knotenpunkte. Wenn du im Knowledge Graph nicht als eindeutige Identität existierst, wirst du in generativen Antworten schlichtweg weggefiltert. Entitäten-Building ist deine digitale Lebensversicherung."
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    [↗ Zur Diskussion auf LinkedIn]
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
-  </a>
-</div>
+## Verwandte Glossar-Begriffe
+
+- [Entität](/glossar/entitaet/)
+- [Entity SEO](/glossar/entity-seo/)
+- [Groundingpage](/glossar/grounding-page/)
+- [Citation](/glossar/citation/)
+- [Topical Authority](/glossar/topical-authority/)
+- [GEO Optimierung](/glossar/geo-optimierung/)
+- [E-E-A-T](/glossar/e-e-a-t/)
+
 

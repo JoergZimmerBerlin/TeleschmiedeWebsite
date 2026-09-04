@@ -28,6 +28,32 @@ Das **Brand Sentiment** (die maschinelle Marken-Stimmungsanalyse) ist eine der e
 
 Im Jahr 2026 hat sich die Informationsbeschaffung grundlegend gewandelt. Wenn ein potenzieller B2B-Kunde einen KI-Assistenten wie ChatGPT, Perplexity oder Google Gemini fragt: *„Welcher CRM-Anbieter eignet sich am besten für den Mittelstand?“*, liefert das System keinen neutralen Index aus zehn blauen Hyperlinks. Es verfasst eine wertende Synthese. Wird Ihre Marke darin zwar genannt, aber als *„funktional, jedoch überteuert und mit schwerfälligem Support“* geframed, führt die Erwähnung nicht zu Umsatz, sondern schreckt Interessenten sofort ab. Ein positiver Sentiment-Score ist das Schutzschild Ihrer digitalen Markenreputation.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Reine Zitationszahlen sind eine Illusion, wenn das Modell Ihre Marke nur neutral auflistet oder mit Vorbehalten versieht. In der KI-Suche entscheidet nicht das bloße Vorkommen, sondern das Sentiment: Wer die Neutralitätsfalle nicht überwindet und von der KI nicht als exzellente Lösung empfohlen wird, verliert Interessenten direkt im Antwort-Chat.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Vom Social-Listening zum LLM-Response-Sentiment
 
 Die klassische Stimmungsanalyse im Online-Marketing basierte jahrelang auf sogenanntem Social Listening: Tools durchsuchten Plattformen wie X, LinkedIn oder Foren nach Erwähnungen des Markennamens und wiesen den Sätzen über simple Wortlisten (Lexika) Polaritäten (positiv, neutral, negativ) zu.
@@ -48,6 +74,23 @@ Beim systematischen Audit von Markenerwähnungen in Large Language Models identi
 - **Aktive Warnung (Negatives Sentiment):** Das Modell weist ungefragt auf bekannte Schwachstellen, veraltete Technologie oder rechtliche Streitigkeiten hin.
 
 > Im B2B-Sektor ist die **Neutral Trap** das am weitesten verbreitete Problem. Viele Marktführer wiegen sich in falscher Sicherheit, weil ihr [Share of Model](/glossar/share-of-model/) hoch ist. Wenn die Erwähnung jedoch rein deskriptiv bleibt, verpufft der Marketing-Effekt. Die Kunst moderner AEO-Strategien besteht darin, durch gezieltes semantisches Framing aus der Neutralität in die aktive Empfehlung aufzusteigen.
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="px-3 py-1 bg-lime-accent/30 text-dark font-mono text-xs font-bold rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-bold text-neutral-600 uppercase tracking-wider">Praxis-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-4">
+    Geben Sie in ChatGPT und Perplexity folgenden Prompt ein: <em>„Vergleiche [Ihre Marke] mit [Wettbewerber A] bezüglich Zuverlässigkeit, Preis-Leistung und Support.“</em> Wenn die KI bei Ihnen neutral bleibt, aber den Mitbewerber als „klarer Marktführer“ empfiehlt, stecken Sie in der Neutralitätsfalle. Schaffen Sie unverzüglich verifizierte Trust-Signale auf externen Bewertungsplattformen.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3">
+    <p class="text-xs text-neutral-600 font-semibold mb-1">Frage an Ihre Webagentur oder Ihr Inhouse-Team:</p>
+    <p class="text-xs text-neutral-800 italic">
+      „Monitoren wir in unserem KI-Sichtbarkeits-Tracking neben dem reinen Share of Voice auch das semantische Sentiment und erfassen wir, ob unsere Marke als Top-Empfehlung oder nur als neutrale Randnotiz genannt wird?“
+    </p>
+  </div>
+</div>
 
 ## Evolution der NLP-Sentiment-Technologien
 
@@ -111,14 +154,26 @@ if __name__ == "__main__":
     print("Sentiment-Analyse:", result)
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „Durch die Analyse von Daten kann man das Verhalten und die Wünsche der Zielgruppe besser verstehen und die Marketingstrategie entsprechend anpassen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein aspektbasiertes Brand-Sentiment-Scoring für KI-Antworten aufzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Aspektbasiertes LLM-Sentiment-Scoring</p>
+    <p><strong>Rolle:</strong> Du bist ein NLP-Spezialist & Python Data Engineer.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Python-Skript, das LLM-Antworten aus ChatGPT- und Perplexity-APIs abruft und das Sentiment für eine definierte Marke berechnet.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Klassifiziere Markennennungen in <em>positive (recommended)</em>, <em>neutral (listed)</em> und <em>negative (caveated)</em>.</p>
+    <p>2. Analysiere spezifische Dimensionen wie Support, Preis-Leistungs-Verhältnis und Usability über Zero-Shot-Klassifikatoren.</p>
+    <p>3. Exportiere die Zeitreihen-Ergebnisse als strukturiertes JSON für BI-Dashboards.</p>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler beim Brand Sentiment Management
@@ -132,4 +187,25 @@ if __name__ == "__main__":
 Um das Modell-Sentiment nachhaltig ins Positive zu drehen, müssen Unternehmen gezielte Off-Site-Validation betreiben. Dazu gehören verifizierte Bewertungen auf Portalen mit hoher Entitätsautorität (wie G2, OMR Reviews oder Trustpilot), aktive Beteiligung an Fachdiskussionen und das Bereitstellen detaillierter, transparenter Lösungsdokumentationen.
 
 Im Rahmen ganzheitlicher [E-E-A-T](/glossar/e-e-a-t/) Optimierungen stärken Sie damit die Reputation Ihrer [Entität](/glossar/entitaet/) und sichern sich eine dauerhaft hohe [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/). Einen detaillierten Überblick über Softwarelösungen zur Sentiment-Erfassung finden Sie in unserem Guide über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die damit verbundenen Monitoringkosten lassen sich vorab im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Share of Model im KI-Zeitalter](/glossar/share-of-model/)
+* [AI Visibility Tools Vergleich](/glossar/ai-visibility-tools/)
+* [Sichtbarkeitsmanagement für Unternehmen](/glossar/sichtbarkeitsmanagement/)
+* [E-E-A-T Framework](/glossar/e-e-a-t/)
+* [Entitäten im semantischen Web](/glossar/entitaet/)
 

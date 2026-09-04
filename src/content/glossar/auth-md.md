@@ -26,6 +26,32 @@ Das moderne Web steht vor einem historischen Paradigmenwechsel: Während Entwick
 
 Wenn ein autonomer Einkaufs-Agent an einem visuellen Captcha scheitert, platzt der digitale Geschäftsabschluss. Um dieses fundamentale Dilemma zu lösen, wurde im Mai 2026 von führenden Infrastruktur-Pionieren (darunter WorkOS und Cloudflare) der offene Standard **`auth.md`** etabliert. Er ermöglicht es Web-Plattformen, autonomen Agenten einen standardisierten, sicheren und kryptografisch verifizierbaren Weg zur Anmeldung bereitzustellen – ohne menschliche Interaktion und ohne Sicherheitskompromisse.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer KI-Agenten mit Captchas aussperrt, sperrt seine Kunden von morgen aus. Die Bereitstellung einer sauberen auth.md nach RFC 9728 ist kein technisches Gimmick, sondern die Eintrittskarte für den autonomen B2B-Commerce auf Agent Readiness Level 5.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Was ist auth.md und wie funktioniert das Protokoll?
 
 Die Datei `auth.md` ist ein strukturiertes Markdown-Dokument, das im Verzeichnis `/.well-known/auth.md` oder direkt im Root einer Web-Domain gehostet wird. Es fungiert als maschinenlesbare Betriebsanleitung für KI-Agenten, die mit geschützten Bereichen einer Website oder Anwendung interagieren möchten.
@@ -58,13 +84,30 @@ Um den Innovationssprung zu verdeutlichen, vergleicht die folgende Matrix die kl
 
 ## Praxis-Beispiel: Struktur einer validen auth.md Datei
 
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="px-3 py-1 bg-lime-accent/30 text-dark font-mono text-xs font-bold rounded-full">30-Sekunden Inhaber-Check</span>
+    <span class="text-xs font-bold text-neutral-600 uppercase tracking-wider">Praxis-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-4">
+    Testen Sie sofort per Terminal, ob Ihr Webserver den .well-known-Ordner fälschlicherweise blockiert: Mit <code>curl -I https://teleschmie.de/.well-known/auth.md</code> muss ein HTTP-Status 200 zurückkommen. Viele Hoster blockieren versteckte Punkt-Ordner standardmäßig – damit scheitert die maschinelle Authentifizierung für KI-Agenten schon im Ansatz.
+  </p>
+  <div class="border-t border-lime-accent/30 pt-3">
+    <p class="text-xs text-neutral-600 font-semibold mb-1">Frage an Ihre Webagentur oder Ihr Inhouse-Team:</p>
+    <p class="text-xs text-neutral-800 italic">
+      „Ist unsere <code>auth.md</code> unter <code>/.well-known/auth.md</code> öffentlich erreichbar und liefert unser Server bei unauthentifizierten API-Aufrufen den RFC 9728 WWW-Authenticate-Header mit Zeiger auf die Richtlinie?“
+    </p>
+  </div>
+</div>
+
 Eine normgerechte `auth.md` kombiniert strukturierte YAML-Frontmatter mit klaren Anweisungen im Markdown-Fließtext. Hier ist ein reales Implementierungs-Beispiel für moderne Web-Architekturen:
 
 ```markdown
 ---
 version: "1.0"
-authorization_server: "https://auth.deinedomain.de"
-registration_endpoint: "https://api.deinedomain.de/agent/register"
+authorization_server: "https://auth.teleschmie.de"
+registration_endpoint: "https://api.teleschmie.de/agent/register"
 scopes_supported:
   - name: "read:articles"
     description: "Vollständiger Lesezugriff auf Markdown-Content"
@@ -75,7 +118,9 @@ token_endpoint_auth_methods:
   - "client_secret_post"
 ---
 
-# auth.md: Autorisierungs-Richtlinie für KI-Agenten
+# auth.md
+
+## Autorisierungs-Richtlinie für KI-Agenten
 
 Willkommen auf unserer Domain. Diese Schnittstelle erlaubt autonomen KI-Agenten die standardisierte Kontaktaufnahme und Datenabfrage im Namen verifizierter Auftraggeber.
 
@@ -89,17 +134,29 @@ Ergänzend dazu muss der Webserver (z. B. via Nginx oder Apache `.htaccess`) den
 
 ```http
 # HTTP-Header (z. B. in .htaccess oder Nginx)
-Link: <https://deinedomain.de/.well-known/auth.md>; rel="authorization-policy"; type="text/markdown"
+Link: <https://teleschmie.de/.well-known/auth.md>; rel="authorization-policy"; type="text/markdown"
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
-  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
-  <blockquote class="italic text-dark mb-3">
-    „SEOs sind die Schnittstelle, um das Web ein Stück besser zu machen.“
-  </blockquote>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
-    ↗ Zur Diskussion auf LinkedIn
-  </a>
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme auth.md und RFC 9728 Server-Header einzurichten:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: auth.md & RFC 9728 Header Deployment</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Security Engineer & Technical SEO Architect.</p>
+    <p><strong>Aufgabe:</strong> Erstelle eine validierte <code>auth.md</code> Datei im Webroot sowie in <code>/.well-known/auth.md</code> und richte RFC 9728 konforme HTTP-Header ein.</p>
+    <p><strong>Schritte & Validierung:</strong></p>
+    <p>1. Stelle sicher, dass die Datei kleingeschrieben ist (<code>auth.md</code>) und als H1 strikt <code># auth.md</code> verwendet.</p>
+    <p>2. Konfiguriere OAuth 2.1 Metadaten und Scopes (z. B. <code>read:articles</code>) im YAML-Frontmatter.</p>
+    <p>3. Ergänze die .htaccess bzw. Nginx-Konfiguration um den Link-Header: <code>Link: &lt;https://teleschmie.de/.well-known/auth.md&gt;; rel="authorization-policy"; type="text/markdown"</code>.</p>
+  </div>
 </div>
 
 ## Die 3 häufigsten Fehler bei der Bereitstellung von auth.md
@@ -126,14 +183,14 @@ Website-Betreiber können ihre eigene `auth.md` und die zugehörigen Header-Verk
 
 ```bash
 # Teste die Erreichbarkeit der Richtlinie (Domain anpassen)
-curl -I https://deinedomain.de/.well-known/auth.md
+curl -I https://teleschmie.de/.well-known/auth.md
 ```
 
 Die Antwort muss zwingend den Status `200 OK` sowie den korrekten MIME-Type `text/markdown` oder `text/plain` zurückgeben. Anschließend prüft ein zweiter Request gegen die API, ob der `WWW-Authenticate`-Header die Metadaten-URL korrekt übermittelt:
 
 ```bash
 # Teste den Schutz der API-Ressource (Domain anpassen)
-curl -I -H "Accept: application/json" https://deinedomain.de/api/protected-resource
+curl -I -H "Accept: application/json" https://teleschmie.de/api/protected-resource
 ```
 
 ## Bedeutung für das Agent Readiness Level 5
@@ -141,3 +198,25 @@ curl -I -H "Accept: application/json" https://deinedomain.de/api/protected-resou
 In der modernen technischen Suchmaschinenoptimierung reicht es nicht mehr aus, lediglich für [Crawler](/glossar/crawler/) und die [Indexierung](/glossar/crawling-vs-indexing/) von HTML-Seiten zu sorgen. Das [Agent Readiness Level](/glossar/agent-readiness-level/) klassifiziert, wie effektiv eine Domain mit autonomen Akteuren interagieren kann. Während Level 1 strukturierte Daten und Level 4 Markdown Content Negotiation beschreibt, definiert Level 5 die Fähigkeit zur vollautomatisierten Transaktion. 
 
 Domains, die `auth.md` implementieren, qualifizieren sich für die Spitzenklasse auf dem Cloudflare Radar und sichern sich die Pole-Position in der aufkommenden Agenten-Ökonomie. Wie sich führende Plattformen in generativen KI-Ergebnissen behaupten, zeigt ergänzend der [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Sämtliche Tool-Optionen lassen sich jederzeit im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
+
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+### Verwandte Glossar-Begriffe
+* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
+* [OAuth OIDC Discovery](/glossar/oauth-oidc-discovery/)
+* [OAuth Protected Resource Metadata](/glossar/oauth-protected-resource/)
+* [RFC 8288 Link Headers](/glossar/rfc-8288-link-headers/)
+* [Agent Readiness Level Stufe 5](/glossar/agent-readiness-level/)
+* [API Catalog & ARD](/glossar/api-catalog/)

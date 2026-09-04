@@ -142,11 +142,12 @@ function runAudit(filePath, type) {
             logSuccess("Key Takeaways in Frontmatter gefunden.");
         }
 
-        // Check for images in body
-        if (body.match(/!\[.*?\]\(.*?\)/)) {
-            console.warn("   ⚠️ WARNUNG: Glossar-Artikel enthält Bilder im Fließtext (sollte bei neuen Artikeln vermieden werden).");
+        // Check for images in body (Visualisierung erwünscht)
+        const bodyImages = body.match(/!\[.*?\]\(.*?\)/g);
+        if (bodyImages) {
+            logSuccess(`Visuelle Anreicherung gefunden: ${bodyImages.length} Bild(er)/Infografik(en) im Fließtext.`);
         } else {
-            logSuccess("Keine Bilder im Markdown-Fließtext gefunden.");
+            logSuccess("Keine zusätzlichen Bilder im Fließtext (nur Hero-Thumbnail).");
         }
 
         // Check Word Count (must be between 1000 and 1500)

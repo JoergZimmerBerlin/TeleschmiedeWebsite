@@ -191,6 +191,47 @@
   @apply !mb-4;
 }
 
+/* --- Buttons inside blog-content (Override prose underline & link styles) --- */
+.blog-content a.btn-primary,
+.blog-content a.btn-secondary,
+.blog-content a.btn-pill,
+.blog-content .btn-primary,
+.blog-content .btn-secondary {
+  text-decoration: none !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.blog-content a.btn-primary {
+  color: #1a1a1a !important;
+  background-color: var(--color-lime-accent, #D9FF00) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+}
+
+.blog-content a.btn-primary:hover {
+  filter: brightness(0.95);
+  color: #1a1a1a !important;
+  text-decoration: none !important;
+}
+
+.blog-content a.btn-dark {
+  background-color: #1a1b1e !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+}
+
+.blog-content a.btn-dark:hover {
+  background-color: #2e3035 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
 
 
 /* --- Responsive Table Optimization --- */

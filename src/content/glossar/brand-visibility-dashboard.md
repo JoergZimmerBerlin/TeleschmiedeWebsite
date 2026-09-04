@@ -4,7 +4,7 @@ meta_title: "Brand Visibility Dashboard: Marke (2026)"
 description: "Überwache deine KI-Sichtbarkeit zentral. Ein Brand Visibility Dashboard zeigt dir Zitationen, Mentions und Sentiment auf einen Blick an. (2026)"
 meta_description: "Überwache deine KI-Sichtbarkeit zentral. Ein Brand Visibility Dashboard zeigt dir Zitationen, Mentions und Sentiment auf einen Blick an. (2026)"
 date: "2026-08-10"
-image: src/assets/images/glossar/3d-light/brand-visibility-dashboard-3d.jpg
+image: "../../assets/images/glossar/3d-light/brand-visibility-dashboard-3d.jpg"
 image_alt: "Brand Visibility Dashboard KI Sichtbarkeit Marke"
 category: "AI SEO & Generative Search"
 key_takeaways:
@@ -27,6 +27,32 @@ In der klassischen Suchmaschinenoptimierung genügte es, ein einfaches Keyword-R
 
 Um in dieser fragmentierten Umgebung den Überblick zu behalten, benötigen Marketing-Verantwortliche ein zentrales Kontrollzentrum. Ein modernes **Brand Visibility Dashboard** bündelt alle relevanten Daten zur [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/) an einem Ort und ermöglicht es Unternehmen, Zitationen, Sentiment und Wettbewerber-Vergleiche in Echtzeit auszuwerten.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer heute noch manuell Prompts in ChatGPT eintippt, um seine Sichtbarkeit zu schätzen, betreibt Blindflug. Ein zentrales Brand Visibility Dashboard liefert reproduzierbare Daten über 17+ Sprachmodelle und deckt gnadenlos auf, wer in den KI-Antworten zitiert wird und wer unsichtbar bleibt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Systemvergleich: Manuelles Monitoring versus Spezial-Dashboard versus SEO-Suite
 
 Die unterschiedlichen Herangehensweisen an das Monitoring generativer Suchsysteme weisen erhebliche Leistungsunterschiede auf:
@@ -44,19 +70,42 @@ Die unterschiedlichen Herangehensweisen an das Monitoring generativer Suchsystem
 Die Komplexität generativer Suchen erfordert eine Benutzeroberfläche, die unstrukturierte Textausgaben in verlässliche Steuerungsdaten übersetzt:
 
 ### 1. Unified Multi-Brand View (Zentrale Portfolio-Verwaltung)
-Agenturen und Dachgesellschaften verwalten häufig mehrere Marken gleichzeitig. Das ständige Wechseln zwischen verschiedenen Accounts und Plattformen kostet wertvolle Arbeitszeit. Ein zentrales Dashboard bündelt sämtliche Markenportfolios in einer standardisierten Ansicht. Teams können die KI-Präsenz konkurrierender oder eigener Tochtermarken direkt im Side-by-Side-Vergleich analysieren.
+Agenturen und Dachgesellschaften verwalten häufig mehrere Marken gleichzeitig. Das ständige Wechseln zwischen verschiedenen Accounts und Plattformen kostet wertvolle Arbeitszeit. Ein zentrales Dashboard bündelt sämtliche Markenportfolios in einer standardisierten Ansicht. Teams können die KI-Präsenz konkurrierender oder eigener Tochtermarken direkt im Side-by-Side-Vergleich analysieren und den [Brand Share](/glossar/brand-share/) präzise gegenüber dem Wettbewerb abbilden.
 
 ### 2. Lückenlose Multi-Engine-Abdeckung
 Wer ausschließlich ChatGPT überwacht, übersieht B2B-Entscheider, die auf Claude setzen, oder rechercheintensive Nutzer, die Perplexity als primäre Recherche-Engine verwenden. Das Dashboard aggregiert Daten aus mehr als 17 Systemen – von Google AI Overviews über Gemini bis hin zu Meta AI – und stellt sicher, dass keine Marktverschiebung unbemerkt bleibt.
 
-### 3. Echtzeit-Intelligenz und [AI-Sentiment-Analysis](/glossar/ai-sentiment-analysis/)
-Sprachmodelle verändern ihre Wissensbasis kontinuierlich. Ein wöchentlicher Report reicht nicht aus, um auf algorithmische Verschiebungen zu reagieren. Das Dashboard liefert Live-Warnungen, sobald der Zitationsanteil sinkt oder die Tonalität der generierten Antworten ins Negative kippt.
+### 3. Echtzeit-Intelligenz und [Brand Sentiment](/glossar/brand-sentiment/)
+Sprachmodelle verändern ihre Wissensbasis kontinuierlich. Ein wöchentlicher Report reicht nicht aus, um auf algorithmische Verschiebungen zu reagieren. Das Dashboard liefert Live-Warnungen, sobald der Zitationsanteil sinkt oder die Tonalität der generierten Antworten ins Negative kippt. Durch automatisierte [AI-Sentiment-Analysis](/glossar/ai-sentiment-analysis/) wird sofort sichtbar, ob eine Marke als innovativ, verlässlich oder überteuert dargestellt wird.
+
+## Kernmetriken: Was moderne GEO-Dashboards messen müssen
+
+Klassische Ranking-Tabellen versagen in einer Welt generierter Antworten. Ein zukunftssicheres Dashboard visualisiert stattdessen vier fundamentale Metriken:
+
+1. **Citation Frequency & Verification Rate:** Wie oft taucht die Domain als verifizierter Link in den Quellenangaben (Footnotes / Badges) auf? Reine Nennungen ohne Link besitzen einen deutlich geringeren Konversionswert.
+2. **Share of Model (SoM):** Welcher Prozentsatz aller Antworten zu einer spezifischen Produktkategorie empfiehlt die eigene Marke im Vergleich zum Wettbewerb?
+3. **Sentiment & Entity Framing:** In welchem semantischen Kontext stellt das LLM die Marke dar? Werden Stärken oder Schwächen betont?
+4. **Query Fanout & Source Influence:** Welche externen Quellen (z. B. Fachportale, Reddit, Review-Plattformen) zieht das Sprachmodell heran, um Aussagen über die eigene Marke zu stützen?
+
+<div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
+  <div class="flex items-center gap-2 mb-3">
+    <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-lime-accent text-dark font-bold text-xs">✓</span>
+    <span class="text-xs font-bold uppercase tracking-wider text-dark/70">30-Sekunden Inhaber-Check</span>
+  </div>
+  <h3 class="text-lg font-bold text-dark mb-2">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
+  <p class="text-sm text-neutral-700 leading-relaxed mb-3">
+    Lass dich von reinen Mention-Zahlen nicht blenden. Eine Markennennung im Fließtext eines Sprachmodells ohne klickbare Quellen-Citation bringt dir weder qualifizierten Referral-Traffic noch verifizierte Autorität. Konfiguriere dein Dashboard so, dass Zitationen und klickbare Link-Badges mit mindestens dreifachem Gewicht gegenüber reinen Text-Mentions gewertet werden.
+  </p>
+  <div class="p-3 bg-white/80 rounded-xl border border-lime-accent/40 text-xs text-neutral-800 font-medium">
+    <strong>Kontrollfrage an deine Agentur:</strong> „Nach welcher Formel gewichtet unser Dashboard Text-Erwähnungen versus verifizierte Quellenzitationen mit klickbarem Link in Google AI Overviews, Perplexity und ChatGPT?“
+  </div>
+</div>
 
 ## Die mathematische Berechnung des Visibility Scores
 
 Ein professionelles Dashboard aggregiert hunderte Einzeltests zu einem greifbaren Gesamtwert (Visibility Score). Die Berechnung basiert auf einer gewichteten Bewertungsmatrix:
 
-* **Zitations-Gewichtung:** Erhält die eigene Domain eine klickbare Quellenangabe (Citation Badge) in einer Antwort, fließt dieser Datenpunkt mit einem hohen Faktor (z. B. 1,0) in den Score ein. Eine bloße Texterwähnung ohne Link erhält einen geringeren Faktor (z. B. 0,4).
+* **Zitations-Gewichtung:** Erhält die eigene Domain eine klickbare Quellenangabe (Citation Badge) in einer Antwort, fließt dieser Datenpunkt mit einem hohen Faktor (z. B. 1,0) in den Score ein. Eine bloße Texterwähnung ohne Link erhält einen geringeren Faktor (z. B. 0,35).
 * **Positions-Gewichtung in der Synthese:** Wird eine Marke als primäre Empfehlung im ersten Satz genannt, bewertet der Algorithmus dies höher als eine Nennung unter „weitere Optionen“ am Ende der Ausgabe.
 * **Modell-Reichweiten-Faktor:** Abfragen in reichweitenstarken Modellen wie ChatGPT oder Google AI Overviews fließen mit stärkerem Gewicht in den Gesamt-Index ein als Nischenmodelle.
 * **Sentiment-Korrektur:** Negativ konnotierte Nennungen führen zu einem Punktabzug, um zu verhindern, dass Krisen-Shitstorms fälschlicherweise als positive Sichtbarkeit interpretiert werden.
@@ -85,7 +134,7 @@ Moderne [AI-Tracking-Tools](/glossar/ai-tracking-tools/) ermöglichen die progra
 ```javascript
 // Beispiel: Abruf aggregierter Markensichtbarkeits-Metriken
 async function fetchBrandVisibilityMetrics(brandId) {
-  const response = await fetch(`https://api.deinedomain.de/v1/brands/${brandId}/visibility`, {
+  const response = await fetch(`https://api.teleschmie.de/v1/brands/${brandId}/visibility/`, {
     headers: {
       "Authorization": "Bearer SECURE_API_TOKEN",
       "Content-Type": "application/json"
@@ -99,38 +148,63 @@ async function fetchBrandVisibilityMetrics(brandId) {
 }
 ```
 
-## Die 3 häufigsten Fehler bei der Dashboard-Nutzung
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl">🤖</span>
+      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Multi-Engine-Monitoring-Skript für dein Brand-Dashboard aufzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierter Brand Visibility Collector für Multi-LLM Dashboards</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Data Engineer & GEO-Architekt.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Node.js- oder Python-Skript, das regelmäßig die API von Monitoring-Tools (z. B. SE Ranking oder Rankscale) abfragt, die Zitationsrate, Share of Model und das Markensentiment über ChatGPT, Perplexity und Google AI Overviews aggregiert und in einer standardisierten JSON-Struktur für das interne Dashboard speichert.</p>
+    <p><strong>Anforderungen:</strong></p>
+    <p>1. Berechne einen gewichteten Visibility Score: Citation-Badge (Faktor 1.0), Mention (Faktor 0.35), Sentiment-Korrektur (-0.5 bei negativem Sentiment).</p>
+    <p>2. Prüfe Schwellenwerte: Wenn die Zitationsrate unter 25% fällt, generiere einen Alert-Payload für Webhooks (Slack/Teams).</p>
+    <p>3. Speichere historische Verlaufswerte, um Trendkurven für wöchentliche Stakeholder-Reports zu erzeugen.</p>
+    <p><strong>Output:</strong> Vollständig lauffähiges Skript inklusive Fehlerbehandlung, Ratenbegrenzung und klar definierter JSON-Ausgabe.</p>
+  </div>
+</div>
+
+## Die 4 häufigsten Fehler bei der Dashboard-Nutzung
 
 Trotz intuitiver Oberflächen unterlaufen Teams bei der Auswertung gravierende Fehlinterpretationen:
 
 1. **Reine Fokussierung auf Erwähnungen statt Zitationen:** Eine flüchtige Nennung des Firmennamens bringt wenig, wenn der Nutzer keinen klickbaren Verweis erhält. Das Hauptaugenmerk muss stets auf verifizierten Quellen-Citations liegen.
 2. **Vernachlässigung negativer Sentiment-Trends:** Wenn eine KI die eigene Marke zwar häufig nennt, aber als unzuverlässig oder überteuert darstellt, sinken die Abschlüsse. Dashboards müssen zwingend auf Sentiment-Veränderungen überwacht werden.
 3. **Isolierte Betrachtung ohne Verknüpfung zu [Brand Mentions](/glossar/brand-mentions/):** Ein Dashboard zeigt nur den Status quo. Wer keine konsequenten Maßnahmen zur Stärkung der Marken-Entität im Web ergreift, kann sinkende Werte nicht umkehren.
+4. **Fehlende technische Basis im [Technischen SEO](/glossar/technisches-seo/):** Wenn LLM-Crawlern der Zugriff durch fehlerhafte robots.txt-Regeln verwehrt wird oder strukturierte Daten fehlen, kann selbst die beste PR-Kampagne nicht in KI-Zitationen umgemünzt werden.
 
-## Strategische Markenführung im generativen Zeitalter
+## Strategische Markenführung im generativen Zeitalter: Zusammenfassung
 
-Ein professionelles Brand Visibility Dashboard verwandelt vage Spekulationen über KI-Sichtbarkeit in verlässliche, datenbasierte Handlungsempfehlungen. In Kombination mit sauberem [Technischem SEO](/glossar/technisches-seo/) und gezieltem Content-Building sichern sich Unternehmen die Kontrolle über ihre digitale Markenwahrnehmung in den Entscheidungssystemen der Zukunft.
+Ein professionelles Brand Visibility Dashboard verwandelt vage Spekulationen über KI-Sichtbarkeit in verlässliche, datenbasierte Handlungsempfehlungen. In Kombination mit sauberem technischem Setup und gezieltem Content-Building sichern sich Unternehmen die Kontrolle über ihre digitale Markenwahrnehmung in den Entscheidungssystemen der Zukunft.
 
 Wer frühzeitig auf strukturierte Dashboards setzt, erkennt algorithmische Trends und Zitationsverschiebungen, lange bevor sie sich in sinkenden Zugriffszahlen bemerkbar machen. Während passive Marktbegleiter noch über den Rückgang organischer Klicks rätseln, optimieren datengetriebene Unternehmen bereits gezielt ihre Zitations-Scores und sichern sich den entscheidenden Vorsprung im KI-gestützten Wettbewerb.
 
-<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
-  <div class="flex items-start gap-4">
-    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
-      💡
-    </div>
-    <div>
-      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über Brand Visibility Dashboards</h3>
-      <p class="text-gray-600 text-sm italic mb-2">
-        „Wer heute noch manuell Prompts in ChatGPT tippt, um seine Sichtbarkeit zu schätzen, verschwendet wertvolle Arbeitszeit. Ein zentrales Dashboard liefert reproduzierbare Daten über alle relevanten Sprachmodelle und zeigt dir exakt, wo deine Marke im KI-Wettbewerb steht.“
-      </p>
-      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
-    </div>
-  </div>
-</div>
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
+
+## Verwandte Glossar-Begriffe
+
+* [Brand Sentiment](/glossar/brand-sentiment/)
+* [Brand Share](/glossar/brand-share/)
+* [Brand Mentions](/glossar/brand-mentions/)
+* [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/)
+* [AI-Tracking-Tools](/glossar/ai-tracking-tools/)
+* [GEO-Optimierung](/glossar/geo-optimierung/)

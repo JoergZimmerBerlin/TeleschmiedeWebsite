@@ -198,10 +198,13 @@ Die Zukunft des E-Commerce verlagert sich zunehmend auf autonome Protokolle. Sta
 
 Wer heute seine [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/) systematisch aufbaut und dafür sorgt, dass seine Angebote verlässlich [in KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/), sichert sich die Marktanteile der kommenden Dekade. Welche Monitoring-Lösungen Sie beim Tracking von E-Commerce-Zitationen unterstützen, zeigt unser Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Anfallende Investitionskosten für Shop-Restrukturierungen und Feed-Automation lassen sich transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
-    Jetzt an der Diskussion teilnehmen
-  </h3>
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">
+    Aus Jörgs LinkedIn-Feed
+  </span>
+  <blockquote class="text-base md:text-lg text-gray-200 italic max-w-2xl mx-auto mb-4 border-none font-normal">
+    „Gutes SEO erhöht den Return of Investment von allen Kanälen. Eine saubere Seite wird nicht nur besser gefunden. Wenn man nützliche Informationen bereit stellt, die Ladezeiten optimiert und die Nutzerwege besonders auf Smartphone immer wieder verbessert dann geht die Conversionrate hoch.“
+  </blockquote>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>

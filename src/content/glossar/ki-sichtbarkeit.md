@@ -203,10 +203,13 @@ KI-Sichtbarkeit ist kein kurzlebiger Hype, sondern das dominierende Paradigma f�
 
 Welche Softwarelösungen Sie beim kontinuierlichen Monitoring von KI-Erwähnungen unterstützen, erfahren Sie in unserem Marktüberblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Anfallende Softwarekosten und Beratungsinvestitionen lassen sich zudem transparent mit dem interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) veranschlagen.
 
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
-    Jetzt an der Diskussion teilnehmen
-  </h3>
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">
+    Aus Jörgs LinkedIn-Feed
+  </span>
+  <blockquote class="text-base md:text-lg text-gray-200 italic max-w-2xl mx-auto mb-4 border-none font-normal">
+    „Wer bereit ist, seine Website kontinuierlich zu optimieren, wird mit besseren Rankings belohnt.“
+  </blockquote>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>

@@ -163,14 +163,17 @@ Gleichzeitig ermöglicht dir das spezialisierte KI-Tracking von **[Rankscale](/g
 
 Mache deine Web-Infrastruktur fit für die Anforderungen des Agentic Web. Implementiere deterministische Verifizierungsstandards wie das Sovereign Validation Protocol, schütze deine Datenintegrität durch RFC 8785 und nutze [Rankscale](/glossar/rankscale/) sowie [SE Ranking](/glossar/se-ranking/) zur kontinuierlichen Qualitätskontrolle. Wer heute kryptografische Souveränität beweist, gehört zu den unangefochtenen Gewinnern der generativen Suche.
 
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
-    Jetzt an der Diskussion teilnehmen
-  </h3>
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">
+    Aus Jörgs LinkedIn-Feed
+  </span>
+  <blockquote class="text-base md:text-lg text-gray-200 italic max-w-2xl mx-auto mb-4 border-none font-normal">
+    „Das grundsätzliche Problem ist die unsichtbare Welt hinter der Website. Ob eine Website gut oder schlecht ist. Gut oder schlecht programmiert. Schnell oder langsam. Selbst das Prüfen, ob sie gut oder schlecht rankt, ist von außen schwer zu beurteilen.“
+  </blockquote>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7083056707148374016" target="_blank" rel="noopener noreferrer" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
     <span>Beitrag auf LinkedIn öffnen</span>
     <span aria-hidden="true">→</span>

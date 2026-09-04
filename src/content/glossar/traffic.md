@@ -109,12 +109,15 @@ Hör auf, in GA4 stundenlang auf Sitzungsdauer und Absprungraten von vermeintlic
 Wir messen heute, wie stabil deine Marke in den neuronalen Gewichten der großen Sprachmodelle verankert ist (Brand Impressions statt Sessions). Wer E-E-A-T lebt und seine technischen Hausaufgaben auf KI-Crawler-Level perfekt macht, wird von den Maschinen als Primärquelle zitiert. Die wenigen, hochqualifizierten menschlichen Nutzer, die dann von der generierten KI-Antwort tatsächlich auf deine Website klicken, sind die absolut hochwertigsten Leads, die du jemals generieren konntest. Sie kommen nicht für triviales Basiswissen – sie kommen für den Deep-Dive und den lukrativen Vertragsabschluss.
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
-  <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+  <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
-      <span class="text-lime-accent text-2xl">🤖</span>
-      <p class="font-bold text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+      <span class="text-lime-accent text-2xl shrink-0">🤖</span>
+      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
     </div>
-    <span class="text-xs bg-lime-accent/20 text-lime-accent px-2.5 py-1 rounded-full font-mono font-bold">Copy & Paste Task</span>
+    <button type="button" class="copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto" title="Prompt kopieren">
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
+      <span>Kopieren für Agent</span>
+    </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deinen organischen Content auf Conversion-Brücken und Answer-First-Strukturen zu optimieren:

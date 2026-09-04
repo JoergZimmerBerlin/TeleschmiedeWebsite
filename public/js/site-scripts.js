@@ -208,6 +208,56 @@
       
       pre.appendChild(btn);
     });
+
+    // Site-wide Copy Agent Prompt Logic & Auto-Upgrade
+    function bindAgentCopyBtn(btn, promptContainer) {
+      if (btn.dataset.agentInit) return;
+      btn.dataset.agentInit = 'true';
+      btn.addEventListener('click', async () => {
+        const clone = promptContainer.cloneNode(true);
+        clone.querySelectorAll('button, .copy-code-btn, .copy-agent-btn').forEach(b => b.remove());
+        const textToCopy = (clone.innerText || clone.textContent || '').trim();
+
+        try {
+          await navigator.clipboard.writeText(textToCopy);
+          showBtnSuccess(btn, true);
+        } catch (err) {
+          fallbackCopy(textToCopy, null, btn, true);
+        }
+      });
+    }
+
+    document.querySelectorAll('.bg-dark').forEach(box => {
+      const promptContainer = box.querySelector('[class*="bg-black"], pre');
+      if (!promptContainer) return;
+
+      // Check if button already exists in HTML
+      let btn = box.querySelector('.copy-agent-btn');
+
+      // Auto-upgrade static "Copy & Paste Task" badge if present
+      if (!btn) {
+        const spans = Array.from(box.querySelectorAll('span'));
+        const oldBadge = spans.find(s => s.textContent.trim().toLowerCase().includes('copy & paste'));
+        if (oldBadge) {
+          btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto';
+          btn.title = 'Prompt für KI-Agent kopieren';
+          btn.innerHTML = '<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg> <span>Kopieren für Agent</span>';
+          
+          const parentHeader = oldBadge.parentElement;
+          if (parentHeader) {
+            parentHeader.classList.remove('flex-wrap');
+            parentHeader.classList.add('flex', 'items-start', 'justify-between', 'gap-4', 'mb-3');
+          }
+          oldBadge.replaceWith(btn);
+        }
+      }
+
+      if (btn) {
+        bindAgentCopyBtn(btn, promptContainer);
+      }
+    });
   }
 
   function showFeedback(feedback) {

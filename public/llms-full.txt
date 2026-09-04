@@ -431,7 +431,10 @@ RewriteRule ^alte-seite/?$ https://deinedomain.de/neue-seite/ [R=301,L]
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Redirect-Chains und falsche 302-Weiterleitungen auf deinem Webserver automatisiert aufzulösen:
@@ -611,7 +614,10 @@ Wer versucht, Fehlerseiten durch ein `Disallow` in der robots.txt vor Suchmaschi
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes 404-Audit und Redirect-Mapping für tote URLs durchzuführen:
@@ -813,8 +819,14 @@ Viele Agenturen verkaufen aktuell "KI-Bereitschaft", indem sie ein ChatGPT-Plugi
 
 
   
-    Copy & Paste Task
-    A2A Discovery Flow & Agent Card Audit für Cursor, Claude Code oder Antigravity
+    
+      🤖
+      A2A Discovery Flow & Agent Card Audit für Cursor, Claude Code oder Antigravity
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine Domain auf A2A-Kompatibilität und Agent Card Validität zu prüfen:
@@ -1000,7 +1012,10 @@ Vergiss das reine Tracken von Klicks. Die neue Währung heißt **Citation Captur
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deine Landingpages und Blogartikel automatisiert auf AEO-Tauglichkeit und Answer-First-Struktur zu auditieren:
@@ -1204,7 +1219,10 @@ Dieser Test zeigt dir schonungslos, wie blind deine Infrastruktur für den B2B-M
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um einen vollständigen A2A Discovery Audit und die Validierung deiner agent-card.json durchzuführen:
@@ -1378,8 +1396,14 @@ Online-Händler, die ihre IT-Infrastruktur frühzeitig für AP2 rüsten, sichern
 
 
   
-    Copy & Paste Task
-    AP2 Mandate & HNP-Checkout Audit für Cursor, Claude Code oder Antigravity
+    
+      🤖
+      AP2 Mandate & HNP-Checkout Audit für Cursor, Claude Code oder Antigravity
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine E-Commerce-Endpunkte auf AP2-Konformität und Verifiable Intent zu auditieren:
@@ -1503,8 +1527,14 @@ Wenn du wissen willst, was es braucht, um komplett AI-Ready zu werden, analysier
 
 
   
-    Copy & Paste Task
-    Agent Readiness Level (ARL) Audit für Cursor, Claude Code oder Antigravity
+    
+      🤖
+      Agent Readiness Level (ARL) Audit für Cursor, Claude Code oder Antigravity
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine Webpräsenz auf das Agent Readiness Level nach Cloudflare Radar Standard zu auditieren:
@@ -1708,7 +1738,10 @@ Gibt das Terminal die deklarierten Fähigkeiten und Protokolle fehlerfrei im JSO
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain automatisiert auf Cloudflare Agent Readiness Level 5 zu optimieren:
@@ -1912,7 +1945,10 @@ Durch diese Professionalisierung wandeln sich Agent Skills von experimentellen P
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen neuen modularen Agent Skill nach modernstem 2026-Standard zu generieren:
@@ -2127,7 +2163,10 @@ paths:
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine ACP-kompatible Checkout-Schnittstelle in deinem Shop-Backend zu implementieren:
@@ -2310,7 +2349,10 @@ Das ist kein Marketing-Text. Das ist eine harte Programmierung der KI. Wenn ein 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme AGENTS.md für dein Web- oder Software-Projekt zu erstellen:
@@ -2445,8 +2487,14 @@ Je nach Budget, Zielsetzung und Inhouse-Kompetenz bieten unterschiedliche Plattf
 
 
   
-    Copy & Paste Task
-    Prompt für KI-Coding-Assistenten
+    
+      🤖
+      Arbeitsanweisung: Prompt für KI-Coding-Assistenten
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze dieses Skript-Template für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um die von KI-Modellen zitierten Quellen programmatisch zu überwachen:
@@ -2651,7 +2699,10 @@ Wer nur genannt wird, erzeugt passive Brand Awareness. Wer zitiert wird, gewinnt
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Landingpages auf Zitationsfähigkeit (Citation Attractiveness) für Answer Engines zu analysieren:
@@ -2802,8 +2853,14 @@ Reine Kennzahlen entfalten erst dann geschäftlichen Nutzen, wenn daraus konkret
 
 
   
-    Copy & Paste Task
-    Prompt für KI-Coding-Assistenten
+    
+      🤖
+      Arbeitsanweisung: Prompt für KI-Coding-Assistenten
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Competitor-Vergleich zu programmieren:
@@ -3006,8 +3063,14 @@ Einen Marktüberblick über spezialisierte Tools zur Überwachung Ihrer generati
 
 
   
-    Copy & Paste Task
-    AI Crawlability & Bot-Routing Audit für Cursor, Claude Code oder Antigravity
+    
+      🤖
+      AI Crawlability & Bot-Routing Audit für Cursor, Claude Code oder Antigravity
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um deine robots.txt und Server-Header für Zitations-Crawler zu optimieren:
@@ -3182,8 +3245,14 @@ Befindet sich auf deiner Website noch eine `ai-plugin.json`, musst du nicht in P
 
 
   
-    Copy & Paste Task
-    Agent Readiness & MCP Prompt für Cursor, Claude Code oder Antigravity
+    
+      🤖
+      Agent Readiness & MCP Prompt für Cursor, Claude Code oder Antigravity
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um veraltete Plugin-Dateien zu bereinigen und deine Website auf den modernen MCP- und Agent-Readiness-Standard vorzubereiten:
@@ -3323,7 +3392,10 @@ Mit der exklusiven Prompt Research von Rankscale beendest du das Rätselraten. D
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Intent-Cluster & Prompt-Research-Audit für deine Zielseite durchzuführen:
@@ -3474,7 +3546,10 @@ Das Zeitalter von "Ich glaube, wir sollten darüber schreiben" ist vorbei. Ranks
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Multi-Model AI Visibility Monitoring aufzusetzen:
@@ -3655,7 +3730,10 @@ Durch die explizite Definition des `about`- und `mentions`-Feldes und die Verlin
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Seitenstruktur und Inhaltsaufbereitung für Agentic RAG und AI Search Engines zu rüsten:
@@ -3850,7 +3928,10 @@ Das folgende Schema demonstriert, wie Fachinhalte für RAG-Systeme maschinenlesb
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um bestehende Artikel strukturell auf Information Gain und GEO-Extraktionsfähigkeit zu trimmen:
@@ -4016,7 +4097,10 @@ Um in der Welt der KI-Suche sichtbar zu bleiben, hat sich die Disziplin [Generat
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Webanwendung für AI Search Engines und RAG-Retrieval technisch zu rüsten:
@@ -4199,8 +4283,14 @@ Erstelle beispielsweise dedizierte Vergleichstabellen und FAQ-Module, die häufi
 
 
   
-    Copy & Paste Task
-    AI Brand Perception & Sentiment Specialist
+    
+      🤖
+      Arbeitsanweisung: AI Brand Perception & Sentiment Specialist
+    
+    
+      
+      Kopieren für Agent
+    
   
   Automatisierter LLM Sentiment & Descriptor Extractor
   
@@ -4343,7 +4433,10 @@ Technische Sauberkeit und Crawlability bleiben unverzichtbare Voraussetzungen. A
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um das Fundament für Agent Readiness und AI SEO auf deinem Webserver zu etablieren:
@@ -4525,7 +4618,10 @@ Damit generative Answer Engines und KI-Shopping-Agenten Produktdaten fehlerfrei 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein E-Commerce-Produktmarkup für KI-Shopping-Engines und Agentic Commerce zu rüsten:
@@ -4698,8 +4794,14 @@ Um dir direkt einen Überblick zu verschaffen, findest du hier die wichtigste Ve
 
 
   
-    Copy & Paste Task
-    Prompt für KI-Coding-Assistenten
+    
+      🤖
+      Arbeitsanweisung: Prompt für KI-Coding-Assistenten
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten Multi-LLM-Tracking-Benchmark für dein Unternehmen zu programmieren:
@@ -4997,7 +5099,10 @@ async function checkBrandCitation(promptQuery, brandName) {
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript zur Überwachung von Zitationserwähnungen über LLM-APIs einzurichten:
@@ -5172,7 +5277,10 @@ Durch diese Konfiguration bleiben Webinhalte für die organische [Indexierung](h
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine robots.txt und Server-Konfiguration nach aktuellen RFC-9309-Standards zu optimieren:
@@ -5349,7 +5457,10 @@ Wenn deine Website technisch nicht für RAG optimiert ist, keine klaren FAQs zu 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein technisches AI-Visibility- und RAG-Audit für deine Website durchzuführen:
@@ -5504,7 +5615,10 @@ Um den tatsächlichen Beitrag nachzuweisen, empfiehlt sich die Ergänzung von Ko
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript für die Aggregation und Auswertung von AI-Visibility-Report-Daten einzurichten:
@@ -5696,7 +5810,10 @@ except requests.exceptions.RequestException as error:
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript zur Berechnung des AI Visibility Scores zu implementieren:
@@ -5894,7 +6011,10 @@ Die automatisierte Speicherung solcher Datenpunkte ermöglicht es, langfristige 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen Webhook-Receiver für generative Visibility-Daten aufzusetzen:
@@ -6096,8 +6216,14 @@ Durch diese eindeutigen Entitäts-Verknüpfungen versteht der Algorithmus die Zu
 
 
   
-    Copy & Paste Task
-    Prompt für KI-Coding-Assistenten
+    
+      🤖
+      Arbeitsanweisung: Prompt für KI-Coding-Assistenten
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Visibility-Audit deiner Website gegen Wettbewerber zu erstellen:
@@ -6275,7 +6401,10 @@ Link: ; rel="service-desc"; type="application/json"
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides ARD-Manifest für deine Web-Domain zu generieren und zu konfigurieren:
@@ -6478,7 +6607,10 @@ Link: ; rel="authorization-policy"; type="text/markdown"
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme auth.md und RFC 9728 Server-Header einzurichten:
@@ -6668,7 +6800,10 @@ Durch diese Auszeichnung muss die Suchmaschine nicht raten, wer den Artikel verf
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides E-E-A-T Schema-Markup für deine Autoren und Organisation zu generieren:
@@ -6855,7 +6990,10 @@ Nach dem Absenden bestätigt die API den Empfang mit dem HTTP-Statuscode `200 OK
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes IndexNow-Submit-Skript für deine Build-Pipeline zu erstellen:
@@ -6997,8 +7135,14 @@ Wenn ein Nutzer ChatGPT oder Perplexity fragt: *„Welche Enterprise-Software is
 
 
   
-    Copy & Paste Task
-    Prompt für KI-Coding-Assistenten
+    
+      🤖
+      Arbeitsanweisung: Prompt für KI-Coding-Assistenten
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten Brand-Mention- und Sentiment-Monitor zu erstellen:
@@ -7192,7 +7336,10 @@ if __name__ == "__main__":
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein aspektbasiertes Brand-Sentiment-Scoring für KI-Antworten aufzusetzen:
@@ -7363,7 +7510,10 @@ Damit KI-Agenten und Suchmaschinen eine Marke eindeutig als autoritative Entitä
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Brand-Share- und Share-of-Search-Analyse-Skript zu generieren:
@@ -7559,7 +7709,10 @@ async function fetchBrandVisibilityMetrics(brandId) {
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Multi-Engine-Monitoring-Skript für dein Brand-Dashboard aufzusetzen:
@@ -7736,7 +7889,10 @@ Durch eine derartige semantische Auszeichnung erfassen Suchbots und KI-Engines T
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Fachveranstaltungen und Konferenz-Teilnahmen semantisch als Event-Schema für Suchmaschinen und KI-Agenten auszuzeichnen:
@@ -7925,7 +8081,10 @@ Wird durch fehlerhafte CMS-Plugins versehentlich mehr als ein Canonical Tag im `
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Canonical-Tags und Parameter-Handling in deinen Seitenvorlagen abzusichern:
@@ -8107,7 +8266,10 @@ Datenanalysen belegen jedoch, dass die allererste Antwort (Turn 1) den weiteren 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deine Inhalte gezielt nach dem BLUF-Prinzip und für RAG-Zitationen durch OAI-SearchBot zu optimieren:
@@ -8293,7 +8455,10 @@ Eine Nennung in ChatGPT ist nur dann ein geschäftlicher Gewinn, wenn das Modell
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript zur Berechnung des AI Share of Voice (SOV) für deine Marke aufzusetzen:
@@ -8464,8 +8629,14 @@ Dieses Phänomen führt dazu, dass Traffic, der über KI-Sichtbarkeit generiert 
 
 
   
-    Copy & Paste Task
-    AEO & Citation Analytics Agent
+    
+      🤖
+      Arbeitsanweisung: AEO & Citation Analytics Agent
+    
+    
+      
+      Kopieren für Agent
+    
   
   Multi-Model Citation Frequency Tracker & Benchmarking
   
@@ -8627,7 +8798,10 @@ Der mathematische Prozess zur Klärung von Mehrdeutigkeiten heißt **Entity-Reso
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein validiertes LocalBusiness JSON-LD Markup mit präzisen sameAs-Entitäts-Verknüpfungen zu erzeugen:
@@ -8829,7 +9003,10 @@ Während die CSR-Variante auf die Ausführung von `bundle.js` angewiesen ist, li
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit-Skript für CSR-Blank-Shells und SSR-Verifikation zu implementieren:
@@ -9048,7 +9225,10 @@ Unter `/.well-known/agent-card.json` wird das Profil des Web-Assistenten publizi
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Cloudflare Level 5 Agent Readiness für dein Webprojekt umzusetzen:
@@ -9238,7 +9418,10 @@ Im technischen Alltag begegnen SEO-Spezialisten immer wieder Versäumnissen, die
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine robots.txt und Server-Konfiguration für Common Crawl und KI-Training zu optimieren:
@@ -9392,8 +9575,14 @@ Link: ; rel="describedby"; type="application/json"
 
 
   
-    Copy & Paste Task
-    Prompt für KI-Coding-Assistenten
+    
+      🤖
+      Arbeitsanweisung: Prompt für KI-Coding-Assistenten
+    
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um eine hochperformante Edge-Cache- und Bot-Management-Konfiguration zu erstellen:
@@ -9609,7 +9798,10 @@ In Beratungsprojekten und technischen Web-Audits treten regelmäßig gravierende
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Content-Signale, robots.txt-Direktiven und Server-Header für dein Webprojekt umzusetzen:
@@ -9785,7 +9977,10 @@ Die Lösung war die harte Migration auf Serverseitiges Tracking. Wir haben den J
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Conversion-Tracking-Architektur und Checkout-Performance zu optimieren:
@@ -9959,7 +10154,10 @@ Die Ursache war eine kaskadierende Werbe-Logik im [Client-Side Rendering (CSR)](
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Core Web Vitals (LCP, INP, CLS) auf Template-Ebene zu optimieren:
@@ -10129,7 +10327,10 @@ In Performance-Marketing-Audits zeigen sich regelmäßig dieselben teuren Versä
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Landingpage-Quality-Scores zu sichern und CPC-senkende Performance-Maßnahmen umzusetzen:
@@ -10318,7 +10519,10 @@ Um KI-Crawlern den Zugriff auf Kerninformationen zu erleichtern, ohne ihre Reche
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Server-Logfile-Audit für KI-Crawler durchzuführen:
@@ -10502,7 +10706,10 @@ Durch die Kombination aus `speakable` und klar deklarierten Question-Answer-Enti
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Snippets und Schema.org-Strukturen automatisiert auf maximale Klickattraktivität in KI- und organischen Suchergebnissen zu trimmen:
@@ -10701,7 +10908,10 @@ Liefert die Abfrage die deklarierten Ports, Protokolle und das `ad`-Flag (Authen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain-Zonendatei oder Terraform-Definition automatisiert mit DNS-AID-fähigen SVCB- und TXT-Records auszustatten:
@@ -10876,7 +11086,10 @@ dig +nocmd +noall +answer +stats @ns1.teleschmie.de teleschmie.de
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Monitoring-Skript für DNS-Latenzen, DNSSEC-Validierung und Nameserver-Ausfallsicherheit zu erstellen:
@@ -11046,7 +11259,10 @@ Standard-Plugins stoßen hier an ihre Grenzen. Professionelles E-E-A-T erfordert
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein lückenloses E-E-A-T-Autoren-Schema in deiner Web-Architektur zu etablieren:
@@ -11260,7 +11476,10 @@ Das folgende JSON-LD-Beispiel veranschaulicht ein lückenlos optimiertes Produkt
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein Shop-Template automatisiert mit vollständigen Product-Schema-Attributen für ChatGPT Shopping und Google AI Overviews auszustatten:
@@ -11429,7 +11648,10 @@ Durch das Attribut `@id` erhält die Organisation einen unverwechselbaren URI-Be
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um eine maschinenlesbare Entitäts-Disambiguierung mit Wissensgraph-Verknüpfungen für dein Unternehmen zu implementieren:
@@ -11631,7 +11853,10 @@ Durch die Vergabe fester IDs (`@id`) und die Verlinkung auf globale Wikidata-Kon
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript zur Validierung von Entitäts-IDs über die Google Knowledge Graph Search API und Schema.org zu erstellen:
@@ -11828,7 +12053,10 @@ if __name__ == "__main__":
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein Analyse-Skript für Entity Co-Occurrence und semantische Nachbarschaften im Textkorpus zu implementieren:
@@ -12044,7 +12272,10 @@ Liegt der Vektor Ihrer Marke (z. B. als Dienstleister für B2B-SEO) mathematisch
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen vollständigen, verschachtelten Entity-Knowledge-Graph für dein Webprojekt zu generieren:
@@ -12218,7 +12449,10 @@ Für Bild- und Mediendateien verlangt die Verordnung maschinenlesbare Markierung
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Website-Inhalte und Media-Assets auf EU AI Act Compliance und C2PA-Metadaten vorzubereiten:
@@ -12393,7 +12627,10 @@ Damit Suchmaschinen-Bots die Praxiserfahrung eines Autors zweifelsfrei einer rea
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um strukturierte First-Hand Experience Signale und maschinenlesbare Autorenschaften zu implementieren:
@@ -12587,7 +12824,10 @@ Durch Attribute wie `knowsAbout` und `hasCredential` mappen Crawler deine fachli
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um strukturierte Expertise-Attribute nach Schema.org mit Wikidata-Entitäten im CMS zu hinterlegen:
@@ -12792,7 +13032,10 @@ Ein isoliertes Textfragment besitzt für KI-Modelle wenig Autorität. Erst durch
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dynamisches, RAG-optimiertes FAQPage-Schema mit strikter Content Parity zu generieren:
@@ -12932,7 +13175,10 @@ Noch spannender ist die Konnektivität: Die Plattform bietet über 40 native Int
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Server-Logfile-Analysen für KI-Crawler automatisiert einzurichten:
@@ -13115,7 +13361,10 @@ KI-Tools sind 2026 aus dem Werkzeugkasten eines Freelancers nicht mehr wegzudenk
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Freelancer-Vertragsvorlagen und Leistungsbeschreibungen auf Scheinselbstständigkeits-Kriterien zu auditieren:
@@ -13281,7 +13530,10 @@ Durch solche konsistenten Angaben wird sichergestellt, dass Sprachmodelle dein A
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten (Cursor, Claude Code, Antigravity, ChatGPT), um für Kunden-Websites einen fehlerfreien, universellen Schema-Markup-Graphen für GEO und Rich Results zu generieren:
@@ -13462,7 +13714,10 @@ Warte nicht, bis dein Traffic auf null kollabiert, weil KI-Antworten den klassis
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um ein technisches GEO Audit deiner Website automatisiert im Terminal zu starten:
@@ -13637,7 +13892,10 @@ In der operativen Zusammenarbeit mit Unternehmen folgt ein versierter Berater ei
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt für deinen Coding-Agenten (Cursor, Claude, Antigravity), um Content-Blöcke semantisch für RAG-Pipelines und KI-Extraktoren zu optimieren:
@@ -13793,7 +14051,10 @@ Was passiert technisch im Hintergrund, wenn ein B2B-Käufer heute fragt: *„Wel
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -13949,7 +14210,10 @@ Reasoning Engines bevorzugen kühle, datengestützte und faktenreiche Aussagen. 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Kernseiten automatisiert auf GEO-Kriterien zu auditieren:
@@ -14152,7 +14416,10 @@ if __name__ == "__main__":
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine automatische Abfrage deiner GEO-Metriken per API aufzusetzen:
@@ -14310,7 +14577,10 @@ Wenn ein B2B-Einkäufer ChatGPT fragt: *„Welche Agenturen sind führend für H
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein technisches GEO vs. SEO Server-Audit für dein Web-Projekt durchzuführen:
@@ -14495,7 +14765,10 @@ Weil KI-Modelle probabilistisch arbeiten, antworten sie selten zweimal exakt gle
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain für Generative Engine Optimization (GEO) auf Server-Ebene fit zu machen:
@@ -14662,7 +14935,10 @@ Wer nach einem Update Traffic verliert, sollte nicht hektisch Meta-Tags austausc
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um bestehende Artikel auf Information-Gain-Lücken und RAG-Retrieval-Tauglichkeit zu überprüfen:
@@ -14849,7 +15125,10 @@ Viele Website-Betreiber verschlimmern ihren Ranking-Verlust durch unüberlegte R
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Assistenten (Cursor, Claude, Antigravity), um die Gewinner- und Verlierer-URLs nach einem Google Core Update datenbasiert zu auditieren:
@@ -15050,7 +15329,10 @@ Nach erfolgreicher Bestätigung können Sie externe SEO-Berater oder Agenturmita
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Nutze diesen Prompt in deinem Coding-Agenten (Cursor, Claude, Antigravity), um DNS-TXT-Records zu validieren und GSC-Indexierungsabfragen automatisiert einzurichten:
@@ -15204,7 +15486,10 @@ Eine saubere `robots.txt` stellt sicher, dass der Crawler ohne Blockaden auf all
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -15407,7 +15692,10 @@ Du baust eine nackte Fakten-Seite, lieferst sie an die KI-Systeme aus und domini
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardisierte Grounding Page mit semantischem HTML und Schema.org-Markup für dein Webprojekt zu generieren:
@@ -15638,7 +15926,10 @@ Erfolgreiche Generative Engine Optimization setzt 2026 auf fortgeschrittene Chun
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Content-Struktur für automatisierte Query Decomposition und RAG-Retrieval zu optimieren:
@@ -15830,7 +16121,10 @@ In der Praxis stoßen wir bei technischen Audits regelmäßig auf fundamentale S
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Überschriften-Hierarchie und das semantische Chunking deines Projekts zu auditieren:
@@ -16050,7 +16344,10 @@ In technischen Webseiten-Audits zeigen sich immer wieder wiederkehrende struktur
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Webseiten-Templates auf semantisches HTML5 und RAG-Chunking-Readiness zu refaktorisieren:
@@ -16221,7 +16518,10 @@ Bei der Implementierung von RFC 9421 in Gateway- und Agenten-Architekturen trete
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine RFC 9421 Verifikations-Middleware für dein API-Gateway oder Backend zu implementieren:
@@ -16413,7 +16713,10 @@ In SEO-Audits und technischen Code-Prüfungen treten wiederkehrende Implementier
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides Identity-JSON-LD-Snippet für Organisation und Autoren aufzusetzen:
@@ -16601,7 +16904,10 @@ Im Bestreben, generative Sichtbarkeit zu erlangen, begehen viele Webseitenbetrei
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Content-Templates für Answer-Engine-Zitationen und RAG-Extraktion zu optimieren:
@@ -16763,7 +17069,10 @@ Trotz der enormen Hebelwirkung unterlaufen Webmastern in der Praxis regelmäßig
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -16973,7 +17282,10 @@ Da Nutzer über Sprachassistenten und Chat-Engines zunehmend in vollständigen S
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -17161,7 +17473,10 @@ Indem du explizite Verweise auf anerkannte Wissensdatenbanken (wie Wikipedia ode
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -17355,7 +17670,10 @@ Um semantische Entitäten und Sub-Queries sauber in die eigene Website-Architekt
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -17542,7 +17860,10 @@ print(f"Information Gain Score: {score}% (Ziel: > 25%)")
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -17742,7 +18063,10 @@ Das folgende neutrale Schema.org-Markup demonstriert, wie Sie Produkt- oder Dien
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -17912,7 +18236,10 @@ Sobald diese Architektur steht, ist das Fundament gegossen. Du brauchst intern E
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -18079,7 +18406,10 @@ KI kann Fakten generieren, aber keine echten Erfahrungen sammeln. Formulierungen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -18287,7 +18617,10 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -18495,7 +18828,10 @@ Um die eigene Markensichtbarkeit in LLMs systematisch zu messen und Zitations-Ve
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -18662,7 +18998,10 @@ Etabliere zudem eine wöchentliche Feedback-Schleife zwischen deinem SEO-Team un
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um automatisierte Prompt-Testing-Skripte für dein KI-Monitoring zu etablieren:
@@ -18869,7 +19208,10 @@ if __name__ == "__main__":
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Zitationsfähigkeit deiner Web-Architektur systematisch zu prüfen:
@@ -19074,7 +19416,10 @@ Das Fundament für die maschinelle Erfassung bildet sauberes [Technisches SEO](h
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Website mit vollständigem Entitäten-Graph-Markup auszustatten:
@@ -19243,7 +19588,10 @@ Für moderne SEO-Teams bedeutet dies: Linkaufbau erfordert keinen panischen Akti
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain maschinenlesbar mit verifizierten Branchen-Referenzen zu vernetzen:
@@ -19421,7 +19769,10 @@ Damit generative KIs persönliche LinkedIn-Aktivitäten zweifelsfrei mit der Unt
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um LinkedIn-Profile und Website-Entitäten semantisch zu synchronisieren:
@@ -19600,7 +19951,10 @@ In unseren technischen Audits stoßen wir fortlaufend auf fatale Strukturfehler,
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine interne Linkarchitektur automatisiert auf Linkjuice-Lecks und Klicktiefe zu prüfen:
@@ -19782,7 +20136,10 @@ Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit gene
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Content Negotiation für Markdown auf deiner Server-Infrastruktur zu implementieren:
@@ -19944,7 +20301,10 @@ Hier kannst du Rankscale testen und deine LLM-Sichtbarkeit sofort messen.
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Multi-LLM-Prompt-Tracking-Skript via API zu entwickeln:
@@ -20123,7 +20483,10 @@ Diese Tracker automatisieren den Prozess:
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -20315,7 +20678,10 @@ Mit [Rankscale](https://teleschmie.de/glossar/rankscale/) überwachst du automat
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -20502,7 +20868,10 @@ Für die ganzheitliche Überwachung deiner Onpage-Strukturen und technischen Feh
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -20681,7 +21050,10 @@ Zur systematischen Überwachung deiner Onpage-Architektur und Identifikation feh
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -20895,7 +21267,10 @@ Lokale Sichtbarkeit ist kein einmaliges Projekt, sondern ein dauerhafter Prozess
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -21099,7 +21474,10 @@ Einen Marktvergleich über moderne Monitoring-Werkzeuge für lokale und globale 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -21304,7 +21682,10 @@ Wer seine Marken-Sichtbarkeit und die Performance seiner maschinenlesbaren Schni
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -21497,7 +21878,10 @@ Markdown Content Negotiation ist kein kurzfristiger Ranking-Trick, sondern eine 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -21658,7 +22042,10 @@ Ein oft unterschätzter Aspekt im Markenaufbau ist die technische Hygiene der ei
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -21888,7 +22275,10 @@ Wie sich fortschrittliche Plattformen im Zeitalter generativer KI positionieren,
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die MCP Server Card für deine Domain automatisiert zu generieren und zu validieren:
@@ -22043,7 +22433,10 @@ Wer im KI-Zeitalter organische Erwähnungen aufbauen will, muss auf substanziell
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Monitoring für ungelinkte Markenerwähnungen und Entity-Verknüpfungen aufzusetzen:
@@ -22200,7 +22593,10 @@ Schreibe sie manuell. Optimiere sie auf harte Klickreize (Psychologie) für Mens
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um alle Meta-Descriptions in deinem Projekt automatisiert auf Länge, Entitäten und CTR zu optimieren:
@@ -22364,7 +22760,10 @@ Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein bestehendes IT- und Web-Setup auf den modernen, zustandslosen MCP-Standard auditieren zu lassen:
@@ -22508,7 +22907,10 @@ Du musst für die LLMs die unumstrittenste Entität in deiner Nische werden. Wen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deine transaktionalen Angebotsseiten für LLM-Agenten und Schema.org-Parsing abzusichern:
@@ -22710,7 +23112,10 @@ Das Noindex-Tag ist kein bloßes Archivierungsinstrument, sondern ein zentrales 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Website automatisiert auf versehentliche Noindex-Sperren und Index-Zombies zu prüfen:
@@ -22908,7 +23313,10 @@ Wie sich fortschrittliche Plattformen im Bereich generativer Suchmaschinen posit
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides OAuth 2.0 Authorization Server Discovery Manifest für deine Domain einzurichten:
@@ -23120,7 +23528,10 @@ Moderne Unternehmen, die ihre Datenstrukturen für Antwortmaschinen und Agenten 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um das Protected Resource Metadata Manifest (RFC 9728) für deine Schnittstellen bereitzustellen:
@@ -23312,7 +23723,10 @@ Die Investition in ein solches, hochspezialisiertes Tracking-Tool ist längst ke
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit für Bot-Crawlability und Prompt-Tracking durchzuführen:
@@ -23474,7 +23888,10 @@ In technischen Beratungsprojekten stoßen wir regelmäßig auf dieselben Stolper
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -23680,7 +24097,10 @@ Viele traditionelle Plattformen bauen das Feature an, sind aber historisch in de
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -23843,7 +24263,10 @@ Wenn du festgestellt hast, dass deine Sichtbarkeit bei null liegt, ist es Zeit f
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -24017,7 +24440,10 @@ In vielen PR-Kampagnen werden gravierende strategische Fehler begangen, die den 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -24196,7 +24622,10 @@ Maßgeschneiderte Pakete für globale Agenturen und Konzerne.
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -24408,7 +24837,10 @@ Dieses Skript parst die exportierten Ergebnisse der Monitoring-Tools und berechn
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -24625,7 +25057,10 @@ Einen detaillierten Marktüberblick über spezialisierte Analyse-Tools zur Messu
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -24831,7 +25266,10 @@ Einen detaillierten Marktüberblick über moderne Systeme zur Messung Ihrer KI-Z
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -25028,7 +25466,10 @@ Im Rahmen technischer Analysen begegnen uns regelmäßig Fehlannahmen, die erheb
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -25263,7 +25704,10 @@ Um blinden Aktionismus zu vermeiden, nutzt die Plattform eine **Impact-basierte 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -25434,7 +25878,10 @@ Während die Konkurrenz sich abmüht, interne HTML-Linktexte zu optimieren, legt
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -25616,7 +26063,10 @@ Die robots.txt mag nur eine Textdatei sein, aber sie reagiert empfindlich auf Sy
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -25806,7 +26256,10 @@ Verlasse dich nicht mehr nur auf den alten Google Rich Results Test. Nutze den o
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -26005,7 +26458,10 @@ Für Enterprise-Kunden bietet SE Ranking eine mächtige API. Das bedeutet, du ka
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um SE Ranking über die REST-API oder den nativen MCP-Server automatisiert anzubinden:
@@ -26228,7 +26684,10 @@ Domains, die ihre Inhaltsarchitektur konsequent auf semantische Prinzipien umste
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -26408,7 +26867,10 @@ except requests.exceptions.RequestException as error:
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
@@ -26562,7 +27024,10 @@ Die Kür ist die Positionierung als unumstößliche Entität. Wir implementieren
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain auf Agent-Readiness und moderne Agentur-Standards zu auditieren:
@@ -26727,7 +27192,10 @@ Ein Audit ist kein Luxus, sondern absolute Pflicht:
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain automatisiert auf moderne SEO- und KI-Readiness-Kriterien zu auditieren:
@@ -26891,7 +27359,10 @@ Innerhalb weniger Wochen tauchte der Kunde nicht mehr nur als Link, sondern als 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die strategische Ausrichtung deiner Website auf moderne LLM- und Answer-Engine-Strukturen zu automatisieren:
@@ -27072,7 +27543,10 @@ Trifft ein algorithmisches Core Update eine Website unerwartet mit herben Sichtb
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein maßgeschneidertes technisches Inhouse-Schulungs- und Audit-Curriculum für dein Team zu erstellen:
@@ -27249,7 +27723,10 @@ Mit dieser systematischen Herangehensweise sichert professionelles Consulting di
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die semantische Wissensarchitektur deines Unternehmens automatisiert zu auditieren und anzureichern:
@@ -27422,7 +27899,10 @@ Wer zum ersten Mal an einem spezialisierten Stammtisch teilnimmt, tritt gelegent
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um lokale Community-Events und Meetups mit validem Schema.org Event-Markup auszuzeichnen:
@@ -27588,7 +28068,10 @@ Brauchst du also sofort ein teures AI-Tracking-Abo? Das hängt maßgeblich von d
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes LLM-Visibility-Monitoring-Skript für deine Marke aufzusetzen:
@@ -27765,7 +28248,10 @@ Analysiert deinen Haupttext mithilfe von Google Gemini auf sprachtypische Floske
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die 22 Kriterien des SEORCH AI Checks automatisiert in deinem Webprojekt zu validieren:
@@ -27927,7 +28413,10 @@ Dieser Code stellt sicher, dass Crawler keine asynchronen Datenabrufe im Browser
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Server-Side Rendering und statische HTML-Auslieferung in deinem Webprojekt auf Render-Blockaden zu überprüfen:
@@ -28132,7 +28621,10 @@ Durch diese Differenzierung entsteht der **Weighted Share of Model (W-SoM)**, de
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine automatisierte Pipeline zur Berechnung deines Share of Model (SoM) zu implementieren:
@@ -28348,7 +28840,10 @@ In der Unternehmenspraxis führen unzureichende Messmethoden häufig zu falschen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine automatisierte Berechnung des organischen Share of Voice (SOV) zu implementieren:
@@ -28508,7 +29003,10 @@ Zusätzlich gewinnen offene Schnittstellen für KI-Agenten an Bedeutung. Eine st
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Visibility- & Zitations-Audit für deine wichtigsten Landingpages durchzuführen:
@@ -28702,7 +29200,10 @@ Damit moderne Crawling-Systeme und Sichtbarkeits-Tracker deine Marke zweifelsfre
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Visibility- & Ranking-Qualitätsaudit auf Keyword- und URL-Ebene durchzuführen:
@@ -28887,7 +29388,10 @@ Durch diese saubere Trennung von Website und Organisation im Sinne von [Entity S
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um einen vernetzten Schema-Markup-Graphen für ganzheitliches Sichtbarkeitsmanagement und Entity-Resolution zu erstellen:
@@ -29090,7 +29594,10 @@ Durch strukturierte Produktdaten ermöglichst du Analyseplattformen, Preise, Sof
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit für AI-Overview-Präsenz und strukturierte Schema-Daten durchzuführen:
@@ -29285,7 +29792,10 @@ Die Bereitstellung einer XML-Sitemap ist nur die halbe Miete. Professionelle Web
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um eine automatisierte XML-Sitemap-Validierung in deine Build-Pipeline zu integrieren:
@@ -29465,7 +29975,10 @@ Durch solche sauberen Schemata können Rich Results wie Bewertungssterne (`Aggre
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes SERP-Snippet- und Rich-Result-Audit durchzuführen:
@@ -29670,7 +30183,10 @@ Um proaktiv agieren zu können, setzen professionelle Teams auf automatisiertes 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Social-Profile-Audit und Schema.org sameAs-Mapping für dein Webprojekt zu erstellen:
@@ -29857,7 +30373,10 @@ Gleichzeitig ermöglicht dir das spezialisierte KI-Tracking von **[Rankscale](ht
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deine Domain-Infrastruktur auf deterministische Validierung und RFC-8785-Kanonisierung zu testen:
@@ -30073,7 +30592,10 @@ Die technische Implementierung strukturierter Daten erfordert ein fortlaufendes 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um einen vernetzten Schema.org JSON-LD Wissensgraphen für deine Domain zu generieren:
@@ -30263,7 +30785,10 @@ Durch diese präzise Bereitstellung können Suchbots die Kernaussagen direkt ext
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um unstrukturierte GSC-Suchdaten in hocheffiziente Zero-Volume-Themencluster zu transformieren:
@@ -30508,7 +31033,10 @@ Schlägt der `jq`-Befehl fehl, bricht der Build-Prozess ab, bevor beschädigte S
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit für SSR-Schema-Markup und JSON-LD Syntaxvalidierung auszuführen:
@@ -30679,7 +31207,10 @@ Durch diese saubere Deklaration signalisiert der Server jedem eintreffenden Agen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Server-, Header- und Redirect-Audit auf deiner Webplattform durchzuführen:
@@ -30866,7 +31397,10 @@ Wenn es thematisch passt, baue das aktuelle Jahr (z.B. "2026") oder Klammern wie
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Title Tags automatisiert auf CTR, Pixel-Länge und semantische Konsistenz zu prüfen:
@@ -31081,7 +31615,10 @@ Unternehmen, die ihre thematische Durchdringung im Wettbewerbsvergleich transpar
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein Content-Repository auf thematische Cluster-Architektur und semantische Verlinkung zu analysieren:
@@ -31223,7 +31760,10 @@ Wir messen heute, wie stabil deine Marke in den neuronalen Gewichten der großen
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deinen organischen Content auf Conversion-Brücken und Answer-First-Strukturen zu optimieren:
@@ -31401,7 +31941,10 @@ Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in e
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um alle internen URLs und Server-Konfigurationen auf Trailing-Slash-Konsistenz zu prüfen:
@@ -31602,7 +32145,10 @@ Trustworthiness ist keine einmalige Marketingmaßnahme, sondern die dauerhafte V
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Trustworthiness- & E-E-A-T-Audit deiner Website durchzuführen:
@@ -31839,7 +32385,10 @@ Wie Sie Ihre Sichtbarkeit im Zeitalter generativer Suchsysteme professionell ana
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um dein Web-Projekt auf Two-Wave-Indexing-Risiken und JavaScript-Abhängigkeiten im initialen HTML zu überprüfen:
@@ -32021,7 +32570,10 @@ Wer seine Markenpräsenz in der Region stärken und seine digitale Sichtbarkeit 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Schema.org BusinessEvent-Daten für deine Events oder Partnerschaften semantisch sauber zu generieren:
@@ -32202,7 +32754,10 @@ Zur Überprüfung der eigenen Sichtbarkeit in KI-Suchsystemen und Shopping-Assis
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein UCP-Endpunkt-Manifest für deinen Webshop zu generieren und zu validieren:
@@ -32362,7 +32917,10 @@ Eine blitzsaubere [XML-Sitemap](https://teleschmie.de/glossar/xml-sitemap/) und 
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Accessibility, Touch-Targets und DOM-Strukturen für Menschen und Agenten abzusichern:
@@ -32532,7 +33090,10 @@ Um Ausfälle zu verhindern, sollten WAF-Logfiles wöchentlich analysiert werden.
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten oder DevOps-Agenten, um deine WAF-Regeln auditiert und suchmaschinenfreundlich zu konfigurieren:
@@ -32746,7 +33307,10 @@ Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwer
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme RFC-9421-Signaturvalidierung für eingehende Bot-Requests zu implementieren:
@@ -32937,7 +33501,10 @@ In Kombination mit weiteren Standards für Agent Readiness – wie [auth.md](htt
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um WebMCP-Tools sicher und abwärtskompatibel auf deiner Website zu registrieren:
@@ -33127,7 +33694,10 @@ Planen Sie im Vorfeld ein professionelles [SEO-Audit](https://teleschmie.de/glos
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Relaunch-Weiterleitungsmatrix automatisiert zu erstellen und auf HTTP-Statuscodes zu validieren:
@@ -33325,7 +33895,10 @@ Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten (Cursor, Claude, Antigravity), um die kritischen Audit-Fehler deiner Website automatisiert zu isolieren und strukturierte Fixes zu implementieren:
@@ -33479,7 +34052,10 @@ Wer seine Daten 2026 nicht über KI-Crawler-Protokolle und maschinenlesbare Endp
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine WordPress-Instanz auf moderne Performance- und Content-Negotiation-Standards umzustellen:
@@ -33693,7 +34269,10 @@ Wer verstehen möchte, wie führende Marken ihre Daten im KI-Ökosystem monetari
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein sicheres x402-Payment-Gateway für deine Express- oder Next.js-API zu bauen:
@@ -33902,7 +34481,10 @@ Das folgende Code-Beispiel zeigt den korrekten, validen Aufbau einer Teil-Sitema
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um die XML-Sitemaps deines Webprojekts auf Statuscodes, Canonicals und Datums-Integrität zu auditieren:
@@ -34107,7 +34689,10 @@ Erfolgreiches YouTube SEO im Jahr 2026 erfordert den Spagat zwischen packendem S
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein vollautomatisches VideoObject-Schema mit Clip-Segmenten für deine Webseiten zu generieren:
@@ -34263,7 +34848,10 @@ Erfinde prägnante Bezeichnungen für deine Methoden. Wenn du einen standardisie
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt in deinen KI-Coding-Assistenten (Cursor, Claude, Antigravity), um bestehende Ratgeber-Artikel in RAG-optimierten Zero-Click Content zu transformieren:
@@ -34466,7 +35054,10 @@ Drittens bildet die technische Bereitstellung die unverzichtbare Basis. Über ei
       🤖
       Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)
     
-    Copy & Paste Task
+    
+      
+      Kopieren für Agent
+    
   
   
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um bestehende Fachinhalte automatisiert auf maximale RAG-Zitierfähigkeit und Brand Injection umzustrukturieren:

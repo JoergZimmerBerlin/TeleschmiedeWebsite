@@ -2,81 +2,136 @@
 category: 'Technisches SEO & UX'
 title: "Sitemap: Echte Architektur für RAG-Pipelines"
 meta_title: "Sitemap: Architektur für RAG (2026)"
-description: "Sitemap: Der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik ohne irgendwelche Kompromisse. (2026)"
-meta_description: "Sitemap: Der harte Wegweiser für Agenten. Baue maschinenlesbare Endpunkte mit exakter mtime-Logik ohne irgendwelche Kompromisse. (2026)"
+description: "Sitemap im Detail: Wie XML-Sitemaps mit präziser mtime-Logik und lastmod RAG-Pipelines und KI-Crawler 2026 verlässlich steuern. (2026)"
+meta_description: "Sitemap im Detail: Wie XML-Sitemaps mit präziser mtime-Logik und lastmod RAG-Pipelines und KI-Crawler 2026 verlässlich steuern. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q1503327"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sitemap-3d.webp"
 image_alt: "Sitemap 3D Infografik - Architektur deiner Website für autonome Agenten"
-related_terms: ["crawler", "robots-txt", "crawling-vs-indexing", "llms-txt"]
+related_terms: ["xml-sitemap", "crawler", "robots-txt", "crawling-vs-indexing", "rag"]
 key_takeaways:
-  - "RAG-Pipeline Fütterung: Autonome Agenten scannen deine Sitemaps sekündlich nach Updates, um ihr Vektor-Wissen aufzufrischen."
-  - "mtime-Logik ist Pflicht: Nutze präzise Git-History für <lastmod>, damit KIs wissen, wann sich Fakten geändert haben. Lügen bestraft die Maschine."
-  - "Klasse statt Masse: Segmentierung deiner XML in Sub-Sitemaps und strikter Ausschluss von noindex/redirect URLs bewahren dein KI-Crawl-Budget."
+  - "Sitemaps dienen im KI-Zeitalter als Seed-Listen und Ingestion-Trigger für RAG-Pipelines und autonome Web-Agenten."
+  - "Google und KI-Crawler bewerten das <lastmod>-Tag strikt binär: Nur verifizierbare mtime-Zeitstempel schaffen dauerhaftes Vertrauen."
+  - "Pauschale Fake-Zeitstempel führen zum vollständigen Vertrauensverlust und werden von Suchmaschinen ignoriert."
+  - "Die moderne Sitemap-Architektur kombiniert segmentierte XML-Dateien mit komplementären Formaten wie llms.txt."
 faqs:
-  - question: 'Wie nutzen KI-Agenten meine Sitemap im Vergleich zu Google?'
-    answer: 'Google nutzt Sitemaps, um stumpf URLs zu entdecken. KIs (ChatGPT, Perplexity) nutzen sie als präzisen Trigger, um RAG-Pipelines in Echtzeit aktuell zu halten. Ändert sich das <lastmod>-Datum, feuert der KI-Agent einen Request für strukturiertes Markdown, um die Fakten schlank zu vektorisieren.'
-  - question: 'Sollte jede URL in die Sitemap?'
-    answer: 'Auf gar keinen Fall! Nur absolute High-Value URLs mit Status 200, E-E-A-T Faktor und maschinenlesbaren Inhalten gehören da rein. Qualität schlägt Quantität 2026 um Längen.'
-  - question: 'Wie setze ich das <lastmod> Datum perfekt für KIs um?'
-    answer: 'Wir arbeiten ausschließlich mit mtime-Logik auf Basis echter Git-History. Das Datum darf sich nur ändern, wenn der Inhalt sich WIRKLICH ändert. Wer bei jedem Build pauschal das heutige Datum setzt, wird als Lügner gebrandmarkt und von KIs ignoriert.'
+  - question: "Wie nutzen KI-Agenten und RAG-Systeme Sitemaps im Vergleich zu traditionellen Suchmaschinen?"
+    answer: "Klassische Suchmaschinen wie Google nutzen XML-Sitemaps primär zur Entdeckung neuer und geänderter URLs. Autonome KI-Agenten und RAG-Pipelines nutzen sie hingegen als Ingestion-Trigger: Über das <lastmod>-Datum erkennen sie, welche Dokumente neu eingebettet (vektorisiert) werden müssen, und überspringen unveränderte Seiten zur Ressourcenschonung."
+  - question: "Welche Kriterien muss das <lastmod>-Datum 2026 erfüllen?"
+    answer: "Das Datum muss zwingend die tatsächliche inhaltliche Änderung des Dokuments widerspiegeln (echte mtime-Logik, beispielsweise über Git-Commit-Zeitstempel). Wenn ein System bei jedem Build pauschal das Tagesdatum einsetzt, stuft Google den Tag als unzuverlässig ein und ignoriert ihn künftig komplett."
+  - question: "Gehört jede Unterseite einer Domain in die XML-Sitemap?"
+    answer: "Nein. In die Sitemap gehören ausschließlich kanonische URLs mit HTTP-Statuscode 200, die für den Index bestimmt sind. Weiterleitungen (301/302), Fehlerseiten (404), durch robots.txt blockierte Pfade oder per noindex deklarierte URLs müssen strikt ausgeschlossen werden."
+  - question: "Was ist der Unterschied zwischen einer XML-Sitemap und einer llms.txt?"
+    answer: "Die XML-Sitemap ist eine vollständige, maschinenlesbare Bestandsaufnahme aller indexierbaren URLs für traditionelle Suchmaschinen-Crawler. Die llms.txt ist eine kuratierte, markdown-basierte Datei, die KI-Modellen eine redaktionell gefilterte Übersicht der wichtigsten Fachdokumente und Wissensbereiche bietet."
 ---
 
-Moin!
+Eine **Sitemap** ist eine strukturierte Übersicht oder Datei, die alle relevanten und indexierbaren Inhalte einer Webpräsenz hierarchisch aufführt und Suchsystemen als Orientierungshilfe dient. Während Sitemaps in den Anfangsjahren der Suchmaschinenoptimierung primär als einfache HTML-Inhaltsverzeichnisse für Besucher oder als starre XML-Dateien zur URL-Entdeckung des Googlebots dienten, haben sie sich im Jahr 2026 zu einem kritischen Infrastruktur-Endpunkt für autonome KI-Agenten und Retrieval-Augmented Generation ([RAG](/glossar/rag/)) entwickelt.
 
-Lass uns direkt einsteigen. Eine **Sitemap** war in der SEO-Steinzeit die banale Inhaltsangabe deiner Website. Ohne sie musste sich der behäbige Googlebot mühsam von Link zu Link hangeln. Doch was wir im 2026 erleben, reißt die Bedeutung der Sitemap komplett aus den Fugen: Wir sind in der Ära der Agent Readiness. 
+In der Ära moderner KI-gestützter Suchökosysteme ist die Sitemap die zentrale Schnittstelle zur Wahrung der Datenfrische (*Content Freshness*). Da KI-Assistenten wie ChatGPT, Perplexity und Google AI Overviews Antworten auf Basis aktueller Live-Informationen synthetisieren, greifen ihre Ingestion-Pipelines fortlaufend auf Sitemaps zu. Eine fehlerhafte oder manipulierte Sitemap gefährdet nicht nur klassische Rankings, sondern kappt die Verbindung zu den Vektordatenbanken der weltweiten Sprachmodelle.
 
-Sitemaps garantieren dir heute zwar nicht magisch bessere Rankings, aber sie sind das absolute Fundament, um von AI-Crawlern (wie Google-Extended, GPTBot oder ClaudeBot) effizient verarbeitet zu werden.
+## Die Evolution der Sitemap-Architektur
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Eine Sitemap, die lügt, ist der absolute Tod deiner KI-Sichtbarkeit. Wenn du hochgezüchtete Agenten durch gefälschte Last-Modified-Daten verarschst, verlierst du ihr Vertrauen für immer. Eine Agent-Ready Sitemap ist messerscharf und dient als Autobahn für maschinenlesbare Endpunkte. Kein Bullshit, nur harte Fakten."</p>
+Die Bedeutung und technische Ausgestaltung von Sitemaps hat sich über die vergangenen Jahrzehnte drastisch gewandelt:
+
+1. **HTML-Sitemap (Historisch):** Eine für menschliche Besucher sichtbare Unterseite mit Hyperlinks zu allen Kategorien. Dient heute fast nur noch der Barrierefreiheit und internen Linkarchitektur.
+2. **Klassische XML-Sitemap:** Ein maschinenlesbares Protokoll (Sitemaps.org-Standard), das URLs, Änderungsdaten und optionale Medien-Metadaten auflistet.
+3. **Agent-Ready Ingestion-Sitemap (2026):** Hochgradig segmentierte, dynamische Daten-Endpunkte, die auf atomarer Dateiebene echte Änderungszeitpunkte (*mtime*) kommunizieren und KI-Bots nahtlos zu maschinenlesbarem Markdown leiten.
+
+## Vergleich: XML-Sitemap vs. llms.txt vs. HTML-Sitemap
+
+Die folgende Übersicht differenziert die drei zentralen Sitemap-Typen im heutigen Web-Stack:
+
+| Kriterium | XML-Sitemap | llms.txt | HTML-Sitemap |
+| :--- | :--- | :--- | :--- |
+| **Hauptzielgruppe** | Suchmaschinen-Crawler (Googlebot, Bingbot) | LLMs & KI-Agenten (Claude, GPTBot) | Menschliche Website-Besucher & Screenreader |
+| **Primärer Zweck** | Vollständiges Inventar aller Index-URLs | Kuratierte Zuweisung von Fachinhalten | Navigation und interne Linkverteilung |
+| **Aktualitäts-Signal** | Exaktes `<lastmod>`-Attribut (mtime) | Statisches Struktur-Manifest | Keines (reine Linkliste) |
+| **Format** | XML (nach sitemaps.org Schema) | Markdown (LLM-optimierter Klartext) | HTML / CSS Webkomponente |
+| **Fehler-Toleranz** | Gering (strikte XML-Validierungspflicht) | Hoch (semi-strukturierter Text) | Hoch (vom Browser gerendert) |
+
+## Das Binär-Prinzip des `<lastmod>`-Tags
+
+Ein zentrales Thema bei der Pflege moderner Sitemaps ist die Verlässlichkeit des `<lastmod>`-Zeitstempels. Google-Vertreter wie Gary Illyes haben 2026 unmissverständlich klargestellt: Suchmaschinen bewerten das Änderungsdatum rein binär. Entweder das System vertraut Ihren Angaben zu 100 %, oder es ignoriert `<lastmod>` für die gesamte Domain.
+
+Wenn ein Content-Management-System bei jedem Software-Update oder nächtlichen Cache-Clear pauschal das Tagesdatum in sämtliche `<lastmod>`-Tags schreibt, erkennt Google diesen Fake binnen kürzester Zeit. Das Crawl-Budget wird entwertet, und frische Artikel werden seltener re-gecrawlt.
+
+Die einzige professionelle Lösung ist eine echte **mtime-Logik**:
+* Das Datum darf sich ausschließlich ändern, wenn der materielle Textinhalt oder die Datenstruktur einer Seite modifiziert wurden.
+* Für statische Seiten und Headless-Systeme bietet sich die Auslesung des letzten Git-Commit-Datums der Quelldatei an.
+* Wenn ein System keine verlässlichen Datumsangaben generieren kann, ist es technisch ratsamer, den `<lastmod>`-Tag komplett wegzulassen, statt falsche Daten zu publizieren.
+
+## Universelles Code-Beispiel: Saubere XML-Sitemap-Architektur
+
+Eine moderne XML-Sitemap sollte in thematische Teil-Sitemaps aufgeteilt und über einen zentralen Sitemap-Index gebündelt werden. Das folgende neutrale Beispiel demonstriert den Aufbau:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://deinedomain.de/glossar/sitemap/</loc>
+    <lastmod>2026-03-10T08:30:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://deinedomain.de/glossar/crawler/</loc>
+    <lastmod>2026-02-15T14:20:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://deinedomain.de/glossar/robots-txt/</loc>
+    <lastmod>2026-01-20T11:00:00+01:00</lastmod>
+  </url>
+</urlset>
+```
+
+<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-2xl">
+  <p class="font-bold text-lime-800 mb-2">💡 Jörg Zimmer aus der SEO-Praxis:</p>
+  <blockquote class="italic text-dark mb-3">
+    „Eine Sitemap, die lügt, zerstört das Vertrauen von Suchmaschinen und KI-Agenten gleichermaßen. Wer automatisierte Bots mit gefälschten Last-Modified-Daten austricksen will, riskiert, dass frische Inhalte wochenlang im Indexierungsstau stecken bleiben. Eine moderne Sitemap ist kein lästiges Nebenprodukt, sondern die Hochgeschwindigkeits-Infrastruktur für Ihre RAG-Schnittstellen.“
+  </blockquote>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
+    ↗ Zur Diskussion auf LinkedIn
+  </a>
 </div>
 
-Sitemaps sind das absolut kritische Infrastruktur-Backend für autonome Agenten und gierige RAG-Pipelines. Wenn deine Sitemap Müll ist, bist du unsichtbar.
+## Serverkonfiguration und Best Practices
 
-## 1. Qualität vor Quantität (Die 2026er Regeln)
+Damit [Crawler](/glossar/crawler/) Ihre Sitemaps reibungslos auffinden und verarbeiten können, sind folgende Richtlinien zu beachten:
 
-Wer 2026 noch jeden Schrott in eine gigantische monolithische XML-Datei pumpt, verspielt sein Crawl-Budget.
-*   **Nur indexierbare URLs:** Alles mit `noindex`, 404er, Redirects (301) oder Canonical-Duplikate fliegt gnadenlos raus.
-*   **Segmentierung:** Teile deine Sitemap auf. Nutze `sitemap-blog.xml` und `sitemap-products.xml`, gebündelt in einer Sitemap-Index-Datei. Bleib weit unter dem Protokoll-Limit von 50.000 URLs – idealerweise unter 10.000 pro XML für rasante Verarbeitung.
-*   **Integration in die robots.txt:** Der Link zu deiner Sitemap-Index-Datei muss zwingend in deiner `robots.txt` referenziert sein.
+1. **Eintrag in der [robots.txt](/glossar/robots-txt/):** Hinterlegen Sie den absoluten Pfad zur Sitemap stets am Ende der robots.txt:
+   `Sitemap: https://deinedomain.de/sitemap-index.xml`
+2. **RFC 8288 HTTP-Header:** Sitemaps können auch über Server-Header verknüpft werden. Achten Sie auf saubere Syntax ohne Anführungszeichen innerhalb der spitzen Klammern:
+   `Link: <https://deinedomain.de/sitemap.xml>; rel="sitemap"`
+3. **Strikte URL-Hygiene (Trailing Slashes):** Jede URL in der Sitemap muss mit der kanonischen Zieladresse bitgenau übereinstimmen. Fehlen Trailing Slashes (`https://deinedomain.de/glossar/`), entstehen unnötige 301-Weiterleitungsketten, die wertvolles Crawl-Budget verzehren.
 
-## 2. Von starrer XML zum KI-Ökosystem
+## Sitemap-Monitoring in der Google Search Console und automatisierte Indexierung
 
-Wir pflegen heute ein perfekt abgestimmtes Ökosystem für verschiedene Crawler:
+Die Bereitstellung einer XML-Sitemap ist nur die halbe Miete. Professionelle Webmaster und SEO-Experten müssen die Verarbeitung durch Suchmaschinen kontinuierlich überwachen und automatisierte Feedback-Schleifen etablieren:
 
-1.  **Die messerscharfe dynamische XML-Sitemap:** Aktualisiert sich in Echtzeit, listet jede relevante URL und das verifizierte exakte Änderungsdatum.
-2.  **Die llms.txt & auth.md:** Das Manifest für KI-Agenten. Die `llms.txt` führt KIs zu Markdown-Wissen. Und vergiss nicht die zwingende `auth.md` (zwingend kleingeschrieben, `# auth.md` als allererste H1), die KI-Agenten die Zugriffsrechte erklärt.
-3.  **Die A2A Agent Card:** Die `agent-card.json` (nach a2a-protocol.org v1.0), die im JSON-Schema deine Capabilities für andere Agenten auflistet.
+1. **Auswertung des Search Console Sitemap-Reports:** Nach dem Einreichen der `sitemap-index.xml` in der Google Search Console liefert der Bericht detaillierte Einblicke darüber, wie viele der gemeldeten URLs tatsächlich gecrawlt und in den Suchindex aufgenommen wurden. Eine signifikante Diskrepanz zwischen übermittelten und indexierten Seiten ist das erste Warnsignal für Qualitätsmängel oder Canonical-Konflikte.
+2. **Kombination mit der Google Indexing API und IndexNow:** Während Sitemaps für das periodische Discovery-Crawling zuständig sind, erfordern zeitkritische Inhalte (wie Presse-News oder Produktverfügbarkeiten) den sofortigen Push über Instant-Indexing-Protokolle. Ein modernes Setup sendet bei Veröffentlichung neuer Artikel zeitgleich einen IndexNow-Ping an Bing und Yandex sowie einen API-Call an die Google Search Console API.
+3. **Automatisierte Validierung in CI/CD-Pipelines:** Integrieren Sie einen Sitemap-Linter in Ihre Deployment-Pipeline. Bevor neuer Code auf den Live-Server gelangt, prüft ein Skript automatisch, ob alle URLs den Status 200 zurückgeben, XML-Validitätsregeln einhalten und verlässliche mtime-Daten besitzen.
 
-## 3. Warum KI-Agenten nach deiner Sitemap gieren
+## Die 3 häufigsten Fehler bei Sitemaps
 
-KI-Agenten haben ein Problem: Aktualität. Ihre eigentlichen Trainingsdaten sind veraltet. Um Nutzerfragen in Echtzeit korrekt zu beantworten, nutzen sie RAG. Sie müssen frische Fakten aus dem Netz ziehen und vektorisieren. 
-Sie pingen deine Sitemap im Minutentakt. Dabei checken sie nicht das Design, und sie ignorieren auch Tags wie `<priority>` oder `<changefreq>`. Sie checken exakt ein einziges Signal: Das `<lastmod>` Datum.
+1. **Einspeisung nicht-indexierbarer URLs:** Wer Weiterleitungen (301), 404-Fehlerseiten oder per `noindex` gesperrte URLs in die Sitemap packt, verwirrt den Algorithmus. Eine Sitemap darf ausnahmslos URLs mit HTTP-Status 200 enthalten.
+2. **Monolithische Riesen-Sitemaps:** Das Überschreiten empfohlener Dateigrößen (maximal 50.000 URLs bzw. 50 MB unkomprimiert) führt zu Timeout-Problemen beim Crawlen. Nutzen Sie stattdessen thematische Sub-Sitemaps (z. B. für Blog, Glossar, Produkte).
+3. **Pauschale Aktualisierung aller Zeitstempel beim Deployment:** Wenn nach jedem Code-Release alle URLs das heutige Datum tragen, verliert der Crawler die Fähigkeit zur selektiven Re-Indexierung.
 
-*   **Wahnsinnige Schnelligkeit:** Veröffentlichst du einen neuen Report, saugt der autonome Bot diesen innerhalb von Minuten aus der Sitemap.
-*   **Effizienz durch Markdown:** Statt das überladene HTML zu parsen, triggert die Datums-Änderung einen chirurgischen Request. Der Bot sendet `Accept: text/markdown` an deine Endpunkte und lädt die nackten Fakten herunter.
+## Strategischer Ausblick: Sitemaps als Fundament der KI-Indexierung
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h4 class="text-xl font-bold text-dark mb-2 mt-0">Die mtime-Logik (Git History) in absoluter Perfektion</h4>
-  <p class="mb-0 text-sm">Viele billige CMS aktualisieren das Datum der Sitemap bei jedem Build pauschal auf "heute". Katastrophal! KI-Agenten merken sofort, dass du sie anlügst, wenn sich am Text null geändert hat. Die zwingende Lösung: Nutze strikte Custom Logic, die das exakte Änderungsdatum ausschließlich aus der Git-History (mtime) zieht. Präzision ist nicht verhandelbar.</p>
+Die XML-Sitemap bleibt auch im Zeitalter generativer Sprachmodelle ein unverzichtbares Werkzeug für Webmaster. Durch das Zusammenspiel mit Spezialformaten wie `llms.txt` und der transparenten Abbildung im [Crawling vs. Indexing](/glossar/crawling-vs-indexing/) Prozess stellen Sie sicher, dass Ihre Inhalte schnellstmöglich in den Suchindizes und KI-Wissensspeichern ankommen.
+
+Detaillierte Einblicke in moderne Monitoring-Lösungen zur Überwachung Ihrer organischen und generativen Sichtbarkeit finden Sie in unserem Report über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die anfallenden Betriebskosten für SEO- und Crawling-Software können Sie mit unserem [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) exakt planen.
+
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
 
-## 4. Server-Basics: RFC 8288 und IONOS
-
-Es reicht nicht, eine XML-Sitemap ins Root-Verzeichnis zu werfen. 
-
-*   **RFC 8288 Link Headers:** In deiner `.htaccess` dürfen bei Link-Headern **niemals Anführungszeichen** innerhalb der spitzen Klammern stehen.
-    *Richtig:* `<https://teleschmie.de/sitemap.xml>; rel="sitemap"`
-    *Falsch:* `<https://teleschmie.de/sitemap.xml">; rel="sitemap"`
-*   **Der IONOS Activate-Trigger:** Lädst du eine optimierte `.htaccess` per FTP auf IONOS hoch, musst du zwingend `https://teleschmie.de/activate_htaccess.php` im Browser oder per cURL ausführen, sonst wird nichts aktiv.
-*   **Trailing Slashes:** Interne Links innerhalb der Sitemap müssen saubere Trailing Slashes besitzen (`teleschmie.de/`). Ohne produzierst du tödliche Redirect-Ketten, die Crawl-Budget fressen.
-
-## 5. Jörgs knallharter Action-Plan
-
-Hör auf, Sitemaps als lästiges SEO-Anhängsel zu betrachten. Die Sitemap ist dein Hochgeschwindigkeits-Glasfaserkabel direkt in die künstlichen Gehirne der globalen LLMs. Reiche sie auch stets in der Google Search Console (GSC) ein, um Crawling-Fehler sofort zu erkennen.
-
-Kombiniere eine fehlerfreie segmentierte XML-Sitemap (mit echter mtime-Logik) mit messerscharfer Anbindung an deine `auth.md` und `agent-card.json`. Liefere bei Updates den Content kompromisslos via serverseitiger Markdown-Negotiation. Das ist hochsolides Handwerk für die gnadenlose Ära der autonomen Agenten. Ohne dieses Handwerk gibt es keine Sichtbarkeit.
-
-ALOHA! 🌻
+### Verwandte Glossar-Begriffe
+* [XML-Sitemap im Detail](/glossar/xml-sitemap/)
+* [Was macht ein Web-Crawler?](/glossar/crawler/)
+* [robots.txt konfigurieren](/glossar/robots-txt/)
+* [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
+* [RAG: Retrieval-Augmented Generation](/glossar/rag/)

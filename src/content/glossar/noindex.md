@@ -1,101 +1,145 @@
 ---
 category: 'Technisches SEO & UX'
-title: 'Noindex: Seiten gnadenlos von der KI ausschließen'
-meta_title: "Noindex: Seiten vor KI radikal verbergen (2026)"
-description: "Kontrolliere dein Crawl-Budget mit dem Noindex Meta-Tag. So verbietest du KI-Crawlern radikal und technisch sauber den Zugriff auf Inhalte. (2026)"
-meta_description: "Kontrolliere dein Crawl-Budget mit dem Noindex Meta-Tag. So verbietest du KI-Crawlern radikal und technisch sauber den Zugriff auf Inhalte. (2026)"
+title: "Noindex: Seiten gezielt von der KI ausschließen"
+meta_title: "Noindex Meta-Tag & X-Robots-Tag (2026)"
+description: "Noindex im Technischen SEO: Wie du mit dem Robots-Meta-Tag und X-Robots-Tag Crawl-Budget schonst und Index-Zombies sicher verhinderst. (2026)"
+meta_description: "Noindex im Technischen SEO: Wie du mit dem Robots-Meta-Tag und X-Robots-Tag Crawl-Budget schonst und Index-Zombies sicher verhinderst. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q4045426"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
+image_alt: "Noindex Meta-Tag Infografik - Indexierungssteuerung im Technischen SEO"
 robots: "index, follow"
 related_terms: ["crawling-vs-indexing", "robots-txt", "seo-audit"]
 key_takeaways:
-  - "Die ultimative Löschung: Das Noindex-Tag entfernt URLs zuverlässig aus dem Index klassischer Suchmaschinen und modernen LLM-Vektordatenbanken."
-  - "Vektor-Hygiene für KIs: Wenn LLMs deinen Thin Content (AGBs, Pagination) crawlen, verwässert das deine Marken-Relevanz im Latent Space extrem."
-  - "Der robots.txt-Konflikt: Ein Noindex-Tag darf NIEMALS durch eine Disallow-Regel in der robots.txt blockiert werden, sonst entsteht ein tödlicher Index-Zombie."
+  - "Das Noindex-Tag weist Suchmaschinen und Crawler verbindlich an, eine URL nicht in den öffentlichen Suchindex aufzunehmen oder daraus zu entfernen."
+  - "Ein gleichzeitiges Sperren per robots.txt (Disallow) verhindert das Auslesen des Noindex-Tags und erzeugt dauerhafte Index-Zombies."
+  - "Für Nicht-HTML-Ressourcen wie PDFs, Bilder oder API-Endpunkte ist der HTTP-Header X-Robots-Tag die technisch sauberste Lösung."
+  - "Gezielte Deindexierung irrelevanter Seiten schützt das Crawl-Budget und verhindert eine Verwässerung der thematischen Relevanz in LLM-Vektordatenbanken."
 faqs:
   - question: 'Wie baue ich das noindex-Tag technisch korrekt ein?'
-    answer: 'Die sicherste Methode ist das HTML-Meta-Tag im `<head>`-Bereich: `<meta name="robots" content="noindex">`. Alternativ (z.B. für PDF-Dokumente) MUSS der X-Robots-Tag als HTTP-Header direkt vom Server gesendet werden. Bei Headless- oder Astro-Projekten integrieren wir das dynamisch über die Head-Komponenten. So bleibt die volle Kontrolle beim Entwickler.'
-  - question: 'Welche Seiten meiner Website MUSS ich zwingend auf noindex setzen?'
-    answer: 'Grundsätzlich alles, was für einen Suchenden – und eine trainierende KI – absoluten Null-Mehrwert bietet. Dazu zählen: Dankesseiten (Thank-You-Pages zerschießen sonst das Analytics-Tracking), rechtliche Pflichtseiten wie AGB und Datenschutz, interne Suchergebnisseiten und nutzlose Tag-Archive. Jörgs Regel: Wenn du dich schämst, diese URL einem Kunden zu schicken – noindex!'
-  - question: 'Darf ich ein noindex-Tag und robots.txt-Disallow gleichzeitig verwenden?'
-    answer: 'NEIN! Diese Kombination ist der absolute Endgegner im Technical SEO. Wenn du eine URL in der robots.txt sperrst, verbietest du dem Crawler das Lesen der Seite. Das bedeutet: Er sieht dein `noindex`-Tag im HTML-Quellcode gar nicht! Die Seite bleibt dann als nackte URL-Hülse im Index hängen. Richtig ist: Crawling erlauben, Indexierung per Meta-Tag verbieten.'
+    answer: 'Die gebräuchlichste Methode ist das HTML-Meta-Tag im <head>-Bereich des Dokuments: <meta name="robots" content="noindex, follow">. Für Nicht-HTML-Dateien wie PDF-Dokumente oder binäre Assets wird stattdessen der HTTP-Header X-Robots-Tag: noindex über die Serverkonfiguration (Nginx oder Apache) ausgeliefert.'
+  - question: 'Welche Seiten sollten zwingend auf noindex gesetzt werden?'
+    answer: 'Alle URLs ohne organischen Mehrwert für externe Suchende: Dankesseiten nach Formularen, interne Suchergebnisseiten, administrative Login-Bereiche, Filter- und Sortierkombinationen mit Thin Content sowie ungeschützte Staging-Umgebungen.'
+  - question: 'Darf ich noindex und ein robots.txt Disallow gleichzeitig verwenden?'
+    answer: 'Auf keinen Fall. Wenn eine URL per robots.txt gesperrt wird, darf der Crawler die Seite nicht abrufen. Dadurch kann er das im HTML oder HTTP-Header platzierte noindex-Tag nicht registrieren. Die URL verbleibt als Zombie-Snippet ohne Beschreibung im Index.'
+  - question: 'Gibt eine noindex-Seite weiterhin Linkautorität (Linkjuice) weiter?'
+    answer: 'Ja, sofern die Direktive follow verwendet wird (<meta name="robots" content="noindex, follow">). Suchmaschinen entfernen die Seite aus dem Index, folgen den darauf platzierten internen Links jedoch weiterhin und vererben PageRank.'
 ---
 
-Moin! 🌻
+Im Repertoire des [Technischen SEO](/glossar/technisches-seo/) existiert kaum eine Direktive mit so unmittelbarer Durchschlagskraft wie der Indexierungsbefehl `noindex`. Ein fehlerhaft platziertes Tag im globalen Layout-Template genügt, um eine gesamte Unternehmenspräsenz binnen weniger Tage vollständig aus den Suchergebnissen von Google, Bing und modernen Antwortmaschinen zu tilgen. Umgekehrt ist der gezielte, chirurgische Einsatz von `noindex` eines der effektivsten Werkzeuge, um das Crawl-Budget zu steuern, Duplicate Content zu eliminieren und den [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/) auf die umsatzrelevanten Kernbereiche zu fokussieren.
 
-Wenn es im gesamten Arsenal des Technical SEO einen einzigen Befehl gibt, der das Schicksal eines Enterprise-Shops oder SaaS-Startups in Millisekunden besiegeln kann, dann ist es dieses kleine HTML-Tag: `<meta name="robots" content="noindex">`. 
+Mit der rasanten Verbreitung generativer Suchsysteme und Large Language Models (LLMs) gewinnt die Indexierungssteuerung eine zusätzliche Dimension: Webseitenbetreiber müssen sicherstellen, dass KI-Crawler ihre Trainingskorpora und Retrieval-Augmented-Generation-Pipelines nicht mit wertlosem Datenrauschen (Thin Content, administrative Seiten, Paginierungs-Wüsten) füttern.
 
-Wir schreiben das Jahr 2026. Das Internet ertrinkt in KI-generiertem Müll und die Suchmaschinen (allen voran Google, aber auch RAG-Systeme wie Perplexity) haben ihre Architektur radikal umgestellt. Sie indexieren nicht mehr einfach jede Seite, die sie finden. Sie bewerten, filtern und sortieren hart aus. Wenn du deine Architektur nicht im Griff hast, zerschießt du dir deine Sichtbarkeit.
+## Die fundamentale Unterscheidung: Crawling vs. Indexing
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Das Noindex-Tag ist dein Skalpell. Wer pfuscht, radiert seine Domain aus dem Netz. Wer es strategisch nutzt, formt die perfekte, hochkonzentrierte Vektor-Basis für LLM-Agenten. Keine Müll-URLs, keine Verwässerung. Nur harte Relevanz."</p>
-</div>
+Um die Wirkungsweise von `noindex` zu verstehen, ist die Trennung zweier grundlegender Prozessschritte im [Crawling vs. Indexing](/glossar/crawling-vs-indexing/) essenziell:
 
-### Warum "Noindex" 2026 überlebenswichtig ist
+1. **Crawling (Erfassen):** Der Web-Crawler (wie der Googlebot) entdeckt eine URL, sendet eine HTTP-Anfrage an den Webserver und lädt den Quelltext herunter.
+2. **Indexing (Speichern und Verarbeiten):** Der Algorithmus analysiert den Inhalt, extrahiert Texte und Entitäten und entscheidet, ob das Dokument in die durchsuchbare Datenbank (den Index) aufgenommen wird.
 
-Es geht nicht mehr nur um klassische Google-Rankings. Es geht um Vektor-Hygiene im Latent Space der Large Language Models (LLMs). Wenn KI-Bots wie der GPTBot deine Seite crawlen, ziehen sie alles in ihre Trainingsdaten oder ihren RAG-Kontext. Wenn sie dabei auf hunderte leere Paginierungs-Seiten, veraltete AGBs von 2019 oder kaputte Filter-URLs stoßen, verwässert das dein Entitäts-Profil extrem. Die Maschine lernt: Diese Domain besteht zu 80 % aus irrelevantem Rauschen.
+Ein `noindex`-Befehl verbietet nicht das Crawlen. Er greift erst im zweiten Schritt: Der Crawler ruft die Seite ab, liest die Anweisung und entfernt das Dokument aus dem Index bzw. sieht von einer Neuaufnahme ab.
 
-Du willst aber das genaue Gegenteil: Eine extrem dichte, hochrelevante Entität sein. Alles, was keinen harten Signalwert für dein Kernthema hat, MUSS aus dem Index fliegen. Das Noindex-Tag sagt dem Crawler unmissverständlich: *"Ich befehle dir hiermit, diese URL sofort aus deinem Index und deinen Datenbanken zu werfen!"*
+## Die tödliche Falle: Kombination von robots.txt und noindex
 
-### Die Noindex vs. Robots.txt Falle: Der Endgegner
+Der gravierendste und am weitesten verbreitete Fehler im technischen Website-Management ist die gleichzeitige Blockierung einer URL in der [robots.txt](/glossar/robots-txt/) und das Setzen eines `noindex`-Tags.
 
-Hier bricht selbst Senior-Developern oft der Schweiß aus. Es ist der häufigste und fatalste Fehler im Technical SEO: Die tödliche Kombination aus einem `noindex`-Tag und einer Disallow-Regel in der `robots.txt`.
-
-**Die goldene, unverhandelbare Regel:** Blockiere *niemals* eine URL per robots.txt, wenn du sie aktiv deindexieren willst! 
-
-Warum? Weil die `robots.txt` das *Crawling* verbietet. Das `noindex`-Tag regelt das *Indexing*. Wenn du dem Googlebot in der robots.txt verbietest, die URL `/danke/` zu betreten, bleibt er vor der Tür stehen. Das bedeutet aber auch: Er kann dein sauber gesetztes `<meta name="robots" content="noindex">` im Quellcode überhaupt nicht lesen! Er weiß nicht, dass er die Seite aus dem Index werfen soll. Die Seite bleibt als "Zombie-URL" (oft ohne Description) dauerhaft in den Suchergebnissen hängen, weil andere Seiten darauf verlinken.
-
-**Die Lösung:** Crawling erlauben, Indexierung verbieten. Der Crawler betritt die Seite, liest den Befehl und löscht die URL sauber aus seinem Speicher.
-
-### Diese URLs MÜSSEN auf noindex
-
-1. **Dankesseiten (Thank-You Pages):** Wenn Nutzer diese Seiten über Google finden, zerschießt das dein Analytics und Conversion-Tracking völlig.
-2. **Rechtlicher Pflicht-Content:** AGB, Impressum, Datenschutz. Niemand sucht bei Google nach deinen AGBs, um etwas bei dir zu kaufen. Sie ziehen die semantische Relevanz deiner Domain nach unten.
-3. **Interne Suchergebnisseiten:** Ein absolutes No-Go! Wer interne Such-URLs indexieren lässt, generiert Millionen von Thin-Content-Seiten. 
-4. **Staging-Umgebungen:** Wenn dein Entwickler-Server ohne Passwortschutz online geht, MUSS er global auf noindex stehen (am besten über HTTP-Header). Vergiss aber nicht, das Tag beim Live-Gang zu entfernen!
-5. **Thin Content & Tag-Friedhöfe:** Veraltete News oder leere Tag-Seiten in CMS-Systemen sind Index-Ballast. Raus damit!
-
-### Implementierung 2026: HTML vs. HTTP-Header
-
-Für Standard-Websites nutzt du das HTML-Tag:
-```html
-<meta name="robots" content="noindex">
+```mermaid
+graph TD
+    A[Crawler entdeckt URL] --> B{robots.txt Disallow aktiv?}
+    B -- Ja --> C[Crawler betritt Seite NICHT]
+    C --> D[noindex-Tag wird NIEMALS gelesen]
+    D --> E[Ergebnis: URL bleibt als Index-Zombie gelistet]
+    B -- Nein --> F[Crawler ruft HTML ab]
+    F --> G[noindex-Tag erkannt]
+    G --> H[Ergebnis: URL wird sauber aus Index entfernt]
 ```
 
-Was aber mit PDFs, Bildern oder APIs, die kein HTML-Dokument haben? Hier nutzt du den **X-Robots-Tag** als HTTP-Header:
-```http
-X-Robots-Tag: noindex
-```
-Dieser Befehl wird vom Server (Nginx, Apache) direkt bei der Auslieferung gesendet. Für KI-Crawler ist das extrem effizient, da sie die Datei nicht einmal parsen müssen, um den Befehl zu verstehen.
+Wenn ein Webmaster eine URL in der `robots.txt` per `Disallow` sperrt, verbietet er dem Suchmaschinen-Bot das Betreten der Seite. Der Crawler bleibt vor der Tür stehen. Die fatale Konsequenz: Er kann das im HTML-Header hinterlegte `<meta name="robots" content="noindex">` überhaupt nicht auslesen. Besitzt die Seite externe oder interne Verlinkungen, indexiert Google die URL dennoch – als sogenannten **Index-Zombie** ohne Meta-Description und ohne Snippet-Vorschau.
 
-Wichtig: Verwechsle das nicht mit dem Aussperren von AI-Bots für das Training! Wenn du nicht willst, dass OpenAI deine Inhalte für das Modelltraining nutzt, sperrst du den `GPTBot` über die `robots.txt`. Das `noindex`-Tag ist dafür nicht da. Es regelt nur die Aufnahme in den Suchindex, nicht das Data-Scraping für Trainingszwecke.
+**Die goldene Regel lautet daher:** Wenn eine Seite deindexiert werden soll, muss das Crawling in der `robots.txt` zwingend erlaubt sein (`Allow`), damit der Crawler den `noindex`-Befehl registrieren und ausführen kann.
 
-### Der Linkjuice-Trick: `noindex, follow`
+## Steuerungsmethoden im direkten Vergleich
 
-Gibt eine Seite, die auf noindex steht, eigentlich noch Rankingpower (Pagerank/Linkjuice) weiter? Ja, wenn du es dem Bot erlaubst:
+Je nach Dateityp und Systemarchitektur stehen unterschiedliche Mechanismen zur Verfügung, um Seiten oder Dokumente zu steuern:
+
+| Methode | Implementierungsort | Geeignete Dateitypen | Steuerungsebene | Typischer Anwendungsfall |
+| :--- | :--- | :--- | :--- | :--- |
+| **HTML Meta Robots** | `<head>`-Bereich des Dokuments | HTML-Seiten | Indexierung & Linkverfolgung | Standard Webseiten, Blog-Tags, AGB |
+| **HTTP-Header X-Robots-Tag** | Serverkonfiguration (Nginx/Apache) | Alle Formate (PDF, Bilder, HTML) | Global oder dateispezifisch | Schutz interner PDF-Kataloge, API-Endpunkte |
+| **robots.txt Disallow** | Textdatei im Root-Verzeichnis | Alle Pfade | Reines Crawling-Verbot | Server-Entlastung bei unendlichen Filtern |
+| **[Canonical Tag](/glossar/canonical-tag/)** | `<head>` oder HTTP-Header | Vorrangig HTML | Verweis auf Hauptversion | Vermeidung von Duplicate Content bei Parametern |
+
+## Technische Implementierung im HTML und auf Serverebene
+
+Für reguläre Webseiten wird die Anweisung im `<head>` platziert. Um sicherzustellen, dass interne Links auf der deindexierten Seite weiterhin von Suchmaschinen verfolgt werden und PageRank transportieren, sollte stets das Attribut `follow` ergänzt werden:
+
 ```html
+<!-- HTML-Meta-Tag für deindexierte Seiten mit Linkweitergabe -->
 <meta name="robots" content="noindex, follow">
 ```
-So befiehlst du der Maschine: *"Schmeiß diese Seite aus dem Index, aber folge gefälligst allen Links auf dieser Seite und verteile die Autorität weiter."* Ideal für Paginierungs-Seiten oder Kategorie-Übersichten, die selbst nicht ranken sollen, aber auf tiefe, wichtige Artikel verweisen.
 
-### Mein Tacheles-Rat
+Für nicht-textuelle Ressourcen wie PDFs, Excel-Dateien oder dynamische Endpunkte wird der `X-Robots-Tag` direkt über den Webserver ausgeliefert. Das folgende Listing zeigt neutrale Konfigurationsbeispiele für Apache und Nginx:
 
-In 2026 ist das Crawl-Budget der KIs knapp. Sprachmodelle brechen ab, wenn sie zu viel Müll finden. Nutze `noindex` wie einen Türsteher für den VIP-Bereich deines Codes. Nur die besten, relevantesten Seiten kommen in den Index. Den Rest sperrst du gnadenlos aus. Das ist echte Vektor-Hygiene. 
+```apache
+# Apache-Konfiguration (.htaccess): Alle PDFs auf noindex setzen
+<FilesMatch "\.pdf$">
+  Header set X-Robots-Tag "noindex, nofollow"
+</FilesMatch>
+```
 
-ALOHA! 🌻✌️
+```nginx
+# Nginx-Konfiguration: Spezifisches Verzeichnis für Crawler sperren
+location /downloads/intern/ {
+  add_header X-Robots-Tag "noindex, follow";
+}
+```
 
----
+Bei modernen Architekturen mit sauber aufgelösten [Trailing Slashes](/glossar/trailing-slashes/) greifen diese Serverregeln deterministisch und ohne Routing-Konflikte.
 
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Angst vor dem technischen Ranking-Absturz?</h3>
-  <p class="mb-6 text-gray-muted">Hast du unbemerkten Müll im Index? Blockierst du KI-Crawler versehentlich per robots.txt? Wir analysieren dein Server-Setup gnadenlos und räumen auf, damit LLMs nur deine absolut stärksten Entitäten bewerten.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tech-SEO Audit anfragen</a>
+## Welche Webseiten gehören zwingend auf noindex?
+
+Ein sauberes Index-Management zeichnet sich dadurch aus, dass ausschließlich qualitativ hochwertige Zielseiten im Index verbleiben. Folgende Seitentypen gehören in der Praxis fast ausnahmslos auf `noindex`:
+
+1. **Dankesseiten (Thank-You-Pages):** Seiten, die nach einem Kauf oder Lead-Formular aufgerufen werden. Eine Indexierung würde das Conversion-Tracking verfälschen und Traffic auf nutzlose Bestätigungen lenken.
+2. **Rechtstexte und Formalia:** AGB, Datenschutzbestimmungen und Impressum sind für Besucher essenziell, besitzen für thematische Suchanfragen jedoch keinen inhaltlichen Informationsgewinn.
+3. **Interne Suchergebnisse:** URL-Pfade aus internen Volltextsuchen erzeugen Millionen minderwertiger Parameterkombinationen, die das Crawl-Budget ruinieren.
+4. **Staging- und Testumgebungen:** Vor dem Livegang müssen Testinstanzen global über HTTP-Header gesichert sein, um verheerenden Duplicate Content zu unterbinden.
+5. **Veraltete Tag-Archive und Thin Content:** Seiten ohne substanziellen Mehrwert verwässern das semantische Profil der Domain in Sprachmodellen.
+
+## Typische Praxisfehler bei der Nutzung von noindex
+
+Beim Umgang mit Deindexierungs-Befehlen treten regelmäßig kostspielige Fehler auf:
+
+### Fehler 1: Staging-Noindex versehentlich ins Live-System übernommen
+Der Klassiker im Web-Relaunch: Nach dem Deployment wird vergessen, das temporäre `noindex` der Entwicklungsumgebung zu entfernen. Innerhalb weniger Tage stürzt der organische Traffic ins Bodenlose.
+
+### Fehler 2: Verwechslung von noindex und Disallow zur Deindexierung
+Webmaster versuchen, bestehende Index-Einträge durch ein `Disallow` in der `robots.txt` zu löschen. Da Google die Seite dadurch nicht erneut abruft, verbleibt sie monatelang als URL-Fragment in den Suchergebnissen.
+
+### Fehler 3: Blockieren von XML-Sitemaps mit noindex-URLs
+Werden Seiten mit `noindex` gleichzeitig in der XML-Sitemap eingereicht, sendet das System widersprüchliche Signale an den Suchmaschinen-Crawler, was zu Fehlermeldungen in der Google Search Console führt.
+
+## Strategische Hygiene für das KI-Zeitalter
+
+Das Noindex-Tag ist kein bloßes Archivierungsinstrument, sondern ein zentrales Steuerungselement moderner Web-Hygiene. Wer irrelevante Pfade konsequent aus dem Index verbannt, schützt sein Crawl-Budget und sorgt dafür, dass Mensch und Maschine ausschließlich auf die relevantesten Entitäten der Domain treffen.
+
+<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-2xl">💡</span>
+    <strong class="text-lg text-dark">Jörg Zimmer aus der SEO-Praxis:</strong>
+  </div>
+  <p class="text-gray-700 italic mb-2">
+    "Das Noindex-Tag ist das Präzisionsskalpell des technischen SEOs. Wer unbedacht pfuscht, radiert seine lukrativsten Landingpages aus den Suchergebnissen. Wer es jedoch strategisch beherrscht, befreit seine Domain von tonnenweise digitalem Datenmüll und schafft eine glasklare Vektor-Basis für Google und moderne KI-Modelle."
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
+    [↗ Zur Diskussion auf LinkedIn]
+  </a>
 </div>
 
-### Verwandte Themen & Deep Dives
-* [Crawling vs. Indexing radikal verstehen](/glossar/crawling-vs-indexing/)
-* [Warum die robots.txt alleine nicht schützt](/glossar/robots-txt/)
-* [Das Canonical Tag: Dein technisches Schutzschild](/glossar/canonical-tag/)
-* [Trailing Slashes für fehlerfreies Routing](/glossar/trailing-slashes/)
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>
+

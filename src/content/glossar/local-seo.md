@@ -1,7 +1,7 @@
 ---
 category: 'SEO Basics & Onpage'
-title: 'Local SEO: Sichtbarkeit im Kampf der KI-Agenten'
-meta_title: "Local SEO: Sichtbarkeit und KI-Agenten (2026)"
+title: 'Local SEO: Lokale Sichtbarkeit für Mensch und KI'
+meta_title: "Local SEO: Lokale Sichtbarkeit (2026)"
 description: "Sichere dir lokale Relevanz im Zeitalter der KI. Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz und dominanten Google AI Overviews. (2026)"
 meta_description: "Sichere dir lokale Relevanz im Zeitalter der KI. Technischer Deep-Dive zu JSON-LD, NAP-Konsistenz und dominanten Google AI Overviews. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q30324357"
@@ -10,91 +10,148 @@ image: "../../assets/images/blog/glossar-local-seo.webp"
 image_alt: "Local SEO 2026 - Sichtbarkeit für KI-Agenten"
 related_terms: ["citation", "mention", "google-business-profile", "grounding-page"]
 key_takeaways:
-  - "Google Business Profile Freshness: Ein Profil, das 30 Tage inaktiv ist, rutscht 2026 in die rote Zone. Wöchentliche Updates sind Pflicht."
-  - "Review Velocity schlägt Masse: KIs und Algorithmen schauen auf den stetigen, natürlichen Zufluss von Bewertungen (5-10 pro Monat), nicht nur auf die Gesamtzahl."
-  - "NAP-Konsistenz ist ein Trust-Signal für KI: LLMs werten widersprüchliche Adressdaten als hohes Halluzinations-Risiko und strafen dich mit Sichtbarkeitsverlust ab."
+  - "Google Business Profile als Datenzentrale: Das Profil fungiert als primäre Schnittstelle für Google Maps, das Local Pack und generative KI-Antworten."
+  - "Review Velocity schlägt reine Masse: Ein stetiger, authentischer Zufluss neuer Kundenrezensionen wiegt schwerer als veraltete Bewertungsberge."
+  - "NAP-Konsistenz als maschinelles Vertrauenssignal: Widersprüchliche Standortdaten in Verzeichnissen führen zu Unsicherheit bei LLMs und Zitationsverlusten."
+  - "Strukturiertes LocalBusiness-Markup: Präzise Geokoordinaten und Öffnungszeiten im JSON-LD-Format ermöglichen Answer Engines fehlerfreie Empfehlungen."
 faqs:
-  - question: 'Was ist der stärkste Hebel für lokales SEO 2026?'
-    answer: 'Ein aktiv gepflegtes Google Business Profile gepaart mit technisch einwandfreiem LocalBusiness Schema.org-Markup auf deiner Website. Die Kombination aus aktiver Kundeninteraktion und maschinenlesbaren APIs ist unschlagbar.'
-  - question: 'Wie verändern LLMs das lokale SEO?'
-    answer: 'Nutzer erhalten lokale Empfehlungen zunehmend direkt über Google AI Overviews oder Tools wie ChatGPT. Diese KI-Systeme scannen das Web nach strukturierten Fakten und starken Reviews. Ohne klare Entitäten-Zuordnung fällst du aus den KI-Empfehlungen.'
-  - question: 'Warum ist NAP-Konsistenz kritischer denn je?'
-    answer: 'LLMs hassen Widersprüche. Eine abweichende Adresse auf Yelp gegenüber deiner Website führt zu einem massiven Trust-Verlust im Vektorraum der KI. Die Maschine wird unsicher und empfiehlt im Zweifel lieber die Konkurrenz.'
+  - question: 'Was ist der wichtigste Rankingfaktor für Local SEO 2026?'
+    answer: 'Die Kombination aus einem vollständig ausgefüllten, aktiv gepflegten Google Business Profile und exakter NAP-Konsistenz über alle relevanten Branchenverzeichnisse hinweg, gestützt durch strukturiertes Schema.org-Markup auf der eigenen Website.'
+  - question: 'Wie verändern Large Language Models das lokale Suchverhalten?'
+    answer: 'Nutzer stellen zunehmend konversationelle Fragen in ChatGPT, Perplexity oder Google AI Overviews. Diese Systeme aggregieren Standortdaten, Öffnungszeiten und Kundensentiment in Direktenantworten, oft ohne Klick auf traditionelle Suchergebnisse.'
+  - question: 'Warum ist die Review Velocity wichtiger als die reine Bewertungsanzahl?'
+    answer: 'Suchalgorithmen und Sprachmodelle bewerten die Aktualität des Feedbacks. Ein Unternehmen mit 5 frischen, detaillierten Bewertungen pro Monat signalisiert aktive Geschäftstätigkeit und wird gegenüber inaktiven Profilen mit alten Bewertungen bevorzugt.'
 ---
 
-Moin! 🌻
+Klassisches Local SEO erschöpfte sich früher häufig im einmaligen Anlegen von Branchenbucheinträgen und dem Sammeln statischer 5-Sterne-Bewertungen. In der modernen Suchumgebung hat sich die lokale Optimierung zu einer hochdynamischen, datengetriebenen Disziplin gewandelt. 
 
-Wir schreiben das Jahr 2026. Wenn du bei "Local SEO" immer noch an das stumpfe Eintragen in Branchenbücher aus dem Jahr 2015 denkst oder glaubst, dass ein paar gekaufte 5-Sterne-Bewertungen deinen Umsatz retten, dann hast du ein massives Problem. 
+Wer heute in regionalen Suchanfragen dominieren will, konkurriert nicht mehr nur um die drei begehrten Plätze im Google Local Pack, sondern muss zugleich in den synthetisierten Antworten von generativen Suchmaschinen wie Perplexity, ChatGPT Search und Google AI Overviews als verlässliche Empfehlung aufgeführt werden.
 
-Lokale Suchmaschinenoptimierung hat in den letzten zwölf Monaten einen brutalen Paradigmenwechsel hingelegt. Wir sprechen heute nicht mehr nur über das Local Pack in Google Maps. Wir befinden uns mitten im **KI-Such-Battleground**. Generative KI, Google AI Overviews und LLM-basierte Interfaces beantworten lokale Suchanfragen oft schon komplett, bevor der Nutzer auch nur einen einzigen Link anklickt.
+## Die Transformation der lokalen Suche
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">"Local SEO 2026 verzeiht keine Fehler mehr. Google straft inaktive Profile gnadenlos ab, und KI-Agenten ignorieren dich, wenn deine Daten widersprüchlich sind. Tacheles: Aktualisiere dein Business Profil wöchentlich und halt deine NAP-Daten sauber, sonst bist du digital tot."</p>
+Der direkte Vergleich zeigt, wie generative Systeme die Kriterien lokaler Sichtbarkeit verändert haben:
+
+| Bewertungskriterium | Traditionelles Local SEO | Modernes KI-gestütztes Local SEO (2026) |
+| :--- | :--- | :--- |
+| **Primäre Oberfläche** | Google Maps & klassisches 3-Pack | Hybride SERPs, AI Overviews & Sprachassistenten |
+| **Profil-Anforderung** | Statische Profilerstellung | Permanente Interaktion, wöchentliche Updates & Posts |
+| **Bewertungsfokus** | Gesamtzahl & statischer Durchschnitt | Review Velocity, Sentiment-Analyse (NLP) & Antwortrate |
+| **Datenkonsistenz** | Reines Matching von Strings (NAP) | Semantische Entitäts-Konsistenz im [Knowledge Graph](/glossar/knowledge-graph/) |
+| **Website-Integration** | Einfache Kontaktseite | [Strukturierte Daten](/glossar/strukturierte-daten/) (LocalBusiness Schema) & Geo-Koordinaten |
+
+## Die 4 Säulen moderner lokaler Suchmaschinenoptimierung
+
+Um im regionalen Wettbewerb dauerhaft Spitzenpositionen zu halten, müssen Unternehmen vier Kernbereiche kontinuierlich bewirtschaften:
+
+### 1. Das Google Business Profile als lebendige Schnittstelle
+Das Unternehmensprofil bei Google ist längst keine statische Visitenkarte mehr, sondern ein dynamischer Datenfeed. Profile, die über vier Wochen keine Aktivität aufweisen, verlieren im Ranking. Regelmäßige Foto-Uploads, aktuelle Produktbeiträge und das zeitnahe Beantworten jeder Kundenfrage signalisieren dem Algorithmus einen aktiven Geschäftsbetrieb.
+
+### 2. Review Velocity und semantische Stimmungsanalyse
+Sprachmodelle analysieren Rezensionstexte mittels Natural Language Processing auf spezifische Entitäten und Sentiment. Werden in Bewertungen konkrete Dienstleistungen und Fachkompetenzen lobend erwähnt, verknüpft die KI diese Fähigkeiten direkt mit dem Unternehmensprofil. Ein kontinuierlicher Fluss neuer Bewertungen (Review Velocity) belegt anhaltende Kundenzufriedenheit.
+
+### 3. Absolute NAP-Konsistenz im gesamten Webnetzwerk
+NAP steht für Name, Address, Phone Number. Menschliche Nutzer tolerieren kleine Abweichungen zwischen Straßennamen-Abkürzungen, für maschinelle Parser stellen sie jedoch Datenkonflikte dar. Widersprüchliche Angaben zwischen Website, Apple Business Connect, Yelp und Branchenregistern verunsichern Algorithmen und führen zum Ausschluss aus KI-Empfehlungen.
+
+### 4. Technische Onpage-Präzision und [Interne Verlinkung](/glossar/interne-verlinkung/)
+Standortseiten auf der eigenen Domain müssen technisch einwandfrei strukturiert sein. Dazu gehören eindeutige URLs mit sauberen [Trailing Slashes](/glossar/trailing-slashes/) (`/standorte/berlin/`), kurze Klickpfade und transparente Kontaktangaben, die [E-E-A-T](/glossar/e-e-a-t/)-Signale direkt belegen.
+
+## Multi-Location-Strategien für Filialisten und Franchises
+
+Unternehmen mit mehreren Niederlassungen stehen vor besonderen architektonischen Herausforderungen:
+
+* **Individuelle Landingpages pro Standort:** Jede Filiale benötigt eine eigene, dedizierte Unterseite. Das Kopieren identischer Texte mit austauschbaren Stadtnamen (Doorway Pages) wird von Suchmaschinen gnadenlos als Duplicate Content abgestraft. Jede Standortseite muss einzigartige Team-Fotos, lokale Kundenstimmen und standortspezifische Leistungsdetails enthalten.
+* **Saubere URL-Hierarchien:** Eine logische Verzeichnisstruktur wie `/standorte/berlin-mitte/` oder `/standorte/spandau/` signalisiert Crawlern klare geografische Zuständigkeiten.
+* **Zentralisiertes Daten-Feeds-Management:** Über Schnittstellen (APIs) zu Plattformen wie Yext oder Uberall lassen sich hunderte Standorte synchronisieren, um veraltete Feiertagsöffnungszeiten netzweit zu vermeiden.
+
+## Geo-Grid-Tracking und lokale Positionsmessung
+
+Klassische Rank-Tracker zeigen oft nur eine pauschale Position für eine ganze Stadt an. In der Realität variieren Suchergebnisse im Local Pack jedoch von Straßenkreuzung zu Straßenkreuzung:
+
+* **Geo-Grid-Simulationen:** Moderne Analyse-Tools messen Rankings in einem virtuellen Gitternetz (z. B. 5x5 Kilometer um den Firmenstandort). So wird sichtbar, in welchen Stadtteilen das Unternehmen auf Rang 1 steht und wo die Sichtbarkeit abreißt.
+* **Proximity-Einfluss:** Die physische Nähe des Suchenden zum Unternehmensstandort bleibt ein dominierender Rankingfaktor. Durch gezielte Onpage-Signale und lokale Content-Bezüge lässt sich der effektive Einzugsradius messbar vergrößern.
+* **Voice Search & Conversational Prompts:** Sprachabfragen über mobile Endgeräte („Wo ist die nächste geöffnete Autowerkstatt?“) basieren auf extrem präzisen Geo-Daten und verlangen nach direkten, maschinenlesbaren Antworten.
+
+## Technische Implementierung: LocalBusiness Schema.org Markup
+
+Um Maschinen alle relevanten Standortdaten auf dem Silbertablett zu servieren, ist die Implementierung von strukturierten Daten im JSON-LD-Format unverzichtbar:
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Deine Lokale Agentur",
+  "image": "https://deinedomain.de/assets/agentur-front.jpg",
+  "url": "https://deinedomain.de/standort-berlin/",
+  "telephone": "+49-30-12345678",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Musterstraße 12",
+    "addressLocality": "Berlin",
+    "postalCode": "10115",
+    "addressCountry": "DE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://maps.google.com/?cid=123456789",
+    "https://www.linkedin.com/company/deine-agentur/"
+  ]
+}
+</script>
+```
+
+## Das erweiterte Ökosystem: Apple Business Connect und Bing Places
+
+Auch wenn Google die absolute Marktführerschaft bei lokalen Suchanfragen hält, diversifizieren smarte Unternehmen ihre Datenpräsenz:
+
+* **Apple Business Connect:** Für Nutzer von iPhones, Apple Maps und Siri ist Apple Business Connect der primäre Datenlieferant. Apple integriert Standortkarten tief in sein mobiles Betriebssystem. Ein verifiziertes Profil mit hinterlegten Aktions-Buttons (z. B. „Termin buchen“ oder „Anrufen“) schöpft eine kaufkräftige Zielgruppe direkt ab.
+* **Bing Places for Enterprise:** Durch die Integration von Microsoft Copilot in Windows und den Edge-Browser gewinnt Bing bei geschäftlichen Suchen im B2B-Segment an Bedeutung. Ein synchronisierter Eintrag stellt sicher, dass generative Antworten auf Desktop-Arbeitsplätzen verlässliche Firmendaten zitieren.
+
+## Die 3 häufigsten Fehler bei Local SEO
+
+In der Praxis führen vermeidbare Versäumnisse regelmäßig zu spürbaren Sichtbarkeitsverlusten:
+
+1. **Inkonsistente Firmendaten über Verzeichnisse hinweg:** Unterschiedliche Schreibweisen bei Firmennamen oder Telefonnummern auf Drittplattformen zerstören das Vertrauen maschineller Validatoren.
+2. **Ignorieren oder verzögertes Beantworten von Rezensionen:** Wer Kundenfeedback unkommentiert lässt oder Kritik ignoriert, vergibt wertvolle Interaktionssignale und verschlechtert sein algorithmisches Engagement-Rating.
+3. **Mangelhaftes mobiles Frontend:** Da der Großteil lokaler Suchanfragen mobil erfolgt, führen langsame Ladezeiten oder verschobene Layouts zu sofortigen Absprüngen. Fundiertes [Technisches SEO](/glossar/technisches-seo/) ist auch lokal Pflicht.
+
+## Strategische Exzellenz für lokale Marktführer
+
+Ein nachhaltig erfolgreicher lokaler Marktauftritt erfordert kontinuierliche Disziplin. Wer sein Google Business Profile aktiv pflegt, für lückenlose Datenkonsistenz sorgt und seine Website technisch über ein regelmäßiges [SEO-Audit](/glossar/seo-audit/) optimiert, sichert sich verlässliche Neukundenströme aus traditionellen Suchergebnissen und modernen generativen KI-Assistenten gleichermaßen.
+
+Lokale Sichtbarkeit ist kein einmaliges Projekt, sondern ein dauerhafter Prozess. Durch die Verknüpfung von lokaler Reputation, performanter Webtechnik und semantischer Datenstrukturierung etablieren sich zukunftsorientierte Unternehmen als unangefochtene Marktführer in ihrer Region.
+
+<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
+  <div class="flex items-start gap-4">
+    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
+      💡
+    </div>
+    <div>
+      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über Local SEO & KI-Suche</h3>
+      <p class="text-gray-600 text-sm italic mb-2">
+        „Local SEO verzeiht im KI-Zeitalter keine Nachlässigkeiten mehr. Wer sein Unternehmensprofil wochenlang verstauben lässt oder widersprüchliche Adressdaten im Netz verteilt, wird von Answer Engines schlichtweg ignoriert. Halte deine Daten frisch und interagiere aktiv mit deinen Kunden.“
+      </p>
+      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
+    </div>
+  </div>
 </div>
 
-## Die neuen Regeln für Local SEO 2026
-
-Um lokales SEO heute professionell zu betreiben, müssen wir verstehen, wie der Algorithmus und die KI ticken. Es geht um drei fundamentale Säulen, die deine Sichtbarkeit in den AI Overviews und auf Google Maps garantieren.
-
-### 1. "Freshness" im Google Business Profile (GBP)
-
-Dein Google Business Profile ist weiterhin dein wichtigstes Asset. Aber die Regeln haben sich verschärft. Google nutzt Machine Learning, um zu erkennen, ob ein Geschäft noch aktiv "lebt". 
-
-Ein Profil, an dem 30 Tage lang nichts passiert ist (keine neuen Fotos, keine beantworteten Rezensionen, keine Updates), gilt intern als **Danger Zone**. Google (und angeschlossene KI-Systeme) haben Angst, Nutzern ein Geschäft vorzuschlagen, das eventuell geschlossen hat.
-*   **Aktionsplan:** Lade wöchentlich ein neues Foto hoch. Poste regelmäßige Updates zu Angeboten oder News. Antworte auf *jede* Bewertung, egal ob gut oder schlecht, innerhalb von 48 Stunden. Zeig der Maschine, dass da Menschen arbeiten.
-
-### 2. Review Velocity und Sentiment Analysis
-
-Vergiss die nackte Durchschnittsbewertung von 4,8 Sternen aus 200 Bewertungen, die du vor drei Jahren gesammelt hast. Im Jahr 2026 zählen zwei Dinge bei Bewertungen: **Review Velocity** und **Sentiment**.
-
-*   **Review Velocity (Geschwindigkeit):** Suchmaschinen und KIs wollen einen natürlichen, stetigen Zufluss an neuen Bewertungen sehen. Fünf neue Bewertungen jeden Monat sind drastisch wertvoller als 50 Bewertungen auf einen Schlag vor zwei Jahren.
-*   **Sentiment Analysis (NLP):** KI-Agenten nutzen Natural Language Processing, um den Fließtext von Bewertungen zu lesen. Sie extrahieren den emotionalen Gehalt. Wenn Kunden häufig schreiben: "Der Anwalt hat sich viel Zeit für mein Steuerproblem genommen", speichert die KI die Verbindung aus deiner Entität, "Steuerproblem" und dem positiven Sentiment. Incentivierte (gekaufte) Bewertungen erkennt die KI 2026 an ihren generischen Mustern sofort – und bestraft sie mit harten Ranking-Verlusten.
-
-### 3. Disambiguierung und NAP-Stabilität (Trust für KIs)
-
-NAP steht für Name, Address, Phone. Für einen Menschen ist eine leicht abweichende Schreibweise ("Musterstr. 1" vs. "Musterstraße 1") trivial. Für ein neuronales Netz oder ein LLM (Large Language Model) ist es ein Datenkonflikt.
-
-KI-Systeme hassen Ambiguität. Wenn ein KI-Crawler deine Daten im Netz abgleicht und dabei Abweichungen zwischen deiner Website, Yelp und Apple Maps feststellt, sinkt dein Trust-Score dramatisch. Die Maschine fürchtet eine "Halluzination" und wird dich in KI-generierten Antworten nicht zitieren.
-*   **Best Practice:** Auditiere deine lokalen Citations (Erwähnungen) quartalsweise. Sorge für eine hundertprozentig identische Schreibweise deiner Daten auf allen Plattformen. Nutze ein zentrales Data-Management, wenn du viele Standorte hast.
-
-## Die technische Architektur: JSON-LD
-
-Der Kern moderner lokaler Suchmaschinenoptimierung auf deiner eigenen Website ist strukturiertes Daten-Markup. Du musst das `LocalBusiness` Schema (oder spezifischer: `Dentist`, `Plumber`, etc.) im JSON-LD Format exakt implementieren.
-
-*   **GeoCoordinates:** KIs verlangen Präzision. Dein Markup muss die exakten `latitude` und `longitude` Werte enthalten.
-*   **openingHoursSpecification:** Nutze die ISO 8601 Notation. Eine KI muss millisekundengenau wissen, ob du jetzt gerade geöffnet hast.
-*   **sameAs:** Verknüpfe dein Google Business Profile, dein Apple Business Connect Profil und deine Social-Media-Kanäle in den strukturierten Daten, um einen starken Knotenpunkt im Knowledge Graph zu bilden.
-
-## Das Ökosystem: Apple Maps und Social Media
-
-Die Monokultur von Google bröckelt langsam. Für Local SEO 2026 musst du breiter denken:
-1.  **Apple Business Connect:** Apple Maps ist auf iOS-Geräten der Standard und speist Apples eigene KI-Initiativen stark aus diesen Daten. Wer Apple ignoriert, verliert extrem kaufkräftige Kunden.
-2.  **TikTok und Instagram:** Die junge Generation (Gen Z) nutzt zunehmend TikTok oder Instagram als lokale Suchmaschine, um Restaurants oder Dienstleister zu finden. Optimiere deine Profile auch dort konsequent mit konsistenten NAP-Daten.
-
-## Trailing Slashes und Interne Verlinkung
-
-Und weil ich SEO-Techniker bin, hier der OnPage-Basis-Tipp: Interne Links auf Verzeichnisse (z.B. `/standorte/berlin/`) müssen zwingend auf einem Trailing Slash `/` enden. KI-Crawler und Googlebots brechen bei unnötigen Redirect-Ketten rigoros ab. Liefere eine saubere Struktur.
-
-## Mein Tacheles-Rat für dich
-
-Local SEO ist 2026 kein Marketing-Gag, sondern kontinuierliche, harte Arbeit. 
-
-Ruhe dich nicht auf alten Lorbeeren aus. Räum deine NAP-Daten im Netz auf, pflege dein Google Business Profile wie dein wichtigstes Schaufenster und sammle kontinuierlich echte Kundenbewertungen. Wer der KI (und Google) die aktuellsten, verlässlichsten und am besten strukturierten Daten liefert, gewinnt den lokalen Markt. So einfach ist das.
-
-ALOHA! Jörg
-
----
-
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Verlierst du im KI-Such-Battleground?</h3>
-  <p class="mb-6 text-gray-muted">Ich auditiere deine Local SEO Strategie, dein GBP-Profil und dein technisches Setup für KI-Crawler. Lass uns deine lokale Dominanz sichern.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Local-Tech-Audit anfragen</a>
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
 </div>
-
-### Verwandte Begriffe
-* [Die Macht von Citations & Mentions](/glossar/citation/)
-* [Groundingpage: Dein KI-Fundament](/glossar/grounding-page/)
-* [Semantische HTML-Struktur](/glossar/html-struktur/)
-* [Lokale Suchmaschinenoptimierung](/glossar/geo/)
-* [E-E-A-T als lokaler Trust-Faktor](/glossar/e-e-a-t/)

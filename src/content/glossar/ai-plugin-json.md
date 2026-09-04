@@ -1,93 +1,137 @@
 ---
 category: 'AI SEO & Generative Search'
 title: "ai-plugin.json: Warum ChatGPT Plugins tot sind"
-meta_title: "ai-plugin.json: Das Ende der Chat Plugins (2026)"
-description: "Die ai-plugin.json ist tot. Warum der Hype um ChatGPT Plugins vorbei ist und wie LLMs heute mit GPT Actions und offenen Standards arbeiten. (2026)"
-meta_description: "Die ai-plugin.json ist tot. Warum der Hype um ChatGPT Plugins vorbei ist und wie LLMs heute mit GPT Actions und offenen Standards arbeiten. (2026)"
+meta_title: "ai-plugin.json & Ende der Plugins (2026)"
+description: "Die ai-plugin.json ist Geschichte: Warum ChatGPT Plugins abgelöst wurden und wie LLMs heute mit GPT Actions und dem MCP-Standard arbeiten. (2026)"
+meta_description: "Die ai-plugin.json ist Geschichte: Warum ChatGPT Plugins abgelöst wurden und wie LLMs heute mit GPT Actions und dem MCP-Standard arbeiten. (2026)"
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-ai-plugin-json-3d.webp"
 image_alt: "3D Infografik zum Thema ai-plugin.json und der Evolution hin zu modernen Schnittstellen"
 key_takeaways:
-  - "Die ai-plugin.json war 2023 der Hype, ist aber Stand 2026 eine offiziell abgekündigte Legacy-Technologie."
-  - "Starre Plugin-Silos wurden durch OpenAI GPT Actions, Structured Outputs und offene Standards ersetzt."
-  - "Wer heute noch Plugins für ChatGPT baut, investiert in eine tote Plattformökonomie."
+  - "Die ai-plugin.json war 2023 das zentrale Manifest für ChatGPT Plugins, wurde von OpenAI jedoch im April 2024 vollständig eingestellt."
+  - "Proprietäre Plugin-Silos scheiterten an mangelnder Skalierbarkeit, mangelnder Sicherheit und fehlender Standardisierung zwischen LLM-Anbietern."
+  - "Moderne Architekturen setzen im OpenAI-Ökosystem auf GPT Actions mit OpenAPI-Spezifikationen und im offenen Web auf das Model Context Protocol (MCP)."
+  - "Für nachhaltige KI-Sichtbarkeit und Agent Readiness zählen heute standardisierte RAG-Pipelines, strukturierte Daten und offene Schnittstellen."
 faqs:
   - question: "Was genau war die ai-plugin.json?"
-    answer: "Es war eine proprietäre Manifest-Datei von OpenAI. Wenn du wolltest, dass ChatGPT (damals noch in Version 4) mit deiner API spricht (z.B. um Flüge zu buchen oder das Wetter abzufragen), musstest du diese JSON-Datei in deinem `.well-known` Ordner ablegen. Sie deklarierte den Namen des Plugins, das Logo und zeigte OpenAI den Weg zu deiner OpenAPI-Spezifikation."
-  - question: "Warum ist dieses Konzept gescheitert?"
-    answer: "Weil OpenAI die Architektur grundlegend geändert hat. Die ursprünglichen Plugins wurden durch Custom GPTs und 'Actions' abgelöst. Anstatt eine `ai-plugin.json` auf dem eigenen Server zu hosten, laden Entwickler ihre OpenAPI-Schemas heute direkt in das GPT Builder UI hoch. Zusätzlich hat der Markt offene Standards wie MCP (Model Context Protocol) gefordert."
-  - question: "Sollte ich meine bestehende ai-plugin.json jetzt einfach löschen?"
-    answer: "Du kannst sie als rudimentären Fallback behalten, da einige obskure Legacy-Crawler sie vielleicht noch aufrufen. Aber sie hat für moderne KI-Sichtbarkeit keinen Wert mehr. Dein Fokus muss auf aktuellen Integrationen wie GPT Actions oder provider-unabhängigen Agent Readiness Protokollen liegen."
-  - question: "Was ist der technische Nachfolger für die Integration meiner APIs?"
-    answer: "Im OpenAI-Universum sind es die 'Actions' für Custom GPTs sowie die Responses API und Structured Outputs für tiefe API-Integrationen. Auf der offenen Web-Seite (B2B) geht der Trend zu standardisierten Agenten-Schnittstellen und MCP, um LLMs Kontext zu geben, ohne sich an einen einzigen Anbieter zu ketten."
+    answer: "Es war eine proprietäre Manifest-Datei von OpenAI im JSON-Format. Entwickler platzierten sie unter /.well-known/ai-plugin.json, um ChatGPT Informationen über API-Endpunkte, Authentifizierung und die verknüpfte OpenAPI-Spezifikation bereitzustellen."
+  - question: "Warum hat OpenAI die ChatGPT Plugins eingestellt?"
+    answer: "Das ursprüngliche Plugin-System war schwer zu warten, bot unzureichende Nutzererlebnisse und erforderte für jeden Anbieter eigene Manifeste. OpenAI ersetzte Plugins im April 2024 durch Custom GPTs mit integrierten GPT Actions."
+  - question: "Sollte eine verbleibende ai-plugin.json auf dem Webserver gelöscht werden?"
+    answer: "Ein akuter Zwang zur Löschung besteht nicht, da sie keine negativen SEO-Auswirkungen hat. Allerdings lohnt sich keinerlei Weiterentwicklung oder Pflege mehr. Budgets sollten stattdessen in llms.txt, strukturierte Daten und MCP-Schnittstellen investiert werden."
+  - question: "Was ist heute der Standard für Schnittstellen zu KI-Modellen?"
+    answer: "Im OpenAI-Universum dominieren GPT Actions auf Basis von OpenAPI 3.0. Plattformübergreifend etablierte sich das von Anthropic initiierte Model Context Protocol (MCP), das als universeller Standard für KI-Tools und Datenquellen dient."
 ---
 
-Moin! 🌻
+Im Frühjahr 2023 glich die Stimmung in der Tech- und SEO-Welt einem Goldrausch. OpenAI hatte Plugins für ChatGPT vorgestellt, und fast jedes Marketing-Medium verkündete das Entstehen des nächsten gigantischen App Stores. Das Versprechen lautete: Wer eine unscheinbare Datei namens **`ai-plugin.json`** im Verzeichnis `.well-known` seines Servers platziert, katapultiert sein Unternehmen direkt in das operative Zentrum moderner generativer KI-Assistenten.
 
-Weißt du noch, wie 2023 alle verrückt geworden sind? OpenAI kündigte die "ChatGPT Plugins" an. Der Hype war ohrenbetäubend. Die gesamte SEO- und Entwickler-Bubble schrie: *"Das ist der neue App Store! Wer jetzt kein Plugin baut, ist tot!"*
+Heute zeigt sich die Realität ernüchternd: Das ursprüngliche Plugin-Ökosystem von OpenAI wurde im April 2024 endgültig beerdigt. Die Datei `ai-plugin.json` ist ein technologisches Relikt der ersten experimentellen KI-Welle. Warum dieses System so rasch kollabierte, welche Nachfolgetechnologien wie GPT Actions und das Model Context Protocol (MCP) heute den Ton angeben und worauf Unternehmen bei der [AI Search Engine](/glossar/ai-search-engine/) und moderner [Agent Readiness](/glossar/markdown-content-negotiation/) tatsächlich achten müssen, beleuchtet diese detaillierte Analyse.
 
-Alle stürzten sich darauf, eine winzige Datei namens **`ai-plugin.json`** in ihren `.well-known` Ordner zu werfen, in der Hoffnung, dass Millionen von ChatGPT-Nutzern plötzlich über den Chatbot ihre Schuhe kaufen, ihre Flüge buchen oder ihre Hotelzimmer reservieren würden. 
+## Anatomie und ursprünglicher Zweck der ai-plugin.json
 
-Springen wir nach vorne in den Sommer 2026. Der Staub hat sich gelegt, und der "neue App Store" ist faktisch ein verlassenes Geisterdorf. Die ursprünglichen Plugins sind deprecated, abgekündigt, tot. Die `ai-plugin.json` ist das perfekte Beispiel dafür, wie schnelllebig und gnadenlos die KI-Ökonomie ist – und warum es lebensgefährlich ist, sich an proprietäre Walled Gardens zu klammern.
+Große Sprachmodelle (Large Language Models) besitzen ein fundamentales Architekturmerkmal: Sie verarbeiten und generieren Textmuster auf Basis historischer Trainingsdaten, können jedoch ohne externe Erweiterungen weder Live-Daten abrufen noch Aktionen in externen Systemen auslösen. Sie besitzen gewissermaßen keine eigenen Arme und Beine für das Internet.
 
-Lass uns Tacheles reden über das Auf und Ab der Plugin-Ära und warum dein Budget heute woanders besser investiert ist.
+OpenAI konzipierte das Plugin-System, um diese Barriere zu überwinden. Wenn ein Nutzer fragte: *"Suche mir die günstigsten Flüge von Berlin nach Mallorca und reserviere ein Hotelzimmer"*, sollte ChatGPT nicht bloß Textlinks ausgeben, sondern über REST-APIs direkt die Buchungssysteme von Partnern ansteuern.
 
-## Was war die Vision hinter der ai-plugin.json?
+Hierfür definierte OpenAI ein strenges Protokoll:
+1. **Speicherort:** Auf dem Server des Dienstanbieters musste unter `https://deinedomain.de/.well-known/ai-plugin.json` eine statische Konfigurationsdatei bereitgestellt werden.
+2. **Metadaten:** Die JSON-Struktur enthielt Bezeichnungen (`name_for_human`, `name_for_model`), Beschreibungen des Funktionsumfangs, Kontaktdaten sowie URLs zu Logo-Assets und Nutzungsbedingungen.
+3. **API-Kopplung:** Über das Attribut `api.url` verwies das Manifest auf eine standardisierte OpenAPI-Spezifikation (YAML oder JSON), welche die konkreten Endpunkte, Parameter und Datenformate beschrieb.
 
-Die technische Idee war eigentlich brillant in ihrer Einfachheit. LLMs (Large Language Models) sind von Natur aus isoliert. Sie generieren Text, aber sie können keine Aktionen in der echten Welt ausführen. Sie haben keine "Hände".
+### Beispiel eines historischen ai-plugin.json Manifests
 
-OpenAI wollte ChatGPT diese Hände geben. Wenn ein Nutzer fragte: *"Buch mir einen Flug nach New York"*, sollte ChatGPT nicht nur antworten: *"Geh auf Expedia"*, sondern den Flug direkt über die Expedia-API buchen.
+Zur Veranschaulichung zeigt das folgende Listing den Aufbau eines typischen, heute veralteten Manifests für eine neutrale Beispiel-Domain:
 
-Damit das funktionierte, erfand OpenAI die `ai-plugin.json`. Ein Entwickler legte diese Datei unter `/.well-known/ai-plugin.json` auf seinem Server ab. 
-Der Inhalt war extrem simpel:
-1. Wie heißt das Plugin?
-2. Wo ist das Logo?
-3. Welche OpenAPI-Spezifikation (`openapi.yaml`) beschreibt die verfügbaren Endpunkte?
+```json
+{
+  "schema_version": "v1",
+  "name_for_human": "Beispiel Flugsuche",
+  "name_for_model": "flightSearchApp",
+  "description_for_human": "Suche tagesaktuelle Flugverbindungen und Ticketpreise.",
+  "description_for_model": "Plugin zur Abfrage von Flugverbindungen und Tarifen. Erfordert Abflugort, Zielort und Reisedatum.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://deinedomain.de/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://deinedomain.de/assets/plugin-logo.png",
+  "contact_email": "kontakt@deinedomain.de",
+  "legal_info_url": "https://deinedomain.de/impressum/"
+}
+```
 
-Das Problem war nicht nur die Technik. Das Problem war die Skalierung und das Plattform-Silo.
+Die Idee schien bestechend einfach, scheiterte in der Praxis jedoch an konzeptionellen Schwachstellen und der enormen Fragmentierung der KI-Landschaft.
 
-## Der Zusammenbruch der Plattform-Silos und der Shift zu Actions
+## Warum das Konzept der ai-plugin.json scheiterte
 
-Das Konzept der "Plugins" funktionierte nur, wenn alle bereit waren, das Interface von ChatGPT als den einzigen Knotenpunkt zu nutzen, und wenn Entwickler diese Dateien pflegten. 
+Drei zentrale Faktoren besiegelten das Aus des ursprünglichen Plugin-Modells:
 
-Aber OpenAI selbst hat schnell gemerkt, dass dieser Weg zu starr ist. Sie haben das Ökosystem evolutioniert: Von Plugins zu **Custom GPTs** und **Actions**. In diesem neuen System wurde die Funktionalität, die früher in der `ai-plugin.json` stand, direkt in die Konfiguration (das GPT Builder UI) verlagert. Entwickler importieren ihre OpenAPI-Schemas jetzt direkt. Die statische JSON-Datei im `.well-known` Ordner verlor ihren Zweck.
+1. **Monopolistischer Silo-Ansatz:** Die Spezifikation war exklusiv auf ChatGPT zugeschnitten. Als Google mit Gemini, Anthropic mit Claude und Meta mit Open-Source-Lösungen in den Markt drängten, war kein Unternehmen bereit, für jeden KI-Bot separate proprietäre Manifeste und Middleware-Layer zu entwickeln und dauerhaft zu warten.
+2. **Schlechte User Experience im Chatbot:** Nutzer mussten Plugins manuell suchen, im internen Store aktivieren und konnten pro Chat nur maximal drei Plugins parallel nutzen. Das Modell verfehlte häufig die richtige Zuordnung, rief falsche Endpunkte auf oder brach bei API-Timeouts komplett ab.
+3. **Sicherheitsrisiken und Prompt Injections:** Drittanbieter-APIs, die ungefiltert Text an das Sprachmodell zurückgaben, öffneten Tür und Tor für Indirect Prompt Injections. Angreifer konnten über präparierte API-Antworten Anweisungen ins System einschleusen, um Tokens abzugreifen oder unerwünschte Aktionen auszulösen.
 
-Gleichzeitig haben Unternehmen verstanden: Für jedes neue KI-Modell ein neues Plugin-Format zu bauen, ist ein ineffizienter Albtraum.
-Stell dir das Chaos vor:
-* Du baust ein Plugin für ChatGPT.
-* Du baust eine Extension für Google Gemini.
-* Du baust ein Tool für Anthropic Claude.
+OpenAI zog im April 2024 die Reißleine, stellte den Plugin-Store ein und migrierte die Technologie vollständig auf Custom GPTs.
 
-Es verschlingt Millionen-Budgets und führt zu nichts.
+## Der moderne Technologiestack: GPT Actions vs. Model Context Protocol (MCP)
 
-## Der Paradigmenwechsel 2026: GPT Actions, Structured Outputs und Offene Standards
+Unternehmen, die ihre Daten und Funktionen für moderne KI-Systeme verfügbar machen wollen, stehen heute vor einer grundlegend gewandelten Architekturlandschaft. Starre JSON-Dateien im `.well-known`-Verzeichnis wurden durch zwei Hauptsäulen ersetzt:
 
-Die Industrie hat den Weg der Agilität gewählt. Heute (2026) redet niemand mehr von der `ai-plugin.json`. 
+* **OpenAI GPT Actions:** Innerhalb des geschlossenen ChatGPT-Ökosystems laden Entwickler ihre OpenAPI-Spezifikationen direkt im Builder-Interface hoch. Die Authentifizierung (OAuth, API-Keys) wird sicher von der Plattform verwaltet, ohne dass öffentlich exponierte Manifeste notwendig sind.
+* **Model Context Protocol (MCP):** Das von Anthropic entwickelte und von der gesamten Open-Source-Community sowie OpenAI adaptierte MCP fungiert als offener Schnittstellen-Standard. Ähnlich wie USB-C für Hardware-Geräte ermöglicht MCP die standardisierte Anbindung beliebiger Datenquellen und Tools an unterschiedlichste KI-Modelle.
+* **Semantische Web-Standards:** Für das Auffinden redaktioneller Inhalte und strukturierter Daten setzen Webmaster auf Formate wie [llms.txt](/glossar/llms-txt/) sowie [llms-full.txt](/glossar/llms-full-txt/) und saubere [Entitäten](/glossar/entitaeten-building/).
 
-**Der Ersatz im OpenAI-Ökosystem:**
-Wer heute tief mit OpenAI integrieren will, nutzt GPT Actions oder greift direkt über die API auf mächtige Features wie **Structured Outputs** oder die **Responses API** zurück. Diese erlauben es Entwicklern, exakt strukturierte Daten (JSON) von Modellen zurückzubekommen, ohne sich auf wackelige Prompt-Hacks oder alte Plugin-Manifeste verlassen zu müssen.
+### Technologische Evolution im direkten Vergleich
 
-**Der Ersatz im offenen B2B-Web:**
-Unternehmen wollen offene Standards. Wenn du heute willst, dass dein eigenes oder ein fremdes KI-Modell auf deine Datenbank zugreift, schaust du dir Protokolle wie das **Model Context Protocol (MCP)** oder andere offene Agent-to-Agent Frameworks an. Das ist universell. Ob du morgen auf ein Open-Source-LLM wie Llama wechselst oder bei Claude bleibst: Ein guter MCP-Server funktioniert, ohne dass du für jeden Anbieter eine eigene `.json` pflegen musst.
+| Dimension | Historische ai-plugin.json (2023) | OpenAI GPT Actions (2024–2026) | Model Context Protocol / MCP (2025–2026) |
+| :--- | :--- | :--- | :--- |
+| **Status** | Veraltet / Eingestellt (April 2024) | Aktiv im OpenAI-Ökosystem | Moderner plattformweiter Industriestandard |
+| **Architektur** | Statische Datei auf eigenem Server | Im ChatGPT Builder hinterlegte Schemas | Client-Server-Protokoll (JSON-RPC 2.0) |
+| **Schnittstellenformat** | Starre Kopplung an OpenAPI 3.0 | Standardisierte OpenAPI 3.0 / 3.1 | Tools, Resources und Prompts via MCP |
+| **Plattformunterstützung** | Ausschließlich ChatGPT-Plugins | Ausschließlich Custom GPTs | Claude, Cursor, ChatGPT, Gemini, Open-Source |
+| **Sicherheitsmodell** | Exponiert im Web, hohes Risiko | Plattform-gestützte OAuth-Flows | Granulare Berechtigungen auf Tool-Ebene |
+| **Wartungsaufwand** | Unverhältnismäßig hoch für Silo | Moderat für gezielte Use Cases | Gering durch universelle Wiederverwendbarkeit |
 
-## Was passiert jetzt mit den alten Dateien?
+## Typische Praxisfehler bei KI-Schnittstellen
 
-Wenn ich bei meinen Kunden einen Agent Readiness Audit durchführe, sehe ich diese Dateien noch massenhaft auf den Servern liegen. Oftmals von teuren Agenturen im Jahr 2024 für fünfstellige Summen als "KI-Innovation" verkauft und danach nie wieder angefasst.
+Wer in Unternehmen Schnittstellen für generative Systeme plant, stolpert häufig über klassische strategische Fehlentscheidungen:
 
-Die Frage lautet immer: *"Herr Zimmer, sollen wir die Datei löschen?"*
+### Fehler 1: Festhalten an toten Spezifikationen und veralteten Verzeichnissen
+Manche Agenturen verkaufen ihren Kunden noch immer die Erstellung einer `ai-plugin.json` als zukunftsweisende Innovation. Entwicklungsbudgets fließen in veraltete Manifeste, die von keinem modernen Crawler mehr verarbeitet werden.
 
-**Meine klare Antwort: Du kannst sie liegen lassen, aber frier das Budget dafür ein.**
+### Fehler 2: Verwechslung von Content-Bereitstellung und Funktionsaufrufen
+Viele Webmaster glaubten fälschlicherweise, eine `ai-plugin.json` sei notwendig, um [in KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/) zu können. Dabei dienten Plugins rein dem Ausführen von Aktionen. Für reine Text- und Informationsabfragen sind semantisches HTML, [Technisches SEO](/glossar/technisches-seo/) und maschinenlesbare Textformate der einzig zielführende Weg.
 
-Warum nicht löschen? Es kostet dich kein Geld auf dem Server. Ein Fallback schadet nie, falls ein veralteter Hobby-Crawler noch drüberstolpert.
+### Fehler 3: Unzureichende API-Dokumentation und fehlende Fehlertoleranz
+Große Sprachmodelle scheitern bei API-Aufrufen sofort, wenn Parameter-Beschreibungen in der OpenAPI-Spezifikation schwammig formuliert sind. Ohne präzise Datentypen, Beispielwerte und strikte Validierungsregeln erzeugen Modelle fehlerhafte Payloads, die zu Abbrüchen führen.
 
-Warum das Budget einfrieren? Jeder Euro, den du im Sommer 2026 noch in die Weiterentwicklung dieses alten Manifests steckst, ist verbranntes Geld. Deine Kunden wollen moderne, nahtlose Integrationen, die auf aktuellen Actions oder RAG-Pipelines basieren.
+## Was tun mit bestehenden Plugin-Dateien auf dem Server?
 
-## Die Lektion: Agilität schlägt Hype
+Befindet sich auf deiner Website noch eine `ai-plugin.json`, musst du nicht in Panik verfallen. Das bloße Vorhandensein der Datei generiert keine SEO-Penalties und schadet dem Ranking nicht. Dennoch empfiehlt sich ein strukturierter Frühjahrsputz:
 
-Die kurze, aber heftige Geschichte der `ai-plugin.json` ist eine bittere Lektion für alle CMOs und IT-Entscheider: Renne nicht jedem proprietären Hype hinterher, den ein Konzern ankündigt, wenn es sich nicht um einen offenen Standard handelt. 
+1. **Entwicklungsbudgets stoppen:** Keine weiteren Mittel in die Pflege dieses veralteten Formats investieren.
+2. **Dateiprüfung:** Überprüfen, ob die dort verlinkte OpenAPI-Datei sensible interne API-Pfade öffentlich preisgibt. Ist dies der Fall, sollte die Datei entfernt werden.
+3. **Moderne Alternativen etablieren:** Falls du Daten für KI-Agenten bereitstellen möchtest, implementiere eine schlanke `llms.txt`, setze auf saubere strukturierte Daten (Schema.org) und prüfe für echte API-Tools die Implementierung eines standardisierten MCP-Servers.
 
-Investiere stattdessen in **Agent Readiness** und **saubere APIs**. Wenn deine Daten sauber strukturiert sind (via Schema.org), wenn deine Crawling-Regeln hart definiert sind und du offene OpenAPI-Dokumentationen bereithältst, bist du gegen jeden Sturm gewappnet. Egal welches KI-Modell morgen den Markt dominiert – wenn du robuste Endpunkte hast, können sie alle mit dir Geschäfte machen.
+<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-2xl">💡</span>
+    <strong class="text-lg text-dark">Jörg Zimmer aus der SEO-Praxis:</strong>
+  </div>
+  <p class="text-gray-700 italic mb-2">
+    "Die Geschichte der ai-plugin.json zeigt eindrucksvoll, wie schnell proprietäre Hypes in der KI-Welt verpuffen. Wer sich damals an OpenAI-Silos geklammert hat, verbrannte fünfstellige Budgets. Heute gewinnen offene Protokolle wie MCP und herkömmliche semantische Webstandards. Wer saubere APIs und solide strukturierte Daten pflegt, übersteht jeden Paradigmenwechsel unbeschadet."
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
+    [↗ Zur Diskussion auf LinkedIn]
+  </a>
+</div>
 
-Lass die Vergangenheit ruhen. Die Plugin-Ära war eine schöne Spielwiese, aber das echte Geschäft wird jetzt mit echten Actions und offenen Protokollen gemacht.
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>
 
-ALOHA! 🌻✌️

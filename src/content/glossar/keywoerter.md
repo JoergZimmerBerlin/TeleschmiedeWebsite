@@ -1,97 +1,146 @@
 ---
 category: 'SEO Basics & Onpage'
 title: "Keywords: Semantische Entitäten statt Strings"
-meta_title: "Keywords: Entitäten für LLMs (2026)"
-description: "Keywords werden zu Entitäten. Optimiere für semantische Zusammenhänge statt Suchbegriffe, um im Vektorraum von KIs perfekt zu ranken. (2026)"
-meta_description: "Keywords werden zu Entitäten. Optimiere für semantische Zusammenhänge statt Suchbegriffe, um im Vektorraum von KIs perfekt zu ranken. (2026)"
+meta_title: "Keywords: Entitäten für LLMs & SEO (2026)"
+description: "Keywords im Wandel: Warum Suchbegriffe heute als semantische Entitäten fungieren und wie du für KI-Suche und User Intent optimierst. (2026)"
+meta_description: "Keywords im Wandel: Warum Suchbegriffe heute als semantische Entitäten fungieren und wie du für KI-Suche und User Intent optimierst. (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-keyword-cluster.webp"
-related_terms: ["suchvolumen", "keyword-tool", "keywordrecherche"]
+image_alt: "Keywords und Entitäten 3D Infografik - Semantische Vektoren in Suchmaschinen"
+related_terms: ["suchvolumen", "keyword-tool", "topical-authority"]
 key_takeaways:
-  - "Strings sind tot: Google und KIs bewerten keine isolierten Wörter mehr, sondern semantische Zusammenhänge, Kontexte und Entitäten."
-  - "Intent über Phrasierung: Es geht nicht mehr um das exakte Keyword, sondern darum, das Problem (den Intent) des Nutzers perfekt zu lösen."
-  - "Topical Authority: Baue Themen-Cluster auf, um als allumfassende Autorität für ein ganzes Wissensgebiet zitiert zu werden."
+  - "Suchmaschinen und Large Language Models bewerten Suchbegriffe nicht mehr als isolierte Buchstabenketten (Strings), sondern als semantische Entitäten."
+  - "Moderne Algorithmen kombinieren lexikalische Suchen (BM25) mit hochdimensionalen Vektor-Embeddings (Hybrid Search) zur Intent-Erkennung."
+  - "Die Ausrichtung an der primären Nutzerabsicht (User Intent) schlägt starre Keyword-Dichten und schützt vor Pogo-Sticking und Qualitätsabwertungen."
+  - "Topical Authority und Content-Cluster etablieren Domains als thematische Seed-Quellen für Google AI Overviews und Antwortmaschinen."
 faqs:
-  - question: 'Haben klassische Keywords in der SEO-Welt 2026 überhaupt noch Relevanz?'
-    answer: 'Ja, aber anders als früher. Sie sind nicht mehr das alleinige Ziel, sondern dienen als Signalfackeln und Ankerpunkte, um das Interesse der Zielgruppe zu verstehen. Keyword-Stuffing ist jedoch endgültig tot.'
-  - question: 'Was bedeutet Intent-Optimierung?'
-    answer: 'Suchmaschinen und KIs prüfen, *warum* ein Nutzer sucht. Dein Text muss die Kernfrage präzise beantworten (z.B. transaktional vs. informational), statt nur das Keyword mehrfach zu wiederholen.'
-  - question: 'Wie optimiere ich meine Texte heute technisch sauber?'
-    answer: 'Fokussiere dich auf E-E-A-T (Erfahrung, Expertise, Autorität, Vertrauen). Strukturiere deine Inhalte maschinenlesbar mit klaren Überschriften und Schema-Markup, um KI-Crawlern die Verarbeitung zu erleichtern.'
+  - question: 'Haben klassische Keywords in der SEO-Welt überhaupt noch Relevanz?'
+    answer: 'Ja, jedoch nicht mehr als starre Phrasen, die in bestimmten Häufigkeiten im Text wiederholt werden müssen. Keywords fungieren heute als Signale für Nutzerbedürfnisse und Themenkomplexe, die semantisch tiefgreifend im Textkontext gelöst werden müssen.'
+  - question: 'Was versteht man unter dem Prinzip Things, not strings?'
+    answer: 'Es beschreibt den Paradigmenwechsel von der reinen Zeichenkettensuche hin zum semantischen Verstehen von Entitäten (Personen, Orten, Produkten, Konzepten) und deren Beziehungen zueinander innerhalb eines Knowledge Graphs.'
+  - question: 'Wie beeinflussen Vektor-Embeddings das Keyword-Ranking?'
+    answer: 'Sprachmodelle wandeln Dokumente und Suchanfragen in mathematische Vektoren um. Über Metriken wie die Cosinus-Ähnlichkeit berechnet das System die inhaltliche Nähe. Eine Zielseite kann dadurch hervorragend ranken, selbst wenn das exakte Suchwort im Fließtext kaum vorkommt.'
+  - question: 'Was ist der Unterschied zwischen informationalem und transaktionalem Intent?'
+    answer: 'Bei informationalen Anfragen suchen Nutzer nach Erklärungen, Definitionen oder Ratgebern. Bei transaktionalen Anfragen steht eine konkrete Kauf-, Buchungs- oder Download-Absicht im Vordergrund. Eine Verwechslung beider Absichten führt zu sofortigen Absprüngen.'
 ---
 
-## Keywords 2026: Von Text-Strings zu semantischen Entitäten
+In den Frühzeiten des Suchmaschinenmarketings war die Optimierung für Suchbegriffe ein mechanisches Handwerk: Webmaster analysierten das monatliche [Suchvolumen](/glossar/suchvolumen/), wählten lukrative Schlüsselwörter mit einem [Keyword-Tool](/glossar/keyword-tool/) aus und wiederholten die exakte Zeichenkette in einer starren Dichte von drei bis fünf Prozent im Fließtext. In der Ära von Semantic Search, neuronalen Sprachmodellen und generativen Antwortfeldern hat sich dieses Modell vollständig überlebt. Wer heute noch versucht, isolierte Textketten in H1-Tags zu pressen, betreibt SEO auf dem Stand vergangener Jahrzehnte.
 
-Moin! 🌻
+Moderne Suchmaschinen wie Google sowie generative Antwortsysteme (Perplexity, ChatGPT Search) verarbeiten Texte nicht mehr als Aneinanderreihung statischer Zeichenketten (Strings). Sie operieren auf der Ebene semantischer [Entitäten](/glossar/entitaet/) und hochdimensionaler Vektor-Embeddings. Ein Keyword ist heute kein starrer Suchausdruck mehr, sondern die verbale Schnittstelle zu einem komplexen Informationsbedürfnis (User Intent), das algorithmisch in Wissensgraphen verortet wird.
 
-Reden wir Klartext. Wer im Jahr 2026 noch Texte schreibt, um ein bestimmtes "Keyword" in festgelegten Prozentzahlen (Keyword-Density) im Text unterzubringen, betreibt SEO auf dem Niveau von 2012. Das ist nicht nur ineffizient, es ist für deine Sichtbarkeit schlichtweg toxisch. Wir leben in einer Welt von Semantic Search, Vektordatenbanken und AI Overviews. Wer heute noch stur Buchstabenfolgen in H1-Überschriften quetscht, hat die fundamentale Architektur moderner Informationsbeschaffung nicht verstanden.
+## Die Evolution: Von Lexical Matching zu Semantic Hybrid Search
 
-Ein Keyword ist heute kein plumpes Text-Match mehr. Es ist ein Indikator für ein dahinterliegendes Thema. Wir optimieren nicht mehr für dumme Zeichenketten (Strings). Wir optimieren für Dinge, Konzepte und deren kontextuelle Beziehungen zueinander. Willkommen im Entity SEO.
+Der technologische Wandel in der Verarbeitung von Suchbegriffen lässt sich in drei Entwicklungsstufen unterteilen:
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wer nur sinnlos Keywords in Texte ballert, wird von modernen Algorithmen als Spam klassifiziert. Wer hingegen die User Intents versteht und als Topical Authority auftritt, baut einen Architektur-Burggraben auf, den keine oberflächliche Konkurrenz überwinden kann."</p>
-</div>
+| Epoche | Suchtechnologie | Verarbeitungsmodus | Ranking-Grundlage |
+| :--- | :--- | :--- | :--- |
+| **Klassisches Keyword-Matching** | Lexikalische Suche (TF-IDF, BM25) | Exakter Zeichenketten-Abgleich (Strings) | Keyword-Häufigkeit & Platzierung |
+| **Semantische Entitäten-Suche** | Knowledge Graphs & NLP | Verstehen von Konzepten und Synonymen | Entitätsbeziehungen & Co-Occurrences |
+| **Generative Intent-Synthese** | Vektor-Embeddings & RAG | Vektordistanz (Cosinus-Ähnlichkeit) & Hybrid Search | [Topical Authority](/glossar/topical-authority/) & ganzheitliche Problemlösung |
 
-## Die Evolution: Vom String zur Entität
+Um die Schwächen reiner Vektorsuchen (etwa bei präzisen Seriennummern oder Produktbezeichnungen) auszugleichen, setzen führende Suchsysteme heute auf **Hybrid Search**: Sie kombinieren traditionelle lexikalische Präzision (BM25) mit tiefem semantischem Kontextverständnis über neuronale Netze.
 
-Lange Zeit dachten SEOs und Texter: Wenn ich "Gartenschlauch" 15 Mal in den Text schreibe, weiß der Crawler, worum es geht. Die Algorithmen nutzten damals primär *Lexical Matching* – sie searchten nach der exakten Zeichenkette. Das funktionierte, war aber extrem anfällig für Manipulation.
+## Wie Sprachmodelle Keywords im Vektorraum interpretieren
 
-Heute nutzen Google und KI-Suchmaschinen wie Perplexity *Semantic Matching*. Ein Wort wird in einen Kontext gesetzt. Die KI liest "Gartenschlauch" und aktiviert sofort ein Netzwerk an verwandten Konzepten (Entitäten): Wasserdruck, Gardena, Rasensprenger, Zoll-Anschlüsse. 
+Wenn ein Nutzer einen Begriff wie *"Bandscheibenvorfall Symptome"* eingibt, sucht das Sprachmodell nicht bloß nach Webseiten, die diese drei Wörter enthalten. Der Algorithmus transformiert die Eingabe über ein Embedding-Modell in einen mathematischen Vektor.
 
-Wenn du das Keyword "Gartenschlauch" nutzt, aber diese semantischen Nachbarn in deinem Text komplett fehlen, erkennt die Maschine sofort: Dieser Text hat keine inhaltliche Tiefe. Es ist oberflächlicher Spam. Die algorithmische Konfidenz sinkt, und KI-Agenten ignorieren dich. 
+In diesem hochdimensionalen Vektorraum aktiviert der Begriff ein ganzes Netzwerk semantischer Nachbarn:
+* Anatomische Entitäten (Lendenwirbelsäule, Nervenwurzel, Bandscheibe)
+* Symptom-Cluster (Taubheitsgefühl, Kribbeln, Beinschmerz, Reflexausfall)
+* Dringlichkeits-Indikatoren (Notarzt, Lähmungserscheinungen, Schmerzskala)
 
-Die Konsequenz: Arbeite nicht mit starren Keyword-Listen, sondern mit Themen-Clustern. Jeder Text muss eine logische, fundierte Antwort auf den gesuchten Themenkomplex liefern.
+Fehlen diese semantisch zwingenden Entitäten in einem Fachartikel, erkennt der Algorithmus die inhaltliche Oberflächlichkeit des Dokuments sofort. Die Cosinus-Distanz zwischen dem Sucher-Vektor und dem Dokument-Vektor vergrößert sich, und die Seite scheidet aus den Spitzenpositionen und KI-Zitationen aus.
 
-## Search Intent: Das einzige, was zählt
+## Die vier Dimensionen des Search Intents
 
-In der Praxis strukturieren wir Content heute knallhart nach dem Suchintent (User Intent). Wenn du den Intent verfehlst, kannst du das beste semantische Matching der Welt haben – du wirst gnadenlos scheitern.
+Jedes Keyword transportiert eine konkrete Nutzerabsicht. Wer die Absicht verfehlt, scheitert unabhängig von Textlänge oder technischer Perfektion:
 
-1. **Informational (Informationsgetrieben):** Der Nutzer sucht nach Antworten. "Wie funktioniert ein Algorithmus?" Hier brauchst du tiefgreifende Fachartikel, Definitionen und klare Strukturen.
-2. **Navigational (Navigationsgetrieben):** Der Nutzer will zu einer spezifischen Seite. "Teleschmiede Login". Hier zählt nur die exakte Brand-Zuordnung.
-3. **Commercial Investigation (Kaufvorbereitend):** "Beste SEO Tools 2026". Der Nutzer vergleicht. Hier brauchst du harte Fakten, echte Erfahrungswerte und neutrale Analysen.
-4. **Transactional (Transaktionsgetrieben):** "SEO Audit kaufen Berlin". Der Nutzer hat die Kreditkarte in der Hand. Hier brauchst du Landingpages, die konvertieren, und keine 3000-Wörter-Romane.
+1. **Informational Intent (Wissensbedürfnis):** Der Nutzer verlangt fundierte Erklärungen, Fallbeispiele oder Schritt-für-Schritt-Anleitungen (*"Wie funktioniert ein CDN?"*). Hier triumphieren strukturierte Definitionen und klare Antworten.
+2. **Navigational Intent (Zielführung):** Der Suchende steuert eine spezifische Plattform an (*"Teleschmiede Kontakt"*). Die Startseite oder die dedizierte Zielseite muss eindeutig als kanonische Marke erkennbar sein.
+3. **Commercial Investigation (Kaufvorbereitung):** Der Nutzer vergleicht Anbieter, Preise oder Vor- und Nachteile (*"SE Ranking Alternativen"*). Erforderlich sind objektive Vergleichstabellen und transparente Kriterien.
+4. **Transactional Intent (Handlungsbereitschaft):** Der Nutzer will ein Produkt erwerben oder eine Dienstleistung beauftragen (*"SEO Audit buchen"*). Kurze Klickwege, klare Preisauszeichnungen und optimierte Conversion-Elemente sind entscheidend.
 
-Die größte Todsünde im OnPage-SEO 2026 ist die **Intent-Dissonanz**. Du versuchst, einen transaktionalen Begriff mit einem informationalen Artikel abzufangen. Der Algorithmus sieht, dass die Nutzer abspringen (Pogo-Sticking), und straft dich ab.
+Die gefährlichste Falle ist die **Intent-Dissonanz**: Wenn eine Informations-Suchanfrage mit einer reinen Verkaufsseite beantwortet wird, springen Besucher postwendend ab. Suchmaschinen registrieren dieses Pogo-Sticking und werten die URL ab.
 
-## Topical Authority und E-E-A-T
+## Technische Umsetzung: Semantische Entitäten in Schema.org auszeichnen
 
-Früher reichte ein gut optimierter Text auf einer schwachen Domain. Heute bewertet Google die Autorität der gesamten Website zu einem Thema (**Topical Authority**). 
+Damit Suchmaschinen-Crawler die behandelten Entitäten und Konzepte ohne Interpretationsunsicherheiten erfassen, empfiehlt sich die Strukturierung über JSON-LD. Das folgende neutrale Code-Beispiel demonstriert die Auszeichnung semantischer Entitäten für einen Fachartikel:
 
-Anstatt zu versuchen, für ein isoliertes Keyword zu ranken, musst du zur führenden Quelle für ein gesamtes Themengebiet werden. Du baust "Pillar Pages" (Hauptseiten) und stützt sie durch tiefgreifende "Cluster Pages". Gleichzeitig ist **E-E-A-T** (Experience, Expertise, Authoritativeness, Trustworthiness) entscheidend. Nutze echte Expertenzitate, klare Autorenprofile und teile authentische Praxiserfahrungen, die eine KI niemals generieren könnte.
-
-## Keywords für KI-Antworten (AI Overviews) optimieren
-
-Wie verarbeiten moderne KI-Suchsysteme deine Inhalte? Nutzer stellen zunehmend komplexe, konversationelle Fragen in ganzen Sätzen. 
-
-Um in den KI-Zusammenfassungen (AI Overviews) zitiert zu werden, musst du:
-- **Klarheit vor Poesie setzen:** Verschachtelte Sätze sind für Parser schwer zu verarbeiten. Formuliere präzise und direkt.
-- **Fragen direkt beantworten:** Nutze Long-Tail-Fragen als H2/H3-Überschriften und liefere die Antwort in einem knackigen Absatz direkt darunter.
-- **Fakten-Dichte maximieren:** KIs extrahieren harte Fakten. Nutze Tabellen, strukturierte Listen und Schema-Markup.
-
-Das Keyword ist dabei nur das initial zündende Signal. Es verrät dir, wo der Schmerz des Nutzers liegt. Deine Aufgabe ist es, dieses Signal in eine allumfassende, maschinenlesbare Antwort zu verwandeln.
-
-## Mein Tacheles-Rat für dich
-
-Vergiss das antiquierte Konzept des "Keywords" als isolierte Buchstabenfolge. Denke in Entitäten, in Autorität und vor allem in kristallklaren User Intents. 
-
-Hör auf, deinen Redakteuren Checklisten zu geben, in denen steht: "Bitte das Keyword 'Schraubenzieher' 12 Mal im Text verwenden." Schreib exzellenten Content für Menschen, der echte Probleme löst, und strukturiere ihn kompromisslos sauber für die Maschine. Nur wer echten Mehrwert liefert und seine Identität als Experte beweist, wird das nächste Jahrzehnt in der Suche dominieren.
-
-ALOHA! 🌻✌️
-
----
-
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h3 class="text-2xl font-bold mb-4">Zählst du noch Buchstaben oder rankst du schon?</h3>
-  <p class="mb-6 text-gray-muted">Wer 2026 noch klassisches Keyword-SEO betreibt, verliert seine Sichtbarkeit. Ich baue mit dir eine maschinenlesbare Architektur auf Basis von Entitäten und echtem Intent-Matching.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt semantisches Audit anfragen</a>
-</div>
-
-## Verwandte Begriffe
-* [Keywordrecherche in der Praxis](/glossar/keywordrecherche/)
-* [Topical Authority verstehen](/glossar/topical-authority/)
-* [Was sind Entitäten?](/glossar/entitaet/)
-
-```text
-DALL-E Prompt: All text in GERMAN: "KEYWORDS 2026". A highly futuristic, glowing neon 3D representation of an entity relationship cluster replacing simple text strings. Lime green accents (#D9FF00) everywhere, pure white background (#FFFFFF). Extremely large and bold text. Subtle watermark "Jörg Zimmer" in the bottom right corner.
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Semantische Keywords und Vektor-Embeddings im modernen SEO",
+  "url": "https://deinedomain.de/semantische-keywords/",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Semantische Suche",
+      "sameAs": "https://www.wikidata.org/wiki/Q2269090"
+    },
+    {
+      "@type": "Thing",
+      "name": "Wortvektor",
+      "sameAs": "https://www.wikidata.org/wiki/Q28530338"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Cosinus-Ähnlichkeit",
+      "sameAs": "https://www.wikidata.org/wiki/Q381395"
+    }
+  ]
+}
+</script>
 ```
+
+Durch die explizite Deklaration der Eigenschaften `about` und `mentions` unter Verlinkung relevanter Wikidata-Objekte verankerst du deine Inhalte im Knowledge Graph und erleichterst KI-Agenten die semantische Zuordnung im Rahmen des [Technischen SEO](/glossar/technisches-seo/).
+
+## Typische Praxisfehler bei der Keyword-Optimierung
+
+Beim Übergang von klassischem Keyword-SEO zu semantischen Strategien treten regelmäßig vermeidbare Fehler auf:
+
+### Fehler 1: Festhalten an starren WDF*IDF- und Dichte-Formeln
+Die künstliche Wiederholung von Signalwörtern zur Erreichung mathematischer Textdichten stört den Lesefluss und wirkt auf modernen NLP-Verfahren wie maschinell erzeugter Spam. Entscheidend ist die natürliche Beantwortung des gesamten Problemkontexts.
+
+### Fehler 2: Kannibalisierung durch isolierte Keyword-Seiten
+Für jede minimale Wortvariation (z.B. *"SEO Berater"* vs. *"SEO Beratung"*) eine eigene Unterseite anzulegen, zersplittert die Autorität der Domain. Moderne Algorithmen fassen diese Begrifflichkeiten zu einer übergeordneten Entität zusammen und erwarten eine umfassende Hauptseite.
+
+### Fehler 3: Ignorieren natürlicher Konversationsfragen
+Da Nutzer über Sprachassistenten und Chat-Engines zunehmend in vollständigen Sätzen suchen, greifen starre Zwei-Wort-Kombinationen zu kurz. Wer Fragen nicht direkt im Answer-First-Format aufgreift, verliert die Chance, [in KI-Antworten zu erscheinen](/glossar/in-ki-antworten-erscheinen/).
+
+## Schritt-für-Schritt: Keyword-Cluster semantisch aufbauen
+
+Die Transformation klassischer Keyword-Listen in tragfähige semantische Themen-Cluster gelingt in der Praxis über vier strukturierte Phasen:
+
+1. **Themen-Exploration & Seed-Identifikation:** Ausgehend von deinem Kernangebot recherchierst du mit professionellen Keyword-Tools nicht nur einzelne Begriffe, sondern das gesamte Umfeld an verwandten Fragestellungen, Synonymen und W-Fragen.
+2. **SERP-Intent-Clustering:** Analysiere die bestehenden Top-Ergebnisse bei Google. Ranken für zwei scheinbar unterschiedliche Suchphrasen dieselben URLs, gehören beide Begriffe in dasselbe Dokument. Ranken völlig unterschiedliche Seitentypen, müssen zwei getrennte Zielseiten erstellt werden.
+3. **Semantische Graphen-Modellierung:** Ordne die Keywords hierarchisch in Pillar-Themen und untergeordnete Detailaspekte (Cluster) ein. Verknüpfe die Artikel untereinander über präzise Ankertexte, die die logische Beziehung zwischen den Entitäten für Crawler transparent machen.
+4. **Validierung der Vektortiefe:** Prüfe vor der Veröffentlichung, ob dein Dokument alle wesentlichen Co-Occurrences und Fachkonzepte abdeckt, die ein Sprachmodell bei diesem Thema erwartet, um als holistische Primärquelle eingestuft zu werden.
+
+## Die Zukunft der Suchbegriffe
+
+Keywords bleiben das wichtigste Fenster in die Psychologie und die Bedürfnisse der Zielgruppe. Ihre Rolle hat sich jedoch gewandelt: Sie sind nicht mehr das mechanische Ziel der Optimierung, sondern der Ausgangspunkt für den Aufbau fundierter Themencluster und erfolgreicher [GEO-Optimierung](/glossar/geo-optimierung/).
+
+<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
+  <div class="flex items-center gap-3 mb-3">
+    <span class="text-2xl">💡</span>
+    <strong class="text-lg text-dark">Jörg Zimmer aus der SEO-Praxis:</strong>
+  </div>
+  <p class="text-gray-700 italic mb-2">
+    "Hör auf, Buchstabenfolgen in Texte zu hämmern und Keyword-Dichten nachzuzählen. Moderne Suchmaschinen und KI-Modelle lesen Konzepte, Vektoren und Nutzerabsichten. Wer den realen Intent seiner Zielgruppe versteht und diesen in eine unumstößliche thematische Gesamtautorität überführt, dominiert die Rankings auf Jahre hinaus."
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">
+    [↗ Zur Diskussion auf LinkedIn]
+  </a>
+</div>
+
+<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
+  </a>
+</div>
+

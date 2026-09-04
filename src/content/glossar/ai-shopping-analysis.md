@@ -1,85 +1,147 @@
 ---
-title: "AI Shopping Analysis: Produkte in ChatGPT & KI-Suchen"
-meta_title: "AI Shopping Analysis: E-Commerce in der KI (2026)"
-description: "Erfahre, wie AI Commerce & Shopping Analysis von Rankscale zeigt, welche Produkte und Händler in ChatGPT Shopping und Google AI Mode auftauchen."
-meta_description: "Maximiere deine E-Commerce Umsätze. Mit einer AI Shopping Analysis trackst du Produktempfehlungen und Ads in ChatGPT und Bing Copilot (2026)"
+title: "AI Shopping Analysis: Produkte in KI-Suchen"
+meta_title: "AI Shopping Analysis: E-Commerce (2026)"
+description: "AI Shopping Analysis im E-Commerce: Wie deine Produkte und Händler in ChatGPT Shopping, Google AI Mode und Copilot dominieren. Tacheles. (2026)"
+meta_description: "AI Shopping Analysis im E-Commerce: Wie deine Produkte und Händler in ChatGPT Shopping, Google AI Mode und Copilot dominieren. Tacheles. (2026)"
 date: "2026-08-10"
 image: src/assets/images/glossar/3d-light/ai-shopping-analysis-3d.jpg
-image_alt: AI Shopping Analysis E-Commerce KI
-category: AI SEO & Generative Search
+image_alt: "AI Shopping Analysis E-Commerce KI"
+category: "AI SEO & Generative Search"
 key_takeaways:
-  - "Die AI Commerce & Shopping Analysis fokussiert sich explizit auf kaufbereite Suchanfragen (Deals, Produktvergleiche, Kaufort)."
-  - "Das Tool trackt Sichtbarkeit über ChatGPT Shopping, Google AI Mode Shopping und Bing Copilot Shopping hinweg."
-  - "Rankscale erfasst nicht nur organische Produktempfehlungen, sondern überwacht auch gesponserte Ads (Sponsored Placements) innerhalb der KI-Antworten."
+  - "Fokus auf transaktionale Kaufabsichten: AI Shopping Analysis analysiert gezielt prompts mit hoher Kaufbereitschaft wie Produktvergleiche, Preisrecherchen und Verfügbarkeiten."
+  - "Gleichzeitiges Tracking von Herstellern und Händlern: Überwachung, ob die eigene Marke empfohlen wird und welche Händlerpartner den finalen Checkout erhalten."
+  - "Monitoring gesponserter Werbeplätze: Erfassung von bezahlten Ad-Cards und gesponserten Empfehlungen innerhalb generativer Antwortsysteme."
+  - "Produkt-Datenqualität als Ranking-Hebel: Maschinenlesbare Feeds und lückenlose Schema.org-Attribute entscheiden über die Zitation in AI Overviews und Shopping-Graphen."
 faqs:
   - question: "Was ist eine AI Shopping Analysis?"
-    answer: "Sie ist eine spezialisierte Form der KI-Analyse für den E-Commerce. Anstatt allgemeine Erwähnungen zu tracken, misst sie, welche Produkte, Marken und Händler die KI empfiehlt, wenn ein Nutzer eine klare Kaufabsicht (Shopping-Intent) hat."
-  - question: "Werden auch KI-Anzeigen (Ads) erfasst?"
-    answer: "Ja, Rankscale trackt 'Sponsored Ads' in KI-Shopping-Antworten. Du siehst genau, ob deine eigenen Ads ausgespielt werden oder welche Konkurrenten bezahlte Platzierungen nutzen."
-  - question: "Können Hersteller und Händler gemeinsam getrackt werden?"
-    answer: "Absolut. Du kannst prüfen, ob deine Hersteller-Marke (Brand) zusammen mit deinen bevorzugten Händlern (Merchants) von der KI empfohlen wird."
+    answer: "Eine AI Shopping Analysis ist eine spezialisierte E-Commerce-Analyse. Sie erfasst, welche Produkte, Marken und Händler von Sprachmodellen wie ChatGPT oder Google AI Mode empfohlen werden, wenn Nutzer konkrete Kaufabsichten äußern."
+  - question: "Werden auch bezahlte KI-Anzeigen überwacht?"
+    answer: "Ja, moderne Plattformen wie Rankscale erfassen sowohl organische Zitationen als auch Sponsored Placements (Ad-Cards) innerhalb der generierten Antworten und analysieren Werbekampagnen von Mitbewerbern."
+  - question: "Warum reicht klassisches Google Shopping Tracking nicht mehr aus?"
+    answer: "Weil Kunden zunehmend konversationelle Kaufentscheidungen in Answer Engines treffen. Wer nur den klassischen Google Shopping Tab überwacht, verliert Sichtbarkeit in ChatGPT Instant Checkout, Copilot und Google AI Mode."
 ---
 
-## AI Commerce: Der neue Weg der Produktsuche
+Im klassischen E-Commerce-Marketing optimierten Händler und Markenhersteller ihre Sortimente über Jahre hinweg primär für Google Shopping, Amazon-Marktplätze und statische Kategorieseiten. Doch das Kaufverhalten hat sich radikal verändert: Konsumenten recherchieren heute vermehrt über konversationelle Answer Engines. Sie stellen differenzierte Fragen wie: *„Vergleiche mir drei energieeffiziente Waschmaschinen für einen 4-Personen-Haushalt unter 800 Euro und zeige mir Händler mit sofortiger Verfügbarkeit.“*
 
-Während sich ein klassischer [AI Rank Tracker](/glossar/ai-rank-tracker/) auf alle Arten von [Brand Mentions](/glossar/brand-mentions/) konzentriert, benötigt der E-Commerce spezialisierte Werkzeuge. Nutzer fragen KIs heute gezielt nach Produkttests, Deals und direkten Kaufempfehlungen.
+Dieser Wandel hin zum sogenannten **Agentic Commerce** verlangt nach neuen analytischen Werkzeugen. Während ein allgemeiner [AI-Rank-Tracker](/glossar/ai-rank-tracker/) breite [Brand Mentions](/glossar/brand-mentions/) misst, fokussiert sich die **AI Shopping Analysis** messerscharf auf kaufentscheidende Interaktionen im E-Commerce.
 
-## Der Wandel des E-Commerce durch Künstliche Intelligenz
+## Systemvergleich: Klassisches E-Commerce SEO versus AI Shopping
 
-Im klassischen E-Commerce SEO optimierten Händler und Marken ihre Produktseiten primär für Google Shopping und klassische Text-Suchergebnisse. Doch das Einkaufsverhalten verändert sich drastisch. Nutzer nutzen heute Answer Engines wie ChatGPT, Google AI Mode und Bing Copilot, um Produktrecherchen durchzuführen. Sie stellen hochspezifische, transaktionale Fragen: "Wo kann ich den besten Laufschuh für Plattfüße kaufen?" oder "Vergleiche mir drei Kaffeevollautomaten unter 500 Euro und zeige mir Händler mit Angeboten."
+Die Mechanismen der Produktsuche haben sich durch generative KI-Modelle grundlegend transformiert:
 
-Dieser Wandel erfordert eine völlig neue Art der Optimierung: Die [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/) für AI Commerce. Traditionelles [KI Rank Tracking](/glossar/ai-rank-tracker/) misst oft nur breite, generische Erwähnungen einer Marke (Brand Mentions). Die **AI Shopping Analysis** hingegen ist messerscharf auf E-Commerce fokussiert: Sie untersucht, wer genau in dem Moment in den generierten Ergebnissen auftaucht, wenn der Nutzer kurz vor dem Kaufabschluss steht. 
+| Dimension | Klassisches E-Commerce SEO | Modernes AI Shopping & Agentic Commerce (2026) |
+| :--- | :--- | :--- |
+| **Nutzerverhalten** | Filtern nach Kategorien & Klick auf blaue Links | Konversationelle Prompts & Anforderung von Vergleichen |
+| **Primäre Datenbasis** | Statische XML-Produkt-Feeds & Onpage-HTML | Dynamische Shopping-Graphen & Universal Commerce Protocols |
+| **Entscheidungsträger** | Menschlicher Käufer klickt durch Shops | KI-Agent filtert Angebote vor und steuert Checkout |
+| **Monetarisierung** | Google Shopping Ads & Textanzeigen | Gesponserte Ad-Cards & native Chat-Sponsorships |
+| **Erfolgsmetrik** | Klicks, CTR & Konversionsrate im Webshop | Zitationsrate, Share of Recommendation & Händlernennung |
 
-Plattformen wie **Rankscale** haben spezialisierte Workflows für E-Commerce-Teams entwickelt, die Marken, Produkte und Händler (Merchants) im KI-Ökosystem ganzheitlich überwachen.
+## Die 3 Kernbereiche der AI Shopping Analysis
 
-## Shopping-Native Sichtbarkeit: Marken & Händler (Merchants)
+Plattformen wie **Rankscale** und moderne E-Commerce-Module von **SE Ranking** bieten spezialisierte Workflows, um Produkte und Vertriebskanäle ganzheitlich zu überwachen:
 
-Das Besondere an der AI Shopping Analysis ist, dass sie sich nicht nur auf die Marke des Herstellers fokussiert, sondern das gesamte Vertriebsnetzwerk abbildet. Für Retail- und E-Commerce-Teams ist es entscheidend zu wissen, welche spezifischen Produkte empfohlen werden und vor allem: *Welcher Händler den Sale bekommt.*
+### 1. Shopping-Native Sichtbarkeit für Marken und Merchants
+Für Hersteller ist es essenziell zu wissen, ob ihre Produkte in ChatGPT Shopping oder Google AI Mode empfohlen werden. Für Online-Händler (Merchants) zählt hingegen, wohin der Nutzer weitergeleitet wird:
+* **Herstellersicht:** Taucht das eigene Modell im synthetisierten Produktvergleich auf?
+* **Händlersicht:** Verlinkt die KI auf den eigenen Marken-Webshop oder gehen die lukrativen Verkäufe an große Marktplätze wie Amazon?
+* **Partner-Controlling:** Hersteller prüfen, ob ihre autorisierten Vertriebspartner von den KI-Modellen korrekt genannt und verlinkt werden.
 
-Rankscale trackt "Brands & Merchants together" in einem einzigen Workflow. 
-- **Herstellersicht:** Taucht mein Produkt in den ChatGPT Shopping-Empfehlungen auf?
-- **Händlersicht:** Wenn mein Produkt empfohlen wird, wird der Nutzer auf meinen eigenen Online-Shop geleitet, oder verlinkt die KI auf einen konkurrierenden Retailer oder Marktplatz (wie Amazon)? 
-- **Partner-Kontrolle:** Du siehst sofort, wenn deine Marke in einer KI-Empfehlung erscheint, aber deine bevorzugten Retail-Partner ("preferred retail partners") nicht genannt werden.
+### 2. Monitoring gesponserter Ads in KI-Antworten
+Antwortmaschinen monetarisieren ihre Oberflächen zunehmend über bezahlte Platzierungen (Sponsored Placements). Innerhalb der Textantworten tauchen gesponserte Produktkarten auf. Die AI Shopping Analysis erfasst diese Ads systematisch:
+* **Ad-Presence-Leaderboards:** Welche Mitbewerber buchen bezahlte Anzeigen für kaufrelevante Prompt-Cluster?
+* **Creative- & Link-Prüfung:** Das Tool sichert Belege der ausgespielten Werbemittel, Zielseiten und Preise zur Wettbewerbsanalyse.
 
-Diese "Shopping-native visibility" misst nur das, was für umsatzorientierte Suchanfragen wirklich zählt. Du definierst die E-Commerce-Prompts (z.B. "Wo kaufen", "Angebote vergleichen", "Bester Preis für") und das System liefert dir die Produkt- und Händler-Level-Daten für ChatGPT Shopping, Google AI Mode Shopping und Bing Copilot Shopping.
+### 3. Benchmarking im [Brand-Visibility-Dashboard](/glossar/brand-visibility-dashboard/)
+E-Commerce-Teams verknüpfen ihre Shopping-Daten mit übergeordneten Dashboards. So lassen sich Produktkategorien identifizieren, bei denen die eigene Marke im Vergleich zur Konkurrenz chronisch unterrepräsentiert ist. Dies bildet die Grundlage für gezielte [GEO-Optimierung](/glossar/geo-optimierung/).
 
-## Sponsored Ads: Der blinde Fleck im AI Commerce
+## Protokolle für den Agentic Commerce: UCP und ACP
 
-Eine der massivsten Veränderungen im AI Commerce ist die zunehmende Monetarisierung der generierten Antworten. AI Commerce Oberflächen (Surfaces) beginnen, bezahlte Werbeanzeigen (Paid Placements) in die organischen Produktempfehlungen einzumischen. Dies geschieht aktuell stark in ChatGPT, im Google AI Mode und in der Google AI Overview.
+Um den direkten Einkauf ohne Website-Besuch abzuwickeln, haben sich 2026 standardisierte Protokolle im E-Commerce etabliert:
 
-Wer diese Entwicklung nicht überwacht, hat einen kritischen blinden Fleck in seiner Performance-Marketing-Strategie. Die Rankscale Shopping Analysis bietet hierfür ein dediziertes Tracking für gesponserte Anzeigen ("Track sponsored ads in AI shopping answers").
+* **Universal Commerce Protocol (UCP):** Ein von führenden E-Commerce-Plattformen und Google initiierter offener Standard. UCP fungiert als gemeinsame semantische Schnittstelle zwischen autonomen KI-Agenten und Shop-Backends. Es regelt Produktentdeckung, Bestandsabfragen und den gesamten Fulfillment-Zyklus.
+* **Agentic Commerce Protocol (ACP):** Entwickelt für Instant-Checkout-Prozesse in konversationellen Interfaces wie ChatGPT. Käufer hinterlegen ihre Bezahlinformationen einmalig im KI-Account; der Kaufvertrag wird direkt im Chatfenster über abgesicherte APIs mit dem Händler geschlossen.
+* **Der Google Shopping Graph:** Mit über 60 Milliarden gelisteten Produkten gleicht Googles KI-Modell Produktverfügbarkeiten in Echtzeit ab. Händler, die ihre Produktdaten über den Google Merchant Center Feed mit 100% Attribut-Vollständigkeit ausliefern (Golden Records), werden bevorzugt in AI Overviews ausgespielt.
 
-### 1. Ad Presence Leaderboard (Wettbewerbsvergleich)
-Das Tool erfasst sogenannte Ad Cards (Werbekarten), die neben oder innerhalb der organischen KI-Empfehlungen ausgespielt werden. In einem zentralen Leaderboard (sortiert nach Zieldomain und Name des Werbetreibenden) kannst du deine eigenen Anzeigen direkt mit denen der Konkurrenz vergleichen. Du siehst genau, ob deine Kampagnen für die überwachten Shopping-Queries überhaupt ausgespielt werden und wer die restlichen Werbeplätze belegt.
+## Technische Implementierung: Lückenloses Schema.org Product-Markup
 
-### 2. Engine & Query Breakdown (Detailanalyse)
-Du kannst die Ad Placements präzise nach KI-Engine und nach der genauen Suchanfrage filtern. Ein täglicher "Appearance Trend" zeigt dir, welche generativen Oberflächen (Surfaces) und welche spezifischen Prompts im Laufe der Zeit die meiste gesponserte Sichtbarkeit generieren ("drive the most sponsored visibility over time"). So kannst du dein Werbebudget dort allokieren, wo der AI-Commerce-Traffic wirklich fließt.
+Damit generative Answer Engines und KI-Shopping-Agenten Produktdaten fehlerfrei auslesen können, sind [Strukturierte Daten](/glossar/strukturierte-daten/) im JSON-LD-Format unverzichtbar:
 
-### 3. Sample Ad Evidence (Beweissicherung)
-Rankscale sammelt "Sample ad listings", mit denen du das Branding, das Creative (Bilder/Texte) und die Ziel-URL (Destination) der ausgespielten Anzeige überprüfen kannst. Für die Qualitätssicherung (QA) und das Reporting an Stakeholder ist das Gold wert: Du kannst von der extrahierten Anzeige direkt zurück zum ursprünglichen Ausführungsprotokoll springen ("jump straight back to the original execution"). Das liefert absolut transparente, Stakeholder-fertige Beweise (Evidence).
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Premium Akku-Kaffeemühle Pro",
+  "image": "https://deinedomain.de/assets/kaffeemuehle.jpg",
+  "description": "Präzisionsmahlwerk mit 40 Mahlstufen und USB-C-Schnellladefunktion.",
+  "sku": "KM-2026-PRO",
+  "brand": {
+    "@type": "Brand",
+    "name": "DeineMarke"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://deinedomain.de/produkte/kaffeemuehle-pro/",
+    "priceCurrency": "EUR",
+    "price": "149.00",
+    "availability": "https://schema.org/InStock",
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "DE",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30
+    }
+  }
+}
+</script>
+```
 
-## Benchmarking und Competitive Intelligence
+## Die führenden Werkzeuge für E-Commerce-Teams
 
-Im E-Commerce zählt am Ende der Marktanteil. Die AI Shopping Analysis liefert tiefe "Competitive retail & ecommerce intelligence". Du nutzt exakt dieselben Prompts, Einstellungen und Zeitpläne (Schedules) wie für den Rest deiner Rankscale-[Brand-Visibility-Dashboards](/glossar/brand-visibility-dashboard/) und vergleichst deine Shopping-Sichtbarkeit direkt mit der Konkurrenz.
+* **[Rankscale](https://rankscale.ai/features/shopping-analysis?via=offer):** Spezialisiert auf agentische Commerce-Suchen mit tiefgreifender Erfassung von gesponserten Ads und detaillierter Zitationsanalyse über 17+ Sprachmodelle hinweg.  
+👉 **[Rankscale Shopping Analysis testen](https://rankscale.ai/features/shopping-analysis?via=offer)**
+* **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link):** Die etablierte All-in-One-Suite, mit der Händler klassische Google-Shopping-Positionen, Backlinks und KI-Sichtbarkeiten in einer einzigen Benutzeroberfläche verwalten.  
+👉 **[SE Ranking kostenlos ausprobieren](https://seranking.com/de/?ga=4169588&source=link)**
 
-Du erkennst sofort Marktlücken ("where there are gaps to close") und identifizierst Produktkategorien, in denen du in den AI-Shopping-Antworten derzeit chronisch unterrepräsentiert bist. Da Rankscale die Datenerhebung nach deinen konfigurierten Zeitplänen automatisiert ("runs on your schedule"), entfallen fehleranfällige manuelle Stichproben ("manual spot checks"). 
+## Die 3 häufigsten Fehler bei AI Shopping & Commerce
 
-Die Daten lassen sich nahtlos exportieren ("Stakeholder-ready context"), sodass sie perfekt in Strategie-Meetings, Verhandlungen mit Retailern oder ins Executive Reporting passen. Alle Abteilungen – Merchandising, Marktplatz-Management, E-Commerce und Brand – arbeiten auf Basis derselben "Single Source of Truth".
+In der E-Commerce-Praxis führen veraltete Prozesse regelmäßig zu massiven Absatzeinbußen:
 
-## Zusammenfassung: Umsatzsicherung in der Answer Engine
+1. **Unvollständige Attribut-Feeds im Merchant Center:** Sprachmodelle benötigen präzise Angaben zu Material, Maßen, Energieklassen und Rückgabebedingungen. Fehlen diese Attribute, wählt die KI stattdessen Produkte der Konkurrenz mit vollständigen Daten.
+2. **Vernachlässigung gesponserter KI-Formate:** Wer ausschließlich auf organische Empfehlungen setzt und bezahlte Ad-Cards in ChatGPT oder Google AI Mode ignoriert, verliert transaktionsbereite Kunden an aktive Mitbewerber.
+3. **Mangelhaftes [Technisches SEO](/glossar/technisches-seo/) im Shop-Frontend:** Wenn Produktseiten langsame Ladezeiten aufweisen oder keine maschinenlesbaren Schema-Daten bereitstellen, stufen KI-Crawler die Angebote als unzuverlässig ein.
 
-Wie Martina Orlandi, SEO & CRO Managerin, betont: *"Rankscale is a powerful way to understand how your brand is showing up - and why."* 
+## Überlegene Konversionsraten im Agentic Commerce
 
-Für E-Commerce-Unternehmen ist diese Analyse keine optionale Spielerei, sondern geschäftskritisch. Wer nicht weiß, ob seine Produkte in ChatGPT Shopping oder Google AI Overview gelistet sind, verliert den digital affinsten Teil seiner Käuferschaft. Durch die Kombination von organischem Shopping-Tracking und der Überwachung von Sponsored Ads erhältst du die volle Kontrolle über deine AI-Commerce-Performance.
+Daten aus aktuellen Benchmark-Analysen belegen, dass Besucher, die über generative Answer Engines und KI-Shopping-Empfehlungen in den Shop gelangen, signifikant besser konvertieren als klassischer organischer Such-Traffic:
 
-> [!TIP]
-> **Sichere deine E-Commerce Umsätze in KI-Suchen**
-> Wenn Nutzer ChatGPT nach Kaufempfehlungen fragen, muss dein Produkt (und dein Shop) an erster Stelle stehen. 
-> 👉 **[Jetzt Rankscale Shopping Analysis testen](https://rankscale.ai/features/shopping-analysis?via=offer)**
+* **Hohe Vorqualifizierung durch den Chatbot:** Da Sprachmodelle die Nutzeranforderungen (Größe, Budget, Präferenzen) vorab dialogisch klären, erhalten Nutzer nur Produkte vorgeschlagen, die exakt ihren Kriterien entsprechen. Dies senkt die Absprungrate im Shop drastisch.
+* **Bis zu 30% höhere Konversionsraten:** Weil die Vorab-Filterung durch den KI-Agenten erfolgt, liegt die Kaufbereitschaft bei Ankunft auf der Produktseite weit über dem Durchschnitt.
+* **Geringere Retourenquoten:** Präzise Attribut-Abgleiche im Vorfeld reduzieren Fehlkäufe und entlasten die Logistikkosten im Versandhandel spürbar.
+
+## Zukunftssichere Umsatzstrategie für den Handel
+
+Der Übergang vom klassischen Suchen und Klicken hin zum interaktiven Beraten und Kaufen über KI-Agenten ist in vollem Gange. Wer seine Produktdaten heute strukturiert für Sprachmodelle aufbereitet und seine Zitationsquoten kontinuierlich überwacht, sichert sich entscheidende Marktanteile im E-Commerce von morgen.
+
+<div class="my-8 p-6 bg-white rounded-2xl border border-gray-200 shadow-sm">
+  <div class="flex items-start gap-4">
+    <div class="w-16 h-16 rounded-full bg-lime-accent/20 flex items-center justify-center text-2xl flex-shrink-0">
+      💡
+    </div>
+    <div>
+      <h3 class="text-lg font-bold text-dark mb-1">Jörg Zimmer über AI Commerce & Shopping-Analysen</h3>
+      <p class="text-gray-600 text-sm italic mb-2">
+        „Käufer durchforsten nicht mehr zehn verschiedene Online-Shops, sondern lassen sich von ChatGPT oder Google AI Mode die drei besten Produkte empfehlen. Wenn dein Shop in diesen synthetisierten Empfehlungen fehlt, verlierst du den Verkauf, bevor der Kunde deine Domain überhaupt betreten hat.“
+      </p>
+      <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-lime-700 hover:underline inline-block">Jörg Zimmer auf LinkedIn folgen →</a>
+    </div>
+  </div>
+</div>
 
 <div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">🚀 Tracke deine Produkte in ChatGPT Shopping!</p>
-  <a href="https://rankscale.ai/features/shopping-analysis?via=offer" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Rankscale Shopping Tracking ausprobieren
+  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
+    Beitrag auf LinkedIn öffnen
   </a>
 </div>

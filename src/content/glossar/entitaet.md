@@ -71,7 +71,7 @@ Moderne Algorithmen scannen das Web nicht mehr nach zufälligen Zeichenketten (S
 
 ## Was eine Entität in der modernen Web-Architektur ausmacht
 
-Eine Entität (Entity) ist ein real existierendes oder abstraktes Objekt, das singulär, eindeutig definiert und von allen anderen Objekten im semantischen Netz unterscheidbar ist. Beispielsweise ist das Unternehmen „Teleschmiede“ eine Entität, die Person „Jörg Zimmer“ eine Entität und das Fachkonzept „Large Language Model Optimization“ eine weitere.
+Eine Entität (Entity) ist ein real existierendes oder abstraktes Objekt, das singulär, eindeutig definiert und von allen anderen Objekten im semantischen Netz unterscheidbar ist. Beispielsweise ist die Personenmarke „Jörg Zimmer“ eine Entität, die Domain „teleschmie.de“ eine Entität und das Fachkonzept „Large Language Model Optimization“ eine weitere.
 
 Im Gegensatz zur traditionellen SERP-Welt, in der Seiten für isolierte Phrasen rankten, bildet der Knowledge Graph ein Geflecht aus Knoten (Nodes) und gerichteten Beziehungen (Edges):
 - Ein Knoten repräsentiert das Subjekt oder Objekt (z. B. eine Organisation).

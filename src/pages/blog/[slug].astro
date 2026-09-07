@@ -8,7 +8,6 @@ import FAQAccordion from '../../components/FAQAccordion.astro';
 import ROICalculator from '../../components/ROICalculator.astro';
 import DownloadCard from '../../components/DownloadCard.astro';
 import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
-import logoImage from '../../assets/images/logo-teleschmiede.webp';
 import { getGitModDate } from '../../utils/git-date';
 import Schema from '../../components/Schema.astro';
 import RelatedLinks from '../../components/RelatedLinks.astro';
@@ -31,7 +30,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 // ==========================================
 // POST LOGIC
 // ==========================================
-let lastReviewed, Content, headings, logoWebp, postImageWebp, readingTime, relatedGlossaryTerms, tachelesQuote;
+let lastReviewed, Content, headings, postImageWebp, readingTime, relatedGlossaryTerms, tachelesQuote;
 
 if (type === 'post') {
   lastReviewed = getGitModDate(`src/content/blog/${post.id}`);
@@ -39,7 +38,6 @@ if (type === 'post') {
   Content = rendered.Content;
   headings = rendered.headings;
   
-  logoWebp = await getImage({ src: logoImage, format: 'webp' });
   if (post.data.image) {
     postImageWebp = await getImage({ src: post.data.image, format: 'webp' });
   }

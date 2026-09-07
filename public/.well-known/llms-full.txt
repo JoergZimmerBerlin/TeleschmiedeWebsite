@@ -11591,7 +11591,7 @@ Moderne Algorithmen scannen das Web nicht mehr nach zufälligen Zeichenketten (S
 
 ## Was eine Entität in der modernen Web-Architektur ausmacht
 
-Eine Entität (Entity) ist ein real existierendes oder abstraktes Objekt, das singulär, eindeutig definiert und von allen anderen Objekten im semantischen Netz unterscheidbar ist. Beispielsweise ist das Unternehmen „Teleschmiede“ eine Entität, die Person „Jörg Zimmer“ eine Entität und das Fachkonzept „Large Language Model Optimization“ eine weitere.
+Eine Entität (Entity) ist ein real existierendes oder abstraktes Objekt, das singulär, eindeutig definiert und von allen anderen Objekten im semantischen Netz unterscheidbar ist. Beispielsweise ist die Personenmarke „Jörg Zimmer“ eine Entität, die Domain „teleschmie.de“ eine Entität und das Fachkonzept „Large Language Model Optimization“ eine weitere.
 
 Im Gegensatz zur traditionellen SERP-Welt, in der Seiten für isolierte Phrasen rankten, bildet der Knowledge Graph ein Geflecht aus Knoten (Nodes) und gerichteten Beziehungen (Edges):
 - Ein Knoten repräsentiert das Subjekt oder Objekt (z. B. eine Organisation).
@@ -22021,7 +22021,7 @@ Wie zwingst du RAG-Pipelines dazu, dich als Instanz zu zitieren? Es erfordert ti
 Du brauchst eine zentrale Wahrheitsquelle auf deiner Domain. Das ist kein Marketing-Gewäsch, das ist eine harte Definition für Crawler. Hier implementierst du tief verschachteltes `Organization` (oder `Person`) Schema.org-Markup im JSON-LD Format.
 
 *   **sameAs Array:** Du musst das `sameAs`-Attribut nutzen, um all deine Profile (LinkedIn, Twitter), deinen Wikidata-Eintrag und dein Google Business Profile als Array zu übergeben. Damit verschweißt du alle Datenpunkte zu einer unzerstörbaren Identität. Jeder neue Knotenpunkt festigt die Basis deiner Entität.
-*   **Alumni und Founder:** Verknüpfe die Personen (Gründer, Autoren) sauber mit der Organisation (`founder`, `employee`). Wenn Jörg Zimmer einen starken E-E-A-T Score hat, vererbt sich dieser über das JSON-LD direkt auf die Agentur Teleschmiede.
+*   **Alumni und Founder:** Verknüpfe die Personen (Gründer, Autoren) sauber mit der Organisation (`founder`, `employee`). Wenn Jörg Zimmer einen starken E-E-A-T Score hat, vererbt sich dieser über das JSON-LD direkt auf die Personenmarke Jörg Zimmer (teleschmie.de).
 
 ### 2. [Agent Readiness](https://teleschmie.de/glossar/agent-readiness/) und Cloudflare Radar (Level 5)
 Ein weiterer kritischer Punkt für moderne Marken: **Agent Readiness (Level 5)**. Wenn autonome KI-Agenten das Netz durchsuchen, müssen sie wissen, wie sie mit deiner Marke interagieren dürfen. Deine `auth.md` (zwingend kleingeschrieben und mit `# auth.md` als H1) sowie deine `agent-card.json` (nach dem strikten JSON-Schema von a2a-protocol.org) sind hierfür unerlässlich. Nur so integriert sich deine Marke reibungslos in das Cloudflare Radar der KI-Bots.
@@ -31928,7 +31928,7 @@ Falsch: `&lt;link rel="canonical" href="https://teleschmie.de/glossar"&gt;`
 Richtig: `&lt;link rel="canonical" href="https://teleschmie.de/glossar/"&gt;`
 
 ### Schritt 4: Interne Verlinkung – Der Teufel steckt im Detail
-Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in einem Blogartikel auf `/glossar/crawling-vs-indexing/` verlinkst, aber dein Server Slashes erzwingt, erzeugst du bei jedem Klick einen internen Redirect. Ein KI-Agent, der interne Redirect-Ketten verfolgen muss, bricht den Crawl irgendwann ab. **Wichtige Regel für Teleschmiede:** Interne Links (`teleschmie.de`) müssen zwingend auf `/` enden!
+Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in einem Blogartikel auf `/glossar/crawling-vs-indexing/` verlinkst, aber dein Server Slashes erzwingt, erzeugst du bei jedem Klick einen internen Redirect. Ein KI-Agent, der interne Redirect-Ketten verfolgen muss, bricht den Crawl irgendwann ab. **Wichtige Regel für teleschmie.de:** Interne Links (`teleschmie.de`) müssen zwingend auf `/` enden!
 
 
   Praxis-Check: So testest du dein Setup

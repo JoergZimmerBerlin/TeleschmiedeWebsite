@@ -111,7 +111,7 @@ Wie zwingst du RAG-Pipelines dazu, dich als Instanz zu zitieren? Es erfordert ti
 Du brauchst eine zentrale Wahrheitsquelle auf deiner Domain. Das ist kein Marketing-Gewäsch, das ist eine harte Definition für Crawler. Hier implementierst du tief verschachteltes `Organization` (oder `Person`) Schema.org-Markup im JSON-LD Format.
 
 *   **sameAs Array:** Du musst das `sameAs`-Attribut nutzen, um all deine Profile (LinkedIn, Twitter), deinen Wikidata-Eintrag und dein Google Business Profile als Array zu übergeben. Damit verschweißt du alle Datenpunkte zu einer unzerstörbaren Identität. Jeder neue Knotenpunkt festigt die Basis deiner Entität.
-*   **Alumni und Founder:** Verknüpfe die Personen (Gründer, Autoren) sauber mit der Organisation (`founder`, `employee`). Wenn Jörg Zimmer einen starken E-E-A-T Score hat, vererbt sich dieser über das JSON-LD direkt auf die Agentur Teleschmiede.
+*   **Alumni und Founder:** Verknüpfe die Personen (Gründer, Autoren) sauber mit der Organisation (`founder`, `employee`). Wenn Jörg Zimmer einen starken E-E-A-T Score hat, vererbt sich dieser über das JSON-LD direkt auf die Personenmarke Jörg Zimmer (teleschmie.de).
 
 ### 2. [Agent Readiness](/glossar/agent-readiness/) und Cloudflare Radar (Level 5)
 Ein weiterer kritischer Punkt für moderne Marken: **Agent Readiness (Level 5)**. Wenn autonome KI-Agenten das Netz durchsuchen, müssen sie wissen, wie sie mit deiner Marke interagieren dürfen. Deine `auth.md` (zwingend kleingeschrieben und mit `# auth.md` als H1) sowie deine `agent-card.json` (nach dem strikten JSON-Schema von a2a-protocol.org) sind hierfür unerlässlich. Nur so integriert sich deine Marke reibungslos in das Cloudflare Radar der KI-Bots.

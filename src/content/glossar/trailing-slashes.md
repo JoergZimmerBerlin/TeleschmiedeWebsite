@@ -131,7 +131,7 @@ Falsch: `&lt;link rel="canonical" href="https://teleschmie.de/glossar"&gt;`
 Richtig: `&lt;link rel="canonical" href="https://teleschmie.de/glossar/"&gt;`
 
 ### Schritt 4: Interne Verlinkung – Der Teufel steckt im Detail
-Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in einem Blogartikel auf `/glossar/crawling-vs-indexing/` verlinkst, aber dein Server Slashes erzwingt, erzeugst du bei jedem Klick einen internen Redirect. Ein KI-Agent, der interne Redirect-Ketten verfolgen muss, bricht den Crawl irgendwann ab. **Wichtige Regel für Teleschmiede:** Interne Links (`teleschmie.de`) müssen zwingend auf `/` enden!
+Du musst jeden einzelnen internen Link auf deiner Website anpassen. Wenn du in einem Blogartikel auf `/glossar/crawling-vs-indexing/` verlinkst, aber dein Server Slashes erzwingt, erzeugst du bei jedem Klick einen internen Redirect. Ein KI-Agent, der interne Redirect-Ketten verfolgen muss, bricht den Crawl irgendwann ab. **Wichtige Regel für teleschmie.de:** Interne Links (`teleschmie.de`) müssen zwingend auf `/` enden!
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Praxis-Check: So testest du dein Setup</h4>

@@ -20,32 +20,39 @@ faqs:
     answer: "Weil die Optimierung des gesamten digitalen Fußabdrucks (Branding, PR, Third-Party-Plattformen) extrem aufwendig ist. Endlich gibt es durch das Label 'GEO' den Hebel, um Budgets für Maßnahmen freizumachen, die früher stiefmütterlich behandelt wurden."
 ---
 
-Moin! 🌻
-
-*Diese Diskussion wurde von mir auf LinkedIn am 23.07.2026 gestartet:*
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <div class="italic text-dark mb-0">
-  <p>Wer als SEO dieses GEO so nebenbei mitmacht ist nicht viel besser als die Webdesigner die SEO so nebenbei mitmachen.</p>
-  <p>Jetzt hate mich doch nicht dafür. Wenn es dich schmerzt hab ich vielleicht Recht.</p>
-  <p>Wenn du GEO auch ohne Website betreiben kannst wie kann es dann SEO heißen?</p>
-  <p>Es ist eine eigene Disziplin:<br>
-  👉 viel größer als reines SEO<br>
-  👉 neue Metriken, neue Protokolle<br>
-  👉 neue Tools, neue Methoden, neues Budget</p>
-  <p>Jetzt sträub dich doch nicht dagegen. Die Tür zum Markenbudget ist gerade für dich auf. Du wolltest immer den gesamten digitalen Fußabdruck optimieren? Alle Entitäten, alle Kanäle und all die Sachen die außerhalb der eigenen Website für gutes SEO zuständig sind? Dann ist das deine Chance.</p>
-  <p>Erkunde dieses GEO aus technischer, inhaltlicher und strategischer Sicht und du wirst folgendes feststellen:<br>
-  👉 viel größer als reines SEO<br>
-  👉 neue Metriken, neue Protokolle<br>
-  👉 neue Tools, neue Methoden, neues Budget</p>
-  <p>Du könntest jetzt sagen "wir SEOs mussten uns schon immer updaten". Ok. Richtig. 8-12 Google Core Updates pro Jahr ist ein hartes Pensum. Nur diesmal optimieren wir vielleicht nicht die menschliche Nutzererfahrung, sondern die agentische Nutzererfahrung. Das ist ein ganz neuer Kunde und Denkansatz.</p>
-  <p>Menschen SEO ist die Basis und die Hausaufgaben daraus sind als aller erstes zu tun. Ja, da bin ich bei dir. Agentic SEO ist der Baustein und eine eigene große Disziplin obendrauf. Nebenbei mitmachen ist halt wie der Webdesigner ohne jegliches SEO Verständnis.</p>
-  <p>Habe fertig.</p>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
   </div>
-</div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer als SEO dieses GEO so nebenbei mitmacht, ist nicht viel besser als die Webdesigner, die SEO so nebenbei mitgemacht haben. GEO ist eine eigene Disziplin: viel größer als reines SEO, mit neuen Metriken, neuen Protokollen und neuem Markenbudget.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
-Es ist der Elefant im Raum der Suchmaschinenoptimierung: Wie gehen wir mit der Welle der **Generative Engine Optimization (GEO)** um? 
+*Diese Diskussion habe ich im Sommer 2026 auf LinkedIn angestoßen:*
+
+> Wer als SEO dieses GEO so nebenbei mitmacht, ist nicht viel besser als die Webdesigner, die SEO so nebenbei mitmachen. Wenn du GEO auch ohne Website betreiben kannst, wie kann es dann SEO heißen?
+>
+> Es ist eine eigene Disziplin: viel größer als reines SEO, neue Metriken, neue Protokolle, neue Tools, neue Methoden und neues Budget. Diesmal optimieren wir nicht nur die menschliche Nutzererfahrung, sondern die agentische Nutzererfahrung. Menschen-SEO ist die Basis. Agentic SEO ist die eigene große Disziplin obendrauf.
+
+Es ist der Elefant im Raum der Suchmaschinenoptimierung: Wie gehen wir mit der Welle der [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) um? 
 
 Viele SEOs wehren sich gegen den Begriff und degradieren ihn zum Buzzword. Michael Schöttler fand in den Kommentaren klare Worte dazu:
 
@@ -79,7 +86,7 @@ Aber was genau gehört zu diesem technischen "GEO-Unterbau"? Thomas Klaschka lie
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Thomas Klaschka (LinkedIn Kommentar)</p>
   <div class="italic text-dark mb-0">
-    <p>Bei GEO denke ich während Website-Entwicklung und SEO-Betreuung vorrangig an technische GEO. Zum technischen SEO-Unterbau implementiere ich für KI-Bots parallel dazu: - llms.txt als KI-Version der sitemap.xml – plus Enrichments zu Personen, Unternehmen, ... - Markdown-Mirrors als maschinenlesbare Kopien zumindest der Money-Pages - Grounding-Pages als um Marketing-BlaBla bereinigte Faktenseiten. Dazu akribisches Schema-Markup.</p>
+    <p>Bei GEO denke ich während Website-Entwicklung und SEO-Betreuung vorrangig an technische GEO. Zum technischen SEO-Unterbau implementiere ich für KI-Bots parallel dazu: - llms.txt als KI-Version der sitemap.xml – plus Enrichments zu Personen, Unternehmen, ... - Markdown-Mirrors als maschinenlesbare Kopien zumindest der Money-Pages - [Grounding Pages](/blog/grounding-page-generator-ai-seo/) als um Marketing-BlaBla bereinigte Faktenseiten. Dazu akribisches [Technisches Schema-Markup](/glossar/technisches-schema-markup/).</p>
   </div>
 </div>
 
@@ -94,11 +101,28 @@ Martin Pickert fasste den Scope von GEO am Ende grandios zusammen:
   </div>
 </div>
 
-Lasst uns diese Chance nutzen, anstatt krampfhaft an den Begriffen von gestern festzuhalten.
+### Tacheles am Ende
 
-ALOHA! 🌻✌️
+Lasst uns diese Chance nutzen, anstatt krampfhaft an den Begriffen von gestern festzuhalten. Wer GEO ernst nimmt, versteht es als ganzheitliche Unternehmenskommunikation und sichert sich heute die Marktanteile in der agentischen Suche von morgen.
 
-<div class="blog-cta-box">
-  <h3>💬 Jetzt an der Diskussion teilnehmen!</h3>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3" target="_blank" rel="noopener noreferrer">Beitrag auf LinkedIn öffnen</a>
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
+
+---
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
+* **Lese-Tipp:** [KI-Sichtbarkeit messen: Der ultimative Guide](/glossar/ki-sichtbarkeit-messen-optimieren/)
+* **Lese-Tipp:** [Cloudflare Agent Readiness Scan: Technischer Check für KI-Crawler](/blog/cloudflare-agent-readiness-scan/)

@@ -25,11 +25,35 @@ related_posts:
   - "core-web-vitals-ux-bericht"
 ---
 
-Moin! 🌻
-
 Seit über 25 Jahren bin ich jetzt im Geschäft. Ich habe den Aufstieg von Google miterlebt, den Untergang von Altavista und die wilden Zeiten, als man mit weißem Text auf weißem Hintergrund noch Rankings "ergaunern" konnte. Wenn ich mir heute die SEO-Landschaft ansehe, fühle ich mich oft wie ein Statiker, der einen modernen Wolkenkratzer begutachtet, während die Bewohner im Keller noch mit Kerzenlicht nach Keywords suchen.
 
 Lass uns Tacheles reden: **Die Ära des klassischen Keyword-Bashings ist vorbei.** Wer heute noch versucht, mit "10 Tipps für [Keyword]" auf Seite 1 zu kommen, hat den Knall nicht gehört. Wir befinden uns mitten im größten Shift seit der Erfindung des PageRank-Algorithmus. Willkommen in der Welt von [**Generative Engine Optimization (GEO)**](/glossar/geo/).
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „GEO ist keine Textaufgabe für den Praktikanten, sondern eine strategische Kernentscheidung. Wer heute seine Marke nicht glasklar und konsistent im Gedächtnis der LLMs verankert, wird von generativen KIs gnadenlos aussortiert.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ![GEO-Pyramide](../../assets/images/blog/blog-geo-pyramide-3d.png)
 
@@ -218,7 +242,7 @@ Dein Content muss so aufgebaut sein, dass er die **Lücke zwischen Nutzerproblem
 Jetzt haben wir genug philosophiert. Zeit für Taten. Hier sind die 5 Schritte, die du HEUTE einleiten musst, wenn du morgen noch stattfinden willst:
 
 1. **Identifiziere deine Top 20 Prompts:** Frag deinen Vertrieb, frag deinen Support. Was sind die 20 brennendsten Fragen deiner Kunden? Erstelle Content, der EXAKT diese Fragen beantwortet – ohne Umwege. Das ist dein Grundgerüst.
-2. **Baue deine [Groundingpage](/glossar/grounding-page/):** Mach sie zur ultimativen Quelle der Wahrheit für deine Marke. Nutze das oben gezeigte Blueprint. Das ist dein digitaler Anker gegen KI-Lügen. Je technischer und präziser, desto besser. (Ich habe dieses Konzept übernommen, weil es die einzige Versicherung gegen Halluzinationen ist).
+2. **Baue deine Groundingpage:** Mach sie zur ultimativen Quelle der Wahrheit für deine Marke. Nutze das oben gezeigte Blueprint. Das ist dein digitaler Anker gegen KI-Lügen. Je technischer und präziser, desto besser. (Ich habe dieses Konzept übernommen, weil es die einzige Versicherung gegen Halluzinationen ist).
 3. **LinkedIn-Autorität stärken:** Hör auf, nur Links zu posten. Nutze LinkedIn als Forum, um Expertise zu zeigen, die die KIs abgreifen können. Das ist dein "Social Proof" für die Algorithmen. Interaktion ist die Währung der Sichtbarkeit.
 4. **Media-Ecosystem Audit:** Wo tauchst du extern auf? Besorge dir Gastbeiträge in Nischen-Medien. KIs lieben Zitate aus unabhängigen Quellen. Diversifiziere deine digitale Präsenz über deine eigene Domain hinaus.
 5. **Teste deine AI-Visibility:** Frag die gängigen KIs aktiv nach deinem Thema. Wer wird empfohlen? Warum nicht du? Nutze einen professionellen <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">GEO-Audit via Rankscale</a>, um deine Sichtbarkeit professionell zu messen und zu tracken. Nur wer seine Daten kennt, kann seine KI-Strategie gezielt steuern. Ohne Daten bleibt GEO nur Raten.
@@ -239,7 +263,7 @@ SEO muss Umsatz treiben. Punkt. Wenn die KI dem Nutzer sagt: "Kauf bei Jörg Zim
 
 ---
 
-## Habe fertig. 🌻✌️
+### Tacheles am Ende
 
 GEO ist kein Trend. Es ist die größte Bereinigung des Internets, die wir je gesehen haben. Der Müll, der generische Content und die billigen SEO-Tricks werden von den KIs aussortiert. Was bleibt, ist Substanz. Es ist die Rückkehr zur Qualität, aber auf einem technischen Level, das wir so noch nicht kannten.
 
@@ -247,4 +271,24 @@ Wenn du 2026 noch sichergehen willst, dass dein Unternehmen in den Köpfen (und 
 
 Vergiss nicht: KI-Sicherheit ist Chefsache. Wer seine Strategie dem Zufall überlässt, wird von Modellen "halluziniert", die keine Ahnung haben, wer er ist. Sei die Quelle, nicht die Fußnote.
 
-ALOHA! 🌻✌️
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+---
+
+### Weiterführende Artikel
+* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
+* **Lese-Tipp:** [Grounding Page Generator: AI-SEO Fakten verankern](/blog/grounding-page-generator-ai-seo/)
+* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)

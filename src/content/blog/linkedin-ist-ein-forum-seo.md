@@ -8,14 +8,19 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/linkedin-forum-original.webp"
 image_alt: "Jörg Zimmer beim SEO Stammtisch Berlin - Vortrag über LinkedIn als Forum"
 category: "Events & Networking"
-tags: []
+tags: ["LinkedIn", "Personal Branding", "Networking"]
 key_takeaways:
   - "Dein LinkedIn-Profil ist deine Domain: Optimiere es wie eine Landingpage auf Conversions (Profilaufrufe), nicht auf Likes."
   - "LinkedIn ist ein Forum: Kommentare und echte Diskussionen sind der stärkste Hebel für algorithmische Reichweite."
   - "Der Algorithmus testet in Tieren: Wer bei den ersten 100 Interaktionen überzeugt, schaltet die 1.000er und 10.000er Reichweite frei."
+faqs:
+  - question: "Warum sollte man LinkedIn wie ein Forum behandeln?"
+    answer: "Weil der LinkedIn-Algorithmus aktive Interaktion und Diskussionen über reine Broadcast-Posts stellt. Wer hochwertige Fachkommentare verfasst und Debatten anstößt, erzielt nachweislich mehr organische Sichtbarkeit und qualifizierte Profilaufrufe als mit reiner Einweg-Kommunikation."
+  - question: "Wie optimiert man ein LinkedIn-Profil wie eine Landingpage?"
+    answer: "Ein Profil sollte einen glasklaren Nutzen im Header-Slogan kommunizieren, ein authentisches Porträtbild nutzen und über eine prägnante Leistungsübersicht mit klarem Call-to-Action verfügen. Es geht darum, aus Profilbesuchern direkte Anfragen zu generieren."
+  - question: "Welche Rolle spielen Kommentare für den LinkedIn-Algorithmus?"
+    answer: "Kommentare signalisieren dem Algorithmus Verweildauer und Relevanz. Beiträge mit frühen, tiefgehenden Diskussionen werden von LinkedIn in höhere Reichweiten-Tiers (von 100 über 1.000 bis 10.000+ Kontakte) eingestuft und im Feed priorisiert."
 ---
-
-Moin! 🌻
 
 Letzte Woche auf dem SEO Stammtisch Berlin (Grüße an Carsten Appel!) habe ich einen Vortrag gehalten, der bei vielen für große Augen gesorgt hat. Die Kern-These: **Hört auf, LinkedIn wie Instagram oder TikTok zu behandeln. LinkedIn ist ein verfluchtes Forum.** Und wir SEOs sollten anfangen, es genau so zu nutzen.
 
@@ -23,23 +28,44 @@ Wer LinkedIn wie Google SEO begreift, gewinnt das Spiel. Wer hier nur "Social Me
 
 Lass uns mal Tacheles reden. Warum verpuffen inhaltlich geniale SEO-Beiträge oft im digitalen Nirvana, während andere mit Halbwissen hunderte Kommentare einsammeln? Weil die meisten das System nicht verstanden haben. Hier sind die Learnings aus dem Vortrag und – was noch viel wertvoller ist – aus der fetten Diskussion danach in den Kommentaren.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Dein Profil ist keine Visitenkarte fürs Ego. Es ist deine wichtigste Landingpage. Optimiere sie auf Conversions, nicht auf Likes."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Dein LinkedIn-Profil ist keine Visitenkarte fürs Ego, sondern deine wichtigste Landingpage. Optimiere sie auf qualifizierte Leads und klare Positionierung – Likes allein zahlen am Monatsende keine Miete.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Dein Name ist die Domain, dein Profil die Landingpage
 
 Im klassischen SEO optimieren wir Domains. Auf LinkedIn bist **du** die Domain. Sobald jemand deinen Namen sieht, beginnt der Search-Prozess.
 
-Dein Profil ist keine schnöde digitale Visitenkarte und erst recht kein Lebenslauf. Es ist eine harte Landingpage. Und was ist das einzige Ziel einer Landingpage? Conversion. Auf LinkedIn bedeutet das: Relevante Profilaufrufe, die zu ernsthaften Kontaktaufnahmen oder Aufträgen führen. 
+Dein Profil ist keine schnöde digitale Visitenkarte und erst recht kein Lebenslauf. Es ist eine harte Landingpage. Und was ist das einzige Ziel einer Landingpage? Conversion. Auf LinkedIn bedeutet das: Relevante Profilaufrufe, die zu ernsthaften Kontaktaufnahmen oder Aufträgen führen. Wer sich strategisch vom austauschbaren Dienstleister abhebt (wie wir es auch unter [Digitaler Unternehmensberater statt SEO](/blog/digitaler-unternehmensberater-statt-seo/) betonen), begreift sein Profil als zentrale Konversionsdrehscheibe.
 
 > [!IMPORTANT]
 > Vergiss die Likes. Likes zahlen keine Miete und finanzieren dir keinen Urlaub. Ein sauber auf Conversions optimiertes Profil macht aus einem stummen Mitleser einen Kunden. Punkt.
 
 ## LinkedIn SEO vs. Google SEO: Die Technik dahinter
 
-Wer das Prinzip "Forum" einmal gefressen hat, kann sein gesamtes SEO-Wissen 1-zu-1 auf LinkedIn übertragen. Nur dass wir hier nicht nach Keywords crawlen, sondern nach Resonanz.
+Wer das Prinzip "Forum" einmal gefressen hat, kann sein gesamtes SEO-Wissen 1-zu-1 auf LinkedIn übertragen. Nur dass wir hier nicht nach Keywords crawlen, sondern nach Resonanz. Genau wie bei der modernen [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) belohnen die Systeme fundierte Fakten, Verlässlichkeit und klare thematische Entitäten.
 
 ![Vergleichstabelle: LinkedIn SEO vs. Google SEO](../../assets/images/blog/linkedin-vs-google-seo.webp)
 
@@ -50,7 +76,7 @@ Exakt das! Es geht nicht darum, den hundertsten Beitrag über "Die 5 besten SEO-
 
 ## Der Algorithmus: Der harte Weg von 100 zu 1.000
 
-Wie entscheidet LinkedIn, wer in den Feed gespült wird und wer stirbt? Das ist keine Magie, sondern ein gnadenloser, mehrstufiger Algorithmus-Kreislauf.
+Wie entscheidet LinkedIn, wer in den Feed gespült wird und wer stirbt? Das ist keine Magie, sondern ein gnadenloser, mehrstufiger Algorithmus-Kreislauf. In unseren Live-Analysen in der [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) sehen wir immer wieder dasselbe Phänomen: Wer nicht aktiv Signale liefert, bleibt unsichtbar.
 
 ![Visualisierung: Der LinkedIn Algorithmus-Kreislauf](../../assets/images/blog/linkedin-algo-tiers.webp)
 
@@ -85,18 +111,28 @@ Und er hat Recht. Echte Menschenbilder sind der stärkste Scroll-Stopper, den du
 Wir sitzen oft still in unserer Tech-Bubble und ärgern uns, dass andere mit Halbwissen die Budgets abräumen. **Nadine McNulty** hat den Nagel auf den Kopf getroffen:
 > *"Als SEOs sind wir von Natur aus nicht die größten Marktschreier, dürfen aber lauter sein auf LinkedIn."*
 
-Genau das ist es. Wir haben das Wissen, wir haben die Technik – wir müssen es nur auf die Straße (oder besser: in den Feed) bringen. Nutzt LinkedIn als Forum. Geht in die Diskussionen. Streitet euch, teilt euer Wissen, baut E-E-A-T auf. 
+Genau das ist es. Wir haben das Wissen, wir haben die Technik – wir müssen es nur auf die Straße (oder besser: in den Feed) bringen. Nutzt LinkedIn als Forum. Geht in die Diskussionen. Streitet euch, teilt euer Wissen, baut E-E-A-T auf. Warum wir uns diese Sichtbarkeit nicht nehmen lassen dürfen, beschreibe ich auch im Artikel [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/).
 
 Wie ich beim Stammtisch sagte: **Jeder für sich, aber am Ende alle zusammen.** Je mehr wir uns gegenseitig pushen und echte, tiefe Diskussionen führen, desto sichtbarer wird die gesamte echte SEO-Bubble. Keine Einzelkämpfer-Shows mehr.
 
-ALOHA! 🌻✌️
-
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h4 class="text-xl font-bold mb-4">Du willst die Live-Diskussion sehen?</h4>
-  <p class="text-gray-muted mb-6">Diesen Artikel habe ich basierend auf einem sehr lebhaften LinkedIn-Post erstellt. Wenn du wissen willst, was die Branche aktuell darüber denkt, schau dir die über 34 Kommentare direkt bei LinkedIn an.</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Zur LinkedIn Diskussion</a>
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_linkedin-ist-ein-forum-und-wir-seo-spezialisten-activity-7390004973389942785-T_MR" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
+
+---
 
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Wenn AI-Agenten deinen LinkedIn-Feed kapern](/blog/ai-agent-weihnachtsgruesse-linkedin/)
-* **Lese-Tipp:** [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/)
+* **Lese-Tipp:** [Freelancer-Team auf der OMR Hamburg](/blog/freelancer-team-omr-hamburg/)
+

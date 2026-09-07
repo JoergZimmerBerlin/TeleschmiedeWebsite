@@ -27,10 +27,31 @@ Die neue, viel existenziellere Frage lautet: Wird deine Marke in diesen generati
 
 Aus diesem Grund habe ich den Markt für euch sondiert. Ergänzend zu meinem [Praxis-Testbericht zu AI Search & Prompt Tracking](/blog/beste-seo-tools-ai-search-prompt-tracking/) findest du hier die aggregierte Marktübersicht der **Top 9 AI Visibility & Tracking Tools** im direkten Head-to-Head.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs Praxiserfahrung als Freelancer</p>
-  <div class="italic text-dark mb-0"><p>In Kundenprojekten sehe ich immer wieder denselben Fehler: Unternehmen abonnieren ein teures Spezial-Tool für 150 €/Monat, bevor sie überhaupt ihre technischen Hausaufgaben gelöst haben. Mein Rat: Wer noch keine All-in-One Suite nutzt, holt sich zuerst ein Tool mit integriertem AI-Tracker (wie SE Ranking). Wer bereits Top-Rankings hat und gezielt Markennennungen in 17+ Modellen steuern will, greift zusätzlich zu Rankscale. Alle Tool-Preise kannst du übrigens live in meinem <a href="/tools/seo-tool-kostenrechner/" class="font-bold text-dark underline hover:text-lime-600">SEO-Tool Kostenrechner</a> gegenrechnen.</p></div>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer noch keine All-in-One Suite nutzt, holt sich zuerst ein Tool mit integriertem AI-Tracker wie SE Ranking. Wer bereits Top-Rankings hat und gezielt Markennennungen in 17+ Modellen steuern will, greift zusätzlich zu Rankscale.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Die Top 9 AI Visibility Tools im Direktvergleich
 
@@ -81,31 +102,31 @@ Das deutsche Startup aus Gaildorf wählt einen hochtechnischen Ansatz. Finseo gl
 
 Sistrix, der Erfinder des Sichtbarkeitsindex, hat sich klug positioniert. Anstatt teure Zusatzmodule zu verkaufen, integrieren die Bonner ihre neuen AI-Features (Google AI Overviews Tracking, AI Mentions und Source Citations) **ohne Aufpreis** in die regulären SEO-Pläne (ab 119 Euro). Perfekt für alle Agenturen, die ohnehin auf Sistrix schwören und ihr Reporting nun um KI-Metriken anreichern müssen.
 
-👉 **[Deep-Dive: Sistrix AI Übersicht](/glossar/sistrix-ai/)**
+👉 <a href="/glossar/sistrix-ai/" class="font-bold text-dark hover:underline">Deep-Dive: Sistrix AI Übersicht →</a>
 
 ## 6. Otterly AI: Der Crawlability-Experte
 
 Ein weiteres spannendes Tool aus Österreich. Otterly AI legt seinen Fokus stark auf die technische Erreichbarkeit deiner Inhalte für KIs (Crawlability). Wenn deine Inhalte von den RAG-Systemen (Retrieval-Augmented Generation) der Sprachmodelle nicht sauber ausgelesen werden können, hilft dir das beste SEO nichts. Otterly deckt genau diese technischen Lücken schonungslos auf.
 
-👉 **[Deep-Dive: Otterly AI Übersicht](/glossar/otterly-ai/)**
+👉 <a href="/glossar/otterly-ai/" class="font-bold text-dark hover:underline">Deep-Dive: Otterly AI Übersicht →</a>
 
 ## 7. Peec AI: Prompt Monitoring aus Berlin
 
 Peec AI aus Berlin hat verstanden, dass User in KIs keine plumpen Keywords mehr eingeben. Das Tool fokussiert sich massiv auf **Prompt Monitoring**. Du hinterlegst komplexe, stark ausformulierte Suchanfragen (Prompts) und das System überwacht kontinuierlich, ob deine Marke in den fließenden Antworten von ChatGPT und Co. als Lösungsträger zitiert wird.
 
-👉 **[Deep-Dive: Peec AI Übersicht](/glossar/peec-ai/)**
+👉 <a href="/glossar/peec-ai/" class="font-bold text-dark hover:underline">Deep-Dive: Peec AI Übersicht →</a>
 
 ## 8. Bing Webmaster Tools: Der Copilot-Einblick
 
 Microsofts Webmaster Tools werden oft belächelt, doch sie bieten einen massiven, kostenlosen Vorteil: Im Reporting-Dashboard findest du dedizierte Metriken, wie oft deine Seite im Microsoft Copilot (ehemals Bing Chat) als Quelle zitiert wurde und wie viele Klicks daraus resultierten. Ein absolutes Muss für jedes Basis-Setup.
 
-👉 **[Deep-Dive: Bing Webmaster Tools](/glossar/bing-webmastertools/)**
+👉 <a href="/glossar/bing-webmastertools/" class="font-bold text-dark hover:underline">Deep-Dive: Bing Webmaster Tools →</a>
 
 ## 9. Google Search Console: Generative Reports
 
 Auf dem letzten Platz, aber dennoch unverzichtbar, landet die klassische Google Search Console. Google integriert langsam, aber sicher spezielle Filter für seine "AI Overviews". Zwar sind die Daten bei Weitem nicht so tiefgreifend und granular wie bei Spezial-Tools, aber es ist der offizielle Datenstrom direkt aus dem Mountain View Hauptquartier – und er kostet keinen Cent.
 
-👉 **[Deep-Dive: Google Search Console](/glossar/google-search-console/)**
+👉 <a href="/glossar/google-search-console/" class="font-bold text-dark hover:underline">Deep-Dive: Google Search Console →</a>
 
 ---
 
@@ -118,9 +139,17 @@ Wenn du auf der Suche nach einer potenten **All-in-One Kompaktlösung** bist, be
 
 Bist du jedoch ein **absoluter Spezialist**, eine PR-Agentur oder eine Enterprise-Marke, für die klassisches SEO bereits abgehakt ist, und du willst zu 100 % in die Tiefe der generativen Sprachmodelle (LLMs) eintauchen? Dann kommst du an **[Rankscale](https://rankscale.ai/?via=offer)** *(Affiliate)* nicht vorbei. Die Sentiment-Analyse über mehr als 17 verschiedene Modelle hinweg ist der aktuell schärfste Kompass im Blindflug der KI-Sichtbarkeit.
 
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über die Top 9 AI Visibility Tools.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>

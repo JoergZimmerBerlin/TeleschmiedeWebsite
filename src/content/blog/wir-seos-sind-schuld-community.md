@@ -8,7 +8,7 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/pages/hero-pose.webp"
 image_alt: "Jörg Zimmer vor einer Hecke in Aktion - Warum SEOs Verantwortung übernehmen müssen"
 category: "SEO Praxis"
-tags: []
+tags: ["SEO Praxis", "Community", "E-E-A-T"]
 key_takeaways:
   - "SEO-Basics (Title, H-Struktur, Sitemaps) sind oft kein Standard, weil wir als Experten den Wert unserer Arbeit nicht laut genug verkaufen."
   - "Die Verantwortung liegt bei uns: Wir müssen SEO als fundamentalen Prozess etablieren, nicht als lästiges Extra am Ende der Kette."
@@ -22,8 +22,6 @@ faqs:
     answer: "Indem du SEO als Fundament verkaufst. SEO muss Teil der Design-Phase sein. Ein Relaunch ohne SEO-Begleitung ist ein strategischer Fehler, den man sich heute nicht mehr leisten kann."
 ---
 
-Moin! 🌻
-
 Wir müssen reden. Und zwar Tacheles. Ich habe neulich auf LinkedIn einen Beitrag abgesetzt, der eine Menge Staub aufgewirbelt hat. Die Kernthese war provokant, aber bitter nötig: **Wir SEO-Typen sind schuld, dass das Netz die grundlegendsten SEO-Basics ignoriert.**
 
 Warum ich das sage? Weil ich es jeden Tag in den Audits sehe. Wir schreiben das Jahr 2026, und immer wieder brennt die Hütte bei Dingen, die eigentlich seit zwei Jahrzehnten geklärt sein sollten. Fehlende Title Tags, hanebüchene Überschriften, URL-Umzüge ohne einen einzigen verdammten Redirect. 
@@ -32,14 +30,35 @@ Warum ich das sage? Weil ich es jeden Tag in den Audits sehe. Wir schreiben das 
 
 Die Frage ist: Warum ist das so? Sind wir zu nerdig? Zu leise? In meinem LinkedIn-Post habe ich genau diese Fragen in den Raum geworfen – und die Diskussion darunter zeigt: Wir haben ein riesiges Kommunikationsproblem in unserer eigenen Bubble.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Wir SEOs müssen aufhören, nur die Technik zu polieren. Wir müssen anfangen, den Business-Case zu verkaufen. Wer schweigt, wird ignoriert."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wir SEOs müssen aufhören, nur die Technik in der Nerd-Bubble zu polieren. Wir müssen anfangen, den Business-Case auf C-Level zu verkaufen – wer schweigt, wird beim Relaunch ignoriert.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Das Dilemma der Basics und der Wert unserer Arbeit
 
-Es ist fast schon tragisch. Wir diskutieren auf Konferenzen über KI-gestütztes Content-Cluster-Management und Generative Engine Optimization (GEO). Aber wenn wir unter die Haube vieler mittelständischer Websites schauen, fehlt das Fundament.
+Es ist fast schon tragisch. Wir diskutieren auf Konferenzen über KI-gestütztes Content-Cluster-Management und [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/). Aber wenn wir unter die Haube vieler mittelständischer Websites schauen, fehlt das Fundament.
 
 In den Kommentaren brachte **Johannes Nass** genau das auf den Punkt:
 > *"Meiner Meinung nach tun sich SEOs immer noch schwer, ihren Wert auf Geschäftsführerebene zu kommunizieren. Einen Geschäftsführer interessiert in der Regel nur: Wachstum – ja oder nein – und warum. Erst wenn der Wert verstanden wird, wächst auch die Awareness für die Basics."*
@@ -48,7 +67,7 @@ Genau da liegt der Hund begraben. Wir verkaufen "Title Tags", aber wir müssten 
 
 ## Die kaputte Verantwortungskette
 
-Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? Das Design ist fertig, der Code steht und der Launch-Button glüht. Dann heißt es: "Ach ja, mach mal noch kurz SEO."
+Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? In meinen Live-Sessions in der [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) sehe ich immer wieder dasselbe Drama: Das Design ist fertig, der Code steht und der Launch-Button glüht. Dann heißt es: "Ach ja, mach mal noch kurz SEO."
 
 Das funktioniert nicht. SEO ist kein Anstrich, den man am Ende auf ein Haus klatscht.
 
@@ -64,7 +83,9 @@ Wenn wir in dieser kaputten Kette immer nur die "Feuerwehr" am Ende sind, baden 
 
 ## Die Nerd-Bubble verlassen
 
-Hand aufs Herz: Wir SEOs lieben unsere Fachsimpeleien. Aber verstehen uns die Leute draußen? **Jessica Seiffert** schrieb mir dazu:
+Hand aufs Herz: Wir SEOs lieben unsere Fachsimpeleien. Aber verstehen uns die Leute draußen? Wie wir auch im Artikel [Digitaler Unternehmensberater statt SEO](/blog/digitaler-unternehmensberater-statt-seo/) betonen, müssen wir den Business-Case greifbar machen.
+
+**Jessica Seiffert** schrieb mir dazu:
 > *"Ich versuche gerade, die absoluten Basics auf Social Media zu erklären und die Feedbacks zeigen: Es wird als zu nerdig empfunden."*
 
 **Christian Gülcan** traf den Nagel ebenfalls auf den Kopf:
@@ -83,19 +104,27 @@ Wir müssen aufhören, uns als Konkurrenten zu sehen, und anfangen, eine SEO-Wel
 
 ![Infografik: Die SEO-Community-Welle](../../assets/images/blog/seo-community-visibility-wave.webp)
 
-### Dein nächster Schritt
-Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist: Das Fundament deines Unternehmens im Netz. 
+### Tacheles am Ende
+Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist: Das Fundament deines Unternehmens im Netz. Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
 
-Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
-
-ALOHA! 🌻✌️
-
-<div class="blog-cta-box mt-16 p-8 bg-gray-50 border border-gray-100 rounded-3xl text-center">
-  <h4 class="text-xl font-bold mb-4">Werde Teil der Diskussion!</h4>
-  <p class="text-gray-muted mb-6">Diesen Artikel habe ich basierend auf meinem LinkedIn-Post und den über 100 Kommentaren unserer starken SEO-Community erstellt. Lies dir die Meinungen der Kollegen durch und diskutiere mit!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-typen-sind-schuld-das-das-netz-die-activity-7385954808316338176-oSyk" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Zur LinkedIn Diskussion (109+ Kommentare)</a>
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-typen-sind-schuld-das-das-netz-die-activity-7385954808316338176-oSyk" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
 
+---
+
 ### Weiterführende Artikel
-* **Lese-Tipp:** [LinkedIn ist kein soziales Netzwerk, es ist ein Forum](/blog/linkedin-ist-ein-forum-seo/)
+* **Lese-Tipp:** [LinkedIn SEO: Das Experten-Forum nutzen](/blog/linkedin-ist-ein-forum-seo/)
 * **Lese-Tipp:** [Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke](/blog/80-prozent-seo-fehler-sprechstunde/)
+

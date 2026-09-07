@@ -21,8 +21,6 @@ faqs:
     answer: "Für die 'Basis-Gesundheit' deiner Seite ist die <a href=\"/glossar/google-search-console/\">Google Search Console</a> unverzichtbar, um Indexierungsprobleme zu finden. Auch Tools wie SEORCH helfen beim Onpage-Check. Aber für das echte Tracking in KI-Modellen brauchst du spezialisierte Software. Ohne ein Budget für Profi-Tools wie SE Ranking oder RankScale wirst du nie verstehen, warum dich die KI heute empfiehlt und morgen ignoriert."
 ---
 
-Moin! 🌻
-
 Machen wir uns nichts vor: Wir befinden uns gerade in der größten Umbruchphase des digitalen Marketings seit der Erfindung der Suchmaschine. Als ich 2001 mit SEO angefangen habe (ja, ich bin der Senior hier), ging es darum, ein paar Keywords in die Meta-Tags zu schubsen. Später kamen die "Blauen Links" und der Kampf um Platz 1 bei Google.
 
 Heute? Heute fragen die Leute ChatGPT oder Perplexity nach Empfehlungen. Und wenn du dort nicht auftauchst, existierst du faktisch für eine wachsende Zielgruppe nicht mehr.
@@ -30,6 +28,32 @@ Heute? Heute fragen die Leute ChatGPT oder Perplexity nach Empfehlungen. Und wen
 Die Frage ist also nicht mehr nur: "Wo ranke ich bei Google?", sondern: **"Wie oft werde ich von der KI zitiert?"**
 
 Um das zu beantworten, brauchst du ein völlig neues Arsenal an Werkzeugen. In diesem Deep-Dive schauen wir uns die besten SEO-Tools für AI Search und Prompt Tracking an. Wenn du eine komplette Marktübersicht aller führenden Plattformen suchst, wirf auch einen Blick in meinen [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Tacheles, ohne Marketing-Blabla.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „KI-Strategie ist Chefsache. Wer sich auf Tools verlässt, die nur grüne Häkchen zeigen, aber nicht messen, was SearchGPT und Perplexity wirklich über die eigene Marke sagen, spielt russisches Roulette mit dem eigenen Unternehmen.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ![Beste SEO Tools für AI Search](../../assets/images/blog/blog-ai-search-tools-3d.webp)
 
@@ -76,12 +100,6 @@ Zusätzlich bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link
 
 ---
 
-## 💬 Jörgs SEO-Klartext: "AI-Strategie ist Chefsache"
-
-> **Tacheles:** Ich sehe immer wieder Unternehmen, die den Praktikanten dransetzen, um "irgendwas mit KI" zu machen. Das ist gefährlich! In der neuen Welt von AI Search geht es um Autorität und Vertrauen. Wenn du dich auf Tools verlässt, die dir nur grüne Häkchen zeigen, aber nicht messen, was SearchGPT wirklich über dich sagt, dann spielst du Russisch Roulette mit deinem Business. Nutze Profi-Tools, um zu verstehen, WARUM du nicht zitiert wirst. Oft ist es fehlendes <a href="/glossar/e-e-a-t/">E-E-A-T</a> oder eine kaputte semantische Struktur. Wer hier spart, zahlt später doppelt durch Traffic-Verlust.
-
----
-
 ## Kostenlose Tools für die "SEO-Gesundheit"
 
 Du musst nicht für jeden Handgriff Geld ausgeben. Es gibt ein paar Klassiker unter den Gratis-Tools, die immer noch ihren Zweck erfüllen.
@@ -124,12 +142,17 @@ Hört auf zu raten. Fangt an zu messen.
 
 Die Welt der Answer Engines ist keine Bedrohung, sondern eine riesige Chance für alle, die verstehen, wie man Vertrauen aufbaut. Ein starkes E-E-A-T, kombiniert mit den richtigen Tools, macht dich zum unangefochtenen Experten in deinem Markt.
 
-ALOHA! 🌻✌️
-
----
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Willst du dein Tool-Set prüfen?</h3>
-  <p class="mb-6">Ich zeige dir in 15 Minuten, welche Tools für DEINE Nische wirklich Sinn machen und wo du dir das Geld sparen kannst. Kein Bullshit-Bingo, versprochen.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Tool-Beratung anfragen</a>
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über die besten AI-Search-Tools.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>

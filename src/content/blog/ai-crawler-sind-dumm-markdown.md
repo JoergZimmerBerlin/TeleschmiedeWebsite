@@ -25,38 +25,37 @@ faqs:
     answer: "Definitiv. Wer heute nicht dafür sorgt, dass seine Inhalte von LLMs wie ChatGPT, Perplexity oder Claude gelesen werden können, verpasst den Anschluss an die nächste Generation der Suche. Es ist wie SEO im Jahr 2001 – wer zuerst kommt, mahlt zuerst."
 ---
 
-Moin! 🌻
-
 Machen wir uns nichts vor: Die meisten AI-Crawler sind aktuell noch ziemlich dumm. 
 
 Sie scheitern an komplexem JavaScript, verheddern sich in verschachteltem HTML-Code und verlieren die Orientierung in Navigations-Labyrinthen. Warum? Weil unser Web für Menschen gebaut wurde, nicht für Maschinen. Wir haben zwei Jahrzehnte damit verbracht, Webseiten für das menschliche Auge, für Retina-Displays und für blitzschnelle Interaktionen zu optimieren. Das Ergebnis? Ein gigantischer Berg an Code-Ballast, der für eine Künstliche Intelligenz (KI) oft nur eins ist: Lärm.
 
 Bots brauchen keine CSS-Animationen oder bunte Header-Grafiken. Sie brauchen **Daten**. Pure, unverfälschte Information. Und hier liegt die Krux: Wer seine wertvollen Inhalte hinter technischem Pfusch versteckt, wird in der Welt der Large Language Models (LLMs) schlichtweg nicht stattfinden.
 
-## AI Crawler & Cloudflare: Warum Markdown die Lösung ist
-
-Wenn ein LLM wie ChatGPT oder Claude eine klassische Website crawlt, muss es sich durch hunderte Zeilen HTML-Ballast wühlen, um den eigentlichen Kerninhalt zu finden. Stell dir vor, du müsstest ein Buch lesen, bei dem auf jeder Seite zwischen den Sätzen die Konstruktionspläne des Druckers stehen. Das ist das "Erlebnis", das wir Bots aktuell bieten.
-
-Das Problem ist dreifaltig:
-1. **Rechenpower:** Das Token-Limit (die "Gedächtnisspanne" der KI) wird unnötig belastet. Jedes `<div>`, jedes `<span>` und jede CSS-Klasse frisst Token, die eigentlich für die Antwort übrig sein sollten.
-2. **Genauigkeit:** Informationen werden falsch kontextualisiert. Wenn der Bot den Footer-Text als Teil des Hauptartikels liest, entstehen Halluzinationen.
-3. **Geld:** Mehr Token bedeuten höhere Kosten für die Bot-Betreiber. Und rate mal, welche Seiten ein Bot bevorzugt crawlt, wenn er die Wahl hat? Genau: Die effizienten.
-
-Cloudflare hat das erkannt und mit "**Markdown for Agents**" einen echten Hebel angesetzt. Die Idee: Eine Website liefert dem menschlichen Besucher das volle Design-Erlebnis, dem AI-Bot aber eine schlanke, präzise Markdown-Version.
-
-### Das Ergebnis: 80% Token-Ersparnis
-
-Die Zahlen aus der Praxis sind beeindruckend. Durch die Konvertierung in Markdown lässt sich der Token-Verbrauch um bis zu **80% reduzieren**. Das ist kein kleiner "Speed-Boost", das ist eine Revolution in der Art und Weise, wie wir Maschinen mit Wissen füttern.
-
-Was heißt das für dein Business? 
-- Deine Inhalte werden von der KI **schneller** erfasst.
-- Die Antworten der KI über dein Unternehmen werden **präziser**, weil der Kontext klarer ist.
-- Du sinkst in der "Wahrnehmungshürde" der Bots, weil du ihnen die Arbeit abnimmst.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"KI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten. Wer seine Seite nicht maschinenlesbar macht, existiert in der Welt von morgen schlichtweg nicht mehr. Cloudflare macht hier vor, wie man den Pfusch am Bau der 2020er Jahre aufräumt. Wir müssen anfangen, in 'Agent Readiness' zu denken."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „KI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten. Wer seine Seite nicht maschinenlesbar macht, existiert in der Welt von morgen schlichtweg nicht mehr. Wir müssen anfangen, konsequent in Agent Readiness zu denken.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawler-sind-dumm-sie-k%C3%B6nnen-oft-keine-activity-7450640002549526528-dIpv" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Stimmen aus der Community: Die Experten-Dilemmas
 
@@ -102,7 +101,7 @@ Was bedeutet das? AX bedeutet, dass wir anfangen müssen, unsere Inhalte so zu s
 2. **Hierarchische Klarheit:** Nutze H1 bis H3 Tags streng logisch. Markdown basiert auf Struktur. Wenn deine Struktur im HTML Pfusch ist, wird das Markdown-Extrakt auch Pfusch.
 3. **Daten-Vollständigkeit:** Verstecke keine harten Fakten (Preise, Öffnungszeiten, Inhaltsstoffe) hinter Interaktionen oder Buttons. Ein Agent klickt nicht "Mehr laden". Er liest, was da ist.
 
-## Fazit: Pfusch am Bau korrigieren
+## Pfusch am Bau korrigieren: Die zwei Ebenen des Webs
 
 Egal ob man Cloudflare nutzt, das französische [Lightpanda](/glossar/crawler/) (eine effiziente Alternative) oder seine Seite direkt nativ im [Markdown-Format](/glossar/robots-txt/) (über Header-Aushandlung) bereitstellt: Der Trend ist unumkehrbar. Der "Markdown-Standard" wird zum Fundament der neuen Suche.
 
@@ -112,18 +111,19 @@ Das Web der Zukunft ist zweigeteilt:
 
 Wer glaubt, er könne das Thema "Agent Readiness" aussitzen, wird sich in zwei Jahren wundern, warum ChatGPT und Co. nur die Konkurrenz zitieren. Es geht nicht darum, schönauszusehen. Es geht darum, **verstanden zu werden**. Wer heute seine Hausaufgaben macht, sichert sich die Pole-Position für die Sichtbarkeit in einer Welt, in der maschinelle Empfehlungen den Ton angeben.
 
-Wie siehst du das? Diskutiere mit mir und der Community direkt auf LinkedIn:
-
-👉 [**Hier geht's zur LinkedIn-Diskussion zum Thema AI-Crawler**](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawler-sind-dumm-sie-k%C3%B6nnen-oft-keine-activity-7450640002549526528-dIpv)
-
-Habe fertig.
-
-ALOHA! 🌻✌️
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bist du bereit für das AI-Zeitalter?</h3>
-  <p class="mb-6">In meiner SEO-Sprechstunde analysieren wir nicht nur deine Rankings bei Google, sondern auch deine Sichtbarkeit in KI-Systemen. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> machen wir den Check.</p>
-  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt Vision-Check anfragen</a>
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über AI-Crawler und Markdown.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-crawler-sind-dumm-sie-k%C3%B6nnen-oft-keine-activity-7450640002549526528-dIpv" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
 
 ---

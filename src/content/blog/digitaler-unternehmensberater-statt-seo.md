@@ -26,16 +26,33 @@ faqs:
     answer: "Ganz genau. Wenn wir eine Website oder Strategie aufsetzen, machen wir nichts anderes als Markt- und Konkurrenzanalyse. Wir schauen: Was suchen die Leute wirklich? Wer bedient diese Nachfrage aktuell am besten? Wo gibt es Lücken? Das ist klassische Betriebswirtschaft und Unternehmensberatung pur. Wir nennen es nur oft Keyword-Recherche."
 ---
 
-Moin! 🌻
+Dieser Beitrag entstand aus einer Diskussion auf LinkedIn, die in letzter Zeit für ordentlich Gesprächsstoff gesorgt hat. Manchmal tippt man ein paar Gedanken in sein Profil und merkt erst durch die Reaktionen, dass man einen echten Nerv getroffen hat.
 
-Dieser Beitrag entstand aus diesem LinkedIn-Beitrag, der in letzter Zeit für ordentlich Diskussionen gesorgt hat. Manchmal tippt man ein paar Gedanken in sein Profil und merkt erst durch die Reaktionen, dass man einen echten Nerv getroffen hat.
-
-Hier ist der Original-Post, um den es geht:
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Vielleicht bin ich gar kein SEO, sondern ein digitaler Unternehmensberater.<br><br>In den letzten Jahren hat sich mein Aufgabenfeld immer mehr in Richtung strategische Beratung verändert. Ja, ich nenne das bislang nur SEO Beratung.<br><br>Nun kommen mehr und mehr Fragen zu: 'Wie komme ich in die KI Antworten?' Die Antwort darauf lautet vereinfacht ausgedrückt so: 'Optimiere zuerst dein eigenes Universum mit konsistenten Daten, spiele alle SEO Basics durch und geh dann raus zu den 50-100 anderen Quellen, die dich und deine Branche kennen und optimiere dort.'<br><br>Das ist Markenarbeit.<br><br>Wenn ich also neben der eigenen Website bereits Tipps zur Optimierung der gesamten Sichtbarkeit gebe, bin ich dann nicht ein​ digitaler Unternehmensberater?"</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Vielleicht bin ich gar kein SEO, sondern ein digitaler Unternehmensberater. Wer neben der eigenen Website die gesamte digitale Sichtbarkeit und Entitäten in 50 bis 100 Quellen optimiert, betreibt strategische Markenarbeit.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vielleicht-bin-ich-gar-kein-seo-sondern-activity-7466492365160206336-pdAg" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 Die Frage am Ende des Posts war kein Witz, sondern ernst gemeint. Seit fast einem Vierteljahrhundert bin ich nun in dieser Branche. Als ich angefangen habe, war SEO noch ein bisschen Voodoo, ein paar Keywords hier, ein paar Backlinks da, und zack – war man auf Seite 1. Das war die Zeit der Optimierer.
 
@@ -142,7 +159,7 @@ Voll. Allein eine gut gemachte Suchwortrecherche bietet bereits tiefen Markteinb
 
 ---
 
-## Klartext: Warum der Titel eigentlich egal ist
+### Tacheles am Ende
 
 Ob ich mich nun Senior SEO, Digitaler Architekt, Context Engineer oder Digitaler Unternehmensberater nenne, ändert am Ende des Tages nichts an meiner Arbeit. 
 
@@ -154,12 +171,23 @@ Wenn du das Gefühl hast, dein aktuelles "SEO" dümpelt nur auf der Oberfläche 
 
 Ich bringe den Kaffee mit, du die harten Zahlen. Und dann machen wir Unternehmensberatung – auch wenn wir es am Ende vielleicht einfach "gute SEO-Arbeit" nennen.
 
-ALOHA! 🌻✌️
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vielleicht-bin-ich-gar-kein-seo-sondern-activity-7466492365160206336-pdAg" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 
 ---
 
-<div class="blog-cta-box">
-  <h3>Diskutiere mit mir auf LinkedIn! 🚀</h3>
-  <p>Dieser Beitrag entstand aus einer lebhaften Diskussion auf LinkedIn. Lass uns dort weiterreden und vernetze dich mit mir!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_vielleicht-bin-ich-gar-kein-seo-sondern-activity-7466492365160206336-pdAg" target="_blank" rel="noopener noreferrer">Zum LinkedIn-Beitrag</a>
-</div>
+### Weiterführende Artikel
+* **Lese-Tipp:** [Agentic SEO: Warum GEO eine eigene Disziplin ist](/blog/geo-seo-agentic-eigene-disziplin/)
+* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)

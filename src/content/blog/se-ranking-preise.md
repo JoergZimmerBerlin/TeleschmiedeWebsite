@@ -26,16 +26,35 @@ faqs:
     answer: "Ja, über einen Affiliate-Link kannst du SE Ranking 14 Tage lang kostenlos testen, ohne eine Kreditkarte hinterlegen zu müssen."
 ---
 
-Moin! 🌻
-
 Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
 
 Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig. Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 25 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist aktuell einer der Player, der den Markt ordentlich aufmischt.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Günstige Tools sind nur dann gut, wenn du weißt, was du tust. Wer blind bucht, verbrennt auch bei kleinen Preisen viel Geld."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Günstige Tools sind nur dann gut, wenn du weißt, was du tust. Wer blind bucht, verbrennt auch bei kleinen Preisen viel Geld. Bei SE Ranking triffst du genau den Sweet Spot aus Profi-Features und fairer Skalierbarkeit.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 Deshalb habe ich mir die aktuellen **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Preise** für 2026 mal ganz genau angeschaut. Schnapp dir einen Kaffee, wir gehen tief in die Pakete Core und Growth.
 
@@ -96,17 +115,21 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 
 Über meinen Affiliate-Link bekommst du eine **kostenlose Testphase von 14 Tagen**. Das Beste daran: Du musst **keine Kreditkarte** hinterlegen. Kein fieses "Ups, ich hab vergessen zu kündigen"-Abo. Nach 14 Tagen läuft der Test einfach aus, es sei denn, du bist so überzeugt wie ich und willst weitermachen.
 
-<div class="blog-cta-box">
-  <h3>Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> 14 Tage kostenlos testen</h3>
-  <p>Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Kostenlos Testen starten 
+<!-- Affiliate Box -->
+<div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-2 !mt-0 !border-none !pb-0">
+    Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline">SE Ranking</a> 14 Tage kostenlos testen
+  </h3>
+  <p class="text-neutral-300 text-sm max-w-xl mx-auto mb-6">
+    Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.
+  </p>
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">
+    <span>Kostenlos Testen starten</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
 ---
-
-
 
 ### Tacheles am Ende
 
@@ -118,7 +141,20 @@ Meine persönliche Empfehlung nach 25 Jahren im Business:
 
 Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst du die Power des Growth-Tarifs? Schreib mir deine Meinung auf LinkedIn – ich bin gespannt auf dein Feedback!
 
-ALOHA 🌻! 🌻
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 
 ---
 

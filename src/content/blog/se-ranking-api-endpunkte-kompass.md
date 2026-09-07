@@ -25,9 +25,7 @@ faqs:
     answer: "Das geniale am API-Modell für Audits ist die Trennung zwischen dem Crawl-Prozess und dem Datenabruf. Du bezahlst einmalig beim Start des Audits über den POST-Endpunkt (z.B. 2 Credits pro gecrawlter Seite beim Standard-Audit). Sobald der Crawl abgeschlossen ist, kannst du die Reports, Fehlerlisten und Status-Meldungen über die GET-Endpunkte wochenlang komplett kostenlos und beliebig oft abfragen. Das ist ideal, um Kunden oder Entwicklern regelmäßige Qualitätsberichte zukommen zu lassen, ohne dass jedes Mal neue API-Kosten entstehen."
 ---
 
-ALOHA 🌻!
-
-Im [ersten Teil](../se-ranking-api-claude-code-setup/) habe ich dir gezeigt, wie du die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> mit Claude Code verbindest - inklusive dem Daily-Limit, das dir den 10k-Credit-Schock erspart.
+Im [ersten Teil dieser Serie](/blog/se-ranking-api-claude-code-setup/) habe ich dir gezeigt, wie du die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> mit Claude Code verbindest - inklusive dem Daily-Limit, das dir den 10k-Credit-Schock erspart.
 
 Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
@@ -72,10 +70,31 @@ Wenn ich nur eine einzige Kategorie wählen müsste, wäre es diese. Drei Endpun
 
 Alle für pauschal **100 Credits pro Call**. Kein Datensatz-Preis, kein Mengen-Zuschlag. Das ist ehrlich kalkuliert.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"100 Credits pro Domain-Call klingt viel. Ist es nicht - bei einem Kunden-Setup zahlt sich das mit 3 Calls aus."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „100 Credits pro Domain-Call klingt im ersten Moment abstrakt. In der Praxis rentiert sich das bereits ab dem dritten Call, weil du Wettbewerber und Content-Lücken in Sekunden statt Stunden aufdeckst.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Keyword Research: der Preis-Hit
 
@@ -207,7 +226,22 @@ Meine Strategie für neue Kunden: **Immer in dieser Reihenfolge.**
 
 Drei Calls, 200 Credits, und du weißt grob, was Sache ist. Danach entscheidest du, wo du tiefer bohrst.
 
-Im nächsten Teil der Serie ziehe ich das komplett durch: **Der Praxis-Test.** Eine echte Cold-Lead-Analyse von Anfang bis Ende, mit Credit-Abrechnung und echten Zahlen. Was am Ende wirklich rauskommt, wenn man diesen Workflow auf eine Domain loslässt - und wie viel manuelle Arbeit dabei wegfällt.
+Im nächsten Teil der Serie ziehe ich das komplett durch: im [SE Ranking API Praxis-Test](/blog/se-ranking-api-claude-code-praxis-test/). Eine echte Cold-Lead-Analyse von Anfang bis Ende, mit Credit-Abrechnung und echten Zahlen. Was am Ende wirklich rauskommt, wenn man diesen Workflow auf eine Domain loslässt - und wie viel manuelle Arbeit dabei wegfällt.
 
-Bis dahin: Baut euer Daily-Limit, fangt mit `discover-brand` an, lasst die Leaderboards in Ruhe. ALOHA! 🌻
+Bis dahin: Baut euer Daily-Limit, fangt mit `discover-brand` an, lasst die Leaderboards in Ruhe.
+
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über SE Ranking API Endpunkte und Best Practices.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 

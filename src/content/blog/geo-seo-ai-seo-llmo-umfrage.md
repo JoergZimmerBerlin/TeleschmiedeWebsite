@@ -13,11 +13,44 @@ key_takeaways:
   - "GEO (Generative Engine Optimization) setzt sich mit 50% als bevorzugter Begriff durch – aber der Name ist zweitrangig."
   - "Die harte Arbeit bleibt gleich: Inhalte so aufbereiten, dass KI-Systeme sie als wertvoll erkennen und empfehlen."
   - "Wer das Thema aussitzt, wird von denen überholt, die heute schon für KI-Systeme strukturieren."
+faqs:
+  - question: "Welcher Begriff hat sich in der Umfrage durchgesetzt?"
+    answer: "GEO (Generative Engine Optimization) gewann mit 50 % der Stimmen klar vor AI SEO (22 %), klassischem SEO (19 %) und LLMO (8 %)."
+  - question: "Ist GEO nur ein neues Buzzword für klassisches SEO?"
+    answer: "Nein. Während klassisches SEO Links in Suchmaschinen ranken will, zielt GEO darauf ab, direkte Antworten generativer KI-Modelle wie ChatGPT und Gemini zu beeinflussen und als Quelle zitiert zu werden."
+  - question: "Welche technischen Voraussetzungen braucht GEO?"
+    answer: "Ein sauberes technisches Fundament, strukturierte Daten (Schema.org), Entity-Verknüpfungen und maschinenlesbare Formate wie Markdown oder Grounding Pages."
 ---
 
 Sichtbarkeit in KI-Modellen optimieren – das ist das neue große Thema, das gerade durch alle SEO-Foren und LinkedIn-Timelines geistert. Aber wie nennen wir das eigentlich? Haben wir uns schon auf einen Standard geeinigt oder werfen wir einfach nur mit neuen Buzzwords um uns, um auf Partys cooler zu wirken? (Wobei, SEOs auf Partys... lassen wir das Thema.)
 
 Ich wollte es genau wissen und habe auf LinkedIn eine Umfrage gestartet: **"Wie nennen wir es nun?"** Das Ergebnis war so spannend wie aufschlussreich und sagt viel über den aktuellen Zustand unserer Branche aus.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ob wir das nun GEO, AI-SEO oder LLMO nennen: Der Name ist zweitrangig. Was zählt, ist die harte Arbeit im Hintergrund – wer Daten und Entitäten maschinenlesbar strukturiert, gewinnt das Vertrauen der KI-Modelle.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_sichtbarkeit-in-kimodellen-optimieren-wie-activity-7413982211118596096-wRny" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Die nackten Zahlen der Umfrage
 
@@ -36,7 +69,7 @@ Lass uns mal die einzelnen Begriffe sezieren. Denn hinter jeder Abkürzung steck
 
 ### GEO (Generative Engine Optimization) – Der klare Favorit
 
-Mit 50% scheint sich GEO als Begriff durchzusetzen – zumindest in meiner Bubble. Und das hat gute Gründe. Der Begriff wurde maßgeblich durch eine Studie von Forschern (u.a. von Princeton und Georgia Tech) geprägt. Er macht Sinn, weil er anerkennt, dass wir es nicht mehr nur mit klassischen Suchmaschinen (Search Engines) zu tun haben, die einen Index durchsuchen. Wir haben es mit generativen Systemen zu tun, die Antworten *erzeugen*.
+Mit 50% scheint sich [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) als Begriff durchzusetzen – zumindest in meiner Bubble. Und das hat gute Gründe. Der Begriff wurde maßgeblich durch eine Studie von Forschern (u.a. von Princeton und Georgia Tech) geprägt. Er macht Sinn, weil er anerkennt, dass wir es nicht mehr nur mit klassischen Suchmaschinen (Search Engines) zu tun haben, die einen Index durchsuchen. Wir haben es mit generativen Systemen zu tun, die Antworten *erzeugen*.
 
 Wenn du für Perplexity, Claude oder ChatGPT optimierst, spielst du nach anderen Regeln. Es geht um **Semantic Richness**, um das Liefern von Quellen, die so präzise sind, dass die KI sie nicht "halluzinieren" muss. GEO ist die Anerkennung, dass der Kanal sich fundamental ändert.
 
@@ -68,7 +101,7 @@ Ein Teilnehmer schrieb: *"Wir brauchen nicht noch mehr Abkürzungen, die nur daz
 
 Andere wiederum sahen den Mehrwert der Unterscheidung. GEO erfordert neue Skills, wie zum Beispiel den Umgang mit Vektor-Datenbanken oder das Verständnis von RAG (Retrieval-Augmented Generation). Dafür einen eigenen Namen zu haben, hilft, die Komplexität gegenüber Entscheidern zu rechtfertigen.
 
-### Was du jetzt tun solltest
+### Tacheles am Ende
 
 Wir befinden uns in einer der spannendsten Phasen seit dem Start des Google-Algorithmus. Dass die Community sich uneinig über den Namen ist, zeigt nur eines: Wir experimentieren noch. Wir lernen noch.
 
@@ -76,30 +109,26 @@ Aber eines ist sicher: Wer glaubt, er könne das Thema aussitzen, wird von denen
 
 Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte so gut sind, dass keine KI an dir vorbeikommt. 
 
----
-
-<div class="blog-cta-box">
-  <h3>Lust auf mehr AI Visibility?</h3>
-  <p>Wenn du <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> selbst testen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    Rankscale ausprobieren 
-  </a>
-</div>
-
-<div class="blog-cta-box">
-  <h3>Lust auf den <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> AI Tracker?</h3>
-  <p>Wenn du die KI-Sichtbarkeit deiner Projekte mit einem etablierten Tool messen willst, kannst du hier direkt loslegen:</p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex mt-4 no-underline">
-    SE Ranking AI Tracker testen 
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_sichtbarkeit-in-kimodellen-optimieren-wie-activity-7413982211118596096-wRny" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>
 
 ---
 
-*Wie nennst du das Kind beim Namen? Oder ist dir das Marketing-Sprech auch völlig egal, solange die Rankings stimmen? Schreib mir auf LinkedIn – ich bin gespannt auf eure Meinung.*
-
-### Weiterführende Artikel zum Thema KI-Sichtbarkeit
 ### Weiterführende Artikel
+* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
+* **Lese-Tipp:** [Agentic SEO: Warum GEO eine eigene Disziplin ist](/blog/geo-seo-agentic-eigene-disziplin/)
 * **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
 * **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
 * **Lese-Tipp:** [Was ist eigentlich LLMO?](/glossar/llmo/)

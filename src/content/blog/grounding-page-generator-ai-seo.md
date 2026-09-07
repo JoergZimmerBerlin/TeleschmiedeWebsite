@@ -27,11 +27,35 @@ related_posts:
   - "seopresso-seo-persoenlich-interview"
 ---
 
-Moin! 🌻
-
 Seit über 25 Jahren bin ich jetzt im SEO-Geschäft. Ich habe miterlebt, wie wir Links getauscht haben als wären es Panini-Bilder, wie wir Texte für den Googlebot "getuned" haben und wie wir schließlich gelernt haben, dass der Nutzer (und nicht der Algorithmus) im Mittelpunkt steht. Aber was wir gerade erleben, ist kein einfacher Trend mehr. Es ist der größte Abriss und Neubau des digitalen Fundaments, den ich je gesehen habe.
 
 Lass uns Tacheles reden: **Wir befinden uns in der Ära der Generative Engine Optimization (GEO).** Wer heute noch glaubt, dass eine nette Website und ein paar Keywords reichen, um 2026 noch stattzufinden, der betreibt gefährlichen **Pfusch am Bau**.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Vielleicht ist genau das die Motivation, eine Grounding Page in Deutsch UND vor allem in Englisch zu erstellen: Leichter als gedacht mit dem Generator, aber der Kontrollblick ist Pflicht. Ein zweiter Run in English ist absolute Lebensversicherung für globale LLMs.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_grounding-page-generator-aus-prompt-erstellen-activity-7445551304749379584-d5LW" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 Vor ein paar Tagen habe ich auf LinkedIn eine Diskussion angestoßen, die den Nagel auf den Kopf trifft. Es ging um meinen [**Grounding Page Generator**](/tools/groundingpage-generator/). Warum? Weil ich es satt habe zu sehen, wie KIs über Marken halluzinieren, nur weil sie kein ordentliches Fundament finden.
 
@@ -67,11 +91,6 @@ Das Prinzip ist simpel, aber hocheffektiv. Du fütterst den Generator mit deiner
 1.  **Glasklaren HTML-Code** für deine Grounding-Inhalte.
 2.  **Validiertes JSON-LD**, das alle deine Entitäten vernetzt.
 3.  **Harte Fakten-Blöcke**, die keine Interpretationsspielräume lassen.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Vielleicht ist genau das die Motivation eine Grounding Page in deutsch UND vor allem in english zu erstellen. Leichter als gedacht mit meinem Grounding Page Generator. Aber: Checkt den Output! Ein zweiter Run in English ist Pflicht."</p>
-</div>
 
 ### Warum Deutsch UND Englisch Pflicht sind
 
@@ -118,18 +137,25 @@ Hör auf zu warten. Der GEO-Express (nicht zu verwechseln mit der Deutschen Bahn
 2.  **Nutze den [Grounding Page Generator](/tools/groundingpage-generator/):** Erstelle deinen Mega-Prompt.
 3.  **Baue den "Digitalen Bypass":** Erstelle eine schlichte, performante Unterseite (z.B. `/grounding-page/`) und verlinke sie im Footer. Sie muss nicht schön sein, sie muss **wahr** sein.
 4.  **Verlinke deine Entitäten:** Nutze JSON-LD `@graph`, um alle deine Profile (LinkedIn, YouTube, XING) zu einer Einheit zu verschmelzen.
-5.  **Gehe auf Englisch:** Erstelle eine `/en/grounding-page/`. Sofort.
+5.  **Gehe auf Englisch:** Erstelle eine Version wie unsere [Englische Grounding Page](/groundingpage-en/). Sofort.
 
-## Fazit: Sei nützlich oder verschwinde
+## Sei nützlich oder verschwinde: Verlässlichkeit als KI-Währung
 
 In über 25 Jahren habe ich eines gelernt: Qualität setzt sich am Ende immer durch. In der AI-Ära bedeutet Qualität vor allem **Verlässlichkeit**. Wenn du für eine KI keine verlässliche Quelle bist, bist du irrelevant. So einfach und so hart ist das.
 
-Die Grounding Page ist kein "Nice-to-have" für SEO-Nerds. Sie ist das neue Standard-Bauteil für jedes Unternehmen, das morgen noch online gefunden (und empfohlen!) werden möchte.
+Die Grounding Page ist kein "Nice-to-have" für SEO-Nerds. Sie ist das neue Standard-Bauteil für jedes Unternehmen, das morgen noch online gefunden (und empfohlen!) werden möchte. Wer jetzt nicht baut, dem stürzt später das digitale Dach auf den Kopf.
 
-Wer jetzt nicht baut, dem stürzt später das digitale Dach auf den Kopf. **Habe fertig. 🌻✌️**
-
----
-
-*Dieser Beitrag entstand aus einer lebhaften Diskussion auf LinkedIn. Schau dir das [Original-Posting hier an](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_grounding-page-generator-aus-prompt-erstellen-activity-7445551304749379584-d5LW) und beteilige dich an der Debatte.*
-
-ALOHA! 🌻✌️
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über den Grounding Page Generator.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_grounding-page-generator-aus-prompt-erstellen-activity-7445551304749379584-d5LW" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>

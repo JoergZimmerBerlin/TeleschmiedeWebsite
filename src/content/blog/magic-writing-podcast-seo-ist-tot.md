@@ -13,16 +13,44 @@ key_takeaways:
   - "Zielgruppenverständnis ist die am meisten unterschätzte Superkraft im SEO – nicht Keywords, sondern Suchintention zählt."
   - "Google bleibt King of Search: Die Infrastruktur aus Android, Chrome und Ads ist nicht mal eben zu ersetzen."
   - "Content muss die Brücke zwischen KI-Verständlichkeit und menschlicher Emotion schlagen."
+faqs:
+  - question: "Ist SEO durch KI wirklich tot?"
+    answer: "Nein, SEO stirbt nicht, es evolviert. Reine Keyword-Tricks sterben aus, aber semantische Tiefe, Informationsarchitektur und Entitäts-Verständnis sind für Google und KI-Modelle wichtiger denn je."
+  - question: "Warum ist Zielgruppenverständnis wichtiger als Keyword-Listen?"
+    answer: "Weil hinter jeder Suchanfrage ein konkretes Problem oder eine Emotion steckt. Wer nur nach Suchvolumen optimiert, verfehlt die Suchintention und verliert den Nutzer nach wenigen Sekunden."
+  - question: "Wird Google durch ChatGPT oder Perplexity abgelöst?"
+    answer: "Kurzfristig nicht. Googles Verzahnung mit Android, Chrome und dem globalen Ads-Ökosystem ist gigantisch. Google passt sich mit AI Overviews an und bleibt die führende Suchplattform."
 ---
 
 "SEO ist tot" – sagen sie und schreiben dann krampfhaft für den Algorithmus, damit sie überhaupt noch jemand im digitalen Nirvana wahrnimmt. Es ist die ewige Schlagzeile unserer Branche. Ein Evergreen, der pünktlich zu jedem größeren Google-Update oder jeder neuen Technologie-Welle (wie aktuell KI) aus der Mottenkiste geholt wird.
 
-But in fact, maybe the classic SEO is actually dying. But if it is, it's dying such a slow death that we'll all be retired before the last bot turns out the lights. And that's exactly what I got to talk about with **Michael Kaufhold** in the Magic Writing Podcast - about the supposed "corpse" of SEO and why it's actually fitter than ever.
+Aber machen wir uns ehrlich: Vielleicht stirbt das klassische SEO tatsächlich einen langsamen Tod – doch bis der letzte Bot das Licht ausmacht, sind wir alle längst in Rente. Und genau darüber durfte ich mit **Michael Kaufhold** im Magic Writing Podcast sprechen: über die angebliche „Leiche“ SEO und warum sie in Wahrheit lebendiger und fitter ist als je zuvor.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"SEO stirbt nicht – es evolviert. Wer heute den Nachruf schreibt, hat den Anschluss an die semantische Suche von morgen schon gestern verloren."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „SEO stirbt nicht – es evolviert. Wer heute den Nachruf schreibt, hat den Anschluss an die semantische Suche von morgen schon gestern verloren. Am Ende gewinnt immer die Relevanz.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ## Die ewige Totgesagte: Warum wir den Nachruf noch mal verschieben
 
@@ -38,14 +66,14 @@ In der Podcast-Episode haben wir uns nicht mit Floskeln aufgehalten. Wir haben T
 Wir haben analysiert, dass die "Hacks" von früher heute gefährlich sind. Linktausch-Netzwerke, künstliches Keyword-Clustering ohne Sinn – wer das heute noch macht, spielt russisches Roulette mit seinem Business. Was heute funktioniert, ist Tiefe. Es geht um **Contextual SEO**. Ein Algorithmus erkennt heute, ob ein Text von einem Experten geschrieben wurde oder ob er nur aus Worthülsen besteht.
 
 ### 2. Google – Warum der Gigant nicht so schnell wankt
-Viele Experten rufen gerade das "Ende von Google" aus, weil Perplexity oder ChatGPT Antworten liefern. Aber Michael hat einen wichtigen Punkt gemacht: Die Infrastruktur von Google, die Verzahnung mit Android, Chrome und Google Ads, ist so tief, dass man sie nicht mal eben in zwei Quartalen ersetzt. Google wird sich anpassen (siehe AIO/GEO), aber der "King of Search" bleibt erst mal auf dem Thron. Unser Job ist es, die neuen Spielregeln auf diesem Thron zu lernen.
+Viele Experten rufen gerade das "Ende von Google" aus, weil Perplexity oder ChatGPT Antworten liefern. Aber Michael hat einen wichtigen Punkt gemacht: Die Infrastruktur von Google, die Verzahnung mit Android, Chrome und Google Ads, ist so tief, dass man sie nicht mal eben in zwei Quartalen ersetzt. Google wird sich anpassen (siehe [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/)), aber der "King of Search" bleibt erst mal auf dem Thron. Unser Job ist es, die neuen Spielregeln auf diesem Thron zu lernen.
 
 ### 3. Zielgruppenverständnis – Die vergessene Superkraft
 Das war vielleicht der wichtigste Teil unseres Gesprächs. Wir haben festgestellt, dass das Zielgruppenverständnis das am meisten unterschätzte Thema in der gesamten SEO-Welt ist. 
 
 Viele SEOs starren stundenlang auf Excel-Listen mit Suchvolumen und Wettbewerbs-Scores. Aber sie vergessen dabei, wer diese Wörter eigentlich eintippt. Was ist der Schmerz hinter der Suche? Was ist das Ziel? 
 - Jemand, der nach "SEO Berlin" sucht, will vielleicht keine Agentur, sondern erst mal verstehen, was das überhaupt ist. 
-- Jemand, der nach "SEO Kosten" sucht, hat ein völlig anderes Mindset als jemand, der nach "SEO Strategie Audit" sucht.
+- Jemand, der nach "SEO Kosten" sucht, hat ein völlig anderes Mindset als jemand, der in der [SEO-Sprechstunde](/seo-sprechstunde/) nach einem individuellen Audit fragt.
 
 ## Warum "SEO ist tot" oft nur eine bequeme Ausrede ist
 
@@ -64,7 +92,7 @@ Ich höre seit über 25 Jahren, dass SEO tot ist. Und trotzdem:
 
 Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Aber das Prinzip bleibt: Be the best answer!
 
-### Dein Action-Plan
+### Tacheles am Ende
 
 Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. Er kommt aus einer anderen Ecke als ich, aber unsere Schnittmenge ist riesig. Am Ende des Tages geht es um Vertrauen. Technik und Keywords sind die Basis, aber Vertrauen gewinnst du nur durch Relevanz.
 
@@ -74,7 +102,24 @@ Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. 
 
 **Hör mal rein:** [Magic Writing Podcast: Jörg Zimmer & Michael Kaufhold](https://linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk)
 
-### Weiterführende Artikel für Strategen
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+
+---
+
 ### Weiterführende Artikel
 * **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/)
+* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
 * **Lese-Tipp:** [Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot](/blog/google-ads-support-seo-nicht-tot/)

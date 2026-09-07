@@ -26,8 +26,6 @@ faqs:
     answer: "Für mich ist der Questions-Endpunkt der heimliche Star der gesamten SE Ranking API. Für nur einen Credit pro Abfrage liefert er dir echte Nutzerfragen (W-Fragen), die Menschen exakt so bei Google eintippen. Das ist kein generischer Keyword-Brei, sondern pures Gold für deine Redaktionsplanung und den Aufbau von FAQ-Bereichen, die sofort auf lokale Suchintentionen und Featured Snippets abziehen."
 ---
 
-Moin! 🌻
-
 Genug Theorie. Heute der Praxis-Test: Ich ziehe mit der [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API und Claude Code drei komplette Domain-Analysen durch - und zeige dir was am Ende wirklich rauskommt.
 
 Die drei Kandidaten: **teleschmie.de** (meine eigene Seite, maximale Ehrlichkeit), **[arztbesuche.de](https://arztbesuche.de)** (ein etabliertes medizinisches Verzeichnis aus unserem Netzwerk) und **[prinodi.de](https://prinodi.de)** (eine aufsteigende Domain die gerade Fahrt aufnimmt). Drei völlig unterschiedliche Ausgangssituationen - drei völlig unterschiedliche Erkenntnisse.
@@ -36,7 +34,7 @@ Spoiler: **~3.721 Credits zusammen**, das sind etwa 0,59 Euro - Keyword-Analyse 
 
 ## Wie ich das Setup aufgebaut habe
 
-Falls du noch nicht weißt wie man die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API mit Claude Code verbindet: Das hab ich [im ersten Teil dieser Serie](../se-ranking-api-claude-code-setup/) Schritt für Schritt erklärt. Die [sechs Endpunkt-Kategorien](../se-ranking-api-endpunkte-kompass/) kenne ich inzwischen auswendig - und ich weiß welche Credits kosten.
+Falls du noch nicht weißt wie man die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API mit Claude Code verbindet: Das hab ich [im ersten Teil dieser Serie](/blog/se-ranking-api-claude-code-setup/) Schritt für Schritt erklärt. Die [sechs Endpunkt-Kategorien](/blog/se-ranking-api-endpunkte-kompass/) kenne ich inzwischen auswendig - und ich weiß welche Credits kosten.
 
 Für diesen Test habe ich **Variante B** gefahren: overview + keywords + related + questions + longtail + competitors. Alle sechs Endpunkte in einem Durchlauf, Claude Code koordiniert die Calls, ein Python-Wrapper prüft vor und nach dem Run den Credit-Stand.
 
@@ -73,10 +71,31 @@ Zwei Artikel-Ideen in weniger als zehn Sekunden. Früher hätte ich das in einer
 
 **Was fehlte:** Der Competitors-Endpunkt gab nichts zurück. Keine Wettbewerber. Das ist kein Bug - das ist ein Signal. Als SEO-Freelancer-Blog bin ich so spezialisiert, dass der Algorithmus keine direkte algorithmische Konkurrenz findet. Kann man als Stärke lesen. Kann man auch als Warnung lesen: Wer keine Konkurrenz hat, hat vielleicht auch kein Marktvolumen.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext</p>
-  <p class="italic text-dark mb-0">„Wenn deine eigene Seite dir zeigt, dass du für das Pricing-Keyword eines Tools rankst das du empfiehlst - dann funktioniert dein Content-Marketing. Nicht weil du es geplant hast, sondern weil du ehrlich geschrieben hast."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wenn deine eigene Seite dir zeigt, dass du für das Pricing-Keyword eines Tools rankst, das du empfiehlst – dann funktioniert dein Content-Marketing. Nicht weil du es krampfhaft geplant hast, sondern weil du ehrlich und tief aus der Praxis geschrieben hast.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 **Credit-Verbrauch:** ~1.100 Credits = ~0,17 Euro.
 
@@ -214,7 +233,7 @@ Was früher ein halbstündiges Dashboard-Klicken war, ist jetzt ein Befehl:
 claude "Fahre Variante B für teleschmie.de und erstelle den Summary-Report"
 ```
 
-Dreißig Sekunden später liegt eine strukturierte Analyse vor. [Wie du das selbst aufsetzt](../se-ranking-api-claude-code-setup/) hab ich in Teil 1 erklärt.
+Dreißig Sekunden später liegt eine strukturierte Analyse vor. [Wie du das selbst aufsetzt](/blog/se-ranking-api-claude-code-setup/) hab ich in Teil 1 erklärt.
 
 ---
 
@@ -226,10 +245,25 @@ Bei meiner eigenen Seite: Ich ranke für Keywords die ich nie bewusst angesteuer
 
 Das ist der Mehrwert: nicht dass die API dir alles erklärt, sondern dass sie dir die richtigen Fragen zeigt.
 
-Mein Fazit nach diesem Test: <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Max</a> hatte recht. Mit dem richtigen Wrapper ist das ein **Workflow-Beschleuniger** - wobei „Beschleuniger" genau das nüchterne Wort ist, das ich bevorzuge. Kein Hype, keine Revolution. Einfach: schneller bessere Ausgangsdaten. 🌻
+Mein klares Resümee nach diesem Test: <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Max</a> hatte recht. Mit dem richtigen Wrapper ist das ein **Workflow-Beschleuniger** - wobei „Beschleuniger" genau das nüchterne Wort ist, das ich bevorzuge. Kein Hype, keine Revolution. Einfach: schneller bessere Ausgangsdaten. 🌻
 
 Die [SE Ranking API](https://seranking.com/de/?ga=4169588&source=link) in Kombination mit <a href="https://www.anthropic.com/claude-code" target="_blank" rel="noopener noreferrer">Claude Code</a> liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
 
 Danke an Max und die Crew von <a href="https://polisys.de" target="_blank" rel="noopener noreferrer">poliSYS</a> für den Stups — und an [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die API.
 
 Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.
+
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über SE Ranking API und Claude Code.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>

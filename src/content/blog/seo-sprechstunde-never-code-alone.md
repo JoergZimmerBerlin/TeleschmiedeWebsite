@@ -21,8 +21,6 @@ faqs:
     answer: "Die Sprechstunde ist keine freundliche Plauderrunde, sondern ein gnadenloser Deep-Dive in deine tatsächliche Performance. Wir arbeiten live am offenen Herzen – in SISTRIX, in der Google Search Console und direkt auf deiner Seite. Du bekommst kein standardisiertes 50-Seiten-PDF, sondern einen klaren 80/20-Maßnahmenplan: Was sind die 20 % der technischen und inhaltlichen Fehler, deren Behebung dir morgen 80 % mehr Sichtbarkeit bringt."
 ---
 
-Moin! 🌻
-
 Es gibt unzählige SEO-Mythen da draußen, die wie Kaugummi unter den Schuhen der Marketing-Welt kleben. "SEO ist tot", "KI macht alles von allein" oder "Du brauchst einfach nur ganz viele Blogbeiträge". Alles Quatsch. Wenn du wissen willst, was wirklich funktioniert, musst du die Motorhaube aufmachen, dir die Hände schmutzig machen und den Motor live analysieren.
 
 Genau das haben Roland Golla von [Never Code Alone](https://nevercodealone.de/) und ich in einem Livestream getan. Eine völlig transparente, schonungslose und öffentliche [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/). Kein theoretisches Bullshit-Bingo, sondern harte Praxis. Wir haben uns angeschaut, warum reiner Info-Traffic manchmal gefährlich sein kann, wie man von "PHP-Schulungen" zu "Vibe-Coding-Beratung" transformiert und warum du erst deine SEO-Hausaufgaben machen musst, bevor du von GEO träumst.
@@ -49,10 +47,31 @@ Die Antwort ist ein klares Jein. Wir erleben gerade einen massiven architektonis
 
 Das Web, wie wir es seit Jahrzehnten kennen, wurde für *Menschen* gebaut. Menschen brauchen HTML, ein ansprechendes Design, Navigation und Struktur. KI-Modelle hingegen sind nur auf eines aus: Fakten so schnell und strukturiert wie möglich extrahieren. Es sind eigentlich zwei völlig unterschiedliche Welten.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> 💬 Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"KI-Strategie ist Chefsache, keine Aufgabe für den Praktikanten am Freitagnachmittag. Aber bevor du versuchst, KI-Bots mit GEO-Tricks zu verführen, musst du verdammt noch mal deine normalen SEO-Hausaufgaben machen. Ein Haus ohne Fundament stürzt ein – egal ob ein Mensch oder ein KI-Crawler dagegen pustet."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „KI-Strategie ist Chefsache. Bevor du versuchst, KI-Bots mit GEO-Tricks zu verführen, musst du deine SEO-Hausaufgaben machen. Ein Haus ohne solides Fundament stürzt ein – egal ob ein menschlicher Nutzer oder ein AI-Crawler dagegen pustet.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 Es bringt absolut nichts, sich auf GEO-Hacks zu fokussieren, wenn deine Ladezeiten miserabel sind, deine internen Links ins Leere führen oder deine [Core Web Vitals](/blog/core-web-vitals-ux-bericht/) an die Zuverlässigkeit der Deutschen Bahn erinnern. Du musst dein SEO-Game zuerst durchspielen. Erst wenn du technisch sauber bist, Inhalte mit Kontext und klaren Entitäten lieferst, dann – und erst dann – bauen wir den GEO-Baustein oben drauf.
 
@@ -75,7 +94,7 @@ Bei Roland starteten wir genau diesen Prozess – live auf YouTube.
 
 ![SISTRIX und SEO-Tools Analyse](../../assets/images/blog/sistrix-vs-seranking-light-de.webp)
 
-Wir starteten die Analyse in SISTRIX. Der erste Blick auf den Sichtbarkeitsindex von `nevercodealone.de` zeigte eine extrem steile Kurve nach oben. Ein Wachstum von satten 68 %. 
+Wir starteten die Analyse in SISTRIX. Der erste Blick auf den Sichtbarkeitsindex von `nevercodealone.de` zeigte eine extrem steile Kurve nach oben. Ein Wachstum von satten 68 %. Im direkten Vergleich verschiedener Plattformen (siehe auch unsere Analyse [SISTRIX vs. SE Ranking](/blog/sistrix-vs-se-ranking/)) liefert SISTRIX gerade für historische Daten fundierte Signale.
 
 Das Wichtigste dabei: Rolands Domain existiert seit 2016/2017. **Das ist ein massiver Vorteil.** Eine lange Domain-Historie, die nicht durch Abstrafungen belastet ist, ist wie ein guter Wein. Google liebt Beständigkeit. Neue Domains müssen sich durch die Sandbox kämpfen und Vertrauen aufbauen. Wer seit fast zehn Jahren konstant guten Content liefert, bekommt einen Vertrauensvorschuss.
 
@@ -130,7 +149,7 @@ Die bittere Erkenntnis aus der SISTRIX-Analyse: Er rankte für fast nichts, was 
 
 Warum? Weil Google seine Entität (seine digitale Identität) noch hart mit dem Thema "PHP" verdrahtet hatte. Der Shift zu einem neuen Geschäftsbereich passiert im SEO nicht über Nacht. Man muss Google aktiv beibringen, dass sich die Entität erweitert hat. 
 
-Das bedeutet für Roland: Weg von den generischen AI-News, rein in tiefgehenden Experten-Content zum Thema Vibe Coding. Eigene Hub-Pages bauen, interne Links hart auf diese neuen Seiten leiten (Aggressives internes Verlinken) und so Stück für Stück das Thema als neues Core-Thema in der Domain verankern.
+Das bedeutet für Roland: Weg von den generischen AI-News, rein in tiefgehenden Experten-Content zum Thema Vibe Coding. Eigene Hub-Pages bauen, interne Links hart auf diese neuen Seiten leiten (Aggressives internes Verlinken) und so Stück für Stück das Thema als neues Core-Thema in der Domain verankern. Denn wie wir im Leitfaden [AI-Crawler sind dumm – Markdown macht den Unterschied](/blog/ai-crawler-sind-dumm-markdown/) gezeigt haben, honorieren LLMs saubere, thematisch abgegrenzte Cluster.
 
 ---
 
@@ -142,14 +161,14 @@ Ein elementarer Baustein jeder Sprechstunde ist der Blick in die Google Search C
 
 Ich sage es in aller Deutlichkeit: Wer eine Website betreibt und keine Google Search Console angelegt hat, fliegt blind im Nebel ohne Instrumente. Es ist das mächtigste, kostenlose Diagnose-Werkzeug, das Google dir direkt zur Verfügung stellt.
 
-Wir schauten uns Rolands Indexierungsstatus an. Von ca. 2.000 produzierten Seiten waren rund 1.200 indexiert. Er hatte eine saubere Sitemap eingereicht (Pflichtaufgabe Nummer 1!). 
+Wir schauten uns Rolands Indexierungsstatus an. Von ca. 2.000 produzierten Seiten waren rund 1.200 indexiert. Er hatte eine saubere Sitemap eingereicht (Pflichtaufgabe Nummer 1!). Wer kümmert sich eigentlich im Unternehmen darum? (Vgl. unsere Auswertung [Wer ist zuständig für die Google Search Console?](/blog/google-search-console-zustaendigkeit-umfrage/)).
 
 **Der Exkurs zu misslungenen Relaunches:**
 Anhand der Search Console erklärte ich, warum so viele teure Relaunches in einer Katastrophe enden. Oft wird das komplette historische "Spinnennetz" an URLs (die Pfade) weggeschnitten, weil die hochbezahlte Design-Agentur lieber eine aufgeräumte Optik hat, als sich um langweilige 301-Weiterleitungen zu kümmern. Das Resultat? Google rennt gegen Wände (404-Fehler), das Vertrauen ist weg, der Traffic stürzt ins Bodenlose. Ein Relaunch ohne technische SEO-Begleitung ist finanzieller Selbstmord.
 
 ---
 
-## Unterm Strich
+### Tacheles am Ende
 
 Die SEO-Sprechstunde mit Roland war ein Paradebeispiel dafür, wie man sich von Vanity-Metriken (hoher Info-Traffic) löst und anfängt, auf das Konto einzuzahlen, das am Monatsende die Rechnungen bezahlt. 
 
@@ -157,14 +176,6 @@ Die drei Kernaufgaben für Roland (und für dich, wenn du ähnliche Probleme has
 1. **Fokus-Seiten aufbauen:** Bau eigene Landingpages für deine geldwerten Suchwörter (z.B. Schulung vs. Training).
 2. **Entitäten stärken:** Bring deine neuen Kernthemen (Vibe Coding) durch gezielte, interne Strukturierung so prominent nach vorne, dass Google deinen thematischen Shift versteht.
 3. **Hausaufgaben erledigen:** Meta-Titles anpassen, Indexierung in der Search Console überwachen und Info-Traffic-Leichen aussortieren oder zumindest in den Newsletter leiten.
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit, dein Projekt auf den Grill zu legen?</h3>
-  <p class="mb-6">Wenn du jetzt denkst: <em>"Verdammt, das brauche ich auch für meine Seite!"</em> – dann zögere nicht. Keine langweiligen PDFs, keine Phrasen, sondern direktes Hands-on. Wir finden heraus, warum die Konkurrenz oben steht und wo deine versteckten Umsatz-Hebel liegen.</p>
-  <a href="https://teleschmie.de/seo-sprechstunde/" class="btn-primary inline-flex">Jetzt SEO-Sprechstunde anfragen</a>
-</div>
-
-ALOHA! 🌻✌️
 
 ---
 
@@ -198,4 +209,19 @@ ALOHA! 🌻✌️
     </div>
   </div>
   <script src="/js/youtube-facade.js" defer></script>
+</div>
+
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>

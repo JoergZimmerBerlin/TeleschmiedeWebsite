@@ -25,9 +25,7 @@ faqs:
     answer: "Ja, es ist eine absolute Best Practice der IT-Sicherheit, API-Keys regelmäßig auszutauschen. Behandle deinen SE Ranking API-Key wie den Schlüssel zu deinem Bankkonto. Speichere ihn lokal immer in einer `.env.local`-Datei, pushe ihn niemals in ein Git-Repository und teile ihn niemals unverschlüsselt in Chat-Programmen wie Slack oder WhatsApp. Solltest du auch nur den leisesten Verdacht haben, dass der Key kompromittiert wurde, generiere im SE Ranking Dashboard sofort einen neuen und lösche den alten."
 ---
 
-Moin! 🌻
-
-Mein Kumpel <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Maximilian D. Muhr</a> - ja, der, den ich schon [im SEOpresso-Podcast-Artikel](../seopresso-podcast-maximilian-muhr/) erwähnt habe - saß mit mir letzte Woche beim Kaffee und erzählte mir eine Geschichte, die mich seitdem nicht loslässt. Er nutzt seit einer Weile eine **SEO API von einem bekannten SEO-Tool mit Claude Code** für automatisierte SEO-Analysen - sauber aufgesetzt, Wrapper gebaut, alles gut.
+Mein Kumpel <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Maximilian D. Muhr</a> - ja, der, den ich schon im [SEOPRESSO Podcast Artikel](/blog/seopresso-podcast-maximilian-muhr/) erwähnt habe - saß mit mir letzte Woche beim Kaffee und erzählte mir eine Geschichte, die mich seitdem nicht loslässt. Er nutzt seit einer Weile eine **SEO API von einem bekannten SEO-Tool mit Claude Code** für automatisierte SEO-Analysen - sauber aufgesetzt, Wrapper gebaut, alles gut.
 
 Bis an einem dieser Tage, an dem man irgendwas schnell testen will.
 
@@ -86,10 +84,31 @@ mkdir seo-analyse && cd seo-analyse
 claude
 ```
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Claude Code ist wie ein Praktikant, der wirklich liest, was du sagst. Erklär ihm, was du willst, lass ihn schreiben, prüfe - fertig."</p>
-</div>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ein API-Key ohne Daily-Limit ist wie ein Sportwagen ohne Bremsen: theoretisch aufregend, praktisch ruinös. Wer Coding-Agenten mit Live-APIs verbindet, muss Budget-Guardrails von Minute eins an in Stein meißeln.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 Meinen ersten echten Prompt an Claude Code habe ich fast eins zu eins so eingetippt:
 
@@ -198,7 +217,22 @@ Wenn du einmal den Wrapper hast, sind alle weiteren Endpunkte eine Sache von fü
 
 <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> belohnt strukturierte Setups. Die API-Docs sind gut, die Endpunkte gut sortiert. Aber Daily-Limits muss man selbst bauen. Jetzt weißt du, wie.
 
-Im nächsten Teil der Serie sortiere ich, was die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API eigentlich alles kann: **Ein Kompass durch die Endpunkte**. Sechs Kategorien, Kosten-Tabelle, Use-Cases. Teuerste Abfrage: 7.500 Credits. Günstigste: null. Dazwischen liegt eine Menge SEO-Arbeit.
+Im nächsten Teil der Serie sortiere ich, was die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API eigentlich alles kann: im [SE Ranking API Endpunkte Kompass](/blog/se-ranking-api-endpunkte-kompass/). Sechs Kategorien, Kosten-Tabelle, Use-Cases. Teuerste Abfrage: 7.500 Credits. Günstigste: null. Dazwischen liegt eine Menge SEO-Arbeit.
 
-Spart euch den 10k-Schock. Baut das Limit jetzt. ALOHA! 🌻
+Spart euch den 10k-Schock. Baut das Limit jetzt.
+
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über SE Ranking API und Claude Code Integrationen.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 

@@ -15,7 +15,7 @@ key_takeaways:
   - "Freelancer Team bietet die geballte Power einer Agentur, aber mit der Flexibilität von Einzelkämpfern."
 faqs:
   - question: "Was genau ist das Freelancer Team auf der OMR?"
-    answer: "Moin! 🌻 Das Freelancer Team ist ein riesiger Zusammenschluss von mittlerweile über 100 unabhängigen Expert*innen aus allen Bereichen des Online Marketings. Auf der OMR sind wir mit einer starken Delegation von 25 Leuten vertreten. Wir decken alles ab: von Google Ads über SEO bis hin zu E-Commerce und Webdesign. Statt als Einzelkämpfer auf der OMR unterzugehen, haben wir uns zusammengetan, um einen gemeinsamen Stand zu rocken. Geballte Kompetenz auf einem Fleck!"
+    answer: "Das Freelancer Team ist ein riesiger Zusammenschluss von mittlerweile über 100 unabhängigen Expert*innen aus allen Bereichen des Online Marketings. Auf der OMR sind wir mit einer starken Delegation von 25 Leuten vertreten. Wir decken alles ab: von Google Ads über SEO bis hin zu E-Commerce und Webdesign. Statt als Einzelkämpfer auf der OMR unterzugehen, haben wir uns zusammengetan, um einen gemeinsamen Stand zu rocken. Geballte Kompetenz auf einem Fleck!"
   - question: "Wo genau finden wir euren Stand auf der OMR in Hamburg?"
     answer: "Du findest uns in Halle B6 an Stand K12. Ein kleiner Geheimtipp: Wir sind ganz in der Nähe der Food Area. Du kannst dir also einen Snack holen und direkt im Anschluss mit uns über dein nächstes Online Marketing Projekt fachsimpeln. Besser geht's nicht!"
   - question: "Warum tretet ihr als Team auf und nicht als klassische Agentur?"
@@ -23,16 +23,40 @@ faqs:
   - question: "Welche Disziplinen deckt das Freelancer Team vor Ort ab?"
     answer: "Wir haben Experten für Paid & Performance (Google Ads, Meta Ads), SEO & Organic Growth, E-Commerce & Webdesign (Shopify, Shopware), Technik (WordPress, KI) sowie Design, Marke & Content. Egal welches Problem du hast, an Stand B6 K12 findest du den passenden Ansprechpartner."
   - question: "Kann ich einfach so vorbeikommen oder brauche ich einen Termin?"
-    answer: "Aloha! 🌻✌️ Komm einfach vorbei! Wir freuen uns über jeden Besuch. Egal ob du ein konkretes Projekt hast, nach Kooperationspartnern suchst oder einfach nur Hallo sagen willst. Natürlich kannst du mir auch vorab eine PM auf LinkedIn schreiben, damit wir sicherstellen, dass wir uns nicht verpassen. Aber spontan ist immer gut!"
+    answer: "Komm einfach vorbei! Wir freuen uns über jeden Besuch. Egal ob du ein konkretes Projekt hast, nach Kooperationspartnern suchst oder einfach nur Hallo sagen willst. Natürlich kannst du mir auch vorab eine Nachricht auf LinkedIn schreiben, damit wir sicherstellen, dass wir uns nicht verpassen. Aber spontan ist immer gut!"
 ---
 
 ## Das Freelancer Team geht mit 25 Leuten zur OMR. Unglaublich, aber wahr!
 
-Moin! 🌻
-
 Wer hätte das gedacht? Wir sind mittlerweile ein Netzwerk von über 100 Expert*innen – und eine starke Delegation von stolzen **25 Leuten** geht dieses Jahr gemeinsam zur OMR (Online Marketing Rockstars) nach Hamburg. Das ist kein Scherz, sondern die volle Ladung Freelancer-Power! Triff unser Freelancer Team am **5. und 6. Mai in Hamburg**. 
 
 Wir haben uns einen richtig genialen Spot gesichert: **Halle B6, Stand K12**. Und das Beste daran? Wir sind direkt in der Nähe der Food Area. Du kannst also deinen Hunger stillen und danach direkt zu uns rüberkommen, um über digitales Wachstum, SEO, Paid Ads oder E-Commerce zu sprechen. Es wird voll, es wird laut, und es wird unglaublich produktiv.
+
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Große Agenturen verkaufen dir gerne Junior-Power zu Senior-Preisen. Bei unserem 25-köpfigen Freelancer Team auf der OMR bekommst du geballte Senior-Expertise, direkte Wege und messbare Ergebnisse ohne Wasserkopf.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
 ---
 
@@ -40,7 +64,7 @@ Wir haben uns einen richtig genialen Spot gesichert: **Halle B6, Stand K12**. Un
 
 Stell dir vor, du hast ein komplexes Projekt und brauchst Experten für verschiedene Disziplinen. Normalerweise müsstest du dir mühsam einzelne Freelancer zusammensuchen, deren Verfügbarkeit checken, die Kommunikation koordinieren und hoffen, dass alle am Ende an einem Strang ziehen. Oder du bezahlst teures Geld für eine große Agentur, bei der am Ende ein Junior-Berater dein Projekt betreut, während die eigentliche Arbeit von Praktikanten erledigt wird. 
 
-Nicht mit uns! An unserem Stand auf der OMR triffst du Freelancer*innen aus allen relevanten Disziplinen des Online Marketings. Wir sind unabhängige Einzelkämpfer, die sich zu einer unschlagbaren Spezialeinheit zusammengeschlossen haben. 
+Nicht mit uns! An unserem Stand auf der OMR triffst du Freelancer*innen aus allen relevanten Disziplinen des Online Marketings. Wir sind unabhängige Einzelkämpfer, die sich zu einer unschlagbaren Spezialeinheit zusammengeschlossen haben. Wie wir bereits im Artikel [Digitaler Unternehmensberater statt SEO](/blog/digitaler-unternehmensberater-statt-seo/) herausgearbeitet haben, fordert der Markt heute ganzheitliche Problemlöser statt starrer Silo-Dienstleister.
 
 Wir decken alle Kanäle und Systeme ab. Alles aus Web, Organic, Paid und was eben noch so dazu gehört. Das Besondere: Wir haben einzelne Experten für jeden speziellen Bereich, sind aber organisiert wie ein echtes Team. Das bedeutet für dich: Du hast immer einen direkten Draht zum Experten, der die Arbeit auch wirklich ausführt. Tacheles, absolute Transparenz und echtes Hands-on-Wissen.
 
@@ -60,7 +84,7 @@ Jeder Einzelne von ihnen hat schon Millionen-Budgets verwaltet und kennt die Tri
 
 ### SEO, GEO und Organic Growth: Sichtbarkeit, die bleibt
 
-Mein absolutes Steckenpferd! Wenn du nachhaltig wachsen willst, kommst du an solider Suchmaschinenoptimierung nicht vorbei. Keine Tricks, sondern ehrliches Handwerk. Wir sorgen dafür, dass du gefunden wirst, wenn deine Kunden nach dir suchen. Und mit dem Aufstieg von AI im Search-Bereich (Stichwort GEO) wird es noch spannender. Wir bereiten deine [Crawler](/glossar/crawler/)-Infrastruktur so vor, dass du auch in Zukunft ganz oben stehst.
+Mein absolutes Steckenpferd! Wenn du nachhaltig wachsen willst, kommst du an solider Suchmaschinenoptimierung nicht vorbei. Keine Tricks, sondern ehrliches Handwerk. Wir sorgen dafür, dass du gefunden wirst, wenn deine Kunden nach dir suchen. Und mit dem Aufstieg von AI im Search-Bereich (Stichwort [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/)) wird es noch spannender. Wir bereiten deine [Crawler](/glossar/crawler/)-Infrastruktur so vor, dass du auch in Zukunft ganz oben stehst.
 
 Für den Bereich SEO und Organic Growth sind vor Ort:
 - **Uta Leyke-Hess**
@@ -173,10 +197,26 @@ Vergiss für einen Moment die Zoom-Calls und Google Meets. Lass uns persönlich 
 - **Ort:** Hamburg Messe
 - **Stand:** Halle B6, Stand K12 (Nähe Food Area!)
 
-Bist du vor Ort? Dann komm rum. Schreib mir gerne vorher auf LinkedIn, dann machen wir einen festen Slot aus, damit wir auch wirklich Zeit füreinander haben. 
+Bist du vor Ort? Dann komm rum. Schreib mir gerne vorher auf LinkedIn, dann machen wir einen festen Slot aus, damit wir auch wirklich Zeit füreinander haben. Wir freuen uns extrem auf Hamburg, auf die OMR und vor allem: auf den persönlichen Austausch mit dir!
 
-Wir freuen uns extrem auf Hamburg, auf die OMR und vor allem: auf DICH!
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-gehen-mit-25-leuten-zur-omr-unglaublich-activity-7454131442441252864-6h7i" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 
-Hau rein und bis Mai,
+---
 
-**Dein Jörg 🌻**
+### Weiterführende Artikel
+* **Lese-Tipp:** [LinkedIn SEO: Das Experten-Forum nutzen](/blog/linkedin-ist-ein-forum-seo/)
+* **Lese-Tipp:** [SEO-Sprechstunde erklärt: Live-Audit statt 50-Seiten PDF](/blog/seo-sprechstunde-erklaert/)
+* **Lese-Tipp:** [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/)

@@ -1,115 +1,117 @@
 ---
 title: "Mission OMR 2026: 25 Freelancer vs. Großagentur"
 meta_title: "OMR 2026: Mission Freelancer vs Agentur (2026)"
+category: "Events & Networking"
 description: "OMR 2026: Das Freelancer Team rockt Halle B6. Warum 25 Experten mit klarer Mission das klassische Großagentur-Modell alt aussehen lassen. (2026)"
 meta_description: "OMR 2026: Das Freelancer Team rockt Halle B6. Warum 25 Experten mit klarer Mission das klassische Großagentur-Modell alt aussehen lassen. (2026)"
 date: "2026-05-06"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K"
 image: "../../assets/images/blog/omr-2026-freelancer-team-live.jpg"
 image_alt: "Das Freelancer Team live auf der OMR 2026 an Stand B6 K12"
-category: "Events & Networking"
 tags: ["OMR 2026", "Freelancer Team", "Online Marketing", "Networking", "Tacheles"]
 key_takeaways:
-  - "Geballte Senior-Expertise: 25 Spezialisten an einem Stand (Halle B6, K12) statt anonymer Großagentur-Strukturen."
-  - "Echtes Hands-on-Wissen: Du sprichst direkt mit den Leuten, die die Arbeit machen – keine Junior-Berater, kein Bullshit-Bingo."
-  - "Interdisziplinäre Schlagkraft: Von SEO und GEO über Paid Social bis Brand Design – alles vernetzt, aber ohne Silo-Mentalität."
+  - "Geballte Senior-Expertise: 25 Spezialisten an einem gemeinsamen Messestand in Halle B6 (Stand K12) fordern traditionelle Großagenturen heraus."
+  - "Hands-on statt Floskeln: Auftraggeber sprechen direkt mit den Machern, die Kampagnen operativ steuern und Code optimieren."
+  - "Agile Schlagkraft: Von SEO und GEO über Paid Media bis Brand Design greifen alle Disziplinen ohne bürokratische Silos ineinander."
 faqs:
-  - question: "Warum sollte ich zum Freelancer-Stand kommen statt zu einer großen Agentur?"
-    answer: "Ganz ehrlich? Weil du bei uns keine Junior-Berater triffst, die auf deine Kosten das Handwerk lernen. Wir sind 25 gestandene Experten, die seit Jahren (in meinem Fall seit 2001) im Geschäft sind. Bei uns gibt es kein Marketing-Blabla, sondern Tacheles. Du bekommst direktes Feedback von den Leuten, die die Kampagnen auch wirklich aufsetzen und optimieren. Das ist effizienter, schneller und am Ende des Tages deutlich profitabler für dein Business."
-  - question: "Wo genau finde ich euch auf der OMR 2026?"
-    answer: "Moin! 🌻 Du findest uns in Halle B6, Stand K12. Kleiner Orientierungspunkt für alle, die Hunger mitbringen: Wir sind direkt in der Nähe der Food Area. Du kannst dir also einen Burger holen und direkt danach bei uns über deine [SEO Beratung](/glossar/seo-beratung/) oder dein [Conversion Rate](/glossar/conversion-rate/) Optimierung schnacken. Wir freuen uns auf jeden, der Lust auf echten Austausch hat!"
-  - question: "Welche Fachbereiche deckt das Team vor Ort ab?"
-    answer: "Wir haben das volle Programm am Start. Das Team ist in fünf Spezialeinheiten aufgeteilt: Paid & Performance (Google/Meta Ads), SEO & [GEO](/glossar/geo/) (Organic Growth), E-Commerce (Shopify/Shopware), Technik & KI (WordPress/Automatisierung) sowie Design & Brand Content. Egal wo der Schuh drückt – an unserem Stand sitzt garantiert jemand, der genau dieses Problem schon dutzendfach gelöst hat."
-  - question: "Was kostet ein Erstgespräch oder eine Beratung bei dir, Jörg?"
-    answer: "Für alle, die nicht nur schnacken, sondern direkt Ergebnisse sehen wollen, biete ich meinen bewährten 'Website Roast' an – meine [SEO Sprechstunde](/blog/seo-sprechstunde-so-laeuft-sie-ab/). Für 480 € knöpfe ich mir deine Seite zwei Stunden lang vor und lege die Finger in die Wunde. Kein 'hätte, könnte, würde', sondern konkrete To-dos. Auf der OMR können wir natürlich erstmal unverbindlich schauen, ob die Chemie stimmt. ALOHA! 🌻✌️"
+  - question: "Warum sollte ein Unternehmen den Freelancer-Stand besuchen statt eine Großagentur zu wählen?"
+    answer: "Weil an unserem Messestand keine Junior-Vertriebler stehen, die Standard-Folien präsentieren, sondern 25 gestandene Praktiker mit jahrzehntelanger Projekterfahrung. Bei uns sprechen Sie direkt mit den Experten, die Ihre Kampagnen analysieren, Quellcode optimieren und Werbebudgets profitabel steuern. Das spart Zeit, eliminiert bürokratischen Wasserkopf und liefert sofort greifbare Ergebnisse."
+  - question: "Wo genau befindet sich der Stand des Freelancer Teams auf der OMR 2026?"
+    answer: "Sie finden unser Team in Halle B6 an Stand K12 – direkt neben dem Food-Court. Die perfekte Gelegenheit, bei einem kurzen Snack unverbindlich über organische Sichtbarkeit, Performance-Marketing oder geplante Relaunches zu sprechen."
+  - question: "Welche Fachbereiche sind am Messestand vertreten?"
+    answer: "Unser Team deckt fünf spezialisierte Cluster ab: Paid Advertising (Google Ads, Meta Ads, Paid Social), SEO und Generative Engine Optimization (GEO), E-Commerce (Shopify, Shopware), Web-Infrastruktur und KI-Automatisierung sowie Marken- und UX-Design. Für jede Herausforderung steht ein praxiserprobter Experte bereit."
+  - question: "Wie kann man nach der Messe mit Jörg Zimmer zusammenarbeiten?"
+    answer: "Für alle, die ihre Website ohne lange Vorlaufzeiten gründlich prüfen lassen wollen, bietet die zweistündige SEO-Sprechstunde den idealen Einstieg. Wir analysieren Schwachstellen live im Screensharing und entwickeln einen priorisierten Maßnahmenplan für messbare Ranking-Zuwächse."
 ---
 
-## 25 Leute. Ein Stand. Eine Mission: Das Freelancer Team auf der OMR 2026
+Mit 25 Spezialisten auf dem OMR Festival in Hamburg: Ein Stand, eine gemeinsame Mission und kompromissloser Tacheles-Klartext für moderne Marketing-Entscheider.
 
-Moin! 🌻
+Als digitaler Berater mit 25 Jahren Praxiserfahrung habe ich unzählige Agenturmodelle kommen und gehen sehen. Was sich in vielen Großagenturen etabliert hat, frustriert zunehmend anspruchsvolle Auftraggeber: Im Verkaufsgespräch glänzen redegewandte Senior-Berater, doch sobald der Vertrag unterschrieben ist, wird das Projekt an wechselnde Berufseinsteiger delegiert.
 
-Ja, es ist genauso wild, wie es klingt. Wir sind mit **25 Expert*innen** auf der OMR in Hamburg eingeritten. Ein Stand, eine Mission – und jede Menge Tacheles. Wer mich kennt, weiß: Ich bin seit 2001 dabei. Ich habe gesehen, wie Agenturen kommen und gehen, wie Modelle aufgebläht wurden und am Ende oft nur noch heiße Luft beim Kunden ankam. 
+Das Freelancer Team beweist auf der OMR 2026, dass es einen radikal besseren Weg gibt: **Senior-Expertise ohne bürokratischen Wasserkopf.**
 
-Das Freelancer Team ist die Antwort darauf. Wir sind keine Einzelkämpfer, die im stillen Kämmerlein vor sich hin wurschteln. Wir sind Spezialisten, die zusammen liefern. Ohne den Wasserkopf einer Großagentur, aber mit der geballten Power von über 100 Jahren Marketing-Erfahrung am Stand.
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wir brauchen keine aufgeblähten Agenturstrukturen, um Großes zu bewegen. 25 spezialisierte Freelancer an einem Stand liefern mehr handfeste Ergebnisse in zwei Tagen als mancher Agenturapparat im ganzen Geschäftsjahr.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
+## Warum das Bauchladen-Modell ausgedient hat
+
+In klassischen Agenturen dominieren Silos: Die SEO-Abteilung spricht selten mit dem Paid-Team, und die Web-Entwickler erfahren erst nach dem Launch von Tracking-Anforderungen. Das Resultat ist handwerklicher Pfusch am Bau, der Kunden viel Geld und Nerven kostet.
+
+An unserem Stand B6 K12 sitzen die Praktiker direkt zusammen: Wer über Sichtbarkeit spricht, kann in derselben Minute den Spezialisten für Paid Ads und den Shop-Architekten an den Tisch holen.
 
 ![Mission OMR 2026: 25 Experten, ein Stand](../../assets/images/blog/omr-2026-freelancer-team-mission.png)
 
+## Die fünf Spezialeinheiten an Stand B6 K12
 
----
+Um Messebesuchern maximale Orientierung zu bieten, haben wir unsere 25 Experten in fünf handlungsstarke Cluster gegliedert:
 
-## Warum wir das "Bauchladen-Modell" hassen
+| Kompetenz-Cluster | Fokus & Schwerpunkte | Kernmitglieder am Stand |
+|---|---|---|
+| **Paid & Performance Media** | Skalierung profitabler Werbekampagnen auf Google, Meta und TikTok | Andreas Absmeier, Matthias Hentschel, Christoph Buder, Inan Nacar, Pia-Andrea Lehmann |
+| **Organic Growth & GEO** | Nachhaltige Sichtbarkeit in Suchmaschinen und generativen KI-Modellen | Jörg Zimmer, Uta Leyke-Hess, Kimberly Marrek, Dirk Veit, Sebastian Wicke |
+| **E-Commerce & Shop-Systeme** | Conversion-starke Architekturen für Shopify und Shopware | Tobias Bungers, Tim Nagel, Kostas Strigkos |
+| **Technik, CMS & Automation** | Robuste WordPress-Setups, API-Anbindungen und KI-Workflows | Silvio Endruhn, Markus Koelmann, Raimund Herms |
+| **Brand Identity & Content** | Wiedererkennbares Branding und vertrauensbildende Nutzerführung | Florian Hertwig, Rainer von Rottenburg, Jonathan Scheurich |
 
-In der klassischen Agenturwelt läuft es oft so: Du unterschreibst bei einem Senior-Sales, und sobald die Tinte trocken ist, landet dein Projekt bei einem Junior-Account-Manager. Der ist zwar nett, hat aber oft weniger Erfahrung als du selbst. Das Ergebnis? **Pfusch am Bau**. 
+### 1. Performance Marketing mit Substanz
+Hier wird nicht blind Budget verbrannt, sondern jeder investierte Euro an messbarem Deckungsbeitrag gemessen. Matthias Hentschel, Experte für Paid Social mit über 50 Millionen Euro verwaltetem Ad-Spend, bringt es auf den Punkt: *„Wir analysieren das Kaufverhalten datenbasiert und psychologisch, um D2C-Marken zu echter Marktdominanz zu führen.“*
 
-Bei uns an **Stand B6, K12** ist das anders. Du triffst die Leute, die wirklich im Code graben, die [Crawler](/glossar/crawler/) bändigen und Millionen-Budgets in Google Ads verwalten. Keine Silos, kein "dafür ist die andere Abteilung zuständig". Wenn wir über dein Projekt sprechen, sitzen die Experten für SEO, Paid Social und Design an einem Tisch (oder an einem Stand).
+### 2. Organische Sichtbarkeit & Generative Engine Optimization
+In meinem Kernbereich geht es um weit mehr als bloße Keyword-Rankings. Wir machen Websites fit für moderne Suchmaschinen-[Crawler](/glossar/crawler/) und bereiten Marken auf [GEO (Generative Engine Optimization)](/glossar/geo/) vor, damit sie in KI-Antworten von Google und ChatGPT als primäre Quelle zitiert werden.
 
----
+### 3. E-Commerce & Conversion-Optimierung
+Traffic ist wertlos, wenn der Checkout hakt. Unsere Shop-Experten optimieren die [Usability](/glossar/usability/) und [Conversion Rate](/glossar/conversion-rate/) direkt am lebenden System, um Warenkorbabbrüche systematisch zu reduzieren.
 
-## Die Spezialeinheiten vor Ort: Wer liefert was?
+## Stimmen aus der Community: Ehrlicher Real-Talk
 
-Wir haben uns für die OMR in klare Kompetenz-Cluster aufgeteilt. So findest du sofort den richtigen Ansprechpartner für dein Problem.
+Die Reaktionen auf unseren gemeinsamen Auftritt auf LinkedIn unterstreichen den Nerv der Zeit:
 
-### 1. Paid & Performance 🎯
-Hier wird nicht mit Budget gezockt, sondern investiert. Unsere Experten wissen genau, wie man aus jedem Euro das Maximum rausholt.
-*   **Die Cracks:** Andreas Absmeier, Christoph Buder, Matthias Hentschel, Yahia Chahrour 🍉, Inan Nacar, Sebastian Fuhrmann, Mike Bader, Pia-Andrea Lehmann.
+**Florian Hertwig** betonte die wachsende Bedeutung strategischer Entscheidungen:
+> *„In Zeiten allgegenwärtiger KI liegt der wahre Hebel nicht mehr im rein mechanischen Machen, sondern im mutigen Entscheiden. Eine klare Markenidentität trennt Gewinner von Verlierern.“*
 
-### 2. SEO, GEO & Organic Growth 🌱
-Mein Revier. Wir sprechen über echte Sichtbarkeit, die bleibt. Nicht nur Rankings (Vanity-Metriken!), sondern Umsatz. Wir bereiten dich auf die Zukunft der KI-Suche ([GEO](/glossar/geo/)) vor.
-*   **Die Experten:** Uta Leyke-Hess, Kimberly Marrek, Jörg Zimmer 🌻, Dirk Veit, Sebastian Wicke, Thomas Kuchling.
+**Raimund Herms** hob den ungefilterten Austausch hervor:
+> *„Der wertvollste Teil der OMR ist nicht das Hochglanz-Bühnenprogramm, sondern der ehrliche Austausch unter Machern darüber, was in der realen Geschäftswelt gerade wirklich funktioniert.“*
 
-### 3. E-Commerce, Shops & Webdesign 🛒
-Ein Shop muss verkaufen. Punkt. Wenn die [Usability](/glossar/usability/) hakt, nützt dir der beste Traffic nichts.
-*   **Die Macher:** Tobias Bungers, Tim Nagel, Kostas Strigkos 🦐.
+## Dein nächster Schritt zu messbarem Wachstum
 
-### 4. Technik, WordPress, KI & Projektpraxis 🤖
-Das Rückgrat. Wenn die Technik nicht steht, bricht das Kartenhaus zusammen. Wir bauen Lösungen, die funktionieren.
-*   **Die Techniker:** Silvio Endruhn, Markus Koelmann, Raimund Herms.
+Wenn du keine Lust mehr auf endlose Agenturschleifen hast und stattdessen direkte Zusammenarbeit mit erfahrenen Senior-Beratern suchst, besuche uns in Halle B6 an Stand K12.
 
-### 5. Design, Marke & Content 🎨
-Das Auge isst mit, aber die Strategie entscheidet. Brand Design, das wirkt und konvertiert.
-*   **Die Kreativen:** Florian Hertwig, Rainer von Rottenburg, Jonathan Scheurich.
+Möchtest du deine Website nach der Messe einem gründlichen Check unterziehen? In der [SEO-Sprechstunde](/seo-sprechstunde/) analysieren wir deine organische Präsenz in zwei intensiven Stunden und erarbeiten eine glasklare Roadmap für dein Wachstum. Weiterführende Details findest du in unserem Leitfaden zur [SEO-Beratung](/glossar/seo-beratung/).
 
----
-
-## LinkedIn Insights: Tacheles aus der Community
-
-Ich habe auf LinkedIn nachgefragt, was die Leute eigentlich von dieser "Freelancer-Invasion" halten. Die Resonanz war – gelinde gesagt – überwältigend. Hier ein kleiner Deep-Dive in die Köpfe meiner Mitstreiter:
-
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Paid Social Insights</p>
-  <p class="italic text-dark mb-0">"Ich biete strategisches, psychologisches und datengetriebenes Paid Social für D2C-Brands. Über 50 Mio. € Ad-Spend-Erfahrung. Wer wissen will, wie man Marktanteile wirklich ausbaut, findet mich an Stand K12." – <strong>Matthias Hentschel</strong></p>
+<!-- LinkedIn CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und dem Freelancer Team auf LinkedIn über Messe-Insights, Agenturmodelle und Senior-Expertise.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Brand Design Tacheles</p>
-  <p class="italic text-dark mb-0">"In Zeiten von KI liegt der Unterschied nicht im Machen, sondern im Entscheiden. Brand Design für Unternehmen in der Neuausrichtung – klar im Ausdruck, präzise in der Umsetzung." – <strong>Florian Hertwig</strong></p>
-</div>
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Interim Management Real-Talk</p>
-  <p class="italic text-dark mb-0">"Ich freu mich mehr über den Austausch über das, was aktuell in der Business Welt so abgeht, als über das eigentliche Programm der OMR. Sorry OMR!" – <strong>Raimund Herms</strong></p>
-</div>
-
----
-
-## Komm vorbei: Halle B6, Stand K12
-
-Wir sind noch bis morgen in Hamburg. Wenn du also:
-1. Keine Lust mehr auf anonyme Agentur-Betreuung hast.
-2. Spezialwissen suchst, das wirklich in die Tiefe geht.
-3. Oder einfach nur mal einen echten [SEO Dinosaurier](/glossar/seo-beratung/) live sehen willst.
-
-...dann komm rum. Wir sind direkt bei der Food Area (Burger + SEO = ❤️). 
-
-Lass uns über dein Projekt reden. Ehrlich, direkt und ohne Umwege. 
-
-Ich freue mich auf dich!
-
-ALOHA! 🌻✌️
-
-**Dein Jörg 🌻**
-
----
-
-*Dieser Beitrag basiert auf einer lebhaften Diskussion und einem [LinkedIn-Beitrag](https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_omr26-activity-7457014777974865920-RB3K).*

@@ -1,97 +1,119 @@
 ---
 title: "SEO-Sprechstunde: Website-Check & Sichtbarkeit"
 meta_title: "SEO-Sprechstunde: Check & Sichtbarkeit (2026)"
+category: "SEO Praxis"
 description: "SEO-Sprechstunde: Was bringt der Website-Check mit Jörg Zimmer? Entdecke den Prozess, den echten Mehrwert und für wen das Format optimal ist. (2026)"
 meta_description: "SEO-Sprechstunde: Was bringt der Website-Check mit Jörg Zimmer? Entdecke den Prozess, den echten Mehrwert und für wen das Format optimal ist. (2026)"
 date: "2026-01-03"
+linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/profile/katze-seo-hoodie.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Die Grill-Analyse"
-category: "SEO Praxis"
 tags: ["Sprechstunde"]
 key_takeaways:
-  - "Die Sprechstunde ist keine nette Plauderstunde, sondern eine strukturierte Live-Analyse nach dem 80/20-Prinzip."
-  - "Vor dem Call investiere ich ca. 30 Minuten in dein Projekt – bei Minute 1 starten wir direkt im Thema, nicht bei Null."
-  - "Du bekommst Aufzeichnung, KI-Zusammenfassung und individuellen Maßnahmenplan – keine generische Checkliste."
+  - "Die SEO-Sprechstunde ist kein unverbindlicher Kaffeeklatsch, sondern eine datengestützte Live-Diagnose nach dem 80/20-Hebel-Prinzip."
+  - "Vor jedem Call analysiere ich Search Console, Ranking-Historie und Wettbewerber – wir starten in Minute 1 direkt bei den echten Hebeln."
+  - "Ergebnis des Calls: Vollständige Videoaufzeichnung, KI-gestützte Dokumentation und ein maßgeschneiderter 90-Tage-Schlachtplan."
 faqs:
-  - question: "Was genau macht Jörg in den zwei Stunden der SEO-Sprechstunde?"
-    answer: "Ich lege deine Website auf den Grill. Ich prüfe die Kruste (Design und Frontend-Performance), die Textur (Content-Qualität und Informationsarchitektur) und den Garraum (technisches Fundament). Wir arbeiten per Screen-Sharing live zusammen. Du stellst Fragen, ich gebe direkte Antworten. Wir priorisieren nach dem 80/20-Prinzip: Was sind die 20% deiner Probleme, deren Behebung dir 80% des Erfolgs bringt? Kein seitenlanges Audit-PDF, das in der Schublade landet, sondern echte Erkenntnisse, die du am nächsten Tag umsetzen kannst."
-  - question: "Wie bereitet sich Jörg vor dem Call vor?"
-    answer: "Ich investiere ca. 30 Minuten in dein Projekt, bevor wir uns sehen. In dieser Zeit starte ich meine Tools: Google Search Console, SISTRIX, Screaming Frog. Ich schaue mir an, für welche Keywords du bereits rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine technischen Core Web Vitals. Und ich mache einen Quick-Check deiner Konkurrenz. Wenn wir den Call starten, habe ich bereits ein klares Bild im Kopf. Wir fangen nicht bei Null an. Wir steigen direkt bei 100 ein."
-  - question: "Was bekommst du nach der Sprechstunde als Ergebnis?"
-    answer: "Nach dem Call erhältst du drei Dinge: Erstens, die vollständige Aufzeichnung des Calls, damit du dich voll auf das Gespräch konzentrieren kannst ohne mitschreiben zu müssen. Zweitens, eine KI-gestützte Zusammenfassung der wichtigsten Punkte und Erkenntnisse. Drittens – und das ist der wertvollste Teil – einen individuellen Maßnahmenplan. Kein generisches SEO-Checklisten-Template, das ich für alle ausdrucke, sondern dein spezifischer Schlachtplan: Was du (oder dein Entwickler) als Nächstes konkret tun muss."
-  - question: "Für wen ist die SEO-Sprechstunde wirklich geeignet?"
-    answer: "Die Sprechstunde ist für drei Typen gemacht: Für Unternehmer, die endlich verstehen wollen, warum ihr Wettbewerber bei Google über ihnen steht. Für Marketing-Manager, die eine neutrale Expertenmeinung brauchen, bevor ein fünfstelliges Budget in einen Relaunch fließt. Für Startups, die nicht die typischen SEO-Fehler der ersten zwei Jahre selbst machen wollen. Explizit NICHT geeignet: Wer glaubt, dass ich in 120 Minuten einen Zauberstab schwinge und morgen auf Platz 1 bei 'Versicherung Vergleich' steht. SEO ist Handwerk und Ausdauer. Ich liefere die Werkzeuge und die Karte – laufen musst du selbst."
+  - question: "Was genau passiert in den zwei Stunden der SEO-Sprechstunde?"
+    answer: "Wir legen deine Website ohne Umschweife auf den Grill. Im gemeinsamen Screen-Sharing durchleuchten wir die drei Kernbereiche: Erstens das Frontend und die Nutzerführung (Kruste), zweitens die redaktionelle Textur und Informationsarchitektur, drittens das technische Fundament wie Ladezeiten und Indexierung. Wir priorisieren konsequent nach dem 80/20-Prinzip: Welche 20 % der Schwachstellen blockieren aktuell 80 % deines organischen Potenzials?"
+  - question: "Wie bereitet sich Jörg Zimmer auf den Termin vor?"
+    answer: "Etwa 30 Minuten vor dem eigentlichen Call tauche ich tief in deine Domain ein. Ich analysiere deine Google Search Console, prüfe mit SISTRIX und Screaming Frog deine Ranking-Historie, decke Kannibalisierungen auf und vergleiche deine Kennzahlen mit den Top-3-Wettbewerbern. Wenn wir den Bildschirm teilen, kenne ich die blinden Flecken deiner Domain bereits genau."
+  - question: "Welche Unterlagen erhalte ich nach dem Beratungstermin?"
+    answer: "Du erhältst drei konkrete Arbeitsmittel: Die ungeschnittene Videoaufzeichnung des gesamten Calls (damit du dich voll auf das Gespräch konzentrieren kannst), eine strukturierte KI-Zusammenfassung aller besprochenen Punkte sowie einen priorisierten Maßnahmenplan mit konkreten To-Dos für dich oder deine Entwickler."
+  - question: "Für wen lohnt sich die SEO-Sprechstunde besonders?"
+    answer: "Das Format richtet sich an Geschäftsführer und E-Commerce-Verantwortliche, die wissen wollen, warum Konkurrenten dauerhaft über ihnen stehen, an Marketing-Teams vor einem teuren Relaunch zur Risikominimierung sowie an wachsende Unternehmen, die teure Agentur-Fehlgriffe vermeiden wollen. Nicht geeignet ist der Call für Personen, die über Nacht garantierte Platz-1-Wunder erwarten."
 ---
 
-Moin! 🌻
+„Was genau machst du eigentlich in diesen zwei Stunden? Ist das nur ein netter Plausch über Google-Rankings?“
 
-"Was genau machst du eigentlich in diesen zwei Stunden? Ist das nur ein netter Plausch?"
+Diese Frage höre ich regelmäßig von Unternehmern und Marketingleitern – meist begleitet von berechtigter Skepsis. Im SEO-Markt wird traditionell so viel heiße Luft in Form von bunten, aber nutzlosen 80-Seiten-Audits verkauft, dass man vor jedem Beratungsangebot erst einmal die Brandschutzversicherung prüfen möchte.
 
-Diese Frage bekomme ich oft gestellt – meistens mit einem leicht skeptischen Unterton. Und ich verstehe das vollkommen. Im SEO-Markt wird so viel heiße Luft verkauft, dass man bei jedem neuen Angebot erst mal die Brandschutzversicherung checken möchte.
+Deshalb ist es Zeit für ungeschönten Klartext über das Konzept, den realen Ablauf und den handfesten wirtschaftlichen Hebel der [SEO-Sprechstunde](/seo-sprechstunde/).
 
-Deshalb ist es Zeit für eine klare Ansage und einen echten Blick unter die Haube.
+## Das Konzept: Deine Website auf dem heißen Grill
 
-## Das Konzept: Deine Website auf den Grill
+Stell dir vor, deine Website ist ein ordentliches Stück Steak – oder ein saftiger Räuchertofu, wenn du pflanzlich unterwegs bist. Von außen sieht die Präsentation im Schaufenster meist passabel aus. Doch ob das Ganze auf den Punkt gegart ist oder im Inneren zäh und unverdaulich bleibt, merkst du erst, wenn Hitze ins Spiel kommt.
 
-Stell dir vor, deine Website ist ein ordentliches Stück Fleisch (oder Tofu, wenn dir das lieber ist). Von außen sieht es meistens ganz passabel aus. Ob es wirklich durchgegart ist oder ob es im Inneren zäh und ungenießbar ist – das merkst du erst, wenn es auf den heißen Grill kommt.
+Als Berater übernehme ich die Rolle des Grillmeisters. Ich betrachte deine Website von allen drei Seiten:
+- **Die Kruste:** Sichtbares Frontend, Benutzerführung, Conversion-Klarheit und visuelle Vertrauenssignale.
+- **Die Textur:** Content-Tiefe, thematische Relevanz, Suchintention und die [interne Verlinkung](/glossar/interne-verlinkung/).
+- **Der Garraum:** Das technische Fundament, Crawlbarkeit, [Core Web Vitals](/glossar/core-web-vitals/) und saubere Indexierung.
 
-Ich bin der Grillmeister. Ich schaue mir deine Seite von allen Seiten an:
-- **Die Kruste:** Design, Frontend, User Experience
-- **Die Textur:** Content-Qualität, Informationsarchitektur, interne Verlinkung
-- **Der Garraum:** Technisches Fundament, [Core Web Vitals](/blog/core-web-vitals-ux-bericht/), Indexierung
+Ich sage dir direkt ins Gesicht, wo dein Projekt verbrennt und an welchen Stellen es noch vollkommen roh ist – ohne Agentur-Schönrednerei und ohne vertriebliche Hintergedanken.
 
-Und ich sage dir ehrlich, ohne Marketing-Sprech und ohne Weichspüler, wo es brennt.
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Ich verkaufe keine 80-seitigen PDF-Audits, die ungeöffnet in der Schublade verstauben. In der Sprechstunde legen wir die Website live auf den Grill, eliminieren die größten Umsatzbremsen und bauen einen glasklaren Maßnahmenplan für die nächsten 90 Tage.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"Ich verkaufe keine 50-seitigen PDF-Audits, die in der untersten Schublade verstauben. Ich verkaufe Lösungen für Probleme, die dich heute nerven. Das ist der Unterschied."</p>
-</div>
+## Der Prozess: Was du für dein Investment erhältst
 
-## Was du für dein Geld bekommst: Der vollständige Prozess
+Die Beratungspauschale von 480 Euro deckt weit mehr ab als reine Telefonzeit. Dahinter steht ein strukturierter dreistufiger Prozess:
 
-Die 480 € sind nicht nur für 120 Minuten Videocall. Da steckt deutlich mehr drin:
-
-| Phase | Was passiert | Zeitinvest meinerseits |
+| Phase | Konkrete Inhalte | Zeitaufwand & Fokus |
 |---|---|---|
-| **Vorbereitung** | Search Console, SISTRIX, Konkurrenz-Check | 20 Minuten vorher |
-| **Live-Call** | Screen-Sharing, direkte Analyse, Priorisierung | 120 Minuten |
-| **Nachbereitung** | Aufzeichnung, KI-Zusammenfassung, Maßnahmenplan | 20 Minuten für die Nachbereitung |
+| **Vorbereitung (Pre-Call)** | Analyse der Google Search Console, SISTRIX-Historiencheck, Wettbewerbs-Scan | ca. 30 Minuten vor dem Termin |
+| **Live-Session (Deep Dive)** | Gemeinsames Screen-Sharing, Beantwortung deiner Fragen, 80/20-Priorisierung | 120 Minuten intensive Arbeitszeit |
+| **Nachbereitung (Assets)** | Bereitstellung der Videoaufzeichnung, KI-Summary, individueller Maßnahmenplan | ca. 30 Minuten nach dem Call |
 
-### 1. Die 20 Minuten vor dem Call
+![Der strukturierte 3-Stufen-Ablauf der SEO-Sprechstunde](../../assets/images/blog/seo-sprechstunde-ablauf-3d.webp)
 
-Bevor wir uns sehen, sitze ich bereits 20 Minuten an deinem Projekt. Ich schaue mir an, für welche Keywords du rankst (oft erfährst du hier Dinge, die du wirklich nicht wusstest). Ich prüfe deine Core Web Vitals. Ich mache einen Quick-Check deiner Konkurrenz.
+### 1. Die intensive Vorbereitung vor dem Call
+Bevor wir uns im Videocall gegenüberstehen, habe ich deine Domain bereits durchleuchtet. Ich prüfe, welche Keywords lukrativen Traffic liefern, wo Rankings unbemerkt wegbringen und wie deine Domain im Vergleich zu direkten Wettbewerbern abschneidet. 
 
-Wenn wir starten, habe ich bereits ein fertiges Bild. Wir fangen nicht bei Null an. Wir steigen bei 100 ein. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> analysiere ich deine historischen Daten und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> prüfe ich, wie gut du bereits für KI-Antworten vorbereitet bist.
+Mit Profi-Plattformen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysiere ich historische Entwicklungen, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale](https://rankscale.ai/?via=offer) parallel prüfen, ob deine Inhalte bereits in KI-Antworten stattfinden. Wenn du den Call betrittst, starten wir nicht bei Null, sondern steigen direkt bei 100 Prozent ein.
 
-### 2. Der Videocall: Action statt Blabla
+### 2. Der 120-Minuten Live-Call: Radikaler Fokus auf Action
+Im Call gibt es keine Powerpoint-Vorträge. Wir teilen den Bildschirm und arbeiten direkt an deinem lebenden Projekt:
+- *„Sollen wir diese Unterseite komplett umschreiben?“* – *„Nein, der Text ist in Ordnung. Optimiere die H1, setze drei gezielte interne Links und du gewinnst sofort zwei Positionen.“*
+- *„Warum stürzen unsere Klicks seit dem letzten Update ab?“* – Wir schauen direkt in die Search Console und identifizieren den exakten Tag, das betroffene Verzeichnis und die Ursache.
 
-In den zwei Stunden gehen wir per Screen-Sharing gemeinsam durch deine Seite. Das ist keine Vorlesung. Du stellst Fragen, ich gebe Antworten. Wir priorisieren live.
+Wie viel konkrete Durchschlagskraft in diesem Format steckt, erläutere ich ausführlich im Artikel über [zwei Stunden SEO-Potential](/blog/zwei-stunden-seo-potential/).
 
-"Soll ich diesen Text umschreiben?" – "Nein, lass den Text. Ändere die H1 und die [interne Verlinkung](/glossar/interne-verlinkung/), das bringt 10x mehr."
+### 3. Nachbereitung & Roadmap: Dein Fahrplan für die Umsetzung
+Nach dem Termin stehst du nicht mit losen Gedanken da. Du erhältst:
+- **Die komplette Videoaufzeichnung:** Schaue dir jede Erklärung deines Calls jederzeit noch einmal an.
+- **Die KI-Zusammenfassung:** Ein prägnantes Protokoll aller besprochenen Hebel.
+- **Den individuellen Maßnahmenplan:** Ein glasklarer Schlachtplan, den du oder dein Entwickler-Team Schritt für Schritt abarbeiten können.
 
-"Warum sinken meine Klicks?" – Ich zeige dir in der Search Console genau den Tag und den Grund für den Absturz.
+## Das Urteil der Praxis
 
-Wir sortieren nach dem **80/20-Prinzip**: Was sind die 20% deiner Probleme, deren Lösung dir 80% des Erfolgs bringt?
+Wer einmal eine fundierte Bestandsaufnahme erlebt hat, versteht den Hebel dieses Formats. Wie mein Kunde Ronny nach seiner Session treffend formulierte: *„Der Preis ist absolut gerechtfertigt und spiegelt die jahrzehntelange Erfahrung wider. Wir haben in zwei Stunden mehr Klarheit gewonnen als in monatelangen Agenturschleifen zuvor.“* Seinen vollständigen [Erfahrungsbericht von Ronny](/blog/seo-sprechstunde-bewertung-ronny/) kannst du im Detail nachlesen.
 
-### 3. Die Nachbereitung: Dein Fahrplan
+Hör auf, deine Marketing-Entscheidungen auf Mutmaßungen zu stützen. Buche dir deinen Termin und lass uns deine Website auf Herz und Nieren prüfen.
 
-Nach dem Call bekommst du:
-- **Die Aufzeichnung** – du kannst alles nochmals in Ruhe anschauen
-- **Die KI-Zusammenfassung** – ein schnelles Protokoll der wichtigsten Punkte
-- **Der Maßnahmenplan** – dein individueller Schlachtplan, keine Standard-Checkliste
-
-## Reden wir über die 480 Euro
-
-Ja, das ist ein Batzen Geld. Aber frag dich: Was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? Was kostet es, wenn du eine Agentur monatlich für Standard-Reports bezahlst?
-
-Die Sprechstunde ist die Abkürzung. Du kaufst 25 Jahre Erfahrung, hunderte gelöste Krisen und das Wissen aus tausenden Stunden Analyse – konzentriert in 120 Minuten.
-
-Wie mein Kunde Ronny treffend sagte: *"Der Preis ist völlig gerechtfertigt und spiegelt die Erfahrung wider."* Was er sagt, liest du im [Erfahrungsbericht hier](/blog/seo-sprechstunde-bewertung-ronny/).
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit, deine Seite auf den Grill zu legen?</h3>
-  <p class="mb-6">Ich finde die Fehler, die dich dein Ranking kosten. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für die Analyse und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunftssperrspektive bringen wir deine Seite nach vorne.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
+<!-- LinkedIn CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und Unternehmern auf LinkedIn über transparente Beratung, 80/20-Hebel und echte SEO-Ergebnisse.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
-
-ALOHA 🌻! 🌻

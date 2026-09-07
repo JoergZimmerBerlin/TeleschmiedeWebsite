@@ -1,96 +1,123 @@
 ---
 title: "Wie läuft so eine SEO-Sprechstunde genau ab?"
 meta_title: "SEO-Sprechstunde: So läuft der Check ab (2026)"
+category: "SEO Praxis"
 description: "SEO-Sprechstunde: Vom Videocall bis zum Maßnahmenplan. Erhalte echte Insights in den Prozess und die fundierte Live-Analyse deiner Website. (2026)"
 meta_description: "SEO-Sprechstunde: Vom Videocall bis zum Maßnahmenplan. Erhalte echte Insights in den Prozess und die fundierte Live-Analyse deiner Website. (2026)"
 date: "2026-01-28"
+linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/blog/seo-sprechstunde.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Prozess und Ablauf erklärt"
-category: "SEO Praxis"
 tags: ["Sprechstunde", "Case Study"]
 key_takeaways:
-  - "Die SEO-Sprechstunde ist ein Dialog, keine Vorlesung – du sitzt im Fahrersitz, ich bin der Co-Pilot."
-  - "Vorbereitung ist alles: Ich kenne deine Daten bereits, bevor wir uns im Call begrüßen."
-  - "2 Stunden geballtes Wissen für 480€ – kein Abo, keine Bindung, 100% individueller Fokus auf dein Problem."
+  - "Die SEO-Sprechstunde ist ein interaktiver Arbeitsdialog auf Augenhöhe, bei dem wir deine Website live und ohne Umschweife durchleuchten."
+  - "Dank einer gründlichen Voranalyse steigen wir in Minute 1 direkt bei den harten Fakten und größten Hebeln ein."
+  - "Kein Knebelvertrag, kein Verkaufsdruck: Du erhältst Aufzeichnung, KI-Protokoll und einen priorisierten 90-Tage-Schlachtplan zur freien Umsetzung."
 faqs:
-  - question: "Ist die SEO-Sprechstunde ein Verkaufsgespräch für ein größeres Paket?"
-    answer: "Ein klares Nein. Die Sprechstunde ist ein abgeschlossenes Produkt. Es geht in diesen zwei Stunden um dich und dein Projekt, nicht um den Verkauf von Folgeleistungen. Natürlich kannst du mich danach für die Umsetzung buchen, aber das ist nicht das Ziel des Calls. Ich will, dass du mit einem Plan aus dem Call gehst, den du theoretisch auch komplett alleine oder mit deiner eigenen Agentur umsetzen kannst. Das ist mein Verständnis von ehrlicher Beratung."
-  - question: "Was passiert, wenn meine Seite technisch total kaputt ist?"
-    answer: "Dann ist das genau der richtige Zeitpunkt für die Sprechstunde. Wir legen die Seite 'auf den Grill' und schauen uns die verbrannten Stellen an. Ich zeige dir konkret, wo der Code hakt, warum Google deine Seite nicht mag und wie wir das fixen. Es ist besser, die Diagnose jetzt zu haben, als noch Monate lang in ein kaputtes System zu investieren. Wir schauen uns das gemeinsam per Screensharing an, so dass du die Probleme wirklich verstehst."
-  - question: "Bekomme ich nach dem Call eine schriftliche Dokumentation?"
-    answer: "Ja, und zwar eine, die wirklich hilft. Du bekommst die komplette Video-Aufzeichnung der Session, eine KI-gestützte Zusammenfassung der wichtigsten Punkte und meinen persönlichen Maßnahmenplan. Das ist keine generische Checkliste, sondern eine nach Prioritäten sortierte Liste für dein Projekt. Du weißt nach dem Call genau: Was muss ich morgen tun, was nächste Woche und was hat Zeit bis nächsten Monat. Keine Rätselraten mehr."
-  - question: "Kann ich die Sprechstunde auch für Google Ads (SEA) nutzen?"
-    answer: "Absolut. Das Format ist flexibel. Wir können uns reine SEO-Themen anschauen, aber auch dein Google Ads Konto analysieren. Oft hängen beide Welten eng zusammen (z.B. Landingpage-Experience). Wenn du Fragen zu deinen Gebotsstrategien oder deinen Kampagnen-Strukturen hast, bringen wir das im Call unter. Mein Ziel ist deine Gesamtsichtbarkeit und dein ROI, egal ob organisch oder bezahlt."
+  - question: "Ist die SEO-Sprechstunde ein verkapptes Verkaufsgespräch für Folgeaufträge?"
+    answer: "Ein klares Nein. Die Sprechstunde ist als eigenständiges, vollkommen abgeschlossenes Beratungsformat konzipiert. In diesen zwei Stunden steht ausschließlich dein Projekt im Mittelpunkt. Mein Ziel ist es, dass du den Termin mit einem glasklaren Maßnahmenplan verlässt, den du entweder eigenständig, mit deinen internen Entwicklern oder deiner bestehenden Agentur umsetzen kannst. Es gibt keine versteckten Upsell-Fallen."
+  - question: "Was passiert, wenn meine Website technisch völlig marode ist?"
+    answer: "Gerade dann ist die Sprechstunde die rentabelste Investition. Wir legen die Seite schonungslos 'auf den Grill' und decken auf, wo der Code blockiert, warum Google die Seiten ignoriert und wie wir die gravierendsten Bremsen lösen. Eine schonungslose Diagnose am lebenden System erspart dir monatelanges Verbrennen von Marketing-Budgets in eine dysfunktionale Basis."
+  - question: "Welche Unterlagen stehen mir nach der Session zur Verfügung?"
+    answer: "Du erhältst ein komplettes digitales Arbeitsset: Erstens die ungeschnittene Videoaufzeichnung unseres Screensharings, zweitens eine KI-gestützte Dokumentation der Kerninhalte und drittens meinen maßgeschneiderten Maßnahmenplan mit priorisierten To-Dos nach Aufwand und geschäftlicher Hebelwirkung."
+  - question: "Können wir im Call auch Google Ads (SEA) oder KI-Sichtbarkeit prüfen?"
+    answer: "Absolut. Das Format ist thematisch flexibel. Wir können Google Ads Kampagnenstrukturen analysieren, Gebotsstrategien bewerten oder prüfen, wie gut deine Brand bereits für generative KI-Antworten in ChatGPT und Perplexity aufgestellt ist. Entscheidend ist dein größter aktueller Engpass."
 ---
 
-Moin! 🌻
+Wie läuft eine fundierte SEO-Sprechstunde in der Praxis ab? Handelt es sich um eine starre Frontalvorlesung, bei der dir ein Berater zwei Stunden lang theoretische Charts um die Ohren haut?
 
-Wie läuft so eine SEO-Sprechstunde eigentlich ab? Ist das ein starres Audit, bei dem ich dir 120 Minuten lang Statistiken um die Ohren haue?
+Ganz im Gegenteil. Die [SEO-Sprechstunde](/seo-sprechstunde/) ist ein intensiver, interaktiver Arbeitsdialog: Du sitzt am Steuer deines digitalen Projekts, während ich als erfahrener Co-Pilot mit der Satellitenkarte neben dir sitze, Abkürzungen aufzeige und dich vor gefährlichen Schlaglöchern warne.
 
-Nein, ganz im Gegenteil. Die Sprechstunde ist eine Live-Analyse, bei der du im Fahrersitz sitzt und ich als Co-Pilot die Karte lese, die Abkürzungen kenne und dich vor den Schlaglöchern warne.
+Damit du vor deiner Terminbuchung genau weißt, was dich erwartet, gebe ich dir hier einen transparenten Einblick in den gesamten Ablauf.
 
-Hier ist der detaillierte Prozess, damit du genau weißt, was dich erwartet, wenn wir uns virtuell zum Tête-à-Tête treffen.
+## Der strukturierte 4-Phasen-Ablauf
 
-## Der 4-Stufen-Plan für deine Sichtbarkeit
+Erfolgreiche Suchmaschinenoptimierung basiert nicht auf Bauchgefühl oder Zufall, sondern auf methodischer Präzision. Jede Sprechstunde folgt einem eingespielten Vier-Phasen-Modell, das sicherstellt, dass wir keine einzige Minute wertvoller Arbeitszeit verschwenden:
 
-Ich liebe Struktur. Ohne Struktur ist SEO nur Raten im Dunkeln. Deshalb folgt jede Sprechstunde einem bewährten Ablauf, der sicherstellt, dass wir keine Sekunde verschwenden.
-
-| Stufe | Phase | Was passiert konkret? |
+| Phase | Bezeichnung | Was konkret passiert |
 |---|---|---|
-| **1** | **Anker werfen** | Buchung & Fragebogen (Domain, Konkurrenz, Top-Fragen) |
-| **2** | **Hausaufgaben** | Meine Voranalyse (Technik, Content, Backlinks) ohne dich |
-| **3** | **Grillen** | Der 120-minütige Videocall mit Screensharing |
-| **4** | **Abmarsch** | Aufzeichnung, KI-Zusammenfassung & Maßnahmenplan |
+| **Phase 1** | **Buchung & Fragebogen** | Terminwahl im Kalender und Abfrage deiner Domain, Wettbewerber und Top-Ziele |
+| **Phase 2** | **Voranalyse (Pre-Call)** | Gründliche Datenprüfung meinerseits (Technik, Rankings, Historie) ohne dich |
+| **Phase 3** | **Live-Grill-Call** | 120 Minuten intensives Screensharing, Fehlerdiagnose und 80/20-Priorisierung |
+| **Phase 4** | **Roadmap & Dokumentation** | Bereitstellung von Videoaufzeichnung, KI-Summary und individuellem Maßnahmenplan |
 
-## Schritt 1: Den Anker werfen (Die Buchung)
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „In der Sprechstunde sitzt der Kunde im Fahrersitz, ich bin der Co-Pilot auf dem Beifahrersitz mit der Straßenkarte. Wir halten uns nicht mit grauer Theorie auf, sondern steuern direkt die wirksamsten Wachstumshebel an.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
-Alles beginnt mit deiner Entscheidung. Du suchst dir in meinem Kalender einen Slot aus, der dir passt. In dem Moment, in dem die Bestätigung in dein Postfach flattert, geht bei mir die Arbeit los.
+## Schritt 1: Den Anker werfen (Buchung & Fragebogen)
 
-Du bekommst einen kurzen Fragebogen. Keine Angst, es ist kein biometrischer Checkup, sondern die Basis für meine Analyse. Ich möchte wissen:
-- Welche Domain sollen wir uns anschauen?
-- Wer ist dein schärfster Konkurrent?
-- Was sind deine 3 brennendsten Fragen?
+Alles beginnt mit deiner Terminbuchung in meinem Online-Kalender. Sobald der Termin fixiert ist, erhältst du einen kurzen Fragebogen. Keine bürokratische Fleißarbeit, sondern das Fundament meiner Arbeit.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"480€ für zwei Stunden klingen für manche viel. Aber was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? In der Sprechstunde kaufst du keine Zeit – du kaufst das Ende deines Blindflugs."</p>
+Ich möchte von dir drei Kerninformationen:
+1. Welche Domain oder welches spezifische Verzeichnis sollen wir analysieren?
+2. Wer sind deine drei wichtigsten Wettbewerber, an denen du dich messen willst?
+3. Welche drei drängenden Fragen liegen dir aktuell am meisten auf der Seele?
+
+![Der 4-Phasen-Ablauf der SEO-Sprechstunde](../../assets/images/blog/sprechstunde-vier-phasen-3d.webp)
+
+## Schritt 2: Meine Hausaufgaben vor dem Termin
+
+Das ist der Teil, den du nicht siehst, der aber den fundamentalen Unterschied zu oberflächlichen Agentur-Pitches ausmacht: Rund 30 Minuten vor unserem Termin schließe ich die Tür und starte meine professionellen Analyse-Tools.
+
+Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) werte ich deine historischen Ranking-Verläufe aus, prüfe das Keyword-Portfolio und decke schädliche Kannibalisierungen auf. Im direkten Vergleich [SISTRIX vs SE Ranking](/blog/sistrix-vs-se-ranking/) beleuchten wir unterschiedliche Datenbasen, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale](https://rankscale.ai/?via=offer) prüfen, wie stark deine Marke bereits von Sprachmodellen aufgegriffen wird.
+
+Wenn wir den Videocall starten, fangen wir nicht bei Null an. Wir steigen direkt bei 100 Prozent ein.
+
+## Schritt 3: Der 120-Minuten Live-Call
+
+Wir treffen uns per Videokonferenz. Nach einem kurzen Warm-up teilen wir den Bildschirm und steigen direkt in die Analyse ein:
+- Wir prüfen die Informationsarchitektur und Snippets live im System.
+- Wir decken auf, welche Seiten Google nicht indexiert und woran das liegt.
+- Wir analysieren die aktuellen [GEO-Entwicklungen](/blog/ai-geo-sichtbarkeit-umfrage/) für deine Zielgruppe.
+
+Du kannst mich zu jedem Zeitpunkt unterbrechen, nachhaken oder Zwischenfragen stellen. Wie viel wirkungsvolle Substanz in dieser Session steckt, zeigt mein Praxisbericht zu [zwei Stunden SEO-Potential](/blog/zwei-stunden-seo-potential/).
+
+## Schritt 4: Dein Maßnahmenplan für die Umsetzung
+
+Nach dem Call lasse ich dich nicht mit offenen Fragen allein. Du erhältst ein praxiserprobtes Nachbereitungspaket:
+
+1. **Die ungeschnittene Videoaufzeichnung:** Schaue dir technische Details und Code-Hinweise jederzeit erneut an.
+2. **Die KI-Zusammenfassung:** Ein kompaktes Protokoll aller besprochenen Meilensteine.
+3. **Der individuelle Maßnahmenplan:** Eine nach Dringlichkeit und ROI-Hebel sortierte To-Do-Liste für dein Team.
+
+Martin Meng, CEO von konfidal, brachte seine Erfahrung nach dem Call so auf den Punkt: *„Jörg hat die zu priorisierenden Hebel klar und verständlich herausgearbeitet. Keine abstrakten Großbaustellen, sondern handfeste Hebel, die wir sofort anpacken konnten.“* Das ist der Maßstab, an dem ich mich messen lasse – professionelle [SEO-Beratung](/glossar/seo-beratung/) auf Augenhöhe.
+
+Möchtest auch du endlich Klarheit über deine organische Sichtbarkeit gewinnen und dein Budget auf die wirklich rentablen Maßnahmen konzentrieren? Buche dir jetzt deinen Termin für die Sprechstunde.
+
+<!-- LinkedIn CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der Community auf LinkedIn über transparente SEO-Beratung und praxisnahe Website-Checks.
+  </p>
+  <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
-
-## Schritt 2: Meine Hausaufgaben (Die Vorbereitung)
-
-Das ist der Teil, den du nicht siehst, der aber den größten Unterschied macht. Bevor wir uns im Call begrüßen, habe ich bereits meine Nase tief in deine Daten gesteckt. Ich nutze Profi-Tools wie SISTRIX, <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, Screaming Frog und natürlich die Google Search Console.
-
-Ich erstelle mir ein Bild von deiner "digitalen Gesundheit". Gibt es technische Blocker? Ist dein Content gehaltvoll wie ein Berliner Eisbein oder eher dünne Suppe? Ich bereite mich so vor, dass ich im Call keine Zeit mit Suchen verschwenden muss. Wir starten bei Minute 1 direkt mit den harten Fakten.
-
-## Schritt 3: Das Treffen (Live-Analyse mit Screensharing)
-
-Wir treffen uns per Videocall (meistens Meet oder Zoom). Nach einer kurzen Vorstellung (wer bist du, was ist dein Ziel?) gehen wir direkt in die Vollen. Ich teile meinen Bildschirm und wir schauen uns deine Website live an.
-
-Es ist eine interaktive Session. Du kannst mich jederzeit unterbrechen: *"Jörg, warum ist das wichtig?"* oder *"Können wir uns mal dieses Unterverzeichnis anschauen?"* – Wir sind flexibel. Wir können Title-Tags live im Call optimieren oder uns die neuesten [GEO-Entwicklungen](/blog/ai-geo-sichtbarkeit-umfrage/) für dein Nische anschauen.
-
-## Schritt 4: Die Nachbereitung (Dein digitaler Rucksack)
-
-Wenn wir den Call beenden, fängt dein Teil der Arbeit an. Damit du aber nicht mit rauchendem Kopf dasitzt und dich fragst: *"Was hat er bei Minute 45 noch mal zu den Backlinks gesagt?"*, bekommst du von mir ein Paket:
-
-1. **Die Video-Aufzeichnung:** Schau es dir so oft an, wie du willst. Gib es deinem Team oder deinem Entwickler.
-2. **Die KI-Zusammenfassung:** Die wichtigsten Meilensteine des Gesprächs sauber aufgelistet.
-3. **Der Maßnahmenplan:** Meine persönliche Prioritätenliste für dich. Dein Schlachtplan.
-
-Ein Kunde, Martin Meng (CEO von konfidal), hat es nach unserem Call so zusammengefasst: *"Jörg hat die zu priorisierenden Punkte klar und verständlich herausgearbeitet. Keine unklaren oder viel zu großen Aufgaben, sondern handfeste Hebel."*
-
-## Tacheles am Ende
-
-Eine SEO-Sprechstunde ist manchmal wie ein Gang zum Arzt: Man hat ein bisschen Angst vor der Diagnose, aber danach fühlt man sich besser, weil man weiß, was zu tun ist.
-
-Wenn du bereit bist, die rosarote Brille abzusetzen und deine Seite mal auf Herz und Nieren prüfen zu lassen, dann bin ich dein Mann.
-
-<div class="blog-cta-box">
-  <h3 class="text-2xl font-bold mb-4">Bereit für den SEO-Check?</h3>
-  <p class="mb-6">Hör auf zu raten. In der Sprechstunde analysieren wir deine Seite live. Wir nutzen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> für den Status-Quo und <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> für deine Zukunft.</p>
-  <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Sprechstunde anfragen </a>
-</div>
-
-ALOHA 🌻!
-
-* **Lese-Tipp:** [SEO Beratung: Warum ein Partner auf Augenhöhe Gold wert ist](/glossar/seo-beratung/)
-* **Lese-Tipp:** [SE Ranking: Mein liebstes All-in-One SEO Tool](/blog/sistrix-vs-se-ranking/)

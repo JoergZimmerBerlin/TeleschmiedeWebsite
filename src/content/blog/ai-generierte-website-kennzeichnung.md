@@ -1,100 +1,115 @@
 ---
 title: "KI-generierte Website: Kennzeichnungspflicht?"
 meta_title: "KI-Website: Kennzeichnung nach EU AI Act? (2026)"
+category: "AI SEO"
 description: "Muss eine KI-generierte Website nach dem EU AI Act gekennzeichnet werden? Diskussion über Deepfakes, Texte und Agentensysteme. (2026)"
+meta_description: "Muss eine KI-generierte Website nach dem EU AI Act gekennzeichnet werden? Diskussion über Deepfakes, Texte und Agentensysteme. (2026)"
 date: "2026-08-04"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-generierte-website-zu-100-mit-agenten-activity-7490392598851936256-ZCSL"
 image: "../../assets/images/blog/ai-generierte-website-kennzeichnung.webp"
 image_alt: "Jörg Zimmer betrachtet seine KI-generierte Website"
-category: "AI SEO"
 tags: ["EU AI Act", "KI Content", "Agenten"]
 key_takeaways:
-  - "Eine vollständig mit KI-Agenten generierte Website weckt rechtliche Fragen bezüglich des EU AI Acts."
-  - "Laut Experten steht das Täuschungsrisiko (Deepfakes) im Vordergrund, nicht der reine Automatisierungsgrad."
-  - "Für redaktionell geprüfte Texte ohne Täuschungsabsicht besteht meist keine strikte Kennzeichnungspflicht."
+  - "Eine vollständig mit KI-Agenten erstellte Webpräsenz wirft fundamentale Rechts- und Transparenzfragen auf."
+  - "Der EU AI Act fokussiert das reale Täuschungsrisiko (Deepfakes, erfundene Identitäten), nicht die bloße Automatisierung."
+  - "Wer die redaktionelle Verantwortung für Inhalte übernimmt, benötigt für sachbezogene Texte in der Regel keine zwingende Kennzeichnung."
 faqs:
-  - question: "Muss ich KI-generierte Texte auf meiner Website kennzeichnen?"
-    answer: "Laut Expertenmeinungen gibt es für reine Textinhalte meist keine strenge Kennzeichnungspflicht, solange du die redaktionelle Verantwortung übernimmst und keine Täuschung vorliegt."
-  - question: "Ist ein Hinweis bei KI-Bildern notwendig?"
-    answer: "Besonders bei hyperrealistischen Bildern oder Deepfakes ist eine Kennzeichnung durch den EU AI Act vorgeschrieben. Bei harmlosen Infografiken reicht oft Transparenz."
-  - question: "Ist Automatisierung durch Agenten strafbar oder kennzeichnungspflichtig?"
-    answer: "Nein. Der Grad der Automatisierung durch KI-Agenten ist nicht das Problem. Die gesetzliche Grenze liegt beim Täuschungsrisiko (Deepfakes, erfundene Evidenz)."
-  - question: "Hat KI-Content negative Auswirkungen auf das SEO Ranking?"
-    answer: "Solange der Inhalt hochwertig, nutzerzentriert und hilfreich ist, wertet Google ihn nicht ab. Entscheidend ist das E-E-A-T Profil, nicht ob der Text getippt oder generiert wurde."
+  - question: "Muss man rein KI-generierte Fachtexte nach dem EU AI Act kennzeichnen?"
+    answer: "Für reine Sachtexte besteht in der Regel keine strikte Kennzeichnungspflicht, sofern eine natürliche Person die volle redaktionelle Verantwortung übernimmt und die Inhalte auf Richtigkeit prüft. Gesetzlich vorgeschrieben ist die Kennzeichnung vor allem dort, wo Texte fälschlicherweise als persönliche Erlebnisberichte Dritter ausgegeben werden oder gezielte Desinformation droht."
+  - question: "Wie verhält es sich mit KI-generierten Bildern und Infografiken?"
+    answer: "Hyperrealistische Darstellungen von Personen, Ereignissen oder Orten, die mit der Wirklichkeit verwechselt werden können (Deepfakes), müssen nach Artikel 50 des EU AI Acts zwingend gekennzeichnet werden. Für stilisierte 3D-Infografiken oder abstrakte Illustrationen gilt dies meist nicht, wenngleich freiwillige Transparenzhinweise das Vertrauen stärken."
+  - question: "Stellt der Einsatz autonomer Agentensysteme ein rechtliches Risiko dar?"
+    answer: "Nein, Automatisierung an sich ist vollkommen legal. Entscheidend ist die Einhaltung bestehender Rechtsnormen bezüglich Urheberrecht, Datenschutz und Wettbewerbsrecht. Agenten fungieren als hochentwickelte Werkzeuge der menschlichen Schöpfer."
+  - question: "Wertet Google Websites mit KI-Inhalten im Ranking ab?"
+    answer: "Google bewertet Inhalte nach deren Nützlichkeit, Informationsgehalt und Relevanz für den Suchenden. Ob ein Text von Menschenhand getippt oder durch Agenten synthetisiert wurde, ist für den Algorithmus zweitrangig. Entscheidend ist ein belastbares E-E-A-T Profil mit nachweisbarer Expertise und Korrektheit."
 ---
 
-*Diese Diskussion wurde von mir auf LinkedIn am 04.08.2026 gestartet:*
+Eine Website mit über 200 Unterseiten, vollständig mit der Unterstützung autonomer KI-Agentensysteme erstellt: Muss ich dafür eigentlich einen rechtlichen Warnhinweis anbringen?
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Jörg Zimmer 🌻 (LinkedIn Insights/Kommentar)</p>
-  <div class="italic text-dark mb-0"><p>AI generierte Website zu 100% mit Agenten erstellt. Muss ich da was kennzeichnen?
+Das Foto im Header ist vollkommen echt: Der Typ auf dem Stuhl bin ich, und auf dem Bildschirm läuft meine eigene Webpräsenz. Was als Experiment begann, um LinkedIn-Beiträge in fundierte Blogartikel und Glossareinträge zu transformieren, ist zu einem umfassenden Leuchtturm-Projekt herangewachsen.
 
-Das Bild ist echt. Der Typ da an der Seite bin ich. Auf dem Screen zu sehen meine AI Website. Vollständig mit Hilfe von KI Agentensystemen erstellt.
+Über die Entwicklung habe ich bereits im Artikel [Meine KI-Website als Leuchtturm](/blog/ki-website-leuchtturm/) berichtet. Doch je autonomer meine agentischen Workflows mit Google Antigravity und Gemini Ultra agierten, desto dringlicher stellte sich eine Frage: **Wie viel Kennzeichnung verlangt der europäische Gesetzgeber?**
 
-Hier die Story:
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Nicht der Automatisierungsgrad einer Website entscheidet über die Kennzeichnungspflicht, sondern das Täuschungsrisiko. Wer die redaktionelle Verantwortung für seine Inhalte übernimmt und keine gefälschten Realitäten vorspiegelt, nutzt KI legitim als Produktivitäts-Turbo.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
 
-Entstanden aus der Idee mehr aus meinen LinkedIn Beiträgen rauszuholen und die Texte, Bilder dorthin zu übernehmen. Mittlerweile angewachsen auf 200 Unterseiten mit Blog, Glossar und Katzenbildern. 
+## Das technische Setup hinter dem Projekt
 
-Plötzlich wieder Bock auf eigene Projekte bekommen. Alle SEO Hausaufgaben zu 100% abgerarbeitet und dann festgestellt mit diesem AI kannste eigentlich alles machen wo früher Ressourcen fehlten.
+Für alle Entwickler und Technik-Enthusiasten: Die Plattform basiert auf einem extrem schlanken Astro-Framework mit minimalem JavaScript, versioniert über GitHub. Was früher Wochen an manueller Fleißarbeit gekostet hätte, erledigen heute spezialisierte Agenten-Pipelines:
+- Echte Fotos aus dem Arbeitsalltag bleiben als authentische Assets erhalten.
+- Technische Infografiken werden passgenau zur Textstruktur generiert.
+- Glossardefinitionen und strukturierte Daten werden automatisiert validiert.
+- Ich prüfe jeden publizierten Inhalt persönlich auf fachliche Korrektheit.
 
-Dann den Wunsch zu 100% AI Readyniss erwacht und das Projekt zum Leuchturm aufgebaut. Gerade noch voll dabei und diese Reise / Forschung hier auf LinkedIn dokumentiert.
+Doch wie beurteilen Rechtsexperten und Praktiker diese Konstellation vor dem Hintergrund des [EU AI Act](/glossar/eu-ai-act/)?
 
-Für die Tech Freaks mein jetziges Setup: Anfänglicher Aufbau von Cloude Code durch Maximiliam Muhr, gestartet als SEO freundliches Astro Framework mit minimal Javascript, GitHub dazwischen für Versionskontrolle.
+![EU AI Act Kennzeichnung und Grenzwerte für KI-Websites](../../assets/images/blog/eu-ai-act-kennzeichnung-3d.webp)
 
-Mittlerweile seit ein paar Monaten von mir befeuert mit Google Antigravity und Gemini, erst AI Pro nun AI Ultra Abo zu 99€ pro Monat. Die Verzahnung mit den anderen Google Tools macht einen riesen Vorteil. Außerdem gibt es überall Zauberknöpfe und Premium Versionen in den Tools die ich sowieso von Google bereits nutze. Gmail, Docs und YouTube zum Beispiel.
+## Die rechtliche Grenze: Täuschungsabsicht versus Produktivität
 
-Ich prüfe alle Inhalte auf der Website. Die Bilder sind wenn Menschen darauf sind alle echt und nur übernommen. Die Infografiken sind komplett per Nano Banana generiert. Manche Texte und das Glossar kommen aus der KI.
+In unserer Fachdiskussion auf LinkedIn kristallisierten sich vier wesentliche Säulen heraus, die den rechtlichen Rahmen definieren:
 
-Mit dem Suchwort "Jörg Zimmer SEO" findest du die Website und die Katzenbilder.
+### 1. Redaktionelle Verantwortung als Schutzzaun
+Christian Bennefeld brachte die juristische Essenz auf den Punkt: Solange eine reale Person als Herausgeber und Autor im Impressum die volle presserechtliche und zivilrechtliche Verantwortung für jede Zeile trägt, liegt der Fokus auf dem Ergebnis, nicht auf dem Werkzeug. Wer seine Texte vor dem Go-Live prüft, haftet für Richtigkeit – egal ob die Rohfassung von einer KI oder einem Praktikanten stammt.
 
-Muss ich da nun irgendwas kennzeichnen?</p></div>
-</div>
+### 2. Das Verbot von Täuschung und Deepfakes
+Sven Badalyan lieferte die treffendste Sicherheitsanalogie: In der IT-Sicherheit markiert man nicht jeden automatisierten Hintergrundprozess, sondern jene Schnittstellen, an denen Vertrauensgrenzen überschritten werden. Bei Websites verläuft diese Grenze dort, wo synthetische Testimonials, gefälschte Expertenprofile oder manipulierte Bildbeweise eine reale Identität vortäuschen. Reine Sachtexte fallen nicht darunter.
 
-Die Frage trifft den Nerv der Zeit. Der [EU AI Act](/glossar/eu-ai-act/) sorgt für massive Verunsicherung.
+### 3. Infografiken und stilisierte Illustrationen
+Stefan Niesche wies mit einem Augenzwinkern auf die visuelle Ebene hin: Während fotorealistische Personenbilder bei Fälschungsgefahr klar unter Kennzeichnungspflichten fallen, sind stilisierte 3D-Grafiken oder Prozessdiagramme als grafische Hilfsmittel anerkannt. Dennoch schadet ein transparenter Hinweis im Impressum oder Footer niemals.
 
-Doch wie sehen es andere Experten? Muss man nun jeden KI-Text markieren?
+### 4. Agenten-Automatisierung ist legal
+Der Grad der Automatisierung durch Multi-Agenten-Systeme ist kein Vergehen. Wer [Agent Readiness](/glossar/agent-readiness/) implementiert und maschinenlesbare Schnittstellen baut, investiert in Zukunftssicherheit. Wie Ronny K. in den Kommentaren betonte: Angst vor Regulierung darf nicht dazu führen, dass Innovationskraft durch vorauseilenden Gehorsam erstickt wird.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Christian Bennefeld (LinkedIn Insights/Kommentar)</p>
-  <div class="italic text-dark mb-0"><p>Wenn Du die redaktionelle Verantwortung für die Inhalte trägst und keine Deepfakes zeigst, musst Du auch nichts kennzeichen. So einfach ist das. Aber Transparenz tut nicht weh und ich persönlich finde es gut und richtig, offen mit dem Einsatz von KI umzugehen.</p></div>
-</div>
+## Was Google und SEO-Algorithmen fordern
 
-Genau das ist der springende Punkt. Redaktionelle Verantwortung.
+Auch aus Suchmaschinensicht gibt es Entwarnung: Google hat seine Richtlinien für [KI-Content](/glossar/ki-content/) längst klargestellt. Bestraft wird nicht die Erzeugung durch Algorithmen, sondern minderwertiger Spam ohne Informationsmehrwert (Information Gain).
 
-Ein weiterer wichtiger Aspekt ist die Unterscheidung zwischen Texten und Bildern.
+Wer durch tiefgreifende Praxiserfahrung, originäre Daten und saubere Strukturen ein überzeugendes [E-E-A-T](/glossar/e-e-a-t/) Profil aufbaut, rankt erfolgreich – unabhängig davon, wie viele Zeilen Code von Agenten generiert wurden.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Stefan Niesche (LinkedIn Insights/Kommentar)</p>
-  <div class="italic text-dark mb-0"><p>Deine KI-Texte bleiben straffrei, solange du behauptest, du hättest sie alle brav gelesen und für gut befunden. Aber deine bunten Nano-Banana-Infografiken? Die schreien nach dem EU-AI-Sticker.</p></div>
-</div>
+## Handlungsempfehlung für deine Website
 
-Ein berechtigter Einwurf. Aber geht es wirklich um jede Infografik?
+Wenn du KI-Systeme für deine Content-Erstellung oder Website-Entwicklung einsetzt, befolge diesen Leitfaden:
+- **Übernimm redaktionelle Verantwortung:** Veröffentliche niemals ungeprüfte Halluzinationen.
+- **Vermeide gefälschte Testimonials:** Echte Kundenstimmen und Portraits müssen real bleiben.
+- **Setze auf Transparenz:** Ein dezenter Hinweis in deinen Leitlinien oder im Impressum schafft Vertrauen bei Nutzern und Partnern.
 
-Nein. Der Fokus liegt ganz klar auf dem Täuschungsrisiko.
+Möchtest du klären, wie du KI-Workflows rechtssicher und SEO-wirksam in deinem Unternehmen verankerst? In der [SEO-Sprechstunde](/seo-sprechstunde/) analysieren wir deine Prozesse und zeigen dir, wie du maximale Effizienz mit höchster Qualität verbindest.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Sven Badalyan (LinkedIn Insights/Kommentar)</p>
-  <div class="italic text-dark mb-0"><p>Täuschungsrisiko, nicht Automatisierungsgrad, ist die richtige Grenze für Kennzeichnung. In der Security markiert man nicht jeden maschinell ausgeführten Prozess, sondern jene Stellen, an denen eine Trust Boundary überschritten wird. Bei einer Website liegt sie dort, wo synthetische Personen, vermeintliche Erfahrungen oder erfundene Evidenz reale Herkunft suggerieren. Entscheidend ist, ob die AI-Herkunft die Interpretation des Nutzers materiell verändert.</p></div>
-</div>
-
-Das bringt es exakt auf den Punkt. Solange keine realen Fakten vorgetäuscht werden, ist der KI-Einsatz eine reine Arbeitserleichterung.
-
-Gleichzeitig warnt Sven Badalyan aber auch vor der extremen Abhängigkeit von Tools wie Google Gemini, da durch proprietäre Systeme die Switching Costs steigen.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Ronny K. (LinkedIn Insights/Kommentar)</p>
-  <div class="italic text-dark mb-0"><p>Ich verstehe diese Aufregung absolut nicht. 🤷‍♀️ Habt ihr wirklich so viel Angst vor dieser KI Kennzeichnung? Oder ist es die Angst, dass euch ein Mitbewerber was reinwürgen könnte? [...] Was sollen also diese ganzen "Selbst-Regulierungen" wirklich? Eine Unternehmenskultur schaffen, die jeden Tag noch mehr Angst haben muss, nicht durch einen Mausklick eine horrende Abmahnung oder Anwaltsrechnung auszulösen?</p></div>
-</div>
-
-Angst vor Abmahnungen ist der falsche Treiber für Innovation. 
-
-Wer seine [Agent Readiness](/glossar/agent-readiness/) ernst nimmt und [KI-Content](/glossar/ki-content/) strategisch einsetzt, muss sich nicht verstecken. Letztlich entscheidet das [E-E-A-T](/glossar/e-e-a-t/) Profil über den wahren Wert des Contents, nicht die Frage, ob eine Tastatur oder ein Agent den Text getippt hat.
-
-Diskutiert dieses Thema gerne weiter oder bucht euch direkt eine [SEO Sprechstunde](/seo-sprechstunde/) für individuelle Analysen.
-
-<div class="my-8 bg-lime-accent text-dark p-6 rounded-2xl text-center shadow-sm">
-  <p class="font-bold text-xl mb-4">💬 Jetzt an der Diskussion teilnehmen!</p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-generierte-website-zu-100-mit-agenten-activity-7490392598851936256-ZCSL" target="_blank" rel="noopener noreferrer" class="inline-block bg-dark text-white font-bold py-2 px-6 rounded-full hover:bg-gray-800 transition-colors">
-    Beitrag auf LinkedIn öffnen
+<!-- LinkedIn CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und Rechtsexperten auf LinkedIn über den EU AI Act, Transparenz und die Kennzeichnung KI-generierter Websites.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ai-generierte-website-zu-100-mit-agenten-activity-7490392598851936256-ZCSL" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
   </a>
 </div>

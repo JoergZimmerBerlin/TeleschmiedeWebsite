@@ -34,6 +34,9 @@ interface Props {
   sameAs?: string;
   alternateNames?: string[];
   quote?: string;
+  category?: string;
+  tags?: string[];
+  keyTakeaways?: string[];
 }
 
 const { 
@@ -50,7 +53,10 @@ const {
   mainEntity,
   sameAs,
   alternateNames,
-  quote
+  quote,
+  category,
+  tags,
+  keyTakeaways
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
@@ -336,7 +342,7 @@ if (image) {
 
 // Add Article/Glossary/About specific data to graph
 if (type === 'article') {
-  graph.push({
+  const blogPostingNode: any = {
     "@type": "BlogPosting",
     "headline": title,
     "description": description,
@@ -347,7 +353,11 @@ if (type === 'article') {
     "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@id": url },
     "isAccessibleForFree": true
-  } as any);
+  };
+  if (category) blogPostingNode.articleSection = category;
+  if (tags && tags.length > 0) blogPostingNode.keywords = tags.join(", ");
+  if (keyTakeaways && keyTakeaways.length > 0) blogPostingNode.abstract = keyTakeaways.map(t => cleanText(t)).join(" ");
+  graph.push(blogPostingNode);
 } else if (type === 'glossary') {
   const termId = `${url}#term`;
   const glossaryArticleId = `${url}#article`;

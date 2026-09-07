@@ -24,82 +24,98 @@ faqs:
     answer: "480€ für zwei Stunden. Das klingt viel, ist es aber nicht, wenn man die Vollkostenrechnung macht: Was kostet es dich, wenn du die nächsten 12 Monate blind in die falsche Richtung läufst? Was kostet ein Agentur-Retainer, der monatlich vier Stellen verschlingt, ohne dass du genau weißt was gemacht wird? In der Sprechstunde kaufst du Abkürzungen. Du vermeidest Fehler, die tausende Euro Werbebudget kosten würden. Du sparst Monate des Ausprobierens. Das ist die ehrliche Kalkulation dahinter."
 ---
 
-Moin! 🌻
+Echtes Feedback ist der härteste Prüfstein für jede Dienstleistung. Wenn jemand aus dem operativen Business kommt, hunderte Google-Rezensionen verfasst hat und genau weiß, wie fundierte Urteile aussehen, wiegt ein Lob doppelt schwer.
 
-Feedback ist Treibstoff. 
+Genau das passierte nach einer zweistündigen Intensiv-Session: Ronny A., erfahrener Google Local Guide mit über 182 detaillierten Rezensionen, vergab 5 volle Sterne für meine praxisnahe [SEO-Beratung](/seo-beratung/).
 
-Gestern kam eine Bewertung von **Ronny A.** rein. 
+> *„Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website vorbereitet. Es war ein sehr intensives Gespräch mit sehr großem Mehrwert. Der Preis ist völlig gerechtfertigt.“*
 
-Ronny ist Local Guide mit 182+ Rezensionen. 
+Warum schlägt dieses Feedback so ein? Weil in der Agenturlandschaft viel zu oft heiße Luft für vierstellige Monatsbudgets verkauft wird. Bei mir gibt es kein oberflächliches Vorgeplänkel. Ich lege Websites auf den Grill – transparent, datenbasiert und ohne Ausflüchte.
 
-Einer, der weiß, wie man Qualität beurteilt. 
+## Vorbereitung ist kein Bonus, sondern das Fundament
 
-Sein Urteil nach 2 Stunden SEO-Sprechstunde? 
+Der häufigste Frustpunkt bei externen Beratungen: Man bezahlt die erste halbe Stunde dafür, dass der Berater überhaupt erst versteht, worum es auf der Domain geht. Das ist verbranntes Geld.
 
-**5 Sterne.**
+In meiner Sprechstunde gilt deshalb ein unumstößliches Gesetz: **Wir starten bei Minute 1 direkt im Maschinenraum.**
 
-Warum? 
+Bevor der Zoom- oder Meet-Call überhaupt beginnt, investiere ich 30 bis 45 Minuten in eine ungeschminkte Voranalyse. Ich öffne die [Google Search Console](/glossar/google-search-console/), ziehe Crawl-Daten, werfe SISTRIX an und analysiere die Architektur.
 
-Weil ich Websites auf den Grill lege. Ohne Kompromisse.
+### Was vor dem ersten Klick bereits feststeht:
 
-> *"Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website vorbereitet. Es war ein sehr intensives Gespräch mit sehr großem Mehrwert."*
+- **Indexierungs- und Crawling-Status:** Wo blockieren fehlerhafte Direktiven wertvolle Seiten?
+- **Keyword-Kannibalisierung:** Welche URLs kämpfen gegeneinander statt gegen den Wettbewerb?
+- **Content-Qualität & Nutzersignale:** Wo brechen Besucher ab, weil die Suchintention verfehlt wird?
+- **E-E-A-T-Fundamente:** Werden Trust-Signale im Sinne von [E-E-A-T](/glossar/authoritativeness-eeat/) klar transportiert oder wirkt die Domain anonym?
 
-## "Top vorbereitet" ist mein Gesetz
+Wenn der Kunde beitritt, gibt es keinen Smalltalk über das Wetter. Der Bildschirm ist geteilt, die Schwachstellen sind markiert und wir gehen sofort ans Eingemachte.
 
-Bei mir gibt es kein "Lass mal kurz gucken". 
+![Die 4 Phasen der SEO-Sprechstunde: Von der Voranalyse bis zum Maßnahmenplan](/assets/images/blog/seo-sprechstunde-phasen-3d.webp)
 
-Wenn wir den Call starten, kenne ich deine Seite schon. 
+## Die 4 Phasen der 120-Minuten-Sprechstunde
 
-Ich habe bereits ca. 30 Minuten investiert. 
+Zwei Stunden klingen nach viel Zeit. In der Praxis vergehen 120 Minuten im Flug, wenn man eine komplexe Domain seziert. Genau deshalb braucht es einen straffen Ablauf, der von der Diagnose direkt in die Umsetzung führt.
 
-### Mein Vorbereitungs-Check:
+| Phase | Dauer | Fokus & Methodik | Konkretes Ergebnis |
+| :--- | :--- | :--- | :--- |
+| **1. Voranalyse** | 30–45 Min. (vorab) | Rohdaten-Scan: Search Console, Rank-Trends, Technik-Bottlenecks | Vorbereiteter Schwachstellen-Katalog |
+| **2. Live Deep-Dive** | 120 Min. (Call) | Gemeinsames Screen-Sharing, Live-Code-Inspektion, Priorisierung | Glasklares Verständnis aller Hebel |
+| **3. KI-Zusammenfassung** | Post-Call | Transkript-Analyse, Extraktion aller Beschlüsse und Quick Wins | Strukturierte Übersicht per E-Mail |
+| **4. Maßnahmenplan** | Post-Call | Kein Standard-PDF: Individuelle Roadmap nach ROI gewichtet | Umsetzbarer Schlachtplan für Devs & Redaktion |
 
-- **GSC**: Wo klemmt es bei den Keywords?
-- **SISTRIX**: Wie ist der Sichtbarkeits-Trend?
-- **Screaming Frog**: Was sagen die Crawl-Daten?
-- **PageSpeed**: Wie schnell flutscht die Seite?
+## Warum 480 Euro keine Zeit kaufen, sondern Abkürzungen
 
-Wir quatschen nicht übers Wetter. 
+Viele Gründer und Marketingverantwortliche vergleichen Stundensätze. Das ist der falsche Maßstab. Wenn du eine Senior-Sprechstunde buchst, kaufst du keine 120 Minuten Arbeitszeit. Du kaufst 25 Jahre Versuch und Irrtum.
 
-Wir reden ab Minute 1 über deine Performance.
+Wer monatelang an den falschen Stellschrauben dreht, verbrennt tausende Euro an Opportunitätskosten. Wenn du wissen willst, wie wir systemische Fehler schnell entlarven, wirf einen Blick auf unseren Workflow für ein [Website-Audit mit Vibe Coding](/blog/website-seo-audit-vibe-coding/). In der Sprechstunde isolieren wir genau die Hürden, die dich seit Monaten Rankings und Umsatz kosten.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2"> Jörgs SEO-Klartext (LinkedIn Insights)</p>
-  <p class="italic text-dark mb-0">"480€ kaufen keine Zeit. Sie kaufen Abkürzungen aus 25 Jahren Erfahrung. 120 Minuten, um Fehler zu vermeiden, die dich Monate und zehntausende Euro kosten könnten."</p>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „480 Euro kaufen keine Zeit. Sie kaufen Abkürzungen aus zweieinhalb Jahrzehnten Praxis. 120 Minuten, um strategische Sackgassen zu vermeiden, die dich sonst Monate und fünfstellige Budgets kosten.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_einmal-website-sichtbarkeit-auf-den-grill-activity-7411702493564473344-TD6t" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Diskussion auf LinkedIn ansehen →
+    </a>
+  </figcaption>
+</figure>
+
+## Kein Mitschreibezwang: Der Fokus bleibt auf der Strategie
+
+Einer der größten Hebel des Formats: Du musst während des Calls keine hektischen Notizen machen. 
+
+- **Vollständige Videoaufzeichnung:** Du kannst dir jede Erklärung, jedes gezeigte Tool und jeden Klick später in Ruhe noch einmal ansehen oder an dein Entwicklerteam weiterleiten.
+- **KI-gestützte Dokumentation:** Das Transkript wird im Nachgang präzise gefiltert. Die Kernfakten, technischen To-dos und strategischen Entscheidungen landen sauber strukturiert in deinem Postfach.
+- **Fokus auf [typische SEO-Fehler nach 24 Jahren Praxis](/blog/24-jahre-seo-gleiche-fehler/):** Statt Nebenkriegsschauplätze aufzublasen, konzentrieren wir uns auf die Hebel, die wirklich Besucher und Conversions bringen.
+
+Wenn deine Domain stagniert und du wissen willst, wo der Schuh drückt, kannst du jederzeit [direkten Kontakt aufnehmen](/kontakt/) und deine Seite auf den Prüfstand stellen.
+
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">
+  <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">LinkedIn Community Diskussion</span>
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Jetzt an der Diskussion teilnehmen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über dieses Feedback und das Format der SEO-Sprechstunde.
+  </p>
+  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_einmal-website-sichtbarkeit-auf-den-grill-activity-7411702493564473344-TD6t" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    <span>Beitrag auf LinkedIn öffnen</span>
+    <span aria-hidden="true">→</span>
+  </a>
 </div>
-
-## Struktur statt Chaos
-
-Zwei Stunden sind im SEO ein Wimpernschlag. 
-
-Meine Aufgabe: Den roten Faden halten. 
-
-1. **Technik**: Was bremst die Architektur? 
-2. **Content**: Wo ist Potenzial, wo ist Ballast? 
-3. **Konkurrenz**: Was machen die anderen besser?
-
-Am Ende hast du keinen wirren Kopf. 
-
-Sondern einen Schlachtplan.
-
-## "Der Preis ist völlig gerechtfertigt"
-
-Sagt Ronny. Und er hat recht. 
-
-Was du wirklich bekommst: 
-
-- **Aufzeichnung**: Voller Fokus auf den Call.
-- **KI-Summary**: Die wichtigsten Punkte per Mail.
-- **Maßnahmenplan**: Individuell. Kein PDF-Template.
-
-Du kaufst Expertise. 
-
-Keine Stunden. 
-
-Deine Website "könnte mehr"? 
-
-Dann [lass uns reden](/kontakt/). 
-
-Tacheles. 
-
-ALOHA 🌻! 🌻

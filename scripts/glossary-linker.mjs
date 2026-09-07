@@ -178,6 +178,27 @@ function linkHtml(filePath, allTerms, ringTerms) {
         if (headingTagMatch) return match;
     }
 
+    // Exclude figure / blockquote / cite (Zitatbox)
+    const lastFigOpen = upToMatch.toLowerCase().lastIndexOf('<figure');
+    const lastFigClose = upToMatch.toLowerCase().lastIndexOf('</figure');
+    if (lastFigOpen > lastFigClose) return match;
+
+    const lastBqOpen = upToMatch.toLowerCase().lastIndexOf('<blockquote');
+    const lastBqClose = upToMatch.toLowerCase().lastIndexOf('</blockquote>');
+    if (lastBqOpen > lastBqClose) return match;
+
+    // Exclude section / doc-abstract (Key Takeaways / Summary)
+    const lastSecOpen = upToMatch.toLowerCase().lastIndexOf('<section');
+    const lastSecClose = upToMatch.toLowerCase().lastIndexOf('</section');
+    if (lastSecOpen > lastSecClose) return match;
+
+    // Exclude CTA box
+    const lastCtaOpen = upToMatch.lastIndexOf('class="my-10 bg-dark');
+    if (lastCtaOpen !== -1) {
+      const restAfterCta = upToMatch.substring(lastCtaOpen);
+      if (!restAfterCta.includes('</div>')) return match;
+    }
+
     matchesCount++;
     linkedTerms.add(term.slug);
     

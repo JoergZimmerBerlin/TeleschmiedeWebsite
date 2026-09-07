@@ -185,6 +185,71 @@ const hubs = hubsConfig.map(hub => {
           ))}
         </div>
       </div>
+
+      <!-- All Posts Archive Window (SEO Inlinks & Complete Overview) -->
+      <div class="mt-20 pt-16 border-t border-gray-100" id="all-blog-posts-section">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div>
+            <p class="subheadline mb-2">Archiv</p>
+            <h2 class="text-3xl font-bold mb-2">Alle Blogartikel im Überblick</h2>
+            <p class="text-gray-muted text-sm max-w-2xl mb-0">
+              Chronologische Übersicht aller {sortedPosts.length} Fachartikel, Analysen und Praxistipps aus dem Blog.
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="text-xs font-bold text-lime-900 bg-lime-accent/30 px-3 py-1.5 rounded-full whitespace-nowrap">
+              {sortedPosts.length} Artikel
+            </span>
+          </div>
+        </div>
+
+        <!-- Search Bar for quick filtering -->
+        <div class="blog-filter-wrapper mb-8">
+          <div class="search-bar-wrapper">
+            <form class="search-bar" id="blog-search-form" onsubmit="return false;">
+              <div class="relative w-full flex items-center">
+                <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <input 
+                  type="search" 
+                  id="blog-search" 
+                  placeholder="Artikel nach Stichwort filtern (z.B. SE Ranking, GEO, Crawling)..." 
+                  class="search-input"
+                  autocomplete="off"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Posts Grid Window -->
+        <div class="bg-gray-50/70 border border-gray-100 rounded-3xl p-6 md:p-8 shadow-sm">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-8" id="all-posts-grid">
+            {sortedPosts.map(post => (
+              <a 
+                href={`${baseUrl}/blog/${post.id}/`} 
+                title={post.data.title} 
+                class="all-blog-link group block text-sm transition-all"
+                data-title={(post.data.title || '').toLowerCase()}
+                data-desc={(post.data.meta_description || post.data.description || '').toLowerCase()}
+              >
+                <span class="text-[11px] font-mono text-gray-400 group-hover:text-lime-700 transition-colors block mb-1">
+                  {new Date(post.data.date).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })}
+                </span>
+                <span class="text-gray-800 font-medium group-hover:text-lime-600 group-hover:underline underline-offset-4 transition-colors leading-snug line-clamp-2">
+                  {post.data.title}
+                </span>
+              </a>
+            ))}
+          </div>
+
+          <!-- No Results State -->
+          <div id="no-blog-results" class="hidden text-center py-12">
+            <p class="text-gray-muted text-sm mb-0">Keinen passenden Blogartikel gefunden.</p>
+          </div>
+        </div>
+      </div>
       
     </div>
   </section>
@@ -215,3 +280,101 @@ const hubs = hubsConfig.map(hub => {
     description="Aktuelle Insights zu SEO, SEA und Performance Marketing von Jörg Zimmer. (2026)"
   />
 </Layout>
+
+<script is:inline>
+  function doBlogSearch() {
+    const searchInput = document.getElementById('blog-search');
+    if (!searchInput) return;
+
+    const term = searchInput.value.toLowerCase().trim();
+    const links = document.querySelectorAll('.all-blog-link');
+    const noResults = document.getElementById('no-blog-results');
+
+    let visibleCount = 0;
+
+    links.forEach(link => {
+      const title = link.getAttribute('data-title') || '';
+      const desc = link.getAttribute('data-desc') || '';
+
+      if (term === '') {
+        link.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        if (title.includes(term) || desc.includes(term)) {
+          link.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          link.classList.add('hidden');
+        }
+      }
+    });
+
+    if (noResults) {
+      if (visibleCount === 0) {
+        noResults.classList.remove('hidden');
+      } else {
+        noResults.classList.add('hidden');
+      }
+    }
+  }
+
+  function initBlogSearch() {
+    const searchInput = document.getElementById('blog-search');
+    const searchForm = document.getElementById('blog-search-form');
+
+    if (searchInput) {
+      searchInput.addEventListener('input', doBlogSearch);
+    }
+    if (searchForm) {
+      searchForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        doBlogSearch();
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initBlogSearch);
+  } else {
+    initBlogSearch();
+  }
+</script>
+
+<style>
+  .blog-filter-wrapper {
+    background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+    border: 1px solid #e5e5e5;
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+  }
+  .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .search-icon {
+    position: absolute;
+    left: 0.875rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #aaa;
+    pointer-events: none;
+    transition: color 0.2s;
+  }
+  .search-input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.75rem;
+    border-radius: 0.75rem;
+    border: 1.5px solid #e0e0e0;
+    background: #fff;
+    font-size: 0.95rem;
+    color: #333;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+  .search-input:focus {
+    border-color: #D4FF00;
+    box-shadow: 0 0 0 3px rgba(212, 255, 0, 0.2);
+  }
+</style>

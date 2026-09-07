@@ -8,6 +8,7 @@ import heroImage from '../../assets/images/blog/se-ranking-core-vs-growth.webp';
 import { getGitModDate } from '../../utils/git-date';
 
 const lastReviewed = getGitModDate('src/pages/tools/seo-tool-kostenrechner.astro') || '2026-09-03';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const optimizedOgImage = await getImage({ src: heroImage, format: 'webp', width: 1200, height: 630 });
 
 const pageTitle = "SEO-Tool Kostenrechner: Top 8 Tools im Vergleich (2026)";
@@ -74,9 +75,9 @@ const webAppSchema = {
   <!-- Breadcrumb Navigation -->
   <nav class="bg-gray-100 py-3 border-b border-gray-200 text-sm" aria-label="Breadcrumb">
     <div class="container mx-auto px-4 max-w-5xl flex items-center gap-2 text-gray-600">
-      <a href="https://teleschmie.de/" class="hover:text-dark transition-colors">Home</a>
+      <a href={`${baseUrl}/`} class="hover:text-dark transition-colors">Home</a>
       <span>/</span>
-      <span class="text-gray-400">Tools</span>
+      <a href={`${baseUrl}/tools/`} class="hover:text-dark transition-colors">Tools</a>
       <span>/</span>
       <span class="text-dark font-medium">SEO-Tool Kostenrechner</span>
     </div>

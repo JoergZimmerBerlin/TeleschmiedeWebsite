@@ -105,7 +105,7 @@ export const GET = async () => {
   }
 
   // 7. Blog Categories
-  const blogCategories = ['seo-praxis', 'ai-seo', 'tech-seo-tools', 'events-networking'];
+  const blogCategories = ['seo-praxis', 'ai-seo', 'tech-seo-and-tools', 'events-and-networking'];
   for (const cat of blogCategories) {
     urls += `
   <url>
@@ -121,6 +121,20 @@ export const GET = async () => {
   <url>
     <loc>${baseUrl}/glossar/${cat}/</loc>
     <lastmod>${getLastMod(path.join(process.cwd(), 'src/pages/glossar/[slug].astro'))}</lastmod>
+  </url>`;
+  }
+
+  // 9. Tools Pages
+  const toolsPages = [
+    { slug: 'tools/', file: 'src/pages/tools/index.astro' },
+    { slug: 'tools/groundingpage-generator/', file: 'src/pages/tools/groundingpage-generator.astro' },
+    { slug: 'tools/seo-tool-kostenrechner/', file: 'src/pages/tools/seo-tool-kostenrechner.astro' }
+  ];
+  for (const tool of toolsPages) {
+    urls += `
+  <url>
+    <loc>${baseUrl}/${tool.slug}</loc>
+    <lastmod>${getLastMod(path.join(process.cwd(), tool.file))}</lastmod>
   </url>`;
   }
 

@@ -18,7 +18,16 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
   description="Erstelle mit einem Klick den perfekten System-Prompt für ChatGPT/Claude für eine vollständige Groundingpage inkl. Schema.org Markup. (2026)"
   ogImage={optimizedOgImage.src}
 >
-
+  <!-- Breadcrumb Navigation -->
+  <nav class="bg-gray-100 py-3 border-b border-gray-200 text-sm" aria-label="Breadcrumb">
+    <div class="container mx-auto px-4 max-w-4xl flex items-center gap-2 text-gray-600">
+      <a href={`${baseUrl}/`} class="hover:text-dark transition-colors" title="Home">Home</a>
+      <span>/</span>
+      <a href={`${baseUrl}/tools/`} class="hover:text-dark transition-colors" title="Tools">Tools</a>
+      <span>/</span>
+      <span class="text-dark font-medium">Grounding Page Generator</span>
+    </div>
+  </nav>
 
   <section class="py-12 md:py-24 bg-gray-50 min-h-[80vh]">
     <div class="container mx-auto px-4 max-w-4xl">

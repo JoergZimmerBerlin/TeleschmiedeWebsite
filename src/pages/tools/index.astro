@@ -1,0 +1,371 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Schema from '../../components/Schema.astro';
+import { Image, getImage } from 'astro:assets';
+import ogHeroImage from '../../assets/images/blog/blog-ai-search-tools-3d.webp';
+import { getGitModDate } from '../../utils/git-date';
+
+const lastReviewed = getGitModDate('src/pages/tools/index.astro') || '2026-09-07';
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', width: 1200, height: 630 });
+
+const pageTitle = "SEO & AI Tools | Kostenlose Praxis-Rechner & Generatoren (2026)";
+const pageDescription = "Kostenlose SEO & AI Tools von Jörg Zimmer: Grounding Page Generator für LLM-Sichtbarkeit und der interaktive SEO-Tool Kostenrechner 2026. (2026)";
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": pageTitle,
+  "description": pageDescription,
+  "url": "https://teleschmie.de/tools/",
+  "inLanguage": "de-DE",
+  "about": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Grounding Page Generator",
+      "url": "https://teleschmie.de/tools/groundingpage-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Erstelle mit einem Klick den perfekten System-Prompt für ChatGPT/Claude für eine vollständige Groundingpage inkl. Schema.org Markup nach Ontologie V2."
+    },
+    {
+      "@type": "WebApplication",
+      "name": "SEO-Tool Kostenrechner 2026",
+      "url": "https://teleschmie.de/tools/seo-tool-kostenrechner/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Live-Kostenvergleich der Top 8 SEO-Tools in Deutschland: Vergleiche Sistrix, Semrush, Ahrefs und SE Ranking ohne versteckte Mitarbeiter-Sitze."
+    }
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Jörg Zimmer",
+    "url": "https://teleschmie.de/ueber-mich/"
+  }
+};
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  ogImage={optimizedOgImage.src}
+  maxTitleLength={70}
+>
+  <Schema item={collectionSchema} />
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="bg-gray-100 py-3 border-b border-gray-200 text-sm" aria-label="Breadcrumb">
+    <div class="container-narrow flex items-center gap-2 text-gray-600">
+      <a href={`${baseUrl}/`} class="hover:text-dark transition-colors" title="Home">Home</a>
+      <span>/</span>
+      <span class="text-dark font-medium">Tools</span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="section pt-12 pb-12 bg-white">
+    <div class="container-narrow">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <p class="subheadline mb-4">Kostenlose SEO & AI Tools</p>
+        <h1 class="text-4xl md:text-5xl lg:text-[3.5rem] font-bold leading-tight mb-6">
+          <span class="highlight">Praxis-Tools</span> für SEO & KI-Sichtbarkeit.
+        </h1>
+        <p class="text-lg md:text-xl text-gray-muted mb-8 leading-relaxed">
+          Entwickelt aus über 25 Jahren Praxiserfahrung als <a href={`${baseUrl}/seo-freelancer-berlin/`} class="text-dark font-bold hover:text-lime-700 underline underline-offset-4">SEO Freelancer in Berlin</a>. Keine Vendor-Gimmicks, keine Zwangsregistrierung – 100 % praxiserprobte Werkzeuge für Entscheider, Agenturen und Inhouse-Teams.
+        </p>
+
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap justify-center items-center gap-3 text-xs md:text-sm font-semibold text-gray-700">
+          <span class="inline-flex items-center gap-1.5 bg-gray-50 border border-gray-200 px-3.5 py-1.5 rounded-full">
+            <svg class="w-4 h-4 text-lime-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+            100 % Kostenfrei
+          </span>
+          <span class="inline-flex items-center gap-1.5 bg-gray-50 border border-gray-200 px-3.5 py-1.5 rounded-full">
+            <svg class="w-4 h-4 text-lime-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+            Keine Registrierung
+          </span>
+          <span class="inline-flex items-center gap-1.5 bg-gray-50 border border-gray-200 px-3.5 py-1.5 rounded-full">
+            <svg class="w-4 h-4 text-lime-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+            Direkt im Browser nutzbar
+          </span>
+          <span class="inline-flex items-center gap-1.5 bg-lime-accent/20 border border-lime-500/30 text-lime-900 px-3.5 py-1.5 rounded-full font-bold">
+            Stand: 2026
+          </span>
+        </div>
+      </div>
+
+      <!-- ======================================================== -->
+      <!-- TOOL 1: Grounding Page Generator -->
+      <!-- ======================================================== -->
+      <article class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-md transition-all mb-16 relative overflow-hidden">
+        <div class="flex flex-col lg:flex-row gap-8 items-start justify-between">
+          <div class="lg:max-w-2xl">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="px-3 py-1 bg-lime-accent/20 text-dark text-xs font-bold rounded-full uppercase tracking-wider">
+                AI SEO & LLM Grounding
+              </span>
+              <span class="text-xs text-gray-muted font-medium">
+                Ontologie V2 konform
+              </span>
+            </div>
+
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-dark mb-4 leading-snug">
+              Grounding Page Generator – Das Fundament für deine KI-Sichtbarkeit
+            </h2>
+
+            <p class="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
+              Moderne KI-Suchmaschinen wie ChatGPT Search, Perplexity und Google AI Overviews stützen sich auf präzise Entitäten. Fehlen deiner Website maschinenlesbare Fakten, halluziniert die KI über deine Produkte oder empfiehlt direkt deine Wettbewerber. Mit dem <strong>Grounding Page Generator</strong> erstellst du in Sekunden den perfekten Prompt für ChatGPT, Claude oder Gemini, um eine vollständige Groundingpage inklusive validiertem JSON-LD Schema-Markup zu erzeugen.
+            </p>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">⚡</span>
+                  1-Klick Mega-Prompt
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Gib einfach deine Domain- oder Unterseiten-URL ein und kopiere den fertig optimierten System-Prompt mit einem Klick in die Zwischenablage.
+                </p>
+              </div>
+
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">🏛️</span>
+                  Valides Schema.org Markup
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Instruiert das LLM strikt nach der Ontologie V2 über alle 4 Entitätsgruppen: Akteure, Angebote, Wissen und Metriken für maximale <a href={`${baseUrl}/glossar/topical-authority/`} class="underline text-dark hover:text-lime-700">Topical Authority</a>.
+                </p>
+              </div>
+
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">🛡️</span>
+                  Schutz vor KI-Halluzinationen
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Verankert deine Preise, Kernkompetenzen und Standorte unmissverständlich im semantischen Wissensgraphen der Sprachmodelle.
+                </p>
+              </div>
+
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">📋</span>
+                  WordPress, Astro & Typo3 Ready
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Der vom Modell generierte HTML- und JSON-LD Code kann ohne Programmieraufwand direkt als Custom-HTML Block in dein CMS eingefügt werden.
+                </p>
+              </div>
+            </div>
+
+            <!-- CTA Action -->
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <a href={`${baseUrl}/tools/groundingpage-generator/`} class="btn-primary" title="Zum Grounding Page Generator (2026)">
+                <span>Zum Grounding Page Generator</span>
+                <span aria-hidden="true">→</span>
+              </a>
+              <span class="text-xs text-gray-500">
+                Passender Guide: <a href={`${baseUrl}/blog/grounding-page-generator-ai-seo/`} class="text-dark font-bold hover:text-lime-700 underline">Grounding Page Leitfaden</a> und <a href={`${baseUrl}/blog/wie-komme-ich-als-unternehmen-in-chatgpt/`} class="text-dark font-bold hover:text-lime-700 underline">Unternehmen in ChatGPT</a>
+              </span>
+            </div>
+          </div>
+
+          <!-- Visual Teaser Box -->
+          <div class="w-full lg:w-72 bg-gradient-to-br from-gray-900 to-black text-white p-6 rounded-2xl border border-gray-800 shadow-xl self-stretch flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-gray-800 pb-3 mb-4">
+                <span class="text-xs font-mono text-lime-accent uppercase">Live-Generator</span>
+                <span class="w-2.5 h-2.5 rounded-full bg-lime-accent animate-pulse"></span>
+              </div>
+              <p class="text-xs font-mono text-gray-400 mb-2"># Eingabe:</p>
+              <div class="bg-white/10 p-2.5 rounded-lg text-xs font-mono text-lime-200 truncate mb-4">
+                https://deine-domain.de/
+              </div>
+              <p class="text-xs font-mono text-gray-400 mb-2"># Output:</p>
+              <div class="bg-black/60 p-3 rounded-lg text-[11px] font-mono text-gray-300 space-y-1">
+                <p class="text-lime-accent font-bold mb-1">&lt;script type="ld+json"&gt;</p>
+                <p>"@type": "Organization",</p>
+                <p>"knowsAbout": ["SEO", "GEO"],</p>
+                <p>"subjectOf": Ontologie V2</p>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-800 text-[11px] text-gray-400">
+              Basierend auf Spezifikationen von <a href="https://groundingpage.com" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline">groundingpage.com</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ======================================================== -->
+      <!-- TOOL 2: SEO-Tool Kostenrechner 2026 -->
+      <!-- ======================================================== -->
+      <article class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-md transition-all mb-16 relative overflow-hidden">
+        <div class="flex flex-col lg:flex-row gap-8 items-start justify-between">
+          <div class="lg:max-w-2xl">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="px-3 py-1 bg-lime-accent/20 text-dark text-xs font-bold rounded-full uppercase tracking-wider">
+                Tech SEO & Kosten-Optimierung
+              </span>
+              <span class="text-xs text-gray-muted font-medium">
+                8 Suiten im Härtetest
+              </span>
+            </div>
+
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-dark mb-4 leading-snug">
+              SEO-Tool Kostenrechner 2026 – Schluss mit teuren Mitarbeiter-Sitzen
+            </h2>
+
+            <p class="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
+              Viele All-in-One SEO-Suiten locken mit günstigen Einstiegstarifen, entwickeln sich für Agenturen und Inhouse-Teams aber schnell zur massiven Kostenfalle. Bei Anbietern wie Semrush, Sistrix oder Ahrefs kostet jeder einzelne zusätzliche Mitarbeiter-Account (Seat) oft 60 bis 80 Dollar extra pro Monat. Unser interaktiver <strong>SEO-Tool Kostenrechner</strong> berechnet auf Basis offizieller Tarife von 2026 deine echten Gesamtkosten und zeigt transparent, wie viel du mit modernen Plattformen wie <a href={`${baseUrl}/blog/se-ranking-test-2026/`} class="text-dark font-bold hover:text-lime-700 underline">SE Ranking</a> sparen kannst.
+            </p>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">🧮</span>
+                  Interaktive Live-Kalkulation
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Passe Teamgröße und Keyword-Volumen interaktiv an – der Rechner aktualisiert monatliche und jährliche Gesamtkosten in Echtzeit.
+                </p>
+              </div>
+
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">📊</span>
+                  Top 8 Suiten im Direktduell
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Vergleicht SE Ranking, Sistrix, Semrush, Ahrefs, Mangools, Ubersuggest, Searchmetrics/Conductor und SEORCH auf einen Blick.
+                </p>
+              </div>
+
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">🔍</span>
+                  Die große Klappmappe
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Detaillierte Datenblätter zu jedem Tool inklusive versteckter Haken, Kappungsgrenzen bei Rankings und Kundengastlinks.
+                </p>
+              </div>
+
+              <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <span class="text-lime-600 font-extrabold text-base">🤖</span>
+                  MCP-Server & KI-Anbindung
+                </div>
+                <p class="text-xs text-gray-600 mb-0">
+                  Enthält Infos zur direkten Anbindung von Live-Ranking-Daten via Model Context Protocol an Claude Desktop und Claude Code.
+                </p>
+              </div>
+            </div>
+
+            <!-- CTA Action -->
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <a href={`${baseUrl}/tools/seo-tool-kostenrechner/`} class="btn-primary" title="Zum SEO-Tool Kostenrechner (2026)">
+                <span>Zum SEO-Tool Kostenrechner</span>
+                <span aria-hidden="true">→</span>
+              </a>
+              <span class="text-xs text-gray-500">
+                Passender Preis-Check: <a href={`${baseUrl}/blog/se-ranking-preise/`} class="text-dark font-bold hover:text-lime-700 underline">SE Ranking Preise 2026</a> und <a href={`${baseUrl}/blog/se-ranking-test-2026/`} class="text-dark font-bold hover:text-lime-700 underline">Erfahrungsbericht</a>
+              </span>
+            </div>
+          </div>
+
+          <!-- Visual Teaser Box -->
+          <div class="w-full lg:w-72 bg-gradient-to-br from-gray-900 to-black text-white p-6 rounded-2xl border border-gray-800 shadow-xl self-stretch flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-gray-800 pb-3 mb-4">
+                <span class="text-xs font-mono text-lime-accent uppercase">TCO-Kalkulator</span>
+                <span class="text-xs font-bold text-lime-400 bg-lime-900/40 px-2 py-0.5 rounded">Live</span>
+              </div>
+              <p class="text-xs font-mono text-gray-400 mb-2"># Szenario Agentur (4 Seats):</p>
+              <div class="space-y-2 mb-4">
+                <div class="bg-white/10 p-2.5 rounded-lg text-xs flex justify-between">
+                  <span class="text-gray-300">Semrush Guru:</span>
+                  <span class="text-red-400 font-bold">~5.748 €/J.</span>
+                </div>
+                <div class="bg-white/10 p-2.5 rounded-lg text-xs flex justify-between">
+                  <span class="text-gray-300">Sistrix (3 Mod.):</span>
+                  <span class="text-red-400 font-bold">~4.140 €/J.</span>
+                </div>
+                <div class="bg-lime-900/40 border border-lime-500/40 p-2.5 rounded-lg text-xs flex justify-between">
+                  <span class="text-lime-200 font-bold">SE Ranking Growth:</span>
+                  <span class="text-lime-accent font-bold">~2.256 €/J.</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-gray-800 text-[11px] text-lime-400 font-semibold">
+              ✔ Ø Ersparnis: Über 3.400 € pro Jahr
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ======================================================== -->
+      <!-- EXPERTEN-ZITATBOX (Master-Design aus AGENTS.md) -->
+      <!-- ======================================================== -->
+      <figure class="my-16 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+        <div class="flex items-center gap-4 mb-4">
+          <img 
+            src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+            alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+            class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+            width="56" 
+            height="56" 
+            loading="lazy"
+          />
+          <div>
+            <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+            <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+          </div>
+        </div>
+        <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+          „Gutes SEO braucht keine 50 verschiedenen Tool-Abos und keine 80-seitigen PDF-Reports, die in der Schublade verstauben. Was wirklich zählt, sind pragmatische Werkzeuge, die dir sofort glasklare Fakten liefern, teure Kostenfallen im Team eliminieren und deine Website für Mensch und KI-Crawler auffindbar machen. Genau dafür stelle ich diese Tools kostenfrei bereit.“
+        </blockquote>
+        <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+          <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+          <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+            Jörg Zimmer auf LinkedIn folgen →
+          </a>
+        </figcaption>
+      </figure>
+
+      <!-- ======================================================== -->
+      <!-- CTA BOX (Master-Design / Sprechstunde) -->
+      <!-- ======================================================== -->
+      <div class="my-10 bg-dark text-white p-8 md:p-12 rounded-3xl border border-white/10 text-center shadow-md">
+        <h3 class="text-2xl md:text-3xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+          Du suchst eine maßgeschneiderte Lösung für dein Projekt?
+        </h3>
+        <p class="text-gray-300 text-sm md:text-base max-w-xl mx-auto mb-8 leading-relaxed">
+          Ob individuelle KI-Sichtbarkeits-Strategie, technische <a href={`${baseUrl}/glossar/schema-org-markup/`} class="text-lime-accent underline">Schema.org Integration</a> oder Audit deines aktuellen Tool-Stacks: Lass uns in der SEO-Sprechstunde Klartext reden.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href={`${baseUrl}/seo-sprechstunde/`} class="btn-primary" title="Zur SEO-Sprechstunde (2026)">
+            <span>Zur SEO-Sprechstunde</span>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href={`${baseUrl}/kontakt/`} class="px-6 py-3.5 rounded-full font-bold text-sm bg-white/10 text-white hover:bg-white/20 transition-all border border-white/20 inline-flex items-center justify-center gap-2" title="Kontakt aufnehmen">
+            <span>Direkt Kontakt aufnehmen</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</Layout>

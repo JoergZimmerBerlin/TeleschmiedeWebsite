@@ -183,9 +183,9 @@ Das Fundament für die maschinelle Erfassung bildet sauberes [Technisches SEO](/
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org @graph Entity Reconciliation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Semantic Web Architect.</p>
-    <p><strong>Aufgabe:</strong> Erstelle für die Domain https://teleschmie.de/ ein valides Schema.org-Graph-Markup im JSON-LD-Format zur Verankerung im Knowledge Graph.</p>
+    <p><strong>Aufgabe:</strong> Erstelle für die Domain https://[deine-domain.de]/ ein valides Schema.org-Graph-Markup im JSON-LD-Format zur Verankerung im Knowledge Graph.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Definiere Knoten für Organization (Teleschmiede), Person (Jörg Zimmer) und WebSite.</p>
+    <p>1. Definiere Knoten für Organization ([Dein Unternehmensname]), Person ([Name des Autors/Gründers]) und WebSite.</p>
     <p>2. Verknüpfe die Person als Gründer und Autor über worksFor und founder mit der Organization.</p>
     <p>3. Integriere sameAs-Arrays mit Profilen auf LinkedIn und Wikidata.</p>
     <p>4. Validiere das Markup auf Syntaxfehler und Konformität im Google Rich Results Test und Schema Validator.</p>

@@ -144,7 +144,7 @@ Ein Audit ist kein Luxus, sondern absolute Pflicht:
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Prüfe die Datei <code>public/robots.txt</code> auf Zugriffsregeln für KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended) und stelle sicher, dass wichtige Content-Bereiche nicht unbeabsichtigt blockiert werden.</p>
     <p>2. Validiere die Existenz und semantische Struktur von <code>public/.well-known/llms.txt</code> und <code>public/llms.txt</code> gemäß dem llmstxt.org-Standard.</p>
-    <p>3. Teste serverseitige Markdown-Content-Negotiation via curl: <code>curl -sI -H "Accept: text/markdown" https://teleschmie.de/</code> und prüfe, ob RFC 8288 Link-Header fehlerfrei ausgeliefert werden.</p>
+    <p>3. Teste serverseitige Markdown-Content-Negotiation via curl: <code>curl -sI -H "Accept: text/markdown" https://[deine-domain.de]/</code> und prüfe, ob RFC 8288 Link-Header fehlerfrei ausgeliefert werden.</p>
     <p>4. Analysiere das JSON-LD Schema-Markup aller Seitentypen mit Google Rich Results Test oder einem schema-dts Validator auf verschachtelte Entitäten (@id, Organization, WebPage, Article).</p>
     <p>5. Liefere einen priorisierten Maßnahmenplan mit Aufwand-Nutzen-Bewertung (Prio 1: Blocker, Prio 2: Optimierung, Prio 3: Nice-to-have).</p>
   </div>

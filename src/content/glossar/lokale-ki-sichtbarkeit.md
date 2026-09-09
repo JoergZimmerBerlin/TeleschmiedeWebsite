@@ -197,7 +197,7 @@ Einen Marktvergleich über moderne Monitoring-Werkzeuge für lokale und globale 
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Local GEO Audit & Multi-Platform Listing Validator</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Local SEO & AI Search Specialist.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein Prüfskript, das NAP-Daten (Name, Address, Phone) auf unserer Domain mit Google Unternehmensprofil, Apple Maps und Schema.org-Attributen abgleicht.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein Prüfskript, das NAP-Daten (Name, Address, Phone) für https://[deine-domain.de]/ mit Google Unternehmensprofil, Apple Maps und Schema.org-Attributen abgleicht.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <ol class="list-decimal pl-4 space-y-1 text-gray-300">
       <li>Scrape und parse das LocalBusiness-JSON-LD der Startseite und Standortunterseiten.</li>

@@ -144,11 +144,11 @@ Etabliere zudem eine wöchentliche Feedback-Schleife zwischen deinem SEO-Team un
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AI Visibility Prompt-Benchmark & Zitations-Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical AI SEO & Data Engineer.</p>
-    <p><strong>Aufgabe:</strong> Entwickle ein Node.js- oder Python-Skript zur Messung der KI-Sichtbarkeit unserer Domain https://teleschmie.de/ über OpenAI und Perplexity APIs.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Node.js- oder Python-Skript zur Messung der KI-Sichtbarkeit einer Domain https://[deine-domain.de]/ über OpenAI und Perplexity APIs.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Definiere ein Array von 10 branchenspezifischen Kaufberatungs-Prompts (z. B. B2B SEO Beratung, Generative Engine Optimization Agentur).</p>
     <p>2. Sende jeden Prompt mit Temperatur 0.1 an die Chat-Completion-Endpunkte, um reproduzierbare Antworten zu erhalten.</p>
-    <p>3. Analysiere den Antworttext mit Regex auf Markennennungen (Teleschmiede, Jörg Zimmer) und Domain-Zitationen (https://teleschmie.de/).</p>
+    <p>3. Analysiere den Antworttext mit Regex auf Markennennungen ([Dein Markenname], [Name des Experten]) und Domain-Zitationen (https://[deine-domain.de]/).</p>
     <p>4. Berechne Presence Rate, Citation Count und Position Bias und exportiere die Ergebnisse als strukturierte JSON-Metrik.</p>
   </div>
 </div>

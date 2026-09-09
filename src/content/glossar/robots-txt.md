@@ -93,7 +93,7 @@ User-agent: ChatGPT-User
 Allow: /
 
 # Wichtige Wegweiser für Crawler
-Sitemap: https://teleschmie.de/sitemap.xml
+Sitemap: https://[deine-domain.de]/sitemap.xml
 ```
 
 1.  **`User-agent:`** An wen richtest du dich? Das Sternchen (`*`) gilt als Platzhalter (Wildcard) für alle Crawler weltweit. Aber 2026 adressieren wir fast immer explizit Bots wie `GPTBot`, `OAI-SearchBot` oder `ClaudeBot`, um gezielte KI-Strategien zu fahren.
@@ -164,7 +164,7 @@ Die robots.txt mag nur eine Textdatei sein, aber sie reagiert empfindlich auf Sy
       <li>Erlaube Live-Retrieval-Bots (<code>OAI-SearchBot</code>, <code>ChatGPT-User</code>, <code>PerplexityBot</code>) explizit mit <code>Allow: /</code>.</li>
       <li>Blockiere reine Modell-Trainings-Crawler (<code>GPTBot</code>, <code>CCBot</code>, <code>ClaudeBot</code>) bei Bedarf per <code>Disallow: /</code>.</li>
       <li>Sperre interne Backend-, Staging- und Warenkorb-Pfade für den generellen <code>User-agent: *</code> aus.</li>
-      <li>Integriere den absoluten Link zur XML-Sitemap (z. B. <code>Sitemap: https://teleschmie.de/sitemap.xml</code>).</li>
+      <li>Integriere den absoluten Link zur XML-Sitemap (z. B. <code>Sitemap: https://[deine-domain.de]/sitemap.xml</code>).</li>
       <li>Achte auf strikte Trailing Slashes bei Verzeichnissperren.</li>
     </ul>
   </div>

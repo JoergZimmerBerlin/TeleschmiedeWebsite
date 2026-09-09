@@ -175,7 +175,7 @@ Mit [Rankscale](/glossar/rankscale/) überwachst du automatisiert branchenspezif
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierte llms.txt & Markdown-Negotiation Pipeline</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Integration Engineer.</p>
-    <p><strong>Aufgabe:</strong> Implementiere eine standardkonforme llms.txt-Generierung und Markdown Content Negotiation für unser Webprojekt.</p>
+    <p><strong>Aufgabe:</strong> Implementiere eine standardkonforme llms.txt-Generierung und Markdown Content Negotiation für dieses Webprojekt.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <ol class="list-decimal pl-4 space-y-1 text-gray-300">
       <li>Erzeuge eine statische /llms.txt im Projekt-Root, die Kernleistungen, Entitäten und Dokumentationspfade token-effizient abbildet.</li>

@@ -140,9 +140,9 @@ dig +nocmd +noall +answer +stats @ns1.teleschmie.de teleschmie.de
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: DNS Latency &amp; Resilience Benchmarking</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Site Reliability Engineer (SRE) und Web Infrastructure Specialist.</p>
-    <p><strong>Aufgabe:</strong> Entwickle ein Node.js- oder Shell-Skript, das die DNS-Auflösungszeiten unserer autoritativen Nameserver aus mehreren geografischen Zonen kontinuierlich misst und Warnungen bei Überschreitung von 30 ms ausgibt.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Node.js- oder Shell-Skript, das die DNS-Auflösungszeiten autoritativer Nameserver für eine konfigurierbare Domain aus mehreren geografischen Zonen kontinuierlich misst und Warnungen bei Überschreitung von 30 ms ausgibt.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Nutze native DNS-Lookups via dig oder Node.js dns.promises für teleschmie.de.</p>
+    <p>1. Nutze native DNS-Lookups via dig oder Node.js dns.promises für [deine-domain.de].</p>
     <p>2. Prüfe das ad-Flag (DNSSEC-Status) sowie TTL-Werte auf Best Practices (3600s für stabilen Betrieb, 300s vor Migrationen).</p>
     <p>3. Integriere einen automatischen Exit-Code 1, falls die Abfragezeit über 50 ms liegt oder ein Nameserver nicht antwortet.</p>
   </div>

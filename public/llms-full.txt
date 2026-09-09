@@ -2503,7 +2503,7 @@ Je nach Budget, Zielsetzung und Inhouse-Kompetenz bieten unterschiedliche Plattf
 1. Nimm eine Liste von 10 kaufrelevanten B2B-Suchprompts entgegen.
 2. Frage für jeden Prompt die Perplexity- und OpenAI-Search-APIs ab.
 3. Extrahiere alle zitierten URLs aus den Antwortobjekten und aggregiere die Top-Domains (Domain Leaderboard).
-4. Vergleiche, ob unsere Domain [deinedomain.de] unter den Top-3-Zitationen auftaucht.
+4. Vergleiche, ob die Ziel-Domain [deine-domain.de] unter den Top-3-Zitationen auftaucht.
 5. Exportiere die Ergebnisse als strukturierte CSV-Tabelle mit Spalten: Prompt, Engine, Brand_Cited (True/False), Top_Domain, Source_URL.
 Liefere den sauberen Python-Code mit Fehlerbehandlung für API-Rate-Limits.
 
@@ -2866,7 +2866,7 @@ Reine Kennzahlen entfalten erst dann geschäftlichen Nutzen, wenn daraus konkret
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Competitor-Vergleich zu programmieren:
   
   Du bist ein hochspezialisierter Competitive-Intelligence-Analyst für Generative AI.
-Führe einen Wettbewerbsvergleich zwischen unserer Marke [Brand A] und den Mitbewerbern [Brand B, Brand C] durch:
+Führe einen Wettbewerbsvergleich zwischen der Zielmarke [Brand A] und den Mitbewerbern [Brand B, Brand C] durch:
 1. Erstelle ein Set von 15 kaufentscheidenden B2B-Suchprompts für unser Marktsegment.
 2. Simuliere die Antwortgenerierung in Perplexity und ChatGPT Search.
 3. Berechne für jede Marke:
@@ -4300,8 +4300,8 @@ Erstelle beispielsweise dedizierte Vergleichstabellen und FAQ-Module, die häufi
     // Rolle & Kontext
     Du bist ein NLP & Brand Reputation Specialist. Erstelle ein Skript zur automatisierten Extraktion von Markensentiment und qualitativen Deskriptoren aus LLM-Antworten.
     // Anforderungen
-    1. Sende 15 Vergleichs-Prompts unserer Branche an Claude 3.5 Sonnet und OpenAI GPT-4o und fange die Textantworten ab.
-    2. Führe ein feingranulares Sentiment-Parsing durch: Klassifiziere Absätze, in denen unsere Marke vorkommt, in Positiv / Neutral / Negativ.
+    1. Sende 15 branchenspezifische Vergleichs-Prompts an Claude 3.5 Sonnet und OpenAI GPT-4o und fange die Textantworten ab.
+    2. Führe ein feingranulares Sentiment-Parsing durch: Klassifiziere Absätze, in denen die Zielmarke [Dein Markenname] vorkommt, in Positiv / Neutral / Negativ.
     3. Extrahiere alle assoziierten Adjektive und Phrasen (Deskriptoren wie 'zuverlässig', 'teuer', 'innovativ', 'kompliziert') und bilde ein Häufigkeits-Ranking.
     4. Stelle das Ergebnis als JSON-Struktur mit 'Net Sentiment Score' (-100 bis +100) und Keyword-Cloud-Daten bereit.
     // Output
@@ -4807,13 +4807,13 @@ Um dir direkt einen Überblick zu verschaffen, findest du hier die wichtigste Ve
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten Multi-LLM-Tracking-Benchmark für dein Unternehmen zu programmieren:
   
   Du bist ein Senior AI-Search-Engineer. Schreibe ein modulares Node.js/Python-Skript für ein automatisiertes AI-Tracking:
-1. Definiere ein Array aus 15 transaktionalen und informationalen B2B-Prompts für unsere Branche.
+1. Definiere ein Array aus 15 transaktionalen und informationalen B2B-Prompts für die Ziel-Branche [Deine Branche].
 2. Sende diese Prompts automatisiert über die APIs von OpenAI (GPT-4o), Anthropic (Claude 3.5 Sonnet) und Perplexity (Sonar-Medium).
 3. Analysiere die zurückgegebenen Antworttexte linguistisch auf:
-   - Mentions: Wird unser Markenname namentlich genannt?
-   - Citations: Ist unsere Domain in den Quellen-Links (Referrals) enthalten?
+   - Mentions: Wird der Ziel-Markenname [Dein Markenname] namentlich genannt?
+   - Citations: Ist die Ziel-Domain [deine-domain.de] in den Quellen-Links (Referrals) enthalten?
    - Competitor Mentions: Welche 3 Hauptkonkurrenten werden stattdessen genannt?
-   - Sentiment-Score (-1 bis +1): Wie positiv/neutral/negativ wird unsere Lösung dargestellt?
+   - Sentiment-Score (-1 bis +1): Wie positiv/neutral/negativ wird das Ziel-Angebot dargestellt?
 4. Berechne den Share of Voice (SoV) und exportiere die Ergebnisse als strukturierte JSON- und CSV-Reports für Looker Studio.
 
 
@@ -6228,11 +6228,11 @@ Durch diese eindeutigen Entitäts-Verknüpfungen versteht der Algorithmus die Zu
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Visibility-Audit deiner Website gegen Wettbewerber zu erstellen:
   
-  Du bist ein hochspezialisierter GEO- & RAG-Auditor. Untersuche unsere Website und analysiere unsere AI Visibility:
+  Du bist ein hochspezialisierter GEO- & RAG-Auditor. Untersuche die Ziel-Website https://[deine-domain.de]/ und analysiere die AI Visibility:
 1. Prüfe die Datei robots.txt und Server-Header auf Freigabe relevanter KI-Crawler (GPTBot, PerplexityBot, ClaudeBot, Google-Extended).
-2. Analysiere das JSON-LD Schema-Markup unserer Domain: Werden Entitäten (Organization, Person) über @id, knowsAbout und sameAs (Wikidata, LinkedIn) semantisch eindeutig definiert?
+2. Analysiere das JSON-LD Schema-Markup der Ziel-Domain: Werden Entitäten (Organization, Person) über @id, knowsAbout und sameAs (Wikidata, LinkedIn) semantisch eindeutig definiert?
 3. Untersuche 5 zentrale Service-URLs auf RAG-Readiness: Enthalten die H2-Abschnitte präzise Antworten im BLUF-Format (Bottom Line Up Front, 40-60 Wörter), Tabellen und nummerierte Aufzählungen für fehlerfreie Chunk-Extraktion?
-4. Formuliere 10 representative B2B-Prompts für unsere Branche und simuliere die Antwortwahrscheinlichkeit im Vergleich zu unseren Top-3 Wettbewerbern.
+4. Formuliere 10 repräsentative B2B-Prompts für die Ziel-Branche [Deine Branche] und simuliere die Antwortwahrscheinlichkeit im Vergleich zu den Top-3 Wettbewerbern.
 Gib das Ergebnis als strukturierte Markdown-Tabelle mit konkreten Prioritäten (P0 bis P2) aus.
 
 
@@ -6416,7 +6416,7 @@ Link: ; rel="service-desc"; type="application/json"
     Schritte & Validierung:
     1. Definiere specVersion: "1.0", host-Metadaten und entries mit eindeutigen URNs für alle MCP- und REST-Schnittstellen.
     2. Achte strikt auf die Value-or-Reference-Regel (niemals url und data im selben Eintrag).
-    3. Konfiguriere den Apache/Nginx Link-Header nach RFC 8288: Link: &lt;https://teleschmie.de/.well-known/ai-catalog.json&gt;; rel="service-desc"; type="application/json".
+    3. Konfiguriere den Apache/Nginx Link-Header nach RFC 8288: Link: &lt;https://[deine-domain.de]/.well-known/ai-catalog.json&gt;; rel="service-desc"; type="application/json".
   
 
 
@@ -6622,7 +6622,7 @@ Link: ; rel="authorization-policy"; type="text/markdown"
     Schritte & Validierung:
     1. Stelle sicher, dass die Datei kleingeschrieben ist (auth.md) und als H1 strikt # auth.md verwendet.
     2. Konfiguriere OAuth 2.1 Metadaten und Scopes (z. B. read:articles) im YAML-Frontmatter.
-    3. Ergänze die .htaccess bzw. Nginx-Konfiguration um den Link-Header: Link: &lt;https://teleschmie.de/.well-known/auth.md&gt;; rel="authorization-policy"; type="text/markdown".
+    3. Ergänze die .htaccess bzw. Nginx-Konfiguration um den Link-Header: Link: &lt;https://[deine-domain.de]/.well-known/auth.md&gt;; rel="authorization-policy"; type="text/markdown".
   
 
 
@@ -8647,7 +8647,7 @@ Dieses Phänomen führt dazu, dass Traffic, der über KI-Sichtbarkeit generiert 
     Du bist ein AI SEO Analytics Specialist. Erstelle ein Node.js- / Python-Skript, das automatisiert die Citation Frequency für ein Prompt-Cluster abfragt und auswertet.
     // Anforderungen
     1. Lade eine Liste von 25 kaufentscheidenden Zielgruppen-Prompts und sende sie an Perplexity (Sonar API) sowie OpenAI (Search API).
-    2. Prüfe alle zurückgegebenen Quellen-URLs auf Übereinstimmung mit unserer Domain und den wichtigsten Wettbewerbern.
+    2. Prüfe alle zurückgegebenen Quellen-URLs auf Übereinstimmung mit der Ziel-Domain https://[deine-domain.de]/ und den wichtigsten Wettbewerbern.
     3. Berechne die absolute Citation Frequency sowie den relativen Share of Model (SoM) pro Modell.
     4. Speichere die Historie in einer SQLite-Datenbank und erstelle einen wöchentlichen HTML-Report mit Trend-Indikatoren.
     // Output
@@ -9240,8 +9240,8 @@ Unter `/.well-known/agent-card.json` wird das Profil des Web-Assistenten publizi
     Schritte & Validierung:
     1. Erstelle `/.well-known/agent-card.json` strikt nach A2A Protocol v1.0 Schema mit Feldern `supportedInterfaces`, `capabilities` und `skills`.
     2. Erstelle `/auth.md` in Kleinbuchstaben mit der ersten Überschrift `# auth.md` und maschinenlesbaren Authentifizierungsschritten.
-    3. Konfiguriere RFC 8288 Link-Header im Webserver (z. B. `.htaccess` oder Nginx) ohne Anführungszeichen in den spitzen Klammern: `Header add Link "&lt;https://teleschmie.de/.well-known/agent-card.json&gt;; rel=\"agent-card\""`.
-    4. Validiere die Header per `curl -I -s https://teleschmie.de/ | grep -i "^link:"` und prüfe HTTP-Status 200 aller Endpunkte.
+    3. Konfiguriere RFC 8288 Link-Header im Webserver (z. B. `.htaccess` oder Nginx) ohne Anführungszeichen in den spitzen Klammern: `Header add Link "&lt;https://[deine-domain.de]/.well-known/agent-card.json&gt;; rel=\"agent-card\""`.
+    4. Validiere die Header per `curl -I -s https://[deine-domain.de]/ | grep -i "^link:"` und prüfe HTTP-Status 200 aller Endpunkte.
   
 
 
@@ -9259,7 +9259,7 @@ Entwickler können die korrekte Ausspielung aller wesentlichen Discovery-Element
 
 ```bash
 # Prüfung der RFC 8288 Link-Header auf der Hauptdomain
-curl -I -s https://teleschmie.de/ | grep -i "^link:"
+curl -I -s https://[deine-domain.de]/ | grep -i "^link:"
 
 # Validierung der Erreichbarkeit von agent-card.json und auth.md
 curl -s -o /dev/null -w "%{http_code}\n" https://teleschmie.de/.well-known/agent-card.json
@@ -9433,7 +9433,7 @@ Im technischen Alltag begegnen SEO-Spezialisten immer wieder Versäumnissen, die
     Schritte & Validierung:
     1. Prüfe `robots.txt`: Stelle sicher, dass `User-agent: CCBot` erlaubt ist (`Allow: /`), während interne und geschützte Pfade (`/admin/`, `/checkout/`) sauber via Disallow geschützt werden.
     2. Prüfe CDN- und Firewall-Regeln (z. B. Cloudflare WAF): Verifiziere, dass die ASN und User-Agent-Header von Common Crawl nicht pauschal mit HTTP 403 blockiert werden.
-    3. Validiere das serverseitige HTML: Rufe per `curl -A "CCBot/2.0" -s https://teleschmie.de/` ab und stelle sicher, dass alle redaktionellen Texte vollständig im Initial-HTML vorhanden sind.
+    3. Validiere das serverseitige HTML: Rufe per `curl -A "CCBot/2.0" -s https://[deine-domain.de]/` ab und stelle sicher, dass alle redaktionellen Texte vollständig im Initial-HTML vorhanden sind.
   
 
 
@@ -9587,7 +9587,7 @@ Link: ; rel="describedby"; type="application/json"
   
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um eine hochperformante Edge-Cache- und Bot-Management-Konfiguration zu erstellen:
   
-  Du bist ein Senior Cloud- und CDN-Architekt. Konfiguriere die Edge-Caching-Regeln für unser Webprojekt:
+  Du bist ein Senior Cloud- und CDN-Architekt. Konfiguriere die Edge-Caching-Regeln für dieses Webprojekt:
 1. Erstelle eine Nginx-/Apache-Header-Konfiguration, die RFC-9213-konforme CDN-Cache-Control-Header für statische Seiten (HTML) und Assets (.webp, .svg, .css, .js) ausliefert.
 2. Integriere die stale-while-revalidate Direktive (1 Stunde), um Latenzen bei Cache-Erneuerung vollständig zu eliminieren.
 3. Definiere eine WAF-Routing-Regel für Cloudflare oder Fastly, die bekannte KI-Such-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended) explizit whitelisted und von JavaScript-Challenges ausnimmt.
@@ -9814,7 +9814,7 @@ In Beratungsprojekten und technischen Web-Audits treten regelmäßig gravierende
     1. Erweitere die robots.txt um granulare Content-Signal-Direktiven: Content-Signal: search=yes, ai-input=yes, ai-train=no für Bot-Gruppen.
     2. Konfiguriere Webserver-Header (.htaccess oder NGINX) für statische Assets (PDFs, Downloads): Header set X-Robots-Tag "noai, noimageai".
     3. Erstelle /.well-known/tdmrep.json mit tdm-reservation: 1 gemäß W3C TDM-Reservation-Standard.
-    4. Validiere die Konfiguration per curl -I -s https://teleschmie.de/robots.txt und überprüfe, ob RAG-Bots wie GPTBot und PerplexityBot freigegeben sind.
+    4. Validiere die Konfiguration per curl -I -s https://[deine-domain.de]/robots.txt und überprüfe, ob RAG-Bots wie GPTBot und PerplexityBot freigegeben sind.
   
 
 
@@ -10867,14 +10867,14 @@ Um eine Domain mit DNS-AID auszustatten, werden standardisierte Resource-Records
 ; ============================================================
 
 ; 1. Service Binding Record (SVCB) für den primären MCP-Agenten
-_agent._tcp.teleschmie.de.    3600 IN SVCB 1 mcp.api.teleschmie.de. (
+_agent._tcp.[deine-domain.de].    3600 IN SVCB 1 mcp.api.teleschmie.de. (
                                 alpn="mcp"
                                 port="443"
                                 key65300="v=dns-aid1"
                               )
 
 ; 2. TXT-Record Fallback mit Metadaten und Auth-Verweis
-_agent._tcp.teleschmie.de.    3600 IN TXT "v=dns-aid1; id=company-agent; auth=https://teleschmie.de/auth.md; mcp=https://teleschmie.de/.well-known/mcp.json"
+_agent._tcp.[deine-domain.de].    3600 IN TXT "v=dns-aid1; id=company-agent; auth=https://teleschmie.de/auth.md; mcp=https://teleschmie.de/.well-known/mcp.json"
 
 ; 3. DANE TLSA-Record zur kryptografischen Authentifizierung
 _443._tcp.mcp.api.teleschmie.de. 3600 IN TLSA 3 1 1 d2ab65...deine_hash_signatur...
@@ -10919,9 +10919,9 @@ Liefert die Abfrage die deklarierten Ports, Protokolle und das `ad`-Flag (Authen
   
     # Prompt: DNS-AID &amp; SVCB Resource Record Setup
     Rolle: Du bist ein hochspezialisierter Network Engineer und Cloudflare Infrastructure Architect.
-    Aufgabe: Erstelle eine standardkonforme DNS-Konfiguration nach dem IETF-Entwurf draft-mozleywilliams-dnsop-dnsaid für unsere Domain, inklusive SVCB-Record (RFC 9460) und TXT-Metadaten.
+    Aufgabe: Erstelle eine standardkonforme DNS-Konfiguration nach dem IETF-Entwurf draft-mozleywilliams-dnsop-dnsaid für die Ziel-Domain [deine-domain.de], inklusive SVCB-Record (RFC 9460) und TXT-Metadaten.
     Schritte &amp; Validierung:
-    1. Generiere die Zonendatei-Einträge für `_agent._tcp.teleschmie.de.` mit ALPN="mcp", Port 443 und v=dns-aid1.
+    1. Generiere die Zonendatei-Einträge für `_agent._tcp.[deine-domain.de].` mit ALPN="mcp", Port 443 und v=dns-aid1.
     2. Formuliere den passenden TXT-Fallback-Record unter Einhaltung des 255-Byte-Limits für String-Segmente.
     3. Überprüfe die Konfiguration mit dig +short SVCB und stelle sicher, dass DNSSEC (ad-Flag) aktiv ist.
   
@@ -11097,9 +11097,9 @@ dig +nocmd +noall +answer +stats @ns1.teleschmie.de teleschmie.de
   
     # Prompt: DNS Latency &amp; Resilience Benchmarking
     Rolle: Du bist ein erfahrener Site Reliability Engineer (SRE) und Web Infrastructure Specialist.
-    Aufgabe: Entwickle ein Node.js- oder Shell-Skript, das die DNS-Auflösungszeiten unserer autoritativen Nameserver aus mehreren geografischen Zonen kontinuierlich misst und Warnungen bei Überschreitung von 30 ms ausgibt.
+    Aufgabe: Entwickle ein Node.js- oder Shell-Skript, das die DNS-Auflösungszeiten autoritativer Nameserver für eine konfigurierbare Domain aus mehreren geografischen Zonen kontinuierlich misst und Warnungen bei Überschreitung von 30 ms ausgibt.
     Schritte &amp; Validierung:
-    1. Nutze native DNS-Lookups via dig oder Node.js dns.promises für teleschmie.de.
+    1. Nutze native DNS-Lookups via dig oder Node.js dns.promises für [deine-domain.de].
     2. Prüfe das ad-Flag (DNSSEC-Status) sowie TTL-Werte auf Best Practices (3600s für stabilen Betrieb, 300s vor Migrationen).
     3. Integriere einen automatischen Exit-Code 1, falls die Abfragezeit über 50 ms liegt oder ein Nameserver nicht antwortet.
   
@@ -11864,10 +11864,10 @@ Durch die Vergabe fester IDs (`@id`) und die Verlinkung auf globale Wikidata-Kon
   
     # Prompt: Entity Graph &amp; Knowledge Graph API Audit
     Rolle: Du bist ein erfahrener Semantic Web Architect und Python/Node.js Developer.
-    Aufgabe: Entwickle ein Skript, das die Brand-Entität über die Google Knowledge Graph Search API abfragt, den resultierenden resultScore auswertet und die bidirektionale sameAs-Konsistenz mit unserer Groundingpage validiert.
+    Aufgabe: Entwickle ein Skript, das die Brand-Entität über die Google Knowledge Graph Search API abfragt, den resultierenden resultScore auswertet und die bidirektionale sameAs-Konsistenz mit der Groundingpage validiert.
     Schritte &amp; Validierung:
-    1. Frage den Knowledge Graph für Teleschmiede ab und extrahiere @id, types und description.
-    2. Gleiche gefundene Identifier mit den sameAs-Einträgen im JSON-LD-Graph von teleschmie.de ab.
+    1. Frage den Knowledge Graph für den Markennamen [Dein Markenname] ab und extrahiere @id, types und description.
+    2. Gleiche gefundene Identifier mit den sameAs-Einträgen im JSON-LD-Graph von https://[deine-domain.de]/ ab.
     3. Gib eine strukturierte Tabelle der verifizierten Kanten und fehlenden Verknüpfungen aus.
   
 
@@ -12064,11 +12064,11 @@ if __name__ == "__main__":
   
     # Prompt: Entity Co-Occurrence &amp; PMI Matrix Pipeline
     Rolle: Du bist ein erfahrener NLP Data Scientist und Python/FastAPI Entwickler.
-    Aufgabe: Erstelle ein Python-Skript zur automatisierten Berechnung der Pointwise Mutual Information (PMI) und Cosine Similarity zwischen unserer Brand-Entität und definierten Branchen-Keywords.
+    Aufgabe: Erstelle ein Python-Skript zur automatisierten Berechnung der Pointwise Mutual Information (PMI) und Cosine Similarity zwischen der Brand-Entität [Dein Markenname] und definierten Branchen-Keywords.
     Schritte &amp; Validierung:
-    1. Nutze spaCy oder ein Transformer-Modell zur Named Entity Recognition (NER) auf unseren Blogbeiträgen.
+    1. Nutze spaCy oder ein Transformer-Modell zur Named Entity Recognition (NER) auf den Blogbeiträgen des Projekts.
     2. Berechne die paarweise Kookkurrenzmatrix und leite die PMI-Werte ab.
-    3. Identifiziere semantische Cluster-Lücken, bei denen unsere Marke noch nicht dicht genug an Kernbegriffen verortet ist.
+    3. Identifiziere semantische Cluster-Lücken, bei denen die Zielmarke [Dein Markenname] noch nicht dicht genug an Kernbegriffen verortet ist.
   
 
 
@@ -12221,7 +12221,7 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://teleschmie.de/#organization",
+      "@id": "https://[deine-domain.de]/#organization",
       "name": "Teleschmiede",
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
@@ -12248,7 +12248,7 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
       "name": "Jörg Zimmer",
       "jobTitle": "Senior SEO & AI Search Consultant",
       "worksFor": {
-        "@id": "https://teleschmie.de/#organization"
+        "@id": "https://[deine-domain.de]/#organization"
       },
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
@@ -12283,11 +12283,11 @@ Liegt der Vektor Ihrer Marke (z. B. als Dienstleister für B2B-SEO) mathematisch
   
     # Prompt: Entity Graph &amp; Knowledge Graph Generation
     Rolle: Du bist ein Senior Semantic-Web- und Schema.org-Ingenieur.
-    Aufgabe: Erstelle für unsere Domain teleschmie.de einen vollständigen JSON-LD Knowledge Graph mit verschachtelten Entitäten.
+    Aufgabe: Erstelle für die Domain https://[deine-domain.de]/ einen vollständigen JSON-LD Knowledge Graph mit verschachtelten Entitäten.
     Schritte &amp; Validierung:
-    1. Definiere Organization mit fester @id (URI: https://teleschmie.de/#organization), Name, Logo und Kontaktdaten.
+    1. Definiere Organization mit fester @id (URI: https://[deine-domain.de]/#organization), Name [Unternehmensname], Logo und Kontaktdaten.
     2. Integriere ein umfassendes sameAs-Array (Wikidata, LinkedIn, Branchenverzeichnisse) und knowsAbout-Array mit Wikipedia-Entitäten.
-    3. Verknüpfe Person-Entität (@id: https://teleschmie.de/#author) über worksFor und validiere mit dem Schema Markup Validator.
+    3. Verknüpfe Person-Entität (@id: https://[deine-domain.de]/#[autor-slug]) über worksFor und validiere mit dem Schema Markup Validator.
   
 
 
@@ -14062,12 +14062,12 @@ Was passiert technisch im Hintergrund, wenn ein B2B-Käufer heute fragt: *„Wel
   
     # Prompt: GEO-Optimierung & Markdown Content Negotiation konfigurieren
     Rolle: Du bist ein erfahrener Technical SEO & Web Architect mit Spezialisierung auf Generative Engine Optimization (GEO).
-    Aufgabe: Implementiere auf unserem Webserver serverseitige Content Negotiation für KI-Crawler sowie eine automatisierte /llms.txt.
+    Aufgabe: Implementiere auf dem Webserver serverseitige Content Negotiation für KI-Crawler sowie eine automatisierte /llms.txt.
     Schritte & Validierung:
     1. Prüfe eingehende HTTP-Header auf Accept: text/markdown. Falls vorhanden, liefere anstelle des kompletten HTML-DOMs eine bereinigte Markdown-Version ohne Boilerplate, Navigation und Footer aus.
     2. Erstelle eine statische Route unter /llms.txt und verlinke die wichtigsten Informations-Hubs mit kurzem Kontext (Title, URL, Kurzbeschreibung) gemäß llmstxt.org-Spezifikation.
     3. Integriere semantisches JSON-LD (Triple Schema Stacking: Article, FAQPage, ItemList), um Entitäten eindeutig zu disambiguieren.
-    4. Validiere per cURL: curl -H "Accept: text/markdown" https://teleschmie.de/glossar/geo-optimierung/ und prüfe, ob der Content-Type als text/markdown; charset=utf-8 zurückkehrt.
+    4. Validiere per cURL: curl -H "Accept: text/markdown" https://[deine-domain.de]/[beispiel-pfad]/ und prüfe, ob der Content-Type als text/markdown; charset=utf-8 zurückkehrt.
   
 
 
@@ -14433,7 +14433,7 @@ if __name__ == "__main__":
     2. Sende Anfragen für vordefinierte Marken- und Produkt-Entitäten an die Schnittstelle und aggregiere die Ergebnisse für GPT-4o, Perplexity und Claude.
     3. Berechne den Share of Model (in Prozent) und das positive Sentiment-Verhältnis.
     4. Exportiere die Daten als sauberes JSON oder CSV für das interne Marketing-Reporting.
-    5. Teste die API-Verbindung mit teleschmie.de/ als Referenz-Domain und überprüfe Timeouts und Exception-Handling.
+    5. Teste die API-Verbindung mit [deine-domain.de] als Referenz-Domain und überprüfe Timeouts und Exception-Handling.
   
 
 
@@ -14590,7 +14590,7 @@ Wenn ein B2B-Einkäufer ChatGPT fragt: *„Welche Agenturen sind führend für H
     Rolle: Du bist ein erfahrener Cloud Architect & Generative Engine Optimization (GEO) Spezialist.
     Aufgabe: Überprüfe den Webserver und die Middleware auf Unterstützung generativer KI-Crawler und automatisierter Markdown-Auslieferung.
     Schritte & Validierung:
-    1. Simuliere einen HTTP-Request mit Accept: text/markdown gegen unsere Kern-URLs und prüfe, ob der Server sauberes Markdown oder HTML zurückgibt.
+    1. Simuliere einen HTTP-Request mit Accept: text/markdown gegen die Kern-URLs des Projekts (oder https://[deine-domain.de]/) und prüfe, ob der Server sauberes Markdown oder HTML zurückgibt.
     2. Verifiziere das Vorhandensein und die Syntax einer validen /llms.txt im Root-Verzeichnis gemäß Spezifikation.
     3. Prüfe die robots.txt auf Freigabe von RAG-User-Agents wie GPTBot, PerplexityBot und ClaudeBot.
     4. Überprüfe, ob interne Links konsistent mit einem Trailing Slash (/) enden, um unnötige 301-Redirects zu eliminieren.
@@ -14782,7 +14782,7 @@ Weil KI-Modelle probabilistisch arbeiten, antworten sie selten zweimal exakt gle
     2. Generiere eine public/llms.txt nach dem llmstxt.org-Standard mit Abschnitten für Core Services, Blog, Glossar und API-Docs.
     3. Konfiguriere die Middleware so, dass bei Accept: text/markdown der bereinigte Fließtext ohne Navigation und Footer zurückgegeben wird.
     4. Stelle sicher, dass interne Links stets mit einem Trailing Slash (/) enden.
-    5. Validiere mit: curl -s -H "Accept: text/markdown" https://teleschmie.de/glossar/geo/.
+    5. Validiere mit: curl -s -H "Accept: text/markdown" https://[deine-domain.de]/[deine-ziel-url]/.
   
 
 
@@ -15342,7 +15342,7 @@ Nach erfolgreicher Bestätigung können Sie externe SEO-Berater oder Agenturmita
     Rolle: Du bist ein DevOps & Technical SEO Specialist.
     Aufgabe: Erstelle ein Shell-Skript zur automatisierten DNS-TXT-Verifizierung und API-Health-Prüfung für die Google Search Console.
     Schritte & Validierung:
-    1. Nutze dig und nslookup, um die DNS-Zoneneinträge für teleschmie.de/ auf vorhandene google-site-verification TXT-Records abzufragen.
+    1. Nutze dig und nslookup, um die DNS-Zoneneinträge für [deine-domain.de] auf vorhandene google-site-verification TXT-Records abzufragen.
     2. Prüfe, ob SPF-Records (v=spf1) unberührt geblieben sind und keine Syntaxfehler in den DNS-Antworten vorliegen.
     3. Richte eine Abfrage gegen die Google Search Console Search Analytics API (searchConsole/v1) mit OAuth2-Service-Account ein, um tägliche Klicks und Fehler zu exportieren.
     4. Gib ein übersichtliches Terminal-Log mit Status-Codes und eventuellen Warnmeldungen aus.
@@ -18839,9 +18839,9 @@ Um die eigene Markensichtbarkeit in LLMs systematisch zu messen und Zitations-Ve
   
     # Prompt: B2B Grounding Page & Entity Markup Automation
     Rolle: Du bist ein erfahrener B2B Technical SEO & GEO Specialist.
-    Aufgabe: Erstelle für unsere B2B-Kernleistung ein semantisches Schema.org-Markup und eine strukturierte Grounding-Page-Vorlage zur Zitations-Optimierung in Perplexity und ChatGPT.
+    Aufgabe: Erstelle für eine definierte B2B-Kernleistung ein semantisches Schema.org-Markup und eine strukturierte Grounding-Page-Vorlage zur Zitations-Optimierung in Perplexity und ChatGPT.
     Schritte & Validierung:
-    1. Erzeuge ein valides Schema.org-Graph-Markup mit Organization, Service, BusinessAudience und DefinedTermSet auf https://teleschmie.de/.
+    1. Erzeuge ein valides Schema.org-Graph-Markup mit Organization, Service, BusinessAudience und DefinedTermSet für https://[deine-domain.de]/.
     2. Deklariere die exakten B2B-Kriterien: Zielgruppengröße, Integrationsfähigkeiten (APIs, ERP), Sicherheitsstandards (DSGVO, ISO 27001) und Service Level Agreements.
     3. Baue eine 'Answer-First'-Struktur nach dem BLUF-Prinzip mit HTML-Vergleichstabelle für typische Software-Evaluierungsfragen.
     4. Validiere das JSON-LD auf Fehlerfreiheit via Google Rich Results Test und Schema Validator.
@@ -19009,11 +19009,11 @@ Etabliere zudem eine wöchentliche Feedback-Schleife zwischen deinem SEO-Team un
   
     # Prompt: AI Visibility Prompt-Benchmark & Zitations-Audit
     Rolle: Du bist ein erfahrener Technical AI SEO & Data Engineer.
-    Aufgabe: Entwickle ein Node.js- oder Python-Skript zur Messung der KI-Sichtbarkeit unserer Domain https://teleschmie.de/ über OpenAI und Perplexity APIs.
+    Aufgabe: Entwickle ein Node.js- oder Python-Skript zur Messung der KI-Sichtbarkeit einer Domain https://[deine-domain.de]/ über OpenAI und Perplexity APIs.
     Schritte & Validierung:
     1. Definiere ein Array von 10 branchenspezifischen Kaufberatungs-Prompts (z. B. B2B SEO Beratung, Generative Engine Optimization Agentur).
     2. Sende jeden Prompt mit Temperatur 0.1 an die Chat-Completion-Endpunkte, um reproduzierbare Antworten zu erhalten.
-    3. Analysiere den Antworttext mit Regex auf Markennennungen (Teleschmiede, Jörg Zimmer) und Domain-Zitationen (https://teleschmie.de/).
+    3. Analysiere den Antworttext mit Regex auf Markennennungen ([Dein Markenname], [Name des Experten]) und Domain-Zitationen (https://[deine-domain.de]/).
     4. Berechne Presence Rate, Citation Count und Position Bias und exportiere die Ergebnisse als strukturierte JSON-Metrik.
   
 
@@ -19219,10 +19219,10 @@ if __name__ == "__main__":
   
     # Prompt: RAG-Optimierungs-Audit & Entity Co-Occurrence Check
     Rolle: Du bist ein hochspezialisierter Technical SEO & AI Search Specialist.
-    Aufgabe: Überprüfe die Domain https://teleschmie.de/ auf ihre Zitationsfähigkeit in Retrieval-Augmented Generation (RAG) Systemen.
+    Aufgabe: Überprüfe die Domain https://[deine-domain.de]/ auf ihre Zitationsfähigkeit in Retrieval-Augmented Generation (RAG) Systemen.
     Schritte & Validierung:
     1. Prüfe die robots.txt auf vollständige Freigabe für relevante KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).
-    2. Validiere das Schema.org-Markup auf https://teleschmie.de/ bezüglich Organization, Person (Jörg Zimmer), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.
+    2. Validiere das Schema.org-Markup auf https://[deine-domain.de]/ bezüglich Organization, Person ([Name des Autors/Experten]), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.
     3. Analysiere bestehende Content-Cluster nach dem 'Answer-First'-Prinzip (prägnante BLUF-Definitionen in den ersten 300 Zeichen).
     4. Erstelle einen Optimierungsplan zur Erhöhung der Zitationsrate in LLM-Antworten.
   
@@ -19427,9 +19427,9 @@ Das Fundament für die maschinelle Erfassung bildet sauberes [Technisches SEO](h
   
     # Prompt: Schema.org @graph Entity Reconciliation
     Rolle: Du bist ein hochspezialisierter Technical SEO & Semantic Web Architect.
-    Aufgabe: Erstelle für die Domain https://teleschmie.de/ ein valides Schema.org-Graph-Markup im JSON-LD-Format zur Verankerung im Knowledge Graph.
+    Aufgabe: Erstelle für die Domain https://[deine-domain.de]/ ein valides Schema.org-Graph-Markup im JSON-LD-Format zur Verankerung im Knowledge Graph.
     Schritte & Validierung:
-    1. Definiere Knoten für Organization (Teleschmiede), Person (Jörg Zimmer) und WebSite.
+    1. Definiere Knoten für Organization ([Dein Unternehmensname]), Person ([Name des Autors/Gründers]) und WebSite.
     2. Verknüpfe die Person als Gründer und Autor über worksFor und founder mit der Organization.
     3. Integriere sameAs-Arrays mit Profilen auf LinkedIn und Wikidata.
     4. Validiere das Markup auf Syntaxfehler und Konformität im Google Rich Results Test und Schema Validator.
@@ -19599,9 +19599,9 @@ Für moderne SEO-Teams bedeutet dies: Linkaufbau erfordert keinen panischen Akti
   
     # Prompt: Offpage Entity-Citation Schema & Digital PR Mapping
     Rolle: Du bist ein erfahrener Technical SEO & Digital PR Stratege.
-    Aufgabe: Erstelle für die Domain https://teleschmie.de/ ein semantisches Organization-Schema mit allen redaktionellen Zitationsquellen und Branchenprofilen.
+    Aufgabe: Erstelle für die Domain https://[deine-domain.de]/ ein semantisches Organization-Schema mit allen redaktionellen Zitationsquellen und Branchenprofilen.
     Schritte & Validierung:
-    1. Erweitere das Organization-Markup auf https://teleschmie.de/ um ein umfassendes sameAs-Array.
+    1. Erweitere das Organization-Markup auf https://[deine-domain.de]/ um ein umfassendes sameAs-Array.
     2. Verknüpfe anerkannte Fachartikel, Brancheninterviews und Podcast-Auftritte als verified mentions.
     3. Integriere die Auszeichnung relevanter Auszeichnungen und Zertifikate via award und knowsAbout.
     4. Validiere das JSON-LD auf syntaktische Korrektheit im Schema Validator.
@@ -19780,11 +19780,11 @@ Damit generative KIs persönliche LinkedIn-Aktivitäten zweifelsfrei mit der Unt
   
     # Prompt: LinkedIn Profile & Person-Schema Reconciliation
     Rolle: Du bist ein erfahrener Technical SEO & Entity Specialist.
-    Aufgabe: Erstelle ein vollständiges Schema.org-ProfilePage- und Person-Markup für Jörg Zimmer auf https://teleschmie.de/ mit direkter Verknüpfung zum LinkedIn-Profil.
+    Aufgabe: Erstelle ein vollständiges Schema.org-ProfilePage- und Person-Markup für [Name des Experten/Autors] auf https://[deine-domain.de]/ mit direkter Verknüpfung zum LinkedIn-Profil.
     Schritte & Validierung:
     1. Erzeuge ein valides JSON-LD-Snippet für die Autorenseite mit @type ProfilePage und mainEntity Person.
-    2. Deklariere sameAs-Verknüpfungen zum offiziellen LinkedIn-Profil (https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/).
-    3. Ergänze knowsAbout-Knoten für Generative Engine Optimization, Technisches SEO und Answer Engine Optimization.
+    2. Deklariere sameAs-Verknüpfungen zum offiziellen LinkedIn-Profil (z. B. https://www.linkedin.com/in/[dein-profil-slug]/).
+    3. Ergänze knowsAbout-Knoten für [deine Kern-Expertise / Schwerpunktthemen].
     4. Validiere das Markup mit dem Google Rich Results Test auf syntaktische Korrektheit.
   
 
@@ -19962,9 +19962,9 @@ In unseren technischen Audits stoßen wir fortlaufend auf fatale Strukturfehler,
   
     # Prompt: Internal Link-Equity & Click-Depth Auditor
     Rolle: Du bist ein hochqualifizierter Technical SEO & Crawling Specialist.
-    Aufgabe: Analysiere die interne Verlinkungsstruktur für https://teleschmie.de/ zur Optimierung des internen PageRank-Flusses.
+    Aufgabe: Analysiere die interne Verlinkungsstruktur für https://[deine-domain.de]/ zur Optimierung des internen PageRank-Flusses.
     Schritte & Validierung:
-    1. Ermittle alle internen Links auf https://teleschmie.de/ und berechne die Klicktiefe jeder URL ab der Startseite.
+    1. Ermittle alle internen Links auf https://[deine-domain.de]/ und berechne die Klicktiefe jeder URL ab der Startseite.
     2. Identifiziere Orphan Pages (0 eingehende interne Links) und Seiten mit einer Klicktiefe größer als 3.
     3. Überprüfe alle Ziel-URLs auf zwingend vorhandene Trailing Slashes zur Vermeidung von Redirect-Verlusten.
     4. Erstelle eine Liste empfohlener In-Text-Verlinkungen aus thematisch passenden Ratgeberartikeln auf die Haupt-Leistungsseiten.
@@ -20147,7 +20147,7 @@ Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit gene
   
     # Prompt: Markdown Content Negotiation & LLM Caching Layer
     Rolle: Du bist ein hochqualifizierter Cloudflare- & Fullstack-Web-Architect.
-    Aufgabe: Implementiere serverseitiges Markdown Content Negotiation für https://teleschmie.de/ zur Reduktion von LLM-Token-Parsing-Kosten.
+    Aufgabe: Implementiere serverseitiges Markdown Content Negotiation für https://[deine-domain.de]/ zur Reduktion von LLM-Token-Parsing-Kosten.
     Schritte & Validierung:
     1. Prüfe eingehende Anfragen auf den Header 'Accept: text/markdown' oder bekannte AI-User-Agents (GPTBot, ClaudeBot, PerplexityBot).
     2. Liefere bei positivem Match die bereinigte Markdown-Version mit dem Response-Header 'Content-Type: text/markdown; charset=utf-8'.
@@ -20312,7 +20312,7 @@ Hier kannst du Rankscale testen und deine LLM-Sichtbarkeit sofort messen.
   
     # Prompt: Multi-LLM Rank Tracker & Mention-Rate Scanner implementieren
     Rolle: Du bist ein erfahrener AI Visibility Engineer & API Automation Specialist.
-    Aufgabe: Erstelle ein automatisiertes Python- oder Node.js-Skript, das standardisierte Kaufberatungs-Prompts an LLM-APIs (OpenAI, Anthropic, Perplexity) sendet und Markenerwähnungen für https://teleschmie.de/ auswertet.
+    Aufgabe: Erstelle ein automatisiertes Python- oder Node.js-Skript, das standardisierte Kaufberatungs-Prompts an LLM-APIs (OpenAI, Anthropic, Perplexity) sendet und Markenerwähnungen für https://[deine-domain.de]/ auswertet.
     Schritte & Validierung:
     1. Lade eine Liste von 20 branchenspezifischen Vergleichs-Prompts und iteriere über die konfigurierten LLM-Endpunkte.
     2. Parse die Textantworten auf Erwähnungen des eigenen Markennamens, der Wettbewerber und relevanter Ziel-URLs.
@@ -20689,7 +20689,7 @@ Mit [Rankscale](https://teleschmie.de/glossar/rankscale/) überwachst du automat
   
     # Prompt: Automatisierte llms.txt & Markdown-Negotiation Pipeline
     Rolle: Du bist ein hochspezialisierter Technical SEO & AI Integration Engineer.
-    Aufgabe: Implementiere eine standardkonforme llms.txt-Generierung und Markdown Content Negotiation für unser Webprojekt.
+    Aufgabe: Implementiere eine standardkonforme llms.txt-Generierung und Markdown Content Negotiation für dieses Webprojekt.
     Schritte & Validierung:
     
       Erzeuge eine statische /llms.txt im Projekt-Root, die Kernleistungen, Entitäten und Dokumentationspfade token-effizient abbildet.
@@ -21061,13 +21061,13 @@ Zur systematischen Überwachung deiner Onpage-Architektur und Identifikation feh
   
     # Prompt: llms.txt Generator & Linter
     Rolle: Du bist ein erfahrener Technical SEO & Web Architect.
-    Aufgabe: Erstelle ein Skript, das die /llms.txt unserer Domain nach den Spezifikationen von llmstxt.org generiert und alle verlinkten Ressourcen auf HTTP 200 und Trailing Slashes validiert.
+    Aufgabe: Erstelle ein Skript, das die /llms.txt für https://[deine-domain.de]/ nach den Spezifikationen von llmstxt.org generiert und alle verlinkten Ressourcen auf HTTP 200 und Trailing Slashes validiert.
     Schritte & Validierung:
     
       Erstelle die Datei im Public-Root mit Firmen-H1, Blockquote-Summary und gruppierten H2-Kategorien.
       Annotiere jeden Eintrag im Format '- [Titel](url): Kurzbeschreibung'.
       Verifiziere, dass alle internen URLs exakt auf Trailing Slashes (/) enden und keine 301-Redirects auslösen.
-      Führe einen automatisierten curl-Check auf https://teleschmie.de/llms.txt durch.
+      Führe einen automatisierten curl-Check auf https://[deine-domain.de]/llms.txt durch.
     
   
 
@@ -21485,7 +21485,7 @@ Einen Marktvergleich über moderne Monitoring-Werkzeuge für lokale und globale 
   
     # Prompt: Local GEO Audit & Multi-Platform Listing Validator
     Rolle: Du bist ein erfahrener Local SEO & AI Search Specialist.
-    Aufgabe: Erstelle ein Prüfskript, das NAP-Daten (Name, Address, Phone) auf unserer Domain mit Google Unternehmensprofil, Apple Maps und Schema.org-Attributen abgleicht.
+    Aufgabe: Erstelle ein Prüfskript, das NAP-Daten (Name, Address, Phone) für https://[deine-domain.de]/ mit Google Unternehmensprofil, Apple Maps und Schema.org-Attributen abgleicht.
     Schritte & Validierung:
     
       Scrape und parse das LocalBusiness-JSON-LD der Startseite und Standortunterseiten.
@@ -22053,7 +22053,7 @@ Ein oft unterschätzter Aspekt im Markenaufbau ist die technische Hygiene der ei
   
     # Prompt: Knowledge Graph & Organization Schema Generator
     Rolle: Du bist ein hochspezialisierter Semantic Web Engineer & Entity SEO Specialist.
-    Aufgabe: Erstelle ein vollständiges, verschachteltes Schema.org/JSON-LD Graph-Markup zur Disambiguierung unserer Marke.
+    Aufgabe: Erstelle ein vollständiges, verschachteltes Schema.org/JSON-LD Graph-Markup zur Disambiguierung der Marke [Dein Markenname].
     Schritte & Validierung:
     
       Verknüpfe @type 'Organization' mit 'Brand', 'founder' (Person), 'foundingDate', 'legalName' und 'knowsAbout'-Attributen.
@@ -22290,7 +22290,7 @@ Wie sich fortschrittliche Plattformen im Zeitalter generativer KI positionieren,
     Schritte & Validierung:
     1. Erzeuge die Datei public/.well-known/mcp.json mit Schema https://modelcontextprotocol.io/schemas/server-card-v1.json, aktuellem Versionsstand, Transport-Definition (SSE oder HTTP) und allen aktiven Tools inklusive JSON Schema für die Parameter.
     2. Konfiguriere in der Webserver-Konfiguration (.htaccess / Nginx) für Pfade unter /.well-known/mcp* die Header: Access-Control-Allow-Origin "*", Access-Control-Allow-Methods "GET, OPTIONS" und Content-Type "application/json; charset=utf-8".
-    3. Führe im Terminal curl -I https://teleschmie.de/.well-known/mcp.json aus und verifiziere Status 200 sowie die CORS-Header. Validiere die Syntax anschließend mit jq . public/.well-known/mcp.json.
+    3. Führe im Terminal curl -I https://[deine-domain.de]/.well-known/mcp.json aus und verifiziere Status 200 sowie die CORS-Header. Validiere die Syntax anschließend mit jq . public/.well-known/mcp.json.
   
 
 
@@ -22444,11 +22444,11 @@ Wer im KI-Zeitalter organische Erwähnungen aufbauen will, muss auf substanziell
   
     # Prompt: Unlinked Mention & Entity Footprint Audit
     Rolle: Du bist ein hochspezialisierter Technical SEO & Knowledge Graph Engineer.
-    Aufgabe: Erstelle ein Überwachungs-Skript (Node.js oder Python), das das Web nach ungelinkten Markenerwähnungen für unsere Brand durchsucht, das semantische Sentiment analysiert und verifiziert, ob die referenzierenden Portale in unserem JSON-LD sameAs-Graph verknüpft sind.
+    Aufgabe: Erstelle ein Überwachungs-Skript (Node.js oder Python), das das Web nach ungelinkten Markenerwähnungen für eine definierte Brand durchsucht, das semantische Sentiment analysiert und verifiziert, ob die referenzierenden Portale im JSON-LD sameAs-Graph verknüpft sind.
     Schritte & Validierung:
-    1. Nutze Search-APIs (z. B. Google Custom Search oder SerpApi), um nach Anfragen wie "Markenname" -inurl:teleschmie.de zu suchen und alle Fundstellen ohne aktiven Backlink zu filtern.
+    1. Nutze Search-APIs (z. B. Google Custom Search oder SerpApi), um nach Anfragen wie "[Markenname]" -inurl:[deine-domain.de] zu suchen und alle Fundstellen ohne aktiven Backlink zu filtern.
     2. Analysiere das textliche Umfeld jeder Mention hinsichtlich Sentiment (positiv / neutral / negativ) und extrahiere thematische Ko-Okkurrenz-Begriffe.
-    3. Gleiche gefundene High-Authority-Profile (LinkedIn, Branchenverzeichnisse, Wikipedia/Wikidata) mit dem sameAs-Array in unserem Haupt-Schema.org-Markup ab und melde fehlende Profile.
+    3. Gleiche gefundene High-Authority-Profile (LinkedIn, Branchenverzeichnisse, Wikipedia/Wikidata) mit dem sameAs-Array im Haupt-Schema.org-Markup ab und melde fehlende Profile.
     4. Gib einen wöchentlichen Report als Markdown aus, der neue Unlinked Mentions priorisiert auflistet.
   
 
@@ -22771,12 +22771,12 @@ Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen
   
     # Prompt: Stateless MCP Architecture & Tool Integration Audit
     Rolle: Du bist ein erfahrener Senior System Architect der Agentic AI Foundation und Technical SEO Engineer.
-    Aufgabe: Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand 2026).
+    Aufgabe: Analysiere die Web- und API-Architektur für dieses Projekt im Hinblick auf den 'Stateless MCP Standard' (Stand 2026).
     Schritte & Validierung:
     1. Identifiziere alle internen APIs und Datenbank-Endpunkte, die aktuell noch über starre REST-Wrapper laufen und ersetze sie durch zustandslose MCP-Ressourcen.
     2. Konfiguriere ein standardkonformes Discovery-Manifest unter /.well-known/mcp.json mit Tool-Definitionen, Input-Schemas und offenen CORS-Headern.
     3. Trenne interne Werkzeugaufrufe (MCP) architektonisch sauber von externer Agenten-Interaktion (A2A-Protokoll via agent-card.json).
-    4. Validiere die Server-Endpunkte mit curl -s -H "Accept: application/json" https://teleschmie.de/.well-known/mcp.json und teste die Function-Calling-Pfade.
+    4. Validiere die Server-Endpunkte mit curl -s -H "Accept: application/json" https://[deine-domain.de]/.well-known/mcp.json und teste die Function-Calling-Pfade.
   
 
 
@@ -23128,7 +23128,7 @@ Das Noindex-Tag ist kein bloßes Archivierungsinstrument, sondern ein zentrales 
     1. Scanne alle Seiten und Templates nach &lt;meta name="robots" content="noindex"&gt; und stelle sicher, dass wichtige Landingpages, Leistungsseiten und Blogartikel indexierbar bleiben.
     2. Gleiche die Liste der deindexierten Pfade mit der public/robots.txt ab: Entferne alle Disallow-Regeln für URLs, die per noindex bereinigt werden sollen, um Index-Zombies zu verhindern.
     3. Prüfe Server-Header für PDF- und Download-Pfade auf das X-Robots-Tag: noindex, follow.
-    4. Verifiziere per curl -I https://teleschmie.de/pfad/ die korrekte Auslieferung der Header und stelle sicher, dass keine noindex-URLs in der XML-Sitemap auftauchen.
+    4. Verifiziere per curl -I https://[deine-domain.de]/pfad/ die korrekte Auslieferung der Header und stelle sicher, dass keine noindex-URLs in der XML-Sitemap auftauchen.
   
 
 
@@ -23258,7 +23258,7 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
     "client_secret_post"
   ],
   "agent_auth": {
-    "policy_document": "https://teleschmie.de/.well-known/auth.md",
+    "policy_document": "https://[deine-domain.de]/.well-known/auth.md",
     "supported_flows": ["agent_verified", "user_claimed"],
     "ephemeral_tokens_allowed": true,
     "default_ttl_seconds": 3600
@@ -23290,7 +23290,7 @@ Entwickler und Systemadministratoren können die Korrektheit ihres Endpunkts in 
 
 ```bash
 # Überprüfung des Discovery-Endpunkts (Domain anpassen)
-curl -s https://teleschmie.de/.well-known/oauth-authorization-server | jq '{
+curl -s https://[deine-domain.de]/.well-known/oauth-authorization-server | jq '{
   issuer: .issuer,
   token_endpoint: .token_endpoint,
   agent_policy: .agent_auth.policy_document
@@ -23326,10 +23326,10 @@ Wie sich fortschrittliche Plattformen im Bereich generativer Suchmaschinen posit
     Rolle: Du bist ein erfahrener Senior API Security Engineer & Web Architect.
     Aufgabe: Erstelle ein standardkonformes OAuth 2.0 Authorization Server Metadata Manifest (RFC 8414) unter public/.well-known/oauth-authorization-server mit agent_auth Erweiterung und richte die Webserver-CORS-Header ein.
     Schritte & Validierung:
-    1. Erzeuge die Datei public/.well-known/oauth-authorization-server mit RFC-8414 Feldern (issuer, token_endpoint, jwks_uri, grant_types_supported) und verknüpfe den agent_auth Block mit https://teleschmie.de/.well-known/auth.md.
+    1. Erzeuge die Datei public/.well-known/oauth-authorization-server mit RFC-8414 Feldern (issuer, token_endpoint, jwks_uri, grant_types_supported) und verknüpfe den agent_auth Block mit https://[deine-domain.de]/.well-known/auth.md.
     2. Konfiguriere die Webserver-Header für Pfade unter /.well-known/oauth*: Access-Control-Allow-Origin "*" und Content-Type "application/json; charset=utf-8".
     3. Setze einen 301-Redirect oder Alias von /.well-known/openid-configuration auf das OAuth-Manifest für Abwärtskompatibilität.
-    4. Validiere den Endpunkt per curl -s https://teleschmie.de/.well-known/oauth-authorization-server | jq . auf fehlerfreies JSON.
+    4. Validiere den Endpunkt per curl -s https://[deine-domain.de]/.well-known/oauth-authorization-server | jq . auf fehlerfreies JSON.
   
 
 
@@ -23470,7 +23470,7 @@ Erfolgt ein unautorisierter Abruf auf einen geschützten Endpunkt, liefert der S
 HTTP/1.1 401 Unauthorized
 Date: Wed, 22 Jul 2026 10:00:00 GMT
 WWW-Authenticate: Bearer realm="api-access",
-  resource_metadata="https://teleschmie.de/.well-known/oauth-protected-resource"
+  resource_metadata="https://[deine-domain.de]/.well-known/oauth-protected-resource"
 Content-Type: application/json
 
 {
@@ -23502,7 +23502,7 @@ Entwickler und Systemarchitekten können die Einhaltung der RFC-9728-Spezifikati
 
 ```bash
 # 1. Unautorisierten Aufruf testen (Erwartung: 401 mit WWW-Authenticate Header)
-curl -i https://teleschmie.de/api/v1/resource
+curl -i https://[deine-domain.de]/api/v1/resource
 
 # 2. Metadaten-Endpunkt direkt abfragen und JSON validieren
 curl -s https://teleschmie.de/.well-known/oauth-protected-resource | jq '{
@@ -23542,9 +23542,9 @@ Moderne Unternehmen, die ihre Datenstrukturen für Antwortmaschinen und Agenten 
     Aufgabe: Erstelle das Protected Resource Metadata Dokument unter public/.well-known/oauth-protected-resource nach RFC 9728 und konfiguriere die 401 WWW-Authenticate Header für geschützte API-Routen.
     Schritte & Validierung:
     1. Erzeuge die Datei public/.well-known/oauth-protected-resource mit resource, authorization_servers und scopes_supported.
-    2. Konfiguriere im Webserver (.htaccess / Nginx) für unautorisierte API-Anfragen den Response-Header: WWW-Authenticate: Bearer realm="api-access", resource_metadata="https://teleschmie.de/.well-known/oauth-protected-resource" mit Status 401.
+    2. Konfiguriere im Webserver (.htaccess / Nginx) für unautorisierte API-Anfragen den Response-Header: WWW-Authenticate: Bearer realm="api-access", resource_metadata="https://[deine-domain.de]/.well-known/oauth-protected-resource" mit Status 401.
     3. Richte offene CORS-Header (Access-Control-Allow-Origin "*") für alle Discovery-Pfade unter /.well-known/ ein.
-    4. Teste die Funktionalität per curl -i https://teleschmie.de/api/v1/resource und validiere, dass der Header auf die Metadaten-URL zeigt.
+    4. Teste die Funktionalität per curl -i https://[deine-domain.de]/api/v1/resource und validiere, dass der Header auf die Metadaten-URL zeigt.
   
 
 
@@ -24278,7 +24278,7 @@ Wenn du festgestellt hast, dass deine Sichtbarkeit bei null liegt, ist es Zeit f
     Schritte & Validierung:
     
       API-Abfrage: Sende Test-Prompts an die Perplexity Sonar API und extrahiere das Array der zurückgegebenen citations-URLs.
-      Citation Rate: Ermittle den Prozentsatz der Prompts, bei denen unsere Domain als Quelle zitiert wird.
+      Citation Rate: Ermittle den Prozentsatz der Prompts, bei denen die Ziel-Domain https://[deine-domain.de]/ als Quelle zitiert wird.
       Sentiment-Analyse: Klassifiziere die Markennennungen nach Tonalität (positiv, neutral, negativ) und notiere die Fußnotenposition.
       Export & Trend: Speichere Ergebnisse als CSV und erstelle ein wöchentliches Reporting-Dashboard für Abweichungen.
     
@@ -24633,7 +24633,7 @@ Maßgeschneiderte Pakete für globale Agenturen und Konzerne.
   
     # Prompt: AEO FAQ Generator & Content Schema Injection
     Rolle: Du bist ein hochspezialisierter AEO & Content Engineer.
-    Aufgabe: Analysiere die Top-Nutzerfragen aus Perplexity und ChatGPT zu unserer Kern-Landingpage und generiere einen semantisch angereicherten FAQ-Abschnitt mit Schema.org-Markup.
+    Aufgabe: Analysiere die Top-Nutzerfragen aus Perplexity und ChatGPT zur Ziel-Landingpage (z. B. https://[deine-domain.de]/leistung/) und generiere einen semantisch angereicherten FAQ-Abschnitt mit Schema.org-Markup.
     Schritte & Validierung:
     
       Prompt-Extraktion: Identifiziere 5 Kernfragen mit transaktionalem Intent nach dem BLUF-Prinzip (Bottom Line Up Front).
@@ -26009,7 +26009,7 @@ User-agent: ChatGPT-User
 Allow: /
 
 # Wichtige Wegweiser für Crawler
-Sitemap: https://teleschmie.de/sitemap.xml
+Sitemap: https://[deine-domain.de]/sitemap.xml
 ```
 
 1.  **`User-agent:`** An wen richtest du dich? Das Sternchen (`*`) gilt als Platzhalter (Wildcard) für alle Crawler weltweit. Aber 2026 adressieren wir fast immer explizit Bots wie `GPTBot`, `OAI-SearchBot` oder `ClaudeBot`, um gezielte KI-Strategien zu fahren.
@@ -26080,7 +26080,7 @@ Die robots.txt mag nur eine Textdatei sein, aber sie reagiert empfindlich auf Sy
       Erlaube Live-Retrieval-Bots (OAI-SearchBot, ChatGPT-User, PerplexityBot) explizit mit Allow: /.
       Blockiere reine Modell-Trainings-Crawler (GPTBot, CCBot, ClaudeBot) bei Bedarf per Disallow: /.
       Sperre interne Backend-, Staging- und Warenkorb-Pfade für den generellen User-agent: * aus.
-      Integriere den absoluten Link zur XML-Sitemap (z. B. Sitemap: https://teleschmie.de/sitemap.xml).
+      Integriere den absoluten Link zur XML-Sitemap (z. B. Sitemap: https://[deine-domain.de]/sitemap.xml).
       Achte auf strikte Trailing Slashes bei Verzeichnissperren.
     
   
@@ -27207,7 +27207,7 @@ Ein Audit ist kein Luxus, sondern absolute Pflicht:
     Schritte & Validierung:
     1. Prüfe die Datei public/robots.txt auf Zugriffsregeln für KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended) und stelle sicher, dass wichtige Content-Bereiche nicht unbeabsichtigt blockiert werden.
     2. Validiere die Existenz und semantische Struktur von public/.well-known/llms.txt und public/llms.txt gemäß dem llmstxt.org-Standard.
-    3. Teste serverseitige Markdown-Content-Negotiation via curl: curl -sI -H "Accept: text/markdown" https://teleschmie.de/ und prüfe, ob RFC 8288 Link-Header fehlerfrei ausgeliefert werden.
+    3. Teste serverseitige Markdown-Content-Negotiation via curl: curl -sI -H "Accept: text/markdown" https://[deine-domain.de]/ und prüfe, ob RFC 8288 Link-Header fehlerfrei ausgeliefert werden.
     4. Analysiere das JSON-LD Schema-Markup aller Seitentypen mit Google Rich Results Test oder einem schema-dts Validator auf verschachtelte Entitäten (@id, Organization, WebPage, Article).
     5. Liefere einen priorisierten Maßnahmenplan mit Aufwand-Nutzen-Bewertung (Prio 1: Blocker, Prio 2: Optimierung, Prio 3: Nice-to-have).
   
@@ -27554,7 +27554,7 @@ Trifft ein algorithmisches Core Update eine Website unerwartet mit herben Sichtb
   
     # Prompt: Inhouse Technical SEO & AEO Onboarding-Roadmap
     Rolle: Du bist ein leitender Technical SEO Coach und Senior Web Architect.
-    Aufgabe: Erstelle eine 4-wöchige Hands-on Trainings-Roadmap für unser Webentwicklungs- und Content-Team zur Beherrschung moderner KI-Sichtbarkeit.
+    Aufgabe: Erstelle eine 4-wöchige Hands-on Trainings-Roadmap für ein Webentwicklungs- und Content-Team zur Beherrschung moderner KI-Sichtbarkeit.
     Schritte & Validierung:
     1. Modul 1 (Server & Indexing): Crawl-Budget-Analyse per Logfiles, Statuscode-Auditierung, RFC 8288 Link-Header in .htaccess und Trailing-Slash-Normalisierung.
     2. Modul 2 (Semantik & Entities): Verschachteltes Schema.org JSON-LD (Organization, WebSite, Article) mit eindeutigen @id-URIs implementieren und per CLI-Tool testen.
@@ -27734,7 +27734,7 @@ Mit dieser systematischen Herangehensweise sichert professionelles Consulting di
   
     # Prompt: Enterprise Schema Graph & Entity Alignment
     Rolle: Du bist ein Enterprise SEO Architect & Semantic Web Engineer.
-    Aufgabe: Analysiere unsere Domain-Architektur und generiere einen konsolidierten JSON-LD Knowledge Graph für Google und KI-Answer-Engines.
+    Aufgabe: Analysiere die Domain-Architektur für https://[deine-domain.de]/ und generiere einen konsolidierten JSON-LD Knowledge Graph für Google und KI-Answer-Engines.
     Schritte & Validierung:
     1. Verknüpfe Organization, ConsultingService, Person (Experten-Biografien) und DefinedTermSet über eindeutige @id-URIs.
     2. Integriere verifizierte sameAs-Verlinkungen zu Wikidata, Wikipedia, LinkedIn und Branchenverbänden.
@@ -28079,11 +28079,11 @@ Brauchst du also sofort ein teures AI-Tracking-Abo? Das hängt maßgeblich von d
   
     # Prompt: AI Visibility & Citation Tracking Automatisierung
     Rolle: Du bist ein Data Engineer und AI Search Visibility Analyst.
-    Aufgabe: Erstelle ein Python-Skript zur Abfrage relevanter Branchen-Prompts über OpenRouter- oder Perplexity-APIs zur Ermittlung unseres Share of Voice.
+    Aufgabe: Erstelle ein Python-Skript zur Abfrage relevanter Branchen-Prompts über OpenRouter- oder Perplexity-APIs zur Ermittlung des Share of Voice für [Dein Markenname].
     Schritte & Validierung:
     1. Lade eine Liste von 20 kaufrelevanten Branchenfragen aus einer lokalen JSON-Konfigurationsdatei.
     2. Sende strukturierte Abfragen an GPT-4o, Claude 3.5 Sonnet und Perplexity Sonar API.
-    3. Analysiere die Textantworten per Regex und semantischem Matching auf Erwähnung unserer Zielmarke und relevanter Wettbewerber.
+    3. Analysiere die Textantworten per Regex und semantischem Matching auf Erwähnung der Zielmarke [Dein Markenname] und relevanter Wettbewerber.
     4. Berechne Citation Frequency, Position der Erwähnung und Sentiment (positiv, neutral, negativ) und speichere die Ergebnisse in einer SQLite-Datenbank.
   
 
@@ -28635,7 +28635,7 @@ Durch diese Differenzierung entsteht der **Weighted Share of Model (W-SoM)**, de
     Aufgabe: Baue ein modulares Auswertungsskript, das strukturierte Modell-Antworten aus einer JSON-Datei parst und den gewichteten Share of Model (W-SoM) berechnet.
     Schritte & Validierung:
     1. Lies das Prompt-Ergebnis-Array mit Feldern wie prompt_id, model_name, response_text und citations ein.
-    2. Implementiere eine Regex-basierte Erkennung für unsere Marke sowie definierte Wettbewerber-Entitäten.
+    2. Implementiere eine Regex-basierte Erkennung für die Zielmarke [Dein Markenname] sowie definierte Wettbewerber-Entitäten.
     3. Gewichte Erwähnungen nach Listenrang (Platz 1 = 1.0, Platz 2 = 0.7, Platz 3 = 0.4, ab Platz 4 = 0.2) und Sentiment-Faktor (-0.5 bis +1.0).
     4. Exportiere die aggregierten Kennzahlen (SoM, Citation Rate, W-SoM) als übersichtliche Markdown-Tabelle und JSON-Dashboard-Feed.
   
@@ -33101,7 +33101,7 @@ Um Ausfälle zu verhindern, sollten WAF-Logfiles wöchentlich analysiert werden.
   
     # Prompt: WAF Bot-Management & Verified-Crawler-Bypass Audit
     Rolle: Du bist ein erfahrener Cloud-Security-Ingenieur und Technical SEO Consultant.
-    Aufgabe: Analysiere die Firewall- und Bot-Management-Konfiguration unseres Webprojekts (z. B. Cloudflare WAF, AWS WAF oder Fastly) und implementiere ein Regelwerk, das Cyberangriffe abwehrt, aber Suchmaschinen (Googlebot, Bingbot) sowie KI-Suchagenten (OAI-SearchBot, PerplexityBot) uneingeschränkten Durchgang gewährt.
+    Aufgabe: Analysiere die Firewall- und Bot-Management-Konfiguration für dieses Webprojekt (z. B. Cloudflare WAF, AWS WAF oder Fastly) und implementiere ein Regelwerk, das Cyberangriffe abwehrt, aber Suchmaschinen (Googlebot, Bingbot) sowie KI-Suchagenten (OAI-SearchBot, PerplexityBot) uneingeschränkten Durchgang gewährt.
     Schritte &amp; Validierung:
     1. Erstelle eine Prioritätsregel (Order 1), die bei 'cf.client.bot' oder verifizierter Reverse-DNS-Auflösung von Google/Bing alle Sicherheits-Challenges und Rate-Limits umgeht (Bypass).
     2. Konfiguriere separate Ausnahmen für Live-Retrieval-Agenten (User-Agents OAI-SearchBot und PerplexityBot), sodass keine JavaScript-Challenges oder Captchas vorgeschaltet werden.
@@ -33318,7 +33318,7 @@ Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwer
   
     # Prompt: RFC 9421 HTTP Message Signature Middleware
     Rolle: Du bist ein erfahrener Web-Security-Architekt und Node.js/Edge-Worker-Entwickler.
-    Aufgabe: Entwickle eine Middleware für unseren Webserver (oder Cloudflare Worker), die eingehende Requests automatisierter Agenten auf RFC 9421 HTTP Message Signatures prüft. Validiere die Header 'Signature-Input' und 'Signature' gegen öffentlich hinterlegte JWKS-Schlüsselbunde der Bot-Betreiber.
+    Aufgabe: Entwickle eine Middleware für den Webserver dieses Projekts (oder Cloudflare Worker), die eingehende Requests automatisierter Agenten auf RFC 9421 HTTP Message Signatures prüft. Validiere die Header 'Signature-Input' und 'Signature' gegen öffentlich hinterlegte JWKS-Schlüsselbunde der Bot-Betreiber.
     Schritte &amp; Validierung:
     1. Parse den 'Signature-Input'-Header und extrahiere die deklarierten Komponenten (@method, @target-uri, @authority, date), keyid und alg (z. B. ed25519).
     2. Konstruiere den kanonischen Signatur-Basistext gemäß RFC 9421 und prüfe die Zeitstempel-Toleranz (Clock-Skew max. +/- 300 Sekunden).
@@ -33906,7 +33906,7 @@ Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports
   
     # Prompt: Technischer Website-Audit Crawler-Fix &amp; Triage
     Rolle: Du bist ein erfahrener Technical SEO Engineer und Web-Performance-Spezialist.
-    Aufgabe: Analysiere die exportierten Fehler unseres Website-Audits (z. B. aus SE Ranking) und behebe systematisch die kritischen technischen Mängel im Codebase.
+    Aufgabe: Analysiere die exportierten Fehler des Website-Audits für dieses Projekt (z. B. aus SE Ranking) und behebe systematisch die kritischen technischen Mängel im Codebase.
     Schritte &amp; Validierung:
     1. Identifiziere alle 4xx- und 5xx-Statuscodes sowie Redirect-Ketten (> 1 Hop) und erstelle eine saubere 301-Rewrite-Map für .htaccess / Nginx.
     2. Finde alle internen Links ohne Trailing Slash auf Verzeichnisebene und ersetze sie direkt im Quellcode durch kanonische Pfade mit abschließendem Slash.
@@ -34063,12 +34063,12 @@ Wer seine Daten 2026 nicht über KI-Crawler-Protokolle und maschinenlesbare Endp
   
     # Prompt: WordPress Performance-Audit &amp; Markdown Content Negotiation
     Rolle: Du bist ein erfahrener WordPress Core Developer und Technical SEO Engineer.
-    Aufgabe: Optimiere unsere WordPress-Installation für Core Web Vitals und moderne KI-Crawlability. Implementiere Content Negotiation für Markdown-Endpunkte und reduziere überflüssigen Plugin-Overhead.
+    Aufgabe: Optimiere eine WordPress-Installation für Core Web Vitals und moderne KI-Crawlability. Implementiere Content Negotiation für Markdown-Endpunkte und reduziere überflüssigen Plugin-Overhead.
     Schritte &amp; Validierung:
     1. Erstelle ein leichtgewichtiges Must-Use-Plugin (mu-plugin), das bei anfragendem Header 'Accept: text/markdown' den Beitragsinhalt bereinigt und als reines Markdown zurückgibt.
     2. Konfiguriere die Permalink-Struktur strikt mit trailing slash ('/%postname%/') und eliminiere interne 301-Redirect-Schleifen.
     3. Überprüfe die Redis-Object-Cache-Verbindung und deaktiviere ungenutzte Skripte (wp-embed, Dashicons, block-library-CSS auf Seiten ohne Blocks).
-    4. Validierung: Teste eine URL mit 'curl -H "Accept: text/markdown" https://teleschmie.de/blog-post/' und verifiziere, dass reiner Markdown-Text mit Status 200 ausgeliefert wird.
+    4. Validierung: Teste eine URL mit 'curl -H "Accept: text/markdown" https://[deine-domain.de]/beispiel-beitrag/' und verifiziere, dass reiner Markdown-Text mit Status 200 ausgeliefert wird.
   
 
 
@@ -34280,7 +34280,7 @@ Wer verstehen möchte, wie führende Marken ihre Daten im KI-Ökosystem monetari
   
     # Prompt: x402 HTTP Status 402 Middleware Implementation
     Rolle: Du bist ein hochspezialisierter Web3- und API-Architekt.
-    Aufgabe: Entwickle eine Middleware für unsere Node.js/TypeScript-API, die das x402-Protokoll implementiert. Unbezahlte Anfragen an geschützte Ressourcen müssen mit HTTP 402 Payment Required beantwortet werden; bei Vorlage eines validen Zahlungsbelegs im Header 'X-Payment-Authorization' wird der Zugriff freigegeben.
+    Aufgabe: Entwickle eine Middleware für die Node.js/TypeScript-API dieses Projekts, die das x402-Protokoll implementiert. Unbezahlte Anfragen an geschützte Ressourcen müssen mit HTTP 402 Payment Required beantwortet werden; bei Vorlage eines validen Zahlungsbelegs im Header 'X-Payment-Authorization' wird der Zugriff freigegeben.
     Schritte &amp; Validierung:
     1. Definiere den 402-Response-Payload mit Ziel-Wallet, Währung (USDC auf Base), Festbetrag und Nonce/TTL (300s).
     2. Implementiere Idempotency-Checks und Nonce-Validierung, um Replay-Angriffe und versehentliche Doppelabbuchungen zu unterbinden.

@@ -177,9 +177,9 @@ Um die eigene Markensichtbarkeit in LLMs systematisch zu messen und Zitations-Ve
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: B2B Grounding Page & Entity Markup Automation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener B2B Technical SEO & GEO Specialist.</p>
-    <p><strong>Aufgabe:</strong> Erstelle für unsere B2B-Kernleistung ein semantisches Schema.org-Markup und eine strukturierte Grounding-Page-Vorlage zur Zitations-Optimierung in Perplexity und ChatGPT.</p>
+    <p><strong>Aufgabe:</strong> Erstelle für eine definierte B2B-Kernleistung ein semantisches Schema.org-Markup und eine strukturierte Grounding-Page-Vorlage zur Zitations-Optimierung in Perplexity und ChatGPT.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erzeuge ein valides Schema.org-Graph-Markup mit Organization, Service, BusinessAudience und DefinedTermSet auf https://teleschmie.de/.</p>
+    <p>1. Erzeuge ein valides Schema.org-Graph-Markup mit Organization, Service, BusinessAudience und DefinedTermSet für https://[deine-domain.de]/.</p>
     <p>2. Deklariere die exakten B2B-Kriterien: Zielgruppengröße, Integrationsfähigkeiten (APIs, ERP), Sicherheitsstandards (DSGVO, ISO 27001) und Service Level Agreements.</p>
     <p>3. Baue eine 'Answer-First'-Struktur nach dem BLUF-Prinzip mit HTML-Vergleichstabelle für typische Software-Evaluierungsfragen.</p>
     <p>4. Validiere das JSON-LD auf Fehlerfreiheit via Google Rich Results Test und Schema Validator.</p>

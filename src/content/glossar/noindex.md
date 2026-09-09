@@ -186,7 +186,7 @@ Das Noindex-Tag ist kein bloßes Archivierungsinstrument, sondern ein zentrales 
     <p>1. Scanne alle Seiten und Templates nach <code>&lt;meta name="robots" content="noindex"&gt;</code> und stelle sicher, dass wichtige Landingpages, Leistungsseiten und Blogartikel indexierbar bleiben.</p>
     <p>2. Gleiche die Liste der deindexierten Pfade mit der <code>public/robots.txt</code> ab: Entferne alle Disallow-Regeln für URLs, die per noindex bereinigt werden sollen, um Index-Zombies zu verhindern.</p>
     <p>3. Prüfe Server-Header für PDF- und Download-Pfade auf das <code>X-Robots-Tag: noindex, follow</code>.</p>
-    <p>4. Verifiziere per <code>curl -I https://teleschmie.de/pfad/</code> die korrekte Auslieferung der Header und stelle sicher, dass keine noindex-URLs in der XML-Sitemap auftauchen.</p>
+    <p>4. Verifiziere per <code>curl -I https://[deine-domain.de]/pfad/</code> die korrekte Auslieferung der Header und stelle sicher, dass keine noindex-URLs in der XML-Sitemap auftauchen.</p>
   </div>
 </div>
 

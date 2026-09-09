@@ -139,7 +139,7 @@ Wenn du festgestellt hast, dass deine Sichtbarkeit bei null liegt, ist es Zeit f
     <p><strong>Schritte & Validierung:</strong></p>
     <ul class="list-disc pl-4 space-y-1 text-gray-300">
       <li>API-Abfrage: Sende Test-Prompts an die Perplexity Sonar API und extrahiere das Array der zurückgegebenen <code>citations</code>-URLs.</li>
-      <li>Citation Rate: Ermittle den Prozentsatz der Prompts, bei denen unsere Domain als Quelle zitiert wird.</li>
+      <li>Citation Rate: Ermittle den Prozentsatz der Prompts, bei denen die Ziel-Domain https://[deine-domain.de]/ als Quelle zitiert wird.</li>
       <li>Sentiment-Analyse: Klassifiziere die Markennennungen nach Tonalität (positiv, neutral, negativ) und notiere die Fußnotenposition.</li>
       <li>Export & Trend: Speichere Ergebnisse als CSV und erstelle ein wöchentliches Reporting-Dashboard für Abweichungen.</li>
     </ul>

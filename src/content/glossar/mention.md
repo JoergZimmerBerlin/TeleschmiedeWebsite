@@ -141,11 +141,11 @@ Wer im KI-Zeitalter organische Erwähnungen aufbauen will, muss auf substanziell
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Unlinked Mention & Entity Footprint Audit</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Knowledge Graph Engineer.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein Überwachungs-Skript (Node.js oder Python), das das Web nach ungelinkten Markenerwähnungen für unsere Brand durchsucht, das semantische Sentiment analysiert und verifiziert, ob die referenzierenden Portale in unserem JSON-LD sameAs-Graph verknüpft sind.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein Überwachungs-Skript (Node.js oder Python), das das Web nach ungelinkten Markenerwähnungen für eine definierte Brand durchsucht, das semantische Sentiment analysiert und verifiziert, ob die referenzierenden Portale im JSON-LD sameAs-Graph verknüpft sind.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Nutze Search-APIs (z. B. Google Custom Search oder SerpApi), um nach Anfragen wie <code>"Markenname" -inurl:teleschmie.de</code> zu suchen und alle Fundstellen ohne aktiven Backlink zu filtern.</p>
+    <p>1. Nutze Search-APIs (z. B. Google Custom Search oder SerpApi), um nach Anfragen wie <code>"[Markenname]" -inurl:[deine-domain.de]</code> zu suchen und alle Fundstellen ohne aktiven Backlink zu filtern.</p>
     <p>2. Analysiere das textliche Umfeld jeder Mention hinsichtlich Sentiment (positiv / neutral / negativ) und extrahiere thematische Ko-Okkurrenz-Begriffe.</p>
-    <p>3. Gleiche gefundene High-Authority-Profile (LinkedIn, Branchenverzeichnisse, Wikipedia/Wikidata) mit dem <code>sameAs</code>-Array in unserem Haupt-Schema.org-Markup ab und melde fehlende Profile.</p>
+    <p>3. Gleiche gefundene High-Authority-Profile (LinkedIn, Branchenverzeichnisse, Wikipedia/Wikidata) mit dem <code>sameAs</code>-Array im Haupt-Schema.org-Markup ab und melde fehlende Profile.</p>
     <p>4. Gib einen wöchentlichen Report als Markdown aus, der neue Unlinked Mentions priorisiert auflistet.</p>
   </div>
 </div>

@@ -165,7 +165,7 @@ Weil KI-Modelle probabilistisch arbeiten, antworten sie selten zweimal exakt gle
     <p>2. Generiere eine <code>public/llms.txt</code> nach dem llmstxt.org-Standard mit Abschnitten für Core Services, Blog, Glossar und API-Docs.</p>
     <p>3. Konfiguriere die Middleware so, dass bei <code>Accept: text/markdown</code> der bereinigte Fließtext ohne Navigation und Footer zurückgegeben wird.</p>
     <p>4. Stelle sicher, dass interne Links stets mit einem Trailing Slash (/) enden.</p>
-    <p>5. Validiere mit: <code>curl -s -H "Accept: text/markdown" https://teleschmie.de/glossar/geo/</code>.</p>
+    <p>5. Validiere mit: <code>curl -s -H "Accept: text/markdown" https://[deine-domain.de]/[deine-ziel-url]/</code>.</p>
   </div>
 </div>
 

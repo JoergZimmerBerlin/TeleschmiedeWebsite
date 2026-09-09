@@ -184,7 +184,7 @@ Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Technischer Website-Audit Crawler-Fix &amp; Triage</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer und Web-Performance-Spezialist.</p>
-    <p><strong>Aufgabe:</strong> Analysiere die exportierten Fehler unseres Website-Audits (z. B. aus SE Ranking) und behebe systematisch die kritischen technischen Mängel im Codebase.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die exportierten Fehler des Website-Audits für dieses Projekt (z. B. aus SE Ranking) und behebe systematisch die kritischen technischen Mängel im Codebase.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
     <p>1. Identifiziere alle 4xx- und 5xx-Statuscodes sowie Redirect-Ketten (> 1 Hop) und erstelle eine saubere 301-Rewrite-Map für .htaccess / Nginx.</p>
     <p>2. Finde alle internen Links ohne Trailing Slash auf Verzeichnisebene und ersetze sie direkt im Quellcode durch kanonische Pfade mit abschließendem Slash.</p>

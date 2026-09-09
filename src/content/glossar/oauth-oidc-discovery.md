@@ -116,7 +116,7 @@ Das folgende JSON-Snippet zeigt eine produktionsreife Konfiguration einer Domain
     "client_secret_post"
   ],
   "agent_auth": {
-    "policy_document": "https://teleschmie.de/.well-known/auth.md",
+    "policy_document": "https://[deine-domain.de]/.well-known/auth.md",
     "supported_flows": ["agent_verified", "user_claimed"],
     "ephemeral_tokens_allowed": true,
     "default_ttl_seconds": 3600
@@ -148,7 +148,7 @@ Entwickler und Systemadministratoren können die Korrektheit ihres Endpunkts in 
 
 ```bash
 # Überprüfung des Discovery-Endpunkts (Domain anpassen)
-curl -s https://teleschmie.de/.well-known/oauth-authorization-server | jq '{
+curl -s https://[deine-domain.de]/.well-known/oauth-authorization-server | jq '{
   issuer: .issuer,
   token_endpoint: .token_endpoint,
   agent_policy: .agent_auth.policy_document
@@ -184,10 +184,10 @@ Wie sich fortschrittliche Plattformen im Bereich generativer Suchmaschinen posit
     <p><strong>Rolle:</strong> Du bist ein erfahrener Senior API Security Engineer & Web Architect.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein standardkonformes OAuth 2.0 Authorization Server Metadata Manifest (RFC 8414) unter <code>public/.well-known/oauth-authorization-server</code> mit <code>agent_auth</code> Erweiterung und richte die Webserver-CORS-Header ein.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erzeuge die Datei <code>public/.well-known/oauth-authorization-server</code> mit RFC-8414 Feldern (<code>issuer</code>, <code>token_endpoint</code>, <code>jwks_uri</code>, <code>grant_types_supported</code>) und verknüpfe den <code>agent_auth</code> Block mit <code>https://teleschmie.de/.well-known/auth.md</code>.</p>
+    <p>1. Erzeuge die Datei <code>public/.well-known/oauth-authorization-server</code> mit RFC-8414 Feldern (<code>issuer</code>, <code>token_endpoint</code>, <code>jwks_uri</code>, <code>grant_types_supported</code>) und verknüpfe den <code>agent_auth</code> Block mit <code>https://[deine-domain.de]/.well-known/auth.md</code>.</p>
     <p>2. Konfiguriere die Webserver-Header für Pfade unter <code>/.well-known/oauth*</code>: <code>Access-Control-Allow-Origin "*"</code> und <code>Content-Type "application/json; charset=utf-8"</code>.</p>
     <p>3. Setze einen 301-Redirect oder Alias von <code>/.well-known/openid-configuration</code> auf das OAuth-Manifest für Abwärtskompatibilität.</p>
-    <p>4. Validiere den Endpunkt per <code>curl -s https://teleschmie.de/.well-known/oauth-authorization-server | jq .</code> auf fehlerfreies JSON.</p>
+    <p>4. Validiere den Endpunkt per <code>curl -s https://[deine-domain.de]/.well-known/oauth-authorization-server | jq .</code> auf fehlerfreies JSON.</p>
   </div>
 </div>
 

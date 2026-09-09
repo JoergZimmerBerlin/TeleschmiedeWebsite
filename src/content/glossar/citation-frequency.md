@@ -140,7 +140,7 @@ Dieses Phänomen führt dazu, dass Traffic, der über KI-Sichtbarkeit generiert 
     <p>Du bist ein AI SEO Analytics Specialist. Erstelle ein Node.js- / Python-Skript, das automatisiert die Citation Frequency für ein Prompt-Cluster abfragt und auswertet.</p>
     <p class="text-lime-accent font-semibold pt-1">// Anforderungen</p>
     <p>1. Lade eine Liste von 25 kaufentscheidenden Zielgruppen-Prompts und sende sie an Perplexity (Sonar API) sowie OpenAI (Search API).</p>
-    <p>2. Prüfe alle zurückgegebenen Quellen-URLs auf Übereinstimmung mit unserer Domain und den wichtigsten Wettbewerbern.</p>
+    <p>2. Prüfe alle zurückgegebenen Quellen-URLs auf Übereinstimmung mit der Ziel-Domain https://[deine-domain.de]/ und den wichtigsten Wettbewerbern.</p>
     <p>3. Berechne die absolute Citation Frequency sowie den relativen Share of Model (SoM) pro Modell.</p>
     <p>4. Speichere die Historie in einer SQLite-Datenbank und erstelle einen wöchentlichen HTML-Report mit Trend-Indikatoren.</p>
     <p class="text-lime-accent font-semibold pt-1">// Output</p>

@@ -180,7 +180,7 @@ Nach erfolgreicher Bestätigung können Sie externe SEO-Berater oder Agenturmita
     <p><strong>Rolle:</strong> Du bist ein DevOps & Technical SEO Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein Shell-Skript zur automatisierten DNS-TXT-Verifizierung und API-Health-Prüfung für die Google Search Console.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Nutze dig und nslookup, um die DNS-Zoneneinträge für <code>teleschmie.de/</code> auf vorhandene google-site-verification TXT-Records abzufragen.</p>
+    <p>1. Nutze dig und nslookup, um die DNS-Zoneneinträge für <code>[deine-domain.de]</code> auf vorhandene google-site-verification TXT-Records abzufragen.</p>
     <p>2. Prüfe, ob SPF-Records (v=spf1) unberührt geblieben sind und keine Syntaxfehler in den DNS-Antworten vorliegen.</p>
     <p>3. Richte eine Abfrage gegen die Google Search Console Search Analytics API (searchConsole/v1) mit OAuth2-Service-Account ein, um tägliche Klicks und Fehler zu exportieren.</p>
     <p>4. Gib ein übersichtliches Terminal-Log mit Status-Codes und eventuellen Warnmeldungen aus.</p>

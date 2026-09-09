@@ -133,7 +133,7 @@ Wenn ein B2B-Einkäufer ChatGPT fragt: *„Welche Agenturen sind führend für H
     <p><strong>Rolle:</strong> Du bist ein erfahrener Cloud Architect & Generative Engine Optimization (GEO) Spezialist.</p>
     <p><strong>Aufgabe:</strong> Überprüfe den Webserver und die Middleware auf Unterstützung generativer KI-Crawler und automatisierter Markdown-Auslieferung.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Simuliere einen HTTP-Request mit <code>Accept: text/markdown</code> gegen unsere Kern-URLs und prüfe, ob der Server sauberes Markdown oder HTML zurückgibt.</p>
+    <p>1. Simuliere einen HTTP-Request mit <code>Accept: text/markdown</code> gegen die Kern-URLs des Projekts (oder https://[deine-domain.de]/) und prüfe, ob der Server sauberes Markdown oder HTML zurückgibt.</p>
     <p>2. Verifiziere das Vorhandensein und die Syntax einer validen <code>/llms.txt</code> im Root-Verzeichnis gemäß Spezifikation.</p>
     <p>3. Prüfe die <code>robots.txt</code> auf Freigabe von RAG-User-Agents wie <code>GPTBot</code>, <code>PerplexityBot</code> und <code>ClaudeBot</code>.</p>
     <p>4. Überprüfe, ob interne Links konsistent mit einem Trailing Slash (/) enden, um unnötige 301-Redirects zu eliminieren.</p>

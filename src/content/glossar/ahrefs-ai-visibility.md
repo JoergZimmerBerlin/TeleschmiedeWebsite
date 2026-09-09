@@ -117,7 +117,7 @@ Je nach Budget, Zielsetzung und Inhouse-Kompetenz bieten unterschiedliche Plattf
 1. Nimm eine Liste von 10 kaufrelevanten B2B-Suchprompts entgegen.
 2. Frage für jeden Prompt die Perplexity- und OpenAI-Search-APIs ab.
 3. Extrahiere alle zitierten URLs aus den Antwortobjekten und aggregiere die Top-Domains (Domain Leaderboard).
-4. Vergleiche, ob unsere Domain [deinedomain.de] unter den Top-3-Zitationen auftaucht.
+4. Vergleiche, ob die Ziel-Domain [deine-domain.de] unter den Top-3-Zitationen auftaucht.
 5. Exportiere die Ergebnisse als strukturierte CSV-Tabelle mit Spalten: Prompt, Engine, Brand_Cited (True/False), Top_Domain, Source_URL.
 Liefere den sauberen Python-Code mit Fehlerbehandlung für API-Rate-Limits.</code></pre>
 </div>

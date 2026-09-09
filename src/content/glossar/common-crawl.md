@@ -151,7 +151,7 @@ Im technischen Alltag begegnen SEO-Spezialisten immer wieder Versäumnissen, die
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Prüfe `robots.txt`: Stelle sicher, dass `User-agent: CCBot` erlaubt ist (`Allow: /`), während interne und geschützte Pfade (`/admin/`, `/checkout/`) sauber via Disallow geschützt werden.</p>
     <p>2. Prüfe CDN- und Firewall-Regeln (z. B. Cloudflare WAF): Verifiziere, dass die ASN und User-Agent-Header von Common Crawl nicht pauschal mit HTTP 403 blockiert werden.</p>
-    <p>3. Validiere das serverseitige HTML: Rufe per `curl -A "CCBot/2.0" -s https://teleschmie.de/` ab und stelle sicher, dass alle redaktionellen Texte vollständig im Initial-HTML vorhanden sind.</p>
+    <p>3. Validiere das serverseitige HTML: Rufe per `curl -A "CCBot/2.0" -s https://[deine-domain.de]/` ab und stelle sicher, dass alle redaktionellen Texte vollständig im Initial-HTML vorhanden sind.</p>
   </div>
 </div>
 

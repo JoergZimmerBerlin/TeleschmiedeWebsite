@@ -160,11 +160,11 @@ Damit generative KIs persönliche LinkedIn-Aktivitäten zweifelsfrei mit der Unt
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: LinkedIn Profile & Person-Schema Reconciliation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Entity Specialist.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein vollständiges Schema.org-ProfilePage- und Person-Markup für Jörg Zimmer auf https://teleschmie.de/ mit direkter Verknüpfung zum LinkedIn-Profil.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein vollständiges Schema.org-ProfilePage- und Person-Markup für [Name des Experten/Autors] auf https://[deine-domain.de]/ mit direkter Verknüpfung zum LinkedIn-Profil.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Erzeuge ein valides JSON-LD-Snippet für die Autorenseite mit @type ProfilePage und mainEntity Person.</p>
-    <p>2. Deklariere sameAs-Verknüpfungen zum offiziellen LinkedIn-Profil (https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/).</p>
-    <p>3. Ergänze knowsAbout-Knoten für Generative Engine Optimization, Technisches SEO und Answer Engine Optimization.</p>
+    <p>2. Deklariere sameAs-Verknüpfungen zum offiziellen LinkedIn-Profil (z. B. https://www.linkedin.com/in/[dein-profil-slug]/).</p>
+    <p>3. Ergänze knowsAbout-Knoten für [deine Kern-Expertise / Schwerpunktthemen].</p>
     <p>4. Validiere das Markup mit dem Google Rich Results Test auf syntaktische Korrektheit.</p>
   </div>
 </div>

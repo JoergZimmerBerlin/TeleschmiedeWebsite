@@ -157,7 +157,7 @@ Trifft ein algorithmisches Core Update eine Website unerwartet mit herben Sichtb
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Inhouse Technical SEO & AEO Onboarding-Roadmap</p>
     <p><strong>Rolle:</strong> Du bist ein leitender Technical SEO Coach und Senior Web Architect.</p>
-    <p><strong>Aufgabe:</strong> Erstelle eine 4-wöchige Hands-on Trainings-Roadmap für unser Webentwicklungs- und Content-Team zur Beherrschung moderner KI-Sichtbarkeit.</p>
+    <p><strong>Aufgabe:</strong> Erstelle eine 4-wöchige Hands-on Trainings-Roadmap für ein Webentwicklungs- und Content-Team zur Beherrschung moderner KI-Sichtbarkeit.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Modul 1 (Server & Indexing): Crawl-Budget-Analyse per Logfiles, Statuscode-Auditierung, RFC 8288 Link-Header in <code>.htaccess</code> und Trailing-Slash-Normalisierung.</p>
     <p>2. Modul 2 (Semantik & Entities): Verschachteltes Schema.org JSON-LD (Organization, WebSite, Article) mit eindeutigen <code>@id</code>-URIs implementieren und per CLI-Tool testen.</p>

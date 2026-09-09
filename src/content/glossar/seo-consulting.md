@@ -156,7 +156,7 @@ Mit dieser systematischen Herangehensweise sichert professionelles Consulting di
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Enterprise Schema Graph & Entity Alignment</p>
     <p><strong>Rolle:</strong> Du bist ein Enterprise SEO Architect & Semantic Web Engineer.</p>
-    <p><strong>Aufgabe:</strong> Analysiere unsere Domain-Architektur und generiere einen konsolidierten JSON-LD Knowledge Graph für Google und KI-Answer-Engines.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die Domain-Architektur für https://[deine-domain.de]/ und generiere einen konsolidierten JSON-LD Knowledge Graph für Google und KI-Answer-Engines.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Verknüpfe Organization, ConsultingService, Person (Experten-Biografien) und DefinedTermSet über eindeutige @id-URIs.</p>
     <p>2. Integriere verifizierte sameAs-Verlinkungen zu Wikidata, Wikipedia, LinkedIn und Branchenverbänden.</p>

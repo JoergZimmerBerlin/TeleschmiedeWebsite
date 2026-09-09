@@ -196,7 +196,7 @@ Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwer
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: RFC 9421 HTTP Message Signature Middleware</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Web-Security-Architekt und Node.js/Edge-Worker-Entwickler.</p>
-    <p><strong>Aufgabe:</strong> Entwickle eine Middleware für unseren Webserver (oder Cloudflare Worker), die eingehende Requests automatisierter Agenten auf RFC 9421 HTTP Message Signatures prüft. Validiere die Header 'Signature-Input' und 'Signature' gegen öffentlich hinterlegte JWKS-Schlüsselbunde der Bot-Betreiber.</p>
+    <p><strong>Aufgabe:</strong> Entwickle eine Middleware für den Webserver dieses Projekts (oder Cloudflare Worker), die eingehende Requests automatisierter Agenten auf RFC 9421 HTTP Message Signatures prüft. Validiere die Header 'Signature-Input' und 'Signature' gegen öffentlich hinterlegte JWKS-Schlüsselbunde der Bot-Betreiber.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
     <p>1. Parse den 'Signature-Input'-Header und extrahiere die deklarierten Komponenten (@method, @target-uri, @authority, date), keyid und alg (z. B. ed25519).</p>
     <p>2. Konstruiere den kanonischen Signatur-Basistext gemäß RFC 9421 und prüfe die Zeitstempel-Toleranz (Clock-Skew max. +/- 300 Sekunden).</p>

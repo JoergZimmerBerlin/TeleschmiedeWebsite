@@ -150,9 +150,9 @@ Für moderne SEO-Teams bedeutet dies: Linkaufbau erfordert keinen panischen Akti
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Offpage Entity-Citation Schema & Digital PR Mapping</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Digital PR Stratege.</p>
-    <p><strong>Aufgabe:</strong> Erstelle für die Domain https://teleschmie.de/ ein semantisches Organization-Schema mit allen redaktionellen Zitationsquellen und Branchenprofilen.</p>
+    <p><strong>Aufgabe:</strong> Erstelle für die Domain https://[deine-domain.de]/ ein semantisches Organization-Schema mit allen redaktionellen Zitationsquellen und Branchenprofilen.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erweitere das Organization-Markup auf https://teleschmie.de/ um ein umfassendes sameAs-Array.</p>
+    <p>1. Erweitere das Organization-Markup auf https://[deine-domain.de]/ um ein umfassendes sameAs-Array.</p>
     <p>2. Verknüpfe anerkannte Fachartikel, Brancheninterviews und Podcast-Auftritte als verified mentions.</p>
     <p>3. Integriere die Auszeichnung relevanter Auszeichnungen und Zertifikate via award und knowsAbout.</p>
     <p>4. Validiere das JSON-LD auf syntaktische Korrektheit im Schema Validator.</p>

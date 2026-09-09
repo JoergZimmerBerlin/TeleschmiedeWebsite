@@ -149,7 +149,7 @@ Um Ausfälle zu verhindern, sollten WAF-Logfiles wöchentlich analysiert werden.
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: WAF Bot-Management & Verified-Crawler-Bypass Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Cloud-Security-Ingenieur und Technical SEO Consultant.</p>
-    <p><strong>Aufgabe:</strong> Analysiere die Firewall- und Bot-Management-Konfiguration unseres Webprojekts (z. B. Cloudflare WAF, AWS WAF oder Fastly) und implementiere ein Regelwerk, das Cyberangriffe abwehrt, aber Suchmaschinen (Googlebot, Bingbot) sowie KI-Suchagenten (OAI-SearchBot, PerplexityBot) uneingeschränkten Durchgang gewährt.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die Firewall- und Bot-Management-Konfiguration für dieses Webprojekt (z. B. Cloudflare WAF, AWS WAF oder Fastly) und implementiere ein Regelwerk, das Cyberangriffe abwehrt, aber Suchmaschinen (Googlebot, Bingbot) sowie KI-Suchagenten (OAI-SearchBot, PerplexityBot) uneingeschränkten Durchgang gewährt.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
     <p>1. Erstelle eine Prioritätsregel (Order 1), die bei 'cf.client.bot' oder verifizierter Reverse-DNS-Auflösung von Google/Bing alle Sicherheits-Challenges und Rate-Limits umgeht (Bypass).</p>
     <p>2. Konfiguriere separate Ausnahmen für Live-Retrieval-Agenten (User-Agents OAI-SearchBot und PerplexityBot), sodass keine JavaScript-Challenges oder Captchas vorgeschaltet werden.</p>

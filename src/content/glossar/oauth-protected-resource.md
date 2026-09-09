@@ -128,7 +128,7 @@ Erfolgt ein unautorisierter Abruf auf einen geschützten Endpunkt, liefert der S
 HTTP/1.1 401 Unauthorized
 Date: Wed, 22 Jul 2026 10:00:00 GMT
 WWW-Authenticate: Bearer realm="api-access",
-  resource_metadata="https://teleschmie.de/.well-known/oauth-protected-resource"
+  resource_metadata="https://[deine-domain.de]/.well-known/oauth-protected-resource"
 Content-Type: application/json
 
 {
@@ -160,7 +160,7 @@ Entwickler und Systemarchitekten können die Einhaltung der RFC-9728-Spezifikati
 
 ```bash
 # 1. Unautorisierten Aufruf testen (Erwartung: 401 mit WWW-Authenticate Header)
-curl -i https://teleschmie.de/api/v1/resource
+curl -i https://[deine-domain.de]/api/v1/resource
 
 # 2. Metadaten-Endpunkt direkt abfragen und JSON validieren
 curl -s https://teleschmie.de/.well-known/oauth-protected-resource | jq '{
@@ -200,9 +200,9 @@ Moderne Unternehmen, die ihre Datenstrukturen für Antwortmaschinen und Agenten 
     <p><strong>Aufgabe:</strong> Erstelle das Protected Resource Metadata Dokument unter <code>public/.well-known/oauth-protected-resource</code> nach RFC 9728 und konfiguriere die 401 WWW-Authenticate Header für geschützte API-Routen.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Erzeuge die Datei <code>public/.well-known/oauth-protected-resource</code> mit <code>resource</code>, <code>authorization_servers</code> und <code>scopes_supported</code>.</p>
-    <p>2. Konfiguriere im Webserver (.htaccess / Nginx) für unautorisierte API-Anfragen den Response-Header: <code>WWW-Authenticate: Bearer realm="api-access", resource_metadata="https://teleschmie.de/.well-known/oauth-protected-resource"</code> mit Status 401.</p>
+    <p>2. Konfiguriere im Webserver (.htaccess / Nginx) für unautorisierte API-Anfragen den Response-Header: <code>WWW-Authenticate: Bearer realm="api-access", resource_metadata="https://[deine-domain.de]/.well-known/oauth-protected-resource"</code> mit Status 401.</p>
     <p>3. Richte offene CORS-Header (<code>Access-Control-Allow-Origin "*"</code>) für alle Discovery-Pfade unter <code>/.well-known/</code> ein.</p>
-    <p>4. Teste die Funktionalität per <code>curl -i https://teleschmie.de/api/v1/resource</code> und validiere, dass der Header auf die Metadaten-URL zeigt.</p>
+    <p>4. Teste die Funktionalität per <code>curl -i https://[deine-domain.de]/api/v1/resource</code> und validiere, dass der Header auf die Metadaten-URL zeigt.</p>
   </div>
 </div>
 

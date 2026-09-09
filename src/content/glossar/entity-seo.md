@@ -107,7 +107,7 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://teleschmie.de/#organization",
+      "@id": "https://[deine-domain.de]/#organization",
       "name": "Teleschmiede",
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
@@ -134,7 +134,7 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
       "name": "Jörg Zimmer",
       "jobTitle": "Senior SEO & AI Search Consultant",
       "worksFor": {
-        "@id": "https://teleschmie.de/#organization"
+        "@id": "https://[deine-domain.de]/#organization"
       },
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
@@ -169,11 +169,11 @@ Liegt der Vektor Ihrer Marke (z. B. als Dienstleister für B2B-SEO) mathematisch
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Graph &amp; Knowledge Graph Generation</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Semantic-Web- und Schema.org-Ingenieur.</p>
-    <p><strong>Aufgabe:</strong> Erstelle für unsere Domain teleschmie.de einen vollständigen JSON-LD Knowledge Graph mit verschachtelten Entitäten.</p>
+    <p><strong>Aufgabe:</strong> Erstelle für die Domain https://[deine-domain.de]/ einen vollständigen JSON-LD Knowledge Graph mit verschachtelten Entitäten.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Definiere Organization mit fester @id (URI: https://teleschmie.de/#organization), Name, Logo und Kontaktdaten.</p>
+    <p>1. Definiere Organization mit fester @id (URI: https://[deine-domain.de]/#organization), Name [Unternehmensname], Logo und Kontaktdaten.</p>
     <p>2. Integriere ein umfassendes sameAs-Array (Wikidata, LinkedIn, Branchenverzeichnisse) und knowsAbout-Array mit Wikipedia-Entitäten.</p>
-    <p>3. Verknüpfe Person-Entität (@id: https://teleschmie.de/#author) über worksFor und validiere mit dem Schema Markup Validator.</p>
+    <p>3. Verknüpfe Person-Entität (@id: https://[deine-domain.de]/#[autor-slug]) über worksFor und validiere mit dem Schema Markup Validator.</p>
   </div>
 </div>
 

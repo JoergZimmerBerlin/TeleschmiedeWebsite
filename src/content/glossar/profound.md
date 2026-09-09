@@ -156,7 +156,7 @@ Maßgeschneiderte Pakete für globale Agenturen und Konzerne.
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AEO FAQ Generator & Content Schema Injection</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AEO & Content Engineer.</p>
-    <p><strong>Aufgabe:</strong> Analysiere die Top-Nutzerfragen aus Perplexity und ChatGPT zu unserer Kern-Landingpage und generiere einen semantisch angereicherten FAQ-Abschnitt mit Schema.org-Markup.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die Top-Nutzerfragen aus Perplexity und ChatGPT zur Ziel-Landingpage (z. B. https://[deine-domain.de]/leistung/) und generiere einen semantisch angereicherten FAQ-Abschnitt mit Schema.org-Markup.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <ul class="list-disc pl-4 space-y-1 text-gray-300">
       <li>Prompt-Extraktion: Identifiziere 5 Kernfragen mit transaktionalem Intent nach dem BLUF-Prinzip (Bottom Line Up Front).</li>

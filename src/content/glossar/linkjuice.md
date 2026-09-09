@@ -157,9 +157,9 @@ In unseren technischen Audits stoßen wir fortlaufend auf fatale Strukturfehler,
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Internal Link-Equity & Click-Depth Auditor</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Technical SEO & Crawling Specialist.</p>
-    <p><strong>Aufgabe:</strong> Analysiere die interne Verlinkungsstruktur für https://teleschmie.de/ zur Optimierung des internen PageRank-Flusses.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die interne Verlinkungsstruktur für https://[deine-domain.de]/ zur Optimierung des internen PageRank-Flusses.</p>
     <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Ermittle alle internen Links auf https://teleschmie.de/ und berechne die Klicktiefe jeder URL ab der Startseite.</p>
+    <p>1. Ermittle alle internen Links auf https://[deine-domain.de]/ und berechne die Klicktiefe jeder URL ab der Startseite.</p>
     <p>2. Identifiziere Orphan Pages (0 eingehende interne Links) und Seiten mit einer Klicktiefe größer als 3.</p>
     <p>3. Überprüfe alle Ziel-URLs auf zwingend vorhandene Trailing Slashes zur Vermeidung von Redirect-Verlusten.</p>
     <p>4. Erstelle eine Liste empfohlener In-Text-Verlinkungen aus thematisch passenden Ratgeberartikeln auf die Haupt-Leistungsseiten.</p>

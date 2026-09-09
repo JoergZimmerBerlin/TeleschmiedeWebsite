@@ -111,14 +111,14 @@ Um eine Domain mit DNS-AID auszustatten, werden standardisierte Resource-Records
 ; ============================================================
 
 ; 1. Service Binding Record (SVCB) für den primären MCP-Agenten
-_agent._tcp.teleschmie.de.    3600 IN SVCB 1 mcp.api.teleschmie.de. (
+_agent._tcp.[deine-domain.de].    3600 IN SVCB 1 mcp.api.teleschmie.de. (
                                 alpn="mcp"
                                 port="443"
                                 key65300="v=dns-aid1"
                               )
 
 ; 2. TXT-Record Fallback mit Metadaten und Auth-Verweis
-_agent._tcp.teleschmie.de.    3600 IN TXT "v=dns-aid1; id=company-agent; auth=https://teleschmie.de/auth.md; mcp=https://teleschmie.de/.well-known/mcp.json"
+_agent._tcp.[deine-domain.de].    3600 IN TXT "v=dns-aid1; id=company-agent; auth=https://teleschmie.de/auth.md; mcp=https://teleschmie.de/.well-known/mcp.json"
 
 ; 3. DANE TLSA-Record zur kryptografischen Authentifizierung
 _443._tcp.mcp.api.teleschmie.de. 3600 IN TLSA 3 1 1 d2ab65...deine_hash_signatur...
@@ -163,9 +163,9 @@ Liefert die Abfrage die deklarierten Ports, Protokolle und das `ad`-Flag (Authen
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: DNS-AID &amp; SVCB Resource Record Setup</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Network Engineer und Cloudflare Infrastructure Architect.</p>
-    <p><strong>Aufgabe:</strong> Erstelle eine standardkonforme DNS-Konfiguration nach dem IETF-Entwurf draft-mozleywilliams-dnsop-dnsaid für unsere Domain, inklusive SVCB-Record (RFC 9460) und TXT-Metadaten.</p>
+    <p><strong>Aufgabe:</strong> Erstelle eine standardkonforme DNS-Konfiguration nach dem IETF-Entwurf draft-mozleywilliams-dnsop-dnsaid für die Ziel-Domain [deine-domain.de], inklusive SVCB-Record (RFC 9460) und TXT-Metadaten.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Generiere die Zonendatei-Einträge für `_agent._tcp.teleschmie.de.` mit ALPN="mcp", Port 443 und v=dns-aid1.</p>
+    <p>1. Generiere die Zonendatei-Einträge für `_agent._tcp.[deine-domain.de].` mit ALPN="mcp", Port 443 und v=dns-aid1.</p>
     <p>2. Formuliere den passenden TXT-Fallback-Record unter Einhaltung des 255-Byte-Limits für String-Segmente.</p>
     <p>3. Überprüfe die Konfiguration mit dig +short SVCB und stelle sicher, dass DNSSEC (ad-Flag) aktiv ist.</p>
   </div>

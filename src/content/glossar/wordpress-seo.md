@@ -130,12 +130,12 @@ Wer seine Daten 2026 nicht über KI-Crawler-Protokolle und maschinenlesbare Endp
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: WordPress Performance-Audit &amp; Markdown Content Negotiation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener WordPress Core Developer und Technical SEO Engineer.</p>
-    <p><strong>Aufgabe:</strong> Optimiere unsere WordPress-Installation für Core Web Vitals und moderne KI-Crawlability. Implementiere Content Negotiation für Markdown-Endpunkte und reduziere überflüssigen Plugin-Overhead.</p>
+    <p><strong>Aufgabe:</strong> Optimiere eine WordPress-Installation für Core Web Vitals und moderne KI-Crawlability. Implementiere Content Negotiation für Markdown-Endpunkte und reduziere überflüssigen Plugin-Overhead.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
     <p>1. Erstelle ein leichtgewichtiges Must-Use-Plugin (mu-plugin), das bei anfragendem Header 'Accept: text/markdown' den Beitragsinhalt bereinigt und als reines Markdown zurückgibt.</p>
     <p>2. Konfiguriere die Permalink-Struktur strikt mit trailing slash ('/%postname%/') und eliminiere interne 301-Redirect-Schleifen.</p>
     <p>3. Überprüfe die Redis-Object-Cache-Verbindung und deaktiviere ungenutzte Skripte (wp-embed, Dashicons, block-library-CSS auf Seiten ohne Blocks).</p>
-    <p>4. Validierung: Teste eine URL mit 'curl -H "Accept: text/markdown" https://teleschmie.de/blog-post/' und verifiziere, dass reiner Markdown-Text mit Status 200 ausgeliefert wird.</p>
+    <p>4. Validierung: Teste eine URL mit 'curl -H "Accept: text/markdown" https://[deine-domain.de]/beispiel-beitrag/' und verifiziere, dass reiner Markdown-Text mit Status 200 ausgeliefert wird.</p>
   </div>
 </div>
 

@@ -143,11 +143,11 @@ Brauchst du also sofort ein teures AI-Tracking-Abo? Das hängt maßgeblich von d
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AI Visibility & Citation Tracking Automatisierung</p>
     <p><strong>Rolle:</strong> Du bist ein Data Engineer und AI Search Visibility Analyst.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein Python-Skript zur Abfrage relevanter Branchen-Prompts über OpenRouter- oder Perplexity-APIs zur Ermittlung unseres Share of Voice.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein Python-Skript zur Abfrage relevanter Branchen-Prompts über OpenRouter- oder Perplexity-APIs zur Ermittlung des Share of Voice für [Dein Markenname].</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Lade eine Liste von 20 kaufrelevanten Branchenfragen aus einer lokalen JSON-Konfigurationsdatei.</p>
     <p>2. Sende strukturierte Abfragen an GPT-4o, Claude 3.5 Sonnet und Perplexity Sonar API.</p>
-    <p>3. Analysiere die Textantworten per Regex und semantischem Matching auf Erwähnung unserer Zielmarke und relevanter Wettbewerber.</p>
+    <p>3. Analysiere die Textantworten per Regex und semantischem Matching auf Erwähnung der Zielmarke [Dein Markenname] und relevanter Wettbewerber.</p>
     <p>4. Berechne Citation Frequency, Position der Erwähnung und Sentiment (positiv, neutral, negativ) und speichere die Ergebnisse in einer SQLite-Datenbank.</p>
   </div>
 </div>

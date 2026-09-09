@@ -155,10 +155,10 @@ Durch die Vergabe fester IDs (`@id`) und die Verlinkung auf globale Wikidata-Kon
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Graph &amp; Knowledge Graph API Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Semantic Web Architect und Python/Node.js Developer.</p>
-    <p><strong>Aufgabe:</strong> Entwickle ein Skript, das die Brand-Entität über die Google Knowledge Graph Search API abfragt, den resultierenden resultScore auswertet und die bidirektionale sameAs-Konsistenz mit unserer Groundingpage validiert.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Skript, das die Brand-Entität über die Google Knowledge Graph Search API abfragt, den resultierenden resultScore auswertet und die bidirektionale sameAs-Konsistenz mit der Groundingpage validiert.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Frage den Knowledge Graph für Teleschmiede ab und extrahiere @id, types und description.</p>
-    <p>2. Gleiche gefundene Identifier mit den sameAs-Einträgen im JSON-LD-Graph von teleschmie.de ab.</p>
+    <p>1. Frage den Knowledge Graph für den Markennamen [Dein Markenname] ab und extrahiere @id, types und description.</p>
+    <p>2. Gleiche gefundene Identifier mit den sameAs-Einträgen im JSON-LD-Graph von https://[deine-domain.de]/ ab.</p>
     <p>3. Gib eine strukturierte Tabelle der verifizierten Kanten und fehlenden Verknüpfungen aus.</p>
   </div>
 </div>

@@ -191,7 +191,7 @@ In Beratungsprojekten und technischen Web-Audits treten regelmäßig gravierende
     <p>1. Erweitere die <code>robots.txt</code> um granulare Content-Signal-Direktiven: <code>Content-Signal: search=yes, ai-input=yes, ai-train=no</code> für Bot-Gruppen.</p>
     <p>2. Konfiguriere Webserver-Header (.htaccess oder NGINX) für statische Assets (PDFs, Downloads): <code>Header set X-Robots-Tag "noai, noimageai"</code>.</p>
     <p>3. Erstelle <code>/.well-known/tdmrep.json</code> mit <code>tdm-reservation: 1</code> gemäß W3C TDM-Reservation-Standard.</p>
-    <p>4. Validiere die Konfiguration per <code>curl -I -s https://teleschmie.de/robots.txt</code> und überprüfe, ob RAG-Bots wie GPTBot und PerplexityBot freigegeben sind.</p>
+    <p>4. Validiere die Konfiguration per <code>curl -I -s https://[deine-domain.de]/robots.txt</code> und überprüfe, ob RAG-Bots wie GPTBot und PerplexityBot freigegeben sind.</p>
   </div>
 </div>
 

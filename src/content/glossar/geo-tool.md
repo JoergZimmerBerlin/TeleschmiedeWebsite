@@ -188,7 +188,7 @@ if __name__ == "__main__":
     <p>2. Sende Anfragen für vordefinierte Marken- und Produkt-Entitäten an die Schnittstelle und aggregiere die Ergebnisse für GPT-4o, Perplexity und Claude.</p>
     <p>3. Berechne den Share of Model (in Prozent) und das positive Sentiment-Verhältnis.</p>
     <p>4. Exportiere die Daten als sauberes JSON oder CSV für das interne Marketing-Reporting.</p>
-    <p>5. Teste die API-Verbindung mit <code>teleschmie.de/</code> als Referenz-Domain und überprüfe Timeouts und Exception-Handling.</p>
+    <p>5. Teste die API-Verbindung mit <code>[deine-domain.de]</code> als Referenz-Domain und überprüfe Timeouts und Exception-Handling.</p>
   </div>
 </div>
 

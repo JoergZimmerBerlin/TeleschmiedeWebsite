@@ -158,7 +158,7 @@ Link: <https://teleschmie.de/.well-known/auth.md>; rel="authorization-policy"; t
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Stelle sicher, dass die Datei kleingeschrieben ist (<code>auth.md</code>) und als H1 strikt <code># auth.md</code> verwendet.</p>
     <p>2. Konfiguriere OAuth 2.1 Metadaten und Scopes (z. B. <code>read:articles</code>) im YAML-Frontmatter.</p>
-    <p>3. Ergänze die .htaccess bzw. Nginx-Konfiguration um den Link-Header: <code>Link: &lt;https://teleschmie.de/.well-known/auth.md&gt;; rel="authorization-policy"; type="text/markdown"</code>.</p>
+    <p>3. Ergänze die .htaccess bzw. Nginx-Konfiguration um den Link-Header: <code>Link: &lt;https://[deine-domain.de]/.well-known/auth.md&gt;; rel="authorization-policy"; type="text/markdown"</code>.</p>
   </div>
 </div>
 

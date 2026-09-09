@@ -186,8 +186,8 @@ Unter `/.well-known/agent-card.json` wird das Profil des Web-Assistenten publizi
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Erstelle `/.well-known/agent-card.json` strikt nach A2A Protocol v1.0 Schema mit Feldern `supportedInterfaces`, `capabilities` und `skills`.</p>
     <p>2. Erstelle `/auth.md` in Kleinbuchstaben mit der ersten Überschrift `# auth.md` und maschinenlesbaren Authentifizierungsschritten.</p>
-    <p>3. Konfiguriere RFC 8288 Link-Header im Webserver (z. B. `.htaccess` oder Nginx) ohne Anführungszeichen in den spitzen Klammern: `Header add Link "&lt;https://teleschmie.de/.well-known/agent-card.json&gt;; rel=\"agent-card\""`.</p>
-    <p>4. Validiere die Header per `curl -I -s https://teleschmie.de/ | grep -i "^link:"` und prüfe HTTP-Status 200 aller Endpunkte.</p>
+    <p>3. Konfiguriere RFC 8288 Link-Header im Webserver (z. B. `.htaccess` oder Nginx) ohne Anführungszeichen in den spitzen Klammern: `Header add Link "&lt;https://[deine-domain.de]/.well-known/agent-card.json&gt;; rel=\"agent-card\""`.</p>
+    <p>4. Validiere die Header per `curl -I -s https://[deine-domain.de]/ | grep -i "^link:"` und prüfe HTTP-Status 200 aller Endpunkte.</p>
   </div>
 </div>
 
@@ -205,7 +205,7 @@ Entwickler können die korrekte Ausspielung aller wesentlichen Discovery-Element
 
 ```bash
 # Prüfung der RFC 8288 Link-Header auf der Hauptdomain
-curl -I -s https://teleschmie.de/ | grep -i "^link:"
+curl -I -s https://[deine-domain.de]/ | grep -i "^link:"
 
 # Validierung der Erreichbarkeit von agent-card.json und auth.md
 curl -s -o /dev/null -w "%{http_code}\n" https://teleschmie.de/.well-known/agent-card.json

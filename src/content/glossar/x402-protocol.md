@@ -198,7 +198,7 @@ Wer verstehen möchte, wie führende Marken ihre Daten im KI-Ökosystem monetari
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: x402 HTTP Status 402 Middleware Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Web3- und API-Architekt.</p>
-    <p><strong>Aufgabe:</strong> Entwickle eine Middleware für unsere Node.js/TypeScript-API, die das x402-Protokoll implementiert. Unbezahlte Anfragen an geschützte Ressourcen müssen mit HTTP 402 Payment Required beantwortet werden; bei Vorlage eines validen Zahlungsbelegs im Header 'X-Payment-Authorization' wird der Zugriff freigegeben.</p>
+    <p><strong>Aufgabe:</strong> Entwickle eine Middleware für die Node.js/TypeScript-API dieses Projekts, die das x402-Protokoll implementiert. Unbezahlte Anfragen an geschützte Ressourcen müssen mit HTTP 402 Payment Required beantwortet werden; bei Vorlage eines validen Zahlungsbelegs im Header 'X-Payment-Authorization' wird der Zugriff freigegeben.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
     <p>1. Definiere den 402-Response-Payload mit Ziel-Wallet, Währung (USDC auf Base), Festbetrag und Nonce/TTL (300s).</p>
     <p>2. Implementiere Idempotency-Checks und Nonce-Validierung, um Replay-Angriffe und versehentliche Doppelabbuchungen zu unterbinden.</p>

@@ -166,7 +166,7 @@ Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit gene
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Markdown Content Negotiation & LLM Caching Layer</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Cloudflare- & Fullstack-Web-Architect.</p>
-    <p><strong>Aufgabe:</strong> Implementiere serverseitiges Markdown Content Negotiation für https://teleschmie.de/ zur Reduktion von LLM-Token-Parsing-Kosten.</p>
+    <p><strong>Aufgabe:</strong> Implementiere serverseitiges Markdown Content Negotiation für https://[deine-domain.de]/ zur Reduktion von LLM-Token-Parsing-Kosten.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Prüfe eingehende Anfragen auf den Header 'Accept: text/markdown' oder bekannte AI-User-Agents (GPTBot, ClaudeBot, PerplexityBot).</p>
     <p>2. Liefere bei positivem Match die bereinigte Markdown-Version mit dem Response-Header 'Content-Type: text/markdown; charset=utf-8'.</p>

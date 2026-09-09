@@ -135,7 +135,7 @@ Link: <https://deinedomain.de/agent-card.json>; rel="describedby"; type="applica
   <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um eine hochperformante Edge-Cache- und Bot-Management-Konfiguration zu erstellen:
   </p>
-  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein Senior Cloud- und CDN-Architekt. Konfiguriere die Edge-Caching-Regeln für unser Webprojekt:
+  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein Senior Cloud- und CDN-Architekt. Konfiguriere die Edge-Caching-Regeln für dieses Webprojekt:
 1. Erstelle eine Nginx-/Apache-Header-Konfiguration, die RFC-9213-konforme CDN-Cache-Control-Header für statische Seiten (HTML) und Assets (.webp, .svg, .css, .js) ausliefert.
 2. Integriere die stale-while-revalidate Direktive (1 Stunde), um Latenzen bei Cache-Erneuerung vollständig zu eliminieren.
 3. Definiere eine WAF-Routing-Regel für Cloudflare oder Fastly, die bekannte KI-Such-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended) explizit whitelisted und von JavaScript-Challenges ausnimmt.

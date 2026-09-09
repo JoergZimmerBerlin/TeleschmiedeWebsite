@@ -191,10 +191,10 @@ if __name__ == "__main__":
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: RAG-Optimierungs-Audit & Entity Co-Occurrence Check</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Specialist.</p>
-    <p><strong>Aufgabe:</strong> Überprüfe die Domain https://teleschmie.de/ auf ihre Zitationsfähigkeit in Retrieval-Augmented Generation (RAG) Systemen.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe die Domain https://[deine-domain.de]/ auf ihre Zitationsfähigkeit in Retrieval-Augmented Generation (RAG) Systemen.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Prüfe die robots.txt auf vollständige Freigabe für relevante KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).</p>
-    <p>2. Validiere das Schema.org-Markup auf https://teleschmie.de/ bezüglich Organization, Person (Jörg Zimmer), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.</p>
+    <p>2. Validiere das Schema.org-Markup auf https://[deine-domain.de]/ bezüglich Organization, Person ([Name des Autors/Experten]), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.</p>
     <p>3. Analysiere bestehende Content-Cluster nach dem 'Answer-First'-Prinzip (prägnante BLUF-Definitionen in den ersten 300 Zeichen).</p>
     <p>4. Erstelle einen Optimierungsplan zur Erhöhung der Zitationsrate in LLM-Antworten.</p>
   </div>

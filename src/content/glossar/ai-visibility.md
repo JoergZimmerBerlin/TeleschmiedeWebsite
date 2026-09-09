@@ -172,11 +172,11 @@ Durch diese eindeutigen Entitäts-Verknüpfungen versteht der Algorithmus die Zu
   <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Visibility-Audit deiner Website gegen Wettbewerber zu erstellen:
   </p>
-  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein hochspezialisierter GEO- & RAG-Auditor. Untersuche unsere Website und analysiere unsere AI Visibility:
+  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein hochspezialisierter GEO- & RAG-Auditor. Untersuche die Ziel-Website https://[deine-domain.de]/ und analysiere die AI Visibility:
 1. Prüfe die Datei robots.txt und Server-Header auf Freigabe relevanter KI-Crawler (GPTBot, PerplexityBot, ClaudeBot, Google-Extended).
-2. Analysiere das JSON-LD Schema-Markup unserer Domain: Werden Entitäten (Organization, Person) über @id, knowsAbout und sameAs (Wikidata, LinkedIn) semantisch eindeutig definiert?
+2. Analysiere das JSON-LD Schema-Markup der Ziel-Domain: Werden Entitäten (Organization, Person) über @id, knowsAbout und sameAs (Wikidata, LinkedIn) semantisch eindeutig definiert?
 3. Untersuche 5 zentrale Service-URLs auf RAG-Readiness: Enthalten die H2-Abschnitte präzise Antworten im BLUF-Format (Bottom Line Up Front, 40-60 Wörter), Tabellen und nummerierte Aufzählungen für fehlerfreie Chunk-Extraktion?
-4. Formuliere 10 representative B2B-Prompts für unsere Branche und simuliere die Antwortwahrscheinlichkeit im Vergleich zu unseren Top-3 Wettbewerbern.
+4. Formuliere 10 repräsentative B2B-Prompts für die Ziel-Branche [Deine Branche] und simuliere die Antwortwahrscheinlichkeit im Vergleich zu den Top-3 Wettbewerbern.
 Gib das Ergebnis als strukturierte Markdown-Tabelle mit konkreten Prioritäten (P0 bis P2) aus.</code></pre>
 </div>
 

@@ -138,13 +138,13 @@ Um dir direkt einen Überblick zu verschaffen, findest du hier die wichtigste Ve
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten Multi-LLM-Tracking-Benchmark für dein Unternehmen zu programmieren:
   </p>
   <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein Senior AI-Search-Engineer. Schreibe ein modulares Node.js/Python-Skript für ein automatisiertes AI-Tracking:
-1. Definiere ein Array aus 15 transaktionalen und informationalen B2B-Prompts für unsere Branche.
+1. Definiere ein Array aus 15 transaktionalen und informationalen B2B-Prompts für die Ziel-Branche [Deine Branche].
 2. Sende diese Prompts automatisiert über die APIs von OpenAI (GPT-4o), Anthropic (Claude 3.5 Sonnet) und Perplexity (Sonar-Medium).
 3. Analysiere die zurückgegebenen Antworttexte linguistisch auf:
-   - Mentions: Wird unser Markenname namentlich genannt?
-   - Citations: Ist unsere Domain in den Quellen-Links (Referrals) enthalten?
+   - Mentions: Wird der Ziel-Markenname [Dein Markenname] namentlich genannt?
+   - Citations: Ist die Ziel-Domain [deine-domain.de] in den Quellen-Links (Referrals) enthalten?
    - Competitor Mentions: Welche 3 Hauptkonkurrenten werden stattdessen genannt?
-   - Sentiment-Score (-1 bis +1): Wie positiv/neutral/negativ wird unsere Lösung dargestellt?
+   - Sentiment-Score (-1 bis +1): Wie positiv/neutral/negativ wird das Ziel-Angebot dargestellt?
 4. Berechne den Share of Voice (SoV) und exportiere die Ergebnisse als strukturierte JSON- und CSV-Reports für Looker Studio.</code></pre>
 </div>
 

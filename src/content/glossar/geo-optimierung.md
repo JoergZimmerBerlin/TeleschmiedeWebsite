@@ -140,12 +140,12 @@ Was passiert technisch im Hintergrund, wenn ein B2B-Käufer heute fragt: *„Wel
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: GEO-Optimierung & Markdown Content Negotiation konfigurieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Web Architect mit Spezialisierung auf Generative Engine Optimization (GEO).</p>
-    <p><strong>Aufgabe:</strong> Implementiere auf unserem Webserver serverseitige Content Negotiation für KI-Crawler sowie eine automatisierte <code>/llms.txt</code>.</p>
+    <p><strong>Aufgabe:</strong> Implementiere auf dem Webserver serverseitige Content Negotiation für KI-Crawler sowie eine automatisierte <code>/llms.txt</code>.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Prüfe eingehende HTTP-Header auf <code>Accept: text/markdown</code>. Falls vorhanden, liefere anstelle des kompletten HTML-DOMs eine bereinigte Markdown-Version ohne Boilerplate, Navigation und Footer aus.</p>
     <p>2. Erstelle eine statische Route unter <code>/llms.txt</code> und verlinke die wichtigsten Informations-Hubs mit kurzem Kontext (Title, URL, Kurzbeschreibung) gemäß llmstxt.org-Spezifikation.</p>
     <p>3. Integriere semantisches JSON-LD (Triple Schema Stacking: <code>Article</code>, <code>FAQPage</code>, <code>ItemList</code>), um Entitäten eindeutig zu disambiguieren.</p>
-    <p>4. Validiere per cURL: <code>curl -H "Accept: text/markdown" https://teleschmie.de/glossar/geo-optimierung/</code> und prüfe, ob der Content-Type als <code>text/markdown; charset=utf-8</code> zurückkehrt.</p>
+    <p>4. Validiere per cURL: <code>curl -H "Accept: text/markdown" https://[deine-domain.de]/[beispiel-pfad]/</code> und prüfe, ob der Content-Type als <code>text/markdown; charset=utf-8</code> zurückkehrt.</p>
   </div>
 </div>
 

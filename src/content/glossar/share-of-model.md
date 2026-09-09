@@ -167,7 +167,7 @@ Durch diese Differenzierung entsteht der **Weighted Share of Model (W-SoM)**, de
     <p><strong>Aufgabe:</strong> Baue ein modulares Auswertungsskript, das strukturierte Modell-Antworten aus einer JSON-Datei parst und den gewichteten Share of Model (W-SoM) berechnet.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Lies das Prompt-Ergebnis-Array mit Feldern wie <code>prompt_id</code>, <code>model_name</code>, <code>response_text</code> und <code>citations</code> ein.</p>
-    <p>2. Implementiere eine Regex-basierte Erkennung für unsere Marke sowie definierte Wettbewerber-Entitäten.</p>
+    <p>2. Implementiere eine Regex-basierte Erkennung für die Zielmarke [Dein Markenname] sowie definierte Wettbewerber-Entitäten.</p>
     <p>3. Gewichte Erwähnungen nach Listenrang (Platz 1 = 1.0, Platz 2 = 0.7, Platz 3 = 0.4, ab Platz 4 = 0.2) und Sentiment-Faktor (-0.5 bis +1.0).</p>
     <p>4. Exportiere die aggregierten Kennzahlen (SoM, Citation Rate, W-SoM) als übersichtliche Markdown-Tabelle und JSON-Dashboard-Feed.</p>
   </div>

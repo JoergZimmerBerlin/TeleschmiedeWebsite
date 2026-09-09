@@ -152,12 +152,12 @@ Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Stateless MCP Architecture & Tool Integration Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Senior System Architect der Agentic AI Foundation und Technical SEO Engineer.</p>
-    <p><strong>Aufgabe:</strong> Analysiere mein bestehendes IT-Setup und meine Web-Infrastruktur im Hinblick auf den 'Stateless MCP Standard' (Stand 2026).</p>
+    <p><strong>Aufgabe:</strong> Analysiere die Web- und API-Architektur für dieses Projekt im Hinblick auf den 'Stateless MCP Standard' (Stand 2026).</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Identifiziere alle internen APIs und Datenbank-Endpunkte, die aktuell noch über starre REST-Wrapper laufen und ersetze sie durch zustandslose MCP-Ressourcen.</p>
     <p>2. Konfiguriere ein standardkonformes Discovery-Manifest unter <code>/.well-known/mcp.json</code> mit Tool-Definitionen, Input-Schemas und offenen CORS-Headern.</p>
     <p>3. Trenne interne Werkzeugaufrufe (MCP) architektonisch sauber von externer Agenten-Interaktion (A2A-Protokoll via <code>agent-card.json</code>).</p>
-    <p>4. Validiere die Server-Endpunkte mit <code>curl -s -H "Accept: application/json" https://teleschmie.de/.well-known/mcp.json</code> und teste die Function-Calling-Pfade.</p>
+    <p>4. Validiere die Server-Endpunkte mit <code>curl -s -H "Accept: application/json" https://[deine-domain.de]/.well-known/mcp.json</code> und teste die Function-Calling-Pfade.</p>
   </div>
 </div>
 

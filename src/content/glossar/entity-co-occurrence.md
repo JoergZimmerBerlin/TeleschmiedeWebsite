@@ -150,11 +150,11 @@ if __name__ == "__main__":
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Co-Occurrence &amp; PMI Matrix Pipeline</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener NLP Data Scientist und Python/FastAPI Entwickler.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein Python-Skript zur automatisierten Berechnung der Pointwise Mutual Information (PMI) und Cosine Similarity zwischen unserer Brand-Entität und definierten Branchen-Keywords.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein Python-Skript zur automatisierten Berechnung der Pointwise Mutual Information (PMI) und Cosine Similarity zwischen der Brand-Entität [Dein Markenname] und definierten Branchen-Keywords.</p>
     <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Nutze spaCy oder ein Transformer-Modell zur Named Entity Recognition (NER) auf unseren Blogbeiträgen.</p>
+    <p>1. Nutze spaCy oder ein Transformer-Modell zur Named Entity Recognition (NER) auf den Blogbeiträgen des Projekts.</p>
     <p>2. Berechne die paarweise Kookkurrenzmatrix und leite die PMI-Werte ab.</p>
-    <p>3. Identifiziere semantische Cluster-Lücken, bei denen unsere Marke noch nicht dicht genug an Kernbegriffen verortet ist.</p>
+    <p>3. Identifiziere semantische Cluster-Lücken, bei denen die Zielmarke [Dein Markenname] noch nicht dicht genug an Kernbegriffen verortet ist.</p>
   </div>
 </div>
 

@@ -143,7 +143,7 @@ Ein oft unterschätzter Aspekt im Markenaufbau ist die technische Hygiene der ei
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Knowledge Graph & Organization Schema Generator</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Semantic Web Engineer & Entity SEO Specialist.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein vollständiges, verschachteltes Schema.org/JSON-LD Graph-Markup zur Disambiguierung unserer Marke.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein vollständiges, verschachteltes Schema.org/JSON-LD Graph-Markup zur Disambiguierung der Marke [Dein Markenname].</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <ol class="list-decimal pl-4 space-y-1 text-gray-300">
       <li>Verknüpfe @type 'Organization' mit 'Brand', 'founder' (Person), 'foundingDate', 'legalName' und 'knowsAbout'-Attributen.</li>

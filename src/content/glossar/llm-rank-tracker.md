@@ -141,7 +141,7 @@ Wenn du aufhören willst, deine SEO-Strategie im Blindflug zu steuern, führt ak
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Multi-LLM Rank Tracker & Mention-Rate Scanner implementieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener AI Visibility Engineer & API Automation Specialist.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes Python- oder Node.js-Skript, das standardisierte Kaufberatungs-Prompts an LLM-APIs (OpenAI, Anthropic, Perplexity) sendet und Markenerwähnungen für https://teleschmie.de/ auswertet.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes Python- oder Node.js-Skript, das standardisierte Kaufberatungs-Prompts an LLM-APIs (OpenAI, Anthropic, Perplexity) sendet und Markenerwähnungen für https://[deine-domain.de]/ auswertet.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Lade eine Liste von 20 branchenspezifischen Vergleichs-Prompts und iteriere über die konfigurierten LLM-Endpunkte.</p>
     <p>2. Parse die Textantworten auf Erwähnungen des eigenen Markennamens, der Wettbewerber und relevanter Ziel-URLs.</p>

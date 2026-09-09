@@ -158,8 +158,8 @@ Erstelle beispielsweise dedizierte Vergleichstabellen und FAQ-Module, die häufi
     <p class="text-lime-accent font-semibold">// Rolle & Kontext</p>
     <p>Du bist ein NLP & Brand Reputation Specialist. Erstelle ein Skript zur automatisierten Extraktion von Markensentiment und qualitativen Deskriptoren aus LLM-Antworten.</p>
     <p class="text-lime-accent font-semibold pt-1">// Anforderungen</p>
-    <p>1. Sende 15 Vergleichs-Prompts unserer Branche an Claude 3.5 Sonnet und OpenAI GPT-4o und fange die Textantworten ab.</p>
-    <p>2. Führe ein feingranulares Sentiment-Parsing durch: Klassifiziere Absätze, in denen unsere Marke vorkommt, in Positiv / Neutral / Negativ.</p>
+    <p>1. Sende 15 branchenspezifische Vergleichs-Prompts an Claude 3.5 Sonnet und OpenAI GPT-4o und fange die Textantworten ab.</p>
+    <p>2. Führe ein feingranulares Sentiment-Parsing durch: Klassifiziere Absätze, in denen die Zielmarke [Dein Markenname] vorkommt, in Positiv / Neutral / Negativ.</p>
     <p>3. Extrahiere alle assoziierten Adjektive und Phrasen (Deskriptoren wie 'zuverlässig', 'teuer', 'innovativ', 'kompliziert') und bilde ein Häufigkeits-Ranking.</p>
     <p>4. Stelle das Ergebnis als JSON-Struktur mit 'Net Sentiment Score' (-100 bis +100) und Keyword-Cloud-Daten bereit.</p>
     <p class="text-lime-accent font-semibold pt-1">// Output</p>

@@ -126,3 +126,6 @@
       </div>
     </div>
     ```
+    **WICHTIG (Universalitäts-Gebot für Agentenboxen):** 
+    Prompts in den Agentenboxen müssen ZWINGEND universell für Webseitenbesucher und deren Projekte formuliert sein. Niemals die eigene Domain (`teleschmie.de`), den eigenen Namen (`Jörg Zimmer`), persönliche Profile oder interne Possessivpronomen („unsere Domain“, „unsere Marke“, „unser Projekt“) hardcoden. Verwende stets standardisierte Platzhalter wie `https://[deine-domain.de]/`, `[Dein Markenname]`, `[Name des Autors/Experten]`, `https://www.linkedin.com/in/[dein-profil-slug]/` oder neutrale Formulierungen wie „für dieses Webprojekt“.
+

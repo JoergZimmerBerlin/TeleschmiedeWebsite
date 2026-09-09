@@ -164,13 +164,13 @@ Zur systematischen Überwachung deiner Onpage-Architektur und Identifikation feh
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: llms.txt Generator & Linter</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Web Architect.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein Skript, das die /llms.txt unserer Domain nach den Spezifikationen von llmstxt.org generiert und alle verlinkten Ressourcen auf HTTP 200 und Trailing Slashes validiert.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein Skript, das die /llms.txt für https://[deine-domain.de]/ nach den Spezifikationen von llmstxt.org generiert und alle verlinkten Ressourcen auf HTTP 200 und Trailing Slashes validiert.</p>
     <p><strong>Schritte & Validierung:</strong></p>
     <ol class="list-decimal pl-4 space-y-1 text-gray-300">
       <li>Erstelle die Datei im Public-Root mit Firmen-H1, Blockquote-Summary und gruppierten H2-Kategorien.</li>
       <li>Annotiere jeden Eintrag im Format '- [Titel](url): Kurzbeschreibung'.</li>
       <li>Verifiziere, dass alle internen URLs exakt auf Trailing Slashes (/) enden und keine 301-Redirects auslösen.</li>
-      <li>Führe einen automatisierten curl-Check auf https://teleschmie.de/llms.txt durch.</li>
+      <li>Führe einen automatisierten curl-Check auf https://[deine-domain.de]/llms.txt durch.</li>
     </ol>
   </div>
 </div>

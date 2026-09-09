@@ -156,7 +156,7 @@ Link: <https://teleschmie.de/.well-known/ai-catalog.json>; rel="service-desc"; t
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Definiere <code>specVersion: "1.0"</code>, <code>host</code>-Metadaten und <code>entries</code> mit eindeutigen URNs für alle MCP- und REST-Schnittstellen.</p>
     <p>2. Achte strikt auf die Value-or-Reference-Regel (niemals <code>url</code> und <code>data</code> im selben Eintrag).</p>
-    <p>3. Konfiguriere den Apache/Nginx Link-Header nach RFC 8288: <code>Link: &lt;https://teleschmie.de/.well-known/ai-catalog.json&gt;; rel="service-desc"; type="application/json"</code>.</p>
+    <p>3. Konfiguriere den Apache/Nginx Link-Header nach RFC 8288: <code>Link: &lt;https://[deine-domain.de]/.well-known/ai-catalog.json&gt;; rel="service-desc"; type="application/json"</code>.</p>
   </div>
 </div>
 

@@ -126,7 +126,7 @@ Reine Kennzahlen entfalten erst dann geschäftlichen Nutzen, wenn daraus konkret
     Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Competitor-Vergleich zu programmieren:
   </p>
   <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein hochspezialisierter Competitive-Intelligence-Analyst für Generative AI.
-Führe einen Wettbewerbsvergleich zwischen unserer Marke [Brand A] und den Mitbewerbern [Brand B, Brand C] durch:
+Führe einen Wettbewerbsvergleich zwischen der Zielmarke [Brand A] und den Mitbewerbern [Brand B, Brand C] durch:
 1. Erstelle ein Set von 15 kaufentscheidenden B2B-Suchprompts für unser Marktsegment.
 2. Simuliere die Antwortgenerierung in Perplexity und ChatGPT Search.
 3. Berechne für jede Marke:

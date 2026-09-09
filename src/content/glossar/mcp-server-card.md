@@ -208,7 +208,7 @@ Wie sich fortschrittliche Plattformen im Zeitalter generativer KI positionieren,
     <p><strong>Schritte & Validierung:</strong></p>
     <p>1. Erzeuge die Datei <code>public/.well-known/mcp.json</code> mit Schema <code>https://modelcontextprotocol.io/schemas/server-card-v1.json</code>, aktuellem Versionsstand, Transport-Definition (SSE oder HTTP) und allen aktiven Tools inklusive JSON Schema für die Parameter.</p>
     <p>2. Konfiguriere in der Webserver-Konfiguration (.htaccess / Nginx) für Pfade unter <code>/.well-known/mcp*</code> die Header: <code>Access-Control-Allow-Origin "*"</code>, <code>Access-Control-Allow-Methods "GET, OPTIONS"</code> und <code>Content-Type "application/json; charset=utf-8"</code>.</p>
-    <p>3. Führe im Terminal <code>curl -I https://teleschmie.de/.well-known/mcp.json</code> aus und verifiziere Status 200 sowie die CORS-Header. Validiere die Syntax anschließend mit <code>jq . public/.well-known/mcp.json</code>.</p>
+    <p>3. Führe im Terminal <code>curl -I https://[deine-domain.de]/.well-known/mcp.json</code> aus und verifiziere Status 200 sowie die CORS-Header. Validiere die Syntax anschließend mit <code>jq . public/.well-known/mcp.json</code>.</p>
   </div>
 </div>
 

@@ -31,7 +31,7 @@ Während sich viele Marketer noch immer an statischen Keyword-Dichten festklamme
 
 ### Sechs zentrale Praxiserkenntnisse aus der Podcast-Session
 
-1. **Kostenlose Analyse via Knowledge Graph API:** Über das Entity Discover Tool von poliSYS lässt sich Googles Knowledge Graph API direkt und kostenfrei abfragen, um die eigene Maschinen-Identität zu überprüfen.
+1. **Kostenlose Analyse via Knowledge Graph API:** Über das [Entity Discover Tool von poliSYS](https://polisys.de/tools/entity/) lässt sich Googles Knowledge Graph API direkt und kostenfrei abfragen, um die eigene Maschinen-Identität zu überprüfen.
 2. **Der Sprung zur eigenen Entity-ID:** Vor sechs Monaten war meine persönliche Marke dort noch nicht zweifelsfrei hinterlegt – inzwischen führt mich Google mit einer eindeutigen ID als Person und Entität.
 3. **Global konsistente Entitäten-Präsenz:** Ein prägnanter Slogan mit konsistenten Kernentitäten und Fachgebieten sollte über möglichst viele autoritäre Quellen im Web hinweg identisch platziert werden.
 4. **Semantische Sätze als Daten-Anker:** Entitäten-Sätze müssen zwingend Subjekt, Prädikat und Objekt enthalten, damit Algorithmen die inhaltliche Aussage auch isoliert zweifelsfrei parsen können.

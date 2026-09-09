@@ -101,7 +101,7 @@ const collectionSchema = {
     {
       "@type": "WebApplication",
       "name": "Cloudflare Radar Agent Readiness Scan",
-      "url": "https://radar.cloudflare.com/",
+      "url": "https://radar.cloudflare.com/scan",
       "applicationCategory": "WebApplication",
       "operatingSystem": "All",
       "offers": {
@@ -177,18 +177,10 @@ const collectionSchema = {
     {
       "@type": "SoftwareApplication",
       "name": "tl;dv Notetaker",
-      "url": "https://lnkd.in/dXS6VU-b",
+      "url": "https://tldv.cello.so/T6T8gUGiUg2",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "All",
       "description": "DSGVO-konformer KI-Meeting-Assistent aus Deutschland für automatisierte Transkription, Aufgaben-Extraktion und CRM-Sync."
-    },
-    {
-      "@type": "SoftwareApplication",
-      "name": "Exatics",
-      "url": "https://exatics.de/",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "All",
-      "description": "Spezial-Plattform von Joachim Nickel für CMP-Audits, Consent-Management und datenschutzkonformes Matomo-Tracking."
     },
     {
       "@type": "SoftwareApplication",
@@ -353,14 +345,25 @@ const collectionSchema = {
               </div>
 
               <!-- CTA Action -->
-              <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <a href={`${baseUrl}/tools/groundingpage-generator/`} class="btn-primary" title="Zum Grounding Page Generator (2026)">
-                  <span>Zum Grounding Page Generator</span>
-                  <span aria-hidden="true">→</span>
-                </a>
-                <span class="text-xs text-gray-500">
-                  Passender Guide: <a href={`${baseUrl}/blog/grounding-page-generator-ai-seo/`} class="text-dark font-bold hover:text-lime-700 underline">Grounding Page Leitfaden</a> und <a href={`${baseUrl}/blog/wie-komme-ich-als-unternehmen-in-chatgpt/`} class="text-dark font-bold hover:text-lime-700 underline">Unternehmen in ChatGPT</a>
-                </span>
+              <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                  <a href={`${baseUrl}/tools/groundingpage-generator/`} class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Zum Grounding Page Generator (2026)">
+                    <span>Zum Grounding Page Generator</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <div class="flex items-center gap-2 text-xs font-semibold text-lime-900 bg-lime-100/70 border border-lime-300 px-3.5 py-1.5 rounded-full">
+                    <span>⚡ 100 % Gratis</span>
+                    <span class="text-lime-500">•</span>
+                    <span>Ohne Login</span>
+                    <span class="text-lime-500">•</span>
+                    <span>Direkt im Browser</span>
+                  </div>
+                </div>
+                <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                  <span class="font-semibold text-gray-700">Passende Leitfäden:</span>
+                  <a href={`${baseUrl}/blog/grounding-page-generator-ai-seo/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Grounding Page Leitfaden →</a>
+                  <a href={`${baseUrl}/blog/wie-komme-ich-als-unternehmen-in-chatgpt/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Unternehmen in ChatGPT →</a>
+                </div>
               </div>
             </div>
 
@@ -376,14 +379,14 @@ const collectionSchema = {
                   https://deine-domain.de/
                 </div>
                 <p class="text-xs font-mono text-gray-400 mb-2"># Output:</p>
-                <div class="bg-black/60 p-3 rounded-lg text-[11px] font-mono text-gray-300 space-y-1">
+                <div class="bg-black/60 p-3 rounded-lg text-xs font-mono text-gray-300 space-y-1">
                   <p class="text-lime-accent font-bold mb-1">&lt;script type="ld+json"&gt;</p>
                   <p>"@type": "Organization",</p>
                   <p>"knowsAbout": ["SEO", "GEO"],</p>
                   <p>"subjectOf": Ontologie V2</p>
                 </div>
               </div>
-              <div class="mt-6 pt-4 border-t border-gray-800 text-[11px] text-gray-400">
+              <div class="mt-6 pt-4 border-t border-gray-800 text-xs text-gray-400">
                 Basierend auf Spezifikationen von <a href="https://groundingpage.com" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline">groundingpage.com</a>
               </div>
             </div>
@@ -414,55 +417,66 @@ const collectionSchema = {
               <!-- Features Grid -->
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
-                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm md:text-base mb-1">
                     <span class="text-lime-600 font-extrabold text-base">🧮</span>
                     Interaktive Live-Kalkulation
                   </div>
-                  <p class="text-xs text-gray-600 mb-0">
+                  <p class="text-xs md:text-sm text-gray-600 leading-relaxed mb-0">
                     Passe Teamgröße und Keyword-Volumen interaktiv an – der Rechner aktualisiert monatliche und jährliche Gesamtkosten in Echtzeit.
                   </p>
                 </div>
 
                 <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
-                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm md:text-base mb-1">
                     <span class="text-lime-600 font-extrabold text-base">📊</span>
                     Top 8 Suiten im Direktduell
                   </div>
-                  <p class="text-xs text-gray-600 mb-0">
+                  <p class="text-xs md:text-sm text-gray-600 leading-relaxed mb-0">
                     Vergleicht SE Ranking, Sistrix, Semrush, Ahrefs, Mangools, Ubersuggest, Searchmetrics/Conductor und SEORCH auf einen Blick.
                   </p>
                 </div>
 
                 <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
-                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm md:text-base mb-1">
                     <span class="text-lime-600 font-extrabold text-base">🔍</span>
                     Die große Klappmappe
                   </div>
-                  <p class="text-xs text-gray-600 mb-0">
+                  <p class="text-xs md:text-sm text-gray-600 leading-relaxed mb-0">
                     Detaillierte Datenblätter zu jedem Tool inklusive versteckter Haken, Kappungsgrenzen bei Rankings und Kundengastlinks.
                   </p>
                 </div>
 
                 <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
-                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm md:text-base mb-1">
                     <span class="text-lime-600 font-extrabold text-base">🤖</span>
                     MCP-Server & KI-Anbindung
                   </div>
-                  <p class="text-xs text-gray-600 mb-0">
+                  <p class="text-xs md:text-sm text-gray-600 leading-relaxed mb-0">
                     Enthält Infos zur direkten Anbindung von Live-Ranking-Daten via Model Context Protocol an Claude Desktop und Claude Code.
                   </p>
                 </div>
               </div>
 
               <!-- CTA Action -->
-              <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <a href={`${baseUrl}/tools/seo-tool-kostenrechner/`} class="btn-primary" title="Zum SEO-Tool Kostenrechner (2026)">
-                  <span>Zum SEO-Tool Kostenrechner</span>
-                  <span aria-hidden="true">→</span>
-                </a>
-                <span class="text-xs text-gray-500">
-                  Passender Preis-Check: <a href={`${baseUrl}/blog/se-ranking-preise/`} class="text-dark font-bold hover:text-lime-700 underline">SE Ranking Preise 2026</a> und <a href={`${baseUrl}/blog/se-ranking-test-2026/`} class="text-dark font-bold hover:text-lime-700 underline">Erfahrungsbericht</a>
-                </span>
+              <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                  <a href={`${baseUrl}/tools/seo-tool-kostenrechner/`} class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Zum SEO-Tool Kostenrechner (2026)">
+                    <span>Zum SEO-Tool Kostenrechner</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <div class="flex items-center gap-2 text-xs font-semibold text-lime-900 bg-lime-100/70 border border-lime-300 px-3.5 py-1.5 rounded-full">
+                    <span>⚡ 100 % Gratis</span>
+                    <span class="text-lime-500">•</span>
+                    <span>Live-Rechner</span>
+                    <span class="text-lime-500">•</span>
+                    <span>TCO-Vergleich 8 Suiten</span>
+                  </div>
+                </div>
+                <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                  <span class="font-semibold text-gray-700">Passende Preis-Checks:</span>
+                  <a href={`${baseUrl}/blog/se-ranking-preise/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">SE Ranking Preise 2026 →</a>
+                  <a href={`${baseUrl}/blog/se-ranking-test-2026/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Erfahrungsbericht & Test →</a>
+                </div>
               </div>
             </div>
 
@@ -489,7 +503,7 @@ const collectionSchema = {
                   </div>
                 </div>
               </div>
-              <div class="mt-4 pt-3 border-t border-gray-800 text-[11px] text-lime-400 font-semibold">
+              <div class="mt-4 pt-3 border-t border-gray-800 text-xs text-lime-400 font-semibold">
                 ✔ Ø Ersparnis: Über 3.400 € pro Jahr
               </div>
             </div>
@@ -544,29 +558,49 @@ const collectionSchema = {
                   „Ich nutze die Extension täglich bei jedem Erst-Audit im Kundengespräch. Besonders der Tab <em>Headings</em> zeigt sofort, ob Texter Zwischenüberschriften wild durcheinandergeworfen haben, und der Reiter <em>Schema</em> deckt fehlerhaftes JSON-LD in Millisekunden auf.“
                 </div>
 
-                <div class="flex flex-wrap items-center gap-4">
-                  <a href="https://detailed.com/extension/" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs md:text-sm !py-2.5 !px-5" title="Detailed SEO Extension herunterladen">
-                    <span>Detailed SEO Extension herunterladen</span>
-                    <span aria-hidden="true">↗</span>
-                  </a>
-                  <span class="text-xs text-gray-500">
-                    Kostenlos für Chrome, Firefox & Edge verfügbar.
-                  </span>
+                <!-- CTA Action -->
+                <div class="pt-2 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://detailed.com/extension/" target="_blank" rel="noopener noreferrer" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Detailed SEO Extension herunterladen">
+                      <span>Detailed SEO Extension laden</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-gray-700 bg-gray-100 border border-gray-200 px-3.5 py-1.5 rounded-full">
+                      <span>⚡ 100 % Kostenlos</span>
+                      <span class="text-gray-300">•</span>
+                      <span>Chrome & Firefox</span>
+                      <span class="text-gray-300">•</span>
+                      <span>Kein Account nötig</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Im Einsatz bei:</span>
+                    <a href="#tool-setups" class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">5-Minuten Quick-Check →</a>
+                    <a href="#tool-setups" class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">WordPress Schema-Audit →</a>
+                  </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      detailed.com/extension
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/detailed-seo-extension-praxis.webp" 
                     alt="Detailed SEO Extension im Praxis-Einsatz auf teleschmie.de" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Authentischer Praxistest: Detailed SEO Extension prüft teleschmie.de
                   </p>
                 </div>
@@ -599,34 +633,50 @@ const collectionSchema = {
                   „Regelmäßige Indexierungs-Audits sind Pflicht. Der Report <em>Seitenindexierung</em> deckt schonungslos auf, wie viele URLs Google verarbeitet hat und ob Soft-404-Fehler oder Crawling-Anomalien vorliegen. Auf teleschmie.de sind aktuell über 239 Seiten sauber im Index verankert.“
                 </div>
 
-                <div class="flex flex-wrap items-center gap-4">
-                  <a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs md:text-sm !py-2.5 !px-5" title="Google Search Console öffnen">
-                    <span>GSC öffnen</span>
-                    <span aria-hidden="true">↗</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/glossar/google-search-console/`} class="font-bold text-dark hover:text-lime-700 underline">GSC Glossar</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/google-search-console-einrichtung/`} class="font-bold text-dark hover:text-lime-700 underline">Einrichtung</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/blog/google-search-console-zustaendigkeit-umfrage/`} class="font-bold text-dark hover:text-lime-700 underline">Zuständigkeiten</a>
+                <!-- CTA Action -->
+                <div class="pt-2 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://search.google.com/search-console/" target="_blank" rel="noopener noreferrer" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Google Search Console öffnen">
+                      <span>Google Search Console öffnen</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-blue-900 bg-blue-50 border border-blue-200 px-3.5 py-1.5 rounded-full">
+                      <span>⚡ 100 % Kostenlos</span>
+                      <span class="text-blue-300">•</span>
+                      <span>Google Primärquelle</span>
+                      <span class="text-blue-300">•</span>
+                      <span>Echtzeit-Index</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Passende Leitfäden:</span>
+                    <a href={`${baseUrl}/glossar/google-search-console/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">GSC Glossar →</a>
+                    <a href={`${baseUrl}/glossar/google-search-console-einrichtung/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Einrichtung & Verifikation →</a>
+                    <a href={`${baseUrl}/blog/google-search-console-zustaendigkeit-umfrage/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Zuständigkeiten & Rollen →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      search.google.com/search-console
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/google-search-console-indexierung-teleschmiede.webp" 
                     alt="Google Search Console Seitenindexierung für teleschmie.de mit 239 indexierten Seiten" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Authentischer Praxisnachweis: 239 sauber indexierte Seiten in der GSC von teleschmie.de
                   </p>
                 </div>
@@ -659,32 +709,49 @@ const collectionSchema = {
                   „Schau nicht nur auf theoretische Labor-Scores, sondern vor allem auf die Core Web Vitals Felddaten (LCP &lt; 2.5s, INP &lt; 200ms, CLS &lt; 0.1). teleschmie.de erzielt bei Leistung, Barrierefreiheit, Best Practices und SEO jeweils die vollen 100 Punkte sowie 3/3 beim agentischen Browsing.“
                 </div>
 
-                <div class="flex flex-wrap items-center gap-4">
-                  <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs md:text-sm !py-2.5 !px-5" title="Google PageSpeed Insights öffnen">
-                    <span>PageSpeed Insights öffnen</span>
-                    <span aria-hidden="true">↗</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/blog/pagespeed-100-seo-optimierung/`} class="font-bold text-dark hover:text-lime-700 underline">PageSpeed 100 Guide</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/pagespeed/`} class="font-bold text-dark hover:text-lime-700 underline">Glossar</a>
+                <!-- CTA Action -->
+                <div class="pt-2 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Google PageSpeed Insights öffnen">
+                      <span>PageSpeed Insights öffnen</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-emerald-900 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                      <span>⚡ 100 % Kostenlos</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>CrUX 28-Tage Felddaten</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>Lighthouse 12</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Passende Leitfäden:</span>
+                    <a href={`${baseUrl}/blog/pagespeed-100-seo-optimierung/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">PageSpeed 100 Guide →</a>
+                    <a href={`${baseUrl}/glossar/pagespeed/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">PageSpeed Glossar →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      pagespeed.web.dev
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/pagespeed-insights-teleschmiede-100.webp" 
                     alt="Google PageSpeed Insights Test von teleschmie.de mit 100 von 100 Punkten in allen Kategorien" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Authentischer Test: 100/100/100/100 Punkte & 3/3 Agentisches Browsing auf teleschmie.de
                   </p>
                 </div>
@@ -717,34 +784,50 @@ const collectionSchema = {
                   „Mit dem Entity Discover Tool prüfen wir in Sekundenschnelle, ob Google eine Marke bereits als eigenständige Entität mit eindeutiger KGMID führt und mit welchem Confidence-Score sie bewertet wird. Ein unverzichtbares Werkzeug für semantisches SEO und Generative Engine Optimization.“
                 </div>
 
-                <div class="flex flex-wrap items-center gap-4">
-                  <a href="https://polisys.de/" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs md:text-sm !py-2.5 !px-5" title="poliSYS Entity Explorer starten">
-                    <span>poliSYS Explorer starten</span>
-                    <span aria-hidden="true">↗</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/blog/seopresso-podcast-maximilian-muhr/`} class="font-bold text-dark hover:text-lime-700 underline">Podcast mit Max Muhr</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/knowledge-graph/`} class="font-bold text-dark hover:text-lime-700 underline">Knowledge Graph</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/entity-seo/`} class="font-bold text-dark hover:text-lime-700 underline">Entity SEO</a>
+                <!-- CTA Action -->
+                <div class="pt-2 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://polisys.de/" target="_blank" rel="noopener noreferrer" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="poliSYS Entity Explorer starten">
+                      <span>poliSYS Explorer starten</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-indigo-900 bg-indigo-50 border border-indigo-200 px-3.5 py-1.5 rounded-full">
+                      <span>⚡ 100 % Kostenlos</span>
+                      <span class="text-indigo-300">•</span>
+                      <span>Google API Live-Query</span>
+                      <span class="text-indigo-300">•</span>
+                      <span>KGMID & Score</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Passende Leitfäden:</span>
+                    <a href={`${baseUrl}/blog/seopresso-podcast-maximilian-muhr/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Podcast mit Max Muhr →</a>
+                    <a href={`${baseUrl}/glossar/knowledge-graph/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Knowledge Graph →</a>
+                    <a href={`${baseUrl}/glossar/entity-seo/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Entity SEO →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      polisys.de
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/polisys-entity-discover-tool.webp" 
                     alt="poliSYS Entity Discover Tool zur Knowledge-Graph-Analyse von Maximilian Muhr" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     poliSYS Entity Discover Tool: Direkte Knowledge-Graph-Abfrage mit Confidence Score
                   </p>
                 </div>
@@ -777,32 +860,49 @@ const collectionSchema = {
                   „Wir haben teleschmie.de als deutschlandweites Vorzeige-Projekt auf das höchste Cloudflare-Level 5 (Agent-Native) gehoben. Mit auth.md, A2A Protocol Card, semantischem Schema Markup und RFC-8288-Link-Headern können KI-Agenten die Inhalte strukturiert erfassen.“
                 </div>
 
-                <div class="flex flex-wrap items-center gap-4">
-                  <a href="https://radar.cloudflare.com/" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs md:text-sm !py-2.5 !px-5" title="Cloudflare Radar Scan öffnen">
-                    <span>Cloudflare Radar Scan</span>
-                    <span aria-hidden="true">↗</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/blog/cloudflare-agent-readiness-scan/`} class="font-bold text-dark hover:text-lime-700 underline">Readiness Guide</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/cloudflare-agent-readiness-checklist/`} class="font-bold text-dark hover:text-lime-700 underline">Checkliste</a>
+                <!-- CTA Action -->
+                <div class="pt-2 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://radar.cloudflare.com/scan" target="_blank" rel="noopener noreferrer" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Cloudflare Radar Scan öffnen">
+                      <span>Cloudflare Radar Scan</span>
+                      <span aria-hidden="true">↗</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-orange-900 bg-orange-50 border border-orange-200 px-3.5 py-1.5 rounded-full">
+                      <span>⚡ 100 % Kostenlos</span>
+                      <span class="text-orange-300">•</span>
+                      <span>Level 1 bis 5 Check</span>
+                      <span class="text-orange-300">•</span>
+                      <span>Agent-Native</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Passende Leitfäden:</span>
+                    <a href={`${baseUrl}/blog/cloudflare-agent-readiness-scan/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Readiness Guide →</a>
+                    <a href={`${baseUrl}/glossar/cloudflare-agent-readiness-checklist/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Level 5 Checkliste →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      radar.cloudflare.com/scan
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/cloudflare-radar-agent-readiness-level-5.webp" 
                     alt="Cloudflare Radar Agent Readiness Scan für teleschmie.de mit Level 5 Agent-Native Auszeichnung" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Offizieller Radar Scan: teleschmie.de erreicht Level 5 (Agent-Native) mit Score 88
                   </p>
                 </div>
@@ -832,12 +932,14 @@ const collectionSchema = {
                 </div>
               </div>
               <div>
-                <div class="border-t border-gray-100 pt-4 flex flex-wrap items-center justify-between gap-2">
-                  <a href="https://www.bing.com/webmasters/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-dark hover:text-lime-700 inline-flex items-center gap-1">
-                    Bing Webmaster Tools <span aria-hidden="true">↗</span>
+                <div class="border-t border-gray-100 pt-4 flex flex-col gap-2.5">
+                  <a href="https://www.bing.com/webmasters/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 bg-dark text-white text-xs font-bold rounded-xl hover:bg-black transition-colors shadow-xs" title="Bing Webmaster Tools öffnen">
+                    <span>Bing Webmaster Tools</span>
+                    <span aria-hidden="true">↗</span>
                   </a>
-                  <div class="text-[11px] text-gray-500">
-                    <a href={`${baseUrl}/glossar/bing-webmastertools/`} class="hover:underline">Zum Bing-Ratgeber</a>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-1.5 items-center">
+                    <span class="font-medium text-gray-500">Ratgeber:</span>
+                    <a href={`${baseUrl}/glossar/bing-webmastertools/`} class="px-2 py-0.5 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded font-medium transition-colors">Zum Bing-Ratgeber →</a>
                   </div>
                 </div>
               </div>
@@ -863,14 +965,15 @@ const collectionSchema = {
                 </div>
               </div>
               <div>
-                <div class="border-t border-gray-100 pt-4 flex flex-wrap items-center justify-between gap-2">
-                  <a href="https://seorch.de/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-dark hover:text-lime-700 inline-flex items-center gap-1">
-                    SEORCH Schnelltest starten <span aria-hidden="true">↗</span>
+                <div class="border-t border-gray-100 pt-4 flex flex-col gap-2.5">
+                  <a href="https://seorch.de/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 bg-dark text-white text-xs font-bold rounded-xl hover:bg-black transition-colors shadow-xs" title="SEORCH Schnelltest starten">
+                    <span>SEORCH Schnelltest starten</span>
+                    <span aria-hidden="true">↗</span>
                   </a>
-                  <div class="text-[11px] text-gray-500 space-x-2">
-                    <a href={`${baseUrl}/blog/seorch-ai-geo-check/`} class="hover:underline">AI & GEO Check</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/blog/seorch-seo-tool-fanboy/`} class="hover:underline">Erfahrungsbericht</a>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-1.5 items-center">
+                    <span class="font-medium text-gray-500">Guides:</span>
+                    <a href={`${baseUrl}/blog/seorch-ai-geo-check/`} class="px-2 py-0.5 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded font-medium transition-colors">AI & GEO Check →</a>
+                    <a href={`${baseUrl}/blog/seorch-seo-tool-fanboy/`} class="px-2 py-0.5 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded font-medium transition-colors">Erfahrungsbericht →</a>
                   </div>
                 </div>
               </div>
@@ -896,12 +999,14 @@ const collectionSchema = {
                 </div>
               </div>
               <div>
-                <div class="border-t border-gray-100 pt-4 flex flex-wrap items-center justify-between gap-2">
-                  <a href="https://clarity.microsoft.com/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-dark hover:text-lime-700 inline-flex items-center gap-1">
-                    Microsoft Clarity <span aria-hidden="true">↗</span>
+                <div class="border-t border-gray-100 pt-4 flex flex-col gap-2.5">
+                  <a href="https://clarity.microsoft.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 bg-dark text-white text-xs font-bold rounded-xl hover:bg-black transition-colors shadow-xs" title="Microsoft Clarity öffnen">
+                    <span>Microsoft Clarity</span>
+                    <span aria-hidden="true">↗</span>
                   </a>
-                  <div class="text-[11px] text-gray-500">
-                    <a href={`${baseUrl}/blog/ms-clarity-session-campixx/`} class="hover:underline">Jörgs Campixx-Session zu Clarity</a>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-1.5 items-center">
+                    <span class="font-medium text-gray-500">Praxis-Vortrag:</span>
+                    <a href={`${baseUrl}/blog/ms-clarity-session-campixx/`} class="px-2 py-0.5 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded font-medium transition-colors">Jörgs Campixx-Session →</a>
                   </div>
                 </div>
               </div>
@@ -942,7 +1047,7 @@ const collectionSchema = {
         <div class="space-y-8">
           <!-- PRO TOOL 1: SE Ranking (Top Partner) -->
           <article class="bg-white border-2 border-lime-500/40 rounded-3xl p-6 md:p-10 shadow-md relative overflow-hidden">
-            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
+            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-xs uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
               ★ Jörgs Haupt-Suite & Partner-Tipp
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -966,15 +1071,15 @@ const collectionSchema = {
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">Keine Seat-Kostenfalle</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Keine unverschämten Aufpreise pro Mitarbeiter oder Kundenzugang.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Keine unverschämten Aufpreise pro Mitarbeiter oder Kundenzugang.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">SE Visible (AI Search)</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Echtzeit-Tracking von Markenzitationen in LLM-Antworten.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Echtzeit-Tracking von Markenzitationen in LLM-Antworten.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">MCP-Server Support</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Live-Ranking-Daten via Model Context Protocol direkt im KI-Editor.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Live-Ranking-Daten via Model Context Protocol direkt im KI-Editor.</p>
                   </div>
                 </div>
 
@@ -984,34 +1089,50 @@ const collectionSchema = {
                   „Ich habe über 15 Jahre lang mit Sistrix und Semrush gearbeitet. SE Ranking hat bei mir beide abgelöst, weil die Plattform extrem schnell ist, modernste KI-Features bietet und mein Budget schont, statt mich für jeden zusätzlichen Sitzplatz abzukassieren.“
                 </div>
 
-                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary" title="SE Ranking 14 Tage kostenlos testen">
-                    <span>SE Ranking 14 Tage unverbindlich testen *</span>
-                    <span aria-hidden="true">→</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/blog/se-ranking-test-2026/`} class="font-bold text-dark hover:text-lime-700 underline">Test 2026</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/blog/se-ranking-preise/`} class="font-bold text-dark hover:text-lime-700 underline">Preise & Rabatte</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/se-ranking/`} class="font-bold text-dark hover:text-lime-700 underline">Glossar</a>
+                <!-- CTA Action -->
+                <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="SE Ranking 14 Tage kostenlos testen">
+                      <span>SE Ranking 14 Tage testen *</span>
+                      <span aria-hidden="true">→</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                      <span>✔ 14 Tage Gratis</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>Keine Kreditkarte nötig</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>Sofort aktiv</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Praxis-Guides:</span>
+                    <a href={`${baseUrl}/blog/se-ranking-test-2026/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Test 2026 →</a>
+                    <a href={`${baseUrl}/blog/se-ranking-preise/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Preise & Rabatte →</a>
+                    <a href={`${baseUrl}/glossar/se-ranking/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Glossar & MCP →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      seranking.com/audit
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/se-ranking-audit-teleschmiede.webp" 
                     alt="Authentischer Praxistest: SE Ranking Website-Audit für teleschmie.de mit Health Score 99" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Authentischer Praxistest: SE Ranking Website-Audit für teleschmie.de (Health Score: 99)
                   </p>
                 </div>
@@ -1021,7 +1142,7 @@ const collectionSchema = {
 
           <!-- PRO TOOL 2: Rank Math SEO Pro (Top Partner) -->
           <article class="bg-white border-2 border-lime-500/40 rounded-3xl p-6 md:p-10 shadow-md relative overflow-hidden">
-            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
+            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-xs uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
               ★ WordPress Standard & Partner-Tipp
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -1045,15 +1166,15 @@ const collectionSchema = {
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">Mächtige Schema-Engine</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Vollständiges, verschachteltes JSON-LD Schema Markup ohne PHP-Code.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Vollständiges, verschachteltes JSON-LD Schema Markup ohne PHP-Code.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">Unbegrenzte Domains</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Im Pro-Tarif für unbegrenzte eigene Websites freigeschaltet.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Im Pro-Tarif für unbegrenzte eigene Websites freigeschaltet.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">Integrierte Redirects</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Ersetzt separate 301- und 404-Plugins und schont die Ladezeit.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Ersetzt separate 301- und 404-Plugins und schont die Ladezeit.</p>
                   </div>
                 </div>
 
@@ -1063,32 +1184,49 @@ const collectionSchema = {
                   „Wer 2026 noch teures Geld für Yoast Premium bezahlt und für Schema-Markup extra Plugins installiert, verbrennt Budget. Rank Math Pro bietet die dreifache Leistung bei einem Bruchteil der Kosten.“
                 </div>
 
-                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                  <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary" title="Rank Math Pro ansehen">
-                    <span>Rank Math Pro Rabatt-Angebot sichern *</span>
-                    <span aria-hidden="true">→</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/blog/rank-math-vs-yoast-seo/`} class="font-bold text-dark hover:text-lime-700 underline">Rank Math vs. Yoast Vergleich</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/rank-math/`} class="font-bold text-dark hover:text-lime-700 underline">Master-Glossar</a>
+                <!-- CTA Action -->
+                <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Rank Math Pro ansehen">
+                      <span>Rank Math Pro Rabatt sichern *</span>
+                      <span aria-hidden="true">→</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                      <span>✔ 30 Tage Geld-zurück</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>Unbegrenzte Domains</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>Offizielle Rabattaktion</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Praxis-Guides:</span>
+                    <a href={`${baseUrl}/blog/rank-math-vs-yoast-seo/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Rank Math vs. Yoast Vergleich →</a>
+                    <a href={`${baseUrl}/glossar/rank-math/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Master-Glossar & Setup →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      rankmath.com/pricing
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/rank-math-preise-angebote.webp" 
                     alt="Offizielle Rank Math Pro Preispläne und Rabatt-Angebote" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Offizielle Rank Math Preispläne (inkl. unbegrenzte eigene Websites)
                   </p>
                 </div>
@@ -1098,7 +1236,7 @@ const collectionSchema = {
 
           <!-- PRO TOOL 3: Rankscale (Top Partner) -->
           <article class="bg-white border-2 border-lime-500/40 rounded-3xl p-6 md:p-10 shadow-md relative overflow-hidden">
-            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
+            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-xs uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
               ★ KI & GEO Vorreiter • Partner-Tipp
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -1122,15 +1260,15 @@ const collectionSchema = {
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">17+ KI-Modelle</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Multi-Model-Tracking über führende LLMs mit Versionserkennung.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Multi-Model-Tracking über führende LLMs mit Versionserkennung.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">Share of Voice</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Misst deinen Marktanteil in KI-Antworten und Sentiment.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Misst deinen Marktanteil in KI-Antworten und Sentiment.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">DSGVO & EU-Hosting</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Europäische Server mit Enterprise-API für Berichte.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Europäische Server mit Enterprise-API für Berichte.</p>
                   </div>
                 </div>
 
@@ -1140,34 +1278,50 @@ const collectionSchema = {
                   „Wer seine Marke nicht in den Sprachmodellen verankert, existiert für eine ganze Generation von Suchenden schlichtweg nicht mehr. Rankscale zeigt dir exakt, welche Prompts du dominierst und wo deine Wettbewerber dir den Rang ablaufen.“
                 </div>
 
-                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary" title="Rankscale entdecken">
-                    <span>Rankscale jetzt testen *</span>
-                    <span aria-hidden="true">→</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passende Guides:</span>
-                    <a href={`${baseUrl}/glossar/rankscale/`} class="font-bold text-dark hover:text-lime-700 underline">Rankscale Glossar</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/blog/rankscale-ai-visibility-tool/`} class="font-bold text-dark hover:text-lime-700 underline">Testbericht</a>
-                    <span>•</span>
-                    <a href={`${baseUrl}/glossar/ai-visibility-tools/`} class="font-bold text-dark hover:text-lime-700 underline">Übersicht KI-Tools</a>
+                <!-- CTA Action -->
+                <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Rankscale entdecken">
+                      <span>Rankscale jetzt testen *</span>
+                      <span aria-hidden="true">→</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                      <span>✔ 17+ LLMs</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>EU-Hosting & DSGVO</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>GEO-Monitoring</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Praxis-Guides:</span>
+                    <a href={`${baseUrl}/glossar/rankscale/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Rankscale Glossar →</a>
+                    <a href={`${baseUrl}/blog/rankscale-ai-visibility-tool/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Testbericht & Praxiseinsatz →</a>
+                    <a href={`${baseUrl}/glossar/ai-visibility-tools/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">KI-Tools im Vergleich →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      app.rankscale.ai/audit
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/rankscale-audit-teleschmiede.webp" 
                     alt="Authentischer Praxistest: Rankscale GEO Page-Audit V2 für teleschmie.de mit 100 % Crawlability" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     Authentischer Praxistest: Rankscale GEO Page-Audit V2 für teleschmie.de (100 % Crawlability)
                   </p>
                 </div>
@@ -1178,7 +1332,7 @@ const collectionSchema = {
 
           <!-- PRO TOOL 4: tl;dv Notetaker (Top Partner) -->
           <article class="bg-white border-2 border-lime-500/40 rounded-3xl p-6 md:p-10 shadow-md relative overflow-hidden">
-            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
+            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-xs uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
               ★ KI-Notetaker & CRM-Sync • Partner-Tipp
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
@@ -1202,15 +1356,15 @@ const collectionSchema = {
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">1.000+ Schnittstellen</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Native Integrationen zu Claude, ChatGPT, HubSpot, Notion, Slack & Jira.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Native Integrationen zu Claude, ChatGPT, HubSpot, Notion, Slack & Jira.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">KI-Chat im Transkript</div>
-                    <p class="text-[11px] text-gray-600 mb-0">Stelle dem Meeting freie Fragen und springe direkt zum passenden Videoclip.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">Stelle dem Meeting freie Fragen und springe direkt zum passenden Videoclip.</p>
                   </div>
                   <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
                     <div class="font-bold text-dark text-xs mb-1">Made in Germany</div>
-                    <p class="text-[11px] text-gray-600 mb-0">100 % DSGVO-konform, SOC 2 Typ II mit EU-Server-Hosting.</p>
+                    <p class="text-xs text-gray-600 leading-snug mb-0">100 % DSGVO-konform, SOC 2 Typ II mit EU-Server-Hosting.</p>
                   </div>
                 </div>
 
@@ -1220,30 +1374,48 @@ const collectionSchema = {
                   „Ich nutze tl;dv in jeder SEO-Sprechstunde. Während ich mich voll auf die Beratung konzentriere, protokolliert die KI alles mit. Am Ende drücke ich auf Senden und die Aufgaben liegen fertig strukturiert im CRM – das spart mir jede Woche Stunden.“
                 </div>
 
-                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                  <a href="https://lnkd.in/dXS6VU-b" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary" title="tl;dv kostenlos testen mit 30 % Rabatt">
-                    <span>tl;dv mit 30 % Rabatt testen *</span>
-                    <span aria-hidden="true">→</span>
-                  </a>
-                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                    <span>Passender Guide:</span>
-                    <a href={`${baseUrl}/blog/tldv-meeting-notetaker-ki/`} class="font-bold text-dark hover:text-lime-700 underline">tl;dv Testbericht & KI-Workflow</a>
+                <!-- CTA Action -->
+                <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <a href="https://tldv.cello.so/T6T8gUGiUg2" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="tl;dv kostenlos testen mit 30 % Rabatt">
+                      <span>tl;dv mit 30 % Rabatt testen *</span>
+                      <span aria-hidden="true">→</span>
+                    </a>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-emerald-800 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                      <span>✔ Gratis Einstieg</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>30 % Partnerrabatt</span>
+                      <span class="text-emerald-300">•</span>
+                      <span>100 % DSGVO</span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                    <span class="font-semibold text-gray-700">Praxis-Guide:</span>
+                    <a href={`${baseUrl}/blog/tldv-meeting-notetaker-ki/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">tl;dv Testbericht & KI-Workflow →</a>
                   </div>
                 </div>
               </div>
 
-              <!-- Authentischer Screenshot -->
+              <!-- Authentischer Screenshot im Desktop Browser Mockup -->
               <div class="lg:col-span-5">
-                <div class="bg-gray-100 p-3 rounded-2xl border border-gray-200 shadow-inner">
+                <div class="bg-gray-900/5 p-2 md:p-3 rounded-2xl border border-gray-200/80 shadow-md">
+                  <div class="flex items-center gap-1.5 pb-2 mb-2 border-b border-gray-200/60 px-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400/80 inline-block"></span>
+                    <span class="ml-2 px-3 py-0.5 bg-white rounded-md text-xs text-gray-500 font-mono truncate border border-gray-200/60 shadow-2xs max-w-[200px] sm:max-w-xs">
+                      tldv.io/integrations
+                    </span>
+                  </div>
                   <img 
                     src="/assets/images/tools/tldv-ai-meeting-integrationen.webp" 
                     alt="tl;dv Integrationen: Claude, ChatGPT, HubSpot, Notion, Slack & automatische Meeting-Workflows" 
-                    class="w-full h-auto rounded-xl shadow-md object-cover" 
+                    class="w-full h-auto rounded-xl shadow-xs object-cover" 
                     loading="lazy"
                     width="600"
                     height="375"
                   />
-                  <p class="text-[11px] text-gray-500 text-center mt-2 mb-0 font-mono">
+                  <p class="text-xs text-gray-600 text-center font-medium mt-2.5 mb-0.5">
                     tl;dv Integrationen: Nahtlose Workflows mit Claude, ChatGPT, HubSpot & Notion
                   </p>
                 </div>
@@ -1251,65 +1423,7 @@ const collectionSchema = {
             </div>
           </article>
 
-          <!-- PRO TOOL 5: Exatics (Top Partner) -->
-          <article class="bg-white border-2 border-lime-500/40 rounded-3xl p-8 md:p-10 shadow-md relative overflow-hidden">
-            <div class="absolute top-0 right-0 bg-lime-accent text-dark font-extrabold text-[11px] uppercase tracking-wider px-4 py-1.5 rounded-bl-xl shadow-sm">
-              ★ Webanalyse & Consent-Audit • Partner-Tipp
-            </div>
-            <div class="max-w-4xl">
-              <div class="flex items-center gap-3 mb-3">
-                <span class="px-3 py-1 bg-dark text-white text-xs font-bold rounded-full uppercase tracking-wider">
-                  Tracking & Consent Management
-                </span>
-                <span class="text-xs font-semibold text-lime-700">
-                  CAMPIXX Speaker Edition
-                </span>
-              </div>
-              <h3 class="text-2xl md:text-3xl font-bold text-dark mb-4">
-                Exatics – Consent- & Tracking-Audits für Matomo und Webanalyse
-              </h3>
-              <p class="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
-                Entwickelt von CAMPIXX-Speaker und Matomo-Experte Joachim Nickel. Exatics auditiert Consent-Management-Plattformen (CMPs), deckt lückenhafte Tracking-Implementierungen auf und sorgt dafür, dass Webanalyse-Daten rechtssicher und ohne Consent-Verluste erfasst werden.
-              </p>
-
-              <!-- Highlights Grid -->
-              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                  <div class="font-bold text-dark text-sm mb-1">Consent-Management-Audit</div>
-                  <p class="text-xs text-gray-600 mb-0">Prüft, welche Tracking-Pixel vor oder nach dem Cookie-Banner tatsächlich gefeuert werden.</p>
-                </div>
-                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                  <div class="font-bold text-dark text-sm mb-1">Matomo & GTM Optimierung</div>
-                  <p class="text-xs text-gray-600 mb-0">Beseitigt Datenlöcher in Webanalyse-Setups und sichert lückenlose Kampagnenmessung.</p>
-                </div>
-                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                  <div class="font-bold text-dark text-sm mb-1">DSGVO & Abmahnschutz</div>
-                  <p class="text-xs text-gray-600 mb-0">Schützt vor kostspieligen Abmahnungen durch fehlerhafte Cookie- und Consent-Konfigurationen.</p>
-                </div>
-              </div>
-
-              <!-- Jörgs Praxistipp Box -->
-              <div class="bg-neutral-50 border-l-4 border-lime-accent p-4 rounded-r-xl mb-6 text-xs md:text-sm text-gray-700">
-                <strong class="text-dark block mb-1">💬 Jörg Zimmers Urteil:</strong>
-                „Joachim Nickel ist der Matomo- und Webanalyse-Pionier in Deutschland. Auf der CAMPIXX haben wir Exatics im Praxistest erprobt: Ohne saubere Tracking-Basis ist jedes SEO-Reporting wertlos. Exatics schließt genau diese Lücke.“
-              </div>
-
-              <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <a href="https://exatics.de/" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary" title="Exatics entdecken">
-                  <span>Exatics entdecken *</span>
-                  <span aria-hidden="true">→</span>
-                </a>
-                <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center">
-                  <span>Passende Guides:</span>
-                  <a href={`${baseUrl}/blog/ms-clarity-session-campixx/`} class="font-bold text-dark hover:text-lime-700 underline">CAMPIXX Insights</a>
-                  <span>•</span>
-                  <a href={`${baseUrl}/glossar/campixx-berlin/`} class="font-bold text-dark hover:text-lime-700 underline">CAMPIXX Berlin</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <!-- PRO TOOLS 6 & 7: Screaming Frog & Sistrix (Industriestandards) -->
+          <!-- PRO TOOLS 5 & 6: Screaming Frog & Sistrix (Industriestandards) -->
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
             <!-- Screaming Frog -->
             <article class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
@@ -1330,11 +1444,14 @@ const collectionSchema = {
                   <strong>💡 Praxis-Einsatz:</strong> Custom Extraction via XPath/Regex, Logfile-Abgleich und Validierung komplexer Redirect-Konzepte vor und nach Relaunches.
                 </div>
               </div>
-              <div class="border-t border-gray-100 pt-4 flex items-center justify-between">
-                <a href="https://www.screamingfrog.co.uk/seo-spider/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-dark hover:text-lime-700 inline-flex items-center gap-1">
-                  Screaming Frog ansehen <span aria-hidden="true">↗</span>
-                </a>
-                <span class="text-[11px] text-gray-500">Bis 500 URLs gratis</span>
+              <div class="border-t border-gray-100 pt-4 flex flex-col gap-2.5">
+                <div class="flex items-center justify-between">
+                  <a href="https://www.screamingfrog.co.uk/seo-spider/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-dark text-white text-xs font-bold rounded-xl hover:bg-black transition-colors shadow-xs" title="Screaming Frog SEO Spider herunterladen">
+                    <span>Screaming Frog ansehen</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <span class="text-xs text-gray-500 font-medium">Bis 500 URLs gratis</span>
+                </div>
               </div>
             </article>
 
@@ -1357,14 +1474,15 @@ const collectionSchema = {
                   <strong>💡 Praxis-Einsatz:</strong> Historische Domain-Vergleiche und Benchmark-Reports für Vorstände.
                 </div>
               </div>
-              <div class="border-t border-gray-100 pt-4 flex flex-wrap items-center justify-between gap-2">
-                <a href="https://www.sistrix.de/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-dark hover:text-lime-700 inline-flex items-center gap-1">
-                  Sistrix ansehen <span aria-hidden="true">↗</span>
+              <div class="border-t border-gray-100 pt-4 flex flex-col gap-2.5">
+                <a href="https://www.sistrix.de/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-dark text-white text-xs font-bold rounded-xl hover:bg-black transition-colors shadow-xs" title="Sistrix Suite ansehen">
+                  <span>Sistrix Suite ansehen</span>
+                  <span aria-hidden="true">↗</span>
                 </a>
-                <div class="text-[11px] text-gray-500 space-x-2">
-                  <a href={`${baseUrl}/blog/sistrix-vs-se-ranking/`} class="hover:underline font-medium">Sistrix vs. SE Ranking</a>
-                  <span>•</span>
-                  <a href={`${baseUrl}/glossar/sistrix-ai/`} class="hover:underline">Sistrix AI</a>
+                <div class="text-xs text-gray-600 flex flex-wrap gap-1.5 items-center">
+                  <span class="font-medium text-gray-500">Vergleiche:</span>
+                  <a href={`${baseUrl}/blog/sistrix-vs-se-ranking/`} class="px-2 py-0.5 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded font-medium transition-colors">Sistrix vs. SE Ranking →</a>
+                  <a href={`${baseUrl}/glossar/sistrix-ai/`} class="px-2 py-0.5 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded font-medium transition-colors">Sistrix AI →</a>
                 </div>
               </div>
             </article>
@@ -1521,20 +1639,20 @@ const collectionSchema = {
               <span class="text-xs font-bold text-gray-500 uppercase tracking-wider">Client-Audit Stack</span>
             </div>
             <h3 class="text-lg font-bold text-dark mb-2">
-              Kunden-Sprechstunde & Tracking-Compliance
+              Kunden-Sprechstunde & UX-Analyse
             </h3>
             <div class="flex flex-wrap gap-1.5 mb-4">
               <span class="px-2 py-0.5 bg-white border border-gray-200 rounded text-xs font-medium text-gray-700">tl;dv Notetaker</span>
               <span class="px-2 py-0.5 bg-white border border-gray-200 rounded text-xs font-medium text-gray-700">+</span>
-              <span class="px-2 py-0.5 bg-white border border-gray-200 rounded text-xs font-medium text-gray-700">Exatics</span>
+              <span class="px-2 py-0.5 bg-white border border-gray-200 rounded text-xs font-medium text-gray-700">Microsoft Clarity</span>
               <span class="px-2 py-0.5 bg-white border border-gray-200 rounded text-xs font-medium text-gray-700">+</span>
               <span class="px-2 py-0.5 bg-white border border-gray-200 rounded text-xs font-medium text-gray-700">Detailed SEO Extension</span>
             </div>
             <p class="text-xs md:text-sm text-gray-600 mb-3 leading-relaxed">
-              <strong>Vorgehen:</strong> Call via tl;dv mitschneiden, während im geteilten Tab Onpage-Strukturen mit der Detailed SEO Extension live geprüft werden. Parallel mit Joachim Nickels Exatics das Consent-Banner und feuern der Tracking-Pixel auf Datenlecks und DSGVO-Konformität testen.
+              <strong>Vorgehen:</strong> Call via tl;dv mitschneiden, während im geteilten Tab Onpage-Strukturen mit der Detailed SEO Extension live geprüft werden. Parallel mit Microsoft Clarity Heatmaps und Nutzersitzungen analysieren, um Absprunggründe direkt im Kundengespräch offenzulegen.
             </p>
             <div class="text-xs text-lime-800 bg-lime-100/60 p-2.5 rounded-lg font-medium">
-              ✔ Ziel: 100 % fokussierte Kundenberatung mit automatisierter Mitschrift und rechtssicherem Tracking.
+              ✔ Ziel: 100 % fokussierte Kundenberatung mit automatisierter Mitschrift und fundierten UX-Insights.
             </div>
           </article>
         </div>

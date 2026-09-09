@@ -7247,18 +7247,18 @@ IndexNow kehrt dieses Prinzip in ein Push-Verfahren um. Sobald ein CMS einen neu
 
 ### Implementierungs-Beispiel für den IndexNow-Request
 
-Die technische Anbindung erfordert lediglich einen statischen Textschlüssel im Stammverzeichnis der Website (z. B. `https://teleschmie.de/mein-indexnow-key.txt`) und einen POST-Request an die API:
+Die technische Anbindung erfordert lediglich einen statischen Textschlüssel im Stammverzeichnis der Website (z. B. `https://[deine-domain.de]/[dein-key].txt`) und einen POST-Request an die API:
 
 ```bash
 curl -X POST "https://api.indexnow.org/indexnow" \
      -H "Content-Type: application/json; charset=utf-8" \
      -d '{
-       "host": "teleschmie.de",
+       "host": "[deine-domain.de]",
        "key": "4a7b9c1d8e2f0a5b6c7d8e9f",
-       "keyLocation": "https://teleschmie.de/4a7b9c1d8e2f0a5b6c7d8e9f.txt",
+       "keyLocation": "https://[deine-domain.de]/4a7b9c1d8e2f0a5b6c7d8e9f.txt",
        "urlList": [
-         "https://teleschmie.de/blog/neuer-artikel/",
-         "https://teleschmie.de/glossar/technischer-begriff/"
+         "https://[deine-domain.de]/blog/neuer-artikel/",
+         "https://[deine-domain.de]/seite/technischer-begriff/"
        ]
      }'
 ```

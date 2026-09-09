@@ -38,7 +38,7 @@ faqs:
   👉 damit automatisch Notizen ans CRM und ins Projektmanagement Tool</p>
   <p>Er kann die Aufgabenpunkte, nächste Schritte und alles Gesprochene in jeder Sprache super zusammenfassen und direkt in angeschlossene Systeme liefern. Außerdem kannst du danach mit den Transkripten chatten. Was für eine Arbeitsersparniss.</p>
   <p>Es gibt sogar eine kostenlose Grundversion:<br>
-  <a href="https://lnkd.in/dXS6VU-b" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">tl;dv Notetaker kostenlos testen (Partnerlink)</a><br>
+  <a href="https://tldv.cello.so/T6T8gUGiUg2" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">tl;dv Notetaker kostenlos testen (Partnerlink)</a><br>
   Mit meinem PartnerLink gibt es bei Bedarf 30% Rabatt in den ersten 6 Monaten.</p>
   <p>Ich mag dl;tv wirklich. Die sind echt innovativ. DSGVO-konform mit SOC 2 Zertifizierung.</p>
   <p>Welchen Notetaker nimmst du und warum?</p>
@@ -117,7 +117,7 @@ Aus einem dreistündigen Kunden-Workshop vollautomatisch ein didaktisch aufberei
 Wenn du deine Kunden-Meetings auf das nächste Professionalitäts-Level heben möchtest:
 
 - **Starte mit der Gratisversion**: Teste tl;dv in deinen nächsten internen oder externen Calls unverbindlich aus.
-- **Nutze den Partnervorteil**: Über den Partnerlink <a href="https://lnkd.in/dXS6VU-b" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">tl;dv Notetaker (30% Rabatt)</a> sicherst du dir 30 % Nachlass für die ersten sechs Monate der Pro-Version.
+- **Nutze den Partnervorteil**: Über den Partnerlink <a href="https://tldv.cello.so/T6T8gUGiUg2" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">tl;dv Notetaker (30% Rabatt)</a> sicherst du dir 30 % Nachlass für die ersten sechs Monate der Pro-Version.
 - **Richte Schnittstellen ein**: Verbinde tl;dv direkt mit deinem CRM (z. B. HubSpot oder Pipedrive) und deinem Slack-Kanal, um manuelle Übergaben komplett abzulösen.
 - **Strategisches Feedback einholen**: Wenn du wissen willst, wie du moderne Workflows in deine Prozesse integrierst, kannst du eine [SEO Beratung buchen](/seo-sprechstunde/).
 

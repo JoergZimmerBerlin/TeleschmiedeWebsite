@@ -137,7 +137,7 @@ Auch in Entwicklerteams löste der Scan sofortige Experimente aus, wie Aleksanda
 
 Wenn du deine Website schrittweise für KI-Crawler optimieren möchtest:
 
-- **Eigene Domain scannen**: Führe den kostenlosen Cloudflare Agent Readiness Scan durch und prüfe, auf welchem Level deine Website aktuell steht.
+- **Eigene Domain scannen**: Führe den kostenlosen <a href="https://radar.cloudflare.com/scan" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">Cloudflare Agent Readiness Scan</a> durch und prüfe, auf welchem Level deine Website aktuell steht.
 - **Firewall und WAF prüfen**: Stelle sicher, dass gängige KI-Crawler nicht durch generische IP-Reputationsregeln geblockt werden.
 - **Markdown-Fallback einrichten**: Implementiere Content Negotiation, damit Agenten über den Header `Accept: text/markdown` sauberen Text anfordern können.
 - **Strategische Beratung**: Möchtest du deine Domain gezielt auf generative Suchmaschinen vorbereiten? Dann kannst du eine fundierte [SEO Beratung anfragen](/seo-sprechstunde/).

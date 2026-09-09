@@ -150,12 +150,12 @@ function runAudit(filePath, type) {
             logSuccess("Keine zusätzlichen Bilder im Fließtext (nur Hero-Thumbnail).");
         }
 
-        // Check Word Count (must be between 1000 and 1500)
+        // Check Word Count (mindestens 1.000 Wörter für fundierte Tiefe, gerne auch 2.000 - 3.000 Wörter)
         const wordCount = body.split(/\s+/).filter(w => w.length > 0).length;
-        if (wordCount < 1000 || wordCount > 1500) {
-            console.warn(`   ⚠️ WARNUNG: Glossar-Artikel entspricht nicht dem Längen-Standard für NEUE Artikel! Hat ${wordCount} Wörter (Ziel: 1.000 - 1.500). Wird für bestehende Artikel toleriert.`);
+        if (wordCount < 1000) {
+            console.warn(`   ⚠️ WARNUNG: Glossar-Artikel ist relativ kurz (${wordCount} Wörter, empfohlen: mind. 1.000 Wörter).`);
         } else {
-            logSuccess(`Glossar-Artikel hat perfekte Wortzahl (${wordCount} Wörter).`);
+            logSuccess(`Glossar-Artikel hat eine hervorragende Tiefe & Wortzahl (${wordCount} Wörter).`);
         }
     }
 

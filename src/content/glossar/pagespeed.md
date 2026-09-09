@@ -82,6 +82,18 @@ Google bewertet PageSpeed nicht anhand theoretischer Labormessungen (Lighthouse)
 
 Während LCP und CLS die visuelle Ladephase definieren, misst der INP die fortlaufende Reaktionsfähigkeit während der gesamten Sitzung. Ein Klick auf ein Akkordeon-Menü oder einen Warenkorb-Button muss innerhalb eines Wimpernschlags visuelles Feedback liefern.
 
+### Der 100-Punkte-Beweis: Perfekte Core Web Vitals und CrUX-Felddaten in Google PageSpeed Insights
+
+Dass exzellente PageSpeed-Werte keine Utopie sind, belegt die reale Messung unserer Domain `teleschmie.de` im offiziellen Google-Tool:
+
+![Authentischer Praxistest: Google PageSpeed Insights erzielt 100 von 100 Punkten in allen vier Kategorien für teleschmie.de](/assets/images/tools/pagespeed-insights-teleschmiede-100.webp)
+
+Der Screenshot verdeutlicht das Zusammenspiel moderner Architektur-Bausteine:
+- **100 % Leistung (Performance):** Minimaler LCP von unter 0,8 Sekunden dank statischer Vorkompilierung und bildoptimierter WebP-Assets.
+- **100 % Barrierefreiheit (Accessibility):** Klare Kontraste, ARIA-Labels und durchdachte Navigationsstrukturen, die sowohl Menschen mit Einschränkungen als auch Screenreadern und KI-Bots zugutekommen.
+- **100 % Best Practices:** Aktuelle Webstandards, sichere HTTPS-Verschlüsselung und saubere Ressourcen-Einbindung ohne veraltete JavaScript-Bibliotheken.
+- **100 % SEO:** Korrekt implementierte Metadaten, strukturierte JSON-LD-Daten und fehlerfreie Canonical-Verweise.
+
 ## 2. TTFB und Edge-Architektur: Das Fundament für RAG-Crawler
 
 Bevor ein Browser überhaupt mit dem Rendering beginnen kann, muss der Server das HTML ausliefern. Die Time to First Byte (TTFB) ist der primäre Indikator für Backend-Gesundheit. Für generative Antwortmaschinen ist sie das absolute Ausschlusskriterium.

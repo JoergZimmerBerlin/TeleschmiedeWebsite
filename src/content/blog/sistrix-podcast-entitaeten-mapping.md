@@ -40,6 +40,19 @@ Während sich viele Marketer noch immer an statischen Keyword-Dichten festklamme
 
 ![Entitäten Mapping & Knowledge Graph](../../assets/images/blog/sistrix-knowledge-graph-entitaeten-3d.webp)
 
+### Praxis-Check mit poliSYS: Maschinelle Identität und Google KGMID live auslesen
+
+Wie sieht die Abfrage des Google Knowledge Graph in der Realität aus? Mit dem kostenlosen Entity Discover Tool von Maximilian Muhr lässt sich sekundenschnell prüfen, ob eine Personenmarke oder ein Unternehmen von Google als vollwertige Entität anerkannt ist:
+
+![Praxis-Check: poliSYS Entity Discover Tool fragt die Google Knowledge Graph Search API ab](/assets/images/tools/polisys-entity-discover-tool.webp)
+
+Der Screenshot verdeutlicht die entscheidenden Messwerte:
+- **Eindeutige Maschinen-ID (KGMID):** Google weist jeder verifizierten Entität einen dauerhaften Identifier (wie `/g/...` oder `/m/...`) zu. Dies ist der Beweis, dass die Suchmaschine die Marke nicht nur als flüchtige Textzeichenfolge (String), sondern als festen Wissensknoten (Thing) führt.
+- **Confidence Score (Result Score):** Gibt an, wie stark die algorithmische Zuversicht der Knowledge Graph Search API ist, dass die gefundene Entität exakt mit der Suchanfrage übereinstimmt.
+- **Typisierung (`@type`):** Verifiziert, ob die semantische Einordnung (z. B. `Person`, `Organization`, `LocalBusiness`) mit den Angaben im eigenen Schema-Markup übereinstimmt.
+
+Wer seine Entität im Knowledge Graph systematisch festigen möchte, findet auf unserem Tools-Praxis-Hub alle passenden Generatoren und Prüfwerkzeuge.
+
 ### Vergleich: Klassisches Keyword-SEO vs. Semantisches Entitäten-Mapping
 
 | Kriterium | Klassisches Keyword-SEO | Modernes Entitäten-Mapping |

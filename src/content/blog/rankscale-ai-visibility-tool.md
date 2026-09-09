@@ -47,6 +47,17 @@ Die Kernarchitektur überzeugt durch klare Struktur und durchdachte Features:
 | **Wettbewerbsradar** | Wer wird statt deiner Marke empfohlen? | Aufdecken von Content- und Entity-Lücken |
 | **Historischer Trend** | Entwicklung über Wochen und Monate | ROI-Nachweis für Content-Investitionen |
 
+### Das Rankscale Page-Audit V2: 100 % KI-Crawlability und LLM-Readiness auf dem Prüfstand
+
+Neben dem laufenden Prompt-Monitoring bietet Rankscale mit dem integrierten **Page-Audit V2** einen spezialisierten Crawler, der Webseiten gezielt aus der Perspektive generativer Sprachmodelle analysiert. Im Gegensatz zu klassischen SEO-Crawlern prüft das Tool, ob der Content für LLMs maschinell verdaubar aufbereitet ist:
+
+![Authentischer Praxistest: Rankscale GEO Page-Audit V2 für teleschmie.de mit 100 % Crawlability](/assets/images/tools/rankscale-audit-teleschmiede.webp)
+
+Die Auswertung unserer eigenen Domain `teleschmie.de` belegt die zentralen Faktoren für maximale KI-Akzeptanz:
+- **100 % Crawlability für KI-Bots:** Keine Blockaden durch restriktive Web Application Firewalls (WAF) oder fehlerhafte Header.
+- **Semantische Inhaltsstruktur:** Klare semantische Hierarchien, Tabellen und prägnante Definitionssätze, die LLMs als direkte Zitationsquelle nutzen können.
+- **Strukturiertes Schema Markup:** Verschachteltes JSON-LD, das Fakten, Autoren und Entitäten maschinenlesbar verankert.
+
 ### Der Sentiment-Check: Warum Tonalität über den Lead entscheidet
 
 Das für mich wertvollste Alleinstellungsmerkmal ist die automatisierte Sentiment-Erfassung. Es genügt heute nicht mehr, dass eine KI deinen Firmennamen beiläufig erwähnt. Entscheidend ist das **Wie**:

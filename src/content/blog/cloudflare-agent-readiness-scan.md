@@ -71,7 +71,21 @@ Die folgende Matrix zeigt die Kriterien und die strategische Bedeutung der einze
 | **Level 4** | `/.well-known/llms.txt` | Deep-Research-Agenten | Strukturiertes Inhaltsverzeichnis aller Domain-Werte |
 | **Level 5** | A2A Protocol & `agent-card.json` | Autonome Transaktions-Bots | Ermöglicht direkte Buchungen & API-Calls via Chat |
 
-Wie eine Website aussieht, die all diese Kriterien von Grund auf erfüllt, habe ich im Praxisbericht [KI-Website Leuchtturm](/blog/ki-website-leuchtturm/) detailliert dokumentiert. Vertiefende Definitionen findest du im [AI Readiness Leitfaden](/glossar/ai-readiness/).
+Wie eine Website aussieht, die all diese Kriterien von Grund auf erfüllt, habe ich im Praxisbericht [KI-Website Leuchtturm](/blog/ki-website-leuchtturm/) detailliert dokumentiert. Vertiefende Definitionen findest du im KI-Readiness-Leitfaden.
+
+## Authentischer Scan-Nachweis: Wie teleschmie.de den Cloudflare Radar Level-5-Score erreicht
+
+Theorie ist wertvoll, handfeste Praxis auf dem eigenen Webserver ist unschlagbar. Während viele Analysen im Web nur hypothetische Empfehlungen abgeben, haben wir die technische Architektur von `teleschmie.de` konsequent nach den strengen Cloudflare-Vorgaben ausgerichtet. Das Ergebnis des offiziellen Cloudflare Radar Scans belegt den maximalen Reifegrad:
+
+![Authentischer Praxistest: Cloudflare Radar Scan bestätigt Level 5 Agent Readiness für teleschmie.de](/assets/images/tools/cloudflare-radar-agent-readiness-level-5.webp)
+
+### Die 5 Prüfpunkte des Live-Scans im Detail
+
+1. **Content Accessibility (Level 3):** Sobald ein Bot wie Claude oder GPTBot den Header `Accept: text/markdown` mitsendet, liefert der Webserver nicht das gerenderte HTML-Gerüst, sondern schlanken, semantischen Markdown-Code aus. Dies spart bis zu 80 % der Token-Kosten und eliminiert Parsingfehler.
+2. **RFC 8288 Link Headers:** Über den HTTP-Response-Header `<https://teleschmie.de/.../index.md>; rel="alternate"; type="text/markdown"` erfährt jeder Web-Crawler sofort, dass eine maschinengerechte Repräsentation existiert.
+3. **llms.txt & llms-full.txt Discovery (Level 4):** Unter `/.well-known/llms.txt` steht ein kuratiertes Inhaltsverzeichnis aller Kernleistungen, Leitfäden und Glossare bereit.
+4. **Agent-to-Agent Protokoll (A2A) & agent-card.json (Level 5):** Die Domain stellt eine standardisierte `agent-card.json` bereit, über die autonome Coding-Agenten und KI-Assistenten die Fähigkeiten des Systems maschinell abrufen können.
+5. **Authentifizierungs-Dokumentation (auth.md):** Klare maschinenlesbare Vorgaben, wie KI-Agenten mit geschützten Schnittstellen und Endpunkten interagieren dürfen. Wie du diese Tools in deinen täglichen Workflow einbindest, erfährst du auf unserem [Tools-Praxis-Hub](/tools/).
 
 ## Die Community stellt klar: Zugänglichkeit ist nicht gleich Sichtbarkeit
 

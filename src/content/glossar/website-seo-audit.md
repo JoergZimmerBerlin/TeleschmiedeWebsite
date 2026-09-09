@@ -193,6 +193,21 @@ Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports
   </div>
 </div>
 
+## Ad-hoc Onpage-Audit im Browser-Tab: Detailed SEO Extension als unverzichtbares Schnellprüf-Tool
+
+Während cloudbasierte Suiten wie SE Ranking für den großflächigen Domain-Crawl zuständig sind, erfordert der Beratungsalltag vor allem eines: **Sekundenschnelle Ad-hoc-Analysen im laufenden Browser-Tab**. Wenn ein Kunde im Call eine spezifische Landingpage nennt, öffnet man nicht erst ein 30-minütiges Audit-Projekt, sondern prüft die Onpage-Hygiene unmittelbar vor Ort.
+
+Hierfür ist die kostenlose **Detailed SEO Extension** von Glen Allsopp mein täglicher Begleiter:
+
+![Authentischer Praxistest: Detailed SEO Extension prüft Onpage-Parameter auf teleschmie.de](/assets/images/tools/detailed-seo-extension-praxis.webp)
+
+Mit einem einzigen Klick liefert das Tool die wichtigsten Onpage-Fakten ohne Ladezeit:
+- **Title & Meta Description:** Zeichenlänge, Pixelbreite und Prüfung auf fehlende Snippet-Angaben.
+- **Kanonische URL & Indexierbarkeit:** Zeigt sofort, ob das Canonical-Tag selbstreferenzierend ist und ob Robots-Meta-Tags auf `noindex` stehen.
+- **Überschriften-Hierarchie (H1–H6):** Vollständige visuelle Baumstruktur zur Aufdeckung doppelter H1-Tags oder fehlerhafter Verschachtelungen.
+- **Wortanzahl & Sprachauszeichnung:** Ermittelt den Netto-Textumfang und das gesetzte HTML-Lang-Attribut.
+- **Strukturiertes Schema Markup:** Direkter Absprung zu Schema-Validatoren für JSON-LD-Überprüfungen.
+
 ## Ohne Audit kein SEO-Wachstum
 
 Ein Website SEO Audit mit SE Ranking ist absolut essenziell, um im kompetitiven Markt zu überleben. Wenn Ladezeiten schlecht sind oder intern blockiert wird, verschenkst du wertvollen Traffic. 

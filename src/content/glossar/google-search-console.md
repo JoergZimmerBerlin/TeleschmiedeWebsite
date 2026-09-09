@@ -82,6 +82,10 @@ Hier findest du die reinen First-Party-Metriken: Tatsächliche Suchanfragen, Imp
 
 Google unterscheidet strikt zwischen „Gecrawlt – zurzeit nicht indexiert“ und „Gefunden – zurzeit nicht indexiert“. Dieser Bericht deckt auf, ob deine XML-Sitemap korrekt verarbeitet wird, ob Canonical-Tags greifen oder ob minderwertiger Thin Content vom Algorithmus aussortiert wird.
 
+![Authentischer Praxistest: Google Search Console Indexierungs-Status für teleschmie.de ohne technische Ausschlüsse](/assets/images/tools/google-search-console-indexierung-teleschmiede.webp)
+
+Im Praxiseinsatz auf `teleschmie.de` zeigt der Indexierungsbericht die Idealform einer gesunden technischen Architektur: Alle qualifizierten Seiten befinden sich im grünen Status *Indexiert*, während veraltete Routen ohne 404-Fehler sauber per 301 weitergeleitet werden. So wird kein wertvolles Crawl-Budget an Sackgassen verschwendet.
+
 ### 3. Core Web Vitals und Page Experience
 
 Basierend auf echten Nutzerdaten aus dem Chrome User Experience Report (CrUX) misst Google Ladezeiten (LCP), Interaktivität (INP) und visuelle Stabilität (CLS). Grüne Ampeln in diesem Bericht sind fundamentale [Rankingfaktoren](/glossar/rankingfaktoren/).

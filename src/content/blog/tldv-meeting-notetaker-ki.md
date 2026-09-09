@@ -73,6 +73,18 @@ Die Gegenüberstellung verdeutlicht den massiven Effizienzgewinn im Agenturallta
 | **Wiederauffindbarkeit** | Mühsames Suchen in Textdokumenten | Semantische Volltextsuche & KI-Chat |
 | **Datenschutz & Compliance** | Oft unsichere Cloud-Notizen | DSGVO-konform, SOC 2 Typ II zertifiziert |
 
+## Das Integrations-Ökosystem: Von der Video-Aufzeichnung direkt in Claude, ChatGPT, HubSpot & Notion
+
+Was tl;dv von simplen Transkriptions-Tools unterscheidet, ist die nahtlose Einbindung in bestehende Software-Stacks. Die Software fungiert nicht als Datensilo, sondern als zentraler Hub für das gesamte Unternehmenswissen:
+
+![tl;dv Integrationen: Nahtlose Workflows mit Claude, ChatGPT, HubSpot, Notion und über 1.000 weiteren Tools](/assets/images/tools/tldv-ai-meeting-integrationen.webp)
+
+### Die 3 Kernvorteile der Schnittstellen-Architektur
+
+1. **Direkte KI-Schnittstellen (Claude & ChatGPT):** Über standardisierte APIs und Webhooks können Transkripte und strukturierte Stichpunkte direkt an eigene LLM-Agenten übergeben werden, um individuelle Projektberichte oder Kunden-Mails vorzuformulieren.
+2. **Automatischer CRM-Abgleich (HubSpot & Salesforce):** Vereinbarte Budgets, Entscheider-Stimmen und Deadlines werden automatisch dem passenden Lead oder Kundenkontakt zugeordnet – ohne dass ein Berater manuell Felder ausfüllen muss.
+3. **Wissensmanagement in Notion & Slack:** Projektteams erhalten unmittelbar nach dem Call eine komprimierte Zusammenfassung im zuständigen Slack-Kanal sowie ein strukturiertes Dokument in der Notion-Team-Datenbank.
+
 ## Community-Stimmen: Smarte Anwendungsfälle aus der Praxis
 
 Wie vielseitig dieser Ansatz in der Praxis ist, zeigt die LinkedIn-Diskussion. Antonio Blago demonstrierte einen kreativen Workflow, der weit über reine Meeting-Notizen hinausgeht:

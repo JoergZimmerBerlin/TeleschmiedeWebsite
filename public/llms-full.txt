@@ -7254,8 +7254,8 @@ curl -X POST "https://api.indexnow.org/indexnow" \
      -H "Content-Type: application/json; charset=utf-8" \
      -d '{
        "host": "[deine-domain.de]",
-       "key": "4a7b9c1d8e2f0a5b6c7d8e9f",
-       "keyLocation": "https://[deine-domain.de]/4a7b9c1d8e2f0a5b6c7d8e9f.txt",
+       "key": "[dein-indexnow-schluessel]",
+       "keyLocation": "https://[deine-domain.de]/[dein-indexnow-schluessel].txt",
        "urlList": [
          "https://[deine-domain.de]/blog/neuer-artikel/",
          "https://[deine-domain.de]/seite/technischer-begriff/"
@@ -15727,6 +15727,10 @@ Hier findest du die reinen First-Party-Metriken: Tatsächliche Suchanfragen, Imp
 
 Google unterscheidet strikt zwischen „Gecrawlt – zurzeit nicht indexiert“ und „Gefunden – zurzeit nicht indexiert“. Dieser Bericht deckt auf, ob deine XML-Sitemap korrekt verarbeitet wird, ob Canonical-Tags greifen oder ob minderwertiger Thin Content vom Algorithmus aussortiert wird.
 
+![Authentischer Praxistest: Google Search Console Indexierungs-Status für teleschmie.de ohne technische Ausschlüsse](https://teleschmie.de/assets/images/tools/google-search-console-indexierung-teleschmiede.webp)
+
+Im Praxiseinsatz auf `teleschmie.de` zeigt der Indexierungsbericht die Idealform einer gesunden technischen Architektur: Alle qualifizierten Seiten befinden sich im grünen Status *Indexiert*, während veraltete Routen ohne 404-Fehler sauber per 301 weitergeleitet werden. So wird kein wertvolles Crawl-Budget an Sackgassen verschwendet.
+
 ### 3. Core Web Vitals und Page Experience
 
 Basierend auf echten Nutzerdaten aus dem Chrome User Experience Report (CrUX) misst Google Ladezeiten (LCP), Interaktivität (INP) und visuelle Stabilität (CLS). Grüne Ampeln in diesem Bericht sind fundamentale [Rankingfaktoren](https://teleschmie.de/glossar/rankingfaktoren/).
@@ -24113,6 +24117,18 @@ Google bewertet PageSpeed nicht anhand theoretischer Labormessungen (Lighthouse)
 | **TTFB** | Time to First Byte | **≤ 800 Millisekunden** | Server-Antwortzeit bis zum Empfang des ersten Datenpakets |
 
 Während LCP und CLS die visuelle Ladephase definieren, misst der INP die fortlaufende Reaktionsfähigkeit während der gesamten Sitzung. Ein Klick auf ein Akkordeon-Menü oder einen Warenkorb-Button muss innerhalb eines Wimpernschlags visuelles Feedback liefern.
+
+### Der 100-Punkte-Beweis: Perfekte Core Web Vitals und CrUX-Felddaten in Google PageSpeed Insights
+
+Dass exzellente PageSpeed-Werte keine Utopie sind, belegt die reale Messung unserer Domain `teleschmie.de` im offiziellen Google-Tool:
+
+![Authentischer Praxistest: Google PageSpeed Insights erzielt 100 von 100 Punkten in allen vier Kategorien für teleschmie.de](https://teleschmie.de/assets/images/tools/pagespeed-insights-teleschmiede-100.webp)
+
+Der Screenshot verdeutlicht das Zusammenspiel moderner Architektur-Bausteine:
+- **100 % Leistung (Performance):** Minimaler LCP von unter 0,8 Sekunden dank statischer Vorkompilierung und bildoptimierter WebP-Assets.
+- **100 % Barrierefreiheit (Accessibility):** Klare Kontraste, ARIA-Labels und durchdachte Navigationsstrukturen, die sowohl Menschen mit Einschränkungen als auch Screenreadern und KI-Bots zugutekommen.
+- **100 % Best Practices:** Aktuelle Webstandards, sichere HTTPS-Verschlüsselung und saubere Ressourcen-Einbindung ohne veraltete JavaScript-Bibliotheken.
+- **100 % SEO:** Korrekt implementierte Metadaten, strukturierte JSON-LD-Daten und fehlerfreie Canonical-Verweise.
 
 ## 2. TTFB und Edge-Architektur: Das Fundament für RAG-Crawler
 
@@ -34494,6 +34510,21 @@ Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports
   
 
 
+## Ad-hoc Onpage-Audit im Browser-Tab: Detailed SEO Extension als unverzichtbares Schnellprüf-Tool
+
+Während cloudbasierte Suiten wie SE Ranking für den großflächigen Domain-Crawl zuständig sind, erfordert der Beratungsalltag vor allem eines: **Sekundenschnelle Ad-hoc-Analysen im laufenden Browser-Tab**. Wenn ein Kunde im Call eine spezifische Landingpage nennt, öffnet man nicht erst ein 30-minütiges Audit-Projekt, sondern prüft die Onpage-Hygiene unmittelbar vor Ort.
+
+Hierfür ist die kostenlose **Detailed SEO Extension** von Glen Allsopp mein täglicher Begleiter:
+
+![Authentischer Praxistest: Detailed SEO Extension prüft Onpage-Parameter auf teleschmie.de](https://teleschmie.de/assets/images/tools/detailed-seo-extension-praxis.webp)
+
+Mit einem einzigen Klick liefert das Tool die wichtigsten Onpage-Fakten ohne Ladezeit:
+- **Title & Meta Description:** Zeichenlänge, Pixelbreite und Prüfung auf fehlende Snippet-Angaben.
+- **Kanonische URL & Indexierbarkeit:** Zeigt sofort, ob das Canonical-Tag selbstreferenzierend ist und ob Robots-Meta-Tags auf `noindex` stehen.
+- **Überschriften-Hierarchie (H1–H6):** Vollständige visuelle Baumstruktur zur Aufdeckung doppelter H1-Tags oder fehlerhafter Verschachtelungen.
+- **Wortanzahl & Sprachauszeichnung:** Ermittelt den Netto-Textumfang und das gesetzte HTML-Lang-Attribut.
+- **Strukturiertes Schema Markup:** Direkter Absprung zu Schema-Validatoren für JSON-LD-Überprüfungen.
+
 ## Ohne Audit kein SEO-Wachstum
 
 Ein Website SEO Audit mit SE Ranking ist absolut essenziell, um im kompetitiven Markt zu überleben. Wenn Ladezeiten schlecht sind oder intern blockiert wird, verschenkst du wertvollen Traffic. 
@@ -36720,6 +36751,18 @@ Die Gegenüberstellung verdeutlicht den massiven Effizienzgewinn im Agenturallta
 | **Wiederauffindbarkeit** | Mühsames Suchen in Textdokumenten | Semantische Volltextsuche & KI-Chat |
 | **Datenschutz & Compliance** | Oft unsichere Cloud-Notizen | DSGVO-konform, SOC 2 Typ II zertifiziert |
 
+## Das Integrations-Ökosystem: Von der Video-Aufzeichnung direkt in Claude, ChatGPT, HubSpot & Notion
+
+Was tl;dv von simplen Transkriptions-Tools unterscheidet, ist die nahtlose Einbindung in bestehende Software-Stacks. Die Software fungiert nicht als Datensilo, sondern als zentraler Hub für das gesamte Unternehmenswissen:
+
+![tl;dv Integrationen: Nahtlose Workflows mit Claude, ChatGPT, HubSpot, Notion und über 1.000 weiteren Tools](https://teleschmie.de/assets/images/tools/tldv-ai-meeting-integrationen.webp)
+
+### Die 3 Kernvorteile der Schnittstellen-Architektur
+
+1. **Direkte KI-Schnittstellen (Claude & ChatGPT):** Über standardisierte APIs und Webhooks können Transkripte und strukturierte Stichpunkte direkt an eigene LLM-Agenten übergeben werden, um individuelle Projektberichte oder Kunden-Mails vorzuformulieren.
+2. **Automatischer CRM-Abgleich (HubSpot & Salesforce):** Vereinbarte Budgets, Entscheider-Stimmen und Deadlines werden automatisch dem passenden Lead oder Kundenkontakt zugeordnet – ohne dass ein Berater manuell Felder ausfüllen muss.
+3. **Wissensmanagement in Notion & Slack:** Projektteams erhalten unmittelbar nach dem Call eine komprimierte Zusammenfassung im zuständigen Slack-Kanal sowie ein strukturiertes Dokument in der Notion-Team-Datenbank.
+
 ## Community-Stimmen: Smarte Anwendungsfälle aus der Praxis
 
 Wie vielseitig dieser Ansatz in der Praxis ist, zeigt die LinkedIn-Diskussion. Antonio Blago demonstrierte einen kreativen Workflow, der weit über reine Meeting-Notizen hinausgeht:
@@ -37059,6 +37102,19 @@ Während sich viele Marketer noch immer an statischen Keyword-Dichten festklamme
 6. **Modellübergreifende Datenbanken:** Nicht nur Google, sondern auch Bing, ChatGPT und Perplexity nutzen relationale Wissensgraphen, um Antworten mit verifizierten Fakten abzugleichen.
 
 ![Entitäten Mapping & Knowledge Graph](https://teleschmie.de/assets/images/blog/sistrix-knowledge-graph-entitaeten-3d.webp)
+
+### Praxis-Check mit poliSYS: Maschinelle Identität und Google KGMID live auslesen
+
+Wie sieht die Abfrage des Google Knowledge Graph in der Realität aus? Mit dem kostenlosen Entity Discover Tool von Maximilian Muhr lässt sich sekundenschnell prüfen, ob eine Personenmarke oder ein Unternehmen von Google als vollwertige Entität anerkannt ist:
+
+![Praxis-Check: poliSYS Entity Discover Tool fragt die Google Knowledge Graph Search API ab](https://teleschmie.de/assets/images/tools/polisys-entity-discover-tool.webp)
+
+Der Screenshot verdeutlicht die entscheidenden Messwerte:
+- **Eindeutige Maschinen-ID (KGMID):** Google weist jeder verifizierten Entität einen dauerhaften Identifier (wie `/g/...` oder `/m/...`) zu. Dies ist der Beweis, dass die Suchmaschine die Marke nicht nur als flüchtige Textzeichenfolge (String), sondern als festen Wissensknoten (Thing) führt.
+- **Confidence Score (Result Score):** Gibt an, wie stark die algorithmische Zuversicht der Knowledge Graph Search API ist, dass die gefundene Entität exakt mit der Suchanfrage übereinstimmt.
+- **Typisierung (`@type`):** Verifiziert, ob die semantische Einordnung (z. B. `Person`, `Organization`, `LocalBusiness`) mit den Angaben im eigenen Schema-Markup übereinstimmt.
+
+Wer seine Entität im Knowledge Graph systematisch festigen möchte, findet auf unserem Tools-Praxis-Hub alle passenden Generatoren und Prüfwerkzeuge.
 
 ### Vergleich: Klassisches Keyword-SEO vs. Semantisches Entitäten-Mapping
 
@@ -38708,7 +38764,11 @@ Fangen wir mit dem Tool an, das mir in den letzten Monaten wahrscheinlich die me
 
 In Zeiten, in denen KI-Agenten und LLMs immer häufiger in den Code eingreifen und Web-Entwickler teilweise ganze Code-Blöcke von KIs schreiben lassen, schleichen sich rasant Fehler ein. Bei einem meiner Kunden, einer großen Plattform für Video-Coding, haben wir ständig das Problem, dass durch automatisierte Prozesse oder flüchtige Agenten-Programmierung plötzlich Canonical-Tags zerschossen werden oder Weiterleitungsketten entstehen.
 
-Hier spielt das Website Audit von SE Ranking seine ganze Stärke aus. Ich schätze besonders die **automatische Überwachung**. Ich habe den Crawler so eingestellt, dass er die Video-Coding-Website jede Woche vollautomatisch scannt. Sobald ein Agent mal wieder etwas Falsches programmiert hat, das sich negativ auf die Indexierbarkeit (Two-Wave Indexing) auswirkt, bekomme ich sofort einen detaillierten Report. Das Tool kategorisiert die Fehler streng nach Schweregrad (Rot = Kritisch, Gelb = Warnung) und zeigt mir sogar direkt, in welcher Code-Zeile das Problem liegt. Das ist echtes, handfestes Technisches SEO.
+Hier spielt das Website Audit von SE Ranking seine ganze Stärke aus. Ich schätze besonders die **automatische Überwachung**. Ich habe den Crawler so eingestellt, dass er die Website regelmäßig vollautomatisch scannt. Sobald sich Fehler einschleichen, die sich negativ auf die Indexierbarkeit auswirken, liefert das System sofort einen detaillierten Prüfbericht. Das Tool kategorisiert die Fehler streng nach Schweregrad (Rot = Kritisch, Gelb = Warnung) und zeigt direkt, wo das Problem im Quelltext liegt.
+
+![Authentischer Praxistest: SE Ranking Website-Audit für teleschmie.de mit Health Score 99](https://teleschmie.de/assets/images/tools/se-ranking-audit-teleschmiede.webp)
+
+Im obigen Live-Audit unserer eigenen Domain `teleschmie.de` siehst du das Ergebnis in der Praxis: Ein **Health Score von 99**, null kritische Fehler und eine saubere technische Hygiene bei Statuscodes, Core Web Vitals und XML-Sitemaps. Genau solche nachvollziehbaren Berichte schaffen auch bei Kunden sofortiges Vertrauen.
 
 👉 **[Website Audit Tool jetzt kostenlos testen](https://seranking.com/de/website-audit.html?ga=4169588&source=link)**
 
@@ -40556,6 +40616,17 @@ Die Kernarchitektur überzeugt durch klare Struktur und durchdachte Features:
 | **Wettbewerbsradar** | Wer wird statt deiner Marke empfohlen? | Aufdecken von Content- und Entity-Lücken |
 | **Historischer Trend** | Entwicklung über Wochen und Monate | ROI-Nachweis für Content-Investitionen |
 
+### Das Rankscale Page-Audit V2: 100 % KI-Crawlability und LLM-Readiness auf dem Prüfstand
+
+Neben dem laufenden Prompt-Monitoring bietet Rankscale mit dem integrierten **Page-Audit V2** einen spezialisierten Crawler, der Webseiten gezielt aus der Perspektive generativer Sprachmodelle analysiert. Im Gegensatz zu klassischen SEO-Crawlern prüft das Tool, ob der Content für LLMs maschinell verdaubar aufbereitet ist:
+
+![Authentischer Praxistest: Rankscale GEO Page-Audit V2 für teleschmie.de mit 100 % Crawlability](https://teleschmie.de/assets/images/tools/rankscale-audit-teleschmiede.webp)
+
+Die Auswertung unserer eigenen Domain `teleschmie.de` belegt die zentralen Faktoren für maximale KI-Akzeptanz:
+- **100 % Crawlability für KI-Bots:** Keine Blockaden durch restriktive Web Application Firewalls (WAF) oder fehlerhafte Header.
+- **Semantische Inhaltsstruktur:** Klare semantische Hierarchien, Tabellen und prägnante Definitionssätze, die LLMs als direkte Zitationsquelle nutzen können.
+- **Strukturiertes Schema Markup:** Verschachteltes JSON-LD, das Fakten, Autoren und Entitäten maschinenlesbar verankert.
+
 ### Der Sentiment-Check: Warum Tonalität über den Lead entscheidet
 
 Das für mich wertvollste Alleinstellungsmerkmal ist die automatisierte Sentiment-Erfassung. Es genügt heute nicht mehr, dass eine KI deinen Firmennamen beiläufig erwähnt. Entscheidend ist das **Wie**:
@@ -40723,7 +40794,7 @@ Ein gigantischer Streitpunkt in der WordPress-Community ist der Funktionsumfang 
 ### Der Fokus-Keyword-Vergleich
 In Yoast Free kannst du deinen Text auf exakt ein einziges Keyword hin optimieren. Möchtest du Synonyme, Long-Tail-Varianten oder sekundäre Suchbegriffe gegen die Inhalts-Länge gegenprüfen, zwingt dich Yoast zum kostenpflichtigen Premium-Abo. 
 
-Rank Math hingegen erlaubt dir bereits in der Free-Version die Eingabe von bis zu **5 Fokus-Keywords**. Das Plugin prüft für jeden einzelnen Begriff separat, ob er im Title, in der Meta-Description, in der URL und in den Zwischenüberschriften vorkommt. Für Content-Manager, die moderne [Money Keywords](https://teleschmie.de/glossar/money-keyword/) mit semantischen Entitäten kombinieren, ist das ein massiver Vorteil im redaktionellen Alltag.
+Rank Math hingegen erlaubt dir bereits in der Free-Version die Eingabe von bis zu **5 Fokus-Keywords**. Das Plugin prüft für jeden einzelnen Begriff separat, ob er im Title, in der Meta-Description, in der URL und in den Zwischenüberschriften vorkommt. Für Content-Manager, die moderne Money-Keywords mit semantischen Entitäten kombinieren, ist das ein massiver Vorteil im redaktionellen Alltag.
 
 ### Der Redirect-Manager: Ein Muss für jede Domain
 Wer URLs umbenennt, Artikel zusammenlegt oder alte Inhalte löscht, muss zwingend saubere 301-Weiterleitungen einrichten, um Crawling-Fehler und Ranking-Verluste zu verhindern. 
@@ -40809,6 +40880,10 @@ Rank Math verzichtet auf den teuren Zukauf einzelner Modul-Lizenzen. Alle Erweit
 * **Rank Math Agency (~ 54,99 € / Monat bzw. 659,88 € / Jahr zzgl. MwSt.):**
   * Gilt für bis zu **500 Kunden-Websites**.
   * White-Label-Kundenberichte und Tracking für 50.000 Suchbegriffe.
+
+![Offizielle Rank Math Pro Preispläne und Rabatt-Angebote](https://teleschmie.de/assets/images/tools/rank-math-preise-angebote.webp)
+
+Der Screenshot der offiziellen Preisübersicht belegt den radikalen Unterschied: Während andere Anbieter jede WordPress-Instanz einzeln zur Kasse bitten, schaltet bereits die Rank Math Pro Lizenz unbegrenzte persönliche Domains frei.
 
 Aktuelle Aktionen und Detailkonditionen findest du direkt auf der offiziellen Seite unter **[Rank Math Sonderangebote & Pricing](https://rankmath.com/de/offer/?ref=jorgzimmer)**.
 
@@ -44856,7 +44931,21 @@ Die folgende Matrix zeigt die Kriterien und die strategische Bedeutung der einze
 | **Level 4** | `/.well-known/llms.txt` | Deep-Research-Agenten | Strukturiertes Inhaltsverzeichnis aller Domain-Werte |
 | **Level 5** | A2A Protocol & `agent-card.json` | Autonome Transaktions-Bots | Ermöglicht direkte Buchungen & API-Calls via Chat |
 
-Wie eine Website aussieht, die all diese Kriterien von Grund auf erfüllt, habe ich im Praxisbericht [KI-Website Leuchtturm](https://teleschmie.de/blog/ki-website-leuchtturm/) detailliert dokumentiert. Vertiefende Definitionen findest du im [AI Readiness Leitfaden](https://teleschmie.de/glossar/ai-readiness/).
+Wie eine Website aussieht, die all diese Kriterien von Grund auf erfüllt, habe ich im Praxisbericht [KI-Website Leuchtturm](https://teleschmie.de/blog/ki-website-leuchtturm/) detailliert dokumentiert. Vertiefende Definitionen findest du im KI-Readiness-Leitfaden.
+
+## Authentischer Scan-Nachweis: Wie teleschmie.de den Cloudflare Radar Level-5-Score erreicht
+
+Theorie ist wertvoll, handfeste Praxis auf dem eigenen Webserver ist unschlagbar. Während viele Analysen im Web nur hypothetische Empfehlungen abgeben, haben wir die technische Architektur von `teleschmie.de` konsequent nach den strengen Cloudflare-Vorgaben ausgerichtet. Das Ergebnis des offiziellen Cloudflare Radar Scans belegt den maximalen Reifegrad:
+
+![Authentischer Praxistest: Cloudflare Radar Scan bestätigt Level 5 Agent Readiness für teleschmie.de](https://teleschmie.de/assets/images/tools/cloudflare-radar-agent-readiness-level-5.webp)
+
+### Die 5 Prüfpunkte des Live-Scans im Detail
+
+1. **Content Accessibility (Level 3):** Sobald ein Bot wie Claude oder GPTBot den Header `Accept: text/markdown` mitsendet, liefert der Webserver nicht das gerenderte HTML-Gerüst, sondern schlanken, semantischen Markdown-Code aus. Dies spart bis zu 80 % der Token-Kosten und eliminiert Parsingfehler.
+2. **RFC 8288 Link Headers:** Über den HTTP-Response-Header `; rel="alternate"; type="text/markdown"` erfährt jeder Web-Crawler sofort, dass eine maschinengerechte Repräsentation existiert.
+3. **llms.txt & llms-full.txt Discovery (Level 4):** Unter `/.well-known/llms.txt` steht ein kuratiertes Inhaltsverzeichnis aller Kernleistungen, Leitfäden und Glossare bereit.
+4. **Agent-to-Agent Protokoll (A2A) & agent-card.json (Level 5):** Die Domain stellt eine standardisierte `agent-card.json` bereit, über die autonome Coding-Agenten und KI-Assistenten die Fähigkeiten des Systems maschinell abrufen können.
+5. **Authentifizierungs-Dokumentation (auth.md):** Klare maschinenlesbare Vorgaben, wie KI-Agenten mit geschützten Schnittstellen und Endpunkten interagieren dürfen. Wie du diese Tools in deinen täglichen Workflow einbindest, erfährst du auf unserem [Tools-Praxis-Hub](https://teleschmie.de/tools/).
 
 ## Die Community stellt klar: Zugänglichkeit ist nicht gleich Sichtbarkeit
 

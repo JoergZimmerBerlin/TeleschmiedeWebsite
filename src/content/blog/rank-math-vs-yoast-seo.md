@@ -115,7 +115,7 @@ Ein gigantischer Streitpunkt in der WordPress-Community ist der Funktionsumfang 
 ### Der Fokus-Keyword-Vergleich
 In Yoast Free kannst du deinen Text auf exakt ein einziges Keyword hin optimieren. Möchtest du Synonyme, Long-Tail-Varianten oder sekundäre Suchbegriffe gegen die Inhalts-Länge gegenprüfen, zwingt dich Yoast zum kostenpflichtigen Premium-Abo. 
 
-Rank Math hingegen erlaubt dir bereits in der Free-Version die Eingabe von bis zu **5 Fokus-Keywords**. Das Plugin prüft für jeden einzelnen Begriff separat, ob er im Title, in der Meta-Description, in der URL und in den Zwischenüberschriften vorkommt. Für Content-Manager, die moderne [Money Keywords](/glossar/money-keyword/) mit semantischen Entitäten kombinieren, ist das ein massiver Vorteil im redaktionellen Alltag.
+Rank Math hingegen erlaubt dir bereits in der Free-Version die Eingabe von bis zu **5 Fokus-Keywords**. Das Plugin prüft für jeden einzelnen Begriff separat, ob er im Title, in der Meta-Description, in der URL und in den Zwischenüberschriften vorkommt. Für Content-Manager, die moderne Money-Keywords mit semantischen Entitäten kombinieren, ist das ein massiver Vorteil im redaktionellen Alltag.
 
 ### Der Redirect-Manager: Ein Muss für jede Domain
 Wer URLs umbenennt, Artikel zusammenlegt oder alte Inhalte löscht, muss zwingend saubere 301-Weiterleitungen einrichten, um Crawling-Fehler und Ranking-Verluste zu verhindern. 
@@ -201,6 +201,10 @@ Rank Math verzichtet auf den teuren Zukauf einzelner Modul-Lizenzen. Alle Erweit
 * **Rank Math Agency (~ 54,99 € / Monat bzw. 659,88 € / Jahr zzgl. MwSt.):**
   * Gilt für bis zu **500 Kunden-Websites**.
   * White-Label-Kundenberichte und Tracking für 50.000 Suchbegriffe.
+
+![Offizielle Rank Math Pro Preispläne und Rabatt-Angebote](/assets/images/tools/rank-math-preise-angebote.webp)
+
+Der Screenshot der offiziellen Preisübersicht belegt den radikalen Unterschied: Während andere Anbieter jede WordPress-Instanz einzeln zur Kasse bitten, schaltet bereits die Rank Math Pro Lizenz unbegrenzte persönliche Domains frei.
 
 Aktuelle Aktionen und Detailkonditionen findest du direkt auf der offiziellen Seite unter **[Rank Math Sonderangebote & Pricing](https://rankmath.com/de/offer/?ref=jorgzimmer)**.
 

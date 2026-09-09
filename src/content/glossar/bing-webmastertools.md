@@ -115,8 +115,8 @@ curl -X POST "https://api.indexnow.org/indexnow" \
      -H "Content-Type: application/json; charset=utf-8" \
      -d '{
        "host": "[deine-domain.de]",
-       "key": "4a7b9c1d8e2f0a5b6c7d8e9f",
-       "keyLocation": "https://[deine-domain.de]/4a7b9c1d8e2f0a5b6c7d8e9f.txt",
+       "key": "[dein-indexnow-schluessel]",
+       "keyLocation": "https://[deine-domain.de]/[dein-indexnow-schluessel].txt",
        "urlList": [
          "https://[deine-domain.de]/blog/neuer-artikel/",
          "https://[deine-domain.de]/seite/technischer-begriff/"

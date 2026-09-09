@@ -33,9 +33,10 @@ files.forEach(file => {
         imageRefs.forEach(ref => {
             // Normalize path: remove leading / or ../ and join with src
             const cleanRef = ref.replace(/^(\.\.\/)+/, '').replace(/^\//, '');
-            const fullPath = path.join(process.cwd(), ASSETS_DIR, cleanRef);
+            const fullPathSrc = path.join(process.cwd(), 'src', cleanRef);
+            const fullPathPublic = path.join(process.cwd(), 'public', cleanRef);
             
-            if (!fs.existsSync(fullPath)) {
+            if (!fs.existsSync(fullPathSrc) && !fs.existsSync(fullPathPublic)) {
                 console.error(`❌ Missing asset: ${ref} referenced in ${file}`);
                 missingCount++;
             }

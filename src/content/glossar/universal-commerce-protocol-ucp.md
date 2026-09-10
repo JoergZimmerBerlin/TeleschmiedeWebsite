@@ -43,12 +43,19 @@ Im Jahr 2026 hat sich das Konsumverhalten im digitalen Handel grundlegend transf
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Wer im Jahr 2026 noch glaubt, dass Rankings die einzige Währung im E-Commerce sind, hat den fundamentalen Wandel verpasst. Rankings sind bloße Orientierungsmarken. Im Agenten-Commerce entscheidet die Daten-Interoperabilität. Wenn ein Shop nicht UCP-ready ist, kann die KI das Produkt nicht in den Warenkorb legen. Wer Maschinen nicht bedienen kann, verliert seinen Umsatz an standardisierte Marktplätze.“
+    „SEO ist, glaube ich, noch noch lange nicht tot und Leute, die das behaupten, haben meiner Meinung nach sehr wenig Background. Ähm und die Google ist auch nicht tot, äh nur weil da jetzt irgendwelche Chat BT oder Englis kommt.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
-    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
-      Jörgs Beitrag auf LinkedIn ansehen →
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=251s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Magic Writing Podcast (04:11)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+      Jörg Zimmer auf LinkedIn folgen →
     </a>
   </figcaption>
 </figure>

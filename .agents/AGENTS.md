@@ -100,6 +100,8 @@
       </figcaption>
     </figure>
     ```
+    **WICHTIG (STRIKTES VERBATIM-GEBOT für Master-Zitatboxen):**
+    Das Zitat darf NIEMALS von der KI frei erfunden, umgeschrieben, paraphrasiert oder synthetisiert werden. Es ist STRENGSTENS VERBOTEN, Sätze „im Stil von Jörg“ zu dichten oder verschiedene Gedanken zu einem neuen Text zusammenzuschustern. Es dürfen AUSNAHMSLOS NUR Sätze und Wortlaute verwendet werden, die Jörg Zimmer BUCHSTABE FÜR BUCHSTABE exakt so handgeschrieben (in seinen echten LinkedIn-Posts in `src/data/joerg-quotes.json` bzw. Original-Posts) oder wörtlich in die Kamera gesprochen hat (in `src/data/joerg-youtube-transcripts.json`). Jedes Zitat muss 1:1 mit der Quelldatei und dem Zeitstempel/Link übereinstimmen. Wenn kein exakt passendes wörtliches Zitat für ein Nischenthema existiert, muss ein universeller echter O-Ton (z.B. zu technischer Indexierung, handwerklicher SEO-Qualität oder Nutzerwahrheit) 1:1 unverändert übernommen werden – niemals ein eigens getexteter Satz!
 
   - **Die offizielle Agentenbox (Arbeitsanweisung für KI-Coding-Assistenten):**
     Für technische Umsetzungsthemen (Schema Markup, SSR, Content Negotiation, RAG etc.):

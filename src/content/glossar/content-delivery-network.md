@@ -28,32 +28,37 @@ In einer vernetzten Welt, in der über die Hälfte des gesamten globalen Datenve
 
 Im [Technischen SEO](/glossar/technisches-seo/) gilt ein eisernes Gesetz: Latenz zerstört Konversionen, Nutzersignale und organische Rankings. Ein **Content Delivery Network (CDN)** löst dieses physikalische Dilemma durch die dezentrale, weltweite Verteilung von Inhalten. Was früher als reiner statischer Datei-Cache für Bilder und CSS-Skripte begann, hat sich im Jahr 2026 zu einer hochentwickelten Edge-Computing-Infrastruktur entwickelt. Sie sorgt nicht nur für herausragende [Pagespeed](/glossar/pagespeed/)-Werte und Bestnoten bei den [Core Web Vitals](/glossar/core-web-vitals/), sondern schützt Ursprungsserver (Origin Server) vor dem massiven Bot-Ansturm generativer KI-Suchsysteme.
 
-<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
-  <img 
-    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-    alt="Jörg Zimmer" 
-    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
-    loading="lazy"
-    width="96"
-    height="96"
-  />
-  <div class="flex-1 text-center md:text-left">
-    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
-      "Ein CDN ist heute weit mehr als ein einfacher Turbo für Bilddateien. Im Zeitalter von RAG-Pipelines und aggressivem KI-Bot-Traffic ist das Edge-Netzwerk dein digitaler Schutzwall. Wer glaubt, seinen Webserver ohne intelligentes Edge-Caching dem weltweiten Crawling von OpenAI, Anthropic und Google aussetzen zu können, riskiert permanente Server-Timeouts. Ein modernes CDN sorgt dafür, dass deine Daten für Menschen und KI-Agenten in Lichtgeschwindigkeit erreichbar bleiben."
-    </blockquote>
-    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
-      <div>
-        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
-        <span class="hidden md:inline"> | </span>
-        <span>Senior SEO & AI Search Consultant</span>
-      </div>
-      <cite>
-        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
-          LinkedIn Profil &rsaquo;
-        </a>
-      </cite>
-    </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Gesicht. Ähm, man kann in so einem Video äh viel viel mehr zeigen, als man vielleicht in in fünf Artikeln machen könnte. Und ähm wenn wir schon im im über Video Content reden, dann glaube ich unterschätzen noch ganz viele Leute dieses ähm Hochkant, also die das dies Shortform sind.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1664s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (27:44)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 ## 1. Wie ein modernes Content Delivery Network funktioniert

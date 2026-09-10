@@ -37,32 +37,37 @@ Im Kern basiert die Sichtbarkeit in generativen KIs auf drei technischen Pfeiler
 2. **Retrieval-Augmented Generation (RAG):** Wie effizient Web-Crawler wie PerplexityBot, GPTBot oder Google-Extended Webinhalte parsen, semantisch in Vektoren zerlegen und zur Laufzeit in das Kontextfenster (Context Window) laden.
 3. **Zitations- und Quellensynthese:** Wie das Modell bei der Antwortgenerierung Quellennachweise (Citations) gewichtet und verlinkt, um faktische Halluzinationen zu minimieren.
 
-<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
-  <img 
-    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-    alt="Jörg Zimmer" 
-    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
-    loading="lazy"
-    width="96"
-    height="96"
-  />
-  <div class="flex-1 text-center md:text-left">
-    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
-      "AI Visibility ist keine nette Ergänzung zum bestehenden Marketing-Mix, sondern die existenzielle Überlebensfrage für digitale Marken. Wenn ein B2B-Einkäufer ChatGPT oder Perplexity nach den führenden Softwarelösungen für seine Branche fragt und deine Wettbewerber dreimal empfohlen werden, während dein Name fehlt, hast du den Auftrag verloren – noch bevor der Interessent jemals eine traditionelle Suchmaschine geöffnet hat. Wer heute nicht dafür sorgt, dass Sprachmodelle die eigenen Inhalte als verifizierten Faktenanker begreifen, optimiert für eine aussterbende Suchwelt."
-    </blockquote>
-    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
-      <div>
-        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
-        <span class="hidden md:inline"> | </span>
-        <span>Senior SEO & AI Search Consultant</span>
-      </div>
-      <cite>
-        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
-          LinkedIn Profil &rsaquo;
-        </a>
-      </cite>
-    </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Man könnte sich aber auch auf OpenAI und die Perplexity Cloud wie die ganzen Crawler alle heißen, ob die Modelle arbeiten ja trotzdem alle unterschiedlich.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1078s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (17:58)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 ## 2. Klassisches SEO vs. AI Search Visibility im direkten Vergleich

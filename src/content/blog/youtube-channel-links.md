@@ -75,12 +75,19 @@ Wer 14 Plätze zur Verfügung hat, sollte sie nicht willkürlich befüllen. Eine
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „YouTube ist kein isolierter Videokanal – es ist eine erstklassige Google-eigene Datenbank. Wer die 14 Link-Plätze leer lässt, verschenkt das einfachste Geschenk zur Verifikation der eigenen digitalen Entität im Knowledge Graph.“
+    „So bei äh bei YouTube äh du kannst den YouTube hochladen, kannst du in YouTube ein Channel machen. Hast du ja, dann mach den Channel, der äh der ist äh authentisch. Äh das ist eine au authentische Quelle.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
-    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
-    <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_quicktipp-bis-zu-14-links-im-youtube-channel-activity-7493230293449973760-GIa5" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
-      Diskussion auf LinkedIn ansehen →
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=1594s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Magic Writing Podcast (26:34)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+      Jörg Zimmer auf LinkedIn folgen →
     </a>
   </figcaption>
 </figure>

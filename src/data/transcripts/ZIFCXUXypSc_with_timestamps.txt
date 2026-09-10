@@ -1,0 +1,1791 @@
+# Transkript: Talk Antonio Blago & Jörg Zimmer (ID: ZIFCXUXypSc)
+
+[00:00] Herzlich willkommen zu Behind the scenes
+[00:02] in Marketing. Hier erfährst du von CEOs,
+[00:05] CMOs und echten Experten, was im
+[00:07] Marketing wirklich funktioniert und den
+[00:10] Kulissen abgeht. Zahlendaten, Fakten,
+[00:14] kein Bullshit Bingo und ehrliche
+[00:16] Inhalte. Vielen Dank fürs Reinhören. Ich
+[00:19] bin dein Host Antonio Blago.
+[00:22] Ja, herzlich willkommen Jörg Zimmer in
+[00:25] meinem Podcast. Ich bin äh äh sehr äh
+[00:29] gespannt auf unsere Themen heute.
+[00:31] Seoxperte schon seit über 20 Jahren, wir
+[00:34] können es auch schon lange über
+[00:35] LinkedIn, sogenannter SEO Influencer
+[00:38] würde ich auch sagen mit über 20.000
+[00:41] Followern. Ist das schön sehr weit oben
+[00:44] würde ich sagen in der SEO Zene und
+[00:46] genau erzähl doch mal wie du zu SEO
+[00:49] gekommen bist, wie du bist.
+[00:52] Ja. Hallo Antonio, hallo alle die
+[00:55] zuhören.
+[00:56] Ja, mein Name ist Jörg Zimmer. Ich bin
+[01:02] Online Marketing
+[01:04] Suchmaschinen Marketing Spezialist würde
+[01:06] ich das nennen. Ähm, bin da aus
+[01:09] Leidenschaft ähm reingerutscht und mach
+[01:14] jetzt aktuell als Freelancer ähm SEO und
+[01:20] Google Ads und berate dazu meine Kunden
+[01:24] äh deren Sichtbarkeit und im besten Fall
+[01:26] natürlich deren Umsatz äh zu steigern.
+[01:30] Und das machst du ja auch schon sehr
+[01:31] lange. Ähm hast du das immer durchgängig
+[01:35] so in der Kombination gemacht? SEO und
+[01:39] äh gab's erst SEO oder erst s? Ich
+[01:44] bin
+[01:47] 1999
+[01:49] in das Thema reingegangen. Ich hatte da,
+[01:53] also da ist ja das Internet erst
+[01:54] aufgekommen und ähm ich hatte da mit dem
+[01:57] mit dem Freund zusammen ein Projekt,
+[01:59] also eine Domain aufgezogen.
+[02:03] Ähm, da hat mich dann, das hat mich so
+[02:07] fasziniert, dass ich dann da noch äh
+[02:12] zwei Jahre lang dran geguckt habe und
+[02:14] 2001 dann auch gleich gesagt habe, okay,
+[02:17] äh das machst du jetzt als
+[02:19] Selbständiger, das ist so interessant.
+[02:21] Ähm und das war ja damals noch die
+[02:24] goldene junge Zeit ähm des
+[02:27] des Seos oder des Internets. Äh Google
+[02:30] gab's damals noch noch gar nicht so in
+[02:32] in Deutschland. Und ähm ich habe
+[02:35] angefangen
+[02:36] eigene Projekte zu fahren, weil es
+[02:40] damals sehr viel äh Spaß gemacht hat und
+[02:44] ähm die Besucher dann auch reinkamen und
+[02:47] äh ich habe mich da ja ähm ich habe mich
+[02:52] da ausgetobt.
+[02:53] Ähm, hab glaube ich 10 Jahre lang nur
+[02:56] eigenen Kram gemacht und ja, es war am
+[02:59] Anfang halt dieses, du machst mal machst
+[03:02] mal ein bisschen SEO.
+[03:04] Habe dann auch relativ früh, als es als
+[03:07] es Google Ads dann nachher gab,
+[03:10] äh mal 50 € in Google Ads investiert
+[03:14] und lustigerweise dann sofort 100 €
+[03:16] wieder rausgekriegt. Ich auf den
+[03:18] Projekten, die ich hatte, waren viele
+[03:21] Affiliate Links. Da konnte ich das halt
+[03:23] messen, ne? 50 € rein, 100 € raus.
+[03:27] Ja, da war ich dann schnell dabei, die
+[03:29] 100 € wieder reinzustecken, dann 200
+[03:32] raus und 5003000 raus und das ähm
+[03:38] das hat sich so hoch
+[03:40] es hat sich so hoch hoch gemacht. Ja. Äh
+[03:42] bei bei dem einen Projekt war das
+[03:45] wirklich so, da waren waren d nachher
+[03:49] keine Ahnung 5000 € reingesteckt, 10.000
+[03:52] 1000 € rausgekriegt, aber da war auch
+[03:54] nicht mehr zu kaufen damals. Da gab es
+[03:56] nicht mehr Suchvolumen ähm was man was
+[04:00] man da holen konnte. Ähm ja und aus der
+[04:04] Historie raus äh da habe ich halt Blut
+[04:07] gelckt und ich bin dabei geblieben. Ähm
+[04:10] muss auch ehrlich gestehen, ich kann
+[04:13] kann auch nichts anderes. Ähm ich kann
+[04:15] halt nur nur das, also ich kann nur nur
+[04:18] SEO und nur Google Ads und ja und habe
+[04:22] mehrfach natürlich mein Wissen auch
+[04:24] verloren. Mhm. Weil das war jetzt der
+[04:28] Anfang des
+[04:31] Internets und ja, da gab's viele viele
+[04:33] große Präg äh mit Google zusammen habe
+[04:37] ich dann so eine Hassliebe natürlich
+[04:38] aufgebaut. Äh
+[04:41] ja,
+[04:41] jeder Seo.
+[04:42] Ja, man hat immer was probiert und äh
+[04:46] dann ist das nach dem Jahr wieder
+[04:48] geschlossen worden. Ähm also ich meine
+[04:51] jetzt, dass Google immer schlauer
+[04:52] geworden ist und irgendwann habe ich
+[04:54] dann auch aufgehört gegen Google zu
+[04:57] kämpfen. Ähm und habe dann angefangen
+[05:00] mit Google zu spielen. Ne, das ist auch
+[05:02] schon ist ja schon schon eine Weile her,
+[05:05] weiß ich nicht, keine Ahnung 2000, 2008
+[05:08] oder so, wo ich dann gesagt habe, okay,
+[05:11] dann liest du dir mal die Richtlinien
+[05:12] durch
+[05:13] und dann machst du das mal richtig. Ja,
+[05:14] hörst du mal auf mit diesem ganzen Kram
+[05:16] in die Ecke, wo s uns die die anderen
+[05:19] immer so reinstecken, dass Google dass
+[05:21] das Seos ja nur Tricks sind. hab haben
+[05:23] viele von uns schnell aufgehört, weil es
+[05:25] ja hat nicht hat keinen Sinn mehr
+[05:27] gemacht, hat viel mehr Freude gemacht,
+[05:29] die die Nutzer glücklich zu machen
+[05:31] und
+[05:34] ja, dann
+[05:36] mit Google zusammen aufgewachsen, würde
+[05:38] ich sagen. Ja, so das und immer wieder
+[05:41] gelernt,
+[05:43] immer wieder
+[05:46] [Musik]
+[05:47] angepasst,
+[05:49] auch eine Menge unterschiedliche Sachen
+[05:53] gesehen und gefahren und ja und und
+[05:58] jetzt halt heute hier und äh und kann
+[06:00] kann natürlich auch aus vielen aus ein
+[06:03] bisschen Erfahrung dann ähm
+[06:07] kann ich auch auch auch beraten, wo ich
+[06:10] dann sage, okay, das habe ich in der
+[06:12] Form schon mal gesehen oder da kann ich
+[06:15] ungefähr abschätzen, wie Google ticken
+[06:17] würde
+[06:19] und ähm das das gebe ich eben jetzt
+[06:22] jetzt raus oder wende das halt auch an
+[06:26] in den Projekten, die die so reinkommen.
+[06:29] Mhm. Auf jeden Fall sehr spannend. Also,
+[06:32] ich glaube, viele erinnern sich gar
+[06:33] nicht mehr, wie es so Anfang 2000
+[06:37] war, wo eigentlich Wild West war im
+[06:40] Internet noch. Äh, und also ich war da
+[06:43] jetzt auch nicht wirklich aktiv. Ähm
+[06:46] aber ähm das ist war schon
+[06:49] wahrscheinlich eine sehr andere Zeit wie
+[06:50] heute, ne? Ähm, wie wie würdest du die
+[06:55] Zeit so beschreiben? Also ähm
+[06:59] gerne mal deine Erfahrung dazu
+[07:01] von damals. Wollen wir wirklich über
+[07:03] damals reden?
+[07:04] Genau. Würde ich jetzt gerne mal wissen.
+[07:05] Ja.
+[07:06] Ach,
+[07:08] das war äh das war eine goldene Zeit.
+[07:11] Ähm und die die war hochspannend. Ähm
+[07:13] und damals ging damals ging das alles
+[07:16] noch. Du konntest
+[07:18] du konntest wirklich halt mit äh ich sag
+[07:21] jetzt mal wenig wenig Inhalt innerhalb
+[07:23] kürzester Zeit ähm auf auf Topositionen
+[07:28] kommen. Also damals hat das Ranking noch
+[07:30] nicht so lange gedauert. Ich bin auch
+[07:31] der Meinung dieses das was jetzt immer
+[07:35] wenn wir mal sagen, dass SEO so lange
+[07:36] dauert,
+[07:37] das war am Anfang nicht so, ne? Am
+[07:39] Anfang war es halt so, dass du du hast
+[07:42] halt irgendwie so dein dein Inhalt
+[07:44] gemacht und ja, damals hatte ich auch
+[07:46] dann noch Brückenseiten gemacht und da
+[07:49] waren so diese diese kleinen Hacks, was
+[07:51] weiß ich, dann baust du da eine dann
+[07:52] baust du bloß eine Überschrift ein und
+[07:54] dann machst du da so ein bisschen. Das
+[07:56] ging damals Poki eigentlich. Ähm und das
+[08:00] hat sich wie gesagt Google ist ja
+[08:01] schlauer geholt. Das hat sich aber dann
+[08:03] halt stark geändert. Ähm und die ähm
+[08:09] ja, die die Strategien musste man dann
+[08:11] anpassen, aber es war wirklich eine eine
+[08:13] tolle Zeit. Es gab wilde Sachen. Es es
+[08:16] gibt auch äh ja ach das was soll ich
+[08:20] sagen? Äh, war schön, ist aber auch
+[08:23] vorbei, muss man auch so sagen. Ja, muss
+[08:25] man auch mal irgendwann sagen. Nee, hat
+[08:26] ja auch und da muss ich auch ehrlich
+[08:28] sagen, äh ein Glück ähm weil Google war
+[08:32] ja dann auch derjenige ähm, der dann
+[08:35] auch viel für die Sauberkeit im Internet
+[08:38] getan hat. Damals war das Internet
+[08:39] Wildwest. Ja, das hat an aller an allen
+[08:41] Ecken geblinkt. Da hast du da hast du
+[08:43] eine Seite aufgemacht, da ging dir ging
+[08:45] dir fünf Pop-ups an. äh die
+[08:47] Suchmaschinen von früher, die die sahen
+[08:49] aus wie wie überroße Newsportale.
+[08:53] Ähm das da waren da waren von
+[08:55] Lottozahlen bis äh alles mögliche dabei.
+[08:59] Ja, das war es war schlimm. Du konntest
+[09:01] es gar nicht benutzen. Dann kam kam ja
+[09:03] Google mit mit diesem einfachen
+[09:04] Suchschlitz und mit der Idee, dass das
+[09:07] das Internet kurz runterzuladen.
+[09:09] M
+[09:09] also hatten die und und dann ihren
+[09:11] eigenen Index aufzubauen
+[09:14] und ähm äh die die haben das halt voll
+[09:18] clever gemacht und die waren wirklich
+[09:20] toll und das wollte ich sagen, wir
+[09:21] können froh sein, dass es Google gibt.
+[09:23] Die haben dafür gesorgt, dass dieses
+[09:25] ganze, dass diese ganze Blingbling
+[09:27] Casinokram, dass der aufgehört hat. ähm
+[09:31] und dass die dass die Webseiten halt
+[09:34] nicht mehr so
+[09:37] Spammy daherkam und und dass du halt
+[09:39] auch Informationen mal gefunden hast,
+[09:41] ne?
+[09:41] Ich denke, viele ähm sind ein bisschen
+[09:44] verwöhnt worden und haben auch vergessen
+[09:46] äh wie es früher mal war und also muss
+[09:49] ich ja auch mal die andere Seite der
+[09:51] Medaille anschauen, ne, von Google, ne?
+[09:53] Also, die müssen ja jeden Tag gegen
+[09:54] Milliarden von Spam versuchen kämpfen,
+[09:57] sozusagen.
+[09:59] Und heutzutage ist ja noch schlimmer mit
+[10:01] AI Generative Content. Da gibt's ja noch
+[10:04] mehr so einfach maschinell erstellte
+[10:06] Content, Spam Content und viele
+[10:10] kritisieren ja auch immer dann so ein
+[10:12] paar Seiten, die vielleicht nicht so
+[10:14] seriös und die dann oben stehen, ne?
+[10:17] Ähm, aber man muss sich halt, das ist
+[10:19] halt die Spitze des Eisberges, so ne.
+[10:22] Man muss mal angucken, wie viele
+[10:24] Milliarden Seiten Google da eigentlich
+[10:25] händeln muss jeden Tag. Ähm und säubern
+[10:29] und klar ein zwei Seiten können immer
+[10:33] irgendwo rausgucken, aber das ist ja in
+[10:35] dem Sinne
+[10:37] zu vernachlässigen, oder?
+[10:40] Ja, da muss ich auch sagen, ja, ähm
+[10:43] eigentlich wer wer jetzt wer jetzt oben
+[10:45] steht, ähm der sollte eigentlich schon
+[10:48] äh die den Inhalt oder die Frage
+[10:52] beantworten. Das ist ja das, wo Google
+[10:54] oft äh hintendierte. Ja, die hatten ja
+[10:57] dieses Credo maximale Usererfahrung.
+[11:00] Ähm ich muss ehrlich sagen, ich sehe ich
+[11:02] sehe kaum auf den Topitionen äh groß
+[11:06] großartig Spam. Das einzigste, was
+[11:09] vielleicht ein bisschen besser sein
+[11:11] könnte, dass dass s nicht so viel Seiten
+[11:13] durchlassen, die ähm die sich übermäßig
+[11:16] finanzieren, das das stört mich
+[11:18] persönlich auch. Also, wenn du gerade
+[11:19] so, ich sag jetzt mal im Finanzbereich
+[11:22] oder sowas, ja, du suchst nach äh
+[11:24] Silberchart oder sowas ähm und äh dann
+[11:29] kommst du auf eine Seite auch auf dem
+[11:31] Mobiltelefon und die die die hat im
+[11:34] sichtbaren Bereich, ne, Darbahner,
+[11:37] Darnbner und Edo dann Edo dann zu der
+[11:39] Information kommt, die hätten eigentlich
+[11:41] die Möglichkeiten, dass äh das gab's
+[11:44] auch damals mal in in AdSense ähm also
+[11:48] das Monetarisierungsprogramm von Google.
+[11:50] Man dürfte damals halt nicht so viele
+[11:52] nicht so viel ähm nicht so viel Werbung
+[11:56] einbauen, aber ich sehe heute immer noch
+[11:58] Seiten leider, die
+[12:01] die wirklich ihre Information verstecken
+[12:03] und und dann ein Haufen dann haufen
+[12:05] Werbebanner drauf haben und das ist
+[12:07] wahrscheinlich das, was die was die
+[12:08] Leute für kritisch befinden, wenn sie
+[12:10] sagen, oh, die haben sich jetzt mit SEO
+[12:12] da hoch ge ähm gedrückt, aber dann ganz
+[12:16] ehrlich ähm wenn es eine bessere
+[12:19] Informationsquelle geben würde. Dann
+[12:21] würde die Google ja auch akzeptieren. Es
+[12:23] ist ja nicht so, dass sie da oben
+[12:24] angenagelt sind.
+[12:26] Leute, ja, jetzt sehen, das stört mich
+[12:28] besonders. Ja, dann geht los und baut
+[12:30] mal ein neues Portal und ähm äh bietet
+[12:33] mal brauchbare Informationen und
+[12:35] nützliche Funktionen und dass sie dass
+[12:36] die Leute halt da ähm nicht nur nicht
+[12:39] nur eine Minute bleiben, weil sie dann
+[12:41] von den von den Bannern genervt sind,
+[12:43] sondern halt 10 Minuten bleiben, weil
+[12:44] sie die Seite so toll finden. Ja, dann
+[12:46] macht doch einfach. Also,
+[12:47] man muss ja auch sagen, Google kann ja
+[12:49] nur das anbieten, was existiert und äh
+[12:52] kann ja kein äh kann ja nicht oben
+[12:54] irgendwie ein Bernard zeigen, ja, wir
+[12:56] können keine andere bessere Zeit
+[12:57] anbieten, weil es keine besseren
+[13:00] Ergebnisse gibt. Das wäre ja auch
+[13:02] eigentlich interessantes Feature, aber
+[13:04] ähm ja, es ist halt so Angebot ist halt
+[13:07] da und oder auch nicht, ne? Ähm, also wo
+[13:10] siehst du da noch Chancen? Denkst du, es
+[13:13] gibt noch irgendwelche krassen Chancen,
+[13:15] da irgendwo ähm jetzt solche solche
+[13:19] Lücken zu finden oder denkst du, das ist
+[13:22] quasi ausgestorben? Ich denke, man kann
+[13:26] vieles, was im Netz vorhanden ist, noch
+[13:30] besser machen. Es wäre auch so ein
+[13:32] bisschen meine Botschaft oder meine
+[13:35] Idee.
+[13:37] Ähm,
+[13:39] konzentriere dich mal auf das, was du
+[13:42] kannst oder was du anbietest und mach
+[13:45] das mal richtig richtig gut. So richtig
+[13:48] gut. Also so, dass man sagt, wow. Ja,
+[13:52] also dass du wirklich
+[13:54] ähm dass du wirklich deine anwesite
+[13:57] Zirkuppe äh mit Features ist ja jetzt
+[14:01] auch wieder so eine goldene Zeit, ja, du
+[14:03] kannst halt Inhalte, sinnvolle Inhalte
+[14:06] ähm relativ schnell produzieren und
+[14:09] vorhalten natürlich immer mit dem mit
+[14:11] dem Auge auf den Nutzer, nur was der
+[14:15] halt Sinn macht. Ich glaube, da kann man
+[14:17] noch vieles machen. Da könnten auch
+[14:19] vorhandene Seiten noch ein bisschen
+[14:22] schöner werden. Die könnten auch auf
+[14:24] Mobiltelefon schöner zu bedienen sein.
+[14:28] Ähm ja, dass jetzt eine Nische unbesetzt
+[14:31] ist, das glaube ich eher nicht, weil
+[14:34] dafür gibt's zu viele Leute im Netz, die
+[14:38] mit offenen Augen durchlaufen,
+[14:41] aber man könnte sicherlich eine Nische
+[14:43] besser machen. Das denke ich, das kann
+[14:45] man heutzutage immer noch und das
+[14:47] wahrscheinlich noch mit einfacheren
+[14:49] Mitteln, wenn man sich darauf
+[14:52] fokussiert, äh nicht der Suchmaschine
+[14:55] zufallen, sondern dem Nutzer. Die haben
+[14:58] halt die haben wirklich Fragen und gehen
+[15:00] wir noch mal zu, wenn wir wenn wir jetzt
+[15:02] wirklich wenn du wenn du nach einer
+[15:05] Information suchst, die dich betrückt
+[15:07] oder die die du gerne erforschen
+[15:09] möchtest, dann muss man sich ja das
+[15:12] teilweise immer noch auf drei, vier
+[15:15] Seiten oder jetzt aus in mit dem Chatbot
+[15:19] äh nicht Chatbot, also mit dem Chat GPT
+[15:22] oder irgendwas dann zusammen suchen. Und
+[15:24] ich denke, da man man könnte man könnte
+[15:27] immer noch also das endet glaube ich
+[15:29] nie, also ne, es gibt gibt immer eine
+[15:32] Möglichkeit was zu verbessern. Ja.
+[15:35] Mhm. Ja. Okay. Sehr interessanter Input.
+[15:37] Also, denkst du ähm die Information
+[15:41] könnte noch äh komprimierter, noch
+[15:44] besser zusammengefasst werden bei vielen
+[15:47] äh z.B. weiß nicht, selbständigen
+[15:51] äh oder auch Nischenseiten. Hast du da
+[15:54] bestimmte Kunden, wo du das immer siehst
+[15:55] oder?
+[15:57] Also, ich glaube, viele viele Leute
+[16:02] m kennen ihr ihre richtig guten
+[16:07] Keywörter nicht. Also, wenn wir jetzt
+[16:09] noch mal in Keywörtern kurz denken,
+[16:12] das sehe ich oft, dass es werden oft so
+[16:17] informationelle Keywörter gefahren, weil
+[16:19] sie das mal gehört haben oder weil sie
+[16:22] das irgendwie denken, dass das gut ist.
+[16:25] Äh keine Ahnung, äh Webdesign oder so.
+[16:28] Ich will jetzt bei Webdesign oben
+[16:30] stehen, aber ja, wenn ich jetzt äh
+[16:32] Webdesign könnte ja auch eine informelle
+[16:35] Suche sein, wo ich jetzt sage, was ist
+[16:37] denn eigentlich Webdesign? Was gehört
+[16:39] denn da alles rein? Und dann das ist ja
+[16:42] nichts, wo wo ich jetzt groß ähm Umsatz
+[16:45] mitmachen würde. Und dann wäre
+[16:46] natürlich, wenn ich jetzt, wenn ich
+[16:48] jetzt noch noch ein zweites Wort dran
+[16:51] hängen würde, jetzt Webdesign Berlin
+[16:53] oder Webdesign Agentur, da kommt ja
+[16:56] wieder, das ist das Agentur oder
+[16:59] Freelancer. Wenn ich dann ein zweites
+[17:02] Money Keyword heißt das ja im also
+[17:04] Geldkeyword nenn das oft goldene
+[17:06] Keywords. Also, wenn ich diese Kombi
+[17:08] habe, Webdesign Agentur, Webdesign
+[17:09] Freelancer, da gibt's noch ein paar
+[17:11] andere, aber da das ist eigentlich da,
+[17:14] wo ich reiten sollte. Ja, aber dann sind
+[17:17] die Leute oft, sehe ich leider oft, die
+[17:19] die sind verbohrt,
+[17:22] schieben da ein Haufen Infowscheinlich
+[17:27] für den Treffic, der der dann oft nicht
+[17:29] umwandelt, der dann wahrscheinlich sogar
+[17:32] overall auf der Seite zu nicht so
+[17:38] guten Nutzersignalen führt. Also, ich
+[17:41] denke, man Fokussierung ist ist ein ist
+[17:44] ein gutes Stichwort. für für Leute, ja,
+[17:47] wenn man möglich mal reingehen, was ist
+[17:48] denn mein Kern meines Geschäfts, was ist
+[17:50] der Kern des Produkts oder einer
+[17:53] Dienstleistung und das zu matchen mit
+[17:57] dann suche ich mir halt einziges Keyword
+[17:59] da mal raus und und spiel das überall
+[18:03] wirklich ganz oben zu stehen zu diesem
+[18:05] einen so nicht um diesen ganzen diesen
+[18:08] nehmen, da wird so viel Energie
+[18:09] verwendet, um da infokontent zu spielen
+[18:14] Und das das sehe ich oft und das würde
+[18:18] ich würde ich gerne, dass dass die Leute
+[18:20] dass die Leute das ähm auch ein bisschen
+[18:23] mehr fokussieren. Ja.
+[18:25] Mhm. Ist auf jeden Fall äh spannender
+[18:28] Input. Also sehe ich auch oft, also
+[18:30] meistens wird ja irgendwie genau nur
+[18:32] Webdesign oder Marketing oder äh Agentur
+[18:36] irgendwie verwendet, ne? Aber das ist ja
+[18:37] viel zu allgemein und äh überhaupt nicht
+[18:40] spezifisch oder auch vom Ty zu
+[18:43] schwierig, da irgendwie zu ranken. Ähm
+[18:46] und auch lokale äh Ergänzung finde ich
+[18:50] da auch immer sinnvoll. Also Webdesign
+[18:53] Agentur Berlin oder noch besser wäre
+[18:55] vielleicht Webflow Webdesign Agentur
+[18:57] Berlin.
+[18:59] Oh ja, wenn da noch das System dabei
+[19:00] hängt. Halleluja. Ja, genau. Da da
+[19:03] gibt's viele das das habe ich oft so
+[19:05] eine kleine Keywordrecherche ist ja
+[19:07] schnell gemacht. Ähm und genau wie du es
+[19:10] sagst, wenn wenn dann noch das System
+[19:12] dabei hängt, dann das das Webdesign,
+[19:15] dann noch das Agentur da äh
+[19:19] ja, da wird dann das Suchvolumen wird
+[19:20] dann vielleicht bloß bei 10 oder bei was
+[19:23] weiß ich bei 20 sein, ne? Aber das sind
+[19:26] ja genau die Leute, die bei dir nachher
+[19:28] anrufen oder die dann nachher bei dir äh
+[19:30] das äh das Formular ausfüllen und äh
+[19:33] dann schielen immer alle auf die
+[19:36] größeren Suchwörter mit 1000 äh äh
+[19:39] Suchvolumen. Wozu eigentlich, ne, wenn
+[19:43] ich äh da vorbei ziehen kann ähm mit so
+[19:47] einem detaillierten Ding. Ja.
+[19:49] Mhm. Ja, ich denke, es ist auch immer so
+[19:51] ein bisschen der Größenwahn oder so ein
+[19:55] bisschen einfach die großen Zahlen, die
+[19:56] locken, ne? Also auch wie ein Instagram
+[19:58] oder LinkedIn. Viele viele schauen immer
+[20:02] auf die vielen Likes oder äh
+[20:05] Impressionen, die sie bekommen.
+[20:07] Aber muss ich ganz ehrlich sagen, was
+[20:09] habt ihr davon? Also, äh kannst du ja
+[20:11] auch mal sagen, du hast ja schon ein
+[20:13] paar gute Posts gehabt. Hast du da
+[20:15] wirklich viele Anfragen gehabt, wenn du
+[20:18] vielleicht mal viral gegangen bist?
+[20:21] Äh ach so, ja, da muss ich dir aus dem
+[20:23] aus dem Intro deine ich habe gar keine
+[20:25] 20.000 1000 Follower. Ich habe glaube
+[20:27] ich 14 14 000 auf LinkedIn und äh die
+[20:32] die viralen Post, da hatte ich auch erst
+[20:35] einen. Also ähm und ansonsten bin ich
+[20:39] bin ich eigentlich äh
+[20:42] also ja, ich produziere viel oder aus
+[20:45] Spaß und auser Freude einfach daraus äh
+[20:49] produziere ich viele Kommentare in
+[20:51] LinkedIn. Das das kann ich dir sagen,
+[20:53] dass ich das mache, mache ich auch gern.
+[20:55] ähm und dann manchmal ein Beitrag. Ähm
+[21:00] und es sind gar nicht die Beiträge, wo
+[21:02] du denkst, oh, der spielt hier jetzt was
+[21:04] rein. Und es sind oft nach so so
+[21:07] schlechten Beiträgen, die dann mal so
+[21:08] verrecken oder irgendwas, die aber sehr
+[21:10] persönlich sind oder wo die dann sagen,
+[21:12] auch komm, den schreibe ich jetzt mal
+[21:13] an. Na, die Leute brauchen natürlich
+[21:15] immer ein bisschen. Und was ich was ich
+[21:17] aber auch da gelernt habe, äh
+[21:19] Infotainment ist schön, bringt aber
+[21:23] keinen Umsatz. Mm. Ja, wenn du nicht
+[21:25] sagst, was du anbietest,
+[21:29] dich keiner. Und das muss ich halt auch
+[21:31] lernen, dass man auch mal richtig sagen
+[21:34] muss: "Jo, das ist meine Dienstleistung,
+[21:37] mich kannst du kaufen. Ähm, das kostet
+[21:41] sogar Geld und ich bin, das wäre dein
+[21:45] Nutzen. Ja, sprich mal mit mir oder buch
+[21:47] mich doch mal." Und man muss das auch
+[21:49] mal rausbringen. Ja, Social Media zur
+[21:51] Unterhaltung ist fein, man lernt auch
+[21:54] viel, aber es muss auch immer mal ein
+[21:57] Angebot mit rein. Man muss auch mal
+[22:00] sagen, was man wirklich macht und auch
+[22:03] mal auf den nicht auf schauen macht man
+[22:06] ja nicht, aber man sagt dann halt hier,
+[22:08] das ist es, Mensch.
+[22:10] befass dich doch mal mit meiner
+[22:12] Dienstleistung, weil jetzt habe ich dich
+[22:15] ein halbes Jahr lang entertained.
+[22:17] Vielleicht hast du ja Lust mit mir mal
+[22:19] zusammenzuarbeiten. Ja,
+[22:22] ich denke, man kann da auch vieles
+[22:23] übertragen auf äh sie oder die Webseite,
+[22:26] ne, was man in LinkedIn auch äh lernt
+[22:29] oder auch an Inhalten bringt. Äh
+[22:32] kombinierst du das auch irgendwie
+[22:35] im Moment nicht, muss ich sagen. Also
+[22:37] bin ich ganz ehrlich, ähm ist natürlich
+[22:40] schön ähm
+[22:43] den man hat ja schon mal Inhalt
+[22:46] produziert, also manchen Inhalt habe ich
+[22:49] natürlich schon aus meiner Ja, da hab
+[22:51] den habe ich schon mal irgendwo
+[22:53] geschrieben hier so die die die
+[22:57] zehn häufigsten Seofehler oder sowas,
+[22:59] dann nehme ich das von dem Beitrag von
+[23:01] vor 10 Jahren. Diese die Basics, die
+[23:04] haben sich ja kaum kaum geändert. Ja,
+[23:06] die die das werden immer noch die
+[23:07] gleichen Fehler gemacht wie früher
+[23:09] komischerweise. Ähm und dann kann man
+[23:11] das ruhig mal recyceln und mal mit ein
+[23:14] bisschen äh ja, aber dass ich jetzt
+[23:17] selber, dass ich das, was ich die
+[23:20] Energie, die ich in LinkedIn investiere,
+[23:22] dass ich die noch irgendwie woanders
+[23:23] raushole,
+[23:25] mache ich im Moment nicht. Also noch
+[23:27] vielleicht noch bei äh bei meinem Google
+[23:31] Unternehmensprofil, wo ich dann manchmal
+[23:33] denke, ach, du hast ja auch noch
+[23:35] Anhaupfile. Ah, du hast ja auch noch
+[23:37] Sing, ach, du hast ja auch noch äh keine
+[23:40] Ahnung YouTube, aber viel zu viel zu
+[23:43] alt. Äh, ne, aber nein, ich verwerte es,
+[23:45] ich verwre vielleicht eine Aufgabe für
+[23:47] mich. Ja, das äh das das wäre wäre
+[23:51] natürlich schön, ne, wenn man konsistent
+[23:53] vorwärts geht. Das das ist ja gerade so
+[23:55] die Richtung äh in der die sich SEO
+[23:59] entwickelt oder Marken entwickeln
+[24:02] sollten. Sollten halt jetzt jetzt noch
+[24:05] viel viel mehr darauf achten, dass sie
+[24:07] konsistent äh im im Netz unterwegs sind.
+[24:12] Ja.
+[24:12] Ja. Das finde ich auf jeden Fall auch
+[24:14] spannend. Also mit AI finde ich, da
+[24:16] gibt's halt ganz neue Möglichkeiten halt
+[24:19] Blogbeiträge beispielsweise wieder neu
+[24:21] zu bespielen, äh als LinkedIn Content zu
+[24:24] nutzen oder als Vorlage für Reals oder
+[24:27] Show Shorts. Ähm hast du damit schon mal
+[24:30] Erfahrung gemacht
+[24:32] mit Shorts
+[24:34] aus der Generation von Blogbeitrag
+[24:37] beispielsweise zu Shorts oder LinkedIn
+[24:40] Beiträge?
+[24:42] Nee, ehrlicherweise auch nicht. Ähm, ich
+[24:45] habe äh eins eines der Tools auf der
+[24:49] Tod-Do Liste. Es gibt gibt ja solche ähm
+[24:52] es gibt Generierungssachen.
+[24:54] Äh, steht hier an meinem meinem
+[24:56] Whiteboard dran. Da kannst du aus aus
+[24:58] dem normalen Blogartikel kannst du dir
+[25:00] ein Video machen.
+[25:01] Mhm.
+[25:02] Ja.
+[25:02] Möglichkeiten sind da. Wiederverwendung
+[25:06] von von dem ganzen. Also für Kunden,
+[25:07] also für mich mache ich das nicht, weil
+[25:10] Ja, klar
+[25:10] geht's ganz gut. Und ähm für Kunden äh
+[25:13] äh mache ich das. Ja, da dann nehmen wir
+[25:16] natürlich den ähm dann nehmen wir die
+[25:19] Inhalte, wenn die wenn die eine News
+[25:20] machen. Ähm dann dann streuen wir die,
+[25:23] dann streuen wir die auch äh wenn
+[25:25] möglich überall. Ja, dann geht das dann
+[25:28] geht das äh in abgewandelter Form zu
+[25:30] LinkedIn, dann geht das in äh
+[25:32] abgewandelter Form in die in die in die
+[25:35] eigenen äh äh Profile
+[25:39] und äh da teilweise auch dann übersetzt,
+[25:42] weil wenn man es einmal hat, dann kann
+[25:43] man es ja auch gleich in zehn Sprachen
+[25:46] machen. Ähm, also das äh diese, ich sag
+[25:50] mal, diese Multiverwertung von Content,
+[25:53] das das kann man kann man schon machen,
+[25:55] aber ich denke, das machen oder
+[25:57] hoffentlich machen das viele Firmen.
+[25:59] Wenn nicht, dann äh ist das ist das ein
+[26:01] toller Weg ähäh zu sagen, ich äh
+[26:04] bespiele da ein paar unterschiedliche
+[26:06] Sachen. Aber am Ende muss man sich auch
+[26:08] muss ich auch sagen jetzt, wenn man
+[26:10] jetzt sagt, okay, man hat ein Haufen
+[26:12] Profile, äh es werden welche hinten
+[26:15] runterfallen und ähm
+[26:16] Mhm. Du du kannst also außer du machst
+[26:20] es schlecht, du kannst nicht jeden Kanal
+[26:24] sauber zu bespielen, weil gerade auch
+[26:26] Social Media lebt ja auch von
+[26:28] Interaktion und
+[26:30] da muss man ja auch, ne, da es wä voll
+[26:34] Job und die die armen Social Media
+[26:37] Manager, also Shoutout an alle armen
+[26:39] Social Media Manager, die da äh Text
+[26:43] produzieren, Bild produzieren,
+[26:45] ja, Video produzieren und das noch alles
+[26:48] in F bis 10 Social Medas plus die
+[26:52] Interaktion und die Fragen intern
+[26:54] extern. Also ja, und dann
+[26:57] das das geht auf Dauer nicht. Äh und da
+[27:00] muss man sich entweder verstärken,
+[27:04] also manuell verstärken, dass man mehr
+[27:06] mit le mehr Leuten reingeht oder dass
+[27:07] man dann sagt, okay, eigentlich in
+[27:09] unserer Branche ist äh vielleicht dieser
+[27:13] Kanal der schönste oder dieser Kanal der
+[27:15] schönste. Also, ich denke, YouTube ist
+[27:17] aber auch YouTube ist eine tolle Sache.
+[27:23] Es ist spielt in viele viele ähm
+[27:27] Gesichtspunkte mit rein, also auch zur
+[27:30] Vertrauensbildung
+[27:32] auch Teil des des Google Universums. Ja,
+[27:36] aber die ähm ich glaube in in YouTube,
+[27:39] man hört ja mal die Stimme so wie bei
+[27:40] uns jetzt hier bei uns beiden. Man man
+[27:42] hört die Stimme, man man sieht das
+[27:44] Gesicht. Ähm, man kann in so einem Video
+[27:49] äh viel viel mehr zeigen, als man
+[27:51] vielleicht in in fünf Artikeln machen
+[27:54] könnte. Und ähm
+[27:58] wenn wir schon im im über Video Content
+[28:01] reden, dann glaube ich unterschätzen
+[28:03] noch ganz viele Leute dieses ähm
+[28:06] Hochkant, also die das dies Shortform
+[28:10] sind.
+[28:11] Ähm, das ähm macht ja einen großen
+[28:15] großen Teil des gesamten Internetstreffs
+[28:17] aus und sich darüber mal Gedanken zu
+[28:20] machen, wie man wie man Video
+[28:22] produziert, was dann alle diese Formate
+[28:25] beinhaltet
+[28:27] und das dann zu veröffentlichen. Das
+[28:29] kann schon Sinn machen.
+[28:31] Sehr interessant. Auf jeden Fall, du
+[28:33] machst ja auch sehr ähm also Google Ads,
+[28:36] ne? Wie wie bespielst du das momentan?
+[28:39] hast du mehr Anfragen im SEA oder mehr
+[28:41] Anfragen im SEO? Äh was machst du bei
+[28:45] Kunden, die z.B. schneller Ergebnisse
+[28:47] wollen? Wie äh du davor?
+[28:50] Wer
+[28:51] wer wer für schnelle Ergebnisse will,
+[28:53] der ist natürlich also der ist bei
+[28:55] Google Ads oder bei Paid Ads allgemein
+[28:58] äh gut aufgehoben.
+[29:01] Ähm gerade am Anfang macht das Sinn,
+[29:03] also wenn ich noch nicht viel,
+[29:06] also okay, kommt drauf an. Okay, fangen
+[29:08] wir noch mal. Kommt drauf an. Die
+[29:10] Lieblingsantwort
+[29:11] ja,
+[29:11] kommt drauf an. Ja, wo bist du? Wo
+[29:13] willst du hin? Was hast du für
+[29:15] Ressourcen? Wenn du ein bisschen Geld
+[29:17] hast und du musst du startest neu, dann
+[29:22] ist Payads
+[29:24] dein richtiger Kanal. Ja, also da kannst
+[29:27] du
+[29:28] ähm dir
+[29:30] äh dein dein Traffik und Umsatz dann
+[29:33] einkaufen. Brauchst du aber auch das
+[29:35] Geld. Du brauchst natürlich das Budget
+[29:36] und das auch natürlich in ordentlicher
+[29:38] Höhe, weil so ein Spielbudget
+[29:41] verschwendet meist auch nur Energie,
+[29:44] weil da musst du meistens musst du noch
+[29:46] den den Paid Manager äh äh bezahlen, du
+[29:49] musst dein Budget vorhalten, du musst äh
+[29:52] dir auch ein Tracking einrichten. Ähm
+[29:55] das ist schon ein bisschen Investition
+[29:58] verbunden, ne? Und ähm
+[30:00] aber das ist für ein Staat, für
+[30:01] jemanden, der ein neues Geschäft hat
+[30:03] oder eine Aktion fährt oder der
+[30:05] überhaupt wachsen will, expandieren
+[30:07] will, vielleicht auch andere Länder
+[30:09] machen will äh oder neue neue neue
+[30:12] Sachen ist ist P am Anfang erstmal toll,
+[30:15] weil du kriegst die Traktion rein, du
+[30:21] ähm lernst auch was was wie die
+[30:24] Zielgruppe tickt
+[30:26] und kannst
+[30:27] dann
+[30:28] Ja, wenn du das ein bisschen angeschoben
+[30:30] hast und hoffentlich bei einem positiven
+[30:33] Return on Investment
+[30:34] kannst du dann auch sagen, okay,
+[30:38] wir wir übernehmen jetzt die Learnings
+[30:39] ins SEO.
+[30:41] Mhm.
+[30:45] Und bauen das SEO auch mal als als
+[30:48] langfristigen Channel damit auf, ähm,
+[30:50] dass halt auch noch ähm Treffig über
+[30:54] diesen Kanal reinkommt.
+[30:56] Ja. Mm. Und wenn du wenn du gar kein
+[30:58] Budget hast, dann also gar kein Budget
+[31:00] ist immer schlecht. Ja, also das ist
+[31:02] total schwierig, äh weil ja, jeder
+[31:04] Treffic kostet Geld und das ist eine
+[31:06] Tendenz, die
+[31:08] die letzten Jahre zugenommen hat, die
+[31:12] Klickpreise oder allgemein der Treffik,
+[31:15] der wird richtig teuer.
+[31:18] Wenn du mich fragst, wo geht's hin, also
+[31:20] es war schon es war schon die letzten
+[31:22] Jahre schlimm diese was du manchmal
+[31:24] jetzt auf den Tisch legen musst für
+[31:27] geldwerte Suchwörter äh oder für
+[31:30] überhaupt Zielgruppen, die die nahe am
+[31:32] Kauf dran sind
+[31:34] und das wird immer immer weiter teurer
+[31:37] und selbst Seotreffic ist ja nicht
+[31:39] kostenlos.
+[31:40] Mhm.
+[31:42] Du musst du musst eine Strategie machen.
+[31:44] Du musst deine deine Suche finden. Du
+[31:47] musst deine Webseite dahin optimieren.
+[31:49] Du musst den Inhalt produzieren.
+[31:52] Du musst auch wieder Tracking
+[31:54] einrichten. Du musst dann für äh
+[31:57] Sichtbarkeit sorgen. Also du musst das
+[31:59] ein bisschen
+[32:00] bisschen bisschen und du musst de dein
+[32:02] SEO Manager bezahlen und du musst die
+[32:05] das überwachen. Du musst ein Tool haben,
+[32:07] dass du auch sinnvoll vorwärts gehst,
+[32:09] dass du halt siehst, also es macht Sinn.
+[32:11] ne? Das kostet alles Geld. Und ähm
+[32:15] wenn man das wenn man das richtig macht,
+[32:17] ähm ist das natürlich eine gute
+[32:19] Investition. Also ähm SEO an sich äh ähm
+[32:23] selbst jetzt, wenn alle sagen SEO sei
+[32:26] tot, nein, ist es lange nicht. Äh unter
+[32:28] schnell geht das auch nicht. Aber du
+[32:29] kannst du du kannst immer noch du kannst
+[32:31] immer noch die Klicks kriegen. Es
+[32:33] braucht nur länger. Da waren wir ja
+[32:34] schon. Es braucht halt heute nicht mehr
+[32:36] diese drei Wochen.
+[32:39] Es äh die Erkenntnis aus dem letzten
+[32:41] Google League war ähm 13 Monate, also
+[32:45] mal endlich mal eine Zahl, die wir 13
+[32:48] Monate sammelt ähm Google Nutzersignale
+[32:52] auch über Chrom böse böse, aber ja, sie
+[32:55] tun es und ähm sie sammeln halt die
+[32:58] Nutzersignale
+[33:00] zu deiner Domain und zu deinen
+[33:04] Unterurelds.
+[33:05] Mhm. Und wenn du dich in der Zeit äh als
+[33:09] gut bewiesen hast, ähm dann also in der
+[33:12] Zeit ist alles noch so ramp. Ja, da ist
+[33:14] immer noch die Babyphase, wo dann wo es
+[33:17] dann wo danach dann kannst du erst
+[33:19] sagen, okay, das hat das hat jetzt
+[33:20] wirklich den vollen Impact gebracht. So
+[33:22] und das ist natürlich eine lange Zeit.
+[33:24] Mhm.
+[33:25] Wenn man das dann natürlich geschafft
+[33:26] hat und wer wer einmal auf Platz 1
+[33:28] gestanden hat, der der weiß, was das was
+[33:33] das äh macht. Dann ähm
+[33:37] dann ist das ein guter Kanal und
+[33:38] meistens bleiben die Rankings, wenn man
+[33:40] jetzt nicht so viel grobe Fehler macht
+[33:43] oder jetzt nur irgendwelche Schnellbote
+[33:45] vorbeiziehen, dann bleibt man ja
+[33:47] meistens da oben in den ersten drei
+[33:49] Positionen
+[33:51] für ein paar Monate, paar Jahre. Ja. Und
+[33:55] dann musste man noch mal nachsteuern. Da
+[33:57] muss man nach ein zwei Jahren dann noch
+[33:58] mal gucken, bin ich wirklich noch oben?
+[34:01] Kann ich vielleicht noch erweitern? kann
+[34:04] ich noch noch besser sein? Ähm, gab's
+[34:07] einen Wettbewerber, der in der Zeit äh
+[34:09] aufgeholt hat? Was macht der?
+[34:11] Was macht der besser?
+[34:13] Mhm. Ja, auf jeden Fall coole coole
+[34:17] Insights. Denke auch viele noch mal
+[34:19] Tipps ähm an jeden, der auch neu
+[34:21] startet. Ähm also was ist so deine
+[34:24] Empfehlung, was man jetzt so minimum
+[34:27] investieren sollte äh mit äh Google Ads
+[34:30] beispielsweise?
+[34:32] Ähm, was was hast du da für äh
+[34:35] Empfehlung?
+[34:36] Das ist jetzt kommt da kommt auch wieder
+[34:37] drauf an. Ähm äh minimum Ach du meine
+[34:41] Güte ähm ich sag mal ja, sagen
+[34:45] vielleicht unter unter 1000 monatlichen
+[34:47] Budget sollte man es vielleicht
+[34:49] überlegen, das sein zu lassen
+[34:51] und sich vielleicht auf andere Kanäle zu
+[34:53] konzentrieren.
+[34:54] Also nur, also nur BG, ne? Also ohne
+[34:57] Manager.
+[34:59] Ja.
+[35:00] Mm. Ja. Na ja, weil das ist äh nur jetzt
+[35:04] mal hypothetisch, du drückst 500 € ähäh
+[35:08] Budget rein, wenn du wenn du den
+[35:10] Anweisungen von Google Ads folgst,
+[35:13] dann bist du ganz schnell deine 500 €
+[35:18] los und hast gar nichts gekriegt, ne?
+[35:20] Und das hat das ist immer wundervoll
+[35:22] beschrieben
+[35:23] ähm mit wie heißt denn das? optimierte
+[35:27] Ausrichtung und wenn du den Klick folgst
+[35:30] oder dieses automatische Anwenden, wenn
+[35:33] du wenn du deinem Konto irgendwas
+[35:35] automatisch anwendest oder auf eine
+[35:38] optimierte KI gesteuerte Ausrichtung mit
+[35:41] einem weitesgehend passenden Keywörtern,
+[35:45] ja, das das werden jetzt alle Google Ads
+[35:48] Manager werden sagen, ja, aber der Kunde
+[35:51] weiß es ja nicht, wenn er es selber
+[35:53] steuert, weiß er ja nicht. Ja, das der
+[35:56] sagt und hört sich toll an. Klicke ich
+[35:57] mal. Google wird schon wissen.
+[35:59] Ja, leider. Nein. M böse böse. Na,
+[36:04] Google kann dein Freund sein, aber in
+[36:07] dem Fall wäre er es nicht. Oder du
+[36:11] müsstest so viel Energie so lange
+[36:14] warten, bis er dann wirklich nach zi d
+[36:16] Jahren mal gelernt hat. Aber in der Zeit
+[36:18] hast du halt eine Menge Geld
+[36:19] verschwendet. Also bitte bitte an, also
+[36:21] eine Botschaft noch bitte bitte, wenn du
+[36:23] mit Google Ads machst und dann versucht
+[36:26] dir wenigstens am Anfang die
+[36:28] Grundsettings von jemanden reinzuholen,
+[36:31] der es schon mal gemacht hat. Da gibt's
+[36:34] viele kleine Knöpfe, die man setzen
+[36:39] kann, die dir aber verborgen bleiben,
+[36:41] wenn du als Anwender da drüber rauscht.
+[36:47] Da sollte man lieber dich beauftragen
+[36:49] oder jeden jeden anderen Ads Manager von
+[36:52] mir aus. Also das ist muss man mit mit
+[36:54] Vorsicht genießen. Ja, also die die die
+[36:57] Grund Setups sind oft Google geht dahin.
+[37:00] Also, wenn du mich jetzt fragst, was hat
+[37:02] sich denn was hat sich denn geändert
+[37:03] oder wo ist das denn? Also, die waren ja
+[37:05] schon immer da. Die wollten eigentlich
+[37:07] wollen die alle, die wollen, dass
+[37:10] die die wollen, dass du die Domain gibst
+[37:14] oder die Tillseite, dass du dein Budget
+[37:16] gibst
+[37:17] und dass du einen Freibrief
+[37:20] unterschreibst. Mach, mach, ne? So nach
+[37:24] dem Motto, du brauchst gar keine, du
+[37:26] brauchst gar keine Einstellung, wir
+[37:27] wissen alles besser.
+[37:29] Mhm. Aber
+[37:31] ja, also sowas würde auch nur
+[37:34] funktionieren, wenn dein Tracking
+[37:35] richtig aufgesetzt ist.
+[37:37] Tracking richtig aufsetzen ist
+[37:39] mittlerweile so komplex geworden, da
+[37:41] muss ja der Konsent mit reinspielen.
+[37:43] Dann gibt's gerade in der Branche keine
+[37:46] Ahnung, ist so
+[37:48] jeden Monat
+[37:50] Update und was ich. Also du musst
+[37:52] sowieso erstmal, du musst, wenn du mit
+[37:54] Ads anfängst zu spielen, egal welches
+[37:56] Ads, du brauchst erstmal sauberes
+[37:58] Tracking. Sauberes Tracking ist
+[38:02] ähm möglich, ja, aber du musst es auch
+[38:05] mal erstmal einrichten. Und da fängt's
+[38:07] schon an, das äh das müssen muss ja auch
+[38:10] wieder muss ich auch wieder an
+[38:11] Spezialisten wenden. Das mache ich mache
+[38:13] ich mittlerweile auch nicht mehr. Dafür
+[38:15] habe ich jetzt auch gute Leute gefunden,
+[38:17] die das viel viel schneller und viel
+[38:19] viel schöner können als ich, weil die
+[38:21] die müssen sich da ja auch ab to date
+[38:23] halten.
+[38:24] Mm. Ja, das ist das das überschätzt man
+[38:26] ja dermaßen. Also äh ich hatte mich da
+[38:29] auch ein bisschen beschäftigt mit
+[38:30] Tracking und das ja so komplex, also
+[38:34] wenn du im E-Commerce,
+[38:36] also das ist eine Wissenschaft an sich.
+[38:40] Ach ecomers ist das richtig. Also ich
+[38:43] ich kenne ich kenne Leute, die haben
+[38:45] 50.000 € in ihr Tracking investiert. Ich
+[38:47] meine, das ist natürlich
+[38:49] ähm
+[38:51] wenn du wenn du wenn du ein Zalando bist
+[38:53] oder ein großer oder irgendwas, dann
+[38:56] macht das auch Sinn. Dann kannst du das
+[38:58] auch rechtfertigen, dann kannst du auch
+[38:59] sagen, okay, jetzt brauchen wir alles
+[39:01] noch.
+[39:02] Also Tracking, also ein richtiges
+[39:03] Tracking kostet auch 2 3000 € mindestens
+[39:05] im Monat. Es kommt immer es noch mal
+[39:08] kommt immer drauf an, wenn du jetzt je
+[39:09] nachdem was du hast ähm wenn du wenn du
+[39:12] ein relativ bekanntes System hast und
+[39:15] nicht so verbackt, ähm
+[39:17] kriegt man das kriegen die Tracking
+[39:20] Leute das äh relativ
+[39:25] äh gut hin. Ähm
+[39:28] ja, komm, wir kommen drauf an. Das kann
+[39:30] man das kann man jetzt wirklich nicht
+[39:31] sagen. Also, du aber man braucht's. Ich
+[39:34] sag jetzt mal so, wir waren ja da
+[39:35] steheneblieben. Was was brauchst du,
+[39:36] wenn du mit Ex startest? Du
+[39:39] fang fang fang am besten nicht an. Ich
+[39:41] habe auch schon jetzt letzte Woche erst
+[39:44] habe ich eine Kampagne pausiert, weil
+[39:46] das oder Konto pausiert, weil das
+[39:49] Tracking ausgefallen ist und ich dann
+[39:51] gesagt habe, ja, okay, bevor wir bevor
+[39:53] wir jetzt weiter blind fahren, das muss
+[39:55] man auch überwachen, ne? Muss ja dann
+[39:56] auch sagen, okay, ein Tracking kann
+[39:59] ausfallen. Ja, na klar, Tracking kann
+[40:00] ausfallen. G, wie oft sowas passiert,
+[40:03] ne? Also da bügelt einer irgendwas
+[40:05] drüber, dachte, das hat doch keine
+[40:07] Auswirkung und bup, Tracking weg, ne?
+[40:09] Und äh
+[40:10] das man sieht's natürlich, wenn du die
+[40:12] Zahlen im Blick hast, siehst es. Aber
+[40:14] ja, wichtig, bevor man mit äh mit mit
+[40:17] Ads startet, Tracking aufsetzen bei dem
+[40:20] befreundeten Trackingspezialisten, den
+[40:22] man so hat. Ähm, ich glaube, der der der
+[40:26] Google Ads Support, der der macht sowas
+[40:29] auch. Ähm äh wobei ich den noch mal den
+[40:32] Google Ads Support den, also die Leute,
+[40:34] die dich immer anrufen, ne? Ist
+[40:35] kostenlos Strategieberatung und n wir
+[40:37] haben da Potenziale in deinem Dings
+[40:38] gefunden. M da, das möchte ich jetzt
+[40:41] sagen, das ist es eher nicht. Die werden
+[40:45] die werden dich ganz viel zu diesen
+[40:47] automatisierten
+[40:50] Anwendungsdingern
+[40:52] bringen und ohne dass du es weißt,
+[40:54] machen dir dein die machen dir deine
+[40:56] Kampagne so weich
+[40:58] und das ist aber die haben die haben
+[41:00] z.B. die haben einen Support, ich hatte
+[41:03] den auch schon mal in Anspruch genommen.
+[41:06] Äh ja.
+[41:09] Ja, aber nein, eigentlich nein. Also,
+[41:11] wenn du wenn du es richtig machen
+[41:13] willst, dann suchst du dir dann suchst
+[41:14] du den richtigen Tracking Spezi und äh
+[41:17] ist auch nett von dem und äh weil den
+[41:20] brauchst du nämlich in einem Jahr noch
+[41:21] mal, ne, oder in zwei, also weil das ist
+[41:24] jetzt nicht, dass du das aufgesetzt hast
+[41:25] und dann ist gut unser Tracking haben
+[41:27] wir vor 5 Jahren eing natürlich läuft
+[41:28] das sauber. Na, was vor 5 Jahren? Da ist
+[41:30] Concent 2 gekommen, da ist das gekommen,
+[41:32] da hast du in der Zeit ein Skript
+[41:34] installiert, was alles überbügelt, da
+[41:37] haben deine deine Mitarbeiter sonst was
+[41:39] gemacht, ne? Also ähm und ne
+[41:43] ja okay, alles gut. Ja,
+[41:46] genau. Also, wir haben wir sind ja auch
+[41:47] beide im Freelancer Team, ne?
+[41:50] Ähm und da finde ich es auch sehr
+[41:51] spannend, solche Synergien zu entwickeln
+[41:55] mit Tracking, äh SEA SEO, ähm auch
+[41:59] alles, was das Marketing so beinhaltet.
+[42:02] Ähm wieso sind sind so da deine
+[42:05] Erfahrung äh in diesem Freelancerteam
+[42:08] solche Synergien zu schaffen?
+[42:11] Also, Freelancerteam macht mich
+[42:13] glücklich, muss ich sagen. Ähm, das hört
+[42:15] sich jetzt äh äh ja, ich mache ich mache
+[42:17] auch ich engagier mich ja viel im
+[42:19] Freelancerteam. Ähm ja, für alle die das
+[42:23] nicht kennen, also das ist ein
+[42:24] Zusammenschluss aus äh 50
+[42:27] spezialisierten äh Freelancern aus allen
+[42:31] Marketingdisziplinen.
+[42:33] Ähm ja, da sind wir beide drin. Ähm da
+[42:36] sind noch ein paar andere SEO
+[42:38] Spezialisten drin. Google Ads, Metaads,
+[42:42] LinkedIn Ads,
+[42:45] Adsspezialisten drinne, da sind
+[42:47] Strategen drinne, Texte,
+[42:51] äh Designer,
+[42:54] Entwickler, Videocutter, ähm eigentlich
+[42:57] all diese Disziplinen, die man
+[42:59] eigentlich braucht, um sinnvoll
+[43:02] im Online Marketing rauszuspielen. Und
+[43:04] warum warum macht mich das so glücklich?
+[43:06] Weil ich habe natürlich über die Jahre
+[43:09] schon angefangen gehabt, mir mein mein
+[43:11] eigenes Netzwerk aufzubauen, weil ich
+[43:13] weil ich gelernt habe, man kann nicht
+[43:16] alles selbst bedienen. Ja, ich bin eine
+[43:18] One Man Show und ich bin gut in ein paar
+[43:22] Disziplinen
+[43:24] und es detet sich aber alles furchtbar
+[43:27] schnell ab, wie wie man es gerade
+[43:30] hatten. Tolle Überleitung, es deet sich
+[43:32] alles voll ab
+[43:33] und früher habe ich z.B. die
+[43:35] Installation des Trackings noch
+[43:37] mitgemacht und heute sage ich: "Nee, das
+[43:40] gebe ich an den Spezialisten." Das ist
+[43:42] das beste Beispiel daran. So, dann wenn
+[43:46] ich einen Kunden habe und erkenne m der
+[43:52] hat eine Zielgruppe, die besser in
+[43:54] Metaads, ja, also in Insta und Facebook
+[43:57] und
+[43:59] die er da erreicht, dann wäre es ja
+[44:02] fatal, wie ich finde, jetzt zu sagen,
+[44:05] oh, ich mache jetzt auch noch Metaads
+[44:07] mit, weil ich ja schon mal von S gehört
+[44:09] habe. Das ist nicht mein Credo. da suche
+[44:12] ich mir jemanden, der hoffentlich
+[44:15] genauso engagiert und leidenschaftlich,
+[44:18] aber eben im Meta jetzt drinne ist. Und
+[44:20] dann gebe ich das eben an diese an die
+[44:24] an die Spezialisten ab und
+[44:29] Mhm.
+[44:30] fahr dann natürlich für den Kunden
+[44:31] bessere Ergebnisse als wenn man das als
+[44:35] Bauchladen hat. Das ist meiner Meinung
+[44:37] nach deshalb bin ich da oder das das da
+[44:40] sehe ich großes Potenzial. Ich denke,
+[44:42] das wird es wird so ein bisschen in die
+[44:44] Richtung gehen. Wir müssen alle noch
+[44:46] viel viel spezialisierter werden. Also,
+[44:49] wir müssen alle noch ein bisschen mehr
+[44:51] unsere Fähigkeiten, die wir jetzt schon
+[44:54] haben und die Themen, die wir jetzt
+[44:57] bespielen, noch tiefer abdecken, als
+[44:59] dass du wirklich Ja, SEO ist auch ein
+[45:02] großes Feld. Ja, es gibt, dass du also
+[45:04] du musst du musst musst ein Spezialist
+[45:06] für eine Disziplin im SEO werden. Also
+[45:09] meiner Meinung nach SEO ist so groß
+[45:11] geworden, so komplex geworden, auch Ads
+[45:14] so groß geworden, so komplex geworden.
+[45:15] Dieses ganze Markenspiel, dieses ganze
+[45:19] das ganze Online Marketing ist ist so
+[45:22] komplex geworden und es wird immer
+[45:24] weiter komplexer. Das ist ja das
+[45:25] Schlimme. Diese Konzerne wird treten ja
+[45:28] immer oder wir spielen ja immer mit den
+[45:29] Konzernen am Brot. Ja, die die
+[45:31] beschäftigen halt eine Horde an den
+[45:33] besten Programmierern der Welt und die
+[45:35] die ballern die ballern Updates. Ähm ne,
+[45:39] früher war einmal im Jahr so ein Major
+[45:43] Update da. Ja, heute bist du schon fast
+[45:45] bei alle drei Monate, wo dann da kommt
+[45:48] da ein neues Ding. Fahr doch mal drei
+[45:49] Wochen in Urlaub und guck danach mal
+[45:51] deine Tools an. Dann hast du da einen
+[45:53] neuen Knopf, da ein neues Ding. Das ist
+[45:56] noch weggefallen. Äh hier die Funktion,
+[45:58] die haben sie geändert, umgestellt auf
+[46:00] das. Dann haben sie da äh da muss du
+[46:03] plötzlich da noch was ausfüllen für den
+[46:04] Datenschutz. Da muss also ähm und du es
+[46:10] also es wird komplexer, es kommen immer
+[46:12] mehr Updates und ich glaube, es macht
+[46:14] total Sinn, sich zu reduzieren auf das,
+[46:17] was man kann, was man liebt, um das noch
+[46:19] ein bisschen tiefer zu spielen. Ja, das
+[46:21] wenn man eine Disziplin hat, da richtig
+[46:24] rein und da drinne fit sein bleiben, das
+[46:28] ist schon das ist schon eine Aufgabe.
+[46:29] Und dann dann, wenn ich jetzt z.B. Wenn
+[46:31] ich jetzt einen äh richtig große
+[46:35] Webseite äh hätte, äh dann wüsste ich
+[46:39] halt im Freelancerteam jemanden, der die
+[46:42] besonders gut technisch kraulen kann,
+[46:44] ja, weil er eben schon mal mit 100.000
+[46:47] URLs umgegangen ist. M
+[46:50] ja, ne? wo ich dann sag m das ist auch
+[46:53] eine Spezialisierung im SEO zu sagen,
+[46:55] okay und und Krauling ähm äh na wird
+[47:01] wird auch also Krauling Indexierung
+[47:04] äh wird noch mal zur Disziplin, meiner
+[47:07] Meinung nach, weil ich in der
+[47:08] Searchkonsole gibt's ja die zwei
+[47:11] Buttons. Gekrault,
+[47:13] nicht indexiert.
+[47:14] Ja. Ja.
+[47:15] Was ist der andere? Gekrault.
+[47:18] Äh, gekrault, nicht indexiert, gekrault,
+[47:22] ähm covert. Ja. Ähm, ich
+[47:26] auf jeden Fall, es gibt diese zwei
+[47:27] Buttons, wo Google auf deiner Seite war
+[47:30] entdeckt heiß, glaube ich, discover
+[47:32] auch ähm auch die Seite gekrault hat,
+[47:36] sagen sie,
+[47:37] aber sie nicht in den Index genommen
+[47:39] haben. Warum denn nicht? Ja, früher
+[47:40] waren die so heiß, die haben dir an
+[47:42] jeder Ecke, die haben dir die haben dir
+[47:44] sogar deine deine ganzen Lockenseiten
+[47:46] versucht zu krauleln. Die waren so
+[47:48] aggressiv und da von dieser Strategie
+[47:49] gehen die weg.
+[47:51] Mhm.
+[47:52] Netz wird größer jeden Tag.
+[47:54] Mhm.
+[47:55] Das ja, Netz wird größer und die das
+[47:58] sind Ressourcen und wie gesagt Kraul
+[48:01] Indexierungsmanagement nehmen mal als
+[48:03] Beispiel. Ähm
+[48:04] geh doch mal rein in deine Google Search
+[48:06] Konsole. Wä jetzt so ein Standardtipp,
+[48:08] ja, wenn du mit SEO anfängst, ja, wie
+[48:10] fange ich denn an? Mach mal bitte eine
+[48:12] Google Search Konsole auf als Domain
+[48:15] Property.
+[48:16] Geh mal da rein. Das ist ja kostenlos,
+[48:18] kostenloses Tool. Man braucht nur ein
+[48:20] Google Konto. Gibt seine Domain ein und
+[48:22] dann sieht man unter dem Reiter Seiten,
+[48:25] den es da ja gibt,
+[48:27] sieht man aha gegrault, nicht indexiert.
+[48:29] Und dann guckt man sich mal diese
+[48:30] Unterseiten an und guckt dann, was ist
+[48:32] das? Und wenn das einen großen großen
+[48:34] Teil von Seiten betrifft, die du
+[48:37] eigentlich im Index haben wolltest, da
+[48:39] musst du dir Gedanken machen, warum
+[48:41] vertraut mir denn dann nicht? Kann ich
+[48:43] mich besser intern verlinken? Ähm und
+[48:47] das ist natürlich, je größer deine Seite
+[48:49] wird, desto wichtiger.
+[48:51] Mhm.
+[48:51] Wenn du jetzt eine bloß eine unter bloß
+[48:53] eine Seite hast mit 50 Seiten, na ja,
+[48:58] wenn da mal dreie nicht drin sind, alles
+[49:00] gut. Aber wenn du jetzt ein Shop hast
+[49:01] mit 20.000 Seiten und es sind aber
+[49:04] 10.000 Artikel gar nicht indexiert, das
+[49:08] ist ja schon die Hälfte deines Inventars
+[49:10] und dann ist natürlich
+[49:13] die Indexierungsherstellung ist sowieso
+[49:14] erstmal der erste Schritt. Du musst
+[49:16] erstmal indexiert werden, damit du
+[49:17] überhaupt ein Ranking aufbauen kannst.
+[49:19] Und das ist das wird glaube ich zur
+[49:21] Disziplin oder ist es schon? Mhm.
+[49:23] Ähm das gut zu steuern.
+[49:25] Mhm. Ja, sehe ich absolut genauso. Also
+[49:28] Crawling oder Crawling ähm ist ja in dem
+[49:31] Sinne das Durchsuchen, ne, der Seite, so
+[49:34] für alle, die es nicht äh wissen, was es
+[49:36] ist. Ähm und vor allen Dingen verwässert
+[49:39] ja auch verwesser ja z.B. bei Shopify
+[49:42] werden ja die ganzen URLs enorm
+[49:44] verwässert durch so dynamische URLs
+[49:46] durch Apps, ne? Also in Shopify
+[49:49] kannst du enorm viele Apps irgendwie
+[49:51] dazu schalten, die ja irgendwas
+[49:52] technisches verändern auf deiner Seite.
+[49:55] Und wenn du da nicht weißt äh wie wie
+[49:58] welche Tools irgendwelche dynamischen
+[49:59] URLs erzeugen, äh das crawt oder
+[50:03] durchsucht Google ja alles, versucht es
+[50:05] dann zu indexieren oder auch nicht. Und
+[50:08] dann gehen ja die Produktseiten oder die
+[50:11] äh Collection Pages oder so, die du hast
+[50:14] ja total unter, ne? Du hast ja dann
+[50:17] vielleicht 5000 Produkte, aber 50.000
+[50:22] URLs sozusagen, die irgendwo existieren
+[50:25] und dann musst du erstmal wissen, okay,
+[50:27] wie finde ich überhaupt meine
+[50:29] Produktseiten wieder? Ähm und ähm das
+[50:32] ist auch ein krasses Problem E-Commerce.
+[50:35] Das ist es gut, gut, dass du das sagst.
+[50:38] Ähm, man muss es man muss eben auch mit
+[50:42] einem wissenden Auge mal drüber gucken,
+[50:44] ja, wenn äh solche solche Sachen solche
+[50:48] Sachen passieren regelmäßig. Ja, also
+[50:50] das ist jetzt nichts ungewöhnliches und
+[50:53] also Parameter URLs, die dich ungewollt
+[50:56] zum Spammer machen, ähm passieren halt
+[50:59] regelmäßig. Ja, es wird jetzt
+[51:01] wahrscheinlich ein bisschen zu
+[51:02] technisch. Man kann mm
+[51:05] am besten man unterbindet. Äh, aber wenn
+[51:07] es nicht zu unterbinden geht, das
+[51:09] passiert auch manchmal, je nachdem
+[51:10] welches System man hat, dann kann man ja
+[51:12] gegensteuern. Man könnte mit dem
+[51:14] Canonical Teag gegensteuern oder man
+[51:16] könnte ähm
+[51:19] ähm ja, wie gesagt, die Indexierung
+[51:21] ausschließen äh oder am besten natürlich
+[51:23] das Problem beheben. Das wäre auch gut.
+[51:25] Aber was ich sagen wollte ist, man muss
+[51:27] dann auch ein technischer Check oder die
+[51:30] Google Search Konsole, die würde dir das
+[51:33] zeigen.
+[51:35] Mm.
+[51:36] die Interpretation,
+[51:41] wie gravierend ist das denn? Mhm.
+[51:43] Ist das jetzt eine Priot,
+[51:47] also Prio 1 sofort? Oder kann man damit
+[51:50] halbwegs leben? Ist es überhaupt
+[51:54] technisch umzusetzen? Also die die
+[51:56] Interpretation, was mir dieser Fehler,
+[51:58] den ich da sehe oder die
+[52:01] Optimierungsmöglichkeit,
+[52:02] das ist immer noch das ist immer noch
+[52:04] ähm Menschenaufgabe. Ja, also das äh
+[52:08] da
+[52:10] muss man abschätzen, also was wie
+[52:13] gravierend ist das?
+[52:15] Ähm
+[52:17] kann ich kann ich beheben. Manchmal ist
+[52:19] es auch
+[52:21] richtig komplex.
+[52:24] Ähm und dann muss man halt sehen, was
+[52:27] ja, also man muss abschätzen, muss
+[52:29] abschätzen. Auch an ganz einfach musst
+[52:30] du sagen, okay,
+[52:32] das das kriegen wir jetzt das kriegen
+[52:34] wir jetzt gelöst. Schön wäre es
+[52:36] natürlich, wenn man immer sauber spielt,
+[52:37] aber das ist ja unmöglich. die die
+[52:39] Webseiten Webseiten sind komplexe
+[52:41] Konstrukte, die selbst die einfachste
+[52:43] WordPressseite äh kann dir auch sowas
+[52:46] machen.
+[52:47] auch heute immer noch diese Feed und was
+[52:51] sie da alles produzieren und das
+[52:53] Schönste ist, ich installiere ein SEO
+[52:55] Plugin im WordPress, ja, oder ich also
+[52:58] die die Kunden und dann vergessen sie
+[53:00] das zu konfigurieren und plötzlich ist
+[53:02] äh jeder Tag äh jede produziert
+[53:08] produziert eine Sitemap und die wird
+[53:11] wird da auch wild an den an den Krauler
+[53:14] gesendet und Ja, al du mehr desto besser
+[53:17] und so. Na ja, nee, eigentlich nicht,
+[53:19] ne? Also sauberes Spiel heute angesagt.
+[53:22] Ähm
+[53:22] und da hat man auch schon gut zu tun.
+[53:24] die äh also Zeitpflege ist auch sehr
+[53:29] interessantes Ding. wäre jetzt noch ein
+[53:31] Tipp, du wolltest ja oder wenn wir jetzt
+[53:33] hier Tipps rausgeben wollen, äh ich sehe
+[53:37] immer immer wieder Sidemaps, die also
+[53:42] URLs enthalten, die gar nicht enthalten
+[53:44] sein sollten oder andersrum zu wenig
+[53:47] UHLs enthalten
+[53:49] oder dann noch, ich weiß nicht warum,
+[53:52] aber oft äh machen das Systeme äh, dass
+[53:56] dann dieses Last Mod, also die Last
+[53:59] letzte Änderung die ist dann äh
+[54:01] plötzlich immer tagesaktuell. Ja. Äh
+[54:04] plötzlich äh a 8000 Seiten äh die alle
+[54:08] gestern Abend um äh 22 Uhr äh 12 Uhr ähm
+[54:14] äh abgedittet worden. So sagt die
+[54:16] Zeitmap. ist, ist natürlich totaler
+[54:18] Blödsinn, weil weil das ähm
+[54:22] wenn man wenn man diese Sitemap nimmt
+[54:23] und dann wieder in dies Search Konsole
+[54:26] als möglichen
+[54:28] ähm als möglichen Kraul Hinweis, ja, als
+[54:33] Kraulinhaltverzeichnis und nicht nur
+[54:35] Google Search Konsole heute auch dann
+[54:37] hätte ich ja nie gedacht, dass ich sowas
+[54:38] mal sage auch zu Bing, ja, auch bitte
+[54:42] die die Properties, die du in in deiner
+[54:45] Google Search Konsole hast, Die die
+[54:47] spiegel ich jetzt auch immer noch zu
+[54:49] Bing Webmaster Tools. Bing hat zwar ein
+[54:53] sehr geringen Anteil, aber da kann man
+[54:55] auch eine Sitemap einreichen. Um es mal
+[54:56] kurz zu machen. Du kannst da auch eine
+[54:57] Sitemap einreichen und dann wenigstens
+[54:59] den Krauler dort ein bisschen
+[55:00] unterstützen und aber bitte dann sauber
+[55:03] und nicht mit äh Last Mod Spam, sondern
+[55:07] wenn die URL wirklich vor zwei Jahren
+[55:10] das letzte Mal abgeditet ist, ja, dann
+[55:11] nimm bitte da auch dieses
+[55:14] dieses Datum. Ja, dann steht da eben
+[55:17] 2023
+[55:19] letzte mal abgedätet, aber das würde im
+[55:21] Umkehrschluss würde das ja wieder dem
+[55:24] Krauder signalisieren, brauche ich nicht
+[55:25] vorbeikommen und dann kann ich dein
+[55:27] Budget, wenn er dann ne dir ein Budget
+[55:30] Kraulbudget zugewiesen hat, dann kann er
+[55:31] das Budget auf einer vielleicht neueren
+[55:33] URL, die gestern erst dazuekommen ist
+[55:35] und wirklich neue und wirklich abgedätet
+[55:37] ist, kann er das dort verwenden. Also in
+[55:39] den in den Guidelines steht drinne, ähm
+[55:45] wir wir lesen das, wir gucken uns das
+[55:49] an, aber wir entscheiden immer noch, ob
+[55:52] wir dir vertrauen oder nicht. Ja, und
+[55:55] das wäre so eine vertrauensbildende
+[55:56] Maßnahme gegenüber dem dem Krauler zu
+[55:59] sagen, ich ich spiele eine aktualisierte
+[56:03] Sitemap mit dem aktuellen
+[56:06] wirklich vorhandenen Last Mod.
+[56:09] Eintrag auch aus, also und wie gesagt
+[56:11] vollständig und bitte
+[56:13] dem Krauler da helfen an jeder Stelle.
+[56:15] Google gibt so viele Tipps über die die
+[56:19] also das wäre wäre noch so ein kleiner
+[56:21] Hinweis, bitte Simap angucken und die
+[56:23] sauber machen. Das würde dir auch helfen
+[56:25] in der Analyse, wenn wenn du jetzt mal
+[56:28] ein Fehler auf deiner Seite findest oder
+[56:30] mal Ranking äh wenn du das prüfen
+[56:33] willst, dann wäre eine
+[56:35] vollständige Sidemap auch vielleicht äh
+[56:38] separiert nach
+[56:41] ähm
+[56:42] Kategorien, Produkten, Ländern.
+[56:45] Kann man da viel viel machen.
+[56:47] Ja, auf jeden Fall. Also das da müssen
+[56:49] wir eigentlich noch mal eine separate
+[56:51] Folge rüber machen. Ich merk schon, wir
+[56:54] wir reden wir reden uns um Kopf und
+[56:57] Kragen.
+[56:57] Das ist, wenn wir jetzt noch
+[56:59] international URLs und
+[57:01] lass International raus, lass uns in
+[57:02] Deutschland bleiben.
+[57:03] Das wird jetzt glaube ich den Rahmen
+[57:05] sprengen. Ähm, genau. Aber ich denke auf
+[57:08] jeden Fall, du hast enorm viele Tipps
+[57:10] gerade gegeben, also einfach mal die
+[57:11] Google Search Konsole irgendwo zu
+[57:13] installieren äh oder zu implementieren,
+[57:17] ne? Das hilft schon enorm weiter, um mal
+[57:19] überhaupt ein Überblick zu bekommen, ne,
+[57:21] die Performance äh Indexierung. Und dann
+[57:25] sollte man auf jeden Fall Experten an
+[57:27] die Hand nehmen, weil ich weiß nicht,
+[57:30] wie du das siehst, aber viele
+[57:31] suggerieren ja immer AI könnte jetzt das
+[57:33] alles abnehmen. Ähm, aber ich denke, da
+[57:37] ist AI noch lange nicht. ähm
+[57:41] weil es ja noch so viele unter also so
+[57:43] aktuelle Entwicklung gibt, äh die AI ja
+[57:46] gar nicht wissen kann, ne? Also AI muss
+[57:49] man ja immer sagen, sind ja
+[57:50] Sprachmodelle, die ja trainiert worden
+[57:52] sind in der Vergangenheit äh und auch
+[57:56] nicht also bestimmte Spezialwissen gar
+[57:58] nicht haben. Was ist da so deine Meinung
+[58:01] dazu?
+[58:03] M also ich mag's, ich mag's und ich
+[58:06] finde die Entwicklung auch gut.
+[58:09] Ähm, weil das ist jetzt wieder einer
+[58:11] Spezialist mehr, den ich befragen kann.
+[58:13] Ja. Ähm, das ähm
+[58:17] aber wenn ich den befrage, äh befrage
+[58:20] ich den ja auch mit meinem Background
+[58:22] ein bisschen und ich kann dann auch
+[58:24] interpretieren,
+[58:25] ob er mich belügt oder nicht.
+[58:27] Mm. Ja,
+[58:29] der belügt dich halt manchmal, ne? Also
+[58:31] unwissentlich ist halt die Natur des
+[58:34] LLMs, dass er äh erfindet, ne? Was was
+[58:38] würde sich denn schlau anhören? Wo würde
+[58:39] ich denn jetzt hier den Redepreis
+[58:42] gewinnen, aber ob das fachlich dann
+[58:44] immer so
+[58:45] das das Wahre ist? Also ich ich find's
+[58:48] ich find's gut. Ich glaube auch für
+[58:50] viele viele Sachen hebt das Level an.
+[58:54] Ja, weil dann kannst du halt mal da dich
+[58:58] in in den in den äh Chat in dem Chat
+[59:03] austoben und dann mal deine ganzen
+[59:05] Fragen abschießen und dann mal machen
+[59:06] und so weiter. Da lernst du auch viel
+[59:08] und es geht auch geht auch ähm geht auch
+[59:12] recht zügig. Ich nehm es,
+[59:15] ich nehme es speziell bei Sachen auch,
+[59:18] wo ich ähm nicht so Firm drinne bin oder
+[59:23] was jetzt kein Standardproblem ist. Ja,
+[59:25] Standardproblem habe ich schon meine
+[59:27] Idee. Ähm, aber manchmal muss man auch
+[59:30] ähm irgendwas äh argumentieren,
+[59:35] gerade auch an ein Entwickler oder was
+[59:38] ist denn cotechnisch überhaupt da
+[59:40] möglich und welche welche Möglichkeiten
+[59:42] habe ich und da schon an der einen oder
+[59:45] anderen Stelle nicht immer äh aber an
+[59:47] der eine oder anderen Stelle habe ich
+[59:49] dann natürlich ein Impuls gekriegt, wo
+[59:51] ich sag, ah, okay, äh von den drei
+[59:53] Möglichkeiten kannte ich zwei, aber die
+[59:57] Ah,
+[59:57] das ist ja die eine, die hatte ich jetzt
+[59:59] äh einfach schlichtweg ähäh nicht auf
+[60:02] dem Schirm und dann gucke ich mir mal
+[60:05] dav, dass ich diese die das auch noch
+[60:07] mitnehme. Also so ein bisschen als
+[60:08] Sparing Partner finde ich das ganz nett.
+[60:10] So, wie gesagt noch noch ein Spezialist,
+[60:13] aber das ist der der
+[60:15] ja mit Vorsicht zu genießende
+[60:18] Spezialist. Ich find's schön, wenn sich
+[60:19] Leute ableeln und dann sagen, okay, ich
+[60:21] weiß jetzt ein bisschen mehr. Schlecht
+[60:23] wäre natürlich, wenn sie dann sagen, ja,
+[60:24] Jörg, ich weiß jetzt alles über SEO und
+[60:26] ich habe das nämlich alles mit Chat GPT
+[60:28] und so gemacht. Na ja, ich wäre froh,
+[60:30] wenn wenn uns wenn uns die ein bisschen
+[60:32] Arbeit diese Sachen da ein bisschen
+[60:33] Arbeit abnehmen, weil ich mich halt
+[60:34] gerne spezialisieren will. Ich will ja
+[60:36] nicht alles bedienen und
+[60:39] aber ich glaube, es wird auch nach dem
+[60:41] ganzen KI Hype wird's auch irgendwann
+[60:43] noch eine große
+[60:46] äh Resignation geben, spätestens dann,
+[60:49] wenn du plötzlich falsch Informationen
+[60:51] da drinne hast und dich da drauf
+[60:52] verlassen hast.
+[60:54] Mhm. Also den Warnhweis, den sollte man
+[60:56] glaube ich eine lange Zeit da unten
+[60:58] belassen. Hey, es kann sein, dass ich
+[61:00] dich beschwinde. Ähm,
+[61:03] was aber viele auch überlesen werden,
+[61:05] aber ich denke, es wird irgendwann noch
+[61:07] mal kommen, dass ein riesen Aufschrei
+[61:10] der hat doch gesagt,
+[61:12] die Keywirtdichte ist wichtig. Na, das
+[61:15] sagt er manchmal noch Keywirtdichte von
+[61:18] 2 bis 4%. Na ja, da lachen wir drüber.
+[61:21] Ähm, ich also lach da drüber, aber dann
+[61:23] plötzlich kommt der Kunde an und sagt
+[61:24] dann ja, aber ich möchte eine Kieichte
+[61:26] von 2 bis 5%, da fülle ich mich dann w
+[61:28] ich noch mal 15 Jahre zurückversetzt.
+[61:30] Weißt du, wie ich es meine so äh aber
+[61:34] ja, was soll ich sagen? Also ähm
+[61:37] als als Partner gut und ja, bitte
+[61:40] nutzen. Ähm, aber wie gesagt, das ist
+[61:44] wird noch die Zeit kommen. Ich sehe das
+[61:45] schon vor mir, dass plötzlich dann der
+[61:48] Aufschrei losgeht. Ich habe mich
+[61:49] verlassen. Da stand das drinne, oder?
+[61:51] Was ist das? Habe ich mir schon Was ist,
+[61:53] wenn der jetzt über dich oder über mich
+[61:56] falsche Informationen bringt? Ja.
+[61:59] Ja, kann passieren.
+[62:02] Jörgzimmer oder ja, der Jörgzimmer ist
+[62:05] keine Ahnung was. Äh äh Jörgzimmer macht
+[62:08] Webdesign. Ja, weil wir jetzt über
+[62:10] Webdesign gesprochen. Ich mache ja gar
+[62:11] kein Webdesign. Wirklich nur
+[62:14] noch mal für das LM. Jörg macht kein
+[62:16] Webdesign. Genau. Ich mache kein
+[62:19] Webdesign Agentur Berlin. Mache ich
+[62:21] nicht, ne? Me mache ich wirklich nicht.
+[62:24] Aber angenommen, er würde mich da jetzt
+[62:26] zitieren und dann kriege ich hier ein
+[62:27] Haufen Anrufe, wo die Leute sagen, ich
+[62:29] habe da eine Webseite, ich möchte mal
+[62:30] gerne schönes Design und dann muss ich
+[62:31] ja immer sagen, wie kommen Sie denn auf
+[62:33] mich? Und dann sagt er, ja, das habe
+[62:34] ich, das habe ich das hat mir mein mein
+[62:37] AI Overview gesagt oder das hat mir mein
+[62:39] mein Meta Chatboard gesagt oder wer auch
+[62:41] immer und dann wie steuer ich denn dann
+[62:43] gegen? Mm. Ja, dann muss ich
+[62:45] herausfinden, wo zieht denn der das her?
+[62:48] Das da sage ich ja, Mensch, Antonio, das
+[62:50] kommt ja alles aus deinem Podcast daum
+[62:54] wir müssen da ein Piep drüber legen oder
+[62:57] so, ne? Ja, das wird noch mal spannend.
+[62:59] Das wird enorm spannend, weil
+[63:00] Quellennachweis, das ist ja schon enorm
+[63:03] schwierig und auch manchmal wird es ja
+[63:04] gar nicht gegeben und ich denke, da auf
+[63:07] jeden Fall werden wir auch schon noch
+[63:08] einige Überraschungen sehen, ähm wie
+[63:11] sich jetzt noch weiterentwickelt.
+[63:13] Also, ich bin da so momentan schon so
+[63:16] ein bisschen in der Resignationsphase
+[63:18] bei AI und ich denke, das wird, wie du
+[63:21] auch sagst, auch noch mal mehr, glaube
+[63:23] ich, werden, weil
+[63:26] du machst ja auch viel, Antone. Du
+[63:27] machst ja auch viel. Also was ich sehe
+[63:29] jetzt noch mal, jetzt spiele ich mal den
+[63:31] Ball zu dir. was ich sehe, was du schon
+[63:33] in LinkedIn so shst mit deinen
+[63:35] Experimenten und mit dem mit dem mit den
+[63:38] Automationen und mit dem äh AP hier, was
+[63:42] du dir, wenn die Suchvolumen da holst
+[63:44] und so weiter und diese diese Workflows,
+[63:46] die du auf machst ja auch viel und gut
+[63:49] ähm dass du jetzt, dass du jetzt ein
+[63:51] Vorreiter da bist, also dass du da ähm
+[63:54] mehr mehr schon Einblick hast und dann
+[63:56] auch deswegen auch mehr resigniert sein
+[63:59] kannst. Ja, aber der Markt ist da noch
+[64:01] lange nicht, ne? Das äh
+[64:04] der Markt da braucht er noch ein
+[64:05] bisschen ähm auch bis alle das verlernt
+[64:08] haben, äh das wie die normalen Wege
+[64:10] sind.
+[64:11] eine Sache vielleicht äh ich weiß jetzt
+[64:14] nicht warum warum äh
+[64:18] warum warum bist du denn resigniert,
+[64:20] wenn wenn jetzt hast hast du zu viel
+[64:22] schlechte schlechten Output bekommen
+[64:24] oder war es dann immer zu lang, um
+[64:27] irgendwas
+[64:29] äh Sinnvolles zu produzieren oder wie
+[64:31] ist das? Ich habe gestern gerade also
+[64:34] Dat momentan ist ja die diese API von
+[64:37] Data for Zero ja sehr im Hype so ne
+[64:40] jeder bindet das irgendwie an so ein MCP
+[64:42] oder Chat GPT. Das habe ich auch
+[64:44] gemacht. Hab ja so ein paar Tests
+[64:46] gemacht und paar Suchvolumen total äh
+[64:52] wechselhaft, also im gleichen Chat sogar
+[64:54] einmal 10 20.000,
+[64:57] dann mal 200 und also die diese die das
+[65:02] Problem ist so ein bisschen die Blackbox
+[65:03] dahinter, so ne, wenn du jetzt nicht die
+[65:06] Daten dahinter kennst oder diesen
+[65:08] Kontext, also wenn du das mit so einem
+[65:10] Thema ganz neu beschäftigen würdest und
+[65:13] da frisch einfach äh mit Data for SEO
+[65:15] irgendwie arbeitest, dann gibt die AI
+[65:18] dir irgendwas vor, du kannst ja nicht
+[65:20] kontrollieren, so ne, oder du weißt ja
+[65:22] auch gar nicht, wie die Ergebnisse
+[65:23] zustande gekommen sind, wenn du auch in
+[65:25] diese ähm da kannst du ja irgendwo auch
+[65:27] mal reinklicken ähm wenn die API da äh
+[65:31] mit dem Chatbot kommuniziert. Na, da
+[65:34] siehst du ja auch ganz wenig. Ähm und
+[65:37] also die Transparenz finde ich enorm
+[65:40] schwierig
+[65:41] ähm wie die Ergebnisse halt zustande
+[65:43] kommen und dann ähm könnte es halt auch
+[65:46] Fehlschlüsse geben. So. Und ähm da finde
+[65:51] ich halt hast du halt momentan kann es
+[65:54] ja jeder tun, ne? Also ich sehe es halt,
+[65:56] es wird halt an jeder Ecke irgendwo
+[65:57] verkauft, so oder als Leadmnet genutzt,
+[66:01] aber die die Nutzung ist wirklich
+[66:04] eigentlich äh schon irgendwie ein
+[66:06] bisschen gefährlich.
+[66:07] Mhm.
+[66:10] Ja, das das müssen alle noch verstehen,
+[66:12] ähm dass das es eigentlich eine
+[66:14] Erfindung ist, gerade auch was
+[66:16] Zahlenmaterial angibt, wenn du das so
+[66:18] sagst. Bei Zahlenmaterial wäre ich sehr
+[66:20] sehr vorsichtig. Ich hab das mal Freund
+[66:23] von mir habe ich gesagt, ja, du das habe
+[66:24] ich äh da habe ich äh äh Chat GPT das
+[66:28] das rechnen lassen und er war falsch und
+[66:31] hat er mich angeguckt, aber das ist doch
+[66:32] ein Computer, der der rechnet doch immer
+[66:35] richtig. Na ja, aber der der Verständnis
+[66:38] ist da nicht da, dass dieses äh Modul
+[66:42] eigentlich eine Wort Silben
+[66:45] Buchstabenwahrscheinlichkeit ist und dir
+[66:47] halt in Millisekunden den nächst das
+[66:50] nächste das nächste passende Wort und
+[66:52] vielleicht auch die nächste passende
+[66:53] Zahl erfindet. Ja, also die muss nicht
+[66:56] richtig sein. Ähm ja, aber gut. Ähm, das
+[67:00] wird wird vielleicht noch wird
+[67:02] vielleicht noch äh kommen, dass die die
+[67:04] Leute das verstehen. Aber sind wir aber
+[67:06] glaube ich wir als Marketer
+[67:10] ziemlich
+[67:12] vorn
+[67:13] ähm ich glaube die die so die Anwender
+[67:17] draußen, die sind da noch nicht, die die
+[67:19] kriegen die Erkenntnis wahrscheinlich
+[67:20] erst in einem in einem halben oder in
+[67:23] einem Jahr oder so. Ben musst du so
+[67:25] viele Experimente fahren, dass es
+[67:27] irgendwann doch ein Workflow gibt, dass
+[67:29] du irgendwann doch irgendwo was
+[67:31] Sinnvolles rauskriegst.
+[67:32] Auf jeden Fall, wir können da äh glaube
+[67:34] ich noch mal eine neue Folge darüber
+[67:36] drehen, wie sich jetzt AI entwickelt.
+[67:39] Ähm und aber ich denke, es auf jeden
+[67:40] Fall war ein enorm spannender Podcast
+[67:42] mit dir. Äh und ich denke ähm der
+[67:47] Zuhörer hat auf jeden Fall sehr viel
+[67:48] Insights jetzt über SEA bekommen, über
+[67:50] AI, wie ich nutze, was sollte ich
+[67:53] machen, wenn ich jetzt starte und ich
+[67:55] kann man ja auf jeden Fall auf über
+[67:57] LinkedIn erreichen, ne, Jörg Zimmer und
+[68:00] dir dann auch eine Nachricht schreiben,
+[68:01] wenn wenn Fragen sind zu äh Seo Sea. Äh,
+[68:07] genau.
+[68:08] Ja. Ja. Jörg Zimmer auf LinkedIn, der
+[68:10] Typ mit der Sonnenblume. Ähm
+[68:13] gerne auch folgen. Gern. Ähm
+[68:17] ja, dir auch dir auch folgen, Antonio.
+[68:21] Äh dass auch mehr mehr
+[68:23] Follower.
+[68:24] Ja. Und ähm gut, dann ähm ja, dann
+[68:30] bedanke ich mich für äh das äh
+[68:33] Interview. Vielen Dank auch den Podcast.
+[68:36] Wir haben so ein bisschen gesprochen und
+[68:37] ich merke, wir können das wahrscheinlich
+[68:39] noch noch viel viel länger und auch auf
+[68:42] vielleicht sollten wir das immer nur auf
+[68:43] ein zwei Themen runterbrechen, weil wenn
+[68:45] wir jetzt immer jedes Mal die Geschichte
+[68:47] und das ganze Internet noch mit dazu
+[68:48] erzählen, dann ähm
+[68:51] ist das vielleicht ein bisschen bisschen
+[68:53] too much. Ähm es hat mich sehr gefreut
+[68:55] äh da bei dir hier zu Gast zu sein.
+[68:58] Mm
+[68:59] vielen vielen Dank für die Möglichkeit.
+[69:01] Ähm und
+[69:02] werden wir auf jeden Fall wiederholen.
+[69:04] Gern, gern. Lass lass lass gucken.
+[69:07] Vielleicht werde ich ja Stammgast bei
+[69:09] dir oder so. Ich weiß es nicht.
+[69:10] Ja, so SEO Updates ist auf jeden Fall
+[69:12] auch. Dann
+[69:13] machen wir irgendwann dann nur so
+[69:14] richtig den Schnack. Ah, komm hier. Hast
+[69:16] du das gesehen? Ah, ja.
+[69:18] Ja, so ein bisschen die ja topieren mit
+[69:21] Infos ist immer nicht schlecht.
+[69:23] Ja, das ist ähm, dass ich mal vielleicht
+[69:26] nehme ich das jetzt als also die die
+[69:28] Richtung, die wir uns entwickeln, ist
+[69:31] glaube ich positiv
+[69:33] ähm für den für den Nutzer äh und für
+[69:36] uns alle. Also ich hoffe wirklich, dass
+[69:38] wir da ein bisschen Arbeitserleichterung
+[69:41] kriegen. Also wir als SEOOS oder wir als
+[69:44] Marketer oder die Leute, die draußen den
+[69:47] Suchschlitz bedienen oder sich mit
+[69:48] ChatGBT, dass dass wir alle ein bisschen
+[69:50] Erleichterung kriegen. Das das hoffe das
+[69:53] hoffe ich wirklich. Ähm
+[69:56] im Moment ist es jetzt noch nicht so,
+[69:58] dass ich jetzt alles automatisiert hätte
+[70:00] oder dass die die Leute vollständig ihre
+[70:02] Fragen beantworten können. Das ist im
+[70:05] Moment noch nicht. Es wird auch viel zu
+[70:06] übertrieben immer dargestellt, aber die
+[70:09] KI klaut dir die Jobs. Na ja, wenn mein
+[70:12] Job aber in den letzten drei Monaten
+[70:15] doppelt so komplex geworden ist, dann
+[70:17] kann die mir ja auch nur die Hälfte des
+[70:20] Jobs klauen. Ja, da habe ich immer noch
+[70:21] die andere Hälfte, die da komplex dazu
+[70:23] gekommen ist, ne? Also ähm und dann
+[70:26] haben wir ja auch über die Qualität
+[70:27] geredet und ich glaube die Adaption und
+[70:30] die dieses braucht alles Jahre, das ist
+[70:33] doch nicht morgen vorbei und auch SEO
+[70:35] ist nicht morgen vorbei und ich kann
+[70:38] auch nicht ab morgen mein me mein meinem
+[70:41] Ad Konto die den Vollzugriff geben. AI
+[70:47] full support power. Da würde ich so viel
+[70:50] Geld verbrennen. Äh das das macht man
+[70:53] nicht und das das braucht einfach noch
+[70:56] ein bisschen und die die Grundlagen zu
+[70:58] machen macht glaube ich immer Sinn und
+[71:02] sich da oben drauf noch ein bisschen
+[71:04] helfen zu lassen. Ja, aber es wird alles
+[71:08] noch sehr sehr lange dauern. Dafür bin
+[71:09] ich viel zu lange dabei, um es wird halt
+[71:13] gehyped und ne
+[71:16] und ja, aber es braucht Zeit. Leute
+[71:18] haben Nutzergewohnheiten.
+[71:21] Ich bin auch ein Mensch, du bist ein
+[71:23] Mensch. Wir haben auch unsere
+[71:24] Gewohnheiten auch, wie wir arbeiten, wie
+[71:27] wir Prozesse haben, wie wir Prozesse
+[71:29] denken und fühlen und wie wir wir, ne,
+[71:33] das braucht eben eine Weile. Und selbst
+[71:35] wenn ich jetzt heute ein Wundertool
+[71:37] finde, dann brauche ich ja auch noch mal
+[71:41] ein zwei Jahre, bis das so vollständig
+[71:43] bis ich dem vollständig vertraue und und
+[71:46] mm,
+[71:47] also relax, was das Thema angeht. Find
+[71:49] es toll. Ja, schön leveln wir uns alle
+[71:52] ein bisschen ab und werden alle ein
+[71:53] bisschen schlauer.
+[71:55] Toll. Und die AI Overviews, das was wir
+[71:58] dann in der nächsten Folge machen, ja,
+[72:00] machen wir jetzt mal ein Teaser, dass
+[72:01] wir alle wieder einschalten. Also beim
+[72:03] nächsten Mal sprechen wir dann über die
+[72:05] AI Overviews und über die äh
+[72:08] ähm Sichtbarkeit im das neue
+[72:12] Sichtbarkeitsmanagement im Internet.
+[72:14] Ähm,
+[72:15] das wird auch so heiß gekocht. Ja, ich
+[72:16] habe ich habe gestern eine Auswertung
+[72:19] gefahren, ähm wo ich mal in Analytics
+[72:23] geguckt habe, wie viel Treffic kam denn
+[72:26] jetzt über Chat GPT oder Perplexity. So,
+[72:30] das waren bei dem Fall und dem Kunden
+[72:33] waren das 0, 44%
+[72:37] für Chat GPT 0
+[72:42] 17%
+[72:45] aus Perplexity. Ja, okay. Das sind das
+[72:47] sind aber alles Null Kommazahlen. Ja,
+[72:49] also und die
+[72:51] gut, das ist der Treffic. Kommt wird
+[72:53] jetzt der nächste sagen, ja, das ist
+[72:54] doch der Treffic und ich kriege doch
+[72:55] mein krieg doch meine Frage schon im
+[72:58] Dings beantwortet, richtig?
+[73:00] Aber auch die generelle Nutzung von
+[73:03] diesem Kram ist die AI Overviews sind
+[73:05] auch noch nicht auf allen Keywörtern
+[73:06] ausgespielt, ne? Auf der auf der auf der
+[73:09] Campix hier. ähm unsere jährliche SEO
+[73:12] Haupt Hauptkonferenz, die vor drei
+[73:14] Wochen gab's ja mal schöne Insights.
+[73:17] Ähm,
+[73:19] aber auch was ist noch im Ausrollen. Ja,
+[73:22] die bei 15 oder 20% der Keywörtern
+[73:24] erscheinen erst diese Overviews und ja,
+[73:27] oft im Information informat
+[73:30] informatiellen, also informellen Kontext
+[73:33] und so, aber auch noch nicht auf allen
+[73:35] und die die wirklichen Auswirkungen, die
+[73:39] fangen wir jetzt erst an zu messen.
+[73:40] Jetzt das muss man noch ein bisschen den
+[73:42] Ballch halten.
+[73:45] Und alles weitere, alles weitere werden
+[73:47] wir in der nächsten Folge sprechen.
+[73:49] Genau. Okay, da hören wir jetzt auf
+[73:52] bis zum bis zum nächsten Mal. Schaltet
+[73:54] wieder ein.
+[73:55] Ja, ist ultra spannend auf jeden Fall
+[73:57] und es wird eine auf jeden Fall eine
+[73:59] Folge geben.
+[74:01] Okay,
+[74:01] alles klar. Mach's gut. Vielen Dank fürs
+[74:03] Zuhören.
+[74:04] Vielen Dank Antonio.

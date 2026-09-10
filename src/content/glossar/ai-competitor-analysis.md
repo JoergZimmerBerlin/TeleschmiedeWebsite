@@ -25,32 +25,37 @@ In der traditionellen Google-Suche war die Wettbewerbsanalyse ein vertrauter, we
 
 Im Zeitalter der [GEO-Optimierung](/glossar/geo-optimierung/) ist diese statische Klarheit verloren gegangen. Generative Sprachmodelle wie ChatGPT, Claude, Perplexity oder Google AI Overviews generieren individuelle, synthetisierte Direktenantworten. Sie listen keine zehn Links mehr auf, sondern empfehlen häufig nur noch ein bis drei ausgewählte Anbieter. Dein schärfster Konkurrent in der klassischen Websuche ist in Answer Engines oft gar nicht präsent – stattdessen dominieren völlig andere Akteure die generierten Antworten. Eine professionelle **AI Competitor Analysis** bringt Transparenz in diesen fragmentierten Markt.
 
-<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
-  <img 
-    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-    alt="Jörg Zimmer" 
-    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
-    loading="lazy"
-    width="96"
-    height="96"
-  />
-  <div class="flex-1 text-center md:text-left">
-    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
-      "Wer heute nur die Konkurrenz in den klassischen Google-Suchergebnissen im Auge behält, verliert den Markt an agile Wettbewerber, die in ChatGPT und Perplexity die Spitzenplätze besetzen. Eine datenbasierte AI Competitor Analysis zeigt dir ungeschönt, wer dir in den Köpfen der Sprachmodelle den Rang abläuft. Wer versteht, welche semantischen Entitäten und Primärdaten KIs dazu bewegen, die Konkurrenz als Standardlösung zu empfehlen, kann gezielt gegensteuern und die eigene Antwort-Hoheit zurückerobern."
-    </blockquote>
-    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
-      <div>
-        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
-        <span class="hidden md:inline"> | </span>
-        <span>Senior SEO & AI Search Consultant</span>
-      </div>
-      <cite>
-        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
-          LinkedIn Profil &rsaquo;
-        </a>
-      </cite>
-    </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Du musst da deine Seite strukturiert aufbauen. Die Krauler zulassen. Ja, es gibt vielleicht ja auch den Fall, dass Leute die Krauler blockieren wollen. Gibt's ja auch.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=375s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (06:15)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 ## Der Paradigmenwechsel: Klassische SERP-Analyse versus AI-Benchmarking

@@ -52,11 +52,18 @@ Als Senior SEO Consultant habe ich beide Plattformen über viele Monate hinweg i
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Ubersuggest ist der beste Beweis für die alte Handwerker-Weisheit: Wer billig kauft, kauft zweimal. Für ein privates Blog-Projekt mag der Lifetime-Deal charmant sein. Aber wer Kundenprojekte betreut und geschäftskritische Entscheidungen auf Daten stützen muss, die tagelang hinterherhinken und nach 125 Keywords abbrechen, riskiert seine Reputation. SE Ranking ist das erste echte Werkzeug für alle, die dem Sandkasten entwachsen sind.“
+    „Das will ich doch hoffen. Willst du es mal  richtig sehen? Die ist AI-only, das kommt in eurer Bubble auch verhalten an, aber sie generiert  sich derzeit noch direkt aus Claude heraus, wird aber jetzt Richtung China verändert, generiert  und aktualisiert sich aber trotz allem selbst.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
-    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
-    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1418s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (23:38)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
       Jörg Zimmer auf LinkedIn folgen →
     </a>
   </figcaption>

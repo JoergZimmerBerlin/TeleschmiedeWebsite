@@ -1,0 +1,35 @@
+In dieser Episode spricht Antonio Blago mit SEO- und AI-Search-Experte Jörg Zimmer über die Schnittstelle von klassischem SEO und Künstlicher Intelligenz (AIO / GEO).
+
+Jörg und Antonio diskutieren, warum klassische SEO-Basics die unverzichtbare Grundlage für jede AI-Optimierung sind, wie man AI-Visibility als eigenen Kanal strategisch angeht und warum Unternehmen mit Ruhe und Struktur vorgehen sollten, statt blind dem nächsten Hype zu folgen.
+
+**💡 Kernthemen:**
+• Warum AI-Visibility ein eigener Kanal ist – und wie man diesen Schritt-für-Schritt angeht
+• Welche SEO-Basics unverzichtbar sind, um AI-ready zu sein (Crawlability, Struktur, NAP-Daten, Servicequalität)
+• Erste Erfahrungen mit AI-Crawlern und Quellen (z. B. PDF-Datenbanken, YouTube-Einstellungen, Stadtportale)
+• Warum Markenaufbau, Reviews & Reputation für AI eine entscheidende Rolle spielen
+• Wie man Prompts als Messinstrument nutzt und eigene Experimente fährt
+• Chancen & Risiken bei der Freigabe von YouTube-Videos für AI-Training
+• Warum informative Keywords im AI-Umfeld weniger relevant für Umsatz sind – und wie man Content trotzdem strategisch nutzen kann
+
+**⏱️ Timestamps (Kapitel):**
+00:20 Einführung in das Thema AI und SEO
+03:26 Die Bedeutung der SEO-Basics für AI
+06:23 AI-Modelle und deren Funktionsweise
+09:01 Die Rolle von Reputation und Service in der AI-Welt
+12:13 Herausforderungen und Risiken der AI-Nutzung
+15:00 Die Notwendigkeit von SEO für AI-Optimierung
+18:16 Verschiedene AI-Modelle und deren Anwendung
+21:09 Fazit und Ausblick auf die Zukunft von SEO und AI
+23:15 Entdeckung neuer Datenquellen
+26:09 Strategien zur Nutzung von PDFs
+28:39 Messung der AI-Sichtbarkeit
+30:33 Die Rolle von YouTube in der AI-Entwicklung
+40:34 Freigabe von YouTube-Videos für AI-Training
+41:52 Risiken und Chancen der Datenfreigabe
+45:13 Analytics und Referrer-Tracking
+47:50 Zukunft der Datenanalyse und Insights
+51:40 Zielgruppenverständnis und Nutzerzufriedenheit
+54:06 Content-Strategien und Video-Generierung
+56:45 Ruhig bleiben und systematisch arbeiten
+01:01:12 Markenaufbau und Pressearbeit
+01:06:53 Experimentierlevel und zukünftige Entwicklungen

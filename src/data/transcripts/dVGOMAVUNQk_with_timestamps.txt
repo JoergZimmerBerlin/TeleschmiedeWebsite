@@ -1,0 +1,1156 @@
+# Transkript: SEOPresso Podcast (Björn Darko & Jörg Zimmer) (ID: dVGOMAVUNQk)
+
+[00:00] [Musik]
+[00:03] [Applaus]
+[00:07] Meg die Moin und herzlich willkommen zu
+[00:10] einer neuen Folge SEO Presso. Mein Name
+[00:12] ist Bondco und heute spreche ich mit
+[00:13] Jörg Zimmer in der Reihe SEO persönlich,
+[00:16] wo wir hinter die Persönlichkeit eines
+[00:19] einer SEO gucken. Jörg Zimmer ist
+[00:21] selbstständiger SEO Freelancer seit 24
+[00:25] Jahren 2001 angefangen. Also ganz kurz
+[00:29] nach der Geburtsstunde von Google, ich
+[00:31] denke, er hat einiges zu erzählen, was
+[00:33] er aus seiner Laufbahn mitbringen kann.
+[00:35] Jörg lebt in Berlin Spandau, kommt
+[00:38] ursprünglich aus Dessau hat mal kurz
+[00:41] auch eine Lia mit Stuttgart gehabt, also
+[00:43] auch einiges in der Republik gesehen von
+[00:45] bis freue mich sehr, dass er da ist. Wir
+[00:47] haben uns kennengelernt, äh wir kennen
+[00:49] uns eigentlich über LinkedIn, äh aber
+[00:50] haben uns persönlich kennengelernt jetzt
+[00:52] auf der Campix, wo ich ihn natürlich
+[00:53] sofort verhaftet habe. Äh bei der
+[00:55] Geschichte müssen wir eine Reihe SEO
+[00:57] persönlich machen. Moin Jörg nach
+[00:59] Berlin. Spandau.
+[01:05] Jo, hallo. Hallo Björn. Ja, danke. Es
+[01:09] mir eine große Ehre bei dir zu Gast zu
+[01:11] sein. Ähm ich ich freue mich drauf und
+[01:14] bin auch ein bisschen gespannt, was du
+[01:16] was du mich fragen möchtest über meine
+[01:19] Persönlichkeit.
+[01:21] Ja, leg mal los. Komm. Ja, und heute ist
+[01:24] ja auch dein Interview. Heute ist ja
+[01:26] auch dein Interviewtag, weil du mir
+[01:27] gerade erzählt hast, du warst gerade
+[01:28] eben schon in dem Podcast. Ähm, mal
+[01:31] sehen, ob äh äh ob du sozusagen im Fluss
+[01:34] geblieben bist. Ähm, ich habe es gesagt.
+[01:37] Du bist seit 24 Jahren als
+[01:38] freiberuflicher SEO aktiv. Das ist eine
+[01:41] unheimlich lange äh Karriere. Äh, kannst
+[01:44] du so einmal mitnehmen, wie so dein
+[01:46] allererster Berührungspunkt mit Google
+[01:48] oder Suchmaschine insbesondere war? Äh,
+[01:50] und äh was hat dich damals daran so
+[01:52] gepackt, dass du so lange dabei
+[01:54] geblieben bist? Oh, wenn ich ganz
+[01:56] zurückgehe, dann ähm fängt das an.
+[02:01] Ähm, ich habe meine Ausbildung gemacht,
+[02:04] ähm 96 bis 99 äh ähm als
+[02:09] Immobilienkaufmann, als Kaufmann in
+[02:11] Grundstück Wohnungswirtschaft und wir
+[02:13] wollten damals auch oder die wollten
+[02:14] damals auch äh eine Webseite haben und
+[02:17] ja, da war ich quasi der jüngste als
+[02:20] Auszubilder und da musste ich äh da muss
+[02:22] ich die Webseite äh betreuen. ähm damals
+[02:26] noch mit HTML Code hin und her schieben.
+[02:30] Das war so mein erster Berührungspunkt
+[02:32] mit dem Internet.
+[02:34] Ähm, ich habe dann äh 99 äh zusammen mit
+[02:39] einem Kumpel eine Webseite selbst
+[02:41] aufgesetzt, also Domainregistriert,
+[02:43] Webseite gemacht und ähm da dann schnell
+[02:49] festgestellt, dass mich der
+[02:50] Besucherzähler eigentlich am meisten
+[02:52] interessiert. Ähm, den gab's ja damals,
+[02:54] ne? Stimmt ja, diese Uhr, die unten
+[02:56] Limit lief. Ja. Ja.
+[02:58] Damals gab's das noch, wenn wir jetzt
+[02:59] zurückspringen in diese Zeit, der hat so
+[03:01] diese Seite hatte 1000 Besucher. Das hat
+[03:04] das hat mich äh das hat mich da
+[03:06] fasziniert.
+[03:08] Ähm bin da, wie gesagt, das Internet kam
+[03:11] ja damals auf so ja 2000 war auch dieser
+[03:15] Börsenhype mit dem neuen Markt und alles
+[03:17] und da waren immer diese Geschichten,
+[03:19] drei Leute mit dem Laptop unterm Arm
+[03:22] sind plötzlich Millionen wert, ne? Ala
+[03:25] Web.de de und was da nicht alles an die
+[03:26] Börse gegangen ist. Äh ich war schwer
+[03:29] fasziniert äh so fasziniert, dass ich
+[03:32] gesagt habe, ich b ich äh
+[03:36] mach kein Immobilien äh Kaufmann mehr.
+[03:40] Ich mache halt Internet und habe eigene
+[03:43] Projekte angefangen und mich dann
+[03:45] Schritt für Schritt äh da reinge
+[03:48] fuselt,
+[03:50] alle Fehler mitgenommen, ähm die man so
+[03:52] machen kann und ähm ja, also um es mal
+[03:57] kurz zu machen, hab dann 10 Jahre lang
+[03:58] nur eigenen Kram gemacht, nur eigene
+[04:00] Projekte.
+[04:02] Internet war neu. Ich hatte ich hatte
+[04:04] mal ein Gutscheinportal,
+[04:06] äh ich hatte mal ein Outlet Portal. Äh,
+[04:10] ich hatte ein Forum, ich habe äh alles
+[04:13] probiert, was mir über den Weg gelaufen
+[04:16] ist, was ich irgendwo dachte, was ich
+[04:18] machen könnte. Und damals war es ja auch
+[04:19] noch relativ
+[04:22] einfach und damals waren die Methoden
+[04:25] auch noch relativ unkonventionell.
+[04:28] Ähm und ja, ich habe diese Gold eine
+[04:31] eine Frage zu den zu deinen Portalen war
+[04:33] irgendwas davon, was richtig geflogen
+[04:34] ist?
+[04:36] Ähm, das äh
+[04:39] ja, das das Outlet Portal, das habe ich
+[04:43] äh das war, wenn wir ehrlich sind, war
+[04:45] das eigentlich nur so eine ganz stumpfe
+[04:46] Linkliste.
+[04:48] Ähm ich möchte aber noch mal vorweg
+[04:50] sagen, das alles 20 25 Jahre her. Ja,
+[04:53] also ähm sowas mache ich heute nicht
+[04:55] mehr, aber das war eine pure Linkliste
+[04:56] mit Affiliate Links. Ähm und äh die äh
+[04:59] die die fing an zu renze
+[05:03] gemacht über die äh Affiliate äh
+[05:07] Provision. Da habe ich dann auch
+[05:09] irgendwann gedacht, ja, okay, dann
+[05:10] machst du noch ein bisschen mehr
+[05:12] Unterseiten noch ein bisschen mehr das.
+[05:14] Hab dann auch äh als dann Google Ads
+[05:17] aufkam, habe ich ähm mal 50 € in Google
+[05:22] Ads reingedrückt und hab da 100 €
+[05:25] rausgekriegt, war schwer begeistert. Hab
+[05:27] dann hab dann da mehr gemacht, 200 € 500
+[05:31] € bis hoch zu 5000 und da kam wie gesagt
+[05:37] hast 200 reingesteckt, 400 rausgekriegt.
+[05:38] Also bei den 5000 warst dann nachher nur
+[05:41] noch so 8000, die rausgekommen sind. Ja,
+[05:44] und die Verzögerung mit den Auszahlung
+[05:46] so, aber das war eine schöne Zeit. Ähm,
+[05:48] das das würde ich sagen, das war äh sehr
+[05:52] sehr nice. Ja.
+[05:54] Ja, aber ich finde es schön, wie du sag,
+[05:56] weil bei mir war so ähnlich, vielleicht
+[05:57] war es dein Gefühl auch so. Ähm, ich
+[06:00] habe ja, als ich noch studiert habe, ich
+[06:01] wollte eigentlich Event Manager oder
+[06:03] Städte Marketer werden, als ich wollte
+[06:04] Stadtmarketing machen in Verbindung mit
+[06:06] stätischen Events. Äh, was man natürlich
+[06:09] wahrscheinlich heute aus ökologischer
+[06:10] Sicht auch nicht mehr so toll findet,
+[06:13] aber äh habe halt viel auch für Events
+[06:16] und auf Festivals und für Veranstaltung
+[06:18] und so weiter gearbeitet, wo man sich am
+[06:20] Wochenende halt immer extrem den Arsch
+[06:21] aufreißt, ne, teilweise dann irgendwie
+[06:23] 18 Stunden Schichten schieben muss und
+[06:25] so weiter. Und dann bin ich mit meiner
+[06:27] Frau nach England gegangen und
+[06:29] wollte eigentlich für die Olympiade
+[06:30] damals arbeiten, die in London war,
+[06:32] keinen Job bekommen und dann habe ich
+[06:33] mich halt besinnt auf das, was ich kann
+[06:35] und das war Deutsch sprechend und so bin
+[06:37] ich ins SEO gekommen und mich hat das
+[06:39] auch so angefickt fast schon, dass man
+[06:42] mit wenigen Kniffi Kniffen sozusagen am
+[06:45] nächsten Tag schon Impact gesehen hat,
+[06:47] ne? Und habe gesagt, okay, das will ich
+[06:48] jetzt einfach machen. Das ist voll geil.
+[06:50] Man hat total äh äh äh ähm ja ähäh
+[06:53] Impact, den man sofort messen kann. Man
+[06:55] man sieht so sozusagen, was man da an
+[06:57] Arbeit hat und ich musste nur von 95
+[06:59] arbeiten. Das war natürlich auch geil
+[07:00] und am Wochenende war frei. Warte und
+[07:02] hat mich auch so oh in dieser Industrie,
+[07:04] das schockt irgendwie. Das ist irgendwie
+[07:06] ein geiles Gefühl da zu sein. Also war
+[07:08] das ähnlich bei dir? Ja, na ja, das da
+[07:11] ist ja eine Leidenschaft entstanden, ne?
+[07:14] Ähm die wie gesagt die Besucherzähler,
+[07:17] die haben mich ja fasziniert. Äh die ähm
+[07:21] wie das möglich war. Heute dauert Sero.
+[07:24] Ja. furchtbar lange. Ja, das das ist
+[07:27] bewusst auch verzögert, bin ich der
+[07:29] Meinung. Ähm, klar, weil weil wir damals
+[07:33] die ganzen die ganzen Spammy Sachen
+[07:36] gemacht haben. Google ist ja extrem
+[07:37] schlau geworden und ich möchte noch mal
+[07:39] möchte noch mal unbedingt klarstellen,
+[07:40] dass ich aufgehört habe, dann diese
+[07:42] diese Spammy Sachen zu machen irgendwann
+[07:44] auch die richtig gelesen habe, ne? Ähm,
+[07:49] das und und heute spiele ich nur noch
+[07:51] sauber. Ja, also ich bin bin aber ja, es
+[07:54] war war halt so. Es ist äh
+[07:59] ja, das ist war eine schöne Zeit. Äh ich
+[08:02] habe viel gelernt, ich lerne heute noch
+[08:03] viel, ich habe auch viel Wissen
+[08:04] verloren, wenn wir mal darüber so, ne?
+[08:07] Weil weil viele Sachen, viele Türen
+[08:09] wurden ja zugemacht und ähm
+[08:13] äh heute
+[08:15] ja, das äh muss man sich muss man immer
+[08:18] noch ein bisschen am am Ball bleiben und
+[08:20] ähm äh sich den Gegebenheiten anpassen.
+[08:23] Ja. Ja. Wenn du jetzt so an die
+[08:25] Anfangszeit zurückdenkst, was hat sich
+[08:27] so auch in der Zusammenarbeit mit Kunden
+[08:29] vielleicht auch zu heute verändert?
+[08:31] Gibt's etwas, was du heute vermisst, was
+[08:33] damals vielleicht anders war? Ich hatte
+[08:36] ja die ersten 10 Jahre keine Kunden auch
+[08:39] auch bewusst so ein bisschen muss man
+[08:41] auch ehrlich sagen. Ich wollte das ja
+[08:45] ähm ich wollte ja für mich selber ich
+[08:48] wollte eine Idee entwickeln. Ich ich
+[08:52] wollte das selbst machen. Ich wollte das
+[08:55] auch selbst umsetzen.
+[08:57] Ähm dass ich dann ich wusste auch ich
+[09:00] wusste ja nicht mal, dass das äh das
+[09:02] dass das eine Dienstleistung ist, die
+[09:04] Leute am Markt kaufen würden. Ja, es ist
+[09:07] mir erst später bewusst geworden, ja,
+[09:09] dass es da diesen diesen Markt gibt,
+[09:11] dass andere auch plötzlich oben stehen
+[09:13] wollen. Und dann dann als ich den ersten
+[09:16] Kunden dann hatte,
+[09:18] äh den ich dann beraten hatte, viel zu
+[09:20] günstig, muss ich auch sagen. Äh aber
+[09:22] der war der war hoch erfreut. Ja, der
+[09:24] hatte vorher sonst was für Sachen
+[09:27] probiert, die die da theoretisch alle
+[09:29] gut klangen. Und ich habe ihm dann
+[09:31] gesagt, na ja, hör mal zu, lass uns mal
+[09:33] das auf die Basics reduzieren. Das wird,
+[09:36] glaube ich, bei dir den meisten Impact
+[09:37] bringen. Der war war hoch hoch erfreut
+[09:40] und äh ich habe auch nie groß äh
+[09:45] Marketing für mich selbst gemacht. Ja,
+[09:47] also ähm das auch eines meiner meiner
+[09:49] ersten Interviews, ja, oder mein drittes
+[09:52] jetzt so und äh hab vorher nie groß
+[09:55] gesagt, hier Jörg, ich bin ich bin da.
+[09:58] Ähm ich wurde oft empfohlen, das war so
+[10:00] meins. Und äh ich habe als Credo immer
+[10:05] gehabt, dass ich äh dass ich die Kunden
+[10:08] erstmal glücklich mache, dass die äh
+[10:10] dass sie auch das, was sie in mich
+[10:12] investieren, auch wieder halbwegs wieder
+[10:14] rauskriegen oder so. Am besten natürlich
+[10:15] noch mehr. Weil dann haben sie auch Geld
+[10:17] für deine folgenden Rechnung, ne? Und
+[10:19] dann kannst du dein einen Kunden auch
+[10:21] groß machen. Und ähm das ähm mache ich
+[10:25] auch gern, mache ich nicht für jeden.
+[10:27] Habe ich mittlerweile auch festgestellt.
+[10:29] Ähm wenn ich mich erstmal in so eine
+[10:31] Zielgruppe verliebt habe und mit dem mit
+[10:33] dem Kulen gut kann, dann ähm dann
+[10:37] bleiben wir bleibe ich oft Jahre. Also
+[10:39] ähm und dann wird das immer größer. Dann
+[10:41] macht man hier noch was und da noch was
+[10:43] und dann kommen noch ein paar andere äh
+[10:46] Kanäle dazu und ja so aus Kundensicht,
+[10:52] was ich bis heute nicht verstanden habe,
+[10:54] kleiner Karlauer, wenn du es so
+[10:55] möchtest, was ich bis heute nicht
+[10:56] verstanden habe, wie Leute ein Relaune
+[10:59] machen können, ohne einen SEO zu
+[11:01] befragen. Ähm ja, also dieses
+[11:04] Unverständnis, dass ich baue eine
+[11:06] Webseite, die einen ja einen einen Web
+[11:09] darstellt, einen Netz, ein Spinnennetz
+[11:11] und dann kommen da die die die Relounge
+[11:16] Agenturen oder Webagenturen
+[11:19] und machen einen Relounge und und
+[11:21] schneiden erstmal komplett dieses
+[11:23] vorhandene Webg. Äh, das ist ja äh und
+[11:26] dann vergessen sie noch die die
+[11:28] Weiterleitung einzurichten und und äh
+[11:31] ich kann dir ich kann dir wirklich nicht
+[11:33] sagen, warum das in den letzten 20
+[11:35] Jahren nicht als Standard etabliert
+[11:37] wurde, dass du, wenn du wenn du ein
+[11:39] Relaunch machst, dass du wirklich auch
+[11:41] mal dir ein SEO mit an die Hand holst
+[11:44] oder wenigstens dann deine vorhandene
+[11:47] URL-Sruktur behältst, wäre ja doch noch
+[11:50] das Schönste, oder die dann wenigstens
+[11:51] weiterleitet. Wie wie oft sieht man das
+[11:54] heute immer noch, dass Leute Leute nach
+[11:56] dem RLunch
+[11:58] vier Wochen später meine Rankings sind
+[12:01] alle weg, meine Umsätze sind weg und
+[12:02] dann ja, was ist passiert? Ja, du
+[12:05] produzierst Fehlerseiten, weil du dein
+[12:08] vorhandenes Webgeschmissen hast. Das ist
+[12:12] was, wo ich das verstehe ich bis heute
+[12:13] nicht. Also ist und auch in in Zeiten
+[12:17] von der ganzen Veränderung AI und so,
+[12:19] das sind halt immer noch meistens die
+[12:21] Basics bei vielen Unternehmen, ne, und
+[12:23] gerade solche Fehler denn, also ich sehe
+[12:26] das auch immer wieder, aber lass uns mal
+[12:28] ähm viele SEOs, die steigen dann ja
+[12:31] irgendwann in so ein Angestellten
+[12:32] Verhältnis und ich meine, du bist jetzt
+[12:34] seit 24 Jahren am Markt äh hast ja sehr
+[12:37] früh auch schon Erfahrungen sammeln
+[12:38] können mit deinen eigenen Projekten und
+[12:40] so weiter und dann schossen natürlich ja
+[12:42] auch schon Firmen, ne? Also Imowelt war
+[12:44] ja schon da. Du hast ja eine Immobilien
+[12:48] Vergangenheit, Immonet, was weiß ich,
+[12:50] dann die ganzen äh Unity Media oder wie
+[12:52] die Dinger da heißen, äh Freenet und was
+[12:55] weiß ich, die ganzen die ganzen Firmen,
+[12:57] die da so schossen und die dann ja auch
+[12:58] irgendwann äh Salando, äh About You,
+[13:02] Otto, alle die in irgendeiner Form dann
+[13:04] auch SEO Unterstützung brauchten, hat
+[13:06] sich das nie gereizt dann da an so ein
+[13:08] Angestellten Verhältnis zu gehen und und
+[13:10] und so größere Firmen mit zu
+[13:12] unterstützen?
+[13:14] M ehrlich gesagt, nein. Also ähm
+[13:19] ich bin glaube ich also nach so vielen
+[13:23] Jahren ähm äh bin ich glaube ich ein
+[13:27] besserer äh freier Berater als einen
+[13:31] interner Mitarbeiter.
+[13:34] Also ich hatte für ganz ganz kurz diese
+[13:38] Long bei ähm
+[13:41] äh XT Commerce. Ähm, das ähm also Grüße
+[13:46] Grüße an Mario Zanier, der der Gründer
+[13:48] von Execmerce, die die das ist eine
+[13:50] Shopsoftware, so wie wie es heute
+[13:53] mehrere gibt. Die hatten damals mal
+[13:55] ausgerufen, ja, ähm wir als Open Source
+[14:00] Plattform wollen jetzt plötzlich
+[14:01] Marketingdienste drumherum anbieten.
+[14:04] bin ich tatsächlich, also das war das
+[14:06] einzigste, bin ich mal für drei Monate
+[14:08] da mit reingegangen und habe da kurz im
+[14:12] Kern eines Shopsystems gesessen. Ich
+[14:15] wollte es, das wollte ich, ich wollte
+[14:17] halt wissen, wie so ein Shopsystem von
+[14:19] innen funktioniert. Ja, damals war ich
+[14:21] als Google Adsie da drinne. geben mir
+[14:24] noch fünf andere Google Adsis, noch ein
+[14:28] paar SEO Spezies, ein Callcenter, was
+[14:31] ich die hatten 50 Leute innerhalb von 10
+[14:34] Tagen oder sowas eingestellt. Die
+[14:35] wollten wirklich wissen, was was geht,
+[14:37] ne? Die wollten da wirklich was machen.
+[14:40] Ähm, aber das ging auch alles nicht so
+[14:43] schnell bei denen äh die, ne? Äh und die
+[14:47] haben dann auch nach kurzer Zeit von den
+[14:49] 50 Leuten, die sie eingestellt haben,
+[14:51] ich war halt einer davon, haben sie auch
+[14:53] wieder 45 wieder rausgelassen und da war
+[14:56] ich auch einer davon. Ähm und in der
+[14:58] Zeit habe ich es leider auch gelernt,
+[15:00] dass ich glaube ich nicht ein guter
+[15:03] Angestellter bin und dass das für beide
+[15:06] Seiten besser ist, wenn ich ähm von
+[15:10] außen drauf gucke.
+[15:13] Aber was ähm kannst du so ein bisschen
+[15:16] erklären, was dich was was so eine
+[15:18] Abneigung vielleicht auch gegenüber so
+[15:20] Inhaus wäre versus äh Freelancing? Das
+[15:23] ist aber eine ganz persönliche Sache bei
+[15:25] mir. Vielleicht ähm bin ich da zu ähm
+[15:31] äh kritisch. Ja, wenn ich eine Aufgabe
+[15:34] kriege, wo ich denke, das macht jetzt
+[15:37] gar nicht so den Sinn oder du
+[15:39] produzierst ein Report, der zwar
+[15:42] Kennzahlen enthält, aber nicht die
+[15:45] Kennzahl, die dir eine Aussage liefern
+[15:48] könnte, dann würde ich dann halt sagen,
+[15:52] na ja, aber das macht ja sogar keinen
+[15:54] Sinn und das will ein Chef meistens
+[15:56] nicht hören. Ähm, als Berater darf ich
+[15:58] das sagen. Ähm ähm da kann ich das aber
+[16:02] als interner Angestellter darfst du ja
+[16:05] deinem Chef da nicht widersprechen und
+[16:06] sagen, du deine Idee mit dem Report, wo
+[16:10] die wo die Kennzahlen drauf sind, äh die
+[16:13] sind nicht so schön und dann na ja, da
+[16:16] musst das ja meistens doch noch
+[16:17] umsetzen, dann hast du weniger Freude
+[16:18] dran und geht mir dann halt so, wenn ich
+[16:20] wenn ich nicht dahinter stehe, hinter
+[16:22] dem, was ich tue, dann
+[16:24] habe ich habe ich nicht so den die
+[16:27] Motivation und ähm Ich
+[16:30] bin also du wärst kein guter
+[16:33] auch kein guter Politiker oder Diplomat
+[16:36] dann wahrscheinlich ja das ist wenn du
+[16:39] dann wirklich sagst wie es ist das
+[16:41] wollen wollen d viele nicht hören und
+[16:42] dieses drum rum reden oder schön reden
+[16:46] na das übe ich aber das äh liegt
+[16:49] vielleicht nicht in meiner Natur.
+[16:51] Ähm und hast du da privat vielleicht
+[16:54] auch Herausforderung mit, also in
+[16:56] Freunde oder im Freundesgeist oder
+[16:58] vielleicht auch mit Leuten auf, also ich
+[17:00] gehe mal davon aus, dass so Small Talk
+[17:02] dann auch nicht so dein Ding ist. Ähm od
+[17:05] oder wenn Leute sich irgendwie groß
+[17:06] darstellen, wo du das kritisch
+[17:08] hinterfragst und so weiter, ist es ist
+[17:10] es etwas, womit du anst auch persönlich?
+[17:14] Ähm, im persönlichen Bereich höre ich
+[17:17] gern zu, muss ich sagen. Ähm, das ist ja
+[17:19] meine Chance auch mal äh Input zu
+[17:22] kriegen, wie wie Leute so leben. Ähm,
+[17:25] ich akzeptiere jede Lebensform und jede
+[17:28] äh
+[17:30] ne, nee, da höre ich gern zu. Äh, ich
+[17:33] würde nur für gute Freunde auf Nachfrage
+[17:36] ähm
+[17:38] sagen,
+[17:40] wo ich was anders sehe. Ähm und ja, wenn
+[17:43] wir über über Small Talk reden, mache
+[17:45] ich auch. Bin ich bin ich bin ich
+[17:47] freundlich dabei. Habe ich auch Freude
+[17:49] dran. Ähm, aber wenn wenn es auch mal im
+[17:52] Deep Talk geht, äh das auch schön ist
+[17:55] mehr Nährwert dahinter, aber nein, ich
+[17:58] ecke da eigentlich nicht an. Muss mal
+[17:59] meine Freunde fragen, ob die jetzt
+[18:01] sagen, der Jürk ist so so eine äh das
+[18:05] kann ich nicht vielleicht man kann ja
+[18:06] hier kommentieren
+[18:08] oder das vielleicht ich weiß jetzt
+[18:10] nicht, ob da nachher Leute schlecht
+[18:12] kommentieren über mich, würde ich nicht
+[18:14] sagen. Also ähm Nein, das äh also
+[18:19] nein woll ich also wie wir wie wie
+[18:22] erklärt, du hast drei Töchter. Wie
+[18:24] erklärst du denen, was Papa macht
+[18:26] beruflich?
+[18:28] Ähm, oh, meinen Töchtern äh Oh, mein
+[18:31] mein meine meine meine zwei großen
+[18:34] Töchter, die sie sind ja schon z 16 und
+[18:37] 18. Äh, die die glaube ich die checken
+[18:41] das die ähm die TikToken aber mehr. Ja,
+[18:45] die googeln bei TikTok. Ähm, lass ich
+[18:48] mir auch manchmal von denen erklären.
+[18:49] Das ist so hoch interessant. Ähm ist
+[18:52] super interessant. Ja, ja, ja, ja.
+[18:53] Wirklich, das muss man einfach mal
+[18:55] fragen. Sitzt da am Küchentisch und
+[18:56] sagst dann so, sag mal, wie nutzt denn
+[18:57] du eigentlich dein TikTok und was ist,
+[18:59] wenn du wenn du wenn du jetzt lokalen
+[19:02] Anbieter finden würdest, wollen würdest,
+[19:04] was tippst denn da ein bei TikTok? Und
+[19:07] dann erklären die mir das, wie die das
+[19:08] tun. Ähm ja, aber was ich tue, gut, das
+[19:13] das haben das sehen die ja. Also, ne,
+[19:16] also äh meine jüngste jetzt nicht, die
+[19:18] ist erst 8 Monate, die sieht das noch
+[19:20] nicht. Äh, die sieht wahrscheinlich nur
+[19:22] sitzt am Computer. M
+[19:26] Ja, das interessiert nicht. Also mein
+[19:29] mein diese
+[19:31] Ich glaube auch ich glaube auch nicht,
+[19:32] dass die dass die ähm dass sie es wissen
+[19:35] wollen. Die haben ihre eigene Welt. Ähm
+[19:38] aber ich befrag sie manchmal. Ja, ich
+[19:40] sag dann hier, wie machst du das? Und
+[19:41] so. Ähm ich habe ich habe mal meiner äh
+[19:45] der Schule von meinen Kindern habe ich
+[19:47] mal geholfen, ne? Ähm, war so
+[19:50] Elternabend angesetzt. Du wolltest ja
+[19:52] persönlich, ja, komm, dann machen mal äh
+[19:54] Elternabend angesetzt. Ähm, und ähm ich
+[19:57] habe eine Mail gekriegt und tippt dann
+[19:59] ein äh hier ähm keine Ahnung äh Schule
+[20:03] plus äh ne und kein Internetgebnis,
+[20:08] nur der Mapseintrag. So, hä, aber die
+[20:12] haben doch eine Webseite und hätte doch,
+[20:14] also ich habe es schon im Gedanken
+[20:16] gehabt, bringt mich jetzt auf die
+[20:18] Unterseite. Na gut, gehe ich auf die
+[20:19] Webseite gucke, steht die nur Index
+[20:22] komplett so ja WordPress Webseite auf
+[20:26] komplett in das Schlimme ist eigentlich
+[20:28] ja viel Energie investiert haben immer
+[20:30] mal News rausgehauen haben diese ganzen
+[20:33] Lehrer Fächer Aktionen Spenden,
+[20:37] Förderverein und so weiter alles alles
+[20:39] präsentiert, aber war leider nur Index.
+[20:42] Schade, schade. So, da habe ich dann
+[20:44] habe ich dann habe ich dann natürlich
+[20:45] den Menschen geschrieben, habe gesagt,
+[20:46] hör mal, äh ich bin aus dem Feld und ich
+[20:49] habe mal kurz auf deine Seite geguckt,
+[20:51] hinten im Code steht drinne nur Index
+[20:53] und ich habe auch die Vermutung, du hast
+[20:55] deine Seite nicht aus dem
+[20:56] Baustellenmodus rausgeholt.
+[20:59] Das würde,
+[21:01] na ja, das war war so. Oh ja, wirklich.
+[21:05] Oh, du kannst du das machen. Hier hast
+[21:07] du mal ein Zugang. Und und plötzlich war
+[21:09] ich der der der in der in der Webseite
+[21:12] vom von der Schule drin. Hab hinten dann
+[21:15] geguckt, hab den von Suchmaschinen
+[21:18] blockieren den Haken rausgenommen und
+[21:20] Pups, ne? Also wahrscheinlich
+[21:24] werden sie jetzt viel viel weniger
+[21:25] Anrufe kriegen über die
+[21:26] Standardinformation, die sie sowieso
+[21:28] schon bereitgehalten haben. Ja, ist auch
+[21:30] witzig, dass niemand selber mal gecheckt
+[21:32] hat, wie man bei Google da gefunden
+[21:34] wird, ne? mal selber eine Suche gemacht
+[21:35] hat, dann vielleicht gemerkt, dass man
+[21:37] gar nicht auftaucht. Ja, das ist
+[21:39] interessant. Äh sie sie das ist eine
+[21:40] gute Schule. Die haben auch nie den
+[21:43] Bedarf gehabt, jetzt groß äh für sich
+[21:45] selbst zu werben. Die wollten,
+[21:47] also Schüler brauchten die in dem Sinne
+[21:49] nicht. Ähm aber die haben es nicht,
+[21:52] haben es leider nicht gesehen. Ähm jetzt
+[21:54] haben sie es alles gut. ähm läuft, aber
+[21:58] sowas passiert halt manchmal, muss man
+[22:00] auch sagen. Also dieses dieses No Index
+[22:03] Ding ähm hätte ich nicht gedacht, aber
+[22:05] ich hatte es im letzten Jahr dreimal.
+[22:09] Also äh ja äh dann nicht nur also ähm
+[22:14] SEO Plugin installiert, also andere
+[22:18] anderes Thema, andere Kunde SEO Plugin
+[22:21] installiert und das SEO Plugin hatte
+[22:22] plötzlich alle Autoren, die hatten
+[22:26] dummerweise mehrere Autoren
+[22:29] ähm alle Autoren auf ähm auf nur Index
+[22:32] gesetzt. war ist wohl so eine
+[22:33] Standardeinstellung in den in den
+[22:35] gängigen SEO Plugins. Ähm äh auch
+[22:39] unschön. Ja, Kunde installiert SEO
+[22:41] Plugin und verliert danach die
+[22:42] Sichtbarkeit auf all seinen äh auf all
+[22:45] seinen Mitarbeiter ähm Profilen. Na,
+[22:50] denkt eigentlich, hat was Gutes getan,
+[22:51] aber hat eigentlich was schlechtes
+[22:53] getan.
+[22:56] Wenn du jetzt Jörg, wenn du jetzt auf
+[22:58] die letzten 24 Jahre zurückschaust als
+[23:00] Suchmaschinenoptimierer,
+[23:02] was war vielleicht für dich die größte
+[23:04] Herausforderung, die du überwinden
+[23:06] musstest, fachlich oder auch persönlich
+[23:08] als SEO?
+[23:12] Ach ja.
+[23:14] Ähm, also persönlich, wir machen ja hier
+[23:18] das persönliche dann. Äh, ich hatte
+[23:21] tatsächlich mal die Idee gehabt, ähm
+[23:24] eine Mitarbeiter hier mit reinzunehmen.
+[23:27] Hatte erst angefangen, ich hatte ersten
+[23:29] Praktikanten, ich wollte mich ja langsam
+[23:31] ins Thema reinarbeiten. Ich hatte ersten
+[23:32] Praktikanten, das war auch ein
+[23:33] Freundschaftsdienst, aber ja, der gut,
+[23:36] da habe ich gedacht, okay, vielleicht
+[23:38] kann ich ja ein bisschen was abgeben.
+[23:40] Danach hatte ich einen befreundeten
+[23:42] Programmierer, der halbtagskam, das war
+[23:44] auch gut.
+[23:45] Ähm und danach dachte ich dann, jetzt
+[23:48] bist du soweit, jetzt stellst du mal
+[23:49] Mitarbeiter ein. Und dann habe ich
+[23:52] Mitarbeiter eingestellt
+[23:54] und dachte, gut, dann äh bespielen wir
+[23:57] halt Sachen, die
+[23:59] die vielleicht äh
+[24:02] na, wo man dann sagt jetzt, okay, ich
+[24:04] mache ja nur das Google Universum.
+[24:06] Könnte man viele Kunden kommen ja oft
+[24:07] dann sagen, Mensch, kannst du nicht auch
+[24:09] Facebook und ich dann immer nee, kann
+[24:11] ich nicht. Kannst du nicht auch Grafik
+[24:14] oder so? Ich sag, nee, kann ich nicht.
+[24:16] Und da hatte ich dann einen und der
+[24:19] es fing relativ gut an, aber endete dann
+[24:23] relativ schnell auch in in nicht so gut.
+[24:26] Ähm,
+[24:29] ich weiß nicht, ähm das war auf jeden
+[24:31] Fall ein persönlicher Fehl meinerseits,
+[24:34] würde ich jetzt sagen, dass ähm das hat
+[24:37] das hat nicht funktioniert. Ähm, ich bin
+[24:40] gar nicht mehr zum Arbeiten, zum Denken
+[24:43] gekommen oder irgendwas. Ich musste bloß
+[24:45] noch plötzlich bloß noch kommunizieren,
+[24:47] zwischen den Kunden kommunizieren,
+[24:49] zwischen meinem Mitarbeiter
+[24:50] kommunizieren. Ähm, wir wir sind nicht
+[24:53] wir sind nicht hoch hochgegangen. Ich
+[24:54] hatte plötzlich ein Haufen Arbeit. Weil
+[24:56] ich ja auch meinen Kunden gesagt habe:
+[24:58] "Hey, wir sind zu zweit jetzt, gibt mir
+[24:59] mal Arbeit." Die waren alle freudig. Ja,
+[25:01] cool, mach mal. Und dann hatte ich ein
+[25:03] Haufen Arbeit und dann kam aber diese
+[25:05] diese gelben Scheine, die man
+[25:07] Krankmeldung nennt. Äh war
+[25:09] wahrscheinlich damals von ihm auch eine
+[25:11] persönliche Geschichte, wo er musste
+[25:13] sich da glaube ich um seine auch seine
+[25:15] um seine Kinder kümmern und und ich weiß
+[25:18] auch nicht. Auf jeden Fall plötzlich,
+[25:19] wenn du dann da sitzt, du hast doppelt
+[25:22] so viel Arbeit und sitzt einen Monat
+[25:25] ohne Mitarbeiter, da muss den auch noch
+[25:27] bezahlen.
+[25:28] Das war ein persönlicher Fehl. So. Ähm
+[25:31] ja, den würde ich seitdem habe ich das
+[25:35] auch noch nicht wieder gewagt. Will er
+[25:37] will das auch nicht. Ähm bin glücklich
+[25:40] allein zu sein. Bin froh wieder, ne?
+[25:44] Aber war das den vorher abzusehen auch
+[25:46] vielleicht im Recruitingprozess oder
+[25:48] warst du hast jetzt so, wenn du zurück
+[25:51] reflektierst, warst du vielleicht zu
+[25:53] blauäugig, zu naiv oder hätte man das
+[25:55] absehen können oder war das total nicht
+[25:59] ersichtlich, dass sowas passieren? Ja,
+[26:00] hät ich hätte ich absehen können, hätte
+[26:02] ich es wahrscheinlich äh nicht gemacht.
+[26:06] Du du
+[26:08] alles passiert alles. Also, ich konnte
+[26:11] es ich konnte das nicht absehen. Ich
+[26:13] hatte voll die Idee. Ähm damals war ich
+[26:16] noch im im Google
+[26:19] Agency Programm. Also äh äh also äh das
+[26:22] so wurde als Highing eingestuft damals.
+[26:26] Ähm und äh da gab's auch
+[26:30] Weiterbildungskram und alles und diese
+[26:33] diese
+[26:35] ähm wie heißen die denn? Die die
+[26:37] Seminare und ich habe wirklich auch ich
+[26:38] habe mir auch Zeit genommen dann, ne,
+[26:41] dass mir dann dass man dann da zusammen
+[26:43] mal reingeht. Ich bin war mir schon
+[26:45] klar, dass das seine Zeit dauert, bis
+[26:48] man sich sich eingeschliffen hat oder
+[26:50] bis man die gleiche Sprache spricht,
+[26:51] aber es äh
+[26:54] das hat nicht funktioniert. Ähm es war
+[26:58] und dann wie gesagt Krankmeldung, wenn
+[27:00] du wenn eine Woche anstand, wo ich
+[27:01] sagte, wir fahren nächste Woche zusammen
+[27:03] raus. Ich hatte auch Vorortkunden.
+[27:06] Ähm mag ich ja auch manchmal, dass ich
+[27:08] dann mir ein Vorkunden hier in Berlin äh
+[27:11] suche um dass man mal wieder menschelt
+[27:13] und bisschen ja lokales Marketing dann
+[27:17] macht. Habe ich gesagt, nächste Woche
+[27:19] stehen zwei Termine an und dann kam
+[27:21] wirklich prompt, aber es kam nicht, das
+[27:24] kam das kam wirklich den Montag morgen
+[27:26] dann ich habe Bauchschmerzen, ich komme
+[27:28] nicht. Ich so, okay.
+[27:32] Ja, dann dann nicht. Und wenn dir das
+[27:34] dann drei vier mal passiert, dann denkst
+[27:36] du h ist da irgendwie die
+[27:39] Ja, also abgesehen habe ich das nicht.
+[27:41] Äh ich will will jetzt auch nicht dazu
+[27:43] schlecht zu drüber reden. Ich weiß
+[27:45] nicht, woran es lag. Ich ich mach mach's
+[27:48] nicht noch mal, ne? Ich mache das jetzt
+[27:50] anders. Ich mache das jetzt über
+[27:54] Freelancer Netzwerk oder Freelancerteam.
+[27:56] Da smer bin ich ja unterwegs, wo ich
+[27:59] dann eher mit äh spezialisierten
+[28:02] Freelancer und alles, was ich nicht kann
+[28:04] oder wo ich eine tiefere Spezialisierung
+[28:06] brauch, das gebe ich dann an
+[28:08] selbstständige Leute ab, die ja auch ein
+[28:11] bisschen den Eigenanspruch haben, äh gut
+[28:14] zu sein und gute Dienste zu liefern und
+[28:18] mit ihrem Namen sogar noch dahinter
+[28:20] stehen. Also, das ist glaube ich so mein
+[28:22] Weg. Das habe ich dann auch
+[28:24] festgestellt, das mag ich viel mehr. Ich
+[28:26] mag auch selbstständige mehr, wenn man
+[28:28] jetzt mal darüber, also ich mag
+[28:29] Angestellte auch, aber wir waren ja kurz
+[28:31] bei dem Thema, aber also nein, nein,
+[28:37] schneiden, schneiden. Also, nein, aber
+[28:39] äh ich ich ich mag auch ich mag auch
+[28:42] Geschäftsführer, ich mag mache auch das.
+[28:44] Mir wurde mal attestiert, dass ich ähm
+[28:47] unsere komplexe Welt
+[28:50] in in in menschliche Worte fassen kann.
+[28:53] Ja, es ist ja oft so ein
+[28:55] Kommunikationsding. Ja, du gehst in
+[28:57] deinen SEO rein und dann blinken dich da
+[29:00] irgendwelche Kurven an. Die sind ja noch
+[29:02] verständlich, aber so wie irgendwelche
+[29:04] Meldungen kommen mit strukturierte Daten
+[29:06] sind nicht richtig, Sidemap ist
+[29:08] abgeruscht,
+[29:10] da kommen Server hat 404 Fehler Server
+[29:15] down blaxt
+[29:17] extrem technischer Kram. und ähm das das
+[29:20] zu übersetzen,
+[29:22] das das wurde mir mal attestiert, dass
+[29:25] ich das relativ gut kann. Also auch in
+[29:28] übersetzen mit
+[29:30] was
+[29:32] muss da gemacht werden und
+[29:36] Aufwand nutzen, muss ich es gleich
+[29:38] machen und was bringt's dir für ein
+[29:39] Impekt, wenn du wenn du es äh wenn du es
+[29:43] wenn du es löst und das für ich sag mal
+[29:47] für Geschäftsführersprache
+[29:49] ähm
+[29:51] das können glaube ich nicht nicht so
+[29:54] viele oder wie gesagt das mache mache
+[29:55] ich auch gerne dass ich dann halt mal
+[29:57] runter unterbreche, wenn man das jetzt
+[29:58] hier in in bildliche Sprache, dass er
+[30:01] dann versteht oder dass die Leute dann
+[30:02] verstehen, okay, ah, es ist wichtig,
+[30:05] hört sich kryptisch an, ist aber
+[30:07] wichtig, mach mal oder hört sich
+[30:09] kryptisch an und vernachlässigen mal
+[30:11] sind ja auch viele Sachen, wo man sagen
+[30:13] kann, ja, ist nicht priorit kann ich dir
+[30:16] auch aus Inhaussicht sagen. Also die
+[30:18] erfolgreichsten Inhaus Leute sind
+[30:20] wahrscheinlich die oder hundertprozentig
+[30:22] die, die natürlich ja Resultate liefern,
+[30:26] aber auch für Initiativen kämpfen
+[30:28] können, ne? Also was heiß kämpfen
+[30:30] können, sondern die verargumentieren
+[30:32] können und da geht es ganz ganz viel
+[30:34] darum, diese komplexen SEO Begriffe,
+[30:37] komplexen SEO Zusammenhänge, Crawling,
+[30:39] Indexing, Sichtbarkeit, Canonical Text,
+[30:42] Hflake Text in ganz einfache Sprache
+[30:45] umzuwandeln, so dass ein
+[30:46] Geschäftsführer, der 1000 Sachen im Kopf
+[30:49] hat und jetzt wirklich wie so ein wie so
+[30:50] ein Hubschrauber einmal kurz reinkommt,
+[30:52] Staub aufwirbelt und in dieser kurzen
+[30:54] Zeit halt die wichtigste Essenz deiner
+[30:57] Nachricht braucht. Ähm, je einfacher du
+[30:59] das darstellen kannst und in Bezug
+[31:01] stellen kannst vielleicht zu
+[31:02] Kompetitoren, zu dem, was dem Kunden das
+[31:04] nützt und so weiter, desto erfolgreicher
+[31:07] wirst du sein, auch Budgets, Freigaben
+[31:09] für Initiativen und so weiter zu
+[31:11] bekommen. Mm. Ja, das ist äh
+[31:14] Kommunikation ist ein großer Teil
+[31:16] unserer Arbeit. Ähm, also jetzt für die
+[31:20] Geschäftsführer, aber auch für ähm
+[31:22] manchmal für Entwickler ähm oder auch
+[31:25] für Designer. Man muss ja dann das so
+[31:28] plausibel argumentieren,
+[31:30] ähm dass die dass die mitgehen. Du
+[31:33] brauchst ja, du brauchst ja an jeder
+[31:34] Stelle eigentlich Leute, die das
+[31:36] unterstützen und die dann ne ähm
+[31:41] verstehen, was du meinst, dass sie dass
+[31:43] s sagen, ja, okay, das ist wichtig, das
+[31:45] jetzt einmal richtig zu machen, damit
+[31:47] ich nicht von dir noch noch zehn mehr
+[31:50] Tickets kriege oder noch zehn mehr
+[31:52] E-Mails kriege, dann machen wir das
+[31:54] jetzt einmal richtig und dann ist halt
+[31:55] Kommunikation vorab so ein wirklich
+[31:58] Schlüsselfaktor. Das muss ich sagen, das
+[32:00] habe ich das habe ich erst im Laufe der
+[32:02] Jahre gelernt, also dass man dass man
+[32:05] wirklich ähm
+[32:09] mit Menschen, mit denen auch die die
+[32:12] Perspektive kurz einnehmen muss jetzt
+[32:15] nicht nur deine Welt immer so, das ist
+[32:17] total wichtig, Mensch, wir müssen da,
+[32:18] wir stehen da nur in oder ich sagt ja,
+[32:21] aber muss ein bisschen ein bisschen
+[32:24] bisschen reinfühlen, was es ihm bringen
+[32:26] könnte oder warum es jetzt sinnvoll ist.
+[32:29] sich da einmal intensiv zu beschäftigen,
+[32:33] das richtig aufzusetzen, komplett zu
+[32:35] lösen, auch mit einem richtigen
+[32:37] Anforderung und mit einem richtigen
+[32:38] Feedback und mit einer richtigen
+[32:40] Doppelprüfung und dann ist das Thema
+[32:42] durch und dann kann er weitermachen oder
+[32:44] können alle weitermachen, was wir
+[32:46] machen. Ähm, also Kommunikation finde
+[32:49] ich ist äh wirklich unterschätzter
+[32:52] Schlüssel in in im in der ganzen
+[32:54] Marketing Welt. Ja, also ja. Ja, wir
+[32:58] haben ja vorhin diese Timeline. Guck mal
+[33:00] auf die letzten 24 Jahre zurück. Was
+[33:02] waren so die größten Herausforderungen?
+[33:04] Vielleicht auch Downer in in deiner
+[33:08] Laufbahn. Lass mal diese Timeline noch
+[33:09] mal zeichnen und vielleicht mal gucken
+[33:12] auf die 24 Jahre, was so die Meilsteine
+[33:15] Meilensteine waren äh die du ähm die du
+[33:18] einfahren konntest oder die du siehst.
+[33:21] Gab Situationen in denen du dachtest,
+[33:23] oh, jetzt wird's richtig gut, das ist
+[33:25] richtig gut. ähm das was sich immer
+[33:28] wieder weiter nach vorne gebracht hat,
+[33:29] weil auch in 24 Jahren kann ich mir
+[33:31] vorstellen, hat man öfter vielleicht
+[33:32] auch mal gedacht, oh, ich jetzt echt
+[33:34] noch Bock drauf, ey. Erkenne ich ja
+[33:36] auch. Ich habe auch ab und zu mal so
+[33:37] Phasen, wo ich denke, oh, jetzt SEO
+[33:39] langweilig. Glücklicherweise ist es
+[33:41] jetzt wieder super spannend, aber ich
+[33:43] habe natürlich zwischendurch auch immer
+[33:45] mal so Zeiten gehabt, wo so oh nee und
+[33:47] dann kam wieder irgendwas, wo ich dachte
+[33:48] so, oh, jetzt aber doch ganz geil. Und
+[33:50] und gibt's da so Meilensteine, die für
+[33:53] dich persönlich vielleicht auch weiter
+[33:54] gepusht haben, aber vielleicht auch in
+[33:56] deiner Arbeit weiter gepusht haben, ähm
+[33:58] wo du vielleicht auch mal gedacht hast,
+[33:59] oh, ne, kein Bock mehr drauf. Ah, ich
+[34:02] habe ich habe noch ein ich habe noch ein
+[34:04] Ding. Ähm ähm ich hatte mal
+[34:09] ähm am äh ich war ja ich komme ja aus
+[34:12] der aus der Performance Welt mit mit
+[34:15] meinem äh Affiliate Portalen und ähm ich
+[34:20] hatte tatsächlich damals angefangen ähm
+[34:24] ganz viel Kunden
+[34:26] äh oder Webmaster zu produzieren für
+[34:29] Sanox. Also Sanhox, das das Affiliate
+[34:32] Portal. Ja, äh ich hatte natürlich mega
+[34:35] schlaue Idee. A jetzt machst du immer
+[34:38] nicht nur affiliate für Produkte,
+[34:40] sondern jetzt du kriegst ja eine
+[34:41] Lifetime Commission, eine Lifetime
+[34:44] Provision, wenn du Webmaster an diese
+[34:47] Portale schickst, ne? Damals gab es
+[34:49] Affelinet
+[34:51] Affelnet dann äh Sanox und ich habe
+[34:54] angefangen Sanox äh Webmaster zu
+[34:56] schieben und du warst dann warst dann an
+[34:59] den an den an den Provisionen Lifetime
+[35:02] beteiligt und dann dachte ich so, warte
+[35:03] mal, das ist eigentlich eine richtig
+[35:05] gute Idee. Ähm dann nimmst du mal jetzt
+[35:08] das alles, was du so hast und baust mal
+[35:10] wieder ein Portal. Äh oder das war das
+[35:12] war sogar nur ein One Pager. Da habe ich
+[35:14] so nur ein One Pageer gebaut. Wusste ich
+[35:16] nicht, dass das damals so heißt. Egal.
+[35:18] und habe aber angefangen, da ähm
+[35:22] äh Webmaster zu produzieren. Ich habe in
+[35:25] der Spitze
+[35:27] über 1000 Sanox Affiliates geworben. Ja,
+[35:33] Grüße jetzt hier an CBS äh Christian
+[35:36] Boris Schmidt, der damals bei Sanox
+[35:38] gearbeitet hat. Ähm
+[35:42] äh und äh ich hatte da wirklich gedacht,
+[35:46] cool, das das wird deine Rente. Ja. ähm
+[35:50] weil weil die haben dann auch
+[35:51] angefangen, hat natürlich eine Weile
+[35:52] gedauert, eh so ein neuer Publisher
+[35:54] anfängt sich im Affiliate durchzusetzen
+[35:57] und dann und dann hat der halt
+[35:59] Provisionen gekriegt und ich habe immer
+[36:00] weiß, wie hoch war denn das glaube ich
+[36:02] 10 % oder sowas von all dem, was diese
+[36:04] ganzen 1000 Leute da ähm
+[36:08] ähm an Provisionen gemacht haben. sind
+[36:11] natürlich auch viele verreckt, aber die
+[36:14] durchgekommen sind, die 50, die haben
+[36:16] mir eine stabile Einkommensbasis
+[36:19] gebracht bis zu dem Punkt,
+[36:23] als Sanox verkauft wurde
+[36:26] und dann plötzlich ein neues Management
+[36:28] da war und das neue Management hatte die
+[36:31] tolle Idee, dieses Affiliate Programm
+[36:34] für Referal
+[36:38] Webmaster Lifetime einzustellen. stellen
+[36:42] von Lifetime Commission auf du kriegst
+[36:45] noch 6 € für ein Lied. Und ich so, na,
+[36:48] wartet mal, aber unser Deal war ja
+[36:50] davor.
+[36:51] M das ist irgendwie nicht so fair, äh
+[36:54] weil ich würde ja schon gerne für für
+[36:56] die, die ich euch davor mit dem
+[36:57] Kontraktarbeit weiter, die möchte ja
+[36:59] schon gerne bezahlt werden. Und da bin
+[37:01] ich damals äh in den Streit gegangen mit
+[37:04] denen ähm und äh die haben sich
+[37:07] natürlich wie ein Konzernverhalten und
+[37:09] haben das an jeder Stelle auch geblockt.
+[37:12] Ähm und
+[37:14] das ist dann leider
+[37:17] leider weggefallen. Und da mein mein
+[37:19] mein mein Learning aus Themen war äh sei
+[37:22] vorsichtig mit Lifetime kommischen und
+[37:25] ähm verlass dich nicht auf einen äh
+[37:28] Standbein. Gerade wenn du auch ähm äh
+[37:33] ja, wenn du
+[37:35] wenn du die Chance hast äh mehrere
+[37:37] Einkommensquellen zu generieren, dann tu
+[37:39] das, ne? Ja.
+[37:43] Wenn du wenn du heute an dein jüngeres
+[37:46] Ich zurückdenken würdest, ähm sagen wir
+[37:48] mal, als du gerade angefangen bist, so
+[37:50] 2001, 2002, vielleicht ein bisschen
+[37:53] später noch, ähm was würdest du dir
+[37:55] selbst als Rat geben? Welcher wäre das?
+[38:01] Ich habe viel zu lange im stillen
+[38:02] Kämmerchen gesessen, ne? Also das so,
+[38:05] also Jörg, du von vor 20 Jahren, sitz
+[38:09] mal nicht so viel in deinem stillen
+[38:10] Kämmerchen, sondern geh auch mal raus,
+[38:12] sprich mal mit den Leuten und hol dir
+[38:15] Hilfe an der Stelle, wo du nicht
+[38:18] weiterkommst, weil es gibt immer Leute,
+[38:20] die an irgendeiner Spezialisierung
+[38:22] besser sind oder auch in deinem gleichen
+[38:24] Thema oder auch in dem fremden Thema.
+[38:26] Ich würde ich würde mir viel eher viel
+[38:30] schneller mehr qualifizierte
+[38:32] Hilfe suchen von von Freelancern oder
+[38:36] von ja die den Weil ich habe das das
+[38:39] zwar wirklich, wenn ich reflektiere, da
+[38:42] habe ich zu langen äh eigenen Kram
+[38:45] gemacht. Ich als SEO ist man ja so, man
+[38:47] man macht seine Experimente, man macht
+[38:49] seinen Kram, ne? Ähm, guck dann, was
+[38:51] funktioniert und und, aber es kommen
+[38:53] immer Stellen, wo du sagst, ne, ach
+[38:56] Mist, jetzt muss ich mich da noch rein.
+[38:58] Server, was äh jetzt hat er da noch ein
+[39:02] Problem und oh, und dann setzt du dich
+[39:04] hin und dann verschwendest du wieder
+[39:05] deine Zeit. Und das wäre an vielen
+[39:07] vielen, vielen Stellen einfach einfacher
+[39:09] gewesen zu sagen,
+[39:12] Mensch, hier
+[39:14] du habe gehört, du machst was mit
+[39:17] Servern. Kannst du mir mal helfen?
+[39:20] kannst du mal 2 d Stunden das aus der
+[39:23] Welt schaffen. Ich bezahle dich dafür.
+[39:25] Mach das mal, ne? Und ich das das wäre
+[39:29] was äh das mache ich ja jetzt ja mit äh
+[39:33] das oder mache ich ja schon ein paar
+[39:35] Jahre, da du hast hal deine befreundeten
+[39:37] Leute, mit denen du zusammenarbeitest
+[39:38] und und aber ähm das alleine
+[39:42] durchzuboxen, gerade auch wenn man eine
+[39:44] One Man Show ist, ähm dann dann
+[39:46] schneller Hilfe holen. Das wäre glaube
+[39:48] ich so der der das Ding. Und das geht
+[39:51] auch dann viel schneller alles. Also du
+[39:52] bist bist ja, wenn du dann wenn du dann
+[39:55] jemanden drauf setzt, der das besser
+[39:57] weiß als du, dann
+[40:00] dann passieren halt auch weniger Fehler,
+[40:02] was ich alles schon erlebt habe, wo ich
+[40:05] plötzlich musste ich irgendeine HT
+[40:06] Access anpassen, weil das System das so
+[40:09] wollte. Ja, aber ich bin nicht so der
+[40:12] der der Programmierer und alles. Und
+[40:15] plötzlich
+[40:16] passieren da mal Sachen, wo du sagst,
+[40:19] die seid jetzt gar nicht mehr da. Ul,
+[40:20] was passiert? Ach shit. Äh, das war ja
+[40:22] die harte Exess. Ja, jetzt weiß ich,
+[40:24] dass das so ist. Ja, das also alles, das
+[40:27] alle Privatprojekte Kundenprojekten,
+[40:29] nämlich all diese Learnings, um diese
+[40:31] Umwege zu sparen. Ja, also sowas
+[40:34] passiert nicht bei Kunden, ne? Aber das
+[40:38] ja
+[40:40] Erfahrung. Äh,
+[40:43] würdest du dir denn selbst jetzt auch
+[40:45] raten, wieder ins Also man kann ja klein
+[40:48] anfangen als Freelancer oder als
+[40:50] Advisor? äh oder kann sogar auch in in
+[40:54] eine Agenturgründung oder sowas gehen,
+[40:56] gerade jetzt zu dieser Zeit. Also ich
+[40:58] z.B. Ich hab das Gefühl, viele sagen:
+[41:00] "Ja, okay, SEO wird obsolet, AI wird
+[41:03] alles machen." Ich glaube, dass gerade
+[41:06] jetzt die Zeiten für Freelancer, Advisor
+[41:09] und auch Agenturenig
+[41:11] sein werden, weil natürlich diese ganze
+[41:13] neue Welt mit LMO, GO, whatever SEO
+[41:18] sozusagen neuen Twist bekommt und viele
+[41:20] Firmen natürlich Fragezeichen haben und
+[41:22] gar nicht in dieser neuen Welt sozusagen
+[41:24] gar nicht wissen, okay, was sind da
+[41:26] Faktoren, wie komme ich da rein und so
+[41:28] weiter und dann natürlich sehr viel
+[41:30] stark Zulauf auch haben, also Agenturen
+[41:32] oder auch Freelancer sehr starken Zulauf
+[41:34] haben würden. Spürst du das auch und
+[41:36] würdest du auch sagen, dass jetzt
+[41:37] eigentlich die beste Zeit ist wieder
+[41:40] sozusagen ins in ins in ins
+[41:41] Selbständigkeit zu gehen oder Agentur zu
+[41:43] gründen?
+[41:45] Ach, ob man ob man selbständig macht
+[41:47] oder angestellt ist, das ist ja eine
+[41:49] persönliche Entscheidung. Aber manche
+[41:51] Leute müssen auch angestellt sein, weil
+[41:53] sie ähm eben ihre Verpflichtungen haben
+[41:56] und mit dem Risiko nicht umgehen können
+[41:58] oder also das ob man ob man selbständig
+[42:01] oder angestellt ist, also das ist eine
+[42:03] persönliche Entscheidung. Soll jeder
+[42:04] machen, wie er möchte. Auf das Thema,
+[42:06] was du jetzt fragst, ähm ob SEO tot ist
+[42:10] oder ob jetzt die goldene Zeit ist. Also
+[42:13] ich bin da voll der Meinung, dass SEO
+[42:17] und äh alles, was Marketing angeht, wird
+[42:21] wahrscheinlich ähm noch viel komplexer
+[42:25] werden. Und wenn wir jetzt mal über
+[42:27] diese neue Welt reden, wenn wir jetzt
+[42:29] wir sind ja up to date, dann wollen wir
+[42:31] ja dann kommen kommen natürlich jetzt
+[42:33] die Anfragen, wie erscheine ich denn in
+[42:35] so einem in so einer
+[42:38] KI Antwort und alles und bislang sind
+[42:41] wir ja da noch am am Forschen, aber das
+[42:43] was so die ähm die der der allgemeine
+[42:47] Konsent jetzt so kommt, ist ja, dass du
+[42:49] rausgehen musst. Du musst halt nicht nur
+[42:51] dein SEO beherrschen, die die Basic
+[42:53] Klatzi, du musst wahrscheinlich auch ein
+[42:55] bisschen PR machen. Du musst
+[42:57] wahrscheinlich auch auf anderen Portalen
+[42:59] unterwegs sein.
+[43:01] Du, das ist das wird das wird sogar
+[43:04] größer anstatt kleiner. Also ja, und ich
+[43:07] habe ein bisschen so die Vermutung, dass
+[43:10] dass wir mit den anderen Disziplinen
+[43:12] dann verschmelzen müssen bzw. dass du
+[43:17] dass seus jetzt erstmal gehört werden,
+[43:20] weil wir ja ganz dicht dran sind an
+[43:22] diesem Algorithmus denken und an diesem
+[43:25] wie wie interpretiert denn die Maschine
+[43:27] das und alles, ne? Und ähm ich ich
+[43:30] glaube, die die Seeohlein wird glühen.
+[43:32] Ja, also ähm äh auch wenn das jetzt wenn
+[43:36] die das anders nennen wollen oder
+[43:38] irgendwas, aber um um in die generative
+[43:43] KI zu kommen, ja, oder um da als Antwort
+[43:45] gelistet zu werden, musst du ja auch
+[43:48] sichtbar sein. Und das geht halt raus,
+[43:51] dass dein Aufgabenbereich, also ich sehe
+[43:53] es als neuen Baustein im SEO, ähm das
+[43:57] geht halt raus, dass du auch
+[44:00] nicht nur dein internesum
+[44:04] synchronisieren solltest mit den
+[44:05] Beschreibungen und mit den mit den äh
+[44:09] mit den mit den Inhalten, also was du da
+[44:11] was du da lieferst, du musst
+[44:12] wahrscheinlich auch rausgehen und viel
+[44:13] viel mehr äh dich dich extern
+[44:16] präsentieren. Und dann werden vielleicht
+[44:18] noch mal äh Portale wichtiger werden,
+[44:21] die jetzt schon gut von der von den
+[44:24] Modellen gekrault werden, wobei die noch
+[44:26] nicht so die Kapazitäten da haben. Aber
+[44:29] ja, ich glaube, es geht ein bisschen
+[44:31] raus, dass das ähm man muss an mehr
+[44:34] Stellen präsent sein und das heißt
+[44:36] eigentlich auch mehr Arbeit, ne? Und
+[44:39] wenn ich irgendwo eine Information glatt
+[44:41] ziehen muss und den Kontext, die Entität
+[44:44] herstellen muss, die ähm äh
+[44:48] na das Keyword Troppen, ich muss ja
+[44:51] irgendwo, ich muss ja den Kontext
+[44:52] herstellen jetzt nur auf dem
+[44:54] bescheuerten Portal unterwegs zu sein,
+[44:56] ist ja noch nichts, ne? Wenn der nicht
+[44:57] versteht, dass ich
+[44:59] Suchmaschinenmarketingez
+[45:01] bin, wenn das Wort da nicht in meiner
+[45:03] Beschreibung drinne steht, dann dann
+[45:05] referenziert er mich nicht als
+[45:06] Suchmaschinenmarketingpie oder als SEO
+[45:09] Spezialist oder sowas, ne? Das muss muss
+[45:11] ich also aus meinem Website Universum
+[45:15] rausgehen und muss in den anderen auch
+[45:18] noch unterwegs sein. Und ich glaube, das
+[45:21] wird unheimlich teuer auch muss man auch
+[45:24] sagen. Ja, also wenn du jetzt herkommst
+[45:25] und sagst äh du mach mal für mich SEO
+[45:28] und KI mit, ja, dann sage ich du äh
+[45:30] okay, äh das können wir schon machen,
+[45:33] aber ist dir auch bewusst, dass du das
+[45:35] Budget dafür haben solltest, ne? äh
+[45:38] jetzt von dem von dem äh von dem
+[45:40] normalen Seobudget noch mal
+[45:42] rauszuschwitschen, um Markenarbeit zu
+[45:45] machen. Ja,
+[45:47] da habe ich die Vermutung, werden viele
+[45:51] nicht mitgehen.
+[45:53] Das heißt, wenn jetzt eine deiner
+[45:55] älteren Töchter sagen würde, Papa, ich
+[45:57] werde jetzt Seo, hättest du kein
+[45:59] molmiges Gefühl.
+[46:01] Ui, wenn sie sich den Stress antun
+[46:04] wollen. Äh,
+[46:09] also aber du siehst jetzt, du siehst da
+[46:11] noch rosige Zukunft. Das war eigentlich
+[46:12] die Frage. So. Ach so.
+[46:15] Ähm, da würde ich da würde ich dann eher
+[46:17] sagen, werd gleiche Unternehmensberater,
+[46:19] weil da da geht's hin. Ähm, dann ist
+[46:22] auch viel besser bezahlt und ähm dann so
+[46:25] ein digitaler Unternehmensberater ist,
+[46:27] glaube ich, eine viel bessere
+[46:28] Bezeichnung. Seo hat ja so ein bisschen
+[46:31] schmuddeligen Ruf äh auch auch weil weil
+[46:36] weil es halt aus so einer schmutzigen
+[46:37] Ecke kam, aber ähm die die ich sag mal
+[46:40] wegen dir wegen dir mit deinen 10 Jahren
+[46:43] anfängen mir und diesen ganzen anderen.
+[46:45] Äh nein. Ähm
+[46:48] nee, digitale Unternehmensberater ist,
+[46:50] glaube ich, eine viel bessere
+[46:51] Jobbezeichnung, den ich meinen Töchtern
+[46:53] da ans Herz legen würde, weil äh a so
+[46:57] wie du Unternehmensberater bist, kannst
+[46:59] du gleich mal den doppelten Stundensatz
+[47:01] aufrufen. Ähm und wenn du dann noch
+[47:03] sagst, ich bin äh äh bin halt für die
+[47:08] digitale Markenwahrnehmung
+[47:10] Sichtbarkeitsmanagement
+[47:11] zuständig, hört sich viel viel besser
+[47:13] an. Also, dann würde ich eher sagen,
+[47:16] mach das, was du machst, aber nenn's
+[47:20] nenn's so, dass es gut bezahlt wird. Ja,
+[47:23] in diesem Sinne danke ich dir fürs sehr
+[47:25] persönliche Gespräch. Hat mich mega
+[47:27] gefreut, war super interessant. Vielen
+[47:29] Dank, dass du dabei warst. Vielen Dank
+[47:31] euch fürs Einschalten und wir sehen und
+[47:33] hören uns nächste Woche wieder im SEO
+[47:34] Press Podcast. Bis dahin, ciao.

@@ -1,0 +1,1910 @@
+# Transkript: SEO-Sprechstunde (Roland Golla & Jörg Zimmer) (ID: tD7cXuVcRPA)
+
+[00:04] Hallo Freunde der Software Entertainments 
+und herzlich willkommen bei Never Code  
+[00:08] Alone. Heute zu einer Live-Session zum 
+Thema SEO-Suchmaschinenoptimierung.  
+[00:15] Da sind wir in der Sprechstunde bei 
+Jörg Zimmer. Herzlich willkommen,  
+[00:20] Jörg. Hallo Roland, vielen Dank, dass ich da 
+sein darf. Jörg, du machst SEO. Woher kommst du,  
+[00:28] und wieso kannst du das eigentlich? 
+Ich wohne jetzt in Berlin-Spandau,  
+[00:37] und SEO hat mich in den Anfängen des Internets 
+sehr fasziniert. Als das alles losging,  
+[00:45] habe ich ein paar eigene Seiten gemacht und bin 
+mittlerweile wirklich schon fünfundzwanzig Jahre  
+[00:50] dabei. Das ist so mein Hintergrund, ich mache 
+das seit fünfundzwanzig Jahren freiberuflich.  
+[01:02] Das ist sehr gut. Jetzt gibt es ja aktuell das 
+Thema KI, die angeblich alle ersetzt. Wie siehst  
+[01:10] du diesen wilden Trend? Wird Google überhaupt noch 
+benutzt? Was hältst du von den ganzen Headlines,  
+[01:16] die uns hier in der Branche über den Weg laufen? 
+Das ist ein gutes Thema und sehr spannend. Das  
+[01:28] führt wahrscheinlich zu einem größeren Umbau im 
+gesamten Internet, und im Moment ist das leider  
+[01:35] noch sehr hyplastisch getrieben. Das scheint 
+mir aber doch ein bisschen ein architektonischer  
+[01:43] Umbau zu werden, weil die KI-Suchsysteme und die 
+KI-Modelle grundsätzlich anders arbeiten, als wir  
+[01:51] das aus der klassischen Suchmaschinenoptimierung 
+kennen. Das Web war ja für Menschen gemacht,  
+[01:58] oder ist immer noch für Menschen gemacht. Die 
+brauchen eine Webseite mit HTML und Design und  
+[02:05] diesen ganzen Kram. Das bräuchte der KI-Crawler so 
+nicht, der ist eigentlich nur daran interessiert,  
+[02:13] so schnell wie möglich Fakten zu extrahieren. Das 
+sind meiner Meinung nach zwei unterschiedliche  
+[02:20] Welten, auch wenn sich das Handwerkszeug, um beide 
+zu optimieren, sehr ähnelt. Die Stichworte da sind  
+[02:29] ja GEO und SEO, und ich habe zumindest auf der 
+CampX, wo wir ja auch zusammen unterwegs waren,  
+[02:38] wahrgenommen, dass man sagt, gutes SEO ist 
+dann auch gut für künstliche Intelligenz  
+[02:49] und ChatGPT und alle anderen. Manchmal kommt 
+mir das aber auch so vor, als wären das SEOs,  
+[02:56] die irgendwie in ihrer Arbeit steckengeblieben 
+sind und gar nicht die neuen Prinzipien verstehen,  
+[03:01] die GEO braucht. Wie ist da deine Meinung? Einfach 
+gutes SEO, und alles wird gut? Das Thema ist groß.  
+[03:19] Ich hatte ja schon gesagt, die Überschneidungen 
+sind sehr groß, aber eine reine Webseite wird  
+[03:26] wahrscheinlich im GEO-Game nicht ausreichen. 
+Du musst SEO machen, du musst natürlich deine  
+[03:35] ganzen Punkte durchspielen, du musst freundlich 
+sein, technisch gut aufgestellt sein, du musst  
+[03:43] Inhalte mit passendem Kontext und auch Keywords 
+bereitstellen. Du musst also erst mal dein  
+[03:57] SEO-Game durchspielen, um dann danach zu sagen, 
+okay, jetzt machen wir noch den weiteren Baustein,  
+[04:05] wo wir in Richtung KI-Modelle optimieren. Aber 
+bitte erst mal die SEO-Hausaufgaben machen.
+[04:17] Ich hoffe, du hörst mich noch, gerade ist 
+nämlich meine Kamera weggegangen, aber das  
+[04:21] soll nicht so tragisch sein, alles ist hier echt 
+und live. Was hast du uns denn mitgebracht? Wir  
+[04:30] gehen heute in die SEO-Sprechstunde. Wie 
+kommt es zu dem Namen, und was verbirgt  
+[04:35] sich dahinter? Die SEO-Sprechstunde ist so mein 
+Einstiegsprodukt. Das ist daraus entstanden, dass  
+[04:45] ich gern Webseiten durchröste. Ah, da bist 
+du wieder, sehr schön. Also, ich röste  
+[04:52] gerne Webseiten durch und finde dann relativ 
+schnell Webseiten mit der Erfahrung heraus,  
+[05:01] finde ich relativ schnell ein paar Stellschrauben, 
+und die gebe ich dann an den Kunden weiter,  
+[05:10] ohne ihn gleich in einen Monatsvertrag zu binden 
+oder ihm ein Riesenpaket anzubieten. Dafür hat  
+[05:19] sich dann diese SEO-Sprechstunde entwickelt. 
+Da können Leute mit ihrer Domain reinkommen,  
+[05:25] die ich dann kurz durchscanne, dann gehen 
+wir in einen zweistündigen Videocall  
+[05:32] und besprechen zusammen mit dem Kunden, was 
+sein Setup ist und, aus der Ist-Analyse heraus,  
+[05:40] was für ihn die größten Hebel wären. Man kann ja 
+immer hundert Sachen analysieren, aber vielleicht  
+[05:47] sind nur drei wichtig, und die arbeite ich dann 
+in so einer Sprechstunde heraus, protokolliere das  
+[05:58] mit einer Aufzeichnung, und die Leute bekommen 
+am Ende erst mal die Sicht eines Fachmanns,  
+[06:05] sie bekommen die Aufzeichnung, und sie bekommen 
+im Nachgang auch noch die Einschätzung:  
+[06:11] Jetzt würde ich strategisch aus deiner Sicht 
+und in deinem Setup diese drei bis fünf Punkte  
+[06:17] angehen. Drei bis fünf Punkte klingt jetzt nicht 
+nach so viel. Schaust du denn dann nach, ob sich  
+[06:26] das auch positiv entwickelt, ob das alles richtig 
+gemacht worden ist, und wertest im Nachgang auch  
+[06:35] die Zahlen aus, ob man besser geworden ist? Wenn 
+der Kunde noch mal in die Sprechstunde kommt,  
+[06:42] dann schon. Das ist jetzt kein Mandat für die 
+Ewigkeit, die Sprechstunde ist ein kleines,  
+[06:48] abgeschlossenes, bezahltes Produkt, meine Energie 
+muss ja auch ausgeglichen werden. Im Nachgang  
+[06:56] kommen viele Leute später wieder, die brauchen 
+meistens ein bisschen, um die Tipps umzusetzen.  
+[07:06] Teilweise geht es darum, technische Infrastruktur 
+glattzuziehen, das kann dauern, je nachdem,  
+[07:12] wie gut jemand aufgestellt ist. Manchmal ist es 
+inhaltlich, manchmal sind es auch andere Signale  
+[07:20] aus dem eigenen Universum. Das braucht meist ein 
+bisschen beim Kunden, aber ich bin gut bewertet,  
+[07:28] sagen wir es mal so, die Leute kommen gern wieder. 
+Ich habe auch Leute, die kommen einmal im Jahr,  
+[07:33] die machen bei mir so eine Art TÜV, und dann 
+sagen sie: Guck mal, Jörg, wir haben das in der  
+[07:40] Zeit schon umgesetzt, aber wir hätten noch 
+eine tiefere Frage zu einem anderen Thema.  
+[07:51] Ist da eine Hands-on-Beratung möglich? Die 
+Frage war eigentlich, ob du das aus Interesse  
+[08:00] machst oder ob es die Intention ist, dass man dann 
+vielleicht keine zweistündige SEO-Sprechstunde  
+[08:07] mehr braucht, sondern so einen Check-up bekommt, 
+der in einer halben Stunde oder Stunde läuft.  
+[08:15] Also dass die SEO-Sprechstunde vielleicht ein 
+Eingangsprodukt zu einer Beratungsleistung ist,  
+[08:21] die quartalsweise stattfindet. Muss ich gucken, 
+vielleicht wollen die Leute das, wir sind jetzt  
+[08:30] hier live auf deinem Kanal, da müssen mich die 
+Leute mal fragen, vielleicht entwickle ich daraus  
+[08:38] etwas. Das ist aber immer so eine 
+Sache: Du kannst viel analysieren,  
+[08:47] du bekommst aus den automatischen Scannern 
+auch ohne Probleme eine Hundert-Punkte-Liste.  
+[08:55] Aber welche der hundert Punkte sind wirklich 
+für dich relevant, oder wo sagt nur das Tool,  
+[09:03] dass es einen Fehler sieht, obwohl es vielleicht 
+gar kein Fehler in deinem Setup ist, und es bedarf  
+[09:11] der Interpretation. Wir reden hier viel über 
+Dateninterpretation und auch ein bisschen  
+[09:15] Erfahrung. Ich kann dir bei vielen Sachen aus 
+der Erfahrung heraus sagen: Das habe ich schon  
+[09:21] in zehn Projekten so gesehen, und das bringt was, 
+oder das habe ich schon in zehn Projekten gesehen,  
+[09:27] und die Energie ist verschwendet. Das 
+ist so eine Sache, ich weiß nicht,  
+[09:31] ob man das automatisieren könnte, die 
+Interpretation ist ein bisschen die Arbeit dabei.
+[09:40] Alles klar, dann würde ich sagen, sollen wir 
+starten? Ja, gern. Wir machen ja eine richtige  
+[09:53] Sprechstunde, und die läuft dann immer so ab: Ich 
+habe die Seite vorher gescannt, ich habe jetzt in  
+[09:58] deinem Fall nevercodealone.de gescannt. Du 
+hattest mir im Vorfeld keine spezifischen  
+[10:08] Fragen geschickt, deswegen würde ich jetzt 
+den Grundcheckup machen. Der geht dann in die  
+[10:16] Richtung, dass wir uns erst mal kurz vorstellen. 
+Jetzt habe ich mich schon vorgestellt, jetzt wäre  
+[10:23] es schön, wenn du dich auch kurz vorstellst und 
+mir dein Setup ein bisschen erklärst. Wo sind  
+[10:28] denn deine Wünsche, wie kann ich dir am besten 
+helfen? Du hast ja vielleicht Ziele mit der  
+[10:35] Domain oder auch Geschäftsziele, die du erreichen 
+willst, da können wir auch gern etwas globaler und  
+[10:42] strategischer werden. Also, dass du kurz sagst: 
+Okay, ich bin so aufgestellt, das bin ich, und ich  
+[10:49] hätte den Wunsch. Dann würde ich danach mit dem 
+normalen technischen Check anfangen. Die Scanner,  
+[11:00] die ich schon im Vorfeld laufen lasse, gehen 
+wir gemeinsam durch, das ist eine Live-Analyse,  
+[11:06] das heißt, du siehst dann auch meinen 
+Bildschirm, du siehst, was das Tool ausspuckt,  
+[11:13] ob wir es für wichtig erachten oder nicht, wir 
+können darüber sprechen, du kannst Fragen stellen:  
+[11:18] Jörg, wie löse ich das, oder ist das wichtig? Dann 
+ein technischer Check, ein bisschen inhaltlicher  
+[11:28] Check, wo es dann auch darum geht, ob du schon 
+deine Zielgruppe mit den Suchwörtern triffst, die  
+[11:34] für dich Sinn machen. Auf Suchwörtern gefunden 
+zu werden ist immer schön, aber die müssen  
+[11:38] ja irgendwann auch umwandeln, das nenne ich 
+Geldwerte-Suchwörter oder goldene Suchwörter. Dass  
+[11:44] man dann guckt, triffst du die schon, kennst du 
+die schon, und wenn ja, können wir sie vielleicht  
+[11:49] noch etwas stärken auf einer Unterseite oder in 
+deinem Konstrukt. Und der dritte Part, wenn wir  
+[11:57] uns dann eingegroovt haben, so nach einer Stunde, 
+anderthalb Stunden vielleicht, dann würde ich  
+[12:02] zum Schluss immer noch eine kleine strategische 
+Beratung liefern, wo wir offen sprechen und sagen:  
+[12:10] Okay, jetzt kenne ich das Setup, jetzt weiß ich, 
+wie du dastehst, dann gucken wir mal etwas größer,  
+[12:20] was dir noch guttun könnte, und sprechen ein 
+bisschen strategisch, wenn du einverstanden bist.  
+[12:28] Gerne, ich finde das alles sehr spannend, und ich 
+finde es auch toll, dass du das mit uns machst.
+[12:32] Ich bin Roland von Never Code Alone. Wir 
+machen hier seit ungefähr fünfundzwanzig  
+[12:40] Jahren das Thema Softwarequalität und 
+Continuous Integration. Das sind Pipelines,  
+[12:49] also dass Web-Development-Aufgaben, 
+die wir alle so machen, automatisiert  
+[12:57] getestet und ausgerollt werden, damit man 
+zuverlässige Webseiten nach vorne bringt  
+[13:03] und nicht jedes Mal merkt, irgendwas ist kaputt 
+und muss das noch mal machen. Wir haben einen  
+[13:09] starken Hintergrund im Bereich E-Commerce und 
+haben sehr viel mit PHP gemacht, kommen also  
+[13:18] aus dem Bereich PHP-Refactoring und Updates. 
+Danach hat sich bei mir im Leben das Thema  
+[13:26] barrierefreies Webdesign sehr stark fokussiert, 
+ich bin davon immer noch sehr begeistert,  
+[13:32] habe da Quick Wins in Webseiten reingebracht 
+und das Thema entsprechend fokussiert. Und jetzt  
+[13:45] als neuestes Thema ist tatsächlich Vibe Coding 
+dazugekommen. Das ist einfach eine spektakuläre  
+[13:53] Sache, bei der natürlich auch Softwarequalität 
+und automatisierte Tests gebraucht werden,  
+[13:59] denn die KI macht manchmal Sachen kaputt, und 
+dann wäre es natürlich schön, das rauszufinden,  
+[14:07] bevor es bei irgendwelchen Kunden sichtbar 
+wird. Das stresst dann immer, und ich versuche  
+[14:14] jetzt aktuell, Kurse für Kunden anzubieten, die 
+begeisterte Vibe-Coder sind, damit sie besser  
+[14:22] arbeiten. Ich als Profi-Entwickler arbeite ja auch 
+viel damit, das nennt sich dann Agentic Coding:  
+[14:31] Wenn man der bessere Vibe-Coder ist, ist man 
+ein Agentic-Coding-Mensch, und dieses Buzzword  
+[14:43] macht derzeit auch die Runde. Vibe Coding 
+ist im Profibereich ein bisschen befleckt,  
+[14:51] für mich ist es ein wenig dasselbe, ich muss 
+jetzt nicht auf die feinen Unterschiede eingehen,  
+[14:56] die sich die Community ausgedacht hat, 
+aber letztlich ist es für mich, glaube ich,  
+[15:02] dieses Vibe-Coding-Startsein. Das ist immer 
+das Erstaunliche, ich denke mir natürlich aus,  
+[15:11] was Leute suchen, und optimiere meine Seite 
+darauf, weil ich keine Suchmaschinen-Tools habe,  
+[15:20] die mir zeigen, was das Suchvolumen ist und wo 
+das Interesse der Community tatsächlich liegt.  
+[15:37] Okay, also du kommst eigentlich aus der 
+Softwareentwicklung, hast viel mit PHP gearbeitet,  
+[15:46] hast das für Kunden angeboten und hast dann die 
+Brücke über barrierefreie Webseiten geschlagen und  
+[15:56] bist dann später beim Vibe-Coding-Consulting 
+gelandet, so habe ich das jetzt rausgehört.  
+[16:03] Du machst Vibe-Coding-Consulting. Genau, wo 
+du also deine eigene Bubble upgradest. Never  
+[16:15] Code Alone steht ja als Name deiner Domain da, 
+das heißt also, du nimmst die Leute in einen  
+[16:22] Eins-zu-Eins-Call oder machst du Gruppencalls? 
+Das sind jetzt kleine Gruppenschulungen. Im  
+[16:28] Grunde genommen sind Vibe-Coder jetzt nicht 
+so meine Bubble, sondern das sind Leute,  
+[16:34] die mich bisher nicht kennen, und diese Leute 
+stoßen an eine Grenze. Wir haben damit angefangen,  
+[16:42] das läuft nicht so richtig, die würden das gerne 
+besser machen, die brauchen ein bisschen Hilfe,  
+[16:46] die würden gerne mal einen Profi fragen. Das ist 
+so, als hätte ich jetzt einen Vibe-SEO-Profi,  
+[16:53] der mit SEO-Optimierung angefangen hat und 
+jetzt sagt, ich brauche mal so einen Jörg, der  
+[16:58] mir zeigt, wie das alles richtig funktioniert, 
+welche Tools das sind, wie er damit arbeitet,  
+[17:04] und dieses Wissen gebe ich dann entsprechend gerne 
+weiter. Ich sehe, dass jetzt ein großer Bedarf da  
+[17:12] ist, der auf der anderen Seite aber nicht richtig 
+bedient wird, also von der bisherigen Agenturwelt,  
+[17:20] aus der ich komme, und die Leute stehen sehr 
+allein da, und es sind auch viele Schaderpläne  
+[17:23] unterwegs, die das schnelle Geschäft sehen und 
+Leuten viel zu komplizierte Kurse aufhalsen. Bei  
+[17:38] mir geht es darum, dass du hands-on bist, im 
+Austausch eins zu eins zeigst, wie du bisher  
+[17:48] arbeitest, ich zeige, wie ich arbeite, und dann 
+versuche ich, ein paar Quick Wins in die tägliche  
+[17:58] Arbeit reinzubringen, was auch schnell geht, damit 
+deine Vibe-Coding-Projekte deutlich besser werden.  
+[18:09] Also bietest du auch eine Zweitmeinung an, 
+du machst ja ein ähnliches Spiel wie ich,  
+[18:14] du könntest ja auch eine Vibe-Coding-Sprechstunde 
+anbieten. Auf jeden Fall, habe ich da am  
+[18:19] Wochenende intensiv drüber nachgedacht, ich finde 
+das auch sehr verständlich. Okay, das heißt also,  
+[18:31] die Leute, die du ansprichst, sollen bei dir... Wo 
+liegt denn der Revenue für dich? Wir suchen jetzt  
+[18:40] nach Leuten, die Vibe-Coding-Kurse suchen oder 
+eine Vibe-Coding-Schulung brauchen. Das würde ich  
+[18:45] sagen, fokussieren wir uns mal darauf. Oder Leute, 
+die jetzt schon jahrelang mit PHP arbeiten, da  
+[18:52] kenne ich auch einige Größen, PHP war ja die große 
+Infrastruktur, suchst du auch Leute, die aus der  
+[19:07] PHP-Welt kommen und bei dir eine Zweitmeinung 
+wollen, die also ein zweites Auge auf diese  
+[19:15] alte Welt ohne Vibe-Coding haben wollen? Bei PHP 
+bin ich tatsächlich in der Community sehr bekannt,  
+[19:23] und auf der anderen Seite ranken wir da auch 
+schon sehr gut, weil wir gefühlte fünfzehn Jahre  
+[19:29] Vorsprung haben. Mir geht es aktuell darum, dieses 
+Vibe-Coding-Consulting-und-Training-Paket nach  
+[19:41] vorne zu bringen. Ich glaube, Vibe-Coding-Hilfe 
+ist auch etwas, das Leute suchen, aber lass uns  
+[19:52] heute den Fokus daraufsetzen. Okay, 
+dann gucken wir in die Richtung,  
+[19:56] müssen wir erst mal sehen. Erst mal schön, 
+dass du das anbietest, da gebe ich dir recht,  
+[20:04] am Markt wird viel gehypt, und dann kommen Leute, 
+die seit einem Jahr mit ihrem Agenten irgendwas  
+[20:11] raushauen und plötzlich sagen, jetzt mache ich 
+daraus einen Kurs. Wenn denen aber diese zehn  
+[20:17] Jahre praktische Erfahrung im Maschinenraum 
+fehlen, finde ich es viel charmanter,  
+[20:24] wenn jemand aus einem Feld kommt und sagt, 
+jetzt beschleunige ich das oder multipliziere  
+[20:38] das mit meiner Erfahrung. Du musst ja immer noch 
+verstehen, was er dir da ausspuckt. Du wirst das  
+[20:45] auch kennen: Wenn du ihm sagst, mach mal das 
+Projekt schön, dann sagt er dir nach drei Minuten,  
+[20:54] super, wir haben es auf hundertzwanzig Prozent 
+gedrückt, und du guckst in den Code und denkst,  
+[20:58] oh mein Gott. Das ist beim SEO wahrscheinlich 
+auch so. Wilde Zeiten sind das, wirklich wild,  
+[21:09] was da draußen passiert, an SaaS-Services aus 
+dem Nichts von Nicht-Programmierern entsteht,  
+[21:20] die wahrscheinlich auch allerhand SEO-Tools bauen, 
+hier laufen andere Tools über den Weg, wie zum  
+[21:28] Beispiel Chatbot-Systeme oder sowas. Das ist schon 
+wild, aber natürlich, du hast vollkommen recht,  
+[21:35] mich ärgert es, wenn Leute aus dem gefühlten 
+Nichts kommen und bei den Begrifflichkeiten,  
+[21:43] bei denen ich gern oben wäre, bei Google an 
+mir vorbeiziehen, und ich diese Seiten sehe  
+[21:51] und mir denke, die sind doch nicht cool, warum 
+ist der eigentlich vor mir? Okay, dann tun wir  
+[22:03] der Welt was Gutes, wenn hier zwei Experten in 
+Richtung Vibe-Coding gehen. Ich finde es auch  
+[22:10] sehr spannend, ich mag Vibe-Coding sehr, ich 
+freue mich auch auf die Kunden, ich hatte auch  
+[22:17] schon agentische Kunden. Es kam schon mal jemand 
+in die Sprechstunde, der hatte ein volles Projekt,  
+[22:29] hatte eine Community, und aus der Community heraus 
+einen vollen Dump gebaut mit dreißigtausend URLs,  
+[22:38] die sollten dann auch alle gut ranken. Meine 
+Aufgabe war da nicht, den Menschen zu beraten,  
+[22:45] sondern eigentlich seinen Agenten zu beraten, 
+also eine Art Sprechstunde zu machen,  
+[22:51] bei der herauskommt, welche Punkte ich seinem 
+Agenten ins Kontextfenster geben könnte. Das war  
+[22:58] sehr spannend, und das ist mega stark, weil die 
+Meldung danach war: Vierundzwanzig Stunden später  
+[23:05] habe ich alles gefixt, was du mir geschickt 
+hast, und mein Agent hat aber auch zwei, drei  
+[23:10] Sachen abgelehnt, weil er mein Setup besser kennt 
+als du. Und ich dachte, cool, ja, hat was gefixt.
+[23:18] Okay, dann würde ich starten, Roland, wenn du 
+einverstanden bist. Ich habe jetzt verstanden,  
+[23:24] dass wir in Richtung Vibe-Coding-Consulting, 
+Vibe-Coding-Kurse gehen, dass du da ein bisschen  
+[23:33] mehr Zuspruch geben willst. Deine 
+Seite rankt ja auch schon ganz gut.  
+[23:38] Das will ich doch hoffen. Willst du es mal 
+richtig sehen? Die ist AI-only, das kommt in  
+[23:48] eurer Bubble auch verhalten an, aber sie generiert 
+sich derzeit noch direkt aus Claude heraus, wird  
+[23:57] aber jetzt Richtung China verändert, generiert 
+und aktualisiert sich aber trotz allem selbst.  
+[24:05] Das ist natürlich schon spannend. Ich habe auch 
+schon zwei Tipps von dir im Vorfeld umgesetzt,  
+[24:10] vielleicht findest du die auch. Und dann 
+würde ich jetzt hier deinen Bildschirm teilen,  
+[24:15] oder? Ja, gern, mach mal. Dann würde ich nämlich 
+anfangen, wie besprochen. Wir gucken erst mal den  
+[24:23] Ist-Zustand an, weil noch ist ja unser Stream 
+hier geteilt. Gib mir mal den Bildschirm raus,  
+[24:31] dass ich anfangen kann, meinen Bildschirm zu 
+teilen. Okay, guck mal, kommt das an hier? Ja,  
+[24:39] ist auch von der Schriftgröße groß genug, würde 
+ich sagen. Okay, dann fange ich mal an. Ich habe  
+[24:48] deine Domain hier in mehrere Tools reingeladen, 
+wir fangen mal an, wir gucken erst mal, ich nehme  
+[24:59] gern Sistrix, das ist ein bezahltes SEO-Tool, 
+das kann dir einen schönen Überblick liefern,  
+[25:06] auch in die Vergangenheit. Wir können mal gucken, 
+hier kommen viele technische Daten, hier geht  
+[25:13] irgendwie stark was nach oben, du bekommst 
+einen Sichtbarkeitsindex, der jetzt hier schon  
+[25:20] um achtundsechzig Prozent gestiegen ist. Hier 
+kommen einige Sachen, aber was für die meisten  
+[25:28] Leute eigentlich verständlich ist, ist so etwas 
+wie dieser Graph hier. Man sieht, es geht sehr  
+[25:38] schön nach oben, hier unten sind Jahreszahlen, 
+wir haben zweitausendsechsundzwanzig,  
+[25:44] das hier ist vierundzwanzig, einundzwanzig, 
+neunzehn, achtzehn. Also Glückwunsch, du bist  
+[25:52] seit zweitausendsechzehn, Ende zweitausendsechzehn 
+oder Anfang zweitausendsiebzehn ist deine Domain  
+[26:01] am Start. Ja, seitdem gibt es Never Code Alone. 
+Wunderbar, also das ist schon mal ein Pluspunkt,  
+[26:10] lange Domain-History ist eine gute Sache. Und 
+hier hast du schon ein paar Sachen angestoßen,  
+[26:21] weil die Sichtbarkeit sich aus den 
+Suchwörtern berechnet, für die du rankst,  
+[26:33] dabei zählt auch mit, auf welchen Positionen 
+du rankst und wie intensiv und wie geldwert  
+[26:40] diese Suchwörter sind. Wenn du für ein Suchwort 
+rankst, das tausendmal im Monat gesucht wird,  
+[26:50] aber vielleicht nur ein Infosuchwort ist, dann 
+zählt das hier nicht so stark in den Graphen rein.  
+[26:56] Wenn du für ein Suchwort rankst, das tausendmal 
+gesucht wird, aber am Markt Geld wert ist,  
+[27:04] weil viele danach suchen oder man wirklich etwas 
+kaufen kann, Kaufintention, dann zählt das höher  
+[27:15] mit rein. Aber es geht extrem nach oben bei dir, 
+das ist schön, das kann man erst mal feststellen,  
+[27:27] es läuft. Und ist wahrscheinlich auch noch nicht 
+zu Ende, weil ich manchmal, wenn ich Screenshots  
+[27:37] von Kollegen aus deiner Bubble sehe, sehe, dass 
+da deutlich mehr Traffic und deutlich höhere  
+[27:44] Zahlen sind, auch beim täglichen Traffic. 
+Ich glaube, Never Code Alone hat aktuell so  
+[27:52] sechshundert, siebenhundert User pro Tag, und 
+ich glaube, dass eine Zahl von zweitausend,  
+[28:01] dreitausend irgendwie mal Ziel sein sollte. 
+Lass uns gucken, auf welchen Suchwörtern,  
+[28:13] da fange ich jetzt mal mit der wirklichen 
+SEO-Beratung an. Suchwörter sind immer schön,  
+[28:20] wir sehen hier auch welche. Ich scrolle mal ein 
+Stückchen runter. Hier denkt das Tool, du stehst  
+[28:32] für diese interessanten Suchwörter, so denkt es, 
+du stehst auf diesen Positionen, und nehmen wir  
+[28:39] mal das erste, das ist Hugging. Bei Hugging stehst 
+du auf Platz drei in der Google-Suche. Hugging hat  
+[28:50] selbst ein Suchvolumen von elftausendsiebenhundert 
+im Monat, er modelliert daraus, dass du eventuell  
+[29:01] tausendeinhundertsechzig Klicks bekommst, weil du 
+auf Platz drei stehst, und du rankst mit deiner  
+[29:09] Unterseite aus dem Glossar, da ist KI-Tools, 
+sechsundzwanzig, Hugging Face, Open Source,  
+[29:17] KI-Modell-Hub, Transformers. Das ist deine 
+Unterseite. So, nur mal zu dieser Übersicht.  
+[29:24] Jetzt ist die Frage natürlich, wie wertvoll ist 
+es, für Hugging oben zu stehen? Im optimalen  
+[29:32] Fall wäre Hugging Face natürlich cool, Hugging 
+klingt ja mehr nach einer Partner-Community, das  
+[29:41] ist insofern ein bisschen falsch, aber ich wüsste 
+jetzt auch nicht, wie man das korrigieren kann,  
+[29:48] weil ja auf jeden Fall Hugging Face drinsteht. 
+Aber gut, dann bin ich auf dem Ranking schon  
+[29:54] mal. Okay, also das ist nur, was er hier 
+denkt. Bei deiner Unterseite gibt es jetzt  
+[30:00] mehrere Möglichkeiten. Vielleicht machen wir das 
+mal exemplarisch an dieser ersten Zeile durch,  
+[30:07] weil das für die anderen hier unten dann auch 
+mit zählt, nur dass du das erst mal verstehst,  
+[30:12] und deine Leute, die dir gerade zuschauen, auch 
+verstehen, was das hier überhaupt ist. Du sagst  
+[30:21] jetzt, Hugging allein ist nicht so wertvoll, 
+sehe ich auch so. Da können wir mal gucken,  
+[30:32] gehen wir mal rein, machen wir das erste, dann 
+siehst du, das kann auch eine Keyword-Analyse  
+[30:40] machen. Da sagt er also, okay, jetzt sehen wir 
+den Überblick, was ist denn dieses Hugging als  
+[30:48] Keyword? Wir sind jetzt aus deiner Domain-Ansicht 
+in die Keyword-Ansicht gegangen, und da sagt er:  
+[30:55] zwölftausendsiebenhundert im Monat wird das 
+gesucht, der Durchschnitt ist etwas kleiner,  
+[31:05] aber beim Keyword scheint der 
+Suchtrend eher nach oben zu gehen.  
+[31:16] Es ist aber eine reine Informationssuche, also 
+Knowledge, da wollen sich die Leute informieren,  
+[31:30] ich weiß auch nicht, woher Hugging so eingegeben 
+wird, aber dann siehst du in der Übersicht auch,  
+[31:38] das finde ich noch spannend, das nehme ich immer 
+mit rein, das wäre der Gegenwert, den Leute in  
+[31:45] Google Ads dafür ausgeben und dann klicken. Genau, 
+das wäre der Cost per Click. Das würde heißen,  
+[31:55] um einen Klick bei Hugging einzukaufen, 
+gibt der Markt zwei Euro zwanzig aus.  
+[32:06] Meistens machen das die Smart-Bidding-Algorithmen 
+in den Google-Ads-Konten, aber die tun das nur,  
+[32:17] wenn man sinnvolles Conversion-Tracking 
+eingerichtet hat. Also, der Markt denkt,  
+[32:22] man kann mit Hugging Geld machen, und gibt zwei 
+Euro zwanzig in Google Ads aus. Aber wie gesagt,  
+[32:30] das ist Google Ads, und spannend wird es hier 
+unten, da kommen noch ein paar interessante  
+[32:36] Sachen: Was ist Hugging Face? Hugging Face ist das 
+GitHub für KI-Modelle. Wenn Open-Source-Modelle  
+[32:49] veröffentlicht werden, das nennt sich Open Weight, 
+ChatGPT und was wir hier so, Table-Five und  
+[32:58] solche Dinge, das sind Modelle von den bekannten 
+amerikanischen Anbietern, das sind Closed-Modelle.  
+[33:06] Die kannst du niemals in eine eigene Infrastruktur 
+nehmen, und es ist auch nicht bekannt, mit welchen  
+[33:13] Daten die trainiert worden sind, sondern wir haben 
+ein Abo, das wir bezahlen, und damit haben wir  
+[33:20] Zugriff auf diese Modelle und deren Leistung. Bei 
+Hugging Face werden alle öffentlichen KI-Modelle  
+[33:34] veröffentlicht, zum Beispiel Kimi K2, das 
+aktuell das stärkste von den Parametern her und  
+[33:41] mit Trainingsdaten aus China ist, das ist absolut 
+gleichwertig mit den Top-Modellen aus den USA. Die  
+[33:51] laufen vielleicht ein bisschen unterm Radar, aber 
+im Grunde genommen könnte man die lokal betreiben,  
+[33:57] wenn man wirklich dicke Rechenleistung hat, auf 
+dem Laptop kann man die nicht einfach so laufen  
+[34:04] lassen, dann geht der kaputt. Aber das könnte 
+man theoretisch machen. Relevant daran ist,  
+[34:13] dass man sieht, mit welchen Daten die trainiert 
+worden sind, und man kleinere Modelle davon auch  
+[34:23] kostenlos in der eigenen Infrastruktur nutzen 
+kann. Das wäre bei Anthropic oder OpenAI nicht  
+[34:30] möglich, wobei mittlerweile auch alle einzelne 
+Modelle veröffentlicht haben. Da gibt es nicht  
+[34:37] nur Coding-Modelle, sondern auch Videomodelle, 
+Text-to-Speech-Modelle, und alles, was es in  
+[34:43] der Welt der künstlichen Intelligenz gibt, gibt 
+es in diesem Paralleluniversum praktisch auch.
+[34:49] Okay, harte Frage: Machst du damit Geld? 
+Ich glaube, dass ich aktuell über Social  
+[35:00] Media mein Geld mache und das auch schon 
+immer über YouTube gemacht habe. Ich habe  
+[35:08] auf meiner Seite ein Kontaktformular, das möchte 
+ich noch mal neu machen, weil es sich noch nicht  
+[35:14] richtig konvertiert. Im Grunde genommen hole ich 
+darüber aber Traffic rein, und ich glaube, wenn  
+[35:22] sich jemand für chinesische Modelle interessiert, 
+dann möchte er auch digitale Souveränität haben,  
+[35:33] legt Wert auf Datenschutz und möchte Dinge in 
+die eigene Infrastruktur bringen. Und wenn der  
+[35:39] bei mir danach sucht, seine Antwort findet, und 
+ich ihm sage, wenn du das betreiben möchtest oder  
+[35:47] wissen möchtest, welches Modell du für deinen Use 
+Case brauchst, dann kommen daraus auch Kunden,  
+[35:56] aber dafür braucht man mehr als sechshundert 
+User am Tag. Es ist erst mal toll, dass du bei  
+[36:08] einem großen Suchwort aus deiner Bubble stehst, 
+das verstehe ich auch, das passt, du bringst  
+[36:17] dich hier auf den Schirm, das ist gut. Und du 
+scheinst dann auf diesem einen Suchwort plus  
+[36:25] die anderen, die auch kommen, genügend Traffic 
+reinzubekommen, und das wäre dann die Frage,  
+[36:34] ob du diesen Info-Traffic irgendwie noch verwerten 
+könntest, vielleicht schreiben die sich in den  
+[36:43] Newsletter ein. Das ist ein frischer Artikel, sagt 
+er hier, ah, er aktualisiert, okay, verstehe. Gut,  
+[36:53] hier kommt dann dein AI-Only-Content, und 
+der rankt, das kann man auch feststellen,  
+[37:01] auch durch dich, er hat mittlerweile eine 
+Tabelle und noch ein Bildchen und ein Zitat, und  
+[37:12] das ist einfach Content, der vor allem unten noch 
+sehr gute FAQs hat, und der rankt. Ja, wir hatten  
+[37:22] ja im April schon mal gesprochen, wo ich gesagt 
+hatte, tolle Sache, aber wenn es textlastig wird,  
+[37:32] könnte man da vielleicht noch was rausholen. Aber 
+es funktioniert erst mal, alles, was funktioniert,  
+[37:37] würde ich gar nicht infrage stellen, nehmen wir 
+einfach mit, passt schon. Ich wollte nur noch mal  
+[37:42] verstehen, wie die Leute hier abgeholt werden, die 
+bekommen im Grunde genommen im zweiten Abschnitt,  
+[37:48] im ersten Abschnitt steht ja ihre Antwort. Wenn 
+du ein bisschen weiter nach oben gehst, generell  
+[37:55] steht überall, dass Never Code Alone dabei 
+hilft, wenn du noch mal weiter nach oben gehst,  
+[38:08] da steht, was ist Hugging Face, und darunter 
+der Abschnitt, wie wird Hugging Face bei Never  
+[38:15] Code Alone verwendet. Okay, könnte ich jetzt auch 
+die Unterseite noch durchröstet? Ich wollte erst  
+[38:32] mal bei der Übersicht weitermachen, wie ist denn 
+die Übersicht: Das Tool sagt, du stehst auf drei,  
+[38:42] könnte man jetzt auch im Inkognito-Browser gucken, 
+Hugging eingeben, und schauen, ob das stimmt,  
+[38:47] vertrauen wir dem jetzt erst mal, wir müssen 
+Zeit sparen, wir wollen noch was machen. Also,  
+[38:52] Suchwort Hugging, du stehst auf drei, wunderbar, 
+bekommst tausend Klicks rein, das ist, was wir in  
+[39:01] der Übersicht gesehen haben: Hugging, du stehst 
+auf drei, tausend Klicks kommen rein, Suchvolumen  
+[39:05] ist so und so, und es ist deine Unterseite. Jetzt 
+haben wir Hugging angeschaut und finden es gut,  
+[39:14] kannst du auch gucken, was würde denn nur 
+deine Unterseite alles anziehen? Das wäre  
+[39:21] die Unterseitenanalyse, da sagt er nämlich, diese 
+einzelne Unterseite, hoffen wir mal, dass hier  
+[39:26] auch irgendwann Hugging Face dabei ist. Okay, 
+genau, also diese einzelne Unterseite, sagt das  
+[39:32] Tool zumindest, okay, Hugging ist das größte Wort, 
+wird auch noch mal gesucht, Hugging Face Bedeutung  
+[39:39] wird nur zwanzigmal im Monat gesucht, und Hugging 
+Face Model Hub und so weiter, ist diese Woche  
+[39:48] neu auf Platz fünfzehn eingestiegen. Das zu der 
+Unterseite, zumindest aus dem Tool hier. In der  
+[40:00] Search Console sieht man zu der Unterseite 
+wahrscheinlich noch etwas tiefere Daten,  
+[40:05] weil wir hier über das Tool von außen draufgucken. 
+Was man auch sehen kann, das finde ich spannend,  
+[40:16] wenn man in die Analyse geht, kann man auch eine 
+History sehen. Die History ist dann, wie rankst  
+[40:27] du zu dem Suchwort, wie rankt deine Domain zu dem 
+Suchwort, und das ist wirklich erst Ende Juni auf  
+[40:36] Platz drei eingestiegen. Gerade reingekommen. 
+Und auf drei eingestiegen zu sein, ist erst mal  
+[40:41] Glückwunsch, und du stehst auch stabil auf 
+drei die ganzen Wochen. Das ist jetzt eine  
+[40:45] Wochenanalyse. Meistens hat man einen kleinen 
+Auf- und Abtrend, und die meisten steigen mit  
+[40:52] ihren Suchwörtern eigentlich auf Positionen von 
+fünfzig bis achtzig ein und kämpfen sich dann  
+[41:00] Woche für Woche hoch, um irgendwann auf die drei 
+zu kommen. Du bist gleich auf drei eingestiegen,  
+[41:04] Glückwunsch. Ja, sehr schön. Und das ist dann die 
+Unterseite dazu, das kannst du weniger steuern,  
+[41:15] klar wäre Hugging Face wahrscheinlich besser, wenn 
+wir das überhaupt als goldwertes Suchwort haben  
+[41:21] wollen. Wir gucken lieber zu den Suchwörtern, die 
+wir gleich noch für dich analysieren. Aber das zu  
+[41:35] dieser Liste hier, das geht gut. Logseq ist auch 
+neu eingestiegen, scheint auch ein großes Suchwort  
+[41:46] zu sein. ComfyUI, das kenne ich, das ist auch 
+ein Modell für KI-Bilder, genau, für Bilder und  
+[41:54] Videos. Ein Kollege von mir, Georg Neumann, Grüße 
+an Georg, der ist KI-Bildgenerierungsspezialist,  
+[42:06] der hat mich mit dem Suchwort sogar schon mal 
+konfrontiert. Da bist du auch neu eingestiegen,  
+[42:12] alles gut, also das funktioniert, dein Info-Game 
+funktioniert glaube ich hervorragend. Da braucht  
+[42:19] man glaube ich gar nicht groß einzugehen, wer 
+hier auf drei einsteigt und dann stabil dasteht  
+[42:24] mit AI-Only-Content, alles cool. Wir müssen die 
+Suchwörter finden, die du brauchst, und das bei  
+[42:31] denen machen. Das ist es. Weil hier iPhone erkennt 
+SIM nicht, das war ein... Das ist auch im Blog,  
+[42:41] glaube ich, auf blog.nevercodealone.de. Das war 
+eine Zeit lang, dass ich geguckt habe, was in den  
+[42:50] Google Trends technisch gesucht wird, und dann im 
+Grunde genommen einen AI-generierten Content zu  
+[43:00] dem Thema veröffentlicht habe, und damit direkt 
+aus den Google Trends nach vorne gegangen bin,  
+[43:09] was insgesamt in Kombination mit einem Short und 
+einem Backlink von YouTube echt gut geklappt hat.  
+[43:17] Es ging mir eine Zeit lang einfach darum, Traffic 
+zu haben, weil ich mir dachte, wenn du gar keinen  
+[43:28] Traffic hast, brauchst du auf jeden Fall Traffic, 
+um die Marke nach vorne zu bringen und einfach  
+[43:35] gesehen zu werden, wie Bushaltestellen, dass 
+man einfach im Netz gesehen wird. Aber dann  
+[43:42] hast du einen Haufen Mitreisende, die aber alle 
+nicht für dich bezahlen. Bei den Suchwörtern,  
+[43:51] die aus der Bubble kommen oder in Richtung 
+Vibe-Coding oder PHP-Refactoring einzahlen,  
+[44:01] würde ich das total cool finden, jetzt hast du 
+das schon produziert, aber du machst ja nichts  
+[44:06] mit iPhones. Aber ich glaube, wer ein iPhone hat, 
+ist gar nicht so weit vom Vibe-Coding weg. Ja,  
+[44:13] ein iPhone ist ja auch nicht weit vom auf dem 
+Mars fliegen weg. Kurzer Hinweis, das könnte  
+[44:26] diese ganze Geschichte verwässern, weil du musst 
+deine Domain in irgendeinen Cluster reinschieben,  
+[44:40] zu irgendeinem Topic musst du stehen. Und wenn 
+du immer nur Info-Content spielst, der gar nichts  
+[44:48] damit zu tun hat, dann watscht dich das irgendwann 
+als reine Infoseite ab. Und schlimm wäre es,  
+[44:54] wenn das jetzt alles in Richtung iPhone wandert, 
+oder Samsung-Sicherheitslücke oder solcher Kram.  
+[45:06] Das Cluster, in dem du dich bewegst, muss 
+konsistent sein zu dem, was du dahinter anbietest,  
+[45:12] dann wird es auch authentisch. Also, würde man 
+sagen, knall die mal weg? Das würde ich jetzt  
+[45:23] nicht gleich sagen, wenn wir jetzt drei Minuten 
+draufgeguckt haben, würde ich das nicht machen,  
+[45:29] du hast Traffic drauf, ich wollte dir nur für die 
+Zukunft den Tipp geben: Versuch nicht, ein neues  
+[45:36] Wikipedia zu werden, weil das dir eventuell sogar 
+hinten raus schaden könnte. Traffic an sich ist  
+[45:44] schön, jeder Traffic kann dich zum nächsten 
+Share bringen, dir einen Backlink bringen,  
+[45:52] dich irgendwie wahrnehmen lassen. Aber ich hatte 
+mal einen Online-Shop, der hatte auch so gedacht,  
+[46:00] Standard-SEO-Tipp, wenn du ein Online-Shop bist 
+und eigentlich ein Produkt verkaufen willst,  
+[46:09] und dann kommt dein SEO auf die Idee, wir machen 
+mal ein FAQ oder ein Glossar mit tausend Artikeln  
+[46:16] über irgendwas, dann kann es sein, dass sich dein 
+transaktionaler Fokus, ich verkaufe Produkte,  
+[46:24] ich bin ein Online-Shop, ich habe Bewertungen 
+und Zahlungsmethoden und Rückgabe, verwässert,  
+[46:29] und dann bespielst du deine Produktdetailseiten 
+und schleuderst plötzlich tausend Unterseiten  
+[46:44] Glossar raus über Gott und die Welt, über Disney 
+und Müsli und iPhone, und hast es nicht gesehen.  
+[46:53] Das ist keine Strategie, das kann auch nach 
+hinten losgehen. Das mag im ersten Jahr vielleicht  
+[47:02] funktionieren, aber plötzlich, wenn Google die 
+Domain als Info-Schleuder abtut, ranken deine  
+[47:11] Produkte plötzlich nicht mehr, weil du dich nicht 
+darauf konzentriert hast, deine Kunden glücklich  
+[47:15] zu machen, die bei dir einen Checkout ausführen. 
+Das muss man mit Bedacht sehen. Deshalb nur für  
+[47:26] die Zukunft: Wenn du dieses Spiel spielst, dann 
+such dir über Google Trends oder über SEO-Tools  
+[47:35] Suchwörter raus, die wirklich eng an deiner 
+Bubble dran sind. Hier kommt noch was, Neowimper,  
+[47:56] du schaffst es tatsächlich, dass du dir ein Wort 
+ausdenken kannst und es wahrscheinlich in die  
+[48:02] Top zehn oder sogar in die Top eins schaffst. Da 
+muss man sagen, dass diese, zum Beispiel PHPUnit  
+[48:08] und generell diese PHP-Tools, dazu gibt es nicht 
+wirklich SEO-Content, das ist nicht so wie die  
+[48:15] SEO-Bubble, sondern die Developer-Bubble, 
+die hat halt Dokumentationen und gar nicht  
+[48:23] so viele Webseiten, und hat auch eher einen 
+technisch nüchternen Fokus, und da sind das schon  
+[48:32] Low-Hanging-Fruits. Wir haben auf jeden Fall ein 
+PHP-Glossar auf der Seite, bei dem wir die ganzen  
+[48:40] PHP-Analyse-Tools vorstellen, und wer nach diesen 
+PHP-Analyse-Tools sucht, hat schon Interesse,  
+[48:48] seine PHP-Applikation nach vorne zu bringen und 
+zu monitoren, und insofern ist es gut, wenn er  
+[48:56] danach sucht, dann bei uns landet, und wir ihm 
+sagen, wir helfen dir auch bei deinem PHP-Update.  
+[49:05] Da gehe ich voll mit, bei iPhone gehe ich nicht 
+mit, bei Samsung gehe ich nicht mit, aber alles,  
+[49:09] was Entwicklung ist, gern. Da gibt es auch viel 
+nur englische Dokumentation, genau, die kann man  
+[49:16] auch gut auf Deutsch ranken lassen, und genauso 
+ist es im Grunde mit den ganzen KI-Modellen,  
+[49:25] die sind jetzt auch nicht im Fokus, vielleicht 
+nimmt der Rest sie nach der Sendung mehr in  
+[49:33] den Fokus, aber trotz alledem sind die bisher 
+noch nicht im Fokus, sind auch sehr technisch.  
+[49:43] Wir haben unseren quasi Standard, OpenAI und 
+Anthropic mit Claude und GLM und links und rechts,  
+[49:54] das wächst sehr stark gerade, und da habe ich 
+gefühlt meinen initialen Vorsprung. Finde ich gut,  
+[50:05] du tust was Gutes für die deutsche Coding-Szene, 
+die Informationen auch schon auf Deutsch zur  
+[50:13] Verfügung zu stellen, und es funktioniert ja, 
+dein Trust ist so groß, dass Google denkt,  
+[50:21] wenn der was aussagt, dann ranken wir das. Du 
+hast aber gesagt, du willst Vibe-Coding-Kurse  
+[50:30] oder Training oder Hilfe, genau, vom Vibe-Coding 
+stand da ja gar nichts drin. Bei uns gibt es  
+[50:36] einfach diesen Bereich Vibe-Coding, der ist super 
+groß, den wir auf der Seite aufgebaut haben,  
+[50:42] sowohl als Glossar als auch führende KI-Tools und 
+wie man besseres Vibe-Coding macht, und alles,  
+[50:51] was da im Kontext ist, haben wir in letzter 
+Zeit sehr intensiv nach vorne gebracht.
+[51:00] Wir gucken, das war jetzt das exemplarische 
+Beispiel nur für ein Keyword. Er sagt hier,  
+[51:08] du rankst für viertausenddreihundertvierundvierzig 
+Keywords, viertausend Keywords, davon die meisten  
+[51:16] aus Deutschland, man sieht auch, dein deutscher 
+Content kommt hier an, man kann das auch für  
+[51:22] alle Länder sehen, man kann auch Suchvolumen aus 
+anderen Ländern sehen, man sieht, dass dein Blog  
+[51:29] immer noch viel dabei ist. Was wir jetzt mal 
+machen, wir müssen das etwas schneller machen,  
+[51:36] entschuldige, ich gucke mal, was von den 
+viertausend Wörtern eigentlich cool ist.  
+[51:47] Dann kann man sich diese ganze Keyword-Liste auch 
+anzeigen lassen, das war jetzt nur der Überblick,  
+[51:56] jetzt tauchen wir etwas tiefer ein, in 
+Deutschland sind das hier wieder deine Rankings,  
+[52:04] die Liste haben wir erklärt. Eigentlich ist cool, 
+Suchvolumen kann man hier auch mal gucken, wo ist  
+[52:12] denn hier das höchste Suchvolumen? Da sagt er zum 
+Beispiel Groovy, Groovy Shell Scripting Teil eins,  
+[52:22] wunderbar, Groovy geht richtig ab, das Suchwort 
+Groovy hat vierundzwanzigtausend Suchvolumen  
+[52:31] pro Monat, du stehst noch auf Platz dreißig, 
+bist aber diese Woche frisch eingestiegen. So,  
+[52:41] haben wir schon gehabt, vierzehntausend und so 
+weiter, das wäre die Auflistung nach Suchvolumen  
+[52:48] aus deinem aktuellen Stand, kommen hier noch 
+einige dazu, dann sieht man, ach ja, hier  
+[52:55] einfache Sprache, das hast du mit barrierefrei 
+gesagt, viertausend Wörter sind hier natürlich,  
+[53:02] Cloud Act auch interessant. Das sind erst mal 
+die Suchvolumen, jetzt gucken wir aber das andere  
+[53:10] Ding, was ist denn hier was wert, der CPC, gucken 
+wir mal, da kommen nämlich, wo ich schon denke,  
+[53:21] guck mal, das sind geldwerte Suchwörter, auch wenn 
+die nur ein Zehner-Suchvolumen im Monat haben.  
+[53:30] PHP-Schulung stehst du im Moment auf Platz neun, 
+du bist besser geworden, und deine Unterseite ist  
+[53:36] das PHP-Training. Genau, dann können wir noch 
+mal gucken, seit wann gibt es die, und wie hat  
+[53:43] sie sich entwickelt, hier ist so ein Chart, man 
+steigt tief unten ein, wandert dann hoch, tut dann  
+[53:53] lange Zeit nichts, hier gab es ein Core-Update 
+von Google, aber jetzt hast du es, Glückwunsch,  
+[54:04] in die Top zehn geschafft, und wenn ich das 
+positiv interpretiere, will Google deine Domain zu  
+[54:11] dem Suchwort nach oben schieben. Das ist 
+auch Geld wert, das wollte ich sagen,  
+[54:19] das sind die geldwerten Suchwörter, die du 
+jetzt schon anziehst. Da könnte man überlegen,  
+[54:24] PHP-Training heißt die Seite, jetzt gehe ich mal 
+rein. Die fängt an mit PHP-Schulungen für Symfony,  
+[54:33] Testing, Sicherheit, Workshops und so weiter. 
+Hier sehe ich oft, hier ist irgendwie immer  
+[54:39] was mit einem Bindestrich unterwegs, da würde 
+ich vielleicht noch mal humanisieren. Was ist  
+[54:54] wichtig an so einer Unterseite? Erst mal, 
+dass sie da ist, sie ist zweitausendzwanzig  
+[55:01] aktualisiert, wunderbar. Jetzt kommen wir zu einem 
+Allgemeintipp anhand deiner praktischen Beispiele:  
+[55:17] Die wichtigsten Sachen für ein Unterseiten-Ranking 
+sind: Bin ich indexiert, und wenn ich jetzt Site  
+[55:28] nevercodealone eintippe, sehe ich, wie die 
+Seite von außen aussieht. Du hast deine Brand,  
+[55:43] du hast die Unterseite, und hier kommt eigentlich 
+das klickbare Element, dein Title-Tag. Wenn du gar  
+[55:52] keine Zeit hast für SEO-Optimierung, optimiere 
+wenigstens dein Title-Tag, weil da sollte dein  
+[55:58] Suchwort drinstehen. Und wir hatten uns gemerkt, 
+das Suchwort war PHP-Schulung, richtig? Wir kommen  
+[56:08] ja von hier, PHP Schulungen. Angenommen, wir 
+finden das toll, aber wir sehen jetzt von außen,  
+[56:15] hier steht PHP Training drin, und dann steht für 
+das Symfony-Framework und Testing, abgeschnitten,  
+[56:22] weil zu lang. Title-Tag-Optimierung bis 
+fünfundfünfzig Zeichen, fünfzig, fünfundfünfzig  
+[56:30] Zeichen sind okay, Google kann das mittlerweile 
+auch selbst modellieren. Aber wenn hier die  
+[56:37] Schulung prominenter drin wäre, könnte man auch 
+sagen, PHP-Training und Schulung, würde das Wort  
+[56:47] Schulung schon mal reinbringen, ich weiß nicht, 
+wie sinnvoll das ist, das ist natürlich die Frage,  
+[56:51] was mehr gesucht wird, Training oder Schulung, 
+kann man gleich gucken. Ich wollte nur sagen,  
+[56:59] der wichtigste Punkt, den du optimieren solltest, 
+ist eigentlich das, was du von außen siehst. Sorge  
+[57:05] dafür, dass du ein Icon machst, pack deine Marke 
+rein, und das kannst du seitenweit optimieren,  
+[57:11] und die Meta Description wäre auch so ein Ding, 
+hier hast du hundertfünfzig Zeichen Platz,  
+[57:20] steht auch keine Schulung drin, das wäre die 
+erste Idee, vielleicht bringen wir hier auch  
+[57:25] die Schulung rein, das wäre so ein Ding. Was noch? 
+Der Title-Tag ist das, was oben im Browser steht,  
+[57:35] was die Leute draußen sehen, die Description ist 
+auch das Ding. Dann kommt schon der dritte Tipp:  
+[57:46] deine Überschrift, du hast hier eine 
+ausgewiesene Überschrift, hoffe ich mal,  
+[57:52] die höchstwahrscheinlich eine H1 ist, und in der 
+Überschrift dein Suchwort unterzubringen, macht  
+[58:01] durchaus Sinn. Was ist denn das? Ach, das ist 
+auch nur eine Übersichtsseite, okay, dann haben  
+[58:09] wir hier eigentlich sehr schmalen Content, der nur 
+auf eine Brückenseite leitet. Können wir noch mal  
+[58:19] gucken, ob das nicht vielleicht länger ist. Ich 
+habe hier noch so ein schönes Browser-Add-on,  
+[58:27] das schmeiße ich mal an, weil das für mich eine 
+schöne Übersicht bringt. Dein Title ist voll  
+[58:36] ausgeschrieben so, und deine Description ist 
+voll ausgeschrieben, du hast die zwei Sachen  
+[58:45] und lieferst vierhundertfünfundsiebzig Wörter, 
+du stehst auf Index, haben wir auch gesehen,  
+[58:53] und du hast eine H1 und zehn H2, die kommen 
+wahrscheinlich aus den Artikeln. Das ist die H1,  
+[59:04] und das sind die H2. Wenn man generell ein 
+Suchwort hat, dann packt man das in den Title,  
+[59:14] in die Description, in die H1, und liefert 
+Mehrwert-Content, den ich hier so noch nicht  
+[59:23] groß erkenne, weil das eine Brückenseite ist. 
+Die Frage ist, gibt es zu den PHP-Schulungen  
+[59:30] noch eine tiefere Unterseite? Es gibt ja das 
+PHP-Consulting oben, den ersten Punkt. Genau,  
+[59:43] das heißt aber eben Consulting. Und wenn man jetzt 
+guckt, was wird man hier suchen, die Schulung,  
+[59:52] jetzt kommt die Schulung nicht drin vor, wenn 
+ich die Seite nach den vorhandenen Wörtern im  
+[60:00] sichtbaren Text durchscanne. Aber im Ranking 
+ist noch die Seite, die zu der Führung gehört,  
+[60:06] PHP-Training, hier leitest du noch mal auf deine 
+Trainingsseite, okay, wäre ja schon mal was.  
+[60:19] Die ist aber ausführlicher, total, die ist fein, 
+hat ein bisschen Overload beim internen Linking,  
+[60:29] aber whatever, so läuft das ab. Die hat 
+aber schon etwas mehr als die, die wir  
+[60:43] gerade angeschaut haben. Deine PHP-Training-Seite 
+könnte vielleicht etwas mehr Inhalt gebrauchen.  
+[60:54] Warum die jetzt als Brückenseite dient, weiß 
+ich noch nicht ganz genau. Aber wenn wir  
+[61:01] zurückgehen zu unserem eigentlichen Ziel, wir 
+wollten für die PHP-Schulung unterwegs sein,  
+[61:06] könnte man überlegen, packe ich die 
+Schulung in das PHP-Training mit rein,  
+[61:11] oder erfinde ich sogar eine eigene Seite 
+dafür. Das wäre jetzt die Kurzanalyse dazu,  
+[61:24] dass man auf jeden Fall alle geldwerten 
+Suchwörter sucht, und Geldwert sehe ich hier,  
+[61:28] weil es am Markt Leute gibt, die für den Klick 
+furchtbar viel Geld ausgeben wollen. PHP-Experten  
+[61:35] und so weiter, Kurse, PHP-Kurse liefert er auch 
+ab, auch interessant. Also, er findet auf deinem  
+[61:44] ganzen Universum scheinbar nichts Besseres als 
+das PHP-Training, und der Schnellschuss wäre,  
+[61:51] du boostest einfach das PHP-Training, machst 
+hier all das, was wir gerade gesehen haben,  
+[61:59] du baust etwas Inhalt hier rein, sagst auf der 
+Seite auch mal, dass es hier um Training geht.  
+[62:09] Das kommt hier siebenmal vor, aber immer aus 
+deinen Unterseiten, Schulung ist auch drin,  
+[62:18] alles über die, ah, okay, ich verstehe, 
+hier kommt Tagesschulung, Tagesschulung,  
+[62:28] PHP-Schulung-Code, das ist noch mal eine Ramkotz. 
+PHP-Schulung, hier hast du schon einiges gegeben.  
+[62:44] Ich war beim Schnellschuss stehen geblieben: 
+Versucht doch einfach etwas Inhalt reinzumachen  
+[62:50] und nehmt ein paar Sachen auf wie Kurse, 
+Training, Schulung, Webinar oder was weiß ich,  
+[63:02] so etwas in die Richtung, Weiterbildung 
+liefert er auch ab, siehst du das? Alles  
+[63:10] auf deiner PHP-Training-Seite, das heißt, er mag 
+die, obwohl sie eigentlich optimierungswürdig ist,  
+[63:16] schon krass. Also, schreibst du vielleicht mit? 
+Die Schulung würde ich da reinnehmen wollen.  
+[63:30] Jetzt könnte man noch den Schritt machen, dass 
+man nur deine Unterseite anguckt, wo du jetzt  
+[63:36] schon rankst, jetzt ist nur die Übersicht deiner 
+einzelnen Unterseite, und für die Suchwörter  
+[63:45] versucht er dich schon dort abzuliefern. 
+Workshop und andere sind alles Suchwörter,  
+[63:53] die haben zwar nur geringes Suchvolumen, 
+PHP-Kurse siebzig Suchvolumen, PHP-Seminare,  
+[64:04] ein Zehner-Suchvolumen. Aber ich kann dir sagen, 
+wie gesagt, wir haben es gesehen, das reicht  
+[64:10] manchmal. Ich mache auch viel B2B-Kram, in B2B 
+hast du oft Suchwörter, die null Volumen haben,  
+[64:20] weil es einfach zu wenig am Markt gesucht wird, 
+und die Tools das manchmal nicht abdecken oder  
+[64:27] der Markt wirklich nicht so oft danach sucht. 
+Aber ich habe auch Kunden, bei denen reicht es,  
+[64:32] wenn das zwei Leute im Monat suchen oder drei 
+Leute im Monat suchen, und einer von denen  
+[64:37] würde sich bei ihnen melden, weil hinter 
+solchen Suchwörtern auch richtig Umsatz  
+[64:42] liegen kann. Also nicht täuschen lassen, nicht 
+nur auf Suchvolumen schielen, sondern auch gucken,  
+[64:48] was der Wert dahinter tatsächlich ausmachen würde, 
+wenn ich es schaffe, dazu zu ranken. Also das mal  
+[64:55] als Kurzidee, die Weiterbildung, Workshops und 
+so weiter. Du könntest aber, wenn du es richtig  
+[65:01] anstellst, das wollte ich noch kurz ausführen: 
+Wir haben festgestellt, du hast diese Seite,  
+[65:06] und du müsstest sie krampfhaft aufdröseln. 
+Der clevere Weg wäre eigentlich zu sagen,  
+[65:14] wir stellen die PHP-Training-Seite wirklich nur 
+auf das PHP-Training ab und erfinden für den  
+[65:22] Workshop vielleicht eine eigene Unterseite, oder 
+für die PHP-Kurse auch eine eigene Unterseite,  
+[65:28] oder für die Seminare auch eine eigene Unterseite, 
+für den Lehrgang und so weiter. Je nachdem, du  
+[65:34] bist ja jetzt agentisch unterwegs, da ist man ein 
+bisschen unlimitiert, aber ich sage mal, drei bis  
+[65:42] fünf in die Richtung würde ich schon machen. Da 
+schreien jetzt alle draußen am Markt nur Duplicate  
+[65:47] Content, ich habe da meine eigene Meinung 
+dazu, ich sehe das nicht als Problem an,  
+[65:54] weil Duplicate Content erst dann entstehen 
+würde, wenn du wirklich für all das rankst,  
+[66:04] dann könntest du noch mal überlegen. Viele machen 
+sich über Duplicate Content Gedanken und haben gar  
+[66:09] keine Kannibalisierung in ihrem Setup, weil 
+sie einfach gar nicht für irgendwas ranken,  
+[66:16] da sind Gedankenspiele und Interpretationen total 
+falsch gelaufen. Grundsätzliche Regel: Wenn das  
+[66:26] Suchwort groß und teuer ist, dann brauchst du 
+eine eigene Unterseite. Es kann natürlich sein,  
+[66:34] dass die PHP-Kurse sehr wertvoll sind, und dass 
+ich auf der ersten Seite hier sehe, was war es,  
+[66:47] wie teuer war es, zehn Euro achtzig, 
+das würden andere in Ads dafür ausgeben,  
+[66:52] das ist schon eine halbe Du-Action, da wird 
+sowas gemacht, das macht Sinn, da oben zu stehen,  
+[67:00] wenn man PHP-Kurse hat. Und dann kommen 
+die, die haben sich dann auch irgendwie,  
+[67:07] guck mal, es gibt sogar Leute, die haben eigene 
+Domains dafür rausgehauen, die Fernuni Hagen ist  
+[67:14] hier auch dabei mit der Weiterbildung. Es kann 
+natürlich sein, dass, wenn der Wettbewerb hier  
+[67:20] extrem hoch ist, du mit einer Mischmasch-Seite 
+nicht durchkommst, deshalb der Hinweis:  
+[67:27] Bei extrem geldwerten Suchvolumen gern auch 
+eine richtig detaillierte Unterseite raushauen.
+[67:39] So, jetzt gucken wir mal, wir wollten ja 
+eigentlich in Richtung Vibe-Coding gehen. Jetzt  
+[67:43] suchen wir mal deine viertausend Wörter durch, in 
+Richtung Vibe, stehst du da auch irgendwo oben? Es  
+[67:54] wird hier fast schon eine Sistrix-Werbung, also 
+würde ich das gar nicht so machen, Johannes,  
+[68:00] falls du das Video siehst, Johannes ist der 
+Entwickler von Sistrix, ich habe was gut bei dir,  
+[68:07] guck mal, wie oft hier dein Logo schon 
+erscheint. Aber jetzt noch mal, es ist  
+[68:12] einfach und optisch okay. Für Vibe, also Keyword 
+enthält Vibe, haben wir aus deinem Wortwolkensalat  
+[68:23] eigentlich nur diese zwei im Angebot, was mich 
+etwas wundert. Du stehst für nichts oben, außer  
+[68:34] für Vibe Code und negatives Vibe vom Localhost. 
+Das negative Vibe vom Localhost ist natürlich so  
+[68:43] eine Sache. Wir haben dieses Vibe-Coding schon 
+überall in den URLs drin, wie du siehst, wenn  
+[68:54] ich mir eine der Seiten anschaue, es sind einfach 
+extrem viele Seiten. Wenn ich nach Coding suche,  
+[69:04] Coding-Tools, PHP-Coding, okay, also hat er den 
+Switch bei dir noch gar nicht geschafft. Du kommst  
+[69:13] aus dem PHP-Bereich, deine Entität ist eventuell 
+damit auch verknüpft, und du rankst zu Artikeln,  
+[69:20] die vielleicht auch etwas älter sind, aber zu 
+Vibe-Coding finden wir dich hier gar nicht,  
+[69:28] wobei ich für Vibe-Coding immer wieder gefunden 
+werde, das sehe ich in meinem Matomo, dem einzigen  
+[69:33] Tool, das ich habe, dass ich da Traffic bekomme 
+zu dem Artikel, zu den Themen. Haben wir da was  
+[69:45] falsch eingestellt? Fehler sitzt immer vierzig 
+Zentimeter vor dem Bildschirm. Nein, nein,  
+[69:56] ich sage jetzt, ich bin der Fehler. Gucken wir 
+mal, was bei Consulting geht, da hast du auch kein  
+[70:01] Ranking, zumindest nach dem Tool, wir können ja 
+mal in die Google Search Console gucken, du hast  
+[70:04] mir Zugang gegeben. Aber stehst du für irgendwas 
+mit Seminar oben? PHP-Seminare haben wir schon  
+[70:18] gesehen, aber Vibe-Coding-Seminare stehst du noch 
+nicht oben, was haben wir hier noch im Angebot,  
+[70:26] Training war dabei. Also, das hat er noch nicht so 
+richtig gefressen, müssen wir ihm wahrscheinlich  
+[70:34] noch mal beibringen. Aber es ist schon eine gute 
+Erkenntnis, dass das deutlich besser werden kann.  
+[70:50] Hier sieht man erst mal nichts in Richtung 
+Vibe-Coding, du hast gesagt, es gibt eine Menge,  
+[70:57] dann gucken wir mal, Vibe-Coding, hier geht 
+was los, KI-gestützte Softwareentwicklung mit  
+[71:03] Vibe-Coding, gucken wir mal die rein, 
+Coding, KI-gestützt und so weiter. Ah,  
+[71:45] das zieht er sich aus diesen Unterseiten, diese 
+Überschriften, hier ist wieder sehr textlastig,  
+[71:52] fühlst du gerade auch, denke ich mal wieder. Aber 
+warum gibt es hier gar nichts? Jetzt fangen wir  
+[72:01] mal an, es wird ein bisschen spannend, du 
+hast mir Zugang zur Search Console gegeben.  
+[72:11] Und jetzt kommt ein kurzer Werbeblock für 
+die Google Search Console. Also Leute,  
+[72:17] wer im SEO-Bereich oder im AI-Optimierungsbereich 
+oder als Marketing-Dienstleister unterwegs ist,  
+[72:29] jeder braucht eine Google Search Console, weil 
+es ein kostenloses Gesundheitstool ist, das  
+[72:35] dir die Insights deiner Domain direkt 
+aus dem Google-Universum präsentiert,  
+[72:45] ein besseres SEO-Tool, das kostenlos ist, 
+kannst du dir gar nicht wünschen. Du müsstest  
+[72:51] es nur mit deiner Domain-Property connecten, 
+und dann bekommst du tolle Auswertungen, die  
+[73:01] dir eventuell die Augen öffnen. Wir haben übrigens 
+mittlerweile fünfzig Zuschauer, wenn ihr Fragen  
+[73:07] habt, schreibt sie in den Chat, ich nehme das 
+gerne mit auf, welche Tools ihr nutzt und was  
+[73:16] ihr hier kennt. Ich hatte immer das Gefühl, dass 
+die ganzen SEO-Tools auf den Daten der Google  
+[73:24] Search Console oder vielleicht Google Analytics 
+beruhen und das einfach nur besser darstellen.  
+[73:35] Die Tools sind natürlich von außen, der 
+Vorteil ist, ich kann jede Domain eintippen,  
+[73:46] auch die deines Wettbewerbers, ich komme an 
+alle Domain-Daten von nahezu allen Domains  
+[74:04] dran. Wie gesagt, ich habe einfach im Tool von 
+Sistrix oder SE Ranking oder wie sie alle heißen,  
+[74:13] Ahrefs, Semrush und so weiter, kann ich jede 
+Domain analysieren, auch jedes Keyword. Bei  
+[74:23] der Google Search Console bekomme ich natürlich, 
+richtiger Hinweis, nur Daten aus deiner Domain,  
+[74:30] aber dafür ein bisschen tieferes Wissen, weil 
+es von Google kommt, es ist kostenlos, du loggst  
+[74:38] dich mit deinem Google-Profil ein und siehst, 
+was Google mit deiner Seite macht. Hier in dem  
+[74:49] Screenshot sehen wir, wie oft der Google-Crawler 
+bei dir vorbeikommt. Solche Daten würdest du im  
+[74:58] SEO-Tool nicht sehen, weil die das gar nicht 
+haben. Und die Search Console hat Funktionen  
+[75:06] wie hier, das sollte eigentlich jeder Webdesigner 
+mitmachen, meiner Meinung nach: Wenn jemand eine  
+[75:11] neue Domain oder einen Relaunch macht, sollte man 
+immer seine Sitemap, sein Inhaltsverzeichnis der  
+[75:22] ganzen Instanz dorthin geben, das ist wie beim 
+Buch ein Inhaltsverzeichnis. Das gebe ich rein,  
+[75:30] das hast du gemacht, du sendest fünfhundert 
+Unterseiten, erkannte Unterseiten, fünfhundert  
+[75:39] Unterseiten sendest du aus deiner normalen Domain, 
+und dann sendest du noch mal aus deiner Subdomain  
+[75:46] blog achthundert Seiten. Das ist toll, weil ich 
+dem Crawler das Inhaltsverzeichnis gebe, und wenn  
+[75:57] ich es sauber und spamfrei bespiele, dann kann 
+Google mir irgendwann vertrauen, und angenommen,  
+[76:05] du würdest jetzt nach unserem Hinweis deine 
+PHP-Training-Seite aktualisieren, dann sendest du  
+[76:13] meistens auch ein Aktualisierungsdatum mit, gucken 
+wir mal, ja, tust du, so sieht die Sitemap aus,  
+[76:23] für alle sehr kryptisch, für alle, die jetzt zum 
+ersten Mal zuschauen, aber da sind alle URLs drin,  
+[76:30] und wenn man es sauber macht, sendet man auch 
+ein Last Modified, also letzte Veränderung.  
+[76:36] Und wenn du jetzt etwas an deiner Unterseite 
+änderst, und er dir das Vertrauen schenkt,  
+[76:44] könnte er diesen Ping, den wir automatisiert über 
+die Sitemap senden, nutzen und sagen, dann komme  
+[76:51] ich vielleicht noch mal vorbei und aktualisiere 
+das. Auch schön für Leute, die vielleicht ein  
+[76:59] Problem haben mit: Von meinen tausend Unterseiten 
+sind nicht alle im Index, welche sind denn nicht  
+[77:04] im Index? Sitemap einreichen ist der erste 
+Schritt bei jeder Domain, und Google Search  
+[77:11] Console anlegen ist auch Pflichtprogramm. 
+Wenn Leute in meine Sprechstunde kommen und  
+[77:16] noch nie von der Google Search Console gehört 
+haben, dann weiß ich ungefähr, dass die keine  
+[77:22] Kontrolle über ihr Asset haben, keine Kontrolle 
+über die Sichtbarkeit, brauchten es vielleicht  
+[77:31] nicht, aber irgendjemand hat es sträflich 
+vernachlässigt, das Ding anzulegen. Wie gesagt,  
+[77:38] hier Sitemap einreichen, dann siehst du unter dem 
+Punkt Seiten, ganz wichtig, was ist indexiert?  
+[77:49] Bei dir sind tausenddreihundert Seiten 
+aktuell indexiert, hier gab es mal einen  
+[77:56] Boost auf eintausendneunhundertachtzig Seiten 
+indexiert und danach wieder weg. Könnte man jetzt  
+[78:06] auch mal aufnehmen, warum ist da so ein Boost 
+passiert, müsste man forensisch rangehen, gucken,  
+[78:15] war das am neunten Juni, ich glaube, das war 
+englischsprachiger Content, der dann abgeschaltet  
+[78:24] wurde. Ich weiß nicht exakt, aber ich 
+habe mich auf jeden Fall entschieden,  
+[78:33] allen englischsprachigen Content abzuschalten, 
+weil ich glaube, dass man mittlerweile im Browser  
+[78:39] das direkt in seine Sprache übersetzt bekommt, 
+und es ist mir zu viel Aufwand, das nachzupflegen,  
+[78:45] Aktualisierungen nachzuhalten und mitzuziehen 
+in Zeiten von KI und Realtime Translation,  
+[78:56] obwohl immer noch gesagt wird, Mehrsprachigkeit 
+ist ein wichtiges Feature, das angefragt wird,  
+[79:02] zumindest bei Content-Management-Systemen. 
+Ich habe die alle abgeschaltet, weil sie so  
+[79:14] unaktualisiert waren, wir haben viel gemacht bei 
+Never Code Alone, neue Content-Typen hinzugefügt,  
+[79:20] automatisiertes Content-Marketing eingeschaltet, 
+und da hatte ich kein Interesse, noch Englisch  
+[79:27] mitzuziehen. Denke, es ist was anderes, aber gut, 
+das jetzt erforschen wollen? Brauchen wir nicht,  
+[79:40] wir wollen ja unser Vibe-Coding nach vorne 
+bringen. Also, danke für den Hinweis,  
+[79:46] dass du das umgeschaltet hast, aber hier ist ja 
+irgendwas passiert, er hat für kurze Zeit einfach  
+[79:53] mal sechshundert Unterseiten mehr indexiert 
+und danach festgestellt, ah nee, doch nicht,  
+[79:59] und das Level ist aber ungefähr gleich, wir sind 
+bei tausendzweihundert indexierten Seiten. Wie  
+[80:04] gesagt, das ist erst mal wichtig, was viele Leute 
+machen, sie produzieren Inhalte und sagen dann,  
+[80:14] ich habe den Blogartikel rausgehauen, und dann 
+gucke ich mir das an, und der Blogartikel ist ein  
+[80:19] Jahr lang nicht indexiert, das heißt, er 
+war ein Jahr lang überhaupt nicht sichtbar,  
+[80:23] und das ist kein Ausnahmeproblem, indexiert zu 
+werden ist heute erst die erste Hauptdisziplin.  
+[80:37] SEO fängt an bei: Ich werde erst mal indexiert. 
+Das heißt, du musst erst mal sicherstellen,  
+[80:42] dass alle deine Seiten so im Index sind, wie du 
+es haben möchtest. Hier unten kommen Hinweise,  
+[80:51] wo er sagt, und da scheitern dann viele dran, die 
+scrollen vielleicht nicht bis hier runter, aber es  
+[80:57] ist ein hervorragender Überblick, wie gesund ist 
+deine Seite. Was hat er für ein Problemchen? Hier  
+[81:07] unten kommen diese zwei, ich mache mal die ganze 
+History auf, die ganze Liste hier sind dreizehn  
+[81:13] Sachen, hier unten kommen aber diese zwei Sachen: 
+gecrawlt, zurzeit nicht indexiert, und gefunden,  
+[81:20] zurzeit nicht indexiert. Und wenn hier eine 
+Kurve hoch oder runter geht und du damit nicht  
+[81:27] einverstanden bist, solltest du dir das unbedingt 
+angucken, und dann solltest du mit deinem  
+[81:33] Entwickler oder Webdesigner oder mit dir selbst 
+oder deinem Agenten gucken, was er dir sagen will.  
+[81:43] Weil er dir viele Sachen sagt, zum Beispiel, 
+die bei einem Relaunch immer kaputtgehen.  
+[81:53] Ich muss die Zuschauer kurz nutzen, du sagst, 
+fünfzig Leute sind da, was passiert bei einem  
+[81:58] Relaunch? Warum scheitern so viele Relaunches? 
+Ob ein Relaunch nötig ist, ist eine andere Frage,  
+[82:09] aber bei einem Relaunch passiert ganz oft das 
+Abschneiden deiner bisherigen URL-Struktur.  
+[82:18] Du hast deine Domain, nevercodealone.de, schön und 
+gut, dann hast du dahinter die ganzen Pfade, dein  
+[82:26] Spinnennetz, slash de, php, slash de, consulting, 
+und so weiter, du hast dein ganzes Spinnennetz  
+[82:38] an URLs, das du installiert hast, im Universum 
+schon mal rausgedrückt hast. Jetzt kommt so eine  
+[82:45] hochbezahlte Relaunch-Agentur, und was machen die? 
+Die schneiden meistens unbewusst dein vorhandenes  
+[82:55] Spinnennetz weg und zeigen dir danach eine neue, 
+schön gestaltete Domain mit ein bisschen Design,  
+[83:06] haben aber vergessen, dass die Spinne ja irgendwo 
+schon mal zehn Jahre eine URL kannte, die sie dann  
+[83:17] in eine Fehlerseite laufen lassen, weil sie die 
+Struktur nicht umgezogen haben. Das ist ein ganz  
+[83:22] einfacher Hack, den der Markt seit zwanzig Jahren 
+nicht verstanden hat: Bei einem Relaunch unbedingt  
+[83:30] jede URL auf die nächstfolgende passende per 
+dauerhafter Weiterleitung weiterleiten. Dann  
+[83:42] könnte der Relaunch auch nicht nach hinten 
+losgehen. Und wir SEOs sind seit Jahren im  
+[83:47] Geschäft, weil Leute relaunchen und vergessen, 
+ihre URL-Struktur umzuziehen. Also, goldene Regel  
+[83:57] bei einem Umzug: Lass deine URL-Struktur gleich, 
+wäre die erste goldene Regel, und wenn du deine  
+[84:04] URL-Struktur ändern musst, dann bitte leite 
+sie auch weiter. Ich hatte sogar Riesenfirmen,  
+[84:10] die das auch nicht hingekriegt haben, und wenn du 
+es verkackt hast, dann sagt dir die Google Search  
+[84:15] Console, ich laufe auf ganz vielen Seiten auf 
+404. Jetzt war kurz der Einsprung dazu, bei wie  
+[84:24] vielen Seiten stolpert denn unser Crawler oder 
+auch Menschen, hier kommen Pfade zum Vorschein,  
+[84:38] die heißen slash en influencer db slash em hall 
+of fame und so weiter, wenn ich die jetzt aufrufe,  
+[84:46] existieren die nicht, richtig, not found? Genau. 
+Die würde ich hübscher machen, ja, auf jeden Fall,  
+[84:54] kleiner Seitentipp am Rande, 404-Seiten existieren 
+und sind auch so weit okay, nicht alles muss ewig  
+[85:01] existieren, auch wenn es sollte, aber sowas kann 
+man extrem hübsch machen. Ja, die ist im alten  
+[85:06] Layout, sieht ziemlich zerschossen aus, und das 
+ist ein bisschen schlechtes Image für das Ding,  
+[85:13] also 404 produziert dieser Pfad, der Influencer 
+Hub. Gibt es einen Nachfolger? Nein. Hall of Fame  
+[85:28] gibt es auch nichts oder was? Hier kommt 
+noch etwas, die Bounce spielt auch mit,  
+[85:35] weil da das DE-Segment fehlt, also da fehlt 
+praktisch der Slash hinter der Domain,  
+[85:49] habe ich in meinem Pre-Scan schon gesehen, führe 
+ich dich gleich hin. Was machst du denn jetzt mit  
+[85:57] dem englischen Content, willst du den nicht mehr 
+bespielen? Genau, der ist raus, und damit ist es  
+[86:05] eigentlich auch richtig. Ich glaube, dass ein paar 
+Pfade fälschlicherweise noch in der Sitemap XML  
+[86:14] drin sind, ich hatte auf jeden Fall gesehen, dass 
+Pfade in der Sitemap XML drin sind, die es nicht  
+[86:21] mehr gibt, und daher kommt wahrscheinlich der 
+Fehler, dass die URL noch in der Sitemap steht  
+[86:27] und dann gesagt wird, die ist 404. Und wenn ich 
+die in der Sitemap entferne, räume ich auch die  
+[86:35] Fehler auf. Wunderbarer Hinweis. Du sendest deine 
+Sitemaps, hatten wir schon geguckt unter Sitemap,  
+[86:43] und hier oben bei dieser Funktion kann man sagen, 
+prüft doch mal, was ich sende, alle bekannten  
+[86:56] Seiten, und dann kann man hier nochmal filtern, 
+alle, die ich einreiche, alle, die ich nicht  
+[87:01] einreiche, alle, die ich aus dem Blog einreiche, 
+oder alle, die ich aus der Sitemap einreiche. Und  
+[87:07] wenn du sagst, du sendest die eventuell noch, die 
+Sitemap müsste natürlich sauber sein, und dann  
+[87:12] kannst du hier mal gucken, jetzt sehen wir diese 
+Übersicht zugeschnitten, oh, okay, das heißt,  
+[87:22] du sendest die nicht, da ist nämlich der Fehler 
+raus. Es sind aber Seiten fälschlicherweise in der  
+[87:31] Sitemap XML drin, welche? Alles, was du sendest, 
+sind auf jeden Fall welche ohne DE-Segment drin.  
+[87:44] Letztes Mal, als wir gesprochen hatten, hatte ich 
+die Sitemap einmal auch mit einer KI analysiert,  
+[87:54] ob es Seiten ohne Language Segment gibt, und da 
+sind auf jeden Fall einige drin. Okay, dann ist  
+[88:04] das jetzt der Punkt, aber wenn du sagst, das ist 
+gar nicht die Lösung. Naja, also, sauberer erster  
+[88:19] Punkt: Indexierung herstellen, erste Regel im 
+SEO Fight Club, Indexierung herstellen. Wie macht  
+[88:29] man das? Man ist so freundlich und sauber, dass 
+man den Google-Crawler nicht unbedingt im Kreis  
+[88:37] herumführt, sondern es ihm so auf dem Tablett 
+serviert, dass er Vertrauen fasst und sagt,  
+[88:45] ja, okay, da schaue ich öfter mal vorbei, so 
+ein Crawler und eine Webseite werden über die  
+[88:51] Jahre auch Freunde oder Feinde. Wenn man immer 
+blockt und sein Asset nicht sauber dahin schiebt,  
+[89:03] das ist nicht so schlimm, es gibt überall 
+mal Fehler, gerade wenn man was ändert,  
+[89:11] aber wenigstens dieses Fundament, die technische 
+Optimierung, muss erst mal sauber sein.
+[89:21] Wie gesagt, hier diese ganzen Dinge gerne 
+durchgucken. Ich bin ja auch zwanzig Jahre  
+[89:32] im Game, früher war das anders, da war Google 
+so aggressiv, die haben dir alles gecrawlt,  
+[89:41] die wollten unbedingt jedes kleinste, sie wollten 
+das ganze Internet runterladen, das war ja so die  
+[89:50] Idee des Algorithmus dahinter, sie wollten auf 
+jeden Fall das Internet komplett tief ausleuchten.  
+[89:58] Jetzt ist aber Google und das Internet in 
+den letzten zwanzig Jahren massiv gewachsen,  
+[90:05] und die Rechenkapazitäten, um irgendwelchen 
+Schrott zu inhalieren, wollen sie Schritt für  
+[90:12] Schritt abschalten, da habe ich so ein bisschen 
+das Gefühl. Und dann gibt es diese zwei Hinweise,  
+[90:18] Google sagt sogar, wir haben dich gecrawlt, 
+aber nicht indexiert, und da musst du gucken,  
+[90:24] das sollte jeder, der eine Google Search 
+Console hat, mal gucken, welche Seiten sind das,  
+[90:31] hier wächst das sogar bei dir, das könnte 
+AI-Slop-Content sein, der als solcher  
+[90:38] identifiziert wird, vielleicht, aber wir sehen 
+auch, dass das Language-Segment fehlt. Hier sehen  
+[90:48] wir das sehr schön, es gibt beide, die sind beide 
+nicht drin, das ist die gleiche URL, siehst du,  
+[91:00] das ist der Pfad hier und das ist der Pfad hier, 
+das eine mit DE und das andere ohne DE, genau,  
+[91:07] hat er beide nicht indexiert, okay, aber er war 
+da, das heißt, er hat diese Pfade gefunden. Die  
+[91:18] Frage ist an der Stelle für mich, wie findet 
+er so einen alten Pfad ohne den DE-Slash?  
+[91:25] Wie gesagt, das kann durch eine falsche Sitemap 
+XML sein, theoretisch könntest du den Link  
+[91:39] in die Zwischenablage nehmen 
+und in der Sitemap XML suchen,  
+[91:42] du wirst ihn da wahrscheinlich drin finden, 
+beide, den zweiten, der hat kein DE-Segment,  
+[91:52] wenn der da drin ist, dann ist das das 
+Problem. Ich kann den auch hier untersuchen,  
+[91:59] noch ein kleiner Hinweis, hier kann man kopieren, 
+ich könnte die aufrufen oder untersuchen, und dann  
+[92:07] gucken wir, Daten aus dem Google-Index, und dann 
+siehst du hier die verweisenden Seiten. Ah, okay,  
+[92:20] das heißt, das ist auch im CMS irgendwo, 
+es kommt also, guck mal, die Pfade hier,  
+[92:26] das sind deine harten Draußenpfade, und du hast 
+wahrscheinlich intern auf den alten Pfad ohne  
+[92:36] den DE-Ordner verlinkt. Deine Seite hat gerade 
+einen Verarbeitungsfehler, warum auch immer,  
+[92:45] müsste man vielleicht später noch mal 
+gucken. Wann war er da? Elfter Siebte,  
+[92:56] vom Nutzer angegebene kanonische URL, du gibst die 
+kanonische URL auch richtig an, also den Ursprung,  
+[93:06] dann macht er halt den Hinweis, das stimmt 
+hier nicht mit der von mir gefundenen überein,  
+[93:13] und das könnte natürlich ein starker Grund sein, 
+warum er das nicht indexiert. Und jetzt gucken wir  
+[93:23] uns mal die echte an und untersuchen die auch 
+mal, die müsste eigentlich im Index sein, aber  
+[93:30] die ist im Index, ah, okay, habe ich dir schnell 
+gemacht, Roland, unter uns. Dann gucken wir mal,  
+[93:38] wann der da war, achtzehnter Siebte, da war 
+der Google-Crawler da und hat festgestellt,  
+[93:43] ich vertraue dir jetzt, es kann durchaus sein, 
+dass sich das jetzt einspielt, der kommt je nach  
+[93:54] Domain, du hast das vielleicht mit diesen alten 
+Links, da müsste ich die Seiten noch mal angucken.  
+[94:01] Ich gebe dir, wir sind ja in der SEO-Sprechstunde, 
+ich gebe dir auch noch ein Tool an die Hand,  
+[94:16] wo du das erkennst, jetzt noch mal Grüße an meinen 
+Kollegen vom Sorge-Team, das ist Matthias Hotz,  
+[94:30] den ich sehr schätze, der hat, das ist kostenlos 
+übrigens, ein eigenes SEO-Tool, auch für alle,  
+[94:37] die keine bezahlten SEO-Tools haben, sind hier 
+sehr glücklich mit so einem Sorge, ich nehme das  
+[94:44] gern in meiner Sprechstunde, den habe ich auch auf 
+der CampX getroffen, da haben wir uns gefreut. Was  
+[94:51] habe ich gemacht? Ich habe deine Domain auch hier 
+durchgescannt, und wir waren jetzt gerade dabei,  
+[95:00] ich habe hier den Deep-Crawl gemacht, den 
+SEO-Crawl, guck mal, hier könntest du sogar  
+[95:05] Suchvolumen analysieren, und das macht er alles 
+for free. Für die Leute, die ohne Geld ins  
+[95:12] SEO-Game einsteigen, bitte hier an Sorge gehen, 
+das ist ein wunderschönes Tool, ich nehme es gern,  
+[95:20] weil ich auf einer Seite eine richtige Übersicht 
+bekomme, wie steht es da drum. Hier sieht man  
+[95:31] dieses Spinnennetz, das in der Mitte ist 
+deine Domain, das sind die ganzen internen  
+[95:37] Verlinkungspunkte, von dort aus weiterverlinken, 
+tiefer, tiefer, das sind die ganzen Ebenen,  
+[95:42] das kann man sogar anklicken und ein bisschen 
+rumspielen, wunderschön. Aber dann sieht man,  
+[95:48] was so ist, er macht hier blaue und rote Punkte, 
+und dann gucken wir mal, was sind blaue und rote  
+[95:52] Punkte, weil von den tausendzweihundert Seiten, 
+die er rausgejodelt hat, senden fünfhundert nur  
+[96:07] einen Status okay, aber sechshundert senden 
+Status 301, das ist ein blaues Problem,  
+[96:18] zum roten Problem kommen wir noch, aber bei dem 
+blauen Problem hast du scheinbar intern in deiner  
+[96:32] Seite einen großen Anteil verlinkt, das ist eine 
+große Zahl, dann kannst du auf View gehen, und  
+[96:38] dann gucken wir, was er da meint. Die Sortierung 
+müsste meiner Meinung nach anders sein, Matthias,  
+[96:50] wenn du zuguckst, auch Werbung für dich, aber ich 
+wünschte mir, dass dieses Link Found hier, er hat  
+[96:59] das auf der Unterseite PHP-Glossar, du erkennst, 
+dass das ohne den Slash ist, aber du bist gar  
+[97:07] nicht aufgerufen, da auf dieser Unterseite findet 
+er diesen internen Link, der dann irgendwie  
+[97:21] weiterleitet, das soll man mal verstehen, ach, 
+das ist ein Bild. Bei der ist es einfacher,  
+[97:31] wir nehmen mal die zweite Zeile, hier, Link Found 
+On, und da ist ein aktuelles Netz, slash de,  
+[97:40] glossar, ki-tools, pricing, agent und so weiter, 
+und auf dieser Unterseite findet er eine URL,  
+[97:49] diese hier, ohne den Parameter, und die 
+leitet aber dann weiter auf den Parameter,  
+[98:00] verstehst du? Wir machen mal den Live-Check, 
+also auf der Unterseite, die schon ein DE hat,  
+[98:13] sendest du hier ohne DE, mal gucken, was ist 
+das, Glossar, KI-Tools, Open Design Source,  
+[98:28] ein Link zu Open Design, jetzt gucken wir mal 
+nach Open Design, machen wir es mal händisch, ups,  
+[98:33] kein Lesezeichen, sondern ein Scan der Seite, 
+Open Design, wahrscheinlich hier, und jetzt,  
+[98:47] ich sehe es hier schon, das sind auf jeden Fall 
+technische Probleme. Du sagst, die Seite gibt es,  
+[98:58] sie ist auch indexiert, aber hier auf dem Pfad 
+sagst du ihm, damit es auch die anderen sehen,  
+[99:08] ich habe jetzt den internen Link rauskopiert, 
+und wenn ich den in meinem Browserfenster öffne,  
+[99:13] sagst du hier, und da fehlt eben der DE-Pfad. 
+Verrückt, aber auch gut, schöner Fehler, hätte ich  
+[99:25] die Hand ins Feuer gelegt, dass das richtig ist, 
+ist nicht schlimm, das passiert. Aber du weißt,  
+[99:37] als Mensch werde ich weitergeleitet, ein 
+Glück, als Crawler sehe ich aber hier, dass  
+[99:43] er mich intern dauerhaft weiterleiten will, eine 
+Weiterleitung könnte mich ja auch auf Spam-Content  
+[99:54] leiten oder auf nicht korrekt von mir indexierte 
+Inhalte, ich folge dem mal, aber so hochwertig ist  
+[100:04] das nicht. Aber das passiert intern bei dir auf 
+sechshundert Unterseiten, deswegen bekommst du  
+[100:12] nicht tausendzweihundertmal okay, sondern eben so. 
+Und das ist ein schöner Fehler, weil du hingehen  
+[100:25] und sagen kannst, okay, dann ziehe ich mir mal 
+diese Liste, die kannst du dir exportieren,  
+[100:30] erst mal guckst du sie dir auf Sinnhaftigkeit an, 
+mit deinem Verständnis, schaffst du das, aber das  
+[100:35] zieht sich wahrscheinlich durch, immer wieder, und 
+dann ist da immer ein schöner Schritt zu sagen:  
+[100:44] Das kann auch sein, dass, wenn ich diese Fehler 
+abstelle, vielleicht diese Vibe-Coding-Inhalte  
+[100:52] auch mal Berücksichtigung finden, und Google eben 
+sagt, ich habe schon tausend Seiten im Index,  
+[101:03] hier läuft mir zu viel, es gibt ja irgendwie 
+so ein Limit, was indexiert wird, oder er sagt,  
+[101:10] bring den Rest mal in Ordnung, und dann gucke ich, 
+dass du mehr Kapazität bekommst. Das ist genau der  
+[101:18] richtige Ansatz, je sauberer dein Setup, desto 
+besser deine Indexierung, und bei internen Links  
+[101:26] kann ich dir sogar sagen, interne Links vererben 
+auch den Link Juice, Google will ja wissen,  
+[101:40] was finde ich auf dieser Unterseite. Hier sagst du 
+Claude Code, hier sagst du das und das, natürlich  
+[101:50] kann das helfen, hier stehen ja Begriffe drauf, 
+Vibe-Coding, Einstieg in KI-gestützte Systeme,  
+[101:59] das ist ja auch alles Related Content. Wenn der 
+das auch hier, das ist übrigens das gleiche Ding,  
+[102:07] ich sehe es unten in meinem Browser auch, da fehlt 
+auch der DE-Pfad, vielleicht ist es das schon, oh,  
+[102:13] Astro, ah, Astro, schön, aber hier, wenn du das 
+Vibe-Coding lernst, springt er erst auf diese  
+[102:21] Un-DE-Pfad-Nummer und springt dann von dir mit 301 
+rum, das ist halt irgendwie im Laufe des Bauens  
+[102:29] passiert, aber ja. Die hier sofort stärken mit dem 
+Fix interne Verlinkung. Wir waren ja vorhin bei  
+[102:38] den fünf wichtigsten Sachen im SEO-Game, es gibt 
+vielleicht hundert oder zweihundert, welche sind  
+[102:45] aber wirklich wichtig? Wir haben etwas Wichtiges 
+gefunden, weil interne Verlinkung wie ein interner  
+[102:54] Backlink ist, den solltest du pflegen, solltest 
+du einfach machen, weil das vererbt Google,  
+[103:02] vielleicht ist es das schon, kann man nie so genau 
+sagen. Wenn du nur indexiert bist, dann kannst du  
+[103:12] sagen, wenn ich nur indexiert bin, kriege ich auch 
+keine Rankings, kann man an dieser Einzelmaßnahme,  
+[103:18] hatte ich auch schon, feststellen, okay, das war 
+dein Hauptfehler. Aber meistens ist es ein Pulk an  
+[103:24] Fehlern oder ein Pulk an Vertrauenssignalen, das 
+ist eine größere Liste und mehrere Algorithmen,  
+[103:34] versuch es im Pulk sauber zu spielen. Okay, 
+aber ja, würde ich bei dir auf Prio hochlegen,  
+[103:46] und in meiner Vorbereitung ist das einer 
+der ersten Punkte. Jetzt muss man gucken,  
+[103:53] du hast ein Hreflang ohne Selbstverweis, gucken 
+wir mal, das kommt hier, glaube ich, auch noch in  
+[103:59] der Liste, hier, Hreflang und es wird sogar ein 
+roter Fehler, Hreflang und Selbstverweis, okay,  
+[104:05] selbstverweist, okay, aber kennst du dich mit 
+Hreflang auch aus? Nein. Du hast eine Multi-,  
+[104:13] ja, jetzt nicht mehr, aber doch, es gibt die 
+EN-Fahne komplett nicht mehr? Ja, die sind weg.  
+[104:24] Really? Ja. Darf ich dir dann eigentlich meinen 
+Master-Tipp geben, den ich dir schon anfangs  
+[104:33] in unserer Kennenlernphase geben wollte? Da 
+war irgendwas mit diesem Canonical, guck mal,  
+[104:42] wenn ich jetzt Never Code Alone aufrufe als meine 
+Adresse, dann bekomme ich auch einen Redirect,  
+[104:49] und der springt als allererstes in 
+deinen DE-Pfad, das ist ein Sprung,  
+[104:56] und das ist noch ein Standard-SEO-Fehler. 
+Wir wollten das so machen, aber was passiert  
+[105:03] technisch gesehen? Deine Domainauflösung hat im 
+Standard eine Weiterleitung, richtig, das ist wie,  
+[105:13] die ist dauerhaft umgezogen. Wenn ich jetzt so 
+einen Statuscode-Checker anschmeiße, kenne ich den  
+[105:22] Entwickler dahinter nicht, deshalb kann ich keine 
+Grüße geben, aber den nehme ich auch sehr gern,  
+[105:26] ich nehme hier Never Code Alone und mache 
+mal einen Canonical Domain Check mit dir.  
+[105:34] Da müsste eigentlich, es gibt immer vier Varianten 
+deiner Domain, ohne HTTPS, mit www, mit S und www,  
+[105:50] und du spielst deine Variante mit S und ohne, 
+völlig okay, jeder entscheidet sich für eine,  
+[105:58] aber alle anderen drei sollten dann sauber 
+weiterleiten. Hier haben wir noch eine temporäre  
+[106:04] Umleitung zwischengeschoben, die 301er sind hier 
+so weit richtig, sind aber dann eben auch doppelt,  
+[106:16] und das wollte ich dir eigentlich 
+sagen, hier könnte man auch reingehen,  
+[106:20] Domain-Status, Überprüfung, Auslieferung 
+des Contents, und bei dir passiert das,  
+[106:27] deine Domain will aufgelöst werden, sagt aber, ich 
+mache nur 301 in den Pfad DE, geht das besser? Ja.  
+[106:37] Ich hatte schon eine Beratung dazu, wenn ich 
+das insgesamt wegnehme. Ja, dann zerstörst du  
+[106:42] wieder deine Rankings. Total, genau, und da 
+müssen wir jetzt wirklich tiefer nachdenken,  
+[106:49] jetzt sind unsere zwei Stunden schon fast rum, wir 
+wissen immer noch nicht, wie wir mit Vibe-Coding  
+[106:53] ranken. Echtes Consulting hier, man kommt wegen 
+einem Problem und geht mit mehreren Problemen,  
+[107:05] die nichts mit dem ursprünglichen Problem zu tun 
+haben. Wir wollten Lösungen haben, es ist extrem  
+[107:17] abzuwägen, das schieben wir jetzt nicht in drei 
+Minuten durch, da musst du noch mal nachdenken,  
+[107:22] ich muss auch noch mal nachdenken, wie viel 
+Ranking gibt es auf dem... Ich hätte natürlich,  
+[107:35] ich möchte nur kurz sagen, bitte, Leute, macht mal 
+so einen Check, guckt euch das an, das ist okay,  
+[107:48] aber es ist wieder eine Weiterleitung, und guckt, 
+wie viele Weiterleitungen du produzierst. Du  
+[107:53] produzierst hier eine Weiterleitung schon 
+auf deinem Gesamtcontent in den Pfad DE,  
+[107:58] den du gar nicht mehr bräuchtest, dann produzierst 
+du in deinem Content noch interne Weiterleitungen.  
+[108:04] Das war die größte Entscheidung, die Seite jemals 
+mehrsprachig gemacht zu haben. Wenn Auflösung,  
+[108:13] ich hatte die Beratung schon, dann müsste ich 
+aber auch, dann kommst du noch mal wieder,  
+[108:21] aber das muss man wirklich abschätzen, das 
+ist eine architektonische Entscheidung.  
+[108:27] Das Schönste wäre natürlich, wenn sich die 
+Domain auflöst und dort sofort Inhalt liefert,  
+[108:32] das ist jetzt der Hinweis. Ob ich bei dir das 
+jetzt sofort abschneiden will, weiß ich noch  
+[108:38] nicht, muss man eine Plus-Minus-Liste machen, 
+auch Aufwand und Rankingzerstörung abwägen.  
+[108:46] Und wenn man Rankings zerstören möchte, dann musst 
+du wieder weiterleiten, du müsstest alle Pfade,  
+[108:54] die du schon ins Ranking gebracht hast, alle 
+wieder weiterleiten, und da weiß ich nicht,  
+[109:04] ob das dann so ist. Man muss auch mal in 
+die nächsten fünf Jahre gucken, du bist  
+[109:08] eine DE-Domain, macht man sowas, weiß ich nicht, 
+vielleicht wird es ja auch wieder irgendwann im  
+[109:16] Leben mehrsprachig. Richtig, vielleicht wird es 
+auch wieder mehrsprachig, und im ersten Rutsch,  
+[109:21] muss ich dir ehrlich sagen, mein Gefühl sagt 
+gerade, lass es erst mal so. Ich wollte nur den  
+[109:26] Hinweis dalassen, das passiert hier, aber verstehe 
+auch bitte den armen Crawler, der sagt, ich werde  
+[109:31] weitergeleitet, und dann werde ich intern noch mal 
+weitergeleitet, und dann findet er irgendwann eine  
+[109:37] Vibe-Coding-Unterseite, die aber hinter der 
+dritten Weiterleitung ist. Total, macht Sinn,  
+[109:44] oder? Also, dann räume ich erst mal auf, und 
+wenn ich das aufgeräumt habe, man sieht ja,  
+[109:54] dass der Crawler recht regelmäßig vorbeikommt, 
+wird er das dann auch schnell verstehen.
+[110:03] Noch mal kurz zum SEO allgemein: 
+Jedes Ranking hängt an der URL,  
+[110:13] das Wichtige ist deine URL, die kommt aus 
+deiner Domain und ist Teil deiner Domain,  
+[110:21] aber das Ranking passiert auf der Unter-URL, hier 
+ist das Ranking, du rankst ja nicht mit deiner  
+[110:26] Startseite, die Startseite ist meist nur eine 
+Brückenseite, die etwas durchleiten soll, aber  
+[110:32] Rankings passieren auf URL-Ebene, und deswegen 
+ist die URL-Ebene wichtig, und da muss man gucken,  
+[110:43] dass man diese URL-Strukturen halbwegs sauber 
+spielt. Hier kommen auch noch ein paar alte,  
+[110:49] da müsste man mal gegenüberstellen, wie viel 
+von den alten Pfaden und wie viel von den neuen  
+[110:54] Pfaden. Und wenn du hier sagst, PHPUnit, du willst 
+diesen Info-Content mitnehmen, PHPUnit-Testing,  
+[111:04] okay, aber da müsste man wirklich noch mal 
+reingehen, welche URL-Pfade sind schützenswert,  
+[111:12] und was würde das ausmachen. Noch mal, eine URL 
+produziert dein Ranking, und die Nutzersignale,  
+[111:22] die du darauf produzierst, sind es. Google 
+hat im letzten Leak gesagt, dass es bis zu  
+[111:28] drei bis zehn Monate dauern kann, bis eine URL 
+die volle Beachtung bekommt. Drei bis zehn Monate,  
+[111:40] indexiert zu werden ist der erste Schritt, 
+das sind dann bis zu zwölf Monate, weil das  
+[111:45] Jahr zwölf Monate hat, aber weil sie festgestellt 
+haben, dass Feiertage wie Ostern oder Pfingsten  
+[111:52] nicht immer am gleichen Tag im Jahr sind, das 
+ist auch verschoben, deshalb gibt es diese aus  
+[111:59] dem Google-Leak extrahierte Erkenntnis, die wir 
+SEOs schon seit zwanzig Jahren gedacht haben,  
+[112:05] die aber im Google-Leak vor ein, zwei Jahren 
+tatsächlich bestätigt wurde: Bis zu dreizehn  
+[112:10] Monate kann es dauern, bis deine Unter-URL das 
+volle Ranking hat, weil Google Nutzersignale mit  
+[112:17] reinsaugt. Technisch schön zu sein, inhaltlich 
+schön zu sein, Autorität, Entität, alles schön,  
+[112:27] aber am Ende muss jemand, der einen Suchbegriff 
+eingibt, auf der Seite bleiben. Also eingeben und  
+[112:36] hier bleiben, wenn ich nur Schrott liefere, 
+scheinst du das nicht zu tun, sonst wärst du  
+[112:41] nicht in den Top zehn. Aber wenn die Verweildauer 
+etwas überdurchschnittlich zum Markt ist, dann  
+[112:51] ist das fein, aber das scheint anzukommen, und 
+vielleicht ist das genau das, was die Zielgruppe  
+[113:00] braucht, vielleicht ist die Zielgruppe so 
+unterwegs, dass sie sagt, dem vertraue ich hier,  
+[113:07] dem vertraue ich auch diese lange Liste, die hier 
+unten kommt. Aber Nutzersignale, ich bin jetzt  
+[113:16] hier im Google Chrome, und alle denken immer, 
+ich brauche Monster-Inhalt und Monster-Backlinks,  
+[113:24] und ich sage dann, aber ganz ehrlich, du brauchst 
+auch gute Nutzersignale. Jemand, der nach ComfyUI  
+[113:29] sucht, muss auf so einer Seite die maximale 
+Nutzererfahrung erfahren, das ist offizieller  
+[113:36] Google-Sprech seit fünfzehn Jahren, maximale 
+Nutzererfahrung, die Frage ist, ist das hier  
+[113:43] maximale Nutzererfahrung, vielleicht, vielleicht 
+auch nicht, wenn das der beste deutsche Inhalt  
+[113:50] ist, dann ist das der beste deutsche Inhalt. Du 
+stehst ja auf acht, alles schön, dann sind die  
+[113:57] anderen sieben davor vielleicht nur ein Ticken 
+besser. Aber Nutzersignale werden über dreizehn  
+[114:03] Monate gesammelt, laut Google-Leak inoffiziell 
+herausgefunden, das heißt, wenn wir jetzt was  
+[114:09] ändern, ist es das wert, dann machen wir das 
+erst mal nicht. Okay, wir sind schon ganz schön  
+[114:19] weit vorwärtsgekommen, ich gebe dir diesen Crawl 
+hier mit, das ist jetzt der, es sind noch ein paar  
+[114:28] andere Sachen. Was Code ist, gehe ich irgendwie 
+an, hier neunzehntausend paar, die gleich sind,  
+[114:39] geiler Fehler, du hast neunzehntausend, die 
+spiegeln sich dann wahrscheinlich auf jeder  
+[114:46] Unterseite. Lass uns sprechen, okay, und hier 
+AI-Testing, okay, dann ist das irgendwie so, es  
+[115:03] ist ein Tool, immer noch, muss man das hier alles, 
+ich würde sagen technische Infrastruktur, das ist  
+[115:11] der Content-Sektor, kann man gucken, manche 
+sagen, dass für KI-Extraktionen H2 wichtig sind,  
+[115:22] aber wir hatten so ein "Lass uns sprechen" als 
+H2, die würde ich nicht als H2 deklarieren,  
+[115:29] das stimmt, gleiches Spiel wieder, nur 
+wichtige Sachen als H2. Ich würde meinen,  
+[115:40] wir sind mit der internen Verlinkung schon 
+gut am Start, die Hreflangs würde ich noch um  
+[115:46] Selbstverweis auffüllen, das ist, obwohl du hast 
+jetzt wieder, ah, das ist trickreich, trotzdem,  
+[115:55] in die Hreflangs gehört rein, dass man sich auch 
+selbst referenziert, diese DE-Seite sollte sich  
+[116:04] selbst referenzieren, müsstest du mal nach 
+Hreflang Best Practice nachgucken, da gibt  
+[116:10] es immer drei Sachen, meine deutsche, meine 
+englische, oder meine Hreflang selbst, die  
+[116:17] Sprachen selbst, hier findest du meine englische, 
+hier meine deutsche, und das bin ich, fehlt da  
+[116:22] gerade noch drin. Ob es jetzt monsterkritisch ist, 
+weiß ich nicht, warum es nicht bei allen kommt,  
+[116:28] weiß ich auch nicht, ich würde globale Probleme 
+immer zuerst angehen, globale Probleme sind das,  
+[116:36] was du infrastrukturtechnisch liefern 
+und leisten kannst, und dann runtergehen,  
+[116:46] die mittleren Probleme angehen, wenn 
+hier etwas ist, du bekommst ja den Scan.
+[116:53] So, was haben wir noch? Oh, bei dir ist was 
+laut im Hintergrund, hast du noch eine Frage,  
+[117:10] Roland, oder bist du gar nicht mehr da? Okay. 
+Ja, war gerade ein Verbindungsproblem. Die,  
+[117:28] was ich vorhin eigentlich machen wollte, aber 
+schnell genug bist du oder? Okay, Roland,  
+[117:45] bist du noch da? Ja. Okay, ich bin jetzt mal kurz 
+von der technischen Sache weggegangen in Richtung  
+[117:55] Benutzer, Nutzererfahrung, und da gibt es ja den 
+PageSpeed-Insights-Test, den auch alle kennen. Die  
+[118:02] Seite ist ja zu schnell für den User, die sagen, 
+ich soll einen Loading Spinner einbauen, damit die  
+[118:07] Seite lädt, weil sie den Wechsel auf dem Handy 
+sonst nicht merken, ich werde da Fade-Effekte,  
+[118:14] eine Überblendung reinmachen, aber die Seite ist 
+schon schnell, er hatte aber auf dem Mobiltelefon  
+[118:26] kurz ein Problem, und auf dem Computer geht es 
+besser, das war, glaube ich, mein Server mal,  
+[118:35] der Computer-Wert war schon immer nicht so 
+schön. Also, ich bin jetzt noch mal kurz in  
+[118:40] der Google Search Console beim Thema globaler 
+PageSpeed. Es gibt den PageSpeed-Insights-Test,  
+[118:49] den man unter PageSpeed Insights kostenlos, ich 
+verstehe gar nicht, warum ich das sage, kostenlos  
+[118:55] machen kann. Das ist ja der Redirect wieder, 
+dann... Das ist aber nur ein Laborwert. Okay,  
+[119:03] aber das ist jetzt die Seite, die eigentlich 
+redirected, eigentlich müsstest du ja noch auf  
+[119:08] slash de gehen, nee, ich nehme jetzt seine, 
+bei den Redirects, das Thema haben wir jetzt  
+[119:14] erst mal ab, ach so, warte, stimmt, hier, ja, da 
+auch wieder redirected, aber er macht das schon,  
+[119:21] ah, okay, Ergebnisse für slash de, okay, er 
+redirected den Kram, okay, Laborwerte, aber besser  
+[119:33] als gar kein Wert. PageSpeed Insights ist der 
+PageSpeed-Test deiner Seite, bringt dir hier auch  
+[119:41] ein paar interessante Informationen, für Mobile 
+oder Computer. Okay, das ist auch interessant,  
+[119:48] dass dein Computer-Wert eigentlich gut ist, aber 
+hier in den Core Web Vitals, dem wichtigeren Wert,  
+[120:00] die Core Web Vitals in der Google Search Console 
+sind echte Nutzerwerte, weil die kommen aus  
+[120:10] dem UX-Bericht von Chrome, diese Daten stammen 
+aus dem Bericht zur Nutzererfahrung in Chrome,  
+[120:17] sie spiegeln die tatsächlichen Nutzerdaten deiner 
+Webseite von Nutzern auf der ganzen Welt wider.  
+[120:22] Das sind also reale Werte, wie lange das bei den 
+Leuten da draußen dauert, und da, grün ist grün,  
+[120:30] kurzer Abschwung zu irgendwas, warum, weiß ich 
+jetzt nicht, müsste man auch wieder auf die Liste  
+[120:35] legen, will ich es erforschen oder warte ich, bis 
+es sich von allein heilt. Das hier unten würde ich  
+[120:41] heilen wollen, das sind deine Computerwerte 
+in real, du kannst hier reingehen und sagen,  
+[120:51] was ist das Problem, warum bist du nicht grün, 
+es gibt grüne, aber nur siebenundvierzig Prozent,  
+[120:59] welche sind hier optimierungswürdig, und dann sagt 
+er, es gibt einen CLS-Fehler auf dem Computer, den  
+[121:12] könnte man wahrscheinlich auch mit einem Schlag 
+global erledigen, was sagst du. Das heißt also,  
+[121:21] überall passiert auf der Ausspielung 
+vom Computer irgend so ein Fehlerchen,  
+[121:32] interessanterweise liefert das externe 
+Modul hier diesen Bericht gar nicht,  
+[121:59] das ist natürlich ein toller Vorführeffekt, da 
+müssen wir was Besseres finden. Er findet das auf  
+[122:13] den Seiten, musst du die Gruppen mal durchgehen, 
+aber ich denke, es ist ein globales Problem,  
+[122:23] Optimierung erforderlich und so weiter. Du bist 
+auch ein bisschen barrierefrei unterwegs, besser,  
+[122:36] aber schon recht barrierearm, wie wir alle wissen, 
+kann man es nie allen recht machen, man versucht,  
+[122:48] das Beste zu geben. Wäre es schöner gewesen, 
+wenn PageSpeed mir das hier ausgeliefert hätte,  
+[122:57] dann könnte ich reingucken, was hast du für ein 
+Problem, und er sagt hier unten, wie schön ist  
+[123:09] das, Anfragen zum Blockieren des Renderings, das 
+kann ich sogar noch ausklappen, und da sagt er,  
+[123:17] Anfragen zum Blockieren des Renderings der 
+Seite, was den LCP verzögern kann. Okay,  
+[123:23] das ist jetzt der LCP, und dann sagt er, guck mal, 
+hier werden Skripte geladen, ein Klaro-Mem-CSS,  
+[123:37] das ist mein Cookie-Consent-Banner, vielleicht 
+muss der mal eine Pflege bekommen, Klaro-Custom  
+[123:50] hat irgendeine Verzögerung, und dann noch 
+eine Website, Tralala Bild-Website-CSS,  
+[124:00] da können wir auf jeden Fall noch was machen. 
+Das werde ich auch fleißig auf YouTube machen  
+[124:07] und als Tutorials veröffentlichen. Und 
+da natürlich immer auf Jörg hinweisen,  
+[124:15] auf Jörg hinweisen, und immer bekommt er in der 
+Description einen Backlink. Jörg Zimmer, hallo,  
+[124:21] ich bin Suchmaschinenoptimierer aus Leidenschaft, 
+ich mache das schon eine ganze Weile, bin jetzt  
+[124:28] voll dabei, auch in Richtung KI-SEO-Optimierung 
+zu gehen, das nennt man manchmal AI Search,  
+[124:37] manchmal GEO. Da drücke ich dann mein 
+handwerkliches Wissen aus dem SEO obendrauf,  
+[124:47] liebend gern für agentisches SEO oder auch für GEO 
+könnt ihr dann auch kommen, aber bitte erst mal  
+[124:58] vorher das SEO alleine durchspielen, weil das GEO 
+machen wir dann hinten drauf als extra Baustein.
+[125:07] Ja, du Roland, ich weiß nicht, wir sind glaube ich 
+schon über die Zeit. Ja, wir sind durch, ich habe  
+[125:12] auf jeden Fall eine Liste voll, ich habe Dinge, 
+die ich tun kann, ich kann das Teilen auch mal  
+[125:17] beenden. Ja, teile mal. Und vielen Dank erst mal 
+für dieses hervorragende Feedback, den Einblick in  
+[125:28] die Tools, wie ein Profi arbeitet, das ist immer 
+schön, da sind viele Dinge, die ich mitnehmen kann  
+[125:35] und über die ich mich freue und die ich angehen 
+werde. Und wie gesagt, ich werde das machen,  
+[125:44] ich werde das hier auf YouTube veröffentlichen, 
+ich werde da heute auch direkt einen nach vorne  
+[125:52] priorisieren, und freue mich darüber und 
+finde deine SEO-Sprechstunde wirklich toll,  
+[126:01] das ist etwas, das jeder buchen und mit dir 
+machen sollte. Ich bin schon gut gebucht,  
+[126:08] das ist fein, ich habe eine eigene, ihr 
+könnt mich gern suchen, Jörg Zimmer SEO,  
+[126:15] ich habe eine eigene Vorzeigedomain aufgebaut, 
+da spiele ich ähnlich wie du, was ich lerne,  
+[126:24] packe ich hinten ins Glossar. Hochinteressant. 
+Gab es denn, wir sind live gewesen,  
+[126:32] vierundsechzig Zuschauer insgesamt, gab es 
+jetzt keine weiteren Nachfragen? Ich glaube,  
+[126:38] bei dir ist einfach auch sehr viel neues Wissen, 
+und die Leute sind glücklich mit uns in der  
+[126:47] Kommunikation. Roland, vielen Dank, dass ich die 
+Chance hatte, hier zu deiner Audience zu sprechen,  
+[126:57] dass ich überhaupt mal die Chance hatte, meine 
+Sprechstunde ein bisschen live zu präsentieren.  
+[127:05] Das kommt immer auf den Einzelfall an, das hatte 
+ich ja im Vorfeld gesagt, jeder kommt mit einem  
+[127:12] unterschiedlichen Setup, nicht jeder kommt mit 
+einer tausend Unterseiten großen Domain daher,  
+[127:19] nicht jeder kommt mit technischem Verständnis 
+daher, manche wollen einfach nur Leads haben  
+[127:23] und haben fünf bis zehn Unterseiten, und 
+dann muss man trotzdem erst mal gucken,  
+[127:29] bist du indexiert, hast du eine Unterseite für 
+dein Hauptkeyword oder deine Hauptkeywörter,  
+[127:37] was sind deine Hauptkeywörter. Bei dir würde ich, 
+wir hatten es vorhin schon kurz, wir haben es beim  
+[127:46] PHP leider durchgespielt, weil das Gespräch uns so 
+geführt hat. Ich glaube, für Vibe-Coding bringen  
+[127:53] wir dich auch dahin, aber das Spiel ist das 
+gleiche, du müsstest dann für Vibe-Coding-Kurse,  
+[128:05] Vibe-Coding-Training, dafür bin ich zumindest 
+schon auf der Bahn. Ich hoffe, dass dann mit  
+[128:17] besserem SEO diese ganzen Vibe-Coding-Seiten, 
+dass einfach mehr Seiten indexiert werden.
+[128:29] Bau doch mal, wir könnten noch kurz, ich würde das 
+jetzt bonusmäßig hinten dranhängen, ich sagte ja,  
+[128:36] zum Schluss gibt es immer noch eine 
+Strategieberatung, ich würde an deiner Stelle,  
+[128:44] wir kennen uns ja auch, ich würde echt überlegen, 
+ob du nicht Produkt-Unterseiten, sondern richtige  
+[128:55] Lead-Landingpages baust, wo du wirklich sagst, 
+du hast da schon ein bisschen angefangen, aber  
+[129:04] so eine richtige Landingpage sieht für mich ein 
+bisschen anders aus. Vielleicht gehst du da mit,  
+[129:13] ich bringe dir mal die Idee in den Raum: Wäre es 
+nicht schön für dich und die Kunden, wenn du eine  
+[129:22] Unterseite oder vielleicht mehrere hättest, 
+die wirklich in Richtung Vibe-Coding-Kurs,  
+[129:30] Vibe-Coding-Seminar, Vibe-Coding-Training oder 
+Workshop gehen. Nehmen wir das mal als großen  
+[129:40] Block, eine schöne Seite, die aufgebaut ist 
+wie eine Landingpage. Es spricht viel für das  
+[129:49] AIDA-Prinzip, Attention, Information, Desire, 
+Action. Oben ballerst du die Überschrift raus,  
+[130:01] dass die Leute sich hier wiederfinden, 
+Vibe-Coding-Workshop und so weiter, du bringst  
+[130:06] ein bisschen Information im ersten Abschnitt mit, 
+wir bringen Seminare, Trainings und so weiter,  
+[130:13] weil dann vielleicht dieses Desire entsteht, du 
+hast auch festgestellt, dass du in deinem Code  
+[130:22] gern mal ein zweites Auge brauchst, oder kommst 
+an einer Stelle nicht weiter, oder möchtest  
+[130:32] ein Produkt fertigstellen, möchtest aber zur 
+Sicherheit, weil es ein wichtiger Kunde ist, noch  
+[130:38] mal ein Auge draufhaben, diesen Wunsch dann unten 
+formulieren, wo du sagst, das kenne ich genau,  
+[130:48] das weiß ich, und dann unten die Action. So eine 
+Landingpage würde meiner Meinung nach auch direkt  
+[130:55] unten mit einem Formular enden, an deiner Stelle 
+würde ich sagen, wenn du dann Bock drauf hast,  
+[131:02] hast du hier den seichten Weg. Du folgst uns auf 
+Social, du bringst viele Videos raus auf allen  
+[131:11] Kanälen, dann wäre die leichte Soft-Conversion 
+irgendetwas wie Folgen oder Newsletter abonnieren,  
+[131:21] er connectet sich erst mal mit dir, und die harte 
+Conversion wäre, er füllt das Formular aus, oder  
+[131:33] sieht sogar unten eine Liste mit, du machst ein 
+monatliches Training, der nächste Workshop ist am,  
+[131:40] online, offline, irgendwie so, dass er dann auch 
+direkt unten auf der Landingpage auschecken kann.  
+[131:51] Wir können jetzt, ich will kein weiteres Fass 
+aufmachen, aber im Grunde genommen habe ich die  
+[131:56] Vibe-Coding-Training-Seite schon so aufgebaut, und 
+da lass uns das auf jeden Fall noch mal angucken.  
+[132:11] Also, das wäre so, da macht man auch Leute 
+glücklich, das Content-Universum ist schön,  
+[132:17] das muss natürlich auch immer unten eine CTA haben 
+auf diese Landingpages, wo du dein Geld machst,  
+[132:25] Webinar, Seminar, was auch immer, das muss 
+irgendwie einzahlen, dass du nicht nur den  
+[132:31] Info-Content spielst, sondern die Leute auch den 
+zweiten wichtigen Klick in deiner Domain machen,  
+[132:37] auf dein Angebot, dann macht es Sinn. Den hast du, 
+soweit ich gesehen habe, stimmt, du hast da aber  
+[132:43] das Formular. Ich würde dir zu diesen Landingpages 
+raten, dass du mal alles, was du anbietest,  
+[132:56] auf der Unterseite darstellst, zu den Kursen in 
+die Richtung gehst, und die sollten dann, wenn sie  
+[133:10] gut verlinkt sind und mit guten Suchwörtern an den 
+richtigen Stellen versehen, auch rechnen. Alles  
+[133:16] klar, lasst uns das in Zukunft wieder anschauen, 
+ich würde sagen, wir verabschieden uns erst mal  
+[133:22] von den Leuten, und bei Fragen nehmt mit Jörg 
+Kontakt auf, der ist über LinkedIn zu finden  
+[133:30] und auf allen anderen Kanälen auch, das ist hier 
+unten alles verlinkt. Und damit würde ich sagen,  
+[133:36] sind hier noch mal zwei Videos, und wir sind erst 
+mal raus. Bis dann, tschüss, tschüss, dankeschön.

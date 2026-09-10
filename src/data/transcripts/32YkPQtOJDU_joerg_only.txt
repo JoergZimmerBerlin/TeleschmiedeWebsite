@@ -1,0 +1,303 @@
+# Jörg Zimmer O-Töne aus: Magic Writing Podcast: Ist SEO tot? (Host: Michael Kaufhold)
+# Video URL: https://www.youtube.com/watch?v=32YkPQtOJDU
+
+[00:01] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1s)
+So und damit hallo und herzlich willkommen zu einer neuen Episode von Magic Writing, der Podcast, der sich darum kümmert, dass du immer die richtigen Worte für dein Unternehmen in jedem Einsatzbereich findest und damit du auch in Zukunft überall gefunden wirst und vor allen Dingen an der richtigen Stelle von den richtigen Leuten gefunden wirst, habe ich heute einen ganz besonderen Podcastgast bei
+
+[00:23] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=23s)
+mir zu mir eingeladen. Er ist Suchmaschinen Marketingspezialist. Ich glaube, das ist das längste Wort für eine Jobbezeichnung, die wir bisher hier im äh Podcast haben. Er macht bereits äh seit über 25 Jahren SEO quasi so lange wie es das Internet gibt, praktisch fast länger als Google. Äh er ist ja Experte für Suchmaschinenoptimierung, Suchmaschinenmarketing. Heute hier Jürg Zimmer. Herzlich willkommen. Vielen Dank
+
+[00:51] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=51s)
+Michael. Ja, schön. Danke für die Einleitung und danke für die schöne Vorstellung. Sehr, sehr gerne. J gleich vorab, ich habe dich ja kurz schon vorgestellt, aber trotzdem auch an dich quasi die Frage, die ähm ja eigentlich jeden Podcast Gast irgendwie in der einen oder anderen Form heimsucht. Was müssen meine Zuhörer über Jürg wissen, damit Jürg das Gefühl hat,
+
+[01:17] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=77s)
+sie wissen alles, was wichtig ist? Oder ganz kurz, wer ist Jürg? Okay. Ja, ich bin bin Jürg Zimmer. Ich mache halt wirklich Suchmaschinenmarketing äh schon seit 20 25 Jahren. B bin selbst mit eigenen Projekten in das in das äh Geschäft reingestattet. Ja, das war so 1999, wo die erste Domänen mit dem Kumpel zusammen ging und mich hat das halt
+
+[01:43] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=103s)
+fasziniert. Ja, also wie die wie die Besucherzähler da wachsen können. Hab hab dann hab dann 10 Jahre lang halt eigene Projekte gemacht. G ganz viel SEO äh ganz viel auch auch schlechtes SEO.
+
+[01:57] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=117s)
+Damals war das ja noch möglich. Ähm hab dann auch dazu später Google Ads gebucht, habe mich dann in Google Ads verliebt. Ist auch heute noch ein schönes schönes Tool. Die Skalierung geht halt ein Ticken schneller damit, das deswegen ich mache halt SEO und Google Ads und dann war ich ein paar Jahre als Google Ads Spezialist unterwegs und jetzt gerade eben als
+
+[02:22] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=142s)
+kombinierter Mix. Ja, das best die besten Ergebnisse hast du immer, wenn du beides kombinierst oder wenn du alle alle Kanäle kombinierst und ich mag SEO und Google Ads im Zusammenspiel, weil die sich gut ergänzen und da habe ich meine meine Leidenschaft dran. Ja, fre.
+
+[02:38] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=158s)
+Ja, das und das als Beratung. Sehr cool. Ja, das ist ja, sage ich mal, wie in in allen Bereichen. Ich komme ja aus Marketing und auch da hast du ja das Thema organisch, also Content Marketing letztendlich, egal, ob es jetzt auf äh Plattformen wie LinkedIn Meta ist, auf ähm Instagram am Ende auch oder YouTube und du hast ja immer noch das Thema Ads
+
+[03:01] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=181s)
+dazu und die beste Wirkung hast du am Ende in der Kombination. Also, wenn du dir eine organische Community aufbaust, wenn du organisch am Ende Traffic oder Reichweite auf deine auf deine Beiträge, auf deine Inhalte kriegst und dann hast du halt mit Werbung einfach noch mal den Booster. Das ist ja letztendlich bei SEO am Ende auch nichts anderes. Ähm und das
+
+[03:20] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=200s)
+bringt mich eigentlich gleich in die erste Frage oder in das erste das erste Thema, die wir uns heute widmen wollen. Wie relevant ist das Thema SEO heute noch? Weil also ich sag mal, ich mache das Ganze jetzt noch bei weitem nicht so lange wie du. vor 5 bzw. 6 Jahren so mit Marketing, Copywriting und so mit dem
+
+[03:38] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=218s)
+Themen gestartet und mal ehrlich, schon damals hieß es eigentlich SEO ist tot, das braucht kein Mensch mehr. Ich meine das gleiche, die gleichen Leute, die behaupten, E-Mail Marketing ist tot und auch das ist nach wie vor relevant.
+
+[03:52] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=232s)
+Ähm, ich denke auch SEO wird äh auch in 10 Jahren noch relevant sein, aber ähm mich interessiert einfach deine Meinung dazu. Spielt SEO immer noch die große Rolle oder ändert sich das auch, also auch die Art und Weise, wie SEO funktioniert, wenn ich jetzt an die ersten Webseiten denke, das war ja dann teilweise wirklich ein Graus. Ja, also
+
+[04:11] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=251s)
+SEO ist, glaube ich, noch noch lange nicht tot und Leute, die das behaupten, haben meiner Meinung nach sehr wenig Background. Ähm und die Google ist auch nicht tot, äh nur weil da jetzt irgendwelche Chat BT oder Englis kommt.
+
+[04:29] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=269s)
+Das dauert noch ein bisschen. Wenn man es richtig formulieren wollte, dann könnte man vielleicht ja sagen, Seo stirbt, aber dann stirbt es auch schon die letzten 10 Jahre. Und ich sehe eigentlich genau das andere logisch aus aus meiner Sicht äh ist das nicht so der die ähm die äh Wichtigkeit äh sichtbar zu sein ist ja in den letzten Jahren auch
+
+[04:56] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=296s)
+enorm gestiegen. Ähm es sind ein Haufen neue Player in jedem Bereich, in jeder Branche dazu gekommen. Ich habe überall Konkurrenz. Es gibt kein Friedreffik mehr. Ähm, wo ich jetzt sage, den nehme ich mal schnell mit, da ist ja noch kein anderer unterwegs, das hast du nicht. Und auf den geldwerten Keywörtern, also da, wo Treffik richtig in Umsatz umgewandelt
+
+[05:22] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=322s)
+wird, da hast du richtig richtig harte Konkurrenz, da musst du ähm schon deine Hausaufgaben machen und ähm ja, Zero an sich ähm ist komplexer geworden, das gebe ich zu. Und wenn ich jetzt betrachte zu den Anfangsjahren des Internets, ja, wo du noch mit äh bösen Methoden unterwegs sein konntest, ähm und im Spammy Bereich unterwegs war ich auch, ja, gebe ich es
+
+[05:56] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=356s)
+doch zu. Okay, war waren waren viele von uns damals. Ja, mein Gott. So, und das hab hat sich aber extrem gewandelt. Google ist extrem schlau geworden im Laufe der Jahre.
+
+[06:09] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=369s)
+Ähm und wir Seros haben uns auch weiterentwickelt. Ähm und so die letzten 10 Jahre, wenn ich so betracht, dann musstest du halt wirklich Qualität liefern. Du musstest dich an die Guidelines halten. Du musstest deinen Nutzer glücklich machen. Du du musst die äh du du musst den Krauler glücklich machen. Aber das ist gar nicht der der Hauptkunde. Der Hauptkunde ist ja deine
+
+[06:32] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=392s)
+deine Zielgruppe. Du musst die glücklich machen und wer das am meisten schafft und das muss man strategisch ein bisschen angehen und ja, da muss man halt Inhalte vorhalten, Texte schreiben, so wie das von deiner Seite her kommt.
+
+[06:46] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=406s)
+Die müssen gut sein, die müssen schmecken, die müssen wertvoll sein und da muss muss man schon muss man schon ein bisschen Qualitätsliefern und Spam geht halt gar nicht mehr heute total raus.
+
+[07:00] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=420s)
+ähm und ist komplexer geworden und ja, ich denke ähm es brauchen es brauch brauchen im Grunde wenn wenn du ab da ab dem Zeitpunkt, wo du eine Webseite ins Netz stellst, hat die ja irgendeine Art Funktion und die Funktion kann als Visitenkarte dienen, wenn du jetzt sagst, okay, ich brauch das nur, damit Leute meine Kontaktdaten holen. Mein ganzer
+
+[07:28] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=448s)
+Freundeskreis empfiehlt diese Domain und das ist mein Ding. So, aber viele haben ja auch einen Onlineshop, viele sind Mittelständler und haben da eine Webseite manchmal in mehreren Sprachen und alles mögliche, alles was ich davorhalte und das gehört auch zu mir.
+
+[07:45] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=465s)
+Es ist einfach nur reinstellen den Inhalt reicht halt nicht. Ja, definitiv. Und da sprichst du auch schon was was ganz ganz wichtiges an. Und mir ist gerade noch eine zweite Frage gekommen, die stelle ich aber hinten ran, weil ähm das Thema, wie du es gerade sagst, am Ende ist nicht der Crowler dein Kunde, sondern dein Kunde ist dein Kunde. Und
+
+[08:05] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=485s)
+ähm hier ist ja das Problem, also ich habe zumindest zwischenzeitlich das Gefühl gehabt, dass SEO und auf Social Media hast du es ja am Ende nichts anderes, wenn die Leute über den Algorithmus schimpfen und so weiter, dass der die Inhalte nicht mehr für den eigentlichen Nutzer gemacht werden, sondern für den Algorithmus, der das irgendwo befeuert. Und das auch ähm das
+
+[08:27] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=507s)
+ist ja auch immer so ein Argument, was mir zumindest immer mal wieder begegnet beim Thema SEO. Ähm es braucht kein Mensch mehr. Äh, es liest sowieso keiner und du machst SEO eigentlich nur für äh den Google Algorithmus äh und für die ich sag so, ist sicherlich ein Teil, aber ist an an einer Stelle wahrscheinlich zu kurz gedacht äh oder
+
+[08:48] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=528s)
+höchstwahrscheinlich zu kurz gedacht. Und der Punkt, worauf ich hinaus will, ist ja, dass das jetzt mit den, du hast es eben angerissen mit dem Thema KI suchen, also Chat GPT, Deep Search mit äh Perplexity, was weiß ich, mit was du noch alles suchen kannst, ähm wird das Ganze ja noch mal spannender, weil äh also ich glaube nicht, dass Google
+
+[09:12] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=552s)
+sich da so schnell den Rang ablaufen äh lassen wird. Mich wundert sowieso, dass die so lange gewartet haben. Meine haben ja jetzt nur mit Gemini ihre ihre KI ausgerollt. Aber wie ist so deine Einschätzung in dem Thema KI Suche? Äh glaub dafür gibt es auch ein Begriff.
+
+[09:28] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=568s)
+Bin der Meinung Geo mal gelesen zu haben, statt SEO. Wie geht da der Trend hin? Wie wird sich das aus deiner Sicht verändern? Oder googeln die Leute trotzdem weiterhin ganz normal? Ich glaube, die machen sowohl als auch und ähm ist natürlich ein ein neuer neuer Baustein im Markt, das muss man auch mal auch sagen. Ja, also die
+
+[09:54] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=594s)
+ähm KI suchen oder LMS suchen, ja, Chat GPT und Gemini und die sind ähm die sind da und die sind auch auch ähm ich sag jetzt mal wertvoll, verändern jetzt aber nicht von heute auf morgen das Business komplett. So, das wird mich nach meiner Einschätzung fragst, jetzt hole ich mal die Glaskugel raus. Das müssen wir noch dazu sagen,
+
+[10:20] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=620s)
+dass wir ähm dass wir im Mai 2025 sind. Also das vielleicht, wenn sich das Interview hier jemand in 2 d Jahren anhört, kann das komplett anders aussehen. Aber nach meiner jetzigen Einschätzung ist es so, ähm dass die die verändern den Markt. Ich sehe es als äh zusätzlichen Kanal, der jetzt da ist.
+
+[10:48] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=648s)
+Ja, also wir haben halt unsere Kanäle von Coso Ads und Social und weiß ich und da kommt kommt eigentlich noch ein neuer Kanal dazu und der speist sich halt aus großen äh äh Modellen und in den Modellen jetzt zu erscheinen ähm muss man ja auch irgendwie sichtbar sein.
+
+[11:12] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=672s)
+Und äh weil wir gerade noch äh in der Diskussion sind, dass viele denken, Seo sei tot. Ja, aber woher nehmen die denn die ihre Information? Das ist es ist im Moment noch to erforschen. Das muss ich auch sagen, muss ich auch mal an dem Markt ein bisschen bisschen bisschen rausgehen und sagen, nee, Leute, das wir wissen es noch nicht. Ja, wer wer wer
+
+[11:33] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=693s)
+jetzt dir heute behauptet, er macht eine eine AIO Optimization, ja, der kann das meiner Meinung nach noch gar nicht wissen, weil um das wirklich zu optimieren, müsste man erstmal messen.
+
+[11:49] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=709s)
+Man müsste erstmal messen, wie oft werde ich angezeigt, wie oft kommt meine Marke in meinem Kontext vor, wie oft ähm äh erscheine ich, wie oft kommt mein Link, das kann man schon messen. Jet GPT hat jetzt ein Tracking Parameter an an die Links hätten dran geefügt. Das könnte ich also messen. Das wird aber wahrscheinlich dann gar nicht mehr in
+
+[12:14] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=734s)
+die Richtung. Ich optimiere auf den Treffic gehen. Ja, es wird wahrscheinlich in die Richtung auf ich optimiere auf die Sichtbarkeit meiner Person, meiner Marke, meiner Produkte.
+
+[12:29] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=749s)
+Und da reicht dann ja wahrscheinlich, wenn ich im LM äh äh erscheine, wenn da mein Name ist und dann wenn ich dann jetzt sage, okay, jetzt habe ich das meine Lösung dort äh erschätet und dann suche ich am Ende bloß noch den Brand.
+
+[12:48] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=768s)
+So, das kann also kann passieren, dass dass dann äh wenn ich wenn ich dort wirklich schon drin bin, dass meine Brand suche hochgehe. Man müsste eben jetzt genau erforschen oder das werden wir also wenn die Seos sind meiner Meinung nach der ersten einer Pool Position das zu erforschen, aber bitte bitte Leute redet doch das ist See nicht tot. Also ich gehe schwer
+
+[13:07] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=787s)
+ich gehe schwer davon aus, dass äh so so der Abgleich, was ich jetzt gelesen habe aus den Studien und aus den Experimenten ja jetzt nicht wo Leute mal philosophieren, ja viele gerade machen, die philosophieren sich ein Lakin ist jetzt alles tot und so. Nee, obwohl Leute mal getestet haben, wie kann denn Chat GPT deine Seite durchleuchten oder
+
+[13:29] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=809s)
+wie aktiv spülst du dich und deinen Kontext in die Suchen? Das muss man doch erstmal messen, bevor ich sage, wenn ich nicht weiß, wie die Ausgangslage ist, kann ich auch nicht sinnvoll optimieren. Ich muss ja erstmal wissen, wie der jetzige Stand ist. Wie werde ich denn jetzt ausgerollt? Und wenn wir da mal warum Jer schon zwei Jahre auf dem Marktm aber
+
+[13:58] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=838s)
+die bei Google z.B. Google hat ja jetzt letzte Woche letzte Woche, ja, wir sind Mai 2025, letzte Woche hat Google freigegeben den äh den Mode hier, diesen nicht nicht den nicht den EI Mode. Ich meine die, dass die äh Antworten mit KI heißt es in Deutschland, in Englisch heißt es AI Overview, dass das auch für nicht eingeloggte Google Nutzer erscheint.
+
+[14:31] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=871s)
+Also das, wenn ich jetzt nach einer Infosuche suche, äh wo dann oben drüber halt in der Google Suche steht, okay, wo da kommt jetzt ein Modul, was kein Linkergebnis ist, sondern eine Antwort aus der aus der KI. Und das ist erst seit letzte Woche offiziell für alle nicht eingelogten nicht eingelockten Nutzer freigegeben worden und erst ab dem Zeitpunkt können Tools wie Sistx
+
+[15:01] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=901s)
+oder wie SE Ranking oder wie die großen SEO Tools Araf und was nicht alles kommt oder können erst eigentlich erst offiziell seit letzter Woche messen, wie oft ich denn dort oben erscheinen. So.
+
+[15:18] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=918s)
+Und das heißt also ähm da muss man ein bisschen erstmal ein Ballfach halten und auf die Jungs warten, die jetzt vorstürmen und Experimente machen und gucken, was kann ich denn für Stellschrauben liefern, damit ich in die großen Modelle reinkomme. Es muss ja auch irgendwie Faktenbasiert sein und erst wenn ich messen kann, kann ich auch eine Veränderung herbeiführen. also
+
+[15:48] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=948s)
+optimieren und dann die Veränderung messen und dann sagen: "Hey, ich habe es geschafft. Mit der Veränderung bin ich jetzt drei Positionen in in der im Chat GPT oder im im Google AI Overview nach oben gerutscht oder ich wurde letzte Woche noch nur zehn mal referenziert, seitdem ich die Änderung auf meiner Webseite oder in meinem Profil im Netz,
+
+[16:16] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=976s)
+wo auch immer gemacht habe. Seitdem kriege ich 20. Diese Steigerung, die muss man ja erstmal visualisieren, dokumentieren und da da sind wir in dem Moment, da sind wir meiner Meinung nach.
+
+[16:30] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=990s)
+Also meinst du, ist der Optimismus, der quasi damit einhergeht, eigentlich noch zu früh? Ich sag mal, es erinnert so ein bisschen an die ersten Tage von Jet GPT bzw. als Open AI vor zwei Jahren das Modell ausgerollt hat für die breite Masse, da waren ja auch ganz ganz viele Nutzer sofort äh äh sage ich mal fast schon übereuphorisch zu sagen, KI wird
+
+[16:51] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1011s)
+äh alle digitalen Job ersetzen und ja, am Ende sind die immer alle noch immer noch alle da. Also, keine Frage, das ist eine super geile Technologie und ich nutze es auch sehr gern und die die Kinderkrankheiten werden immer weniger und das wird wahrscheinlich exponentiell wachsen. Also Shoutout geil. Ja, das ist schön, das ist wirklich gut.
+
+[17:15] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1035s)
+Aber wenn die Marktanteile, man muss ja realistisch sein, die Marktanteile von Chat GPT zu Google sind halt ein bisschen wie wie hoch wie hoch ist denn das? Also, na, ich ich war der Meinung, dass die die letzten die letzten Vergleiche waren so ungefähr in Richtung ein zu äh 360 oder so od oder anders ausgedrückt. Nehmer Marktanteile von Google hat ja doch überall in vielen
+
+[17:47] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1067s)
+vielen Ländern doch sehr hohe Marktanteile so so bei 90% oder sowas außer vielleicht China aber ansonsten ja China nicht Russland nicht so die dieses amerikanischuropäische schon sagen ein großen Marktanteil ja der Hauptplayer Ja, dann ist dann kommt dann Chat daher ja und die haben halt mit 0 mal irgendwas Marktanteil angefangen, wenn wir gut sind. Ich bin jetzt jetzt
+
+[18:19] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1099s)
+nicht tages aktuell auf dem Schirm, aber dann sind wir lass lass uns bei 1% sein oder lass von mir aus auch 2 % sein. Äh kein kein kein Problem. Ähm aber das ist verschwindend gering im Moment noch. Das wächst exponential, richtig? Aber das ist verschwindet gering. Und ich sag mal ähm es gibt es gibt einen Player im
+
+[18:41] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1121s)
+Markt, der der 5% hat und das ist Bing. So. Und jetzt jetzt die Frage, nutzt du Bing? Bing. Okay, also ganz gelegentlich mal, wenn ich mit meinem iPhone suche, weil die iPhone Suche glaube ich von vorne rein auf Bingen basiert.
+
+[18:56] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1136s)
+Äh, aber meistens stelle ich das dann auf Google. Also, hätte ich mir auch gewünscht, dass Bing mal aus dem Pushen kommt, ne? Aber die haben es ja die letzten 10 Jahre auch nicht geschafft, ne? Die waren ja eigentlich als Chat GPT rauskam. Was haben die Leute gemacht?
+
+[19:10] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1150s)
+Die haben nach die haben nach die haben nach Chat GPT gegoogelt, aber weil dann irgendwann die Connection kam mit äh ach, das gehört ja zum Microsoft Universum und ähm das das ist jetzt in die Binguche mit integriert und ich könnte jetzt über die Binguche mit Chat GPT chatten und so.
+
+[19:31] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1171s)
+Was haben die die Leute haben nach Bing gegoogelt? Ich habe das das gesehen. Ging, du kannst ja in Google Trends kannst du gucken, kannst du aber machen.
+
+[19:39] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1179s)
+Gehst Google Trends, gibst B ein und da war wirklich dann ging ging die Suche nach Bing richtig steil hoch. So, wie viel Marktile hat Bing seitdem gewonnen von vor zwei Jahren? Weiß nicht, vielleicht ein Prozent, wenn überhaupt.
+
+[19:56] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1196s)
+Vielleicht vielleicht auch gar nichts oder vielleicht ein Prozent. So. Ähm, aber ist Google seitdem tot? Nein, also das dauert noch ein bisschen, wenn überhaupt. Ja, das sind auch viele Hasser dabei und was ich und das sollen sie auch alles alle machen. Bin ich recht entspannt. Äh, ich bin mit Google groß geworden. Äh, wir hatten ich habe Hassliebe. Na, wir hassen uns manchmal
+
+[20:18] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1218s)
+und wir lieben uns manchmal. Also zumindest ich und mein Business und das, was ich so mit den Webseiten so tue, weil es nicht immer einfach ist und die Jungs von Google da, die die investieren auch extrem und die haben sich haben bislang alle diese ganzen SEO Krücken Tücken, die wir den da in die Beine geschmissen haben, die haben die einen
+
+[20:37] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1237s)
+anderthalb Jahren spätestens haben die das alles immer geschlossen. Die sind fit, die beschäftigen wie viel der besten Programmierer der Welt eine ganze Worte von da. Glaubst aber nicht, dass die dass die jetzt wenn die jetzt stehen bleiben. Ich nicht denke, wenn die jetzt stehen bleiben würden und Chat GPT würde halt seine Milliarden, die sie jetzt irgendwie Hund würden das investieren.
+
+[20:58] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1258s)
+Es würde trotzdem Ewigkeiten dauern die Technologie hinzustellen. Das unter das überschätzen viele noch das Ach, ich dachte, ich dachte der Chat BeT, der krault dann mal schnell das ganze Netz durch. Meine Güte, das ganze Netz durchkraulen. Weißt du, was das für Rechenkapazität bedeutet? Und dieses Rendering, was wir was wir schon mal beide gesprochen hatten, dieses Rendering, das kriegen die es kriegen
+
+[21:23] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1283s)
+die meisten von den jungen KI Kraulern noch gar nicht hin. Die können die können meistens gar kein Jahr. Äh, die haben die Kapazitäten nicht. die du kannst du froh sein, wenn du wenn deine Startseite von denen gefunden wird und äh wenn du dahinter hinter der Startseite noch noch 200 Seiten hast oder 2000 oder 20.000, wenn du ein Shop
+
+[21:44] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1304s)
+bist, glaubst du aber nicht, dass dass das so ein junger Krauler gleich dein letzten Artikel mit 20.000 Nein, das findet er nicht. Der hat da gar nicht die Kapazität für. Der Setzt Netz ist riesig. Ja, die Leute laden ins Netz so viel Zeug.
+
+[22:00] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1320s)
+Also ja, die sind am wachsen. Nein, die haben die Kapazitäten meiner Meinung nach noch nicht, die Google hat. Das ist nur das technologische Ding. Dann kommt auch noch ein bisschen dieses Gewohnheitsding dazu. Ich kenne laufen Leute, die äh Schwierigkeiten hätten, sich über eine andere Suchmaschine zu benutzen. Mhm.
+
+[22:23] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1343s)
+Ich habe auch probiert andere Suchmaschinen zu nehmen. Wie gesagt, was liebe. Ja, aber wie gesagt, ein Es geht ja schon mit anderen Browsern los. Also, ich sag mal äh ich nutze in 90% meiner Zeit Google Chrome.
+
+[22:38] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1358s)
+Äh gelegentlich lasse ich mich noch mal dazu hinreißen, Mozilla zu nutzen, aber dann hört's auch schon auf oder bzw. Safari halt dann auf dem auf dem Handy ähm oder ähm gut, Microsoft Edge ist am Ende auch nur Google Chrome. Ich weiß nicht, wie viele Leute noch andere Browser nutzen, wie Opera, Opera oder sowas. Da da geht's ja schon los am
+
+[22:58] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1378s)
+Ende. Und ähm der Punkt ist ja auch der, ich habe gerade eben während wir gesprochen oder wer du gesprochen hast, mal fix gegoogelt nach dem Marktanteil von Chat GPT, aber ich habe keine Zahlen gefunden jetzt auf die schnelle äh von vom vom Anteil an Suchmaschinenvolumen. Sind wir ehrlich, Google ist ja viel mehr als nur diese Suchmaschine. Die haben ja so ein
+
+[23:21] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1401s)
+Marktil, die haben so viel Budget. Was ihr dabei auch gerne vergessen wird beim Thema SEO ist ja auch, dass Google ja nicht nur die größte Suchmaschine äh der Welt besitzt, sondern ja auch die zweite oder drittgrößte mit YouTube. Und das ist ja auch immer noch ein Thema, wo ja SEO auch mit reingehört. Ich meine, wir haben dann
+
+[23:40] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1420s)
+noch was eben Bing erwähnt. Keine Ahnung, ob die jetzt auf Platz 4 sind oder so. Ich ich erinnere mich, dass Pinterest auch irgendwo unter den Top 5 äh krassiert. Wie ist da jetzt so das Thema mit mit SEO? Also gerade auch wenn ich jetzt mit neu neu anfange mit SEO, wenn ich da irgendwo vorgehen möchte, ähm wir sind uns eigentlich, ich denke
+
+[23:59] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1439s)
+Google definiert die Standards in fast allen Ländern. Ich sag mal, wenn ich jetzt in China bin, dann wird bei du da sicherlich noch einen ganzen Anteil haben, aber der Podcast kommt aus Deutschland und hier definiert, denke ich, Google die Standards. Gelten die Regeln auch für die anderen Suchmaschinen? Also gut für YouTube naheliegend, aber YouTube ist eine hervorragende Quelle, wie ich finde.
+
+[24:21] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1461s)
+Hatte vor kurzem das das Gespräch auf auf einer Messe, wo die Antwort von meinem Gegenüber kam und der sagte, YouTube ist die ist eine der letzten authentischen Quellen, weil das wer nicht in YouTube äh also authentisch mit das der Inhalt, der da oben ist. Ähm, wenn ich jetzt irgendwas rausschieben möchte, informiere ich mich halt auch gerne in in YouTube. Und ähm die äh ja,
+
+[24:51] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1491s)
+es gehört zum Googleum. Und um das noch mal kurz zu sagen, die äh die meisten Leute unterschätzen extrem, wie wie tieferzahn Google in das heutige Internet ist. Ja, und äh ja, ich wünsche mir schon, dass der Wettbewerb besteht, aber wie die bieten extrem viele Services an. Google Maps, ja, ich weiß nicht, wer Google Maps zur Navigation und ja, man
+
+[25:20] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1520s)
+kann in Google Maps auch sich da eintragen und ist alles noch kostenlos. Ja, das müssen die ja auch nicht machen. Ja, das könnte kein mein Kars ist Google Maps der das Hauptding, wenn wir über SEO, wenn wir über SEO reden oder über allgemein dieses ganze Ding, was ist gut? Du du musst du musst auf meiner Meinung nach auf auch auf
+
+[25:45] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1545s)
+mehreren Plattformen unterwegs sein. Also du musst deine Webseite vorhalten, du musst die gut strukturieren. Äh inhaltlich und auch technisch kannst du auch strukturierte Daten da mitliefern. Das das wird wichtiger. Ja, es wird noch wird noch mal wichtiger technische Seite zu betrachten, dass die die Krauler, die jungen und die alten Krauler, sage ich jetzt einfach mal so, ja, also die Fluchmaschinen und die Talk
+
+[26:13] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1573s)
+Krauler, dass die alle deine Informationen super aufbereitet finden. Da haben die Leute noch extrem viel äh Bedarf und Potenzial auch. Ja. Und dann um den Sprung zu machen, bitte geh auch zu den anderen, geh auch zu Google Maps, trag dein Business dort ein, optimier das Profil der Mann, das ist kostenlos.
+
+[26:34] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1594s)
+So bei äh bei YouTube äh du kannst den YouTube hochladen, kannst du in YouTube ein Channel machen. Hast du ja, dann mach den Channel, der äh der ist äh authentisch. Äh das ist eine au authentische Quelle.
+
+[26:48] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1608s)
+Ähm, da kann man sich also ähm äh äh präsentieren und und sichtbar sein. Ich denke, die das SEO wird noch mal erweitert um eine neue Disziplin, die dieses Sichtbarkeitsmanagement inkludiert. Ja, das geht ein bisschen in Markenberatung.
+
+[27:07] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1627s)
+Also vorher äh bist du der SEO gewesen, der die Webseite optimiert hast, aber eigentlich ist diese Semantik und das technisch strukturierte Vorgehen, dich und deine Marke und deine Produkte sauber in den Kosmos zu schicken, ja, ins Universum der Large Language Models, da musst du auch gucken, dass du woanders noch aktiv bist. ist ganz gut.
+
+[27:32] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1652s)
+Alle sind gut beraten, wenn sie noch ein paar separate Quellen bespielen. Damit meine ich jetzt ja, also auch Social Media und und, aber auch Portale, andere Portale, die vielleicht schon von den von den Modulen gekrault werden. Ja, weil das sehe ich so ein bisschen ist ein bisschen eine These noch nicht belegt, weil können es noch nicht messen. Ähm, aber ist ein bisschen eine
+
+[28:00] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1680s)
+These, dass es äh notwendig ist, dass du als Identität synchron im Netz auftrittst und das schaffst du nur, wenn du auch andere Quellen spielst und dann gibt's die Quellen, die du die du ownst, also die du dir gehören. Ja, dein Maps gehört dir, denn du kannst da da reingehen und optimieren. Ja, also du kannst YouTube optimieren, du kannst
+
+[28:29] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1709s)
+dein LinkedIn optimieren, du kannst deine eigenen Socials optimieren, du kannst auch für konsistenz sorgen, dass du dort in den Beschreibungen auch eingibst, dass die sich immer wiederholen. Ja, diese diese Grunddaten, die musst du mehr glatt ziehen als noch als noch vorher. Und deshalb denke ich, wer ist denn am dichtesten dran? Das sind die Zeos, die diesen Algorithmusverständnis haben und die
+
+[29:01] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1741s)
+halt schon so solche Prozesse schon mal gemacht haben, ja, die halt schon mal gesagt haben, ah ja, äh wir wir wir stärken das. Ähm und ähm es ist da ein neuer Baustein einfach.
+
+[29:15] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1755s)
+Okay, also ist auf jeden Fall ja letztendlich Teil einer ganz einer ganzheitlichen Strategie, um das noch mal zusammenzufassen. Ja, wir näheren uns dem Ende unseres Interviews und die Frage an dich, die auch letztendlich dazu gehört beim Interview, m neue oder eine neue Webseite habe von mir aus und damit frisch an den Start gehe, frisch bei Google starten möchte,
+
+[29:40] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1780s)
+was s so von deiner Seite drei Tipps, sage ich mal, die du gerade Anfängern ähm oder neu Beginnern ums um sozusagen ähm mitgeben möchtest, würdest wenn wenn sie bei Google starten oder mit SEO starten. Basic Basic Basic, das sind eigentlich schon die drei Tipps, aber was was ist mit Basics gemeint? Ähm, wenn wenn ich jetzt eine neue Domain
+
+[30:07] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1807s)
+hätte, dann dann bitte bitte immer als erstes ähm auch die Google Search Konsole ist wiederum ein kostenloses Tool aus dem Google Universum, was dir zeigt, wie viele Seiten sind indexiert, ähm wie gut geht's deiner Seite selbst, wie wie rent deine Seite, wie schnell de Seite und und da kann man meiner Meinung nach ein paar interessante Sachen entdecken und auch verstehen, dass von
+
+[30:45] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1845s)
+Hause aus nicht alles ist. Ja, dein WordPress oder dein dein System, was du was du vorhältst, produziert Probleme für Google für den für den Krauler.
+
+[30:57] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1857s)
+Manchmal sind Seiten nicht indexiert. Mittlerweile tatsächlich das Problem geworden. Seiten werden nicht immer indexiert oder werden gekrault, aber nicht indexiert. Dafür gibt's in der Google Search Konsole einen Button. Da kann man mal gucken, welche Seiten sind denn davon betroffen und es ist halt je nach Größe deiner Seite oder es ist allgemein, es ist sehr wichtig erstmal Indexierung herzustellen. Also erster
+
+[31:24] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1884s)
+erster Schritt ähm Google Search Konsole anschmeißen, einen Zugang dort machen, die Domain als Property hinterlegen und dann gucken, wie viel Seiten habe ich denn und wie viel Seiten sind indexiert und wenn dort eine Diskrepanz ist, als erstes diese Diskrepanz beheben, weil ohne Indexierung kein Ranking, keine Sichtbarkeit. So, das ist so der der erste Schritt, den ich denke sollten
+
+[31:55] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1915s)
+eigentlich meiner Meinung nach äh alle mitmachen. Als was was noch, wenn ich neu wenn du neu bist, ähm bitte die Zielgruppe verstehen. Zielgruppenverständnis ist oft nicht vorhanden und man Leute, also ich ich meine das mit, dass die Leute immer oft viel zu groß denken oder zu komplex oder zu zu weit weg. Ja, wenn du die bespielen irgendein Thema und dann ja,
+
+[32:27] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1947s)
+aber die Leute, die suchen doch auch nach diesem nach diesem anderen Suchwort und dann fokussieren die sich am Anfang meistens gar nicht auf das, was ihnen wirklich Umsatz bringt oder was ihnen wirklich irgendwie Geld bringt, sondern die die spielen so eine Infowirter ab, wo wo ich denke so, na ja, Infowirter abspielen kann man machen, wenn man die
+
+[32:48] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1968s)
+Basic der der Keyword Recherche ja durch hab, aber erst wenn ich durch die Basics durch bin, wenn ich meine transaktionalen Keywörter durchgespielt habe und da wünsche ich mir eigentlich oder sollten sich glaube ich die Kunden oder die die der der Website einfach mal hinsetzen, mal eingeben, bin ich jetzt äh hier äh Hochzeitsfotograf oder weiß ich wo oder bin ich der der Ja, was
+
+[33:17] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=1997s)
+tippe ich ein? Also es kann man kann man ja in der Google Suche erforschen, wenn man einfach mal sein Hauptkeyword viele kennen ihre Hauptkeywords dran ihr Hauptkeyword eingeben, Google aufmachen, einttippen, Copywritter und dann Leerzeichen und dann mal ein dahinter aufmachen. Ja, also Copy Copywritter Leerzeichen A, Lehrzeichen B, Lehrzeichen C, da kommen Autovorschläge. Da kommen eine Menge Autoorschläge. Dieses ABC Spiel
+
+[33:53] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2033s)
+ähm das das lege ich für Leute, die kein SEO Tool zur Hand haben und das einfach mal machen, ne, und gucken und dann aber bitte unterscheiden. Da da kommen fünf, sechs Vorschläge zu jedem Buchstaben.
+
+[34:09] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2049s)
+Die sind nach Suchvolumen sortiert. Diese Autovervollständigung ist tatsächlich äh Suchvolumen hier. Und da sind aber auch ganz viele Infosachen bei und die ganzen Infos, also die würde ich alle die würde ich alle äh eliminieren. Und ich würde da, also wünsche ich mir eigentlich, dass die Leute ihre Hauptkey finden und das dann, das ist wichtig e schon startest, aber dann ja, du solltest du
+
+[34:40] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2080s)
+solltest da dein Hauptkey wird finden, deine Hauptkey wird da finden und die erstmal durchreien. Ich mache noch ein Blog und dann spielen wir noch hier und dieses ganze drumherum schaufenstert ein Hauptki wird finden. Hauptke wird da überall. So, was noch? ähm dran bleiben, langsam langsam anfangen, klein anfangen und immer dran bleiben und sich immer auch immer mal eine Hilfe holen
+
+[35:03] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2103s)
+und vielleicht auch mal bisschen professionell, ne, net zu Seos sein, zu anderen Seosin, vielleicht mal zum Seostatisch gehen, wenn man wenn man machen möchte oder sich ir gibt heute zu viel Informationsquellen, es gibt gute Leute, ähm die den man folgen kann, dran bleiben, informieren und die Basics machen. würde ich so als dritten als dritten Tipp.
+
+[35:28] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2128s)
+Okay, vielen Dank. Sich Hilfe holen war das richtige Stichwort zum Abschluss. Wenn einer meiner Zuhörer jetzt sagt, er will mit SEO oder sie will mit SEO starten und will sich Unterstützung holen, will sich Hilfe holen, wie können meine Zuhörer dich erreichen? Ich bin LinkedIn süchtig. Also ja, ich also man findet mich auf LinkedIn. Äh Jörg Zimmer, der
+
+[35:52] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2152s)
+Typ mit der Sonnenblume in und ja, ich bin SEO SEO sea Freelancer. Äh einfach bei LinkedIn schreiben ist auch mein mein Hauptkommunikationsweg. Da gibt's auch ein paar Infos über mich. Äh die Leute können mir auch einfach nur folgen, wenn sie jetzt noch so ein paar Tipps haben wollen. Manchmal manchmal habenilig Tipps. Oft schätze ich auch nur.
+
+[36:16] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2176s)
+kommt halt auf meine Laune an, aber ja, wer wer mich erreichen würde, legt alles klar, ich packe alles in die Showotes, das dann können meine Zuhörer dich dich direkt kontaktieren, dich direkt erreichen. Das war's. Vielen Dank für deine Input, vielen Dank für deine Zeit, für die tollen Tipps, die du mit uns geteilt hast. Ähm auch an dich da
+
+[36:36] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2196s)
+draußen, vielen Dank fürs Zuhören, wenn du bis hierher dabei warst. Ähm, danke für deine Zeit, die du uns am Ende hier geschenkt hast. Und wenn du vielleicht jemanden kennst, der sich gerade mit dem Thema SEO beschäftigt und der diese Episode unbedingt hören sollte, dann leite sie ihm doch gerne weiter. Ähm ja, ich verabschiede mich damit. Bis zur
+
+[36:56] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2216s)
+nächsten Episode. Ich bin damit raus. Jörg, du bist der Gast. Dir gehören die letzten Worte. Du darfst alles sagen, außer danke für die Einladung.
+
+[37:06] (https://www.youtube.com/watch?v=32YkPQtOJDU&t=2226s)
+Vielen Dank fürs Zuhören und SEO ist eine gute Sache. Ähm allgemein Sichtbarkeit ist auch eine gute Sache. Wer da ähm sich sich weiterbildet, der wird äh sicherlich ähm auch Erfolge äh vorweisen können.
+

@@ -1,0 +1,454 @@
+# Transkript: Folge 5: Was ist dran an AI SEO oder GEO? Mit SEO Experten Jörg Zimmer (ID: pJFZzv5LEvk)
+
+[00:21] Ja, herzlich willkommen Jörg Zimmer zum Podcast zweiter Teil.
+[00:26] Wir haben auf jeden Fall im ersten Teil schon viele interessante Themen im Bereich SEO über deinen Werdegang gesprochen und uns nochmal aufgefallen, dass AI ein sehr spannendes
+[00:39] Thema ist und wir dann nochmal eine separate Folge dazu machen.
+[00:44] Genau, sag einfach mal gerne, was bisher ist, ist ja schon über einen Monat jetzt her, seit unserem letzten Talk, wie es sich da so ergangen mit dem Thema AI, was hat sich Neues ergeben.
+[01:00] Antonio, hallo alle Zuhörer und alle Zuschauer.
+[01:05] Mein Name ist Jörg Zimmer und ja wir haben schon einen Podcast gemacht und danke Antonio, dass ich bei dir zu Gast sein darf.
+[01:16] Es ist mir eine große Ehre mit dir zu sprechen. Macht auch immer Spaß und inspiriert mich auch.
+[01:26] Der letzte Podcast hat mir gut gefallen. Ich habe auch gutes Feedback gekriegt von Leuten, die es angehört haben.
+[01:35] wir waren ja stehen geblieben, dass wir uns beim letzten Mal verquasselt haben und haben dann gesagt, das große Thema AI und KI-Modelle, Optimierung, wie auch immer man das nennen möchte, das behandeln wir heute.
+[01:55] Lass uns gucken, was wir zusammentragen können. Ja, auf jeden Fall.
+[02:03] Also das YouTube Video, das war, hatte auf über 100 Views sozusagen.
+[02:08] Man muss auch sagen, dass das ein sehr langer Talk war, eine Stunde, also schon enorm.
+[02:16] genau, also insofern hat mir auch gesagt, wir wollen so einen Disclaimer auch nochmal bringen, Also, dass das rein auf unserer Basis jetzt auf unserer jetzigen Erfahrung ist im August 2025.
+[02:34] Alles Spekulation momentan. Es gibt noch nicht wirklich jemanden, jetzt wirklich fundierte Ergebnisse hat oder wo man auch irgendwie nachvollziehen kann, weil es ja keine offiziellen Daten gibt.
+[02:47] Es gibt ja immer nur Third Party Data und keine First Party Data wie Google Search Konsole.
+[02:56] Genau. Willst du da noch irgendwas dazu sagen? also wenn ich auch, ich, gut dass du sagst, wenn ich gleich vorneweg was reinwerfen möchte, Leute, relax.
+[03:08] Bitte.
+[03:09] Das Thema ist neu, das Thema ist groß und ich kenne viele Leute, die jetzt unsicher sind und ist auch klar, weil das, ich sag mal, das Modul oder der Baustein, der da jetzt
+[03:25] entsteht mit diesem AI-Kram. Der muss erstmal analysiert werden, muss erstmal begutachtet werden, da müssen echte Experimente gemacht werden.
+[03:35] Also alles was ich jetzt hier sage und auch was du sagst, glaube ich, da sind wir uns einig, das ist jetzt keine finale Erkenntnis.
+[03:43] Wir sind alle noch im Prozess. glaube die guten Seos sind alle, die geben das auch zu, die sind alle noch im Prozess.
+[03:51] Wir gucken und testen und spielen unsere Erfahrung damit rein.
+[03:59] Aber wie gesagt, ist jetzt keine Anlageempfehlung, hier das nächste SEO Tool oder den nächsten KI Quick Fix oder irgendwas zu machen.
+[04:10] Ich glaube, das ist wichtig. Und man muss es immer auch in Relation sehen.
+[04:15] ich habe bei mir in einer Sprechstunde, also meine Video Beratung, ich anbiete, da kommen halt manchmal auch Leute,
+[04:24] die die Basics leider noch gar nicht durchgespielt haben, aber schon denken sie müssten jetzt KI machen. Hm.
+[04:33] Was soll ich denn da sagen?
+[04:36] Ich glaube, man muss strukturiert vorgehen, auch in dem Thema, das ist, ich, ganz wichtig, auch im SEO so, und gucken, welche Schritte machen denn in der jeweiligen Situation Sinn.
+[04:55] Das war im SEO schon so und das ist im AIO AI, KI, SEO, wie auch immer man das nennen möchte, ist das auch so.
+[05:05] Man muss gucken, was für einen selbst passt. ich glaube, eine Botschaft, ich da gerne rausgehen möchte, erst mal relax gucken.
+[05:16] Was macht denn Sinn? Wo will ich denn erscheinen? Wo habe ich wirklichen Bedarf?
+[05:23] Kann ich vielleicht nicht erst mal mein SEO-Game durchspielen und dann auf die KI wechseln, weil
+[05:31] Da sind wir uns glaube ich einig, Antonio, die Überschneidungsrate der zwei Disziplinen ist relativ hoch.
+[05:41] wenn man jetzt in einer EI erscheinen möchte, dann denke ich, dann ich denke so 70 Prozent Überschneidungsrate zu normalem SEO da ist.
+[05:55] Weil es geht halt wieder um die klassischen Disziplinen. technisch fit sein.
+[06:04] musst deine Inhalte ins Netz spülen, auch für die AI-Krauler.
+[06:10] Ja, jetzt nicht nur für den Google-Krauler, auch für die AI-Krauler. Die müssen das also kennen.
+[06:15] Du musst da deine Seite strukturiert aufbauen. Die Krauler zulassen.
+[06:23] Ja, es gibt vielleicht ja auch den Fall, dass Leute die Krauler blockieren wollen. Gibt's ja auch.
+[06:28] Aber ich glaube, das ist viel
+[06:31] technisches Spiel, wir da betreiben müssen und deswegen bitte, bitte erstmal die SEO Basics machen und nicht jetzt auf den nächsten AI Hype oder das nächste Geo Checkliste oder irgendwas.
+[06:49] Ja, das kommt auch immer auf den Fall an, weil das Spielfeld ist groß und wir wollten ja über Erfahrungen reden.
+[07:02] Also wo ich nochmal kurz mal fragen will, so ganz von Anfang an, klar die beiden Disziplinen überschneiden sich und so definitiv warum ist es wichtig auch die SEO Basics für AI zu machen?
+[07:20] Also das ist glaube ich nochmal wichtig deutlich zu machen, also da hast du ja auch im Vorgespräch einige Sachen genannt, also Robots, TXT, Sitemap.
+[07:32] Was wären für dich jetzt die Maßnahmen, die du als erstes machen würdest, überhaupt AI-ready zu sein, würde ich jetzt mal so sagen.
+[07:42] AI ready zu sein. logisch, als SEO selber würde ich sagen, mach erst mal, dass deine Seite in den Top 3 steht.
+[07:53] Ich glaube, da kann man doch davon ausgehen, dass zumindest Google das so anerkennt und das wird wahrscheinlich Chachipiti auch so anerkennen, wenn du in den Top 3 stehst.
+[08:07] Das wird Bing so anerkennen. wenn du in Top 3 bist, du eine Relevanz.
+[08:12] Also dann hast du schon mal einen ganz, ganz großen Sprung gemacht.
+[08:19] So was noch, ich, ich würde mir immer den, also und natürlich biete einen guten Service.
+[08:26] Vielleicht gehen wir noch mal kurz noch einen Schritt zurück.
+[08:30] Die die EIModelle, die die basieren ja auf
+[08:38] auf diese Datenbank oder Wissensdatenbank, die sie sich irgendwo aus dem Netz heraus zusammen klauen.
+[08:50] Diese großen offenen Datenportale, da versuchen die ja ihr Wissen herzuziehen und dann trainieren sie sich halt und bauen daraus Antworten.
+[09:02] Ich glaube, ist eine ganz gute Idee, erstmal auch guten Service zu bieten und auch einen guten Ruf. ins Netz zu spielen.
+[09:11] eine Beobachtung, wo ich denke, dass es auch hingeht, diese Modelle, haben ja, wenn man ihnen jetzt mal viel zutraut, dann haben die ja das Wissen der Welt schon, aber sie haben
+[09:30] noch nicht den Ruf von dir, also so wie du.
+[09:36] wahrgenommen wirst, tatsächliche Wahrnehmung, das Bewertung oder sowas.
+[09:45] Ja, es gab ja mal dieses Ding, du musst bei Reddit damit Leute, echte Menschen über dich reden.
+[09:50] Ich glaube, das ist eine Idee, wo man drüber nachdenken könnte.
+[09:56] Wo kann ich Leute dazu bringen, positiv über mich zu schreiben? Also ich gehe da zurück. Ja.
+[10:04] Biete einen guten Service, biete eine gute Marke und sei nett zu den Leuten, dass wenn die dann von selbst sagen, ich lasse eine Sternebewertung da, schreibe dir, also was ich
+[10:24] gesehen habe, Proven Expert wäre sowas, Trustpilot sowas, das sind
+[10:32] Portale, die von Chetchipity ausgewertet werden, weil da Leute ja Nutzer-Erfahrung schreiben.
+[10:40] Kann ich das beeinflussen? Weiß ich nicht. Aber was ich könnte, wäre mein Google-Unternehmensprofil, da sammel ich ja auch Sterne.
+[10:50] Könnte man ja auch reingehen. Das ist ja auch wieder so klassische SEO-Arbeit. Google-Unternehmensprofil.
+[10:59] Und okay, deine Frage ging dahin, was würde ich als erstes tun?
+[11:03] meine Güte, ich würde, würde glaube ich erst mal, man kann ja auch schätzchen die Fragen, dann macht man erst mal dieses Basisfragen.
+[11:13] Was weißt du über Antonio Blago? Was weißt du über Jörg Zimmer? Was weißt du über die Firma?
+[11:20] Erst mal gucken, dass die Grunddaten da überhaupt drin sind.
+[11:26] Ich habe es schon gesehen, er hat zu einer Firma alle Daten richtig aufgeschlüsselt, aber eine falsche Straße.
+[11:41] Also völlig falsche Anschrift, völlig auch keine Anschrift, die jemals hatten. Also es hat nicht existiert und dann hat er irgendwas halluciniert.
+[11:51] der hat Halluziniert. Der hat auf der Straße Halluziniert. Das krasse ist aber, dass diese Firma durch Gutes EO schon synchronisiert ist.
+[12:03] habe für die das gemacht.
+[12:05] Ich habe in den Stadtportalen die Synchronisation der NAP-Daten, also Name, Akkresse, Phone, das habe ich gemacht.
+[12:18] Habe ich also dem Netz schon mitgeteilt, wo die Adresse ist. Trotzdem hat der auf der Straße Halluziniert.
+[12:27] Ist natürlich total doof, wenn jetzt jemand nur JGPT vertraut und sagt, ok, dann fahre ich da mal hin und dann steht der bei mir schon.
+[12:37] aber das ist halt diese Variation, die die AI auch immer bringt. Also das gibt ja diesen einen Parameter, der heißt Temperature.
+[12:47] Also in dem Sinne, wie hoch ist die Kreativität in so einer AI?
+[12:52] Und eine AI ist ja in dem Sinne eine Generation, ja immer von Inhalten und auf einer gewissen Basis variieren die ja immer so ein bisschen.
+[13:04] In dem Sinne sind ja keine Datenbank.
+[13:08] Also die schaut sich nicht immer an, hier Firma XY hat diesen Eintrag in unserer Datenbank mit Straße XY.
+[13:17] Und das ist ja auch das Gefährliche an der AI.
+[13:25] Sie generieren Wahrscheinlichkeiten an Wortfolgen irgendwie, aber die Daten können auch immer falsch sein.
+[13:34] Aber wenn man nicht jetzt die Firma kennen würde oder Experte ist für einen Bereich, dann würde man das nicht erkennen.
+[13:43] Das ist halt die Gefahr an AI, dass anscheinend Sachen generiert werden, die auch richtig sein können.
+[13:51] Aber wenn man es überprüft, dann sieht man häufig dann so ein bis zwei Sachen, die halt falsch sind.
+[14:01] Das ist halt Das muss halt erstmal jeder verstehen.
+[14:06] Also, AI eigentlich immer vielleicht 80, 90 Prozent irgendwo richtig ist, aber 10 Prozent sind immer irgendwo geraten oder irgendwie halluciniert oder...
+[14:19] Das kann halt irgendwas sein. Dafür gibt es ja jetzt das AI-Kompetenz-Zertifikat oder sowas.
+[14:29] weiß jetzt nicht, das von der EU da, wo man Mitarbeiter schulen muss. Aber es ist richtig, dass du sagst, ungeprüft übernehmen und kopieren.
+[14:41] Also ich mag das Spiel mit AI, der ist auch ein guter Helfer.
+[14:49] kann dir ja in vielen, vielen Sachen den Weg zeigen und auch Abkürzungen liefern, aber vollständig vertrauen.
+[15:00] Also, nee, auf keinen Fall. warten wir mal noch drei Jahre. Mal gucken, wo die Reise hingeht.
+[15:09] Aber auf jeden Fall, was du auch gesagt hast, die Seiten müssen ja auch durchsuchbar sein oder irgendwie auffindbar sein.
+[15:17] Also ohne SEO-Arbeit funktioniert auch die ganze AI-Sache gar nicht.
+[15:23] Also dass eine Seite irgendwie auffindbar ist, dass die Inhalte crawlbar sind. Man sagt ja auch, AI ist schlechter in JavaScript-Rendern.
+[15:34] Und das sind ja in diesem Sinne SEO-Basics.
+[15:37] Also wenn du deine Seite viel zu lahm ist, sodass es einen Timeout gibt, dann kann die AI auf deine Seite nicht crawl.
+[15:47] Wenn du halt keine Inhalte hast für einen bestimmten Bereich, also sag mal, du verkaufst Sportschuhe oder bist irgendwie ein Arzt oder so, dann solltest du Inhalte bringen, die
+[15:59] dich relevanter machen, dann kann auch deine AI dich nicht als relevanter einstufen, wenn du keine Inhalte hast.
+[16:06] Also irgendwo müssen ja die Daten herkommen. Das ist halt CEO.
+[16:13] es herkommen und irgendjemand muss es machen.
+[16:20] ich habe ein bisschen Sorge oder ich vielleicht können wir das ja auch von vornherein gleich diesen ganzen Umwege uns ersparen.
+[16:31] Bitte setzt nicht den nächsten Praktikanten dran, um euch für die EI ready zu machen.
+[16:39] Ich glaube, es ist Arbeit und wenn wir das mal so betrachten, dass das Game ungemein vielschichtig und komplex Früher wurde es eine Suchmaschine.
+[17:02] Wir hatten ja diese fast Monopolstellung oder die Monopolstellung von Google ist halt so.
+[17:10] Ja, dann musstest du dich mit einem System auseinandersetzen, einen Grauler glücklich machen, natürlich auch deine Nutzer glücklich machen, weil jeder Besuch ja auch da mit zählt.
+[17:22] Aber für uns jetzt im Hintergrund die große unsichtbare Arbeit, die hast du dann halt für ein System gemacht und hast dann halt Google Search Konsole angemacht und hast dann halt
+[17:34] geguckt, wo Produziere ich den Fehlerseiten, wie ist denn meine Seite so aufgestellt?
+[17:39] So, jetzt kommt das weitere, wenn du das jetzt noch für Bing mitmachst, ja, Bing als die Suchmaschine mit 5 % Marktanteil.
+[17:55] Könnte man sich jetzt auch auf Bing konzentrieren, wenn man das wollte.
+[17:58] Man könnte sich aber auch auf OpenAI und die Perplexity Cloud
+[18:05] wie die ganzen Crawler alle heißen, ob die Modelle arbeiten ja trotzdem alle unterschiedlich.
+[18:14] Die werden zwar im Core irgendwie eine Art Gleichhaben, aber die ganzen Modelle arbeiten unterschiedlich.
+[18:20] Wenn jetzt jemand fragt, bring mich in die AI, dann müsste man eigentlich zurückfragen, welche. Hm.
+[18:28] Wo willst du denn erscheinen?
+[18:31] Soll ich mich für dich, soll ich mit Perplexity in den Knuddelkampf gehen oder soll ich mit Deep Seek das machen oder willst du, wollen wir Open AI machen, also ChatGPT?
+[18:52] Okay, und macht das überhaupt Sinn bei dir? das eine Tickteiner Zielgruppe überhaupt so? Ja, aber vielleicht bist du ja...
+[18:58] Mittelständler, wo die Zielgruppe auch anders tickt, dann macht das dann Sinn diesen Kanal zu bespielen.
+[19:07] Und das wollte ich noch sagen, es wird vielschichtig und wir müssen dann natürlich auch mehrere Quellen bedienen, mehrere Modelle durchdenken, mehrere Roboter überprüfen, die mehrere Trafficquellen.
+[19:21] Du hast vorhin was Schönes gesagt gehabt. ist ein eigener Kanal. Ja, das hat es gesagt, war Antonio?
+[19:30] eigener Kanal, Ja, es ist ein eigener Kanal und den muss man halt sauber durchleuchten auf Sinnhaftigkeit und dann gucken.
+[19:48] man reingeht und das unterscheidet sich. wollte ich sagen, die Maßnahmen, werden halt unterschiedlich sein.
+[19:53] Also wir können davon ausgehen, die nutzen die Datenbanken der Welt, aber modellieren ihre Antworten immer noch in einem eigenen System.
+[20:08] Und da fängt das dann halt an, also erstmal Fokus auf, wo willst du wirklich erscheinen, macht es überhaupt für dich Sinn.
+[20:17] Hm. Und jemand muss hin. Jemand muss sich dann einloggen. Jemand muss ja die...
+[20:25] muss das prüfen, jemand muss dann gegensteuern und wenn du das vorher nur auf Google Universum gemacht hast, dann hast du halt dein SEO gehabt.
+[20:37] Wenn du das jetzt noch in drei unterschiedlichen AI's machen willst, wer macht das? Dann macht das dein SEO einfach mit.
+[20:45] Der ist am dichtesten dran, 70 Prozent Überschneidungsrate, meiner Meinung nach, ja. Hm.
+[20:50] Der ist am dichtesten dran, aber wenn der sich noch in drei unterschiedliche Sachen reindenken muss und da noch, dann muss man den aber auch dreifach bezahlen.
+[21:01] Genau, ist ja Verdreifachung von Arbeit. das ist ja in dem Sinne, da kann ja auch jeder selber mal die Kontrolle machen.
+[21:10] Also wenn du jetzt zum Beispiel geh in Chachibiti, passest da ein Prompt rein, dann gehst du in Perplexity rein, dann gehst du in Gemina rein, dann gehst du in Claude rein und dann schau mal welche Antworten ankommen und welche Quellen da gewichtet werden.
+[21:27] wie die Antworten überhaupt generiert werden und so. Das ist schon vielleicht 50, 60 Prozent irgendwo ähnlich.
+[21:36] Aber in den Details werden die alle ihre eigenen Gewichtungen haben oder ihre eigenen Signale haben.
+[21:45] Das ist ja so wie Google und Bing.
+[21:52] Wenn man da dieselbe Suchanfrage stellt, dasselbe Keyboarden kommen auch immer so bisschen unterschiedliche Ergebnisse raus.
+[22:01] In dem Sinne muss man sich da halt auch, denke ich mal, auf einen Kanal irgendwie dann auch committen irgendwo.
+[22:08] Wenn man natürlich viel Budget hat, kann man sich auf alle fünf irgendwie committen.
+[22:14] genau, aber da muss man halt, das ist halt nicht so, dass einer irgendwie zehn Kanäle macht oder fünf Bekannten.
+[22:23] Aber du kannst halt nicht 10 Baustellen aufmachen. Bedenken, dann ja, jede Baustelle läuft halt irgendwie so.
+[22:32] Aber dann bist du immer irgendwo in einer Baustelle drin.
+[22:36] Ja, du hast, ich glaube der Ansatz ist ganz toll, mal reingehen in die Modelle und auch mal die Promts merken.
+[22:48] mal fragen, du was weißt du denn über mich, über meine Firma?
+[22:54] Das wird da wahrscheinlich noch im meisten Fällen hinkriegen, wenn man auf Produkte kommt oder auf Dienstleistungen. Wer ist der beste Anbieter für?
+[23:04] Seow in Spandau. er der beste Anbieter für weiße Sportsocken.
+[23:17] Da kommen ja Antworten und da kommen auch Quellen. Darauf wollte ich jetzt hin.
+[23:21] Für die Leute, die jetzt hier vielleicht einen Quick-Tipp mitnehmen wollen oder auch in das Thema reinsteigen wollen, da werden ja Quellen genannt.
+[23:30] Dann guckt man sich mal diese Quellen an.
+[23:33] Also da werden vielleicht viele überrascht sein, ich, wir wollten ja, meine Erfahrung, was ich bislang gesehen habe, da kommen sehr interessante Quellen.
+[23:44] Und mit sehr interessant meine ich Sachen, die ich so vorher noch gar nicht auf dem Schirm hatte. Muss man auch mal zugeben.
+[23:52] Zum Beispiel ein Quicktip, jetzt lasse ich mal einen raus, ja. Was ich gefunden hatte, diese PDF-Datenbank.
+[24:04] Also SR-Grippet. Ja, okay, es grippet.
+[24:08] Das war mir ehrlicherweise vorher nicht bekannt, dass es offene PDF-Datenbanken gibt, wo man jeder meinen PDFs hochladen kann.
+[24:19] Aber da sehe ich doch schon unseren deutschen Mittelstand im Vorreiter-Modus. Ja, was produziert denn, was produzieren die denn?
+[24:27] Die haben alle Massen an PDFs. Die halten zwar auch eine Webseite vor und was ich aber die produzieren für alles mögliche PDFs.
+[24:37] Meine Güte, wenn jetzt Shetchi PT wirklich auf dieses Scribble zurückgreift, ja dann lad doch deine ganzen PDFs da hoch.
+[24:45] Na also ich hab das gesehen. Wie gesagt, Test, prompt eingegeben. Ich sprach, woher ist die Information? Habe ich aus Scribble extrahiert.
+[24:54] Scribble? Okay, geh ich mal hin. Hab ich dann gesehen. okay, kann ich mich ja anmelden? Oh, kann ich ja...
+[25:01] Mein eigenes PDF hochladen, okay, dann lade ich mal was hoch.
+[25:06] Ist ein Ansatzpunkt, ob das jetzt für jede Branche gilt, weiß ich nicht, aber das wäre was, also so ein Quicktip, ich sage, und von diesen Datenbanken gibt es noch mehr.
+[25:19] Die Namen will ich jetzt nicht alle aufzählen, aber es gibt von diesen Datenbanken noch mehr. Ich habe jetzt dieses Kribbel für mich ausgewählt.
+[25:26] Fand ich ganz schlau, weil das ist halt so ein bisschen Inhalt, man eigentlich schon hat. Viele Firmen haben PDFs.
+[25:33] Warum denn nicht dort mit reinnehmen? Und das ist wieder eine Quelle mehr.
+[25:39] Ja, wir haben ja das Ding, dass die Quellen sich erhöhen.
+[25:45] Und da kann man das schon mal mit bespielen.
+[25:52] Finde ich einen guten Tipp. Ja, auf jeden Fall ein sehr guter Tipp.
+[26:00] Ich denke auch, es macht Sinn, man auch seine PDF-Dateien irgendwie auf der Webseite auch irgendwie crawlen lassen kann.
+[26:09] Manche sperren ja PDF-Dateien oder PDF-Dateien sind halt irgendwie nicht aufwendbar oder so.
+[26:18] Insofern kann man das auch machen. Aber so externe Datenbanken zu nutzen ist auf jeden Fall klar.
+[26:26] kommt wirklich ja also wie ob man jetzt pdf indizieren lässt oder nicht muss man auch von fall zu fall entscheiden da ja das muss man gucken ich glaube es ist ganz wichtig nur das
+[26:43] zu tun oder auch die schritte zu gehen die für den jeweiligen fall sind machen ich glaube es unterscheidet sich eben stark ob ich b2b mache oder ob ich b2c mache
+[26:56] ob ich Shoppingprodukte verkaufe, ob ich Dienstleistungen verkaufe oder was ich glaube, das muss man dann entscheiden.
+[27:07] Aber es ist eine gute Idee, erstmal die Maschine zu befragen, in der man entscheiden will. Wo hast du dich denn da extrahiert?
+[27:15] Wo ziehst du denn deine Informationen her? wenn, schön wäre es natürlich, wenn die Promts mal kommen, wo man nicht erscheint.
+[27:25] und aber dein Wettbewerber erscheint. Also Tuprams würde ich mir wegspeichern.
+[27:33] Als Idee, ich glaube es ist noch viel manuelle Arbeit, auch wenn es jetzt Tools gibt, aber diese Prompt, wo du eigentlich erscheinen möchtest und nicht drin bist oder nur auf Platz 3 und dann 2 hervor dir oder irgendwie sowas.
+[27:46] Also die Prompt würde ich wegspeichern, um dann nochmal zu gucken, wie das, also man kann ja, man müsste ja strukturiert vorgehen, man müsste dann Maßnahmen machen, ja ich lade
+[27:58] jetzt da was hoch, ich gebe jetzt Das frei. Ich baue strukturierte Daten ein.
+[28:04] Ich mache auf diesen Stadtportalen die Synchronisierung und und und und was ich nicht alles und dann kommt man drei Monate später nochmal wieder und guckt bei den Promts.
+[28:16] Hat es was gebracht? Ja, also das wäre ja so überhaupt mal so ein Ansatz. ist auch mein Plädoyer.
+[28:24] Ich weiß nicht, ob ich es jetzt schon gemacht habe, aber erst mal die Ausgangslage messen. Ja.
+[28:31] Wenn es händisch, das kann ja jeder machen, wenn man jetzt nicht so ein teures Tool anschmeißen will und die sind ja auch noch alle in Beta.
+[28:39] Die Tools, die gibt es erst seit zwei, drei Monaten.
+[28:43] Aber erstmal Ausgangslage messen und dann gucken, okay, ich fahre jetzt mal ein paar kleine Aktionen in Richtung AI Visibility und ich gucke in drei Monaten nochmal.
+[28:59] hat es schon was gebracht auf dem, wo ich denke, dass ich erscheinen möchte. Und dann gucke ich in sechs Monaten nochmal und dann gucke ich in einem Jahr nochmal.
+[29:08] Also da kann man auch alle noch ein bisschen relaxed sein. Die Welt geht jetzt nicht unter und auch in zwölf Monaten ist das völlig okay, weil es entwickelt sich halt noch.
+[29:20] Es sind auch noch nicht so viele, das muss man auch noch als Wandelbeis dalassen. Es sind nicht die ganze Welt ist jetzt. Google ist nicht tot.
+[29:29] nicht die ganze Welt sucht ab jetzt sofort in Chechipiti. Viele nutzen Chechipiti auch einfach nur als Tool.
+[29:37] Der Anteil der Nutzer von Chechipiti ist ja nicht gleich der Anteil der Nutzer, die auch eine Suchanfrage haben.
+[29:46] Der Suchanteil von Chechipiti ist ja oft viel kleiner.
+[29:52] Und Marktanteile müsste man auch noch mal gucken.
+[29:57] gesagt, ich glaube, wir haben auch heute noch nach dem drei Jahre ChatGPT alles haben wir trotzdem noch einen Marktanteil von Google von 90 Prozent je nach je nach je nach Land und Branche.
+[30:11] Ja, meine Güte. Gut, lass Bing noch 5 Prozent haben, lass ChatGPT und die EMU dann auch 5 Prozent.
+[30:19] Aber gut, die 5 Prozent. Ja, und dann muss man gucken. müsste das eigentlich auch nur 5 Prozent meiner Energie hinfließen.
+[30:29] Muss man gucken. Aber im Moment denke ich, ist es ganz gut klein anzufangen.
+[30:33] Es immer eine gute Idee klein anzufangen, erst mal zu messen, was die Promts da hergeben, wo sind vielleicht die Wettbewerber besser oder was will ich überhaupt.
+[30:42] Und da werden auch, da wird sich noch viel ändern. Aber so für einen Start.
+[30:52] und eigentlich wäre es korrekter, wenn man das macht, aber korrekter wäre es, man irgendeine Art Tracking hätte.
+[31:07] Da sprießen die Tools ja aus dem Boden.
+[31:13] Man kann, bei Sistrix kannst du das sehen, wo die
+[31:23] AIO in Google erscheint auf solchen Keyword.
+[31:26] Da gibt es also die Möglichkeit zu sehen, wenn ich eine Domain analysiere da drin und dann gehe ich auf den Tab Keywords und dann kann ich da freischalten, zeige mir mal auf den
+[31:40] Keywords, zu denen ich jetzt schon renke, wo denn dann jetzt ein AIO von Google erscheint.
+[31:47] Ist eine tolle Sache. kann man gucken und dann stehen da halt 10, 20 Keywörter, wo halt schon EIO erscheint.
+[31:56] Ja, okay, dann weißt du das halt, dass das wahrscheinlich informative Keywörter sind, weil das Ausrollen der EIOs ist ja auch noch nicht durch.
+[32:10] Das habe ich vom Johannes Beuys, also dem Gründer da von SysTrix.
+[32:17] hat er der Campix einen schönen Vortrag gehalten. war augenöffnend halt zu wissen.
+[32:24] Leute, wir haben es gemessen, Stand Juni 2025 oder was das war.
+[32:33] Erst bei 25 Prozent aller Keyword erscheinen EIOs. Hm. Okay, jetzt sind wir im August 2025.
+[32:43] Lass es jetzt 30 Prozent sein. Aber es sind noch nicht alle Keyboarder ausgerollt, wo eine KI-Antwort im Google erscheint.
+[32:54] Ist es noch nicht. Und war ja der Konsent, das ist viel informativ und der informative Traffic bricht weg.
+[33:03] Das glaube ich schon.
+[33:05] Den informativen Traffic, den Den geben wir wahrscheinlich ab. Mhm.
+[33:15] Ja, was ist die Frage? Brauche ich den?
+[33:23] wenn die AI das halt beantworten Was ist SEO?
+[33:31] Ich muss auch nicht zu was ist SEO oben stehen. Was ist SEO? Wird dir die AI beantworten?
+[33:38] Das werden die alle und sollen sie auch. Ich will den Teffek ja gar nicht.
+[33:43] jemand der nach was es seo sucht der der ist kein käufer der ist ein informativer sucher der ganz am anfang steht das ist eine no suche also eine wissenssuche der will einfach nur
+[33:55] eine antwort die haben was er dann als zweiten prompt oder als zweites ding eingibt das ist natürlich noch die andere frage aber irgendwann am ende dieses dings kommt er dann
+[34:05] dazu ok ich will jetzt einen SEO-Freelancer beauftragen und dann sagt er hier Antonio Blago ist Herr Weste, weil der hat einen schönen Podcast.
+[34:20] Also ich finde es, einerseits finde ich es schon gut, wenn man irgendwie noch informativen Content hat, weil es ja auch so bisschen, also erst mal so bisschen Relevanz auch erzeugt,
+[34:33] Also irgendwo, dass man ja auch für die AI sozusagen so eine Art Knowledge Base irgendwo aufbaut, so ne, also natürlich versteht dann jeder anders irgendwie was es sehe oder sowas.
+[34:47] Aber ich finde es irgendwie gut, dass man das irgendwie noch macht.
+[34:52] Klar, wird jetzt nicht performantechnisch groß was bringen, aber alleine dadurch, dass man so Seiten dazu hat, ich schon, es jetzt nicht ganz, man muss es jetzt nicht ganz abwerten,
+[35:09] aber Also ich sende auch manchmal meinen Kunden sowas, wenn die irgendwelche Fragen haben, weil ich ja auch nicht immer alles von vorne erklären will.
+[35:21] So, und das kann ja auch nutzen.
+[35:24] Man kann es ja auch so in dem Sinne für sich selber so ein bisschen so als Lexikon noch haben oder bis ins Datenbank irgendwo.
+[35:37] Und genau, klar ist. Sie das keine Käufe irgendwie konvertieren. Die AI wird es wahrscheinlich auch irgendwo abgreifen.
+[35:45] Aber. Ich finde es für die Customer Journey in einem anderen Punkt auch wertvoll. Aufklärung.
+[35:53] Kannst auch per E-Mail irgendwie nochmal schicken, E-Mail Marketing damit machen.
+[35:56] Man kann da auch nochmal Content daraus stellen für Social Media oder irgendwie Podcasts.
+[36:05] Ist ja auch alles möglich. Also ich denke. Da kann man auch nochmal so, konnte in verschiedenen Formaten nochmal denken, wo man sie auch noch nutzen kann.
+[36:16] Also wenn man, also okay, wieder die Lieblingsantwort kommt ja drauf an, ja, kommt drauf an.
+[36:25] Je nach Projekt, wenn du jetzt das sagst, dass du das so benutzt, wie du das sagst, dass du das als, hier guck mal, da steht die Antwort, da habe ich das schon beantwortet, dann
+[36:35] ist das ja für dich eine Arbeitserleichterung und für den Kunden dann irgendwie auch eine visuelle Aufbereitung.
+[36:42] Wenn man jetzt hier da steht geschrieben, was Schema Schema Markup Auszeichnungen sind und was sie was sie dir bringen könnten.
+[36:53] Ja, das ist ein valider Weg. Aber dann ist es mal treffig darüber produzieren.
+[37:02] Ich bin ja nicht ganz dagegen, aber ich bin. Dagegen, wenn Leute das als Allererstes machen wollen, wir bauen einen Wissenshub.
+[37:13] Wo ich denke, na ja, können wir erst mal auf deinen Geldwertensuchwörtern renken, optimieren und die ganze Energie, ja, wir reden immer über begrenzte Ressourcen.
+[37:24] Und wenn dann die Ideen oder die Energie falsch verwendet werden für ich bau da jetzt einen Wissenshub.
+[37:33] ohne dass ich vorher meine Seite mal schnell gemacht habe oder dass ich für die Suchwürter, tatsächlich einen Impact haben auf Kauf-Ebene, dass ich, wenn ich das alles stehen und liegen lasse und dafür einen Wissens-Hub aufbaue, dann bin ich da dagegen.
+[37:51] Weil das kann man alles machen, wenn man an einem gewissen Grad ist.
+[37:57] Wenn du schon zu 80 Prozent durch bist, dann ist das um Treffik reinzuziehen oder die KI zu fördern, völlig okay.
+[38:05] In deinem Fall sogar noch mehr okay, wenn du das als Arbeitserleichterung hast. Ich sag dir ehrlich, dass aber ich, wie gesagt, bei vielen Kunden sehe ich das eben nicht.
+[38:14] sehe eher, dass wir bei vielen Sachen aber noch am Anfang sind.
+[38:21] Und da würde ich erst mal gucken, dass man diese ganzen anderen Baustellen behebt. Ja.
+[38:29] Und Ja, also immer nach Fall geordnet und dann dann entscheiden und Energie sinnvoll investieren.
+[38:43] Zum Beispiel, ich schwenke jetzt mal kurz rüber.
+[38:45] Wir wollten ja AI, eine Sache, wo es ja möglich wäre, dass man die AI füttert, wäre und jetzt kommt es mit YouTube.
+[39:01] Ja, YouTube. hat hinten im YouTube Studio unter den Einstellungen.
+[39:09] Ich mache mal den Weg durch.
+[39:11] das ist, ich gehe zu YouTube, ich gehe zu YouTube Studio, ich gehe zu Kanal und unter Kanal gibt es einen Reiter, der heißt erweiterte Einstellungen.
+[39:24] So, jetzt sind hoffentlich alle da, die zugehört haben, gleich mitgebaut.
+[39:28] Unter den erweiterten Einstellungen gibt es im YouTube Channel die Möglichkeit, deine Inhalte den AI-Modellen dieser Welt zum Training zur Verfügung zu stellen.
+[39:39] Das ist standardmäßig ausgeschaltet. Also alle YouTube-Inhalte sind nicht standardmäßig fürs Training vorgesehen.
+[39:48] Google alias YouTube hat das blockiert und das ist im Standard aus. Jetzt gibt es da einen Knopf unter diesen erweiterten Einstellungen, wo man sagen kann...
+[40:00] Ich möchte meine Inhalte dem Training freigeben und dann kann man sogar noch die Modelle wählen und da sind alle großen dabei.
+[40:08] Da ist OpenAI mit Chechie Petit dabei.
+[40:13] ist Bait Dance aus China, TikTok, Apple, Perplexity, Amazon.
+[40:26] Da sind wirklich die großen Das Who's Who der AI-Krauler sind da aufgelöst. Ich könnte die alle mit einem Klick freigeben zum Trainieren meiner Daten.
+[40:35] Also meine Videos wären zum Trainieren der Daten. Jetzt habe ich das schon zwei, drei Kunden vorgeschlagen. Habe gesagt, du wolltest doch einen AI-Quicktip haben.
+[40:43] Du hast doch einen YouTube-Channel. Da hinten kann ich dir einen Klick setzen. Soll ich das?
+[40:50] Oder möchtest du es vielleicht vorher mit der Geschäftsführung besprechen? Weil ich gebe ja wissentlich...
+[40:58] Also es wäre ein Klick, ein Quicktip, ja, natürlich will ich das. Mach mal an. Und ich hätte gedacht, dass die alle sagen, ja, ich gebe das frei.
+[41:07] Aber erstaunlicherweise kamen zwei von diesen drei zurück und haben gesagt, nein, wir machen das nicht.
+[41:14] Und jetzt ist die Frage an alle da draußen.
+[41:19] Würdet ihr, wenn ihr könntet, eure YouTube Videos freigeben zum Trainieren der ganzen EI-Modelle.
+[41:29] In der Hoffnung, dass man vielleicht zitiert wird, in der Hoffnung, dass man als Quelle erscheint, was auch immer, dass wenn Leute nach einem SEO suchen, dann finden sie immer nur Leute mit Brille wie dich und mich.
+[41:43] Ich weiß es nicht, wie das gehandhabt wird. Man wird auch nicht dafür bezahlt, leider leider.
+[41:49] Also es ist ein verdient wahrscheinlich damit Geld. ich mir vorstellen. Naja, ich glaube, warum bieten sie es denn an?
+[42:00] Die werden diese Abbieter bestimmt in irgendeiner Form zur Verfügung stellen. So ganz die Mutter Teresa sind sie ja auch nicht.
+[42:10] Aber du als Anbieter kriegst erstmal nicht. Aber die große Frage an alle da draußen, kennt ihr diesen Knopf?
+[42:16] Und wenn nicht, dann kommentiert mal oder sagt mal, ja, ich habe den gefunden und ja, habe ich freigegeben. Danke für den Tipp.
+[42:23] Nein habe ich nicht freigegeben aus den Gründen von... Das würde mich nämlich mal wirklich interessieren.
+[42:29] Ist die Möglichkeit per Klick dem Grauler diesen ganzen Wutsch hinzugeben. So.
+[42:37] man es, macht man es nicht. Und dann kommt es ja auch wieder, man müsste wieder messen.
+[42:43] Man müsste jetzt vorher schon den AI...
+[42:47] den AI-Tracker oh und dann in drei oder in sechs Monaten nochmal gucken, hat dann überhaupt der Klick was gebracht.
+[43:18] das wäre ja dann nur, ich kann es im Moment, muss man auch ehrlich sagen, ich kann es dir im Moment nicht sagen, weil wie gesagt, zwei Kunden haben das abgelehnt.
+[43:28] Da kann ich also nicht mit messen. ist sowieso, aber das wäre mein Experiment. Was bringt denn sowas?
+[43:35] Ich weiß nicht, ob das vielleicht Bild-KIs für die Stimmen-KIs, für was wird das verwendet? Ich habe es mir vorhin nochmal durchgelesen.
+[43:43] Google gibt das raus. Sie wissen auch nicht, was die Anbieter damit machen. Hochinteressant. Du gibst halt einfach alles raus.
+[43:51] Wenn du jetzt dieses Interview hier auf oder diesen Gespräch da freigehen willst, dann sind wir beide plötzlich Trainingsbestandteile.
+[44:03] Ja, es ist schon eine valide Frage, so was wird damit gemacht. Gibt es dann plötzlich AI-Jerk oder gibt es AI-Antonio?
+[44:11] Also insofern kann man ja, kennt ihr die AI ja, irgendwie kopieren.
+[44:19] Unsere Stimme, könnte unser Aussehen kopieren, unsere Inhalte kopieren. Das schon nicht so ohne diese Frage.
+[44:29] Das ist schon...
+[44:31] bedenklich auf der anderen seite ne also die frage halt auch wirklich was es bringt so ne also ist man ist man da nur ein ganz kleines rädchen irgendwo wahrscheinlich ne also unter
+[44:41] millionen von youtube videos kann man ja gar nicht die masse irgendwo bringen dass man da vielleicht irgendwo auch relevant ist außer man hat vielleicht so so speziellen content
+[44:54] dass man da irgendwo dann irgendwie vielleicht genannt wird Aber ich glaube, es ist sehr unwahrscheinlich oder sehr schwer messbar, dass man da irgendwie eine Relevanz raus messen kann.
+[45:09] Und die Gefahr, dass man dann so alles von einem her gibt, ist schon relativ groß.
+[45:18] Alles Spekulation. Ich würde jetzt nicht sagen, das ist ja der Monster Impact.
+[45:25] Ich kann mir schon vorstellen, dass wenn dann irgendwo mal in so Modellen ein Video referenziert werden würde als externe Quelle, vielleicht wirst du dann bevorzugt
+[45:41] referenziert, weil du ja freigegeben hast oder vielleicht auch weil da hinten das Transkript mitgesendet hat.
+[45:51] Ja das ist schon möglich. Für Leute die Hardcore AI wollen, ja feuerfrei.
+[46:01] wäre das jetzt so ein Ding. Was kann man noch machen? Lass uns mal noch zusammentragen.
+[46:10] Ich hab mich ja auch kurz vorbereitet gehabt. Was haben wir dann noch gehabt? Referrer sind eigentlich auch ganz gut.
+[46:18] Die Referrer also zu messen.
+[46:21] Also wenn du zum Beispiel einen Klick hast, czechvet.com hast du ja als Referrer dann in deiner URL und dann kannst du es bei Google Analytics tracken.
+[46:33] Ja, genau, ja, Chachi Pitti hängt ja den Trekking-Parameter dran.
+[46:39] Cleverer Zug, weil sie erscheinen jetzt natürlich in den Analytics der Welt und das sind diese wenigen Klicks, ja, wir reden ja wahrscheinlich nur noch über die Erscheinung, aber wenn dann jemand wirklich mal auf eine Seite draufkommt, dann...
+[46:58] wird das in Analytics protokolliert und kann man messen und kann man in Analytics sich ein Dashboard bauen?
+[47:04] Ich glaube du hattest eins oder irgendwie die, ich habe es auch beim Kunden schon gesehen, Umsatz über Chachipiti, im 0,0 Bereich, aber ja es gab einen Umsatz, natürlich und vielleicht ist das ja ein Prozent des Umsatzes irgendwie.
+[47:24] Ja, ja natürlich dann. kann es zumindest sehen.
+[47:30] ist jetzt nicht Nonsens, aber es ist jetzt auch nicht so, dass ich jetzt sage, da renne ich jetzt, stecke ich jetzt mal 99 Prozent meiner Energie rein.
+[47:38] Das ist für die Zukunft schon, aber der erste Ansatz wäre natürlich erstmal Analytics gucken.
+[47:47] Hat mich Chetchipity schon verlinkt. Und wenn du Glück hast, dann hat er mir schon Umsatz gebracht.
+[47:55] Also wie gesagt, bei einem Kunden habe ich schon gesehen.
+[47:57] hatte in unserem, das war ja In unserem anderen Podcast, den wir davor, hatte ich ja auch eine andere Auswertung gehabt. Da ging es um den Traffic.
+[48:05] Da war der Traffic bei 0,44 oder so. Jetzt hatte ich eine andere Auswertung.
+[48:11] Da ging es darum, wie oft wurde das gebucht. Und da war tatsächlich in den Treffi-Quellen tatsächlich eine Buchung auch aus Chetchipiti dabei.
+[48:22] Man leider nicht nachzuvollziehen, welcher Prompt oder welcher Weg dahin geführt hat. Hm.
+[48:30] Das ist bisschen schade.
+[48:33] Ja, ich frage mich auch, wann GPT oder OpenAI dann auch vielleicht mal auch die Daten so rausbringt, ob es irgendwie so eine GPT-Konsole gibt oder sowas, GPT-Insights, so wirklich
+[48:50] First-Party-Data, also wie die Konsole, eine Google Search-Konsole, weil das wäre sehr, sehr interessant, Daten die halt auch bringen, in welcher Form.
+[49:03] ob man da irgendwelche Marken hinterlegen kann.
+[49:07] Das würde das ganze Spiel schon auf eine andere Stufe bringen, weil momentan Promts irgendwie zu tracken und so, das ist ja halt einfach so ins Blaue ein bisschen geraten.
+[49:21] Also wenn ich, wenn ich Shatchi-Biti wäre, würde ich dir das als allerletztes zur Verfügung stellen, wenn überhaupt.
+[49:29] Weil ich will ja nicht, dass du in meinem Modell rumfummelst. Das machen meine Ingenieure, die fummeln an dem Modell rum. Ich stelle es dir zur Verfügung, wenn ich deine Kohle haben will.
+[49:38] Wenn du deinen Shopping-Feed bei mir einreichen sollst, weil ich weil ich dir über Produktplatzierung Geld abknüpfen möchte.
+[49:51] Dann setze ich dir eine Konsole zur Verfügung dafür oder oder wir kommen ja auch noch bestimmt logischerweise kommen wir irgendwann in das Level mit Ads.
+[49:59] Ist ja noch offen. Aber ich glaube es gab es war auch ein zwei Wochen her in EIO Overviews wurden schon Ads gesichtet.
+[50:12] Natürlich geht der Weg dahin. Aber die Modelle die sind ja auch alles keine wie gesagt die sind auch die wollen Geld machen und
+[50:21] Wir als Seos, wir sollen doch da nicht in deren Dings rumfummeln und wir sollen garantiert auch nicht sagen, wie man die Modelle manipuliert oder trainiert oder irgendwas.
+[50:36] Das werden sie ja als als Geheimnis wegschließen wollen. Weil das ist ja ihr Standing.
+[50:44] Die kommen dann nur zu dir und sagen, jetzt wollen wir richtig Geld mit dir machen.
+[50:49] Gib mal deine Sitemap, deine Shopping-Feed und ach so und übrigens allen Traffic, die ach so und die Leute können bald bei uns auschecken, weil wir brauchen dich gar nicht mehr.
+[51:00] Du bist nur noch so ein Affiliate, aber die 20 Prozent, die machen wir schon.
+[51:07] Dann bist du bloß noch der Deliverer, der die Pakete packt und du hast, du mannisch den Traffic nicht mehr oder nüscht.
+[51:14] Du kriegst die ganzen Aufträge alles so. Bist du ein Affiliate davon? Da wollte Google ja schon viele, viele Jahre hin.
+[51:21] Vielleicht wird das jetzt, lassen, Google lässt ja sowieso gerne mal Chat-City vorlaufen.
+[51:28] Dann entsteht da Akzeptanz. Und wenn die Akzeptanz da ist, dann drücken sie das raus, was sie da eigentlich schon machen wollten.
+[51:37] Aber dass sie uns eine Konsole, also Google hat ja auch schon gesagt, um in AI, schon die Standard Aussage musste ich herzlich lachen, um in AIO zu erscheinen.
+[51:48] brauchst du absolut nichts machen. Es reicht, deine Nutzer glücklich zu machen. Das singen die seit 15 Jahren.
+[51:58] nein, mach einfach, konzentrier dich bitte auf die glückliche Nutzer. Ja, haben sie ja auch ein bisschen recht.
+[52:06] Aber sie werden dir natürlich nicht sagen, ja, ach so, übrigens in EIO zu erscheinen, da musst du Stellschraube XY drücken.
+[52:13] Dafür brauchst du wieder Leute mit Experimentierlaune. nennen sie Seus.
+[52:21] Das sind ja die Leute, da über Jahre diesen Ping-Pong und dann immer geguckt haben, wo kommt was raus, wo kann man hier noch machen.
+[52:30] auch im sauberen Bereich, alles gut. Da muss man gucken, welche Maßnahmen da was...
+[52:37] Also man muss halt sagen, es ist halt ein Spiel.
+[52:42] dem Sinne, Google OpenAI gibt so bisschen Daten weiter und dann gucken die sich aus, was kann ich damit anfangen, wie kann ich da irgendwie Interventionen draus machen, messen und
+[52:57] so. Und dann ist es ja mal so ein Wettkampf eigentlich, so ein Spiel gegen die Zeit.
+[53:02] Die Ergebnisse werden optimiert, Algorithmen werden irgendwie Durchleuchtet aus wie bei LinkedIn.
+[53:09] Da gibt es halt manche Leute, die haben LinkedIn mehr verstanden als andere. Und die nutzen das halt für dich.
+[53:15] Und dann kommt LinkedIn wieder und macht ein neues Algorithmus-Update. Und dann bricht der Traffic ein.
+[53:22] Und dann denken viele, LinkedIn ist tot. Und das Ähnliches ist ja auch bei Google oder bei OpenAI dann wahrscheinlich.
+[53:32] Ja, also ich glaube, es macht total Sinn, sich wirklich, jetzt spreche ich mal wie Google, es macht total Sinn, sich in seine Zielgruppe zu verlieben, weil die haben echte Fragen.
+[53:50] Wenn wir über Frage-Antwort-Spiel reden, meine Güte, wie oft, die Zielgruppe zu verstehen ist, wir sind ja im Marketing
+[54:02] Tätig Zielgruppe zu verstehen ist glaube ich dass das Haupt key Ding den Wohlgesonnen zu sein Die zu auch zu befragen oder an Suchwörtern zu erkennen was drückt bei denen wollen
+[54:16] die Nachdem sie die was ich nachdem sie bei mir die weißen Sneaker gekauft haben Suchen sie ja vielleicht noch das Ding wie ich diese schön weißen Sneaker reinige, weil die so oft dreckig werden.
+[54:31] Da muss man gucken, dass man da nett zu der gesamten Zielgruppe und die so gut wie möglich
+[54:50] glücklich macht, dass die dann gut über mich sprechen, dass die gern wiederkommen, dass die mich empfehlen, dass die freiwillig über die Links sharen, dass die eben freiwillig das machen.
+[55:03] Ich glaube, das ist eine gute Idee, überhaupt erstmal einen tollen Service anzubieten und die ganzen Technik klar wichtig, aber die
+[55:20] die Zielgruppe wirklich so abzuholen und dann auch mit Formaten.
+[55:29] Wenn wir jetzt hören, wir müssen mehr rausgehen und wir müssen mehr Portale bespielen, dann versuch doch mal aus deinem Content, wenn du jetzt schon deine Webseite hast und da
+[55:42] ein Bild hast, versuch doch mal daraus ein Video zu machen.
+[55:50] Bei Videokreationen scheitern die Leute ja oft.
+[55:52] Aber vielleicht ist dann ja das die Möglichkeit wirklich mal eine AI anzuschmeißen und ich probiere jetzt da mal ein Video daraus zu generieren, dass ich Videokontent habe, dass ich
+[56:03] einfach diesen Sprung rausschaffe von textlich, bildlicher Darstellung, was ja viel Netz vertreten ist.
+[56:12] Aber wenn ich jetzt diese ganzen TikToks, YouTubes noch nicht habe.
+[56:18] dann probiere ich doch mal da ein Video hinzuschieben. Am besten Hochformat, Querformat, alles sowas.
+[56:24] Es ist weder eine Erscheinungsquelle mehr, ich dabei sein kann. Und ja, auch bitte hier nicht den Praktikanten ranlassen.
+[56:34] Das würde wahrscheinlich ein bisschen... Auch da mal einfach, es gibt ja tolle Freelancer, die sowas für vertretbares Geld machen, auch mit einer guten Qualität.
+[56:46] Das muss ja auch irgendwie stimmen. nur was gemacht zu haben, ist ja auch immer nur so die eine Seite.
+[56:54] Ich glaube, da werden viele auch, ich sehe es ja jetzt schon, viele verfallen in so einen Aktionismus. muss jetzt, aber es reicht doch, wenn man die richtigen Stellen macht.
+[57:07] Also mehr draußen auftreten ist glaube ich eine tolle Idee.
+[57:14] Dann gucken welche Portale sind da sinnvoll.
+[57:20] Vielleicht ist es ja das Video, vielleicht ist es die PDF Datenbank.
+[57:30] Dann einfach mal da was hin produzieren. Ich denke auf jeden Fall, dass man, wie du schon am Anfang gesagt hast, erst mal Ruhe bewahren soll.
+[57:41] Also aktuell, also es ist ja noch nicht der große Marktanteil, aktuell verdient noch keiner damit groß Umsatz.
+[57:50] Das kann man auf jeden Fall schon sagen. Und dann einfach mal in die Analyse geht, also fromts schaut, was kommt da raus.
+[58:01] Dann nochmal, wie du auch gesagt hast. noch mal vielleicht ein paar Wochen, Monate noch mal schaut und dann auch vielleicht natürlich AI irgendwie nutzt als Tool sozusagen.
+[58:13] Das machen sowieso viel zu wenig, also richtig so irgendwo.
+[58:18] Weil am Ende ist ja einfach nur so ein Tool und dann genau einfach auch Zielgruppenarbeit macht, nochmal die Reflektion geht und natürlich auch Sios, Bidu und mich.
+[58:34] beauftragen, das halt irgendwo auch systematisch und auch professionell zu machen und nicht irgendwie Hals über Kopf irgendwas zu machen, ohne irgendwie Sinn im Verstand.
+[58:53] Wer jetzt hier Geo-Optimierung anbietet und ist im Herzen gar kein SEO, das kann eigentlich nur Quatsch weil die Übersteirungsrate liegt meiner Meinung nach bei 70 Prozent.
+[59:10] Zu dem, was wir SEOs schon die ganzen Jahre gemacht haben und dann...
+[59:16] Also wer jetzt nur Geo-Optimierung anbietet, da wäre ich sehr vorsichtig, weil am Ende musst du trotzdem noch rein und musst die Sachen da klatschen.
+[59:30] Aber auch ich würde es als SEO nicht einfach nur mitmachen. Nochmal zum Schluss sage ich jetzt gleich, ich mache es gern, das ist aber auch ein separater Baustein.
+[59:44] Das ist genauso wie wenn du sagst, ich will jetzt ein neues Land bespielen.
+[59:51] Du bespielst damit ein neues Land, eigenen Kanal. So wie du es gesagt hast. Das ist ein eigener Kanal, der sich leider noch nicht gut messen lässt.
+[59:59] Das ist ein bisschen doof, aber das ist durchaus ein eigener Kanal und das...
+[01:00:07] werden werde ich persönlich nicht einfach so mitmachen, wenn jemand bei mir Seehofer auftragt.
+[01:00:15] Ich nehme mich dem gerne an und gucke da auch, was in dem Fall passt. Aber das ist natürlich separat.
+[01:00:25] Das ist separate Arbeit und ich habe ein bisschen die Vermutung, dass das doppelt Arbeit ist.
+[01:00:30] Weil gut, meinem Google-Universum, da kenne ich mich aus, das ziehe ich dir, das ziehe ich dir relativ schnell glatt.
+[01:00:40] Okay, alles was so da in dem Ding drin ist. Aber wenn ich dann rausgehen muss, okay, ich muss jetzt hier eine PDF Datenbank befüllen, dann gut, geht vielleicht noch.
+[01:00:50] Aber wenn ich hier so weitere Open Datenbank, Stadtportale oder was ich, Knowledgecraft, Entitäten, Markenaufbau, Presse, was sagen die Leute dann immer?
+[01:01:03] ja, musst jetzt Presse, ja, musst du machen. Ich habe es auch gesehen. wurde referenziert, Pressemitteilung 2018. Der wurde aus einer Pressemitteilung von 2018.
+[01:01:13] Ja, da hat sich den sein PR ausgezeichnet. Glückwunsch, tolle Sache.
+[01:01:18] Jetzt kann ich nicht hingehen und sagen, du, ich mache jetzt Pressearbeit für dich mit.
+[01:01:26] Ist jetzt auch die Frage, wo, wo, ja, ist der Kunde überhaupt fähig, mir eine Pressemitteilung zu generieren?
+[01:01:33] wenn man das Das ist ein großes Spielfeld. Ja, rausgehen auf anderer Plattform, alles gut. Überall gleicher Slogan, gleicher Claim.
+[01:01:42] Auch Hinweis. Schon mal über den gleichen Slogan, gleichen Claim nachdenken. Am besten so ein Dings, wo ich kurz mein Unternehmen beschreibe, wo auch bisschen Keyword drin ist.
+[01:01:53] Und das musst du ins Netz auf 50 Portalen bringen. Das mache ich nicht im normalen SEO mit. Das ist eine extra Diensteleistung.
+[01:02:02] Na. Da müssen sich Leute auch drüber bewusst werden. Und wenn die sagen, ja, jetzt will ich das auch noch messen. ich habe eine Idee, wie wir was messen können.
+[01:02:09] Wir hatten ja beide darüber gesprochen. SE Ranking hat ja dieses Tool EIO Trecker.
+[01:02:18] Ja, ja, das ist ein separates Tool. Und wenn ich dich da als Marke anlege und als Projekt anlege, dann kostet das Geld.
+[01:02:27] Ist einfach so. Ich kann auch zu Zistrix gehen, Zistrix habe ich auch, aber da sind auch irgendwann die Kapazitäten begrenzt.
+[01:02:38] Also wenn ich diesen Baustein vollständig richtig bespielen will, ich also ich muss ja nochmal neues Werkzeug, neue Ideen, neuen Kram hernehmen.
+[01:02:50] Den generiere ich zwar aus 70 Prozent SEO Arbeit vorher, aber ich muss ihn ja trotzdem da noch da rausbringen. Hmm.
+[01:03:00] Das wird extra Geld kosten. es ist auch nicht einfach so mitgemacht.
+[01:03:07] Ja, sei doch einfach eine Marke. Entschuldigung, wie bin ich denn einfach eine Marke? Ja, Markenarbeit, ich mach's gerne.
+[01:03:16] Ich glaube, wir verschmelzen auch mit diesen Unternehmensleuten, mit diesen Unternehmensberatern.
+[01:03:21] Und die sind gut beraten, auch uns mal zu hören, viel technisch inhaltlich, ja, so technisch.
+[01:03:29] ich finde, ist so digitaler Markenaufbau.
+[01:03:33] ist eigentlich, das ist schon, also der René, der sagt das auch immer, digitaler Markenaufbau.
+[01:03:43] Ich weiß gerade nicht, wie er nach meinem heißt. Aber den kennste auch. Ja, genau, Demand. Ja, Demand.
+[01:03:52] Genau, der sagt das auch immer, digitaler Markenaufbau. SEO ist digitaler Markenaufbau.
+[01:03:58] Und so sehe ich das auch.
+[01:04:02] in dem Sinne müssen uns ja eigentlich Branding-Spezialisten auch Seos viel mehr zu Rate ziehen, wie sichtbar ist meine Marke, wie viel Interesse hat meine Marke, dass ja auch dann wieder so bisschen wie Seo-Arbeit auch so traditionell ist.
+[01:04:18] Aber wie, welche Portale sind oder welche Presseartikel sind wichtig, um da Pressearbeit zu machen.
+[01:04:26] Also das ist ja jetzt Es gibt ja Millionen von Fachmagazinen irgendwo und die sind ja auch immer sehr spezifisch.
+[01:04:32] Zum Beispiel bei Fashion, Beauty ist das halt Vogue, Brigitte und so weiter und so fort.
+[01:04:43] Bei Männer ist das was ganz anderes oder irgendwie GQ oder Manager Magazine, das ist eher so andere Bereiche.
+[01:04:53] Insofern hat man ja auch nicht unendlich Geld. in jedem Markenportal da irgendwie zu erwähnt zu werden.
+[01:05:02] Geld schadet nicht, das sage ich gleich.
+[01:05:09] Pressearbeit kostet auch Geld. Das beste Setup ist immer, wenn es intern jemanden gibt plus jemanden extern.
+[01:05:20] Ich brauche eine Schnittstelle im Unternehmen, mit der ich kommunizieren kann.
+[01:05:26] uh dicht am Thema dran ist, der jetzt nicht auf Praktikant-Level ist, sondern vielleicht ein bisschen dem Marketing-Manager, der, der auch intern mir mal sagt, was wirklich der Value
+[01:05:39] der Company ist und der auch die Fähigkeit hat, mal einen Newsletter rauszudrücken oder, oder, weil wenn man dieses Spiel zusammen macht, dann geht's vorwärts.
+[01:05:48] Ja, dann brauchst du einen internen Manager und am besten einen externen Manager, der dir auch dann noch zuarbeitet und dann so in diesen Dings danach nach vorne geht und dann kannst du auch Markenaufbau machen.
+[01:06:00] Dann schaffst du das auch mit zwei, drei Leuten durchzuspielen.
+[01:06:05] Zumindest den Grundstock aufzusetzen, um diese Search Everywhere Optimization hinzubiegen.
+[01:06:16] Und ich glaube, ja, ich wollte schon sagen, ja, okay, alles gut.
+[01:06:22] die, wie gesagt, ist, ich,
+[01:06:26] gute Idee, sich alle seine Sachen intern mal anzugucken und da auch willens zu sein, ändern.
+[01:06:40] Aber wenn wir jetzt rausgehen, es gibt ja diesen Konsens, mach den Slogan und den Claim gleich.
+[01:06:51] da sind manche gar nicht willens. Hm. kann ja auch sein. Du bist ja immer nur so gut wie die Firma, mit dir mitspielt.
+[01:07:01] Da musst du auch liefern. Und wenn der CEO zu dir kommt und sagt, ich brauche jetzt mal einen PDF und du lieferst es nicht, dann kann er sagen, kann dir, kreiere, dann brauche ich es mir selbst.
+[01:07:12] Da muss wieder abgesegnet werden und und und. Aber ich glaube, es sind Prozesse und ich sind ja.
+[01:07:22] Every company is now a tech company. Das hat mal irgendeiner gesagt. jede Firma ist jetzt eine Tech-Firma.
+[01:07:31] Ich weiß nicht, ob es für den Maler zutrifft, aber es funktioniert halt so.
+[01:07:36] Sichtbarkeit draußen am Netz kommt über digitale Medien, kommt über glitze kleine Bildschirme von deinem Smartphone, von irgendwelchen Kanälen, die alle in irgendeiner Form digital sind.
+[01:07:51] Hm. beraten, Know-how auch aufzubauen und auch eine Mannschaft extern, intern, da rangeht.
+[01:08:03] dann wird das was. Und dann kann man auch mal schöne Experimente fahren.
+[01:08:08] das war ja, jetzt kommen wir aber wirklich zum Schluss, glaube ich, das war ja das, was wir anfangs sagten, wir sind noch im
+[01:08:17] Experimentierlevel, sind noch im Forschungslevel, weil ich persönlich habe jetzt noch keinen Jubel hören, hey, ich habe mit der Maßnahme XY vielleicht, ich habe drei Sprünge im LMM nach oben geschafft.
+[01:08:34] Das kam ja noch nicht. Bislang kam immer nur die Spekulation.
+[01:08:39] Ja, valide Spekulation, wo man sagt, ey, wir denken diese, diese Maßnahmen, die könnten es sein.
+[01:08:46] Aber was davon jetzt den Impact wirklich bringt. Und ich freue mich auf die Reaktionen. Wir haben es ja mit dem YouTube angesprochen.
+[01:08:54] Interessiert mich persönlich wirklich, wer das freigibt. Ja, das würde ich gerne.
+[01:09:01] Und ansonsten noch guckt uns unseren ersten Podcast nochmal an und vielleicht gibt es ja auch noch einen späteren Podcast. Ja, sicherlich.
+[01:09:09] auf jeden Fall drei bis sechs Monaten gibt es wahrscheinlich wieder ganz neue Erkenntnisse zu AI oder Generalisio.
+[01:09:17] hat sich das entwickelt? Weil man muss ja sagen, letzten Jahr hat sich ja so viel entwickelt, das hätte man ja nicht geglaubt.
+[01:09:25] Letztes Jahr gab es ja noch nicht mal AI-Overviews. Da war noch nicht mal die Vermutung da, wann bringt das Google überhaupt raus?
+[01:09:33] Und jetzt ist es halt schon da so. seit ein Monaten und solche Entwicklungen. Ich kann mich ja nicht vorhersehen.
+[01:09:45] Es bleibt hochspannend. Also schaltet wieder ein.
+[01:09:49] sage Antonio, vielen, vielen Dank, dass ich bei dir zu Gast sein darf, auch wenn ich immer viel quassel und wir schon wieder über die Stunde drüber sind.
+[01:10:00] Es ist mir eine Freude. Ich lerne auch dabei was. Ja, also vielen Dank und bis zum nächsten Mal.
+[01:10:11] Ja, sehr gut. Vielen Dank und genau, sehen uns. Ciao. Tschüss!

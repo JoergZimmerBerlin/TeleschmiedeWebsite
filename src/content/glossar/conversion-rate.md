@@ -45,11 +45,18 @@ Wenn KI-Systeme deine Daten parsen und den Nutzer direkt zur Problemlösung leit
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Wahre Conversion-Rate-Optimierung findet heute nicht mehr in Photoshop oder bei Button-Farben statt, sondern in der Chrome-Entwicklerkonsole und am Node-Server. Wenn deine API nicht unter 200 Millisekunden antwortet und der Main-Thread beim Checkout blockiert, rettet dich auch der beste Psychologie-Trick nicht vor dem Kaufabbruch.“
+    „Eine Conversion sagt mehr als tausend Worte. Bei all den Kennzahlen, Klicks und Rankings geht es am Ende nur darum mehr Conversions zu erzielen. Nur dann macht dein Traffic Sinn.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
-    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
-    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7029859987283664898" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: LinkedIn-Beitrag von Jörg Zimmer</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
       Jörg Zimmer auf LinkedIn folgen →
     </a>
   </figcaption>

@@ -44,11 +44,18 @@ Nutzer erwarten heute synthetisierte Antworten, die Vor- und Nachteile abwägen,
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Klassisches SEO bringt dich ins Ranking, aber LLMO bringt dich ins KI-Zitat. Wer heute noch glaubt, mit generischen Textwüsten die Aufmerksamkeit moderner Sprachmodelle zu gewinnen, verliert den Anschluss. Sprachmodelle verarbeiten Vektoren und semantische Fakten. Wer seine Daten nicht maschinenlesbar strukturiert, wird in den RAG-Pipelines der KI-Giganten schlichtweg übersehen.“
+    „Ich möchte meine Inhalte dem Training freigeben und dann kann man sogar noch die Modelle wählen und da sind alle großen dabei. Da ist OpenAI mit Chechie Petit dabei.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
-    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
-    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2400s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (40:00)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
       Jörg Zimmer auf LinkedIn folgen →
     </a>
   </figcaption>

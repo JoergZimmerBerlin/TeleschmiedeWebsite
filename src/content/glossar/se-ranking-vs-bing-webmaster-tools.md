@@ -54,11 +54,18 @@ In diesem Praxis-Vergleich analysieren wir, warum Bing Webmaster Tools für dein
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Die Bing Webmaster Tools sind der heimliche Star für die neue Generation der KI-Antwortmaschinen: Wer IndexNow ignoriert, lässt bares Geld auf der Straße liegen, weil Copilot und ChatGPT deine frischen Inhalte nicht mitbekommen. Aber wer glaubt, damit eine vollwertige Google-SEO-Strategie ersetzen zu können, verwechselt ein einzelnes Werkzeug mit einer kompletten Autowerkstatt. Google ist der Markt – und für Google brauchst du ein scharfes Werkzeug wie SE Ranking.“
+    „Markt, der der 5% hat und das ist Bing. So. Und jetzt jetzt die Frage, nutzt du Bing? Bing. Okay, also ganz gelegentlich mal, wenn ich mit meinem iPhone suche, weil die iPhone Suche glaube ich von vorne rein auf Bingen basiert.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
-    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
-    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=1121s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Magic Writing Podcast (18:41)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
       Jörg Zimmer auf LinkedIn folgen →
     </a>
   </figcaption>

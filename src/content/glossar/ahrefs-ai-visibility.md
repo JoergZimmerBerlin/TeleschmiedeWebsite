@@ -29,32 +29,37 @@ Für Marken entsteht dadurch ein massiver blinder Fleck: Wer in den synthetisier
 
 **Ahrefs**, einer der globalen Marktführer für SEO-Infrastruktur mit Sitz in Singapur, hat diese Marktentwicklung frühzeitig adressiert. Mit dem Launch des **Ahrefs Brand Radar** bindet das Unternehmen das [KI-Sichtbarkeits-Monitoring](/glossar/ki-sichtbarkeit/) nahtlos an seine gigantischen Datenbestände an. In diesem Fachbeitrag untersuchen wir die Funktionsweise des Moduls, beleuchten den Nutzen sogenannter *Search-backed Prompts* und vergleichen die Lösung mit Alternativen wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer).
 
-<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
-  <img 
-    src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-    alt="Jörg Zimmer" 
-    class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-2 border-lime-accent shadow-md flex-shrink-0"
-    loading="lazy"
-    width="96"
-    height="96"
-  />
-  <div class="flex-1 text-center md:text-left">
-    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
-      "Ahrefs hat mit dem Brand Radar ein entscheidendes Problem gelöst: Die Verknüpfung von realem Suchvolumen mit KI-Prompts. Es nützt Ihnen gar nichts, wenn ChatGPT Sie bei einer theoretischen Frage nennt, die im echten Leben kein einziger Kunde stellt. Die Kunst im Jahr 2026 besteht darin, bei jenen Prompts ganz oben zu stehen, hinter denen echte Kaufabsicht und hohe Budgets stecken."
-    </blockquote>
-    <figcaption class="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-3 border-t border-neutral-200 text-xs text-neutral-600">
-      <div>
-        <span class="font-bold text-dark text-sm block md:inline">Jörg Zimmer</span>
-        <span class="hidden md:inline"> | </span>
-        <span>Senior SEO & AI Search Consultant</span>
-      </div>
-      <cite>
-        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
-          LinkedIn Profil &rsaquo;
-        </a>
-      </cite>
-    </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wo willst du denn erscheinen? Soll ich mich für dich, soll ich mit Perplexity in den Knuddelkampf gehen oder soll ich mit Deep Seek das machen oder willst du, wollen wir Open AI machen, also ChatGPT?“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+      <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+      <span class="text-neutral-300 hidden sm:inline">•</span>
+      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1108s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (18:28)</span>
+        <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+      </a>
+    </div>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 ## Die Kernfunktionen des Ahrefs AI Visibility Trackings

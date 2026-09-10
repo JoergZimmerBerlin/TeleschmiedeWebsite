@@ -1,0 +1,2266 @@
+{
+  "videoId": "pJFZzv5LEvk",
+  "title": "Folge 5: Was ist dran an AI SEO oder GEO? Mit SEO Experten Jörg Zimmer",
+  "snippets": [
+    {
+      "start": 21,
+      "text": "Ja, herzlich willkommen Jörg Zimmer zum Podcast zweiter Teil.",
+      "timeStr": "0:21"
+    },
+    {
+      "start": 26,
+      "text": "Wir haben auf jeden Fall im ersten Teil schon viele interessante Themen im Bereich SEO über deinen Werdegang gesprochen und uns nochmal aufgefallen, dass AI ein sehr spannendes",
+      "timeStr": "0:26"
+    },
+    {
+      "start": 39,
+      "text": "Thema ist und wir dann nochmal eine separate Folge dazu machen.",
+      "timeStr": "0:39"
+    },
+    {
+      "start": 44,
+      "text": "Genau, sag einfach mal gerne, was bisher ist, ist ja schon über einen Monat jetzt her, seit unserem letzten Talk, wie es sich da so ergangen mit dem Thema AI, was hat sich Neues ergeben.",
+      "timeStr": "0:44"
+    },
+    {
+      "start": 60,
+      "text": "Antonio, hallo alle Zuhörer und alle Zuschauer.",
+      "timeStr": "1:00"
+    },
+    {
+      "start": 65,
+      "text": "Mein Name ist Jörg Zimmer und ja wir haben schon einen Podcast gemacht und danke Antonio, dass ich bei dir zu Gast sein darf.",
+      "timeStr": "1:05"
+    },
+    {
+      "start": 76,
+      "text": "Es ist mir eine große Ehre mit dir zu sprechen. Macht auch immer Spaß und inspiriert mich auch.",
+      "timeStr": "1:16"
+    },
+    {
+      "start": 86,
+      "text": "Der letzte Podcast hat mir gut gefallen. Ich habe auch gutes Feedback gekriegt von Leuten, die es angehört haben.",
+      "timeStr": "1:26"
+    },
+    {
+      "start": 95,
+      "text": "wir waren ja stehen geblieben, dass wir uns beim letzten Mal verquasselt haben und haben dann gesagt, das große Thema AI und KI-Modelle, Optimierung, wie auch immer man das nennen möchte, das behandeln wir heute.",
+      "timeStr": "1:35"
+    },
+    {
+      "start": 115,
+      "text": "Lass uns gucken, was wir zusammentragen können. Ja, auf jeden Fall.",
+      "timeStr": "1:55"
+    },
+    {
+      "start": 123,
+      "text": "Also das YouTube Video, das war, hatte auf über 100 Views sozusagen.",
+      "timeStr": "2:03"
+    },
+    {
+      "start": 128,
+      "text": "Man muss auch sagen, dass das ein sehr langer Talk war, eine Stunde, also schon enorm.",
+      "timeStr": "2:08"
+    },
+    {
+      "start": 136,
+      "text": "genau, also insofern hat mir auch gesagt, wir wollen so einen Disclaimer auch nochmal bringen, Also, dass das rein auf unserer Basis jetzt auf unserer jetzigen Erfahrung ist im August 2025.",
+      "timeStr": "2:16"
+    },
+    {
+      "start": 154,
+      "text": "Alles Spekulation momentan. Es gibt noch nicht wirklich jemanden, jetzt wirklich fundierte Ergebnisse hat oder wo man auch irgendwie nachvollziehen kann, weil es ja keine offiziellen Daten gibt.",
+      "timeStr": "2:34"
+    },
+    {
+      "start": 167,
+      "text": "Es gibt ja immer nur Third Party Data und keine First Party Data wie Google Search Konsole.",
+      "timeStr": "2:47"
+    },
+    {
+      "start": 176,
+      "text": "Genau. Willst du da noch irgendwas dazu sagen? also wenn ich auch, ich, gut dass du sagst, wenn ich gleich vorneweg was reinwerfen möchte, Leute, relax.",
+      "timeStr": "2:56"
+    },
+    {
+      "start": 188,
+      "text": "Bitte.",
+      "timeStr": "3:08"
+    },
+    {
+      "start": 189,
+      "text": "Das Thema ist neu, das Thema ist groß und ich kenne viele Leute, die jetzt unsicher sind und ist auch klar, weil das, ich sag mal, das Modul oder der Baustein, der da jetzt",
+      "timeStr": "3:09"
+    },
+    {
+      "start": 205,
+      "text": "entsteht mit diesem AI-Kram. Der muss erstmal analysiert werden, muss erstmal begutachtet werden, da müssen echte Experimente gemacht werden.",
+      "timeStr": "3:25"
+    },
+    {
+      "start": 215,
+      "text": "Also alles was ich jetzt hier sage und auch was du sagst, glaube ich, da sind wir uns einig, das ist jetzt keine finale Erkenntnis.",
+      "timeStr": "3:35"
+    },
+    {
+      "start": 223,
+      "text": "Wir sind alle noch im Prozess. glaube die guten Seos sind alle, die geben das auch zu, die sind alle noch im Prozess.",
+      "timeStr": "3:43"
+    },
+    {
+      "start": 231,
+      "text": "Wir gucken und testen und spielen unsere Erfahrung damit rein.",
+      "timeStr": "3:51"
+    },
+    {
+      "start": 239,
+      "text": "Aber wie gesagt, ist jetzt keine Anlageempfehlung, hier das nächste SEO Tool oder den nächsten KI Quick Fix oder irgendwas zu machen.",
+      "timeStr": "3:59"
+    },
+    {
+      "start": 250,
+      "text": "Ich glaube, das ist wichtig. Und man muss es immer auch in Relation sehen.",
+      "timeStr": "4:10"
+    },
+    {
+      "start": 255,
+      "text": "ich habe bei mir in einer Sprechstunde, also meine Video Beratung, ich anbiete, da kommen halt manchmal auch Leute,",
+      "timeStr": "4:15"
+    },
+    {
+      "start": 264,
+      "text": "die die Basics leider noch gar nicht durchgespielt haben, aber schon denken sie müssten jetzt KI machen. Hm.",
+      "timeStr": "4:24"
+    },
+    {
+      "start": 273,
+      "text": "Was soll ich denn da sagen?",
+      "timeStr": "4:33"
+    },
+    {
+      "start": 276,
+      "text": "Ich glaube, man muss strukturiert vorgehen, auch in dem Thema, das ist, ich, ganz wichtig, auch im SEO so, und gucken, welche Schritte machen denn in der jeweiligen Situation Sinn.",
+      "timeStr": "4:36"
+    },
+    {
+      "start": 295,
+      "text": "Das war im SEO schon so und das ist im AIO AI, KI, SEO, wie auch immer man das nennen möchte, ist das auch so.",
+      "timeStr": "4:55"
+    },
+    {
+      "start": 305,
+      "text": "Man muss gucken, was für einen selbst passt. ich glaube, eine Botschaft, ich da gerne rausgehen möchte, erst mal relax gucken.",
+      "timeStr": "5:05"
+    },
+    {
+      "start": 316,
+      "text": "Was macht denn Sinn? Wo will ich denn erscheinen? Wo habe ich wirklichen Bedarf?",
+      "timeStr": "5:16"
+    },
+    {
+      "start": 323,
+      "text": "Kann ich vielleicht nicht erst mal mein SEO-Game durchspielen und dann auf die KI wechseln, weil",
+      "timeStr": "5:23"
+    },
+    {
+      "start": 331,
+      "text": "Da sind wir uns glaube ich einig, Antonio, die Überschneidungsrate der zwei Disziplinen ist relativ hoch.",
+      "timeStr": "5:31"
+    },
+    {
+      "start": 341,
+      "text": "wenn man jetzt in einer EI erscheinen möchte, dann denke ich, dann ich denke so 70 Prozent Überschneidungsrate zu normalem SEO da ist.",
+      "timeStr": "5:41"
+    },
+    {
+      "start": 355,
+      "text": "Weil es geht halt wieder um die klassischen Disziplinen. technisch fit sein.",
+      "timeStr": "5:55"
+    },
+    {
+      "start": 364,
+      "text": "musst deine Inhalte ins Netz spülen, auch für die AI-Krauler.",
+      "timeStr": "6:04"
+    },
+    {
+      "start": 370,
+      "text": "Ja, jetzt nicht nur für den Google-Krauler, auch für die AI-Krauler. Die müssen das also kennen.",
+      "timeStr": "6:10"
+    },
+    {
+      "start": 375,
+      "text": "Du musst da deine Seite strukturiert aufbauen. Die Krauler zulassen.",
+      "timeStr": "6:15"
+    },
+    {
+      "start": 383,
+      "text": "Ja, es gibt vielleicht ja auch den Fall, dass Leute die Krauler blockieren wollen. Gibt's ja auch.",
+      "timeStr": "6:23"
+    },
+    {
+      "start": 388,
+      "text": "Aber ich glaube, das ist viel",
+      "timeStr": "6:28"
+    },
+    {
+      "start": 391,
+      "text": "technisches Spiel, wir da betreiben müssen und deswegen bitte, bitte erstmal die SEO Basics machen und nicht jetzt auf den nächsten AI Hype oder das nächste Geo Checkliste oder irgendwas.",
+      "timeStr": "6:31"
+    },
+    {
+      "start": 409,
+      "text": "Ja, das kommt auch immer auf den Fall an, weil das Spielfeld ist groß und wir wollten ja über Erfahrungen reden.",
+      "timeStr": "6:49"
+    },
+    {
+      "start": 422,
+      "text": "Also wo ich nochmal kurz mal fragen will, so ganz von Anfang an, klar die beiden Disziplinen überschneiden sich und so definitiv warum ist es wichtig auch die SEO Basics für AI zu machen?",
+      "timeStr": "7:02"
+    },
+    {
+      "start": 440,
+      "text": "Also das ist glaube ich nochmal wichtig deutlich zu machen, also da hast du ja auch im Vorgespräch einige Sachen genannt, also Robots, TXT, Sitemap.",
+      "timeStr": "7:20"
+    },
+    {
+      "start": 452,
+      "text": "Was wären für dich jetzt die Maßnahmen, die du als erstes machen würdest, überhaupt AI-ready zu sein, würde ich jetzt mal so sagen.",
+      "timeStr": "7:32"
+    },
+    {
+      "start": 462,
+      "text": "AI ready zu sein. logisch, als SEO selber würde ich sagen, mach erst mal, dass deine Seite in den Top 3 steht.",
+      "timeStr": "7:42"
+    },
+    {
+      "start": 473,
+      "text": "Ich glaube, da kann man doch davon ausgehen, dass zumindest Google das so anerkennt und das wird wahrscheinlich Chachipiti auch so anerkennen, wenn du in den Top 3 stehst.",
+      "timeStr": "7:53"
+    },
+    {
+      "start": 487,
+      "text": "Das wird Bing so anerkennen. wenn du in Top 3 bist, du eine Relevanz.",
+      "timeStr": "8:07"
+    },
+    {
+      "start": 492,
+      "text": "Also dann hast du schon mal einen ganz, ganz großen Sprung gemacht.",
+      "timeStr": "8:12"
+    },
+    {
+      "start": 499,
+      "text": "So was noch, ich, ich würde mir immer den, also und natürlich biete einen guten Service.",
+      "timeStr": "8:19"
+    },
+    {
+      "start": 506,
+      "text": "Vielleicht gehen wir noch mal kurz noch einen Schritt zurück.",
+      "timeStr": "8:26"
+    },
+    {
+      "start": 510,
+      "text": "Die die EIModelle, die die basieren ja auf",
+      "timeStr": "8:30"
+    },
+    {
+      "start": 518,
+      "text": "auf diese Datenbank oder Wissensdatenbank, die sie sich irgendwo aus dem Netz heraus zusammen klauen.",
+      "timeStr": "8:38"
+    },
+    {
+      "start": 530,
+      "text": "Diese großen offenen Datenportale, da versuchen die ja ihr Wissen herzuziehen und dann trainieren sie sich halt und bauen daraus Antworten.",
+      "timeStr": "8:50"
+    },
+    {
+      "start": 542,
+      "text": "Ich glaube, ist eine ganz gute Idee, erstmal auch guten Service zu bieten und auch einen guten Ruf. ins Netz zu spielen.",
+      "timeStr": "9:02"
+    },
+    {
+      "start": 551,
+      "text": "eine Beobachtung, wo ich denke, dass es auch hingeht, diese Modelle, haben ja, wenn man ihnen jetzt mal viel zutraut, dann haben die ja das Wissen der Welt schon, aber sie haben",
+      "timeStr": "9:11"
+    },
+    {
+      "start": 570,
+      "text": "noch nicht den Ruf von dir, also so wie du.",
+      "timeStr": "9:30"
+    },
+    {
+      "start": 576,
+      "text": "wahrgenommen wirst, tatsächliche Wahrnehmung, das Bewertung oder sowas.",
+      "timeStr": "9:36"
+    },
+    {
+      "start": 585,
+      "text": "Ja, es gab ja mal dieses Ding, du musst bei Reddit damit Leute, echte Menschen über dich reden.",
+      "timeStr": "9:45"
+    },
+    {
+      "start": 590,
+      "text": "Ich glaube, das ist eine Idee, wo man drüber nachdenken könnte.",
+      "timeStr": "9:50"
+    },
+    {
+      "start": 596,
+      "text": "Wo kann ich Leute dazu bringen, positiv über mich zu schreiben? Also ich gehe da zurück. Ja.",
+      "timeStr": "9:56"
+    },
+    {
+      "start": 604,
+      "text": "Biete einen guten Service, biete eine gute Marke und sei nett zu den Leuten, dass wenn die dann von selbst sagen, ich lasse eine Sternebewertung da, schreibe dir, also was ich",
+      "timeStr": "10:04"
+    },
+    {
+      "start": 624,
+      "text": "gesehen habe, Proven Expert wäre sowas, Trustpilot sowas, das sind",
+      "timeStr": "10:24"
+    },
+    {
+      "start": 632,
+      "text": "Portale, die von Chetchipity ausgewertet werden, weil da Leute ja Nutzer-Erfahrung schreiben.",
+      "timeStr": "10:32"
+    },
+    {
+      "start": 640,
+      "text": "Kann ich das beeinflussen? Weiß ich nicht. Aber was ich könnte, wäre mein Google-Unternehmensprofil, da sammel ich ja auch Sterne.",
+      "timeStr": "10:40"
+    },
+    {
+      "start": 650,
+      "text": "Könnte man ja auch reingehen. Das ist ja auch wieder so klassische SEO-Arbeit. Google-Unternehmensprofil.",
+      "timeStr": "10:50"
+    },
+    {
+      "start": 659,
+      "text": "Und okay, deine Frage ging dahin, was würde ich als erstes tun?",
+      "timeStr": "10:59"
+    },
+    {
+      "start": 663,
+      "text": "meine Güte, ich würde, würde glaube ich erst mal, man kann ja auch schätzchen die Fragen, dann macht man erst mal dieses Basisfragen.",
+      "timeStr": "11:03"
+    },
+    {
+      "start": 673,
+      "text": "Was weißt du über Antonio Blago? Was weißt du über Jörg Zimmer? Was weißt du über die Firma?",
+      "timeStr": "11:13"
+    },
+    {
+      "start": 680,
+      "text": "Erst mal gucken, dass die Grunddaten da überhaupt drin sind.",
+      "timeStr": "11:20"
+    },
+    {
+      "start": 686,
+      "text": "Ich habe es schon gesehen, er hat zu einer Firma alle Daten richtig aufgeschlüsselt, aber eine falsche Straße.",
+      "timeStr": "11:26"
+    },
+    {
+      "start": 701,
+      "text": "Also völlig falsche Anschrift, völlig auch keine Anschrift, die jemals hatten. Also es hat nicht existiert und dann hat er irgendwas halluciniert.",
+      "timeStr": "11:41"
+    },
+    {
+      "start": 711,
+      "text": "der hat Halluziniert. Der hat auf der Straße Halluziniert. Das krasse ist aber, dass diese Firma durch Gutes EO schon synchronisiert ist.",
+      "timeStr": "11:51"
+    },
+    {
+      "start": 723,
+      "text": "habe für die das gemacht.",
+      "timeStr": "12:03"
+    },
+    {
+      "start": 725,
+      "text": "Ich habe in den Stadtportalen die Synchronisation der NAP-Daten, also Name, Akkresse, Phone, das habe ich gemacht.",
+      "timeStr": "12:05"
+    },
+    {
+      "start": 738,
+      "text": "Habe ich also dem Netz schon mitgeteilt, wo die Adresse ist. Trotzdem hat der auf der Straße Halluziniert.",
+      "timeStr": "12:18"
+    },
+    {
+      "start": 747,
+      "text": "Ist natürlich total doof, wenn jetzt jemand nur JGPT vertraut und sagt, ok, dann fahre ich da mal hin und dann steht der bei mir schon.",
+      "timeStr": "12:27"
+    },
+    {
+      "start": 757,
+      "text": "aber das ist halt diese Variation, die die AI auch immer bringt. Also das gibt ja diesen einen Parameter, der heißt Temperature.",
+      "timeStr": "12:37"
+    },
+    {
+      "start": 767,
+      "text": "Also in dem Sinne, wie hoch ist die Kreativität in so einer AI?",
+      "timeStr": "12:47"
+    },
+    {
+      "start": 772,
+      "text": "Und eine AI ist ja in dem Sinne eine Generation, ja immer von Inhalten und auf einer gewissen Basis variieren die ja immer so ein bisschen.",
+      "timeStr": "12:52"
+    },
+    {
+      "start": 784,
+      "text": "In dem Sinne sind ja keine Datenbank.",
+      "timeStr": "13:04"
+    },
+    {
+      "start": 788,
+      "text": "Also die schaut sich nicht immer an, hier Firma XY hat diesen Eintrag in unserer Datenbank mit Straße XY.",
+      "timeStr": "13:08"
+    },
+    {
+      "start": 797,
+      "text": "Und das ist ja auch das Gefährliche an der AI.",
+      "timeStr": "13:17"
+    },
+    {
+      "start": 805,
+      "text": "Sie generieren Wahrscheinlichkeiten an Wortfolgen irgendwie, aber die Daten können auch immer falsch sein.",
+      "timeStr": "13:25"
+    },
+    {
+      "start": 814,
+      "text": "Aber wenn man nicht jetzt die Firma kennen würde oder Experte ist für einen Bereich, dann würde man das nicht erkennen.",
+      "timeStr": "13:34"
+    },
+    {
+      "start": 823,
+      "text": "Das ist halt die Gefahr an AI, dass anscheinend Sachen generiert werden, die auch richtig sein können.",
+      "timeStr": "13:43"
+    },
+    {
+      "start": 831,
+      "text": "Aber wenn man es überprüft, dann sieht man häufig dann so ein bis zwei Sachen, die halt falsch sind.",
+      "timeStr": "13:51"
+    },
+    {
+      "start": 841,
+      "text": "Das ist halt Das muss halt erstmal jeder verstehen.",
+      "timeStr": "14:01"
+    },
+    {
+      "start": 846,
+      "text": "Also, AI eigentlich immer vielleicht 80, 90 Prozent irgendwo richtig ist, aber 10 Prozent sind immer irgendwo geraten oder irgendwie halluciniert oder...",
+      "timeStr": "14:06"
+    },
+    {
+      "start": 859,
+      "text": "Das kann halt irgendwas sein. Dafür gibt es ja jetzt das AI-Kompetenz-Zertifikat oder sowas.",
+      "timeStr": "14:19"
+    },
+    {
+      "start": 869,
+      "text": "weiß jetzt nicht, das von der EU da, wo man Mitarbeiter schulen muss. Aber es ist richtig, dass du sagst, ungeprüft übernehmen und kopieren.",
+      "timeStr": "14:29"
+    },
+    {
+      "start": 881,
+      "text": "Also ich mag das Spiel mit AI, der ist auch ein guter Helfer.",
+      "timeStr": "14:41"
+    },
+    {
+      "start": 889,
+      "text": "kann dir ja in vielen, vielen Sachen den Weg zeigen und auch Abkürzungen liefern, aber vollständig vertrauen.",
+      "timeStr": "14:49"
+    },
+    {
+      "start": 900,
+      "text": "Also, nee, auf keinen Fall. warten wir mal noch drei Jahre. Mal gucken, wo die Reise hingeht.",
+      "timeStr": "15:00"
+    },
+    {
+      "start": 909,
+      "text": "Aber auf jeden Fall, was du auch gesagt hast, die Seiten müssen ja auch durchsuchbar sein oder irgendwie auffindbar sein.",
+      "timeStr": "15:09"
+    },
+    {
+      "start": 917,
+      "text": "Also ohne SEO-Arbeit funktioniert auch die ganze AI-Sache gar nicht.",
+      "timeStr": "15:17"
+    },
+    {
+      "start": 923,
+      "text": "Also dass eine Seite irgendwie auffindbar ist, dass die Inhalte crawlbar sind. Man sagt ja auch, AI ist schlechter in JavaScript-Rendern.",
+      "timeStr": "15:23"
+    },
+    {
+      "start": 934,
+      "text": "Und das sind ja in diesem Sinne SEO-Basics.",
+      "timeStr": "15:34"
+    },
+    {
+      "start": 937,
+      "text": "Also wenn du deine Seite viel zu lahm ist, sodass es einen Timeout gibt, dann kann die AI auf deine Seite nicht crawl.",
+      "timeStr": "15:37"
+    },
+    {
+      "start": 947,
+      "text": "Wenn du halt keine Inhalte hast für einen bestimmten Bereich, also sag mal, du verkaufst Sportschuhe oder bist irgendwie ein Arzt oder so, dann solltest du Inhalte bringen, die",
+      "timeStr": "15:47"
+    },
+    {
+      "start": 959,
+      "text": "dich relevanter machen, dann kann auch deine AI dich nicht als relevanter einstufen, wenn du keine Inhalte hast.",
+      "timeStr": "15:59"
+    },
+    {
+      "start": 966,
+      "text": "Also irgendwo müssen ja die Daten herkommen. Das ist halt CEO.",
+      "timeStr": "16:06"
+    },
+    {
+      "start": 973,
+      "text": "es herkommen und irgendjemand muss es machen.",
+      "timeStr": "16:13"
+    },
+    {
+      "start": 980,
+      "text": "ich habe ein bisschen Sorge oder ich vielleicht können wir das ja auch von vornherein gleich diesen ganzen Umwege uns ersparen.",
+      "timeStr": "16:20"
+    },
+    {
+      "start": 991,
+      "text": "Bitte setzt nicht den nächsten Praktikanten dran, um euch für die EI ready zu machen.",
+      "timeStr": "16:31"
+    },
+    {
+      "start": 999,
+      "text": "Ich glaube, es ist Arbeit und wenn wir das mal so betrachten, dass das Game ungemein vielschichtig und komplex Früher wurde es eine Suchmaschine.",
+      "timeStr": "16:39"
+    },
+    {
+      "start": 1022,
+      "text": "Wir hatten ja diese fast Monopolstellung oder die Monopolstellung von Google ist halt so.",
+      "timeStr": "17:02"
+    },
+    {
+      "start": 1030,
+      "text": "Ja, dann musstest du dich mit einem System auseinandersetzen, einen Grauler glücklich machen, natürlich auch deine Nutzer glücklich machen, weil jeder Besuch ja auch da mit zählt.",
+      "timeStr": "17:10"
+    },
+    {
+      "start": 1042,
+      "text": "Aber für uns jetzt im Hintergrund die große unsichtbare Arbeit, die hast du dann halt für ein System gemacht und hast dann halt Google Search Konsole angemacht und hast dann halt",
+      "timeStr": "17:22"
+    },
+    {
+      "start": 1054,
+      "text": "geguckt, wo Produziere ich den Fehlerseiten, wie ist denn meine Seite so aufgestellt?",
+      "timeStr": "17:34"
+    },
+    {
+      "start": 1059,
+      "text": "So, jetzt kommt das weitere, wenn du das jetzt noch für Bing mitmachst, ja, Bing als die Suchmaschine mit 5 % Marktanteil.",
+      "timeStr": "17:39"
+    },
+    {
+      "start": 1075,
+      "text": "Könnte man sich jetzt auch auf Bing konzentrieren, wenn man das wollte.",
+      "timeStr": "17:55"
+    },
+    {
+      "start": 1078,
+      "text": "Man könnte sich aber auch auf OpenAI und die Perplexity Cloud",
+      "timeStr": "17:58"
+    },
+    {
+      "start": 1085,
+      "text": "wie die ganzen Crawler alle heißen, ob die Modelle arbeiten ja trotzdem alle unterschiedlich.",
+      "timeStr": "18:05"
+    },
+    {
+      "start": 1094,
+      "text": "Die werden zwar im Core irgendwie eine Art Gleichhaben, aber die ganzen Modelle arbeiten unterschiedlich.",
+      "timeStr": "18:14"
+    },
+    {
+      "start": 1100,
+      "text": "Wenn jetzt jemand fragt, bring mich in die AI, dann müsste man eigentlich zurückfragen, welche. Hm.",
+      "timeStr": "18:20"
+    },
+    {
+      "start": 1108,
+      "text": "Wo willst du denn erscheinen?",
+      "timeStr": "18:28"
+    },
+    {
+      "start": 1111,
+      "text": "Soll ich mich für dich, soll ich mit Perplexity in den Knuddelkampf gehen oder soll ich mit Deep Seek das machen oder willst du, wollen wir Open AI machen, also ChatGPT?",
+      "timeStr": "18:31"
+    },
+    {
+      "start": 1132,
+      "text": "Okay, und macht das überhaupt Sinn bei dir? das eine Tickteiner Zielgruppe überhaupt so? Ja, aber vielleicht bist du ja...",
+      "timeStr": "18:52"
+    },
+    {
+      "start": 1138,
+      "text": "Mittelständler, wo die Zielgruppe auch anders tickt, dann macht das dann Sinn diesen Kanal zu bespielen.",
+      "timeStr": "18:58"
+    },
+    {
+      "start": 1147,
+      "text": "Und das wollte ich noch sagen, es wird vielschichtig und wir müssen dann natürlich auch mehrere Quellen bedienen, mehrere Modelle durchdenken, mehrere Roboter überprüfen, die mehrere Trafficquellen.",
+      "timeStr": "19:07"
+    },
+    {
+      "start": 1161,
+      "text": "Du hast vorhin was Schönes gesagt gehabt. ist ein eigener Kanal. Ja, das hat es gesagt, war Antonio?",
+      "timeStr": "19:21"
+    },
+    {
+      "start": 1170,
+      "text": "eigener Kanal, Ja, es ist ein eigener Kanal und den muss man halt sauber durchleuchten auf Sinnhaftigkeit und dann gucken.",
+      "timeStr": "19:30"
+    },
+    {
+      "start": 1188,
+      "text": "man reingeht und das unterscheidet sich. wollte ich sagen, die Maßnahmen, werden halt unterschiedlich sein.",
+      "timeStr": "19:48"
+    },
+    {
+      "start": 1193,
+      "text": "Also wir können davon ausgehen, die nutzen die Datenbanken der Welt, aber modellieren ihre Antworten immer noch in einem eigenen System.",
+      "timeStr": "19:53"
+    },
+    {
+      "start": 1208,
+      "text": "Und da fängt das dann halt an, also erstmal Fokus auf, wo willst du wirklich erscheinen, macht es überhaupt für dich Sinn.",
+      "timeStr": "20:08"
+    },
+    {
+      "start": 1217,
+      "text": "Hm. Und jemand muss hin. Jemand muss sich dann einloggen. Jemand muss ja die...",
+      "timeStr": "20:17"
+    },
+    {
+      "start": 1225,
+      "text": "muss das prüfen, jemand muss dann gegensteuern und wenn du das vorher nur auf Google Universum gemacht hast, dann hast du halt dein SEO gehabt.",
+      "timeStr": "20:25"
+    },
+    {
+      "start": 1237,
+      "text": "Wenn du das jetzt noch in drei unterschiedlichen AI's machen willst, wer macht das? Dann macht das dein SEO einfach mit.",
+      "timeStr": "20:37"
+    },
+    {
+      "start": 1245,
+      "text": "Der ist am dichtesten dran, 70 Prozent Überschneidungsrate, meiner Meinung nach, ja. Hm.",
+      "timeStr": "20:45"
+    },
+    {
+      "start": 1250,
+      "text": "Der ist am dichtesten dran, aber wenn der sich noch in drei unterschiedliche Sachen reindenken muss und da noch, dann muss man den aber auch dreifach bezahlen.",
+      "timeStr": "20:50"
+    },
+    {
+      "start": 1261,
+      "text": "Genau, ist ja Verdreifachung von Arbeit. das ist ja in dem Sinne, da kann ja auch jeder selber mal die Kontrolle machen.",
+      "timeStr": "21:01"
+    },
+    {
+      "start": 1270,
+      "text": "Also wenn du jetzt zum Beispiel geh in Chachibiti, passest da ein Prompt rein, dann gehst du in Perplexity rein, dann gehst du in Gemina rein, dann gehst du in Claude rein und dann schau mal welche Antworten ankommen und welche Quellen da gewichtet werden.",
+      "timeStr": "21:10"
+    },
+    {
+      "start": 1287,
+      "text": "wie die Antworten überhaupt generiert werden und so. Das ist schon vielleicht 50, 60 Prozent irgendwo ähnlich.",
+      "timeStr": "21:27"
+    },
+    {
+      "start": 1296,
+      "text": "Aber in den Details werden die alle ihre eigenen Gewichtungen haben oder ihre eigenen Signale haben.",
+      "timeStr": "21:36"
+    },
+    {
+      "start": 1305,
+      "text": "Das ist ja so wie Google und Bing.",
+      "timeStr": "21:45"
+    },
+    {
+      "start": 1312,
+      "text": "Wenn man da dieselbe Suchanfrage stellt, dasselbe Keyboarden kommen auch immer so bisschen unterschiedliche Ergebnisse raus.",
+      "timeStr": "21:52"
+    },
+    {
+      "start": 1321,
+      "text": "In dem Sinne muss man sich da halt auch, denke ich mal, auf einen Kanal irgendwie dann auch committen irgendwo.",
+      "timeStr": "22:01"
+    },
+    {
+      "start": 1328,
+      "text": "Wenn man natürlich viel Budget hat, kann man sich auf alle fünf irgendwie committen.",
+      "timeStr": "22:08"
+    },
+    {
+      "start": 1334,
+      "text": "genau, aber da muss man halt, das ist halt nicht so, dass einer irgendwie zehn Kanäle macht oder fünf Bekannten.",
+      "timeStr": "22:14"
+    },
+    {
+      "start": 1343,
+      "text": "Aber du kannst halt nicht 10 Baustellen aufmachen. Bedenken, dann ja, jede Baustelle läuft halt irgendwie so.",
+      "timeStr": "22:23"
+    },
+    {
+      "start": 1352,
+      "text": "Aber dann bist du immer irgendwo in einer Baustelle drin.",
+      "timeStr": "22:32"
+    },
+    {
+      "start": 1356,
+      "text": "Ja, du hast, ich glaube der Ansatz ist ganz toll, mal reingehen in die Modelle und auch mal die Promts merken.",
+      "timeStr": "22:36"
+    },
+    {
+      "start": 1368,
+      "text": "mal fragen, du was weißt du denn über mich, über meine Firma?",
+      "timeStr": "22:48"
+    },
+    {
+      "start": 1374,
+      "text": "Das wird da wahrscheinlich noch im meisten Fällen hinkriegen, wenn man auf Produkte kommt oder auf Dienstleistungen. Wer ist der beste Anbieter für?",
+      "timeStr": "22:54"
+    },
+    {
+      "start": 1384,
+      "text": "Seow in Spandau. er der beste Anbieter für weiße Sportsocken.",
+      "timeStr": "23:04"
+    },
+    {
+      "start": 1397,
+      "text": "Da kommen ja Antworten und da kommen auch Quellen. Darauf wollte ich jetzt hin.",
+      "timeStr": "23:17"
+    },
+    {
+      "start": 1401,
+      "text": "Für die Leute, die jetzt hier vielleicht einen Quick-Tipp mitnehmen wollen oder auch in das Thema reinsteigen wollen, da werden ja Quellen genannt.",
+      "timeStr": "23:21"
+    },
+    {
+      "start": 1410,
+      "text": "Dann guckt man sich mal diese Quellen an.",
+      "timeStr": "23:30"
+    },
+    {
+      "start": 1413,
+      "text": "Also da werden vielleicht viele überrascht sein, ich, wir wollten ja, meine Erfahrung, was ich bislang gesehen habe, da kommen sehr interessante Quellen.",
+      "timeStr": "23:33"
+    },
+    {
+      "start": 1424,
+      "text": "Und mit sehr interessant meine ich Sachen, die ich so vorher noch gar nicht auf dem Schirm hatte. Muss man auch mal zugeben.",
+      "timeStr": "23:44"
+    },
+    {
+      "start": 1432,
+      "text": "Zum Beispiel ein Quicktip, jetzt lasse ich mal einen raus, ja. Was ich gefunden hatte, diese PDF-Datenbank.",
+      "timeStr": "23:52"
+    },
+    {
+      "start": 1444,
+      "text": "Also SR-Grippet. Ja, okay, es grippet.",
+      "timeStr": "24:04"
+    },
+    {
+      "start": 1448,
+      "text": "Das war mir ehrlicherweise vorher nicht bekannt, dass es offene PDF-Datenbanken gibt, wo man jeder meinen PDFs hochladen kann.",
+      "timeStr": "24:08"
+    },
+    {
+      "start": 1459,
+      "text": "Aber da sehe ich doch schon unseren deutschen Mittelstand im Vorreiter-Modus. Ja, was produziert denn, was produzieren die denn?",
+      "timeStr": "24:19"
+    },
+    {
+      "start": 1467,
+      "text": "Die haben alle Massen an PDFs. Die halten zwar auch eine Webseite vor und was ich aber die produzieren für alles mögliche PDFs.",
+      "timeStr": "24:27"
+    },
+    {
+      "start": 1477,
+      "text": "Meine Güte, wenn jetzt Shetchi PT wirklich auf dieses Scribble zurückgreift, ja dann lad doch deine ganzen PDFs da hoch.",
+      "timeStr": "24:37"
+    },
+    {
+      "start": 1485,
+      "text": "Na also ich hab das gesehen. Wie gesagt, Test, prompt eingegeben. Ich sprach, woher ist die Information? Habe ich aus Scribble extrahiert.",
+      "timeStr": "24:45"
+    },
+    {
+      "start": 1494,
+      "text": "Scribble? Okay, geh ich mal hin. Hab ich dann gesehen. okay, kann ich mich ja anmelden? Oh, kann ich ja...",
+      "timeStr": "24:54"
+    },
+    {
+      "start": 1501,
+      "text": "Mein eigenes PDF hochladen, okay, dann lade ich mal was hoch.",
+      "timeStr": "25:01"
+    },
+    {
+      "start": 1506,
+      "text": "Ist ein Ansatzpunkt, ob das jetzt für jede Branche gilt, weiß ich nicht, aber das wäre was, also so ein Quicktip, ich sage, und von diesen Datenbanken gibt es noch mehr.",
+      "timeStr": "25:06"
+    },
+    {
+      "start": 1519,
+      "text": "Die Namen will ich jetzt nicht alle aufzählen, aber es gibt von diesen Datenbanken noch mehr. Ich habe jetzt dieses Kribbel für mich ausgewählt.",
+      "timeStr": "25:19"
+    },
+    {
+      "start": 1526,
+      "text": "Fand ich ganz schlau, weil das ist halt so ein bisschen Inhalt, man eigentlich schon hat. Viele Firmen haben PDFs.",
+      "timeStr": "25:26"
+    },
+    {
+      "start": 1533,
+      "text": "Warum denn nicht dort mit reinnehmen? Und das ist wieder eine Quelle mehr.",
+      "timeStr": "25:33"
+    },
+    {
+      "start": 1539,
+      "text": "Ja, wir haben ja das Ding, dass die Quellen sich erhöhen.",
+      "timeStr": "25:39"
+    },
+    {
+      "start": 1545,
+      "text": "Und da kann man das schon mal mit bespielen.",
+      "timeStr": "25:45"
+    },
+    {
+      "start": 1552,
+      "text": "Finde ich einen guten Tipp. Ja, auf jeden Fall ein sehr guter Tipp.",
+      "timeStr": "25:52"
+    },
+    {
+      "start": 1560,
+      "text": "Ich denke auch, es macht Sinn, man auch seine PDF-Dateien irgendwie auf der Webseite auch irgendwie crawlen lassen kann.",
+      "timeStr": "26:00"
+    },
+    {
+      "start": 1569,
+      "text": "Manche sperren ja PDF-Dateien oder PDF-Dateien sind halt irgendwie nicht aufwendbar oder so.",
+      "timeStr": "26:09"
+    },
+    {
+      "start": 1578,
+      "text": "Insofern kann man das auch machen. Aber so externe Datenbanken zu nutzen ist auf jeden Fall klar.",
+      "timeStr": "26:18"
+    },
+    {
+      "start": 1586,
+      "text": "kommt wirklich ja also wie ob man jetzt pdf indizieren lässt oder nicht muss man auch von fall zu fall entscheiden da ja das muss man gucken ich glaube es ist ganz wichtig nur das",
+      "timeStr": "26:26"
+    },
+    {
+      "start": 1603,
+      "text": "zu tun oder auch die schritte zu gehen die für den jeweiligen fall sind machen ich glaube es unterscheidet sich eben stark ob ich b2b mache oder ob ich b2c mache",
+      "timeStr": "26:43"
+    },
+    {
+      "start": 1616,
+      "text": "ob ich Shoppingprodukte verkaufe, ob ich Dienstleistungen verkaufe oder was ich glaube, das muss man dann entscheiden.",
+      "timeStr": "26:56"
+    },
+    {
+      "start": 1627,
+      "text": "Aber es ist eine gute Idee, erstmal die Maschine zu befragen, in der man entscheiden will. Wo hast du dich denn da extrahiert?",
+      "timeStr": "27:07"
+    },
+    {
+      "start": 1635,
+      "text": "Wo ziehst du denn deine Informationen her? wenn, schön wäre es natürlich, wenn die Promts mal kommen, wo man nicht erscheint.",
+      "timeStr": "27:15"
+    },
+    {
+      "start": 1645,
+      "text": "und aber dein Wettbewerber erscheint. Also Tuprams würde ich mir wegspeichern.",
+      "timeStr": "27:25"
+    },
+    {
+      "start": 1653,
+      "text": "Als Idee, ich glaube es ist noch viel manuelle Arbeit, auch wenn es jetzt Tools gibt, aber diese Prompt, wo du eigentlich erscheinen möchtest und nicht drin bist oder nur auf Platz 3 und dann 2 hervor dir oder irgendwie sowas.",
+      "timeStr": "27:33"
+    },
+    {
+      "start": 1666,
+      "text": "Also die Prompt würde ich wegspeichern, um dann nochmal zu gucken, wie das, also man kann ja, man müsste ja strukturiert vorgehen, man müsste dann Maßnahmen machen, ja ich lade",
+      "timeStr": "27:46"
+    },
+    {
+      "start": 1678,
+      "text": "jetzt da was hoch, ich gebe jetzt Das frei. Ich baue strukturierte Daten ein.",
+      "timeStr": "27:58"
+    },
+    {
+      "start": 1684,
+      "text": "Ich mache auf diesen Stadtportalen die Synchronisierung und und und und was ich nicht alles und dann kommt man drei Monate später nochmal wieder und guckt bei den Promts.",
+      "timeStr": "28:04"
+    },
+    {
+      "start": 1696,
+      "text": "Hat es was gebracht? Ja, also das wäre ja so überhaupt mal so ein Ansatz. ist auch mein Plädoyer.",
+      "timeStr": "28:16"
+    },
+    {
+      "start": 1704,
+      "text": "Ich weiß nicht, ob ich es jetzt schon gemacht habe, aber erst mal die Ausgangslage messen. Ja.",
+      "timeStr": "28:24"
+    },
+    {
+      "start": 1711,
+      "text": "Wenn es händisch, das kann ja jeder machen, wenn man jetzt nicht so ein teures Tool anschmeißen will und die sind ja auch noch alle in Beta.",
+      "timeStr": "28:31"
+    },
+    {
+      "start": 1719,
+      "text": "Die Tools, die gibt es erst seit zwei, drei Monaten.",
+      "timeStr": "28:39"
+    },
+    {
+      "start": 1723,
+      "text": "Aber erstmal Ausgangslage messen und dann gucken, okay, ich fahre jetzt mal ein paar kleine Aktionen in Richtung AI Visibility und ich gucke in drei Monaten nochmal.",
+      "timeStr": "28:43"
+    },
+    {
+      "start": 1739,
+      "text": "hat es schon was gebracht auf dem, wo ich denke, dass ich erscheinen möchte. Und dann gucke ich in sechs Monaten nochmal und dann gucke ich in einem Jahr nochmal.",
+      "timeStr": "28:59"
+    },
+    {
+      "start": 1748,
+      "text": "Also da kann man auch alle noch ein bisschen relaxed sein. Die Welt geht jetzt nicht unter und auch in zwölf Monaten ist das völlig okay, weil es entwickelt sich halt noch.",
+      "timeStr": "29:08"
+    },
+    {
+      "start": 1760,
+      "text": "Es sind auch noch nicht so viele, das muss man auch noch als Wandelbeis dalassen. Es sind nicht die ganze Welt ist jetzt. Google ist nicht tot.",
+      "timeStr": "29:20"
+    },
+    {
+      "start": 1769,
+      "text": "nicht die ganze Welt sucht ab jetzt sofort in Chechipiti. Viele nutzen Chechipiti auch einfach nur als Tool.",
+      "timeStr": "29:29"
+    },
+    {
+      "start": 1777,
+      "text": "Der Anteil der Nutzer von Chechipiti ist ja nicht gleich der Anteil der Nutzer, die auch eine Suchanfrage haben.",
+      "timeStr": "29:37"
+    },
+    {
+      "start": 1786,
+      "text": "Der Suchanteil von Chechipiti ist ja oft viel kleiner.",
+      "timeStr": "29:46"
+    },
+    {
+      "start": 1792,
+      "text": "Und Marktanteile müsste man auch noch mal gucken.",
+      "timeStr": "29:52"
+    },
+    {
+      "start": 1797,
+      "text": "gesagt, ich glaube, wir haben auch heute noch nach dem drei Jahre ChatGPT alles haben wir trotzdem noch einen Marktanteil von Google von 90 Prozent je nach je nach je nach Land und Branche.",
+      "timeStr": "29:57"
+    },
+    {
+      "start": 1811,
+      "text": "Ja, meine Güte. Gut, lass Bing noch 5 Prozent haben, lass ChatGPT und die EMU dann auch 5 Prozent.",
+      "timeStr": "30:11"
+    },
+    {
+      "start": 1819,
+      "text": "Aber gut, die 5 Prozent. Ja, und dann muss man gucken. müsste das eigentlich auch nur 5 Prozent meiner Energie hinfließen.",
+      "timeStr": "30:19"
+    },
+    {
+      "start": 1829,
+      "text": "Muss man gucken. Aber im Moment denke ich, ist es ganz gut klein anzufangen.",
+      "timeStr": "30:29"
+    },
+    {
+      "start": 1833,
+      "text": "Es immer eine gute Idee klein anzufangen, erst mal zu messen, was die Promts da hergeben, wo sind vielleicht die Wettbewerber besser oder was will ich überhaupt.",
+      "timeStr": "30:33"
+    },
+    {
+      "start": 1842,
+      "text": "Und da werden auch, da wird sich noch viel ändern. Aber so für einen Start.",
+      "timeStr": "30:42"
+    },
+    {
+      "start": 1852,
+      "text": "und eigentlich wäre es korrekter, wenn man das macht, aber korrekter wäre es, man irgendeine Art Tracking hätte.",
+      "timeStr": "30:52"
+    },
+    {
+      "start": 1867,
+      "text": "Da sprießen die Tools ja aus dem Boden.",
+      "timeStr": "31:07"
+    },
+    {
+      "start": 1873,
+      "text": "Man kann, bei Sistrix kannst du das sehen, wo die",
+      "timeStr": "31:13"
+    },
+    {
+      "start": 1883,
+      "text": "AIO in Google erscheint auf solchen Keyword.",
+      "timeStr": "31:23"
+    },
+    {
+      "start": 1886,
+      "text": "Da gibt es also die Möglichkeit zu sehen, wenn ich eine Domain analysiere da drin und dann gehe ich auf den Tab Keywords und dann kann ich da freischalten, zeige mir mal auf den",
+      "timeStr": "31:26"
+    },
+    {
+      "start": 1900,
+      "text": "Keywords, zu denen ich jetzt schon renke, wo denn dann jetzt ein AIO von Google erscheint.",
+      "timeStr": "31:40"
+    },
+    {
+      "start": 1907,
+      "text": "Ist eine tolle Sache. kann man gucken und dann stehen da halt 10, 20 Keywörter, wo halt schon EIO erscheint.",
+      "timeStr": "31:47"
+    },
+    {
+      "start": 1916,
+      "text": "Ja, okay, dann weißt du das halt, dass das wahrscheinlich informative Keywörter sind, weil das Ausrollen der EIOs ist ja auch noch nicht durch.",
+      "timeStr": "31:56"
+    },
+    {
+      "start": 1930,
+      "text": "Das habe ich vom Johannes Beuys, also dem Gründer da von SysTrix.",
+      "timeStr": "32:10"
+    },
+    {
+      "start": 1937,
+      "text": "hat er der Campix einen schönen Vortrag gehalten. war augenöffnend halt zu wissen.",
+      "timeStr": "32:17"
+    },
+    {
+      "start": 1944,
+      "text": "Leute, wir haben es gemessen, Stand Juni 2025 oder was das war.",
+      "timeStr": "32:24"
+    },
+    {
+      "start": 1953,
+      "text": "Erst bei 25 Prozent aller Keyword erscheinen EIOs. Hm. Okay, jetzt sind wir im August 2025.",
+      "timeStr": "32:33"
+    },
+    {
+      "start": 1963,
+      "text": "Lass es jetzt 30 Prozent sein. Aber es sind noch nicht alle Keyboarder ausgerollt, wo eine KI-Antwort im Google erscheint.",
+      "timeStr": "32:43"
+    },
+    {
+      "start": 1974,
+      "text": "Ist es noch nicht. Und war ja der Konsent, das ist viel informativ und der informative Traffic bricht weg.",
+      "timeStr": "32:54"
+    },
+    {
+      "start": 1983,
+      "text": "Das glaube ich schon.",
+      "timeStr": "33:03"
+    },
+    {
+      "start": 1985,
+      "text": "Den informativen Traffic, den Den geben wir wahrscheinlich ab. Mhm.",
+      "timeStr": "33:05"
+    },
+    {
+      "start": 1995,
+      "text": "Ja, was ist die Frage? Brauche ich den?",
+      "timeStr": "33:15"
+    },
+    {
+      "start": 2003,
+      "text": "wenn die AI das halt beantworten Was ist SEO?",
+      "timeStr": "33:23"
+    },
+    {
+      "start": 2011,
+      "text": "Ich muss auch nicht zu was ist SEO oben stehen. Was ist SEO? Wird dir die AI beantworten?",
+      "timeStr": "33:31"
+    },
+    {
+      "start": 2018,
+      "text": "Das werden die alle und sollen sie auch. Ich will den Teffek ja gar nicht.",
+      "timeStr": "33:38"
+    },
+    {
+      "start": 2023,
+      "text": "jemand der nach was es seo sucht der der ist kein käufer der ist ein informativer sucher der ganz am anfang steht das ist eine no suche also eine wissenssuche der will einfach nur",
+      "timeStr": "33:43"
+    },
+    {
+      "start": 2035,
+      "text": "eine antwort die haben was er dann als zweiten prompt oder als zweites ding eingibt das ist natürlich noch die andere frage aber irgendwann am ende dieses dings kommt er dann",
+      "timeStr": "33:55"
+    },
+    {
+      "start": 2045,
+      "text": "dazu ok ich will jetzt einen SEO-Freelancer beauftragen und dann sagt er hier Antonio Blago ist Herr Weste, weil der hat einen schönen Podcast.",
+      "timeStr": "34:05"
+    },
+    {
+      "start": 2060,
+      "text": "Also ich finde es, einerseits finde ich es schon gut, wenn man irgendwie noch informativen Content hat, weil es ja auch so bisschen, also erst mal so bisschen Relevanz auch erzeugt,",
+      "timeStr": "34:20"
+    },
+    {
+      "start": 2073,
+      "text": "Also irgendwo, dass man ja auch für die AI sozusagen so eine Art Knowledge Base irgendwo aufbaut, so ne, also natürlich versteht dann jeder anders irgendwie was es sehe oder sowas.",
+      "timeStr": "34:33"
+    },
+    {
+      "start": 2087,
+      "text": "Aber ich finde es irgendwie gut, dass man das irgendwie noch macht.",
+      "timeStr": "34:47"
+    },
+    {
+      "start": 2092,
+      "text": "Klar, wird jetzt nicht performantechnisch groß was bringen, aber alleine dadurch, dass man so Seiten dazu hat, ich schon, es jetzt nicht ganz, man muss es jetzt nicht ganz abwerten,",
+      "timeStr": "34:52"
+    },
+    {
+      "start": 2109,
+      "text": "aber Also ich sende auch manchmal meinen Kunden sowas, wenn die irgendwelche Fragen haben, weil ich ja auch nicht immer alles von vorne erklären will.",
+      "timeStr": "35:09"
+    },
+    {
+      "start": 2121,
+      "text": "So, und das kann ja auch nutzen.",
+      "timeStr": "35:21"
+    },
+    {
+      "start": 2124,
+      "text": "Man kann es ja auch so in dem Sinne für sich selber so ein bisschen so als Lexikon noch haben oder bis ins Datenbank irgendwo.",
+      "timeStr": "35:24"
+    },
+    {
+      "start": 2137,
+      "text": "Und genau, klar ist. Sie das keine Käufe irgendwie konvertieren. Die AI wird es wahrscheinlich auch irgendwo abgreifen.",
+      "timeStr": "35:37"
+    },
+    {
+      "start": 2145,
+      "text": "Aber. Ich finde es für die Customer Journey in einem anderen Punkt auch wertvoll. Aufklärung.",
+      "timeStr": "35:45"
+    },
+    {
+      "start": 2153,
+      "text": "Kannst auch per E-Mail irgendwie nochmal schicken, E-Mail Marketing damit machen.",
+      "timeStr": "35:53"
+    },
+    {
+      "start": 2156,
+      "text": "Man kann da auch nochmal Content daraus stellen für Social Media oder irgendwie Podcasts.",
+      "timeStr": "35:56"
+    },
+    {
+      "start": 2165,
+      "text": "Ist ja auch alles möglich. Also ich denke. Da kann man auch nochmal so, konnte in verschiedenen Formaten nochmal denken, wo man sie auch noch nutzen kann.",
+      "timeStr": "36:05"
+    },
+    {
+      "start": 2176,
+      "text": "Also wenn man, also okay, wieder die Lieblingsantwort kommt ja drauf an, ja, kommt drauf an.",
+      "timeStr": "36:16"
+    },
+    {
+      "start": 2185,
+      "text": "Je nach Projekt, wenn du jetzt das sagst, dass du das so benutzt, wie du das sagst, dass du das als, hier guck mal, da steht die Antwort, da habe ich das schon beantwortet, dann",
+      "timeStr": "36:25"
+    },
+    {
+      "start": 2195,
+      "text": "ist das ja für dich eine Arbeitserleichterung und für den Kunden dann irgendwie auch eine visuelle Aufbereitung.",
+      "timeStr": "36:35"
+    },
+    {
+      "start": 2202,
+      "text": "Wenn man jetzt hier da steht geschrieben, was Schema Schema Markup Auszeichnungen sind und was sie was sie dir bringen könnten.",
+      "timeStr": "36:42"
+    },
+    {
+      "start": 2213,
+      "text": "Ja, das ist ein valider Weg. Aber dann ist es mal treffig darüber produzieren.",
+      "timeStr": "36:53"
+    },
+    {
+      "start": 2222,
+      "text": "Ich bin ja nicht ganz dagegen, aber ich bin. Dagegen, wenn Leute das als Allererstes machen wollen, wir bauen einen Wissenshub.",
+      "timeStr": "37:02"
+    },
+    {
+      "start": 2233,
+      "text": "Wo ich denke, na ja, können wir erst mal auf deinen Geldwertensuchwörtern renken, optimieren und die ganze Energie, ja, wir reden immer über begrenzte Ressourcen.",
+      "timeStr": "37:13"
+    },
+    {
+      "start": 2244,
+      "text": "Und wenn dann die Ideen oder die Energie falsch verwendet werden für ich bau da jetzt einen Wissenshub.",
+      "timeStr": "37:24"
+    },
+    {
+      "start": 2253,
+      "text": "ohne dass ich vorher meine Seite mal schnell gemacht habe oder dass ich für die Suchwürter, tatsächlich einen Impact haben auf Kauf-Ebene, dass ich, wenn ich das alles stehen und liegen lasse und dafür einen Wissens-Hub aufbaue, dann bin ich da dagegen.",
+      "timeStr": "37:33"
+    },
+    {
+      "start": 2271,
+      "text": "Weil das kann man alles machen, wenn man an einem gewissen Grad ist.",
+      "timeStr": "37:51"
+    },
+    {
+      "start": 2277,
+      "text": "Wenn du schon zu 80 Prozent durch bist, dann ist das um Treffik reinzuziehen oder die KI zu fördern, völlig okay.",
+      "timeStr": "37:57"
+    },
+    {
+      "start": 2285,
+      "text": "In deinem Fall sogar noch mehr okay, wenn du das als Arbeitserleichterung hast. Ich sag dir ehrlich, dass aber ich, wie gesagt, bei vielen Kunden sehe ich das eben nicht.",
+      "timeStr": "38:05"
+    },
+    {
+      "start": 2294,
+      "text": "sehe eher, dass wir bei vielen Sachen aber noch am Anfang sind.",
+      "timeStr": "38:14"
+    },
+    {
+      "start": 2301,
+      "text": "Und da würde ich erst mal gucken, dass man diese ganzen anderen Baustellen behebt. Ja.",
+      "timeStr": "38:21"
+    },
+    {
+      "start": 2309,
+      "text": "Und Ja, also immer nach Fall geordnet und dann dann entscheiden und Energie sinnvoll investieren.",
+      "timeStr": "38:29"
+    },
+    {
+      "start": 2323,
+      "text": "Zum Beispiel, ich schwenke jetzt mal kurz rüber.",
+      "timeStr": "38:43"
+    },
+    {
+      "start": 2325,
+      "text": "Wir wollten ja AI, eine Sache, wo es ja möglich wäre, dass man die AI füttert, wäre und jetzt kommt es mit YouTube.",
+      "timeStr": "38:45"
+    },
+    {
+      "start": 2341,
+      "text": "Ja, YouTube. hat hinten im YouTube Studio unter den Einstellungen.",
+      "timeStr": "39:01"
+    },
+    {
+      "start": 2349,
+      "text": "Ich mache mal den Weg durch.",
+      "timeStr": "39:09"
+    },
+    {
+      "start": 2351,
+      "text": "das ist, ich gehe zu YouTube, ich gehe zu YouTube Studio, ich gehe zu Kanal und unter Kanal gibt es einen Reiter, der heißt erweiterte Einstellungen.",
+      "timeStr": "39:11"
+    },
+    {
+      "start": 2364,
+      "text": "So, jetzt sind hoffentlich alle da, die zugehört haben, gleich mitgebaut.",
+      "timeStr": "39:24"
+    },
+    {
+      "start": 2368,
+      "text": "Unter den erweiterten Einstellungen gibt es im YouTube Channel die Möglichkeit, deine Inhalte den AI-Modellen dieser Welt zum Training zur Verfügung zu stellen.",
+      "timeStr": "39:28"
+    },
+    {
+      "start": 2379,
+      "text": "Das ist standardmäßig ausgeschaltet. Also alle YouTube-Inhalte sind nicht standardmäßig fürs Training vorgesehen.",
+      "timeStr": "39:39"
+    },
+    {
+      "start": 2388,
+      "text": "Google alias YouTube hat das blockiert und das ist im Standard aus. Jetzt gibt es da einen Knopf unter diesen erweiterten Einstellungen, wo man sagen kann...",
+      "timeStr": "39:48"
+    },
+    {
+      "start": 2400,
+      "text": "Ich möchte meine Inhalte dem Training freigeben und dann kann man sogar noch die Modelle wählen und da sind alle großen dabei.",
+      "timeStr": "40:00"
+    },
+    {
+      "start": 2408,
+      "text": "Da ist OpenAI mit Chechie Petit dabei.",
+      "timeStr": "40:08"
+    },
+    {
+      "start": 2413,
+      "text": "ist Bait Dance aus China, TikTok, Apple, Perplexity, Amazon.",
+      "timeStr": "40:13"
+    },
+    {
+      "start": 2426,
+      "text": "Da sind wirklich die großen Das Who's Who der AI-Krauler sind da aufgelöst. Ich könnte die alle mit einem Klick freigeben zum Trainieren meiner Daten.",
+      "timeStr": "40:26"
+    },
+    {
+      "start": 2435,
+      "text": "Also meine Videos wären zum Trainieren der Daten. Jetzt habe ich das schon zwei, drei Kunden vorgeschlagen. Habe gesagt, du wolltest doch einen AI-Quicktip haben.",
+      "timeStr": "40:35"
+    },
+    {
+      "start": 2443,
+      "text": "Du hast doch einen YouTube-Channel. Da hinten kann ich dir einen Klick setzen. Soll ich das?",
+      "timeStr": "40:43"
+    },
+    {
+      "start": 2450,
+      "text": "Oder möchtest du es vielleicht vorher mit der Geschäftsführung besprechen? Weil ich gebe ja wissentlich...",
+      "timeStr": "40:50"
+    },
+    {
+      "start": 2458,
+      "text": "Also es wäre ein Klick, ein Quicktip, ja, natürlich will ich das. Mach mal an. Und ich hätte gedacht, dass die alle sagen, ja, ich gebe das frei.",
+      "timeStr": "40:58"
+    },
+    {
+      "start": 2467,
+      "text": "Aber erstaunlicherweise kamen zwei von diesen drei zurück und haben gesagt, nein, wir machen das nicht.",
+      "timeStr": "41:07"
+    },
+    {
+      "start": 2474,
+      "text": "Und jetzt ist die Frage an alle da draußen.",
+      "timeStr": "41:14"
+    },
+    {
+      "start": 2479,
+      "text": "Würdet ihr, wenn ihr könntet, eure YouTube Videos freigeben zum Trainieren der ganzen EI-Modelle.",
+      "timeStr": "41:19"
+    },
+    {
+      "start": 2489,
+      "text": "In der Hoffnung, dass man vielleicht zitiert wird, in der Hoffnung, dass man als Quelle erscheint, was auch immer, dass wenn Leute nach einem SEO suchen, dann finden sie immer nur Leute mit Brille wie dich und mich.",
+      "timeStr": "41:29"
+    },
+    {
+      "start": 2503,
+      "text": "Ich weiß es nicht, wie das gehandhabt wird. Man wird auch nicht dafür bezahlt, leider leider.",
+      "timeStr": "41:43"
+    },
+    {
+      "start": 2509,
+      "text": "Also es ist ein verdient wahrscheinlich damit Geld. ich mir vorstellen. Naja, ich glaube, warum bieten sie es denn an?",
+      "timeStr": "41:49"
+    },
+    {
+      "start": 2520,
+      "text": "Die werden diese Abbieter bestimmt in irgendeiner Form zur Verfügung stellen. So ganz die Mutter Teresa sind sie ja auch nicht.",
+      "timeStr": "42:00"
+    },
+    {
+      "start": 2530,
+      "text": "Aber du als Anbieter kriegst erstmal nicht. Aber die große Frage an alle da draußen, kennt ihr diesen Knopf?",
+      "timeStr": "42:10"
+    },
+    {
+      "start": 2536,
+      "text": "Und wenn nicht, dann kommentiert mal oder sagt mal, ja, ich habe den gefunden und ja, habe ich freigegeben. Danke für den Tipp.",
+      "timeStr": "42:16"
+    },
+    {
+      "start": 2543,
+      "text": "Nein habe ich nicht freigegeben aus den Gründen von... Das würde mich nämlich mal wirklich interessieren.",
+      "timeStr": "42:23"
+    },
+    {
+      "start": 2549,
+      "text": "Ist die Möglichkeit per Klick dem Grauler diesen ganzen Wutsch hinzugeben. So.",
+      "timeStr": "42:29"
+    },
+    {
+      "start": 2557,
+      "text": "man es, macht man es nicht. Und dann kommt es ja auch wieder, man müsste wieder messen.",
+      "timeStr": "42:37"
+    },
+    {
+      "start": 2563,
+      "text": "Man müsste jetzt vorher schon den AI...",
+      "timeStr": "42:43"
+    },
+    {
+      "start": 2567,
+      "text": "den AI-Tracker oh und dann in drei oder in sechs Monaten nochmal gucken, hat dann überhaupt der Klick was gebracht.",
+      "timeStr": "42:47"
+    },
+    {
+      "start": 2598,
+      "text": "das wäre ja dann nur, ich kann es im Moment, muss man auch ehrlich sagen, ich kann es dir im Moment nicht sagen, weil wie gesagt, zwei Kunden haben das abgelehnt.",
+      "timeStr": "43:18"
+    },
+    {
+      "start": 2608,
+      "text": "Da kann ich also nicht mit messen. ist sowieso, aber das wäre mein Experiment. Was bringt denn sowas?",
+      "timeStr": "43:28"
+    },
+    {
+      "start": 2615,
+      "text": "Ich weiß nicht, ob das vielleicht Bild-KIs für die Stimmen-KIs, für was wird das verwendet? Ich habe es mir vorhin nochmal durchgelesen.",
+      "timeStr": "43:35"
+    },
+    {
+      "start": 2623,
+      "text": "Google gibt das raus. Sie wissen auch nicht, was die Anbieter damit machen. Hochinteressant. Du gibst halt einfach alles raus.",
+      "timeStr": "43:43"
+    },
+    {
+      "start": 2631,
+      "text": "Wenn du jetzt dieses Interview hier auf oder diesen Gespräch da freigehen willst, dann sind wir beide plötzlich Trainingsbestandteile.",
+      "timeStr": "43:51"
+    },
+    {
+      "start": 2643,
+      "text": "Ja, es ist schon eine valide Frage, so was wird damit gemacht. Gibt es dann plötzlich AI-Jerk oder gibt es AI-Antonio?",
+      "timeStr": "44:03"
+    },
+    {
+      "start": 2651,
+      "text": "Also insofern kann man ja, kennt ihr die AI ja, irgendwie kopieren.",
+      "timeStr": "44:11"
+    },
+    {
+      "start": 2659,
+      "text": "Unsere Stimme, könnte unser Aussehen kopieren, unsere Inhalte kopieren. Das schon nicht so ohne diese Frage.",
+      "timeStr": "44:19"
+    },
+    {
+      "start": 2669,
+      "text": "Das ist schon...",
+      "timeStr": "44:29"
+    },
+    {
+      "start": 2671,
+      "text": "bedenklich auf der anderen seite ne also die frage halt auch wirklich was es bringt so ne also ist man ist man da nur ein ganz kleines rädchen irgendwo wahrscheinlich ne also unter",
+      "timeStr": "44:31"
+    },
+    {
+      "start": 2681,
+      "text": "millionen von youtube videos kann man ja gar nicht die masse irgendwo bringen dass man da vielleicht irgendwo auch relevant ist außer man hat vielleicht so so speziellen content",
+      "timeStr": "44:41"
+    },
+    {
+      "start": 2694,
+      "text": "dass man da irgendwo dann irgendwie vielleicht genannt wird Aber ich glaube, es ist sehr unwahrscheinlich oder sehr schwer messbar, dass man da irgendwie eine Relevanz raus messen kann.",
+      "timeStr": "44:54"
+    },
+    {
+      "start": 2709,
+      "text": "Und die Gefahr, dass man dann so alles von einem her gibt, ist schon relativ groß.",
+      "timeStr": "45:09"
+    },
+    {
+      "start": 2718,
+      "text": "Alles Spekulation. Ich würde jetzt nicht sagen, das ist ja der Monster Impact.",
+      "timeStr": "45:18"
+    },
+    {
+      "start": 2725,
+      "text": "Ich kann mir schon vorstellen, dass wenn dann irgendwo mal in so Modellen ein Video referenziert werden würde als externe Quelle, vielleicht wirst du dann bevorzugt",
+      "timeStr": "45:25"
+    },
+    {
+      "start": 2741,
+      "text": "referenziert, weil du ja freigegeben hast oder vielleicht auch weil da hinten das Transkript mitgesendet hat.",
+      "timeStr": "45:41"
+    },
+    {
+      "start": 2751,
+      "text": "Ja das ist schon möglich. Für Leute die Hardcore AI wollen, ja feuerfrei.",
+      "timeStr": "45:51"
+    },
+    {
+      "start": 2761,
+      "text": "wäre das jetzt so ein Ding. Was kann man noch machen? Lass uns mal noch zusammentragen.",
+      "timeStr": "46:01"
+    },
+    {
+      "start": 2770,
+      "text": "Ich hab mich ja auch kurz vorbereitet gehabt. Was haben wir dann noch gehabt? Referrer sind eigentlich auch ganz gut.",
+      "timeStr": "46:10"
+    },
+    {
+      "start": 2778,
+      "text": "Die Referrer also zu messen.",
+      "timeStr": "46:18"
+    },
+    {
+      "start": 2781,
+      "text": "Also wenn du zum Beispiel einen Klick hast, czechvet.com hast du ja als Referrer dann in deiner URL und dann kannst du es bei Google Analytics tracken.",
+      "timeStr": "46:21"
+    },
+    {
+      "start": 2793,
+      "text": "Ja, genau, ja, Chachi Pitti hängt ja den Trekking-Parameter dran.",
+      "timeStr": "46:33"
+    },
+    {
+      "start": 2799,
+      "text": "Cleverer Zug, weil sie erscheinen jetzt natürlich in den Analytics der Welt und das sind diese wenigen Klicks, ja, wir reden ja wahrscheinlich nur noch über die Erscheinung, aber wenn dann jemand wirklich mal auf eine Seite draufkommt, dann...",
+      "timeStr": "46:39"
+    },
+    {
+      "start": 2818,
+      "text": "wird das in Analytics protokolliert und kann man messen und kann man in Analytics sich ein Dashboard bauen?",
+      "timeStr": "46:58"
+    },
+    {
+      "start": 2824,
+      "text": "Ich glaube du hattest eins oder irgendwie die, ich habe es auch beim Kunden schon gesehen, Umsatz über Chachipiti, im 0,0 Bereich, aber ja es gab einen Umsatz, natürlich und vielleicht ist das ja ein Prozent des Umsatzes irgendwie.",
+      "timeStr": "47:04"
+    },
+    {
+      "start": 2844,
+      "text": "Ja, ja natürlich dann. kann es zumindest sehen.",
+      "timeStr": "47:24"
+    },
+    {
+      "start": 2850,
+      "text": "ist jetzt nicht Nonsens, aber es ist jetzt auch nicht so, dass ich jetzt sage, da renne ich jetzt, stecke ich jetzt mal 99 Prozent meiner Energie rein.",
+      "timeStr": "47:30"
+    },
+    {
+      "start": 2858,
+      "text": "Das ist für die Zukunft schon, aber der erste Ansatz wäre natürlich erstmal Analytics gucken.",
+      "timeStr": "47:38"
+    },
+    {
+      "start": 2867,
+      "text": "Hat mich Chetchipity schon verlinkt. Und wenn du Glück hast, dann hat er mir schon Umsatz gebracht.",
+      "timeStr": "47:47"
+    },
+    {
+      "start": 2875,
+      "text": "Also wie gesagt, bei einem Kunden habe ich schon gesehen.",
+      "timeStr": "47:55"
+    },
+    {
+      "start": 2877,
+      "text": "hatte in unserem, das war ja In unserem anderen Podcast, den wir davor, hatte ich ja auch eine andere Auswertung gehabt. Da ging es um den Traffic.",
+      "timeStr": "47:57"
+    },
+    {
+      "start": 2885,
+      "text": "Da war der Traffic bei 0,44 oder so. Jetzt hatte ich eine andere Auswertung.",
+      "timeStr": "48:05"
+    },
+    {
+      "start": 2891,
+      "text": "Da ging es darum, wie oft wurde das gebucht. Und da war tatsächlich in den Treffi-Quellen tatsächlich eine Buchung auch aus Chetchipiti dabei.",
+      "timeStr": "48:11"
+    },
+    {
+      "start": 2902,
+      "text": "Man leider nicht nachzuvollziehen, welcher Prompt oder welcher Weg dahin geführt hat. Hm.",
+      "timeStr": "48:22"
+    },
+    {
+      "start": 2910,
+      "text": "Das ist bisschen schade.",
+      "timeStr": "48:30"
+    },
+    {
+      "start": 2913,
+      "text": "Ja, ich frage mich auch, wann GPT oder OpenAI dann auch vielleicht mal auch die Daten so rausbringt, ob es irgendwie so eine GPT-Konsole gibt oder sowas, GPT-Insights, so wirklich",
+      "timeStr": "48:33"
+    },
+    {
+      "start": 2930,
+      "text": "First-Party-Data, also wie die Konsole, eine Google Search-Konsole, weil das wäre sehr, sehr interessant, Daten die halt auch bringen, in welcher Form.",
+      "timeStr": "48:50"
+    },
+    {
+      "start": 2943,
+      "text": "ob man da irgendwelche Marken hinterlegen kann.",
+      "timeStr": "49:03"
+    },
+    {
+      "start": 2947,
+      "text": "Das würde das ganze Spiel schon auf eine andere Stufe bringen, weil momentan Promts irgendwie zu tracken und so, das ist ja halt einfach so ins Blaue ein bisschen geraten.",
+      "timeStr": "49:07"
+    },
+    {
+      "start": 2961,
+      "text": "Also wenn ich, wenn ich Shatchi-Biti wäre, würde ich dir das als allerletztes zur Verfügung stellen, wenn überhaupt.",
+      "timeStr": "49:21"
+    },
+    {
+      "start": 2969,
+      "text": "Weil ich will ja nicht, dass du in meinem Modell rumfummelst. Das machen meine Ingenieure, die fummeln an dem Modell rum. Ich stelle es dir zur Verfügung, wenn ich deine Kohle haben will.",
+      "timeStr": "49:29"
+    },
+    {
+      "start": 2978,
+      "text": "Wenn du deinen Shopping-Feed bei mir einreichen sollst, weil ich weil ich dir über Produktplatzierung Geld abknüpfen möchte.",
+      "timeStr": "49:38"
+    },
+    {
+      "start": 2991,
+      "text": "Dann setze ich dir eine Konsole zur Verfügung dafür oder oder wir kommen ja auch noch bestimmt logischerweise kommen wir irgendwann in das Level mit Ads.",
+      "timeStr": "49:51"
+    },
+    {
+      "start": 2999,
+      "text": "Ist ja noch offen. Aber ich glaube es gab es war auch ein zwei Wochen her in EIO Overviews wurden schon Ads gesichtet.",
+      "timeStr": "49:59"
+    },
+    {
+      "start": 3012,
+      "text": "Natürlich geht der Weg dahin. Aber die Modelle die sind ja auch alles keine wie gesagt die sind auch die wollen Geld machen und",
+      "timeStr": "50:12"
+    },
+    {
+      "start": 3021,
+      "text": "Wir als Seos, wir sollen doch da nicht in deren Dings rumfummeln und wir sollen garantiert auch nicht sagen, wie man die Modelle manipuliert oder trainiert oder irgendwas.",
+      "timeStr": "50:21"
+    },
+    {
+      "start": 3036,
+      "text": "Das werden sie ja als als Geheimnis wegschließen wollen. Weil das ist ja ihr Standing.",
+      "timeStr": "50:36"
+    },
+    {
+      "start": 3044,
+      "text": "Die kommen dann nur zu dir und sagen, jetzt wollen wir richtig Geld mit dir machen.",
+      "timeStr": "50:44"
+    },
+    {
+      "start": 3049,
+      "text": "Gib mal deine Sitemap, deine Shopping-Feed und ach so und übrigens allen Traffic, die ach so und die Leute können bald bei uns auschecken, weil wir brauchen dich gar nicht mehr.",
+      "timeStr": "50:49"
+    },
+    {
+      "start": 3060,
+      "text": "Du bist nur noch so ein Affiliate, aber die 20 Prozent, die machen wir schon.",
+      "timeStr": "51:00"
+    },
+    {
+      "start": 3067,
+      "text": "Dann bist du bloß noch der Deliverer, der die Pakete packt und du hast, du mannisch den Traffic nicht mehr oder nüscht.",
+      "timeStr": "51:07"
+    },
+    {
+      "start": 3074,
+      "text": "Du kriegst die ganzen Aufträge alles so. Bist du ein Affiliate davon? Da wollte Google ja schon viele, viele Jahre hin.",
+      "timeStr": "51:14"
+    },
+    {
+      "start": 3081,
+      "text": "Vielleicht wird das jetzt, lassen, Google lässt ja sowieso gerne mal Chat-City vorlaufen.",
+      "timeStr": "51:21"
+    },
+    {
+      "start": 3088,
+      "text": "Dann entsteht da Akzeptanz. Und wenn die Akzeptanz da ist, dann drücken sie das raus, was sie da eigentlich schon machen wollten.",
+      "timeStr": "51:28"
+    },
+    {
+      "start": 3097,
+      "text": "Aber dass sie uns eine Konsole, also Google hat ja auch schon gesagt, um in AI, schon die Standard Aussage musste ich herzlich lachen, um in AIO zu erscheinen.",
+      "timeStr": "51:37"
+    },
+    {
+      "start": 3108,
+      "text": "brauchst du absolut nichts machen. Es reicht, deine Nutzer glücklich zu machen. Das singen die seit 15 Jahren.",
+      "timeStr": "51:48"
+    },
+    {
+      "start": 3118,
+      "text": "nein, mach einfach, konzentrier dich bitte auf die glückliche Nutzer. Ja, haben sie ja auch ein bisschen recht.",
+      "timeStr": "51:58"
+    },
+    {
+      "start": 3126,
+      "text": "Aber sie werden dir natürlich nicht sagen, ja, ach so, übrigens in EIO zu erscheinen, da musst du Stellschraube XY drücken.",
+      "timeStr": "52:06"
+    },
+    {
+      "start": 3133,
+      "text": "Dafür brauchst du wieder Leute mit Experimentierlaune. nennen sie Seus.",
+      "timeStr": "52:13"
+    },
+    {
+      "start": 3141,
+      "text": "Das sind ja die Leute, da über Jahre diesen Ping-Pong und dann immer geguckt haben, wo kommt was raus, wo kann man hier noch machen.",
+      "timeStr": "52:21"
+    },
+    {
+      "start": 3150,
+      "text": "auch im sauberen Bereich, alles gut. Da muss man gucken, welche Maßnahmen da was...",
+      "timeStr": "52:30"
+    },
+    {
+      "start": 3157,
+      "text": "Also man muss halt sagen, es ist halt ein Spiel.",
+      "timeStr": "52:37"
+    },
+    {
+      "start": 3162,
+      "text": "dem Sinne, Google OpenAI gibt so bisschen Daten weiter und dann gucken die sich aus, was kann ich damit anfangen, wie kann ich da irgendwie Interventionen draus machen, messen und",
+      "timeStr": "52:42"
+    },
+    {
+      "start": 3177,
+      "text": "so. Und dann ist es ja mal so ein Wettkampf eigentlich, so ein Spiel gegen die Zeit.",
+      "timeStr": "52:57"
+    },
+    {
+      "start": 3182,
+      "text": "Die Ergebnisse werden optimiert, Algorithmen werden irgendwie Durchleuchtet aus wie bei LinkedIn.",
+      "timeStr": "53:02"
+    },
+    {
+      "start": 3189,
+      "text": "Da gibt es halt manche Leute, die haben LinkedIn mehr verstanden als andere. Und die nutzen das halt für dich.",
+      "timeStr": "53:09"
+    },
+    {
+      "start": 3195,
+      "text": "Und dann kommt LinkedIn wieder und macht ein neues Algorithmus-Update. Und dann bricht der Traffic ein.",
+      "timeStr": "53:15"
+    },
+    {
+      "start": 3202,
+      "text": "Und dann denken viele, LinkedIn ist tot. Und das Ähnliches ist ja auch bei Google oder bei OpenAI dann wahrscheinlich.",
+      "timeStr": "53:22"
+    },
+    {
+      "start": 3212,
+      "text": "Ja, also ich glaube, es macht total Sinn, sich wirklich, jetzt spreche ich mal wie Google, es macht total Sinn, sich in seine Zielgruppe zu verlieben, weil die haben echte Fragen.",
+      "timeStr": "53:32"
+    },
+    {
+      "start": 3230,
+      "text": "Wenn wir über Frage-Antwort-Spiel reden, meine Güte, wie oft, die Zielgruppe zu verstehen ist, wir sind ja im Marketing",
+      "timeStr": "53:50"
+    },
+    {
+      "start": 3242,
+      "text": "Tätig Zielgruppe zu verstehen ist glaube ich dass das Haupt key Ding den Wohlgesonnen zu sein Die zu auch zu befragen oder an Suchwörtern zu erkennen was drückt bei denen wollen",
+      "timeStr": "54:02"
+    },
+    {
+      "start": 3256,
+      "text": "die Nachdem sie die was ich nachdem sie bei mir die weißen Sneaker gekauft haben Suchen sie ja vielleicht noch das Ding wie ich diese schön weißen Sneaker reinige, weil die so oft dreckig werden.",
+      "timeStr": "54:16"
+    },
+    {
+      "start": 3271,
+      "text": "Da muss man gucken, dass man da nett zu der gesamten Zielgruppe und die so gut wie möglich",
+      "timeStr": "54:31"
+    },
+    {
+      "start": 3290,
+      "text": "glücklich macht, dass die dann gut über mich sprechen, dass die gern wiederkommen, dass die mich empfehlen, dass die freiwillig über die Links sharen, dass die eben freiwillig das machen.",
+      "timeStr": "54:50"
+    },
+    {
+      "start": 3303,
+      "text": "Ich glaube, das ist eine gute Idee, überhaupt erstmal einen tollen Service anzubieten und die ganzen Technik klar wichtig, aber die",
+      "timeStr": "55:03"
+    },
+    {
+      "start": 3320,
+      "text": "die Zielgruppe wirklich so abzuholen und dann auch mit Formaten.",
+      "timeStr": "55:20"
+    },
+    {
+      "start": 3329,
+      "text": "Wenn wir jetzt hören, wir müssen mehr rausgehen und wir müssen mehr Portale bespielen, dann versuch doch mal aus deinem Content, wenn du jetzt schon deine Webseite hast und da",
+      "timeStr": "55:29"
+    },
+    {
+      "start": 3342,
+      "text": "ein Bild hast, versuch doch mal daraus ein Video zu machen.",
+      "timeStr": "55:42"
+    },
+    {
+      "start": 3350,
+      "text": "Bei Videokreationen scheitern die Leute ja oft.",
+      "timeStr": "55:50"
+    },
+    {
+      "start": 3352,
+      "text": "Aber vielleicht ist dann ja das die Möglichkeit wirklich mal eine AI anzuschmeißen und ich probiere jetzt da mal ein Video daraus zu generieren, dass ich Videokontent habe, dass ich",
+      "timeStr": "55:52"
+    },
+    {
+      "start": 3363,
+      "text": "einfach diesen Sprung rausschaffe von textlich, bildlicher Darstellung, was ja viel Netz vertreten ist.",
+      "timeStr": "56:03"
+    },
+    {
+      "start": 3372,
+      "text": "Aber wenn ich jetzt diese ganzen TikToks, YouTubes noch nicht habe.",
+      "timeStr": "56:12"
+    },
+    {
+      "start": 3378,
+      "text": "dann probiere ich doch mal da ein Video hinzuschieben. Am besten Hochformat, Querformat, alles sowas.",
+      "timeStr": "56:18"
+    },
+    {
+      "start": 3384,
+      "text": "Es ist weder eine Erscheinungsquelle mehr, ich dabei sein kann. Und ja, auch bitte hier nicht den Praktikanten ranlassen.",
+      "timeStr": "56:24"
+    },
+    {
+      "start": 3394,
+      "text": "Das würde wahrscheinlich ein bisschen... Auch da mal einfach, es gibt ja tolle Freelancer, die sowas für vertretbares Geld machen, auch mit einer guten Qualität.",
+      "timeStr": "56:34"
+    },
+    {
+      "start": 3406,
+      "text": "Das muss ja auch irgendwie stimmen. nur was gemacht zu haben, ist ja auch immer nur so die eine Seite.",
+      "timeStr": "56:46"
+    },
+    {
+      "start": 3414,
+      "text": "Ich glaube, da werden viele auch, ich sehe es ja jetzt schon, viele verfallen in so einen Aktionismus. muss jetzt, aber es reicht doch, wenn man die richtigen Stellen macht.",
+      "timeStr": "56:54"
+    },
+    {
+      "start": 3427,
+      "text": "Also mehr draußen auftreten ist glaube ich eine tolle Idee.",
+      "timeStr": "57:07"
+    },
+    {
+      "start": 3434,
+      "text": "Dann gucken welche Portale sind da sinnvoll.",
+      "timeStr": "57:14"
+    },
+    {
+      "start": 3440,
+      "text": "Vielleicht ist es ja das Video, vielleicht ist es die PDF Datenbank.",
+      "timeStr": "57:20"
+    },
+    {
+      "start": 3450,
+      "text": "Dann einfach mal da was hin produzieren. Ich denke auf jeden Fall, dass man, wie du schon am Anfang gesagt hast, erst mal Ruhe bewahren soll.",
+      "timeStr": "57:30"
+    },
+    {
+      "start": 3461,
+      "text": "Also aktuell, also es ist ja noch nicht der große Marktanteil, aktuell verdient noch keiner damit groß Umsatz.",
+      "timeStr": "57:41"
+    },
+    {
+      "start": 3470,
+      "text": "Das kann man auf jeden Fall schon sagen. Und dann einfach mal in die Analyse geht, also fromts schaut, was kommt da raus.",
+      "timeStr": "57:50"
+    },
+    {
+      "start": 3481,
+      "text": "Dann nochmal, wie du auch gesagt hast. noch mal vielleicht ein paar Wochen, Monate noch mal schaut und dann auch vielleicht natürlich AI irgendwie nutzt als Tool sozusagen.",
+      "timeStr": "58:01"
+    },
+    {
+      "start": 3493,
+      "text": "Das machen sowieso viel zu wenig, also richtig so irgendwo.",
+      "timeStr": "58:13"
+    },
+    {
+      "start": 3498,
+      "text": "Weil am Ende ist ja einfach nur so ein Tool und dann genau einfach auch Zielgruppenarbeit macht, nochmal die Reflektion geht und natürlich auch Sios, Bidu und mich.",
+      "timeStr": "58:18"
+    },
+    {
+      "start": 3514,
+      "text": "beauftragen, das halt irgendwo auch systematisch und auch professionell zu machen und nicht irgendwie Hals über Kopf irgendwas zu machen, ohne irgendwie Sinn im Verstand.",
+      "timeStr": "58:34"
+    },
+    {
+      "start": 3533,
+      "text": "Wer jetzt hier Geo-Optimierung anbietet und ist im Herzen gar kein SEO, das kann eigentlich nur Quatsch weil die Übersteirungsrate liegt meiner Meinung nach bei 70 Prozent.",
+      "timeStr": "58:53"
+    },
+    {
+      "start": 3550,
+      "text": "Zu dem, was wir SEOs schon die ganzen Jahre gemacht haben und dann...",
+      "timeStr": "59:10"
+    },
+    {
+      "start": 3556,
+      "text": "Also wer jetzt nur Geo-Optimierung anbietet, da wäre ich sehr vorsichtig, weil am Ende musst du trotzdem noch rein und musst die Sachen da klatschen.",
+      "timeStr": "59:16"
+    },
+    {
+      "start": 3570,
+      "text": "Aber auch ich würde es als SEO nicht einfach nur mitmachen. Nochmal zum Schluss sage ich jetzt gleich, ich mache es gern, das ist aber auch ein separater Baustein.",
+      "timeStr": "59:30"
+    },
+    {
+      "start": 3584,
+      "text": "Das ist genauso wie wenn du sagst, ich will jetzt ein neues Land bespielen.",
+      "timeStr": "59:44"
+    },
+    {
+      "start": 3591,
+      "text": "Du bespielst damit ein neues Land, eigenen Kanal. So wie du es gesagt hast. Das ist ein eigener Kanal, der sich leider noch nicht gut messen lässt.",
+      "timeStr": "59:51"
+    },
+    {
+      "start": 3599,
+      "text": "Das ist ein bisschen doof, aber das ist durchaus ein eigener Kanal und das...",
+      "timeStr": "59:59"
+    },
+    {
+      "start": 3607,
+      "text": "werden werde ich persönlich nicht einfach so mitmachen, wenn jemand bei mir Seehofer auftragt.",
+      "timeStr": "1:00:07"
+    },
+    {
+      "start": 3615,
+      "text": "Ich nehme mich dem gerne an und gucke da auch, was in dem Fall passt. Aber das ist natürlich separat.",
+      "timeStr": "1:00:15"
+    },
+    {
+      "start": 3625,
+      "text": "Das ist separate Arbeit und ich habe ein bisschen die Vermutung, dass das doppelt Arbeit ist.",
+      "timeStr": "1:00:25"
+    },
+    {
+      "start": 3630,
+      "text": "Weil gut, meinem Google-Universum, da kenne ich mich aus, das ziehe ich dir, das ziehe ich dir relativ schnell glatt.",
+      "timeStr": "1:00:30"
+    },
+    {
+      "start": 3640,
+      "text": "Okay, alles was so da in dem Ding drin ist. Aber wenn ich dann rausgehen muss, okay, ich muss jetzt hier eine PDF Datenbank befüllen, dann gut, geht vielleicht noch.",
+      "timeStr": "1:00:40"
+    },
+    {
+      "start": 3650,
+      "text": "Aber wenn ich hier so weitere Open Datenbank, Stadtportale oder was ich, Knowledgecraft, Entitäten, Markenaufbau, Presse, was sagen die Leute dann immer?",
+      "timeStr": "1:00:50"
+    },
+    {
+      "start": 3663,
+      "text": "ja, musst jetzt Presse, ja, musst du machen. Ich habe es auch gesehen. wurde referenziert, Pressemitteilung 2018. Der wurde aus einer Pressemitteilung von 2018.",
+      "timeStr": "1:01:03"
+    },
+    {
+      "start": 3673,
+      "text": "Ja, da hat sich den sein PR ausgezeichnet. Glückwunsch, tolle Sache.",
+      "timeStr": "1:01:13"
+    },
+    {
+      "start": 3678,
+      "text": "Jetzt kann ich nicht hingehen und sagen, du, ich mache jetzt Pressearbeit für dich mit.",
+      "timeStr": "1:01:18"
+    },
+    {
+      "start": 3686,
+      "text": "Ist jetzt auch die Frage, wo, wo, ja, ist der Kunde überhaupt fähig, mir eine Pressemitteilung zu generieren?",
+      "timeStr": "1:01:26"
+    },
+    {
+      "start": 3693,
+      "text": "wenn man das Das ist ein großes Spielfeld. Ja, rausgehen auf anderer Plattform, alles gut. Überall gleicher Slogan, gleicher Claim.",
+      "timeStr": "1:01:33"
+    },
+    {
+      "start": 3702,
+      "text": "Auch Hinweis. Schon mal über den gleichen Slogan, gleichen Claim nachdenken. Am besten so ein Dings, wo ich kurz mein Unternehmen beschreibe, wo auch bisschen Keyword drin ist.",
+      "timeStr": "1:01:42"
+    },
+    {
+      "start": 3713,
+      "text": "Und das musst du ins Netz auf 50 Portalen bringen. Das mache ich nicht im normalen SEO mit. Das ist eine extra Diensteleistung.",
+      "timeStr": "1:01:53"
+    },
+    {
+      "start": 3722,
+      "text": "Na. Da müssen sich Leute auch drüber bewusst werden. Und wenn die sagen, ja, jetzt will ich das auch noch messen. ich habe eine Idee, wie wir was messen können.",
+      "timeStr": "1:02:02"
+    },
+    {
+      "start": 3729,
+      "text": "Wir hatten ja beide darüber gesprochen. SE Ranking hat ja dieses Tool EIO Trecker.",
+      "timeStr": "1:02:09"
+    },
+    {
+      "start": 3738,
+      "text": "Ja, ja, das ist ein separates Tool. Und wenn ich dich da als Marke anlege und als Projekt anlege, dann kostet das Geld.",
+      "timeStr": "1:02:18"
+    },
+    {
+      "start": 3747,
+      "text": "Ist einfach so. Ich kann auch zu Zistrix gehen, Zistrix habe ich auch, aber da sind auch irgendwann die Kapazitäten begrenzt.",
+      "timeStr": "1:02:27"
+    },
+    {
+      "start": 3758,
+      "text": "Also wenn ich diesen Baustein vollständig richtig bespielen will, ich also ich muss ja nochmal neues Werkzeug, neue Ideen, neuen Kram hernehmen.",
+      "timeStr": "1:02:38"
+    },
+    {
+      "start": 3770,
+      "text": "Den generiere ich zwar aus 70 Prozent SEO Arbeit vorher, aber ich muss ihn ja trotzdem da noch da rausbringen. Hmm.",
+      "timeStr": "1:02:50"
+    },
+    {
+      "start": 3780,
+      "text": "Das wird extra Geld kosten. es ist auch nicht einfach so mitgemacht.",
+      "timeStr": "1:03:00"
+    },
+    {
+      "start": 3787,
+      "text": "Ja, sei doch einfach eine Marke. Entschuldigung, wie bin ich denn einfach eine Marke? Ja, Markenarbeit, ich mach's gerne.",
+      "timeStr": "1:03:07"
+    },
+    {
+      "start": 3796,
+      "text": "Ich glaube, wir verschmelzen auch mit diesen Unternehmensleuten, mit diesen Unternehmensberatern.",
+      "timeStr": "1:03:16"
+    },
+    {
+      "start": 3801,
+      "text": "Und die sind gut beraten, auch uns mal zu hören, viel technisch inhaltlich, ja, so technisch.",
+      "timeStr": "1:03:21"
+    },
+    {
+      "start": 3809,
+      "text": "ich finde, ist so digitaler Markenaufbau.",
+      "timeStr": "1:03:29"
+    },
+    {
+      "start": 3813,
+      "text": "ist eigentlich, das ist schon, also der René, der sagt das auch immer, digitaler Markenaufbau.",
+      "timeStr": "1:03:33"
+    },
+    {
+      "start": 3823,
+      "text": "Ich weiß gerade nicht, wie er nach meinem heißt. Aber den kennste auch. Ja, genau, Demand. Ja, Demand.",
+      "timeStr": "1:03:43"
+    },
+    {
+      "start": 3832,
+      "text": "Genau, der sagt das auch immer, digitaler Markenaufbau. SEO ist digitaler Markenaufbau.",
+      "timeStr": "1:03:52"
+    },
+    {
+      "start": 3838,
+      "text": "Und so sehe ich das auch.",
+      "timeStr": "1:03:58"
+    },
+    {
+      "start": 3842,
+      "text": "in dem Sinne müssen uns ja eigentlich Branding-Spezialisten auch Seos viel mehr zu Rate ziehen, wie sichtbar ist meine Marke, wie viel Interesse hat meine Marke, dass ja auch dann wieder so bisschen wie Seo-Arbeit auch so traditionell ist.",
+      "timeStr": "1:04:02"
+    },
+    {
+      "start": 3858,
+      "text": "Aber wie, welche Portale sind oder welche Presseartikel sind wichtig, um da Pressearbeit zu machen.",
+      "timeStr": "1:04:18"
+    },
+    {
+      "start": 3866,
+      "text": "Also das ist ja jetzt Es gibt ja Millionen von Fachmagazinen irgendwo und die sind ja auch immer sehr spezifisch.",
+      "timeStr": "1:04:26"
+    },
+    {
+      "start": 3872,
+      "text": "Zum Beispiel bei Fashion, Beauty ist das halt Vogue, Brigitte und so weiter und so fort.",
+      "timeStr": "1:04:32"
+    },
+    {
+      "start": 3883,
+      "text": "Bei Männer ist das was ganz anderes oder irgendwie GQ oder Manager Magazine, das ist eher so andere Bereiche.",
+      "timeStr": "1:04:43"
+    },
+    {
+      "start": 3893,
+      "text": "Insofern hat man ja auch nicht unendlich Geld. in jedem Markenportal da irgendwie zu erwähnt zu werden.",
+      "timeStr": "1:04:53"
+    },
+    {
+      "start": 3902,
+      "text": "Geld schadet nicht, das sage ich gleich.",
+      "timeStr": "1:05:02"
+    },
+    {
+      "start": 3909,
+      "text": "Pressearbeit kostet auch Geld. Das beste Setup ist immer, wenn es intern jemanden gibt plus jemanden extern.",
+      "timeStr": "1:05:09"
+    },
+    {
+      "start": 3920,
+      "text": "Ich brauche eine Schnittstelle im Unternehmen, mit der ich kommunizieren kann.",
+      "timeStr": "1:05:20"
+    },
+    {
+      "start": 3926,
+      "text": "uh dicht am Thema dran ist, der jetzt nicht auf Praktikant-Level ist, sondern vielleicht ein bisschen dem Marketing-Manager, der, der auch intern mir mal sagt, was wirklich der Value",
+      "timeStr": "1:05:26"
+    },
+    {
+      "start": 3939,
+      "text": "der Company ist und der auch die Fähigkeit hat, mal einen Newsletter rauszudrücken oder, oder, weil wenn man dieses Spiel zusammen macht, dann geht's vorwärts.",
+      "timeStr": "1:05:39"
+    },
+    {
+      "start": 3948,
+      "text": "Ja, dann brauchst du einen internen Manager und am besten einen externen Manager, der dir auch dann noch zuarbeitet und dann so in diesen Dings danach nach vorne geht und dann kannst du auch Markenaufbau machen.",
+      "timeStr": "1:05:48"
+    },
+    {
+      "start": 3960,
+      "text": "Dann schaffst du das auch mit zwei, drei Leuten durchzuspielen.",
+      "timeStr": "1:06:00"
+    },
+    {
+      "start": 3965,
+      "text": "Zumindest den Grundstock aufzusetzen, um diese Search Everywhere Optimization hinzubiegen.",
+      "timeStr": "1:06:05"
+    },
+    {
+      "start": 3976,
+      "text": "Und ich glaube, ja, ich wollte schon sagen, ja, okay, alles gut.",
+      "timeStr": "1:06:16"
+    },
+    {
+      "start": 3982,
+      "text": "die, wie gesagt, ist, ich,",
+      "timeStr": "1:06:22"
+    },
+    {
+      "start": 3986,
+      "text": "gute Idee, sich alle seine Sachen intern mal anzugucken und da auch willens zu sein, ändern.",
+      "timeStr": "1:06:26"
+    },
+    {
+      "start": 4000,
+      "text": "Aber wenn wir jetzt rausgehen, es gibt ja diesen Konsens, mach den Slogan und den Claim gleich.",
+      "timeStr": "1:06:40"
+    },
+    {
+      "start": 4011,
+      "text": "da sind manche gar nicht willens. Hm. kann ja auch sein. Du bist ja immer nur so gut wie die Firma, mit dir mitspielt.",
+      "timeStr": "1:06:51"
+    },
+    {
+      "start": 4021,
+      "text": "Da musst du auch liefern. Und wenn der CEO zu dir kommt und sagt, ich brauche jetzt mal einen PDF und du lieferst es nicht, dann kann er sagen, kann dir, kreiere, dann brauche ich es mir selbst.",
+      "timeStr": "1:07:01"
+    },
+    {
+      "start": 4032,
+      "text": "Da muss wieder abgesegnet werden und und und. Aber ich glaube, es sind Prozesse und ich sind ja.",
+      "timeStr": "1:07:12"
+    },
+    {
+      "start": 4042,
+      "text": "Every company is now a tech company. Das hat mal irgendeiner gesagt. jede Firma ist jetzt eine Tech-Firma.",
+      "timeStr": "1:07:22"
+    },
+    {
+      "start": 4051,
+      "text": "Ich weiß nicht, ob es für den Maler zutrifft, aber es funktioniert halt so.",
+      "timeStr": "1:07:31"
+    },
+    {
+      "start": 4056,
+      "text": "Sichtbarkeit draußen am Netz kommt über digitale Medien, kommt über glitze kleine Bildschirme von deinem Smartphone, von irgendwelchen Kanälen, die alle in irgendeiner Form digital sind.",
+      "timeStr": "1:07:36"
+    },
+    {
+      "start": 4071,
+      "text": "Hm. beraten, Know-how auch aufzubauen und auch eine Mannschaft extern, intern, da rangeht.",
+      "timeStr": "1:07:51"
+    },
+    {
+      "start": 4083,
+      "text": "dann wird das was. Und dann kann man auch mal schöne Experimente fahren.",
+      "timeStr": "1:08:03"
+    },
+    {
+      "start": 4088,
+      "text": "das war ja, jetzt kommen wir aber wirklich zum Schluss, glaube ich, das war ja das, was wir anfangs sagten, wir sind noch im",
+      "timeStr": "1:08:08"
+    },
+    {
+      "start": 4097,
+      "text": "Experimentierlevel, sind noch im Forschungslevel, weil ich persönlich habe jetzt noch keinen Jubel hören, hey, ich habe mit der Maßnahme XY vielleicht, ich habe drei Sprünge im LMM nach oben geschafft.",
+      "timeStr": "1:08:17"
+    },
+    {
+      "start": 4114,
+      "text": "Das kam ja noch nicht. Bislang kam immer nur die Spekulation.",
+      "timeStr": "1:08:34"
+    },
+    {
+      "start": 4119,
+      "text": "Ja, valide Spekulation, wo man sagt, ey, wir denken diese, diese Maßnahmen, die könnten es sein.",
+      "timeStr": "1:08:39"
+    },
+    {
+      "start": 4126,
+      "text": "Aber was davon jetzt den Impact wirklich bringt. Und ich freue mich auf die Reaktionen. Wir haben es ja mit dem YouTube angesprochen.",
+      "timeStr": "1:08:46"
+    },
+    {
+      "start": 4134,
+      "text": "Interessiert mich persönlich wirklich, wer das freigibt. Ja, das würde ich gerne.",
+      "timeStr": "1:08:54"
+    },
+    {
+      "start": 4141,
+      "text": "Und ansonsten noch guckt uns unseren ersten Podcast nochmal an und vielleicht gibt es ja auch noch einen späteren Podcast. Ja, sicherlich.",
+      "timeStr": "1:09:01"
+    },
+    {
+      "start": 4149,
+      "text": "auf jeden Fall drei bis sechs Monaten gibt es wahrscheinlich wieder ganz neue Erkenntnisse zu AI oder Generalisio.",
+      "timeStr": "1:09:09"
+    },
+    {
+      "start": 4157,
+      "text": "hat sich das entwickelt? Weil man muss ja sagen, letzten Jahr hat sich ja so viel entwickelt, das hätte man ja nicht geglaubt.",
+      "timeStr": "1:09:17"
+    },
+    {
+      "start": 4165,
+      "text": "Letztes Jahr gab es ja noch nicht mal AI-Overviews. Da war noch nicht mal die Vermutung da, wann bringt das Google überhaupt raus?",
+      "timeStr": "1:09:25"
+    },
+    {
+      "start": 4173,
+      "text": "Und jetzt ist es halt schon da so. seit ein Monaten und solche Entwicklungen. Ich kann mich ja nicht vorhersehen.",
+      "timeStr": "1:09:33"
+    },
+    {
+      "start": 4185,
+      "text": "Es bleibt hochspannend. Also schaltet wieder ein.",
+      "timeStr": "1:09:45"
+    },
+    {
+      "start": 4189,
+      "text": "sage Antonio, vielen, vielen Dank, dass ich bei dir zu Gast sein darf, auch wenn ich immer viel quassel und wir schon wieder über die Stunde drüber sind.",
+      "timeStr": "1:09:49"
+    },
+    {
+      "start": 4200,
+      "text": "Es ist mir eine Freude. Ich lerne auch dabei was. Ja, also vielen Dank und bis zum nächsten Mal.",
+      "timeStr": "1:10:00"
+    },
+    {
+      "start": 4211,
+      "text": "Ja, sehr gut. Vielen Dank und genau, sehen uns. Ciao. Tschüss!",
+      "timeStr": "1:10:11"
+    }
+  ]
+}

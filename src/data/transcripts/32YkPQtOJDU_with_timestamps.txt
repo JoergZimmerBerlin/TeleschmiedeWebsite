@@ -1,0 +1,879 @@
+# Transkript: Magic Writing Podcast (Michael Kaufhold & Jörg Zimmer) (ID: 32YkPQtOJDU)
+
+[00:01] So und damit hallo und herzlich
+[00:03] willkommen zu einer neuen Episode von
+[00:05] Magic Writing, der Podcast, der sich
+[00:07] darum kümmert, dass du immer die
+[00:09] richtigen Worte für dein Unternehmen in
+[00:11] jedem Einsatzbereich findest und damit
+[00:14] du auch in Zukunft überall gefunden
+[00:16] wirst und vor allen Dingen an der
+[00:18] richtigen Stelle von den richtigen
+[00:19] Leuten gefunden wirst, habe ich heute
+[00:21] einen ganz besonderen Podcastgast bei
+[00:23] mir zu mir eingeladen. Er ist
+[00:26] Suchmaschinen Marketingspezialist. Ich
+[00:29] glaube, das ist das längste Wort für
+[00:30] eine Jobbezeichnung, die wir bisher hier
+[00:32] im äh Podcast haben. Er macht bereits äh
+[00:35] seit über 25 Jahren SEO quasi so lange
+[00:37] wie es das Internet gibt, praktisch fast
+[00:39] länger als Google. Äh er ist ja Experte
+[00:43] für Suchmaschinenoptimierung,
+[00:45] Suchmaschinenmarketing. Heute hier Jürg
+[00:47] Zimmer. Herzlich willkommen. Vielen Dank
+[00:51] Michael. Ja, schön. Danke für die
+[00:54] Einleitung und danke für die schöne
+[00:56] Vorstellung.
+[00:58] Sehr, sehr gerne. J gleich vorab, ich
+[01:01] habe dich ja kurz schon vorgestellt,
+[01:03] aber trotzdem auch an dich quasi die
+[01:05] Frage, die ähm ja eigentlich jeden
+[01:08] Podcast Gast irgendwie in der einen oder
+[01:10] anderen Form
+[01:12] heimsucht. Was müssen meine Zuhörer über
+[01:15] Jürg wissen, damit Jürg das Gefühl hat,
+[01:17] sie wissen alles, was wichtig ist? Oder
+[01:19] ganz kurz, wer ist Jürg? Okay. Ja, ich
+[01:22] bin bin Jürg Zimmer. Ich mache halt
+[01:24] wirklich
+[01:25] Suchmaschinenmarketing äh schon seit 20
+[01:29] 25 Jahren. B bin selbst mit eigenen
+[01:32] Projekten in das in das äh Geschäft
+[01:35] reingestattet. Ja, das war so 1999, wo
+[01:38] die erste Domänen mit dem Kumpel
+[01:40] zusammen ging und mich hat das halt
+[01:43] fasziniert. Ja, also wie die wie die
+[01:45] Besucherzähler da wachsen können. Hab
+[01:48] hab dann hab dann 10 Jahre lang halt
+[01:50] eigene Projekte gemacht. G ganz viel SEO
+[01:53] äh ganz viel auch auch schlechtes SEO.
+[01:57] Damals war das ja noch möglich. Ähm hab
+[02:00] dann auch dazu später Google Ads
+[02:03] gebucht, habe mich dann in Google Ads
+[02:05] verliebt. Ist auch heute noch ein
+[02:06] schönes schönes Tool. Die Skalierung
+[02:08] geht halt ein Ticken schneller damit,
+[02:10] das deswegen ich mache halt SEO und
+[02:13] Google Ads und dann war ich ein paar
+[02:16] Jahre als Google Ads Spezialist
+[02:18] unterwegs und jetzt gerade eben als
+[02:22] kombinierter Mix. Ja, das best die
+[02:24] besten Ergebnisse hast du immer, wenn du
+[02:25] beides kombinierst oder wenn du alle
+[02:26] alle Kanäle kombinierst und ich mag SEO
+[02:29] und Google Ads im Zusammenspiel, weil
+[02:32] die sich gut ergänzen und da habe ich
+[02:34] meine meine Leidenschaft dran. Ja, fre.
+[02:38] Ja, das und das als Beratung. Sehr cool.
+[02:42] Ja, das ist ja, sage ich mal, wie in in
+[02:44] allen Bereichen. Ich komme ja aus
+[02:46] Marketing und auch da hast du ja das
+[02:47] Thema organisch, also Content Marketing
+[02:49] letztendlich, egal, ob es jetzt auf äh
+[02:52] Plattformen wie LinkedIn Meta ist, auf
+[02:55] ähm Instagram am Ende auch oder YouTube
+[02:58] und du hast ja immer noch das Thema Ads
+[03:01] dazu und die beste Wirkung hast du am
+[03:04] Ende in der Kombination. Also, wenn du
+[03:06] dir eine organische Community aufbaust,
+[03:08] wenn du organisch am Ende Traffic oder
+[03:10] Reichweite auf deine auf deine Beiträge,
+[03:11] auf deine Inhalte kriegst und dann hast
+[03:13] du halt mit Werbung einfach noch mal den
+[03:15] Booster. Das ist ja letztendlich bei SEO
+[03:17] am Ende auch nichts anderes. Ähm und das
+[03:20] bringt mich eigentlich gleich in die
+[03:22] erste Frage oder in das erste das erste
+[03:25] Thema, die wir uns heute widmen wollen.
+[03:27] Wie relevant ist das Thema SEO heute
+[03:30] noch? Weil also ich sag mal, ich mache
+[03:31] das Ganze jetzt noch bei weitem nicht so
+[03:33] lange wie du. vor 5 bzw. 6 Jahren so mit
+[03:36] Marketing, Copywriting und so mit dem
+[03:38] Themen gestartet und mal ehrlich, schon
+[03:41] damals hieß es eigentlich SEO ist tot,
+[03:44] das braucht kein Mensch mehr. Ich meine
+[03:45] das gleiche, die gleichen Leute, die
+[03:47] behaupten, E-Mail Marketing ist tot und
+[03:49] auch das ist nach wie vor relevant.
+[03:52] Ähm, ich denke auch SEO wird äh auch in
+[03:56] 10 Jahren noch relevant sein, aber ähm
+[03:59] mich interessiert einfach deine Meinung
+[04:01] dazu. Spielt SEO immer noch die große
+[04:03] Rolle oder ändert sich das auch, also
+[04:05] auch die Art und Weise, wie SEO
+[04:07] funktioniert, wenn ich jetzt an die
+[04:08] ersten Webseiten denke, das war ja dann
+[04:09] teilweise wirklich ein Graus. Ja, also
+[04:11] SEO ist, glaube ich, noch noch lange
+[04:13] nicht tot und Leute, die das behaupten,
+[04:15] haben meiner Meinung nach sehr wenig
+[04:18] Background. Ähm und die Google ist auch
+[04:22] nicht tot, äh nur weil da jetzt
+[04:25] irgendwelche Chat BT oder Englis kommt.
+[04:29] Das dauert noch ein bisschen. Wenn man
+[04:31] es richtig formulieren wollte, dann
+[04:33] könnte man vielleicht ja sagen, Seo
+[04:36] stirbt, aber dann stirbt es auch schon
+[04:38] die letzten 10 Jahre. Und ich sehe
+[04:40] eigentlich genau das andere logisch aus
+[04:43] aus meiner Sicht äh ist das nicht so der
+[04:48] die
+[04:49] ähm die äh Wichtigkeit äh sichtbar zu
+[04:53] sein ist ja in den letzten Jahren auch
+[04:56] enorm gestiegen.
+[04:58] Ähm es sind ein Haufen neue Player in
+[05:01] jedem Bereich, in jeder Branche dazu
+[05:04] gekommen. Ich habe überall Konkurrenz.
+[05:06] Es gibt kein Friedreffik mehr. Ähm, wo
+[05:10] ich jetzt sage, den nehme ich mal
+[05:11] schnell mit, da ist ja noch kein anderer
+[05:13] unterwegs, das hast du nicht. Und auf
+[05:16] den geldwerten Keywörtern, also da, wo
+[05:19] Treffik richtig in Umsatz umgewandelt
+[05:22] wird, da hast du richtig richtig harte
+[05:26] Konkurrenz, da musst du ähm schon deine
+[05:31] Hausaufgaben machen und ähm ja, Zero an
+[05:35] sich ähm ist komplexer geworden, das
+[05:38] gebe ich zu. Und wenn ich jetzt
+[05:41] betrachte zu den Anfangsjahren des
+[05:44] Internets, ja, wo du noch mit
+[05:48] äh bösen Methoden unterwegs sein
+[05:51] konntest, ähm und im Spammy Bereich
+[05:54] unterwegs war ich auch, ja, gebe ich es
+[05:56] doch zu. Okay, war waren waren viele von
+[05:59] uns damals.
+[06:01] Ja, mein Gott. So, und das hab hat sich
+[06:03] aber extrem gewandelt. Google ist extrem
+[06:06] schlau geworden im Laufe der Jahre.
+[06:09] Ähm und wir Seros haben uns auch
+[06:11] weiterentwickelt. Ähm und so die letzten
+[06:14] 10 Jahre, wenn ich so betracht, dann
+[06:17] musstest du halt wirklich Qualität
+[06:19] liefern. Du musstest dich an die
+[06:21] Guidelines halten. Du musstest deinen
+[06:23] Nutzer glücklich machen. Du du musst die
+[06:26] äh du du musst den Krauler glücklich
+[06:28] machen. Aber das ist gar nicht der der
+[06:30] Hauptkunde. Der Hauptkunde ist ja deine
+[06:32] deine Zielgruppe. Du musst die glücklich
+[06:34] machen und wer das am meisten schafft
+[06:37] und das muss man strategisch ein
+[06:38] bisschen angehen und ja, da muss man
+[06:40] halt Inhalte vorhalten, Texte schreiben,
+[06:43] so wie das von deiner Seite her kommt.
+[06:46] Die müssen gut sein, die müssen
+[06:47] schmecken, die
+[06:49] müssen wertvoll sein und
+[06:52] da muss muss man schon muss man schon
+[06:55] ein bisschen Qualitätsliefern und Spam
+[06:57] geht halt gar nicht mehr heute total
+[06:59] raus.
+[07:00] ähm und ist komplexer geworden und ja,
+[07:04] ich denke ähm es brauchen es brauch
+[07:08] brauchen im Grunde wenn wenn du ab da ab
+[07:12] dem Zeitpunkt, wo du eine Webseite ins
+[07:14] Netz
+[07:15] stellst, hat die ja irgendeine Art
+[07:17] Funktion
+[07:19] und die Funktion kann als Visitenkarte
+[07:23] dienen, wenn du jetzt sagst, okay, ich
+[07:24] brauch das nur, damit Leute meine
+[07:26] Kontaktdaten holen. Mein ganzer
+[07:28] Freundeskreis empfiehlt diese Domain und
+[07:31] das ist mein Ding. So, aber viele haben
+[07:34] ja auch einen Onlineshop, viele sind
+[07:37] Mittelständler und haben da eine
+[07:39] Webseite manchmal in mehreren Sprachen
+[07:42] und alles mögliche, alles was ich
+[07:43] davorhalte und das gehört auch zu mir.
+[07:45] Es ist einfach nur reinstellen den
+[07:47] Inhalt reicht halt nicht. Ja, definitiv.
+[07:50] Und da sprichst du auch schon was was
+[07:52] ganz ganz wichtiges an. Und mir ist
+[07:54] gerade noch eine zweite Frage gekommen,
+[07:56] die stelle ich aber hinten ran, weil ähm
+[07:58] das Thema, wie du es gerade sagst, am
+[08:00] Ende ist nicht der Crowler dein Kunde,
+[08:02] sondern dein Kunde ist dein Kunde. Und
+[08:05] ähm hier ist ja das Problem, also ich
+[08:08] habe zumindest zwischenzeitlich das
+[08:10] Gefühl gehabt, dass SEO und auf Social
+[08:13] Media hast du es ja am Ende nichts
+[08:14] anderes, wenn die Leute über den
+[08:15] Algorithmus schimpfen und so weiter,
+[08:17] dass der die Inhalte nicht mehr für den
+[08:20] eigentlichen Nutzer gemacht werden,
+[08:22] sondern für den Algorithmus, der das
+[08:24] irgendwo befeuert. Und das auch ähm das
+[08:27] ist ja auch immer so ein Argument, was
+[08:28] mir zumindest immer mal wieder begegnet
+[08:30] beim Thema SEO. Ähm es braucht kein
+[08:32] Mensch mehr. Äh, es liest sowieso keiner
+[08:34] und du machst SEO eigentlich nur für äh
+[08:37] den Google Algorithmus äh und für die
+[08:40] ich sag so, ist sicherlich ein Teil,
+[08:43] aber ist an an einer Stelle
+[08:45] wahrscheinlich zu kurz gedacht äh oder
+[08:48] höchstwahrscheinlich zu kurz gedacht.
+[08:49] Und der Punkt, worauf ich hinaus will,
+[08:51] ist ja, dass das jetzt mit den, du hast
+[08:54] es eben angerissen mit dem Thema KI
+[08:56] suchen, also Chat GPT, Deep Search mit
+[08:59] äh
+[09:00] Perplexity, was weiß ich, mit was du
+[09:03] noch alles suchen kannst,
+[09:06] ähm wird das Ganze ja noch mal
+[09:08] spannender, weil
+[09:10] äh also ich glaube nicht, dass Google
+[09:12] sich da so schnell den Rang ablaufen äh
+[09:14] lassen wird. Mich wundert sowieso, dass
+[09:17] die so lange gewartet haben. Meine haben
+[09:18] ja jetzt nur mit Gemini ihre ihre KI
+[09:20] ausgerollt. Aber wie ist so deine
+[09:23] Einschätzung in dem Thema KI Suche? Äh
+[09:27] glaub dafür gibt es auch ein Begriff.
+[09:28] Bin der Meinung Geo mal gelesen zu
+[09:30] haben, statt
+[09:32] SEO. Wie geht da der Trend hin? Wie wird
+[09:35] sich das aus deiner Sicht verändern?
+[09:36] Oder googeln die Leute trotzdem
+[09:38] weiterhin ganz normal? Ich glaube, die
+[09:41] machen sowohl als auch und ähm ist
+[09:45] natürlich ein ein neuer neuer Baustein
+[09:49] im Markt, das muss man auch mal auch
+[09:51] sagen. Ja, also die
+[09:54] ähm KI suchen oder LMS suchen, ja, Chat
+[09:57] GPT und Gemini und die sind ähm die sind
+[10:02] da und die sind auch auch
+[10:06] ähm ich sag jetzt mal wertvoll,
+[10:09] verändern jetzt aber nicht von heute auf
+[10:11] morgen das Business
+[10:13] komplett. So, das
+[10:15] wird mich nach meiner Einschätzung
+[10:17] fragst, jetzt hole ich mal die Glaskugel
+[10:19] raus. Das müssen wir noch dazu sagen,
+[10:20] dass wir ähm dass wir im Mai 2025
+[10:26] sind. Also das vielleicht, wenn sich das
+[10:30] Interview hier jemand in 2 d Jahren
+[10:32] anhört, kann das komplett anders
+[10:35] aussehen. Aber nach meiner jetzigen
+[10:37] Einschätzung ist es so, ähm dass die die
+[10:40] verändern den Markt. Ich sehe es als äh
+[10:44] zusätzlichen Kanal, der jetzt da ist.
+[10:48] Ja, also wir haben halt unsere Kanäle
+[10:50] von Coso Ads und Social und weiß ich und
+[10:55] da kommt kommt eigentlich noch ein neuer
+[10:57] Kanal dazu und der speist sich halt aus
+[11:01] großen äh äh Modellen und in den
+[11:05] Modellen jetzt zu erscheinen ähm muss
+[11:09] man ja auch irgendwie sichtbar sein.
+[11:12] Und äh weil wir gerade noch äh in der
+[11:16] Diskussion sind, dass viele denken, Seo
+[11:18] sei tot. Ja, aber woher nehmen die denn
+[11:20] die ihre Information? Das ist es ist im
+[11:23] Moment noch to erforschen. Das muss ich
+[11:25] auch sagen, muss ich auch mal an dem
+[11:26] Markt ein bisschen bisschen bisschen
+[11:28] rausgehen und sagen, nee, Leute, das wir
+[11:31] wissen es noch nicht. Ja, wer wer wer
+[11:33] jetzt dir heute behauptet, er macht eine
+[11:36] eine AIO Optimization, ja, der kann das
+[11:42] meiner Meinung nach noch gar nicht
+[11:44] wissen, weil um das wirklich zu
+[11:46] optimieren, müsste man erstmal messen.
+[11:49] Man müsste erstmal messen, wie oft werde
+[11:51] ich angezeigt, wie oft kommt meine Marke
+[11:55] in meinem Kontext vor, wie oft
+[11:59] ähm äh erscheine ich, wie oft kommt mein
+[12:04] Link, das kann man schon messen. Jet GPT
+[12:07] hat jetzt ein Tracking Parameter an an
+[12:10] die Links hätten dran geefügt. Das
+[12:11] könnte ich also messen. Das wird aber
+[12:13] wahrscheinlich dann gar nicht mehr in
+[12:14] die Richtung. Ich optimiere auf den
+[12:17] Treffic gehen. Ja, es wird
+[12:20] wahrscheinlich in die Richtung auf ich
+[12:21] optimiere auf die Sichtbarkeit meiner
+[12:26] Person, meiner Marke, meiner Produkte.
+[12:29] Und da reicht dann ja wahrscheinlich,
+[12:31] wenn ich im LM äh äh erscheine, wenn da
+[12:37] mein Name ist und dann wenn ich dann
+[12:39] jetzt sage, okay, jetzt habe ich das
+[12:42] meine Lösung dort äh erschätet und dann
+[12:46] suche ich am Ende bloß noch den Brand.
+[12:48] So, das kann also kann passieren, dass
+[12:49] dass dann äh wenn ich wenn ich dort
+[12:51] wirklich schon drin bin, dass meine
+[12:53] Brand suche hochgehe.
+[12:55] Man müsste eben jetzt genau erforschen
+[12:57] oder das werden wir also wenn die Seos
+[12:59] sind meiner Meinung nach der ersten
+[13:01] einer Pool Position das zu erforschen,
+[13:03] aber bitte bitte Leute redet doch das
+[13:06] ist See nicht tot. Also ich gehe schwer
+[13:07] ich gehe schwer davon aus, dass äh so so
+[13:10] der Abgleich, was ich jetzt gelesen habe
+[13:12] aus den Studien und aus den Experimenten
+[13:14] ja jetzt nicht wo Leute mal
+[13:16] philosophieren, ja viele gerade machen,
+[13:19] die philosophieren sich ein Lakin ist
+[13:21] jetzt alles tot und so. Nee, obwohl
+[13:23] Leute mal getestet haben, wie kann denn
+[13:25] Chat GPT deine Seite durchleuchten oder
+[13:29] wie
+[13:31] aktiv spülst du dich und deinen Kontext
+[13:36] in die Suchen? Das muss man doch erstmal
+[13:38] messen, bevor ich sage, wenn ich nicht
+[13:41] weiß, wie die Ausgangslage ist, kann ich
+[13:44] auch nicht sinnvoll optimieren. Ich muss
+[13:46] ja erstmal wissen, wie der jetzige Stand
+[13:49] ist. Wie werde ich denn jetzt
+[13:51] ausgerollt? Und wenn wir da mal warum
+[13:54] Jer schon zwei Jahre auf dem Marktm aber
+[13:58] die bei Google z.B. Google hat ja jetzt
+[14:02] letzte
+[14:03] Woche letzte Woche, ja, wir sind Mai
+[14:06] 2025, letzte Woche hat Google
+[14:10] freigegeben den
+[14:12] äh den Mode hier, diesen nicht nicht den
+[14:16] nicht den EI Mode. Ich meine die, dass
+[14:18] die äh Antworten mit KI heißt es in
+[14:22] Deutschland, in Englisch heißt es AI
+[14:26] Overview, dass das auch für nicht
+[14:29] eingeloggte Google Nutzer erscheint.
+[14:31] Also das, wenn ich jetzt nach einer
+[14:32] Infosuche suche, äh wo dann oben drüber
+[14:36] halt in der Google Suche steht, okay, wo
+[14:39] da kommt jetzt ein Modul, was kein
+[14:44] Linkergebnis ist, sondern eine Antwort
+[14:46] aus der aus der KI. Und das ist erst
+[14:49] seit letzte Woche offiziell für alle
+[14:52] nicht eingelogten nicht eingelockten
+[14:54] Nutzer freigegeben worden und erst ab
+[14:56] dem Zeitpunkt können Tools wie Sistx
+[15:01] oder wie SE Ranking oder wie die großen
+[15:06] SEO Tools Araf und was nicht alles kommt
+[15:09] oder können erst eigentlich erst
+[15:12] offiziell seit letzter Woche messen, wie
+[15:15] oft ich denn dort oben erscheinen. So.
+[15:18] Und das heißt also ähm da muss man ein
+[15:20] bisschen erstmal ein Ballfach halten und
+[15:23] auf die Jungs warten, die jetzt
+[15:24] vorstürmen und Experimente machen und
+[15:28] gucken, was kann ich denn für
+[15:32] Stellschrauben liefern, damit ich in die
+[15:35] großen Modelle
+[15:37] reinkomme. Es muss ja auch irgendwie
+[15:41] Faktenbasiert sein und erst wenn ich
+[15:43] messen kann, kann ich auch eine
+[15:45] Veränderung herbeiführen. also
+[15:48] optimieren und dann die Veränderung
+[15:51] messen und dann sagen: "Hey, ich habe es
+[15:53] geschafft. Mit der Veränderung bin ich
+[15:56] jetzt drei Positionen in in der im Chat
+[16:00] GPT oder im im Google AI Overview nach
+[16:04] oben gerutscht oder ich wurde letzte
+[16:07] Woche noch nur zehn mal referenziert,
+[16:10] seitdem ich die Änderung auf meiner
+[16:12] Webseite oder in meinem Profil im Netz,
+[16:16] wo auch immer gemacht habe. Seitdem
+[16:18] kriege ich 20. Diese Steigerung, die
+[16:20] muss man ja erstmal visualisieren,
+[16:23] dokumentieren und da da sind wir in dem
+[16:25] Moment, da sind wir meiner Meinung nach.
+[16:30] Also meinst du, ist der Optimismus, der
+[16:32] quasi damit einhergeht, eigentlich noch
+[16:34] zu früh? Ich sag mal, es erinnert so ein
+[16:36] bisschen an die ersten Tage von Jet GPT
+[16:38] bzw. als Open AI vor zwei Jahren das
+[16:40] Modell ausgerollt hat für die breite
+[16:42] Masse, da waren ja auch ganz ganz viele
+[16:46] Nutzer sofort äh äh sage ich mal fast
+[16:48] schon übereuphorisch zu sagen, KI wird
+[16:51] äh alle digitalen Job ersetzen und ja,
+[16:55] am Ende sind die immer alle noch immer
+[16:56] noch alle da. Also, keine Frage, das ist
+[16:59] eine super geile Technologie und ich
+[17:01] nutze es auch sehr gern und die die
+[17:05] Kinderkrankheiten werden immer weniger
+[17:07] und das wird wahrscheinlich exponentiell
+[17:08] wachsen. Also Shoutout geil. Ja, das ist
+[17:12] schön, das ist wirklich gut.
+[17:15] Aber wenn die
+[17:18] Marktanteile, man muss ja realistisch
+[17:20] sein, die
+[17:21] Marktanteile von Chat GPT zu Google sind
+[17:26] halt ein bisschen wie wie hoch wie hoch
+[17:29] ist denn das? Also, na, ich ich war der
+[17:32] Meinung, dass die die letzten die
+[17:34] letzten Vergleiche waren so ungefähr in
+[17:37] Richtung ein zu äh 360 oder so od oder
+[17:42] anders ausgedrückt. Nehmer Marktanteile
+[17:45] von Google hat ja doch überall in vielen
+[17:47] vielen Ländern doch sehr hohe
+[17:49] Marktanteile so so bei 90% oder sowas
+[17:55] außer vielleicht China aber ansonsten ja
+[17:57] China nicht Russland nicht so die dieses
+[18:02] amerikanischuropäische schon sagen ein
+[18:04] großen Marktanteil ja der
+[18:07] Hauptplayer Ja, dann ist dann kommt dann
+[18:10] Chat daher ja und die haben halt mit 0
+[18:12] mal irgendwas Marktanteil angefangen,
+[18:16] wenn wir gut sind. Ich bin jetzt jetzt
+[18:19] nicht tages aktuell auf dem Schirm, aber
+[18:21] dann sind wir lass lass uns bei 1% sein
+[18:24] oder lass von mir aus auch 2 % sein. Äh
+[18:27] kein kein kein Problem. Ähm aber das ist
+[18:31] verschwindend gering im Moment noch. Das
+[18:34] wächst exponential, richtig? Aber das
+[18:36] ist verschwindet gering. Und ich sag mal
+[18:39] ähm es gibt es gibt einen Player im
+[18:41] Markt, der der 5% hat und das ist Bing.
+[18:46] So. Und jetzt jetzt die Frage, nutzt du
+[18:48] Bing? Bing. Okay, also ganz gelegentlich
+[18:50] mal, wenn ich mit meinem iPhone suche,
+[18:52] weil die iPhone Suche glaube ich von
+[18:54] vorne rein auf Bingen basiert.
+[18:56] Äh, aber meistens stelle ich das dann
+[18:58] auf Google. Also, hätte ich mir auch
+[19:00] gewünscht, dass Bing mal aus dem Pushen
+[19:02] kommt, ne? Aber die haben es ja die
+[19:03] letzten 10 Jahre auch nicht geschafft,
+[19:05] ne? Die waren ja eigentlich als Chat GPT
+[19:08] rauskam. Was haben die Leute gemacht?
+[19:10] Die haben
+[19:11] nach die haben nach die haben nach Chat
+[19:14] GPT gegoogelt, aber weil dann irgendwann
+[19:17] die Connection kam mit
+[19:20] äh ach, das gehört ja zum Microsoft
+[19:22] Universum und ähm das das ist jetzt in
+[19:26] die Binguche mit integriert und ich
+[19:27] könnte jetzt über die Binguche mit Chat
+[19:29] GPT chatten und so.
+[19:31] Was haben die die Leute haben nach Bing
+[19:34] gegoogelt? Ich habe das das gesehen.
+[19:36] Ging, du kannst ja in Google Trends
+[19:38] kannst du gucken, kannst du aber machen.
+[19:39] Gehst Google Trends, gibst B ein und da
+[19:42] war wirklich dann ging ging die Suche
+[19:44] nach
+[19:45] Bing richtig steil hoch. So, wie viel
+[19:48] Marktile hat Bing seitdem
+[19:50] gewonnen von vor zwei Jahren? Weiß
+[19:53] nicht, vielleicht ein Prozent, wenn
+[19:54] überhaupt.
+[19:56] Vielleicht vielleicht auch gar nichts
+[19:58] oder vielleicht ein Prozent. So. Ähm,
+[20:01] aber ist Google seitdem tot? Nein, also
+[20:03] das dauert noch ein bisschen,
+[20:06] wenn überhaupt. Ja, das sind auch viele
+[20:08] Hasser dabei und was ich und das sollen
+[20:10] sie auch alles alle machen. Bin ich
+[20:12] recht entspannt. Äh, ich bin mit Google
+[20:14] groß geworden. Äh, wir hatten ich habe
+[20:16] Hassliebe. Na, wir hassen uns manchmal
+[20:18] und wir lieben uns manchmal. Also
+[20:20] zumindest ich und mein Business und das,
+[20:22] was ich so mit den Webseiten so tue,
+[20:24] weil es nicht immer einfach ist und die
+[20:25] Jungs von Google da, die die investieren
+[20:27] auch extrem und die haben sich haben
+[20:29] bislang alle diese ganzen SEO Krücken
+[20:32] Tücken, die wir den da in die Beine
+[20:35] geschmissen haben, die haben die einen
+[20:37] anderthalb Jahren spätestens haben die
+[20:38] das alles immer geschlossen. Die sind
+[20:40] fit, die beschäftigen wie viel der
+[20:42] besten Programmierer der Welt eine ganze
+[20:45] Worte von da. Glaubst aber nicht, dass
+[20:47] die dass die jetzt wenn die jetzt stehen
+[20:49] bleiben. Ich nicht denke, wenn die jetzt
+[20:51] stehen bleiben würden und Chat GPT würde
+[20:53] halt seine Milliarden, die sie jetzt
+[20:55] irgendwie Hund würden das investieren.
+[20:58] Es würde trotzdem Ewigkeiten dauern die
+[21:00] Technologie hinzustellen. Das unter das
+[21:05] überschätzen viele noch das Ach, ich
+[21:07] dachte, ich dachte der Chat BeT, der
+[21:09] krault dann mal schnell das ganze Netz
+[21:11] durch. Meine Güte, das ganze Netz
+[21:13] durchkraulen. Weißt du, was das für
+[21:15] Rechenkapazität bedeutet? Und dieses
+[21:17] Rendering, was wir was wir schon mal
+[21:20] beide gesprochen hatten, dieses
+[21:21] Rendering, das kriegen die es kriegen
+[21:23] die meisten von den jungen KI Kraulern
+[21:26] noch gar nicht hin. Die können die
+[21:27] können meistens gar kein Jahr. Äh, die
+[21:30] haben die Kapazitäten nicht. die du
+[21:32] kannst du froh sein, wenn du wenn deine
+[21:33] Startseite von denen gefunden wird und
+[21:36] äh wenn du dahinter hinter der
+[21:38] Startseite noch noch 200 Seiten hast
+[21:41] oder 2000 oder 20.000, wenn du ein Shop
+[21:44] bist, glaubst du aber nicht, dass dass
+[21:46] das so ein junger Krauler gleich dein
+[21:48] letzten Artikel mit 20.000 Nein, das
+[21:51] findet er nicht. Der hat da gar nicht
+[21:52] die Kapazität für. Der Setzt Netz ist
+[21:55] riesig. Ja, die Leute laden ins Netz so
+[21:57] viel Zeug.
+[22:00] Also ja, die sind am wachsen. Nein, die
+[22:04] haben die Kapazitäten meiner Meinung
+[22:06] nach noch nicht, die Google hat. Das ist
+[22:08] nur das technologische Ding. Dann kommt
+[22:10] auch noch ein bisschen dieses
+[22:11] Gewohnheitsding dazu. Ich kenne laufen
+[22:14] Leute, die äh Schwierigkeiten hätten,
+[22:18] sich über eine andere Suchmaschine zu
+[22:20] benutzen. Mhm.
+[22:23] Ich habe auch probiert andere
+[22:25] Suchmaschinen zu nehmen. Wie gesagt, was
+[22:27] liebe. Ja, aber wie gesagt,
+[22:30] ein Es geht ja schon mit anderen
+[22:32] Browsern los. Also, ich sag mal äh ich
+[22:34] nutze in 90% meiner Zeit Google Chrome.
+[22:38] Äh gelegentlich lasse ich mich noch mal
+[22:40] dazu hinreißen, Mozilla zu nutzen, aber
+[22:43] dann hört's auch schon auf oder bzw.
+[22:45] Safari halt dann auf dem auf dem Handy
+[22:47] ähm oder ähm gut, Microsoft Edge ist am
+[22:51] Ende auch nur Google Chrome. Ich weiß
+[22:53] nicht, wie viele Leute noch andere
+[22:54] Browser nutzen, wie Opera, Opera oder
+[22:56] sowas. Da da geht's ja schon los am
+[22:58] Ende. Und ähm der Punkt ist ja auch der,
+[23:03] ich habe gerade eben während wir
+[23:04] gesprochen oder wer du gesprochen hast,
+[23:05] mal fix gegoogelt nach dem Marktanteil
+[23:07] von Chat GPT, aber ich habe keine Zahlen
+[23:10] gefunden jetzt auf die schnelle äh von
+[23:13] vom vom Anteil an
+[23:15] Suchmaschinenvolumen. Sind wir ehrlich,
+[23:17] Google ist ja viel mehr als nur diese
+[23:19] Suchmaschine. Die haben ja so ein
+[23:21] Marktil, die haben so viel Budget. Was
+[23:25] ihr dabei auch gerne vergessen wird beim
+[23:26] Thema SEO ist ja auch, dass Google ja
+[23:28] nicht nur die größte Suchmaschine äh der
+[23:31] Welt besitzt, sondern ja auch die zweite
+[23:33] oder drittgrößte mit
+[23:35] YouTube. Und das ist ja auch immer noch
+[23:37] ein Thema, wo ja SEO auch mit
+[23:39] reingehört. Ich meine, wir haben dann
+[23:40] noch was eben Bing erwähnt. Keine
+[23:42] Ahnung, ob die jetzt auf Platz 4 sind
+[23:44] oder so. Ich ich erinnere mich, dass
+[23:46] Pinterest auch irgendwo unter den Top 5
+[23:49] äh krassiert. Wie ist da jetzt so das
+[23:51] Thema mit mit SEO? Also gerade auch wenn
+[23:53] ich jetzt mit neu neu anfange mit SEO,
+[23:55] wenn ich da irgendwo vorgehen möchte,
+[23:57] ähm wir sind uns eigentlich, ich denke
+[23:59] Google definiert die Standards in fast
+[24:03] allen Ländern. Ich sag mal, wenn ich
+[24:04] jetzt in China bin, dann wird bei du da
+[24:06] sicherlich noch einen ganzen Anteil
+[24:07] haben, aber der Podcast kommt aus
+[24:09] Deutschland und hier definiert, denke
+[24:11] ich, Google die Standards. Gelten die
+[24:13] Regeln auch für die anderen
+[24:14] Suchmaschinen? Also gut für YouTube
+[24:15] naheliegend, aber YouTube ist eine
+[24:19] hervorragende Quelle, wie ich finde.
+[24:21] Hatte vor kurzem das das Gespräch auf
+[24:24] auf einer Messe, wo die Antwort von
+[24:26] meinem Gegenüber kam und der sagte,
+[24:28] YouTube ist die ist eine der letzten
+[24:32] authentischen Quellen, weil das wer
+[24:35] nicht in YouTube äh also authentisch mit
+[24:38] das der Inhalt, der da oben ist. Ähm,
+[24:41] wenn ich jetzt irgendwas rausschieben
+[24:44] möchte, informiere ich mich halt auch
+[24:47] gerne in in YouTube. Und ähm die äh ja,
+[24:51] es gehört zum Googleum. Und um das noch
+[24:53] mal kurz zu sagen, die äh die meisten
+[24:56] Leute unterschätzen extrem, wie wie
+[25:00] tieferzahn Google in das heutige
+[25:02] Internet ist. Ja, und
+[25:05] äh ja, ich wünsche mir schon, dass der
+[25:08] Wettbewerb besteht, aber wie die bieten
+[25:11] extrem viele Services
+[25:14] an. Google Maps, ja, ich weiß nicht, wer
+[25:18] Google Maps zur Navigation und ja, man
+[25:20] kann in Google Maps auch sich da
+[25:22] eintragen und ist alles noch kostenlos.
+[25:25] Ja, das müssen die ja auch nicht machen.
+[25:27] Ja, das könnte kein mein
+[25:30] Kars ist Google Maps der das Hauptding,
+[25:33] wenn wir über SEO, wenn wir über SEO
+[25:36] reden oder über allgemein dieses ganze
+[25:38] Ding, was ist gut? Du du musst du musst
+[25:43] auf meiner Meinung nach auf auch auf
+[25:45] mehreren Plattformen unterwegs sein.
+[25:48] Also du musst deine Webseite vorhalten,
+[25:50] du musst die gut strukturieren.
+[25:54] Äh inhaltlich und auch technisch kannst
+[25:57] du auch strukturierte Daten da
+[25:59] mitliefern. Das das wird wichtiger. Ja,
+[26:01] es wird noch wird noch mal wichtiger
+[26:03] technische Seite zu betrachten, dass die
+[26:05] die
+[26:07] Krauler, die jungen und die alten
+[26:09] Krauler, sage ich jetzt einfach mal so,
+[26:10] ja, also die Fluchmaschinen und die Talk
+[26:13] Krauler, dass die alle deine
+[26:15] Informationen super aufbereitet finden.
+[26:17] Da haben die Leute noch extrem viel äh
+[26:20] Bedarf und Potenzial auch. Ja. Und dann
+[26:25] um den Sprung zu machen, bitte geh auch
+[26:27] zu den anderen, geh auch zu Google Maps,
+[26:30] trag dein Business dort ein, optimier
+[26:32] das Profil der Mann, das ist kostenlos.
+[26:34] So bei äh bei YouTube äh du kannst den
+[26:37] YouTube hochladen, kannst du in YouTube
+[26:39] ein Channel machen. Hast du ja, dann
+[26:41] mach den Channel, der äh der ist äh
+[26:44] authentisch. Äh das ist eine au
+[26:46] authentische Quelle.
+[26:48] Ähm, da kann man sich also ähm äh äh
+[26:52] präsentieren und und sichtbar sein. Ich
+[26:55] denke, die das SEO wird noch mal
+[26:59] erweitert um eine neue Disziplin, die
+[27:02] dieses
+[27:04] Sichtbarkeitsmanagement inkludiert. Ja,
+[27:05] das geht ein bisschen in Markenberatung.
+[27:07] Also vorher äh bist du der SEO gewesen,
+[27:11] der die Webseite optimiert hast, aber
+[27:13] eigentlich ist diese Semantik und das
+[27:15] technisch strukturierte Vorgehen, dich
+[27:19] und deine Marke und deine Produkte
+[27:21] sauber in den Kosmos zu schicken, ja,
+[27:23] ins Universum der Large Language Models,
+[27:26] da musst du auch gucken, dass du
+[27:29] woanders noch aktiv bist. ist ganz gut.
+[27:32] Alle sind gut beraten, wenn sie noch ein
+[27:34] paar separate Quellen bespielen. Damit
+[27:39] meine ich jetzt ja, also auch Social
+[27:41] Media und und, aber auch Portale, andere
+[27:46] Portale, die vielleicht schon von den
+[27:50] von den Modulen gekrault werden. Ja,
+[27:52] weil das sehe ich so ein bisschen ist
+[27:54] ein bisschen eine These noch nicht
+[27:56] belegt, weil können es noch nicht
+[27:57] messen. Ähm, aber ist ein bisschen eine
+[28:00] These, dass es äh notwendig
+[28:04] ist, dass du als Identität synchron im
+[28:08] Netz auftrittst und das schaffst du nur,
+[28:11] wenn du auch andere Quellen spielst und
+[28:15] dann gibt's die Quellen, die du die du
+[28:18] ownst, also die du dir gehören. Ja, dein
+[28:22] Maps gehört dir, denn du kannst da da
+[28:25] reingehen und optimieren. Ja, also du
+[28:27] kannst YouTube optimieren, du kannst
+[28:29] dein LinkedIn optimieren, du kannst
+[28:32] deine eigenen Socials optimieren, du
+[28:34] kannst auch für konsistenz
+[28:37] sorgen, dass du dort in den
+[28:40] Beschreibungen auch
+[28:43] eingibst, dass die sich immer
+[28:45] wiederholen. Ja, diese diese Grunddaten,
+[28:49] die musst du mehr glatt ziehen als noch
+[28:52] als noch vorher. Und deshalb denke ich,
+[28:55] wer ist denn am dichtesten dran? Das
+[28:56] sind die Zeos, die diesen
+[28:59] Algorithmusverständnis haben und die
+[29:01] halt schon so solche Prozesse schon mal
+[29:04] gemacht haben, ja, die halt schon mal
+[29:05] gesagt haben, ah ja, äh wir wir wir
+[29:08] stärken das. Ähm und
+[29:11] ähm es ist da ein neuer Baustein
+[29:14] einfach.
+[29:15] Okay, also ist auf jeden Fall ja
+[29:17] letztendlich Teil einer ganz einer
+[29:19] ganzheitlichen Strategie, um das noch
+[29:20] mal zusammenzufassen. Ja, wir näheren
+[29:22] uns dem Ende unseres Interviews und die
+[29:26] Frage an dich, die auch letztendlich
+[29:29] dazu gehört beim Interview,
+[29:33] m neue oder eine neue Webseite habe von
+[29:36] mir aus und damit frisch an den Start
+[29:38] gehe, frisch bei Google starten möchte,
+[29:40] was s so von deiner Seite drei Tipps,
+[29:43] sage ich mal, die du gerade Anfängern
+[29:46] ähm oder neu Beginnern ums um sozusagen
+[29:49] ähm mitgeben möchtest, würdest wenn wenn
+[29:53] sie bei Google starten oder mit SEO
+[29:54] starten. Basic Basic Basic, das sind
+[29:58] eigentlich schon die drei Tipps, aber
+[30:01] was was ist mit Basics gemeint? Ähm,
+[30:03] wenn wenn ich jetzt eine neue Domain
+[30:07] hätte, dann dann bitte bitte immer als
+[30:09] erstes ähm auch die Google Search
+[30:14] Konsole ist wiederum ein kostenloses
+[30:18] Tool aus dem Google Universum, was dir
+[30:21] zeigt, wie viele Seiten sind indexiert,
+[30:25] ähm wie gut geht's deiner Seite selbst,
+[30:30] wie wie rent deine Seite, wie schnell de
+[30:33] Seite und und da kann man meiner Meinung
+[30:37] nach ein paar interessante Sachen
+[30:42] entdecken und auch verstehen, dass von
+[30:45] Hause aus nicht alles ist. Ja, dein
+[30:48] WordPress oder dein dein System, was du
+[30:52] was du vorhältst, produziert Probleme
+[30:55] für Google für den für den Krauler.
+[30:57] Manchmal sind Seiten nicht indexiert.
+[30:59] Mittlerweile tatsächlich das Problem
+[31:02] geworden. Seiten werden nicht immer
+[31:04] indexiert oder werden gekrault, aber
+[31:07] nicht indexiert. Dafür gibt's in der
+[31:10] Google Search Konsole einen Button. Da
+[31:12] kann man mal gucken, welche Seiten sind
+[31:14] denn davon betroffen und es ist halt je
+[31:17] nach
+[31:18] Größe deiner Seite oder es ist
+[31:20] allgemein, es ist sehr wichtig erstmal
+[31:22] Indexierung herzustellen. Also erster
+[31:24] erster Schritt
+[31:26] ähm Google Search Konsole anschmeißen,
+[31:29] einen Zugang dort machen, die Domain als
+[31:31] Property hinterlegen und dann gucken,
+[31:35] wie viel Seiten habe ich denn und wie
+[31:38] viel Seiten sind indexiert und wenn dort
+[31:40] eine Diskrepanz ist, als erstes diese
+[31:43] Diskrepanz beheben, weil ohne
+[31:46] Indexierung kein Ranking, keine
+[31:49] Sichtbarkeit. So, das ist so der der
+[31:52] erste Schritt, den ich denke sollten
+[31:55] eigentlich meiner Meinung nach äh alle
+[31:58] mitmachen. Als was was noch, wenn ich
+[32:00] neu wenn du neu bist,
+[32:04] ähm
+[32:05] bitte die Zielgruppe verstehen.
+[32:09] Zielgruppenverständnis ist oft nicht
+[32:11] vorhanden und man Leute, also ich ich
+[32:14] meine das mit, dass die Leute immer oft
+[32:16] viel zu groß denken oder zu komplex oder
+[32:19] zu zu weit weg. Ja, wenn du die
+[32:22] bespielen irgendein Thema und dann ja,
+[32:27] aber die Leute, die suchen doch auch
+[32:29] nach diesem nach diesem anderen Suchwort
+[32:32] und dann fokussieren die sich am Anfang
+[32:34] meistens gar nicht auf das, was ihnen
+[32:37] wirklich Umsatz bringt oder was ihnen
+[32:39] wirklich irgendwie Geld bringt, sondern
+[32:41] die die spielen so eine Infowirter ab,
+[32:43] wo wo ich denke so, na ja, Infowirter
+[32:45] abspielen kann man machen, wenn man die
+[32:48] Basic der der Keyword Recherche ja durch
+[32:52] hab, aber erst wenn ich durch die Basics
+[32:54] durch bin, wenn ich meine
+[32:55] transaktionalen Keywörter durchgespielt
+[32:57] habe und da wünsche ich mir eigentlich
+[33:00] oder sollten sich glaube ich die Kunden
+[33:02] oder die die der der Website einfach mal
+[33:05] hinsetzen, mal eingeben, bin ich jetzt
+[33:09] äh hier äh Hochzeitsfotograf oder weiß
+[33:13] ich wo oder bin ich der der Ja, was
+[33:17] tippe ich ein? Also es kann man kann man
+[33:19] ja in der Google Suche
+[33:22] erforschen, wenn man einfach mal sein
+[33:25] Hauptkeyword viele kennen ihre
+[33:27] Hauptkeywords dran ihr Hauptkeyword
+[33:29] eingeben, Google aufmachen,
+[33:33] einttippen,
+[33:35] Copywritter und dann Leerzeichen und
+[33:38] dann mal ein dahinter aufmachen. Ja,
+[33:42] also Copy Copywritter Leerzeichen A,
+[33:45] Lehrzeichen B, Lehrzeichen C, da kommen
+[33:48] Autovorschläge. Da kommen eine Menge
+[33:50] Autoorschläge. Dieses ABC Spiel
+[33:53] ähm das das lege ich für Leute, die kein
+[33:58] SEO Tool zur Hand haben und das einfach
+[34:00] mal machen, ne, und gucken und dann aber
+[34:04] bitte unterscheiden. Da da kommen fünf,
+[34:07] sechs Vorschläge zu jedem Buchstaben.
+[34:09] Die sind nach Suchvolumen sortiert.
+[34:12] Diese
+[34:12] Autovervollständigung ist tatsächlich
+[34:16] äh
+[34:18] Suchvolumen hier. Und da sind aber auch
+[34:21] ganz viele Infosachen bei und die ganzen
+[34:23] Infos, also die würde ich alle die würde
+[34:25] ich alle äh eliminieren. Und ich würde
+[34:27] da, also wünsche ich mir eigentlich,
+[34:29] dass die Leute ihre Hauptkey finden und
+[34:34] das dann, das ist wichtig e schon
+[34:37] startest, aber dann ja, du solltest du
+[34:40] solltest da dein Hauptkey wird finden,
+[34:41] deine Hauptkey wird da finden und die
+[34:43] erstmal durchreien. Ich mache noch ein
+[34:46] Blog und dann spielen wir noch hier und
+[34:48] dieses ganze drumherum schaufenstert ein
+[34:51] Hauptki wird finden. Hauptke wird da
+[34:53] überall. So, was noch? ähm dran
+[34:57] bleiben, langsam langsam anfangen, klein
+[35:00] anfangen und immer dran bleiben und sich
+[35:02] immer auch immer mal eine Hilfe holen
+[35:03] und vielleicht auch mal bisschen
+[35:06] professionell,
+[35:07] ne, net zu Seos sein, zu anderen Seosin,
+[35:10] vielleicht mal zum Seostatisch gehen,
+[35:11] wenn man wenn man machen möchte oder
+[35:14] sich ir gibt heute zu viel
+[35:15] Informationsquellen, es gibt gute
+[35:17] Leute, ähm die den man folgen kann, dran
+[35:21] bleiben, informieren und die Basics
+[35:23] machen. würde ich so als dritten als
+[35:26] dritten Tipp.
+[35:28] Okay, vielen
+[35:29] Dank. Sich Hilfe holen war das richtige
+[35:32] Stichwort zum Abschluss. Wenn einer
+[35:34] meiner Zuhörer jetzt sagt, er will mit
+[35:36] SEO oder sie will mit SEO starten und
+[35:39] will sich Unterstützung holen, will sich
+[35:40] Hilfe holen, wie können meine Zuhörer
+[35:44] dich erreichen? Ich bin LinkedIn
+[35:46] süchtig. Also ja, ich also man findet
+[35:49] mich auf LinkedIn. Äh Jörg Zimmer, der
+[35:52] Typ mit der Sonnenblume in und ja, ich
+[35:55] bin
+[35:56] SEO SEO sea Freelancer. Äh einfach bei
+[36:00] LinkedIn schreiben ist auch mein mein
+[36:02] Hauptkommunikationsweg. Da gibt's auch
+[36:04] ein paar Infos über mich. Äh die Leute
+[36:07] können mir auch einfach nur folgen, wenn
+[36:08] sie jetzt noch so ein paar Tipps haben
+[36:10] wollen. Manchmal manchmal
+[36:11] habenilig Tipps. Oft schätze ich auch
+[36:15] nur.
+[36:16] kommt halt auf meine Laune an, aber ja,
+[36:19] wer wer mich erreichen würde, legt alles
+[36:21] klar, ich packe alles in die Showotes,
+[36:23] das dann können meine Zuhörer dich dich
+[36:25] direkt kontaktieren, dich direkt
+[36:26] erreichen. Das war's. Vielen Dank für
+[36:29] deine Input, vielen Dank für deine Zeit,
+[36:31] für die tollen Tipps, die du mit uns
+[36:32] geteilt hast. Ähm auch an dich da
+[36:36] draußen, vielen Dank fürs Zuhören, wenn
+[36:38] du bis hierher dabei warst. Ähm, danke
+[36:41] für deine Zeit, die du uns am Ende hier
+[36:42] geschenkt hast. Und wenn du vielleicht
+[36:44] jemanden kennst, der sich gerade mit dem
+[36:46] Thema SEO beschäftigt und der diese
+[36:47] Episode unbedingt hören sollte, dann
+[36:50] leite sie ihm doch gerne weiter. Ähm ja,
+[36:54] ich verabschiede mich damit. Bis zur
+[36:56] nächsten Episode. Ich bin damit raus.
+[36:58] Jörg, du bist der Gast. Dir gehören die
+[37:01] letzten Worte. Du darfst alles sagen,
+[37:03] außer danke für die Einladung.
+[37:06] Vielen Dank fürs Zuhören und SEO ist
+[37:09] eine gute Sache. Ähm allgemein
+[37:11] Sichtbarkeit ist auch eine gute Sache.
+[37:13] Wer da ähm sich sich weiterbildet, der
+[37:16] wird äh sicherlich ähm auch Erfolge äh
+[37:21] vorweisen können.

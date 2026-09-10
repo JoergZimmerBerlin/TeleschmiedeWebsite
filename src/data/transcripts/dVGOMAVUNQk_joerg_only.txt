@@ -1,0 +1,390 @@
+# Jörg Zimmer O-Töne aus: SEOPresso: SEO persönlich mit Jörg Zimmer (Host: Björn Darko)
+# Video URL: https://www.youtube.com/watch?v=dVGOMAVUNQk
+
+[00:00] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=0s)
+[Musik] [Applaus] Meg die Moin und herzlich willkommen zu einer neuen Folge SEO Presso. Mein Name ist Bondco und heute spreche ich mit Jörg Zimmer in der Reihe SEO persönlich, wo wir hinter die Persönlichkeit eines einer SEO gucken. Jörg Zimmer ist selbstständiger SEO Freelancer seit 24 Jahren 2001 angefangen. Also ganz kurz nach der Geburtsstunde von Google, ich denke, er hat einiges zu erzählen, was
+
+[00:33] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=33s)
+er aus seiner Laufbahn mitbringen kann. Jörg lebt in Berlin Spandau, kommt ursprünglich aus Dessau hat mal kurz auch eine Lia mit Stuttgart gehabt, also auch einiges in der Republik gesehen von bis freue mich sehr, dass er da ist. Wir haben uns kennengelernt, äh wir kennen uns eigentlich über LinkedIn, äh aber haben uns persönlich kennengelernt jetzt auf der Campix, wo ich ihn natürlich
+
+[00:53] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=53s)
+sofort verhaftet habe. Äh bei der Geschichte müssen wir eine Reihe SEO persönlich machen. Moin Jörg nach Berlin. Spandau. Jo, hallo. Hallo Björn. Ja, danke. Es mir eine große Ehre bei dir zu Gast zu sein. Ähm ich ich freue mich drauf und bin auch ein bisschen gespannt, was du was du mich fragen möchtest über meine Persönlichkeit.
+
+[01:21] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=81s)
+Ja, leg mal los. Komm. Ja, und heute ist ja auch dein Interview. Heute ist ja auch dein Interviewtag, weil du mir gerade erzählt hast, du warst gerade eben schon in dem Podcast. Ähm, mal sehen, ob äh äh ob du sozusagen im Fluss geblieben bist. Ähm, ich habe es gesagt.
+
+[01:37] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=97s)
+Du bist seit 24 Jahren als freiberuflicher SEO aktiv. Das ist eine unheimlich lange äh Karriere. Äh, kannst du so einmal mitnehmen, wie so dein allererster Berührungspunkt mit Google oder Suchmaschine insbesondere war? Äh, und äh was hat dich damals daran so gepackt, dass du so lange dabei geblieben bist? Oh, wenn ich ganz zurückgehe, dann ähm fängt das an.
+
+[02:01] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=121s)
+Ähm, ich habe meine Ausbildung gemacht, ähm 96 bis 99 äh ähm als Immobilienkaufmann, als Kaufmann in Grundstück Wohnungswirtschaft und wir wollten damals auch oder die wollten damals auch äh eine Webseite haben und ja, da war ich quasi der jüngste als Auszubilder und da musste ich äh da muss ich die Webseite äh betreuen. ähm damals noch mit HTML Code hin und her schieben.
+
+[02:30] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=150s)
+Das war so mein erster Berührungspunkt mit dem Internet. Ähm, ich habe dann äh 99 äh zusammen mit einem Kumpel eine Webseite selbst aufgesetzt, also Domainregistriert, Webseite gemacht und ähm da dann schnell festgestellt, dass mich der Besucherzähler eigentlich am meisten interessiert. Ähm, den gab's ja damals, ne? Stimmt ja, diese Uhr, die unten Limit lief. Ja. Ja.
+
+[02:58] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=178s)
+Damals gab's das noch, wenn wir jetzt zurückspringen in diese Zeit, der hat so diese Seite hatte 1000 Besucher. Das hat das hat mich äh das hat mich da fasziniert.
+
+[03:08] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=188s)
+Ähm bin da, wie gesagt, das Internet kam ja damals auf so ja 2000 war auch dieser Börsenhype mit dem neuen Markt und alles und da waren immer diese Geschichten, drei Leute mit dem Laptop unterm Arm sind plötzlich Millionen wert, ne? Ala Web.de de und was da nicht alles an die Börse gegangen ist. Äh ich war schwer fasziniert äh so fasziniert, dass ich
+
+[03:32] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=212s)
+gesagt habe, ich b ich äh mach kein Immobilien äh Kaufmann mehr. Ich mache halt Internet und habe eigene Projekte angefangen und mich dann Schritt für Schritt äh da reinge fuselt, alle Fehler mitgenommen, ähm die man so machen kann und ähm ja, also um es mal kurz zu machen, hab dann 10 Jahre lang nur eigenen Kram gemacht, nur eigene
+
+[04:00] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=240s)
+Projekte. Internet war neu. Ich hatte ich hatte mal ein Gutscheinportal, äh ich hatte mal ein Outlet Portal. Äh, ich hatte ein Forum, ich habe äh alles probiert, was mir über den Weg gelaufen ist, was ich irgendwo dachte, was ich machen könnte. Und damals war es ja auch noch relativ einfach und damals waren die Methoden auch noch relativ unkonventionell.
+
+[04:28] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=268s)
+Ähm und ja, ich habe diese Gold eine eine Frage zu den zu deinen Portalen war irgendwas davon, was richtig geflogen ist? Ähm, das äh ja, das das Outlet Portal, das habe ich äh das war, wenn wir ehrlich sind, war das eigentlich nur so eine ganz stumpfe Linkliste.
+
+[04:48] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=288s)
+Ähm ich möchte aber noch mal vorweg sagen, das alles 20 25 Jahre her. Ja, also ähm sowas mache ich heute nicht mehr, aber das war eine pure Linkliste mit Affiliate Links. Ähm und äh die äh die die fing an zu renze gemacht über die äh Affiliate äh Provision. Da habe ich dann auch irgendwann gedacht, ja, okay, dann
+
+[05:10] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=310s)
+machst du noch ein bisschen mehr Unterseiten noch ein bisschen mehr das. Hab dann auch äh als dann Google Ads aufkam, habe ich ähm mal 50 € in Google Ads reingedrückt und hab da 100 € rausgekriegt, war schwer begeistert. Hab dann hab dann da mehr gemacht, 200 € 500 € bis hoch zu 5000 und da kam wie gesagt
+
+[05:37] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=337s)
+hast 200 reingesteckt, 400 rausgekriegt. Also bei den 5000 warst dann nachher nur noch so 8000, die rausgekommen sind. Ja, und die Verzögerung mit den Auszahlung so, aber das war eine schöne Zeit. Ähm, das das würde ich sagen, das war äh sehr sehr nice. Ja.
+
+[05:54] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=354s)
+Ja, aber ich finde es schön, wie du sag, weil bei mir war so ähnlich, vielleicht war es dein Gefühl auch so. Ähm, ich habe ja, als ich noch studiert habe, ich wollte eigentlich Event Manager oder Städte Marketer werden, als ich wollte Stadtmarketing machen in Verbindung mit stätischen Events. Äh, was man natürlich wahrscheinlich heute aus ökologischer Sicht auch nicht mehr so toll findet,
+
+[06:13] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=373s)
+aber äh habe halt viel auch für Events und auf Festivals und für Veranstaltung und so weiter gearbeitet, wo man sich am Wochenende halt immer extrem den Arsch aufreißt, ne, teilweise dann irgendwie 18 Stunden Schichten schieben muss und so weiter. Und dann bin ich mit meiner Frau nach England gegangen und wollte eigentlich für die Olympiade damals arbeiten, die in London war,
+
+[06:32] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=392s)
+keinen Job bekommen und dann habe ich mich halt besinnt auf das, was ich kann und das war Deutsch sprechend und so bin ich ins SEO gekommen und mich hat das auch so angefickt fast schon, dass man mit wenigen Kniffi Kniffen sozusagen am nächsten Tag schon Impact gesehen hat, ne? Und habe gesagt, okay, das will ich jetzt einfach machen. Das ist voll geil.
+
+[06:50] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=410s)
+Man hat total äh äh äh ähm ja ähäh Impact, den man sofort messen kann. Man man sieht so sozusagen, was man da an Arbeit hat und ich musste nur von 95 arbeiten. Das war natürlich auch geil und am Wochenende war frei. Warte und hat mich auch so oh in dieser Industrie, das schockt irgendwie. Das ist irgendwie ein geiles Gefühl da zu sein. Also war
+
+[07:08] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=428s)
+das ähnlich bei dir? Ja, na ja, das da ist ja eine Leidenschaft entstanden, ne? Ähm die wie gesagt die Besucherzähler, die haben mich ja fasziniert. Äh die ähm wie das möglich war. Heute dauert Sero.
+
+[07:24] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=444s)
+Ja. furchtbar lange. Ja, das das ist bewusst auch verzögert, bin ich der Meinung. Ähm, klar, weil weil wir damals die ganzen die ganzen Spammy Sachen gemacht haben. Google ist ja extrem schlau geworden und ich möchte noch mal möchte noch mal unbedingt klarstellen, dass ich aufgehört habe, dann diese diese Spammy Sachen zu machen irgendwann auch die richtig gelesen habe, ne? Ähm,
+
+[07:49] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=469s)
+das und und heute spiele ich nur noch sauber. Ja, also ich bin bin aber ja, es war war halt so. Es ist äh ja, das ist war eine schöne Zeit. Äh ich habe viel gelernt, ich lerne heute noch viel, ich habe auch viel Wissen verloren, wenn wir mal darüber so, ne?
+
+[08:07] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=487s)
+Weil weil viele Sachen, viele Türen wurden ja zugemacht und ähm äh heute ja, das äh muss man sich muss man immer noch ein bisschen am am Ball bleiben und ähm äh sich den Gegebenheiten anpassen.
+
+[08:23] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=503s)
+Ja. Ja. Wenn du jetzt so an die Anfangszeit zurückdenkst, was hat sich so auch in der Zusammenarbeit mit Kunden vielleicht auch zu heute verändert?
+
+[08:31] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=511s)
+Gibt's etwas, was du heute vermisst, was damals vielleicht anders war? Ich hatte ja die ersten 10 Jahre keine Kunden auch auch bewusst so ein bisschen muss man auch ehrlich sagen. Ich wollte das ja ähm ich wollte ja für mich selber ich wollte eine Idee entwickeln. Ich ich wollte das selbst machen. Ich wollte das auch selbst umsetzen.
+
+[08:57] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=537s)
+Ähm dass ich dann ich wusste auch ich wusste ja nicht mal, dass das äh das dass das eine Dienstleistung ist, die Leute am Markt kaufen würden. Ja, es ist mir erst später bewusst geworden, ja, dass es da diesen diesen Markt gibt, dass andere auch plötzlich oben stehen wollen. Und dann dann als ich den ersten Kunden dann hatte,
+
+[09:18] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=558s)
+äh den ich dann beraten hatte, viel zu günstig, muss ich auch sagen. Äh aber der war der war hoch erfreut. Ja, der hatte vorher sonst was für Sachen probiert, die die da theoretisch alle gut klangen. Und ich habe ihm dann gesagt, na ja, hör mal zu, lass uns mal das auf die Basics reduzieren. Das wird, glaube ich, bei dir den meisten Impact
+
+[09:37] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=577s)
+bringen. Der war war hoch hoch erfreut und äh ich habe auch nie groß äh Marketing für mich selbst gemacht. Ja, also ähm das auch eines meiner meiner ersten Interviews, ja, oder mein drittes jetzt so und äh hab vorher nie groß gesagt, hier Jörg, ich bin ich bin da.
+
+[09:58] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=598s)
+Ähm ich wurde oft empfohlen, das war so meins. Und äh ich habe als Credo immer gehabt, dass ich äh dass ich die Kunden erstmal glücklich mache, dass die äh dass sie auch das, was sie in mich investieren, auch wieder halbwegs wieder rauskriegen oder so. Am besten natürlich noch mehr. Weil dann haben sie auch Geld für deine folgenden Rechnung, ne? Und
+
+[10:19] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=619s)
+dann kannst du dein einen Kunden auch groß machen. Und ähm das ähm mache ich auch gern, mache ich nicht für jeden. Habe ich mittlerweile auch festgestellt.
+
+[10:29] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=629s)
+Ähm wenn ich mich erstmal in so eine Zielgruppe verliebt habe und mit dem mit dem Kulen gut kann, dann ähm dann bleiben wir bleibe ich oft Jahre. Also ähm und dann wird das immer größer. Dann macht man hier noch was und da noch was und dann kommen noch ein paar andere äh Kanäle dazu und ja so aus Kundensicht,
+
+[10:52] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=652s)
+was ich bis heute nicht verstanden habe, kleiner Karlauer, wenn du es so möchtest, was ich bis heute nicht verstanden habe, wie Leute ein Relaune machen können, ohne einen SEO zu befragen. Ähm ja, also dieses Unverständnis, dass ich baue eine Webseite, die einen ja einen einen Web darstellt, einen Netz, ein Spinnennetz und dann kommen da die die die Relounge
+
+[11:16] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=676s)
+Agenturen oder Webagenturen und machen einen Relounge und und schneiden erstmal komplett dieses vorhandene Webg. Äh, das ist ja äh und dann vergessen sie noch die die Weiterleitung einzurichten und und äh ich kann dir ich kann dir wirklich nicht sagen, warum das in den letzten 20 Jahren nicht als Standard etabliert wurde, dass du, wenn du wenn du ein
+
+[11:39] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=699s)
+Relaunch machst, dass du wirklich auch mal dir ein SEO mit an die Hand holst oder wenigstens dann deine vorhandene URL-Sruktur behältst, wäre ja doch noch das Schönste, oder die dann wenigstens weiterleitet. Wie wie oft sieht man das heute immer noch, dass Leute Leute nach dem RLunch vier Wochen später meine Rankings sind alle weg, meine Umsätze sind weg und
+
+[12:02] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=722s)
+dann ja, was ist passiert? Ja, du produzierst Fehlerseiten, weil du dein vorhandenes Webgeschmissen hast. Das ist was, wo ich das verstehe ich bis heute nicht. Also ist und auch in in Zeiten von der ganzen Veränderung AI und so, das sind halt immer noch meistens die Basics bei vielen Unternehmen, ne, und gerade solche Fehler denn, also ich sehe
+
+[12:26] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=746s)
+das auch immer wieder, aber lass uns mal ähm viele SEOs, die steigen dann ja irgendwann in so ein Angestellten Verhältnis und ich meine, du bist jetzt seit 24 Jahren am Markt äh hast ja sehr früh auch schon Erfahrungen sammeln können mit deinen eigenen Projekten und so weiter und dann schossen natürlich ja auch schon Firmen, ne? Also Imowelt war
+
+[12:44] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=764s)
+ja schon da. Du hast ja eine Immobilien Vergangenheit, Immonet, was weiß ich, dann die ganzen äh Unity Media oder wie die Dinger da heißen, äh Freenet und was weiß ich, die ganzen die ganzen Firmen, die da so schossen und die dann ja auch irgendwann äh Salando, äh About You, Otto, alle die in irgendeiner Form dann auch SEO Unterstützung brauchten, hat
+
+[13:06] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=786s)
+sich das nie gereizt dann da an so ein Angestellten Verhältnis zu gehen und und und so größere Firmen mit zu unterstützen? M ehrlich gesagt, nein. Also ähm ich bin glaube ich also nach so vielen Jahren ähm äh bin ich glaube ich ein besserer äh freier Berater als einen interner Mitarbeiter.
+
+[13:34] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=814s)
+Also ich hatte für ganz ganz kurz diese Long bei ähm äh XT Commerce. Ähm, das ähm also Grüße Grüße an Mario Zanier, der der Gründer von Execmerce, die die das ist eine Shopsoftware, so wie wie es heute mehrere gibt. Die hatten damals mal ausgerufen, ja, ähm wir als Open Source Plattform wollen jetzt plötzlich Marketingdienste drumherum anbieten.
+
+[14:04] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=844s)
+bin ich tatsächlich, also das war das einzigste, bin ich mal für drei Monate da mit reingegangen und habe da kurz im Kern eines Shopsystems gesessen. Ich wollte es, das wollte ich, ich wollte halt wissen, wie so ein Shopsystem von innen funktioniert. Ja, damals war ich als Google Adsie da drinne. geben mir noch fünf andere Google Adsis, noch ein
+
+[14:28] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=868s)
+paar SEO Spezies, ein Callcenter, was ich die hatten 50 Leute innerhalb von 10 Tagen oder sowas eingestellt. Die wollten wirklich wissen, was was geht, ne? Die wollten da wirklich was machen.
+
+[14:40] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=880s)
+Ähm, aber das ging auch alles nicht so schnell bei denen äh die, ne? Äh und die haben dann auch nach kurzer Zeit von den 50 Leuten, die sie eingestellt haben, ich war halt einer davon, haben sie auch wieder 45 wieder rausgelassen und da war ich auch einer davon. Ähm und in der Zeit habe ich es leider auch gelernt,
+
+[15:00] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=900s)
+dass ich glaube ich nicht ein guter Angestellter bin und dass das für beide Seiten besser ist, wenn ich ähm von außen drauf gucke. Aber was ähm kannst du so ein bisschen erklären, was dich was was so eine Abneigung vielleicht auch gegenüber so Inhaus wäre versus äh Freelancing? Das ist aber eine ganz persönliche Sache bei mir. Vielleicht ähm bin ich da zu ähm
+
+[15:31] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=931s)
+äh kritisch. Ja, wenn ich eine Aufgabe kriege, wo ich denke, das macht jetzt gar nicht so den Sinn oder du produzierst ein Report, der zwar Kennzahlen enthält, aber nicht die Kennzahl, die dir eine Aussage liefern könnte, dann würde ich dann halt sagen, na ja, aber das macht ja sogar keinen Sinn und das will ein Chef meistens nicht hören. Ähm, als Berater darf ich
+
+[15:58] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=958s)
+das sagen. Ähm ähm da kann ich das aber als interner Angestellter darfst du ja deinem Chef da nicht widersprechen und sagen, du deine Idee mit dem Report, wo die wo die Kennzahlen drauf sind, äh die sind nicht so schön und dann na ja, da musst das ja meistens doch noch umsetzen, dann hast du weniger Freude dran und geht mir dann halt so, wenn ich
+
+[16:20] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=980s)
+wenn ich nicht dahinter stehe, hinter dem, was ich tue, dann habe ich habe ich nicht so den die Motivation und ähm Ich bin also du wärst kein guter auch kein guter Politiker oder Diplomat dann wahrscheinlich ja das ist wenn du dann wirklich sagst wie es ist das wollen wollen d viele nicht hören und dieses drum rum reden oder schön reden
+
+[16:46] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1006s)
+na das übe ich aber das äh liegt vielleicht nicht in meiner Natur. Ähm und hast du da privat vielleicht auch Herausforderung mit, also in Freunde oder im Freundesgeist oder vielleicht auch mit Leuten auf, also ich gehe mal davon aus, dass so Small Talk dann auch nicht so dein Ding ist. Ähm od oder wenn Leute sich irgendwie groß
+
+[17:06] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1026s)
+darstellen, wo du das kritisch hinterfragst und so weiter, ist es ist es etwas, womit du anst auch persönlich? Ähm, im persönlichen Bereich höre ich gern zu, muss ich sagen. Ähm, das ist ja meine Chance auch mal äh Input zu kriegen, wie wie Leute so leben. Ähm, ich akzeptiere jede Lebensform und jede äh ne, nee, da höre ich gern zu. Äh, ich
+
+[17:33] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1053s)
+würde nur für gute Freunde auf Nachfrage ähm sagen, wo ich was anders sehe. Ähm und ja, wenn wir über über Small Talk reden, mache ich auch. Bin ich bin ich bin ich freundlich dabei. Habe ich auch Freude dran. Ähm, aber wenn wenn es auch mal im Deep Talk geht, äh das auch schön ist mehr Nährwert dahinter, aber nein, ich
+
+[17:58] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1078s)
+ecke da eigentlich nicht an. Muss mal meine Freunde fragen, ob die jetzt sagen, der Jürk ist so so eine äh das kann ich nicht vielleicht man kann ja hier kommentieren oder das vielleicht ich weiß jetzt nicht, ob da nachher Leute schlecht kommentieren über mich, würde ich nicht sagen. Also ähm Nein, das äh also nein woll ich also wie wir wie wie
+
+[18:22] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1102s)
+erklärt, du hast drei Töchter. Wie erklärst du denen, was Papa macht beruflich? Ähm, oh, meinen Töchtern äh Oh, mein mein meine meine meine zwei großen Töchter, die sie sind ja schon z 16 und 18. Äh, die die glaube ich die checken das die ähm die TikToken aber mehr. Ja, die googeln bei TikTok. Ähm, lass ich mir auch manchmal von denen erklären.
+
+[18:49] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1129s)
+Das ist so hoch interessant. Ähm ist super interessant. Ja, ja, ja, ja. Wirklich, das muss man einfach mal fragen. Sitzt da am Küchentisch und sagst dann so, sag mal, wie nutzt denn du eigentlich dein TikTok und was ist, wenn du wenn du wenn du jetzt lokalen Anbieter finden würdest, wollen würdest, was tippst denn da ein bei TikTok? Und
+
+[19:07] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1147s)
+dann erklären die mir das, wie die das tun. Ähm ja, aber was ich tue, gut, das das haben das sehen die ja. Also, ne, also äh meine jüngste jetzt nicht, die ist erst 8 Monate, die sieht das noch nicht. Äh, die sieht wahrscheinlich nur sitzt am Computer. M Ja, das interessiert nicht. Also mein mein diese Ich glaube auch ich glaube auch nicht,
+
+[19:32] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1172s)
+dass die dass die ähm dass sie es wissen wollen. Die haben ihre eigene Welt. Ähm aber ich befrag sie manchmal. Ja, ich sag dann hier, wie machst du das? Und so. Ähm ich habe ich habe mal meiner äh der Schule von meinen Kindern habe ich mal geholfen, ne? Ähm, war so Elternabend angesetzt. Du wolltest ja persönlich, ja, komm, dann machen mal äh
+
+[19:54] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1194s)
+Elternabend angesetzt. Ähm, und ähm ich habe eine Mail gekriegt und tippt dann ein äh hier ähm keine Ahnung äh Schule plus äh ne und kein Internetgebnis, nur der Mapseintrag. So, hä, aber die haben doch eine Webseite und hätte doch, also ich habe es schon im Gedanken gehabt, bringt mich jetzt auf die Unterseite. Na gut, gehe ich auf die
+
+[20:19] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1219s)
+Webseite gucke, steht die nur Index komplett so ja WordPress Webseite auf komplett in das Schlimme ist eigentlich ja viel Energie investiert haben immer mal News rausgehauen haben diese ganzen Lehrer Fächer Aktionen Spenden, Förderverein und so weiter alles alles präsentiert, aber war leider nur Index.
+
+[20:42] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1242s)
+Schade, schade. So, da habe ich dann habe ich dann habe ich dann natürlich den Menschen geschrieben, habe gesagt, hör mal, äh ich bin aus dem Feld und ich habe mal kurz auf deine Seite geguckt, hinten im Code steht drinne nur Index und ich habe auch die Vermutung, du hast deine Seite nicht aus dem Baustellenmodus rausgeholt.
+
+[20:59] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1259s)
+Das würde, na ja, das war war so. Oh ja, wirklich. Oh, du kannst du das machen. Hier hast du mal ein Zugang. Und und plötzlich war ich der der der in der in der Webseite vom von der Schule drin. Hab hinten dann geguckt, hab den von Suchmaschinen blockieren den Haken rausgenommen und Pups, ne? Also wahrscheinlich werden sie jetzt viel viel weniger
+
+[21:25] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1285s)
+Anrufe kriegen über die Standardinformation, die sie sowieso schon bereitgehalten haben. Ja, ist auch witzig, dass niemand selber mal gecheckt hat, wie man bei Google da gefunden wird, ne? mal selber eine Suche gemacht hat, dann vielleicht gemerkt, dass man gar nicht auftaucht. Ja, das ist interessant. Äh sie sie das ist eine gute Schule. Die haben auch nie den
+
+[21:43] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1303s)
+Bedarf gehabt, jetzt groß äh für sich selbst zu werben. Die wollten, also Schüler brauchten die in dem Sinne nicht. Ähm aber die haben es nicht, haben es leider nicht gesehen. Ähm jetzt haben sie es alles gut. ähm läuft, aber sowas passiert halt manchmal, muss man auch sagen. Also dieses dieses No Index Ding ähm hätte ich nicht gedacht, aber
+
+[22:05] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1325s)
+ich hatte es im letzten Jahr dreimal. Also äh ja äh dann nicht nur also ähm SEO Plugin installiert, also andere anderes Thema, andere Kunde SEO Plugin installiert und das SEO Plugin hatte plötzlich alle Autoren, die hatten dummerweise mehrere Autoren ähm alle Autoren auf ähm auf nur Index gesetzt. war ist wohl so eine Standardeinstellung in den in den
+
+[22:35] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1355s)
+gängigen SEO Plugins. Ähm äh auch unschön. Ja, Kunde installiert SEO Plugin und verliert danach die Sichtbarkeit auf all seinen äh auf all seinen Mitarbeiter ähm Profilen. Na, denkt eigentlich, hat was Gutes getan, aber hat eigentlich was schlechtes getan.
+
+[22:56] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1376s)
+Wenn du jetzt Jörg, wenn du jetzt auf die letzten 24 Jahre zurückschaust als Suchmaschinenoptimierer, was war vielleicht für dich die größte Herausforderung, die du überwinden musstest, fachlich oder auch persönlich als SEO?
+
+[23:12] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1392s)
+Ach ja. Ähm, also persönlich, wir machen ja hier das persönliche dann. Äh, ich hatte tatsächlich mal die Idee gehabt, ähm eine Mitarbeiter hier mit reinzunehmen.
+
+[23:27] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1407s)
+Hatte erst angefangen, ich hatte ersten Praktikanten, ich wollte mich ja langsam ins Thema reinarbeiten. Ich hatte ersten Praktikanten, das war auch ein Freundschaftsdienst, aber ja, der gut, da habe ich gedacht, okay, vielleicht kann ich ja ein bisschen was abgeben.
+
+[23:40] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1420s)
+Danach hatte ich einen befreundeten Programmierer, der halbtagskam, das war auch gut. Ähm und danach dachte ich dann, jetzt bist du soweit, jetzt stellst du mal Mitarbeiter ein. Und dann habe ich Mitarbeiter eingestellt und dachte, gut, dann äh bespielen wir halt Sachen, die die vielleicht äh na, wo man dann sagt jetzt, okay, ich mache ja nur das Google Universum.
+
+[24:06] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1446s)
+Könnte man viele Kunden kommen ja oft dann sagen, Mensch, kannst du nicht auch Facebook und ich dann immer nee, kann ich nicht. Kannst du nicht auch Grafik oder so? Ich sag, nee, kann ich nicht.
+
+[24:16] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1456s)
+Und da hatte ich dann einen und der es fing relativ gut an, aber endete dann relativ schnell auch in in nicht so gut. Ähm, ich weiß nicht, ähm das war auf jeden Fall ein persönlicher Fehl meinerseits, würde ich jetzt sagen, dass ähm das hat das hat nicht funktioniert. Ähm, ich bin gar nicht mehr zum Arbeiten, zum Denken
+
+[24:43] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1483s)
+gekommen oder irgendwas. Ich musste bloß noch plötzlich bloß noch kommunizieren, zwischen den Kunden kommunizieren, zwischen meinem Mitarbeiter kommunizieren. Ähm, wir wir sind nicht wir sind nicht hoch hochgegangen. Ich hatte plötzlich ein Haufen Arbeit. Weil ich ja auch meinen Kunden gesagt habe: "Hey, wir sind zu zweit jetzt, gibt mir mal Arbeit." Die waren alle freudig. Ja, cool, mach mal. Und dann hatte ich ein
+
+[25:03] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1503s)
+Haufen Arbeit und dann kam aber diese diese gelben Scheine, die man Krankmeldung nennt. Äh war wahrscheinlich damals von ihm auch eine persönliche Geschichte, wo er musste sich da glaube ich um seine auch seine um seine Kinder kümmern und und ich weiß auch nicht. Auf jeden Fall plötzlich, wenn du dann da sitzt, du hast doppelt so viel Arbeit und sitzt einen Monat
+
+[25:25] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1525s)
+ohne Mitarbeiter, da muss den auch noch bezahlen. Das war ein persönlicher Fehl. So. Ähm ja, den würde ich seitdem habe ich das auch noch nicht wieder gewagt. Will er will das auch nicht. Ähm bin glücklich allein zu sein. Bin froh wieder, ne?
+
+[25:44] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1544s)
+Aber war das den vorher abzusehen auch vielleicht im Recruitingprozess oder warst du hast jetzt so, wenn du zurück reflektierst, warst du vielleicht zu blauäugig, zu naiv oder hätte man das absehen können oder war das total nicht ersichtlich, dass sowas passieren? Ja, hät ich hätte ich absehen können, hätte ich es wahrscheinlich äh nicht gemacht.
+
+[26:06] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1566s)
+Du du alles passiert alles. Also, ich konnte es ich konnte das nicht absehen. Ich hatte voll die Idee. Ähm damals war ich noch im im Google Agency Programm. Also äh äh also äh das so wurde als Highing eingestuft damals.
+
+[26:26] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1586s)
+Ähm und äh da gab's auch Weiterbildungskram und alles und diese diese ähm wie heißen die denn? Die die Seminare und ich habe wirklich auch ich habe mir auch Zeit genommen dann, ne, dass mir dann dass man dann da zusammen mal reingeht. Ich bin war mir schon klar, dass das seine Zeit dauert, bis man sich sich eingeschliffen hat oder
+
+[26:50] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1610s)
+bis man die gleiche Sprache spricht, aber es äh das hat nicht funktioniert. Ähm es war und dann wie gesagt Krankmeldung, wenn du wenn eine Woche anstand, wo ich sagte, wir fahren nächste Woche zusammen raus. Ich hatte auch Vorortkunden.
+
+[27:06] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1626s)
+Ähm mag ich ja auch manchmal, dass ich dann mir ein Vorkunden hier in Berlin äh suche um dass man mal wieder menschelt und bisschen ja lokales Marketing dann macht. Habe ich gesagt, nächste Woche stehen zwei Termine an und dann kam wirklich prompt, aber es kam nicht, das kam das kam wirklich den Montag morgen dann ich habe Bauchschmerzen, ich komme
+
+[27:28] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1648s)
+nicht. Ich so, okay. Ja, dann dann nicht. Und wenn dir das dann drei vier mal passiert, dann denkst du h ist da irgendwie die Ja, also abgesehen habe ich das nicht.
+
+[27:41] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1661s)
+Äh ich will will jetzt auch nicht dazu schlecht zu drüber reden. Ich weiß nicht, woran es lag. Ich ich mach mach's nicht noch mal, ne? Ich mache das jetzt anders. Ich mache das jetzt über Freelancer Netzwerk oder Freelancerteam.
+
+[27:56] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1676s)
+Da smer bin ich ja unterwegs, wo ich dann eher mit äh spezialisierten Freelancer und alles, was ich nicht kann oder wo ich eine tiefere Spezialisierung brauch, das gebe ich dann an selbstständige Leute ab, die ja auch ein bisschen den Eigenanspruch haben, äh gut zu sein und gute Dienste zu liefern und mit ihrem Namen sogar noch dahinter stehen. Also, das ist glaube ich so mein
+
+[28:22] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1702s)
+Weg. Das habe ich dann auch festgestellt, das mag ich viel mehr. Ich mag auch selbstständige mehr, wenn man jetzt mal darüber, also ich mag Angestellte auch, aber wir waren ja kurz bei dem Thema, aber also nein, nein, schneiden, schneiden. Also, nein, aber äh ich ich ich mag auch ich mag auch Geschäftsführer, ich mag mache auch das.
+
+[28:44] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1724s)
+Mir wurde mal attestiert, dass ich ähm unsere komplexe Welt in in in menschliche Worte fassen kann. Ja, es ist ja oft so ein Kommunikationsding. Ja, du gehst in deinen SEO rein und dann blinken dich da irgendwelche Kurven an. Die sind ja noch verständlich, aber so wie irgendwelche Meldungen kommen mit strukturierte Daten sind nicht richtig, Sidemap ist abgeruscht,
+
+[29:10] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1750s)
+da kommen Server hat 404 Fehler Server down blaxt extrem technischer Kram. und ähm das das zu übersetzen, das das wurde mir mal attestiert, dass ich das relativ gut kann. Also auch in übersetzen mit was muss da gemacht werden und Aufwand nutzen, muss ich es gleich machen und was bringt's dir für ein Impekt, wenn du wenn du es äh wenn du es
+
+[29:43] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1783s)
+wenn du es löst und das für ich sag mal für Geschäftsführersprache ähm das können glaube ich nicht nicht so viele oder wie gesagt das mache mache ich auch gerne dass ich dann halt mal runter unterbreche, wenn man das jetzt hier in in bildliche Sprache, dass er dann versteht oder dass die Leute dann verstehen, okay, ah, es ist wichtig,
+
+[30:05] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1805s)
+hört sich kryptisch an, ist aber wichtig, mach mal oder hört sich kryptisch an und vernachlässigen mal sind ja auch viele Sachen, wo man sagen kann, ja, ist nicht priorit kann ich dir auch aus Inhaussicht sagen. Also die erfolgreichsten Inhaus Leute sind wahrscheinlich die oder hundertprozentig die, die natürlich ja Resultate liefern, aber auch für Initiativen kämpfen können, ne? Also was heiß kämpfen
+
+[30:30] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1830s)
+können, sondern die verargumentieren können und da geht es ganz ganz viel darum, diese komplexen SEO Begriffe, komplexen SEO Zusammenhänge, Crawling, Indexing, Sichtbarkeit, Canonical Text, Hflake Text in ganz einfache Sprache umzuwandeln, so dass ein Geschäftsführer, der 1000 Sachen im Kopf hat und jetzt wirklich wie so ein wie so ein Hubschrauber einmal kurz reinkommt, Staub aufwirbelt und in dieser kurzen
+
+[30:54] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1854s)
+Zeit halt die wichtigste Essenz deiner Nachricht braucht. Ähm, je einfacher du das darstellen kannst und in Bezug stellen kannst vielleicht zu Kompetitoren, zu dem, was dem Kunden das nützt und so weiter, desto erfolgreicher wirst du sein, auch Budgets, Freigaben für Initiativen und so weiter zu bekommen. Mm. Ja, das ist äh Kommunikation ist ein großer Teil unserer Arbeit. Ähm, also jetzt für die
+
+[31:20] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1880s)
+Geschäftsführer, aber auch für ähm manchmal für Entwickler ähm oder auch für Designer. Man muss ja dann das so plausibel argumentieren, ähm dass die dass die mitgehen. Du brauchst ja, du brauchst ja an jeder Stelle eigentlich Leute, die das unterstützen und die dann ne ähm verstehen, was du meinst, dass sie dass s sagen, ja, okay, das ist wichtig, das
+
+[31:45] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1905s)
+jetzt einmal richtig zu machen, damit ich nicht von dir noch noch zehn mehr Tickets kriege oder noch zehn mehr E-Mails kriege, dann machen wir das jetzt einmal richtig und dann ist halt Kommunikation vorab so ein wirklich Schlüsselfaktor. Das muss ich sagen, das habe ich das habe ich erst im Laufe der Jahre gelernt, also dass man dass man
+
+[32:05] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1925s)
+wirklich ähm mit Menschen, mit denen auch die die Perspektive kurz einnehmen muss jetzt nicht nur deine Welt immer so, das ist total wichtig, Mensch, wir müssen da, wir stehen da nur in oder ich sagt ja, aber muss ein bisschen ein bisschen bisschen reinfühlen, was es ihm bringen könnte oder warum es jetzt sinnvoll ist.
+
+[32:29] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1949s)
+sich da einmal intensiv zu beschäftigen, das richtig aufzusetzen, komplett zu lösen, auch mit einem richtigen Anforderung und mit einem richtigen Feedback und mit einer richtigen Doppelprüfung und dann ist das Thema durch und dann kann er weitermachen oder können alle weitermachen, was wir machen. Ähm, also Kommunikation finde ich ist äh wirklich unterschätzter Schlüssel in in im in der ganzen
+
+[32:54] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1974s)
+Marketing Welt. Ja, also ja. Ja, wir haben ja vorhin diese Timeline. Guck mal auf die letzten 24 Jahre zurück. Was waren so die größten Herausforderungen?
+
+[33:04] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1984s)
+Vielleicht auch Downer in in deiner Laufbahn. Lass mal diese Timeline noch mal zeichnen und vielleicht mal gucken auf die 24 Jahre, was so die Meilsteine Meilensteine waren äh die du ähm die du einfahren konntest oder die du siehst.
+
+[33:21] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2001s)
+Gab Situationen in denen du dachtest, oh, jetzt wird's richtig gut, das ist richtig gut. ähm das was sich immer wieder weiter nach vorne gebracht hat, weil auch in 24 Jahren kann ich mir vorstellen, hat man öfter vielleicht auch mal gedacht, oh, ich jetzt echt noch Bock drauf, ey. Erkenne ich ja auch. Ich habe auch ab und zu mal so
+
+[33:37] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2017s)
+Phasen, wo ich denke, oh, jetzt SEO langweilig. Glücklicherweise ist es jetzt wieder super spannend, aber ich habe natürlich zwischendurch auch immer mal so Zeiten gehabt, wo so oh nee und dann kam wieder irgendwas, wo ich dachte so, oh, jetzt aber doch ganz geil. Und und gibt's da so Meilensteine, die für dich persönlich vielleicht auch weiter gepusht haben, aber vielleicht auch in
+
+[33:56] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2036s)
+deiner Arbeit weiter gepusht haben, ähm wo du vielleicht auch mal gedacht hast, oh, ne, kein Bock mehr drauf. Ah, ich habe ich habe noch ein ich habe noch ein Ding. Ähm ähm ich hatte mal ähm am äh ich war ja ich komme ja aus der aus der Performance Welt mit mit meinem äh Affiliate Portalen und ähm ich
+
+[34:20] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2060s)
+hatte tatsächlich damals angefangen ähm ganz viel Kunden äh oder Webmaster zu produzieren für Sanox. Also Sanhox, das das Affiliate Portal. Ja, äh ich hatte natürlich mega schlaue Idee. A jetzt machst du immer nicht nur affiliate für Produkte, sondern jetzt du kriegst ja eine Lifetime Commission, eine Lifetime Provision, wenn du Webmaster an diese Portale schickst, ne? Damals gab es
+
+[34:49] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2089s)
+Affelinet Affelnet dann äh Sanox und ich habe angefangen Sanox äh Webmaster zu schieben und du warst dann warst dann an den an den an den Provisionen Lifetime beteiligt und dann dachte ich so, warte mal, das ist eigentlich eine richtig gute Idee. Ähm dann nimmst du mal jetzt das alles, was du so hast und baust mal wieder ein Portal. Äh oder das war das
+
+[35:12] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2112s)
+war sogar nur ein One Pager. Da habe ich so nur ein One Pageer gebaut. Wusste ich nicht, dass das damals so heißt. Egal. und habe aber angefangen, da ähm äh Webmaster zu produzieren. Ich habe in der Spitze über 1000 Sanox Affiliates geworben. Ja, Grüße jetzt hier an CBS äh Christian Boris Schmidt, der damals bei Sanox gearbeitet hat. Ähm
+
+[35:42] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2142s)
+äh und äh ich hatte da wirklich gedacht, cool, das das wird deine Rente. Ja. ähm weil weil die haben dann auch angefangen, hat natürlich eine Weile gedauert, eh so ein neuer Publisher anfängt sich im Affiliate durchzusetzen und dann und dann hat der halt Provisionen gekriegt und ich habe immer weiß, wie hoch war denn das glaube ich 10 % oder sowas von all dem, was diese
+
+[36:04] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2164s)
+ganzen 1000 Leute da ähm ähm an Provisionen gemacht haben. sind natürlich auch viele verreckt, aber die durchgekommen sind, die 50, die haben mir eine stabile Einkommensbasis gebracht bis zu dem Punkt, als Sanox verkauft wurde und dann plötzlich ein neues Management da war und das neue Management hatte die tolle Idee, dieses Affiliate Programm für Referal Webmaster Lifetime einzustellen. stellen
+
+[36:42] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2202s)
+von Lifetime Commission auf du kriegst noch 6 € für ein Lied. Und ich so, na, wartet mal, aber unser Deal war ja davor. M das ist irgendwie nicht so fair, äh weil ich würde ja schon gerne für für die, die ich euch davor mit dem Kontraktarbeit weiter, die möchte ja schon gerne bezahlt werden. Und da bin ich damals äh in den Streit gegangen mit
+
+[37:04] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2224s)
+denen ähm und äh die haben sich natürlich wie ein Konzernverhalten und haben das an jeder Stelle auch geblockt. Ähm und das ist dann leider leider weggefallen. Und da mein mein mein mein Learning aus Themen war äh sei vorsichtig mit Lifetime kommischen und ähm verlass dich nicht auf einen äh Standbein. Gerade wenn du auch ähm äh ja, wenn du
+
+[37:35] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2255s)
+wenn du die Chance hast äh mehrere Einkommensquellen zu generieren, dann tu das, ne? Ja. Wenn du wenn du heute an dein jüngeres Ich zurückdenken würdest, ähm sagen wir mal, als du gerade angefangen bist, so 2001, 2002, vielleicht ein bisschen später noch, ähm was würdest du dir selbst als Rat geben? Welcher wäre das?
+
+[38:01] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2281s)
+Ich habe viel zu lange im stillen Kämmerchen gesessen, ne? Also das so, also Jörg, du von vor 20 Jahren, sitz mal nicht so viel in deinem stillen Kämmerchen, sondern geh auch mal raus, sprich mal mit den Leuten und hol dir Hilfe an der Stelle, wo du nicht weiterkommst, weil es gibt immer Leute, die an irgendeiner Spezialisierung besser sind oder auch in deinem gleichen
+
+[38:24] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2304s)
+Thema oder auch in dem fremden Thema. Ich würde ich würde mir viel eher viel schneller mehr qualifizierte Hilfe suchen von von Freelancern oder von ja die den Weil ich habe das das zwar wirklich, wenn ich reflektiere, da habe ich zu langen äh eigenen Kram gemacht. Ich als SEO ist man ja so, man man macht seine Experimente, man macht
+
+[38:49] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2329s)
+seinen Kram, ne? Ähm, guck dann, was funktioniert und und, aber es kommen immer Stellen, wo du sagst, ne, ach Mist, jetzt muss ich mich da noch rein.
+
+[38:58] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2338s)
+Server, was äh jetzt hat er da noch ein Problem und oh, und dann setzt du dich hin und dann verschwendest du wieder deine Zeit. Und das wäre an vielen vielen, vielen Stellen einfach einfacher gewesen zu sagen, Mensch, hier du habe gehört, du machst was mit Servern. Kannst du mir mal helfen?
+
+[39:20] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2360s)
+kannst du mal 2 d Stunden das aus der Welt schaffen. Ich bezahle dich dafür. Mach das mal, ne? Und ich das das wäre was äh das mache ich ja jetzt ja mit äh das oder mache ich ja schon ein paar Jahre, da du hast hal deine befreundeten Leute, mit denen du zusammenarbeitest und und aber ähm das alleine
+
+[39:42] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2382s)
+durchzuboxen, gerade auch wenn man eine One Man Show ist, ähm dann dann schneller Hilfe holen. Das wäre glaube ich so der der das Ding. Und das geht auch dann viel schneller alles. Also du bist bist ja, wenn du dann wenn du dann jemanden drauf setzt, der das besser weiß als du, dann dann passieren halt auch weniger Fehler,
+
+[40:02] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2402s)
+was ich alles schon erlebt habe, wo ich plötzlich musste ich irgendeine HT Access anpassen, weil das System das so wollte. Ja, aber ich bin nicht so der der der Programmierer und alles. Und plötzlich passieren da mal Sachen, wo du sagst, die seid jetzt gar nicht mehr da. Ul, was passiert? Ach shit. Äh, das war ja die harte Exess. Ja, jetzt weiß ich,
+
+[40:24] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2424s)
+dass das so ist. Ja, das also alles, das alle Privatprojekte Kundenprojekten, nämlich all diese Learnings, um diese Umwege zu sparen. Ja, also sowas passiert nicht bei Kunden, ne? Aber das ja Erfahrung. Äh, würdest du dir denn selbst jetzt auch raten, wieder ins Also man kann ja klein anfangen als Freelancer oder als Advisor? äh oder kann sogar auch in in
+
+[40:54] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2454s)
+eine Agenturgründung oder sowas gehen, gerade jetzt zu dieser Zeit. Also ich z.B. Ich hab das Gefühl, viele sagen: "Ja, okay, SEO wird obsolet, AI wird alles machen." Ich glaube, dass gerade jetzt die Zeiten für Freelancer, Advisor und auch Agenturenig sein werden, weil natürlich diese ganze neue Welt mit LMO, GO, whatever SEO sozusagen neuen Twist bekommt und viele
+
+[41:20] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2480s)
+Firmen natürlich Fragezeichen haben und gar nicht in dieser neuen Welt sozusagen gar nicht wissen, okay, was sind da Faktoren, wie komme ich da rein und so weiter und dann natürlich sehr viel stark Zulauf auch haben, also Agenturen oder auch Freelancer sehr starken Zulauf haben würden. Spürst du das auch und würdest du auch sagen, dass jetzt eigentlich die beste Zeit ist wieder
+
+[41:40] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2500s)
+sozusagen ins in ins in ins Selbständigkeit zu gehen oder Agentur zu gründen? Ach, ob man ob man selbständig macht oder angestellt ist, das ist ja eine persönliche Entscheidung. Aber manche Leute müssen auch angestellt sein, weil sie ähm eben ihre Verpflichtungen haben und mit dem Risiko nicht umgehen können oder also das ob man ob man selbständig oder angestellt ist, also das ist eine
+
+[42:03] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2523s)
+persönliche Entscheidung. Soll jeder machen, wie er möchte. Auf das Thema, was du jetzt fragst, ähm ob SEO tot ist oder ob jetzt die goldene Zeit ist. Also ich bin da voll der Meinung, dass SEO und äh alles, was Marketing angeht, wird wahrscheinlich ähm noch viel komplexer werden. Und wenn wir jetzt mal über diese neue Welt reden, wenn wir jetzt
+
+[42:29] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2549s)
+wir sind ja up to date, dann wollen wir ja dann kommen kommen natürlich jetzt die Anfragen, wie erscheine ich denn in so einem in so einer KI Antwort und alles und bislang sind wir ja da noch am am Forschen, aber das was so die ähm die der der allgemeine Konsent jetzt so kommt, ist ja, dass du rausgehen musst. Du musst halt nicht nur
+
+[42:51] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2571s)
+dein SEO beherrschen, die die Basic Klatzi, du musst wahrscheinlich auch ein bisschen PR machen. Du musst wahrscheinlich auch auf anderen Portalen unterwegs sein. Du, das ist das wird das wird sogar größer anstatt kleiner. Also ja, und ich habe ein bisschen so die Vermutung, dass dass wir mit den anderen Disziplinen dann verschmelzen müssen bzw. dass du dass seus jetzt erstmal gehört werden,
+
+[43:20] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2600s)
+weil wir ja ganz dicht dran sind an diesem Algorithmus denken und an diesem wie wie interpretiert denn die Maschine das und alles, ne? Und ähm ich ich glaube, die die Seeohlein wird glühen.
+
+[43:32] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2612s)
+Ja, also ähm äh auch wenn das jetzt wenn die das anders nennen wollen oder irgendwas, aber um um in die generative KI zu kommen, ja, oder um da als Antwort gelistet zu werden, musst du ja auch sichtbar sein. Und das geht halt raus, dass dein Aufgabenbereich, also ich sehe es als neuen Baustein im SEO, ähm das geht halt raus, dass du auch
+
+[44:00] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2640s)
+nicht nur dein internesum synchronisieren solltest mit den Beschreibungen und mit den mit den äh mit den mit den Inhalten, also was du da was du da lieferst, du musst wahrscheinlich auch rausgehen und viel viel mehr äh dich dich extern präsentieren. Und dann werden vielleicht noch mal äh Portale wichtiger werden, die jetzt schon gut von der von den
+
+[44:24] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2664s)
+Modellen gekrault werden, wobei die noch nicht so die Kapazitäten da haben. Aber ja, ich glaube, es geht ein bisschen raus, dass das ähm man muss an mehr Stellen präsent sein und das heißt eigentlich auch mehr Arbeit, ne? Und wenn ich irgendwo eine Information glatt ziehen muss und den Kontext, die Entität herstellen muss, die ähm äh na das Keyword Troppen, ich muss ja
+
+[44:51] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2691s)
+irgendwo, ich muss ja den Kontext herstellen jetzt nur auf dem bescheuerten Portal unterwegs zu sein, ist ja noch nichts, ne? Wenn der nicht versteht, dass ich Suchmaschinenmarketingez bin, wenn das Wort da nicht in meiner Beschreibung drinne steht, dann dann referenziert er mich nicht als Suchmaschinenmarketingpie oder als SEO Spezialist oder sowas, ne? Das muss muss ich also aus meinem Website Universum
+
+[45:15] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2715s)
+rausgehen und muss in den anderen auch noch unterwegs sein. Und ich glaube, das wird unheimlich teuer auch muss man auch sagen. Ja, also wenn du jetzt herkommst und sagst äh du mach mal für mich SEO und KI mit, ja, dann sage ich du äh okay, äh das können wir schon machen, aber ist dir auch bewusst, dass du das
+
+[45:35] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2735s)
+Budget dafür haben solltest, ne? äh jetzt von dem von dem äh von dem normalen Seobudget noch mal rauszuschwitschen, um Markenarbeit zu machen. Ja, da habe ich die Vermutung, werden viele nicht mitgehen.
+
+[45:53] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2753s)
+Das heißt, wenn jetzt eine deiner älteren Töchter sagen würde, Papa, ich werde jetzt Seo, hättest du kein molmiges Gefühl. Ui, wenn sie sich den Stress antun wollen. Äh, also aber du siehst jetzt, du siehst da noch rosige Zukunft. Das war eigentlich die Frage. So. Ach so.
+
+[46:15] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2775s)
+Ähm, da würde ich da würde ich dann eher sagen, werd gleiche Unternehmensberater, weil da da geht's hin. Ähm, dann ist auch viel besser bezahlt und ähm dann so ein digitaler Unternehmensberater ist, glaube ich, eine viel bessere Bezeichnung. Seo hat ja so ein bisschen schmuddeligen Ruf äh auch auch weil weil weil es halt aus so einer schmutzigen Ecke kam, aber ähm die die ich sag mal
+
+[46:40] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2800s)
+wegen dir wegen dir mit deinen 10 Jahren anfängen mir und diesen ganzen anderen. Äh nein. Ähm nee, digitale Unternehmensberater ist, glaube ich, eine viel bessere Jobbezeichnung, den ich meinen Töchtern da ans Herz legen würde, weil äh a so wie du Unternehmensberater bist, kannst du gleich mal den doppelten Stundensatz aufrufen. Ähm und wenn du dann noch sagst, ich bin äh äh bin halt für die
+
+[47:08] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2828s)
+digitale Markenwahrnehmung Sichtbarkeitsmanagement zuständig, hört sich viel viel besser an. Also, dann würde ich eher sagen, mach das, was du machst, aber nenn's nenn's so, dass es gut bezahlt wird. Ja, in diesem Sinne danke ich dir fürs sehr persönliche Gespräch. Hat mich mega gefreut, war super interessant. Vielen Dank, dass du dabei warst. Vielen Dank euch fürs Einschalten und wir sehen und
+
+[47:33] (https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2853s)
+hören uns nächste Woche wieder im SEO Press Podcast. Bis dahin, ciao.
+

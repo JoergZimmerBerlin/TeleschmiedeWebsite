@@ -80,11 +80,19 @@ Der Keyword-Rank-Tracker ist das Kontrollzentrum für deine Sichtbarkeit. Er lie
 *   **Segmentierung:** Du kannst Rankings nicht nur global, sondern heruntergebrochen auf Desktop- und Mobile-Geräte sowie auf spezifische Suchmaschinen (Google, Bing, Yahoo, YouTube) tracken.
 *   **SERP-Features:** Das Tool zeigt dir an, ob dein Keyword ein Rich Snippet, ein Featured Snippet oder ein Video-Karussell auslöst – und ob du dort vertreten bist.
 
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum SE Ranking Rank Tracker im Detail lesen](/glossar/se-ranking-rank-tracker/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/ranking-check.html?ga=4169588&source=rank-tracker" target="_blank" rel="noopener noreferrer nofollow sponsored">Rank-Tracker direkt bei SE Ranking testen (Partnerlink) →</a>
+
 ### Keyword-Recherche
 Bevor du ranken kannst, musst du wissen, wonach gesucht wird. Die Keyword-Recherche von SE Ranking liefert dir alle essenziellen Metriken:
 *   **Suchvolumen & Keyword-Difficulty:** Wie oft wird ein Begriff gesucht und wie schwer ist es, die Top 10 zu knacken?
 *   **Ideen-Generierung:** Das Tool schlägt dir Tausende von semantisch verwandten Suchbegriffen und Long-Tail-Keywords vor.
 *   **Keyword-Lücken:** Du kannst deine Domain mit deinen härtesten Konkurrenten vergleichen und sofort sehen, für welche lukrativen Begriffe sie ranken, du aber noch nicht.
+
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zur SE Ranking Keyword-Recherche im Detail lesen](/glossar/se-ranking-keyword-recherche/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/keyword-recherche.html?ga=4169588&source=keyword-recherche" target="_blank" rel="noopener noreferrer nofollow sponsored">Keyword-Recherche direkt bei SE Ranking testen (Partnerlink) →</a>
 
 ## 2. Technische SEO & On-Page-Optimierung
 
@@ -99,8 +107,16 @@ Dieses Modul kriecht (crawlt) wie ein Suchmaschinen-Bot über deine gesamte Doma
 *   Es warnt vor **Duplicate Content**, fehlenden Meta-Tags, falschen Hreflang-Attributen oder Problemen mit der Indexierung (z.B. blockierte Ressourcen in der `robots.txt`).
 Das Beste daran: Das Tool sagt dir nicht nur, *was* kaputt ist, sondern priorisiert die Fehler nach Dringlichkeit und gibt konkrete Handlungsempfehlungen zur Behebung.
 
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum SE Ranking Website Audit im Detail lesen](/glossar/se-ranking-website-audit/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/website-audit.html?ga=4169588&source=website-audit" target="_blank" rel="noopener noreferrer nofollow sponsored">Website Audit direkt bei SE Ranking testen (Partnerlink) →</a>
+
 ### On-Page SEO-Checker
 Während das Audit die ganze Domain prüft, nimmt der On-Page Checker **eine spezifische URL** und ein dazugehöriges Ziel-Keyword unter die Lupe. Die Software gleicht über 110 Parameter deiner Seite mit den aktuellen Top-10-Ergebnissen ab. Du erhältst eine detaillierte Checkliste, was du an deiner H1, der Keyword-Dichte oder den [Strukturierten Daten (Schema.org)](/glossar/schema-org-markup/) verbessern musst, um die Konkurrenz zu überholen.
+
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum SE Ranking On-Page SEO Checker im Detail lesen](/glossar/se-ranking-onpage-checker/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/onpage-analyse.html?ga=4169588&source=onpage-checker" target="_blank" rel="noopener noreferrer nofollow sponsored">On-Page Checker direkt bei SE Ranking testen (Partnerlink) →</a>
 
 ### Seitenänderungs-Monitor
 Ein oft unterschätztes Feature: Der Monitor schlägt Alarm, wenn sich auf deinen wichtigsten URLs (oder denen der Konkurrenz) etwas ändert. Ob ein Kollege aus Versehen den Title-Tag gelöscht hat oder der Konkurrent seine Preise anpasst – du erfährst es sofort.
@@ -114,10 +130,18 @@ Gib eine beliebige Domain in SE Ranking ein, und die Plattform entkleidet die SE
 *   **Organischer Traffic:** Du siehst, welche Keywords dem Konkurrenten den meisten Traffic bringen und welche seiner URLs am stärksten sind.
 *   **PPC & Ads:** Das Tool deckt sogar auf, für welche Keywords die Konkurrenz bei Google Ads Geld ausgibt und wie deren Anzeigentexte (historisch) aussahen. So kannst du dir teure A/B-Tests sparen und funktionierende Paid-Strategien adaptieren.
 
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zur SE Ranking Wettbewerbsanalyse im Detail lesen](/glossar/se-ranking-wettbewerbsanalyse/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/wettbewerbsanalyse.html?ga=4169588&source=wettbewerbsanalyse" target="_blank" rel="noopener noreferrer nofollow sponsored">Wettbewerbsanalyse direkt bei SE Ranking testen (Partnerlink) →</a>
+
 ### Backlink-Checker & Monitor
 Ein starkes [Linkprofil](/glossar/linkbuilding/) ist nach wie vor ein Ranking-Faktor. Mit dem Backlink-Tool kannst du die verweisenden Domains jeder beliebigen Website auslesen.
 *   **Lücken finden:** Finde heraus, wer auf deine drei stärksten Konkurrenten verlinkt, aber noch nicht auf dich. Das sind deine perfekten Outreach-Ziele.
 *   **Toxizität:** Der Monitor überwacht deine bestehenden Links. Er warnt dich vor "Spam-Links" (hoher Toxicity Score), die deinem E-E-A-T-Profil schaden könnten, und meldet sofort, wenn ein wertvoller Backlink gelöscht wurde (Lost Links).
+
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum SE Ranking Backlink Checker im Detail lesen](/glossar/se-ranking-backlink-checker/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/backlink-checker.html?ga=4169588&source=backlink-checker" target="_blank" rel="noopener noreferrer nofollow sponsored">Backlink Checker direkt bei SE Ranking testen (Partnerlink) →</a>
 
 ## 4. Content Marketing & Generative AI
 
@@ -132,6 +156,10 @@ Dies ist die Antwort auf die neue [Sichtbarkeit in der KI-Suche](/glossar/ki-sic
 *   Es führt eine Sentiment-Analyse durch, um zu bewerten, ob die KI positiv oder negativ über dein Unternehmen "spricht".
 *   *(Tipp: Einen umfassenden Marktüberblick mit Vor- und Nachteilen findest du in meinem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) oder im Deep-Dive zum [Rankscale AI Visibility Tool](/blog/rankscale-ai-visibility-tool/)).*
 
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum neuen SE Ranking AI Tracker lesen](/blog/se-ranking-ai-tracker/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/ai-overviews-tracker.html?ga=4169588&source=ai-tracker" target="_blank" rel="noopener noreferrer nofollow sponsored">AI Tracker & KI-Sichtbarkeit direkt bei SE Ranking testen (Partnerlink) →</a>
+
 ## 5. Local SEO & Maps
 
 Für lokale Dienstleister, Handwerker oder Filialisten ist die Optimierung auf Google Maps oft wichtiger als die bundesweite organische Suche.
@@ -142,20 +170,32 @@ SE Ranking erlaubt es, Keyword-Positionen extrem granular zu messen. Du kannst e
 ### Google Business Profile Management
 Du kannst dein lokales Google-Profil direkt mit der Plattform verknüpfen. Das erlaubt dir, Unternehmensdaten zentral zu steuern und vor allem Kundenbewertungen (Reviews) aus einem einzigen Dashboard heraus zu überwachen und zu beantworten – ein massiver Effizienzgewinn für Filialunternehmen.
 
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum SE Ranking Local Marketing Tool im Detail lesen](/glossar/se-ranking-local-marketing/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/local-marketing-tool.html?ga=4169588&source=local-marketing" target="_blank" rel="noopener noreferrer nofollow sponsored">Local Marketing Tool direkt bei SE Ranking testen (Partnerlink) →</a>
+
 ## 6. Agentur-Tools (B2B Features)
 
-SE Ranking ist extrem beliebt bei SEO-Agenturen. Das liegt an den integrierten B2B-Funktionen, die den Umgang mit Kunden professionalisieren. ([Hier SE Ranking für Agenturen ansehen](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) *(Affiliate)*).
+SE Ranking ist extrem beliebt bei SEO-Agenturen. Das liegt an den integrierten B2B-Funktionen, die den Umgang mit Kunden professionalisieren. ([Hier SE Ranking für Agenturen ansehen (Partnerlink)](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link)).
 
 ![SE Ranking White-Label Agentur Tools](../../assets/images/glossar/3d-light/se-ranking-agentur.webp)
 
 ### White-Label-Berichte
 Du kannst die gesamte Plattform "branden". Die URLs, die Logos und das Farbschema lassen sich auf dein Agentur-Design anpassen. So kannst du Kunden einen Gast-Zugang geben, und es sieht aus, als hätten sie Zugriff auf ein von dir selbst entwickeltes SEO-Dashboard. Die automatisierten PDF-Reports (die z.B. jeden Montag an den Kunden geschickt werden) runden das White-Label-Erlebnis ab.
 
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Alles zum SE Ranking White-Label Reporting im Detail lesen](/glossar/se-ranking-white-label-reporting/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/white-label.html?ga=4169588&source=white-label" target="_blank" rel="noopener noreferrer nofollow sponsored">White-Label Reporting direkt bei SE Ranking testen (Partnerlink) →</a>
+
 ### Lead-Generator
 Dieses Widget kannst du auf deiner eigenen Agentur-Website einbinden. Besucher können dort ihre Domain eintragen und erhalten ein kostenloses, rudimentäres SEO-Audit. Im Gegenzug erhältst du ihre Kontaktdaten (Lead) und weißt sofort, wo ihre Website Schwächen hat – der perfekte Aufhänger für ein Vertriebsgespräch.
 
 ### API-Zugriff & Automatisierung
 Für Enterprise-Kunden bietet SE Ranking eine mächtige API. Das bedeutet, du kannst alle Rohdaten (Rankings, Suchvolumina, Audit-Scores) über Schnittstellen abgreifen und in eigene Systeme (z.B. Google Looker Studio, PowerBI oder sogar in [Agentic Workflows](/glossar/ki-seo/)) speisen. Wie das in der Praxis mit KI aussieht, zeige ich dir in meinem Praxis-Test zur [SE Ranking API mit Claude Code](/blog/se-ranking-api-claude-code-praxis-test/).
+
+👉 **Hier geht es zu weiteren Details auf unserer internen Seite:** [Praxis-Test: SE Ranking API mit Claude Code](/blog/se-ranking-api-claude-code-praxis-test/) & [Endpunkte-Kompass lesen](/blog/se-ranking-api-endpunkte-kompass/)
+
+👉 **Hier geht es direkt zu dem Modul bei SE Ranking:** <a href="https://seranking.com/de/api.html?ga=4169588&source=api" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking API direkt testen (Partnerlink) →</a>
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
   <div class="flex items-start justify-between gap-4 mb-3">
@@ -191,21 +231,32 @@ Für Enterprise-Kunden bietet SE Ranking eine mächtige API. Das bedeutet, du ka
 
 Wer seine SEO-Daten nicht strukturiert erhebt, fliegt blind. SE Ranking löst das Problem des "Tool-Zoos", indem es alle wichtigen Disziplinen – von der technischen Basis bis zur modernen KI-Sichtbarkeit – an einem Ort vereint. Durch die faire Preisgestaltung, die sich nach der Anzahl der getrackten Keywords richtet, skaliert das Tool hervorragend mit: Es ist erschwinglich für Freelancer, bietet aber gleichzeitig die Enterprise-Features, die große Agenturen fordern.
 
+**🎁 Exklusiver Bonus für meine Leser:**
+Ich habe für Neukunden einen **exklusiven Rabattcode von 15 Prozent** auf alle Pakete von SE Ranking ausgehandelt! Da dieser Code wirklich exklusiv ist und nicht auf wilden Gutschein-Seiten im Netz verbrannt werden soll, gebe ich ihn ganz bewusst nur im persönlichen Kontakt heraus. Wenn du dir den Rabatt sichern willst: Schreib mich einfach kurz auf [LinkedIn](https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/) an – ich schicke dir den Code unverbindlich durch.
+
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">
-    Aus Jörgs LinkedIn-Feed
+    Exklusiver Leser-Bonus • 15 % Neukunden-Rabatt
   </span>
-  <blockquote class="text-base md:text-lg text-gray-200 italic max-w-2xl mx-auto mb-4 border-none font-normal">
-    „Es gibt tausende SEO Tools, die die Arbeit der Suchmaschinenoptimierer nicht überflüssig machen. Sie zeigen dir nur die Möglichkeiten und erleichtern das Leben.“
-  </blockquote>
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    SE Ranking 14 Tage testen & 15 % Rabattcode sichern
+  </h3>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
-    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
+    Teste die All-in-One Suite 14 Tage völlig kostenlos und unverbindlich. Schreib mich zusätzlich auf LinkedIn an für deinen persönlichen 15 % Gutscheincode auf alle Tarife!
   </p>
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7055143807113129984" target="_blank" rel="noopener noreferrer" class="btn-primary">
-    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-    <span>Beitrag auf LinkedIn öffnen</span>
-    <span aria-hidden="true">→</span>
-  </a>
+  <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+    <a href="https://seranking.com/de/?ga=4169588&source=se-ranking-hub" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      <span>Jetzt 14 Tage gratis testen</span>
+      <span aria-hidden="true">→</span>
+    </a>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full border border-white/20 text-white hover:border-lime-accent hover:text-lime-accent text-sm font-semibold transition-colors inline-flex items-center gap-2">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      <span>15 % Code auf LinkedIn anfragen</span>
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+  <p class="text-[11px] text-gray-400 mt-4 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 ---
@@ -243,15 +294,16 @@ Du willst noch tiefer einsteigen? Ich habe in der Vergangenheit intensiv mit SE 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
-    SE Ranking All-in-One Suite 14 Tage kostenlos testen
+    SE Ranking 14 Tage unverbindlich testen
   </h3>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
-    Überwache Keyword-Rankings, crawle deine Domain und analysiere Wettbewerber und KI-Sichtbarkeit an einem zentralen Ort – unverbindlich und ohne Kreditkarte.
+    Überzeuge dich selbst von der All-in-One Suite. Für Neukunden: Schreib mich zusätzlich auf LinkedIn an für deinen exklusiven 15 % Rabattcode!
   </p>
   <a href="https://seranking.com/de/?ga=4169588&source=se-ranking-hub" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
     <span>Jetzt 14 Tage gratis testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

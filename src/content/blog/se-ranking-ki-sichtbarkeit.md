@@ -112,7 +112,8 @@ Wer seine Kunden professionell durch die Transformation zur generativen Suche be
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Jetzt das KI-Sichtbarkeits-Tool von SE Ranking testen</h3>
   <p class="text-dark text-sm mb-4">Möchtest du genau wissen, wie deine Marke oder deine Kunden in ChatGPT, Perplexity und Google AI Overviews abschneiden? Nutze meinen offiziellen Partner-Link für einen unverbindlichen Einblick:</p>
-  <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">SE Ranking Agentur- & KI-Suite ansehen →</a>
+  <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">SE Ranking Agentur- & KI-Suite ansehen →</a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 <!-- CTA Box -->
@@ -128,6 +129,7 @@ Wer seine Kunden professionell durch die Transformation zur generativen Suche be
     <span>Jetzt KI-Sichtbarkeit testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 

@@ -123,10 +123,11 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
   <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
     Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.
   </p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">
+  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">
     <span>Kostenlos Testen starten</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 ---
@@ -154,5 +155,6 @@ Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst 
     <span>Jetzt Tarife vergleichen & testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

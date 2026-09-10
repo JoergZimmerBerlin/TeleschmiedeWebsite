@@ -188,5 +188,6 @@ Für Solo-Freelancer wie auch für etablierte Agenturen amortisieren sich die Ko
     <span>Jetzt White Label kostenlos testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

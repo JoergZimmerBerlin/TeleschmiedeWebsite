@@ -93,7 +93,7 @@ Um deine Markensignale für diese neuen Konsumgewohnheiten zu schärfen, solltes
 
 Wenn du deine generative Sichtbarkeit systematisch ausbauen möchtest:
 
-- **Plattform testen**: Schau dir direkt die <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">Rankscale Preismodelle und Pakete (Partnerlink)</a> an und sichere dir deinen Testzugang.
+- **Plattform testen**: Schau dir direkt die <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">Rankscale Preismodelle und Pakete (Partnerlink)</a> an und sichere dir deinen Testzugang.
 - **REST-API anbinden**: Verbinde deine internen Berichtssysteme direkt mit der Rankscale-API, um manuelle Datenübertragungen für Kundenreportings zu eliminieren.
 - **Shopping-Lücken schließen**: Prüfe über das Shopping-Modul, welche Produktattribute in deinen Shop-Texten fehlen, um in der KI-Empfehlungsbox ganz oben zu landen.
 - **Strategische Beratung**: Benötigst du Unterstützung bei der Auswertung deiner KI-Kennzahlen? Dann buche ein individuelles Sparring in der [SEO Sprechstunde](/seo-sprechstunde/).
@@ -107,10 +107,11 @@ Wenn du deine generative Sichtbarkeit systematisch ausbauen möchtest:
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Nutze den neuen Growth-Plan mit vollem REST-API-Zugriff und erfahre, wie oft deine Marke in ChatGPT, Perplexity und Claude empfohlen wird.
   </p>
-  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary">
+  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
     <span>Rankscale Pakete & Preise ansehen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

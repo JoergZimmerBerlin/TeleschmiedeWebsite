@@ -26,7 +26,7 @@ faqs:
 
 Über ein ganzes Jahrzehnt lang gab es im WordPress-Ökosystem eine ungeschriebene Regel: Wer eine neue Website aufsetzte, installierte als allererstes das Plugin mit dem markanten lilafarbenen Ampelsystem – Yoast SEO. Mit über 13 Millionen aktiven Installationen ist das niederländische Plugin bis heute das meistgenutzte SEO-Werkzeug der Welt. Doch die Zeiten haben sich fundamental geändert.
 
-In den letzten Jahren hat sich eine stille, aber gewaltige Wachablösung vollzogen. Immer mehr erfahrene Webentwickler, Nischenseitenbetreiber und renommierte SEO-Agenturen kehren dem Platzhirsch den Rücken und migrieren zu **[Rank Math SEO](https://rankmath.com/de/?ref=jorgzimmer)**. 
+In den letzten Jahren hat sich eine stille, aber gewaltige Wachablösung vollzogen. Immer mehr erfahrene Webentwickler, Nischenseitenbetreiber und renommierte SEO-Agenturen kehren dem Platzhirsch den Rücken und migrieren zu **[Rank Math SEO* (Partnerlink)](https://rankmath.com/de/?ref=jorgzimmer)**. 
 
 Warum vollzieht sich dieser Wechsel gerade jetzt mit solcher Wucht? Liegt es nur am aggressiven Marketing der Herausforderer, oder ist Yoast schlichtweg im verstaubten Erbe seiner eigenen Monopolstellung gefangen? In diesem ausführlichen Praxis-Vergleich werfen wir einen schonungslosen Blick unter die Haube beider Kontrahenten. Wir vergleichen System-Architektur, Performance, Schema-Markups, KI-Funktionen, Lizenzmodelle und zeigen dir Schritt für Schritt, wie ein reibungsloser Wechsel ohne Ranking-Delle gelingt.
 
@@ -206,7 +206,7 @@ Rank Math verzichtet auf den teuren Zukauf einzelner Modul-Lizenzen. Alle Erweit
 
 Der Screenshot der offiziellen Preisübersicht belegt den radikalen Unterschied: Während andere Anbieter jede WordPress-Instanz einzeln zur Kasse bitten, schaltet bereits die Rank Math Pro Lizenz unbegrenzte persönliche Domains frei.
 
-Aktuelle Aktionen und Detailkonditionen findest du direkt auf der offiziellen Seite unter **[Rank Math Sonderangebote & Pricing](https://rankmath.com/de/offer/?ref=jorgzimmer)**.
+Aktuelle Aktionen und Detailkonditionen findest du direkt auf der offiziellen Seite unter **[Rank Math Sonderangebote & Pricing* (Partnerlink)](https://rankmath.com/de/offer/?ref=jorgzimmer)**.
 
 ### Die Kosten-Kalkulation für die Praxis:
 
@@ -292,7 +292,7 @@ Wenn du jedoch:
 * Einen integrierten Weiterleitungs-Manager und sauberes 404-Monitoring ohne Zusatz-Plugins verlangst,
 * Oder deine Website fit für die Ära der **KI-Suchmaschinen und Generative Engine Optimization (GEO)** machen willst,
 
-dann führt 2026 kein rationaler Weg mehr an **[Rank Math SEO](https://rankmath.com/de/?ref=jorgzimmer)** vorbei. Das Preis-Leistungs-Verhältnis ist unerreicht, die Codebasis ist modern und der Migrationsprozess dauert weniger als fünf Minuten.
+dann führt 2026 kein rationaler Weg mehr an **[Rank Math SEO* (Partnerlink)](https://rankmath.com/de/?ref=jorgzimmer)** vorbei. Das Preis-Leistungs-Verhältnis ist unerreicht, die Codebasis ist modern und der Migrationsprozess dauert weniger als fünf Minuten.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
@@ -301,10 +301,11 @@ dann führt 2026 kein rationaler Weg mehr an **[Rank Math SEO](https://rankmath.
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Sichere dir die volle Power von unbegrenzten Websites, Custom Schema Builder und Content AI zum fairen Jahrespreis.
   </p>
-  <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer" class="btn-primary">
+  <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <span>Aktuelle Rank Math Angebote ansehen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 ---

@@ -30,7 +30,7 @@ faqs:
 
 Wer eine professionelle WordPress-Website betreibt, stößt bei der Suchmaschinenoptimierung unweigerlich auf die Gretchenfrage des Plugin-Ökosystems: Welches Tool liefert das beste Fundament, um in den organischen Suchergebnissen und modernen KI-Suchmaschinen ganz vorne mitzuspielen? Über viele Jahre hinweg war Yoast SEO der unangefochtene Platzhirsch. Doch die Anforderungen an modernes [WordPress SEO](/glossar/wordpress-seo/) haben sich radikal verändert: Starre Ampelsysteme und überladene Code-Strukturen sind im Zeitalter von RAG, Core Web Vitals und komplexen [strukturierten Daten](/glossar/strukturierte-daten/) schlichtweg nicht mehr zeitgemäß.
 
-Hier betritt **[Rank Math (Offizielle deutsche Website)](https://rankmath.com/de/?ref=jorgzimmer)** die Bühne. Seit seinem Erscheinen hat das Plugin den Markt revolutioniert: Es bündelt die Funktionalität von bis zu fünf einzelnen Spezial-Plugins – vom Redirect-Manager über den 404-Monitor bis hin zum flexiblen Schema-Generator – in einer erstaunlich schlanken, modularen Architektur.
+Hier betritt **[Rank Math* (Partnerlink)](https://rankmath.com/de/?ref=jorgzimmer)** die Bühne. Seit seinem Erscheinen hat das Plugin den Markt revolutioniert: Es bündelt die Funktionalität von bis zu fünf einzelnen Spezial-Plugins – vom Redirect-Manager über den 404-Monitor bis hin zum flexiblen Schema-Generator – in einer erstaunlich schlanken, modularen Architektur.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
@@ -164,7 +164,7 @@ Hier trennt sich die Spreu vom Weizen. In komplexen Branchen reichen die 18 Stan
 
 Mit Version 2.0 hat Rank Math sein KI-Modul **Content AI** grundlegend modernisiert. Anstatt externe Chat-Fenster von OpenAI oder Claude zu bemühen, holt Rank Math über 40 spezialisierte KI-Assistenten und über 125 kuratierte Prompt-Vorlagen direkt in deine WordPress-Schreibumgebung.
 
-Wer sich intensiver mit dem Modul beschäftigen möchte, findet alle Details direkt bei **[Rank Math Content AI (Offizielle deutsche Seite)](https://rankmath.com/de/content-ai/?ref=jorgzimmer)**.
+Wer sich intensiver mit dem Modul beschäftigen möchte, findet alle Details direkt bei **[Rank Math Content AI* (Partnerlink)](https://rankmath.com/de/content-ai/?ref=jorgzimmer)**.
 
 ### Was kann Content AI in der Praxis?
 * **Content Research & Keyword-Vorschläge:** Auf Knopfdruck analysiert Content AI die aktuellen Top-Rankings zu deinem Fokus-Keyword. Du erhältst präzise Empfehlungen für die ideale Wortanzahl, Heading-Struktur (H2/H3/H4), Bildanzahl und relevante semantische Begleitbegriffe (LSI-Keywords).
@@ -204,7 +204,7 @@ Für Betreiber von WooCommerce-Shops ist Rank Math eine echte Offenbarung. Stand
 
 ## 7. Rank Math Pro vs. Business vs. Agency: Kosten & Lizenzmodelle
 
-Rank Math punktet mit einem fairen, transparenten Preismodell ohne versteckte Modul-Kosten. Die Abrechnung erfolgt jährlich (zzgl. MwSt.). Aktuelle Rabattaktionen und Rabattstufen findest du direkt unter **[Rank Math Sonderangebote & Pricing](https://rankmath.com/de/offer/?ref=jorgzimmer)**.
+Rank Math punktet mit einem fairen, transparenten Preismodell ohne versteckte Modul-Kosten. Die Abrechnung erfolgt jährlich (zzgl. MwSt.). Aktuelle Rabattaktionen und Rabattstufen findest du direkt unter **[Rank Math Sonderangebote & Pricing* (Partnerlink)](https://rankmath.com/de/offer/?ref=jorgzimmer)**.
 
 ### Welcher Tarif passt zu deinem Projekt? (Live-Preise im Überblick)
 
@@ -303,9 +303,10 @@ Egal ob du mit der extrem leistungsfähigen Free-Version startest oder für dein
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Hol dir das modernste SEO-Plugin für WordPress. Nutze den folgenden Link, um dir die aktuellen Sonderkonditionen für Rank Math Pro, Business und Agency direkt beim Hersteller zu sichern:
   </p>
-  <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer" class="btn-primary">
+  <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.218 19l-1.782-1.75 5.25-5.25-5.25-5.25 1.782-1.75 6.968 7-6.968 7z"/></svg>
     <span>Jetzt Rank Math Angebote prüfen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>

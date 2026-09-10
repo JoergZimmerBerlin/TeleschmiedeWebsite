@@ -199,5 +199,6 @@ Besonders die Kombination aus voller Top-100-Tiefe, präziser Erkennung von SERP
     <span>Jetzt Rank Tracker kostenlos testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

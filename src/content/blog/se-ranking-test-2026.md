@@ -179,5 +179,6 @@ Du möchtest tiefer in spezifische Werkzeuge und Funktionen der Plattform eintau
     <span>Jetzt 14 Tage gratis testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

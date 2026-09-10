@@ -213,5 +213,6 @@ In der Praxis konkurrieren die beiden Werkzeuge nicht miteinander, sondern bilde
     <span>Jetzt SE Ranking Tarife ansehen & testen</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 

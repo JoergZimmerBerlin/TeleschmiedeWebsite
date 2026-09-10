@@ -82,7 +82,7 @@ Durch diese strukturierte Datenerfassung reduzieren Marketing-Teams den manuelle
 
 👉 **Mehr Details:** [Alles zum AI Rank Tracker lesen](/glossar/ai-rank-tracker/)
 
-👉 **Direkt zum Tool:** [AI Rank Tracker auf Rankscale testen](https://rankscale.ai/features/ai-rank-tracker?via=offer)
+👉 **Direkt zum Tool:** [AI Rank Tracker auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/ai-rank-tracker?via=offer)
 
 ## 2. AI Citation Tracking: Die Währung des Vertrauens
 
@@ -100,7 +100,7 @@ Ein besonders mächtiges Werkzeug sind die **Domain Leaderboards**. Sie zeigen d
 
 👉 **Mehr Details:** [Alles zur AI Citation Analysis lesen](/glossar/ai-citation-analysis/)
 
-👉 **Direkt zum Tool:** [AI Citation Tracking auf Rankscale testen](https://rankscale.ai/features/ai-citation-tracking?via=offer)
+👉 **Direkt zum Tool:** [AI Citation Tracking auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/ai-citation-tracking?via=offer)
 
 ## 3. Prompt Research: Nutzerabsichten entschlüsseln
 
@@ -118,7 +118,7 @@ Das Verständnis dieser Core Prompts ist essenziell, um den eigenen Content exak
 
 👉 **Mehr Details:** [Alles zur AI Prompt Research lesen](/glossar/ai-prompt-research/)
 
-👉 **Direkt zum Tool:** [Prompt Research auf Rankscale testen](https://rankscale.ai/features/prompt-research?via=offer)
+👉 **Direkt zum Tool:** [Prompt Research auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/prompt-research?via=offer)
 
 ## 4. Brand Visibility Dashboard: Die Kommandozentrale
 
@@ -132,7 +132,7 @@ Besonders für das Reporting an das Management (C-Level) bietet das Dashboard so
 
 👉 **Mehr Details:** [Alles zum Brand Visibility Dashboard lesen](/glossar/brand-visibility-dashboard/)
 
-👉 **Direkt zum Tool:** [Brand Visibility Dashboard auf Rankscale testen](https://rankscale.ai/features/brand-visibility-dashboard?via=offer)
+👉 **Direkt zum Tool:** [Brand Visibility Dashboard auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/brand-visibility-dashboard?via=offer)
 
 ## 5. GEO Page Audit: Die Architektur der Sichtbarkeit
 
@@ -150,7 +150,7 @@ Das Ergebnis ist eine priorisierte Liste an konkreten Reparaturmaßnahmen, mit d
 
 👉 **Mehr Details:** [Alles zum GEO Page Audit lesen](/glossar/geo-page-audit/)
 
-👉 **Direkt zum Tool:** [GEO Page Audit auf Rankscale testen](https://rankscale.ai/features/page-audit?via=offer)
+👉 **Direkt zum Tool:** [GEO Page Audit auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/page-audit?via=offer)
 
 ## 6. AI Sentiment Analysis: Reputation sichern
 
@@ -164,7 +164,7 @@ Die Gruppierung dieser Sentiment-Deskriptoren auf Marken-Ebene ermöglicht einen
 
 👉 **Mehr Details:** [Alles zur AI Sentiment Analysis lesen](/glossar/ai-sentiment-analysis/)
 
-👉 **Direkt zum Tool:** [AI Sentiment Analysis auf Rankscale testen](https://rankscale.ai/features/ai-sentiment-analysis?via=offer)
+👉 **Direkt zum Tool:** [AI Sentiment Analysis auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/ai-sentiment-analysis?via=offer)
 
 ## 7. AI Shopping Analysis: E-Commerce Dominanz
 
@@ -180,7 +180,7 @@ Ein massiver Hebel ist das Tracking von bezahlten Platzierungen in KI-Antworten.
 
 👉 **Mehr Details:** [Alles zur AI Shopping Analysis lesen](/glossar/ai-shopping-analysis/)
 
-👉 **Direkt zum Tool:** [AI Shopping Analysis auf Rankscale testen](https://rankscale.ai/features/shopping-analysis?via=offer)
+👉 **Direkt zum Tool:** [AI Shopping Analysis auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/shopping-analysis?via=offer)
 
 ## 8. AI Competitor Analysis: Die Lücken der Konkurrenz
 
@@ -195,7 +195,7 @@ Um blinden Aktionismus zu vermeiden, nutzt die Plattform eine **Impact-basierte 
 
 👉 **Mehr Details:** [Alles zur AI Competitor Analysis lesen](/glossar/ai-competitor-analysis/)
 
-👉 **Direkt zum Tool:** [AI Competitor Analysis auf Rankscale testen](https://rankscale.ai/features/ai-competitor-analysis?via=offer)
+👉 **Direkt zum Tool:** [AI Competitor Analysis auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/ai-competitor-analysis?via=offer)
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
   <div class="flex items-start justify-between gap-4 mb-3">

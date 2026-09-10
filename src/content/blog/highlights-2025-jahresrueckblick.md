@@ -92,7 +92,7 @@ Die Rückmeldungen von Kollegen waren großartig. Es entstanden neue Stammtische
 
 ### 7. Der Döner-Post: Prioritäten setzen
 
-Ja, ich habe offiziell Werbung für meinen Lieblings-Döner gemacht. Weil guter Döner im Leben eines SEOs manchmal wichtiger ist als der perfekte PageSpeed-Score. Wer das anders sieht: Fight me! Wir brauchen alle unsere Kraftquellen, und meine ist eben ein richtig guter Dönerback. Der Post hat bewiesen: Wir sind alles nur Menschen.
+Ja, ich habe offiziell Werbung für meinen Lieblings-Döner gemacht. Weil guter Döner im Leben eines SEOs manchmal wichtiger ist als der perfekte PageSpeed-Score. Wer das anders sieht: Fight me! Wir brauchen alle unsere Kraftquellen, und meine ist eben ein richtig guter Dönerback – wie ich ausführlich in [SEO-Qualität: Vom Dönerback bis zum Erfolg](/blog/doenerback-und-motivation/) analysiere. Der Post hat bewiesen: Wir sind alles nur Menschen.
 
 ### 8. LinkedIn-Stammtisch: Der Algorithmus-Talk
 

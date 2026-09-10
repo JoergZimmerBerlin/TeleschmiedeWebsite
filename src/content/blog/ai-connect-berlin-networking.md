@@ -34,7 +34,7 @@ Deshalb habe ich mir mein Ticket gesichert und bin am **8. April 2026** beim **1
 
 Das Event findet im traditionsreichen **CIC Berlin** in der Lohmühlenstraße 65 statt – genau an der Schnittstelle von Treptow und Kreuzberg. Das Cambridge Innovation Center beherbergt seit Jahren dynamische Tech-Startups, Acceleratoren und Forschungsprojekte. 
 
-Von 18:00 bis 21:00 Uhr verwandelt sich das CIC in den Treffpunkt der Berliner KI-Community. Wer mich von Veranstaltungen wie dem [SEO-Stammtisch Berlin](/blog/seo-stammtisch-berlin-axel-springer/) kennt, weiß: Ich bin dort, um hinter die Fassaden von Standard-Demos zu blicken und handfeste Praxiserfahrungen zu diskutieren.
+Von 18:00 bis 21:00 Uhr verwandelt sich das CIC in den Treffpunkt der Berliner KI-Community. Wer mich von Veranstaltungen wie dem [SEO-Stammtisch Berlin](/blog/seo-stammtisch-berlin-axel-springer/) oder der [Überstunde Berlin](/glossar/ueberstunde-berlin/) kennt, weiß: Ich bin dort, um hinter die Fassaden von Standard-Demos zu blicken und handfeste Praxiserfahrungen zu diskutieren.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

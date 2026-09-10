@@ -122,7 +122,7 @@ Um einem KI-Agenten die UCP-Fähigkeiten eines Webshops zu signalisieren, hinter
 }
 ```
 
-## Konsequenzen für die [E-Commerce KI-Sichtbarkeit](/glossar/ecommerce-ki-sichtbarkeit/)
+## Konsequenzen für die E-Commerce KI-Sichtbarkeit
 
 Die Etablierung von UCP verschiebt die Schwerpunkte der Suchmaschinenoptimierung nachhaltig in Richtung technischer [Agent Readiness](/glossar/agent-readiness/):
 

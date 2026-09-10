@@ -84,7 +84,7 @@ Während LCP und CLS die visuelle Ladephase definieren, misst der INP die fortla
 
 ### Der 100-Punkte-Beweis: Perfekte Core Web Vitals und CrUX-Felddaten in Google PageSpeed Insights
 
-Dass exzellente PageSpeed-Werte keine Utopie sind, belegt die reale Messung unserer Domain `teleschmie.de` im offiziellen Google-Tool:
+Dass exzellente PageSpeed-Werte keine Utopie sind, belegt die reale Messung unserer Domain `teleschmie.de` im offiziellen Google-Tool. Den exakten technischen Setup-Leitfaden mit allen Code-Tweaks liest du im Fallbeispiel [PageSpeed 100/100: So wurde die Website schnell](/blog/pagespeed-100-seo-optimierung/).
 
 ![Authentischer Praxistest: Google PageSpeed Insights erzielt 100 von 100 Punkten in allen vier Kategorien für teleschmie.de](/assets/images/tools/pagespeed-insights-teleschmiede-100.webp)
 

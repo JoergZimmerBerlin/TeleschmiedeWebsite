@@ -28,7 +28,7 @@ Mit 25 Spezialisten auf dem OMR Festival in Hamburg: Ein Stand, eine gemeinsame 
 
 Als digitaler Berater mit 25 Jahren Praxiserfahrung habe ich unzählige Agenturmodelle kommen und gehen sehen. Was sich in vielen Großagenturen etabliert hat, frustriert zunehmend anspruchsvolle Auftraggeber: Im Verkaufsgespräch glänzen redegewandte Senior-Berater, doch sobald der Vertrag unterschrieben ist, wird das Projekt an wechselnde Berufseinsteiger delegiert.
 
-Das Freelancer Team beweist auf der OMR 2026, dass es einen radikal besseren Weg gibt: **Senior-Expertise ohne bürokratischen Wasserkopf.**
+Das [Freelancer Team](/freelancer-team/) beweist auf der OMR 2026, dass es einen radikal besseren Weg gibt: **Senior-Expertise ohne bürokratischen Wasserkopf.**
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

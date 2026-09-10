@@ -75,7 +75,7 @@ Agenturen und Dachgesellschaften verwalten häufig mehrere Marken gleichzeitig. 
 ### 2. Lückenlose Multi-Engine-Abdeckung
 Wer ausschließlich ChatGPT überwacht, übersieht B2B-Entscheider, die auf Claude setzen, oder rechercheintensive Nutzer, die Perplexity als primäre Recherche-Engine verwenden. Das Dashboard aggregiert Daten aus mehr als 17 Systemen – von Google AI Overviews über Gemini bis hin zu Meta AI – und stellt sicher, dass keine Marktverschiebung unbemerkt bleibt.
 
-### 3. Echtzeit-Intelligenz und [Brand Sentiment](/glossar/brand-sentiment/)
+### 3. Echtzeit-Intelligenz und Brand Sentiment
 Sprachmodelle verändern ihre Wissensbasis kontinuierlich. Ein wöchentlicher Report reicht nicht aus, um auf algorithmische Verschiebungen zu reagieren. Das Dashboard liefert Live-Warnungen, sobald der Zitationsanteil sinkt oder die Tonalität der generierten Antworten ins Negative kippt. Durch automatisierte [AI-Sentiment-Analysis](/glossar/ai-sentiment-analysis/) wird sofort sichtbar, ob eine Marke als innovativ, verlässlich oder überteuert dargestellt wird.
 
 ## Kernmetriken: Was moderne GEO-Dashboards messen müssen

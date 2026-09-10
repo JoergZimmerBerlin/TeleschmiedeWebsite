@@ -147,7 +147,7 @@ server {
 }
 ```
 
-## Moderne Bot-Fütterung über [llms.txt](/glossar/llms-txt/)
+## Moderne Bot-Fütterung über llms.txt
 
 Um KI-Crawlern den Zugriff auf Kerninformationen zu erleichtern, ohne ihre Rechenzeit mit visuellem HTML-Overhead zu belasten, gewinnt die Bereitstellung kompakter Markdown-Dateien zunehmend an Relevanz. Über standardisierte Schnittstellen wie [llms.txt](/glossar/llms-txt/) und die erweiterte [llms-full.txt](/glossar/llms-full-txt/) können Sie den Bots eine komprimierte Wissensübersicht Ihrer wichtigsten Produkte und Fachbeiträge zur Verfügung stellen. Dies senkt die Serverlast und maximiert die Wahrscheinlichkeit präziser Zitationen.
 

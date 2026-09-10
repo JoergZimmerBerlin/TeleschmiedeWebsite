@@ -95,7 +95,7 @@ Ebenso gebührt **Carsten Appel** großer Respekt, der den Berliner Stammtisch s
 Dass bei allem Fachsimpeln der typische Berliner Humor nicht zu kurz kam, bewies Kollege **Tony Meyer** in den Kommentaren:
 > *„Ich sehe hier ein hohes Risiko, die sorgsam gepflegte Bürobräune zu gefährden. 🧐“*
 
-Und wer wie **Anett Pohl** kurzfristig verhindert war, muss nicht traurig sein: Der nächste Stammtisch kommt bestimmt. Neben unserem jährlichen Sommerfest auf dem Dach treffen wir uns regelmäßig in entspannten Berliner Locations oder auf Events wie der legendären [CAMPIXX](/glossar/campixx-berlin/).
+Und wer wie **Anett Pohl** kurzfristig verhindert war, muss nicht traurig sein: Der nächste Stammtisch kommt bestimmt. Neben unserem jährlichen Sommerfest auf dem Dach treffen wir uns regelmäßig in entspannten Berliner Locations, auf Formaten wie dem [1. AI Connect Berlin: Vibe Coding & Gemini](/blog/ai-connect-berlin-networking/) oder auf Events wie der legendären [CAMPIXX](/glossar/campixx-berlin/).
 
 ## Werde Teil der Berliner Runde
 

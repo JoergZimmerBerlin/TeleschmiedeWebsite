@@ -246,7 +246,7 @@ Befolge diesen erprobten 4-Schritte-Workflow:
 ![Zero-Risk Migration Workflow von Yoast zu Rank Math](../../assets/images/blog/rank-math-yoast-migration-workflow.webp)
 
 ### Schritt 1: Backup erstellen & Rank Math installieren
-Erstelle vor jeder größeren Änderung an deiner WordPress-Installation ein vollständiges Backup deiner Datenbank und Dateien. Installiere anschließend das kostenlose Plugin **Rank Math SEO** über das WordPress-Dashboard (*Plugins → Installieren*).
+Erstelle vor jeder größeren Änderung an deiner WordPress-Installation ein vollständiges Backup deiner Datenbank und Dateien. Installiere anschließend das kostenlose Plugin [Rank Math](/glossar/rank-math/) über das WordPress-Dashboard (*Plugins → Installieren*).
 
 ### Schritt 2: Den Einrichtungs-Assistenten & 1-Klick-Import starten
 Sobald du Rank Math aktivierst, startet der Einrichtungs-Assistent:
@@ -268,7 +268,7 @@ Sobald der Import mit einer Erfolgsmeldung („100 % abgeschlossen“) bestätig
 > Stelle sicher, dass Yoast SEO nach dem Import tatsächlich deaktiviert ist. Wenn beide Plugins gleichzeitig laufen, werden [Canonical Tags](/glossar/canonical-tag/) doppelt ausgegeben und XML-Sitemaps geraten in Konflikt, was Suchmaschinen-Crawler massiv verwirrt.
 
 ### Schritt 4: Sitemaps prüfen & IndexNow scharfschalten
-Überprüfe nach der Umstellung deine neue Sitemap-URL (in der Regel `deine-domain.de/sitemap_index.xml`). Rank Math generiert saubere XML-Sitemaps für Beiträge, Seiten und Kategorien. 
+Überprüfe nach der Umstellung deine neue Sitemap-URL (in der Regel `deine-domain.de/sitemap_index.xml`) sowie die Direktiven in deiner [Robots.txt](/glossar/robots-txt/). Rank Math generiert saubere XML-Sitemaps für Beiträge, Seiten und Kategorien. 
 
 * Prüfe, ob leere Taxonomien oder Autoren-Archive korrekt auf [Noindex](/glossar/noindex/) gesetzt sind.
 * Aktiviere das Modul **IndexNow**: Dadurch werden Änderungen an deinen Inhalten in Echtzeit an Suchmaschinen wie Bing und Yandex übermittelt, ohne dass du auf den nächsten regulären Bot-Crawl warten musst.

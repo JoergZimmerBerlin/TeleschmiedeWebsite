@@ -87,6 +87,8 @@ Solches Feedback aus der Praxis ist Gold wert. Erst wenn Performance (100 %), Ba
 **Roland Golla** fasste es treffend zusammen:
 > *„Einfach ein bärenstarkes Gesamtergebnis. Genau so sieht mutiges Vorangehen aus – Astro-Framework, blitzschneller Build und kompromisslose Zukunftsorientierung.“*
 
+Doch wer seine Plattform so weitgehend mit Agenten-Systemen automatisiert, stößt unweigerlich auf rechtliche Fragen: Braucht ein solcher Webauftritt ein Warnlabel? Diese Kernfrage analysiere ich im Diskussionsbeitrag [KI-generierte Website: Kennzeichnungspflicht?](/blog/ai-generierte-website-kennzeichnung/).
+
 ## Die Werkzeuge für deinen eigenen Vorsprung
 
 Möchtest du deine eigenen Inhalte für KI-Suchsysteme optimieren? Mit unserem frei verfügbaren [Grounding Page Generator](/blog/grounding-page-generator-ai-seo/) kannst du sofort starten und prägnante Faktenseiten für deine Marke erstellen.

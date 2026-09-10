@@ -26,7 +26,7 @@ faqs:
 
 Auf der [CAMPIXX](/glossar/campixx-berlin/) in Berlin gab es eine Fachsession, die eine fundamentale Wahrheit schonungslos auf den Tisch legte: **SEO ist immer nur die halbe Miete.**
 
-Man kann Monate in Keyword-Recherchen, Content-Hubs und technische Crawlability investieren, um eine Domain auf Platz 1 bei Google zu wuchten. Doch was nützt der beste organische Traffic, wenn die Besucher nach fünf Sekunden entnervt abspringen, weil die Benutzerführung klemmt?
+Man kann Monate in Keyword-Recherchen, Content-Hubs, [Core Web Vitals](/glossar/core-web-vitals/) und technische Crawlability investieren, um eine Domain auf Platz 1 bei Google zu wuchten. Doch was nützt der beste organische Traffic, wenn die Besucher nach fünf Sekunden entnervt abspringen, weil die Benutzerführung klemmt?
 
 Tracking- und CRO-Experte **Thomas Czernik** demonstrierte in seinem Vortrag extrem praxisnah, warum das kostenlose Analyse-Tool **Microsoft Clarity** der heimliche MVP moderner Weboptimierung ist.
 

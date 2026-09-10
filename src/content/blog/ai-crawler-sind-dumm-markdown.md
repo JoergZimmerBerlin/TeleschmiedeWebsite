@@ -103,7 +103,7 @@ Was bedeutet das? AX bedeutet, dass wir anfangen müssen, unsere Inhalte so zu s
 
 ## Pfusch am Bau korrigieren: Die zwei Ebenen des Webs
 
-Egal ob man Cloudflare nutzt, das französische [Lightpanda](/glossar/crawler/) (eine effiziente Alternative) oder seine Seite über spezialisierte Lösungen wie unseren [Grounding Page Generator](/blog/grounding-page-generator-ai-seo/) und saubere [robots.txt Konfigurationen](/glossar/robots-txt/) direkt im Markdown-Format bereitstellt: Der Trend ist unumkehrbar. Wie wir es in der [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) definieren, wird der "Markdown-Standard" zum Fundament der neuen Suche.
+Egal ob man Cloudflare nutzt, das französische [Lightpanda](/glossar/crawler/) (eine effiziente Alternative) oder seine Seite über spezialisierte Lösungen wie unseren [Grounding Page Generator](/blog/grounding-page-generator-ai-seo/) und saubere [robots.txt Konfigurationen](/glossar/robots-txt/) direkt im Markdown-Format bereitstellt: Der Trend ist unumkehrbar. Genau deshalb entwickelt sich die [AI Crawlability als neue Disziplin im Tech SEO](/blog/ai-crawlability-tech-seo-disziplin/) zu einem unverzichtbaren Kernbereich. Wie wir es in der [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) definieren, wird der "Markdown-Standard" zum Fundament der neuen Suche.
 
 Das Web der Zukunft ist zweigeteilt:
 - **Die Design-Ebene** für Emotionen, Markenbildung und den menschlichen Nutzer. Hier darf es bunt, laut und animiert sein.

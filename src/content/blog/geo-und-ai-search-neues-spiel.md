@@ -83,7 +83,7 @@ In der Fachcommunity wird hitzig diskutiert: Ist GEO ein komplett neues Handwerk
 
 Meine Praxiserfahrung aus 25 Jahren zeigt: Wer SEO schon immer nutzerzentriert, technisch sauber und mit Fokus auf hochwertige Informationsarchitektur betrieben hat, besitzt ein enormes Startpolster. Doch auf dieses Fundament setzt sich ein neuer technischer Layer:
 
-1. **Agent Readiness & maschinenlesbare Protokolle:** Moderne Webserver müssen für Agenten optimiert werden – von HTTP-Link-Headern über standardisierte Markdown-Auslieferung bis hin zu MCP-Schnittstellen.
+1. **[Agent Readiness](/glossar/agent-readiness/) & maschinenlesbare Protokolle:** Moderne Webserver müssen für Agenten optimiert werden – von HTTP-Link-Headern über standardisierte Markdown-Auslieferung bis hin zu MCP-Schnittstellen.
 2. **Eindeutige semantische Entitäten:** Eine Website muss zweifelsfrei als [Entität](/glossar/entitaet/) im Knowledge Graph erkennbar sein.
 3. **Kompromissloses E-E-A-T:** Wie Sascha Pöschl auf LinkedIn ergänzte, stützen sich Sprachmodelle bevorzugt auf validierte Konsensquellen. [E-E-A-T](/glossar/e-e-a-t/) ist kein theoretischer Bewertungsbogen, sondern die Voraussetzung für jedes Modell-Zitat.
 

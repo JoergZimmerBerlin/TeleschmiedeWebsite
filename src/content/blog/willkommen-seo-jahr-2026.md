@@ -68,7 +68,7 @@ Das ist mein persönlicher Favorit unter den Horroraussagen. SEO **nach** dem Re
 
 ### 3. "SEO ist tot. Wir machen jetzt fancy XYZ Bullshit-Bingo."
 
-Jedes Jahr aufs Neue. Jedes verdammte Mal. Nein, SEO ist nicht tot. SEO hat sich **weiterentwickelt**. Von Keyword-Stuffing zu E-E-A-T, von Meta-Keywords zu Entitäten, von reiner Google-Optimierung zu [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) und AI-Visibility. Wer sagt, SEO sei tot, hat entweder nie verstanden, was es wirklich ist, oder verkauft gerade etwas anderes.
+Jedes Jahr aufs Neue. Jedes verdammte Mal. Nein, SEO ist nicht tot. SEO hat sich **weiterentwickelt**. Von Keyword-Stuffing zu [E-E-A-T](/glossar/e-e-a-t/), von Meta-Keywords zu Entitäten, von reiner Google-Optimierung zu [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) und AI-Visibility. Wer sagt, SEO sei tot, hat entweder nie verstanden, was es wirklich ist, oder verkauft gerade etwas anderes.
 
 ## Der Relaunch-Friedhof: Wo gute Rankings sterben
 

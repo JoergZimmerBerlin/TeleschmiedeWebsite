@@ -81,7 +81,7 @@ In der modernen Praxis des Jahres 2026 unterscheidet man zwei komplementäre Sto
 
 Erfolgreiche LLMO-Architekturen stützen sich auf vier fundamentale Säulen:
 
-### 1. Technische [Agent Readiness](/glossar/agent-readiness/) und die llms.txt
+### 1. Technische Agent Readiness und die llms.txt
 Die Etablierung des Standards `llms.txt` im Verzeichnis `.well-known/` hat die Navigation für KI-Crawler vereinheitlicht. Analog zur traditionellen `robots.txt` weist die Datei autonomen Agenten den direkten Weg zu kuratierten, semantisch sauberen Markdown-Dokumenten. Dadurch entfällt das ressourcenintensive Rendern komplexer Menüstrukturen.
 
 ### 2. Markdown Content Negotiation

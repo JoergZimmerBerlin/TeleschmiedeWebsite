@@ -100,7 +100,7 @@ Du kannst mich zu jedem Zeitpunkt unterbrechen, nachhaken oder Zwischenfragen st
 Nach dem Call lasse ich dich nicht mit offenen Fragen allein. Du erhältst ein praxiserprobtes Nachbereitungspaket:
 
 1. **Die ungeschnittene Videoaufzeichnung:** Schaue dir technische Details und Code-Hinweise jederzeit erneut an.
-2. **Die KI-Zusammenfassung:** Ein kompaktes Protokoll aller besprochenen Meilensteine.
+2. **Die KI-Zusammenfassung:** Ein kompaktes Protokoll aller besprochenen Meilensteine (erstellt mit dem [tl;dv Notetaker für Meetings](/blog/tldv-meeting-notetaker-ki/)).
 3. **Der individuelle Maßnahmenplan:** Eine nach Dringlichkeit und ROI-Hebel sortierte To-Do-Liste für dein Team.
 
 Martin Meng, CEO von konfidal, brachte seine Erfahrung nach dem Call so auf den Punkt: *„Jörg hat die zu priorisierenden Hebel klar und verständlich herausgearbeitet. Keine abstrakten Großbaustellen, sondern handfeste Hebel, die wir sofort anpacken konnten.“* Das ist der Maßstab, an dem ich mich messen lasse – professionelle [SEO-Beratung](/glossar/seo-beratung/) auf Augenhöhe.

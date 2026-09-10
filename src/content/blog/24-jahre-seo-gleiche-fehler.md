@@ -103,7 +103,7 @@ Die Fundamente erfolgreicher Webprojekte sind unkaputtbar. Wer diese vier Kernre
 3. **Konsequente Markenbildung**: Baue eine unverwechselbare Reputation in deiner Nische auf, sodass dein Name zum Synonym für Fachkompetenz wird.
 4. **Strategische Geduld**: Beende das hektische Springen von Trend zu Trend. Lass deinen Maßnahmen die nötigen sechs bis zwölf Monate Zeit, um ihre volle Hebelwirkung zu entfalten.
 
-Wenn das Kind bereits in den Brunnen gefallen ist und ein Algorithmus-Update deine Domain abgestraft hat, hilft oft nur ein strukturierter Rettungsplan durch eine professionelle [SEO Feuerwehr](/blog/seo-feuerwehr-rettung/). Wie so eine strukturierte Analyse im Detail abläuft, erfährst du auch im Beitrag [SEO-Sprechstunde einfach erklärt](/blog/seo-sprechstunde-erklaert/).
+Wenn das Kind bereits in den Brunnen gefallen ist und ein Algorithmus-Update deine Domain abgestraft hat, hilft oft nur ein strukturierter Rettungsplan durch eine professionelle [SEO Feuerwehr](/blog/seo-feuerwehr-rettung/). Wie so eine strukturierte Analyse im Detail abläuft, erfährst du auch im Beitrag [SEO-Sprechstunde einfach erklärt](/blog/seo-sprechstunde-erklaert/) sowie in meinen persönlichen Learnings unter [Meine SEO-Highlights 2025: Der Jahresrückblick](/blog/highlights-2025-jahresrueckblick/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

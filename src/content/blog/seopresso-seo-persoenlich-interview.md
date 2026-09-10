@@ -59,7 +59,7 @@ Wir SEOs lieben unsere Dashboards, Metriken und Ranking-Kurven. Doch im Gespräc
 - **Zum Entwickler**: Du musst Entwickler-Teams auf Augenhöhe begegnen und exakt begründen, warum eine bestimmte DOM-Struktur oder SSR für Suchmaschinen essenziell ist.
 - **Zur Suchmaschine**: Du musst deine Seiten semantisch so klar strukturieren, dass LLMs und Bots deine Inhalte ohne Reibungsverluste verstehen.
 
-Wer diese Vermittlerrolle nicht beherrscht, scheitert im modernen Web – ganz egal, wie teuer die eingesetzten Software-Suiten sind. Wie typische Missverständnisse vermieden werden, habe ich im Beitrag über [25 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/) vertieft.
+Wer diese Vermittlerrolle nicht beherrscht, scheitert im modernen Web – ganz egal, wie teuer die eingesetzten Software-Suiten sind. Wie typische Missverständnisse vermieden werden, habe ich im Beitrag über [25 Jahre SEO: Die immer gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/) vertieft, und in [Meine SEO-Highlights 2025: Der Jahresrückblick](/blog/highlights-2025-jahresrueckblick/) ziehe ich dazu ein schonungsloses Resümee.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

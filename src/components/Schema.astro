@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const getTranscriptSchema = (id, fallbackDesc) => {
+const getTranscriptSchema = (id: string, fallbackDesc: string): string => {
   try {
     const filePath = path.join(process.cwd(), "src", "data", "transcripts", id + ".txt");
     if (fs.existsSync(filePath)) {

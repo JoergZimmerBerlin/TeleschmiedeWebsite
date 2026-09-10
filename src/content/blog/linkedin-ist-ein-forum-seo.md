@@ -93,7 +93,7 @@ Ein einziger, verdammt guter Kommentar unter einem starken Beitrag bringt dir of
 **Antonio Blago** hat das in der Diskussion extrem ehrlich zusammengefasst:
 > *"LinkedIn ist total ein Long Time Game. Feedpflege ist absolut wichtig. Ich schreibe pro Woche 60 bis 100 Kommentare. Das ist Arbeit, die sich lohnt."*
 
-60 bis 100 Kommentare pro Woche. Das ist kein Zufall, das ist ein System. Wer nur sendet und nie kommentiert, ist wie der Typ auf der Party, der nur von sich selbst redet. Niemand mag diesen Typen.
+60 bis 100 Kommentare pro Woche. Das ist kein Zufall, das ist ein System. Wer nur sendet und nie kommentiert, ist wie der Typ auf der Party, der nur von sich selbst redet. Niemand mag diesen Typen. Genau dieselbe Dynamik gilt für Firmenprofile, wie unsere Fallstudie [LinkedIn Company Pages: So weckst du sie auf](/blog/linkedin-company-pages-engagement/) eindrucksvoll belegt.
 
 ## Lass den Affen raushängen
 

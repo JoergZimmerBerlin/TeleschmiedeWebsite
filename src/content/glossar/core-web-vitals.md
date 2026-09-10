@@ -86,7 +86,7 @@ Technisch betrachtet ist der LCP keine simple Stoppuhr, sondern ein Prozess, der
 **Tacheles-Tuning auf Code-Ebene:**
 * Setze das Attribut `fetchpriority="high"` auf dein kritisches LCP-Bild im HTML. 
 * Nutze AVIF statt WebP. Die Kompressions-Algorithmen sparen massiv Bandbreite.
-* Vermeide Client-Side Rendering für "Above the Fold"-Content. Wenn das LCP-Element erst durch komplexe React-Hydration ins DOM gepumpt wird, hast du technologisch den falschen Weg gewählt.
+* Vermeide Client-Side Rendering für "Above the Fold"-Content. Wenn das LCP-Element erst durch komplexe React-Hydration ins DOM gepumpt wird, hast du technologisch den falschen Weg gewählt. Wie eine kompromisslose Umsetzung in der Praxis aussieht, erfährst du im Leitfaden [PageSpeed 100/100: So wurde die Website schnell](/blog/pagespeed-100-seo-optimierung/).
 
 ## 2. Cumulative Layout Shift (CLS) – Der DOM-Zerstörer
 

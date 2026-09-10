@@ -113,7 +113,7 @@ Die herzlichen Kommentare weiterer Branchenkollegen belegen, wie wertvoll solche
   </div>
 </div>
 
-Wie nachhaltig sich ein solches Vertrauensfundament auszahlt, zeigte sich auch nach der [SEO-Sprechstunde mit Ronny](/blog/seo-sprechstunde-bewertung-ronny/): Eine fundierte Fünf-Sterne-Bewertung auf Google Maps zieht regelmäßig neue, hochqualifizierte Anfragen nach sich.
+Wie nachhaltig sich ein solches Vertrauensfundament auszahlt, zeigte sich auch nach der [SEO-Sprechstunde mit Ronny](/blog/seo-sprechstunde-bewertung-ronny/): Eine fundierte Fünf-Sterne-Bewertung auf Google Maps zieht regelmäßig neue, hochqualifizierte Anfragen nach sich. Um diesen Bewertungs-Link auch über YouTube und weitere Kanäle nahtlos auszuspielen, empfiehlt sich zudem unser [Quicktipp: Bis zu 14 Links im YouTube Channel](/blog/youtube-channel-links/).
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

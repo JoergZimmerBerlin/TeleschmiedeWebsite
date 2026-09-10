@@ -90,22 +90,22 @@ Die technische Realität ist binär: **Kein mathematisch belegbares E-E-A-T bede
 
 Lass uns die vier Säulen im Detail analysieren und betrachten, wie KI-Crawler sie heute im Rahmen der **[Generative Engine Optimization (GEO)](/glossar/geo/)** technisch parsen und validieren.
 
-### 1. [Experience](/glossar/experience-eeat/) (Die unersetzliche Praxiserfahrung)
+### 1. Experience (Die unersetzliche Praxiserfahrung)
 KIs können perfekten Fließtext generieren und allgemeines Lehrbuchwissen aggregieren. Was sie nicht können: Bei einem Kunden vor Ort im Serverraum stehen. Einen Umsatzabsturz nach einem Relaunch um drei Uhr nachts analysieren. Echte Praxiserfahrung („Lived Experience“) ist der stärkste Hebel im gesamten Content-Marketing.
 
 KI-Crawler suchen gezielt nach Mustern von First-Hand Experience: originäre Kennzahlen, ungeschönte Case Studies, Zitate aus der Praxis und reale Screenshots. Maschinenlesbar machst du dies durch detaillierte Fallanalysen und klare Urheberkennzeichnung. Klingen deine Texte wie eine austauschbare Zusammenfassung fremder Quellen, stufen Algorithmen sie als überflüssigen Ballast ein.
 
-### 2. [Expertise](/glossar/expertise-eeat/) (Fachliche Vektortiefe)
+### 2. Expertise (Fachliche Vektortiefe)
 Expertise wird über die semantische Tiefe deines Fachgebiets gemessen. Hast du das Thema in seiner gesamten Breite durchdrungen? Sind deine Inhalte über logische Pillar-Spoke-Themencluster vernetzt?
 
 Beim technischen [Entity SEO](/glossar/entity-seo/) verknüpfst du Autoren und Unternehmen mit fundierten Wissensknoten. Das geschieht über `knowsAbout`-Properties im JSON-LD und direkte Verweise auf Wikidata-Einträge. Zudem erwarten Suchmaschinen einen Answer-First-Ansatz: präzise Fakten und direkte Definitionen am Kapitelanfang, fundierte Vertiefungen im Fließtext.
 
-### 3. [Authoritativeness](/glossar/authoritativeness-eeat/) (Cross-Validation im Knowledge Graph)
+### 3. Authoritativeness (Cross-Validation im Knowledge Graph)
 Autorität ist eine Frage der Netzwerktopologie. Für Algorithmen besteht Autorität aus verifizierten **Citations**, **Co-Occurrences** und **[Mentions](/glossar/mention/)**. Ein einfacher Backlink reicht längst nicht mehr aus. Entscheidend ist, dass deine Entität auf führenden Branchenportalen, in Podcasts, Konferenz-Agenden oder Fachstudien namentlich als Referenz genannt wird.
 
 Sprachmodelle berechnen deinen Autoritäts-Score dynamisch durch Cross-Entity-Validation: Wenn andere anerkannte Experten deines Fachgebiets auf deine Erkenntnisse verweisen, überträgt der Algorithmus dieses Vertrauen unmittelbar auf deine Domain.
 
-### 4. [Trustworthiness](/glossar/trustworthiness-eeat/) (Das Fundament der maschinellen Wahrheit)
+### 4. Trustworthiness (Das Fundament der maschinellen Wahrheit)
 Trust ist das unverzichtbare Fundament. Ohne Trust brechen alle anderen Signale in sich zusammen. LLMs sind extrem risikoscheu programmiert, um rechtliche Haftung und Reputationsschäden durch Halluzinationen zu vermeiden.
 
 * **Konsistente Identitätsdaten:** Name, Adresse, Telefonnummer (NAP) und Handelsregister-Angaben müssen im gesamten Web identisch hinterlegt sein.

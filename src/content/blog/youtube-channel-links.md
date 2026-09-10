@@ -97,7 +97,7 @@ Als ich diesen Tipp auf LinkedIn geteilt habe, wurde schnell deutlich, wie viele
 
 Martins Hinweis ist Gold wert: Wie wir bereits in unserem Leitfaden über die [Kombination aus LinkedIn und Google-Bewertungen](/blog/linkedin-google-bewertungen/) gezeigt haben, ist Social Proof der wichtigste Konvertierungsfaktor. Wenn ein Zuschauer von deinem Video begeistert ist, soll er nicht lange suchen müssen, um ein 5-Sterne-Feedback abzugeben.
 
-Sogar LinkedIn-Strategin **Britta Behrens** schaltete sich mit einem Augenzwinkern ein (*„Super Tipp, aber XING? Seriously???“*). Aber im Entity Building gilt: Jeder echte, konsistente Knotenpunkt zählt. Ob XING, Substack oder das eigene Impressum – Google liest alle Pfade aus.
+Sogar LinkedIn-Strategin **Britta Behrens** schaltete sich mit einem Augenzwinkern ein (*„Super Tipp, aber XING? Seriously???“*). Aber im [Entitäts-SEO](/glossar/entity-seo/) gilt: Jeder echte, konsistente Knotenpunkt zählt. Ob XING, Substack oder das eigene Impressum – Google liest alle Pfade aus.
 
 ## Was du heute tun solltest
 

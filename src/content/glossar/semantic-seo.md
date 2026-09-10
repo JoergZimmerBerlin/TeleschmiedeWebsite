@@ -109,10 +109,10 @@ Der Aufbau einer semantisch optimierten Domain erfordert eine disziplinierte Inh
 ### 1. Hub-and-Spoke-Struktur (Pillar Pages und Cluster)
 Das Zentrum bildet eine umfassende Pillar Page, die das Gesamtthema überblicksartig erschließt. Von dieser Hauptseite zweigen detaillierte Cluster-Seiten ab, die sich intensiv spezifischen Teilfragen widmen. Durch diese Hierarchie verstehen Crawler die inhaltliche Tiefe der Domain.
 
-### 2. Strategische [Interne Verlinkung](/glossar/interne-verlinkung/)
+### 2. Strategische Interne Verlinkung
 Verlinkungen innerhalb des Clusters fungieren als semantische Nervenstränge. Sie weisen Suchmaschinen gezielt den Weg durch den Bedeutungsraum. Wichtig dabei ist die Verwendung präziser, themenrelevanter Ankertexte sowie die Einhaltung standardisierter Trailing Slashes auf Verzeichnisebene.
 
-### 3. Semantisches Markup via [Schema.org](/glossar/schema-org-markup/)
+### 3. Semantisches Markup via Schema.org
 Strukturierte Daten im JSON-LD-Format fungieren als maschinenlesbares Vokabular. Über Eigenschaften wie `about`, `mentions` oder `hasPart` lässt sich exakt deklarieren, welche Entitäten im Artikel behandelt werden und in welcher Beziehung sie zueinander stehen.
 
 ## Technische Implementierung: Semantische Relationen per JSON-LD

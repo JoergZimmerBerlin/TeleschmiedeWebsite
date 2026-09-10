@@ -62,7 +62,7 @@ Im klassischen SEO ging es primär darum, Algorithmen durch Keyword-Dichte, Snip
 In der generativen [AI Search](/glossar/ai-search/) agiert das System völlig anders:
 1. **Verstehen statt Matchen:** Das Sprachmodell liest Webseiten nicht zeichenweise, sondern überführt Texte in hochdimensionale Vektorräume, um Konzepte und Bedeutungen abzugleichen.
 2. **Synthese statt Linksammlung:** Das LLM formuliert eine eigene, kohärente Antwort und reichert diese mit Fußnoten und Verweisen (*Citations*) an.
-3. **Kontextuelle Empfehlung:** Fragt ein Nutzer nach Software-Lösungen oder Dienstleistern, spricht die KI konkrete Handlungsempfehlungen aus. Wer hier nicht genannt wird, existiert in der Kaufentscheidung des Nutzers schlichtweg nicht.
+3. **Kontextuelle Empfehlung:** Fragt ein Nutzer nach Software-Lösungen oder Dienstleistern, spricht die KI konkrete Handlungsempfehlungen aus. Wer hier nicht genannt wird, existiert in der Kaufentscheidung des Nutzers schlichtweg nicht. Warum dieses Prinzip die Spielregeln grundlegend verschiebt, erfährst du in [GEO & AI Search: Sichtbarkeit völlig neu gedacht](/blog/geo-und-ai-search-neues-spiel/).
 
 ## Systemvergleich: Klassisches SEO vs. AI Search Optimization (GEO)
 
@@ -89,9 +89,9 @@ KI-Crawler wie GPTBot, PerplexityBot oder ClaudeBot haben begrenzte Rechenbudget
 Generative Modelle hassen Füllwörter und ausschweifende Einleitungen:
 * **Bottom Line Up Front (BLUF):** Platzieren Sie die präzise Kernantwort auf die Leitfrage innerhalb der ersten 50 bis 100 Wörter des Textes.
 * **Hoher Information Gain:** KIs belohnen Inhalte, die neue Fakten liefern, die in den bisherigen Trainingsdaten noch nicht existieren. Eigene Messungen, Kundenumfragen und unveröffentlichte Case Studies sind der stärkste Hebel für Zitationen.
-* **Zitierfähige Textbausteine:** Im Rahmen von [RAG](/glossar/rag/) (Retrieval-Augmented Generation) zerlegt die Suchmaschine Webseiten in Textabschnitte (*Chunks*). Formulieren Sie Zwischenüberschriften und Absätze so, dass jeder Chunk für sich alleinstehend einen vollständigen Sinn ergibt.
+* **Zitierfähige Textbausteine:** Im Rahmen von [RAG](/glossar/rag/) (Retrieval-Augmented Generation) zerlegt die Suchmaschine Webseiten in Textabschnitte (*Chunks*). Wie man solche autarken Einheiten verfasst, zeigt der Konferenzbeitrag [AI Search Content Formate: Best Practices](/blog/malte-landwehr-ai-search-content-formate/). Formulieren Sie Zwischenüberschriften und Absätze so, dass jeder Chunk für sich alleinstehend einen vollständigen Sinn ergibt.
 
-### 3. Entitäten-Autorität und digitales Vertrauen ([E-E-A-T](/glossar/e-e-a-t/))
+### 3. Entitäten-Autorität und digitales Vertrauen (E-E-A-T)
 Sprachmodelle besitzen interne Vertrauensmetriken. Sie ziehen Quellen vor, deren Autoren und Herausgeber im Knowledge Graph als Experten etabliert sind. Verknüpfen Sie Autorenprofile mit anerkannten Branchenprofilen und fördern Sie Erwähnungen in unabhängigen Fachmedien und Diskussionsforen.
 
 <div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">

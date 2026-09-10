@@ -121,7 +121,7 @@ Erfolgreiche KI-Indexierung scheitert häufig an syntaktischen Details in Server
 ### 3. Chunking-Optimierung für RAG-Systeme
 Sprachmodelle zerlegen lange Texte in diskrete Vektor-Abschnitte (Chunks). Teilnehmer lernen, wie Überschriftenstrukturen, Tabellen und Definitionsblöcke so formatiert werden, dass die semantische Aussagekraft beim automatisierten Zerlegen vollständig erhalten bleibt.
 
-### 4. Konsistente URL-Routen und [Trailing Slashes](/glossar/trailing-slashes/)
+### 4. Konsistente URL-Routen und Trailing Slashes
 Ein scheinbar triviales, aber technisch fundamentales Detail: Verzeichnis-URLs müssen immer einheitlich mit einem Schrägstrich `/` enden, um unnötige Redirect-Ketten zu vermeiden und Crawl-Budgets zu schonen.
 
 ## Die 3 häufigsten Fehler bei SEO-Coaching & Inhouse-Befähigung

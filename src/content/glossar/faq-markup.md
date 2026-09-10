@@ -133,7 +133,7 @@ Um von generativen Systemen verlustfrei ausgelesen zu werden, sollte das Markup 
 </script>
 ```
 
-## Best Practices für Generative Engine Optimization ([GEO](/glossar/geo-optimierung/))
+## Best Practices für Generative Engine Optimization (GEO)
 
 Damit FAQ-Markup in modernen KI-Architekturen maximale Zitationskraft entfaltet, müssen Entwickler und Content-Strategen drei technische Kernaspekte beherzigen:
 

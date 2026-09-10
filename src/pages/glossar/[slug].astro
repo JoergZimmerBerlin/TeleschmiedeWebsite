@@ -20,39 +20,33 @@ export async function getStaticPaths() {
   return entryPaths;
 }
 
-const { entry, type } = Astro.props;
+const { entry } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
-const allEntries = await getCollection('glossar');
 
-let Content, headings, lastReviewed, readingTime, entryImageWebp, heroImage, hasPartnerLinks = false;
+const lastReviewed = getGitModDate(`src/content/glossar/${entry.id}`);
+const { Content, headings } = await render(entry);
 
-if (type === 'term') {
-  lastReviewed = getGitModDate(`src/content/glossar/${entry.id}`);
-  const rendered = await render(entry);
-  Content = rendered.Content;
-  headings = rendered.headings;
+const heroImage = entry.data.image || (entry.data as any).thumbnail;
+let entryImageWebp;
+if (heroImage) {
+  entryImageWebp = await getImage({ src: heroImage, format: 'webp' });
+}
 
-  heroImage = entry.data.image || (entry.data as any).thumbnail;
-  if (heroImage) {
-    entryImageWebp = await getImage({ src: heroImage, format: 'webp' });
-  }
+const wordCount = (entry.body || '').split(/\s+/).length;
+const readingTime = Math.ceil(wordCount / 180);
 
-  const wordCount = (entry.body || '').split(/\s+/).length;
-  readingTime = Math.ceil(wordCount / 180);
+// Partnerlink Detection
+const hasPartnerLinks = /ga=4169588|via=offer|via=|rankmath\.com|cello\.so|sponsored/i.test(entry.body || '');
 
-  // Partnerlink Detection
-  hasPartnerLinks = /ga=4169588|via=offer|via=|rankmath\.com|cello\.so|sponsored/i.test(entry.body || '');
-
-  var extractedQuote = entry.data.tacheles;
-  if (!extractedQuote && entry.body) {
-    const blockquoteMatch = entry.body.match(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/i);
-    if (blockquoteMatch) {
-      extractedQuote = blockquoteMatch[1].replace(/<[^>]*>?/gm, '').replace(/^[„"']|[“"']$/g, '').trim();
-    } else {
-      const jzMatch = entry.body.match(/<p class="[^"]*italic[^"]*"[^>]*>([\s\S]*?)<\/p>/i);
-      if (jzMatch) {
-        extractedQuote = jzMatch[1].replace(/<[^>]*>?/gm, '').replace(/^[„"']|[“"']$/g, '').trim();
-      }
+let extractedQuote = entry.data.tacheles;
+if (!extractedQuote && entry.body) {
+  const blockquoteMatch = entry.body.match(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/i);
+  if (blockquoteMatch) {
+    extractedQuote = blockquoteMatch[1].replace(/<[^>]*>?/gm, '').replace(/^[„"']|[“"']$/g, '').trim();
+  } else {
+    const jzMatch = entry.body.match(/<p class="[^"]*italic[^"]*"[^>]*>([\s\S]*?)<\/p>/i);
+    if (jzMatch) {
+      extractedQuote = jzMatch[1].replace(/<[^>]*>?/gm, '').replace(/^[„"']|[“"']$/g, '').trim();
     }
   }
 }

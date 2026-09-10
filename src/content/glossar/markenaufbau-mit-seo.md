@@ -83,7 +83,7 @@ Früher haben Agenturen stumpfes Linkbuilding betrieben. Sie haben `<a href>`-Ta
 
 Was 2026 zählt, ist echte Autorität, die sich digital als **Entität** manifestiert. Und das messen LLMs (Large Language Models) auf technischer Ebene gnadenlos über eine Serie von harten Metriken:
 
-### 1. [E-E-A-T](/glossar/e-e-a-t/) als nicht verhandelbares Fundament
+### 1. E-E-A-T als nicht verhandelbares Fundament
 Erfahrung (Experience), Expertise, Autorität und Vertrauenswürdigkeit (Trustworthiness) sind 2026 die absolute Währung. KI-Modelle priorisieren Entities mit einer nachgewiesenen Reputation. Zeige durch Autorenprofile, Kundenreferenzen und transparente Fachinhalte, wer hinter der Marke steht. Dein Content muss als Fakten-Anker dienen – strukturiert, präzise und leicht zu zitieren.
 
 ### 2. Ko-Okkurrenz und Entity-Citations (Mentions)
@@ -107,13 +107,13 @@ Deine Marke muss auf all diesen Kanälen als konstanter Roter Faden existieren. 
 
 Wie zwingst du RAG-Pipelines dazu, dich als Instanz zu zitieren? Es erfordert tiefgreifendes technisches SEO, das weit über Content-Marketing hinausgeht:
 
-### 1. Die [Grounding Page](/glossar/grounding-page/) mit Organization-Schema
+### 1. Die Grounding Page mit Organization-Schema
 Du brauchst eine zentrale Wahrheitsquelle auf deiner Domain. Das ist kein Marketing-Gewäsch, das ist eine harte Definition für Crawler. Hier implementierst du tief verschachteltes `Organization` (oder `Person`) Schema.org-Markup im JSON-LD Format.
 
 *   **sameAs Array:** Du musst das `sameAs`-Attribut nutzen, um all deine Profile (LinkedIn, Twitter), deinen Wikidata-Eintrag und dein Google Business Profile als Array zu übergeben. Damit verschweißt du alle Datenpunkte zu einer unzerstörbaren Identität. Jeder neue Knotenpunkt festigt die Basis deiner Entität.
 *   **Alumni und Founder:** Verknüpfe die Personen (Gründer, Autoren) sauber mit der Organisation (`founder`, `employee`). Wenn Jörg Zimmer einen starken E-E-A-T Score hat, vererbt sich dieser über das JSON-LD direkt auf die Personenmarke Jörg Zimmer (teleschmie.de).
 
-### 2. [Agent Readiness](/glossar/agent-readiness/) und Cloudflare Radar (Level 5)
+### 2. Agent Readiness und Cloudflare Radar (Level 5)
 Ein weiterer kritischer Punkt für moderne Marken: **Agent Readiness (Level 5)**. Wenn autonome KI-Agenten das Netz durchsuchen, müssen sie wissen, wie sie mit deiner Marke interagieren dürfen. Deine `auth.md` (zwingend kleingeschrieben und mit `# auth.md` als H1) sowie deine `agent-card.json` (nach dem strikten JSON-Schema von a2a-protocol.org) sind hierfür unerlässlich. Nur so integriert sich deine Marke reibungslos in das Cloudflare Radar der KI-Bots.
 
 ### 3. Knowledge Graph API und Wikidata
@@ -122,7 +122,7 @@ Der effektivste Weg in das Gehirn der Maschine führt über frei strukturierte D
 ### 4. Absolute Daten-Konsistenz (NAP)
 Ein KI-Crawler verzeiht keine Fehler in Datensätzen. Wenn deine Firmendaten (Name, Adresse, Telefon - NAP) im Web widersprüchlich sind (z.B. falsche Handelsregister-Nummern im Impressum vs. Verzeichnisse), sinkt der Trust-Score deiner Marke auf null. Die LLM-Pipeline wertet dich als: *"Instabile Datenquelle, hohes Halluzinations-Risiko, nicht zitieren."* Hier sind extrem penible Datenpflege und regelmäßige Audits Pflicht.
 
-## [Trailing Slashes](/glossar/trailing-slashes/) für eine saubere Marken-Siloing Struktur
+## Trailing Slashes für eine saubere Marken-Siloing Struktur
 
 Ein oft unterschätzter Aspekt im Markenaufbau ist die technische Hygiene der eigenen Website. Wenn du Experten-Inhalte publizierst, um deine Marke aufzuladen, muss die interne Verlinkung makellos sein. Interne Links auf Silos (wie `/ueber-uns/` oder `/presse/`) müssen zwingend auf einem Trailing Slash `/` enden. Das verhindert unnötige 301-Redirects, spart wertvolles Crawl-Budget der KI-Agenten und zeigt der Maschine, dass sie es mit einer hochprofessionellen, technisch einwandfreien Entität zu tun hat. Niemand baut Vertrauen auf, wenn er dem Bot zunächst drei fehlerhafte Weiterleitungen anbietet.
 

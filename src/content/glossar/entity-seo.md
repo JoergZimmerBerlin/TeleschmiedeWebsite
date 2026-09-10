@@ -191,7 +191,7 @@ Bevor Sie neuen Content publizieren, sollten Sie Ihre bestehende Entitätsstärk
 2. **Fehlende Disambiguierung (Namenskonflikte):** Wer auf `sameAs`-Verknüpfungen zu Wikidata oder Unternehmensregistern verzichtet, riskiert, dass KI-Modelle das eigene Unternehmen mit Namensvettern verwechseln oder Halluzinationen erzeugen.
 3. **Inkonsistente Fakten im Web:** Wenn Unternehmensdaten (wie Gründungsjahr, Kernleistungen oder Standort) auf externen Portalen vom Webseitentext abweichen, sinkt der algorithmische Vertrauens-Score der Entität rapide.
 
-## Strategische Bedeutung für [GEO](/glossar/geo-optimierung/)
+## Strategische Bedeutung für GEO
 
 Entity SEO bildet das unverzichtbare Fundament der Generative Engine Optimization. Sprachmodelle können Inhalte nur dann verlässlich synthetisieren und empfehlen, wenn der Absender als vertrauenswürdige Fachautorität im semantischen Vektorraum verankert ist.
 

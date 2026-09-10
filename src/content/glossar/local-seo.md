@@ -98,9 +98,9 @@ Das Unternehmensprofil bei Google ist längst keine statische Visitenkarte mehr,
 Sprachmodelle analysieren Rezensionstexte mittels Natural Language Processing auf spezifische Entitäten und Sentiment. Werden in Bewertungen konkrete Dienstleistungen und Fachkompetenzen lobend erwähnt, verknüpft die KI diese Fähigkeiten direkt mit dem Unternehmensprofil. Ein kontinuierlicher Fluss neuer Bewertungen (Review Velocity) belegt anhaltende Kundenzufriedenheit.
 
 ### 3. Absolute NAP-Konsistenz im gesamten Webnetzwerk
-NAP steht für Name, Address, Phone Number. Menschliche Nutzer tolerieren kleine Abweichungen zwischen Straßennamen-Abkürzungen, für maschinelle Parser stellen sie jedoch Datenkonflikte dar. Widersprüchliche Angaben zwischen Website, Apple Business Connect, Yelp und Branchenregistern verunsichern Algorithmen und führen zum Ausschluss aus KI-Empfehlungen.
+NAP steht für Name, Address, Phone Number. Menschliche Nutzer tolerieren kleine Abweichungen zwischen Straßennamen-Abkürzungen, für maschinelle Parser stellen sie jedoch Datenkonflikte dar. Widersprüchliche Angaben zwischen Website, Apple Business Connect, Yelp und Branchenregistern verunsichern Algorithmen und führen zum Ausschluss aus KI-Empfehlungen. Wie man das Google-Ökosystem dafür optimal vernetzt, zeigt auch unser Praxis-Leitfaden zu den [YouTube-Kanal-Links für Entity- und Local-Building](/blog/youtube-channel-links/).
 
-### 4. Technische Onpage-Präzision und [Interne Verlinkung](/glossar/interne-verlinkung/)
+### 4. Technische Onpage-Präzision und Interne Verlinkung
 Standortseiten auf der eigenen Domain müssen technisch einwandfrei strukturiert sein. Dazu gehören eindeutige URLs mit sauberen [Trailing Slashes](/glossar/trailing-slashes/) (`/standorte/berlin/`), kurze Klickpfade und transparente Kontaktangaben, die [E-E-A-T](/glossar/e-e-a-t/)-Signale direkt belegen.
 
 ## Multi-Location-Strategien für Filialisten und Franchises

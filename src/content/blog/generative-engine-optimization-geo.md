@@ -100,7 +100,7 @@ Ein GEO-optimierter Artikel folgt dem **BLUF-Prinzip: Bottom Line Up Front**. Di
 | **Metrik** | Ranking (Position 1-10) | Sentiment & Brand Share |
 | **Format** | SEO-Texte (Textwüsten) | Strukturierte Daten & Fakten-Blöcke |
 
-GEO-Content muss **zitierfähig** sein. Das bedeutet: Klare Fakten, keine Füllwörter, harte Daten. Wer nur herumschwurbelt, wird von der KI zusammengefasst und als "eine weitere Meinung" abgetan. Wer aber präzise Daten liefert, wird als **Quelle** genannt. Denkt an den Experten, der im Interview direkt auf den Punkt kommt – das ist der Standard, den die KI erwartet.
+GEO-Content muss **zitierfähig** sein. Das bedeutet: Klare Fakten, keine Füllwörter, harte Daten. Wer nur herumschwurbelt, wird von der KI zusammengefasst und als "eine weitere Meinung" abgetan. Ausführliche Hintergründe und den tiefen Systemvergleich liest du im Grundlagen-Beitrag [Warum reines SEO für gutes GEO nicht ausreichen wird](/blog/reines-seo-vs-geo/). Wer aber präzise Daten liefert, wird als **Quelle** genannt. Denkt an den Experten, der im Interview direkt auf den Punkt kommt – das ist der Standard, den die KI erwartet.
 
 ---
 

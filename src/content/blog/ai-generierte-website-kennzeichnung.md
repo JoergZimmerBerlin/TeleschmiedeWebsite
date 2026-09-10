@@ -58,7 +58,7 @@ Das Foto im Header ist vollkommen echt: Der Typ auf dem Stuhl bin ich, und auf d
 
 ## Das technische Setup hinter dem Projekt
 
-Für alle Entwickler und Technik-Enthusiasten: Die Plattform basiert auf einem extrem schlanken Astro-Framework mit minimalem JavaScript, versioniert über GitHub. Was früher Wochen an manueller Fleißarbeit gekostet hätte, erledigen heute spezialisierte Agenten-Pipelines:
+Für alle Entwickler und Technik-Enthusiasten: Die Plattform basiert auf einem extrem schlanken Astro-Framework mit minimalem JavaScript, versioniert über GitHub und optimiert durch [Markdown Content Negotiation](/glossar/markdown-content-negotiation/). Was früher Wochen an manueller Fleißarbeit gekostet hätte, erledigen heute spezialisierte Agenten-Pipelines:
 - Echte Fotos aus dem Arbeitsalltag bleiben als authentische Assets erhalten.
 - Technische Infografiken werden passgenau zur Textstruktur generiert.
 - Glossardefinitionen und strukturierte Daten werden automatisiert validiert.

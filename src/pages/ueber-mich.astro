@@ -1,5 +1,5 @@
 ---
-import { Image, getImage } from 'astro:assets';
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
 import { getGitModDate } from '../utils/git-date';
@@ -13,7 +13,6 @@ import katzePortraitImage from '../assets/images/profile/joerg-zimmer-katze.webp
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const lastReviewed = getGitModDate('src/pages/ueber-mich.astro');
-const portraitImageWebp = await getImage({ src: portraitImage, format: 'webp' });
 
 const offers = [
   {

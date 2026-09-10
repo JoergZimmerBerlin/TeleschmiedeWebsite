@@ -86,7 +86,7 @@ Wie eng der Zusammenhalt und das gegenseitige Vertrauen im Netzwerk sind, zeigen
 **Melanie Aurich** und **Peter Bomballa** brachten den Team-Faktor auf den Punkt:
 > *„Ohne das Team würde jedes Branchenschnittstellen-Event nur halb so viel Energie freisetzen. Die Power und gegenseitige Wertschätzung sind das Fundament unseres Erfolgs.“*
 
-Wer schon einmal erlebt hat, wie wir auf der Messe aufgetreten sind – wie in unserem Erfahrungsbericht zum [OMR Freelancer Stand ROI](/blog/omr-freelancer-stand-roi/) und den Impressionen von der [Freelance Unlocked](/blog/freelance-unlocked-lila-tshirts/) beschrieben –, versteht die Dynamik dieser Gemeinschaft. Auch bei regionalen Treffen wie dem [SEO-Stammtisch Berlin](/blog/seo-stammtisch-berlin-axel-springer/) zeigt sich: Echte [Community](/blog/wir-seos-sind-schuld-community/) schlägt isoliertes Einzelkämpfertum.
+Wer schon einmal erlebt hat, wie wir auf der Messe aufgetreten sind – wie in unserem Erfahrungsbericht zum [OMR Freelancer Stand ROI](/blog/omr-freelancer-stand-roi/), der Großoffensive [Mission OMR 2026: 25 Freelancer vs. Großagentur](/blog/omr-2026-mission-freelancer-team/) und den Impressionen von der [Freelance Unlocked](/blog/freelance-unlocked-lila-tshirts/) beschrieben –, versteht die Dynamik dieser Gemeinschaft. Auch bei regionalen Treffen wie dem [SEO-Stammtisch Berlin](/blog/seo-stammtisch-berlin-axel-springer/) zeigt sich: Echte [Community](/blog/wir-seos-sind-schuld-community/) schlägt isoliertes Einzelkämpfertum.
 
 ## Wie wird man Teil des lila Teams?
 

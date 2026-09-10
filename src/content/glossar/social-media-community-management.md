@@ -59,7 +59,7 @@ In einer Ära, in der Sprachmodelle und moderne Suchmaschinen das Web nach verif
     <h3 class="text-lg font-bold text-neutral-900 mb-0 !mt-0 !pb-0 !border-none">Jörgs Praxistipp aus der SEO-Sprechstunde</h3>
   </div>
   <p class="text-neutral-800 text-sm leading-relaxed mb-4">
-    Wer Social Media nur als Megafon nutzt und Kommentare unbeantwortet lässt, verschenkt massiv Potenzial für Suchmaschinen und KI-Modelle. Reale, fachliche Diskussionen erzeugen semantische Marken-Erwähnungen (Brand Mentions), die Sprachmodelle wie Perplexity oder ChatGPT als Beweis für echte Branchenexpertise werten. Schaffe feste Verantwortlichkeiten für den täglichen Dialog!
+    Wer Social Media nur als Megafon nutzt und Kommentare unbeantwortet lässt, verschenkt massiv Potenzial für Suchmaschinen und KI-Modelle. Reale, fachliche Diskussionen erzeugen semantische Marken-Erwähnungen (Brand Mentions), die Sprachmodelle wie Perplexity oder ChatGPT als Beweis für echte Branchenexpertise werten. Wie das in der Praxis funktioniert, zeigt unser Praxis-Guide [LinkedIn Company Pages: So weckst du sie auf](/blog/linkedin-company-pages-engagement/). Schaffe feste Verantwortlichkeiten für den täglichen Dialog!
   </p>
   <div class="bg-white/80 p-4 rounded-xl border border-lime-accent/20 text-xs text-neutral-700">
     <p class="font-bold text-neutral-900 mb-1">🔍 Dein 30-Sekunden-Check auf LinkedIn / Social Media (ohne IT-Wissen):</p>

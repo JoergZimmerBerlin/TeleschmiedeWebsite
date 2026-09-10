@@ -41,6 +41,7 @@ export default defineConfig({
     '/html/antworten.html': '/leistungen/',
     '/berlin/adwords-optimierung-sea.html': '/google-ads-freelancer-berlin/',
     '/berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html': '/seo-freelancer-berlin/',
+    '/berlin/kostenlose-webseiten-analyse.html': '/tools/',
     '/seo-beratung/': '/glossar/seo-beratung/',
     '/website-seo-audit/': '/glossar/se-ranking-website-audit/',
     '/glossar/website-seo-audit/': '/glossar/se-ranking-website-audit/',

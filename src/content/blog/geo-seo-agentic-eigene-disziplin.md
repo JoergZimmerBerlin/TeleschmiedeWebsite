@@ -90,7 +90,7 @@ Aber was genau gehört zu diesem technischen "GEO-Unterbau"? Thomas Klaschka lie
   </div>
 </div>
 
-Das ist exakt der Punkt. Wer diese Protokolle nicht auf dem Radar hat, verliert die Sichtbarkeit bei den neuen LLMs (wie ich es in meinem Artikel zum [Cloudflare Agent Readiness Scan](/blog/cloudflare-agent-readiness-scan/) gezeigt habe). Um die eigene [KI-Sichtbarkeit messen](/glossar/ki-sichtbarkeit-messen-optimieren/) und steuern zu können, braucht es einen klaren [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/). 
+Das ist exakt der Punkt. Wer diese Protokolle nicht auf dem Radar hat, verliert die Sichtbarkeit bei den neuen LLMs (wie ich es in meinem Artikel zum [Cloudflare Agent Readiness Scan](/blog/cloudflare-agent-readiness-scan/) gezeigt habe). Wie wichtig dabei schon scheinbar triviale Metadaten-Signale sind, zeigt unser Praxistest zu [GEO vs. SEO: Jahreszahl 2026 im Title Tag für AI Search](/blog/geo-seo-jahreszahl/), wo wir die Funktionsweise von Query Fan-Outs analysiert haben. Um die eigene [KI-Sichtbarkeit messen](/glossar/ki-sichtbarkeit-messen-optimieren/) und steuern zu können, braucht es einen klaren [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/). 
 
 Martin Pickert fasste den Scope von GEO am Ende grandios zusammen:
 

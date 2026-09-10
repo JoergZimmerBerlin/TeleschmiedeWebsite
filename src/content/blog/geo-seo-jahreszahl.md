@@ -60,7 +60,7 @@ Diese Suchen sind maschinell gesteuert und extrem pragmatisch. Da das Trainingsw
 
 ### Warum das "Oldschool SEO" ist
 
-Das Anpassen von Jahreszahlen wurde früher als *Republishing* belächelt. Eine reine Taktik, um die Klickrate (CTR) in den Google SERPs zu pushen. 
+Das Anpassen von Jahreszahlen wurde früher als *Republishing* belächelt. Eine reine Taktik, um die [Klickrate (CTR)](/glossar/ctr/) in den Google SERPs zu pushen. 
 
 - **Die SEO-Sicht:** Menschen klicken öfter auf aktuelle Ergebnisse.
 - **Die GEO-Sicht:** KI-Agenten crawlen bevorzugt verifizierte, zeitaktuelle Datensätze, um Halluzinationen zu vermeiden.

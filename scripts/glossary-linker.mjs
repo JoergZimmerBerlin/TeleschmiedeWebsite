@@ -427,12 +427,16 @@ function collectTextNodes(node) {
   const nodes = [];
   for (const child of node.childNodes) {
     if (child.nodeType === 1) { // Element Node
-      if (child.matches && child.matches(PROTECTED_SELECTOR)) {
+      if (child.matches && (child.matches(PROTECTED_SELECTOR) || (child.closest && child.closest(PROTECTED_SELECTOR)))) {
         continue; // Komplette Schutzzone sofort überspringen!
       }
       nodes.push(...collectTextNodes(child));
     } else if (child.nodeType === 3) { // Text Node
       if (child.nodeValue && child.nodeValue.trim().length > 0) {
+        // Sicherstellen, dass der Knoten niemals innerhalb einer Schutzzone (z.B. Überschrift oder Link) liegt
+        if (child.parentElement && child.parentElement.closest && child.parentElement.closest(PROTECTED_SELECTOR)) {
+          continue;
+        }
         nodes.push(child);
       }
     }
@@ -479,6 +483,18 @@ function linkHtml(filePath, termMap, unifiedRegex, recommendationMap, validRoute
   const contentHtml = html.substring(startTagEnd + 1, endDivIdx);
   const frag = JSDOM.fragment(contentHtml);
   const doc = frag.ownerDocument;
+
+  // Schutzzone Überschriften: Links in sämtlichen Überschriften und Unterüberschriften (H1-H6) strikt entfernen
+  const headingLinks = frag.querySelectorAll('h1 a, h2 a, h3 a, h4 a, h5 a, h6 a');
+  for (const a of headingLinks) {
+    const parent = a.parentNode;
+    if (parent) {
+      while (a.firstChild) {
+        parent.insertBefore(a.firstChild, a);
+      }
+      parent.removeChild(a);
+    }
+  }
 
   // Eventuell vorhandene alte "Weitere spannende Themen"-Box entfernen (Idempotenz)
   const existingBoxes = frag.querySelectorAll('div.not-prose');

@@ -102,7 +102,7 @@ Der Markt dreht sich gerade rasend schnell. Der Übergang von klassischer Google
 
 Hier geht es nicht mehr darum, einen Redakteur zu bitten, drei Keywords mehr in einen Text zu schreiben. Es geht um **Change Management**. Ich muss den Geschäftsführern erklären, dass "Traffic" als primäre KPI ausgedient hat. Ich muss Marketing-Teams schulen, wie sie Content "Citation-Ready" (zitierfähig für KIs) machen. Ich muss ganze Abteilungen dazu bringen, in "Entitäten" und "Ökosystemen" zu denken, statt in blauen Links.
 
-Das bedeutet: Widerstände abbauen, neue Prozesse etablieren, Teams mitnehmen und Führungskräfte für den Wandel begeistern. Change Management ist die Königsklasse der Unternehmensberatung. Wenn wir als digitale Experten Unternehmen nicht durch diese KI-Transformation führen, wer tut es dann?
+Das bedeutet: Widerstände abbauen, neue Prozesse etablieren, Teams mitnehmen und Führungskräfte für den Wandel begeistern. Change Management ist die Königsklasse der Unternehmensberatung. Wenn wir als digitale Experten Unternehmen nicht durch diese KI-Transformation führen, wer tut es dann? Wie dieser Schulterschluss zwischen SEO, Produkt und Unternehmenskommunikation in der Praxis gelingt, zeigte auch [Stefan Godulla auf der Campixx](/blog/stefan-godulla-campixx/).
 
 ---
 

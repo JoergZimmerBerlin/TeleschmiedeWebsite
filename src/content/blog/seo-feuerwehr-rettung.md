@@ -37,7 +37,7 @@ Wenn ein solcher Alarm aufschlägt, gilt oberste Disziplin: **Null Prozent Panik
 
 Ein algorithmischer Google-Penaltyschock trifft eine Domain fast nie derart senkrecht innerhalb von 24 Stunden, es sei denn, es liegt ein massiver technischer Verstoß vor. Wir gingen die Checkliste im Ausschlussverfahren durch:
 
-- **Relaunch durchgeführt?** Nein, kein Versionssprung.
+- **Relaunch durchgeführt?** Nein, kein Versionssprung (denn welche Desaster unbegleitete Relaunches auslösen, zeigt [Willkommen im SEO-Jahr 2026](/blog/willkommen-seo-jahr-2026/)).
 - **Server oder Hosting ausgefallen?** Nein, Serverantwortzeiten waren normal.
 - **Domain- oder URL-Wechsel?** Nein, alle Permalinks unverändert.
 - **Google Core Update ausgerollt?** Nein, kein offizieller Algorithmus-Shift.

@@ -180,7 +180,7 @@ Die drei Kernaufgaben für Roland (und für dich, wenn du ähnliche Probleme has
 ---
 
 ### Die komplette Session im Video & Rolands Zusammenfassung
-*Hier kannst du dir den kompletten Mitschnitt der Live-Analyse ansehen. Wenn du noch mehr Insights aus Rolands Perspektive lesen möchtest, schau dir unbedingt seine ausführliche [Zusammenfassung der SEO-Sprechstunde auf dem Never Code Alone Blog](https://blog.nevercodealone.de/seo-sprechstunde-live-was-suchmaschinenoptimierer-joerg-zimmer-ueber-rankings-geo-und-technische-fehler-verraet/) an.*
+*Hier kannst du dir den kompletten Mitschnitt der Live-Analyse ansehen. Möchtest du deine eigene Domain ähnlich tiefgreifend durchleuchten lassen? Sichere dir deinen Termin in der SEO-Sprechstunde. Wenn du noch mehr Insights aus Rolands Perspektive lesen möchtest, schau dir unbedingt seine ausführliche [Zusammenfassung der SEO-Sprechstunde auf dem Never Code Alone Blog](https://blog.nevercodealone.de/seo-sprechstunde-live-was-suchmaschinenoptimierer-joerg-zimmer-ueber-rankings-geo-und-technische-fehler-verraet/) an.*
 
 <div class="video-container my-8">
   <div 

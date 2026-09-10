@@ -158,13 +158,13 @@ class QueryFanOutEngine:
         return retrieval_results
 ```
 
-## Konsequenzen für die [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
+## Konsequenzen für die Generative Engine Optimization (GEO)
 
 Die Existenz des Query Fan-Outs zwingt SEO-Strategen zu einem radikalen Umdenken im Content-Design:
 
 * **Topical Authority schlägt Einzelseiten:** Wenn ein KI-Agent feststellt, dass eine Domain Antworten auf drei oder vier Sub-Queries liefert, wird diese Quelle im Reranking massiv bevorzugt. Die [Keywordrecherche](/glossar/keywordrecherche/) muss daher vollständige Wissenscluster statt isolierter Begriffe modellieren.
 * **Die „One Idea per Paragraph“-Regel:** Antworten müssen so formuliert sein, dass sie isoliert extrahierbar sind. Kurze Absätze (40 bis 70 Wörter), präzise Definitionsblöcke und [strukturierte Daten](/glossar/strukturierte-daten/) senken den Parsing-Aufwand neuronaler Netze. Details dazu im Leitfaden für [zitierfähigen Content](/glossar/zitierfaehiger-content/).
-* **Fakten-Grounding und Zitierbarkeit:** Modelle suchen gezielt nach belegbaren Zahlen, Studien und eindeutigen Aussagen, um ihre Thesen im Syntheseschritt zu stützen. Vage Marketing-Floskeln werden im Reranking aussortiert. Auch [Zero-Click Content](/glossar/zero-click-content/) profitiert direkt von hoher Faktendichte.
+* **Fakten-Grounding und Zitierbarkeit:** Modelle suchen gezielt nach belegbaren Zahlen, Studien und eindeutigen Aussagen, um ihre Thesen im Syntheseschritt zu stützen. Vage Marketing-Floskeln werden im Reranking aussortiert. Auch [Zero-Click Content](/glossar/zero-click-content/) profitiert direkt von hoher Faktendichte. Wie sich das Ausnutzen von Aktualitätssignalen in Title Tags ganz konkret auf die Triggerung dieser Mechanismen auswirkt, zeigt unser Experiment [GEO vs. SEO: Jahreszahl 2026 im Title Tag für AI Search](/blog/geo-seo-jahreszahl/).
 
 ## Die 3 häufigsten Fehler beim Query Fan-Out
 

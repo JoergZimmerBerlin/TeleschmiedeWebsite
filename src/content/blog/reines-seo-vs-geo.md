@@ -61,7 +61,7 @@ Suchmaschinenoptimierung bleibt ein unverzichtbares Fundament. Doch [Generative 
 Warum greift klassisches SEO zu kurz? Hier sind die handfesten Fakten:
 
 1. **GEO funktioniert ohne eigene Website:** Markenpräsenz in Sprachmodellen entsteht durch Erwähnungen im gesamten digitalen Ökosystem – Branchenregister, Presseportale, Foren und Kundenbewertungen genügen oft schon für Nennungen.
-2. **Der Query Fan Out verwässert Monopole:** Während Google zehn URLs auflistet, feuert ein KI-Modell intern 20 bis 50 Suchabfragen ab und destilliert ein gemeinsames Ergebnis.
+2. **Der [Query Fan-Out](/glossar/query-fan-out/) verwässert Monopole:** Während Google zehn URLs auflistet, feuert ein KI-Modell intern 20 bis 50 Suchabfragen ab und destilliert ein gemeinsames Ergebnis.
 3. **Menschlicher Index vs. Maschinen-Index:** Der Webindex belohnt ansprechende Oberflächen. Der KI-Index belohnt tokenarme, fehlerfreie Faktenextraktion.
 4. **Das Interface wandert ab:** Die gesamte User Journey findet im Chatfenster statt. Wer keinen Grund zur Quellennennung liefert, bleibt unsichtbar.
 5. **Widersprüchliche Spuren führen zu Halluzinationen:** Weichen Unternehmensdaten auf verschiedenen Plattformen voneinander ab, stufen Modelle die Quelle als unsicher ein.
@@ -78,7 +78,7 @@ Meine LinkedIn-These löste eine der tiefgründigsten Fachdiskussionen des Jahre
 **Thomas Hullin** betonte die Notwendigkeit echter Belastbarkeit:
 > *„GEO ist größer als klassisches SEO und verlangt neue Schnittstellen. Doch Schema-Properties wie `sameAs` sind kein Blankocheck. Entscheidend bleibt die Konsistenz der Entität und die tatsächliche Zitierfähigkeit der Primärdaten.“*
 
-Wie wir diese Anforderungen systematisch in der Praxis umsetzen, beschreibe ich in meinem detaillierten [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/).
+Wie wir diese Anforderungen systematisch in der Praxis umsetzen, beschreibe ich in meinem detaillierten [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/) sowie in meinem persönlichen Erfahrungsbericht zur [GEO Transformation: Die neue SEO-Disziplin der AI Search](/blog/ich-befinde-mich-in-der-geo-transformation/).
 
 **Lisa Augustin** hinterfragte den Hype um neue Dateiformate:
 > *„Ist Readiness schon GEO? Entscheidend ist, dass wir neben sauberem Code klare Signale für Vertrauenswürdigkeit setzen.“*

@@ -89,7 +89,7 @@ Im Call gibt es keine Powerpoint-Vorträge. Wir teilen den Bildschirm und arbeit
 - *„Sollen wir diese Unterseite komplett umschreiben?“* – *„Nein, der Text ist in Ordnung. Optimiere die H1, setze drei gezielte interne Links und du gewinnst sofort zwei Positionen.“*
 - *„Warum stürzen unsere Klicks seit dem letzten Update ab?“* – Wir schauen direkt in die Search Console und identifizieren den exakten Tag, das betroffene Verzeichnis und die Ursache.
 
-Wie viel konkrete Durchschlagskraft in diesem Format steckt, erläutere ich ausführlich im Artikel über [zwei Stunden SEO-Potential](/blog/zwei-stunden-seo-potential/).
+Wie viel konkrete Durchschlagskraft in diesem Format steckt, erläutere ich ausführlich im Artikel über [zwei Stunden SEO-Potential](/blog/zwei-stunden-seo-potential/) und in der öffentlichen Live-Session [SEO Sprechstunde: Vibe Coding & Sichtbarkeit](/blog/seo-sprechstunde-never-code-alone/).
 
 ### 3. Nachbereitung & Roadmap: Dein Fahrplan für die Umsetzung
 Nach dem Termin stehst du nicht mit losen Gedanken da. Du erhältst:

@@ -43,7 +43,7 @@ In seinem Vortrag liefert Malte die wohl präziseste Definition dafür, wie opti
 
 > *„Ein guter Chunk referenziert nicht den Satz davor oder danach. Da steht nicht drin: ‚Aus diesen Gründen ist der Anbieter besser‘. Da werden konkret die Entitäten genannt. Er hat einfache deklarative Aussagen und ist in autoritativer Sprache geschrieben.“*
 
-Was bedeutet das konkret für die Praxis? In Retrieval-Augmented Generation (RAG) Systemen greift sich das Modell oft isolierte Textblöcke von 256 bis 512 Tokens heraus. Wenn ein Absatz mit relativen Bezügen wie *„Deshalb empfehlen wir diese Lösung...“* arbeitet, verliert das System ohne den vorangegangenen Absatz den Kontext. Die Folge: Der Chunk wird verworfen.
+Was bedeutet das konkret für die Praxis? In Retrieval-Augmented Generation ([RAG](/glossar/rag/)) Systemen greift sich das Modell oft isolierte Textblöcke von 256 bis 512 Tokens heraus. Wenn ein Absatz mit relativen Bezügen wie *„Deshalb empfehlen wir diese Lösung...“* arbeitet, verliert das System ohne den vorangegangenen Absatz den Kontext. Die Folge: Der Chunk wird verworfen.
 
 ### Die 3 Kernkriterien für KI-feste Textabschnitte:
 

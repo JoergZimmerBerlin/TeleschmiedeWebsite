@@ -110,7 +110,7 @@ Der INP hat den veralteten First Input Delay (FID) abgelöst und prüft die Late
 - **Google-Zielwert:** Maximal 200 Millisekunden.
 - **Ausgangslage im Projekt:** 380 Millisekunden mit deutlichen Hängern beim Öffnen von Filtern und Navigationen.
 - **Die Umsetzung:**
-  - Radikale Inventur aller Drittanbieter-Skripte: Tag Manager, Tracking-Pixel, Live-Chat-Widgets und Heatmaps hatten den Haupt-Thread blockiert.
+  - Radikale Inventur aller Drittanbieter-Skripte: Tag Manager, Tracking-Pixel, Live-Chat-Widgets und Heatmaps hatten den Haupt-Thread blockiert. Wie man qualitative Verhaltensdaten ressourcenschonend erhebt, zeigt der Konferenz-Einblick [MS Clarity: Nutzerverhalten hart analysieren](/blog/ms-clarity-session-campixx/).
   - Unnötige Plugins wurden restlos deinstalliert.
   - Verbleibende Marketing-Pixel wurden asynchron nachgeladen oder über Web-Worker isoliert ausgeführt, sodass Benutzereingaben stets Vorrang erhalten.
 

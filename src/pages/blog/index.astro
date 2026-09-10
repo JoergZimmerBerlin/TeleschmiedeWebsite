@@ -341,11 +341,7 @@ const hubs = hubsConfig.map(hub => {
     }
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initBlogSearch);
-  } else {
-    initBlogSearch();
-  }
+  initBlogSearch();
 </script>
 
 <style>

@@ -89,7 +89,7 @@ Wenn Systeme wie Perplexity oder Google AI Overviews auf deinen Server zugreifen
 #### 2. Answer-First Architecture & AEO
 KIs lesen keine Texte im menschlichen Sinne. Sie bewerten die Dichte an überprüfbaren Fakten (Information Gain). Die Regel für 2026 lautet: Die wichtigsten Fakten müssen in den ersten 30% des Contents stehen ("Answer-First Architecture"). Wenn dein Text voller metaphorischer Füllwörter ist, verliert er im Vektor-Space an Dichte und wird vom RAG-Modell ignoriert. Wir strukturieren deine Expertise deterministisch in Tabellen, FAQs und klare Definitionsblöcke.
 
-#### 3. [E-E-A-T](/glossar/e-e-a-t/) & Entity-Building
+#### 3. E-E-A-T & Entity-Building
 Du rankst nicht mehr für ein Wort, du rankst als Experte für ein Thema. Eine KI SEO Beratung sorgt dafür, dass Google und andere LLMs dich als feste Entität begreifen. Wir nutzen externe Erwähnungen (Entity Citations) und knallhartes internes Siloing, um den Maschinen zu beweisen, dass du die "Ground Truth" (die unumstößliche Wahrheit) in deiner Branche bist. Wer nicht im Knowledge Graph verifiziert ist, wird von KI-Systemen als Halluzinationsrisiko eingestuft und schlichtweg ignoriert.
 
 #### 4. Die neuen KPIs: Share of Model & Citations

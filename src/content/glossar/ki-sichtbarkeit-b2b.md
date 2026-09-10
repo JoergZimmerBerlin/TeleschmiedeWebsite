@@ -94,7 +94,7 @@ Sprachmodelle verabscheuen leere Marketing-Floskeln („Wir bieten maßgeschneid
 ### 2. E-E-A-T und digitale Branchen-Signatur
 Erfahrung (*Experience*) und Fachautorität (*Expertise*) sind das beste Schutzschild gegen KI-Halluzinationen. Hinterlegen Sie detaillierte Autoren-Biografien für Ihr technisches Management, verlinken Sie wissenschaftliche Whitepaper und binden Sie externe Trust-Signale (Verbandsmitgliedschaften, ISO-Zertifizierungen) über strukturierte Daten ein.
 
-### 3. Dedizierte [Grounding Pages](/glossar/grounding-page/) für KI-Agenten
+### 3. Dedizierte Grounding Pages für KI-Agenten
 Erstellen Sie Unterseiten, die gezielt für maschinelles Crawling ausgelegt sind. Diese Seiten beantworten die typischen B2B-Evaluierungsfragen ohne Ablenkung: *Wer sind wir? Für welche Unternehmensgrößen eignen sich unsere Produkte? Welche APIs werden unterstützt?*
 
 ### 4. Digitale Brand Co-Occurrence und PR

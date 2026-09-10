@@ -96,7 +96,7 @@ Jedes Wort kostet Token. Token kosten API-Geld. Und was noch schlimmer ist: Zu v
   </div>
 </div>
 
-## Die Evolution der AGENTS.md im Web ([Agent Readiness](/glossar/agent-readiness-level/))
+## Die Evolution der AGENTS.md im Web (Agent Readiness)
 
 Jetzt fragst du dich vielleicht: "Jörg, ich bin kein Entwickler, ich bin CMO. Was interessiert mich eine Coding-Datei?"
 

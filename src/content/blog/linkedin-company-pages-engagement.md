@@ -85,7 +85,7 @@ Der Job beginnt nicht mit dem Klick auf „Veröffentlichen“ – dort fängt e
 Eine Unternehmensseite kann das Lagerfeuer sein, an dem sich Mitarbeiter und Partner versammeln. Wenn das eigene Team Beiträge teilt und kommentiert, entsteht die initiale kinetische Energie, die den Post in fremde Feeds spült.
 
 ### 4. Messbare Dialogtiefe statt reiner Reichweiten-Jagd
-Klicks und Impressionen sind wertlos, wenn keine echten Anfragen entstehen. Ziel muss es sein, aus öffentlichen Diskussionen konkrete geschäftliche Kontakte und Vertrauen aufzubauen, was direkt auf die [Topical Authority](/glossar/topical-authority/) deiner Marke einzahlt.
+Klicks und Impressionen sind wertlos, wenn keine echten Anfragen entstehen. Ziel muss es sein, aus öffentlichen Diskussionen konkrete geschäftliche Kontakte und Vertrauen aufzubauen, was direkt auf [E-E-A-T](/glossar/e-e-a-t/) und die [Topical Authority](/glossar/topical-authority/) deiner Marke einzahlt.
 
 ## Stimmen aus der LinkedIn-Fachcommunity
 

@@ -80,6 +80,7 @@ const displayDescription = truncate(description, 160);
 
     <!-- Preload critical font (High Priority) -->
     <link rel="preload" href={`${baseUrl}/fonts/inter-latin.woff2`} as="font" type="font/woff2" crossorigin="anonymous" />
+    {lcpImage && <link rel="preload" as="image" href={lcpImage} fetchpriority="high" />}
     
     <!-- Canonical -->
     <link rel="canonical" href={`${siteUrl}${currentPath}`} />

@@ -4,7 +4,6 @@ import Schema from '../components/Schema.astro';
 import { getGitModDate } from '../utils/git-date';
 
 const lastReviewed = getGitModDate('src/pages/groundingpage.astro');
-const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const offers = [
   {

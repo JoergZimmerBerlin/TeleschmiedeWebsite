@@ -111,7 +111,7 @@ Der Aufbau einer anerkannten Entität geschieht nicht zufällig, sondern folgt k
 1. **Konsistente NAP-Daten:** Name, Adresse und Kommunikationsdaten müssen netzweit buchstabengetreu übereinstimmen. Widersprüchliche Angaben in Branchenverzeichnissen verunsichern Parsing-Algorithmen und behindern die Entitäts-Konsolidierung.
 2. **Semantische Grounding Page:** Eine dedizierte Über-uns- oder Unternehmensseite fungiert als digitale Visitenkarte für Crawler. Sie bündelt Historie, Zertifikate und handelnde Akteure in klar strukturierter Sprache.
 3. **Wikidata-Verknüpfung:** Einträge in offenen Wissensdatenbanken wie Wikidata stellen für Algorithmen einen vertrauenswürdigen Validierungspunkt dar, sofern sie den Relevanzkriterien entsprechen und mit Primärquellen belegt sind.
-4. **Digitale Fachzitationen:** Fachartikel, Podcasts und redaktionelle Medienberichte, die eine Marke im direkten semantischen Kontext ihrer Kernkompetenz erwähnen, stärken die Kanten im Wissensgraphen nachhaltig.
+4. **Digitale Fachzitationen:** Fachartikel, Podcasts und redaktionelle Medienberichte, die eine Marke im direkten semantischen Kontext ihrer Kernkompetenz erwähnen, stärken die Kanten im Wissensgraphen nachhaltig (wie wir in der Analyse zum [SISTRIX Podcast: Entitäten-Mapping & Knowledge Graph](/blog/sistrix-podcast-entitaeten-mapping/) veranschaulichen).
 5. **Kontinuierliches Monitoring:** Der Einsatz moderner [AI-Visibility-Tools](/glossar/ai-visibility-tools/) erlaubt es, das Auftauchen der eigenen Marke in generativen KI-Antworten fortlaufend zu überwachen.
 
 ## Technische Implementierung: Verschachteltes JSON-LD mit @graph

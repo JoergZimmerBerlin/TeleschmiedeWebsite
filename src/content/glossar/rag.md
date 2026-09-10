@@ -143,7 +143,7 @@ class HybridRagPipeline:
         return self.llm.generate(augmented_prompt)
 ```
 
-## Strategische Optimierung für [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
+## Strategische Optimierung für Generative Engine Optimization (GEO)
 
 Um in den RAG-Architekturen globaler Suchsysteme verlässlich als Referenz herangezogen zu werden, müssen Webmaster folgende Kriterien umsetzen:
 

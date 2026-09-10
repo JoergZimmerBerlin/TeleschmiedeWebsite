@@ -99,7 +99,7 @@ Erst wenn die Zielseite verlässlich konvertiert, lohnt sich das massive Hochfah
 
 ## Handlungsempfehlungen für Webseiten-Betreiber
 
-Geht auf Branchen-Events, tauscht euch mit Kollegen am Kaffeeautomaten aus und hört genau zu, wenn Praktiker über ihre Learnings sprechen. 
+Geht auf Branchen-Events, tauscht euch mit Kollegen am Kaffeeautomaten aus und hört genau zu, wenn Praktiker über ihre Learnings sprechen. Welche innovativen Formate dabei entstehen, zeigt unser Konferenz-O-Ton [Vibe Coding: Echte KI-Workflows mit Roland Golla](/blog/campixx-video-roland-golla/) und meine Session zu [GEO & AI Search: Sichtbarkeit völlig neu gedacht](/blog/geo-und-ai-search-neues-spiel/).
 
 Und vor allem: Hört auf, blindem Traffic hinterherzulaufen. Baut Webseiten, die Probleme lösen und Nutzer begeistern. Der Umsatz folgt der Nutzerzufriedenheit ganz automatisch.
 

@@ -2,9 +2,7 @@
 import { Image, getImage } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
-import { slugify } from '../../utils/slugify';
 import KeyTakeaways from '../../components/KeyTakeaways.astro';
-import FAQAccordion from '../../components/FAQAccordion.astro';
 import ROICalculator from '../../components/ROICalculator.astro';
 import DownloadCard from '../../components/DownloadCard.astro';
 import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
@@ -17,53 +15,32 @@ export async function getStaticPaths() {
   // 1. Post Paths
   const postPaths = posts.map((post) => ({
     params: { slug: post.id },
-    props: { type: 'post', post },
+    props: { type: 'post' as const, post },
   }));
 
   return postPaths;
 }
 
-const { type, post } = Astro.props;
+const { post } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // ==========================================
 // POST LOGIC
 // ==========================================
-let lastReviewed, Content, headings, postImageWebp, readingTime, relatedGlossaryTerms, tachelesQuote, hasPartnerLinks = false;
+const lastReviewed = getGitModDate(`src/content/blog/${post.id}`);
+const { Content, headings } = await render(post);
 
-if (type === 'post') {
-  lastReviewed = getGitModDate(`src/content/blog/${post.id}`);
-  const rendered = await render(post);
-  Content = rendered.Content;
-  headings = rendered.headings;
-  
-  if (post.data.image) {
-    postImageWebp = await getImage({ src: post.data.image, format: 'webp' });
-  }
-
-  // Reading Time Calculation
-  const wordCount = (post.body || '').split(/\s+/).length;
-  readingTime = Math.ceil(wordCount / 180);
-
-  // Partnerlink Detection
-  hasPartnerLinks = /ga=4169588|via=offer|via=|rankmath\.com|cello\.so|sponsored/i.test(post.body || '');
-
-  // Glossary
-  const allGlossaryTerms = await getCollection('glossar');
-  relatedGlossaryTerms = allGlossaryTerms
-    .filter(term => {
-      const termTitle = term.data.title.split('(')[0].trim().toLowerCase();
-      const postText = (post.data.title + ' ' + (post.data.description || '') + ' ' + (post.data.tags || []).join(' ')).toLowerCase().replace(/-/g, ' ');
-      if (postText.includes(termTitle)) return true;
-      const keywords = termTitle.split(/\s+/).filter(k => k.length > 3);
-      if (keywords.length > 0) {
-        const matchCount = keywords.filter(k => postText.includes(k)).length;
-        if (matchCount >= Math.ceil(keywords.length / 2)) return true;
-      }
-      return post.data.tags?.some(tag => termTitle.includes(tag.toLowerCase()));
-    })
-    .slice(0, 4);
+let postImageWebp;
+if (post.data.image) {
+  postImageWebp = await getImage({ src: post.data.image, format: 'webp' });
 }
+
+// Reading Time Calculation
+const wordCount = (post.body || '').split(/\s+/).length;
+const readingTime = Math.ceil(wordCount / 180);
+
+// Partnerlink Detection
+const hasPartnerLinks = /ga=4169588|via=offer|via=|rankmath\.com|cello\.so|sponsored/i.test(post.body || '');
 ---
 
   <Layout

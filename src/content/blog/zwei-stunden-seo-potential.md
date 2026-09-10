@@ -116,7 +116,7 @@ Auf die Frage von **Uta Leyke-Hess**, wie die Klick- und Leadentwicklung verlauf
 
 ### Klare Empfehlung für stagnierende Webprojekte
 
-Wenn deine Website seit Monaten auf derselben Stelle tritt und der organische Traffic stagniert, braucht es in den seltensten Fällen einen kompletten Relaunch für zehntausende Euro. Meistens genügen zwei intensive Stunden, um den Finger direkt in die Wunde zu legen und die entscheidenden Stellschrauben zu drehen.
+Wenn deine Website seit Monaten auf derselben Stelle tritt und der organische Traffic stagniert, braucht es in den seltensten Fällen einen kompletten Relaunch für zehntausende Euro. Meistens genügen zwei intensive Stunden, um den Finger direkt in die Wunde zu legen und die entscheidenden Stellschrauben zu drehen. Für eine lückenlose Dokumentation und sofort umsetzbare To-Dos sorgt dabei moderne Tool-Unterstützung wie der [tl;dv Notetaker für Meetings](/blog/tldv-meeting-notetaker-ki/).
 
 <!-- LinkedIn CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">

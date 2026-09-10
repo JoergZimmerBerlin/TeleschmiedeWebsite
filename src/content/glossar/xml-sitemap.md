@@ -82,7 +82,7 @@ Eine XML-Sitemap ist kein vollständiges Logbuch aller jemals vom Server erzeugt
 4. **Präzise Zeitstempel (`lastmod`):**
    Das Attribut `<lastmod>` muss dem exakten Zeitpunkt der letzten substanziellen inhaltlichen Änderung entsprechen (W3C-Datumsformat nach ISO 8601).
 
-## Das `lastmod`-Datum: Der unterschätzte Hebel für [Two-Wave Indexing](/glossar/two-wave-indexing/)
+## Das `lastmod`-Datum: Der unterschätzte Hebel für Two-Wave Indexing
 
 Unter den von der Sitemap-Spezifikation definierten Attributen (`<lastmod>`, `<changefreq>`, `<priority>`) ist `<lastmod>` das einzige Signal, dem Google im modernen [Technischen SEO](/glossar/technisches-seo/) echtes Gewicht beimisst. Sowohl die Änderungsfrequenz (`changefreq`) als auch die relative Priorität (`priority`) werden von Googlebot seit Jahren weitgehend ignoriert.
 

@@ -71,7 +71,7 @@ Wenn nicht, hast du verloren. Und zwar sofort.
   </div>
 </div>
 
-Gute Usability ist wie ein Schiedsrichter beim Fußball: Man bemerkt sie erst, wenn sie katastrophal fehlt. Sie sorgt dafür, dass das Ziel frustfrei erreicht wird. Und im Zeitalter von **technischer KI-Optimierung auf höchstem Niveau** ist Frustfreiheit die wichtigste Metrik überhaupt. KI-Bots haben weder Augen für gutes Design, noch die Geduld, auf das Nachladen deines asynchronen Mülls zu warten.
+Gute Usability ist wie ein Schiedsrichter beim Fußball: Man bemerkt sie erst, wenn sie katastrophal fehlt. Sie sorgt dafür, dass das Ziel frustfrei erreicht wird. Wie entscheidend ein nahtloses Produkterlebnis für Markentreue und Nutzersignale ist, zeigt die Case Study [SEO-Qualität: Vom Dönerback bis zum Erfolg](/blog/doenerback-und-motivation/). Und im Zeitalter von **technischer KI-Optimierung auf höchstem Niveau** ist Frustfreiheit die wichtigste Metrik überhaupt. KI-Bots haben weder Augen für gutes Design, noch die Geduld, auf das Nachladen deines asynchronen Mülls zu warten.
 
 ---
 
@@ -122,7 +122,7 @@ Wer sich auf deiner Seite nicht zurechtfindet, springt ab. Das ist ein negatives
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0">Don't make me (or my Agent) think!</h4>
-  <p class="mb-0 text-sm">Zwinge weder Menschen noch Maschinen zum Nachdenken. Standardisierte Navigation, klare Links, absolut keine versteckten Fallen. Alles andere ist toxische Design-Spielerei, die dich hart erarbeiteten Umsatz und deine [Conversion-Rate](/glossar/conversion-rate/) kostet.</p>
+  <p class="mb-0 text-sm">Zwinge weder Menschen noch Maschinen zum Nachdenken. Standardisierte Navigation, klare Links, absolut keine versteckten Fallen. Wie man Klick- und Verhaltensmuster mit Recordings aufdeckt, beleuchtet der Praxisbericht [MS Clarity: Nutzerverhalten hart analysieren](/blog/ms-clarity-session-campixx/). Alles andere ist toxische Design-Spielerei, die dich hart erarbeiteten Umsatz und deine [Conversion-Rate](/glossar/conversion-rate/) kostet.</p>
 </div>
 
 Eine blitzsaubere [XML-Sitemap](/glossar/xml-sitemap/) und eine logische [interne Verlinkung](/glossar/interne-verlinkung/) (immer mit Trailing Slashes auf Verzeichnisse, verdammt nochmal!) bilden das stabile Rückgrat deiner Navigation.

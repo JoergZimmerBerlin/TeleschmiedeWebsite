@@ -77,7 +77,7 @@ Viele SEOs starren stundenlang auf Excel-Listen mit Suchvolumen und Wettbewerbs-
 
 ## Warum "SEO ist tot" oft nur eine bequeme Ausrede ist
 
-Wenn du deine Zielgruppe nicht verstehst, wenn deine Texte niemanden bewegen und wenn deine Website technisch eine Katastrophe ist – dann ist es natürlich sehr bequem zu sagen: "Ach, SEO ist ja sowieso tot." Nein, dein Verständnis für deinen Markt ist vielleicht "tot", aber der Kanal funktioniert.
+Wenn du deine Zielgruppe nicht verstehst, wenn deine Texte niemanden bewegen und wenn deine Website technisch eine Katastrophe ist – dann ist es natürlich sehr bequem zu sagen: "Ach, SEO ist ja sowieso tot." Nein, dein Verständnis für deinen Markt ist vielleicht "tot", aber der Kanal funktioniert. Warum dieser Denkfehler vor allem bei Relaunches so teuer wird, beleuchte ich auch in [Willkommen im SEO-Jahr 2026: Die drei größten Denkfehler](/blog/willkommen-seo-jahr-2026/).
 
 Michael Kaufhold hat im Magic Writing Podcast sehr schön herausgearbeitet, dass Schreiben (oder Content-Creation generell) heute eine Brücke schlagen muss zwischen dem, was die KI versteht, und dem, was den Menschen emotional abholt. Wer nur für die KI schreibt, langweilt den Menschen. Wer nur für den Menschen schreibt, wird von der KI vielleicht nicht gefunden. Die Magie liegt in der Mitte.
 

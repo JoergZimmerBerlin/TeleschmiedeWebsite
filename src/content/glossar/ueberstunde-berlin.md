@@ -70,12 +70,12 @@ Im Jahr 2026 hat dieser persönliche Austausch eine ungeahnte strategische Dimen
   </div>
 </div>
 
-## Warum persönliches Networking für moderne [E-E-A-T](/glossar/e-e-a-t/) Strategien unverzichtbar ist
+## Warum persönliches Networking für moderne E-E-A-T Strategien unverzichtbar ist
 
 Google bewertet Websites und Fachautoren nach den Kriterien Experience (Erfahrung), Expertise, Authoritativeness (Autorität) und Trustworthiness (Vertrauenswürdigkeit). Doch wie entsteht echte Autorität im semantischen Web?
 
 1. **Reale Marken- und Personen-Entitäten:** Eine anerkannte [Entität](/glossar/entitaet/) entsteht nicht allein durch Onpage-Texte, sondern durch kontinuierliche Erwähnung im realen Wirtschaftsgeschehen. Wenn Unternehmer, Journalisten oder Partner nach einem Treffen auf LinkedIn über ein Projekt berichten, erzeugt dies unbezahlbare, organische Signale.
-2. **Co-Citations und Kooperationen:** Aus ungezwungenen Gesprächen bei einem Feierabend-Drink entstehen oft Gastbeiträge, gemeinsame Studien oder Podcast-Auftritte. Diese gegenseitigen [Citations](/glossar/citation/) sind für moderne KI-Systeme starke Beweise für fachliche Vernetzung.
+2. **Co-Citations und Kooperationen:** Aus ungezwungenen Gesprächen bei einem Feierabend-Drink entstehen oft Gastbeiträge, gemeinsame Studien oder Podcast-Auftritte. Ähnlich intensive Impulse für die Praxis bieten auch spezialisierte KI-Treffen wie das [1. AI Connect Berlin: Vibe Coding & Gemini](/blog/ai-connect-berlin-networking/). Diese gegenseitigen [Citations](/glossar/citation/) sind für moderne KI-Systeme starke Beweise für fachliche Vernetzung.
 3. **Verständnis für echte Business-Probleme:** Ein Unternehmer fragt auf einem Event selten nach *„Hreflang-Tags“* oder *„Token-Effizienz“*. Er fragt: *„Wie gewinnen wir verlässlich Neukunden, wenn die Klickpreise bei Google Ads steigen und KI unsere Branche bedroht?“* Wer diese Sprache lernt, schreibt bessere Inhalte und führt wirksamere [SEO-Audits](/glossar/seo-audit/) durch.
 
 ## Die drei Säulen der Überstunde im Überblick
@@ -123,7 +123,7 @@ Für Event-Veranstalter und Partnerunternehmen ist es essenziell, Networking-Ter
 </script>
 ```
 
-## Lokale Verwurzelung als Hebel für [Local SEO](/glossar/local-seo/)
+## Lokale Verwurzelung als Hebel für Local SEO
 
 Regionale Events bieten handfeste Vorteile für die lokale und semantische Auffindbarkeit:
 

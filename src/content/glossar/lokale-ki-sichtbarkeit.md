@@ -75,7 +75,7 @@ Im Jahr 2026 hat sich das lokale Suchverhalten radikal gewandelt. Früher tippte
   </div>
 </div>
 
-## Der fundamentale Wandel im [Local SEO](/glossar/local-seo/)
+## Der fundamentale Wandel im Local SEO
 
 Die Ära der generativen Suche hat für lokale Unternehmen drei tektonische Verschiebungen mit sich gebracht:
 

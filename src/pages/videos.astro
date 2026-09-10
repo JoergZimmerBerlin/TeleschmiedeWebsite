@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
 import YouTubeFacade from '../components/YouTubeFacade.astro';
@@ -19,9 +18,7 @@ import imgRoland from '../assets/images/youtube/tD7cXuVcRPA.jpg';
 const pageTitle = "Videos & Podcast Interviews | Jörg Zimmer (2026)";
 const pageDescription = "Alle Video-Interviews, Podcast-Auftritte und Live-Checks von Jörg Zimmer zum Thema SEO, GEO und KI Suche.";
 
-const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
-
-const getTranscript = (id) => {
+const getTranscript = (id: string): string => {
   try {
     const filePath = path.join(process.cwd(), 'src', 'data', 'transcripts', `${id}.txt`);
     if (fs.existsSync(filePath)) {
@@ -34,15 +31,15 @@ const getTranscript = (id) => {
   return "Transkript wird derzeit generiert oder ist für dieses Video nicht verfügbar.";
 };
 
-const formatDescription = (text, videoId) => {
+const formatDescription = (text: string, videoId: string): string => {
   if (!text) return "";
   let formatted = text
     .replace(/\n/g, '<br/>')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   
   // Match timestamps like HH:MM:SS or MM:SS
-  formatted = formatted.replace(/\b(?:([0-9]{1,2}):)?([0-9]{2}):([0-9]{2})\b/g, (match, h, m, s) => {
-    const hours = parseInt(h || 0, 10);
+  formatted = formatted.replace(/\b(?:([0-9]{1,2}):)?([0-9]{2}):([0-9]{2})\b/g, (match: string, h: string | undefined, m: string, s: string) => {
+    const hours = parseInt(h || '0', 10);
     const minutes = parseInt(m, 10);
     const seconds = parseInt(s, 10);
     const totalSeconds = (hours * 3600) + (minutes * 60) + seconds;
@@ -87,7 +84,6 @@ const videos = [
 ];
 
 const siteUrl = import.meta.env.SITE || 'https://teleschmie.de';
-const currentPath = Astro.url.pathname;
 
 const videoItemList = {
   "@type": "ItemList",

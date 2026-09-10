@@ -100,7 +100,7 @@ LLM-Pipelines benötigen für viele Abfragen Live-Daten (Preise, Verfügbarkeite
 *   **Stateless Compliance:** Erfordern diese Abrufe Cookies, Sessions oder komplexe Auth-Token, die ein normaler Crawler nicht bedienen kann? (Tödlich für KIs!)
 *   **Latenz-Messung:** Agenten haben harte Timeouts. Wenn dein Server länger als wenige hundert Millisekunden für einen Daten-Dump braucht, bricht der Request rigoros ab. Wir messen gnadenlos, ob deine Infrastruktur mit der Geschwindigkeit von [Agent-to-Agent (A2A)](/glossar/a2a-protocol/) Protokollen mithalten kann.
 
-### 4. Entity & Trust-Signale ([E-E-A-T](/glossar/e-e-a-t/))
+### 4. Entity & Trust-Signale (E-E-A-T)
 RAG-Systeme haben panische Angst vor Halluzinationen. Sie zitieren nur Knotenpunkte mit extremem Trust. Die KI muss verifizieren, dass du bist, wer du vorgibst zu sein.
 *   **JSON-LD Tiefe:** Ist deine Entität über tiefes Schema.org (mit `sameAs` und Wikidata-Verknüpfungen) sauber definiert? Wir prüfen deinen Knowledge Graph.
 *   **Grounding:** Existiert eine zentrale [Groundingpage](/glossar/grounding-page/) als "Single Source of Truth", die alle harten Fakten über dein Unternehmen für KIs maschinenlesbar zusammenfasst?

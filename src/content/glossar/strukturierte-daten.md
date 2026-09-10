@@ -152,7 +152,7 @@ Das folgende neutrale Beispiel demonstriert den Aufbau eines modernen, vernetzte
 
 ---
 
-## Best Practices für maximale [Agent Readiness](/glossar/agent-readiness/)
+## Best Practices für maximale Agent Readiness
 
 Um sicherzustellen, dass Strukturierte Daten ihre volle Hebelwirkung in generativen Suchsystemen entfalten, sind drei Grundprinzipien unverzichtbar:
 

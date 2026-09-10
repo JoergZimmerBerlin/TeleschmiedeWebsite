@@ -83,7 +83,7 @@ Um zu verstehen, wie redaktionelle Prozesse, E-Commerce-Inhalte und [KI-Content]
 
 ## Kern der Kennzeichnungspflicht nach Artikel 50
 
-Für Website-Betreiber, E-Commerce-Manager und SEO-Spezialisten konzentrieren sich die Anforderungen primär auf die Pflichten des **begrenzten Risikos**. Die Kernfrage lautet: Muss jeder Text, jede Metabeschreibung und jedes generierte Produktbild im Shop explizit mit einem Hinweis versehen werden?
+Für Website-Betreiber, E-Commerce-Manager und SEO-Spezialisten konzentrieren sich die Anforderungen primär auf die Pflichten des **begrenzten Risikos**. Die Kernfrage lautet: Muss jeder Text, jede Metabeschreibung und jedes generierte Produktbild im Shop explizit mit einem Hinweis versehen werden? Einen ausführlichen Praxiseinblick in diese Fragestellung findest du im Diskussionsbeitrag [KI-generierte Website: Kennzeichnungspflicht?](/blog/ai-generierte-website-kennzeichnung/).
 
 Die klare Antwort: **Nein, es gibt keine pauschale Kennzeichnungspflicht für jeden beliebigen KI-Text.** Die Pflicht greift gezielt in folgenden Konstellationen:
 

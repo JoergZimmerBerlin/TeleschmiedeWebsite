@@ -103,7 +103,7 @@ Kombiniere das mit extrem tief verschachtelten Strukturierten Daten (JSON-LD). W
 Ich kann es nicht oft genug sagen, weil es 90% der WordPress-Admins kolossal falsch machen: Achte penibel auf deine Trailing Slashes! WordPress tendiert dazu, bei falschen Konfigurationen interne Redirects zu erzeugen. Wenn du auf `teleschmie.de/meine-leistung/` verlinkst, muss der Slash am Ende stehen. Vergiss ihn, und WordPress macht einen unnötigen 301-Redirect. Ein Mensch merkt das nicht. Ein KI-Crawler, der über maschinenlesbare Endpunkte reinkommt, bricht wegen Verschwendung seines Token-Budgets sofort ab. Fixe das!
 
 ### 5. Abschied von der grünen Ampel (Yoast & Co.)
-Die klassischen SEO-Plugins rudern momentan stark zurück. Wer heute WordPress professionell betreibt, nutzt Plugins wie Rank Math primär noch für das Schema.org-Markup und die schnelle IndexNow-Anbindung. Die alten Content-Analysen, wo du versucht hast, Keywords auf eine bestimmte Prozentzahl zu pushen, um eine dämliche grüne Ampel zu bekommen, kannst du ignorieren. Die Ampeln verstehen keine Entitäten-Semantik. Spar dir die Zeit.
+Die klassischen SEO-Plugins rudern momentan stark zurück. Wer heute WordPress professionell betreibt, nutzt Plugins wie [Rank Math](/glossar/rank-math/) primär noch für das Schema.org-Markup und die schnelle IndexNow-Anbindung. Wie sich die Kontrahenten in der Praxis schlagen, liest du in unserem Systemvergleich [Rank Math vs. Yoast SEO: Welches WordPress-Plugin gewinnt 2026?](/blog/rank-math-vs-yoast-seo/). Die alten Content-Analysen, wo du versucht hast, Keywords auf eine bestimmte Prozentzahl zu pushen, um eine dämliche grüne Ampel zu bekommen, kannst du ignorieren. Die Ampeln verstehen keine Entitäten-Semantik. Spar dir die Zeit.
 
 ## Mein Tacheles-Rat für dich
 

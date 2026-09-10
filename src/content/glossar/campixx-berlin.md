@@ -79,7 +79,7 @@ Die Campixx 2026 spiegelte die massive Transformation der organischen Websuche w
 3. **E-E-A-T und Autorenidentität:** Wie weisen Unternehmen reale fachliche Expertise nach, um sich im Suchmaschinen-Ranking von synthetisch generiertem Massen-Content abzugrenzen?
 4. **Resiliente Crawling-Architekturen:** Optimierung von Ladezeiten, Rendering-Methoden und Serverantworten zur Bewältigung steigender Bot-Anfragen.
 
-Teilnehmer verknüpfen diese Erkenntnisse häufig mit lokalen Austauschformaten wie dem [SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/), um Trends kontinuierlich das gesamte Jahr über weiterzuverfolgen.
+Teilnehmer verknüpfen diese Erkenntnisse häufig mit lokalen Austauschformaten wie dem [SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/), um Trends kontinuierlich das gesamte Jahr über weiterzuverfolgen. Wie spontane Experten-O-Töne und Videoformate direkt auf der Konferenz entstehen, zeigt unser Praxisbericht [Vibe Coding: Echte KI-Workflows mit Roland Golla](/blog/campixx-video-roland-golla/), die Fachsession [AI Search Content Formate: Best Practices](/blog/malte-landwehr-ai-search-content-formate/) sowie der Vortrag [SEO Unternehmensberatung: Stefan auf der Campixx](/blog/stefan-godulla-campixx/).
 
 <div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
   <div class="flex items-center gap-2 mb-3">

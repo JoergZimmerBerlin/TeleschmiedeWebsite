@@ -223,7 +223,6 @@ const businessEntity: any = {
   "@id": businessId,
   "additionalType": "https://www.wikidata.org/wiki/Q180711",
   "name": "Jörg Zimmer - SEO, GEO, AI Visibility Freelancer",
-  "alternateName": "Teleschmiede",
   "description": description || "Individuelle SEO, GEO, AI Visibility Beratung mit über 25 Jahren Erfahrung.",
   "url": siteUrl,
   "knowsAbout": personEntity.knowsAbout,
@@ -317,7 +316,7 @@ const definedTermSetNode: any = {
   "description": "Experten-Glossar für Suchmaschinenoptimierung, Generative Engine Optimization und Performance Marketing",
   "url": `${siteUrl}/glossar/`,
   "author": { "@id": personId },
-  "publisher": { "@id": businessId },
+  "publisher": { "@id": personId },
   "isPartOf": { "@id": websiteId },
   "hasDefinedTerm": personEntity.knowsAbout
 };
@@ -330,7 +329,7 @@ const blogNode: any = {
   "description": "Tiefgründige Case Studies, bewährte SEO-Strategien, technische Analysen und Insights aus 25 Jahren Performance Marketing",
   "url": `${siteUrl}/blog/`,
   "author": { "@id": personId },
-  "publisher": { "@id": businessId },
+  "publisher": { "@id": personId },
   "isPartOf": { "@id": websiteId }
 };
 
@@ -349,7 +348,7 @@ const webPageNode: any = {
   "description": description,
   "author": { "@id": personId },
   "reviewedBy": { "@id": personId },
-  "publisher": { "@id": businessId },
+  "publisher": { "@id": personId },
   "breadcrumb": { "@id": breadcrumbId },
   "datePublished": datePublishedISO,
   "dateModified": dateModifiedISO,
@@ -385,6 +384,7 @@ const graph: any[] = [
     "@id": websiteId,
     "url": siteUrl,
     "name": "Jörg Zimmer - SEO / GEO / AI Visibility Freelancer",
+    "alternateName": "Teleschmiede",
     "publisher": { "@id": personId },
     "author": { "@id": personId },
     "hasPart": [
@@ -494,7 +494,7 @@ if (type === 'article') {
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "author": { "@id": personId },
-    "publisher": { "@id": businessId },
+    "publisher": { "@id": personId },
     "mainEntityOfPage": { "@id": url },
     "isPartOf": { "@id": blogId },
     "isAccessibleForFree": true
@@ -525,7 +525,7 @@ if (type === 'article') {
     "headline": title,
     "description": description,
     "author": { "@id": personId },
-    "publisher": { "@id": businessId },
+    "publisher": { "@id": personId },
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },

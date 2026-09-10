@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import YouTubeFacade from '../components/YouTubeFacade.astro';
 import Stats from '../components/Stats.astro';
@@ -7,12 +7,14 @@ import Expertise from '../components/Expertise.astro';
 import Testimonials from '../components/Testimonials.astro';
 import CTASection from '../components/CTASection.astro';
 import heroImage from '../assets/images/blog/linkedin-forum-original.webp';
+import ogImageGraphic from '../assets/images/blog/seo-handwerk-evolution-3d.webp';
 import ytThumbnail from '../assets/images/youtube/dVGOMAVUNQk.jpg';
 import { getGitModDate } from '../utils/git-date';
 import Schema from '../components/Schema.astro';
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const lastReviewed = getGitModDate('src/pages/index.astro');
+const optimizedHomeOg = await getImage({ src: ogImageGraphic, format: 'webp', width: 1200, height: 630 });
 
 const offers = [
   {
@@ -46,7 +48,7 @@ const offers = [
   title="Jörg Zimmer - SEO, GEO, AI Visibility Freelancer (2026)" 
   description="Jörg Zimmer: Dein SEO & AI Visibility Freelancer in Berlin. Über 25 Jahre Erfahrung. Mehr Sichtbarkeit und nachhaltiger ROI. (2026)"
   lcpImage={heroImage.src}
-  ogImage={heroImage.src}
+  ogImage={optimizedHomeOg.src}
   maxTitleLength={65}
 >
   <!-- Hero Section -->

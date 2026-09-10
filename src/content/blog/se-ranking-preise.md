@@ -23,7 +23,7 @@ faqs:
   - question: "Ist der Umfang im Core-Paket eingeschränkt?"
     answer: "Du hast Zugriff auf alle Tools, aber das Volumen (z.B. Crawls oder KI-Analysen) ist gecappt. Für Freelancer ist das meist völlig ausreichend. Für Hardcore-Agenturen empfehle ich jedoch direkt den Growth-Tarif."
   - question: "Gibt es eine kostenlose Testphase?"
-    answer: "Ja, über einen Affiliate-Link kannst du SE Ranking 14 Tage lang kostenlos testen, ohne eine Kreditkarte hinterlegen zu müssen."
+    answer: "Ja, über einen Partnerlink kannst du SE Ranking 14 Tage lang kostenlos testen, ohne eine Kreditkarte hinterlegen zu müssen."
 ---
 
 Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
@@ -113,12 +113,12 @@ Besonders hervorzuheben ist die **KI-Integration**. Dass man im Core-Paket berei
 
 Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jahresabo entscheidest (trotz der 20 % Ersparnis), teste das Tool auf Herz und Nieren.
 
-Über meinen Affiliate-Link bekommst du eine **kostenlose Testphase von 14 Tagen**. Das Beste daran: Du musst **keine Kreditkarte** hinterlegen. Kein fieses "Ups, ich hab vergessen zu kündigen"-Abo. Nach 14 Tagen läuft der Test einfach aus, es sei denn, du bist so überzeugt wie ich und willst weitermachen.
+Über meinen Partnerlink bekommst du eine **kostenlose Testphase von 14 Tagen**. Das Beste daran: Du musst **keine Kreditkarte** hinterlegen. Kein fieses "Ups, ich hab vergessen zu kündigen"-Abo. Nach 14 Tagen läuft der Test einfach aus, es sei denn, du bist so überzeugt wie ich und willst weitermachen.
 
-<!-- Affiliate Box -->
+<!-- Partnerlink Box -->
 <div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold !text-white mb-2 !mt-0 !border-none !pb-0">
-    Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline">SE Ranking</a> 14 Tage kostenlos testen
+    Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-lime-accent hover:underline">SE Ranking</a> 14 Tage kostenlos testen
   </h3>
   <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
     Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.

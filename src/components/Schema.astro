@@ -113,8 +113,53 @@ pathSegments.forEach((segment, index) => {
   });
 });
 
+// Video Podcasting & Interview Appearances for E-E-A-T
+const videoSubjectOf = [
+  {
+    "@type": "VideoObject",
+    "name": "SEOpresso Podcast Ep. 207: 25 Jahre SEO - und wir machen immer noch die gleichen Fehler",
+    "url": "https://www.youtube.com/watch?v=dVGOMAVUNQk",
+    "thumbnailUrl": "https://i.ytimg.com/vi/dVGOMAVUNQk/maxresdefault.webp",
+    "description": getTranscriptSchema("dVGOMAVUNQk", "Jörg Zimmer im Gespräch mit Björn Darko über 25 Jahre SEO-Geschichte."),
+    "uploadDate": "2025-07-04T12:00:00+02:00",
+    "embedUrl": "https://www.youtube.com/embed/dVGOMAVUNQk"
+  },
+  {
+    "@type": "VideoObject",
+    "name": "Bist du SEO AI ready? - Interview mit Antonia Blago",
+    "url": "https://www.youtube.com/watch?v=ZIFCXUXypSc",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ZIFCXUXypSc/maxresdefault.webp",
+    "description": getTranscriptSchema("ZIFCXUXypSc", "Interview über die Schnittmenge von SEO und Künstlicher Intelligenz."),
+    "uploadDate": "2025-07-20T12:00:00+02:00",
+    "embedUrl": "https://www.youtube.com/embed/ZIFCXUXypSc"
+  },
+  {
+    "@type": "VideoObject",
+    "name": "SEO ist tot? - Magic Writing Podcast",
+    "url": "https://www.youtube.com/watch?v=32YkPQtOJDU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/32YkPQtOJDU/maxresdefault.webp",
+    "description": getTranscriptSchema("32YkPQtOJDU", "Diskussion über den aktuellen Stand von SEO."),
+    "uploadDate": "2025-06-01T12:00:00+02:00",
+    "embedUrl": "https://www.youtube.com/embed/32YkPQtOJDU"
+  },
+  {
+    "@type": "VideoObject",
+    "name": "SEO Live-Check 2026: Rankings, GEO und KI Suche erklärt mit Jörg Zimmer und Roland Golla",
+    "url": "https://www.youtube.com/watch?v=tD7cXuVcRPA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/tD7cXuVcRPA/maxresdefault.webp",
+    "description": getTranscriptSchema("tD7cXuVcRPA", "Live-Analyse und SEO Sprechstunde mit Roland Golla."),
+    "uploadDate": "2026-08-13T12:00:00+02:00",
+    "embedUrl": "https://www.youtube.com/embed/tD7cXuVcRPA"
+  }
+];
+
+// Determine if this is a content article (blog or glossary term)
+// On article pages, Jörg Zimmer is purely the author, so subjectOf is excluded to prevent YouTube video thumbnails from overriding the article's own infographic.
+// On service pages, grounding pages, about, videos and homepage, subjectOf is fully included for E-E-A-T entity grounding.
+const isContentArticle = type === 'article' || type === 'glossary';
+
 // Central Person Entity
-const personEntity = {
+const personEntity: any = {
   "@type": "Person",
   "@id": personId,
   "name": "Jörg Zimmer",
@@ -158,46 +203,12 @@ const personEntity = {
   "memberOf": [
     { "@type": "Organization", "name": "SEO Stammtisch Berlin" },
     { "@type": "Organization", "name": "Freelancer Team", "url": "https://freelancerteam.de/" }
-  ],
-  "subjectOf": [
-    {
-      "@type": "VideoObject",
-      "name": "SEOpresso Podcast Ep. 207: 25 Jahre SEO - und wir machen immer noch die gleichen Fehler",
-      "url": "https://www.youtube.com/watch?v=dVGOMAVUNQk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dVGOMAVUNQk/maxresdefault.webp",
-      "description": getTranscriptSchema("dVGOMAVUNQk", "Jörg Zimmer im Gespräch mit Björn Darko über 25 Jahre SEO-Geschichte."),
-      "uploadDate": "2025-07-04T12:00:00+02:00",
-      "embedUrl": "https://www.youtube.com/embed/dVGOMAVUNQk"
-    },
-    {
-      "@type": "VideoObject",
-      "name": "Bist du SEO AI ready? - Interview mit Antonia Blago",
-      "url": "https://www.youtube.com/watch?v=ZIFCXUXypSc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZIFCXUXypSc/maxresdefault.webp",
-      "description": getTranscriptSchema("ZIFCXUXypSc", "Interview über die Schnittmenge von SEO und Künstlicher Intelligenz."),
-      "uploadDate": "2025-07-20T12:00:00+02:00",
-      "embedUrl": "https://www.youtube.com/embed/ZIFCXUXypSc"
-    },
-    {
-      "@type": "VideoObject",
-      "name": "SEO ist tot? - Magic Writing Podcast",
-      "url": "https://www.youtube.com/watch?v=32YkPQtOJDU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/32YkPQtOJDU/maxresdefault.webp",
-      "description": getTranscriptSchema("32YkPQtOJDU", "Diskussion über den aktuellen Stand von SEO."),
-      "uploadDate": "2025-06-01T12:00:00+02:00",
-      "embedUrl": "https://www.youtube.com/embed/32YkPQtOJDU"
-    },
-    {
-      "@type": "VideoObject",
-      "name": "SEO Live-Check 2026: Rankings, GEO und KI Suche erklärt mit Jörg Zimmer und Roland Golla",
-      "url": "https://www.youtube.com/watch?v=tD7cXuVcRPA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tD7cXuVcRPA/maxresdefault.webp",
-      "description": getTranscriptSchema("tD7cXuVcRPA", "Live-Analyse und SEO Sprechstunde mit Roland Golla."),
-      "uploadDate": "2026-08-13T12:00:00+02:00",
-      "embedUrl": "https://www.youtube.com/embed/tD7cXuVcRPA"
-    }
   ]
 };
+
+if (!isContentArticle) {
+  personEntity.subjectOf = videoSubjectOf;
+}
 
 // Central Business Entity
 const businessEntity: any = {
@@ -330,13 +341,18 @@ const graph: any[] = [
   }
 ];
 
+const absoluteImageUrl = image ? (image.startsWith('http') ? image : (image.startsWith('/') ? `${siteUrl}${image}` : `${siteUrl}/${image}`)) : undefined;
+
 // Add ImageObject if image is present
-if (image) {
+if (absoluteImageUrl) {
   graph.push({
     "@type": "ImageObject",
     "@id": imageId,
-    "url": image.startsWith('http') ? image : (image.startsWith('/') ? `${siteUrl}${image}` : `${siteUrl}/${image}`),
-    "caption": title
+    "url": absoluteImageUrl,
+    "contentUrl": absoluteImageUrl,
+    "caption": title,
+    "width": 1200,
+    "height": 630
   });
 }
 
@@ -346,7 +362,13 @@ if (type === 'article') {
     "@type": "BlogPosting",
     "headline": title,
     "description": description,
-    "image": imageId ? { "@id": imageId } : undefined,
+    "image": absoluteImageUrl ? {
+      "@type": "ImageObject",
+      "@id": imageId,
+      "url": absoluteImageUrl,
+      "width": 1200,
+      "height": 630
+    } : undefined,
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "author": { "@id": personId },
@@ -378,14 +400,20 @@ if (type === 'article') {
   graph.push({
     "@type": "Article",
     "@id": glossaryArticleId,
-    "headline": `Glossar: ${title}`,
+    "headline": title,
     "description": description,
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
-    "image": imageId ? { "@id": imageId } : undefined,
+    "image": absoluteImageUrl ? {
+      "@type": "ImageObject",
+      "@id": imageId,
+      "url": absoluteImageUrl,
+      "width": 1200,
+      "height": 630
+    } : undefined,
     "isAccessibleForFree": true
   });
 
@@ -399,7 +427,7 @@ if (type === 'article') {
     "url": url,
     "sameAs": sameAs || undefined,
     "alternateName": alternateNames && alternateNames.length > 0 ? alternateNames : undefined,
-    "image": imageId ? { "@id": imageId } : undefined,
+    "image": absoluteImageUrl || undefined,
     "mainEntityOfPage": { "@id": url }
   } as any);
 

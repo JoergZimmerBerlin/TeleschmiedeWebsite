@@ -7,7 +7,8 @@ category: "AI SEO & Generative Search"
 tags:
   - "Rankscale"
 date: "2026-08-11"
-thumbnail: "../../assets/images/rankscale_uebersicht_3d_1786399794342.jpg"
+image: "../../assets/images/rankscale_uebersicht_3d_1786399794342.jpg"
+image_alt: "3D Infografik: Rankscale AI Search Analytics Plattform Übersicht"
 key_takeaways:
   - "Rankscale ist eine All-in-One-Plattform, die Sichtbarkeit, Sentiment und Zitationen über 17+ AI-Engines hinweg automatisiert misst."
   - "Das GEO Page Audit klassifiziert URLs in 8 Typen und bewertet sie regelbasiert nach Human Trust und AI Citation."

@@ -11,7 +11,8 @@ tags:
   - "Toxic Backlinks"
   - "Offpage SEO"
 date: "2026-08-23"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image_alt: "3D Infografik: SE Ranking Backlink Checker und Toxic Link Monitor"
 key_takeaways:
   - "Der Backlink Checker analysiert verweisende Domains, Ankertexte und Dofollow-Ratios auf Basis einer milliardenschweren Link-Datenbank."
   - "Der integrierte Toxic Backlink Score identifiziert toxische Spam-Links vollautomatisch und exportiert fertige Google-Disavow-Listen."

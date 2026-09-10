@@ -11,7 +11,8 @@ tags:
   - "NLP"
   - "Content Score"
 date: "2026-08-22"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image_alt: "3D Infografik: SE Ranking On-Page SEO Checker und Content Editor"
 key_takeaways:
   - "Der On-Page SEO Checker analysiert Ziel-URLs anhand von 94 Parametern im direkten Abgleich mit den aktuellen Top-10-Wettbewerbern."
   - "Der Content Editor nutzt Natural Language Processing (NLP), um semantische Entitäten und optimale Textstrukturen datenbasiert vorzugeben."

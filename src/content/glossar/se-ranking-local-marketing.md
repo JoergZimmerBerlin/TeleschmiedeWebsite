@@ -11,7 +11,8 @@ tags:
   - "Citations"
   - "Reputation Management"
 date: "2026-08-23"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image_alt: "3D Infografik: SE Ranking Local Marketing und Google Maps Grid"
 key_takeaways:
   - "Das Local Marketing Tool synchronisiert Google Business Profiles, Apple Business Connect und über 30 Branchenverzeichnisse zentral."
   - "Inkonsistente NAP-Daten (Name, Address, Phone) werden automatisch aufgespürt und bereinigt, um Vertrauen bei Google Maps aufzubauen."

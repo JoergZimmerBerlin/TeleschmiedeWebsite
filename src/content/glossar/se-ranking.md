@@ -5,7 +5,8 @@ description: "Überblick über alle Funktionen der SE Ranking SEO-Plattform: Vom
 meta_description: "Überblick über alle Funktionen der SE Ranking SEO-Plattform: Vom Rank-Tracker über Audits bis zur KI-Sichtbarkeit. (2026)"
 category: "Technisches SEO & UX"
 date: "2026-08-13"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image_alt: "3D Infografik: SE Ranking All-in-One SEO Plattform Übersicht"
 key_takeaways:
   - "SE Ranking ist eine All-in-One SEO-Software, die Ranking-Überwachung, technische Audits und Wettbewerbsanalysen in einem Interface bündelt."
   - "Neben klassischem SEO bietet die Plattform moderne Tools zur Messung der Marken-Sichtbarkeit in KI-Suchmaschinen (Generative AI)."

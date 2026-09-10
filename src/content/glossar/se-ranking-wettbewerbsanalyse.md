@@ -11,7 +11,8 @@ tags:
   - "Google Ads"
   - "Keyword Gap"
 date: "2026-08-24"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image_alt: "3D Infografik: SE Ranking Wettbewerbsanalyse und Keyword-Gap-Tool"
 key_takeaways:
   - "Die SE Ranking Mitbewerber-Analyse enttarnt organische Ranking-Strategien und bezahlte Google-Ads-Kampagnen jeder beliebigen Domain."
   - "Die historische Anzeigen-Übersicht dokumentiert erfolgreiche Ad-Texte und Landingpages der Konkurrenz über Jahre hinweg."

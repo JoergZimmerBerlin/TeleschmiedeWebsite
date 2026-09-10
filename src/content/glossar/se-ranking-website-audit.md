@@ -11,7 +11,8 @@ tags:
   - "Crawling"
   - "Core Web Vitals"
 date: "2026-08-22"
-thumbnail: "../../assets/images/tools/se-ranking-audit-teleschmiede.webp"
+image: "../../assets/images/tools/se-ranking-audit-teleschmiede.webp"
+image_alt: "SE Ranking Website Audit Dashboard mit 100% Health Score für teleschmie.de"
 key_takeaways:
   - "Das SE Ranking Website Audit prüft über 115 technische Prüfpunkte von HTTP-Statuscodes bis hin zu Core Web Vitals mit vollem JavaScript-Rendering."
   - "Der Health Score 2.0 gewichtet Fehler nach Kritikalität und Verbreitung, wodurch Entwickler sofort handlungsrelevante Prioritäten erhalten."

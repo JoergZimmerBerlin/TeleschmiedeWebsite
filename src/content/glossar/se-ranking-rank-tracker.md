@@ -11,7 +11,8 @@ tags:
   - "Keyword Monitoring"
   - "Local SEO"
 date: "2026-08-22"
-thumbnail: "../../assets/images/blog/3d-light/se-ranking-top-100-rank-tracker.webp"
+image: "../../assets/images/blog/3d-light/se-ranking-top-100-rank-tracker.webp"
+image_alt: "3D Infografik: SE Ranking Keyword Rank Tracker mit Top 100 SERP-Analyse"
 key_takeaways:
   - "SE Ranking überwacht Keyword-Positionen kompromisslos über die vollen Top 100 organischen Suchergebnisse auf täglicher Basis."
   - "Das System erfasst über 35 unterschiedliche SERP-Features von Featured Snippets und Local Packs bis hin zu modernen AI Overviews."

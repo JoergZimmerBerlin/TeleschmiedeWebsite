@@ -40,6 +40,7 @@ const glossar = defineCollection({
     meta_description: z.string().optional(),
     date: z.string(),
     image: image().optional(),
+    thumbnail: image().optional(),
     image_alt: z.string().optional(),
     sameAs: z.string().url().optional(),
     synonyms: z.array(z.string()).optional(),

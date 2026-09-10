@@ -11,7 +11,8 @@ tags:
   - "Suchvolumen"
   - "Topical Authority"
 date: "2026-08-24"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
+image_alt: "3D Infografik: SE Ranking Keyword-Recherche und Cluster-Tool"
 key_takeaways:
   - "Die SE Ranking Keyword-Recherche liefert verlässliche Suchvolumina, Difficulty-Werte und Intent-Klassifizierungen für den gesamten D-A-CH-Raum."
   - "Der Keyword Grouper bündelt tausende Suchbegriffe durch SERP-Vergleiche vollautomatisch in clusterfähige Content-Silos."

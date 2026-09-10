@@ -24,7 +24,7 @@ const { entry, type } = Astro.props;
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const allEntries = await getCollection('glossar');
 
-let Content, headings, lastReviewed, readingTime, entryImageWebp;
+let Content, headings, lastReviewed, readingTime, entryImageWebp, heroImage;
 
 if (type === 'term') {
   lastReviewed = getGitModDate(`src/content/glossar/${entry.id}`);
@@ -32,8 +32,9 @@ if (type === 'term') {
   Content = rendered.Content;
   headings = rendered.headings;
 
-  if (entry.data.image) {
-    entryImageWebp = await getImage({ src: entry.data.image, format: 'webp' });
+  heroImage = entry.data.image || (entry.data as any).thumbnail;
+  if (heroImage) {
+    entryImageWebp = await getImage({ src: heroImage, format: 'webp' });
   }
 
   const wordCount = (entry.body || '').split(/\s+/).length;
@@ -57,7 +58,7 @@ if (type === 'term') {
 <Layout
   title={entry.data.meta_title || entry.data.title}
   description={entry.data.meta_description || entry.data.description}
-  ogImage={entryImageWebp?.src || (entry.data.image as any)?.src}
+  ogImage={entryImageWebp?.src || (heroImage as any)?.src}
   robots={entry.data.robots}
 >
   <article class="section pt-2">
@@ -107,10 +108,10 @@ if (type === 'term') {
       </header>
 
       <!-- Mobile Hero Image (Visible only on Mobile) -->
-      {entry.data.image && (
+      {heroImage && (
         <div class="lg:hidden mb-8 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
           <Image 
-            src={entry.data.image} 
+            src={heroImage} 
             alt={entry.data.image_alt || entry.data.title}
             class="w-full h-auto object-cover"
             loading="eager"
@@ -154,10 +155,10 @@ if (type === 'term') {
           <div class="blog-content prose prose-lg max-w-none leading-relaxed prose-headings:text-dark prose-p:text-gray-text prose-a:text-lime-600 prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-lime-700 prose-strong:text-dark prose-blockquote:border-lime-accent prose-blockquote:bg-gray-50 prose-blockquote:py-6 prose-blockquote:px-8 prose-blockquote:my-12 prose-blockquote:rounded-r-lg prose-pre:whitespace-pre-wrap prose-pre:break-words" id="blog-content">
             {entry.data.key_takeaways && <KeyTakeaways takeaways={entry.data.key_takeaways} />}
             
-            {entry.data.image && (
+            {heroImage && (
               <div class="hidden lg:block mb-12 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
                 <Image 
-                  src={entry.data.image} 
+                  src={heroImage} 
                   alt={entry.data.image_alt || entry.data.title}
                   class="w-full h-auto object-cover"
                   loading="eager"

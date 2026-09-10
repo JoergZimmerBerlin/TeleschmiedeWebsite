@@ -69,6 +69,26 @@ htmlFiles.forEach(file => {
     let imageTags = '';
     const seenImages = new Set();
 
+    // 1. Priorisiere das og:image als wichtigstes Primärbild der Seite
+    const ogImageMeta = document.querySelector('meta[property="og:image"]')?.getAttribute('content');
+    if (ogImageMeta && !ogImageMeta.startsWith('data:') && !ogImageMeta.includes('google-analytics')) {
+      let ogSrc = ogImageMeta;
+      if (ogSrc.startsWith('/')) {
+        ogSrc = `${baseUrl}${ogSrc}`;
+      }
+      if (ogSrc.startsWith('http')) {
+        const pageTitle = document.title || 'Teleschmiede';
+        seenImages.add(ogSrc);
+        imageTags += `
+    <image:image>
+      <image:loc>${escapeXml(ogSrc)}</image:loc>
+      <image:title>${escapeXml(pageTitle)}</image:title>
+    </image:image>`;
+        totalImages++;
+      }
+    }
+
+    // 2. Erfasse weitere Bilder aus dem Inhaltsbereich (überspringe Header-Logo/Avatare vorrangig)
     images.forEach(img => {
       let src = img.getAttribute('src');
       let alt = img.getAttribute('alt') || document.title || 'Teleschmiede Image';

@@ -11,7 +11,8 @@ tags:
   - "SEO Agentur"
   - "B2B Features"
 date: "2026-08-23"
-thumbnail: "../../assets/images/glossar/3d-light/se-ranking-agentur.webp"
+image: "../../assets/images/glossar/3d-light/se-ranking-agentur.webp"
+image_alt: "3D Infografik: SE Ranking White-Label Reporting und Agentur-Dashboard"
 key_takeaways:
   - "Mit vollständigem White-Labeling hostest du SE Ranking unter deiner eigenen Agentur-Domain mit eigenem Logo und Farbschema."
   - "Kundenfreundliche Guest Links ermöglichen passwortfreie Live-Dashboards für Mandanten ohne zeitraubende manuelle Statusberichte."

@@ -5,6 +5,16 @@ import { Image } from 'astro:assets';
 import Schema from '../../components/Schema.astro';
 
 const allEntries = await getCollection('glossar');
+const categoryEntries = allEntries
+  .filter(e => (e.data.category || 'SEO Basics & Onpage') === 'Technisches SEO & UX')
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const collectionItems = categoryEntries.map(t => ({
+  name: t.data.title,
+  url: `https://teleschmie.de/glossar/${t.id}/`,
+  description: t.data.meta_description || t.data.description
+}));
+
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Layout title="Technisches SEO & UX | Jörg Zimmer (2026)" description="Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)">
@@ -26,10 +36,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {allEntries
-          .filter(e => (e.data.category || 'SEO Basics & Onpage') === 'Technisches SEO & UX')
-          .sort((a, b) => a.data.title.localeCompare(b.data.title))
-          .map(t => (
+        {categoryEntries.map(t => (
             <a href={`${baseUrl}/glossar/${t.id}/`} class="group block bg-white border border-gray-100 rounded-xl p-6 hover:shadow-md hover:border-lime-accent transition-all duration-300">
               <h2 class="text-lg font-bold mb-2 group-hover:text-lime-600 transition-colors">
                 {t.data.title}
@@ -48,5 +55,10 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </div>
   </section>
-  <Schema title="Technisches SEO & UX | Jörg Zimmer" description="Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)" />
+  <Schema 
+    type="collection"
+    title="Technisches SEO & UX | Jörg Zimmer (2026)" 
+    description="Crawling, Indexierung, PageSpeed, Core Web Vitals und Architektur. (2026)" 
+    collectionItems={collectionItems}
+  />
 </Layout>

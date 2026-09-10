@@ -23,12 +23,11 @@ interface Props {
   description?: string;
   lastReviewed?: string;
   url?: string;
-  type?: 'article' | 'glossary' | 'about' | 'software' | 'videos' | 'default';
+  type?: 'article' | 'glossary' | 'about' | 'profile' | 'service' | 'collection' | 'contact' | 'software' | 'videos' | 'default';
   image?: string;
   datePublished?: string;
   dateModified?: string;
   faqs?: any[];
-
   offers?: any[];
   mainEntity?: any;
   sameAs?: string;
@@ -37,6 +36,9 @@ interface Props {
   category?: string;
   tags?: string[];
   keyTakeaways?: string[];
+  collectionItems?: { name: string; url: string; description?: string }[];
+  isTechArticle?: boolean;
+  item?: any;
 }
 
 const { 
@@ -56,13 +58,18 @@ const {
   quote,
   category,
   tags,
-  keyTakeaways
+  keyTakeaways,
+  collectionItems,
+  isTechArticle,
+  item
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
 const personId = `${siteUrl}/#person`;
 const businessId = `${siteUrl}/#localbusiness`;
 const websiteId = `${siteUrl}/#website`;
+const termSetId = `${siteUrl}/glossar/#termset`;
+const blogId = `${siteUrl}/blog/#blog`;
 const breadcrumbId = `${url}#breadcrumb`;
 const imageId = image ? `${url}#primaryimage` : undefined;
 
@@ -185,20 +192,20 @@ const personEntity: any = {
     "https://www.google.com/search?kgmid=/g/11w3v3xj2l"
   ],
   "knowsAbout": [
-    { "@type": "DefinedTerm", "name": "Search Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q180711" },
-    { "@type": "DefinedTerm", "name": "Technical SEO" },
-    { "@type": "DefinedTerm", "name": "Strategic SEO", "sameAs": "https://www.wikidata.org/wiki/Q180711" },
-    { "@type": "DefinedTerm", "name": "Content SEO" },
-    { "@type": "DefinedTerm", "name": "Local SEO", "sameAs": "https://www.wikidata.org/wiki/Q616553" },
-    { "@type": "DefinedTerm", "name": "Sistrix", "sameAs": "https://www.wikidata.org/wiki/Q97199261" },
-    { "@type": "DefinedTerm", "name": "SE Ranking", "sameAs": "https://seranking.com/" },
-    { "@type": "DefinedTerm", "name": "Rankscale", "sameAs": "https://rankscale.ai/" },
-    { "@type": "DefinedTerm", "name": "SEORCH", "sameAs": "https://seorch.de/" },
-    { "@type": "DefinedTerm", "name": "Search Engine Advertising", "sameAs": "https://www.wikidata.org/wiki/Q16675898" },
-    { "@type": "DefinedTerm", "name": "Google Ads", "sameAs": "https://www.wikidata.org/wiki/Q271982" },
-    { "@type": "DefinedTerm", "name": "Performance Marketing", "sameAs": "https://www.wikidata.org/wiki/Q2070665" },
-    { "@type": "DefinedTerm", "name": "Generative Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q134083964" },
-    { "@type": "DefinedTerm", "name": "Artificial Intelligence", "sameAs": "https://www.wikidata.org/wiki/Q11660" }
+    { "@type": "DefinedTerm", "name": "Search Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q180711", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Technical SEO", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Strategic SEO", "sameAs": "https://www.wikidata.org/wiki/Q180711", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Content SEO", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Local SEO", "sameAs": "https://www.wikidata.org/wiki/Q616553", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Sistrix", "sameAs": "https://www.wikidata.org/wiki/Q97199261", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "SE Ranking", "sameAs": "https://seranking.com/", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Rankscale", "sameAs": "https://rankscale.ai/", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "SEORCH", "sameAs": "https://seorch.de/", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Search Engine Advertising", "sameAs": "https://www.wikidata.org/wiki/Q16675898", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Google Ads", "sameAs": "https://www.wikidata.org/wiki/Q271982", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Performance Marketing", "sameAs": "https://www.wikidata.org/wiki/Q2070665", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Generative Engine Optimization", "sameAs": "https://www.wikidata.org/wiki/Q134083964", "inDefinedTermSet": { "@id": termSetId } },
+    { "@type": "DefinedTerm", "name": "Artificial Intelligence", "sameAs": "https://www.wikidata.org/wiki/Q11660", "inDefinedTermSet": { "@id": termSetId } }
   ],
   "memberOf": [
     { "@type": "Organization", "name": "SEO Stammtisch Berlin" },
@@ -302,39 +309,100 @@ if (offers && offers.length > 0) {
   };
 }
 
+// Central DefinedTermSet Node (Domain-wide Glossary Lexicon)
+const definedTermSetNode: any = {
+  "@type": "DefinedTermSet",
+  "@id": termSetId,
+  "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
+  "description": "Experten-Glossar für Suchmaschinenoptimierung, Generative Engine Optimization und Performance Marketing",
+  "url": `${siteUrl}/glossar/`,
+  "author": { "@id": personId },
+  "publisher": { "@id": businessId },
+  "isPartOf": { "@id": websiteId },
+  "hasDefinedTerm": personEntity.knowsAbout
+};
+
+// Central Blog Node (Domain-wide Publication Container)
+const blogNode: any = {
+  "@type": "Blog",
+  "@id": blogId,
+  "name": "Jörg Zimmer SEO & AI Search Blog",
+  "description": "Tiefgründige Case Studies, bewährte SEO-Strategien, technische Analysen und Insights aus 25 Jahren Performance Marketing",
+  "url": `${siteUrl}/blog/`,
+  "author": { "@id": personId },
+  "publisher": { "@id": businessId },
+  "isPartOf": { "@id": websiteId }
+};
+
+// Determine page-level schema type (Google Search & Schema.org best practice)
+let pageTypes: string[] = ["WebPage"];
+if (type === 'profile') pageTypes = ["WebPage", "ProfilePage"];
+else if (type === 'about') pageTypes = ["WebPage", "AboutPage"];
+else if (type === 'contact') pageTypes = ["WebPage", "ContactPage"];
+else if (type === 'collection' || type === 'videos') pageTypes = ["WebPage", "CollectionPage"];
+
+const webPageNode: any = {
+  "@type": pageTypes.length === 1 ? pageTypes[0] : pageTypes,
+  "@id": url,
+  "url": url,
+  "name": title,
+  "description": description,
+  "author": { "@id": personId },
+  "reviewedBy": { "@id": personId },
+  "publisher": { "@id": businessId },
+  "breadcrumb": { "@id": breadcrumbId },
+  "datePublished": datePublishedISO,
+  "dateModified": dateModifiedISO,
+  "lastReviewed": lastReviewedISO,
+  "isPartOf": { "@id": websiteId },
+  "primaryImageOfPage": imageId ? { "@id": imageId } : undefined,
+  "about": type === 'default' ? { "@id": businessId } : undefined,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", "main p:first-of-type"]
+  },
+  "isAccessibleForFree": true
+};
+
+if (type === 'profile') {
+  webPageNode.mainEntity = { "@id": personId };
+  webPageNode.about = { "@id": personId };
+} else if (type === 'about') {
+  webPageNode.mainEntity = mainEntity || { "@id": personId };
+  webPageNode.about = { "@id": personId };
+} else if (type === 'contact') {
+  webPageNode.mainEntity = { "@id": businessId };
+  webPageNode.about = { "@id": businessId };
+}
+
 const graph: any[] = [
   personEntity,
   businessEntity,
+  definedTermSetNode,
+  blogNode,
   {
     "@type": "WebSite",
     "@id": websiteId,
     "url": siteUrl,
     "name": "Jörg Zimmer - SEO / GEO / AI Visibility Freelancer",
     "publisher": { "@id": personId },
-    "author": { "@id": personId }
-  },
-  {
-    "@type": "WebPage",
-    "@id": url,
-    "url": url,
-    "name": title,
-    "description": description,
     "author": { "@id": personId },
-    "reviewedBy": { "@id": personId },
-    "publisher": { "@id": businessId },
-    "breadcrumb": { "@id": breadcrumbId },
-    "datePublished": datePublishedISO,
-    "dateModified": dateModifiedISO,
-    "lastReviewed": lastReviewedISO,
-    "isPartOf": { "@id": websiteId },
-    "primaryImageOfPage": imageId ? { "@id": imageId } : undefined,
-    "about": type === 'default' ? { "@id": businessId } : undefined,
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": ["h1", "main p:first-of-type"]
-    },
-    "isAccessibleForFree": true
+    "hasPart": [
+      {
+        "@type": "DefinedTermSet",
+        "@id": termSetId,
+        "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
+        "url": `${siteUrl}/glossar/`
+      },
+      {
+        "@type": "Blog",
+        "@id": blogId,
+        "name": "Jörg Zimmer SEO & AI Search Blog",
+        "url": `${siteUrl}/blog/`
+      }
+    ]
   },
+  webPageNode,
   {
     "@type": "BreadcrumbList",
     "@id": breadcrumbId,
@@ -357,23 +425,63 @@ if (absoluteImageUrl) {
   });
 }
 
+// Service Page First-Class Entity
+const isServicePage = type === 'service' || (offers && offers.length > 0 && (url.includes('/seo-') || url.includes('/google-ads-') || url.includes('/leistungen/')));
+if (isServicePage) {
+  const serviceId = `${url}#service`;
+  const serviceEntity: any = {
+    "@type": "Service",
+    "@id": serviceId,
+    "name": title,
+    "description": description,
+    "url": url,
+    "provider": { "@id": businessId },
+    "brand": { "@id": businessId },
+    "serviceType": (title && title.includes('Google Ads')) ? "Search Engine Advertising & Google Ads Consulting" : "Search Engine Optimization & AI Visibility Consulting",
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Berlin" },
+      { "@type": "Country", "name": "Deutschland" },
+      { "@type": "Country", "name": "Österreich" },
+      { "@type": "Country", "name": "Schweiz" }
+    ]
+  };
+  if (businessEntity.hasOfferCatalog) {
+    serviceEntity.hasOfferCatalog = businessEntity.hasOfferCatalog;
+  }
+  graph.push(serviceEntity);
+  webPageNode.mainEntity = { "@id": serviceId };
+  webPageNode.about = { "@id": serviceId };
+}
+
+// CollectionPage ItemList (for Category Hubs & Archives)
+if (type === 'collection' && collectionItems && collectionItems.length > 0) {
+  const itemListId = `${url}#itemlist`;
+  const itemListNode = {
+    "@type": "ItemList",
+    "@id": itemListId,
+    "name": title,
+    "description": description,
+    "numberOfItems": collectionItems.length,
+    "itemListElement": collectionItems.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "url": item.url
+    }))
+  };
+  graph.push(itemListNode);
+  webPageNode.mainEntity = { "@id": itemListId };
+}
+
 // Add Article/Glossary/About specific data to graph
 if (type === 'article') {
-  const termSetId = `${siteUrl}/glossar/#termset`;
-
-  // Cross-reference the central DefinedTermSet from the Glossary
-  graph.push({
-    "@type": "DefinedTermSet",
-    "@id": termSetId,
-    "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
-    "description": "Experten-Glossar für Suchmaschinenoptimierung und Performance Marketing",
-    "url": `${siteUrl}/glossar/`,
-    "author": { "@id": personId },
-    "publisher": { "@id": businessId }
-  });
+  const isTechnical = isTechArticle || category === 'Tech SEO & Tools' || category === 'AI SEO' || tags?.some(t => ['Schema.org', 'API', 'Crawling', 'Core Web Vitals', 'PageSpeed', 'Python', 'Technisches SEO'].includes(t));
+  const articleTypes = isTechnical ? ["BlogPosting", "TechArticle"] : "BlogPosting";
+  const articleId = `${url}#article`;
 
   const blogPostingNode: any = {
-    "@type": "BlogPosting",
+    "@type": articleTypes,
+    "@id": articleId,
     "headline": title,
     "description": description,
     "image": absoluteImageUrl ? {
@@ -388,9 +496,12 @@ if (type === 'article') {
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@id": url },
-    "isPartOf": { "@id": websiteId },
+    "isPartOf": { "@id": blogId },
     "isAccessibleForFree": true
   };
+  if (isTechnical) {
+    blogPostingNode.proficiencyLevel = "Expert";
+  }
   if (category) blogPostingNode.articleSection = category;
   if (tags && tags.length > 0) {
     blogPostingNode.keywords = tags.join(", ");
@@ -402,25 +513,14 @@ if (type === 'article') {
   }
   if (keyTakeaways && keyTakeaways.length > 0) blogPostingNode.abstract = keyTakeaways.map(t => cleanText(t)).join(" ");
   graph.push(blogPostingNode);
+  webPageNode.mainEntity = { "@id": articleId };
 } else if (type === 'glossary') {
   const termId = `${url}#term`;
   const glossaryArticleId = `${url}#article`;
-  const termSetId = `${siteUrl}/glossar/#termset`;
-  
-  // The DefinedTermSet represents the entire Glossary, linking all terms directly to Jörg as the author
-  graph.push({
-    "@type": "DefinedTermSet",
-    "@id": termSetId,
-    "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
-    "description": "Experten-Glossar für Suchmaschinenoptimierung und Performance Marketing",
-    "url": `${siteUrl}/glossar/`,
-    "author": { "@id": personId },
-    "publisher": { "@id": businessId }
-  });
 
   // The Article serves as the container for the knowledge, attributing it to the Person
   graph.push({
-    "@type": "Article",
+    "@type": ["Article", "TechArticle"],
     "@id": glossaryArticleId,
     "headline": title,
     "description": description,
@@ -429,6 +529,7 @@ if (type === 'article') {
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
+    "isPartOf": { "@id": termSetId },
     "image": absoluteImageUrl ? {
       "@type": "ImageObject",
       "@id": imageId,
@@ -436,7 +537,8 @@ if (type === 'article') {
       "width": 1200,
       "height": 630
     } : undefined,
-    "isAccessibleForFree": true
+    "isAccessibleForFree": true,
+    "proficiencyLevel": "Expert"
   });
 
   // The DefinedTerm is the core knowledge piece, nested in the TermSet
@@ -453,19 +555,7 @@ if (type === 'article') {
     "mainEntityOfPage": { "@id": url }
   } as any);
 
-  // Link WebPage to the Article instead of the term directly
-  const webPage = graph.find(e => e["@type"] === "WebPage");
-  if (webPage) {
-    webPage.mainEntity = { "@id": glossaryArticleId };
-  }
-} else if (type === 'about') {
-  graph.push({
-    "@type": "AboutPage",
-    "name": title,
-    "description": description,
-    "url": url,
-    "mainEntity": mainEntity || { "@id": personId }
-  } as any);
+  webPageNode.mainEntity = { "@id": glossaryArticleId };
 } else if (type === 'software') {
   graph.push({
     "@type": "SoftwareApplication",
@@ -482,12 +572,16 @@ if (type === 'article') {
     }
   } as any);
 } else if (type === 'videos') {
-  const webPage = graph.find(e => e["@type"] === "WebPage");
-  if (webPage) {
-    webPage["@type"] = ["WebPage", "CollectionPage"];
-    if (mainEntity) {
-      webPage.mainEntity = mainEntity;
-    }
+  if (mainEntity) {
+    webPageNode.mainEntity = mainEntity;
+  }
+}
+
+// Push custom item if passed directly
+if (item) {
+  graph.push(item);
+  if (item["@id"]) {
+    webPageNode.mainEntity = { "@id": item["@id"] };
   }
 }
 

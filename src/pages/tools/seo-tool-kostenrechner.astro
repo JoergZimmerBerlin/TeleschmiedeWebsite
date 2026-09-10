@@ -70,7 +70,14 @@ const webAppSchema = {
   ogImage={optimizedOgImage.src}
   maxTitleLength={70}
 >
-  <Schema item={webAppSchema} />
+  <Schema 
+    type="software"
+    title={pageTitle}
+    description={pageDescription}
+    mainEntity={webAppSchema}
+    faqs={faqItems}
+    lastReviewed={lastReviewed}
+  />
 
   <!-- Breadcrumb Navigation -->
   <nav class="bg-gray-100 py-3 border-b border-gray-200 text-sm" aria-label="Breadcrumb">

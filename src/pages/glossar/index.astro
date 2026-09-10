@@ -30,6 +30,12 @@ const sortedEntries = glossarEntries.sort((a, b) => {
   return a.data.title.localeCompare(b.data.title);
 });
 
+const collectionItems = sortedEntries.map(e => ({
+  name: e.data.title,
+  url: `https://teleschmie.de/glossar/${e.id}/`,
+  description: e.data.meta_description || e.data.description
+}));
+
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const categories = [
@@ -143,8 +149,10 @@ const categories = [
     </div>
   </section>
   <Schema 
+    type="collection"
     title="Glossar | SEO Fachbegriffe einfach erklärt (2026)"
     description="Lexikon der wichtigsten Fachbegriffe aus SEO, SEA und Online Marketing – verständlich erklärt für Entscheider. (2026)"
+    collectionItems={collectionItems}
   />
 </Layout>
 

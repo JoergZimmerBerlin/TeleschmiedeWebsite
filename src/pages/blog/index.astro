@@ -20,6 +20,12 @@ const optimizedFeaturedImage = featuredImage
 
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+const collectionItems = sortedPosts.map(p => ({
+  name: p.data.title,
+  url: `https://teleschmie.de/blog/${p.id}/`,
+  description: p.data.meta_description || p.data.description
+}));
+
 // Get only the 7 latest posts for the "Frisch aus dem Blog" section
 const recentPosts = sortedPosts.slice(0, 7);
 
@@ -276,8 +282,10 @@ const hubs = hubsConfig.map(hub => {
     </div>
   </section>
   <Schema 
+    type="collection"
     title="Blog | Jörg Zimmer - SEO Insights & Themen-Hubs (2026)"
     description="Aktuelle Insights zu SEO, SEA und Performance Marketing von Jörg Zimmer. (2026)"
+    collectionItems={collectionItems}
   />
 </Layout>
 

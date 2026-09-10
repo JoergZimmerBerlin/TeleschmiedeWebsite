@@ -244,12 +244,3 @@ Wie Sie Ihre Sichtbarkeit im Zeitalter generativer Suchsysteme professionell ana
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* [Server-Side Rendering (SSR) im SEO](/glossar/server-side-rendering/)
-* [Client-Side Rendering (CSR) Risiken](/glossar/client-side-rendering/)
-* [Technisches Schema Markup](/glossar/technisches-schema-markup/)
-* [PageSpeed & Ladezeiten-Optimierung](/glossar/pagespeed/)
-* [Core Web Vitals Guide](/glossar/core-web-vitals/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)

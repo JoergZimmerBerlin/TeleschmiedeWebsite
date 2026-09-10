@@ -209,12 +209,3 @@ Einen Überblick über ergänzende Tools zur Überwachung Ihrer organischen und 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Google Search Console Grundlagen](/glossar/google-search-console/)
-* [XML-Sitemap für Suchmaschinen](/glossar/sitemap/)
-* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* [Canonical Tag zur Duplicate-Content-Vermeidung](/glossar/canonical-tag/)
-* [PageSpeed und Core Web Vitals](/glossar/pagespeed/)
-
-

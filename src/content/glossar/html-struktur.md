@@ -226,12 +226,3 @@ Zur kontinuierlichen Überwachung deiner Seitenarchitektur und technischer Fehle
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Schema.org-Markup: Strukturierte Daten im Web](/glossar/schema-org-markup/)
-* [Markdown Content Negotiation: Effiziente Datenbereitstellung](/glossar/markdown-content-negotiation/)
-* [Pagespeed: Schnelle Ladezeiten für Nutzer und Bots](/glossar/pagespeed/)
-* [Snippet-Optimierung: Klickraten in den SERPs steigern](/glossar/snippet-optimierung/)
-* [Answer Engine Optimization (AEO): Optimierung für KI-Antworten](/glossar/aeo/)
-* [Entität: Bedeutung im semantischen Web](/glossar/entitaet/)
-* [Agent Readiness Level: KI-Bereitschaft von Webseiten](/glossar/agent-readiness-level/)

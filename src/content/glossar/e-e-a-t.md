@@ -179,16 +179,3 @@ Wenn deine Daten-Signatur im Web unmissverständlich belegt, dass du die verläs
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [Experience: Maschinenlesbare Praxiserfahrung](/glossar/experience-eeat/)
-- [Expertise: Fachliche Vektortiefe aufbauen](/glossar/expertise-eeat/)
-- [Authoritativeness: Autorität im Knowledge Graph](/glossar/authoritativeness-eeat/)
-- [Trustworthiness: Vertrauenswürdigkeit im Algorithmus](/glossar/trustworthiness-eeat/)
-- [Groundingpage](/glossar/grounding-page/)
-- [Entity SEO: Optimierung für KI-Crawler](/glossar/entity-seo/)
-- [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-
-
-

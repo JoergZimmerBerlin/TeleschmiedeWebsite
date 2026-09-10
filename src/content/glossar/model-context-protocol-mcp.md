@@ -179,12 +179,3 @@ Es gibt keine Zeit mehr für zögerliche Experimente. Die Technologie ist flügg
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [MCP Server Card](/glossar/mcp-server-card/)
-* [WebMCP](/glossar/webmcp/)
-* [Agent Readiness Level](/glossar/agent-readiness-level/)
-* [A2A-Protokoll](/glossar/a2a-protocol/)
-* [Agent Card (agent-card.json)](/glossar/agent-card-json/)
-* [Auth.md](/glossar/auth-md/)
-* [RAG (Retrieval-Augmented Generation)](/glossar/rag/)

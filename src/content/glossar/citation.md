@@ -197,15 +197,3 @@ Wer seine Datenarchitektur sauber strukturiert, schafft ein krisenfestes Fundame
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Mention: Grundlagen digitaler Erwähnungen](/glossar/mention/)
-* [Brand Mentions: Markenaufbau im semantischen Web](/glossar/brand-mentions/)
-* [Entität: Bedeutung im Knowledge Graph](/glossar/entitaet/)
-* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
-* [Trustworthiness (E-E-A-T)](/glossar/trustworthiness-eeat/)
-* [E-E-A-T Richtlinien](/glossar/e-e-a-t/)
-* [Citation Frequency](/glossar/citation-frequency/)
-
-

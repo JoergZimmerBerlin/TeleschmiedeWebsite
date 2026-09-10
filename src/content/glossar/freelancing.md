@@ -165,13 +165,3 @@ Die Arbeitswelt wandelt sich rasant. Traditionelle Konzepte von 9-to-5-Bürojobs
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [SEO-Freelancer in Berlin: Fachexpertise auf Senior-Niveau](/seo-freelancer-berlin/)
-* [GEO-Freelancer: Spezialist für generative Suchmaschinen](/glossar/geo-freelancer/)
-* [Das Freelancer Team: Kollektive Stärke](/freelancer-team/)
-* [E-E-A-T im Überblick](/glossar/e-e-a-t/)
-* [Experience (E-E-A-T): First-Hand Praxiserfahrung](/glossar/experience-eeat/)
-* [Expertise (E-E-A-T): Fachtiefe nachweisen](/glossar/expertise-eeat/)
-* [Trustworthiness (E-E-A-T): Vertrauensbasis](/glossar/trustworthiness-eeat/)
-

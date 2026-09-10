@@ -223,12 +223,3 @@ Einen detaillierten Marktüberblick über spezialisierte Analyse-Tools zur Messu
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Moderne Keywordrecherche](/glossar/keywordrecherche/)
-* [Was ist eine Entität im SEO?](/glossar/entitaet/)
-* [Strukturierte Daten für KI-Systeme](/glossar/strukturierte-daten/)
-* [Zitierfähiger Content im Überblick](/glossar/zitierfaehiger-content/)
-* [Zero-Click Content Optimierung](/glossar/zero-click-content/)

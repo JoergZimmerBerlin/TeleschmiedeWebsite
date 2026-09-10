@@ -156,16 +156,3 @@ Technische Sauberkeit und Crawlability bleiben unverzichtbare Voraussetzungen. A
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Agent Readiness: Der Standard für autonome KI-Agenten](/glossar/agent-readiness/)
-* [A2A Protocol: Kommunikation zwischen autonomen Agenten](/glossar/a2a-protocol/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)
-* [LLMO: Optimierung für Large Language Models](/glossar/llmo/)
-* [Entity SEO: Entitätenbasierte Suchmaschinenoptimierung](/glossar/entity-seo/)
-* [RAG: Retrieval-Augmented Generation im Detail](/glossar/rag/)
-* [Share of Model (SoM): Die neue Reichweitenmetrik](/glossar/share-of-model/)
-* [Citation Frequency: Zitationshäufigkeit in Sprachmodellen](/glossar/citation-frequency/)
-* [AI Tracking Tools: Messung der Modell-Präsenz](/glossar/ai-tracking-tools/)
-

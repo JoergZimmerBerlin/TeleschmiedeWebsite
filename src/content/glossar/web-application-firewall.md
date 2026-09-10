@@ -174,13 +174,3 @@ Um Ausfälle zu verhindern, sollten WAF-Logfiles wöchentlich analysiert werden.
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
-* [AI Crawlability für generative Suchmaschinen](/glossar/ai-crawlability/)
-* [Generative Engine Optimization im Detail](/glossar/geo/)
-* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
-* [Robots.txt: Steuerungsdateien verstehen](/glossar/robots-txt/)
-* [Google Search Console: Fehler erkennen](/glossar/google-search-console/)
-* [PageSpeed: Ladezeiten nachhaltig optimieren](/glossar/pagespeed/)
-

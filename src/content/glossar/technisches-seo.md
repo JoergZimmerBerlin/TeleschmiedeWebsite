@@ -192,14 +192,3 @@ Für die automatisierte Erkennung technischer Onpage-Fehler, Crawling-Barrieren 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Website SEO Audit: Die ganzheitliche Systemanalyse](/glossar/website-seo-audit/)
-* [Strukturierte Daten: Fakten maschinenlesbar deklarieren](/glossar/strukturierte-daten/)
-* [Technisches Schema-Markup: Tiefgehende JSON-LD Implementierung](/glossar/technisches-schema-markup/)
-* [Server-Side Rendering: Das Fundament moderner Crawlbarkeit](/glossar/server-side-rendering/)
-* [Client-Side Rendering: Risiken bei der maschinellen Erfassung](/glossar/client-side-rendering/)
-* [Pagespeed: Geschwindigkeitsoptimierung für Nutzer und Bots](/glossar/pagespeed/)
-* [HTML-Struktur: Semantischer Dokumentenaufbau für Parser](/glossar/html-struktur/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-

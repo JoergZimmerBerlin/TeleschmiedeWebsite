@@ -183,13 +183,3 @@ Zur kontinuierlichen Analyse profitabler Keyword-Kombinationen, historischer CPC
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Money Keywords: Kommerzielle Kernbegriffe strategisch nutzen](/glossar/money-keyword/)
-* [Conversion Rate: Klicks in messbaren Geschäftserfolg wandeln](/glossar/conversion-rate/)
-* [Click-Through Rate (CTR): Klickraten gezielt steigern](/glossar/ctr/)
-* [Technisches SEO: Die Grundlage für niedrige Klickpreise](/glossar/technisches-seo/)
-* [Pagespeed: Schnelle Ladezeiten für besseren Quality Score](/glossar/pagespeed/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Topical Authority: Themenführerschaft aufbauen](/glossar/topical-authority/)

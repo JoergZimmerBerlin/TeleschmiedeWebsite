@@ -205,12 +205,3 @@ Domains, die ihre Inhaltsarchitektur konsequent auf semantische Prinzipien umste
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [Knowledge Graph & RAG-Grounding](/glossar/knowledge-graph/)
-* [Strukturierte Daten für KI-Suchmaschinen](/glossar/strukturierte-daten/)
-* [E-E-A-T: Das Qualitätsfundament](/glossar/e-e-a-t/)
-* [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)

@@ -190,14 +190,3 @@ Erfolgreiche Marken betreiben 2026 keine isolierten Einzeldisziplinen mehr. Das 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Sichtbarkeitsmanagement in modernen Suchumgebungen](/glossar/sichtbarkeitsmanagement/)
-* [Sichtbarkeitsindex: Aussagekraft und Grenzen klassischer Metriken](/glossar/sichtbarkeitsindex/)
-* [Generative Engine Optimization (GEO): Zitationen sichern](/glossar/geo-optimierung/)
-* [Technisches SEO als Architektur-Fundament](/glossar/technisches-seo/)
-* [Strukturierte Daten für fehlerfreie Entitäten](/glossar/strukturierte-daten/)
-* [Query Fan-Out: Wie LLMs Suchanfragen aufspalten](/glossar/query-fan-out/)
-* [RAG Pipelines: Retrieval-Augmented Generation verstehen](/glossar/rag/)
-* [Crawler: Funktionsweise moderner Web-Spider](/glossar/crawler/)
-

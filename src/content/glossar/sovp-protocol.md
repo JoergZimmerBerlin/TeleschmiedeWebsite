@@ -182,15 +182,3 @@ Mache deine Web-Infrastruktur fit für die Anforderungen des Agentic Web. Implem
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [DNS Sovereignty: Autonomie im Namensraum](/glossar/dns-sovereignty/)
-* [EU AI Act: Rechtliche Rahmenbedingungen für KI](/glossar/eu-ai-act/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [E-E-A-T: Vertrauen und Autorität im KI-Zeitalter](/glossar/e-e-a-t/)
-* [RFC 8288 Link Headers im Detail](/glossar/rfc-8288-link-headers/)
-* [llms.txt: Die Steuerungsdatei für KI-Modelle](/glossar/llms-txt/)
-* [Trailing Slashes: Saubere URL-Architektur](/glossar/trailing-slashes/)
-* [SE Ranking: Monitoring für SEO & GEO](/glossar/se-ranking/)
-* [Rankscale: LLM-Brand-Intelligence](/glossar/rankscale/)
-* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)

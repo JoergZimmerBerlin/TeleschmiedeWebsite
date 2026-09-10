@@ -192,10 +192,3 @@ Einen detaillierten Überblick über spezialisierte Plattformen zur Messung von 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Suchvolumen im SEO 2026](/glossar/suchvolumen/)
-* [Was ist eine Entität im Semantic Web?](/glossar/entitaet/)
-* [AI Visibility Score berechnen](/glossar/ai-visibility-score/)
-* [Brand Sentiment und KI-Zitate](/glossar/brand-sentiment/)
-* [Share of Voice im digitalen Marketing](/glossar/share-of-voice/)

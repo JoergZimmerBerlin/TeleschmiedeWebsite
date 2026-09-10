@@ -199,14 +199,3 @@ Planen Sie im Vorfeld ein professionelles [SEO-Audit](/glossar/seo-audit/) ein, 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [SEO-Audit zur Schwachstellenanalyse](/glossar/seo-audit/)
-* [Technisches SEO für moderne Websites](/glossar/technisches-seo/)
-* [301 vs. 302 Weiterleitungen im Detail](/glossar/301-vs-302/)
-* [Core Web Vitals und User Experience](/glossar/core-web-vitals/)
-* [Entity SEO für semantische Autorität](/glossar/entity-seo/)
-* [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Google Search Console: Indexierungsberichte](/glossar/google-search-console/)
-

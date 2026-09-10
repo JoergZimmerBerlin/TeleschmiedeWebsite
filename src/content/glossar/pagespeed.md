@@ -192,13 +192,3 @@ Eine dauerhaft hohe Geschwindigkeit erfordert kontinuierliche Messungen und defi
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* [Technisches SEO als Fundament](/glossar/technisches-seo/)
-* [Server-Side Rendering (SSR) im Detail](/glossar/server-side-rendering/)
-* [Client-Side Rendering (CSR) und SEO](/glossar/client-side-rendering/)
-* [Content Delivery Network (CDN) nutzen](/glossar/content-delivery-network/)
-* [Canonical Tag: Duplicate Content verhindern](/glossar/canonical-tag/)
-* [Trailing Slashes: Saubere URLs garantieren](/glossar/trailing-slashes/)
-

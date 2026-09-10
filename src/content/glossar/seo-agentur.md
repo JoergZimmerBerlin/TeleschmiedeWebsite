@@ -163,12 +163,3 @@ Es ist dein Geld. Verbrenn es nicht.
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [SEO Beratung für strategisches Wachstum](/glossar/seo-beratung/)
-* [SEO Coaching für Inhouse-Teams](/glossar/seo-coaching/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [LLMs.txt Leitfaden für KI-Crawler](/glossar/llms-txt/)
-* [RFC 8288 Link Headers im Detail](/glossar/rfc-8288-link-headers/)
-* [Schema.org Markup implementieren](/glossar/schema-org-markup/)
-* [Robots.txt für KI-Bots steuern](/glossar/robots-txt/)

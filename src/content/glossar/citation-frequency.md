@@ -164,12 +164,3 @@ Dieses Phänomen führt dazu, dass Traffic, der über KI-Sichtbarkeit generiert 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Share of Model (SoM) verstehen](/glossar/share-of-model/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [AI Search Funktionsweise](/glossar/ai-search/)
-* [Rankscale Tool Review](/glossar/rankscale/)
-* [SE Ranking im umfassenden Test](/glossar/se-ranking/)
-* [Brand Mentions und Co-Occurrences](/glossar/brand-mentions/)
-* [Zitierfähiger Content im KI-Zeitalter](/glossar/zitierfaehiger-content/)

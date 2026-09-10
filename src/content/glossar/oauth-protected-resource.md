@@ -222,10 +222,3 @@ Moderne Unternehmen, die ihre Datenstrukturen für Antwortmaschinen und Agenten 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [OAuth & OIDC Discovery](/glossar/oauth-oidc-discovery/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [A2A-Protokoll](/glossar/a2a-protocol/)
-* [Auth.md](/glossar/auth-md/)
-* [Agent Readiness Level](/glossar/agent-readiness-level/)

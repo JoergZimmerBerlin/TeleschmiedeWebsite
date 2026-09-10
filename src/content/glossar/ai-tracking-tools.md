@@ -189,16 +189,3 @@ In einer hybriden Suchwelt reicht es nicht aus, auf organische Klicks zu hoffen.
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI SEO: Mach deine Website bereit für KI-Agenten](/glossar/ai-seo/)
-* [AI Rank Tracker: Zitationen und Rankings überwachen](/glossar/ai-rank-tracker/)
-* [Share of Model (SoM): Die neue Reichweitenmetrik](/glossar/share-of-model/)
-* [Citation Frequency: Zitationshäufigkeit in Sprachmodellen](/glossar/citation-frequency/)
-* [Sichtbarkeitsmanagement: Markenpräsenz systematisch steuern](/glossar/sichtbarkeitsmanagement/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [LLMO: Optimierung für Large Language Models](/glossar/llmo/)
-* [Google Search Console: Das organische Basis-Werkzeug](/glossar/google-search-console/)
-* [Technisches SEO: Grundlagen für Crawling und Rendering](/glossar/technisches-seo/)
-* [Entität: Bedeutung von Knowledge-Graph-Objekten](/glossar/entitaet/)
-

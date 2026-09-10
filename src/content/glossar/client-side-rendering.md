@@ -202,13 +202,3 @@ Um zu analysieren, wie Suchmaschinen-Bots deine Seitenstruktur wahrnehmen und ob
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Server-Side Rendering (SSR)](/glossar/server-side-rendering/)
-* [Technisches SEO](/glossar/technisches-seo/)
-* [Two-Wave Indexing](/glossar/two-wave-indexing/)
-* [Pagespeed](/glossar/pagespeed/)
-* [Core Web Vitals](/glossar/core-web-vitals/)
-* [GEO (Generative Engine Optimization)](/glossar/geo/)
-

@@ -207,14 +207,3 @@ Erfolgreiches YouTube SEO im Jahr 2026 erfordert den Spagat zwischen packendem S
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
-* [E-E-A-T Richtlinien verstehen](/glossar/e-e-a-t/)
-* [Knowledge Graph und Entitäten](/glossar/knowledge-graph/)
-* [KI-Sichtbarkeit für Unternehmen](/glossar/ki-sichtbarkeit/)
-* [KI-SEO Strategien](/glossar/ki-seo/)
-* [Local SEO für regionale Dominanz](/glossar/local-seo/)
-* [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
-* [Core Web Vitals](/glossar/core-web-vitals/)
-

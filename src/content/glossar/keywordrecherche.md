@@ -203,11 +203,3 @@ Zur Ermittlung des optimalen Tool-Budgets für Inhouse-Teams oder Agenturen biet
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Search Query Fan-Out im Detail](/glossar/query-fan-out/)
-* [Entität im semantischen SEO](/glossar/entitaet/)
-* [Professionelle Keyword Tools im Vergleich](/glossar/keyword-tool/)
-* [Suchvolumen 2026: Bedeutung und Interpretation](/glossar/suchvolumen/)
-* [Keywörter im semantischen Web](/glossar/keywoerter/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)

@@ -170,12 +170,3 @@ Hör auf, für Algorithmen aus dem Jahr 2023 zu optimieren. Mach deine Website m
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [RAG: Die Technik hinter den KI-Antworten](/glossar/rag/)
-* [Entität: Die Bedeutung von Entitäten](/glossar/entitaet/)
-* [LLMs.txt für KI-Crawler](/glossar/llms-txt/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [AI SEO im Überblick](/glossar/ai-seo/)
-* [E-E-A-T Prinzipien](/glossar/e-e-a-t/)
-* [KI-Ranking Sichtbarkeit](/glossar/ki-ranking/)

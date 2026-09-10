@@ -178,11 +178,3 @@ Hör auf, für Google-Bots aus 2023 zu optimieren. Baue eine maschinenlesbare En
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe
-* [Mentions & Citations richtig verstehen](/glossar/mention/)
-* [Was ist das E-E-A-T Framework?](/glossar/e-e-a-t/)
-* [Entity SEO: Optimierung für KI-Crawler](/glossar/entity-seo/)
-* [Die Architektur der Groundingpage](/glossar/grounding-page/)
-* [Trailing Slashes im technischen SEO](/glossar/trailing-slashes/)
-* [Semantisches HTML für Marken](/glossar/html-struktur/)

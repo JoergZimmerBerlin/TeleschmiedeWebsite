@@ -203,13 +203,3 @@ Während die `robots.txt` bestimmt, wer draußen bleiben muss, fungiert die [llm
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [robots.txt: Der RFC 9309 Standard für Web-Crawler](/glossar/robots-txt/)
-* [llms.txt: Der Inklusions-Leitfaden für KI-Agenten](/glossar/llms-txt/)
-* [Crawler: Funktionsweise moderner Web-Spider](/glossar/crawler/)
-* [Crawling vs. Indexing: Die zwei Phasen der Suchmaschinenaufnahme](/glossar/crawling-vs-indexing/)
-* [Agent Readiness Level: Stufen der KI-Agenten-Reife](/glossar/agent-readiness-level/)
-* [AI SEO: Mach deine Website bereit für KI-Agenten](/glossar/ai-seo/)
-* [Technisches SEO: Grundlagen für Crawling und Rendering](/glossar/technisches-seo/)
-

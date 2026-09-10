@@ -187,12 +187,3 @@ Ein professionelles SEO-Coaching macht Unternehmen unabhängig von teuren Dienst
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [SEO Beratung im KI-Zeitalter](/glossar/seo-beratung/)
-* [SEO Consulting für Unternehmen](/glossar/seo-consulting/)
-* [SEO Agentur im Wandel](/glossar/seo-agentur/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)
-* [SEO Audit mit KI-Readiness](/glossar/seo-audit/)
-* [Trailing Slashes sauber konfigurieren](/glossar/trailing-slashes/)
-* [Entität in der semantischen Suche](/glossar/entitaet/)

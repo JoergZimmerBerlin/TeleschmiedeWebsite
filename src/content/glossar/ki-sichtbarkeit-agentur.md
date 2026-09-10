@@ -209,14 +209,3 @@ Wer nicht in den Antworten von Perplexity oder ChatGPT auftaucht, existiert für
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [KI Sichtbarkeit im B2B](/glossar/ki-sichtbarkeit-b2b/)
-* [Share of Model verstehen](/glossar/share-of-model/)
-* [KI SEO Beratung im Detail](/glossar/ki-seo-beratung/)
-* [Technisches SEO meistern](/glossar/technisches-seo/)
-* [Technisches Schema Markup](/glossar/technisches-schema-markup/)
-* [Auth.md für Agenten](/glossar/auth-md/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-

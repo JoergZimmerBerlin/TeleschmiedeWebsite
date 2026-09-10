@@ -218,12 +218,3 @@ Einen detaillierten Marktüberblick über moderne Systeme zur Messung Ihrer KI-Z
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Strukturierte Daten im Detail](/glossar/strukturierte-daten/)
-* [Search Query Fan-Out verstehen](/glossar/query-fan-out/)
-* [FAQ-Markup als RAG-Schnittstelle](/glossar/faq-markup/)
-* [Was ist eine Entität im Semantic Web?](/glossar/entitaet/)
-* [Zitierfähiger Content für KI-Synthese](/glossar/zitierfaehiger-content/)
-* [Zero-Click Content Optimierung](/glossar/zero-click-content/)

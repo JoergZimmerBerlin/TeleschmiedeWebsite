@@ -207,13 +207,3 @@ Für ein umfassendes Tracking sowohl klassischer SERP-Rankings als auch struktur
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Keywörter: Bedeutung im Zeitalter semantischer Vektoren](/glossar/keywoerter/)
-* [Keyword-Tools: Funktionsweise moderner Analysewerkzeuge](/glossar/keyword-tool/)
-* [Sichtbarkeit: Definition digitaler Reichweite heute](/glossar/sichtbarkeit/)
-* [Zero-Click Content: Sichtbarkeit ohne organischen Klick](/glossar/zero-click-content/)
-* [Money Keywords: Kommerzielle Absichten gezielt bedienen](/glossar/money-keyword/)
-* [Topical Authority: Themenführerschaft für Mensch und Maschine](/glossar/topical-authority/)
-* [Answer Engine Optimization (AEO): Optimierung für Antwortmaschinen](/glossar/aeo/)
-

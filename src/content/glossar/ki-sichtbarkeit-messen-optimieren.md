@@ -171,12 +171,3 @@ Beginne noch heute damit, deine Kern-Prompts zu definieren. Etabliere ein automa
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/)
-* [AI Visibility Report](/glossar/ai-visibility-report/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [ChatGPT Sichtbarkeit gezielt aufbauen](/glossar/chatgpt-sichtbarkeit/)
-* [llms.txt für KI-Crawler](/glossar/llms-txt/)
-* [Zero-Click-Content verstehen](/glossar/zero-click-content/)
-* [Topical Authority etablieren](/glossar/topical-authority/)

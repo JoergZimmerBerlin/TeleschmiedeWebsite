@@ -180,12 +180,3 @@ Der Weg zur maximalen Conversion Rate im Jahr 2026 ist primär ein Architektur-U
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Core Web Vitals](/glossar/core-web-vitals/)
-* [Usability und UX](/glossar/usability/)
-* [Money Keywords](/glossar/money-keyword/)
-* [Traffic](/glossar/traffic/)
-* [Server-Side Rendering](/glossar/server-side-rendering/)
-* [Client-Side Rendering](/glossar/client-side-rendering/)

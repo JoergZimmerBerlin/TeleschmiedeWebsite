@@ -195,12 +195,3 @@ Um sowohl das klassische Fundament organischer Positionen als auch moderne SERP-
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Zitierfähiger Content: Strukturierung für KI-Zitate](/glossar/zitierfaehiger-content/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Answer Engine Optimization (AEO): Antworten maschinengerecht aufbereiten](/glossar/aeo/)
-* [Technisches SEO: Die solide Basis für Suchmaschinen](/glossar/technisches-seo/)
-* [Topical Authority: Ganzheitliche Themenführerschaft](/glossar/topical-authority/)
-* [LLMs.txt: Der strukturierte Wegweiser für KI-Agenten](/glossar/llms-txt/)
-* [Experience (E-E-A-T): Der stärkste Schutzwall gegen KI-Müll](/glossar/experience-eeat/)

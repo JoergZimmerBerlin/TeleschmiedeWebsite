@@ -224,12 +224,3 @@ Einen Marktvergleich über moderne Monitoring-Werkzeuge für lokale und globale 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Local SEO: Lokale Optimierung für Mensch und KI](/glossar/local-seo/)
-* [Technisches Schema Markup](/glossar/technisches-schema-markup/)
-* [Entität: Semantische Knotenpunkte für Wissensgraphen](/glossar/entitaet/)
-* [In KI-Antworten erscheinen: Strategischer Leitfaden](/glossar/in-ki-antworten-erscheinen/)
-* [KI-Sichtbarkeit: GEO-Grundlagen](/glossar/ki-sichtbarkeit/)
-* [Trailing Slashes im Technical SEO](/glossar/trailing-slashes/)
-

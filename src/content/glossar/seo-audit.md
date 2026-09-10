@@ -172,12 +172,3 @@ Hör auf zu raten oder dich auf kostenlose Tool-Berichte von gestern zu verlasse
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Sichtbarkeitsindex im Wandel](/glossar/sichtbarkeitsindex/)
-* [PageSpeed Optimierung für RAG](/glossar/pagespeed/)
-* [Interne Verlinkung strategisch aufbauen](/glossar/interne-verlinkung/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)
-* [Schema.org Markup implementieren](/glossar/schema-org-markup/)
-* [Robots.txt für KI-Bots steuern](/glossar/robots-txt/)
-* [LLMs.txt Leitfaden für KI-Crawler](/glossar/llms-txt/)

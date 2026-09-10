@@ -186,12 +186,3 @@ Die [Interne Verlinkung](/glossar/interne-verlinkung/) ist der mächtigste Hebel
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Interne Verlinkung strategisch planen](/glossar/interne-verlinkung/)
-* [Crawler und Bot-Steuerung](/glossar/crawler/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [E-E-A-T Leitfaden](/glossar/e-e-a-t/)
-* [Technisches SEO Audit durchführen](/glossar/technisches-seo/)
-* [SEO Audit Checkliste](/glossar/seo-audit/)

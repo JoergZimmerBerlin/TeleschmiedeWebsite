@@ -183,11 +183,3 @@ Zur kontinuierlichen Absicherung deiner Web-Endpunkte und zur Überwachung techn
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [A2A-Protokoll: Agent-to-Agent Kommunikation](/glossar/a2a-protocol/)
-* [Machine Payment Protocol (MPP): Autonome Bezahlungen](/glossar/machine-payment-protocol-mpp/)
-* [Web Application Firewall (WAF): Schutz vor Bot-Angriffen](/glossar/web-application-firewall/)
-* [Agent Readiness Level: KI-Bereitschaft von Systemen](/glossar/agent-readiness-level/)
-* [Model Context Protocol (MCP): Tool-Integration für LLMs](/glossar/model-context-protocol-mcp/)
-* [HTML-Struktur: Semantik für Parser und Scraper](/glossar/html-struktur/)

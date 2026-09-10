@@ -189,15 +189,3 @@ Wer heute die Weichen stellt und seine Inhalte sowohl für menschliche Leser als
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [ChatGPT SEO](/glossar/chatgpt-seo/)
-* [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/)
-* [AI Visibility Report](/glossar/ai-visibility-report/)
-* [Brand Mentions](/glossar/brand-mentions/)
-* [Zero-Click-Content](/glossar/zero-click-content/)
-* [LLMO](/glossar/llmo/)
-* [GEO-Optimierung](/glossar/geo-optimierung/)
-* [Entität](/glossar/entitaet/)
-

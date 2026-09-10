@@ -217,15 +217,3 @@ Wer heute seine [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/) systematisch aufbau
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/)
-- [In KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/)
-- [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/)
-- [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/)
-- [Technisches Schema Markup](/glossar/technisches-schema-markup/)
-- [Conversion Rate](/glossar/conversion-rate/)
-- [Technisches SEO](/glossar/technisches-seo/)
-
-

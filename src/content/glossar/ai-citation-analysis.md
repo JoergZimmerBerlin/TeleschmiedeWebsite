@@ -177,12 +177,3 @@ Es ist an der Zeit, die Sichtbarkeit deiner Marke in der KI-Suche nicht mehr dem
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Rank Tracker im Detail](/glossar/ai-rank-tracker/)
-* [AI Sentiment Analysis für KIs](/glossar/ai-sentiment-analysis/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [GEO Page Audit Leitfaden](/glossar/geo-page-audit/)
-* [AEO: Answer Engine Optimization](/glossar/aeo/)
-* [Zitierfähiger Content für KI-Systeme](/glossar/zitierfaehiger-content/)
-* [llms.txt: Maschinenlesbares Web-Inhaltsverzeichnis](/glossar/llms-txt/)

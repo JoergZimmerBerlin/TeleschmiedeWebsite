@@ -205,12 +205,3 @@ Markdown Content Negotiation ist kein kurzfristiger Ranking-Trick, sondern eine 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [llms.txt Standard](/glossar/llms-txt/)
-* [llms-full.txt Spezifikation](/glossar/llms-full-txt/)
-* [In KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/)
-* [Technisches SEO](/glossar/technisches-seo/)
-* [Entitäten-Building im semantischen Web](/glossar/entitaeten-building/)
-* [AI Search Engine](/glossar/ai-search-engine/)
-

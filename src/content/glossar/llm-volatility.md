@@ -184,12 +184,3 @@ Diese Tracker automatisieren den Prozess:
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [LLM Rank Tracker im Vergleich](/glossar/llm-rank-tracker/)
-* [Citation Frequency und KI-Quellen](/glossar/citation-frequency/)
-* [Brand Sentiment in generativen Antworten](/glossar/brand-sentiment/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [AI Visibility Tools Übersicht](/glossar/ai-visibility-tools/)
-* [Grounding Pages als Wissensanker](/glossar/grounding-page/)
-

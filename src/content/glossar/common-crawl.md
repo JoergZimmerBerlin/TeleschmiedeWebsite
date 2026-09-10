@@ -177,14 +177,3 @@ Um den Aufbau deines digitalen Fußabdrucks und die Backlink-Entwicklung kontinu
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [AI SEO: Optimierung für künstliche Intelligenzen](/glossar/ai-seo/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in Sprachmodellen](/glossar/geo/)
-* [Robots.txt: Steuerung von Web-Crawlern](/glossar/robots-txt/)
-* [LLMs.txt: Maschinenlesbare Dokumentation für KIs](/glossar/llms-txt/)
-* [Topical Authority: Themenführerschaft aufbauen](/glossar/topical-authority/)
-* [Server-Side Rendering: Effiziente Auslieferung für Bots](/glossar/server-side-rendering/)
-* [Client-Side Rendering: Risiken beim KI-Crawling](/glossar/client-side-rendering/)
-* [Entität: Grundbaustein semantischer Wissensgraphen](/glossar/entitaet/)

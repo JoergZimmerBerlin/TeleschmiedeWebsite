@@ -167,10 +167,3 @@ Ein umfassendes GEO Page Audit ist die Grundlage jeder zukunftssicheren [Topical
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe & Leseempfehlungen
-* [GEO Audit: Der Stresstest für Domains](/glossar/geo-audit/)
-* [GEO Optimierung: RAG-Sichtbarkeit](/glossar/geo-optimierung/)
-* [AI Rank Tracker: Zitate monitoren](/glossar/ai-rank-tracker/)
-* [KI-Sichtbarkeit im Detail](/glossar/ki-sichtbarkeit/)
-

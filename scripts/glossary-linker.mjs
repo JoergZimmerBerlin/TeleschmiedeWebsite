@@ -213,9 +213,9 @@ function linkHtml(filePath, allTerms, ringTerms) {
   const currentIndex = ringTerms.findIndex(t => t.slug === currentSlug);
   if (currentIndex !== -1) {
     let relatedHtml = `
-      <div class="mt-12 p-6 bg-gray-50 border border-gray-100 rounded-2xl">
-        <h3 class="text-xl font-bold mb-4">Weitere spannende Themen</h3>
-        <ul class="space-y-2">
+      <div class="mt-12 p-6 bg-gray-50 border border-gray-100 rounded-2xl not-prose">
+        <h3 class="text-xl font-bold text-dark mb-4 !mt-0 !border-none !pb-0">Weitere spannende Themen</h3>
+        <ul class="space-y-2 !pl-0 !list-none m-0">
     `;
     
     // Pick 7 distinct, highly relevant items (next in category-sorted ring)
@@ -227,7 +227,7 @@ function linkHtml(filePath, allTerms, ringTerms) {
       offset++;
       if (t.slug === currentSlug) continue;
       const url = t.type === 'glossar' ? `/glossar/${t.slug}/` : `/blog/${t.slug}/`;
-      relatedHtml += `<li><a href="${url}" class="text-lime-700 hover:text-lime-900 font-medium underline decoration-lime-300">${t.title}</a></li>`;
+      relatedHtml += `<li class="m-0 p-0"><a href="${url}" class="text-lime-700 hover:text-lime-900 font-medium underline decoration-lime-300">${t.title}</a></li>`;
       added++;
     }
     

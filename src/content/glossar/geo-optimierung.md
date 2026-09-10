@@ -173,10 +173,3 @@ Sprich die Sprache der Agenten. Etabliere Content Negotiation, code eine fehlerf
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe & Leseempfehlungen
-* [GEO vs. SEO: Der Architektur-Shift](/glossar/geo-vs-seo/)
-* [LLMs & Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [GEO Audit: Der Stresstest](/glossar/geo-audit/)
-

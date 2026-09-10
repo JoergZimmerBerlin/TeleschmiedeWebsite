@@ -239,12 +239,3 @@ Einen Marktüberblick über spezialisierte Tools zur Überwachung Ihrer generati
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [FAQ-Markup als RAG-Schnittstelle](/glossar/faq-markup/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Was ist eine Entität im SEO?](/glossar/entitaet/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Agent Readiness für Unternehmen](/glossar/agent-readiness/)
-* [Technisches SEO verstehen](/glossar/technisches-seo/)
-* [Sichtbarkeit digital optimieren](/glossar/sichtbarkeit/)

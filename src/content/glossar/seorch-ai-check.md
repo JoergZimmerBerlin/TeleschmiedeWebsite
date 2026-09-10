@@ -195,13 +195,3 @@ Einen SEORCH AI Check durchzuführen ist extrem simpel:
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Agent Readiness Level verstehen](/glossar/agent-readiness-level/)
-* [LLMs.txt Leitfaden für KI-Crawler](/glossar/llms-txt/)
-* [RFC 8288 Link Headers](/glossar/rfc-8288-link-headers/)
-* [Robots.txt für KI-Bots steuern](/glossar/robots-txt/)
-* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Server-Side Rendering für RAG](/glossar/server-side-rendering/)
-

@@ -224,13 +224,3 @@ Wie Sie die Markensichtbarkeit in modernen Tools analysieren, erfahren Sie in un
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Share of Model (SoM) im Detail](/glossar/share-of-model/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Promptset für KI-Benchmarking](/glossar/promptset/)
-* [Sichtbarkeit im digitalen Raum](/glossar/sichtbarkeit/)
-* [Authoritativeness (E-E-A-T)](/glossar/authoritativeness-eeat/)
-* [Agent Readiness für autonome Systeme](/glossar/agent-readiness-level/)
-* [Grounding Queries für RAG](/glossar/grounding-queries/)
-

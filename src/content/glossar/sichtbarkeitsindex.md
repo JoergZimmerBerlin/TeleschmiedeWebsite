@@ -201,13 +201,3 @@ Zur präzisen Auswertung klassischer Positionen, historischer Verläufe und Onpa
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Sichtbarkeit: Definition digitaler Reichweite heute](/glossar/sichtbarkeit/)
-* [Sichtbarkeitsmanagement: Strategische Markensteuerung im Web](/glossar/sichtbarkeitsmanagement/)
-* [Traffic: Reale Besucherströme analysieren](/glossar/traffic/)
-* [Keywörter: Entwicklung im Vektorzeitalter](/glossar/keywoerter/)
-* [In KI Antworten erscheinen: Der AEO & GEO Leitfaden](/glossar/in-ki-antworten-erscheinen/)
-* [Topical Authority: Themenführerschaft gezielt aufbauen](/glossar/topical-authority/)
-* [Technisches SEO: Die Infrastruktur für Crawler und Bots](/glossar/technisches-seo/)
-* [Generative Engine Optimization (GEO): Zitationen sichern](/glossar/geo-optimierung/)

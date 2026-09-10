@@ -219,12 +219,3 @@ Die Plattform zwingt Marketer dazu, radikal umzudenken. Weg vom blinden, massenh
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [AI Visibility Tools im Überblick](/glossar/ai-visibility-tools/)
-* [GEO Tool: Generative Engine Optimization](/glossar/geo-tool/)
-* [KI-Sichtbarkeit messen und steigern](/glossar/ki-sichtbarkeit/)
-* [Grounding Page für LLM-Zitationen](/glossar/grounding-page/)
-* [SE Ranking als All-in-One SEO Suite](/glossar/se-ranking/)
-* [Perplexity-Sichtbarkeit gezielt aufbauen](/glossar/perplexity-sichtbarkeit/)
-* [AI Rank Tracker im Detail](/glossar/ai-rank-tracker/)

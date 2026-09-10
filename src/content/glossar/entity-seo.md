@@ -214,16 +214,3 @@ Einen detaillierten Überblick über Software zur Messung Ihrer Entitätspräsen
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [Was ist eine Entität im semantischen Web?](/glossar/entitaet/)
-- [Entitäten-Building](/glossar/entitaeten-building/)
-- [Knowledge Graph für KI-Suchmaschinen](/glossar/knowledge-graph/)
-- [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-- [Groundingpage als Single Source of Truth](/glossar/grounding-page/)
-- [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
-- [Topical Authority aufbauen](/glossar/topical-authority/)
-- [E-E-A-T Prinzipien](/glossar/e-e-a-t/)
-
-

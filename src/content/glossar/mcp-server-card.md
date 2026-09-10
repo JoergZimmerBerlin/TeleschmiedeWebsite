@@ -228,11 +228,3 @@ Wie sich fortschrittliche Plattformen im Zeitalter generativer KI positionieren,
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [WebMCP](/glossar/webmcp/)
-* [Agent Card (agent-card.json)](/glossar/agent-card-json/)
-* [A2A-Protokoll](/glossar/a2a-protocol/)
-* [Agent Readiness](/glossar/agent-readiness/)
-* [Auth.md](/glossar/auth-md/)

@@ -194,12 +194,3 @@ Halte die Datei sauber, setze deinen Sitemap-Link und baue Brücken, keine Mauer
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Was ist der Unterschied zwischen Crawling und Indexing?](/glossar/crawling-vs-indexing/)
-* [XML Sitemap richtig aufbauen](/glossar/xml-sitemap/)
-* [Technisches SEO für moderne Websites](/glossar/technisches-seo/)
-* [Trailing Slashes im technischen SEO](/glossar/trailing-slashes/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Die llms.txt Datei erklärt](/glossar/llms-txt/)
-* [AI Crawlability im Detail](/glossar/ai-crawlability/)

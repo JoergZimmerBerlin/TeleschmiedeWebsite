@@ -179,13 +179,3 @@ Wer aufhört, Texte für veraltete Keyword-Metriken zu schreiben, und stattdesse
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Google Core Update: Mechanismen und Entitäts-Neubewertung](/glossar/google-core-update/)
-* [Rankingfaktoren: Was im KI-Zeitalter wirklich zählt](/glossar/rankingfaktoren/)
-* [E-E-A-T: Vertrauen und Autorität im Knowledge Graph aufbauen](/glossar/e-e-a-t/)
-* [RAG Pipelines: Wie generative Antwortsysteme Webdaten abrufen](/glossar/rag/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in AI Overviews](/glossar/geo-optimierung/)
-* [Topical Authority: Themenführerschaft statt Keyword-Jagd](/glossar/topical-authority/)
-* [Grounding Page: Das maschinenlesbare Fundament für LLMs](/glossar/grounding-page/)
-

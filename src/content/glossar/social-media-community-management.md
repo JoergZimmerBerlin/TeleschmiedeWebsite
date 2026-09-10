@@ -209,12 +209,3 @@ Social Media Community Management ist das Herzstück zeitgemäßer digitaler Mar
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Brand Mentions: Unverlinkte Markensignale](/glossar/brand-mentions/)
-* [E-E-A-T: Das Vertrauensmodell von Google](/glossar/e-e-a-t/)
-* [Knowledge Graph: Entitäten im Web verstehen](/glossar/knowledge-graph/)
-* [Topical Authority: Themenführerschaft aufbauen](/glossar/topical-authority/)
-* [Markenaufbau mit SEO: Strategische Markenpräsenz](/glossar/markenaufbau-mit-seo/)
-* [Strukturierte Daten: Entitäten für Maschinen](/glossar/strukturierte-daten/)
-* [Sichtbarkeit: Definition digitaler Reichweite](/glossar/sichtbarkeit/)

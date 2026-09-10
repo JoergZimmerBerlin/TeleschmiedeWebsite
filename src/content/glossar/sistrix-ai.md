@@ -198,13 +198,3 @@ Für die kontinuierliche Onpage-Überwachung, Backlink-Audits und tiefes Rank-Tr
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [SEO Visibility Tools: Software im Vergleich](/glossar/seo-visibility-tools/)
-* [Sichtbarkeitsindex: Der Wandel einer Leitmetrik](/glossar/sichtbarkeitsindex/)
-* [SE Ranking: Die All-in-One Plattform im Praxistest](/glossar/se-ranking/)
-* [Rankscale: Zitations-Monitoring in LLMs](/glossar/rankscale/)
-* [In KI Antworten erscheinen: Methoden für Answer Engines](/glossar/in-ki-antworten-erscheinen/)
-* [Topical Authority: Themenführerschaft aufbauen](/glossar/topical-authority/)
-* [Generative Engine Optimization (GEO): Strategien für KI-Suche](/glossar/geo/)
-* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)

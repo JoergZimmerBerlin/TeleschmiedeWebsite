@@ -191,14 +191,3 @@ Mache deine Website fit für die generative Zukunft. Öffne deine Datenstruktur 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [ChatGPT Sichtbarkeit](/glossar/chatgpt-sichtbarkeit/)
-* [GEO-Optimierung](/glossar/geo-optimierung/)
-* [Bing Webmaster Tools](/glossar/bing-webmastertools/)
-* [llms.txt](/glossar/llms-txt/)
-* [E-E-A-T](/glossar/e-e-a-t/)
-* [Brand Mentions](/glossar/brand-mentions/)
-* [Zitierfähiger Content](/glossar/zitierfaehiger-content/)
-

@@ -240,14 +240,3 @@ In Verbindung mit fortschrittlicher [Entity SEO](/glossar/entity-seo/) transform
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Schema.org Markup: Semantisches Web](/glossar/schema-org-markup/)
-* [Grounding Page für KI-Modelle](/glossar/grounding-page/)
-* [Entity SEO: Entitäten im Fokus](/glossar/entity-seo/)
-* [FAQ Markup für Rich Results nutzen](/glossar/faq-markup/)
-* [Technisches SEO: Das technische Fundament](/glossar/technisches-seo/)
-* [Strukturierte Daten: Entitäten für Maschinen](/glossar/strukturierte-daten/)
-* [Knowledge Graph: Entitäten verstehen](/glossar/knowledge-graph/)
-
-

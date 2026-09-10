@@ -211,11 +211,3 @@ Die Wahl zwischen beiden Plattformen entscheidet sich an deiner strategischen Au
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Visibility Score berechnen](/glossar/ai-visibility-score/)
-* [Share of Voice im KI-Zeitalter](/glossar/share-of-voice/)
-* [GEO-Optimierung Strategie](/glossar/geo-optimierung/)
-* [Brand Mentions und Entitäten](/glossar/brand-mentions/)
-* [Technisches SEO Fundament](/glossar/technisches-seo/)
-

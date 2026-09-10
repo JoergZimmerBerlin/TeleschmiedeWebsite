@@ -212,12 +212,3 @@ Keywords bleiben das wichtigste Fenster in die Psychologie und die Bedürfnisse 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Suchvolumen im Keyword-Research](/glossar/suchvolumen/)
-* [Keyword-Tool Funktionen](/glossar/keyword-tool/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [GEO Optimierung verstehen](/glossar/geo-optimierung/)
-* [Technisches SEO meistern](/glossar/technisches-seo/)
-* [In KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/)

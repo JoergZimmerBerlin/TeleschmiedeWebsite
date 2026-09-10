@@ -209,12 +209,3 @@ Wer im heutigen Wettbewerb Spitzenpositionen besetzen will, führt regelmäßig 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [E-E-A-T: Das Qualitätsfundament](/glossar/e-e-a-t/)
-* [Core Web Vitals & PageSpeed](/glossar/core-web-vitals/)
-* [Google Algorithmus Updates](/glossar/google-algorithmus/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)
-* [Strukturierte Daten für KI-Suchmaschinen](/glossar/strukturierte-daten/)

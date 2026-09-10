@@ -190,12 +190,3 @@ Zur verlässlichen Messung und Analyse deiner Onpage-Strukturen, Backlink-Entwic
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Campixx Berlin: Die legendäre SEO-Unkonferenz](/glossar/campixx-berlin/)
-* [Überstunde Berlin: Das moderne Afterwork-Netzwerk](/glossar/ueberstunde-berlin/)
-* [Sichtbarkeit: Digitale Präsenz im Wandel](/glossar/sichtbarkeit/)
-* [Experience (E-E-A-T): Praxiserfahrung als Qualitätsmerkmal](/glossar/experience-eeat/)
-* [Google Search Console: Das fundamentale Analysetool](/glossar/google-search-console/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [SEO-Beratung im KI-Zeitalter](/glossar/seo-beratung/)

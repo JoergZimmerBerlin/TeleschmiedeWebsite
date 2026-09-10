@@ -197,12 +197,3 @@ Einen detaillierten Marktüberblick über moderne Tools zur Überwachung Ihrer g
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Was ist Agent Readiness?](/glossar/agent-readiness/)
-* [LLM Rank Tracker im Praxis-Test](/glossar/llm-rank-tracker/)
-* [Was ist AI Search?](/glossar/ai-search/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [KI-Sichtbarkeit im Detail](/glossar/ki-sichtbarkeit/)

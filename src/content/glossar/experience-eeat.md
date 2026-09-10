@@ -196,13 +196,3 @@ Zur Überprüfung deiner organischen Rankings und der Sichtbarkeitsentwicklung n
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [E-E-A-T: Das ganzheitliche Qualitäts-Framework](/glossar/e-e-a-t/)
-* [Expertise (E-E-A-T): Fachliches Tiefenwissen nachweisen](/glossar/expertise-eeat/)
-* [Authoritativeness (E-E-A-T): Anerkennung in der Branche](/glossar/authoritativeness-eeat/)
-* [Trustworthiness (E-E-A-T): Die wichtigste Säule des Vertrauens](/glossar/trustworthiness-eeat/)
-* [Grounding Page: Faktische Verankerung für Sprachmodelle](/glossar/grounding-page/)
-* [Entität: Bedeutung im semantischen Knowledge Graph](/glossar/entitaet/)
-* [Topical Authority: Themenführerschaft gezielt aufbauen](/glossar/topical-authority/)
-

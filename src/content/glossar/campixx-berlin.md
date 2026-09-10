@@ -193,14 +193,3 @@ Zur kontinuierlichen Überwachung deiner organischen Sichtbarkeit und Wettbewerb
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [SEO Stammtisch Berlin](/glossar/seo-stammtisch-berlin/)
-* [E-E-A-T: Experience, Expertise, Authoritativeness, Trustworthiness](/glossar/e-e-a-t/)
-* [Experience (E-E-A-T)](/glossar/experience-eeat/)
-* [Topical Authority](/glossar/topical-authority/)
-* [Entität](/glossar/entitaet/)
-* [GEO (Generative Engine Optimization)](/glossar/geo/)
-* [AI SEO](/glossar/ai-seo/)
-

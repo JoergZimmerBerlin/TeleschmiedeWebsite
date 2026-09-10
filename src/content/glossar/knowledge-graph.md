@@ -212,12 +212,3 @@ Wer seine Online-Präsenz zukunftssicher aufstellen will, investiert in [Struktu
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [Entity SEO Strategien](/glossar/entity-seo/)
-* [E-E-A-T Prinzipien verstehen](/glossar/e-e-a-t/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Strukturierte Daten implementieren](/glossar/strukturierte-daten/)
-* [Technisches SEO optimieren](/glossar/technisches-seo/)
-* [Interne Verlinkung für Crawler](/glossar/interne-verlinkung/)

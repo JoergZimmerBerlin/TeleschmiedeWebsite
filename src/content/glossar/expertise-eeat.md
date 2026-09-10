@@ -214,14 +214,3 @@ Im Zeitalter generativer Sprachmodelle wandelt sich die Bewertung von Inhalten v
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [E-E-A-T: Das ganzheitliche Qualitäts-Framework](/glossar/e-e-a-t/)
-* [Experience (E-E-A-T): First-Hand Praxiserfahrung](/glossar/experience-eeat/)
-* [Authoritativeness (E-E-A-T): Branchenweite Autorität](/glossar/authoritativeness-eeat/)
-* [Trustworthiness (E-E-A-T): Das Fundament des Vertrauens](/glossar/trustworthiness-eeat/)
-* [Grounding Page: Semantische Ankerseite](/glossar/grounding-page/)
-* [Topical Authority: Themenführerschaft gezielt aufbauen](/glossar/topical-authority/)
-* [Entitäten-Building: Semantische Verknüpfung](/glossar/entitaeten-building/)
-
-

@@ -181,10 +181,3 @@ Zur ganzheitlichen Messung empfiehlt sich der Einsatz spezialisierter Tracker au
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [XML-Sitemaps im technischen SEO](/glossar/xml-sitemap/)
-* [Robots.txt Konfiguration](/glossar/robots-txt/)
-* [Google Search Console Leitfaden](/glossar/google-search-console/)
-* [Crawling vs. Indexierung](/glossar/crawling-vs-indexing/)
-* [Zero-Click-Content im KI-Zeitalter](/glossar/zero-click-content/)

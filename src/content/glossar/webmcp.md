@@ -199,13 +199,3 @@ In Kombination mit weiteren Standards für Agent Readiness – wie [auth.md](/gl
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Model Context Protocol (MCP) im Detail](/glossar/model-context-protocol-mcp/)
-* [MCP Server Card: KI-Schnittstellen deklarieren](/glossar/mcp-server-card/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [Agent Readiness für generative Suchsysteme](/glossar/agent-readiness/)
-* [Web Bot Auth: Kryptografische Identität](/glossar/web-bot-auth/)
-* [Web Application Firewall (WAF): Schutz vs. SEO](/glossar/web-application-firewall/)
-* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* [A2A Protocol: Maschinelle Interaktion](/glossar/a2a-protocol/)

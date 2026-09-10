@@ -225,11 +225,3 @@ Unternehmen, die ihre E-Commerce-Sichtbarkeit und Conversion-Raten in generative
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/)
-* [x402 Protocol: Machine Payments](/glossar/x402-protocol/)
-* [Agent Readiness Level erklärt](/glossar/agent-readiness-level/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [A2A Protocol im Detail](/glossar/a2a-protocol/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)

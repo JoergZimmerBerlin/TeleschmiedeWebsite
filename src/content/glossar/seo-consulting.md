@@ -181,13 +181,3 @@ Mit dieser systematischen Herangehensweise sichert professionelles Consulting di
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [SEO-Beratung: Operative und strategische Hilfe](/glossar/seo-beratung/)
-* [SEO-Audit: Technische Bestandsaufnahme](/glossar/seo-audit/)
-* [SEO-Coaching: Wissen intern aufbauen](/glossar/seo-coaching/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Entity SEO für semantische Eindeutigkeit](/glossar/entity-seo/)
-* [Authoritativeness (E-E-A-T) im Detail](/glossar/authoritativeness-eeat/)
-* [Strukturierte Daten für Rich Results](/glossar/strukturierte-daten/)
-

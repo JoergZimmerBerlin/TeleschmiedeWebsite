@@ -201,11 +201,3 @@ Die KI-Modelle fordern validierte, maschinenlesbare Daten aus erster Hand. Wenn 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe & Leseempfehlungen
-* [GEO Optimierung: RAG-Sichtbarkeit](/glossar/geo-optimierung/)
-* [GEO vs. SEO: Der Architektur-Shift](/glossar/geo-vs-seo/)
-* [Agent Readiness Level erklärt](/glossar/agent-readiness-level/)
-* [GEO Audit: Der Stresstest](/glossar/geo-audit/)
-* [GEO Tool: KI-Monitoring](/glossar/geo-tool/)
-

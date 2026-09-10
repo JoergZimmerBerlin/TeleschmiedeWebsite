@@ -182,13 +182,3 @@ Eine erfolgreiche Digital-PR-Kampagne verbindet fundierte Datenforschung mit gez
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Mentions: Marken-Erwähnungen ohne Backlink](/glossar/mention/)
-* [Markenaufbau mit SEO im KI-Zeitalter](/glossar/markenaufbau-mit-seo/)
-* [Authoritativeness (E-E-A-T) stärken](/glossar/authoritativeness-eeat/)
-* [Trustworthiness (E-E-A-T) aufbauen](/glossar/trustworthiness-eeat/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Linkbuilding für Suchmaschinen](/glossar/linkbuilding/)
-* [Noindex: Seiten gezielt steuern](/glossar/noindex/)
-

@@ -228,12 +228,3 @@ Erfahren Sie im Detail, wie Sie Ihr Projekt schrittweise auf den maximalen [Agen
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Agent Readiness Level erklärt](/glossar/agent-readiness-level/)
-* [Cloudflare Agent Readiness Checklist](/glossar/cloudflare-agent-readiness-checklist/)
-* [agent-card.json: Der Ausweis für KI-Agenten](/glossar/agent-card-json/)
-* [A2A Protocol im Detail](/glossar/a2a-protocol/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [llms.txt: Maschinenlesbares Web-Inhaltsverzeichnis](/glossar/llms-txt/)

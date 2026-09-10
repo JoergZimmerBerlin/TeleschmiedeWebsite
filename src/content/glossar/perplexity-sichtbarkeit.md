@@ -169,12 +169,3 @@ Wer jetzt anfängt, seine Metriken um KI-Sichtbarkeit zu erweitern, baut sich ei
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Rankscale Tool Review](/glossar/rankscale/)
-* [AI Tracker Vergleich für LLMs](/glossar/ai-tracker-vergleich/)
-* [Zitierfähiger Content im KI-Zeitalter](/glossar/zitierfaehiger-content/)
-* [Brand Mentions und Co-Occurrences](/glossar/brand-mentions/)
-* [AI Visibility verstehen](/glossar/ai-visibility/)
-* [Peec AI: Prompt Monitoring](/glossar/peec-ai/)
-* [SE Ranking im Test](/glossar/se-ranking/)

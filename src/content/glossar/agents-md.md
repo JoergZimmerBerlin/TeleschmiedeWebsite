@@ -196,11 +196,3 @@ Mach Schluss mit dem Pfusch am Bau. Hör auf, für Maschinen wie für Menschen z
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Agent Readiness Level erklärt](/glossar/agent-readiness-level/)
-* [Agent Skills: Modulare Fähigkeiten](/glossar/agent-skills/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [A2A Protocol im Detail](/glossar/a2a-protocol/)
-* [agent-card.json: Der Ausweis für KI-Agenten](/glossar/agent-card-json/)
-* [llms.txt: Maschinenlesbares Web-Inhaltsverzeichnis](/glossar/llms-txt/)

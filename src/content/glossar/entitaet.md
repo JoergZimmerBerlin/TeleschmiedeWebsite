@@ -196,14 +196,3 @@ Mach deine Marke zu einer unerschütterlichen Entität im Knowledge Graph. Besei
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [Knowledge Graph](/glossar/knowledge-graph/)
-- [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-- [E-E-A-T](/glossar/e-e-a-t/)
-- [Topical Authority](/glossar/topical-authority/)
-- [Groundingpage](/glossar/grounding-page/)
-- [llms.txt](/glossar/llms-txt/)
-- [Entity SEO](/glossar/entity-seo/)
-

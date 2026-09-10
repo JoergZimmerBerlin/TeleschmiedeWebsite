@@ -236,13 +236,3 @@ Wie Sie Ihre Sichtbarkeit im KI-Zeitalter systematisch überwachen, zeigt unser 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Agent Readiness](/glossar/agent-readiness/)
-* [Agent Skills](/glossar/agent-skills/)
-* [A2A Protocol](/glossar/a2a-protocol/)
-* [Auth.md](/glossar/auth-md/)
-* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-

@@ -289,14 +289,3 @@ Nutze die Gelegenheit, berechne deine individuelle Prämie und sichere dir über
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe & Ressourcen
-* [Freelancing: Bedeutung, Vorteile & Fakten für Solopreneure](/glossar/freelancing/)
-* [SEO-Freelancer in Berlin: Fachexpertise auf Senior-Niveau](/seo-freelancer-berlin/)
-* [Das Freelancer Team: Kollektive Stärke freier Experten](/freelancer-team/)
-* [Trustworthiness (E-E-A-T): Vertrauensbasis für Dienstleister](/glossar/trustworthiness-eeat/)
-* [E-E-A-T im Überblick: Die Qualitätsmaßstäbe moderner Websites](/glossar/e-e-a-t/)
-* [SEO-Beratung: Professionelle Begleitung für nachhaltiges Wachstum](/glossar/seo-beratung/)
-* [SEO-Agentur: Zusammenarbeit, Qualitätskriterien & Haftungsfragen](/glossar/seo-agentur/)
-* [SE Ranking: Das All-in-One SEO Tool im Praxiseinsatz](/glossar/se-ranking/)
-* [SEO-Tool-Kostenrechner: Toolbudgets transparent kalkulieren](/tools/seo-tool-kostenrechner/)

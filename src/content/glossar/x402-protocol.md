@@ -223,13 +223,3 @@ Wer verstehen möchte, wie führende Marken ihre Daten im KI-Ökosystem monetari
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/)
-* [Machine Payment Protocol (MPP)](/glossar/machine-payment-protocol-mpp/)
-* [Agent Readiness Levels für KI-Systeme](/glossar/agent-readiness-level/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [Web Bot Auth: Kryptografische Verifikation](/glossar/web-bot-auth/)
-* [WebMCP: Browser-Tools für KI](/glossar/webmcp/)
-* [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/)

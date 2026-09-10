@@ -208,11 +208,3 @@ Einen detaillierten Marktüberblick über führende Tracking- und Analyse-Tools 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Was ist AI Search?](/glossar/ai-search/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [LLM Rank Tracker im Vergleich](/glossar/llm-rank-tracker/)
-* [E-E-A-T: Vertrauen für Sprachmodelle](/glossar/e-e-a-t/)
-* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)

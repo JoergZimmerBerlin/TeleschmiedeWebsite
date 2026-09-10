@@ -222,14 +222,3 @@ Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwer
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Agent Readiness für KI-Suchsysteme](/glossar/agent-readiness/)
-* [RFC 8288 Link-Header im technischen SEO](/glossar/rfc-8288-link-headers/)
-* [DNS-AID: Agent Identity Discovery](/glossar/dns-aid/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [A2A Protocol: Agent-to-Agent Kommunikation](/glossar/a2a-protocol/)
-* [Web Application Firewall (WAF): Schutz vs. SEO](/glossar/web-application-firewall/)
-* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
-* [Content Signals für generative KI-Modelle](/glossar/content-signals/)
-

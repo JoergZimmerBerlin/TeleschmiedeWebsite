@@ -309,14 +309,3 @@ Egal ob du mit der extrem leistungsfähigen Free-Version startest oder für dein
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe & Ressourcen
-* [WordPress SEO: Moderne Architekturen & Performance](/glossar/wordpress-seo/)
-* [Strukturierte Daten: Das Fundament für semantische Suchmaschinen](/glossar/strukturierte-daten/)
-* [Technisches Schema Markup: Entitäten & JSON-LD im Detail](/glossar/technisches-schema-markup/)
-* [FAQ-Markup: Rich Snippets für Google gezielt aktivieren](/glossar/faq-markup/)
-* [Pagespeed: Ladezeiten optimieren & Core Web Vitals meistern](/glossar/pagespeed/)
-* [Topical Authority: Themenführerschaft für nachhaltige Rankings](/glossar/topical-authority/)
-* [SE Ranking: Das All-in-One SEO Tool im Praxiseinsatz](/glossar/se-ranking/)
-* [Money Keywords: Kommerzielle Suchbegriffe profitabel nutzen](/glossar/money-keyword/)
-* [SEO-Tool-Kostenrechner: Toolbudgets transparent kalkulieren](/tools/seo-tool-kostenrechner/)

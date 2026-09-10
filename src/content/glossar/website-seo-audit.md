@@ -230,13 +230,3 @@ Hol dir die Kontrolle über deinen Code zurück und baue ein Fundament, das jede
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
-* [Website Relaunch ohne Ranking-Verluste](/glossar/website-relaunch/)
-* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
-* [Core Web Vitals: LCP, INP und CLS](/glossar/core-web-vitals/)
-* [PageSpeed: Ladezeiten nachhaltig optimieren](/glossar/pagespeed/)
-* [Google Search Console: Fehler erkennen](/glossar/google-search-console/)
-* [Web Application Firewall (WAF): Schutz vs. SEO](/glossar/web-application-firewall/)
-* [SE Ranking im umfassenden Test](/glossar/se-ranking/)

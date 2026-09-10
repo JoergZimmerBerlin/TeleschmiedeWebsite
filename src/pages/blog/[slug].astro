@@ -10,7 +10,6 @@ import DownloadCard from '../../components/DownloadCard.astro';
 import portraitImage from '../../assets/images/profile/joerg-zimmer-portrait.webp';
 import { getGitModDate } from '../../utils/git-date';
 import Schema from '../../components/Schema.astro';
-import RelatedLinks from '../../components/RelatedLinks.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -196,8 +195,6 @@ if (type === 'post') {
             </div>
           </div>
         </footer>
-
-        <RelatedLinks currentId={post.id} currentTitle={post.data.title} currentTags={post.data.tags || []} />
       </div>
     </article>
 

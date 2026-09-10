@@ -215,11 +215,3 @@ Wer seine Marken-Sichtbarkeit und die Performance seiner maschinenlesbaren Schni
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Agentic Commerce Protocol (ACP)](/glossar/agentic-commerce-protocol-acp/)
-* [Universal Commerce Protocol (UCP)](/glossar/universal-commerce-protocol-ucp/)
-* [x402 Protokoll für KI-Zahlungen](/glossar/x402-protocol/)
-* [Agent Readiness Level](/glossar/agent-readiness-level/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)

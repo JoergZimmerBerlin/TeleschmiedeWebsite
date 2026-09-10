@@ -205,13 +205,3 @@ Trustworthiness ist keine einmalige Marketingmaßnahme, sondern die dauerhafte V
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [E-E-A-T im Überblick](/glossar/e-e-a-t/)
-* [Experience (E-E-A-T): Praktische Erfahrung](/glossar/experience-eeat/)
-* [Expertise (E-E-A-T): Fachliche Qualifikation](/glossar/expertise-eeat/)
-* [Authoritativeness (E-E-A-T): Branchen-Autorität](/glossar/authoritativeness-eeat/)
-* [Was ist eine Entität im Semantic Web?](/glossar/entitaet/)
-* [Grounding Pages als Single Source of Truth](/glossar/grounding-page/)
-* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
-

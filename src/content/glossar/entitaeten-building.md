@@ -207,15 +207,3 @@ Entitäten-Building ist kein einmaliges Projekt, sondern ein strategischer Dauer
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [Entität](/glossar/entitaet/)
-- [Entity SEO](/glossar/entity-seo/)
-- [Groundingpage](/glossar/grounding-page/)
-- [Citation](/glossar/citation/)
-- [Topical Authority](/glossar/topical-authority/)
-- [GEO Optimierung](/glossar/geo-optimierung/)
-- [E-E-A-T](/glossar/e-e-a-t/)
-
-

@@ -172,12 +172,3 @@ Wer nicht misst, ob und wie die KIs über seine Marke sprechen, überlässt die 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Rankscale: AI Visibility Plattform im Detail](/glossar/rankscale/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [AI Search: Suchverhalten der generativen Zukunft](/glossar/ai-search/)
-* [RAG Pipelines verstehen und optimieren](/glossar/rag/)
-* [LLM Volatilität in Antwortmaschinen](/glossar/llm-volatility/)
-* [Top 9 AI Visibility Tools im Vergleich](/blog/top-9-ai-visibility-tools/)
-

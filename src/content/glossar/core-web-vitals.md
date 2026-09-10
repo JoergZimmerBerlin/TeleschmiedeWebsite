@@ -184,13 +184,3 @@ Fixe deinen Code, befreie den Main-Thread und bau Systeme, die performant und st
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [PageSpeed](/glossar/pagespeed/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
-* [Usability und UX](/glossar/usability/)
-* [Interne Verlinkung](/glossar/interne-verlinkung/)
-* [Client-Side Rendering](/glossar/client-side-rendering/)
-* [Server-Side Rendering](/glossar/server-side-rendering/)

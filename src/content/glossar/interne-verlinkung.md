@@ -189,12 +189,3 @@ Mache die interne Verlinkung zu einer festen Routine deines Redaktions- und Entw
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [Linkjuice und PageRank](/glossar/linkjuice/)
-* [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
-* [Entity SEO Strategien](/glossar/entity-seo/)
-* [Knowledge Graph Grundlagen](/glossar/knowledge-graph/)
-

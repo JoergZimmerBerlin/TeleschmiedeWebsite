@@ -207,11 +207,3 @@ Im Rahmen ganzheitlicher [E-E-A-T](/glossar/e-e-a-t/) Optimierungen stärken Sie
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Share of Model im KI-Zeitalter](/glossar/share-of-model/)
-* [AI Visibility Tools Vergleich](/glossar/ai-visibility-tools/)
-* [Sichtbarkeitsmanagement für Unternehmen](/glossar/sichtbarkeitsmanagement/)
-* [E-E-A-T Framework](/glossar/e-e-a-t/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-

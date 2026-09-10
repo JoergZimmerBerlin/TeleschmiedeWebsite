@@ -154,15 +154,3 @@ Wer heute noch glaubt, dass ein paar grüne Haken in einem traditionellen Tool a
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [GEO Audit: Der umfassende Prüfbericht für generative KIs](/glossar/geo-audit/)
-* [AI Tracking Tools: Wahre Sichtbarkeit messen](/glossar/ai-tracking-tools/)
-* [AI Visibility Report: Statusberichte für Vorstände und Teams](/glossar/ai-visibility-report/)
-* [llms.txt: Der Inklusions-Leitfaden für KI-Agenten](/glossar/llms-txt/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)
-* [RAG: Retrieval-Augmented Generation im Detail](/glossar/rag/)
-* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)
-* [SEO Audit: Das klassische Fundament](/glossar/seo-audit/)
-

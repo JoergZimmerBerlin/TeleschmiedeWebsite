@@ -191,12 +191,3 @@ Zur systematischen Überwachung deiner Onpage-Architektur und Identifikation feh
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [LLMs-full.txt: Volltextdokumentation für RAG-Pipelines](/glossar/llms-full-txt/)
-* [Robots.txt: Verbindliche Steuerung von Web-Spidern](/glossar/robots-txt/)
-* [Markdown Content Negotiation: Dynamische Content-Bereitstellung](/glossar/markdown-content-negotiation/)
-* [Grounding Page: Eindeutige Faktenverankerung im Web](/glossar/grounding-page/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Entität: Semantische Knotenpunkte für Wissensgraphen](/glossar/entitaet/)
-* [AI SEO: Optimierung für moderne Antwortmaschinen](/glossar/ai-seo/)

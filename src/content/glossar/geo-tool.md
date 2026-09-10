@@ -220,11 +220,3 @@ Einen detaillierten Marktüberblick über weitere Lösungen finden Sie in unsere
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe & Leseempfehlungen
-* [GEO Audit: Der Stresstest für Domains](/glossar/geo-audit/)
-* [GEO Optimierung: RAG-Sichtbarkeit](/glossar/geo-optimierung/)
-* [Share of Model im Detail](/glossar/share-of-model/)
-* [Promptset für KI-Monitoring](/glossar/promptset/)
-
-

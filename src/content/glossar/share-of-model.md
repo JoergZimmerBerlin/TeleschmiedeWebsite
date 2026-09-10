@@ -195,12 +195,3 @@ Zur kontinuierlichen Überwachung empfiehlt sich der Einsatz professioneller Sof
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Share of Voice im digitalen Marketing](/glossar/share-of-voice/)
-* [Zero-Click-Content im KI-Zeitalter](/glossar/zero-click-content/)
-* [Promptset für KI-Benchmarking](/glossar/promptset/)
-* [LLM Rank Tracker im Vergleich](/glossar/llm-rank-tracker/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [SEO Visibility Tools vs AI Tracking](/glossar/seo-visibility-tools/)
-* [KI-Sichtbarkeit messen und steigern](/glossar/ki-sichtbarkeit/)

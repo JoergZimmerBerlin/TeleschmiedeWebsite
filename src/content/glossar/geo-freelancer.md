@@ -187,13 +187,3 @@ In der operativen Zusammenarbeit mit Unternehmen folgt ein versierter Berater ei
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Generative Engine Optimization im Detail](/glossar/geo/)
-* [RAG: Retrieval-Augmented Generation verstehen](/glossar/rag/)
-* [Entity SEO für Knowledge Graph Verankerung](/glossar/entity-seo/)
-* [AI Visibility Score systematisch messen](/glossar/ai-visibility-score/)
-* [GEO Agentur: Strukturen und Strategien](/glossar/geo-agentur/)
-* [Grounding Page als autoritative Wissensquelle](/glossar/grounding-page/)
-
-

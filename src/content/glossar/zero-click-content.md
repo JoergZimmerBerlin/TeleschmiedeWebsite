@@ -185,14 +185,3 @@ Erkenne Zero-Click nicht als Bedrohung, sondern als den wirkungsvollsten Hebel f
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [GEO Optimierung: Generative Engine Optimization](/glossar/geo-optimierung/)
-* [Zitierfähiger Content für KI-Systeme](/glossar/zitierfaehiger-content/)
-* [Brand Mentions und Markenautorität](/glossar/brand-mentions/)
-* [AI Visibility Score verstehen](/glossar/ai-visibility-score/)
-* [llms.txt für KI-Crawler](/glossar/llms-txt/)
-* [Grounding Page für KI-Zitationen](/glossar/grounding-page/)
-* [E-E-A-T Richtlinien im SEO](/glossar/e-e-a-t/)
-* [ChatGPT Sichtbarkeit maximieren](/glossar/chatgpt-sichtbarkeit/)
-

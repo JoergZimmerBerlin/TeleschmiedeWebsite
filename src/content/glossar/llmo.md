@@ -204,12 +204,3 @@ Mache LLMO zum integralen Bestandteil deiner digitalen Wachstumsstrategie. Struk
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Grounding Pages als Wissensanker](/glossar/grounding-page/)
-* [llms.txt Standard für KI-Modelle](/glossar/llms-txt/)
-* [Markdown Content Negotiation verstehen](/glossar/markdown-content-negotiation/)
-* [Zitierfähiger Content im KI-Zeitalter](/glossar/zitierfaehiger-content/)
-* [Rankscale Tool Testbericht](/glossar/rankscale/)
-* [Entitäten und Knowledge Graphen](/glossar/entitaet/)

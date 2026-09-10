@@ -200,14 +200,3 @@ Das Canonical Tag ist das fundamentale Steuerungsinstrument, um Webarchitekturen
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [301 vs. 302 Redirects](/glossar/301-vs-302/)
-* [Noindex und Crawler-Steuerung](/glossar/noindex/)
-* [Technisches SEO](/glossar/technisches-seo/)
-* [XML-Sitemap](/glossar/xml-sitemap/)
-* [Trailing Slashes](/glossar/trailing-slashes/)
-* [SEO Audit](/glossar/seo-audit/)
-
-

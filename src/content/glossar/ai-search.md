@@ -171,15 +171,3 @@ AI Search ist nicht das Ende von SEO, sondern seine logische Weiterentwicklung. 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)
-* [RAG: Retrieval-Augmented Generation im Detail](/glossar/rag/)
-* [AI Search Engine: Die Evolution der Suchmaschinen](/glossar/ai-search-engine/)
-* [AI Search Optimization: Praxis-Guide für GEO](/glossar/ai-search-optimization/)
-* [LLM Rank Tracker im Vergleich](/glossar/llm-rank-tracker/)
-* [Zero-Click Content: Sichtbarkeit ohne Klick-Traffic](/glossar/zero-click-content/)
-* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)
-* [E-E-A-T: Vertrauen für Sprachmodelle](/glossar/e-e-a-t/)
-

@@ -206,13 +206,3 @@ Das Noindex-Tag ist kein bloßes Archivierungsinstrument, sondern ein zentrales 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
-* [Robots.txt im SEO](/glossar/robots-txt/)
-* [Canonical Tag](/glossar/canonical-tag/)
-* [Technisches SEO](/glossar/technisches-seo/)
-* [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/)
-* [Trailing Slashes](/glossar/trailing-slashes/)
-* [SEO Audit](/glossar/seo-audit/)
-

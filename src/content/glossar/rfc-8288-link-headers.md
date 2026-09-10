@@ -180,12 +180,3 @@ RFC 8288 Web Linking ist die essenzielle Navigationsstruktur der KI-Ära. Geht a
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Agent Readiness Level 5](/glossar/agent-readiness-level/)
-* [LLMs.txt Leitfaden](/glossar/llms-txt/)
-* [Trailing Slashes im SEO](/glossar/trailing-slashes/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)
-* [Robots.txt für KI-Bots](/glossar/robots-txt/)
-* [AI Crawlability optimieren](/glossar/ai-crawlability/)
-* [A2A Protocol & Agent Cards](/glossar/a2a-protocol/)

@@ -204,16 +204,3 @@ Wie Sie Ihre Sichtbarkeit über verschiedene KI-Suchsysteme hinweg messen, erfah
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [Entität](/glossar/entitaet/)
-- [Entitäten-Building](/glossar/entitaeten-building/)
-- [Entity SEO](/glossar/entity-seo/)
-- [Topical Authority](/glossar/topical-authority/)
-- [Promptset](/glossar/promptset/)
-- [Share of Voice](/glossar/share-of-voice/)
-- [Brand Sentiment](/glossar/brand-sentiment/)
-- [Technisches Schema Markup](/glossar/technisches-schema-markup/)
-
-

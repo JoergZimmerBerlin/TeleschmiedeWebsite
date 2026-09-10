@@ -200,10 +200,3 @@ Unternehmen, die ihre Onpage-Architektur konsequent auf maschinenlesbare Standar
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Strukturierte Daten im Detail](/glossar/strukturierte-daten/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Was ist eine Entität im Semantic Web?](/glossar/entitaet/)
-* [E-E-A-T: Das Qualitätsfundament für SEO](/glossar/e-e-a-t/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)

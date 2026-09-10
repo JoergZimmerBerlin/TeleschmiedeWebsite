@@ -204,11 +204,3 @@ Die Investition in ein solches, hochspezialisiertes Tracking-Tool ist längst ke
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [KI Sichtbarkeit](/glossar/ki-sichtbarkeit/)
-* [GEO Tool](/glossar/geo-tool/)
-* [AI Visibility Tools](/glossar/ai-visibility-tools/)
-* [Peec AI](/glossar/peec-ai/)
-* [Perplexity Sichtbarkeit](/glossar/perplexity-sichtbarkeit/)
-* [SE Ranking](/glossar/se-ranking/)

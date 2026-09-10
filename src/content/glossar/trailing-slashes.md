@@ -186,12 +186,3 @@ Wenn beide Versionen laden, verlierst du in diesem Moment bares Geld, Sichtbarke
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Technisches SEO in der AI-Ära](/glossar/technisches-seo/)
-* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* [Robots.txt richtig konfigurieren](/glossar/robots-txt/)
-* [Canonical Tag: Der Lebensretter](/glossar/canonical-tag/)
-* [XML-Sitemap Best Practices](/glossar/xml-sitemap/)
-* [Web Application Firewall (WAF)](/glossar/web-application-firewall/)
-* [Two-Wave Indexing verstehen](/glossar/two-wave-indexing/)

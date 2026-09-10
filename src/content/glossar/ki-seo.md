@@ -189,14 +189,3 @@ Geht es jedoch um Recherche, tiefe Fragen, Vergleiche oder B2B-Dienstleistungen,
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Search Grundlagen](/glossar/ai-search/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Answer Engine Optimization (AEO)](/glossar/aeo/)
-* [AI Visibility messen](/glossar/ai-visibility/)
-* [Entity SEO verstehen](/glossar/entity-seo/)
-* [RAG im Detail](/glossar/rag/)
-* [LLMs.txt für KI-Crawler](/glossar/llms-txt/)
-* [KI-Ranking Sichtbarkeit](/glossar/ki-ranking/)
-

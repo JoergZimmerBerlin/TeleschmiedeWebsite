@@ -193,12 +193,3 @@ Wer seine Markenpräsenz in der Region stärken und seine digitale Sichtbarkeit 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Local SEO für regionale Unternehmen](/glossar/local-seo/)
-* [E-E-A-T im KI-Zeitalter](/glossar/e-e-a-t/)
-* [Citations und Co-Occurrences im Semantic Web](/glossar/citation/)
-* [SEO-Audit: Technische & inhaltliche Bestandsaufnahme](/glossar/seo-audit/)
-* [Entitäten im Knowledge Graph](/glossar/entitaet/)
-* [Trustworthiness (E-E-A-T)](/glossar/trustworthiness-eeat/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)

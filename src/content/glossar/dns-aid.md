@@ -205,15 +205,3 @@ Welche Analysewerkzeuge Ihnen helfen, Ihre digitale Präsenz im KI-Ökosystem zu
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [DNS-Sovereignty](/glossar/dns-sovereignty/)
-- [Agent Readiness](/glossar/agent-readiness/)
-- [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-- [A2A-Protocol](/glossar/a2a-protocol/)
-- [MCP Server Card](/glossar/mcp-server-card/)
-- [RFC 8288 Link-Header](/glossar/rfc-8288-link-headers/)
-- [auth.md](/glossar/auth-md/)
-
-

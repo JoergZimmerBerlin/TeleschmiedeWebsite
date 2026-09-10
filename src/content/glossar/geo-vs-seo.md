@@ -168,11 +168,3 @@ Wer sich im Jahr 2026 ausschließlich an alte Klickraten klammert, wird unsichtb
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe & Leseempfehlungen
-* [Was ist GEO Optimierung?](/glossar/geo-optimierung/)
-* [LLM-Pipelines & Markdown Negotiation](/glossar/markdown-content-negotiation/)
-* [Entity SEO: Den Graphen füttern](/glossar/entity-seo/)
-* [GEO Audit: Der Stresstest](/glossar/geo-audit/)
-* [Die Rolle der Groundingpage](/glossar/grounding-page/)
-

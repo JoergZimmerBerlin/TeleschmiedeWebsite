@@ -207,11 +207,3 @@ Einen detaillierten Marktüberblick über die führenden Monitoring-Lösungen bi
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Share of Model im KI-Zeitalter](/glossar/share-of-model/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Grounding Pages für KI-Crawler](/glossar/grounding-page/)
-

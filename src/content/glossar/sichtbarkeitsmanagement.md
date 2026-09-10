@@ -204,14 +204,3 @@ Mit diesem systematischen Steuerungsansatz verwandeln zukunftsorientierte Untern
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Sichtbarkeit im Wandel: Organisch & Generativ](/glossar/sichtbarkeit/)
-* [Sichtbarkeitsindex: Aussagekraft klassischer Kennzahlen](/glossar/sichtbarkeitsindex/)
-* [Generative Engine Optimization (GEO): Zitationen sichern](/glossar/geo-optimierung/)
-* [Entity SEO für maschinenlesbare Markenwelten](/glossar/entity-seo/)
-* [Technisches SEO für fehlerfreie Indexierung](/glossar/technisches-seo/)
-* [Crawling vs. Indexing: Die Grundlagen verstehen](/glossar/crawling-vs-indexing/)
-* [AI Crawlability: Bots optimal empfangen](/glossar/ai-crawlability/)
-* [Strukturierte Daten: Entitäten für Maschinen](/glossar/strukturierte-daten/)
-

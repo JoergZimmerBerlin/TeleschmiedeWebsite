@@ -205,13 +205,3 @@ Einen detaillierten Marktüberblick über Software zur Messung Ihrer Markenpräs
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI SEO: Grundlagen der KI-Optimierung](/glossar/ai-seo/)
-* [Common Crawl als KI-Trainingsdatenbasis](/glossar/common-crawl/)
-* [E-E-A-T und Experience im Detail](/glossar/experience-eeat/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Markdown Content Negotiation für LLMs](/glossar/markdown-content-negotiation/)
-* [Meta-Description für maximale CTR](/glossar/meta-description/)
-* [Zitierfähiger Content für RAG-Systeme](/glossar/zitierfaehiger-content/)
-

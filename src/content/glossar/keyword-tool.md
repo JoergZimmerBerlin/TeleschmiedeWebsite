@@ -204,13 +204,3 @@ Zur ganzheitlichen Überwachung klassischer Suchmaschinen-Positionen, zur Durchf
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Keywordrecherche: Methoden moderner Bedarfsanalysen](/glossar/keywordrecherche/)
-* [Keywörter: Entwicklung vom Textbegriff zum Vektor](/glossar/keywoerter/)
-* [Suchvolumen: Grenzen und Chancen einer Kennzahl](/glossar/suchvolumen/)
-* [Money Keywords: Zielgerichtete Transaktionsbegriffe](/glossar/money-keyword/)
-* [Topical Authority: Ganzheitliche Themenführerschaft](/glossar/topical-authority/)
-* [Entität: Die Architektur moderner Wissensgraphen](/glossar/entitaet/)
-* [Generative Engine Optimization (GEO): Strategien für KI-Suche](/glossar/geo/)
-

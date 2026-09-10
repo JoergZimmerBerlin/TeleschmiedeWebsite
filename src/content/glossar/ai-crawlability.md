@@ -184,12 +184,3 @@ Einen Marktüberblick über spezialisierte Tools zur Überwachung Ihrer generati
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Technisches SEO für moderne Websites](/glossar/technisches-seo/)
-* [Strukturierte Daten und Entity Grounding](/glossar/strukturierte-daten/)
-* [Markdown Content Negotiation verstehen](/glossar/markdown-content-negotiation/)
-* [llms.txt: Standard für Sprachmodelle](/glossar/llms-txt/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Query Fan-out im generativen Suchprozess](/glossar/query-fan-out/)
-

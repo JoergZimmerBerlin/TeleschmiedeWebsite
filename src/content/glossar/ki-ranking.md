@@ -209,14 +209,3 @@ Einen detaillierten Marktüberblick finden Sie in unserem Leitfaden über die [T
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Visibility Score messen](/glossar/ai-visibility-score/)
-* [Answer Engine Optimization (AEO)](/glossar/aeo/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Zitierfähiger Content für RAG-Systeme](/glossar/zitierfaehiger-content/)
-* [KI-Content Richtlinien](/glossar/ki-content/)
-* [RAG im Detail verstehen](/glossar/rag/)
-

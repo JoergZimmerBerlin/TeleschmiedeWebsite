@@ -192,12 +192,3 @@ Für kleine Solo-Marketer mag der Starter-Plan durch die reine Limitierung auf C
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [GEO Tool: Generative Engine Optimization](/glossar/geo-tool/)
-* [KI-Sichtbarkeit messen und steigern](/glossar/ki-sichtbarkeit/)
-* [Peec AI: Prompt Monitoring](/glossar/peec-ai/)
-* [Perplexity-Sichtbarkeit gezielt aufbauen](/glossar/perplexity-sichtbarkeit/)
-* [SE Ranking als All-in-One SEO Suite](/glossar/se-ranking/)
-* [AI Tracker Vergleich für LLMs](/glossar/ai-tracker-vergleich/)
-* [Zitierfähiger Content im KI-Zeitalter](/glossar/zitierfaehiger-content/)

@@ -192,12 +192,3 @@ Zur Überprüfung der eigenen Sichtbarkeit in KI-Suchsystemen und Shopping-Assis
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Agent Payments Protocol (AP2) im Überblick](/glossar/agent-payments-protocol-ap2/)
-* [Agent2Agent (A2A) Protokoll erklärt](/glossar/a2a-protocol/)
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [E-Commerce KI-Sichtbarkeit stärken](/glossar/ecommerce-ki-sichtbarkeit/)
-* [Agent Readiness für Unternehmen](/glossar/agent-readiness/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Technisches SEO in der KI-Ära](/glossar/technisches-seo/)

@@ -216,13 +216,3 @@ AEO im Jahr 2026 bedeutet, dass du traditionelles SEO als Crawl-Infrastruktur nu
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Was ist die llms.txt?](/glossar/llms-txt/)
-* [Was ist eine Entität im Semantic Web?](/glossar/entitaet/)
-* [Zero-Click Searches in der Praxis](/glossar/zero-click-content/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Markdown Content Negotiation für KI-Agenten](/glossar/markdown-content-negotiation/)
-* [A2A Protocol & Agent Readiness](/glossar/a2a-protocol/)
-* [Zitierfähiger Content für Answer Engines](/glossar/zitierfaehiger-content/)
-

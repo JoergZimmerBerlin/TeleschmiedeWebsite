@@ -179,13 +179,3 @@ Der Aufbau digitaler Autorität ist ein langfristiger Prozess. Indem du investie
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Entität: Die Basis semantischer Suche](/glossar/entitaet/)
-* [Answer Engine Optimization (AEO)](/glossar/aeo/)
-* [KI-Ranking: Funktionsweise moderner Algorithmen](/glossar/ki-ranking/)
-* [Linkjuice: Vererbung von Linkkraft](/glossar/linkjuice/)
-* [SEO-Beratung: Strategische Ausrichtung](/glossar/seo-beratung/)
-* [Pressearbeit im SEO: Digital-PR nutzen](/glossar/pressearbeit-im-seo/)
-* [Trustworthiness (E-E-A-T) im Offpage-Bereich](/glossar/trustworthiness-eeat/)
-

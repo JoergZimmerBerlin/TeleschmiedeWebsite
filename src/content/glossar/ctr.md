@@ -199,15 +199,3 @@ Die Click-Through-Rate bleibt eine unverzichtbare Kennzahl, hat sich jedoch von 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [Cost-per-Click (CPC)](/glossar/cpc/)
-- [Conversion Rate](/glossar/conversion-rate/)
-- [Generative Engine Optimization (GEO)](/glossar/geo/)
-- [GEO Optimierung](/glossar/geo-optimierung/)
-- [Technisches SEO](/glossar/technisches-seo/)
-- [Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/)
-
-
-

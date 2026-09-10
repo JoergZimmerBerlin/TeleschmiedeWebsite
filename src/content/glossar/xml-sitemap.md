@@ -226,14 +226,3 @@ Wie Sie die Crawling-Effizienz und Serverauslastung Ihrer Website professionell 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Two-Wave Indexing im Detail](/glossar/two-wave-indexing/)
-* [Technisches SEO als Qualitätsbasis](/glossar/technisches-seo/)
-* [Google Search Console: Fehler erkennen](/glossar/google-search-console/)
-* [Crawler: Funktionsweise und Steuerung](/glossar/crawler/)
-* [Canonical Tag richtig einsetzen](/glossar/canonical-tag/)
-* [ai.txt für maschinenlesbare Inhalte](/glossar/ai-txt/)
-* [Robots.txt verstehen](/glossar/robots-txt/)
-* [Website Relaunch ohne Ranking-Verluste](/glossar/website-relaunch/)
-

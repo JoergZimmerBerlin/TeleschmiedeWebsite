@@ -155,13 +155,3 @@ Wer seine Daten 2026 nicht über KI-Crawler-Protokolle und maschinenlesbare Endp
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Generative Engine Optimization (GEO) im Detail](/glossar/geo/)
-* [Agent Readiness Levels für KI-Schnittstellen](/glossar/agent-readiness-level/)
-* [PageSpeed: Ladezeiten nachhaltig optimieren](/glossar/pagespeed/)
-* [Core Web Vitals: LCP, INP und CLS](/glossar/core-web-vitals/)
-* [Strukturierte Daten nach Schema.org](/glossar/strukturierte-daten/)
-* [Google Search Console: Fehler erkennen](/glossar/google-search-console/)
-* [Trailing Slashes richtig setzen](/glossar/trailing-slashes/)
-* [Bing Webmaster Tools als RAG-Backend](/glossar/bing-webmastertools/)

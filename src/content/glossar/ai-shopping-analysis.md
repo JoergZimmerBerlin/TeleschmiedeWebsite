@@ -205,14 +205,3 @@ Der Übergang vom klassischen Suchen und Klicken hin zum interaktiven Beraten un
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Agentic Commerce Protocol (ACP): Instant Checkout in KIs](/glossar/agentic-commerce-protocol-acp/)
-* [AI Rank Tracker: Zitationen und Rankings überwachen](/glossar/ai-rank-tracker/)
-* [Brand Mentions: Markennennungen in Sprachmodellen](/glossar/brand-mentions/)
-* [Brand Visibility Dashboard: Ganzheitliches KI-Monitoring](/glossar/brand-visibility-dashboard/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)
-* [Schema Markup: Semantische Auszeichnung für Suchmaschinen](/glossar/schema-org-markup/)
-* [Technisches SEO: Grundlagen für Crawling und Rendering](/glossar/technisches-seo/)
-

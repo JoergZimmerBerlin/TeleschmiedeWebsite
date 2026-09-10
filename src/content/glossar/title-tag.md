@@ -179,12 +179,3 @@ Lass dieses Feld in deinem CMS niemals leer oder vom System automatisch mit Mül
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Wie schreibt man Meta Descriptions?](/glossar/meta-description/)
-* [Klickrate (CTR) im SEO optimieren](/glossar/ctr/)
-* [Snippet-Optimierung für Google](/glossar/snippet-optimierung/)
-* [Die Semantik von H1-H3 Überschriften](/glossar/h1-h2-h3/)
-* [Was ist Generative Engine Optimization?](/glossar/geo/)
-* [Topical Authority im Semantic Web](/glossar/topical-authority/)
-* [Suchvolumen analysieren](/glossar/suchvolumen/)

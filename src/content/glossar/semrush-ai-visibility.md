@@ -197,13 +197,3 @@ Einen umfassenden Überblick über spezialisierte Softwarelösungen finden Sie i
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [KI-Sichtbarkeit ganzheitlich verstehen](/glossar/ki-sichtbarkeit/)
-* [Was ist der AI Visibility Score?](/glossar/ai-visibility-score/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-tool/)
-* [Topical Authority im semantischen Web](/glossar/topical-authority/)
-* [Grounding Pages für KI-Crawler](/glossar/grounding-page/)
-* [SEO Visibility Tools im Vergleich](/glossar/seo-visibility-tools/)
-* [Robots.txt für KI-Bots steuern](/glossar/robots-txt/)
-

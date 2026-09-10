@@ -186,12 +186,3 @@ Ein strukturierter monatlicher Workflow sieht vor, die GSC-Daten über die offiz
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Google Search Console Einrichtung Schritt für Schritt](/glossar/google-search-console-einrichtung/)
-* [Technisches SEO als Fundament](/glossar/technisches-seo/)
-* [Crawling vs. Indexing verstehen](/glossar/crawling-vs-indexing/)
-* [Rankingfaktoren im Überblick](/glossar/rankingfaktoren/)
-* [Schema.org Markup richtig deklarieren](/glossar/schema-org-markup/)
-* [Zero-Click Searches in modernen Suchmaschinen](/glossar/zero-click-content/)
-

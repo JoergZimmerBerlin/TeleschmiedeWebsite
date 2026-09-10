@@ -156,12 +156,3 @@ Fokussiere dich ab sofort zu 100% auf deine technische KI-Optimierung und Answer
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Was ist Citation-Stability in der Praxis?](/glossar/sichtbarkeit/)
-* [Das endgültige Ende des Sichtbarkeitsindex](/glossar/sichtbarkeitsindex/)
-* [Sichtbarkeitsmanagement für KI-Agenten](/glossar/sichtbarkeitsmanagement/)
-* [Suchvolumen im Wandel der Zeit](/glossar/suchvolumen/)
-* [Conversion-Rate Optimierung (CRO)](/glossar/conversion-rate/)
-* [Zero-Click Content und AI Overviews](/glossar/zero-click-content/)
-* [Topical Authority im Semantic Web](/glossar/topical-authority/)

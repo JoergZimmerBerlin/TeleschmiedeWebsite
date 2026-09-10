@@ -193,10 +193,3 @@ Wer seine Markenpräsenz und Zitationshäufigkeit über mehrere Plattformen hinw
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Experience im E-E-A-T Framework](/glossar/experience-eeat/)
-* [Expertise im E-E-A-T Framework](/glossar/expertise-eeat/)
-* [Trustworthiness im E-E-A-T Framework](/glossar/trustworthiness-eeat/)
-* [Knowledge Graph und Entitäten](/glossar/knowledge-graph/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)

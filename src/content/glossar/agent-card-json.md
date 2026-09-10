@@ -202,12 +202,3 @@ Es ist Zeit aufzuwachen. Wer heute noch Webseiten ausschließlich für den Chrom
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [A2A Protocol im Detail](/glossar/a2a-protocol/)
-* [Agent Readiness Level erklärt](/glossar/agent-readiness-level/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [llms.txt: Maschinenlesbares Web-Inhaltsverzeichnis](/glossar/llms-txt/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
-

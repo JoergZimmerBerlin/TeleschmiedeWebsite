@@ -170,12 +170,3 @@ Wir verfolgen in der Praxis fast immer einen hybriden Ansatz. Für das Fundament
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Sichtbarkeitsindex im Wandel](/glossar/sichtbarkeitsindex/)
-* [KI-Sichtbarkeit verstehen](/glossar/ki-sichtbarkeit/)
-* [AI Tracking Tools im Vergleich](/glossar/ai-tracking-tools/)
-* [SE Ranking Praxis-Leitfaden](/glossar/se-ranking/)
-* [Rankscale GEO Tool im Test](/glossar/rankscale/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Zero-Click-Content Strategie](/glossar/zero-click-content/)

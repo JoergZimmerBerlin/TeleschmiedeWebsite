@@ -192,13 +192,3 @@ Mach deinen Content zu einer unübersehbaren Primärquelle für die KI-Suche. St
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-- [Zero-Click Content](/glossar/zero-click-content/)
-- [Generative Engine Optimization (GEO)](/glossar/geo/)
-- [Answer Engine Optimization (AEO)](/glossar/aeo/)
-- [Retrieval-Augmented Generation (RAG)](/glossar/rag/)
-- [Grounding Page](/glossar/grounding-page/)
-- [llms.txt Standard](/glossar/llms-txt/)
-- [Entity SEO](/glossar/entity-seo/)
-- [Server-Side Rendering (SSR)](/glossar/server-side-rendering/)

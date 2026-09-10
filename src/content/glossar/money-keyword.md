@@ -163,11 +163,3 @@ Die wertvollsten Transaktionen des Jahres 2026 passieren bei hochkomplexen Zero-
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Die Bedeutung von Entitäten für LLMs](/glossar/entitaet/)
-* [Crawling vs. Indexing radikal verstehen](/glossar/crawling-vs-indexing/)
-* [Mentions als Trust-Signal](/glossar/mention/)
-* [Conversion Rate Optimierung für KIs](/glossar/conversion-rate/)
-* [GEO Optimierung](/glossar/geo-optimierung/)
-* [Strukturierte Daten](/glossar/strukturierte-daten/)

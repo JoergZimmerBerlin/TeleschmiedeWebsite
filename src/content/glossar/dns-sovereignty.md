@@ -178,15 +178,3 @@ Unternehmen, die ihre DNS-Infrastruktur aktiv modernisieren und auf europäische
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-- [DNS-AID](/glossar/dns-aid/)
-- [Crawler](/glossar/crawler/)
-- [Core Web Vitals](/glossar/core-web-vitals/)
-- [PageSpeed](/glossar/pagespeed/)
-- [Technisches SEO](/glossar/technisches-seo/)
-- [Web Application Firewall (WAF)](/glossar/web-application-firewall/)
-- [E-E-A-T](/glossar/e-e-a-t/)
-- [SEO-Audit](/glossar/seo-audit/)
-

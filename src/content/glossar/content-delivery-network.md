@@ -175,13 +175,3 @@ Um die globale Verfügbarkeit, Ladezeiten und Latenzschwankungen deiner Webpräs
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Pagespeed: Geschwindigkeitsoptimierung im Detail](/glossar/pagespeed/)
-* [Core Web Vitals: Die offiziellen Google UX-Messwerte](/glossar/core-web-vitals/)
-* [Web Application Firewall (WAF): Schutz vor Bot-Angriffen](/glossar/web-application-firewall/)
-* [Technisches SEO: Die solide Basis für Suchmaschinen](/glossar/technisches-seo/)
-* [Usability: Nutzerfreundlichkeit als Rankingfaktor](/glossar/usability/)
-* [Server-Side Rendering: Effiziente Bereitstellung für Bots](/glossar/server-side-rendering/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-

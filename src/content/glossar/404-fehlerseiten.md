@@ -197,11 +197,3 @@ Ein professioneller Bereinigungsprozess defekter URLs gliedert sich in vier klar
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe
-* [301 vs. 302 Redirects](/glossar/301-vs-302/)
-* [Canonical Tag Optimierung](/glossar/canonical-tag/)
-* [Technisches SEO & UX](/glossar/technisches-seo/)
-* [SEO Audit für Unternehmen](/glossar/seo-audit/)
-* [robots.txt im technischen SEO](/glossar/robots-txt/)
-

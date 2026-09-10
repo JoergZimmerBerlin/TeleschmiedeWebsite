@@ -238,12 +238,3 @@ Du willst noch tiefer einsteigen? Ich habe in der Vergangenheit intensiv mit SE 
 *   [Setup-Guide: SE Ranking API mit Claude Code verbinden](/blog/se-ranking-api-claude-code-setup/)
 *   [Praxis-Test: Claude Code schreibt Skripte für die SE Ranking API](/blog/se-ranking-api-claude-code-praxis-test/)
 *   [App-Entwicklung: Eine SE Ranking App mit ChatGPT bauen](/blog/se-ranking-chatgpt-app/)
-
-### Verwandte Glossar-Einträge
-* [SEO-Audit im Detail](/glossar/seo-audit/)
-* [Technisches SEO für moderne Websites](/glossar/technisches-seo/)
-* [Core Web Vitals & PageSpeed](/glossar/core-web-vitals/)
-* [Schema.org Markup implementieren](/glossar/schema-org-markup/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Linkbuilding Strategien](/glossar/linkbuilding/)
-* [KI-Sichtbarkeit messen](/glossar/ki-sichtbarkeit/)

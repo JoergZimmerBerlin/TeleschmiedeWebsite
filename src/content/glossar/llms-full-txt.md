@@ -197,12 +197,3 @@ Für die ganzheitliche Überwachung deiner Onpage-Strukturen und technischen Feh
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [LLMs.txt: Der kuratierte Index für KI-Agenten](/glossar/llms-txt/)
-* [Grounding Page: Faktische Verankerung für Sprachmodelle](/glossar/grounding-page/)
-* [Markdown Content Negotiation: Dynamische Textauslieferung](/glossar/markdown-content-negotiation/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [HTML-Struktur: Semantik für Bots und Parser](/glossar/html-struktur/)
-* [Robots.txt: Steuerungsdatei für Web-Crawler](/glossar/robots-txt/)
-* [AI SEO: Strategien für die Suche von morgen](/glossar/ai-seo/)

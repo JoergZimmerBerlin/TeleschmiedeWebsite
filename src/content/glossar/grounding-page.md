@@ -199,12 +199,3 @@ Wer die Fakten besitzt und sie den Maschinen am effizientesten, schnellsten und 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Retrieval-Augmented Generation (RAG)](/glossar/rag/)
-* [Entitäten im KI-Zeitalter verstehen](/glossar/entitaet/)
-* [Large Language Model Optimization](/glossar/llm-optimization/)
-* [Citations und Web-Zitate](/glossar/citation/)
-* [In KI-Antworten erscheinen](/glossar/in-ki-antworten-erscheinen/)
-* [Robots.txt für Crawler steuern](/glossar/robots-txt/)

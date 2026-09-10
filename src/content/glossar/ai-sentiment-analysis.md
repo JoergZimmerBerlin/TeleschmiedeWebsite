@@ -185,12 +185,3 @@ Schütze deine Marke vor unkontrolliertem KI-Framing. Nutze spezialisierte Analy
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/)
-* [AI Visibility Report analysieren](/glossar/ai-visibility-report/)
-* [Zero-Click-Content Strategien](/glossar/zero-click-content/)
-* [ChatGPT Sichtbarkeit optimieren](/glossar/chatgpt-sichtbarkeit/)
-* [Rankscale Tool Review](/glossar/rankscale/)
-* [SE Ranking Suite im Test](/glossar/se-ranking/)
-* [Brand Mentions und Reputation](/glossar/brand-mentions/)

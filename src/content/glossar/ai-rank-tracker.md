@@ -160,11 +160,3 @@ Das Zeitalter von "Ich glaube, wir sollten darüber schreiben" ist vorbei. Ranks
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Citation Analysis im Detail](/glossar/ai-citation-analysis/)
-* [AI Prompt Research Leitfaden](/glossar/ai-prompt-research/)
-* [KI-Sichtbarkeit für Unternehmen](/glossar/ki-sichtbarkeit/)
-* [KI-Sichtbarkeit Agentur Guide](/glossar/ki-sichtbarkeit-agentur/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [AEO: Answer Engine Optimization](/glossar/aeo/)

@@ -173,12 +173,3 @@ Am Ende des Tages zählt nicht dein bunter Traffic-Graph im alten Analytics-Dash
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Was ist GEO?](/glossar/geo/)
-* [Sichtbarkeitsmanagement im KI-Zeitalter](/glossar/sichtbarkeitsmanagement/)
-* [SEO Audit mit KI-Readiness](/glossar/seo-audit/)
-* [SEO Agentur im Wandel](/glossar/seo-agentur/)
-* [Grounding Page Definition](/glossar/grounding-page/)
-* [Interne Verlinkung strategisch aufbauen](/glossar/interne-verlinkung/)
-* [Keyword-Recherche für moderne Suchsysteme](/glossar/keywordrecherche/)

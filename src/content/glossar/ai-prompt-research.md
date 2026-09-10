@@ -159,11 +159,3 @@ Mit der exklusiven Prompt Research von Rankscale beendest du das Rätselraten. D
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Citation Analysis im Detail](/glossar/ai-citation-analysis/)
-* [AI Rank Tracker Leitfaden](/glossar/ai-rank-tracker/)
-* [KI-Sichtbarkeit für Unternehmen](/glossar/ki-sichtbarkeit/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [GEO Page Audit Leitfaden](/glossar/geo-page-audit/)
-* [AEO: Answer Engine Optimization](/glossar/aeo/)

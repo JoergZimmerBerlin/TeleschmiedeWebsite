@@ -206,15 +206,3 @@ Für die solide Überwachung des organischen Fundaments, technischer Onpage-Metr
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Answer Engine Optimization (AEO): Optimierung für direkte Antworten](/glossar/aeo/)
-* [Generative Engine Optimization (GEO): Sichtbarkeit in KI-Modellen](/glossar/geo/)
-* [RAG: Retrieval-Augmented Generation im Detail](/glossar/rag/)
-* [In KI Antworten erscheinen: Methoden für Answer Engines](/glossar/in-ki-antworten-erscheinen/)
-* [Zero-Click Content: Sichtbarkeit ohne Klick-Traffic](/glossar/zero-click-content/)
-* [Topical Authority: Themenführerschaft gezielt aufbauen](/glossar/topical-authority/)
-* [Strukturierte Daten: Fakten für Wissensgraphen auszeichnen](/glossar/strukturierte-daten/)
-* [Schema Markup: Semantische Auszeichnung für Suchmaschinen](/glossar/schema-org-markup/)
-* [KI-Sichtbarkeit Agentur: Beratungsansätze für generative KIs](/glossar/ki-sichtbarkeit-agentur/)
-

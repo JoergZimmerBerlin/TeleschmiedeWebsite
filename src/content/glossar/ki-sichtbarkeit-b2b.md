@@ -208,13 +208,3 @@ Verschaffen Sie sich in unserem Fachartikel über die [Top 9 AI Visibility Tools
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Sichtbarkeit im digitalen Raum](/glossar/sichtbarkeit/)
-* [Was ist der AI Visibility Score?](/glossar/ai-visibility-score/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [LLMO: Large Language Model Optimization](/glossar/llmo/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Grounding Pages als Wahrheitsanker](/glossar/grounding-page/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-

@@ -168,11 +168,3 @@ Schreibe sie manuell. Optimiere sie auf harte Klickreize (Psychologie) für Mens
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Title Tag im technischen SEO](/glossar/title-tag/)
-* [Klickrate (CTR) im SEO optimieren](/glossar/ctr/)
-* [Snippet-Optimierung für Google](/glossar/snippet-optimierung/)
-* [Entitäten in der Suchmaschinenoptimierung](/glossar/entitaet/)
-* [Trailing Slashes im technischen SEO](/glossar/trailing-slashes/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)

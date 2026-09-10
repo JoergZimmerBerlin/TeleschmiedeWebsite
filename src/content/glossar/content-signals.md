@@ -223,12 +223,3 @@ Wie Sie Ihre Sichtbarkeit über verschiedene LLM-Ökosysteme hinweg monitoren, e
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Robots.txt](/glossar/robots-txt/)
-* [Common Crawl](/glossar/common-crawl/)
-* [Agent Readiness](/glossar/agent-readiness/)
-* [Cloudflare Agent Readiness Checklist](/glossar/cloudflare-agent-readiness-checklist/)
-* [LLMs.txt](/glossar/llms-txt/)
-* [Topical Authority](/glossar/topical-authority/)

@@ -175,12 +175,3 @@ Hör auf, deine Nutzer – ob aus Fleisch oder aus Silizium – zu quälen. Mach
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Core Web Vitals Guide](/glossar/core-web-vitals/)
-* [PageSpeed & Ladezeiten-Optimierung](/glossar/pagespeed/)
-* [Conversion-Rate Optimierung (CRO)](/glossar/conversion-rate/)
-* [Website Traffic im KI-Zeitalter](/glossar/traffic/)
-* [H1, H2, H3 Überschriften-Hierarchie](/glossar/h1-h2-h3/)
-* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)

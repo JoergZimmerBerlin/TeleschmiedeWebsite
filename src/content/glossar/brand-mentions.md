@@ -154,12 +154,3 @@ Wer im Jahr 2026 noch blind HTML-Links sammelt, ignoriert den fundamentalen tech
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Was ist E-E-A-T im modernen SEO?](/glossar/e-e-a-t/)
-* [Authoritativeness (E-E-A-T) für Zitations-Trust](/glossar/authoritativeness-eeat/)
-* [Trustworthiness (E-E-A-T) und Markensentiment](/glossar/trustworthiness-eeat/)
-* [Entity SEO: Vektorraum-Ranking für KI-Crawler](/glossar/entity-seo/)
-* [Generative Engine Optimization (GEO) verstehen](/glossar/geo/)
-* [Grounding Pages als Single Source of Truth](/glossar/grounding-page/)
-

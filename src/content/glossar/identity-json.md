@@ -204,12 +204,3 @@ Wer seine [Topical Authority](/glossar/topical-authority/) und die eigene [Trust
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [GEO Optimierung verstehen](/glossar/geo-optimierung/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [Knowledge Graph Grundlagen](/glossar/knowledge-graph/)
-* [E-E-A-T Prinzipien für Vertrauen](/glossar/e-e-a-t/)
-* [Schema.org-Markup im Detail](/glossar/schema-org-markup/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Trustworthiness im E-E-A-T](/glossar/trustworthiness-eeat/)

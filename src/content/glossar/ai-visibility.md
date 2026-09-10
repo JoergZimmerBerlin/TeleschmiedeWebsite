@@ -209,14 +209,3 @@ Die Optimierung für KI-Suchsysteme erfordert ein ganzheitliches Zusammenspiel a
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Generative Engine Optimization im Überblick](/glossar/geo/)
-* [AI Visibility Score systematisch berechnen](/glossar/ai-visibility-score/)
-* [AI Visibility Tools im Vergleich](/glossar/ai-visibility-tools/)
-* [Entity SEO für semantische Eindeutigkeit](/glossar/entity-seo/)
-* [RAG: Retrieval-Augmented Generation verstehen](/glossar/rag/)
-* [Experience (E-E-A-T) als Differenzierungsfaktor](/glossar/experience-eeat/)
-* [Authoritativeness (E-E-A-T) für Zitations-Trust](/glossar/authoritativeness-eeat/)
-
-

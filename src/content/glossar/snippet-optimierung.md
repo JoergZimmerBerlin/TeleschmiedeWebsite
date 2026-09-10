@@ -194,14 +194,3 @@ Analysiere deine Snippets kontinuierlich mit [SE Ranking](https://seranking.com/
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Title Tag: Das wichtigste Onpage-Signal](/glossar/title-tag/)
-* [Meta Description: Klickrate aktiv steigern](/glossar/meta-description/)
-* [CTR (Click-Through-Rate) optimieren](/glossar/ctr/)
-* [FAQ Markup für Rich Results nutzen](/glossar/faq-markup/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Strukturierte Daten für fehlerfreie Entitäten](/glossar/strukturierte-daten/)
-* [Query Fan-Out bei KI-Suchanfragen](/glossar/query-fan-out/)
-
-

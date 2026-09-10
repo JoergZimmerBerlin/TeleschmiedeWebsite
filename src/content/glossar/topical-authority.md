@@ -218,12 +218,3 @@ Unternehmen, die ihre thematische Durchdringung im Wettbewerbsvergleich transpar
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [E-E-A-T im KI-Zeitalter](/glossar/e-e-a-t/)
-* [Authoritativeness (E-E-A-T)](/glossar/authoritativeness-eeat/)
-* [Interne Verlinkung optimieren](/glossar/interne-verlinkung/)
-* [Share of Model (SoM) verstehen](/glossar/share-of-model/)
-* [Agent Readiness Level 5](/glossar/agent-readiness-level/)
-* [Title-Tag Optimierung für Entitäten](/glossar/title-tag/)
-* [Zitierfähiger Content für KI-Suchmaschinen](/glossar/zitierfaehiger-content/)

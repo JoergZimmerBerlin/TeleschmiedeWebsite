@@ -191,13 +191,3 @@ Wie sich die eigene Zitationsrate im Vergleich zu Wettbewerbern kontinuierlich e
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [KI-Sichtbarkeit im Detail](/glossar/ki-sichtbarkeit/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Semrush AI Visibility Toolkit](/glossar/semrush-ai-visibility/)
-* [ChatGPT Sichtbarkeit aufbauen](/glossar/chatgpt-sichtbarkeit/)
-* [Entitäten im Knowledge Graph](/glossar/entitaet/)
-* [E-E-A-T Richtlinien im SEO](/glossar/e-e-a-t/)
-* [Topical Authority etablieren](/glossar/topical-authority/)
-

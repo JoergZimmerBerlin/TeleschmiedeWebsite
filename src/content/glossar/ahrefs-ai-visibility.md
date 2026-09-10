@@ -189,11 +189,3 @@ Einen Marktüberblick über ergänzende Werkzeuge bietet unser Fachbericht über
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [KI-Sichtbarkeit ganzheitlich messen](/glossar/ki-sichtbarkeit/)
-* [Was ist der AI Visibility Score?](/glossar/ai-visibility-score/)
-* [Generative Engine Optimization (GEO)](/glossar/geo-optimierung/)
-* [Share of Model im semantischen Web](/glossar/share-of-model/)
-* [Topical Authority für Marken](/glossar/topical-authority/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)

@@ -212,12 +212,3 @@ Einen detaillierten Überblick über Software zur Messung und Orchestrierung mod
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [MCP Server Card erklärt](/glossar/mcp-server-card/)
-* [Agent Readiness für autonome KIs](/glossar/agent-readiness/)
-* [A2A Protocol im Detail](/glossar/a2a-protocol/)
-* [auth.md für KI-Agenten](/glossar/auth-md/)
-* [llms.txt: Maschinenlesbares Web-Inhaltsverzeichnis](/glossar/llms-txt/)
-

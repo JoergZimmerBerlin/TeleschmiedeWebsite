@@ -218,12 +218,3 @@ Etablierte Analyseplattformen wie [Rankscale](https://rankscale.ai/?via=offer) o
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Share of Model (SoM) verstehen](/glossar/share-of-model/)
-* [Share of Voice im KI-Zeitalter](/glossar/share-of-voice/)
-* [Sichtbarkeit im Wandel: LLMs & AEO](/glossar/sichtbarkeit/)
-* [Topical Authority als Vertrauenssignal](/glossar/topical-authority/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Peec AI: Prompt Monitoring](/glossar/peec-ai/)
-* [Profound: Full Stack AEO](/glossar/profound/)

@@ -166,10 +166,3 @@ Warte nicht, bis dein Traffic auf null kollabiert, weil KI-Antworten den klassis
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Begriffe & Leseempfehlungen
-* [Was ist GEO Optimierung?](/glossar/geo-optimierung/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [LLM-Architekturen & Markdown](/glossar/markdown-content-negotiation/)
-* [Entity SEO: Knotenpunkte bauen](/glossar/entity-seo/)
-

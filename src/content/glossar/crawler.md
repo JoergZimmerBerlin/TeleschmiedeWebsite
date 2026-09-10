@@ -205,13 +205,3 @@ Einen detaillierten Marktüberblick über Software zur Überwachung Ihrer genera
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Crawling vs. Indexing im Detail](/glossar/crawling-vs-indexing/)
-* [robots.txt: Steuerung für Suchmaschinen-Bots](/glossar/robots-txt/)
-* [llms.txt: Standard für KI-Agenten](/glossar/llms-txt/)
-* [llms-full.txt: Volltextbereitstellung für LLMs](/glossar/llms-full-txt/)
-* [Web Application Firewall (WAF)](/glossar/web-application-firewall/)
-* [PageSpeed und Core Web Vitals](/glossar/pagespeed/)
-

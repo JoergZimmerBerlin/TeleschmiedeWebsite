@@ -184,13 +184,3 @@ Konzentriere dich auf Substanz statt auf Abkürzungen. Bereinige Altlasten, inve
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [E-E-A-T Richtlinien im Detail](/glossar/e-e-a-t/)
-* [Sichtbarkeitsindex verstehen](/glossar/sichtbarkeitsindex/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Generative Engine Optimization](/glossar/geo-optimierung/)
-* [Grounding Pages als Wahrheitsanker](/glossar/grounding-page/)
-* [SEO-Audit für technische Hygiene](/glossar/seo-audit/)
-* [Google Algorithmus Funktionsweise](/glossar/google-algorithmus/)
-

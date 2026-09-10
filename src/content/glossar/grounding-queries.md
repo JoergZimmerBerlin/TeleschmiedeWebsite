@@ -237,13 +237,3 @@ Einen Vergleich moderner Plattformen zur Überwachung Ihrer KI-Zitationen finden
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Grounding Page als Fakten-Anker](/glossar/grounding-page/)
-* [Retrieval-Augmented Generation (RAG)](/glossar/rag/)
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Technisches Schema Markup deklarieren](/glossar/technisches-schema-markup/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Promptset-Analysen durchführen](/glossar/promptset/)
-* [Share of Voice in der KI-Suche](/glossar/share-of-voice/)
-

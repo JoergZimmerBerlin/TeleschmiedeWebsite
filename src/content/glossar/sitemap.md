@@ -205,12 +205,3 @@ Detaillierte Einblicke in moderne Monitoring-Lösungen zur Überwachung Ihrer or
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [XML-Sitemap im Detail](/glossar/xml-sitemap/)
-* [Was macht ein Web-Crawler?](/glossar/crawler/)
-* [robots.txt konfigurieren](/glossar/robots-txt/)
-* [Crawling vs. Indexing](/glossar/crawling-vs-indexing/)
-* [RAG: Retrieval-Augmented Generation](/glossar/rag/)
-* [Technisches SEO verstehen](/glossar/technisches-seo/)
-* [Sichtbarkeit digital optimieren](/glossar/sichtbarkeit/)

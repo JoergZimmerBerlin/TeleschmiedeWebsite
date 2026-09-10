@@ -222,13 +222,3 @@ Welche Softwarelösungen Sie beim kontinuierlichen Monitoring von KI-Erwähnunge
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Generative Engine Optimization (GEO)](/glossar/geo/)
-* [Share of Model im KI-Zeitalter](/glossar/share-of-model/)
-* [Promptsets für das LLM-Tracking](/glossar/promptset/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Zero Click Content verstehen](/glossar/zero-click-content/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [E-E-A-T für generative KIs](/glossar/e-e-a-t/)
-

@@ -166,12 +166,3 @@ Wer im KI-Zeitalter organische Erwähnungen aufbauen will, muss auf substanziell
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Citation (KI-Zitate)](/glossar/citation/)
-* [Markenaufbau mit SEO](/glossar/markenaufbau-mit-seo/)
-* [E-E-A-T](/glossar/e-e-a-t/)
-* [RAG (Retrieval-Augmented Generation)](/glossar/rag/)
-* [Entität](/glossar/entitaet/)
-* [Perplexity Sichtbarkeit](/glossar/perplexity-sichtbarkeit/)
-* [Zitierfähiger Content](/glossar/zitierfaehiger-content/)

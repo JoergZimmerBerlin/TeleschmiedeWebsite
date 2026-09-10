@@ -185,12 +185,3 @@ Mache Server-Side Rendering zum Herzstück deiner technischen Onpage-Strategie. 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Two-Wave Indexing im Detail](/glossar/two-wave-indexing/)
-* [PageSpeed Optimierung für RAG](/glossar/pagespeed/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)
-* [Markdown Content Negotiation](/glossar/markdown-content-negotiation/)
-* [Entität in der semantischen Suche](/glossar/entitaet/)
-* [Core Web Vitals optimieren](/glossar/core-web-vitals/)
-* [Usability für Mensch und Maschine](/glossar/usability/)

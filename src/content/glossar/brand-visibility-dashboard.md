@@ -205,12 +205,3 @@ Wer frühzeitig auf strukturierte Dashboards setzt, erkennt algorithmische Trend
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-## Verwandte Glossar-Begriffe
-
-* [Brand Sentiment](/glossar/brand-sentiment/)
-* [Brand Share](/glossar/brand-share/)
-* [Brand Mentions](/glossar/brand-mentions/)
-* [KI-Sichtbarkeit](/glossar/ki-sichtbarkeit/)
-* [AI-Tracking-Tools](/glossar/ai-tracking-tools/)
-* [GEO-Optimierung](/glossar/geo-optimierung/)

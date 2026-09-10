@@ -213,10 +213,3 @@ Unternehmen, die ihre Sichtbarkeit im neuen Agenten-Ökosystem systematisch nach
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [MCP Server Card im Detail](/glossar/mcp-server-card/)
-* [Agent Readiness Level Stufe 5](/glossar/agent-readiness-level/)
-* [auth.md Sicherheits-Standard](/glossar/auth-md/)
-* [RFC 8288 Link Headers](/glossar/rfc-8288-link-headers/)

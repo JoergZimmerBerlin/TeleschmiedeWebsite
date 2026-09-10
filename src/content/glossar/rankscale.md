@@ -244,12 +244,3 @@ Die Analyse und Steuerung der eigenen Sichtbarkeit in LLMs ist längst keine opt
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [AI Search Optimization (GEO)](/glossar/ai-search-optimization/)
-* [AI Visibility Tools](/glossar/ai-visibility-tools/)
-* [AI Citation Analysis](/glossar/ai-citation-analysis/)
-* [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/)
-* [GEO Page Audit](/glossar/geo-page-audit/)
-* [AI Crawlability im Detail](/glossar/ai-crawlability/)
-* [Perplexity Sichtbarkeit optimieren](/glossar/perplexity-sichtbarkeit/)

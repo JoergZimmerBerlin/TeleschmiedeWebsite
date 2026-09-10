@@ -207,10 +207,3 @@ Wie sich fortschrittliche Plattformen im Bereich generativer Suchmaschinen posit
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/)
-* [OAuth Protected Resource](/glossar/oauth-protected-resource/)
-* [Auth.md](/glossar/auth-md/)
-* [Agent Readiness Level](/glossar/agent-readiness-level/)
-* [RFC 8288 Link Headers](/glossar/rfc-8288-link-headers/)

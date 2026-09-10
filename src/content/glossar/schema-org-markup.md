@@ -197,12 +197,3 @@ Sprich verdammt nochmal die Sprache der Maschinen. Wer die klarsten Antworten li
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Einträge
-* [Strukturierte Daten für KI-Suchmaschinen](/glossar/strukturierte-daten/)
-* [Entitäten im semantischen Web](/glossar/entitaet/)
-* [Technisches Schema Markup automatisieren](/glossar/technisches-schema-markup/)
-* [E-E-A-T: Das Qualitätsfundament](/glossar/e-e-a-t/)
-* [Knowledge Graph & Entitäten](/glossar/knowledge-graph/)
-* [Topical Authority aufbauen](/glossar/topical-authority/)
-* [Technisches SEO im Detail](/glossar/technisches-seo/)

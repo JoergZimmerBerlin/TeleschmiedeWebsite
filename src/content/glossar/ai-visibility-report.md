@@ -169,14 +169,3 @@ Ein fundierter AI Visibility Report schließt die Lücke zwischen technischer Su
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
-### Verwandte Glossar-Begriffe
-* [AI Visibility Audit: Das systematische Prüfverfahren](/glossar/ai-visibility-audit/)
-* [AI Tracking Tools: Wahre Sichtbarkeit messen](/glossar/ai-tracking-tools/)
-* [Share of Voice: Marktanteile in der Kommunikation](/glossar/share-of-voice/)
-* [Share of Model: Die neue generative Reichweitenmetrik](/glossar/share-of-model/)
-* [Citation Frequency: Zitationshäufigkeit in Sprachmodellen](/glossar/citation-frequency/)
-* [Brand Mentions: Markennennungen in Sprachmodellen](/glossar/brand-mentions/)
-* [SEO Visibility Tools: Software zur Sichtbarkeitsanalyse](/glossar/seo-visibility-tools/)
-* [Technisches SEO: Grundlagen für Crawling und Rendering](/glossar/technisches-seo/)
-

@@ -165,6 +165,15 @@ const videoSubjectOf = [
 // On service pages, grounding pages, about, videos and homepage, subjectOf is fully included for E-E-A-T entity grounding.
 const isContentArticle = type === 'article' || type === 'glossary';
 
+// Geographic Reach (DACH-wide & remote consulting)
+const dachAreaServed = [
+  { "@type": "Country", "name": "Deutschland", "sameAs": "https://www.wikidata.org/wiki/Q183" },
+  { "@type": "Country", "name": "Österreich", "sameAs": "https://www.wikidata.org/wiki/Q40" },
+  { "@type": "Country", "name": "Schweiz", "sameAs": "https://www.wikidata.org/wiki/Q39" },
+  { "@type": "AdministrativeArea", "name": "DACH-Region" },
+  { "@type": "AdministrativeArea", "name": "Berlin", "sameAs": "https://www.wikidata.org/wiki/Q64" }
+];
+
 // Central Person Entity
 const personEntity: any = {
   "@type": "Person",
@@ -172,10 +181,22 @@ const personEntity: any = {
   "name": "Jörg Zimmer",
   "givenName": "Jörg",
   "familyName": "Zimmer",
-  "jobTitle": "SEO, GEO, AI Visibility Freelancer / Digitaler Architekt",
-  "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO, GEO, AI Visibility Freelancer mit über 25 Jahren Erfahrung.",
+  "jobTitle": "Senior SEO, GEO, AI Visibility Freelancer / Digitaler Architekt (DACH)",
+  "description": "Jörg Zimmer ist ein erfahrener Performance Marketing Spezialist und SEO, GEO, AI Visibility Freelancer mit über 25 Jahren Erfahrung. Er bietet bundesweite und DACH-weite strategische Beratung und 1:1 Live-Analysen per Remote-Videocall an.",
   "image": `${siteUrl}/images/profile/joerg-zimmer-portrait.jpg`,
   "url": `${siteUrl}/ueber-mich/`,
+  "knowsLanguage": [
+    { "@type": "Language", "name": "German", "alternateName": "de" },
+    { "@type": "Language", "name": "English", "alternateName": "en" }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+493049208184",
+    "email": "info@teleschmie.de",
+    "areaServed": dachAreaServed,
+    "availableLanguage": ["de", "en"]
+  },
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
     "https://www.xing.com/profile/Joerg_Zimmer6",
@@ -223,9 +244,18 @@ const businessEntity: any = {
   "@id": businessId,
   "additionalType": "https://www.wikidata.org/wiki/Q180711",
   "name": "Jörg Zimmer - SEO, GEO, AI Visibility Freelancer",
-  "description": description || "Individuelle SEO, GEO, AI Visibility Beratung mit über 25 Jahren Erfahrung.",
+  "description": description || "Individuelle SEO, GEO, AI Visibility Beratung mit über 25 Jahren Erfahrung für den gesamten DACH-Raum per Remote-Videocall.",
   "url": siteUrl,
   "knowsAbout": personEntity.knowsAbout,
+  "areaServed": dachAreaServed,
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "telephone": "+493049208184",
+    "email": "info@teleschmie.de",
+    "areaServed": dachAreaServed,
+    "availableLanguage": ["de", "en"]
+  },
   "sameAs": [
     "https://www.google.com/maps?cid=7968593441639017414",
     "https://search.google.com/local/reviews?placeid=ChIJAfPA9udVqEcR8kzD0DU_9n8",
@@ -298,10 +328,22 @@ if (offers && offers.length > 0) {
         "@type": "Offer",
         "price": price || "240",
         "priceCurrency": "EUR",
+        "availableDeliveryMethod": "https://schema.org/OnlineDelivery",
+        "areaServed": dachAreaServed,
+        "seller": { "@id": personId },
         "itemOffered": {
           "@type": "Service",
           "name": offer.name,
-          "description": offer.description
+          "description": offer.description,
+          "provider": { "@id": personId },
+          "areaServed": dachAreaServed,
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": `${siteUrl}/kontakt/`,
+            "servicePhone": "+493049208184",
+            "availableLanguage": ["de", "en"],
+            "description": "Bundesweite und DACH-weite Remote-Beratung und 1:1 Live-Analysen per Videocall (Zoom, Google Meet, Teams)."
+          }
         }
       };
     })
@@ -435,15 +477,17 @@ if (isServicePage) {
     "name": title,
     "description": description,
     "url": url,
-    "provider": { "@id": businessId },
-    "brand": { "@id": businessId },
+    "provider": { "@id": personId },
+    "brand": { "@id": websiteId },
     "serviceType": (title && title.includes('Google Ads')) ? "Search Engine Advertising & Google Ads Consulting" : "Search Engine Optimization & AI Visibility Consulting",
-    "areaServed": [
-      { "@type": "AdministrativeArea", "name": "Berlin" },
-      { "@type": "Country", "name": "Deutschland" },
-      { "@type": "Country", "name": "Österreich" },
-      { "@type": "Country", "name": "Schweiz" }
-    ]
+    "areaServed": dachAreaServed,
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": `${siteUrl}/kontakt/`,
+      "servicePhone": "+493049208184",
+      "availableLanguage": ["de", "en"],
+      "description": "Bundesweite und DACH-weite Remote-Beratung und 1:1 Live-Analysen per Videocall (Zoom, Google Meet, Teams)."
+    }
   };
   if (businessEntity.hasOfferCatalog) {
     serviceEntity.hasOfferCatalog = businessEntity.hasOfferCatalog;

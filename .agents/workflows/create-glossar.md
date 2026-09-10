@@ -48,6 +48,8 @@ Dieser Workflow ist zuständig für die Erstellung neuer und die Erweiterung bes
 5. Ist mindestens eine Vergleichs- / Kriterien-Tabelle im Artikel enthalten?
 6. Wurde ein passendes Zitat aus `src/data/joerg-quotes.json` mit Original-LinkedIn-Link eingebaut?
 7. Wurden Text-Auflockerungen (Bold, Bulletpoints) und die grüne LinkedIn-CTA-Box genutzt?
+8. Wurde für den Glossar-Begriff eine ECHTE, real existierende Wikidata-ID recherchiert und als `sameAs: "https://www.wikidata.org/wiki/Q..."` in der Frontmatter hinterlegt? (Strikte Existenzprüfung: Keine Halluzinationen!)
+9. Sind `synonyms` (2-4 echte Fachsynonyme) und `key_takeaways` (3-4 Kernaussagen) in der Frontmatter hinterlegt?
 Wenn ein Punkt fehlt, MUSS der Text im Speicher vor dem Schreiben korrigiert werden!
 
 ## 3. Visuelles Setup (3D-Infografiken, Screenshots & Fotos)

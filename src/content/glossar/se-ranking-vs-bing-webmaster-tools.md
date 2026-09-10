@@ -161,7 +161,7 @@ Bei SE Ranking bestimmst du exakt, welche Keywords du überwachen willst. Du sie
 - Und: Wie rankt dieselbe Seite parallel bei Bing?
 
 ### 2. Technisches Cloud-Audit vor dem Relaunch
-Das integrierte [Website SEO Audit](/glossar/website-seo-audit/) von SE Ranking durchleuchtet deine Website unabhängig von einzelnen Suchmaschinen-Bots. Es analysiert Ladezeiten, JavaScript-Rendering, Canonical-Tags und Schema-Markup, noch bevor ein Crawler Fehler bemerkt.
+Das integrierte [Website SEO Audit](/glossar/se-ranking-website-audit/) von SE Ranking durchleuchtet deine Website unabhängig von einzelnen Suchmaschinen-Bots. Es analysiert Ladezeiten, JavaScript-Rendering, Canonical-Tags und Schema-Markup, noch bevor ein Crawler Fehler bemerkt.
 
 ### 3. KI-Sichtbarkeit mit SE Visible
 Ergänzend zur Bing-Copilot-Abdeckung überwacht SE Ranking mit *SE Visible* die Ausspielung von Google AI Overviews. Du siehst genau, ob deine Marke bei relevanten Prompt-Suchanfragen zitiert wird. Für ein ganzheitliches Monitoring über alle 17 führenden LLMs empfiehlt sich ergänzend der Einsatz von [Rankscale](/glossar/rankscale/).

@@ -38,7 +38,7 @@ Das Update adressiert genau diese Herausforderungen mit vier starken Bausteinen:
 1. **Der neue Growth-Plan (Agency Hub)**: Schließt die Lücke zwischen Einzelplatz-Lizenzen und Großkonzern-Tarifen. Agenturen können nun mehrere Kunden-Workspaces verwalten, ohne gigantische Fixkosten zu binden.
 2. **Vollwertige REST-API**: Für datengetriebene Marketer das absolute Highlight. Sichtbarkeits- und Zitationsdaten wandern ab sofort automatisiert via JSON in eigene Dashboards, Looker Studio oder Kunden-Reportings.
 3. **Dedizierte ChatGPT Shopping Analyse**: Ein Gamechanger für den Online-Handel. Das Modul visualisiert, wer bei generativen Produktempfehlungen die digitale Buybox gewinnt.
-4. **Page Audit V2 (Beta)**: Ein hochgradig verfeinertes Audit-Werkzeug mit über 90 Prüfregeln, das Onpage-SEO und [AI Readiness](/glossar/ai-readiness/) in einem einzigen Scan vereint.
+4. **Page Audit V2 (Beta)**: Ein hochgradig verfeinertes Audit-Werkzeug mit über 90 Prüfregeln, das Onpage-SEO und [AI Readiness](/glossar/agent-readiness/) in einem einzigen Scan vereint.
 
 ## Feature-Matrix: Wie sich die Pläne unterscheiden
 
@@ -87,7 +87,7 @@ Wer hier als Marke nicht auftaucht oder wessen Mitbewerber im Zitatblock als exk
   </figcaption>
 </figure>
 
-Um deine Markensignale für diese neuen Konsumgewohnheiten zu schärfen, solltest du die Richtlinien für [E-E-A-T](/glossar/eeat/) strikt beachten. Wie du die Daten mehrerer Monitoring-Tools kombinierst, erkläre ich auch im Beitrag über den [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/).
+Um deine Markensignale für diese neuen Konsumgewohnheiten zu schärfen, solltest du die Richtlinien für [E-E-A-T](/glossar/e-e-a-t/) strikt beachten. Wie du die Daten mehrerer Monitoring-Tools kombinierst, erkläre ich auch im Beitrag über den [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/).
 
 ## Praxisschritte: So nutzt du die neuen Features
 

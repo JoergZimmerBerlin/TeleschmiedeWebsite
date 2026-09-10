@@ -91,7 +91,7 @@ Michael trifft den Nagel auf den Kopf. Der [Zusammenhalt unter Freelancern](/blo
 
 Für mich gilt eine einfache Spielregel: Wer auf Fachkonferenzen menschlich harmoniert, liefert auch in anspruchsvollen Kundenprojekten exzellente Ergebnisse ab. Gegenseitiges Vertrauen lässt sich nicht in Verträgen festschreiben – es wächst durch gemeinsame Erlebnisse, ehrliches Feedback und das Wissen, dass man sich zu 100 % aufeinander verlassen kann.
 
-Du möchtest mehr über unsere Philosophie erfahren oder suchst ein maßgeschneidertes Team für deine nächste Wachstumsphase? Wirf einen Blick auf unseren [offiziellen Freelancer Team Hub](/freelancer-team/). Wenn du speziell deine organische Auffindbarkeit durchleuchten lassen möchtest, buche dir eine [SEO-Sprechstunde](/seo-sprechstunde/) oder nutze meine [strategische SEO-Beratung](/seo-beratung/).
+Du möchtest mehr über unsere Philosophie erfahren oder suchst ein maßgeschneidertes Team für deine nächste Wachstumsphase? Wirf einen Blick auf unseren [offiziellen Freelancer Team Hub](/freelancer-team/). Wenn du speziell deine organische Auffindbarkeit durchleuchten lassen möchtest, buche dir eine [SEO-Sprechstunde](/seo-sprechstunde/) oder nutze meine [strategische SEO-Beratung](/glossar/seo-beratung/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

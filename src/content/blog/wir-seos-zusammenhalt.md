@@ -93,7 +93,7 @@ Solche Werkzeuge schaffen Transparenz. Sie beweisen schwarz auf weiß, wo Hebel 
 
 Niemand muss in dieser Branche isoliert kämpfen. Wenn du als SEO, Content-Stratege oder Webentwickler tätig bist: Teile dein Wissen, kommentiere fundiert bei Kollegen und mach deinen Wert sichtbar. Gemeinsam verleihen wir unserem Handwerk das Gewicht, das es verdient.
 
-Du möchtest deine Website auf Profi-Niveau heben oder suchst erfahrene Spezialisten mit klarem Wertekompass? Buche dir eine ungeschminkte [SEO-Sprechstunde](/seo-sprechstunde/), informiere dich über meine [strategische SEO-Beratung](/seo-beratung/) oder nimm jederzeit [direkten Kontakt auf](/kontakt/).
+Du möchtest deine Website auf Profi-Niveau heben oder suchst erfahrene Spezialisten mit klarem Wertekompass? Buche dir eine ungeschminkte [SEO-Sprechstunde](/seo-sprechstunde/), informiere dich über meine [strategische SEO-Beratung](/glossar/seo-beratung/) oder nimm jederzeit [direkten Kontakt auf](/kontakt/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

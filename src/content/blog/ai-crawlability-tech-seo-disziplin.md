@@ -99,7 +99,7 @@ Die Digitalbranche steht vor einem Paradigmenwechsel. Wenn die User Journey zune
 
 Wer diesen Wandel aktiv gestalten möchte, sollte sich mit Initiativen wie dem [Cloudflare Agent Readiness Scan](/blog/cloudflare-agent-readiness-scan/) vertraut machen und verstehen, wie die [GEO-Welle in der Suche](/blog/seo-wird-groesser-geo-welle/) das Marketing transformiert.
 
-Du willst wissen, wie gut deine Domain für KI-Crawler erreichbar ist und welche technischen Hürden deine Sichtbarkeit blockieren? Eine fundierte [strategische SEO-Beratung](/seo-beratung/) deckt versteckte Potenziale auf und macht deine Architektur fit für die nächste Generation des Webs.
+Du willst wissen, wie gut deine Domain für KI-Crawler erreichbar ist und welche technischen Hürden deine Sichtbarkeit blockieren? Eine fundierte [strategische SEO-Beratung](/glossar/seo-beratung/) deckt versteckte Potenziale auf und macht deine Architektur fit für die nächste Generation des Webs.
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

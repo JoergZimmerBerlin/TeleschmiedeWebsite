@@ -73,7 +73,7 @@ Die Gegenüberstellung macht deutlich, warum dieser Ansatz den Agentur- und Free
 | **Einstiegshürde** | Umfassende Tool-Einarbeitung nötig | Natürliche Sprache ohne Vorkenntnisse |
 | **Audit-Verknüpfung** | Getrennte Reports für Technik und Keywords | Ganzheitliche Korrelation von Onpage & Rankings |
 
-Weitere Einblicke in führende Tools findest du auch in meiner Übersicht über [Beste SEO Tools für AI Search](/blog/beste-seo-tools-ai-search-prompt-tracking/) sowie im Grundlagenartikel zur [AI Readiness](/glossar/ai-readiness/).
+Weitere Einblicke in führende Tools findest du auch in meiner Übersicht über [Beste SEO Tools für AI Search](/blog/beste-seo-tools-ai-search-prompt-tracking/) sowie im Grundlagenartikel zur [AI Readiness](/glossar/agent-readiness/).
 
 ## Community-Echo: Begeisterung, Neugier und die Affiliate-Frage
 

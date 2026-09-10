@@ -147,7 +147,7 @@ Wenn du deine eigene Reputation systematisch ausbauen möchtest, helfen dir dies
 
 - **Direktlink vorbereiten**: Generiere den offiziellen Bewertungslink deines Google-Unternehmensprofils (Google Business Profile) und halte den Link zu deinen LinkedIn-Empfehlungen bereit.
 - **Copy-Paste vorschlagen**: Schreibe dem Kunden nach getaner Arbeit: *„Wenn du zufrieden warst, freue ich mich riesig über eine kurze Bewertung auf LinkedIn. Gerne kannst du denselben Text auch mit einem Klick auf Google Maps hinterlegen.“*
-- **E-E-A-T Signale stärken**: Wie du Rezensionen und Urheberschaft semantisch in deine Webpräsenz einbindest, erfährst du im [E-E-A-T Leitfaden](/glossar/eeat/).
+- **E-E-A-T Signale stärken**: Wie du Rezensionen und Urheberschaft semantisch in deine Webpräsenz einbindest, erfährst du im [E-E-A-T Leitfaden](/glossar/e-e-a-t/).
 - **Individuelles Feedback**: Möchtest du deine lokale und digitale Sichtbarkeit analysieren lassen? Dann buche jetzt deine persönliche [SEO Sprechstunde](/seo-sprechstunde/).
 
 <!-- CTA Box -->

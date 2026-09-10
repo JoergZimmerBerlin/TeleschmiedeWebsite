@@ -60,7 +60,7 @@ Der Zyklus vom oberflächlichen Versprechen zum nachhaltigen Unternehmenserfolg 
 
 1. **Der LinkedIn-Mythos**: Es wird suggeriert, dass eine 20-zeilige Textanweisung jahrelange Markterfahrung und technisches Architekturwissen auf Knopfdruck ersetzt.
 2. **Die Ernüchterung im Alltag**: Wer blind generiert, erhält austauschbaren Datenbrei ohne E-E-A-T, der weder echte Nutzer fesselt noch den Qualitätsrichtlinien von Suchmaschinen standhält.
-3. **Echtes SEO-Handwerk**: Professionelle Teams nutzen [Prompt Engineering](/glossar/prompt/) und spezialisierte [KI-Agenten](/glossar/ai-agenten/) als mächtige Werkzeuge – aber eingebettet in eine fundierte Strategie, tiefes Datenverständnis und manuelle Qualitätskontrollen.
+3. **Echtes SEO-Handwerk**: Professionelle Teams nutzen [Prompt Engineering](/glossar/promptset/) und spezialisierte [KI-Agenten](/glossar/agent-skills/) als mächtige Werkzeuge – aber eingebettet in eine fundierte Strategie, tiefes Datenverständnis und manuelle Qualitätskontrollen.
 4. **Messbarer geschäftlicher ROI**: Erst wenn Technik, Nutzerintention und Markenreputation zusammenspielen, entstehen stabile Spitzenrankings und planbare Kundenanfragen.
 
 ## Vergleich: Der „Mega-Prompt“-Mythos vs. Professionelle Praxis

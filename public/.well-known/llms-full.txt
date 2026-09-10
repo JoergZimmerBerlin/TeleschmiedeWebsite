@@ -26685,7 +26685,7 @@ Zusätzlich speichert SE Ranking für jedes Keyword einen vollständigen SERP-Ca
 
 Beide Plattformen bieten erstklassige Cloud-Crawler zur Erkennung technischer Onpage-Fehler. Sie prüfen Canonical-Tags, Weiterleitungsketten, 404-Fehlerseiten, Duplicate Content und hreflang-Konfigurationen.
 
-Ein fundiertes [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) lässt sich mit beiden Suiten hervorragend durchführen. SE Ranking punktet jedoch mit einer visuell moderneren Aufbereitung der Core Web Vitals und einer priorisierten To-do-Liste, die sich direkt als Mandanten-Report exportieren lässt – ohne dass das Audit wertvolle Analyse-Credits verbraucht.
+Ein fundiertes [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) lässt sich mit beiden Suiten hervorragend durchführen. SE Ranking punktet jedoch mit einer visuell moderneren Aufbereitung der Core Web Vitals und einer priorisierten To-do-Liste, die sich direkt als Mandanten-Report exportieren lässt – ohne dass das Audit wertvolle Analyse-Credits verbraucht.
 
 ---
 
@@ -26900,7 +26900,7 @@ Bei SE Ranking bestimmst du exakt, welche Keywords du überwachen willst. Du sie
 - Und: Wie rankt dieselbe Seite parallel bei Bing?
 
 ### 2. Technisches Cloud-Audit vor dem Relaunch
-Das integrierte [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) von SE Ranking durchleuchtet deine Website unabhängig von einzelnen Suchmaschinen-Bots. Es analysiert Ladezeiten, JavaScript-Rendering, Canonical-Tags und Schema-Markup, noch bevor ein Crawler Fehler bemerkt.
+Das integrierte [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) von SE Ranking durchleuchtet deine Website unabhängig von einzelnen Suchmaschinen-Bots. Es analysiert Ladezeiten, JavaScript-Rendering, Canonical-Tags und Schema-Markup, noch bevor ein Crawler Fehler bemerkt.
 
 ### 3. KI-Sichtbarkeit mit SE Visible
 Ergänzend zur Bing-Copilot-Abdeckung überwacht SE Ranking mit *SE Visible* die Ausspielung von Google AI Overviews. Du siehst genau, ob deine Marke bei relevanten Prompt-Suchanfragen zitiert wird. Für ein ganzheitliches Monitoring über alle 17 führenden LLMs empfiehlt sich ergänzend der Einsatz von [Rankscale](https://teleschmie.de/glossar/rankscale/).
@@ -27081,7 +27081,7 @@ Hier wird der fundamentale Unterschied in der strategischen Ausrichtung deutlich
 
 ### 2. Technisches Audit: Proaktiver Schutz vs. Späte Benachrichtigung
 
-Ein strukturiertes [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) schützt vor bösen Überraschungen im Ranking:
+Ein strukturiertes [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) schützt vor bösen Überraschungen im Ranking:
 - In der **Search Console** erfährst du von technischen Problemen (wie 404-Fehlern oder fehlerhaften Canonical-Tags) meist erst dann, wenn der Googlebot bereits daran abgeprallt ist und die Seiten womöglich aus dem Index geflogen sind. Die GSC agiert rein **reaktiv**.
 - Der Cloud-Crawler von **SE Ranking** agiert **proaktiv**. Du lässt das Audit jeden Montag vor Arbeitsbeginn durchlaufen. Findet das System kaputte Links, falsche Weiterleitungen, nicht optimierte WebP-Bilder oder verlangsamte Core Web Vitals, behebst du den Fehler, noch bevor Google die Seite neu besucht.
 
@@ -27222,7 +27222,7 @@ Warum gerade Agenturen dieses integrierte Cockpit schätzen, beschreibe ich ausf
 
 ## Der entscheidende Knackpunkt: Das fehlende technische Site-Audit bei Mangools
 
-Hier trennt sich die Spreu vom Weizen. Ein fundiertes [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) ist das unverzichtbare Rückgrat jeder seriösen Optimierung. Bevor man Zeit und Geld in Content oder Backlinks investiert, muss sichergestellt sein, dass Google die Seiten barrierefrei crawlen und indexieren kann.
+Hier trennt sich die Spreu vom Weizen. Ein fundiertes [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) ist das unverzichtbare Rückgrat jeder seriösen Optimierung. Bevor man Zeit und Geld in Content oder Backlinks investiert, muss sichergestellt sein, dass Google die Seiten barrierefrei crawlen und indexieren kann.
 
 ### Die Leerstelle bei Mangools
 
@@ -27517,7 +27517,7 @@ Screaming Frog besitzt keine Geo-Ranking-Schnittstellen. SE Ranking hingegen erm
 In meiner täglichen Arbeit auf `teleschmie.de` stehen Screaming Frog und SE Ranking nicht in Konkurrenz zueinander, sondern greifen wie zwei Zahnräder ineinander. Dieser zweistufige Workflow (wie in meiner [Tools-Übersicht](https://teleschmie.de/tools/) als *Der Audit-Stack* beschrieben) hat sich für anspruchsvolle Projekte bewährt:
 
 ### Schritt 1: Permanentes Monitoring mit SE Ranking (Die Flugsicherung)
-SE Ranking läuft kontinuierlich in der Cloud. Es überprüft tagesaktuell alle Ranking-Veränderungen, überwacht neue und verlorene Backlinks und führt wöchentlich ein automatisiertes [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) durch. Fällt der technische Health Score plötzlich ab oder meldet das System neue 404-Fehler, erhalte ich sofort eine E-Mail-Warnung. Gleichzeitig versorgt das Tool meine Kunden automatisch mit monatlichen White-Label-Berichten.
+SE Ranking läuft kontinuierlich in der Cloud. Es überprüft tagesaktuell alle Ranking-Veränderungen, überwacht neue und verlorene Backlinks und führt wöchentlich ein automatisiertes [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) durch. Fällt der technische Health Score plötzlich ab oder meldet das System neue 404-Fehler, erhalte ich sofort eine E-Mail-Warnung. Gleichzeitig versorgt das Tool meine Kunden automatisch mit monatlichen White-Label-Berichten.
 
 ### Schritt 2: Gezielte Tiefen-Audits mit Screaming Frog (Das Skalpell)
 Sobald das Monitoring von SE Ranking ein strukturelles Problem anzeigt – oder wenn ein Mandant einen umfangreichen Relaunch plant –, werfe ich den Screaming Frog auf meinem Rechner an. Ich durchleuchte die Staging-Umgebung, prüfe Weiterleitungslisten, extrahiere fehlerhafte Schema-Markup-Schnipsel per XPath und gebe den Entwicklern millimetergenaue Anweisungen zur Fehlerbehebung.
@@ -27682,7 +27682,7 @@ Das tägliche Monitoring von Suchergebnissen ist das Herzstück jedes SEO-Projek
 
 ### 3. Technisches Website-Audit & Crawling-Kapazitäten
 
-Ein gründliches [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) deckt strukturelle Barrieren auf, bevor sie die Sichtbarkeit gefährden:
+Ein gründliches [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) deckt strukturelle Barrieren auf, bevor sie die Sichtbarkeit gefährden:
 
 - **Semrushs Site Audit** ist seit über einem Jahrzehnt ein bewährter Standard. Der Crawler findet Broken Links, fehlerhafte hreflang-Tags, Duplicate Content und generiert anschauliche Berichte zur technischen Gesundheit. Die Obergrenze liegt im Guru-Tarif bei 300.000 Seiten-Crawls pro Monat.
 - **SE Ranking** stellt mit seinem Cloud-Crawler ein System bereit, das im Growth-Plan **bis zu 700.000 Seiten monatlich** prüft – mehr als das Doppelte von Semrush. Der Audit-Bericht überzeugt durch eine priorisierte Aufgabenliste nach Dringlichkeit (Fehler, Warnungen, Hinweise) und eine hervorragende visuelle Integration der Core Web Vitals (LCP, INP, CLS). Für Agenturen entscheidend: Das Audit läuft vollständig in der Cloud, ohne die Rechenleistung lokaler Rechner zu belasten.
@@ -27869,7 +27869,7 @@ In SE Ranking überwachst du nicht nur ein Fokus-Keyword, sondern dein gesamtes 
 SEORCH kann dir nicht verraten, mit welchen Suchbegriffen dein Mitbewerber monatlich zehntausende Besucher gewinnt. SE Ranking schlüsselt das gesamte Keyword-Portfolio deiner Konkurrenten auf. Über die *Keyword-Gap-Analyse* siehst du mit einem Klick, welche profitablen Suchbegriffe deine Wettbewerber besetzen, die dir noch komplett fehlen.
 
 ### 3. Ganzheitliches Website SEO Audit
-Ein vollständiges [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) mit SE Ranking scannt deine gesamte Domain strukturiert durch. Es deckt Duplicate Content, Weiterleitungsketten und langsame Renderpfade auf und liefert eine nach Prioritäten sortierte Aufgabenliste für Entwickler.
+Ein vollständiges [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) mit SE Ranking scannt deine gesamte Domain strukturiert durch. Es deckt Duplicate Content, Weiterleitungsketten und langsame Renderpfade auf und liefert eine nach Prioritäten sortierte Aufgabenliste für Entwickler.
 
 ### 4. KI-Zitations-Tracking mit SE Visible
 Während SEORCH prüft, ob deine Seite technisch für KI-Bots lesbar ist, überwacht SE Ranking mit *SE Visible*, ob Google deine Website tatsächlich in den generierten AI Overviews zitiert. Für ein plattformübergreifendes Tracking über 17 führende KI-Systeme empfiehlt sich ergänzend [Rankscale](https://teleschmie.de/glossar/rankscale/).
@@ -27951,7 +27951,7 @@ In meiner täglichen Beratungspraxis auf `teleschmie.de` gibt es kein „Entwede
 
 Wer im deutschsprachigen Raum professionelle Suchmaschinenoptimierung betreibt, steht bei der Wahl des primären Analyse-Werkzeugs unweigerlich vor dem klassischen Kräftemessen zweier Branchen-Schwergewichte: **Sistrix** versus **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**. Über mehr als anderthalb Jahrzehnte hinweg war die Bonner Tool-Schmiede Sistrix der unangefochtene Goldstandard in deutschen Marketing-Etagen. Der legendäre Sistrix-Sichtbarkeitsindex wurde zur universellen Währung erhoben, anhand derer Relaunches bewertet, Google-Core-Updates analysiert und Budgets freigegeben wurden.
 
-Doch die Realität in modernen Agenturen und agilen Inhouse-Teams hat sich massiv verschoben. Im Zeitalter von tagesaktueller Datenverarbeitung, komplexen [Website SEO Audits](https://teleschmie.de/glossar/website-seo-audit/), lokalen Suchintentionen und dem rasanten Aufkommen generativer KI-Suche stellen immer mehr Entscheider eine berechtigte Frage: **Rechtfertigt der traditionelle Sichtbarkeitsindex noch immer die spürbar höheren monatlichen Modul- und Nutzergebühren – oder liefert eine moderne All-in-One-Suite wie SE Ranking heute mehr geschäftlichen Mehrwert pro investiertem Euro?**
+Doch die Realität in modernen Agenturen und agilen Inhouse-Teams hat sich massiv verschoben. Im Zeitalter von tagesaktueller Datenverarbeitung, komplexen [Website SEO Audits](https://teleschmie.de/glossar/se-ranking-website-audit/), lokalen Suchintentionen und dem rasanten Aufkommen generativer KI-Suche stellen immer mehr Entscheider eine berechtigte Frage: **Rechtfertigt der traditionelle Sichtbarkeitsindex noch immer die spürbar höheren monatlichen Modul- und Nutzergebühren – oder liefert eine moderne All-in-One-Suite wie SE Ranking heute mehr geschäftlichen Mehrwert pro investiertem Euro?**
 
 In diesem umfassenden Praxis-Vergleich lege ich als Senior SEO Consultant die Fakten auf den Tisch. Ohne Marketing-Floskeln, basierend auf täglicher Kundenarbeit und dem direkten Einsatz beider Plattformen auf `teleschmie.de`. Wenn du wissen willst, wie sich die Suite in meinem Alltag schlägt, lies auch meinen ausführlichen Erfahrungsbericht im [SE Ranking Test & Erfahrungen 2026](https://teleschmie.de/blog/se-ranking-test-2026/).
 
@@ -28226,7 +28226,7 @@ Stell dir vor, du sitzt in einem Kunden-Workshop oder planst einen Website-Relau
 SEO ist dynamisch. Wenn Mitbewerber neue Inhalte veröffentlichen oder Google SERP-Features umbaut, musst du sofort sehen, warum sich Positionen verändert haben. Ubersuggest liefert oft nur statische Rangziffern ohne Kontext. SE Ranking hingegen speichert für jedes überwachte Keyword den **vollständigen SERP-Cache**. Du kannst mit einem Klick die Original-Suchergebnisseite von Google aufrufen und prüfen, ob ein Konkurrent mit einem Featured Snippet, einem Video-Karussell oder einer besseren Meta-Description an dir vorbeigezogen ist. Weitere Details zum Tool-Ökosystem findest du im [SE Ranking Glossar](https://teleschmie.de/glossar/se-ranking/).
 
 ### 3. Oberflächliches Crawling bei 1.000 URLs
-Ein durchschnittlicher WooCommerce- oder Shopify-Store überschreitet durch Produktvarianten, Kategorien und Tag-Seiten spielend 3.000 bis 10.000 URLs. Der Standard-Crawler von Ubersuggest bricht bei 1.000 Seiten einfach ab. Ein systematisches [Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/) ist damit unmöglich – kritische Fehler in tiefer liegenden Verzeichnissen bleiben unentdeckt. SE Ranking crawlt im Basistarif bis zu 40.000 URLs und im Growth-Tarif bis zu 150.000 URLs pro Monat vollständig durch.
+Ein durchschnittlicher WooCommerce- oder Shopify-Store überschreitet durch Produktvarianten, Kategorien und Tag-Seiten spielend 3.000 bis 10.000 URLs. Der Standard-Crawler von Ubersuggest bricht bei 1.000 Seiten einfach ab. Ein systematisches [Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) ist damit unmöglich – kritische Fehler in tiefer liegenden Verzeichnissen bleiben unentdeckt. SE Ranking crawlt im Basistarif bis zu 40.000 URLs und im Growth-Tarif bis zu 150.000 URLs pro Monat vollständig durch.
 
 ### 4. Gravierende Defizite bei Local SEO (Keine PLZ-Ebene)
 Für lokale Unternehmen ist die bundesweite Sichtbarkeit völlig irrelevant. Ein Zahnarzt in Berlin-Spandau muss wissen, wie er rankt, wenn jemand in seinem Kiez nach „Wurzelbehandlung“ sucht. Ubersuggest aggregiert Rankings meist auf Landesebene. SE Ranking erlaubt die **exakte Lokalisierung bis auf Postleitzahlen- und Stadtteil-Ebene** inklusive Trackings des Google Maps Local Packs.
@@ -33537,7 +33537,7 @@ Durch diese saubere Deklaration signalisiert der Server jedem eintreffenden Agen
 
 ## 4. Typische Praxisfehler im Technischen SEO
 
-In umfassenden technischen Webseiten-Prüfungen ([Website SEO Audit](https://teleschmie.de/glossar/website-seo-audit/)) stoßen Spezialisten regelmäßig auf dieselben gravierenden Schwachstellen:
+In umfassenden technischen Webseiten-Prüfungen ([Website SEO Audit](https://teleschmie.de/glossar/se-ranking-website-audit/)) stoßen Spezialisten regelmäßig auf dieselben gravierenden Schwachstellen:
 
 1. **Unkontrollierte Redirect-Ketten:** Durch historische Migrationen leiten interne Links über mehrere Zwischenstationen weiter. Jeder Redirect erhöht die Latenz und führt bei KI-Crawlern zum vorzeitigen Abbruch.
 2. **Blockierende JavaScript-Hydration:** Seiten laden gigantische Skript-Bundles nach, die den Haupt-Thread für Sekunden einfrieren. Der INP-Wert explodiert und die Seite wird als instabil eingestuft.
@@ -37509,7 +37509,7 @@ Solche Werkzeuge schaffen Transparenz. Sie beweisen schwarz auf weiß, wo Hebel 
 
 Niemand muss in dieser Branche isoliert kämpfen. Wenn du als SEO, Content-Stratege oder Webentwickler tätig bist: Teile dein Wissen, kommentiere fundiert bei Kollegen und mach deinen Wert sichtbar. Gemeinsam verleihen wir unserem Handwerk das Gewicht, das es verdient.
 
-Du möchtest deine Website auf Profi-Niveau heben oder suchst erfahrene Spezialisten mit klarem Wertekompass? Buche dir eine ungeschminkte [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/), informiere dich über meine [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/) oder nimm jederzeit [direkten Kontakt auf](https://teleschmie.de/kontakt/).
+Du möchtest deine Website auf Profi-Niveau heben oder suchst erfahrene Spezialisten mit klarem Wertekompass? Buche dir eine ungeschminkte [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/), informiere dich über meine [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) oder nimm jederzeit [direkten Kontakt auf](https://teleschmie.de/kontakt/).
 
 
 
@@ -38261,7 +38261,7 @@ Wie vielseitig dieser Ansatz in der Praxis ist, zeigt die LinkedIn-Diskussion. A
   
 
 
-Aus einem dreistündigen Kunden-Workshop vollautomatisch ein didaktisch aufbereitetes Booklet mit Kern-Takeaways zu generieren, ist echtes [Prompt Engineering](https://teleschmie.de/glossar/prompt/) in Reinkultur. Statt tagelang Folien nachzubereiten, liefert man dem Kunden noch am selben Nachmittag ein druckreifes Ergebnis. In Kombination mit modernen [KI-Agenten](https://teleschmie.de/glossar/ai-agenten/) entstehen so Services, die früher kleinen Teams vorbehalten waren.
+Aus einem dreistündigen Kunden-Workshop vollautomatisch ein didaktisch aufbereitetes Booklet mit Kern-Takeaways zu generieren, ist echtes [Prompt Engineering](https://teleschmie.de/glossar/promptset/) in Reinkultur. Statt tagelang Folien nachzubereiten, liefert man dem Kunden noch am selben Nachmittag ein druckreifes Ergebnis. In Kombination mit modernen [KI-Agenten](https://teleschmie.de/glossar/agent-skills/) entstehen so Services, die früher kleinen Teams vorbehalten waren.
 
 
   
@@ -38848,7 +38848,7 @@ Die folgende Übersicht verdeutlicht, wie sich der neue Prüfstandard von konven
 | **Urheber-Prüfung** | Vorhandensein von Impressum / Autorenbox | Semantische Personen-Entität & Author-Profile |
 | **Dokumenten-Header** | Canonical, Meta-Robots, Hreflang | Link-Header (RFC 8288), Markdown Negotiation |
 
-Weiterführende Hintergründe zur technischen Umsetzung findest du in meinem [Glossar-Artikel zum SEORCH AI Check](https://teleschmie.de/glossar/seorch-ai-check/) sowie im umfassenden Leitfaden zur [AI Readiness](https://teleschmie.de/glossar/ai-readiness/).
+Weiterführende Hintergründe zur technischen Umsetzung findest du in meinem [Glossar-Artikel zum SEORCH AI Check](https://teleschmie.de/glossar/seorch-ai-check/) sowie im umfassenden Leitfaden zur [AI Readiness](https://teleschmie.de/glossar/agent-readiness/).
 
 ## Die Community diskutiert: Markdown-Exporte und LLM-Integrationen
 
@@ -38859,7 +38859,7 @@ Die Resonanz in der LinkedIn-Community auf das neue Feature war überwältigend.
   Das ist super! :) Wäre noch cooler, wenn er statt PDF eine .md ausgeben könnte für die effiziente Zusammenarbeit mit KI-Systemen (ohne dass das PDF minutenlang zerrupft werden muss).
 
 
-Marias Feedback trifft den Nagel auf den Kopf. Während klassische Agenturen ihren Kunden nach wie vor 60-seitige PDF-Reports zustellen, fordern moderne SEOs maschinenlesbare Markdown-Dateien. Wer ein Audit sofort in Cursor, Claude oder Antigravity zur automatisierten Fehlerbehebung übergeben will, benötigt saubere Textdateien. Details dazu erläutere ich auch im Artikel über [Content Negotiation](https://teleschmie.de/glossar/content-negotiation/) und den [llms.txt Standard](https://teleschmie.de/glossar/llms-txt/).
+Marias Feedback trifft den Nagel auf den Kopf. Während klassische Agenturen ihren Kunden nach wie vor 60-seitige PDF-Reports zustellen, fordern moderne SEOs maschinenlesbare Markdown-Dateien. Wer ein Audit sofort in Cursor, Claude oder Antigravity zur automatisierten Fehlerbehebung übergeben will, benötigt saubere Textdateien. Details dazu erläutere ich auch im Artikel über [Content Negotiation](https://teleschmie.de/glossar/markdown-content-negotiation/) und den [llms.txt Standard](https://teleschmie.de/glossar/llms-txt/).
 
 Auch Mohamed Ibrahim sieht das Potenzial für agentenbasierte Workflows:
 
@@ -39310,7 +39310,7 @@ Und wer wie **Anett Pohl** kurzfristig verhindert war, muss nicht traurig sein: 
 
 Wer im Großraum Berlin im Bereich Suchmaschinenoptimierung, Content oder Web-Analytics unterwegs ist, sollte sich den [SEO Stammtisch Berlin](https://www.linkedin.com/groups/2330773/) fest in den Kalender eintragen. Neue Gesichter und frische Perspektiven sind jederzeit willkommen.
 
-Du möchtest deine Website-Performance auf Profi-Niveau heben oder suchst einen Sparringspartner für knifflige technische Herausforderungen? In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) analysieren wir deine Problemzonen ohne Umwege, oder du kannst direkt eine [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/) buchen bzw. [direkten Kontakt aufnehmen](https://teleschmie.de/kontakt/).
+Du möchtest deine Website-Performance auf Profi-Niveau heben oder suchst einen Sparringspartner für knifflige technische Herausforderungen? In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) analysieren wir deine Problemzonen ohne Umwege, oder du kannst direkt eine [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) buchen bzw. [direkten Kontakt aufnehmen](https://teleschmie.de/kontakt/).
 
 
 
@@ -39747,7 +39747,7 @@ Hör auf, deine Marketing-Entscheidungen auf Mutmaßungen zu stützen. Buche dir
 
 Echtes Feedback ist der härteste Prüfstein für jede Dienstleistung. Wenn jemand aus dem operativen Business kommt, hunderte Google-Rezensionen verfasst hat und genau weiß, wie fundierte Urteile aussehen, wiegt ein Lob doppelt schwer.
 
-Genau das passierte nach einer zweistündigen Intensiv-Session: Ronny A., erfahrener Google Local Guide mit über 182 detaillierten Rezensionen, vergab 5 volle Sterne für meine praxisnahe [SEO-Beratung](https://teleschmie.de/seo-beratung/).
+Genau das passierte nach einer zweistündigen Intensiv-Session: Ronny A., erfahrener Google Local Guide mit über 182 detaillierten Rezensionen, vergab 5 volle Sterne für meine praxisnahe [SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/).
 
 > *„Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website vorbereitet. Es war ein sehr intensives Gespräch mit sehr großem Mehrwert. Der Preis ist völlig gerechtfertigt.“*
 
@@ -39980,7 +39980,7 @@ Der Zyklus vom oberflächlichen Versprechen zum nachhaltigen Unternehmenserfolg 
 
 1. **Der LinkedIn-Mythos**: Es wird suggeriert, dass eine 20-zeilige Textanweisung jahrelange Markterfahrung und technisches Architekturwissen auf Knopfdruck ersetzt.
 2. **Die Ernüchterung im Alltag**: Wer blind generiert, erhält austauschbaren Datenbrei ohne E-E-A-T, der weder echte Nutzer fesselt noch den Qualitätsrichtlinien von Suchmaschinen standhält.
-3. **Echtes SEO-Handwerk**: Professionelle Teams nutzen [Prompt Engineering](https://teleschmie.de/glossar/prompt/) und spezialisierte [KI-Agenten](https://teleschmie.de/glossar/ai-agenten/) als mächtige Werkzeuge – aber eingebettet in eine fundierte Strategie, tiefes Datenverständnis und manuelle Qualitätskontrollen.
+3. **Echtes SEO-Handwerk**: Professionelle Teams nutzen [Prompt Engineering](https://teleschmie.de/glossar/promptset/) und spezialisierte [KI-Agenten](https://teleschmie.de/glossar/agent-skills/) als mächtige Werkzeuge – aber eingebettet in eine fundierte Strategie, tiefes Datenverständnis und manuelle Qualitätskontrollen.
 4. **Messbarer geschäftlicher ROI**: Erst wenn Technik, Nutzerintention und Markenreputation zusammenspielen, entstehen stabile Spitzenrankings und planbare Kundenanfragen.
 
 ## Vergleich: Der „Mega-Prompt“-Mythos vs. Professionelle Praxis
@@ -40182,7 +40182,7 @@ Damit dir so ein Notfall erspart bleibt, solltest du folgende Prozesse etabliere
 - **Tägliches Monitoring:** Richte automatische Alerts in deinen SEO-Tools ein, die bei Ausschlägen ab 15 Prozent sofort Alarm schlagen.
 - **Klare Verantwortlichkeiten:** Jede externe Agentur muss Code-Änderungen vorab mit der technischen Leitung abstimmen.
 
-Brennt bei dir die Hütte oder stagnieren deine Rankings ohne ersichtlichen Grund? In meiner [strategischen SEO-Beratung](https://teleschmie.de/seo-beratung/) sichern wir deine Plattform technisch ab, oder du kannst bei akuten Problemen sofort [direkten Kontakt aufnehmen](https://teleschmie.de/kontakt/).
+Brennt bei dir die Hütte oder stagnieren deine Rankings ohne ersichtlichen Grund? In meiner [strategischen SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) sichern wir deine Plattform technisch ab, oder du kannst bei akuten Problemen sofort [direkten Kontakt aufnehmen](https://teleschmie.de/kontakt/).
 
 
 
@@ -40661,7 +40661,7 @@ Die Gegenüberstellung macht deutlich, warum dieser Ansatz den Agentur- und Free
 | **Einstiegshürde** | Umfassende Tool-Einarbeitung nötig | Natürliche Sprache ohne Vorkenntnisse |
 | **Audit-Verknüpfung** | Getrennte Reports für Technik und Keywords | Ganzheitliche Korrelation von Onpage & Rankings |
 
-Weitere Einblicke in führende Tools findest du auch in meiner Übersicht über [Beste SEO Tools für AI Search](https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/) sowie im Grundlagenartikel zur [AI Readiness](https://teleschmie.de/glossar/ai-readiness/).
+Weitere Einblicke in führende Tools findest du auch in meiner Übersicht über [Beste SEO Tools für AI Search](https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/) sowie im Grundlagenartikel zur [AI Readiness](https://teleschmie.de/glossar/agent-readiness/).
 
 ## Community-Echo: Begeisterung, Neugier und die Affiliate-Frage
 
@@ -41642,7 +41642,7 @@ Semrush bleibt eine Wucht bei internationalen Paid-Search-Kampagnen (Google Ads)
 Dominik Breitbach ergänzte dazu treffend:
 > *„Nutzen wir auch sehr zufrieden. Die API ist sehr fair! Viele Tokens für vergleichbar wenig Geld.“*
 
-Wer wie wir auf Automatisierung und Vibe Coding setzt, schätzt genau diese API-Zugänglichkeit: Daten lassen sich unkompliziert abrufen, um Kunden-Dashboards oder ein automatisiertes [Website-SEO-Audit](https://teleschmie.de/website-seo-audit/) mit Live-Zahlen zu füttern. Wie wichtig agile Werkzeuge für Agenturen sind, unterstreicht auch unsere [CAMPIXX Agentur-Umfrage](https://teleschmie.de/blog/campixx-seo-agentur-umfrage/).
+Wer wie wir auf Automatisierung und Vibe Coding setzt, schätzt genau diese API-Zugänglichkeit: Daten lassen sich unkompliziert abrufen, um Kunden-Dashboards oder ein automatisiertes [Website-SEO-Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) mit Live-Zahlen zu füttern. Wie wichtig agile Werkzeuge für Agenturen sind, unterstreicht auch unsere [CAMPIXX Agentur-Umfrage](https://teleschmie.de/blog/campixx-seo-agentur-umfrage/).
 
 ## Praxis-Empfehlung für den Wechsel
 
@@ -41652,7 +41652,7 @@ Wer den Umstieg in Betracht zieht, muss nicht Hals über Kopf migrieren:
 2. **White-Label-Portal konfigurieren:** Binde deine Agentur-Subdomain ein und erstelle ein Muster-Reporting im eigenen CI.
 3. **MCP und API testen:** Verbinde die Schnittstelle mit deinen internen Prozessen, um repetitive Aufgaben zu automatisieren.
 
-Wenn du Unterstützung bei der Tool-Auswahl oder der strategischen Ausrichtung deiner Agenturprojekte suchst, lass uns in einer gemeinsamen [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) oder einer strategischen [SEO-Beratung](https://teleschmie.de/seo-beratung/) darüber sprechen.
+Wenn du Unterstützung bei der Tool-Auswahl oder der strategischen Ausrichtung deiner Agenturprojekte suchst, lass uns in einer gemeinsamen [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) oder einer strategischen [SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) darüber sprechen.
 
 *(Transparenz-Hinweis: Wer sich über meinen Partner-Link für SE Ranking entscheidet, erhält von mir 2 Stunden persönlichen Onboarding-Support für die Agentur-Einrichtung on top!)*
 
@@ -41786,7 +41786,7 @@ Das Update adressiert genau diese Herausforderungen mit vier starken Bausteinen:
 1. **Der neue Growth-Plan (Agency Hub)**: Schließt die Lücke zwischen Einzelplatz-Lizenzen und Großkonzern-Tarifen. Agenturen können nun mehrere Kunden-Workspaces verwalten, ohne gigantische Fixkosten zu binden.
 2. **Vollwertige REST-API**: Für datengetriebene Marketer das absolute Highlight. Sichtbarkeits- und Zitationsdaten wandern ab sofort automatisiert via JSON in eigene Dashboards, Looker Studio oder Kunden-Reportings.
 3. **Dedizierte ChatGPT Shopping Analyse**: Ein Gamechanger für den Online-Handel. Das Modul visualisiert, wer bei generativen Produktempfehlungen die digitale Buybox gewinnt.
-4. **Page Audit V2 (Beta)**: Ein hochgradig verfeinertes Audit-Werkzeug mit über 90 Prüfregeln, das Onpage-SEO und [AI Readiness](https://teleschmie.de/glossar/ai-readiness/) in einem einzigen Scan vereint.
+4. **Page Audit V2 (Beta)**: Ein hochgradig verfeinertes Audit-Werkzeug mit über 90 Prüfregeln, das Onpage-SEO und [AI Readiness](https://teleschmie.de/glossar/agent-readiness/) in einem einzigen Scan vereint.
 
 ## Feature-Matrix: Wie sich die Pläne unterscheiden
 
@@ -41835,7 +41835,7 @@ Wer hier als Marke nicht auftaucht oder wessen Mitbewerber im Zitatblock als exk
   
 
 
-Um deine Markensignale für diese neuen Konsumgewohnheiten zu schärfen, solltest du die Richtlinien für [E-E-A-T](https://teleschmie.de/glossar/eeat/) strikt beachten. Wie du die Daten mehrerer Monitoring-Tools kombinierst, erkläre ich auch im Beitrag über den [SE Ranking AI Tracker](https://teleschmie.de/blog/se-ranking-ai-tracker/).
+Um deine Markensignale für diese neuen Konsumgewohnheiten zu schärfen, solltest du die Richtlinien für [E-E-A-T](https://teleschmie.de/glossar/e-e-a-t/) strikt beachten. Wie du die Daten mehrerer Monitoring-Tools kombinierst, erkläre ich auch im Beitrag über den [SE Ranking AI Tracker](https://teleschmie.de/blog/se-ranking-ai-tracker/).
 
 ## Praxisschritte: So nutzt du die neuen Features
 
@@ -42957,7 +42957,7 @@ Wie ich schon in meinem Artikel über [Conversion-Optimierung auf Fachkonferenze
 
 Thomas ist übrigens fester Partner in unserem Netzwerk des [Freelancer Team](https://teleschmie.de/freelancer-team/). Das bedeutet: Wenn deine Conversion-Rate stagniert oder du ein datenschutzkonformes Tracking-Setup mit MS Clarity und GA4 aufsetzen willst, greifen SEO und CRO bei uns nahtlos ineinander.
 
-Du möchtest wissen, warum Besucher auf deiner Domain abspringen und wo ungenutzte Umsatzhebel schlummern? In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) durchleuchten wir deine Seite live. Für die ganzheitliche Begleitung steht dir meine [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/) zur Verfügung – oder nimm direkt [direkten Kontakt auf](https://teleschmie.de/kontakt/).
+Du möchtest wissen, warum Besucher auf deiner Domain abspringen und wo ungenutzte Umsatzhebel schlummern? In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) durchleuchten wir deine Seite live. Für die ganzheitliche Begleitung steht dir meine [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) zur Verfügung – oder nimm direkt [direkten Kontakt auf](https://teleschmie.de/kontakt/).
 
 
 
@@ -43056,7 +43056,7 @@ Wer seine Website zukunftssicher aufstellen will, sollte bestehende Fachartikel 
 - Gibt es strukturierte Aufzählungen mit klaren Fakten?
 - Sind die Absätze so formuliert, dass man jeden einzelnen als Zitat herausgreifen könnte?
 
-Du möchtest deine Content-Strategie und Informationsarchitektur auf Herz und Nieren prüfen lassen? In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) durchleuchten wir deine bestehenden Seiten und zeigen dir, wo du für RAG-Systeme optimieren musst. Für umfassende Begleitung steht dir meine [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/) zur Seite.
+Du möchtest deine Content-Strategie und Informationsarchitektur auf Herz und Nieren prüfen lassen? In meiner [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) durchleuchten wir deine bestehenden Seiten und zeigen dir, wo du für RAG-Systeme optimieren musst. Für umfassende Begleitung steht dir meine [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) zur Seite.
 
 
 
@@ -43416,7 +43416,7 @@ Wenn du deine eigene Reputation systematisch ausbauen möchtest, helfen dir dies
 
 - **Direktlink vorbereiten**: Generiere den offiziellen Bewertungslink deines Google-Unternehmensprofils (Google Business Profile) und halte den Link zu deinen LinkedIn-Empfehlungen bereit.
 - **Copy-Paste vorschlagen**: Schreibe dem Kunden nach getaner Arbeit: *„Wenn du zufrieden warst, freue ich mich riesig über eine kurze Bewertung auf LinkedIn. Gerne kannst du denselben Text auch mit einem Klick auf Google Maps hinterlegen.“*
-- **E-E-A-T Signale stärken**: Wie du Rezensionen und Urheberschaft semantisch in deine Webpräsenz einbindest, erfährst du im [E-E-A-T Leitfaden](https://teleschmie.de/glossar/eeat/).
+- **E-E-A-T Signale stärken**: Wie du Rezensionen und Urheberschaft semantisch in deine Webpräsenz einbindest, erfährst du im [E-E-A-T Leitfaden](https://teleschmie.de/glossar/e-e-a-t/).
 - **Individuelles Feedback**: Möchtest du deine lokale und digitale Sichtbarkeit analysieren lassen? Dann buche jetzt deine persönliche [SEO Sprechstunde](https://teleschmie.de/seo-sprechstunde/).
 
 
@@ -45493,7 +45493,7 @@ Michael trifft den Nagel auf den Kopf. Der [Zusammenhalt unter Freelancern](http
 
 Für mich gilt eine einfache Spielregel: Wer auf Fachkonferenzen menschlich harmoniert, liefert auch in anspruchsvollen Kundenprojekten exzellente Ergebnisse ab. Gegenseitiges Vertrauen lässt sich nicht in Verträgen festschreiben – es wächst durch gemeinsame Erlebnisse, ehrliches Feedback und das Wissen, dass man sich zu 100 % aufeinander verlassen kann.
 
-Du möchtest mehr über unsere Philosophie erfahren oder suchst ein maßgeschneidertes Team für deine nächste Wachstumsphase? Wirf einen Blick auf unseren [offiziellen Freelancer Team Hub](https://teleschmie.de/freelancer-team/). Wenn du speziell deine organische Auffindbarkeit durchleuchten lassen möchtest, buche dir eine [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) oder nutze meine [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/).
+Du möchtest mehr über unsere Philosophie erfahren oder suchst ein maßgeschneidertes Team für deine nächste Wachstumsphase? Wirf einen Blick auf unseren [offiziellen Freelancer Team Hub](https://teleschmie.de/freelancer-team/). Wenn du speziell deine organische Auffindbarkeit durchleuchten lassen möchtest, buche dir eine [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) oder nutze meine [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/).
 
 
 
@@ -45735,7 +45735,7 @@ Dass diese Aktion kein Alleingang war, sondern Ausdruck gelebter Kollegialität,
 
 Diese Kommentare unterstreichen genau den [Zusammenhalt unter Freelancern](https://teleschmie.de/blog/wir-seos-zusammenhalt/), den wir in der Branche viel öfter zelebrieren sollten: Statt sich als verbissene Konkurrenten zu sehen, nutzen wir gemeinsame Aktionen als Multiplikator für alle Beteiligten.
 
-Wer lernen möchte, wie man solche organischen Relevanzwellen strategisch für das eigene Business nutzt oder wie moderne Sichtbarkeit aufgebaut wird, kann jederzeit eine individuelle [SEO-Beratung anfragen](https://teleschmie.de/seo-beratung/).
+Wer lernen möchte, wie man solche organischen Relevanzwellen strategisch für das eigene Business nutzt oder wie moderne Sichtbarkeit aufgebaut wird, kann jederzeit eine individuelle [SEO-Beratung anfragen](https://teleschmie.de/glossar/seo-beratung/).
 
 
 
@@ -45841,7 +45841,7 @@ Die zeitlose Philosophie bleibt bestehen:
 - **Sei nützlich für den Menschen.**
 - **Sei lesbar für die Maschine.**
 
-Du planst einen Website-Relaunch oder möchtest dein technisches Fundament krisenfest aufstellen? Meine [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/) schützt dich vor teuren Fehlentscheidungen und bringt dein Handwerk auf das nächste Level.
+Du planst einen Website-Relaunch oder möchtest dein technisches Fundament krisenfest aufstellen? Meine [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) schützt dich vor teuren Fehlentscheidungen und bringt dein Handwerk auf das nächste Level.
 
 
 
@@ -46175,7 +46175,7 @@ Seit 2021 sind die CWV ein offizieller Bestandteil der Page Experience Signale. 
 - **Visuelle Ruhe verhindert Fehlklicks und Frust.**
 - **Unmittelbare Reaktionsfreude steigert die Conversion-Rate signifikant.**
 
-Wenn du im Management über Performance diskutierst, zeige den Stakeholdern nicht bloß rote und grüne Balken in der Konsole. Zeige ihnen, wie stark Ladezeitverzögerungen die Warenkorbabbrüche in die Höhe treiben. Branchenstudien belegen eindeutig, dass eine Reduktion der Latenzen die Bounce Rate um bis zu 24 Prozent senken kann. Das ist exakt die Sprache, die technische Budgets im Unternehmen freisetzt. Wer hier ansetzt, profitiert genau wie in unserer [SEO-Beratung](https://teleschmie.de/seo-beratung/) von handfestem Return on Investment.
+Wenn du im Management über Performance diskutierst, zeige den Stakeholdern nicht bloß rote und grüne Balken in der Konsole. Zeige ihnen, wie stark Ladezeitverzögerungen die Warenkorbabbrüche in die Höhe treiben. Branchenstudien belegen eindeutig, dass eine Reduktion der Latenzen die Bounce Rate um bis zu 24 Prozent senken kann. Das ist exakt die Sprache, die technische Budgets im Unternehmen freisetzt. Wer hier ansetzt, profitiert genau wie in unserer [SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) von handfestem Return on Investment.
 
 
   <img 
@@ -46255,7 +46255,7 @@ Wenn du deinen eigenen CrUX-Bericht auf Vordermann bringen willst, gehe struktur
 3. **Hero-Bilder & CLS fixen:** Konvertiere Bilder ins WebP-Format und stelle sicher, dass jedes Medienelement explizite Abmessungen besitzt. Das beseitigt oft 70 Prozent der Beanstandungen.
 4. **Skripte reduzieren:** Deaktiviere alle Tracking-Snippets, deren Daten niemand im Team aktiv analysiert.
 
-Wenn du tiefergehende Unterstützung brauchst oder prüfen willst, wo deine Website im technischen Detail blockiert, ist ein strukturiertes [Website-SEO-Audit](https://teleschmie.de/website-seo-audit/) oder eine gemeinsame [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) der direkteste Weg zu klaren Antworten. Und wie wir bei unseren [transparenten SEO-Preisen](https://teleschmie.de/blog/transparente-seo-preise-erfahrung/) immer betonen: Technische Klarheit spart langfristig bares Geld.
+Wenn du tiefergehende Unterstützung brauchst oder prüfen willst, wo deine Website im technischen Detail blockiert, ist ein strukturiertes [Website-SEO-Audit](https://teleschmie.de/glossar/se-ranking-website-audit/) oder eine gemeinsame [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/) der direkteste Weg zu klaren Antworten. Und wie wir bei unseren [transparenten SEO-Preisen](https://teleschmie.de/blog/transparente-seo-preise-erfahrung/) immer betonen: Technische Klarheit spart langfristig bares Geld.
 
 
   
@@ -46362,7 +46362,7 @@ Jörg Morsbach beleuchtete die Begrifflichkeiten von Cloudflare und stellte den 
   
 
 
-Jörgs Erkenntnis ist goldrichtig: Wer seit Jahren semantisches HTML5, saubere Hierarchien und schnelle Ladezeiten baut, hat bereits 70 % der Miete gezahlt. Cloudflare erweitert diese Basis lediglich um Protokolle wie [Content Negotiation](https://teleschmie.de/glossar/content-negotiation/) und den [llms.txt Standard](https://teleschmie.de/glossar/llms-txt/).
+Jörgs Erkenntnis ist goldrichtig: Wer seit Jahren semantisches HTML5, saubere Hierarchien und schnelle Ladezeiten baut, hat bereits 70 % der Miete gezahlt. Cloudflare erweitert diese Basis lediglich um Protokolle wie [Content Negotiation](https://teleschmie.de/glossar/markdown-content-negotiation/) und den [llms.txt Standard](https://teleschmie.de/glossar/llms-txt/).
 
 Auch in Entwicklerteams löste der Scan sofortige Experimente aus, wie Aleksandar Basara berichtete:
 
@@ -47060,7 +47060,7 @@ In meinem aktuellen Format bei SEO Presso spreche ich mit erfahrenen Branchenkol
 
 Bei [GEO](https://teleschmie.de/glossar/geo/) geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als zitierte Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT aufzutauchen. Tools wie Rankscale helfen dabei, diese Sichtbarkeit messbar zu machen.
 
-Das ist echtes High-End-Handwerk. Warum? Weil generative Modelle Daten anders verarbeiten als klassische Web-Crawler. Sie suchen nicht bloß nach Dokumenten mit hoher Linkpower, sondern nach Inhalten mit maximaler Faktendichte, semantischer Kohärenz und unmissverständlichem Entitäten-Bezug. Wer hier nicht über fundierte [SEO-Beratung](https://teleschmie.de/seo-beratung/) verfügt, riskiert, in den Antworten der LLMs schlicht nicht zu existieren.
+Das ist echtes High-End-Handwerk. Warum? Weil generative Modelle Daten anders verarbeiten als klassische Web-Crawler. Sie suchen nicht bloß nach Dokumenten mit hoher Linkpower, sondern nach Inhalten mit maximaler Faktendichte, semantischer Kohärenz und unmissverständlichem Entitäten-Bezug. Wer hier nicht über fundierte [SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) verfügt, riskiert, in den Antworten der LLMs schlicht nicht zu existieren.
 
 ### AIO: AI Overviews Optimization (Googles Antwort)
 
@@ -47511,7 +47511,7 @@ Die Digitalbranche steht vor einem Paradigmenwechsel. Wenn die User Journey zune
 
 Wer diesen Wandel aktiv gestalten möchte, sollte sich mit Initiativen wie dem [Cloudflare Agent Readiness Scan](https://teleschmie.de/blog/cloudflare-agent-readiness-scan/) vertraut machen und verstehen, wie die [GEO-Welle in der Suche](https://teleschmie.de/blog/seo-wird-groesser-geo-welle/) das Marketing transformiert.
 
-Du willst wissen, wie gut deine Domain für KI-Crawler erreichbar ist und welche technischen Hürden deine Sichtbarkeit blockieren? Eine fundierte [strategische SEO-Beratung](https://teleschmie.de/seo-beratung/) deckt versteckte Potenziale auf und macht deine Architektur fit für die nächste Generation des Webs.
+Du willst wissen, wie gut deine Domain für KI-Crawler erreichbar ist und welche technischen Hürden deine Sichtbarkeit blockieren? Eine fundierte [strategische SEO-Beratung](https://teleschmie.de/glossar/seo-beratung/) deckt versteckte Potenziale auf und macht deine Architektur fit für die nächste Generation des Webs.
 
 
 
@@ -47979,7 +47979,7 @@ Der Mensch neigt biologisch dazu, Abkürzungen zu suchen. Deshalb fallen Unterne
 Die Fundamente erfolgreicher Webprojekte sind unkaputtbar. Wer diese vier Kernregeln verinnerlicht, lässt 90 % der Mitbewerber mühelos hinter sich:
 
 1. **Technisches Fundament**: Die Website muss rasend schnell laden und barrierefrei für Crawler und Nutzer aufbereitet sein. Wie das systematisch geht, zeigt mein Leitfaden zum [Website SEO Audit](https://teleschmie.de/blog/website-seo-audit-vibe-coding/).
-2. **Reale Problemlösung**: Schreibe Inhalte nicht für Maschinen, sondern für echte Menschen mit konkreten Schmerzpunkten. Beachte dabei die Grundsätze aus dem [E-E-A-T Leitfaden](https://teleschmie.de/glossar/eeat/).
+2. **Reale Problemlösung**: Schreibe Inhalte nicht für Maschinen, sondern für echte Menschen mit konkreten Schmerzpunkten. Beachte dabei die Grundsätze aus dem [E-E-A-T Leitfaden](https://teleschmie.de/glossar/e-e-a-t/).
 3. **Konsequente Markenbildung**: Baue eine unverwechselbare Reputation in deiner Nische auf, sodass dein Name zum Synonym für Fachkompetenz wird.
 4. **Strategische Geduld**: Beende das hektische Springen von Trend zu Trend. Lass deinen Maßnahmen die nötigen sechs bis zwölf Monate Zeit, um ihre volle Hebelwirkung zu entfalten.
 

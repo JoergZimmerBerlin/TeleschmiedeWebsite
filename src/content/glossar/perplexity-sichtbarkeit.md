@@ -1,5 +1,5 @@
 ---
-title: Perplexity Sichtbarkeit messen (Citations & Tracking)
+title: "Perplexity Sichtbarkeit messen (Citations & Tracking)"
 meta_title: "Perplexity Sichtbarkeit messen (2026)"
 description: "Wie du deine Sichtbarkeit in der Perplexity Answer Engine misst. Alles über Citations, Share of Voice und Tracking-Tools (2026)"
 meta_description: "Wie du deine Sichtbarkeit in der Perplexity Answer Engine misst. Alles über Citations, Share of Voice und Tracking-Tools (2026)"

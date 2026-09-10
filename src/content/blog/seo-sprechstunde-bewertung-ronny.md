@@ -26,7 +26,7 @@ faqs:
 
 Echtes Feedback ist der härteste Prüfstein für jede Dienstleistung. Wenn jemand aus dem operativen Business kommt, hunderte Google-Rezensionen verfasst hat und genau weiß, wie fundierte Urteile aussehen, wiegt ein Lob doppelt schwer.
 
-Genau das passierte nach einer zweistündigen Intensiv-Session: Ronny A., erfahrener Google Local Guide mit über 182 detaillierten Rezensionen, vergab 5 volle Sterne für meine praxisnahe [SEO-Beratung](/seo-beratung/).
+Genau das passierte nach einer zweistündigen Intensiv-Session: Ronny A., erfahrener Google Local Guide mit über 182 detaillierten Rezensionen, vergab 5 volle Sterne für meine praxisnahe [SEO-Beratung](/glossar/seo-beratung/).
 
 > *„Das Gespräch war sehr gut strukturiert und Jörg war top auf unsere Website vorbereitet. Es war ein sehr intensives Gespräch mit sehr großem Mehrwert. Der Preis ist völlig gerechtfertigt.“*
 

@@ -151,7 +151,7 @@ Hier wird der fundamentale Unterschied in der strategischen Ausrichtung deutlich
 
 ### 2. Technisches Audit: Proaktiver Schutz vs. Späte Benachrichtigung
 
-Ein strukturiertes [Website SEO Audit](/glossar/website-seo-audit/) schützt vor bösen Überraschungen im Ranking:
+Ein strukturiertes [Website SEO Audit](/glossar/se-ranking-website-audit/) schützt vor bösen Überraschungen im Ranking:
 - In der **Search Console** erfährst du von technischen Problemen (wie 404-Fehlern oder fehlerhaften Canonical-Tags) meist erst dann, wenn der Googlebot bereits daran abgeprallt ist und die Seiten womöglich aus dem Index geflogen sind. Die GSC agiert rein **reaktiv**.
 - Der Cloud-Crawler von **SE Ranking** agiert **proaktiv**. Du lässt das Audit jeden Montag vor Arbeitsbeginn durchlaufen. Findet das System kaputte Links, falsche Weiterleitungen, nicht optimierte WebP-Bilder oder verlangsamte Core Web Vitals, behebst du den Fehler, noch bevor Google die Seite neu besucht.
 

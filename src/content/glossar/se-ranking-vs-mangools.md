@@ -94,7 +94,7 @@ Warum gerade Agenturen dieses integrierte Cockpit schätzen, beschreibe ich ausf
 
 ## Der entscheidende Knackpunkt: Das fehlende technische Site-Audit bei Mangools
 
-Hier trennt sich die Spreu vom Weizen. Ein fundiertes [Website SEO Audit](/glossar/website-seo-audit/) ist das unverzichtbare Rückgrat jeder seriösen Optimierung. Bevor man Zeit und Geld in Content oder Backlinks investiert, muss sichergestellt sein, dass Google die Seiten barrierefrei crawlen und indexieren kann.
+Hier trennt sich die Spreu vom Weizen. Ein fundiertes [Website SEO Audit](/glossar/se-ranking-website-audit/) ist das unverzichtbare Rückgrat jeder seriösen Optimierung. Bevor man Zeit und Geld in Content oder Backlinks investiert, muss sichergestellt sein, dass Google die Seiten barrierefrei crawlen und indexieren kann.
 
 ### Die Leerstelle bei Mangools
 

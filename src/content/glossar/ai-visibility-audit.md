@@ -1,5 +1,5 @@
 ---
-title: AI Visibility Audit (AEO & GEO Audit)
+title: "AI Visibility Audit (AEO & GEO Audit)"
 meta_title: "AI Visibility Audit für SEOs (2026)"
 description: "Wie führt man ein AI Visibility Audit (GEO-Audit) durch? Crawlability für KIs, RAG und Prompt-Mapping im B2B-Bereich (2026)"
 meta_description: "Wie führt man ein AI Visibility Audit (GEO-Audit) durch? Crawlability für KIs, RAG und Prompt-Mapping im B2B-Bereich (2026)"

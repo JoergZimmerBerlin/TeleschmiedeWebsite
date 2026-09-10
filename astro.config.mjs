@@ -40,7 +40,15 @@ export default defineConfig({
     '/html/impressum.html': '/impressum/',
     '/html/antworten.html': '/leistungen/',
     '/berlin/adwords-optimierung-sea.html': '/google-ads-freelancer-berlin/',
-    '/berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html': '/seo-freelancer-berlin/'
+    '/berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html': '/seo-freelancer-berlin/',
+    '/seo-beratung/': '/glossar/seo-beratung/',
+    '/website-seo-audit/': '/glossar/se-ranking-website-audit/',
+    '/glossar/website-seo-audit/': '/glossar/se-ranking-website-audit/',
+    '/glossar/eeat/': '/glossar/e-e-a-t/',
+    '/glossar/ai-readiness/': '/glossar/agent-readiness/',
+    '/glossar/content-negotiation/': '/glossar/markdown-content-negotiation/',
+    '/glossar/prompt/': '/glossar/promptset/',
+    '/glossar/ai-agenten/': '/glossar/agent-skills/'
   },
   prefetch: true,
   output: 'static',

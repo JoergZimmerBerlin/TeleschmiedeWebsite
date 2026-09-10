@@ -96,7 +96,7 @@ Wie vielseitig dieser Ansatz in der Praxis ist, zeigt die LinkedIn-Diskussion. A
   </div>
 </div>
 
-Aus einem dreistündigen Kunden-Workshop vollautomatisch ein didaktisch aufbereitetes Booklet mit Kern-Takeaways zu generieren, ist echtes [Prompt Engineering](/glossar/prompt/) in Reinkultur. Statt tagelang Folien nachzubereiten, liefert man dem Kunden noch am selben Nachmittag ein druckreifes Ergebnis. In Kombination mit modernen [KI-Agenten](/glossar/ai-agenten/) entstehen so Services, die früher kleinen Teams vorbehalten waren.
+Aus einem dreistündigen Kunden-Workshop vollautomatisch ein didaktisch aufbereitetes Booklet mit Kern-Takeaways zu generieren, ist echtes [Prompt Engineering](/glossar/promptset/) in Reinkultur. Statt tagelang Folien nachzubereiten, liefert man dem Kunden noch am selben Nachmittag ein druckreifes Ergebnis. In Kombination mit modernen [KI-Agenten](/glossar/agent-skills/) entstehen so Services, die früher kleinen Teams vorbehalten waren.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

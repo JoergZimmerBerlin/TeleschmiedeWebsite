@@ -112,7 +112,7 @@ Wie ich schon in meinem Artikel über [Conversion-Optimierung auf Fachkonferenze
 
 Thomas ist übrigens fester Partner in unserem Netzwerk des [Freelancer Team](/freelancer-team/). Das bedeutet: Wenn deine Conversion-Rate stagniert oder du ein datenschutzkonformes Tracking-Setup mit MS Clarity und GA4 aufsetzen willst, greifen SEO und CRO bei uns nahtlos ineinander.
 
-Du möchtest wissen, warum Besucher auf deiner Domain abspringen und wo ungenutzte Umsatzhebel schlummern? In meiner [SEO-Sprechstunde](/seo-sprechstunde/) durchleuchten wir deine Seite live. Für die ganzheitliche Begleitung steht dir meine [strategische SEO-Beratung](/seo-beratung/) zur Verfügung – oder nimm direkt [direkten Kontakt auf](/kontakt/).
+Du möchtest wissen, warum Besucher auf deiner Domain abspringen und wo ungenutzte Umsatzhebel schlummern? In meiner [SEO-Sprechstunde](/seo-sprechstunde/) durchleuchten wir deine Seite live. Für die ganzheitliche Begleitung steht dir meine [strategische SEO-Beratung](/glossar/seo-beratung/) zur Verfügung – oder nimm direkt [direkten Kontakt auf](/kontakt/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

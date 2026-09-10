@@ -6,7 +6,7 @@ description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pip
 meta_description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pipelines, auth.md und KI-Crawler gnadenlos für dich nutzt. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["seo-beratung", "seo-consulting", "seo-agentur"]
+related_terms: ["seo-consulting", "seo-consulting", "seo-agentur"]
 key_takeaways:
   - "Befähigung statt Agentur-Abhängigkeit: Professionelles Coaching transformiert Inhouse-Teams in eigenständige LLM-Architekten mit tiefem Verständnis für RAG-Systeme."
   - "Harte technische Umsetzung: Vermittlung von Kenntnissen zu RFC 8288 Link-Headern, fehlerfreiem Schema.org JSON-LD und standardisierten auth.md-Dateien."

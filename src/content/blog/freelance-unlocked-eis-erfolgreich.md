@@ -99,7 +99,7 @@ Dass diese Aktion kein Alleingang war, sondern Ausdruck gelebter Kollegialität,
 
 Diese Kommentare unterstreichen genau den [Zusammenhalt unter Freelancern](/blog/wir-seos-zusammenhalt/), den wir in der Branche viel öfter zelebrieren sollten: Statt sich als verbissene Konkurrenten zu sehen, nutzen wir gemeinsame Aktionen als Multiplikator für alle Beteiligten.
 
-Wer lernen möchte, wie man solche organischen Relevanzwellen strategisch für das eigene Business nutzt oder wie moderne Sichtbarkeit aufgebaut wird, kann jederzeit eine individuelle [SEO-Beratung anfragen](/seo-beratung/).
+Wer lernen möchte, wie man solche organischen Relevanzwellen strategisch für das eigene Business nutzt oder wie moderne Sichtbarkeit aufgebaut wird, kann jederzeit eine individuelle [SEO-Beratung anfragen](/glossar/seo-beratung/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

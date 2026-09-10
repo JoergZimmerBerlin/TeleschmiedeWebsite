@@ -149,7 +149,7 @@ Das tägliche Monitoring von Suchergebnissen ist das Herzstück jedes SEO-Projek
 
 ### 3. Technisches Website-Audit & Crawling-Kapazitäten
 
-Ein gründliches [Website SEO Audit](/glossar/website-seo-audit/) deckt strukturelle Barrieren auf, bevor sie die Sichtbarkeit gefährden:
+Ein gründliches [Website SEO Audit](/glossar/se-ranking-website-audit/) deckt strukturelle Barrieren auf, bevor sie die Sichtbarkeit gefährden:
 
 - **Semrushs Site Audit** ist seit über einem Jahrzehnt ein bewährter Standard. Der Crawler findet Broken Links, fehlerhafte hreflang-Tags, Duplicate Content und generiert anschauliche Berichte zur technischen Gesundheit. Die Obergrenze liegt im Guru-Tarif bei 300.000 Seiten-Crawls pro Monat.
 - **SE Ranking** stellt mit seinem Cloud-Crawler ein System bereit, das im Growth-Plan **bis zu 700.000 Seiten monatlich** prüft – mehr als das Doppelte von Semrush. Der Audit-Bericht überzeugt durch eine priorisierte Aufgabenliste nach Dringlichkeit (Fehler, Warnungen, Hinweise) und eine hervorragende visuelle Integration der Core Web Vitals (LCP, INP, CLS). Für Agenturen entscheidend: Das Audit läuft vollständig in der Cloud, ohne die Rechenleistung lokaler Rechner zu belasten.

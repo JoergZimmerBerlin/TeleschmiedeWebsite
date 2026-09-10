@@ -130,7 +130,7 @@ Semrush bleibt eine Wucht bei internationalen Paid-Search-Kampagnen (Google Ads)
 Dominik Breitbach ergänzte dazu treffend:
 > *„Nutzen wir auch sehr zufrieden. Die API ist sehr fair! Viele Tokens für vergleichbar wenig Geld.“*
 
-Wer wie wir auf Automatisierung und Vibe Coding setzt, schätzt genau diese API-Zugänglichkeit: Daten lassen sich unkompliziert abrufen, um Kunden-Dashboards oder ein automatisiertes [Website-SEO-Audit](/website-seo-audit/) mit Live-Zahlen zu füttern. Wie wichtig agile Werkzeuge für Agenturen sind, unterstreicht auch unsere [CAMPIXX Agentur-Umfrage](/blog/campixx-seo-agentur-umfrage/).
+Wer wie wir auf Automatisierung und Vibe Coding setzt, schätzt genau diese API-Zugänglichkeit: Daten lassen sich unkompliziert abrufen, um Kunden-Dashboards oder ein automatisiertes [Website-SEO-Audit](/glossar/se-ranking-website-audit/) mit Live-Zahlen zu füttern. Wie wichtig agile Werkzeuge für Agenturen sind, unterstreicht auch unsere [CAMPIXX Agentur-Umfrage](/blog/campixx-seo-agentur-umfrage/).
 
 ## Praxis-Empfehlung für den Wechsel
 
@@ -140,7 +140,7 @@ Wer den Umstieg in Betracht zieht, muss nicht Hals über Kopf migrieren:
 2. **White-Label-Portal konfigurieren:** Binde deine Agentur-Subdomain ein und erstelle ein Muster-Reporting im eigenen CI.
 3. **MCP und API testen:** Verbinde die Schnittstelle mit deinen internen Prozessen, um repetitive Aufgaben zu automatisieren.
 
-Wenn du Unterstützung bei der Tool-Auswahl oder der strategischen Ausrichtung deiner Agenturprojekte suchst, lass uns in einer gemeinsamen [SEO-Sprechstunde](/seo-sprechstunde/) oder einer strategischen [SEO-Beratung](/seo-beratung/) darüber sprechen.
+Wenn du Unterstützung bei der Tool-Auswahl oder der strategischen Ausrichtung deiner Agenturprojekte suchst, lass uns in einer gemeinsamen [SEO-Sprechstunde](/seo-sprechstunde/) oder einer strategischen [SEO-Beratung](/glossar/seo-beratung/) darüber sprechen.
 
 *(Transparenz-Hinweis: Wer sich über meinen <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Partner-Link für SE Ranking</a> entscheidet, erhält von mir 2 Stunden persönlichen Onboarding-Support für die Agentur-Einrichtung on top!)*
 

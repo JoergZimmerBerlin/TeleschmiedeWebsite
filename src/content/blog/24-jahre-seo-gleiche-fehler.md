@@ -99,7 +99,7 @@ Der Mensch neigt biologisch dazu, Abkürzungen zu suchen. Deshalb fallen Unterne
 Die Fundamente erfolgreicher Webprojekte sind unkaputtbar. Wer diese vier Kernregeln verinnerlicht, lässt 90 % der Mitbewerber mühelos hinter sich:
 
 1. **Technisches Fundament**: Die Website muss rasend schnell laden und barrierefrei für Crawler und Nutzer aufbereitet sein. Wie das systematisch geht, zeigt mein Leitfaden zum [Website SEO Audit](/blog/website-seo-audit-vibe-coding/).
-2. **Reale Problemlösung**: Schreibe Inhalte nicht für Maschinen, sondern für echte Menschen mit konkreten Schmerzpunkten. Beachte dabei die Grundsätze aus dem [E-E-A-T Leitfaden](/glossar/eeat/).
+2. **Reale Problemlösung**: Schreibe Inhalte nicht für Maschinen, sondern für echte Menschen mit konkreten Schmerzpunkten. Beachte dabei die Grundsätze aus dem [E-E-A-T Leitfaden](/glossar/e-e-a-t/).
 3. **Konsequente Markenbildung**: Baue eine unverwechselbare Reputation in deiner Nische auf, sodass dein Name zum Synonym für Fachkompetenz wird.
 4. **Strategische Geduld**: Beende das hektische Springen von Trend zu Trend. Lass deinen Maßnahmen die nötigen sechs bis zwölf Monate Zeit, um ihre volle Hebelwirkung zu entfalten.
 

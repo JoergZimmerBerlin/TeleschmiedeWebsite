@@ -143,7 +143,7 @@ Zusätzlich speichert SE Ranking für jedes Keyword einen vollständigen SERP-Ca
 
 Beide Plattformen bieten erstklassige Cloud-Crawler zur Erkennung technischer Onpage-Fehler. Sie prüfen Canonical-Tags, Weiterleitungsketten, 404-Fehlerseiten, Duplicate Content und hreflang-Konfigurationen.
 
-Ein fundiertes [Website SEO Audit](/glossar/website-seo-audit/) lässt sich mit beiden Suiten hervorragend durchführen. SE Ranking punktet jedoch mit einer visuell moderneren Aufbereitung der Core Web Vitals und einer priorisierten To-do-Liste, die sich direkt als Mandanten-Report exportieren lässt – ohne dass das Audit wertvolle Analyse-Credits verbraucht.
+Ein fundiertes [Website SEO Audit](/glossar/se-ranking-website-audit/) lässt sich mit beiden Suiten hervorragend durchführen. SE Ranking punktet jedoch mit einer visuell moderneren Aufbereitung der Core Web Vitals und einer priorisierten To-do-Liste, die sich direkt als Mandanten-Report exportieren lässt – ohne dass das Audit wertvolle Analyse-Credits verbraucht.
 
 ---
 

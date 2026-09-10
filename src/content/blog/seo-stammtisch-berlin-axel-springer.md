@@ -101,7 +101,7 @@ Und wer wie **Anett Pohl** kurzfristig verhindert war, muss nicht traurig sein: 
 
 Wer im Großraum Berlin im Bereich Suchmaschinenoptimierung, Content oder Web-Analytics unterwegs ist, sollte sich den [SEO Stammtisch Berlin](https://www.linkedin.com/groups/2330773/) fest in den Kalender eintragen. Neue Gesichter und frische Perspektiven sind jederzeit willkommen.
 
-Du möchtest deine Website-Performance auf Profi-Niveau heben oder suchst einen Sparringspartner für knifflige technische Herausforderungen? In meiner [SEO-Sprechstunde](/seo-sprechstunde/) analysieren wir deine Problemzonen ohne Umwege, oder du kannst direkt eine [strategische SEO-Beratung](/seo-beratung/) buchen bzw. [direkten Kontakt aufnehmen](/kontakt/).
+Du möchtest deine Website-Performance auf Profi-Niveau heben oder suchst einen Sparringspartner für knifflige technische Herausforderungen? In meiner [SEO-Sprechstunde](/seo-sprechstunde/) analysieren wir deine Problemzonen ohne Umwege, oder du kannst direkt eine [strategische SEO-Beratung](/glossar/seo-beratung/) buchen bzw. [direkten Kontakt aufnehmen](/kontakt/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

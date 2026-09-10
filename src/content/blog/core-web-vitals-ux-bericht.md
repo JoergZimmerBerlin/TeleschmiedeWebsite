@@ -70,7 +70,7 @@ Seit 2021 sind die CWV ein offizieller Bestandteil der Page Experience Signale. 
 - **Visuelle Ruhe verhindert Fehlklicks und Frust.**
 - **Unmittelbare Reaktionsfreude steigert die Conversion-Rate signifikant.**
 
-Wenn du im Management über Performance diskutierst, zeige den Stakeholdern nicht bloß rote und grüne Balken in der Konsole. Zeige ihnen, wie stark Ladezeitverzögerungen die Warenkorbabbrüche in die Höhe treiben. Branchenstudien belegen eindeutig, dass eine Reduktion der Latenzen die Bounce Rate um bis zu 24 Prozent senken kann. Das ist exakt die Sprache, die technische Budgets im Unternehmen freisetzt. Wer hier ansetzt, profitiert genau wie in unserer [SEO-Beratung](/seo-beratung/) von handfestem Return on Investment.
+Wenn du im Management über Performance diskutierst, zeige den Stakeholdern nicht bloß rote und grüne Balken in der Konsole. Zeige ihnen, wie stark Ladezeitverzögerungen die Warenkorbabbrüche in die Höhe treiben. Branchenstudien belegen eindeutig, dass eine Reduktion der Latenzen die Bounce Rate um bis zu 24 Prozent senken kann. Das ist exakt die Sprache, die technische Budgets im Unternehmen freisetzt. Wer hier ansetzt, profitiert genau wie in unserer [SEO-Beratung](/glossar/seo-beratung/) von handfestem Return on Investment.
 
 <figure class="my-10 text-center">
   <img 
@@ -150,7 +150,7 @@ Wenn du deinen eigenen CrUX-Bericht auf Vordermann bringen willst, gehe struktur
 3. **Hero-Bilder & CLS fixen:** Konvertiere Bilder ins WebP-Format und stelle sicher, dass jedes Medienelement explizite Abmessungen besitzt. Das beseitigt oft 70 Prozent der Beanstandungen.
 4. **Skripte reduzieren:** Deaktiviere alle Tracking-Snippets, deren Daten niemand im Team aktiv analysiert.
 
-Wenn du tiefergehende Unterstützung brauchst oder prüfen willst, wo deine Website im technischen Detail blockiert, ist ein strukturiertes [Website-SEO-Audit](/website-seo-audit/) oder eine gemeinsame [SEO-Sprechstunde](/seo-sprechstunde/) der direkteste Weg zu klaren Antworten. Und wie wir bei unseren [transparenten SEO-Preisen](/blog/transparente-seo-preise-erfahrung/) immer betonen: Technische Klarheit spart langfristig bares Geld.
+Wenn du tiefergehende Unterstützung brauchst oder prüfen willst, wo deine Website im technischen Detail blockiert, ist ein strukturiertes [Website-SEO-Audit](/glossar/se-ranking-website-audit/) oder eine gemeinsame [SEO-Sprechstunde](/seo-sprechstunde/) der direkteste Weg zu klaren Antworten. Und wie wir bei unseren [transparenten SEO-Preisen](/blog/transparente-seo-preise-erfahrung/) immer betonen: Technische Klarheit spart langfristig bares Geld.
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">

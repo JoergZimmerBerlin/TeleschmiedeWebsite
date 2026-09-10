@@ -106,7 +106,7 @@ Die zeitlose Philosophie bleibt bestehen:
 - **Sei nützlich für den Menschen.**
 - **Sei lesbar für die Maschine.**
 
-Du planst einen Website-Relaunch oder möchtest dein technisches Fundament krisenfest aufstellen? Meine [strategische SEO-Beratung](/seo-beratung/) schützt dich vor teuren Fehlentscheidungen und bringt dein Handwerk auf das nächste Level.
+Du planst einen Website-Relaunch oder möchtest dein technisches Fundament krisenfest aufstellen? Meine [strategische SEO-Beratung](/glossar/seo-beratung/) schützt dich vor teuren Fehlentscheidungen und bringt dein Handwerk auf das nächste Level.
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

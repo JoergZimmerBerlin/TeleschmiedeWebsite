@@ -110,7 +110,7 @@ Damit dir so ein Notfall erspart bleibt, solltest du folgende Prozesse etabliere
 - **Tägliches Monitoring:** Richte automatische Alerts in deinen SEO-Tools ein, die bei Ausschlägen ab 15 Prozent sofort Alarm schlagen.
 - **Klare Verantwortlichkeiten:** Jede externe Agentur muss Code-Änderungen vorab mit der technischen Leitung abstimmen.
 
-Brennt bei dir die Hütte oder stagnieren deine Rankings ohne ersichtlichen Grund? In meiner [strategischen SEO-Beratung](/seo-beratung/) sichern wir deine Plattform technisch ab, oder du kannst bei akuten Problemen sofort [direkten Kontakt aufnehmen](/kontakt/).
+Brennt bei dir die Hütte oder stagnieren deine Rankings ohne ersichtlichen Grund? In meiner [strategischen SEO-Beratung](/glossar/seo-beratung/) sichern wir deine Plattform technisch ab, oder du kannst bei akuten Problemen sofort [direkten Kontakt aufnehmen](/kontakt/).
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

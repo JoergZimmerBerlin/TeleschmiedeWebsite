@@ -76,7 +76,7 @@ In meinem aktuellen Format bei SEO Presso spreche ich mit erfahrenen Branchenkol
 
 Bei [GEO](/glossar/geo/) geht es nicht mehr primär um das Ranking in einer klassischen Trefferliste (SERP). Es geht darum, als zitierte Quelle in den generativen Antworten von Systemen wie Perplexity, Claude oder ChatGPT aufzutauchen. Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> helfen dabei, diese Sichtbarkeit messbar zu machen.
 
-Das ist echtes High-End-Handwerk. Warum? Weil generative Modelle Daten anders verarbeiten als klassische Web-Crawler. Sie suchen nicht bloß nach Dokumenten mit hoher Linkpower, sondern nach Inhalten mit maximaler Faktendichte, semantischer Kohärenz und unmissverständlichem Entitäten-Bezug. Wer hier nicht über fundierte [SEO-Beratung](/seo-beratung/) verfügt, riskiert, in den Antworten der LLMs schlicht nicht zu existieren.
+Das ist echtes High-End-Handwerk. Warum? Weil generative Modelle Daten anders verarbeiten als klassische Web-Crawler. Sie suchen nicht bloß nach Dokumenten mit hoher Linkpower, sondern nach Inhalten mit maximaler Faktendichte, semantischer Kohärenz und unmissverständlichem Entitäten-Bezug. Wer hier nicht über fundierte [SEO-Beratung](/glossar/seo-beratung/) verfügt, riskiert, in den Antworten der LLMs schlicht nicht zu existieren.
 
 ### AIO: AI Overviews Optimization (Googles Antwort)
 

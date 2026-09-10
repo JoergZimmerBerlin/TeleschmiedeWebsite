@@ -100,7 +100,7 @@ Wer seine Website zukunftssicher aufstellen will, sollte bestehende Fachartikel 
 - Gibt es strukturierte Aufzählungen mit klaren Fakten?
 - Sind die Absätze so formuliert, dass man jeden einzelnen als Zitat herausgreifen könnte?
 
-Du möchtest deine Content-Strategie und Informationsarchitektur auf Herz und Nieren prüfen lassen? In meiner [SEO-Sprechstunde](/seo-sprechstunde/) durchleuchten wir deine bestehenden Seiten und zeigen dir, wo du für RAG-Systeme optimieren musst. Für umfassende Begleitung steht dir meine [strategische SEO-Beratung](/seo-beratung/) zur Seite.
+Du möchtest deine Content-Strategie und Informationsarchitektur auf Herz und Nieren prüfen lassen? In meiner [SEO-Sprechstunde](/seo-sprechstunde/) durchleuchten wir deine bestehenden Seiten und zeigen dir, wo du für RAG-Systeme optimieren musst. Für umfassende Begleitung steht dir meine [strategische SEO-Beratung](/glossar/seo-beratung/) zur Seite.
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md CTA">

@@ -6,7 +6,7 @@ description: "SEO Consulting für maximale digitale Autorität. Wie strategische
 meta_description: "SEO Consulting für maximale digitale Autorität. Wie strategische Systemarchitektur, Entitäten und GEO nachhaltiges Wachstum sichern. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
-related_terms: ["seo-beratung", "seo-coaching", "seo-audit", "geo"]
+related_terms: ["seo-consulting", "seo-coaching", "seo-audit", "geo"]
 key_takeaways:
   - "Architektur statt Kosmetik: Strategisches SEO Consulting gestaltet 2026 die Dateninfrastruktur, damit generative KIs Marken als Primärquelle zitieren."
   - "Entitäten und Wissensgraphen: Statt isolierter Keywords etabliert die Beratung klare semantische Identitäten und thematische Cluster im Knowledge Graph."

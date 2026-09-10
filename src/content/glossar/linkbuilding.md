@@ -7,7 +7,7 @@ meta_description: "Linkbuilding im KI-Zeitalter: Warum Entity-Citations, Digital
 sameAs: "https://www.wikidata.org/wiki/Q1569371"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-linkbuilding-3d.webp"
-related_terms: ["linkjuice", "seo-beratung", "entitaet", "pressearbeit-im-seo"]
+related_terms: ["linkjuice", "seo-consulting", "entitaet", "pressearbeit-im-seo"]
 key_takeaways:
   - "Paradigmenwechsel im Offpage-SEO: Quantitative Backlink-Sammlungen verlieren an Wert, während kontextuelle Entity-Citations das Vertrauen generativer Modelle sichern."
   - "SpamBrain-Filterung: Googles KI-gestützte Algorithmen neutralisieren unnatürliche Linknetzwerke und bezahlte Forenlinks automatisch ohne manuelle Abstrafung."

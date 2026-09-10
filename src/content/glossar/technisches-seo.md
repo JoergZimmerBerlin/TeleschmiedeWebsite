@@ -161,7 +161,7 @@ Durch diese saubere Deklaration signalisiert der Server jedem eintreffenden Agen
 
 ## 4. Typische Praxisfehler im Technischen SEO
 
-In umfassenden technischen Webseiten-Prüfungen ([Website SEO Audit](/glossar/website-seo-audit/)) stoßen Spezialisten regelmäßig auf dieselben gravierenden Schwachstellen:
+In umfassenden technischen Webseiten-Prüfungen ([Website SEO Audit](/glossar/se-ranking-website-audit/)) stoßen Spezialisten regelmäßig auf dieselben gravierenden Schwachstellen:
 
 1. **Unkontrollierte Redirect-Ketten:** Durch historische Migrationen leiten interne Links über mehrere Zwischenstationen weiter. Jeder Redirect erhöht die Latenz und führt bei KI-Crawlern zum vorzeitigen Abbruch.
 2. **Blockierende JavaScript-Hydration:** Seiten laden gigantische Skript-Bundles nach, die den Haupt-Thread für Sekunden einfrieren. Der INP-Wert explodiert und die Seite wird als instabil eingestuft.

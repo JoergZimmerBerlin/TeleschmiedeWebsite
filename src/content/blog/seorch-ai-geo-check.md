@@ -74,7 +74,7 @@ Die folgende Übersicht verdeutlicht, wie sich der neue Prüfstandard von konven
 | **Urheber-Prüfung** | Vorhandensein von Impressum / Autorenbox | Semantische Personen-Entität & Author-Profile |
 | **Dokumenten-Header** | Canonical, Meta-Robots, Hreflang | Link-Header (RFC 8288), Markdown Negotiation |
 
-Weiterführende Hintergründe zur technischen Umsetzung findest du in meinem [Glossar-Artikel zum SEORCH AI Check](/glossar/seorch-ai-check/) sowie im umfassenden Leitfaden zur [AI Readiness](/glossar/ai-readiness/).
+Weiterführende Hintergründe zur technischen Umsetzung findest du in meinem [Glossar-Artikel zum SEORCH AI Check](/glossar/seorch-ai-check/) sowie im umfassenden Leitfaden zur [AI Readiness](/glossar/agent-readiness/).
 
 ## Die Community diskutiert: Markdown-Exporte und LLM-Integrationen
 
@@ -85,7 +85,7 @@ Die Resonanz in der LinkedIn-Community auf das neue Feature war überwältigend.
   <div class="italic text-dark mb-0"><p>Das ist super! :) Wäre noch cooler, wenn er statt PDF eine .md ausgeben könnte für die effiziente Zusammenarbeit mit KI-Systemen (ohne dass das PDF minutenlang zerrupft werden muss).</p></div>
 </div>
 
-Marias Feedback trifft den Nagel auf den Kopf. Während klassische Agenturen ihren Kunden nach wie vor 60-seitige PDF-Reports zustellen, fordern moderne SEOs maschinenlesbare Markdown-Dateien. Wer ein Audit sofort in Cursor, Claude oder Antigravity zur automatisierten Fehlerbehebung übergeben will, benötigt saubere Textdateien. Details dazu erläutere ich auch im Artikel über [Content Negotiation](/glossar/content-negotiation/) und den [llms.txt Standard](/glossar/llms-txt/).
+Marias Feedback trifft den Nagel auf den Kopf. Während klassische Agenturen ihren Kunden nach wie vor 60-seitige PDF-Reports zustellen, fordern moderne SEOs maschinenlesbare Markdown-Dateien. Wer ein Audit sofort in Cursor, Claude oder Antigravity zur automatisierten Fehlerbehebung übergeben will, benötigt saubere Textdateien. Details dazu erläutere ich auch im Artikel über [Content Negotiation](/glossar/markdown-content-negotiation/) und den [llms.txt Standard](/glossar/llms-txt/).
 
 Auch Mohamed Ibrahim sieht das Potenzial für agentenbasierte Workflows:
 

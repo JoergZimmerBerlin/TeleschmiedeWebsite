@@ -137,7 +137,7 @@ In SE Ranking überwachst du nicht nur ein Fokus-Keyword, sondern dein gesamtes 
 SEORCH kann dir nicht verraten, mit welchen Suchbegriffen dein Mitbewerber monatlich zehntausende Besucher gewinnt. SE Ranking schlüsselt das gesamte Keyword-Portfolio deiner Konkurrenten auf. Über die *Keyword-Gap-Analyse* siehst du mit einem Klick, welche profitablen Suchbegriffe deine Wettbewerber besetzen, die dir noch komplett fehlen.
 
 ### 3. Ganzheitliches Website SEO Audit
-Ein vollständiges [Website SEO Audit](/glossar/website-seo-audit/) mit SE Ranking scannt deine gesamte Domain strukturiert durch. Es deckt Duplicate Content, Weiterleitungsketten und langsame Renderpfade auf und liefert eine nach Prioritäten sortierte Aufgabenliste für Entwickler.
+Ein vollständiges [Website SEO Audit](/glossar/se-ranking-website-audit/) mit SE Ranking scannt deine gesamte Domain strukturiert durch. Es deckt Duplicate Content, Weiterleitungsketten und langsame Renderpfade auf und liefert eine nach Prioritäten sortierte Aufgabenliste für Entwickler.
 
 ### 4. KI-Zitations-Tracking mit SE Visible
 Während SEORCH prüft, ob deine Seite technisch für KI-Bots lesbar ist, überwacht SE Ranking mit *SE Visible*, ob Google deine Website tatsächlich in den generierten AI Overviews zitiert. Für ein plattformübergreifendes Tracking über 17 führende KI-Systeme empfiehlt sich ergänzend [Rankscale](/glossar/rankscale/).

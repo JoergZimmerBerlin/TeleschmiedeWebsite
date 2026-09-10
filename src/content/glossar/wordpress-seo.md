@@ -6,7 +6,7 @@ description: "WordPress muss sich radikal wandeln. Headless-Markdown und saubere
 meta_description: "WordPress muss sich radikal wandeln. Headless-Markdown und saubere Endpunkte sind heute absolute Pflicht für ernsthafte KI-Optimierung. (2026)"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["seo-beratung", "pagespeed", "strukturierte-daten", "agent-readiness"]
+related_terms: ["seo-consulting", "pagespeed", "strukturierte-daten", "agent-readiness"]
 key_takeaways:
   - "Markdown ist der wahre King: WordPress MUSS Headless-Markdown-Plugins nutzen, um für KI-Agenten lesbar und verdaulich zu sein. HTML ist tot für KIs."
   - "Vollständige technische KI-Optimierung: Dein WordPress-Setup muss maschinenlesbare Endpunkte und saubere KI-Crawler-Protokolle bereitstellen. Sonst wirst du ignoriert."

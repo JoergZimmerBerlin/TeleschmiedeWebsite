@@ -110,7 +110,7 @@ Jörg Morsbach beleuchtete die Begrifflichkeiten von Cloudflare und stellte den 
   </div>
 </div>
 
-Jörgs Erkenntnis ist goldrichtig: Wer seit Jahren semantisches HTML5, saubere Hierarchien und schnelle Ladezeiten baut, hat bereits 70 % der Miete gezahlt. Cloudflare erweitert diese Basis lediglich um Protokolle wie [Content Negotiation](/glossar/content-negotiation/) und den [llms.txt Standard](/glossar/llms-txt/).
+Jörgs Erkenntnis ist goldrichtig: Wer seit Jahren semantisches HTML5, saubere Hierarchien und schnelle Ladezeiten baut, hat bereits 70 % der Miete gezahlt. Cloudflare erweitert diese Basis lediglich um Protokolle wie [Content Negotiation](/glossar/markdown-content-negotiation/) und den [llms.txt Standard](/glossar/llms-txt/).
 
 Auch in Entwicklerteams löste der Scan sofortige Experimente aus, wie Aleksandar Basara berichtete:
 

@@ -13,7 +13,7 @@ key_takeaways:
   - "KPI-Shift: Es geht 2026 nicht um Klicks (Zero-Click-Searches), sondern um Citation Share und Share of Model."
   - "Seniorität zählt: KI-Strategie ist Chefsache. Wer die Architektur von Vektordatenbanken und LLMs nicht versteht, zerstört deine Sichtbarkeit."
 tacheles: 'Die meisten Agenturen verkaufen euch "KI SEO", indem sie einen Werkstudenten vor ChatGPT setzen. Das ist unterlassene Hilfeleistung. Echte KI SEO Beratung im 2026 bedeutet: Server für optimale LLM-Lesbarkeit umbauen und extrem schnelle, maschinenlesbare Antworten bereitstellen. Wer heute noch auf pure Keywords starrt, hat den Wandel komplett verschlafen.'
-related_terms: ["ai-seo", "geo-agentur", "seo-beratung", "seo-consulting", "entitaet"]
+related_terms: ["ai-seo", "geo-agentur", "seo-consulting", "seo-consulting", "entitaet"]
 faqs:
   - question: 'Was unterscheidet eine moderne KI SEO Beratung von klassischem SEO?'
     answer: 'Klassisches SEO fokussiert sich primär auf menschliche Nutzer und Google-Rankings über Keyword-Listen. Eine moderne KI SEO Beratung (GEO) optimiert für autonome KI-Agenten und RAG-Systeme. Das bedeutet die Bereitstellung von Inhalten in maschinenlesbaren Formaten und die Optimierung für Vektordatenbanken. Es geht nicht mehr nur um Traffic, sondern um die Nennung deiner Marke als referenzierte Quelle (Citation) in den Antworten der KIs.'

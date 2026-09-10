@@ -6,7 +6,7 @@ description: "SEO Agentur für moderne KI-Sichtbarkeit. Wir transformieren deine
 meta_description: "SEO Agentur für moderne KI-Sichtbarkeit. Wir transformieren deine Infrastruktur für RAG-Systeme und Answer Engines auf höchstem Niveau. (2026)"
 date: "2026-07-18"
 image: "../../assets/images/glossar/themes/glossar-theme-local.webp"
-related_terms: ["seo-beratung", "local-seo", "seo-audit"]
+related_terms: ["seo-consulting", "local-seo", "seo-audit"]
 key_takeaways:
   - "Paradigmenwechsel: Eine moderne SEO Agentur baut keine Spam-Backlinks mehr, sondern optimiert für LLMs und Search Everywhere Optimization."
   - "Generative Engine Optimization (GEO): Autonome Bots entscheiden darüber, ob KI-Systeme deine Produkte in ChatGPT und Perplexity zitieren (Fakten-Anker)."

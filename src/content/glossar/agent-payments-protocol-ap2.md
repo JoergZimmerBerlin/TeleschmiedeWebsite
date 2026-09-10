@@ -27,6 +27,32 @@ Das **Agent Payments Protocol (AP2)** ist ein offener, kryptografischer Industri
 
 Während traditionelle E-Commerce-Zahlungen stets auf der physischen Anwesenheit eines Menschen basieren (Human-Present Transactions mit 3D-Secure, Passwörtern oder biometrischer Face-ID), löst AP2 das fundamentale Sicherheitsproblem sogenannter *Human-Not-Present* (HNP) Transaktionen. Anstatt einem KI-Agenten statische Zahlungsdaten wie Kreditkartennummern oder Bank-Logins anzuvertrauen, etabliert das Protokoll ein feingliedriges System kryptografisch signierter Vollmachten.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Wer glaubt, KI-Agenten würden im E-Commerce künftig noch bunte Warenkörbe durchklicken, verkennt die Realität. Protokolle wie AP2 wickeln Käufe maschinell in Millisekunden ab. Wer keine sauberen Mandate unterstützt, findet im autonomen Handel schlichtweg nicht statt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Historie & Standardisierung in der FIDO Alliance
 
 Ursprünglich Ende 2025 von Google initiiert, wurde das Protokoll im Frühjahr 2026 offiziell an die **FIDO Alliance** übergeben. Ziel dieser Stiftung war es, proprietäre Insellösungen einzelner Technologiegiganten zu verhindern und ein herstellerunabhängiges, interoperables Fundament für maschinelle Bezahlvorgänge zu schaffen. 

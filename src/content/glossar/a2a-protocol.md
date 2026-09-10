@@ -28,16 +28,30 @@ Wir müssen über einen Paradigmenwechsel sprechen, der aktuell das gesamte Fund
 
 Aber das Web, wie wir es kannten, ist tot. Wir befinden uns im Sommer 2026, und der Traffic von Menschen, die auf Bildschirme starren und Knöpfchen drücken, stagniert oder bricht ein. Die neue Währung im Unternehmensumfeld heißt **Autonomie**. 
 
-<figure class="my-10 bg-white rounded-2xl border border-gray-200 p-6 md:p-8 shadow-sm flex flex-col md:flex-row items-center gap-6">
-  <img src="/assets/images/profile/joerg-zimmer-portrait.webp" alt="Jörg Zimmer" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-2 border-lime-accent flex-shrink-0" />
-  <div>
-    <blockquote class="text-base md:text-lg text-dark leading-relaxed italic mb-4">
-      „Während der Mittelstand noch diskutiert, ob man einen bunten Chatbot auf die Website klatschen soll, verhandeln autonome Agenten bereits Milliardenbudgets im Hintergrund. Wer das A2A-Protokoll ignoriert, schließt seine Website schlichtweg vom globalen B2B-Handel der Zukunft aus.“
-    </blockquote>
-    <figcaption class="text-sm font-bold text-gray-500 not-italic">
-      Jörg Zimmer, <cite class="font-normal text-gray-400">Senior SEO & AI Search Consultant</cite>
-    </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Während der Mittelstand noch diskutiert, ob man einen bunten Chatbot auf die Website klatschen soll, verhandeln autonome Agenten bereits Milliardenbudgets im Hintergrund. Wer das A2A-Protokoll ignoriert, schließt seine Website schlichtweg vom globalen B2B-Handel der Zukunft aus.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 Unternehmen lagern Routineaufgaben zunehmend an autonome KI-Agenten aus. Der Einkäufer sucht nicht mehr manuell nach neuen Lieferanten – er gibt seinem Agenten ein Budget und eine Deadline. Dieser Agent zieht los ins Netz, findet Lieferanten, vergleicht Preise, handelt Verträge aus und bucht das Budget. 

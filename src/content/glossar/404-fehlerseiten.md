@@ -28,6 +28,32 @@ Der HTTP-Statuscode **404 Not Found** gehört zu den ältesten und bekanntesten 
 
 In der modernen Suchmaschinenoptimierung und im Zeitalter generativer Sprachmodelle (LLMs) hat sich der Stellenwert von Fehlerseiten jedoch grundlegend verschärft. Autonome Retrieval-Augmented Generation (RAG) Pipelines, Inferenz-Systeme und [Crawler](/glossar/crawler/) reagieren extrem sensibel auf defekte Links. Eine Website mit tausenden ungelösten Statusfehlern riskiert nicht nur den Verlust wertvoller Backlink-Autorität, sondern wird von modernen Algorithmen im [Technischen SEO](/glossar/technisches-seo/) als veraltete, unzuverlässige Informationsquelle eingestuft.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Eine 404-Fehlerseite mit lustigem Maskottchen rettet keinen Umsatz. Wenn Googlebot und KI-Crawler permanent gegen tote Türen rennen, fliegst du schneller aus dem Index, als du ‚PageRank‘ sagen kannst. Saubere Weiterleitungen sind pure Existenzsicherung.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Die vier Status-Varianten im technischen Vergleich
 
 Um Fehlerzustände auf Serverebene präzise zu managen, müssen Webmaster zwischen vier grundlegenden Antwortszenarien differenzieren:

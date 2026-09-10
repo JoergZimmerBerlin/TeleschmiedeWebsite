@@ -27,27 +27,30 @@ Wenn moderne Nutzer Kaufentscheidungen treffen, verlassen sie sich immer seltene
 
 Viel entscheidender für den unternehmerischen Erfolg ist die qualitative Frage: *In welchem Tonfall spricht die künstliche Intelligenz über deine Angebote?* Es hilft deinem Business wenig, wenn ChatGPT deinen Namen bei jeder zweiten Anfrage nennt, im selben Satz jedoch vor undurchsichtigen Vertragsklauseln, überforderten Support-Mitarbeitern oder instabilen Schnittstellen warnt. Ein solches negatives Framing in generierten Texten vernichtet das Vertrauen potenzieller Kunden in Sekundenschnelle und führt zu dramatischen Umsatzeinbußen. Hier setzt die **AI Sentiment Analysis** an.
 
-<figure class="my-10 bg-white border border-gray-200/80 rounded-2xl p-6 md:p-8 shadow-sm not-prose">
-  <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
-    <div class="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0 border-2 border-lime-accent shadow-md">
-      <img 
-        src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-        alt="Jörg Zimmer Porträt" 
-        class="w-full h-full object-cover"
-        loading="lazy"
-        width="96"
-        height="96"
-      />
-    </div>
-    <div class="space-y-3 text-center md:text-left">
-      <blockquote class="text-base md:text-lg text-dark leading-relaxed italic">
-        "Sichtbarkeit in Sprachmodellen ist zweischneidig. Wer nur darauf optimiert, dass die KI den Firmennamen ausspuckt, erlebt oft ein böses Erwachen. Wenn das Sprachmodell deine Entität mit negativen Assoziationen verknüpft, fungiert jede Nennung als Anti-Werbung. Die gezielte Analyse des Marken-Sentiments ist deshalb die unverzichtbare Ergänzung für jedes moderne Reputationsmanagement."
-      </blockquote>
-      <figcaption class="text-sm text-gray-500 font-medium">
-        — <cite class="not-italic font-semibold text-dark">Jörg Zimmer</cite>, Senior SEO & AI Consultant
-      </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
     </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Sichtbarkeit in Sprachmodellen ist zweischneidig. Wer nur darauf optimiert, dass die KI den Firmennamen ausspuckt, erlebt oft ein böses Erwachen. Wenn das Sprachmodell deine Marke mit negativen Attributen verknüpft, ist jede Nennung reine Anti-Werbung. Sentiment ist der wahre Hebel.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 ## Methodik: Wie KI-Sentiment-Analysen technisch funktionieren

@@ -24,27 +24,30 @@ Während die traditionelle Suchmaschinenoptimierung den Fokus auf Rankings, Klic
 
 Wer im Zeitalter der [AI Search](/glossar/ai-search/) bestehen will, muss nicht mehr "ranken", sondern **zitiert werden**.
 
-<figure class="my-10 bg-white border border-gray-200/80 rounded-2xl p-6 md:p-8 shadow-sm not-prose">
-  <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
-    <div class="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden shrink-0 border-2 border-lime-accent shadow-md">
-      <img 
-        src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-        alt="Jörg Zimmer Porträt" 
-        class="w-full h-full object-cover"
-        loading="lazy"
-        width="96"
-        height="96"
-      />
-    </div>
-    <div class="space-y-3 text-center md:text-left">
-      <blockquote class="text-base md:text-lg text-dark leading-relaxed italic">
-        "In der Ära der Answer Engines ist die Citation Frequency die neue Leitwährung. Rankings auf Seite 1 interessieren niemanden mehr, wenn 60 % der Nutzer die Antwort direkt im KI-Chat konsumieren. Wer dort nicht als zitierte Quelle auftaucht, findet im Entscheidungsprozess schlicht nicht statt."
-      </blockquote>
-      <figcaption class="text-sm text-gray-500 font-medium">
-        — <cite class="not-italic font-semibold text-dark">Jörg Zimmer</cite>, Senior SEO & AI Consultant
-      </figcaption>
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
     </div>
   </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „In der Ära der Answer Engines ist die Citation Frequency die neue Leitwährung. Rankings auf Seite 1 interessieren niemanden mehr, wenn 60 % der Nutzer die Antwort direkt im KI-Chat konsumieren. Wer dort nicht als zitierte Quelle auftaucht, findet im Entscheidungsprozess schlicht nicht statt.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
 </figure>
 
 ## Die Währung der Answer Engines

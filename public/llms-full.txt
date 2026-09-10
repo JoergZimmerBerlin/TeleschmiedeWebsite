@@ -366,6 +366,32 @@ Wer Unterseiten oder ganze Domains umzieht, ohne präzise HTTP-Statuscodes zu ko
 
 Autonome [Crawler](https://teleschmie.de/glossar/crawler/) wie der Googlebot oder spezialisierte KI-Scraper arbeiten mit eng limitierten Latenz-Budgets. Sie tolerieren keine serverseitigen Umwege oder widersprüchliche Statusmeldungen. Die bewusste Entscheidung zwischen einer permanenten (301) und einer temporären (302) Weiterleitung ist das Fundament für sauberes [Technisches SEO](https://teleschmie.de/glossar/technisches-seo/).
 
+
+  
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
+  
+  
+    „Wer beim Relaunch aus Bequemlichkeit 302-Redirects setzt oder Weiterleitungsketten baut, verbrennt seinen hart erarbeiteten Linkjuice mutwillig. Ein 301 ist keine unverbindliche Empfehlung, sondern ein glasklarer Marschbefehl an Google und KI-Crawler.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
+    
+      Jörg Zimmer auf LinkedIn folgen →
+    
+  
+
+
 ## Die semantischen Unterschiede: 301 versus 302
 
 Wenn ein Server auf eine URL-Anfrage mit einem 3xx-Code reagiert, liefert er einen `Location`-Header mit der neuen Zieladresse mit. Der Statuscode definiert dabei die Verbindlichkeit für den Index:
@@ -532,6 +558,32 @@ In Zeiten von Answer Engines und RAG-Systemen ist ein sauberes URL-Mapping der b
 Der HTTP-Statuscode **404 Not Found** gehört zu den ältesten und bekanntesten Rückmeldungen des Internets. Wann immer ein Browser oder ein automatisierter Web-Crawler eine URL anfordert, die auf dem Server unter diesem Pfad nicht existiert, signalisiert der Server: Die angeforderte Ressource ist unauffindbar. Im klassischen Webdesign galt eine kreative 404-Fehlerseite lange Zeit als charmantes Detail, um verirrte Nutzer mit einem Augenzwinkern zurück zur Startseite zu navigieren.
 
 In der modernen Suchmaschinenoptimierung und im Zeitalter generativer Sprachmodelle (LLMs) hat sich der Stellenwert von Fehlerseiten jedoch grundlegend verschärft. Autonome Retrieval-Augmented Generation (RAG) Pipelines, Inferenz-Systeme und [Crawler](https://teleschmie.de/glossar/crawler/) reagieren extrem sensibel auf defekte Links. Eine Website mit tausenden ungelösten Statusfehlern riskiert nicht nur den Verlust wertvoller Backlink-Autorität, sondern wird von modernen Algorithmen im [Technischen SEO](https://teleschmie.de/glossar/technisches-seo/) als veraltete, unzuverlässige Informationsquelle eingestuft.
+
+
+  
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
+  
+  
+    „Eine 404-Fehlerseite mit lustigem Maskottchen rettet keinen Umsatz. Wenn Googlebot und KI-Crawler permanent gegen tote Türen rennen, fliegst du schneller aus dem Index, als du ‚PageRank‘ sagen kannst. Saubere Weiterleitungen sind pure Existenzsicherung.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
+    
+      Jörg Zimmer auf LinkedIn folgen →
+    
+  
+
 
 ## Die vier Status-Varianten im technischen Vergleich
 
@@ -714,12 +766,26 @@ Aber das Web, wie wir es kannten, ist tot. Wir befinden uns im Sommer 2026, und 
 
 
   
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
   
+  
+    „Während der Mittelstand noch diskutiert, ob man einen bunten Chatbot auf die Website klatschen soll, verhandeln autonome Agenten bereits Milliardenbudgets im Hintergrund. Wer das A2A-Protokoll ignoriert, schließt seine Website schlichtweg vom globalen B2B-Handel der Zukunft aus.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
     
-      „Während der Mittelstand noch diskutiert, ob man einen bunten Chatbot auf die Website klatschen soll, verhandeln autonome Agenten bereits Milliardenbudgets im Hintergrund. Wer das A2A-Protokoll ignoriert, schließt seine Website schlichtweg vom globalen B2B-Handel der Zukunft aus.“
-    
-    
-      Jörg Zimmer, Senior SEO & AI Search Consultant
+      Jörg Zimmer auf LinkedIn folgen →
     
   
 
@@ -1265,6 +1331,32 @@ Das **Agent Payments Protocol (AP2)** ist ein offener, kryptografischer Industri
 
 Während traditionelle E-Commerce-Zahlungen stets auf der physischen Anwesenheit eines Menschen basieren (Human-Present Transactions mit 3D-Secure, Passwörtern oder biometrischer Face-ID), löst AP2 das fundamentale Sicherheitsproblem sogenannter *Human-Not-Present* (HNP) Transaktionen. Anstatt einem KI-Agenten statische Zahlungsdaten wie Kreditkartennummern oder Bank-Logins anzuvertrauen, etabliert das Protokoll ein feingliedriges System kryptografisch signierter Vollmachten.
 
+
+  
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
+  
+  
+    „Wer glaubt, KI-Agenten würden im E-Commerce künftig noch bunte Warenkörbe durchklicken, verkennt die Realität. Protokolle wie AP2 wickeln Käufe maschinell in Millisekunden ab. Wer keine sauberen Mandate unterstützt, findet im autonomen Handel schlichtweg nicht statt.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
+    
+      Jörg Zimmer auf LinkedIn folgen →
+    
+  
+
+
 ## Historie & Standardisierung in der FIDO Alliance
 
 Ursprünglich Ende 2025 von Google initiiert, wurde das Protokoll im Frühjahr 2026 offiziell an die **FIDO Alliance** übergeben. Ziel dieser Stiftung war es, proprietäre Insellösungen einzelner Technologiegiganten zu verhindern und ein herstellerunabhängiges, interoperables Fundament für maschinelle Bezahlvorgänge zu schaffen. 
@@ -1435,12 +1527,26 @@ Dieses Spiel ist vorbei. Wer im Sommer 2026 noch Webseiten primär für Menschen
 
 
   
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
   
+  
+    „Wer im Jahr 2026 noch Webseiten primär für menschliche Klicks baut, betreibt aktive Unternehmensgefährdung. Wenn autonome KI-Agenten deine Schnittstellen nicht in Millisekunden auslesen können, existierst du im Evaluierungsprozess schlichtweg nicht mehr.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
     
-      „Wer im Jahr 2026 noch Webseiten primär für menschliche Klicks baut, betreibt aktive Unternehmensgefährdung. Wenn autonome KI-Agenten deine Schnittstellen nicht in Millisekunden auslesen können, existierst du im Evaluierungsprozess schlichtweg nicht mehr.“
-    
-    
-      Jörg Zimmer, Senior SEO & AI Search Consultant
+      Jörg Zimmer auf LinkedIn folgen →
     
   
 
@@ -2881,6 +2987,32 @@ Das World Wide Web wurde über Jahrzehnte hinweg primär für menschliche Augen 
 
 Genau an dieser Schnittstelle setzt die Disziplin der **AI Crawlability** an. Sie erweitert das klassische [Technische SEO](https://teleschmie.de/glossar/technisches-seo/) um die Anforderung, digitale Inhalte so zu strukturieren und auszuliefern, dass Large Language Models (LLMs) sie in Millisekunden fehlerfrei erfassen, semantisch segmentieren und als Zitationsquelle in KI-Antworten einbinden können.
 
+
+  
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
+  
+  
+    „KI-Crawler wie GPTBot oder ClaudeBot haben keine Geduld für 5 MB JavaScript-Ballast oder clientseitige Hydration. Wer in Echtzeit von Answer Engines zitiert werden will, muss Text und Fakten im Quelltext liefern – pur, semantisch und ohne Latenzen.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
+    
+      Jörg Zimmer auf LinkedIn folgen →
+    
+  
+
+
 ## Was unterscheidet AI Crawlability vom klassischen Crawling?
 
 Klassische Suchmaschinen-Crawler wie der Googlebot verfügen über gigantische Rechenzentren und betreiben ein zweistufiges Indizierungsmodell: In der ersten Phase wird das rohe HTML gecrawlt, in der zweiten Phase führt ein Headless-Browser das JavaScript aus (Web Rendering Service). Dieser Prozess kann Stunden oder Tage dauern.
@@ -3047,6 +3179,32 @@ Einen Marktüberblick über spezialisierte Tools zur Überwachung Ihrer generati
 Im Frühjahr 2023 glich die Stimmung in der Tech- und SEO-Welt einem Goldrausch. OpenAI hatte Plugins für ChatGPT vorgestellt, und fast jedes Marketing-Medium verkündete das Entstehen des nächsten gigantischen App Stores. Das Versprechen lautete: Wer eine unscheinbare Datei namens **`ai-plugin.json`** im Verzeichnis `.well-known` seines Servers platziert, katapultiert sein Unternehmen direkt in das operative Zentrum moderner generativer KI-Assistenten.
 
 Heute zeigt sich die Realität ernüchternd: Das ursprüngliche Plugin-Ökosystem von OpenAI wurde im April 2024 endgültig beerdigt. Die Datei `ai-plugin.json` ist ein technologisches Relikt der ersten experimentellen KI-Welle. Warum dieses proprietäre System so rasch kollabierte, welche Nachfolgetechnologien wie GPT Actions, das [Model Context Protocol (MCP)](https://teleschmie.de/glossar/model-context-protocol-mcp/) und moderne Agent Plugins heute den Ton angeben und worauf Unternehmen bei der [AI Search Engine](https://teleschmie.de/glossar/ai-search-engine/) sowie ganzheitlicher [Agent Readiness](https://teleschmie.de/glossar/agent-readiness/) tatsächlich achten müssen, beleuchtet diese detaillierte Analyse.
+
+
+  
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
+    
+  
+  
+    „Proprietäre Plugins waren ein netter Hype, sind aber krachend an der Realität gescheitert. Wer heute noch Zeit in alte JSON-Manifeste steckt, anstatt auf offene Standards wie MCP, strukturierte Daten und echte Agent Readiness zu setzen, reitet ein totes Pferd.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
+    
+      Jörg Zimmer auf LinkedIn folgen →
+    
+  
+
 
 ## Anatomie und ursprünglicher Zweck der ai-plugin.json
 
@@ -4049,23 +4207,26 @@ Viel entscheidender für den unternehmerischen Erfolg ist die qualitative Frage:
 
 
   
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
     
-      <img 
-        src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-        alt="Jörg Zimmer Porträt" 
-        class="w-full h-full object-cover"
-        loading="lazy"
-        width="96"
-        height="96"
-      />
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
     
+  
+  
+    „Sichtbarkeit in Sprachmodellen ist zweischneidig. Wer nur darauf optimiert, dass die KI den Firmennamen ausspuckt, erlebt oft ein böses Erwachen. Wenn das Sprachmodell deine Marke mit negativen Attributen verknüpft, ist jede Nennung reine Anti-Werbung. Sentiment ist der wahre Hebel.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
     
-      
-        "Sichtbarkeit in Sprachmodellen ist zweischneidig. Wer nur darauf optimiert, dass die KI den Firmennamen ausspuckt, erlebt oft ein böses Erwachen. Wenn das Sprachmodell deine Entität mit negativen Assoziationen verknüpft, fungiert jede Nennung als Anti-Werbung. Die gezielte Analyse des Marken-Sentiments ist deshalb die unverzichtbare Ergänzung für jedes moderne Reputationsmanagement."
-      
-      
-        — Jörg Zimmer, Senior SEO & AI Consultant
-      
+      Jörg Zimmer auf LinkedIn folgen →
     
   
 
@@ -8461,23 +8622,26 @@ Wer im Zeitalter der [AI Search](https://teleschmie.de/glossar/ai-search/) beste
 
 
   
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
     
-      <img 
-        src="/assets/images/profile/joerg-zimmer-portrait.webp" 
-        alt="Jörg Zimmer Porträt" 
-        class="w-full h-full object-cover"
-        loading="lazy"
-        width="96"
-        height="96"
-      />
+      Jörg Zimmer
+      Senior SEO & AI Search Consultant
     
+  
+  
+    „In der Ära der Answer Engines ist die Citation Frequency die neue Leitwährung. Rankings auf Seite 1 interessieren niemanden mehr, wenn 60 % der Nutzer die Antwort direkt im KI-Chat konsumieren. Wer dort nicht als zitierte Quelle auftaucht, findet im Entscheidungsprozess schlicht nicht statt.“
+  
+  
+    Experten-Zitat • Jörg Zimmer
     
-      
-        "In der Ära der Answer Engines ist die Citation Frequency die neue Leitwährung. Rankings auf Seite 1 interessieren niemanden mehr, wenn 60 % der Nutzer die Antwort direkt im KI-Chat konsumieren. Wer dort nicht als zitierte Quelle auftaucht, findet im Entscheidungsprozess schlicht nicht statt."
-      
-      
-        — Jörg Zimmer, Senior SEO & AI Consultant
-      
+      Jörg Zimmer auf LinkedIn folgen →
     
   
 

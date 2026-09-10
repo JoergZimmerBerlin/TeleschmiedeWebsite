@@ -27,6 +27,32 @@ Im Frühjahr 2023 glich die Stimmung in der Tech- und SEO-Welt einem Goldrausch.
 
 Heute zeigt sich die Realität ernüchternd: Das ursprüngliche Plugin-Ökosystem von OpenAI wurde im April 2024 endgültig beerdigt. Die Datei `ai-plugin.json` ist ein technologisches Relikt der ersten experimentellen KI-Welle. Warum dieses proprietäre System so rasch kollabierte, welche Nachfolgetechnologien wie GPT Actions, das [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/) und moderne Agent Plugins heute den Ton angeben und worauf Unternehmen bei der [AI Search Engine](/glossar/ai-search-engine/) sowie ganzheitlicher [Agent Readiness](/glossar/agent-readiness/) tatsächlich achten müssen, beleuchtet diese detaillierte Analyse.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „Proprietäre Plugins waren ein netter Hype, sind aber krachend an der Realität gescheitert. Wer heute noch Zeit in alte JSON-Manifeste steckt, anstatt auf offene Standards wie MCP, strukturierte Daten und echte Agent Readiness zu setzen, reitet ein totes Pferd.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Anatomie und ursprünglicher Zweck der ai-plugin.json
 
 Große Sprachmodelle (Large Language Models) besitzen ein fundamentales Architekturmerkmal: Sie verarbeiten und generieren Textmuster auf Basis historischer Trainingsdaten, können jedoch ohne externe Erweiterungen weder Live-Daten abrufen noch Aktionen in externen Systemen auslösen. Sie besitzen gewissermaßen keine eigenen Arme und Beine für das Internet.

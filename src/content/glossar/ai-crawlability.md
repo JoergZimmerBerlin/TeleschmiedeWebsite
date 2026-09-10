@@ -27,6 +27,32 @@ Das World Wide Web wurde über Jahrzehnte hinweg primär für menschliche Augen 
 
 Genau an dieser Schnittstelle setzt die Disziplin der **AI Crawlability** an. Sie erweitert das klassische [Technische SEO](/glossar/technisches-seo/) um die Anforderung, digitale Inhalte so zu strukturieren und auszuliefern, dass Large Language Models (LLMs) sie in Millisekunden fehlerfrei erfassen, semantisch segmentieren und als Zitationsquelle in KI-Antworten einbinden können.
 
+<figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+  <div class="flex items-center gap-4 mb-4">
+    <img 
+      src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+      alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+      class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+      width="56" 
+      height="56" 
+      loading="lazy"
+    />
+    <div>
+      <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+      <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+    </div>
+  </div>
+  <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+    „KI-Crawler wie GPTBot oder ClaudeBot haben keine Geduld für 5 MB JavaScript-Ballast oder clientseitige Hydration. Wer in Echtzeit von Answer Engines zitiert werden will, muss Text und Fakten im Quelltext liefern – pur, semantisch und ohne Latenzen.“
+  </blockquote>
+  <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+    <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+    <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1">
+      Jörg Zimmer auf LinkedIn folgen →
+    </a>
+  </figcaption>
+</figure>
+
 ## Was unterscheidet AI Crawlability vom klassischen Crawling?
 
 Klassische Suchmaschinen-Crawler wie der Googlebot verfügen über gigantische Rechenzentren und betreiben ein zweistufiges Indizierungsmodell: In der ersten Phase wird das rohe HTML gecrawlt, in der zweiten Phase führt ein Headless-Browser das JavaScript aus (Web Rendering Service). Dieser Prozess kann Stunden oder Tage dauern.

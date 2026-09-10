@@ -5966,8 +5966,6 @@ Damit Sprachmodelle deine Marke zweifelsfrei identifizieren und bei themenbezoge
       "name": "Deine Agentur",
       "url": "https://deinedomain.de/",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q12345678",
-        "https://de.wikipedia.org/wiki/Dein_Unternehmen",
         "https://www.linkedin.com/company/deine-agentur/"
       ],
       "knowsAbout": [
@@ -6535,11 +6533,10 @@ Um Suchmaschinen und AI-Crawlern unmissverständlich zu belegen, wer hinter eine
   "name": "Dein Expertenname",
   "jobTitle": "Senior Fachexperte & Fachautor",
   "description": "Experte mit langjähriger Praxiserfahrung und nachweisbaren Branchen-Publikationen.",
-  "url": "https://teleschmie.de/ueber-uns/joerg-zimmer/",
+  "url": "https://teleschmie.de/ueber-mich/",
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.wikidata.org/wiki/Q12345",
-    "https://github.com/dein-account"
+    "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
     "Hauptdisziplin",
@@ -7476,10 +7473,9 @@ Damit KI-Agenten und Suchmaschinen eine Marke eindeutig als autoritative Entitä
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "MusterBrand Technologies",
-  "url": "https://teleschmie.de/",
-  "logo": "https://teleschmie.de/assets/brand-logo.webp",
+  "url": "https://[deine-domain.de]/",
+  "logo": "https://[deine-domain.de]/assets/brand-logo.webp",
   "sameAs": [
-    "https://www.wikidata.org/wiki/Q00000000",
     "https://www.linkedin.com/company/musterbrand/",
     "https://de.wikipedia.org/wiki/MusterBrand"
   ],
@@ -11386,12 +11382,11 @@ Die **Disambiguierung** beseitigt diese Unklarheiten direkt im Quellcode:
 {
   "@context": "https://schema.org",
   "@type": "ConsultingService",
-  "@id": "https://teleschmie.de/#organization",
+  "@id": "https://[deine-domain.de]/#organization",
   "name": "Falke Consulting",
-  "url": "https://teleschmie.de/",
+  "url": "https://[deine-domain.de]/",
   "sameAs": [
-    "https://www.linkedin.com/company/falke-consulting/",
-    "https://www.wikidata.org/wiki/Q98765432"
+    "https://www.linkedin.com/company/falke-consulting/"
   ],
   "knowsAbout": [
     "Unternehmensberatung",
@@ -11571,9 +11566,8 @@ Die Bereitstellung maschinenlesbarer Daten erfolgt über verschachtelte JSON-LD-
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q98765432",
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-        "https://www.crunchbase.com/organization/teleschmiede"
+        "https://github.com/JoergZimmerBerlin"
       ],
       "founder": {
         "@type": "Person",
@@ -11581,12 +11575,12 @@ Die Bereitstellung maschinenlesbarer Daten erfolgt über verschachtelte JSON-LD-
         "name": "Jörg Zimmer",
         "jobTitle": "Senior SEO & AI Search Consultant",
         "sameAs": [
-          "https://www.wikidata.org/wiki/Q12345678",
-          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+          "https://github.com/JoergZimmerBerlin"
         ],
         "knowsAbout": [
-          "https://www.wikidata.org/wiki/Q184199",
-          "https://www.wikidata.org/wiki/Q11661"
+          "https://www.wikidata.org/wiki/Q180711",
+          "https://www.wikidata.org/wiki/Q134083964"
         ]
       }
     }
@@ -11951,7 +11945,6 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q00000000",
         "https://www.linkedin.com/company/musterfirma-digital/"
       ],
       "knowsAbout": [
@@ -12500,8 +12493,8 @@ Das folgende Listing zeigt die Einbindung einer Autoren-Entität mit verifiziert
     "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
-    "https://www.wikidata.org/wiki/Q184199",
-    "https://www.wikidata.org/wiki/Q11661"
+    "https://www.wikidata.org/wiki/Q180711",
+    "https://www.wikidata.org/wiki/Q134083964"
   ],
   "hasCredential": [
     {
@@ -16218,7 +16211,7 @@ Das folgende Beispiel demonstriert, wie ein valides JSON-LD-Snippet für ein Ber
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-        "https://www.wikidata.org/wiki/Q12345678"
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {
@@ -16755,19 +16748,19 @@ Damit Suchmaschinen-Crawler die behandelten Entitäten und Konzepte ohne Interpr
     {
       "@type": "Thing",
       "name": "Semantische Suche",
-      "sameAs": "https://www.wikidata.org/wiki/Q2269090"
+      "sameAs": "https://www.wikidata.org/wiki/Q1891170"
     },
     {
       "@type": "Thing",
       "name": "Wortvektor",
-      "sameAs": "https://www.wikidata.org/wiki/Q28530338"
+      "sameAs": "https://www.wikidata.org/wiki/Q18395344"
     }
   ],
   "mentions": [
     {
       "@type": "Thing",
       "name": "Cosinus-Ähnlichkeit",
-      "sameAs": "https://www.wikidata.org/wiki/Q381395"
+      "sameAs": "https://www.wikidata.org/wiki/Q1784941"
     }
   ]
 }
@@ -17508,8 +17501,8 @@ Das folgende neutrale Schema.org-Markup demonstriert, wie Sie Produkt- oder Dien
       "name": "Teleschmiede",
       "url": "https://teleschmie.de/",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q00000000",
-        "https://www.linkedin.com/company/teleschmiede/"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {
@@ -29184,7 +29177,7 @@ Das folgende Code-Snippet demonstriert, wie ein Fachartikel über Semantic SEO s
     {
       "@type": "Thing",
       "name": "Semantic Search",
-      "sameAs": "https://www.wikidata.org/wiki/Q1056584"
+      "sameAs": "https://www.wikidata.org/wiki/Q1891170"
     },
     {
       "@type": "Thing",
@@ -31584,9 +31577,8 @@ Damit moderne Crawling-Systeme und Sichtbarkeits-Tracker deine Marke zweifelsfre
   "url": "https://teleschmie.de/",
   "logo": "https://teleschmie.de/assets/logo.png",
   "sameAs": [
-    "https://www.wikidata.org/wiki/Q987654321",
-    "https://www.linkedin.com/company/teleschmiede/",
-    "https://de.wikipedia.org/wiki/Teleschmiede"
+    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+    "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
     "Generative Engine Optimization",
@@ -31757,8 +31749,8 @@ Erfolgreiches Management beginnt auf Code-Ebene. KI-Agenten und Suchmaschinen-Al
       "name": "Teleschmiede",
       "url": "https://teleschmie.de/",
       "sameAs": [
-        "https://www.linkedin.com/company/teleschmiede/",
-        "https://www.wikidata.org/wiki/Q123456"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {
@@ -32850,8 +32842,8 @@ Das folgende neutrale Beispiel demonstriert den Aufbau eines modernen, vernetzte
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/logo.webp",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q000000",
-        "https://www.linkedin.com/company/teleschmiede/"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {
@@ -33277,9 +33269,8 @@ Das folgende produktionsreife JSON-LD-Beispiel demonstriert die relationale Verk
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/logo.png",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q12345",
-        "https://www.linkedin.com/company/teleschmiede/",
-        "https://github.com/teleschmiede"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {
@@ -34372,7 +34363,7 @@ Mit der Flut synthetisch generierter Texte gewinnt die Nachverfolgbarkeit von In
   },
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.wikidata.org/wiki/Q12345678"
+    "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
     "Search Engine Optimization",

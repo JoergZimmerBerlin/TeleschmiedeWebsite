@@ -120,19 +120,19 @@ Damit Suchmaschinen-Crawler die behandelten Entitäten und Konzepte ohne Interpr
     {
       "@type": "Thing",
       "name": "Semantische Suche",
-      "sameAs": "https://www.wikidata.org/wiki/Q2269090"
+      "sameAs": "https://www.wikidata.org/wiki/Q1891170"
     },
     {
       "@type": "Thing",
       "name": "Wortvektor",
-      "sameAs": "https://www.wikidata.org/wiki/Q28530338"
+      "sameAs": "https://www.wikidata.org/wiki/Q18395344"
     }
   ],
   "mentions": [
     {
       "@type": "Thing",
       "name": "Cosinus-Ähnlichkeit",
-      "sameAs": "https://www.wikidata.org/wiki/Q381395"
+      "sameAs": "https://www.wikidata.org/wiki/Q1784941"
     }
   ]
 }

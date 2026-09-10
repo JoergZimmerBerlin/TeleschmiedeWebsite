@@ -123,9 +123,8 @@ Das folgende produktionsreife JSON-LD-Beispiel demonstriert die relationale Verk
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/logo.png",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q12345",
-        "https://www.linkedin.com/company/teleschmiede/",
-        "https://github.com/teleschmiede"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {

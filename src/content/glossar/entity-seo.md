@@ -112,7 +112,6 @@ Das folgende neutrale JSON-LD-Beispiel demonstriert die Modellierung einer Organ
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q00000000",
         "https://www.linkedin.com/company/musterfirma-digital/"
       ],
       "knowsAbout": [

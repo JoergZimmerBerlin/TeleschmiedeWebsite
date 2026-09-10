@@ -127,8 +127,6 @@ Damit Sprachmodelle deine Marke zweifelsfrei identifizieren und bei themenbezoge
       "name": "Deine Agentur",
       "url": "https://deinedomain.de/",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q12345678",
-        "https://de.wikipedia.org/wiki/Dein_Unternehmen",
         "https://www.linkedin.com/company/deine-agentur/"
       ],
       "knowsAbout": [

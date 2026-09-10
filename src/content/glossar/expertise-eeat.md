@@ -126,8 +126,8 @@ Das folgende Listing zeigt die Einbindung einer Autoren-Entität mit verifiziert
     "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
-    "https://www.wikidata.org/wiki/Q184199",
-    "https://www.wikidata.org/wiki/Q11661"
+    "https://www.wikidata.org/wiki/Q180711",
+    "https://www.wikidata.org/wiki/Q134083964"
   ],
   "hasCredential": [
     {

@@ -110,10 +110,9 @@ Damit KI-Agenten und Suchmaschinen eine Marke eindeutig als autoritative Entitä
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "MusterBrand Technologies",
-  "url": "https://teleschmie.de/",
-  "logo": "https://teleschmie.de/assets/brand-logo.webp",
+  "url": "https://[deine-domain.de]/",
+  "logo": "https://[deine-domain.de]/assets/brand-logo.webp",
   "sameAs": [
-    "https://www.wikidata.org/wiki/Q00000000",
     "https://www.linkedin.com/company/musterbrand/",
     "https://de.wikipedia.org/wiki/MusterBrand"
   ],

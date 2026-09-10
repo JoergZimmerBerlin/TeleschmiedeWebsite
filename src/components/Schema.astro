@@ -216,6 +216,7 @@ const businessEntity: any = {
   "@id": businessId,
   "additionalType": "https://www.wikidata.org/wiki/Q180711",
   "name": "Jörg Zimmer - SEO, GEO, AI Visibility Freelancer",
+  "alternateName": "Teleschmiede",
   "description": description || "Individuelle SEO, GEO, AI Visibility Beratung mit über 25 Jahren Erfahrung.",
   "url": siteUrl,
   "knowsAbout": personEntity.knowsAbout,
@@ -358,6 +359,19 @@ if (absoluteImageUrl) {
 
 // Add Article/Glossary/About specific data to graph
 if (type === 'article') {
+  const termSetId = `${siteUrl}/glossar/#termset`;
+
+  // Cross-reference the central DefinedTermSet from the Glossary
+  graph.push({
+    "@type": "DefinedTermSet",
+    "@id": termSetId,
+    "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
+    "description": "Experten-Glossar für Suchmaschinenoptimierung und Performance Marketing",
+    "url": `${siteUrl}/glossar/`,
+    "author": { "@id": personId },
+    "publisher": { "@id": businessId }
+  });
+
   const blogPostingNode: any = {
     "@type": "BlogPosting",
     "headline": title,
@@ -374,10 +388,18 @@ if (type === 'article') {
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@id": url },
+    "isPartOf": { "@id": websiteId },
     "isAccessibleForFree": true
   };
   if (category) blogPostingNode.articleSection = category;
-  if (tags && tags.length > 0) blogPostingNode.keywords = tags.join(", ");
+  if (tags && tags.length > 0) {
+    blogPostingNode.keywords = tags.join(", ");
+    blogPostingNode.about = tags.map(tag => ({
+      "@type": "DefinedTerm",
+      "name": tag,
+      "inDefinedTermSet": { "@id": termSetId }
+    }));
+  }
   if (keyTakeaways && keyTakeaways.length > 0) blogPostingNode.abstract = keyTakeaways.map(t => cleanText(t)).join(" ");
   graph.push(blogPostingNode);
 } else if (type === 'glossary') {

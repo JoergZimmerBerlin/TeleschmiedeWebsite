@@ -120,7 +120,7 @@ Das folgende Beispiel demonstriert, wie ein valides JSON-LD-Snippet für ein Ber
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-        "https://www.wikidata.org/wiki/Q12345678"
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {

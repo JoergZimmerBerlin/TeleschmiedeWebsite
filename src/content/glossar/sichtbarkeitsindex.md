@@ -119,9 +119,8 @@ Damit moderne Crawling-Systeme und Sichtbarkeits-Tracker deine Marke zweifelsfre
   "url": "https://teleschmie.de/",
   "logo": "https://teleschmie.de/assets/logo.png",
   "sameAs": [
-    "https://www.wikidata.org/wiki/Q987654321",
-    "https://www.linkedin.com/company/teleschmiede/",
-    "https://de.wikipedia.org/wiki/Teleschmiede"
+    "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+    "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
     "Generative Engine Optimization",

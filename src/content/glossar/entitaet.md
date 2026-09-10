@@ -105,12 +105,11 @@ Die **Disambiguierung** beseitigt diese Unklarheiten direkt im Quellcode:
 {
   "@context": "https://schema.org",
   "@type": "ConsultingService",
-  "@id": "https://teleschmie.de/#organization",
+  "@id": "https://[deine-domain.de]/#organization",
   "name": "Falke Consulting",
-  "url": "https://teleschmie.de/",
+  "url": "https://[deine-domain.de]/",
   "sameAs": [
-    "https://www.linkedin.com/company/falke-consulting/",
-    "https://www.wikidata.org/wiki/Q98765432"
+    "https://www.linkedin.com/company/falke-consulting/"
   ],
   "knowsAbout": [
     "Unternehmensberatung",

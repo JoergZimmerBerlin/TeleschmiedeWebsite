@@ -112,9 +112,8 @@ Die Bereitstellung maschinenlesbarer Daten erfolgt über verschachtelte JSON-LD-
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/images/profile/joerg-zimmer-portrait.webp",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q98765432",
         "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-        "https://www.crunchbase.com/organization/teleschmiede"
+        "https://github.com/JoergZimmerBerlin"
       ],
       "founder": {
         "@type": "Person",
@@ -122,12 +121,12 @@ Die Bereitstellung maschinenlesbarer Daten erfolgt über verschachtelte JSON-LD-
         "name": "Jörg Zimmer",
         "jobTitle": "Senior SEO & AI Search Consultant",
         "sameAs": [
-          "https://www.wikidata.org/wiki/Q12345678",
-          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
+          "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+          "https://github.com/JoergZimmerBerlin"
         ],
         "knowsAbout": [
-          "https://www.wikidata.org/wiki/Q184199",
-          "https://www.wikidata.org/wiki/Q11661"
+          "https://www.wikidata.org/wiki/Q180711",
+          "https://www.wikidata.org/wiki/Q134083964"
         ]
       }
     }

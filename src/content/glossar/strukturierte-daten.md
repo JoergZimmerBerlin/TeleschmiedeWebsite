@@ -109,8 +109,8 @@ Das folgende neutrale Beispiel demonstriert den Aufbau eines modernen, vernetzte
       "url": "https://teleschmie.de/",
       "logo": "https://teleschmie.de/assets/logo.webp",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q000000",
-        "https://www.linkedin.com/company/teleschmiede/"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {

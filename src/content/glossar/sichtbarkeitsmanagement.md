@@ -106,8 +106,8 @@ Erfolgreiches Management beginnt auf Code-Ebene. KI-Agenten und Suchmaschinen-Al
       "name": "Teleschmiede",
       "url": "https://teleschmie.de/",
       "sameAs": [
-        "https://www.linkedin.com/company/teleschmiede/",
-        "https://www.wikidata.org/wiki/Q123456"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {

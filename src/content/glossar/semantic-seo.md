@@ -130,7 +130,7 @@ Das folgende Code-Snippet demonstriert, wie ein Fachartikel über Semantic SEO s
     {
       "@type": "Thing",
       "name": "Semantic Search",
-      "sameAs": "https://www.wikidata.org/wiki/Q1056584"
+      "sameAs": "https://www.wikidata.org/wiki/Q1891170"
     },
     {
       "@type": "Thing",

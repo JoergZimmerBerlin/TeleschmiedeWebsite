@@ -140,7 +140,7 @@ Mit der Flut synthetisch generierter Texte gewinnt die Nachverfolgbarkeit von In
   },
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.wikidata.org/wiki/Q12345678"
+    "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
     "Search Engine Optimization",

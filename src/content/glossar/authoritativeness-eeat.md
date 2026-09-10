@@ -104,11 +104,10 @@ Um Suchmaschinen und AI-Crawlern unmissverständlich zu belegen, wer hinter eine
   "name": "Dein Expertenname",
   "jobTitle": "Senior Fachexperte & Fachautor",
   "description": "Experte mit langjähriger Praxiserfahrung und nachweisbaren Branchen-Publikationen.",
-  "url": "https://teleschmie.de/ueber-uns/joerg-zimmer/",
+  "url": "https://teleschmie.de/ueber-mich/",
   "sameAs": [
     "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
-    "https://www.wikidata.org/wiki/Q12345",
-    "https://github.com/dein-account"
+    "https://github.com/JoergZimmerBerlin"
   ],
   "knowsAbout": [
     "Hauptdisziplin",

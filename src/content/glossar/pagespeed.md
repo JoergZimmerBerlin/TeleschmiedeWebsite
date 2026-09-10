@@ -4,7 +4,7 @@ title: "PageSpeed: Core Web Vitals & Latenz im Griff"
 meta_title: "PageSpeed: Core Web Vitals & Latenz (2026)"
 description: "PageSpeed optimieren: LCP, INP und TTFB beherrschen. Wie Edge-CDNs und Latenz-Tuning Google-Rankings und KI-Crawlability sichern. (2026)"
 meta_description: "PageSpeed optimieren: LCP, INP und TTFB beherrschen. Wie Edge-CDNs und Latenz-Tuning Google-Rankings und KI-Crawlability sichern. (2026)"
-sameAs: "https://www.wikidata.org/wiki/Q1056586"
+sameAs: "https://www.wikidata.org/wiki/Q7978612"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["crawling-vs-indexing", "technisches-seo", "content-delivery-network"]

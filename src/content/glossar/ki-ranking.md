@@ -120,8 +120,8 @@ Das folgende neutrale Schema.org-Markup demonstriert, wie Sie Produkt- oder Dien
       "name": "Teleschmiede",
       "url": "https://teleschmie.de/",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q00000000",
-        "https://www.linkedin.com/company/teleschmiede/"
+        "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+        "https://github.com/JoergZimmerBerlin"
       ]
     },
     {

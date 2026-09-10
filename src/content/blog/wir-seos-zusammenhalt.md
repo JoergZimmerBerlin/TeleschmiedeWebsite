@@ -84,8 +84,8 @@ Genau hier entfaltet unser Zusammenhalt seine Hebelwirkung. Wenn wir als Netzwer
 ## Professionelles Tooling als Basis für Vertrauen
 
 Wer seriöse Optimierung betreibt, braucht belastbare Daten. Um Kunden fundierte Analysen zu liefern und die [GEO-Welle in der Suche](/blog/seo-wird-groesser-geo-welle/) präzise zu steuern, setzen wir auf professionelle Werkzeuge:
-- Für tiefgehende technische Audits, Backlink-Prüfungen und Wettbewerbsanalysen nutzen wir täglich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>.
-- Um die Sichtbarkeit in generativen KI-Antworten und Sprachmodellen zu messen, liefert <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die notwendigen Monitoring-Metriken.
+- Für tiefgehende technische Audits, Backlink-Prüfungen und Wettbewerbsanalysen nutzen wir täglich <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a>.
+- Um die Sichtbarkeit in generativen KI-Antworten und Sprachmodellen zu messen, liefert <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> die notwendigen Monitoring-Metriken.
 
 Solche Werkzeuge schaffen Transparenz. Sie beweisen schwarz auf weiß, wo Hebel liegen und trennen handfeste Fakten von substanzloser Meinungsmache.
 

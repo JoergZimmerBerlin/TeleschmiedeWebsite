@@ -23,9 +23,9 @@ faqs:
     answer: "Ja, genau dafür ist die REST-API gedacht. Nutzer des Growth- und Enterprise-Plans können die Rohdaten automatisiert abrufen und in Looker Studio, PowerBI oder interne Data Warehouses einspeisen."
 ---
 
-Wer mich kennt, weiß: Ich teste SEO-Tools nicht nur oberflächlich – ich quäle sie im harten Agentur- und Kundenalltag. Und wenn ein Entwicklerteam so konsequent und zügig neue Lösungen liefert wie die Macher von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">Rankscale</a>, dann müssen wir uns die Neuerungen im Berliner Klartext anschauen.
+Wer mich kennt, weiß: Ich teste SEO-Tools nicht nur oberflächlich – ich quäle sie im harten Agentur- und Kundenalltag. Und wenn ein Entwicklerteam so konsequent und zügig neue Lösungen liefert wie die Macher von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">Rankscale (Partnerlink)</a>, dann müssen wir uns die Neuerungen im Berliner Klartext anschauen.
 
-Die Welt der generativen Suchmaschinen dreht sich mit atemberaubender Geschwindigkeit. Mit dem neuesten Release stellt [Rankscale](https://rankscale.ai/?via=offer) unter Beweis, dass sie nicht nur am Markt mitspielen, sondern den Maßstab für professionelle [GEO-Optimierung](/glossar/geo-optimierung/) definieren wollen.
+Die Welt der generativen Suchmaschinen dreht sich mit atemberaubender Geschwindigkeit. Mit dem neuesten Release stellt [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) unter Beweis, dass sie nicht nur am Markt mitspielen, sondern den Maßstab für professionelle [GEO-Optimierung](/glossar/geo-optimierung/) definieren wollen.
 
 ## Die 4 Kern-Neuerungen des großen Plattform-Updates
 
@@ -109,7 +109,7 @@ Wenn du deine generative Sichtbarkeit systematisch ausbauen möchtest:
   </p>
   <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-    <span>Rankscale Pakete & Preise ansehen</span>
+    <span>Rankscale Pakete & Preise ansehen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

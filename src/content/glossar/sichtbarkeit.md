@@ -82,7 +82,7 @@ Die neue Dimension beschreibt, wie häufig, in welchem Kontext und mit welchem S
 | **Nutzerinteraktion** | Klick auf blaues Link-Snippet | Zero-Click-Antwort mit Quellenfußnote |
 | **Relevanzfaktor** | Keyword-Dichte & Backlink-Stärke | Semantische Entitäten & Faktentreue |
 | **Optimierungsfokus** | Onpage, Meta-Tags & Ladezeiten | Informationsdichte, [GEO Optimierung](/glossar/geo-optimierung/) |
-| **Führende Tools** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (Rank Tracker & Audit) | [Rankscale](https://rankscale.ai/?via=offer) & LLM-Prompt-Monitoring |
+| **Führende Tools** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (Rank Tracker & Audit) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) & LLM-Prompt-Monitoring |
 
 ---
 
@@ -165,7 +165,7 @@ In Beratungsprojekten begegnen mir regelmäßig strategische Fehlannahmen, die d
 
 1. **Reine Fokussierung auf historische Keyword-Rankings:** Unternehmen optimieren starr auf Suchbegriffe mit hohem Suchvolumen, ohne zu prüfen, ob die SERP bereits vollständig von AI Overviews dominiert wird. Wer den Klickverlust bei reinen Definitionsfragen nicht einplant, wird von sinkenden Traffic-Kurven überrascht.
 2. **Ignorieren von E-E-A-T und Originaldaten:** Wer rein synthetische KI-Texte ohne eigene Praxisdaten publiziert, bietet Sprachmodellen keinen Mehrwert. KIs zitieren nur Inhalte, die neue Fakten, Zitate oder Fallstudien liefern.
-3. **Mangelndes Monitoring von KI-Zitationen:** Wer lediglich traditionelle SEO-Suiten nutzt, bemerkt nicht, wenn Wettbewerber in Chat-Antworten als präferierte Dienstleister empfohlen werden. Ein ganzheitliches Tracking über [Rankscale](https://rankscale.ai/?via=offer) und [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist unerlässlich.
+3. **Mangelndes Monitoring von KI-Zitationen:** Wer lediglich traditionelle SEO-Suiten nutzt, bemerkt nicht, wenn Wettbewerber in Chat-Antworten als präferierte Dienstleister empfohlen werden. Ein ganzheitliches Tracking über [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) und [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) ist unerlässlich.
 4. **Fehlende Differenzierung zwischen Traffic und Vertrauen:** Hundert qualifizierte Zitationen in branchenspezifischen KI-Assistenten können für B2B-Unternehmen wirtschaftlich wertvoller sein als zehntausend flüchtige Besucher auf einer generischen Glossarseite.
 
 ---

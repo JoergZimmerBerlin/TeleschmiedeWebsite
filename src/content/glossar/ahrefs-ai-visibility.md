@@ -27,7 +27,7 @@ Lange Zeit galt der Blick in das organische Backlink-Profil und die Keyword-Posi
 
 Für Marken entsteht dadurch ein massiver blinder Fleck: Wer in den synthetisierten Antworten führender Sprachmodelle (LLMs) nicht auftaucht, existiert für eine rasant wachsende Käuferschicht schlichtweg nicht mehr.
 
-**Ahrefs**, einer der globalen Marktführer für SEO-Infrastruktur mit Sitz in Singapur, hat diese Marktentwicklung frühzeitig adressiert. Mit dem Launch des **Ahrefs Brand Radar** bindet das Unternehmen das [KI-Sichtbarkeits-Monitoring](/glossar/ki-sichtbarkeit/) nahtlos an seine gigantischen Datenbestände an. In diesem Fachbeitrag untersuchen wir die Funktionsweise des Moduls, beleuchten den Nutzen sogenannter *Search-backed Prompts* und vergleichen die Lösung mit Alternativen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer).
+**Ahrefs**, einer der globalen Marktführer für SEO-Infrastruktur mit Sitz in Singapur, hat diese Marktentwicklung frühzeitig adressiert. Mit dem Launch des **Ahrefs Brand Radar** bindet das Unternehmen das [KI-Sichtbarkeits-Monitoring](/glossar/ki-sichtbarkeit/) nahtlos an seine gigantischen Datenbestände an. In diesem Fachbeitrag untersuchen wir die Funktionsweise des Moduls, beleuchten den Nutzen sogenannter *Search-backed Prompts* und vergleichen die Lösung mit Alternativen wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer).
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 rounded-2xl flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
   <img 
@@ -91,7 +91,7 @@ Wie viel Raum nimmt Ihr Unternehmen im Vergleich zu Ihren drei bis fünf schärf
 
 Je nach Budget, Zielsetzung und Inhouse-Kompetenz bieten unterschiedliche Plattformen spezifische Stärken für das generative Monitoring:
 
-| Bewertungskriterium | Ahrefs Brand Radar | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (SE Visible) | [Rankscale](https://rankscale.ai/?via=offer) (GEO Specialist) |
+| Bewertungskriterium | Ahrefs Brand Radar | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (SE Visible) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (GEO Specialist) |
 | :--- | :--- | :--- | :--- |
 | **Primärer Ansatz** | Stark datengetriebenes Enterprise-Monitoring | All-in-One Suite mit flexiblem KI-Modul | Hochgradig spezialisierte Pure-Play GEO-Plattform |
 | **Prompt-Basis** | 400M+ Search-backed Prompts + Custom Prompts | Dynamische Prompts & SERP-Overlap-Tracking | Granulare Prompts über 17+ spezialisierte KI-Engines |

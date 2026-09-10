@@ -26,9 +26,9 @@ faqs:
     answer: "Ja, über einen Partnerlink kannst du SE Ranking 14 Tage lang kostenlos testen, ohne eine Kreditkarte hinterlegen zu müssen."
 ---
 
-Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
+Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
 
-Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig (lies dazu auch meinen ausführlichen Vergleich [Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/)). Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 25 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist aktuell einer der Player, der den Markt ordentlich aufmischt.
+Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a> auf den ersten Blick fast schon zu günstig (lies dazu auch meinen ausführlichen Vergleich [Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/)). Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 25 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) ist aktuell einer der Player, der den Markt ordentlich aufmischt.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
@@ -56,13 +56,13 @@ Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt di
   </figcaption>
 </figure>
 
-Deshalb habe ich mir die aktuellen **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Preise** für 2026 mal ganz genau angeschaut. Schnapp dir einen Kaffee, wir gehen tief in die Pakete Core und Growth.
+Deshalb habe ich mir die aktuellen **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Preise** für 2026 mal ganz genau angeschaut. Schnapp dir einen Kaffee, wir gehen tief in die Pakete Core und Growth.
 
 ## Warum die Preisgestaltung bei SEO-Tools 2026 komplexer ist als früher
 
 Früher war alles einfach: Man hat primär für reine Keyword-Abfragen bezahlt. Heute, im Jahr 2026, spielt die Musik woanders. Wir reden über AI Visibility im Kontext moderner [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/), Cloud-Ressourcen für Content-Analysen und API-Credits für automatisierte Reportings. SEO-Tools sind heute eher Daten-Ökosysteme. 
 
-[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat das verstanden und seine Tarife so gestrickt, dass sie mit deinen Projekten mitwachsen. Aber genau hier liegt der Hund begraben: Welches Paket "atmet" mit dir mit und welches schnürt dir nur das Budget ab?
+[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) hat das verstanden und seine Tarife so gestrickt, dass sie mit deinen Projekten mitwachsen. Aber genau hier liegt der Hund begraben: Welches Paket "atmet" mit dir mit und welches schnürt dir nur das Budget ab?
 
 ---
 
@@ -70,7 +70,7 @@ Früher war alles einfach: Man hat primär für reine Keyword-Abfragen bezahlt. 
 
 ![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](../../assets/images/blog/se-ranking-core-vs-growth.webp)
 
-[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management – die detaillierte Modul-Übersicht findest du in meinem [SE Ranking Test 2026](/blog/se-ranking-test-2026/).
+[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management – die detaillierte Modul-Übersicht findest du in meinem [SE Ranking Test 2026](/blog/se-ranking-test-2026/).
 
 Hier sind die harten Fakten aus dem aktuellen Preis-Tableau (bei jährlicher Zahlung sparst du übrigens satte 20 %):
 
@@ -101,9 +101,9 @@ Was diesen Tarif wirklich abhebt, sind die **historischen Daten**. Du kannst Tre
 
 ## Warum SE Ranking preislich die Nase vorn hat
 
-Was [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) so attraktiv macht, ist die Flexibilität. Brauchst du mehr Kapazität? Du kannst jederzeit flexibel erweitern, ohne direkt in den nächsten vierstelligen Agentur-Tarif springen zu müssen. In einer Welt, in der Budgets oft kurzfristig angepasst werden, ist das ein riesiger Vorteil.
+Was [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) so attraktiv macht, ist die Flexibilität. Brauchst du mehr Kapazität? Du kannst jederzeit flexibel erweitern, ohne direkt in den nächsten vierstelligen Agentur-Tarif springen zu müssen. In einer Welt, in der Budgets oft kurzfristig angepasst werden, ist das ein riesiger Vorteil.
 
-Besonders hervorzuheben ist die **KI-Integration**. Dass man im Core-Paket bereits 100 Prompts für das tägliche Tracking hat, zeigt, dass [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) den Trend zu AI-SEO verstanden hat. Ich habe darüber neulich erst in meinem Artikel zum [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/) geschrieben – schau da unbedingt mal rein, wenn dich die Zukunft der Suche interessiert. 
+Besonders hervorzuheben ist die **KI-Integration**. Dass man im Core-Paket bereits 100 Prompts für das tägliche Tracking hat, zeigt, dass [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) den Trend zu AI-SEO verstanden hat. Ich habe darüber neulich erst in meinem Artikel zum [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/) geschrieben – schau da unbedingt mal rein, wenn dich die Zukunft der Suche interessiert. 
 
 > Die KI verändert nicht nur, wie wir suchen, sondern auch, wie wir den Erfolg unserer Arbeit messen. Wer heute noch auf "Standard-Rankings" fixiert ist, verliert den Anschluss. – Jörg Zimmer
 
@@ -118,13 +118,13 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 <!-- Partnerlink Box -->
 <div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold !text-white mb-2 !mt-0 !border-none !pb-0">
-    Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-lime-accent hover:underline">SE Ranking</a> 14 Tage kostenlos testen
+    Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-lime-accent hover:underline">SE Ranking (Partnerlink)</a> 14 Tage kostenlos testen
   </h3>
   <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
     Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.
   </p>
   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">
-    <span>Kostenlos Testen starten</span>
+    <span>Kostenlos Testen starten * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
@@ -138,7 +138,7 @@ Meine persönliche Empfehlung nach 25 Jahren im Business:
 *   Bist du **Einzelkämpfer, Affiliate-Marketer oder Inhouse-Optimierer** für eine Marke? Start mit **Core**. Die Ersparnis gegenüber anderen Tools ist massiv, ohne dass du auf Qualität verzichtest.
 *   Betreust du **eine wachsende Anzahl an Kunden** oder brauchst du **API-Zugriff** für eigene Dashboards und automatisierte Reports? Dann ist **Growth** dein Tarif. Die historischen Daten allein sind den Aufpreis für professionelles Reporting wert.
 
-[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat mit dieser Preisgestaltung einen "Sweet Spot" getroffen. Es ist teuer genug, um Profi-Ansprüchen zu genügen, aber günstig genug, um nicht das komplette Marketing-Budget aufzufressen.
+[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) hat mit dieser Preisgestaltung einen "Sweet Spot" getroffen. Es ist teuer genug, um Profi-Ansprüchen zu genügen, aber günstig genug, um nicht das komplette Marketing-Budget aufzufressen.
 
 Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst du die Power des Growth-Tarifs? Schreib mir deine Meinung auf LinkedIn – ich bin gespannt auf dein Feedback!
 
@@ -152,7 +152,7 @@ Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst 
   </p>
   <a href="https://seranking.com/de/subscription.html?ga=4169588&source=se-ranking-preise" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt Tarife vergleichen & testen</span>
+    <span>Jetzt Tarife vergleichen & testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

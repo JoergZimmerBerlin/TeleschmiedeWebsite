@@ -122,7 +122,7 @@ Das Start-up aus Österreich hat früh erkannt, dass man KI-Tracking nicht einfa
 
 Wenn du aufhören willst, deine SEO-Strategie im Blindflug zu steuern, führt aktuell kein Weg an Rankscale vorbei. 
 
-<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Hier kannst du Rankscale testen und deine LLM-Sichtbarkeit sofort messen</a>.
+<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Hier kannst du Rankscale testen und deine LLM-Sichtbarkeit sofort messen * (Partnerlink)</a>.
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
   <div class="flex items-start justify-between gap-4 mb-3">

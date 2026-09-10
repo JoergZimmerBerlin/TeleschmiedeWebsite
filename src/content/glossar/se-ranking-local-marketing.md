@@ -190,7 +190,7 @@ Gerade für Agenturen, die Dutzende lokale Standorte betreuen, ist die Skalierba
   </p>
   <a href="https://seranking.com/de/local-marketing-tool.html?ga=4169588&source=local-marketing" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt Local Marketing kostenlos testen</span>
+    <span>Jetzt Local Marketing kostenlos testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

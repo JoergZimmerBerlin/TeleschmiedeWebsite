@@ -69,7 +69,7 @@ Im Gegensatz zu isolierten Metriken wie dem [Share of Model](/glossar/share-of-m
 
 Die Unterschiede zwischen traditionellen SEO-Kennzahlen und KI-Sichtbarkeitsmetriken verdeutlichen den Paradigmenwechsel der Branche:
 
-| Bewertungsdimension | Traditionelles Rank-Tracking | Spezialisiertes KI-Tracking ([Rankscale](https://rankscale.ai/?via=offer)) | All-in-One SEO & KI-Suite ([SE Ranking](https://seranking.com/de/?ga=4169588&source=link)) |
+| Bewertungsdimension | Traditionelles Rank-Tracking | Spezialisiertes KI-Tracking ([Rankscale (Partnerlink)](https://rankscale.ai/?via=offer)) | All-in-One SEO & KI-Suite ([SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)) |
 | :--- | :--- | :--- | :--- |
 | **Primäre Metrik** | Position 1–100 auf Keywords | AI Visibility Score & Citation Rate | Organische Ränge + SE Visible KI-Score |
 | **Erfasste Plattformen** | Google, Bing | ChatGPT, Perplexity, Gemini, Claude (17+ Engines) | Google SERP, AI Overviews, Perplexity |
@@ -176,8 +176,8 @@ except requests.exceptions.RequestException as error:
 
 Da das manuelle Eingeben hunderter Prompts in verschiedene KI-Oberflächen unwirtschaftlich ist, greifen Unternehmen auf spezialisierte [AI Visibility Tools](/glossar/ai-visibility-tools/) zurück:
 
-* **[Rankscale](https://rankscale.ai/?via=offer) (Der spezialisierte GEO-Standard):** Wer eine dedizierte Deep-Dive-Plattform sucht, die über 17 KI-Engines kontinuierlich trackt, Citation-Verluste in Echtzeit meldet und Prompt-Lücken aufdeckt, findet in Rankscale das derzeit schärfste Spezialwerkzeug am Markt.
-* **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (Die ganzheitliche All-in-One-Suite):** Für Agenturen und Inhouse-Teams, die klassisches Rank-Tracking, technische Onpage-Audits und generative KI-Overviews in einem einzigen Dashboard vereinen möchten, bietet SE Ranking mit seinem Modul *SE Visible* die ideale Komplettlösung.
+* **[Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (Der spezialisierte GEO-Standard):** Wer eine dedizierte Deep-Dive-Plattform sucht, die über 17 KI-Engines kontinuierlich trackt, Citation-Verluste in Echtzeit meldet und Prompt-Lücken aufdeckt, findet in Rankscale das derzeit schärfste Spezialwerkzeug am Markt.
+* **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (Die ganzheitliche All-in-One-Suite):** Für Agenturen und Inhouse-Teams, die klassisches Rank-Tracking, technische Onpage-Audits und generative KI-Overviews in einem einzigen Dashboard vereinen möchten, bietet SE Ranking mit seinem Modul *SE Visible* die ideale Komplettlösung.
 
 ## Die 3 häufigsten Fehler beim Tracking des AI Visibility Scores
 

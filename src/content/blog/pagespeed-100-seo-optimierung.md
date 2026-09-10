@@ -140,7 +140,7 @@ Konzentriere dich auf den **LCP (Largest Contentful Paint)** und die [Core Web V
 
 ## Das Ergebnis: Ein digitales Rennauto
 
-Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit ich diese Ergebnisse halte, auditiere ich die Seite regelmäßig mit dem [SE Ranking Website Audit](/glossar/se-ranking-website-audit/) und prüfe mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, wie die Geschwindigkeit auf meine KI-Präsenz einzahlt.
+Nach all diesen Maßnahmen zeigt **Google PageSpeed Insights** nun vier grüne Kreise. Performance, Barrierefreiheit, Best Practices und SEO – alles am Anschlag. Damit ich diese Ergebnisse halte, auditiere ich die Seite regelmäßig mit dem [SE Ranking Website Audit](/glossar/se-ranking-website-audit/) und prüfe mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a>, wie die Geschwindigkeit auf meine KI-Präsenz einzahlt.
 
 ### Tacheles am Ende
 

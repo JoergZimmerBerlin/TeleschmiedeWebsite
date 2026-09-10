@@ -107,9 +107,9 @@ Du kannst nicht jede denkbare Konversation abdecken. Definiere stattdessen einen
 
 Die manuelle Abfrage dieser Prompts im Browserfenster ist fehleranfällig, zeitaufwendig und liefert aufgrund personalisierter Browserdaten keine repräsentativen Ergebnisse.
 
-Für ein objektives Monitoring empfiehlt sich der Einsatz spezialisierter Software. Zu den führenden Lösungen im Bereich LLM-Tracking zählt **[Rankscale](https://rankscale.ai/?via=offer)**. Das Tool führt definierte Prompt-Sets automatisiert über die Programmierschnittstellen von OpenAI, Perplexity und Claude aus und berechnet daraus deinen prozentualen Share of Voice im Zeitverlauf. Eine detaillierte Übersicht und zentrale Auswertung ermöglicht dir das [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/).
+Für ein objektives Monitoring empfiehlt sich der Einsatz spezialisierter Software. Zu den führenden Lösungen im Bereich LLM-Tracking zählt **[Rankscale (Partnerlink)](https://rankscale.ai/?via=offer)**. Das Tool führt definierte Prompt-Sets automatisiert über die Programmierschnittstellen von OpenAI, Perplexity und Claude aus und berechnet daraus deinen prozentualen Share of Voice im Zeitverlauf. Eine detaillierte Übersicht und zentrale Auswertung ermöglicht dir das [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/).
 
-Wer eine ganzheitliche Suite bevorzugt, die klassische Suchmaschinen-Rankings mit KI-Tracking verknüpft, greift zu **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**. Das System analysiert nicht nur die Nennung, sondern stellt übersichtliche Auswertungen bereit, die sich hervorragend in einen monatlichen [AI Visibility Report](/glossar/ai-visibility-report/) überführen lassen.
+Wer eine ganzheitliche Suite bevorzugt, die klassische Suchmaschinen-Rankings mit KI-Tracking verknüpft, greift zu **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)**. Das System analysiert nicht nur die Nennung, sondern stellt übersichtliche Auswertungen bereit, die sich hervorragend in einen monatlichen [AI Visibility Report](/glossar/ai-visibility-report/) überführen lassen.
 
 <div class="bg-lime-accent/15 rounded-2xl border border-lime-accent/30 p-6 shadow-sm not-prose my-8">
   <div class="flex items-center gap-2 mb-3">
@@ -171,7 +171,7 @@ In der Beratungspraxis begegnen uns regelmäßig Fehlannahmen, die dazu führen,
 
 Um nachhaltig in den Antworten von ChatGPT verankert zu werden, musst du [zitierfähigen Content](/glossar/zitierfaehiger-content/) kreieren. Dazu gehört die konsequente Veröffentlichung eigener Primärdaten, Studien und klarer Definitionen. Sprachmodelle bevorzugen strukturierte Tabellen, nummerierte Schritt-für-Schritt-Anleitungen und präzise Kennzahlen, die ohne Interpretationsspielraum direkt in eine zusammenfassende Antwort übernommen werden können.
 
-Wer heute die Weichen stellt und seine Inhalte sowohl für menschliche Leser als auch für generative Antwort-Engines optimiert, sichert sich einen nachhaltigen Wettbewerbsvorteil. Beginne mit einem sauberen Prompt-Set, nutze Tools wie [Rankscale](https://rankscale.ai/?via=offer) oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) zur kontinuierlichen Erfolgsmessung und baue deine Marke zur unübersehbaren Entität in deiner Nische aus.
+Wer heute die Weichen stellt und seine Inhalte sowohl für menschliche Leser als auch für generative Antwort-Engines optimiert, sichert sich einen nachhaltigen Wettbewerbsvorteil. Beginne mit einem sauberen Prompt-Set, nutze Tools wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) oder [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) zur kontinuierlichen Erfolgsmessung und baue deine Marke zur unübersehbaren Entität in deiner Nische aus.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

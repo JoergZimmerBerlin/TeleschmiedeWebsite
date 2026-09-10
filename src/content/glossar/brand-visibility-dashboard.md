@@ -57,7 +57,7 @@ Um in dieser fragmentierten Umgebung den Überblick zu behalten, benötigen Mark
 
 Die unterschiedlichen Herangehensweisen an das Monitoring generativer Suchsysteme weisen erhebliche Leistungsunterschiede auf:
 
-| Feature & Kriterium | Manuelle Stichproben | Integrierte SEO-Suite ([SE Ranking](/glossar/se-ranking/)) | Dediziertes GEO-Dashboard ([Rankscale](https://rankscale.ai/?via=offer)) |
+| Feature & Kriterium | Manuelle Stichproben | Integrierte SEO-Suite ([SE Ranking](/glossar/se-ranking/)) | Dediziertes GEO-Dashboard ([Rankscale (Partnerlink)](https://rankscale.ai/?via=offer)) |
 | :--- | :--- | :--- | :--- |
 | **Erfasste Modelle** | 1–2 (meist nur ChatGPT) | Google AI Overviews & Top-Engines | 17+ KI-Engines (inkl. Perplexity, Claude, Meta AI) |
 | **Datenkonsistenz** | Gering (stochastische Einzelfälle) | Hoch (standardisierte Abfragen) | Sehr hoch (Multi-Persona & Prompt-Clustering) |
@@ -123,9 +123,9 @@ Marketing- und PR-Teams können nicht den gesamten Arbeitstag vor Monitoring-Das
 Für die praktische Umsetzung haben sich zwei spezialisierte Lösungen bewährt:
 
 * **Rankscale:** Als kompromisslose Standalone-Plattform für Generative Engine Optimization bietet Rankscale die tiefste Engine-Abdeckung und präzise Analysen zu Prompt-Variationen und Zitations-Scores.  
-👉 **[Jetzt Rankscale Visibility Dashboard testen](https://rankscale.ai/features/brand-visibility-dashboard?via=offer)**
+👉 **[Jetzt Rankscale Visibility Dashboard testen * (Partnerlink)](https://rankscale.ai/features/brand-visibility-dashboard?via=offer)**
 * **SE Ranking:** Wer traditionelle Rankings, Backlinks und technisches Monitoring in einer bewährten All-in-One-Suite mit modernen KI-Tracking-Funktionen vereinen will, findet in SE Ranking die ideale Plattform für den Agenturalltag.  
-👉 **[SE Ranking mit KI-Tracker ausprobieren](https://seranking.com/de/?ga=4169588&source=link)**
+👉 **[SE Ranking mit KI-Tracker ausprobieren (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)**
 
 ## Technische Integration: Dashboard-Daten per REST-API abrufen
 

@@ -26,7 +26,7 @@ faqs:
     answer: "Für mich ist der Questions-Endpunkt der heimliche Star der gesamten SE Ranking API. Für nur einen Credit pro Abfrage liefert er dir echte Nutzerfragen (W-Fragen), die Menschen exakt so bei Google eintippen. Das ist kein generischer Keyword-Brei, sondern pures Gold für deine Redaktionsplanung und den Aufbau von FAQ-Bereichen, die sofort auf lokale Suchintentionen und Featured Snippets abziehen."
 ---
 
-Genug Theorie. Heute der Praxis-Test: Ich ziehe mit der [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API und Claude Code drei komplette Domain-Analysen durch - und zeige dir was am Ende wirklich rauskommt.
+Genug Theorie. Heute der Praxis-Test: Ich ziehe mit der [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) API und Claude Code drei komplette Domain-Analysen durch - und zeige dir was am Ende wirklich rauskommt.
 
 Die drei Kandidaten: **teleschmie.de** (meine eigene Seite, maximale Ehrlichkeit), **[arztbesuche.de](https://arztbesuche.de)** (ein etabliertes medizinisches Verzeichnis aus unserem Netzwerk) und **[prinodi.de](https://prinodi.de)** (eine aufsteigende Domain die gerade Fahrt aufnimmt). Drei völlig unterschiedliche Ausgangssituationen - drei völlig unterschiedliche Erkenntnisse.
 
@@ -34,7 +34,7 @@ Spoiler: **~3.721 Credits zusammen**, das sind etwa 0,59 Euro - Keyword-Analyse 
 
 ## Wie ich das Setup aufgebaut habe
 
-Falls du noch nicht weißt wie man die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API mit Claude Code verbindet: Das hab ich [im ersten Teil dieser Serie](/blog/se-ranking-api-claude-code-setup/) Schritt für Schritt erklärt. Die [sechs Endpunkt-Kategorien](/blog/se-ranking-api-endpunkte-kompass/) kenne ich inzwischen auswendig - und ich weiß welche Credits kosten.
+Falls du noch nicht weißt wie man die [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) API mit Claude Code verbindet: Das hab ich [im ersten Teil dieser Serie](/blog/se-ranking-api-claude-code-setup/) Schritt für Schritt erklärt. Die [sechs Endpunkt-Kategorien](/blog/se-ranking-api-endpunkte-kompass/) kenne ich inzwischen auswendig - und ich weiß welche Credits kosten.
 
 Für diesen Test habe ich **Variante B** gefahren: overview + keywords + related + questions + longtail + competitors. Alle sechs Endpunkte in einem Durchlauf, Claude Code koordiniert die Calls, ein Python-Wrapper prüft vor und nach dem Run den Credit-Stand.
 
@@ -59,9 +59,9 @@ Das war die interessanteste Analyse. Weil man bei der eigenen Seite sofort spür
 **Was die API zeigt:**
 - 23 rankende Keywords
 - Traffic-Summe: 20 (geringe organische Klicks, aber das ist für ein Nischen-Blog normal)
-- Top-Keyword: **„[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) preise"** - in Position 1–5
+- Top-Keyword: **„[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) preise"** - in Position 1–5
 
-Das letzte überraschte mich ehrlich. Ich hab einen Artikel über [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) geschrieben und ranke jetzt für das Pricing-Keyword des Tools selbst. Das klingt zufällig, ist aber logisch: Wer über ein Tool schreibt, fängt oft genau die Keywords ab, die potenzielle Käufer googlen.
+Das letzte überraschte mich ehrlich. Ich hab einen Artikel über [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) geschrieben und ranke jetzt für das Pricing-Keyword des Tools selbst. Das klingt zufällig, ist aber logisch: Wer über ein Tool schreibt, fängt oft genau die Keywords ab, die potenzielle Käufer googlen.
 
 **Content-Gaps die die API direkt ausspuckt:**
 - „web ranking seo"
@@ -158,7 +158,7 @@ Auch bei prinodi.de: keine Wettbewerber-Daten. Selbe Diagnose wie bei teleschmie
 
 ## Bonus: Backlinks - was die API noch draufgelegt hat
 
-Keyword-Daten waren der Hauptauftrag. Aber nachdem ich die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API eh schon geöffnet hatte, wollte ich wissen: Was hat sie noch? Also hab ich für alle drei Domains noch die Backlinks-Endpunkte mitlaufen lassen - Summary, Refdomains, Anchors.
+Keyword-Daten waren der Hauptauftrag. Aber nachdem ich die [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) API eh schon geöffnet hatte, wollte ich wissen: Was hat sie noch? Also hab ich für alle drei Domains noch die Backlinks-Endpunkte mitlaufen lassen - Summary, Refdomains, Anchors.
 
 Das Ergebnis war lehrreicher als erwartet.
 
@@ -247,9 +247,9 @@ Das ist der Mehrwert: nicht dass die API dir alles erklärt, sondern dass sie di
 
 Mein klares Resümee nach diesem Test: <a href="https://www.linkedin.com/in/maximilianmuhr/" target="_blank" rel="noopener noreferrer">Max</a> hatte recht. Mit dem richtigen Wrapper ist das ein **Workflow-Beschleuniger** - wobei „Beschleuniger" genau das nüchterne Wort ist, das ich bevorzuge. Kein Hype, keine Revolution. Einfach: schneller bessere Ausgangsdaten. 🌻
 
-Die [SE Ranking API](https://seranking.com/de/?ga=4169588&source=link) in Kombination mit <a href="https://www.anthropic.com/claude-code" target="_blank" rel="noopener noreferrer">Claude Code</a> liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
+Die [SE Ranking API (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) in Kombination mit <a href="https://www.anthropic.com/claude-code" target="_blank" rel="noopener noreferrer">Claude Code</a> liefert für Freelancer und kleine SEO-Teams ein Setup, das man sonst nur mit eigenem Entwickler und mehreren Dashboards hinbekommt.
 
-Danke an Max und die Crew von <a href="https://polisys.de" target="_blank" rel="noopener noreferrer">poliSYS</a> für den Stups — und an [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für die API.
+Danke an Max und die Crew von <a href="https://polisys.de" target="_blank" rel="noopener noreferrer">poliSYS</a> für den Stups — und an [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) für die API.
 
 Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.
 
@@ -263,7 +263,7 @@ Auf die nächsten 10.000 Credits. Diesmal mit vorher gewusstem Plan.
   </p>
   <a href="https://seranking.com/de/api.html?ga=4169588&source=api-praxis" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt API-Zugang testen</span>
+    <span>Jetzt API-Zugang testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

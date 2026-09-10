@@ -100,8 +100,8 @@ Ich werde auf LinkedIn weiterhin Inhalte veröffentlichen, die nicht glattgebüg
 
 Das bedeutet keineswegs, dass wir KI verteufeln sollten. Ganz im Gegenteil: Im Bereich Analyse, Prompting und technischer Vorbereitung ist generative KI unschlagbar:
 
-* **Sichtbarkeits-Audits mit Profi-Tools:** Wenn wir prüfen wollen, wie deine Marke in den neuen KI-Antwortmaschinen abschneidet und [Wie komme ich in ChatGPT](/blog/wie-komme-ich-als-unternehmen-in-chatgpt/) in der Praxis funktioniert, nutzen wir Plattformen wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, um präzise Brand-Mentions in LLMs zu überwachen.
-* **Tiefgehende Marktdaten:** Für verlässliche Keyword-Analysen, Backlink-Prüfungen und Onpage-Diagnosen setzen wir auf die bewährte Power von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>.
+* **Sichtbarkeits-Audits mit Profi-Tools:** Wenn wir prüfen wollen, wie deine Marke in den neuen KI-Antwortmaschinen abschneidet und [Wie komme ich in ChatGPT](/blog/wie-komme-ich-als-unternehmen-in-chatgpt/) in der Praxis funktioniert, nutzen wir Plattformen wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a>, um präzise Brand-Mentions in LLMs zu überwachen.
+* **Tiefgehende Marktdaten:** Für verlässliche Keyword-Analysen, Backlink-Prüfungen und Onpage-Diagnosen setzen wir auf die bewährte Power von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a>.
 * **Effiziente Agenten-Workflows:** Ein gezielter [SEO-Mega-Prompt & KI-Agenten](/blog/seo-mega-prompt-claude-agent/) beschleunigt die technische Datenaufbereitung um ein Vielfaches, während Standards wie der [Cloudflare Agent Readiness](/blog/cloudflare-agent-readiness-scan/) dafür sorgen, dass Crawler die Daten sauber verarbeiten können.
 
 Nutze künstliche Intelligenz als Hebel für dein Gehirn – aber niemals als Ersatz für deine menschliche Stimme.
@@ -129,7 +129,7 @@ Nutze künstliche Intelligenz als Hebel für dein Gehirn – aber niemals als Er
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Willst du echte Ergebnisse statt Bot-Blabla?</h3>
-  <p class="text-dark text-sm mb-4">Authentizität ist der Schlüssel, aber fundierte Daten sind das Schloss. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">SE Ranking</a> auditieren wir deine reale Suchperformance und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">Rankscale</a> messen wir deine Erwähnungen und Brand-Authority in den neuen KI-Suchsystemen.</p>
+  <p class="text-dark text-sm mb-4">Authentizität ist der Schlüssel, aber fundierte Daten sind das Schloss. Mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">SE Ranking (Partnerlink)</a> auditieren wir deine reale Suchperformance und mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">Rankscale (Partnerlink)</a> messen wir deine Erwähnungen und Brand-Authority in den neuen KI-Suchsystemen.</p>
   <a href="/kontakt/" class="btn-primary inline-flex">Jetzt Strategie-Check anfragen →</a>
 </div>
 

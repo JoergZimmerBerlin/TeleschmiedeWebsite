@@ -71,7 +71,7 @@ Ein professionelles AI Audit für B2B-Kunden ist kein Knopfdruck-Report. Es erfo
 Bevor wir tief in den Quellcode eintauchen, müssen wir die strategische Ausgangslage (die Baseline) definieren. Bei Google haben wir Keywords recherchiert, bei KI-Systemen mappen wir Prompts:
 - **Identifikation von Core-Prompts:** Welche Fragen stellen deine Kunden, bevor sie kaufen? (Beispiel B2B-Software: *„Was sind die Nachteile von SAP gegenüber Salesforce für mittelständische Logistikunternehmen?“*). Wir definieren ein Set von 20 bis 50 geschäftskritischen Prompts.
 - **Baseline-Tracking:** Wir nutzen spezielle [AI Tracking Tools](/glossar/ai-tracking-tools/), um den aktuellen Status Quo zu messen. Taucht deine Marke in den Antworten auf? Wenn ja, in welchem Kontext (Sentiment)?
-- **Tool-Setup:** Für das exakte Monitoring dieser KI-Erwähnungen eignet sich **[Rankscale](https://rankscale.ai/?via=offer)**, das sich komplett auf die Auswertung von LLMs spezialisiert hat. Um dies mit traditionellen Suchdaten abzugleichen, bietet **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)** ein leistungsstarkes Modul.
+- **Tool-Setup:** Für das exakte Monitoring dieser KI-Erwähnungen eignet sich **[Rankscale (Partnerlink)](https://rankscale.ai/?via=offer)**, das sich komplett auf die Auswertung von LLMs spezialisiert hat. Um dies mit traditionellen Suchdaten abzugleichen, bietet **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)** ein leistungsstarkes Modul.
 
 ### Phase 2: Technische Crawlability für KIs
 KI-Crawler arbeiten unter strengen Latenzgrenzen und parsen selten aufwendiges JavaScript:

@@ -25,7 +25,7 @@ faqs:
     answer: "Das geniale am API-Modell für Audits ist die Trennung zwischen dem Crawl-Prozess und dem Datenabruf. Du bezahlst einmalig beim Start des Audits über den POST-Endpunkt (z.B. 2 Credits pro gecrawlter Seite beim Standard-Audit). Sobald der Crawl abgeschlossen ist, kannst du die Reports, Fehlerlisten und Status-Meldungen über die GET-Endpunkte wochenlang komplett kostenlos und beliebig oft abfragen. Das ist ideal, um Kunden oder Entwicklern regelmäßige Qualitätsberichte zukommen zu lassen, ohne dass jedes Mal neue API-Kosten entstehen."
 ---
 
-Im [ersten Teil dieser Serie](/blog/se-ranking-api-claude-code-setup/) habe ich dir gezeigt, wie du die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> mit Claude Code verbindest - inklusive dem Daily-Limit, das dir den 10k-Credit-Schock erspart.
+Im [ersten Teil dieser Serie](/blog/se-ranking-api-claude-code-setup/) habe ich dir gezeigt, wie du die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking API (Partnerlink)</a> mit Claude Code verbindest - inklusive dem Daily-Limit, das dir den 10k-Credit-Schock erspart.
 
 Heute die logische Anschlussfrage: **Was kann die API denn eigentlich alles?**
 
@@ -216,7 +216,7 @@ Für die Bookmark-Fraktion: alle wichtigen Endpunkte in einer Übersicht:
 
 ## Tacheles am Ende
 
-Die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking API</a> ist kein Selbstbedienungsladen. Es gibt teure Endpunkte, und wenn du ohne Plan reinläufst, ist das Wochenbudget weg, bevor du etwas Sinnvolles rausbekommen hast. Mit Plan aber ist sie das ehrlichste API-Pricing, das ich kenne: transparent, dokumentiert, ohne versteckte „ab-hier-wird's-teuer"-Fallen.
+Die <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking API (Partnerlink)</a> ist kein Selbstbedienungsladen. Es gibt teure Endpunkte, und wenn du ohne Plan reinläufst, ist das Wochenbudget weg, bevor du etwas Sinnvolles rausbekommen hast. Mit Plan aber ist sie das ehrlichste API-Pricing, das ich kenne: transparent, dokumentiert, ohne versteckte „ab-hier-wird's-teuer"-Fallen.
 
 Meine Strategie für neue Kunden: **Immer in dieser Reihenfolge.**
 
@@ -240,7 +240,7 @@ Bis dahin: Baut euer Daily-Limit, fangt mit `discover-brand` an, lasst die Leade
   </p>
   <a href="https://seranking.com/de/api.html?ga=4169588&source=api-endpunkte" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt API entdecken</span>
+    <span>Jetzt API entdecken * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

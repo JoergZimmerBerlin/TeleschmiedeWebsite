@@ -201,7 +201,7 @@ Einziger Wermutstropfen: Wer extrem exotische Custom-Extraktionen über hochkomp
   </p>
   <a href="https://seranking.com/de/website-audit.html?ga=4169588&source=website-audit" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt Website-Audit kostenlos testen</span>
+    <span>Jetzt Website-Audit kostenlos testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

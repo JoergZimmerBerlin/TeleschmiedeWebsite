@@ -189,7 +189,7 @@ Die digitale Reichweitenmessung befindet sich im fundamentalen Wandel. Die Kennz
 * **Citation Frequency:** Welche Unterseiten werden bei generativen Antworten als verlinkte Fußnoten und Quellen herangezogen?
 * **Brand Lift:** Steigen die direkten Suchanfragen nach deinem Firmennamen, nachdem KI-Systeme deine Expertise zitiert haben?
 
-Für ein umfassendes Tracking sowohl klassischer SERP-Rankings als auch strukturierter Onpage-Faktoren empfiehlt sich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Um gleichzeitig zu überwachen, wie stark deine Entität in den Antworten moderner Large Language Models vertreten ist, bietet die Analyseplattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Tools für die [Answer Engine Optimization (AEO)](/glossar/aeo/).
+Für ein umfassendes Tracking sowohl klassischer SERP-Rankings als auch strukturierter Onpage-Faktoren empfiehlt sich [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link). Um gleichzeitig zu überwachen, wie stark deine Entität in den Antworten moderner Large Language Models vertreten ist, bietet die Analyseplattform [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) spezialisierte Tools für die [Answer Engine Optimization (AEO)](/glossar/aeo/).
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

@@ -302,7 +302,7 @@ dann führt 2026 kein rationaler Weg mehr an **[Rank Math SEO* (Partnerlink)](ht
     Sichere dir die volle Power von unbegrenzten Websites, Custom Schema Builder und Content AI zum fairen Jahrespreis.
   </p>
   <a href="https://rankmath.com/de/offer/?ref=jorgzimmer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
-    <span>Aktuelle Rank Math Angebote ansehen</span>
+    <span>Aktuelle Rank Math Angebote ansehen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

@@ -32,7 +32,7 @@ Ich liebe Zahlen. Besonders wenn sie so aussehen, dass man sie sich als Tech-SEO
 
 Das ist kein schön gerechnetes Best-Case-Szenario aus einem Hochglanz-Marketing-Folder. Das ist der reale **UX-Bericht für Chrome (CrUX)** aus der Google Search Console eines Kundenprojekts, das ich über mehrere Monate intensiv betreuen durfte.
 
-Zwischen Oktober 2025 und Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts von Grund auf saniert. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> behalten wir die technischen Audits und Rank-Entwicklungen im Blick, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> uns zeigt, wie saubere Architektur auf unsere KI-Sichtbarkeit einzahlt.
+Zwischen Oktober 2025 und Januar 2026 haben wir die Core Web Vitals (CWV) dieses Projekts von Grund auf saniert. Mit Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a> behalten wir die technischen Audits und Rank-Entwicklungen im Blick, während <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> uns zeigt, wie saubere Architektur auf unsere KI-Sichtbarkeit einzahlt.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

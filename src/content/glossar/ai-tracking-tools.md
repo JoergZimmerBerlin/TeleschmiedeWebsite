@@ -108,11 +108,11 @@ Für das praktische Monitoring haben sich zwei komplementäre Software-Kategorie
 
 ### Rankscale: Der dedizierte GEO-Spezialist
 Wenn der Fokus kompromisslos auf Answer Engines und Reverse-Engineering liegt, gilt **Rankscale** als technologische Referenz. Die Plattform überwacht mehr als 17 KI-Engines und liefert detaillierte Einblicke in Prompt-Variationen, Zitationswahrscheinlichkeiten und Wettbewerber-Sentiment.  
-👉 **[Rankscale direkt testen](https://rankscale.ai/?via=offer)**
+👉 **[Rankscale direkt testen * (Partnerlink)](https://rankscale.ai/?via=offer)**
 
 ### SE Ranking: Die integrierte All-in-One-Lösung
 Für Teams, die traditionelle Keyword-Rankings, Backlinks und technische Audits in einer zentralen Oberfläche mit KI-Metriken verknüpfen wollen, bietet **SE Ranking** mit dem integrierten *AI Results Tracker* das ideale Setup. Das Tool schlägt die Brücke zwischen klassischer Onpage-Optimierung und moderner generativer Suche.  
-👉 **[SE Ranking kostenlos ausprobieren](https://seranking.com/de/?ga=4169588&source=link)**
+👉 **[SE Ranking kostenlos ausprobieren (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)**
 
 ## Technische Umsetzung: Automatisierter Zitations-Check per API
 

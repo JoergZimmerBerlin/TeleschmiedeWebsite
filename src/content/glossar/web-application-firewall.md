@@ -130,7 +130,7 @@ Wird im Monitoring ein rapider Einbruch von Impressionen oder ein sprunghafter A
 
 ## 5. Monitoring und kontinuierliche Optimierung
 
-Um Ausfälle zu verhindern, sollten WAF-Logfiles wöchentlich analysiert werden. Filtere nach Statuscodes wie `403 Forbidden` und prüfe, ob IPs verifizierter Suchsysteme betroffen sind. Kombiniere dies mit einer automatisierten Crawling-Überwachung über [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und überwache deine generative Sichtbarkeit mit [Rankscale](https://rankscale.ai/?via=offer), um Blockaden von Antwortmaschinen sofort zu erkennen. Zudem sichert eine performante WAF-Konfiguration optimale [PageSpeed](/glossar/pagespeed/)-Werte, da Serverressourcen für echte Nutzer und wertvolle Bots geschont werden.
+Um Ausfälle zu verhindern, sollten WAF-Logfiles wöchentlich analysiert werden. Filtere nach Statuscodes wie `403 Forbidden` und prüfe, ob IPs verifizierter Suchsysteme betroffen sind. Kombiniere dies mit einer automatisierten Crawling-Überwachung über [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und überwache deine generative Sichtbarkeit mit [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer), um Blockaden von Antwortmaschinen sofort zu erkennen. Zudem sichert eine performante WAF-Konfiguration optimale [PageSpeed](/glossar/pagespeed/)-Werte, da Serverressourcen für echte Nutzer und wertvolle Bots geschont werden.
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
   <div class="flex items-start justify-between gap-4 mb-3">

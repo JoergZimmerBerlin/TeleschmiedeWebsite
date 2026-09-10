@@ -27,7 +27,7 @@ Die klassische organische Websuche über statische Linklisten hat ihren Alleinve
 
 Genau an diesem Wendepunkt setzt **Semrush** an. Der US-amerikanische Branchenriese, der seit vielen Jahren als zentrale Plattform für Keyword-Recherche, Backlink-Audits und Content-Marketing in globalen Marketing-Teams etabliert ist, hat mit seinem **AI Visibility Toolkit** den Schritt in das Zeitalter der [Generative Engine Optimization](/glossar/geo-tool/) vollzogen.
 
-In diesem Fachbeitrag analysieren wir die Kernmodule des Semrush AI Visibility Toolkits, beleuchten die Unterschiede zum klassischen Rank-Tracking und vergleichen die Plattform mit führenden Alternativen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer).
+In diesem Fachbeitrag analysieren wir die Kernmodule des Semrush AI Visibility Toolkits, beleuchten die Unterschiede zum klassischen Rank-Tracking und vergleichen die Plattform mit führenden Alternativen wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer).
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
@@ -94,7 +94,7 @@ Damit Sprachmodelle Webseiteninhalte fehlerfrei verarbeiten können, müssen die
 
 Die Wahl des richtigen Monitoring-Stacks hängt primär von den bestehenden Workflows und der strategischen Ausrichtung des Marketing-Teams ab:
 
-| Kriterium | Semrush AI Visibility | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (SE Visible) | [Rankscale](https://rankscale.ai/?via=offer) (GEO Specialist) |
+| Kriterium | Semrush AI Visibility | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (SE Visible) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (GEO Specialist) |
 | :--- | :--- | :--- | :--- |
 | **Fokus** | All-in-One Enterprise Suite | All-in-One Suite (starkes Preis-Leistungs-Verhältnis) | Pure Play Generative Engine Optimization |
 | **Abgedeckte Engines** | ChatGPT, Perplexity, Gemini, Google AIO | Google AI Overviews, Perplexity, ChatGPT | Über 17 spezialisierte KI-Suchmaschinen |

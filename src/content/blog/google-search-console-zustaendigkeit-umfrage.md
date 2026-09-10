@@ -86,7 +86,7 @@ Ein gravierender Fehler, den ich in Beratungsprojekten immer wieder sehe: Die fr
 Sobald Daten einlaufen, beginnt die eigentliche Optimierungsarbeit. Der SEO prüft, ob [Technisches SEO](/glossar/technisches-seo/) greift, ob Render-Fehler vorliegen und wie die [Keyword-Strategie](/glossar/keywordrecherche/) anhand echter Impressionen nachjustiert werden muss.
 
 ### 4. Qualitäts-Check: Indexierungsstatus und Core Web Vitals
-Über die Search Console lassen sich Ladezeitenprobleme direkt identifizieren. Die gemessenen Felddaten zu den [Core Web Vitals](/glossar/core-web-vitals/) und die semantische Validierung von [Schema Markup](/glossar/schema-org-markup/) zeigen schwarz auf weiß, ob die Seite den Qualitätsrichtlinien von Google genügt. Für umfassende Crawls koppeln wir die GSC-Daten mit spezialisierten Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und überwachen über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) parallele KI-Trends.
+Über die Search Console lassen sich Ladezeitenprobleme direkt identifizieren. Die gemessenen Felddaten zu den [Core Web Vitals](/glossar/core-web-vitals/) und die semantische Validierung von [Schema Markup](/glossar/schema-org-markup/) zeigen schwarz auf weiß, ob die Seite den Qualitätsrichtlinien von Google genügt. Für umfassende Crawls koppeln wir die GSC-Daten mit spezialisierten Tools wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und überwachen über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) parallele KI-Trends.
 
 ## Checkliste für deinen nächsten Website-Launch
 

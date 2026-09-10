@@ -91,7 +91,7 @@ Auf der geschützten Staging-Umgebung testen wir das gesamte Weiterleitungskonze
 Beim DNS-Switch werden alle Sperren wie HTTP-Authentifizierungen und Staging-Noindex-Tags sofort entfernt. Die finale XML-Sitemap wird direkt in der Google Search Console eingereicht und ein systematischer Server-Ping initiiert.
 
 ### 4. Post-Launch-Monitoring & Performance
-In den ersten 48 bis 72 Stunden nach dem Go-Live überwachen wir Server-Logs, Crawl-Frequenzen und Fehlermeldungen in Echtzeit. Mit professionellen Analyse-Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) verifizieren wir Ranking-Verläufe, während wir mit [Rankscale](https://rankscale.ai/?via=offer) parallel prüfen, ob auch KI-Suchsysteme die neuen Inhalte sofort erfassen.
+In den ersten 48 bis 72 Stunden nach dem Go-Live überwachen wir Server-Logs, Crawl-Frequenzen und Fehlermeldungen in Echtzeit. Mit professionellen Analyse-Tools wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) verifizieren wir Ranking-Verläufe, während wir mit [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) parallel prüfen, ob auch KI-Suchsysteme die neuen Inhalte sofort erfassen.
 
 ## Konkrete Empfehlung für anstehende Relaunch-Projekte
 

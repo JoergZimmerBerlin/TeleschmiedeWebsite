@@ -82,7 +82,7 @@ Ich möchte von dir drei Kerninformationen:
 
 Das ist der Teil, den du nicht siehst, der aber den fundamentalen Unterschied zu oberflächlichen Agentur-Pitches ausmacht: Rund 30 Minuten vor unserem Termin schließe ich die Tür und starte meine professionellen Analyse-Tools.
 
-Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) werte ich deine historischen Ranking-Verläufe aus, prüfe das Keyword-Portfolio und decke schädliche Kannibalisierungen auf. Im direkten Vergleich [SISTRIX vs SE Ranking](/blog/sistrix-vs-se-ranking/) beleuchten wir unterschiedliche Datenbasen, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale](https://rankscale.ai/?via=offer) prüfen, wie stark deine Marke bereits von Sprachmodellen aufgegriffen wird.
+Mit [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) werte ich deine historischen Ranking-Verläufe aus, prüfe das Keyword-Portfolio und decke schädliche Kannibalisierungen auf. Im direkten Vergleich [SISTRIX vs SE Ranking](/blog/sistrix-vs-se-ranking/) beleuchten wir unterschiedliche Datenbasen, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) prüfen, wie stark deine Marke bereits von Sprachmodellen aufgegriffen wird.
 
 Wenn wir den Videocall starten, fangen wir nicht bei Null an. Wir steigen direkt bei 100 Prozent ein.
 

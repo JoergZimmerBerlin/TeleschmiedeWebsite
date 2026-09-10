@@ -33,7 +33,7 @@ faqs:
   <p>Ja, ich bin Fan vom SEO Tool SE Ranking. Macht mir Freude wie proaktiv die vorwärts gehen. Jetzt wieder eine Funktion entdeckt. Die haben im ChatGPT Store eine eigene App.</p>
   <p>SEO per MCP Connector ist gerade voll im Trend.</p>
   <p>Hier mein Partner Link direkt zur Unterseite mit allen Infos:<br>
-  <a href="https://seranking.com/de/mcp.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">SE Ranking MCP Connector ansehen (Partnerlink)</a></p>
+  <a href="https://seranking.com/de/mcp.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">SE Ranking MCP Connector ansehen (Partnerlink)</a></p>
   <p>💪 Keywords<br>
   💪 Backlinks<br>
   💪 Domain Performance<br>
@@ -136,8 +136,8 @@ Meine Antwort dazu im Berliner Klartext: Ja, ich bin echter Fan – und zwar aus
 
 Wenn du deinen SEO-Workflow modernisieren möchtest:
 
-- **SE Ranking Account einrichten**: Sichere dir über meinen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">SE Ranking Partnerlink</a> deinen Zugang zu einer der besten Plattformen am Markt.
-- **MCP Connector aktivieren**: Rufe die offizielle Unterseite <a href="https://seranking.com/de/mcp.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">SE Ranking MCP Connector</a> auf und verbinde dein Profil mit der ChatGPT-App.
+- **SE Ranking Account einrichten**: Sichere dir über meinen <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">SE Ranking Partnerlink</a> deinen Zugang zu einer der besten Plattformen am Markt.
+- **MCP Connector aktivieren**: Rufe die offizielle Unterseite <a href="https://seranking.com/de/mcp.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">SE Ranking MCP Connector (Partnerlink)</a> auf und verbinde dein Profil mit der ChatGPT-App.
 - **Konkrete Prompts testen**: Starte mit einfachen Anfragen zur Domain-Performance und erweitere deine Workflows sukzessive auf Keyword-Gaps und Onpage-Audits.
 - **Individuelles Sparring**: Möchtest du erfahren, wie du automatisierte SEO-Pipelines in deinem Unternehmen etablierst? Dann kannst du eine fundierte [SEO Beratung buchen](/seo-sprechstunde/).
 
@@ -151,7 +151,7 @@ Wenn du deinen SEO-Workflow modernisieren möchtest:
   </p>
   <a href="https://seranking.com/de/?ga=4169588&source=chatgpt-app" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt 14 Tage gratis testen</span>
+    <span>Jetzt 14 Tage gratis testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

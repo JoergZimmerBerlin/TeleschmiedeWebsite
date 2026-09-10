@@ -247,7 +247,7 @@ Ich habe für Neukunden einen **exklusiven Rabattcode von 15 Prozent** auf alle 
   <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
     <a href="https://seranking.com/de/?ga=4169588&source=se-ranking-hub" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
       <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-      <span>Jetzt 14 Tage gratis testen</span>
+      <span>Jetzt 14 Tage gratis testen * (Partnerlink)</span>
       <span aria-hidden="true">→</span>
     </a>
     <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full border border-white/20 text-white hover:border-lime-accent hover:text-lime-accent text-sm font-semibold transition-colors inline-flex items-center gap-2">
@@ -301,7 +301,7 @@ Du willst noch tiefer einsteigen? Ich habe in der Vergangenheit intensiv mit SE 
   </p>
   <a href="https://seranking.com/de/?ga=4169588&source=se-ranking-hub" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt 14 Tage gratis testen</span>
+    <span>Jetzt 14 Tage gratis testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

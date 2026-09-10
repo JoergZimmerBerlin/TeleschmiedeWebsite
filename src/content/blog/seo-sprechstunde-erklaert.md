@@ -82,7 +82,7 @@ Die Beratungspauschale von 480 Euro deckt weit mehr ab als reine Telefonzeit. Da
 ### 1. Die intensive Vorbereitung vor dem Call
 Bevor wir uns im Videocall gegenüberstehen, habe ich deine Domain bereits durchleuchtet. Ich prüfe, welche Keywords lukrativen Traffic liefern, wo Rankings unbemerkt wegbringen und wie deine Domain im Vergleich zu direkten Wettbewerbern abschneidet. 
 
-Mit Profi-Plattformen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysiere ich historische Entwicklungen, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale](https://rankscale.ai/?via=offer) parallel prüfen, ob deine Inhalte bereits in KI-Antworten stattfinden. Wenn du den Call betrittst, starten wir nicht bei Null, sondern steigen direkt bei 100 Prozent ein.
+Mit Profi-Plattformen wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) analysiere ich historische Entwicklungen, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) parallel prüfen, ob deine Inhalte bereits in KI-Antworten stattfinden. Wenn du den Call betrittst, starten wir nicht bei Null, sondern steigen direkt bei 100 Prozent ein.
 
 ### 2. Der 120-Minuten Live-Call: Radikaler Fokus auf Action
 Im Call gibt es keine Powerpoint-Vorträge. Wir teilen den Bildschirm und arbeiten direkt an deinem lebenden Projekt:

@@ -85,7 +85,7 @@ Für kaufbezogene und regionale Suchanfragen bleibt das traditionelle Snippet in
 | **Steuerungselemente** | Title Tag (50–60 Z.), Meta Description (150–160 Z.) | Answer-First-Absätze, H2/H3-Fragen, Schema.org |
 | **Nutzerinteraktion** | Direkter Klick auf blaues Link-Element | Zero-Click-Konsum oder Klick auf Quellen-Badge |
 | **Gestaltungsmittel** | Call-to-Action, Emojis, Rich Snippets | Strukturierte Tabellen, nummerierte Listen, Definitionen |
-| **Tool-Tracking** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (SERP-Features & CTR) | [Rankscale](https://rankscale.ai/?via=offer) (AI Overview & Prompt-Monitoring) |
+| **Tool-Tracking** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (SERP-Features & CTR) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (AI Overview & Prompt-Monitoring) |
 
 ---
 
@@ -176,7 +176,7 @@ Moderne Snippet-Optimierung verbindet menschliche Psychologie mit maschineller D
 ### Kontinuierliche A/B-Tests und Rewrite-Monitoring
 Suchmaschinen passen Snippets dynamisch an saisonale Trends und algorithmische Neugewichtungen an. Ein erfolgreiches Optimierungskonzept verharrt daher nicht im statischen Zustand. Führe regelmäßige A/B-Tests durch: Verändere Formulierungen in der Meta Description, teste konkrete Handlungsaufforderungen gegen reine Fakten-Aufzählungen und beobachte die Auswirkungen auf die Klickrate in der Google Search Console. 
 
-Analysiere deine Snippets kontinuierlich mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und überwache deine generative Präsenz über [Rankscale](https://rankscale.ai/?via=offer), um deine digitale Vorherrschaft nachhaltig zu sichern. Wer auf veränderte Suchmuster sofort reagiert, sichert sich dauerhaft die höchsten Klickraten und Zitationsquoten.
+Analysiere deine Snippets kontinuierlich mit [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und überwache deine generative Präsenz über [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer), um deine digitale Vorherrschaft nachhaltig zu sichern. Wer auf veränderte Suchmuster sofort reagiert, sichert sich dauerhaft die höchsten Klickraten und Zitationsquoten.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

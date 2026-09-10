@@ -160,10 +160,10 @@ async function compareCompetitorVisibility(brandA, brandB, promptClusterId) {
 
 ## Die führenden Werkzeuge im Marktvergleich
 
-* **[Rankscale](https://rankscale.ai/features/ai-competitor-analysis?via=offer):** Die spezialisierte Referenz für tiefes KI-Wettbewerbs-Benchmarking, automatische Konkurrentenerkennung und granulare Gap-Analysen über 17+ Engines.  
-👉 **[Rankscale AI Competitor Analysis testen](https://rankscale.ai/features/ai-competitor-analysis?via=offer)**
-* **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link):** Die ideale All-in-One-Plattform, die klassische Wettbewerbs-Recherche (Keywords, Backlinks) nahtlos mit KI-Such-Features und AI Overviews verbindet.  
-👉 **[SE Ranking kostenlos ausprobieren](https://seranking.com/de/?ga=4169588&source=link)**
+* **[Rankscale (Partnerlink)](https://rankscale.ai/features/ai-competitor-analysis?via=offer):** Die spezialisierte Referenz für tiefes KI-Wettbewerbs-Benchmarking, automatische Konkurrentenerkennung und granulare Gap-Analysen über 17+ Engines.  
+👉 **[Rankscale AI Competitor Analysis testen * (Partnerlink)](https://rankscale.ai/features/ai-competitor-analysis?via=offer)**
+* **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link):** Die ideale All-in-One-Plattform, die klassische Wettbewerbs-Recherche (Keywords, Backlinks) nahtlos mit KI-Such-Features und AI Overviews verbindet.  
+👉 **[SE Ranking kostenlos ausprobieren (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)**
 
 ## Die 3 häufigsten Fehler bei der AI Competitor Analysis
 

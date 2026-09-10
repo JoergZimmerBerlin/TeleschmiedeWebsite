@@ -115,7 +115,7 @@ Das Handwerk selbst hat sich unumkehrbar weiterentwickelt:
 - [E-E-A-T](/glossar/e-e-a-t/) bildet die messbare Basis für Trust und redaktionelle Expertise.
 - [Schema Markup](/glossar/schema-org-markup/) liefert den semantischen Bauplan für Wissensgraphen und LLMs.
 
-Für die datengestützte Überwachung nutzen wir in der Praxis professionelle Werkzeuge: Mit bewährten Plattformen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir klassische Rankings und Wettbewerber, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale](https://rankscale.ai/?via=offer) die Präsenz in Sprachmodellen quantifizieren.
+Für die datengestützte Überwachung nutzen wir in der Praxis professionelle Werkzeuge: Mit bewährten Plattformen wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) analysieren wir klassische Rankings und Wettbewerber, während wir über [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/) und Tools wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) die Präsenz in Sprachmodellen quantifizieren.
 
 ## Handlungsempfehlung für Agenturen und Berater
 

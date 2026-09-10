@@ -109,9 +109,9 @@ Ein solches serverseitiges Setup liefert KI-Agenten schlankes Markdown ohne übe
 
 Da manuelle Stichproben im Web-Interface keine statistisch belastbare Datenbasis liefern, greifen professionelle Marketing-Teams auf spezialisierte Monitoring-Lösungen zurück.
 
-Ein führendes Werkzeug für das automatisierte Prompt-Tracking über mehrere LLMs hinweg ist **[Rankscale](https://rankscale.ai/?via=offer)**. Die Software feuert definierte Fragekataloge kontinuierlich über Programmierschnittstellen gegen OpenAI, Anthropic und Perplexity ab und konsolidiert die Ergebnisse in einem [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/).
+Ein führendes Werkzeug für das automatisierte Prompt-Tracking über mehrere LLMs hinweg ist **[Rankscale (Partnerlink)](https://rankscale.ai/?via=offer)**. Die Software feuert definierte Fragekataloge kontinuierlich über Programmierschnittstellen gegen OpenAI, Anthropic und Perplexity ab und konsolidiert die Ergebnisse in einem [Brand Visibility Dashboard](/glossar/brand-visibility-dashboard/).
 
-Wer hingegen eine integrierte Gesamtlösung sucht, die klassisches Keyword-Tracking, Backlink-Audits und KI-Metriken in einer Oberfläche vereint, nutzt die Monitoring-Module von **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)**. Die dort generierten Daten eignen sich ideal für einen regelmäßigen [AI Visibility Report](/glossar/ai-visibility-report/).
+Wer hingegen eine integrierte Gesamtlösung sucht, die klassisches Keyword-Tracking, Backlink-Audits und KI-Metriken in einer Oberfläche vereint, nutzt die Monitoring-Module von **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link)**. Die dort generierten Daten eignen sich ideal für einen regelmäßigen [AI Visibility Report](/glossar/ai-visibility-report/).
 
 ## Die 3 häufigsten Fehler beim Messen der KI-Sichtbarkeit
 
@@ -153,7 +153,7 @@ Etabliere zudem eine wöchentliche Feedback-Schleife zwischen deinem SEO-Team un
   </div>
 </div>
 
-Beginne noch heute damit, deine Kern-Prompts zu definieren. Etabliere ein automatisiertes Tracking über [Rankscale](https://rankscale.ai/?via=offer) oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und passe deine Webseiten-Architektur an die Anforderungen autonomer Agenten an. Wer den Übergang von klassischen Suchmaschinen zu generativen Answer Engines aktiv gestaltet, sichert sich den entscheidenden Marktvorsprung.
+Beginne noch heute damit, deine Kern-Prompts zu definieren. Etabliere ein automatisiertes Tracking über [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) oder [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und passe deine Webseiten-Architektur an die Anforderungen autonomer Agenten an. Wer den Übergang von klassischen Suchmaschinen zu generativen Answer Engines aktiv gestaltet, sichert sich den entscheidenden Marktvorsprung.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

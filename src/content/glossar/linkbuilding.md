@@ -83,7 +83,7 @@ Für Large Language Models und moderne Suchmaschinen zählt ausschließlich der 
 | **Zentrale Hebel** | Gekaufte Gastartikel, Webkataloge, PBNs | Digital PR, Primärdaten-Studien, Experten-Podcasts |
 | **Wirkung bei KIs** | Vernachlässigbar bis toxisch | Primärquelle für generative [KI-Rankings](/glossar/ki-ranking/) |
 | **Link-Attribut** | Starr auf `dofollow` fixiert | Mentions, `nofollow` und Brand-Zitate gleichwertig |
-| **Tool-Monitoring** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (Backlink-Audit & Toxic Score) | [Rankscale](https://rankscale.ai/?via=offer) (Entity-Mention- & Citation-Tracking) |
+| **Tool-Monitoring** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (Backlink-Audit & Toxic Score) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (Entity-Mention- & Citation-Tracking) |
 
 ## 2. Digital-PR als Königsweg: Linkable Assets schaffen
 
@@ -161,7 +161,7 @@ Für moderne SEO-Teams bedeutet dies: Linkaufbau erfordert keinen panischen Akti
 
 ## 6. Strategischer Ausblick für nachhaltige Markenautorität
 
-Der Aufbau digitaler Autorität ist ein langfristiger Prozess. Indem du investierst in originäre Studien, exzellente Pressebeziehungen und eine saubere technische Auszeichnung im Knowledge Graph, schützt du deine Website vor algorithmischen Abstrafungen. Kombiniere regelmäßige Backlink-Audits über [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) mit modernem LLM-Monitoring via [Rankscale](https://rankscale.ai/?via=offer), um Zitationsanteile und Offpage-Signale im Einklang mit moderner [Answer Engine Optimization (AEO)](/glossar/aeo/) kontinuierlich zu steuern.
+Der Aufbau digitaler Autorität ist ein langfristiger Prozess. Indem du investierst in originäre Studien, exzellente Pressebeziehungen und eine saubere technische Auszeichnung im Knowledge Graph, schützt du deine Website vor algorithmischen Abstrafungen. Kombiniere regelmäßige Backlink-Audits über [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) mit modernem LLM-Monitoring via [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer), um Zitationsanteile und Offpage-Signale im Einklang mit moderner [Answer Engine Optimization (AEO)](/glossar/aeo/) kontinuierlich zu steuern.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

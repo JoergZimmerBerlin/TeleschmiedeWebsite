@@ -172,7 +172,7 @@ Wer zum ersten Mal an einem spezialisierten Stammtisch teilnimmt, tritt gelegent
 
 Der regelmäßige Austausch mit Kollegen schützt vor teuren Fehlentscheidungen bei komplexen Webprojekten. Ob es um die Evaluierung neuer Tracking-Tools geht, um die Auslegung von [Google Search Console](/glossar/google-search-console/)-Daten oder um die Ausrichtung auf [Generative Engine Optimization (GEO)](/glossar/geo/): Die kollektive Schwarmintelligenz der Szene fungiert als unverzichtbares Korrektiv.
 
-Zur verlässlichen Messung und Analyse deiner Onpage-Strukturen, Backlink-Entwicklungen und SERP-Positionen empfiehlt sich der Einsatz von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Um gleichzeitig zu überprüfen, wie effektiv die diskutierten Optimierungsansätze in den Zitationsmustern moderner Antwortmaschinen greifen, bietet die Plattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Einblicke in deine KI-Sichtbarkeit.
+Zur verlässlichen Messung und Analyse deiner Onpage-Strukturen, Backlink-Entwicklungen und SERP-Positionen empfiehlt sich der Einsatz von [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link). Um gleichzeitig zu überprüfen, wie effektiv die diskutierten Optimierungsansätze in den Zitationsmustern moderner Antwortmaschinen greifen, bietet die Plattform [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) spezialisierte Einblicke in deine KI-Sichtbarkeit.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

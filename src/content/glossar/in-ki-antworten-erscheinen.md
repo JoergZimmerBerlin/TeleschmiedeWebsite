@@ -177,7 +177,7 @@ Im Bestreben, generative Sichtbarkeit zu erlangen, begehen viele Webseitenbetrei
 
 Das traditionelle Rank-Tracking von Keyword-Positionen spiegelt die Realität des modernen Webs nur noch teilweise wider. Marken müssen heute ihren **Share of Model (SoM)** messen: Wie präsent ist die eigene Marke in ungebundenen Produktberatungen von Claude, ChatGPT und Perplexity?
 
-Um sowohl das klassische Fundament organischer Positionen als auch moderne SERP-Features im Blick zu behalten, bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) verlässliche Werkzeuge für das Keyword- und Backlink-Audit. Für die gezielte Überwachung und Optimierung generativer Zitationen liefert die Plattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Monitoring-Lösungen, mit denen du deine Präsenz in führenden Answer Engines kontinuierlich analysieren und ausbauen kannst.
+Um sowohl das klassische Fundament organischer Positionen als auch moderne SERP-Features im Blick zu behalten, bietet [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) verlässliche Werkzeuge für das Keyword- und Backlink-Audit. Für die gezielte Überwachung und Optimierung generativer Zitationen liefert die Plattform [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) spezialisierte Monitoring-Lösungen, mit denen du deine Präsenz in führenden Answer Engines kontinuierlich analysieren und ausbauen kannst.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

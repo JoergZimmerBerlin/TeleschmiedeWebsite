@@ -29,7 +29,7 @@ Wochenlang habe ich den Markt nach einer praxistauglichen Lösung durchsucht, mi
 
 Und dann fiel mir die perfekte Lösung direkt auf den Schreibtisch: Ein spezialisiertes Tool, das nicht nur ChatGPT und Perplexity abbildet, sondern gleich 17 führende Sprachmodelle und KI-Engines simultan überwacht.
 
-Die Rede ist von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, entwickelt von einem hochagilen Team aus Österreich. Direkt nach meinem Onboarding-Gespräch war mir klar: Hier haben Entwickler mit echter Praxiserfahrung gedacht. Domain hinterlegen, relevante Topic Cluster festlegen, Modelle aktivieren – fertig. Das Tool startet autonom, scannt das thematische Umfeld und dokumentiert präzise, wo deine Marke inklusive gängiger Schreibweisen empfohlen wird.
+Die Rede ist von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a>, entwickelt von einem hochagilen Team aus Österreich. Direkt nach meinem Onboarding-Gespräch war mir klar: Hier haben Entwickler mit echter Praxiserfahrung gedacht. Domain hinterlegen, relevante Topic Cluster festlegen, Modelle aktivieren – fertig. Das Tool startet autonom, scannt das thematische Umfeld und dokumentiert präzise, wo deine Marke inklusive gängiger Schreibweisen empfohlen wird.
 
 ![Das LLM-Universum: Monitoring deiner Marke in 17+ Sprachmodellen](../../assets/images/blog/llm-universum-tracking.webp)
 
@@ -39,7 +39,7 @@ Das Nutzerverhalten wandelt sich mit atemberaubender Geschwindigkeit: Suchende k
 
 Wer in dieser neuen Realität keine Kontrolle darüber hat, ob seine Produkte in der generierten Antwort auftauchen, betreibt Blindflug. Bislang war dieses Monitoring mühsame Handarbeit: Man stellte manuelle Prompts, notierte Screenshots und hoffte auf Zufallstreffer.
 
-<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> automatisiert diesen Prozess vollständig:
+<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> automatisiert diesen Prozess vollständig:
 * **Präzises Marken-Monitoring:** Kontinuierliche Abfrage, in welchen Prompts dein Name oder deine Produktlinie als Lösung empfohlen wird.
 * **Tiefgehende Sentiment-Analyse:** Bewertung der KI-Tonalität – wirst du als Qualitätsführer oder als Budget-Alternative wahrgenommen?
 * **Topic-Clustering:** Identifikation der Wissensgebiete, in denen dir die Algorithmen bereits [Topical Authority](/glossar/topical-authority/) zuschreiben.
@@ -57,7 +57,7 @@ Wer in dieser neuen Realität keine Kontrolle darüber hat, ob seine Produkte in
 
 ### Echte Praxis-Case-Study: Von der Unsichtbarkeit zur ChatGPT-Quelle
 
-In meinen eigenen Kundenprojekten setze ich <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> primär ein, um die Durchschlagskraft strategischer Content-Kampagnen schwarz auf weiß nachzuweisen.
+In meinen eigenen Kundenprojekten setze ich <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> primär ein, um die Durchschlagskraft strategischer Content-Kampagnen schwarz auf weiß nachzuweisen.
 
 Ein konkretes Praxisbeispiel: Für einen mittelständischen E-Commerce-Anbieter im Bereich nachhaltige Verpackungen haben wir eine strukturierte Themenarchitektur aufgebaut. Nach exakt drei Monaten konsequenter Content-Veröffentlichung konnten wir über das Rankscale-Dashboard belegen:
 1. **ChatGPT** zitiert den Kunden bei Fachfragen zu biologisch abbaubaren Polstermaterialien nun an erster Stelle.
@@ -103,7 +103,8 @@ Wenn du wissen möchtest, wie deine Marke im KI-Universum dasteht oder wie du da
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Jetzt 17 Sprachmodelle mit Rankscale tracken</h3>
   <p class="text-dark text-sm mb-4">Sichere dir den direkten Einblick in deine KI-Sichtbarkeit und erfahre, wie ChatGPT, Claude und Perplexity deine Marke bewerten:</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Rankscale für dein Projekt testen →</a>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">Rankscale für dein Projekt testen * (Partnerlink) →</a>
+  <p class="text-[11px] text-gray-600 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 <!-- LinkedIn CTA Box -->

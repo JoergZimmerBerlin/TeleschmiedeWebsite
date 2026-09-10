@@ -27,7 +27,7 @@ faqs:
 
 Man kann sich im aktuellen Tool-Dschungel für Search und KI-Sichtbarkeit mühelos verlieren. Nahezu wöchentlich drängen neue Start-ups mit isolierten Nischenlösungen auf den Markt. Als Praktiker schätze ich jedoch zwei Dinge ganz besonders: vertraute, hochstabile Oberflächen und schnelle, durchdachte Innovationen. 
 
-Genau aus diesem Grund läuft das KI-Sichtbarkeitstool von <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> bei mir im täglichen Praxiseinsatz.
+Genau aus diesem Grund läuft das KI-Sichtbarkeitstool von <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a> bei mir im täglichen Praxiseinsatz.
 
 Die Suchlandschaft befindet sich im größten Umbruch seit zwei Jahrzehnten: Es geht längst nicht mehr nur um statische Top-10-Rankings in den blauen Google-Links, sondern um [GEO & Answer Engines](/blog/seo-wird-groesser-geo-welle/). Wir müssen als Berater und Agenturen auf Knopfdruck wissen, ob und in welchem Kontext unsere Marken in den großen Sprachmodellen als vertrauenswürdige Autorität ausgespielt werden.
 
@@ -112,7 +112,7 @@ Wer seine Kunden professionell durch die Transformation zur generativen Suche be
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Jetzt das KI-Sichtbarkeits-Tool von SE Ranking testen</h3>
   <p class="text-dark text-sm mb-4">Möchtest du genau wissen, wie deine Marke oder deine Kunden in ChatGPT, Perplexity und Google AI Overviews abschneiden? Nutze meinen offiziellen Partner-Link für einen unverbindlichen Einblick:</p>
-  <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">SE Ranking Agentur- & KI-Suite ansehen →</a>
+  <a href="https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">SE Ranking Agentur- & KI-Suite ansehen → (Partnerlink)</a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
@@ -126,7 +126,7 @@ Wer seine Kunden professionell durch die Transformation zur generativen Suche be
   </p>
   <a href="https://seranking.com/de/ki-sichtbarkeit-tools.html?ga=4169588&source=ki-sichtbarkeit" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt KI-Sichtbarkeit testen</span>
+    <span>Jetzt KI-Sichtbarkeit testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

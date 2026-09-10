@@ -165,7 +165,7 @@ Die Implementierung von RFC 9421 ist kein reines Nischenthema für Kryptografen,
 
 Unternehmen, die ihre Schnittstellen für das [A2A-Protokoll](/glossar/a2a-protocol/) vorbereiten oder automatisierte Abrechnungen über das [Machine Payment Protocol (MPP)](/glossar/machine-payment-protocol-mpp/) abwickeln möchten, schaffen mit RFC 9421 die notwendige Vertrauensbasis. Integrierte Umgebungen auf Basis von [Model Context Protocol (MCP)](/glossar/model-context-protocol-mcp/) profitieren ebenfalls von standardisierten Signaturen beim Aufruf entfernter Tools.
 
-Zur kontinuierlichen Absicherung deiner Web-Endpunkte und zur Überwachung technischer Verfügbarkeiten empfiehlt sich der Einsatz von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Für das systematische Tracking, wie oft und über welche Pfade autonome Systeme deine Marke in KI-gestützten Abfragen zitieren, bietet die Analyseplattform [Rankscale](https://rankscale.ai/?via=offer) spezialisierte Monitoring-Tools.
+Zur kontinuierlichen Absicherung deiner Web-Endpunkte und zur Überwachung technischer Verfügbarkeiten empfiehlt sich der Einsatz von [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link). Für das systematische Tracking, wie oft und über welche Pfade autonome Systeme deine Marke in KI-gestützten Abfragen zitieren, bietet die Analyseplattform [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) spezialisierte Monitoring-Tools.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

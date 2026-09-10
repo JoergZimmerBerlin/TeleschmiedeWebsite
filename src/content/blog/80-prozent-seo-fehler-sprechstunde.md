@@ -58,7 +58,7 @@ Während Geschäftsführungen und Marketing-Teams über generative KI, multimoda
 
 ## Die Hall of Shame: Die vier fatalsten Basics-Fehler
 
-Wenn wir in der Sprechstunde gemeinsam mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale](https://rankscale.ai/?via=offer) den Live-Audit durchführen, stoßen wir fast ausnahmslos auf dieselben vier Kardinalsünden:
+Wenn wir in der Sprechstunde gemeinsam mit [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) und [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) den Live-Audit durchführen, stoßen wir fast ausnahmslos auf dieselben vier Kardinalsünden:
 
 ![Die 4 häufigsten SEO-Basics-Fehler](../../assets/images/blog/seo-basics-80-20-deutsch-3d.webp)
 

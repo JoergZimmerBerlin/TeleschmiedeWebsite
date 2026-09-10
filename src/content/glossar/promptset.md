@@ -89,7 +89,7 @@ Die methodischen Unterschiede zwischen altem Keyword-Tracking und modernen Promp
 | **Output-Messung**| Feste Rank-Position (Platz 1 bis 100) | **Share of Model, Text-Sentiment & Zitationsquoten** |
 | **Volatilität** | Relativ träge Schwankungen über Tage/Wochen | **Dynamische Antworten abhängig von Modell-Updates** |
 | **Customer Journey**| Fokus auf isolierte Landingpage-Klicks | **Abdeckung der gesamten kognitiven Entscheidungsfindung** |
-| **Tool-Basis** | Traditionelle Rank-Tracker (z. B. [SE Ranking](https://seranking.com/?ga=2576921&subid=offer)) | **AI-Visibility Plattformen (z. B. [Rankscale](https://rankscale.ai/?via=offer))** |
+| **Tool-Basis** | Traditionelle Rank-Tracker (z. B. [SE Ranking (Partnerlink)](https://seranking.com/?ga=2576921&subid=offer)) | **AI-Visibility Plattformen (z. B. [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer))** |
 
 ## Der methodische Aufbau: Funnel-Mapping für Promptsets
 
@@ -200,7 +200,7 @@ Dieses Skript parst die exportierten Ergebnisse der Monitoring-Tools und berechn
 
 Das Promptset ist das zentrale Navigationsinstrument für die Markenführung in der KI-Ära. Wer seine Marktpräsenz in ChatGPT, Claude und Gemini nicht dem Zufall überlassen will, etabliert ein kontinuierliches Prompt-Monitoring.
 
-Etablierte Analyseplattformen wie [Rankscale](https://rankscale.ai/?via=offer) oder [SE Ranking](https://seranking.com/?ga=2576921&subid=offer) bieten hochentwickelte Schnittstellen, um Promptsets automatisiert zu überwachen. Die laufenden Softwarekosten für das KI-Monitoring lassen sich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) transparent kalkulieren. Wer tiefer in das Monitoring einsteigen möchte, findet in unserem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) eine vollständige Marktübersicht führender Suiten.
+Etablierte Analyseplattformen wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) oder [SE Ranking (Partnerlink)](https://seranking.com/?ga=2576921&subid=offer) bieten hochentwickelte Schnittstellen, um Promptsets automatisiert zu überwachen. Die laufenden Softwarekosten für das KI-Monitoring lassen sich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) transparent kalkulieren. Wer tiefer in das Monitoring einsteigen möchte, findet in unserem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) eine vollständige Marktübersicht führender Suiten.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

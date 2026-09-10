@@ -101,8 +101,8 @@ Texte müssen so strukturiert sein, dass generative Modelle Kernantworten mühel
 
 Wer die eigene Positionierung in Sprachmodellen nicht messen kann, steuert blind. Wir kombinieren in Kundenprojekten zwei spezialisierte Lösungen:
 
-- Mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) analysieren wir die klassischen Suchergebnisse sowie KI-Overviews auf SERP-Ebene. Wie das in der Praxis funktioniert, zeigt unser Praxisbericht zu [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/).
-- Mit [Rankscale](https://rankscale.ai/?via=offer) analysieren wir die Erwähnungen, Zitationsraten und Sentiment-Werte über 17 führende Sprachmodelle hinweg. Mehr dazu erfährst du in unserem Testbericht zum [Rankscale AI Visibility Tool](/blog/rankscale-ai-visibility-tool/).
+- Mit [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) analysieren wir die klassischen Suchergebnisse sowie KI-Overviews auf SERP-Ebene. Wie das in der Praxis funktioniert, zeigt unser Praxisbericht zu [SE Ranking KI-Sichtbarkeit](/blog/se-ranking-ki-sichtbarkeit/).
+- Mit [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) analysieren wir die Erwähnungen, Zitationsraten und Sentiment-Werte über 17 führende Sprachmodelle hinweg. Mehr dazu erfährst du in unserem Testbericht zum [Rankscale AI Visibility Tool](/blog/rankscale-ai-visibility-tool/).
 
 ## Empfehlung für deine Content- und Markenstrategie
 

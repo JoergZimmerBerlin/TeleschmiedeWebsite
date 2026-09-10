@@ -67,7 +67,7 @@ Der britische Marketingwissenschaftler Les Binet veranschaulicht das Zusammenspi
 | Kennzahl | Typus | Datenquelle | Strategische Bedeutung |
 | :--- | :--- | :--- | :--- |
 | **Share of Voice (SOV)** | Input-Metrik | Media-Spendings, Werbedruck, PR | Bestimmt den Bekanntheitsaufbau und Werbedruck |
-| **Share of Search (SoS)** | Frühindikator (*Leading*) | Google Trends, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Suchdaten | Prognostiziert zukünftige Nachfrage und Kaufabsicht |
+| **Share of Search (SoS)** | Frühindikator (*Leading*) | Google Trends, [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Suchdaten | Prognostiziert zukünftige Nachfrage und Kaufabsicht |
 | **Brand Share (SoM)** | Spätindikator (*Lagging*) | POS-Zahlen, ERP-Umsätze, Marktforschung | Bestätigt den wirtschaftlichen Erfolg vergangener Perioden |
 | **AI Share of Voice (AI SOV)** | Synthese-Metrik (2026) | Perplexity, ChatGPT, AI Overviews | Misst Empfehlungsdominanz in generativen Antwortmaschinen |
 
@@ -169,7 +169,7 @@ Damit KI-Agenten und Suchmaschinen eine Marke eindeutig als autoritative Entitä
 
 Eine zukunftssichere Markenüberwachung stützt sich 2026 auf drei Säulen:
 
-* **Kontinuierliches Share of Search Monitoring:** Durch das regelmäßige Tracking von Brand-Suchvolumina und Wettbewerber-Keywords mit professionellen Tools wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) lassen sich Trends frühzeitig quantifizieren.
+* **Kontinuierliches Share of Search Monitoring:** Durch das regelmäßige Tracking von Brand-Suchvolumina und Wettbewerber-Keywords mit professionellen Tools wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) lassen sich Trends frühzeitig quantifizieren.
 * **Messung des [AI Visibility Scores](/glossar/ai-visibility-score/):** Mithilfe strukturierter Prompts wird erfasst, wie oft und in welcher Tonalität generative Modelle die eigene Marke als Lösung vorschlagen.
 * **Entitäten-Stärkung im Semantic Web:** Gezielte PR, Fachartikel und sauberes technisches Schema-Markup stellen sicher, dass KI-Modelle das Unternehmen als unverzichtbare Autorität im Knowledge Graph führen.
 

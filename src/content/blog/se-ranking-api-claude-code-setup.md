@@ -35,13 +35,13 @@ Ergebnis: **10.000 API-Credits weg in einem Rutsch.**
 
 Das komplette Wochenbudget. Pulverisiert. Für eine Frage, die eigentlich einen Credit hätte kosten sollen - aber durch einen undokumentierten Endpoint-Preis eben 10.000 kostete.
 
-Und ich dachte mir: *Das kann ich mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> doch auch. Nur dass ich bei dem Fehler nicht noch mal hängen bleiben will.*
+Und ich dachte mir: *Das kann ich mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a> doch auch. Nur dass ich bei dem Fehler nicht noch mal hängen bleiben will.*
 
 Deshalb gibt es diesen Artikel. Ein Setup-Tutorial, bei dem das **Daily-Credit-Limit von Minute 1 dabei ist** - nicht nachträglich.
 
 ## Warum SE Ranking API + Claude Code
 
-[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) kenne ich aus der täglichen Arbeit als extrem verlässliche SEO API. Sichtbarkeits-Index, Keyword-Research, Backlink-Profile: Das All-in-One-Werkzeug, das ich seit Jahren für meine Kunden nutze. Claude Code wiederum ist seit ein paar Monaten mein zweiter Schreibtisch: kein Dashboard-Klick, sondern echte Skripte, die bleiben. Einmal geschrieben, immer reproduzierbar.
+[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) kenne ich aus der täglichen Arbeit als extrem verlässliche SEO API. Sichtbarkeits-Index, Keyword-Research, Backlink-Profile: Das All-in-One-Werkzeug, das ich seit Jahren für meine Kunden nutze. Claude Code wiederum ist seit ein paar Monaten mein zweiter Schreibtisch: kein Dashboard-Klick, sondern echte Skripte, die bleiben. Einmal geschrieben, immer reproduzierbar.
 
 Die Kombination aus starker SEO API und KI macht etwas Spezielles möglich: du baust dir dein eigenes SEO-Tooling. Kein SaaS on top, keine Zapier-Kette, keine Drittabhängigkeit. Nur deine Fragen, deine Daten, dein Report.
 
@@ -49,7 +49,7 @@ Persönliches Versprechen: Ich zeige dir genau den Weg, den ich gegangen bin - i
 
 ## Was du brauchst
 
-- [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Account mit API-Zugang (Core-Tarif reicht, Pro optional)
+- [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Account mit API-Zugang (Core-Tarif reicht, Pro optional)
 - Claude Code Installation (mac/windows/linux)
 - Terminal-Grundkenntnisse
 - ~30 Minuten Zeit
@@ -57,9 +57,9 @@ Persönliches Versprechen: Ich zeige dir genau den Weg, den ich gegangen bin - i
 
 ## Schritt 1: API-Key holen
 
-*(Falls du noch keinen Account hast: <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">Hier registrieren für einen SE Ranking Account inkl. API-Zugang</a>)*
+*(Falls du noch keinen Account hast: <a href="https://seranking.com/de/api.html?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">Hier registrieren für einen SE Ranking Account inkl. API-Zugang (Partnerlink)</a>)*
 
-Der Startpunkt ist denkbar einfach, aber extrem wichtig. Log dich in dein [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Dashboard ein, klick oben auf dein Profil und navigiere zu **Admin → API**. Hier findest du die Verwaltungsebene für deinen programmatischen Zugriff. Mit einem Klick auf "API-Schlüssel generieren" erzeugst du deinen persönlichen Token.
+Der Startpunkt ist denkbar einfach, aber extrem wichtig. Log dich in dein [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Dashboard ein, klick oben auf dein Profil und navigiere zu **Admin → API**. Hier findest du die Verwaltungsebene für deinen programmatischen Zugriff. Mit einem Klick auf "API-Schlüssel generieren" erzeugst du deinen persönlichen Token.
 
 ![SE Ranking Admin-Panel mit API-Key-Generierung (Key verpixelt)](../../assets/images/blog/se-ranking-api-dashboard.webp)
 
@@ -114,16 +114,16 @@ Meinen ersten echten Prompt an Claude Code habe ich fast eins zu eins so eingeti
 
 <div class="relative group my-8">
   <div class="bg-gray-50 border-l-4 border-lime-600 p-6 rounded-r-lg italic text-dark pr-12">
-    "Erstelle einen Python-Client für die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Data API. Base-URL `https://api.seranking.com`. Auth: Header `Authorization: Token {KEY}`. Plus Smoketest gegen `account/subscription`. Plus Tests mit pytest-mock. Key aus `.env.local` via python-dotenv."
+    "Erstelle einen Python-Client für die [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Data API. Base-URL `https://api.seranking.com`. Auth: Header `Authorization: Token {KEY}`. Plus Smoketest gegen `account/subscription`. Plus Tests mit pytest-mock. Key aus `.env.local` via python-dotenv."
   </div>
-  <button class="copy-prompt-btn absolute top-4 right-4 p-2 bg-white border border-gray-200 rounded shadow-sm text-gray-500 hover:text-lime-600 hover:border-lime-600 transition-colors" data-prompt="Erstelle einen Python-Client für die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Data API. Base-URL https://api.seranking.com. Auth: Header Authorization: Token {KEY}. Plus Smoketest gegen account/subscription. Plus Tests mit pytest-mock. Key aus .env.local via python-dotenv." title="Prompt kopieren">
+  <button class="copy-prompt-btn absolute top-4 right-4 p-2 bg-white border border-gray-200 rounded shadow-sm text-gray-500 hover:text-lime-600 hover:border-lime-600 transition-colors" data-prompt="Erstelle einen Python-Client für die [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Data API. Base-URL https://api.seranking.com. Auth: Header Authorization: Token {KEY}. Plus Smoketest gegen account/subscription. Plus Tests mit pytest-mock. Key aus .env.local via python-dotenv." title="Prompt kopieren">
     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
   </button>
 </div>
 
 Claude Code legt dir daraufhin eine absolut saubere und professionelle Struktur an. Du bekommst ein `scripts/seo_api/seranking.py` für deinen zentralen API-Client, ein ausführbares `scripts/seranking_smoke.py` für deinen Smoketest und einen separaten `tests/`-Ordner für deine Testfälle. Der Wrapper sitzt auf Anhieb, die Tests laufen grün durch und der gesamte Code ist sauber dokumentiert und committbar. Was früher einen halben Tag manuelle Fleißarbeit bedeutet hätte, ist hier in nicht einmal 10 Minuten erledigt. 
 
-Um dir zu veranschaulichen, wie das Ganze in der Praxis aufgebaut ist, habe ich dir hier eine kurze Architektur-Skizze mitgebracht. Sie zeigt exakt, wie der Request vom Nutzer über Claude Code und deinen eigenen Wrapper bis zur [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API durchgereicht wird:
+Um dir zu veranschaulichen, wie das Ganze in der Praxis aufgebaut ist, habe ich dir hier eine kurze Architektur-Skizze mitgebracht. Sie zeigt exakt, wie der Request vom Nutzer über Claude Code und deinen eigenen Wrapper bis zur [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) API durchgereicht wird:
 
 ![Architektur-Skizze: SE Ranking API & Claude Code Setup](../../assets/images/blog/se-ranking-claude-code-setup.webp)
 
@@ -191,11 +191,11 @@ Erwartete Ausgabe (aus meinem echten Log):
 }
 ```
 
-Wie das live im Terminal aussieht, siehst du in diesem Screenshot. Ein kurzer, knackiger Test, der dir in Sekundenbruchteilen bestätigt, dass deine Credentials sauber greifen und die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) Server erreichbar sind.
+Wie das live im Terminal aussieht, siehst du in diesem Screenshot. Ein kurzer, knackiger Test, der dir in Sekundenbruchteilen bestätigt, dass deine Credentials sauber greifen und die [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) Server erreichbar sind.
 
 ![Terminal mit grüner Smoketest-Ausgabe](../../assets/images/blog/seranking-smoketest-terminal.webp)
 
-Ein kleines Detail am Rande: Falls die API statt `expiration_date` das Feld `expiraton_date` liefert - ja, das ist ein echter Typo drüben bei [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) in der API. Nicht deiner. Mein Smoketest toleriert beide Schreibweisen. **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link), wenn ihr das lest: bitte fixen. 😉**
+Ein kleines Detail am Rande: Falls die API statt `expiration_date` das Feld `expiraton_date` liefert - ja, das ist ein echter Typo drüben bei [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) in der API. Nicht deiner. Mein Smoketest toleriert beide Schreibweisen. **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link), wenn ihr das lest: bitte fixen. 😉**
 
 ## Schritt 5: Der erste echte Call
 
@@ -215,9 +215,9 @@ Bei dem Setup hat mir übrigens die Truppe von <a href="https://polisys.de" targ
 
 Wenn du einmal den Wrapper hast, sind alle weiteren Endpunkte eine Sache von fünf Minuten. `backlinks/summary`, `research/keyword/questions`, `audit/audits/standard`: alles nach dem gleichen Muster. Du baust dir im Lauf einer Woche dein eigenes kleines SEO-Tooling, das deinem Workflow entspricht und nicht dem eines SaaS-Produktmanagers in San Francisco.
 
-<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> belohnt strukturierte Setups. Die API-Docs sind gut, die Endpunkte gut sortiert. Aber Daily-Limits muss man selbst bauen. Jetzt weißt du, wie.
+<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a> belohnt strukturierte Setups. Die API-Docs sind gut, die Endpunkte gut sortiert. Aber Daily-Limits muss man selbst bauen. Jetzt weißt du, wie.
 
-Im nächsten Teil der Serie sortiere ich, was die [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) API eigentlich alles kann: im [SE Ranking API Endpunkte Kompass](/blog/se-ranking-api-endpunkte-kompass/). Sechs Kategorien, Kosten-Tabelle, Use-Cases. Teuerste Abfrage: 7.500 Credits. Günstigste: null. Dazwischen liegt eine Menge SEO-Arbeit.
+Im nächsten Teil der Serie sortiere ich, was die [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) API eigentlich alles kann: im [SE Ranking API Endpunkte Kompass](/blog/se-ranking-api-endpunkte-kompass/). Sechs Kategorien, Kosten-Tabelle, Use-Cases. Teuerste Abfrage: 7.500 Credits. Günstigste: null. Dazwischen liegt eine Menge SEO-Arbeit.
 
 Spart euch den 10k-Schock. Baut das Limit jetzt.
 
@@ -231,7 +231,7 @@ Spart euch den 10k-Schock. Baut das Limit jetzt.
   </p>
   <a href="https://seranking.com/de/api.html?ga=4169588&source=api-setup" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt API testen</span>
+    <span>Jetzt API testen * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>

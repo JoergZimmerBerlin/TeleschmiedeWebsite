@@ -105,7 +105,7 @@ Die nachfolgende Tabelle veranschaulicht die methodischen Unterschiede zwischen 
 | **Zentrale Steuerungsmetrik** | Maximales monatliches Suchvolumen | Intent-Passung, Relevanz und Konversionspotenzial |
 | **Informationsarchitektur** | Silos mit Einzelseiten pro Keyword | Themencluster mit Pillar- und Cluster-Content |
 | **Suchsystem-Verhalten** | Exaktes Matching von Begriffen | Search Query Fan-Out & RAG-Zitationen |
-| **Tool-Einsatz** | Reine Keyword-Datenbanken (CSV-Export) | Plattformen wie [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) & KI-gestützte Intent-Modelle |
+| **Tool-Einsatz** | Reine Keyword-Datenbanken (CSV-Export) | Plattformen wie [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) & KI-gestützte Intent-Modelle |
 | **Erfolgsmessung** | Position der Zielseite auf Position 1–10 | Zitationshäufigkeit in KI-Antworten & qualifizierte Leads |
 
 ## Strukturierte Modellierung von Themenclustern
@@ -181,7 +181,7 @@ Um semantische Entitäten und Sub-Queries sauber in die eigene Website-Architekt
 
 Eine moderne Keywordrecherche gliedert sich in drei aufeinander aufbauende Phasen:
 
-1. **Datenerhebung & Wettbewerbsabgleich:** Zunächst werden historische Rankings und Lücken der Konkurrenz analysiert. Für diese umfassende Datenbasis empfiehlt sich der Einsatz von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), da die Plattform Keyword-Datenbanken, SERP-Historie und Content-Cluster-Tools in einer intuitiven Oberfläche bündelt.
+1. **Datenerhebung & Wettbewerbsabgleich:** Zunächst werden historische Rankings und Lücken der Konkurrenz analysiert. Für diese umfassende Datenbasis empfiehlt sich der Einsatz von [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link), da die Plattform Keyword-Datenbanken, SERP-Historie und Content-Cluster-Tools in einer intuitiven Oberfläche bündelt.
 2. **Entitäten- und Fan-Out-Modellierung:** Anschließend werden die identifizierten Begriffe mit realen Nutzerfragen angereichert. Durch gezielte Prompts in LLMs lassen sich die zu erwartenden Sub-Queries simulieren.
 3. **Architektur-Integration & Monitoring:** Die Begriffe werden in logische Cluster überführt und über interne Hyperlinks miteinander vernetzt.
 

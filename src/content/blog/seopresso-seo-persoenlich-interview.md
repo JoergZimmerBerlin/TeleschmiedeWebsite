@@ -46,7 +46,7 @@ Wie überlebt man ein Vierteljahrhundert in einer Branche, die sich alle zwei Ja
 
 Meine tägliche Arbeit ruht auf vier unverrückbaren Säulen:
 
-1. **Fundierte Primärdaten**: Keine Vermutungen. Ich verlasse mich täglich auf harte Daten aus Profiler-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">SE Ranking</a> und tracke generative Sichtbarkeiten mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="font-bold underline text-lime-700">Rankscale</a>.
+1. **Fundierte Primärdaten**: Keine Vermutungen. Ich verlasse mich täglich auf harte Daten aus Profiler-Tools wie <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">SE Ranking (Partnerlink)</a> und tracke generative Sichtbarkeiten mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="font-bold underline text-lime-700">Rankscale (Partnerlink)</a>.
 2. **Menschliche Kommunikation (80 % des Erfolgs)**: Du kannst der beste Coder sein – wenn du der Geschäftsführung nicht vermitteln kannst, warum technischer Schuldenabbau den Umsatz sichert, wirst du ignoriert.
 3. **SEO Feuerwehr & Krisenintervention**: Wenn nach einem Algorithmus-Update oder einem missglückten Relaunch der Traffic einbricht, braucht es keine theoretischen Whitepaper, sondern sofortige, strukturierte Brandbekämpfung.
 4. **Das Freelancer-Kollektiv**: Echte Professionalität bedeutet, die eigenen Grenzen zu kennen. Gemeinsam mit unserem Experten-Netzwerk lösen wir auch hochkomplexe Enterprise-Herausforderungen.
@@ -107,7 +107,7 @@ Wer mich – den Menschen hinter teleschmie.de – ungeschminkt kennenlernen mö
     Willst du den Menschen hinter den Daten?
   </h3>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
-    Ich helfe dir, deine organischen Ziele ohne theoretische Umwege zu erreichen. Wir analysieren deine Potenziale mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="underline text-lime-accent">SE Ranking</a> und steuern deine KI-Sichtbarkeit mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="underline text-lime-accent">Rankscale</a>.
+    Ich helfe dir, deine organischen Ziele ohne theoretische Umwege zu erreichen. Wir analysieren deine Potenziale mit <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="underline text-lime-accent">SE Ranking (Partnerlink)</a> und steuern deine KI-Sichtbarkeit mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="underline text-lime-accent">Rankscale (Partnerlink)</a>.
   </p>
   <a href="/kontakt/" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>

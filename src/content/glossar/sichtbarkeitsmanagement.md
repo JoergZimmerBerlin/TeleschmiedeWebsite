@@ -85,7 +85,7 @@ Auf dieser Ebene geht es um die Präsenz in synthetisierten Antworten generative
 | **Ziel-Format** | Snippet, Featured Snippet, Rich Result | Synthetisierter Absatz, Quellen-Fußnote, Empfehlung |
 | **Mess-Intervall** | Täglich bis wöchentlich fix | Dynamisch nach Modell-Updates & Crawl-Zyklen |
 | **Erfolgsmetrik** | Organischer Klick-Traffic, Impressions | AI Citation Share, LLM Referral Traffic |
-| **Tool-Empfehlung** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (Keyword- & SERP-Tracker) | [Rankscale](https://rankscale.ai/?via=offer) (LLM-Brand-Intelligence) |
+| **Tool-Empfehlung** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (Keyword- & SERP-Tracker) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (LLM-Brand-Intelligence) |
 
 ---
 
@@ -181,7 +181,7 @@ In der Beratungspraxis scheitern viele Initiativen an veralteten Management-Must
 
 Nachhaltiges Sichtbarkeitsmanagement funktioniert als fortlaufender Zyklus aus vier Phasen:
 
-*   **Audit & Basismessung:** Bestandsaufnahme aller organischen Rankings mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sowie Analyse der Zitationsanteile und des Markensentiments über [Rankscale](https://rankscale.ai/?via=offer).
+*   **Audit & Basismessung:** Bestandsaufnahme aller organischen Rankings mit [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) sowie Analyse der Zitationsanteile und des Markensentiments über [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer).
 *   **Identifikation von Informationslücken:** Abgleich der eigenen Inhalte mit Nutzer-Prompts. Welche spezifischen Detailfragen beantworten Wettbewerber präziser? Wo fehlt es an eigenen Daten oder Studien?
 *   **Strukturierte Content-Optimierung:** Überarbeitung von Kernseiten nach klaren Gliederungsprinzipien, Hinzufügen von FAQs und Ausbau der semantischen Entitäten im Quelltext.
 *   **Validierung & Iteration:** Regelmäßige Überprüfung der Zitationsstabilität nach Algorithmen- und Modell-Updates, um Sichtbarkeitsverluste sofort abzufangen.

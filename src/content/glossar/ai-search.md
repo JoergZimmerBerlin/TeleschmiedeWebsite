@@ -148,8 +148,8 @@ Um in der Welt der KI-Suche sichtbar zu bleiben, hat sich die Disziplin [Generat
 Der größte Fehler besteht in der Annahme, ein gutes Ranking bei Google garantiere Präsenz in Sprachmodellen. LLMs werten Quellen fundamental anders aus als der traditionelle Googlebot.
 
 Um die Sichtbarkeit systematisch zu erfassen, empfiehlt sich eine zweistufige Tool-Strategie:
-* Für das Onpage-Fundament, Core Web Vitals und das Monitoring in Google AI Overviews bietet [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) eine bewährte All-in-One-Suite.
-* Zur Messung von Zitationsquoten in ChatGPT, Claude und Perplexity kommt die Spezialplattform [Rankscale](https://rankscale.ai/?via=offer) zum Einsatz, die systematisch Prompts testet und den Share of Model ermittelt.
+* Für das Onpage-Fundament, Core Web Vitals und das Monitoring in Google AI Overviews bietet [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) eine bewährte All-in-One-Suite.
+* Zur Messung von Zitationsquoten in ChatGPT, Claude und Perplexity kommt die Spezialplattform [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) zum Einsatz, die systematisch Prompts testet und den Share of Model ermittelt.
 
 ## Zusammenfassung: Symbiose statt Verdrängung
 

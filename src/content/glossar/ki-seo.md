@@ -84,7 +84,7 @@ Um die Tragweite von KI SEO zu verstehen, müssen wir uns ansehen, wie sich die 
 | **Erfolgsmetrik** | Keyword-Positionen, CTR, Verweildauer | Zitationshäufigkeit, Markensentiment, [AI Visibility](/glossar/ai-visibility/) |
 | **Architektur** | HTML-DOM, Page Speed, interne Linkhierarchie | [llms.txt](/glossar/llms-txt/), semantisches Chunking, Vektor-Nähe |
 | **Vertrauensbasis** | PageRank & Backlink-Quantität | [E-E-A-T](/glossar/e-e-a-t/), Unlinked Mentions, Wikidata-Graphen |
-| **Tool-Ökosystem** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), Google Search Console | [Rankscale](https://rankscale.ai/?via=offer), Bing AI Performance |
+| **Tool-Ökosystem** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link), Google Search Console | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer), Bing AI Performance |
 
 ### 1. Das Primärziel: Klicks vs. "Share of Model"
 *   **Traditionell:** Du wolltest auf Position 1 stehen, damit der Nutzer deine Website klickt und dort Traffic erzeugt.
@@ -159,13 +159,17 @@ Das größte Problem im KI SEO ist aktuell die Messbarkeit. Google Analytics zei
 
 Du benötigst daher ein duales Tool-Setup:
 
-Für die klassische Sichtbarkeit und das handwerkliche SEO-Fundament (das wichtig bleibt, da KIs diese Daten zum Crawlen nutzen), greife ich auf <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> zurück. Hier überprüfe ich Rankings, Backlinks und die technische Gesundheit der Website.
+Für die klassische Sichtbarkeit und das handwerkliche SEO-Fundament (das wichtig bleibt, da KIs diese Daten zum Crawlen nutzen), greife ich auf <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a> zurück. Hier überprüfe ich Rankings, Backlinks und die technische Gesundheit der Website.
 
 Für das echte KI SEO Tracking führt aktuell kein Weg an spezialisierten Plattformen wie **[Rankscale](/glossar/rankscale/)** vorbei. Rankscale automatisiert tausende Prompts quer durch 17 verschiedene Sprachmodelle und zeigt dir exakt auf, in welchem LLM deine Marke in welchem Kontext erwähnt wurde. So machst du den Erfolg deiner GEO-Strategie messbar und belegbar.
 
-<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex items-center gap-2 my-4">
-  Rankscale testen und KI-Visibility analysieren &rsaquo;
-</a>
+<div class="my-6">
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex items-center gap-2">
+    <span>Rankscale testen und KI-Visibility analysieren * (Partnerlink)</span>
+    <span aria-hidden="true">&rsaquo;</span>
+  </a>
+  <p class="text-[11px] text-gray-500 mt-2 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
+</div>
 
 ## Zusammenfassung: Symbiose statt Konkurrenz
 

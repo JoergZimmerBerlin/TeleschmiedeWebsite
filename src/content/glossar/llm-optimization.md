@@ -139,9 +139,9 @@ export async function handleAgentRequest(request) {
 
 ## Monitoring: Messung des Share of Model
 
-Da klassische Analyse-Suiten wie Google Analytics den Zugriff von RAG-Pipelines nicht abbilden können, bedarf es spezialisierter Messwerkzeuge. Das führende Instrument zur Validierung Ihrer LLMO-Architektur ist [Rankscale](https://rankscale.ai/?via=offer). Die Software testet Ihre Kern-Prompts automatisiert über dutzende Sprachmodelle hinweg und misst die tatsächliche Zitationshäufigkeit (*Mention Rate*).
+Da klassische Analyse-Suiten wie Google Analytics den Zugriff von RAG-Pipelines nicht abbilden können, bedarf es spezialisierter Messwerkzeuge. Das führende Instrument zur Validierung Ihrer LLMO-Architektur ist [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer). Die Software testet Ihre Kern-Prompts automatisiert über dutzende Sprachmodelle hinweg und misst die tatsächliche Zitationshäufigkeit (*Mention Rate*).
 
-Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit generativen Präsenzen abgleicht, bietet die Plattform [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) umfangreiche Module für SERP- und KI-Audits.
+Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit generativen Präsenzen abgleicht, bietet die Plattform [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) umfangreiche Module für SERP- und KI-Audits.
 
 ## Die 3 häufigsten Fehler bei der LLM Optimization
 

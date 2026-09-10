@@ -138,7 +138,7 @@ Technische Sauberkeit und Crawlability bleiben unverzichtbare Voraussetzungen. A
 1. **llms.txt etablieren:** Lege eine standardkonforme `llms.txt` im Root-Verzeichnis deiner Domain an, die KI-Modellen eine saubere Inhaltsübersicht bietet.
 2. **Markdown Content Negotiation schalten:** Richte Serverregeln ein, um auf `Accept: text/markdown` blitzschnell formatfreies Markdown auszugeben.
 3. **Grounding Page aufbauen:** Erstelle eine zentrale Fakten-Seite, die Unternehmensdaten, Kennzahlen und Kernangebote maschinenlesbar bündelt.
-4. **Fokus auf RAG und Zitationen:** Strukturiere Fachartikel nach dem BLUF-Prinzip und nutze spezialisierte [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale](https://rankscale.ai/?via=offer) oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link), um deinen Share of Model verlässlich zu überwachen.
+4. **Fokus auf RAG und Zitationen:** Strukturiere Fachartikel nach dem BLUF-Prinzip und nutze spezialisierte [AI Tracking Tools](/glossar/ai-tracking-tools/) wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) oder [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link), um deinen Share of Model verlässlich zu überwachen.
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

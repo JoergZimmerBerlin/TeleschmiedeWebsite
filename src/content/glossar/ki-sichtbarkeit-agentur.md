@@ -107,7 +107,7 @@ Texte werden so strukturiert, dass sie modulare Informationseinheiten (Informati
 | **Datenanalyse** | Google Search Console, Google Analytics | LLM-Prompt-Tracking, Sentiment-Analysen |
 | **Fokus der Optimierung** | Keyword-Dichte, Snippet-CTR, Backlinks | Entitäten, RAG-Readiness, E-E-A-T Signale |
 | **Suchergebnis-Typ** | Blaue Hyperlinks auf Webseiten | Synthetisierte Antworten im Chat-Interface |
-| **Tool-Landschaft** | Standard-SEO-Suiten | Spezialisierte GEO-Tools wie [Rankscale](https://rankscale.ai/?via=offer) & [SE Ranking](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) |
+| **Tool-Landschaft** | Standard-SEO-Suiten | Spezialisierte GEO-Tools wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) & [SE Ranking (Partnerlink)](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) |
 
 ## Universelle Audit-Vorlage: Readiness-Check für KI-Beratung
 
@@ -183,7 +183,7 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
 
 ## Die 3 häufigsten Fehler bei der Auswahl einer KI-Agentur
 
-1. **Reine Buzzword-Reiter ohne Messmethodik beauftragen:** Viele Agenturen behaupten, AEO zu beherrschen, tracken aber weiterhin nur Google Search Console Klicks. Wer den Erfolg in Sprachmodellen nicht mit spezialisierten Systemen wie [Rankscale](https://rankscale.ai/?via=offer) oder [SE Ranking](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) quantifizieren kann, arbeitet auf Basis von Vermutungen.
+1. **Reine Buzzword-Reiter ohne Messmethodik beauftragen:** Viele Agenturen behaupten, AEO zu beherrschen, tracken aber weiterhin nur Google Search Console Klicks. Wer den Erfolg in Sprachmodellen nicht mit spezialisierten Systemen wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) oder [SE Ranking (Partnerlink)](https://seranking.com/de/se-ranking-for-agencies.html?ga=4169588&source=link) quantifizieren kann, arbeitet auf Basis von Vermutungen.
 2. **Vernachlässigung klassischer Qualitätsstandards:** Manche Berater setzen ausschließlich auf automatisierte Massengenerierung von KI-Texten. Ohne fundierte [Topical Authority](/glossar/topical-authority/) und echte Expertenzitate werden solche Inhalte von modernen Filteralgorithmen als unzuverlässiger Spam aussortiert.
 3. **Verharren im Klick-Denken:** Wenn Führungskräfte vom Dienstleister fordern, dass jede KI-Erwähnung messbaren Klick-Traffic auf die Landingpage erzeugen muss, verkennen sie das Wesen der Zero-Click-Suche. Im B2B-Umfeld entscheidet oft die bloße Präsenz in der KI-Zusammenfassung über die Aufnahme in den Einkäufer-Pitch.
 

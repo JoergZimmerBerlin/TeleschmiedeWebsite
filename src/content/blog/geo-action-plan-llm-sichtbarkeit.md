@@ -194,12 +194,13 @@ Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answe
     Willst du dein echtes KI-Ranking wissen?
   </h3>
   <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
-    Mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline font-bold">Rankscale Page Audit</a> siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten.
+    Mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-lime-accent hover:underline font-bold">Rankscale Page Audit (Partnerlink)</a> siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten.
   </p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">
-    <span>Rankscale Audit starten</span>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">
+    <span>Rankscale Audit starten * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 <!-- CTA Box -->

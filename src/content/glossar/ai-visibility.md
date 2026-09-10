@@ -76,7 +76,7 @@ Um die Hebel der KI-Sichtbarkeit wirkungsvoll zu steuern, müssen Marketingentsc
 | **Zentrale Metriken** | Keyword-Positionen, Organische Sitzungen, Bounce Rate | Mention Rate, Citation Frequency, Sentiment, AI SoV |
 | **Optimierungshebel** | Keyword-Dichte, Title-Tags, Backlink-Menge | [Entity SEO](/glossar/entity-seo/), Information Gain, Schema-Graphen |
 | **Architektur-Anforderung** | HTML-DOM, Core Web Vitals, Crawling-Budget | [llms.txt](/glossar/llms-txt/), semantische Chunking-Grenzen, RAG-Trust |
-| **Führende Tools** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (Rank Tracker & Audits) | [Rankscale](https://rankscale.ai/?via=offer) (LLM-Brand-Intelligence) |
+| **Führende Tools** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (Rank Tracker & Audits) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (LLM-Brand-Intelligence) |
 
 Ein Unternehmen kann für lukrative Suchbegriffe auf Platz 1 bei Google stehen und dennoch in den Antworten generativer Modelle unsichtbar sein, wenn die Inhalte nicht für die semantische Extraktion in [RAG-Pipelines](/glossar/rag/) strukturiert sind. Suchmaschinen wie Google bewerten Dokumente holistisch; RAG-Modelle hingegen zerlegen Seiten in kleine semantische Textblöcke (Chunks). Passen diese Chunks nicht präzise auf den Prompt des Nutzers, wird die Seite verworfen.
 

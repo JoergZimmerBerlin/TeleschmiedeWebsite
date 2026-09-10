@@ -73,7 +73,7 @@ In der generativen [AI Search](/glossar/ai-search/) agiert das System völlig an
 | **Content-Struktur** | Keyword-Optimierung & lange Scroll-Texte | Answer-First-Prinzip (BLUF) & atomare Chunks |
 | **Technische Basis** | HTML-Rendering & Core Web Vitals | Maschinenlesbares Markdown, Schema.org & APIs |
 | **Wettbewerbsumfeld** | 10 Plätze auf Seite 1 | 1 bis maximal 3 empfohlene Zitationsquellen |
-| **Monitoring-Tools** | Google Search Console, Google Analytics | [Rankscale](https://rankscale.ai/?via=offer) & [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracking |
+| **Monitoring-Tools** | Google Search Console, Google Analytics | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) & [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) AI Tracking |
 
 ## Die 3 Säulen erfolgreicher AI Search Optimization
 
@@ -178,7 +178,7 @@ Das folgende Schema demonstriert, wie Fachinhalte für RAG-Systeme maschinenlesb
 
 Der größte Fehler vieler Marketingteams ist der Versuch, den Erfolg von GEO mit herkömmlichen Werkzeugen zu messen. Die Google Search Console erfasst Chat-Abfragen aus ChatGPT oder Claude nicht. Wer hier den Überblick behalten will, benötigt einen modernen [LLM Rank Tracker](/glossar/llm-rank-tracker/).
 
-Als spezialisierte Lösung für das kontinuierliche Monitoring hat sich [Rankscale](https://rankscale.ai/?via=offer) etabliert. Die Plattform sendet automatisierte Prompts an führende Sprachmodelle und dokumentiert die exakte Mention Rate sowie das Sentiment der Erwähnungen. Für eine holistische Analyse, die klassische SERP-Daten mit KI-Sichtbarkeitsindizes verknüpft, bietet zudem [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) umfangreiche Analysemodule für die Wettbewerbsbeobachtung.
+Als spezialisierte Lösung für das kontinuierliche Monitoring hat sich [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) etabliert. Die Plattform sendet automatisierte Prompts an führende Sprachmodelle und dokumentiert die exakte Mention Rate sowie das Sentiment der Erwähnungen. Für eine holistische Analyse, die klassische SERP-Daten mit KI-Sichtbarkeitsindizes verknüpft, bietet zudem [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) umfangreiche Analysemodule für die Wettbewerbsbeobachtung.
 
 ## Die 3 häufigsten Fehler bei der AI Search Optimization
 

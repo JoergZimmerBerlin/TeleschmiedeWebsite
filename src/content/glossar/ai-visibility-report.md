@@ -106,8 +106,8 @@ Um belastbare Ergebnisse zu erzielen, arbeiten professionelle Reports mit einer 
 
 Für das fortlaufende Monitoring stehen spezialisierte [SEO-Visibility-Tools](/glossar/seo-visibility-tools/) bereit, die manuelle Testaufwände vollständig automatisieren:
 
-* **[Rankscale](https://rankscale.ai/?via=offer):** Die führende Standalone-Plattform für Generative Engine Optimization. Rankscale feuert Prompts vollautomatisch gegen mehr als 17 Sprachmodelle ab und generiert exportierbare Dashboards für C-Level-Meetings (siehe auch unseren ausführlichen [Rankscale-Test](/blog/rankscale-ai-visibility-tool/)).
-* **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) AI Tracker:** Wer klassische organische Platzierungen, Backlink-Audits und KI-Metriken in einer gemeinsamen Oberfläche konsolidieren will, nutzt das integrierte KI-Tracking von [SE Ranking](/glossar/se-ranking/).
+* **[Rankscale (Partnerlink)](https://rankscale.ai/?via=offer):** Die führende Standalone-Plattform für Generative Engine Optimization. Rankscale feuert Prompts vollautomatisch gegen mehr als 17 Sprachmodelle ab und generiert exportierbare Dashboards für C-Level-Meetings (siehe auch unseren ausführlichen [Rankscale-Test](/blog/rankscale-ai-visibility-tool/)).
+* **[SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) AI Tracker:** Wer klassische organische Platzierungen, Backlink-Audits und KI-Metriken in einer gemeinsamen Oberfläche konsolidieren will, nutzt das integrierte KI-Tracking von [SE Ranking](/glossar/se-ranking/).
 
 ## Zero-Click-Attribution: Den Wert für Stakeholder belegen
 

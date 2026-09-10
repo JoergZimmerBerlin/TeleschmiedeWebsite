@@ -84,7 +84,7 @@ Für Large Language Models ist die thematische Einbettung entscheidend. Wenn ein
 | **Wirkung auf KIs** | Schwach (oft ohne Textkontext) | Extrem stark (Ko-Okkurrenz & Sentiment) |
 | **Content-Formate** | Eingekaufte Gastartikel, Blog-Kommentare | Primärdaten-Studien, Experten-Interviews, Whitepaper |
 | **Metriken** | Domain Rating, Verlinkende Domains | AI Mention Share, [Authoritativeness (E-E-A-T)](/glossar/authoritativeness-eeat/) |
-| **Tool-Einsatz** | [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) (Backlink-Checker) | [Rankscale](https://rankscale.ai/?via=offer) (LLM-Brand-Intelligence) |
+| **Tool-Einsatz** | [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link) (Backlink-Checker) | [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) (LLM-Brand-Intelligence) |
 
 ## 2. Die Währung der Journalisten: Primärdaten und Linkable Assets
 

@@ -176,7 +176,7 @@ Die Preisstruktur skaliert sauber mit deinen Anforderungen (Abrechnung in US-Dol
 *   **Growth (385 $/Monat):** Der Agentur-Tarif. 5.500 Credits, 50 Dashboards, White-Label-Optionen und REST API.
 *   **Enterprise (780 $/Monat):** Für riesige Setups mit 12.000 Credits.
 
-<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 bg-lime-accent text-dark font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-all shadow-md">➡️ Rankscale jetzt testen</a>
+<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="inline-block mt-4 bg-lime-accent text-dark font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-all shadow-md">➡️ Rankscale jetzt testen * (Partnerlink)</a>
 
 ### 2.2 SE Ranking AI Tracker: Der All-in-One Champion für Agenturen
 
@@ -195,7 +195,7 @@ Besonders stark ist die historische Datenaufbereitung. Du siehst sofort, ab welc
 Hier spielt SE Ranking seinen ultimativen Trumpf aus. Während viele Tool-Anbieter für AI-Features happige Extra-Gebühren verlangen, ist der AI Tracker bei SE Ranking **in den Core-Plänen integriert**.
 Wenn du dich für eine jährliche Zahlweise entscheidest (was oft 20% Rabatt bringt), bekommst du die hochprofessionellen Pro- oder Business-Pläne oft schon für **unter 100 Euro im Monat**. In diesem Preis hast du nicht nur das AI Tracking, sondern ein vollwertiges klassisches SEO-Tool, Backlink-Monitoring, Site-Audits und White-Label-Reporting für Kunden inklusive. Ein absoluter No-Brainer für Agenturen.
 
-<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 bg-lime-accent text-dark font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-all shadow-md">➡️ SE Ranking inkl. AI Tracker ansehen</a>
+<a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="inline-block mt-4 bg-lime-accent text-dark font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-all shadow-md">➡️ SE Ranking inkl. AI Tracker ansehen (Partnerlink)</a>
 
 ### 2.3 Sistrix: Das SEO-Schwergewicht rüstet für die KI-Ära
 

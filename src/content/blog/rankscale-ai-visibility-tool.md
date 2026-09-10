@@ -29,7 +29,7 @@ Die entscheidende Fragestellung im Zeitalter von [Generative Engine Optimization
 
 Über Monate hinweg war dieses Thema ein reines Ratespiel. Man tippte sporadisch einen Prompt in ChatGPT ein: *„Welche SEO-Berater in Berlin kannst du empfehlen?“* Wenn der eigene Name fiel, war die Freude groß. Wenn nicht, wusste man weder den Grund noch die Systematik dahinter. Keine belastbaren Daten, keine Vergleichswerte, keine historische Entwicklung.
 
-Genau an diesem Schmerzpunkt setzt <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> an. In meiner täglichen Praxis nutze ich die Plattform parallel zu <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a>, um die Brücke zwischen klassischem Suchmaschinen-Ranking und generativer Empfehlungs-Präsenz lückenlos zu schließen.
+Genau an diesem Schmerzpunkt setzt <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> an. In meiner täglichen Praxis nutze ich die Plattform parallel zu <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored">SE Ranking (Partnerlink)</a>, um die Brücke zwischen klassischem Suchmaschinen-Ranking und generativer Empfehlungs-Präsenz lückenlos zu schließen.
 
 ![Rankscale AI Visibility Suite](../../assets/images/blog/rankscale-sentiment-radar-3d.webp)
 
@@ -104,14 +104,15 @@ Wer nur ein einziges System analysiert, verliert mehr als die Hälfte seiner pot
 
 ### Tacheles-Urteil: Wann lohnt sich das Investment?
 
-<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> versucht nicht, die zehnte All-in-One-SEO-Suite nachzubauen. Der absolute Fokus liegt auf der Messung und Optimierung generativer Sichtbarkeit. Der Support reagiert zügig und neue Sprachmodelle werden zügig nachgepflegt.
+<a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> versucht nicht, die zehnte All-in-One-SEO-Suite nachzubauen. Der absolute Fokus liegt auf der Messung und Optimierung generativer Sichtbarkeit. Der Support reagiert zügig und neue Sprachmodelle werden zügig nachgepflegt.
 
 In meiner [SEO-Sprechstunde](/seo-sprechstunde/) erleben wir regelmäßig Aha-Momente, wenn wir mit Kunden die tatsächliche Wahrnehmung ihrer Marke in den KI-Engines analysieren. Daten schlagen Bauchgefühl in jedem einzelnen Fall.
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Möchtest du wissen, wie KIs über dein Unternehmen urteilen?</h3>
   <p class="text-dark text-sm mb-4">Hör auf zu raten und mach deine KI-Reputation messbar. Mit Rankscale überwachst du 17 führende LLMs und sicherst deinen Wettbewerbsvorsprung:</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Rankscale für dein Unternehmen testen →</a>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">Rankscale für dein Unternehmen testen * (Partnerlink) →</a>
+  <p class="text-[11px] text-gray-600 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 <!-- LinkedIn CTA Box -->

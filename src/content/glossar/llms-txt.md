@@ -145,7 +145,7 @@ In der Praxis zeigt sich, dass eine statische Datei nur ein Baustein moderner [A
 
 Unabhängig vom gewählten Format bleibt die wichtigste Währung im maschinellen Web die Vertrauenswürdigkeit deiner Daten. Nur wer seine Kernaussagen auf einer transparenten [Grounding Page](/glossar/grounding-page/) verankert und thematische Autorität über konsistente Wissensgraphen aufbaut, wird von Antwortmaschinen zuverlässig zitiert.
 
-Zur systematischen Überwachung deiner Onpage-Architektur und Identifikation fehlerhafter Linkstrukturen eignet sich [SE Ranking](https://seranking.com/de/?ga=4169588&source=link). Für die genaue Analyse, wie oft und in welchen semantischen Clustern Sprachmodelle deine Marke erwähnen, bietet die Monitoring-Plattform [Rankscale](https://rankscale.ai/?via=offer) fundierte Einblicke in deine generative Sichtbarkeit.
+Zur systematischen Überwachung deiner Onpage-Architektur und Identifikation fehlerhafter Linkstrukturen eignet sich [SE Ranking (Partnerlink)](https://seranking.com/de/?ga=4169588&source=link). Für die genaue Analyse, wie oft und in welchen semantischen Clustern Sprachmodelle deine Marke erwähnen, bietet die Monitoring-Plattform [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) fundierte Einblicke in deine generative Sichtbarkeit.
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
   <div class="flex items-start justify-between gap-4 mb-3">

@@ -31,7 +31,7 @@ Wir sprechen im modernen Suchmaschinenmarketing längst nicht mehr ausschließli
 
 Das Dilemma für Einsteiger und Solopreneure war bislang offensichtlich: **Wie misst man diesen neuen Kanal, ohne tausende Euro für unbezahlbare Enterprise-Software auszugeben?**
 
-Entweder verbrachte man Stunden mit manuellen Prompts in fünf verschiedenen Browser-Tabs – oder man flog mangels Datenbasis komplett blind. Genau an dieser Stelle schließt das Essentials-Paket von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> die Lücke zwischen Anspruch und Bezahlbarkeit.
+Entweder verbrachte man Stunden mit manuellen Prompts in fünf verschiedenen Browser-Tabs – oder man flog mangels Datenbasis komplett blind. Genau an dieser Stelle schließt das Essentials-Paket von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> die Lücke zwischen Anspruch und Bezahlbarkeit.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
@@ -61,7 +61,7 @@ Entweder verbrachte man Stunden mit manuellen Prompts in fünf verschiedenen Bro
 
 ### Preis-Leistung auf den Punkt gebracht: Der 20-Euro-Deal
 
-Wer heute kein AI-Tracking betreibt, agiert im Blindflug. Doch niemand muss zu Beginn direkt dreistellige Beträge pro Monat binden. Das Essentials-Paket von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> ist eine klare Empfehlung für Freelancer, Berater und kleine Unternehmen:
+Wer heute kein AI-Tracking betreibt, agiert im Blindflug. Doch niemand muss zu Beginn direkt dreistellige Beträge pro Monat binden. Das Essentials-Paket von <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> ist eine klare Empfehlung für Freelancer, Berater und kleine Unternehmen:
 
 * **20 Euro pro Monat** bei monatlicher Kündbarkeit
 * **17 Euro pro Monat** im Jahresabonnement (weniger als die tägliche Tasse Kaffee)
@@ -81,7 +81,7 @@ Wer heute kein AI-Tracking betreibt, agiert im Blindflug. Doch niemand muss zu B
 
 ### Die Geheimwaffe: Maximale Flexibilität bei den Modellen
 
-Was <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> im Kern auszeichnet, ist die Vielfalt der angebundenen Engines. Wir leben nicht mehr in einem Monopol: OpenAI dominiert die allgemeine Wahrnehmung, doch Perplexity gilt als führende Antwortmaschine für Echtzeit-Quellen, Claude liefert überragende semantische Tiefe und Google Gemini ist tief in die Google-Suche verwoben.
+Was <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored">Rankscale (Partnerlink)</a> im Kern auszeichnet, ist die Vielfalt der angebundenen Engines. Wir leben nicht mehr in einem Monopol: OpenAI dominiert die allgemeine Wahrnehmung, doch Perplexity gilt als führende Antwortmaschine für Echtzeit-Quellen, Claude liefert überragende semantische Tiefe und Google Gemini ist tief in die Google-Suche verwoben.
 
 ![AI Visibility Trichter - Der Prozess von Content zu Daten](../../assets/images/blog/ai-visibility-trichter.webp)
 
@@ -112,7 +112,8 @@ Wenn du Unterstützung bei der Einrichtung oder der strategischen Interpretation
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Werde jetzt zum Vorreiter in der KI-Sichtbarkeit</h3>
   <p class="text-dark text-sm mb-4">Sichere dir das Rankscale Essentials-Paket für nur 17 € monatlich im Jahresplan und starte dein systematisches KI-Monitoring noch heute:</p>
-  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">Rankscale Essentials-Paket ansehen →</a>
+  <a href="https://rankscale.ai/pricing?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">Rankscale Essentials-Paket ansehen * (Partnerlink) →</a>
+  <p class="text-[11px] text-gray-600 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 <!-- LinkedIn CTA Box -->

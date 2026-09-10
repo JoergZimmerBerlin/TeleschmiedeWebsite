@@ -56,7 +56,7 @@ Die Auswertung von Tonalitäten in frei formulierten Textantworten unterscheidet
 
 ### 1. Kontextuelle Tonalitätsklassifizierung
 
-Wenn spezialisierte Systeme wie **[Rankscale](https://rankscale.ai/features/ai-sentiment-analysis?via=offer)** deine definierten Ziel-Prompts über mehr als 17 verschiedene AI-Engines hinweg ausführen, fallen Hunderte synthetisierter Antworten an. Die Sentiment-Engine bewertet den semantischen Kontext jedes Satzes und ordnet die Nennung deterministisch einer von drei Kategorien zu: **Positiv**, **Neutral** oder **Negativ**.
+Wenn spezialisierte Systeme wie **[Rankscale (Partnerlink)](https://rankscale.ai/features/ai-sentiment-analysis?via=offer)** deine definierten Ziel-Prompts über mehr als 17 verschiedene AI-Engines hinweg ausführen, fallen Hunderte synthetisierter Antworten an. Die Sentiment-Engine bewertet den semantischen Kontext jedes Satzes und ordnet die Nennung deterministisch einer von drei Kategorien zu: **Positiv**, **Neutral** oder **Negativ**.
 
 ### 2. Deskriptoren- und Keyword-Extraktion
 
@@ -97,7 +97,7 @@ Ein solches Markup verhindert Missverständnisse beim Semantic Chunking und lief
 
 ## Visualisierung im Sentiment Radar und Wettbewerbs-Benchmarking
 
-Besonders wertvoll wird die AI Sentiment Analysis durch den direkten Vergleich mit der Konkurrenz. Im sogenannten **Sentiment Radar** bilden Plattformen wie [Rankscale](https://rankscale.ai/?via=offer) die fünf am häufigsten genannten Attribute jeder Kategorie grafisch ab. 
+Besonders wertvoll wird die AI Sentiment Analysis durch den direkten Vergleich mit der Konkurrenz. Im sogenannten **Sentiment Radar** bilden Plattformen wie [Rankscale (Partnerlink)](https://rankscale.ai/?via=offer) die fünf am häufigsten genannten Attribute jeder Kategorie grafisch ab. 
 
 Du erkennst auf einen Blick:
 - Welche Stärken schreiben Sprachmodelle deinem Hauptkonkurrenten zu?

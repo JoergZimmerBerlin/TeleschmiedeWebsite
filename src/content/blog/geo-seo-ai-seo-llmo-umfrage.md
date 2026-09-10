@@ -69,13 +69,13 @@ Lass uns mal die einzelnen Begriffe sezieren. Denn hinter jeder Abkürzung steck
 
 ### GEO (Generative Engine Optimization) – Der klare Favorit
 
-Mit 50% scheint sich [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) als Begriff durchzusetzen – zumindest in meiner Bubble. Und das hat gute Gründe. Der Begriff wurde maßgeblich durch eine Studie von Forschern (u.a. von Princeton und Georgia Tech) geprägt. Er macht Sinn, weil er anerkennt, dass wir es nicht mehr nur mit klassischen Suchmaschinen (Search Engines) zu tun haben, die einen Index durchsuchen. Wir haben es mit generativen Systemen zu tun, die Antworten *erzeugen*.
+Mit 50% scheint sich [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) als Begriff durchzusetzen – zumindest in meiner Bubble. Und das hat gute Gründe. Der Begriff wurde maßgeblich durch eine Studie von Forschern (u.a. von Princeton und Georgia Tech) geprägt. Er macht Sinn, weil er anerkennt, dass wir es nicht mehr nur mit klassischen Suchmaschinen (Search Engines) zu tun haben, die einen Index durchsuchen. Wie ich bereits in meinem [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/) dargelegt habe, haben wir es mit generativen Systemen zu tun, die Antworten *erzeugen*.
 
 Wenn du für Perplexity, Claude oder ChatGPT optimierst, spielst du nach anderen Regeln. Es geht um **Semantic Richness**, um das Liefern von Quellen, die so präzise sind, dass die KI sie nicht "halluzinieren" muss. GEO ist die Anerkennung, dass der Kanal sich fundamental ändert.
 
 ### AI SEO – Der pragmatische Ansatz
 
-22% bleiben bei AI SEO. Das ist die Bezeichnung für alle, die sagen: "Hey, es ist SEO, aber die Tools sind jetzt AI-powered." Das ist ein wenig wie "Digitalfotografie" statt nur "Fotografie". Es beschreibt eher den Prozess als das Ziel. Für viele Kunden ist AI SEO auch leichter zu verstehen als GEO. Wer will schon "generative Engines" optimieren, wenn er eigentlich "KI-Sichtbarkeit" meint?
+22% bleiben bei AI SEO. Das ist die Bezeichnung für alle, die sagen: "Hey, es ist SEO, aber die Tools sind jetzt AI-powered." Das ist ein wenig wie "Digitalfotografie" statt nur "Fotografie". Es beschreibt eher den Prozess als das Ziel. Gleichzeitig wächst mit [Agentic SEO](/blog/geo-seo-agentic-eigene-disziplin/) das Verständnis, dass KI-Agenten und autonome Bots eigenständige Workflows steuern. Auch das Monitoring wandelt sich drastisch: Spezialisierte Tools wie der [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/) oder [Rankscale](/blog/rankscale-ai-visibility-tool/) tracken Brand Mentions direkt in LLM-Antworten. Für viele Kunden ist AI SEO dennoch leichter zu verstehen als GEO. Wer will schon "generative Engines" optimieren, wenn er eigentlich "KI-Sichtbarkeit" meint?
 
 ### SEO – Die Traditionalisten (oder Realisten?)
 
@@ -85,7 +85,7 @@ Das ist eine sehr bodenständige Sichtweise. Sie impliziert: Verliere dich nicht
 
 ### LLMO (Large Language Model Optimization) – Die Nerds
 
-Mit 8% abgeschlagen, aber technisch am präzisesten. LLMO beschreibt genau, was wir tun: Ein Modell optimieren. Aber seien wir ehrlich: Wer das gegenüber einem Kunden erwähnt, sieht meist in leere Augen. Es ist zu technisch, zu wenig "Marketing".
+Mit 8% abgeschlagen, aber technisch am präzisesten. [LLMO (Large Language Model Optimization)](/glossar/llmo/) beschreibt genau, was wir tun: Ein Sprachmodell und dessen Kontextfenster für unsere Entitäten optimieren. Aber seien wir ehrlich: Wer das gegenüber einem Kunden erwähnt, sieht meist in leere Augen. Es ist zu technisch, zu wenig "Marketing".
 
 ## Meine ganz persönliche Meinung zu dem Namens-Hype
 
@@ -110,7 +110,7 @@ Aber eines ist sicher: Wer glaubt, er könne das Thema aussitzen, wird von denen
 Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte so gut sind, dass keine KI an dir vorbeikommt. 
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -123,12 +123,3 @@ Ob du es nun GEO nennst oder bei SEO bleibst – sorg dafür, dass deine Inhalte
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
-* **Lese-Tipp:** [Agentic SEO: Warum GEO eine eigene Disziplin ist](/blog/geo-seo-agentic-eigene-disziplin/)
-* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
-* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
-* **Lese-Tipp:** [Was ist eigentlich LLMO?](/glossar/llmo/)

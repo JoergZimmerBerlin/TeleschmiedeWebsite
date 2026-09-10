@@ -88,7 +88,7 @@ Deshalb ist Vorbereitung alles: Wärm den Algorithmus auf. Bevor du selbst sende
 
 ## Kommentare sind das neue Gold (und harte Arbeit)
 
-Ein einziger, verdammt guter Kommentar unter einem starken Beitrag bringt dir oft mehr qualifizierte Profilaufrufe als drei mittelmäßige eigene Posts. Das ist reines, aktives Outreach.
+Ein einziger, verdammt guter Kommentar unter einem starken Beitrag bringt dir oft mehr qualifizierte Profilaufrufe als drei mittelmäßige eigene Posts. Das ist reines, aktives Outreach. Wer dabei nur generische KI-Phrasen abfeuert (wie ich es im Experiment [Wenn AI-Agenten deinen LinkedIn-Feed kapern](/blog/ai-agent-weihnachtsgruesse-linkedin/) getestet habe), wird sofort abgestraft. Echte Resonanz entsteht nur durch Substanz.
 
 **Antonio Blago** hat das in der Diskussion extrem ehrlich zusammengefasst:
 > *"LinkedIn ist total ein Long Time Game. Feedpflege ist absolut wichtig. Ich schreibe pro Woche 60 bis 100 Kommentare. Das ist Arbeit, die sich lohnt."*
@@ -116,7 +116,7 @@ Genau das ist es. Wir haben das Wissen, wir haben die Technik – wir müssen es
 Wie ich beim Stammtisch sagte: **Jeder für sich, aber am Ende alle zusammen.** Je mehr wir uns gegenseitig pushen und echte, tiefe Diskussionen führen, desto sichtbarer wird die gesamte echte SEO-Bubble. Keine Einzelkämpfer-Shows mehr.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -129,10 +129,4 @@ Wie ich beim Stammtisch sagte: **Jeder für sich, aber am Ende alle zusammen.** 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [Wenn AI-Agenten deinen LinkedIn-Feed kapern](/blog/ai-agent-weihnachtsgruesse-linkedin/)
-* **Lese-Tipp:** [Freelancer-Team auf der OMR Hamburg](/blog/freelancer-team-omr-hamburg/)
 

@@ -28,7 +28,7 @@ Als ich das erste Mal davon hörte, dachte ich: "Schon wieder ein Tool?" Aber da
 
 ## Was kann der SE Ranking AI Tracker wirklich?
 
-[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) kennt man ja. Es ist das robuste Arbeitstier in vielen SEO-Agenturen weltweit. Keyword-Tracking, Backlink-Audits, technisches Crawling – das machen sie seit Jahren grundsolide. Nun erweitern sie ihr Portfolio um die KI-Sichtbarkeit, und das haben sie ziemlich clever in ihr bestehendes Ökosystem integriert, wie ich auch in meinem [SE Ranking Test 2026](/blog/se-ranking-test-2026/) analysiert habe.
+[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) kennt man ja. Es ist das robuste Arbeitstier in vielen SEO-Agenturen weltweit. Keyword-Tracking mit dem [SE Ranking Rank Tracker](/glossar/se-ranking-rank-tracker/), Backlink-Audits, technisches Crawling – das machen sie seit Jahren grundsolide. Nun erweitern sie ihr Portfolio um die KI-Sichtbarkeit, und das haben sie ziemlich clever in ihr bestehendes Ökosystem integriert, wie ich auch in meinem [SE Ranking Test 2026](/blog/se-ranking-test-2026/) analysiert habe.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
@@ -46,7 +46,7 @@ Als ich das erste Mal davon hörte, dachte ich: "Schon wieder ein Tool?" Aber da
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Wenn die großen Player AI-Tracking integrieren, ist die Zeit der SEO-Esoterik vorbei. Jetzt regieren harte Daten auch in den KI-Suchmaschinen.“
+    „KI-Sichtbarkeit ist kein Zufall, sondern das Ergebnis von klarer Entitäten-Arbeit und technischer Präzision. Wer seine Marke nicht im Prompt-Gedächtnis der LLMs verankert, wird in der neuen Such-Ära unsichtbar.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
@@ -56,7 +56,7 @@ Als ich das erste Mal davon hörte, dachte ich: "Schon wieder ein Tool?" Aber da
   </figcaption>
 </figure>
 
-Der **AI Tracker** von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) liefert Antworten auf Fragen, die vor einem Jahr noch niemand gestellt hat:
+Der **AI Tracker** von [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) fungiert als spezialisierter [AI Rank Tracker](/glossar/ai-rank-tracker/) und liefert Antworten auf Fragen, die vor einem Jahr noch niemand gestellt hat:
 
 ### 1. Die Sichtbarkeit in der KI-Antwort
 Wo genau tauchst du in den AI-Suchergebnissen (z. B. Google AI Overviews oder SGE) auf? Es geht nicht mehr nur um Blau-auf-Blau-Links, sondern um die Frage: Erwähnt die KI dich als vertrauenswürdige Quelle? Der Tracker schaut tief in die generierten Texte und identifiziert deine Domain.
@@ -77,19 +77,19 @@ Stell dir vor, du sitzt im Meeting mit der Geschäftsführung und sie fragen: "W
 
 ## SE Ranking vs. Rankscale: Der Kampf der Giganten
 
-Die Frage, die mir auf LinkedIn am häufigsten gestellt wurde: "Jörg, soll ich jetzt [Rankscale](https://rankscale.ai/?via=offer) nutzen oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link)?"
+Die Frage, die mir auf LinkedIn am häufigsten gestellt wurde: "Jörg, soll ich jetzt [Rankscale](/blog/rankscale-ai-visibility-tool/) nutzen oder [SE Ranking](https://seranking.com/de/?ga=4169588&source=link)?"
 
 Meine Antwort: Es kommt darauf an (der klassische SEO-Satz, ich weiß).
-- **[Rankscale](https://rankscale.ai/?via=offer)** (aus Österreich) ist der spezialisierte Underdog. Sie brennen für das Thema, sind extrem schnell in der Entwicklung und tracken gleich 17 verschiedene LLMs. Das ist für die absoluten Strategen und Daten-Nerds.
+- **Rankscale** (aus Österreich) ist der spezialisierte Underdog. Sie brennen für das Thema, sind extrem schnell in der Entwicklung und tracken gleich 17 verschiedene LLMs. Das ist für die absoluten Strategen und Daten-Nerds.
 - **[SE Ranking](https://seranking.com/de/?ga=4169588&source=link)** ist die All-in-one-Lösung. Wenn du ohnehin schon dort bist, ist die Integration des AI Trackers ein No-Brainer. Du hast alles an einem Ort, ein Login, ein Rechnungsbeleg. Das spart Zeit und Nerven.
 
 Am Ende ist es wie bei Canon vs. Nikon. Beide machen gute Fotos. Wichtig ist, DASS du anfängst zu fotografieren (bzw. zu tracken).
 
 ## Meine persönliche Einschätzung: Die Normalisierung des Wahnsinns
 
-Dass [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) dieses Feature gelauncht hat, ist ein Signal an die gesamte Branche. Es normalisiert das Thema [Generative Engine Optimization (GEO)](/glossar/generative-engine-optimization/). Wir müssen aufhören, KI-Sichtbarkeit als "Magic Voodoo" zu betrachten. Es ist ein messbarer Kanal, genau wie Paid Search oder Organisch.
+Dass [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) dieses Feature gelauncht hat, ist ein Signal an die gesamte Branche. Es normalisiert das Thema [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/). Wir müssen aufhören, KI-Sichtbarkeit als "Magic Voodoo" zu betrachten. Es ist ein messbarer Kanal, genau wie Paid Search oder Organisch.
 
-Der Markt für AI Tracking Tools wird in den nächsten 12 Monaten explodieren. Ahrefs, Semrush und Sistrix werden nachziehen müssen. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat hier einen mutigen Schritt gemacht und ich bin gespannt, wie tief sie das Thema Sentiment-Analyse noch treiben werden. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> haben wir bereits ein Tool, das spezialisierter ist, während <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> die Integration in den Arbeitsalltag meistert.
+Der Markt für AI Tracking Tools wird in den nächsten 12 Monaten explodieren. Ahrefs, Semrush und Sistrix werden nachziehen müssen (lies dazu auch meinen Vergleich [Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/) sowie den Tarif-Check [SE Ranking Preise](/blog/se-ranking-preise/)). [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat hier einen mutigen Schritt gemacht und ich bin gespannt, wie tief sie das Thema Sentiment-Analyse noch treiben werden. Mit <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a> haben wir bereits ein Tool, das spezialisierter ist, während <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> die Integration in den Arbeitsalltag meistert.
 
 ### Tacheles am Ende
 
@@ -98,11 +98,11 @@ Wir befinden uns in der größten Transformation der Suche seit dem Start von Go
 Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen Gefallen: Ignoriere das Thema nicht. Die Kunden von heute fragen vielleicht noch nach Google-Rankings. Die Kunden von morgen fragen, warum sie in der KI-Antwort nicht stattfinden. Sei vorbereitet.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über Erfahrungen mit dem SE Ranking AI Tracker.
   </p>
   <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_anfang-des-jahres-ist-eine-gute-zeit-%C3%BCber-activity-7413894079392120832-3qiu" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -111,10 +111,3 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool das ich empfehlen kann](/blog/rankscale-ai-visibility-tool/)
-* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)
-* **Lese-Tipp:** [SE Ranking Preise: Der Guide für Experten](/blog/se-ranking-preise/)

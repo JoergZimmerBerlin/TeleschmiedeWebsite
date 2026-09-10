@@ -32,7 +32,7 @@ Diese Frage höre ich in jeder [SEO-Sprechstunde](/seo-sprechstunde/), und die A
 
 <div class="my-12 bg-gray-50 border border-gray-100 p-8 rounded-3xl shadow-sm">
   <h3 class="text-xl font-bold mb-4 mt-0">Warum wir uns entspannen können (aber müssen)</h3>
-  <p class="mb-0 leading-relaxed">GEO (Generative Engine Optimization) ist kein Voodoo. Es ist die logische Weiterentwicklung von technischem SEO und E-E-A-T. Die KI "liest" das Internet nicht wie ein Mensch, aber sie "versteht" Konzepte und Verbindungen. Unser Job ist es, diese Verbindungen für die KI so offensichtlich wie möglich zu machen. Wer hier auf "Pfusch am Bau" setzt, wird von den LLMs gnadenlos ignoriert.</p>
+  <p class="mb-0 leading-relaxed">GEO ([Generative Engine Optimization](/blog/generative-engine-optimization-geo/)) ist kein Voodoo. Es ist die logische Weiterentwicklung von technischem SEO und [AEO](/glossar/aeo/). Die KI "liest" das Internet nicht wie ein Mensch, aber sie "versteht" Konzepte und Verbindungen. Unser Job ist es, diese Verbindungen für die KI so offensichtlich wie möglich zu machen. Wer hier auf "Pfusch am Bau" setzt, wird von den LLMs gnadenlos ignoriert.</p>
 </div>
 
 ---
@@ -67,7 +67,7 @@ Nimm dir eine Stunde Zeit und stelle den KIs spezifische Fragen zu deinem Fachge
 - "Was kannst du mir über [Deine Brand/Deinen Namen] sagen?"
 
 #### Die Daten-Variante (Scalable Audit)
-Wenn du es professioneller willst, nutze Tools wie <a href="/blog/rankscale-ai-visibility-tool/">Rankscale</a> oder den [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/). 
+Wenn du es professioneller willst, nutze Tools wie [Rankscale](/blog/rankscale-ai-visibility-tool/) oder den [SE Ranking AI Tracker](/blog/se-ranking-ai-tracker/) zur systematischen Analyse, um deine [KI-Sichtbarkeit messen](/glossar/ki-sichtbarkeit-messen-optimieren/) zu können. 
 
 **Worauf du achten musst:**
 - **Mentions:** Fällt dein Name überhaupt?
@@ -104,7 +104,7 @@ Wenn du es professioneller willst, nutze Tools wie <a href="/blog/rankscale-ai-v
 
 ### Schritt 2: Entitäten definieren – Wer bist du eigentlich?
 
-In der klassischen SEO haben wir für Keywords optimiert. In 2026 optimieren wir für **Entitäten**. Eine Entität ist ein eindeutiger "Fakt" im Wissensnetz der KI. Stell dir vor, du bist eine Marke – die KI muss dich wie eine Datei in einer Datenbank ablegen können.
+In der klassischen SEO haben wir für Keywords optimiert. In 2026 optimieren wir für **Entitäten** im Rahmen von [Semantic SEO](/glossar/semantic-seo/). Eine Entität ist ein eindeutiger "Fakt" im Wissensnetz der KI. Stell dir vor, du bist eine Marke – die KI muss dich wie eine Datei in einer Datenbank ablegen können.
 
 #### Dein digitales ID-Card-Management:
 Wir müssen dein Profil schärfen. Wir legen fest:
@@ -189,11 +189,11 @@ Mein **GEO Action Plan** ist dein Kompass in dieser neuen Such-Landschaft. Wir f
 Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answer-Engine-Ära. Ich helfe dir dabei, dein Profil zu schärfen und deine Inhalte "KI-sicher" zu machen.
 
 <!-- Rankscale Box -->
-<div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-2 !mt-0 !border-none !pb-0">
+<div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-2 !mt-0 !border-none !pb-0">
     Willst du dein echtes KI-Ranking wissen?
   </h3>
-  <p class="text-neutral-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
     Mit dem <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline font-bold">Rankscale Page Audit</a> siehst du genau, wie 17 verschiedene LLMs deine Seite bewerten.
   </p>
   <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">
@@ -203,11 +203,11 @@ Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answe
 </div>
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
   <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -216,10 +216,3 @@ Es geht um Vertrauen. Es geht um Handwerk. Es geht um deine Zukunft in der Answe
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [GEO Guide: Sichtbarkeit in ChatGPT & Gemini](/blog/generative-engine-optimization-geo/)
-* **Lese-Tipp:** [KI-Sichtbarkeit messen: Der ultimative Guide](/glossar/ki-sichtbarkeit-messen-optimieren/)
-* **Lese-Tipp:** [Rankscale: Ein AI Visibility Tool für Profis](/blog/rankscale-ai-visibility-tool/)

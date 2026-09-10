@@ -76,11 +76,11 @@ Ein Relaunch ohne SEO ist wie ein Hausbau ohne Architekt: Man merkt erst am Ende
 
 Vielleicht mein wichtigster Post 2025. Ich hab mal die Hosen runtergelassen und über meinen Weg in diese schräge Internet-Welt geschrieben. Ohne glitzerndes Studium an einer Elite-Uni, ohne den klassischen Agentur-Background als Junior-Trainee. 
 
-Einfach reingefallen, hängengeblieben, Blut geleckt und seit über 25 Jahren dabei. Die Resonanz war überwältigend. Es zeigte mir: Die Leute wollen keine polierten Lebensläufe. Sie wollen Menschen mit Ecken, Kanten und echter Leidenschaft für das Handwerk.
+Einfach reingefallen, hängengeblieben, Blut geleckt und seit über 25 Jahren dabei – mehr zu diesem Werdegang erzähle ich auch in [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/). Die Resonanz war überwältigend. Es zeigte mir: Die Leute wollen keine polierten Lebensläufe. Sie wollen Menschen mit Ecken, Kanten und echter Leidenschaft für das Handwerk.
 
 ### 5. Die SEO-Feuerwehr: Wenn die Panik regiert
 
-Ein Kunde rief an. Stimme zittrig. Die Rankings brachen ein, der Shop-Umsatz war im freien Fall. "Jörg, hilf uns!" – Ich kam, sah und fand das Problem innerhalb von zwei Stunden. Es war ein klassischer technischer Fehler nach einem Update, der die Indexierung blockierte. Genau für solche Fälle biete ich meine [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) an – live am Screen und ohne 50-Seiten-PDF.
+Ein Kunde rief an. Stimme zittrig. Die Rankings brachen ein, der Shop-Umsatz war im freien Fall. "Jörg, hilf uns!" – Ich kam, sah und fand das Problem innerhalb von zwei Stunden. Es war ein klassischer technischer Fehler nach einem Update, der die Indexierung blockierte. Genau für solche Fälle biete ich meine [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) an – live am Screen und ohne 50-Seiten-PDF. Wie effektiv das ist, zeigt auch das Kundenfeedback unter [Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/).
 
 Solche Momente sind das Salz in der Suppe. Es ist der Beweis, dass Erfahrung durch nichts zu ersetzen ist. Keine KI dieser Welt hätte diesen spezifischen Fehler im Kontext des Geschäftsmodells so schnell diagnostiziert und gelöst.
 
@@ -105,7 +105,7 @@ Dieses Jahr wäre ohne euch nur halb so spannend gewesen. Danke für jede kritis
 Wir haben 2025 bewiesen, dass SEO lebendiger ist als je zuvor. Wir haben uns angepasst, wir haben gelernt und wir sind gewachsen. Auf ein noch wilderes, spannenderes und erfolgreiches 2026! Lasst uns die KIs zähmen und die Rankings rocken.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -118,10 +118,4 @@ Wir haben 2025 bewiesen, dass SEO lebendiger ist als je zuvor. Wir haben uns ang
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)
-* **Lese-Tipp:** [5 Sterne: Was Kunden über die SEO-Sprechstunde sagen](/blog/seo-sprechstunde-bewertung-ronny/)
 

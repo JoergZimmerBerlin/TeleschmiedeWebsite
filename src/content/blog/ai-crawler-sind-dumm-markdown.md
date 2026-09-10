@@ -59,7 +59,7 @@ Bots brauchen keine CSS-Animationen oder bunte Header-Grafiken. Sie brauchen **D
 
 ## Stimmen aus der Community: Die Experten-Dilemmas
 
-Ich habe dieses Thema neulich auf LinkedIn diskutiert und dabei sind drei kritische Punkte aufgetaucht, die man nicht ignorieren darf, wenn man AI-SEO ernst meint.
+Ich habe dieses Thema neulich auf LinkedIn diskutiert und dabei sind drei kritische Punkte aufgetaucht, die man nicht ignorieren darf, wenn man AI-SEO ernst meint. Wer seine Inhalte strategisch für KI-Systeme vorbereiten will, sollte sich auch an meinem [GEO Action Plan zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/) orientieren.
 
 ### 1. Hanns Kronenberg: Die Gefahr der "zwei Wahrheiten"
 Hanns Kronenberg, einer der profundesten Köpfe der deutschen SEO-Szene, hat den Finger in die Wunde gelegt. Das Problem: Wenn wir dem Menschen HTML und der Maschine Markdown liefern, erschaffen wir **zwei unterschiedliche Wahrheiten** für ein und dieselbe URL.
@@ -103,7 +103,7 @@ Was bedeutet das? AX bedeutet, dass wir anfangen müssen, unsere Inhalte so zu s
 
 ## Pfusch am Bau korrigieren: Die zwei Ebenen des Webs
 
-Egal ob man Cloudflare nutzt, das französische [Lightpanda](/glossar/crawler/) (eine effiziente Alternative) oder seine Seite direkt nativ im [Markdown-Format](/glossar/robots-txt/) (über Header-Aushandlung) bereitstellt: Der Trend ist unumkehrbar. Der "Markdown-Standard" wird zum Fundament der neuen Suche.
+Egal ob man Cloudflare nutzt, das französische [Lightpanda](/glossar/crawler/) (eine effiziente Alternative) oder seine Seite über spezialisierte Lösungen wie unseren [Grounding Page Generator](/blog/grounding-page-generator-ai-seo/) und saubere [robots.txt Konfigurationen](/glossar/robots-txt/) direkt im Markdown-Format bereitstellt: Der Trend ist unumkehrbar. Wie wir es in der [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) definieren, wird der "Markdown-Standard" zum Fundament der neuen Suche.
 
 Das Web der Zukunft ist zweigeteilt:
 - **Die Design-Ebene** für Emotionen, Markenbildung und den menschlichen Nutzer. Hier darf es bunt, laut und animiert sein.
@@ -112,7 +112,7 @@ Das Web der Zukunft ist zweigeteilt:
 Wer glaubt, er könne das Thema "Agent Readiness" aussitzen, wird sich in zwei Jahren wundern, warum ChatGPT und Co. nur die Konkurrenz zitieren. Es geht nicht darum, schönauszusehen. Es geht darum, **verstanden zu werden**. Wer heute seine Hausaufgaben macht, sichert sich die Pole-Position für die Sichtbarkeit in einer Welt, in der maschinelle Empfehlungen den Ton angeben.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -125,11 +125,3 @@ Wer glaubt, er könne das Thema "Agent Readiness" aussitzen, wird sich in zwei J
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel & Quellen
-*   **Lese-Tipp:** [GEO Action Plan: So wirst du in LLMs sichtbar](/blog/geo-action-plan-llm-sichtbarkeit/)
-*   **Lese-Tipp:** [Grounding Page Generator: AI-SEO für Fortgeschrittene](/blog/grounding-page-generator-ai-seo/)
-*   **Lese-Tipp:** [Agent Readiness Glossar: Das 1x1 der Maschinenlesbarkeit](/glossar/ai-seo/)
-*   **Quelle:** [Cloudflare - Introducing Markdown for Agents](https://blog.cloudflare.com/markdown-for-agents/)

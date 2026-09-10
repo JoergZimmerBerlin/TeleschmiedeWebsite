@@ -77,7 +77,7 @@ Natürlich! Weil Google auf Massen-Traffic optimiert, nicht auf deinen individue
 
 ## 2. SEO ist nicht tot – es hat nur aufgehört, einfach zu sein
 
-Jedes Jahr die gleiche Leier. "SEO ist tot!" Seit ich 2002 angefangen habe, habe ich diesen Satz gefühlt hundertmal gehört. 
+Jedes Jahr die gleiche Leier. "SEO ist tot!" Seit ich 2002 angefangen habe, habe ich diesen Satz gefühlt hundertmal gehört (wie ich auch im [Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/) auseinanderdrösele). Und das Verrückte: Viele Unternehmen tappen bei ihren Webseiten nach wie vor in die gleichen Fallen, wie ich in [25 Jahre SEO – und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/) dokumentiere.
 - 2011: Panda-Update? "SEO ist tot!"
 - 2012: Penguin-Update? "SEO ist tot!"
 - 2015: Mobilegate? "SEO ist tot!"
@@ -119,7 +119,7 @@ In einer Welt voller glitzernder Automatisierung und lauter Buzzwords ist Skepsi
 SEO und SEA sind Werkzeuge. Kraftvoll, wenn man sie beherrscht. Zerstörerisch für dein Budget, wenn man sie falsch anwendet oder die Kontrolle abgibt.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -132,10 +132,4 @@ SEO und SEA sind Werkzeuge. Kraftvoll, wenn man sie beherrscht. Zerstörerisch f
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [SEO ist tot? Magic Writing Podcast mit Michael Kaufhold](/blog/magic-writing-podcast-seo-ist-tot/)
-* **Lese-Tipp:** [25 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
 

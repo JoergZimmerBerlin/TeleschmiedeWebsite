@@ -86,11 +86,11 @@ Aber was genau gehört zu diesem technischen "GEO-Unterbau"? Thomas Klaschka lie
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Thomas Klaschka (LinkedIn Kommentar)</p>
   <div class="italic text-dark mb-0">
-    <p>Bei GEO denke ich während Website-Entwicklung und SEO-Betreuung vorrangig an technische GEO. Zum technischen SEO-Unterbau implementiere ich für KI-Bots parallel dazu: - llms.txt als KI-Version der sitemap.xml – plus Enrichments zu Personen, Unternehmen, ... - Markdown-Mirrors als maschinenlesbare Kopien zumindest der Money-Pages - [Grounding Pages](/blog/grounding-page-generator-ai-seo/) als um Marketing-BlaBla bereinigte Faktenseiten. Dazu akribisches [Technisches Schema-Markup](/glossar/technisches-schema-markup/).</p>
+    <p>Bei GEO denke ich während Website-Entwicklung und SEO-Betreuung vorrangig an technische GEO. Zum technischen SEO-Unterbau implementiere ich für KI-Bots parallel dazu: - [llms.txt](/glossar/llms-txt/) als KI-Version der sitemap.xml – plus Enrichments zu Personen, Unternehmen, ... - Markdown-Mirrors als maschinenlesbare Kopien zumindest der Money-Pages - [Grounding Pages](/blog/grounding-page-generator-ai-seo/) als um Marketing-BlaBla bereinigte Faktenseiten. Dazu akribisches [Technisches Schema-Markup](/glossar/technisches-schema-markup/).</p>
   </div>
 </div>
 
-Das ist exakt der Punkt. Wer diese Protokolle nicht auf dem Radar hat, verliert die Sichtbarkeit bei den neuen LLMs (wie ich es in meinem Artikel zum [Cloudflare Agent Readiness Scan](/blog/cloudflare-agent-readiness-scan/) gezeigt habe). 
+Das ist exakt der Punkt. Wer diese Protokolle nicht auf dem Radar hat, verliert die Sichtbarkeit bei den neuen LLMs (wie ich es in meinem Artikel zum [Cloudflare Agent Readiness Scan](/blog/cloudflare-agent-readiness-scan/) gezeigt habe). Um die eigene [KI-Sichtbarkeit messen](/glossar/ki-sichtbarkeit-messen-optimieren/) und steuern zu können, braucht es einen klaren [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/). 
 
 Martin Pickert fasste den Scope von GEO am Ende grandios zusammen:
 
@@ -106,11 +106,11 @@ Martin Pickert fasste den Scope von GEO am Ende grandios zusammen:
 Lasst uns diese Chance nutzen, anstatt krampfhaft an den Begriffen von gestern festzuhalten. Wer GEO ernst nimmt, versteht es als ganzheitliche Unternehmenskommunikation und sichert sich heute die Marktanteile in der agentischen Suche von morgen.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
   <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wer-als-seo-dieses-geo-so-nebenbei-mitmacht-activity-7486017154513788932-1aO3" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -119,10 +119,3 @@ Lasst uns diese Chance nutzen, anstatt krampfhaft an den Begriffen von gestern f
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
-* **Lese-Tipp:** [KI-Sichtbarkeit messen: Der ultimative Guide](/glossar/ki-sichtbarkeit-messen-optimieren/)
-* **Lese-Tipp:** [Cloudflare Agent Readiness Scan: Technischer Check für KI-Crawler](/blog/cloudflare-agent-readiness-scan/)

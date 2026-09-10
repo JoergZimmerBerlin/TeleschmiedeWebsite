@@ -89,7 +89,7 @@ Mein absolutes Steckenpferd! Wenn du nachhaltig wachsen willst, kommst du an sol
 Für den Bereich SEO und Organic Growth sind vor Ort:
 - **Uta Leyke-Hess**
 - **Kimberly Marrek**
-- **Jörg Zimmer 🌻** (Das bin ich! Komm vorbei und lass uns über echtes SEO schnacken.)
+- **Jörg Zimmer 🌻** (Das bin ich! Komm vorbei und lass uns über echtes SEO schnacken – ähnlich wie in meiner [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) packen wir konkrete Website-Herausforderungen direkt vor Ort an.)
 - **Dirk Veit**
 - **Sebastian Wicke**
 - **Thomas Kuchling**
@@ -127,7 +127,7 @@ Für die optische und inhaltliche Exzellenz sorgen:
 
 ## Warum ein Freelancer Team die bessere Alternative ist
 
-Wir sind nicht einfach nur 25 Leute, die sich zufällig einen Stand teilen. Wir sind Teil eines starken Netzwerks von über 100 Freelancern, das extrem eng zusammenarbeitet. Wenn du ein umfassendes Setup brauchst – sagen wir einen neuen E-Commerce Shop inklusive SEO-Strategie, Google Ads Kampagne und Re-Branding – dann greifen wir auf diesen riesigen Expertenpool zu und du bekommst genau die richtigen Spezialisten für jeden Teilbereich.
+Wir sind nicht einfach nur 25 Leute, die sich zufällig einen Stand teilen. Wir sind Teil eines starken Netzwerks von über 100 Freelancern, das extrem eng zusammenarbeitet. Dass wir als Community gemeinsam auftreten, ist überfällig. Wie ich in meinem Beitrag [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/) dargelegt habe, müssen wir Silos aufbrechen und gemeinsam Verantwortung für Qualität im Netz übernehmen. Wenn du ein umfassendes Setup brauchst – sagen wir einen neuen E-Commerce Shop inklusive SEO-Strategie, Google Ads Kampagne und Re-Branding – dann greifen wir auf diesen riesigen Expertenpool zu und du bekommst genau die richtigen Spezialisten für jeden Teilbereich.
 
 Wir haben Experten für:
 - Google Ads & Meta Ads
@@ -197,10 +197,10 @@ Vergiss für einen Moment die Zoom-Calls und Google Meets. Lass uns persönlich 
 - **Ort:** Hamburg Messe
 - **Stand:** Halle B6, Stand K12 (Nähe Food Area!)
 
-Bist du vor Ort? Dann komm rum. Schreib mir gerne vorher auf LinkedIn, dann machen wir einen festen Slot aus, damit wir auch wirklich Zeit füreinander haben. Wir freuen uns extrem auf Hamburg, auf die OMR und vor allem: auf den persönlichen Austausch mit dir!
+Bist du vor Ort? Dann komm rum. Schreib mir gerne vorher auf LinkedIn (lies auch gerne meine Tipps zu [LinkedIn SEO als Forum](/blog/linkedin-ist-ein-forum-seo/)), dann machen wir einen festen Slot aus, damit wir auch wirklich Zeit füreinander haben. Wir freuen uns extrem auf Hamburg, auf die OMR und vor allem: auf den persönlichen Austausch mit dir!
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -213,10 +213,3 @@ Bist du vor Ort? Dann komm rum. Schreib mir gerne vorher auf LinkedIn, dann mach
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [LinkedIn SEO: Das Experten-Forum nutzen](/blog/linkedin-ist-ein-forum-seo/)
-* **Lese-Tipp:** [SEO-Sprechstunde erklärt: Live-Audit statt 50-Seiten PDF](/blog/seo-sprechstunde-erklaert/)
-* **Lese-Tipp:** [Warum wir SEO-Spezialisten schuld am Zustand des Internets sind](/blog/wir-seos-sind-schuld-community/)

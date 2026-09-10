@@ -69,7 +69,7 @@ Wer hier nicht auftaucht, existiert für die neue Generation von Entscheidern sc
 
 ## Die GEO-Pyramide: Dein 3-Stufen-Modell zur AI-Dominanz
 
-Um in den gängigen KIs zitiert zu werden, reicht kein "bisschen Content". Du brauchst System. Ich nenne es die **GEO-Pyramide**. Sie besteht aus drei Ebenen, die aufeinander aufbauen. Wer eine Ebene überspringt, landet in der Bedeutungslosigkeit.
+Um in den gängigen KIs zitiert zu werden, reicht kein "bisschen Content". Du brauchst System – genau wie in meinem [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/). Ich nenne es die **GEO-Pyramide**. Sie besteht aus drei Ebenen, die aufeinander aufbauen. Wer eine Ebene überspringt, landet in der Bedeutungslosigkeit.
 
 ### Stufe 1: Das technische Fundament (AI-Crawling)
 
@@ -77,7 +77,7 @@ Ich sage es immer wieder: Technik ist Chefsache. Wenn deine Website so unzuverl�
 
 Was bedeutet das konkret?
 1. **Clean HTML & Accessibility:** Ein AI-Bot "liest" deinen Code. Wenn der aussieht wie Kraut und Rüben, versteht die KI nicht, was wichtig ist.
-2. **Schema.org (Strukturierte Daten):** Das ist die Geheimsprache zwischen dir und der KI. Du sagst ihr explizit: "Das hier ist ein Autor", "Das hier ist ein Review", "Das hier ist mein Konzept Groundingpage". Wer hier spart, spart am falschen Ende.
+2. **Schema.org (Strukturierte Daten):** Das ist die Geheimsprache zwischen dir und der KI, umgesetzt via [Technisches Schema-Markup](/glossar/technisches-schema-markup/). Du sagst ihr explizit: "Das hier ist ein Autor", "Das hier ist ein Review", "Das hier ist mein Konzept Groundingpage". Wer hier spart, spart am falschen Ende.
 3. **Performance (Core Web Vitals):** Geschwindigkeit ist kein Rankingfaktor mehr – es ist eine Eintrittskarte. Wenn der Bot zu lange braucht, um deine Daten zu verarbeiten, bricht er ab.
 
 > [!IMPORTANT]
@@ -89,7 +89,7 @@ Was bedeutet das konkret?
 
 Hier trennt sich die Spreu vom Weizen. Wir müssen aufhören, für Suchmaschinen zu schreiben, und anfangen, für **Prompts** zu schreiben. 
 
-Ein GEO-optimierter Artikel folgt dem **BLUF-Prinzip: Bottom Line Up Front**. Die wichtigste Information gehört in die ersten 30% des Textes. Warum? Weil moderne KI-Modelle darauf trainiert sind, Relevanz extrem schnell zu bewerten. Um die richtigen Fragen (Prompts) zu identifizieren, für die du auftauchen willst, nutzt du am besten spezialisierte Tools wie <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer">Rankscale</a>, die deine Sichtbarkeit in verschiedenen LLMs direkt messen. Wenn du 1000 Wörter Einleitung schreibst, bevor du zum Punkt kommst, wird die KI dich niemals als "Direct Answer" zitieren.
+Ein GEO-optimierter Artikel folgt dem **BLUF-Prinzip: Bottom Line Up Front**. Die wichtigste Information gehört in die ersten 30% des Textes. Warum? Weil moderne KI-Modelle darauf trainiert sind, Relevanz extrem schnell zu bewerten. Um die richtigen Fragen (Prompts) zu identifizieren, für die du auftauchen willst, nutzt du am besten spezialisierte Tools wie [Rankscale](/blog/rankscale-ai-visibility-tool/), die deine Sichtbarkeit in verschiedenen LLMs direkt messen. Wenn du 1000 Wörter Einleitung schreibst, bevor du zum Punkt kommst, wird die KI dich niemals als "Direct Answer" zitieren.
 
 **Vergleich: Klassisches SEO vs. GEO**
 
@@ -131,7 +131,7 @@ Eine [Groundingpage](/glossar/grounding-page/) ist eine dedizierte Unterseite, d
 3. **Was du NICHT tust** (Abgrenzung).
 4. **Referenzen & Quellen** (Beweise).
 
-Stell dir vor, die KI hat eine Frage zu deinem Service. Statt durch 50 Blogartikel zu raten, findet sie die Groundingpage und bekommt alle Fakten auf dem Silbertablett serviert. Das ist kein Marketing-Geseier, das ist technischer Service für die Software, die heute deine Kunden berät.
+Stell dir vor, die KI hat eine Frage zu deinem Service. Statt durch 50 Blogartikel zu raten, findet sie die Groundingpage und bekommt alle Fakten auf dem Silbertablett serviert. Das ist kein Marketing-Geseier, das ist technischer Service für die Software, die heute deine Kunden berät (mehr dazu in meinem [Grounding Page Generator Guide](/blog/grounding-page-generator-ai-seo/)).
 
 <div class="my-8 bg-gray-50 border border-gray-100 p-6 md:p-8 rounded-2xl shadow-sm">
   <h4 class="text-xl font-bold text-dark mb-2 mt-0 italic font-headings">Tool-Tipp: Schnellstart</h4>
@@ -272,11 +272,11 @@ Wenn du 2026 noch sichergehen willst, dass dein Unternehmen in den Köpfen (und 
 Vergiss nicht: KI-Sicherheit ist Chefsache. Wer seine Strategie dem Zufall überlässt, wird von Modellen "halluziniert", die keine Ahnung haben, wer er ist. Sei die Quelle, nicht die Fußnote.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
   <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -285,10 +285,3 @@ Vergiss nicht: KI-Sicherheit ist Chefsache. Wer seine Strategie dem Zufall über
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
-* **Lese-Tipp:** [Grounding Page Generator: AI-SEO Fakten verankern](/blog/grounding-page-generator-ai-seo/)
-* **Lese-Tipp:** [GEO, AIO, AI-SEO: Warum ihr bitte NICHT den Praktikanten dransetzen solltet](/blog/ai-seo-geo-praktikanten/)

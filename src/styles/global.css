@@ -157,11 +157,11 @@
 
 /* --- Prose / Legal Page Customizations --- */
 .prose h2 {
-  @apply !text-xl !font-bold !mt-8 !mb-4 !text-dark;
+  @apply !text-xl !font-bold !mt-8 !mb-4 text-dark;
 }
 
 .prose h3 {
-  @apply !text-lg !font-semibold !mt-6 !mb-3 !text-dark;
+  @apply !text-lg !font-semibold !mt-6 !mb-3 text-dark;
 }
 
 .prose p {
@@ -174,6 +174,66 @@
 
 .prose li {
   @apply !mb-1;
+}
+
+/* --- Dark Container & CTA Box Overrides inside prose & blog-content --- */
+.prose .bg-dark,
+.prose .bg-neutral-900,
+.prose .bg-neutral-800,
+.prose .bg-black,
+.blog-content .bg-dark,
+.blog-content .bg-neutral-900,
+.blog-content .bg-neutral-800,
+.blog-content .bg-black {
+  color: #ffffff;
+}
+
+.prose .bg-dark :is(h1, h2, h3, h4, h5, h6),
+.prose .bg-neutral-900 :is(h1, h2, h3, h4, h5, h6),
+.prose .bg-neutral-800 :is(h1, h2, h3, h4, h5, h6),
+.prose .bg-black :is(h1, h2, h3, h4, h5, h6),
+.blog-content .bg-dark :is(h1, h2, h3, h4, h5, h6),
+.blog-content .bg-neutral-900 :is(h1, h2, h3, h4, h5, h6),
+.blog-content .bg-neutral-800 :is(h1, h2, h3, h4, h5, h6),
+.blog-content .bg-black :is(h1, h2, h3, h4, h5, h6),
+.prose :is(h1, h2, h3, h4, h5, h6).text-white,
+.blog-content :is(h1, h2, h3, h4, h5, h6).text-white,
+.prose .text-white :is(h1, h2, h3, h4, h5, h6),
+.blog-content .text-white :is(h1, h2, h3, h4, h5, h6) {
+  color: #ffffff !important;
+}
+
+.prose .bg-dark p:not([class*="text-lime-"]):not([class*="text-white"]),
+.prose .bg-neutral-900 p:not([class*="text-lime-"]):not([class*="text-white"]),
+.prose .bg-neutral-800 p:not([class*="text-lime-"]):not([class*="text-white"]),
+.prose .bg-black p:not([class*="text-lime-"]):not([class*="text-white"]),
+.blog-content .bg-dark p:not([class*="text-lime-"]):not([class*="text-white"]),
+.blog-content .bg-neutral-900 p:not([class*="text-lime-"]):not([class*="text-white"]),
+.blog-content .bg-neutral-800 p:not([class*="text-lime-"]):not([class*="text-white"]),
+.blog-content .bg-black p:not([class*="text-lime-"]):not([class*="text-white"]) {
+  color: #d1d5db !important;
+}
+
+.prose .bg-dark strong,
+.prose .bg-dark b,
+.prose .bg-neutral-900 strong,
+.prose .bg-neutral-900 b,
+.blog-content .bg-dark strong,
+.blog-content .bg-dark b,
+.blog-content .bg-neutral-900 strong,
+.blog-content .bg-neutral-900 b {
+  color: #ffffff !important;
+}
+
+/* Ensure not-prose containers within blog-content/prose don't inherit dark heading/p colors */
+.prose .not-prose :is(h1, h2, h3, h4, h5, h6),
+.blog-content .not-prose :is(h1, h2, h3, h4, h5, h6) {
+  color: inherit;
+}
+
+.prose .not-prose p,
+.blog-content .not-prose p {
+  color: inherit;
 }
 
 /* --- Article Content Styling (Blog & Glossar) --- */

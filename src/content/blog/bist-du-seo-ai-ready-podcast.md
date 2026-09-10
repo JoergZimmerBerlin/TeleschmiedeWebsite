@@ -52,7 +52,7 @@ faqs:
 
 ## 25 Jahre im Geschäft – Ein Blick zurück in die Zukunft
 
-Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten. Aber im Kern geht es immer noch darum: Relevanz schaffen und diese sichtbar machen.
+Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten – genau wie ich es im [Magic Writing Podcast: Warum SEO nicht tot ist](/blog/magic-writing-podcast-seo-ist-tot/) diskutiert habe. Auch in anderen Audio-Formaten, wie meinem Gespräch bei [SEOpresso über SEO Persönlich](/blog/seopresso-seo-persoenlich-interview/) mit Maximilian Muhr (siehe auch die [Podcast-Empfehlung zu Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)), wird deutlich: Im Kern geht es immer noch darum, Relevanz zu schaffen und diese sichtbar zu machen.
 
 ### Worüber wir im Detail gesprochen haben
 
@@ -100,7 +100,7 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
 - und natürlich auf Spotify für unterwegs.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -113,10 +113,3 @@ Antonio, danke für den Raum, das ehrliche Gespräch und deine Neugier. Es war m
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [Magic Writing Podcast: Warum SEO nicht tot ist](/blog/magic-writing-podcast-seo-ist-tot/)
-* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
-* **Lese-Tipp:** [SEO Persönlich: Mein Interview im SEOpresso Podcast](/blog/seopresso-seo-persoenlich-interview/)

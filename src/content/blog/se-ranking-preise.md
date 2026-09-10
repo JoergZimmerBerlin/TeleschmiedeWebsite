@@ -28,7 +28,7 @@ faqs:
 
 Wer mich kennt, weiß: Ich bin ein Fan von Tools, die nicht nur glänzen, sondern auch im harten Projektalltag abliefern. In den letzten Wochen kamen immer wieder Fragen aus meiner Community und von Kunden: "Jörg, [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) sieht ja spannend aus, aber welche der vielen Preis-Optionen brauche ich eigentlich wirklich?"
 
-Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig. Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 25 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist aktuell einer der Player, der den Markt ordentlich aufmischt.
+Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt die Preisstruktur von <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer">SE Ranking</a> auf den ersten Blick fast schon zu günstig (lies dazu auch meinen ausführlichen Vergleich [Sistrix vs. SE Ranking](/blog/sistrix-vs-se-ranking/)). Aber Vorsicht – günstig heißt hier nicht billig. Wer blind bucht, lässt entweder Features liegen oder zahlt für Kapazitäten, die er nie nutzt. In den letzten 25 Jahren habe ich so manchen Strategie-Wechsel bei Tool-Anbietern miterlebt, und [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) ist aktuell einer der Player, der den Markt ordentlich aufmischt.
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">
@@ -60,7 +60,7 @@ Deshalb habe ich mir die aktuellen **[SE Ranking](https://seranking.com/de/?ga=4
 
 ## Warum die Preisgestaltung bei SEO-Tools 2026 komplexer ist als früher
 
-Früher war alles einfach: Man hat primär für reine Keyword-Abfragen bezahlt. Heute, im Jahr 2026, spielt die Musik woanders. Wir reden über **AI Visibility (GEO)**, Cloud-Ressourcen für Content-Analysen und API-Credits für automatisierte Reportings. SEO-Tools sind heute eher Daten-Ökosysteme. 
+Früher war alles einfach: Man hat primär für reine Keyword-Abfragen bezahlt. Heute, im Jahr 2026, spielt die Musik woanders. Wir reden über AI Visibility im Kontext moderner [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/), Cloud-Ressourcen für Content-Analysen und API-Credits für automatisierte Reportings. SEO-Tools sind heute eher Daten-Ökosysteme. 
 
 [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hat das verstanden und seine Tarife so gestrickt, dass sie mit deinen Projekten mitwachsen. Aber genau hier liegt der Hund begraben: Welches Paket "atmet" mit dir mit und welches schnürt dir nur das Budget ab?
 
@@ -70,7 +70,7 @@ Früher war alles einfach: Man hat primär für reine Keyword-Abfragen bezahlt. 
 
 ![Infografik: SE Ranking Core vs. Growth Tarif-Vergleich](../../assets/images/blog/se-ranking-core-vs-growth.webp)
 
-[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management.
+[SE Ranking](https://seranking.com/de/?ga=4169588&source=link) unterscheidet primär zwischen verschiedenen Zielgruppen. Während das **Core-Paket** auf Einzelkämpfer und kleinere Marketing-Teams zielt, ist **Growth** die Maschine für Agenturen und Multi-Client-Management – die detaillierte Modul-Übersicht findest du in meinem [SE Ranking Test 2026](/blog/se-ranking-test-2026/).
 
 Hier sind die harten Fakten aus dem aktuellen Preis-Tableau (bei jährlicher Zahlung sparst du übrigens satte 20 %):
 
@@ -79,11 +79,11 @@ Dieser Tarif ist das "Arbeitstier" für SEO-Freelancer oder Inhouse-Marketer, di
 
 *   **Projekte:** 10 Projekte & 1 Manager-Platz.
 *   **Keywords:** 2.000 Keywords (inkl. 100 Prompts im täglichen Tracking). Das ist eine ordentliche Hausnummer für den Einstieg. 
-*   **GEO-Recherche:** 5 Domains – absolut essenziell, wenn du lokales SEO für deine Kunden machst. 
-*   **Website-Audit:** 250.000 Seiten pro Monat. Das reicht für die meisten mittelständischen Websites locker aus.
+*   **GEO-Recherche:** 5 Domains – absolut essenziell, wenn du strategisches [Local SEO](/glossar/local-seo/) für deine Kunden machst. 
+*   **Website-Audit:** 250.000 Seiten pro Monat mit dem [SE Ranking Website Audit](/glossar/se-ranking-website-audit/). Das reicht für die meisten mittelständischen Websites locker aus.
 
 **Meiner Meinung nach:**
-Wenn du dich um deine eigene Brand oder eine Handvoll Kunden kümmerst, fährst du hier goldrichtig. Du hast alle wesentlichen Tools wie Rank-Tracking, KI-Analysen und Onpage-Audits an Bord. Besonders stark: Die Integrationen für Looker Studio und Google Search Console sind hier bereits enthalten. Das spart dir das Geld für externe Connector-Tools.
+Wenn du dich um deine eigene Brand oder eine Handvoll Kunden kümmerst, fährst du hier goldrichtig. Du hast alle wesentlichen Tools wie den [SE Ranking Rank Tracker](/glossar/se-ranking-rank-tracker/), KI-Analysen und Onpage-Audits an Bord. Besonders stark: Die Integrationen für Looker Studio und Google Search Console sind hier bereits enthalten. Das spart dir das Geld für externe Connector-Tools.
 
 ### 2. Der Growth-Tarif: Die Agentur-Lösung (188,00 € / Monat)
 Hier fängt der Spaß für alle an, die skalieren wollen. Growth bedeutet Automatisierung und Zusammenarbeit.
@@ -116,11 +116,11 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 Über meinen Affiliate-Link bekommst du eine **kostenlose Testphase von 14 Tagen**. Das Beste daran: Du musst **keine Kreditkarte** hinterlegen. Kein fieses "Ups, ich hab vergessen zu kündigen"-Abo. Nach 14 Tagen läuft der Test einfach aus, es sei denn, du bist so überzeugt wie ich und willst weitermachen.
 
 <!-- Affiliate Box -->
-<div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-2 !mt-0 !border-none !pb-0">
+<div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-2 !mt-0 !border-none !pb-0">
     Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="text-lime-accent hover:underline">SE Ranking</a> 14 Tage kostenlos testen
   </h3>
-  <p class="text-neutral-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
     Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.
   </p>
   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer" class="btn-primary inline-flex">
@@ -142,11 +142,11 @@ Meine persönliche Empfehlung nach 25 Jahren im Business:
 Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst du die Power des Growth-Tarifs? Schreib mir deine Meinung auf LinkedIn – ich bin gespannt auf dein Feedback!
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
   <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -155,10 +155,3 @@ Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
-* **Lese-Tipp:** [Sistrix vs. SE Ranking: Kann das Tool den Platzhirsch ersetzen?](/blog/sistrix-vs-se-ranking/)
-* **Lese-Tipp:** [Warum die interne Verlinkung so wichtig ist](/glossar/interne-verlinkung/)

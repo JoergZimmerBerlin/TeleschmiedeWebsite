@@ -50,13 +50,13 @@ faqs:
   </figcaption>
 </figure>
 
-Die Landschaft der organischen Sichtbarkeit verschiebt sich rasant in Richtung Generative Engine Optimization (GEO). Doch wer glaubt, dass hier alles neu erfunden werden muss, irrt sich gewaltig. Oft sind es die klassischen, fast schon vergessenen SEO-Tricks, die in der Welt der künstlichen Intelligenz **eine völlig neue Wirkung** entfalten. Einer dieser Tricks ist das konsequente Einfügen der aktuellen Jahreszahl in Metadaten.
+Die Landschaft der organischen Sichtbarkeit verschiebt sich rasant in Richtung [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/), die wir zunehmend als [Agentic SEO: Warum GEO eine eigene Disziplin ist](/blog/geo-seo-agentic-eigene-disziplin/) begreifen müssen. Doch wer glaubt, dass hier alles neu erfunden werden muss, irrt sich gewaltig. Oft sind es die klassischen, fast schon vergessenen SEO-Tricks, die in der Welt der künstlichen Intelligenz **eine völlig neue Wirkung** entfalten. Einer dieser Tricks ist das konsequente Einfügen der aktuellen Jahreszahl in Metadaten.
 
 ## Das Prinzip der Query Fan-Outs
 
 Wenn ein LLM (Large Language Model) wie ChatGPT oder Claude eine Frage beantwortet, greift es oft auf externe Echtzeit-Suchen zurück. Das sind die sogenannten *Query Fan-Outs*. 
 
-Diese Suchen sind maschinell gesteuert und extrem pragmatisch. Da das Trainingswissen der meisten Modelle irgendwann im letzten Jahr endet, suchen die Agenten im Hintergrund explizit nach **hochaktuellen Signalen**. Die Jahreszahl "2026" im Title Tag fungiert hierbei als massiver Trust-Faktor für die Maschine. Es signalisiert: "Hier gibt es den neuesten Stand".
+Diese Suchen sind maschinell gesteuert und extrem pragmatisch. Da das Trainingswissen der meisten Modelle irgendwann im letzten Jahr endet, suchen die Agenten im Hintergrund explizit nach **hochaktuellen Signalen**. Die Jahreszahl "2026" im [Title Tag](/glossar/title-tag/) fungiert hierbei als massiver Trust-Faktor für die Maschine. Es signalisiert: "Hier gibt es den neuesten Stand".
 
 ### Warum das "Oldschool SEO" ist
 
@@ -69,20 +69,9 @@ Das Anpassen von Jahreszahlen wurde früher als *Republishing* belächelt. Eine 
 | --- | --- | --- |
 | **Zielgruppe** | Menschlicher Sucher | KI-Agent (Bot) |
 | **Effekt der Jahreszahl** | Höhere Click-Through-Rate (CTR) | Priorisierung bei [Query Fan-Outs](/glossar/query-fan-out/) |
-| **Messbarkeit** | Klicks in der Search Console | Citations & AI Rankings |
+| **Messbarkeit** | Klicks in der Search Console | Citations & AI Rankings (siehe [Tools für AI Search Prompt Tracking](/blog/beste-seo-tools-ai-search-prompt-tracking/)) |
 
 ## Die Diskussion in der Szene
-
-Der Versuch, eine Website zu 100% "AI Ready" zu machen, ist aktuell ein reines Trial-and-Error-Spiel. Nichts ist in Stein gemeißelt. Alles ist Beta.
-
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <p class="font-bold text-lime-600 mb-2">💬 Tom Barth (LinkedIn Insights/Kommentar)</p>
-  <div class="italic text-dark mb-0"><p>Tom Barth forscht im Thema GEO und schreibt eine Masterarbeit darüber. Er hat die Seite gescannt. Das Ergebnis war 93/100 AI Ready. Bei den offenen Punkten war die eine Sache mit den Grounding Prozessen und der Jahreszahl als Idee.</p></div>
-</div>
-
-Der Umbau zur vollumfänglichen KI-Sichtbarkeit bedarf konkreter Scanner und Audits, wie das Projekt von Tom Barth zeigt. 
-
-Gleichzeitig wirft dieses Vorgehen eine sehr berechtigte Frage auf, die von Gerd-E. Günther in die Runde geworfen wurde: **Wie misst man das Ganze?**
 
 <div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
   <p class="font-bold text-lime-600 mb-2">💬 Gerd-E. Günther (LinkedIn Insights/Kommentar)</p>
@@ -100,14 +89,14 @@ Und natürlich gibt es bei all diesen SEO-Hacks auch eine dunkle Seite. Das einf
 
 ### Tacheles am Ende
 
-Am Ende des Tages entscheidet die *Qualität* des Contents. Die Jahreszahl ist nur der Türöffner für den Agenten. Wenn der Bot auf der Seite landet und nur veralteten Schrott findet, hilft auch kein "2026" im Title Tag. Wer aber aktuelle Daten mit solider Tiefe kombiniert, gewinnt sowohl in der klassischen als auch in der agentischen Suche.
+Am Ende des Tages entscheidet die *Qualität* des Contents. Die Jahreszahl ist nur der Türöffner für den Agenten im Rahmen eines durchdachten [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/). Wenn der Bot auf der Seite landet und nur veralteten Schrott findet, hilft auch kein "2026" im Title Tag. Wer aber aktuelle Daten mit solider Tiefe kombiniert, gewinnt sowohl in der klassischen als auch in der agentischen Suche.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über diesen Beitrag.
   </p>
   <a href="https://lnkd.in/p/dQk3ieAF" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -116,12 +105,3 @@ Am Ende des Tages entscheidet die *Qualität* des Contents. Die Jahreszahl ist n
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [GEO Guide: Sichtbarkeit in ChatGPT & Gemini](/blog/generative-engine-optimization-geo/)
-* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)
-* **Lese-Tipp:** [Beste SEO Tools für AI Search Prompt Tracking](/blog/beste-seo-tools-ai-search-prompt-tracking/)
-* **Lese-Tipp:** [KI Website Leuchtturm: Das Experiment](/blog/ki-website-leuchtturm/)
-* **Lese-Tipp:** [Agentic SEO: Warum GEO eine eigene Disziplin ist](/blog/geo-seo-agentic-eigene-disziplin/)

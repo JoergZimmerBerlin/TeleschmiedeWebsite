@@ -64,7 +64,7 @@ Dieser Satz ist das Äquivalent zu: "Die Herzoperation macht unser Krankenpflege
 
 ### 2. "SEO machen wir dann nach dem Relaunch."
 
-Das ist mein persönlicher Favorit unter den Horroraussagen. SEO **nach** dem Relaunch ist wie der Airbag, den man nach dem Unfall einbaut. Es ist zu spät. Die URLs sind geändert, die Weiterleitungen fehlen, die Seitenstruktur ist zertrümmert und Google steht da und fragt sich: "Wo ist denn alles hin?"
+Das ist mein persönlicher Favorit unter den Horroraussagen. SEO **nach** dem Relaunch ist wie der Airbag, den man nach dem Unfall einbaut. Es ist zu spät. Die URLs sind geändert, die Weiterleitungen fehlen, die Seitenstruktur ist zertrümmert und Google steht da und fragt sich: "Wo ist denn alles hin?" Wie ich in [25 Jahre SEO – und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/) beschreibe, ist das die teuerste Lektion im Web.
 
 ### 3. "SEO ist tot. Wir machen jetzt fancy XYZ Bullshit-Bingo."
 
@@ -96,7 +96,7 @@ Hier der Hinweis für alle neu zugestiegenen Fahrgäste, und auch für die Stamm
 
 **Das Spiel dreht sich in Wirklichkeit um die Nutzer und deren Interessen.**
 
-Nicht um Google. Nicht um ChatGPT. Nicht um den neuesten Algorithmus-Trick. Es geht um **Menschen**, die ein Problem haben und eine Lösung suchen. Wenn deine Website diese Lösung liefert – klar, schnell und ehrlich – dann belohnt dich jede Suchmaschine dafür. Egal ob klassisch oder KI-gesteuert.
+Nicht um Google. Nicht um ChatGPT. Nicht um den neuesten Algorithmus-Trick. Es geht um **Menschen**, die ein Problem haben und eine Lösung suchen. Wenn deine Website diese Lösung liefert – klar, schnell und ehrlich – dann belohnt dich jede Suchmaschine dafür. Egal ob klassisch oder KI-gesteuert. Wer diese strategische Gesamtsicht nicht einnimmt, verliert – deshalb agieren wir heute vielmehr als [digitaler Unternehmensberater statt SEO-Dienstleister](/blog/digitaler-unternehmensberater-statt-seo/).
 
 **Sei nützlich.** Das ist kein Marketingspruch. Das ist die gesamte SEO-Strategie in zwei Wörtern.
 
@@ -108,7 +108,7 @@ Nicht um Google. Nicht um ChatGPT. Nicht um den neuesten Algorithmus-Trick. Es g
 - **Sei skeptisch bei Abkürzungen.** Wenn es zu gut klingt, ist es meistens Spam.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -121,11 +121,4 @@ Nicht um Google. Nicht um ChatGPT. Nicht um den neuesten Algorithmus-Trick. Es g
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [Highlights 2025 - Ein SEO-Jahresrückblick](/blog/highlights-2025-jahresrueckblick/)
-* **Lese-Tipp:** [25 Jahre SEO - und wir machen immer noch die gleichen Fehler](/blog/24-jahre-seo-gleiche-fehler/)
-* **Lese-Tipp:** [Digitaler Unternehmensberater statt SEO](/blog/digitaler-unternehmensberater-statt-seo/)
 

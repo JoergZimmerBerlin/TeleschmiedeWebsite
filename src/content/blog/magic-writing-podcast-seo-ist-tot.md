@@ -54,7 +54,7 @@ Aber machen wir uns ehrlich: Vielleicht stirbt das klassische SEO tatsächlich e
 
 ## Die ewige Totgesagte: Warum wir den Nachruf noch mal verschieben
 
-Seit ich 2002 angefangen habe, habe ich vermutlich hunderte "SEO ist tot"-Artikel gelesen. Wenn man all diesen Prophezeiungen gefolgt wäre, gäbe es heute kein Google mehr, keine Content-Marketer und wir würden alle nur noch über Siri oder Alexa kommunizieren. 
+Seit ich 2002 angefangen habe, habe ich vermutlich hunderte "SEO ist tot"-Artikel gelesen. Ähnlich wie ich es im [Google Ads Support & SEO Artikel](/blog/google-ads-support-seo-nicht-tot/) beschrieben habe, versuchen Plattformen immer wieder, Nutzer in automatisierte Werbeformate zu drängen – doch organische Relevanz bleibt unersetzlich. Wenn man all diesen Prophezeiungen gefolgt wäre, gäbe es heute kein Google mehr, keine Content-Marketer und wir würden alle nur noch über Siri oder Alexa kommunizieren. 
 
 **Die Realität sieht anders aus: Google ist nicht die Nr. 1, weil sie sich mal eben vom Markt drängen lassen.** Michael und ich waren uns im Gespräch schnell einig: Google ist eine Geldmaschine, die perfekt darauf trainiert ist, Nutzer zu verstehen. Und solange Nutzer Fragen eintippen (oder einsprechen), wird es jemanden brauchen, der die besten Antworten liefert. Und genau das ist SEO.
 
@@ -90,7 +90,7 @@ Ich höre seit über 25 Jahren, dass SEO tot ist. Und trotzdem:
 - **Traffic-Qualität:** Organischer Traffic ist nach wie vor einer der wertvollsten Besucherströme, weil der Nutzer aktiv nach einer Lösung sucht. Er ist "warm", wenn er bei dir landet.
 - **Fundamental-Prinzip:** Wer gefunden werden will, muss verstehen wie Suche funktioniert. Das gilt auch für Amazon, TikTok oder YouTube. Überall ist Suche, überall ist SEO.
 
-Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Aber das Prinzip bleibt: Be the best answer!
+Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Wie ich auch im Gespräch [Bist du SEO AI Ready? mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/) und in meiner [Podcast-Empfehlung zu Max Muhr (SEOpresso)](/blog/seopresso-podcast-maximilian-muhr/) vertiefe, erfordert diese Transformation neues [Agentic SEO](/blog/geo-seo-agentic-eigene-disziplin/) und technisches Verständnis. Aber das Prinzip bleibt: Be the best answer!
 
 ### Tacheles am Ende
 
@@ -103,7 +103,7 @@ Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. 
 **Hör mal rein:** [Magic Writing Podcast: Jörg Zimmer & Michael Kaufhold](https://linkedin.com/posts/michaelkaufhold_seo-ist-tot-sagen-sie-und-schreiben-dann-ugcPost-7335190931219898368-LAFk)
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -116,10 +116,3 @@ Es war mir ein Fest, mit Michael Kaufhold über diese Themen zu philosophieren. 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [Bist du SEO AI Ready? Podcast mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/)
-* **Lese-Tipp:** [SEOpresso Podcast: Meine Empfehlung mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)
-* **Lese-Tipp:** [Der Google Ads Support ist nicht dein Freund - und SEO ist nicht tot](/blog/google-ads-support-seo-nicht-tot/)

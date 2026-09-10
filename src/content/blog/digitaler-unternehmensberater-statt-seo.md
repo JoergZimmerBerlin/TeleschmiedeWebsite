@@ -98,7 +98,7 @@ Auditing und Qualitätssicherung auf diesem Level sind typische Disziplinen von 
 
 ## 4. Zukunftssicherung & Change Management (Wandel von SEO zu GEO)
 
-Der Markt dreht sich gerade rasend schnell. Der Übergang von klassischer Google-Suche hin zu [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) – also der Optimierung für KI-Modelle wie ChatGPT, Gemini oder Claude – versetzt viele Marketing-Abteilungen in Panik.
+Der Markt dreht sich gerade rasend schnell. Der Übergang von klassischer Google-Suche hin zu [Generative Engine Optimization (GEO)](/blog/generative-engine-optimization-geo/) – wie ich es in meinem [GEO Action Plan](/blog/geo-action-plan-llm-sichtbarkeit/) Schritt für Schritt skizziere – versetzt viele Marketing-Abteilungen in Panik.
 
 Hier geht es nicht mehr darum, einen Redakteur zu bitten, drei Keywords mehr in einen Text zu schreiben. Es geht um **Change Management**. Ich muss den Geschäftsführern erklären, dass "Traffic" als primäre KPI ausgedient hat. Ich muss Marketing-Teams schulen, wie sie Content "Citation-Ready" (zitierfähig für KIs) machen. Ich muss ganze Abteilungen dazu bringen, in "Entitäten" und "Ökosystemen" zu denken, statt in blauen Links.
 
@@ -148,7 +148,7 @@ Grüße an meinen Freund Mister Grandler. Schön das Netzwerk funktioniert. Zu d
   <p class="italic text-dark mb-0">"Das ist genau der richtige Weg. Alle SEOs, die das nicht tun, haben irgendwann ein riesiges Problem. [...] Vor allem die eigentliche Beratung nehme ich durch das Aufkommen von KI bzw. GEO aktuell selbst auch als viel intensiver wahr."</p>
 </div>
 
-Genau meine Gedanken. Das Spielfeld wird zunehmend größer und komplexer. Reines SEO ist gut, es muss aber auch das gesamte Umfeld betrachtet werden. Unser Job wird nicht aussterben. Im Gegenteil. Jetzt kommt noch der Agentic Layer hinzu und alles was AI Sichtbarkeit an Quellen mitbringt. Von Hause ist da nichts so optimiert das man nichts mehr tun müsste. Es fängt auf der AI tauglichen Website an, geht über Bewertungen, Datenbanken bis hin jedem digitalen Abdruck. Das zu analysieren und zu optimieren ist die Aufgabe. Selbst wenn die Suche an sich vielleicht an Gewicht verliert. Die Antworten müssen ja trotzdem irgendwo her kommen.
+Genau meine Gedanken. Das Spielfeld wird zunehmend größer und komplexer. Reines SEO ist gut, es muss aber auch das gesamte Umfeld betrachtet werden. Unser Job wird nicht aussterben. Im Gegenteil. Jetzt kommt noch der Agentic Layer hinzu und alles was AI Sichtbarkeit an Quellen mitbringt (siehe auch meine Analyse zu [Agentic SEO als eigener Disziplin](/blog/geo-seo-agentic-eigene-disziplin/)). Von Hause ist da nichts so optimiert das man nichts mehr tun müsste. Es fängt auf der AI tauglichen Website an, geht über Bewertungen, Datenbanken bis hin jedem digitalen Abdruck. Das zu analysieren und zu optimieren ist die Aufgabe. Selbst wenn die Suche an sich vielleicht an Gewicht verliert. Die Antworten müssen ja trotzdem irgendwo her kommen.
 
 <div class="my-8 bg-gray-50 border-l-4 border-gray-400 p-6 rounded-r-lg">
   <p class="font-bold text-gray-700 mb-2">💬 Kommentar von Thomas Kolb</p>
@@ -172,7 +172,7 @@ Wenn du das Gefühl hast, dein aktuelles "SEO" dümpelt nur auf der Oberfläche 
 Ich bringe den Kaffee mit, du die harten Zahlen. Und dann machen wir Unternehmensberatung – auch wenn wir es am Ende vielleicht einfach "gute SEO-Arbeit" nennen.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -185,9 +185,3 @@ Ich bringe den Kaffee mit, du die harten Zahlen. Und dann machen wir Unternehmen
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [Agentic SEO: Warum GEO eine eigene Disziplin ist](/blog/geo-seo-agentic-eigene-disziplin/)
-* **Lese-Tipp:** [GEO Action Plan: In 7 Schritten zur LLM-Sichtbarkeit](/blog/geo-action-plan-llm-sichtbarkeit/)

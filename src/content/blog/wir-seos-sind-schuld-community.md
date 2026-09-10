@@ -67,7 +67,7 @@ Genau da liegt der Hund begraben. Wir verkaufen "Title Tags", aber wir müssten 
 
 ## Die kaputte Verantwortungskette
 
-Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? In meinen Live-Sessions in der [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) sehe ich immer wieder dasselbe Drama: Das Design ist fertig, der Code steht und der Launch-Button glüht. Dann heißt es: "Ach ja, mach mal noch kurz SEO."
+Warum wird SEO oft erst ganz am Ende eines Projekts dazugeholt? In meinen Live-Sessions in der [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) sehe ich immer wieder dasselbe Drama – genau das, was ich als [Die 80%-Falle der SEO-Fehler](/blog/80-prozent-seo-fehler-sprechstunde/) beschreibe: Das Design ist fertig, der Code steht und der Launch-Button glüht. Dann heißt es: "Ach ja, mach mal noch kurz SEO."
 
 Das funktioniert nicht. SEO ist kein Anstrich, den man am Ende auf ein Haus klatscht.
 
@@ -98,7 +98,7 @@ Wenn wir wollen, dass SEO-Basics zum Marktstandard werden, müssen wir sie für 
 Allein ist man leise, gemeinsam ist man laut. Wie **Benjamin Wenderoth** in seinem Kommentar extrem treffend forderte:
 > *"SEO muss sich emanzipieren, erwachsener werden. Als SEO Branche, als Community müssen wir lauter werden und den Weg zeigen."*
 
-Deshalb habe ich auf LinkedIn dazu aufgerufen: Lasst uns den Feed fluten! **Jeder für sich, alle zusammen.** 
+Deshalb habe ich auf LinkedIn dazu aufgerufen: Lasst uns den Feed fluten (siehe auch [LinkedIn SEO: Das Experten-Forum nutzen](/blog/linkedin-ist-ein-forum-seo/))! **Jeder für sich, alle zusammen.** 
 
 Wir müssen aufhören, uns als Konkurrenten zu sehen, und anfangen, eine SEO-Welle zu starten. Wenn wir gegenseitig unsere Beiträge kommentieren und sichtbar machen, skalieren wir unser Wissen über unsere Blase hinaus. Je mehr wir uns vernetzen, desto weniger können uns die Budget-Entscheider ignorieren.
 
@@ -108,7 +108,7 @@ Wir müssen aufhören, uns als Konkurrenten zu sehen, und anfangen, eine SEO-Wel
 Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Hört auf, SEO als "Technik-Thema" zu verkaufen. Verkauft es als das, was es ist: Das Fundament deines Unternehmens im Netz. Seid laut. Seid aktiv. Und lasst uns das Netz ein bisschen besser machen.
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
@@ -121,10 +121,4 @@ Wir SEO-Spezialisten tragen die Verantwortung für unsere Disziplin. Hört auf, 
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [LinkedIn SEO: Das Experten-Forum nutzen](/blog/linkedin-ist-ein-forum-seo/)
-* **Lese-Tipp:** [Die 80%-Falle: Was ich in fast jeder SEO-Sprechstunde entdecke](/blog/80-prozent-seo-fehler-sprechstunde/)
 

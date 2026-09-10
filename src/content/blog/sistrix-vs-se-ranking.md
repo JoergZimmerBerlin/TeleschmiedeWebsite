@@ -62,7 +62,7 @@ Solche persönlichen Gespräche zeigen mir immer wieder, wie nah das Team an den
 
 ## Der Fluch und Segen der 1.000 Knöpfe
 
-Wer von Sistrix kommt, schätzt oft die strukturierte Aufgeräumtheit. Der Sichtbarkeitsindex ist schnell erklärt, die Navigation ist über Jahre gelernt. Man weiß im Schlaf genau, wo man klicken muss, um den Performance-Graphen für den Kunden zu ziehen. Es ist das vertraute Werkzeug.
+Wer von Sistrix kommt, schätzt oft die strukturierte Aufgeräumtheit. Der klassische Sichtbarkeitsindex und die allgemeine [Sichtbarkeit im SEO](/glossar/sichtbarkeit/) sind schnell erklärt, die Navigation ist über Jahre gelernt. Man weiß im Schlaf genau, wo man klicken muss, um den Performance-Graphen für den Kunden zu ziehen. Es ist das vertraute Werkzeug.
 
 [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) hingegen ist am Anfang wie das Cockpit eines A380. Ich bin ganz ehrlich: Ich bin durch die gefühlten „1.000 Knöpfe“ immer noch nicht ganz durch! Und genau hier liegt das Pro und Kontra der Plattform zugleich: Sie ist extrem mächtig und bietet unfassbar viele Einstellungsmöglichkeiten, ist aber im ersten Moment auch entsprechend komplex in der Menüführung. 
 
@@ -76,7 +76,7 @@ Lass uns Fakten auf den Tisch legen und die beiden Grundversionen vergleichen, d
 
 Sistrix ruft für das Start-Paket mittlerweile rund 119€ im Monat auf. Für Einzelkämpfer ist das absolut in Ordnung und marktüblich. Sobald das Team aber wächst oder man Mandanten eigene Reporting-Zugänge geben möchte, wird es restriktiv und schnell teuer.
 
-**Die Vorteile von [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) im Core-Plan (bei jährlicher Zahlung ca. 87€ im Monat):**
+**Die Vorteile von [SE Ranking](https://seranking.com/de/subscription.html?ga=4169588&source=link) im Core-Plan (bei jährlicher Zahlung ca. 87€ im Monat – alle Details dazu in meiner Aufschlüsselung der [SE Ranking Preise 2026](/blog/se-ranking-preise/)):**
 - **Mehr Mitarbeiterplätze (Seats):** Du kannst deinem Team direkt Zugriff geben, ohne ständig Extra-Gebühren zahlen zu müssen.
 - **Mehr verwaltbare Projekte:** Die Anzahl der Domains im Account ist deutlich flexibler.
 - **Budget-Freundlich:** Da bleibt mehr Budget für aktiven Linkaufbau oder die Content-Kreation übrig.
@@ -86,7 +86,7 @@ Während du bei beinahe jedem anderen Tool für jeden Extra-Nutzer tief in die T
 **Ist der Growth/Pro-Tarif also zwingend nötig?**
 Aus meiner Sicht: Nein. Ich selbst nutze zwar das große Paket und bin damit voll zufrieden, aber theoretisch ist das bei [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) eher für größere Agenturen gedacht, die:
 - Historische Daten im Gigabyte-Bereich wälzen
-- White-Label-Berichte ohne Ende verschicken
+- White-Label-Reporting ohne Ende verschicken
 - Hunderttausende Seiten pro Monat crawlen müssen
 
 Der Core-Zugang reicht für die allermeisten Freelancer und Inhouse-SEOs am Anfang völlig aus.
@@ -98,14 +98,14 @@ Ich habe die Datenqualität beider Tools über viele Monate hinweg in verschiede
 ![SE Ranking Datenanalyse und Dashboard Vergleich](../../assets/images/blog/sistrix-vs-seranking-light-de.webp)
 
 **Die Backlinks im Vergleich:**
-Sistrix ist traditionell im DACH-Raum sehr stark, hat aber im internationalen Vergleich eine eher kleinere Backlink-Datenbank. Wer auch mal über die DACH-Grenzen hinaus optimiert, merkt das recht schnell. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) protzt hier mit einer massiven Datenbank von über 3 Billionen Backlink-Verbindungen. In der Praxis merke ich das deutlich: Ich finde mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oft schneller kleine Nischen-Backlinks, feine Linkprofil-Veränderungen bei Wettbewerbern und potenziell toxische Verlinkungen als mit der vertrauten Konkurrenz.
+Sistrix ist traditionell im DACH-Raum sehr stark, hat aber im internationalen Vergleich eine eher kleinere Backlink-Datenbank. Wer auch mal über die DACH-Grenzen hinaus optimiert, merkt das recht schnell. [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) protzt hier mit einer massiven Datenbank von über 3 Billionen Backlink-Verbindungen im [SE Ranking Backlink Checker](/glossar/se-ranking-backlink-checker/). In der Praxis merke ich das deutlich: Ich finde mit [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) oft schneller kleine Nischen-Backlinks, feine Linkprofil-Veränderungen bei Wettbewerbern und potenziell toxische Verlinkungen als mit der vertrauten Konkurrenz.
 
 **Suchvolumen & Keyword-Tracking:**
-Hier trumpft [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) aus meiner Sicht richtig auf. Das tagesaktuelle Rank-Tracking (im Core Plan gibt es ein großzügiges Kontingent ab 1.000 Keywords täglich) ist extrem akkurat und pfeilschnell. Was ich besonders feiere: Sie cachen die SERPs. Das bedeutet, ich kann exakt sehen, wie die Suchergebnisseite am Tag X wirklich aussah. Wenn ein Ranking bei mir gestern von Platz 2 auf Platz 8 gedroppt ist, kann ich sofort nachvollziehen, welches Snippet, welches Local Pack oder People-Also-Ask-Feature sich geändert und mich verdrängt hat. Das ist ein Feature, das bei der Ursachenforschung an stressigen Tagen schlichtweg unbezahlbar ist.
+Hier trumpft [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) aus meiner Sicht richtig auf. Das tagesaktuelle Rank-Tracking mit dem [SE Ranking Rank Tracker](/glossar/se-ranking-rank-tracker/) (im Core Plan gibt es ein großzügiges Kontingent ab 1.000 Keywords täglich) ist extrem akkurat und pfeilschnell. Was ich besonders feiere: Sie cachen die SERPs. Das bedeutet, ich kann exakt sehen, wie die Suchergebnisseite am Tag X wirklich aussah. Wenn ein Ranking bei mir gestern von Platz 2 auf Platz 8 gedroppt ist, kann ich sofort nachvollziehen, welches Snippet, welches Local Pack oder People-Also-Ask-Feature sich geändert und mich verdrängt hat. Das ist ein Feature, das bei der Ursachenforschung an stressigen Tagen schlichtweg unbezahlbar ist.
 
 ## Die integrierten Allzweck-Waffen von SE Ranking
 
-Wo [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für mich im Moment die eindeutig bessere Wahl ist, sind die vielen integrierten Zusatzmodule. Bei anderen Anbietern musst du für diese Funktionen oft teure Standalone-Tools hinzukaufen:
+Wo [SE Ranking](https://seranking.com/de/?ga=4169588&source=link) für mich im Moment die eindeutig bessere Wahl ist, sind die vielen integrierten Zusatzmodule – vom [SE Ranking Website Audit](/glossar/se-ranking-website-audit/) bis zur Keyword-Recherche (lies dazu auch meinen großen [SE Ranking Test 2026](/blog/se-ranking-test-2026/)). Bei anderen Anbietern musst du für diese Funktionen oft teure Standalone-Tools hinzukaufen:
 
 ![Die All-in-One SEO Features von SE Ranking](../../assets/images/blog/seranking-features-infographic-de.webp)
 
@@ -134,11 +134,11 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
 ---
 
 <!-- CTA Box -->
-<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
-  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     Jetzt an der Diskussion teilnehmen
   </h3>
-  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
     Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über den Vergleich zwischen Sistrix und SE Ranking.
   </p>
   <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W" target="_blank" rel="noopener noreferrer" class="btn-primary">
@@ -147,11 +147,3 @@ Für Agenturen mit hunderten Mitarbeitern und hunderttausenden Keywords lohnt si
     <span aria-hidden="true">→</span>
   </a>
 </div>
-
----
-
-### Weiterführende Artikel
-* **Lese-Tipp:** [SE Ranking Preise 2026: Der ultimative Guide für SEO-Experten](/blog/se-ranking-preise/)
-* **Lese-Tipp:** [SE Ranking launcht AI Tracker: Rankings in der KI-Suche messen](/blog/se-ranking-ai-tracker/)
-* **Lese-Tipp:** [Warum die interne Verlinkung so wichtig ist](/glossar/interne-verlinkung/)
-* **Lese-Tipp:** [Sichtbarkeit im SEO verstehen](/glossar/sichtbarkeit/)

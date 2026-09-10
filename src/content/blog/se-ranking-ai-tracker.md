@@ -100,14 +100,15 @@ Teste beide Tools. Schau, welcher Workflow dir besser liegt. Aber tu mir einen G
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
-    Jetzt an der Diskussion teilnehmen
+    SE Ranking AI Tracker 14 Tage kostenlos testen
   </h3>
   <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
-    Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über Erfahrungen mit dem SE Ranking AI Tracker.
+    Tracke deine Markenpräsenz und Citation Share in Google AI Overviews und führenden LLMs – unverbindlich und ohne Kreditkarte.
   </p>
-  <a href="https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_anfang-des-jahres-ist-eine-gute-zeit-%C3%BCber-activity-7413894079392120832-3qiu" target="_blank" rel="noopener noreferrer" class="btn-primary">
-    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-    <span>Beitrag auf LinkedIn öffnen</span>
+  <a href="https://seranking.com/de/ai-overviews-tracker.html?ga=4169588&source=ai-tracker" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    <span>Jetzt AI Tracker kostenlos testen</span>
     <span aria-hidden="true">→</span>
   </a>
 </div>
+

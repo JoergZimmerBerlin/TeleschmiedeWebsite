@@ -239,3 +239,19 @@ Du willst noch tiefer einsteigen? Ich habe in der Vergangenheit intensiv mit SE 
 *   [Setup-Guide: SE Ranking API mit Claude Code verbinden](/blog/se-ranking-api-claude-code-setup/)
 *   [Praxis-Test: Claude Code schreibt Skripte für die SE Ranking API](/blog/se-ranking-api-claude-code-praxis-test/)
 *   [App-Entwicklung: Eine SE Ranking App mit ChatGPT bauen](/blog/se-ranking-chatgpt-app/)
+
+<!-- CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    SE Ranking All-in-One Suite 14 Tage kostenlos testen
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Überwache Keyword-Rankings, crawle deine Domain und analysiere Wettbewerber und KI-Sichtbarkeit an einem zentralen Ort – unverbindlich und ohne Kreditkarte.
+  </p>
+  <a href="https://seranking.com/de/?ga=4169588&source=se-ranking-hub" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    <span>Jetzt 14 Tage gratis testen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
+

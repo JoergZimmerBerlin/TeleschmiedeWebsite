@@ -207,17 +207,19 @@ Aktiviere im SE Ranking Growth-Tarif das White-Label-Modul. Lade dein Agentur-Lo
 
 ---
 
+<!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
   <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
-    SE Ranking 14 Tage unverbindlich testen
+    SE Ranking Tarife vergleichen & 14 Tage kostenlos testen
   </h3>
   <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
-    Entdecke die All-in-One SEO-Suite mit tagesaktuellen Rankings, starkem Site-Audit und fairen Team-Preisen – 100 % kostenlos und ohne Kreditkarte.
+    Volle All-in-One SEO-Power zum Bruchteil der Semrush-Kosten: Inklusive Team-Sitze, unlimitierter White-Label-Reports und tagesaktuellem Tracking – ohne Kreditkarte testen.
   </p>
-  <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
+  <a href="https://seranking.com/de/subscription.html?ga=4169588&source=vs-semrush" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary">
     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-    <span>Jetzt 14 Tage gratis testen</span>
+    <span>Jetzt SE Ranking Tarife ansehen & testen</span>
     <span aria-hidden="true">→</span>
   </a>
 </div>
+
 

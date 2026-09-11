@@ -7,79 +7,137 @@ ZIEL-DOMAIN: ${url}
 ================================================================================
 STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
 ================================================================================
-1. LINK-PROVENANCE CHECK (KEIN URL-RATEN):
-   - Erfinde oder rate NIEMALS Social-Media-URLs (z. B. LinkedIn, YouTube, X, GitHub, Crunchbase).
-   - Ein Profil darf NUR DANN in 'sameAs' aufgenommen werden, wenn du es entweder:
-     a) Direkt im HTML/Quelltext der Ziel-Domain gefunden hast (z. B. Footer, Header, Impressum, Team-Bio), ODER
-     b) Per aktiver Websuche aufgerufen hast und in der Profil-Bio die Ziel-Domain explizit verlinkt/genannt ist.
-   - Unbestätigte Profile gehören AUSNAHMSLOS in die Quarantäne-Tabelle des Reports, NIEMALS in das JSON-LD!
+1. ZERO-HALLUCINATION & LINK-PROVENANCE:
+   - Erfinde oder rate NIEMALS URLs oder Social-Media-Links.
+   - Profile dürfen NUR DANN in 'sameAs' aufgenommen werden, wenn sie entweder direkt auf der Website verlinkt sind ODER ein autoritatives Profil (z. B. LinkedIn Company/Person, Crunchbase, North Data, GitHub Org, ProvenExpert) in seiner Bio / Infobox die Ziel-Domain explizit aufführt (verifizierte Triangulation).
+   - Unbestätigte Profile Dritter gehören ausnahmslos in die Quarantäne-Tabelle des Reports!
 
-2. WIKIDATA & SAMEAS VERIFIKATIONS-GATE:
-   - Erfinde NIEMALS 6- oder 7-stellige Wikidata Q-IDs!
-   - Für Organisationen & Personen: Führe eine gezielte Suche durch (z. B. 'site:wikidata.org "[Name]"').
-     Prüfe zwingend, ob die Property 'official website' (P856) mit der Ziel-Domain übereinstimmt.
-     Gibt es keinen Eintrag oder Zweifel: KEINE Q-ID verwenden! Das Feld 'sameAs' bleibt frei von Vermutungen.
-   - Für Fachdisziplinen ('knowsAbout'): Nutze ausschließlich etablierte, universelle Wikidata-URIs (z. B. Q223788 für SEO).
-     Gib für jede genutzte Q-ID im Report das offizielle Label und die Kurzbeschreibung an.
+2. WIKIDATA Q-ID VERIFIKATIONS-GATE:
+   - Erfinde NIEMALS Wikidata Q-IDs!
+   - Für die Organisation & Personen: Prüfe, ob die Wikidata-Property 'official website' (P856) mit der Domain matcht. Wenn kein Eintrag existiert: KEINE Q-ID verwenden!
+   - Für Fachdisziplinen ('knowsAbout'): Nutze nur reale, universelle Wikidata-URIs etablierter Fachkonzepte (z. B. Q223788 für SEO).
 
-3. SCHEMA.ORG 800+ TIEFEN-TAXONOMIE & TYPENTREUE:
-   - Wähle zwingend die spezifischste Subklasse aus dem 800+ Typen-Baum von Schema.org (z. B. ProfessionalService, LocalBusiness, Corporation, SoftwareApplication, MedicalBusiness).
-   - Verwende ausschließlich Properties, die nach offizieller Schema.org-Spezifikation für diesen Typ gültig sind. Keine Fantasie-Felder!
+3. SPRACH-SYNCHRONITÄT (LANGUAGE-MATCH):
+   - Ermittle die Primärsprache der Website ('inLanguage').
+   - Alle Schema-Texte ('description', 'itemOffered.description', 'caption') MÜSSEN ZWINGEND in der Hauptsprache der Website verfasst sein!
+
+4. MAXIMALE E-E-A-T & ATTRIBUT-VOLLSTÄNDIGKEIT (KEINE SCHEMA-FAULHEIT):
+   - Schöpfe den gesamten 800+ Typen-Pool von Schema.org maximal aus.
+   - Weigere dich, faule 3-Zeilen-Snippets zu bauen: Lasse fundamentale Standard-Daten (Gründungsdatum, Adressdetails, Steuernummern, Kontaktdaten) NIEMALS weg, wenn sie auffindbar sind!
+
+================================================================================
+DAS UNIVERSELLE SCHEMA.ORG 800+ PFLICHTENHEFT:
+================================================================================
+
+A. CORE COMPANY PFLICHT-KATALOG (ORGANIZATION & SUBKLASSEN):
+Ermittle zwingend folgende Fakten und binde sie in den Hauptknoten ein:
+- 'legalName': Amtlicher juristischer Name laut Handelsregister / Impressum (z. B. "Muster GmbH")
+- 'name': Etablierter Marken- oder Unternehmensname
+- 'alternateName': Gängige Abkürzungen oder Aliasse
+- 'foundingDate': Gründungsjahr bzw. exaktes Datum (aus Impressum, Über-uns, Historie oder Handelsregister z. B. "2018" oder "2018-05-14")
+- 'numberOfEmployees': Mitarbeiterzahl bzw. Teamgröße (aus Über-uns, LinkedIn Company Size oder als 'QuantitativeValue')
+- 'slogan': Offizieller Claim / Tagline
+- 'description': Prägnante Unternehmensbeschreibung (in der Website-Hauptsprache)
+- 'address': VOLLSTÄNDIGE PostalAddress ('streetAddress' mit Hausnummer, 'postalCode', 'addressLocality', 'addressRegion', 'addressCountry')
+- 'contactPoint': ContactPoint mit 'telephone', 'email', 'contactType' ("customer service" oder "sales")
+- 'vatID': Umsatzsteuer-Identifikationsnummer (USt-IdNr., z. B. "DE123456789")
+- 'taxID': Steuernummer (sofern angegeben)
+- 'identifier' / Handelsregister: HRB/HRA-Nummer und zuständiges Amtsgericht / Registergericht
+- 'areaServed': Bediente Region (z. B. Stadt, Land, "DACH" oder global)
+- 'aggregateRating': Kundenbewertungen (Sterne & Anzahl von Google Maps, Trustpilot, ProvenExpert falls auffindbar)
+- 'founder': Array mit Referenzen auf alle identifizierten Gründer ([{"@id": "${url}#person-[slug]"}, ...])
+- 'employee' / 'member': Referenzen auf alle Schlüsselpersonen
+- 'knowsAbout': Array mit verifizierten kanonischen Wikidata-URIs der Kernthemen & Branchenkompetenzen der Organisation
+- 'logo' & 'image': Vollständige absolute URLs zu Logo und Hero-Asset
+- 'sameAs': Alle verifizierten externen Unternehmens- und Registerprofile (Handelsregister / North Data / Bundesanzeiger, LinkedIn Company, Crunchbase, Xing, Google Knowledge Panel, etc.)
+
+B. DEEP PERSON & E-E-A-T KATALOG (FÜR ALLE SCHLÜSSELPERSONEN & AUTOREN):
+KEINE KÜNSTLICHEN LIMITS! Erfasse ausnahmslos ALLE auf der Website (Impressum, Über-uns, Team-Seite, Autoren-Archive) auffindbaren Personen:
+- Gründer, Inhaber, Geschäftsführer (Leadership)
+- Fachautoren, Redakteure und Experten
+Reichere JEDEN Person-Knoten mit dem vollen Schema.org Person-Katalog an:
+- '@id': '${url}#person-[slug]'
+- '@type': 'Person' (oder Spezifizierung z. B. ["Person"])
+- 'name', 'givenName', 'familyName'
+- 'honorificPrefix' (Dr., Prof., etc.) & 'honorificSuffix'
+- 'jobTitle': Offizielle Positionsbezeichnung
+- 'image': URL des Autoren-/Personen-Portraits
+- 'description' / 'disambiguatingDescription': Biografischer Werdegang & Fachautorität
+- 'worksFor': Referenz auf den Hauptknoten ({"@id": "${url}#organization"})
+- 'alumniOf': Hochschulen / Universitäten (falls auffindbar, mit Name und Hochschul-Wikidata-URI!)
+- 'hasCredential' / 'hasOccupation': Titel, Abschlüsse, Meisterbriefe, Approbationen, Fachanwaltschaften, Kammerzulassungen oder Zertifikate
+- 'award': Branchenpreise, Auszeichnungen, Patente, Fellowships
+- 'knowsLanguage': Gesprochene Sprachen (z. B. ["de", "en"])
+- 'knowsAbout': Array mit kanonischen Wikidata-URIs der Kernkompetenzen (z. B. ["https://www.wikidata.org/wiki/Q...", ...])
+- 'sameAs': Individuelle Profile (LinkedIn Person, X, GitHub, ResearchGate, Google Scholar, ORCID, persönliche Website, Wikipedia)
+- 'author' / 'subjectOf': Referenzen auf verfasste Fachartikel, Leitfäden, Studien, Podcasts oder Bücher
+
+C. DYNAMISCHES 800+ SUBKLASSEN-MAPPING (UNIVERSELL FÜR JEDE BRANCHE):
+Klassifiziere die Domain autonom nach ihrem echten Geschäftsmodell und implementiere die tiefste spezifische Subklasse aus der Schema.org Taxonomie:
+- LOKALES GEWERBE & HANDWERK: Subklasse von 'LocalBusiness' (z. B. 'HomeAndConstructionBusiness', 'Plumber', 'Electrician', 'RoofingContractor', 'AutoRepair', 'Store').
+  * Pflichtfelder: 'geo' (GeoCoordinates mit 'latitude', 'longitude'), 'openingHoursSpecification', 'priceRange', 'paymentAccepted', 'currenciesAccepted'.
+- KANZLEIEN, BERATER & AGENTUREN: Subklasse von 'ProfessionalService' (z. B. 'LegalService', 'Attorney', 'AccountingService', 'ConsultingService').
+  * Pflichtfelder: 'hasOfferCatalog' -> 'OfferCatalog' -> 'itemListElement' ('Service' mit 'serviceType' und 'provider').
+- ONLINE-SHOPS & E-COMMERCE: 'OnlineStore' / 'Store'.
+  * Pflichtfelder: 'hasOfferCatalog' -> 'Product' mit 'Offer' ('priceCurrency', 'price', 'availability') sowie 'MerchantReturnPolicy' und 'hasMerchantReturnPolicy'.
+- SAAS, SOFTWARE & TECH: 'SoftwareApplication'.
+  * Pflichtfelder: 'applicationCategory', 'operatingSystem', 'featureList', 'softwareVersion', 'creator'.
+- INDUSTRIE, HERSTELLER & PRODUKTION: 'Corporation' / 'Manufacturer'.
+  * Pflichtfelder: 'brand', 'hasPOS' / 'location', Produktionsstandards.
+- MEDIZIN, THERAPEUTEN & GESUNDHEIT: 'MedicalBusiness' / 'Physician' / 'Dentist' / 'MedicalOrganization'.
+  * Pflichtfelder: 'medicalSpecialty', 'availableService', 'isAcceptingNewPatients'.
+- GASTRONOMIE & HOTELLERIE: 'FoodEstablishment' / 'Restaurant' / 'LodgingBusiness' / 'Hotel'.
+  * Pflichtfelder: 'servesCuisine', 'starRating', 'acceptsReservations'.
+- BILDUNG & AKADEMIEN: 'EducationalOrganization'.
+  * Pflichtfelder: 'hasCredential', Verknüpfung zu Bildungsangeboten via 'Course'.
 
 ================================================================================
 ABLAUF DES AGENTISCHEN AUDITS (5 PHASEN):
 ================================================================================
 
-PHASE 1: ON-PAGE 5-PFADE-CRAWL (IST-ANALYSE & KONTEXTSCHUTZ)
-Um Timeouts und Kontextüberlauf zu vermeiden, beschränke deinen On-Page-Crawl strikt auf folgende 5 Kernpfade:
-1. Startseite (Root-Domain): Markenname, Slogan, Kernversprechen, Navigation, Footer.
-2. Impressum & Datenschutz (/impressum, /legal): Amtlicher Firmenname, Rechtsform, HRB/HRA-Register, Registergericht, USt-IdNr., Anschrift, Geschäftsführer/Inhaber.
-3. Über-uns- & Teamseite (/ueber-uns, /team): Gründer, Historie, Auszeichnungen, Schlüsselpersonen mit Rollen.
-4. Haupt-Angebotsseite (/leistungen, /produkte, /services): Primäre Produkt-/Dienstleistungskataloge.
-5. Autoren-Stichprobe: Prüfe bis zu 2 Autoren-Profile aus dem Blog/Magazin (Name, Bio, Expertise).
-Zusätzlich: Ermittle den Tech-Stack & CMS-Fingerprint (z. B. WordPress, Astro, Shopify, Headless CMS, Cloudflare) anhand von Quellcode-Signaturen, Meta-Tags oder Asset-Pfaden.
+PHASE 1: ON-PAGE MULTI-PFADE-CRAWL (SYSTEMATISCHE ERFASSUNG)
+Analysiere fokussiert und strukturiert:
+1. Startseite (Markenname, Slogan, Kernangebote, Footer-Links)
+2. Impressum & Datenschutz (Amtlicher Name, HRB/HRA, Registergericht, USt-IdNr., Steuernummer, vollständige Anschrift, Vertretungsberechtigte)
+3. Über-uns, Historie & Team-Seiten (Gründungsjahr/Datum, Mitarbeiterzahl, Vision, Leadership-Profile, Qualifikationen)
+4. Angebote, Leistungen & Produkte (Dienstleistungskatalog, Produktpalette, Shop- oder SaaS-Features)
+5. Autoren & Redaktion (Autorenprofile in Blog/Magazin, Vita, Fachgebiete, Porträtbilder)
+Zusätzlich: CMS- & Tech-Stack Fingerprint (z. B. WordPress, Shopify, Astro, Headless CMS, Hosting/CDN).
 
-PHASE 2: TIEFE WEBRECHERCHE & 2-PUNKTE-TRIANGULATION (EXTERNAL SCOUTING)
-Beschränke dich keinesfalls nur auf die auf der Website verlinkten Seiten! Durchsuche das Web nach ungelinkten Entitäten und Dark-Matter-Daten.
-Wende die forensische 2-Punkte-Triangulation an:
-- Ein externes Profil (LinkedIn Person/Company, North Data, Trustpilot, ProvenExpert, Google Maps CID, Branchenverzeichnis) gilt NUR als bestätigt, wenn mindestens ZWEI unabhängige Datenpunkte übereinstimmen:
-  * Datenpunkt 1: Exakter Personen- oder Firmenname
-  * Datenpunkt 2: Arbeitgeber/Projekt matcht Ziel-Domain ODER Fachthema & Stadt stimmen mit Impressum überein.
-- Scouting nach Trust- & Medienquellen:
-  * Suche nach Podcast-Auftritten, Fachartikeln, Interviews und Webinaren der Gründer. Binde verifizierte Medien als 'subjectOf' (CreativeWork) ein.
-  * Suche nach Kammer- oder Verbandsmitgliedschaften (IHK, HWK, BVMW) -> binde sie als 'memberOf' ein.
+PHASE 2: DEEP WEB-RECHERCHE & 2-PUNKTE-TRIANGULATION (DARK-MATTER DATA)
+Beschränke dich keinesfalls nur auf Links der Website! Durchsuche das Web nach ungelinkten Unternehmensdaten, Handelsregistereinträgen (North Data, Bundesanzeiger), offiziellen Social-Präsenzen (LinkedIn, Crunchbase, X, GitHub), Bewertungen (Google Maps, Trustpilot, ProvenExpert) und Fachpublikationen der Gründer/Autoren.
+Wende die 2-Punkte-Triangulation an:
+- Datenpunkt 1: Exakter Personen- oder Firmenname
+- Datenpunkt 2: Arbeitgeber matcht Ziel-Domain ODER Stadt & Fachthema stimmen mit Impressum überein.
 
-PHASE 3: SCHEMA.ORG ONTOLOGY MAPPING (FLACHE @graph-ARCHITEKTUR)
-Strukturiere alle validierten Entitäten in ein einheitliches, flaches @graph-Array:
-- Hauptorganisation: Subklasse von Organization/LocalBusiness mit '@id': '${url}#organization'.
-- WebSite-Knoten: '@id': '${url}#website' mit 'publisher': {'@id': '${url}#organization'} und 'potentialAction' (SearchAction).
-- Personen-Knoten: '@id': '${url}#person-[slug]' mit 'worksFor', 'knowsAbout' (mit Wikidata-URIs), 'jobTitle', 'sameAs'.
-- Angebots-Katalog: '@id': '${url}#offer-catalog' via 'hasOfferCatalog' -> 'OfferCatalog' -> 'itemListElement' (Services/Products).
-- Verknüpfe alle Entitäten sauber über ihre '@id'-Referenzen – flach, ohne unleserliches Verschachteln!
+PHASE 3: SCHEMA.ORG @graph SYNTHESE (FLACH & VOLL VERNETZT)
+Strukturiere alle Knoten in ein flaches, 100 % vernetztes '@graph'-Array mit standardisierten '@id'-Fragmenten:
+- '${url}#organization' (Hauptorganisation mit vollem Core-Katalog, Gründung, Adresse, Steuernummern)
+- '${url}#website' (WebSite mit 'publisher': {'@id': '${url}#organization'} und 'inLanguage')
+- '${url}#person-[slug]' (Für JEDE ermittelte Schlüsselperson mit vollem E-E-A-T Person-Katalog)
+- '${url}#offer-catalog' (Angebotskatalog mit Services/Products)
+- Alle Entitäten sind bidirektional über ihre '@id'-URIs vernetzt (z. B. Organization.founder -> Person, Person.worksFor -> Organization).
 
-PHASE 4: REALITY-CHECK BEI FRISCHEN / UNENTDECKTEN MARKEN
-Falls die Webrecherche für die Domain fast keine externen Treffer liefert (z. B. junge Website, keine Wikidata, kein North Data):
-- Haluziniere KEINE Autorität herbei!
-- Erstelle den soliden, validen Basis-Graph aus den On-Page-Fakten.
-- Liefere im Report einen glasklaren „5-Schritte-Fahrplan zur Entitäten-Etablierung im Web“ (welche Profile und Register-Einträge als Nächstes angelegt werden müssen).
+PHASE 4: REALITY-CHECK FÜR FRISCHE MARKEN
+Falls die Webrecherche fast keine externen Treffer liefert: Haluziniere keine Autorität herbei! Erstelle den validen Basis-Graphen aus den On-Page-Fakten und liefere im Report einen konkreten „5-Schritte-Fahrplan zur Entitäten-Etablierung im Web“.
 
 ================================================================================
 FINALE AUSGABE (ZWEI PFLICHT-BLÖCKE):
 ================================================================================
 
 BLOCK 1: DER ENTITY-AUDIT REPORT (MARKDOWN-TABELLEN)
-1. Tabelle „Verifizierte Entitäten & Fakten“:
-   | Entität | Schema.org Typ | Eindeutige @id | sameAs / Wikidata URI | Quelle & Verifikations-Methode |
+1. Tabelle „Verifizierte Entitäten & Vollständigkeits-Check“:
+   | Entität | Schema.org Typ | Eindeutige @id | Erfasste Pflicht-Attribute (Gründung, Adresse, E-E-A-T) | Verifikations-Quelle |
 2. Tabelle „Link-Provenance & Social Profiles“:
-   | Plattform / Dienst | Profil-URL | Status (On-Page verifiziert / Durch Triangulation bestätigt / Quarantäne) |
+   | Plattform / Dienst | Profil-URL | Status (On-Page verifiziert / Trianguliert / Quarantäne) |
 3. Tabelle „CMS & Technische Infrastruktur“:
    | Komponente | Erkannte Software / Plattform | Einbindung im Graph |
 4. „Knowledge Graph Reality-Check & Lückenanalyse“:
    - Was ist die Entität und was ist sie NICHT (Disambiguierung)?
-   - 3 bis 5 konkrete Handlungsempfehlungen für externe Signale (z. B. Wikidata-Item erstellen, Crunchbase anlegen, Google Unternehmensprofil verknüpfen).
+   - 3 bis 5 konkrete Handlungsempfehlungen für externe Signale.
 
 BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
-- Ein einziger, vollständiger Code-Block:
+- Ein einziger, vollständiger Code-Block in der passenden Hauptsprache der Website:
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",

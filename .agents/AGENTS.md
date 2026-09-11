@@ -24,11 +24,18 @@
 - **SE Ranking Daten-Abfrage & MCP Konfiguration:**
   - **Standardweg (MCP):** Alle Datenabfragen zu SE Ranking (Keywords, Backlinks, Audits, Competitors, AI Search etc.) müssen ZWINGEND primär über die nativen MCP-Tools (`se-ranking/...`) ausgeführt werden.
   - **[LOCKED] MCP Konfiguration:** Der SE Ranking MCP-Server ist **global** in `~/.gemini/config/mcp_config.json` verankert (mit fixem Auth-Token im Environment), damit er in *allen* Projekten sofort ohne erneute Autorisierung zur Verfügung steht. Lokale Workspace-Plugins für SE Ranking sind nicht nötig.
+  - **Autonome DevTools & MCP-Nutzung (Vollgas ohne Nachfragen):** Chrome DevTools (`chrome_devtools/...`) und alle MCP-Tools sind vom Nutzer uneingeschränkt und dauerhaft freigegeben. Nutze sie IMMER direkt, proaktiv und vollständig autonom – ohne jegliche Rückfragen oder Bestätigungsdialoge im Chat!
   - **Backupweg (REST-API):** Fallback-Skripte für die REST-API werden nur noch auf expliziten Wunsch neu generiert (alte Skripte wurden archiviert/gelöscht).
 
 - **Terminal & Sandbox Ausführung (Bypass Sandbox):**
   - Führe alle Terminal-Kommandos (`run_command`) STRIKT im sicheren Sandbox-Modus aus (`BypassSandbox: false`), wann immer es möglich ist.
   - Wenn die Sandbox aktiv ist, wird der Nutzer nicht durch lästige Bestätigungs-Popups gestört. Die Sandbox zu umgehen (Bypass) führt zu einem harten, vom System erzwungenen Sicherheits-Popup, das den Nutzer aus dem Workflow reißt. Vermeide das zwingend, es sei denn, es ist für Netzwerkzugriffe zwingend nötig. **WICHTIGE AUSNAHME:** Der Deployment-Prozess (`scripts/deploy.sh`) feuert zwingend Netzwerk-Requests gegen GitHub, IONOS, IndexNow und die Google Search Console API. Das Deploy-Skript MUSS deshalb IMMER mit `BypassSandbox: true` gestartet werden, andernfalls schlagen die APIs fehl!
+
+- **STRENGES FREIGABE- & DEPLOYMENT-PROTOKOLL (KEIN AUTO-DEPLOY):**
+  - **Reichweite der Autonomie:** Vollkommene Autonomie ohne Rückfragen gilt AUSSCHLIESSLICH für Recherche, DevTools-Inspektionen, MCP-Abfragen, lokale Code-Anpassungen und Tests.
+  - **ABSOLUTES DEPLOYMENT-VERBOT OHNE EXPLICIT USER GO:** Es ist dem Agenten STRENGSTENS UNTERSAGT, selbstständig oder voreilig ein Live-Deployment (`scripts/deploy.sh` oder `/deploy`) zu starten!
+  - **Prüf- und Abnahme-Pflicht:** Vor jedem Deployment MÜSSEN alle Änderungen transparent und verständlich zusammengefasst werden. Der Nutzer muss die Möglichkeit haben, die Umsetzung in Ruhe zu lesen, zu hinterfragen und zu prüfen.
+  - **Freigabe-Schranke:** Erst wenn der Nutzer die Umsetzung ausdrücklich absegnet (z. B. "Go", "Deployen", "Bitte live stellen"), darf der Deployment-Prozess eingeleitet werden.
 
 - **Kategorie-Zuweisung für Blogartikel:**
   - Neue Blogartikel dürfen NIEMALS pauschal in die Kategorie "SEO Praxis" geworfen werden.

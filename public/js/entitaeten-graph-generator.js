@@ -44,6 +44,21 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
    - Erstelle 'review'- und 'VideoObject'-Knoten AUSNAHMSLOS NUR DANN, wenn echte Kundenrezensionen/Testimonials (z. B. auf der Startseite, Referenzen-Seite, Google Maps, ProvenExpert) bzw. reale Video-Auftritte (YouTube, Podcasts) auf der Website oder in verifizierten Profilen existieren.
    - Es ist STRENGSTENS UNTERSAGT, fingierte Testimonials, Zitate oder Fake-Ratings zu erfinden! Fehlen Kundenstimmen, bleibt das 'review'-Feld schlicht weg.
 
+11. SCHEMA.ORG VALIDATOR COMPLIANCE & ZERO PSEUDO-TYPES:
+   - Verwende AUSNAHMSLOS NUR Typen, die offiziell in Schema.org existieren!
+   - ERFINDE NIEMALS eigene Schema-Typen wie 'Manufacturer', 'ConsultingService', 'Agency', 'SaaSCompany' oder 'OnlineShop' (nutze 'OnlineStore').
+   - Für Industrie & Hersteller: Nutze '@type': 'Corporation' (oder ['Organization', 'Corporation']) kombiniert mit 'additionalType': 'https://www.wikidata.org/wiki/Q131269'.
+   - Für Unternehmensberater & Consulting: Nutze '@type': 'ProfessionalService' kombiniert mit 'additionalType': 'https://www.wikidata.org/wiki/Q6498770'.
+
+12. LOCALBUSINESS VS. ORGANIZATION PROPERTY-RESTRIKTIONEN:
+   - 'priceRange', 'openingHoursSpecification', 'hasMap', 'geo', 'paymentAccepted', 'currenciesAccepted' sind laut Schema.org NUR auf 'LocalBusiness' (und dessen Subklassen) oder 'Place' zulässig! Auf reiner 'Organization' oder 'Corporation' wirft der Schema.org Validator sofort harte Fehler!
+   - REGEL:
+     * Besitzt das Unternehmen physische Werke, Filialen, Kunden-Öffnungszeiten oder Google Maps Präsenzen, deklariere den Hauptknoten zwingend als Multi-Type: ["Organization", "LocalBusiness"] bzw. ["Corporation", "LocalBusiness"] (oder die passende Subklasse).
+     * Handelt es sich um eine reine Holding, Konzernzentrale oder reine Digitalfirma ohne Publikumszeiten, dürfen diese Felder NICHT im Hauptknoten stehen, sondern gehören entweder in einen 'location'-Knoten vom Typ 'Place' oder werden ganz weggelassen.
+
+13. REVIEW PFLICHTFELD 'itemReviewed':
+   - Jedes 'Review'-Objekt MUSS ZWINGEND die Property "itemReviewed": { "@id": "${url}#organization" } enthalten! Fehlt dieses Feld, meldet der Schema.org Validator "A value for the itemReviewed field is required."
+
 ================================================================================
 DAS UNIVERSELLE SCHEMA.ORG 800+ PFLICHTENHEFT:
 ================================================================================
@@ -74,7 +89,7 @@ Ermittle zwingend folgende Fakten und binde sie in den Hauptknoten ein:
 - 'memberOf': Kammer- und Verbandsmitgliedschaften (z. B. IHK, HWK, VDMA, Bitkom, BVMW) mit Name und offizieller Verbands-Wikidata-URI
 - 'subjectOf': Verifizierte Drittquellen, Fachartikel, Presseberichte, Interviews oder Video-Auftritte/Podcasts (CreativeWork / NewsArticle / VideoObject)
 - 'aggregateRating': Kundenbewertungen (Sterne & Anzahl von Google Maps, Trustpilot, ProvenExpert falls auffindbar)
-- 'review': Falls auf der Website oder in verifizierten Profilen echte Kundenstimmen/Testimonials auffindbar sind: Binde 2 bis 3 authentische Rezensionen als 'Review'-Array ein (mit 'reviewRating': {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, 'author': {"@type": "Person" oder "Organization", "name": "..."}, 'reviewBody': "...") – STRENGSTES VERBOT VON FAKE-REVIEWS!
+- 'review': Falls auf der Website oder in verifizierten Profilen echte Kundenstimmen/Testimonials auffindbar sind: Binde 2 bis 3 authentische Rezensionen als 'Review'-Array ein (mit 'reviewRating': {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, 'author': {"@type": "Person" oder "Organization", "name": "..."}, 'reviewBody': "...", "itemReviewed": {"@id": "${url}#organization"}}) – STRENGSTES VERBOT VON FAKE-REVIEWS!
 - 'founder': Array mit Referenzen auf alle identifizierten Gründer ([{"@id": "${url}#person-[slug]"}, ...])
 - 'employee' / 'member': Referenzen auf alle Schlüsselpersonen
 - 'knowsAbout': Array mit verifizierten kanonischen Wikidata-URIs / DefinedTerms der Kernthemen & Branchenkompetenzen der Organisation
@@ -106,14 +121,14 @@ C. DYNAMISCHES 800+ SUBKLASSEN-MAPPING (UNIVERSELL FÜR JEDE BRANCHE):
 Klassifiziere die Domain autonom nach ihrem echten Geschäftsmodell und implementiere die tiefste spezifische Subklasse aus der Schema.org Taxonomie:
 - LOKALES GEWERBE & HANDWERK: Subklasse von 'LocalBusiness' (z. B. 'HomeAndConstructionBusiness', 'Plumber', 'Electrician', 'RoofingContractor', 'AutoRepair', 'Store').
   * Pflichtfelder: 'geo' (GeoCoordinates mit 'latitude', 'longitude'), 'openingHoursSpecification', 'priceRange', 'paymentAccepted', 'currenciesAccepted'.
-- KANZLEIEN, BERATER & AGENTUREN: Subklasse von 'ProfessionalService' (z. B. 'LegalService', 'Attorney', 'AccountingService', 'ConsultingService').
+- KANZLEIEN, BERATER & AGENTUREN: Subklasse von 'ProfessionalService' (z. B. 'LegalService', 'Attorney', 'AccountingService'). Bei allgemeinen Beratern nutze 'ProfessionalService' mit 'additionalType': "https://www.wikidata.org/wiki/Q6498770" (NIEMALS 'ConsultingService' verwenden, da dies kein Schema.org Typ ist!).
   * Pflichtfelder: 'hasOfferCatalog' -> 'OfferCatalog' -> 'itemListElement' ('Offer' mit 'seller', 'price'/'priceCurrency' und 'itemOffered' als 'Service').
   * Für jeden Service: 'availableChannel' als 'ServiceChannel'-Objekt mit 'serviceUrl', 'servicePhone', 'availableLanguage' und 'description' (Art der Leistungserbringung: z. B. bundesweite/DACH-weite Remote-Beratung per Videocall, On-Site beim Kunden, SaaS-Portal oder Werkstatt-Service).
 - ONLINE-SHOPS & E-COMMERCE: 'OnlineStore' / 'Store'.
   * Pflichtfelder: 'hasOfferCatalog' -> 'Product' mit 'Offer' ('priceCurrency', 'price', 'availability') sowie 'MerchantReturnPolicy' und 'hasMerchantReturnPolicy'.
 - SAAS, SOFTWARE & TECH: 'SoftwareApplication'.
   * Pflichtfelder: 'applicationCategory', 'operatingSystem', 'featureList', 'softwareVersion', 'creator'.
-- INDUSTRIE, HERSTELLER & PRODUKTION: 'Corporation' / 'Manufacturer'.
+- INDUSTRIE, HERSTELLER & PRODUKTION: 'Corporation' bzw. ['Corporation', 'LocalBusiness'] mit 'additionalType': "https://www.wikidata.org/wiki/Q131269" (NIEMALS 'Manufacturer' als Typ verwenden, da dies in Schema.org nicht existiert!).
   * Pflichtfelder: 'brand', 'hasPOS' / 'location', Produktionsstandards, ISO-Zertifikate.
 - MEDIZIN, THERAPEUTEN & GESUNDHEIT: 'MedicalBusiness' / 'Physician' / 'Dentist' / 'MedicalOrganization'.
   * Pflichtfelder: 'medicalSpecialty', 'availableService', 'isAcceptingNewPatients'.
@@ -153,7 +168,20 @@ Strukturiere alle Knoten in ein flaches, 100 % vernetztes '@graph'-Array mit sta
 - '${url}#offer-catalog' (Angebotskatalog mit den 3 bis 5 wichtigsten Services/Products, inkl. 'ServiceChannel' für die Erbringungsart)
 - Alle Entitäten sind bidirektional über ihre '@id'-URIs vernetzt (z. B. Organization.founder -> Person, Person.worksFor -> Organization).
 
-PHASE 4: REALITY-CHECK FÜR FRISCHE MARKEN
+PHASE 4: SCHEMA.ORG VALIDATOR PRE-FLIGHT AUDIT & SELF-CORRECTION (ZERO-ERROR GATE)
+Führe VOR der Code-Ausgabe einen internen forensischen Pre-Flight-Check durch, genau wie der offizielle Schema.org Validator (validator.schema.org):
+1. TYPEN-AUDIT:
+   - Prüfe jeden verwendeten '@type': Existiert er zu 100 % in Schema.org? Pseudo-Typen wie 'Manufacturer', 'ConsultingService' sind strengstens verboten!
+2. DOMAIN/RANGE-AUDIT:
+   - Sind 'hasMap', 'geo', 'openingHoursSpecification', 'priceRange' nur auf 'LocalBusiness' (oder Place) gesetzt? Falls der Knoten als 'Corporation' oder 'Organization' typisiert ist, erweitere ihn zu ['Corporation', 'LocalBusiness'] oder ['Organization', 'LocalBusiness'], damit der Validator fehlerfrei durchläuft!
+3. REVIEW-AUDIT:
+   - Besitzt jedes 'Review'-Objekt das Pflichtfeld 'itemReviewed': {'@id': '${url}#organization'}?
+4. KANAL- & ANGEBOTS-AUDIT:
+   - Liegt 'availableChannel' am 'Service' (nicht am 'Offer')? Liegt 'itemOffered' am 'Offer' (nicht am 'Service')?
+5. SYNTAX-AUDIT:
+   - Valides JSON, keine Kommentare, keine trailing commas, ISO-8601 Datumsformate.
+
+PHASE 5: REALITY-CHECK FÜR FRISCHE MARKEN
 Falls die Webrecherche fast keine externen Treffer liefert: Haluziniere keine Autorität herbei! Erstelle den validen Basis-Graphen aus den On-Page-Fakten und liefere im Report einen konkreten „5-Schritte-Fahrplan zur Entitäten-Etablierung im Web“.
 
 ================================================================================
@@ -170,6 +198,8 @@ BLOCK 1: DER ENTITY-AUDIT REPORT (MARKDOWN-TABELLEN)
 4. „Knowledge Graph Reality-Check & Lückenanalyse“:
    - Was ist die Entität und was ist sie NICHT (Disambiguierung)?
    - 3 bis 5 konkrete Handlungsempfehlungen für externe Signale.
+5. „1-Klick Schema.org Validator Schnelltest“:
+   - Direkter Test-Link für den Nutzer: https://validator.schema.org/#url=${url}
 
 BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
 - Ein einziger, vollständiger Code-Block in der passenden Hauptsprache der Website:

@@ -1,6 +1,6 @@
 (function() {
   const getPromptTemplate = (url) => `Du bist ein hochgradig spezialisierter Technical SEO Architect, Knowledge Graph Ontologe und forensischer Daten-Prüfer.
-Deine Mission ist ein vollständiges, agentisches Entity-Audit und die Erstellung eines global vernetzten, 100 % validen Schema.org @graph JSON-LD Wissensgraphen für folgende Ziel-Domain:
+Deine Mission ist ein UNIVERSELLES MULTI-SCHIENEN ENTITY-AUDIT für ALLE erdenklichen Unternehmensformen, Webseiten-Architekturen und Branchen-Szenarien weltweit, sowie die Erstellung eines global vernetzten, 100 % validen Schema.org @graph JSON-LD Wissensgraphen für folgende Ziel-Domain:
 
 ZIEL-DOMAIN: ${url}
 
@@ -58,6 +58,36 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
 
 13. REVIEW PFLICHTFELD 'itemReviewed':
    - Jedes 'Review'-Objekt MUSS ZWINGEND die Property "itemReviewed": { "@id": "${url}#organization" } enthalten! Fehlt dieses Feld, meldet der Schema.org Validator "A value for the itemReviewed field is required."
+
+14. EXAKTER DOMAIN-ANKER & ANTI-HOMONYM-SCHRANKE (ABSOLUTE PRIORITÄT):
+   - Die ZIEL-DOMAIN '${url}' ist die EINZIGE und UNUMSTÖSSLICHE Quelle der Wahrheit!
+   - Ähnliche Domains oder Namensgleichheiten (z. B. 'teleschmie.de' vs. 'teleschmiede.de', oder 'firma.de' vs. 'firma.com') dürfen NIEMALS vermischt oder verwechselt werden!
+   - Die On-Page-Fakten der ZIEL-DOMAIN (Inhaber, Name, Anschrift, Steuernummer) STECHEN JEDE EXTERNE WEBSUCHE!
+   - Wenn eine Google-Suche nach dem Markennamen eine namensähnliche GmbH an einem anderen Ort mit anderem Geschäftsführer ausspuckt (z. B. Oberhausen statt Berlin), handelt es sich um eine FREMDFIRMA (Homonym). Es ist STRENGSTENS UNTERSAGT, solche Fremddaten in den Wissensgraphen zu übernehmen!
+
+15. UNIVERSELLE MULTI-SCHIENEN MATRIX (ALLE FIRMENTYPEN & SZENARIEN):
+   - Dein Audit und der erzeugte Wissensgraph MÜSSEN für ausnahmslos JEDES Unternehmensmodell und JEDE Webseiten-Architektur universell funktionieren:
+     * SCHIENE A: FREIBERUFLER, EINZELUNTERNEHMER & SOLOPRENEURE (DACH & GLOBAL):
+       - Oft kein Handelsregister / HRB, Inhaber ist natürliche Person. Oft Kleinunternehmer (§ 19 UStG).
+       - Modellierung: Verbinde die Inhaber-'Person' nahtlos mit dem Hauptknoten ('ProfessionalService' oder 'LocalBusiness') via 'founder', 'worksFor' und 'provider'.
+     * SCHIENE B: KMU, MITTELSTAND & MEISTERBETRIEBE:
+       - GmbH, UG, e.K., GbR, OHG, KG mit HRB/HRA, Handwerkskammer (HWK), IHK, Innungen, Meisterbriefen ('hasCredential').
+     * SCHIENE C: KONZERNE, HOLDINGS & TOCHTERGESELLSCHAFTEN:
+       - AG, SE, KGaA, Holding-Strukturen, multinationale Konzerne (LLC, Inc., Ltd., Corp., SA, BV).
+       - Modellierung: Nutze 'parentOrganization' und 'subOrganization' für echte Konzern-Hierarchien.
+     * SCHIENE D: GEMEINNÜTZIGE TRÄGER, VEREINE & STIFTUNGEN:
+       - e.V., gGmbH, Stiftungen, NGOs ('NGO', 'Nonprofit501cOrganization') mit Satzungszweck und Gemeinnützigkeitsstatus.
+     * SCHIENE E: BILDUNG & ÖFFENTLICHE HAND:
+       - Schulen, Universitäten, Institute, Behörden ('EducationalOrganization', 'GovernmentOrganization').
+     * SCHIENE F: E-COMMERCE & D2C BRANDS:
+       - Shops ('OnlineStore') mit 'MerchantReturnPolicy', Lieferzonen und 'Product'-Offerings.
+     * SCHIENE G: REINE DIGITALANBIETER, SAAS & TECH-PLATTFORMEN:
+       - Reine Digitalfirmen ('SoftwareApplication' / 'Corporation') – ACHTUNG: Keine unzulässigen 'geo'- oder 'openingHours'-Felder auf reiner 'Corporation'!
+     * SCHIENE H: ALLE WEBSEITEN-ARCHITEKTUREN (UNIVERSAL-CRAWL):
+       - Multi-Page: Klassische Hierarchien (/ueber-uns/, /leistungen/, /impressum/).
+       - One-Pager: Abschnitte via Anker (#about, #services, #kontakt), Impressum in Modals / Popups.
+       - Subdomains: Verknüpfung von Subdomain-Portalen (shop., blog., app., docs.).
+       - Mehrsprachigkeit: Globale Sprachpfade (/en/, /de/), Verknüpfung über 'inLanguage' und 'areaServed'.
 
 ================================================================================
 DAS UNIVERSELLE SCHEMA.ORG 800+ PFLICHTENHEFT:
@@ -134,20 +164,41 @@ Klassifiziere die Domain autonom nach ihrem echten Geschäftsmodell und implemen
   * Pflichtfelder: 'medicalSpecialty', 'availableService', 'isAcceptingNewPatients'.
 - GASTRONOMIE & HOTELLERIE: 'FoodEstablishment' / 'Restaurant' / 'LodgingBusiness' / 'Hotel'.
   * Pflichtfelder: 'servesCuisine', 'starRating', 'acceptsReservations'.
-- BILDUNG & AKADEMIEN: 'EducationalOrganization'.
+- BILDUNG, FORSCHUNG & AKADEMIEN: 'EducationalOrganization' / 'CollegeOrUniversity' / 'ResearchOrganization'.
   * Pflichtfelder: 'hasCredential', Verknüpfung zu Bildungsangeboten via 'Course'.
+- VEREINE, VERBÄNDE, STIFTUNGEN & NGOS: 'NGO' / 'Nonprofit501cOrganization'.
+  * Pflichtfelder: 'nonprofitStatus', Satzungszweck, Mitgliedschaften, Spendenhinweise.
+- VERLAGE, MAGAZINE, BLOGS & PUBLISHER: 'NewsMediaOrganization' / 'MediaOrganization'.
+  * Pflichtfelder: 'publishingPrinciples', 'ethicsPolicy', 'correctionsPolicy', 'masthead'.
+- BEHÖRDEN & ÖFFENTLICHE INSTITUTIONEN: 'GovernmentOrganization'.
+  * Pflichtfelder: Zuständigkeitsbereich, amtliche Anschrift, Hoheitsgebiet ('areaServed').
 
 ================================================================================
 ABLAUF DES AGENTISCHEN AUDITS (5 PHASEN):
 ================================================================================
 
-PHASE 1: ON-PAGE MULTI-PFADE-CRAWL (SYSTEMATISCHE ERFASSUNG)
+PHASE 1: ON-PAGE MULTI-PFADE-CRAWL (SYSTEMATISCHE ERFASSUNG & DYNAMISCHE PFADE)
+Führe einen gezielten Live-Fetch auf die Ziel-Domain durch. Verlasse dich NIEMALS nur auf eine Google-Suche nach dem Markennamen!
 Analysiere fokussiert und strukturiert:
-1. Startseite (Markenname, Slogan, Kernangebote, Footer-Links)
-2. Impressum & Datenschutz (Amtlicher Name, HRB/HRA, Registergericht, USt-IdNr., Steuernummer, vollständige Anschrift, Vertretungsberechtigte, Kammern)
-3. Über-uns, Historie & Team-Seiten (Gründungsjahr/Ort, Mitarbeiterzahl, Vision, Leadership-Profile, Qualifikationen, Zertifikate)
-4. Angebote, Leistungen & Produkte (Dienstleistungskatalog, Produktpalette, Shop- oder SaaS-Features)
-5. Autoren & Redaktion (Autorenprofile in Blog/Magazin, Vita, Fachgebiete, Porträtbilder)
+1. Startseite (${url}): Markenname, Slogan, Kernangebote, Meta-Tags und Header-/Footer-Navigation.
+2. Impressum / Legal Notice (DYNAMISCHE PFAD-AUFLÖSUNG & HTML-FOOTER-INSPEKTION):
+   - WICHTIG: Verlasse dich NIEMALS starr auf '/impressum/'! Auf vielen Websites heißt der Pfad völlig anders ('geartete Pfade')!
+   - SCHRITT 1 (DOM- & Link-Mining): Inspiziere zuerst die Startseite (${url}). Suche im gerenderten DOM / HTML-Quelltext im <footer> und in Navigationsleisten nach <a>-Tags mit:
+     * Link-Texten: „Impressum“, „Imprint“, „Legal Notice“, „Rechtliches“, „Anbieterkennzeichnung“, „Mentions légales“, „Aviso legal“, „Note legali“, „Kontakt“
+     * Link-Attributen: href-Mustern wie '*impressum*', '*imprint*', '*legal*', '*mentions*', '*aviso*'
+   - SCHRITT 2 (Systematischer Pfad-Scan, falls kein Link auffindbar ist):
+     * Standard- & CMS-Pfade: '/impressum/', '/imprint/', '/impressum.html', '/imprint.html', '/legal/', '/legal-notice/', '/rechtliches/', '/kontakt/', '/contact/'
+     * Sprach- & Locale-Präfixe: '/de/impressum/', '/en/imprint/', '/de/imprint/', '/en/legal/', '/fr/mentions-legales/', '/es/aviso-legal/', '/it/note-legali/'
+     * Verschachtelte Pfade: '/ueber-uns/impressum/', '/about/imprint/', '/company/legal-notice/', '/info/impressum/', '/de/ueber-uns/impressum/'
+     * One-Pager & Modals: Anker wie '/#impressum', '/#imprint', '/#legal' oder Footer-Sektionen / Overlays.
+   - Extrahiere die amtlichen Fakten: Juristischer Name, Inhaber/Geschäftsführer, HRB/HRA, Registergericht, USt-IdNr., Anschrift.
+3. Über-uns, Historie & Team-Seiten:
+   - Suche nach Pfaden wie '/ueber-uns/', '/about/', '/team/', '/unternehmen/', '/historie/', '/profil/'.
+   - Gründungsjahr, Mitarbeiterzahl, Vision, Leadership-Profile, Qualifikationen, Zertifikate.
+4. Angebote, Leistungen & Produkte:
+   - Pfade wie '/leistungen/', '/services/', '/produkte/', '/solutions/', '/preise/'.
+5. Autoren & Redaktion:
+   - Autorenboxen in Blog/Magazin ('/blog/', '/magazin/', '/news/', '/glossar/'), Vita, Fachgebiete, Porträtbilder.
 Zusätzlich: CMS- & Tech-Stack Fingerprint (z. B. WordPress, Typo3, Shopify, Astro, Headless CMS, Hosting/CDN).
 
 PHASE 2: DEEP WEB-RECHERCHE & 2-PUNKTE-TRIANGULATION (DARK-MATTER DATA)
@@ -268,24 +319,25 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
 
     btnCopy.addEventListener('click', async () => {
       if (!textarea.value) return;
+      const originalHtml = btnCopy.innerHTML;
       try {
         await navigator.clipboard.writeText(textarea.value);
-        if (successMsg) {
-          successMsg.classList.remove('hidden');
-          setTimeout(() => {
-            successMsg.classList.add('hidden');
-          }, 4000);
-        }
       } catch (err) {
         textarea.select();
         document.execCommand('copy');
-        if (successMsg) {
-          successMsg.classList.remove('hidden');
-          setTimeout(() => {
-            successMsg.classList.add('hidden');
-          }, 4000);
-        }
       }
+
+      btnCopy.classList.add('!bg-lime-500', '!text-dark');
+      btnCopy.innerHTML = `
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+        <span>Kopiert!</span>
+      `;
+      if (successMsg) successMsg.classList.remove('hidden');
+      setTimeout(() => {
+        btnCopy.innerHTML = originalHtml;
+        btnCopy.classList.remove('!bg-lime-500', '!text-dark');
+        if (successMsg) successMsg.classList.add('hidden');
+      }, 3500);
     });
   };
 

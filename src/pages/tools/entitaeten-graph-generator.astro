@@ -32,15 +32,15 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
     <div class="container mx-auto px-4 max-w-4xl">
       <div class="mb-12 text-center">
         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-lime-100/80 border border-lime-300 text-lime-900 text-xs md:text-sm font-bold uppercase tracking-wider mb-4">
-          <span>🧠 AI Knowledge Graph & GEO Engine</span>
+          <span>🧠 Universeller Multi-Schienen Generator</span>
           <span>•</span>
-          <span>Version 2026</span>
+          <span>AI Knowledge Graph 2026</span>
         </div>
         <h1 class="font-bold mb-4 font-headings text-4xl md:text-5xl lg:text-5xl text-dark tracking-tight leading-tight">
           Entitäten Graph Generator
         </h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          Gib einfach deine Domain ein. Unser gehärteter Master-Prompt schickt deinen KI-Agenten auf ein agentisches Entity-Audit: 
+          Gib einfach deine Domain ein. Unser gehärteter Multi-Schienen Master-Prompt schickt deinen KI-Agenten auf ein universelles Entity-Audit für alle Firmentypen und Webseiten-Architekturen: 
           On-Page-Crawl, 2-Punkte-Triangulation ungelinkter Profile im Web, 800+ Schema-Typen-Filter und ein 100&nbsp;% valider, vernetzter <code class="text-lime-800 bg-lime-100 px-1.5 py-0.5 rounded font-mono text-base">@graph</code> JSON-LD Code.
         </p>
       </div>
@@ -149,33 +149,60 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
         </div>
       </div>
 
-      <!-- Detail-Features: 800+ Typen und Wikidata-Gate -->
+      <!-- Detail-Features: Die 6 Säulen der Universellen Multi-Schienen-Architektur -->
       <div class="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-gray-100 mb-12">
-        <h3 class="text-2xl font-bold mb-6 text-dark font-headings">
-          Forensische Tiefenprüfung: Was das agentische Audit leistet
+        <h3 class="text-2xl font-bold mb-2 text-dark font-headings">
+          Universelle Multi-Schienen-Architektur: Für jedes Szenario & jede Website
         </h3>
-        <div class="grid md:grid-cols-3 gap-6">
+        <p class="text-gray-600 text-sm mb-8 max-w-2xl">
+          Egal ob Solopreneur, mittelständischer Handwerksbetrieb, börsennotierte Holding oder Online-Shop: Der Generator passt sich autonom an jedes Geschäftsmodell an.
+        </p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="p-5 rounded-2xl bg-gray-50 border border-gray-100">
-            <div class="text-2xl mb-2">🌳</div>
-            <h4 class="font-bold text-dark text-base mb-2">800+ Typen-Hierarchie</h4>
+            <div class="text-2xl mb-2">🌐</div>
+            <h4 class="font-bold text-dark text-base mb-2">Universelle Schienen-Matrix</h4>
             <p class="text-xs text-gray-600 leading-relaxed mb-0">
-              Der Agent wählt nicht pauschal <code class="font-mono text-[11px]">Organization</code>, sondern drillt hinab bis zur spezifischsten Subklasse aus dem <a href={`${baseUrl}/glossar/schema-org-markup/`} class="text-lime-700 font-bold hover:underline">Schema.org Markup</a> (z.&nbsp;B. <code class="font-mono text-[11px]">ProfessionalService</code> oder <code class="font-mono text-[11px]">SoftwareApplication</code>).
+              Beherrscht alle Organisationsformen (Freelancer, KMU, Konzerne via <code class="font-mono text-[11px]">parentOrganization</code>, Vereine, NGOs, Universitäten, SaaS & Shops) sowie Architekturen (Multi-Page, One-Pager & Subdomains).
             </p>
           </div>
 
           <div class="p-5 rounded-2xl bg-gray-50 border border-gray-100">
             <div class="text-2xl mb-2">🛡️</div>
-            <h4 class="font-bold text-dark text-base mb-2">Wikidata Q-ID Gate</h4>
+            <h4 class="font-bold text-dark text-base mb-2">Anti-Homonym & Zero-Hallucination</h4>
             <p class="text-xs text-gray-600 leading-relaxed mb-0">
-              Keine erfundenen IDs! Der Agent gleicht Wikidata-Einträge zwingend mit der Property <code class="font-mono text-[11px]">P856</code> (official website) ab. Fehlt ein Eintrag, bleibt das Feld leer und es wird eine Handlungsempfehlung ausgesprochen.
+              Strikter Domain-Anker: Die On-Page-Fakten deiner Website stechen jede externe Websuche. Verhindert fatale Verwechslungen mit namensgleichen Fremdfirmen an fremden Standorten.
             </p>
           </div>
 
           <div class="p-5 rounded-2xl bg-gray-50 border border-gray-100">
-            <div class="text-2xl mb-2">⚡</div>
-            <h4 class="font-bold text-dark text-base mb-2">Fester 5-Pfade-Fokus</h4>
+            <div class="text-2xl mb-2">🔎</div>
+            <h4 class="font-bold text-dark text-base mb-2">Dynamisches Pfad-Mining</h4>
             <p class="text-xs text-gray-600 leading-relaxed mb-0">
-              Schützt den Prompt vor Timeouts bei Monster-Websites. Gecrawlt werden Startseite, Impressum, Über-uns, Haupt-Leistungen und ausgewählte Autoren, um den <a href={`${baseUrl}/glossar/knowledge-graph/`} class="text-lime-700 font-bold hover:underline">Knowledge Graph</a> präzise zu extrahieren.
+              Kein Scheitern an unkonventionellen Pfaden: Inspiziert den Quelltext nach Impressum, Legal Notice, Sprach-Präfixen (<code class="font-mono text-[11px]">/de/impressum/</code>, <code class="font-mono text-[11px]">/imprint/</code>), Ankern & Modals.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-gray-50 border border-gray-100">
+            <div class="text-2xl mb-2">🌳</div>
+            <h4 class="font-bold text-dark text-base mb-2">800+ Typen-Hierarchie</h4>
+            <p class="text-xs text-gray-600 leading-relaxed mb-0">
+              Drillt bis zur tiefsten spezifischen Subklasse aus dem <a href={`${baseUrl}/glossar/schema-org-markup/`} class="text-lime-700 font-bold hover:underline">Schema.org Markup</a> (z.&nbsp;B. <code class="font-mono text-[11px]">ProfessionalService</code>, <code class="font-mono text-[11px]">OnlineStore</code> oder <code class="font-mono text-[11px]">SoftwareApplication</code>).
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-gray-50 border border-gray-100">
+            <div class="text-2xl mb-2">⚖️</div>
+            <h4 class="font-bold text-dark text-base mb-2">Validator Pre-Flight Gate</h4>
+            <p class="text-xs text-gray-600 leading-relaxed mb-0">
+              Prüft vor Ausgabe alle Schema.org Domain/Range-Restriktionen (<code class="font-mono text-[11px]">geo</code>, <code class="font-mono text-[11px]">openingHours</code> nur auf LocalBusiness/Place), bannt Pseudo-Typen und sichert 0 Fehler.
+            </p>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-gray-50 border border-gray-100">
+            <div class="text-2xl mb-2">🎯</div>
+            <h4 class="font-bold text-dark text-base mb-2">2-Punkte-Triangulation & Wikidata</h4>
+            <p class="text-xs text-gray-600 leading-relaxed mb-0">
+              Spürt ungelinkte Register- und Profildaten im Web auf und validiert sie über 2 unabhängige Datenpunkte. Schützt den <a href={`${baseUrl}/glossar/knowledge-graph/`} class="text-lime-700 font-bold hover:underline">Knowledge Graph</a> vor Fehlinformationen.
             </p>
           </div>
         </div>
@@ -269,6 +296,25 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
             </summary>
             <div class="text-gray-600 px-6 pb-6 pt-0 leading-relaxed text-sm">
               Findet der Agent bei der externen Webrecherche keine Bestätigungen, dichtet er keine Autorität hinzu. Er generiert einen soliden, fehlerfreien Basis-Graphen aus den On-Page-Fakten und liefert dir im Report einen <strong>5-Schritte-Fahrplan</strong>, welche Register und Profile (z.&nbsp;B. Google Unternehmensprofil, Crunchbase, Branchenkammer) du anlegen solltest, um deine Entität im Netz zu verankern.
+            </div>
+          </details>
+
+          <details class="bg-white rounded-2xl shadow-sm border border-gray-100 group">
+            <summary class="flex items-center justify-between cursor-pointer list-none p-6 font-bold text-lg [&::-webkit-details-marker]:hidden">
+              Funktioniert das Tool auch für Solo-Selbstständige, One-Pager oder internationale Konzerne?
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" class="h-6 w-6 text-gray-500" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6 pt-0 leading-relaxed text-sm">
+              Ja, ausnahmslos! Genau dafür wurde die <strong>Universelle Multi-Schienen-Architektur</strong> konzipiert:
+              <ul class="list-disc pl-5 mt-2 space-y-1.5">
+                <li><strong>Freiberufler &amp; Solopreneure:</strong> Der Inhaber wird als <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">Person</code> modelliert und nahtlos mit der gewerblichen Entität verknüpft – auch ohne Handelsregister.</li>
+                <li><strong>KMU &amp; Meisterbetriebe:</strong> Erfasst HRB/HRA, Handwerkskammern (HWK/IHK), Innungsmitgliedschaften und Meisterbriefe.</li>
+                <li><strong>Konzerne &amp; Holdings:</strong> Bildet komplexe Mutter- und Tochtergesellschaften über <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">parentOrganization</code> und <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">subOrganization</code> ab.</li>
+                <li><strong>One-Pager &amp; Subdomains:</strong> Liest Sektionen über URL-Anker aus und vernetzt Subdomain-Portale (<code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">shop.</code>, <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">app.</code>).</li>
+                <li><strong>Reine Digitalanbieter vs. Lokale Betriebe:</strong> Unterdrückt unzulässige Standorteigenschaften auf Konzern-Knoten und verhindert damit strikt Fehler im Schema.org Validator.</li>
+              </ul>
             </div>
           </details>
         </div>

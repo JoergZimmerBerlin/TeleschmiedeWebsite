@@ -26,13 +26,26 @@ Gruppe D: Zeit, Raum & Messung
 - Project (Projekt / Initiative)
     `.trim();
 
+    const normalizeUrl = (rawUrl) => {
+      let trimmed = rawUrl.trim();
+      if (!trimmed) return '';
+      if (!/^https?:\/\//i.test(trimmed)) {
+        trimmed = 'https://' + trimmed;
+      }
+      if (!trimmed.endsWith('/') && !trimmed.includes('?') && !trimmed.includes('#')) {
+        trimmed += '/';
+      }
+      return trimmed;
+    };
+
     const getPromptTemplate = (url) => `Du bist ein hochgradig spezialisierter SEO & Generative Engine Optimization (GEO) Architekt. 
 Deine Aufgabe ist es, eine perfekte "Groundingpage" auf Basis des inoffiziellen Groundingpage-Standards V2.0 zu generieren.
 
-SCHRITT 1: URL & WEBSITE ANALYSIEREN
+SCHRITT 1: URL & WEBSITE ANALYSIEREN (ON-PAGE SUPREMACY & ANTI-HOMONYM)
 Lies den Inhalt der folgenden Ziel-URL:
 ${url}
-Durchsuche dabei auch relevante Unterseiten (wie Impressum, Über Uns, Team), um ALLE harten Fakten und Daten zur Validierung der Entität zu finden (z.B. Firmendaten, wichtige Entitäten, Personen, Geschäftsführer, Gründungsjahr, exakte Servicebeschreibungen).
+Durchsuche dabei auch relevante Unterseiten dynamisch (im Quelltext/Footer nach Links suchen: /impressum/, /imprint/, /de/impressum/, /legal/, /ueber-uns/, /about/, /team/), um ALLE harten Fakten und Daten zur Validierung der Entität zu finden (Firmendaten, Inhaber/Geschäftsführer, HRB, USt-IdNr., Gründungsjahr, exakte Servicebeschreibungen).
+WICHTIG: Die On-Page-Fakten der Ziel-Domain stechen jede externe Websuche! Verwechsle die Entität niemals mit namensähnlichen Fremdfirmen an anderen Orten.
 
 SCHRITT 2: KLASSIFIZIEREN
 Klassifiziere die Entität exakt in EINE der folgenden Ontologie V2 Gruppen:
@@ -62,19 +75,22 @@ BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
 - ENTITÄTEN-VERNETZUNG: Anstatt eine Organization in ein Article einzubetten, welches wiederum in einer WebPage steckt, deklariere sie alle als gleichberechtigte Knoten im @graph und verlinke sie über ihre @id (z.B. \`"publisher": {"@id": "\${url}#organization"}\`).
 - Der '@type' der Haupt-Entität MUSS exakt der zuvor ermittelten Ontologie-Klasse entsprechen.
 - Baue ALLE gefundenen Fakten detailliert als korrekte Schema-Properties flach über den @graph vernetzt ein (Ziel: 100% Validität ohne Warnings).
+- VALIDATOR-REGELN:
+  * Keine Pseudo-Typen verwenden (z.B. kein 'Manufacturer').
+  * 'geo', 'openingHoursSpecification' und 'priceRange' gehören laut Schema.org NUR auf LocalBusiness/Place, nicht auf reine Organization/Corporation!
+  * Jedes 'Review' benötigt zwingend 'itemReviewed': {"@id": "${url}#organization"}.
 - Nutze (falls auf der Website anwendbar) auch fortgeschrittene Properties wie:
   * \`hasOfferCatalog\` (für Leistungen und Preise)
   * \`subjectOf\` (für verifizierende YouTube-Videos oder Podcasts)
   * \`memberOf\` (für Netzwerke und Zugehörigkeiten)
-  * \`sameAs\` (für alle Profile like LinkedIn, Instagram, Wayback Machine etc.)
+  * \`sameAs\` (für alle verifizierten Profile wie LinkedIn, Instagram, Wayback Machine etc.)
   * \`aggregateRating\` (für Bewertungen)
-
 
 WICHTIG:
 Gib mir nur die beiden fertig nutzbaren Blöcke aus, sodass ich sie ohne Nacharbeit direkt für meine Website kopieren kann.`;
 
     const init = () => {
-      console.log("Grounding Page Generator initialized v2.0.3");
+      console.log("Grounding Page Generator initialized v2.1.0");
       const btnGenerate = document.getElementById('btn-generate');
       const inputUrl = document.getElementById('target-url');
       const textarea = document.getElementById('prompt-output');
@@ -83,26 +99,52 @@ Gib mir nur die beiden fertig nutzbaren Blöcke aus, sodass ich sie ohne Nacharb
 
       if (!btnGenerate || !inputUrl || !textarea || !btnCopy) return;
 
-      btnGenerate.addEventListener('click', () => {
-        const url = inputUrl.value.trim();
-        if (!url) {
+      const handleGenerate = () => {
+        const raw = inputUrl.value.trim();
+        if (!raw) {
           alert("Bitte gib eine gültige URL ein!");
+          inputUrl.focus();
           return;
         }
-        const finalPrompt = getPromptTemplate(url);
+        const formatted = normalizeUrl(raw);
+        inputUrl.value = formatted;
+        const finalPrompt = getPromptTemplate(formatted);
         textarea.value = finalPrompt;
         
         // Auto-scroll to prompt
         textarea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      };
+
+      btnGenerate.addEventListener('click', handleGenerate);
+
+      inputUrl.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          handleGenerate();
+        }
       });
 
-      btnCopy.addEventListener('click', () => {
+      btnCopy.addEventListener('click', async () => {
         if (!textarea.value) return;
-        
-        navigator.clipboard.writeText(textarea.value).then(() => {
-          successMsg.classList.remove('hidden');
-          setTimeout(() => successMsg.classList.add('hidden'), 3000);
-        });
+        const originalText = btnCopy.innerHTML;
+        try {
+          await navigator.clipboard.writeText(textarea.value);
+        } catch (e) {
+          textarea.select();
+          document.execCommand('copy');
+        }
+
+        btnCopy.classList.add('!bg-lime-500', '!text-dark');
+        btnCopy.innerHTML = `
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+          <span>Kopiert!</span>
+        `;
+        if (successMsg) successMsg.classList.remove('hidden');
+        setTimeout(() => {
+          btnCopy.innerHTML = originalText;
+          btnCopy.classList.remove('!bg-lime-500', '!text-dark');
+          if (successMsg) successMsg.classList.add('hidden');
+        }, 3500);
       });
     };
 

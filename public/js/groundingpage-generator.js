@@ -79,6 +79,9 @@ BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
   * Keine Pseudo-Typen verwenden (z.B. kein 'Manufacturer').
   * 'geo', 'openingHoursSpecification' und 'priceRange' gehören laut Schema.org NUR auf LocalBusiness/Place, nicht auf reine Organization/Corporation!
   * Jedes 'Review' benötigt zwingend 'itemReviewed': {"@id": "${url}#organization"}.
+  * Handelsregister (HRB/HRA) gehört ZWINGEND als PropertyValue in 'identifier', NIEMALS in 'taxID'!
+  * Jede ermittelte Schlüsselperson (Gründer, Inhaber, CEO) MUSS als eigenständiger '@type': 'Person' Knoten im @graph mit 'worksFor' und trianguliertem LinkedIn/sameAs existieren!
+  * 'founder' und 'employee' an der Organisation IMMER als Array ([{"@id": "${url}#person-[slug]"}]) formatieren.
 - Nutze (falls auf der Website anwendbar) auch fortgeschrittene Properties wie:
   * \`hasOfferCatalog\` (für Leistungen und Preise)
   * \`subjectOf\` (für verifizierende YouTube-Videos oder Podcasts)

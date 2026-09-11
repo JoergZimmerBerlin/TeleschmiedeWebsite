@@ -28,10 +28,10 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
 5. PFLICHT-KNOTEN VOLLSTÄNDIGKEIT (KEINE PERSONEN WEGLASSEN!):
    - JEDE Schlüsselperson (Inhaber, Geschäftsführer, Gründer, Hauptautoren), die in Block 1 (Report, Tabelle 1) identifiziert wurde, MUSS ZWINGEND als eigenständiger '@type': 'Person' Knoten im '@graph'-Array des JSON-LD Codes generiert werden!
    - Es ist STRENGSTENS UNTERSAGT, Personen im Report zu analysieren, sie aber im JSON-LD Code zu unterschlagen!
-   - Bidirektionale Kopplung:
-     * Die Organisation MUSS diese Personen über 'founder': [{"@id": "${url}#person-[slug]"}] oder 'employee' referenzieren.
+   - Bidirektionale Kopplung & Array-Zwang:
+     * Die Organisation MUSS diese Personen ZWINGEND als Array über 'founder': [{"@id": "${url}#person-[slug]"}] oder 'employee': [{"@id": "${url}#person-[slug]"}] referenzieren (auch bei nur 1 Person IMMER als Array!).
      * Der Person-Knoten MUSS 'worksFor': {"@id": "${url}#organization"} enthalten.
-     * Jedes in Block 1 verifizierte oder triangulierte Profil einer Person (LinkedIn, X, GitHub, Google Scholar, ORCID) MUSS ZWINGEND im 'sameAs'-Array des jeweiligen Person-Knotens stehen!
+     * AKTIVE PERSONEN-TRIANGULATION FÜR 'sameAs': Führe für JEDE Schlüsselperson (Gründer, Inhaber, Geschäftsführer) immer eine aktive 2-Punkte-Triangulation nach deren offiziellem LinkedIn-, X- oder Branchenprofil durch (Name + Firma + Stadt). Gefundene Profile MÜSSEN ZWINGEND im 'sameAs'-Array des jeweiligen Person-Knotens hinterlegt werden!
 
 6. DEFINEDTERM-STANDARD FÜR 'KNOWSABOUT':
    - Formatiere Einträge in 'knowsAbout' bevorzugt als semantische 'DefinedTerm'-Objekte mit 'name' und kanonischer Wikidata-URI in 'sameAs' (z. B. {"@type": "DefinedTerm", "name": "Digital Twin", "sameAs": "https://www.wikidata.org/wiki/Q25384725"}) statt als nackte URL-Strings.
@@ -115,8 +115,8 @@ Ermittle zwingend folgende Fakten und binde sie in den Hauptknoten ein:
 - 'location' / 'department': Bei mehreren Werken, Filialen oder Niederlassungen sekundäre Standorte mit eigener Anschrift als 'Place' anbinden
 - 'contactPoint': Mindestens ein ContactPoint mit 'telephone', 'email', 'contactType' ("customer service" oder "sales") und 'availableLanguage'
 - 'vatID': Umsatzsteuer-Identifikationsnummer (USt-IdNr., z. B. "DE123456789")
-- 'taxID': Steuernummer (sofern angegeben)
-- 'identifier' / Handelsregister: HRB/HRA-Nummer und zuständiges Amtsgericht / Registergericht
+- 'taxID': Amtliche Steuernummer des Finanzamts (sofern angegeben) – ACHTUNG: Handelsregisternummern (HRB/HRA) dürfen NIEMALS in 'taxID' geschrieben werden!
+- 'identifier': Handelsregister- und Registernummern (HRB, HRA, VR etc.) gehören ZWINGEND als PropertyValue-Array in 'identifier' (z. B. [{"@type": "PropertyValue", "propertyID": "Commercial Register Number", "name": "Handelsregister", "value": "HRB 12345, Amtsgericht..."}]) – NIEMALS in 'taxID'!
 - 'areaServed': STRUKTURIERTES Array aus 'Country' und/oder 'AdministrativeArea' Entitäten mit kanonischen Wikidata-URIs in 'sameAs' (z. B. [{"@type": "Country", "name": "Deutschland", "sameAs": "https://www.wikidata.org/wiki/Q183"}, {"@type": "Country", "name": "Österreich", "sameAs": "https://www.wikidata.org/wiki/Q40"}, {"@type": "Country", "name": "Schweiz", "sameAs": "https://www.wikidata.org/wiki/Q39"}]) oder global ({"@type": "Place", "name": "Worldwide"}) – NIEMALS als nackte Text-Strings!
 - 'priceRange': Preiskategorie / Preisspanne (z. B. "€€", "€€€" oder Richtpreise), sofern für die Branche üblich
 - 'openingHoursSpecification': Bei physischen Standorten, Werkstätten oder Beratungsbüros Öffnungszeiten als 'OpeningHoursSpecification'-Array mit 'dayOfWeek', 'opens' und 'closes'
@@ -125,8 +125,8 @@ Ermittle zwingend folgende Fakten und binde sie in den Hauptknoten ein:
 - 'subjectOf': Verifizierte Drittquellen, Fachartikel, Presseberichte, Interviews oder Video-Auftritte/Podcasts (CreativeWork / NewsArticle / VideoObject)
 - 'aggregateRating': Kundenbewertungen (Sterne & Anzahl von Google Maps, Trustpilot, ProvenExpert falls auffindbar)
 - 'review': Falls auf der Website oder in verifizierten Profilen echte Kundenstimmen/Testimonials auffindbar sind: Binde 2 bis 3 authentische Rezensionen als 'Review'-Array ein (mit 'reviewRating': {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, 'author': {"@type": "Person" oder "Organization", "name": "..."}, 'reviewBody': "...", "itemReviewed": {"@id": "${url}#organization"}}) – STRENGSTES VERBOT VON FAKE-REVIEWS!
-- 'founder': Array mit Referenzen auf alle identifizierten Gründer ([{"@id": "${url}#person-[slug]"}, ...])
-- 'employee' / 'member': Referenzen auf alle Schlüsselpersonen
+- 'founder': Zwingend als ARRAY mit Referenzen auf alle identifizierten Gründer ([{"@id": "${url}#person-[slug]"}, ...]) – auch wenn es nur ein einzelner Gründer ist!
+- 'employee' / 'member': Zwingend als ARRAY mit Referenzen auf alle Schlüsselpersonen ([{"@id": "${url}#person-[slug]"}, ...])
 - 'knowsAbout': Array mit verifizierten kanonischen Wikidata-URIs / DefinedTerms der Kernthemen & Branchenkompetenzen der Organisation
 - 'logo' & 'image': Vollständige absolute URLs zu Logo und Hero-Asset (Extrahiere bevorzugt das Open-Graph-Image aus '<meta property="og:image" content="...">', Favicon/Touch-Icon oder das im Header/Footer sichtbare Logo als absolute URL!)
 - 'sameAs': Alle verifizierten externen Unternehmens- und Registerprofile (Handelsregister / North Data / Bundesanzeiger, LinkedIn Company, Crunchbase, Xing, YouTube, Google Maps) sowie Google Knowledge Graph Identifier ('https://www.google.com/search?kgmid=/g/...' oder '/m/...'), falls ein offizieller Knowledge Graph Eintrag existiert
@@ -158,7 +158,7 @@ Klassifiziere die Domain autonom nach ihrem echten Geschäftsmodell und implemen
   * Pflichtfelder: 'geo' (GeoCoordinates mit 'latitude', 'longitude'), 'openingHoursSpecification', 'priceRange', 'paymentAccepted', 'currenciesAccepted'.
 - KANZLEIEN, BERATER & AGENTUREN: Subklasse von 'ProfessionalService' (z. B. 'LegalService', 'Attorney', 'AccountingService'). Bei allgemeinen Beratern nutze 'ProfessionalService' mit 'additionalType': "https://www.wikidata.org/wiki/Q6498770" (NIEMALS 'ConsultingService' verwenden, da dies kein Schema.org Typ ist!).
   * Pflichtfelder: 'hasOfferCatalog' -> 'OfferCatalog' -> 'itemListElement' ('Offer' mit 'seller', 'price'/'priceCurrency' und 'itemOffered' als 'Service').
-  * Für jeden Service: 'availableChannel' als 'ServiceChannel'-Objekt mit 'serviceUrl', 'servicePhone', 'availableLanguage' und 'description' (Art der Leistungserbringung: z. B. bundesweite/DACH-weite Remote-Beratung per Videocall, On-Site beim Kunden, SaaS-Portal oder Werkstatt-Service).
+  * Für jeden Service: 'availableChannel' als 'ServiceChannel'-Objekt mit 'serviceType' (z. B. "Online-Video-Consulting", "Remote-Service", "Vor-Ort-Audit"), 'serviceUrl', 'servicePhone', 'availableLanguage' und 'description' (Art der Leistungserbringung: z. B. bundesweite/DACH-weite Remote-Beratung per Videocall, On-Site beim Kunden, SaaS-Portal oder Werkstatt-Service).
 - ONLINE-SHOPS & E-COMMERCE: 'OnlineStore' / 'Store'.
   * Pflichtfelder: 'hasOfferCatalog' -> 'Product' mit 'Offer' ('priceCurrency', 'price', 'availability') sowie 'MerchantReturnPolicy' und 'hasMerchantReturnPolicy'.
 - SAAS, SOFTWARE & TECH: 'SoftwareApplication'.
@@ -215,13 +215,13 @@ Wende die 2-Punkte-Triangulation an:
 PHASE 3: SCHEMA.ORG @graph SYNTHESE (FLACH & VOLL VERNETZT)
 Strukturiere alle Knoten in ein flaches, 100 % vernetztes '@graph'-Array mit standardisierten '@id'-Fragmenten:
 - '${url}#organization' (Hauptorganisation mit vollem Core-Katalog, Gründung, Adresse, Steuernummern, ISO-Zertifikate, Mitgliedschaften, Reviews, kgmid, hasMap)
-- '${url}#website' (WebSite mit 'publisher': {'@id': '${url}#organization'}, 'potentialAction' (SearchAction), 'inLanguage' UND 'hasPart': Falls auf der Domain ein Blog, ein Glossar ('DefinedTermSet'), ein Magazin oder Dokumentations-Portal existiert, verknüpfe diese redaktionellen Sub-Container über 'hasPart'!)
-- '${url}blog/#blog' (Blog: Falls vorhanden, als eigenständiger redaktioneller Publikations-Container im @graph mit 'isPartOf': {'@id': '${url}#website'}, 'publisher' und 'name')
-- '${url}glossar/#termset' (DefinedTermSet: Falls vorhanden, als eigenständiger Fach-Glossar-Container im @graph mit 'isPartOf': {'@id': '${url}#website'}, 'hasDefinedTerm')
-- '${url}#about' (AboutPage mit 'url', 'name', 'isPartOf': {'@id': '${url}#website'} UND semantischer Rückverknüpfung 'about': {'@id': '${url}#organization'})
-- '${url}#contact' (ContactPage mit 'url', 'name', 'isPartOf': {'@id': '${url}#website'} UND 'mainEntity': {'@id': '${url}#organization'})
-- '${url}#person-[slug]' (Für JEDE ermittelte Schlüsselperson mit vollem E-E-A-T Person-Katalog, 'worksFor': {'@id': '${url}#organization'}, Alumni, VideoObject als subjectOf und sameAs – DIESER KNOTEN DARF NIEMALS WEGGELASSEN WERDEN!)
-- '${url}#offer-catalog' (Angebotskatalog mit den 3 bis 5 wichtigsten Services/Products, inkl. 'ServiceChannel' für die Erbringungsart)
+- '${url}#website' (WebSite mit 'publisher': {'@id': '${url}#organization'}, 'potentialAction' (SearchAction), 'inLanguage' UND 'hasPart': Falls auf der Domain ein Blog, ein Glossar ('DefinedTermSet'), ein Magazin oder Dokumentations-Portal existiert, verknüpfe diese redaktionellen Sub-Container STRIKT über schlanke ID-Referenzen in 'hasPart': [{"@id": "${url}blog/#blog"}, {"@id": "${url}glossar/#termset"}]. KEINE FETTEN INLINE-OBJEKTE IN HASPART!)
+- '${url}blog/#blog' (Blog: Falls vorhanden, ZWINGEND als eigenständiger Top-Level-Publikations-Container im @graph-Array mit 'isPartOf': {'@id': '${url}#website'}, 'publisher' und 'name')
+- '${url}glossar/#termset' (DefinedTermSet: Falls vorhanden, ZWINGEND als eigenständiger Top-Level-Glossar-Container im @graph-Array mit 'isPartOf': {'@id': '${url}#website'}, 'hasDefinedTerm')
+- '${url}#about' (AboutPage: ZWINGEND für jede Website mit Unternehmens-, Agentur- oder Über-uns-Sektion mit 'url', 'name', 'isPartOf': {'@id': '${url}#website'} UND semantischer Rückverknüpfung 'about': {'@id': '${url}#organization'})
+- '${url}#contact' (ContactPage: ZWINGEND mit 'url', 'name', 'isPartOf': {'@id': '${url}#website'} UND 'mainEntity': {'@id': '${url}#organization'})
+- '${url}#person-[slug]' (Für JEDE ermittelte Schlüsselperson mit vollem E-E-A-T Person-Katalog, 'worksFor': {'@id': '${url}#organization'}, Alumni, VideoObject als subjectOf und trianguliertem sameAs – DIESER KNOTEN DARF NIEMALS WEGGELASSEN WERDEN!)
+- '${url}#offer-catalog' (Angebotskatalog mit den 3 bis 5 wichtigsten Services/Products, inkl. 'ServiceChannel' für die Erbringungsart mit 'serviceType', 'serviceUrl', 'availableLanguage')
 - Alle Entitäten sind bidirektional über ihre '@id'-URIs vernetzt (z. B. Organization.founder -> Person, Person.worksFor -> Organization).
 
 PHASE 4: SCHEMA.ORG VALIDATOR PRE-FLIGHT AUDIT & SELF-CORRECTION (ZERO-ERROR GATE)
@@ -230,14 +230,17 @@ Führe VOR der Code-Ausgabe einen internen forensischen Pre-Flight-Check durch, 
    - Prüfe jeden verwendeten '@type': Existiert er zu 100 % in Schema.org? Pseudo-Typen wie 'Manufacturer', 'ConsultingService' sind strengstens verboten!
 2. DOMAIN/RANGE-AUDIT:
    - Sind 'hasMap', 'geo', 'openingHoursSpecification', 'priceRange' nur auf 'LocalBusiness' (oder Place) gesetzt? Falls der Knoten als 'Corporation' oder 'Organization' typisiert ist, erweitere ihn zu ['Corporation', 'LocalBusiness'] oder ['Organization', 'LocalBusiness'], damit der Validator fehlerfrei durchläuft!
-3. REVIEW-AUDIT:
+3. REGISTER- & TAX-AUDIT:
+   - Ist das Handelsregister (HRB/HRA) sauber als PropertyValue in 'identifier' eingetragen und NIEMALS in 'taxID'?
+4. REVIEW-AUDIT:
    - Besitzt jedes 'Review'-Objekt das Pflichtfeld 'itemReviewed': {'@id': '${url}#organization'}?
-4. KANAL- & ANGEBOTS-AUDIT:
-   - Liegt 'availableChannel' am 'Service' (nicht am 'Offer')? Liegt 'itemOffered' am 'Offer' (nicht am 'Service')?
-5. KNOTEN-VOLLSTÄNDIGKEITS-AUDIT:
-   - Wurden ausnahmslos ALLE in Block 1 (Tabelle 1) identifizierten Schlüsselpersonen auch als '@type': 'Person' Knoten im '@graph' generiert und mit der Organisation verknüpft?
-   - Sind 'AboutPage' ('about') und 'ContactPage' ('mainEntity') semantisch an die Organisation gekoppelt?
-6. SYNTAX-AUDIT:
+5. KANAL- & ANGEBOTS-AUDIT:
+   - Liegt 'availableChannel' am 'Service' (nicht am 'Offer')? Liegt 'itemOffered' am 'Offer' (nicht am 'Service')? Ist 'serviceType' im 'ServiceChannel' definiert?
+6. SUB-CONTAINER- & KNOTEN-VOLLSTÄNDIGKEITS-AUDIT:
+   - Wurden ausnahmslos ALLE in Block 1 (Tabelle 1) identifizierten Schlüsselpersonen als '@type': 'Person' Knoten im '@graph' generiert, mit 'sameAs'-Profilen angereichert und mit der Organisation verknüpft?
+   - Sind 'AboutPage' ('about') und 'ContactPage' ('mainEntity') als eigenständige Knoten im '@graph' semantisch an die Organisation gekoppelt?
+   - Wurden 'Blog' und 'DefinedTermSet' als eigenständige flache Top-Level-Knoten im '@graph' deklariert und nicht als Inline-Objekte in 'hasPart' vergraben?
+7. SYNTAX-AUDIT:
    - Valides JSON, keine Kommentare, keine trailing commas, ISO-8601 Datumsformate.
 
 PHASE 5: REALITY-CHECK FÜR FRISCHE MARKEN

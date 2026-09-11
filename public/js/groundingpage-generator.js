@@ -44,7 +44,7 @@ Deine Aufgabe ist es, eine perfekte "Groundingpage" auf Basis des inoffiziellen 
 SCHRITT 1: URL & WEBSITE ANALYSIEREN (ON-PAGE SUPREMACY & ANTI-HOMONYM)
 Lies den Inhalt der folgenden Ziel-URL:
 ${url}
-Durchsuche dabei auch relevante Unterseiten dynamisch (im Quelltext/Footer nach Links suchen: /impressum/, /imprint/, /de/impressum/, /legal/, /ueber-uns/, /about/, /team/), um ALLE harten Fakten und Daten zur Validierung der Entität zu finden (Firmendaten, Inhaber/Geschäftsführer, HRB, USt-IdNr., Gründungsjahr, exakte Servicebeschreibungen).
+Durchsuche dabei auch relevante Unterseiten dynamisch (im Quelltext/Footer gezielt nach Links und Social-Icons suchen: /impressum/, /imprint/, /de/impressum/, /legal/, /ueber-uns/, /about/, /team/), um ALLE harten Fakten und Daten zur Validierung der Entität zu finden (Firmendaten, Inhaber/Geschäftsführer mit bürgerlichem Namen für Person-Knoten, Anschrift, Telefon, E-Mail, HRB, USt-IdNr., Gründungsjahr, exakte Servicebeschreibungen, Social-Links im Footer).
 WICHTIG: Die On-Page-Fakten der Ziel-Domain stechen jede externe Websuche! Verwechsle die Entität niemals mit namensähnlichen Fremdfirmen an anderen Orten.
 
 SCHRITT 2: KLASSIFIZIEREN
@@ -76,11 +76,13 @@ BLOCK 2: SCHEMA.ORG VALIDIERUNG (JSON-LD)
 - Der '@type' der Haupt-Entität MUSS exakt der zuvor ermittelten Ontologie-Klasse entsprechen.
 - Baue ALLE gefundenen Fakten detailliert als korrekte Schema-Properties flach über den @graph vernetzt ein (Ziel: 100% Validität ohne Warnings).
 - VALIDATOR-REGELN:
-  * Keine Pseudo-Typen verwenden (z.B. kein 'Manufacturer').
+  * Keine Pseudo-Typen verwenden (z.B. kein 'Manufacturer', kein 'ConsultingService').
   * 'geo', 'openingHoursSpecification' und 'priceRange' gehören laut Schema.org NUR auf LocalBusiness/Place, nicht auf reine Organization/Corporation!
   * Jedes 'Review' benötigt zwingend 'itemReviewed': {"@id": "${url}#organization"}.
-  * Handelsregister (HRB/HRA) gehört ZWINGEND als PropertyValue in 'identifier', NIEMALS in 'taxID'!
-  * Jede ermittelte Schlüsselperson (Gründer, Inhaber, CEO) MUSS als eigenständiger '@type': 'Person' Knoten im @graph mit 'worksFor' und trianguliertem LinkedIn/sameAs existieren!
+  * Handelsregister (HRB/HRA) sowie berufsrechtliche Registrierungen (HWK-Betriebsnummer, Installateurverzeichnis) gehören ZWINGEND als PropertyValue in 'identifier', NIEMALS in 'taxID'!
+  * 'serviceType' gehört laut Schema.org direkt an 'Service', NIEMALS an 'ServiceChannel'!
+  * 'legalName': Amtlicher juristischer Name inklusive Rechtsform laut Handelsregister / Impressum (z. B. "Muster GmbH"). Bei Einzelunternehmen / Freiberuflern / Freelancer-Netzwerken ist 'name' die Marke (z. B. "Freelancer Team") und 'legalName' der amtliche bürgerliche Name des Inhabers laut Impressum (z. B. "Andreas Absmeier"). Setze niemals die nackte Domain als legalName ein!
+  * ANTI-PLACEHOLDER GUARD: Jede ermittelte reale Schlüsselperson (Gründer, Inhaber, CEO) MUSS als eigenständiger '@type': 'Person' Knoten im @graph mit 'worksFor' und trianguliertem LinkedIn/sameAs existieren! Setze NIEMALS Platzhalter wie "Geschäftsführung [Domain]" oder "Agenturleitung" als Name ein. Gibt es keine namentlich genannte natürliche Person, entfällt der Person-Knoten komplett!
   * 'founder' und 'employee' an der Organisation IMMER als Array ([{"@id": "${url}#person-[slug]"}]) formatieren.
 - Nutze (falls auf der Website anwendbar) auch fortgeschrittene Properties wie:
   * \`hasOfferCatalog\` (für Leistungen und Preise)

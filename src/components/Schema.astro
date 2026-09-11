@@ -244,6 +244,16 @@ const personEntity: any = {
   "memberOf": [
     { "@type": "Organization", "name": "SEO Stammtisch Berlin" },
     { "@type": "Organization", "name": "Freelancer Team", "url": "https://freelancerteam.de/" }
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Hochschule der Medien (HdM) Stuttgart",
+      "alternateName": "HdM Stuttgart",
+      "url": "https://www.hdm-stuttgart.de/",
+      "sameAs": "https://www.wikidata.org/wiki/Q1622152",
+      "description": "Gasthörer (2007–2008)"
+    }
   ]
 };
 
@@ -260,6 +270,10 @@ const businessEntity: any = {
   "description": description || "Individuelle SEO, GEO, AI Visibility Beratung mit über 25 Jahren Erfahrung für den gesamten DACH-Raum per Remote-Videocall.",
   "url": siteUrl,
   "knowsAbout": personEntity.knowsAbout,
+  "knowsLanguage": [
+    { "@type": "Language", "name": "German", "alternateName": "de" },
+    { "@type": "Language", "name": "English", "alternateName": "en" }
+  ],
   "areaServed": dachAreaServed,
   "contactPoint": {
     "@type": "ContactPoint",
@@ -319,6 +333,47 @@ const businessEntity: any = {
     "worstRating": "1",
     "reviewCount": "24"
   },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Patrick They"
+      },
+      "reviewBody": "Down to earth, fair, hilfreich - in der ganzen Welt der SEO \"Experten\" jemand der einem einfach unkompliziert weiterhilft. Ich bin froh, dass ich ihn gefunden hab. Meine Website hat Traffic, meine Google Ads Kampagene funktioniert - ich kann Jörg Zimmer nur empfehlen."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Martin Meng"
+      },
+      "reviewBody": "Jörg ist herausragend: In wenigen Minuten hat er meine drängendsten Probleme in Sachen SEA und SEO identifiziert, Lösungsvorschläge gemacht und mich nicht, wie so oft bei anderen Dienstleistern erlebt, mit unklaren Aufgaben zurückgelassen. Er vertraut darauf, dass seine Dienstleistung so viel Wert bringt, dass die Kunden gerne wieder buchen - und genau das ist auch der Fall. TOP EMPFEHLUNG!"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Menzel Motors"
+      },
+      "reviewBody": "Wir pflegen seit vielen Jahren eine enge und sehr gute Zusammenarbeit. Seit dem hat sich in unseren SEA und SEO-Bereich wirklich viel getan. Jörg hat uns über sämtliche Stolpersteine geholfen und bestens beraten. Die beste Entscheidung war, ihn damals noch vor dem eigentlichen Relaunch mit ins Boot zu holen. Herzlichen Dank dafür."
+    }
+  ],
   "logo": {
     "@type": "ImageObject",
     "url": `${siteUrl}/images/logo-teleschmiede.webp`

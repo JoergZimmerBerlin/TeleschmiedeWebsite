@@ -34,6 +34,19 @@ const collectionSchema = {
       "description": "Erstelle mit einem Klick den perfekten System-Prompt für ChatGPT/Claude für eine vollständige Groundingpage inkl. Schema.org Markup nach Ontologie V2."
     },
     {
+      "@type": "SoftwareApplication",
+      "name": "Entitäten Graph Generator",
+      "url": "https://teleschmie.de/tools/entitaeten-graph-generator/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Agentischer Entity-Scout & Schema.org Master-Prompt Generator: 5-Pfade-Crawl, 2-Punkte-Triangulation ungelinkter Profile und Zero-Hallucination @graph JSON-LD."
+    },
+    {
       "@type": "WebApplication",
       "name": "SEO-Tool Kostenrechner 2026",
       "url": "https://teleschmie.de/tools/seo-tool-kostenrechner/",
@@ -393,7 +406,121 @@ const collectionSchema = {
           </div>
         </article>
 
-        <!-- TOOL 2: SEO-Tool Kostenrechner 2026 -->
+        <!-- TOOL 2: Entitäten Graph Generator -->
+        <article class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-md transition-all mb-10 relative overflow-hidden">
+          <div class="flex flex-col lg:flex-row gap-8 items-start justify-between">
+            <div class="lg:max-w-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="px-3 py-1 bg-lime-accent/20 text-dark text-xs font-bold rounded-full uppercase tracking-wider">
+                  Knowledge Graph & Schema.org
+                </span>
+                <span class="text-xs text-gray-muted font-medium">
+                  2-Punkte-Triangulation & Zero-Hallucination
+                </span>
+              </div>
+
+              <h3 class="text-2xl md:text-3xl font-bold text-dark mb-4 leading-snug">
+                Entitäten Graph Generator – Agentisches Audit für deinen @graph
+              </h3>
+
+              <p class="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
+                Klassische Schema-Tools verlangen mühsame manuelle Formulareingaben und erfassen oft nur Bruchteile deiner echten Web-Präsenz. Der <strong>Entitäten Graph Generator</strong> verwandelt deine Domain in einen gehärteten Master-Prompt: Dein KI-Agent (ChatGPT Plus, Claude 3.7, Perplexity, Antigravity) führt einen 5-Pfade-Crawl durch, scoutet ungelinkte Profile per 2-Punkte-Triangulation im Web und synthetisiert einen 100&nbsp;% validen, global vernetzten Schema.org <code class="text-lime-800 bg-lime-100 px-1.5 py-0.5 rounded font-mono text-sm">@graph</code>.
+              </p>
+
+              <!-- Features Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">🔍</span>
+                    2-Punkte-Triangulation
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Spürt ungelinkte Autoren-Profile, Handelsregister-Daten und Podcast-Auftritte im Netz auf und validiert sie über mindestens zwei übereinstimmende Datenpunkte.
+                  </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">🛡️</span>
+                    Zero-Hallucination Gate
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Strikter P856-Check für Wikidata-IDs und Provenance-Zwang für Social-Links: Keine erfundenen Q-IDs, keine toten Profil-Links im Code.
+                  </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">🌳</span>
+                    800+ Schema.org Typen
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Wählt präzise Subklassen (ProfessionalService, SoftwareApplication, Corporation) statt generischer Schemas und bindet hasOfferCatalog flach über @id ein.
+                  </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">⚡</span>
+                    Fester 5-Pfade-Fokus
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Gezielter Schutz vor Kontext-Timeouts: Analysiert Startseite, Impressum, Über-uns, Haupt-Leistungen und Autoren-Stichproben fokussiert.
+                  </p>
+                </div>
+              </div>
+
+              <!-- CTA Action -->
+              <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                  <a href={`${baseUrl}/tools/entitaeten-graph-generator/`} class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Zum Entitäten Graph Generator (2026)">
+                    <span>Zum Entitäten Graph Generator</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <div class="flex items-center gap-2 text-xs font-semibold text-lime-900 bg-lime-100/70 border border-lime-300 px-3.5 py-1.5 rounded-full">
+                    <span>⚡ 100 % Gratis</span>
+                    <span class="text-lime-500">•</span>
+                    <span>1-Klick-Domain</span>
+                    <span class="text-lime-500">•</span>
+                    <span>Ohne Login</span>
+                  </div>
+                </div>
+                <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                  <span class="font-semibold text-gray-700">Verwandte Themen:</span>
+                  <a href={`${baseUrl}/glossar/technisches-schema-markup/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Technisches Schema Markup →</a>
+                  <a href={`${baseUrl}/glossar/entity-seo/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Entity SEO →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Visual Teaser Box -->
+            <div class="w-full lg:w-72 bg-gradient-to-br from-gray-900 to-black text-white p-6 rounded-2xl border border-gray-800 shadow-xl self-stretch flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between border-b border-gray-800 pb-3 mb-4">
+                  <span class="text-xs font-mono text-lime-accent uppercase">Entity-Scout</span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-lime-accent animate-pulse"></span>
+                </div>
+                <p class="text-xs font-mono text-gray-400 mb-2"># Ziel-Domain:</p>
+                <div class="bg-white/10 p-2.5 rounded-lg text-xs font-mono text-lime-200 truncate mb-4">
+                  https://deine-domain.de/
+                </div>
+                <p class="text-xs font-mono text-gray-400 mb-2"># Verifizierter @graph:</p>
+                <div class="bg-black/60 p-3 rounded-lg text-xs font-mono text-gray-300 space-y-1">
+                  <p class="text-lime-accent font-bold mb-1">"@graph": [</p>
+                  <p>&#123;"@id": "...#organization"&#125;,</p>
+                  <p>&#123;"@id": "...#person-autor"&#125;,</p>
+                  <p>&#123;"@id": "...#offer-catalog"&#125;</p>
+                  <p class="text-lime-accent font-bold">]</p>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-gray-800 text-xs text-gray-400">
+                100 % syntaktisch validierbar nach Schema.org &amp; Google Rich Results.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- TOOL 3: SEO-Tool Kostenrechner 2026 -->
         <article class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-md transition-all mb-4 relative overflow-hidden">
           <div class="flex flex-col lg:flex-row gap-8 items-start justify-between">
             <div class="lg:max-w-2xl">

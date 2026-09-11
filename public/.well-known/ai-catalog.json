@@ -52,6 +52,17 @@
         "Neueste SEO Case Studies",
         "Aktuelle KI-Suche und GEO Trends 2026"
       ]
+    },
+    {
+      "identifier": "urn:air:teleschmie.de:sitemap:xml",
+      "displayName": "Jörg Zimmer XML Sitemap Index",
+      "description": "Vollständiger XML-Sitemap-Index aller kanonischen Seiten, Blogartikel und Glossareinträge.",
+      "type": "application/xml",
+      "url": "https://teleschmie.de/sitemap.xml",
+      "representativeQueries": [
+        "Alle Seiten von teleschmie.de",
+        "Vollständiger URL-Index und Seitenstruktur"
+      ]
     }
   ]
 }

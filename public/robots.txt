@@ -52,6 +52,7 @@ Sitemap: https://teleschmie.de/sitemap.xml
 Sitemap: https://teleschmie.de/sitemap-images.xml
 Sitemap: https://teleschmie.de/sitemap-videos.xml
 Sitemap: https://teleschmie.de/rss.xml
+Sitemap: https://teleschmie.de/.well-known/ai-catalog.json
 Sitemap: https://teleschmie.de/llms.txt
 Sitemap: https://teleschmie.de/llms-full.txt
 Sitemap: https://teleschmie.de/ai.txt

@@ -4,6 +4,7 @@ title: 'Agentic Commerce Protocol (ACP): Autonomer E-Commerce für KI'
 meta_title: 'Agentic Commerce Protocol (ACP) (2026)'
 description: 'Wie das Agentic Commerce Protocol (ACP) und Shared Payment Tokens autonomen KI-Checkout ermöglichen. Praxis-Guide mit Architektur & Setup. (2026)'
 meta_description: 'Wie das Agentic Commerce Protocol (ACP) und Shared Payment Tokens autonomen KI-Checkout ermöglichen. Praxis-Guide mit Architektur & Setup. (2026)'
+sameAs: "https://github.com/google-agentic-commerce"
 date: '2026-07-22'
 image: '../../assets/images/glossar/3d-light/glossar-agentic-commerce-protocol-acp-3d.webp'
 image_alt: '3D Infografik zum Agentic Commerce Protocol (ACP) mit B2B-Verhandlungen und Auto-Checkout'

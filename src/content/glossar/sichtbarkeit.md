@@ -4,6 +4,7 @@ title: "Sichtbarkeit: Organische Rankings & KI-Zitationen"
 meta_title: "Sichtbarkeit: Ranking für KI (2026)"
 description: "Sichtbarkeit im KI-Zeitalter steigern. Analysiere Zitationen in Answer Engines und maximiere deine Reichweite in neuen RAG-Pipelines. (2026)"
 meta_description: "Sichtbarkeit im KI-Zeitalter steigern. Analysiere Zitationen in Answer Engines und maximiere deine Reichweite in neuen RAG-Pipelines. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeit-3d.webp"
 related_terms: ["sichtbarkeitsmanagement", "geo", "ai-visibility-score"]

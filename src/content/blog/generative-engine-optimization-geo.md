@@ -7,6 +7,9 @@ date: "2026-03-27"
 category: "AI SEO"
 image: "../../assets/images/blog/blog-geo-pyramide-3d.png"
 image_alt: "Die GEO-Pyramide: Ein 3-Stufen-Modell für Sichtbarkeit in generativen KIs"
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "SEO verschiebt sich von Keywords zu Prompts: Wer nicht die Fragen der Nutzer beantwortet, existiert für KIs nicht."
   - "Die GEO-Pyramide (Technik, Content, Ökosystem) ist das neue Pflicht-Fundament für jede moderne Digital-Strategie."

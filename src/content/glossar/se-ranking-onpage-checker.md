@@ -10,6 +10,7 @@ tags:
   - "Content Editor"
   - "NLP"
   - "Content Score"
+sameAs: "https://seranking.com/"
 date: "2026-08-22"
 image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
 image_alt: "3D Infografik: SE Ranking On-Page SEO Checker und Content Editor"

@@ -8,6 +8,9 @@ date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-ergebnis-sichtbarkeit-in-ki-modellen-activity-7266714545100021760-7p-J"
 image: "../../assets/images/blog/geo-umfrage-infografik.webp"
 image_alt: "Donut-Chart: Sichtbarkeit in KI-Modellen – GEO 51%, AI SEO 22%, SEO 19%, LLMO 8%"
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "In unserer Branchenumfrage mit 112 Fachbeiträgen wählten 51 % der Experten GEO (Generative Engine Optimization) als führenden Begriff für KI-Sichtbarkeit."
   - "KI-Antworten in ChatGPT, Perplexity und Google AI Overviews verschieben den Fokus von Klicks auf semantische Nennungen und Wissenssynthese."

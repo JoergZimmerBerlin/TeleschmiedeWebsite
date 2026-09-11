@@ -9,6 +9,9 @@ image: "../../assets/images/blog/freelance-unlocked-lila-tshirts.jpg"
 image_alt: "Freelancer Team in lila T-Shirts an der Softeismaschine in Berlin"
 category: "Events & Networking"
 tags: ["Community", "Freelance Unlocked", "Netzwerken", "Event"]
+about_entity:
+  name: "Freelance Unlocked"
+  sameAs: "https://freelanceunlocked.com/"
 key_takeaways:
   - "Freelancer müssen keine Einzelkämpfer sein – im Freelancer Team bündeln wir die Expertise von über 100 Spezialisten."
   - "Jeder Kanal, jedes Tool abgedeckt: Echtes Backup und eingespielte Teams schlagen starre Agentur-Strukturen."

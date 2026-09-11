@@ -8,6 +8,9 @@ image: "../../assets/images/blog/seranking-api-kategorien-mindmap.webp"
 image_alt: "SE Ranking API: Die 6 Kategorien als Mindmap Übersicht"
 category: "Tech SEO & Tools"
 tags: ["API", "Endpunkte", "Übersicht", "Kosten"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "Die SE Ranking API gliedert sich in 6 Bereiche: wer nur Rankings tracken will, nutzt 10% davon, wer ernsthaft SEO-automatisieren will, braucht die anderen 90%."
   - "Die teuersten Calls sind die AI-Search-Endpunkte (bis 7.500 Credits pro Abfrage). Mit denen misst du, ob ChatGPT dich zitiert."

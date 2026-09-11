@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/seo-basics-verpasst.jpg"
 image_alt: "Jörg Zimmer mit einer weißen Taube - Symbol für den Frieden mit dem Google-Bot und den Fokus auf SEO-Basics"
 tags: ["Sprechstunde", "Technisches SEO", "Basics"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "In vier von fünf Beratungsprojekten scheitert die organische Sichtbarkeit an elementaren handwerklichen Mängeln statt an komplexen Algorithmen."
   - "Vergessene Noindex-Tags, fehlende Weiterleitungen und unsaubere H1-Hierarchien blockieren selbst millionenschwere Markenauftritte."

@@ -287,62 +287,61 @@ const hubs = hubsConfig.map(hub => {
     description="Aktuelle Insights zu SEO, SEA und Performance Marketing von Jörg Zimmer. (2026)"
     collectionItems={collectionItems}
   />
-</Layout>
+  <script is:inline>
+    function doBlogSearch() {
+      const searchInput = document.getElementById('blog-search');
+      if (!searchInput) return;
 
-<script is:inline>
-  function doBlogSearch() {
-    const searchInput = document.getElementById('blog-search');
-    if (!searchInput) return;
+      const term = searchInput.value.toLowerCase().trim();
+      const links = document.querySelectorAll('.all-blog-link');
+      const noResults = document.getElementById('no-blog-results');
 
-    const term = searchInput.value.toLowerCase().trim();
-    const links = document.querySelectorAll('.all-blog-link');
-    const noResults = document.getElementById('no-blog-results');
+      let visibleCount = 0;
 
-    let visibleCount = 0;
+      links.forEach(link => {
+        const title = link.getAttribute('data-title') || '';
+        const desc = link.getAttribute('data-desc') || '';
 
-    links.forEach(link => {
-      const title = link.getAttribute('data-title') || '';
-      const desc = link.getAttribute('data-desc') || '';
-
-      if (term === '') {
-        link.classList.remove('hidden');
-        visibleCount++;
-      } else {
-        if (title.includes(term) || desc.includes(term)) {
+        if (term === '') {
           link.classList.remove('hidden');
           visibleCount++;
         } else {
-          link.classList.add('hidden');
+          if (title.includes(term) || desc.includes(term)) {
+            link.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            link.classList.add('hidden');
+          }
+        }
+      });
+
+      if (noResults) {
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
         }
       }
-    });
+    }
 
-    if (noResults) {
-      if (visibleCount === 0) {
-        noResults.classList.remove('hidden');
-      } else {
-        noResults.classList.add('hidden');
+    function initBlogSearch() {
+      const searchInput = document.getElementById('blog-search');
+      const searchForm = document.getElementById('blog-search-form');
+
+      if (searchInput) {
+        searchInput.addEventListener('input', doBlogSearch);
+      }
+      if (searchForm) {
+        searchForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          doBlogSearch();
+        });
       }
     }
-  }
 
-  function initBlogSearch() {
-    const searchInput = document.getElementById('blog-search');
-    const searchForm = document.getElementById('blog-search-form');
-
-    if (searchInput) {
-      searchInput.addEventListener('input', doBlogSearch);
-    }
-    if (searchForm) {
-      searchForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        doBlogSearch();
-      });
-    }
-  }
-
-  initBlogSearch();
-</script>
+    initBlogSearch();
+  </script>
+</Layout>
 
 <style>
   .blog-filter-wrapper {

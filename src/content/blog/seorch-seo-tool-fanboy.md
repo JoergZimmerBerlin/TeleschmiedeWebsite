@@ -8,6 +8,9 @@ image: "../../assets/images/blog/blog-seorch-matthias-hotz.webp"
 image_alt: "Jörg Zimmer und Matthias Hotz (SEORCH) auf der Campixx"
 category: "Tech SEO & Tools"
 tags: ["SEORCH", "SEO Tools", "OnPage SEO", "Campixx", "Matthias Hotz"]
+about_entity:
+  name: "SEORCH"
+  sameAs: "https://seorch.de/"
 key_takeaways:
   - "SEORCH liefert pfeilschnelle, ungeschönte OnPage- und Tech-Analysen ohne unnötigen Software-Ballast."
   - "Entwickelt von Praktiker Matthias Hotz für maximale Transparenz und direkte Umsetzbarkeit."

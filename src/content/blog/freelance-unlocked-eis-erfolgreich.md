@@ -9,6 +9,9 @@ image: "../../assets/images/blog/freelance-unlocked-eiscreme.webp"
 image_alt: "Erfolgreiche Eis-Mission auf der Freelance Unlocked"
 category: "Events & Networking"
 tags: ["Freelance Unlocked", "Networking", "Community"]
+about_entity:
+  name: "Freelance Unlocked"
+  sameAs: "https://freelanceunlocked.com/"
 key_takeaways:
   - "Community Power wirkt: Ein lustiger Kommentar wurde zu einer echten Bewegung."
   - "Networking braucht Eisbrecher: Eiscreme bringt Menschen auf Konferenzen zusammen."

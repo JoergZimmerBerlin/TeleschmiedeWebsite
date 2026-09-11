@@ -3,10 +3,11 @@ title: "AI Rank Tracker: Tracke deine Sichtbarkeit in der KI-Suche"
 meta_title: "AI Rank Tracker: KI Sichtbarkeit messen (2026)"
 description: "Ein AI Rank Tracker überwacht deine Suchbegriffe, Brand Mentions und Zitationen in ChatGPT, Perplexity und Google AI Mode."
 meta_description: "Tracke deine Marke in über 17 KI-Engines. Mit einem AI Rank Tracker analysierst du Zitationen, Sichtbarkeit und Volatilität (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: "2026-08-10"
 image: src/assets/images/glossar/3d-light/ai-rank-tracker-3d.jpg
 image_alt: AI Rank Tracker Dashboard 3D
-category: AI SEO & Generative Search
+category: "AI SEO & Generative Search"
 key_takeaways:
   - "Rankscale überwacht Suchbegriffe, Brand Mentions und Zitationen über 17+ verschiedene AI Engines (inkl. ChatGPT, Perplexity, Claude und Google AI Mode)."
   - "Die Stability Analysis (Stabilitätsanalyse) zeigt dir Volatilitäten an, damit du verlässliche Suchbegriffe von instabilen Rankings unterscheiden kannst."

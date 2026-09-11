@@ -4,6 +4,7 @@ title: 'Topical Authority: Themenführerschaft im KI-Zeitalter'
 meta_title: 'Topical Authority: Themenführerschaft (2026)'
 description: 'Wie Topical Authority nach Koray Gübür aufgebaut wird. Themencluster, Information Gain und semantische Graphen für KI-Sichtbarkeit. (2026)'
 meta_description: 'Wie Topical Authority nach Koray Gübür aufgebaut wird. Themencluster, Information Gain und semantische Graphen für KI-Sichtbarkeit. (2026)'
+sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: '2026-07-22'
 image: '../../assets/images/glossar/3d-light/glossar-eeat-3d.webp'
 image_alt: '3D Infografik zu Topical Authority, semantischen Themenclustern und Wissensgraphen'

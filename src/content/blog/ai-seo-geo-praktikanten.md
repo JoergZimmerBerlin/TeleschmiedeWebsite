@@ -9,6 +9,9 @@ image: "../../assets/images/profile/website-boosting-magazin.webp"
 image_alt: "AI SEO oder GEO? SEO Experten Jörg Zimmer warnt vor Praktikanten-Lösungen"
 category: "AI SEO"
 tags: ["AI SEO", "GEO", "LLM", "Sichtbarkeit", "E-E-A-T"]
+about_entity:
+  name: "Artificial Intelligence"
+  sameAs: "https://www.wikidata.org/wiki/Q11660"
 key_takeaways:
   - "GEO, AIO und AI-SEO erfordern tiefes Verständnis von LLMs – das ist kein Praktikanten-Job."
   - "Echte Expertise ist am Ende immer günstiger, weil sie fatale Halluzinationen und Fehlinvestitionen verhindert."

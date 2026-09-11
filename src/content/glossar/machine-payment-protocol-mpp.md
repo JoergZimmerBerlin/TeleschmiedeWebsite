@@ -4,6 +4,7 @@ title: 'Machine Payment Protocol (MPP): KI bezahlt Maschinen'
 meta_title: 'Machine Payment Protocol MPP (2026)'
 description: 'Wie das Machine Payment Protocol (MPP) autonome M2M-Zahlungen, HTTP 402 und KI-Wallets verbindet. Praxis-Guide mit Architektur & Code. (2026)'
 meta_description: 'Wie das Machine Payment Protocol (MPP) autonome M2M-Zahlungen, HTTP 402 und KI-Wallets verbindet. Praxis-Guide mit Architektur & Code. (2026)'
+sameAs: "https://github.com/google-agentic-commerce"
 date: '2026-07-22'
 image: '../../assets/images/glossar/3d-light/glossar-machine-payment-protocol-mpp-3d.webp'
 image_alt: '3D Infografik zum Machine Payment Protocol mit KI-Wallets und Mikrotransaktionen'

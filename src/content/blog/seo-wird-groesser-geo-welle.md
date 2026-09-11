@@ -9,6 +9,9 @@ image: "../../assets/images/blog/seo_wird_groesser.jpg"
 image_alt: "SEO wird größer: Die GEO-Welle"
 category: "AI SEO"
 tags: ["GEO", "Markenaufbau", "Digitale Autorität", "SEO Strategie", "Knowledge Graph"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "GEO (Generative Engine Optimization) verlangt die strategische Optimierung des gesamten digitalen Fußabdrucks statt isolierter Onpage-Inseln."
   - "Large Language Models bewerten Marken über Co-Occurrences, Zitationen und externe Validierung in Knowledge Graphen und Portalen."

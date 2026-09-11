@@ -10,6 +10,7 @@ tags:
   - "Keyword Clustering"
   - "Suchvolumen"
   - "Topical Authority"
+sameAs: "https://seranking.com/"
 date: "2026-08-24"
 image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
 image_alt: "3D Infografik: SE Ranking Keyword-Recherche und Cluster-Tool"

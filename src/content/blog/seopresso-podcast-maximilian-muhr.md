@@ -8,6 +8,9 @@ category: "SEO Praxis"
 image: "../../assets/images/blog/seopresso-max-muhr.webp"
 image_alt: "SEOPRESSO Podcast Interview mit Maximilian Muhr"
 tags: ["Interview & Podcast", "SEO Praxis", "Entitäten", "Tech SEO"]
+about_entity:
+  name: "SEOpresso"
+  sameAs: "https://seopresso.de/"
 key_takeaways:
   - "Max Muhr beweist: Von der Zeitarbeit bei BILD.de zum Managing Director – radikale Eigeninitiative schlägt jedes theoretische Studium."
   - "Der Wandel von reiner Keyword-Recherche zur semantischen Entitäten-Optimierung ist die entscheidende Brücke zur generativen Suche (GEO)."

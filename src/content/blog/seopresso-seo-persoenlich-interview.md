@@ -8,6 +8,9 @@ image: "../../assets/images/blog/seopresso-interview.webp"
 image_alt: "SEOPRESSO Interview: Jörg Zimmer ganz persönlich im Gespräch mit Björn Darko"
 category: "SEO Praxis"
 tags: ["Interview & Podcast", "SEO Praxis", "Freelancer", "E-E-A-T", "Erfahrung"]
+about_entity:
+  name: "SEOpresso"
+  sameAs: "https://seopresso.de/"
 key_takeaways:
   - "25 Jahre Solopreneurship ohne Agentur-Wasserkopf: Echte Primärdaten und Pragmatismus schlagen jeden Hochglanz-Lebenslauf."
   - "SEO ist zu 80 % Kommunikation: Du musst zwischen Kunden-Geschäftszielen, Web-Entwicklern und Suchmaschinen-Crawlern dolmetschen."

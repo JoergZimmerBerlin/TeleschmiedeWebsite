@@ -4,6 +4,7 @@ title: 'GEO Optimierung: Die Währung für RAG-Sichtbarkeit'
 meta_title: "GEO Optimierung: Deine RAG-Sichtbarkeit (2026)"
 description: "GEO Optimierung (Generative Engine Optimization) 2026: Content Negotiation, llms.txt, API-Endpunkte und RAG-Chunking im Tacheles-Check. (2026)"
 meta_description: "GEO Optimierung (Generative Engine Optimization) 2026: Content Negotiation, llms.txt, API-Endpunkte und RAG-Chunking im Tacheles-Check. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-geo-optimierung-3d.png"
 image_alt: "GEO Optimierung 3D Infografik - Radar-Monitoring für KI-Sichtbarkeit und Brand Mentions"

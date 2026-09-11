@@ -4,6 +4,7 @@ title: "Entity SEO: Vektorraum-Ranking für KI-Crawler"
 meta_title: "Entity SEO: Vektorraum-Ranking (2026)"
 description: "Entity SEO im Detail: Wie Sie Entitäten und Wissensgraphen für LLMs modellieren, um im semantischen Vektorraum als Autorität zu ranken. (2026)"
 meta_description: "Entity SEO im Detail: Wie Sie Entitäten und Wissensgraphen für LLMs modellieren, um im semantischen Vektorraum als Autorität zu ranken. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q35120"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page"]

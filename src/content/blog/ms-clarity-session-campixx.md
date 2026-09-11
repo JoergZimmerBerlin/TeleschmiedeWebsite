@@ -9,6 +9,9 @@ image: "../../assets/images/blog/blog-ms-clarity-session.webp"
 image_alt: "MS Clarity Session von Thomas Czernik auf der Campixx 2026"
 category: "Tech SEO & Tools"
 tags: ["MS Clarity", "UX", "Usability", "Campixx", "Thomas Czernik", "Heatmaps"]
+about_entity:
+  name: "Microsoft Clarity"
+  sameAs: "https://clarity.microsoft.com/"
 key_takeaways:
   - "SEO bringt Traffic, aber Usability bringt Umsatz. Wenn die Website klemmt, war der SEO-Erfolg umsonst."
   - "MS Clarity ist ein mächtiges, oft unterschätztes Tool für Session Recordings und Heatmaps."

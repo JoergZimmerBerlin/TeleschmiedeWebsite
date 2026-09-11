@@ -7,6 +7,9 @@ meta_description: "Schluss mit Blindflug! Welche SEO-Tools tracken AI Search, Ch
 date: "2026-03-19"
 image: "../../assets/images/blog/blog-ai-search-tools-3d.webp"
 image_alt: "Beste SEO Tools für AI Search 3D Grafik - Dashboard Übersicht für KI-Sichtbarkeit"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "AI Visibility ist die neue Währung: Klassisches Rank-Tracking reicht nicht mehr aus, wenn 40% der Suchanfragen direkt von LLMs beantwortet werden."
   - "RankScale ist der Spezialist: Wer wissen will, in welcher Zeile von ChatGPT er zitiert wird, kommt an dem Cite-Tracker nicht vorbei."

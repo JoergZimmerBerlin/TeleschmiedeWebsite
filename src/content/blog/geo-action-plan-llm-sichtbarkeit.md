@@ -9,6 +9,9 @@ image: "../../assets/images/blog/geo-action-plan-llm-sichtbarkeit.webp"
 image_alt: "GEO Action Plan 2026 - Schritt für Schritt zur Sichtbarkeit in der KI-Suche"
 category: "AI SEO"
 tags: ["Strategie", "GEO", "Entitäten", "E-E-A-T"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Erst messen, dann handeln: Ein ehrlicher Status Quo ist die Basis für jede erfolgreiche GEO-Strategie."
   - "Entitäten sind das neue 'Keyword': Werde für die KI zu einem eindeutigen, unstrittigen Fakt."

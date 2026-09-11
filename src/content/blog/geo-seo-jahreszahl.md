@@ -9,6 +9,9 @@ image: "../../assets/images/blog/geo-seo-jahreszahl.webp"
 image_alt: "3D Infografik zum Thema GEO vs. SEO mit Jahreszahl 2026 und KI-Gehirn"
 category: "AI SEO"
 tags: ["GEO", "AI Search", "Title Tags", "Experiment"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Generative Engine Optimization (GEO) erfordert teils klassische Oldschool SEO-Taktiken."
   - "Jahreszahlen im Title Tag triggern die sogenannten Query Fan-Outs der KI-Modelle."

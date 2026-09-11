@@ -9,6 +9,9 @@ image: "../../assets/images/blog/digitaler-unternehmensberater.webp"
 image_alt: "SEO oder digitaler Unternehmensberater? Ein Perspektivenwechsel."
 category: "SEO Praxis"
 tags: ["SEO Strategie", "Unternehmensberatung", "Performance Marketing", "GEO", "Markenarbeit"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Moderne Suchmaschinenoptimierung (SEO) und Generative Engine Optimization (GEO) sind längst Unternehmensberatung pur: Es geht um Architektur, ROI und Zukunftsfähigkeit."
   - "Die reine Optimierung der eigenen Website reicht nicht mehr. Markenarbeit bedeutet, das gesamte digitale Ökosystem konsistent zu bespielen."

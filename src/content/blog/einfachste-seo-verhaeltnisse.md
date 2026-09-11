@@ -8,6 +8,9 @@ category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_ich-komme-aus-einfachsten-seo-verhaeltnissen-activity-7278776634860732416-L_oQ"
 image: "../../assets/images/blog/joerg-zimmer-dots-personal.webp"
 image_alt: "Jörg Zimmer (SEO Architekt) vor einer Wand mit bunten Punkten - Fokus auf das Wesentliche"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Ein blitzsauberes technisches SEO-Fundament ist zeitlos und krisenfest."
   - "Design darf niemals die organische Performance killen."

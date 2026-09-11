@@ -9,6 +9,9 @@ image: "../../assets/images/blog/ai-ready-podcast.webp"
 image_alt: "Bist du SEO AI Ready? Jörg Zimmer im Podcast Interview"
 category: "AI SEO"
 tags: ["Interview & Podcast"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Klassisches SEO ist nur noch die Eintrittskarte – für AI Overviews muss man in Entitäten denken."
   - "KI ist ein Co-Pilot, kein Kapitän: Sie hilft bei Datenanalyse, ersetzt aber keine menschliche Intuition."

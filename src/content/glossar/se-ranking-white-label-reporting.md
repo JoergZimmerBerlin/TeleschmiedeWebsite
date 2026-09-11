@@ -10,6 +10,7 @@ tags:
   - "Reporting"
   - "SEO Agentur"
   - "B2B Features"
+sameAs: "https://seranking.com/"
 date: "2026-08-23"
 image: "../../assets/images/glossar/3d-light/se-ranking-agentur.webp"
 image_alt: "3D Infografik: SE Ranking White-Label Reporting und Agentur-Dashboard"

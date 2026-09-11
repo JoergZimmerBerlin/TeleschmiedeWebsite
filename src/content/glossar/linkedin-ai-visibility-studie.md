@@ -5,6 +5,7 @@ description: "Die Semrush LinkedIn AI Visibility Studie analysiert: Warum Creato
 meta_description: "Die Semrush LinkedIn AI Visibility Studie analysiert: Warum Creator-Profile und Longform-Artikel 2026 in ChatGPT und Perplexity dominieren. (2026)"
 category: "AI SEO & Generative Search"
 author: "Jörg Zimmer"
+sameAs: "https://www.wikidata.org/wiki/Q213660"
 date: "2026-08-31"
 image: "../../assets/images/blog/3d-light/linkedin-ai-visibility-studie.jpg"
 image_alt: "3D Icon einer Lupe über einem LinkedIn-Logo mit KI-Knotenpunkten"

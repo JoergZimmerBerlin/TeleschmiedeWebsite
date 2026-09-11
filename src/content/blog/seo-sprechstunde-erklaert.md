@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/profile/katze-seo-hoodie.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Die Grill-Analyse"
 tags: ["Sprechstunde"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Die SEO-Sprechstunde ist kein unverbindlicher Kaffeeklatsch, sondern eine datengestützte Live-Diagnose nach dem 80/20-Hebel-Prinzip."
   - "Vor jedem Call analysiere ich Search Console, Ranking-Historie und Wettbewerber – wir starten in Minute 1 direkt bei den echten Hebeln."

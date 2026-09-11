@@ -4,6 +4,7 @@ title: "Überstunde Berlin: Das Networking-Event"
 meta_title: "Überstunde Berlin: Event Guide (2026)"
 description: "Überstunde Berlin im Detail: Warum Afterwork-Networking für SEOs, Gründer und E-E-A-T Markenaufbau 2026 unverzichtbar ist. (2026)"
 meta_description: "Überstunde Berlin im Detail: Warum Afterwork-Networking für SEOs, Gründer und E-E-A-T Markenaufbau 2026 unverzichtbar ist. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q64"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["local-seo", "e-e-a-t", "citation", "seo-audit"]

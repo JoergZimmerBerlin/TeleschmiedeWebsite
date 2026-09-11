@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/rankscale-ai-visibility-tracking.webp"
 image_alt: "Rankscale AI Visibility Tracker – KI-Sichtbarkeit in 17 LLMs messen"
 tags: ["Case Study", "Tools", "Rankscale", "AI Visibility", "GEO"]
+about_entity:
+  name: "Rankscale"
+  sameAs: "https://rankscale.ai/"
 key_takeaways:
   - "Rankscale beendet den Blindflug in generativen Antwortmaschinen durch paralleles Tracking von 17 Sprachmodellen."
   - "Die integrierte Sentiment-Analyse deckt auf, ob KIs deine Marke als Experten empfehlen oder kritisch bewerten."

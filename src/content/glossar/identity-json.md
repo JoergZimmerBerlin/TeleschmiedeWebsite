@@ -4,6 +4,7 @@ meta_title: "Identity JSON: Entitäten definieren (2026)"
 description: "Identity JSON (JSON-LD) ist pure Pflicht. Präsentiere KI-Agenten harte Fakten und baue strukturierte Entitäts-Daten ohne Kompromisse. (2026)"
 meta_description: "Identity JSON (JSON-LD) ist pure Pflicht. Präsentiere KI-Agenten harte Fakten und baue strukturierte Entitäts-Daten ohne Kompromisse. (2026)"
 category: "AI SEO & Generative Search"
+sameAs: "https://a2a-protocol.org/"
 date: "2026-07-18"
 image: ../../assets/images/glossar/3d-light/glossar-identity-json-3d.webp
 image_alt: "Identity JSON und strukturierte Daten für Entitäten"

@@ -3,10 +3,11 @@ title: "AI Prompt Research: Echte Nutzeranfragen entschlüsseln"
 meta_title: "AI Prompt Research: KI Prompts analysieren (2026)"
 description: "Erfahre, wie AI Prompt Research & Decoding die tatsächlichen Suchintentionen und Prompts aufdeckt, mit denen Nutzer LLMs wie ChatGPT befragen."
 meta_description: "Entdecke mit Prompt Research, welche Fragen Nutzer an ChatGPT stellen. Prompt Decoding von Rankscale zeigt dir Suchvolumen & Intents (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q11660"
 date: "2026-08-10"
 image: src/assets/images/glossar/3d-light/ai-prompt-research-3d.jpg
 image_alt: AI Prompt Research Lupe KI
-category: AI SEO & Generative Search
+category: "AI SEO & Generative Search"
 key_takeaways:
   - "Rankscale nutzt die Methode 'Prompt Decoding' exklusiv. Sie wurde unabhängig durch eine OpenAI/Harvard-Studie (NBER 34255) verifiziert und wissenschaftlich validiert."
   - "Das System nutzt keine persönlichen Telemetrie-Daten echter Nutzer, sondern basiert auf 'semantischer Prompt-Dichte' durch interne Modell-Simulationen (Prompt Search Volume)."

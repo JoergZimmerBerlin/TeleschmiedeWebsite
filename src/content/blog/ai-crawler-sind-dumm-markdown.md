@@ -9,6 +9,9 @@ image: "../../assets/images/blog/ai-crawler-markdown-cloudflare.jpg"
 image_alt: "Cloudflare Markdown for Agents Dashboard mit Token-Statistiken"
 category: "AI SEO"
 tags: ["AI Crawler", "Markdown", "SEO Technik", "Cloudflare", "GEO"]
+about_entity:
+  name: "Cloudflare"
+  sameAs: "https://www.wikidata.org/wiki/Q1102690"
 key_takeaways:
   - "AI-Crawler scheitern oft an JavaScript und verschachteltem HTML (Rendering-Hölle) – sie brauchen strukturierte Daten."
   - "Markdown spart bis zu 80% Token, was die Verarbeitung für LLMs schneller, günstiger und präziser macht."

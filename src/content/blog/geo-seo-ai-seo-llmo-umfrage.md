@@ -9,6 +9,9 @@ image: "../../assets/images/blog/infografik_seo_namen_umfrage.webp"
 image_alt: "Infografik: GEO vs AI-SEO vs LLMO - Wie die Community die KI-Optimierung nennt"
 category: "AI SEO"
 tags: []
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "GEO (Generative Engine Optimization) setzt sich mit 50% als bevorzugter Begriff durch – aber der Name ist zweitrangig."
   - "Die harte Arbeit bleibt gleich: Inhalte so aufbereiten, dass KI-Systeme sie als wertvoll erkennen und empfehlen."

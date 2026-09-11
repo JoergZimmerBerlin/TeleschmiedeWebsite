@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/reines-seo-vs-geo.webp"
 image_alt: "SEO vs GEO Infografik"
 tags: ["GEO", "Generative Engine Optimization", "LLMs", "AI Search", "Tokenfreundlichkeit"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Menschen-SEO belohnt Klicks und Verweildauer auf Landingpages – Maschinen-GEO belohnt Token-Effizienz und saubere Datenextraktion."
   - "Beim Query Fan Out konsultieren KI-Modelle bis zu 50 Quellen simultan: Eine einzelne isolierte rankende URL verliert an Alleinstellungsmerkmal."

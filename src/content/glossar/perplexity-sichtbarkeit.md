@@ -7,7 +7,7 @@ sameAs: "https://www.wikidata.org/wiki/Q123403392"
 date: "2026-08-10"
 image: "../../assets/images/glossar/3d-light/perplexity-sichtbarkeit-3d.webp"
 image_alt: Perplexity Sichtbarkeit messen SEO
-category: AI SEO & Generative Search
+category: "AI SEO & Generative Search"
 key_takeaways:
   - "Perplexity-Sichtbarkeit basiert nicht auf Rankings in einer Liste, sondern auf Citations (Quellenangaben) in generierten Antworten."
   - "Statt Suchvolumen messen wir bei Perplexity die Citation Rate und den Share of Voice bei spezifischen, transaktionalen Prompts."

@@ -4,6 +4,7 @@ meta_title: "KI-Sichtbarkeit: RAG maximieren (2026)"
 description: "KI-Sichtbarkeit erhöhen: Wie Sie Share of Model, Citation Rate und Markenautorität 2026 in ChatGPT, Gemini und Perplexity maximieren. (2026)"
 meta_description: "KI-Sichtbarkeit erhöhen: Wie Sie Share of Model, Citation Rate und Markenautorität 2026 in ChatGPT, Gemini und Perplexity maximieren. (2026)"
 category: 'AI SEO & Generative Search'
+sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-ki-sichtbarkeit-3d.webp"
 image_alt: "KI Sichtbarkeit und Generative Engine Optimization - Isometrische 3D Grafik"

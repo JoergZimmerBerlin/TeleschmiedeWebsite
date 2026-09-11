@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/geo_transformation.jpg"
 image_alt: "Die GEO Transformation"
 tags: ["GEO", "Transformation", "AI Visibility", "Generative Engine Optimization", "User Journey"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Generative Engine Optimization (GEO) ist kein Bedrohungsszenario, sondern die logische Evolution unserer Beratungsdisziplin."
   - "Die klassische User Journey transformiert sich: Suchende interagieren zunehmend in Chatfenstern mit AI-Agenten statt in Trefferlisten."

@@ -8,6 +8,9 @@ date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/blog/linkedin_doenerback.webp"
 image_alt: "Jörg auf der Grüne Woche mit den Gründern von Dönerback"
+about_entity:
+  name: "Freelancer"
+  sameAs: "https://www.wikidata.org/wiki/Q45162"
 key_takeaways:
   - "Konsequente Produktqualität und ehrliche Problemlösung setzen sich durch – selbst in extrem umkämpften Traditionsmärkten."
   - "Gutes Marketing benötigt ein Angebot, das sein Versprechen hält: Ohne Produkt-Substanz verpufft jeder eingekaufte Klick."

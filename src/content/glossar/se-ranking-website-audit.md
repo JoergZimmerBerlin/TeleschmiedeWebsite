@@ -10,6 +10,7 @@ tags:
   - "Tech SEO"
   - "Crawling"
   - "Core Web Vitals"
+sameAs: "https://seranking.com/"
 date: "2026-08-22"
 image: "../../assets/images/tools/se-ranking-audit-teleschmiede.webp"
 image_alt: "SE Ranking Website Audit Dashboard mit 100% Health Score für teleschmie.de"

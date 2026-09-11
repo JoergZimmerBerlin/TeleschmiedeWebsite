@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/blog/seo-sprechstunde.webp"
 image_alt: "SEO-Sprechstunde mit Jörg Zimmer - Prozess und Ablauf erklärt"
 tags: ["Sprechstunde", "Case Study"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Die SEO-Sprechstunde ist ein interaktiver Arbeitsdialog auf Augenhöhe, bei dem wir deine Website live und ohne Umschweife durchleuchten."
   - "Dank einer gründlichen Voranalyse steigen wir in Minute 1 direkt bei den harten Fakten und größten Hebeln ein."

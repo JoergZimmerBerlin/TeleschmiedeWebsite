@@ -8,6 +8,9 @@ category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_was-kann-man-in-2-stunden-seo-schon-erreichen-activity-7274003504106090496-e2hS"
 image: "../../assets/images/blog/linkedin_2-stunden-seo.webp"
 image_alt: "Search Console Graph mit starkem Aufwärtstrend in der SEO Sprechstunde"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Technische Blockaden lösen bringt oft binnen weniger Wochen messbare Ergebnisse."
   - "Fokus auf Indexierung (Quality vor Quantity) ist der größte Hebel für kleine und mittlere Seiten."

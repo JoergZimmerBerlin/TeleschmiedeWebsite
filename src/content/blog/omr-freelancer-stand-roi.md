@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/omr-freelancer-stand-roi.webp"
 image_alt: "Jörg Zimmer auf der OMR mit dem Freelancer Team"
 tags: ["OMR", "Freelancer", "Networking", "ROI", "Agentur"]
+about_entity:
+  name: "OMR Festival"
+  sameAs: "https://www.wikidata.org/wiki/Q28869871"
 key_takeaways:
   - "Ein Messeauftritt als Aussteller unterscheidet sich grundlegend vom reinen Besucher-Erlebnis."
   - "Der Fokus liegt auf Beziehungsaufbau und qualifizierten Dialogen – Fachvorträge lassen sich später digital nachholen."

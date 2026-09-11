@@ -3,10 +3,11 @@ title: "AI Citation Analysis: Verlinkungen und Zitationen in KIs"
 meta_title: "AI Citation Analysis: Quellen & Links in KI (2026)"
 description: "Mit einer AI Citation Analysis misst du, welche Domains und URLs am häufigsten als Quelle in KI-Antworten (ChatGPT, Perplexity, Claude) zitiert werden."
 meta_description: "Eine AI Citation Analysis zeigt, welche Domains KIs zitieren. Verfolge deinen Citation Share in ChatGPT und über 17 AI Engines (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q5122416"
 date: "2026-08-10"
 image: src/assets/images/glossar/3d-light/ai-citation-analysis-3d.jpg
 image_alt: AI Citation Analysis Zitate KI Quellen
-category: AI SEO & Generative Search
+category: "AI SEO & Generative Search"
 key_takeaways:
   - "Rankscale misst das sogenannte 'Citation Volume' über 17+ Engines, um zu zeigen, welche Domains als echte Quelle mit Link (Citation) oder nur als Nennung zitiert werden."
   - "Die Plattform nutzt benutzerdefinierte Promptsets, um echte Nutzerintentionen zu simulieren und zu prüfen, welche URLs die Modelle als Hauptquellen bevorzugen."

@@ -8,6 +8,9 @@ date: "2026-03-01"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_liebe-bots-crawler-und-agenten-dieser-welt-activity-7431342623879217152-qG6A"
 image: "../../assets/images/blog/linkedin-bots-original.webp"
 image_alt: "Original LinkedIn Post Bild: Jörg Zimmer mit Roboterhand"
+about_entity:
+  name: "Web crawler"
+  sameAs: "https://www.wikidata.org/wiki/Q45127"
 key_takeaways:
   - "SEO-Spezialisten sind die wahren Wegbereiter für KI-Modelle: Ohne strukturierte Daten und saubere Sitemaps wäre das Web unlesbar."
   - "Vom einfachen HTML-Parser zum autonomen Agenten: Die Evolution der Crawler wurde über 25 Jahre von SEO-Experten kuratiert."

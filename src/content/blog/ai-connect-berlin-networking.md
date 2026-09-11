@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berli
 image: "../../assets/images/blog/ai-connect-berlin-ticket.webp"
 image_alt: "Ticket für 1. AI Connect Berlin - Jörg Zimmer ist dabei"
 tags: ["AI Connect", "Google Antigravity", "Gemini Pro", "Vibe Coding", "Berlin Tech"]
+about_entity:
+  name: "Google Gemini"
+  sameAs: "https://www.wikidata.org/wiki/Q123687351"
 key_takeaways:
   - "Das 1. AI Connect Berlin im Cambridge Innovation Center (CIC) bringt Pioniere rund um Generative AI und Agentic Workflows zusammen."
   - "Vibe Coding mit Google Antigravity und Gemini Pro transformiert Software-Entwicklung vom manuellen Coden zum kreativen Dirigieren."

@@ -3,10 +3,11 @@ title: "AI Visibility Audit (AEO & GEO Audit)"
 meta_title: "AI Visibility Audit für SEOs (2026)"
 description: "Wie führt man ein AI Visibility Audit (GEO-Audit) durch? Crawlability für KIs, RAG und Prompt-Mapping im B2B-Bereich (2026)"
 meta_description: "Wie führt man ein AI Visibility Audit (GEO-Audit) durch? Crawlability für KIs, RAG und Prompt-Mapping im B2B-Bereich (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-08-10"
 image: "../../assets/images/glossar/3d-light/ai-visibility-audit-3d.webp"
 image_alt: AI Visibility Audit B2B SEO
-category: Technisches SEO & UX
+category: "Technisches SEO & UX"
 key_takeaways:
   - "Ein AI Visibility Audit prüft, ob eine Domain von KI-Systemen (LLMs) wie ChatGPT oder Perplexity gelesen, verstanden und als Quelle zitiert wird."
   - "Klassisches Onpage-SEO reicht nicht mehr: KIs benötigen strukturierte Daten, maschinenlesbare Formate (z.B. llms.txt) und saubere Entitäten."

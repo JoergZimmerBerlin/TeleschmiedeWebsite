@@ -8,6 +8,9 @@ image: "../../assets/images/blog/joerg-und-mitarbeiter.webp"
 image_alt: "Jörg Zimmer und Nico Kavelar von SE Ranking auf der Campixx"
 category: "Tech SEO & Tools"
 tags: ["Erfahrungsbericht", "Vergleich"]
+about_entity:
+  name: "Sistrix"
+  sameAs: "https://www.wikidata.org/wiki/Q97199261"
 key_takeaways:
   - "SE Ranking bietet oft mehr Leistungen wie Mitarbeiterplätze und Reporting-Vorlagen schon im günstigeren Core-Tarif als Sistrix im Start-Paket."
   - "Tagesaktuelles Rank-Tracking mit SERP-Caching ermöglicht eine tiefe Fehleranalyse in Echtzeit, die in der Praxis extrem hilfreich ist."

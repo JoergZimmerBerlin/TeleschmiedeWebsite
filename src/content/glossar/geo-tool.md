@@ -4,6 +4,7 @@ meta_title: "GEO Tool: KI-Sichtbarkeit messen (2026)"
 description: "GEO Tools im Vergleich: Wie Rankscale und SE Ranking Zitationen, Sentiment und Modell-Sichtbarkeit in ChatGPT & Perplexity messbar machen. (2026)"
 meta_description: "GEO Tools im Vergleich: Wie Rankscale und SE Ranking Zitationen, Sentiment und Modell-Sichtbarkeit in ChatGPT & Perplexity messbar machen. (2026)"
 category: 'AI SEO & Generative Search'
+sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-07-31"
 image: "../../assets/images/glossar/3d-light/glossar-geo-tool-3d.webp"
 image_alt: "GEO Tool, Rankscale und SE Ranking - Isometrische 3D Grafik"

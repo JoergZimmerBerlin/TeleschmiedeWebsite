@@ -9,6 +9,9 @@ image: "../../assets/images/blog/freelancer-team-omr.webp"
 image_alt: "3D Illustration von 25 Freelancern am OMR Stand Halle B6 K12"
 category: "Events & Networking"
 tags: ["OMR", "Freelancer", "Networking", "Online Marketing", "Hamburg"]
+about_entity:
+  name: "OMR Festival"
+  sameAs: "https://www.wikidata.org/wiki/Q28869871"
 key_takeaways:
   - "25 Expert*innen aus allen Disziplinen des Online Marketings gebündelt an einem Stand."
   - "Halle B6, Stand K12 – direkt an der Food Area."

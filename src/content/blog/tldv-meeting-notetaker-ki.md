@@ -8,6 +8,9 @@ image: "../../assets/images/blog/tldv-meeting-notetaker-ki.webp"
 image_alt: "tl;dv KI Notetaker Infografik"
 category: "Tech SEO & Tools"
 tags: ["Notetaker", "tl;dv", "Künstliche Intelligenz", "CRM Integration", "Produktivität"]
+about_entity:
+  name: "tl;dv"
+  sameAs: "https://tldv.io/"
 key_takeaways:
   - "tl;dv transkribiert Videokonferenzen in Echtzeit und fasst Beschlüsse und Aufgaben automatisiert zusammen."
   - "Über 1.000 native Schnittstellen zu CRMs (HubSpot, Salesforce, Notion, Slack etc.) eliminieren manuelle Nachbereitung."

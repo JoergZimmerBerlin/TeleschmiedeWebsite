@@ -9,6 +9,9 @@ image: "../../assets/images/blog/website-seo-audit-vibe-coding.webp"
 image_alt: "SEO Audit und Vibe Coding - Jörg Zimmer"
 category: "Tech SEO & Tools"
 tags: ["SEO Audit", "Vibe Coding", "SE Ranking", "Website Gesundheit", "Core Web Vitals"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "Verlasse dich bei technischen SEO-Audits niemals blind auf die Erfolgsmeldungen von Vibe-Coding-Assistenten."
   - "Website-Gesundheit ist ein dynamisches Zusammenspiel aus über 100 Parametern, das sich nicht in einem einzigen Durchlauf lösen lässt."

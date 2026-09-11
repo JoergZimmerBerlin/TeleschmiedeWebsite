@@ -4,6 +4,7 @@ title: 'WebMCP (Web Model Context Protocol): Browser-Tools für KI'
 meta_title: 'WebMCP: Browser-Tools für KI-Agenten (2026)'
 description: 'Wie WebMCP und navigator.modelContext Webseiten in interaktive KI-Toolkits verwandeln. Guide zu W3C-Standard, Code-Beispiel & Setup. (2026)'
 meta_description: 'Wie WebMCP und navigator.modelContext Webseiten in interaktive KI-Toolkits verwandeln. Guide zu W3C-Standard, Code-Beispiel & Setup. (2026)'
+sameAs: "https://modelcontextprotocol.io/"
 date: '2026-07-22'
 image: '../../assets/images/glossar/3d-light/glossar-webmcp-3d.webp'
 image_alt: '3D Infografik zu WebMCP, HTTP-Integration und Cloud-APIs'

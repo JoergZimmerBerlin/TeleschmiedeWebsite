@@ -4,6 +4,7 @@ title: "SEO Consulting: Strategische Architektur für KIs"
 meta_title: "SEO Consulting: Architektur für KI (2026)"
 description: "SEO Consulting für maximale digitale Autorität. Wie strategische Systemarchitektur, Entitäten und GEO nachhaltiges Wachstum sichern. (2026)"
 meta_description: "SEO Consulting für maximale digitale Autorität. Wie strategische Systemarchitektur, Entitäten und GEO nachhaltiges Wachstum sichern. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["seo-consulting", "seo-coaching", "seo-audit", "geo"]

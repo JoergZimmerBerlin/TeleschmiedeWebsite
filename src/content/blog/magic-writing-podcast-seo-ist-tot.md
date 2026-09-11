@@ -9,6 +9,9 @@ image: "../../assets/images/blog/magic-writing-podcast.webp"
 image_alt: "Magic Writing Podcast: Jörg Zimmer über das Ende von SEO?"
 category: "SEO Praxis"
 tags: ["Interview & Podcast"]
+about_entity:
+  name: "Magic Writing"
+  sameAs: "https://magicwriting.io/"
 key_takeaways:
   - "Zielgruppenverständnis ist die am meisten unterschätzte Superkraft im SEO – nicht Keywords, sondern Suchintention zählt."
   - "Google bleibt King of Search: Die Infrastruktur aus Android, Chrome und Ads ist nicht mal eben zu ersetzen."

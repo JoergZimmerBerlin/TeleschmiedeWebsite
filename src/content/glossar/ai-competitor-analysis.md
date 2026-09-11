@@ -3,6 +3,7 @@ title: "AI Competitor Analysis: Konkurrenzanalyse in KI"
 meta_title: "AI Competitor Analysis: KI-Wettbewerb (2026)"
 description: "AI Competitor Analysis im Tacheles-Check: Finde heraus, warum ChatGPT und Perplexity deine Mitbewerber empfehlen und wie du das änderst. (2026)"
 meta_description: "AI Competitor Analysis im Tacheles-Check: Finde heraus, warum ChatGPT und Perplexity deine Mitbewerber empfehlen und wie du das änderst. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q726792"
 date: "2026-08-10"
 image: src/assets/images/glossar/3d-light/ai-competitor-analysis-3d.jpg
 image_alt: "AI Competitor Analysis Wettbewerb KI"

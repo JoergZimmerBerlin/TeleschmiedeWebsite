@@ -9,6 +9,9 @@ image: "../../assets/images/profile/website-boosting-rucksack.webp"
 image_alt: "SEO-Highlights 2025 - Ein Rückblick von Jörg Zimmer"
 category: "SEO Praxis"
 tags: ["E-E-A-T", "Jahresrückblick", "SEO Praxis"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "2025 war das Jahr, in dem AI-Tracking mit Tools wie Rankscale den Kinderschuhen entwachsen ist."
   - "Die SEO-Szene braucht mehr Zusammenhalt und weniger Ellenbogen – echte Mastermind-Gruppen entstehen."

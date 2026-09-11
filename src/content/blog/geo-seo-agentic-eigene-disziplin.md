@@ -9,6 +9,9 @@ image: "../../assets/images/blog/geo_nebenbei.jpg"
 image_alt: "Agentic SEO Infografik"
 category: "AI SEO"
 tags: ["GEO", "Agentic SEO", "KI-Sichtbarkeit", "Strategie", "Budgets"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Agentic SEO optimiert für die agentische Nutzererfahrung, nicht nur für die menschliche."
   - "Es bedarf neuer Metriken, neuer Protokolle und neuer Tools, die über das klassische SEO hinausgehen."

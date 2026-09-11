@@ -8,6 +8,9 @@ image: "../../assets/images/blog/top-9-ai-visibility-tools.webp"
 image_alt: "Top 9 AI Visibility Tools Übersicht - Isometrische 3D Grafik"
 category: "AI SEO"
 tags: ["Tools", "Übersicht"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Wer seine Sichtbarkeit in ChatGPT, Perplexity und Google AI Overviews nicht trackt, betreibt im Jahr 2026 reinen Blindflug."
   - "Der Markt teilt sich in dedizierte Spezial-Tools für Answer Engine Optimization (GEO) und etablierte SEO-Suiten, die KI-Features nachrüsten."

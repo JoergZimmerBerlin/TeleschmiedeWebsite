@@ -3,6 +3,7 @@ title: "AI Sentiment Analysis: Wie KIs über deine Marke sprechen"
 meta_title: "AI Sentiment Analysis: KI-Stimmung messen (2026)"
 description: "Erfahre, wie eine AI Sentiment Analysis aufdeckt, ob ChatGPT und Claude deine Marke positiv empfehlen, ignorieren oder kritisieren. (2026)"
 meta_description: "Erfahre, wie eine AI Sentiment Analysis aufdeckt, ob ChatGPT und Claude deine Marke positiv empfehlen, ignorieren oder kritisieren. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q1411470"
 date: "2026-08-10"
 image: src/assets/images/glossar/3d-light/ai-sentiment-analysis-3d.jpg
 image_alt: "AI Sentiment Analysis Stimmung KI Herz"

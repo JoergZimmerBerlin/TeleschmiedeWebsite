@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/ki-website-leuchtturm.webp"
 image_alt: "Website als KI Leuchtturm Infografik"
 tags: ["LLMs", "Agentisches Browsing", "Grounding Pages", "llms.txt", "KI Optimierung"]
+about_entity:
+  name: "Artificial Intelligence"
+  sameAs: "https://www.wikidata.org/wiki/Q11660"
 key_takeaways:
   - "Eine Agent-Ready Web-Architektur erfordert neue Standards: llms.txt, strukturierte Markdown-Dumps und semantische HTTP-Header."
   - "Grounding Pages dienen Sprachmodellen als verifizierte 'Source of Truth' und unterbinden unerwünschte Halluzinationen verlässlich."

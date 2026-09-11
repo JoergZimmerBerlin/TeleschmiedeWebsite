@@ -10,6 +10,7 @@ tags:
   - "SERP Tracking"
   - "Keyword Monitoring"
   - "Local SEO"
+sameAs: "https://seranking.com/"
 date: "2026-08-22"
 image: "../../assets/images/blog/3d-light/se-ranking-top-100-rank-tracker.webp"
 image_alt: "3D Infografik: SE Ranking Keyword Rank Tracker mit Top 100 SERP-Analyse"

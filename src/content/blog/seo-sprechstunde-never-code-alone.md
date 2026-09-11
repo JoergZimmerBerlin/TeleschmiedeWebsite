@@ -8,6 +8,9 @@ image: "../../assets/images/blog/seo-sprechstunde-never-code-alone.webp"
 image_alt: "SEO Sprechstunde mit Never Code Alone"
 category: "SEO Praxis"
 tags: ["Sprechstunde", "Vibe Coding", "GEO"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Hausaufgaben zuerst: KI-Suchmaschinen (GEO) und AI-Crawler fressen nur dann deine Inhalte, wenn dein technisches SEO-Fundament makellos ist. Wer die Basics überspringt, verliert das Ranking."
   - "Geldwerte Keywords vs. Info-Traffic: Ranken für Begriffe mit hohem Suchvolumen ist schön für das Ego, bringt aber keinen Umsatz, wenn der Suchintention die Kaufbereitschaft fehlt."

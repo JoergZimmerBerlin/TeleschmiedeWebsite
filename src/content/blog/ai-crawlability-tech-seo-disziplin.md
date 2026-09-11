@@ -9,6 +9,9 @@ image: "../../assets/images/blog/ai-crawlability-tech-seo-disziplin.webp"
 image_alt: "3D Text: AI Crawlability Neue Disziplin"
 category: "AI SEO"
 tags: ["AI Search", "Tech SEO", "Crawlability", "Sichtbarkeit"]
+about_entity:
+  name: "Artificial Intelligence"
+  sameAs: "https://www.wikidata.org/wiki/Q11660"
 key_takeaways:
   - "AI Visibility ist bereits eine neue Disziplin, weil sie anders zu messen ist."
   - "Gutes SEO-Handwerk reicht für das Gesamtbild nicht mehr aus."

@@ -7,6 +7,9 @@ image: "../../assets/images/blog/rankscale-growth-hero.webp"
 image_alt: "Rankscale Growth Plan – Die Lösung für Agenturen und Marketing-Teams"
 category: "AI SEO"
 tags: ["Tools", "Product Update", "Rankscale", "AI SEO", "E-Commerce"]
+about_entity:
+  name: "Rankscale"
+  sameAs: "https://rankscale.ai/"
 key_takeaways:
   - "Der neue Growth-Plan schließt die Lücke für Agenturen und Teams, die mehrere Kunden im KI-Zeitalter begleiten."
   - "Die neue REST-API überführt KI-Sichtbarkeitsdaten automatisiert in eigene Client-Dashboards und CRMs."

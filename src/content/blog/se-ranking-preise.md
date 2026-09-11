@@ -9,6 +9,9 @@ image: "../../assets/images/blog/se-ranking-preise.webp"
 image_alt: "SE Ranking Preise erklärt - Jörg Zimmer analysiert die Kosten"
 category: "Tech SEO & Tools"
 tags: ["Tools"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "SE Ranking Core (87€/Monat) reicht für Freelancer und Inhouse-SEOs – Growth (188€/Monat) ist die Agentur-Lösung."
   - "20% Ersparnis im Jahresabo und flexible Erweiterbarkeit machen SE Ranking preislich attraktiver als die Platzhirsche."

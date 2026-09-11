@@ -9,6 +9,9 @@ image: "../../assets/images/blog/seo-sprechstunde-prozess.webp"
 image_alt: "SEO-Sprechstunde Bewertung: 5 Sterne von Ronny – Prozess von Vorbereitung bis Maßnahmenplan"
 category: "SEO Praxis"
 tags: ["Sprechstunde", "Case Study"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "480€ für 2 Stunden: Du kaufst keine Zeit, sondern Abkürzungen aus 25 Jahren Erfahrung."
   - "Intensive Vorbereitung ist der Unterschied: Bei Minute 1 starten wir direkt im Thema, nicht bei Null."

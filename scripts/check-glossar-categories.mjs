@@ -14,7 +14,7 @@ const stats = {
 
 for (const file of files) {
   const content = fs.readFileSync(path.join(dir, file), 'utf-8');
-  const match = content.match(/category:\s*"(.*?)"/);
+  const match = content.match(/category:\s*["\x27](.*?)["\x27]/);
   
   if (!match) {
     missing.push(file);

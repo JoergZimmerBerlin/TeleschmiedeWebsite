@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/omr-2026-freelancer-team-live.jpg"
 image_alt: "Das Freelancer Team live auf der OMR 2026 an Stand B6 K12"
 tags: ["OMR 2026", "Freelancer Team", "Online Marketing", "Networking", "Tacheles"]
+about_entity:
+  name: "OMR Festival"
+  sameAs: "https://www.wikidata.org/wiki/Q28869871"
 key_takeaways:
   - "Geballte Senior-Expertise: 25 Spezialisten an einem gemeinsamen Messestand in Halle B6 (Stand K12) fordern traditionelle Großagenturen heraus."
   - "Hands-on statt Floskeln: Auftraggeber sprechen direkt mit den Machern, die Kampagnen operativ steuern und Code optimieren."

@@ -4,6 +4,7 @@ title: 'Share of Model (SoM): Die zentrale KI-Sichtbarkeits-KPI'
 meta_title: 'Share of Model: Definition & Messung (2026)'
 description: 'Was Share of Model (SoM) bedeutet, wie du deine Sichtbarkeit in ChatGPT & Copilot berechnest und warum sie Share of Voice ersetzt. (2026)'
 meta_description: 'Was Share of Model (SoM) bedeutet, wie du deine Sichtbarkeit in ChatGPT & Copilot berechnest und warum sie Share of Voice ersetzt. (2026)'
+sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: '2026-08-21'
 image: '../../assets/images/glossar/3d-light/glossar-share-of-model-3d.webp'
 image_alt: 'Share of Model Diagramm 3D Infografik - Messung der Markensichtbarkeit in LLMs'

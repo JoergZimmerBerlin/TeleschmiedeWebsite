@@ -10,6 +10,9 @@ image: "/src/assets/images/blog/3d-light/se-ranking-test-2026.webp"
 imageAlt: "3D Icon eines blauen Analytics Dashboards mit einer Lupe und einem goldenen Stern für den SE Ranking Test"
 tags: ["SE Ranking", "SEO Tools", "Software Test", "Erfahrungsbericht", "Tech SEO"]
 relatedPosts: ["se-ranking-preise", "sistrix-vs-se-ranking", "se-ranking-ai-tracker"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "Als All-in-One Plattform deckt SE Ranking von Top-100 Rank Tracking über Website-Audits bis hin zu toxischen Backlinks alles ab und ersetzt teure Einzeltools."
   - "Besonders im Agenturalltag glänzt das Tool durch automatisierte White-Label-Reports, Gastzugänge (Guest-Links) und ein skalierbares Preismodell (Core, Growth, Enterprise)."

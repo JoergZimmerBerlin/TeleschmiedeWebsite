@@ -9,6 +9,9 @@ image: "../../assets/images/blog/seo-missverstaendnisse-2026.webp"
 image_alt: "Infografik: SEO Missverständnisse 2026 – Die drei größten Mythen durchgestrichen"
 category: "SEO Praxis"
 tags: ["E-E-A-T", "SEO Trends", "SEO Praxis"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Die drei größten SEO-Irrtümer halten sich seit 25 Jahren: 'Macht der Webdesigner', 'nach dem Relaunch' und 'SEO ist tot'."
   - "Ein Relaunch ohne 301-Weiterleitungen ist wie ein Umzug, ohne die neue Adresse mitzuteilen – du wirst unsichtbar."

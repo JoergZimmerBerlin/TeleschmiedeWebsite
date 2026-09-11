@@ -4,6 +4,7 @@ title: 'ai.txt: Entwurf, Realität & Bot-Steuerung im KI-SEO'
 meta_title: 'ai.txt: Realität & Bot-Steuerung (2026)'
 description: 'Warum die ai.txt kein anerkannter Standard ist, wie robots.txt Bots steuert und was llms.txt leistet. Praxis-Guide mit Code & Matrix. (2026)'
 meta_description: 'Warum die ai.txt kein anerkannter Standard ist, wie robots.txt Bots steuert und was llms.txt leistet. Praxis-Guide mit Code & Matrix. (2026)'
+sameAs: "https://contentsignals.org/"
 date: '2026-03-15'
 image: '../../assets/images/glossar/3d-light/glossar-ai-txt-3d.webp'
 image_alt: '3D Infografik zum Thema ai.txt Crawling und Bot-Steuerung im KI-Zeitalter'

@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/ai-generierte-website-kennzeichnung.webp"
 image_alt: "Jörg Zimmer betrachtet seine KI-generierte Website"
 tags: ["EU AI Act", "KI Content", "Agenten"]
+about_entity:
+  name: "Artificial Intelligence Act"
+  sameAs: "https://www.wikidata.org/wiki/Q106596160"
 key_takeaways:
   - "Eine vollständig mit KI-Agenten erstellte Webpräsenz wirft fundamentale Rechts- und Transparenzfragen auf."
   - "Der EU AI Act fokussiert das reale Täuschungsrisiko (Deepfakes, erfundene Identitäten), nicht die bloße Automatisierung."

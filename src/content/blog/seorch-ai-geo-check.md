@@ -8,6 +8,9 @@ image: "../../assets/images/blog/seorch-ai-geo-check.webp"
 image_alt: "SEORCH AI und GEO Check für AI Readiness"
 category: "Tech SEO & Tools"
 tags: ["SEORCH", "AI Readiness", "SEO Tools"]
+about_entity:
+  name: "SEORCH"
+  sameAs: "https://seorch.de/"
 key_takeaways:
   - "SEORCH hat seine Suite um einen kostenlosen 22-Punkte-Audit für AI Readiness und GEO erweitert."
   - "Geprüft werden essenzielle Kriterien wie Server-Side Rendering, Autorenschaft, Bot-Freigaben und Common Crawl Indexierung."

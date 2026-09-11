@@ -9,6 +9,9 @@ author: "Jörg Zimmer"
 image: "../../assets/images/blog/linkedin-10-gruende.webp"
 image_alt: "SE Ranking Business Tarif Übersicht für Agenturen mit unbegrenzten Projekten"
 tags: ["SEO Tools", "Agentur", "SE Ranking", "KI-Sichtbarkeit", "Local SEO"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "Mit der Generative Engine Optimization (GEO) trackst du Sichtbarkeit direkt in KI-Modellen wie ChatGPT, Gemini und Claude."
   - "Dank API und MCP-Connector fließen Live-SEO-Daten ohne Programmier-Overhead direkt in moderne KI-Entwicklungsumgebungen."

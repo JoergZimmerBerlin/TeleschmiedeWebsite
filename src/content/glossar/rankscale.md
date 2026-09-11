@@ -6,6 +6,7 @@ meta_description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits dein
 category: "AI SEO & Generative Search"
 tags:
   - "Rankscale"
+sameAs: "https://rankscale.ai/"
 date: "2026-08-11"
 image: "../../assets/images/rankscale_uebersicht_3d_1786399794342.jpg"
 image_alt: "3D Infografik: Rankscale AI Search Analytics Plattform Übersicht"

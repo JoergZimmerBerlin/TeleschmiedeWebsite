@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/linkedin-sistrix-podcast.jpg"
 image_alt: "Sistrix Podcast Entitäten Mapping"
 tags: ["Sistrix Podcast", "Entitäten", "Knowledge Graph", "Google", "SEO", "Björn Darko", "Max Muhr"]
+about_entity:
+  name: "Sistrix"
+  sameAs: "https://www.wikidata.org/wiki/Q97199261"
 key_takeaways:
   - "Mit der Google Knowledge Graph API und Tools wie Entity Discover lässt sich die eigene Maschinen-Identität präzise auslesen."
   - "Semantische Tripel (Subjekt, Prädikat, Objekt) bilden die syntaktische Brücke für Algorithmen und LLMs."

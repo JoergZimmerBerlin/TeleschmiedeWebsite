@@ -10,6 +10,7 @@ tags:
   - "Google Business Profile"
   - "Citations"
   - "Reputation Management"
+sameAs: "https://seranking.com/"
 date: "2026-08-23"
 image: "../../assets/images/glossar/3d-light/se-ranking-uebersicht.webp"
 image_alt: "3D Infografik: SE Ranking Local Marketing und Google Maps Grid"

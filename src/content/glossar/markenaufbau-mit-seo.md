@@ -4,6 +4,7 @@ title: "Markenaufbau mit SEO: Brand-Entitäten als RAG"
 meta_title: "Markenaufbau mit SEO für RAG (2026)"
 description: "Markenaufbau mit SEO: Vergiss billige Tricks. Zwinge LLMs dazu, dich als unumstrittene Autorität zu zitieren und zu nutzen. (2026)"
 meta_description: "Markenaufbau mit SEO: Vergiss billige Tricks. Zwinge LLMs dazu, dich als unumstrittene Autorität zu zitieren und zu nutzen. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q43128"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["entity-seo", "e-e-a-t", "mention", "citation"]

@@ -8,6 +8,9 @@ category: "SEO Praxis"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_tatue-tata-die-seo-feuerwehr-ist-da-activity-7272895244342525952-V4_P"
 image: "../../assets/images/blog/seo-feuerwehr-visibility-chart.png"
 image_alt: "SEO Feuerwehr Sichtbarkeits-Chart mit steilem Anstieg nach Fehlerbehebung"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Versteckte Scripte können deine Sichtbarkeit über Nacht zerstören."
   - "Performance-Einbrüche sind lebensbedrohlich für E-Commerce."

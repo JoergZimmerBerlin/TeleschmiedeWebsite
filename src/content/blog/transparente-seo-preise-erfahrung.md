@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/transparente-seo-preise-erfahrung.webp"
 image_alt: "Transparente SEO Preise Infografik"
 tags: ["Preise", "Strategie", "Kundenkommunikation", "Positionierung", "SEO Freelancer"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Öffentlich sichtbare Festpreise filtern unqualifizierte Anfragen heraus und ziehen Leads mit realistischen Budgets an."
   - "Nach einem Vierteljahrhundert Branchenpraxis spiegelt ein Stundensatz von 240 Euro den echten Wert erfahrener Fehlervermeidung wider."

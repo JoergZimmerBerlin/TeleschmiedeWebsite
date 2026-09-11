@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/geo-und-ai-search.webp"
 image_alt: "Jörg Zimmer auf der Campixx 2026 zu GEO und AI Search"
 tags: ["GEO", "AI Search", "LLM", "Markenaufbau", "Campixx"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Generative Sprachmodelle benötigen keine Marketing-Floskeln, sondern extrahierbare Fakten und eine unmissverständliche Marken-Reputation."
   - "Suchmaschinenoptimierung bleibt das Fundament, doch GEO erweitert das Spielfeld um maschinenlesbare Semantik und Token-Effizienz."

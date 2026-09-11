@@ -5,6 +5,7 @@ description: "Brand Sentiment Analyse im Detail: Wie KI-Modelle Ihre Marke wahrn
 meta_description: "Brand Sentiment Analyse im Detail: Wie KI-Modelle Ihre Marke wahrnehmen, wie Sie die 'Neutral Trap' überwinden und AI-Sentiment optimieren. (2026)"
 category: "AI SEO & Generative Search"
 author: "Jörg Zimmer"
+sameAs: "https://www.wikidata.org/wiki/Q1411470"
 date: "2026-08-21"
 image: "../../assets/images/glossar/3d-light/glossar-brand-sentiment-3d.webp"
 image_alt: "3D Icon eines Smileys, der per Lupe in der Brand Sentiment Analyse untersucht wird"

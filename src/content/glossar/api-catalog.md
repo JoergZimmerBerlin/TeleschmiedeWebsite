@@ -4,6 +4,7 @@ title: 'API Catalog & ARD: Agentic Resource Discovery für KI-Systeme'
 meta_title: 'API Catalog: ARD & ai-catalog.json (2026)'
 description: 'Wie Agentic Resource Discovery (ARD) und ai-catalog.json Schnittstellen für KI-Agenten auffindbar machen. Praxis-Guide mit Schema & Code. (2026)'
 meta_description: 'Wie Agentic Resource Discovery (ARD) und ai-catalog.json Schnittstellen für KI-Agenten auffindbar machen. Praxis-Guide mit Schema & Code. (2026)'
+sameAs: "https://datatracker.ietf.org/doc/rfc9727/"
 date: '2026-03-16'
 image: '../../assets/images/glossar/3d-light/glossar-api-catalog-3d.webp'
 image_alt: '3D-Infografik zu Agentic Resource Discovery und ai-catalog.json Schnittstellen'

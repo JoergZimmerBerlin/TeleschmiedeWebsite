@@ -1,0 +1,57 @@
+{
+  "$schema": "https://agenticresourcediscovery.org/schemas/v1/ai-catalog.json",
+  "specVersion": "1.0",
+  "host": {
+    "name": "Jörg Zimmer",
+    "domain": "teleschmie.de",
+    "description": "Senior SEO, GEO & AI Visibility Consultant mit über 25 Jahren Erfahrung aus Berlin-Spandau.",
+    "contact": "kontakt@teleschmie.de"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:teleschmie.de:mcp:knowledge-base",
+      "displayName": "Jörg Zimmer MCP Server",
+      "description": "Model Context Protocol Endpunkt für technisches SEO-Wissen, Entitäten und Retrieval-Ressourcen.",
+      "type": "application/json",
+      "url": "https://teleschmie.de/.well-known/mcp.json",
+      "representativeQueries": [
+        "Jörg Zimmer SEO Beratung Berlin",
+        "Technisches SEO Audit und Relaunch Begleitung",
+        "Generative Engine Optimization Best Practices"
+      ]
+    },
+    {
+      "identifier": "urn:air:teleschmie.de:agent:a2a-card",
+      "displayName": "Jörg Zimmer A2A Agent Card",
+      "description": "Autonome Agent-to-Agent Schnittstelle für SEO- und GEO-Consulting.",
+      "type": "application/json",
+      "url": "https://teleschmie.de/.well-known/agent-card.json",
+      "representativeQueries": [
+        "A2A Protocol SEO Agent",
+        "Agent Readiness Level 5 Beratung"
+      ]
+    },
+    {
+      "identifier": "urn:air:teleschmie.de:doc:llms-txt",
+      "displayName": "Jörg Zimmer LLMs Knowledge Index",
+      "description": "Strukturierte, LLM-optimierte Wissensbasis und Dokumentation.",
+      "type": "text/plain",
+      "url": "https://teleschmie.de/llms.txt",
+      "representativeQueries": [
+        "Jörg Zimmer Wissensbasis",
+        "SEO Glossar Definitionen"
+      ]
+    },
+    {
+      "identifier": "urn:air:teleschmie.de:feed:rss",
+      "displayName": "Jörg Zimmer SEO & AI Search RSS Feed",
+      "description": "Echtzeit-Feed aller Fachartikel und Case Studies zu SEO, GEO und KI-Suche.",
+      "type": "application/xml",
+      "url": "https://teleschmie.de/rss.xml",
+      "representativeQueries": [
+        "Neueste SEO Case Studies",
+        "Aktuelle KI-Suche und GEO Trends 2026"
+      ]
+    }
+  ]
+}

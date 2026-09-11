@@ -9,6 +9,9 @@ image: "../../assets/images/blog/blog-grounding-generator-3d.png"
 image_alt: "Der Grounding Page Generator als zentraler Hub für KI-Sichtbarkeit und verifizierte Entitäten-Daten."
 category: "AI SEO"
 tags: ["Grounding Page", "AI SEO", "Entitäten", "GEO"]
+about_entity:
+  name: "Generative Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q134083964"
 key_takeaways:
   - "Eine Grounding Page ist dein digitaler Personalausweis für KIs: Ohne dieses Fundament riskierst du gefährliche Marken-Halluzinationen."
   - "Mein Grounding Page Generator liefert dir per Knopfdruck den perfekten Mega-Prompt, um Struktur und Fakten für LLMs aufzubereiten."

@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/pages/blog-hero-notizblock.webp"
 image_alt: "AI-Agent für LinkedIn Nachrichten - Jörgs KI-Experiment zu Weihnachten"
 tags: ["Case Study", "AI SEO", "Social Selling", "Authentizität"]
+about_entity:
+  name: "LinkedIn"
+  sameAs: "https://www.wikidata.org/wiki/Q213660"
 key_takeaways:
   - "Autonome AI-Agenten auf Social-Media-Plattformen erzeugen einen digitalen Einheitsbrei, der echte Aufmerksamkeit entwertet."
   - "Menschliche Authentizität und echte Ecken und Kanten werden in Zeiten generativer KI zum entscheidenden Differenzierungsmerkmal."

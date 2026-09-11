@@ -4,6 +4,10 @@ meta_title: "Tracking System für KI Sichtbarkeit (2026)"
 description: "Wie misst man KI-Sichtbarkeit wirklich? Meine Gedanken zum Thema Tracking und LLMs. (2026)"
 date: "2026-08-14"
 category: "AI SEO"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
+
 ---
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">

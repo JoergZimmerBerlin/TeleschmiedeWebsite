@@ -4,6 +4,7 @@ title: 'auth.md: Maschinenlesbare Authentifizierung für KI-Agenten'
 meta_title: 'auth.md: Authentifizierung für KI-Agenten (2026)'
 description: 'Wie auth.md und RFC 9728 autonome Agenten ohne Captchas legitimieren. Vollständiger Guide zu Agent Readiness Level 5, OAuth & Setup. (2026)'
 meta_description: 'Wie auth.md und RFC 9728 autonome Agenten ohne Captchas legitimieren. Vollständiger Guide zu Agent Readiness Level 5, OAuth & Setup. (2026)'
+sameAs: "https://a2a-protocol.org/"
 date: '2026-03-17'
 image: '../../assets/images/glossar/3d-light/glossar-auth-md-3d.webp'
 image_alt: '3D Infografik zum Thema auth.md und maschinenlesbarer Authentifizierung für Agenten'

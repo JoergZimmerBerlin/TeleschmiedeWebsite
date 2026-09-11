@@ -8,6 +8,9 @@ image: "../../assets/images/blog/freelance-unlocked-eis.webp"
 image_alt: "Weihnachtsfeier der Freelance Unlocked mit Jörg Zimmer"
 category: "Events & Networking"
 tags: ["Freelance Unlocked", "Networking", "SEO Freelancer", "Berlin", "Community"]
+about_entity:
+  name: "Freelance Unlocked"
+  sameAs: "https://freelanceunlocked.com/"
 key_takeaways:
   - "Persönliches Networking auf Branchen-Events bildet den unverzichtbaren Ausgleich zum digitalen Bildschirm-Alltag."
   - "Das Freelancer Team beweist, dass spezialisierte Solopreneure im Kollektiv schlagkräftiger agieren als klassische Agenturen."

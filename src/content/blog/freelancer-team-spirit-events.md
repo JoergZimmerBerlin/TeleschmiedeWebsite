@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/freelancer-team-spirit.webp"
 image_alt: "3D Infografik: Freelancer Team, Lila T-Shirts, Eigenverantwortung, Gemeinsames Wachstum"
 tags: ["Freelancer Team", "Networking", "OMR", "Freelance Unlocked"]
+about_entity:
+  name: "Freelancer"
+  sameAs: "https://www.wikidata.org/wiki/Q45162"
 key_takeaways:
   - "Freelancer zeichnen sich durch unternehmerische Eigenverantwortung, Schnelligkeit und kompromisslose fachliche Tiefe aus."
   - "Das lila Freelancer Team bündelt über 150 hochkarätige Spezialisten weltweit zu einem agilen Netzwerk auf Augenhöhe."

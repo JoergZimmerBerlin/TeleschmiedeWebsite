@@ -4,6 +4,7 @@ title: "SEO Coaching: Werde zum LLM-Architekten"
 meta_title: "SEO Coaching: LLM-Architekt (2026)"
 description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pipelines, auth.md und KI-Crawler gnadenlos für dich nutzt. (2026)"
 meta_description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pipelines, auth.md und KI-Crawler gnadenlos für dich nutzt. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-consulting", "seo-consulting", "seo-agentur"]

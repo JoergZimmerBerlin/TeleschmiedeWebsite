@@ -4,6 +4,7 @@ title: "Sichtbarkeitsmanagement: Monitoring für SEO & GEO"
 meta_title: "Sichtbarkeitsmanagement: SEO & GEO (2026)"
 description: "Sichtbarkeitsmanagement steuern: Optimiere Rankings und generative KI-Zitationen mit datengestütztem Monitoring für maximale Markenpräsenz. (2026)"
 meta_description: "Sichtbarkeitsmanagement steuern: Optimiere Rankings und generative KI-Zitationen mit datengestütztem Monitoring für maximale Markenpräsenz. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-sichtbarkeitsmanagement-3d.webp"
 related_terms: ["sichtbarkeit", "geo", "ai-visibility-score", "entity-seo"]

@@ -9,6 +9,9 @@ image: "../../assets/images/profile/joerg-zimmer-cta.webp"
 image_alt: "SE Ranking AI Tracker - Vergleich der Rankings in KI-Suchmaschinen"
 category: "Tech SEO & Tools"
 tags: ["Case Study", "Tools"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "SE Ranking integriert AI-Tracking nahtlos in sein bestehendes SEO-Ökosystem – alles an einem Ort."
   - "KI-Sichtbarkeit ist extrem volatil: Ein Modell-Update kann deine Präsenz über Nacht halbieren oder verdoppeln."

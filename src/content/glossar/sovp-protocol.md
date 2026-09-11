@@ -4,6 +4,7 @@ title: "SOVP Protocol: Determinismus in KI-Infrastrukturen"
 meta_title: "SOVP Protocol: Determinismus in KI (2026)"
 description: "Alles über das Sovereign Validation Protocol (SOVP) und Infrastruktur-Zertifikate. Echtes Tacheles zu Determinismus in Systemen von morgen. (2026)"
 meta_description: "Alles über das Sovereign Validation Protocol (SOVP) und Infrastruktur-Zertifikate. Echtes Tacheles zu Determinismus in Systemen von morgen. (2026)"
+sameAs: "https://a2a-protocol.org/"
 date: "2026-07-17"
 image: src/assets/images/glossar/3d-light/glossar-sovp-protocol-3d.webp
 image_alt: "SOVP Sovereign Validation Protocol 3D Infografik - Determinismus in KI Infrastrukturen"

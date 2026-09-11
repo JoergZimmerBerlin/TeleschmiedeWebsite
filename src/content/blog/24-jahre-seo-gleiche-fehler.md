@@ -8,6 +8,9 @@ image: "../../assets/images/profile/joerg-zimmer-portrait.webp"
 image_alt: "Jörg Zimmer - 25 Jahre SEO-Erfahrung und die gleichen Fehler"
 category: "SEO Praxis"
 tags: ["E-E-A-T", "Sprechstunde", "SEO Praxis", "Suchmaschinenoptimierung"]
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Keyword-Stuffing, technische Ignoranz und Ungeduld sind seit einem Vierteljahrhundert die gleichen SEO-Fehler – nur im modernen Gewand."
   - "SEO ist zu 80 % Psychologie: Unternehmen suchen permanente Abkürzungen, anstatt konsequent das handwerkliche Fundament zu pflegen."

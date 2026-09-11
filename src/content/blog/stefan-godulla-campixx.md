@@ -9,6 +9,9 @@ image: "../../assets/images/blog/blog-stefan-godulla-campixx.webp"
 image_alt: "Stefan Godulla auf der Campixx 2026"
 category: "Events & Networking"
 tags: ["Campixx", "Stefan Godulla", "SEO Strategie", "Unternehmensberatung", "Sichtbarkeit"]
+about_entity:
+  name: "CAMPIXX"
+  sameAs: "https://www.campixx.de/"
 key_takeaways:
   - "SEO ist längst nicht mehr nur Technik und Content – es wird zunehmend zur echten Unternehmensberatung."
   - "Wenn Produktmanagement, Unternehmenskommunikation und SEO zusammenarbeiten, steigen Markenwahrnehmung und geschäftlicher Erfolg enorm."

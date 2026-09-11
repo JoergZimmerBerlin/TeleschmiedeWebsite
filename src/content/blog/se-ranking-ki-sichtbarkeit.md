@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-be
 image: "../../assets/images/blog/se-ranking-ki-sichtbarkeit.webp"
 image_alt: "10 Gründe KI Sichtbarkeit mit SE Ranking Infografik"
 tags: ["SE Ranking", "KI SEO", "GEO", "Generative Engine Optimization", "ChatGPT", "Perplexity"]
+about_entity:
+  name: "SE Ranking"
+  sameAs: "https://seranking.com/"
 key_takeaways:
   - "Simultanes Tracking in allen relevanten Answer Engines (ChatGPT, Gemini, Perplexity, Google AI Overviews)."
   - "Präzise Differenzierung zwischen echten Backlinks (Citations) und reinen Markennennungen (Brand Mentions)."

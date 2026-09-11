@@ -8,6 +8,9 @@ date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_wir-seo-spezialisten-schlie%C3%9Fen-uns-zusammen-activity-7388537332120834049-loB_"
 image: "../../assets/images/profile/joerg-lifestyle.webp"
 image_alt: "Jörg Zimmer - Für mehr Zusammenhalt in der SEO-Community"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "Standards schützen die Branche vor Scharlatanen."
   - "Vernetzung auf LinkedIn ist das mächtigste Werkzeug gegen Preisdumping."

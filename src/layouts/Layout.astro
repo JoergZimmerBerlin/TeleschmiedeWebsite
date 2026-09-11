@@ -75,12 +75,12 @@ const displayDescription = truncate(description, 160);
     <title>{displayTitle}</title>
     <meta name="description" content={displayDescription} />
 
-    <!-- DNS Prefetch (Early Discovery) -->
-    <!-- Preload critical font (High Priority) -->
-
     <!-- Preload critical font (High Priority) -->
     <link rel="preload" href={`${baseUrl}/fonts/inter-latin.woff2`} as="font" type="font/woff2" crossorigin="anonymous" />
     {lcpImage && <link rel="preload" as="image" href={lcpImage} fetchpriority="high" />}
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Jörg Zimmer - SEO & AI Search Blog" href={`${siteUrl}/rss.xml`} />
     
     <!-- Canonical -->
     <link rel="canonical" href={`${siteUrl}${currentPath}`} />
@@ -115,9 +115,11 @@ const displayDescription = truncate(description, 160);
     <!-- Styles -->
     <link rel="stylesheet" href={`${baseUrl}/styles/font-faces.css`} />
 
-    <!-- AI Discovery (llms.txt & WebMCP) -->
+    <!-- AI Discovery (llms.txt, WebMCP & Agent Readiness Level 5) -->
     <link rel="describedby" href={`${siteUrl}/llms.txt`} />
     <link rel="alternate" type="text/markdown" href={`${siteUrl}/llms-full.txt`} />
+    <link rel="ai-catalog" href={`${siteUrl}/.well-known/ai-catalog.json`} />
+    <link rel="agent-card" type="application/json" href={`${siteUrl}/.well-known/agent-card.json`} />
     <meta name="webmcp-server" content={`${siteUrl}/.well-known/mcp.json`} />
     
     <!-- WebMCP Client Tools Registration (Cloudflare Agent Readiness) -->

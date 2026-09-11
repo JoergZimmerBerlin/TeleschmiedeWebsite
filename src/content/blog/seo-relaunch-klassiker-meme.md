@@ -8,6 +8,9 @@ date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/"
 image: "../../assets/images/blog/relaunch-ohne-seo.webp"
 image_alt: "Sarkastisches Meme: Website-Relaunch ohne SEO – das klassische Relaunch-Desaster"
+about_entity:
+  name: "Search Engine Optimization"
+  sameAs: "https://www.wikidata.org/wiki/Q180711"
 key_takeaways:
   - "SEO ist kein kosmetischer Zusatzaufwand am Ende des Projekts, sondern die tragende Informationsarchitektur vor dem ersten Klick im Design-Tool."
   - "Fehlende 301-Redirects und vergessene Noindex-Tags vernichten in wenigen Tagen jahrelang aufgebaute Suchmaschinen-Rankings."

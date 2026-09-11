@@ -9,6 +9,9 @@ image: "../../assets/images/blog/blog-malte-landwehr-ai-search-content-formate-3
 image_alt: "3D Infografik: Content Formate (Chunks, Zusammenfassungen) in der KI-Suche"
 category: "AI SEO"
 tags: ["AI Search", "Content Formate", "Campixx", "Malte Landwehr", "LLM Optimization"]
+about_entity:
+  name: "CAMPIXX"
+  sameAs: "https://www.campixx.de/"
 key_takeaways:
   - "In der AI Search gewinnen 'Self-contained Chunks': Textabschnitte, die komplett ohne Kontext davor oder danach funktionieren."
   - "Schreibe in autoritativer Sprache mit klaren, faktischen Aussagen und nenne Entitäten explizit beim Namen."

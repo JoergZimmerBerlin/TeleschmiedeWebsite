@@ -9,7 +9,7 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
 ================================================================================
 1. ZERO-HALLUCINATION & LINK-PROVENANCE:
    - Erfinde oder rate NIEMALS URLs oder Social-Media-Links.
-   - Profile dürfen NUR DANN in 'sameAs' aufgenommen werden, wenn sie entweder direkt auf der Website verlinkt sind ODER ein autoritatives Profil (z. B. LinkedIn Company/Person, Crunchbase, North Data, GitHub Org, ProvenExpert) in seiner Bio / Infobox die Ziel-Domain explizit aufführt (verifizierte Triangulation).
+   - Profile dürfen NUR DANN in 'sameAs' aufgenommen werden, wenn sie entweder direkt auf der Website verlinkt sind (z. B. Footer- oder Header-Links zu LinkedIn, YouTube, GitHub, X) ODER ein autoritatives Profil (z. B. LinkedIn Company/Person, Crunchbase, North Data, GitHub Org, ProvenExpert) in seiner Bio / Infobox die Ziel-Domain explizit aufführt (verifizierte Triangulation).
    - Unbestätigte Profile Dritter gehören ausnahmslos in die Quarantäne-Tabelle des Reports!
 
 2. WIKIDATA Q-ID VERIFIKATIONS-GATE:
@@ -25,8 +25,13 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
    - Eigennamen von Personen, Gründern, Autoren, Marken und Firmen MÜSSEN ZWINGEND in ihrer amtlichen Originalschreibweise belassen werden!
    - Übersetze NIEMALS Vor- oder Nachnamen in andere Sprachen (z. B. 'Simon Sonntag' bleibt 'Simon Sonntag', niemals 'Simon Sunday'; 'Müller' bleibt 'Müller' etc.).
 
-5. SAMEAS-SYNCHRONISATION ZWISCHEN REPORT & CODE:
-   - Jedes in Block 1 (Report) verifizierte oder triangulierte Profil einer Person (LinkedIn, X, GitHub, Google Scholar, ResearchGate, ORCID) MUSS ZWINGEND auch im 'sameAs'-Array des jeweiligen Person-Knotens im JSON-LD Code stehen!
+5. PFLICHT-KNOTEN VOLLSTÄNDIGKEIT (KEINE PERSONEN WEGLASSEN!):
+   - JEDE Schlüsselperson (Inhaber, Geschäftsführer, Gründer, Hauptautoren), die in Block 1 (Report, Tabelle 1) identifiziert wurde, MUSS ZWINGEND als eigenständiger '@type': 'Person' Knoten im '@graph'-Array des JSON-LD Codes generiert werden!
+   - Es ist STRENGSTENS UNTERSAGT, Personen im Report zu analysieren, sie aber im JSON-LD Code zu unterschlagen!
+   - Bidirektionale Kopplung:
+     * Die Organisation MUSS diese Personen über 'founder': [{"@id": "${url}#person-[slug]"}] oder 'employee' referenzieren.
+     * Der Person-Knoten MUSS 'worksFor': {"@id": "${url}#organization"} enthalten.
+     * Jedes in Block 1 verifizierte oder triangulierte Profil einer Person (LinkedIn, X, GitHub, Google Scholar, ORCID) MUSS ZWINGEND im 'sameAs'-Array des jeweiligen Person-Knotens stehen!
 
 6. DEFINEDTERM-STANDARD FÜR 'KNOWSABOUT':
    - Formatiere Einträge in 'knowsAbout' bevorzugt als semantische 'DefinedTerm'-Objekte mit 'name' und kanonischer Wikidata-URI in 'sameAs' (z. B. {"@type": "DefinedTerm", "name": "Digital Twin", "sameAs": "https://www.wikidata.org/wiki/Q25384725"}) statt als nackte URL-Strings.
@@ -123,7 +128,7 @@ Ermittle zwingend folgende Fakten und binde sie in den Hauptknoten ein:
 - 'founder': Array mit Referenzen auf alle identifizierten Gründer ([{"@id": "${url}#person-[slug]"}, ...])
 - 'employee' / 'member': Referenzen auf alle Schlüsselpersonen
 - 'knowsAbout': Array mit verifizierten kanonischen Wikidata-URIs / DefinedTerms der Kernthemen & Branchenkompetenzen der Organisation
-- 'logo' & 'image': Vollständige absolute URLs zu Logo und Hero-Asset
+- 'logo' & 'image': Vollständige absolute URLs zu Logo und Hero-Asset (Extrahiere bevorzugt das Open-Graph-Image aus '<meta property="og:image" content="...">', Favicon/Touch-Icon oder das im Header/Footer sichtbare Logo als absolute URL!)
 - 'sameAs': Alle verifizierten externen Unternehmens- und Registerprofile (Handelsregister / North Data / Bundesanzeiger, LinkedIn Company, Crunchbase, Xing, YouTube, Google Maps) sowie Google Knowledge Graph Identifier ('https://www.google.com/search?kgmid=/g/...' oder '/m/...'), falls ein offizieller Knowledge Graph Eintrag existiert
 
 B. DEEP PERSON & E-E-A-T KATALOG (FÜR ALLE SCHLÜSSELPERSONEN & AUTOREN):
@@ -180,7 +185,7 @@ ABLAUF DES AGENTISCHEN AUDITS (5 PHASEN):
 PHASE 1: ON-PAGE MULTI-PFADE-CRAWL (SYSTEMATISCHE ERFASSUNG & DYNAMISCHE PFADE)
 Führe einen gezielten Live-Fetch auf die Ziel-Domain durch. Verlasse dich NIEMALS nur auf eine Google-Suche nach dem Markennamen!
 Analysiere fokussiert und strukturiert:
-1. Startseite (${url}): Markenname, Slogan, Kernangebote, Meta-Tags und Header-/Footer-Navigation.
+1. Startseite (${url}): Markenname, Slogan, Kernangebote, Meta-Tags (<meta property="og:image" content="...">, <meta name="description">), Favicon/Icons und Header-/Footer-Navigation (inklusive direkter Profil-Links zu LinkedIn, YouTube, GitHub, etc.).
 2. Impressum / Legal Notice (DYNAMISCHE PFAD-AUFLÖSUNG & HTML-FOOTER-INSPEKTION):
    - WICHTIG: Verlasse dich NIEMALS starr auf '/impressum/'! Auf vielen Websites heißt der Pfad völlig anders ('geartete Pfade')!
    - SCHRITT 1 (DOM- & Link-Mining): Inspiziere zuerst die Startseite (${url}). Suche im gerenderten DOM / HTML-Quelltext im <footer> und in Navigationsleisten nach <a>-Tags mit:
@@ -213,9 +218,9 @@ Strukturiere alle Knoten in ein flaches, 100 % vernetztes '@graph'-Array mit sta
 - '${url}#website' (WebSite mit 'publisher': {'@id': '${url}#organization'}, 'potentialAction' (SearchAction), 'inLanguage' UND 'hasPart': Falls auf der Domain ein Blog, ein Glossar ('DefinedTermSet'), ein Magazin oder Dokumentations-Portal existiert, verknüpfe diese redaktionellen Sub-Container über 'hasPart'!)
 - '${url}blog/#blog' (Blog: Falls vorhanden, als eigenständiger redaktioneller Publikations-Container im @graph mit 'isPartOf': {'@id': '${url}#website'}, 'publisher' und 'name')
 - '${url}glossar/#termset' (DefinedTermSet: Falls vorhanden, als eigenständiger Fach-Glossar-Container im @graph mit 'isPartOf': {'@id': '${url}#website'}, 'hasDefinedTerm')
-- '${url}#about' (AboutPage mit 'url', 'name' und 'isPartOf': {'@id': '${url}#website'})
-- '${url}#contact' (ContactPage mit 'url', 'name' und 'isPartOf': {'@id': '${url}#website'})
-- '${url}#person-[slug]' (Für JEDE ermittelte Schlüsselperson mit vollem E-E-A-T Person-Katalog, Alumni, VideoObject als subjectOf und sameAs)
+- '${url}#about' (AboutPage mit 'url', 'name', 'isPartOf': {'@id': '${url}#website'} UND semantischer Rückverknüpfung 'about': {'@id': '${url}#organization'})
+- '${url}#contact' (ContactPage mit 'url', 'name', 'isPartOf': {'@id': '${url}#website'} UND 'mainEntity': {'@id': '${url}#organization'})
+- '${url}#person-[slug]' (Für JEDE ermittelte Schlüsselperson mit vollem E-E-A-T Person-Katalog, 'worksFor': {'@id': '${url}#organization'}, Alumni, VideoObject als subjectOf und sameAs – DIESER KNOTEN DARF NIEMALS WEGGELASSEN WERDEN!)
 - '${url}#offer-catalog' (Angebotskatalog mit den 3 bis 5 wichtigsten Services/Products, inkl. 'ServiceChannel' für die Erbringungsart)
 - Alle Entitäten sind bidirektional über ihre '@id'-URIs vernetzt (z. B. Organization.founder -> Person, Person.worksFor -> Organization).
 
@@ -229,7 +234,10 @@ Führe VOR der Code-Ausgabe einen internen forensischen Pre-Flight-Check durch, 
    - Besitzt jedes 'Review'-Objekt das Pflichtfeld 'itemReviewed': {'@id': '${url}#organization'}?
 4. KANAL- & ANGEBOTS-AUDIT:
    - Liegt 'availableChannel' am 'Service' (nicht am 'Offer')? Liegt 'itemOffered' am 'Offer' (nicht am 'Service')?
-5. SYNTAX-AUDIT:
+5. KNOTEN-VOLLSTÄNDIGKEITS-AUDIT:
+   - Wurden ausnahmslos ALLE in Block 1 (Tabelle 1) identifizierten Schlüsselpersonen auch als '@type': 'Person' Knoten im '@graph' generiert und mit der Organisation verknüpft?
+   - Sind 'AboutPage' ('about') und 'ContactPage' ('mainEntity') semantisch an die Organisation gekoppelt?
+6. SYNTAX-AUDIT:
    - Valides JSON, keine Kommentare, keine trailing commas, ISO-8601 Datumsformate.
 
 PHASE 5: REALITY-CHECK FÜR FRISCHE MARKEN

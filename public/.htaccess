@@ -56,6 +56,7 @@ AddCharset UTF-8 .txt .md .json .html .css .js
     Header add Link "</.well-known/mcp.json>; rel=\"service-doc\""
     Header add Link "</.well-known/ai-plugin.json>; rel=\"service-doc\""
     Header add Link "</.well-known/ai-catalog.json>; rel=\"ai-catalog\""
+    Header add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
     Header add Link "</rss.xml>; rel=\"alternate\"; type=\"application/rss+xml\""
     Header add Link "<https://teleschmie.de/sitemap.xml>; rel=\"sitemap\""
 </IfModule>

@@ -14,6 +14,16 @@
           "title": "Jörg Zimmer MCP Server"
         },
         {
+          "href": "https://teleschmie.de/.well-known/ai-catalog.json",
+          "type": "application/json",
+          "title": "Jörg Zimmer ARD AI Catalog"
+        },
+        {
+          "href": "https://teleschmie.de/sitemap.xml",
+          "type": "application/xml",
+          "title": "Jörg Zimmer XML Sitemap Index"
+        },
+        {
           "href": "https://teleschmie.de/.well-known/ai-plugin.json",
           "type": "application/json",
           "title": "Jörg Zimmer Agent Plugin"

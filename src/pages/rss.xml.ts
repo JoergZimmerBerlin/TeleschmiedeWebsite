@@ -13,6 +13,15 @@ export const GET = async () => {
     return dateB - dateA;
   });
 
+  const escapeXml = (unsafe: string): string => {
+    return unsafe
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  };
+
   const itemsXml = sortedPosts.map(post => {
     const postUrl = `${baseUrl}/blog/${post.id}/`;
     const pubDate = post.data.date ? new Date(post.data.date).toUTCString() : new Date().toUTCString();
@@ -20,12 +29,12 @@ export const GET = async () => {
     const category = post.data.category || 'SEO Praxis';
 
     return `    <item>
-      <title><![CDATA[${post.data.title}]]></title>
+      <title>${escapeXml(post.data.title)}</title>
       <link>${postUrl}</link>
       <guid isPermaLink="true">${postUrl}</guid>
-      <description><![CDATA[${desc}]]></description>
+      <description>${escapeXml(desc)}</description>
       <pubDate>${pubDate}</pubDate>
-      <category><![CDATA[${category}]]></category>
+      <category>${escapeXml(category)}</category>
     </item>`;
   }).join('\n');
 

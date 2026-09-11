@@ -2,6 +2,7 @@
 title: "EU AI Act: KI-Verordnung, Kennzeichnungspflichten & SEO-Praxis"
 meta_title: "EU AI Act: SEO-Regeln & Kennzeichnung (2026)"
 description: "Was bedeutet der EU AI Act für SEO & Content? Kennzeichnung nach Art. 50, Deepfakes und E-E-A-T Compliance im Praxis-Überblick. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q126064181"
 date: "2026-08-14"
 category: "AI SEO & Generative Search"
 image: "../../assets/images/glossar/eu-ai-act.webp"

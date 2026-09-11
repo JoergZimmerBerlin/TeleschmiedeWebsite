@@ -8,6 +8,9 @@ image: "../../assets/images/blog/cloudflare-agent-readiness-scan.webp"
 image_alt: "Cloudflare Agent Readiness Scan Infografik"
 category: "AI SEO"
 tags: ["Cloudflare", "Agent Readiness", "KI-Sichtbarkeit", "LLM", "Markdown"]
+about_entity:
+  name: "Cloudflare"
+  sameAs: "https://www.wikidata.org/wiki/Q4778915"
 key_takeaways:
   - "Der Cloudflare Agent Readiness Scan analysiert technische Protokolle wie Markdown Negotiation, robots.txt und Bot-Zugriff."
   - "Der Score (bis Level 5) misst die maschinelle Zugänglichkeit für KI-Agenten, nicht das semantische Ranking."

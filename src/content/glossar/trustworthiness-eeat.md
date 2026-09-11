@@ -4,6 +4,7 @@ title: 'Trustworthiness: E-E-A-T Vertrauen für KIs'
 meta_title: "Trustworthiness: E-E-A-T Vertrauen für KIs (2026)"
 description: "Trustworthiness 2026: Warum Vertrauen der wichtigste Faktor für KI-Suchmaschinen ist. Halluzinations-Schutz durch Disambiguierung und Fakten. (2026)"
 meta_description: "Trustworthiness 2026: Warum Vertrauen der wichtigste Faktor für KI-Suchmaschinen ist. Halluzinations-Schutz durch Disambiguierung und Fakten. (2026)"
+sameAs: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-trust-3d.webp"
 image_alt: "Trustworthiness (E-E-A-T) 3D Infografik - Vertrauen als Basis der KI-Optimierung"

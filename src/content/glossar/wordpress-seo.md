@@ -4,6 +4,7 @@ title: 'WordPress SEO: Markdown & technische KI-Updates'
 meta_title: "WordPress SEO: Markdown & Tech-Updates (2026)"
 description: "WordPress muss sich radikal wandeln. Headless-Markdown und saubere Endpunkte sind heute absolute Pflicht für ernsthafte KI-Optimierung. (2026)"
 meta_description: "WordPress muss sich radikal wandeln. Headless-Markdown und saubere Endpunkte sind heute absolute Pflicht für ernsthafte KI-Optimierung. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q193616"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["seo-consulting", "pagespeed", "strukturierte-daten", "agent-readiness"]

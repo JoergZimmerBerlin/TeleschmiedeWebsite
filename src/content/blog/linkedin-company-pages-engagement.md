@@ -9,6 +9,9 @@ linkedin_url: "https://www.linkedin.com/posts/freelancer-team_linkedin-company-p
 image: "../../assets/images/blog/company-pages-lebendig.webp"
 image_alt: "3D Infografik: Company Pages leben, Mehr Reichweite, Echte Interaktion, Community Building"
 tags: ["LinkedIn", "Community Management", "Reichweite", "Freelancer Team"]
+about_entity:
+  name: "LinkedIn"
+  sameAs: "https://www.wikidata.org/wiki/Q213660"
 key_takeaways:
   - "LinkedIn Company Pages sind nicht tot – sie scheitern an reinem Sendungsbewusstsein ohne zwischenmenschliche Interaktion."
   - "Die fatale Post-and-Pray-Strategie verhungert im Algorithmus: Nur aktives Community-Management schafft Sichtbarkeit."

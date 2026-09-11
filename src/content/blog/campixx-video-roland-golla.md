@@ -9,6 +9,9 @@ image: "../../assets/images/blog/campixx-video-roland-golla.webp"
 image_alt: "Roland Golla im Video Studio von Florian Gypser auf der CAMPIXX 2026"
 category: "Events & Networking"
 tags: ["CAMPIXX", "Video Marketing", "Vibe Coding", "Event", "YouTube SEO"]
+about_entity:
+  name: "CAMPIXX"
+  sameAs: "https://www.campixx.de/"
 key_takeaways:
   - "Spontane O-Töne und Flurgespräche auf Fachkonferenzen wie der CAMPIXX liefern oft tiefere Praxiseinblicke als frontale Bühnenvorträge."
   - "Professionelle Videoaufnahmen direkt vor Ort schützen wertvolle Konferenz-Insights vor dem Vergessen und maximieren die Verweildauer."

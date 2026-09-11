@@ -8,6 +8,9 @@ image: "../../assets/images/blog/se-ranking-chatgpt.webp"
 image_alt: "SE Ranking ChatGPT MCP Connector Live Daten Infografik"
 category: "Tech SEO & Tools"
 tags: ["SE Ranking", "ChatGPT", "KI SEO", "MCP", "Workflow"]
+about_entity:
+  name: "ChatGPT"
+  sameAs: "https://www.wikidata.org/wiki/Q115564437"
 key_takeaways:
   - "SE Ranking bietet über die offizielle ChatGPT-App eine direkte MCP-Schnittstelle zu Live-SEO-Daten."
   - "Keywords, Backlink-Profile, historische Rankings und technische Audits lassen sich im Chat abfragen."

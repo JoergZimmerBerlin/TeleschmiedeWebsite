@@ -9,6 +9,9 @@ image: "../../assets/images/blog/linkedin-forum-original.webp"
 image_alt: "Jörg Zimmer beim SEO Stammtisch Berlin - Vortrag über LinkedIn als Forum"
 category: "Events & Networking"
 tags: ["LinkedIn", "Personal Branding", "Networking"]
+about_entity:
+  name: "LinkedIn"
+  sameAs: "https://www.wikidata.org/wiki/Q213660"
 key_takeaways:
   - "Dein LinkedIn-Profil ist deine Domain: Optimiere es wie eine Landingpage auf Conversions (Profilaufrufe), nicht auf Likes."
   - "LinkedIn ist ein Forum: Kommentare und echte Diskussionen sind der stärkste Hebel für algorithmische Reichweite."

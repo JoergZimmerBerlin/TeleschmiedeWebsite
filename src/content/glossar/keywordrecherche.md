@@ -4,6 +4,7 @@ title: "Keywordrecherche: Semantische Basis für SEO"
 meta_title: "Keywordrecherche: Semantische Basis (2026)"
 description: "Keywordrecherche im Detail: Wie Sie mit Entitäten, Search Query Fan-Out und Themenclustern 2026 Spitzenplätze in Google & LLMs erobern. (2026)"
 meta_description: "Keywordrecherche im Detail: Wie Sie mit Entitäten, Search Query Fan-Out und Themenclustern 2026 Spitzenplätze in Google & LLMs erobern. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q6398555"
 date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-keywordrecherche-3d.webp"
 related_terms: ["query-fan-out", "entitaet", "suchvolumen", "keyword-tool"]

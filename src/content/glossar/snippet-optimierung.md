@@ -4,6 +4,7 @@ title: "Snippet Optimierung: Rich Results & KI-Labels"
 meta_title: "Snippet Optimierung: SERP & KI-Snippets (2026)"
 description: "Snippet Optimierung für Google und KI-Answer-Engines. Maximiere Klickraten und sichere Zitationsanker durch strukturierte Daten und GEO. (2026)"
 meta_description: "Snippet Optimierung für Google und KI-Answer-Engines. Maximiere Klickraten und sichere Zitationsanker durch strukturierte Daten und GEO. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q2704141"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-snippet-optimierung-3d.webp"
 related_terms: ["ctr", "meta-description", "title-tag", "faq-markup", "geo"]

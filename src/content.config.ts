@@ -20,6 +20,15 @@ const blog = defineCollection({
       question: z.string(),
       answer: z.string(),
     })).optional(),
+    sameAs: z.string().url().optional(),
+    about_entity: z.object({
+      name: z.string(),
+      sameAs: z.string().url(),
+    }).optional(),
+    mentions: z.array(z.object({
+      name: z.string(),
+      sameAs: z.string().url(),
+    })).optional(),
     show_roi_calculator: z.boolean().optional(),
     download_card: z.object({
       title: z.string(),

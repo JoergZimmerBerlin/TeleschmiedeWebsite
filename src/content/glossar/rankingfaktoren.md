@@ -4,6 +4,7 @@ title: "Rankingfaktoren: Was Google und KIs bewerten"
 meta_title: "Rankingfaktoren: Was Suchmaschinen bewerten (2026)"
 description: "Rankingfaktoren ungeschönt: Die harten Kriterien für Generative Engines. Tacheles darüber, was über Seite 1 und KI-Zitierungen entscheidet. (2026)"
 meta_description: "Rankingfaktoren ungeschönt: Die harten Kriterien für Generative Engines. Tacheles darüber, was über Seite 1 und KI-Zitierungen entscheidet. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q7293293"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-rankingfaktoren-3d.webp"
 related_terms: ["e-e-a-t", "core-web-vitals", "google-algorithmus", "technisches-seo"]

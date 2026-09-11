@@ -4,6 +4,7 @@ title: 'x402 Protokoll: Native HTTP-Payments für KI-Agenten'
 meta_title: 'x402 Protokoll: HTTP-Payments für KI (2026)'
 description: 'Wie das x402 Protokoll den HTTP Status 402 aktiviert und autonome M2M-Zahlungen ermöglicht. Praxis-Guide mit Headern & Pay-per-Call. (2026)'
 meta_description: 'Wie das x402 Protokoll den HTTP Status 402 aktiviert und autonome M2M-Zahlungen ermöglicht. Praxis-Guide mit Headern & Pay-per-Call. (2026)'
+sameAs: "https://github.com/x402-foundation/x402"
 date: '2026-07-22'
 image: '../../assets/images/glossar/3d-light/glossar-x402-protocol-3d.webp'
 image_alt: '3D Infografik zum x402-Protokoll, HTTP-Payments und Maschinen-Handel'

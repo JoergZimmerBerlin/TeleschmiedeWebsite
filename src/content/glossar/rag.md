@@ -4,6 +4,7 @@ title: 'RAG: Das echte Gehirn-Doping für KI-Inhalte'
 meta_title: "RAG: Gehirn-Doping für KI-Inhalte (2026)"
 description: "RAG (Retrieval-Augmented Generation) im Detail: Wie Vektorsuche, GraphRAG und Agentic Pipelines 2026 Halluzinationen eliminieren. (2026)"
 meta_description: "RAG (Retrieval-Augmented Generation) im Detail: Wie Vektorsuche, GraphRAG und Agentic Pipelines 2026 Halluzinationen eliminieren. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q121362277"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-rag-3d.png"
 image_alt: "RAG 3D Infografik - Zusammenspiel von Datenquelle, KI-Synthese und Antwort"

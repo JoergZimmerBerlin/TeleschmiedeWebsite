@@ -9,6 +9,9 @@ image: "../../assets/images/blog/pagespeed-tuning-guide.webp"
 image_alt: "PageSpeed 100/100 für teleschmie.de - Jörg Zimmer optimiert die Performance"
 category: "Tech SEO & Tools"
 tags: []
+about_entity:
+  name: "PageSpeed Insights"
+  sameAs: "https://www.wikidata.org/wiki/Q1537678"
 key_takeaways:
   - "Eine 100 im PageSpeed-Index ist kein Selbstzweck, sondern ein Wettbewerbsvorteil."
   - "Astro überzeugt durch 'Zero JS by default' und schlägt WordPress in der Performance deutlich."

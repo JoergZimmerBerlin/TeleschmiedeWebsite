@@ -8,6 +8,12 @@ image: "../../assets/images/blog/linkedin_seranking_setup_v2.png"
 image_alt: "SE Ranking API mit Claude Code verbinden - Setup-Tutorial von Jörg Zimmer"
 category: "Tech SEO & Tools"
 tags: ["Tutorial", "API", "Claude Code", "Erfahrungsbericht"]
+about_entity:
+  name: "Claude"
+  sameAs: "https://www.wikidata.org/wiki/Q118876059"
+mentions:
+  - name: "Anthropic"
+    sameAs: "https://www.wikidata.org/wiki/Q108865662"
 key_takeaways:
   - "Die SE Ranking API lässt sich in unter 30 Minuten an Claude Code anbinden: Wenn man den richtigen Skill-Wrapper baut, statt nackte requests.get() zu schreiben."
   - "Ein Daily-Credit-Limit gehört von Minute 1 dazu - nicht erst, nachdem ein Agent mal eben 10.000 Credits in einem Call verbrannt hat."

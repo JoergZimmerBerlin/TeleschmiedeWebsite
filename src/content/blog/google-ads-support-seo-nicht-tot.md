@@ -9,6 +9,9 @@ image: "../../assets/images/pages/kontakt-hero.webp"
 image_alt: "Google Ads Support vs. Echte Expertise - Jörg Zimmer klärt auf"
 category: "SEO Praxis"
 tags: ["SEA & Ads", "Google Ads", "E-E-A-T"]
+about_entity:
+  name: "Google Ads"
+  sameAs: "https://www.wikidata.org/wiki/Q271982"
 key_takeaways:
   - "Google Ads 'Optimierungsvorschläge' dienen Googles Umsatz, nicht deinem ROI – hinterfrage jeden Vorschlag."
   - "SEO ist nicht tot, es hat nur aufgehört, einfach zu sein: Entitäten und E-E-A-T statt Keyword-Spam."

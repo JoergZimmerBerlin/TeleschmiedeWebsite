@@ -3,6 +3,7 @@ title: "Perplexity Sichtbarkeit messen (Citations & Tracking)"
 meta_title: "Perplexity Sichtbarkeit messen (2026)"
 description: "Wie du deine Sichtbarkeit in der Perplexity Answer Engine misst. Alles über Citations, Share of Voice und Tracking-Tools (2026)"
 meta_description: "Wie du deine Sichtbarkeit in der Perplexity Answer Engine misst. Alles über Citations, Share of Voice und Tracking-Tools (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q123403392"
 date: "2026-08-10"
 image: "../../assets/images/glossar/3d-light/perplexity-sichtbarkeit-3d.webp"
 image_alt: Perplexity Sichtbarkeit messen SEO

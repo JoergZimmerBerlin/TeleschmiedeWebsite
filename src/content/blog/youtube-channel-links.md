@@ -9,6 +9,9 @@ image: "../../assets/images/blog/youtube-channel-links.webp"
 image_alt: "YouTube Channel Link Einstellungen für SEO"
 category: "SEO Praxis"
 tags: ["YouTube SEO", "Entity Building", "Local SEO"]
+about_entity:
+  name: "YouTube"
+  sameAs: "https://www.wikidata.org/wiki/Q866"
 key_takeaways:
   - "YouTube bietet die Möglichkeit, bis zu 14 Links im Kanal zu hinterlegen."
   - "Diese Verlinkungen helfen Google, deine Entität und deinen Knowledge Graph zu stärken."

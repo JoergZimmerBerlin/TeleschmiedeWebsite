@@ -3,6 +3,7 @@ title: "Social Media Community Management: Definition & Strategie"
 meta_title: "Community Management Strategie (2026)"
 description: "Was ist Social Media Community Management? Erfahre, wie du aus Followern loyale Botschafter machst. Dialog statt Monolog ist der Schlüssel. (2026)"
 meta_description: "Was ist Social Media Community Management? Erfahre, wie du aus Followern loyale Botschafter machst. Dialog statt Monolog ist der Schlüssel. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q2633287"
 date: "2026-09-02"
 category: "E-E-A-T & Offpage"
 key_takeaways:

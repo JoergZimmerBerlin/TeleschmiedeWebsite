@@ -9,6 +9,9 @@ image: "../../assets/images/blog/core-web-vitals-pfeiler.webp"
 image_alt: "Die drei Säulen der Core Web Vitals: LCP, INP und CLS erklärt"
 category: "Tech SEO & Tools"
 tags: ["Tech SEO", "Core Web Vitals", "UX", "Performance", "E-E-A-T"]
+about_entity:
+  name: "PageSpeed Insights"
+  sameAs: "https://www.wikidata.org/wiki/Q1537678"
 key_takeaways:
   - "Von 0 auf 216 gute URLs: Core Web Vitals sind kein Hexenwerk, sondern systematische Ingenieurskunst."
   - "LCP, INP und CLS optimieren bedeutet: Bilder komprimieren, Third-Party-Scripts ausmisten und Layout-Shifts eliminieren."

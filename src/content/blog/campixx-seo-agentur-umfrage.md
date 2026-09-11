@@ -8,6 +8,9 @@ date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_braucht-seo-einen-neuen-namen-activity-7261642115124117504-2W9Q"
 image: "../../assets/images/blog/campixx-seo-naming-poll.webp"
 image_alt: "Balkendiagramm: Braucht SEO einen neuen Namen? – Search Everywhere Optimization 55%, Digital Authority 28%, SEO bleibt SEO 17%"
+about_entity:
+  name: "CAMPIXX"
+  sameAs: "https://www.campixx.de/"
 key_takeaways:
   - "Der Begriff SEO wird von Entscheidern oft als rein operative Quelltext-Optimierung abgetan – das führt zu gekürzten Budgets und fehlendem Einfluss auf Vorstandsebene."
   - "In unserer Campixx-Umfrage votierten 55 % der Experten für 'Search Everywhere Optimization', während 28 % strategische Begriffe wie 'Digital Authority' bevorzugen."

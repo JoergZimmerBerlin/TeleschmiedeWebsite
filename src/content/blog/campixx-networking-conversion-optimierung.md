@@ -9,6 +9,9 @@ image: "../../assets/images/blog/campixx-networking.webp"
 image_alt: "Jörg Zimmer im Gespräch auf der CAMPIXX über Conversion Optimierung"
 category: "Events & Networking"
 tags: ["Conversion Optimierung", "CAMPIXX", "Networking", "SEO", "Usability"]
+about_entity:
+  name: "CAMPIXX"
+  sameAs: "https://www.campixx.de/"
 key_takeaways:
   - "Die wertvollsten Branchen-Erkenntnisse entstehen oft abseits der Vortragsbühnen im direkten Dialog der Konferenzpausen."
   - "Bereits minimale Verbesserungen der Conversion Rate vervielfachen den Ertrag aller vorgelagerten Marketing- und SEO-Kanäle."

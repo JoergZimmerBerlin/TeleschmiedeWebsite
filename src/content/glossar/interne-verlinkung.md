@@ -4,6 +4,7 @@ title: "Interne Verlinkung: Dein Entity Graph für KIs"
 meta_title: "Interne Verlinkung: Entity Graph (2026)"
 description: "Interne Verlinkung 2026: Baue deinen Entity Graph für KIs, steuere den Crawler-Flow und maximiere AI Overviews Citations im Web. (2026)"
 meta_description: "Interne Verlinkung 2026: Baue deinen Entity Graph für KIs, steuere den Crawler-Flow und maximiere AI Overviews Citations im Web. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q16834027"
 date: "2026-07-18"
 image: ../../assets/images/glossar/3d-light/glossar-interne-verlinkung-3d.webp
 image_alt: "Interne Verlinkung Architektur und Entity Graph für SEO"

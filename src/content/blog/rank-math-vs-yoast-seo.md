@@ -8,6 +8,12 @@ image: "../../assets/images/blog/rank-math-vs-yoast-feature-vergleich.webp"
 image_alt: "Rank Math vs Yoast SEO Feature- und Kosten-Vergleich"
 category: "Tech SEO & Tools"
 tags: ["WordPress", "SEO Tools", "Vergleich", "Rank Math", "Yoast SEO"]
+about_entity:
+  name: "Rank Math"
+  sameAs: "https://rankmath.com/"
+mentions:
+  - name: "Yoast SEO"
+    sameAs: "https://www.wikidata.org/wiki/Q68342360"
 key_takeaways:
   - "Rank Math bietet bereits in der Free-Version Features wie 5 Fokus-Keywords, Redirect-Manager und 18 Schema-Typen, die bei Yoast teures Premium-Upgrade erfordern."
   - "Die modulare Architektur von Rank Math sorgt für weniger Datenbankabfragen und bessere Ladezeiten im Vergleich zum historisch gewachsenen Yoast-Code."

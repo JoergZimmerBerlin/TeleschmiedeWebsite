@@ -4,6 +4,7 @@ title: 'Bing Webmaster Tools (BWT): Funktionen, IndexNow & Copilot-Setup'
 meta_title: 'Bing Webmaster Tools: Setup & IndexNow (2026)'
 description: 'Wie du mit den Bing Webmaster Tools Rankings, IndexNow und Microsoft Copilot KI-Präsenz sicherst. Praxis-Guide mit Vergleich & Setup. (2026)'
 meta_description: 'Wie du mit den Bing Webmaster Tools Rankings, IndexNow und Microsoft Copilot KI-Präsenz sicherst. Praxis-Guide mit Vergleich & Setup. (2026)'
+sameAs: "https://www.wikidata.org/wiki/Q2889043"
 date: '2026-03-22'
 image: '../../assets/images/glossar/3d-light/glossar-bing-3d.webp'
 image_alt: 'Bing Webmaster Tools 3D Infografik - Schnittstelle zum Microsoft KI-Ökosystem'

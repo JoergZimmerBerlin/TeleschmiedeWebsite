@@ -8,6 +8,9 @@ image: "../../assets/images/blog/mega_prompt_claude.jpg"
 image_alt: "SEO Mega-Prompt Infografik"
 category: "AI SEO"
 tags: ["Claude", "Prompting", "Agenten", "Automatisierung", "Humor"]
+about_entity:
+  name: "Claude"
+  sameAs: "https://www.wikidata.org/wiki/Q118876059"
 key_takeaways:
   - "Kein einzelner Mega-Prompt ersetzt ein Vierteljahrhundert strategischer Erfahrung und Krisenkompetenz."
   - "Die KI-Bubble auf LinkedIn verspricht oft wundersame Abkürzungen, die in der Praxis zu austauschbarem Content führen."

@@ -9,6 +9,9 @@ image: "../../assets/images/blog/linkedin-stammtisch-berlin.jpg"
 image_alt: "SEO Stammtisch Berlin Axel Springer"
 category: "Events & Networking"
 tags: ["SEO Stammtisch", "Berlin", "Netzwerken", "Community", "Event"]
+about_entity:
+  name: "Axel Springer SE"
+  sameAs: "https://www.wikidata.org/wiki/Q163560"
 key_takeaways:
   - "Lokale SEO-Communities sind unverzichtbar für echten, ungefilterten Austausch."
   - "Der persönliche Kontakt ist durch nichts zu ersetzen, nicht einmal durch den besten KI-Agenten."

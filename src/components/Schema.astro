@@ -39,6 +39,8 @@ interface Props {
   collectionItems?: { name: string; url: string; description?: string }[];
   isTechArticle?: boolean;
   item?: any;
+  aboutEntity?: { name: string; sameAs: string };
+  mentions?: { name: string; sameAs: string }[];
 }
 
 const { 
@@ -61,7 +63,9 @@ const {
   keyTakeaways,
   collectionItems,
   isTechArticle,
-  item
+  item,
+  aboutEntity,
+  mentions
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
@@ -557,10 +561,40 @@ if (type === 'article') {
   if (category) blogPostingNode.articleSection = category;
   if (tags && tags.length > 0) {
     blogPostingNode.keywords = tags.join(", ");
-    blogPostingNode.about = tags.map(tag => ({
-      "@type": "DefinedTerm",
-      "name": tag,
-      "inDefinedTermSet": { "@id": termSetId }
+  }
+
+  const aboutEntities: any[] = [];
+  if (aboutEntity) {
+    aboutEntities.push({
+      "@type": "Thing",
+      "name": aboutEntity.name,
+      "sameAs": aboutEntity.sameAs
+    });
+  } else if (sameAs) {
+    aboutEntities.push({
+      "@type": "Thing",
+      "name": title,
+      "sameAs": sameAs
+    });
+  }
+  if (tags && tags.length > 0) {
+    for (const tag of tags) {
+      aboutEntities.push({
+        "@type": "DefinedTerm",
+        "name": tag,
+        "inDefinedTermSet": { "@id": termSetId }
+      });
+    }
+  }
+  if (aboutEntities.length > 0) {
+    blogPostingNode.about = aboutEntities;
+  }
+
+  if (mentions && mentions.length > 0) {
+    blogPostingNode.mentions = mentions.map(m => ({
+      "@type": "Thing",
+      "name": m.name,
+      "sameAs": m.sameAs
     }));
   }
   if (keyTakeaways && keyTakeaways.length > 0) blogPostingNode.abstract = keyTakeaways.map(t => cleanText(t)).join(" ");

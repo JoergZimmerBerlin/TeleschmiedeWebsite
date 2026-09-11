@@ -8,6 +8,9 @@ image: "../../assets/images/blog/3d-light/chatgpt-unternehmen-3d.webp"
 image_alt: "3D Illustration - Unternehmen in ChatGPT integrieren mit lime-grünen Akzenten"
 category: "AI SEO"
 tags: ["GEO", "ChatGPT", "B2B", "Entitäten", "AI SEO"]
+about_entity:
+  name: "ChatGPT"
+  sameAs: "https://www.wikidata.org/wiki/Q115564437"
 key_takeaways:
   - "Es gibt keinen Buchungs-Button für ChatGPT: Empfehlungen basieren auf Trainingsdaten, Bing-Live-Index und Web-Citations."
   - "Dein Unternehmen muss als unverwechselbare, maschinenlesbare Entität über Schema.org im Knowledge Graph verankert sein."

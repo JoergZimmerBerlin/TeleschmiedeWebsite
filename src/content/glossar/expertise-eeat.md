@@ -3,6 +3,7 @@ category: 'E-E-A-T & Offpage'
 title: "Expertise im E-E-A-T: Thematische Fachtiefe für KI"
 meta_title: "Expertise (E-E-A-T): Fachtiefe für KI (2026)"
 description: "Expertise im E-E-A-T: Wie thematische Vektortiefe, Topical Authority und strukturierte Daten deinen RAG-Trust in Suchsystemen sichern. (2026)"
+sameAs: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
 date: "2026-03-31"
 image: "../../assets/images/glossar/3d-light/glossar-expertise-3d.webp"
 image_alt: "Expertise (E-E-A-T) 3D Infografik - Fachliche Autorität in KI-Systemen"

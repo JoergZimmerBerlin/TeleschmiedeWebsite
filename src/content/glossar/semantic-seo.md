@@ -4,6 +4,7 @@ title: 'Semantic SEO: Themenwelten im Vektorraum steuern'
 meta_title: "Semantic SEO: Themenwelten steuern (2026)"
 description: "So verarbeiten LLMs Konzepte im Vektorraum. Mit knallhartem Semantic SEO und Topical Authority machst du dich unersetzlich für jede KI. (2026)"
 meta_description: "So verarbeiten LLMs Konzepte im Vektorraum. Mit knallhartem Semantic SEO und Topical Authority machst du dich unersetzlich für jede KI. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q1891170"
 date: "2026-07-18"
 image: "../../assets/images/glossar/themes/glossar-theme-eeat.webp"
 related_terms: ["entity-seo", "topical-authority", "strukturierte-daten", "knowledge-graph"]

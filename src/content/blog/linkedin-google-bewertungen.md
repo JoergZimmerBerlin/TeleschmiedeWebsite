@@ -8,6 +8,9 @@ image: "../../assets/images/blog/linkedin-google-bewertungen.webp"
 image_alt: "Kundenbewertungen LinkedIn und Google Maps Infografik"
 category: "SEO Praxis"
 tags: ["Local SEO", "LinkedIn", "Google Maps", "Bewertungen", "Personal Branding"]
+about_entity:
+  name: "LinkedIn"
+  sameAs: "https://www.wikidata.org/wiki/Q213660"
 key_takeaways:
   - "Bewertungen sollten zwingend mehrgleisig gesammelt werden: LinkedIn für B2B-Reputation und Google Maps für Local SEO."
   - "Das Copy-Paste-Prinzip minimiert die Hürde für zufriedene Kunden, ihr Feedback auf beiden Plattformen zu teilen."

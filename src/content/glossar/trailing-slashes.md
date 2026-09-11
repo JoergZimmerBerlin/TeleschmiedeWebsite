@@ -4,6 +4,7 @@ title: 'Trailing Slashes: SEO & Duplicate Content'
 meta_title: "Trailing Slashes: SEO & Duplicate Content (2026)"
 description: "Trailing Slashes im SEO & für AI: Warum der Schrägstrich am Ende der URL 2026 über Leben und Tod deiner Rankings entscheidet. Praxis-Guide. (2026)"
 meta_description: "Trailing Slashes im SEO & für AI: Warum der Schrägstrich am Ende der URL 2026 über Leben und Tod deiner Rankings entscheidet. Praxis-Guide. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q42253"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["technisches-seo", "crawling-vs-indexing", "robots-txt", "sitemap"]

@@ -4,6 +4,7 @@ title: 'OAuth & OIDC Discovery: Autonome Autorisierung für KI-Agenten'
 meta_title: 'OAuth/OIDC Discovery: Setup für KI (2026)'
 description: 'Wie OAuth/OIDC Discovery nach RFC 8414 KI-Agenten die autonome Authentifizierung ermöglicht. Vollständiger Guide zu Endpunkten & agent_auth. (2026)'
 meta_description: 'Wie OAuth/OIDC Discovery nach RFC 8414 KI-Agenten die autonome Authentifizierung ermöglicht. Vollständiger Guide zu Endpunkten & agent_auth. (2026)'
+sameAs: "https://datatracker.ietf.org/doc/html/rfc8414"
 date: '2026-07-22'
 image: '../../assets/images/glossar/3d-light/glossar-oauth-oidc-discovery-3d.webp'
 image_alt: '3D-Infografik zu OAuth-Discovery und Autorisierungs-Servern im KI-Agenten-Netzwerk'

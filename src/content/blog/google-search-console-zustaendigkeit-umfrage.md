@@ -8,6 +8,9 @@ date: "2026-03-11"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_umfrage-wer-ist-fuer-die-einrichtung-der-activity-7264177815217430528-9Y7S"
 image: "../../assets/images/blog/gsc-zustaendigkeit-poll.webp"
 image_alt: "Balkendiagramm: Wer richtet die Google Search Console ein? – Webentwickler 65%, SEO 20%, Auftraggeber 10%, Keiner 5%"
+about_entity:
+  name: "Google Search Console"
+  sameAs: "https://www.wikidata.org/wiki/Q24033593"
 key_takeaways:
   - "Die Google Search Console (GSC) ist das zentrale Diagnosewerkzeug jeder Website und muss bereits vor dem Live-Gang fest eingeplant werden."
   - "Die technische Verifizierung (DNS/Sitemap) liegt primär beim Webentwickler, während der SEO-Experte Monitoring und strategische Analysen übernimmt."

@@ -4,6 +4,7 @@ title: 'Citation: Struktur und Entity-Resolution erklärt'
 meta_title: "Citation: Struktur & Entity-Resolution (2026)"
 description: "Ohne saubere Citation bist du für KI unsichtbar. Wie LLMs Zitationen zur Verifizierung nutzen und warum klassische Links an Macht verlieren. (2026)"
 meta_description: "Ohne saubere Citation bist du für KI unsichtbar. Wie LLMs Zitationen zur Verifizierung nutzen und warum klassische Links an Macht verlieren. (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q206287"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-mention-3d.webp"
 image_alt: "Citations 3D Infografik - Lokales SEO und Entity Resolution"

@@ -4,6 +4,7 @@ title: 'Authoritativeness (E-E-A-T): Digitale Autorität im KI-Zeitalter'
 meta_title: 'Authoritativeness: E-E-A-T Autorität (2026)'
 description: 'Wie Authoritativeness im E-E-A-T über Rankings & KI-Zitate entscheidet. Praxis-Guide mit Entity SEO, Schema-Code & Markenaufbau. (2026)'
 meta_description: 'Wie Authoritativeness im E-E-A-T über Rankings & KI-Zitate entscheidet. Praxis-Guide mit Entity SEO, Schema-Code & Markenaufbau. (2026)'
+sameAs: "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
 date: '2026-03-31'
 image: '../../assets/images/glossar/3d-light/glossar-authority-3d.webp'
 image_alt: 'Authoritativeness (E-E-A-T) 3D Infografik - Digitale Reputation im KI-Zeitalter'

@@ -4,6 +4,7 @@ title: "Server-Side Rendering (SSR): Der Turbo für SEO & KI-Crawlability"
 meta_title: "SSR & SEO: Turbo für Crawlability (2026)"
 description: "Server-Side Rendering (SSR) ist das Fundament für SEO. Erfahre, warum Google SSR liebt und es die Core Web Vitals verbessert (2026)"
 meta_description: "Server-Side Rendering (SSR) ist das Fundament für SEO. Erfahre, warum Google SSR liebt und es die Core Web Vitals verbessert (2026)"
+sameAs: "https://www.wikidata.org/wiki/Q1134015"
 date: "2026-08-03"
 image: src/assets/images/glossar/server-side-rendering.webp
 image_alt: "SSR Server-Side Rendering Infografik mit kompletter HTML Generierung"

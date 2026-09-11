@@ -4,6 +4,7 @@ title: 'FAQ Markup: Harte Daten für deine RAG-Pipeline'
 meta_title: "FAQ Markup: RAG-Pipeline Schnittstelle (2026)"
 description: "FAQ Markup im Detail: Warum FAQPage Schema 2026 als RAG-Schnittstelle für LLMs unverzichtbar ist und wie Sie es technisch sauber umsetzen. (2026)"
 meta_description: "FAQ Markup im Detail: Warum FAQPage Schema 2026 als RAG-Schnittstelle für LLMs unverzichtbar ist und wie Sie es technisch sauber umsetzen. (2026)"
+sameAs: "https://schema.org/FAQPage"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["strukturierte-daten", "rag", "geo-optimierung", "entitaet"]

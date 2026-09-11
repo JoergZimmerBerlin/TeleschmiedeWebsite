@@ -3,6 +3,7 @@ title: "HTTP Message Signatures: Sichere A2A-APIs"
 meta_title: "HTTP Message Signatures: Sichere A2A-APIs (2026)"
 description: "HTTP Message Signatures (RFC 9421): Kryptografische Sicherheit für A2A-APIs, Web Bot Auth und Agentic Commerce im KI-Web. (2026)"
 meta_description: "HTTP Message Signatures (RFC 9421): Kryptografische Sicherheit für A2A-APIs, Web Bot Auth und Agentic Commerce im KI-Web. (2026)"
+sameAs: "https://datatracker.ietf.org/doc/html/rfc9421"
 category: 'AI SEO & Generative Search'
 date: "2026-07-17"
 image: "../../assets/images/glossar/3d-light/glossar-http-message-signatures-3d.webp"

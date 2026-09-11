@@ -118,6 +118,18 @@ Redirect 301 /berlin/adwords-optimierung-sea.html https://teleschmie.de/google-a
 Redirect 301 /berlin/suchmaschinen-optimierung-seo/seo-agentur-berlin.html https://teleschmie.de/seo-freelancer-berlin/
 Redirect 301 /berlin/kostenlose-webseiten-analyse.html https://teleschmie.de/tools/
 Redirect 301 /webdesigner-programmierer-berlin-spandau.html https://teleschmie.de/ueber-mich/
+Redirect 301 /leistungen/sechstunde/ https://teleschmie.de/seo-sprechstunde/
+Redirect 301 /blog/schema-markup-zustaendigkeit-umfrage/ https://teleschmie.de/blog/google-search-console-zustaendigkeit-umfrage/
+Redirect 301 /blog/tech-seo-tools/ https://teleschmie.de/blog/tech-seo-and-tools/
+Redirect 301 /blog/events-networking/ https://teleschmie.de/blog/events-and-networking/
+Redirect 301 /seo-beratung/ https://teleschmie.de/glossar/seo-beratung/
+Redirect 301 /website-seo-audit/ https://teleschmie.de/glossar/se-ranking-website-audit/
+Redirect 301 /glossar/website-seo-audit/ https://teleschmie.de/glossar/se-ranking-website-audit/
+Redirect 301 /glossar/eeat/ https://teleschmie.de/glossar/e-e-a-t/
+Redirect 301 /glossar/ai-readiness/ https://teleschmie.de/glossar/agent-readiness/
+Redirect 301 /glossar/content-negotiation/ https://teleschmie.de/glossar/markdown-content-negotiation/
+Redirect 301 /glossar/prompt/ https://teleschmie.de/glossar/promptset/
+Redirect 301 /glossar/ai-agenten/ https://teleschmie.de/glossar/agent-skills/
 
 # D. Doppelte Slashes bereinigen (// -> /)
 RewriteCond %{THE_REQUEST} \s[^?]*//

@@ -1,0 +1,610 @@
+{
+  "total": 291,
+  "count": 86,
+  "overTitle": 86,
+  "overDesc": 1,
+  "filesToFix": [
+    {
+      "file": "src/content/blog/24-jahre-seo-gleiche-fehler.md",
+      "titleLength": 61,
+      "descLength": 141,
+      "title": "25 Jahre SEO: Warum wir immer noch die gleichen Fehler machen",
+      "desc": "25 Jahre SEO: Keyword-Stuffing, technische Ignoranz und Ungeduld. Ein ehrlicher Blick auf die häufigsten SEO-Fehler der letzten Jahre. (2026)"
+    },
+    {
+      "file": "src/content/blog/_idee-bestes-tracking-system-ki-sichtbarkeit.md",
+      "titleLength": 51,
+      "descLength": 90,
+      "title": "Idee: Das beste Tracking System für KI Sichtbarkeit",
+      "desc": "Wie misst man KI-Sichtbarkeit wirklich? Meine Gedanken zum Thema Tracking und LLMs. (2026)"
+    },
+    {
+      "file": "src/content/blog/cloudflare-agent-readiness-scan.md",
+      "titleLength": 55,
+      "descLength": 142,
+      "title": "Cloudflare Agent Readiness Scan: KI-Sichtbarkeit prüfen",
+      "desc": "Wie bereitet man Websites auf KI vor? Der Cloudflare Agent Readiness Scan prüft Markdown & Bot-Zugriff. Warum 75 Punkte exzellent sind. (2026)"
+    },
+    {
+      "file": "src/content/blog/freelancer-team-spirit-events.md",
+      "titleLength": 54,
+      "descLength": 146,
+      "title": "Freelancer Team: Unser lila Spirit im Online Marketing",
+      "desc": "Das Freelancer Team vereint Experten im Online Marketing. Warum Eigenverantwortung und Zusammenarbeit in lila T-Shirts so gut funktioniert. (2026)"
+    },
+    {
+      "file": "src/content/blog/geo-seo-jahreszahl.md",
+      "titleLength": 55,
+      "descLength": 139,
+      "title": "GEO vs. SEO: Jahreszahl 2026 im Title Tag für AI Search",
+      "desc": "Experiment zur Generative Engine Optimization (GEO): Wie man KI-Systeme über Query Fan-Outs und die Jahreszahl im Title Tag steuert. (2026)"
+    },
+    {
+      "file": "src/content/blog/ich-befinde-mich-in-der-geo-transformation.md",
+      "titleLength": 56,
+      "descLength": 141,
+      "title": "GEO Transformation: Die neue SEO-Disziplin der AI Search",
+      "desc": "GEO Transformation: Warum AI Crawlability die neue SEO-Disziplin wird und wie sich die User Journey durch AI Search radikal verändert. (2026)"
+    },
+    {
+      "file": "src/content/blog/ki-website-leuchtturm.md",
+      "titleLength": 56,
+      "descLength": 140,
+      "title": "Meine KI-Website: Auf dem Weg zum Leuchtturm für Agenten",
+      "desc": "Meine KI-Website als Leuchtturm für KI Agenten. llms.txt, Grounding Pages und strukturierte Daten für perfektes agentisches Browsing. (2026)"
+    },
+    {
+      "file": "src/content/blog/linkedin-google-bewertungen.md",
+      "titleLength": 65,
+      "descLength": 147,
+      "title": "LinkedIn & Google Maps Bewertungen sammeln: Der Multi-Trust-Guide",
+      "desc": "Kundenbewertungen sind Gold wert. Warum es sich lohnt, Bewertungen parallel auf LinkedIn und Google Maps zu sammeln und so Trust aufzubauen. (2026)"
+    },
+    {
+      "file": "src/content/blog/rank-math-vs-yoast-seo.md",
+      "titleLength": 63,
+      "descLength": 135,
+      "title": "Rank Math vs. Yoast SEO: Welches WordPress-Plugin gewinnt 2026?",
+      "desc": "Rank Math vs Yoast SEO im großen Praxis-Test: Funktionen, Performance, Schema & Kosten. Welches Plugin lohnt sich 2026 wirklich? (2026)"
+    },
+    {
+      "file": "src/content/blog/reines-seo-vs-geo.md",
+      "titleLength": 52,
+      "descLength": 147,
+      "title": "Warum reines SEO für gutes GEO nicht ausreichen wird",
+      "desc": "GEO SEO: AI Search bringt neue Spielregeln. Erfahre, warum Generative Engine Optimization völlig andere Metriken und Optimierungen verlangt. (2026)"
+    },
+    {
+      "file": "src/content/blog/se-ranking-chatgpt-app.md",
+      "titleLength": 61,
+      "descLength": 148,
+      "title": "SE Ranking in ChatGPT: Live-SEO per MCP-Connector analysieren",
+      "desc": "SE Ranking in ChatGPT: Verbinde Live-Daten per MCP Connector. Optimiere Keywords, Backlinks und KI-Sichtbarkeit direkt im Chat. Praxis-Guide. (2026)"
+    },
+    {
+      "file": "src/content/blog/se-ranking-ki-sichtbarkeit.md",
+      "titleLength": 53,
+      "descLength": 147,
+      "title": "10 Gründe für das KI-Sichtbarkeit Tool von SE Ranking",
+      "desc": "SE Ranking macht KI-Sichtbarkeit in ChatGPT, Gemini und Perplexity messbar. Warum dieses GEO-Tool für modernes Marken-Tracking extrem hilft. (2026)"
+    },
+    {
+      "file": "src/content/blog/se-ranking-test-2026.md",
+      "titleLength": 61,
+      "descLength": 143,
+      "title": "SE Ranking Test & Erfahrungen 2026: Der ehrliche Praxis-Check",
+      "desc": "Mein großer SE Ranking Test 2026: Ehrliche Erfahrungen aus echten Kundenprojekten. Plus: Website Audit, KI-Features & exklusiver Rabatt! (2026)"
+    },
+    {
+      "file": "src/content/blog/seo-stammtisch-berlin-axel-springer.md",
+      "titleLength": 64,
+      "descLength": 144,
+      "title": "Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer",
+      "desc": "Netzwerken über den Dächern Berlins. Einmal im Jahr trifft sich der SEO Stammtisch Berlin in einzigartiger Atmosphäre beim Axel Springer. (2026)"
+    },
+    {
+      "file": "src/content/blog/seo-wird-groesser-geo-welle.md",
+      "titleLength": 54,
+      "descLength": 148,
+      "title": "SEO wird größer: GEO Welle für den Markenaufbau nutzen",
+      "desc": "Die GEO Welle erweitert SEO zum Markenaufbau. Nutze Website, Social Signals und Knowledge Graph für maximale KI-Sichtbarkeit. Jörg klärt auf. (2026)"
+    },
+    {
+      "file": "src/content/blog/seorch-seo-tool-fanboy.md",
+      "titleLength": 51,
+      "descLength": 146,
+      "title": "SEORCH Tool: Kostenloses OnPage-Werkzeug für Macher",
+      "desc": "Vergiss teure Suiten. Das SEORCH Tool liefert knallharte OnPage-Daten ohne Bullshit. Klartext über Funktionen und echten Mehrwert für SEOs. (2026)"
+    },
+    {
+      "file": "src/content/blog/tldv-meeting-notetaker-ki.md",
+      "titleLength": 54,
+      "descLength": 133,
+      "title": "tl;dv Notetaker: Mein KI-Vorzeigebeispiel für Meetings",
+      "desc": "Wie der tl;dv Notetaker aus Deutschland dank KI und über 1.000 CRM-Integrationen meine Meetings und Videocalls revolutioniert. (2026)"
+    },
+    {
+      "file": "src/content/blog/top-9-ai-visibility-tools.md",
+      "titleLength": 53,
+      "descLength": 143,
+      "title": "Die Top 9 AI Visibility & Tracking Tools im Vergleich",
+      "desc": "Welche Tools messen deine Markenpräsenz in ChatGPT & Co. wirklich zuverlässig? Die 9 besten AI Visibility Tracker im direkten Vergleich. (2026)"
+    },
+    {
+      "file": "src/content/blog/transparente-seo-preise-erfahrung.md",
+      "titleLength": 56,
+      "descLength": 146,
+      "title": "Transparente SEO-Preise auf der Website: Meine Erfahrung",
+      "desc": "Warum ich meine SEO-Preise öffentlich auf der Website zeige, was das für die Kundenqualität bedeutet und warum ich die Stundensätze erhöhe. (2026)"
+    },
+    {
+      "file": "src/content/blog/wie-komme-ich-als-unternehmen-in-chatgpt.md",
+      "titleLength": 62,
+      "descLength": 144,
+      "title": "Wie komme ich als Unternehmen in ChatGPT? Der B2B-Guide (2026)",
+      "desc": "Wie wird dein Unternehmen in ChatGPT & KI-Suchmaschinen empfohlen? Strategischer Guide zu GEO, Entitäten, Bing-Indexierung und Citations. (2026)"
+    },
+    {
+      "file": "src/content/glossar/agentic-commerce-protocol-acp.md",
+      "titleLength": 60,
+      "descLength": 145,
+      "title": "Agentic Commerce Protocol (ACP): Autonomer E-Commerce für KI",
+      "desc": "Wie das Agentic Commerce Protocol (ACP) und Shared Payment Tokens autonomen KI-Checkout ermöglichen. Praxis-Guide mit Architektur & Setup. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ahrefs-ai-visibility.md",
+      "titleLength": 56,
+      "descLength": 135,
+      "title": "Ahrefs AI Visibility & Brand Radar: Der Branchenstandard",
+      "desc": "Ahrefs Brand Radar im Test: Search-backed Prompts, KI-Sichtbarkeit in ChatGPT und Perplexity sowie Benchmarks im Tool-Vergleich. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ai-citation-analysis.md",
+      "titleLength": 56,
+      "descLength": 151,
+      "title": "AI Citation Analysis: Verlinkungen und Zitationen in KIs",
+      "desc": "Mit einer AI Citation Analysis misst du, welche Domains und URLs am häufigsten als Quelle in KI-Antworten (ChatGPT, Perplexity, Claude) zitiert werden."
+    },
+    {
+      "file": "src/content/glossar/ai-crawlability.md",
+      "titleLength": 55,
+      "descLength": 144,
+      "title": "AI Crawlability: Maschinenlesbarkeit für Answer Engines",
+      "desc": "AI Crawlability im Detail: Wie Sie Webseiten für LLMs und RAG-Pipelines maschinenlesbar machen, um als primäre Zitationsquelle zu ranken. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ai-prompt-research.md",
+      "titleLength": 54,
+      "descLength": 142,
+      "title": "AI Prompt Research: Echte Nutzeranfragen entschlüsseln",
+      "desc": "Erfahre, wie AI Prompt Research & Decoding die tatsächlichen Suchintentionen und Prompts aufdeckt, mit denen Nutzer LLMs wie ChatGPT befragen."
+    },
+    {
+      "file": "src/content/glossar/ai-rank-tracker.md",
+      "titleLength": 58,
+      "descLength": 122,
+      "title": "AI Rank Tracker: Tracke deine Sichtbarkeit in der KI-Suche",
+      "desc": "Ein AI Rank Tracker überwacht deine Suchbegriffe, Brand Mentions und Zitationen in ChatGPT, Perplexity und Google AI Mode."
+    },
+    {
+      "file": "src/content/glossar/ai-search.md",
+      "titleLength": 56,
+      "descLength": 122,
+      "title": "AI Search (KI Suche): Wie ChatGPT & Co das SEO verändern",
+      "desc": "Was ist AI Search? Wie Perplexity, ChatGPT und SGE die Suche verändern und wie du deine Seite durch GEO optimierst. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ai-sentiment-analysis.md",
+      "titleLength": 56,
+      "descLength": 138,
+      "title": "AI Sentiment Analysis: Wie KIs über deine Marke sprechen",
+      "desc": "Erfahre, wie eine AI Sentiment Analysis aufdeckt, ob ChatGPT und Claude deine Marke positiv empfehlen, ignorieren oder kritisieren. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ai-tracker-vergleich.md",
+      "titleLength": 65,
+      "descLength": 125,
+      "title": "AI Tracker Vergleich: Rankscale, SE Ranking, Sistrix & Free Tools",
+      "desc": "Der massive Guide zur KI-Sichtbarkeit: Rankscale, SE Ranking, Sistrix, Otterly, Peec AI, Google und Bing im ultimativen Test."
+    },
+    {
+      "file": "src/content/glossar/ai-txt.md",
+      "titleLength": 51,
+      "descLength": 140,
+      "title": "ai.txt: Entwurf, Realität & Bot-Steuerung im KI-SEO",
+      "desc": "Warum die ai.txt kein anerkannter Standard ist, wie robots.txt Bots steuert und was llms.txt leistet. Praxis-Guide mit Code & Matrix. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ai-visibility-tools.md",
+      "titleLength": 57,
+      "descLength": 147,
+      "title": "AI Visibility Tools im Vergleich: Rankscale vs SE Ranking",
+      "desc": "Rankscale vs SE Ranking: Welches AI Visibility Tool ist das beste für Generative Engine Optimization (GEO)? Unser fundierter Tool-Vergleich. (2026)"
+    },
+    {
+      "file": "src/content/glossar/api-catalog.md",
+      "titleLength": 60,
+      "descLength": 144,
+      "title": "API Catalog & ARD: Agentic Resource Discovery für KI-Systeme",
+      "desc": "Wie Agentic Resource Discovery (ARD) und ai-catalog.json Schnittstellen für KI-Agenten auffindbar machen. Praxis-Guide mit Schema & Code. (2026)"
+    },
+    {
+      "file": "src/content/glossar/auth-md.md",
+      "titleLength": 58,
+      "descLength": 139,
+      "title": "auth.md: Maschinenlesbare Authentifizierung für KI-Agenten",
+      "desc": "Wie auth.md und RFC 9728 autonome Agenten ohne Captchas legitimieren. Vollständiger Guide zu Agent Readiness Level 5, OAuth & Setup. (2026)"
+    },
+    {
+      "file": "src/content/glossar/authoritativeness-eeat.md",
+      "titleLength": 63,
+      "descLength": 135,
+      "title": "Authoritativeness (E-E-A-T): Digitale Autorität im KI-Zeitalter",
+      "desc": "Wie Authoritativeness im E-E-A-T über Rankings & KI-Zitate entscheidet. Praxis-Guide mit Entity SEO, Schema-Code & Markenaufbau. (2026)"
+    },
+    {
+      "file": "src/content/glossar/berufshaftpflicht-freiberufler.md",
+      "titleLength": 59,
+      "descLength": 145,
+      "title": "Berufshaftpflicht Freiberufler: Test, Exali & Kosten (2026)",
+      "desc": "Berufshaftpflicht für Freiberufler: Vergleich, Kosten, Exali-Erfahrungen & exklusiver 10% Partnervorteil per LinkedIn-Nachricht anfordern. (2026)"
+    },
+    {
+      "file": "src/content/glossar/bing-webmastertools.md",
+      "titleLength": 64,
+      "descLength": 140,
+      "title": "Bing Webmaster Tools (BWT): Funktionen, IndexNow & Copilot-Setup",
+      "desc": "Wie du mit den Bing Webmaster Tools Rankings, IndexNow und Microsoft Copilot KI-Präsenz sicherst. Praxis-Guide mit Vergleich & Setup. (2026)"
+    },
+    {
+      "file": "src/content/glossar/brand-visibility-dashboard.md",
+      "titleLength": 52,
+      "descLength": 143,
+      "title": "Brand Visibility Dashboard: KI-Sichtbarkeit im Blick",
+      "desc": "Überwache deine KI-Sichtbarkeit zentral. Ein Brand Visibility Dashboard zeigt dir Zitationen, Mentions und Sentiment auf einen Blick an. (2026)"
+    },
+    {
+      "file": "src/content/glossar/chatgpt-sichtbarkeit.md",
+      "titleLength": 57,
+      "descLength": 119,
+      "title": "ChatGPT Sichtbarkeit messen & optimieren (Zero-Click SEO)",
+      "desc": "Wie du deine Sichtbarkeit in ChatGPT misst. Alles über Zero-Click, Brand Mentions und das Tracking von Citations (2026)"
+    },
+    {
+      "file": "src/content/glossar/common-crawl.md",
+      "titleLength": 51,
+      "descLength": 140,
+      "title": "Common Crawl: Die wichtigste Datenbasis der KI-Welt",
+      "desc": "Common Crawl: Das Datenfundament moderner LLMs. Erfahre, wie der CCBot das Web archiviert und wie du im KI-Training sichtbar bleibst. (2026)"
+    },
+    {
+      "file": "src/content/glossar/content-delivery-network.md",
+      "titleLength": 55,
+      "descLength": 134,
+      "title": "Content Delivery Network (CDN): Der globale Speed-Boost",
+      "desc": "Content Delivery Network (CDN): Globale Edge-Server, Bot-Traffic-Shaping und Core Web Vitals Schutz vor dem KI-Traffic-Tsunami. (2026)"
+    },
+    {
+      "file": "src/content/glossar/entity-co-occurrence.md",
+      "titleLength": 55,
+      "descLength": 141,
+      "title": "Entity Co-Occurrence: Kookkurrenz in der KI-Suche (SEO)",
+      "desc": "Was ist Entity Co-Occurrence? Wie Kookkurrenz in Vektorräumen von LLMs funktioniert und wie semantische Nähe Marken-Autorität aufbaut. (2026)"
+    },
+    {
+      "file": "src/content/glossar/eu-ai-act.md",
+      "titleLength": 62,
+      "descLength": 134,
+      "title": "EU AI Act: KI-Verordnung, Kennzeichnungspflichten & SEO-Praxis",
+      "desc": "Was bedeutet der EU AI Act für SEO & Content? Kennzeichnung nach Art. 50, Deepfakes und E-E-A-T Compliance im Praxis-Überblick. (2026)"
+    },
+    {
+      "file": "src/content/glossar/finseo.md",
+      "titleLength": 58,
+      "descLength": 148,
+      "title": "Finseo Übersicht: Die mächtige Plattform für AI Visibility",
+      "desc": "Finseo ist das führende deutsche Tool für AI Visibility Tracking. Alles zu Funktionen, Bot Analytics, Preisen und Integrationen im Überblick. (2026)"
+    },
+    {
+      "file": "src/content/glossar/geo-page-audit.md",
+      "titleLength": 52,
+      "descLength": 142,
+      "title": "GEO Page Audit: Optimiere Seiten für AI Crawlability",
+      "desc": "Mit einem GEO Page Audit prüfst du, ob deine Website die technischen und inhaltlichen Anforderungen für LLMs, RAG und AI Crawlability erfüllt."
+    },
+    {
+      "file": "src/content/glossar/ki-ranking.md",
+      "titleLength": 53,
+      "descLength": 140,
+      "title": "KI Ranking – Die neue Definition von SEO-Sichtbarkeit",
+      "desc": "Was ist KI Ranking? Wie sich AI Overviews von klassischer Suche unterscheiden und wie du AEO für Zitationen in KI-Systemen meisterst. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ki-sichtbarkeit-b2b.md",
+      "titleLength": 51,
+      "descLength": 132,
+      "title": "KI Sichtbarkeit im B2B: Strategie & Leadgenerierung",
+      "desc": "B2B KI-Sichtbarkeit: Warum Entscheider KIs zur Recherche nutzen und wie Sie mit GEO und AEO qualifizierte B2B-Leads gewinnen. (2026)"
+    },
+    {
+      "file": "src/content/glossar/ki-sichtbarkeit.md",
+      "titleLength": 53,
+      "descLength": 140,
+      "title": "KI Sichtbarkeit: So wirst du in ChatGPT & Co. zitiert",
+      "desc": "KI-Sichtbarkeit erhöhen: Wie Sie Share of Model, Citation Rate und Markenautorität 2026 in ChatGPT, Gemini und Perplexity maximieren. (2026)"
+    },
+    {
+      "file": "src/content/glossar/llm-rank-tracker.md",
+      "titleLength": 61,
+      "descLength": 111,
+      "title": "LLM Rank Tracker: Wie du deine KI-Sichtbarkeit wirklich misst",
+      "desc": "Warum SEO-Tools blind für KI sind und wie ein LLM Rank Tracker deine Sichtbarkeit in ChatGPT & Co misst. (2026)"
+    },
+    {
+      "file": "src/content/glossar/llm-volatility.md",
+      "titleLength": 56,
+      "descLength": 136,
+      "title": "LLM Volatility: Antwort-Stabilität in der KI-Suche (SEO)",
+      "desc": "LLM Volatility misst die Stabilität von KI-Antworten. So nutzt du Tracker für KI Halluzinationen und schützt deine GEO-Strategie! (2026)"
+    },
+    {
+      "file": "src/content/glossar/machine-payment-protocol-mpp.md",
+      "titleLength": 52,
+      "descLength": 141,
+      "title": "Machine Payment Protocol (MPP): KI bezahlt Maschinen",
+      "desc": "Wie das Machine Payment Protocol (MPP) autonome M2M-Zahlungen, HTTP 402 und KI-Wallets verbindet. Praxis-Guide mit Architektur & Code. (2026)"
+    },
+    {
+      "file": "src/content/glossar/oauth-oidc-discovery.md",
+      "titleLength": 61,
+      "descLength": 147,
+      "title": "OAuth & OIDC Discovery: Autonome Autorisierung für KI-Agenten",
+      "desc": "Wie OAuth/OIDC Discovery nach RFC 8414 KI-Agenten die autonome Authentifizierung ermöglicht. Vollständiger Guide zu Endpunkten & agent_auth. (2026)"
+    },
+    {
+      "file": "src/content/glossar/otterly-ai.md",
+      "titleLength": 70,
+      "descLength": 143,
+      "title": "Otterly AI Übersicht: Die Plattform für Generative Engine Optimization",
+      "desc": "Otterly AI ist die führende Plattform für AI Search Monitoring. Alle Infos zu Prompt Research, Agent Analytics und Preisen im Überblick. (2026)"
+    },
+    {
+      "file": "src/content/glossar/peec-ai.md",
+      "titleLength": 56,
+      "descLength": 139,
+      "title": "Peec AI Übersicht: Die Plattform für AI Search Analytics",
+      "desc": "Peec AI ist die führende Plattform für AI Visibility Tracking. Alle Infos zu Prompt Monitoring, Competitor Benchmarking und Preisen. (2026)"
+    },
+    {
+      "file": "src/content/glossar/perplexity-sichtbarkeit.md",
+      "titleLength": 53,
+      "descLength": 127,
+      "title": "Perplexity Sichtbarkeit messen (Citations & Tracking)",
+      "desc": "Wie du deine Sichtbarkeit in der Perplexity Answer Engine misst. Alles über Citations, Share of Voice und Tracking-Tools (2026)"
+    },
+    {
+      "file": "src/content/glossar/profound.md",
+      "titleLength": 63,
+      "descLength": 135,
+      "title": "Profound Übersicht: Das Milliarden-Dollar Unicorn der AI Search",
+      "desc": "Profound ist die Full Stack Marketing Plattform für AI Search. Alles zu Answer Engine Insights, AI Agents, Shopping und Preisen. (2026)"
+    },
+    {
+      "file": "src/content/glossar/query-fan-out.md",
+      "titleLength": 68,
+      "descLength": 144,
+      "title": "Query Fan-Out in der AI Search: Wie KI-Agenten Suchanfragen zerlegen",
+      "desc": "Was ist ein Query Fan-Out? So funktionieren die parallelen Sub-Queries von Perplexity, ChatGPT und Google AI Overviews bei der Recherche. (2026)"
+    },
+    {
+      "file": "src/content/glossar/rank-math.md",
+      "titleLength": 56,
+      "descLength": 140,
+      "title": "Rank Math SEO: Test, Pro-Funktionen & Erfahrungen (2026)",
+      "desc": "Rank Math im Härtetest: Pro-Funktionen, Content AI, Schema-Generator & Vergleich mit Yoast. Praxistest & Setup-Guide von Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/rankscale.md",
+      "titleLength": 68,
+      "descLength": 136,
+      "title": "Rankscale: Eine der führenden Plattformen für AI Search Optimization",
+      "desc": "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-backlink-checker.md",
+      "titleLength": 63,
+      "descLength": 130,
+      "title": "SE Ranking Backlink Checker: Offpage-Analyse & Toxic Link Check",
+      "desc": "SE Ranking Backlink Checker & Monitor im Detail: Domain Trust, Toxic Score, Disavow-Generator und verlorene Links im Praxis-Check."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-keyword-recherche.md",
+      "titleLength": 62,
+      "descLength": 143,
+      "title": "SE Ranking Keyword-Recherche: Keyword-Finder & SERP-Clustering",
+      "desc": "SE Ranking Keyword-Recherche & Keyword Grouper im Detail: Suchvolumen, Keyword-Difficulty, Search Intent und SERP-basiertes Clustering im Test."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-local-marketing.md",
+      "titleLength": 68,
+      "descLength": 148,
+      "title": "SE Ranking Local Marketing Tool: Local SEO & Google Business Profile",
+      "desc": "SE Ranking Local Marketing Tool im Detail: Google Business Profile Synchronisation, NAP-Citations, Review-Management und Local Grid Tracker im Test."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-onpage-checker.md",
+      "titleLength": 55,
+      "descLength": 140,
+      "title": "SE Ranking On-Page SEO Checker & Content Editor im Test",
+      "desc": "SE Ranking On-Page SEO Checker & Content Editor im Detail: 94 Ranking-Parameter, Page Optimization Score, NLP-Terme und Content-Optimierung."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-rank-tracker.md",
+      "titleLength": 59,
+      "descLength": 135,
+      "title": "SE Ranking Rank Tracker: Keyword-Monitoring im Praxis-Check",
+      "desc": "SE Ranking Keyword Rank Tracker im Detail: Top-100-Überwachung, 35 SERP-Features, Local Grid Tracker und historische Dynamiken im Test."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-ahrefs.md",
+      "titleLength": 59,
+      "descLength": 148,
+      "title": "SE Ranking vs. Ahrefs: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Ahrefs: Flatrate vs. Credit-System, Backlink-Index und Team-Preise im Härtetest. Praxis-Empfehlung von Senior SEO Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-bing-webmaster-tools.md",
+      "titleLength": 60,
+      "descLength": 136,
+      "title": "SE Ranking vs. Bing Webmaster Tools: Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Bing Webmaster Tools: IndexNow & Gratis-SEO vs. All-in-One Suite. Limits & Synergien im Härtetest von Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-google-search-console.md",
+      "titleLength": 61,
+      "descLength": 143,
+      "title": "SE Ranking vs. Google Search Console: Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Google Search Console: Kostenlos vs. All-in-One Suite im Härtetest. Limits, Daten und Synergien im Check von Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-mangools.md",
+      "titleLength": 61,
+      "descLength": 143,
+      "title": "SE Ranking vs. Mangools: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Mangools: KWFinder vs. All-in-One Suite im Härtetest. Limits, Audits & Preise im Praxis-Check von Senior SEO Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-screaming-frog.md",
+      "titleLength": 67,
+      "descLength": 144,
+      "title": "SE Ranking vs. Screaming Frog: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Screaming Frog: Cloud All-in-One vs. Desktop-Crawler im Härtetest. Einsatzbereiche & Synergien von Senior SEO Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-semrush.md",
+      "titleLength": 60,
+      "descLength": 146,
+      "title": "SE Ranking vs. Semrush: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Semrush: Kosten, Team-Seats, Datenqualität und Features im direkten Vergleich. Praxis-Empfehlung von Senior SEO Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-seorch.md",
+      "titleLength": 59,
+      "descLength": 138,
+      "title": "SE Ranking vs. SEORCH: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. SEORCH: Kostenlose OnPage-Diagnostik vs. All-in-One Suite im Härtetest. Einsatzbereiche & Synergien von Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-sistrix.md",
+      "titleLength": 60,
+      "descLength": 132,
+      "title": "SE Ranking vs. Sistrix: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Sistrix: Kosten, Datenqualität, Sichtbarkeitsindex und KI-Features im Test. Praxis-Empfehlung von Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-vs-ubersuggest.md",
+      "titleLength": 64,
+      "descLength": 145,
+      "title": "SE Ranking vs. Ubersuggest: Der ehrliche Praxis-Vergleich (2026)",
+      "desc": "SE Ranking vs. Ubersuggest: Lifetime-Deal vs. Profi-Suite im Härtetest. Datenqualität & Limits im Praxis-Check von Senior SEO Jörg Zimmer. (2026)"
+    },
+    {
+      "file": "src/content/glossar/se-ranking-website-audit.md",
+      "titleLength": 61,
+      "descLength": 143,
+      "title": "SE Ranking Website Audit: Technischer Crawler im Praxis-Check",
+      "desc": "SE Ranking Website Audit im Detail: Technischer Health Score 2.0, JavaScript-Crawling, Core Web Vitals und Fehler-Priorisierung im Praxis-Test."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-wettbewerbsanalyse.md",
+      "titleLength": 65,
+      "descLength": 143,
+      "title": "SE Ranking Wettbewerbsanalyse: Mitbewerber-Spionage & PPC im Test",
+      "desc": "SE Ranking Wettbewerbsanalyse im Detail: Organische Rankings, Google Ads Historie, Traffic-Schätzungen und Keyword-Gap-Analyse im Praxis-Check."
+    },
+    {
+      "file": "src/content/glossar/se-ranking-white-label-reporting.md",
+      "titleLength": 62,
+      "descLength": 145,
+      "title": "SE Ranking White-Label Reporting: Gast-Links & Agentur-Portale",
+      "desc": "SE Ranking White-Label Reporting im Detail: Eigene Subdomains, Guest Links ohne Login, automatisierter Report Builder und Marketing-Plan im Test."
+    },
+    {
+      "file": "src/content/glossar/se-ranking.md",
+      "titleLength": 60,
+      "descLength": 121,
+      "title": "SE Ranking Übersicht: Die All-in-One SEO-Plattform im Detail",
+      "desc": "Überblick über alle Funktionen der SE Ranking SEO-Plattform: Vom Rank-Tracker über Audits bis zur KI-Sichtbarkeit. (2026)"
+    },
+    {
+      "file": "src/content/glossar/semrush-ai-visibility.md",
+      "titleLength": 61,
+      "descLength": 145,
+      "title": "Semrush AI Visibility: Das All-in-One Tool für Answer Engines",
+      "desc": "Semrush AI Visibility im Test: Funktionen, Prompt-Tracking und Benchmarks im Vergleich zu spezialisierten GEO-Tools und All-in-One Suiten. (2026)"
+    },
+    {
+      "file": "src/content/glossar/seo-stammtisch-berlin.md",
+      "titleLength": 51,
+      "descLength": 139,
+      "title": "SEO Stammtisch Berlin: Netzwerken in der Hauptstadt",
+      "desc": "SEO Stammtisch Berlin: Dezentrale Meetups, Berlin SEO & Content Club und echter Fachaustausch zu AI, GEO und Core Updates in Berlin. (2026)"
+    },
+    {
+      "file": "src/content/glossar/server-side-rendering.md",
+      "titleLength": 64,
+      "descLength": 131,
+      "title": "Server-Side Rendering (SSR): Der Turbo für SEO & KI-Crawlability",
+      "desc": "Server-Side Rendering (SSR) ist das Fundament für SEO. Erfahre, warum Google SSR liebt und es die Core Web Vitals verbessert (2026)"
+    },
+    {
+      "file": "src/content/glossar/share-of-model.md",
+      "titleLength": 55,
+      "descLength": 137,
+      "title": "Share of Model (SoM): Die zentrale KI-Sichtbarkeits-KPI",
+      "desc": "Was Share of Model (SoM) bedeutet, wie du deine Sichtbarkeit in ChatGPT & Copilot berechnest und warum sie Share of Voice ersetzt. (2026)"
+    },
+    {
+      "file": "src/content/glossar/sistrix-ai.md",
+      "titleLength": 52,
+      "descLength": 145,
+      "title": "Sistrix AI Übersicht: Der SEO-Dinosaurier rüstet auf",
+      "desc": "Sistrix AI im Praxistest: Funktionen, Preise, AI Overviews Tracking und Citation Drift Analyse für zukunftssichere Marken im KI-Zeitalter. (2026)"
+    },
+    {
+      "file": "src/content/glossar/social-media-community-management.md",
+      "titleLength": 57,
+      "descLength": 146,
+      "title": "Social Media Community Management: Definition & Strategie",
+      "desc": "Was ist Social Media Community Management? Erfahre, wie du aus Followern loyale Botschafter machst. Dialog statt Monolog ist der Schlüssel. (2026)"
+    },
+    {
+      "file": "src/content/glossar/topical-authority.md",
+      "titleLength": 53,
+      "descLength": 138,
+      "title": "Topical Authority: Themenführerschaft im KI-Zeitalter",
+      "desc": "Wie Topical Authority nach Koray Gübür aufgebaut wird. Themencluster, Information Gain und semantische Graphen für KI-Sichtbarkeit. (2026)"
+    },
+    {
+      "file": "src/content/glossar/webmcp.md",
+      "titleLength": 57,
+      "descLength": 139,
+      "title": "WebMCP (Web Model Context Protocol): Browser-Tools für KI",
+      "desc": "Wie WebMCP und navigator.modelContext Webseiten in interaktive KI-Toolkits verwandeln. Guide zu W3C-Standard, Code-Beispiel & Setup. (2026)"
+    },
+    {
+      "file": "src/content/glossar/website-seo-audit.md",
+      "titleLength": 55,
+      "descLength": 148,
+      "title": "Website SEO Audit: Volle Technik-Analyse mit SE Ranking",
+      "desc": "So nutzt du das SE Ranking Website Audit Tool für dein Projekt. Entdecke alle 115+ Parameter für Onpage, Core Web Vitals und Indexierbarkeit. (2026)"
+    },
+    {
+      "file": "src/content/glossar/x402-protocol.md",
+      "titleLength": 51,
+      "descLength": 139,
+      "title": "x402 Protokoll: Native HTTP-Payments für KI-Agenten",
+      "desc": "Wie das x402 Protokoll den HTTP Status 402 aktiviert und autonome M2M-Zahlungen ermöglicht. Praxis-Guide mit Headern & Pay-per-Call. (2026)"
+    }
+  ]
+}

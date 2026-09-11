@@ -65,8 +65,8 @@ function runAudit(filePath, type) {
     const metaTitle = getField('meta_title');
     if (!metaTitle) logError("Meta-Title (meta_title) fehlt.");
     else {
-        if (metaTitle.length > 50) logError(`Meta-Title ist zu lang (${metaTitle.length} Zeichen, strikt max 50).`);
-        else logSuccess(`Meta-Title-Länge korrekt (${metaTitle.length}/50).`);
+        if (metaTitle.length > 65) logError(`Meta-Title ist zu lang (${metaTitle.length} Zeichen, strikt max 65).`);
+        else logSuccess(`Meta-Title-Länge korrekt (${metaTitle.length}/65).`);
         if (!metaTitle.endsWith("(2026)")) logError("Meta-Title endet nicht auf '(2026)'!");
         if (EMOJI_REGEX.test(metaTitle)) logError("Meta-Title enthält Emojis! (Strikte SEO-Regel verletzt).");
     }

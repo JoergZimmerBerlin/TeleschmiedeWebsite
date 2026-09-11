@@ -19,7 +19,7 @@ const auth = new google.auth.GoogleAuth({
 });
 
 const siteUrl = 'sc-domain:teleschmie.de';
-const sitemapPath = path.join(__dirname, '..', 'dist', 'sitemap-0.xml');
+const sitemapPath = path.join(__dirname, '..', 'dist', 'sitemap.xml');
 
 // Die 6 heute eingereichten URLs explizit hinzufügen
 const explicitUrls = [
@@ -41,7 +41,7 @@ if (fs.existsSync(sitemapPath)) {
     urlsToInspect.add(match[1]);
   }
 } else {
-  console.log("⚠️ Warnung: dist/sitemap-0.xml nicht gefunden. Nutze nur explizite URLs.");
+  console.log("⚠️ Warnung: dist/sitemap.xml nicht gefunden. Nutze nur explizite URLs.");
 }
 
 const urls = Array.from(urlsToInspect);

@@ -43,14 +43,14 @@ Im Jahr 2026 hat sich das lokale Suchverhalten radikal gewandelt. Früher tippte
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Auch Hinweis. Schon mal über den gleichen Slogan, gleichen Claim nachdenken. Am besten so ein Dings, wo ich kurz mein Unternehmen beschreibe, wo auch bisschen Keyword drin ist.“
+    „Mhm. Ist auf jeden Fall äh spannender Input. Also sehe ich auch oft, also meistens wird ja irgendwie genau nur Webdesign oder Marketing oder äh Agentur irgendwie verwendet, ne? Aber das ist ja viel zu allgemein und äh überhaupt nicht spezifisch oder auch vom Ty zu schwierig, da irgendwie zu ranken. Ähm und auch lokale äh Ergänzung finde ich da auch immer sinnvoll. Also Webdesign.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3702s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (61:42)</span>
+      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1105s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (18:25)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

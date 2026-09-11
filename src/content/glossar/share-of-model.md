@@ -42,14 +42,14 @@ Wenn Nutzer ihre Fragen ohne Klick auf eine Website beantwortet bekommen ([Zero-
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Bei Videokreationen scheitern die Leute ja oft. Aber vielleicht ist dann ja das die Möglichkeit wirklich mal eine AI anzuschmeißen und ich probiere jetzt da mal ein Video daraus zu generieren, dass ich Videokontent habe, dass ich einfach diesen Sprung rausschaffe von textlich, bildlicher Darstellung, was ja viel Netz vertreten ist.“
+    „Ich gehe schwer davon aus, dass äh so so der Abgleich, was ich jetzt gelesen habe aus den Studien und aus den Experimenten ja jetzt nicht wo Leute mal philosophieren, ja viele gerade machen, die philosophieren sich ein Lakin ist jetzt alles tot und so. Nee, obwohl Leute mal getestet haben, wie kann denn Chat GPT deine Seite durchleuchten oder.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3350s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (55:50)</span>
+      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=787s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Magic Writing Podcast (13:07)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

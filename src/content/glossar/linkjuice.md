@@ -42,7 +42,7 @@ In der modernen Ära von Machine Learning, Vektorräumen und Entity-basierten Re
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Die Leidenschaft für Datenanalyse im Online Marketing ist wie ein Schlüssel, der Türen zu unendlichen Möglichkeiten öffnet.“
+    „Durch die Analyse von Daten kann man das Verhalten und die Wünsche der Zielgruppe besser verstehen und die Marketingstrategie entsprechend anpassen.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">

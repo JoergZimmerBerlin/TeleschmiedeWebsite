@@ -1,96 +1,281 @@
 [
   {
-    "file": "24-jahre-seo-gleiche-fehler.md",
+    "file": "301-vs-302.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "404-fehlerseiten.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "a2a-protocol.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "aeo.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "agent-card-json.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_1878",
+    "quoteId": "yt_32YkPQtOJDU_1884",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (31:18)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1878s",
-    "quoteExcerpt": "Wenn du mich fragst, wo geht's hin, also es war schon es war schon die...",
+    "sourceTitle": "YouTube Magic Writing Podcast (31:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1884s",
+    "quoteExcerpt": "Erster Schritt ähm Google Search Konsole anschmeißen, einen Zugang dor...",
+    "score": 45
+  },
+  {
+    "file": "agent-payments-protocol-ap2.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "agent-readiness-level.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "agent-readiness.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_5827",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (97:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=5827s",
+    "quoteExcerpt": "Nicht aufgerufen, da auf dieser Unterseite findet  er diesen internen ...",
+    "score": 71
+  },
+  {
+    "file": "agent-skills.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_1378",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (22:58)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1378s",
+    "quoteExcerpt": "Sehr spannend, und das ist mega stark, weil die  Meldung danach war: V...",
+    "score": 47
+  },
+  {
+    "file": "agentic-commerce-protocol-acp.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_862",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (14:22)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=862s",
+    "quoteExcerpt": "Arbeiten. Ich als Profi-Entwickler arbeite ja auch  viel damit, das ne...",
     "score": 50
   },
   {
-    "file": "80-prozent-seo-fehler-sprechstunde.md",
+    "file": "agents-md.md",
     "status": "REPLACED",
-    "quoteId": "li_33",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264",
-    "quoteExcerpt": "Liste der 9 größten SEO Fehler: 1.) nicht mit SEO anzufangen 2.) es na...",
-    "score": 38
-  },
-  {
-    "file": "_idee-bestes-tracking-system-ki-sichtbarkeit.md",
-    "status": "INSERTED",
-    "quoteId": "yt_ZIFCXUXypSc_1912",
+    "quoteId": "yt_tD7cXuVcRPA_7561",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (31:52)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1912s",
-    "quoteExcerpt": "Du musst auch wieder Tracking einrichten. Du musst dann für äh Sichtba...",
-    "score": 55
+    "sourceTitle": "YouTube Never Code Alone (126:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7561s",
+    "quoteExcerpt": "Das ist etwas, das jeder buchen und mit dir  machen sollte. Ich bin sc...",
+    "score": 42
   },
   {
-    "file": "ai-agent-weihnachtsgruesse-linkedin.md",
+    "file": "ahrefs-ai-visibility.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2153",
+    "quoteId": "yt_tD7cXuVcRPA_4404",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (35:53)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2153s",
-    "quoteExcerpt": "Kannst auch per E-Mail irgendwie nochmal schicken, E-Mail Marketing da...",
-    "score": 36
+    "sourceTitle": "YouTube Never Code Alone (73:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4404s",
+    "quoteExcerpt": "Search Console oder vielleicht Google Analytics  beruhen und das einfa...",
+    "score": 65
   },
   {
-    "file": "ai-connect-berlin-networking.md",
+    "file": "ai-citation-analysis.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1261",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (21:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1261s",
+    "quoteExcerpt": "Genau, ist ja Verdreifachung von Arbeit. das ist ja in dem Sinne, da k...",
+    "score": 72
+  },
+  {
+    "file": "ai-competitor-analysis.md",
     "status": "REPLACED",
     "quoteId": "yt_pJFZzv5LEvk_1108",
     "quoteType": "youtube",
     "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (18:28)",
     "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1108s",
     "quoteExcerpt": "Wo willst du denn erscheinen? Soll ich mich für dich, soll ich mit Per...",
-    "score": 30
+    "score": 45
   },
   {
-    "file": "ai-crawlability-tech-seo-disziplin.md",
+    "file": "ai-crawlability.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "ai-plugin-json.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "ai-prompt-research.md",
     "status": "REPLACED",
-    "quoteId": "yt_32YkPQtOJDU_1608",
+    "quoteId": "yt_pJFZzv5LEvk_2902",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Magic Writing Podcast (26:48)",
-    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1608s",
-    "quoteExcerpt": "Ähm, da kann man sich also ähm äh äh präsentieren und und sichtbar sei...",
-    "score": 53
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (48:22)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2902s",
+    "quoteExcerpt": "Man leider nicht nachzuvollziehen, welcher Prompt oder welcher Weg dah...",
+    "score": 74
   },
   {
-    "file": "ai-crawler-sind-dumm-markdown.md",
+    "file": "ai-rank-tracker.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1078",
+    "quoteId": "yt_pJFZzv5LEvk_1867",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (17:58)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1078s",
-    "quoteExcerpt": "Man könnte sich aber auch auf OpenAI und die Perplexity Cloud wie die ...",
-    "score": 56
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (31:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1867s",
+    "quoteExcerpt": "Da sprießen die Tools ja aus dem Boden. Man kann, bei Sistrix kannst d...",
+    "score": 57
   },
   {
-    "file": "ai-generierte-website-kennzeichnung.md",
+    "file": "ai-search-engine.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_188",
+    "quoteId": "yt_ZIFCXUXypSc_2871",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (03:08)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=188s",
-    "quoteExcerpt": "Bitte. Das Thema ist neu, das Thema ist groß und ich kenne viele Leute...",
-    "score": 36
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (47:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2871s",
+    "quoteExcerpt": "Mhm. Netz wird größer jeden Tag. Mhm. Das ja, Netz wird größer und die...",
+    "score": 65
   },
   {
-    "file": "ai-geo-sichtbarkeit-umfrage.md",
+    "file": "ai-search-optimization.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_593",
+    "quoteId": "yt_pJFZzv5LEvk_3960",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (09:53)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=593s",
-    "quoteExcerpt": "Also, die müssen ja jeden Tag gegen Milliarden von Spam versuchen kämp...",
-    "score": 30
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (66:00)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3960s",
+    "quoteExcerpt": "Dann schaffst du das auch mit zwei, drei Leuten durchzuspielen. Zumind...",
+    "score": 94
   },
   {
-    "file": "ai-seo-geo-praktikanten.md",
+    "file": "ai-search.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_528",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (08:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=528s",
+    "quoteExcerpt": "Höchstwahrscheinlich zu kurz gedacht. Und der Punkt, worauf ich hinaus...",
+    "score": 74
+  },
+  {
+    "file": "ai-sentiment-analysis.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "ai-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_452",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (07:32)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=452s",
+    "quoteExcerpt": "Was wären für dich jetzt die Maßnahmen, die du als erstes machen würde...",
+    "score": 60
+  },
+  {
+    "file": "ai-shopping-analysis.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_2776",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (46:16)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2776s",
+    "quoteExcerpt": "Über irgendwas, dann kann es sein, dass sich dein  transaktionaler Fok...",
+    "score": 48
+  },
+  {
+    "file": "ai-tracker-vergleich.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4404",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (73:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4404s",
+    "quoteExcerpt": "Search Console oder vielleicht Google Analytics  beruhen und das einfa...",
+    "score": 98
+  },
+  {
+    "file": "ai-tracking-tools.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1912",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (31:52)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1912s",
+    "quoteExcerpt": "Du musst auch wieder Tracking einrichten. Du musst dann für äh Sichtba...",
+    "score": 65
+  },
+  {
+    "file": "ai-txt.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2379",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (39:39)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2379s",
+    "quoteExcerpt": "Das ist standardmäßig ausgeschaltet. Also alle YouTube-Inhalte sind ni...",
+    "score": 45
+  },
+  {
+    "file": "ai-visibility-audit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1719",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (28:39)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1719s",
+    "quoteExcerpt": "Die Tools, die gibt es erst seit zwei, drei Monaten. Aber erstmal Ausg...",
+    "score": 62
+  },
+  {
+    "file": "ai-visibility-report.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_931",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (15:31)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=931s",
+    "quoteExcerpt": "Äh kritisch. Ja, wenn ich eine Aufgabe kriege, wo ich denke, das macht...",
+    "score": 38
+  },
+  {
+    "file": "ai-visibility-score.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1719",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (28:39)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1719s",
+    "quoteExcerpt": "Die Tools, die gibt es erst seit zwei, drei Monaten. Aber erstmal Ausg...",
+    "score": 46
+  },
+  {
+    "file": "ai-visibility-tools.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_3729",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (62:09)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3729s",
+    "quoteExcerpt": "Wir hatten ja beide darüber gesprochen. SE Ranking hat ja dieses Tool ...",
+    "score": 84
+  },
+  {
+    "file": "ai-visibility.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2413",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (40:13)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2413s",
+    "quoteExcerpt": "Ist Bait Dance aus China, TikTok, Apple, Perplexity, Amazon. Da sind w...",
+    "score": 42
+  },
+  {
+    "file": "api-catalog.md",
     "status": "REPLACED",
     "quoteId": "yt_pJFZzv5LEvk_409",
     "quoteType": "youtube",
@@ -100,13 +285,1813 @@
     "score": 39
   },
   {
+    "file": "auth-md.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_917",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (15:17)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=917s",
+    "quoteExcerpt": "Also ohne SEO-Arbeit funktioniert auch die ganze AI-Sache gar nicht. A...",
+    "score": 36
+  },
+  {
+    "file": "authoritativeness-eeat.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6165",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (102:45)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6165s",
+    "quoteExcerpt": "Aber wirklich wichtig? Wir haben etwas Wichtiges  gefunden, weil inter...",
+    "score": 42
+  },
+  {
+    "file": "berufshaftpflicht-freiberufler.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_3770",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (62:50)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3770s",
+    "quoteExcerpt": "Den generiere ich zwar aus 70 Prozent SEO Arbeit vorher, aber ich muss...",
+    "score": 18
+  },
+  {
+    "file": "bing-webmastertools.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3287",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (54:47)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3287s",
+    "quoteExcerpt": "Spiegel ich jetzt auch immer noch zu Bing Webmaster Tools. Bing hat zw...",
+    "score": 89
+  },
+  {
+    "file": "brand-mentions.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_768",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (12:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=768s",
+    "quoteExcerpt": "So, das kann also kann passieren, dass dass dann äh wenn ich wenn ich ...",
+    "score": 62
+  },
+  {
+    "file": "brand-sentiment.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_3411",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (56:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3411s",
+    "quoteExcerpt": "Was mehr gesucht wird, Training oder Schulung,  kann man gleich gucken...",
+    "score": 57
+  },
+  {
+    "file": "brand-share.md",
+    "status": "REPLACED",
+    "quoteId": "li_19",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7090285441437851648",
+    "quoteExcerpt": "Ich bin immer wieder erstaunt, wie viele Website-Inhaber keinen Zugang...",
+    "score": 33
+  },
+  {
+    "file": "brand-visibility-dashboard.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2818",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (46:58)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2818s",
+    "quoteExcerpt": "Wird das in Analytics protokolliert und kann man messen und kann man i...",
+    "score": 47
+  },
+  {
+    "file": "campixx-berlin.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_823",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (13:43)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=823s",
+    "quoteExcerpt": "Das ist halt die Gefahr an AI, dass anscheinend Sachen generiert werde...",
+    "score": 30
+  },
+  {
+    "file": "canonical-tag.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6303",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (105:03)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6303s",
+    "quoteExcerpt": "Technisch gesehen? Deine Domainauflösung hat im  Standard eine Weiterl...",
+    "score": 44
+  },
+  {
+    "file": "chatgpt-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1811",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (30:11)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1811s",
+    "quoteExcerpt": "Ja, meine Güte. Gut, lass Bing noch 5 Prozent haben, lass ChatGPT und ...",
+    "score": 65
+  },
+  {
+    "file": "chatgpt-sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1786",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (29:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1786s",
+    "quoteExcerpt": "Der Suchanteil von Chechipiti ist ja oft viel kleiner. Und Marktanteil...",
+    "score": 74
+  },
+  {
+    "file": "citation-frequency.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "citation.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4913",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (81:53)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4913s",
+    "quoteExcerpt": "Ich muss die Zuschauer kurz nutzen, du sagst,  fünfzig Leute sind da, ...",
+    "score": 30
+  },
+  {
+    "file": "client-side-rendering.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_4315",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (71:55)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=4315s",
+    "quoteExcerpt": "Toll. Und die AI Overviews, das was wir dann in der nächsten Folge mac...",
+    "score": 36
+  },
+  {
+    "file": "cloudflare-agent-readiness-checklist.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_5827",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (97:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=5827s",
+    "quoteExcerpt": "Nicht aufgerufen, da auf dieser Unterseite findet  er diesen internen ...",
+    "score": 28
+  },
+  {
+    "file": "common-crawl.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_934",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (15:34)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=934s",
+    "quoteExcerpt": "Und das sind ja in diesem Sinne SEO-Basics. Also wenn du deine Seite v...",
+    "score": 62
+  },
+  {
+    "file": "content-delivery-network.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_158",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (02:38)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=158s",
+    "quoteExcerpt": "Ja, das und das als Beratung. Sehr cool. Ja, das ist ja, sage ich mal,...",
+    "score": 41
+  },
+  {
+    "file": "content-signals.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1780",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (29:40)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1780s",
+    "quoteExcerpt": "Was s so von deiner Seite drei Tipps, sage ich mal, die du gerade Anfä...",
+    "score": 60
+  },
+  {
+    "file": "conversion-rate.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_7862",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (131:02)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7862s",
+    "quoteExcerpt": "Hast du hier den seichten Weg. Du folgst uns auf  Social, du bringst v...",
+    "score": 71
+  },
+  {
+    "file": "core-web-vitals.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_7188",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (119:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7188s",
+    "quoteExcerpt": "Dass dein Computer-Wert eigentlich gut ist, aber  hier in den Core Web...",
+    "score": 100
+  },
+  {
+    "file": "cpc.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_1905",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (31:45)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1905s",
+    "quoteExcerpt": "Google Ads dafür ausgeben und dann klicken. Genau,  das wäre der Cost ...",
+    "score": 30
+  },
+  {
+    "file": "crawler.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1078",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (17:58)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1078s",
+    "quoteExcerpt": "Man könnte sich aber auch auf OpenAI und die Perplexity Cloud wie die ...",
+    "score": 59
+  },
+  {
+    "file": "crawling-vs-indexing.mdx",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_1830",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (30:30)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1830s",
+    "quoteExcerpt": "Können, sondern die verargumentieren können und da geht es ganz ganz v...",
+    "score": 52
+  },
+  {
+    "file": "ctr.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2999",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (49:59)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2999s",
+    "quoteExcerpt": "Ist ja noch offen. Aber ich glaube es gab es war auch ein zwei Wochen ...",
+    "score": 42
+  },
+  {
+    "file": "dns-aid.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_2983",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (49:43)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2983s",
+    "quoteExcerpt": "Wir haben unseren quasi Standard, OpenAI und  Anthropic mit Claude und...",
+    "score": 39
+  },
+  {
+    "file": "dns-sovereignty.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6063",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (101:03)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6063s",
+    "quoteExcerpt": "Hier läuft mir zu viel, es gibt ja irgendwie  so ein Limit, was indexi...",
+    "score": 36
+  },
+  {
+    "file": "e-e-a-t.md",
+    "status": "REPLACED",
+    "quoteId": "li_89",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7013856288300244992",
+    "quoteExcerpt": "Online-Marketing, SEO und SEA sind wichtige Instrumente für jedes Unte...",
+    "score": 30
+  },
+  {
+    "file": "ecommerce-ki-sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1963",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (32:43)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1963s",
+    "quoteExcerpt": "Lass es jetzt 30 Prozent sein. Aber es sind noch nicht alle Keyboarder...",
+    "score": 42
+  },
+  {
+    "file": "entitaet.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4153",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (69:13)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4153s",
+    "quoteExcerpt": "Aus dem PHP-Bereich, deine Entität ist eventuell  damit auch verknüpft...",
+    "score": 51
+  },
+  {
+    "file": "entitaeten-building.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1627",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (27:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1627s",
+    "quoteExcerpt": "Also vorher äh bist du der SEO gewesen, der die Webseite optimiert has...",
+    "score": 45
+  },
+  {
+    "file": "entity-co-occurrence.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2435",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (40:35)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2435s",
+    "quoteExcerpt": "Also meine Videos wären zum Trainieren der Daten. Jetzt habe ich das s...",
+    "score": 36
+  },
+  {
+    "file": "entity-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_3150",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (52:30)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3150s",
+    "quoteExcerpt": "Auch im sauberen Bereich, alles gut. Da muss man gucken, welche Maßnah...",
+    "score": 45
+  },
+  {
+    "file": "eu-ai-act.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_188",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (03:08)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=188s",
+    "quoteExcerpt": "Bitte. Das Thema ist neu, das Thema ist groß und ich kenne viele Leute...",
+    "score": 39
+  },
+  {
+    "file": "experience-eeat.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_841",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (14:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=841s",
+    "quoteExcerpt": "Das ist halt Das muss halt erstmal jeder verstehen. Also, AI eigentlic...",
+    "score": 39
+  },
+  {
+    "file": "expertise-eeat.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_797",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (13:17)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=797s",
+    "quoteExcerpt": "Und das ist ja auch das Gefährliche an der AI. Sie generieren Wahrsche...",
+    "score": 33
+  },
+  {
+    "file": "faq-markup.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_2544",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (42:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2544s",
+    "quoteExcerpt": "Mit AI-Only-Content, alles cool. Wir müssen die  Suchwörter finden, di...",
+    "score": 36
+  },
+  {
+    "file": "finseo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_3686",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (61:26)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3686s",
+    "quoteExcerpt": "Ist jetzt auch die Frage, wo, wo, ja, ist der Kunde überhaupt fähig, m...",
+    "score": 45
+  },
+  {
+    "file": "freelancing.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_900",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (15:00)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=900s",
+    "quoteExcerpt": "Dass ich glaube ich nicht ein guter Angestellter bin und dass das für ...",
+    "score": 38
+  },
+  {
+    "file": "geo-agentur.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3736",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (62:16)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3736s",
+    "quoteExcerpt": "Webdesign. Genau. Ich mache kein Webdesign Agentur Berlin. Mache ich n...",
+    "score": 47
+  },
+  {
+    "file": "geo-audit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_2400",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (40:00)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2400s",
+    "quoteExcerpt": "Search Console sieht man zu der Unterseite  wahrscheinlich noch etwas ...",
+    "score": 54
+  },
+  {
+    "file": "geo-freelancer.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2506",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (41:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2506s",
+    "quoteExcerpt": "Genau. Also, wir haben wir sind ja auch beide im Freelancer Team, ne? ...",
+    "score": 56
+  },
+  {
+    "file": "geo-optimierung.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_95",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (01:35)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=95s",
+    "quoteExcerpt": "Wir waren ja stehen geblieben, dass wir uns beim letzten Mal verquasse...",
+    "score": 59
+  },
+  {
+    "file": "geo-page-audit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1807",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (30:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1807s",
+    "quoteExcerpt": "Hätte, dann dann bitte bitte immer als erstes ähm auch die Google Sear...",
+    "score": 48
+  },
+  {
+    "file": "geo-tool.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4185",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (69:45)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4185s",
+    "quoteExcerpt": "Falsch eingestellt? Fehler sitzt immer vierzig  Zentimeter vor dem Bil...",
+    "score": 80
+  },
+  {
+    "file": "geo-vs-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2364",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (39:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2364s",
+    "quoteExcerpt": "So, jetzt sind hoffentlich alle da, die zugehört haben, gleich mitgeba...",
+    "score": 42
+  },
+  {
+    "file": "geo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_2612",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (43:32)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2612s",
+    "quoteExcerpt": "Ja, also ähm äh auch wenn das jetzt wenn die das anders nennen wollen ...",
+    "score": 42
+  },
+  {
+    "file": "google-algorithmus.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_4157",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (69:17)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=4157s",
+    "quoteExcerpt": "Hat sich das entwickelt? Weil man muss ja sagen, letzten Jahr hat sich...",
+    "score": 65
+  },
+  {
+    "file": "google-core-update.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1094",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (18:14)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1094s",
+    "quoteExcerpt": "Die werden zwar im Core irgendwie eine Art Gleichhaben, aber die ganze...",
+    "score": 71
+  },
+  {
+    "file": "google-search-console-einrichtung.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4321",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (72:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4321s",
+    "quoteExcerpt": "Mal an, es wird ein bisschen spannend, du  hast mir Zugang zur Search ...",
+    "score": 105
+  },
+  {
+    "file": "google-search-console.md",
+    "status": "LOCKED",
+    "quoteId": "LOCKED_EXISTING"
+  },
+  {
+    "file": "grounding-page.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_375",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (06:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=375s",
+    "quoteExcerpt": "Du musst da deine Seite strukturiert aufbauen. Die Krauler zulassen. J...",
+    "score": 42
+  },
+  {
+    "file": "grounding-queries.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_323",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (05:23)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=323s",
+    "quoteExcerpt": "Kann ich vielleicht nicht erst mal mein SEO-Game durchspielen und dann...",
+    "score": 45
+  },
+  {
+    "file": "h1-h2-h3.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2793",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (46:33)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2793s",
+    "quoteExcerpt": "Ja, genau, ja, Chachi Pitti hängt ja den Trekking-Parameter dran. Clev...",
+    "score": 45
+  },
+  {
+    "file": "html-struktur.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_364",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (06:04)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=364s",
+    "quoteExcerpt": "Musst deine Inhalte ins Netz spülen, auch für die AI-Krauler. Ja, jetz...",
+    "score": 51
+  },
+  {
+    "file": "http-message-signatures.md",
+    "status": "REPLACED",
+    "quoteId": "li_34",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7039604214313971712",
+    "quoteExcerpt": "Guckt bitte in die Google Search Console und besprecht die Fehlermeldu...",
+    "score": 21
+  },
+  {
+    "file": "identity-json.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1666",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (27:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1666s",
+    "quoteExcerpt": "Also die Prompt würde ich wegspeichern, um dann nochmal zu gucken, wie...",
+    "score": 36
+  },
+  {
+    "file": "in-ki-antworten-erscheinen.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_3088",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (51:28)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3088s",
+    "quoteExcerpt": "Dann entsteht da Akzeptanz. Und wenn die Akzeptanz da ist, dann drücke...",
+    "score": 68
+  },
+  {
+    "file": "interne-verlinkung.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6133",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (102:13)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6133s",
+    "quoteExcerpt": "Astro, ah, Astro, schön, aber hier, wenn du das  Vibe-Coding lernst, s...",
+    "score": 70
+  },
+  {
+    "file": "keywoerter.md",
+    "status": "REPLACED",
+    "quoteId": "li_83",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7055143807113129984",
+    "quoteExcerpt": "SEO ist auch die Analyse und das Management von: Ranking, Keywords, Tr...",
+    "score": 39
+  },
+  {
+    "file": "keyword-tool.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1867",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (31:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1867s",
+    "quoteExcerpt": "Da sprießen die Tools ja aus dem Boden. Man kann, bei Sistrix kannst d...",
+    "score": 67
+  },
+  {
+    "file": "keywordrecherche.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1857",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (30:57)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1857s",
+    "quoteExcerpt": "Manchmal sind Seiten nicht indexiert. Mittlerweile tatsächlich das Pro...",
+    "score": 36
+  },
+  {
+    "file": "ki-content.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_871",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (14:31)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=871s",
+    "quoteExcerpt": "Also das, wenn ich jetzt nach einer Infosuche suche, äh wo dann oben d...",
+    "score": 48
+  },
+  {
+    "file": "ki-ranking.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2954",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (49:14)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2954s",
+    "quoteExcerpt": "Erstmal der erste Schritt. Du musst erstmal indexiert werden, damit du...",
+    "score": 53
+  },
+  {
+    "file": "ki-seo-beratung.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_255",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (04:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=255s",
+    "quoteExcerpt": "Ich habe bei mir in einer Sprechstunde, also meine Video Beratung, ich...",
+    "score": 62
+  },
+  {
+    "file": "ki-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_947",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (15:47)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=947s",
+    "quoteExcerpt": "Wenn du halt keine Inhalte hast für einen bestimmten Bereich, also sag...",
+    "score": 39
+  },
+  {
+    "file": "ki-sichtbarkeit-agentur.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4624",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (77:04)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4624s",
+    "quoteExcerpt": "Im Index? Sitemap einreichen ist der erste  Schritt bei jeder Domain, ...",
+    "score": 59
+  },
+  {
+    "file": "ki-sichtbarkeit-b2b.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_4051",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (67:31)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=4051s",
+    "quoteExcerpt": "Ich weiß nicht, ob es für den Maler zutrifft, aber es funktioniert hal...",
+    "score": 32
+  },
+  {
+    "file": "ki-sichtbarkeit-messen-optimieren.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_901",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (15:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=901s",
+    "quoteExcerpt": "Oder wie SE Ranking oder wie die großen SEO Tools Araf und was nicht a...",
+    "score": 56
+  },
+  {
+    "file": "ki-sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_1969",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (32:49)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1969s",
+    "quoteExcerpt": "Veröffentlicht werden, das nennt sich Open Weight,  ChatGPT und was wi...",
+    "score": 36
+  },
+  {
+    "file": "knowledge-graph.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_2597",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (43:17)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2597s",
+    "quoteExcerpt": "Es ging mir eine Zeit lang einfach darum, Traffic  zu haben, weil ich ...",
+    "score": 33
+  },
+  {
+    "file": "linkbuilding.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_676",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (11:16)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=676s",
+    "quoteExcerpt": "Agenturen oder Webagenturen und machen einen Relounge und und schneide...",
+    "score": 24
+  },
+  {
+    "file": "linkedin-ai-visibility-studie.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_3195",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (53:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3195s",
+    "quoteExcerpt": "Und dann kommt LinkedIn wieder und macht ein neues Algorithmus-Update....",
+    "score": 59
+  },
+  {
+    "file": "linkjuice.md",
+    "status": "REPLACED",
+    "quoteId": "li_1",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160",
+    "quoteExcerpt": "Durch die Analyse von Daten kann man das Verhalten und die Wünsche der...",
+    "score": 24
+  },
+  {
+    "file": "llm-optimization.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_693",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (11:33)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=693s",
+    "quoteExcerpt": "Jetzt dir heute behauptet, er macht eine eine AIO Optimization, ja, de...",
+    "score": 50
+  },
+  {
+    "file": "llm-rank-tracker.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_1471",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (24:31)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1471s",
+    "quoteExcerpt": "Dass ich anfangen kann, meinen Bildschirm zu  teilen. Okay, guck mal, ...",
+    "score": 66
+  },
+  {
+    "file": "llm-volatility.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2479",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (41:19)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2479s",
+    "quoteExcerpt": "Würdet ihr, wenn ihr könntet, eure YouTube Videos freigeben zum Traini...",
+    "score": 36
+  },
+  {
+    "file": "llmo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3463",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (57:43)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3463s",
+    "quoteExcerpt": "Aktuelle Entwicklung gibt, äh die AI ja gar nicht wissen kann, ne? Als...",
+    "score": 51
+  },
+  {
+    "file": "llms-full-txt.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2271",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (37:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2271s",
+    "quoteExcerpt": "Weil das kann man alles machen, wenn man an einem gewissen Grad ist. W...",
+    "score": 33
+  },
+  {
+    "file": "llms-txt.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3507",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (58:27)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3507s",
+    "quoteExcerpt": "Mm. Ja, der belügt dich halt manchmal, ne? Also unwissentlich ist halt...",
+    "score": 47
+  },
+  {
+    "file": "local-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_1886",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (31:26)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1886s",
+    "quoteExcerpt": "Da gibt es also die Möglichkeit zu sehen, wenn ich eine Domain analysi...",
+    "score": 42
+  },
+  {
+    "file": "lokale-ki-sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1105",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (18:25)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1105s",
+    "quoteExcerpt": "Mhm. Ist auf jeden Fall äh spannender Input. Also sehe ich auch oft, a...",
+    "score": 41
+  },
+  {
+    "file": "machine-payment-protocol-mpp.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_44",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (00:44)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=44s",
+    "quoteExcerpt": "Genau, sag einfach mal gerne, was bisher ist, ist ja schon über einen ...",
+    "score": 30
+  },
+  {
+    "file": "markdown-content-negotiation.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_593",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (09:53)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=593s",
+    "quoteExcerpt": "Also, die müssen ja jeden Tag gegen Milliarden von Spam versuchen kämp...",
+    "score": 56
+  },
+  {
+    "file": "markenaufbau-mit-seo.md",
+    "status": "REPLACED",
+    "quoteId": "li_84",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6987152268865216512",
+    "quoteExcerpt": "SEO ist Markenaufbau. Vergiss alles, was du glaubst, über SEO zu wisse...",
+    "score": 71
+  },
+  {
+    "file": "mcp-server-card.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_7094",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (118:14)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7094s",
+    "quoteExcerpt": "Eine Überblendung reinmachen, aber die Seite ist  schon schnell, er ha...",
+    "score": 65
+  },
+  {
+    "file": "mention.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6334",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (105:34)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6334s",
+    "quoteExcerpt": "Da müsste eigentlich, es gibt immer vier Varianten  deiner Domain, ohn...",
+    "score": 51
+  },
+  {
+    "file": "meta-description.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_3411",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (56:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3411s",
+    "quoteExcerpt": "Was mehr gesucht wird, Training oder Schulung,  kann man gleich gucken...",
+    "score": 42
+  },
+  {
+    "file": "model-context-protocol-mcp.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_594",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (09:54)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=594s",
+    "quoteExcerpt": "Ähm KI suchen oder LMS suchen, ja, Chat GPT und Gemini und die sind äh...",
+    "score": 42
+  },
+  {
+    "file": "money-keyword.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1006",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (16:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1006s",
+    "quoteExcerpt": "Natürlich, wenn ich jetzt, wenn ich jetzt noch noch ein zweites Wort d...",
+    "score": 61
+  },
+  {
+    "file": "noindex.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_5264",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (87:44)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=5264s",
+    "quoteExcerpt": "Letztes Mal, als wir gesprochen hatten, hatte ich  die Sitemap einmal ...",
+    "score": 39
+  },
+  {
+    "file": "oauth-oidc-discovery.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2895",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (48:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2895s",
+    "quoteExcerpt": "Property. Geh mal da rein. Das ist ja kostenlos, kostenloses Tool. Man...",
+    "score": 21
+  },
+  {
+    "file": "oauth-protected-resource.md",
+    "status": "REPLACED",
+    "quoteId": "li_76",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6979120413486280706",
+    "quoteExcerpt": "Developer und SEOs MÜSSEN zusammen arbeiten! Gerade wenn es um Relaunc...",
+    "score": 18
+  },
+  {
+    "file": "otterly-ai.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4463",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (74:23)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4463s",
+    "quoteExcerpt": "Der Google Search Console bekomme ich natürlich,  richtiger Hinweis, n...",
+    "score": 39
+  },
+  {
+    "file": "pagespeed.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_7129",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (118:49)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7129s",
+    "quoteExcerpt": "Den man unter PageSpeed Insights kostenlos, ich  verstehe gar nicht, w...",
+    "score": 41
+  },
+  {
+    "file": "peec-ai.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2120",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (35:20)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2120s",
+    "quoteExcerpt": "Und das hat das ist immer wundervoll beschrieben ähm mit wie heißt den...",
+    "score": 42
+  },
+  {
+    "file": "perplexity-sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_4334",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (72:14)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=4334s",
+    "quoteExcerpt": "Ähm, das wird auch so heiß gekocht. Ja, ich habe ich habe gestern eine...",
+    "score": 59
+  },
+  {
+    "file": "pressearbeit-im-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_581",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (09:41)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=581s",
+    "quoteExcerpt": "Ich denke, viele ähm sind ein bisschen verwöhnt worden und haben auch ...",
+    "score": 33
+  },
+  {
+    "file": "profound.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_4227",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (70:27)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=4227s",
+    "quoteExcerpt": "Geredet und ich glaube die Adaption und die dieses braucht alles Jahre...",
+    "score": 48
+  },
+  {
+    "file": "promptset.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_709",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (11:49)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=709s",
+    "quoteExcerpt": "Man müsste erstmal messen, wie oft werde ich angezeigt, wie oft kommt ...",
+    "score": 12
+  },
+  {
+    "file": "query-fan-out.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_472",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (07:52)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=472s",
+    "quoteExcerpt": "Baust du bloß eine Überschrift ein und dann machst du da so ein bissch...",
+    "score": 36
+  },
+  {
+    "file": "rag.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1452",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (24:12)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1452s",
+    "quoteExcerpt": "Ja. Ja. Das finde ich auf jeden Fall auch spannend. Also mit AI finde ...",
+    "score": 27
+  },
+  {
+    "file": "rank-math.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_33",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (00:33)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=33s",
+    "quoteExcerpt": "Er aus seiner Laufbahn mitbringen kann. Jörg lebt in Berlin Spandau, k...",
+    "score": 21
+  },
+  {
+    "file": "rankingfaktoren.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_3244",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (54:04)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3244s",
+    "quoteExcerpt": "In die Top zehn geschafft, und wenn ich das  positiv interpretiere, wi...",
+    "score": 39
+  },
+  {
+    "file": "rankscale.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2485",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (41:25)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2485s",
+    "quoteExcerpt": "Und dann ist gut unser Tracking haben wir vor 5 Jahren eing natürlich ...",
+    "score": 45
+  },
+  {
+    "file": "rfc-8288-link-headers.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_5869",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (97:49)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=5869s",
+    "quoteExcerpt": "Diese hier, ohne den Parameter, und die  leitet aber dann weiter auf d...",
+    "score": 71
+  },
+  {
+    "file": "robots-txt.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_7625",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (127:05)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7625s",
+    "quoteExcerpt": "Das kommt immer auf den Einzelfall an, das hatte  ich ja im Vorfeld ge...",
+    "score": 66
+  },
+  {
+    "file": "schema-org-markup.md",
+    "status": "REPLACED",
+    "quoteId": "yt_pJFZzv5LEvk_2202",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (36:42)",
+    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2202s",
+    "quoteExcerpt": "Wenn man jetzt hier da steht geschrieben, was Schema Schema Markup Aus...",
+    "score": 46
+  },
+  {
+    "file": "se-ranking-backlink-checker.md",
+    "status": "REPLACED",
+    "quoteId": "li_58",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680",
+    "quoteExcerpt": "Gerade das ganze Vertrauensthema zur Domain und zum Topic. Wie oft nac...",
+    "score": 62
+  },
+  {
+    "file": "se-ranking-keyword-recherche.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1968",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (32:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1968s",
+    "quoteExcerpt": "Basic der der Keyword Recherche ja durch hab, aber erst wenn ich durch...",
+    "score": 58
+  },
+  {
+    "file": "se-ranking-local-marketing.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4185",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (69:45)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4185s",
+    "quoteExcerpt": "Falsch eingestellt? Fehler sitzt immer vierzig  Zentimeter vor dem Bil...",
+    "score": 97
+  },
+  {
+    "file": "se-ranking-onpage-checker.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4704",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (78:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4704s",
+    "quoteExcerpt": "Wurde. Ich weiß nicht exakt, aber ich  habe mich auf jeden Fall entsch...",
+    "score": 51
+  },
+  {
+    "file": "se-ranking-rank-tracker.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3375",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (56:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3375s",
+    "quoteExcerpt": "Google gibt so viele Tipps über die die also das wäre wäre noch so ein...",
+    "score": 50
+  },
+  {
+    "file": "se-ranking-vs-ahrefs.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4404",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (73:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4404s",
+    "quoteExcerpt": "Search Console oder vielleicht Google Analytics  beruhen und das einfa...",
+    "score": 56
+  },
+  {
+    "file": "se-ranking-vs-bing-webmaster-tools.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3287",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (54:47)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3287s",
+    "quoteExcerpt": "Spiegel ich jetzt auch immer noch zu Bing Webmaster Tools. Bing hat zw...",
+    "score": 83
+  },
+  {
+    "file": "se-ranking-vs-google-search-console.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_4185",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (69:45)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4185s",
+    "quoteExcerpt": "Falsch eingestellt? Fehler sitzt immer vierzig  Zentimeter vor dem Bil...",
+    "score": 120
+  },
+  {
+    "file": "se-ranking-vs-mangools.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_425",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (07:05)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=425s",
+    "quoteExcerpt": "Ja. Ach, das war äh das war eine goldene Zeit. Ähm und die die war hoc...",
+    "score": 47
+  },
+  {
+    "file": "se-ranking-vs-screaming-frog.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_1764",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (29:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1764s",
+    "quoteExcerpt": "Jetzt ist die Frage natürlich, wie wertvoll ist  es, für Hugging oben ...",
+    "score": 50
+  },
+  {
+    "file": "se-ranking-vs-semrush.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6526",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (108:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6526s",
+    "quoteExcerpt": "Und wenn man Rankings zerstören möchte, dann musst  du wieder weiterle...",
+    "score": 50
+  },
+  {
+    "file": "se-ranking-vs-seorch.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_3583",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (59:43)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3583s",
+    "quoteExcerpt": "Das heißt aber eben Consulting. Und wenn man jetzt  guckt, was wird ma...",
+    "score": 47
+  },
+  {
+    "file": "se-ranking-vs-sistrix.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6437",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (107:17)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6437s",
+    "quoteExcerpt": "Abzuwägen, das schieben wir jetzt nicht in drei  Minuten durch, da mus...",
+    "score": 56
+  },
+  {
+    "file": "se-ranking-vs-ubersuggest.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_6603",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (110:03)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6603s",
+    "quoteExcerpt": "Noch mal kurz zum SEO allgemein:  Jedes Ranking hängt an der URL, das ...",
+    "score": 47
+  },
+  {
+    "file": "se-ranking-website-audit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_7403",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (123:23)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7403s",
+    "quoteExcerpt": "Das ist jetzt der LCP, und dann sagt er, guck mal,  hier werden Skript...",
+    "score": 62
+  },
+  {
+    "file": "se-ranking-wettbewerbsanalyse.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1884",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (31:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1884s",
+    "quoteExcerpt": "Erster Schritt ähm Google Search Konsole anschmeißen, einen Zugang dor...",
+    "score": 40
+  },
+  {
+    "file": "se-ranking-white-label-reporting.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_1172",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (19:32)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1172s",
+    "quoteExcerpt": "Dass die dass die ähm dass sie es wissen wollen. Die haben ihre eigene...",
+    "score": 39
+  },
+  {
+    "file": "se-ranking.md",
+    "status": "REPLACED",
+    "quoteId": "li_86",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
+    "quoteExcerpt": "Wichtig ist, dass ein SEO bei einem Relaunch einer Webseite von Anfang...",
+    "score": 50
+  },
+  {
+    "file": "semantic-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_tD7cXuVcRPA_2464",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Never Code Alone (41:04)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2464s",
+    "quoteExcerpt": "Glückwunsch. Ja, sehr schön. Und das ist dann die  Unterseite dazu, da...",
+    "score": 21
+  },
+  {
+    "file": "semrush-ai-visibility.md",
+    "status": "REPLACED",
+    "quoteId": "li_44",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160",
+    "quoteExcerpt": "Durch die Verwendung von Tools wie Google Analytics kann man die Inter...",
+    "score": 24
+  },
+  {
+    "file": "seo-agentur.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1133",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (18:53)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1133s",
+    "quoteExcerpt": "Agentur Berlin oder noch besser wäre vielleicht Webflow Webdesign Agen...",
+    "score": 32
+  },
+  {
+    "file": "seo-audit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_552",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (09:12)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=552s",
+    "quoteExcerpt": "Sich da so schnell den Rang ablaufen äh lassen wird. Mich wundert sowi...",
+    "score": 39
+  },
+  {
+    "file": "seo-beratung.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_699",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (11:39)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=699s",
+    "quoteExcerpt": "Relaunch machst, dass du wirklich auch mal dir ein SEO mit an die Hand...",
+    "score": 33
+  },
+  {
+    "file": "seo-coaching.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1270",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (21:10)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1270s",
+    "quoteExcerpt": "Persönlich sind oder wo die dann sagen, auch komm, den schreibe ich je...",
+    "score": 27
+  },
+  {
+    "file": "seo-consulting.md",
+    "status": "REPLACED",
+    "quoteId": "li_93",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7000899641269452800",
+    "quoteExcerpt": "SEO ist auch Architektur und Management....",
+    "score": 24
+  },
+  {
+    "file": "seo-stammtisch-berlin.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_53",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (00:53)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=53s",
+    "quoteExcerpt": "Sofort verhaftet habe. Äh bei der Geschichte müssen wir eine Reihe SEO...",
+    "score": 50
+  },
+  {
+    "file": "seo-visibility-tools.md",
+    "status": "REPLACED",
+    "quoteId": "li_4",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7055143807113129984",
+    "quoteExcerpt": "Es gibt tausende SEO Tools, die die Arbeit der Suchmaschinenoptimierer...",
+    "score": 74
+  },
+  {
+    "file": "seorch-ai-check.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3085",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (51:25)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3085s",
+    "quoteExcerpt": "Aber was ich sagen wollte ist, man muss dann auch ein technischer Chec...",
+    "score": 35
+  },
+  {
+    "file": "server-side-rendering.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1258",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (20:58)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1258s",
+    "quoteExcerpt": "Es würde trotzdem Ewigkeiten dauern die Technologie hinzustellen. Das ...",
+    "score": 29
+  },
+  {
+    "file": "share-of-model.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_787",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (13:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=787s",
+    "quoteExcerpt": "Ich gehe schwer davon aus, dass äh so so der Abgleich, was ich jetzt g...",
+    "score": 24
+  },
+  {
+    "file": "share-of-voice.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1781",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (29:41)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1781s",
+    "quoteExcerpt": "Verschwendet meist auch nur Energie, weil da musst du meistens musst d...",
+    "score": 18
+  },
+  {
+    "file": "sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_1355",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (22:35)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1355s",
+    "quoteExcerpt": "Gängigen SEO Plugins. Ähm äh auch unschön. Ja, Kunde installiert SEO P...",
+    "score": 50
+  },
+  {
+    "file": "sichtbarkeitsindex.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2909",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (48:29)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2909s",
+    "quoteExcerpt": "Und dann guckt man sich mal diese Unterseiten an und guckt dann, was i...",
+    "score": 15
+  },
+  {
+    "file": "sichtbarkeitsmanagement.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1608",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (26:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1608s",
+    "quoteExcerpt": "Ähm, da kann man sich also ähm äh äh präsentieren und und sichtbar sei...",
+    "score": 29
+  },
+  {
+    "file": "sistrix-ai.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_4380",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (73:00)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=4380s",
+    "quoteExcerpt": "Aber auch die generelle Nutzung von diesem Kram ist die AI Overviews s...",
+    "score": 33
+  },
+  {
+    "file": "sitemap.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3262",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (54:22)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3262s",
+    "quoteExcerpt": "Wenn man wenn man diese Sitemap nimmt und dann wieder in dies Search K...",
+    "score": 50
+  },
+  {
+    "file": "snippet-optimierung.md",
+    "status": "REPLACED",
+    "quoteId": "li_23",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937",
+    "quoteExcerpt": "Bei der Google Optimierung liegt mein Fokus auf der Optimierung der Ku...",
+    "score": 38
+  },
+  {
+    "file": "social-media-community-management.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_485",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (08:05)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=485s",
+    "quoteExcerpt": "Ähm hier ist ja das Problem, also ich habe zumindest zwischenzeitlich ...",
+    "score": 61
+  },
+  {
+    "file": "sovp-protocol.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_2454",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (40:54)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2454s",
+    "quoteExcerpt": "Eine Agenturgründung oder sowas gehen, gerade jetzt zu dieser Zeit. Al...",
+    "score": 27
+  },
+  {
+    "file": "strukturierte-daten.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_1724",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (28:44)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1724s",
+    "quoteExcerpt": "Mir wurde mal attestiert, dass ich ähm unsere komplexe Welt in in in m...",
+    "score": 70
+  },
+  {
+    "file": "suchvolumen.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_2049",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (34:09)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=2049s",
+    "quoteExcerpt": "Die sind nach Suchvolumen sortiert. Diese Autovervollständigung ist ta...",
+    "score": 41
+  },
+  {
+    "file": "technisches-schema-markup.md",
+    "status": "REPLACED",
+    "quoteId": "li_9",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7039604214313971712",
+    "quoteExcerpt": "An 1. Stelle steht immer die saubere Indizierung. Ja, das ist langweil...",
+    "score": 44
+  },
+  {
+    "file": "technisches-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2986",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (49:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2986s",
+    "quoteExcerpt": "Durch Apps, ne? Also in Shopify kannst du enorm viele Apps irgendwie d...",
+    "score": 38
+  },
+  {
+    "file": "title-tag.md",
+    "status": "REPLACED",
+    "quoteId": "li_94",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7090285441437851648",
+    "quoteExcerpt": "An erster Stelle steht für mich persönlich immer die saubere technisch...",
+    "score": 30
+  },
+  {
+    "file": "topical-authority.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1183",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (19:43)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1183s",
+    "quoteExcerpt": "Ich äh da vorbei ziehen kann ähm mit so einem detaillierten Ding. Ja. ...",
+    "score": 21
+  },
+  {
+    "file": "traffic.md",
+    "status": "REPLACED",
+    "quoteId": "li_3",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7029859987283664898",
+    "quoteExcerpt": "Eine Conversion sagt mehr als tausend Worte. Bei all den Kennzahlen, K...",
+    "score": 47
+  },
+  {
+    "file": "trailing-slashes.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1011",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (16:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1011s",
+    "quoteExcerpt": "Äh alle digitalen Job ersetzen und ja, am Ende sind die immer alle noc...",
+    "score": 48
+  },
+  {
+    "file": "trustworthiness-eeat.md",
+    "status": "REPLACED",
+    "quoteId": "li_2",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7097940119357112320",
+    "quoteExcerpt": "Nach ein paar Jahren hat man eine stärkere Marke und ist den Wettbewer...",
+    "score": 27
+  },
+  {
+    "file": "two-wave-indexing.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2834",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (47:14)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2834s",
+    "quoteExcerpt": "Ja. Ja. Was ist der andere? Gekrault. Äh, gekrault, nicht indexiert, g...",
+    "score": 15
+  },
+  {
+    "file": "ueberstunde-berlin.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_1626",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (27:06)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1626s",
+    "quoteExcerpt": "Ähm mag ich ja auch manchmal, dass ich dann mir ein Vorkunden hier in ...",
+    "score": 32
+  },
+  {
+    "file": "universal-commerce-protocol-ucp.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_814",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (13:34)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=814s",
+    "quoteExcerpt": "Also ich hatte für ganz ganz kurz diese Long bei ähm äh XT Commerce. Ä...",
+    "score": 32
+  },
+  {
+    "file": "usability.md",
+    "status": "REPLACED",
+    "quoteId": "li_6",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
+    "quoteExcerpt": "Ein wichtiger Faktor bei einem Relaunch ist die mobile Ladezeit und Us...",
+    "score": 53
+  },
+  {
+    "file": "web-application-firewall.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_268",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (04:28)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=268s",
+    "quoteExcerpt": "Ähm und ja, ich habe diese Gold eine eine Frage zu den zu deinen Porta...",
+    "score": 18
+  },
+  {
+    "file": "web-bot-auth.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_838",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (13:58)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=838s",
+    "quoteExcerpt": "Die bei Google z.B. Google hat ja jetzt letzte Woche letzte Woche, ja,...",
+    "score": 21
+  },
+  {
+    "file": "webmcp.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1283",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (21:23)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1283s",
+    "quoteExcerpt": "Die meisten von den jungen KI Kraulern noch gar nicht hin. Die können ...",
+    "score": 30
+  },
+  {
+    "file": "website-relaunch.md",
+    "status": "REPLACED",
+    "quoteId": "li_82",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
+    "quoteExcerpt": "Der Relaunch einer Website ist ein wichtiger Schritt im Online-Busines...",
+    "score": 79
+  },
+  {
+    "file": "website-seo-audit.md",
+    "status": "REPLACED",
+    "quoteId": "li_42",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304",
+    "quoteExcerpt": "SEO ist wie Formel 1. Leute sagen immer SEO dauert und das stimmt auch...",
+    "score": 44
+  },
+  {
+    "file": "wordpress-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_3159",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (52:39)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3159s",
+    "quoteExcerpt": "Webseiten Webseiten sind komplexe Konstrukte, die selbst die einfachst...",
+    "score": 53
+  },
+  {
+    "file": "x402-protocol.md",
+    "status": "REPLACED",
+    "quoteId": "li_26",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7000899641269452800",
+    "quoteExcerpt": "Dazu ist es nötig, einen SEO bereits ab dem Zeitpunkt der Planung mit ...",
+    "score": 18
+  },
+  {
+    "file": "xml-sitemap.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_2547",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (42:27)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2547s",
+    "quoteExcerpt": "Spezialisierten äh Freelancern aus allen Marketingdisziplinen. Ähm ja,...",
+    "score": 51
+  },
+  {
+    "file": "youtube-seo.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1680",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (28:00)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1680s",
+    "quoteExcerpt": "These, dass es äh notwendig ist, dass du als Identität synchron im Net...",
+    "score": 41
+  },
+  {
+    "file": "zero-click-content.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_734",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (12:14)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=734s",
+    "quoteExcerpt": "Die Richtung. Ich optimiere auf den Treffic gehen. Ja, es wird wahrsch...",
+    "score": 36
+  },
+  {
+    "file": "zitierfaehiger-content.md",
+    "status": "REPLACED",
+    "quoteId": "li_43",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7099038863783784448",
+    "quoteExcerpt": "Investiere in qualitativ hochwertigen, relevanten Content, der die Bed...",
+    "score": 38
+  },
+  {
+    "file": "24-jahre-seo-gleiche-fehler.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_212",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (03:32)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=212s",
+    "quoteExcerpt": "Gesagt habe, ich b ich äh mach kein Immobilien äh Kaufmann mehr. Ich m...",
+    "score": 58
+  },
+  {
+    "file": "80-prozent-seo-fehler-sprechstunde.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1381",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (23:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1381s",
+    "quoteExcerpt": "Vor 10 Jahren. Diese die Basics, die haben sich ja kaum kaum geändert....",
+    "score": 50
+  },
+  {
+    "file": "_idee-bestes-tracking-system-ki-sichtbarkeit.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1912",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (31:52)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1912s",
+    "quoteExcerpt": "Du musst auch wieder Tracking einrichten. Du musst dann für äh Sichtba...",
+    "score": 114
+  },
+  {
+    "file": "ai-agent-weihnachtsgruesse-linkedin.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_1652",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (27:32)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1652s",
+    "quoteExcerpt": "Alle sind gut beraten, wenn sie noch ein paar separate Quellen bespiel...",
+    "score": 27
+  },
+  {
+    "file": "ai-connect-berlin-networking.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_33",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (00:33)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=33s",
+    "quoteExcerpt": "Er aus seiner Laufbahn mitbringen kann. Jörg lebt in Berlin Spandau, k...",
+    "score": 28
+  },
+  {
+    "file": "ai-crawlability-tech-seo-disziplin.md",
+    "status": "REPLACED",
+    "quoteId": "yt_dVGOMAVUNQk_2164",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (36:04)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2164s",
+    "quoteExcerpt": "Ganzen 1000 Leute da ähm ähm an Provisionen gemacht haben. sind natürl...",
+    "score": 45
+  },
+  {
+    "file": "ai-crawler-sind-dumm-markdown.md",
+    "status": "REPLACED",
+    "quoteId": "yt_ZIFCXUXypSc_1730",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (28:50)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1730s",
+    "quoteExcerpt": "Wer wer wer für schnelle Ergebnisse will, der ist natürlich also der i...",
+    "score": 33
+  },
+  {
+    "file": "ai-generierte-website-kennzeichnung.md",
+    "status": "REPLACED",
+    "quoteId": "li_68",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7023062207361863680",
+    "quoteExcerpt": "Nicht alles was Leute glauben was gut für eine Website sei muss auch s...",
+    "score": 35
+  },
+  {
+    "file": "ai-geo-sichtbarkeit-umfrage.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_568",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (09:28)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=568s",
+    "quoteExcerpt": "Bin der Meinung Geo mal gelesen zu haben, statt SEO. Wie geht da der T...",
+    "score": 24
+  },
+  {
+    "file": "ai-seo-geo-praktikanten.md",
+    "status": "REPLACED",
+    "quoteId": "yt_32YkPQtOJDU_507",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Magic Writing Podcast (08:27)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=507s",
+    "quoteExcerpt": "Ist ja auch immer so ein Argument, was mir zumindest immer mal wieder ...",
+    "score": 30
+  },
+  {
     "file": "beste-seo-tools-ai-search-prompt-tracking.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1261",
+    "quoteId": "yt_ZIFCXUXypSc_2244",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (21:01)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1261s",
-    "quoteExcerpt": "Genau, ist ja Verdreifachung von Arbeit. das ist ja in dem Sinne, da k...",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (37:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2244s",
+    "quoteExcerpt": "Dem Motto, du brauchst gar keine, du brauchst gar keine Einstellung, w...",
     "score": 50
   },
   {
@@ -122,92 +2107,92 @@
   {
     "file": "campixx-networking-conversion-optimierung.md",
     "status": "REPLACED",
-    "quoteId": "li_3",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7029859987283664898",
-    "quoteExcerpt": "Eine Conversion sagt mehr als tausend Worte. Bei all den Kennzahlen, K...",
-    "score": 47
+    "quoteId": "yt_ZIFCXUXypSc_3906",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (65:06)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3906s",
+    "quoteExcerpt": "Daten dahinter kennst oder diesen Kontext, also wenn du das mit so ein...",
+    "score": 48
   },
   {
     "file": "campixx-seo-agentur-umfrage.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3960",
+    "quoteId": "yt_32YkPQtOJDU_218",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (66:00)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3960s",
-    "quoteExcerpt": "Dann schaffst du das auch mit zwei, drei Leuten durchzuspielen. Zumind...",
-    "score": 45
+    "sourceTitle": "YouTube Magic Writing Podcast (03:38)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=218s",
+    "quoteExcerpt": "Themen gestartet und mal ehrlich, schon damals hieß es eigentlich SEO ...",
+    "score": 36
   },
   {
     "file": "campixx-video-roland-golla.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3350",
+    "quoteId": "yt_tD7cXuVcRPA_4114",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (55:50)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3350s",
-    "quoteExcerpt": "Bei Videokreationen scheitern die Leute ja oft. Aber vielleicht ist da...",
-    "score": 26
+    "sourceTitle": "YouTube Never Code Alone (68:34)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4114s",
+    "quoteExcerpt": "Für Vibe Code und negatives Vibe vom Localhost.  Das negative Vibe vom...",
+    "score": 30
   },
   {
     "file": "cloudflare-agent-readiness-scan.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_823",
+    "quoteId": "yt_dVGOMAVUNQk_2549",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (13:43)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=823s",
-    "quoteExcerpt": "Das ist halt die Gefahr an AI, dass anscheinend Sachen generiert werde...",
+    "sourceTitle": "YouTube SEOPresso (42:29)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2549s",
+    "quoteExcerpt": "Wir sind ja up to date, dann wollen wir ja dann kommen kommen natürlic...",
     "score": 27
   },
   {
     "file": "core-web-vitals-ux-bericht.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1094",
+    "quoteId": "yt_tD7cXuVcRPA_7188",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (18:14)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1094s",
-    "quoteExcerpt": "Die werden zwar im Core irgendwie eine Art Gleichhaben, aber die ganze...",
-    "score": 41
+    "sourceTitle": "YouTube Never Code Alone (119:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7188s",
+    "quoteExcerpt": "Dass dein Computer-Wert eigentlich gut ist, aber  hier in den Core Web...",
+    "score": 56
   },
   {
     "file": "digitaler-unternehmensberater-statt-seo.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3801",
+    "quoteId": "yt_dVGOMAVUNQk_2775",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (63:21)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3801s",
-    "quoteExcerpt": "Und die sind gut beraten, auch uns mal zu hören, viel technisch inhalt...",
-    "score": 20
+    "sourceTitle": "YouTube SEOPresso (46:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2775s",
+    "quoteExcerpt": "Ähm, da würde ich da würde ich dann eher sagen, werd gleiche Unternehm...",
+    "score": 37
   },
   {
     "file": "doenerback-und-motivation.md",
     "status": "REPLACED",
-    "quoteId": "li_51",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680",
-    "quoteExcerpt": "SEO allein zu betrachten, macht dann nur begrenzt Sinn. Die anderen In...",
-    "score": 18
+    "quoteId": "yt_dVGOMAVUNQk_577",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (09:37)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=577s",
+    "quoteExcerpt": "Bringen. Der war war hoch hoch erfreut und äh ich habe auch nie groß ä...",
+    "score": 27
   },
   {
     "file": "einfachste-seo-verhaeltnisse.md",
     "status": "REPLACED",
-    "quoteId": "yt_tD7cXuVcRPA_4913",
+    "quoteId": "yt_dVGOMAVUNQk_722",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Never Code Alone (81:53)",
-    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4913s",
-    "quoteExcerpt": "Ich muss die Zuschauer kurz nutzen, du sagst,  fünfzig Leute sind da, ...",
-    "score": 33
+    "sourceTitle": "YouTube SEOPresso (12:02)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=722s",
+    "quoteExcerpt": "Dann ja, was ist passiert? Ja, du produzierst Fehlerseiten, weil du de...",
+    "score": 27
   },
   {
     "file": "freelance-unlocked-eis-erfolgreich.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2271",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (37:51)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2271s",
-    "quoteExcerpt": "Weil das kann man alles machen, wenn man an einem gewissen Grad ist. W...",
-    "score": 15
+    "quoteId": "li_25",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937",
+    "quoteExcerpt": "Umsatz wird dann gemacht wenn alles gut zusammenpasst. Vom Klick der A...",
+    "score": 24
   },
   {
     "file": "freelance-unlocked-eis.md",
@@ -217,27 +2202,27 @@
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
     "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7099038863783784448",
     "quoteExcerpt": "Halte das Team auf dem neuesten Stand der SEO-Trends und -Best Practic...",
-    "score": 9
+    "score": 21
   },
   {
     "file": "freelance-unlocked-lila-tshirts.md",
     "status": "REPLACED",
-    "quoteId": "li_98",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7109866854751330304",
-    "quoteExcerpt": "Im SEO und SEA sind die Leute besonderes vorsichtig, weil es eben kein...",
-    "score": 27
+    "quoteId": "yt_dVGOMAVUNQk_2480",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (41:20)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2480s",
+    "quoteExcerpt": "Firmen natürlich Fragezeichen haben und gar nicht in dieser neuen Welt...",
+    "score": 42
   },
   {
     "file": "freelancer-team-omr-hamburg.md",
     "status": "REPLACED",
-    "quoteId": "yt_32YkPQtOJDU_2152",
+    "quoteId": "yt_ZIFCXUXypSc_2506",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Magic Writing Podcast (35:52)",
-    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=2152s",
-    "quoteExcerpt": "Typ mit der Sonnenblume in und ja, ich bin SEO SEO sea Freelancer. Äh ...",
-    "score": 38
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (41:46)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2506s",
+    "quoteExcerpt": "Genau. Also, wir haben wir sind ja auch beide im Freelancer Team, ne? ...",
+    "score": 60
   },
   {
     "file": "freelancer-team-spirit-events.md",
@@ -247,77 +2232,77 @@
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
     "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160",
     "quoteExcerpt": "Die Leidenschaft für Datenanalyse im Online Marketing ist wie ein Schl...",
-    "score": 45
+    "score": 57
   },
   {
     "file": "generative-engine-optimization-geo.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1786",
+    "quoteId": "yt_32YkPQtOJDU_2080",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (29:46)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1786s",
-    "quoteExcerpt": "Der Suchanteil von Chechipiti ist ja oft viel kleiner. Und Marktanteil...",
-    "score": 39
+    "sourceTitle": "YouTube Magic Writing Podcast (34:40)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=2080s",
+    "quoteExcerpt": "Solltest da dein Hauptkey wird finden, deine Hauptkey wird da finden u...",
+    "score": 27
   },
   {
     "file": "geo-action-plan-llm-sichtbarkeit.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_4315",
+    "quoteId": "yt_dVGOMAVUNQk_150",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (71:55)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=4315s",
-    "quoteExcerpt": "Toll. Und die AI Overviews, das was wir dann in der nächsten Folge mac...",
-    "score": 38
+    "sourceTitle": "YouTube SEOPresso (02:30)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=150s",
+    "quoteExcerpt": "Das war so mein erster Berührungspunkt mit dem Internet. Ähm, ich habe...",
+    "score": 30
   },
   {
     "file": "geo-seo-agentic-eigene-disziplin.md",
     "status": "REPLACED",
-    "quoteId": "li_76",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6979120413486280706",
-    "quoteExcerpt": "Developer und SEOs MÜSSEN zusammen arbeiten! Gerade wenn es um Relaunc...",
-    "score": 36
+    "quoteId": "yt_dVGOMAVUNQk_1925",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (32:05)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1925s",
+    "quoteExcerpt": "Wirklich ähm mit Menschen, mit denen auch die die Perspektive kurz ein...",
+    "score": 33
   },
   {
     "file": "geo-seo-ai-seo-llmo-umfrage.md",
     "status": "REPLACED",
-    "quoteId": "yt_tD7cXuVcRPA_3619",
+    "quoteId": "yt_ZIFCXUXypSc_2257",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Never Code Alone (60:19)",
-    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3619s",
-    "quoteExcerpt": "Die ist aber ausführlicher, total, die ist fein,  hat ein bisschen Ove...",
-    "score": 27
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (37:37)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2257s",
+    "quoteExcerpt": "Tracking richtig aufsetzen ist mittlerweile so komplex geworden, da mu...",
+    "score": 24
   },
   {
     "file": "geo-seo-jahreszahl.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2608",
+    "quoteId": "yt_ZIFCXUXypSc_2002",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (43:28)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2608s",
-    "quoteExcerpt": "Da kann ich also nicht mit messen. ist sowieso, aber das wäre mein Exp...",
-    "score": 27
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (33:22)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2002s",
+    "quoteExcerpt": "Und das ist natürlich eine lange Zeit. Mhm. Wenn man das dann natürlic...",
+    "score": 30
   },
   {
     "file": "geo-und-ai-search-neues-spiel.md",
     "status": "REPLACED",
-    "quoteId": "li_19",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7090285441437851648",
-    "quoteExcerpt": "Ich bin immer wieder erstaunt, wie viele Website-Inhaber keinen Zugang...",
-    "score": 38
+    "quoteId": "yt_ZIFCXUXypSc_2871",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (47:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2871s",
+    "quoteExcerpt": "Mhm. Netz wird größer jeden Tag. Mhm. Das ja, Netz wird größer und die...",
+    "score": 52
   },
   {
     "file": "google-ads-support-seo-nicht-tot.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3212",
+    "quoteId": "yt_ZIFCXUXypSc_2432",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (53:32)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3212s",
-    "quoteExcerpt": "Ja, also ich glaube, es macht total Sinn, sich wirklich, jetzt spreche...",
-    "score": 50
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (40:32)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2432s",
+    "quoteExcerpt": "Google Ads Support den, also die Leute, die dich immer anrufen, ne? Is...",
+    "score": 90
   },
   {
     "file": "google-search-console-zustaendigkeit-umfrage.md",
@@ -327,37 +2312,37 @@
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
     "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7039604214313971712",
     "quoteExcerpt": "Guckt bitte in die Google Search Console und besprecht die Fehlermeldu...",
-    "score": 99
+    "score": 74
   },
   {
     "file": "grounding-page-generator-ai-seo.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1237",
+    "quoteId": "yt_ZIFCXUXypSc_2220",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (20:37)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1237s",
-    "quoteExcerpt": "Wenn du das jetzt noch in drei unterschiedlichen AI's machen willst, w...",
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (37:00)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2220s",
+    "quoteExcerpt": "Also, wenn du mich jetzt fragst, was hat sich denn was hat sich denn g...",
     "score": 36
   },
   {
     "file": "highlights-2025-jahresrueckblick.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1944",
+    "quoteId": "yt_ZIFCXUXypSc_282",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (32:24)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1944s",
-    "quoteExcerpt": "Leute, wir haben es gemessen, Stand Juni 2025 oder was das war. Erst b...",
-    "score": 29
+    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (04:42)",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=282s",
+    "quoteExcerpt": "Ja, man hat immer was probiert und äh dann ist das nach dem Jahr wiede...",
+    "score": 27
   },
   {
     "file": "ich-befinde-mich-in-der-geo-transformation.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2137",
+    "quoteId": "yt_dVGOMAVUNQk_1194",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (35:37)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2137s",
-    "quoteExcerpt": "Und genau, klar ist. Sie das keine Käufe irgendwie konvertieren. Die A...",
-    "score": 30
+    "sourceTitle": "YouTube SEOPresso (19:54)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1194s",
+    "quoteExcerpt": "Elternabend angesetzt. Ähm, und ähm ich habe eine Mail gekriegt und ti...",
+    "score": 23
   },
   {
     "file": "ki-website-leuchtturm.md",
@@ -372,42 +2357,42 @@
   {
     "file": "liebe-bots-crawler-agenten.md",
     "status": "REPLACED",
-    "quoteId": "li_94",
+    "quoteId": "li_30",
     "quoteType": "linkedin",
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7090285441437851648",
-    "quoteExcerpt": "An erster Stelle steht für mich persönlich immer die saubere technisch...",
-    "score": 42
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7064573888449392640",
+    "quoteExcerpt": "Wenn wir von Anfang an an alle Aspekte denken, können wir sicherstelle...",
+    "score": 30
   },
   {
     "file": "linkedin-company-pages-engagement.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_4032",
+    "quoteId": "yt_32YkPQtOJDU_1709",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (67:12)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=4032s",
-    "quoteExcerpt": "Da muss wieder abgesegnet werden und und und. Aber ich glaube, es sind...",
-    "score": 47
+    "sourceTitle": "YouTube Magic Writing Podcast (28:29)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1709s",
+    "quoteExcerpt": "Dein LinkedIn optimieren, du kannst deine eigenen Socials optimieren, ...",
+    "score": 50
   },
   {
     "file": "linkedin-google-bewertungen.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3195",
+    "quoteId": "yt_32YkPQtOJDU_1491",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (53:15)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3195s",
-    "quoteExcerpt": "Und dann kommt LinkedIn wieder und macht ein neues Algorithmus-Update....",
-    "score": 70
+    "sourceTitle": "YouTube Magic Writing Podcast (24:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1491s",
+    "quoteExcerpt": "Es gehört zum Googleum. Und um das noch mal kurz zu sagen, die äh die ...",
+    "score": 65
   },
   {
     "file": "linkedin-ist-ein-forum-seo.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3182",
+    "quoteId": "yt_32YkPQtOJDU_2152",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (53:02)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3182s",
-    "quoteExcerpt": "Die Ergebnisse werden optimiert, Algorithmen werden irgendwie Durchleu...",
-    "score": 56
+    "sourceTitle": "YouTube Magic Writing Podcast (35:52)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=2152s",
+    "quoteExcerpt": "Typ mit der Sonnenblume in und ja, ich bin SEO SEO sea Freelancer. Äh ...",
+    "score": 38
   },
   {
     "file": "magic-writing-podcast-seo-ist-tot.md",
@@ -422,42 +2407,42 @@
   {
     "file": "malte-landwehr-ai-search-content-formate.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_1664",
+    "quoteId": "yt_32YkPQtOJDU_448",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (27:44)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1664s",
-    "quoteExcerpt": "Gesicht. Ähm, man kann in so einem Video äh viel viel mehr zeigen, als...",
-    "score": 47
+    "sourceTitle": "YouTube Magic Writing Podcast (07:28)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=448s",
+    "quoteExcerpt": "Freundeskreis empfiehlt diese Domain und das ist mein Ding. So, aber v...",
+    "score": 45
   },
   {
     "file": "ms-clarity-session-campixx.md",
     "status": "REPLACED",
-    "quoteId": "li_44",
+    "quoteId": "li_37",
     "quoteType": "linkedin",
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160",
-    "quoteExcerpt": "Durch die Verwendung von Tools wie Google Analytics kann man die Inter...",
-    "score": 30
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7109464410510741504",
+    "quoteExcerpt": "Kümmer dich um deine Nutzer und mach alles, aber auch wirklich alles f...",
+    "score": 18
   },
   {
     "file": "omr-2026-mission-freelancer-team.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3384",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (56:24)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3384s",
-    "quoteExcerpt": "Es ist weder eine Erscheinungsquelle mehr, ich dabei sein kann. Und ja...",
-    "score": 29
+    "quoteId": "li_65",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304",
+    "quoteExcerpt": "In der Formel 1 treten auch mehrere Teams an. Auf dem Treppchen stehen...",
+    "score": 33
   },
   {
     "file": "omr-freelancer-stand-roi.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2858",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (47:38)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2858s",
-    "quoteExcerpt": "Das ist für die Zukunft schon, aber der erste Ansatz wäre natürlich er...",
-    "score": 21
+    "quoteId": "li_8",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7109155518903906304",
+    "quoteExcerpt": "Gutes SEO erhöht den Return of Investment von allen Kanälen. Eine saub...",
+    "score": 27
   },
   {
     "file": "pagespeed-100-seo-optimierung.md",
@@ -472,152 +2457,152 @@
   {
     "file": "rank-math-vs-yoast-seo.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_2909",
+    "quoteId": "yt_dVGOMAVUNQk_1102",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (48:29)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2909s",
-    "quoteExcerpt": "Und dann guckt man sich mal diese Unterseiten an und guckt dann, was i...",
+    "sourceTitle": "YouTube SEOPresso (18:22)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1102s",
+    "quoteExcerpt": "Erklärt, du hast drei Töchter. Wie erklärst du denen, was Papa macht b...",
     "score": 12
   },
   {
     "file": "rankscale-ai-visibility-tool.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1719",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (28:39)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1719s",
-    "quoteExcerpt": "Die Tools, die gibt es erst seit zwei, drei Monaten. Aber erstmal Ausg...",
-    "score": 59
+    "quoteId": "li_46",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160",
+    "quoteExcerpt": "Durch die Verwendung von Analyse-Tools kann man die Leistung der einze...",
+    "score": 30
   },
   {
     "file": "rankscale-ai-visibility-tracking-17-llms.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_2895",
+    "quoteId": "yt_32YkPQtOJDU_2033",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (48:15)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2895s",
-    "quoteExcerpt": "Property. Geh mal da rein. Das ist ja kostenlos, kostenloses Tool. Man...",
-    "score": 42
+    "sourceTitle": "YouTube Magic Writing Podcast (33:53)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=2033s",
+    "quoteExcerpt": "Ähm das das lege ich für Leute, die kein SEO Tool zur Hand haben und d...",
+    "score": 27
   },
   {
     "file": "rankscale-essentials-ai-tracking-einsteiger.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1867",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (31:07)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1867s",
-    "quoteExcerpt": "Da sprießen die Tools ja aus dem Boden. Man kann, bei Sistrix kannst d...",
-    "score": 33
+    "quoteId": "li_74",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
+    "quoteExcerpt": "Ein SEO kann anhand der Daten aus Google Analytics wertvolle Hinweise ...",
+    "score": 27
   },
   {
     "file": "rankscale-update-agency-api-chatgpt.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1811",
+    "quoteId": "yt_32YkPQtOJDU_117",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (30:11)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1811s",
-    "quoteExcerpt": "Ja, meine Güte. Gut, lass Bing noch 5 Prozent haben, lass ChatGPT und ...",
-    "score": 41
+    "sourceTitle": "YouTube Magic Writing Podcast (01:57)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=117s",
+    "quoteExcerpt": "Damals war das ja noch möglich. Ähm hab dann auch dazu später Google A...",
+    "score": 15
   },
   {
     "file": "reines-seo-vs-geo.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_581",
+    "quoteId": "yt_32YkPQtOJDU_809",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (09:41)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=581s",
-    "quoteExcerpt": "Ich denke, viele ähm sind ein bisschen verwöhnt worden und haben auch ...",
-    "score": 24
+    "sourceTitle": "YouTube Magic Writing Podcast (13:29)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=809s",
+    "quoteExcerpt": "Wie aktiv spülst du dich und deinen Kontext in die Suchen? Das muss ma...",
+    "score": 21
   },
   {
     "file": "se-ranking-agentur-10-gruende.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3729",
+    "quoteId": "yt_32YkPQtOJDU_901",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (62:09)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3729s",
-    "quoteExcerpt": "Wir hatten ja beide darüber gesprochen. SE Ranking hat ja dieses Tool ...",
-    "score": 65
+    "sourceTitle": "YouTube Magic Writing Podcast (15:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=901s",
+    "quoteExcerpt": "Oder wie SE Ranking oder wie die großen SEO Tools Araf und was nicht a...",
+    "score": 34
   },
   {
     "file": "se-ranking-ai-tracker.md",
     "status": "REPLACED",
-    "quoteId": "li_6",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
-    "quoteExcerpt": "Ein wichtiger Faktor bei einem Relaunch ist die mobile Ladezeit und Us...",
-    "score": 47
+    "quoteId": "yt_dVGOMAVUNQk_2715",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (45:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2715s",
+    "quoteExcerpt": "Rausgehen und muss in den anderen auch noch unterwegs sein. Und ich gl...",
+    "score": 30
   },
   {
     "file": "se-ranking-api-claude-code-praxis-test.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3729",
+    "quoteId": "yt_dVGOMAVUNQk_1242",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (62:09)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3729s",
-    "quoteExcerpt": "Wir hatten ja beide darüber gesprochen. SE Ranking hat ja dieses Tool ...",
-    "score": 43
+    "sourceTitle": "YouTube SEOPresso (20:42)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1242s",
+    "quoteExcerpt": "Schade, schade. So, da habe ich dann habe ich dann habe ich dann natür...",
+    "score": 41
   },
   {
     "file": "se-ranking-api-claude-code-setup.md",
     "status": "REPLACED",
-    "quoteId": "yt_tD7cXuVcRPA_1418",
+    "quoteId": "yt_dVGOMAVUNQk_121",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Never Code Alone (23:38)",
-    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1418s",
-    "quoteExcerpt": "Das will ich doch hoffen. Willst du es mal  richtig sehen? Die ist AI-...",
-    "score": 50
+    "sourceTitle": "YouTube SEOPresso (02:01)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=121s",
+    "quoteExcerpt": "Ähm, ich habe meine Ausbildung gemacht, ähm 96 bis 99 äh ähm als Immob...",
+    "score": 47
   },
   {
     "file": "se-ranking-api-endpunkte-kompass.md",
     "status": "REPLACED",
-    "quoteId": "li_83",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7055143807113129984",
-    "quoteExcerpt": "SEO ist auch die Analyse und das Management von: Ranking, Keywords, Tr...",
-    "score": 35
+    "quoteId": "yt_dVGOMAVUNQk_1259",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (20:59)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1259s",
+    "quoteExcerpt": "Das würde, na ja, das war war so. Oh ja, wirklich. Oh, du kannst du da...",
+    "score": 27
   },
   {
     "file": "se-ranking-chatgpt-app.md",
     "status": "REPLACED",
-    "quoteId": "li_86",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
-    "quoteExcerpt": "Wichtig ist, dass ein SEO bei einem Relaunch einer Webseite von Anfang...",
-    "score": 38
+    "quoteId": "yt_dVGOMAVUNQk_1503",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (25:03)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1503s",
+    "quoteExcerpt": "Haufen Arbeit und dann kam aber diese diese gelben Scheine, die man Kr...",
+    "score": 27
   },
   {
     "file": "se-ranking-ki-sichtbarkeit.md",
     "status": "REPLACED",
-    "quoteId": "li_58",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680",
-    "quoteExcerpt": "Gerade das ganze Vertrauensthema zur Domain und zum Topic. Wie oft nac...",
-    "score": 41
+    "quoteId": "yt_dVGOMAVUNQk_1544",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (25:44)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1544s",
+    "quoteExcerpt": "Aber war das den vorher abzusehen auch vielleicht im Recruitingprozess...",
+    "score": 27
   },
   {
     "file": "se-ranking-preise.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2364",
+    "quoteId": "yt_dVGOMAVUNQk_958",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (39:24)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2364s",
-    "quoteExcerpt": "So, jetzt sind hoffentlich alle da, die zugehört haben, gleich mitgeba...",
-    "score": 42
+    "sourceTitle": "YouTube SEOPresso (15:58)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=958s",
+    "quoteExcerpt": "Das sagen. Ähm ähm da kann ich das aber als interner Angestellter darf...",
+    "score": 36
   },
   {
     "file": "se-ranking-test-2026.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_239",
+    "quoteId": "yt_dVGOMAVUNQk_746",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (03:59)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=239s",
-    "quoteExcerpt": "Aber wie gesagt, ist jetzt keine Anlageempfehlung, hier das nächste SE...",
-    "score": 36
+    "sourceTitle": "YouTube SEOPresso (12:26)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=746s",
+    "quoteExcerpt": "Das auch immer wieder, aber lass uns mal ähm viele SEOs, die steigen d...",
+    "score": 33
   },
   {
     "file": "seo-feuerwehr-rettung.md",
@@ -632,42 +2617,42 @@
   {
     "file": "seo-mega-prompt-claude-agent.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1666",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (27:46)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1666s",
-    "quoteExcerpt": "Also die Prompt würde ich wegspeichern, um dann nochmal zu gucken, wie...",
-    "score": 17
+    "quoteId": "li_27",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7064573888449392640",
+    "quoteExcerpt": "Lasst uns gemeinsam dafür sorgen, dass SEO nicht nur als nachträgliche...",
+    "score": 15
   },
   {
     "file": "seo-relaunch-klassiker-meme.md",
     "status": "REPLACED",
-    "quoteId": "li_82",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7026578926692966401",
-    "quoteExcerpt": "Der Relaunch einer Website ist ein wichtiger Schritt im Online-Busines...",
-    "score": 32
+    "quoteId": "yt_dVGOMAVUNQk_652",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (10:52)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=652s",
+    "quoteExcerpt": "Was ich bis heute nicht verstanden habe, kleiner Karlauer, wenn du es ...",
+    "score": 33
   },
   {
     "file": "seo-sprechstunde-bewertung-ronny.md",
     "status": "REPLACED",
-    "quoteId": "yt_tD7cXuVcRPA_471",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Never Code Alone (07:51)",
-    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=471s",
-    "quoteExcerpt": "Ist da eine Hands-on-Beratung möglich? Die  Frage war eigentlich, ob d...",
-    "score": 33
+    "quoteId": "li_57",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6969239987783401472",
+    "quoteExcerpt": "Schon immer waren Webseiten für mich virtuelle Verkäufer, die 24 Stund...",
+    "score": 21
   },
   {
     "file": "seo-sprechstunde-erklaert.md",
     "status": "REPLACED",
-    "quoteId": "yt_tD7cXuVcRPA_495",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Never Code Alone (08:15)",
-    "sourceUrl": "https://www.youtube.com/watch?v=tD7cXuVcRPA&t=495s",
-    "quoteExcerpt": "Also dass die SEO-Sprechstunde vielleicht ein  Eingangsprodukt zu eine...",
-    "score": 30
+    "quoteId": "li_22",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7000899641269452800",
+    "quoteExcerpt": "SEO ist eben kein einmaliges Projekt, sondern ein dauerhafter Prozess....",
+    "score": 15
   },
   {
     "file": "seo-sprechstunde-never-code-alone.md",
@@ -682,22 +2667,22 @@
   {
     "file": "seo-sprechstunde-so-laeuft-sie-ab.md",
     "status": "REPLACED",
-    "quoteId": "li_22",
+    "quoteId": "li_48",
     "quoteType": "linkedin",
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7000899641269452800",
-    "quoteExcerpt": "SEO ist eben kein einmaliges Projekt, sondern ein dauerhafter Prozess....",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7099034791156543488",
+    "quoteExcerpt": "Wie kannst du die Effektivität deiner SEO-Aktivitäten messen und den R...",
     "score": 21
   },
   {
     "file": "seo-stammtisch-berlin-axel-springer.md",
     "status": "REPLACED",
-    "quoteId": "li_52",
-    "quoteType": "linkedin",
-    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7097940119357112320",
-    "quoteExcerpt": "Die Kraft einer Position 1 müssen die meisten nur einmal erlebt haben,...",
-    "score": 15
+    "quoteId": "yt_dVGOMAVUNQk_1949",
+    "quoteType": "youtube",
+    "sourceTitle": "YouTube SEOPresso (32:29)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1949s",
+    "quoteExcerpt": "Sich da einmal intensiv zu beschäftigen, das richtig aufzusetzen, komp...",
+    "score": 18
   },
   {
     "file": "seo-wird-groesser-geo-welle.md",
@@ -707,107 +2692,107 @@
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
     "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680",
     "quoteExcerpt": "Ein paar der Rankingfaktoren kannst du nur erreichen, wenn du SEO als ...",
-    "score": 39
+    "score": 51
   },
   {
     "file": "seopresso-podcast-maximilian-muhr.md",
     "status": "REPLACED",
-    "quoteId": "yt_ZIFCXUXypSc_3768",
+    "quoteId": "yt_dVGOMAVUNQk_2853",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer (62:48)",
-    "sourceUrl": "https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3768s",
-    "quoteExcerpt": "Das da sage ich ja, Mensch, Antonio, das kommt ja alles aus deinem Pod...",
+    "sourceTitle": "YouTube SEOPresso (47:33)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2853s",
+    "quoteExcerpt": "Hören uns nächste Woche wieder im SEO Press Podcast. Bis dahin, ciao....",
     "score": 32
   },
   {
     "file": "seopresso-seo-persoenlich-interview.md",
     "status": "REPLACED",
-    "quoteId": "yt_dVGOMAVUNQk_1376",
+    "quoteId": "yt_32YkPQtOJDU_1755",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube SEOPresso (22:56)",
-    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1376s",
-    "quoteExcerpt": "Wenn du jetzt Jörg, wenn du jetzt auf die letzten 24 Jahre zurückschau...",
-    "score": 33
+    "sourceTitle": "YouTube Magic Writing Podcast (29:15)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1755s",
+    "quoteExcerpt": "Okay, also ist auf jeden Fall ja letztendlich Teil einer ganz einer ga...",
+    "score": 35
   },
   {
     "file": "seorch-ai-geo-check.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3481",
+    "quoteId": "yt_32YkPQtOJDU_990",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (58:01)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3481s",
-    "quoteExcerpt": "Dann nochmal, wie du auch gesagt hast. noch mal vielleicht ein paar Wo...",
-    "score": 39
+    "sourceTitle": "YouTube Magic Writing Podcast (16:30)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=990s",
+    "quoteExcerpt": "Also meinst du, ist der Optimismus, der quasi damit einhergeht, eigent...",
+    "score": 21
   },
   {
     "file": "seorch-seo-tool-fanboy.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1711",
+    "quoteId": "yt_32YkPQtOJDU_1807",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (28:31)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1711s",
-    "quoteExcerpt": "Wenn es händisch, das kann ja jeder machen, wenn man jetzt nicht so ei...",
-    "score": 38
+    "sourceTitle": "YouTube Magic Writing Podcast (30:07)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1807s",
+    "quoteExcerpt": "Hätte, dann dann bitte bitte immer als erstes ähm auch die Google Sear...",
+    "score": 19
   },
   {
     "file": "sistrix-podcast-entitaeten-mapping.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3650",
+    "quoteId": "yt_32YkPQtOJDU_1401",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (60:50)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3650s",
-    "quoteExcerpt": "Aber wenn ich hier so weitere Open Datenbank, Stadtportale oder was ic...",
-    "score": 36
+    "sourceTitle": "YouTube Magic Writing Podcast (23:21)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1401s",
+    "quoteExcerpt": "Marktil, die haben so viel Budget. Was ihr dabei auch gerne vergessen ...",
+    "score": 21
   },
   {
     "file": "sistrix-vs-se-ranking.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1867",
+    "quoteId": "yt_dVGOMAVUNQk_1905",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (31:07)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1867s",
-    "quoteExcerpt": "Da sprießen die Tools ja aus dem Boden. Man kann, bei Sistrix kannst d...",
-    "score": 43
+    "sourceTitle": "YouTube SEOPresso (31:45)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=1905s",
+    "quoteExcerpt": "Jetzt einmal richtig zu machen, damit ich nicht von dir noch noch zehn...",
+    "score": 30
   },
   {
     "file": "stefan-godulla-campixx.md",
     "status": "REPLACED",
-    "quoteId": "li_17",
+    "quoteId": "li_51",
     "quoteType": "linkedin",
     "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
-    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7000899641269452800",
-    "quoteExcerpt": "Relaunches sind absolut notwendig, müssen nur eben richtig gemacht wer...",
-    "score": 18
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680",
+    "quoteExcerpt": "SEO allein zu betrachten, macht dann nur begrenzt Sinn. Die anderen In...",
+    "score": 24
   },
   {
     "file": "tldv-meeting-notetaker-ki.md",
     "status": "REPLACED",
-    "quoteId": "yt_dVGOMAVUNQk_150",
+    "quoteId": "yt_32YkPQtOJDU_948",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube SEOPresso (02:30)",
-    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=150s",
-    "quoteExcerpt": "Das war so mein erster Berührungspunkt mit dem Internet. Ähm, ich habe...",
-    "score": 24
+    "sourceTitle": "YouTube Magic Writing Podcast (15:48)",
+    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=948s",
+    "quoteExcerpt": "Optimieren und dann die Veränderung messen und dann sagen: \"Hey, ich h...",
+    "score": 18
   },
   {
     "file": "top-9-ai-visibility-tools.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1719",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (28:39)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1719s",
-    "quoteExcerpt": "Die Tools, die gibt es erst seit zwei, drei Monaten. Aber erstmal Ausg...",
-    "score": 54
+    "quoteId": "li_44",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160",
+    "quoteExcerpt": "Durch die Verwendung von Tools wie Google Analytics kann man die Inter...",
+    "score": 40
   },
   {
     "file": "transparente-seo-preise-erfahrung.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1410",
+    "quoteId": "yt_dVGOMAVUNQk_2691",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (23:30)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1410s",
-    "quoteExcerpt": "Dann guckt man sich mal diese Quellen an. Also da werden vielleicht vi...",
-    "score": 29
+    "sourceTitle": "YouTube SEOPresso (44:51)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2691s",
+    "quoteExcerpt": "Irgendwo, ich muss ja den Kontext herstellen jetzt nur auf dem bescheu...",
+    "score": 33
   },
   {
     "file": "website-seo-audit-vibe-coding.md",
@@ -822,52 +2807,52 @@
   {
     "file": "wie-komme-ich-als-unternehmen-in-chatgpt.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_3702",
+    "quoteId": "yt_dVGOMAVUNQk_722",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (61:42)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3702s",
-    "quoteExcerpt": "Auch Hinweis. Schon mal über den gleichen Slogan, gleichen Claim nachd...",
-    "score": 44
+    "sourceTitle": "YouTube SEOPresso (12:02)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=722s",
+    "quoteExcerpt": "Dann ja, was ist passiert? Ja, du produzierst Fehlerseiten, weil du de...",
+    "score": 28
   },
   {
     "file": "willkommen-seo-jahr-2026.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_2244",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (37:24)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2244s",
-    "quoteExcerpt": "Und wenn dann die Ideen oder die Energie falsch verwendet werden für i...",
-    "score": 33
+    "quoteId": "li_33",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7119353116784779264",
+    "quoteExcerpt": "Liste der 9 größten SEO Fehler: 1.) nicht mit SEO anzufangen 2.) es na...",
+    "score": 27
   },
   {
     "file": "wir-seos-sind-schuld-community.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_223",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (03:43)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=223s",
-    "quoteExcerpt": "Wir sind alle noch im Prozess. glaube die guten Seos sind alle, die ge...",
-    "score": 55
+    "quoteId": "li_32",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7097940119357112320",
+    "quoteExcerpt": "SEOs sind die Schnittstelle, um das Web ein Stück besser zu machen....",
+    "score": 40
   },
   {
     "file": "wir-seos-zusammenhalt.md",
     "status": "REPLACED",
-    "quoteId": "yt_pJFZzv5LEvk_1533",
+    "quoteId": "yt_dVGOMAVUNQk_2664",
     "quoteType": "youtube",
-    "sourceTitle": "YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (25:33)",
-    "sourceUrl": "https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1533s",
-    "quoteExcerpt": "Warum denn nicht dort mit reinnehmen? Und das ist wieder eine Quelle m...",
-    "score": 24
+    "sourceTitle": "YouTube SEOPresso (44:24)",
+    "sourceUrl": "https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2664s",
+    "quoteExcerpt": "Modellen gekrault werden, wobei die noch nicht so die Kapazitäten da h...",
+    "score": 27
   },
   {
     "file": "youtube-channel-links.md",
     "status": "REPLACED",
-    "quoteId": "yt_32YkPQtOJDU_1594",
-    "quoteType": "youtube",
-    "sourceTitle": "YouTube Magic Writing Podcast (26:34)",
-    "sourceUrl": "https://www.youtube.com/watch?v=32YkPQtOJDU&t=1594s",
-    "quoteExcerpt": "So bei äh bei YouTube äh du kannst den YouTube hochladen, kannst du in...",
-    "score": 58
+    "quoteId": "li_29",
+    "quoteType": "linkedin",
+    "sourceTitle": "LinkedIn-Beitrag von Jörg Zimmer",
+    "sourceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6943169077276246016",
+    "quoteExcerpt": "YouTube ist zu einem der wichtigsten Medien geworden. Alle Altersgrupp...",
+    "score": 44
   },
   {
     "file": "zwei-stunden-seo-potential.md",

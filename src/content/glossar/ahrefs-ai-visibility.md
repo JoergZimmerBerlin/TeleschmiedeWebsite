@@ -45,14 +45,14 @@ Für Marken entsteht dadurch ein massiver blinder Fleck: Wer in den synthetisier
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Wo willst du denn erscheinen? Soll ich mich für dich, soll ich mit Perplexity in den Knuddelkampf gehen oder soll ich mit Deep Seek das machen oder willst du, wollen wir Open AI machen, also ChatGPT?“
+    „Search Console oder vielleicht Google Analytics  beruhen und das einfach nur besser darstellen. Die Tools sind natürlich von außen, der  Vorteil ist, ich kann jede Domain eintippen, auch die deines Wettbewerbers, ich komme an  alle Domain-Daten von nahezu allen Domains dran. Wie gesagt, ich habe einfach im Tool von  Sistrix oder SE Ranking oder wie sie alle heißen, Ahrefs, Semrush und so weiter, kann ich jede  Domain analysieren, auch jedes Keyword. Bei.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1108s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (18:28)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4404s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (73:24)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

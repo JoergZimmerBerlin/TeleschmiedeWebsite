@@ -44,14 +44,14 @@ Wach auf. Das klassische Money Keyword ist tot. Beerdigt von autonomen KI-Agente
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Ich muss auch nicht zu was ist SEO oben stehen. Was ist SEO? Wird dir die AI beantworten? Das werden die alle und sollen sie auch. Ich will den Teffek ja gar nicht.“
+    „Natürlich, wenn ich jetzt, wenn ich jetzt noch noch ein zweites Wort dran hängen würde, jetzt Webdesign Berlin oder Webdesign Agentur, da kommt ja wieder, das ist das Agentur oder Freelancer. Wenn ich dann ein zweites Money Keyword heißt das ja im also Geldkeyword nenn das oft goldene Keywords. Also, wenn ich diese Kombi habe, Webdesign Agentur, Webdesign Freelancer, da gibt's noch ein paar.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2011s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (33:31)</span>
+      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1006s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (16:46)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

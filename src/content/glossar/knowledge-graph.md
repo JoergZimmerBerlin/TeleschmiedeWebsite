@@ -42,14 +42,14 @@ Moderne Answer Engines begnügen sich nicht mehr mit dem Auffinden von Schlagwor
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Gerade das ganze Vertrauensthema zur Domain und zum Topic. Wie oft nach deiner Marke oder deiner URL gesucht wird. Wie du sonst so im Internet und Social Media erscheinst. Das bezahlter Traffic in das Ranking einfließen kann. Die Reputation deiner Marke mit einfließt usw. Das alles macht SEO zum Teil des Markenaufbaus.“
+    „Es ging mir eine Zeit lang einfach darum, Traffic  zu haben, weil ich mir dachte, wenn du gar keinen Traffic hast, brauchst du auf jeden Fall Traffic,  um die Marke nach vorne zu bringen und einfach gesehen zu werden, wie Bushaltestellen, dass  man einfach im Netz gesehen wird. Aber dann hast du einen Haufen Mitreisende, die aber alle  nicht für dich bezahlen. Bei den Suchwörtern,.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7025863644387143680" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: LinkedIn-Beitrag von Jörg Zimmer</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=2597s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (43:17)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

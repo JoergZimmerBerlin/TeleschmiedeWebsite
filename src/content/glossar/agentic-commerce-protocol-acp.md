@@ -44,14 +44,14 @@ Ein KI-Agent, der eine solche Aufgabe übernimmt, kann sich nicht durch Cookie-B
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Also ich hatte für ganz ganz kurz diese Long bei ähm äh XT Commerce. Ähm, das ähm also Grüße Grüße an Mario Zanier, der der Gründer von Execmerce, die die das ist eine Shopsoftware, so wie wie es heute mehrere gibt. Die hatten damals mal ausgerufen, ja, ähm wir als Open Source Plattform wollen jetzt plötzlich Marketingdienste drumherum anbieten.“
+    „Arbeiten. Ich als Profi-Entwickler arbeite ja auch  viel damit, das nennt sich dann Agentic Coding: Wenn man der bessere Vibe-Coder ist, ist man  ein Agentic-Coding-Mensch, und dieses Buzzword macht derzeit auch die Runde. Vibe Coding  ist im Profibereich ein bisschen befleckt, für mich ist es ein wenig dasselbe, ich muss  jetzt nicht auf die feinen Unterschiede eingehen, die sich die Community ausgedacht hat,  aber letztlich ist es für mich, glaube ich,.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=dVGOMAVUNQk&t=814s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube SEOPresso (13:34)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=862s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (14:22)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

@@ -40,9 +40,40 @@ if (!fs.existsSync(quotePoolPath)) {
 const quotePool = JSON.parse(fs.readFileSync(quotePoolPath, "utf8"));
 console.log(`📚 ${quotePool.length} verbatim Zitate im Pool geladen.`);
 
-// Usage tracking for frequency capping (max 2 uses per quote to ensure variety)
+// Usage tracking for frequency capping (max 2-3 uses per quote to ensure variety)
 const quoteUsageCount = new Map();
 quotePool.forEach(q => quoteUsageCount.set(q.id, 0));
+
+function getSourceKey(quote) {
+  if (quote.type === "linkedin") return "SRC_LINKEDIN";
+  const title = quote.sourceTitle || "";
+  if (title.includes("SEOPresso")) return "SRC_SEOPRESSO";
+  if (title.includes("Never Code Alone")) return "SRC_NEVERCODE";
+  if (title.includes("Magic Writing")) return "SRC_MAGIC";
+  if (title.includes("Folge 5")) return "SRC_BLAGO_5";
+  if (title.includes("Antonio Blago")) return "SRC_BLAGO_4";
+  return "SRC_OTHER";
+}
+
+const SOURCE_LABELS = {
+  "SRC_LINKEDIN": "LinkedIn-Beiträge",
+  "SRC_SEOPRESSO": "Björn Darko (SEOPresso)",
+  "SRC_NEVERCODE": "Roland Golla (Never Code Alone)",
+  "SRC_MAGIC": "Michael Kaufhold (Magic Writing)",
+  "SRC_BLAGO_4": "Antonio Blago (Folge 4)",
+  "SRC_BLAGO_5": "Antonio Blago (Folge 5)"
+};
+
+const sourceUsageCount = new Map([
+  ["SRC_LINKEDIN", 0],
+  ["SRC_SEOPRESSO", 0],
+  ["SRC_NEVERCODE", 0],
+  ["SRC_MAGIC", 0],
+  ["SRC_BLAGO_4", 0],
+  ["SRC_BLAGO_5", 0]
+]);
+
+const TARGET_QUOTA_PER_SOURCE = 47; // ~1/6 von 281 Artikeln
 
 // Stopwords for scoring
 const STOPWORDS = new Set([
@@ -104,9 +135,37 @@ function scoreQuote(quote, articleTokens, slug, cat, title) {
     score += 8;
   }
 
-  // 5. Usage Penalty (heavily penalize repeated quotes to distribute quotes widely)
+  // 5. Source Affinities
+  const srcKey = getSourceKey(quote);
+  const lowerTitle = title.toLowerCase();
+  if (srcKey === "SRC_SEOPRESSO" && (/relaunch|migration|historie|erfahrung|mindset|philosophie|handwerk|ranking|backlink|linkbuilding|disziplin/.test(slug) || /relaunch|historie|erfahrung|ranking/.test(lowerTitle))) {
+    score += 12;
+  }
+  if (srcKey === "SRC_NEVERCODE" && (/dev|code|tech|gsc|crawler|index|sitemap|robots|server|statuscode|ssr|dns|link-header/.test(slug) || /technisch|code|developer/.test(lowerTitle))) {
+    score += 12;
+  }
+  if (srcKey === "SRC_MAGIC" && (/content|text|copywriting|intent|suchintention|keyword|wording|sprache|helpful/.test(slug) || /content|text|schreiben/.test(lowerTitle))) {
+    score += 12;
+  }
+  if (srcKey === "SRC_BLAGO_4" && (/ads|sea|cpc|budget|conversion|cro|roi|umsatz|vertrieb|business|kunde/.test(slug) || /ads|sea|conversion/.test(lowerTitle))) {
+    score += 12;
+  }
+  if (srcKey === "SRC_BLAGO_5" && (/ki|ai|geo|aeo|chatgpt|perplexity|gemini|llm|tracking|prompts|se-ranking/.test(slug) || /ai|ki|geo/.test(lowerTitle))) {
+    score += 12;
+  }
+  if (srcKey === "SRC_LINKEDIN" && (/brand|marke|e-e-a-t|trust|autorit|reputation|freelance|consulting/.test(slug) || /brand|marke|freelance/.test(lowerTitle))) {
+    score += 12;
+  }
+
+  // 6. Usage Penalty (heavily penalize repeated quotes to distribute quotes widely)
   const usages = quoteUsageCount.get(quote.id) || 0;
   score -= (usages * 25);
+
+  // 7. Source Balancing Quota Penalty (guarantees ~1/6 equal distribution)
+  const srcUsages = sourceUsageCount.get(srcKey) || 0;
+  if (srcUsages >= TARGET_QUOTA_PER_SOURCE) {
+    score -= ((srcUsages - TARGET_QUOTA_PER_SOURCE + 1) * 30);
+  }
 
   return score;
 }
@@ -126,6 +185,8 @@ function selectBestQuote(articleTokens, slug, cat, title) {
   // Increment usage count
   if (bestQuote) {
     quoteUsageCount.set(bestQuote.id, (quoteUsageCount.get(bestQuote.id) || 0) + 1);
+    const srcKey = getSourceKey(bestQuote);
+    sourceUsageCount.set(srcKey, (sourceUsageCount.get(srcKey) || 0) + 1);
   }
 
   return { quote: bestQuote, score: highestScore };
@@ -283,4 +344,11 @@ for (const count of usedQuotes.values()) {
   if (count > maxUsage) maxUsage = count;
 }
 console.log(`- Maximale Wiederholung eines Zitats: ${maxUsage}x (perfekt verteilte Varianz!)`);
+
+console.log(`\n⚖️ Quellen-Verteilung (Ausgewogenes Mischverhältnis ~1/6):`);
+for (const [k, v] of sourceUsageCount.entries()) {
+  const label = SOURCE_LABELS[k] || k;
+  const pct = (v / (allReports.length - 11) * 100).toFixed(1);
+  console.log(`- ${label}: ${v} Artikel (${pct}%)`);
+}
 console.log(`\n🎉 Fertig!`);

@@ -45,14 +45,14 @@ Um das zu beantworten, brauchst du ein völlig neues Arsenal an Werkzeugen. In d
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Genau, ist ja Verdreifachung von Arbeit. das ist ja in dem Sinne, da kann ja auch jeder selber mal die Kontrolle machen. Also wenn du jetzt zum Beispiel geh in Chachibiti, passest da ein Prompt rein, dann gehst du in Perplexity rein, dann gehst du in Gemina rein, dann gehst du in Claude rein und dann schau mal welche Antworten ankommen und welche Quellen da gewichtet werden.“
+    „Dem Motto, du brauchst gar keine, du brauchst gar keine Einstellung, wir wissen alles besser. Mhm. Aber ja, also sowas würde auch nur funktionieren, wenn dein Tracking richtig aufgesetzt ist.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1261s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (21:01)</span>
+      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2244s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (37:24)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

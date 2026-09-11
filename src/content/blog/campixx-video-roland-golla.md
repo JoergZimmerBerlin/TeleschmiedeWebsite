@@ -46,14 +46,14 @@ Wir haben dort spontanes Videomaterial produziert, bei dem im Moment der Aufnahm
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Bei Videokreationen scheitern die Leute ja oft. Aber vielleicht ist dann ja das die Möglichkeit wirklich mal eine AI anzuschmeißen und ich probiere jetzt da mal ein Video daraus zu generieren, dass ich Videokontent habe, dass ich einfach diesen Sprung rausschaffe von textlich, bildlicher Darstellung, was ja viel Netz vertreten ist.“
+    „Für Vibe Code und negatives Vibe vom Localhost.  Das negative Vibe vom Localhost ist natürlich so eine Sache. Wir haben dieses Vibe-Coding schon  überall in den URLs drin, wie du siehst, wenn ich mir eine der Seiten anschaue, es sind einfach  extrem viele Seiten. Wenn ich nach Coding suche, Coding-Tools, PHP-Coding, okay, also hat er den  Switch bei dir noch gar nicht geschafft. Du kommst.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=3350s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (55:50)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=4114s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (68:34)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

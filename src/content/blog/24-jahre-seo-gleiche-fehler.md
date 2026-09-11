@@ -84,14 +84,14 @@ Der Mensch neigt biologisch dazu, Abkürzungen zu suchen. Deshalb fallen Unterne
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Wenn du mich fragst, wo geht's hin, also es war schon es war schon die letzten Jahre schlimm diese was du manchmal jetzt auf den Tisch legen musst für geldwerte Suchwörter äh oder für überhaupt Zielgruppen, die die nahe am Kauf dran sind und das wird immer immer weiter teurer und selbst Seotreffic ist ja nicht kostenlos.“
+    „Gesagt habe, ich b ich äh mach kein Immobilien äh Kaufmann mehr. Ich mache halt Internet und habe eigene Projekte angefangen und mich dann Schritt für Schritt äh da reinge fuselt, alle Fehler mitgenommen, ähm die man so machen kann und ähm ja, also um es mal kurz zu machen, hab dann 10 Jahre lang nur eigenen Kram gemacht, nur eigene.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=1878s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (31:18)</span>
+      <a href="https://www.youtube.com/watch?v=dVGOMAVUNQk&t=212s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube SEOPresso (03:32)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

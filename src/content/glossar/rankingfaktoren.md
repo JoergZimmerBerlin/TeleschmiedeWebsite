@@ -41,14 +41,14 @@ Moderne Suchmaschinen und Large Language Models analysieren Webinhalte nicht meh
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Silberchart oder sowas ähm und äh dann kommst du auf eine Seite auch auf dem Mobiltelefon und die die die hat im sichtbaren Bereich, ne, Darbahner, Darnbner und Edo dann Edo dann zu der Information kommt, die hätten eigentlich die Möglichkeiten, dass äh das gab's auch damals mal in in AdSense ähm also das Monetarisierungsprogramm von Google.“
+    „In die Top zehn geschafft, und wenn ich das  positiv interpretiere, will Google deine Domain zu dem Suchwort nach oben schieben. Das ist  auch Geld wert, das wollte ich sagen, das sind die geldwerten Suchwörter, die du  jetzt schon anziehst. Da könnte man überlegen, PHP-Training heißt die Seite, jetzt gehe ich mal  rein. Die fängt an mit PHP-Schulungen für Symfony,.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=684s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (11:24)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3244s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (54:04)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

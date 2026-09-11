@@ -43,14 +43,14 @@ Wer heute in regionalen Suchanfragen dominieren will, konkurriert nicht mehr nur
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Krauler, dass die alle deine Informationen super aufbereitet finden. Da haben die Leute noch extrem viel äh Bedarf und Potenzial auch. Ja. Und dann um den Sprung zu machen, bitte geh auch zu den anderen, geh auch zu Google Maps, trag dein Business dort ein, optimier das Profil der Mann, das ist kostenlos.“
+    „Da gibt es also die Möglichkeit zu sehen, wenn ich eine Domain analysiere da drin und dann gehe ich auf den Tab Keywords und dann kann ich da freischalten, zeige mir mal auf den Keywords, zu denen ich jetzt schon renke, wo denn dann jetzt ein AIO von Google erscheint.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=1573s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Magic Writing Podcast (26:13)</span>
+      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=1886s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (31:26)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

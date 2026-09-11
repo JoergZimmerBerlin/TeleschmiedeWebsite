@@ -39,14 +39,14 @@ Pass mal uff, ick erzähl euch jetzt mal wat, worüber die meisten Wald-und-Wies
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Also nur, also nur BG, ne? Also ohne Manager. Ja. Mm. Ja. Na ja, weil das ist äh nur jetzt mal hypothetisch, du drückst 500 € ähäh Budget rein, wenn du wenn du den Anweisungen von Google Ads folgst, dann bist du ganz schnell deine 500 € los und hast gar nichts gekriegt, ne?“
+    „Diese hier, ohne den Parameter, und die  leitet aber dann weiter auf den Parameter, verstehst du? Wir machen mal den Live-Check,  also auf der Unterseite, die schon ein DE hat, sendest du hier ohne DE, mal gucken, was ist  das, Glossar, KI-Tools, Open Design Source, ein Link zu Open Design, jetzt gucken wir mal  nach Open Design, machen wir es mal händisch, ups,.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=2094s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (34:54)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=5869s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (97:49)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

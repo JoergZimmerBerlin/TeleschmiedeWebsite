@@ -52,14 +52,14 @@ Als Senior SEO Consultant habe ich beide Plattformen über viele Monate hinweg i
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Das will ich doch hoffen. Willst du es mal  richtig sehen? Die ist AI-only, das kommt in eurer Bubble auch verhalten an, aber sie generiert  sich derzeit noch direkt aus Claude heraus, wird aber jetzt Richtung China verändert, generiert  und aktualisiert sich aber trotz allem selbst.“
+    „Noch mal kurz zum SEO allgemein:  Jedes Ranking hängt an der URL, das Wichtige ist deine URL, die kommt aus  deiner Domain und ist Teil deiner Domain, aber das Ranking passiert auf der Unter-URL, hier  ist das Ranking, du rankst ja nicht mit deiner Startseite, die Startseite ist meist nur eine  Brückenseite, die etwas durchleiten soll, aber Rankings passieren auf URL-Ebene, und deswegen  ist die URL-Ebene wichtig, und da muss man gucken,.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=1418s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Never Code Alone (23:38)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=6603s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (110:03)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

@@ -40,14 +40,14 @@ Um jedoch zu verhindern, dass Entwickler und KI-Clients jede Schnittstelle manue
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Server, was äh jetzt hat er da noch ein Problem und oh, und dann setzt du dich hin und dann verschwendest du wieder deine Zeit. Und das wäre an vielen vielen, vielen Stellen einfach einfacher gewesen zu sagen, Mensch, hier du habe gehört, du machst was mit Servern. Kannst du mir mal helfen?“
+    „Eine Überblendung reinmachen, aber die Seite ist  schon schnell, er hatte aber auf dem Mobiltelefon kurz ein Problem, und auf dem Computer geht es  besser, das war, glaube ich, mein Server mal, der Computer-Wert war schon immer nicht so  schön. Also, ich bin jetzt noch mal kurz in der Google Search Console beim Thema globaler  PageSpeed. Es gibt den PageSpeed-Insights-Test,.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=dVGOMAVUNQk&t=2338s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube SEOPresso (38:58)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=7094s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (118:14)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

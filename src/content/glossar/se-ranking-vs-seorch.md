@@ -54,14 +54,14 @@ In diesem Praxis-Vergleich beleuchten wir die jeweiligen Stärken und Grenzen be
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Das war im SEO schon so und das ist im AIO AI, KI, SEO, wie auch immer man das nennen möchte, ist das auch so.“
+    „Das heißt aber eben Consulting. Und wenn man jetzt  guckt, was wird man hier suchen, die Schulung, jetzt kommt die Schulung nicht drin vor, wenn  ich die Seite nach den vorhandenen Wörtern im sichtbaren Text durchscanne. Aber im Ranking  ist noch die Seite, die zu der Führung gehört, PHP-Training, hier leitest du noch mal auf deine  Trainingsseite, okay, wäre ja schon mal was.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=295s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (04:55)</span>
+      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3583s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Never Code Alone (59:43)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

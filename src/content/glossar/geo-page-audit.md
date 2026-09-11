@@ -42,14 +42,14 @@ Moderne Audit-Plattformen wie Rankscale haben diesen Prozess professionalisiert.
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Das war so mein erster Berührungspunkt mit dem Internet. Ähm, ich habe dann äh 99 äh zusammen mit einem Kumpel eine Webseite selbst aufgesetzt, also Domainregistriert, Webseite gemacht und ähm da dann schnell festgestellt, dass mich der Besucherzähler eigentlich am meisten interessiert. Ähm, den gab's ja damals, ne? Stimmt ja, diese Uhr, die unten Limit lief. Ja. Ja.“
+    „Hätte, dann dann bitte bitte immer als erstes ähm auch die Google Search Konsole ist wiederum ein kostenloses Tool aus dem Google Universum, was dir zeigt, wie viele Seiten sind indexiert, ähm wie gut geht's deiner Seite selbst, wie wie rent deine Seite, wie schnell de Seite und und da kann man meiner Meinung nach ein paar interessante Sachen entdecken und auch verstehen, dass von.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=dVGOMAVUNQk&t=150s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube SEOPresso (02:30)</span>
+      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=1807s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Magic Writing Podcast (30:07)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

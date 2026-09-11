@@ -52,14 +52,14 @@ In diesem ausführlichen Praxis-Vergleich analysieren wir beide Lösungen auf Au
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Ich war beim Schnellschuss stehen geblieben:  Versucht doch einfach etwas Inhalt reinzumachen und nehmt ein paar Sachen auf wie Kurse,  Training, Schulung, Webinar oder was weiß ich, so etwas in die Richtung, Weiterbildung  liefert er auch ab, siehst du das? Alles auf deiner PHP-Training-Seite, das heißt, er mag  die, obwohl sie eigentlich optimierungswürdig ist, schon krass. Also, schreibst du vielleicht mit?  Die Schulung würde ich da reinnehmen wollen.“
+    „Ja. Ach, das war äh das war eine goldene Zeit. Ähm und die die war hochspannend. Ähm und damals ging damals ging das alles noch. Du konntest du konntest wirklich halt mit äh ich sag jetzt mal wenig wenig Inhalt innerhalb kürzester Zeit ähm auf auf Topositionen kommen. Also damals hat das Ranking noch nicht so lange gedauert. Ich bin auch.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=tD7cXuVcRPA&t=3764s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Never Code Alone (62:44)</span>
+      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=425s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (07:05)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

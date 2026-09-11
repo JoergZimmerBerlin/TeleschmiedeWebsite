@@ -42,14 +42,14 @@ Die zukunftssichere Antwort der Internet Engineering Task Force (IETF) und von I
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Mit einer rankenden Website kannst du herrlich informieren. Fragen und Probleme in Suchwörter verwandeln und langfristig eine starke Domain und damit eine starke Marke aufbauen.“
+    „Die bei Google z.B. Google hat ja jetzt letzte Woche letzte Woche, ja, wir sind Mai 2025, letzte Woche hat Google freigegeben den äh den Mode hier, diesen nicht nicht den nicht den EI Mode. Ich meine die, dass die äh Antworten mit KI heißt es in Deutschland, in Englisch heißt es AI Overview, dass das auch für nicht eingeloggte Google Nutzer erscheint.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7110656685735567360" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: LinkedIn-Beitrag von Jörg Zimmer</span>
+      <a href="https://www.youtube.com/watch?v=32YkPQtOJDU&t=838s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Magic Writing Podcast (13:58)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

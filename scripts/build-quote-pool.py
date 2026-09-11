@@ -78,9 +78,11 @@ for item in youtube_raw:
     if len(text) < 65 or len(text) > 460:
         continue
         
-    # Ensure it starts with an uppercase letter and ends with punctuation
-    if not text[0].isupper() or not re.search(r'[.!?]$', text):
-        continue
+    # Capitalize first letter
+    text = text[0].upper() + text[1:]
+    # Ensure ending punctuation
+    if not re.search(r'[.!?]$', text):
+        text += '.'
         
     lower = text.lower()
     # Filter out English quotes

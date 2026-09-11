@@ -41,14 +41,14 @@ Dieser Check testet Websites vollautomatisch auf 22 hochgradig technische und in
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Aber ich finde es irgendwie gut, dass man das irgendwie noch macht. Klar, wird jetzt nicht performantechnisch groß was bringen, aber alleine dadurch, dass man so Seiten dazu hat, ich schon, es jetzt nicht ganz, man muss es jetzt nicht ganz abwerten, aber Also ich sende auch manchmal meinen Kunden sowas, wenn die irgendwelche Fragen haben, weil ich ja auch nicht immer alles von vorne erklären will.“
+    „Aber was ich sagen wollte ist, man muss dann auch ein technischer Check oder die Google Search Konsole, die würde dir das zeigen. Mm. die Interpretation, wie gravierend ist das denn? Mhm.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=pJFZzv5LEvk&t=2087s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer Folge 5 (34:47)</span>
+      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3085s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (51:25)</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>

@@ -41,13 +41,13 @@ Ein optimiertes Snippet ist heute weit mehr als ein psychologischer Klick-Anreiz
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „In der heutigen Zeit ist die mobile Optimierung entscheidend. Stellen Sie sicher, dass Ihre Website auf mobilen Geräten gut funktioniert und ein ansprechendes mobiles Design hat.“
+    „Bei der Google Optimierung liegt mein Fokus auf der Optimierung der Kundenzufriedenheit. Das heißt alles tun damit der Nutzer seine Suchanfrage auf dieser Seite für gelöst erklärt.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7105500055561740288" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:6951143151206055937" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
         <span>Quelle: LinkedIn-Beitrag von Jörg Zimmer</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>

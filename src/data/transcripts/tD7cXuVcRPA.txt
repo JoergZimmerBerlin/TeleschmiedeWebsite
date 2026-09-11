@@ -1,13 +1,33 @@
-Heute wird es technisch und strategisch: In diesem Livestream-Format begrüßt Roland Golla Jörg Zimmer zu einer ausführlichen SEO-Sprechstunde. 
+In dieser 2-stündigen Live-Session auf dem Kanal Never Code Alone begrüßt Roland Golla den Berliner Senior SEO & AI Search Consultant Jörg Zimmer zu einer ausführlichen, ungeschönten SEO-Sprechstunde.
 
-Wir schauen uns aktuelle SEO-Herausforderungen an, geben Einblicke in echte Anwendungsfälle und beantworten Fragen direkt aus dem Chat. Ob technisches SEO, Suchmaschinen-Strategien oder allgemeine Fragen zur Sichtbarkeit – hier wird Klartext geredet.
+Gemeinsam führen sie einen tiefgreifenden Live-Check an Rolands Plattform nevercodealone.de durch. Jörg analysiert Sistrix-Sichtbarkeitsdaten, deckt Indexierungsblocker in der Google Search Console auf, prüft Canonical Domain Weiterleitungen, testet mit SEORCH und erklärt praxisnah den Unterschied zwischen klassischem SEO, Vibe-Coding und zukunftssicherer Generative Engine Optimization (GEO).
+
+**💡 Kernthemen:**
+• SEO vs. GEO im Live-Vergleich: Warum KI-Crawler Fakten statt Design extrahieren und warum eine saubere technische Website für das KI-Zeitalter unverzichtbar bleibt
+• Das Prinzip SEO-Sprechstunde: Wie 2 Stunden fokussierte Ursachenforschung und Live-Audits teure Agentur-Knebelverträge ersetzen
+• Sistrix Sichtbarkeits- & Keyword-Audit: Warum nevercodealone.de für „Hugging“ auf Platz 3 rankt, aber bei Conversion-starken PHP-Trainings Potenzial liegen lässt
+• Snippet- & Content-Optimierung: Title-Tags, Meta-Descriptions und die Vermeidung von Keyword-Kannibalisierung zwischen Unterseiten
+• Google Search Console Deep Dive: Sitemaps, Crawling-Status, Fehlerbehebung bei „Gecrawlt – zurzeit nicht indexiert“
+• Relaunch- & Domain-Hygiene: Canonical Checks, Statuscode 301, saubere Weiterleitungen und die Vermeidung toxischer 404-Fehler
+• Kostenlose SEO-Tools für Entwickler: Praktischer Deep-Crawl mit SEORCH als Alternative zu teuren Enterprise-Suiten
+• PageSpeed & Core Web Vitals (CrUX): Warum Laborwerte in Lighthouse trügen und echte Chrome-Nutzerdaten (CLS & LCP) den Ausschlag geben
 
 **⏱️ Timestamps (Kapitel):**
-00:00:00 SEO-Experte Jörg Zimmer im Talk zu KI und Google
-00:03:29 GEO versus SEO: Wie KI-Suchsysteme wirklich ticken
-00:07:21 Die SEO-Sprechstunde: Ablauf und Nutzen erklärt
-00:26:20 Live SEO-Analyse: Sistrix Sichtbarkeitsindex im Check
-00:33:18 Hugging Face: Keyword-Analyse, Suchvolumen und CPC
-00:52:39 PHP-Training-Seite: Title-Tag und Meta-Description optimieren
-01:13:33 Google Search Console: Sitemap, Indexierung und 404-Fehler
-01:54:34 Core Web Vitals: PageSpeed Insights und CLS-Fehler fixen
+00:04 Begrüßung bei Never Code Alone & Einstieg in die SEO-Session
+03:26 GEO versus SEO: Wie KI-Suchmaschinen ticken und was Crawler extrahieren
+04:30 Die 2-stündige SEO-Sprechstunde: Ablauf, Nutzen und Prinzip ohne Knebelvertrag
+13:18 Entwickler-Positionierung: Vibe-Coding, PHP-Refactoring und Seminar-Angebote
+24:59 Live-Analyse mit Sistrix: Sichtbarkeitsindex & Ranking-Verlauf von nevercodealone.de
+28:39 Keyword-Analyse: Ranking auf Platz 3 für „Hugging“, Suchvolumen und Suchintention
+35:00 Conversion-Check: Kontaktformular, Lead-Generierung und Traffic-Monetarisierung
+40:00 Unterseiten-Performance: Content-Cluster und thematische Konsistenz
+53:36 PHP-Training Unterseite: Title-Tag, Meta-Description & Keyword-Kannibalisierung
+01:13:33 Google Search Console Live: Sitemaps, Indexierungsstatus & 404-Monitoring
+01:15:11 Relaunch-Best-Practices: Sitemaps sichern & Inhaltsverzeichnisse für Google
+01:24:15 404-Fehlerseiten: Broken Links aufspüren und Crawl-Budget schonen
+01:35:00 SEORCH Onpage-Deep-Crawl: Kostenloser technischer SEO-Check für Entwickler
+01:44:33 Canonical Domain Check & Statuscode 301: Domainauflösung sauber weiterleiten
+01:50:00 Interne Verlinkung & URL-Struktur: Warum jedes Ranking an der URL hängt
+01:57:55 PageSpeed Insights: Ladezeiten, Server-Antwortzeiten und Performance-Hebel
+01:59:48 Core Web Vitals & Chrome UX-Report (CrUX): CLS, LCP und echte Nutzersignale
+02:08:15 Fazit & Takeaways: Was Entwickler und Webdesigner bei SEO beachten müssen

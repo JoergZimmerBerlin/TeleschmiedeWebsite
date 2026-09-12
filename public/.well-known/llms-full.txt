@@ -1030,9 +1030,9 @@ Vergessen wir für einen Moment den Text-Content. AEO gewinnt man auch auf dem S
 
 Der absolute Goldstandard 2026. Wenn ein KI-Agent deine Seite anfragt, nutzt er im HTTP Request Header spezifische `Accept`-Werte. Ein Browser sendet `Accept: text/html`. Ein KI-Crawler sendet zunehmend `Accept: text/markdown` oder `application/json`.
 
-Anstatt dem Crawler die volle HTML-Seite auszuliefern, fangen wir den Request am Edge (z.B. in der Middleware) ab und servieren stattdessen die rohe Markdown-Version des Inhalts. Das maximiert die Datendichte pro Token.
+Anstatt dem Crawler die volle HTML-Seite auszuliefern, fängt die Middleware den Request am Edge ab und liefert stattdessen die rohe Markdown-Version des Inhalts. Das maximiert die Datendichte pro Token.
 
-**Trailing Slashes Rule:** Vergiss nicht: Bei internen Verlinkungen müssen alle Links zwingend auf einen Slash enden (z.B. `[Unsere Agentur](https://teleschmie.de/agentur/)`), um serverseitige Redirect-Ketten zu vermeiden. Jeder Redirect frisst wertvolle Agent-Millisekunden.
+**Trailing Slashes Rule:** Vergiss nicht: Bei internen Verlinkungen müssen alle Links zwingend auf einen Slash enden (z.B. `[SEO-Leistungen](https://teleschmie.de/leistungen/)`), um serverseitige Redirect-Ketten zu vermeiden. Jeder Redirect frisst wertvolle Agent-Millisekunden.
 
 ### 2. Die llms.txt als Leitfaden
 
@@ -39406,7 +39406,7 @@ Jedes Jahr aufs Neue. Jedes verdammte Mal. Nein, SEO ist nicht tot. SEO hat sich
 
 Auch in diesem Jahr werden Leute einen Relaunch feiern, der keine Weiterleitungen enthält. Ganze Webseiten und Shops werden an den Start gehen, die alles missachten, was SEO-Leute als "ein bisschen wichtig" erachten. Die Guidelines für sauberen Code, sauberes Spiel und saubere Webseiten werden auch dieses Jahr **tausendfach ignoriert**.
 
-Und dann? In meiner [SEO-Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-erklaert/) schlagen fast wöchentlich Kunden auf, deren Relaunch im Desaster endete. Und dann erklären wir zum 500. Mal, warum ein Relaunch ohne SEO-Begleitung wie ein Hausbau ohne Statiker ist: Es sieht schön aus, bis es zusammenbricht.
+Und dann? In meiner [SEO-Sprechstunde](https://teleschmie.de/blog/seo-sprechstunde-erklaert/) schlagen fast wöchentlich Kunden auf, deren Relaunch im Desaster endete. Und dann erkläre ich zum 500. Mal, warum ein Relaunch ohne SEO-Begleitung wie ein Hausbau ohne Statiker ist: Es sieht schön aus, bis es zusammenbricht.
 
 > „Der Klassiker wäre dann noch: 'SEO haben wir erst letztes Jahr gemacht.'" — **Christian Feichtner**, LinkedIn-Kommentar
 

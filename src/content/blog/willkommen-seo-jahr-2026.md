@@ -86,7 +86,7 @@ Jedes Jahr aufs Neue. Jedes verdammte Mal. Nein, SEO ist nicht tot. SEO hat sich
 
 Auch in diesem Jahr werden Leute einen Relaunch feiern, der keine Weiterleitungen enthält. Ganze Webseiten und Shops werden an den Start gehen, die alles missachten, was SEO-Leute als "ein bisschen wichtig" erachten. Die Guidelines für sauberen Code, sauberes Spiel und saubere Webseiten werden auch dieses Jahr **tausendfach ignoriert**.
 
-Und dann? In meiner [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) schlagen fast wöchentlich Kunden auf, deren Relaunch im Desaster endete. Und dann erklären wir zum 500. Mal, warum ein Relaunch ohne SEO-Begleitung wie ein Hausbau ohne Statiker ist: Es sieht schön aus, bis es zusammenbricht.
+Und dann? In meiner [SEO-Sprechstunde](/blog/seo-sprechstunde-erklaert/) schlagen fast wöchentlich Kunden auf, deren Relaunch im Desaster endete. Und dann erkläre ich zum 500. Mal, warum ein Relaunch ohne SEO-Begleitung wie ein Hausbau ohne Statiker ist: Es sieht schön aus, bis es zusammenbricht.
 
 > „Der Klassiker wäre dann noch: 'SEO haben wir erst letztes Jahr gemacht.'" — **Christian Feichtner**, LinkedIn-Kommentar
 

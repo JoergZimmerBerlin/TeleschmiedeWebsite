@@ -90,9 +90,9 @@ Vergessen wir für einen Moment den Text-Content. AEO gewinnt man auch auf dem S
 
 Der absolute Goldstandard 2026. Wenn ein KI-Agent deine Seite anfragt, nutzt er im HTTP Request Header spezifische `Accept`-Werte. Ein Browser sendet `Accept: text/html`. Ein KI-Crawler sendet zunehmend `Accept: text/markdown` oder `application/json`.
 
-Anstatt dem Crawler die volle HTML-Seite auszuliefern, fangen wir den Request am Edge (z.B. in der Middleware) ab und servieren stattdessen die rohe Markdown-Version des Inhalts. Das maximiert die Datendichte pro Token.
+Anstatt dem Crawler die volle HTML-Seite auszuliefern, fängt die Middleware den Request am Edge ab und liefert stattdessen die rohe Markdown-Version des Inhalts. Das maximiert die Datendichte pro Token.
 
-**Trailing Slashes Rule:** Vergiss nicht: Bei internen Verlinkungen müssen alle Links zwingend auf einen Slash enden (z.B. `[Unsere Agentur](/agentur/)`), um serverseitige Redirect-Ketten zu vermeiden. Jeder Redirect frisst wertvolle Agent-Millisekunden.
+**Trailing Slashes Rule:** Vergiss nicht: Bei internen Verlinkungen müssen alle Links zwingend auf einen Slash enden (z.B. `[SEO-Leistungen](/leistungen/)`), um serverseitige Redirect-Ketten zu vermeiden. Jeder Redirect frisst wertvolle Agent-Millisekunden.
 
 ### 2. Die llms.txt als Leitfaden
 

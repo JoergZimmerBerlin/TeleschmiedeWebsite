@@ -1,9 +1,9 @@
 ---
 category: 'AI SEO & Generative Search'
-title: "KI-SEO Beratung: Agentur für die Antwort-Ära"
-meta_title: "KI-SEO Beratung: Agentur Guide (2026)"
-description: "KI-SEO Beratung: Eine echte Agentur trimmt deine Seite auf RAG-Dominanz. Wer heute nicht hart für KI optimiert, fliegt raus. (2026)"
-meta_description: "KI-SEO Beratung: Eine echte Agentur trimmt deine Seite auf RAG-Dominanz. Wer heute nicht hart für KI optimiert, fliegt raus. (2026)"
+title: "KI-SEO Beratung: Generative Engine & RAG-Architektur (2026)"
+meta_title: "KI-SEO Beratung: Strategie & RAG-Optimierung (2026)"
+description: "KI-SEO Beratung für B2B & Marken: RAG-Architektur, Zitations-Dominanz & KI-Sichtbarkeit in ChatGPT & Perplexity mit 25 Jahren Erfahrung. (2026)"
+meta_description: "KI-SEO Beratung für B2B & Marken: RAG-Architektur, Zitations-Dominanz & KI-Sichtbarkeit in ChatGPT & Perplexity mit 25 Jahren Erfahrung. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-03-19"
 image: "../../assets/images/glossar/3d-light/glossar-ki-seo-beratung-3d.png"
@@ -159,6 +159,25 @@ Schau dir deinen aktuellen SEO-Dienstleister genau an. Wenn das letzte Reporting
 Die Evolution der Informationsbeschaffung wartet auf niemanden. In den USA werden bereits heute massive Marktanteile nicht mehr über die klassische Google-Suche, sondern über KI-gestützte Research-Agenten und AI Overviews verteilt. 
 
 Hör auf, für Algorithmen aus dem Jahr 2023 zu optimieren. Mach deine Website maschinenlesbar. Bau ein semantisches Netzwerk auf, das so stark und eindeutig ist, dass die LLMs deine Architektur als primäre Quelle akzeptieren müssen. Das ist kein Hexenwerk, sondern knallhartes technisches Handwerk.
+
+<!-- KI-SEO Sprechstunde CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-accent/10 border border-lime-accent/30 text-lime-accent text-xs font-semibold uppercase tracking-wider mb-4">
+    <span>★ KI-Readiness & RAG-Audit</span>
+    <span>•</span>
+    <span>1:1 Live-Analyse</span>
+  </div>
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
+    Bereit für die Ära der KI-Suche?
+  </h3>
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Schluss mit Keyword-Dichten von gestern. Buche deine persönliche 1:1 SEO-Sprechstunde mit Jörg Zimmer und bring deine Webarchitektur auf echten RAG-Standard.
+  </p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">
+    <span>Jetzt 1:1 KI-SEO Sprechstunde anfragen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

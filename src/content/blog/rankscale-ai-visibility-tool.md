@@ -1,8 +1,8 @@
 ---
-title: "Rankscale: Ein AI Visibility Tool für Profis"
-meta_title: "Rankscale: AI Visibility Tool für Profis (2026)"
-description: "Rankscale im Test: AI Visibility in ChatGPT und Perplexity messen. Sentiment-Analyse, 17 LLMs und echter Business-ROI im Detail erklärt. (2026)"
-meta_description: "Rankscale im Test: AI Visibility in ChatGPT und Perplexity messen. Sentiment-Analyse, 17 LLMs und echter Business-ROI im Detail erklärt. (2026)"
+title: "Rankscale Test: Der beste AI Rank Tracker & LLM-Tool (2026)"
+meta_title: "Rankscale Test: Der beste AI Rank Tracker & LLM-Tool (2026)"
+description: "Rankscale im Test: AI Visibility in ChatGPT, Claude & Perplexity messen. 17 LLMs, Sentiment-Radar & ROI. Jetzt KI-Rankings tracken! (2026)"
+meta_description: "Rankscale im Test: AI Visibility in ChatGPT, Claude & Perplexity messen. 17 LLMs, Sentiment-Radar & ROI. Jetzt KI-Rankings tracken! (2026)"
 date: "2026-01-19"
 category: "AI SEO"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-ai-visibility-tool-rankscale-hat-einen-activity-7418685351940022272-7Z27"
@@ -118,11 +118,25 @@ Wer nur ein einziges System analysiert, verliert mehr als die Hälfte seiner pot
 
 In meiner [SEO-Sprechstunde](/seo-sprechstunde/) erleben wir regelmäßig Aha-Momente, wenn wir mit Kunden die tatsächliche Wahrnehmung ihrer Marke in den KI-Engines analysieren. Daten schlagen Bauchgefühl in jedem einzelnen Fall.
 
-<div class="my-8 bg-lime-accent/10 border-l-4 border-lime-600 p-6 rounded-r-lg">
-  <h3 class="text-xl font-bold text-dark mb-2 !mt-0 !border-none !pb-0">Möchtest du wissen, wie KIs über dein Unternehmen urteilen?</h3>
-  <p class="text-dark text-sm mb-4">Hör auf zu raten und mach deine KI-Reputation messbar. Mit Rankscale überwachst du 17 führende LLMs und sicherst deinen Wettbewerbsvorsprung:</p>
-  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">Rankscale für dein Unternehmen testen * (Partnerlink) →</a>
-  <p class="text-[11px] text-gray-600 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
+<!-- Rankscale Partnerlink Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-accent/10 border border-lime-accent/30 text-lime-accent text-xs font-semibold uppercase tracking-wider mb-4">
+    <span>★ 17 Sprachmodelle im Live-Tracking</span>
+    <span>•</span>
+    <span>ChatGPT, Claude & Perplexity</span>
+  </div>
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-2 !mt-0 !border-none !pb-0">
+    Möchtest du wissen, wie KIs über dein Unternehmen urteilen?
+  </h3>
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Hör auf zu raten und mach deine generative KI-Reputation messbar. Mit Rankscale überwachst du 17 führende LLMs, Sentiment und Quellenzitate in Echtzeit.
+  </p>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    <span>Rankscale jetzt testen * (Partnerlink)</span>
+    <span aria-hidden="true">→</span>
+  </a>
+  <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
 </div>
 
 <!-- LinkedIn CTA Box -->

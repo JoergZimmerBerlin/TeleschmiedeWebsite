@@ -1,8 +1,8 @@
 ---
-title: "SE Ranking Übersicht: Die All-in-One SEO-Plattform im Detail"
-meta_title: "SE Ranking: Funktionen, Tools & Übersicht (2026)"
-description: "Überblick über alle Funktionen der SE Ranking SEO-Plattform: Vom Rank-Tracker über Audits bis zur KI-Sichtbarkeit. (2026)"
-meta_description: "Überblick über alle Funktionen der SE Ranking SEO-Plattform: Vom Rank-Tracker über Audits bis zur KI-Sichtbarkeit. (2026)"
+title: "SE Ranking Übersicht: Die All-in-One SEO-Plattform im Detail (2026)"
+meta_title: "SE Ranking: Alle Tools, Funktionen & Test im Überblick (2026)"
+description: "Was kann SE Ranking? Rank-Tracker, Website-Audit & KI-Visibility im Praxistest. Alle Funktionen, Tools & Tarife im Detail. (2026)"
+meta_description: "Was kann SE Ranking? Rank-Tracker, Website-Audit & KI-Visibility im Praxistest. Alle Funktionen, Tools & Tarife im Detail. (2026)"
 sameAs: "https://seranking.com/"
 category: "Technisches SEO & UX"
 date: "2026-08-13"

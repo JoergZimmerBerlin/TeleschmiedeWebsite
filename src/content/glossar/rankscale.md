@@ -1,8 +1,8 @@
 ---
-title: "Rankscale: Eine der führenden Plattformen für AI Search Optimization"
-meta_title: "Rankscale: AI Search Plattform im Detail (2026)"
-description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"
-meta_description: "Rankscale: Wie du durch AI Rank Tracking und Page Audits deine Marken-Sichtbarkeit in der generativen KI-Suche messbar steigerst. (2026)"
+title: "Rankscale: Führende Plattform für AI Search Optimization (2026)"
+meta_title: "Rankscale im Test: AI Rank Tracker & GEO Plattform (2026)"
+description: "Rankscale im Test: Was kann das führende AI Rank Tracking Tool? Funktionen, GEO Page Audit, Preise & LLM-Visibility im Praxistest. (2026)"
+meta_description: "Rankscale im Test: Was kann das führende AI Rank Tracking Tool? Funktionen, GEO Page Audit, Preise & LLM-Visibility im Praxistest. (2026)"
 category: "AI SEO & Generative Search"
 tags:
   - "Rankscale"
@@ -203,7 +203,21 @@ Um blinden Aktionismus zu vermeiden, nutzt die Plattform eine **Impact-basierte 
 
 👉 **Mehr Details:** [Alles zur AI Competitor Analysis lesen](/glossar/ai-competitor-analysis/)
 
-👉 **Direkt zum Tool:** [AI Competitor Analysis auf Rankscale testen (Partnerlink)](https://rankscale.ai/features/ai-competitor-analysis?via=offer)
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">
+    ★ Offizieller Partner-Deal • 17 LLMs im Live-Tracking
+  </span>
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+    Eigene Marke in ChatGPT & Perplexity tracken
+  </h3>
+  <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Erkenne Markenerwähnungen, Zitationsquellen und Sentiment in 17+ Sprachmodellen. Jetzt Rankscale testen und GEO-Vorsprung sichern.
+  </p>
+  <a href="https://rankscale.ai/?via=offer" target="_blank" rel="noopener noreferrer" class="btn-primary">
+    <span>Rankscale kostenlos testen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 
 <div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">

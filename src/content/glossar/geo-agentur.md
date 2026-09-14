@@ -1,8 +1,9 @@
 ---
 category: "AI SEO & Generative Search"
-title: "GEO Agentur (Generative Engine Optimization)"
-meta_title: "GEO Agentur: KI-Sichtbarkeit (2026)"
-description: "Eine GEO Agentur optimiert deine Infrastruktur für KI-Systeme wie ChatGPT, Perplexity und LLM-Pipelines nach modernsten Standards. (2026)"
+title: "GEO Agentur: Generative Engine Optimization für KI-Suche (2026)"
+meta_title: "GEO Agentur: Generative Engine Optimization (2026)"
+description: "GEO Agentur gesucht? Jörg Zimmer optimiert Web-Infrastrukturen für ChatGPT, Perplexity & Google AI Overviews. 25 Jahre Erfahrung. (2026)"
+meta_description: "GEO Agentur gesucht? Jörg Zimmer optimiert Web-Infrastrukturen für ChatGPT, Perplexity & Google AI Overviews. 25 Jahre Erfahrung. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q134083964"
 date: "2026-03-10"
 image: "../../assets/images/glossar/3d-light/glossar-geo-agentur-3d.webp"
@@ -43,14 +44,14 @@ Wenn ein B2B-Käufer einen detaillierten Prompt formuliert, um die passenden Sof
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Webdesign. Genau. Ich mache kein Webdesign Agentur Berlin. Mache ich nicht, ne? Me mache ich wirklich nicht. Aber angenommen, er würde mich da jetzt zitieren und dann kriege ich hier ein Haufen Anrufe, wo die Leute sagen, ich habe da eine Webseite, ich möchte mal gerne schönes Design und dann muss ich ja immer sagen, wie kommen Sie denn auf.“
+    „Durch die Analyse von Daten kann man das Verhalten und die Wünsche der Zielgruppe besser verstehen und die Marketingstrategie entsprechend anpassen.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=ZIFCXUXypSc&t=3736s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube Talk Antonio Blago & Jörg Zimmer (62:16)</span>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7019828915183452160" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: LinkedIn</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>
@@ -198,6 +199,31 @@ Dadurch wird Suchmaschinenberatung von einer reinen Marketing-Disziplin zu einem
     <span>Beitrag auf LinkedIn öffnen</span>
     <span aria-hidden="true">→</span>
   </a>
+</div>
+
+<!-- GEO Sparring / Sprechstunde Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-accent/10 border border-lime-accent/30 text-lime-accent text-xs font-semibold uppercase tracking-wider mb-4">
+    <span>★ Direkte Expertenberatung</span>
+    <span>•</span>
+    <span>Architektur & RAG</span>
+  </div>
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
+    Deine Web-Infrastruktur fit für ChatGPT & Perplexity machen
+  </h3>
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Statt teurer Agentur-Retainer: Lass deine Website in einer 1:1 SEO-Sprechstunde analysieren oder hol dir das erfahrene Freelancer-Team für die technische Umsetzung an Bord.
+  </p>
+  <div class="flex flex-wrap justify-center gap-4">
+    <a href="/seo-sprechstunde/" class="btn-primary inline-flex">
+      <span>SEO-Sprechstunde anfragen</span>
+      <span aria-hidden="true">→</span>
+    </a>
+    <a href="/freelancer-team/" class="btn-secondary inline-flex text-white border border-white/20 hover:border-white px-6 py-3 rounded-full font-semibold">
+      <span>Freelancer-Team kennenlernen</span>
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
 </div>
 
 Investiere in die Zukunft deiner digitalen Sichtbarkeit. Eine kompetente GEO Agentur bereitet deine Infrastruktur auf die Anforderungen autonomer Agenten vor und sichert deinem Unternehmen die Spitzenposition in den Entscheidungsprozessen der generativen Ära.

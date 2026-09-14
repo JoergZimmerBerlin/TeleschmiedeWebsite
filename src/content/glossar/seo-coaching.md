@@ -1,9 +1,9 @@
 ---
 category: 'SEO Basics & Onpage'
-title: "SEO Coaching: Werde zum LLM-Architekten"
-meta_title: "SEO Coaching: LLM-Architekt (2026)"
-description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pipelines, auth.md und KI-Crawler gnadenlos für dich nutzt. (2026)"
-meta_description: "SEO Coaching mit Tacheles: Vergiss Keywords. Lerne, wie du RAG-Pipelines, auth.md und KI-Crawler gnadenlos für dich nutzt. (2026)"
+title: "SEO Coaching für Unternehmen & Teams: Praxis-Wissen (2026)"
+meta_title: "SEO Coaching: 1:1 Sparring & Team-Training (2026)"
+description: "Individuelles SEO Coaching für Teams & Entscheider: Praxisnahes 1:1 Sparring, technisches SEO & KI-Suche mit 25 Jahren Erfahrung. (2026)"
+meta_description: "Individuelles SEO Coaching für Teams & Entscheider: Praxisnahes 1:1 Sparring, technisches SEO & KI-Suche mit 25 Jahren Erfahrung. (2026)"
 sameAs: "https://www.wikidata.org/wiki/Q180711"
 date: "2026-03-10"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
@@ -178,6 +178,25 @@ Trifft ein algorithmisches Core Update eine Website unerwartet mit herben Sichtb
 ## Nachhaltige Wettbewerbsvorteile durch Inhouse-Expertise
 
 Ein professionelles SEO-Coaching macht Unternehmen unabhängig von teuren Dienstleistern und etabliert dauerhaftes Know-how im eigenen Team. Ergänzt durch ein initiales [SEO-Audit](/glossar/seo-audit/) zur Standortbestimmung, befähigt dieser praxisnahe Ansatz Mitarbeiter, moderne Webarchitekturen souverän zu steuern und ihre Marke als unverzichtbare Autorität in den Antwortsystemen von Mensch und Maschine zu verankern.
+
+<!-- Coaching / Sprechstunde CTA Box -->
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-accent/10 border border-lime-accent/30 text-lime-accent text-xs font-semibold uppercase tracking-wider mb-4">
+    <span>★ 1:1 Experten-Sparring</span>
+    <span>•</span>
+    <span>25 Jahre Erfahrung</span>
+  </div>
+  <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
+    Individuelles SEO Coaching & 1:1 Live-Analyse
+  </h3>
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Keine Standard-Folien, kein Agentur-Overhead. Buche deine persönliche SEO-Sprechstunde mit Jörg Zimmer für direkte Antworten, technische Audits und strategisches Sparring.
+  </p>
+  <a href="/seo-sprechstunde/" class="btn-primary inline-flex">
+    <span>Jetzt SEO-Sprechstunde anfragen</span>
+    <span aria-hidden="true">→</span>
+  </a>
+</div>
 
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">

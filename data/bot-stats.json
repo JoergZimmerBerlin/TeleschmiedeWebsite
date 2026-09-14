@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "total_ai_bots": 14,
-    "last_updated": "2026-09-14T20:48:33.910Z"
+    "total_ai_bots": 20,
+    "last_updated": "2026-09-14T21:18:40.864Z"
   },
   "24/Mar/2026": {
     "total": 120,
@@ -149,6 +149,110 @@
     "errors": {
       "total": 0,
       "byCategory": {}
+    }
+  },
+  "14/Sep/2026": {
+    "total": 8,
+    "categories": {
+      "ai_training": 2,
+      "geo_search": 2,
+      "seo_classic": 2,
+      "ai_assistant": 2
+    },
+    "bots": {
+      "GPTBot": {
+        "count": 2,
+        "provider": "OpenAI",
+        "purpose": "Training",
+        "category": "ai_training",
+        "errors": 0,
+        "lastSeen": "14/Sep/2026"
+      },
+      "PerplexityBot": {
+        "count": 2,
+        "provider": "Perplexity",
+        "purpose": "Search Index (GEO)",
+        "category": "geo_search",
+        "errors": 0,
+        "lastSeen": "14/Sep/2026"
+      },
+      "Googlebot": {
+        "count": 2,
+        "provider": "Google",
+        "purpose": "Standard Indexierung",
+        "category": "seo_classic",
+        "errors": 0,
+        "lastSeen": "14/Sep/2026"
+      },
+      "Claude-User": {
+        "count": 2,
+        "provider": "Anthropic",
+        "purpose": "Citation / Browsing",
+        "category": "ai_assistant",
+        "errors": 2,
+        "lastSeen": "14/Sep/2026"
+      }
+    },
+    "pages": {
+      "/glossar/rankscale/": {
+        "count": 2,
+        "errors": 0,
+        "uniqueBots": 1,
+        "categories": {
+          "ai_training": 2
+        }
+      },
+      "/glossar/ai-tracking-tools/": {
+        "count": 2,
+        "errors": 0,
+        "uniqueBots": 1,
+        "categories": {
+          "geo_search": 2
+        }
+      },
+      "/seo-freelancer-berlin/": {
+        "count": 2,
+        "errors": 0,
+        "uniqueBots": 1,
+        "categories": {
+          "seo_classic": 2
+        }
+      },
+      "/nicht-vorhanden/": {
+        "count": 2,
+        "errors": 2,
+        "uniqueBots": 1,
+        "categories": {
+          "ai_assistant": 2
+        }
+      }
+    },
+    "folders": {
+      "/glossar": {
+        "count": 4,
+        "categories": {
+          "ai_training": 2,
+          "geo_search": 2
+        }
+      },
+      "/seo-freelancer-berlin": {
+        "count": 2,
+        "categories": {
+          "seo_classic": 2
+        }
+      },
+      "/nicht-vorhanden": {
+        "count": 2,
+        "categories": {
+          "ai_assistant": 2
+        }
+      }
+    },
+    "errors": {
+      "total": 2,
+      "byCategory": {
+        "ai_assistant": 2
+      }
     }
   }
 }

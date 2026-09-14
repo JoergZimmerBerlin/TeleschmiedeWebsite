@@ -61,20 +61,19 @@ async function check() {
       } else {
         console.log(`[${i}/${MAX_ATTEMPTS}] Prüfe GitHub Actions Status...`);
         // Abfrage der öffentlichen GitHub API für den Status des letzten Workflows auf 'main'
-        const ghRes = await fetch("https://api.github.com/repos/JoergZimmerBerlin/TeleschmiedeWebsite/actions/runs?branch=main&per_page=1", { cache: 'no-store' });
+        const ghRes = await fetch("https://api.github.com/repos/JoergZimmerBerlin/TeleschmiedeWebsite/actions/runs?branch=main&per_page=5", { cache: 'no-store' });
         if (ghRes.ok) {
           const data = await ghRes.json();
           let localSha = '';
           try {
-            import('child_process').then(cp => { localSha = cp.execSync('git rev-parse HEAD').toString().trim(); }).catch(()=>{});
-            // Da dynamischer import asynchron ist, hier die synchrone Variante:
-            // Aber ES Module importiert am besten oben. Wir lesen es einfach synchron:
             const { execSync } = await import('child_process');
             localSha = execSync('git rev-parse HEAD').toString().trim();
           } catch(e) {}
 
           if (data.workflow_runs && data.workflow_runs.length > 0) {
-            const run = data.workflow_runs[0];
+            const run = data.workflow_runs.find(r => r.head_sha === localSha && (r.name || '').includes('Deploy')) ||
+                        data.workflow_runs.find(r => r.head_sha === localSha) ||
+                        data.workflow_runs[0];
             if (localSha && run.head_sha !== localSha) {
               console.log(`⏳ GitHub Action für aktuellen Commit (${localSha}) ist noch nicht der aktuellste in der API...`);
             } else if (run.status === 'completed') {

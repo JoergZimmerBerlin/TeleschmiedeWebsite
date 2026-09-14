@@ -56,3 +56,7 @@ Sitemap: https://teleschmie.de/.well-known/ai-catalog.json
 Sitemap: https://teleschmie.de/llms.txt
 Sitemap: https://teleschmie.de/llms-full.txt
 Sitemap: https://teleschmie.de/ai.txt
+
+# Humans behind this site:
+# https://teleschmie.de/humans.txt
+

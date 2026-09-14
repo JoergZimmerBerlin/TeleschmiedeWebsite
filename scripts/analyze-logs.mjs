@@ -21,36 +21,49 @@ const BOT_CATEGORIES = {
 };
 
 const BOT_LIST = [
+  // 1. Classic Search Engines
   { pattern: /Googlebot/i, name: 'Googlebot', provider: 'Google', purpose: 'Standard Indexierung', category: 'seo_classic' },
   { pattern: /Bingbot/i, name: 'Bingbot', provider: 'Microsoft', purpose: 'Standard Indexierung', category: 'seo_classic' },
-  // AI Assistants (Real-time Citations)
+  // 2. AI Assistants (Real-time Citations & Live Fetch)
   { pattern: /ChatGPT-User/i, name: 'ChatGPT-User', provider: 'OpenAI', purpose: 'Citation / Browsing', category: 'ai_assistant' },
   { pattern: /Claude-User|Claude-Web/i, name: 'Claude-User', provider: 'Anthropic', purpose: 'Citation / Browsing', category: 'ai_assistant' },
   { pattern: /Perplexity-User/i, name: 'Perplexity-User', provider: 'Perplexity', purpose: 'Citation / Browsing', category: 'ai_assistant' },
-  // GEO / KI-Suche (Indexing for AI Answers)
+  // 3. GEO / AI Search Engines (Indexing for Generative Answers)
   { pattern: /OAI-SearchBot/i, name: 'OAI-SearchBot', provider: 'OpenAI', purpose: 'Search Index (GEO)', category: 'geo_search' },
   { pattern: /PerplexityBot/i, name: 'PerplexityBot', provider: 'Perplexity', purpose: 'Search Index (GEO)', category: 'geo_search' },
   { pattern: /Google-Other/i, name: 'Google-Other', provider: 'Google', purpose: 'Search/Discover (GEO)', category: 'geo_search' },
-  { pattern: /Applebot/i, name: 'Applebot', provider: 'Apple', purpose: 'Apple Intelligence & Siri', category: 'geo_search' },
-  // KI-Grounding / RAG
+  // 4. Grounding & RAG
   { pattern: /BingPreview/i, name: 'BingPreview', provider: 'Microsoft', purpose: 'Grounding (RAG)', category: 'ai_grounding' },
   { pattern: /Amazonbot/i, name: 'Amazonbot', provider: 'Amazon', purpose: 'RAG / Shopping', category: 'ai_grounding' },
-  // AI Training
+  // 5. AI Model Training (High Precedence: Check Extended variants BEFORE base crawlers)
+  { pattern: /Applebot-Extended/i, name: 'Applebot-Extended', provider: 'Apple', purpose: 'Apple Intelligence Training', category: 'ai_training' },
+  { pattern: /Applebot/i, name: 'Applebot', provider: 'Apple', purpose: 'Apple Intelligence & Siri', category: 'geo_search' },
+  { pattern: /Google-Extended/i, name: 'Google-Extended', provider: 'Google', purpose: 'Gemini AI Training', category: 'ai_training' },
   { pattern: /GPTBot/i, name: 'GPTBot', provider: 'OpenAI', purpose: 'Training', category: 'ai_training' },
   { pattern: /ClaudeBot/i, name: 'ClaudeBot', provider: 'Anthropic', purpose: 'Training', category: 'ai_training' },
-  { pattern: /Applebot-Extended/i, name: 'Applebot-Extended', provider: 'Apple', purpose: 'Apple Intelligence Training', category: 'ai_training' },
   { pattern: /Meta-ExternalAgent/i, name: 'Meta-ExternalAgent', provider: 'Meta', purpose: 'Meta AI Training', category: 'ai_training' },
   { pattern: /Bytespider/i, name: 'Bytespider', provider: 'ByteDance', purpose: 'Training & Search', category: 'ai_training' },
-  { pattern: /CCBot/i, name: 'CCBot', provider: 'CommonCrawl', purpose: 'Training', category: 'ai_training' }
+  { pattern: /CCBot/i, name: 'CCBot', provider: 'CommonCrawl', purpose: 'Training', category: 'ai_training' },
+  { pattern: /cohere-ai/i, name: 'Cohere-AI', provider: 'Cohere', purpose: 'LLM Training', category: 'ai_training' },
+  { pattern: /Diffbot/i, name: 'Diffbot', provider: 'Diffbot', purpose: 'Knowledge Graph', category: 'ai_training' }
 ];
 
 function parseLogLine(line) {
   // Format: ip - - [dd/MMM/yyyy:HH:mm:ss +zzzz] "GET /url HTTP/1.1" 200 1234 "referer" "User-Agent"
-  // Note: Bytes can be number or '-' (e.g. 304 or 0 bytes). Referer can be empty or '-'
   const match = line.match(/^(\S+) \S+ \S+ \[([^\]]+)\] "(\S+) (\S+) [^"]*" (\d+) \S+(?: "(?:[^"]*)" "([^"]*)")?/);
   if (!match) return null;
   const ua = match[6] || '';
-  return { date: match[2].split(':')[0], url: match[4], status: parseInt(match[5]), ua };
+  
+  // Clean URL: strip query parameters and hash fragments
+  let rawUrl = match[4] || '/';
+  const cleanUrl = rawUrl.split('?')[0].split('#')[0] || '/';
+
+  return { 
+    date: match[2].split(':')[0], 
+    url: cleanUrl, 
+    status: parseInt(match[5]), 
+    ua 
+  };
 }
 
 async function analyzeLogs() {
@@ -58,12 +71,17 @@ async function analyzeLogs() {
   
   let stats = {};
   if (fs.existsSync(STATS_FILE)) {
-    stats = JSON.parse(fs.readFileSync(STATS_FILE, 'utf8'));
+    try {
+      stats = JSON.parse(fs.readFileSync(STATS_FILE, 'utf8'));
+    } catch (e) {
+      console.warn("Notice: could not parse existing stats file, creating new structure.");
+    }
   }
 
   // Ensure _meta exists
   if (!stats._meta) stats._meta = { total_ai_bots: BOT_LIST.length };
   stats._meta.last_updated = new Date().toISOString();
+  stats._meta.total_ai_bots = BOT_LIST.length;
 
   // Determine which files to process
   const filesToProcess = [];
@@ -91,6 +109,9 @@ async function analyzeLogs() {
   if (filesToProcess.length === 0) {
     console.log("No log files found. Skipping parsing, using existing stats.");
   } else {
+    // Collect daily stats fresh for all parsed dates to prevent duplication
+    const parsedDays = {};
+
     filesToProcess.forEach(filePath => {
       console.log(`Parsing: ${path.basename(filePath)}`);
       let content = '';
@@ -116,19 +137,24 @@ async function analyzeLogs() {
 
         linesParsed++;
 
-        if (!stats[data.date]) {
-          stats[data.date] = { total: 0, categories: {}, bots: {}, pages: {}, folders: {}, errors: { total: 0, byCategory: {} } };
+        if (!parsedDays[data.date]) {
+          parsedDays[data.date] = { 
+            total: 0, 
+            categories: {}, 
+            bots: {}, 
+            pages: {}, 
+            folders: {}, 
+            errors: { total: 0, byCategory: {} } 
+          };
         }
 
-        const day = stats[data.date];
+        const day = parsedDays[data.date];
         day.total++;
         day.categories[bot.category] = (day.categories[bot.category] || 0) + 1;
 
-        // Folder analysis (e.g., /blog, /glossar)
-        const folder = data.url.split('/')[1] ? `/${data.url.split('/')[1]}` : '/';
-        if (!folder.startsWith('/')) { // Handle edge cases
-          return;
-        }
+        // Folder analysis (e.g., /blog, /glossar, or root)
+        const parts = data.url.split('/').filter(Boolean);
+        const folder = (parts.length > 0 && !parts[0].includes('.')) ? `/${parts[0]}` : '/';
         
         if (!day.folders[folder]) day.folders[folder] = { count: 0, categories: {} };
         day.folders[folder].count++;
@@ -141,10 +167,10 @@ async function analyzeLogs() {
         day.bots[bot.name].lastSeen = data.date;
 
         if (!day.pages[data.url]) {
-          day.pages[data.url] = { count: 0, errors: 0, bots: new Set(), categories: {} };
+          day.pages[data.url] = { count: 0, errors: 0, uniqueBots: 0, _botSet: new Set(), categories: {} };
         }
         day.pages[data.url].count++;
-        day.pages[data.url].bots.add(bot.name);
+        day.pages[data.url]._botSet.add(bot.name);
         day.pages[data.url].categories[bot.category] = (day.pages[data.url].categories[bot.category] || 0) + 1;
 
         if (data.status >= 400) {
@@ -157,16 +183,16 @@ async function analyzeLogs() {
       console.log(`- Finished ${path.basename(filePath)}: ${linesParsed} lines relevant for AI analytics.`);
     });
 
-    // Post-process sets to counts across all days
-    Object.values(stats).forEach(day => {
-      if (day.pages) {
-        Object.values(day.pages).forEach(page => {
-          if (page.bots && page.bots instanceof Set) {
-            page.uniqueBots = page.bots.size;
-            delete page.bots;
-          }
-        });
-      }
+    // Finalize uniqueBots and merge parsed days into stats
+    Object.entries(parsedDays).forEach(([date, day]) => {
+      Object.values(day.pages).forEach(page => {
+        if (page._botSet) {
+          page.uniqueBots = page._botSet.size;
+          delete page._botSet;
+        }
+      });
+      // Replace or update date with accurate fresh calculation
+      stats[date] = day;
     });
   }
 

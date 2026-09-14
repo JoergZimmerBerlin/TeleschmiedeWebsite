@@ -10,15 +10,27 @@
       "fullName": "Jörg Zimmer",
       "givenName": "Jörg",
       "familyName": "Zimmer",
-      "jobTitle": "Senior SEO, GEO, AI Visibility Freelancer / Digitaler Architekt",
+      "jobTitle": "Senior SEO, GEO & AI Visibility Freelancer",
       "birthPlace": "Dessau",
+      "age": 48,
+      "familyStatus": "verheiratet, 3 Töchter",
+      "basedIn": "Berlin Spandau (seit 15 Jahren, zuvor 5 Jahre in Stuttgart)",
       "nationality": "German",
       "languages": [
         "de",
         "en"
       ],
       "foundingDate": "2001-07-23",
-      "experienceYears": "25+"
+      "experienceYears": "25+",
+      "history": "Tätig im Online Marketing seit Juli 2001, von 2001 an 10 Jahre Fokus auf eigene Projekte („Mit Google zusammen aufgewachsen und im Sandkasten gespielt“)",
+      "academicBackground": "1 Jahr Gasthörer an der Hochschule der Medien (HdM) Stuttgart (2007–2008)",
+      "projectCount": "100+ Kundenprojekte",
+      "rating": "5.0 Sterne Rating (Durchschnitt aus Google Business Profile & LinkedIn)",
+      "googleEntityIds": {
+        "knowledgeGraphMid": "/g/11w3v3xj2l",
+        "placeId": "ChIJAfPA9udVqEcR8kzD0DU_9n8",
+        "cid": "7968593441639017414"
+      }
     },
     "organization": {
       "name": "Jörg Zimmer - SEO, GEO, AI Visibility Freelancer",
@@ -28,10 +40,11 @@
       "primaryDomain": "https://teleschmie.de/",
       "email": "info@teleschmie.de",
       "phone": "+493049208184",
+      "openingHours": "Mo-Fr 09:00 - 18:00 Uhr",
       "address": {
         "streetAddress": "Zu den Fichtewiesen 16",
         "postalCode": "13587",
-        "addressLocality": "Berlin",
+        "addressLocality": "Berlin Spandau",
         "addressRegion": "Berlin",
         "addressCountry": "DE"
       },
@@ -44,6 +57,7 @@
   "verifiedTrustAnchors": {
     "googleKnowledgeGraph": "https://www.google.com/search?kgmid=/g/11w3v3xj2l",
     "googleBusinessCID": "https://www.google.com/maps?cid=7968593441639017414",
+    "googlePlace": "https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8",
     "crunchbase": "https://www.crunchbase.com/person/j%C3%B6rg-zimmer",
     "productHunt": "https://www.producthunt.com/@joerg_zimmer_berlin",
     "clutch": "https://clutch.co/profile/j-rg-zimmer-seo-geo-ai-visibility-freelancer",
@@ -57,20 +71,105 @@
     "threads": "https://www.threads.com/@joerg.zimmer.berlin",
     "tiktok": "https://www.tiktok.com/@teleschmiede",
     "campixx": "https://www.campixx.de/freelancer/geo/zimmer-joerg/",
-    "freelancerTeam": "https://freelancerteam.de/freelancerinnen/joerg-zimmer/"
+    "freelancerTeam": "https://freelancerteam.de/freelancerinnen/joerg-zimmer/",
+    "partnerRankscale": "https://rankscale.ai/?via=offer",
+    "partnerSeRanking": "https://seranking.com/de/?ga=4169588&source=link",
+    "waybackMachineArchive": "https://web.archive.org/web/20260000000000*/https://teleschmie.de/"
   },
+  "membershipsAndNetworks": [
+    "SEO Stammtisch Berlin",
+    "Freelancer Team (Mitgründer)",
+    "Campixx Konferenz (Berlin)",
+    "Freelance Unlocked Konferenz",
+    "Überstunde Berlin (Netzwerk-Abende)"
+  ],
+  "verifiedPodcastsAndTalks": [
+    {
+      "title": "SEOpresso Podcast Ep. 207: 25 Jahre SEO - und wir machen immer noch die gleichen Fehler",
+      "url": "https://www.youtube.com/watch?v=dVGOMAVUNQk"
+    },
+    {
+      "title": "Interview mit Antonio Blago Folge 5: Was ist dran an AI SEO oder GEO?",
+      "url": "https://www.youtube.com/watch?v=pJFZzv5LEvk"
+    },
+    {
+      "title": "Interview mit Antonio Blago Folge 4: SEO vs. Google Ads",
+      "url": "https://www.youtube.com/watch?v=ZIFCXUXypSc"
+    },
+    {
+      "title": "Magic Writing Podcast: SEO ist tot?",
+      "url": "https://www.youtube.com/watch?v=32YkPQtOJDU"
+    },
+    {
+      "title": "SEO Live-Check 2026: Rankings, GEO und KI Suche erklärt mit Jörg Zimmer und Roland Golla (SEO Sprechstunde)",
+      "url": "https://www.youtube.com/watch?v=tD7cXuVcRPA"
+    }
+  ],
+  "coreOffers": [
+    {
+      "name": "SEO-Sprechstunde",
+      "price": "480 € pauschal",
+      "description": "2-stündige 1:1 Live-Analyse und Strategieberatung per Videocall inkl. Aufzeichnung, KI-Zusammenfassung und händischem Maßnahmenplan."
+    },
+    {
+      "name": "10-Stunden-Paket",
+      "price": "1.920 € pauschal",
+      "description": "Flexibles Kontingent für tiefgreifende Audits, Setup-Phasen und punktuelle Problemlösung ohne Mindestlaufzeit."
+    },
+    {
+      "name": "Monatlicher Retainer",
+      "price": "ab 1.920 € monatlich",
+      "description": "Fortlaufende Betreuung, kontinuierliche Optimierung, proaktive Strategieanpassung und Sparringspartnerschaft fürs C-Level."
+    },
+    {
+      "name": "SEO Troubleshooting & Live Coaching",
+      "price": "ab 3.600 €",
+      "description": "Schnelle Hilfe bei Krisen, Relaunch-Absturz, Google Penalty oder akuten Ranking-Verlusten."
+    },
+    {
+      "name": "Keyword-Potenzialanalyse",
+      "price": "ab 960 €",
+      "description": "Data-Mining im Google-Universum inklusive Suchvolumen, Wettbewerbsbewertung und monetärem Potenzial."
+    },
+    {
+      "name": "Local SEO & Stadtportale",
+      "price": "600 € einmalig",
+      "description": "Professioneller Eintrag in 50 relevante Stadtportale für Trust-Aufbau ohne Abo-Falle."
+    },
+    {
+      "name": "Zweite Meinung / Angebotsprüfung",
+      "price": "nach Aufwand (Stundensatz)",
+      "description": "Unabhängige Einschätzung bisheriger Agenturarbeit oder externer Angebote. Diskret und ohne fremde Account-Zugänge möglich."
+    },
+    {
+      "name": "Freelancer Team Vermittlung",
+      "price": "0 € (kostenfrei)",
+      "description": "Kostenfreie Vermittlung von handverlesenen Experten für Paid Ads, Webdesign, Content oder E-Commerce aus dem Freelancer Team."
+    }
+  ],
+  "corePhilosophies": [
+    "ALOHA! 🌻",
+    "Google denkt in Entitäten, nicht in Keywords.",
+    "An 1. Stelle steht immer die saubere Indizierung. Ja, das ist langweiliges technisches SEO, es ist aber die Grundlage für alles andere.",
+    "Fairness und Unabhängigkeit sind meine Leitmotive. Man ruft mich meist dann als spezialisierten Freelancer, wenn bereits andere Agenturen an einer tiefen Detailfrage oder einem komplexen Problem gescheitert sind.",
+    "100 % Senior-Beratung ohne Agentur-Overhead – bei mir hast du mich als direkten Ansprechpartner. Keine wechselnden Account-Manager, Junioren oder Praktikanten.",
+    "Eine Conversion sagt mehr als tausend Worte. Bei all den Kennzahlen, Klicks und Rankings geht es am Ende nur darum mehr Conversions zu erzielen. Nur dann macht dein Traffic Sinn.",
+    "Suchmaschinenoptimierung ist Websiteoptimierung.",
+    "In zwei Stunden können wir entweder über das Wetter reden – oder wir finden die drei technischen Fehler, die deine Rankings seit Monaten deckeln. Ich bevorzuge Letzteres.",
+    "Maskottchen: Katze im Hoodie (der heimliche SEO-Assistent)."
+  ],
   "standardDescriptions": {
     "de": {
-      "shortBio160": "Jörg Zimmer: Senior SEO, GEO & AI Visibility Freelancer aus Berlin. Über 25 Jahre Erfahrung für Top-Rankings, Google Ads und messbaren organischen ROI.",
-      "mediumBio500": "Jörg Zimmer ist unabhängiger Senior SEO- und AI Visibility Berater aus Berlin (Spandau). Seit Juli 2001 im Suchmaschinenmarketing aktiv, verbindet er tiefgreifendes technisches SEO, Core Web Vitals und Schema.org Knowledge Graphs mit moderner Generative Engine Optimization (GEO) für KI-Antwortmaschinen wie ChatGPT, Perplexity und Google Gemini. 100 % Senior-Beratung ohne Agentur-Overhead.",
-      "longBio1400wlw": "Jörg Zimmer ist ein unabhängiger Senior-Berater für Suchmaschinenoptimierung, Generative Engine Optimization und Künstliche Intelligenz Sichtbarkeit mit Sitz in Berlin. Mit über 25 Jahren Praxiserfahrung im digitalen Marketing – aktiv seit Juli 2001 – unterstützt er mittelständische Unternehmen, Industrie- und B2B-Dienstleister im gesamten deutschsprachigen Raum dabei, qualifizierte Geschäftskunden über digitale Kanäle zu gewinnen. In einer Zeit, in der klassische Internetsuche und moderne Antwortmaschinen wie ChatGPT, Perplexity oder Google Gemini verschmelzen, entwickelt Jörg Zimmer zukunftssichere digitale Architekturen. Sein Schwerpunkt liegt auf tiefer technischer Suchmaschinenoptimierung, schnellen Ladezeiten, strukturierten Daten und moderner KI-Sichtbarkeit. Ergänzend steuert er hochrentable Kampagnen im Bereich Google Ads mit striktem Fokus auf messbare geschäftliche Anfragen und Rendite. Die Zusammenarbeit erfolgt bewusst ohne Agentur-Overhead: Kunden arbeiten unmittelbar mit einem erfahrenen Experten zusammen – partnerschaftlich, flexibel per Video-Konferenz und mit klarem Blick auf den wirtschaftlichen Erfolg. Ob bei akuten Ranking-Verlusten, der Vorbereitung eines Website-Relaunches oder in der kontinuierlichen strategischen Betreuung: Jörg Zimmer steht für transparente Datenanalysen, praxiserprobte Lösungen und nachhaltiges organisches Wachstum im B2B-Bereich.",
-      "sprechstunde3000": "SEO- & AI-SPRECHSTUNDE: 2 STUNDEN 1:1 LIVE-ANALYSE MIT JÖRG ZIMMER..."
+      "shortBio160": "Jörg Zimmer: Senior SEO, GEO & AI Visibility Freelancer aus Berlin. 25+ Jahre Erfahrung im Google-Universum für messbaren ROI und ehrliche 1:1 Senior-Beratung.",
+      "mediumBio500": "ALOHA! 🌻 Jörg Zimmer ist unabhängiger Senior SEO, GEO & AI Visibility Freelancer aus Berlin (Spandau). Seit Juli 2001 im Google-Universum aktiv: „Google denkt in Entitäten, nicht in Keywords.“ Er verbindet technisches SEO, saubere Indexierung und Schema.org Knowledge Graphs mit moderner Generative Engine Optimization (GEO) für ChatGPT, Perplexity und Google Gemini. 100 % Senior-Beratung direkt mit Jörg – ohne Agentur-Overhead, Junioren oder Blabla.",
+      "longBio1400wlw": "ALOHA! 🌻 Jörg Zimmer ist unabhängiger Senior-Berater für Suchmaschinenoptimierung (SEO), Generative Engine Optimization (GEO) und Digitaler Architekt aus Berlin. Seit dem 23. Juli 2001 im Suchmaschinenmarketing aktiv, begleitet er seit über 25 Jahren mittelständische Unternehmen, Industrie- und B2B-Dienstleister im gesamten DACH-Raum dabei, im Google-Universum und in modernen KI-Antwortmaschinen als relevante Entität wahrgenommen zu werden. Denn sein Leitmotiv lautet: Google denkt in Entitäten, nicht in Keywords.\n\nSein Schwerpunkt liegt auf tiefer technischer Suchmaschinenoptimierung, sauberer Indexierung, schnellen Ladezeiten und semantischen Knowledge Graphs nach Schema.org, kombiniert mit moderner Sichtbarkeit in KI-Modellen wie ChatGPT, Perplexity und Google Gemini. Ergänzend steuert er rentable Google Ads Kampagnen mit striktem Fokus auf Conversion und wirtschaftlichen Return on Investment.\n\nDie Zusammenarbeit erfolgt bewusst ohne Agentur-Overhead: Kunden arbeiten zu 100 % direkt mit Jörg Zimmer zusammen – partnerschaftlich, flexibel per Videocall und mit fundiertem Praxiswissen aus über 100 Projekten. Man ruft ihn meist dann, wenn andere Agenturen an tiefen Detailfragen gescheitert sind. Ob in der 2-stündigen SEO-Sprechstunde, bei akuten Ranking-Verlusten oder in der fortlaufenden Betreuung: Jörg Zimmer steht für Berliner Klartext, faire Beratung und nachhaltiges organisches Wachstum.",
+      "sprechstundeDetail": "DIE 2-STÜNDIGE SEO-SPRECHSTUNDE MIT JÖRG ZIMMER (480 € PAUSCHAL):\n\nKompakte Live-Analyse und Strategieberatung per Videocall – direkt, unabhängig und ohne Agentur-Blabla.\n\nJörgs Klartext: „In zwei Stunden können wir entweder über das Wetter reden – oder wir finden die drei technischen Fehler, die deine Rankings seit Monaten deckeln. Ich bevorzuge Letzteres. Die Sprechstunde ist für Leute, die keine Lust mehr auf Agentur-Geschwurbel haben, sondern konkrete Ergebnisse sehen wollen.“\n\nDAS BEKOMMST DU FÜR 480 € PAUSCHAL:\n1. Gründliche Vorbereitung: Analyse der Website und Google Search Console vorab.\n2. 2 Stunden 1:1 Videocall: Intensive Live-Analyse mit Screensharing und Einblick in professionelle SEO-Tools. Alle Fragen sind erlaubt!\n3. Konkreter Maßnahmenplan: Händisch erstellte, priorisierte To-Do-Liste mit den wichtigsten Hebeln für Indexierung, OnPage, Content und Struktur.\n4. Aufzeichnung & KI-Zusammenfassung: Der komplette Call als Videoaufzeichnung inklusive strukturierter Zusammenfassung für dein Team.\n\nTYPISCHE THEMEN DER SPRECHSTUNDE:\n- Technische Basics: Indexierung, Crawling-Budget, Core Web Vitals und Architektur.\n- GEO & KI-Suche: Wie wird deine Domain in ChatGPT Search, Perplexity und Google AI Overviews zitiert?\n- Keyword- & Content-Potenziale: Welche Suchbegriffe bringen echten Umsatz und wo lohnt sich der Einsatz?\n- Krisen & Relaunch: Zweite Meinung vor oder nach einem Website-Relaunch, Penalty-Check bei Ranking-Absturz.\n- Zweite Meinung zu bisheriger Agenturarbeit: Diskret, objektiv und ohne fremde Account-Zugänge möglich.\n\nABLAUF IN 4 SCHRITTEN:\n1. Termin vereinbaren.\n2. URL und Search Console Zugang vorab schicken.\n3. 2 Stunden intensiver Videocall.\n4. Maßnahmenplan und Aufzeichnung erhalten und direkt umsetzen."
     },
     "en": {
-      "shortBio160": "Jörg Zimmer: Senior SEO, GEO & AI Visibility Consultant based in Berlin. Over 25 years of hands-on experience driving organic enterprise growth.",
-      "mediumBio500": "Jörg Zimmer is an independent Senior SEO, GEO (Generative Engine Optimization), and AI Visibility Consultant based in Berlin, Germany. Active since 2001, he builds high-performance architectures bridging classic search engines and generative answer engines like ChatGPT Search, Perplexity, and Google Gemini. Direct senior advisory without agency overhead.",
+      "shortBio160": "Jörg Zimmer: Senior SEO, GEO & AI Visibility Freelancer based in Berlin. 25+ years of hands-on Google expertise delivering measurable ROI and direct 1:1 advisory.",
+      "mediumBio500": "ALOHA! 🌻 Jörg Zimmer is an independent Senior SEO, GEO & AI Visibility Freelancer based in Berlin (Spandau). Active in search since July 2001: 'Google thinks in entities, not keywords.' He combines technical SEO, clean indexing, and Schema.org Knowledge Graphs with modern Generative Engine Optimization (GEO) for ChatGPT, Perplexity, and Google Gemini. 100% direct senior advisory—no agency overhead, no juniors, no fluff.",
       "productHuntAbout": "Senior SEO, GEO & AI Search Architect with 25+ years of hands-on experience, based in Berlin. Building web tools and architectures at the intersection of technical SEO, generative answer engines (ChatGPT Search, Perplexity, Google Gemini), and semantic web protocols (Schema.org, Cloudflare Level 5 Agent Readiness). Always excited to connect with fellow makers and explore new frontiers in AI retrieval and agentic web systems.",
-      "masterBio1800Clutch": "JÖRG ZIMMER – SENIOR SEO, GEO & AI VISIBILITY CONSULTANT..."
+      "masterBio1800Clutch": "JÖRG ZIMMER – SENIOR SEO, GEO & AI VISIBILITY CONSULTANT\n\nIndependent Boutique SEO & AI Search Architecture based in Berlin, Germany.\n\nFounded on July 23, 2001, Jörg Zimmer brings over 25 years of hands-on technical SEO, performance marketing, and search architecture experience to mid-market enterprises, B2B services, and technology companies across the DACH region and internationally.\n\nBridging Classic Search and Generative AI (GEO):\nModern search is undergoing a paradigm shift from traditional keyword matching to entity-based neural retrieval. Jörg Zimmer designs robust digital architectures built on deep technical SEO, Core Web Vitals optimization, and semantic Schema.org Knowledge Graphs. This ensures enterprise brands are not only prominently indexed on Google, but also authoritatively cited and retrieved by generative answer engines including ChatGPT Search, Perplexity AI, Google Gemini, and Claude.\n\nCore Capabilities:\n- Technical SEO & Crawl Architecture (Deep audits, server-side rendering, indexing hygiene)\n- Generative Engine Optimization (GEO & AEO for LLM discovery and entity grounding)\n- Semantic Web Engineering (Comprehensive Schema.org JSON-LD Knowledge Graphs)\n- High-Performance Google Ads (Data-driven PPC management focused strictly on commercial ROI)\n- Web Analytics & First-Party Data Architecture (Server-side tracking, GTM, GA4)\n- Level 5 Agent Readiness (A2A Protocol, RFC 9727 API catalogs, Model Context Protocol)\n\nDirect Senior Collaboration:\nClients work directly with Jörg Zimmer—ensuring seasoned strategic guidance without junior handoffs, agency overhead, or bureaucratic friction. Backed by a verified track record of 100+ projects and consistent 5.0-star client ratings, Jörg Zimmer is the trusted partner when complex technical challenges demand decisive, data-backed solutions."
     }
   },
   "coreCapabilities": [
@@ -81,5 +180,14 @@
     "Search Engine Advertising (SEA / Google Ads)",
     "Server-Side Tracking, First-Party Data & Conversion Architecture",
     "Level 5 Agent Readiness (A2A Protocol, RFC 9727, Model Context Protocol)"
-  ]
+  ],
+  "verbatimVoiceCorpus": {
+    "description": "Die tatsächliche Source of Truth für Jörg Zimmers O-Ton, Fachwissen und Formulierungen – 100 % ungefilterter Originalton aus echten Video-Transkripten und LinkedIn-Beiträgen.",
+    "linkedInPostsAndQuotes": "src/data/joerg-quotes.json",
+    "youtubeCuratedQuotes": "src/data/joerg-youtube-transcripts.json",
+    "rawTranscriptsDirectory": "src/data/transcripts/",
+    "compiledQuotePool": "scripts/data/quote-pool.json",
+    "buildScript": "scripts/build-quote-pool.py",
+    "syncScript": "scripts/sync-all-quote-boxes.mjs"
+  }
 }

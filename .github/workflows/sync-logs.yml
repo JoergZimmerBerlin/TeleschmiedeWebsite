@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci --legacy-peer-deps
 
-      - name: Download Logs from IONOS via SFTP (Absolute /logs)
+      - name: "Download Logs from IONOS via SFTP (Absolute /logs)"
         id: download-logs-root
         uses: pressidium/lftp-mirror-action@v1
         continue-on-error: true
@@ -44,7 +44,7 @@ jobs:
           onlyNewer: true
           options: '--verbose --parallel=2 --include-glob=access.log*'
 
-      - name: Fallback: Download Logs from Relative 'logs'
+      - name: "Fallback: Download Logs from Relative logs"
         if: steps.download-logs-root.outcome != 'success'
         uses: pressidium/lftp-mirror-action@v1
         continue-on-error: true

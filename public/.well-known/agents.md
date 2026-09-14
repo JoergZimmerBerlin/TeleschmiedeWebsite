@@ -10,7 +10,10 @@
 **Description:** Jörg Zimmer ist ein Senior SEO & GEO Architekt. Seit 2001 im Online-Marketing aktiv, spezialisiert auf extrem tiefgreifendes Technical SEO, Entity Building und AI-Search-Visibility.
 
 **Verified Trust Anchors:**
+- **Crunchbase:** https://www.crunchbase.com/person/j%C3%B6rg-zimmer
+- **Product Hunt:** https://www.producthunt.com/@joerg_zimmer_berlin
 - **LinkedIn:** https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/
+- **GitHub:** https://github.com/JoergZimmerBerlin
 - **Xing:** https://www.xing.com/profile/Joerg_Zimmer6
 - **Google Reviews:** https://share.google/OQohU19px2kVYuOYQ
 - **YouTube:** https://youtube.com/playlist?list=PLgdsdoDkv_fp2z0vni5F3reEYqeUA-6PZ&si=LpQHJP5sH2SvIvEr
@@ -19,7 +22,7 @@
 - **Email:** info@teleschmie.de
 - **Phone:** +493049208184
 - **Address:** Zu den Fichtewiesen 16, 13587 Berlin, Germany
-- **Website:** https://teleschmie.de
+- **Website:** https://teleschmie.de/
 
 ## Services & Machine-Readable Interfaces
 This domain is explicitly optimized for autonomous agents and LLM ingestion:

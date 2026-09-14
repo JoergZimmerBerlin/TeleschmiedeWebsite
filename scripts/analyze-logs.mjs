@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import zlib from 'zlib';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -24,26 +25,32 @@ const BOT_LIST = [
   { pattern: /Bingbot/i, name: 'Bingbot', provider: 'Microsoft', purpose: 'Standard Indexierung', category: 'seo_classic' },
   // AI Assistants (Real-time Citations)
   { pattern: /ChatGPT-User/i, name: 'ChatGPT-User', provider: 'OpenAI', purpose: 'Citation / Browsing', category: 'ai_assistant' },
-  { pattern: /Claude-User/i, name: 'Claude-User', provider: 'Anthropic', purpose: 'Citation / Browsing', category: 'ai_assistant' },
+  { pattern: /Claude-User|Claude-Web/i, name: 'Claude-User', provider: 'Anthropic', purpose: 'Citation / Browsing', category: 'ai_assistant' },
   { pattern: /Perplexity-User/i, name: 'Perplexity-User', provider: 'Perplexity', purpose: 'Citation / Browsing', category: 'ai_assistant' },
   // GEO / KI-Suche (Indexing for AI Answers)
   { pattern: /OAI-SearchBot/i, name: 'OAI-SearchBot', provider: 'OpenAI', purpose: 'Search Index (GEO)', category: 'geo_search' },
   { pattern: /PerplexityBot/i, name: 'PerplexityBot', provider: 'Perplexity', purpose: 'Search Index (GEO)', category: 'geo_search' },
   { pattern: /Google-Other/i, name: 'Google-Other', provider: 'Google', purpose: 'Search/Discover (GEO)', category: 'geo_search' },
+  { pattern: /Applebot/i, name: 'Applebot', provider: 'Apple', purpose: 'Apple Intelligence & Siri', category: 'geo_search' },
   // KI-Grounding / RAG
   { pattern: /BingPreview/i, name: 'BingPreview', provider: 'Microsoft', purpose: 'Grounding (RAG)', category: 'ai_grounding' },
   { pattern: /Amazonbot/i, name: 'Amazonbot', provider: 'Amazon', purpose: 'RAG / Shopping', category: 'ai_grounding' },
   // AI Training
   { pattern: /GPTBot/i, name: 'GPTBot', provider: 'OpenAI', purpose: 'Training', category: 'ai_training' },
   { pattern: /ClaudeBot/i, name: 'ClaudeBot', provider: 'Anthropic', purpose: 'Training', category: 'ai_training' },
+  { pattern: /Applebot-Extended/i, name: 'Applebot-Extended', provider: 'Apple', purpose: 'Apple Intelligence Training', category: 'ai_training' },
+  { pattern: /Meta-ExternalAgent/i, name: 'Meta-ExternalAgent', provider: 'Meta', purpose: 'Meta AI Training', category: 'ai_training' },
+  { pattern: /Bytespider/i, name: 'Bytespider', provider: 'ByteDance', purpose: 'Training & Search', category: 'ai_training' },
   { pattern: /CCBot/i, name: 'CCBot', provider: 'CommonCrawl', purpose: 'Training', category: 'ai_training' }
 ];
 
 function parseLogLine(line) {
-  // Format: ip - - [dd/MMM/yyyy:HH:mm:ss +zzzz] "GET /url HTTP/1.1" 200 ... "User-Agent"
-  const match = line.match(/^(\S+) \S+ \S+ \[([^\]]+)\] "(\S+) (\S+) \S+" (\d+) \d+ "[^"]*" "([^"]*)"/);
+  // Format: ip - - [dd/MMM/yyyy:HH:mm:ss +zzzz] "GET /url HTTP/1.1" 200 1234 "referer" "User-Agent"
+  // Note: Bytes can be number or '-' (e.g. 304 or 0 bytes). Referer can be empty or '-'
+  const match = line.match(/^(\S+) \S+ \S+ \[([^\]]+)\] "(\S+) (\S+) [^"]*" (\d+) \S+(?: "(?:[^"]*)" "([^"]*)")?/);
   if (!match) return null;
-  return { date: match[2].split(':')[0], url: match[4], status: parseInt(match[5]), ua: match[6] };
+  const ua = match[6] || '';
+  return { date: match[2].split(':')[0], url: match[4], status: parseInt(match[5]), ua };
 }
 
 async function analyzeLogs() {
@@ -66,7 +73,7 @@ async function analyzeLogs() {
     const dirFiles = fs.readdirSync(logDir);
     dirFiles.forEach(file => {
       const fullPath = path.join(logDir, file);
-      if (fs.statSync(fullPath).isFile() && (file.includes('access.log') || file.includes('.log'))) {
+      if (fs.statSync(fullPath).isFile() && (file.includes('access.log') || file.includes('.log') || file.endsWith('.gz'))) {
         filesToProcess.push(fullPath);
       }
     });
@@ -81,7 +88,18 @@ async function analyzeLogs() {
   } else {
     filesToProcess.forEach(filePath => {
       console.log(`Parsing: ${path.basename(filePath)}`);
-      const lines = fs.readFileSync(filePath, 'utf8').split('\n');
+      let content = '';
+      try {
+        if (filePath.endsWith('.gz')) {
+          content = zlib.gunzipSync(fs.readFileSync(filePath)).toString('utf8');
+        } else {
+          content = fs.readFileSync(filePath, 'utf8');
+        }
+      } catch (err) {
+        console.error(`Error reading ${filePath}:`, err.message);
+        return;
+      }
+      const lines = content.split('\n');
       let linesParsed = 0;
       
       lines.forEach(line => {

@@ -1,0 +1,83 @@
+name: Sync IONOS Bot Logs
+on:
+  workflow_dispatch: # Manual trigger from GitHub UI
+  schedule:
+    - cron: '0 4 * * 1' # Every Monday at 04:00 UTC
+
+concurrency:
+  group: sync-ionos-logs
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync-logs:
+    name: Fetch & Analyze IONOS Logs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Download Logs from IONOS via SFTP (Absolute /logs)
+        id: download-logs-root
+        uses: pressidium/lftp-mirror-action@v1
+        continue-on-error: true
+        with:
+          host: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USER }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          reverse: false
+          remoteDir: '/logs'
+          localDir: './logs-cache'
+          onlyNewer: true
+          options: '--verbose --parallel=2 --include-glob=access.log*'
+
+      - name: Fallback: Download Logs from Relative 'logs'
+        if: steps.download-logs-root.outcome != 'success'
+        uses: pressidium/lftp-mirror-action@v1
+        continue-on-error: true
+        with:
+          host: ${{ secrets.FTP_HOST }}
+          user: ${{ secrets.FTP_USER }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          reverse: false
+          remoteDir: 'logs'
+          localDir: './logs-cache'
+          onlyNewer: true
+          options: '--verbose --parallel=2 --include-glob=access.log*'
+
+      - name: Analyze Logs and Update Bot Stats
+        run: |
+          mkdir -p logs-cache
+          if [ "$(ls -A logs-cache 2>/dev/null)" ]; then
+            echo "✅ Logs successfully downloaded. Starting 2026 AI/GEO Log Analysis..."
+            ls -lh logs-cache/
+            LOG_DIR="./logs-cache" node scripts/analyze-logs.mjs --generate
+          else
+            echo "ℹ️ No log files found in logs-cache. Either /logs is restricted or empty."
+          fi
+
+      - name: Commit and Push Updated Bot Stats
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action (Bot Logs)"
+          git add data/bot-stats.json
+          if ! git diff --quiet data/bot-stats.json; then
+            echo "📈 New bot traffic data detected. Committing changes..."
+            git commit -m "chore(logs): update bot-stats.json from IONOS webserver"
+            git push origin main
+          else
+            echo "ℹ️ No changes to bot-stats.json."
+          fi

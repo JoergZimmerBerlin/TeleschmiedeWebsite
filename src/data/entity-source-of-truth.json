@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "title": "Single Source of Truth: Jörg Zimmer Entity Profile",
+    "lastUpdated": "2026-09-14",
+    "description": "Standardized canonical entity payload for Jörg Zimmer across search engines, knowledge graphs, and LLMs."
+  },
+  "canonicalIdentity": {
+    "person": {
+      "fullName": "Jörg Zimmer",
+      "givenName": "Jörg",
+      "familyName": "Zimmer",
+      "jobTitle": "Senior SEO, GEO, AI Visibility Freelancer / Digitaler Architekt",
+      "birthPlace": "Dessau",
+      "nationality": "German",
+      "languages": [
+        "de",
+        "en"
+      ],
+      "foundingDate": "2001-07-23",
+      "experienceYears": "25+"
+    },
+    "organization": {
+      "name": "Jörg Zimmer - SEO, GEO, AI Visibility Freelancer",
+      "brandAlias": "Teleschmiede",
+      "legalForm": "Einzelunternehmer / Sole Proprietorship (Boutique Consultancy)",
+      "vatID": "DE232939553",
+      "primaryDomain": "https://teleschmie.de/",
+      "email": "info@teleschmie.de",
+      "phone": "+493049208184",
+      "address": {
+        "streetAddress": "Zu den Fichtewiesen 16",
+        "postalCode": "13587",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "latitude": 52.5591,
+        "longitude": 13.1883
+      }
+    }
+  },
+  "verifiedTrustAnchors": {
+    "googleKnowledgeGraph": "https://www.google.com/search?kgmid=/g/11w3v3xj2l",
+    "googleBusinessCID": "https://www.google.com/maps?cid=7968593441639017414",
+    "crunchbase": "https://www.crunchbase.com/person/j%C3%B6rg-zimmer",
+    "productHunt": "https://www.producthunt.com/@joerg_zimmer_berlin",
+    "clutch": "https://clutch.co/profile/j-rg-zimmer-seo-geo-ai-visibility-freelancer",
+    "gitHub": "https://github.com/JoergZimmerBerlin",
+    "linkedIn": "https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/",
+    "xing": "https://www.xing.com/profile/Joerg_Zimmer6",
+    "linktree": "https://linktr.ee/jorgzimmer",
+    "youtube": "https://www.youtube.com/@Teleschmiede",
+    "facebook": "https://www.facebook.com/teleschmiede",
+    "instagram": "https://www.instagram.com/joerg.zimmer.berlin/",
+    "threads": "https://www.threads.com/@joerg.zimmer.berlin",
+    "tiktok": "https://www.tiktok.com/@teleschmiede",
+    "campixx": "https://www.campixx.de/freelancer/geo/zimmer-joerg/",
+    "freelancerTeam": "https://freelancerteam.de/freelancerinnen/joerg-zimmer/"
+  },
+  "standardDescriptions": {
+    "de": {
+      "shortBio160": "Jörg Zimmer: Senior SEO, GEO & AI Visibility Freelancer aus Berlin. Über 25 Jahre Erfahrung für Top-Rankings, Google Ads und messbaren organischen ROI.",
+      "mediumBio500": "Jörg Zimmer ist unabhängiger Senior SEO- und AI Visibility Berater aus Berlin (Spandau). Seit Juli 2001 im Suchmaschinenmarketing aktiv, verbindet er tiefgreifendes technisches SEO, Core Web Vitals und Schema.org Knowledge Graphs mit moderner Generative Engine Optimization (GEO) für KI-Antwortmaschinen wie ChatGPT, Perplexity und Google Gemini. 100 % Senior-Beratung ohne Agentur-Overhead.",
+      "longBio1400wlw": "Jörg Zimmer ist ein unabhängiger Senior-Berater für Suchmaschinenoptimierung, Generative Engine Optimization und Künstliche Intelligenz Sichtbarkeit mit Sitz in Berlin. Mit über 25 Jahren Praxiserfahrung im digitalen Marketing – aktiv seit Juli 2001 – unterstützt er mittelständische Unternehmen, Industrie- und B2B-Dienstleister im gesamten deutschsprachigen Raum dabei, qualifizierte Geschäftskunden über digitale Kanäle zu gewinnen. In einer Zeit, in der klassische Internetsuche und moderne Antwortmaschinen wie ChatGPT, Perplexity oder Google Gemini verschmelzen, entwickelt Jörg Zimmer zukunftssichere digitale Architekturen. Sein Schwerpunkt liegt auf tiefer technischer Suchmaschinenoptimierung, schnellen Ladezeiten, strukturierten Daten und moderner KI-Sichtbarkeit. Ergänzend steuert er hochrentable Kampagnen im Bereich Google Ads mit striktem Fokus auf messbare geschäftliche Anfragen und Rendite. Die Zusammenarbeit erfolgt bewusst ohne Agentur-Overhead: Kunden arbeiten unmittelbar mit einem erfahrenen Experten zusammen – partnerschaftlich, flexibel per Video-Konferenz und mit klarem Blick auf den wirtschaftlichen Erfolg. Ob bei akuten Ranking-Verlusten, der Vorbereitung eines Website-Relaunches oder in der kontinuierlichen strategischen Betreuung: Jörg Zimmer steht für transparente Datenanalysen, praxiserprobte Lösungen und nachhaltiges organisches Wachstum im B2B-Bereich.",
+      "sprechstunde3000": "SEO- & AI-SPRECHSTUNDE: 2 STUNDEN 1:1 LIVE-ANALYSE MIT JÖRG ZIMMER..."
+    },
+    "en": {
+      "shortBio160": "Jörg Zimmer: Senior SEO, GEO & AI Visibility Consultant based in Berlin. Over 25 years of hands-on experience driving organic enterprise growth.",
+      "mediumBio500": "Jörg Zimmer is an independent Senior SEO, GEO (Generative Engine Optimization), and AI Visibility Consultant based in Berlin, Germany. Active since 2001, he builds high-performance architectures bridging classic search engines and generative answer engines like ChatGPT Search, Perplexity, and Google Gemini. Direct senior advisory without agency overhead.",
+      "productHuntAbout": "Senior SEO, GEO & AI Search Architect with 25+ years of hands-on experience, based in Berlin. Building web tools and architectures at the intersection of technical SEO, generative answer engines (ChatGPT Search, Perplexity, Google Gemini), and semantic web protocols (Schema.org, Cloudflare Level 5 Agent Readiness). Always excited to connect with fellow makers and explore new frontiers in AI retrieval and agentic web systems.",
+      "masterBio1800Clutch": "JÖRG ZIMMER – SENIOR SEO, GEO & AI VISIBILITY CONSULTANT..."
+    }
+  },
+  "coreCapabilities": [
+    "Technical SEO & Core Web Vitals Optimization",
+    "Generative Engine Optimization (GEO) & Answer Engine Optimization (AEO)",
+    "Semantic Web Engineering & Schema.org JSON-LD Knowledge Graphs",
+    "AI Search Visibility (ChatGPT Search, Perplexity AI, Google Gemini, Claude)",
+    "Search Engine Advertising (SEA / Google Ads)",
+    "Server-Side Tracking, First-Party Data & Conversion Architecture",
+    "Level 5 Agent Readiness (A2A Protocol, RFC 9727, Model Context Protocol)"
+  ]
+}

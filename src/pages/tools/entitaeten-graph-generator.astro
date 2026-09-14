@@ -194,7 +194,7 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
             <div class="text-2xl mb-2">⚖️</div>
             <h4 class="font-bold text-dark text-base mb-2">Validator Pre-Flight Gate</h4>
             <p class="text-xs text-gray-600 leading-relaxed mb-0">
-              Prüft vor Ausgabe alle Schema.org Domain/Range-Restriktionen (<code class="font-mono text-[11px]">geo</code>, <code class="font-mono text-[11px]">openingHours</code> nur auf LocalBusiness/Place), bannt Pseudo-Typen und sichert 0 Fehler.
+              Prüft vor Ausgabe alle Schema.org Domain/Range-Restriktionen, sichert striktes Bracket-Balancing gegen JSON-Syntaxfehler, bannt Pseudo-Typen und sichert 0 Fehler.
             </p>
           </div>
 
@@ -312,6 +312,7 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
                 <li><strong>Freiberufler &amp; Solopreneure:</strong> Der Inhaber wird als <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">Person</code> modelliert und nahtlos mit der gewerblichen Entität verknüpft – auch ohne Handelsregister.</li>
                 <li><strong>KMU &amp; Meisterbetriebe:</strong> Erfasst HRB/HRA, Handwerkskammern (HWK/IHK), Innungsmitgliedschaften und Meisterbriefe.</li>
                 <li><strong>Konzerne &amp; Holdings:</strong> Bildet komplexe Mutter- und Tochtergesellschaften über <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">parentOrganization</code> und <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">subOrganization</code> ab.</li>
+                <li><strong>Online-Shops &amp; E-Commerce:</strong> Modelliert physische Güter als <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">Product</code> / <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">ProductGroup</code> (keine falschen Services), bindet <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">hasMerchantReturnPolicy</code> ein und schützt Reviews vor Googles Self-Serving Penalty.</li>
                 <li><strong>One-Pager &amp; Subdomains:</strong> Liest Sektionen über URL-Anker aus und vernetzt Subdomain-Portale (<code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">shop.</code>, <code class="bg-gray-100 px-1 py-0.5 rounded font-mono text-xs">app.</code>).</li>
                 <li><strong>Reine Digitalanbieter vs. Lokale Betriebe:</strong> Unterdrückt unzulässige Standorteigenschaften auf Konzern-Knoten und verhindert damit strikt Fehler im Schema.org Validator.</li>
               </ul>

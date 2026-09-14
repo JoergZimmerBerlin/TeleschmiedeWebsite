@@ -17,9 +17,10 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
    - Für Organisation/Personen: Wikidata-Property 'official website' (P856) muss mit der Domain matchen. Fehlt der Eintrag: KEINE Q-ID verwenden!
    - Für Fachdisziplinen ('knowsAbout'): Nutze nur reale, universelle Wikidata-URIs etablierter Fachkonzepte (z. B. Q223788 für SEO).
 
-3. STRIKTE JSON-SYNTAX & PARSER-SAFETY (KEINE KOMMENTARE):
+3. STRIKTE JSON-SYNTAX, PARSER-SAFETY & BRACKET-BALANCING:
    - Der finale JSON-LD Code-Block darf AUSNAHMSLOS NUR 100 % valides JSON enthalten.
    - Schreibe NIEMALS JavaScript-Kommentare (weder // noch /* */) in den JSON-Code, da dies Parser und den Google Rich Results Test zum Absturz bringt!
+   - BRACKET & ARRAY BALANCING GUARD: Achte penibel auf die Schließung aller Klammern! Ein mit '[' geöffnetes Array (z. B. "availableLanguage": ["de", "en"]) darf NIEMALS mit einer geschweiften Klammer '}' geschlossen werden! Validiere jeden Klammerabschluss (Objekt vs. Array) vor der Code-Ausgabe!
 
 4. STRIKTER EIGENNAMEN-SCHUTZ (ANTI-TRANSLATION MANDATE):
    - Eigennamen von Personen, Gründern, Autoren, Marken und Firmen MÜSSEN ZWINGEND in ihrer amtlichen Originalschreibweise belassen werden! Übersetze NIEMALS Vor- oder Nachnamen in andere Sprachen!
@@ -47,21 +48,28 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
 9. SPRACH-SYNCHRONITÄT:
    - Alle Schema-Texte ('description', 'itemOffered.description') müssen in der primären Website-Sprache ('inLanguage') formuliert sein.
 
-10. AUTHENTISCHE REVIEWS & MEDIA-PROVENANCE:
+10. AUTHENTISCHE REVIEWS, GOOGLE RICHTLINIEN-KONFORMITÄT & ANTI-SELF-SERVING SCHUTZ:
     - Erstelle 'review'- und 'VideoObject'-Knoten AUSNAHMSLOS NUR DANN, wenn echte Kundenrezensionen oder reale Videos auf der Website existieren. Fake-Reviews sind strengstens verboten!
+    - ANTI-SELF-SERVING SCHUTZ (Google Richtlinie für Reviews):
+      * Für reine Dienstleister / lokale Gewerbe (ohne E-Commerce): 'itemReviewed': {"@id": "${url}#organization"}.
+      * Für Online-Shops, Händler & Produkthersteller (Schiene F): Produktbewertungen dürfen NIEMALS an die Organisation gehängt werden, da Google dies als unzulässige Self-Serving-Reviews ignoriert! Produktrezensionen gehören ZWINGEND an das konkrete Produkt oder die Produktgruppe: 'itemReviewed': {"@id": "${url}#product-[slug]"}!
 
-11. SCHEMA.ORG VALIDATOR COMPLIANCE & ZERO PSEUDO-TYPES:
+11. SCHEMA.ORG VALIDATOR COMPLIANCE, PROPERTY-HYGIENE & ZERO PSEUDO-TYPES:
     - Verwende NUR offiziell existierende Schema-Typen! Pseudo-Typen wie 'Manufacturer', 'ConsultingService', 'Agency' oder 'SaaSCompany' sind verboten.
     - Für Industrie/Hersteller: '@type': 'Corporation' (oder ['Organization', 'Corporation']) + additionalType: 'https://www.wikidata.org/wiki/Q131269'.
     - Für Berater/Agenturen: '@type': 'ProfessionalService' + additionalType: 'https://www.wikidata.org/wiki/Q6498770'.
     - Für Online-Shops: 'OnlineStore'.
+    - PROPERTY-HYGIENE FÜR SUB-OBJEKTE:
+      * Erfinde NIEMALS Eigenschaften! Ein 'ContactPoint' besitzt KEINE Property 'responsiblePerson'! Wenn eine Person den Pressekontakt leitet, deklariere 'contactPoint' an der Person selbst oder verweise im Text.
+      * 'contactOption': "TollFree" ist AUSSCHLIESSLICH echten gebührenfreien Rufnummern (z. B. 0800 in Deutschland) vorbehalten. Normale Festnetz-Ortsvorwahlen (wie 08025, 030 etc.) dürfen NIEMALS als 'TollFree' markiert werden!
+      * 'image'-URLs (auch in 'ImageObject') MÜSSEN auf eine reale Mediendatei (.webp, .jpg, .png, og:image) zeigen – NIEMALS auf die bloße Homepage-Root-URL ('${url}')!
 
 12. LOCALBUSINESS VS. ORGANIZATION PROPERTY-RESTRIKTIONEN:
     - 'priceRange', 'openingHoursSpecification', 'hasMap', 'geo', 'paymentAccepted', 'currenciesAccepted' sind NUR auf 'LocalBusiness' (oder Place) zulässig! Auf reiner 'Organization'/'Corporation' wirft der Schema.org Validator sofort harte Fehler!
     - Hat die Firma physische Standorte/Kundenzeiten, nutze Multi-Type: ["Organization", "LocalBusiness"] bzw. ["Corporation", "LocalBusiness"]. Reine Digital-/Holding-Firmen dürfen diese Felder NICHT im Hauptknoten führen.
 
 13. REVIEW PFLICHTFELD 'itemReviewed':
-    - Jedes 'Review'-Objekt MUSS ZWINGEND "itemReviewed": { "@id": "${url}#organization" } enthalten!
+    - Jedes 'Review'-Objekt MUSS ZWINGEND ein passendes 'itemReviewed' enthalten: Entweder {"@id": "${url}#organization"} (bei Dienstleistungen) ODER {"@id": "${url}#product-[slug]"} bzw. {"@id": "${url}#productgroup-[slug]"} (bei Produkt-Shops)!
 
 14. EXAKTER DOMAIN-ANKER & ANTI-HOMONYM-SCHRANKE (ABSOLUTE PRIORITÄT):
     - Die ZIEL-DOMAIN '${url}' ist die EINZIGE Quelle der Wahrheit! Fremdfirmen gleichen Namens an anderen Orten (Homonyme) dürfen NIEMALS vermischt werden.
@@ -73,7 +81,7 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
     - SCHIENE C (KONZERNE & HOLDINGS): AG, SE mit 'parentOrganization' / 'subOrganization'.
     - SCHIENE D (GEMEINNÜTZIGE TRÄGER & NGOS): e.V., gGmbH ('NGO', 'Nonprofit501cOrganization').
     - SCHIENE E (BILDUNG & BEHÖRDEN): 'EducationalOrganization', 'GovernmentOrganization'.
-    - SCHIENE F (E-COMMERCE): 'OnlineStore' mit 'MerchantReturnPolicy' und 'Offer'.
+    - SCHIENE F (E-COMMERCE & HERSTELLER): 'OnlineStore' mit 'Product', 'ProductGroup', 'hasMerchantReturnPolicy' (Rückgaberichtlinien: returnPolicyCategory, merchantReturnDays) und 'shippingDetails' (OfferShippingDetails: kostenloser Versand, Lieferländer), falls auf der Website (z. B. /versand/, /shipping/, AGB) ausgewiesen! Physische Produkte NIEMALS als 'Service' deklarieren!
     - SCHIENE G (SAAS & TECH-PLATTFORMEN): 'SoftwareApplication' / 'Corporation' (keine unzulässigen 'geo'-Felder!).
     - SCHIENE H (ALLE ARCHITEKTUREN): Multi-Page, One-Pager (Anker), Subdomains, Mehrsprachigkeit.
 
@@ -100,10 +108,10 @@ A. CORE COMPANY PFLICHT-KATALOG (ORGANIZATION & SUBKLASSEN):
 - 'hasCredential' / 'award': ISO-Zertifikate, Meisterbriefe, Auszeichnungen
 - 'memberOf': Kammer-/Verbandsmitgliedschaften (IHK, HWK) mit Wikidata-URI
 - 'subjectOf': Verifizierte Presseartikel, Podcasts, Videos (CreativeWork / VideoObject)
-- 'review': 2 bis 3 authentische Rezensionen (mit 'reviewRating', 'author', 'reviewBody', 'itemReviewed') – keine Fake-Reviews!
+- 'review': 2 bis 3 authentische Rezensionen (mit 'reviewRating', 'author', 'reviewBody', 'itemReviewed' – keine Fake-Reviews! Bei Shops an Product/ProductGroup, bei Agenturen an Organization)
 - 'founder' & 'employee': ZWINGEND als ARRAY mit Referenzen ([{"@id": "${url}#person-[slug]"}])
 - 'knowsAbout': Array mit kanonischen Wikidata-URIs / DefinedTerms der Fachgebiete
-- 'logo' & 'image': Absolute Bild-URLs (Logo, Open-Graph-Image)
+- 'logo' & 'image': Absolute Bild-URLs (Logo, Open-Graph-Image – niemals die Startseiten-Root-URL als image.url!)
 - 'sameAs': Verifizierte Profile (LinkedIn Company, YouTube, Instagram, Facebook, TikTok, North Data, Maps, kgmid)
 
 B. DEEP PERSON & E-E-A-T KATALOG (FÜR ALLE SCHLÜSSELPERSONEN):
@@ -117,12 +125,14 @@ Erfasse ausnahmslos ALLE auf der Website (Impressum, Team) auffindbaren realen P
 - 'knowsAbout': DefinedTerms mit Wikidata-URIs
 - 'sameAs': Individuelle verifizierte Profile (LinkedIn Person, X, GitHub, ORCID)
 
-C. DYNAMISCHES SUBKLASSEN-MAPPING & ANGEBOTSKATALOG:
+C. DYNAMISCHES SUBKLASSEN-MAPPING & ANGEBOTSKATALOG (DIFFERENZIERT NACH GESCHÄFTSMODELL):
 - LOKALES GEWERBE: Subklasse von 'LocalBusiness' (geo, openingHours, priceRange, paymentAccepted).
-- BERATER & AGENTUREN: 'ProfessionalService' mit additionalType: "https://www.wikidata.org/wiki/Q6498770" (niemals ConsultingService!).
+- BERATER & AGENTUREN (SERVICES): 'ProfessionalService' mit additionalType: "https://www.wikidata.org/wiki/Q6498770" (niemals ConsultingService!).
   * 'hasOfferCatalog' -> 'OfferCatalog' -> 'itemListElement' ('Offer' mit 'seller', 'itemOffered' als 'Service').
   * SERVICE-REGEL: 'serviceType' gehört laut Schema.org ZWINGEND direkt an den 'Service' (z. B. "Remote-Service", "Vor-Ort-Montage"), NIEMALS an den 'ServiceChannel'! 'availableChannel' ist ein 'ServiceChannel' mit 'serviceUrl', 'servicePhone', 'availableLanguage'.
-- SHOPS: 'OnlineStore' mit Product, Offer, MerchantReturnPolicy.
+- SHOPS & WAREN-HERSTELLER (PRODUKTE): 'OnlineStore' mit 'hasOfferCatalog' oder direkten 'Product' / 'ProductGroup'-Knoten:
+  * 'itemOffered' im OfferCatalog ist zwingend ein 'Product' oder 'ProductGroup' (mit 'brand', 'name', 'category', 'offers': {'@type': 'Offer', 'priceCurrency': 'EUR', 'availability': 'https://schema.org/InStock'}), NIEMALS ein 'Service'!
+  * Binde 'hasMerchantReturnPolicy' und 'shippingDetails' an die Angebote oder den Shop ein, falls Versand-/Rückgabeseiten auffindbar sind.
 - SAAS: 'SoftwareApplication'.
 - INDUSTRIE: 'Corporation' mit additionalType: "https://www.wikidata.org/wiki/Q131269".
 
@@ -136,7 +146,7 @@ PHASE 1: ON-PAGE MULTI-PFADE-CRAWL:
    - Suche im Footer nach Links wie /impressum/, /imprint/, /legal/, /rechtliches/, /kontakt/.
    - Extrahiere die amtlichen Fakten: Juristischer Name, Inhaber/Geschäftsführer (Vor- und Zuname für Person-Knoten!), Anschrift, Telefon, E-Mail, HRB/HRA, Registergericht, USt-IdNr.
 3. Über-uns & Team (/ueber-uns/, /about/, /team/): Gründungsjahr, Teamgröße, Führungspersonen, Vita, Porträts.
-4. Angebote (/leistungen/, /services/): Die 3 bis 5 wichtigsten Kernleistungen für OfferCatalog.
+4. Angebote (/leistungen/, /services/, /shop/): Die 3 bis 5 wichtigsten Kernangebote für OfferCatalog (differenziert als Service oder Product).
 
 PHASE 2: DEEP WEB-RECHERCHE & 2-PUNKTE-TRIANGULATION:
 - Trianguliere ungelinkte Unternehmensregister (North Data), verifizierte Social-Profile (LinkedIn, Crunchbase) und Bewertungen (Google Maps, ProvenExpert).
@@ -144,20 +154,20 @@ PHASE 2: DEEP WEB-RECHERCHE & 2-PUNKTE-TRIANGULATION:
 
 PHASE 3: SCHEMA.ORG @graph SYNTHESE (FLACH & VOLL VERNETZT):
 - '${url}#organization': Hauptknoten mit vollem Core-Katalog (legalName, Adresse, identifier, sameAs, founder, etc.)
-- '${url}#website': WebSite mit publisher, inLanguage, potentialAction (SearchAction) und hasPart (Blog, Glossar falls vorhanden)
+- '${url}#website': WebSite mit publisher, inLanguage, potentialAction: {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': '${url}?s={search_term_string}'}, 'query-input': 'required name=search_term_string'} und hasPart (Blog, Glossar, Shop falls verifiziert vorhanden)
 - '${url}#about': AboutPage mit url, name, isPartOf und about: {"@id": "${url}#organization"}
 - '${url}#contact': ContactPage mit url, name, isPartOf und mainEntity: {"@id": "${url}#organization"}
 - '${url}#person-[slug]': Für jede identifizierte Schlüsselperson mit vollem E-E-A-T Katalog und worksFor
-- '${url}#offer-catalog': OfferCatalog mit Services (serviceType direkt an Service deklariert)
+- '${url}#offer-catalog': OfferCatalog mit Services ODER Products (je nach Schiene)
 
 PHASE 4: SCHEMA.ORG VALIDATOR PRE-FLIGHT AUDIT:
-1. TYPEN: Nur existierende Schema-Typen (kein Manufacturer, kein ConsultingService).
+1. TYPEN: Nur existierende Schema-Typen (kein Manufacturer, kein ConsultingService, keine Phantasie-Attribute wie responsiblePerson an ContactPoint).
 2. DOMAIN/RANGE: geo, openingHours, priceRange nur auf LocalBusiness/Place.
 3. IDENTIFIER: Handelsregister und Handwerksregister in 'identifier' als PropertyValue, niemals in 'taxID'.
-4. REVIEW: Jedes Review enthält 'itemReviewed': {"@id": "${url}#organization"}.
+4. REVIEW & E-COMMERCE: Jedes Review enthält ein valides 'itemReviewed' (bei Shops an Product/ProductGroup gekoppelt, bei Dienstleistern an Organization). Keine physischen Produkte als 'Service'!
 5. SERVICE: 'serviceType' liegt direkt am 'Service', niemals am 'ServiceChannel'.
 6. KNOTEN: Alle identifizierten Personen sind als Person-Knoten im @graph enthalten.
-7. SYNTAX: 100 % valides JSON, absolut KEINE Kommentare (// oder /* */).
+7. SYNTAX & BRACKETS: 100 % valides JSON, absolut KEINE Kommentare (// oder /* */), jedes geöffnete Array '[' schließt mit ']' (niemals mit '}'). Image-URLs zeigen auf Bilddateien, nicht auf Domain-Roots.
 
 PHASE 5: REALITY-CHECK:
 - Haluziniere keine Autorität herbei! Fehlen externe Signale, liefere einen 5-Schritte-Fahrplan zur Entitäten-Etablierung.

@@ -46,44 +46,61 @@ jobs:
           mkdir -p logs-cache
           echo "## 📡 IONOS SFTP Log Discovery & Sync Report" >> $GITHUB_STEP_SUMMARY
 
-          run_lftp() {
-            lftp -e "set sftp:auto-confirm yes; set net:timeout 25; set net:max-retries 2; open -u \"$FTP_USER\",\"$FTP_PASSWORD\" sftp://\"$FTP_HOST\"; $1; bye"
-          }
+          cat << EOF > probe.lftp
+          set sftp:auto-confirm yes
+          set net:timeout 25
+          set net:max-retries 2
+          open -u "$FTP_USER","$FTP_PASSWORD" sftp://$FTP_HOST
+          echo "=== CURRENT DIRECTORY ==="
+          pwd
+          echo "=== DIRECTORY LISTING ==="
+          ls -la
+          echo "=== PARENT LISTING ==="
+          ls -la ..
+          echo "=== CHECKING /logs ==="
+          ls -la /logs
+          echo "=== CHECKING logs ==="
+          ls -la logs
+          echo "=== CHECKING ../logs ==="
+          ls -la ../logs
+          bye
+          EOF
+
+          echo "🔍 Probing IONOS remote directories..."
+          lftp -f probe.lftp > sync-diagnosis.txt 2>&1 || true
 
           echo "### 1. Remote Directory Inspection" >> $GITHUB_STEP_SUMMARY
-          REMOTE_LS=$(run_lftp "pwd; echo '--- remote directory listing ---'; ls -la; echo '--- parent listing ---'; ls -la .." 2>&1 || true)
           echo '```' >> $GITHUB_STEP_SUMMARY
-          echo "$REMOTE_LS" >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-
-          echo "### 2. Download Attempts" >> $GITHUB_STEP_SUMMARY
-          echo "**Attempting mirror from /logs...**" >> $GITHUB_STEP_SUMMARY
-          LOG_ATTEMPT_1=$(run_lftp "mirror --verbose=2 --only-newer --include-glob='access.log*' /logs ./logs-cache" 2>&1 || true)
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          echo "$LOG_ATTEMPT_1" >> $GITHUB_STEP_SUMMARY
+          cat sync-diagnosis.txt >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
-          if [ -z "$(ls -A logs-cache 2>/dev/null)" ]; then
-            echo "**Attempting mirror from relative logs...**" >> $GITHUB_STEP_SUMMARY
-            LOG_ATTEMPT_2=$(run_lftp "mirror --verbose=2 --only-newer --include-glob='access.log*' logs ./logs-cache" 2>&1 || true)
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$LOG_ATTEMPT_2" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          fi
+          cat << EOF > mirror.lftp
+          set sftp:auto-confirm yes
+          set net:timeout 30
+          set net:max-retries 2
+          open -u "$FTP_USER","$FTP_PASSWORD" sftp://$FTP_HOST
+          mirror --verbose=2 --only-newer --include-glob='access.log*' /logs ./logs-cache/
+          mirror --verbose=2 --only-newer --include-glob='access.log*' logs ./logs-cache/
+          mirror --verbose=2 --only-newer --include-glob='access.log*' ../logs ./logs-cache/
+          bye
+          EOF
 
-          if [ -z "$(ls -A logs-cache 2>/dev/null)" ]; then
-            echo "**Attempting mirror from parent ../logs...**" >> $GITHUB_STEP_SUMMARY
-            LOG_ATTEMPT_3=$(run_lftp "mirror --verbose=2 --only-newer --include-glob='access.log*' ../logs ./logs-cache" 2>&1 || true)
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$LOG_ATTEMPT_3" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "📥 Mirroring logs from IONOS..."
+          lftp -f mirror.lftp >> sync-diagnosis.txt 2>&1 || true
 
-          echo "### 3. Downloaded Files Summary" >> $GITHUB_STEP_SUMMARY
-          FILES_FOUND=$(ls -la logs-cache/ 2>&1 || true)
+          echo "### 2. Downloaded Files" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          echo "$FILES_FOUND" >> $GITHUB_STEP_SUMMARY
+          ls -la logs-cache/ >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload Sync Diagnosis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-diagnosis
+          path: |
+            sync-diagnosis.txt
+            logs-cache/
 
       - name: Analyze Logs and Update Bot Stats
         run: |

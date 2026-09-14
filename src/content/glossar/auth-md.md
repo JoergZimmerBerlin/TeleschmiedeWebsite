@@ -142,10 +142,10 @@ Ergänzend dazu muss der Webserver (z. B. via Nginx oder Apache `.htaccess`) den
 
 ```http
 # HTTP-Header (z. B. in .htaccess oder Nginx)
-Link: <https://teleschmie.de/.well-known/auth.md>; rel="authorization-policy"; type="text/markdown"
+Link: <https://[deine-domain.de]/.well-known/auth.md>; rel="authorization-policy"; type="text/markdown"
 ```
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -160,13 +160,15 @@ Link: <https://teleschmie.de/.well-known/auth.md>; rel="authorization-policy"; t
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme auth.md und RFC 9728 Server-Header einzurichten:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: auth.md & RFC 9728 Header Deployment</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: auth.md Policy & RFC 9728 Discovery defensiv implementieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Security Engineer & Technical SEO Architect.</p>
-    <p><strong>Aufgabe:</strong> Erstelle eine validierte <code>auth.md</code> Datei im Webroot sowie in <code>/.well-known/auth.md</code> und richte RFC 9728 konforme HTTP-Header ein.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Stelle sicher, dass die Datei kleingeschrieben ist (<code>auth.md</code>) und als H1 strikt <code># auth.md</code> verwendet.</p>
-    <p>2. Konfiguriere OAuth 2.1 Metadaten und Scopes (z. B. <code>read:articles</code>) im YAML-Frontmatter.</p>
-    <p>3. Ergänze die .htaccess bzw. Nginx-Konfiguration um den Link-Header: <code>Link: &lt;https://[deine-domain.de]/.well-known/auth.md&gt;; rel="authorization-policy"; type="text/markdown"</code>.</p>
+    <p><strong>Aufgabe:</strong> Erstelle eine validierte auth.md Richtlinie im Projekt-Webroot sowie unter /.well-known/auth.md und konfiguriere die passenden HTTP-Link-Header nach RFC 8288 / RFC 9728 defensiv für die Serverumgebung.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle den Webserver bzw. Hostinganbieter (Apache mit .htaccess, Nginx, Cloudflare Workers, Vercel Edge, Caddy oder statischer Storage). Prüfe, ob versteckte Verzeichnisse wie /.well-known/ standardmäßig blockiert sind (403 Forbidden).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze bei Apache Direktiven modular in der .htaccess (ohne Anführungszeichen in den spitzen Klammern: &lt;URL&gt;; rel="."). Ergänze bei Nginx oder Vercel die entsprechenden Headers-Objekte defensiv. Erstelle auth.md zwingend kleingeschrieben mit H1 '# auth.md'.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Definiere saubere OAuth 2.1 Metadaten und Scopes (z. B. read:articles) im YAML-Frontmatter. Nutze ausschließlich die offizielle HTTPS-Domain des Projekts und vermeide das Offenlegen privater API-Keys oder Secrets.</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Teste die Auslieferung per curl-Head-Request (curl -I). Stelle sicher, dass die Datei HTTP 200 liefert und der Link-Header exakt dem RFC 8288 Schema entspricht.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse des erkannten Webserver-Typs, 2. Dateiinhalt für auth.md und Server-Header-Diff, 3. curl-Befehl zur Verifikation.</p>
   </div>
 </div>
 

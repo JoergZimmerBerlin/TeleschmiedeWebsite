@@ -116,7 +116,7 @@ Doch deine Leads brechen ein. Warum? Weil IT-Leiter heute ChatGPT oder Perplexit
 
 Wenn deine Website technisch nicht für RAG optimiert ist, keine klaren FAQs zu Vor- und Nachteilen besitzt und deine Marke auf Dritt-Plattformen nicht als Entität etabliert ist, wird ChatGPT deine Software in diesem Bericht **komplett ignorieren**. Ein Mitbewerber, der auf Position 8 bei Google steht, aber perfekte KI-Crawlability aufweist, wird stattdessen als Top-Empfehlung zitiert. Ein AI Visibility Audit deckt genau diesen blinden Fleck auf.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -128,17 +128,18 @@ Wenn deine Website technisch nicht für RAG optimiert ist, keine klaren FAQs zu 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein technisches AI-Visibility- und RAG-Audit für deine Website durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Technisches AI Visibility & RAG-Readiness Audit</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter AI Visibility Consultant & Technical SEO Auditor.</p>
     <p><strong>Aufgabe:</strong> Führe ein systematisches Audit der bereitgestellten Webseiten durch und analysiere RAG-Crawlability, Entity Confidence und Citation Readiness.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe die Zugänglichkeit für KI-User-Agents (<code>OAI-SearchBot</code>, <code>PerplexityBot</code>) und identifiziere clientseitige JavaScript-Rendering-Blocker.</p>
-    <p>2. Analysiere das JSON-LD Markup auf Vollständigkeit der Entitäts-Attribute (<code>@id</code>, <code>sameAs</code> zu Wikidata, <code>about</code>, <code>mentions</code>).</p>
-    <p>3. Überprüfe die Textstruktur nach dem BLUF-Prinzip (Direktantwort in den ersten 50 Wörtern jeder H2-Sektion) und prüfe das Vorhandensein von <code>llms.txt</code>.</p>
-    <p>4. Erstelle einen tabellarischen Maßnahmenplan mit konkreten Handlungsempfehlungen nach Aufwand und Hebelwirkung.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Prüfe die Zugänglichkeit für KI-User-Agents (OAI-SearchBot, PerplexityBot) und identifiziere clientseitige JavaScript-Rendering-Blocker; Analysiere das JSON-LD Markup auf Vollständigkeit der Entitäts-Attribute (@id, sameAs zu Wikidata, about, mentions).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

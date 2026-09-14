@@ -175,7 +175,7 @@ Egal wie groß deine Seite ist, das Tool skaliert mit: Im Essential-Tarif scanns
 **White-Label für Agenturen:**
 Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports für Kunden, die auf dein Corporate Design abgestimmt sind.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -187,17 +187,18 @@ Ersetze das SE Ranking Logo durch dein eigenes Agentur-Logo und erstelle Reports
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten (Cursor, Claude, Antigravity), um die kritischen Audit-Fehler deiner Website automatisiert zu isolieren und strukturierte Fixes zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: Technischer Website-Audit Crawler-Fix &amp; Triage</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Technischer Website-Audit Crawler-Fix & Triage</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer und Web-Performance-Spezialist.</p>
     <p><strong>Aufgabe:</strong> Analysiere die exportierten Fehler des Website-Audits für dieses Projekt (z. B. aus SE Ranking) und behebe systematisch die kritischen technischen Mängel im Codebase.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Identifiziere alle 4xx- und 5xx-Statuscodes sowie Redirect-Ketten (> 1 Hop) und erstelle eine saubere 301-Rewrite-Map für .htaccess / Nginx.</p>
-    <p>2. Finde alle internen Links ohne Trailing Slash auf Verzeichnisebene und ersetze sie direkt im Quellcode durch kanonische Pfade mit abschließendem Slash.</p>
-    <p>3. Überprüfe alle Canonical-Tags und Meta-Robots-Angaben auf Selbstreferenz und Inkonsistenzen (kein noindex auf kanonisierten Zielen).</p>
-    <p>4. Validierung: Führe einen Curl-Check durch und stelle sicher, dass alle internen URLs mit HTTP 200 ohne Redirect-Umwege antworten.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Identifiziere alle 4xx- und 5xx-Statuscodes sowie Redirect-Ketten (> 1 Hop) und erstelle eine saubere 301-Rewrite-Map für .htaccess / Nginx; Finde alle internen Links ohne Trailing Slash auf Verzeichnisebene und ersetze sie direkt im Quellcode durch kanonische Pfade mit abschließendem Slash.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

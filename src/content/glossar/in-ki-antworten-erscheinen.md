@@ -153,7 +153,7 @@ Im Bestreben, generative Sichtbarkeit zu erlangen, begehen viele Webseitenbetrei
 2. **Ausschließliche Optimierung auf eine einzelne Plattform:** Wer nur für ChatGPT optimiert, verliert die Nutzer von Perplexity oder Google. Jedes System nutzt eigene Retrieval-Heuristiken und Quellengewichtungen.
 3. **Verstecken von Kernaussagen hinter langen Einleitungen:** Das klassische Blogpost-Format mit 300 Wörtern Storytelling vor dem ersten echten Fakt führt dazu, dass der RAG-Scraper abbricht, bevor er die relevante Information findet.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -165,19 +165,18 @@ Im Bestreben, generative Sichtbarkeit zu erlangen, begehen viele Webseitenbetrei
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Content-Templates für Answer-Engine-Zitationen und RAG-Extraktion zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AI Search Citation & BLUF Content Optimizer</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener AI SEO & Content Architecture Engineer.</p>
     <p><strong>Aufgabe:</strong> Überarbeite die Inhaltsstruktur der Fachbeiträge, um prägnante Direct-Answer-Snippets und strukturierte Daten für RAG-Modelle zu generieren.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Platziere unter jeder Hauptfrage einen Answer-First-Absatz (BLUF) mit maximal 40–60 Wörtern.</li>
-      <li>Integriere Schema.org QAPage- oder WebPage-Markup mit Question- und acceptedAnswer-Definitionen.</li>
-      <li>Wandle diffuse Fließtexte in tabellarische Vergleiche und semantische Definitionslisten um.</li>
-      <li>Stelle sicher, dass alle internen URLs konsistent auf Trailing Slashes (/) enden.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Platziere unter jeder Hauptfrage einen Answer-First-Absatz (BLUF) mit maximal 40–60 Wörtern; Integriere Schema.org QAPage- oder WebPage-Markup mit Question- und acceptedAnswer-Definitionen; Wandle diffuse Fließtexte in tabellarische Vergleiche und semantische Definitionslisten um.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

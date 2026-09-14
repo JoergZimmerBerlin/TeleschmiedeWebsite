@@ -164,7 +164,7 @@ Vergiss das reine Tracken von Klicks. Die neue Währung heißt **Citation Captur
   </div>
 </div>
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -176,21 +176,18 @@ Vergiss das reine Tracken von Klicks. Die neue Währung heißt **Citation Captur
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deine Landingpages und Blogartikel automatisiert auf AEO-Tauglichkeit und Answer-First-Struktur zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AEO Architecture & Answer-First Audit durchführen</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Answer Engine Optimization (AEO) Architect & Information Retrieval Specialist.</p>
     <p><strong>Aufgabe:</strong> Analysiere den beigefügten HTML-/Markdown-Content auf RAG-Tauglichkeit und optimiere ihn nach dem Answer-First-Prinzip (BLUF).</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe, ob jede H2- und H3-Sektion mit einer eigenständigen, in sich geschlossenen Faktenantwort (maximal 45 Wörter) beginnt.</li>
-      <li>Formatiere vage Aufzählungen in vollständige, grammatikalisch valide Aussagesätze für Vektor-Embeddings um.</li>
-      <li>Erstelle ein valides Schema.org <code>QAPage</code>- oder <code>FAQPage</code>-JSON-LD-Markup mit verknüpfter <code>author</code>- und <code>publisher</code>-Entität.</li>
-      <li>Identifiziere redundante Prosa-Passagen und schlage tabellarische Vergleichsstrukturen mit hohem Information Gain vor.</li>
-      <li>Verifiziere, dass alle internen Hyperlinks zwingend mit einem Trailing Slash (/) enden.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere das refaktorierte Content-Snippet inklusive Schema-JSON-LD und einer Liste behobener AEO-Schwachstellen.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Prüfe, ob jede H2- und H3-Sektion mit einer eigenständigen, in sich geschlossenen Faktenantwort (maximal 45 Wörter) beginnt; Formatiere vage Aufzählungen in vollständige, grammatikalisch valide Aussagesätze für Vektor-Embeddings um; Erstelle ein valides Schema.org QAPage- oder FAQPage-JSON-LD-Markup mit verknüpfter author- und publisher-Entität.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere das refaktorierte Content-Snippet inklusive Schema-JSON-LD und einer Liste behobener AEO-Schwachstellen., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

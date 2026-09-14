@@ -171,7 +171,7 @@ In der Praxis stoßen wir fortlaufend auf Versäumnisse, die das Vertrauen von S
 
 Trustworthiness ist keine einmalige Marketingmaßnahme, sondern die dauerhafte Verpflichtung zu höchster Qualität und Transparenz. Wer seine Inhalte sorgfältig prüft, Autorenprofile nachvollziehbar belegt und seine technische Infrastruktur auf dem neuesten Stand hält, sichert sich das Vertrauen menschlicher Leser und etabliert seine Marke als unverzichtbare Informationsquelle für moderne Answer Engines.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -183,17 +183,18 @@ Trustworthiness ist keine einmalige Marketingmaßnahme, sondern die dauerhafte V
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Trustworthiness- & E-E-A-T-Audit deiner Website durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: E-E-A-T Trustworthiness & Schema Disambiguation Audit</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO & Knowledge Graph Architect.</p>
     <p><strong>Aufgabe:</strong> Überprüfe das Autorensystem und die strukturierten Vertrauensdaten der Website auf E-E-A-T-Konformität und Disambiguierung.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe sämtliche Blog- und Ratgeber-Templates auf das Vorhandensein semantischer Autorenboxen mit Person-Markup.</p>
-    <p>2. Erstelle ein valides Schema.org JSON-LD Snippet mit sameAs-Verknüpfungen (LinkedIn, Wikidata, Google Scholar) für alle Fachautoren.</p>
-    <p>3. Verifiziere die NAP-Konsistenz (Name, Address, Phone) zwischen Impressum, Footer und LocalBusiness-Markup.</p>
-    <p>4. Stelle sicher, dass alle internen Verlinkungen zwingend mit einem Slash (/) enden, um Crawl-Verluste zu verhindern.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Prüfe sämtliche Blog- und Ratgeber-Templates auf das Vorhandensein semantischer Autorenboxen mit Person-Markup; Erstelle ein valides Schema.org JSON-LD Snippet mit sameAs-Verknüpfungen (LinkedIn, Wikidata, Google Scholar) für alle Fachautoren.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

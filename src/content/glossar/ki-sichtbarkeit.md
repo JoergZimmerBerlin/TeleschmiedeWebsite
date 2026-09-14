@@ -182,7 +182,7 @@ if __name__ == "__main__":
 2. **Entitäten nicht maschinenlesbar verknüpfen:** Wenn Firmenname, Geschäftsführer, Produkte und Domain auf unterschiedlichen Kanälen uneinheitlich bezeichnet werden, scheitert die Entitäts-Erkennung im Wissensgraphen. Das Potenzial verpufft in isolierten Datenfragmenten.
 3. **Klassisches SEO als veraltet abtun:** Generative Antwort-Engines wie Perplexity oder Google AI Overviews greifen im RAG-Schritt auf reguläre Suchmaschinen-Indizes zurück. Eine technisch mangelhafte Website ohne saubere Crawlbarkeit wird von KI-Crawlern ignoriert.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -194,17 +194,18 @@ if __name__ == "__main__":
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Zitationsfähigkeit deiner Web-Architektur systematisch zu prüfen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: RAG-Optimierungs-Audit & Entity Co-Occurrence Check</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Specialist.</p>
     <p><strong>Aufgabe:</strong> Überprüfe die Domain https://[deine-domain.de]/ auf ihre Zitationsfähigkeit in Retrieval-Augmented Generation (RAG) Systemen.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe die robots.txt auf vollständige Freigabe für relevante KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).</p>
-    <p>2. Validiere das Schema.org-Markup auf https://[deine-domain.de]/ bezüglich Organization, Person ([Name des Autors/Experten]), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.</p>
-    <p>3. Analysiere bestehende Content-Cluster nach dem 'Answer-First'-Prinzip (prägnante BLUF-Definitionen in den ersten 300 Zeichen).</p>
-    <p>4. Erstelle einen Optimierungsplan zur Erhöhung der Zitationsrate in LLM-Antworten.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Prüfe die robots.txt auf vollständige Freigabe für relevante KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended); Validiere das Schema.org-Markup auf https://[deine-domain.de]/ bezüglich Organization, Person ([Name des Autors/Experten]), sameAs-Profilen und Knowledge-Graph-Verknüpfungen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -146,7 +146,7 @@ Wird durch fehlerhafte CMS-Plugins versehentlich mehr als ein Canonical Tag im `
   </div>
 </div>
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -158,20 +158,18 @@ Wird durch fehlerhafte CMS-Plugins versehentlich mehr als ein Canonical Tag im `
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Canonical-Tags und Parameter-Handling in deinen Seitenvorlagen abzusichern:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um selbstreferenzierende Canonical-Tags und Parameter-Handling in deinem Webprojekt abzusichern:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: Selbstreferenzierende Canonical-Tags im Template auditieren</p>
-    <p><strong>Rolle:</strong> Du bist ein erfahrener Frontend Architect & Technical SEO Engineer.</p>
-    <p><strong>Aufgabe:</strong> Überprüfe das globale Head-Template des Webprojekts auf fehlerhafte oder fehlende selbstreferenzierende Canonical-Tags.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erzeuge dynamisch das Tag <code>&lt;link rel="canonical" href="..."&gt;</code> auf Basis der absoluten Canonical-Origin-URL.</li>
-      <li>Entferne Tracking-Parameter (z. B. <code>utm_*</code>, <code>gclid</code>, <code>fbclid</code>) zwingend aus dem Canonical-Href-Attribut.</li>
-      <li>Erzwinge konsistente Trailing Slashes (/) bei allen internen Verzeichnis-Pfaden.</li>
-      <li>Verhindere die Ausgabe multipler Canonical-Tags bei verschachtelten Template-Layouts.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere den bereinigten Template-Codeblock mit Unittests für Parameter-Szenarien.</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Selbstreferenzierende Canonical-Tags defensiv implementieren & auditieren</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Web Architect.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das Template-System dieses Webprojekts auf fehlerhafte, fehlende oder doppelte Canonical-Tags und stelle eine dynamische, selbstreferenzierende Kanonisierung ohne URL-Parameter sicher.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle das eingesetzte CMS / Framework (z. B. WordPress, Shopify, Next.js App/Pages Router, Astro, Nuxt, Laravel) und vorhandene SEO-Erweiterungen (z. B. Yoast, RankMath, SEOPress, Next-SEO). Prüfe, auf welcher Ebene das Head-Tag aktuell gerendert wird.</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins oder globale Head-Konfigurationen. Nutze in WordPress bestehende Filter (z. B. 'wpseo_canonical' oder 'rank_math/canonical'). In Headless-Frameworks (Next.js/Astro) binde die Canonical-Generierung in die zentrale Layout-/Metadata-Schicht ein, um multiple Tags bei verschachtelten Komponenten auszuschließen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Säubere das href-Attribut zuverlässig von allen Tracking-Parametern (utm_*, gclid, fbclid etc.). Erzwinge konsistente Trailing Slashes (/) auf Verzeichnisebene und stelle sicher, dass ausschließlich die offizielle HTTPS-Domain als Origin verwendet wird.</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Teste verschiedene URL-Szenarien (mit Parametern, ohne Slash, Paginierung). Führe einen lokalen Build durch und validiere, dass genau ein einziges valides Canonical-Tag im finalen HTML ausgegeben wird.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse des erkannten Head-Rendersystems, 2. Konkreter Code-Diff passend für das Framework, 3. Validierungsanleitung mit curl/Browser-Inspektion.</p>
   </div>
 </div>
 

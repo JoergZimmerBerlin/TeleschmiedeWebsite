@@ -143,7 +143,7 @@ Es ist leicht, über die großen Enterprise-Player zu reden. Aber was bedeutet d
 
 Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen. Nutze deinen eigenen KI-Assistenten, um deine Architektur gnadenlos auditieren zu lassen. Das ist der effizienteste Weg, die Schwachstellen in deinem System zu finden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -155,17 +155,18 @@ Wenn du wissen willst, wo du stehst, überlasse die Arbeit einfach den Maschinen
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dein bestehendes IT- und Web-Setup auf den modernen, zustandslosen MCP-Standard auditieren zu lassen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Stateless MCP Architecture & Tool Integration Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Senior System Architect der Agentic AI Foundation und Technical SEO Engineer.</p>
     <p><strong>Aufgabe:</strong> Analysiere die Web- und API-Architektur für dieses Projekt im Hinblick auf den 'Stateless MCP Standard' (Stand 2026).</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Identifiziere alle internen APIs und Datenbank-Endpunkte, die aktuell noch über starre REST-Wrapper laufen und ersetze sie durch zustandslose MCP-Ressourcen.</p>
-    <p>2. Konfiguriere ein standardkonformes Discovery-Manifest unter <code>/.well-known/mcp.json</code> mit Tool-Definitionen, Input-Schemas und offenen CORS-Headern.</p>
-    <p>3. Trenne interne Werkzeugaufrufe (MCP) architektonisch sauber von externer Agenten-Interaktion (A2A-Protokoll via <code>agent-card.json</code>).</p>
-    <p>4. Validiere die Server-Endpunkte mit <code>curl -s -H "Accept: application/json" https://[deine-domain.de]/.well-known/mcp.json</code> und teste die Function-Calling-Pfade.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Identifiziere alle internen APIs und Datenbank-Endpunkte, die aktuell noch über starre REST-Wrapper laufen und ersetze sie durch zustandslose MCP-Ressourcen; Konfiguriere ein standardkonformes Discovery-Manifest unter /.well-known/mcp.json mit Tool-Definitionen, Input-Schemas und offenen CORS-Headern.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

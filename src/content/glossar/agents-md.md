@@ -152,7 +152,7 @@ Hier ist ein stark gekürzter Auszug aus einer meiner Live-Dateien:
 **Erkennst du die Schärfe?**
 Das ist kein Marketing-Text. Das ist eine harte Programmierung der KI. Wenn ein Agent diese Datei liest, wird er NIEMALS auf die Idee kommen, TailwindCSS zu installieren. Er weiß sofort, wie er das Projekt baut. Das ist Effizienz in Reinkultur.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -164,21 +164,18 @@ Das ist kein Marketing-Text. Das ist eine harte Programmierung der KI. Wenn ein 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme AGENTS.md für dein Web- oder Software-Projekt zu erstellen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Create Standard-Compliant AGENTS.md</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical Lead & Agentic Software Architect.</p>
-    <p><strong>Aufgabe:</strong> Analysiere das Projekt-Repository und erstelle eine hochpräzise <code>AGENTS.md</code> im Projekt-Root nach dem AAIF-Standard.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erfasse Tech-Stack, Paketmanager und Frameworks in maximal 5 Stichpunkten.</li>
-      <li>Dokumentiere die exakten CLI-Befehle für lokalen Start (dev), Build-Verifikation (build) und automatisierte Tests (test).</li>
-      <li>Formuliere 3 bis 5 unumstößliche Architektur- und Styling-Regeln (Invariants), die der Agent niemals verletzen darf.</li>
-      <li>Halte das Gesamtdokument strikt unter 120 Zeilen, um Token-Bloat zu verhindern.</li>
-      <li>Stelle sicher, dass alle internen URLs mit einem Trailing Slash (/) versehen sind.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Erstelle die Datei <code>AGENTS.md</code> im Root und validiere die Lesbarkeit.</p>
+    <p><strong>Aufgabe:</strong> Analysiere das Projekt-Repository und erstelle eine hochpräzise AGENTS.md im Projekt-Root nach dem AAIF-Standard.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Erfasse Tech-Stack, Paketmanager und Frameworks in maximal 5 Stichpunkten; Dokumentiere die exakten CLI-Befehle für lokalen Start (dev), Build-Verifikation (build) und automatisierte Tests (test); Formuliere 3 bis 5 unumstößliche Architektur- und Styling-Regeln (Invariants), die der Agent niemals verletzen darf.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Erstelle die Datei AGENTS.md., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

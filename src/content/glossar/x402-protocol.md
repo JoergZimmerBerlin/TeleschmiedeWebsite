@@ -189,7 +189,7 @@ Das x402-Protokoll bildet die unterste Zahlungsschicht (Settlement Layer). Es in
 
 Wer verstehen möchte, wie führende Marken ihre Daten im KI-Ökosystem monetarisieren und sichtbar machen, findet aktuelle Marktanalysen in unserem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Begleitende Budgets und Kostenkalkulationen lassen sich transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) simulieren.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -201,17 +201,18 @@ Wer verstehen möchte, wie führende Marken ihre Daten im KI-Ökosystem monetari
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein sicheres x402-Payment-Gateway für deine Express- oder Next.js-API zu bauen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: x402 HTTP Status 402 Middleware Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Web3- und API-Architekt.</p>
     <p><strong>Aufgabe:</strong> Entwickle eine Middleware für die Node.js/TypeScript-API dieses Projekts, die das x402-Protokoll implementiert. Unbezahlte Anfragen an geschützte Ressourcen müssen mit HTTP 402 Payment Required beantwortet werden; bei Vorlage eines validen Zahlungsbelegs im Header 'X-Payment-Authorization' wird der Zugriff freigegeben.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Definiere den 402-Response-Payload mit Ziel-Wallet, Währung (USDC auf Base), Festbetrag und Nonce/TTL (300s).</p>
-    <p>2. Implementiere Idempotency-Checks und Nonce-Validierung, um Replay-Angriffe und versehentliche Doppelabbuchungen zu unterbinden.</p>
-    <p>3. Verifiziere die On-Chain-Transaktionssignatur über einen RPC-Client vor Freigabe der angeforderten JSON-Ressource.</p>
-    <p>4. Validierung: Führe einen synthetischen Test mit cURL durch: Prüfe Status 402 beim Erstaufruf und Status 200 nach Beilegen des Payment-Headers.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Definiere den 402-Response-Payload mit Ziel-Wallet, Währung (USDC auf Base), Festbetrag und Nonce/TTL (300s); Implementiere Idempotency-Checks und Nonce-Validierung, um Replay-Angriffe und versehentliche Doppelabbuchungen zu unterbinden.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

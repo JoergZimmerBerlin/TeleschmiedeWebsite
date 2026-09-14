@@ -175,19 +175,18 @@ Weitere strategische Empfehlungen zur toolgestützten Optimierung findest du in 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Website-Audit-Ergebnisse automatisiert via API oder MCP-Schnittstelle abzurufen und in Entwickler-Tickets zu überführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierter Audit-Health-Check & Issue-Extraktion</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer und Web-Architekt.</p>
     <p><strong>Aufgabe:</strong> Frage das neueste Website-Audit für das hinterlegte Webprojekt über die SE Ranking API oder MCP-Tools ab. Identifiziere alle kritischen Fehler (Statuscode 4xx/5xx, defekte Canonicals, robots.txt-Blockaden, fehlende Title-Tags).</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Rufe den aktuellen Gesamt-Health-Score sowie die Anzahl kritischer Fehler ab.</li>
-      <li>Filtere alle URLs heraus, deren HTTP-Statuscode ungleich 200 ist oder die Redirect-Ketten aufweisen.</li>
-      <li>Erstelle eine tabellarische Übersicht mit den Spalten: URL, Fehlertyp, Schweregrad, Ursache und empfohlene Code-Korrektur.</li>
-      <li>Priorisiere die Aufgaben nach geschätztem Traffic-Einfluss und formuliere für jeden Punkt ein klares Jira-/GitHub-Ticket für das Entwicklerteam.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Rufe den aktuellen Gesamt-Health-Score sowie die Anzahl kritischer Fehler ab; Filtere alle URLs heraus, deren HTTP-Statuscode ungleich 200 ist oder die Redirect-Ketten aufweisen; Erstelle eine tabellarische Übersicht mit den Spalten: URL, Fehlertyp, Schweregrad, Ursache und empfohlene Code-Korrektur.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -173,7 +173,7 @@ Unter `/.well-known/agent-card.json` wird das Profil des Web-Assistenten publizi
 }
 ```
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -185,17 +185,18 @@ Unter `/.well-known/agent-card.json` wird das Profil des Web-Assistenten publizi
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Cloudflare Level 5 Agent Readiness für dein Webprojekt umzusetzen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Cloudflare Agent Readiness Level 5 Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Web Infrastructure Architect.</p>
     <p><strong>Aufgabe:</strong> Richte alle erforderlichen Manifeste und Server-Header für Cloudflare Agent Readiness Level 5 ein.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erstelle `/.well-known/agent-card.json` strikt nach A2A Protocol v1.0 Schema mit Feldern `supportedInterfaces`, `capabilities` und `skills`.</p>
-    <p>2. Erstelle `/auth.md` in Kleinbuchstaben mit der ersten Überschrift `# auth.md` und maschinenlesbaren Authentifizierungsschritten.</p>
-    <p>3. Konfiguriere RFC 8288 Link-Header im Webserver (z. B. `.htaccess` oder Nginx) ohne Anführungszeichen in den spitzen Klammern: `Header add Link "&lt;https://[deine-domain.de]/.well-known/agent-card.json&gt;; rel=\"agent-card\""`.</p>
-    <p>4. Validiere die Header per `curl -I -s https://[deine-domain.de]/ | grep -i "^link:"` und prüfe HTTP-Status 200 aller Endpunkte.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Erstelle `/.well-known/agent-card.json` strikt nach A2A Protocol v1.0 Schema mit Feldern `supportedInterfaces`, `capabilities` und `skills`; Erstelle `/auth.md` in Kleinbuchstaben mit der ersten Überschrift `# auth.md` und maschinenlesbaren Authentifizierungsschritten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

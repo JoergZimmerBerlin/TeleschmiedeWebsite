@@ -154,7 +154,7 @@ Das folgende Listing zeigt die Einbindung einer Autoren-Entität mit verifiziert
 
 Durch Attribute wie `knowsAbout` und `hasCredential` mappen Crawler deine fachlichen Kompetenzen direkt in globale Knowledge Graphen, anstatt unstrukturierten Text fehleranfällig interpretieren zu müssen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -166,17 +166,18 @@ Durch Attribute wie `knowsAbout` und `hasCredential` mappen Crawler deine fachli
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um strukturierte Expertise-Attribute nach Schema.org mit Wikidata-Entitäten im CMS zu hinterlegen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org knowsAbout & Credential Entity Enrichment</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Semantic Web Architect.</p>
     <p><strong>Aufgabe:</strong> Erweitere die Person- und Author-Schemas um hochpräzise knowsAbout-Referenzen mit Wikidata-URIs und verifiziere Bildungsauszeichnungen via hasCredential.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Identifiziere für jeden Autor die 3-5 zentralen Kernkompetenzen und mappe sie auf eindeutige Wikidata-IDs (z. B. Q184199 für SEO, Q11661 für Information Retrieval).</p>
-    <p>2. Injiziere die URIs als Array in das Feld knowsAbout im JSON-LD Person-Schema.</p>
-    <p>3. Ergänze hasCredential mit anerkannten Institutionen (recognizedBy) und verlinke auf autoritative Grounding Pages.</p>
-    <p>4. Validierung: Teste die JSON-LD-Ausgabe im Schema Markup Validator und stelle sicher, dass alle URIs valide aufgelöst werden.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Identifiziere für jeden Autor die 3-5 zentralen Kernkompetenzen und mappe sie auf eindeutige Wikidata-IDs (z. B. Q184199 für SEO, Q11661 für Information Retrieval); Injiziere die URIs als Array in das Feld knowsAbout im JSON-LD Person-Schema.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

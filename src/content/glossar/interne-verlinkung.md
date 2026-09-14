@@ -129,7 +129,7 @@ Trotz der enormen Hebelwirkung unterlaufen Webmastern in der Praxis regelmäßig
 2. **Überoptimierte, unnatürliche Ankertexte:** Wer jeden internen Link mit exakt derselben harten Keyword-Kombination vollstopft, riskiert eine algorithmische Abwertung wegen versuchter Manipulation. Ankertexte sollten präzise, aber grammatikalisch harmonisch in den Satzbau integriert sein.
 3. **Fehlende Trailing Slashes und Weiterleitungsketten:** Interne Verweise auf veraltete URLs, die erst über eine 301-Weiterleitung oder ohne Trailing Slash aufgelöst werden, verlangsamen den Seitenaufbau und verschwenden wertvolles Crawl-Budget.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -147,15 +147,12 @@ Trotz der enormen Hebelwirkung unterlaufen Webmastern in der Praxis regelmäßig
     <p class="text-lime-accent font-bold mb-1"># Prompt: Interne Linkarchitektur & Orphan-Page Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer & Link-Graph Analyst.</p>
     <p><strong>Aufgabe:</strong> Überprüfe alle Markdown- und HTML-Inhalte auf interne Verlinkungen, Trailing Slashes, Klicktiefen und verwaiste Seiten (Orphan Pages).</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erstelle eine Matrix aller internen Links und zähle eingehende Links pro Route.</li>
-      <li>Identifiziere verwaiste Seiten (Orphan Pages mit 0 oder nur 1 internem Link), insbesondere transaktionale Leistungsseiten.</li>
-      <li>Validiere jeden internen Hyperlink: Erzwinge zwingend einen Trailing Slash (/) am Pfadende und prüfe auf Broken Links (404).</li>
-      <li>Ankertext-Prüfung: Markiere generische Linktexte wie "hier klicken" und schlage entitätenbasierte Ankertexte vor.</li>
-      <li>Schlage für unterverlinkte Money-Pages gezielt 3 bis 5 thematisch passende Linkplatzierungen in bestehenden Blogartikeln vor.</li>
-      <li>Validiere die Änderungen mit einem internen Link-Audit-Skript.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Erstelle eine Matrix aller internen Links und zähle eingehende Links pro Route; Identifiziere verwaiste Seiten (Orphan Pages mit 0 oder nur 1 internem Link), insbesondere transaktionale Leistungsseiten; Validiere jeden internen Hyperlink: Erzwinge zwingend einen Trailing Slash (/) am Pfadende und prüfe auf Broken Links (404).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

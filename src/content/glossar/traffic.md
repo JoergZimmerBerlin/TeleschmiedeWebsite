@@ -116,7 +116,7 @@ Hör auf, in GA4 stundenlang auf Sitzungsdauer und Absprungraten von vermeintlic
 
 Wir messen heute, wie stabil deine Marke in den neuronalen Gewichten der großen Sprachmodelle verankert ist (Brand Impressions statt Sessions). Wer E-E-A-T lebt und seine technischen Hausaufgaben auf KI-Crawler-Level perfekt macht, wird von den Maschinen als Primärquelle zitiert. Die wenigen, hochqualifizierten menschlichen Nutzer, die dann von der generierten KI-Antwort tatsächlich auf deine Website klicken, sind die absolut hochwertigsten Leads, die du jemals generieren konntest. Sie kommen nicht für triviales Basiswissen – sie kommen für den Deep-Dive und den lukrativen Vertragsabschluss.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -128,17 +128,18 @@ Wir messen heute, wie stabil deine Marke in den neuronalen Gewichten der großen
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deinen organischen Content auf Conversion-Brücken und Answer-First-Strukturen zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Traffic-Segmentierung & Conversion-Funnel Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Data & SEO Analyst sowie Conversion Engineer.</p>
     <p><strong>Aufgabe:</strong> Analysiere alle Content-Routen des Projekts auf die Aufteilung zwischen rein informativen Ratgeber-Artikeln und transaktionalen Money-Pages.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Segmentiere die Routen in Informationell (Blog, Ratgeber, Glossar) vs. Transaktional (Leistungen, Produkte, Kontakt).</p>
-    <p>2. Interne Verlinkung prüfen: Besitzt jeder informationelle Artikel mindestens 2 direkte, kontextuelle In-Text-Links auf passende Leistungsseiten?</p>
-    <p>3. Answer-First-Check: Stelle sicher, dass die Kernaussage in Ratgebern innerhalb der ersten 60 Wörter geliefert wird (für KI-Zitate).</p>
-    <p>4. Conversion-Elemente: Überprüfe, ob in informationsstarken Seiten klare Handlungsaufforderungen (CTAs) oder Anfrage-Module eingebunden sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Segmentiere die Routen in Informationell (Blog, Ratgeber, Glossar) vs. Transaktional (Leistungen, Produkte, Kontakt); Interne Verlinkung prüfen: Besitzt jeder informationelle Artikel mindestens 2 direkte, kontextuelle In-Text-Links auf passende Leistungsseiten?.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -173,7 +173,7 @@ Das Fundament für die maschinelle Erfassung bildet sauberes [Technisches SEO](/
 2. **Trennung von Quelltext und sichtbarem Inhalt:** Manche Webmaster hinterlegen umfangreiche Daten im JSON-LD, verschweigen diese jedoch im sichtbaren Text. KI-Crawler bewerten solche Diskrepanzen negativ und stufen die Seite als unzuverlässig ein.
 3. **Vernachlässigte [Interne Verlinkung](/glossar/interne-verlinkung/):** Wenn thematisch verwandte Entitäten auf der eigenen Domain nicht logisch miteinander verknüpft sind, können Crawler die thematische Tiefe des Angebots nicht erfassen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -185,17 +185,18 @@ Das Fundament für die maschinelle Erfassung bildet sauberes [Technisches SEO](/
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Website mit vollständigem Entitäten-Graph-Markup auszustatten:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org @graph Entity Reconciliation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Semantic Web Architect.</p>
     <p><strong>Aufgabe:</strong> Erstelle für die Domain https://[deine-domain.de]/ ein valides Schema.org-Graph-Markup im JSON-LD-Format zur Verankerung im Knowledge Graph.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Definiere Knoten für Organization ([Dein Unternehmensname]), Person ([Name des Autors/Gründers]) und WebSite.</p>
-    <p>2. Verknüpfe die Person als Gründer und Autor über worksFor und founder mit der Organization.</p>
-    <p>3. Integriere sameAs-Arrays mit Profilen auf LinkedIn und Wikidata.</p>
-    <p>4. Validiere das Markup auf Syntaxfehler und Konformität im Google Rich Results Test und Schema Validator.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Definiere Knoten für Organization ([Dein Unternehmensname]), Person ([Name des Autors/Gründers]) und WebSite; Verknüpfe die Person als Gründer und Autor über worksFor und founder mit der Organization.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

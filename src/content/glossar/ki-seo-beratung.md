@@ -125,7 +125,7 @@ Sobald diese Architektur steht, ist das Fundament gegossen. Du brauchst intern E
 3.  **Semantic Chunking:** Sind deine Artikel so formatiert, dass Absätze isoliert als Antwort für einen RAG-Prozess dienen können?
 4.  **Siloing:** Ist deine interne Verlinkung so sauber, dass ein Crawler sofort deine thematischen Schwerpunkte erkennt?
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -143,14 +143,12 @@ Sobald diese Architektur steht, ist das Fundament gegossen. Du brauchst intern E
     <p class="text-lime-accent font-bold mb-1"># Prompt: KI-SEO & AI-Readiness Audit durchführen</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Architect.</p>
     <p><strong>Aufgabe:</strong> Analysiere die bestehende Website-Architektur auf RAG-Tauglichkeit, Schema.org-Entitäten und LLM-Lesbarkeit.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe die semantische HTML-Struktur auf Answer-First-Absätze und tabellarische Datenaufbereitung.</li>
-      <li>Validiere alle JSON-LD-Blöcke (Organization, Service, Product) auf Schema.org-Konformität.</li>
-      <li>Überprüfe das Vorhandensein und die Richtigkeit einer <code>llms.txt</code> im Root-Verzeichnis.</li>
-      <li>Stelle sicher, dass alle internen Verlinkungen konsistent mit Trailing Slashes (/) abschließen.</li>
-      <li>Erstelle eine Liste mit konkreten Handlungsempfehlungen zur Steigerung der Zitationswahrscheinlichkeit in LLMs.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Prüfe die semantische HTML-Struktur auf Answer-First-Absätze und tabellarische Datenaufbereitung; Validiere alle JSON-LD-Blöcke (Organization, Service, Product) auf Schema.org-Konformität; Überprüfe das Vorhandensein und die Richtigkeit einer llms.txt im Root-Verzeichnis.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

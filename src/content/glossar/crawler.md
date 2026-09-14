@@ -158,7 +158,7 @@ server {
 
 Um KI-Crawlern den Zugriff auf Kerninformationen zu erleichtern, ohne ihre Rechenzeit mit visuellem HTML-Overhead zu belasten, gewinnt die Bereitstellung kompakter Markdown-Dateien zunehmend an Relevanz. Über standardisierte Schnittstellen wie [llms.txt](/glossar/llms-txt/) und die erweiterte [llms-full.txt](/glossar/llms-full-txt/) können Sie den Bots eine komprimierte Wissensübersicht Ihrer wichtigsten Produkte und Fachbeiträge zur Verfügung stellen. Dies senkt die Serverlast und maximiert die Wahrscheinlichkeit präziser Zitationen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -170,17 +170,18 @@ Um KI-Crawlern den Zugriff auf Kerninformationen zu erleichtern, ohne ihre Reche
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Server-Logfile-Audit für KI-Crawler durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AI Crawler Server Log Audit & Crawl Budget Analysis</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Linux-Systemadministrator und SEO-Logfile-Analyst.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein Python-Skript zur Analyse von Nginx/Apache-Access-Logs auf KI-Crawler-Aktivität und Crawl-Budget-Verluste.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Parse die Access-Logs der letzten 30 Tage nach bekannten User-Agents (GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Googlebot).</p>
-    <p>2. Berechne Gesamtzahl der Requests, tägliche Frequenz, HTTP-Statuscode-Verteilung (200, 301, 403, 404, 500) und durchschnittliche Response-Zeiten.</p>
-    <p>3. Identifiziere die Top 10 Crawl-Pfade und Top 5 internen 301-Redirect-Schleifen (z. B. fehlende Trailing Slashes).</p>
-    <p>4. Generiere einen Markdown-Report mit konkreten Empfehlungen zur Einsparung von Serverlast und Steigerung der Bot-Effizienz.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Parse die Access-Logs der letzten 30 Tage nach bekannten User-Agents (GPTBot, OAI-SearchBot, PerplexityBot, ClaudeBot, Googlebot); Berechne Gesamtzahl der Requests, tägliche Frequenz, HTTP-Statuscode-Verteilung (200, 301, 403, 404, 500) und durchschnittliche Response-Zeiten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

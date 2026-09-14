@@ -162,26 +162,31 @@ Damit Sprachmodelle deine Marke zweifelsfrei identifizieren und bei themenbezoge
 
 Durch diese eindeutigen Entitäts-Verknüpfungen versteht der Algorithmus die Zusammenhänge und kann Fakten ohne Halluzinationsrisiko in RAG-Antworten übernehmen. Weitere Details zur Auszeichnung findest du im Leitfaden zu [Schema.org Markup](/glossar/schema-org-markup/).
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
-      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung: Prompt für KI-Coding-Assistenten</p>
+      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
     </div>
     <button type="button" class="copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto" title="Prompt kopieren">
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
       <span>Kopieren für Agent</span>
     </button>
   </div>
-  <p class="text-xs text-neutral-300 mb-3 leading-relaxed">
-    Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Visibility-Audit deiner Website gegen Wettbewerber zu erstellen:
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
-  <pre class="bg-neutral-900 text-neutral-200 p-4 rounded-xl text-xs overflow-x-auto leading-relaxed border border-neutral-800 font-mono"><code>Du bist ein hochspezialisierter GEO- & RAG-Auditor. Untersuche die Ziel-Website https://[deine-domain.de]/ und analysiere die AI Visibility:
-1. Prüfe die Datei robots.txt und Server-Header auf Freigabe relevanter KI-Crawler (GPTBot, PerplexityBot, ClaudeBot, Google-Extended).
-2. Analysiere das JSON-LD Schema-Markup der Ziel-Domain: Werden Entitäten (Organization, Person) über @id, knowsAbout und sameAs (Wikidata, LinkedIn) semantisch eindeutig definiert?
-3. Untersuche 5 zentrale Service-URLs auf RAG-Readiness: Enthalten die H2-Abschnitte präzise Antworten im BLUF-Format (Bottom Line Up Front, 40-60 Wörter), Tabellen und nummerierte Aufzählungen für fehlerfreie Chunk-Extraktion?
-4. Formuliere 10 repräsentative B2B-Prompts für die Ziel-Branche [Deine Branche] und simuliere die Antwortwahrscheinlichkeit im Vergleich zu den Top-3 Wettbewerbern.
-Gib das Ergebnis als strukturierte Markdown-Tabelle mit konkreten Prioritäten (P0 bis P2) aus.</code></pre>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Was ist AI Visibility? KI-Sichtbarkeit verstehen Implementierung</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter GEO- & RAG-Auditor</p>
+    <p><strong>Aufgabe:</strong> analysiere die AI Visibility</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Kopieren für Agent Nutze diesen Prompt für Coding-Agenten wie Antigravity, Claude Code oder Cursor, um einen automatisierten AI-Visibility-Audit deiner Website gegen Wettbewerber zu erstellen:.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
+  </div>
 </div>
 
 ## 5. Typische Praxisfehler bei der Optimierung der KI-Sichtbarkeit

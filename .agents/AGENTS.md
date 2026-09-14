@@ -130,11 +130,19 @@
       <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
         <p class="text-lime-accent font-bold mb-1"># Prompt: [Konkreter Task-Name]</p>
         <p><strong>Rolle:</strong> [z.B. Du bist ein hochspezialisierter Technical SEO & Web Architect.]</p>
-        <p><strong>Aufgabe:</strong> [Klare Handlungsanweisung]</p>
-        <p><strong>Schritte & Validierung:</strong> [Schrittfolge und Verifikation]</p>
+        <p><strong>Aufgabe:</strong> [Klare Handlungsanweisung, angepasst an das Projektziel]</p>
+        <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+        <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+        <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien, bestehende Plugins oder vorhandenes Schema-Markup. Nutze primär native Hooks/Filter oder modulare Template-Injektionen. Binde Entitäten relational in bestehende @graph-Container ein (keine Daten-Inseln, keine doppelten @id).</p>
+        <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+        <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+        <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Konkreter Code-Diff / Integrationsanleitung, 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
       </div>
     </div>
     ```
-    **WICHTIG (Universalitäts-Gebot für Agentenboxen):** 
-    Prompts in den Agentenboxen müssen ZWINGEND universell für Webseitenbesucher und deren Projekte formuliert sein. Niemals die eigene Domain (`teleschmie.de`), den eigenen Namen (`Jörg Zimmer`), persönliche Profile oder interne Possessivpronomen („unsere Domain“, „unsere Marke“, „unser Projekt“) hardcoden. Verwende stets standardisierte Platzhalter wie `https://[deine-domain.de]/`, `[Dein Markenname]`, `[Name des Autors/Experten]`, `https://www.linkedin.com/in/[dein-profil-slug]/` oder neutrale Formulierungen wie „für dieses Webprojekt“.
+    **WICHTIG (Universalitäts- & Defensiv-Gebot für Agentenboxen):** 
+    Prompts in den Agentenboxen müssen ZWINGEND universell für Webseitenbesucher und deren Projekte formuliert sein. 
+    1. **Kein Hardcoding:** Niemals die eigene Domain (`teleschmie.de`), den eigenen Namen (`Jörg Zimmer`), persönliche Profile oder interne Possessivpronomen („unsere Domain“, „unsere Marke“, „unser Projekt“) hardcoden. Verwende stets standardisierte Platzhalter wie `https://[deine-domain.de]/`, `[Dein Markenname]`, `[Name des Autors/Experten]`, `https://www.linkedin.com/in/[dein-profil-slug]/` oder neutrale Formulierungen wie „für dieses Webprojekt“.
+    2. **4-Phasen-Pflicht (Safe Agent Execution):** Jeder Agenten-Prompt muss zwingend die 4 Phasen abbilden (1. Tech-Stack-Analyse, 2. Defensive & konfliktfreie Integration ohne Überschreiben, 3. Standard- & URL-Hygiene, 4. Pre-Flight-Validierung). Ein Prompt darf niemals blind vorgeben, eine Datei zu überschreiben oder ein festes Framework vorauszusetzen, sondern muss sich dynamisch an das System des Nutzers (WordPress, Shopify, React/Next.js, Astro, PHP etc.) anpassen.
+
 

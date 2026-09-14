@@ -150,7 +150,7 @@ Weil KI-Modelle probabilistisch arbeiten, antworten sie selten zweimal exakt gle
 *   **Brand Sentiment:** Ist die Tonalität des LLMs positiv, neutral oder warnend?
 *   **Citation Links:** Wird deine URL als klickbare Primärquelle referenziert?
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -162,18 +162,18 @@ Weil KI-Modelle probabilistisch arbeiten, antworten sie selten zweimal exakt gle
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain für Generative Engine Optimization (GEO) auf Server-Ebene fit zu machen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: GEO-Architektur & RAG-Chunking Setup</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Search Engineer.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes Skript zur Generierung einer standardkonformen <code>/llms.txt</code> und implementiere Content Negotiation für Markdown-Clients.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Scanne alle statischen Markdown- und Content-Dateien im Projekt und extrahiere Title, Meta-Description und URL.</p>
-    <p>2. Generiere eine <code>public/llms.txt</code> nach dem llmstxt.org-Standard mit Abschnitten für Core Services, Blog, Glossar und API-Docs.</p>
-    <p>3. Konfiguriere die Middleware so, dass bei <code>Accept: text/markdown</code> der bereinigte Fließtext ohne Navigation und Footer zurückgegeben wird.</p>
-    <p>4. Stelle sicher, dass interne Links stets mit einem Trailing Slash (/) enden.</p>
-    <p>5. Validiere mit: <code>curl -s -H "Accept: text/markdown" https://[deine-domain.de]/[deine-ziel-url]/</code>.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes Skript zur Generierung einer standardkonformen /llms.txt und implementiere Content Negotiation für Markdown-Clients.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Scanne alle statischen Markdown- und Content-Dateien im Projekt und extrahiere Title, Meta-Description und URL; Generiere eine public/llms.txt nach dem llmstxt.org-Standard mit Abschnitten für Core Services, Blog, Glossar und API-Docs.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

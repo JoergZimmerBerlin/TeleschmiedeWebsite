@@ -168,7 +168,7 @@ Um die eigene Markensichtbarkeit in LLMs systematisch zu messen und Zitations-Ve
 2. **Mangelnde Prompt-Recherche:** Das Überwachen einzelner generischer Keywords greift zu kurz. B2B-Käufer stellen differenzierte Fragen; das Monitoring muss diese realen Prompts spiegeln.
 3. **Ignorieren von Drittquellen:** Wer nur die eigene Website optimiert, vergisst, dass Sprachmodelle Bewertungen auf Plattformen wie Capterra, G2 und Branchenportalen als unabhängige Bestätigung heranziehen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -186,11 +186,12 @@ Um die eigene Markensichtbarkeit in LLMs systematisch zu messen und Zitations-Ve
     <p class="text-lime-accent font-bold mb-1"># Prompt: B2B Grounding Page & Entity Markup Automation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener B2B Technical SEO & GEO Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle für eine definierte B2B-Kernleistung ein semantisches Schema.org-Markup und eine strukturierte Grounding-Page-Vorlage zur Zitations-Optimierung in Perplexity und ChatGPT.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erzeuge ein valides Schema.org-Graph-Markup mit Organization, Service, BusinessAudience und DefinedTermSet für https://[deine-domain.de]/.</p>
-    <p>2. Deklariere die exakten B2B-Kriterien: Zielgruppengröße, Integrationsfähigkeiten (APIs, ERP), Sicherheitsstandards (DSGVO, ISO 27001) und Service Level Agreements.</p>
-    <p>3. Baue eine 'Answer-First'-Struktur nach dem BLUF-Prinzip mit HTML-Vergleichstabelle für typische Software-Evaluierungsfragen.</p>
-    <p>4. Validiere das JSON-LD auf Fehlerfreiheit via Google Rich Results Test und Schema Validator.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Erzeuge ein valides Schema.org-Graph-Markup mit Organization, Service, BusinessAudience und DefinedTermSet für https://[deine-domain.de]/; Deklariere die exakten B2B-Kriterien: Zielgruppengröße, Integrationsfähigkeiten (APIs, ERP), Sicherheitsstandards (DSGVO, ISO 27001) und Service Level Agreements.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

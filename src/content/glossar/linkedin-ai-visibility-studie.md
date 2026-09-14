@@ -151,7 +151,7 @@ Damit generative KIs persönliche LinkedIn-Aktivitäten zweifelsfrei mit der Unt
 2. **Vernachlässigung der Unternehmensseite zugunsten von Personen (oder umgekehrt):** Einseitige Strategien scheitern an den Präferenzen der KI-Systeme. Wer Perplexity erobern will, braucht eine exzellent gepflegte Company Page; wer in ChatGPT gewinnen will, benötigt aktive Expertenprofile. Nur ein dualer Ansatz deckt beide Zitationsströme ab.
 3. **Mangelhafte semantische Verknüpfung:** Wenn das LinkedIn-Profil eine andere Berufsbezeichnung oder Unternehmenszuordnung verwendet als das Impressum und das Schema-Markup der offiziellen Firmenwebsite, können Sprachmodelle die Entitäten nicht zusammenführen. Die Folge: Zitate verpuffen ohne Zuweisung zur Markenautorität.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -163,17 +163,18 @@ Damit generative KIs persönliche LinkedIn-Aktivitäten zweifelsfrei mit der Unt
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um LinkedIn-Profile und Website-Entitäten semantisch zu synchronisieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: LinkedIn Profile & Person-Schema Reconciliation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Entity Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein vollständiges Schema.org-ProfilePage- und Person-Markup für [Name des Experten/Autors] auf https://[deine-domain.de]/ mit direkter Verknüpfung zum LinkedIn-Profil.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erzeuge ein valides JSON-LD-Snippet für die Autorenseite mit @type ProfilePage und mainEntity Person.</p>
-    <p>2. Deklariere sameAs-Verknüpfungen zum offiziellen LinkedIn-Profil (z. B. https://www.linkedin.com/in/[dein-profil-slug]/).</p>
-    <p>3. Ergänze knowsAbout-Knoten für [deine Kern-Expertise / Schwerpunktthemen].</p>
-    <p>4. Validiere das Markup mit dem Google Rich Results Test auf syntaktische Korrektheit.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Erzeuge ein valides JSON-LD-Snippet für die Autorenseite mit @type ProfilePage und mainEntity Person; Deklariere sameAs-Verknüpfungen zum offiziellen LinkedIn-Profil (z. B. https://www.linkedin.com/in/[dein-profil-slug]/).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

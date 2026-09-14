@@ -148,7 +148,7 @@ Trifft ein algorithmisches Core Update eine Website unerwartet mit herben Sichtb
 * **Strukturierte Re-Evaluierung:** Gemeinsam werden betroffene Seiten überarbeitet, mit echten Expertennachweisen angereichert und semantisch neu verdrahtet.
 * **Resilienz für zukünftige Updates:** Ein Team, das den algorithmischen Bewertungsrahmen verstanden hat, gerät bei künftigen Google-Updates nicht mehr in Panik, sondern steuert Plattform und Inhalte proaktiv im Sinne der Qualitätsrichtlinien.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -160,18 +160,18 @@ Trifft ein algorithmisches Core Update eine Website unerwartet mit herben Sichtb
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein maßgeschneidertes technisches Inhouse-Schulungs- und Audit-Curriculum für dein Team zu erstellen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Inhouse Technical SEO & AEO Onboarding-Roadmap</p>
     <p><strong>Rolle:</strong> Du bist ein leitender Technical SEO Coach und Senior Web Architect.</p>
     <p><strong>Aufgabe:</strong> Erstelle eine 4-wöchige Hands-on Trainings-Roadmap für ein Webentwicklungs- und Content-Team zur Beherrschung moderner KI-Sichtbarkeit.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Modul 1 (Server & Indexing): Crawl-Budget-Analyse per Logfiles, Statuscode-Auditierung, RFC 8288 Link-Header in <code>.htaccess</code> und Trailing-Slash-Normalisierung.</p>
-    <p>2. Modul 2 (Semantik & Entities): Verschachteltes Schema.org JSON-LD (Organization, WebSite, Article) mit eindeutigen <code>@id</code>-URIs implementieren und per CLI-Tool testen.</p>
-    <p>3. Modul 3 (LLM & RAG-Readiness): Bereitstellung von <code>llms.txt</code>, serverseitige Markdown Negotiation und RAG-Chunking-Optimierung für Webseiten-Content.</p>
-    <p>4. Modul 4 (Monitoring & KPI-Setup): Tracking von Citation Frequency in ChatGPT, Perplexity und Google AI Overviews mit SE Ranking und Rankscale etablieren.</p>
-    <p>5. Zu jedem Modul: 3 praxisnahe Code-Übungen direkt im GitHub-Repository mit automatisierten Test-Suiten (npm run test).</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Modul 1 (Server & Indexing): Crawl-Budget-Analyse per Logfiles, Statuscode-Auditierung, RFC 8288 Link-Header in .htaccess und Trailing-Slash-Normalisierung; Modul 2 (Semantik & Entities): Verschachteltes Schema.org JSON-LD (Organization, WebSite, Article) mit eindeutigen @id-URIs implementieren und per CLI-Tool testen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

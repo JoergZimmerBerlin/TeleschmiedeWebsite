@@ -125,7 +125,7 @@ Wenn Google ein Core Update ausrollt, passieren im Wesentlichen drei Dinge:
 
 Wer nach einem Update Traffic verliert, sollte nicht hektisch Meta-Tags austauschen. Die einzig nachhaltige Strategie besteht darin, die fachliche Tiefe zu erhöhen, klare [Rankingfaktoren](/glossar/rankingfaktoren/) zu berücksichtigen und die eigene Website durch eine strukturierte [Grounding Page](/glossar/grounding-page/) für RAG-Systeme maschinenlesbar aufzubereiten.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -137,18 +137,18 @@ Wer nach einem Update Traffic verliert, sollte nicht hektisch Meta-Tags austausc
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um bestehende Artikel auf Information-Gain-Lücken und RAG-Retrieval-Tauglichkeit zu überprüfen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Information Gain & RAG-Retrieval Audit durchführen</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter SEO Information Architect & RAG Optimization Engineer.</p>
     <p><strong>Aufgabe:</strong> Analysiere den beigefügten Markdown-Artikel auf semantische Redundanzen und optimiere ihn gezielt für das RAG-Retrieval von Google AI Overviews.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Identifiziere generische Textblöcke, die lediglich lexikalisches Allgemeinwissen wiedergeben, und kürze sie prägnant zusammen.</p>
-    <p>2. Formuliere für jeden H2-Abschnitt einen Answer-First-Kernsatz (maximal 40 Wörter), der die zentrale Frage direkt und zitierfähig beantwortet.</p>
-    <p>3. Integriere mindestens 2 strukturierte Vergleichstabellen oder Checklisten, die maschinell ohne Fließtext-Overhead geparst werden können.</p>
-    <p>4. Erstelle ein valides Schema.org JSON-LD Snippet (WebPage mit speaksAbout und knowsAbout Relationen), um die behandelten Entitäten eindeutig zu deklarieren.</p>
-    <p>5. Prüfe, ob alle internen Verlinkungen mit einem konsistenten Trailing Slash (/) versehen sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Identifiziere generische Textblöcke, die lediglich lexikalisches Allgemeinwissen wiedergeben, und kürze sie prägnant zusammen; Formuliere für jeden H2-Abschnitt einen Answer-First-Kernsatz (maximal 40 Wörter), der die zentrale Frage direkt und zitierfähig beantwortet.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -155,7 +155,7 @@ except requests.exceptions.RequestException as error:
 2. **Ignorieren der Sentiment-Trends:** Wer nur auf den Zitations-Score starrt, übersieht kritische Tonalitätsverschiebungen. Wenn Sprachmodelle Ihre Marke vermehrt im Kontext von Service-Problemen oder hohen Preisen erwähnen, sinkt die Konversionsrate dramatisch.
 3. **Mangelnde Verknüpfung mit Content-Maßnahmen:** Das reine Monitoring von Visibility Gaps bringt keinen Mehrwert, wenn die identifizierten Lücken nicht unmittelbar durch [Topical Authority](/glossar/topical-authority/) und zielgerichtete [Grounding Pages](/glossar/grounding-page/) geschlossen werden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -173,13 +173,12 @@ except requests.exceptions.RequestException as error:
     <p class="text-lime-accent font-bold mb-1"># Prompt: Semrush AI Visibility & Prompt Tracking Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Enterprise GEO & AI Search Strategist.</p>
     <p><strong>Aufgabe:</strong> Analysiere die Sichtbarkeit der Domain in Google AI Overviews und führenden Answer Engines anhand von Semrush Tracking-Exporten.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Filtere alle transaktionalen und informationellen Keywords, die eine Google AI Overview auslösen.</li>
-      <li>Vergleiche die Zitationshäufigkeit der Domain mit den 3 Hauptwettbewerbern (Visibility Gap Analysis).</li>
-      <li>Analysiere das erfasste Sentiment in ChatGPT und Perplexity auf problematische Marken-Attribute.</li>
-      <li>Erstelle einen konkreten Maßnahmenplan zur Schließung der identifizierten Content- und Entitäten-Lücken.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Filtere alle transaktionalen und informationellen Keywords, die eine Google AI Overview auslösen; Vergleiche die Zitationshäufigkeit der Domain mit den 3 Hauptwettbewerbern (Visibility Gap Analysis); Analysiere das erfasste Sentiment in ChatGPT und Perplexity auf problematische Marken-Attribute.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -125,7 +125,7 @@ app.get('/produkte/:id', async (req, res) => {
 
 Dieser Code stellt sicher, dass Crawler keine asynchronen Datenabrufe im Browser abwarten müssen, sondern alle Entitätsattribute direkt beim ersten HTTP-Status-200 vorfinden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -140,16 +140,15 @@ Dieser Code stellt sicher, dass Crawler keine asynchronen Datenabrufe im Browser
     Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Server-Side Rendering und statische HTML-Auslieferung in deinem Webprojekt auf Render-Blockaden zu überprüfen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: SSR- & Hydration-Audit für Webseiten durchführen</p>
-    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Fullstack-Entwickler & Technical SEO Auditor.</p>
-    <p><strong>Aufgabe:</strong> Untersuche die vorliegende Frontend-Architektur auf Client-Side-Rendering-Fallen und Hydration Mismatches.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe, ob Hauptüberschriften (&lt;h1&gt;), Leistungsbeschreibungen und Navigationselemente bereits im initialen Server-HTML enthalten sind.</li>
-      <li>Identifiziere clientseitige &lt;div onClick&gt;-Events und refaktoriere sie zu validen semantischen HTML-Ankern (&lt;a href="..."&gt;) mit abschließendem Trailing Slash.</li>
-      <li>Analysiere Time-to-First-Byte (TTFB) und schlage gezielte Edge-Caching-Header (Cache-Control: s-maxage) vor.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere einen strukturierten Refactoring-Plan mit konkreten Code-Diffs für die serverseitige Template-Generierung.</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: SSR- & Hydration-Audit defensiv durchführen</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Fullstack-Entwickler & Technical SEO Architect.</p>
+    <p><strong>Aufgabe:</strong> Untersuche die vorliegende Rendering-Architektur dieses Webprojekts auf Client-Side-Rendering-Fallen, unzureichendes Server-HTML und Hydration Mismatches und schlage native, defensive Optimierungen vor.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle das Framework (z. B. Next.js App/Pages Router, Astro, Nuxt, Remix, SvelteKit, Gatsby, WordPress/PHP) und die Auslieferungsstrategie (reines SSR, SSG/Static, ISR oder SPA/CSR). Prüfe, ob JavaScript-lose Crawler volles HTML erhalten.</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Komponenten oder State-Management-Logiken. Stelle sicher, dass SEO-kritische Elemente (H1-H3, Fließtext, strukturierte Daten, interne Links) bereits im initialen Server-HTML enthalten sind. Refaktoriere interaktive Elemente isoliert (z. B. Astro Islands oder Next.js Client Components mit 'use client').</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Wandle clientseitige Klick-Handler (&lt;div onClick&gt;) in valide semantische HTML-Anker (&lt;a href="."&gt;) mit Trailing Slash (/) um. Schlage zielgerichtete Edge-Caching-Header (Cache-Control: s-maxage) vor, um TTFB-Spitzen abzufangen.</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Führe einen lokalen Build durch. Deaktiviere JavaScript im Browser / teste per curl und verifiziere, dass die Seite vollständig lesbar bleibt und keine Hydration-Fehler in der Konsole auftreten.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse der Rendering-Pipeline, 2. Gezielte Code-Diffs für server-first HTML, 3. Messung der TTFB- und Hydration-Stabilität.</p>
   </div>
 </div>
 

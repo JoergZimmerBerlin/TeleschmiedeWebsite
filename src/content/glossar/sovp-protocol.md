@@ -143,7 +143,7 @@ Die Einhaltung moderner Protokolle erfordert ein permanentes technisches Monitor
 
 Gleichzeitig ermöglicht dir das spezialisierte KI-Tracking von **[Rankscale](/glossar/rankscale/)** ([Tool-Übersicht (Partnerlink)](https://rankscale.ai/?via=offer)), die direkten Auswirkungen deiner technischen Validierung auf deinen Share of Voice und die Zitationshäufigkeit in LLM-Antworten in Echtzeit zu überwachen. Auch serverseitiges [Markdown](/glossar/markdown-content-negotiation/) lässt sich so ideal auf maximale Extraktionsleistung trimmen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -155,20 +155,18 @@ Gleichzeitig ermöglicht dir das spezialisierte KI-Tracking von **[Rankscale](/g
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um deine Domain-Infrastruktur auf deterministische Validierung und RFC-8785-Kanonisierung zu testen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: SOVP & DNSSEC Audit durchführen</p>
     <p><strong>Rolle:</strong> Du bist ein Infrastructure Security & AI Compliance Engineer.</p>
     <p><strong>Aufgabe:</strong> Führe einen deterministischen Infrastruktur-Audit für DNSSEC, RFC 8785 JSON Canonicalization und SOVP-Konformität durch.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe per dig/dns-lookup, ob DNSSEC für die Domain aktiv und die Chain of Trust vollständig validiert ist.</li>
-      <li>Erstelle ein Testskript mit RFC 8785 Hashing, das JSON-LD-Strukturen deterministisch serialisiert und mit einem Ed25519-Schlüsselpaar signiert.</li>
-      <li>Stelle sicher, dass RFC 8288 Link-Header ohne überflüssige Anführungszeichen in den Tags ausgeliefert werden.</li>
-      <li>Generiere einen Status-Report (SOVP-CERTIFIED vs. SOVP-FAILED) gemäß draft-litzki-sovp Spezifikation.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Audit-Zusammenfassung mit konkreten Konfigurationsanweisungen für Webserver und DNS.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Prüfe per dig/dns-lookup, ob DNSSEC für die Domain aktiv und die Chain of Trust vollständig validiert ist; Erstelle ein Testskript mit RFC 8785 Hashing, das JSON-LD-Strukturen deterministisch serialisiert und mit einem Ed25519-Schlüsselpaar signiert; Stelle sicher, dass RFC 8288 Link-Header ohne überflüssige Anführungszeichen in den Tags ausgeliefert werden.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Audit-Zusammenfassung mit konkreten Konfigurationsanweisungen für Webserver und DNS., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

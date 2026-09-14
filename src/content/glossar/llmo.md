@@ -165,7 +165,7 @@ Der Erfolg von LLMO lässt sich nicht mit klassischen Webmaster-Tools erfassen, 
 
 Mit [Rankscale](/glossar/rankscale/) überwachst du automatisiert branchenspezifische Prompts über verschiedene LLM-Engines hinweg und misst deinen prozentualen Share of Voice im Vergleich zum Wettbewerb. Wer zusätzlich klassische Rankings, Site-Audits und Backlink-Profile im Blick behalten will, nutzt das umfassende KI- und Onpage-Toolkit von [SE Ranking](/glossar/se-ranking/). In Kombination mit übergeordneten Strategien der [GEO Optimierung](/glossar/geo-optimierung/) sicherst du deiner Marke die digitale Führungsrolle in der generativen Suche.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -183,13 +183,12 @@ Mit [Rankscale](/glossar/rankscale/) überwachst du automatisiert branchenspezif
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierte llms.txt & Markdown-Negotiation Pipeline</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & AI Integration Engineer.</p>
     <p><strong>Aufgabe:</strong> Implementiere eine standardkonforme llms.txt-Generierung und Markdown Content Negotiation für dieses Webprojekt.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ol class="list-decimal pl-4 space-y-1 text-gray-300">
-      <li>Erzeuge eine statische /llms.txt im Projekt-Root, die Kernleistungen, Entitäten und Dokumentationspfade token-effizient abbildet.</li>
-      <li>Konfiguriere den Webserver (.htaccess / Cloudflare Worker), sodass HTTP-Requests mit 'Accept: text/markdown' sauberes Markdown ausliefern.</li>
-      <li>Integriere RFC 8288 Link-Header (&lt;...&gt;; rel="alternate"; type="text/markdown") für alternative Datenrepräsentationen.</li>
-      <li>Stelle sicher, dass alle internen URLs strikt auf Trailing Slashes (/) enden und teste die Token-Reduktion via curl.</li>
-    </ol>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Erzeuge eine statische /llms.txt im Projekt-Root, die Kernleistungen, Entitäten und Dokumentationspfade token-effizient abbildet; Konfiguriere den Webserver (.htaccess / Cloudflare Worker), sodass HTTP-Requests mit 'Accept: text/markdown' sauberes Markdown ausliefern; Integriere RFC 8288 Link-Header (<.>; rel="alternate"; type="text/markdown") für alternative Datenrepräsentationen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

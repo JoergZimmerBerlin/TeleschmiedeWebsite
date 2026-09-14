@@ -141,7 +141,7 @@ In vielen PR-Kampagnen werden gravierende strategische Fehler begangen, die den 
 2. **Die Noindex-Falle bei bezahlten Beiträgen:** Manche Publisher schalten Advertorials zwar live, versehen die Unterseite jedoch mit einem [Noindex](/glossar/noindex/)-Tag, um Pagerank-Strafen zu entgehen. Solche Seiten existieren für KI-Crawler nicht.
 3. **Fehlendes Monitoring von Erwähnungen:** Viele Unternehmen tracken nur klickbare Backlinks und übersehen hunderte redaktionelle Markennennungen, die als RAG-Signale fungieren. Zudem wird oft versäumt, Journalisten bei Verlinkungen auf die korrekte Ziel-URL mit abschließendem Trailing Slash hinzuweisen, wodurch unnötige Weiterleitungsketten entstehen, die Ladezeiten verlängern und Crawling-Ressourcen belasten.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -159,14 +159,12 @@ In vielen PR-Kampagnen werden gravierende strategische Fehler begangen, die den 
     <p class="text-lime-accent font-bold mb-1"># Prompt: Digital PR & Author Entity Schema Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Schema Markup Engineer.</p>
     <p><strong>Aufgabe:</strong> Verankere Autoren-Entitäten und redaktionelle Medien-Erwähnungen über strukturiertes Schema.org-Markup im HTML der Website.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Schema-Modellierung: Erstelle ein <code>Person</code>- und <code>Organization</code>-JSON-LD-Objekt mit <code>sameAs</code>-Verweisen auf alle externen Fachartikel und Leitmedien.</li>
-      <li>Verknüpfung: Verbinde Autorenprofile und Blogartikel bidirektional über <code>author</code> und <code>publisher</code> Attribute.</li>
-      <li>Trailing-Slash-Check: Validiere, dass alle internen URLs strikt auf <code>/</code> enden und kein doppelter Content entsteht.</li>
-      <li>Validierung: Teste das erzeugte Markup mit dem Google Rich Results Test und Schema Validator auf Fehlerfreiheit.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere das fertige JSON-LD-Snippet und eine Integrationsanleitung für das CMS/Framework.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schema-Modellierung: Erstelle ein Person- und Organization-JSON-LD-Objekt mit sameAs-Verweisen auf alle externen Fachartikel und Leitmedien; Verknüpfung: Verbinde Autorenprofile und Blogartikel bidirektional über author und publisher Attribute; Trailing-Slash-Check: Validiere, dass alle internen URLs strikt auf / enden und kein doppelter Content entsteht.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere das fertige JSON-LD-Snippet und eine Integrationsanleitung für das CMS/Framework., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

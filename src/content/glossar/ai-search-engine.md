@@ -157,7 +157,7 @@ Damit KI-Agenten und RAG-Bots die Kerninformationen einer Website ohne Interpret
 
 Durch die explizite Definition des `about`- und `mentions`-Feldes und die Verlinkung auf anerkannte Wissensdatenbanken liefert der Quelltext eindeutige Faktenanker, die den RAG-Retrievern die semantische Zuordnung erleichtern.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -169,17 +169,18 @@ Durch die explizite Definition des `about`- und `mentions`-Feldes und die Verlin
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Seitenstruktur und Inhaltsaufbereitung für Agentic RAG und AI Search Engines zu rüsten:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Content-Extraktion und Entitäten-Auszeichnung für AI Search Engines</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Generative Engine Optimization Architect.</p>
     <p><strong>Aufgabe:</strong> Analysiere die bereitgestellten Seiteninhalte und implementiere strukturierte BLUF-Absätze sowie Schema.org-Entitäten, damit AI Search Engines (Perplexity, ChatGPT Search, Google AI Overviews) Kernaussagen fehlerfrei extrahieren und zitieren können.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Strukturiere jeden Inhaltsabschnitt nach dem BLUF-Prinzip (Bottom Line Up Front: Direkte Faktenantwort in den ersten 40 Wörtern).</p>
-    <p>2. Formatiere vergleichende Daten und Kennzahlen in semantischen HTML-Tabellen mit klaren Spaltenköpfen.</p>
-    <p>3. Ergänze JSON-LD Markup vom Typ <code>TechArticle</code> oder <code>Article</code> mit <code>about</code>- und <code>mentions</code>-Arrays inklusive eindeutiger Wikidata/Wikipedia-URLs.</p>
-    <p>4. Stelle sicher, dass robots.txt den Zugriff für User-Agents wie <code>PerplexityBot</code>, <code>OAI-SearchBot</code> und <code>Google-Extended</code> freigibt und kein clientseitiges Rendering erforderlich ist.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Strukturiere jeden Inhaltsabschnitt nach dem BLUF-Prinzip (Bottom Line Up Front: Direkte Faktenantwort in den ersten 40 Wörtern); Formatiere vergleichende Daten und Kennzahlen in semantischen HTML-Tabellen mit klaren Spaltenköpfen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

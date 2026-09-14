@@ -149,7 +149,7 @@ Der Unterschied zwischen CSR und modernen Rendering-Methoden lässt sich im Quel
 
 Während die CSR-Variante auf die Ausführung von `bundle.js` angewiesen ist, liefert das vorgerenderte Dokument den gesamten redaktionellen Inhalt im ersten Datenpaket aus.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -161,20 +161,18 @@ Während die CSR-Variante auf die Ausführung von `bundle.js` angewiesen ist, li
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Audit-Skript für CSR-Blank-Shells und SSR-Verifikation zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Headless-Crawl Audit zur Erkennung von CSR-Blank-Shells</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Technical SEO & Performance Architect.</p>
-    <p><strong>Aufgabe:</strong> Entwickle ein Node.js-Skript (unter Nutzung von nativem <code>fetch</code> ohne JavaScript-Ausführung), das eine Liste von URLs abruft und prüft, ob Kerninhalte bereits im rohen HTTP-Response vorhanden sind.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Vergleiche die rohe HTML-Antwort mit gerendertem Content: Prüfe auf leere Container (z. B. <code>#root</code>, <code>#app</code>).</li>
-      <li>Ermittle, ob Title-Tag, Meta-Description, Canonical-Tag und H1-Überschrift ohne Client-JavaScript vorhanden sind.</li>
-      <li>Gib eine detaillierte Warnung aus, wenn eine URL als CSR-Risiko für RAG-Crawler und Two-Wave-Indexing eingestuft wird.</li>
-      <li>Erzwinge Trailing Slashes auf allen internen Links.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Vollständig lauffähiges Audit-Skript inklusive tabellarischer Konsolenausgabe.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein Node.js-Skript (unter Nutzung von nativem fetch ohne JavaScript-Ausführung), das eine Liste von URLs abruft und prüft, ob Kerninhalte bereits im rohen HTTP-Response vorhanden sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Vergleiche die rohe HTML-Antwort mit gerendertem Content: Prüfe auf leere Container (z. B. #root, #app); Ermittle, ob Title-Tag, Meta-Description, Canonical-Tag und H1-Überschrift ohne Client-JavaScript vorhanden sind; Gib eine detaillierte Warnung aus, wenn eine URL als CSR-Risiko für RAG-Crawler und Two-Wave-Indexing eingestuft wird.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Vollständig lauffähiges Audit-Skript inklusive tabellarischer Konsolenausgabe., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

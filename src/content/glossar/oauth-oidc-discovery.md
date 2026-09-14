@@ -173,7 +173,7 @@ Die Implementierung sauberer Discovery-Endpunkte ist kein rein akademisches Entw
 
 Wie sich fortschrittliche Plattformen im Bereich generativer Suchmaschinen positionieren, zeigt unser [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Wer das Zusammenspiel aus Discovery, Crawler-Zugriffen und LLM-Traffic dauerhaft optimieren möchte, sichert sich entscheidende Wettbewerbsvorteile im Agentic Web. Ergänzend dazu können alle Software- und Server-Budgets im interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkuliert werden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -185,17 +185,18 @@ Wie sich fortschrittliche Plattformen im Bereich generativer Suchmaschinen posit
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides OAuth 2.0 Authorization Server Discovery Manifest für deine Domain einzurichten:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: OAuth / OIDC Discovery Manifest Deployment</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Senior API Security Engineer & Web Architect.</p>
-    <p><strong>Aufgabe:</strong> Erstelle ein standardkonformes OAuth 2.0 Authorization Server Metadata Manifest (RFC 8414) unter <code>public/.well-known/oauth-authorization-server</code> mit <code>agent_auth</code> Erweiterung und richte die Webserver-CORS-Header ein.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erzeuge die Datei <code>public/.well-known/oauth-authorization-server</code> mit RFC-8414 Feldern (<code>issuer</code>, <code>token_endpoint</code>, <code>jwks_uri</code>, <code>grant_types_supported</code>) und verknüpfe den <code>agent_auth</code> Block mit <code>https://[deine-domain.de]/.well-known/auth.md</code>.</p>
-    <p>2. Konfiguriere die Webserver-Header für Pfade unter <code>/.well-known/oauth*</code>: <code>Access-Control-Allow-Origin "*"</code> und <code>Content-Type "application/json; charset=utf-8"</code>.</p>
-    <p>3. Setze einen 301-Redirect oder Alias von <code>/.well-known/openid-configuration</code> auf das OAuth-Manifest für Abwärtskompatibilität.</p>
-    <p>4. Validiere den Endpunkt per <code>curl -s https://[deine-domain.de]/.well-known/oauth-authorization-server | jq .</code> auf fehlerfreies JSON.</p>
+    <p><strong>Aufgabe:</strong> Erstelle ein standardkonformes OAuth 2.0 Authorization Server Metadata Manifest (RFC 8414) unter public/.well-known/oauth-authorization-server mit agent_auth Erweiterung und richte die Webserver-CORS-Header ein.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Erzeuge die Datei public/.well-known/oauth-authorization-server mit RFC-8414 Feldern (issuer, token_endpoint, jwks_uri, grant_types_supported) und verknüpfe den agent_auth Block mit https://[deine-domain.de]/.well-known/auth.md; Konfiguriere die Webserver-Header für Pfade unter /.well-known/oauth*: Access-Control-Allow-Origin "*" und Content-Type "application/json; charset=utf-8".</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

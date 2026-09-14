@@ -134,7 +134,7 @@ Erfolgreiches Management beginnt auf Code-Ebene. KI-Agenten und Suchmaschinen-Al
 
 Durch diese saubere Trennung von Website und Organisation im Sinne von [Entity SEO](/glossar/entity-seo/) verstehen Sprachmodelle unmittelbar, welche Organisation hinter den publizierten Fachinhalten steht. Das minimiert Halluzinationen und sichert eine verlässliche Verknüpfung von Fachbeiträgen mit deiner Markenautorität.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -146,21 +146,18 @@ Durch diese saubere Trennung von Website und Organisation im Sinne von [Entity S
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um einen vernetzten Schema-Markup-Graphen für ganzheitliches Sichtbarkeitsmanagement und Entity-Resolution zu erstellen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Vernetzten Entity- & Sichtbarkeits-Graphen generieren</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Semantic Web Architect & Knowledge Graph Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle für die Webpräsenz einen zusammenhängenden Schema.org JSON-LD Graphen (@graph), der die Organisation, ihre Services und Schlüsselpersonen disambiguiert.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erstelle die Entität <code>Organization</code> mit stabiler <code>@id</code>-URI (z. B. <code>https://domain.de/#organization</code>).</li>
-      <li>Verknüpfe alle externen Autoritäts-Profile via <code>sameAs</code> (LinkedIn, Google Maps, Branchenregister, Wikidata).</li>
-      <li>Binde Schlüsselpersonen als <code>founder</code> oder <code>employee</code> mit ihren jeweiligen Qualifikationsprofilen ein.</li>
-      <li>Erstelle für die Hauptdienstleistungen eigene <code>Service</code>-Knoten mit <code>provider</code>-Verknüpfung zur Organization.</li>
-      <li>Stelle sicher, dass alle internen URLs strikt auf einen Trailing Slash (/) enden.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere den vollständigen JSON-LD Codeblock inklusive Validierungs-Check für das Google Rich Results Tool.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Erstelle die Entität Organization mit stabiler @id-URI (z. B. https://domain.de/#organization); Verknüpfe alle externen Autoritäts-Profile via sameAs (LinkedIn, Google Maps, Branchenregister, Wikidata); Binde Schlüsselpersonen als founder oder employee mit ihren jeweiligen Qualifikationsprofilen ein.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den vollständigen JSON-LD Codeblock inklusive Validierungs-Check für das Google Rich Results Tool., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

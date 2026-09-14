@@ -173,7 +173,7 @@ Wer in Videos präzise Definitionen, Fallstudien und Firmennamen klar formuliert
 
 Erfolgreiches YouTube SEO im Jahr 2026 erfordert den Spagat zwischen packendem Storytelling für die menschliche Zielgruppe und rigoroser technischer Strukturierung für Algorithmen. Videos sind kein isoliertes Marketing-Format, sondern das Rückgrat moderner Informationsarchitektur. Welche Monitoring-Lösungen Sie bei der Analyse von Video-Rankings und generativen Erwähnungen unterstützen, zeigt unser detaillierter Guide über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Zudem empfiehlt sich die genaue Budgetkalkulation über den [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/), um Produktions- und Optimierungsaufwände wirtschaftlich abzustimmen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -185,17 +185,18 @@ Erfolgreiches YouTube SEO im Jahr 2026 erfordert den Spagat zwischen packendem S
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein vollautomatisches VideoObject-Schema mit Clip-Segmenten für deine Webseiten zu generieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org VideoObject Generator mit Key Moments</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Technical SEO Architect und Structured Data Specialist.</p>
     <p><strong>Aufgabe:</strong> Entwickle ein Skript (Node.js oder Python), das YouTube-Video-Metadaten (Titel, Beschreibung, Kapitelmarken aus der Beschreibung) ausliest und ein standardkonformes Schema.org JSON-LD 'VideoObject' mit verschachtelten 'Clip'-Objekten (hasPart) generiert.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Parse Timestamps aus der Videobeschreibung (z. B. '01:23 Thema X') und berechne 'startOffset' sowie 'endOffset' in Sekunden.</p>
-    <p>2. Erstelle das VideoObject mit name, description, thumbnailUrl, uploadDate, duration (ISO 8601) und embedUrl.</p>
-    <p>3. Bettestruktur: Binde das JSON-LD Script tag nahtlos in das HTML-Template der entsprechenden Landingpage ein.</p>
-    <p>4. Validierung: Validiere das generierte Markup im Google Rich Results Test auf Null Fehler und Warnungen.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Parse Timestamps aus der Videobeschreibung (z. B. '01:23 Thema X') und berechne 'startOffset' sowie 'endOffset' in Sekunden; Erstelle das VideoObject mit name, description, thumbnailUrl, uploadDate, duration (ISO 8601) und embedUrl.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

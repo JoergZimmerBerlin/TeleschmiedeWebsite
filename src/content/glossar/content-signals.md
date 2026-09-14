@@ -177,7 +177,7 @@ In Beratungsprojekten und technischen Web-Audits treten regelmäßig gravierende
 2. **Reine Deklaration ohne Edge-WAF-Absicherung:** Content-Signale in der `robots.txt` sind rechtliche Willenserklärungen, keine technischen Firewalls. Wer exklusive Daten vor unregulierten Scraping-Netzwerken schützen will, muss am CDN-Edge Rate-Limiting, Bot-Management und IP-Reputation aktivieren.
 3. **Widersprüchliche Signale zwischen HTML und HTTP-Headern:** Liefert die HTML-Seite `<meta name="robots" content="index, follow">`, der Server-Header jedoch `X-Robots-Tag: noindex, noai`, führt dies zu Verwirrung bei Crawlern, was unweigerlich zu Depublizierung oder inkonsistenter Indexierung führt.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -189,17 +189,18 @@ In Beratungsprojekten und technischen Web-Audits treten regelmäßig gravierende
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Content-Signale, robots.txt-Direktiven und Server-Header für dein Webprojekt umzusetzen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Content-Signale & AI-Crawler Header Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Web Infrastructure Architect.</p>
     <p><strong>Aufgabe:</strong> Richte Content-Signale in der robots.txt, HTTP-Response-Header für geschützte Assets und die W3C TDM-Reservation ein.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erweitere die <code>robots.txt</code> um granulare Content-Signal-Direktiven: <code>Content-Signal: search=yes, ai-input=yes, ai-train=no</code> für Bot-Gruppen.</p>
-    <p>2. Konfiguriere Webserver-Header (.htaccess oder NGINX) für statische Assets (PDFs, Downloads): <code>Header set X-Robots-Tag "noai, noimageai"</code>.</p>
-    <p>3. Erstelle <code>/.well-known/tdmrep.json</code> mit <code>tdm-reservation: 1</code> gemäß W3C TDM-Reservation-Standard.</p>
-    <p>4. Validiere die Konfiguration per <code>curl -I -s https://[deine-domain.de]/robots.txt</code> und überprüfe, ob RAG-Bots wie GPTBot und PerplexityBot freigegeben sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Erweitere die robots.txt um granulare Content-Signal-Direktiven: Content-Signal: search=yes, ai-input=yes, ai-train=no für Bot-Gruppen; Konfiguriere Webserver-Header (.htaccess oder NGINX) für statische Assets (PDFs, Downloads): Header set X-Robots-Tag "noai, noimageai".</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

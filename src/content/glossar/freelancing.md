@@ -121,7 +121,7 @@ Studien und Branchenreports aus dem laufenden Jahr zeigen, dass der durchschnitt
 ### Der Einfluss von Künstlicher Intelligenz
 KI-Tools sind 2026 aus dem Werkzeugkasten eines Freelancers nicht mehr wegzudenken. Sie dienen als Sparringspartner für Konzepte, schreiben Code-Snippets, analysieren riesige Datensätze und generieren erste Textentwürfe. Dies führt zu einem Produktivitätssprung. Gleichzeitig erhöht es jedoch den Druck auf Freelancer, die ausschließlich ausführende Tätigkeiten auf Basisniveau anbieten. Wer heute als Solounternehmer bestehen will, muss strategisches Denken, Beratungskompetenz und branchenspezifisches Prozesswissen mitbringen. Die KI übernimmt das Handwerk, der Freelancer übernimmt die Verantwortung und die Strategie nach den Maßstäben von [E-E-A-T](/glossar/e-e-a-t/).
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -133,17 +133,18 @@ KI-Tools sind 2026 aus dem Werkzeugkasten eines Freelancers nicht mehr wegzudenk
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Freelancer-Vertragsvorlagen und Leistungsbeschreibungen auf Scheinselbstständigkeits-Kriterien zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Freelance Contract Compliance & Scope Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Legal-Tech-Berater und Experte für deutsches Arbeits- und IT-Vertragsrecht.</p>
     <p><strong>Aufgabe:</strong> Überprüfe die vorliegende Leistungsvereinbarung (SOW / Freelancer-Vertrag) auf Klauseln, die auf Weisungsgebundenheit oder Eingliederung hindeuten.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Identifiziere kritische Formulierungen (z. B. Kernarbeitszeiten, Weisungsrechte von Vorgesetzten, Pflicht zur Nutzung von Firmen-Hardware).</p>
-    <p>2. Formuliere die Klauseln in ergebnisorientierte Werk- oder Leistungsdefinitionen ohne persönliche Anwesenheitspflicht um.</p>
-    <p>3. Ergänze Bestimmungen zur unternehmerischen Eigenverantwortung und zum Recht auf den Einsatz qualifizierter Erfüllungsgehilfen.</p>
-    <p>4. Validierung: Gleiche den Entwurf mit den aktuellen Prüfkriterien der Deutschen Rentenversicherung für das Statusfeststellungsverfahren ab.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Identifiziere kritische Formulierungen (z. B. Kernarbeitszeiten, Weisungsrechte von Vorgesetzten, Pflicht zur Nutzung von Firmen-Hardware); Formuliere die Klauseln in ergebnisorientierte Werk- oder Leistungsdefinitionen ohne persönliche Anwesenheitspflicht um.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -132,7 +132,7 @@ Eines der zentralen Phänomene in der modernen [Generativen Suche (GEO)](/glossa
 
 Wer nur genannt wird, erzeugt passive Brand Awareness. Wer zitiert wird, gewinnt qualifizierte B2B-Leads und Transaktions-Traffic. Mit einer systematischen **Citation Gap Analysis** identifizierst du gezielt diejenigen Themenfelder, bei denen deine Konkurrenten bereits als Quelle verlinkt werden, während deine Domain noch leer ausgeht.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -144,20 +144,18 @@ Wer nur genannt wird, erzeugt passive Brand Awareness. Wer zitiert wird, gewinnt
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Landingpages auf Zitationsfähigkeit (Citation Attractiveness) für Answer Engines zu analysieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AI Citation Readiness & Gap Analysis</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Generative Engine Optimization (GEO) & RAG Specialist.</p>
     <p><strong>Aufgabe:</strong> Analysiere den beigefügten Content auf Zitierbarkeit für generative Suchmaschinen (Perplexity, ChatGPT, AI Overviews).</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe die Fakten-Dichte (Fact Density) und isoliere citable Content-Blöcke unter präzisen H2-/H3-Headlines.</li>
-      <li>Formuliere die ersten Sätze jedes Abschnitts nach dem BLUF-Prinzip (Bottom Line Up Front) um, sodass eine KI die Antwort in unter 50 Wörtern extrahieren kann.</li>
-      <li>Füge strukturierte Tabellen und nummerierte Schrittfolgen hinzu, die sich deterministisch für RAG-Embeddings eignen.</li>
-      <li>Verifiziere, dass interne Links mit Trailing Slashes (/) versehen sind.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere das optimierte Markdown-Dokument inklusive Zitations-Potenzial-Score (1-100) und konkreter Begründung.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Prüfe die Fakten-Dichte (Fact Density) und isoliere citable Content-Blöcke unter präzisen H2-/H3-Headlines; Formuliere die ersten Sätze jedes Abschnitts nach dem BLUF-Prinzip (Bottom Line Up Front) um, sodass eine KI die Antwort in unter 50 Wörtern extrahieren kann; Füge strukturierte Tabellen und nummerierte Schrittfolgen hinzu, die sich deterministisch für RAG-Embeddings eignen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere das optimierte Markdown-Dokument inklusive Zitations-Potenzial-Score (1-100) und konkreter Begründung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

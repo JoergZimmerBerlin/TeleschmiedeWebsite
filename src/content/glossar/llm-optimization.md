@@ -157,7 +157,7 @@ Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit gene
 2. **Statische Fehler in der llms.txt nicht korrigieren:** Verwaiste Links oder veraltete Pfade in der `llms.txt` frustrieren automatisierte Agenten. Der KI-Crawler bricht die Erkundung ab und stuft die Domain im Vertrauensscore herab.
 3. **Mangelhafte Trennung von Geschäftslogik und Rohdaten:** Wer KI-Agenten zwingt, strukturierte Fakten aus werblichen Floskeln herauszulesen, verliert Zitationen an Mitbewerber, die atomare Datenblöcke im JSON- oder Markdown-Format bereitstellen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -169,17 +169,18 @@ Für eine ganzheitliche Wettbewerbsanalyse, die klassische Suchrankings mit gene
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Content Negotiation für Markdown auf deiner Server-Infrastruktur zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Markdown Content Negotiation & LLM Caching Layer</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Cloudflare- & Fullstack-Web-Architect.</p>
     <p><strong>Aufgabe:</strong> Implementiere serverseitiges Markdown Content Negotiation für https://[deine-domain.de]/ zur Reduktion von LLM-Token-Parsing-Kosten.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe eingehende Anfragen auf den Header 'Accept: text/markdown' oder bekannte AI-User-Agents (GPTBot, ClaudeBot, PerplexityBot).</p>
-    <p>2. Liefere bei positivem Match die bereinigte Markdown-Version mit dem Response-Header 'Content-Type: text/markdown; charset=utf-8'.</p>
-    <p>3. Setze 'Vary: Accept, User-Agent' im Header, um CDN-Caching-Kollisionen zwischen HTML und Markdown zu verhindern.</p>
-    <p>4. Validiere die Auslieferung mit einem cURL-Befehl gegen den Server.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Prüfe eingehende Anfragen auf den Header 'Accept: text/markdown' oder bekannte AI-User-Agents (GPTBot, ClaudeBot, PerplexityBot); Liefere bei positivem Match die bereinigte Markdown-Version mit dem Response-Header 'Content-Type: text/markdown; charset=utf-8'.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

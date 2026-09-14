@@ -146,7 +146,7 @@ Damit Suchmaschinen-Bots die Praxiserfahrung eines Autors zweifelsfrei einer rea
 
 Über die Verknüpfung von `sameAs`-Attributen mit autoritativen Plattformen (LinkedIn, GitHub, Branchenverzeichnissen) verifizierst du die Identität des Autors. Die Maschine erkennt: Hier schreibt kein anonymer KI-Prompt, sondern ein nachweisbarer Praktiker.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -158,17 +158,18 @@ Damit Suchmaschinen-Bots die Praxiserfahrung eines Autors zweifelsfrei einer rea
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um strukturierte First-Hand Experience Signale und maschinenlesbare Autorenschaften zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org Experience & Author Verification Injection</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Knowledge Graph Architect.</p>
     <p><strong>Aufgabe:</strong> Erweitere die Artikel-Templates um semantisch präzises JSON-LD Markup nach Schema.org, um First-Hand Experience und Autorenschaft maschinenlesbar mit dem Knowledge Graph zu verknüpfen.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Injiziere in Blog- und Case-Study-Templates ein verschachteltes TechArticle- oder Article-Schema mit author-Objekt vom Typ Person.</p>
-    <p>2. Ergänze die Attribute sameAs (verifizierte Profile wie LinkedIn, GitHub, Wikidata), jobTitle, knowsAbout und hasCredential.</p>
-    <p>3. Verknüpfe Fallstudien-Abschnitte mit mentions- und about-Entitäten für getestete Tools oder Technologien.</p>
-    <p>4. Validierung: Prüfe das generierte Markup über den Google Rich Results Test und stelle sicher, dass keine Syntaxfehler oder fehlenden Pflichtfelder vorliegen.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Injiziere in Blog- und Case-Study-Templates ein verschachteltes TechArticle- oder Article-Schema mit author-Objekt vom Typ Person; Ergänze die Attribute sameAs (verifizierte Profile wie LinkedIn, GitHub, Wikidata), jobTitle, knowsAbout und hasCredential.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

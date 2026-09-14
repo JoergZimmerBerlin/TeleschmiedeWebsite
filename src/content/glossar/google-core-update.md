@@ -141,7 +141,7 @@ Viele Website-Betreiber verschlimmern ihren Ranking-Verlust durch unüberlegte R
 2. **Kosmetische Keyword-Korrekturen:** Der Austausch von ein paar H2-Überschriften oder das Neuschreiben von Meta-Descriptions ändert nichts an einem Core-Update-Verlust. Die Ursache liegt in der mangelnden Informationstiefe und Glaubwürdigkeit des Inhalts.
 3. **Ignorieren von Thin Content:** Viele Betreiber trauen sich nicht, alte, nicht-performante Artikel zu löschen. Doch genau diese minderwertigen Inhalte belasten die Qualitätsmetriken deiner Domain. Ein radikaler Content-Pruning-Prozess ist oft die wirksamste Maßnahme.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -153,18 +153,18 @@ Viele Website-Betreiber verschlimmern ihren Ranking-Verlust durch unüberlegte R
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Assistenten (Cursor, Claude, Antigravity), um die Gewinner- und Verlierer-URLs nach einem Google Core Update datenbasiert zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Google Core Update Impact Analyse & Pruning Triage</p>
     <p><strong>Rolle:</strong> Du bist ein Senior SEO Data Analyst & Core Update Recovery Spezialist.</p>
     <p><strong>Aufgabe:</strong> Analysiere den exportierten Google Search Console Datensatz (28 Tage Vorher vs. Nachher) und erstelle einen priorisierten Recovery-Plan.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Filtere URLs mit mehr als 30 % Klick- und Positionsverlust heraus und gruppiere sie nach Content-Typ (Ratgeber, Kategorie, Produktseite).</p>
-    <p>2. Erstelle eine Pruning-Matrix: Konsolidieren (Merge via 301), Löschen (410 Gone für Zombie-Pages) oder Tiefensanierung (Information Gain & Original-Daten hinzufügen).</p>
-    <p>3. Identifiziere Kannibalisierungseffekte, bei denen mehrere URLs um denselben Suchbegriff konkurrieren.</p>
-    <p>4. Stelle sicher, dass interne Links mit Trailing Slash (/) versehen sind.</p>
-    <p>5. Liefere eine priorisierte CSV-Tabelle und einen strategischen Sanierungsbericht.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Filtere URLs mit mehr als 30 % Klick- und Positionsverlust heraus und gruppiere sie nach Content-Typ (Ratgeber, Kategorie, Produktseite); Erstelle eine Pruning-Matrix: Konsolidieren (Merge via 301), Löschen (410 Gone für Zombie-Pages) oder Tiefensanierung (Information Gain & Original-Daten hinzufügen).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

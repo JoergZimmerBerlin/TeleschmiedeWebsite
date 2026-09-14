@@ -135,7 +135,7 @@ Wer sich auf deiner Seite nicht zurechtfindet, springt ab. Das ist ein negatives
 
 Eine blitzsaubere [XML-Sitemap](/glossar/xml-sitemap/) und eine logische [interne Verlinkung](/glossar/interne-verlinkung/) (immer mit Trailing Slashes auf Verzeichnisse, verdammt nochmal!) bilden das stabile Rückgrat deiner Navigation.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -147,17 +147,18 @@ Eine blitzsaubere [XML-Sitemap](/glossar/xml-sitemap/) und eine logische [intern
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um Accessibility, Touch-Targets und DOM-Strukturen für Menschen und Agenten abzusichern:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Machine & Human Usability / A11y Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener UX Engineer & Accessibility/A11y Auditor.</p>
     <p><strong>Aufgabe:</strong> Überprüfe alle Komponenten und Templates des Projekts auf Barrierefreiheit, Tastaturbedienbarkeit, Touch-Target-Größen und saubere semantische DOM-Strukturen für autonome Agenten.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Scanne interaktive Elemente: Stelle sicher, dass Buttons als `<button>` und Links als `<a href="...">` definiert sind.</p>
-    <p>2. Touch-Targets: Überprüfe, ob alle anklickbaren Elemente auf mobilen Ansichten eine Mindestgröße von 48x48 Pixeln einhalten.</p>
-    <p>3. A11y & Screenreader: Prüfe, ob Formularfelder saubere `<label>`-Zuordnungen haben und Icons über `aria-hidden="true"` verfügen.</p>
-    <p>4. Layout-Shift-Prävention: Stelle sicher, dass Bilder und dynamische Blöcke feste `width`- und `height`-Attribute besitzen, um CLS unter 0,1 zu halten.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Scanne interaktive Elemente: Stelle sicher, dass Buttons als `` und Links als `` definiert sind; Touch-Targets: Überprüfe, ob alle anklickbaren Elemente auf mobilen Ansichten eine Mindestgröße von 48x48 Pixeln einhalten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -182,29 +182,30 @@ Befindet sich auf deiner Website noch eine `ai-plugin.json`, musst du nicht in P
   </div>
 </div>
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
-  <div class="flex items-start justify-between gap-4 mb-4">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
+  <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
-      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Agent Readiness & MCP Prompt für Cursor, Claude Code oder Antigravity</p>
+      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
     </div>
     <button type="button" class="copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto" title="Prompt kopieren">
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
       <span>Kopieren für Agent</span>
     </button>
   </div>
-  <p class="text-gray-300 text-sm mb-4">
-    Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um veraltete Plugin-Dateien zu bereinigen und deine Website auf den modernen MCP- und Agent-Readiness-Standard vorzubereiten:
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
-  <div class="bg-black/50 p-4 rounded-xl font-mono text-xs text-lime-accent overflow-x-auto border border-white/10 leading-relaxed">
-    <p class="text-gray-400 mb-2"># Rolle: AI Systems Architect & Security Engineer</p>
-    <p class="text-white font-semibold mb-2">Task: Bereinige veraltete ChatGPT-Plugin-Manifeste und erstelle eine Roadmap für MCP- und Agent-Readiness (Cloudflare Radar Level 5).</p>
-    <p class="text-gray-300 mb-1">Anforderungen:</p>
-    <p class="text-gray-300">1. Prüfe das Verzeichnis <code>public/.well-known/</code> auf Vorhandensein einer <code>ai-plugin.json</code> oder exponierter <code>openapi.yaml/json</code>-Dateien.</p>
-    <p class="text-gray-300">2. Entferne verwaiste Plugin-Dateien oder sichere sensible API-Definitionen gegen unbefugten Direktzugriff ab.</p>
-    <p class="text-gray-300">3. Erstelle stattdessen eine standardkonforme <code>agent-card.json</code> nach a2a-protocol.org v1.0 sowie eine <code>llms.txt</code> für Content-Discovery.</p>
-    <p class="text-gray-300">4. Falls funktionale API-Tools für KI-Agenten exponiert werden sollen: Implementiere einen standardisierten Model Context Protocol (MCP) Server mit stateless HTTP Transport (Spezifikation 2026).</p>
-    <p class="text-lime-accent mt-2">Output: Audit-Bericht der bereinigten Dateien plus Validierung der Agent-Card-Struktur im Terminal.</p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Agent Readiness & MCP Prompt für Cursor, Claude Code oder Antigravity</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AI Systems Architect & Security Engineer</p>
+    <p><strong>Aufgabe:</strong> Bereinige veraltete ChatGPT-Plugin-Manifeste und erstelle eine Roadmap für MCP- und Agent-Readiness (Cloudflare Radar Level 5).</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Agent Readiness & MCP Prompt für Cursor, Claude Code oder Antigravity; Prüfe das Verzeichnis public/.well-known/ auf Vorhandensein einer ai-plugin.json oder exponierter openapi.yaml/json-Dateien; Entferne verwaiste Plugin-Dateien oder sichere sensible API-Definitionen gegen unbefugten Direktzugriff ab.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Audit-Bericht der bereinigten Dateien plus Validierung der Agent-Card-Struktur im Terminal., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

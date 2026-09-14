@@ -160,7 +160,7 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
 }
 ```
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -178,14 +178,12 @@ Unternehmen, die ihre eigene Eignung für AEO evaluieren oder Dienstleister bewe
     <p class="text-lime-accent font-bold mb-1"># Prompt: KI-Sichtbarkeit & Entity-Audit durchführen</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AEO Engineer & Brand Knowledge Graph Consultant.</p>
     <p><strong>Aufgabe:</strong> Überprüfe das Webprojekt auf Crawlbarkeit für KI-Agenten und optimiere das semantische Entity-Markup.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Validiere in der robots.txt, dass Bots wie GPTBot, PerplexityBot und ClaudeBot Zugriff auf relevante Pfade haben.</li>
-      <li>Prüfe die Existenz und Vollständigkeit von <code>auth.md</code> und <code>llms.txt</code>.</li>
-      <li>Erstelle ein validiertes JSON-LD Schema.org Markup für Organization und Service mit verifizierten Wikidata-sameAs-Links.</li>
-      <li>Kontrolliere, dass alle internen Verlinkungen konsistent auf einen Trailing Slash (/) enden.</li>
-      <li>Liefere einen strukturierten Markdown-Report der AI-Readiness.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Validiere in der robots.txt, dass Bots wie GPTBot, PerplexityBot und ClaudeBot Zugriff auf relevante Pfade haben; Prüfe die Existenz und Vollständigkeit von auth.md und llms.txt; Erstelle ein validiertes JSON-LD Schema.org Markup für Organization und Service mit verifizierten Wikidata-sameAs-Links.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

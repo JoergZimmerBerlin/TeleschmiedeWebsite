@@ -143,7 +143,7 @@ Oft werde ich von Kunden angerufen, die verzweifelt versuchen, in Google PageSpe
 
 Die Ursache war eine kaskadierende Werbe-Logik im [Client-Side Rendering (CSR)](/glossar/client-side-rendering/). Jeder Klick auf "Mehr laden" ließ das DOM für eine knappe Sekunde einfrieren. Als [SEO Freelancer für Berlin](/seo-freelancer-berlin/) haben wir die Architektur auf [Server-Side Rendering (SSR)](/glossar/server-side-rendering/) umgestellt und die Long Tasks via Web Workers asynchronisiert. Der INP fiel auf grüne 120ms. Das Ergebnis: Die Bounce-Rate sank um 18% und die URLs qualifizierten sich endlich wieder als Top-Ranking-Kandidaten, was auch die KI-Crawler sofort in Form häufigerer Abrufe registrierten.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -155,17 +155,18 @@ Die Ursache war eine kaskadierende Werbe-Logik im [Client-Side Rendering (CSR)](
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Core Web Vitals (LCP, INP, CLS) auf Template-Ebene zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Core Web Vitals Template-Level Performance Refactoring</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Frontend Performance Engineer & Core Web Vitals Specialist.</p>
     <p><strong>Aufgabe:</strong> Optimiere die Seiten-Templates auf die Core Web Vitals Schwellenwerte: LCP ≤ 2,0s, INP ≤ 200ms und CLS ≤ 0,10.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. LCP: Versehe das Hero-Element auf allen Vorlagen mit <code>fetchpriority="high"</code>, expliziten Bilddimensionen und optimierten AVIF/WebP-Assets.</p>
-    <p>2. INP: Führe ein Audit der Event-Listener durch, brich Long Tasks über <code>scheduler.yield()</code> auf und deferiere Third-Party-Skripte.</p>
-    <p>3. CLS: Reserviere feste <code>min-height</code> CSS-Container für Ads, Banner und dynamische Widgets und passe Fallback-Font-Metriken an.</p>
-    <p>4. Validierung: Messe vor und nach der Optimierung mit Lighthouse und überprüfe die CrUX-Historie in der Search Console.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe keine bestehende State-Logik. Stelle sicher, dass SEO-kritischer Content bereits im initialen Server-HTML enthalten ist. Isoliere interaktive Komponenten defensiv. Beachte dabei: Schritte & Validierung:; LCP: Versehe das Hero-Element auf allen Vorlagen mit fetchpriority="high", expliziten Bilddimensionen und optimierten AVIF/WebP-Assets; INP: Führe ein Audit der Event-Listener durch, brich Long Tasks über scheduler.yield() auf und deferiere Third-Party-Skripte.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

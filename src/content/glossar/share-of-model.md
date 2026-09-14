@@ -155,7 +155,7 @@ In der Unternehmenspraxis reicht eine rein binäre Betrachtung („Erwähnt: Ja/
 
 Durch diese Differenzierung entsteht der **Weighted Share of Model (W-SoM)**, der ein ungeschminktes Bild der tatsächlichen Markenstärke in generativen Suchumgebungen liefert.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -167,17 +167,18 @@ Durch diese Differenzierung entsteht der **Weighted Share of Model (W-SoM)**, de
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine automatisierte Pipeline zur Berechnung deines Share of Model (SoM) zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Share of Model (SoM) Monitoring Pipeline</p>
     <p><strong>Rolle:</strong> Du bist ein Python Data Engineer und AI Visibility Analyst.</p>
     <p><strong>Aufgabe:</strong> Baue ein modulares Auswertungsskript, das strukturierte Modell-Antworten aus einer JSON-Datei parst und den gewichteten Share of Model (W-SoM) berechnet.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Lies das Prompt-Ergebnis-Array mit Feldern wie <code>prompt_id</code>, <code>model_name</code>, <code>response_text</code> und <code>citations</code> ein.</p>
-    <p>2. Implementiere eine Regex-basierte Erkennung für die Zielmarke [Dein Markenname] sowie definierte Wettbewerber-Entitäten.</p>
-    <p>3. Gewichte Erwähnungen nach Listenrang (Platz 1 = 1.0, Platz 2 = 0.7, Platz 3 = 0.4, ab Platz 4 = 0.2) und Sentiment-Faktor (-0.5 bis +1.0).</p>
-    <p>4. Exportiere die aggregierten Kennzahlen (SoM, Citation Rate, W-SoM) als übersichtliche Markdown-Tabelle und JSON-Dashboard-Feed.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Lies das Prompt-Ergebnis-Array mit Feldern wie prompt_id, model_name, response_text und citations ein; Implementiere eine Regex-basierte Erkennung für die Zielmarke [Dein Markenname] sowie definierte Wettbewerber-Entitäten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

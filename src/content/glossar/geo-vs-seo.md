@@ -122,7 +122,7 @@ Bei GEO analysierst du über ein professionelles [GEO Tool](/glossar/geo-tool/) 
 
 Wenn ein B2B-Einkäufer ChatGPT fragt: *„Welche Agenturen sind führend für Headless-Commerce in Berlin?“*, zählt nicht dein Platz auf Seite 1, sondern ob deine Marke im synthetisierten Antworttext namentlich mit Quellennachweis zitiert wird.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -134,18 +134,18 @@ Wenn ein B2B-Einkäufer ChatGPT fragt: *„Welche Agenturen sind führend für H
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein technisches GEO vs. SEO Server-Audit für dein Web-Projekt durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: GEO vs SEO Server-Architecture & Negotiation Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Cloud Architect & Generative Engine Optimization (GEO) Spezialist.</p>
     <p><strong>Aufgabe:</strong> Überprüfe den Webserver und die Middleware auf Unterstützung generativer KI-Crawler und automatisierter Markdown-Auslieferung.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Simuliere einen HTTP-Request mit <code>Accept: text/markdown</code> gegen die Kern-URLs des Projekts (oder https://[deine-domain.de]/) und prüfe, ob der Server sauberes Markdown oder HTML zurückgibt.</p>
-    <p>2. Verifiziere das Vorhandensein und die Syntax einer validen <code>/llms.txt</code> im Root-Verzeichnis gemäß Spezifikation.</p>
-    <p>3. Prüfe die <code>robots.txt</code> auf Freigabe von RAG-User-Agents wie <code>GPTBot</code>, <code>PerplexityBot</code> und <code>ClaudeBot</code>.</p>
-    <p>4. Überprüfe, ob interne Links konsistent mit einem Trailing Slash (/) enden, um unnötige 301-Redirects zu eliminieren.</p>
-    <p>5. Liefere die Audit-Ergebnisse mit konkreten Codeblöcken zur Behebung.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Simuliere einen HTTP-Request mit Accept: text/markdown gegen die Kern-URLs des Projekts (oder https://[deine-domain.de]/) und prüfe, ob der Server sauberes Markdown oder HTML zurückgibt; Verifiziere das Vorhandensein und die Syntax einer validen /llms.txt im Root-Verzeichnis gemäß Spezifikation.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

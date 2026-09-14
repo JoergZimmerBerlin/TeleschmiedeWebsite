@@ -121,7 +121,7 @@ Wenn du ein neues Projekt startest, bau es so unfassbar schlank wie nur irgend m
 
 Wer seine Daten 2026 nicht über KI-Crawler-Protokolle und maschinenlesbare Endpunkte zur Verfügung stellt, wird von den LLMs schlichtweg ignoriert. Und glaub mir: Wo die KI dich nicht zitiert, findet dich auch schon bald kein Nutzer mehr. Du bist dann digital unsichtbar.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -133,17 +133,18 @@ Wer seine Daten 2026 nicht über KI-Crawler-Protokolle und maschinenlesbare Endp
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine WordPress-Instanz auf moderne Performance- und Content-Negotiation-Standards umzustellen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: WordPress Performance-Audit &amp; Markdown Content Negotiation</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: WordPress Performance-Audit & Markdown Content Negotiation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener WordPress Core Developer und Technical SEO Engineer.</p>
     <p><strong>Aufgabe:</strong> Optimiere eine WordPress-Installation für Core Web Vitals und moderne KI-Crawlability. Implementiere Content Negotiation für Markdown-Endpunkte und reduziere überflüssigen Plugin-Overhead.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Erstelle ein leichtgewichtiges Must-Use-Plugin (mu-plugin), das bei anfragendem Header 'Accept: text/markdown' den Beitragsinhalt bereinigt und als reines Markdown zurückgibt.</p>
-    <p>2. Konfiguriere die Permalink-Struktur strikt mit trailing slash ('/%postname%/') und eliminiere interne 301-Redirect-Schleifen.</p>
-    <p>3. Überprüfe die Redis-Object-Cache-Verbindung und deaktiviere ungenutzte Skripte (wp-embed, Dashicons, block-library-CSS auf Seiten ohne Blocks).</p>
-    <p>4. Validierung: Teste eine URL mit 'curl -H "Accept: text/markdown" https://[deine-domain.de]/beispiel-beitrag/' und verifiziere, dass reiner Markdown-Text mit Status 200 ausgeliefert wird.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe keine bestehende State-Logik. Stelle sicher, dass SEO-kritischer Content bereits im initialen Server-HTML enthalten ist. Isoliere interaktive Komponenten defensiv. Beachte dabei: Schritte & Validierung:; Erstelle ein leichtgewichtiges Must-Use-Plugin (mu-plugin), das bei anfragendem Header 'Accept: text/markdown' den Beitragsinhalt bereinigt und als reines Markdown zurückgibt; Konfiguriere die Permalink-Struktur strikt mit trailing slash ('/%postname%/') und eliminiere interne 301-Redirect-Schleifen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -162,7 +162,7 @@ Für jede minimale Wortvariation (z.B. *"SEO Berater"* vs. *"SEO Beratung"*) ein
 ### Fehler 3: Ignorieren natürlicher Konversationsfragen
 Da Nutzer über Sprachassistenten und Chat-Engines zunehmend in vollständigen Sätzen suchen, greifen starre Zwei-Wort-Kombinationen zu kurz. Wer Fragen nicht direkt im Answer-First-Format aufgreift, verliert die Chance, [in KI-Antworten zu erscheinen](/glossar/in-ki-antworten-erscheinen/).
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -180,14 +180,12 @@ Da Nutzer über Sprachassistenten und Chat-Engines zunehmend in vollständigen S
     <p class="text-lime-accent font-bold mb-1"># Prompt: Keyword-Kannibalisierungs- & Semantic-Cluster Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener SEO Architect & NLP Content Strategist.</p>
     <p><strong>Aufgabe:</strong> Überprüfe alle Markdown- und HTML-Inhalte des Projekts auf Keyword-Kannibalisierung und erstelle ein semantisches Entitäten-Cluster.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Scanne Title-Tags, H1-Überschriften und Metadaten aller Routen auf thematische Überschneidungen und Fast-Duplikate.</li>
-      <li>Identifiziere URLs, die um dieselben primären Entitäten konkurrieren (Kannibalisierungs-Verdacht).</li>
-      <li>Schlage für identifizierte Konflikte eine klare Hierarchie vor: Bestimme die primäre Pillar-Page und wandle Neben-Seiten in spezialisierte Cluster-Seiten um oder leite sie per 301 weiter.</li>
-      <li>Erstelle für jede Hauptseite ein Schema.org JSON-LD mit den Eigenschaften <code>about</code> und <code>mentions</code> inklusive Wikidata-URIs.</li>
-      <li>Validiere die Vektortiefe und erstelle eine strukturierte Markdown-Zusammenfassung der Maßnahmen.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Scanne Title-Tags, H1-Überschriften und Metadaten aller Routen auf thematische Überschneidungen und Fast-Duplikate; Identifiziere URLs, die um dieselben primären Entitäten konkurrieren (Kannibalisierungs-Verdacht); Schlage für identifizierte Konflikte eine klare Hierarchie vor: Bestimme die primäre Pillar-Page und wandle Neben-Seiten in spezialisierte Cluster-Seiten um oder leite sie per 301 weiter.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

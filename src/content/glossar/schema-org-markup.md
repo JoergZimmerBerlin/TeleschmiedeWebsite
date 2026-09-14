@@ -155,7 +155,7 @@ Ein einziger Syntax-Fehler im JSON-LD zerschießt das gesamte Markup. Validierun
 
 Verlasse dich nicht mehr nur auf den alten Google Rich Results Test. Nutze den offiziellen **Schema.org Validator** (`validator.schema.org`), um die reine Syntax und Logik deines Graphen zu prüfen. Ergänzend dazu hilft ein spezialisiertes [Technisches Schema Markup](/glossar/technisches-schema-markup/) für fortgeschrittene Automatisierungen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -173,13 +173,12 @@ Verlasse dich nicht mehr nur auf den alten Google Rich Results Test. Nutze den o
     <p class="text-lime-accent font-bold mb-1"># Prompt: Hochpräzises Schema.org JSON-LD @graph Setup</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Structured Data Engineer.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein validiertes JSON-LD Schema.org Markup für einen Fachartikel unter Verwendung eines vernetzten @graph-Musters.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Verknüpfe <code>Organization</code>, <code>Person</code> (Autor mit sameAs zu LinkedIn), <code>WebSite</code> und <code>TechArticle</code> über eindeutige <code>@id</code>-URIs.</li>
-      <li>Stelle strikte Content Parity sicher: Alle im JSON-LD deklarierten Werte müssen exakt mit dem sichtbaren Text übereinstimmen.</li>
-      <li>Validiere, dass alle internen URLs zwingend auf einem Trailing Slash (<code>/</code>) enden.</li>
-      <li>Prüfe das fertige Snippet auf Konformität mit dem Schema.org Standard (keine Syntaxfehler oder veraltete Microdata-Attribute).</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Verknüpfe Organization, Person (Autor mit sameAs zu LinkedIn), WebSite und TechArticle über eindeutige @id-URIs; Stelle strikte Content Parity sicher: Alle im JSON-LD deklarierten Werte müssen exakt mit dem sichtbaren Text übereinstimmen; Validiere, dass alle internen URLs zwingend auf einem Trailing Slash (/) enden.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

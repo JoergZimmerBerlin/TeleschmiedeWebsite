@@ -132,7 +132,7 @@ Baue Digital PR auf. Neue Untersuchungen belegen: **Über 80 Prozent aller KI-Zi
 ### 3. Mach deine Praxiserfahrungen sichtbar
 KI kann Fakten generieren, aber keine echten Erfahrungen sammeln. Formulierungen wie *„In unseren Analysen von 150 Kundenprojekten zeigte sich...“* oder *„Unsere Praxistests ergaben folgende Latenz-Werte...“* sind unersetzlich. Sie signalisieren dem LLM, dass hier originäres Wissen vorliegt, das als Primärquelle herangezogen werden muss.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -150,14 +150,12 @@ KI kann Fakten generieren, aber keine echten Erfahrungen sammeln. Formulierungen
     <p class="text-lime-accent font-bold mb-1"># Prompt: KI-SEO & RAG-Extraktion optimieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener KI-SEO-Architekt & RAG Specialist.</p>
     <p><strong>Aufgabe:</strong> Überarbeite den bestehenden Content nach modernen GEO- und AEO-Kriterien für maximale Zitierbarkeit.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Setze zu Beginn jedes H2-Abschnitts einen prägnanten 40-50 Wörter BLUF-Antwortblock (Bottom Line Up Front) ein.</li>
-      <li>Überführe komplexe Zusammenhänge in semantische HTML-Tabellen oder nummerierte Schritt-für-Schritt-Prozesse.</li>
-      <li>Ergänze valides Schema.org JSON-LD Markup mit @id- und sameAs-Relationen.</li>
-      <li>Erzwinge Trailing Slashes (/) auf allen internen Links.</li>
-      <li>Validiere die Zitations-Trigger im erzeugten Markdown-Code.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Setze zu Beginn jedes H2-Abschnitts einen prägnanten 40-50 Wörter BLUF-Antwortblock (Bottom Line Up Front) ein; Überführe komplexe Zusammenhänge in semantische HTML-Tabellen oder nummerierte Schritt-für-Schritt-Prozesse; Ergänze valides Schema.org JSON-LD Markup mit @id- und sameAs-Relationen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

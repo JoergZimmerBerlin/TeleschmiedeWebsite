@@ -136,7 +136,7 @@ Mit 150 bis 160 Zeichen bietet die Description ausreichend Raum für ein überze
 
 Durch solche sauberen Schemata können Rich Results wie Bewertungssterne (`AggregateRating`), Breadcrumb-Pfade oder gezieltes [FAQ-Markup](/glossar/faq-markup/) generiert werden, die die optische Aufmerksamkeit auf der SERP verdoppeln. Insbesondere semantische Breadcrumb-Listen ersetzen kryptische URL-Pfade durch eine übersichtliche Verzeichnis-Navigation, die Nutzern und Crawlern die thematische Einordnung der Seite auf einen Blick signalisiert.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -148,20 +148,18 @@ Durch solche sauberen Schemata können Rich Results wie Bewertungssterne (`Aggre
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes SERP-Snippet- und Rich-Result-Audit durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: SERP-Snippet- & Rich-Result-Audit automatisieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical Onpage SEO & SERP Optimization Specialist.</p>
     <p><strong>Aufgabe:</strong> Überprüfe die Metadaten und Schemata aller HTML-Templates auf Einhaltung der Längengrenzen und Rich-Result-Readiness.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe, ob Title-Tags strikt zwischen 50 und 60 Zeichen liegen und nicht abgeschnitten werden.</li>
-      <li>Verifiziere, dass Meta Descriptions zwischen 140 und 155 Zeichen umfassen und einen klaren CTA enthalten.</li>
-      <li>Validiere, ob das JSON-LD Schema.org Markup fehlerfrei generiert wird und Entitäten sauber verknüpft.</li>
-      <li>Stelle sicher, dass alle internen Verweise zwingend mit einem abschließenden Trailing Slash (/) versehen sind.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Erstelle einen tabellarischen Audit-Report mit konkreten Korrekturvorschlägen für abweichende Seiten.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Prüfe, ob Title-Tags strikt zwischen 50 und 60 Zeichen liegen und nicht abgeschnitten werden; Verifiziere, dass Meta Descriptions zwischen 140 und 155 Zeichen umfassen und einen klaren CTA enthalten; Validiere, ob das JSON-LD Schema.org Markup fehlerfrei generiert wird und Entitäten sauber verknüpft.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Erstelle einen tabellarischen Audit-Report mit konkreten Korrekturvorschlägen für abweichende Seiten., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

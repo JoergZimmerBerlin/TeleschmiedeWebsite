@@ -181,7 +181,7 @@ Retrieval-Augmented Generation ist keine Übergangstechnologie, sondern die daue
 
 Einen detaillierten Marktüberblick über moderne Systeme zur Messung Ihrer KI-Zitationen bietet unser Leitfaden über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Zur verlässlichen Kalkulation Ihrer Investitionen in RAG- und GEO-Infrastrukturen nutzen Sie unseren interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/).
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -199,14 +199,12 @@ Einen detaillierten Marktüberblick über moderne Systeme zur Messung Ihrer KI-Z
     <p class="text-lime-accent font-bold mb-1"># Prompt: RAG Chunking & Extraktions-Audit</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AI Information Retrieval & GEO Architect.</p>
     <p><strong>Aufgabe:</strong> Analysiere den HTML-Content der Zielseite auf RAG-Tauglichkeit, semantische Dichte und atomare Chunk-Verfügbarkeit.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Chunk-Audit: Parse die Absätze und prüfe, ob Kernaussagen in isolierbaren Einheiten von 40 bis 70 Wörtern formuliert sind.</li>
-      <li>Heading-Check: Überprüfe, ob Zwischenüberschriften (H2/H3) die enthaltenen Entitäten und Fakten präzise vorwegnehmen.</li>
-      <li>Schema-Konsistenz: Validiere, ob JSON-LD Schema (TechArticle, FAQPage) mit den Text-Aussagen zu 100 % konsistent übereinstimmt.</li>
-      <li>Hybrid-Retrieval-Simulation: Simuliere einen BM25 + Vektor-Retrieval-Split und erstelle Vorschläge zur Optimierung schwacher Absätze.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere eine Tabelle mit optimierten Chunks und korrigiertem Schema.org Markup für maximale RAG-Extractability.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Chunk-Audit: Parse die Absätze und prüfe, ob Kernaussagen in isolierbaren Einheiten von 40 bis 70 Wörtern formuliert sind; Heading-Check: Überprüfe, ob Zwischenüberschriften (H2/H3) die enthaltenen Entitäten und Fakten präzise vorwegnehmen; Schema-Konsistenz: Validiere, ob JSON-LD Schema (TechArticle, FAQPage) mit den Text-Aussagen zu 100 % konsistent übereinstimmt.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere eine Tabelle mit optimierten Chunks und korrigiertem Schema.org Markup für maximale RAG-Extractability., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

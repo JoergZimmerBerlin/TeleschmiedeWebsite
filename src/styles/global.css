@@ -615,6 +615,21 @@ input[type="range"]::-webkit-slider-thumb {
   background-color: transparent !important;
 }
 
+.blog-content .bg-dark code,
+.prose .bg-dark code {
+  color: #e5e7eb !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  padding: 0.1rem 0.35rem !important;
+  border-radius: 0.25rem !important;
+}
+
+.blog-content .bg-dark code::before,
+.blog-content .bg-dark code::after,
+.prose .bg-dark code::before,
+.prose .bg-dark code::after {
+  content: "" !important;
+}
+
 /* Blockquotes inside .bg-dark CTA box */
 .blog-content .bg-dark blockquote,
 .prose .bg-dark blockquote {

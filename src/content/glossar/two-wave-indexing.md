@@ -210,7 +210,7 @@ Indem Sie Ihre Inhalte direkt und vollständig in Welle 1 ausliefern, sichern Si
 
 Wie Sie Ihre Sichtbarkeit im Zeitalter generativer Suchsysteme professionell analysieren, erfahren Sie in unserem Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die Wirtschaftlichkeit moderner Server- und Caching-Architekturen können Sie transparent mit unserem [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -222,17 +222,18 @@ Wie Sie Ihre Sichtbarkeit im Zeitalter generativer Suchsysteme professionell ana
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um dein Web-Projekt auf Two-Wave-Indexing-Risiken und JavaScript-Abhängigkeiten im initialen HTML zu überprüfen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Two-Wave-Indexing & SSR Hydration Audit</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO Architect & JavaScript Rendering Expert.</p>
     <p><strong>Aufgabe:</strong> Überprüfe das Rendering aller zentralen Routen auf die Trennung zwischen statischem Quellcode (Welle 1) und clientseitig nachgeladenen DOM-Elementen (Welle 2).</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Rufe die Ziel-URLs per HTTP-GET (ohne Headless-Browser) ab und extrahiere den rohen HTML-Body.</p>
-    <p>2. Prüfe, ob Hauptinhalte, H1-H3-Überschriften, Canonical-Tags und interne Links im rohen HTML vollständig vorhanden sind.</p>
-    <p>3. Identifiziere kritische Inhalte, die erst nach Ausführung von Client-Side-JS oder via Fetch/XHR im DOM injiziert werden.</p>
-    <p>4. Empfiehle konkrete Refactorings für SSR, SSG oder statische HTML-Vorrendierung zur Vermeidung von WRS-Warteschlangen.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe keine bestehende State-Logik. Stelle sicher, dass SEO-kritischer Content bereits im initialen Server-HTML enthalten ist. Isoliere interaktive Komponenten defensiv. Beachte dabei: Schritte & Validierung:; Rufe die Ziel-URLs per HTTP-GET (ohne Headless-Browser) ab und extrahiere den rohen HTML-Body; Prüfe, ob Hauptinhalte, H1-H3-Überschriften, Canonical-Tags und interne Links im rohen HTML vollständig vorhanden sind.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

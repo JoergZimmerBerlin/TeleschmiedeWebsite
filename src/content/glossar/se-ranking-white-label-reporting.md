@@ -159,19 +159,18 @@ Das fördert die kollaborative Zusammenarbeit und nimmt Kunden die Angst vor der
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um monatliche Reporting-Daten via API automatisiert abzurufen und als Management-Summary zu formatieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierte SEO-Executive-Summary Generierung</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener SEO Account Manager & Daten-Analyst.</p>
     <p><strong>Aufgabe:</strong> Ziehe über die SE Ranking API oder MCP-Schnittstelle die aggregierten monatlichen Leistungsdaten für das hinterlegte Webprojekt (Rankings, Search Visibility Score, behobene Audit-Issues, neue Backlinks).</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Berechne die prozentuale Veränderung der Sichtbarkeit im Vergleich zum Vormonat.</li>
-      <li>Hebe die Top 3 Ranking-Gewinner im relevanten Suchvolumen-Segment über 1.000 monatliche Suchen hervor.</li>
-      <li>Dokumentiere die wichtigsten technischen Verbesserungen aus dem Website-Audit (z.B. behobene 404-Fehler oder reduzierte Ladezeiten).</li>
-      <li>Formuliere ein prägnantes, dreiteiliges Management-Summary (Erreichtes, Hebel für den Folgemonat, empfohlene Budgets).</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Berechne die prozentuale Veränderung der Sichtbarkeit im Vergleich zum Vormonat; Hebe die Top 3 Ranking-Gewinner im relevanten Suchvolumen-Segment über 1.000 monatliche Suchen hervor; Dokumentiere die wichtigsten technischen Verbesserungen aus dem Website-Audit (z.B. behobene 404-Fehler oder reduzierte Ladezeiten).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

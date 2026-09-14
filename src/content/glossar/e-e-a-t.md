@@ -129,7 +129,7 @@ Eine [Groundingpage](/glossar/grounding-page/) dient als maschinenlesbarer Perso
 ### Tief verschachteltes Schema.org Markup
 Standard-Plugins stoßen hier an ihre Grenzen. Professionelles E-E-A-T erfordert verschachtelte Graphen: Ein `Article`, verfasst von einer `Person`, die als `founder` einer `Organization` fungiert – abgesichert durch `sameAs`-Verweise zu Wikidata, Campixx und LinkedIn.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -141,20 +141,18 @@ Standard-Plugins stoßen hier an ihre Grenzen. Professionelles E-E-A-T erfordert
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein lückenloses E-E-A-T-Autoren-Schema in deiner Web-Architektur zu etablieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: E-E-A-T Person & Organization Schema implementieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Semantic Web Engineer & Schema.org Spezialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle für die Autoren- und Leistungsseiten einen strukturierten JSON-LD Graph, der maximale E-E-A-T-Signale an Suchmaschinen übermittelt.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Definiere die <code>Person</code> mit <code>name</code>, <code>jobTitle</code>, <code>image</code>, <code>description</code> und einer eindeutigen <code>@id</code>-URI.</li>
-      <li>Füge ein Array von <code>sameAs</code>-Links zu verifizierten Profilen (LinkedIn, XING, Google Maps, Branchenverbände) ein.</li>
-      <li>Hinterlege <code>knowsAbout</code>-Knoten mit Wikidata-URIs für die fachlichen Kernkompetenzen.</li>
-      <li>Verknüpfe die <code>Person</code> als <code>author</code> und <code>reviewedBy</code> in allen <code>Article</code>- und <code>BlogPosting</code>-Schemata.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Validiere das JSON-LD Snippet fehlerfrei gegen das Google Rich Results Test Tool.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Definiere die Person mit name, jobTitle, image, description und einer eindeutigen @id-URI; Füge ein Array von sameAs-Links zu verifizierten Profilen (LinkedIn, XING, Google Maps, Branchenverbände) ein; Hinterlege knowsAbout-Knoten mit Wikidata-URIs für die fachlichen Kernkompetenzen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Validiere das JSON-LD Snippet fehlerfrei gegen das Google Rich Results Test Tool., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

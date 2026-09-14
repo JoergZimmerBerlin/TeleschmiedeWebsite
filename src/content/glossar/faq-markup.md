@@ -154,7 +154,7 @@ Sprachmodelle besitzen ein begrenztes Kontextfenster und bevorzugen sogenannte a
 ### 3. Verknüpfung mit Entitäten und Autorenangaben
 Ein isoliertes Textfragment besitzt für KI-Modelle wenig Autorität. Erst durch die Verknüpfung mit einer anerkannten Urheber-Entität (`Person` oder `Organization`) erhält die Information das nötige Gewicht für E-E-A-T-Algorithmen. Geben Sie in der `acceptedAnswer` stets die Urheber-Property an, um dem Retrieval-System zu signalisieren, dass hier verifizierte Fachexpertise vorliegt.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -166,17 +166,18 @@ Ein isoliertes Textfragment besitzt für KI-Modelle wenig Autorität. Erst durch
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um dynamisches, RAG-optimiertes FAQPage-Schema mit strikter Content Parity zu generieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Dynamic FAQPage Schema Generation with Content Parity</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO & Frontend Web Architect.</p>
-    <p><strong>Aufgabe:</strong> Implementiere eine Build-Time- oder Client-Side-Komponente, die FAQPage JSON-LD direkt aus den sichtbaren FAQ-Akkordeon-Elementen der Seite extrahiert und in den &lt;head&gt; injiziert.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Scanne alle sichtbaren &lt;details&gt;- bzw. FAQ-Container nach Fragen (&lt;summary&gt; oder Headings) und zugehörigen Antwort-Paragraphen.</p>
-    <p>2. Erzeuge valides Schema.org/FAQPage JSON-LD und verknüpfe jede acceptedAnswer mit einer author-Property (Person oder Organization).</p>
-    <p>3. Prüfe strikte Content Parity: Keine Diskrepanz zwischen HTML-Text und JSON-LD Text-Inhalt.</p>
-    <p>4. Validierung: Führe einen Test mit dem Google Rich Results Tool durch und validiere, dass alle URLs im Markup auf Trailing Slashes &quot;/&quot; enden.</p>
+    <p><strong>Aufgabe:</strong> Implementiere eine Build-Time- oder Client-Side-Komponente, die FAQPage JSON-LD direkt aus den sichtbaren FAQ-Akkordeon-Elementen der Seite extrahiert und in den <head> injiziert.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Scanne alle sichtbaren <details>- bzw. FAQ-Container nach Fragen (<summary> oder Headings) und zugehörigen Antwort-Paragraphen; Erzeuge valides Schema.org/FAQPage JSON-LD und verknüpfe jede acceptedAnswer mit einer author-Property (Person oder Organization).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

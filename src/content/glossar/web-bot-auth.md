@@ -187,7 +187,7 @@ Web Bot Auth bildet das sicherheitstechnische Rückgrat moderner [Agent Readines
 
 Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwerten, erfahren Sie in unserem Überblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die Kosten für Edge-Sicherheit und Bot-Management lassen sich präzise im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -199,18 +199,18 @@ Welche Analysetools Ihnen dabei helfen, KI-Bot-Aktivitäten transparent auszuwer
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine standardkonforme RFC-9421-Signaturvalidierung für eingehende Bot-Requests zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: RFC 9421 HTTP Message Signature Middleware</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Web-Security-Architekt und Node.js/Edge-Worker-Entwickler.</p>
     <p><strong>Aufgabe:</strong> Entwickle eine Middleware für den Webserver dieses Projekts (oder Cloudflare Worker), die eingehende Requests automatisierter Agenten auf RFC 9421 HTTP Message Signatures prüft. Validiere die Header 'Signature-Input' und 'Signature' gegen öffentlich hinterlegte JWKS-Schlüsselbunde der Bot-Betreiber.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Parse den 'Signature-Input'-Header und extrahiere die deklarierten Komponenten (@method, @target-uri, @authority, date), keyid und alg (z. B. ed25519).</p>
-    <p>2. Konstruiere den kanonischen Signatur-Basistext gemäß RFC 9421 und prüfe die Zeitstempel-Toleranz (Clock-Skew max. +/- 300 Sekunden).</p>
-    <p>3. Lade den passenden öffentlichen Ed25519-Schlüssel aus dem serverseitigen LRU-Cache (mit automatischem Refresh bei Cache-Miss gegen das verifizierte JWKS-Verzeichnis).</p>
-    <p>4. Führe die kryptografische Verifikation durch: Bei gültiger Signatur wird der Request mit dem internen Kontext 'is_verified_bot = true' markiert und an die Anwendung durchgereicht; bei gefälschter Signatur erfolgt ein HTTP 403 Forbidden.</p>
-    <p>5. Validierung: Erstelle Unit-Tests mit synthetischen Signaturen und verifiziere, dass Anfragen ohne Signatur bei normalen Usern nicht blockiert werden.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Parse den 'Signature-Input'-Header und extrahiere die deklarierten Komponenten (@method, @target-uri, @authority, date), keyid und alg (z. B. ed25519); Konstruiere den kanonischen Signatur-Basistext gemäß RFC 9421 und prüfe die Zeitstempel-Toleranz (Clock-Skew max. +/- 300 Sekunden).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

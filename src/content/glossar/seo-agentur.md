@@ -119,7 +119,7 @@ Wir nutzen weiterhin harte technische Audits, um das fehlerfreie Fundament zu si
 
 Die Kür ist die Positionierung als unumstößliche Entität. Wir implementieren saubere `llms.txt` Dateien, definieren glasklare Zugriffsrechte (Crawler-Management) und setzen Link-Header auf den Millimeter präzise nach RFC-Standard. Wir verlinken gnadenlos sauber intern (immer mit abschließendem Slash auf `teleschmie.de/`). Wir optimieren kompromisslos für die Maschinen, die heute die Kaufentscheidungen der Menschen steuern.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -131,19 +131,18 @@ Die Kür ist die Positionierung als unumstößliche Entität. Wir implementieren
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain auf Agent-Readiness und moderne Agentur-Standards zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Full Agent-Readiness & RAG Architecture Audit</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Technical SEO & AI Architect.</p>
     <p><strong>Aufgabe:</strong> Überprüfe das gesamte Webprojekt auf die Einhaltung moderner Agent-Readiness-Standards und technischer SEO-Exzellenz.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe die Existenz und Validität von <code>/llms.txt</code> und <code>/.well-known/agent-card.json</code>.</li>
-      <li>Kontrolliere die robots.txt auf saubere Trennung zwischen Training-Bots und Live-Retrieval-Crawlern.</li>
-      <li>Validiere RFC 8288 Link-Header auf korrekte Syntax (keine Quotes innerhalb von <code>&lt;...&gt;</code>).</li>
-      <li>Stelle sicher, dass alle internen URLs strikt auf Trailing Slashes enden und JSON-LD @graph-Schemas valide sind.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Prüfe die Existenz und Validität von /llms.txt und /.well-known/agent-card.json; Kontrolliere die robots.txt auf saubere Trennung zwischen Training-Bots und Live-Retrieval-Crawlern; Validiere RFC 8288 Link-Header auf korrekte Syntax (keine Quotes innerhalb von <.>).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

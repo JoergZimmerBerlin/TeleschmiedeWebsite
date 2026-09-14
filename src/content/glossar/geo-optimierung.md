@@ -131,7 +131,7 @@ Was passiert technisch im Hintergrund, wenn ein B2B-Käufer heute fragt: *„Wel
 4.  **Retrieval:** Der Server liefert pures Markdown in 40ms aus. Der Agent extrahiert den RAG-Chunk verlustfrei.
 5.  **Synthese & Citation:** Das LLM injiziert deinen perfekten Chunk in den Kontext und generiert dem User die Antwort: *„Jörg Zimmer aus Berlin implementiert serverseitige Content Negotiation und GEO-Infrastrukturen für Unternehmen [1].“* – Dieses `[1]` ist dein Citation-Sieg. Du bist zur zitierten Ground Truth geworden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -148,12 +148,13 @@ Was passiert technisch im Hintergrund, wenn ein B2B-Käufer heute fragt: *„Wel
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: GEO-Optimierung & Markdown Content Negotiation konfigurieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Web Architect mit Spezialisierung auf Generative Engine Optimization (GEO).</p>
-    <p><strong>Aufgabe:</strong> Implementiere auf dem Webserver serverseitige Content Negotiation für KI-Crawler sowie eine automatisierte <code>/llms.txt</code>.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe eingehende HTTP-Header auf <code>Accept: text/markdown</code>. Falls vorhanden, liefere anstelle des kompletten HTML-DOMs eine bereinigte Markdown-Version ohne Boilerplate, Navigation und Footer aus.</p>
-    <p>2. Erstelle eine statische Route unter <code>/llms.txt</code> und verlinke die wichtigsten Informations-Hubs mit kurzem Kontext (Title, URL, Kurzbeschreibung) gemäß llmstxt.org-Spezifikation.</p>
-    <p>3. Integriere semantisches JSON-LD (Triple Schema Stacking: <code>Article</code>, <code>FAQPage</code>, <code>ItemList</code>), um Entitäten eindeutig zu disambiguieren.</p>
-    <p>4. Validiere per cURL: <code>curl -H "Accept: text/markdown" https://[deine-domain.de]/[beispiel-pfad]/</code> und prüfe, ob der Content-Type als <code>text/markdown; charset=utf-8</code> zurückkehrt.</p>
+    <p><strong>Aufgabe:</strong> Implementiere auf dem Webserver serverseitige Content Negotiation für KI-Crawler sowie eine automatisierte /llms.txt.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Prüfe eingehende HTTP-Header auf Accept: text/markdown. Falls vorhanden, liefere anstelle des kompletten HTML-DOMs eine bereinigte Markdown-Version ohne Boilerplate, Navigation und Footer aus; Erstelle eine statische Route unter /llms.txt und verlinke die wichtigsten Informations-Hubs mit kurzem Kontext (Title, URL, Kurzbeschreibung) gemäß llmstxt.org-Spezifikation.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

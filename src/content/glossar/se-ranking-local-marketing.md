@@ -164,19 +164,18 @@ Hier spielt das Zusammenspiel mit dem [SE Ranking Rank Tracker](/glossar/se-rank
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um lokale Standortdaten, Schema.org LocalBusiness-Markups und NAP-Konsistenz automatisiert zu validieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Local SEO Audit & Schema.org LocalBusiness Validierung</p>
     <p><strong>Rolle:</strong> Du bist ein hochqualifizierter Local SEO Specialist & Schema Markup Engineer.</p>
     <p><strong>Aufgabe:</strong> Überprüfe das Webprojekt auf Konsistenz lokaler Signale. Gleiche die im Impressum und Footer hinterlegten NAP-Daten mit den Angaben im Google Business Profile ab und generiere ein valides LocalBusiness JSON-LD.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Extrahiere Firmenname, Straße, Hausnummer, Postleitzahl, Ort, Telefonnummer und Öffnungszeiten.</li>
-      <li>Erstelle ein strukturiertes Schema.org Markup vom Typ <code>LocalBusiness</code> (oder spezifischer: <code>MedicalBusiness</code>, <code>LegalService</code> etc.) mit korrekten Geo-Koordinaten.</li>
-      <li>Prüfe, ob interne Links zu Standort-Landingpages mit regionalen Ankertexten versehen sind.</li>
-      <li>Formuliere standardisierte, professionelle Antwort-Templates für 5-Sterne- und 1-Stern-Kundenrezensionen.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Extrahiere Firmenname, Straße, Hausnummer, Postleitzahl, Ort, Telefonnummer und Öffnungszeiten; Erstelle ein strukturiertes Schema.org Markup vom Typ LocalBusiness (oder spezifischer: MedicalBusiness, LegalService etc.) mit korrekten Geo-Koordinaten; Prüfe, ob interne Links zu Standort-Landingpages mit regionalen Ankertexten versehen sind.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

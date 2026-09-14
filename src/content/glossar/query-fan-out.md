@@ -186,7 +186,7 @@ Der Query Fan-Out beweist, dass moderne Suchsysteme nicht mehr passive Index-Kat
 
 Einen detaillierten Marktüberblick über spezialisierte Analyse-Tools zur Messung Ihrer Markenpräsenz in generativen Modellen finden Sie im Leitfaden über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die anfallenden Aufwände für moderne RAG- und GEO-Audits können Sie vorab transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -204,14 +204,12 @@ Einen detaillierten Marktüberblick über spezialisierte Analyse-Tools zur Messu
     <p class="text-lime-accent font-bold mb-1"># Prompt: Query Fan-Out & Sub-Query Decomposition Mapping</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter AI Search Architect & Semantic Content Engineer.</p>
     <p><strong>Aufgabe:</strong> Generiere einen vollständigen Query-Fan-Out-Baum (Multi-Query Decomposition) für die Ziel-URL und identifiziere fehlende Faktenanker.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Sub-Query-Zerlegung: Analysiere das Hauptthema und erstelle 15 bis 25 atomare Sub-Queries (Definition, Regulierung, technische Architektur, Kosten, Fallstricke).</li>
-      <li>Coverage-Audit: Gleiche bestehenden Content mit den Sub-Queries ab und markiere unbeantwortete Teilfragen.</li>
-      <li>Chunk-Optimierung: Erstelle für jede Lücke einen prägnanten 50-Wort-Chunk im 'Answer-First'-Format inklusive harter Entitäten.</li>
-      <li>Schema & Trailing Slashes: Zeichne FAQPage-Strukturen aus und stelle sicher, dass alle internen URLs auf <code>/</code> enden.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere eine Sub-Query-Matrix mit Deckungsgrad-Analyse und fertigen Text-Chunks zur direkten CMS-Integration.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Sub-Query-Zerlegung: Analysiere das Hauptthema und erstelle 15 bis 25 atomare Sub-Queries (Definition, Regulierung, technische Architektur, Kosten, Fallstricke); Coverage-Audit: Gleiche bestehenden Content mit den Sub-Queries ab und markiere unbeantwortete Teilfragen; Chunk-Optimierung: Erstelle für jede Lücke einen prägnanten 50-Wort-Chunk im 'Answer-First'-Format inklusive harter Entitäten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere eine Sub-Query-Matrix mit Deckungsgrad-Analyse und fertigen Text-Chunks zur direkten CMS-Integration., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

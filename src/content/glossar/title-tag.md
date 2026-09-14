@@ -137,7 +137,7 @@ Jede einzelne verdammte URL deiner Website muss ein absolut einzigartiges Title 
 ### 4. Nutze Aktualität (Freshness)
 Wenn es thematisch passt, baue das aktuelle Jahr (z.B. "2026") oder Klammern wie "[Update]" in den Title ein. Das signalisiert KIs und Nutzern, dass die Informationen verifiziert und auf dem neuesten Stand sind. Gerade für RAG-Systeme ist Temporalität ein massiver Trust-Faktor.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -149,18 +149,18 @@ Wenn es thematisch passt, baue das aktuelle Jahr (z.B. "2026") oder Klammern wie
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Title Tags automatisiert auf CTR, Pixel-Länge und semantische Konsistenz zu prüfen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Title-Tag & Query-Contract Audit</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Technical SEO Engineer & Frontend Architect.</p>
     <p><strong>Aufgabe:</strong> Überprüfe alle Seitenvorlagen, Markdown-Dateien oder Routen in diesem Projekt auf die Qualität und semantische Konsistenz der Title-Tags.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Extrahiere für jede Route das Title-Tag, die Hauptüberschrift (H1) und die Meta-Description.</p>
-    <p>2. Prüfe die Zeichen- und Pixellänge des Title-Tags (Desktop ca. 580px / 50-60 Zeichen; Mobil ca. 540px).</p>
-    <p>3. Query-Contract Check: Liegt das Fokus-Keyword im Title ganz vorne und stimmt es mit der H1 überein?</p>
-    <p>4. Einzigartigkeit: Stelle sicher, dass kein Title-Tag im gesamten Projekt doppelt vorkommt.</p>
-    <p>5. Branding: Überprüfe, ob am Ende ein einheitlicher Brand-Suffix mit Trennzeichen angehängt ist.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Extrahiere für jede Route das Title-Tag, die Hauptüberschrift (H1) und die Meta-Description; Prüfe die Zeichen- und Pixellänge des Title-Tags (Desktop ca. 580px / 50-60 Zeichen; Mobil ca. 540px).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

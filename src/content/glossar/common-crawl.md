@@ -138,7 +138,7 @@ Im technischen Alltag begegnen SEO-Spezialisten immer wieder Versäumnissen, die
 2. **Reine Client-Side-Rendering Architekturen ohne Vorverarbeitung:** Da der CCBot auf maximale Effizienz getrimmt ist und Milliarden Seiten verarbeitet, führt er kein aufwendiges JavaScript-Rendering durch. Seiten, die ausschließlich auf [Client-Side Rendering (CSR)](/glossar/client-side-rendering/) setzen, liefern dem Crawler lediglich leere HTML-Gerüste. Die Umstellung auf [Server-Side Rendering (SSR)](/glossar/server-side-rendering/) oder statische Generierung ist unabdingbar.
 3. **Mangelhafte semantische Textstruktur:** Werden Texte nicht durch saubere Tags wie Überschriften, Absätze und Tabellen gegliedert, scheitern Vorverarbeitungs-Pipelines wie C4 daran, redaktionellen Inhalt von Navigationsmenüs und Bannern zu unterscheiden. Der Text wird als Rauschen verworfen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -150,16 +150,18 @@ Im technischen Alltag begegnen SEO-Spezialisten immer wieder Versäumnissen, die
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine robots.txt und Server-Konfiguration für Common Crawl und KI-Training zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Common Crawl & AI Crawler robots.txt Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Server Administrator.</p>
     <p><strong>Aufgabe:</strong> Überprüfe und optimiere die robots.txt sowie die Server-Firewall auf korrekte Erreichbarkeit für CCBot und moderne KI-Crawler.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe `robots.txt`: Stelle sicher, dass `User-agent: CCBot` erlaubt ist (`Allow: /`), während interne und geschützte Pfade (`/admin/`, `/checkout/`) sauber via Disallow geschützt werden.</p>
-    <p>2. Prüfe CDN- und Firewall-Regeln (z. B. Cloudflare WAF): Verifiziere, dass die ASN und User-Agent-Header von Common Crawl nicht pauschal mit HTTP 403 blockiert werden.</p>
-    <p>3. Validiere das serverseitige HTML: Rufe per `curl -A "CCBot/2.0" -s https://[deine-domain.de]/` ab und stelle sicher, dass alle redaktionellen Texte vollständig im Initial-HTML vorhanden sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Prüfe `robots.txt`: Stelle sicher, dass `User-agent: CCBot` erlaubt ist (`Allow: /`), während interne und geschützte Pfade (`/admin/`, `/checkout/`) sauber via Disallow geschützt werden; Prüfe CDN- und Firewall-Regeln (z. B. Cloudflare WAF): Verifiziere, dass die ASN und User-Agent-Header von Common Crawl nicht pauschal mit HTTP 403 blockiert werden.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -163,7 +163,7 @@ Du musst mir nicht glauben. Du kannst die Agent Readiness deiner eigenen Website
 
 Dieser Test zeigt dir schonungslos, wie blind deine Infrastruktur für den B2B-Markt von morgen ist, wenn du das Thema ignorierst.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -175,20 +175,18 @@ Dieser Test zeigt dir schonungslos, wie blind deine Infrastruktur für den B2B-M
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um einen vollständigen A2A Discovery Audit und die Validierung deiner agent-card.json durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: A2A Protocol Discovery & agent-card.json Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener AI Agent Architect & Protocol Compliance Engineer.</p>
-    <p><strong>Aufgabe:</strong> Überprüfe das Vorhandensein und die Konformität der <code>/.well-known/agent-card.json</code> nach den Standards des A2A Protocol v1.0.0 der Linux Foundation.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Validiere die Datei gegen das offizielle Schema von <code>https://a2a-protocol.org/schemas/v1.0/agent-card.json</code>.</li>
-      <li>Prüfe, ob die Pflichtfelder <code>supportedInterfaces</code>, <code>capabilities</code> und <code>skills</code> deklariert sind.</li>
-      <li>Verifiziere, dass Server-Header <code>Access-Control-Allow-Origin: *</code> für den <code>.well-known</code>-Pfad gesetzt sind.</li>
-      <li>Stelle sicher, dass referenzierte Endpunkte (z. B. <code>auth.md</code> oder API-Routen) erreichbar sind und interne Links auf Trailing Slashes (/) enden.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere das validierte JSON-Manifest inklusive Server-Konfigurationsschnipsel für CORS.</p>
+    <p><strong>Aufgabe:</strong> Überprüfe das Vorhandensein und die Konformität der /.well-known/agent-card.json nach den Standards des A2A Protocol v1.0.0 der Linux Foundation.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Validiere die Datei gegen das offizielle Schema von https://a2a-protocol.org/schemas/v1.0/agent-card.json; Prüfe, ob die Pflichtfelder supportedInterfaces, capabilities und skills deklariert sind; Verifiziere, dass Server-Header Access-Control-Allow-Origin: * für den .well-known-Pfad gesetzt sind.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere das validierte JSON-Manifest inklusive Server-Konfigurationsschnipsel für CORS., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

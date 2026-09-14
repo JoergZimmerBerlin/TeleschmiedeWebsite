@@ -128,16 +128,43 @@ Damit Suchmaschinen und generative KI-Modelle wissen, welche Social-Media-Präse
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Teleschmiede",
-  "url": "https://teleschmie.de/",
+  "name": "[Dein Unternehmensname]",
+  "url": "https://[deine-domain.de]/",
   "sameAs": [
-    "https://www.linkedin.com/company/teleschmiede/",
-    "https://www.youtube.com/@teleschmiede",
-    "https://twitter.com/teleschmiede"
+    "https://www.linkedin.com/company/[dein-unternehmen]/",
+    "https://www.youtube.com/@[dein-kanal]",
+    "https://x.com/[dein-handle]"
   ]
 }
 </script>
 ```
+
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
+  <div class="flex items-start justify-between gap-4 mb-3">
+    <div class="flex items-center gap-3">
+      <span class="text-lime-accent text-2xl shrink-0">🤖</span>
+      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
+    </div>
+    <button type="button" class="copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto" title="Prompt kopieren">
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
+      <span>Kopieren für Agent</span>
+    </button>
+  </div>
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Social-Profile-Audit und Schema.org sameAs-Mapping für dein Webprojekt umzusetzen:
+  </p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Social-Media-Profile & sameAs im Schema.org-Graph modular integrieren</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Web Architect.</p>
+    <p><strong>Aufgabe:</strong> Analysiere die bestehende Strukturierte-Daten-Architektur dieses Webprojekts und binde die verifizierten Social-Media-Profile des Unternehmens konfliktfrei in das Schema.org Markup ein.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (z. B. WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML) und vorhandene SEO-Plugins (z. B. Yoast, RankMath, SEOPress). Identifiziere, wo die primäre Kern-Entität (Organization, LocalBusiness, ProfessionalService oder Brand) aktuell deklariert wird.</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehendes Schema-Markup oder Core-Dateien. Nutze bei CMS-Plugins deren native Filter/Hooks (z. B. 'rank_math/json_ld' oder 'wpseo_schema_organization'). Binde bei Headless-/Custom-Setups die sameAs-URLs modular in den bestehenden @graph-Knoten der Haupt-Entität ein, um Daten-Inseln und Duplikate zu vermeiden.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verknüpfe ausschließlich tatsächlich vorhandene offizielle Kanäle (LinkedIn, YouTube, X, GitHub, Instagram etc.). Stelle sicher, dass alle internen URLs strikt auf einen Trailing Slash (/) enden.</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere das Ergebnis gegen das offizielle Schema.org JSON-LD Vokabular und führe einen lokalen Build-/Syntaxtest durch. Verhindere doppelte @id-Knoten.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Konkreter Code-Diff passend für das System, 3. Anleitung zur Validierung im Google Rich Results Test.</p>
+  </div>
+</div>
 
 ## Messbare Kennzahlen: Den Erfolg von Community Management quantifizieren
 
@@ -156,34 +183,6 @@ Um proaktiv agieren zu können, setzen professionelle Teams auf automatisiertes 
 * **Erkennung von Multiplikatoren:** Wenn renommierte Branchenexperten oder Journalisten das Unternehmen erwähnen, ermöglicht dies eine priorisierte und hochkompetente Reaktion.
 * **Fütterung generativer KI-Modelle:** Da generative Systeme wie Perplexity oder ChatGPT öffentliche Diskussionen in Echtzeit oder in Trainingsläufen analysieren, fließen die im Community Management erzeugten Antworten direkt in die Zitationsdatenbanken ein.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
-  <div class="flex items-start justify-between gap-4 mb-3">
-    <div class="flex items-center gap-3">
-      <span class="text-lime-accent text-2xl shrink-0">🤖</span>
-      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
-    </div>
-    <button type="button" class="copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto" title="Prompt kopieren">
-      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
-      <span>Kopieren für Agent</span>
-    </button>
-  </div>
-  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Social-Profile-Audit und Schema.org sameAs-Mapping für dein Webprojekt zu erstellen:
-  </p>
-  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org Organization sameAs-Verknüpfung validieren</p>
-    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Structured Data Specialist.</p>
-    <p><strong>Aufgabe:</strong> Überprüfe das JSON-LD Schema.org Markup der Domain auf vollständige und verifizierte Social-Media-Verknüpfungen.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Prüfe die Entität <code>Organization</code> auf Vorhandensein des <code>sameAs</code>-Arrays.</li>
-      <li>Verifiziere, dass alle offiziellen Social-Profile (LinkedIn, YouTube, X/Twitter, GitHub) aufgeführt sind.</li>
-      <li>Stelle sicher, dass alle internen URLs strikt auf einen Trailing Slash (/) enden.</li>
-      <li>Validiere den Codeblock gegen das offizielle Google Rich Results Schema.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere das korrigierte JSON-LD Snippet zur direkten Integration in das Hauptlayout.</p>
-  </div>
-</div>
 
 ---
 

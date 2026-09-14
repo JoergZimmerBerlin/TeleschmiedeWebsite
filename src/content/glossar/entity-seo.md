@@ -159,7 +159,7 @@ Embedding-Modelle (wie OpenAIs `text-embedding-3-large` oder Googles Gemini-Vekt
 
 Liegt der Vektor Ihrer Marke (z. B. als Dienstleister für B2B-SEO) mathematisch nahe am Vektor von Themen wie „Enterprise SEO“, „Generative Engine Optimization“ oder „Technischer Relaunch“, ordnet die KI Ihre Domain automatisch als logische Zitationsquelle ein. Fehlen diese semantischen Kanten oder wird Ihr Unternehmen im Web vor allem mit unspezifischem Marketing-Jargon beschrieben, driftet der Vektor ab. Die KI sieht keine thematische Nähe und bevorzugt Mitbewerber, deren semantischer Fußabdruck enger am Suchkonzept liegt.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -171,16 +171,18 @@ Liegt der Vektor Ihrer Marke (z. B. als Dienstleister für B2B-SEO) mathematisch
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen vollständigen, verschachtelten Entity-Knowledge-Graph für dein Webprojekt zu generieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Graph &amp; Knowledge Graph Generation</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Entity Graph & Knowledge Graph Generation</p>
     <p><strong>Rolle:</strong> Du bist ein Senior Semantic-Web- und Schema.org-Ingenieur.</p>
     <p><strong>Aufgabe:</strong> Erstelle für die Domain https://[deine-domain.de]/ einen vollständigen JSON-LD Knowledge Graph mit verschachtelten Entitäten.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Definiere Organization mit fester @id (URI: https://[deine-domain.de]/#organization), Name [Unternehmensname], Logo und Kontaktdaten.</p>
-    <p>2. Integriere ein umfassendes sameAs-Array (Wikidata, LinkedIn, Branchenverzeichnisse) und knowsAbout-Array mit Wikipedia-Entitäten.</p>
-    <p>3. Verknüpfe Person-Entität (@id: https://[deine-domain.de]/#[autor-slug]) über worksFor und validiere mit dem Schema Markup Validator.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Definiere Organization mit fester @id (URI: https://[deine-domain.de]/#organization), Name [Unternehmensname], Logo und Kontaktdaten; Integriere ein umfassendes sameAs-Array (Wikidata, LinkedIn, Branchenverzeichnisse) und knowsAbout-Array mit Wikipedia-Entitäten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

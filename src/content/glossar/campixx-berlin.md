@@ -140,7 +140,7 @@ Um Fachkonferenzen, Workshops oder Vorträge für Suchmaschinen und KI-Agenten m
 
 Durch eine derartige semantische Auszeichnung erfassen Suchbots und KI-Engines Termine, Veranstaltungsorte und Organisationsdaten ohne Interpretationsspielraum und binden diese direkt in Snippets oder Event-Karussells ein.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -152,20 +152,18 @@ Durch eine derartige semantische Auszeichnung erfassen Suchbots und KI-Engines T
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Fachveranstaltungen und Konferenz-Teilnahmen semantisch als Event-Schema für Suchmaschinen und KI-Agenten auszuzeichnen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Schema.org Event-Markup für Branchenkonferenzen generieren</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Structured Data Engineer.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein validiertes JSON-LD Schema.org Markup für die Teilnahme oder Organisation einer Branchenkonferenz (z. B. Campixx Berlin).</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Verwende den Typ <code>Event</code> mit Feldern für <code>name</code>, <code>startDate</code>, <code>endDate</code>, <code>location</code> (Place & PostalAddress) und <code>organizer</code>.</li>
-      <li>Integriere <code>eventAttendanceMode</code> (Offline) und <code>eventStatus</code> (EventScheduled).</li>
-      <li>Verknüpfe Sprecher und Teilnehmer über <code>performer</code> (Person) mit Verweis auf deren LinkedIn- oder Autoren-Entität zur E-E-A-T-Stärkung.</li>
-      <li>Erzwinge Trailing Slashes auf allen internen URLs.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Valides JSON-LD Skript-Tag mit begleitender Integrationsanleitung für HTML/Astro.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Verwende den Typ Event mit Feldern für name, startDate, endDate, location (Place & PostalAddress) und organizer; Integriere eventAttendanceMode (Offline) und eventStatus (EventScheduled); Verknüpfe Sprecher und Teilnehmer über performer (Person) mit Verweis auf deren LinkedIn- oder Autoren-Entität zur E-E-A-T-Stärkung.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Valides JSON-LD Skript-Tag mit begleitender Integrationsanleitung für HTML/Astro., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

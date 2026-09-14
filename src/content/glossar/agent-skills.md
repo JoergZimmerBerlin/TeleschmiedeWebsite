@@ -168,7 +168,7 @@ In größeren Organisationen und Entwicklungsteams dürfen Agent Skills nicht un
 
 Durch diese Professionalisierung wandeln sich Agent Skills von experimentellen Prompt-Snippets zu stabilen, auditierbaren Software-Artefakten.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -180,21 +180,18 @@ Durch diese Professionalisierung wandeln sich Agent Skills von experimentellen P
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um einen neuen modularen Agent Skill nach modernstem 2026-Standard zu generieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Create Modular Agent Skill (SKILL.md)</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Agentic AI System Architect & Software Engineer.</p>
-    <p><strong>Aufgabe:</strong> Erstelle einen neuen modularen Agent Skill für eine spezifische SEO- oder Coding-Aufgabe (z. B. <code>schema-markup-validator</code>).</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erstelle das Verzeichnis <code>skills/[skill-name]/</code> mit der zentralen Datei <code>SKILL.md</code>.</li>
-      <li>Definiere ein präzises YAML-Frontmatter mit <code>name</code>, <code>description</code>, <code>version</code> und restriktiven <code>allowed-tools</code>.</li>
-      <li>Formuliere die Handlungsanweisungen nach dem Progressive-Disclosure-Prinzip: Kurze Zusammenfassung für den Index, exakte Schrittfolge im Hauptteil.</li>
-      <li>Füge Verifikationsschritte und Testkriterien hinzu, die der Agent vor Abschluss prüfen muss.</li>
-      <li>Stelle sicher, dass alle internen Verweise mit Trailing Slash (/) versehen sind.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Validiere die fertige <code>SKILL.md</code> und gib den vollständigen Dateipfad aus.</p>
+    <p><strong>Aufgabe:</strong> Erstelle einen neuen modularen Agent Skill für eine spezifische SEO- oder Coding-Aufgabe (z. B. schema-markup-validator).</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Erstelle das Verzeichnis skills/[skill-name]/ mit der zentralen Datei SKILL.md; Definiere ein präzises YAML-Frontmatter mit name, description, version und restriktiven allowed-tools; Formuliere die Handlungsanweisungen nach dem Progressive-Disclosure-Prinzip: Kurze Zusammenfassung für den Index, exakte Schrittfolge im Hauptteil.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Validiere die fertige SKILL.md., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

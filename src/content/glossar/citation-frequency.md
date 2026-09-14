@@ -131,31 +131,30 @@ Neben den harten technischen Metriken und der reinen maschinellen Auslesbarkeit 
 
 Dieses Phänomen führt dazu, dass Traffic, der über KI-Sichtbarkeit generiert wird, in der Praxis oft signifikant höhere Conversion-Raten aufweist als herkömmlicher Google-Traffic. Es ist ein Vertrauensvorschuss, der durch maschinelle Objektivität suggeriert wird. Daher ist die Investition in saubere Entitäten, starke Co-Occurrence und exzellente Grounding-Strukturen weit mehr als nur technisches SEO – es ist digitales Marken-Gold im Zeitalter der Automatisierung.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md not-prose">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
-      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung: AEO & Citation Analytics Agent</p>
+      <p class="font-bold text-base md:text-lg text-lime-accent mb-0">Arbeitsanweisung für deinen KI-Agenten (Cursor / Claude / Antigravity)</p>
     </div>
     <button type="button" class="copy-agent-btn px-2.5 py-1 bg-lime-accent text-dark hover:bg-lime-600 hover:text-white text-[11px] font-bold uppercase rounded border border-lime-500 hover:border-lime-600 transition-all flex items-center gap-1 shadow-md cursor-pointer shrink-0 ml-auto" title="Prompt kopieren">
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 012-2v-8a2 2 0 01-2-2h-8a2 2 0 01-2 2v8a2 2 0 012 2z" /></svg>
       <span>Kopieren für Agent</span>
     </button>
   </div>
-  <p class="font-bold text-white text-base mb-2">Multi-Model Citation Frequency Tracker & Benchmarking</p>
-  <p class="text-sm text-gray-300 leading-relaxed mb-4">
-    Nutze diesen Prompt für deinen Coding-Agenten (Cursor, Claude, Antigravity), um ein automatisiertes Skript zur Messung deiner Zitierhäufigkeit in LLM-Antworten aufzusetzen:
+  <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
-  <div class="bg-black/50 p-4 rounded-xl text-xs text-gray-200 font-mono space-y-2 border border-white/5">
-    <p class="text-lime-accent font-semibold">// Rolle & Kontext</p>
-    <p>Du bist ein AI SEO Analytics Specialist. Erstelle ein Node.js- / Python-Skript, das automatisiert die Citation Frequency für ein Prompt-Cluster abfragt und auswertet.</p>
-    <p class="text-lime-accent font-semibold pt-1">// Anforderungen</p>
-    <p>1. Lade eine Liste von 25 kaufentscheidenden Zielgruppen-Prompts und sende sie an Perplexity (Sonar API) sowie OpenAI (Search API).</p>
-    <p>2. Prüfe alle zurückgegebenen Quellen-URLs auf Übereinstimmung mit der Ziel-Domain https://[deine-domain.de]/ und den wichtigsten Wettbewerbern.</p>
-    <p>3. Berechne die absolute Citation Frequency sowie den relativen Share of Model (SoM) pro Modell.</p>
-    <p>4. Speichere die Historie in einer SQLite-Datenbank und erstelle einen wöchentlichen HTML-Report mit Trend-Indikatoren.</p>
-    <p class="text-lime-accent font-semibold pt-1">// Output</p>
-    <p>Ausführbares Skript mit Umgebungsvariablen für API-Keys und übersichtlicher CLI-Ausgabe.</p>
+  <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
+    <p class="text-lime-accent font-bold mb-1"># Prompt: AEO & Citation Analytics Agent</p>
+    <p><strong>Rolle:</strong> Du bist ein AI SEO Analytics Specialist</p>
+    <p><strong>Aufgabe:</strong> Analysiere das Webprojekt und implementiere die Anforderungen passgenau und defensiv.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Kopieren für Agent Multi-Model Citation Frequency Tracker & Benchmarking; Nutze diesen Prompt für deinen Coding-Agenten (Cursor, Claude, Antigravity), um ein automatisiertes Skript zur Messung deiner Zitierhäufigkeit in LLM-Antworten aufzusetzen:; // Rolle & Kontext.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -129,7 +129,7 @@ KIs stützen sich bevorzugt auf Quellen, die im semantischen Web über eine hohe
 ### 4. Etablierung proprietärer Fachbegriffe (Named Frameworks)
 Erfinde prägnante Bezeichnungen für deine Methoden. Wenn du einen standardisierten Prozess „3-Phasen-RAG-Matrix“ oder „Entity-Inclusion-Audit“ nennst, fragen Nutzer in LLMs gezielt nach diesem Begriff, wodurch die KI zwingend deine Domain als Primärquelle ausweisen muss.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -141,17 +141,18 @@ Erfinde prägnante Bezeichnungen für deine Methoden. Wenn du einen standardisie
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten (Cursor, Claude, Antigravity), um bestehende Ratgeber-Artikel in RAG-optimierten Zero-Click Content zu transformieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: Zero-Click &amp; BLUF Content Refactoring</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Zero-Click & BLUF Content Refactoring</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter GEO-Architekt für RAG-Pipelines und Information Retrieval.</p>
     <p><strong>Aufgabe:</strong> Analysiere den folgenden Fachartikel und optimiere ihn für Zero-Click-Zitationen und Entitäten-Verankerung in KI-Suchmaschinen.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Erstelle direkt unter jeder H2-Überschrift einen 40-60 Wörter umfassenden BLUF-Antwortblock (Bottom Line Up Front), der die Kernfrage präzise beantwortet.</p>
-    <p>2. Formatiere komplexe Vergleiche in übersichtliche Markdown-Tabellen mit klaren Spaltenköpfen, die von RAG-Parsern als relationale Fakten extrahiert werden können.</p>
-    <p>3. Ergänze spezifische Zitationsanker: Verwebe den Markennamen mit proprietären Kennzahlen oder Studienergebnissen.</p>
-    <p>4. Generiere das passende Schema.org FAQPage-Markup im JSON-LD-Format für die nahtlose Einbindung in den Seiten-Header.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Erstelle direkt unter jeder H2-Überschrift einen 40-60 Wörter umfassenden BLUF-Antwortblock (Bottom Line Up Front), der die Kernfrage präzise beantwortet; Formatiere komplexe Vergleiche in übersichtliche Markdown-Tabellen mit klaren Spaltenköpfen, die von RAG-Parsern als relationale Fakten extrahiert werden können.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -124,7 +124,7 @@ Die Schema-Evaluierung vergleicht das unsichtbare JSON-LD-Markup mit dem sichtba
 ### 5. Der Subjectivity Filter (Fluff-Detektor)
 Reasoning Engines bevorzugen kühle, datengestützte und faktenreiche Aussagen. Der integrierte Subjectivity Filter spürt inhaltsleere Marketing-Übertreibungen wie „branchenführend“, „revolutionär“ oder „cutting-edge“ auf. Er ermittelt eine mathematische **Fluff-Dichte**: Übersteigt der Anteil an werblichem Fülltext einen Schwellenwert, sinkt das GEO-Scoring drastisch.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -136,18 +136,18 @@ Reasoning Engines bevorzugen kühle, datengestützte und faktenreiche Aussagen. 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Kernseiten automatisiert auf GEO-Kriterien zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: GEO Page Audit & Contextual Autonomy Check</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Auditor mit Fokus auf Generative Engine Optimization (GEO) und RAG-Retrieval.</p>
     <p><strong>Aufgabe:</strong> Überprüfe die angegebene URL auf AI-Crawlability, Contextual Autonomy, Fluff-Dichte und Schema-Konsistenz.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe die robots.txt auf Disallow-Regeln gegen <code>GPTBot</code>, <code>PerplexityBot</code>, <code>ClaudeBot</code> und <code>Google-Extended</code>.</p>
-    <p>2. Analysiere die ersten 100 Wörter des Fließtexts: Beantwortet der erste Absatz die zentrale Nutzerfrage direkt („Answer-First“) in 40–60 Wörtern?</p>
-    <p>3. Untersuche die Absätze auf isolierte Verständlichkeit (Contextual Autonomy): Werden Entitäten namentlich genannt oder durch mehrdeutige Pronomen („wir“, „unser Tool“) verschleiert?</p>
-    <p>4. Führe einen Abgleich zwischen sichtbarem Text und JSON-LD durch: Weichen Schema-Werte vom gerenderten Inhalt ab (Schema Alignment Penalty)?</p>
-    <p>5. Gib einen tabellarischen Audit-Report mit Prioritäten (Kritisch, Warnung, Optimal) aus.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Prüfe die robots.txt auf Disallow-Regeln gegen GPTBot, PerplexityBot, ClaudeBot und Google-Extended; Analysiere die ersten 100 Wörter des Fließtexts: Beantwortet der erste Absatz die zentrale Nutzerfrage direkt („Answer-First“) in 40–60 Wörtern?.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

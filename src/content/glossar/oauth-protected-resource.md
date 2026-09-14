@@ -188,7 +188,7 @@ Hierbei bildet die Protected Resource das Gegenstück zur [auth.md](/glossar/aut
 
 Moderne Unternehmen, die ihre Datenstrukturen für Antwortmaschinen und Agenten optimieren möchten, analysieren Wettbewerbsdaten in unserem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Budgets und Integrationsaufwände für sichere APIs lassen sich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) betriebswirtschaftlich durchkalkulieren. Wer seine Schnittstellen frühzeitig auf offene Sicherheitsstandards umstellt, sichert sich entscheidende Wettbewerbsvorteile im autonomen Web.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -200,17 +200,18 @@ Moderne Unternehmen, die ihre Datenstrukturen für Antwortmaschinen und Agenten 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um das Protected Resource Metadata Manifest (RFC 9728) für deine Schnittstellen bereitzustellen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: OAuth Protected Resource Metadata (RFC 9728) Setup</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Senior Technical SEO Architect & API Security Specialist.</p>
-    <p><strong>Aufgabe:</strong> Erstelle das Protected Resource Metadata Dokument unter <code>public/.well-known/oauth-protected-resource</code> nach RFC 9728 und konfiguriere die 401 WWW-Authenticate Header für geschützte API-Routen.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erzeuge die Datei <code>public/.well-known/oauth-protected-resource</code> mit <code>resource</code>, <code>authorization_servers</code> und <code>scopes_supported</code>.</p>
-    <p>2. Konfiguriere im Webserver (.htaccess / Nginx) für unautorisierte API-Anfragen den Response-Header: <code>WWW-Authenticate: Bearer realm="api-access", resource_metadata="https://[deine-domain.de]/.well-known/oauth-protected-resource"</code> mit Status 401.</p>
-    <p>3. Richte offene CORS-Header (<code>Access-Control-Allow-Origin "*"</code>) für alle Discovery-Pfade unter <code>/.well-known/</code> ein.</p>
-    <p>4. Teste die Funktionalität per <code>curl -i https://[deine-domain.de]/api/v1/resource</code> und validiere, dass der Header auf die Metadaten-URL zeigt.</p>
+    <p><strong>Aufgabe:</strong> Erstelle das Protected Resource Metadata Dokument unter public/.well-known/oauth-protected-resource nach RFC 9728 und konfiguriere die 401 WWW-Authenticate Header für geschützte API-Routen.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Erzeuge die Datei public/.well-known/oauth-protected-resource mit resource, authorization_servers und scopes_supported; Konfiguriere im Webserver (.htaccess / Nginx) für unautorisierte API-Anfragen den Response-Header: WWW-Authenticate: Bearer realm="api-access", resource_metadata="https://[deine-domain.de]/.well-known/oauth-protected-resource" mit Status 401.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

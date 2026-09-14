@@ -137,7 +137,7 @@ Wer eine ganzheitliche Suite bevorzugt, die klassische Suchmaschinen-Rankings mi
 
 Eine Nennung in ChatGPT ist nur dann ein geschäftlicher Gewinn, wenn das Modell deine Marke positiv darstellt. Wird ein Produkt genannt, aber im Nebensatz als veraltet oder fehleranfällig beschrieben, droht Reputationsverlust. Die semantische Analyse der Modell-Antworten deckt solche Schwachstellen frühzeitig auf, sodass dein Content-Team gezielt gegensteuern kann, um das Marken-Sentiment zu verbessern.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -149,20 +149,18 @@ Eine Nennung in ChatGPT ist nur dann ein geschäftlicher Gewinn, wenn das Modell
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Skript zur Berechnung des AI Share of Voice (SOV) für deine Marke aufzusetzen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierte AI Share of Voice (SOV) Berechnung für ChatGPT</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Data Analyst & LLM-Monitoring Engineer.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein Python- oder Node.js-Skript, das über die OpenAI API (oder ein Mock-Tracking-JSON) ein definiertes Prompt-Set abfragt und den prozentualen AI Share of Voice berechnet.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Formel implementieren: AI SOV = (Eigene Markenerwähnungen / Gesamtzahl aller Markenerwähnungen) * 100.</li>
-      <li>Gewichte Antworten nach Position: Platz 1 (Faktor 1.5), Folgepositionen (Faktor 1.0).</li>
-      <li>Erfasse, ob eine klickbare Quellenzitation (Footnote/Link) vorhanden ist (Bonusfaktor 2.0).</li>
-      <li>Exportiere die berechneten Werte als saubere JSON-Datei mit Zeitstempel und Wettbewerber-Vergleich.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Vollständig lauffähiger Code mit strukturierter Konsolenausgabe und CSV/JSON-Export.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Formel implementieren: AI SOV = (Eigene Markenerwähnungen / Gesamtzahl aller Markenerwähnungen) * 100; Gewichte Antworten nach Position: Platz 1 (Faktor 1.5), Folgepositionen (Faktor 1.0); Erfasse, ob eine klickbare Quellenzitation (Footnote/Link) vorhanden ist (Bonusfaktor 2.0).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Vollständig lauffähiger Code mit strukturierter Konsolenausgabe und CSV/JSON-Export., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

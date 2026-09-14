@@ -159,19 +159,18 @@ Hier stellst du deine eigene Domain mit bis zu zwei Mitbewerbern nebeneinander. 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Konkurrenz-Keywords und Paid-Ads-Daten via API abzurufen und eine automatisierte Lückenanalyse durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierte Mitbewerber-Lückenanalyse & Content-Gap</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Competitive Intelligence & Search Marketing Strategist.</p>
     <p><strong>Aufgabe:</strong> Rufe über die SE Ranking API oder die MCP-Tools die organischen und bezahlten Rankingdaten für das hinterlegte Webprojekt sowie zwei primäre Wettbewerber ab. Identifiziere signifikante Keyword-Lücken und Paid-Copy-Muster.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Filtere alle Suchbegriffe heraus, bei denen beide Wettbewerber in den Top 10 ranken, das eigene Projekt jedoch nicht vertreten ist.</li>
-      <li>Sortiere die Lückenliste nach geschätztem Traffic-Potenzial (Suchvolumen multipliziert mit durchschnittlicher CTR).</li>
-      <li>Extrahiere die drei langlebigsten Google-Ads-Anzeigentexte der Konkurrenten und analysiere deren Copywriting-Hebel.</li>
-      <li>Formuliere konkrete Empfehlungen für neue Zielseiten inklusive Intent, vorgeschlagener H1 und Keyword-Cluster.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Filtere alle Suchbegriffe heraus, bei denen beide Wettbewerber in den Top 10 ranken, das eigene Projekt jedoch nicht vertreten ist; Sortiere die Lückenliste nach geschätztem Traffic-Potenzial (Suchvolumen multipliziert mit durchschnittlicher CTR); Extrahiere die drei langlebigsten Google-Ads-Anzeigentexte der Konkurrenten und analysiere deren Copywriting-Hebel.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

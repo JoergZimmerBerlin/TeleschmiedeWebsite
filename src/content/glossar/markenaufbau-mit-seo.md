@@ -134,7 +134,7 @@ Ein KI-Crawler verzeiht keine Fehler in Datensätzen. Wenn deine Firmendaten (Na
 
 Ein oft unterschätzter Aspekt im Markenaufbau ist die technische Hygiene der eigenen Website. Wenn du Experten-Inhalte publizierst, um deine Marke aufzuladen, muss die interne Verlinkung makellos sein. Interne Links auf Silos (wie `/ueber-uns/` oder `/presse/`) müssen zwingend auf einem Trailing Slash `/` enden. Das verhindert unnötige 301-Redirects, spart wertvolles Crawl-Budget der KI-Agenten und zeigt der Maschine, dass sie es mit einer hochprofessionellen, technisch einwandfreien Entität zu tun hat. Niemand baut Vertrauen auf, wenn er dem Bot zunächst drei fehlerhafte Weiterleitungen anbietet.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -152,13 +152,12 @@ Ein oft unterschätzter Aspekt im Markenaufbau ist die technische Hygiene der ei
     <p class="text-lime-accent font-bold mb-1"># Prompt: Knowledge Graph & Organization Schema Generator</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Semantic Web Engineer & Entity SEO Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein vollständiges, verschachteltes Schema.org/JSON-LD Graph-Markup zur Disambiguierung der Marke [Dein Markenname].</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ol class="list-decimal pl-4 space-y-1 text-gray-300">
-      <li>Verknüpfe @type 'Organization' mit 'Brand', 'founder' (Person), 'foundingDate', 'legalName' und 'knowsAbout'-Attributen.</li>
-      <li>Hinterlege im sameAs-Array alle Trust-Quellen: Wikidata-Item-URI, Wikipedia, LinkedIn und Handelsregister.</li>
-      <li>Integriere 'contactPoint'- und 'address'-Objekte mit strikt konsistenten NAP-Daten.</li>
-      <li>Stelle sicher, dass alle internen URLs strikt auf Trailing Slashes (/) enden und validiere im Rich Results Test.</li>
-    </ol>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Verknüpfe @type 'Organization' mit 'Brand', 'founder' (Person), 'foundingDate', 'legalName' und 'knowsAbout'-Attributen; Hinterlege im sameAs-Array alle Trust-Quellen: Wikidata-Item-URI, Wikipedia, LinkedIn und Handelsregister; Integriere 'contactPoint'- und 'address'-Objekte mit strikt konsistenten NAP-Daten.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

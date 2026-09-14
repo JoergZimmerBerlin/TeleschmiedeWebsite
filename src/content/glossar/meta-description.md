@@ -132,7 +132,7 @@ Hör auf, dieses essenzielle HTML-Attribut an CMS-Plugins zu delegieren, die ein
 
 Schreibe sie manuell. Optimiere sie auf harte Klickreize (Psychologie) für Menschen und füttere sie mit klaren, logischen Entitäten (Technik) für die Maschinen. Analysiere deine CTR in den Webmaster-Tools. Wenn du top rankst, aber deine Klickrate miserabel ist, ist dein Snippet optimierungsbedürftig. Handle sofort.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -144,18 +144,18 @@ Schreibe sie manuell. Optimiere sie auf harte Klickreize (Psychologie) für Mens
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um alle Meta-Descriptions in deinem Projekt automatisiert auf Länge, Entitäten und CTR zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Meta-Description & SERP-Snippet Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer & Conversion Copywriter.</p>
     <p><strong>Aufgabe:</strong> Analysiere alle Content-Dateien und Vorlagen im Projekt auf Vollständigkeit, Pixel-Länge und Klickstärke der Meta-Descriptions.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe die Zeichenlänge: Markiere alle Descriptions unter 120 Zeichen (zu kurz) und über 155 Zeichen (Gefahr des Abschneidens in SERPs).</p>
-    <p>2. Intent & Entitäten: Stelle sicher, dass die primäre Entität und der zentrale Nutzen/USP in den ersten 85 Zeichen genannt werden.</p>
-    <p>3. Call-to-Action: Jede Description muss mit einer klaren Handlungsaufforderung (z. B. "Jetzt ansehen", "Hier prüfen") enden.</p>
-    <p>4. Duplicate Check: Identifiziere identische Descriptions über mehrere URLs und schlage individuelle Varianten vor.</p>
-    <p>5. Erstelle eine Markdown-Tabelle mit [Datei | Aktuelle Description | Länge | Handlungsempfehlung] und passe fehlerhafte Dateien auf Wunsch direkt an.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Prüfe die Zeichenlänge: Markiere alle Descriptions unter 120 Zeichen (zu kurz) und über 155 Zeichen (Gefahr des Abschneidens in SERPs); Intent & Entitäten: Stelle sicher, dass die primäre Entität und der zentrale Nutzen/USP in den ersten 85 Zeichen genannt werden.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

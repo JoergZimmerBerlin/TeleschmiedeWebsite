@@ -164,7 +164,7 @@ WebMCP markiert den Übergang von einer reinen Lese-Websuche hin zu einer agiere
 
 In Kombination mit weiteren Standards für Agent Readiness – wie [auth.md](/glossar/auth-md/) zur maschinenlesbaren Authentifizierung, der [MCP Server Card](/glossar/mcp-server-card/) und sauberer technischer [Indexierung](/glossar/crawling-vs-indexing/) – entsteht ein zukunftssicheres Web-Ökosystem. Wer die Sichtbarkeit seiner Marke in den neuen KI-Antwortmaschinen fortlaufend überwachen möchte, greift auf spezialisierte Plattformen aus dem [Vergleich der Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) zurück. Alle Tool-Preise lassen sich im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) vergleichen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -176,18 +176,18 @@ In Kombination mit weiteren Standards für Agent Readiness – wie [auth.md](/gl
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um WebMCP-Tools sicher und abwärtskompatibel auf deiner Website zu registrieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: WebMCP Tool-Registration & Progressive Enhancement</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Frontend-Architekt und AI-Interface-Entwickler.</p>
     <p><strong>Aufgabe:</strong> Implementiere eine robuste, fehlertolerante WebMCP-Tool-Registrierung für eine Webanwendung. Stelle sicher, dass die Werkzeuge über 'navigator.modelContext' (oder Fallbacks) registriert werden, ohne in Browsern ohne WebMCP-Support Laufzeitfehler zu verursachen.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Erstelle ein Initialisierungs-Modul mit strikter Feature-Detection ('modelContext' in navigator bzw. 'document.modelContext').</p>
-    <p>2. Definiere ein valides JSON-Schema für die Funktionsparameter (inklusive Typen, Beschreibungen und Required-Feldern) für einen Lead-Kalkulator oder Filterservice.</p>
-    <p>3. Implementiere strikte clientseitige Validierung und Error-Handling in der 'execute'-Methode, sodass fehlerhafte LLM-Parameter saubere JSON-Fehlermeldungen zurückgeben.</p>
-    <p>4. Ergänze deklarative HTML-Attribute (data-mcp-tool) für Standard-Formulare als No-Script-Fallback.</p>
-    <p>5. Validierung: Teste das Modul in einem Chromium-Browser mit aktiviertem WebML/MCP-Flag sowie in einem Standard-Browser, um sicherzustellen, dass keine Uncaught ReferenceErrors auftreten.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Erstelle ein Initialisierungs-Modul mit strikter Feature-Detection ('modelContext' in navigator bzw. 'document.modelContext'); Definiere ein valides JSON-Schema für die Funktionsparameter (inklusive Typen, Beschreibungen und Required-Feldern) für einen Lead-Kalkulator oder Filterservice.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

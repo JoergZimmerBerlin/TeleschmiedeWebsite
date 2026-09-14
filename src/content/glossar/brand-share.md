@@ -138,7 +138,7 @@ Damit KI-Agenten und Suchmaschinen eine Marke eindeutig als autoritative Entitä
 </script>
 ```
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -150,20 +150,18 @@ Damit KI-Agenten und Suchmaschinen eine Marke eindeutig als autoritative Entitä
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein automatisiertes Brand-Share- und Share-of-Search-Analyse-Skript zu generieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Brand-Share- und Share-of-Search-Analyse-Skript für dein Projekt aufzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: Share of Search & AI Share of Voice Monitor implementieren</p>
-    <p><strong>Rolle:</strong> Du bist ein erfahrener Brand Analytics Engineer & SEO Data Scientist.</p>
-    <p><strong>Aufgabe:</strong> Entwickle ein automatisiertes Skript oder eine Daten-Pipeline zur Erfassung und Auswertung von Share of Search und AI Share of Voice.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Aggregiere historische Suchvolumendaten für Brand- und Wettbewerber-Keywords aus Google Search Console und Drittanbieter-APIs.</li>
-      <li>Berechne den monatlichen Share of Search (SoS) als prozentualen Anteil des eigenen Markensuchvolumens am Gesamtvolumen der Kategorie.</li>
-      <li>Formuliere strukturierte Test-Prompts für LLM-APIs (OpenAI, Anthropic, Perplexity), um Markennennungen in Kaufberatungs-Szenarien systematisch zu tracken.</li>
-      <li>Integriere Schema.org <code>Brand</code>- und <code>Organization</code>-Validierungen, um sicherzustellen, dass Brand-Attribute maschinenlesbar vorliegen.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere das Python-/Node.js-Skript inklusive mathematischer Formeln und Visualisierungs-Logik.</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: Share of Search & AI Share of Voice Pipeline defensiv entwickeln</p>
+    <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Brand Analytics Engineer & Data Scientist.</p>
+    <p><strong>Aufgabe:</strong> Entwickle ein modular erweiterbares Skript zur automatisierten Erfassung und Aggregation von Share of Search (SoS) und AI Share of Voice (AI-SoV) für das vorliegende Projektumfeld.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Prüfe die vorhandene Entwicklungs-Laufzeitumgebung (Node.js/TypeScript oder Python 3). Prüfe, ob bestehende API-Clients für Google Search Console, SE Ranking, Sistrix oder LLMs vorhanden sind.</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Schreibe API-Keys NIEMALS hardcoded in den Quellcode, sondern binde sie strikt über Umgebungsvariablen (.env) ein. Füge .env zwingend zur .gitignore hinzu. Erstelle das Skript isoliert in einem separaten Tool-/Script-Verzeichnis, ohne bestehende App-Routen zu beeinträchtigen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Berechne den prozentualen Share of Search über standardisierte mathematische Formeln. Normalisiere alle analysierten URLs und Markennamen, um Tracking-Verfälschungen durch Groß-/Kleinschreibung oder Parameter zu eliminieren.</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Führe einen Probelauf mit Mock-Daten oder einem begrenzten Test-Batch (Dry-Run) durch. Baue robustes Rate-Limiting und Error-Handling für API-Timeouts ein, bevor das Skript produktiv geht.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse der vorgefundenen Scripting-Umgebung, 2. Vollständiges, sauber typisiertes Skript mit Fehlerbehandlung, 3. Anleitung zur Ausführung und Visualisierung.</p>
   </div>
 </div>
 

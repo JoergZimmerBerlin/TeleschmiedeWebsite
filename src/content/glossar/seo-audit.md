@@ -131,7 +131,7 @@ Ein Audit ist kein Luxus, sondern absolute Pflicht:
 *   **Bei Stagnation:** Du investierst viel Zeit und Geld in Content, aber die Sichtbarkeit klebt am Boden.
 *   **Wenn du "KI Ready" werden musst:** Der wichtigste Grund 2026. Du musst den technischen Sprung in die neue LLM-Ära schaffen, bevor der Wettbewerb enteilt.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -143,18 +143,18 @@ Ein Audit ist kein Luxus, sondern absolute Pflicht:
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain automatisiert auf moderne SEO- und KI-Readiness-Kriterien zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierter Technischer SEO- und KI-Readiness-Audit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Architekt und Experte für AI Engine Optimization (AEO).</p>
     <p><strong>Aufgabe:</strong> Überprüfe das Projekt auf kritische technische Barrieren für traditionelle Suchmaschinen und autonome LLM-Crawler.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe die Datei <code>public/robots.txt</code> auf Zugriffsregeln für KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended) und stelle sicher, dass wichtige Content-Bereiche nicht unbeabsichtigt blockiert werden.</p>
-    <p>2. Validiere die Existenz und semantische Struktur von <code>public/.well-known/llms.txt</code> und <code>public/llms.txt</code> gemäß dem llmstxt.org-Standard.</p>
-    <p>3. Teste serverseitige Markdown-Content-Negotiation via curl: <code>curl -sI -H "Accept: text/markdown" https://[deine-domain.de]/</code> und prüfe, ob RFC 8288 Link-Header fehlerfrei ausgeliefert werden.</p>
-    <p>4. Analysiere das JSON-LD Schema-Markup aller Seitentypen mit Google Rich Results Test oder einem schema-dts Validator auf verschachtelte Entitäten (@id, Organization, WebPage, Article).</p>
-    <p>5. Liefere einen priorisierten Maßnahmenplan mit Aufwand-Nutzen-Bewertung (Prio 1: Blocker, Prio 2: Optimierung, Prio 3: Nice-to-have).</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Prüfe die Datei public/robots.txt auf Zugriffsregeln für KI-User-Agents (GPTBot, ClaudeBot, PerplexityBot, Applebot-Extended) und stelle sicher, dass wichtige Content-Bereiche nicht unbeabsichtigt blockiert werden; Validiere die Existenz und semantische Struktur von public/.well-known/llms.txt und public/llms.txt gemäß dem llmstxt.org-Standard.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -153,7 +153,7 @@ In der operativen Zusammenarbeit mit Unternehmen folgt ein versierter Berater ei
 3. **Content-Refactoring und RAG-Chunking:** Zerlegung unübersichtlicher Textblöcke in prägnante, modular aufgebaute Antworten. Integration von Definitionsboxen, Vergleichstabellen und Fakten-Bullets, die von semantischen KI-Extraktoren mühelos verarbeitet und als autoritativer Baustein zitiert werden können.
 4. **Semantische Verankerung und Monitoring:** Einbettung strukturierter JSON-LD-Graphen und kontinuierliche Überwachung der Zitationsstabilität bei Modell-Re-Indexierungen. Verliert ein Artikel an Zitationskraft, wird die Textpassage umgehend um neuere Daten oder differenzierte Expertenzitate ergänzt, um verlorene Marktanteile im KI-Umfeld sofort zurückzugewinnen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -165,17 +165,18 @@ In der operativen Zusammenarbeit mit Unternehmen folgt ein versierter Berater ei
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Nutze diesen Prompt für deinen Coding-Agenten (Cursor, Claude, Antigravity), um Content-Blöcke semantisch für RAG-Pipelines und KI-Extraktoren zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: RAG Chunking & Semantic Vector Optimization</p>
     <p><strong>Rolle:</strong> Du bist ein Senior GEO Specialist & Python RAG Engineer.</p>
     <p><strong>Aufgabe:</strong> Analysiere HTML-Inhalte und optimiere die Textstruktur für maximale Retrieval-Präzision in Vektordatenbanken.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Zerlege lange Textpassagen in inhaltlich geschlossene Chunks von maximal 150 bis 250 Tokens.</p>
-    <p>2. Platziere an den Anfang jedes Chunks eine prägnante Antwort nach dem BLUF-Prinzip (Bottom Line Up Front) inklusive definierter Entitäten.</p>
-    <p>3. Konvertiere unübersichtliche Fließtext-Aufzählungen in maschinenlesbare Tabellen mit klaren Spaltenköpfen.</p>
-    <p>4. Ergänze ein passendes DefinedTermSet- und ItemList-Schema im JSON-LD-Format.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Kopieren für Agent Nutze diesen Prompt für deinen Coding-Agenten (Cursor, Claude, Antigravity), um Content-Blöcke semantisch für RAG-Pipelines und KI-Extraktoren zu optimieren:; Schritte & Validierung:; Zerlege lange Textpassagen in inhaltlich geschlossene Chunks von maximal 150 bis 250 Tokens.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

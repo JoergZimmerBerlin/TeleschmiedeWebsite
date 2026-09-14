@@ -135,7 +135,7 @@ Durch diese Konfiguration bleiben Webinhalte für die organische [Indexierung](/
   </div>
 </div>
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -147,17 +147,18 @@ Durch diese Konfiguration bleiben Webinhalte für die organische [Indexierung](/
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine robots.txt und Server-Konfiguration nach aktuellen RFC-9309-Standards zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: KI-Bot-Segmentierung in robots.txt und Server-Headern</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Server Security Engineer.</p>
-    <p><strong>Aufgabe:</strong> Überarbeite die <code>robots.txt</code> und erstelle Testroutinen, um KI-Echtzeit-Sucher zu erlauben und reine Trainings-Scraper zu sperren.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erlaube explizit <code>Googlebot</code>, <code>Bingbot</code>, <code>OAI-SearchBot</code> und <code>PerplexityBot</code> via <code>Allow: /</code>.</p>
-    <p>2. Sperre reine Modell-Trainings-Crawler (<code>GPTBot</code>, <code>ClaudeBot</code>, <code>CCBot</code>, <code>Bytespider</code>) via <code>Disallow: /</code>.</p>
-    <p>3. Verlinke die XML-Sitemap und referenziere die <code>/llms.txt</code> als Inklusions-Leitfaden.</p>
-    <p>4. Schreibe ein Bash-Testskript mit <code>curl -I -A</code>, das die Antwort-Header für jeden User-Agent simuliert und verifiziert.</p>
+    <p><strong>Aufgabe:</strong> Überarbeite die robots.txt und erstelle Testroutinen, um KI-Echtzeit-Sucher zu erlauben und reine Trainings-Scraper zu sperren.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende Webserver-Konfigurationen. Ergänze Direktiven modular (.htaccess / Nginx / Vercel Headers). Halte Link-Header strikt nach RFC 8288 ohne Anführungszeichen in den spitzen Klammern. Beachte dabei: Schritte & Validierung:; Erlaube explizit Googlebot, Bingbot, OAI-SearchBot und PerplexityBot via Allow: /; Sperre reine Modell-Trainings-Crawler (GPTBot, ClaudeBot, CCBot, Bytespider) via Disallow: /.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

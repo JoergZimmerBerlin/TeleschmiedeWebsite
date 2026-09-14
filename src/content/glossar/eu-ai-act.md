@@ -124,7 +124,7 @@ Wer KI nutzt, um massenhaft dünne Texte ohne Mehrwert zu veröffentlichen, sche
 ### 3. Technische Markierung & C2PA-Metadaten
 Für Bild- und Mediendateien verlangt die Verordnung maschinenlesbare Markierungen. Standards wie C2PA (Coalition for Content Provenance and Authenticity) schreiben kryptografisch signierte Herkunftsnachweise in die Bild-Metadaten. Suchmaschinen wie Google werten diese Provenance-Daten zunehmend aus, um authentische von synthetischen Medien zu unterscheiden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -136,17 +136,18 @@ Für Bild- und Mediendateien verlangt die Verordnung maschinenlesbare Markierung
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Website-Inhalte und Media-Assets auf EU AI Act Compliance und C2PA-Metadaten vorzubereiten:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: EU AI Act Art. 50 Transparenz-Audit & Metadata-Check</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO & Compliance Architect für europäisches Medienrecht und generative KI.</p>
     <p><strong>Aufgabe:</strong> Überprüfe das Webprojekt auf die Einhaltung der Transparenzanforderungen nach Art. 50 des EU AI Acts. Erstelle eine Dokumentationsrichtlinie für Human-in-the-Loop-Workflows und implementiere C2PA-konforme Metadaten-Prüfungen für synthetische Bild- und Audio-Assets.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Scanne alle Publishing-Workflows: Werden reine KI-Texte veröffentlicht oder gibt es eine redaktionelle Freigabestufe?</p>
-    <p>2. Implementiere für interaktive KI-Elemente (Chatbots, Support-Widgets) einen klaren Hinweis im Frontend: &quot;KI-gestützter Dialogassistent&quot; vor Beginn der Unterhaltung.</p>
-    <p>3. Überprüfe Bild-Assets mit ExifTool auf Vorhandensein von C2PA-/IPTC-Transparenz-Tags bei synthetisch generierten Medien.</p>
-    <p>4. Validierung: Simuliere den User Flow und teste, ob Transparenzhinweise barrierefrei lesbar sind und keine negativen Auswirkungen auf Core Web Vitals haben.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Scanne alle Publishing-Workflows: Werden reine KI-Texte veröffentlicht oder gibt es eine redaktionelle Freigabestufe?; Implementiere für interaktive KI-Elemente (Chatbots, Support-Widgets) einen klaren Hinweis im Frontend: "KI-gestützter Dialogassistent" vor Beginn der Unterhaltung.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

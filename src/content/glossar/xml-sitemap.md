@@ -185,7 +185,7 @@ Das folgende Code-Beispiel zeigt den korrekten, validen Aufbau einer Teil-Sitema
 2. **Künstliche Massenaktualisierung des lastmod-Tags:** Wer das `lastmod`-Datum pauschal bei jedem Deployment aktualisiert, zerstört ein unersetzliches Steuerungssignal. Google ignoriert manipulierte Datumsangaben vollständig.
 3. **Diskrepanz zwischen XML-Sitemap und `robots.txt`:** Häufig wird eine Sitemap in der Search Console eingereicht, während die darin enthaltenen Verzeichnisse per `Disallow`-Direktive in der `robots.txt` gesperrt sind. Dieser Widerspruch führt zu Crawling-Blockaden und fehlerhafter Indexierung.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -197,18 +197,18 @@ Das folgende Code-Beispiel zeigt den korrekten, validen Aufbau einer Teil-Sitema
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um die XML-Sitemaps deines Webprojekts auf Statuscodes, Canonicals und Datums-Integrität zu auditieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
-    <p class="text-lime-accent font-bold mb-1"># Prompt: XML-Sitemap Validierung &amp; lastmod-Integritätsprüfung</p>
-    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer &amp; DevOps Spezialist.</p>
+    <p class="text-lime-accent font-bold mb-1"># Prompt: XML-Sitemap Validierung & lastmod-Integritätsprüfung</p>
+    <p><strong>Rolle:</strong> Du bist ein erfahrener Technical SEO Engineer & DevOps Spezialist.</p>
     <p><strong>Aufgabe:</strong> Überprüfe die XML-Sitemaps und Sitemap-Indexe des Projekts auf Statuscode-Reinheit, Canonical-Übereinstimmung und saubere Zeitstempel.</p>
-    <p><strong>Schritte &amp; Validierung:</strong></p>
-    <p>1. Scanne alle URLs in der sitemap.xml bzw. den Teil-Sitemaps und prüfe, dass jede URL mit HTTP 200 ohne Redirects antwortet.</p>
-    <p>2. Gleiche ab, ob jede gelistete URL ein identisches selbstreferenzierendes Canonical Tag im HTML aufweist.</p>
-    <p>3. Verifiziere das lastmod-Datum: Stelle sicher, dass Zeitstempel auf echten Git-Logs oder CMS-Aktualisierungen basieren.</p>
-    <p>4. Filtere Noindex-Seiten, Tag-Archive und Paginierungen zuverlässig aus dem Sitemap-Generator heraus.</p>
-    <p>5. Validierung: Generiere einen Prüfbericht und verifiziere, dass Googlebot eine fehlerfreie XML-Struktur vorfindet.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Schritte & Validierung:; Scanne alle URLs in der sitemap.xml bzw. den Teil-Sitemaps und prüfe, dass jede URL mit HTTP 200 ohne Redirects antwortet; Gleiche ab, ob jede gelistete URL ein identisches selbstreferenzierendes Canonical Tag im HTML aufweist.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

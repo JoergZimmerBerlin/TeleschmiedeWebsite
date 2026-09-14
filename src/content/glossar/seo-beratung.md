@@ -131,7 +131,7 @@ Anstatt ihm eine Liste mit fehlenden Alt-Tags zu geben, haben wir tief in seine 
 > "Wir haben aufgehört, für menschliche Augen zu optimieren, und begannen, die Daten für Vektordatenbanken aufzubereiten." 
 Innerhalb weniger Wochen tauchte der Kunde nicht mehr nur als Link, sondern als zitierte Expertenquelle in direkten KI-Antworten auf. Das ist der Moment, in dem echte Beratung den entscheidenden Unterschied macht.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -143,17 +143,18 @@ Innerhalb weniger Wochen tauchte der Kunde nicht mehr nur als Link, sondern als 
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die strategische Ausrichtung deiner Website auf moderne LLM- und Answer-Engine-Strukturen zu automatisieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Content-Strukturierung für AEO & Answer-Engine-Zitierbarkeit</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Information-Architect und Content-Engineer für Generative Engine Optimization (GEO).</p>
     <p><strong>Aufgabe:</strong> Strukturiere die Kernseiten des Projekts so um, dass sie von KI-Suchmaschinen (Perplexity, ChatGPT Search, Gemini) optimal als direkte Antwortquellen extrahiert werden können.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Identifiziere die zentralen W-Fragen der Zielgruppe für jede Seite und platziere prägnante Antworten (40–60 Wörter) unmittelbar unter die jeweiligen H2/H3-Überschriften ("Answer-First"-Prinzip).</p>
-    <p>2. Formatiere Vergleiche, Spezifikationen und Checklisten in semantische HTML-Tabellen oder Definitionslisten für fehlerfreies RAG-Chunking.</p>
-    <p>3. Ergänze jede Content-Seite um valides JSON-LD FAQPage- oder Article-Markup inklusive eindeutiger Entitätsverknüpfung via <code>about</code> und <code>mentions</code>.</p>
-    <p>4. Stelle sicher, dass interne Querverweise zu verwandten Themen mit präzisen Ankertexten und trailing Slashes versehen sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Identifiziere die zentralen W-Fragen der Zielgruppe für jede Seite und platziere prägnante Antworten (40–60 Wörter) unmittelbar unter die jeweiligen H2/H3-Überschriften ("Answer-First"-Prinzip); Formatiere Vergleiche, Spezifikationen und Checklisten in semantische HTML-Tabellen oder Definitionslisten für fehlerfreies RAG-Chunking.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

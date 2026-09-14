@@ -132,7 +132,7 @@ Ein GEO Audit ist ein technisches Skalpell. Wir nutzen harte Server-Daten, um de
 
 Warte nicht, bis dein Traffic auf null kollabiert, weil KI-Antworten den klassischen Klick vollständig ersetzt haben. Die CTR-Drops sind keine Anomalie, sie sind der neue Standard. Wer nicht zitiert wird, verliert.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -144,17 +144,18 @@ Warte nicht, bis dein Traffic auf null kollabiert, weil KI-Antworten den klassis
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen bevorzugten Coding-Agenten, um ein technisches GEO Audit deiner Website automatisiert im Terminal zu starten:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Technisches GEO & RAG-Readiness Audit</p>
     <p><strong>Rolle:</strong> Du bist ein Senior GEO Auditor & AI Information Retrieval Engineer.</p>
     <p><strong>Aufgabe:</strong> Führe ein technisches GEO Audit auf der Ziel-URL durch und analysiere Crawler-Freigaben, Token-Effizienz und Schema-Graphen.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Prüfe per cURL die HTTP-Response auf Accept: text/markdown und validiere die Header Content-Type sowie Vary: Accept.</p>
-    <p>2. Validiere die Erreichbarkeit von /robots.txt für GPTBot, ClaudeBot und PerplexityBot sowie die Existenz einer validen /llms.txt.</p>
-    <p>3. Extrahiere JSON-LD und prüfe, ob Organization, sameAs-Wikidata-Links und FAQPage fehlerfrei hinterlegt sind.</p>
-    <p>4. Berechne das Text-to-DOM-Verhältnis und validiere, dass alle internen URLs mit Trailing Slashes versehen sind.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Schritte & Validierung:; Prüfe per cURL die HTTP-Response auf Accept: text/markdown und validiere die Header Content-Type sowie Vary: Accept; Validiere die Erreichbarkeit von /robots.txt für GPTBot, ClaudeBot und PerplexityBot sowie die Existenz einer validen /llms.txt.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

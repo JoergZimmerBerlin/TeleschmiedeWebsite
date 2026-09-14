@@ -170,19 +170,18 @@ Wie sich SE Ranking im direkten Vergleich mit anderen Tool-Schwergewichten schl�
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um Keyword-Rankings automatisiert via API oder MCP-Schnittstelle abzufragen und Ranking-Schwankungen zu isolieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Ranking-Volatilitäts-Analyse & Gewinner/Verlierer-Extraktion</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter SEO Data Analyst.</p>
     <p><strong>Aufgabe:</strong> Rufe über die SE Ranking API oder die MCP-Tools die aktuellen Keyword-Positionen für das hinterlegte Webprojekt ab. Vergleiche die heutigen Positionen mit dem Stand vor 7 Tagen.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Identifiziere alle Keywords mit einem Positionsverlust von mehr als 3 Rängen innerhalb der Top 20.</li>
-      <li>Prüfe für diese Verlierer-Keywords, ob sich die rankende Ziel-URL verändert hat (Signal für Keyword-Kannibalisierung).</li>
-      <li>Gleiche ab, ob für die betroffenen Keywords neue SERP-Features (z.B. AI Overviews oder Featured Snippets) ausgespielt werden, die Klicks verdrängen.</li>
-      <li>Generiere einen präzisen Aktionsplan mit URLs, die sofortige On-Page-Überarbeitung oder interne Link-Stärkung erfordern.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Identifiziere alle Keywords mit einem Positionsverlust von mehr als 3 Rängen innerhalb der Top 20; Prüfe für diese Verlierer-Keywords, ob sich die rankende Ziel-URL verändert hat (Signal für Keyword-Kannibalisierung); Gleiche ab, ob für die betroffenen Keywords neue SERP-Features (z.B. AI Overviews oder Featured Snippets) ausgespielt werden, die Klicks verdrängen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

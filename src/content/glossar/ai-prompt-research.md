@@ -122,7 +122,7 @@ Die Zeit der "Shiny Graphs", die gut aussehen, aber keine Tiefe haben, ist vorbe
 
 Mit der exklusiven Prompt Research von Rankscale beendest du das Rätselraten. Du erhältst wissenschaftlich fundierte, modellübergreifend konsistente und datenschutzkonforme Einblicke in die wahren KI-Nutzungsabsichten deiner Zielgruppe. Wer diese Daten nutzt, baut keinen SEO-Content für gestern, sondern GEO-Content für morgen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -134,20 +134,18 @@ Mit der exklusiven Prompt Research von Rankscale beendest du das Rätselraten. D
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein automatisiertes Intent-Cluster & Prompt-Research-Audit für deine Zielseite durchzuführen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: AI Intent Clustering & Prompt Gap Audit</p>
     <p><strong>Rolle:</strong> Du bist ein Senior AI Prompt Researcher & Generative Search Strategist.</p>
     <p><strong>Aufgabe:</strong> Analysiere den Ziel-Content und leite die 5 dominanten dialogischen Intent-Cluster ab, die Nutzer an KI-Systeme (ChatGPT/Gemini) stellen.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Rekonstruiere die wahrscheinlichsten Core Prompts inklusive Nutzer-Kontext und Folgefragen (Follow-ups).</li>
-      <li>Gleiche ab, ob der bestehende Content diese Prompts mit citable Fact Blocks und präzisen BLUF-Absätzen beantwortet.</li>
-      <li>Definiere semantische H2- und H3-Überschriften im Fragemodus für ungedeckte Prompt-Intents.</li>
-      <li>Stelle sicher, dass alle internen Hyperlinks mit einem Trailing Slash (/) enden.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere eine strukturierte Intent-Cluster-Matrix mit konkreten Handlungsempfehlungen zur Content-Erweiterung.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Rekonstruiere die wahrscheinlichsten Core Prompts inklusive Nutzer-Kontext und Folgefragen (Follow-ups); Gleiche ab, ob der bestehende Content diese Prompts mit citable Fact Blocks und präzisen BLUF-Absätzen beantwortet; Definiere semantische H2- und H3-Überschriften im Fragemodus für ungedeckte Prompt-Intents.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere eine strukturierte Intent-Cluster-Matrix mit konkreten Handlungsempfehlungen zur Content-Erweiterung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

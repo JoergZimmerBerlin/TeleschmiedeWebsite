@@ -175,7 +175,7 @@ def evaluiere_promptset(ergebnisse_json, markenname):
 
 Dieses Skript parst die exportierten Ergebnisse der Monitoring-Tools und berechnet die relative Nennungsquote ohne manuellen Tabellenaufwand.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -193,14 +193,12 @@ Dieses Skript parst die exportierten Ergebnisse der Monitoring-Tools und berechn
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automated Promptset Testing Pipeline & Share of Model Analysis</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener AI SEO & Prompt Engineer.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein automatisiertes Skript, das ein Promptset (JSON) über LLM-APIs (OpenAI, Anthropic, Perplexity) ausführt und den Share of Model berechnet.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Promptset-Import: Lade die Promptset-JSON-Struktur mit Funnel-Stufen und Zielmarken.</li>
-      <li>API-Ausführung: Sende jeden Prompt an die konfigurierten Modelle und erfasse die generierte Antwort.</li>
-      <li>Zitations- & Mentions-Parser: Zähle Marken-Erwähnungen, verlinkte Quell-URLs und analysiere das Sentiment (positiv/neutral/negativ).</li>
-      <li>Metriken: Berechne die Mention Rate und den relativen Share of Model im Vergleich zu definierten Wettbewerbern.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere ein vollständiges Python- oder Node.js-Skript inklusive strukturierter JSON-Ergebnisdatei.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Promptset-Import: Lade die Promptset-JSON-Struktur mit Funnel-Stufen und Zielmarken; API-Ausführung: Sende jeden Prompt an die konfigurierten Modelle und erfasse die generierte Antwort; Zitations- & Mentions-Parser: Zähle Marken-Erwähnungen, verlinkte Quell-URLs und analysiere das Sentiment (positiv/neutral/negativ).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere ein vollständiges Python- oder Node.js-Skript inklusive strukturierter JSON-Ergebnisdatei., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

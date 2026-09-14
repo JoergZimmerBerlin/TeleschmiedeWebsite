@@ -184,7 +184,7 @@ curl -s https://deinedomain.de/.well-known/agent-card.json | jq '{
 
 Gibt das Terminal die deklarierten Fähigkeiten und Protokolle fehlerfrei im JSON-Format aus, stufen automatisierte Scanner wie `isitagentready.com` die Domain unmittelbar als interaktionsfähig ein.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -196,21 +196,18 @@ Gibt das Terminal die deklarierten Fähigkeiten und Protokolle fehlerfrei im JSO
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um deine Domain automatisiert auf Cloudflare Agent Readiness Level 5 zu optimieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Cloudflare Agent Readiness Level 5 Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein erfahrener Web Architect & Technical SEO Consultant mit Spezialisierung auf Autonomous Agents.</p>
     <p><strong>Aufgabe:</strong> Erstelle die vollständige Konfiguration für Cloudflare Agent Readiness Level 5 auf dieser Domain.</p>
-    <p><strong>Anforderungen:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erstelle oder validiere <code>/.well-known/agent-card.json</code> nach A2A Protocol Schema v1.0 mit <code>supportedInterfaces</code>, <code>capabilities</code> und <code>skills</code>.</li>
-      <li>Setze den RFC 8288 Link-Header in der Server-Konfiguration: <code>Link: &lt;https://deinedomain.de/.well-known/agent-card.json&gt;; rel="agent-card"; type="application/json"</code> (ohne doppelte Anführungszeichen in den spitzen Klammern!).</li>
-      <li>Richte eine <code>auth.md</code> für autonome Agenten mit H1 <code># auth.md</code> ein.</li>
-      <li>Konfiguriere Content Negotiation für <code>Accept: text/markdown</code> und prüfe die Erreichbarkeit der <code>llms.txt</code>.</li>
-      <li>Stelle sicher, dass alle internen Verlinkungen mit einem Trailing Slash (/) enden.</li>
-    </ul>
-    <p class="pt-1"><strong>Output:</strong> Liefere die aktualisierten Konfigurationsdateien, Manifeste und curl-Testbefehle zur Verifikation.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS funktionierende Core-Dateien oder Templates. Binde neue Logik defensiv und modular über vorhandene Erweiterungspunkte ein. Beachte dabei: Erstelle oder validiere /.well-known/agent-card.json nach A2A Protocol Schema v1.0 mit supportedInterfaces, capabilities und skills; Setze den RFC 8288 Link-Header in der Server-Konfiguration: Link: <https://deinedomain.de/.well-known/agent-card.json>; rel="agent-card"; type="application/json" (ohne doppelte Anführungszeichen in den spitzen Klammern!); Richte eine auth.md für autonome Agenten mit H1 # auth.md ein.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere die aktualisierten Konfigurationsdateien, Manifeste und curl-Testbefehle zur Verifikation., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

@@ -169,7 +169,7 @@ Nach erfolgreicher Bestätigung können Sie externe SEO-Berater oder Agenturmita
 2. **Ausschließliches Anlegen einer URL-Präfix-Property:** Wer nur `https://teleschmie.de/` anlegt, übersieht Traffic-Verschiebungen auf `www.` oder ungesicherte HTTP-Aufrufe. Nur die Domain-Property liefert ein lückenloses Gesamtbild.
 3. **Überschreiben bestehender TXT-Einträge:** Beim Hinterlegen des Google-Strings werden versehentlich SPF-Einträge für den Mailversand überschrieben. Achten Sie darauf, den GSC-Eintrag als zusätzlichen, separaten TXT-Datensatz anzulegen.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -181,17 +181,18 @@ Nach erfolgreicher Bestätigung können Sie externe SEO-Berater oder Agenturmita
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Nutze diesen Prompt in deinem Coding-Agenten (Cursor, Claude, Antigravity), um DNS-TXT-Records zu validieren und GSC-Indexierungsabfragen automatisiert einzurichten:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: DNS-Verifizierung & GSC-Property Automation</p>
     <p><strong>Rolle:</strong> Du bist ein DevOps & Technical SEO Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle ein Shell-Skript zur automatisierten DNS-TXT-Verifizierung und API-Health-Prüfung für die Google Search Console.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Nutze dig und nslookup, um die DNS-Zoneneinträge für <code>[deine-domain.de]</code> auf vorhandene google-site-verification TXT-Records abzufragen.</p>
-    <p>2. Prüfe, ob SPF-Records (v=spf1) unberührt geblieben sind und keine Syntaxfehler in den DNS-Antworten vorliegen.</p>
-    <p>3. Richte eine Abfrage gegen die Google Search Console Search Analytics API (searchConsole/v1) mit OAuth2-Service-Account ein, um tägliche Klicks und Fehler zu exportieren.</p>
-    <p>4. Gib ein übersichtliches Terminal-Log mit Status-Codes und eventuellen Warnmeldungen aus.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Kopieren für Agent Nutze diesen Prompt in deinem Coding-Agenten (Cursor, Claude, Antigravity), um DNS-TXT-Records zu validieren und GSC-Indexierungsabfragen automatisiert einzurichten:; Schritte & Validierung:; Nutze dig und nslookup, um die DNS-Zoneneinträge für [deine-domain.de] auf vorhandene google-site-verification TXT-Records abzufragen.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

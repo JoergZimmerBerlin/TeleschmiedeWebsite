@@ -158,7 +158,7 @@ Das Universal Commerce Protocol leitet die Ära des friktionsfreien Handels ein.
 
 Zur Überprüfung der eigenen Sichtbarkeit in KI-Suchsystemen und Shopping-Assistenten liefert unser Branchenüberblick über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/) praxisnahe Orientierung. Die für eine UCP-Implementierung erforderlichen Aufwände und Toolkosten können Sie mit unserem interaktiven [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) verlässlich kalkulieren.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -170,17 +170,18 @@ Zur Überprüfung der eigenen Sichtbarkeit in KI-Suchsystemen und Shopping-Assis
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt in deinen KI-Coding-Assistenten, um ein UCP-Endpunkt-Manifest für deinen Webshop zu generieren und zu validieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Universal Commerce Protocol (UCP) Endpoint Implementation</p>
     <p><strong>Rolle:</strong> Du bist ein Senior E-Commerce API Architect & Agentic Commerce Specialist.</p>
     <p><strong>Aufgabe:</strong> Erstelle die Konfigurationsdatei `.well-known/ucp.json` und die dazugehörigen API-Routen für agentische Transaktionen.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Erstelle das Manifest `.well-known/ucp.json` mit Endpunkten für Produktkatalog, Live-Inventar und Checkout-Session.</p>
-    <p>2. Integriere Authentifizierungs-Token-Validierung für Einkaufs-Agenten gemäß UCP 1.0 Spezifikation.</p>
-    <p>3. Synchronisiere die Datenfelder mit bestehenden Schema.org Product- und Offer-Strukturen im Shop-Template.</p>
-    <p>4. Simuliere einen automatisierten Checkout-Aufruf durch einen KI-Agenten und verifiziere die Status-Antworten.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Erstelle das Manifest `.well-known/ucp.json` mit Endpunkten für Produktkatalog, Live-Inventar und Checkout-Session; Integriere Authentifizierungs-Token-Validierung für Einkaufs-Agenten gemäß UCP 1.0 Spezifikation.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

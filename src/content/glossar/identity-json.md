@@ -157,7 +157,7 @@ In SEO-Audits und technischen Code-Prüfungen treten wiederkehrende Implementier
 2. **Lose, unverbundene Schemas:** Häufig werden isolierte Snippets ohne `@id` eingebunden. Das `Article`-Schema weiß dann nicht, wer der Autor ist, und das Autoren-Schema hat keinen Bezug zur Organisation. Es entsteht semantischer Datensalat statt eines schlüssigen Graphen.
 3. **Fehlende syntaktische Validierung:** Ein vergessenes Komma oder eine fehlerhafte Klammerung im JSON-LD führt dazu, dass der Parser abbricht und das gesamte Skript ignoriert. Vor jedem Rollout muss das Markup durch offizielle Prüftools getestet werden.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -169,20 +169,18 @@ In SEO-Audits und technischen Code-Prüfungen treten wiederkehrende Implementier
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um ein valides Identity-JSON-LD-Snippet für Organisation und Autoren aufzusetzen:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Enterprise Identity JSON-LD Graph Generator</p>
     <p><strong>Rolle:</strong> Du bist ein hochspezialisierter Technical SEO & Schema Markup Engineer.</p>
     <p><strong>Aufgabe:</strong> Generiere ein valides JSON-LD-Snippet im @graph-Format, das Organization und Person (Autor) über permanente @id-Knoten und sameAs-Quellen miteinander verknüpft.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <ul class="list-disc pl-4 space-y-1 text-gray-300">
-      <li>Erstelle den @graph-Knoten für Organization mit stabiler URI (z. B. domain.de/#organization).</li>
-      <li>Verknüpfe das Person-Schema über worksFor und publisher direkt mit der Organization-@id.</li>
-      <li>Füge autoritäre sameAs-Quellen (Wikidata, LinkedIn-Unternehmensprofil) als Array hinzu.</li>
-      <li>Validierte die JSON-LD-Syntax gegen Schema.org- und Google Rich-Results-Vorgaben.</li>
-      <li>Stelle sicher, dass alle internen URLs konsistent auf Trailing Slashes (/) enden.</li>
-    </ul>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Überschreibe NIEMALS bestehende SEO-Plugins (Yoast, RankMath) oder vorhandene Schemas. Nutze Plugin-Hooks oder binde Entitäten modular in den bestehenden @graph-Container ein (keine Daten-Inseln, keine doppelten @id). Beachte dabei: Erstelle den @graph-Knoten für Organization mit stabiler URI (z. B. domain.de/#organization); Verknüpfe das Person-Schema über worksFor und publisher direkt mit der Organization-@id; Füge autoritäre sameAs-Quellen (Wikidata, LinkedIn-Unternehmensprofil) als Array hinzu.</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

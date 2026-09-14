@@ -184,7 +184,7 @@ In der Unternehmenspraxis führen unzureichende Messmethoden häufig zu falschen
 2. **Ignorieren generativer KI-Suchräume (Share of Model Blindheit):** Viele Marketingabteilungen feiern stabile organische Klickraten auf Google, übersehen jedoch, dass jüngere B2B-Entscheider Perplexity, Claude oder ChatGPT konsultieren. Wer in diesen Synthese-Antworten nicht als Primärquelle zitiert wird, verliert kaufbereite Leads, bevor sie überhaupt eine Suchmaske öffnen.
 3. **Mangelnde Definition des Wettbewerbssets beim Share of Search:** Wird das Marken-Suchvolumen nicht mit allen direkten Konkurrenten in Relation gesetzt, spiegeln Trends rein saisonale Schwankungen wider, statt echte Marktanteilsverschiebungen aufzudecken.
 
-<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md">
+<div class="my-8 bg-dark text-white p-6 rounded-2xl border-l-4 border-lime-accent shadow-md relative not-prose">
   <div class="flex items-start justify-between gap-4 mb-3">
     <div class="flex items-center gap-3">
       <span class="text-lime-accent text-2xl shrink-0">🤖</span>
@@ -196,17 +196,18 @@ In der Unternehmenspraxis führen unzureichende Messmethoden häufig zu falschen
     </button>
   </div>
   <p class="text-gray-300 text-sm mb-4 leading-relaxed">
-    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um eine automatisierte Berechnung des organischen Share of Voice (SOV) zu implementieren:
+    Kopiere diesen Prompt direkt in deinen KI-Coding-Assistenten, um die Anforderungen automatisiert für dein Webprojekt umzusetzen:
   </p>
   <div class="bg-black/60 p-4 rounded-xl border border-white/10 text-xs font-mono text-gray-200 overflow-x-auto space-y-2">
     <p class="text-lime-accent font-bold mb-1"># Prompt: Automatisierte Share-of-Voice-Berechnung</p>
     <p><strong>Rolle:</strong> Du bist ein SEO Data Analyst und Python-Entwickler.</p>
     <p><strong>Aufgabe:</strong> Entwickle ein Skript zur Verarbeitung von SERP-Ranking-Exporten (z. B. aus SE Ranking oder Sistrix) zur Ermittlung des relativen SOV pro Marke.</p>
-    <p><strong>Schritte & Validierung:</strong></p>
-    <p>1. Importiere CSV-Dateien mit den Spalten <code>Keyword</code>, <code>Search_Volume</code>, <code>Domain</code> und <code>Position</code>.</p>
-    <p>2. Ordne jeder Position eine empirische CTR zu (Position 1: 32%, 2: 17%, 3: 10%, 4: 6%, 5: 4%, 6-10: 2%).</p>
-    <p>3. Berechne die geschätzten Klicks pro Domain und teile sie durch das Gesamtklickvolumen des Keyword-Sets.</p>
-    <p>4. Gib die Ergebnisse tabellarisch als Markdown und als JSON-Export für BI-Dashboards aus.</p>
+    <p class="text-lime-accent font-semibold pt-1"># Vorgehensweise & Sicherheitsregeln:</p>
+    <p><strong>1. Tech-Stack-Analyse (Erst prüfen, dann handeln):</strong> Ermittle CMS/Framework (WordPress, Shopify, Next.js, Astro, Nuxt, Laravel, HTML), Webserver (Apache, Nginx, Vercel, Cloudflare) sowie vorhandene SEO-Plugins (Yoast, RankMath, SEOPress). Erkenne den Geschäftstyp (LocalBusiness, B2B/Organization, E-Commerce, SaaS, Personal Brand).</p>
+    <p><strong>2. Defensive & konfliktfreie Integration:</strong> Binde API-Keys strikt über Umgebungsvariablen (.env) ein und füge .env zur .gitignore hinzu. Entwickle das Skript modular in einem separaten Tool-/Script-Pfad, ohne App-Routen zu stören. Beachte dabei: Schritte & Validierung:; Importiere CSV-Dateien mit den Spalten Keyword, Search_Volume, Domain und Position; Ordne jeder Position eine empirische CTR zu (Position 1: 32%, 2: 17%, 3: 10%, 4: 6%, 5: 4%, 6-10: 2%).</p>
+    <p><strong>3. Standard- & URL-Hygiene:</strong> Verwende ausschließlich verifizierte, tatsächlich vorhandene Unternehmensdaten (Social URLs, Canonical Origins). Halte strikte URL-Standards ein (Trailing Slashes bei Verzeichnispfaden, HTTPS, keine Parameter im Canonical).</p>
+    <p><strong>4. Pre-Flight-Validierung:</strong> Validiere den Output gegen die offiziellen Spezifikationen (Schema.org, RFC 8288, Google Rich Results). Führe einen Syntax- und Build-Test durch, um Hydration Mismatches oder Build-Abbrüche auszuschließen.</p>
+    <p class="pt-1"><strong>Output:</strong> 1. Analyse-Befund des erkannten Tech-Stacks, 2. Liefere den konkreten Code-Diff und eine schrittweise Integrationsanleitung., 3. Anleitung zur Validierung im Google Rich Results Test / Browser.</p>
   </div>
 </div>
 

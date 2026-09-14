@@ -25,6 +25,7 @@ Thumbs.db
 *.log
 *.log.gz
 logs-cache/
+sync-diagnosis.txt
 npm-debug.log*
 
 # Astro

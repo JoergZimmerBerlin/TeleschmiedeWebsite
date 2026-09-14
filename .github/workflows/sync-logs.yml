@@ -115,17 +115,17 @@ jobs:
             echo "ℹ️ No log files found in logs-cache." >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Commit and Push Updated Bot Stats & Diagnosis
+      - name: Commit and Push Updated Bot Stats
         run: |
           echo "### 5. Git Commit & Push" >> $GITHUB_STEP_SUMMARY
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action (Bot Logs)"
-          git add data/bot-stats.json sync-diagnosis.txt
-          if ! git diff --quiet HEAD data/bot-stats.json sync-diagnosis.txt; then
-            echo "📈 New bot traffic or diagnosis data detected. Committing changes..."
-            git commit -m "chore(logs): update bot-stats.json and diagnosis [skip ci]"
+          git add data/bot-stats.json
+          if ! git diff --quiet HEAD data/bot-stats.json; then
+            echo "📈 New bot traffic data detected. Committing changes..."
+            git commit -m "chore(logs): update bot-stats.json from IONOS webserver [skip ci]"
             git push origin main
             echo "✅ Successfully committed and pushed to main!" >> $GITHUB_STEP_SUMMARY
           else
-            echo "ℹ️ No changes to bot-stats.json or diagnosis." >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️ No changes to bot-stats.json." >> $GITHUB_STEP_SUMMARY
           fi

@@ -44,42 +44,63 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
           mkdir -p logs-cache
-          echo "📡 Connecting to IONOS SFTP server to locate access logs..."
+          echo "## 📡 IONOS SFTP Log Discovery & Sync Report" >> $GITHUB_STEP_SUMMARY
 
-          run_lftp_cmd() {
-            lftp -u "$FTP_USER","$FTP_PASSWORD" -e "set sftp:auto-confirm yes; set net:timeout 25; set net:max-retries 2; $1; bye" "sftp://$FTP_HOST"
+          run_lftp() {
+            lftp -e "set sftp:auto-confirm yes; set net:timeout 25; set net:max-retries 2; open -u \"$FTP_USER\",\"$FTP_PASSWORD\" sftp://\"$FTP_HOST\"; $1; bye"
           }
 
-          echo "📂 Step 1: Remote directory inspection..."
-          run_lftp_cmd "pwd; echo 'Root contents:'; ls -la" || true
+          echo "### 1. Remote Directory Inspection" >> $GITHUB_STEP_SUMMARY
+          REMOTE_LS=$(run_lftp "pwd; echo '--- remote directory listing ---'; ls -la; echo '--- parent listing ---'; ls -la .." 2>&1 || true)
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "$REMOTE_LS" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
-          echo "📥 Step 2: Attempting mirror from /logs..."
-          run_lftp_cmd "mirror --verbose=2 --only-newer --include-glob='access.log*' /logs ./logs-cache" || true
+          echo "### 2. Download Attempts" >> $GITHUB_STEP_SUMMARY
+          echo "**Attempting mirror from /logs...**" >> $GITHUB_STEP_SUMMARY
+          LOG_ATTEMPT_1=$(run_lftp "mirror --verbose=2 --only-newer --include-glob='access.log*' /logs ./logs-cache" 2>&1 || true)
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "$LOG_ATTEMPT_1" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
           if [ -z "$(ls -A logs-cache 2>/dev/null)" ]; then
-            echo "📥 Step 3: Attempting mirror from relative logs..."
-            run_lftp_cmd "mirror --verbose=2 --only-newer --include-glob='access.log*' logs ./logs-cache" || true
+            echo "**Attempting mirror from relative logs...**" >> $GITHUB_STEP_SUMMARY
+            LOG_ATTEMPT_2=$(run_lftp "mirror --verbose=2 --only-newer --include-glob='access.log*' logs ./logs-cache" 2>&1 || true)
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$LOG_ATTEMPT_2" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           fi
 
           if [ -z "$(ls -A logs-cache 2>/dev/null)" ]; then
-            echo "📥 Step 4: Attempting mirror from parent ../logs..."
-            run_lftp_cmd "mirror --verbose=2 --only-newer --include-glob='access.log*' ../logs ./logs-cache" || true
+            echo "**Attempting mirror from parent ../logs...**" >> $GITHUB_STEP_SUMMARY
+            LOG_ATTEMPT_3=$(run_lftp "mirror --verbose=2 --only-newer --include-glob='access.log*' ../logs ./logs-cache" 2>&1 || true)
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$LOG_ATTEMPT_3" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           fi
 
-          echo "📊 Downloaded files in logs-cache:"
-          ls -la logs-cache/
+          echo "### 3. Downloaded Files Summary" >> $GITHUB_STEP_SUMMARY
+          FILES_FOUND=$(ls -la logs-cache/ 2>&1 || true)
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "$FILES_FOUND" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Analyze Logs and Update Bot Stats
         run: |
+          echo "### 4. 2026 AI/GEO Log Analysis" >> $GITHUB_STEP_SUMMARY
           if [ "$(ls -A logs-cache 2>/dev/null)" ]; then
             echo "✅ Logs successfully downloaded. Starting 2026 AI/GEO Log Analysis..."
-            LOG_DIR="./logs-cache" node scripts/analyze-logs.mjs --generate
+            ANALYSIS_OUTPUT=$(LOG_DIR="./logs-cache" node scripts/analyze-logs.mjs --generate 2>&1)
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$ANALYSIS_OUTPUT" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           else
-            echo "ℹ️ No log files found in logs-cache. Either /logs is restricted or not accessible."
+            echo "ℹ️ No log files found in logs-cache." >> $GITHUB_STEP_SUMMARY
           fi
 
       - name: Commit and Push Updated Bot Stats
         run: |
+          echo "### 5. Git Commit & Push" >> $GITHUB_STEP_SUMMARY
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action (Bot Logs)"
           git add data/bot-stats.json
@@ -87,6 +108,7 @@ jobs:
             echo "📈 New bot traffic data detected. Committing changes..."
             git commit -m "chore(logs): update bot-stats.json from IONOS webserver"
             git push origin main
+            echo "✅ Successfully committed and pushed to main!" >> $GITHUB_STEP_SUMMARY
           else
-            echo "ℹ️ No changes to bot-stats.json."
+            echo "ℹ️ No changes to bot-stats.json." >> $GITHUB_STEP_SUMMARY
           fi

@@ -70,13 +70,18 @@ async function analyzeLogs() {
   const logDir = process.env.LOG_DIR;
 
   if (logDir && fs.existsSync(logDir)) {
-    const dirFiles = fs.readdirSync(logDir);
-    dirFiles.forEach(file => {
-      const fullPath = path.join(logDir, file);
-      if (fs.statSync(fullPath).isFile() && (file.includes('access.log') || file.includes('.log') || file.endsWith('.gz'))) {
-        filesToProcess.push(fullPath);
+    function scanDir(dir) {
+      const dirFiles = fs.readdirSync(dir, { withFileTypes: true });
+      for (const entry of dirFiles) {
+        const fullPath = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          scanDir(fullPath);
+        } else if (entry.isFile() && (entry.name.includes('access.log') || entry.name.endsWith('.log') || entry.name.endsWith('.gz'))) {
+          filesToProcess.push(fullPath);
+        }
       }
-    });
+    }
+    scanDir(logDir);
     console.log(`Found ${filesToProcess.length} log files in ${logDir}`);
   } else if (fs.existsSync(LOG_FILE)) {
     filesToProcess.push(LOG_FILE);

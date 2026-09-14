@@ -1,8 +1,8 @@
 ---
-title: "SE Ranking Preise 2026: Der Guide für Experten"
-meta_title: "SE Ranking Preise: Guide für Experten (2026)"
-description: "SE Ranking Preise: Finde das beste Paket für deine Bedürfnisse. Detaillierte Analyse, echte Praxistipps und Antworten auf deine FAQ im Guide. (2026)"
-meta_description: "SE Ranking Preise: Finde das beste Paket für deine Bedürfnisse. Detaillierte Analyse, echte Praxistipps und Antworten auf deine FAQ im Guide. (2026)"
+title: "SE Ranking Preise 2026: Alle Kosten, Tarife & Rabatte im Überblick"
+meta_title: "SE Ranking Preise 2026: Tarife, Kosten & Rabatt (2026)"
+description: "Was kostet SE Ranking? Core ab 87 € & Growth im Vergleich. 20% Jahresrabatt & 14 Tage kostenlos testen ohne Kreditkarte. (2026)"
+meta_description: "Was kostet SE Ranking? Core ab 87 € & Growth im Vergleich. 20% Jahresrabatt & 14 Tage kostenlos testen ohne Kreditkarte. (2026)"
 date: "2026-02-26"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_das-bild-musste-noch-raus-warum-ich-activity-7398682637521006592-R-_W"
 image: "../../assets/images/blog/se-ranking-preise.webp"
@@ -49,14 +49,14 @@ Gerade wenn man von den "Platzhirschen" wie Sistrix oder Semrush kommt, wirkt di
     </div>
   </div>
   <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
-    „Das sagen. Ähm ähm da kann ich das aber als interner Angestellter darfst du ja deinem Chef da nicht widersprechen und sagen, du deine Idee mit dem Report, wo die wo die Kennzahlen drauf sind, äh die sind nicht so schön und dann na ja, da musst das ja meistens doch noch umsetzen, dann hast du weniger Freude dran und geht mir dann halt so, wenn ich.“
+    „Es gibt tausende SEO Tools, die die Arbeit der Suchmaschinenoptimierer nicht überflüssig machen. Sie zeigen dir nur die Möglichkeiten und erleichtern das Leben.“
   </blockquote>
   <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
     <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
       <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
       <span class="text-neutral-300 hidden sm:inline">•</span>
-      <a href="https://www.youtube.com/watch?v=dVGOMAVUNQk&t=958s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
-        <span>Quelle: YouTube SEOPresso (15:58)</span>
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7055143807113129984" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+        <span>Quelle: LinkedIn</span>
         <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
       </a>
     </div>
@@ -126,15 +126,21 @@ Ich sage immer: Vertrauen ist gut, Daten sind besser. Bevor du dich für ein Jah
 Über meinen Partnerlink bekommst du eine **kostenlose Testphase von 14 Tagen**. Das Beste daran: Du musst **keine Kreditkarte** hinterlegen. Kein fieses "Ups, ich hab vergessen zu kündigen"-Abo. Nach 14 Tagen läuft der Test einfach aus, es sei denn, du bist so überzeugt wie ich und willst weitermachen.
 
 <!-- Partnerlink Box -->
-<div class="my-8 bg-neutral-900 text-white p-8 rounded-2xl border border-neutral-700 text-center shadow-md not-prose">
+<div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-accent/10 border border-lime-accent/30 text-lime-accent text-xs font-semibold uppercase tracking-wider mb-4">
+    <span>★ Risikofreier Einstieg</span>
+    <span>•</span>
+    <span>Keine Kreditkarte erforderlich</span>
+  </div>
   <h3 class="text-xl md:text-2xl font-bold !text-white mb-2 !mt-0 !border-none !pb-0">
-    Jetzt <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-lime-accent hover:underline">SE Ranking (Partnerlink)</a> 14 Tage kostenlos testen
+    Jetzt SE Ranking 14 Tage kostenlos testen
   </h3>
-  <p class="!text-neutral-300 text-sm max-w-xl mx-auto mb-6">
-    Überzeuge dich selbst von der Power des Tools – ohne Risiko und ohne Kreditkarte.
+  <p class="!text-gray-300 text-sm max-w-xl mx-auto mb-6">
+    Überzeuge dich selbst von der Datenqualität, dem tagesaktuellen Rank-Tracking und dem Website-Audit – unverbindlich und ohne automatische Verlängerung.
   </p>
   <a href="https://seranking.com/de/?ga=4169588&source=link" target="_blank" rel="noopener noreferrer nofollow sponsored" class="btn-primary inline-flex">
-    <span>Kostenlos Testen starten * (Partnerlink)</span>
+    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    <span>Kostenlos testen starten * (Partnerlink)</span>
     <span aria-hidden="true">→</span>
   </a>
   <p class="text-[11px] text-gray-400 mt-3 mb-0">* Hinweis: Partnerlink. Bei Buchung erhalte ich eine Provision – für dich entstehen keine Mehrkosten.</p>
@@ -154,6 +160,11 @@ Was meinst du? Reichen dir 2.000 Keywords für deine Projekte aus oder brauchst 
 
 <!-- CTA Box -->
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
+  <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-accent/10 border border-lime-accent/30 text-lime-accent text-xs font-semibold uppercase tracking-wider mb-4">
+    <span>★ 20 % Jahresrabatt sichern</span>
+    <span>•</span>
+    <span>Core & Growth im Vergleich</span>
+  </div>
   <h3 class="text-xl md:text-2xl font-bold !text-white mb-3 !mt-0 !border-none !pb-0">
     SE Ranking Tarife im Detail ansehen & 14 Tage testen
   </h3>

@@ -80,7 +80,7 @@ Ich bin ja, wie ich gerne sage, immer noch im "Onboarding im Kopf". Bei der Navi
 
 ## Der direkte Vergleich: Sistrix Start vs. SE Ranking Core
 
-Lass uns Fakten auf den Tisch legen und die beiden Grundversionen vergleichen, die für Freelancer und kleine bis mittlere Agenturen am interessantesten sind. Ein Tool-Wechsel muss sich nicht nur fachlich, sondern auch wirtschaftlich lohnen.
+Lass uns Fakten auf den Tisch legen und die beiden Grundversionen vergleichen, die für Freelancer und kleine bis mittlere Agenturen am interessantesten sind. (Suchst du stattdessen einen reinen Onpage- und Einsteiger-Vergleich? Dann wirf einen Blick in meinen Leitfaden [Seobility vs. Sistrix](/glossar/seobility-vs-sistrix/)). Ein Tool-Wechsel muss sich nicht nur fachlich, sondern auch wirtschaftlich lohnen.
 
 ### Preis und Mitarbeiterplätze: Klarer Punkt für SE Ranking
 

@@ -3,9 +3,7 @@ import { Image } from 'astro:assets';
 import { getGitModDate } from '../utils/git-date';
 import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
-import CTASection from '../components/CTASection.astro';
 import FAQAccordion from '../components/FAQAccordion.astro';
-import Testimonials from '../components/Testimonials.astro';
 import heroImage from '../assets/images/blog/omr-freelancer-stand-roi.webp';
 import joergInterview from '../assets/images/blog/seopresso-interview.webp';
 
@@ -13,33 +11,33 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
 const lastReviewed = getGitModDate('src/pages/seo-freelancer-berlin.astro');
 
 // Meta Data
-const title="SEO Freelancer Berlin: 25 Jahre Praxis & E-E-A-T (2026)";
-const description="SEO Freelancer Berlin: Persönliche Beratung mit 25 Jahren Praxis und starkem Experten-Netzwerk. Erfahre mehr in der SEO Sprechstunde. (2026)";
+const title = "SEO Freelancer Berlin: Handwerk, Klartext & 25 Jahre Praxis (2026)";
+const description = "SEO Freelancer Berlin: Kein Agentur-Wasserkopf, sondern direkte Zusammenarbeit auf Augenhöhe. Über 25 Jahre Praxiserfahrung für nachhaltigen ROI. (2026)";
 
 const faqs = [
   {
     question: "Warum sollte ich einen SEO Freelancer statt einer klassischen Agentur beauftragen?",
-    answer: "Weil du bei mir einen direkten Ansprechpartner hast. Du profitierst von meiner Erfahrung aus 25 Jahren SEO und extrem kurzen Kommunikationswegen. Es gibt keine Account-Manager dazwischen – wir arbeiten gemeinsam und auf Augenhöhe an der Sichtbarkeit deiner Website."
+    answer: "Weil du bei mir einen direkten Ansprechpartner hast. Bei mir gibt es keine Junior-Account-Manager, keine Reporting-Fassade und keine unnötigen Freigabeschleifen. Ich berate dich auf Augenhöhe und sage dir ehrlich, welche drei Hebel für dein Projekt wirklich den Unterschied machen, statt 100 theoretische Baustellen aufzureißen."
   },
   {
-    question: "Ist die SEO-Sprechstunde der beste Einstieg?",
-    answer: "Absolut! In der 2-stündigen SEO-Sprechstunde analysieren wir deine Website live. Es ist der perfekte Weg, um sich kennenzulernen und direkt herauszufinden, ob wir zusammenpassen. Du bekommst sofort erste handfeste Optimierungspotenziale und einen konkreten Maßnahmenplan. Danach entscheiden wir in Ruhe, ob und wie wir weitermachen."
+    question: "Wie läuft der Einstieg in die Zusammenarbeit ab?",
+    answer: "Der beste und fairste Einstieg ist meine 2-stündige [SEO Sprechstunde](/seo-sprechstunde/). Ich scanne deine Website vorab durch, und im gemeinsamen Videocall rösten wir deine Domain live. Du bekommst sofort konkrete Hebel und eine Videoaufzeichnung an die Hand. Ganz ohne Knebelvertrag oder monatliche Bindung."
   },
   {
-    question: "Was, wenn ich auch Hilfe bei Tracking, Google Ads oder Social Media brauche?",
-    answer: "Genau dafür gibt es mein Netzwerk! Ich selbst fokussiere mich auf SEO und [Google Ads](/google-ads-freelancer-berlin/). Wenn wir darüber hinaus Bereiche wie Meta Ads, Instagram, Texting, Branddesign oder Videoschnitt abdecken müssen, hole ich die passenden Experten aus meinem **[Freelancer-Team](/freelancer-team/)** dazu. Wir sind ein freiwilliger Zusammenschluss von rund 100 Spezialisten."
+    question: "Bietest du Beratung vor Ort in Berlin oder remote an?",
+    answer: "Beides. Mein Büro liegt in Berlin-Spandau. Für persönliche Strategie-Workshops oder den regelmäßigen Austausch treffen wir uns gern direkt in Berlin. Operativ arbeite ich bundes- und DACH-weit via Zoom, Google Meet oder Teams."
   },
   {
-    question: "Bietest du auch eine neutrale Zweitmeinung an?",
-    answer: "Ja, sehr gerne. Wenn du dir unsicher bist, ob deine aktuelle SEO-Strategie den richtigen Weg einschlägt, oder du ein vorliegendes Angebot prüfen lassen willst, werfe ich einen neutralen Blick darauf. Ich berate immer fair, transparent und konstruktiv."
+    question: "Was passiert, wenn mein Projekt auch Google Ads, Design oder Webentwicklung braucht?",
+    answer: "Ich selbst fokussiere mich auf technisches SEO, Content-Architektur und [Google Ads](/google-ads-freelancer-berlin/). Wenn wir darüber hinaus Spezialisten für Tracking, Meta Ads, Branddesign, Webentwicklung oder Videoschnitt brauchen, bringe ich ausgewählte Profis aus meinem **[Freelancer-Team](/freelancer-team/)** mit ein – einem eingespielten Netzwerk aus über 100 freien Spezialisten."
   },
   {
-    question: "Was kostet die Zusammenarbeit?",
-    answer: "Ich arbeite mit transparenten Paketen. Nach der Sprechstunde (480€) nutzen viele das 10-Stunden Paket (1.920€) für die Umsetzung von Setups und Audits. Für langfristige Begleitung biete ich einen monatlichen Retainer (ab 1.920€) an. Keine versteckten Kosten."
+    question: "Bietest du auch eine neutrale Zweitmeinung zu bestehenden Agentur-Angeboten an?",
+    answer: "Ja, absolut. Viele Unternehmen kommen zu mir, wenn sie ein 20.000-Euro-Angebot vorliegen haben oder nach einem Website-Relaunch plötzlich Rankings und Traffic verlieren. Ich prüfe bestehende Setups unabhängig, diskret und ohne Eigeninteresse."
   },
   {
-    question: "Wie steht es um KI im SEO? Lohnt sich das noch?",
-    answer: "Klassisches SEO wandelt sich stark in Richtung GEO (Generative Engine Optimization). KI-Modelle suchen nach echten Experten und fundierten Inhalten (E-E-A-T), um dich als Quelle zu zitieren. Wer nur generischen KI-Content nutzt, wird es schwer haben. Es geht heute um echte Meinungsstärke und Kontext."
+    question: "Was kostet die Zusammenarbeit mit dir?",
+    answer: "Ich arbeite mit klaren Pauschalen: Die 2-stündige SEO-Sprechstunde liegt bei 480 €. Für konkrete Audits und Umsetzungsphasen nutzen viele das 10-Stunden-Paket (1.920 €). Für langfristige Begleitung biete ich monatliche Retainer ab 1.920 € an."
   }
 ];
 
@@ -70,6 +68,7 @@ const offers = [
   }
 ];
 ---
+
 <Layout title={title} description={description} lcpImage={heroImage.src} ogImage={heroImage.src}>
   <!-- Hero Section -->
   <section class="section-hero relative overflow-hidden bg-white pt-12">
@@ -86,23 +85,26 @@ const offers = [
           </div>
 
           <h1 class="text-4xl md:text-5xl lg:text-[4rem] font-bold text-dark mb-6 leading-normal">
-            Dein <span class="highlight">SEO Freelancer Berlin</span> für echtes & nachhaltiges Wachstum.
+            Dein <span class="highlight">SEO Freelancer Berlin</span> für echtes Handwerk & nachhaltigen ROI.
           </h1>
           <p class="text-lg md:text-xl text-gray-700 max-w-2xl mb-10 leading-relaxed">
-            Ich bin SEO-Freelancer aus Leidenschaft – und das seit fast 25 Jahren. Ich verkaufe dir keine automatisierten Reports, sondern arbeite gemeinsam mit dir an deiner Sichtbarkeit. Direkt, transparent und immer mit dem Fokus auf deinen langfristigen Erfolg.
+            Kein Agentur-Wasserkopf, keine automatisierten PDF-Friedhöfe, sondern 25 Jahre ehrliche SEO-Praxis. Ich arbeite direkt mit dir an den Hebeln, die am Ende wirklich wertvolle Leads, Kunden und messbaren Umsatz bringen.
           </p>
           
           <div class="flex flex-col sm:flex-row gap-4">
             <a href={`${baseUrl}/seo-sprechstunde/`} class="btn-primary text-center" title="Zur SEO Sprechstunde (2026)">
               Der beste Einstieg: Die SEO Sprechstunde
             </a>
+            <a href={`${baseUrl}/kontakt/`} class="btn-secondary text-center" title="Direkt Kontakt aufnehmen">
+              Direkt anfragen
+            </a>
           </div>
         </div>
         <div class="md:w-2/5">
           <Image
             src={heroImage}
-            alt="Jörg Zimmer auf der OMR - SEO Stratege"
-            title="Jörg Zimmer SEO Stratege OMR"
+            alt="Jörg Zimmer auf der OMR - SEO Freelancer Berlin"
+            title="Jörg Zimmer SEO Freelancer Berlin"
             width={600}
             class="w-full h-auto rounded-3xl shadow-2xl border-4 border-white object-cover object-top"
             format="webp"
@@ -114,107 +116,280 @@ const offers = [
     </div>
   </section>
 
-  <!-- Video Section -->
-  <section id="vorstellung" class="section bg-gray-50 pt-24 pb-12">
+  <!-- Sektion 1: Warum freier Berater? (Philosophie & Ehrlicher Blick) -->
+  <section class="section bg-gray-50 pt-20 pb-20 border-t border-gray-100">
     <div class="container-narrow">
-      <div class="flex flex-col lg:flex-row gap-16 items-center">
-        <div class="lg:w-1/2 prose prose-lg max-w-none text-gray-800">
-          <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6">Kurz vorgestellt: Wer ich bin und wie ich arbeite</h2>
-          <p class="leading-relaxed mb-6">
-            Lange Texte kann man viel schreiben. Bevor du tiefer in die Details einsteigst, lade ich dich ein, dir kurz mein Video von der OMR anzusehen. 
-          </p>
-          <p class="leading-relaxed mb-6">
-            Darin erfährst du nicht nur, wer ich bin, sondern auch, wie mein Freelancer-Netzwerk funktioniert. Ein freiwilliger Zusammenschluss aus rund 100 Freelancern – damit können wir alle Bereiche deines Online-Marketings abdecken, wenn du Unterstützung brauchst. Von SEO und Ads über Branddesign bis hin zu Videoschnitt.
-          </p>
-        </div>
-        <div class="lg:w-1/2 w-full">
-          <div class="relative w-full aspect-[9/16] max-h-[600px] md:max-h-none md:aspect-video rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-dark mx-auto">
-            <iframe 
-              src="https://www.youtube-nocookie.com/embed/ldshfeRmpw8?rel=0" 
-              title="Vorstellung Jörg Zimmer" 
-              class="absolute top-0 left-0 w-full h-full border-0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Social Proof / Testimonials -->
-  <Testimonials />
-
-  <!-- Content Section: Arbeitsweise & Netzwerk -->
-  <section class="section bg-white pt-24 pb-24 border-t border-gray-100">
-    <div class="container-narrow">
-      <h2 class="text-3xl md:text-4xl font-bold text-dark mb-12 text-center">Meine Philosophie: Zusammenarbeit auf Augenhöhe</h2>
-      
-      <p class="text-lg text-gray-700 text-center max-w-4xl mx-auto mb-16 leading-relaxed">
-        Ich verstehe mich als dein Partner für digitale Sichtbarkeit. Ich jage keinen reinen Vanity-Metriken hinterher, sondern fokussiere mich auf die Stellschrauben, die am Ende wirklich wertvolle Leads und Kunden bringen.
-      </p>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-gray-50 p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6">
-            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-          </div>
-          <h3 class="text-2xl font-bold mb-4">Schritt 1: Das Indexierungs-Audit</h3>
-          <p class="text-gray-700 leading-relaxed">
-            Mein erster Technik-Schritt in jedem Projekt: Ich gleiche das echte Inventar deiner Website mit dem ab, was bei Google und Bing überhaupt im Index liegt. Oft stelle ich fest, dass teuer produzierter Content nicht indexiert ist und somit null zur Sichtbarkeit beiträgt. Blockaden in Sitemaps und den Webmaster Consoles zu lösen, ist meine erste Amtshandlung.
-          </p>
-        </div>
-
-        <div class="bg-gray-50 p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6">
-            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-          </div>
-          <h3 class="text-2xl font-bold mb-4">Der Freelancer-Vorteil</h3>
-          <p class="text-gray-700 leading-relaxed">
-            Als Marketing-Verantwortlicher brauchst du verlässliche Partner. Bei mir arbeitest du direkt mit dem Experten zusammen. Keine Umwege, keine langen internen Freigabeschleifen. Ich berate dich konstruktiv und setze dort an, wo deine Sichtbarkeit wirklich Optimierungsbedarf hat – ob im technischen Fundament oder bei der Informationsarchitektur.
-          </p>
-        </div>
-
-        <div class="bg-gray-50 p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-colors group">
-          <div class="w-16 h-16 bg-white rounded-2xl flex items-center justify-center shadow-sm mb-6">
-            <svg class="w-8 h-8 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-          </div>
-          <h3 class="text-2xl font-bold mb-4">Netzwerk aus 100 Experten</h3>
-          <p class="text-gray-700 leading-relaxed">
-            Auch wenn mein Fokus auf SEO und <a href={`${baseUrl}/google-ads-freelancer-berlin/`} class="text-lime-700 font-bold underline hover:text-dark">Google Ads</a> liegt: Über mein etabliertes <a href={`${baseUrl}/freelancer-team/`} class="text-lime-700 font-bold underline hover:text-dark">Freelancer-Netzwerk</a> hast du direkten Zugriff auf Profis für Meta Ads, Texting, Branddesign oder Videoschnitt. Du profitierst von der Expertise einer Agentur, behältst aber die Flexibilität von Freelancern.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Content Section: Networking & Weiterbildung -->
-  <section class="section bg-white pt-12 pb-24">
-    <div class="container-narrow">
-      <div class="flex flex-col lg:flex-row gap-16 items-center">
-        <div class="lg:w-1/2 prose prose-lg max-w-none text-gray-800">
-          <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6">Erfahrung heißt: Sein Wissen immer wieder neu zu erfinden</h2>
-          <p class="leading-relaxed mb-6">
-            Auch wenn ich seit 25 Jahren dabei bin, habe ich in dieser Zeit mein Wissen schon mehrfach komplett verwerfen und neu aufbauen müssen. Die SEO-Welt dreht sich extrem schnell, und bei den zahllosen Google-Updates ist es oft entscheidend zu wissen, wo andere Experten bereits gute Erfahrungen gesammelt haben.
-          </p>
-          <p class="leading-relaxed mb-6">
-            Deshalb ist aktives Netzwerken für mich der Schlüssel für die Zukunft. Ich bin stark auf LinkedIn vernetzt, besuche regelmäßig den <strong class="text-dark">SEO-Stammtisch in Berlin</strong> und gehe auf Konferenzen wie die <strong class="text-dark">Campixx</strong>, um mein Wissen mit tiefen Experten abzugleichen.
+      <div class="max-w-3xl mx-auto">
+        <p class="subheadline mb-3 text-center">Meine Philosophie</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-8 text-center">Warum ich lieber als freier Berater arbeite</h2>
+        
+        <div class="prose prose-lg text-gray-700 space-y-6">
+          <p class="leading-relaxed">
+            Ich habe 2001 angefangen, die ersten Webseiten im Internet zu bauen – damals noch mit reinem HTML-Code, den man per Hand hin- und hergeschoben hat. In den 25 Jahren danach habe ich viele Trends kommen und gehen sehen. Viele Kollegen sind irgendwann in große Agenturen oder Konzerne gewechselt. Ich habe das ganz bewusst nicht getan.
           </p>
           <p class="leading-relaxed">
-            Gerade jetzt, mit dem radikalen Wandel hin zur neuen KI-Welt, neuen Such-Protokollen und Metriken, hat mich wieder ein riesiger Forscherdrang gepackt. Ich teste, adaptiere und teile mein Wissen, damit deine Strategie immer up to date bleibt.
+            Als interner Mitarbeiter oder in großen Agenturen bist du oft gefangen: Du musst Reports für Führungskräfte bauen, die zwar viele bunte Grafiken enthalten, aber keine einzige geschäftskritische Aussage liefern. Und wenn du sagst: <em>„Das macht so keinen Sinn“</em>, will das oft niemand hören.
+          </p>
+          <p class="leading-relaxed">
+            Als freier Berater habe ich den Luxus und die Pflicht, ungeschminkt Klartext zu sprechen. Mein Credo war schon immer: Ich mache meine Kunden erst einmal glücklich. Sie sollen das Geld, das sie in mich investieren, wieder herausbekommen – und am besten noch ein Vielfaches mehr. Denn nur dann haben sie das Budget und das Vertrauen, gemeinsam langfristig zu wachsen.
+          </p>
+        </div>
+
+        <!-- Master-Zitatbox (Semantisches E-E-A-T Zitat aus Original-Transkript) -->
+        <figure class="my-10 bg-white border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
+          <div class="flex items-center gap-4 mb-4">
+            <img 
+              src="/assets/images/profile/joerg-zimmer-portrait.webp" 
+              alt="Jörg Zimmer - Senior SEO & AI Search Consultant" 
+              class="w-14 h-14 rounded-full object-cover object-top shadow-sm border-2 border-lime-accent" 
+              width="56" 
+              height="56" 
+              loading="lazy"
+            />
+            <div>
+              <h4 class="font-bold text-base md:text-lg text-dark mb-0">Jörg Zimmer</h4>
+              <p class="text-xs md:text-sm text-neutral-600 mb-0">Senior SEO & AI Search Consultant</p>
+            </div>
+          </div>
+          <blockquote class="text-base md:text-lg text-dark leading-relaxed italic border-l-4 border-lime-accent pl-4 my-4 font-normal">
+            „Lass uns mal das auf die Basics reduzieren. Das wird, glaube ich, bei dir den meisten Impact bringen.“
+          </blockquote>
+          <figcaption class="mt-4 pt-3 border-t border-neutral-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-neutral-500">
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <span>Experten-Zitat • <cite class="not-italic font-semibold text-neutral-700">Jörg Zimmer</cite></span>
+              <span class="text-neutral-300 hidden sm:inline">•</span>
+              <a href="https://www.youtube.com/watch?v=dVGOMAVUNQk&t=558s" target="_blank" rel="noopener noreferrer" class="text-neutral-600 hover:text-dark underline inline-flex items-center gap-1">
+                <span>Quelle: YouTube SEOPresso Podcast (09:18)</span>
+                <svg class="w-3 h-3 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+              </a>
+            </div>
+            <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="font-bold text-lime-700 hover:underline inline-flex items-center gap-1 shrink-0">
+              Jörg Zimmer auf LinkedIn folgen →
+            </a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sektion 2: Meine 4 Arbeitsschritte in Projekten -->
+  <section class="section bg-white pt-20 pb-20">
+    <div class="container-narrow">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <p class="subheadline mb-3">Struktur & Handwerk</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6">Wie ich in Kundenprojekten vorgehe</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          Ich verkaufe dir keine Standard-Schablonen. Jede Website hat andere Bremsklötze. In 25 Jahren hat sich ein pragmatischer 4-Stufen-Prozess bewährt:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Schritt 1 -->
+        <div class="bg-gray-50 p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-all group">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-12 rounded-2xl bg-dark text-lime-accent font-bold flex items-center justify-center text-lg shadow-sm">1</span>
+            <h3 class="text-2xl font-bold text-dark mb-0">Die SEO Sprechstunde: Live durchrösten</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Der Start ist kein 12-Monats-Vertrag, sondern meine 2-stündige <a href={`${baseUrl}/seo-sprechstunde/`} class="text-lime-700 font-bold underline hover:text-dark">SEO Sprechstunde</a>. Ich scanne deine Domain vorab, und im gemeinsamen Videocall rösten wir dein Setup live durch.
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-0">
+            Aus 100 theoretischen Fehlern filtern wir genau die 3 bis 5 heraus, die wirklich deinen Umsatz bremsen. Du bekommst ein klares Protokoll, die Videoaufzeichnung und sofortige Handlungsfähigkeit.
+          </p>
+        </div>
+
+        <!-- Schritt 2 -->
+        <div class="bg-gray-50 p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-all group">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-12 rounded-2xl bg-dark text-lime-accent font-bold flex items-center justify-center text-lg shadow-sm">2</span>
+            <h3 class="text-2xl font-bold text-dark mb-0">Crawling & Indexierung: Das Fundament</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Bevor wir über KI oder teuren Content reden: Trenne <a href={`${baseUrl}/glossar/crawling-vs-indexing/`} class="text-lime-700 font-bold underline hover:text-dark">Crawling von Indexing</a>. Teuer produzierter Content nutzt dir gar nichts, wenn Google ihn in der Warteschlange verrotten lässt oder wegen Near-Duplicates aussortiert.
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-0">
+            Wir reinigen Server-Antworten, Sitemaps und die <a href={`${baseUrl}/glossar/interne-verlinkung/`} class="text-lime-700 font-bold underline hover:text-dark">interne Verlinkung</a>, damit der Googlebot deine wertvollen URLs schnell und vollständig verarbeitet.
+          </p>
+        </div>
+
+        <!-- Schritt 3 -->
+        <div class="bg-gray-50 p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-all group">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-12 rounded-2xl bg-dark text-lime-accent font-bold flex items-center justify-center text-lg shadow-sm">3</span>
+            <h3 class="text-2xl font-bold text-dark mb-0">Money Keywords & Entitäten</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Keywords sind kein mechanisches Wortzählen mehr. Wir identifizieren echte <a href={`${baseUrl}/glossar/money-keyword/`} class="text-lime-700 font-bold underline hover:text-dark">Money Keywords</a> – also goldene Suchanfragen mit konkreter Kauf- und Buchungsabsicht.
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-0">
+            Dazu verankern wir deine Marke als maschinenlesbare Entität im Knowledge Graph. So versteht nicht nur der Google-Algorithmus, wofür du stehst, sondern auch autonome KI-Agenten und RAG-Pipelines.
+          </p>
+        </div>
+
+        <!-- Schritt 4 -->
+        <div class="bg-gray-50 p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-lime-500 transition-all group">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-12 rounded-2xl bg-dark text-lime-accent font-bold flex items-center justify-center text-lg shadow-sm">4</span>
+            <h3 class="text-2xl font-bold text-dark mb-0">Skalierung im Freelancer-Team</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Brauchst du neben SEO auch professionelle <a href={`${baseUrl}/google-ads-freelancer-berlin/`} class="text-lime-700 font-bold underline hover:text-dark">Google Ads</a>, Tracking-Setups, Content-Design oder Videocut?
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-0">
+            Über mein etabliertes <a href={`${baseUrl}/freelancer-team/`} class="text-lime-700 font-bold underline hover:text-dark">Freelancer-Netzwerk</a> ziehe ich passende Spezialisten hinzu. Du bekommst die ganzheitliche Umsetzungsstärke einer Agentur, zahlst aber keinen aufgeblasenen Wasserkopf mit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sektion 3: Wo ich 2026 Potenziale sehe (GEO & KI-Wandel) -->
+  <section class="section bg-gray-50 pt-20 pb-20 border-t border-gray-100">
+    <div class="container-narrow">
+      <div class="flex flex-col lg:flex-row gap-16 items-center">
+        <div class="lg:w-1/2 prose prose-lg max-w-none text-gray-800">
+          <p class="subheadline mb-2">Markteinordnung 2026</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-dark mb-6">Wo die echten Potenziale liegen: SEO trifft auf KI-Suche</h2>
+          <p class="leading-relaxed mb-6">
+            In der Branche höre ich ständig: <em>„SEO ist tot, jetzt übernimmt KI.“</em> Ich habe das in 25 Jahren schon bei Google Suggest, Mobile-First und Voice Search gehört. Die Wahrheit ist: Das Spielfeld wird größer, nicht kleiner.
+          </p>
+          <p class="leading-relaxed mb-6">
+            Heute sprechen wir von <a href={`${baseUrl}/glossar/geo-optimierung/`} class="text-lime-700 font-bold underline hover:text-dark">Generative Engine Optimization (GEO)</a> und Answer Engine Optimization. KI-Modelle wie ChatGPT, Perplexity oder Google Gemini beantworten Fragen direkt. Aber woher holen sie ihre Antworten? Aus Websites, die maschinenlesbare Fakten, echte Meinungsstärke und unerschütterliches E-E-A-T liefern.
+          </p>
+          <p class="leading-relaxed">
+            Wer nur seichten KI-Einheitsbrei publiziert, wird von den Suchmaschinen ignoriert. Wer jedoch saubere Entitäten baut, technische Barrieren abbaut und menschliche Expertise belegt, wird von KI-Agenten als primäre Quelle zitiert.
           </p>
         </div>
         <div class="lg:w-1/2">
           <Image
             src={joergInterview}
-            alt="Jörg Zimmer im Austausch mit anderen Experten"
-            title="Jörg Zimmer beim Fach-Austausch"
+            alt="Jörg Zimmer im Fachaustausch über SEO und KI-Suche"
+            title="Jörg Zimmer Fachaustausch SEO und KI"
             width={600}
-            class="rounded-3xl shadow-lg w-full h-auto object-cover object-top border-4 border-gray-100"
+            class="rounded-3xl shadow-xl w-full h-auto object-cover object-top border-4 border-white"
             format="webp"
             loading="lazy"
           />
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sektion 4: Zweitmeinung & Audit -->
+  <section class="section bg-white pt-20 pb-20">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <div class="bg-gray-50 border border-gray-100 p-8 md:p-12 rounded-3xl">
+        <p class="subheadline mb-2">Unabhängige Einschätzung</p>
+        <h2 class="text-2xl md:text-3xl font-bold text-dark mb-4">Du hast schon ein Agentur-Angebot vorliegen?</h2>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          Oft kommen Geschäftsführer zu mir, die ein 15.000- oder 30.000-Euro-Angebot einer Agentur auf dem Tisch haben und unsicher sind, ob das vorgeschlagene Konzept wirklich zu ihren Zielen passt. Oder deren Sichtbarkeit nach einem Relaunch eingebrochen ist.
+        </p>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          Ich biete eine diskrete und neutrale Zweitmeinung. Ich prüfe den vorgeschlagenen Maßnahmenkatalog mit professionellen Audit-Tools, analysiere die echten Hebel und sage dir ganz unverblümt, was davon sinnvoll ist und was reines Füllmaterial darstellt.
+        </p>
+        <a href={`${baseUrl}/kontakt/`} class="btn-primary" title="Zweitmeinung anfragen">
+          Neutrale Zweitmeinung anfragen →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sektion 5: Preise & Pakete -->
+  <section class="section bg-gray-50 pt-20 pb-20 border-t border-gray-100">
+    <div class="container-narrow">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <p class="subheadline mb-2">Transparente Konditionen</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Preise ohne versteckte Kosten</h2>
+        <p class="text-gray-700">
+          Verlässlichkeit und Planbarkeit: Alle Leistungen rechne ich nach festen Pauschalen ab.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Paket 1 -->
+        <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="bg-lime-accent text-dark text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full inline-block mb-4">
+              Der Einstieg
+            </div>
+            <h3 class="text-2xl font-bold text-dark mb-2">SEO Sprechstunde</h3>
+            <p class="text-gray-600 text-sm mb-6">2-stündige Live-Analyse deiner Website via Videocall.</p>
+            <div class="text-3xl font-bold text-dark mb-6">480 € <span class="text-sm font-normal text-gray-500">pauschal</span></div>
+            <ul class="space-y-3 text-sm text-gray-700 mb-8">
+              <li class="flex items-center gap-2">✓ Vorab-Scan deiner Domain</li>
+              <li class="flex items-center gap-2">✓ Live-Analyse im Videocall</li>
+              <li class="flex items-center gap-2">✓ Die 3 wichtigsten Sofort-Hebel</li>
+              <li class="flex items-center gap-2">✓ Komplette Videoaufzeichnung</li>
+            </ul>
+          </div>
+          <a href={`${baseUrl}/seo-sprechstunde/`} class="btn-primary text-center w-full" title="Sprechstunde buchen">
+            Sprechstunde buchen
+          </a>
+        </div>
+
+        <!-- Paket 2 -->
+        <div class="bg-white p-8 rounded-3xl border-2 border-dark shadow-md flex flex-col justify-between relative">
+          <div class="absolute -top-3 right-6 bg-dark text-lime-accent text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full">
+            Beliebt für Setups
+          </div>
+          <div>
+            <div class="bg-gray-100 text-dark text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full inline-block mb-4">
+              Hands-on
+            </div>
+            <h3 class="text-2xl font-bold text-dark mb-2">10-Stunden Paket</h3>
+            <p class="text-gray-600 text-sm mb-6">Gezielte Umsetzung von Audits, Setups und Optimierungen.</p>
+            <div class="text-3xl font-bold text-dark mb-6">1.920 € <span class="text-sm font-normal text-gray-500">pauschal</span></div>
+            <ul class="space-y-3 text-sm text-gray-700 mb-8">
+              <li class="flex items-center gap-2">✓ Technisches Fundament & Hygiene</li>
+              <li class="flex items-center gap-2">✓ Information Architecture & Inlinks</li>
+              <li class="flex items-center gap-2">✓ Flexible Aufgabenverteilung</li>
+              <li class="flex items-center gap-2">✓ Direkter Entwickler-Austausch</li>
+            </ul>
+          </div>
+          <a href={`${baseUrl}/kontakt/`} class="btn-primary text-center w-full" title="Paket anfragen">
+            Paket anfragen
+          </a>
+        </div>
+
+        <!-- Paket 3 -->
+        <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="bg-gray-100 text-dark text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full inline-block mb-4">
+              Langfristig
+            </div>
+            <h3 class="text-2xl font-bold text-dark mb-2">Monatlicher Retainer</h3>
+            <p class="text-gray-600 text-sm mb-6">Laufende strategische Begleitung für stetiges Wachstum.</p>
+            <div class="text-3xl font-bold text-dark mb-6">ab 1.920 € <span class="text-sm font-normal text-gray-500">/ Monat</span></div>
+            <ul class="space-y-3 text-sm text-gray-700 mb-8">
+              <li class="flex items-center gap-2">✓ Kontinuierliches Ranking-Monitoring</li>
+              <li class="flex items-center gap-2">✓ Content-Erweiterung & GEO-Schärfung</li>
+              <li class="flex items-center gap-2">✓ Monatlicher Daten-Audit-Check</li>
+              <li class="flex items-center gap-2">✓ Fester Ansprechpartner</li>
+            </ul>
+          </div>
+          <a href={`${baseUrl}/kontakt/`} class="btn-secondary text-center w-full" title="Retainer besprechen">
+            Retainer anfragen
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Official Dark Premium CTA Box -->
+  <section class="section bg-white pt-8 pb-12">
+    <div class="container-narrow max-w-4xl mx-auto">
+      <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-3 !mt-0 !border-none !pb-0">
+          Jetzt an der Diskussion teilnehmen
+        </h3>
+        <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+          Diskutiere mit Jörg Zimmer und der SEO-Community auf LinkedIn über Suchmaschinenoptimierung, KI-Suche und echte Praxiserfahrungen.
+        </p>
+        <a href="https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>Beitrag auf LinkedIn öffnen</span>
+          <span aria-hidden="true">→</span>
+        </a>
       </div>
     </div>
   </section>
@@ -225,8 +400,6 @@ const offers = [
       <FAQAccordion faqs={faqs} />
     </div>
   </section>
-
-  <CTASection />
 </Layout>
 
 <Schema 
@@ -237,3 +410,4 @@ const offers = [
   offers={offers}
   faqs={faqs}
 />
+

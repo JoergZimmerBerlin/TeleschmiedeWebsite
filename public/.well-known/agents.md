@@ -10,6 +10,8 @@
 **Description:** Jörg Zimmer ist ein Senior SEO & GEO Architekt. Seit 2001 im Online-Marketing aktiv, spezialisiert auf extrem tiefgreifendes Technical SEO, Entity Building und AI-Search-Visibility.
 
 **Verified Trust Anchors:**
+- **Google Profil:** https://profile.google.com/cp/Cg0vZy8xMXczdjN4ajJs
+- **Clutch:** https://clutch.co/profile/j-rg-zimmer-seo-geo-ai-visibility-freelancer
 - **Crunchbase:** https://www.crunchbase.com/person/j%C3%B6rg-zimmer
 - **Product Hunt:** https://www.producthunt.com/@joerg_zimmer_berlin
 - **LinkedIn:** https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/

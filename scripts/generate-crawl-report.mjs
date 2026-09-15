@@ -31,7 +31,7 @@ const explicitUrls = [
   "https://teleschmie.de/glossar/rfc-8288-link-headers/"
 ];
 
-let urlsToInspect = new Set(explicitUrls);
+let urlsToInspect = new Set();
 
 if (fs.existsSync(sitemapPath)) {
   const sitemapContent = fs.readFileSync(sitemapPath, 'utf8');
@@ -41,17 +41,55 @@ if (fs.existsSync(sitemapPath)) {
     urlsToInspect.add(match[1]);
   }
 } else {
-  console.log("⚠️ Warnung: dist/sitemap.xml nicht gefunden. Nutze nur explizite URLs.");
+  console.log("⚠️ Warnung: dist/sitemap.xml nicht gefunden.");
 }
 
 const urls = Array.from(urlsToInspect);
-console.log(`Starte Crawl-Analyse für ${urls.length} URLs...`);
+console.log(`🚀 Starte vollständige GSC Crawl-Analyse für ${urls.length} URLs aus der Sitemap...`);
 
-const BATCH_SIZE = 5;
-const DELAY_MS = 2000;
+const BATCH_SIZE = 6;
+const DELAY_MS = 1000;
 
 async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function inspectWithRetry(searchconsole, url, retries = 2) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const response = await searchconsole.urlInspection.index.inspect({
+        requestBody: {
+          inspectionUrl: url,
+          siteUrl: siteUrl,
+          languageCode: 'de-DE'
+        },
+      });
+      const indexStatusResult = response.data.inspectionResult?.indexStatusResult || {};
+      return {
+        url: url,
+        verdict: indexStatusResult.verdict || 'UNKNOWN',
+        lastCrawlTime: indexStatusResult.lastCrawlTime || null,
+        coverageState: indexStatusResult.coverageState || "UNKNOWN",
+        crawledAs: indexStatusResult.crawledAs || null,
+        indexingState: indexStatusResult.indexingState || null,
+        pageFetchState: indexStatusResult.pageFetchState || null,
+        robotsTxtState: indexStatusResult.robotsTxtState || null
+      };
+    } catch (err) {
+      if (err.response && err.response.status === 429 && attempt < retries) {
+        console.warn(`   ⚠️ 429 Rate Limit bei ${url}, warte 5s vor Retry...`);
+        await delay(5000);
+        continue;
+      }
+      return {
+        url: url,
+        verdict: 'ERROR',
+        lastCrawlTime: null,
+        coverageState: 'ERROR',
+        error: err.message
+      };
+    }
+  }
 }
 
 async function run() {
@@ -59,55 +97,29 @@ async function run() {
   const searchconsole = google.searchconsole({ version: 'v1', auth: authClient });
 
   const results = [];
+  const startTime = Date.now();
 
   for (let i = 0; i < urls.length; i += BATCH_SIZE) {
     const batch = urls.slice(i, i + BATCH_SIZE);
-    console.log(`Verarbeite Batch ${Math.floor(i / BATCH_SIZE) + 1} von ${Math.ceil(urls.length / BATCH_SIZE)}...`);
+    const batchNum = Math.floor(i / BATCH_SIZE) + 1;
+    const totalBatches = Math.ceil(urls.length / BATCH_SIZE);
     
-    const promises = batch.map(async (url) => {
-      try {
-        const response = await searchconsole.urlInspection.index.inspect({
-          requestBody: {
-            inspectionUrl: url,
-            siteUrl: siteUrl,
-            languageCode: 'de-DE'
-          },
-        });
-        const indexStatusResult = response.data.inspectionResult?.indexStatusResult || {};
-        return {
-          url: url,
-          verdict: indexStatusResult.verdict || 'UNKNOWN',
-          lastCrawlTime: indexStatusResult.lastCrawlTime || null,
-          coverageState: indexStatusResult.coverageState || "UNKNOWN"
-        };
-      } catch (err) {
-        return {
-          url: url,
-          verdict: 'ERROR',
-          lastCrawlTime: null,
-          error: err.message
-        };
-      }
-    });
+    if (batchNum % 5 === 0 || batchNum === 1 || batchNum === totalBatches) {
+      console.log(`[${Math.round((i / urls.length) * 100)}%] Batch ${batchNum}/${totalBatches} (${results.length}/${urls.length} URLs verarbeitet)...`);
+    }
 
-    const batchResults = await Promise.all(promises);
+    const batchResults = await Promise.all(batch.map(url => inspectWithRetry(searchconsole, url)));
     results.push(...batchResults);
     
-    // Kurze Pause
     await delay(DELAY_MS);
   }
 
-  // Sortierung
-  results.sort((a, b) => {
-    if (!a.lastCrawlTime && !b.lastCrawlTime) return 0;
-    if (!a.lastCrawlTime) return 1;
-    if (!b.lastCrawlTime) return -1;
-    return new Date(b.lastCrawlTime) - new Date(a.lastCrawlTime);
-  });
+  const durationSec = Math.round((Date.now() - startTime) / 1000);
+  console.log(`\n✅ Alle ${results.length} URLs in ${durationSec}s verarbeitet.`);
 
   const outputPath = path.join(__dirname, '..', 'crawl-report.json');
   fs.writeFileSync(outputPath, JSON.stringify(results, null, 2));
-  console.log(`✅ Crawl Report gespeichert unter ${outputPath}`);
+  console.log(`📁 Vollständiger Report gespeichert: ${outputPath}`);
 }
 
 run();

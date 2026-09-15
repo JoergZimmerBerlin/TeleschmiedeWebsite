@@ -2,11 +2,13 @@ import { google } from 'googleapis';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execFileSync } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const keyPath = path.join(__dirname, '..', 'gsc-credentials.json');
 const reportPath = path.join(__dirname, '..', 'crawl-report.json');
+const indexConfigPath = path.join(__dirname, '..', '.indexing-config.json');
 
 if (!fs.existsSync(keyPath) || !fs.existsSync(reportPath)) {
   console.error('❌ Fehler: gsc-credentials.json oder crawl-report.json nicht gefunden.');
@@ -24,22 +26,25 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function runReindexer() {
   try {
     const reportData = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
-    
-    // Filtere URLs, die schon mal gecrawlt wurden
-    let crawledUrls = reportData.filter(item => item.lastCrawlTime !== null);
-    
-    // Aufsteigend sortieren: Die ältesten Daten (z.B. Februar) nach oben
-    crawledUrls.sort((a, b) => new Date(a.lastCrawlTime) - new Date(b.lastCrawlTime));
+    const oneMonthAgo = new Date('2026-08-15T00:00:00Z').getTime();
 
-    // Die ersten 180 nehmen, da wir schon 6 API Calls verbraucht haben 
-    // und das Limit meist bei 200 pro Tag liegt.
-    const DAILY_LIMIT_REMAINING = 180; 
-    const targetUrls = crawledUrls.slice(0, DAILY_LIMIT_REMAINING);
+    // 1. URLs, die noch nie gecrawlt wurden (höchste Vernachlässigung)
+    const neverCrawled = reportData.filter(item => item.lastCrawlTime === null);
 
-    console.log(`🚀 Starte Re-Indexierung der ältesten URLs.`);
-    console.log(`Gefunden: ${crawledUrls.length} bereits gecrawlte URLs.`);
-    console.log(`Limitiere auf die ältesten ${targetUrls.length} URLs für heute...`);
-    console.log(`Ältester Crawl: ${targetUrls[0].lastCrawlTime}`);
+    // 2. URLs, die älter als 1 Monat sind, aufsteigend sortiert (älteste März-URLs zuerst)
+    const olderThanOneMonth = reportData
+      .filter(item => item.lastCrawlTime !== null && new Date(item.lastCrawlTime).getTime() < oneMonthAgo)
+      .sort((a, b) => new Date(a.lastCrawlTime) - new Date(b.lastCrawlTime));
+
+    const targetUrls = [...neverCrawled, ...olderThanOneMonth];
+
+    console.log(`\n======================================================`);
+    console.log(`🚀 STARTE RE-INDEXIERUNG & PINGS FÜR DIE ÄLTESTEN URLS`);
+    console.log(`   - Unbesuchte URLs (noch nie gecrawlt): ${neverCrawled.length}`);
+    console.log(`   - Älter als 1 Monat (vor 15.08.2026):    ${olderThanOneMonth.length}`);
+    console.log(`   - Gesamtziel:                            ${targetUrls.length} URLs`);
+    console.log(`   - Ältestes Crawl-Datum:                  ${olderThanOneMonth[0]?.lastCrawlTime || 'N/A'}`);
+    console.log(`======================================================\n`);
 
     const authClient = await auth.getClient();
     const indexing = google.indexing({ version: 'v3', auth: authClient });
@@ -47,36 +52,65 @@ async function runReindexer() {
     let successCount = 0;
     let failCount = 0;
 
+    console.log(`📡 [1/2] Sende Google Indexing API Pings...`);
     for (let i = 0; i < targetUrls.length; i++) {
       const urlInfo = targetUrls[i];
-      const dateStr = new Date(urlInfo.lastCrawlTime).toLocaleDateString('de-DE');
+      const dateStr = urlInfo.lastCrawlTime 
+        ? new Date(urlInfo.lastCrawlTime).toLocaleDateString('de-DE') 
+        : 'NOCH NIE GECRAWLT';
       
-      console.log(`[${i+1}/${targetUrls.length}] Pushe URL (Letzter Crawl: ${dateStr}): ${urlInfo.url}`);
+      process.stdout.write(`[${(i+1).toString().padStart(2, ' ')}/${targetUrls.length}] [${dateStr}] ${urlInfo.url} ... `);
       
       try {
         await indexing.urlNotifications.publish({
           requestBody: { url: urlInfo.url, type: 'URL_UPDATED' },
         });
         successCount++;
+        console.log(`✅ OK`);
       } catch (pushErr) {
         failCount++;
         if (pushErr.response && pushErr.response.status === 429) {
-          console.error(`   ⚠️ TAGESLIMIT ERREICHT! Breche ab.`);
+          console.log(`⚠️ TAGESLIMIT (429) ERREICHT! Breche Google-Pings ab.`);
           break;
         } else {
-           console.error(`   ⚠️ Fehler:`, pushErr.message);
+          console.log(`❌ Fehler: ${pushErr.message}`);
         }
       }
 
-      // Kurze Pause
-      await delay(500);
+      await delay(400);
     }
 
-    console.log('\n=========================================');
-    console.log(`🎉 FERTIG!`);
-    console.log(`Erfolgreich in die GSC Queue geschoben: ${successCount}`);
-    console.log(`Fehlgeschlagen: ${failCount}`);
-    console.log('=========================================\n');
+    console.log(`\nGoogle Indexing Pushes: ${successCount} erfolgreich, ${failCount} fehlgeschlagen.`);
+
+    // 2. IndexNow Push (Bing / Suchmaschinen-Allianz)
+    if (fs.existsSync(indexConfigPath)) {
+      console.log(`\n📡 [2/2] Sende alle ${targetUrls.length} URLs per Batch an IndexNow (Bing)...`);
+      try {
+        const config = JSON.parse(fs.readFileSync(indexConfigPath, 'utf8'));
+        const payload = {
+          host: config.domain,
+          key: config.indexNowKey,
+          keyLocation: `https://${config.domain}/${config.indexNowKey}.txt`,
+          urlList: targetUrls.map(u => u.url)
+        };
+        const res = await fetch('https://api.indexnow.org/indexnow', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json; charset=utf-8' },
+          body: JSON.stringify(payload)
+        });
+        if (res.status === 200 || res.status === 202) {
+          console.log(`✅ IndexNow erfolgreich empfangen (HTTP ${res.status})!`);
+        } else {
+          console.log(`⚠️ IndexNow Rückmeldung: HTTP ${res.status}`);
+        }
+      } catch (inErr) {
+        console.error(`❌ IndexNow Fehler:`, inErr.message);
+      }
+    }
+
+    console.log('\n======================================================');
+    console.log(`🎉 FERTIG! Alle Pings erfolgreich abgesetzt.`);
+    console.log('======================================================\n');
 
   } catch (error) {
     console.error(`❌ Kritischer Fehler!`, error);

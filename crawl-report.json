@@ -1,32 +1,3202 @@
 [
   {
-    "url": "https://teleschmie.de/glossar/http-message-signatures/",
+    "url": "https://teleschmie.de/datenschutz/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-08-19T22:08:23Z"
+    "lastCrawlTime": "2026-08-06T18:05:42Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
   },
   {
-    "url": "https://teleschmie.de/glossar/rfc-8288-link-headers/",
+    "url": "https://teleschmie.de/freelancer-team/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T22:05:24Z"
+    "lastCrawlTime": "2026-09-05T01:45:42Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
   },
   {
-    "url": "https://teleschmie.de/glossar/identity-json/",
+    "url": "https://teleschmie.de/google-ads-freelancer-berlin/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T22:05:23Z"
+    "lastCrawlTime": "2026-08-20T06:28:14Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
   },
   {
-    "url": "https://teleschmie.de/glossar/sovp-protocol/",
+    "url": "https://teleschmie.de/groundingpage-en/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T22:05:23Z"
+    "lastCrawlTime": "2026-08-19T16:33:42Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
   },
   {
-    "url": "https://teleschmie.de/glossar/dns-sovereignty/",
+    "url": "https://teleschmie.de/groundingpage/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T22:05:23Z"
+    "lastCrawlTime": "2026-08-15T16:04:03Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/impressum/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-15T16:04:03Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T15:43:23Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/kontakt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-18T04:41:04Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/leistungen/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T09:54:01Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/seo-freelancer-berlin/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "URL ist Google nicht bekannt",
+    "crawledAs": null,
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/seo-sprechstunde/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-14T20:33:32Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/ueber-mich/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-03T16:53:22Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/videos/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "Gefunden – zurzeit nicht indexiert",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-14T13:59:23Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/24-jahre-seo-gleiche-fehler/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-14T20:44:55Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/80-prozent-seo-fehler-sprechstunde/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T19:59:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-agent-weihnachtsgruesse-linkedin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-23T01:17:20Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-connect-berlin-networking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-16T11:07:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-crawlability-tech-seo-disziplin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-crawler-sind-dumm-markdown/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-07T23:36:10Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-generierte-website-kennzeichnung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T05:17:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-geo-sichtbarkeit-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-18T13:08:11Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-seo-geo-praktikanten/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:19:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/beste-seo-tools-ai-search-prompt-tracking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-04T10:32:31Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/bist-du-seo-ai-ready-podcast/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-14T20:44:54Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/campixx-networking-conversion-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/campixx-seo-agentur-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-13T09:21:03Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/campixx-video-roland-golla/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/cloudflare-agent-readiness-scan/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/core-web-vitals-ux-bericht/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T15:17:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/digitaler-unternehmensberater-statt-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-21T09:55:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/doenerback-und-motivation/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-13T09:18:11Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/einfachste-seo-verhaeltnisse/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T23:10:38Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelance-unlocked-eis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelance-unlocked-eis-erfolgreich/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelance-unlocked-lila-tshirts/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelancer-team-omr-hamburg/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T15:34:00Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/freelancer-team-spirit-events/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T05:17:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/generative-engine-optimization-geo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-08-26T04:47:53Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-action-plan-llm-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-24T22:14:11Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-seo-agentic-eigene-disziplin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-seo-ai-seo-llmo-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T07:52:38Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-seo-jahreszahl/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:47Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/geo-und-ai-search-neues-spiel/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/google-ads-support-seo-nicht-tot/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-14T20:22:50Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/google-search-console-zustaendigkeit-umfrage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T21:27:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/grounding-page-generator-ai-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T18:13:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/highlights-2025-jahresrueckblick/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T22:38:54Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ich-befinde-mich-in-der-geo-transformation/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ki-website-leuchtturm/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/liebe-bots-crawler-agenten/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T22:38:54Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/linkedin-company-pages-engagement/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:15:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/linkedin-google-bewertungen/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-24T04:37:58Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/linkedin-ist-ein-forum-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T21:16:18Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/magic-writing-podcast-seo-ist-tot/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T10:11:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/malte-landwehr-ai-search-content-formate/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ms-clarity-session-campixx/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:45Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/omr-2026-mission-freelancer-team/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-31T03:42:12Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/omr-freelancer-stand-roi/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T11:31:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/pagespeed-100-seo-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-19T06:30:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rank-math-vs-yoast-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-09T13:10:43Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-ai-visibility-tool/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T22:38:53Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-ai-visibility-tracking-17-llms/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T22:36:53Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-essentials-ai-tracking-einsteiger/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T10:37:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/rankscale-update-agency-api-chatgpt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-08T16:06:31Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/reines-seo-vs-geo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:47Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-agentur-10-gruende/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-ai-tracker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T03:26:24Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-api-claude-code-praxis-test/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-14T12:36:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-api-claude-code-setup/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T19:49:02Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-api-endpunkte-kompass/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T10:02:56Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-chatgpt-app/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:45Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-ki-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-26T07:33:00Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-preise/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-14T16:52:02Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/se-ranking-test-2026/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T05:17:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-feuerwehr-rettung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-11T15:32:42Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-mega-prompt-claude-agent/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-relaunch-klassiker-meme/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T22:38:57Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-bewertung-ronny/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-10T08:32:51Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-erklaert/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-25T06:14:26Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-never-code-alone/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-16T01:06:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-sprechstunde-so-laeuft-sie-ab/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T09:48:37Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-stammtisch-berlin-axel-springer/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:42Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-wird-groesser-geo-welle/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-21T04:55:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T03:51:33Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T16:53:51Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seorch-ai-geo-check/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seorch-seo-tool-fanboy/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:45Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/sistrix-podcast-entitaeten-mapping/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:45Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/sistrix-vs-se-ranking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-24T02:29:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/stefan-godulla-campixx/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:12:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/tldv-meeting-notetaker-ki/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:06:45Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/top-9-ai-visibility-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T05:17:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/transparente-seo-preise-erfahrung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-25T16:10:00Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/website-seo-audit-vibe-coding/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-19T15:45:11Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/wie-komme-ich-als-unternehmen-in-chatgpt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T05:17:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/willkommen-seo-jahr-2026/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-08T09:25:35Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/wir-seos-sind-schuld-community/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "URL ist Google nicht bekannt",
+    "crawledAs": null,
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/wir-seos-zusammenhalt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T15:39:27Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/youtube-channel-links/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-15T16:06:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/zwei-stunden-seo-potential/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T22:38:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T04:26:38Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/301-vs-302/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-26T13:00:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/404-fehlerseiten/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-28T01:32:31Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/a2a-protocol/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T13:35:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/aeo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "URL ist Google nicht bekannt",
+    "crawledAs": null,
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-card-json/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-payments-protocol-ap2/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:34Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-readiness/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:35Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-readiness-level/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-25T09:29:10Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agent-skills/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:56:00Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agentic-commerce-protocol-acp/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T04:54:13Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/agents-md/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-31T08:55:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ahrefs-ai-visibility/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-citation-analysis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-competitor-analysis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-crawlability/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-plugin-json/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-06T16:45:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-prompt-research/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-17T16:04:49Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-rank-tracker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-search/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-01T23:19:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-search-engine/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-search-optimization/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-sentiment-analysis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "URL ist Google nicht bekannt",
+    "crawledAs": null,
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-shopping-analysis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-tracker-vergleich/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-tracking-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T02:02:15Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-txt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-visibility/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-visibility-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-visibility-report/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-visibility-score/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-visibility-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
   },
   {
     "url": "https://teleschmie.de/glossar/api-catalog/",
     "verdict": "PASS",
-    "lastCrawlTime": "2026-07-17T22:05:22Z"
+    "lastCrawlTime": "2026-07-17T22:05:22Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/auth-md/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-31T22:46:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/authoritativeness-eeat/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-03T00:35:28Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/berufshaftpflicht-freiberufler/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T00:27:58Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/bing-webmastertools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-26T20:02:32Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/brand-mentions/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-28T07:51:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/brand-sentiment/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/brand-share/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "Gefunden – zurzeit nicht indexiert",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/brand-visibility-dashboard/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/campixx-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:19:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/canonical-tag/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-03T00:35:26Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/chatgpt-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-07T12:49:15Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/chatgpt-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/citation/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T19:01:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/citation-frequency/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/client-side-rendering/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/cloudflare-agent-readiness-checklist/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:56:23Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/common-crawl/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/content-delivery-network/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/content-signals/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:56:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/conversion-rate/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T19:01:41Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/core-web-vitals/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:21:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/cpc/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-31T08:53:31Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/crawler/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-31T08:53:31Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/crawling-vs-indexing/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-01T23:19:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ctr/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-05-22T23:46:21Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/dns-aid/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/dns-sovereignty/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-31T15:30:10Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/e-e-a-t/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-05T09:37:29Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ecommerce-ki-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entitaet/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:25:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entitaeten-building/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T20:41:11Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entity-co-occurrence/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/entity-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-01T23:19:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/eu-ai-act/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/experience-eeat/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:52:53Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/expertise-eeat/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-22T23:56:14Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/faq-markup/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-05-22T23:59:29Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/finseo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/freelancing/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "URL ist Google nicht bekannt",
+    "crawledAs": null,
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-09T08:16:34Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-agentur/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T19:55:12Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-08T22:13:20Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-freelancer/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-05-07T06:31:10Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T16:01:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-page-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-12T05:53:49Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-tool/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/geo-vs-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-28T08:06:10Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-algorithmus/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:21:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-core-update/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-02T01:10:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-search-console/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:21:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/google-search-console-einrichtung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-09T20:58:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/grounding-page/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-14T16:53:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/grounding-queries/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/h1-h2-h3/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-23T00:02:57Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/html-struktur/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/http-message-signatures/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-19T22:08:23Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/identity-json/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T22:05:23Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/in-ki-antworten-erscheinen/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T15:06:18Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/interne-verlinkung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T20:25:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/keywoerter/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T21:10:25Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/keyword-tool/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-01T23:19:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/keywordrecherche/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:23:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-content/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-ranking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-08T01:58:57Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-seo-beratung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T20:07:55Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-sichtbarkeit-agentur/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-sichtbarkeit-b2b/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ki-sichtbarkeit-messen-optimieren/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-02T15:45:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/knowledge-graph/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T15:14:27Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/linkbuilding/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-22T19:26:36Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/linkedin-ai-visibility-studie/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/linkjuice/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-08T12:38:55Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llm-optimization/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llm-rank-tracker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llm-volatility/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llmo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-22T19:26:43Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llms-full-txt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-25T06:15:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/llms-txt/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-13T09:57:56Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/local-seo/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-22T19:28:05Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/lokale-ki-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/machine-payment-protocol-mpp/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T06:29:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/markdown-content-negotiation/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T13:08:53Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/markenaufbau-mit-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-19T05:46:59Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/mcp-server-card/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-06T23:00:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/mention/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T20:27:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/meta-description/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-07T10:17:27Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/model-context-protocol-mcp/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T14:06:20Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/money-keyword/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T13:07:58Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/noindex/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "Gefunden – zurzeit nicht indexiert",
+    "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/oauth-oidc-discovery/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-31T16:52:48Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/oauth-protected-resource/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-27T03:20:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/otterly-ai/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/pagespeed/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-21T18:59:25Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/peec-ai/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/perplexity-sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/pressearbeit-im-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T19:03:41Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/profound/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/promptset/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/query-fan-out/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rag/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:19Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rank-math/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-09T13:46:29Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rankingfaktoren/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-03T15:22:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rankscale/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/rfc-8288-link-headers/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T22:05:24Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/robots-txt/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-08-29T02:09:10Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/schema-org-markup/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-20T11:23:59Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-backlink-checker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:06:42Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-keyword-recherche/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T22:58:13Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-local-marketing/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T02:51:29Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-onpage-checker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-11T23:09:10Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-rank-tracker/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:16Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-ahrefs/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:18Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-bing-webmaster-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:16Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-google-search-console/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:21Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-mangools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-screaming-frog/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:16Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-semrush/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-seorch/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-sistrix/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-vs-ubersuggest/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:54Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-website-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T05:54:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-wettbewerbsanalyse/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T02:51:30Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/se-ranking-white-label-reporting/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-11T23:21:39Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/semantic-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-19T16:51:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/semrush-ai-visibility/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-agentur/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T20:27:39Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-13T09:59:57Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-beratung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:21:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-coaching/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-28T07:53:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-consulting/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-06-11T03:33:17Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-stammtisch-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-26T07:24:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-visibility-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seobility-vs-sistrix/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": null,
+    "coverageState": "URL ist Google nicht bekannt",
+    "crawledAs": null,
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seorch-ai-check/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/server-side-rendering/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:08Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/share-of-model/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/share-of-voice/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T03:49:52Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sichtbarkeit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T17:05:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sichtbarkeitsindex/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T18:09:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sichtbarkeitsmanagement/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-06-14T20:42:55Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sistrix-ai/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sitemap/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-05-25T07:56:51Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/snippet-optimierung/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-02T19:41:45Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/social-media-community-management/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-12T22:07:29Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/sovp-protocol/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-17T22:05:23Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/strukturierte-daten/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-13T09:53:56Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/suchvolumen/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-13T09:11:47Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/technisches-schema-markup/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T08:19:33Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/technisches-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-01T23:19:19Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/title-tag/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-07-18T20:22:16Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/topical-authority/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:56:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/traffic/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-21T19:01:27Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/trailing-slashes/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-19T10:37:45Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/trustworthiness-eeat/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T10:26:47Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/two-wave-indexing/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:06Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ueberstunde-berlin/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T23:52:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/universal-commerce-protocol-ucp/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-17T12:01:29Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/usability/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-04-19T10:37:39Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/web-application-firewall/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/web-bot-auth/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:59Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/webmcp/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:44Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/website-relaunch/",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-19T17:22:18Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/website-seo-audit/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T03:08:22Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/wordpress-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-21T16:06:36Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/x402-protocol/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:56:01Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/xml-sitemap/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-22T21:55:54Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/youtube-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-05T21:44:07Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/zero-click-content/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-01T11:24:12Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/zitierfaehiger-content/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-30T19:01:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/llms.txt",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-03-20T18:38:44Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/llms-full.txt",
+    "verdict": "NEUTRAL",
+    "lastCrawlTime": "2026-08-22T00:53:14Z",
+    "coverageState": "Gecrawlt – zurzeit nicht indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/seo-praxis/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-22T01:31:04Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/ai-seo/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T14:29:18Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/tech-seo-and-tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-07-27T14:29:18Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/blog/events-and-networking/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-20T06:53:49Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/seo-basics-onpage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-28T08:01:46Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/technisches-seo-ux/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-10T22:34:09Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/ai-seo-generative-search/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-27T14:42:16Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/glossar/e-e-a-t-offpage/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-12T08:18:34Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/tools/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T13:00:40Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/tools/groundingpage-generator/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-08-25T21:43:28Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
+  },
+  {
+    "url": "https://teleschmie.de/tools/seo-tool-kostenrechner/",
+    "verdict": "PASS",
+    "lastCrawlTime": "2026-09-07T17:27:54Z",
+    "coverageState": "Gesendet und indexiert",
+    "crawledAs": "MOBILE",
+    "indexingState": "INDEXING_ALLOWED",
+    "pageFetchState": "SUCCESSFUL",
+    "robotsTxtState": "ALLOWED"
   }
 ]

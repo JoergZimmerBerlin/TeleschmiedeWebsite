@@ -56,6 +56,7 @@
   },
   "verifiedTrustAnchors": {
     "googleKnowledgeGraph": "https://www.google.com/search?kgmid=/g/11w3v3xj2l",
+    "googleProfile": "https://profile.google.com/cp/Cg0vZy8xMXczdjN4ajJs",
     "googleBusinessCID": "https://www.google.com/maps?cid=7968593441639017414",
     "googlePlace": "https://www.google.com/maps/place/?q=place_id:ChIJAfPA9udVqEcR8kzD0DU_9n8",
     "crunchbase": "https://www.crunchbase.com/person/j%C3%B6rg-zimmer",

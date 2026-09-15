@@ -10,11 +10,13 @@
   Aktiv seit: 23.07.2001
   Leitmotiv: "Google denkt in Entitäten, nicht in Keywords."
   Gruß: "ALOHA! 🌻"
-  LinkedIn: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/
-  GitHub: https://github.com/JoergZimmerBerlin
+  Google Knowledge Graph: https://www.google.com/search?kgmid=/g/11w3v3xj2l
+  Google Profil: https://profile.google.com/cp/Cg0vZy8xMXczdjN4ajJs
+  Clutch: https://clutch.co/profile/j-rg-zimmer-seo-geo-ai-visibility-freelancer
   Crunchbase: https://www.crunchbase.com/person/j%C3%B6rg-zimmer
   Product Hunt: https://www.producthunt.com/@joerg_zimmer_berlin
-  Google Knowledge Graph: https://www.google.com/search?kgmid=/g/11w3v3xj2l
+  LinkedIn: https://www.linkedin.com/in/joerg-zimmer-seo-sea-freelancer-berlin-spandau/
+  GitHub: https://github.com/JoergZimmerBerlin
 
   Heimlicher SEO-Assistent: Katze im Hoodie 🐱
 

@@ -41,6 +41,8 @@ interface Props {
   item?: any;
   aboutEntity?: { name: string; sameAs: string };
   mentions?: { name: string; sameAs: string }[];
+  wordCount?: number;
+  readingTime?: number;
 }
 
 const { 
@@ -65,7 +67,9 @@ const {
   isTechArticle,
   item,
   aboutEntity,
-  mentions
+  mentions,
+  wordCount,
+  readingTime
 } = Astro.props;
 
 const siteUrl = 'https://teleschmie.de';
@@ -250,9 +254,15 @@ const personEntity: any = {
   "image": `${siteUrl}/images/profile/joerg-zimmer-portrait.jpg`,
   "url": `${siteUrl}/ueber-mich/`,
   "knowsLanguage": [
-    { "@type": "Language", "name": "German", "alternateName": "de" },
-    { "@type": "Language", "name": "English", "alternateName": "en" }
+    { "@type": "Language", "name": "German", "alternateName": "de", "sameAs": "https://www.wikidata.org/wiki/Q188" },
+    { "@type": "Language", "name": "English", "alternateName": "en", "sameAs": "https://www.wikidata.org/wiki/Q1860" }
   ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senior SEO, GEO & AI Search Consultant",
+    "occupationalCategory": "2431",
+    "skills": "Search Engine Optimization (SEO), Generative Engine Optimization (GEO), Technical SEO, Schema.org Entity Engineering, Performance Marketing, AI Search Visibility"
+  },
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "customer service",
@@ -325,9 +335,16 @@ const businessEntity: any = {
   "url": siteUrl,
   "knowsAbout": personEntity.knowsAbout,
   "knowsLanguage": [
-    { "@type": "Language", "name": "German", "alternateName": "de" },
-    { "@type": "Language", "name": "English", "alternateName": "en" }
+    { "@type": "Language", "name": "German", "alternateName": "de", "sameAs": "https://www.wikidata.org/wiki/Q188" },
+    { "@type": "Language", "name": "English", "alternateName": "en", "sameAs": "https://www.wikidata.org/wiki/Q1860" }
   ],
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Rechnung, Banküberweisung",
+  "slogan": "Ehrliche SEO, GEO & AI Search Beratung im Berliner Klartext",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": 1
+  },
   "areaServed": dachAreaServed,
   "contactPoint": {
     "@type": "ContactPoint",
@@ -482,6 +499,7 @@ const definedTermSetNode: any = {
   "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
   "description": "Experten-Glossar für Suchmaschinenoptimierung, Generative Engine Optimization und Performance Marketing",
   "url": `${siteUrl}/glossar/`,
+  "inLanguage": "de-DE",
   "author": { "@id": personId },
   "publisher": { "@id": businessId },
   "isPartOf": { "@id": websiteId }
@@ -494,6 +512,7 @@ const blogNode: any = {
   "name": "Jörg Zimmer SEO & AI Search Blog",
   "description": "Tiefgründige Case Studies, bewährte SEO-Strategien, technische Analysen und Insights aus 25 Jahren Performance Marketing",
   "url": `${siteUrl}/blog/`,
+  "inLanguage": "de-DE",
   "author": { "@id": personId },
   "publisher": { "@id": businessId },
   "isPartOf": { "@id": websiteId }
@@ -512,6 +531,7 @@ const webPageNode: any = {
   "url": url,
   "name": title,
   "description": description,
+  "inLanguage": "de-DE",
   "author": { "@id": personId },
   "reviewedBy": { "@id": personId },
   "publisher": { "@id": businessId },
@@ -524,7 +544,7 @@ const webPageNode: any = {
   "about": type === 'default' ? { "@id": businessId } : undefined,
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["h1", "main p:first-of-type"]
+    "cssSelector": ["h1", "main p:first-of-type", ".key-takeaways", "blockquote"]
   }
 };
 
@@ -550,6 +570,7 @@ const graph: any[] = [
     "url": siteUrl,
     "name": "Jörg Zimmer - SEO / GEO / AI Visibility Freelancer",
     "alternateName": "Teleschmiede",
+    "inLanguage": "de-DE",
     "publisher": { "@id": businessId },
     "author": { "@id": personId },
     "hasPart": [
@@ -641,6 +662,7 @@ if (type === 'article') {
     "@id": articleId,
     "headline": title,
     "description": description,
+    "inLanguage": "de-DE",
     "image": absoluteImageUrl ? {
       "@type": "ImageObject",
       "@id": imageId,
@@ -652,9 +674,13 @@ if (type === 'article') {
     "dateModified": dateModifiedISO,
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
+    "copyrightHolder": { "@id": businessId },
+    "copyrightYear": new Date(datePublishedISO || Date.now()).getFullYear(),
     "mainEntityOfPage": { "@id": url },
     "isPartOf": { "@id": blogId }
   };
+  if (wordCount) blogPostingNode.wordCount = wordCount;
+  if (readingTime) blogPostingNode.timeRequired = `PT${readingTime}M`;
   if (isTechnical) {
     blogPostingNode.proficiencyLevel = "Expert";
   }
@@ -705,16 +731,20 @@ if (type === 'article') {
   const glossaryArticleId = `${url}#article`;
 
   // The Article serves as the container for the knowledge, attributing it to the Person
-  graph.push({
+  const glossaryArticleNode: any = {
     "@type": ["Article", "TechArticle"],
     "@id": glossaryArticleId,
     "headline": title,
     "description": description,
+    "inLanguage": "de-DE",
     "author": { "@id": personId },
     "publisher": { "@id": businessId },
+    "copyrightHolder": { "@id": businessId },
+    "copyrightYear": new Date(datePublishedISO || Date.now()).getFullYear(),
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
+    "mainEntityOfPage": { "@id": url },
     "isPartOf": { "@id": termSetId },
     "image": absoluteImageUrl ? {
       "@type": "ImageObject",
@@ -724,7 +754,10 @@ if (type === 'article') {
       "height": 630
     } : undefined,
     "proficiencyLevel": "Expert"
-  });
+  };
+  if (wordCount) glossaryArticleNode.wordCount = wordCount;
+  if (readingTime) glossaryArticleNode.timeRequired = `PT${readingTime}M`;
+  graph.push(glossaryArticleNode);
 
   // The DefinedTerm is the core knowledge piece, nested in the TermSet
   graph.push({
@@ -732,6 +765,7 @@ if (type === 'article') {
     "@id": termId,
     "name": title,
     "description": description,
+    "inLanguage": "de-DE",
     "inDefinedTermSet": { "@id": termSetId },
     "url": url,
     "sameAs": sameAs || undefined,
@@ -747,7 +781,11 @@ if (type === 'article') {
     "name": title,
     "description": description,
     "applicationCategory": "DeveloperApplication",
+    "applicationSubCategory": "SEO & Entity Engineering Tool",
     "operatingSystem": "Any",
+    "browserRequirements": "JavaScript-fähiger Webbrowser (Chrome, Firefox, Safari, Edge)",
+    "softwareVersion": "2.0",
+    "inLanguage": "de-DE",
     "url": url,
     ...(mainEntity || {}),
     "offers": mainEntity?.offers || {

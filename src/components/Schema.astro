@@ -544,7 +544,7 @@ const webPageNode: any = {
   "about": type === 'default' ? { "@id": businessId } : undefined,
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["h1", "main p:first-of-type", ".key-takeaways", "blockquote"]
+    "cssSelector": ["h1", "main p:first-of-type"]
   }
 };
 
@@ -765,7 +765,6 @@ if (type === 'article') {
     "@id": termId,
     "name": title,
     "description": description,
-    "inLanguage": "de-DE",
     "inDefinedTermSet": { "@id": termSetId },
     "url": url,
     "sameAs": sameAs || undefined,

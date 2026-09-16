@@ -35,6 +35,20 @@ const collectionSchema = {
     },
     {
       "@type": "SoftwareApplication",
+      "name": "Schema-Graph-Visualizer",
+      "url": "https://teleschmie.de/tools/schema-graph-visualizer/",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "SEO & Entity Engineering Tool",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Visualisiere deinen gesamten Schema.org Knowledge Graph: Entlarve isolierte Dateninseln, prüfe den 3-Ebenen Entity Health Score und vergleiche Ist- mit Soll-Zustand."
+    },
+    {
+      "@type": "SoftwareApplication",
       "name": "Entitäten Graph Generator",
       "url": "https://teleschmie.de/tools/entitaeten-graph-generator/",
       "applicationCategory": "BusinessApplication",
@@ -288,7 +302,7 @@ const collectionSchema = {
             </p>
           </div>
           <span class="text-xs font-semibold text-gray-500 shrink-0">
-            2 interaktive Eigenentwicklungen
+            4 interaktive Eigenentwicklungen
           </span>
         </div>
 
@@ -519,7 +533,130 @@ const collectionSchema = {
           </div>
         </article>
 
-        <!-- TOOL 3: SEO-Tool Kostenrechner 2026 -->
+        <!-- TOOL 3: Schema-Graph-Visualizer -->
+        <article class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-md transition-all mb-10 relative overflow-hidden">
+          <div class="flex flex-col lg:flex-row gap-8 items-start justify-between">
+            <div class="lg:max-w-2xl">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="px-3 py-1 bg-lime-accent/20 text-dark text-xs font-bold rounded-full uppercase tracking-wider">
+                  Knowledge Graph &amp; Live-Audit
+                </span>
+                <span class="text-xs text-gray-muted font-medium">
+                  Interaktiver SVG-Graph &amp; Health-Score
+                </span>
+              </div>
+
+              <h3 class="text-2xl md:text-3xl font-bold text-dark mb-4 leading-snug">
+                Schema-Graph-Visualizer – Entdecke Dateninseln in deinem JSON-LD
+              </h3>
+
+              <p class="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
+                Klassische Rich-Result-Tester prüfen nur isolierte Syntaxfehler einzelner Snippets, übersehen aber das eigentliche Problem: Unverbundene Dateninseln ohne relationale <code class="text-lime-800 bg-lime-100 px-1.5 py-0.5 rounded font-mono text-sm">@id</code>-Verknüpfung. Der <strong>Schema-Graph-Visualizer</strong> scannt deine Domain live oder analysiert deinen Code, visualisiert deinen echten Wissensgraphen interaktiv als SVG-Netzwerk und berechnet deinen <strong>Entity Health Score (0–100)</strong> im Vergleich zum perfekten 2026 Master-Graphen.
+              </p>
+
+              <!-- Features Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">🌐</span>
+                    Live Domain-Crawl &amp; Archetypen
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Scannt automatisiert Startseite, Impressum und Sub-Seiten, aggregiert alle JSON-LD Skripte und erkennt deinen Archetyp (Local, E-Commerce, B2B, Publisher).
+                  </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">🏝️</span>
+                    Dateninseln-Radar
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Erkennt sofort isolierte Entitäten ohne Eltern-Knoten und deckt fehlende Brücken zwischen Person, Organization und Angeboten schonungslos auf.
+                  </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">✨</span>
+                    Ist vs. Soll 2026 Morphing
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Schalte per Knopfdruck um: Sieh live, wie dein aktueller Graph durch kanonische @id-Verknüpfung und Wikidata-Grounding zum fehlerfreien Wissensgraphen transformiert.
+                  </p>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                  <div class="flex items-center gap-2 font-bold text-dark text-sm mb-1">
+                    <span class="text-lime-600 font-extrabold text-base">🔗</span>
+                    Nahtloser Übergang zum Generator
+                  </div>
+                  <p class="text-xs text-gray-600 mb-0">
+                    Übergib deine Audit-Befunde mit einem Klick an den Entitäten Graph Generator, um deinen perfekten Master-@graph-Code direkt generieren zu lassen.
+                  </p>
+                </div>
+              </div>
+
+              <!-- CTA Action -->
+              <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                  <a href={`${baseUrl}/tools/schema-graph-visualizer/`} class="btn-primary !text-sm md:!text-base !py-3 !px-6 shadow-md hover:shadow-lg" title="Zum Schema-Graph-Visualizer (2026)">
+                    <span>Zum Schema-Graph-Visualizer</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <div class="flex items-center gap-2 text-xs font-semibold text-lime-900 bg-lime-100/70 border border-lime-300 px-3.5 py-1.5 rounded-full">
+                    <span>⚡ 100 % Gratis</span>
+                    <span class="text-lime-500">•</span>
+                    <span>Live-SVG-Graph</span>
+                    <span class="text-lime-500">•</span>
+                    <span>Ohne Login</span>
+                  </div>
+                </div>
+                <div class="text-xs text-gray-600 flex flex-wrap gap-2 items-center pt-1">
+                  <span class="font-semibold text-gray-700">Verwandte Tools &amp; Guides:</span>
+                  <a href={`${baseUrl}/tools/entitaeten-graph-generator/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Entitäten Graph Generator →</a>
+                  <a href={`${baseUrl}/glossar/technisches-schema-markup/`} class="px-2.5 py-1 bg-gray-100 hover:bg-lime-accent/30 text-dark rounded-md font-medium transition-colors">Technisches Schema Markup →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Visual Teaser Box -->
+            <div class="w-full lg:w-72 bg-gradient-to-br from-gray-900 to-black text-white p-6 rounded-2xl border border-gray-800 shadow-xl self-stretch flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between border-b border-gray-800 pb-3 mb-4">
+                  <span class="text-xs font-mono text-lime-accent uppercase">Graph-Visualizer</span>
+                  <span class="w-2.5 h-2.5 rounded-full bg-lime-accent animate-pulse"></span>
+                </div>
+                <p class="text-xs font-mono text-gray-400 mb-2"># Live Node-Graph:</p>
+                <div class="bg-black/60 p-3 rounded-lg text-xs font-mono text-gray-300 space-y-1.5 mb-4">
+                  <div class="flex items-center justify-between">
+                    <span class="text-lime-accent font-bold">Organization</span>
+                    <span class="text-[10px] bg-lime-900/60 text-lime-300 px-1.5 py-0.5 rounded">#org</span>
+                  </div>
+                  <div class="text-[11px] text-gray-400 pl-3 border-l border-lime-500/40">
+                    └── WebSite <span class="text-lime-400 font-sans">→</span> WebPage
+                  </div>
+                  <div class="text-[11px] text-gray-400 pl-6 border-l border-lime-500/40">
+                    └── OfferCatalog
+                  </div>
+                  <div class="flex items-center justify-between pt-1 border-t border-gray-800">
+                    <span class="text-amber-400">⚠️ Dateninseln:</span>
+                    <span class="text-amber-300 font-bold">0 isoliert</span>
+                  </div>
+                </div>
+                <div class="bg-white/5 p-2.5 rounded-lg text-xs flex justify-between items-center">
+                  <span class="text-gray-400 font-mono">Health Score:</span>
+                  <span class="text-lime-400 font-bold font-mono text-sm">94 / 100</span>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-gray-800 text-xs text-gray-400">
+                Interaktiver SVG-Inspektor mit Echtzeit-Simulation.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- TOOL 4: SEO-Tool Kostenrechner 2026 -->
         <article class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm hover:shadow-md transition-all mb-4 relative overflow-hidden">
           <div class="flex flex-col lg:flex-row gap-8 items-start justify-between">
             <div class="lg:max-w-2xl">

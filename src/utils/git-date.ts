@@ -14,16 +14,15 @@ export function getGitModDate(filePath: string): string {
         finalPath = absolutePath + '.mdx';
       } else {
         // console.log(`[git-date] File not found: ${absolutePath}`);
-        return new Date().toISOString().split('T')[0];
+        return new Date().toISOString();
       }
     }
 
-    // console.log(`[git-date] Getting date for: ${finalPath}`);
-    // %cs extracts the committer date in YYYY-MM-DD format
-    const dateStr = execSync(`git log -1 --format=%cs -- "${finalPath}"`, { encoding: 'utf8' }).trim();
-    return dateStr || new Date().toISOString().split('T')[0];
+    // %cI extracts committer date in strict ISO 8601 format with timezone offset
+    const dateStr = execSync(`git log -1 --format=%cI -- "${finalPath}"`, { encoding: 'utf8' }).trim();
+    return dateStr || new Date().toISOString();
   } catch (e) {
     console.error(`Error getting git mod date for ${filePath}:`, e);
-    return new Date().toISOString().split('T')[0];
+    return new Date().toISOString();
   }
 }

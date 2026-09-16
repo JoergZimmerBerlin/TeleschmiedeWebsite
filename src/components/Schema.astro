@@ -80,20 +80,71 @@ const imageId = image ? `${url}#primaryimage` : undefined;
 // Helper to strip HTML for clean JSON-LD strings
 const cleanText = (html: string) => html ? html.replace(/<[^>]*>?/gm, '').trim() : '';
 
-// Helper to ensure dates are in valid ISO 8601 format for Google/LLMs
-const formatISO = (dateStr?: string) => {
+// Helper to ensure dates are in valid ISO 8601 format with timezone for Google/LLMs
+const formatISO = (dateStr?: string, defaultHour: number = 9): string | undefined => {
   if (!dateStr) return undefined;
+  const str = String(dateStr).trim();
+
+  // 1. If already strict ISO 8601 with timezone (e.g. 2026-08-10T09:00:00+02:00 or 2026-08-10T07:00:00Z)
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(str)) {
+    return str;
+  }
+
+  // 2. If date string starts with YYYY-MM-DD
+  const dateMatch = str.match(/^(\d{4}-\d{2}-\d{2})(?:[T\s](\d{2}):(\d{2}):?(\d{2})?)?/);
+  if (dateMatch) {
+    const [, ymd, h, m, s] = dateMatch;
+    const hour = h ? h.padStart(2, "0") : String(defaultHour).padStart(2, "0");
+    const minute = m ? m.padStart(2, "0") : "00";
+    const second = s ? s.padStart(2, "0") : "00";
+
+    // Determine Europe/Berlin timezone offset (+01:00 winter / +02:00 summer)
+    try {
+      const testDate = new Date(`${ymd}T12:00:00Z`);
+      const formatter = new Intl.DateTimeFormat("en-US", {
+        timeZone: "Europe/Berlin",
+        timeZoneName: "longOffset"
+      });
+      const parts = formatter.formatToParts(testDate);
+      const tzPart = parts.find(p => p.type === "timeZoneName")?.value;
+      let offset = "+02:00";
+      if (tzPart) {
+        const match = tzPart.match(/GMT([+-]\d{1,2})(?::(\d{2}))?/);
+        if (match) {
+          const sign = match[1][0];
+          const hrs = Math.abs(parseInt(match[1], 10)).toString().padStart(2, "0");
+          const mins = match[2] || "00";
+          offset = `${sign}${hrs}:${mins}`;
+        }
+      }
+      return `${ymd}T${hour}:${minute}:${second}${offset}`;
+    } catch {
+      return `${ymd}T${hour}:${minute}:${second}+02:00`;
+    }
+  }
+
   try {
-    const d = new Date(dateStr);
-    return isNaN(d.getTime()) ? dateStr : d.toISOString().split('T')[0];
-  } catch (e) {
-    return dateStr;
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? undefined : d.toISOString();
+  } catch {
+    return undefined;
   }
 };
 
-const datePublishedISO = formatISO(datePublished);
-const dateModifiedISO = formatISO(dateModified || lastReviewed || datePublished);
-const lastReviewedISO = formatISO(lastReviewed);
+const datePublishedISO = formatISO(datePublished, 9);
+let dateModifiedISO = formatISO(dateModified || lastReviewed || datePublished, 10);
+
+// Google Best Practice: dateModified should never be earlier than datePublished
+if (datePublishedISO && dateModifiedISO) {
+  const pubTime = new Date(datePublishedISO).getTime();
+  const modTime = new Date(dateModifiedISO).getTime();
+  if (modTime < pubTime) {
+    dateModifiedISO = datePublishedISO;
+  }
+}
+
+const lastReviewedISO = formatISO(lastReviewed, 10);
+const lastReviewedDateOnly = lastReviewedISO ? lastReviewedISO.split('T')[0] : undefined;
 
 // --- Breadcrumb Logic ---
 const pathSegments = new URL(url).pathname.split('/').filter(Boolean);
@@ -469,7 +520,7 @@ const webPageNode: any = {
   "breadcrumb": { "@id": breadcrumbId },
   "datePublished": datePublishedISO,
   "dateModified": dateModifiedISO,
-  "lastReviewed": lastReviewedISO,
+  "lastReviewed": lastReviewedDateOnly,
   "isPartOf": { "@id": websiteId },
   "primaryImageOfPage": imageId ? { "@id": imageId } : undefined,
   "about": type === 'default' ? { "@id": businessId } : undefined,

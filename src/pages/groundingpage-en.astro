@@ -188,7 +188,7 @@ const lastReviewed = getGitModDate('src/pages/groundingpage-en.astro');
       </dd>
 
       <dt>Verified Date</dt>
-      <dd>{lastReviewed}</dd>
+      <dd>{lastReviewed ? lastReviewed.split('T')[0] : ''}</dd>
 
     </dl>
 

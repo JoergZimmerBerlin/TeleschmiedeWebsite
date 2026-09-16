@@ -240,7 +240,7 @@ const faqs = [
       </dd>
 
       <dt>Verified Date</dt>
-      <dd>{lastReviewed}</dd>
+      <dd>{lastReviewed ? lastReviewed.split('T')[0] : ''}</dd>
 
     </dl>
 

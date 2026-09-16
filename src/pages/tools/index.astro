@@ -227,8 +227,7 @@ const collectionSchema = {
   ogImage={optimizedOgImage.src}
   maxTitleLength={70}
 >
-  <Schema title={pageTitle} description={pageDescription} lastReviewed={lastReviewed} />
-  <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+  <Schema title={pageTitle} description={pageDescription} lastReviewed={lastReviewed} item={collectionSchema} />
 
   <!-- Breadcrumb Navigation -->
   <nav class="bg-gray-100 py-3 border-b border-gray-200 text-sm" aria-label="Breadcrumb">

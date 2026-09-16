@@ -320,7 +320,6 @@ if (!isContentArticle) {
 const businessEntity: any = {
   "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
   "@id": businessId,
-  "additionalType": "https://www.wikidata.org/wiki/Q180711",
   "name": "Jörg Zimmer - SEO, GEO, AI Visibility Freelancer",
   "description": description || "Individuelle SEO, GEO, AI Visibility Beratung mit über 25 Jahren Erfahrung für den gesamten DACH-Raum per Remote-Videocall.",
   "url": siteUrl,
@@ -484,9 +483,8 @@ const definedTermSetNode: any = {
   "description": "Experten-Glossar für Suchmaschinenoptimierung, Generative Engine Optimization und Performance Marketing",
   "url": `${siteUrl}/glossar/`,
   "author": { "@id": personId },
-  "publisher": { "@id": personId },
-  "isPartOf": { "@id": websiteId },
-  "hasDefinedTerm": personEntity.knowsAbout
+  "publisher": { "@id": businessId },
+  "isPartOf": { "@id": websiteId }
 };
 
 // Central Blog Node (Domain-wide Publication Container)
@@ -497,7 +495,7 @@ const blogNode: any = {
   "description": "Tiefgründige Case Studies, bewährte SEO-Strategien, technische Analysen und Insights aus 25 Jahren Performance Marketing",
   "url": `${siteUrl}/blog/`,
   "author": { "@id": personId },
-  "publisher": { "@id": personId },
+  "publisher": { "@id": businessId },
   "isPartOf": { "@id": websiteId }
 };
 
@@ -516,7 +514,7 @@ const webPageNode: any = {
   "description": description,
   "author": { "@id": personId },
   "reviewedBy": { "@id": personId },
-  "publisher": { "@id": personId },
+  "publisher": { "@id": businessId },
   "breadcrumb": { "@id": breadcrumbId },
   "datePublished": datePublishedISO,
   "dateModified": dateModifiedISO,
@@ -527,8 +525,7 @@ const webPageNode: any = {
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": ["h1", "main p:first-of-type"]
-  },
-  "isAccessibleForFree": true
+  }
 };
 
 if (type === 'profile') {
@@ -553,21 +550,11 @@ const graph: any[] = [
     "url": siteUrl,
     "name": "Jörg Zimmer - SEO / GEO / AI Visibility Freelancer",
     "alternateName": "Teleschmiede",
-    "publisher": { "@id": personId },
+    "publisher": { "@id": businessId },
     "author": { "@id": personId },
     "hasPart": [
-      {
-        "@type": "DefinedTermSet",
-        "@id": termSetId,
-        "name": "Jörg Zimmer SEO / GEO / AI Visibility Glossar",
-        "url": `${siteUrl}/glossar/`
-      },
-      {
-        "@type": "Blog",
-        "@id": blogId,
-        "name": "Jörg Zimmer SEO & AI Search Blog",
-        "url": `${siteUrl}/blog/`
-      }
+      { "@id": termSetId },
+      { "@id": blogId }
     ]
   },
   webPageNode,
@@ -664,10 +651,9 @@ if (type === 'article') {
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "author": { "@id": personId },
-    "publisher": { "@id": personId },
+    "publisher": { "@id": businessId },
     "mainEntityOfPage": { "@id": url },
-    "isPartOf": { "@id": blogId },
-    "isAccessibleForFree": true
+    "isPartOf": { "@id": blogId }
   };
   if (isTechnical) {
     blogPostingNode.proficiencyLevel = "Expert";
@@ -725,7 +711,7 @@ if (type === 'article') {
     "headline": title,
     "description": description,
     "author": { "@id": personId },
-    "publisher": { "@id": personId },
+    "publisher": { "@id": businessId },
     "datePublished": datePublishedISO,
     "dateModified": dateModifiedISO,
     "mainEntity": { "@id": termId },
@@ -737,7 +723,6 @@ if (type === 'article') {
       "width": 1200,
       "height": 630
     } : undefined,
-    "isAccessibleForFree": true,
     "proficiencyLevel": "Expert"
   });
 
@@ -813,8 +798,13 @@ if (quote) {
     "isPartOf": { "@id": url }
   } as any);
 
-  // Link to Article or BlogPosting if present
-  const contentNode = graph.find(e => e["@type"] === "Article" || e["@type"] === "BlogPosting");
+  // Link to Article or BlogPosting if present (supports string or array @type)
+  const contentNode = graph.find(e => {
+    const t = e["@type"];
+    return Array.isArray(t)
+      ? (t.includes("Article") || t.includes("BlogPosting") || t.includes("TechArticle"))
+      : (t === "Article" || t === "BlogPosting" || t === "TechArticle");
+  });
   if (contentNode) {
     if (!contentNode.hasPart) contentNode.hasPart = [];
     contentNode.hasPart.push({ "@id": quotationId });

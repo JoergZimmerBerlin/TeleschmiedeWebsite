@@ -466,12 +466,122 @@ if (str_contains($typesString, 'SpeakableSpecification') || str_contains($typesS
 
 $totalScore = $foundationScore + $archetypeScore + $groundingScore;
 
+// 11. GRAPH AST & SVG KNOTEN/KANTEN GENERIEREN
+$nodes = [];
+$edges = [];
+$nodeIdMap = [];
+
+$typeColors = [
+    'Person' => '#3b82f6',
+    'Organization' => '#a855f7',
+    'LocalBusiness' => '#a855f7',
+    'ProfessionalService' => '#a855f7',
+    'Corporation' => '#a855f7',
+    'WebSite' => '#f59e0b',
+    'WebPage' => '#f59e0b',
+    'ItemPage' => '#f59e0b',
+    'AboutPage' => '#f59e0b',
+    'ContactPage' => '#f59e0b',
+    'Product' => '#10b981',
+    'Service' => '#10b981',
+    'Offer' => '#10b981',
+    'OfferCatalog' => '#10b981',
+    'Article' => '#10b981',
+    'NewsArticle' => '#10b981',
+    'BlogPosting' => '#10b981',
+    'Blog' => '#f59e0b',
+    'DefinedTermSet' => '#84cc16',
+    'DefinedTerm' => '#84cc16',
+    'Quotation' => '#84cc16',
+    'SpeakableSpecification' => '#06b6d4'
+];
+
+// Sammle Entitäten
+$rawEntities = [];
+foreach ($allExtractedBlocks as $pageKey => $blocks) {
+    foreach ($blocks as $block) {
+        if (isset($block['_syntaxError'])) continue;
+        $items = isset($block['@graph']) && is_array($block['@graph']) ? $block['@graph'] : [$block];
+        foreach ($items as $item) {
+            if (!is_array($item)) continue;
+            $rawEntities[] = $item;
+        }
+    }
+}
+
+if (!empty($rawEntities)) {
+    // Max 6 repräsentative Entitäten für sauberes Layout
+    $sampledEntities = array_slice($rawEntities, 0, 6);
+    $totalCount = count($sampledEntities);
+
+    foreach ($sampledEntities as $idx => $ent) {
+        $type = $ent['@type'] ?? 'Thing';
+        if (is_array($type)) $type = reset($type);
+        $name = $ent['name'] ?? ($ent['headline'] ?? $type);
+        $id = $ent['@id'] ?? ("_node_" . $idx);
+        $color = $typeColors[$type] ?? '#3b82f6';
+
+        // Anordnung im Raster
+        $col = $idx % 3;
+        $row = (int)($idx / 3);
+        $x = 120 + ($col * 240);
+        $y = 110 + ($row * 140);
+
+        $nodeObj = [
+            'id' => $id,
+            'label' => mb_substr((string)$name, 0, 20),
+            'type' => (string)$type,
+            'color' => $color,
+            'x' => $x,
+            'y' => $y,
+            'isConnected' => $hasGraphContainer,
+            'props' => array_intersect_key($ent, array_flip([
+                '@type', '@id', 'name', 'headline', 'url', 'inLanguage', 'sameAs',
+                'author', 'publisher', 'founder', 'provider', 'price', 'priceCurrency', 'address'
+            ]))
+        ];
+
+        $nodes[] = $nodeObj;
+        $nodeIdMap[$id] = $idx;
+    }
+
+    // Kanten suchen
+    foreach ($sampledEntities as $idx => $ent) {
+        foreach (['publisher', 'author', 'founder', 'provider', 'isPartOf', 'hasPart', 'parentOrganization', 'memberOf'] as $relProp) {
+            if (!empty($ent[$relProp])) {
+                $targetId = is_array($ent[$relProp]) ? ($ent[$relProp]['@id'] ?? null) : $ent[$relProp];
+                if ($targetId && isset($nodeIdMap[$targetId]) && $nodeIdMap[$targetId] !== $idx) {
+                    $edges[] = [
+                        'from' => $idx,
+                        'to' => $nodeIdMap[$targetId],
+                        'label' => $relProp,
+                        'solid' => true
+                    ];
+                }
+            }
+        }
+    }
+
+    // Falls keine Kanten und mehrere Entitäten vorhanden sind -> unverbundene Dateninseln
+    if (empty($edges) && count($nodes) > 1) {
+        for ($i = 0; $i < count($nodes) - 1; $i++) {
+            $edges[] = [
+                'from' => $i,
+                'to' => $i + 1,
+                'label' => 'isoliert',
+                'solid' => false
+            ];
+        }
+    }
+}
+
 // Ausgabe
 echo json_encode([
     "success" => true,
     "targetDomain" => $parsedUrl['host'],
-    "scannedUrls" => $scannedUrls,
+    "businessArchetype" => $detectedBusiness,
     "detectedBusiness" => $detectedBusiness,
+    "scannedUrls" => $scannedUrls,
     "stats" => [
         "totalScriptTags" => $totalScriptTags,
         "uniqueEntityTypes" => count($detectedTypes),
@@ -486,6 +596,8 @@ echo json_encode([
         ]
     ],
     "issues" => $issues,
+    "nodes" => $nodes,
+    "edges" => $edges,
     "discoveredEntities" => $discoveredEntities,
     "allBlocks" => $allExtractedBlocks
 ], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);

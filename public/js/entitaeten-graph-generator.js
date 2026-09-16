@@ -254,6 +254,14 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
       }
     });
 
+    // Check URL parameters (e.g. from Schema-Graph-Visualizer)
+    const urlParams = new URLSearchParams(window.location.search);
+    const domainParam = urlParams.get('domain');
+    if (domainParam) {
+      inputUrl.value = domainParam.startsWith('http') ? domainParam : `https://${domainParam}/`;
+      handleGenerate();
+    }
+
     btnCopy.addEventListener('click', async () => {
       if (!textarea.value) return;
       const originalHtml = btnCopy.innerHTML;

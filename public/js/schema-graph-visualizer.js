@@ -410,7 +410,12 @@ document.addEventListener('DOMContentLoaded', () => {
       'B2B_SERVICE': 'B2B Dienstleister / Beratung',
       'PUBLISHER': 'Publisher / Magazin'
     };
-    document.getElementById('detected-archetype').textContent = archMap[data.businessArchetype] || data.businessArchetype;
+    const currentArch = data.businessArchetype || data.detectedBusiness || 'B2B_SERVICE';
+    const archLabel = archMap[currentArch] || currentArch;
+    const archElem = document.getElementById('detected-archetype');
+    if (archElem) {
+      archElem.textContent = archLabel;
+    }
 
     // 4. Issues Radar
     const issuesContainer = document.getElementById('issues-radar-list');
@@ -448,7 +453,48 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnFixAi = document.getElementById('btn-fix-with-ai');
     if (btnFixAi) {
       const dom = data.targetDomain || data.domain || '';
-      btnFixAi.href = `/tools/entitaeten-graph-generator/?domain=${encodeURIComponent(dom)}&archetype=${encodeURIComponent(data.businessArchetype)}`;
+      btnFixAi.href = `/tools/entitaeten-graph-generator/?domain=${encodeURIComponent(dom)}&archetype=${encodeURIComponent(currentArch)}`;
+    }
+
+    // Client-seitige Fallback-Synthese für Nodes & Edges, falls das Backend nur Rohentitäten liefert
+    if ((!data.nodes || data.nodes.length === 0) && data.discoveredEntities && data.discoveredEntities.length > 0) {
+      const typeColors = {
+        'Person': '#3b82f6',
+        'Organization': '#a855f7',
+        'LocalBusiness': '#a855f7',
+        'WebSite': '#f59e0b',
+        'WebPage': '#f59e0b',
+        'Product': '#10b981',
+        'Service': '#10b981',
+        'Article': '#10b981',
+        'BlogPosting': '#10b981'
+      };
+      data.nodes = data.discoveredEntities.slice(0, 6).map((ent, idx) => {
+        const col = idx % 3;
+        const row = Math.floor(idx / 3);
+        const t = ent.type || 'Thing';
+        return {
+          id: ent.id || `_node_${idx}`,
+          label: (ent.name || t).substring(0, 20),
+          type: t,
+          color: typeColors[t] || '#3b82f6',
+          x: 120 + (col * 240),
+          y: 110 + (row * 140),
+          isConnected: !!data.stats?.hasGraphContainer,
+          props: ent.properties ? Object.fromEntries(ent.properties.map(p => [p, '✓ Vorhanden'])) : {}
+        };
+      });
+      data.edges = [];
+      if (data.nodes.length > 1) {
+        for (let i = 0; i < data.nodes.length - 1; i++) {
+          data.edges.push({
+            from: i,
+            to: i + 1,
+            label: data.stats?.hasGraphContainer ? 'verknüpft' : 'isoliert',
+            solid: !!data.stats?.hasGraphContainer
+          });
+        }
+      }
     }
 
     // 6. Render SVG Graph
@@ -503,6 +549,50 @@ document.addEventListener('DOMContentLoaded', () => {
       ];
     }
 
+    // Leerer Graph: Keine Entitäten gefunden
+    if (displayNodes.length === 0) {
+      const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      
+      const icon = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      icon.setAttribute("x", "360");
+      icon.setAttribute("y", "160");
+      icon.setAttribute("text-anchor", "middle");
+      icon.setAttribute("font-size", "36");
+      icon.textContent = "🔍";
+      
+      const title = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      title.setAttribute("x", "360");
+      title.setAttribute("y", "205");
+      title.setAttribute("text-anchor", "middle");
+      title.setAttribute("fill", "#f3f4f6");
+      title.setAttribute("font-size", "15");
+      title.setAttribute("font-weight", "bold");
+      title.textContent = "Kein Schema.org JSON-LD Markup auf den gescannten Seiten gefunden";
+
+      const sub = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      sub.setAttribute("x", "360");
+      sub.setAttribute("y", "235");
+      sub.setAttribute("text-anchor", "middle");
+      sub.setAttribute("fill", "#94a3b8");
+      sub.setAttribute("font-size", "12");
+      sub.textContent = "Google & KI-Suchmaschinen können deine Entitäten nicht maschinenlesbar verknüpfen.";
+
+      g.appendChild(icon);
+      g.appendChild(title);
+      g.appendChild(sub);
+      svgNodes.appendChild(g);
+
+      document.getElementById('inspector-node-name').textContent = "Keine Entitäten vorhanden";
+      document.getElementById('inspector-node-type').textContent = "0 Entitäten";
+      document.getElementById('inspector-node-id').textContent = "Kein Schema.org Markup erkannt";
+      document.getElementById('inspector-props-list').innerHTML = `
+        <div class="p-3 text-xs text-amber-600 dark:text-amber-400 bg-amber-500/10 rounded-xl border border-amber-500/20">
+          ⚠️ Auf dieser Domain wurden keine strukturierten Daten gefunden. Nutze unten den <strong>Entitäten Graph Generator</strong>, um einen vollständigen Wissensgraphen für dein CMS zu erzeugen.
+        </div>
+      `;
+      return;
+    }
+
     // Draw Edges
     displayEdges.forEach(edge => {
       const fromNode = displayNodes[edge.from];
@@ -548,7 +638,7 @@ document.addEventListener('DOMContentLoaded', () => {
       circle.setAttribute("cy", node.y);
       circle.setAttribute("r", "20");
       circle.setAttribute("fill", node.color || "#3b82f6");
-      circle.setAttribute("stroke", idx === selectedNodeIndex ? "#d9ff00" : "rgba(255,255,255,0.3)");
+      circle.setAttribute("stroke", idx === selectedNodeIndex ? "#d9ff00" : "rgba(255,255,255,0.4)");
       circle.setAttribute("stroke-width", idx === selectedNodeIndex ? "3" : "1.5");
 
       const initials = document.createElementNS("http://www.w3.org/2000/svg", "text");
@@ -564,7 +654,7 @@ document.addEventListener('DOMContentLoaded', () => {
       label.setAttribute("x", node.x);
       label.setAttribute("y", node.y + 34);
       label.setAttribute("text-anchor", "middle");
-      label.setAttribute("fill", "currentColor");
+      label.setAttribute("fill", "#f3f4f6");
       label.setAttribute("font-size", "11");
       label.setAttribute("font-weight", "600");
       label.textContent = node.label.length > 18 ? node.label.substring(0, 16) + '…' : node.label;

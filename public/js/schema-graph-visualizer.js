@@ -422,16 +422,22 @@ function initVisualizer() {
 
   // Render Full Results
   function renderAnalysisResults(data) {
+    currentAnalysisData = data;
+    if (resultsContainer) {
+      resultsContainer.classList.remove('hidden');
+    }
+
     // 0. Update Domain Label & Share Link
     const shareDomainLabel = document.getElementById('analyzed-domain-label');
     const shareBtn = document.getElementById('btn-share-scan');
     const shareText = document.getElementById('share-scan-text');
+    const detectedDomain = data.targetDomain || data.domain || (targetUrlInput ? targetUrlInput.value : '');
     if (shareDomainLabel) {
-      shareDomainLabel.textContent = data.domain || (targetUrlInput ? targetUrlInput.value : '');
+      shareDomainLabel.textContent = detectedDomain;
     }
     if (shareBtn) {
       shareBtn.onclick = () => {
-        const domainToShare = data.domain && !data.domain.startsWith('http') ? 'https://' + data.domain : (targetUrlInput ? targetUrlInput.value : data.domain);
+        const domainToShare = detectedDomain && !detectedDomain.startsWith('http') ? 'https://' + detectedDomain : detectedDomain;
         const fullShareUrl = window.location.origin + window.location.pathname + '?url=' + encodeURIComponent(domainToShare);
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(fullShareUrl).then(() => {

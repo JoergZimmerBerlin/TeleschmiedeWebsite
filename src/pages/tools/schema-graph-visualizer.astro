@@ -256,25 +256,33 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
           </div>
 
           <!-- SVG Canvas Container -->
-          <div class="relative w-full rounded-2xl bg-gray-900 border border-gray-800 overflow-hidden shadow-inner">
+          <div class="relative w-full rounded-2xl bg-slate-950 border border-slate-800 overflow-hidden shadow-2xl text-white">
             <!-- Legende -->
-            <div class="absolute top-3 left-3 z-10 flex flex-wrap gap-2 text-[10px] bg-black/60 backdrop-blur-md px-2.5 py-1.5 rounded-lg border border-white/10 pointer-events-none text-white">
-              <span class="flex items-center gap-1 font-medium"><span class="w-2 h-2 rounded-full bg-blue-500"></span> Person</span>
-              <span class="flex items-center gap-1 font-medium"><span class="w-2 h-2 rounded-full bg-purple-500"></span> Organization</span>
-              <span class="flex items-center gap-1 font-medium"><span class="w-2 h-2 rounded-full bg-amber-500"></span> WebSite</span>
-              <span class="flex items-center gap-1 font-medium"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Service / Product</span>
-              <span class="flex items-center gap-1 font-medium"><span class="w-2 h-2 rounded-full bg-lime-400"></span> Zitat / Term</span>
+            <div class="absolute top-3 left-3 z-10 flex flex-wrap items-center gap-2.5 text-[11px] bg-slate-900/90 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 pointer-events-none text-white shadow-md">
+              <span class="flex items-center gap-1 font-semibold text-blue-400"><span class="text-xs">👤</span> Person</span>
+              <span class="flex items-center gap-1 font-semibold text-purple-400"><span class="text-xs">🏢</span> Organisation</span>
+              <span class="flex items-center gap-1 font-semibold text-amber-400"><span class="text-xs">🌐</span> WebSite</span>
+              <span class="flex items-center gap-1 font-semibold text-indigo-400"><span class="text-xs">🧭</span> Breadcrumbs</span>
+              <span class="flex items-center gap-1 font-semibold text-pink-400"><span class="text-xs">📅</span> Event</span>
+              <span class="flex items-center gap-1 font-semibold text-emerald-400"><span class="text-xs">⚙️</span> Service/Produkt</span>
+              <span class="flex items-center gap-1 font-bold text-red-400 border-l border-white/20 pl-2"><span class="w-2 h-2 rounded-full bg-red-500 animate-pulse inline-block"></span> Isolierte Insel</span>
             </div>
 
-            <svg id="visual-svg" viewBox="0 0 720 360" class="w-full h-auto select-none">
+            <svg id="visual-svg" viewBox="0 0 740 400" class="w-full h-auto select-none font-sans">
               <defs>
-                <marker id="arrow-green" viewBox="0 0 10 10" refX="22" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <!-- Blueprint Dot Grid -->
+                <pattern id="canvas-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.35" />
+                </pattern>
+                <marker id="arrow-green" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                   <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
                 </marker>
-                <marker id="arrow-red" viewBox="0 0 10 10" refX="22" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <marker id="arrow-red" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                   <path d="M 0 1 L 10 5 L 0 9 z" fill="#ef4444" />
                 </marker>
               </defs>
+              <rect width="100%" height="100%" fill="url(#canvas-grid)" />
+              <g id="visual-svg-zones"></g>
               <g id="visual-svg-edges"></g>
               <g id="visual-svg-nodes"></g>
             </svg>

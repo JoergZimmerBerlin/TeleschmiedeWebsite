@@ -7,7 +7,8 @@ meta_description: "Entity SEO im Detail: Wie Sie Entitäten und Wissensgraphen f
 sameAs: "https://www.wikidata.org/wiki/Q35120"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
-related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page"]
+related_terms: ["entitaet", "knowledge-graph", "geo", "grounding-page", "confidence-score"]
+synonyms: ["Entitäten SEO", "Entitäten Optimierung", "Entity Optimierung", "Semantische Entitäten-Optimierung"]
 key_takeaways:
   - "Entity SEO optimiert nicht mehr isolierte Zeichenketten (Strings), sondern eindeutig identifizierbare Wissensknoten (Things) im Knowledge Graph."
   - "Moderne LLMs und GraphRAG-Pipelines berechnen semantische Distanzen in hochdimensionalen Vektorräumen, um Zitationsquellen auszuwählen."
@@ -26,7 +27,7 @@ faqs:
 
 Lass uns direkt zur Sache kommen: **Entity SEO** markiert den definitiven Paradigmenwechsel in der Suchmaschinentechnologie. Wer im Jahr 2026 noch versucht, moderne Suchmaschinen und KI-Agenten mit keyword-gespickten 1.000-Wort-Aufsätzen zu manipulieren, ignoriert die fundamentale Architektur künstlicher Intelligenz. Die bloße Jagd nach Zeichenketten (*Strings*) ist Vergangenheit. Wir befinden uns in der Ära vernetzter Wissensgraphen (*Things*), hochdimensionaler Vektorräume und [GraphRAG](/glossar/rag/)-Pipelines.
 
-In der modernen Praxis des Entity SEO geht es primär um eine zentrale Fragestellung: Wie präzise, widerspruchsfrei und autoritär können Sie Ihre Marke, Ihre Produkte und Ihre Experten als eindeutige [Entitäten](/glossar/entitaet/) im globalen [Knowledge Graph](/glossar/knowledge-graph/) verankern, und wie hoch fällt der mathematische Vertrauens-Score aus, den KI-Algorithmen Ihren Daten zuweisen?
+In der modernen Praxis des Entity SEO geht es primär um eine zentrale Fragestellung: Wie präzise, widerspruchsfrei und autoritär können Sie Ihre Marke, Ihre Produkte und Ihre Experten als eindeutige [Entitäten](/glossar/entitaet/) im globalen [Knowledge Graph](/glossar/knowledge-graph/) verankern, und wie hoch fällt der mathematische [Confidence Score](/glossar/confidence-score/) aus, den KI-Algorithmen Ihren Daten zuweisen?
 
 <figure class="my-8 bg-neutral-50 border border-neutral-200 p-6 md:p-8 rounded-2xl shadow-sm">
   <div class="flex items-center gap-4 mb-4">

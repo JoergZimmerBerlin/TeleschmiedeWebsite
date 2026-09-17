@@ -783,7 +783,11 @@ $typeColors = [
     'NewsArticle' => '#10b981',
     'BlogPosting' => '#10b981',
     'Blog' => '#f59e0b',
-    'SoftwareApplication' => '#06b6d4',
+    'Event' => '#ec4899',
+    'BreadcrumbList' => '#6366f1',
+    'FAQPage' => '#06b6d4',
+    'Question' => '#06b6d4',
+    'Answer' => '#06b6d4',
     'DefinedTermSet' => '#84cc16',
     'DefinedTerm' => '#84cc16',
     'Quotation' => '#84cc16',
@@ -862,12 +866,28 @@ if (!empty($rawEntities)) {
     // Architektonische Koordinaten für bis zu 6 Entitäten (analog zum Master-Graph):
     // Links: Person & Organization | Mitte: WebSite | Rechts: Services, Content, Zitate
     $layoutCoords = [
-        0 => ['x' => 90,  'y' => 90],   // Node 0: Person / Autor
-        1 => ['x' => 90,  'y' => 260],  // Node 1: Organization / Brand
-        2 => ['x' => 280, 'y' => 175],  // Node 2: WebSite
-        3 => ['x' => 470, 'y' => 90],   // Node 3: Service / Product
-        4 => ['x' => 470, 'y' => 260],  // Node 4: Content / Blog
-        5 => ['x' => 640, 'y' => 175]   // Node 5: Term / Quotation / Detail
+        0 => ['x' => 100, 'y' => 125],  // Node 0: Person / Autor
+        1 => ['x' => 100, 'y' => 285],  // Node 1: Organization / Brand
+        2 => ['x' => 290, 'y' => 205],  // Node 2: WebSite
+        3 => ['x' => 490, 'y' => 125],  // Node 3: Service / Product / Event
+        4 => ['x' => 490, 'y' => 285],  // Node 4: Content / Breadcrumb
+        5 => ['x' => 645, 'y' => 205]   // Node 5: Term / Quotation / Breadcrumb
+    ];
+
+    $typeIcons = [
+        'Person' => '👤', 'Physician' => '🩺', 'Dentist' => '🦷',
+        'Organization' => '🏢', 'LocalBusiness' => '🏢', 'ProfessionalService' => '💼',
+        'Corporation' => '🏢', 'MedicalBusiness' => '🏥', 'FoodEstablishment' => '🍽️',
+        'Restaurant' => '🍽️', 'LodgingBusiness' => '🏨', 'EducationalOrganization' => '🎓',
+        'Course' => '📚', 'NGO' => '🤝', 'Nonprofit501cOrganization' => '🤝',
+        'GovernmentOrganization' => '🏛️', 'WebSite' => '🌐', 'WebPage' => '📄',
+        'ItemPage' => '📄', 'AboutPage' => 'ℹ️', 'ContactPage' => '📞',
+        'Product' => '📦', 'OnlineStore' => '🛒', 'Service' => '⚙️',
+        'Offer' => '🏷️', 'OfferCatalog' => '📋', 'Article' => '📝',
+        'NewsArticle' => '📰', 'BlogPosting' => '✍️', 'Blog' => '✍️',
+        'SoftwareApplication' => '💻', 'DefinedTermSet' => '📖', 'DefinedTerm' => '🏷️',
+        'Quotation' => '💬', 'SpeakableSpecification' => '🔊', 'Event' => '📅',
+        'BreadcrumbList' => '🧭', 'FAQPage' => '❓', 'Question' => '❓', 'Answer' => '💡'
     ];
 
     foreach ($sampledEntities as $idx => $ent) {
@@ -876,14 +896,16 @@ if (!empty($rawEntities)) {
         $name = $ent['name'] ?? ($ent['headline'] ?? $type);
         $id = $ent['@id'] ?? ("_node_" . $idx);
         $color = $typeColors[$type] ?? '#3b82f6';
+        $icon = $typeIcons[$type] ?? '🏷️';
 
         $x = $layoutCoords[$idx]['x'] ?? (120 + (($idx % 3) * 240));
-        $y = $layoutCoords[$idx]['y'] ?? (110 + (((int)($idx / 3)) * 140));
+        $y = $layoutCoords[$idx]['y'] ?? (125 + (((int)($idx / 3)) * 150));
 
         $nodeObj = [
             'id' => $id,
             'label' => mb_substr((string)$name, 0, 20),
             'type' => (string)$type,
+            'icon' => $icon,
             'color' => $color,
             'x' => $x,
             'y' => $y,

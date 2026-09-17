@@ -8,6 +8,7 @@ sameAs: "https://www.wikidata.org/wiki/Q26813700"
 date: "2026-03-31"
 image: "../../assets/images/glossar/themes/glossar-theme-technical.webp"
 related_terms: ["faq-markup", "rag", "entitaet", "geo-optimierung"]
+synonyms: ["Strukturierte Daten SEO", "Structured Data SEO", "JSON-LD SEO", "Semantische Daten"]
 key_takeaways:
   - "Strukturierte Daten fungieren 2026 als maschinenlesbarer Truth-Layer für GraphRAG-Systeme und Large Language Models."
   - "Verschachtelte JSON-LD-Graphen (@graph) mit @id-Verankerung reduzieren KI-Halluzinationen von über 20 % auf unter 3 %."

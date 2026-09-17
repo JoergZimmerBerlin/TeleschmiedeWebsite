@@ -9,6 +9,7 @@ date: "2026-07-18"
 image: "../../assets/images/glossar/3d-light/glossar-schema-org-markup-3d.webp"
 image_alt: "Schema.org Markup 3D Infografik - Wissensbasis für KIs"
 related_terms: ["strukturierte-daten", "entity-seo", "knowledge-graph", "grounding-page"]
+synonyms: ["Schema Markup SEO", "Schema.org SEO", "Schema Markup", "Strukturiertes Markup"]
 key_takeaways:
   - "Das universelle KI-Vokabular: Schema.org ist die primäre, maschinenlesbare Schnittstelle, über die LLMs (ChatGPT, Gemini) Fakten über deine Marke extrahieren."
   - "Entity Depth als Trust-Signal: Einfache Tags reichen nicht mehr. Tief verschachteltes Markup beweist fachliche Tiefe und füttert den Knowledge Graph."

@@ -1,7 +1,18 @@
 (function() {
-  const getPromptTemplate = (url) => `Bitte analysiere die folgende Ziel-Domain gründlich, führe ein fundiertes Entity-Audit durch und erstelle einen global vernetzten, 100 % validen Schema.org @graph JSON-LD Wissensgraphen:
+  const archetypeMap = {
+    'B2B_SERVICE': 'B2B Dienstleister / ProfessionalService (Fokus: Schiene A/B)',
+    'ECOMMERCE': 'E-Commerce Shop & Produkthersteller (Fokus: Schiene F mit OnlineStore, Product, MerchantReturnPolicy, ShippingDetails)',
+    'LOCAL_CRAFT': 'Handwerksbetrieb & Lokales Gewerbe (Fokus: Schiene B mit LocalBusiness, OpeningHours, HWK-Betriebsnummer)',
+    'TECH_SAAS': 'SaaS & Tech-Plattform (Fokus: Schiene G mit SoftwareApplication, kein unzulässiges LocalBusiness/Geo)'
+  };
 
-ZIEL-DOMAIN: ${url}
+  const getPromptTemplate = (url, archetype = '') => {
+    const archetypeLine = (archetype && archetypeMap[archetype]) 
+      ? `\nERMITTELTER BUSINESS-ARCHETYP: ${archetypeMap[archetype]}\nFOKUS-INSTRUKTION: Lege besonderen Schwerpunkt auf die für diesen Archetypen spezifischen Pflichtknoten und Richtlinien!\n`
+      : '';
+    return `Bitte analysiere die folgende Ziel-Domain gründlich, führe ein fundiertes Entity-Audit durch und erstelle einen global vernetzten, 100 % validen Schema.org @graph JSON-LD Wissensgraphen:
+
+ZIEL-DOMAIN: ${url}${archetypeLine}
 
 Rolle: Du agierst als hochgradig spezialisierter Technical SEO Architect, Knowledge Graph Ontologe und forensischer Daten-Prüfer für alle erdenklichen Unternehmensformen, Webseiten-Architekturen und Branchen-Szenarien weltweit.
 
@@ -200,6 +211,7 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
   }
   </script>
 - Vollständig valider Syntax-Code (KEINE JavaScript-Kommentare!), bereit für den Google Rich Results Test und den Schema.org Validator.`;
+  };
 
   const normalizeUrl = (rawUrl) => {
     let trimmed = rawUrl.trim();
@@ -224,7 +236,7 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
 
     if (!btnGenerate || !inputUrl || !textarea || !btnCopy) return;
 
-    const handleGenerate = () => {
+    const handleGenerate = (customArchetype) => {
       const rawUrl = inputUrl.value.trim();
       if (!rawUrl) {
         alert("Bitte gib eine gültige Domain oder Website-URL ein!");
@@ -234,7 +246,8 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
       const formattedUrl = normalizeUrl(rawUrl);
       inputUrl.value = formattedUrl;
 
-      const finalPrompt = getPromptTemplate(formattedUrl);
+      const activeArchetype = customArchetype || new URLSearchParams(window.location.search).get('archetype') || '';
+      const finalPrompt = getPromptTemplate(formattedUrl, activeArchetype);
       textarea.value = finalPrompt;
 
       if (outputCard) {
@@ -245,7 +258,7 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
       textarea.scrollIntoView({ behavior: 'smooth', block: 'center' });
     };
 
-    btnGenerate.addEventListener('click', handleGenerate);
+    btnGenerate.addEventListener('click', () => handleGenerate());
 
     inputUrl.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') {
@@ -257,9 +270,11 @@ BLOCK 2: DER GLOBAL VALIDIERBARE SCHEMA.ORG @graph JSON-LD CODE
     // Check URL parameters (e.g. from Schema-Graph-Visualizer)
     const urlParams = new URLSearchParams(window.location.search);
     const domainParam = urlParams.get('domain');
+    const archetypeParam = urlParams.get('archetype');
     if (domainParam) {
       inputUrl.value = domainParam.startsWith('http') ? domainParam : `https://${domainParam}/`;
-      handleGenerate();
+      inputUrl.dispatchEvent(new Event('input', { bubbles: true }));
+      handleGenerate(archetypeParam);
     }
 
     btnCopy.addEventListener('click', async () => {

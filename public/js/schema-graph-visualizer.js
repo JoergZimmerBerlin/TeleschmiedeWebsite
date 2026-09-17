@@ -6,7 +6,7 @@
  * Vorher/Nachher-Morphismus und 1-Click-Demos.
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+function initVisualizer() {
   // Elements
   const targetUrlInput = document.getElementById('target-url');
   const btnAnalyze = document.getElementById('btn-analyze');
@@ -673,21 +673,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const node = nodes[index] || nodes[0];
     if (!node) return;
 
-    document.getElementById('inspector-node-name').textContent = node.label;
-    document.getElementById('inspector-node-type').textContent = node.type;
-    document.getElementById('inspector-node-id').textContent = node.id || 'Keine @id Fragment-URI vorhanden (Dateninsel-Gefahr!)';
+    const nameEl = document.getElementById('inspector-node-name');
+    if (nameEl) nameEl.textContent = node.label;
+    const typeEl = document.getElementById('inspector-node-type');
+    if (typeEl) typeEl.textContent = node.type;
+    const idEl = document.getElementById('inspector-node-id');
+    if (idEl) idEl.textContent = node.id || 'Keine @id Fragment-URI vorhanden (Dateninsel-Gefahr!)';
 
     const propsContainer = document.getElementById('inspector-props-list');
-    propsContainer.innerHTML = '';
-
-    if (node.props) {
-      for (const [key, val] of Object.entries(node.props)) {
-        const row = document.createElement('div');
-        row.className = "flex flex-col sm:flex-row sm:items-center justify-between text-xs py-1 border-b border-gray-100 dark:border-gray-800 gap-1";
-        const valStr = typeof val === 'object' ? JSON.stringify(val) : String(val);
-        row.innerHTML = `<span class="font-mono font-bold text-lime-700 dark:text-lime-400">${key}:</span> <span class="text-gray-700 dark:text-gray-300 break-all">${valStr}</span>`;
-        propsContainer.appendChild(row);
+    if (propsContainer) {
+      propsContainer.innerHTML = '';
+      if (node.props) {
+        for (const [key, val] of Object.entries(node.props)) {
+          const row = document.createElement('div');
+          row.className = "flex flex-col sm:flex-row sm:items-center justify-between text-xs py-1 border-b border-gray-100 dark:border-gray-800 gap-1";
+          const valStr = typeof val === 'object' ? JSON.stringify(val) : String(val);
+          row.innerHTML = `<span class="font-mono font-bold text-lime-700 dark:text-lime-400">${key}:</span> <span class="text-gray-700 dark:text-gray-300 break-all">${valStr}</span>`;
+          propsContainer.appendChild(row);
+        }
       }
     }
   }
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initVisualizer);
+} else {
+  initVisualizer();
+}

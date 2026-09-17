@@ -1,9 +1,20 @@
 (function() {
   const archetypeMap = {
-    'B2B_SERVICE': 'B2B Dienstleister / ProfessionalService (Fokus: Schiene A/B)',
-    'ECOMMERCE': 'E-Commerce Shop & Produkthersteller (Fokus: Schiene F mit OnlineStore, Product, MerchantReturnPolicy, ShippingDetails)',
-    'LOCAL_CRAFT': 'Handwerksbetrieb & Lokales Gewerbe (Fokus: Schiene B mit LocalBusiness, OpeningHours, HWK-Betriebsnummer)',
-    'TECH_SAAS': 'SaaS & Tech-Plattform (Fokus: Schiene G mit SoftwareApplication, kein unzulässiges LocalBusiness/Geo)'
+    'FREELANCER_COACH': 'Schiene 1: Freiberufler, Coach & Personal Brand (Fokus: Schiene 1 mit Person, hasOccupation ISCO-08, bürgerlicher legalName, worksFor, kein HRB-Zwang)',
+    'LOCAL_CRAFT': 'Schiene 2: Handwerksbetrieb & Lokales Gewerbe (Fokus: Schiene 2 mit LocalBusiness, OpeningHours, Geo, HWK-Betriebsnummer in identifier)',
+    'B2B_SERVICE': 'Schiene 3: B2B Dienstleister, Beratung & Agentur (Fokus: Schiene 3 mit ProfessionalService, hasOfferCatalog, Service mit serviceType, knowsAbout, areaServed)',
+    'ECOMMERCE': 'Schiene 4: E-Commerce Shop & Produkthersteller (Fokus: Schiene 4 mit OnlineStore, Product, hasMerchantReturnPolicy mit applicableCountry: DE, shippingDetails)',
+    'TECH_SAAS': 'Schiene 5: SaaS & Tech-Plattform (Fokus: Schiene 5 mit SoftwareApplication, applicationCategory, Lizenz-Offers, kein unzulässiges LocalBusiness/Geo)',
+    'CORPORATE_ORG': 'Schiene 6: Mittelstand, Industrie & Konzern (Fokus: Schiene 6 mit Corporation, Handelsregister HRB/HRA in identifier, parentOrganization/subOrganization)',
+    'PUBLISHER': 'Schiene 7: Publisher, Verlag & Fachmedium (Fokus: Schiene 7 mit NewsMediaOrganization, NewsArticle, BlogPosting, author Person, speakable)',
+    'HEALTHCARE': 'Schiene 8: Praxis, Arzt & Gesundheitswesen (Fokus: Schiene 8 mit MedicalBusiness, Physician/Dentist, medicalSpecialty, OpeningHours, Geo)',
+    'HOSPITALITY': 'Schiene 9: Gastronomie, Hotel & Erlebnis (Fokus: Schiene 9 mit FoodEstablishment, Restaurant, LodgingBusiness, servesCuisine, menu, OpeningHours)',
+    'EDUCATION': 'Schiene 10: Bildungsträger, Akademie & Institut (Fokus: Schiene 10 mit EducationalOrganization, Course, EducationalOccupationalCredential)',
+    'NGO_NONPROFIT': 'Schiene 11: Gemeinnütziger Träger, Verein & NGO (Fokus: Schiene 11 mit NGO, Nonprofit501cOrganization, Vereinsregister in identifier)',
+    'GOVERNMENT': 'Schiene 12: Behörde & Öffentliche Körperschaft (Fokus: Schiene 12 mit GovernmentOrganization, hoheitliche Aufgaben, Bürgerdienste, Amtsbezirke)',
+    // Abwärtskompatible Aliase:
+    'LOCAL_BUSINESS': 'Schiene 2: Handwerksbetrieb & Lokales Gewerbe (Fokus: Schiene 2 mit LocalBusiness, OpeningHours, HWK-Betriebsnummer)',
+    'COACH_EXPERT': 'Schiene 1: Freiberufler, Coach & Personal Brand (Fokus: Schiene 1 mit Person, hasOccupation, worksFor)'
   };
 
   const getPromptTemplate = (url, archetype = '') => {
@@ -86,15 +97,20 @@ STRIKTE DIRECTIVES & ZERO-HALLUCINATION PROTOCOL (HÖCHSTE PRIORITÄT):
     - Die ZIEL-DOMAIN '${url}' ist die EINZIGE Quelle der Wahrheit! Fremdfirmen gleichen Namens an anderen Orten (Homonyme) dürfen NIEMALS vermischt werden.
     - ANTI-SURFACE BIAS: Schließe niemals von der Domain blind auf ein Standard-Modell (z. B. 'digitalagentur.berlin' ist kein Dienstleister, sondern Senatsförderung). Die On-Page-Selbstbeschreibung sticht jedes LLM-Vorurteil!
 
-15. UNIVERSELLE MULTI-SCHIENEN MATRIX:
-    - SCHIENE A (FREIBERUFLER & EINZELUNTERNEHMER): Kein HRB, Inhaber ist natürliche Person. 'name' ist die Marke/Plattform (z. B. "Freelancer Team"), 'legalName' ist der bürgerliche Name des Inhabers laut Impressum (z. B. "Andreas Absmeier")! Verknüpfe die Inhaber-Person nahtlos mit der Organisation via 'founder', 'worksFor' und 'provider'.
-    - SCHIENE B (KMU, MITTELSTAND & MEISTERBETRIEBE): GmbH, UG, e.K. mit HRB/HRA. Suche im Impressum nach Handwerkskammer Betriebsnummer (HWK), Installateurverzeichnis Stromnetz und binde sie als 'PropertyValue' in 'identifier' ein!
-    - SCHIENE C (KONZERNE & HOLDINGS): AG, SE mit 'parentOrganization' / 'subOrganization'.
-    - SCHIENE D (GEMEINNÜTZIGE TRÄGER & NGOS): e.V., gGmbH ('NGO', 'Nonprofit501cOrganization').
-    - SCHIENE E (BILDUNG & BEHÖRDEN): 'EducationalOrganization', 'GovernmentOrganization'.
-    - SCHIENE F (E-COMMERCE & HERSTELLER): 'OnlineStore' mit 'Product', 'ProductGroup', 'hasMerchantReturnPolicy' (Rückgaberichtlinien: returnPolicyCategory, merchantReturnDays) und 'shippingDetails' (OfferShippingDetails: kostenloser Versand, Lieferländer), falls auf der Website (z. B. /versand/, /shipping/, AGB) ausgewiesen! Physische Produkte NIEMALS als 'Service' deklarieren!
-    - SCHIENE G (SAAS & TECH-PLATTFORMEN): 'SoftwareApplication' / 'Corporation' (keine unzulässigen 'geo'-Felder!).
-    - SCHIENE H (ALLE ARCHITEKTUREN): Multi-Page, One-Pager (Anker), Subdomains, Mehrsprachigkeit.
+15. UNIVERSELLE MULTI-SCHIENEN MATRIX (12 SCHIENEN FÜR ALLE 800+ TYPEN):
+    - SCHIENE 1 (FREIBERUFLER, COACHES & SOLOPRENEURE): Kein HRB, Inhaber ist natürliche Person. 'name' ist die Marke/Plattform (z. B. "Freelancer Team"), 'legalName' ist der bürgerliche Name des Inhabers laut Impressum! Verknüpfe die Inhaber-Person nahtlos mit der Organisation via 'founder', 'worksFor' und 'provider'. 'hasOccupation' mit ISCO-08 Code.
+    - SCHIENE 2 (KMU, MEISTERBETRIEBE & HANDWERK): Handwerk, Bau, Montage. Suche im Impressum nach Handwerkskammer Betriebsnummer (HWK), Installateurverzeichnis Stromnetz und binde sie als 'PropertyValue' in 'identifier' ein! LocalBusiness mit 'geo', 'openingHoursSpecification' und 'address'.
+    - SCHIENE 3 (B2B DIENSTLEISTER, BERATUNGEN & AGENTUREN): 'ProfessionalService' (oder Consulting, LegalService, AccountingService). 'hasOfferCatalog' -> 'OfferCatalog' -> 'Service' (mit 'serviceType' und 'provider'). 'knowsAbout' mit Wikidata-URIs.
+    - SCHIENE 4 (E-COMMERCE, ONLINE-SHOPS & PRODUKTHERSTELLER): 'OnlineStore' mit 'Product', 'ProductGroup', 'hasMerchantReturnPolicy' (mit Pflichtfeld 'applicableCountry': "DE", returnPolicyCategory, merchantReturnDays) und 'shippingDetails' (OfferShippingDetails). Physische Produkte NIEMALS als 'Service' deklarieren! Reviews an Product binden (Anti-Self-Serving-Regel).
+    - SCHIENE 5 (SAAS & TECH-PLATTFORMEN): 'SoftwareApplication' / 'WebApplication' (keine unzulässigen 'geo'-Felder!). 'applicationCategory', 'operatingSystem', Lizenz-Offers ('Offer').
+    - SCHIENE 6 (KONZERNE, INDUSTRIE & HOLDINGS): AG, SE, GmbH mit 'parentOrganization' / 'subOrganization', 'department', 'numberOfEmployees', Handelsregister (HRB/HRA) als PropertyValue in 'identifier'.
+    - SCHIENE 7 (PUBLISHER, VERLAGE & FACHMEDIEN): 'NewsMediaOrganization', 'Periodical', 'NewsArticle', 'BlogPosting', 'Article' mit 'author' (Person), 'publisher' (Organization) und 'speakable'.
+    - SCHIENE 8 (GESUNDHEITSWESEN, PRAXEN & KLINIKEN): 'MedicalBusiness', 'Physician', 'Dentist', 'medicalSpecialty', 'availableService', 'openingHoursSpecification', 'geo'.
+    - SCHIENE 9 (GASTRONOMIE & HOTELLERIE): 'FoodEstablishment', 'Restaurant', 'LodgingBusiness', 'servesCuisine', 'menu', 'openingHoursSpecification', 'acceptsReservations'.
+    - SCHIENE 10 (BILDUNGSTRÄGER, AKADEMIEN & UNIVERSITÄTEN): 'EducationalOrganization', 'Course', 'EducationalOccupationalCredential', 'courseCode', 'provider'.
+    - SCHIENE 11 (GEMEINNÜTZIGE TRÄGER, VEREINE & NGOS): 'NGO', 'Nonprofit501cOrganization', Vereinsregister (VR) in 'identifier', Spenden-Möglichkeiten.
+    - SCHIENE 12 (BEHÖRDEN & ÖFFENTLICHE STELLEN): 'GovernmentOrganization', Bürgerdienste, hoheitliche Aufgaben, Amtsbezirke ('areaServed').
+    - ARCHITEKTUR-FLEXIBILITÄT: Multi-Page, One-Pager (Anker), Subdomains, Mehrsprachigkeit.
 
 ==============================
 DAS UNIVERSELLE SCHEMA.ORG 800+ PFLICHTENHEFT:

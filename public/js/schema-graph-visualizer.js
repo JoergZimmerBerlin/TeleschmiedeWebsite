@@ -403,12 +403,23 @@ function initVisualizer() {
     document.getElementById('grounding-score-txt').textContent = `${data.healthScore.breakdown.grounding.score} / ${data.healthScore.breakdown.grounding.max}`;
     document.getElementById('grounding-bar').style.width = `${(data.healthScore.breakdown.grounding.score / data.healthScore.breakdown.grounding.max) * 100}%`;
 
-    // 3. Archetype Label
+    // 3. Archetype Label (Vollwertige 12-Schienen Matrix)
     const archMap = {
-      'ECOMMERCE': 'Online-Shop / E-Commerce',
-      'LOCAL_BUSINESS': 'Lokales Unternehmen / Handwerk',
-      'B2B_SERVICE': 'B2B Dienstleister / Beratung',
-      'PUBLISHER': 'Publisher / Magazin'
+      'FREELANCER_COACH': 'Schiene 1: Freiberufler, Coach & Personal Brand',
+      'LOCAL_CRAFT': 'Schiene 2: Handwerk, Meisterbetrieb & Lokales Gewerbe',
+      'B2B_SERVICE': 'Schiene 3: B2B Dienstleister, Beratung & Agentur',
+      'ECOMMERCE': 'Schiene 4: Online-Shop & Produkthersteller',
+      'TECH_SAAS': 'Schiene 5: SaaS & Tech-Plattform',
+      'CORPORATE_ORG': 'Schiene 6: Mittelstand, Industrie & Konzern',
+      'PUBLISHER': 'Schiene 7: Publisher, Verlag & Fachmedium',
+      'HEALTHCARE': 'Schiene 8: Praxis, Arzt & Gesundheitswesen',
+      'HOSPITALITY': 'Schiene 9: Gastronomie, Hotel & Erlebnis',
+      'EDUCATION': 'Schiene 10: Bildungsträger, Akademie & Institut',
+      'NGO_NONPROFIT': 'Schiene 11: Gemeinnütziger Träger, Verein & NGO',
+      'GOVERNMENT': 'Schiene 12: Behörde & Öffentliche Körperschaft',
+      // Abwärtskompatible Aliase:
+      'LOCAL_BUSINESS': 'Schiene 2: Handwerk, Meisterbetrieb & Lokales Gewerbe',
+      'COACH_EXPERT': 'Schiene 1: Freiberufler, Coach & Personal Brand'
     };
     const currentArch = data.businessArchetype || data.detectedBusiness || 'B2B_SERVICE';
     const archLabel = archMap[currentArch] || currentArch;
@@ -460,14 +471,30 @@ function initVisualizer() {
     if ((!data.nodes || data.nodes.length === 0) && data.discoveredEntities && data.discoveredEntities.length > 0) {
       const typeColors = {
         'Person': '#3b82f6',
+        'Physician': '#ec4899',
+        'Dentist': '#ec4899',
         'Organization': '#a855f7',
         'LocalBusiness': '#a855f7',
+        'ProfessionalService': '#a855f7',
+        'Corporation': '#a855f7',
+        'MedicalBusiness': '#ec4899',
+        'FoodEstablishment': '#f97316',
+        'Restaurant': '#f97316',
+        'LodgingBusiness': '#f97316',
+        'EducationalOrganization': '#6366f1',
+        'Course': '#6366f1',
+        'NGO': '#14b8a6',
+        'Nonprofit501cOrganization': '#14b8a6',
+        'GovernmentOrganization': '#64748b',
         'WebSite': '#f59e0b',
         'WebPage': '#f59e0b',
         'Product': '#10b981',
+        'OnlineStore': '#10b981',
         'Service': '#10b981',
         'Article': '#10b981',
-        'BlogPosting': '#10b981'
+        'NewsArticle': '#10b981',
+        'BlogPosting': '#10b981',
+        'SoftwareApplication': '#06b6d4'
       };
       data.nodes = data.discoveredEntities.slice(0, 6).map((ent, idx) => {
         const col = idx % 3;
@@ -501,6 +528,244 @@ function initVisualizer() {
     renderVisualGraph();
   }
 
+  // Dynamischer Soll-Zustand für alle 12 Schienen
+  function getSollGraphForArchetype(arch) {
+    switch (arch) {
+      case 'ECOMMERCE':
+        return {
+          nodes: [
+            { id: "#store", label: "OnlineStore", type: "OnlineStore", color: "#a855f7", x: 80, y: 175, props: { hasMerchantReturnPolicy: "applicableCountry: DE", currenciesAccepted: "EUR" } },
+            { id: "#website", label: "Shop WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE", potentialAction: "SearchAction" } },
+            { id: "#product", label: "Hauptprodukt", type: "Product", color: "#10b981", x: 440, y: 90, props: { brand: "Verifiziert", category: "Hardware/Fashion" } },
+            { id: "#offer", label: "Preisangebot", type: "Offer", color: "#10b981", x: 440, y: 260, props: { price: "49.95", priceCurrency: "EUR", availability: "InStock" } },
+            { id: "#returns", label: "Rückgaberichtlinie", type: "MerchantReturnPolicy", color: "#84cc16", x: 620, y: 90, props: { merchantReturnDays: 30, returnPolicyCategory: "FullRefund" } },
+            { id: "#rating", label: "Produkt-Reviews", type: "AggregateRating", color: "#84cc16", x: 620, y: 260, props: { ratingValue: "4.9", reviewCount: "128" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "publisher", solid: true },
+            { from: 1, to: 2, label: "hasPart", solid: true },
+            { from: 2, to: 3, label: "offers", solid: true },
+            { from: 3, to: 4, label: "hasMerchantReturnPolicy", solid: true },
+            { from: 2, to: 5, label: "aggregateRating", solid: true }
+          ]
+        };
+
+      case 'LOCAL_CRAFT':
+      case 'LOCAL_BUSINESS':
+        return {
+          nodes: [
+            { id: "#person", label: "Meister / Inhaber", type: "Person", color: "#3b82f6", x: 80, y: 90, props: { jobTitle: "Handwerksmeister", hasCredential: "Meisterbrief" } },
+            { id: "#business", label: "Meisterbetrieb", type: "LocalBusiness", color: "#a855f7", x: 80, y: 260, props: { identifier: "HWK-Betriebsnummer", paymentAccepted: "Rechnung, EC", address: "Kanonisch", geo: "GeoCoordinates" } },
+            { id: "#website", label: "Betriebs-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE", areaServed: "Regional / 50km" } },
+            { id: "#service", label: "Fachleistung / Montage", type: "Service", color: "#10b981", x: 440, y: 90, props: { provider: "#business", serviceType: "Vor-Ort-Service" } },
+            { id: "#hours", label: "Öffnungszeiten", type: "OpeningHoursSpecification", color: "#84cc16", x: 440, y: 260, props: { dayOfWeek: "Mo-Fr", opens: "08:00", closes: "17:00" } },
+            { id: "#review", label: "Kundenbewertung", type: "Review", color: "#84cc16", x: 620, y: 175, props: { itemReviewed: "#business", ratingValue: "5.0" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "founder", solid: true },
+            { from: 0, to: 2, label: "author", solid: true },
+            { from: 1, to: 2, label: "publisher", solid: true },
+            { from: 2, to: 3, label: "hasPart", solid: true },
+            { from: 1, to: 4, label: "openingHoursSpecification", solid: true },
+            { from: 1, to: 5, label: "review", solid: true }
+          ]
+        };
+
+      case 'TECH_SAAS':
+        return {
+          nodes: [
+            { id: "#org", label: "Software-Unternehmen", type: "Organization", color: "#a855f7", x: 80, y: 175, props: { legalName: "Software GmbH / AG", sameAs: "Wikidata Q-ID" } },
+            { id: "#website", label: "Plattform-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE, en" } },
+            { id: "#software", label: "SaaS Application", type: "SoftwareApplication", color: "#06b6d4", x: 440, y: 90, props: { applicationCategory: "BusinessApplication", operatingSystem: "Cloud" } },
+            { id: "#pricing", label: "Preismodelle / Plans", type: "Offer", color: "#10b981", x: 440, y: 260, props: { priceCurrency: "EUR", billingDuration: "P1M" } },
+            { id: "#features", label: "Feature-Katalog & Doku", type: "WebAPI", color: "#84cc16", x: 620, y: 90, props: { documentation: "API Reference", version: "2.0" } },
+            { id: "#review", label: "Nutzer-Rating", type: "AggregateRating", color: "#84cc16", x: 620, y: 260, props: { ratingValue: "4.8", ratingCount: "350" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "publisher", solid: true },
+            { from: 1, to: 2, label: "hasPart", solid: true },
+            { from: 2, to: 3, label: "offers", solid: true },
+            { from: 2, to: 4, label: "hasPart", solid: true },
+            { from: 2, to: 5, label: "aggregateRating", solid: true }
+          ]
+        };
+
+      case 'HEALTHCARE':
+        return {
+          nodes: [
+            { id: "#doctor", label: "Facharzt / Leitung", type: "Physician", color: "#ec4899", x: 80, y: 90, props: { medicalSpecialty: "Fachgebiet / Behandlungen", alumniOf: "Universität" } },
+            { id: "#clinic", label: "Praxis / Zentrum", type: "MedicalBusiness", color: "#a855f7", x: 80, y: 260, props: { address: "Praxisadresse", geo: "GeoCoordinates validiert" } },
+            { id: "#website", label: "Praxis-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#specialty", label: "Fachleistungsspektrum", type: "MedicalSpecialty", color: "#ec4899", x: 440, y: 90, props: { availableService: "Kassen- & Privatleistung" } },
+            { id: "#hours", label: "Sprechzeiten", type: "OpeningHoursSpecification", color: "#84cc16", x: 440, y: 260, props: { dayOfWeek: "Mo-Fr", opens: "08:00", closes: "18:00" } },
+            { id: "#contact", label: "Terminvergabe", type: "ContactPoint", color: "#84cc16", x: 620, y: 175, props: { contactType: "Terminvereinbarung", telephone: "Praxisnummer" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "founder", solid: true },
+            { from: 1, to: 2, label: "publisher", solid: true },
+            { from: 2, to: 3, label: "hasPart", solid: true },
+            { from: 1, to: 4, label: "openingHoursSpecification", solid: true },
+            { from: 1, to: 5, label: "contactPoint", solid: true }
+          ]
+        };
+
+      case 'HOSPITALITY':
+        return {
+          nodes: [
+            { id: "#chef", label: "Gastronom / Inhaber", type: "Person", color: "#3b82f6", x: 80, y: 90, props: { jobTitle: "Küchenchef / Inhaber" } },
+            { id: "#restaurant", label: "Restaurant / Gasthaus", type: "Restaurant", color: "#f97316", x: 80, y: 260, props: { servesCuisine: "Regional / International", geo: "GeoCoordinates" } },
+            { id: "#website", label: "Gastro-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#menu", label: "Speisekarte", type: "Menu", color: "#f97316", x: 440, y: 90, props: { hasMenuItem: "Saisonale Gerichte" } },
+            { id: "#hours", label: "Tischzeiten", type: "OpeningHoursSpecification", color: "#84cc16", x: 440, y: 260, props: { dayOfWeek: "Di-So", opens: "12:00", closes: "23:00" } },
+            { id: "#reserve", label: "Tisch-Reservierung", type: "ReserveAction", color: "#84cc16", x: 620, y: 175, props: { target: "Online-Reservierung" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "founder", solid: true },
+            { from: 1, to: 2, label: "publisher", solid: true },
+            { from: 1, to: 3, label: "hasMenu", solid: true },
+            { from: 1, to: 4, label: "openingHoursSpecification", solid: true },
+            { from: 2, to: 5, label: "potentialAction", solid: true }
+          ]
+        };
+
+      case 'EDUCATION':
+        return {
+          nodes: [
+            { id: "#academy", label: "Akademie / Institut", type: "EducationalOrganization", color: "#6366f1", x: 80, y: 175, props: { legalName: "Staatlich anerkannt", sameAs: "Wikidata" } },
+            { id: "#website", label: "Campus-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#course", label: "Zertifikatslehrgang", type: "Course", color: "#6366f1", x: 440, y: 90, props: { courseCode: "CERT-2026", educationalLevel: "Fachausbildung" } },
+            { id: "#credential", label: "Abschluss-Zertifikat", type: "EducationalOccupationalCredential", color: "#84cc16", x: 440, y: 260, props: { credentialCategory: "Zertifikat" } },
+            { id: "#faculty", label: "Dozent / Fachleitung", type: "Person", color: "#3b82f6", x: 620, y: 90, props: { jobTitle: "Dozent", alumniOf: "Universität" } },
+            { id: "#offer", label: "Studiengebühren", type: "Offer", color: "#10b981", x: 620, y: 260, props: { priceCurrency: "EUR", price: "Gebühr" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "publisher", solid: true },
+            { from: 1, to: 2, label: "hasPart", solid: true },
+            { from: 2, to: 3, label: "educationalCredentialAwarded", solid: true },
+            { from: 2, to: 4, label: "instructor", solid: true },
+            { from: 2, to: 5, label: "offers", solid: true }
+          ]
+        };
+
+      case 'CORPORATE_ORG':
+        return {
+          nodes: [
+            { id: "#holding", label: "Mutterkonzern (AG/SE)", type: "Corporation", color: "#a855f7", x: 80, y: 90, props: { identifier: "HRB 123456", numberOfEmployees: "500+" } },
+            { id: "#subsidiary", label: "Tochtergesellschaft", type: "Organization", color: "#a855f7", x: 80, y: 260, props: { parentOrganization: "#holding" } },
+            { id: "#website", label: "Corporate Portal", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE, en" } },
+            { id: "#about", label: "Über den Konzern", type: "AboutPage", color: "#f59e0b", x: 440, y: 90, props: { about: "#holding", dateCreated: "1985" } },
+            { id: "#press", label: "Investor Relations", type: "ContactPoint", color: "#84cc16", x: 440, y: 260, props: { contactType: "Press & IR", email: "ir@holding.com" } },
+            { id: "#division", label: "Produktsparte / Werk", type: "Organization", color: "#a855f7", x: 620, y: 175, props: { department: "#holding" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "subOrganization", solid: true },
+            { from: 0, to: 2, label: "publisher", solid: true },
+            { from: 2, to: 3, label: "hasPart", solid: true },
+            { from: 0, to: 4, label: "contactPoint", solid: true },
+            { from: 0, to: 5, label: "department", solid: true }
+          ]
+        };
+
+      case 'PUBLISHER':
+        return {
+          nodes: [
+            { id: "#publisher", label: "Verlag / Medienhaus", type: "NewsMediaOrganization", color: "#a855f7", x: 80, y: 175, props: { legalName: "Medien GmbH", sameAs: "Wikidata" } },
+            { id: "#website", label: "News-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#article", label: "Leitartikel / News", type: "NewsArticle", color: "#10b981", x: 440, y: 90, props: { headline: "Exklusiver Fachreport 2026", datePublished: "ISO-8601" } },
+            { id: "#author", label: "Redakteur / Journalist", type: "Person", color: "#3b82f6", x: 440, y: 260, props: { jobTitle: "Chef-Redakteur", knowsAbout: "Recherche" } },
+            { id: "#speakable", label: "Voice / Audio Snippet", type: "SpeakableSpecification", color: "#06b6d4", x: 620, y: 90, props: { cssSelector: ["h1", ".lead-paragraph"] } },
+            { id: "#ressort", label: "Themen-Ressort", type: "DefinedTermSet", color: "#84cc16", x: 620, y: 260, props: { name: "Wirtschaft & Tech" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "publisher", solid: true },
+            { from: 1, to: 2, label: "hasPart", solid: true },
+            { from: 2, to: 3, label: "author", solid: true },
+            { from: 2, to: 4, label: "speakable", solid: true },
+            { from: 1, to: 5, label: "hasPart", solid: true }
+          ]
+        };
+
+      case 'NGO_NONPROFIT':
+        return {
+          nodes: [
+            { id: "#ngo", label: "Gemeinnütziger Verein", type: "NGO", color: "#14b8a6", x: 80, y: 175, props: { identifier: "VR Vereinsregister", nonprofitStatus: "Gemeinnützig" } },
+            { id: "#website", label: "Vereins-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#donate", label: "Spenden-Aktion", type: "DonateAction", color: "#10b981", x: 440, y: 90, props: { recipient: "#ngo", priceCurrency: "EUR" } },
+            { id: "#chair", label: "Vorstandsvorsitz", type: "Person", color: "#3b82f6", x: 440, y: 260, props: { jobTitle: "Vorstand", worksFor: "#ngo" } },
+            { id: "#transparenz", label: "Satzung & Transparenz", type: "AboutPage", color: "#f59e0b", x: 620, y: 90, props: { about: "#ngo" } },
+            { id: "#project", label: "Förderprojekt", type: "Project", color: "#84cc16", x: 620, y: 260, props: { sponsor: "#ngo" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "publisher", solid: true },
+            { from: 1, to: 2, label: "potentialAction", solid: true },
+            { from: 3, to: 0, label: "memberOf", solid: true },
+            { from: 1, to: 4, label: "hasPart", solid: true },
+            { from: 0, to: 5, label: "sponsor", solid: true }
+          ]
+        };
+
+      case 'GOVERNMENT':
+        return {
+          nodes: [
+            { id: "#authority", label: "Behörde / Amt", type: "GovernmentOrganization", color: "#64748b", x: 80, y: 175, props: { areaServed: "Bundesland / Landkreis" } },
+            { id: "#website", label: "Bürgerportal", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#service", label: "Bürgerservice", type: "GovernmentService", color: "#10b981", x: 440, y: 90, props: { provider: "#authority", serviceType: "Amtliche Dienstleistung" } },
+            { id: "#office", label: "Amtsgebäude / Dienststelle", type: "PostalAddress", color: "#84cc16", x: 440, y: 260, props: { streetAddress: "Amtsstraße", postalCode: "10115" } },
+            { id: "#contact", label: "Bürgertelefon", type: "ContactPoint", color: "#84cc16", x: 620, y: 90, props: { contactType: "Bürgerservice", telephone: "115" } },
+            { id: "#hours", label: "Amtszeiten", type: "OpeningHoursSpecification", color: "#84cc16", x: 620, y: 260, props: { dayOfWeek: "Mo-Fr", opens: "08:00", closes: "16:00" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "publisher", solid: true },
+            { from: 1, to: 2, label: "hasPart", solid: true },
+            { from: 0, to: 3, label: "address", solid: true },
+            { from: 0, to: 4, label: "contactPoint", solid: true },
+            { from: 0, to: 5, label: "openingHoursSpecification", solid: true }
+          ]
+        };
+
+      case 'FREELANCER_COACH':
+      case 'COACH_EXPERT':
+        return {
+          nodes: [
+            { id: "#person", label: "Coach / Experte", type: "Person", color: "#3b82f6", x: 80, y: 90, props: { hasOccupation: "ISCO-08 Berufsfeld", knowsLanguage: "de, en", sameAs: "LinkedIn / Wikidata" } },
+            { id: "#brand", label: "Personal Brand / Studio", type: "Organization", color: "#a855f7", x: 80, y: 260, props: { slogan: "Transformatives Coaching", legalName: "Bürgerlicher Name" } },
+            { id: "#website", label: "Experten-WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE" } },
+            { id: "#service", label: "1:1 Coaching / Mentoring", type: "Service", color: "#10b981", x: 440, y: 90, props: { provider: "#brand", areaServed: "DACH" } },
+            { id: "#quote", label: "E-E-A-T Experten-Zitat", type: "Quotation", color: "#84cc16", x: 440, y: 260, props: { creator: "#person", spokenBy: "#person" } },
+            { id: "#credential", label: "Vita & Qualifikationen", type: "EducationalOccupationalCredential", color: "#84cc16", x: 620, y: 175, props: { credentialCategory: "Master / Zertifikat" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "founder", solid: true },
+            { from: 0, to: 2, label: "author", solid: true },
+            { from: 1, to: 2, label: "publisher", solid: true },
+            { from: 2, to: 3, label: "hasPart", solid: true },
+            { from: 3, to: 4, label: "hasPart", solid: true },
+            { from: 0, to: 5, label: "hasCredential", solid: true }
+          ]
+        };
+
+      default: // B2B_SERVICE (Dienstleister, Kanzleien, Beratungen wie Teleschmiede)
+        return {
+          nodes: [
+            { id: "#person", label: "Experte / Consultant", type: "Person", color: "#3b82f6", x: 80, y: 90, props: { hasOccupation: "ISCO-08 (Senior Consultant)", knowsLanguage: "de (Q188), en (Q1860)" } },
+            { id: "#business", label: "B2B Beratung / Agentur", type: "ProfessionalService", color: "#a855f7", x: 80, y: 260, props: { slogan: "Verified Expertise", currenciesAccepted: "EUR", vatID: "DE..." } },
+            { id: "#website", label: "Zentrale WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE", hasPart: "Relational" } },
+            { id: "#services", label: "B2B Dienstleistungen", type: "Service", color: "#10b981", x: 440, y: 90, props: { provider: "#business", areaServed: "DACH" } },
+            { id: "#content", label: "Fachpublikation & Case Studies", type: "Article", color: "#10b981", x: 440, y: 260, props: { author: "#person", publisher: "#business", wordCount: "Dynamisch" } },
+            { id: "#quotation", label: "E-E-A-T Zitat (O-Ton)", type: "Quotation", color: "#84cc16", x: 620, y: 175, props: { creator: "#person", spokenBy: "#person" } }
+          ],
+          edges: [
+            { from: 0, to: 1, label: "founder", solid: true },
+            { from: 0, to: 2, label: "author", solid: true },
+            { from: 1, to: 2, label: "publisher", solid: true },
+            { from: 2, to: 3, label: "hasPart", solid: true },
+            { from: 2, to: 4, label: "hasPart", solid: true },
+            { from: 4, to: 5, label: "hasPart", solid: true }
+          ]
+        };
+    }
+  }
+
   // Toggle Ist vs Soll View
   if (toggleIstBtn && toggleSollBtn) {
     toggleIstBtn.addEventListener('click', () => {
@@ -526,27 +791,15 @@ function initVisualizer() {
     svgEdges.innerHTML = '';
     svgNodes.innerHTML = '';
 
-    // If Soll-Modus: synthesize an ideal connected setup
+    // If Soll-Modus: synthesize an ideal connected setup for the specific archetype
     let displayNodes = currentAnalysisData.nodes || [];
     let displayEdges = currentAnalysisData.edges || [];
 
     if (currentViewMode === 'soll') {
-      displayNodes = [
-        { id: "#person", label: "Autor / Inhaber", type: "Person", color: "#3b82f6", x: 80, y: 90, props: { hasOccupation: "ISCO-08", knowsLanguage: "sameAs Wikidata" } },
-        { id: "#business", label: "Unternehmen / Brand", type: "Organization", color: "#a855f7", x: 80, y: 260, props: { slogan: "Verified", currenciesAccepted: "EUR" } },
-        { id: "#website", label: "Zentrale WebSite", type: "WebSite", color: "#f59e0b", x: 260, y: 175, props: { inLanguage: "de-DE", hasPart: "Relational" } },
-        { id: "#services", label: "Dienstleistungen", type: "Service / Product", color: "#10b981", x: 440, y: 90, props: { provider: "#business", areaServed: "DACH" } },
-        { id: "#content", label: "Fachinhalte & Blog", type: "Article", color: "#10b981", x: 440, y: 260, props: { author: "#person", publisher: "#business", wordCount: "Dynamisch" } },
-        { id: "#quotation", label: "E-E-A-T Zitat", type: "Quotation", color: "#84cc16", x: 620, y: 175, props: { creator: "#person", spokenBy: "#person" } }
-      ];
-      displayEdges = [
-        { from: 0, to: 1, label: "founder", solid: true },
-        { from: 0, to: 2, label: "author", solid: true },
-        { from: 1, to: 2, label: "publisher", solid: true },
-        { from: 2, to: 3, label: "hasPart", solid: true },
-        { from: 2, to: 4, label: "hasPart", solid: true },
-        { from: 4, to: 5, label: "hasPart", solid: true }
-      ];
+      const curArch = currentAnalysisData.businessArchetype || currentAnalysisData.detectedBusiness || 'B2B_SERVICE';
+      const sollData = getSollGraphForArchetype(curArch);
+      displayNodes = sollData.nodes;
+      displayEdges = sollData.edges;
     }
 
     // Leerer Graph: Keine Entitäten gefunden

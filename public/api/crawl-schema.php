@@ -287,6 +287,32 @@ foreach ($sampledUrls as $archType => $subUrl) {
     }
 }
 
+// Rekursive Funktion zur vollständigen Erfassung aller verschachtelten Typen und Eigenschaften
+function collectNestedSchemaData(array $data, array &$allTypes, array &$allProps, bool &$hasWikidata): void {
+    if (isset($data['@type'])) {
+        $t = $data['@type'];
+        if (is_array($t)) {
+            foreach ($t as $subT) {
+                if (is_string($subT)) $allTypes[] = $subT;
+            }
+        } elseif (is_string($t)) {
+            $allTypes[] = $t;
+        }
+    }
+    if (!empty($data['sameAs'])) {
+        $sameAsVal = is_array($data['sameAs']) ? implode(' ', $data['sameAs']) : (string)$data['sameAs'];
+        if (strpos($sameAsVal, 'wikidata.org') !== false || strpos($sameAsVal, 'google.com/search?kgmid') !== false) {
+            $hasWikidata = true;
+        }
+    }
+    foreach ($data as $k => $v) {
+        $allProps[] = (string)$k;
+        if (is_array($v)) {
+            collectNestedSchemaData($v, $allTypes, $allProps, $hasWikidata);
+        }
+    }
+}
+
 // 9. ENTITÄTEN-PARSER & BEZIEHUNGS-ANALYSE
 $discoveredEntities = [];
 $totalScriptTags = 0;
@@ -294,6 +320,8 @@ $hasGraphContainer = false;
 $hasIds = false;
 $hasInLanguage = false;
 $detectedTypes = [];
+$allNestedTypes = [];
+$allProperties = [];
 $hasPersonOrgLink = false;
 $hasWikidata = false;
 $detectedBusiness = 'B2B_SERVICE'; // Default Fallback
@@ -313,9 +341,20 @@ foreach ($allExtractedBlocks as $pageKey => $blocks) {
 
         foreach ($items as $item) {
             if (!is_array($item)) continue;
+
+            $itemTypes = [];
+            $itemProps = [];
+            collectNestedSchemaData($item, $itemTypes, $itemProps, $hasWikidata);
+
             $type = $item['@type'] ?? 'Unknown';
             if (is_array($type)) $type = implode('/', $type);
             $detectedTypes[] = $type;
+            foreach ($itemTypes as $it) {
+                $allNestedTypes[] = $it;
+            }
+            foreach ($itemProps as $ip) {
+                $allProperties[] = $ip;
+            }
 
             if (!empty($item['@id'])) {
                 $hasIds = true;
@@ -325,13 +364,14 @@ foreach ($allExtractedBlocks as $pageKey => $blocks) {
             }
             if (!empty($item['sameAs'])) {
                 $sameAsVal = is_array($item['sameAs']) ? implode(' ', $item['sameAs']) : (string)$item['sameAs'];
-                if (str_contains($sameAsVal, 'wikidata.org') || str_contains($sameAsVal, 'google.com/search?kgmid')) {
+                if (strpos($sameAsVal, 'wikidata.org') !== false || strpos($sameAsVal, 'google.com/search?kgmid') !== false) {
                     $hasWikidata = true;
                 }
             }
 
             // Person-Organization-Link prüfen
-            if (in_array($type, ['Person', 'Organization', 'LocalBusiness', 'ProfessionalService'])) {
+            if (in_array($type, ['Person', 'Organization', 'LocalBusiness', 'ProfessionalService']) ||
+                in_array('Person', $itemTypes) || in_array('Organization', $itemTypes) || in_array('ProfessionalService', $itemTypes) || in_array('LocalBusiness', $itemTypes)) {
                 if (!empty($item['founder']) || !empty($item['author']) || !empty($item['worksFor']) || !empty($item['memberOf'])) {
                     $hasPersonOrgLink = true;
                 }
@@ -342,23 +382,147 @@ foreach ($allExtractedBlocks as $pageKey => $blocks) {
                 'id' => $item['@id'] ?? null,
                 'name' => $item['name'] ?? ($item['headline'] ?? $type),
                 'page' => $pageKey,
-                'properties' => array_keys($item)
+                'properties' => array_unique(array_merge(array_keys($item), $itemProps))
             ];
         }
     }
 }
 
-$detectedTypes = array_unique($detectedTypes);
+$allUniqueTypes = array_unique(array_merge($detectedTypes, $allNestedTypes));
+$allProperties = array_unique($allProperties);
+$typesString = implode(' ', $allUniqueTypes);
+$propsString = implode(' ', $allProperties);
 
-// 10. HEURISTIK ZUR BUSINESS-ARCHETYPEN-ERKENNUNG
-$typesString = implode(' ', $detectedTypes);
-if (str_contains($typesString, 'Product') || str_contains($typesString, 'OnlineStore') || str_contains($typesString, 'Offer')) {
-    $detectedBusiness = 'ECOMMERCE';
-} elseif (str_contains($typesString, 'LocalBusiness') || str_contains($typesString, 'Restaurant') || str_contains($typesString, 'Store')) {
-    $detectedBusiness = 'LOCAL_BUSINESS';
-} elseif (str_contains($typesString, 'NewsArticle') || str_contains($typesString, 'BlogPosting') || str_contains($typesString, 'Article')) {
-    $detectedBusiness = 'PUBLISHER';
-} else {
+// 10. DETERMINISTISCHE 12-SCHIENEN BUSINESS-ARCHETYPEN-ERKENNUNG (WEIGHTED SCORING)
+$scores = [
+    'FREELANCER_COACH' => 0, // Schiene 1: Freiberufler, Coaches & Solopreneure
+    'LOCAL_CRAFT'      => 0, // Schiene 2: Handwerk, Meisterbetriebe & Lokales Gewerbe
+    'B2B_SERVICE'      => 0, // Schiene 3: B2B Dienstleister, Beratungen, Agenturen & Kanzleien
+    'ECOMMERCE'        => 0, // Schiene 4: Online-Shops, D2C-Brands & Produkthersteller
+    'TECH_SAAS'        => 0, // Schiene 5: SaaS, Cloud-Plattformen & KI-Tools
+    'CORPORATE_ORG'    => 0, // Schiene 6: Mittelstand, Industrie & Konzerne (Holdings)
+    'PUBLISHER'        => 0, // Schiene 7: Publisher, Verlage, Fachmedien & Blogs
+    'HEALTHCARE'       => 0, // Schiene 8: Praxen, Ärzte & Kliniken
+    'HOSPITALITY'      => 0, // Schiene 9: Gastronomie & Hotellerie
+    'EDUCATION'        => 0, // Schiene 10: Bildungsträger, Akademien & Universitäten
+    'NGO_NONPROFIT'    => 0, // Schiene 11: Gemeinnützige Träger, Vereine & NGOs
+    'GOVERNMENT'       => 0  // Schiene 12: Behörden & Öffentliche Stellen
+];
+
+// Schiene 8: HEALTHCARE (Ärzte, Praxen, Kliniken, Therapeuten)
+$healthcareTypes = ['MedicalBusiness', 'Physician', 'Dentist', 'MedicalClinic', 'Hospital', 'Pharmacy', 'PhysicalTherapy', 'MedicalOrganization', 'DiagnosticLab'];
+foreach ($healthcareTypes as $ht) {
+    if (in_array($ht, $allUniqueTypes)) $scores['HEALTHCARE'] += 60;
+}
+if (in_array('medicalSpecialty', $allProperties)) $scores['HEALTHCARE'] += 40;
+
+// Schiene 9: HOSPITALITY (Gastronomie, Restaurants, Hotels)
+$hospitalityTypes = ['FoodEstablishment', 'Restaurant', 'CafeOrCoffeeShop', 'BarOrPub', 'FastFoodRestaurant', 'Bakery', 'Brewery', 'Winery', 'LodgingBusiness', 'Hotel', 'Motel', 'BedAndBreakfast', 'Resort'];
+foreach ($hospitalityTypes as $ht) {
+    if (in_array($ht, $allUniqueTypes)) $scores['HOSPITALITY'] += 60;
+}
+if (in_array('servesCuisine', $allProperties) || in_array('menu', $allProperties) || in_array('acceptsReservations', $allProperties)) $scores['HOSPITALITY'] += 40;
+
+// Schiene 10: EDUCATION (Bildungsträger, Akademien, Universitäten)
+$educationTypes = ['EducationalOrganization', 'CollegeOrUniversity', 'School', 'HighSchool', 'MiddleSchool', 'ElementarySchool', 'Preschool'];
+foreach ($educationTypes as $et) {
+    if (in_array($et, $allUniqueTypes)) $scores['EDUCATION'] += 60;
+}
+if (in_array('Course', $allUniqueTypes) || in_array('CourseInstance', $allUniqueTypes)) $scores['EDUCATION'] += 35;
+if (in_array('educationalCredentialAwarded', $allProperties) || in_array('courseCode', $allProperties)) $scores['EDUCATION'] += 25;
+
+// Schiene 11: NGO_NONPROFIT (Gemeinnützige Vereine, Stiftungen, NGOs)
+$ngoTypes = ['NGO', 'Nonprofit501cOrganization'];
+foreach ($ngoTypes as $nt) {
+    if (in_array($nt, $allUniqueTypes)) $scores['NGO_NONPROFIT'] += 70;
+}
+if (strpos($propsString, 'Vereinsregister') !== false || strpos($typesString, 'Nonprofit') !== false) $scores['NGO_NONPROFIT'] += 30;
+
+// Schiene 12: GOVERNMENT (Behörden, Öffentliche Verwaltungen, Kammern)
+$govTypes = ['GovernmentOrganization', 'GovernmentOffice', 'GovernmentService'];
+foreach ($govTypes as $gt) {
+    if (in_array($gt, $allUniqueTypes)) $scores['GOVERNMENT'] += 70;
+}
+
+// Schiene 4: ECOMMERCE (Online-Shops, D2C, Marktplätze)
+$ecomTypes = ['OnlineStore', 'Product', 'ProductGroup', 'IndividualProduct', 'SomeProducts'];
+foreach ($ecomTypes as $ect) {
+    if (in_array($ect, $allUniqueTypes)) $scores['ECOMMERCE'] += 40;
+}
+if (in_array('OnlineStore', $allUniqueTypes)) $scores['ECOMMERCE'] += 40;
+if (in_array('hasMerchantReturnPolicy', $allProperties) || in_array('shippingDetails', $allProperties)) $scores['ECOMMERCE'] += 35;
+if (in_array('offers', $allProperties) && (in_array('price', $allProperties) || in_array('priceCurrency', $allProperties))) $scores['ECOMMERCE'] += 25;
+
+// Schiene 5: TECH_SAAS (SaaS, Cloud-Plattformen, KI-Tools, Software)
+$saasTypes = ['SoftwareApplication', 'WebApplication', 'MobileApplication', 'SoftwareSourceCode', 'APIReference'];
+foreach ($saasTypes as $st) {
+    if (in_array($st, $allUniqueTypes)) $scores['TECH_SAAS'] += 50;
+}
+if (in_array('applicationCategory', $allProperties) || in_array('operatingSystem', $allProperties)) $scores['TECH_SAAS'] += 25;
+if (in_array('featureList', $allProperties) || in_array('softwareVersion', $allProperties)) $scores['TECH_SAAS'] += 20;
+
+// Schiene 7: PUBLISHER (Verlage, Magazine, Blogs, News-Portale)
+$pubTypes = ['NewsMediaOrganization', 'Periodical', 'PublicationIssue', 'NewsArticle'];
+foreach ($pubTypes as $pt) {
+    if (in_array($pt, $allUniqueTypes)) $scores['PUBLISHER'] += 50;
+}
+if (in_array('Article', $allUniqueTypes) || in_array('BlogPosting', $allUniqueTypes)) $scores['PUBLISHER'] += 25;
+if (in_array('speakable', $allProperties) || in_array('dateline', $allProperties)) $scores['PUBLISHER'] += 20;
+
+// Schiene 2: LOCAL_CRAFT (Handwerk, Meisterbetriebe, Lokales Gewerbe)
+$craftTypes = [
+    'HomeAndConstructionBusiness', 'Plumber', 'Electrician', 'RoofingContractor',
+    'GeneralContractor', 'Locksmith', 'HVACBusiness', 'PaintingService', 'AutomotiveBusiness',
+    'AutoRepair', 'Store', 'HardwareStore', 'DryCleaningOrLaundry'
+];
+foreach ($craftTypes as $ct) {
+    if (in_array($ct, $allUniqueTypes)) $scores['LOCAL_CRAFT'] += 60;
+}
+if (in_array('LocalBusiness', $allUniqueTypes)) {
+    // Falls LocalBusiness vorhanden ist, aber KEIN ProfessionalService oder Software vorliegt
+    if (!in_array('ProfessionalService', $allUniqueTypes) && !in_array('SoftwareApplication', $allUniqueTypes)) {
+        $scores['LOCAL_CRAFT'] += 40;
+    } else {
+        $scores['LOCAL_CRAFT'] += 15; // Positives Support-Signal bei Hybrid-B2B
+    }
+}
+if (in_array('openingHoursSpecification', $allProperties) || in_array('openingHours', $allProperties)) $scores['LOCAL_CRAFT'] += 15;
+if (in_array('geo', $allProperties)) $scores['LOCAL_CRAFT'] += 10;
+
+// Schiene 3: B2B_SERVICE (Dienstleister, Beratungen, Agenturen, Kanzleien)
+$b2bTypes = ['ProfessionalService', 'Consulting', 'LegalService', 'AccountingService', 'FinancialService', 'EmploymentAgency'];
+foreach ($b2bTypes as $bt) {
+    if (in_array($bt, $allUniqueTypes)) $scores['B2B_SERVICE'] += 55;
+}
+if (in_array('Service', $allUniqueTypes)) $scores['B2B_SERVICE'] += 30;
+if (in_array('hasOfferCatalog', $allProperties) || in_array('serviceType', $allProperties)) $scores['B2B_SERVICE'] += 25;
+if (in_array('knowsAbout', $allProperties)) $scores['B2B_SERVICE'] += 20;
+if (in_array('areaServed', $allProperties)) $scores['B2B_SERVICE'] += 15;
+
+// Schiene 1: FREELANCER_COACH (Freiberufler, Einzelunternehmer, Coaches, Speaker)
+if (in_array('Person', $allUniqueTypes)) {
+    $scores['FREELANCER_COACH'] += 25;
+    if (in_array('hasOccupation', $allProperties) || in_array('Occupation', $allUniqueTypes)) $scores['FREELANCER_COACH'] += 35;
+    if (in_array('alumniOf', $allProperties)) $scores['FREELANCER_COACH'] += 15;
+    if (!in_array('Corporation', $allUniqueTypes) && !in_array('OnlineStore', $allUniqueTypes)) {
+        $scores['FREELANCER_COACH'] += 15;
+    }
+}
+
+// Schiene 6: CORPORATE_ORG (Mittelstand, Industrie & Konzerne)
+if (in_array('Corporation', $allUniqueTypes)) $scores['CORPORATE_ORG'] += 50;
+if (in_array('parentOrganization', $allProperties) || in_array('subOrganization', $allProperties) || in_array('department', $allProperties)) $scores['CORPORATE_ORG'] += 35;
+if (in_array('numberOfEmployees', $allProperties)) $scores['CORPORATE_ORG'] += 20;
+if (in_array('Organization', $allUniqueTypes) && !in_array('LocalBusiness', $allUniqueTypes) && !in_array('ProfessionalService', $allUniqueTypes) && !in_array('OnlineStore', $allUniqueTypes)) {
+    $scores['CORPORATE_ORG'] += 30;
+}
+
+// Sieger ermitteln
+arsort($scores);
+$detectedBusiness = array_key_first($scores);
+$maxScore = reset($scores);
+
+if ($maxScore <= 0) {
     $detectedBusiness = 'B2B_SERVICE';
 }
 
@@ -399,44 +563,156 @@ if ($hasInLanguage) {
     ];
 }
 
-// Ebene 2: Archetypen-Fit (Max 35 Pkt)
-if ($detectedBusiness === 'ECOMMERCE') {
-    if (str_contains($typesString, 'Product')) $archetypeScore += 15;
-    if (str_contains($typesString, 'Offer')) $archetypeScore += 10;
-    if (str_contains($typesString, 'AggregateRating') || str_contains($typesString, 'Brand')) $archetypeScore += 10;
-    if ($archetypeScore < 20) {
-        $issues[] = [
-            "severity" => "warning",
-            "title" => "Unvollständiges E-Commerce Schema",
-            "desc" => "Produkte haben keine verknüpften Offers (Preis/Währung/Verfügbarkeit) oder Brand-Angaben."
-        ];
-    }
-} elseif ($detectedBusiness === 'LOCAL_BUSINESS') {
-    if (str_contains($typesString, 'LocalBusiness')) $archetypeScore += 15;
-    if (str_contains($typesString, 'PostalAddress') || str_contains($typesString, 'address')) $archetypeScore += 10;
-    if (str_contains($typesString, 'GeoCoordinates') || str_contains($typesString, 'openingHours')) $archetypeScore += 10;
-    if ($archetypeScore < 20) {
-        $issues[] = [
-            "severity" => "warning",
-            "title" => "Lokale Signale unvollständig",
-            "desc" => "Geo-Koordinaten, Öffnungszeiten oder vollständige Adress-Entitäten fehlen."
-        ];
-    }
-} elseif ($detectedBusiness === 'PUBLISHER') {
-    if (str_contains($typesString, 'Article') || str_contains($typesString, 'BlogPosting')) $archetypeScore += 15;
-    if (str_contains($typesString, 'Person')) $archetypeScore += 10;
-    if (str_contains($typesString, 'Organization')) $archetypeScore += 10;
-} else { // B2B_SERVICE
-    if (str_contains($typesString, 'Organization') || str_contains($typesString, 'ProfessionalService')) $archetypeScore += 15;
-    if (str_contains($typesString, 'Service')) $archetypeScore += 10;
-    if (str_contains($typesString, 'OfferCatalog') || str_contains($typesString, 'Offer')) $archetypeScore += 10;
-    if ($archetypeScore < 20) {
-        $issues[] = [
-            "severity" => "warning",
-            "title" => "Dienstleistungen nicht im Schema hinterlegt",
-            "desc" => "Deine Service-Seiten haben keine 'Service'-Entität mit 'provider'-Verknüpfung."
-        ];
-    }
+// Ebene 2: Differenzierter 12-Schienen Archetypen-Fit (Max 35 Pkt)
+switch ($detectedBusiness) {
+    case 'ECOMMERCE':
+        if (strpos($typesString, 'Product') !== false || in_array('OnlineStore', $allUniqueTypes)) $archetypeScore += 15;
+        if (strpos($typesString, 'Offer') !== false || in_array('offers', $allProperties)) $archetypeScore += 10;
+        if (in_array('hasMerchantReturnPolicy', $allProperties) || in_array('shippingDetails', $allProperties) || in_array('brand', $allProperties) || strpos($typesString, 'AggregateRating') !== false) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Unvollständiges E-Commerce Schema",
+                "desc" => "Produkte haben keine verknüpften Offers (Preis/Verfügbarkeit) oder Rückgaberichtlinien (MerchantReturnPolicy)."
+            ];
+        }
+        break;
+
+    case 'LOCAL_CRAFT':
+        if (in_array('LocalBusiness', $allUniqueTypes) || !empty(array_intersect($allUniqueTypes, $craftTypes))) $archetypeScore += 15;
+        if (in_array('PostalAddress', $allUniqueTypes) || in_array('address', $allProperties)) $archetypeScore += 10;
+        if (in_array('GeoCoordinates', $allUniqueTypes) || in_array('geo', $allProperties) || in_array('openingHoursSpecification', $allProperties) || in_array('openingHours', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Lokale Handwerks-Signale unvollständig",
+                "desc" => "Geo-Koordinaten, Öffnungszeiten oder vollständige Adress-Entitäten fehlen im LocalBusiness-Schema."
+            ];
+        }
+        break;
+
+    case 'TECH_SAAS':
+        if (in_array('SoftwareApplication', $allUniqueTypes) || in_array('WebApplication', $allUniqueTypes)) $archetypeScore += 15;
+        if (in_array('offers', $allProperties) || in_array('applicationCategory', $allProperties)) $archetypeScore += 10;
+        if (in_array('featureList', $allProperties) || in_array('operatingSystem', $allProperties) || in_array('softwareVersion', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "SaaS-Produktattribute unvollständig",
+                "desc" => "Deine SoftwareApplication hat keine Preispläne ('offers') oder Funktionslisten ('featureList') im Schema."
+            ];
+        }
+        break;
+
+    case 'HEALTHCARE':
+        if (!empty(array_intersect($allUniqueTypes, $healthcareTypes))) $archetypeScore += 15;
+        if (in_array('PostalAddress', $allUniqueTypes) || in_array('address', $allProperties)) $archetypeScore += 10;
+        if (in_array('openingHoursSpecification', $allProperties) || in_array('geo', $allProperties) || in_array('medicalSpecialty', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Praxisdaten unvollständig",
+                "desc" => "Sprechzeiten ('openingHoursSpecification'), Geo-Koordinaten oder die medizinische Fachrichtung fehlen."
+            ];
+        }
+        break;
+
+    case 'HOSPITALITY':
+        if (!empty(array_intersect($allUniqueTypes, $hospitalityTypes))) $archetypeScore += 15;
+        if (in_array('PostalAddress', $allUniqueTypes) || in_array('address', $allProperties)) $archetypeScore += 10;
+        if (in_array('servesCuisine', $allProperties) || in_array('menu', $allProperties) || in_array('openingHoursSpecification', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Gastronomie-Attribute unvollständig",
+                "desc" => "Speisekarte ('menu'), Küchenstil ('servesCuisine') oder Öffnungszeiten fehlen im Schema."
+            ];
+        }
+        break;
+
+    case 'EDUCATION':
+        if (!empty(array_intersect($allUniqueTypes, $educationTypes)) || in_array('Course', $allUniqueTypes)) $archetypeScore += 15;
+        if (in_array('educationalCredentialAwarded', $allProperties) || in_array('courseCode', $allProperties) || in_array('provider', $allProperties)) $archetypeScore += 10;
+        if (in_array('hasCourseInstance', $allProperties) || in_array('alumni', $allProperties) || in_array('address', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Bildungsangebote nicht strukturiert",
+                "desc" => "Kurse oder Studiengänge besitzen keine Kurs-Instanzen oder verknüpfte Zertifikats-Abschlüsse."
+            ];
+        }
+        break;
+
+    case 'NGO_NONPROFIT':
+        if (!empty(array_intersect($allUniqueTypes, $ngoTypes))) $archetypeScore += 15;
+        if (in_array('founder', $allProperties) || in_array('address', $allProperties) || in_array('identifier', $allProperties)) $archetypeScore += 10;
+        if (in_array('nonprofitStatus', $allProperties) || in_array('contactPoint', $allProperties) || in_array('sameAs', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Gemeinnützigkeits-Signale unvollständig",
+                "desc" => "Das NGO-Schema enthält keine Vereinsregister-Kennung ('identifier') oder Gründungsdaten."
+            ];
+        }
+        break;
+
+    case 'GOVERNMENT':
+        if (!empty(array_intersect($allUniqueTypes, $govTypes))) $archetypeScore += 15;
+        if (in_array('areaServed', $allProperties) || in_array('contactPoint', $allProperties)) $archetypeScore += 10;
+        if (in_array('address', $allProperties) || in_array('service', $allProperties)) $archetypeScore += 10;
+        break;
+
+    case 'PUBLISHER':
+        if (in_array('Article', $allUniqueTypes) || in_array('BlogPosting', $allUniqueTypes) || in_array('NewsArticle', $allUniqueTypes) || in_array('Periodical', $allUniqueTypes)) $archetypeScore += 15;
+        if (in_array('Person', $allUniqueTypes) || in_array('author', $allProperties)) $archetypeScore += 10;
+        if (in_array('Organization', $allUniqueTypes) || in_array('publisher', $allProperties) || in_array('speakable', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Redaktionelle Autorenschaft fehlt",
+                "desc" => "Artikel enthalten keine relational verknüpften Autoren-Knoten ('author') mit Person-Schema."
+            ];
+        }
+        break;
+
+    case 'FREELANCER_COACH':
+        if (in_array('Person', $allUniqueTypes)) $archetypeScore += 15;
+        if (in_array('hasOccupation', $allProperties) || in_array('Occupation', $allUniqueTypes) || in_array('knowsAbout', $allProperties)) $archetypeScore += 10;
+        if (in_array('worksFor', $allProperties) || in_array('founder', $allProperties) || in_array('sameAs', $allProperties) || in_array('alumniOf', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Experten-Profil nicht tief strukturiert",
+                "desc" => "Die Person besitzt keine Berufsbezeichnung ('hasOccupation'), Fachgebiete ('knowsAbout') oder Gründungs-Relationen."
+            ];
+        }
+        break;
+
+    case 'CORPORATE_ORG':
+        if (in_array('Corporation', $allUniqueTypes) || in_array('Organization', $allUniqueTypes)) $archetypeScore += 15;
+        if (in_array('legalName', $allProperties) || in_array('identifier', $allProperties) || in_array('vatID', $allProperties)) $archetypeScore += 10;
+        if (in_array('parentOrganization', $allProperties) || in_array('subOrganization', $allProperties) || in_array('numberOfEmployees', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Konzern-Struktur unvollständig",
+                "desc" => "Handelsregister-Kennung ('identifier'), Rechtsform ('legalName') oder Mitarbeiterzahlen fehlen im Unternehmens-Schema."
+            ];
+        }
+        break;
+
+    default: // B2B_SERVICE
+        if (in_array('Organization', $allUniqueTypes) || in_array('ProfessionalService', $allUniqueTypes)) $archetypeScore += 15;
+        if (in_array('Service', $allUniqueTypes) || in_array('knowsAbout', $allProperties) || in_array('provider', $allProperties) || in_array('hasOfferCatalog', $allProperties)) $archetypeScore += 10;
+        if (in_array('areaServed', $allProperties) || in_array('contactPoint', $allProperties) || in_array('geo', $allProperties) || in_array('openingHoursSpecification', $allProperties)) $archetypeScore += 10;
+        if ($archetypeScore < 20) {
+            $issues[] = [
+                "severity" => "warning",
+                "title" => "Dienstleistungen nicht im Schema hinterlegt",
+                "desc" => "Deine Service-Seiten haben keine 'Service'-Entität mit 'provider'-Verknüpfung."
+            ];
+        }
+        break;
 }
 
 // Ebene 3: Entity Grounding & 2026 Standards (Max 25 Pkt)
@@ -453,14 +729,18 @@ if ($hasWikidata) {
 if ($hasPersonOrgLink) {
     $groundingScore += 10;
 } else {
-    $issues[] = [
-        "severity" => "warning",
-        "title" => "Person und Unternehmen nicht verknüpft",
-        "desc" => "Die handelnden Experten/Autoren sind nicht relational als Gründer oder Mitarbeiter mit der Organisation verbunden."
-    ];
+    if ($detectedBusiness !== 'GOVERNMENT' && $detectedBusiness !== 'CORPORATE_ORG') {
+        $issues[] = [
+            "severity" => "warning",
+            "title" => "Person und Unternehmen nicht verknüpft",
+            "desc" => "Die handelnden Experten/Autoren sind nicht relational als Gründer oder Mitarbeiter mit der Organisation verbunden."
+        ];
+    } else {
+        $groundingScore += 10; // Institutionelle Integrität
+    }
 }
 
-if (str_contains($typesString, 'SpeakableSpecification') || str_contains($typesString, 'speakable')) {
+if (strpos($typesString, 'SpeakableSpecification') !== false || in_array('speakable', $allProperties) || in_array('hasOccupation', $allProperties) || strpos($typesString, 'VideoObject') !== false || strpos($typesString, 'AudioObject') !== false) {
     $groundingScore += 5;
 }
 
@@ -477,12 +757,25 @@ $typeColors = [
     'LocalBusiness' => '#a855f7',
     'ProfessionalService' => '#a855f7',
     'Corporation' => '#a855f7',
+    'MedicalBusiness' => '#ec4899',
+    'Physician' => '#ec4899',
+    'Dentist' => '#ec4899',
+    'Hospital' => '#ec4899',
+    'FoodEstablishment' => '#f97316',
+    'Restaurant' => '#f97316',
+    'LodgingBusiness' => '#f97316',
+    'EducationalOrganization' => '#6366f1',
+    'Course' => '#6366f1',
+    'NGO' => '#14b8a6',
+    'Nonprofit501cOrganization' => '#14b8a6',
+    'GovernmentOrganization' => '#64748b',
     'WebSite' => '#f59e0b',
     'WebPage' => '#f59e0b',
     'ItemPage' => '#f59e0b',
     'AboutPage' => '#f59e0b',
     'ContactPage' => '#f59e0b',
     'Product' => '#10b981',
+    'OnlineStore' => '#10b981',
     'Service' => '#10b981',
     'Offer' => '#10b981',
     'OfferCatalog' => '#10b981',
@@ -490,29 +783,92 @@ $typeColors = [
     'NewsArticle' => '#10b981',
     'BlogPosting' => '#10b981',
     'Blog' => '#f59e0b',
+    'SoftwareApplication' => '#06b6d4',
     'DefinedTermSet' => '#84cc16',
     'DefinedTerm' => '#84cc16',
     'Quotation' => '#84cc16',
     'SpeakableSpecification' => '#06b6d4'
 ];
 
-// Sammle Entitäten
+// Sammle Entitäten mit strikter Deduplizierung nach @id
 $rawEntities = [];
+$seenEntityIds = [];
+
 foreach ($allExtractedBlocks as $pageKey => $blocks) {
     foreach ($blocks as $block) {
         if (isset($block['_syntaxError'])) continue;
         $items = isset($block['@graph']) && is_array($block['@graph']) ? $block['@graph'] : [$block];
         foreach ($items as $item) {
             if (!is_array($item)) continue;
+
+            $id = $item['@id'] ?? null;
+            if ($id && isset($seenEntityIds[$id])) {
+                continue; // Verhindere doppelte Knoten über verschiedene Seiten hinweg!
+            }
+            if ($id) {
+                $seenEntityIds[$id] = true;
+            }
             $rawEntities[] = $item;
         }
     }
 }
 
 if (!empty($rawEntities)) {
+    // Sortiere Entitäten nach semantischer Hierarchie für ein sauberes Layout
+    $priorityOrder = [
+        'Person' => 1,
+        'Physician' => 1,
+        'Dentist' => 1,
+        'ProfessionalService' => 2,
+        'Organization' => 2,
+        'LocalBusiness' => 2,
+        'Corporation' => 2,
+        'MedicalBusiness' => 2,
+        'FoodEstablishment' => 2,
+        'Restaurant' => 2,
+        'LodgingBusiness' => 2,
+        'EducationalOrganization' => 2,
+        'NGO' => 2,
+        'Nonprofit501cOrganization' => 2,
+        'GovernmentOrganization' => 2,
+        'WebSite' => 3,
+        'Service' => 4,
+        'Product' => 4,
+        'OnlineStore' => 4,
+        'Course' => 4,
+        'SoftwareApplication' => 4,
+        'Blog' => 5,
+        'Article' => 5,
+        'NewsArticle' => 5,
+        'BlogPosting' => 5,
+        'DefinedTermSet' => 5,
+        'Quotation' => 6,
+        'DefinedTerm' => 6,
+        'WebPage' => 7
+    ];
+
+    usort($rawEntities, function($a, $b) use ($priorityOrder) {
+        $typeA = is_array($a['@type'] ?? '') ? reset($a['@type']) : ($a['@type'] ?? 'Thing');
+        $typeB = is_array($b['@type'] ?? '') ? reset($b['@type']) : ($b['@type'] ?? 'Thing');
+        $prioA = $priorityOrder[$typeA] ?? 99;
+        $prioB = $priorityOrder[$typeB] ?? 99;
+        return $prioA <=> $prioB;
+    });
+
     // Max 6 repräsentative Entitäten für sauberes Layout
     $sampledEntities = array_slice($rawEntities, 0, 6);
     $totalCount = count($sampledEntities);
+
+    // Architektonische Koordinaten für bis zu 6 Entitäten (analog zum Master-Graph):
+    // Links: Person & Organization | Mitte: WebSite | Rechts: Services, Content, Zitate
+    $layoutCoords = [
+        0 => ['x' => 90,  'y' => 90],   // Node 0: Person / Autor
+        1 => ['x' => 90,  'y' => 260],  // Node 1: Organization / Brand
+        2 => ['x' => 280, 'y' => 175],  // Node 2: WebSite
+        3 => ['x' => 470, 'y' => 90],   // Node 3: Service / Product
+        4 => ['x' => 470, 'y' => 260],  // Node 4: Content / Blog
+        5 => ['x' => 640, 'y' => 175]   // Node 5: Term / Quotation / Detail
+    ];
 
     foreach ($sampledEntities as $idx => $ent) {
         $type = $ent['@type'] ?? 'Thing';
@@ -521,11 +877,8 @@ if (!empty($rawEntities)) {
         $id = $ent['@id'] ?? ("_node_" . $idx);
         $color = $typeColors[$type] ?? '#3b82f6';
 
-        // Anordnung im Raster
-        $col = $idx % 3;
-        $row = (int)($idx / 3);
-        $x = 120 + ($col * 240);
-        $y = 110 + ($row * 140);
+        $x = $layoutCoords[$idx]['x'] ?? (120 + (($idx % 3) * 240));
+        $y = $layoutCoords[$idx]['y'] ?? (110 + (((int)($idx / 3)) * 140));
 
         $nodeObj = [
             'id' => $id,
@@ -537,7 +890,12 @@ if (!empty($rawEntities)) {
             'isConnected' => $hasGraphContainer,
             'props' => array_intersect_key($ent, array_flip([
                 '@type', '@id', 'name', 'headline', 'url', 'inLanguage', 'sameAs',
-                'author', 'publisher', 'founder', 'provider', 'price', 'priceCurrency', 'address'
+                'author', 'publisher', 'founder', 'provider', 'price', 'priceCurrency',
+                'address', 'geo', 'openingHoursSpecification', 'telephone', 'email',
+                'knowsAbout', 'knowsLanguage', 'hasOccupation', 'slogan', 'currenciesAccepted',
+                'medicalSpecialty', 'servesCuisine', 'menu', 'applicationCategory', 'operatingSystem',
+                'hasMerchantReturnPolicy', 'shippingDetails', 'legalName', 'identifier', 'vatID',
+                'taxID', 'aggregateRating', 'educationalCredentialAwarded', 'courseCode', 'featureList'
             ]))
         ];
 

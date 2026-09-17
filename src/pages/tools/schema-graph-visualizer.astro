@@ -161,6 +161,18 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
       <!-- RESULTS CONTAINER -->
       <div id="results-container" class="space-y-8 hidden">
         
+        <!-- Domain Label & Share Scan Banner -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-gray-50 p-4 md:px-6 rounded-2xl border border-gray-200">
+          <div class="flex items-center gap-2 text-sm text-dark font-medium truncate">
+            <span class="text-gray-400">Analysierte Domain:</span>
+            <strong id="analyzed-domain-label" class="font-mono text-dark truncate">-</strong>
+          </div>
+          <button id="btn-share-scan" type="button" class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white border border-gray-300 text-dark hover:bg-gray-100 hover:border-gray-400 text-xs font-bold transition-all shadow-sm cursor-pointer shrink-0">
+            <svg class="w-4 h-4 text-lime-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+            <span id="share-scan-text">Link zu diesem Scan teilen</span>
+          </button>
+        </div>
+
         <!-- 1. KPI Score & Overview Card -->
         <div class="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-100">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
@@ -435,6 +447,31 @@ const optimizedOgImage = await getImage({ src: ogHeroImage, format: 'webp', widt
               Manche Websites blockieren automatisierte Server-Abfragen mit einem HTTP 403 Forbidden. Für diesen Fall bietet das Tool einen manuellen Modus: Klicke oben auf <strong>„Quelltext / JSON-LD manuell“</strong> und füge deinen Code direkt ein. Der Visualizer analysiert und rendert deinen Graphen ohne jede Einschränkung direkt im Browser.
             </div>
           </details>
+        </div>
+      </div>
+
+      <!-- Dezenter Consulting-Hinweis (Monetarisierungs-Brücke) -->
+      <div class="my-12 bg-white rounded-3xl p-8 md:p-10 border border-gray-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="space-y-2 max-w-2xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-50 border border-lime-200 text-lime-800 text-xs font-bold">
+            <span>🛠️</span>
+            <span>Praxis-Support & Consulting</span>
+          </div>
+          <h3 class="text-xl md:text-2xl font-bold text-dark mb-1">
+            Deinen Knowledge Graph professionell optimieren lassen?
+          </h3>
+          <p class="text-gray-600 text-sm leading-relaxed mb-0">
+            Möchtest du isolierte Dateninseln auflösen, deine Entitäten über Wikidata im semantischen Web verankern oder deine Website für generative Answer Engines (GEO & KI-Suche) rüsten? Jörg Zimmer unterstützt dich persönlich mit 25 Jahren technischer SEO-Praxis.
+          </p>
+        </div>
+        <div class="shrink-0 flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+          <a href="/kontakt/" class="btn-primary text-center justify-center whitespace-nowrap">
+            <span>Sprechstunde anfragen</span>
+            <span aria-hidden="true">→</span>
+          </a>
+          <a href="/leistungen/" class="btn-secondary text-center justify-center whitespace-nowrap">
+            <span>Alle Leistungen & Pakete</span>
+          </a>
         </div>
       </div>
 

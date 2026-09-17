@@ -422,8 +422,32 @@ function initVisualizer() {
 
   // Render Full Results
   function renderAnalysisResults(data) {
-    currentAnalysisData = data;
-    resultsContainer.classList.remove('hidden');
+    // 0. Update Domain Label & Share Link
+    const shareDomainLabel = document.getElementById('analyzed-domain-label');
+    const shareBtn = document.getElementById('btn-share-scan');
+    const shareText = document.getElementById('share-scan-text');
+    if (shareDomainLabel) {
+      shareDomainLabel.textContent = data.domain || (targetUrlInput ? targetUrlInput.value : '');
+    }
+    if (shareBtn) {
+      shareBtn.onclick = () => {
+        const domainToShare = data.domain && !data.domain.startsWith('http') ? 'https://' + data.domain : (targetUrlInput ? targetUrlInput.value : data.domain);
+        const fullShareUrl = window.location.origin + window.location.pathname + '?url=' + encodeURIComponent(domainToShare);
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(fullShareUrl).then(() => {
+            if (shareText) {
+              const original = shareText.textContent;
+              shareText.textContent = 'Link kopiert! ✓';
+              setTimeout(() => { shareText.textContent = original; }, 2500);
+            }
+          }).catch(() => {
+            prompt('Diesen Link teilen:', fullShareUrl);
+          });
+        } else {
+          prompt('Diesen Link teilen:', fullShareUrl);
+        }
+      };
+    }
 
     // 1. KPI Badges & Score
     const totalScore = data.healthScore.total;
@@ -1144,6 +1168,25 @@ function initVisualizer() {
         }
       }
     }
+  }
+
+  // URL-Parameter Auto-Crawl (z. B. ?url=https://spiegel.de oder ?crawl=...)
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const crawlParam = urlParams.get('url') || urlParams.get('crawl');
+    if (crawlParam && targetUrlInput && btnAnalyze) {
+      let cleanUrl = crawlParam.trim();
+      if (!cleanUrl.startsWith('http://') && !cleanUrl.startsWith('https://')) {
+        cleanUrl = 'https://' + cleanUrl;
+      }
+      targetUrlInput.value = cleanUrl;
+      // Kurze Verzögerung für sauberes Laden des DOMs
+      setTimeout(() => {
+        btnAnalyze.click();
+      }, 350);
+    }
+  } catch (err) {
+    console.error('URL-Parameter konnte nicht verarbeitet werden:', err);
   }
 }
 

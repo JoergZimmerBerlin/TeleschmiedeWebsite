@@ -208,6 +208,31 @@ Entity SEO bildet das unverzichtbare Fundament der Generative Engine Optimizatio
 
 Einen detaillierten Überblick über Software zur Messung Ihrer Entitätspräsenz finden Sie in unserem Bericht über die [Top 9 AI Visibility Tools](/blog/top-9-ai-visibility-tools/). Die Investitionskosten für semantische Modellierung und technische Graphen können Sie transparent im [SEO-Tool Kostenrechner](/tools/seo-tool-kostenrechner/) kalkulieren.
 
+<div class="my-10 bg-dark text-white p-6 md:p-8 rounded-3xl border border-white/10 shadow-md relative not-prose">
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-4">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-400/10 border border-lime-400/30 text-lime-accent text-xs font-bold">
+      <span>🌐</span>
+      <span>Kostenloser Live-Scanner</span>
+    </div>
+    <span class="text-xs text-gray-400 font-mono hidden sm:inline">100% kostenlos &amp; ohne Registrierung</span>
+  </div>
+  <h3 class="text-xl md:text-2xl font-bold text-white mb-2 !mt-0 !border-none !pb-0 leading-snug">
+    Deinen Schema.org Graph live im Visualizer prüfen
+  </h3>
+  <p class="text-gray-300 text-sm md:text-base leading-relaxed max-w-2xl mb-6">
+    Prüfe deine Entitäts-Verknüpfungen auf isolierte Dateninseln und teste deinen 3-Ebenen Entity Health Score in Echtzeit.
+  </p>
+  <div class="flex flex-wrap items-center gap-4">
+    <a href="/tools/schema-graph-visualizer/" class="btn-primary">
+      <span>Domain im Visualizer prüfen</span>
+      <span aria-hidden="true">→</span>
+    </a>
+    <a href="/tools/entitaeten-graph-generator/" class="text-xs font-semibold text-gray-400 hover:text-white transition-colors">
+      Oder Entitäten Graph Generator nutzen →
+    </a>
+  </div>
+</div>
+
 <div class="my-10 bg-dark text-white p-8 rounded-3xl border border-white/10 text-center shadow-md not-prose">
   <span class="text-xs uppercase tracking-widest text-lime-accent font-mono font-bold mb-3 block">
     Aus Jörgs LinkedIn-Feed

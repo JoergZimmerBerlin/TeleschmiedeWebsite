@@ -117,6 +117,98 @@ const offers = [
     </div>
   </section>
 
+  <!-- Tools Showcase Section -->
+  <section class="section bg-white border-t border-gray-100">
+    <div class="container-narrow">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <p class="subheadline mb-3">Interaktive Werkzeuge</p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          Kostenlose Entwickler- &amp; <span class="highlight">Entity-Tools</span>
+        </h2>
+        <p class="text-gray-muted text-base md:text-lg">
+          Praxiserprobte Spezialwerkzeuge für semantisches SEO, Knowledge Graphs und KI-Sichtbarkeit – direkt im Browser ohne Registrierung nutzbar.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+        
+        <!-- Tool 1: Schema Graph Visualizer -->
+        <div class="bg-gray-50 hover:bg-gray-100/80 rounded-3xl p-6 md:p-8 border border-gray-200 transition-all flex flex-col justify-between group shadow-sm hover:shadow-md">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="text-2xl">🌐</span>
+              <span class="px-2.5 py-1 rounded-full bg-lime-100 text-lime-800 text-xs font-bold">
+                Live-Scanner
+              </span>
+            </div>
+            <h3 class="text-xl font-bold text-dark mb-2 group-hover:text-lime-700 transition-colors">
+              Schema-Graph-Visualizer
+            </h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-6">
+              Visualisiere deinen Schema.org Knowledge Graph in Echtzeit: Entlarve isolierte Dateninseln, prüfe den 3-Ebenen Entity Health Score und vergleiche Ist- mit Soll-Zustand.
+            </p>
+          </div>
+          <a href={`${baseUrl}/tools/schema-graph-visualizer/`} class="btn-primary text-center justify-center text-sm w-full" title="Schema Graph Visualizer">
+            <span>Domain live prüfen</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Tool 2: Entitäten Graph Generator -->
+        <div class="bg-gray-50 hover:bg-gray-100/80 rounded-3xl p-6 md:p-8 border border-gray-200 transition-all flex flex-col justify-between group shadow-sm hover:shadow-md">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="text-2xl">⚡</span>
+              <span class="px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 text-xs font-bold">
+                JSON-LD Graph
+              </span>
+            </div>
+            <h3 class="text-xl font-bold text-dark mb-2 group-hover:text-lime-700 transition-colors">
+              Entitäten Graph Generator
+            </h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-6">
+              Erzeuge monolithischen Schema.org JSON-LD Code nach modernsten Ontologie-Standards – mit Wikidata sameAs Verankerung und Person-Organization-Relationen.
+            </p>
+          </div>
+          <a href={`${baseUrl}/tools/entitaeten-graph-generator/`} class="btn-secondary text-center justify-center text-sm w-full bg-white hover:bg-dark hover:text-white" title="Entitäten Graph Generator">
+            <span>Graph-Code erstellen</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Tool 3: Grounding Page Generator -->
+        <div class="bg-gray-50 hover:bg-gray-100/80 rounded-3xl p-6 md:p-8 border border-gray-200 transition-all flex flex-col justify-between group shadow-sm hover:shadow-md">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="text-2xl">🤖</span>
+              <span class="px-2.5 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold">
+                AI &amp; GEO Prompt
+              </span>
+            </div>
+            <h3 class="text-xl font-bold text-dark mb-2 group-hover:text-lime-700 transition-colors">
+              Grounding Page Generator
+            </h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-6">
+              Erstelle mit einem Klick den perfekten System-Prompt für ChatGPT, Claude und Cursor für eine vollständige Grounding Page als zentrale Source of Truth.
+            </p>
+          </div>
+          <a href={`${baseUrl}/tools/groundingpage-generator/`} class="btn-secondary text-center justify-center text-sm w-full bg-white hover:bg-dark hover:text-white" title="Grounding Page Generator">
+            <span>Prompt generieren</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="text-center">
+        <a href={`${baseUrl}/tools/`} class="inline-flex items-center gap-2 text-sm font-bold text-dark hover:text-lime-600 transition-colors">
+          <span>Alle kostenlosen SEO &amp; AI Tools ansehen</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <Stats />
   <Expertise />
   <Testimonials />

@@ -260,7 +260,7 @@ Nach der Installation wählst du den Modus **„Erweitert“ (Advanced)**. Rank 
 Wenn du zuvor Yoast SEO, All in One SEO oder das SEOPress-Plugin genutzt hast, erkennt Rank Math dies sofort. Starte den automatischen Datenimport: Alle Metatitel, Descriptions und Weiterleitungen werden 1:1 übernommen. Deaktiviere danach das alte Plugin, um Duplikate zu vermeiden.
 
 ### Schritt 3: Website-Typ & Knowledge Graph konfigurieren
-Definiere, ob es sich um einen persönlichen Blog, ein Unternehmen oder einen Online-Shop handelt. Lade dein Firmenlogo (mindestens 112x112 Pixel, idealerweise 512x512 Pixel) und das Standard-Vorschaubild für soziale Netzwerke (OpenGraph, 1200x630 Pixel) hoch.
+Definiere, ob es sich um einen persönlichen Blog, ein Unternehmen oder einen Online-Shop handelt. Lade dein Firmenlogo (mindestens 112x112 Pixel, idealerweise 512x512 Pixel) und das Standard-Vorschaubild für soziale Netzwerke ([Open Graph](/glossar/open-graph/), 1200x630 Pixel) hoch.
 
 ### Schritt 4: Sitemaps & IndexNow scharfschalten
 * Aktiviere die XML-Sitemap.

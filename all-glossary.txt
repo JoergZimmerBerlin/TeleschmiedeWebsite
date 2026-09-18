@@ -121,6 +121,7 @@ money-keyword
 noindex
 oauth-oidc-discovery
 oauth-protected-resource
+open-graph
 otterly-ai
 pagespeed
 peec-ai

@@ -1,14 +1,14 @@
 ---
 title: "Sistrix Podcast: Entitäten Mapping mit Björn Darko"
 meta_title: "Entitäten Mapping: Sistrix Insights (2026)"
-description: "Entitäten Mapping im Sistrix Podcast mit Björn Darko und Max Muhr. So helfen Knowledge Graph API und Entitäten beim Aufbau von SEO-Relevanz. (2026)"
-meta_description: "Entitäten Mapping im Sistrix Podcast mit Björn Darko und Max Muhr. So helfen Knowledge Graph API und Entitäten beim Aufbau von SEO-Relevanz. (2026)"
+description: "Sistrix Podcast mit Björn Darko und Maximilian D. Muhr: Wie Knowledge Graph API und Entitäten beim Aufbau starker SEO-Relevanz helfen. (2026)"
+meta_description: "Sistrix Podcast mit Björn Darko und Maximilian D. Muhr: Wie Knowledge Graph API und Entitäten beim Aufbau starker SEO-Relevanz helfen. (2026)"
 date: "2026-07-31"
 category: "Events & Networking"
 linkedin_url: "https://www.linkedin.com/posts/joerg-zimmer-seo-sea-freelancer-berlin-spandau_komme-gerade-aus-dem-sistrix-podcast-mit-activity-7487830961796050946-qKcE"
 image: "../../assets/images/blog/linkedin-sistrix-podcast.jpg"
 image_alt: "Sistrix Podcast Entitäten Mapping"
-tags: ["Sistrix Podcast", "Entitäten", "Knowledge Graph", "Google", "SEO", "Björn Darko", "Max Muhr"]
+tags: ["Sistrix Podcast", "Entitäten", "Knowledge Graph", "Google", "SEO", "Björn Darko", "Maximilian D. Muhr"]
 about_entity:
   name: "Sistrix"
   sameAs: "https://www.wikidata.org/wiki/Q97199261"
@@ -45,7 +45,7 @@ Während sich viele Marketer noch immer an statischen Keyword-Dichten festklamme
 
 ### Praxis-Check mit poliSYS: Maschinelle Identität und Google KGMID live auslesen
 
-Wie sieht die Abfrage des Google Knowledge Graph in der Realität aus? Mit dem kostenlosen Entity Discover Tool von Maximilian Muhr lässt sich sekundenschnell prüfen, ob eine Personenmarke oder ein Unternehmen von Google als vollwertige Entität anerkannt ist:
+Wie sieht die Abfrage des Google Knowledge Graph in der Realität aus? Mit dem kostenlosen Entity Discover Tool von Maximilian D. Muhr lässt sich sekundenschnell prüfen, ob eine Personenmarke oder ein Unternehmen von Google als vollwertige Entität anerkannt ist:
 
 ![Praxis-Check: poliSYS Entity Discover Tool fragt die Google Knowledge Graph Search API ab](/assets/images/tools/polisys-entity-discover-tool.webp)
 
@@ -117,7 +117,7 @@ Als ich meine Erfahrungen mit der Beanspruchung des Google Knowledge Panels auf 
 
 ### Strategische Einordnung für SEO und Entity-Building
 
-Die Verknüpfung von [Entitäts-SEO](/glossar/entity-seo/) und dem gezielten Aufbau von [Topical Authority](/glossar/topical-authority/) entscheidet darüber, ob deine Website in generativen Suchsystemen zitiert wird. Ähnliche Ansätze diskutierten wir bereits im [SEOpresso Podcast mit Max Muhr](/blog/seopresso-podcast-maximilian-muhr/) und beim regelmäßigen Netzwerken auf dem [SEO-Stammtisch Berlin](/blog/seo-stammtisch-berlin-axel-springer/).
+Die Verknüpfung von [Entitäts-SEO](/glossar/entity-seo/) und dem gezielten Aufbau von [Topical Authority](/glossar/topical-authority/) entscheidet darüber, ob deine Website in generativen Suchsystemen zitiert wird. Ähnliche Ansätze diskutierten wir bereits im [SEOpresso Podcast mit Maximilian D. Muhr](/blog/seopresso-podcast-maximilian-muhr/) und beim regelmäßigen Netzwerken auf dem [SEO-Stammtisch Berlin](/blog/seo-stammtisch-berlin-axel-springer/).
 
 Wenn du prüfen möchtest, wie Google und ChatGPT deine Marke aktuell im Knowledge Graph einordnen, analysieren wir deine Entitäten-Struktur gerne gemeinsam in der [SEO-Sprechstunde](/seo-sprechstunde/).
 

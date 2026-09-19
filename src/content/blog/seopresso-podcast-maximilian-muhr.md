@@ -1,25 +1,25 @@
 ---
-title: "SEOpresso Podcast: Meine Empfehlung mit Max Muhr"
-meta_title: "SEOpresso Podcast: Max Muhr im Talk (2026)"
-description: "SEOpresso Podcast: Max Muhr teilt 15 Jahre Erfahrung. Höre Insights zu Entitäten-Optimierung, Burnout und echte Tacheles-Tipps für Experten. (2026)"
-meta_description: "SEOpresso Podcast: Max Muhr teilt 15 Jahre Erfahrung. Höre Insights zu Entitäten-Optimierung, Burnout und echte Tacheles-Tipps für Experten. (2026)"
+title: "SEOpresso Podcast: Meine Empfehlung mit Maximilian D. Muhr"
+meta_title: "SEOpresso Podcast: Maximilian D. Muhr im Talk (2026)"
+description: "SEOpresso Podcast: Maximilian D. Muhr teilt 15 Jahre Erfahrung. Insights zu Entitäten, Burnout und echte Tacheles-Tipps für SEO-Experten. (2026)"
+meta_description: "SEOpresso Podcast: Maximilian D. Muhr teilt 15 Jahre Erfahrung. Insights zu Entitäten, Burnout und echte Tacheles-Tipps für SEO-Experten. (2026)"
 date: "2026-01-28"
 category: "SEO Praxis"
 image: "../../assets/images/blog/seopresso-max-muhr.webp"
-image_alt: "SEOPRESSO Podcast Interview mit Maximilian Muhr"
+image_alt: "SEOPRESSO Podcast Interview mit Maximilian D. Muhr"
 tags: ["Interview & Podcast", "SEO Praxis", "Entitäten", "Tech SEO"]
 about_entity:
   name: "SEOpresso"
   sameAs: "https://seopresso.de/"
 key_takeaways:
-  - "Max Muhr beweist: Von der Zeitarbeit bei BILD.de zum Managing Director – radikale Eigeninitiative schlägt jedes theoretische Studium."
+  - "Maximilian D. Muhr beweist: Von der Zeitarbeit bei BILD.de zum Managing Director – radikale Eigeninitiative schlägt jedes theoretische Studium."
   - "Der Wandel von reiner Keyword-Recherche zur semantischen Entitäten-Optimierung ist die entscheidende Brücke zur generativen Suche (GEO)."
   - "Expertise wird nach erzielter Wirkung bezahlt, nicht nach bloßen Arbeitsstunden."
   - "Authentischer E-E-A-T-Fokus: Offenheit über Fehltritte, Konzernpolitik und mentale Gesundheit schafft echtes Vertrauen."
 faqs:
   - question: "Was ist der SEOpresso Podcast und welches Konzept verfolgt das Format?"
     answer: "SEOpresso ist ein etabliertes deutschsprachiges Podcast-Format von Björn Darko. Anstelle austauschbarer 10-Punkte-Checklisten stehen persönliche Entwicklungswege, strategische Weichenstellungen und ungeschminkte Praxiserfahrungen führender Köpfe der Suchbranche im Mittelpunkt."
-  - question: "Was unterscheidet Maximilian Muhrs Ansatz von klassischer Keyword-Optimierung?"
+  - question: "Was unterscheidet Maximilian D. Muhrs Ansatz von klassischer Keyword-Optimierung?"
     answer: "Klassisches SEO fragt isoliert: 'Welche Suchbegriffe tippen Nutzer ein?' Der Entitäten-Ansatz von Max bei poliSYS fragt stattdessen: 'Welche thematischen Konzepte, Relationen und Wissensstrukturen verbinden die Algorithmen miteinander?' In Zeiten generativer Answer Engines ist dieses semantische Verständnis erfolgskritisch."
   - question: "Warum empfiehlt Jörg Zimmer diese Episode ganz besonders?"
     answer: "Weil hier zwei Jahrzehnte gelebte Praxis spürbar werden. Max spricht ehrlich über die Schattenseiten des Konzernalltags, Reorganisationen bei Axel Springer und den Mut, aus alten Mustern auszubrechen. Echter Klartext statt Marketing-Sprech."
@@ -35,7 +35,7 @@ Genau so beginnt eine herausragende Podcast-Folge: Unerwartete Anekdoten, gelebt
 
 Maximilian D. Muhr erzählt im SEOpresso-Podcast bei Björn Darko Dinge, die man selbst nach [24 Jahre SEO-Erfahrung](/blog/24-jahre-seo-gleiche-fehler/) selten in dieser Klarheit zu hören bekommt. Max ist kein theoretischer Folienschubser. Er ist ein Vollblut-Praktiker, der die ganz großen Schiffe der deutschen Medienlandschaft gesteuert und vor dem Absaufen bewahrt hat.
 
-| Themenbereich | Kernaussage von Max Muhr | Strategisches Learning für die Praxis |
+| Themenbereich | Kernaussage von Maximilian D. Muhr | Strategisches Learning für die Praxis |
 | :--- | :--- | :--- |
 | **Karrierestart** | Über Zeitarbeit zu BILD.de, Chuck-Norris-Texte getextet | Eigeninitiative & Neugier schlagen jedes Uni-Diplom |
 | **Konzernpolitik** | Komplexe Machtkämpfe im Verlagswesen überstanden | Erkennen, wann eine Reorganisation toxisch wird |

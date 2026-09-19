@@ -301,7 +301,7 @@ The server will respond with clean, semantic Markdown instead of HTML.
 - SEORCH Tool: Kostenloses OnPage-Werkzeug für Macher
 - SEORCH AI Check: Kostenloses Tool für AI Readiness
 - SEO Persönlich: Mein Interview bei SEOpresso
-- SEOpresso Podcast: Meine Empfehlung mit Max Muhr
+- SEOpresso Podcast: Meine Empfehlung mit Maximilian D. Muhr
 - SEO wird größer: GEO Welle für den Markenaufbau nutzen
 - Der SEO Stammtisch Berlin auf der Dachterrasse bei Axel Springer
 - Wie läuft so eine SEO-Sprechstunde genau ab?
@@ -43232,7 +43232,7 @@ Während sich viele Marketer noch immer an statischen Keyword-Dichten festklamme
 
 ### Praxis-Check mit poliSYS: Maschinelle Identität und Google KGMID live auslesen
 
-Wie sieht die Abfrage des Google Knowledge Graph in der Realität aus? Mit dem kostenlosen Entity Discover Tool von Maximilian Muhr lässt sich sekundenschnell prüfen, ob eine Personenmarke oder ein Unternehmen von Google als vollwertige Entität anerkannt ist:
+Wie sieht die Abfrage des Google Knowledge Graph in der Realität aus? Mit dem kostenlosen Entity Discover Tool von Maximilian D. Muhr lässt sich sekundenschnell prüfen, ob eine Personenmarke oder ein Unternehmen von Google als vollwertige Entität anerkannt ist:
 
 ![Praxis-Check: poliSYS Entity Discover Tool fragt die Google Knowledge Graph Search API ab](https://teleschmie.de/assets/images/tools/polisys-entity-discover-tool.webp)
 
@@ -43304,7 +43304,7 @@ Als ich meine Erfahrungen mit der Beanspruchung des Google Knowledge Panels auf 
 
 ### Strategische Einordnung für SEO und Entity-Building
 
-Die Verknüpfung von [Entitäts-SEO](https://teleschmie.de/glossar/entity-seo/) und dem gezielten Aufbau von [Topical Authority](https://teleschmie.de/glossar/topical-authority/) entscheidet darüber, ob deine Website in generativen Suchsystemen zitiert wird. Ähnliche Ansätze diskutierten wir bereits im [SEOpresso Podcast mit Max Muhr](https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/) und beim regelmäßigen Netzwerken auf dem [SEO-Stammtisch Berlin](https://teleschmie.de/blog/seo-stammtisch-berlin-axel-springer/).
+Die Verknüpfung von [Entitäts-SEO](https://teleschmie.de/glossar/entity-seo/) und dem gezielten Aufbau von [Topical Authority](https://teleschmie.de/glossar/topical-authority/) entscheidet darüber, ob deine Website in generativen Suchsystemen zitiert wird. Ähnliche Ansätze diskutierten wir bereits im [SEOpresso Podcast mit Maximilian D. Muhr](https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/) und beim regelmäßigen Netzwerken auf dem [SEO-Stammtisch Berlin](https://teleschmie.de/blog/seo-stammtisch-berlin-axel-springer/).
 
 Wenn du prüfen möchtest, wie Google und ChatGPT deine Marke aktuell im Knowledge Graph einordnen, analysieren wir deine Entitäten-Struktur gerne gemeinsam in der [SEO-Sprechstunde](https://teleschmie.de/seo-sprechstunde/).
 
@@ -43706,7 +43706,7 @@ Wer mich – den Menschen hinter teleschmie.de – ungeschminkt kennenlernen mö
 
 ---
 
-### SEOpresso Podcast: Meine Empfehlung mit Max Muhr
+### SEOpresso Podcast: Meine Empfehlung mit Maximilian D. Muhr
 
 
 Ich sitze mit einer heißen Tasse Kaffee und meiner Katze noch halb im Halbschlaf auf dem Sofa – und dann starte ich diese neue Episode des SEOpresso-Podcasts. Wenige Minuten später musste ich bei den Anekdoten über Chuck-Norris-Witze, die damals live für die BILD-Website getextet wurden, so laut lachen, dass die Katze beinahe vom Kratzbaum geflogen wäre.
@@ -43717,7 +43717,7 @@ Genau so beginnt eine herausragende Podcast-Folge: Unerwartete Anekdoten, gelebt
 
 Maximilian D. Muhr erzählt im SEOpresso-Podcast bei Björn Darko Dinge, die man selbst nach [24 Jahre SEO-Erfahrung](https://teleschmie.de/blog/24-jahre-seo-gleiche-fehler/) selten in dieser Klarheit zu hören bekommt. Max ist kein theoretischer Folienschubser. Er ist ein Vollblut-Praktiker, der die ganz großen Schiffe der deutschen Medienlandschaft gesteuert und vor dem Absaufen bewahrt hat.
 
-| Themenbereich | Kernaussage von Max Muhr | Strategisches Learning für die Praxis |
+| Themenbereich | Kernaussage von Maximilian D. Muhr | Strategisches Learning für die Praxis |
 | :--- | :--- | :--- |
 | **Karrierestart** | Über Zeitarbeit zu BILD.de, Chuck-Norris-Texte getextet | Eigeninitiative & Neugier schlagen jedes Uni-Diplom |
 | **Konzernpolitik** | Komplexe Machtkämpfe im Verlagswesen überstanden | Erkennen, wann eine Reorganisation toxisch wird |
@@ -48087,7 +48087,7 @@ Ich höre seit über 25 Jahren, dass SEO tot ist. Und trotzdem:
 - **Traffic-Qualität:** Organischer Traffic ist nach wie vor einer der wertvollsten Besucherströme, weil der Nutzer aktiv nach einer Lösung sucht. Er ist "warm", wenn er bei dir landet.
 - **Fundamental-Prinzip:** Wer gefunden werden will, muss verstehen wie Suche funktioniert. Das gilt auch für Amazon, TikTok oder YouTube. Überall ist Suche, überall ist SEO.
 
-Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Wie ich auch im Gespräch [Bist du SEO AI Ready? mit Antonio Blago](https://teleschmie.de/blog/bist-du-seo-ai-ready-podcast/) und in meiner [Podcast-Empfehlung zu Max Muhr (SEOpresso)](https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/) vertiefe, erfordert diese Transformation neues [Agentic SEO](https://teleschmie.de/blog/geo-seo-agentic-eigene-disziplin/) und technisches Verständnis. Aber das Prinzip bleibt: Be the best answer!
+Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Wie ich auch im Gespräch [Bist du SEO AI Ready? mit Antonio Blago](https://teleschmie.de/blog/bist-du-seo-ai-ready-podcast/) und in meiner [Podcast-Empfehlung zu Maximilian D. Muhr (SEOpresso)](https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/) vertiefe, erfordert diese Transformation neues [Agentic SEO](https://teleschmie.de/blog/geo-seo-agentic-eigene-disziplin/) und technisches Verständnis. Aber das Prinzip bleibt: Be the best answer!
 
 ### Tacheles am Ende
 
@@ -51953,7 +51953,7 @@ Du möchtest die Reibungspunkte auf deiner Website identifizieren und deine Conv
 
 ## 25 Jahre im Geschäft – Ein Blick zurück in die Zukunft
 
-Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten – genau wie ich es im [Magic Writing Podcast: Warum SEO nicht tot ist](https://teleschmie.de/blog/magic-writing-podcast-seo-ist-tot/) diskutiert habe. Auch in anderen Audio-Formaten, wie meinem Gespräch bei [SEOpresso über SEO Persönlich](https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/) mit Maximilian Muhr (siehe auch die [Podcast-Empfehlung zu Max Muhr](https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/)), wird deutlich: Im Kern geht es immer noch darum, Relevanz zu schaffen und diese sichtbar zu machen.
+Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten – genau wie ich es im [Magic Writing Podcast: Warum SEO nicht tot ist](https://teleschmie.de/blog/magic-writing-podcast-seo-ist-tot/) diskutiert habe. Auch in anderen Audio-Formaten, wie meinem Gespräch bei [SEOpresso über SEO Persönlich](https://teleschmie.de/blog/seopresso-seo-persoenlich-interview/) mit Maximilian D. Muhr (siehe auch die [Podcast-Empfehlung zu Maximilian D. Muhr](https://teleschmie.de/blog/seopresso-podcast-maximilian-muhr/)), wird deutlich: Im Kern geht es immer noch darum, Relevanz zu schaffen und diese sichtbar zu machen.
 
 ### Worüber wir im Detail gesprochen haben
 

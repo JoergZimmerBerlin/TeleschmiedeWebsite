@@ -62,7 +62,7 @@ faqs:
 
 ## 25 Jahre im Geschäft – Ein Blick zurück in die Zukunft
 
-Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten – genau wie ich es im [Magic Writing Podcast: Warum SEO nicht tot ist](/blog/magic-writing-podcast-seo-ist-tot/) diskutiert habe. Auch in anderen Audio-Formaten, wie meinem Gespräch bei [SEOpresso über SEO Persönlich](/blog/seopresso-seo-persoenlich-interview/) mit Maximilian Muhr (siehe auch die [Podcast-Empfehlung zu Max Muhr](/blog/seopresso-podcast-maximilian-muhr/)), wird deutlich: Im Kern geht es immer noch darum, Relevanz zu schaffen und diese sichtbar zu machen.
+Wenn man seit über zwei Jahrzehnten dabei ist, entwickelt man eine gewisse Gelassenheit gegenüber dem nächsten "großen Ding". Wir haben das Ende von SEO schon so oft vorhergesagt bekommen, dass wir eigentlich schon eine eigene Friedhofs-Sparte dafür bräuchten – genau wie ich es im [Magic Writing Podcast: Warum SEO nicht tot ist](/blog/magic-writing-podcast-seo-ist-tot/) diskutiert habe. Auch in anderen Audio-Formaten, wie meinem Gespräch bei [SEOpresso über SEO Persönlich](/blog/seopresso-seo-persoenlich-interview/) mit Maximilian D. Muhr (siehe auch die [Podcast-Empfehlung zu Maximilian D. Muhr](/blog/seopresso-podcast-maximilian-muhr/)), wird deutlich: Im Kern geht es immer noch darum, Relevanz zu schaffen und diese sichtbar zu machen.
 
 ### Worüber wir im Detail gesprochen haben
 

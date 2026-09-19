@@ -100,7 +100,7 @@ Ich höre seit über 25 Jahren, dass SEO tot ist. Und trotzdem:
 - **Traffic-Qualität:** Organischer Traffic ist nach wie vor einer der wertvollsten Besucherströme, weil der Nutzer aktiv nach einer Lösung sucht. Er ist "warm", wenn er bei dir landet.
 - **Fundamental-Prinzip:** Wer gefunden werden will, muss verstehen wie Suche funktioniert. Das gilt auch für Amazon, TikTok oder YouTube. Überall ist Suche, überall ist SEO.
 
-Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Wie ich auch im Gespräch [Bist du SEO AI Ready? mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/) und in meiner [Podcast-Empfehlung zu Max Muhr (SEOpresso)](/blog/seopresso-podcast-maximilian-muhr/) vertiefe, erfordert diese Transformation neues [Agentic SEO](/blog/geo-seo-agentic-eigene-disziplin/) und technisches Verständnis. Aber das Prinzip bleibt: Be the best answer!
+Die Methoden ändern sich. Wir optimieren heute vielleicht mehr für Entitäten und semantische Netze statt für einzelne Wörter. Wie ich auch im Gespräch [Bist du SEO AI Ready? mit Antonio Blago](/blog/bist-du-seo-ai-ready-podcast/) und in meiner [Podcast-Empfehlung zu Maximilian D. Muhr (SEOpresso)](/blog/seopresso-podcast-maximilian-muhr/) vertiefe, erfordert diese Transformation neues [Agentic SEO](/blog/geo-seo-agentic-eigene-disziplin/) und technisches Verständnis. Aber das Prinzip bleibt: Be the best answer!
 
 ### Tacheles am Ende
 
